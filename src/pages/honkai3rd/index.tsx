@@ -37,7 +37,11 @@ const Honkai3rdIndexPage = () => {
         <Breadcrumb items={[{ href: 'honkai3rd', label: 'Honkai 3rd' }]} />
         <Heading as='h1'>Honkai 3rd</Heading>
         <Box mb={3}>
-          <Image src='/assets/honkai3rd/wallpaper.png' width='100%' />
+          <Image
+            alt='Honkai 3rd Wallpaper'
+            src='/assets/honkai3rd/wallpaper.png'
+            width='100%'
+          />
         </Box>
         <Box mb={3}>
           <Box>

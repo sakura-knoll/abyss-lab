@@ -35,7 +35,10 @@ const StigmataListPage = ({
 
       <Heading as='h1'>{stigmataData.name}</Heading>
 
-      <img src={`/assets/honkai3rd/stigmata/${stigmataData.id}.png`} />
+      <img
+        alt={stigmataData.name}
+        src={`/assets/honkai3rd/stigmata/${stigmataData.id}.png`}
+      />
 
       <Box>
         <Heading as='h2'>Skill - {stigmataData.skill.name}</Heading>
@@ -63,6 +66,7 @@ const StigmataListPage = ({
                       }}
                     >
                       <img
+                        alt={stigmataSetItem.name}
                         style={{
                           position: 'absolute',
                           left: '50%',

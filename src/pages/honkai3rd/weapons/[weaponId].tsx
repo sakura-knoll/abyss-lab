@@ -33,7 +33,10 @@ const WeaponShowPage = ({ weapon }: WeaponShowPageProps) => {
         <Heading as='h1'>{weapon.name}</Heading>
 
         <Box mb={3}>
-          <Image src={`/assets/honkai3rd/weapons/${weapon.id}.png`} />
+          <Image
+            alt={weapon.name}
+            src={`/assets/honkai3rd/weapons/${weapon.id}.png`}
+          />
         </Box>
         <Heading as='h2'>Weapon Skills</Heading>
         <Box>

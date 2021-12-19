@@ -34,7 +34,10 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
 
         <Box className='mb-4'>
           <Box>
-            <img src={`/assets/honkai3rd/battlesuits/${battlesuit.id}.png`} />
+            <img
+              alt={battlesuit.name}
+              src={`/assets/honkai3rd/battlesuits/${battlesuit.id}.png`}
+            />
           </Box>
         </Box>
 

@@ -70,6 +70,7 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
                         }}
                       >
                         <img
+                          alt={battlesuit.name}
                           style={{
                             position: 'absolute',
                             left: '50%',

@@ -67,6 +67,7 @@ const StigmataListPage = ({ stigmataDataList }: StigmataListPageProps) => {
                         }}
                       >
                         <img
+                          alt={stigmata.name}
                           style={{
                             position: 'absolute',
                             left: '50%',

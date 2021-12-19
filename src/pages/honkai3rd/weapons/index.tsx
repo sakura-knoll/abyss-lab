@@ -67,6 +67,7 @@ const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
                         }}
                       >
                         <img
+                          alt={weapon.name}
                           style={{
                             position: 'absolute',
                             left: '50%',
