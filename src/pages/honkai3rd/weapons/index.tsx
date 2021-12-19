@@ -50,7 +50,7 @@ const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
                 }}
               >
                 <NextLink
-                  href={`/honkai3rd/stigmata/${weapon.id}`}
+                  href={`/honkai3rd/weapons/${weapon.id}`}
                   key={weapon.id}
                   passHref={true}
                 >
