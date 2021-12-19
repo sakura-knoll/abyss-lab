@@ -2,6 +2,13 @@
 
 Honkai 3rd fan wiki
 
+## Development
+
+```
+npm i
+npm urn dev
+```
+
 ## License
 
 ### Game Data
