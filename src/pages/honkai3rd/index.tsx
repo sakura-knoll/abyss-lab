@@ -5,6 +5,7 @@ import Breadcrumb from '../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../components/organisms/Honkai3rdNavigator'
 
 const updateNotes = [
+  ['v5.3', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/17399'],
   ['v5.2', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/16632'],
   ['v5.1', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/15882'],
   ['v5.0', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/14917'],
