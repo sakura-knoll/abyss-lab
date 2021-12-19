@@ -1,7 +1,7 @@
 /** @jsxImportSource theme-ui */
 import { mdiChevronRight, mdiHome } from '@mdi/js'
 import Icon from '@mdi/react'
-import { NavLink, Text, Flex } from '@theme-ui/components'
+import { NavLink, Flex } from '@theme-ui/components'
 import NextLink from 'next/link'
 import React from 'react'
 

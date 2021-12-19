@@ -1,5 +1,4 @@
-import fs from 'fs'
-import { readdirSync, readJsonFileSync, resolvePathname } from '../../lib/data'
+import { readdirSync, readJsonFileSync } from '../../lib/data'
 
 export interface StigmataSkill {
   name: string

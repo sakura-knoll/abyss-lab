@@ -8,8 +8,6 @@ import {
   getBattlesuitById,
   listBattlesuits,
 } from '../../../data/honkai3rd/battlesuits'
-import CharacterBadge from '../../atoms/CharacterBadge'
-import TypeBadge from '../../atoms/TypeBadge'
 
 interface BattlesuitShowPageProps {
   battlesuit: BattlesuitData
@@ -35,14 +33,6 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
         <Heading as='h1'>{battlesuit.name}</Heading>
 
         <Box className='mb-4'>
-          <Box>
-            <Box>
-              <CharacterBadge character={battlesuit.valkyrie} />
-            </Box>
-            <Box>
-              <TypeBadge type={battlesuit.type} />
-            </Box>
-          </Box>
           <Box>
             <img src={`/assets/honkai3rd/battlesuits/${battlesuit.id}.png`} />
           </Box>
