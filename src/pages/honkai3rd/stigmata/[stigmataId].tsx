@@ -1,11 +1,5 @@
-import {
-  NavLink,
-  Box,
-  Card,
-  Heading,
-  Text,
-  Paragraph,
-} from '@theme-ui/components'
+import { NavLink, Box, Heading, Text, Paragraph } from '@theme-ui/components'
+import { NextPageContext } from 'next'
 import Link from 'next/link'
 import React from 'react'
 import {
@@ -101,16 +95,18 @@ const StigmataListPage = ({
 
 export default StigmataListPage
 
-export async function getStaticProps(ctx) {
-  const stigmataData = getStigmataById(ctx.params.stigmataId)
+export async function getStaticProps(
+  ctx: NextPageContext & { params: { stigmataId: string } }
+) {
+  const stigmataData = getStigmataById(ctx.params.stigmataId)!
 
   return {
     props: {
       stigmataData: stigmataData,
-      stigmataSetList: getStigmataListBySetId(stigmataData.set).sort(
+      stigmataSetList: (getStigmataListBySetId(stigmataData.set!) || []).sort(
         (a, b) => -a.type.localeCompare(b.type)
       ),
-      stigmataSet: getStigmataSetBySetId(stigmataData.set) || null,
+      stigmataSet: getStigmataSetBySetId(stigmataData.set!) || null,
     },
   }
 }

@@ -1,5 +1,5 @@
 /** @jsxImportSource theme-ui */
-import { Text, NavLink, Box, Heading, Flex, Link } from '@theme-ui/components'
+import { Text, Box, Heading, Flex, Link } from '@theme-ui/components'
 import NextLink from 'next/link'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
