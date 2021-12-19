@@ -49,6 +49,11 @@ const Honkai3rdIndexPage = () => {
               <Link>Stigmata</Link>
             </NextLink>
           </Box>
+          <Box>
+            <NextLink href={`/honkai3rd/weapons`} passHref>
+              <Link>Weapons</Link>
+            </NextLink>
+          </Box>
         </Box>
         <Box>
           <Heading>Updates</Heading>
