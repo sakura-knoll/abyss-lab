@@ -1,0 +1,111 @@
+{
+  "id": "bb",
+  "name": "Blueberry Blitz",
+  "type": "mecha",
+  "valkyrie": "olenyevas",
+  "strengths": [
+    "physical",
+    "freeze"
+  ],
+  "leader": {
+    "core": {
+      "name": "Vstavai!",
+      "description": "Leader Bonus:\nVstavai!: MECH and PSY-type battlesuits deal 10.0% more DMG to shields."
+    },
+    "subskills": [
+      {
+        "name": "Vstavai!",
+        "description": "MECH and PSY-type characters deal 25.0% more DMG to shields.",
+        "requiredRank": "s"
+      }
+    ]
+  },
+  "special": {
+    "core": {
+      "name": "Charged ATK: Sturmovik",
+      "description": "Perform a charged leap into the air for a Dive ATK.\nAt max Blitz Power (BP), tap and hold the [ATK] button to spend all KE, aim at the attack site, and release the [ATK] button to unleash Diving Ilyusha.Diving Ilyusha: Deals 1000% ATK of Physical DMG and knocks enemies airborne."
+    },
+    "subskills": [
+      {
+        "name": "Hardened Sabot",
+        "description": "Charged ATK deals 50% more Physical DMG to shielded enemies.",
+        "requiredRank": "sss"
+      },
+      {
+        "name": "Tactical Stance",
+        "description": "After Charged ATK, character enters Tactical Buff that gives 25% faster Move Speed, 20% Total DMG Reduction, and Ignore Interrupt for 7s."
+      }
+    ]
+  },
+  "passive": {
+    "core": {
+      "name": "Passive",
+      "description": "Passive bonuses apply automatically\nBlitz Power (BP): SBattle starts with 1000 BP (max). BP recovers at 40/s.\nFirst 3 sequences of Basic ATK restores 35 BP. 4th sequence and Ultimate Evasion restores 70 BP."
+    },
+    "subskills": [
+      {
+        "name": "Maneuver Warfare",
+        "description": "Character gains 40.0% Total DMG Multiplier against enemies affected by Weaken or Time Slow."
+      },
+      {
+        "name": "Equipment Enhancement",
+        "description": "After switch entry, first Charged ATK or Ultimate ATK freezes hit enemies for 4.0s CD: 30s. Upon exit, the character switching in gains a 15.0% Physical DMG buff. If Molotov Cherry switches in, then she also gains Ignore Interrupt for 15s. CD: 20s.",
+        "requiredRank": "ss"
+      }
+    ]
+  },
+  "ultimate": {
+    "core": {
+      "name": "We'll Bury You",
+      "description": "Adopt a DEF stance to negate incoming attacks.Duration: 1.8s.When DEF Stance ends or when attacked during DEF Stance, Retaliation is triggered inflicting 550% + 400% ATK of Physical DMG and applies Weaken (deals 20% less DMG) to the enemy for 6s. If attacked immediately after taking DEF Stance, Retaliation EX is triggered, dealing 850% + 700% ATK of Physical DMG, proccing a brief Time Fracture and reducing Ultimate CD by 9s.CD: 15s. SP cost: 25"
+    },
+    "subskills": [
+      {
+        "name": "Weakness Scan",
+        "description": "After performing the Ultimate, character deals 50.0% more Physical DMG while Molotov Cherry deals 25.0% more Physical DMG for 30s. Triggering this again resets the duration."
+      },
+      {
+        "name": "Lethal Strike",
+        "description": "Ultimate gains 40.0% Crit Rate and 60.0% Crit DMG.",
+        "requiredRank": "s"
+      },
+      {
+        "name": "Composure",
+        "description": "Retaliation EX also recovers 12.0 SP."
+      }
+    ]
+  },
+  "evasion": {
+    "core": {
+      "name": "Emergency Evasion",
+      "description": "Quickly evades enemy attack. Can be performed twice in a row.\nUltimate Evasion: Generates an Iron Curtain that hits enemies in the AOE, dealing 50% ATK of Physical DMG per 0.5s and pulling them in for 3s. Base CD: 15s."
+    },
+    "subskills": [
+      {
+        "name": "Speedy Recovery",
+        "description": "Shortens CD of Ultimate Evasion by 3.00s."
+      },
+      {
+        "name": "Zamorozka Freeze",
+        "description": "Iron Curtain also deals 30.0% ATK of Ice DMG for each hit.",
+        "requiredRank": "s"
+      }
+    ]
+  },
+  "basic": {
+    "core": {
+      "name": "Blitz Ataka",
+      "description": "Swing that greatsword!<br>\n1st Sequence: 150% ATK of Physical DMG.\n2nd Sequence: 150% ATK of Physical DMG.\n3rd Sequence: 150% + 3x100% ATK of Physical DMG.\n4th Sequence: 2x100% + 300% ATK of Physical DMG."
+    },
+    "subskills": [
+      {
+        "name": "Flash Freeze",
+        "description": "Each Basic ATK hit also deals 300.0 Ice DMG."
+      },
+      {
+        "name": "QTE: Operation Gemina",
+        "description": "QTE: Triggered when enemy is knocked airborne or when teammate is hit (does not work in co-op/squad modes), dealing 3x150% + 300% ATK of Physical DMG. Heal Molotov Cherry for 300.0 HP if she is in the team."
+      }
+    ]
+  }
+}

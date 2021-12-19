@@ -1,0 +1,141 @@
+{
+  "id": "hov",
+  "name": "Herrscher of the Void",
+  "type": "biologic",
+  "valkyrie": "kiana",
+  "strengths": [
+    "physical",
+    "time mastery",
+    "fast atk"
+  ],
+  "leader": {
+    "core": {
+      "name": "Void Throne",
+      "description": "Leader Bonus: Law of the Void: Team gains 30% Crit DMG and 10% Crit Rate."
+    },
+    "subskills": [
+      {
+        "name": "Boundless Realm",
+        "description": "Upon entry, Herrscher Charge restores to 120.",
+        "requiredRank": "ss"
+      },
+      {
+        "name": "Void Throne",
+        "description": "Team gains 40% Crit DMG and 15% Crit Rate.",
+        "requiredRank": "s2"
+      },
+      {
+        "name": "Spatial Collapse",
+        "description": "In Herrscher form, Space Core explosion deal 18.0% bonus Physical DMG and 24.0% further bonus damage to shields.",
+        "requiredRank": "ss3"
+      }
+    ]
+  },
+  "special": {
+    "core": {
+      "name": "Charge: Time Tremor",
+      "description": "With at least 240 Herrscher Charge, tap and hold the [ATK] button during the 5-sequence Basic ATK to unleash Charged ATK (snap her fingers).\nHerrscher Charge maxes at 480. Each Space Core summoned recovers 60 Herrscher Charge. Charged attack: Temporary Time Prison to the target and deals 600% ATK of Large AOE Physical DMG, and activates Herrscher Form.Full Herrscher Charge: Deal an extra 400% ATK of Extra-large AOE Physical DMG."
+    },
+    "subskills": [
+      {
+        "name": "Rift Geyser",
+        "description": "Explosion at the Space Core summon position gains 50.0% ATK of Physical DMG.",
+        "requiredRank": "this"
+      },
+      {
+        "name": "Distortion",
+        "description": "Charged attacks gain 60.0% Total DMG Multiplier against unshielded enemies.",
+        "requiredRank": "this"
+      },
+      {
+        "name": "Dimension Warp",
+        "description": "When QTE ends, gain 60 Herrscher Charge and 20.0% bonus ATK Speed for 10s."
+      }
+    ]
+  },
+  "passive": {
+    "core": {
+      "name": "Passive Skill",
+      "description": "Passive bonuses apply automatically.\nHerrscher Form: Consumes 24 Herrscher Charge every 0.5s. Can move rapidly during attack. Can perform 2 consecutive evasions. Slightly gains Interrupt and Ignore Interrupt. The AOE of Space Core explosion extends.\nBasic ATK under Herrscher Form becomes a 3-sequence ATK:\n1st Sequence: 3x50% ATK of Physical DMG.\n2nd Sequence: 4x50% ATK of Physical DMG.\n3rd Sequence: Inflicts short Time Prison on the target; explosion epicenter pulls in enemies within a small AOE, dealing 80%+6x50% ATK of large AOE Physical DMG and summoning a Space Core at the enemy's position."
+    },
+    "subskills": [
+      {
+        "name": "Law of the Void",
+        "description": "Each repeated attack against one single target (and hits no other enemies) gains 1% Crit Rate (max: 20%). Law of the Void resets if not attacking for 3s or switching target.",
+        "requiredRank": "s3"
+      },
+      {
+        "name": "Deviant Energy",
+        "description": "For every 1 Space Core summoned, character takes 15.0% less Indirect DMG for 10s. Max stacks: 3. Each stack resets the duration."
+      },
+      {
+        "name": "Honkai Mark",
+        "description": "Charged ATK marks the enemy for 10s. Attacks by the Herrscher of the Void against marked enemies gain 15.0% Total DMG (independent effect). \nAfter level 1, the skill can only be increased when  rank.\nAfter level 2, the skill can only be increased when  rank."
+      }
+    ]
+  },
+  "ultimate": {
+    "core": {
+      "name": "Void Unleashed",
+      "description": "Tears open the space-time fabric to unleash a barrage of raw energy.\nDeals 9-12 hits in a large AOE in front of the character, each hit dealing 300% ATK of Physical DMG and applies Time Lock to enemies within a large AOE around the character for 3s.\nSP cost: 125"
+    },
+    "subskills": [
+      {
+        "name": "QTE: Angel of Destruction",
+        "description": "QTE: Triggers upon shieldbreak or when an enemy is affected by Time Slow. Deals 10x100% ATK of Physical DMG.",
+        "requiredRank": "this"
+      },
+      {
+        "name": "Judgment",
+        "description": "Void Unleashed hits gain 30.0% Crit Rate against enemies above 50% HP and gain 50.00% Total DMG against enemies below 50% HP."
+      },
+      {
+        "name": "Void Empowerment",
+        "description": "Casting Ultimate gives 360 Herrscher Charge.",
+        "requiredRank": "ss"
+      }
+    ]
+  },
+  "evasion": {
+    "core": {
+      "name": "Phase Shuttle",
+      "description": "Shuttle through the space-time fabric to evade enemy attacks.\nUltimate Evasion summons a Space Core and triggers a local Time Slow, stopping enemy action within the AOE for 3s. CD: 20s.\nAfter evasion, tap the [Attack] button within a short time period to deal the 3rd strike of the 5th Basic ATK sequence."
+    },
+    "subskills": [
+      {
+        "name": "Void Lock",
+        "description": "When there are enemies along the path of Phase Shuttle, Ultimate Evasion effects will trigger without Ultimate Evasion conditions. Shortens Phase Shuttle CD by 3.0s."
+      },
+      {
+        "name": "Gegenstrom",
+        "description": "For every enemy affected by Time Slow, the Valkyrie gains 10.0% Physical DMG for 10s. Max stacks: 3."
+      },
+      {
+        "name": "Suspended Space",
+        "description": "When local Time Slow ends, trigger Time Fracture for 2.0s.",
+        "requiredRank": "sss"
+      }
+    ]
+  },
+  "basic": {
+    "core": {
+      "name": "Subspace Lance",
+      "description": "Rapid 5-sequence attack.\n1st Sequence: 60% ATK of Physical DMG.\n2nd Sequence: 2x40% ATK of Physical DMG.\n3rd Sequence: Small AOE 150% ATK of Physical DMG, and summons a Space Core (summoned entity) at the enemy's position.\n4th Sequence: 3x40% ATK of Physical DMG.\n5th Sequence: Inflicts short Time Prison on the target enemy. Explosion epicenter pulls in enemies in small AOE. Deals 80%+6x40% ATK of Large AOE Physical DMG and summons a Space Core at the enemy's position.\nSpace Core explodes after being summoned, dealing 100% ATK of Physical DMG (DMG calculations based on Herrscher of the Void's stats)."
+    },
+    "subskills": [
+      {
+        "name": "Weltraum Richter",
+        "description": "In Herrscher Form: Gains 30.0% Total DMG, and further gains 30% Total DMG against MECH-type enemies."
+      },
+      {
+        "name": "Contortion Effect",
+        "description": "During Herrscher Form: Explosion at the Space Core summon position deals 350.0% ATK of Physical DMG.",
+        "requiredRank": "this"
+      },
+      {
+        "name": "Dimension Overload",
+        "description": "During Herrscher Form: Last hit of the Basic ATK sequence will also slowly pull-in enemies within a 10.0-meter radius."
+      }
+    ]
+  }
+}

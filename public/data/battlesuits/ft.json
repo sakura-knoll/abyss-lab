@@ -1,0 +1,118 @@
+{
+  "id": "ft",
+  "name": "Fervent Tempo Δ",
+  "type": "psychic",
+  "valkyrie": "olenyevas",
+  "strengths": [],
+  "leader": {
+    "core": {
+      "name": "SHOWTIME!",
+      "description": "Leader Bonus: SHOWTIME!: Entire team gains 20.0% Melee Physical DMG."
+    },
+    "subskills": [
+      {
+        "name": "SHOWTIME!",
+        "description": "Entire team gains 40.0% Melee Physical DMG.",
+        "requiredRank": "ss"
+      }
+    ]
+  },
+  "special": {
+    "core": {
+      "name": "Charged ATK: Dissociated Harmony",
+      "description": "Attack enemies with the weapon fully charged.\nCondition: full CYAN Juice & PINK Juice.\nConsume all Juice to deal 400% ATK of Physical DMG and enter Fervent Mode.\n1st Sequence: 240% ATK of Physical DMG.\n2nd Sequence: 240% ATK of Physical DMG.\n3rd Sequence: 560% ATK of Physical DMG.\nIn Fervent Mode: Valkyrie has improved Ignore Interrupt; Charged ATK is disabled; PINK/CYAN Juice cannot be restored."
+    },
+    "subskills": [
+      {
+        "name": "Infectious Mood",
+        "description": "In Fervent Mode, enemies take 18.0% bonus Physical DMG from Molotov Cherry's attacks (independent effect).",
+        "requiredRank": "1★"
+      },
+      {
+        "name": "Flash of Inspiration",
+        "description": "Charged ATKs deal 400.0% ATK of bonus Physical DMG.",
+        "requiredRank": "4★"
+      }
+    ]
+  },
+  "passive": {
+    "core": {
+      "name": "Double Stencil",
+      "description": "Passive bonuses apply automatically.\nCYAN & PINK Juice: Starts at 0 and maxes at 1200). Different moves restore different Juice.With full CYAN & PINK Juice, Charged ATK consumes all Juice to induce Fervent Mode and evolve Valkyrie's skillset.\nValkyrie enters Fervent Mode with 2400 Fervent Juice (4800 max) and consumes 75 per 0.2s. Fervent Mode ends when Fervent Juice runs out."
+    },
+    "subskills": [
+      {
+        "name": "Cognitive Fuzz",
+        "description": "When Combo Hit Count exceeds 10/30, character gains a 20.0%/50.0% Total DMG Multiplier buff. Character gains a 40.0% Total DMG Multiplier buff against enemies affected by Weaken or Time Slow."
+      },
+      {
+        "name": "Auto-Mend",
+        "description": "Heal 15.0 HP/s when enemies are nearby.",
+        "requiredRank": "ss"
+      },
+      {
+        "name": "Unsynced Cycle",
+        "description": "Valkyrie has 15.0% bonus Crit Rate and deals 15.0% bonus Crit DMG. Criting further boosts Crit DMG by 15.0% for 5s. Subsequent procs reset the duration.",
+        "requiredRank": "1★"
+      }
+    ]
+  },
+  "ultimate": {
+    "core": {
+      "name": "Phantom Memories",
+      "description": "Adopts DEF stance to negate incoming attacks.\nSP cost: 50. Base CD: 9s.\nMaintain DEF Stance for up to 0.7s.\nWhen DEF Stance ends or when attacked while it's active, performs Strike Back to deal 400%+400% ATK of Physical DMG.\nIf attacked upon activating DEF Stance, then performs Strike Back EX to deal 100%+400%+1000% ATK of Physical DMG and trigger a 1.6s global Time Fracture.\nValkyrie enters Fervent Mode upon Ultimate, and CYAN/PINK Juice will resume to previous levels after Fervent Mode ends."
+    },
+    "subskills": [
+      {
+        "name": "Odette's Curse",
+        "description": "Ultimate boosts Valkyrie's Crit Rate by 15.0% and Physical DMG by 15.0% for 9.0s.",
+        "requiredRank": "1★"
+      },
+      {
+        "name": "Talia's Wound",
+        "description": "Strike Back EX has 30.0% bonus Crit Rate and deals 20.0% bonus Crit DMG.",
+        "requiredRank": "6★"
+      }
+    ]
+  },
+  "evasion": {
+    "core": {
+      "name": "Trick Evader",
+      "description": "Quickly dodge enemy attacks. Can be performed twice in a row and grants 200 PINK Juice.\nVODKA SHIELD: Ultimate Evasion triggers 3s of global Time Fracture, grants 400 PINK Juice and a barrier lasting 6s which can absorb Total DMG equal to 15% max HP. CD: 15s.\nIn Fervent Mode, no Fervent Juice is consumed within 3s after Time Fracture is triggered."
+    },
+    "subskills": [
+      {
+        "name": "Mind Lock",
+        "description": "Activating Ultimate Evasion skill immobilizes nearby enemies for 4.0s."
+      },
+      {
+        "name": "Illusive Mirage",
+        "description": "With the Ultimate Evasion barrier on, Crit Rate increases by 25.0%.",
+        "requiredRank": "ss"
+      }
+    ]
+  },
+  "basic": {
+    "core": {
+      "name": "Blazing Tones",
+      "description": "Greatsword attack.\n1st Sequence: 120% ATK of Physical DMG.\n2nd Sequence: 70%+70% ATK of Physical DMG.\n3rd Sequence: 40%+120% ATK of Physical DMG.\n4th Sequence: 180% ATK of Physical DMG.\n5th Sequence: 140%+140% ATK of Physical DMG.\n6th Sequence: 300% ATK of Physical DMG.\nEvade and attack during the first 3 sequences to perform the next sequence.\nEvade and attack during the 4th to 6th sequence to perform the 4th sequence.\nEach sequence grants 150 CYAN Juice."
+    },
+    "subskills": [
+      {
+        "name": "Storm Dervish",
+        "description": "Attacks in Fervent Mode and Ultimate deal 50.0% bonus Total DMG to BIO-type enemies.",
+        "requiredRank": "2★"
+      },
+      {
+        "name": "QTE: Neon Impact",
+        "description": "QTE: Triggered when an enemy is Weakened or an teammate is attacked (does not work in co-op mode) to deal 1,000% ATK of Physical DMG to enemies nearby, gather, and stun them for 5.0s. Restores 600 CYAN/PINK Juice and can be connected into Charged ATK at full Juice.",
+        "requiredRank": "2★"
+      },
+      {
+        "name": "Graded Momentum",
+        "description": "During the 4th to 6th sequence of Basic ATK, Valkyrie has higher Ignore Interrupt, takes 40.0% less Total DMG, and every hit restores takes 1.0 bonus SP.",
+        "requiredRank": "2★"
+      }
+    ]
+  }
+}

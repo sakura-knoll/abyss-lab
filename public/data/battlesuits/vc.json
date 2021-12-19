@@ -1,0 +1,121 @@
+{
+  "id": "vc",
+  "name": "Valkyrie Chariot",
+  "type": "psychic",
+  "valkyrie": "bronya",
+  "strengths": [
+    "physical",
+    "time mastery",
+    "gather",
+    "ignite"
+  ],
+  "leader": {
+    "core": {
+      "name": "Reactive Armor",
+      "description": "Leader Bonus:\nReactive Armor: Team takes 20% less Ranged Physical DMG."
+    },
+    "subskills": [
+      {
+        "name": "Reactive Armor",
+        "description": "Team receives 28% less Ranged Physical DMG."
+      }
+    ]
+  },
+  "special": {
+    "core": {
+      "name": "Switch: Gravity Shatter",
+      "description": "Switch entry immediately unleashes a ground breaking attack.\nGround Smasher: 150% ATK of Physical DMG."
+    },
+    "subskills": [
+      {
+        "name": "Aerial Smasher",
+        "description": "Gravity Shatter deals additioinal 300% ATK of Physical DMG to enemies knocked airborne."
+      },
+      {
+        "name": "QTE: Super Gravity",
+        "description": "Triggers QTE when enemy is stunned, dealing 100% ATK + 4,158.0 of Physical DMG. Knocks enemies airborne and casts Time Lock for 3s."
+      }
+    ]
+  },
+  "passive": {
+    "core": {
+      "name": "Passive Skill",
+      "description": "Character automatically gain passive bonuses."
+    },
+    "subskills": [
+      {
+        "name": "Zero-G Barrier",
+        "description": "Attacks against stunned and paralyzed enemies deals 100.0% more Physical DMG."
+      },
+      {
+        "name": "Particle Fusion",
+        "description": "Uncharged and Charged Basic ATKs of cannon-type weapons deal X% more Crit DMG.",
+        "requiredRank": "s"
+      }
+    ]
+  },
+  "ultimate": {
+    "core": {
+      "name": "Grav Singularity",
+      "description": "Summons a powerful black hole that draws in surrounding enemies.\nBlack Hole: Lasts for 10s, during which the caster is invincible.\nGravitational Collapse: Affected enemies significantly lose Ignore Interrupt and deal 50% less Total DMG.\nSP Cost: 50\nAfter unleashing the Ultimate, character switch is allowed, but Valkyrie Chariot will stay on battlefield during her Ultimate."
+    },
+    "subskills": [
+      {
+        "name": "Particle Beam",
+        "description": "Bleeds enemies pulled in by Grav Singularity, dealing X Physical DMG every 0.5s."
+      },
+      {
+        "name": "Particle Fusion",
+        "description": "Generates explosion at the end of Grav Singularity. 100.0% chance of stunning enemies for 6.0s.",
+        "requiredRank": "s"
+      },
+      {
+        "name": "Gravity Wrench",
+        "description": "Gain X% Ranged Physical DMG against enemies pulled in by Grav Singularity.",
+        "requiredRank": "sss"
+      }
+    ]
+  },
+  "evasion": {
+    "core": {
+      "name": "Dimension Shift",
+      "description": "Enters temporary Dimension Shift to evade attacks.\nTime Fracture: Triggers Time Fracture upon an Ultimate Evasion, slowing all enemies for 5s. CD: 15 sec."
+    },
+    "subskills": [
+      {
+        "name": "Time Lock",
+        "description": "Increases charging speed by 100% during Time Fracture."
+      },
+      {
+        "name": "Quantum Lock",
+        "description": "During global Time Fracture and 1s afterwards, all cannon shells and missiles hitting the enemy deal X% more Physical DMG.",
+        "requiredRank": "a"
+      },
+      {
+        "name": "Particle Rebuild",
+        "description": "Shortens CD of Time Fracture by 8.0s.",
+        "requiredRank": "ss"
+      }
+    ]
+  },
+  "basic": {
+    "core": {
+      "name": "Charge: Particle Cannon",
+      "description": "Charged cannon fire that deals greater DMG with higher charge sequence.\nArm Switch: Charging mode changes with type of weapon equipped."
+    },
+    "subskills": [
+      {
+        "name": "Reactive Charge",
+        "description": "Blocks attack once and interrupts weak enemies during charging. CD: 6.0s. Blocks 80.0% of incoming damage."
+      },
+      {
+        "name": "Atomic Radiation",
+        "description": "Uncharged attacks inflict AOE ignition effects, dealing X Fire DMG every 0.5s to ignited enemies for Xs."
+      },
+      {
+        "name": "Chain Reaction",
+        "description": "Basic ATKs and Charged ATKs gain X% to Total DMG Multiplier against ignited enemies."
+      }
+    ]
+  }
+}

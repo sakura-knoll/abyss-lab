@@ -1,0 +1,129 @@
+{
+  "id": "sf",
+  "name": "Scarlet Fusion",
+  "type": "mecha",
+  "valkyrie": "sakura",
+  "strengths": [
+    "lightning dmg",
+    "burst",
+    "paralyze",
+    "heavy atk"
+  ],
+  "leader": {
+    "core": {
+      "name": "Nuclear Armaments",
+      "description": "Leader Bonus:\nNuclear Armament: Team gains 15% Total DMG Multiplier to switch skill attacks."
+    },
+    "subskills": [
+      {
+        "name": "Nuclear Armament",
+        "description": "Team Switch Skill attacks gain 30% Total DMG Multiplier.",
+        "requiredRank": "s"
+      }
+    ]
+  },
+  "special": {
+    "core": {
+      "name": "Charge: Fusion Assault",
+      "description": "Charging on the spot initiates a forward dash and upward slash that knocks the enemy airborne.\nSprinting Zornhut: Tap and hold the [ATK] button to start, and pushes the enemy forward, then release the [ATK] button to knock the enemy airborne and deal 400% ATK of Physical DMG.\nSprint ATK: During sprinting, tap the [ATK] button to launch a jump cleave that deals 500% ATK of Physical DMG."
+    },
+    "subskills": [
+      {
+        "name": "Devastator's Charge",
+        "description": "Each sprint attack additionally deals 200 Lightning DMG.",
+        "requiredRank": "this"
+      },
+      {
+        "name": "Switch: Shoryu Blade",
+        "description": "Switch entry unleashes Onrush Slash, dealing 450% ATK of Physical DMG and knocking enemies airborne."
+      },
+      {
+        "name": "QTE: Shoryu Nuclear EX",
+        "description": "QTE: Triggers QTE when an enemy is affected by Time Slow. Knocks enemies airborne and deals 605% ATK of Physical DMG. Launches a Light Blade that deals 2,150 Lightning DMG and paralyzes enemies for 1.5s.",
+        "requiredRank": "s"
+      }
+    ]
+  },
+  "passive": {
+    "core": {
+      "name": "Passive Skill",
+      "description": "Passive bonuses apply automatically."
+    },
+    "subskills": [
+      {
+        "name": "Nuclear Protection",
+        "description": "Shortens the duration of most debuffs by 50%."
+      },
+      {
+        "name": "Barrier Smasher",
+        "description": "Additionally deals 601 Lightning DMG against enemies with unbroken Elite Shield."
+      },
+      {
+        "name": "Ruthless Pursuit",
+        "description": "Attacks against ignited or bleeding enemies gain 40.0% Total DMG Multiplier.",
+        "requiredRank": "s"
+      }
+    ]
+  },
+  "ultimate": {
+    "core": {
+      "name": "Nexus Unlock",
+      "description": "Enters the Valkyrie state, enhancing all attacks.\nBurst: Enhances most attack moves, ATK Speed, and Interrupt ability.\nAt over 100 SP, consumes 20 AP to activate and 10 SP/s afterwards until SP is depleted; max duration: 60s."
+    },
+    "subskills": [
+      {
+        "name": "Nuclear Impact",
+        "description": "During Burst, each attack will launch a penetrating Light Blade that travels in a straight path, dealing 321% Lightning DMG to enemies hit."
+      },
+      {
+        "name": "Fusion Rupture",
+        "description": "Upon Burst Activation, deals 400.0% of Lightning DMG to surrounding enemies and paralyzes them for 3.00s.",
+        "requiredRank": "s"
+      },
+      {
+        "name": "Plasma Rend",
+        "description": "During Burst, the 3-sequence Light Blades bleeds enemies, dealing 120 Physical DMG every 0.5s for 3.00s.",
+        "requiredRank": "ss"
+      }
+    ]
+  },
+  "evasion": {
+    "core": {
+      "name": "Fusion Roll",
+      "description": "Evasive roll. Can be triggered twice in a row.\nNuclear Propulsion: After Ultimate Evasion, Move Speed increases by 40% for 3s. Tap [ATK] button at the moment of Ultimate Evasion to immediately launch a Sprint ATK jump cleave.\nNuclear Charge: After an Ultimate Evasion, receives a 5s EM Charge that increases Ignore Interrupt; CD: 15s.\nEM Blast: During EM Charge, hitting an enemy generates an EM Blast that deals 80% ATK of Lightning DMG to target and surrounding enemies, and paralyzes them for 3s."
+    },
+    "subskills": [
+      {
+        "name": "Rapid CD",
+        "description": "Shortens CD of EM Charge by 4s.",
+        "requiredRank": "this"
+      },
+      {
+        "name": "Augmented Reactor",
+        "description": "Extends the duration of EM Charge by 3.0s. EM Blast additionally deals 301% ATK of Lightning DMG.",
+        "requiredRank": "ss"
+      }
+    ]
+  },
+  "basic": {
+    "core": {
+      "name": "Heavy Sword",
+      "description": "Basic ATK: Tri-strike. Triggering Perfect Combo boosts Ignore Interrupt.\nTri-Strike: Each strike deals 150%, 180%, and 250% ATK of Physical DMG respectively.\nPerfect Combo: Triggered by tapping [ATK] when a flashing circle appears on the Valkyrie to gain 15% Crit Rate for this attack.\nWhen 2 consecutive (interval is less than 2s) Perfect Combos are triggered, charges the weapon briefly; within the 10s, the first Sprinting Zornhut unleashed will also launch a Spinning Blade that deals 3x200% ATK of Lightning DMG."
+    },
+    "subskills": [
+      {
+        "name": "Slash Rhythm",
+        "description": "The attack that triggers Perfect Combo gains 15.0% Crit Rate and additionally deals 120% ATK of Lightning DMG. Lightning DMG of Spinning Blade increases to 500% ATK."
+      },
+      {
+        "name": "Slash Tempo",
+        "description": "Gains Ignore Interrupt and 50% Total DMG Reduction after triggering Perfect Combo for 1.8s. Recovers 4.0 SP every time when Spinning Blade hits an enemy."
+      },
+      {
+        "name": "Slash Accent",
+        "description": "When triggering Perfect Combo on the 3rd sequence of the Basic ATK, gain Interrupt chance and 100.0% chance to paralyze the enemy for 3.2s. CD: 8s.",
+        "requiredRank": "sss"
+      }
+    ]
+  }
+}

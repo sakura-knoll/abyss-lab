@@ -1,0 +1,144 @@
+{
+  "id": "hot",
+  "name": "Herrscher of Thunder",
+  "type": "psychic",
+  "valkyrie": "mei",
+  "strengths": [
+    "lightning dmg",
+    "burst",
+    "time mastery",
+    "fast atk",
+    "paralyze"
+  ],
+  "leader": {
+    "core": {
+      "name": "Yaoyorozu",
+      "description": "Leader Bonus:\nLeader Skill: Team deals 14.0% bonus Total DMG. PSY-Type battlesuits have 50 bonus initial SP. In Open World, the initial SP bonus takes effect once every 10 mins."
+    },
+    "subskills": [
+      {
+        "name": "Kamiyonanayo",
+        "description": "Bombard costs 30.0 Herrscher Charge per 0.2s.",
+        "requiredRank": "s2"
+      },
+      {
+        "name": "Yaoyorozu",
+        "description": "Team deals 28.0% bonus Total DMG. PSY-Type battlesuits have 70 bonus initial SP. In Open World, the initial SP bonus takes effect once every 10 mins.",
+        "requiredRank": "this"
+      },
+      {
+        "name": "Takamagahara",
+        "description": "Casting Ultimate Finisher restores 400.0 Herrscher Charge, and the next Shinzan Strike restores 35 Herrscher Charge per 0.2s for 2s.",
+        "requiredRank": "sss"
+      }
+    ]
+  },
+  "special": {
+    "core": {
+      "name": "Combo: Susanoo's Frenzy",
+      "description": "Unleash Herrscher power for a mighty blow. \nHold [ATK] after Basic ATK to perform. \nCombo ATK: 200% ATK of Lightning DMG. \nAt full Herrscher Charge, hold [ATK] after Basic or Combo ATK to consume all charge and perform special Combo ATK - Shinzan Strike, dealing 1050% ATK of Lightning DMG and triggering 3s of Narukami's Mark's Falling Thunder effect."
+    },
+    "subskills": [
+      {
+        "name": "Bane of Shutendoji",
+        "description": "Shinzan Strike deals 50.0% bonus Total DMG. In non-burst mode, Combo ATKS restore 9.0 SP on hit. CD: 6.0s."
+      },
+      {
+        "name": "Flare of Gongen",
+        "description": "At 75 hit count or higher, normal Combo ATKs reset hit count to 25, deal 100.0% ATK of bonus Lightning DMG, paralyze enemies, and proc Narukami's Mark's Falling Thunder effect for 2s. In the following 10s, affected enemies stack 1 Paralyze Trauma (12 max) for every hit by the Valkyrie."
+      },
+      {
+        "name": "Fang of Momiji",
+        "description": "After Combo ATKs hit, the Valkyrie restores 40.00 HP per second for 10s.",
+        "requiredRank": "ss"
+      }
+    ]
+  },
+  "passive": {
+    "core": {
+      "name": "Kagutsuchi's Avatar",
+      "description": "Passive bonuses apply automatically.\nHerrscher Charge starts at 200 and maxes at 600. When performing special Combo ATK and Ultimate, the Valkyrie is in Herrscher Form. Ultimate Evasion skill and Bombard inflict Blitzlock, which immobilize and paralyze enemies. \nWhen hitting an enemy inflicted with Narukami's Mark, Basic ATK, Combo ATK, Evasion ATK, and Ultimate deal 5%/20% ATK of bonus Lightning DMG to all marked enemies and recover 26/50 Herrscher Charge. CD: 0.05s. (No Herrscher Charge regen during Bombard and Finisher.) \nFalling Thunder: Certain moves can proc it to deal 30% ATK of Lightning DMG per 0.2s to all enemies marked with Narukami's Mark and restore 10 Herrscher Charge. Subsequent procs will extend the duration."
+    },
+    "subskills": [
+      {
+        "name": "Brand of Kuji",
+        "description": "When the Valkyrie attacks enemies inflicted with Narukami's Mark, the bonus Lightning DMG increases to 10.0%/40.0% of ATK.",
+        "requiredRank": "this"
+      },
+      {
+        "name": "Ruin of Arajishi",
+        "description": "The Valkyrie deals 30.0% bonus Lightning DMG. In Herrscher Form, Elemental Breach is boosted by 18.0%."
+      },
+      {
+        "name": "Gale of Acala",
+        "description": "When the Valkyrie is deployed, teammates on standby restore 10.0% of SP obtained by her. The Valkyrie deals 30.0% bonus Total DMG to Mech enemies."
+      }
+    ]
+  },
+  "ultimate": {
+    "core": {
+      "name": "Amaterasu's Ride",
+      "description": "Enter burst mode and unleash full Herrscher power on the dragon's back\nRide the dragon to fight for 15s. \nThe Valkyrie takes damage when the dragon is hit but she has 80% Total DMG Reduction, cannot die, restores 120 HP/s, and cannot cast weapon actives. \nEntry: 1600% ATK of Lightning DMG and 600 Herrscher Charge regen. \nBarrage: Tap [ATK] repeatedly to attack, dealing 250% ATK of Lightning DMG per hit. The cyclone deals 25% ATK of Lightning DMG per 0.25s to enemies pulled in. \nCombo ATK - Bombard: Hold [ATK] and consume 50 Herrscher Charge per 0.2s, dealing 160% ATK of Lightning DMG and inflicting 0.5s of Blitzlock. \nFinisher: Deal 1400% ATK of Lightning DMG and trigger a 4s Time Fracture. Switch out the Valkyrie (will suspend burst mode and perform Finisher upon next entry) or tap [ULT] again to perform. \nSP Cost: 125. Tap [ULT] 12s after activation or late to perform Finisher."
+    },
+    "subskills": [
+      {
+        "name": "Amenohabakiri",
+        "description": "Barrage deals 300.0%ATK of bonus Physical DMG per hit and deals 120.0% bonus damage to shields."
+      },
+      {
+        "name": "Futsuno Mitama",
+        "description": "Ultimate ATKs deal 25.0% bonus Total DMG.",
+        "requiredRank": "this"
+      },
+      {
+        "name": "Tsumugari",
+        "description": "Every next hit of Bombard deals 25.0% bonus Lightning DMG.",
+        "requiredRank": "ss"
+      }
+    ]
+  },
+  "evasion": {
+    "core": {
+      "name": "Tsukuyomi's Flash",
+      "description": "Evade enemy attacks up to twice a row.\nEvasion deals 120% ATK of Lightning DMG to enemies hit. \nUltimate Evasion inflicts Narukami's Mark & Blitzlock on enemies for 2s. Base CD: 15s. \nTap [ATK] within 1.5s of Ultimate Evasion to charge at and pull in enemies for follow up, dealing 250% ATK of Lightning DMG and proccing a 4s Time Fracture. \nIn Ultimate: Activating Ultimate Evasion skill procs a 3s global Time Fracture and the next attack deals 300% ATK of bonus Lightning DMG. The activation and ending of Ultimate both reset Ultimate Evasion skill CD."
+    },
+    "subskills": [
+      {
+        "name": "Galvanized Ojuzu",
+        "description": "Ultimate Evasions restore 10.0 SP and trigger Narukami's Mark's Falling Thunder effect for 1s.",
+        "requiredRank": "this"
+      },
+      {
+        "name": "Trance of Avalok",
+        "description": "Ultimate Evasion CD is reduced by 3.00s.",
+        "requiredRank": "this"
+      },
+      {
+        "name": "Crane of Ichimonji",
+        "description": "The Ultimate Evasion follow-up deals 500.0% ATK of Bonus Lightning DMG.",
+        "requiredRank": "ss2"
+      }
+    ]
+  },
+  "basic": {
+    "core": {
+      "name": "Takemikazuchi's Edge",
+      "description": "Lightning-imbued katana attacks. Evading after any of the first 3 sequences does not break the combo.\n1st Sequence: 60% ATK of Physical DMG + 60% ATK of Lightning DMG.\n2nd Sequence: 80% ATK of Physical DMG + 70% ATK of Lightning DMG.\n3rd Sequence: 60% ATK of Physical DMG + 80% ATK of Lightning DMG.\n4th Sequence: 250% ATK of Lightning DMG.\n5th Sequence: 300% ATK of Lightning DMG. \n5th Sequence of Basic ATK, Combo ATK, Ultimate Evasion skill, QTE, and Ultimate inflict Narukami's Mark on enemies for 15s. Marked enemies take 20% bonus Lightning DMG from the Valkyrie (independent effect). \nNarukami's Mark cannot coexist with Soul Razor's conductive debuff for Lightning Empress."
+    },
+    "subskills": [
+      {
+        "name": "Mantle of Prajna",
+        "description": "During the first 3 sequences of Basic ATK,  the Valkyrie takes 20.0% less Total DMG. During the 5th sequence, she has higher Ignore Interrupt and takes 80% less Total DMG. She can block the next incoming attack. Reset after 3 special Combo ATKs."
+      },
+      {
+        "name": "Curse of Mikazuki",
+        "description": "When the Valkyrie attacks enemies inflicted with Narukami's Mark, the bonus  Lightning DMG increases to 40.0%.",
+        "requiredRank": "this"
+      },
+      {
+        "name": "QTE: Oni-Issen",
+        "description": "Triggered by Time-Slowed or knocked-airborne enemies to deal 400% + 600.0% ATK of Lightning DMG and restore 200 Herrscher Charge. Tap [ATK] immediately after to connect it to 4th sequence of Basic ATK. \nIf switching in the Valkyrie to cast Ultimate Finisher with a QTE entry, Finished deals 600% ATK of bonus Lightning DMG and restore 200 Herrscher Charge."
+      }
+    ]
+  }
+}

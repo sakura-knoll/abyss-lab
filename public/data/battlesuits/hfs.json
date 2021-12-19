@@ -1,0 +1,128 @@
+{
+  "id": "hfs",
+  "name": "Herrscher of Flamescion",
+  "type": "psychic",
+  "valkyrie": "kiana",
+  "strengths": [
+    "fire dmg",
+    "heal",
+    "time mastery",
+    "gather"
+  ],
+  "leader": {
+    "core": {
+      "name": "Nameless Knight-Errant's Path",
+      "description": "Leader Bonus:Leader Skill: Team deals 34.0% bonus Elemental DMG. Every non-Kiana battlesuit grants 25.0 bonus initial SP to the team (50.0 max; can only be triggered once every 10 minutes in Open World)."
+    },
+    "subskills": [
+      {
+        "name": "Nameless Knight-Errant's Path",
+        "description": "Team deals 48.0% bonus Elemental DMG. Every non-Kiana battlesuit grants 30.0 bonus initial SP to the team (60.0 max; can only be triggered once every 10 minutes in Open World).",
+        "requiredRank": "s3"
+      }
+    ]
+  },
+  "special": {
+    "core": {
+      "name": "Blazing Chariot's Trail",
+      "description": "Launch power attacks at 0 Heat. Heat: Starts at 0. Reduced by 21 per second when not in Overheat and by 10 per second when in Overheat.Base form Combo ATK: Increase 45 Heat and consume 15% of current HP to deal 300% ATK of Fire DMG, trigger 2.5s of global Time Fracture, and enter Herrscher form lasting 11.5s.In Herrscher form, Valkyrie has different moves, higher Ignore Interrupt, and loses 1% of current HP per second.Herrscher form Combo ATK: Increase 100 Heat and trigger 3.5s of global Time Fracture.Ground: 1200% ATK of Fire DMG.Airborne: Knock enemies airborne and create a black hole gathering enemies and dealing 1200% ATK of Fire DMG.Valkyrie enters Overheat when Herrscher form ends and Heat increases by 100. Switching out ends Herrscher form."
+    },
+    "subskills": [
+      {
+        "name": "By Fire Enthroned",
+        "description": "At 75% HP or more, Combo ATKs in base form additionally cost 30% of current HP to deal 400.0% ATK of bonus Fire DMG.",
+        "requiredRank": "ss"
+      },
+      {
+        "name": "Crossing the Heavens",
+        "description": "Valkyrie deals 30.0% bonus Total DMG to MECH enemies. In Herrscher form, Combo ATKs deal 30.0% bonus Total DMG and 50% bonus DMG to shields."
+      },
+      {
+        "name": "To Find Truth's Loom",
+        "description": "At 60% max HP or more, Herrscher form additionally consumes 5% max HP per second. Below 60% max HP, Valkyrie takes 35.0% less Total DMG and deals 35.0% bonus Fire DMG."
+      }
+    ]
+  },
+  "passive": {
+    "core": {
+      "name": "Fiery Hymn's Pledge",
+      "description": "Passive bonuses apply automatically.Valkyrie's Basic/Combo ATKs and Charged/Combo ATKs from teammates inflict Ember Brand lasting 6s on enemies. Ember Brand inflicted in Herrscher form deals Fire DMG equal to 5% of Valkyrie's ATK per 0.5s 10 stacks max.The following attacks can detonate Ember Brand on enemies in a large area (without consuming it) to deal 120% ATK of Fire DMG: Last sequence of Herrscher form Basic ATK (CD: 2s), QTE, last sequence of base form ground Basic ATK, and Combo ATK.When in Overheat, Heat drops by 15 every 2s."
+    },
+    "subskills": [
+      {
+        "name": "By Song Defended",
+        "description": "Valkyrie obtains a barrier which can absorb DMG equal to 60.0% of Valkyrie's max HP. Valkyrie no longer restores HP for herself (except from My Body, A Beacon) but restores HP for the barrier at 100.0% efficiency instead. While the barrier lasts, Valkyrie deals 10.0% bonus Total DMG, has higher Ignore Interrupt, and transfers indirect DMG taken to the barrier."
+      },
+      {
+        "name": "The Celestial Brilliance",
+        "description": "Upon exit, Valkyrie slams enemies nearby on the ground dealing 400.0% ATK of Fire DMG."
+      },
+      {
+        "name": "A Twilight Benediction",
+        "description": "In Herrscher form, Valkyrie deals 20.0% bonus Total DMG, has 18.0% Elemental Breach, and takes 30.0% less Total DMG."
+      }
+    ]
+  },
+  "ultimate": {
+    "core": {
+      "name": "The Blade Supreme, Rekindled",
+      "description": "Launch a powerful attack.Activation cost: 75 SP. CD: 16s.Deal 2150% ATK of Fire DMG during which Valkyrie is in Herrscher form and all skill timers on her, enemies as well as the stage timer are paused. If cast in Herrscher form, Ultimate will end Herrscher form after the cast."
+    },
+    "subskills": [
+      {
+        "name": "By Flame Illuminated",
+        "description": "During Overheat and on standby, Valkyrie restores 1.0 SP per second.",
+        "requiredRank": "s2"
+      },
+      {
+        "name": "My Body, A Beacon",
+        "description": "After casting Ultimate, Valkyrie restores 12.0% max HP if her HP is below 40% and further 8.0% max HP if her HP is below 25%."
+      },
+      {
+        "name": "To Blaze Eternal",
+        "description": "Ultimate deals 50.0% bonus Total DMG."
+      }
+    ]
+  },
+  "evasion": {
+    "core": {
+      "name": "Lone Phoenix's Plume",
+      "description": "Quickly evade enemy attacks.Ultimate Evasion triggers 4s of global Time Fracture. CD: 18s.Ground: Evasion can be performed twice in a row.Airborne:Base form: Evasion can only be performed once.Herrscher form: No limitations on evasions.Tap [ATK] after evasion to connect into Basic ATK Sequence 3.In Herrscher form, Ultimate Evasion inflicts 5 stacks of Ember Brand on enemies in a large area and restores 2 SP. CD: 10s."
+    },
+    "subskills": [
+      {
+        "name": "By Embers Marked",
+        "description": "All evasions can trigger the Ultimate Evasion effect."
+      },
+      {
+        "name": "Through Countless Years",
+        "description": "When an enemy is hit by Charged/ Combo ATKs or weapon skills from two team members in 8s, team deal 10.0% bonus Fire DMG for 15.0s and trigger Valkyrie's QTE. CD: 15.0s."
+      },
+      {
+        "name": "QTE: To Awaken New Life",
+        "description": "QTE: Triggered when an enemy is ignited or knocked airborne to deal 1,050% ATK of Fire DMG and restore 4.0 SP."
+      }
+    ]
+  },
+  "basic": {
+    "core": {
+      "name": "Tempered Warrior's Strike",
+      "description": "Greatsword attacks.Ground:Base form: 730% ATK of Fire DMG.Herrscher form: 970% ATK of Fire DMG.Airborne:Base form: 490% ATK of Fire DMG.Herrscher form: 900% ATK of Fire DMG.Upward Slash: 200% ATK of Fire DMG.Downward Slam: 30% + 90%x2 ATK of Fire DMG."
+    },
+    "subskills": [
+      {
+        "name": "By Sword Grasped",
+        "description": "Ember Brand's explosion deals 210.0% ATK of Fire DMG.",
+        "requiredRank": "sss"
+      },
+      {
+        "name": "A Dawning Star",
+        "description": "Enemies nearby take 2.5% bonus Total DMG from Valkyrie (independent effect). The explosion of Ember Brand boosts this effect by 2.5% (20.0% max) until the battle ends."
+      },
+      {
+        "name": "To Ignite the Thunder",
+        "description": "After Ember Brand's explosion, base form aerial attacks restore 3.0 SP on hit (can be triggered up to 3 times)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "id": "stfu",
+  "name": "Striker Fulminata",
+  "type": "biologic",
+  "valkyrie": "mei",
+  "strengths": [],
+  "leader": {
+    "core": {
+      "name": "Sakura Aura",
+      "description": "Leader Bonus:.\nSakura Aura: Team gains 25% DEF in battle. BIO-type characters gain 5% Max HP."
+    },
+    "subskills": [
+      {
+        "name": "Sakura Aura",
+        "description": "Team gains 40% DEF in battle. BIO-type characters gain 9% Max HP.",
+        "requiredRank": "this"
+      }
+    ]
+  },
+  "special": {
+    "core": {
+      "name": "Combo: Void Edge",
+      "description": "Slash flurry attack.\nTap the [ATK] button during Blade Flurry to keep triggering Blade Flurry (limit: 2 times).\nCharges toward the enemy: 50% ATK of Physical DMG.\nFlurry: 6x30% ATK of Physical DMG.\nFatal Slash: 2x80% + 100% ATK of Physical DMG.\nBurst: Charges toward the enemy and deals 40%+30% ATK of Physical DMG.\nFlurry: 4x40%+2x30% ATK of Physical DMG.\nFatal Slash:4x70% ATK of Physical DMG."
+    },
+    "subskills": [
+      {
+        "name": "Blade Shower",
+        "description": "Enemies hit by Gotamashi Edge take 15.00% more Physical DMG from Blade Flurry for 3s. Trigger this again to reset the duration.",
+        "requiredRank": "2★"
+      },
+      {
+        "name": "Gotamashi Edge",
+        "description": "Burst: Gotamashi Edge deals another 100.0% ATK of Physical DMG.",
+        "requiredRank": "1★"
+      },
+      {
+        "name": "QTE: Dancing Flames",
+        "description": "Entry: Blade Flurry. QTE: Triggers when an enemy is affected by Time Slow. Restores 1 EM Reserve, deals 3x150%+350% ATK of Physical DMG and knock enemies airborne.",
+        "requiredRank": "2★"
+      }
+    ]
+  },
+  "passive": {
+    "core": {
+      "name": "Passive",
+      "description": "Character automatically gains passive bonuses.\nIn both Normal and Burst modes, the 2nd, 3rd, and 5th sequence of Basic ATKs recovers 1, 1, and 2 EM Reserve(s) respectively upon hit."
+    },
+    "subskills": [
+      {
+        "name": "Shinkage Aura",
+        "description": "Attacks against unshielded enemies gain 20% Total DMG Multiplier. Burst: Deal 40% more DMG against shields.",
+        "requiredRank": "1★"
+      },
+      {
+        "name": "Combo Keeper",
+        "description": "Ignores combo interruption once. Can be triggered once every 30.0s. Applies for the whole team.",
+        "requiredRank": "s"
+      },
+      {
+        "name": "Current Converter",
+        "description": "Gain 0.20% Crit Rate for each Combo Hit Count. Max Crit Rate Bonus: 20.00%.",
+        "requiredRank": "3★"
+      }
+    ]
+  },
+  "ultimate": {
+    "core": {
+      "name": "Takemikazuchi",
+      "description": "Enter Burst mode and recover 4 EM Reserves.\nBurst: Deals 3x100%+550% ATK of Physical DMG to nearby enemies.\nContinuous Burst: Consumes 20 SP to activate and 8 SP/s afterwards. Max duration: 10s.\nBurst Basic ATK:\n1st Sequence: 60%+40% ATK of Physical DMG.\n2nd Sequence: 80%+40% ATK of Physical DMG.\n3rd Sequence: 80%+40% ATK of Physical DMG.\n4th Sequence: 100%+40% ATK of Physical DMG.\n5th Sequence: 150%+3x80% ATK of Physical DMG, and paralyzes enemies hit for 1.5s. \nAt over 100 SP, consumes 20 SP to activate and 8 SP/s afterwards; max duration: 10s."
+    },
+    "subskills": [
+      {
+        "name": "Martial Stream",
+        "description": "Channels energy during Burst. Characters off the field gain 2.00 SP/s."
+      },
+      {
+        "name": "Ki Spirit",
+        "description": "Increases Crit Rate by 10.0% and Crit DMG by 75.0% during Burst.",
+        "requiredRank": "s"
+      },
+      {
+        "name": "Avatar of Blades",
+        "description": "Burst activation resets Combo Keeper CD and additionally deals DMG equal to Combo Hit Count (max 100) x 5.0% ATK of Physical DMG against nearby enemies. Takes 40% less Total DMG during Burst.",
+        "requiredRank": "2★"
+      }
+    ]
+  },
+  "evasion": {
+    "core": {
+      "name": "Raikage",
+      "description": "Quickly evade enemy attacks. Can be performed twice in a row.\nRaikage: Ultimate Evasions trigger a 3s Time Fracture and restores 1 EM Reserve. Duration: 3s; CD: 15s.\nWhen the Valkyrie has any EM Reserve, tap [ATK] during Evasion to consume 1 EM Reserve and throw the Gotamashi Edge toward the enemy, dealing 120% ATK of AOE Physical DMG; restores 2 EM Reserves (in non-Burst mode) and charges toward the enemy, dealing 80% (130%+30% in Burst mode) ATK of Physical DMG and triggering Blade Flurry."
+    },
+    "subskills": []
+  },
+  "basic": {
+    "core": {
+      "name": "Gozan Raimei",
+      "description": "AOE penta-slash.\n1st Sequence: 80% ATK of Physical DMG.\n2nd Sequence: 100% ATK of Physical DMG.\n3rd Sequence: 100% ATK of Physical DMG.\n4th Sequence: 120% ATK of Physical DMG.\n5th Sequence: 120%+2x75% ATK of AOE Physical DMG, and paralyzes enemies hit for 0.8s."
+    },
+    "subskills": [
+      {
+        "name": "Kinetic Aura",
+        "description": "Basic ATKs gain 30.0% Attack Speed.",
+        "requiredRank": "this"
+      },
+      {
+        "name": "Spirit Aura",
+        "description": "Gains higher Ignore Interrupt during Basic ATKs or Combo ATKs. Reduces Physical DMG taken by 30.0%.",
+        "requiredRank": "s"
+      },
+      {
+        "name": "Ankage Jutsu",
+        "description": "Basic and Combo ATKs gain 30.0% SP Recovery.",
+        "requiredRank": "ss"
+      }
+    ]
+  }
+}

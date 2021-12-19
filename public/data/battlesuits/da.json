@@ -1,0 +1,119 @@
+{
+  "id": "da",
+  "name": "Dea Anchora",
+  "type": "biologic",
+  "valkyrie": "durandal",
+  "strengths": [
+    "fire dmg",
+    "time mastery",
+    "gather",
+    "ignite"
+  ],
+  "leader": {
+    "core": {
+      "name": "Crux Galactica",
+      "description": "Leader Bonus:\nCrux Galactica: Team's Ultimate ATKs deal 18.0% bonus Total DMG. With 3 Fire DMG Valkyries, team deals 21.0% bonus Fire DMG."
+    },
+    "subskills": [
+      {
+        "name": "Crux Galactica",
+        "description": "Team's Ultimate ATKs deal 24.0% bonus Total DMG. With 3 Fire DMG Valkyries, team deals 30.0% bonus Fire DMG."
+      }
+    ]
+  },
+  "special": {
+    "core": {
+      "name": "Hercules the Warrior",
+      "description": "Unleash the astral power within and enter Astral Harness to deal high burst damage\nWith over 200 Astrum, hold [ATK] to activate Astra Forge and enter Astral Harness, which costs 20 Astrum per second.\nAfter the 1st activation through Astra Forge, Astral Harness will later be activated through Cosmic Nova.\nAstra Forge and Cosmic Nova are both Charged ATKs which deal 800% ATK of Fire DMG and trigger a 2s global Time Fracture."
+    },
+    "subskills": [
+      {
+        "name": "β - Fighting Arm",
+        "description": "Astral Harness grants 50.0% bonus Total DMG, boosts Ignore Interrupt, and reduces Total DMG taken by 30.0%."
+      },
+      {
+        "name": "ζ - Red Ember",
+        "description": "Entering Astral Harness restores 30 SP instantly and 0.6 SP per 0.2s for 5s."
+      }
+    ]
+  },
+  "passive": {
+    "core": {
+      "name": "Argo the Navigator",
+      "description": "Passive bonus apply automatically\nAstrum: Maxes at 200.\nIn Astral Harness, Dea Anchora's Basic ATKs are permanently enhanced and she moves in DEA Astra state. In DEA Astra, tap [ATK] to connect into Astral Barrage. Forward evasions can be connected with DEA Astra faster."
+    },
+    "subskills": [
+      {
+        "name": "γ - Vela of Speed",
+        "description": "On standby, Valkyrie recovers 1.5 SP per second.",
+        "requiredRank": "ss"
+      },
+      {
+        "name": "ζ - Puppis of Power",
+        "description": "Casting Ultimate boosts Total DMG by 20.0% for 3s. 2 stacks max and further procs can reset the duration."
+      },
+      {
+        "name": "α - Carina of Flames",
+        "description": "When attacked by Dea Anchora, ignited enemies take 24.0% bonus Fire DMG from her (independent effect).\nAfter level 3, the skill can only be increased when  rank.\nAfter level 7, the skill can only be increased when  rank."
+      }
+    ]
+  },
+  "ultimate": {
+    "core": {
+      "name": "Sagittarius the Archer",
+      "description": "Dea Anchora can perform different Ultimates.\nMelee mode: Astral Flares.\nLance mode (3rd, 4th, 5th sequences of Basic ATK): Voidstar Anchor.\nUltimates can be performed in cycle.\nNormal form: Costs 15 SP, restores 50 Astrum, and grants Iron Body.\nAstral Flares: Multiple punches dealing 1000% ATK of Fire DMG.\nVoidstar Anchor: Leap up and hurl spears at enemies dealing 800% ATK of Fire DMG and gathering enemies for 2s.\nIn Astral Harness: Costs 15 SP and grants invincibility. Astral Harness doesn't cost Astrum during Ultimate.\nAstral Flares EX: 1280% ATK of Fire DMG.\nVoidstar Anchor EX: Hurl spears twice 720% ATK of Fire DMG and create 3 Ether Anchors to strike enemies dealing 3x80% ATK of Fire DMG.\nCast Ultimate in Astral Harness twice in a row and tap [ULT] to cast Seirios Ballista: Unleash a star-shattering shot dealing 700% ATK of Fire DMG. Every SP consumed deals 60% ATK of bonus Fire DMG. SP cost caps at 35.\nCasting Seirios Ballista ends Astral Harness and resets Astrum."
+    },
+    "subskills": [
+      {
+        "name": "ε - Flaming Bow",
+        "description": "Ultimate deals 50% bonus Fire DMG to ignited enemies. During Ultimate, Valkyrie takes 65% less Total DMG."
+      },
+      {
+        "name": "ν - Eye of the Archer",
+        "description": "Last hit of Astral Flares EX deals 320% ATK of bonus Fire DMG. Voidstar Anchor EX creates 2 more Ether Anchors, and all Ether Anchors deal 80% bonus Fire DMG.",
+        "requiredRank": "ss"
+      },
+      {
+        "name": "γ - Charged Arrowhead",
+        "description": "Seirios Ballista deals 50.0% bonus Total DMG.",
+        "requiredRank": "sss"
+      }
+    ]
+  },
+  "evasion": {
+    "core": {
+      "name": "Pegasus the Fleet",
+      "description": "Quickly dodge enemy attacks up to twice in a row.\nCan be connected into Astral Barrage and deal 120% ATK of Fire DMG. Astral Barrage can be further connected into 2nd sequence of Basic ATK.\nUltimate Evasion trigger Ultimate Evasion skill: Flight of Bellephoron, which triggers a 3s global Time Fracture and can be connected into Ultimate Evasion ATK to deal 600% ATK of Fire DMG. Ultimate Evasion ATK can be further connected into the 3rd sequence of Basic ATK. CD: 15s."
+    },
+    "subskills": [
+      {
+        "name": "ε - Stallion's Muzzle",
+        "description": "Shorten Flight of Bellephoron's CD by 3.0s."
+      },
+      {
+        "name": "β - Stallion's Shoulder",
+        "description": "Last attack of Flight of Bellephoron restores 10 SP on hit."
+      }
+    ]
+  },
+  "basic": {
+    "core": {
+      "name": "Orion the Hunter",
+      "description": "Use melee combat moves and dual lances to deal Physical & Fire DMG.\nBasic ATK:\n1st Sequence: 80% ATK of Physical DMG + 80% ATK of Fire DMG.\n2nd Sequence: 85% ATK of Physical DMG + 85% ATK of Fire DMG.\n3rd Sequence: 240% ATK of Fire DMG.\n4th Sequence: 350% ATK of Fire DMG.\n5th Sequence: 500% ATK of Fire DMG.\nEnhanced Basic ATK:\n3rd Sequence: 340% ATK of Fire DMG.\n4th Sequence: 520% ATK of Fire DMG.\n5th Sequence: 680% ATK of Fire DMG."
+    },
+    "subskills": [
+      {
+        "name": "α - Shoulder of Orion",
+        "description": "5th sequence of Basic ATK ignites enemies hit, dealing 30% ATK of Fire DMG per 0.5s for 10s."
+      },
+      {
+        "name": "β - Foot of the Hunter",
+        "description": "During Basic ATK and 3rd/4th/5th sequence of Enhanced Basic ATK, Valkyrie takes 30.0% less damage."
+      },
+      {
+        "name": "QTE: γ - Bellatrix",
+        "description": "Triggered by knocked-airborne or ignited enemies to proc a 3s global Time Fracture, deal 1,100.0% ATK of Fire DMG, restore 10 SP, and gather enemies around."
+      }
+    ]
+  }
+}

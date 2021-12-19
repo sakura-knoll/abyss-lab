@@ -1,0 +1,129 @@
+{
+  "id": "va",
+  "name": "Valkyrie Accipiter",
+  "type": "psychic",
+  "valkyrie": "fuhua",
+  "strengths": [
+    "physical",
+    "heal",
+    "time mastery",
+    "stun"
+  ],
+  "leader": {
+    "core": {
+      "name": "Chelonic Unity",
+      "description": "Leader Bonus:\nWhen Combo Hit Count exceeds 30, Mei and Kiana in the team gain 22% Crit Rate; when Combo Hit Count is below 30, Bronya in the team gains 28% Crit DMG."
+    },
+    "subskills": [
+      {
+        "name": "Dragon Territory",
+        "description": "When Combo Hit Count exceeds 30, Mei and Kiana in the team gain 28% Crit Rate; when Combo Hit Count is below 30, Bronya in the team gains 40%",
+        "requiredRank": "s"
+      }
+    ]
+  },
+  "special": {
+    "core": {
+      "name": "Combo: Azure Dragon",
+      "description": "Link the various Six Fists stances into different Combo ATKs.\nKi Shattering Fist: 2x100%+150% ATK of Physical DMG\nKi Zenith: When unlocked, 7x30%+100% ATK of Physical DMG.\nKi Barrage: 80% ATK of Physical DMG for each hit.\nKi Nova: Full charge launches a penetrating blast wave dealing 3x80% ATK of Physical DMG."
+    },
+    "subskills": [
+      {
+        "name": "Switch: Raging Scale",
+        "description": "Unlocks Switch Skill. Switch entry unleashes a ground slam that knocks surrounding enemies airborne and deals 300% Physical DMG."
+      },
+      {
+        "name": "QTE: Gray Dragon",
+        "description": "Triggers QTE when enemy's shield is broken, entering the battle and slamming the ground to deal X% Physical DMG, knocking nearby enemies airborne, apply Time Slow and impair, reducing DEF by 30% for Xs."
+      },
+      {
+        "name": "Dragon's Return",
+        "description": "For 5s after switch entry, gain slight increases to Interrupt and Ignore Interrupt, and X% DMG Reduction. When exiting, boost team mates by the same amount for Xs.",
+        "requiredRank": "ss"
+      }
+    ]
+  },
+  "passive": {
+    "core": {
+      "name": "Passive",
+      "description": "Passive bonuses apply automatically."
+    },
+    "subskills": [
+      {
+        "name": "Resolve",
+        "description": "When on the field, deal 40% more Physical DMG to enemies within a 3-meter radius. When exiting, allies gain 15% Physical DMG for the next 3 attacks.",
+        "requiredRank": "s"
+      },
+      {
+        "name": "Serenity",
+        "description": "Last hit of Ki Shattering Fist causes a 1s stun. Last hit of Ki Avalanche causes a 5.0s stun, and deals an additional X% ATK of Physical DMG."
+      },
+      {
+        "name": "Enlightenment",
+        "description": "Last hit of Ki Zenith heals self for X HP. The Six Fists heals self for X HP. Last hit of Ki Impact heals team for X HP.",
+        "requiredRank": "s"
+      }
+    ]
+  },
+  "ultimate": {
+    "core": {
+      "name": "Amber Dragon",
+      "description": "Consumes 25 Sp to unleash a Burst Combo ATK.\nKi Avalanche: 350% ATK of Physical DMG\nKi Impact: 400% ATK of Physical DMG\nKi Nova EX: 3x150% ATK of Physical DMG."
+    },
+    "subskills": [
+      {
+        "name": "Fallow Earth",
+        "description": "After last hit of Ki Avalanche, last hit of Ki Impact, and hits by Ki Nova EX, take 15% less Physical DMG for 6.0s.",
+        "requiredRank": "sss"
+      },
+      {
+        "name": "Celestial Spirit",
+        "description": "When the last hit of Ki Avalanche, last hit of Ki Impact, and hits of Ki Nova EX hits an impaired or stunned enemy, deal an additional 200% ATK of Physical DMG.",
+        "requiredRank": "s"
+      }
+    ]
+  },
+  "evasion": {
+    "core": {
+      "name": "Vermilion Dance",
+      "description": "Rapid movement to evade attacks.\nFor a short period after using Ultimate Evasion, tap the Combo button to dash to the enemy and unleash a brutal smash, dealing 300% ATK of Physical DMG.\nTime Fracture: Ultimate Evasion triggers Time Fracture, slowing all enemies for 3s. CD: 15s."
+    },
+    "subskills": [
+      {
+        "name": "Fiery Flock",
+        "description": "Ultimate Evasion triggers Time Fracture for the game for 1.50s."
+      },
+      {
+        "name": "Sunchaser",
+        "description": "After using Ultimate Evasion, press the Combo button to Crush enemies, thus impairing them and slowing their DEF by 30% for 4.0s."
+      },
+      {
+        "name": "Anser Turn",
+        "description": "Shortens CD of Ultimate Evasion 4.00s.",
+        "requiredRank": "s"
+      }
+    ]
+  },
+  "basic": {
+    "core": {
+      "name": "Whitetiger Dashing",
+      "description": "Use the Six Fists for battle.\nThe Six Fists:\n1st Stance: 80% ATK of Physical DMG\n2nd Stance: 80% ATK of Physical DMG\n3rd Stance: 80% ATK of Physical DMG\n4th Stance: 2x100% ATK of Physical DMG\n5th Stance: 2x80% ATK of Physical DMG\n6th Stance: 150% ATK of Physical DMG"
+    },
+    "subskills": [
+      {
+        "name": "Panther Dance",
+        "description": "Unlock Ki Zenith that deals 60% ATK of Physical DMG in each hit sequence and 200% ATK of Physical DMG in the final ground smash."
+      },
+      {
+        "name": "Lord of the Wastes",
+        "description": "When Ki Zenith hits the ground, increase all kinds of damage by 20% for 7s; when Ki Impact hits the ground, team gains 20% Total DMG Multiplier for 7s.",
+        "requiredRank": "ss"
+      },
+      {
+        "name": "Battle Howl",
+        "description": "When Ki Nova EX hits, the team deals 200% more damage to shields for 6.5s.",
+        "requiredRank": "s"
+      }
+    ]
+  }
+}

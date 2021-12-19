@@ -1,0 +1,127 @@
+{
+  "id": "le",
+  "name": "Lightning Empress",
+  "type": "psychic",
+  "valkyrie": "mei",
+  "strengths": [
+    "lightning dmg",
+    "paralyze"
+  ],
+  "leader": {
+    "core": {
+      "name": "Haunted Night",
+      "description": "Leader Bonus:\nHaunted Night: Battlesuits have 50 bonus SP upon entrance. For a team of 3 PSY-type battlesuits, Valkyrie attacks deal 20% bonus Total DMG.\nIn Open World, starting SP bonus can only be triggered once every 10min, and Valkyrie attacks deal 10% bonus Total DMG instead."
+    },
+    "subskills": [
+      {
+        "name": "Haunted Night",
+        "description": "Team starts with 70 more initial SP in combat. A team formed by 3 PSY-type battlesuits gains 26% Total DMG. In Open World, initial SP bonus triggers once every 10 minutes, and the team gains 10% Total DMG.",
+        "requiredRank": "ss"
+      }
+    ]
+  },
+  "special": {
+    "core": {
+      "name": "Gigavolt Spin",
+      "description": "Fulminating Zone.\nRaiden Slash: 80%x4 ATK of Lightning DMG."
+    },
+    "subskills": [
+      {
+        "name": "Switch: Falling Thunder",
+        "description": "Switch entry unleashes Falling Thunder, dealing 250.0% ATK of Lightning DMG to surrounding enemies."
+      },
+      {
+        "name": "Doppel Raiden",
+        "description": "Tap the [ATK] button after Ultimate Evasion to unleash Gigavolt Spin. Gigavolt Spin can be triggered 1 more time to deal 80.0%x4 ATK of Lightning DMG."
+      },
+      {
+        "name": "It Strikes Twice",
+        "description": "Gigavolt Spin can be triggered 1 more time (must unlock Doppel Raiden first), dealing 80.0%x4 ATK of Lightning DMG.",
+        "requiredRank": "ss"
+      }
+    ]
+  },
+  "passive": {
+    "core": {
+      "name": "Passive Skill",
+      "description": "Character automatically gain passive bonuses."
+    },
+    "subskills": [
+      {
+        "name": "Dragon's Aura",
+        "description": "Gain 100.0% to Total DMG Multiplier when attacking frozen and slowed enemies.",
+        "requiredRank": "this"
+      },
+      {
+        "name": "Thunder Cloud",
+        "description": "When hit, there is a 20.0% chance to paralyze the attacker and nearby enemies for 2.5s.",
+        "requiredRank": "ss"
+      },
+      {
+        "name": "Sundered Shackles",
+        "description": "Combo ATK has a 8.00% chance to apply conductive debuff of Soul Razor on the enemy.",
+        "requiredRank": "ss"
+      }
+    ]
+  },
+  "ultimate": {
+    "core": {
+      "name": "Dragon May Cry",
+      "description": "Unleashes the powers of Thor, damaging all enemies within a large area.\nThor's Slash: Large AOE attack that deals 900% ATK of Physical DMG and 900% ATK of Lightning DMG.\nSP Cost: 125"
+    },
+    "subskills": [
+      {
+        "name": "QTE: Sakura Vortex",
+        "description": "QTE: Triggers when enemy is knocked airborne. Deals 6x50.0% ATK of Physical DMG + 6x50.0% ATK of Lightning DMG against enemies within a large AOE. Restores 10 SP for the Valkyrie."
+      },
+      {
+        "name": "SHIN: Ohka Fall",
+        "description": "The last strike of the Ultimate deals 119 bonus Lightning DMG per Combo Hit Count (limit: 100 hits).",
+        "requiredRank": "this"
+      },
+      {
+        "name": "I'm Mei",
+        "description": "Paralyzes all enemies for 5.0s when the last strike hits the target and increases Lightning DMG dealt in attacks by 40% for 7s."
+      }
+    ]
+  },
+  "evasion": {
+    "core": {
+      "name": "Lightning Speed",
+      "description": "Quick dash to evade enemy attacks. Can be performed twice in a row.\nLightning Dodge: Triggers upon an Ultimate Evasion and lasts 5s, during which the Valkyrie takes 15% less Physical DMG and significantly gains Ignore Interrupt.\nAsura's Roar: Triggers upon an Ultimate Evasion and lasts 5s, during which the attacker is paralyzed and the Valkyrie takes 15% less Physical DMG and 80% less Lightning DMG; CD: 10s."
+    },
+    "subskills": [
+      {
+        "name": "Thunderclap",
+        "description": "Triggers a lightning field upon Ultimate Evasion, dealing 85.0% ATK of Lightning DMG to enemies within it every 0.5s for 5.0s.",
+        "requiredRank": "this"
+      },
+      {
+        "name": "Blinding Flash",
+        "description": "Extends the duration of the paralyzing effect triggered by Ultimate Evasions to 8.0 sec.",
+        "requiredRank": "this"
+      }
+    ]
+  },
+  "basic": {
+    "core": {
+      "name": "Gotamashiki",
+      "description": "Swift penta-slash with a 2% chance of paralyzing the target for 5s.\n1st Sequence: 100% ATK of Physical DMG.\n2nd Sequence: 120% ATK of Physical DMG.\n3rd Sequence: 75% ATK of Physical DMG.\n4th Sequence: 80% ATK of Physical DMG.\n5th Sequence: 250% ATK of AOE Physical DMG."
+    },
+    "subskills": [
+      {
+        "name": "Thunder Edge",
+        "description": "Every Basic ATK sequence additionally deals 40.0% ATK of Lightning DMG."
+      },
+      {
+        "name": "Soul Razor",
+        "description": "Basic ATKs have a 40.0% chance to render enemies conductive for 6.0s, during which they take 70.0% bonus Lightning DMG. The 1st non-conductive enemy hit by the 5th sequence of Basic ATK will definitely become conductive.",
+        "requiredRank": "this"
+      },
+      {
+        "name": "Relentless Slash EX",
+        "description": "Increases Attack Speed by 25.0% when Combo Hit Count exceeds 30."
+      }
+    ]
+  }
+}

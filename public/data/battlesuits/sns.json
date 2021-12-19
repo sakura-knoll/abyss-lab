@@ -1,0 +1,101 @@
+{
+  "id": "sns",
+  "name": "Sweet 'n' Spicy",
+  "type": "mecha",
+  "valkyrie": "carole",
+  "strengths": ["physical", "time mastery", "stun", "gather"],
+  "leader": {
+    "core": {
+      "name": "Star of Hope",
+      "description": "Leader Bonus:Charged ATKs deal 10.0% bonus Total DMG. Team deals 10.0% melee Physical DMG."
+    },
+    "subskills": [
+      {
+        "name": "Star of the Team",
+        "description": "Charged ATK deals 18.0% bonus Total DMG. Team deals 15.0% melee Physical DMG.",
+        "requiredRank": "s3"
+      }
+    ]
+  },
+  "special": {
+    "core": {
+      "name": "Charged ATK: Kissy Pillow Serious Punch",
+      "description": "Charge for varying durations to perform different attacks.Hold [ATK] to charge, during which Valkyrie takes 80% less Total DMG and has Iron Body. Short charge and long charge result in different attacks.Charged ATK I: 300% ATK of Physical DMG.Charged ATK II: 450% ATK of Physical DMG.Charged ATK III: 700% ATK of Physical DMG.When casting Charged ATK in mid-air, enemies nearby are gathered and take 20% ATK of Physical DMG during charging.Aerial Charged ATK I: 225% ATK of Physical DMG.Aerial Charged ATK II: 700% ATK of Physical DMG."
+    },
+    "subskills": [
+      {
+        "name": "The Harder the Better",
+        "description": "Charged ATK deals 60.0% bonus Physical DMG to shielded enemies and 50.0% bonus Total DMG to PSY enemies.",
+        "requiredRank": "s"
+      },
+      {
+        "name": "Nap Time",
+        "description": "Charged ATK III stuns enemies for 3.0s on hit. CD: 12.0s. If enemies hit loses their shield within 10s after, they're rendered Shattered Armor for 5.0s during which their shield won't recover.",
+        "requiredRank": "s"
+      }
+    ]
+  },
+  "passive": {
+    "core": {
+      "name": "Amazing Carole",
+      "description": "Passive bonuses apply automatically.At 3 stacks of Armor Shredder, the next Charged ATK consumes all stacks and induce Amazing Carole state for 15s. Triggering it again resets the duration. When Sweet 'n' Spicy is switched out in Amazing Carole state, the switched-in teammate obtains the enhancements."
+    },
+    "subskills": [
+      {
+        "name": "Amazing Mode",
+        "description": "In Amazing Carole state, Valkyrie takes 30.0% less Total DMG and has 50.0% bonus shield breaking capacity. Additionally, Sweet 'n' Spicy's shield breaking capacity increases by 200.0%."
+      }
+    ]
+  },
+  "ultimate": {
+    "core": {
+      "name": "Kissy Pillow ☆ Burst",
+      "description": "Bash enemies twice and leap up to deal AoE DMG.Bash enemies twice dealing 1200% ATK of Physical DMG and leap up to slam the ground dealing 1000% ATK of Physical DMG in a large area and knocking enemies airborne. Can be cast in mid-air.SP cost: 50. CD: 20s."
+    },
+    "subskills": [
+      {
+        "name": "Serious Mode",
+        "description": "Ultimate deals 50.0% bonus Total DMG."
+      },
+      {
+        "name": "Mood Maker",
+        "description": "Ultimate boosts team Physical DMG by 20.0% and team Total DMG by 15.0% for 15s. If Ultimate hits an enemy whose shield is broken, team deals 30.0% bonus Physical DMG.",
+        "requiredRank": "s"
+      }
+    ]
+  },
+  "evasion": {
+    "core": {
+      "name": "Arahato Mobility",
+      "description": "Quickly dodge enemy attacks.Can be connected into Thrust Punch dealing 75% x 2 ATK of Physical DMG, and further connected into the Basic ATK SEQ 3.Ultimate Evasions trigger Ultimate Evasion Skill: Thrust Punch EX, which triggers 3s of global Time Fracture and can be connected into Ultimate Evasion ATK to deal 150% x 2 ATK of Physical DMG.Up to 2 evasions in a row on the ground. CD: 15s. Only 1 evasion allowed in mid-air but it resets aerial Charged ATK."
+    },
+    "subskills": [
+      {
+        "name": "Stroll Mode",
+        "description": "Thrust Punch EX's CD is reduced by 2.5s.",
+        "requiredRank": "s"
+      },
+      {
+        "name": "Dessert Time",
+        "description": "The 2nd hit of Thrust Punch EX grants 1 stack of Armor Shredder and restores 350.0 HP on hit."
+      }
+    ]
+  },
+  "basic": {
+    "core": {
+      "name": "Kissy Pillow Strikes",
+      "description": "Fist attacks.SEQ 3 grants 1 stack of Armor Shredder (3 stacks max).3-hit ground Basic ATK: 150% + 150% + 250% ATK of Physical DMG.Upward Thrust: 250% + 75% x 3 ATK of Physical DMG.Downward slam: 150% + 200% x 2 ATK of Physical DMG."
+    },
+    "subskills": [
+      {
+        "name": "Leave the Tough Nuts to Me",
+        "description": "For every stack of Armor Shredder, Sweet 'n' Spicy's Charged ATK deals 65.0% bonus Total DMG and her shield breaking capacity improves by 80.0%.",
+        "requiredRank": "s"
+      },
+      {
+        "name": "QTE: Kissy Pillow Consecutive Punches",
+        "description": "QTE: Triggered by impaired enemies to strike enemies (twice by default and can be increased to up to 5 times by spamming [ATK]) and deal 150% x 4  x hits + 800% ATK of Physical DMG. Every hit boosts shield breaking capacity by 10.0% for 10s (20 stacks max). QTE entry reduces the CD of the next switch by 4.0s and grants 10.0 SP."
+      }
+    ]
+  }
+}

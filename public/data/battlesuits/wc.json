@@ -1,0 +1,126 @@
+{
+  "id": "wc",
+  "name": "White Comet",
+  "type": "mecha",
+  "valkyrie": "kiana",
+  "strengths": [
+    "physical",
+    "burst",
+    "time mastery",
+    "stun"
+  ],
+  "leader": {
+    "core": {
+      "name": "Comet Bless",
+      "description": "Leader Bonus: Guider: Team gains 10% Max HP in battle."
+    },
+    "subskills": [
+      {
+        "name": "Guider",
+        "description": "Team gains 18% Max HP in battle.",
+        "requiredRank": "this"
+      }
+    ]
+  },
+  "special": {
+    "core": {
+      "name": "Combo Skill: Comet Fall",
+      "description": "Attacks enemy with a double-kick, punting it into the air and then bringing it down.\nPunt: 50% of ATK of Physical DMG.\nBring Down: 275% of ATK of AOE Physical DMG."
+    },
+    "subskills": [
+      {
+        "name": "Switch: Neko Stomp",
+        "description": "Switch entry unleashes a crushing slam, dealing 275% ATK of physical DMG. Stuns enemy for 6.0s upon a successful interrupt.",
+        "requiredRank": "this"
+      },
+      {
+        "name": "QTE: Aerial Helix",
+        "description": "QTE: Triggered when an enemy is knocked airborne, dealing 375% ATK + 2,250.0) of Physical DMG. Last hit of the QTE stuns the enemy for 3s."
+      },
+      {
+        "name": "Gravity Freak",
+        "description": "The 2nd strike of combo attacks and Neko Stomp deals an additional 1,125 Fire DMG against enemies with an unbroken Elite Shield.",
+        "requiredRank": "s"
+      }
+    ]
+  },
+  "passive": {
+    "core": {
+      "name": "Passive Skill",
+      "description": "Passive bonuses apply automatically."
+    },
+    "subskills": [
+      {
+        "name": "Antimatter Rounds",
+        "description": "Deal 50.0% more DMG against shields.",
+        "requiredRank": "this"
+      },
+      {
+        "name": "Critical Mastery",
+        "description": "Gain 40.0% Crit DMG at above 80% HP.",
+        "requiredRank": "ss"
+      }
+    ]
+  },
+  "ultimate": {
+    "core": {
+      "name": "Neko-Charm!",
+      "description": "Activates Valkyrie's burst mode and consumes SP.\nBurst: Consumes SP continuously to gain Attack Speed and Ignore Interrupt.\nConsumes 20 SP (at over 100 SP) to activate and 10 SP/s afterwards until SP is depleted; max duration: 60s."
+    },
+    "subskills": [
+      {
+        "name": "Valkyrie Impact",
+        "description": "Burst activation stuns nearby enemies for 5.0s and deals 2,610.0 Physical DMG.",
+        "requiredRank": "this"
+      },
+      {
+        "name": "Valkyrie Barrier",
+        "description": "The team gains Ignore Interrupt and 100% DEF during Burst.",
+        "requiredRank": "s"
+      },
+      {
+        "name": "Valkyrie Charge",
+        "description": "Receives an Energy Charge every 12.0s, the next attack consumes the charge and stuns the enemy for 3.0s."
+      }
+    ]
+  },
+  "evasion": {
+    "core": {
+      "name": "Neko Cartwheel",
+      "description": "Quickly cartwheels away to evade enemy attacks. Can be performed twice in a row.\nTime Fracture: Triggers a 3s Time Fracture upon Ultimate Evasion; CD: 15s."
+    },
+    "subskills": [
+      {
+        "name": "Time Bender",
+        "description": "Shortens CD of Time Fracture by 4.0s.",
+        "requiredRank": "a"
+      },
+      {
+        "name": "Temporal Flow",
+        "description": "Additionally restores 5.0 SP for the team when Ultimate Evasion triggers Time Fracture."
+      }
+    ]
+  },
+  "basic": {
+    "core": {
+      "name": "Meteor Kata",
+      "description": "5-sequence Gun Kata.\n1st Sequence: 100% ATK of Physical DMG.\n2nd Sequence: 100% ATK of Physical DMG.\n3rd Sequence: 100% ATK of Physical DMG.\n4th Sequence: 150% ATK of Physical DMG x2.\n5th Sequence: 250% ATK of Physical DMG."
+    },
+    "subskills": [
+      {
+        "name": "Comet Kata",
+        "description": "Physical DMG dealt by each sequence of the 4-sequence Basic ATK increases by 143.0."
+      },
+      {
+        "name": "Comet Break",
+        "description": "When Basic/Combo ATKs breaks an enemy shield, additionally deals 220.0% ATK of Physical DMG against the target.",
+        "requiredRank": "a"
+      },
+      {
+        "name": "Comet Impact",
+        "description": "The 4-sequence Basic ATK has a 40.0% chance to stun the target for 2.0s when interrupting the target.",
+        "requiredRank": "sss"
+      }
+    ]
+  }
+}
