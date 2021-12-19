@@ -1,6 +1,5 @@
 import { Box, Heading, Paragraph } from '@theme-ui/components'
 import { NextPageContext } from 'next'
-import Link from 'next/link'
 import React from 'react'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
