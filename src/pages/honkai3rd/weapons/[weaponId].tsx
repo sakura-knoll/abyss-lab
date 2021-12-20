@@ -72,6 +72,6 @@ export async function getStaticPaths() {
         params: { weaponId: weapon.id },
       }
     }),
-    fallback: true,
+    fallback: false,
   }
 }

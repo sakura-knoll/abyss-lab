@@ -122,6 +122,6 @@ export async function getStaticPaths() {
         params: { stigmataId: stigmata.id },
       }
     }),
-    fallback: true,
+    fallback: false,
   }
 }

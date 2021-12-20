@@ -223,6 +223,6 @@ export async function getStaticPaths() {
         params: { battlesuitId: battlesuit.id },
       }
     }),
-    fallback: true,
+    fallback: false,
   }
 }
