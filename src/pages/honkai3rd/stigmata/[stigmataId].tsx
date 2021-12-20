@@ -1,7 +1,10 @@
-import { NavLink, Box, Heading, Text, Paragraph } from '@theme-ui/components'
+import { Box, Heading, Text, Paragraph } from '@theme-ui/components'
 import { NextPageContext } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import Breadcrumb from '../../../components/organisms/Breadcrumb'
+import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import {
   StigmataData,
   listStigmata,
@@ -24,75 +27,89 @@ const StigmataListPage = ({
 }: StigmataShowPageProps) => {
   return (
     <Box>
-      <Box>
-        <Link passHref href='/honkai3rd'>
-          <NavLink>Honkai 3rd</NavLink>
-        </Link>
-        <Link passHref href='/honkai3rd/stigmata'>
-          <NavLink>Stigmata</NavLink>
-        </Link>
-      </Box>
+      <Honkai3rdNavigator />
+      <Box p={3}>
+        <Breadcrumb
+          items={[
+            { href: '/honkai3rd', label: 'Honkai 3rd' },
+            { href: '/honkai3rd/stigmata', label: 'Stigmata' },
+            {
+              href: `/honkai3rd/stigmata/${stigmataData.id}`,
+              label: stigmataData.name,
+            },
+          ]}
+        />
 
-      <Heading as='h1'>{stigmataData.name}</Heading>
+        <Heading as='h1'>{stigmataData.name}</Heading>
 
-      <img
-        alt={stigmataData.name}
-        src={`/assets/honkai3rd/stigmata/${stigmataData.id}.png`}
-      />
-
-      <Box>
-        <Heading as='h2'>Skill - {stigmataData.skill.name}</Heading>
-        <Paragraph>{stigmataData.skill.description}</Paragraph>
-      </Box>
-
-      {stigmataSet != null && (
-        <Box>
-          <Heading as='h2'>Set</Heading>
-          <Box>
-            {stigmataSetList.map((stigmataSetItem) => {
-              return (
-                <Link
-                  key={stigmataSetItem.id}
-                  href={`/honkai3rd/stigmata/${stigmataSetItem.id}`}
-                >
-                  <a>
-                    <div
-                      className='rounded'
-                      style={{
-                        width: '100px',
-                        height: '100px',
-                        position: 'relative',
-                        overflow: 'hidden',
-                      }}
-                    >
-                      <img
-                        alt={stigmataSetItem.name}
-                        style={{
-                          position: 'absolute',
-                          left: '50%',
-                          top: '50%',
-                          transform: 'translateY(-50%) translateX(-50%)',
-                        }}
-                        height='100'
-                        src={`/assets/honkai3rd/stigmata/icon-${stigmataSetItem.id}.png`}
-                      />
-                    </div>
-                    <Text>{stigmataSetItem.name}</Text>
-                  </a>
-                </Link>
-              )
-            })}
-          </Box>
-          <Box>
-            <Heading as='h3'>{stigmataSet.twoSetSkill.name}</Heading>
-            <Paragraph>{stigmataSet.twoSetSkill.description}</Paragraph>
-          </Box>
-          <Box>
-            <Heading as='h3'>{stigmataSet.threeSetSkill.name}</Heading>
-            <Paragraph>{stigmataSet.threeSetSkill.description}</Paragraph>
-          </Box>
+        <Box
+          mb={3}
+          sx={{
+            position: 'relative',
+            overflow: 'hidden',
+            width: '100%',
+            maxWidth: '600px',
+            borderRadius: 4,
+          }}
+        >
+          <Image
+            alt={stigmataData.name}
+            src={`/assets/honkai3rd/stigmata/${stigmataData.id}.png`}
+            width={600}
+            height={600}
+            layout='responsive'
+          />
         </Box>
-      )}
+
+        <Box mb={3}>
+          <Heading as='h2'>Skill - {stigmataData.skill.name}</Heading>
+          <Paragraph>{stigmataData.skill.description}</Paragraph>
+        </Box>
+
+        {stigmataSet != null && (
+          <Box>
+            <Heading as='h2'>Set</Heading>
+            <Box mb={3}>
+              {stigmataSetList.map((stigmataSetItem) => {
+                return (
+                  <Link
+                    key={stigmataSetItem.id}
+                    href={`/honkai3rd/stigmata/${stigmataSetItem.id}`}
+                  >
+                    <a>
+                      <Box
+                        sx={{
+                          position: 'relative',
+                          overflow: 'hidden',
+                          width: '100px',
+                          height: '100px',
+                          borderRadius: 4,
+                        }}
+                      >
+                        <Image
+                          alt={stigmataSetItem.name}
+                          layout='fill'
+                          objectFit='cover'
+                          src={`/assets/honkai3rd/stigmata/icon-${stigmataSetItem.id}.png`}
+                        />
+                      </Box>
+                      <Text>{stigmataSetItem.name}</Text>
+                    </a>
+                  </Link>
+                )
+              })}
+            </Box>
+            <Box mb={3}>
+              <Heading as='h3'>{stigmataSet.twoSetSkill.name}</Heading>
+              <Paragraph>{stigmataSet.twoSetSkill.description}</Paragraph>
+            </Box>
+            <Box>
+              <Heading as='h3'>{stigmataSet.threeSetSkill.name}</Heading>
+              <Paragraph>{stigmataSet.threeSetSkill.description}</Paragraph>
+            </Box>
+          </Box>
+        )}
+      </Box>
     </Box>
   )
 }

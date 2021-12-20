@@ -1,5 +1,7 @@
 import { Box, Heading, Flex, Text, Link } from '@theme-ui/components'
+import Image from 'next/image'
 import NextLink from 'next/link'
+import { pick } from 'ramda'
 import React from 'react'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
@@ -9,7 +11,7 @@ import {
 } from '../../../data/honkai3rd/battlesuits'
 
 interface BattlesuitListPageProps {
-  battlesuits: BattlesuitData[]
+  battlesuits: Pick<BattlesuitData, 'id' | 'name'>[]
 }
 
 const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
@@ -58,29 +60,21 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
                   passHref={true}
                 >
                   <Link>
-                    <Box sx={{ display: 'flex', justifyContent: 'center' }}>
-                      <div
-                        className='rounded'
-                        style={{
-                          width: '140px',
-                          height: '140px',
-                          position: 'relative',
-                          overflow: 'hidden',
-                          borderRadius: 4,
-                        }}
-                      >
-                        <img
-                          alt={battlesuit.name}
-                          style={{
-                            position: 'absolute',
-                            left: '50%',
-                            top: '50%',
-                            transform: 'translateY(-50%) translateX(-50%)',
-                          }}
-                          height='140'
-                          src={`/assets/honkai3rd/battlesuits/portrait-${battlesuit.id}.png`}
-                        />
-                      </div>
+                    <Box
+                      sx={{
+                        position: 'relative',
+                        overflow: 'hidden',
+                        width: '140px',
+                        height: '140px',
+                        borderRadius: 4,
+                      }}
+                    >
+                      <Image
+                        alt={battlesuit.name}
+                        layout='fill'
+                        objectFit='cover'
+                        src={`/assets/honkai3rd/battlesuits/portrait-${battlesuit.id}.png`}
+                      />
                     </Box>
                     <Box
                       sx={{
@@ -109,7 +103,9 @@ export default BattlesuitListPage
 export async function getStaticProps() {
   return {
     props: {
-      battlesuits: listBattlesuits(),
+      battlesuits: listBattlesuits().map((battlesuit) =>
+        pick(['id', 'name'], battlesuit)
+      ),
     },
   }
 }

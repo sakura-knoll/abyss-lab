@@ -1,5 +1,6 @@
 import { Box, Heading, Paragraph } from '@theme-ui/components'
 import { NextPageContext } from 'next'
+import Image from 'next/image'
 import React from 'react'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
@@ -33,10 +34,21 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
         <Heading as='h1'>{battlesuit.name}</Heading>
 
         <Box className='mb-4'>
-          <Box>
-            <img
+          <Box
+            sx={{
+              position: 'relative',
+              overflow: 'hidden',
+              width: '100%',
+              maxWidth: '600px',
+              borderRadius: 4,
+            }}
+          >
+            <Image
               alt={battlesuit.name}
               src={`/assets/honkai3rd/battlesuits/${battlesuit.id}.png`}
+              width={600}
+              height={600}
+              layout='responsive'
             />
           </Box>
         </Box>
@@ -49,7 +61,7 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
               <Paragraph>{battlesuit.leader.core.description}</Paragraph>
               {battlesuit.leader.subskills.map((subskill, index) => {
                 return (
-                  <>
+                  <React.Fragment key={subskill.name}>
                     <Heading as='h4'>
                       {subskill.name}
                       {subskill.requiredRank != null
@@ -57,7 +69,7 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
                         : ''}
                     </Heading>
                     <p>{subskill.description}</p>
-                  </>
+                  </React.Fragment>
                 )
               })}
             </Box>
@@ -71,7 +83,7 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
               <Paragraph>{battlesuit.passive.core.description}</Paragraph>
               {battlesuit.passive.subskills.map((subskill, index) => {
                 return (
-                  <>
+                  <React.Fragment key={subskill.name}>
                     <Heading as='h4'>
                       {subskill.name}
                       {subskill.requiredRank != null
@@ -79,7 +91,7 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
                         : ''}
                     </Heading>
                     <p>{subskill.description}</p>
-                  </>
+                  </React.Fragment>
                 )
               })}
             </Box>
@@ -93,7 +105,7 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
               <Paragraph>{battlesuit.evasion.core.description}</Paragraph>
               {battlesuit.evasion.subskills.map((subskill, index) => {
                 return (
-                  <>
+                  <React.Fragment key={subskill.name}>
                     <Heading as='h4'>
                       {subskill.name}
                       {subskill.requiredRank != null
@@ -101,7 +113,7 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
                         : ''}
                     </Heading>
                     <p>{subskill.description}</p>
-                  </>
+                  </React.Fragment>
                 )
               })}
             </Box>
@@ -115,7 +127,7 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
               <Paragraph>{battlesuit.special.core.description}</Paragraph>
               {battlesuit.special.subskills.map((subskill, index) => {
                 return (
-                  <>
+                  <React.Fragment key={subskill.name}>
                     <Heading as='h4'>
                       {subskill.name}
                       {subskill.requiredRank != null
@@ -123,7 +135,7 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
                         : ''}
                     </Heading>
                     <p>{subskill.description}</p>
-                  </>
+                  </React.Fragment>
                 )
               })}
             </Box>
@@ -138,7 +150,7 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
               <Paragraph>{battlesuit.ultimate.core.description}</Paragraph>
               {battlesuit.ultimate.subskills.map((subskill, index) => {
                 return (
-                  <>
+                  <React.Fragment key={subskill.name}>
                     <Heading as='h4'>
                       {subskill.name}
                       {subskill.requiredRank != null
@@ -146,7 +158,7 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
                         : ''}
                     </Heading>
                     <p>{subskill.description}</p>
-                  </>
+                  </React.Fragment>
                 )
               })}
             </Box>
@@ -161,7 +173,7 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
               <Paragraph>{battlesuit.basic.core.description}</Paragraph>
               {battlesuit.basic.subskills.map((subskill, index) => {
                 return (
-                  <>
+                  <React.Fragment key={subskill.name}>
                     <Heading as='h4'>
                       {subskill.name}
                       {subskill.requiredRank != null
@@ -169,7 +181,7 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
                         : ''}
                     </Heading>
                     <p>{subskill.description}</p>
-                  </>
+                  </React.Fragment>
                 )
               })}
             </Box>
@@ -185,7 +197,7 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
                 <Paragraph>{battlesuit.sp.core.description}</Paragraph>
                 {battlesuit.sp.subskills.map((subskill, index) => {
                   return (
-                    <>
+                    <React.Fragment key={subskill.name}>
                       <Heading as='h4'>
                         {subskill.name}
                         {subskill.requiredRank != null
@@ -193,7 +205,7 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
                           : ''}
                       </Heading>
                       <p>{subskill.description}</p>
-                    </>
+                    </React.Fragment>
                   )
                 })}
               </Box>

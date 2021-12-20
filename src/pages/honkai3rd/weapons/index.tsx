@@ -1,12 +1,14 @@
 /** @jsxImportSource theme-ui */
 import { Text, Box, Heading, Flex, Link } from '@theme-ui/components'
+import Image from 'next/image'
 import NextLink from 'next/link'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { listWeapons, WeaponData } from '../../../data/honkai3rd/weapons'
+import { pick } from 'ramda'
 
 interface WeaponListPageProps {
-  weaponDataList: WeaponData[]
+  weaponDataList: Pick<WeaponData, 'id' | 'name' | 'rarity'>[]
 }
 
 const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
@@ -55,29 +57,21 @@ const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
                   passHref={true}
                 >
                   <Link>
-                    <Box sx={{ display: 'flex', justifyContent: 'center' }}>
-                      <div
-                        className='rounded'
-                        style={{
-                          width: '100px',
-                          height: '100px',
-                          position: 'relative',
-                          overflow: 'hidden',
-                          borderRadius: 4,
-                        }}
-                      >
-                        <img
-                          alt={weapon.name}
-                          style={{
-                            position: 'absolute',
-                            left: '50%',
-                            top: '50%',
-                            transform: 'translateY(-50%) translateX(-50%)',
-                          }}
-                          height='100'
-                          src={`/assets/honkai3rd/weapons/${weapon.id}.png`}
-                        />
-                      </div>
+                    <Box
+                      sx={{
+                        position: 'relative',
+                        overflow: 'hidden',
+                        width: '100px',
+                        height: '100px',
+                        borderRadius: 4,
+                      }}
+                    >
+                      <Image
+                        alt={weapon.name}
+                        layout='fill'
+                        objectFit='cover'
+                        src={`/assets/honkai3rd/weapons/${weapon.id}.png`}
+                      />
                     </Box>
                     <Box
                       sx={{
@@ -109,7 +103,9 @@ export default WeaponListPage
 export async function getStaticProps() {
   return {
     props: {
-      weaponDataList: listWeapons(),
+      weaponDataList: listWeapons().map((weapon) => {
+        return pick(['name', 'id', 'rarity'], weapon)
+      }),
     },
   }
 }

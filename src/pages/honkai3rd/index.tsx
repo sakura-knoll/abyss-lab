@@ -1,4 +1,5 @@
-import { Box, Heading, Link, Image } from '@theme-ui/components'
+import { Box, Heading, Link } from '@theme-ui/components'
+import Image from 'next/image'
 import NextLink from 'next/link'
 import React from 'react'
 import Breadcrumb from '../../components/organisms/Breadcrumb'
@@ -36,11 +37,13 @@ const Honkai3rdIndexPage = () => {
       <Box p={3}>
         <Breadcrumb items={[{ href: 'honkai3rd', label: 'Honkai 3rd' }]} />
         <Heading as='h1'>Honkai 3rd</Heading>
-        <Box mb={3}>
+        <Box mb={3} sx={{ position: 'relative', minHeight: 300 }}>
           <Image
             alt='Honkai 3rd Wallpaper'
             src='/assets/honkai3rd/wallpaper.png'
-            width='100%'
+            width={640}
+            height={360}
+            layout='responsive'
           />
         </Box>
         <Box mb={3}>

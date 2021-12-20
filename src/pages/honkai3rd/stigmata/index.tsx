@@ -1,12 +1,14 @@
 /** @jsxImportSource theme-ui */
 import { Text, Box, Heading, Flex, Link } from '@theme-ui/components'
+import Image from 'next/image'
 import NextLink from 'next/link'
+import { pick } from 'ramda'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { StigmataData, listStigmata } from '../../../data/honkai3rd/stigmata'
 
 interface StigmataListPageProps {
-  stigmataDataList: StigmataData[]
+  stigmataDataList: Pick<StigmataData, 'id' | 'name' | 'rarity'>[]
 }
 
 const StigmataListPage = ({ stigmataDataList }: StigmataListPageProps) => {
@@ -55,29 +57,21 @@ const StigmataListPage = ({ stigmataDataList }: StigmataListPageProps) => {
                   passHref={true}
                 >
                   <Link>
-                    <Box sx={{ display: 'flex', justifyContent: 'center' }}>
-                      <div
-                        className='rounded'
-                        style={{
-                          width: '100px',
-                          height: '100px',
-                          position: 'relative',
-                          overflow: 'hidden',
-                          borderRadius: 4,
-                        }}
-                      >
-                        <img
-                          alt={stigmata.name}
-                          style={{
-                            position: 'absolute',
-                            left: '50%',
-                            top: '50%',
-                            transform: 'translateY(-50%) translateX(-50%)',
-                          }}
-                          height='100'
-                          src={`/assets/honkai3rd/stigmata/icon-${stigmata.id}.png`}
-                        />
-                      </div>
+                    <Box
+                      sx={{
+                        position: 'relative',
+                        overflow: 'hidden',
+                        width: '100px',
+                        height: '100px',
+                        borderRadius: 4,
+                      }}
+                    >
+                      <Image
+                        alt={stigmata.name}
+                        layout='fill'
+                        objectFit='cover'
+                        src={`/assets/honkai3rd/stigmata/icon-${stigmata.id}.png`}
+                      />
                     </Box>
                     <Box
                       sx={{
@@ -109,7 +103,9 @@ export default StigmataListPage
 export async function getStaticProps() {
   return {
     props: {
-      stigmataDataList: listStigmata(),
+      stigmataDataList: listStigmata().map((stigmata) =>
+        pick(['id', 'name', 'rarity'], stigmata)
+      ),
     },
   }
 }
