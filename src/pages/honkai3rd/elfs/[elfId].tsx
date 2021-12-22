@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Paragraph } from '@theme-ui/components'
+import { Box, Heading, Paragraph } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import Image from 'next/image'
 import React from 'react'
