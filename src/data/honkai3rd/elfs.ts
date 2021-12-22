@@ -13,6 +13,7 @@ export interface ElfData {
   baseRank: number
   strengths: string[]
   skillRows: [ElfSkill[], ElfSkill[], ElfSkill[], ElfSkill[]]
+  version: number
 }
 
 const elfFileNameList = readdirSync('elfs')
@@ -24,15 +25,22 @@ const elfDataList = elfFileNameList
     return data
   })
   .sort((a, b) => {
-    let compareResult = a.name
+    let compareResult = 0
+
+    compareResult = -a.version + b.version
+
+    if (compareResult !== 0) {
+      return compareResult
+    }
+    compareResult = a.name
       .replace(/ \(.\)/, '')
       .localeCompare(b.name.replace(/ \(.\)/, ''))
 
     return compareResult
   })
 
-const elfMap = elfDataList.reduce((map, stigmata) => {
-  map.set(stigmata.id, stigmata)
+const elfMap = elfDataList.reduce((map, elf) => {
+  map.set(elf.id, elf)
   return map
 }, new Map<string, ElfData>())
 
