@@ -1,11 +1,11 @@
+/** @jsxImportSource theme-ui */
+import { Box } from '@theme-ui/components'
 import Link from 'next/link'
-import React from 'react'
-import { Container } from 'react-bootstrap'
 import RootNavigator from '../components/organisms/RootNavigator'
 
 const IndexPage = () => {
   return (
-    <Container>
+    <Box>
       <RootNavigator />
 
       <div>
@@ -15,7 +15,7 @@ const IndexPage = () => {
           </a>
         </Link>
       </div>
-    </Container>
+    </Box>
   )
 }
 
