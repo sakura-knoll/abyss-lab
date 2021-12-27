@@ -124,6 +124,9 @@ const VersionIndexPage = ({
                     id: supplyEventData.id,
                     label: (
                       <Flex sx={{ alignItems: 'center' }}>
+                        {!supplyEventData.verified && (
+                          <Text sx={{ flexShrink: 0 }}>❓</Text>
+                        )}
                         {imgSrc != null && (
                           <SquareImageBox
                             size={20}
