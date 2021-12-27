@@ -20,6 +20,7 @@ import {
 } from '../../../data/honkai3rd/versions'
 import { getWeaponById, WeaponData } from '../../../data/honkai3rd/weapons'
 import { addDateToDateString, getDateString } from '../../../lib/string'
+import ScrollContainer from 'react-indiana-drag-scroll'
 
 interface VersionIndexPageProps {
   versionDataList: VersionData[]
@@ -109,38 +110,40 @@ const VersionIndexPage = ({
             Supply Events
           </Heading>
           <Box mb={4}>
-            <GanttChart
-              items={currentVersionSupplyEvents.map((supplyEventData) => {
-                const imgSrc = getIconSrcFromItem(supplyEventData.featured[0])
-                return {
-                  id: supplyEventData.id,
-                  label: (
-                    <Flex sx={{ alignItems: 'center' }}>
-                      {imgSrc != null && (
-                        <SquareImageBox
-                          size={20}
-                          src={imgSrc}
-                          alt={supplyEventData.featured[0].id}
-                          mr={1}
-                        />
-                      )}
-                      <Text>{supplyEventData.name}</Text>
-                    </Flex>
-                  ),
-                  duration: supplyEventData.duration,
-                  row: supplyEventData.track,
+            <ScrollContainer vertical={false}>
+              <GanttChart
+                items={currentVersionSupplyEvents.map((supplyEventData) => {
+                  const imgSrc = getIconSrcFromItem(supplyEventData.featured[0])
+                  return {
+                    id: supplyEventData.id,
+                    label: (
+                      <Flex sx={{ alignItems: 'center' }}>
+                        {imgSrc != null && (
+                          <SquareImageBox
+                            size={20}
+                            src={imgSrc}
+                            alt={supplyEventData.featured[0].id}
+                            mr={1}
+                          />
+                        )}
+                        <Text>{supplyEventData.name}</Text>
+                      </Flex>
+                    ),
+                    duration: supplyEventData.duration,
+                    row: supplyEventData.track,
+                  }
+                })}
+                today={getDateString(new Date())}
+                startDate={currentVersionData.duration[0]}
+                endDate={
+                  currentVersionData.duration[1] != null
+                    ? currentVersionData.duration[1]
+                    : addDateToDateString(currentVersionData.duration[0], {
+                        weeks: 6,
+                      })
                 }
-              })}
-              today={getDateString(new Date())}
-              startDate={currentVersionData.duration[0]}
-              endDate={
-                currentVersionData.duration[1] != null
-                  ? currentVersionData.duration[1]
-                  : addDateToDateString(currentVersionData.duration[0], {
-                      weeks: 6,
-                    })
-              }
-            />
+              />
+            </ScrollContainer>
           </Box>
           <Box>
             <NextLink
