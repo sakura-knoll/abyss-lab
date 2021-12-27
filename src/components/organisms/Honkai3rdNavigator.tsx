@@ -16,6 +16,11 @@ const Honkai3rdNavigator = () => {
           </NextLink>
         </Heading>
       </Flex>
+      <NextLink href='/honkai3rd/versions' passHref>
+        <NavLink mr={3} sx={{ fontFamily: 'monospace' }}>
+          Versions
+        </NavLink>
+      </NextLink>
       <Flex sx={{ height: 40, alignItems: 'center' }}>
         <NextLink href='/honkai3rd/battlesuits' passHref>
           <NavLink mr={3} sx={{ fontFamily: 'monospace' }}>

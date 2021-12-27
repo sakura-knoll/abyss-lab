@@ -1,6 +1,6 @@
 import { readdirSync, readJsonFileSync } from '../../lib/data'
 
-export interface SupplyEvent {
+export interface SupplyEventData {
   id: string
   verified: boolean
   track: number
@@ -33,46 +33,20 @@ export interface SupplyEvent {
   }[]
 }
 
-const supplyEventFileNameList = readdirSync('supply-events/global-americas')
-const supplyEventFileList = supplyEventFileNameList
-  .map((fileName) => {
-    const filePathname = 'supply-events/global-americas/' + fileName
-    const data = readJsonFileSync(filePathname)
+export function listSupplyEventsByVersion(version: string) {
+  const supplyEventsDirectoryPathname = `versions/${version}/supply-events`
 
-    return { ...data, id: fileName.replace(/\.json/, '') } as SupplyEvent
-  })
-  .sort((a, b) => {
-    return -a.id.localeCompare(b.id)
-  })
+  const supplyEventFileNameList = readdirSync(supplyEventsDirectoryPathname)
+  const supplyEventList = supplyEventFileNameList
+    .map((fileName) => {
+      const filePathname = `${supplyEventsDirectoryPathname}/` + fileName
+      const data = readJsonFileSync(filePathname)
 
-const supplyEventMap = supplyEventFileList.reduce((map, stigmata) => {
-  map.set(stigmata.id, stigmata)
-  return map
-}, new Map<string, SupplyEvent>())
+      return { ...data, id: fileName.replace(/\.json/, '') } as SupplyEventData
+    })
+    .sort((a, b) => {
+      return -a.id.localeCompare(b.id)
+    })
 
-const versionSupplyEventListMap = supplyEventFileList.reduce(
-  (map, supplyEvent) => {
-    let supplyEvents = map.get(supplyEvent.version)
-    if (supplyEvents == null) {
-      supplyEvents = []
-      map.set(supplyEvent.version, supplyEvents)
-    }
-
-    supplyEvents.push(supplyEvent)
-
-    return map
-  },
-  new Map<number, SupplyEvent[]>()
-)
-
-export function listSupplyEvents() {
-  return supplyEventFileList
-}
-
-export function getSupplyEventById(id: string) {
-  return supplyEventMap.get(id)
-}
-
-export function getSupplyEventListByVersion(version: number) {
-  return versionSupplyEventListMap.get(version) || []
+  return supplyEventList
 }
