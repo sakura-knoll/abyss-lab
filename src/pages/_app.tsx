@@ -1,34 +1,13 @@
 import type { AppProps } from 'next/app'
 import { Theme, ThemeProvider } from 'theme-ui'
+import { colors } from '../lib/colors'
 
 export const theme: Theme = {
   breakpoints: ['576px', '768px', '992px', '1200px'],
   colors: {
+    ...colors,
     white: '#fff',
     black: '#000',
-    gray: [
-      '#fff',
-      '#f8f9fa',
-      '#e9ecef',
-      '#dee2e6',
-      '#ced4da',
-      '#adb5bd',
-      '#6c757d',
-      '#495057',
-      '#343a40',
-      '#212529',
-    ],
-    blue: '#007bff',
-    indigo: '#6610f2',
-    purple: '#6f42c1',
-    pink: '#e83e8c',
-    red: '#dc3545',
-    orange: '#fd7e14',
-    yellow: '#ffc107',
-    green: '#28a745',
-    teal: '#20c997',
-    cyan: '#17a2b8',
-    grayDark: '#343a40',
     text: '#212529',
     background: '#fff',
     primary: '#007bff',
