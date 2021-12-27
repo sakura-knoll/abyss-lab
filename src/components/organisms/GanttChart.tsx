@@ -53,7 +53,7 @@ const GanttChart = ({
   }, [])
 
   return (
-    <Box sx={{ width: weeksToRender * 280 }}>
+    <Box sx={{ width: (weeksToRender + 1) * 280 }}>
       <Flex
         sx={{
           marginLeft: -20,
@@ -73,7 +73,7 @@ const GanttChart = ({
               Week {weekNumber}
             </Box>
           )
-        }, weeksToRender)}
+        }, weeksToRender + 1)}
       </Flex>
       <Box
         sx={{
@@ -100,7 +100,7 @@ const GanttChart = ({
               }}
             />
           )
-        }, daysToRender)}
+        }, daysToRender + 1)}
 
         {times((index) => {
           const weekNumber = index + 1
