@@ -1,3 +1,5 @@
+import { format as formatDate, add as addDate } from 'date-fns'
+
 export function isVersionString(version: string): boolean {
   return /[0-9]+\.[0-9]+(\.[0-9]+)?/.test(version)
 }
@@ -19,4 +21,16 @@ export function compareVersion(aVersion: string, bVersion: string): number {
   }
 
   return parseInt(aPatch, 10) - parseInt(bPatch, 10)
+}
+
+export function getDateString(date: Date) {
+  return formatDate(date, 'yyyy-MM-dd')
+}
+
+export function addDateToDateString(dateString: string, duration: Duration) {
+  return getDateString(
+    addDate(new Date(dateString), {
+      weeks: 6,
+    })
+  )
 }

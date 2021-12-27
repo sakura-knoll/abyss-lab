@@ -1,6 +1,5 @@
 /** @jsxImportSource theme-ui */
 import { Box, Flex, Heading, Link, Text } from '@theme-ui/components'
-import { format } from 'date-fns'
 import NextLink from 'next/link'
 import SquareImageBox from '../../../components/atoms/SquareImageBox'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
@@ -20,6 +19,7 @@ import {
   VersionData,
 } from '../../../data/honkai3rd/versions'
 import { getWeaponById, WeaponData } from '../../../data/honkai3rd/weapons'
+import { addDateToDateString, getDateString } from '../../../lib/string'
 
 interface VersionIndexPageProps {
   versionDataList: VersionData[]
@@ -47,7 +47,7 @@ const VersionIndexPage = ({
             { href: '/honkai3rd/versions', label: 'Versions' },
           ]}
         />
-        <Box mb={3}>
+        <Box mb={4}>
           <Heading as='h2' mb={4}>
             v{currentVersionData.version} : {currentVersionData.name}
             <br />
@@ -55,8 +55,10 @@ const VersionIndexPage = ({
           </Heading>
 
           <Box>
-            <Heading as='h3'>New Battlesuits</Heading>
-            <Box mb={4}>
+            <Heading as='h3' mb={2}>
+              New Battlesuits
+            </Heading>
+            <Box mb={3} sx={{ display: 'inline-block' }}>
               {currentVersionNewBattlesuits.map((battlesuit) => {
                 return (
                   <NextLink
@@ -79,8 +81,10 @@ const VersionIndexPage = ({
               })}
             </Box>
 
-            <Heading as='h3'>New Weapons</Heading>
-            <Box mb={4}>
+            <Heading as='h3' mb={2}>
+              New Weapons
+            </Heading>
+            <Box mb={3} sx={{ display: 'inline-block' }}>
               {currentVersionNewWeapons.map((weapon) => {
                 return (
                   <NextLink href={`/honkai3rd/weapons/${weapon.id}`} passHref>
@@ -101,7 +105,9 @@ const VersionIndexPage = ({
             </Box>
           </Box>
 
-          <Heading as='h3'>Supply Events</Heading>
+          <Heading as='h3' mb={2}>
+            Supply Events
+          </Heading>
           <Box mb={4}>
             <GanttChart
               items={currentVersionSupplyEvents.map((supplyEventData) => {
@@ -125,9 +131,15 @@ const VersionIndexPage = ({
                   row: supplyEventData.track,
                 }
               })}
-              today={format(new Date(), 'yyyy-MM-dd')}
+              today={getDateString(new Date())}
               startDate={currentVersionData.duration[0]}
-              endDate={currentVersionData.duration[1]}
+              endDate={
+                currentVersionData.duration[1] != null
+                  ? currentVersionData.duration[1]
+                  : addDateToDateString(currentVersionData.duration[0], {
+                      weeks: 6,
+                    })
+              }
             />
           </Box>
           <Box>
@@ -140,11 +152,13 @@ const VersionIndexPage = ({
           </Box>
         </Box>
 
-        <Heading as='h2'>All Versions</Heading>
+        <Heading as='h2' mb={3}>
+          All Versions
+        </Heading>
         <Box>
           {versionDataList.map((versionData) => {
             return (
-              <Box key={versionData.version}>
+              <Box key={versionData.version} mb={2}>
                 <Heading as='h3'>
                   <NextLink
                     href={`/honkai3rd/versions/${versionData.version}`}
@@ -152,12 +166,9 @@ const VersionIndexPage = ({
                   >
                     <Link>
                       {versionData.version} : {versionData.name} (
-                      {format(new Date(versionData.duration[0]), 'yyyy/MM/dd')}-
+                      {versionData.duration[0].replace(/-/g, '/')}-
                       {versionData.duration[1] != null
-                        ? format(
-                            new Date(versionData.duration[1]),
-                            'yyyy/MM/dd'
-                          )
+                        ? versionData.duration[1].replace(/-/g, '/')
                         : ''}
                       )
                     </Link>
