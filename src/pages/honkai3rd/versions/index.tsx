@@ -21,6 +21,7 @@ import {
 import { getWeaponById, WeaponData } from '../../../data/honkai3rd/weapons'
 import { addDateToDateString, getDateString } from '../../../lib/string'
 import ScrollContainer from 'react-indiana-drag-scroll'
+import { format as formatDate } from 'date-fns'
 
 interface VersionIndexPageProps {
   versionDataList: VersionData[]
@@ -49,11 +50,16 @@ const VersionIndexPage = ({
           ]}
         />
         <Box mb={4}>
-          <Heading as='h2' mb={4}>
-            v{currentVersionData.version} : {currentVersionData.name}
-            <br />
+          <Heading as='h2'>
+            v{currentVersionData.version} : {currentVersionData.name}{' '}
             <small>(Current Version)</small>
           </Heading>
+          <Box mb={4}>
+            {formatDate(new Date(currentVersionData.duration[0]), 'PP')} -{' '}
+            {currentVersionData.duration[1] != null
+              ? formatDate(new Date(currentVersionData.duration[1]), 'PP')
+              : ''}
+          </Box>
 
           <Box>
             <Heading as='h3' mb={2}>
@@ -169,9 +175,9 @@ const VersionIndexPage = ({
                   >
                     <Link>
                       {versionData.version} : {versionData.name} (
-                      {versionData.duration[0].replace(/-/g, '/')}-
+                      {formatDate(new Date(versionData.duration[0]), 'PP')} -{' '}
                       {versionData.duration[1] != null
-                        ? versionData.duration[1].replace(/-/g, '/')
+                        ? formatDate(new Date(versionData.duration[1]), 'PP')
                         : ''}
                       )
                     </Link>
