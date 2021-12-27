@@ -1,8 +1,11 @@
 import { Box, Flex, Text } from '@theme-ui/components'
 import {
+  addDays,
+  addWeeks,
   differenceInCalendarDays,
   differenceInCalendarWeeks,
   format,
+  subDays,
 } from 'date-fns'
 import { times } from 'ramda'
 import { useMemo, MouseEventHandler } from 'react'
@@ -30,10 +33,18 @@ const GanttChart = ({
 }: GanttChartProps) => {
   const startDate = new Date(startDateString)
   const endDate = new Date(endDateString)
+  const firstDateToRender = subDays(startDate, startDate.getDay())
+  const lastDateToRender = addDays(endDate, 6 - endDate.getDay())
   const todayDate = new Date(todayDateString)
 
-  const totalDays = differenceInCalendarDays(endDate, startDate)
-  const totalWeeks = differenceInCalendarWeeks(endDate, startDate)
+  const daysToRender = differenceInCalendarDays(
+    lastDateToRender,
+    firstDateToRender
+  )
+  const weeksToRender = differenceInCalendarWeeks(
+    lastDateToRender,
+    firstDateToRender
+  )
 
   const totalRow = useMemo(() => {
     return items.reduce((max, item) => {
@@ -42,7 +53,7 @@ const GanttChart = ({
   }, [])
 
   return (
-    <Box mb={3} sx={{ width: totalWeeks * 280 }}>
+    <Box sx={{ width: weeksToRender * 280 }}>
       <Flex
         sx={{
           marginLeft: -20,
@@ -62,7 +73,7 @@ const GanttChart = ({
               Week {weekNumber}
             </Box>
           )
-        }, totalWeeks)}
+        }, weeksToRender)}
       </Flex>
       <Box
         sx={{
@@ -89,7 +100,26 @@ const GanttChart = ({
               }}
             />
           )
-        }, totalDays)}
+        }, daysToRender)}
+
+        {times((index) => {
+          const weekNumber = index + 1
+          return (
+            <Text
+              sx={{
+                position: 'absolute',
+                color: 'gray.5',
+                zIndex: 21,
+                top: 0,
+                left: weekNumber * 280 - 15,
+                width: 300,
+                pointerEvents: 'none',
+              }}
+            >
+              {format(addWeeks(firstDateToRender, weekNumber), 'PP')}
+            </Text>
+          )
+        }, weeksToRender)}
         <Box
           sx={{
             boxSizing: 'border-box',
@@ -102,10 +132,67 @@ const GanttChart = ({
             opacity: 0.2,
             zIndex: 20,
             borderRadius: 4,
-            left: differenceInCalendarDays(todayDate, startDate) * 40 - 20,
+            left:
+              differenceInCalendarDays(todayDate, firstDateToRender) * 40 - 20,
             pointerEvents: 'none',
           }}
         />
+
+        <Box
+          sx={{
+            boxSizing: 'border-box',
+            position: 'absolute',
+            width: 1,
+            height: totalRow * 50 + 40,
+            backgroundColor: 'red.3',
+            zIndex: 20,
+            left: differenceInCalendarDays(startDate, firstDateToRender) * 40,
+            pointerEvents: 'none',
+          }}
+        />
+        <Box
+          sx={{
+            boxSizing: 'border-box',
+            position: 'absolute',
+            width: 1,
+            height: totalRow * 50 + 40,
+            backgroundColor: 'red.3',
+            zIndex: 20,
+            left: differenceInCalendarDays(endDate, firstDateToRender) * 40,
+            pointerEvents: 'none',
+          }}
+        />
+        <Text
+          sx={{
+            position: 'absolute',
+            transform: 'rotate(90deg)',
+            color: 'red.5',
+            zIndex: 21,
+            top: 150,
+            left:
+              differenceInCalendarDays(startDate, firstDateToRender) * 40 +
+              -160,
+            width: 300,
+            pointerEvents: 'none',
+          }}
+        >
+          {format(startDate, 'PP')}
+        </Text>
+        <Text
+          sx={{
+            position: 'absolute',
+            transform: 'rotate(90deg)',
+            color: 'red.5',
+            zIndex: 21,
+            top: 150,
+            left:
+              differenceInCalendarDays(endDate, firstDateToRender) * 40 + -140,
+            width: 300,
+            pointerEvents: 'none',
+          }}
+        >
+          {format(endDate, 'PP')}
+        </Text>
 
         <Text
           sx={{
@@ -115,18 +202,22 @@ const GanttChart = ({
             zIndex: 21,
             top: 150,
             left:
-              differenceInCalendarDays(new Date(todayDate), startDate) * 40 -
+              differenceInCalendarDays(new Date(todayDate), firstDateToRender) *
+                40 -
               150,
             width: 300,
             pointerEvents: 'none',
           }}
         >
-          Today ({format(todayDate, 'P')})
+          Today ({format(todayDate, 'PP')})
         </Text>
 
         {items.map((item) => {
           const offset =
-            differenceInCalendarDays(new Date(item.duration[0]), startDate) * 40
+            differenceInCalendarDays(
+              new Date(item.duration[0]),
+              firstDateToRender
+            ) * 40
           const length =
             differenceInCalendarDays(
               new Date(item.duration[1]),
