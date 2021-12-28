@@ -4,6 +4,8 @@ import { compareVersion } from '../../lib/string'
 
 export interface VersionData {
   version: string
+  previousVersion?: string
+  nextVersion?: string
   name: string
   duration: [string, string]
   verified: boolean
