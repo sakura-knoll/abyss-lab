@@ -33,8 +33,8 @@ const GanttChart = ({
 }: GanttChartProps) => {
   const startDate = new Date(startDateString)
   const endDate = new Date(endDateString)
-  const firstDateToRender = subDays(startDate, startDate.getDay())
-  const lastDateToRender = addDays(endDate, 6 - endDate.getDay())
+  const firstDateToRender = subDays(startDate, startDate.getDay() - 1)
+  const lastDateToRender = addDays(endDate, 6 - endDate.getDay() + 1)
   const todayDate = new Date(todayDateString)
 
   const daysToRender = differenceInCalendarDays(
