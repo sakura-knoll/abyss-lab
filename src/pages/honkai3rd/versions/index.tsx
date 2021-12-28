@@ -50,7 +50,26 @@ const VersionIndexPage = ({
           ]}
         />
         <Box mb={4}>
-          <Heading as='h2'>
+          <Box mb={2}>
+            {currentVersionData.previousVersion != null && (
+              <NextLink
+                href={`/honkai3rd/versions/${currentVersionData.previousVersion}`}
+                passHref
+              >
+                <Link>Previous (v{currentVersionData.previousVersion})</Link>
+              </NextLink>
+            )}
+            {currentVersionData.nextVersion != null && (
+              <NextLink
+                href={`/honkai3rd/versions/${currentVersionData.nextVersion}`}
+                passHref
+              >
+                <Link>Next (v{currentVersionData.nextVersion})</Link>
+              </NextLink>
+            )}
+          </Box>
+
+          <Heading as='h1'>
             v{currentVersionData.version} : {currentVersionData.name}{' '}
             <small>(Current Version)</small>
           </Heading>

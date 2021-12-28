@@ -53,9 +53,26 @@ const VersionShowPage = ({
           ]}
         />
         <Box>
-          <Heading as='h2'>
-            v{versionData.version} : {versionData.name}{' '}
-            <small>(Current Version)</small>
+          <Box mb={2}>
+            {versionData.previousVersion != null && (
+              <NextLink
+                href={`/honkai3rd/versions/${versionData.previousVersion}`}
+                passHref
+              >
+                <Link>Previous (v{versionData.previousVersion})</Link>
+              </NextLink>
+            )}
+            {versionData.nextVersion != null && (
+              <NextLink
+                href={`/honkai3rd/versions/${versionData.nextVersion}`}
+                passHref
+              >
+                <Link>Next (v{versionData.nextVersion})</Link>
+              </NextLink>
+            )}
+          </Box>
+          <Heading as='h1'>
+            v{versionData.version} : {versionData.name}
           </Heading>
           <Box mb={4}>
             {formatDate(new Date(versionData.duration[0]), 'PP')} -{' '}
