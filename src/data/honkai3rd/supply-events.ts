@@ -21,9 +21,11 @@ export interface SupplyEventData {
   }[]
   mileages: {
     count: number
-    type: string
-    id: string
-    amount: number
+    rewardOptions: {
+      type: string
+      id: string
+      amount: number
+    }[]
   }[]
   drops: {
     type: string
