@@ -89,6 +89,7 @@ const VersionShowPage = ({
               {battlesuits.map((battlesuit) => {
                 return (
                   <NextLink
+                    key={battlesuit.id}
                     href={`/honkai3rd/battlesuits/${battlesuit.id}`}
                     passHref
                   >
@@ -114,7 +115,11 @@ const VersionShowPage = ({
             <Box mb={3} sx={{ display: 'inline-block' }}>
               {weapons.map((weapon) => {
                 return (
-                  <NextLink href={`/honkai3rd/weapons/${weapon.id}`} passHref>
+                  <NextLink
+                    key={weapon.id}
+                    href={`/honkai3rd/weapons/${weapon.id}`}
+                    passHref
+                  >
                     <Link>
                       <Flex sx={{ alignItems: 'center' }} mb={2}>
                         <SquareImageBox
