@@ -234,6 +234,8 @@ function getIconSrcFromItem(item: { type: string; id: string }): string | null {
       return `/assets/honkai3rd/stigmata/icon-${item.id}.png`
     case 'elf':
       return `/assets/honkai3rd/elfs/icon-${item.id}.png`
+    case 'outfit':
+      return `/assets/honkai3rd/outfits/${item.id}.png`
   }
   return null
 }
