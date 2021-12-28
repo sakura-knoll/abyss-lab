@@ -50,7 +50,7 @@ const GanttChart = ({
     return items.reduce((max, item) => {
       return item.row > max ? item.row : max
     }, 1)
-  }, [])
+  }, [items])
 
   return (
     <Box sx={{ width: (weeksToRender + 1) * 280 }}>
