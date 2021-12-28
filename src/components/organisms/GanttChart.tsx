@@ -73,7 +73,7 @@ const GanttChart = ({
               Week {weekNumber}
             </Box>
           )
-        }, weeksToRender + 1)}
+        }, weeksToRender)}
       </Flex>
       <Box
         sx={{
