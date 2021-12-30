@@ -1,26 +1,35 @@
 {
   "version": "5.3",
-  "verified": false,
+  "verified": true,
   "track": 3,
-  "name": "Herrscher of Flamescion Expansion Supply",
-  "type": "expansion-supply",
+  "shortName": "EXPA #2",
+  "name": "EXPA Select Supply Round 2",
+  "type": "expansion-select-supply",
   "token": "expansion-supply-card",
   "featured": [
     {
       "type": "battlesuit",
-      "id": "hfs"
+      "id": "hot"
+    },
+    {
+      "type": "battlesuit",
+      "id": "nyx"
+    },
+    {
+      "type": "battlesuit",
+      "id": "sn"
     }
   ],
   "extra": ["essentines"],
-  "duration": ["2021-12-31", "2022-01-13"],
+  "duration": ["2022-01-03", "2022-01-05"],
   "guarantees": [
     {
       "count": 100,
-      "recurring": false,
+      "recurring": true,
       "rewards": [
         {
           "type": "battlesuit",
-          "id": "hfs",
+          "id": "selected-battlesuits",
           "amount": 1
         }
       ]
@@ -44,7 +53,7 @@
       "items": [
         {
           "type": "battlesuit",
-          "id": "hfs",
+          "id": "selected-battlesuit",
           "amount": 1
         }
       ]
@@ -53,9 +62,14 @@
       "rate": 2250,
       "items": [
         {
-          "type": "battlesuit-soul",
-          "id": "hfs",
+          "type": "battlesuit-fragment",
+          "id": "selected-battlesuit",
           "amount": [4, 6]
+        },
+        {
+          "type": "battlesuit-soul",
+          "id": "selected-battlesuit",
+          "amount": [7, 9]
         }
       ]
     },
@@ -64,7 +78,7 @@
       "items": [
         {
           "type": "battlesuit",
-          "id": "vb",
+          "id": "bb",
           "amount": 1
         }
       ]
@@ -74,7 +88,7 @@
       "items": [
         {
           "type": "battlesuit-fragment",
-          "id": "vb",
+          "id": "bb",
           "amount": [4, 6]
         }
       ]
@@ -84,7 +98,27 @@
       "items": [
         {
           "type": "battlesuit",
-          "id": "pi",
+          "id": "wd",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "rate": 3000,
+      "items": [
+        {
+          "type": "battlesuit-soul",
+          "id": "wd",
+          "amount": [5, 8]
+        }
+      ]
+    },
+    {
+      "rate": 3000,
+      "items": [
+        {
+          "type": "battlesuit",
+          "id": "ss",
           "amount": 1
         }
       ]
@@ -94,7 +128,7 @@
       "items": [
         {
           "type": "battlesuit-fragment",
-          "id": "pi",
+          "id": "ss",
           "amount": [4, 6]
         }
       ]
@@ -104,7 +138,7 @@
       "items": [
         {
           "type": "battlesuit",
-          "id": "vp",
+          "id": "kriegs",
           "amount": 1
         }
       ]
@@ -113,29 +147,9 @@
       "rate": 3000,
       "items": [
         {
-          "type": "battlesuit-fragment",
-          "id": "vp",
-          "amount": [4, 6]
-        }
-      ]
-    },
-    {
-      "rate": 3000,
-      "items": [
-        {
-          "type": "battlesuit",
-          "id": "vg",
-          "amount": 1
-        }
-      ]
-    },
-    {
-      "rate": 3000,
-      "items": [
-        {
-          "type": "battlesuit-fragment",
-          "id": "vg",
-          "amount": [4, 6]
+          "type": "battlesuit-soul",
+          "id": "kriegs",
+          "amount": [5, 8]
         }
       ]
     }
