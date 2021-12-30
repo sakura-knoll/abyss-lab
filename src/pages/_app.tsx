@@ -86,6 +86,27 @@ export const theme: Theme = {
       lineHeight: 'heading',
     },
   },
+  buttons: {
+    primary: {
+      color: 'primary',
+      borderColor: 'primary',
+      borderStyle: 'solid',
+      borderWidth: 1,
+      bg: 'background',
+      '&:hover, &.active': {
+        color: 'background',
+        bg: 'primary',
+      },
+    },
+    secondary: {
+      color: 'background',
+      bg: 'secondary',
+    },
+    gray: {
+      color: 'background',
+      bg: 'gray',
+    },
+  },
   styles: {
     root: {
       fontFamily: 'body',
