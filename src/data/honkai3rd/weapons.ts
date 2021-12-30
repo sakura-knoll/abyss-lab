@@ -1,4 +1,5 @@
 import { readdirSync, readJsonFileSync } from '../../lib/data'
+import { compareVersion } from '../../lib/string'
 
 export interface WeaponSkill {
   name: string
@@ -22,7 +23,7 @@ export interface WeaponData {
     | 'bow'
   rarity: number
   skills: WeaponSkill[]
-  version?: number
+  version?: string
 }
 
 const weaponsFileNameList = readdirSync('weapons')
@@ -41,7 +42,7 @@ const weaponDataList = weaponsFileNameList
       return compareResult
     }
 
-    compareResult = (b.version || 0) - (a.version || 0)
+    compareResult = compareVersion(b.version || '0.0', a.version || '0.0')
     if (compareResult !== 0) {
       return compareResult
     }

@@ -1,4 +1,5 @@
 import { readdirSync, readJsonFileSync } from '../../lib/data'
+import { compareVersion } from '../../lib/string'
 
 export interface StigmataSkill {
   name: string
@@ -16,7 +17,7 @@ export interface StigmataData {
   type: 'top' | 'mid' | 'bot'
   hp: number
   rarity: 3 | 4 | 5
-  version?: number
+  version?: string
   hidden?: boolean
 }
 
@@ -26,7 +27,7 @@ export interface StigmataSet {
   altName: string
   twoSetSkill: StigmataSkill
   threeSetSkill: StigmataSkill
-  version?: number
+  version?: string
 }
 
 const stigmataDataFileNameList = readdirSync('stigmata')
@@ -43,7 +44,7 @@ const stigmataList = stigmataDataFileNameList
     if (compareResult !== 0) {
       return compareResult
     }
-    compareResult = (b.version || 0) - (a.version || 0)
+    compareResult = compareVersion(b.version || '0.0', a.version || '0.0')
     if (compareResult !== 0) {
       return compareResult
     }

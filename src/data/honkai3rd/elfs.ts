@@ -1,4 +1,5 @@
 import { readdirSync, readJsonFileSync } from '../../lib/data'
+import { compareVersion } from '../../lib/string'
 
 export interface ElfSkill {
   type: 'passive' | 'basic' | 'ultimate' | 'team'
@@ -13,7 +14,7 @@ export interface ElfData {
   baseRank: number
   strengths: string[]
   skillRows: [ElfSkill[], ElfSkill[], ElfSkill[], ElfSkill[]]
-  version: number
+  version: string
 }
 
 const elfFileNameList = readdirSync('elfs')
@@ -27,7 +28,7 @@ const elfDataList = elfFileNameList
   .sort((a, b) => {
     let compareResult = 0
 
-    compareResult = -a.version + b.version
+    compareResult = compareVersion(b.version, a.version)
 
     if (compareResult !== 0) {
       return compareResult
