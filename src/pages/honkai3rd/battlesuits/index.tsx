@@ -54,7 +54,7 @@ const valkyrieFilterOptions = [
   { value: 'bronya', label: 'Bronya' },
   { value: 'himeko', label: 'Himeko' },
   { value: 'theresa', label: 'Theresa' },
-  { value: 'fu hua', label: 'Fu Hua' },
+  { value: 'fuhua', label: 'Fu Hua' },
   { value: 'rita', label: 'Rita' },
   { value: 'sakura', label: 'Sakura' },
   { value: 'kallen', label: 'Kallen' },
@@ -104,7 +104,7 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
         case 'bronya':
         case 'himeko':
         case 'theresa':
-        case 'fu hua':
+        case 'fuhua':
         case 'rita':
         case 'sakura':
         case 'kallen':
