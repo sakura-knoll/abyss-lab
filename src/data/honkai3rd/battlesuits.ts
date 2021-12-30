@@ -1,4 +1,5 @@
 import { readdirSync, readJsonFileSync } from '../../lib/data'
+import { compareVersion } from '../../lib/string'
 
 export interface BattlesuitSkill {
   name: string
@@ -12,6 +13,7 @@ export interface BattlesuitSkillGroup {
 
 export interface BattlesuitData {
   id: string
+  version?: string
   name: string
   type: string
   valkyrie: string
@@ -34,7 +36,11 @@ const battlesuitDataList = battlesuitsFileNameList
     return data
   })
   .sort((a, b) => {
-    let compareResult = a.name
+    let compareResult = compareVersion(b.version || '0.0', a.version || '0.0')
+    if (compareResult !== 0) {
+      return compareResult
+    }
+    compareResult = a.name
       .replace(/ \(.\)/, '')
       .localeCompare(b.name.replace(/ \(.\)/, ''))
 
