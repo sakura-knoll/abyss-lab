@@ -110,6 +110,7 @@ const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
             {weaponFilterOptions.map(({ value, label }) => {
               return (
                 <FilterButton
+                  key={value}
                   active={value === filter}
                   setFilter={setFilter}
                   value={value}

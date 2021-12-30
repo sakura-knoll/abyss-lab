@@ -144,6 +144,7 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
             {featureFilterOptions.map(({ value, label }) => {
               return (
                 <FilterButton
+                  key={value}
                   active={value === filter}
                   setFilter={setFilter}
                   value={value}
@@ -159,6 +160,7 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
             {valkyrieFilterOptions.map(({ value, label }) => {
               return (
                 <FilterButton
+                  key={value}
                   active={value === filter}
                   setFilter={setFilter}
                   value={value}
