@@ -46,14 +46,17 @@ export const theme: Theme = {
   ],
   fontWeights: {
     body: 400,
-    heading: 500,
+    heading: 600,
     bold: 700,
     light: 300,
     normal: 400,
     display: 300,
   },
+  borders: {
+    default: `1px solid ${colors.gray[5]}`,
+  },
   lineHeights: {
-    body: 1.5,
+    body: 1.6,
     heading: 1.2,
   },
   sizes: {

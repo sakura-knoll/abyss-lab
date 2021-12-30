@@ -1,14 +1,18 @@
-import { Box, Heading, Paragraph } from '@theme-ui/components'
+import { Box, Flex, Heading, Paragraph, Text } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import Image from 'next/image'
 import React from 'react'
+import BattlesuitRankIcon from '../../../components/atoms/BattlesuitRankIcon'
+import ValkyrieLabel from '../../../components/atoms/ValkyrieLabel'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import {
   BattlesuitData,
+  BattlesuitSkillGroup,
   getBattlesuitById,
   listBattlesuits,
 } from '../../../data/honkai3rd/battlesuits'
+import { battlesuitStrengths } from '../../../lib/safeData'
 
 interface BattlesuitShowPageProps {
   battlesuit: BattlesuitData
@@ -33,184 +37,89 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
 
         <Heading as='h1'>{battlesuit.name}</Heading>
 
-        <Box className='mb-4'>
-          <Box
-            sx={{
-              position: 'relative',
-              overflow: 'hidden',
-              width: '100%',
-              maxWidth: '600px',
-              borderRadius: 4,
-            }}
-          >
-            <Image
-              alt={battlesuit.name}
-              src={`/assets/honkai3rd/battlesuits/${battlesuit.id}.png`}
-              width={600}
-              height={600}
-              layout='responsive'
-            />
+        <Box
+          sx={{
+            borderRadius: 4,
+            border: 'default',
+            overflow: 'hidden',
+          }}
+          mb={3}
+        >
+          <Box sx={{ borderBottom: 'default' }}>
+            <Box
+              sx={{
+                margin: '0 auto',
+                position: 'relative',
+                overflow: 'hidden',
+                width: '100%',
+                maxWidth: '600px',
+              }}
+            >
+              <Image
+                alt={battlesuit.name}
+                src={`/assets/honkai3rd/battlesuits/${battlesuit.id}.png`}
+                width={600}
+                height={600}
+                layout='responsive'
+              />
+            </Box>
+          </Box>
+
+          <Box p={2} sx={{ borderBottom: 'default' }}>
+            <ValkyrieLabel valkyrie={battlesuit.valkyrie} />
+          </Box>
+          <Box p={2}>
+            <Text mr={1}>
+              {battlesuit.type.replace(/^\w/, (c) => c.toUpperCase())}
+            </Text>
+            {battlesuit.strengths.map((strength) => {
+              const strengthData = battlesuitStrengths.find(
+                (aStrength) => aStrength.value === strength
+              )
+              return (
+                <Text mx={1} key={strength}>
+                  {strengthData != null ? strengthData.label : strength}
+                </Text>
+              )
+            })}
           </Box>
         </Box>
 
-        <Box className='mb-2'>
-          <Heading as='h2'>Leader</Heading>
-          <Box variant='flush'>
-            <Box>
-              <Heading as='h3'>{battlesuit.leader.core.name}</Heading>
-              <Paragraph>{battlesuit.leader.core.description}</Paragraph>
-              {battlesuit.leader.subskills.map((subskill, index) => {
-                return (
-                  <React.Fragment key={subskill.name}>
-                    <Heading as='h4'>
-                      {subskill.name}
-                      {subskill.requiredRank != null
-                        ? ` (${subskill.requiredRank})`
-                        : ''}
-                    </Heading>
-                    <p>{subskill.description}</p>
-                  </React.Fragment>
-                )
-              })}
-            </Box>
-          </Box>
-        </Box>
-        <Box className='mb-2'>
-          <Heading as='h2'>Passive</Heading>
-          <Box variant='flush'>
-            <Box>
-              <Heading as='h3'>{battlesuit.passive.core.name}</Heading>
-              <Paragraph>{battlesuit.passive.core.description}</Paragraph>
-              {battlesuit.passive.subskills.map((subskill, index) => {
-                return (
-                  <React.Fragment key={subskill.name}>
-                    <Heading as='h4'>
-                      {subskill.name}
-                      {subskill.requiredRank != null
-                        ? ` (${subskill.requiredRank})`
-                        : ''}
-                    </Heading>
-                    <p>{subskill.description}</p>
-                  </React.Fragment>
-                )
-              })}
-            </Box>
-          </Box>
-        </Box>
-        <Box className='mb-2'>
-          <Heading as='h2'>Evasion</Heading>
-          <Box variant='flush'>
-            <Box>
-              <Heading as='h3'>{battlesuit.evasion.core.name}</Heading>
-              <Paragraph>{battlesuit.evasion.core.description}</Paragraph>
-              {battlesuit.evasion.subskills.map((subskill, index) => {
-                return (
-                  <React.Fragment key={subskill.name}>
-                    <Heading as='h4'>
-                      {subskill.name}
-                      {subskill.requiredRank != null
-                        ? ` (${subskill.requiredRank})`
-                        : ''}
-                    </Heading>
-                    <p>{subskill.description}</p>
-                  </React.Fragment>
-                )
-              })}
-            </Box>
-          </Box>
-        </Box>
-        <Box className='mb-2'>
-          <Heading as='h2'>Special Attack</Heading>
-          <Box variant='flush'>
-            <Box>
-              <Heading as='h3'>{battlesuit.special.core.name}</Heading>
-              <Paragraph>{battlesuit.special.core.description}</Paragraph>
-              {battlesuit.special.subskills.map((subskill, index) => {
-                return (
-                  <React.Fragment key={subskill.name}>
-                    <Heading as='h4'>
-                      {subskill.name}
-                      {subskill.requiredRank != null
-                        ? ` (${subskill.requiredRank})`
-                        : ''}
-                    </Heading>
-                    <p>{subskill.description}</p>
-                  </React.Fragment>
-                )
-              })}
-            </Box>
-          </Box>
-        </Box>
+        <BattlesuitSkillGroupCard
+          heading='Leader'
+          skillGroup={battlesuit.leader}
+        />
 
-        <Box className='mb-2'>
-          <Heading as='h2'>Ultimate</Heading>
-          <Box variant='flush'>
-            <Box>
-              <Heading as='h3'>{battlesuit.ultimate.core.name}</Heading>
-              <Paragraph>{battlesuit.ultimate.core.description}</Paragraph>
-              {battlesuit.ultimate.subskills.map((subskill, index) => {
-                return (
-                  <React.Fragment key={subskill.name}>
-                    <Heading as='h4'>
-                      {subskill.name}
-                      {subskill.requiredRank != null
-                        ? ` (${subskill.requiredRank})`
-                        : ''}
-                    </Heading>
-                    <p>{subskill.description}</p>
-                  </React.Fragment>
-                )
-              })}
-            </Box>
-          </Box>
-        </Box>
+        <BattlesuitSkillGroupCard
+          heading='Passive'
+          skillGroup={battlesuit.passive}
+        />
 
-        <Box className='mb-2'>
-          <Heading as='h2'>Basic Attack</Heading>
-          <Box variant='flush'>
-            <Box>
-              <Heading as='h3'>{battlesuit.basic.core.name}</Heading>
-              <Paragraph>{battlesuit.basic.core.description}</Paragraph>
-              {battlesuit.basic.subskills.map((subskill, index) => {
-                return (
-                  <React.Fragment key={subskill.name}>
-                    <Heading as='h4'>
-                      {subskill.name}
-                      {subskill.requiredRank != null
-                        ? ` (${subskill.requiredRank})`
-                        : ''}
-                    </Heading>
-                    <p>{subskill.description}</p>
-                  </React.Fragment>
-                )
-              })}
-            </Box>
-          </Box>
-        </Box>
+        <BattlesuitSkillGroupCard
+          heading='Evasion'
+          skillGroup={battlesuit.evasion}
+        />
+
+        <BattlesuitSkillGroupCard
+          heading='Special Attack'
+          skillGroup={battlesuit.special}
+        />
+
+        <BattlesuitSkillGroupCard
+          heading='Ultimate'
+          skillGroup={battlesuit.ultimate}
+        />
+
+        <BattlesuitSkillGroupCard
+          heading='Basic Attack'
+          skillGroup={battlesuit.basic}
+        />
 
         {battlesuit.sp != null && (
-          <Box className='mb-2'>
-            <Heading as='h2'>SP Skill</Heading>
-            <Box variant='flush'>
-              <Box>
-                <Heading as='h3'>{battlesuit.sp.core.name}</Heading>
-                <Paragraph>{battlesuit.sp.core.description}</Paragraph>
-                {battlesuit.sp.subskills.map((subskill, index) => {
-                  return (
-                    <React.Fragment key={subskill.name}>
-                      <Heading as='h4'>
-                        {subskill.name}
-                        {subskill.requiredRank != null
-                          ? ` (${subskill.requiredRank})`
-                          : ''}
-                      </Heading>
-                      <p>{subskill.description}</p>
-                    </React.Fragment>
-                  )
-                })}
-              </Box>
-            </Box>
-          </Box>
+          <BattlesuitSkillGroupCard
+            heading='SP Skill'
+            skillGroup={battlesuit.sp}
+          />
         )}
       </Box>
     </Box>
@@ -237,4 +146,79 @@ export async function getStaticPaths() {
     }),
     fallback: false,
   }
+}
+
+interface BattlesuitSkillGroupCardProps {
+  heading: string
+  skillGroup: BattlesuitSkillGroup
+}
+
+const BattlesuitSkillGroupCard = ({
+  heading,
+  skillGroup,
+}: BattlesuitSkillGroupCardProps) => {
+  return (
+    <Box
+      mb={3}
+      sx={{
+        borderRadius: 4,
+        border: 'default',
+      }}
+    >
+      <Heading
+        as='h2'
+        p={2}
+        m={0}
+        sx={{ borderBottom: 'default', fontSize: 4 }}
+      >
+        {skillGroup.core.name}
+        <br />
+        <Text as='small' sx={{ fontSize: 2, color: 'gray.6' }}>
+          {heading}
+        </Text>
+      </Heading>
+      <Paragraph p={2} sx={{ whiteSpace: 'pre-wrap', borderBottom: 'default' }}>
+        {skillGroup.core.description}
+      </Paragraph>
+      {skillGroup.subskills.map((subskill) => {
+        return (
+          <React.Fragment key={subskill.name}>
+            <Heading as='h3' p={2} m={0} sx={{ borderBottom: 'default' }}>
+              <Flex sx={{ alignItems: 'center' }}>
+                <Text>{subskill.name}</Text>
+                {subskill.requiredRank != null ? (
+                  /^[0-9]/.test(subskill.requiredRank) ? (
+                    <Box
+                      ml={2}
+                      sx={{ height: 30, lineHeight: '30px', fontSize: 2 }}
+                    >
+                      ⭐{subskill.requiredRank.slice(0, 1)}
+                    </Box>
+                  ) : (
+                    <BattlesuitRankIcon
+                      rank={subskill.requiredRank}
+                      size={30}
+                      ml={2}
+                    />
+                  )
+                ) : (
+                  <Box sx={{ height: 30 }} />
+                )}
+              </Flex>
+            </Heading>
+            <Paragraph
+              p={2}
+              sx={{
+                whiteSpace: 'pre-wrap',
+                borderBottom: 'default',
+                '&:last-child': { borderBottom: 'none' },
+              }}
+            >
+              {subskill.description}
+            </Paragraph>
+          </React.Fragment>
+        )
+      })}
+    </Box>
+  )
 }

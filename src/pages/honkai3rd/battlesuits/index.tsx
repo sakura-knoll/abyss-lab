@@ -10,6 +10,7 @@ import {
   BattlesuitData,
   listBattlesuits,
 } from '../../../data/honkai3rd/battlesuits'
+import { battlesuitStrengths } from '../../../lib/safeData'
 
 type BattlesuitListItemData = Pick<
   BattlesuitData,
@@ -22,24 +23,7 @@ interface BattlesuitListPageProps {
 
 const featureFilterOptions = [
   { value: 'all', label: 'All' },
-  { value: 'physical', label: 'Physical' },
-  { value: 'fire dmg', label: 'Fire DMG' },
-  { value: 'ice dmg', label: 'Ice DMG' },
-  { value: 'lightning dmg', label: 'Lightning DMG' },
-  { value: 'freeze', label: 'Freeze' },
-  { value: 'paralyze', label: 'Paralyze' },
-  { value: 'stun', label: 'Stun' },
-  { value: 'ignite', label: 'Ignite' },
-  { value: 'bleed', label: 'Bleed' },
-  { value: 'heavy atk', label: 'Heavy ATK' },
-  { value: 'weaken', label: 'Weaken' },
-  { value: 'impair', label: 'Impair' },
-  { value: 'time mastery', label: 'Time Mastery' },
-  { value: 'gather', label: 'Gather' },
-  { value: 'heal', label: 'Heal' },
-  { value: 'fast atk', label: 'Fast ATK' },
-  { value: 'burst', label: 'Burst' },
-  { value: 'aerial', label: 'Aerial' },
+  ...battlesuitStrengths,
 ]
 
 const valkyrieFilterOptions = [
