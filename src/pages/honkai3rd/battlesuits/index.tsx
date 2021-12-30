@@ -11,7 +11,10 @@ import {
   listBattlesuits,
 } from '../../../data/honkai3rd/battlesuits'
 
-type BattlesuitListItemData = Pick<BattlesuitData, 'id' | 'name' | 'strengths'>
+type BattlesuitListItemData = Pick<
+  BattlesuitData,
+  'id' | 'name' | 'strengths' | 'type' | 'valkyrie'
+>
 
 interface BattlesuitListPageProps {
   battlesuits: BattlesuitListItemData[]
@@ -39,6 +42,32 @@ const featureFilterOptions = [
   { value: 'aerial', label: 'Aerial' },
 ]
 
+const valkyrieFilterOptions = [
+  { value: 'all', label: 'All' },
+  { value: 'mecha', label: 'Mecha' },
+  { value: 'biologic', label: 'Biologic' },
+  { value: 'psychic', label: 'Psychic' },
+  { value: 'quantum', label: 'Quantum' },
+  { value: 'imaginary', label: 'Imaginary' },
+  { value: 'kiana', label: 'Kiana' },
+  { value: 'mei', label: 'Mei' },
+  { value: 'bronya', label: 'Bronya' },
+  { value: 'himeko', label: 'Himeko' },
+  { value: 'theresa', label: 'Theresa' },
+  { value: 'fu hua', label: 'Fu Hua' },
+  { value: 'rita', label: 'Rita' },
+  { value: 'sakura', label: 'Sakura' },
+  { value: 'kallen', label: 'Kallen' },
+  { value: 'olenyevas', label: 'Olenyevas' },
+  { value: 'seele', label: 'Seele' },
+  { value: 'durandal', label: 'Durandal' },
+  { value: 'fischl', label: 'Fischl' },
+  { value: 'elysia', label: 'Elysia' },
+  { value: 'mobius', label: 'Mobius' },
+  { value: 'raven', label: 'Raven' },
+  { value: 'carole', label: 'Carole' },
+]
+
 const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
   const [filter, setFilter] = useState('all')
 
@@ -64,6 +93,30 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
         case 'burst':
         case 'aerial':
           return !battlesuit.strengths.some((strength) => strength === filter)
+        case 'mecha':
+        case 'biologic':
+        case 'psychic':
+        case 'quantum':
+        case 'imaginary':
+          return battlesuit.type !== filter
+        case 'kiana':
+        case 'mei':
+        case 'bronya':
+        case 'himeko':
+        case 'theresa':
+        case 'fu hua':
+        case 'rita':
+        case 'sakura':
+        case 'kallen':
+        case 'olenyevas':
+        case 'seele':
+        case 'durandal':
+        case 'fischl':
+        case 'elysia':
+        case 'mobius':
+        case 'raven':
+        case 'carole':
+          return battlesuit.valkyrie !== filter
         default:
         case 'all':
           return false
@@ -168,41 +221,16 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
 
           <Heading as='h3'>Filter by Valkyries</Heading>
           <Flex mb={2} sx={{ flexWrap: 'wrap' }}>
-            <FilterButton setFilter={setFilter} value='all' label='ALL' />
-            <FilterButton setFilter={setFilter} value='mecha' label='MECHA' />
-            <FilterButton setFilter={setFilter} value='bio' label='BIO' />
-            <FilterButton setFilter={setFilter} value='psy' label='PSY' />
-            <FilterButton setFilter={setFilter} value='qua' label='QUA' />
-            <FilterButton setFilter={setFilter} value='img' label='IMG' />
-            <FilterButton setFilter={setFilter} value='kiana' label='Kiana' />
-            <FilterButton setFilter={setFilter} value='mei' label='Mei' />
-            <FilterButton setFilter={setFilter} value='bronya' label='Bronya' />
-            <FilterButton setFilter={setFilter} value='himeko' label='Himeko' />
-            <FilterButton
-              setFilter={setFilter}
-              value='theresa'
-              label='Theresa'
-            />
-            <FilterButton setFilter={setFilter} value='fu hua' label='Fu Hua' />
-            <FilterButton setFilter={setFilter} value='rita' label='Rita' />
-            <FilterButton setFilter={setFilter} value='sakura' label='Sakura' />
-            <FilterButton setFilter={setFilter} value='kallen' label='Kallen' />
-            <FilterButton
-              setFilter={setFilter}
-              value='olenyevas'
-              label='Olenyevas'
-            />
-            <FilterButton setFilter={setFilter} value='seele' label='Seele' />
-            <FilterButton
-              setFilter={setFilter}
-              value='durandal'
-              label='Durandal'
-            />
-            <FilterButton setFilter={setFilter} value='fischl' label='Fischl' />
-            <FilterButton setFilter={setFilter} value='elysia' label='Elysia' />
-            <FilterButton setFilter={setFilter} value='mobius' label='Mobius' />
-            <FilterButton setFilter={setFilter} value='raven' label='Raven' />
-            <FilterButton setFilter={setFilter} value='carole' label='Carole' />
+            {valkyrieFilterOptions.map(({ value, label }) => {
+              return (
+                <FilterButton
+                  active={value === filter}
+                  setFilter={setFilter}
+                  value={value}
+                  label={label}
+                />
+              )
+            })}
           </Flex>
         </Box>
 
@@ -225,7 +253,7 @@ export async function getStaticProps() {
   return {
     props: {
       battlesuits: listBattlesuits().map((battlesuit) =>
-        pick(['id', 'name', 'strengths'], battlesuit)
+        pick(['id', 'name', 'strengths', 'type', 'valkyrie'], battlesuit)
       ),
     },
   }
