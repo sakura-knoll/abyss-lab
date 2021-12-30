@@ -1,5 +1,4 @@
 import { Box, Heading, Flex, Text, Link, Button } from '@theme-ui/components'
-import Image from 'next/image'
 import NextLink from 'next/link'
 import { pick } from 'ramda'
 import React, { useCallback, useMemo, useState } from 'react'
@@ -71,63 +70,9 @@ const valkyrieFilterOptions = [
 const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
   const [filter, setFilter] = useState('all')
 
-  const isBattlesuitHidden = useCallback(
-    (battlesuit: BattlesuitListItemData) => {
-      switch (filter) {
-        case 'physical':
-        case 'fire dmg':
-        case 'ice dmg':
-        case 'lightning dmg':
-        case 'freeze':
-        case 'paralyze':
-        case 'stun':
-        case 'ignite':
-        case 'bleed':
-        case 'heavy atk':
-        case 'weaken':
-        case 'impair':
-        case 'time mastery':
-        case 'gather':
-        case 'heal':
-        case 'fast atk':
-        case 'burst':
-        case 'aerial':
-          return !battlesuit.strengths.some((strength) => strength === filter)
-        case 'mecha':
-        case 'biologic':
-        case 'psychic':
-        case 'quantum':
-        case 'imaginary':
-          return battlesuit.type !== filter
-        case 'kiana':
-        case 'mei':
-        case 'bronya':
-        case 'himeko':
-        case 'theresa':
-        case 'fuhua':
-        case 'rita':
-        case 'sakura':
-        case 'kallen':
-        case 'olenyevas':
-        case 'seele':
-        case 'durandal':
-        case 'fischl':
-        case 'elysia':
-        case 'mobius':
-        case 'raven':
-        case 'carole':
-          return battlesuit.valkyrie !== filter
-        default:
-        case 'all':
-          return false
-      }
-    },
-    [filter]
-  )
-
   const battlesuitList = useMemo(() => {
     return battlesuits.map((battlesuit) => {
-      const hidden = isBattlesuitHidden(battlesuit)
+      const hidden = isBattlesuitHidden(battlesuit, filter)
       return (
         <Box
           key={battlesuit.id}
@@ -140,8 +85,7 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
             borderWidth: 1,
             borderStyle: 'solid',
             borderRadius: 8,
-            transition:
-              'box-shadow 200ms ease-in-out, opacity 200ms ease-in-out',
+            transition: 'box-shadow 200ms ease-in-out',
             '&:hover': {
               borderColor: 'gray.3',
               boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
@@ -157,22 +101,11 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
             passHref={true}
           >
             <Link>
-              <Box
-                sx={{
-                  position: 'relative',
-                  overflow: 'hidden',
-                  width: '140px',
-                  height: '140px',
-                  borderRadius: 4,
-                }}
-              >
-                <Image
-                  alt={battlesuit.name}
-                  layout='fill'
-                  objectFit='cover'
-                  src={`/assets/honkai3rd/battlesuits/portrait-${battlesuit.id}.png`}
-                />
-              </Box>
+              <SquareImageBox
+                alt={battlesuit.name}
+                src={`/assets/honkai3rd/battlesuits/portrait-${battlesuit.id}.png`}
+                size={140}
+              />
               <Box
                 sx={{
                   overflow: 'hidden',
@@ -189,7 +122,7 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
         </Box>
       )
     })
-  }, [battlesuits, isBattlesuitHidden])
+  }, [battlesuits, filter])
 
   return (
     <Box>
@@ -295,4 +228,58 @@ const FilterButton = ({
       {label}
     </Button>
   )
+}
+
+function isBattlesuitHidden(
+  battlesuit: BattlesuitListItemData,
+  filter: string
+): boolean {
+  switch (filter) {
+    case 'physical':
+    case 'fire dmg':
+    case 'ice dmg':
+    case 'lightning dmg':
+    case 'freeze':
+    case 'paralyze':
+    case 'stun':
+    case 'ignite':
+    case 'bleed':
+    case 'heavy atk':
+    case 'weaken':
+    case 'impair':
+    case 'time mastery':
+    case 'gather':
+    case 'heal':
+    case 'fast atk':
+    case 'burst':
+    case 'aerial':
+      return !battlesuit.strengths.some((strength) => strength === filter)
+    case 'mecha':
+    case 'biologic':
+    case 'psychic':
+    case 'quantum':
+    case 'imaginary':
+      return battlesuit.type !== filter
+    case 'kiana':
+    case 'mei':
+    case 'bronya':
+    case 'himeko':
+    case 'theresa':
+    case 'fuhua':
+    case 'rita':
+    case 'sakura':
+    case 'kallen':
+    case 'olenyevas':
+    case 'seele':
+    case 'durandal':
+    case 'fischl':
+    case 'elysia':
+    case 'mobius':
+    case 'raven':
+    case 'carole':
+      return battlesuit.valkyrie !== filter
+    default:
+    case 'all':
+      return false
+  }
 }
