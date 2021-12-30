@@ -1,7 +1,8 @@
-import { Box, Heading, Flex, Text, Link, Button } from '@theme-ui/components'
+import { Box, Heading, Flex, Text, Link } from '@theme-ui/components'
 import NextLink from 'next/link'
 import { pick } from 'ramda'
-import React, { useCallback, useMemo, useState } from 'react'
+import React, { useMemo, useState } from 'react'
+import FilterButton from '../../../components/atoms/FilterButton'
 import SquareImageBox from '../../../components/atoms/SquareImageBox'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
@@ -147,6 +148,7 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
                   setFilter={setFilter}
                   value={value}
                   label={label}
+                  m={1}
                 />
               )
             })}
@@ -161,6 +163,7 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
                   setFilter={setFilter}
                   value={value}
                   label={label}
+                  m={1}
                 />
               )
             })}
@@ -190,44 +193,6 @@ export async function getStaticProps() {
       ),
     },
   }
-}
-
-interface FilterButtonProps {
-  active?: boolean
-  icon?: string
-  label: string
-  setFilter: (filter: string) => void
-  value: string
-}
-
-const FilterButton = ({
-  active = false,
-  setFilter,
-  icon,
-  label,
-  value,
-}: FilterButtonProps) => {
-  const selectFilter = useCallback(() => {
-    setFilter(value)
-  }, [setFilter, value])
-  return (
-    <Button
-      m={1}
-      py={1}
-      px={2}
-      onClick={selectFilter}
-      className={active ? 'active' : ''}
-    >
-      {icon != null && (
-        <SquareImageBox
-          src={`/assets/honkai3rd/icons/${icon}.png`}
-          alt={label}
-          size={30}
-        />
-      )}
-      {label}
-    </Button>
-  )
 }
 
 function isBattlesuitHidden(
