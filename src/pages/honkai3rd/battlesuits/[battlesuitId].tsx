@@ -3,6 +3,7 @@ import { NextPageContext } from 'next'
 import Image from 'next/image'
 import React from 'react'
 import BattlesuitRankIcon from '../../../components/atoms/BattlesuitRankIcon'
+import TypeLabel from '../../../components/atoms/TypeLabel'
 import ValkyrieLabel from '../../../components/atoms/ValkyrieLabel'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
@@ -68,10 +69,10 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
           <Box p={2} sx={{ borderBottom: 'default' }}>
             <ValkyrieLabel valkyrie={battlesuit.valkyrie} />
           </Box>
+          <Box p={2} sx={{ borderBottom: 'default' }}>
+            <TypeLabel type={battlesuit.type} />
+          </Box>
           <Box p={2}>
-            <Text mr={1}>
-              {battlesuit.type.replace(/^\w/, (c) => c.toUpperCase())}
-            </Text>
             {battlesuit.strengths.map((strength) => {
               const strengthData = battlesuitStrengths.find(
                 (aStrength) => aStrength.value === strength
