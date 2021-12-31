@@ -29,12 +29,14 @@ const FilterButton = ({
       px={2}
       onClick={selectFilter}
       className={active ? 'active' : ''}
+      sx={{ display: 'flex' }}
     >
       {icon != null && (
         <SquareImageBox
-          src={`/assets/honkai3rd/icons/${icon}.png`}
+          src={`/assets/honkai3rd/${icon}.png`}
           alt={label}
           size={30}
+          mr={1}
         />
       )}
       {label}

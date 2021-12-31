@@ -21,35 +21,33 @@ interface BattlesuitListPageProps {
   battlesuits: BattlesuitListItemData[]
 }
 
-const featureFilterOptions = [
-  { value: 'all', label: 'All' },
-  ...battlesuitStrengths,
-]
+const featureFilterOptions: { value: string; label: string; icon?: string }[] =
+  [{ value: 'all', label: 'All' }, ...battlesuitStrengths]
 
 const valkyrieFilterOptions = [
   { value: 'all', label: 'All' },
-  { value: 'mecha', label: 'Mecha' },
-  { value: 'biologic', label: 'Biologic' },
-  { value: 'psychic', label: 'Psychic' },
-  { value: 'quantum', label: 'Quantum' },
-  { value: 'imaginary', label: 'Imaginary' },
-  { value: 'kiana', label: 'Kiana' },
-  { value: 'mei', label: 'Mei' },
-  { value: 'bronya', label: 'Bronya' },
-  { value: 'himeko', label: 'Himeko' },
-  { value: 'theresa', label: 'Theresa' },
-  { value: 'fuhua', label: 'Fu Hua' },
-  { value: 'rita', label: 'Rita' },
-  { value: 'sakura', label: 'Sakura' },
-  { value: 'kallen', label: 'Kallen' },
-  { value: 'olenyevas', label: 'Olenyevas' },
-  { value: 'seele', label: 'Seele' },
-  { value: 'durandal', label: 'Durandal' },
-  { value: 'fischl', label: 'Fischl' },
-  { value: 'elysia', label: 'Elysia' },
-  { value: 'mobius', label: 'Mobius' },
-  { value: 'raven', label: 'Raven' },
-  { value: 'carole', label: 'Carole' },
+  { value: 'mecha', icon: 'type-icons/mecha', label: 'Mecha' },
+  { value: 'biologic', icon: 'type-icons/biologic', label: 'Biologic' },
+  { value: 'psychic', icon: 'type-icons/psychic', label: 'Psychic' },
+  { value: 'quantum', icon: 'type-icons/quantum', label: 'Quantum' },
+  { value: 'imaginary', icon: 'type-icons/imaginary', label: 'Imaginary' },
+  { value: 'kiana', icon: 'valkyrie-icons/kiana', label: 'Kiana' },
+  { value: 'mei', icon: 'valkyrie-icons/mei', label: 'Mei' },
+  { value: 'bronya', icon: 'valkyrie-icons/bronya', label: 'Bronya' },
+  { value: 'himeko', icon: 'valkyrie-icons/himeko', label: 'Himeko' },
+  { value: 'theresa', icon: 'valkyrie-icons/theresa', label: 'Theresa' },
+  { value: 'fuhua', icon: 'valkyrie-icons/fuhua', label: 'Fu Hua' },
+  { value: 'rita', icon: 'valkyrie-icons/rita', label: 'Rita' },
+  { value: 'sakura', icon: 'valkyrie-icons/sakura', label: 'Sakura' },
+  { value: 'kallen', icon: 'valkyrie-icons/kallen', label: 'Kallen' },
+  { value: 'olenyevas', icon: 'valkyrie-icons/olenyevas', label: 'Olenyevas' },
+  { value: 'seele', icon: 'valkyrie-icons/seele', label: 'Seele' },
+  { value: 'durandal', icon: 'valkyrie-icons/durandal', label: 'Durandal' },
+  { value: 'fischl', icon: 'valkyrie-icons/fischl', label: 'Fischl' },
+  { value: 'elysia', icon: 'valkyrie-icons/elysia', label: 'Elysia' },
+  { value: 'mobius', icon: 'valkyrie-icons/mobius', label: 'Mobius' },
+  { value: 'raven', icon: 'valkyrie-icons/raven', label: 'Raven' },
+  { value: 'carole', icon: 'valkyrie-icons/carole', label: 'Carole' },
 ]
 
 const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
@@ -125,7 +123,7 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
         <Box>
           <Heading as='h3'>Filter by Features</Heading>
           <Flex mb={2} sx={{ flexWrap: 'wrap' }}>
-            {featureFilterOptions.map(({ value, label }) => {
+            {featureFilterOptions.map(({ value, label, icon }) => {
               return (
                 <FilterButton
                   key={value}
@@ -133,6 +131,7 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
                   setFilter={setFilter}
                   value={value}
                   label={label}
+                  icon={icon}
                   m={1}
                 />
               )
@@ -141,7 +140,7 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
 
           <Heading as='h3'>Filter by Valkyries</Heading>
           <Flex mb={2} sx={{ flexWrap: 'wrap' }}>
-            {valkyrieFilterOptions.map(({ value, label }) => {
+            {valkyrieFilterOptions.map(({ value, label, icon }) => {
               return (
                 <FilterButton
                   key={value}
@@ -149,6 +148,7 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
                   setFilter={setFilter}
                   value={value}
                   label={label}
+                  icon={icon}
                   m={1}
                 />
               )
