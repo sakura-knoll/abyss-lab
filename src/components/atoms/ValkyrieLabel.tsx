@@ -1,12 +1,25 @@
-import { Text } from '@theme-ui/components'
+import { Flex, Text } from '@theme-ui/components'
+import SquareImageBox from './SquareImageBox'
 
 interface ValkyrieLabelProps {
   valkyrie: string
 }
 
 const ValkyrieLabel = ({ valkyrie }: ValkyrieLabelProps) => {
-  const { label } = getLabelData(valkyrie)
-  return <Text>{label}</Text>
+  const { icon, label } = getLabelData(valkyrie)
+  return (
+    <Flex sx={{ alignItems: 'center' }}>
+      {icon && (
+        <SquareImageBox
+          size={30}
+          src={`/assets/honkai3rd/valkyrie-icons/${icon}.png`}
+          alt={label}
+          mr={1}
+        />
+      )}
+      <Text>{label}</Text>
+    </Flex>
+  )
 }
 
 export default ValkyrieLabel
@@ -32,7 +45,7 @@ function getLabelData(valkyrie: string): { label: string; icon?: string } {
     case 'kallen':
       return { icon: 'kallen', label: 'Kallen Kaslana' }
     case 'olenyevas':
-      return { icon: 'olenyevas', label: 'Olenyevas Sisters' }
+      return { icon: 'olenyevas', label: 'Olenyevas' }
     case 'seele':
       return { icon: 'seele', label: 'Seele Vollerei' }
     case 'durandal':
