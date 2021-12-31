@@ -6,8 +6,12 @@ Honkai 3rd fan wiki
 
 ```
 npm i
-npm urn dev
+npm run dev
 ```
+
+## Resources
+
+- [Honkai3rd Icon Assets](https://www.figma.com/file/U6OLV1Mlhc3DAXBzBXToO4/AbyssLab-Honkai-icons?node-id=0%3A1)
 
 ## License
 
