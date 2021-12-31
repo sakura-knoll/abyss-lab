@@ -2,6 +2,7 @@ import { Box, Flex, Heading, Paragraph, Text } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import Image from 'next/image'
 import React from 'react'
+import BattlesuitFeatureLabel from '../../../components/atoms/BattlesuitFeatureLabel'
 import BattlesuitRankIcon from '../../../components/atoms/BattlesuitRankIcon'
 import TypeLabel from '../../../components/atoms/TypeLabel'
 import ValkyrieLabel from '../../../components/atoms/ValkyrieLabel'
@@ -13,7 +14,6 @@ import {
   getBattlesuitById,
   listBattlesuits,
 } from '../../../data/honkai3rd/battlesuits'
-import { battlesuitStrengths } from '../../../lib/safeData'
 
 interface BattlesuitShowPageProps {
   battlesuit: BattlesuitData
@@ -72,18 +72,15 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
           <Box p={2} sx={{ borderBottom: 'default' }}>
             <TypeLabel type={battlesuit.type} />
           </Box>
-          <Box p={2}>
+          <Flex p={2}>
             {battlesuit.strengths.map((strength) => {
-              const strengthData = battlesuitStrengths.find(
-                (aStrength) => aStrength.value === strength
-              )
               return (
-                <Text mx={1} key={strength}>
-                  {strengthData != null ? strengthData.label : strength}
-                </Text>
+                <Box mr={2} key={strength}>
+                  <BattlesuitFeatureLabel feature={strength} />
+                </Box>
               )
             })}
-          </Box>
+          </Flex>
         </Box>
 
         <BattlesuitSkillGroupCard
