@@ -1,9 +1,10 @@
-import { Box, Flex, Heading, Paragraph, Text } from '@theme-ui/components'
+import { Box, Card, Flex, Heading, Paragraph, Text } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import Image from 'next/image'
 import React from 'react'
 import BattlesuitFeatureLabel from '../../../components/atoms/BattlesuitFeatureLabel'
 import BattlesuitRankIcon from '../../../components/atoms/BattlesuitRankIcon'
+import PageLink from '../../../components/atoms/PageLink'
 import TypeLabel from '../../../components/atoms/TypeLabel'
 import ValkyrieLabel from '../../../components/atoms/ValkyrieLabel'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
@@ -38,15 +39,9 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
 
         <Heading as='h1'>{battlesuit.name}</Heading>
 
-        <Box
+        <Card
           sx={{
-            borderRadius: 4,
             overflow: 'hidden',
-            border: 'default',
-            transition: 'box-shadow 200ms ease-in-out',
-            '&:hover': {
-              boxShadow: 'rgba(0, 0, 0, 0.2) 0px 4px 8px;',
-            },
           }}
           mb={3}
         >
@@ -71,21 +66,42 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
           </Box>
 
           <Box p={2} sx={{ borderBottom: 'default' }}>
-            <ValkyrieLabel valkyrie={battlesuit.valkyrie} />
+            <PageLink
+              href={{
+                pathname: '/honkai3rd/battlesuits',
+                query: { filter: battlesuit.valkyrie },
+              }}
+            >
+              <ValkyrieLabel valkyrie={battlesuit.valkyrie} />
+            </PageLink>
           </Box>
           <Box p={2} sx={{ borderBottom: 'default' }}>
-            <TypeLabel type={battlesuit.type} />
+            <PageLink
+              href={{
+                pathname: '/honkai3rd/battlesuits',
+                query: { filter: battlesuit.type },
+              }}
+            >
+              <TypeLabel type={battlesuit.type} />
+            </PageLink>
           </Box>
           <Flex p={2}>
             {battlesuit.strengths.map((strength) => {
               return (
                 <Box mr={2} key={strength}>
-                  <BattlesuitFeatureLabel feature={strength} />
+                  <PageLink
+                    href={{
+                      pathname: '/honkai3rd/battlesuits',
+                      query: { filter: strength },
+                    }}
+                  >
+                    <BattlesuitFeatureLabel feature={strength} />
+                  </PageLink>
                 </Box>
               )
             })}
           </Flex>
-        </Box>
+        </Card>
 
         <BattlesuitSkillGroupCard
           heading='Leader'
@@ -160,17 +176,7 @@ const BattlesuitSkillGroupCard = ({
   skillGroup,
 }: BattlesuitSkillGroupCardProps) => {
   return (
-    <Box
-      mb={3}
-      sx={{
-        borderRadius: 4,
-        border: 'default',
-        transition: 'box-shadow 200ms ease-in-out',
-        '&:hover': {
-          boxShadow: 'rgba(0, 0, 0, 0.2) 0px 4px 8px;',
-        },
-      }}
-    >
+    <Card mb={3}>
       <Heading
         as='h2'
         p={2}
@@ -179,13 +185,15 @@ const BattlesuitSkillGroupCard = ({
       >
         {skillGroup.core.name}
         <br />
-        <Text as='small' sx={{ fontSize: 2, color: 'gray.6' }}>
+        <Text as='small' sx={{ fontSize: 2, color: 'secondary' }}>
           {heading}
         </Text>
       </Heading>
+
       <Paragraph p={2} sx={{ whiteSpace: 'pre-wrap', borderBottom: 'default' }}>
         {skillGroup.core.description}
       </Paragraph>
+
       {skillGroup.subskills.map((subskill) => {
         return (
           <React.Fragment key={subskill.name}>
@@ -212,6 +220,7 @@ const BattlesuitSkillGroupCard = ({
                 )}
               </Flex>
             </Heading>
+
             <Paragraph
               p={2}
               sx={{
@@ -225,6 +234,6 @@ const BattlesuitSkillGroupCard = ({
           </React.Fragment>
         )
       })}
-    </Box>
+    </Card>
   )
 }
