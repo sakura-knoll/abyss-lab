@@ -13,7 +13,7 @@ import {
   BattlesuitSkillGroup,
   getBattlesuitById,
   listBattlesuits,
-} from '../../../data/honkai3rd/battlesuits'
+} from '../../../server/data/honkai3rd/battlesuits'
 
 interface BattlesuitShowPageProps {
   battlesuit: BattlesuitData

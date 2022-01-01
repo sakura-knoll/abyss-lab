@@ -1,5 +1,5 @@
-import { readdirSync, readJsonFileSync } from '../../lib/data'
-import { compareVersion } from '../../lib/string'
+import { readdirSync, readJsonFileSync } from '../../../lib/data'
+import { compareVersion } from '../../../lib/string'
 
 export interface BattlesuitSkill {
   name: string
@@ -27,10 +27,10 @@ export interface BattlesuitData {
   sp?: BattlesuitSkillGroup
 }
 
-const battlesuitsFileNameList = readdirSync('battlesuits')
+const battlesuitsFileNameList = readdirSync('honkai3rd/battlesuits')
 const battlesuitDataList = battlesuitsFileNameList
   .map((fileName) => {
-    const filePathname = 'battlesuits/' + fileName
+    const filePathname = 'honkai3rd/battlesuits/' + fileName
     const data = readJsonFileSync(filePathname) as BattlesuitData
 
     return data

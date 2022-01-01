@@ -1,5 +1,5 @@
-import { readdirSync, readJsonFileSync } from '../../lib/data'
-import { compareVersion } from '../../lib/string'
+import { readdirSync, readJsonFileSync } from '../../../lib/data'
+import { compareVersion } from '../../../lib/string'
 
 export interface WeaponSkill {
   name: string
@@ -26,10 +26,10 @@ export interface WeaponData {
   version?: string
 }
 
-const weaponsFileNameList = readdirSync('weapons')
+const weaponsFileNameList = readdirSync('honkai3rd/weapons')
 const weaponDataList = weaponsFileNameList
   .map((fileName) => {
-    const filePathname = 'weapons/' + fileName
+    const filePathname = 'honkai3rd/weapons/' + fileName
     const data = readJsonFileSync(filePathname) as WeaponData
 
     return data

@@ -8,17 +8,20 @@ import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator
 import {
   BattlesuitData,
   getBattlesuitById,
-} from '../../../data/honkai3rd/battlesuits'
+} from '../../../server/data/honkai3rd/battlesuits'
 import {
   listSupplyEventsByVersion,
   SupplyEventData as SupplyEventData,
-} from '../../../data/honkai3rd/supply-events'
+} from '../../../server/data/honkai3rd/supply-events'
 import {
   getCurrentVersion,
   listVersionData,
   VersionData,
-} from '../../../data/honkai3rd/versions'
-import { getWeaponById, WeaponData } from '../../../data/honkai3rd/weapons'
+} from '../../../server/data/honkai3rd/versions'
+import {
+  getWeaponById,
+  WeaponData,
+} from '../../../server/data/honkai3rd/weapons'
 import { addDateToDateString, getDateString } from '../../../lib/string'
 import ScrollContainer from 'react-indiana-drag-scroll'
 import { format as formatDate } from 'date-fns'

@@ -9,7 +9,7 @@ import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator
 import {
   BattlesuitData,
   listBattlesuits,
-} from '../../../data/honkai3rd/battlesuits'
+} from '../../../server/data/honkai3rd/battlesuits'
 import { battlesuitStrengths } from '../../../lib/safeData'
 
 type BattlesuitListItemData = Pick<

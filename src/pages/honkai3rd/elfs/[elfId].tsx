@@ -4,7 +4,11 @@ import Image from 'next/image'
 import React from 'react'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
-import { ElfData, getElfById, listElfs } from '../../../data/honkai3rd/elfs'
+import {
+  ElfData,
+  getElfById,
+  listElfs,
+} from '../../../server/data/honkai3rd/elfs'
 
 interface ElfShowPageProps {
   elf: ElfData

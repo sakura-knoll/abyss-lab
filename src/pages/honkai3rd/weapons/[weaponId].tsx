@@ -7,7 +7,7 @@ import {
   getWeaponById,
   listWeapons,
   WeaponData,
-} from '../../../data/honkai3rd/weapons'
+} from '../../../server/data/honkai3rd/weapons'
 
 interface WeaponShowPageProps {
   weapon: WeaponData

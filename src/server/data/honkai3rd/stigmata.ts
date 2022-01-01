@@ -1,5 +1,5 @@
-import { readdirSync, readJsonFileSync } from '../../lib/data'
-import { compareVersion } from '../../lib/string'
+import { readdirSync, readJsonFileSync } from '../../../lib/data'
+import { compareVersion } from '../../../lib/string'
 
 export interface StigmataSkill {
   name: string
@@ -30,10 +30,10 @@ export interface StigmataSet {
   version?: string
 }
 
-const stigmataDataFileNameList = readdirSync('stigmata')
+const stigmataDataFileNameList = readdirSync('honkai3rd/stigmata')
 const stigmataList = stigmataDataFileNameList
   .map((fileName) => {
-    const filePathname = 'stigmata/' + fileName
+    const filePathname = 'honkai3rd/stigmata/' + fileName
     const data = readJsonFileSync(filePathname) as StigmataData
 
     return data
@@ -79,9 +79,9 @@ const stigmataSetStigmataDataListMap = stigmataList.reduce((map, stigmata) => {
   return map
 }, new Map<string, StigmataData[]>())
 
-const stigmataSetFileNameList = readdirSync('stigmata-sets')
+const stigmataSetFileNameList = readdirSync('honkai3rd/stigmata-sets')
 const stigmataSetList = stigmataSetFileNameList.map((fileName) => {
-  const filePathname = 'stigmata-sets/' + fileName
+  const filePathname = 'honkai3rd/stigmata-sets/' + fileName
   const data = readJsonFileSync(filePathname) as StigmataSet
 
   return data

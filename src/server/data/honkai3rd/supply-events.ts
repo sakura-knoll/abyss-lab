@@ -1,4 +1,4 @@
-import { readdirSync, readJsonFileSync } from '../../lib/data'
+import { readdirSync, readJsonFileSync } from '../../../lib/data'
 
 export interface SupplyEventData {
   id: string
@@ -36,7 +36,7 @@ export interface SupplyEventData {
 }
 
 export function listSupplyEventsByVersion(version: string) {
-  const supplyEventsDirectoryPathname = `versions/${version}/supply-events`
+  const supplyEventsDirectoryPathname = `honkai3rd/versions/${version}/supply-events`
 
   const supplyEventFileNameList = readdirSync(supplyEventsDirectoryPathname)
   const supplyEventList = supplyEventFileNameList

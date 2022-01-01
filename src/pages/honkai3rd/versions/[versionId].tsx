@@ -8,20 +8,23 @@ import {
   getVersion,
   listVersionData,
   VersionData,
-} from '../../../data/honkai3rd/versions'
+} from '../../../server/data/honkai3rd/versions'
 import { format as formatDate } from 'date-fns'
 import {
   BattlesuitData,
   getBattlesuitById,
-} from '../../../data/honkai3rd/battlesuits'
+} from '../../../server/data/honkai3rd/battlesuits'
 import NextLink from 'next/link'
 import SquareImageBox from '../../../components/atoms/SquareImageBox'
-import { getWeaponById, WeaponData } from '../../../data/honkai3rd/weapons'
+import {
+  getWeaponById,
+  WeaponData,
+} from '../../../server/data/honkai3rd/weapons'
 import ScrollContainer from 'react-indiana-drag-scroll'
 import {
   listSupplyEventsByVersion,
   SupplyEventData,
-} from '../../../data/honkai3rd/supply-events'
+} from '../../../server/data/honkai3rd/supply-events'
 import { addDateToDateString, getDateString } from '../../../lib/string'
 
 interface VersionShowPageProps {

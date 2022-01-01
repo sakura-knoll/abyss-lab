@@ -1,5 +1,5 @@
-import { readdirSync, readJsonFileSync } from '../../lib/data'
-import { compareVersion } from '../../lib/string'
+import { readdirSync, readJsonFileSync } from '../../../lib/data'
+import { compareVersion } from '../../../lib/string'
 
 export interface ElfSkill {
   type: 'passive' | 'basic' | 'ultimate' | 'team'
@@ -17,10 +17,10 @@ export interface ElfData {
   version: string
 }
 
-const elfFileNameList = readdirSync('elfs')
+const elfFileNameList = readdirSync('honkai3rd/elfs')
 const elfDataList = elfFileNameList
   .map((fileName) => {
-    const filePathname = 'elfs/' + fileName
+    const filePathname = 'honkai3rd/elfs/' + fileName
     const data = readJsonFileSync(filePathname) as ElfData
 
     return data

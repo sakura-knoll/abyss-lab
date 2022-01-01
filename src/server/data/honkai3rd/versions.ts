@@ -1,6 +1,6 @@
 import { format } from 'date-fns'
-import { readdirSync, readFileSync, readJsonFileSync } from '../../lib/data'
-import { compareVersion } from '../../lib/string'
+import { readdirSync, readFileSync, readJsonFileSync } from '../../../lib/data'
+import { compareVersion } from '../../../lib/string'
 
 export interface VersionData {
   version: string
@@ -14,11 +14,11 @@ export interface VersionData {
   description: string
 }
 
-const versionDirectoryList = readdirSync('versions')
+const versionDirectoryList = readdirSync('honkai3rd/versions')
 
 const versionDataList = versionDirectoryList
   .map((directoryName) => {
-    const directoryPathname = 'versions/' + directoryName
+    const directoryPathname = 'honkai3rd/versions/' + directoryName
     const data: VersionData = {
       version: directoryName,
       ...readJsonFileSync(directoryPathname + '/version-data.json'),

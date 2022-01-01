@@ -12,7 +12,7 @@ import {
   getStigmataListBySetId,
   getStigmataSetBySetId,
   StigmataSet,
-} from '../../../data/honkai3rd/stigmata'
+} from '../../../server/data/honkai3rd/stigmata'
 
 interface StigmataShowPageProps {
   stigmataData: StigmataData

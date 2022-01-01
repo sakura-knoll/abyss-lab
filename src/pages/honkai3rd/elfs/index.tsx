@@ -5,7 +5,7 @@ import { pick } from 'ramda'
 import React from 'react'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
-import { ElfData, listElfs } from '../../../data/honkai3rd/elfs'
+import { ElfData, listElfs } from '../../../server/data/honkai3rd/elfs'
 
 interface ElfListPageProps {
   elfs: Pick<ElfData, 'id' | 'name'>[]
