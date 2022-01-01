@@ -1,6 +1,7 @@
-import { Box, Heading, Image, Paragraph } from '@theme-ui/components'
+import { Box, Card, Heading, Paragraph } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import React from 'react'
+import SquareImageBox from '../../../components/atoms/SquareImageBox'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
@@ -33,19 +34,37 @@ const WeaponShowPage = ({ weapon }: WeaponShowPageProps) => {
         <Heading as='h1'>{weapon.name}</Heading>
 
         <Box mb={3}>
-          <Image
+          <SquareImageBox
+            size={100}
             alt={weapon.name}
             src={`/assets/honkai3rd/weapons/${weapon.id}.png`}
           />
         </Box>
-        <Heading as='h2'>Weapon Skills</Heading>
+
+        <Box mb={3}>
+          <Box>{'⭐'.repeat(weapon.rarity)}</Box>
+          <Box>
+            ATK : {weapon.atk} / CRT : {weapon.crt}
+          </Box>
+        </Box>
+
         <Box>
           {weapon.skills.map((skill) => {
             return (
-              <Box key={skill.name} mb={2}>
-                <Heading as='h3'>{skill.name}</Heading>
-                <Paragraph>{skill.description}</Paragraph>
-              </Box>
+              <Card key={skill.name} mb={3}>
+                <Heading as='h3' p={2} m={0} sx={{ borderBottom: 'default' }}>
+                  {skill.name}
+                </Heading>
+                <Paragraph
+                  p={2}
+                  sx={{
+                    whiteSpace: 'pre-wrap',
+                    borderBottom: 'default',
+                  }}
+                >
+                  {skill.description}
+                </Paragraph>
+              </Card>
             )
           })}
         </Box>
