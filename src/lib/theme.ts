@@ -97,6 +97,8 @@ export const theme: Theme = {
       borderWidth: 1,
       bg: 'background',
       cursor: 'pointer',
+      textDecoration: 'none',
+      borderRadius: 'default',
       '&:hover, &.active': {
         color: 'background',
         bg: 'primary',

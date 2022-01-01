@@ -1,35 +1,32 @@
-import { Button } from '@theme-ui/components'
-import React, { useCallback } from 'react'
+import React from 'react'
+import PageLink from './PageLink'
 import SquareImageBox from './SquareImageBox'
 
 interface FilterButtonProps {
   active?: boolean
   icon?: string
   label: string
-  setFilter: (filter: string) => void
   value: string
   m?: string | number
 }
 
 const FilterButton = ({
   active = false,
-  setFilter,
   icon,
   label,
   value,
   m,
 }: FilterButtonProps) => {
-  const selectFilter = useCallback(() => {
-    setFilter(value)
-  }, [setFilter, value])
   return (
-    <Button
+    <PageLink
+      href={{ query: { filter: value } }}
+      shallow={true}
       m={m}
       py={1}
       px={2}
-      onClick={selectFilter}
       className={active ? 'active' : ''}
       sx={{ display: 'flex' }}
+      variant='buttons.primary'
     >
       {icon != null && (
         <SquareImageBox
@@ -40,7 +37,7 @@ const FilterButton = ({
         />
       )}
       {label}
-    </Button>
+    </PageLink>
   )
 }
 

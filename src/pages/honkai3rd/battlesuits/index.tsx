@@ -1,6 +1,6 @@
 import { Box, Heading, Flex } from '@theme-ui/components'
 import { pick } from 'ramda'
-import { useMemo, useState } from 'react'
+import { useMemo } from 'react'
 import FilterButton from '../../../components/atoms/FilterButton'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
@@ -10,6 +10,7 @@ import {
 } from '../../../server/data/honkai3rd/battlesuits'
 import { battlesuitStrengths } from '../../../lib/safeData'
 import BattlesuitCard from '../../../components/molecules/BattlesuitCard'
+import { useRouter } from 'next/router'
 
 type BattlesuitListItemData = Pick<
   BattlesuitData,
@@ -50,7 +51,15 @@ const valkyrieFilterOptions = [
 ]
 
 const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
-  const [filter, setFilter] = useState('all')
+  const { query } = useRouter()
+
+  const filter = useMemo(() => {
+    if (query.filter == null) {
+      return 'all'
+    }
+
+    return typeof query.filter === 'string' ? query.filter : query.filter[0]
+  }, [query])
 
   const battlesuitList = useMemo(() => {
     return battlesuits.map((battlesuit) => {
@@ -87,7 +96,6 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
                 <FilterButton
                   key={value}
                   active={value === filter}
-                  setFilter={setFilter}
                   value={value}
                   label={label}
                   icon={icon}
@@ -104,7 +112,6 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
                 <FilterButton
                   key={value}
                   active={value === filter}
-                  setFilter={setFilter}
                   value={value}
                   label={label}
                   icon={icon}

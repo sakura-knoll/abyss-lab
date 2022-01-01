@@ -2,11 +2,12 @@
 import NextLink, { LinkProps as NextLinkProps } from 'next/link'
 import { Link, LinkProps } from '@theme-ui/components'
 
-type PageLinkProps = LinkProps & NextLinkProps
+type PageLinkProps = Omit<LinkProps, 'href'> &
+  Pick<NextLinkProps, 'href' | 'shallow'>
 
-const PageLink = ({ href, ...otherProps }: PageLinkProps) => {
+const PageLink = ({ href, shallow, ...otherProps }: PageLinkProps) => {
   return (
-    <NextLink href={href} passHref={true}>
+    <NextLink href={href} shallow={shallow} passHref={true}>
       <Link {...otherProps} />
     </NextLink>
   )
