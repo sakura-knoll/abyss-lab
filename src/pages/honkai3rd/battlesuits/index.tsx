@@ -1,9 +1,7 @@
-import { Box, Heading, Flex, Text, Link } from '@theme-ui/components'
-import NextLink from 'next/link'
+import { Box, Heading, Flex } from '@theme-ui/components'
 import { pick } from 'ramda'
-import React, { useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 import FilterButton from '../../../components/atoms/FilterButton'
-import SquareImageBox from '../../../components/atoms/SquareImageBox'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import {
@@ -11,6 +9,7 @@ import {
   listBattlesuits,
 } from '../../../server/data/honkai3rd/battlesuits'
 import { battlesuitStrengths } from '../../../lib/safeData'
+import BattlesuitCard from '../../../components/molecules/BattlesuitCard'
 
 type BattlesuitListItemData = Pick<
   BattlesuitData,
@@ -57,52 +56,11 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
     return battlesuits.map((battlesuit) => {
       const hidden = isBattlesuitHidden(battlesuit, filter)
       return (
-        <Box
+        <BattlesuitCard
           key={battlesuit.id}
-          className={hidden ? 'hidden' : ''}
-          sx={{
-            width: '160px',
-            padding: 2,
-            margin: 1,
-            borderColor: 'gray.3',
-            borderWidth: 1,
-            borderStyle: 'solid',
-            borderRadius: 8,
-            transition: 'box-shadow 200ms ease-in-out',
-            '&:hover': {
-              borderColor: 'gray.3',
-              boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-            },
-            '&.hidden': {
-              display: 'none',
-            },
-          }}
-        >
-          <NextLink
-            href={`/honkai3rd/battlesuits/${battlesuit.id}`}
-            key={battlesuit.id}
-            passHref={true}
-          >
-            <Link>
-              <SquareImageBox
-                alt={battlesuit.name}
-                src={`/assets/honkai3rd/battlesuits/portrait-${battlesuit.id}.png`}
-                size={140}
-              />
-              <Box
-                sx={{
-                  overflow: 'hidden',
-                  textOverflow: 'ellipsis',
-                  width: '100%',
-                  whiteSpace: 'nowrap',
-                  textAlign: 'center',
-                }}
-              >
-                <Text>{battlesuit.name}</Text>
-              </Box>
-            </Link>
-          </NextLink>
-        </Box>
+          battlesuit={battlesuit}
+          hidden={hidden}
+        />
       )
     })
   }, [battlesuits, filter])
@@ -120,6 +78,7 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
         />
 
         <Heading as='h1'>Battlesuits</Heading>
+
         <Box>
           <Heading as='h3'>Filter by Features</Heading>
           <Flex mb={2} sx={{ flexWrap: 'wrap' }}>

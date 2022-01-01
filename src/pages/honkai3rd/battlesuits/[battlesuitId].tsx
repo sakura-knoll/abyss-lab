@@ -41,8 +41,12 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
         <Box
           sx={{
             borderRadius: 4,
-            border: 'default',
             overflow: 'hidden',
+            border: 'default',
+            transition: 'box-shadow 200ms ease-in-out',
+            '&:hover': {
+              boxShadow: 'rgba(0, 0, 0, 0.2) 0px 4px 8px;',
+            },
           }}
           mb={3}
         >
@@ -161,6 +165,10 @@ const BattlesuitSkillGroupCard = ({
       sx={{
         borderRadius: 4,
         border: 'default',
+        transition: 'box-shadow 200ms ease-in-out',
+        '&:hover': {
+          boxShadow: 'rgba(0, 0, 0, 0.2) 0px 4px 8px;',
+        },
       }}
     >
       <Heading

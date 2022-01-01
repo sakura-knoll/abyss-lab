@@ -3,7 +3,7 @@ import { Box } from '@theme-ui/components'
 import Image from 'next/image'
 
 interface SquareImageBoxProps {
-  size: number | string
+  size: number | string | Array<number | string>
   src: string
   alt?: string
   m?: number | string

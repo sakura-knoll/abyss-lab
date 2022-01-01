@@ -54,6 +54,7 @@ export const theme: Theme = {
   },
   borders: {
     default: `1px solid ${colors.gray[5]}`,
+    primary: `1px solid #007bff`,
   },
   lineHeights: {
     body: 1.6,
@@ -96,9 +97,18 @@ export const theme: Theme = {
       borderStyle: 'solid',
       borderWidth: 1,
       bg: 'background',
+      cursor: 'pointer',
       '&:hover, &.active': {
         color: 'background',
         bg: 'primary',
+      },
+      transition:
+        'box-shadow 200ms ease-in-out, color 200ms ease-in-out, background-color 200ms ease-in-out',
+      '&:hover': {
+        boxShadow: 'rgba(0, 0, 0, 0.2) 0px 4px 8px;',
+      },
+      '&.hidden': {
+        display: 'none',
       },
     },
     secondary: {
@@ -209,6 +219,16 @@ export const theme: Theme = {
     },
   },
   cards: {
+    primary: {
+      border: 'default',
+      borderRadius: 'default',
+
+      transition:
+        'box-shadow 200ms ease-in-out, color 200ms ease-in-out, background-color 200ms ease-in-out',
+      '&:hover': {
+        boxShadow: 'rgba(0, 0, 0, 0.2) 0px 4px 8px;',
+      },
+    },
     stigmata: {
       padding: 2,
       borderRadius: 4,
