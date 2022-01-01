@@ -6,8 +6,9 @@ import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator
 import { listWeapons, WeaponData } from '../../../server/data/honkai3rd/weapons'
 import { pick } from 'ramda'
 import SquareImageBox from '../../../components/atoms/SquareImageBox'
-import { useMemo, useState } from 'react'
+import { useMemo } from 'react'
 import FilterButton from '../../../components/atoms/FilterButton'
+import { useRouter } from 'next/router'
 
 type WeaponListItemData = Pick<
   WeaponData,
@@ -32,7 +33,15 @@ const weaponFilterOptions = [
 ]
 
 const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
-  const [filter, setFilter] = useState('all')
+  const { query } = useRouter()
+
+  const filter = useMemo(() => {
+    if (query.filter == null) {
+      return 'all'
+    }
+
+    return typeof query.filter === 'string' ? query.filter : query.filter[0]
+  }, [query])
 
   const weaponList = useMemo(() => {
     return weaponDataList.map((weapon) => {
@@ -112,7 +121,6 @@ const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
                 <FilterButton
                   key={value}
                   active={value === filter}
-                  setFilter={setFilter}
                   value={value}
                   label={label}
                   m={1}
