@@ -1,15 +1,14 @@
 /** @jsxImportSource theme-ui */
-import { Text, Box, Heading, Flex, Card } from '@theme-ui/components'
+import { Box, Heading, Flex } from '@theme-ui/components'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { listWeapons } from '../../../server/data/honkai3rd/weapons'
 import { pick } from 'ramda'
-import SquareImageBox from '../../../components/atoms/SquareImageBox'
 import { useMemo } from 'react'
 import FilterButton from '../../../components/atoms/FilterButton'
 import { useRouter } from 'next/router'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
-import PageLink from '../../../components/atoms/PageLink'
+import WeaponCard from '../../../components/molecules/WeaponCard'
 
 type WeaponListItemData = Pick<
   WeaponData,
@@ -47,42 +46,7 @@ const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
   const weaponList = useMemo(() => {
     return weaponDataList.map((weapon) => {
       const hidden = isWeaponHidden(weapon, filter)
-      return (
-        <Card
-          key={weapon.id}
-          className={hidden ? 'hidden' : ''}
-          sx={{
-            width: '120px',
-            padding: 2,
-            margin: 1,
-            '&.hidden': {
-              display: 'none',
-            },
-          }}
-        >
-          <PageLink href={`/honkai3rd/weapons/${weapon.id}`}>
-            <SquareImageBox
-              size={100}
-              alt={weapon.name}
-              src={`/assets/honkai3rd/weapons/${weapon.id}.png`}
-            />
-            <Box
-              sx={{
-                overflow: 'hidden',
-                textOverflow: 'ellipsis',
-                width: '100%',
-                whiteSpace: 'nowrap',
-                textAlign: 'center',
-              }}
-            >
-              <Text>{weapon.name}</Text>
-            </Box>
-            <Box sx={{ fontSize: 1, textAlign: 'center' }}>
-              {'⭐'.repeat(weapon.rarity)}
-            </Box>
-          </PageLink>
-        </Card>
-      )
+      return <WeaponCard key={weapon.id} weapon={weapon} hidden={hidden} />
     })
   }, [weaponDataList, filter])
 
