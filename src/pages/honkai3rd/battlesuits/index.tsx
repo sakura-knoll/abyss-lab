@@ -153,15 +153,15 @@ function isBattlesuitHidden(
 ): boolean {
   switch (filter) {
     case 'physical':
-    case 'fire dmg':
-    case 'ice dmg':
-    case 'lightning dmg':
+    case 'fire-dmg':
+    case 'ice-dmg':
+    case 'lightning-dmg':
     case 'freeze':
     case 'paralyze':
     case 'stun':
     case 'ignite':
     case 'bleed':
-    case 'heavy atk':
+    case 'heavy-atk':
     case 'weaken':
     case 'impair':
     case 'time mastery':

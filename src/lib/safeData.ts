@@ -1,10 +1,10 @@
 export const battlesuitStrengths = [
   { icon: 'feature-icons/physical', value: 'physical', label: 'Physical' },
-  { icon: 'feature-icons/fire-dmg', value: 'fire dmg', label: 'Fire DMG' },
-  { icon: 'feature-icons/ice-dmg', value: 'ice dmg', label: 'Ice DMG' },
+  { icon: 'feature-icons/fire-dmg', value: 'fire-dmg', label: 'Fire DMG' },
+  { icon: 'feature-icons/ice-dmg', value: 'ice-dmg', label: 'Ice DMG' },
   {
     icon: 'feature-icons/lightning-dmg',
-    value: 'lightning dmg',
+    value: 'lightning-dmg',
     label: 'Lightning DMG',
   },
   { icon: 'feature-icons/freeze', value: 'freeze', label: 'Freeze' },
@@ -12,7 +12,7 @@ export const battlesuitStrengths = [
   { icon: 'feature-icons/stun', value: 'stun', label: 'Stun' },
   { icon: 'feature-icons/ignite', value: 'ignite', label: 'Ignite' },
   { icon: 'feature-icons/bleed', value: 'bleed', label: 'Bleed' },
-  { icon: 'feature-icons/heavy-atk', value: 'heavy atk', label: 'Heavy ATK' },
+  { icon: 'feature-icons/heavy-atk', value: 'heavy-atk', label: 'heavy-atk' },
   { icon: 'feature-icons/weaken', value: 'weaken', label: 'Weaken' },
   { icon: 'feature-icons/impair', value: 'impair', label: 'Impair' },
   {
