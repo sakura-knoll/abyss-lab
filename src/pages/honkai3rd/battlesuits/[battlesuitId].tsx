@@ -12,6 +12,8 @@ import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator
 import {
   BattlesuitData,
   BattlesuitSkillGroup,
+} from '../../../lib/honkai3rd/battlesuits'
+import {
   getBattlesuitById,
   listBattlesuits,
 } from '../../../server/data/honkai3rd/battlesuits'

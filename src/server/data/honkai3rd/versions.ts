@@ -1,18 +1,7 @@
 import { format } from 'date-fns'
-import { readdirSync, readFileSync, readJsonFileSync } from '../../../lib/data'
+import { readdirSync, readFileSync, readJsonFileSync } from '../fs'
 import { compareVersion } from '../../../lib/string'
-
-export interface VersionData {
-  version: string
-  previousVersion?: string
-  nextVersion?: string
-  name: string
-  duration: [string, string]
-  verified: boolean
-  newBattlesuits: string[]
-  newWeapons: string[]
-  description: string
-}
+import { VersionData } from '../../../lib/honkai3rd/versions'
 
 const versionDirectoryList = readdirSync('honkai3rd/versions')
 

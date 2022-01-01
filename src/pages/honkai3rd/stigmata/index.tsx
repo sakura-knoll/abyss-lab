@@ -5,10 +5,8 @@ import NextLink from 'next/link'
 import { pick } from 'ramda'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
-import {
-  StigmataData,
-  listStigmata,
-} from '../../../server/data/honkai3rd/stigmata'
+import { StigmataData } from '../../../lib/honkai3rd/stigmata'
+import { listStigmata } from '../../../server/data/honkai3rd/stigmata'
 
 interface StigmataListPageProps {
   stigmataDataList: Pick<StigmataData, 'id' | 'name' | 'rarity'>[]

@@ -1,30 +1,6 @@
-import { readdirSync, readJsonFileSync } from '../../../lib/data'
+import { readdirSync, readJsonFileSync } from '../fs'
 import { compareVersion } from '../../../lib/string'
-
-export interface WeaponSkill {
-  name: string
-  description: string
-}
-
-export interface WeaponData {
-  id: string
-  name: string
-  atk: number
-  crt: number
-  category:
-    | 'pistol'
-    | 'cannon'
-    | 'katana'
-    | 'cross'
-    | 'greatsword'
-    | 'scythe'
-    | 'lance'
-    | 'gauntlet'
-    | 'bow'
-  rarity: number
-  skills: WeaponSkill[]
-  version?: string
-}
+import { WeaponData } from '../../../lib/honkai3rd/weapons'
 
 const weaponsFileNameList = readdirSync('honkai3rd/weapons')
 const weaponDataList = weaponsFileNameList

@@ -1,31 +1,6 @@
-import { readdirSync, readJsonFileSync } from '../../../lib/data'
+import { readdirSync, readJsonFileSync } from '../fs'
 import { compareVersion } from '../../../lib/string'
-
-export interface BattlesuitSkill {
-  name: string
-  description: string
-  requiredRank: string
-}
-export interface BattlesuitSkillGroup {
-  core: BattlesuitSkill
-  subskills: BattlesuitSkill[]
-}
-
-export interface BattlesuitData {
-  id: string
-  version?: string
-  name: string
-  type: string
-  valkyrie: string
-  strengths: string[]
-  leader: BattlesuitSkillGroup
-  special: BattlesuitSkillGroup
-  evasion: BattlesuitSkillGroup
-  passive: BattlesuitSkillGroup
-  ultimate: BattlesuitSkillGroup
-  basic: BattlesuitSkillGroup
-  sp?: BattlesuitSkillGroup
-}
+import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
 
 const battlesuitsFileNameList = readdirSync('honkai3rd/battlesuits')
 const battlesuitDataList = battlesuitsFileNameList

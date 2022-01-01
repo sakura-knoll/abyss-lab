@@ -1,5 +1,5 @@
 import { Flex, Text } from '@theme-ui/components'
-import { battlesuitStrengths } from '../../lib/safeData'
+import { battlesuitStrengths } from '../../lib/honkai3rd/battlesuits'
 import SquareImageBox from './SquareImageBox'
 
 interface BattlesuitFeatureLabelProps {

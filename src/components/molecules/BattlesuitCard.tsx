@@ -1,5 +1,5 @@
 import { Box, Card, Text } from '@theme-ui/components'
-import { BattlesuitData } from '../../server/data/honkai3rd/battlesuits'
+import { BattlesuitData } from '../../lib/honkai3rd/battlesuits'
 import PageLink from '../atoms/PageLink'
 import SquareImageBox from '../atoms/SquareImageBox'
 

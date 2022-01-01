@@ -3,10 +3,10 @@ import { NextPageContext } from 'next'
 import React from 'react'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
+import { WeaponData } from '../../../lib/honkai3rd/weapons'
 import {
   getWeaponById,
   listWeapons,
-  WeaponData,
 } from '../../../server/data/honkai3rd/weapons'
 
 interface WeaponShowPageProps {

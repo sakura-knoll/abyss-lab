@@ -3,12 +3,13 @@ import { Text, Box, Heading, Flex, Link } from '@theme-ui/components'
 import NextLink from 'next/link'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
-import { listWeapons, WeaponData } from '../../../server/data/honkai3rd/weapons'
+import { listWeapons } from '../../../server/data/honkai3rd/weapons'
 import { pick } from 'ramda'
 import SquareImageBox from '../../../components/atoms/SquareImageBox'
 import { useMemo } from 'react'
 import FilterButton from '../../../components/atoms/FilterButton'
 import { useRouter } from 'next/router'
+import { WeaponData } from '../../../lib/honkai3rd/weapons'
 
 type WeaponListItemData = Pick<
   WeaponData,

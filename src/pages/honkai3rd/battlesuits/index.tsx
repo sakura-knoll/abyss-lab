@@ -4,11 +4,13 @@ import { useMemo } from 'react'
 import FilterButton from '../../../components/atoms/FilterButton'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
+import { listBattlesuits } from '../../../server/data/honkai3rd/battlesuits'
 import {
   BattlesuitData,
-  listBattlesuits,
-} from '../../../server/data/honkai3rd/battlesuits'
-import { battlesuitStrengths } from '../../../lib/safeData'
+  battlesuitStrengths,
+  battlesuitTypes,
+  valkyries,
+} from '../../../lib/honkai3rd/battlesuits'
 import BattlesuitCard from '../../../components/molecules/BattlesuitCard'
 import { useRouter } from 'next/router'
 
@@ -24,31 +26,8 @@ interface BattlesuitListPageProps {
 const featureFilterOptions: { value: string; label: string; icon?: string }[] =
   [{ value: 'all', label: 'All' }, ...battlesuitStrengths]
 
-const valkyrieFilterOptions = [
-  { value: 'all', label: 'All' },
-  { value: 'mecha', icon: 'type-icons/mecha', label: 'Mecha' },
-  { value: 'biologic', icon: 'type-icons/biologic', label: 'Biologic' },
-  { value: 'psychic', icon: 'type-icons/psychic', label: 'Psychic' },
-  { value: 'quantum', icon: 'type-icons/quantum', label: 'Quantum' },
-  { value: 'imaginary', icon: 'type-icons/imaginary', label: 'Imaginary' },
-  { value: 'kiana', icon: 'valkyrie-icons/kiana', label: 'Kiana' },
-  { value: 'mei', icon: 'valkyrie-icons/mei', label: 'Mei' },
-  { value: 'bronya', icon: 'valkyrie-icons/bronya', label: 'Bronya' },
-  { value: 'himeko', icon: 'valkyrie-icons/himeko', label: 'Himeko' },
-  { value: 'theresa', icon: 'valkyrie-icons/theresa', label: 'Theresa' },
-  { value: 'fuhua', icon: 'valkyrie-icons/fuhua', label: 'Fu Hua' },
-  { value: 'rita', icon: 'valkyrie-icons/rita', label: 'Rita' },
-  { value: 'sakura', icon: 'valkyrie-icons/sakura', label: 'Sakura' },
-  { value: 'kallen', icon: 'valkyrie-icons/kallen', label: 'Kallen' },
-  { value: 'olenyevas', icon: 'valkyrie-icons/olenyevas', label: 'Olenyevas' },
-  { value: 'seele', icon: 'valkyrie-icons/seele', label: 'Seele' },
-  { value: 'durandal', icon: 'valkyrie-icons/durandal', label: 'Durandal' },
-  { value: 'fischl', icon: 'valkyrie-icons/fischl', label: 'Fischl' },
-  { value: 'elysia', icon: 'valkyrie-icons/elysia', label: 'Elysia' },
-  { value: 'mobius', icon: 'valkyrie-icons/mobius', label: 'Mobius' },
-  { value: 'raven', icon: 'valkyrie-icons/raven', label: 'Raven' },
-  { value: 'carole', icon: 'valkyrie-icons/carole', label: 'Carole' },
-]
+const valkyrieFilterOptions: { value: string; label: string; icon?: string }[] =
+  [{ value: 'all', label: 'All' }, ...battlesuitTypes, ...valkyries]
 
 const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
   const { query } = useRouter()

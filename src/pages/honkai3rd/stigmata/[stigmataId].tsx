@@ -5,13 +5,12 @@ import Link from 'next/link'
 import React from 'react'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
+import { StigmataData, StigmataSet } from '../../../lib/honkai3rd/stigmata'
 import {
-  StigmataData,
   listStigmata,
   getStigmataById,
   getStigmataListBySetId,
   getStigmataSetBySetId,
-  StigmataSet,
 } from '../../../server/data/honkai3rd/stigmata'
 
 interface StigmataShowPageProps {

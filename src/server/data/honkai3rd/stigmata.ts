@@ -1,34 +1,6 @@
-import { readdirSync, readJsonFileSync } from '../../../lib/data'
+import { readdirSync, readJsonFileSync } from '../fs'
 import { compareVersion } from '../../../lib/string'
-
-export interface StigmataSkill {
-  name: string
-  description: string
-}
-
-export interface StigmataData {
-  id: string
-  name: string
-  skill: StigmataSkill
-  ttk: number
-  def: number
-  crt: number
-  set?: string
-  type: 'top' | 'mid' | 'bot'
-  hp: number
-  rarity: 3 | 4 | 5
-  version?: string
-  hidden?: boolean
-}
-
-export interface StigmataSet {
-  id: string
-  name: string
-  altName: string
-  twoSetSkill: StigmataSkill
-  threeSetSkill: StigmataSkill
-  version?: string
-}
+import { StigmataData, StigmataSet } from '../../../lib/honkai3rd/stigmata'
 
 const stigmataDataFileNameList = readdirSync('honkai3rd/stigmata')
 const stigmataList = stigmataDataFileNameList

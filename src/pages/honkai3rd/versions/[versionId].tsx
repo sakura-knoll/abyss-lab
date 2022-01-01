@@ -7,25 +7,19 @@ import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator
 import {
   getVersion,
   listVersionData,
-  VersionData,
 } from '../../../server/data/honkai3rd/versions'
 import { format as formatDate } from 'date-fns'
-import {
-  BattlesuitData,
-  getBattlesuitById,
-} from '../../../server/data/honkai3rd/battlesuits'
+import { getBattlesuitById } from '../../../server/data/honkai3rd/battlesuits'
 import NextLink from 'next/link'
 import SquareImageBox from '../../../components/atoms/SquareImageBox'
-import {
-  getWeaponById,
-  WeaponData,
-} from '../../../server/data/honkai3rd/weapons'
+import { getWeaponById } from '../../../server/data/honkai3rd/weapons'
 import ScrollContainer from 'react-indiana-drag-scroll'
-import {
-  listSupplyEventsByVersion,
-  SupplyEventData,
-} from '../../../server/data/honkai3rd/supply-events'
+import { listSupplyEventsByVersion } from '../../../server/data/honkai3rd/supplyEvents'
 import { addDateToDateString, getDateString } from '../../../lib/string'
+import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
+import { WeaponData } from '../../../lib/honkai3rd/weapons'
+import { SupplyEventData } from '../../../lib/honkai3rd/supplyEvents'
+import { VersionData } from '../../../lib/honkai3rd/versions'
 
 interface VersionShowPageProps {
   versionData: VersionData
