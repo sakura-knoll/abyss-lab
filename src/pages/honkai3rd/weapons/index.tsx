@@ -1,6 +1,5 @@
 /** @jsxImportSource theme-ui */
-import { Text, Box, Heading, Flex, Link } from '@theme-ui/components'
-import NextLink from 'next/link'
+import { Text, Box, Heading, Flex, Card } from '@theme-ui/components'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { listWeapons } from '../../../server/data/honkai3rd/weapons'
@@ -10,6 +9,7 @@ import { useMemo } from 'react'
 import FilterButton from '../../../components/atoms/FilterButton'
 import { useRouter } from 'next/router'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
+import PageLink from '../../../components/atoms/PageLink'
 
 type WeaponListItemData = Pick<
   WeaponData,
@@ -48,55 +48,40 @@ const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
     return weaponDataList.map((weapon) => {
       const hidden = isWeaponHidden(weapon, filter)
       return (
-        <Box
+        <Card
           key={weapon.id}
           className={hidden ? 'hidden' : ''}
           sx={{
             width: '120px',
             padding: 2,
             margin: 1,
-            borderColor: 'gray.3',
-            borderWidth: 1,
-            borderStyle: 'solid',
-            borderRadius: 8,
-            transition: 'box-shadow 200ms ease-in-out',
-            '&:hover': {
-              borderColor: 'gray.3',
-              boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-            },
             '&.hidden': {
               display: 'none',
             },
           }}
         >
-          <NextLink
-            href={`/honkai3rd/weapons/${weapon.id}`}
-            key={weapon.id}
-            passHref={true}
-          >
-            <Link>
-              <SquareImageBox
-                size={100}
-                alt={weapon.name}
-                src={`/assets/honkai3rd/weapons/${weapon.id}.png`}
-              />
-              <Box
-                sx={{
-                  overflow: 'hidden',
-                  textOverflow: 'ellipsis',
-                  width: '100%',
-                  whiteSpace: 'nowrap',
-                  textAlign: 'center',
-                }}
-              >
-                <Text>{weapon.name}</Text>
-              </Box>
-              <Box sx={{ fontSize: 1, textAlign: 'center' }}>
-                {'⭐'.repeat(weapon.rarity)}
-              </Box>
-            </Link>
-          </NextLink>
-        </Box>
+          <PageLink href={`/honkai3rd/weapons/${weapon.id}`}>
+            <SquareImageBox
+              size={100}
+              alt={weapon.name}
+              src={`/assets/honkai3rd/weapons/${weapon.id}.png`}
+            />
+            <Box
+              sx={{
+                overflow: 'hidden',
+                textOverflow: 'ellipsis',
+                width: '100%',
+                whiteSpace: 'nowrap',
+                textAlign: 'center',
+              }}
+            >
+              <Text>{weapon.name}</Text>
+            </Box>
+            <Box sx={{ fontSize: 1, textAlign: 'center' }}>
+              {'⭐'.repeat(weapon.rarity)}
+            </Box>
+          </PageLink>
+        </Card>
       )
     })
   }, [weaponDataList, filter])
