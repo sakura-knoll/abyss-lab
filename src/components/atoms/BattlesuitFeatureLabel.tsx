@@ -1,5 +1,5 @@
 import { Flex, Text } from '@theme-ui/components'
-import { battlesuitStrengths } from '../../lib/honkai3rd/battlesuits'
+import { battlesuitFeatures } from '../../lib/honkai3rd/battlesuits'
 import SquareImageBox from './SquareImageBox'
 
 interface BattlesuitFeatureLabelProps {
@@ -7,8 +7,8 @@ interface BattlesuitFeatureLabelProps {
 }
 
 const BattlesuitFeatureLabel = ({ feature }: BattlesuitFeatureLabelProps) => {
-  const featureData = battlesuitStrengths.find(
-    (strength) => strength.value === feature
+  const featureData = battlesuitFeatures.find(
+    (aFeature) => aFeature.value === feature
   )
   if (featureData == null) {
     return <Text>{feature}</Text>

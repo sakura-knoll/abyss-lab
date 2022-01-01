@@ -7,7 +7,7 @@ import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator
 import { listBattlesuits } from '../../../server/data/honkai3rd/battlesuits'
 import {
   BattlesuitData,
-  battlesuitStrengths,
+  battlesuitFeatures,
   battlesuitTypes,
   valkyries,
 } from '../../../lib/honkai3rd/battlesuits'
@@ -16,7 +16,7 @@ import { useRouter } from 'next/router'
 
 type BattlesuitListItemData = Pick<
   BattlesuitData,
-  'id' | 'name' | 'strengths' | 'type' | 'valkyrie'
+  'id' | 'name' | 'features' | 'type' | 'valkyrie'
 >
 
 interface BattlesuitListPageProps {
@@ -24,7 +24,7 @@ interface BattlesuitListPageProps {
 }
 
 const featureFilterOptions: { value: string; label: string; icon?: string }[] =
-  [{ value: 'all', label: 'All' }, ...battlesuitStrengths]
+  [{ value: 'all', label: 'All' }, ...battlesuitFeatures]
 
 const valkyrieFilterOptions: { value: string; label: string; icon?: string }[] =
   [{ value: 'all', label: 'All' }, ...battlesuitTypes, ...valkyries]
@@ -120,7 +120,7 @@ export async function getStaticProps() {
   return {
     props: {
       battlesuits: listBattlesuits().map((battlesuit) =>
-        pick(['id', 'name', 'strengths', 'type', 'valkyrie'], battlesuit)
+        pick(['id', 'name', 'features', 'type', 'valkyrie'], battlesuit)
       ),
     },
   }
@@ -149,7 +149,7 @@ function isBattlesuitHidden(
     case 'fast atk':
     case 'burst':
     case 'aerial':
-      return !battlesuit.strengths.some((strength) => strength === filter)
+      return !battlesuit.features.some((feature) => feature === filter)
     case 'mecha':
     case 'biologic':
     case 'psychic':

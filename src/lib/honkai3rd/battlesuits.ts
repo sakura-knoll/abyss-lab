@@ -14,7 +14,7 @@ export interface BattlesuitData {
   name: string
   type: string
   valkyrie: string
-  strengths: string[]
+  features: string[]
   leader: BattlesuitSkillGroup
   special: BattlesuitSkillGroup
   evasion: BattlesuitSkillGroup
@@ -24,7 +24,7 @@ export interface BattlesuitData {
   sp?: BattlesuitSkillGroup
 }
 
-export const battlesuitStrengths = [
+export const battlesuitFeatures = [
   { icon: 'feature-icons/physical', value: 'physical', label: 'Physical' },
   { icon: 'feature-icons/fire-dmg', value: 'fire-dmg', label: 'Fire DMG' },
   { icon: 'feature-icons/ice-dmg', value: 'ice-dmg', label: 'Ice DMG' },

@@ -9,7 +9,7 @@ export interface ElfData {
   id: string
   name: string
   baseRank: number
-  strengths: string[]
+  features: string[]
   skillRows: [ElfSkill[], ElfSkill[], ElfSkill[], ElfSkill[]]
   version: string
 }

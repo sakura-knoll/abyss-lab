@@ -88,16 +88,16 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
             </PageLink>
           </Box>
           <Flex p={2}>
-            {battlesuit.strengths.map((strength) => {
+            {battlesuit.features.map((feature) => {
               return (
-                <Box mr={2} key={strength}>
+                <Box mr={2} key={feature}>
                   <PageLink
                     href={{
                       pathname: '/honkai3rd/battlesuits',
-                      query: { filter: strength },
+                      query: { filter: feature },
                     }}
                   >
-                    <BattlesuitFeatureLabel feature={strength} />
+                    <BattlesuitFeatureLabel feature={feature} />
                   </PageLink>
                 </Box>
               )
