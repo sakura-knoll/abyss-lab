@@ -15,7 +15,7 @@ const WeaponCard = ({ weapon, hidden }: WeaponCardProps) => {
       sx={{
         width: '120px',
         padding: 2,
-        margin: 1,
+        margin: 2,
         '&.hidden': {
           display: 'none',
         },
