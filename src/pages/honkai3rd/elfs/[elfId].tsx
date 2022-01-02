@@ -1,10 +1,13 @@
 /** @jsxImportSource theme-ui */
-import { Box, Heading, Paragraph } from '@theme-ui/components'
+import { Box, Card, Flex, Heading, Paragraph, Text } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import Image from 'next/image'
+import React from 'react'
+import BattlesuitFeatureLabel from '../../../components/atoms/BattlesuitFeatureLabel'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { ElfData } from '../../../lib/honkai3rd/elfs'
+import { capitalize } from '../../../lib/string'
 import { getElfById, listElfs } from '../../../server/data/honkai3rd/elfs'
 
 interface ElfShowPageProps {
@@ -48,24 +51,60 @@ const ElfShowPage = ({ elf }: ElfShowPageProps) => {
             />
           </Box>
         </Box>
-        <Box mb={4}>{'⭐'.repeat(elf.baseRank)}</Box>
-        <Box>
-          {elf.skillRows.map((row, rowIndex) => {
-            return (
-              <Box key={rowIndex}>
-                {row.map((item, columnIndex) => {
-                  return (
-                    <Box key={columnIndex}>
-                      <Heading as='h4'>{item.name}</Heading>
-                      <Paragraph>{item.description}</Paragraph>
-                    </Box>
-                  )
-                })}
-                <hr />
+
+        <Card mb={3}>
+          <Box sx={{ p: 2, borderBottom: 'default' }}>
+            {'⭐'.repeat(elf.baseRank)}
+          </Box>
+          <Flex p={2}>
+            {elf.features.map((feature) => (
+              <Box key={feature} mr={2}>
+                <BattlesuitFeatureLabel feature={feature} />
               </Box>
-            )
-          })}
-        </Box>
+            ))}
+          </Flex>
+        </Card>
+
+        {elf.skillRows.map((row, rowIndex) => {
+          return (
+            <Card key={rowIndex} mb={3}>
+              {row.map((item, columnIndex) => {
+                return (
+                  <React.Fragment key={columnIndex}>
+                    <Box sx={{ p: 2, borderBottom: 'default' }}>
+                      <Heading
+                        as={columnIndex === 0 ? 'h2' : 'h3'}
+                        sx={{ mb: 1 }}
+                      >
+                        {item.name}
+                      </Heading>
+                      <Text
+                        as='small'
+                        sx={{
+                          fontSize: 2,
+                          color: 'secondary',
+                          fontWeight: 'heading',
+                          fontFamily: 'monospace',
+                        }}
+                      >
+                        {capitalize(item.type)}
+                      </Text>
+                    </Box>
+                    <Paragraph
+                      sx={{
+                        p: 2,
+                        borderBottom: 'default',
+                        '&:last-child': { borderBottom: 'none' },
+                      }}
+                    >
+                      {item.description}
+                    </Paragraph>
+                  </React.Fragment>
+                )
+              })}
+            </Card>
+          )
+        })}
       </Box>
     </Box>
   )
