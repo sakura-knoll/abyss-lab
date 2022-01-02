@@ -4,9 +4,10 @@ import Icon from '@mdi/react'
 import { NavLink, Flex } from '@theme-ui/components'
 import NextLink from 'next/link'
 import React from 'react'
+import { UrlObject, format as formatUrl } from 'url'
 
 interface BreadcrumbItem {
-  href: string
+  href: string | UrlObject
   label: string
 }
 
@@ -33,7 +34,11 @@ const Breadcrumb = ({ items }: BreadcrumbProps) => {
       </NextLink>
       {items.map((item) => {
         return (
-          <React.Fragment key={item.href}>
+          <React.Fragment
+            key={
+              typeof item.href === 'string' ? item.href : formatUrl(item.href)
+            }
+          >
             <Icon size={0.8} path={mdiChevronRight} />
             <NextLink passHref href={item.href}>
               <NavLink>{item.label}</NavLink>

@@ -26,7 +26,13 @@ const StigmataSetPage = ({
         <Breadcrumb
           items={[
             { href: '/honkai3rd', label: 'Honkai 3rd' },
-            { href: '/honkai3rd/stigmata', label: 'Stigmata' },
+            {
+              href: {
+                pathname: `/honkai3rd/stigmata`,
+                query: { list: 'set' },
+              },
+              label: 'Stigmata',
+            },
             {
               href: `/honkai3rd/stigmata/${stigmataSet.id}-set`,
               label: `${stigmataSet.name} Set`,
