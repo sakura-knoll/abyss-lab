@@ -7,7 +7,7 @@ export interface StigmataData {
   id: string
   name: string
   skill: StigmataSkill
-  ttk: number
+  atk: number
   def: number
   crt: number
   set?: string
