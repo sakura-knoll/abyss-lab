@@ -34,7 +34,7 @@ const ElfShowPage = ({ elf }: ElfShowPageProps) => {
 
         <Heading as='h1'>{elf.name}</Heading>
 
-        <Box className='mb-4'>
+        <Box mb={3}>
           <Box
             sx={{
               position: 'relative',
