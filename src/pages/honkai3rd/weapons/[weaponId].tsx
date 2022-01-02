@@ -59,7 +59,6 @@ const WeaponShowPage = ({ weapon }: WeaponShowPageProps) => {
                   p={2}
                   sx={{
                     whiteSpace: 'pre-wrap',
-                    borderBottom: 'default',
                   }}
                 >
                   {skill.description}
