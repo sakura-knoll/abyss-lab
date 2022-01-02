@@ -77,7 +77,14 @@ const StigmataSetPage = ({
                   HP : {stigmataSetItem.hp} / ATK : {stigmataSetItem.atk} / DEF
                   : {stigmataSetItem.def} / CRT : {stigmataSetItem.crt}
                 </Box>
-                <Paragraph m={0} p={2} sx={{ borderBottom: 'default' }}>
+                <Paragraph
+                  m={0}
+                  p={2}
+                  sx={{
+                    borderBottom: 'default',
+                    '&:last-child': { borderBottom: 'none' },
+                  }}
+                >
                   {stigmataSetItem.skill.description}
                 </Paragraph>
               </React.Fragment>
