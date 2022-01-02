@@ -1,8 +1,7 @@
 /** @jsxImportSource theme-ui */
-import { Box, Heading, Flex, Text, Link } from '@theme-ui/components'
-import Image from 'next/image'
-import NextLink from 'next/link'
+import { Box, Heading, Flex } from '@theme-ui/components'
 import { pick } from 'ramda'
+import ElfCard from '../../../components/molecules/ElfCard'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { ElfData } from '../../../lib/honkai3rd/elfs'
@@ -34,61 +33,7 @@ const ElfListPage = ({ elfs }: ElfListPageProps) => {
           }}
         >
           {elfs.map((elf) => {
-            return (
-              <Box
-                key={elf.id}
-                sx={{
-                  width: '160px',
-                  padding: 2,
-                  margin: 1,
-                  borderColor: 'gray.3',
-                  borderWidth: 1,
-                  borderStyle: 'solid',
-                  borderRadius: 8,
-                  '&:hover': {
-                    borderColor: 'gray.3',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                    transition: 'box-shadow 200ms ease-in-out',
-                  },
-                }}
-              >
-                <NextLink
-                  href={`/honkai3rd/elfs/${elf.id}`}
-                  key={elf.id}
-                  passHref={true}
-                >
-                  <Link>
-                    <Box
-                      sx={{
-                        position: 'relative',
-                        overflow: 'hidden',
-                        width: '140px',
-                        height: '140px',
-                        borderRadius: 4,
-                      }}
-                    >
-                      <Image
-                        alt={elf.name}
-                        layout='fill'
-                        objectFit='cover'
-                        src={`/assets/honkai3rd/elfs/icon-${elf.id}.png`}
-                      />
-                    </Box>
-                    <Box
-                      sx={{
-                        overflow: 'hidden',
-                        textOverflow: 'ellipsis',
-                        width: '100%',
-                        whiteSpace: 'nowrap',
-                        textAlign: 'center',
-                      }}
-                    >
-                      <Text>{elf.name}</Text>
-                    </Box>
-                  </Link>
-                </NextLink>
-              </Box>
-            )
+            return <ElfCard key={elf.id} elf={elf} />
           })}
         </Flex>
       </Box>
