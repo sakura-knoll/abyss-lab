@@ -99,13 +99,14 @@ export const theme: Theme = {
       cursor: 'pointer',
       textDecoration: 'none',
       borderRadius: 'default',
-      '&:hover, &.active': {
+      '&.active, &:active, &:hover:active, &.active:hover': {
         color: 'background',
         bg: 'primary',
       },
       transition:
         'box-shadow 200ms ease-in-out, color 200ms ease-in-out, background-color 200ms ease-in-out',
       '&:hover': {
+        bg: 'rgba(0, 123, 255, 0.2)',
         boxShadow: 'rgba(0, 0, 0, 0.2) 0px 4px 8px;',
       },
       '&.hidden': {
