@@ -38,7 +38,7 @@ export const battlesuitFeatures = [
   { icon: 'feature-icons/stun', value: 'stun', label: 'Stun' },
   { icon: 'feature-icons/ignite', value: 'ignite', label: 'Ignite' },
   { icon: 'feature-icons/bleed', value: 'bleed', label: 'Bleed' },
-  { icon: 'feature-icons/heavy-atk', value: 'heavy-atk', label: 'heavy-atk' },
+  { icon: 'feature-icons/heavy-atk', value: 'heavy-atk', label: 'Heavy ATK' },
   { icon: 'feature-icons/weaken', value: 'weaken', label: 'Weaken' },
   { icon: 'feature-icons/impair', value: 'impair', label: 'Impair' },
   {
