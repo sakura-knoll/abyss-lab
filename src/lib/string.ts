@@ -34,3 +34,7 @@ export function addDateToDateString(dateString: string, duration: Duration) {
     })
   )
 }
+
+export function capitalize(value: string) {
+  return value.replace(/^\w/, (c) => c.toUpperCase())
+}

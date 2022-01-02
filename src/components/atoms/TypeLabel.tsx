@@ -1,4 +1,5 @@
 import { Flex, Text } from '@theme-ui/components'
+import { capitalize } from '../../lib/string'
 import SquareImageBox from './SquareImageBox'
 
 interface TypeLabelProps {
@@ -6,7 +7,8 @@ interface TypeLabelProps {
 }
 
 const TypeLabel = ({ type }: TypeLabelProps) => {
-  const label = type.replace(/^\w/, (c) => c.toUpperCase())
+  const label = capitalize(type)
+
   return (
     <Flex sx={{ alignItems: 'center' }}>
       {isValidType(type) && (
