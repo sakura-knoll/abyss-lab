@@ -30,7 +30,7 @@ function isValidType(type: string): boolean {
     case 'biologic':
     case 'psychic':
     case 'quantum':
-    case 'imginary':
+    case 'imaginary':
       return true
   }
   return false
