@@ -1,12 +1,13 @@
 /** @jsxImportSource theme-ui */
 import { StigmataData, StigmataSet } from '../../lib/honkai3rd/stigmata'
 import Image from 'next/image'
-import { Box, Heading, Text, Paragraph, Card, Flex } from '@theme-ui/components'
+import { Box, Heading, Paragraph, Card, Flex } from '@theme-ui/components'
 import PageLink from '../../components/atoms/PageLink'
 import StigmataCard from '../../components/molecules/StigmataCard'
 import Breadcrumb from '../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../components/organisms/Honkai3rdNavigator'
 import { capitalize } from '../../lib/string'
+import SecondaryLabel from '../atoms/SecondaryLabel'
 
 export interface SingleStigmataPageProps {
   type: 'single'
@@ -72,15 +73,15 @@ const SingleStigmataPage = ({
 
         {stigmataSet != null && (
           <Card>
-            <Heading as='h2' m={0} p={2} sx={{ borderBottom: 'default' }}>
-              <PageLink href={`/honkai3rd/stigmata/${stigmataSet.id}-set`}>
-                {stigmataSet.name}
-              </PageLink>
-              <br />
-              <Text as='small' sx={{ fontSize: 2, color: 'secondary' }}>
-                Set
-              </Text>
-            </Heading>
+            <Box sx={{ p: 2, borderBottom: 'default' }}>
+              <Heading as='h2' mb={1}>
+                <PageLink href={`/honkai3rd/stigmata/${stigmataSet.id}-set`}>
+                  {stigmataSet.name}
+                </PageLink>
+              </Heading>
+              <SecondaryLabel>Set</SecondaryLabel>
+            </Box>
+
             <Flex
               p={2}
               sx={{

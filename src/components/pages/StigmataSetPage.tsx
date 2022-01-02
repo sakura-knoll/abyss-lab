@@ -1,5 +1,5 @@
 /** @jsxImportSource theme-ui */
-import { Box, Heading, Text, Paragraph, Card, Flex } from '@theme-ui/components'
+import { Box, Heading, Paragraph, Card, Flex } from '@theme-ui/components'
 import React from 'react'
 import PageLink from '../../components/atoms/PageLink'
 import StigmataCard from '../../components/molecules/StigmataCard'
@@ -7,6 +7,7 @@ import Breadcrumb from '../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../components/organisms/Honkai3rdNavigator'
 import { StigmataData, StigmataSet } from '../../lib/honkai3rd/stigmata'
 import { capitalize } from '../../lib/string'
+import SecondaryLabel from '../atoms/SecondaryLabel'
 
 export interface StigmataSetProps {
   type: 'set'
@@ -63,22 +64,18 @@ const StigmataSetPage = ({
           {stigmataSetList.map((stigmataSetItem) => {
             return (
               <React.Fragment key={stigmataSetItem.id}>
-                <Heading as='h2' m={0} p={2} sx={{ borderBottom: 'default' }}>
-                  <PageLink href={`/honkai3rd/stigmata/${stigmataSetItem.id}`}>
-                    {stigmataSetItem.name}
-                  </PageLink>
-
-                  <br />
-                  <Text
-                    as='small'
-                    sx={{
-                      fontSize: 2,
-                      color: 'secondary',
-                    }}
-                  >
+                <Box sx={{ p: 2, borderBottom: 'default' }}>
+                  <Heading as='h2' mb={1}>
+                    <PageLink
+                      href={`/honkai3rd/stigmata/${stigmataSetItem.id}`}
+                    >
+                      {stigmataSetItem.name}
+                    </PageLink>
+                  </Heading>
+                  <SecondaryLabel>
                     {capitalize(stigmataSetItem.type)}
-                  </Text>
-                </Heading>
+                  </SecondaryLabel>
+                </Box>
                 <Box p={2} sx={{ borderBottom: 'default' }}>
                   HP : {stigmataSetItem.hp} / ATK : {stigmataSetItem.atk} / DEF
                   : {stigmataSetItem.def} / CRT : {stigmataSetItem.crt}

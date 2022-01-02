@@ -1,9 +1,10 @@
 /** @jsxImportSource theme-ui */
-import { Box, Card, Flex, Heading, Paragraph, Text } from '@theme-ui/components'
+import { Box, Card, Flex, Heading, Paragraph } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import Image from 'next/image'
 import React from 'react'
 import BattlesuitFeatureLabel from '../../../components/atoms/BattlesuitFeatureLabel'
+import SecondaryLabel from '../../../components/atoms/SecondaryLabel'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { ElfData } from '../../../lib/honkai3rd/elfs'
@@ -78,17 +79,7 @@ const ElfShowPage = ({ elf }: ElfShowPageProps) => {
                       >
                         {item.name}
                       </Heading>
-                      <Text
-                        as='small'
-                        sx={{
-                          fontSize: 2,
-                          color: 'secondary',
-                          fontWeight: 'heading',
-                          fontFamily: 'monospace',
-                        }}
-                      >
-                        {capitalize(item.type)}
-                      </Text>
+                      <SecondaryLabel>{capitalize(item.type)}</SecondaryLabel>
                     </Box>
                     <Paragraph
                       sx={{

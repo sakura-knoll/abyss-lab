@@ -6,6 +6,7 @@ import React from 'react'
 import BattlesuitFeatureLabel from '../../../components/atoms/BattlesuitFeatureLabel'
 import BattlesuitRankIcon from '../../../components/atoms/BattlesuitRankIcon'
 import PageLink from '../../../components/atoms/PageLink'
+import SecondaryLabel from '../../../components/atoms/SecondaryLabel'
 import TypeLabel from '../../../components/atoms/TypeLabel'
 import ValkyrieLabel from '../../../components/atoms/ValkyrieLabel'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
@@ -179,18 +180,17 @@ const BattlesuitSkillGroupCard = ({
 }: BattlesuitSkillGroupCardProps) => {
   return (
     <Card mb={3}>
-      <Heading
-        as='h2'
-        p={2}
-        m={0}
-        sx={{ borderBottom: 'default', fontSize: 4 }}
+      <Box
+        sx={{
+          p: 2,
+          borderBottom: 'default',
+        }}
       >
-        {skillGroup.core.name}
-        <br />
-        <Text as='small' sx={{ fontSize: 2, color: 'secondary' }}>
-          {heading}
-        </Text>
-      </Heading>
+        <Heading as='h2' mb={1}>
+          {skillGroup.core.name}
+        </Heading>
+        <SecondaryLabel>{heading}</SecondaryLabel>
+      </Box>
 
       <Paragraph p={2} sx={{ whiteSpace: 'pre-wrap', borderBottom: 'default' }}>
         {skillGroup.core.description}
