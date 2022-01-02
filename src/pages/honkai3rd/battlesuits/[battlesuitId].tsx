@@ -41,32 +41,31 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
 
         <Heading as='h1'>{battlesuit.name}</Heading>
 
+        <Box mb={3}>
+          <Box
+            sx={{
+              position: 'relative',
+              overflow: 'hidden',
+              width: '100%',
+              maxWidth: '600px',
+            }}
+          >
+            <Image
+              alt={battlesuit.name}
+              src={`/assets/honkai3rd/battlesuits/${battlesuit.id}.png`}
+              width={600}
+              height={600}
+              layout='responsive'
+            />
+          </Box>
+        </Box>
+
         <Card
           sx={{
             overflow: 'hidden',
           }}
           mb={3}
         >
-          <Box sx={{ borderBottom: 'default' }}>
-            <Box
-              sx={{
-                margin: '0 auto',
-                position: 'relative',
-                overflow: 'hidden',
-                width: '100%',
-                maxWidth: '600px',
-              }}
-            >
-              <Image
-                alt={battlesuit.name}
-                src={`/assets/honkai3rd/battlesuits/${battlesuit.id}.png`}
-                width={600}
-                height={600}
-                layout='responsive'
-              />
-            </Box>
-          </Box>
-
           <Box p={2} sx={{ borderBottom: 'default' }}>
             <PageLink
               href={{

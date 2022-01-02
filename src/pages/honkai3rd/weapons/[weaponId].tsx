@@ -5,6 +5,7 @@ import SquareImageBox from '../../../components/atoms/SquareImageBox'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
+import { capitalize } from '../../../lib/string'
 import {
   getWeaponById,
   listWeapons,
@@ -41,12 +42,17 @@ const WeaponShowPage = ({ weapon }: WeaponShowPageProps) => {
           />
         </Box>
 
-        <Box mb={3}>
-          <Box>{'⭐'.repeat(weapon.rarity)}</Box>
-          <Box>
+        <Card mb={3}>
+          <Box p={2} sx={{ borderBottom: 'default' }}>
+            {capitalize(weapon.category)}
+          </Box>
+          <Box p={2} sx={{ borderBottom: 'default' }}>
+            {'⭐'.repeat(weapon.rarity)}
+          </Box>
+          <Box p={2}>
             ATK : {weapon.atk} / CRT : {weapon.crt}
           </Box>
-        </Box>
+        </Card>
 
         <Box>
           {weapon.skills.map((skill) => {
