@@ -52,12 +52,29 @@ const stigmataSetStigmataDataListMap = stigmataList.reduce((map, stigmata) => {
 }, new Map<string, StigmataData[]>())
 
 const stigmataSetFileNameList = readdirSync('honkai3rd/stigmata-sets')
-const stigmataSetList = stigmataSetFileNameList.map((fileName) => {
-  const filePathname = 'honkai3rd/stigmata-sets/' + fileName
-  const data = readJsonFileSync(filePathname) as StigmataSet
+const stigmataSetList = stigmataSetFileNameList
+  .map((fileName) => {
+    const filePathname = 'honkai3rd/stigmata-sets/' + fileName
+    const data = readJsonFileSync(filePathname) as StigmataSet
 
-  return data
-})
+    return data
+  })
+  .filter((stigmataSet) => !stigmataSet.hidden)
+  .sort((a, b) => {
+    let compareResult = b.rarity - a.rarity
+    if (compareResult !== 0) {
+      return compareResult
+    }
+    compareResult = compareVersion(b.version || '0.0', a.version || '0.0')
+    if (compareResult !== 0) {
+      return compareResult
+    }
+    compareResult = a.name
+      .replace(/ \(.\)/, '')
+      .localeCompare(b.name.replace(/ \(.\)/, ''))
+
+    return compareResult
+  })
 
 const stigmataSetMap = stigmataSetList.reduce((map, stigmataSet) => {
   map.set(stigmataSet.id, stigmataSet)
