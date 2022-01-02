@@ -72,6 +72,10 @@ export function getStigmataById(id: string) {
   return stigmataMap.get(id)
 }
 
+export function listStigmataSet() {
+  return stigmataSetList
+}
+
 export function getStigmataListBySetId(setId: string) {
   return stigmataSetStigmataDataListMap.get(setId) || []
 }
