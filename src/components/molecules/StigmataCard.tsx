@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import { Box, Card, Text } from '@theme-ui/components'
 import { StigmataData } from '../../lib/honkai3rd/stigmata'
 import PageLink from '../atoms/PageLink'

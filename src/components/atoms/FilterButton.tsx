@@ -1,4 +1,4 @@
-import React from 'react'
+/** @jsxImportSource theme-ui */
 import PageLink from './PageLink'
 import SquareImageBox from './SquareImageBox'
 

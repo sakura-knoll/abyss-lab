@@ -1,6 +1,6 @@
+/** @jsxImportSource theme-ui */
 import { Box, Card, Heading, Paragraph } from '@theme-ui/components'
 import { NextPageContext } from 'next'
-import React from 'react'
 import SquareImageBox from '../../../components/atoms/SquareImageBox'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'

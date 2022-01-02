@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import SquareImageBox from './SquareImageBox'
 
 interface BattlesuitRankIconProps {

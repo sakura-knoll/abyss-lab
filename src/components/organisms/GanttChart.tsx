@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import { Box, Flex, Text } from '@theme-ui/components'
 import {
   addDays,

@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import { Flex, Text } from '@theme-ui/components'
 import { capitalize } from '../../lib/string'
 import SquareImageBox from './SquareImageBox'

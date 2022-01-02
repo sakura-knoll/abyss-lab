@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import { Box, Card, Text } from '@theme-ui/components'
 import { BattlesuitData } from '../../lib/honkai3rd/battlesuits'
 import PageLink from '../atoms/PageLink'

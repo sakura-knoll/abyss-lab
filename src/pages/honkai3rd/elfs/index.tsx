@@ -1,8 +1,8 @@
+/** @jsxImportSource theme-ui */
 import { Box, Heading, Flex, Text, Link } from '@theme-ui/components'
 import Image from 'next/image'
 import NextLink from 'next/link'
 import { pick } from 'ramda'
-import React from 'react'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { ElfData } from '../../../lib/honkai3rd/elfs'

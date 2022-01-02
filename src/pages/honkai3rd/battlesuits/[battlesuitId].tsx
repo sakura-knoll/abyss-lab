@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import { Box, Card, Flex, Heading, Paragraph, Text } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import Image from 'next/image'

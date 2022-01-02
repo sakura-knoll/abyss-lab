@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import { Flex, Text } from '@theme-ui/components'
 import { valkyries } from '../../lib/honkai3rd/battlesuits'
 import SquareImageBox from './SquareImageBox'

@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import { Box, Heading, Flex } from '@theme-ui/components'
 import { pick } from 'ramda'
 import { useMemo } from 'react'
