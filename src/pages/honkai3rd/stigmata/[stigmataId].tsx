@@ -1,11 +1,12 @@
-import { Box, Heading, Text, Paragraph } from '@theme-ui/components'
+import { Box, Heading, Text, Paragraph, Card, Flex } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
+import StigmataCard from '../../../components/molecules/StigmataCard'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { StigmataData, StigmataSet } from '../../../lib/honkai3rd/stigmata'
+import { capitalize } from '../../../lib/string'
 import {
   listStigmata,
   getStigmataById,
@@ -60,53 +61,66 @@ const StigmataListPage = ({
           />
         </Box>
 
-        <Box mb={3}>
-          <Heading as='h2'>Skill - {stigmataData.skill.name}</Heading>
-          <Paragraph>{stigmataData.skill.description}</Paragraph>
-        </Box>
+        <Card mb={3}>
+          <Box p={2} sx={{ borderBottom: 'default' }}>
+            {capitalize(stigmataData.type)}
+          </Box>
+          <Box p={2} sx={{ borderBottom: 'default' }}>
+            {'⭐'.repeat(stigmataData.rarity)}
+          </Box>
+          <Box p={2}>
+            HP : {stigmataData.hp} / ATK : {stigmataData.atk} / DEF :{' '}
+            {stigmataData.def} / CRT : {stigmataData.crt}
+          </Box>
+        </Card>
+
+        <Card mb={3}>
+          <Heading as='h2' m={0} p={2} sx={{ borderBottom: 'default' }}>
+            Skill - {stigmataData.skill.name}
+          </Heading>
+          <Paragraph p={2}>{stigmataData.skill.description}</Paragraph>
+        </Card>
 
         {stigmataSet != null && (
-          <Box>
-            <Heading as='h2'>Set</Heading>
-            <Box mb={3}>
+          <Card>
+            <Heading as='h2' m={0} p={2} sx={{ borderBottom: 'default' }}>
+              {stigmataSet.name}
+              <br />
+              <Text as='small' sx={{ fontSize: 2, color: 'secondary' }}>
+                Set
+              </Text>
+            </Heading>
+            <Flex
+              p={2}
+              sx={{
+                borderBottom: 'default',
+                justifyContent: 'space-around',
+                flexWrap: 'wrap',
+              }}
+            >
               {stigmataSetList.map((stigmataSetItem) => {
                 return (
-                  <Link
+                  <StigmataCard
                     key={stigmataSetItem.id}
-                    href={`/honkai3rd/stigmata/${stigmataSetItem.id}`}
-                  >
-                    <a>
-                      <Box
-                        sx={{
-                          position: 'relative',
-                          overflow: 'hidden',
-                          width: '100px',
-                          height: '100px',
-                          borderRadius: 4,
-                        }}
-                      >
-                        <Image
-                          alt={stigmataSetItem.name}
-                          layout='fill'
-                          objectFit='cover'
-                          src={`/assets/honkai3rd/stigmata/icon-${stigmataSetItem.id}.png`}
-                        />
-                      </Box>
-                      <Text>{stigmataSetItem.name}</Text>
-                    </a>
-                  </Link>
+                    stigmata={stigmataSetItem}
+                  />
                 )
               })}
-            </Box>
-            <Box mb={3}>
-              <Heading as='h3'>{stigmataSet.twoSetSkill.name}</Heading>
-              <Paragraph>{stigmataSet.twoSetSkill.description}</Paragraph>
-            </Box>
-            <Box>
-              <Heading as='h3'>{stigmataSet.threeSetSkill.name}</Heading>
-              <Paragraph>{stigmataSet.threeSetSkill.description}</Paragraph>
-            </Box>
-          </Box>
+            </Flex>
+
+            <Heading as='h3' m={0} p={2} sx={{ borderBottom: 'default' }}>
+              {stigmataSet.twoSetSkill.name}
+            </Heading>
+            <Paragraph m={0} p={2} sx={{ borderBottom: 'default' }}>
+              {stigmataSet.twoSetSkill.description}
+            </Paragraph>
+            <Heading as='h3' m={0} p={2} sx={{ borderBottom: 'default' }}>
+              {stigmataSet.threeSetSkill.name}
+            </Heading>
+            <Paragraph m={0} p={2}>
+              {stigmataSet.threeSetSkill.description}
+            </Paragraph>
+          </Card>
         )}
       </Box>
     </Box>
