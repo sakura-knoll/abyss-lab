@@ -39,8 +39,8 @@ const ElfShowPage = ({ elf }: ElfShowPageProps) => {
             sx={{
               position: 'relative',
               overflow: 'hidden',
-              width: '600px',
-              height: '600px',
+              width: '400px',
+              height: '400px',
               borderRadius: 4,
             }}
           >
