@@ -24,6 +24,7 @@ export interface StigmataSet {
   altName: string
   twoSetSkill: StigmataSkill
   threeSetSkill: StigmataSkill
-  version?: string
   rarity: 3 | 4 | 5
+  version?: string
+  hidden?: boolean
 }
