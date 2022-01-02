@@ -36,12 +36,17 @@ const StigmataSetPage = ({
             },
             {
               href: `/honkai3rd/stigmata/${stigmataSet.id}-set`,
-              label: `${stigmataSet.name} Set`,
+              label: `${stigmataSet.name}`,
             },
           ]}
         />
 
-        <Heading as='h1'>{stigmataSet.name} Set</Heading>
+        <Box mb={3}>
+          <Heading as='h1' mb={0}>
+            {stigmataSet.name}
+          </Heading>
+          <SecondaryLabel>{stigmataSet.altName}</SecondaryLabel>
+        </Box>
 
         <Card mb={3}>
           <Flex
