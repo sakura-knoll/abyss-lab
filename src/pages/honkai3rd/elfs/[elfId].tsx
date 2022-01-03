@@ -8,7 +8,7 @@ import SecondaryLabel from '../../../components/atoms/SecondaryLabel'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { ElfData } from '../../../lib/honkai3rd/elfs'
-import { getI18NProps } from '../../../lib/i18n'
+import { generateI18NPaths, getI18NProps } from '../../../lib/i18n'
 import { capitalize } from '../../../lib/string'
 import { getElfById, listElfs } from '../../../server/data/honkai3rd/elfs'
 
@@ -116,11 +116,13 @@ export async function getStaticProps({
 
 export async function getStaticPaths() {
   return {
-    paths: listElfs().map((elf) => {
-      return {
-        params: { elfId: elf.id },
-      }
-    }),
+    paths: generateI18NPaths(
+      listElfs().map((elf) => {
+        return {
+          params: { elfId: elf.id },
+        }
+      })
+    ),
     fallback: false,
   }
 }

@@ -5,7 +5,7 @@ import SquareImageBox from '../../../components/atoms/SquareImageBox'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
-import { getI18NProps } from '../../../lib/i18n'
+import { generateI18NPaths, getI18NProps } from '../../../lib/i18n'
 import { capitalize } from '../../../lib/string'
 import {
   getWeaponById,
@@ -94,11 +94,13 @@ export async function getStaticProps({
 
 export async function getStaticPaths() {
   return {
-    paths: listWeapons().map((weapon) => {
-      return {
-        params: { weaponId: weapon.id },
-      }
-    }),
+    paths: generateI18NPaths(
+      listWeapons().map((weapon) => {
+        return {
+          params: { weaponId: weapon.id },
+        }
+      })
+    ),
     fallback: false,
   }
 }

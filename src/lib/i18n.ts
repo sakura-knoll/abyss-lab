@@ -6,3 +6,12 @@ export function getI18NProps(
 ) {
   return serverSideTranslations(locale, ['common', ...nameSpaces])
 }
+
+export function generateI18NPaths(paths: { params: any; locale?: string }[]) {
+  return paths.reduce<{ params: any; locale?: string }[]>((newPaths, path) => {
+    newPaths.push(path)
+    newPaths.push({ ...path, locale: 'ko-KR' })
+
+    return newPaths
+  }, [])
+}

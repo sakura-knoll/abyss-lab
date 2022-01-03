@@ -20,7 +20,7 @@ import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
 import { SupplyEventData } from '../../../lib/honkai3rd/supplyEvents'
 import { VersionData } from '../../../lib/honkai3rd/versions'
-import { getI18NProps } from '../../../lib/i18n'
+import { generateI18NPaths, getI18NProps } from '../../../lib/i18n'
 
 interface VersionShowPageProps {
   versionData: VersionData
@@ -213,13 +213,15 @@ export async function getStaticProps({
 
 export async function getStaticPaths() {
   return {
-    paths: listVersionData().map((versionData) => {
-      return {
-        params: {
-          versionId: versionData.version.toString(),
-        },
-      }
-    }),
+    paths: generateI18NPaths(
+      listVersionData().map((versionData) => {
+        return {
+          params: {
+            versionId: versionData.version.toString(),
+          },
+        }
+      })
+    ),
     fallback: false,
   }
 }

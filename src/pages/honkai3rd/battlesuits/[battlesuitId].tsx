@@ -15,17 +15,19 @@ import {
   BattlesuitData,
   BattlesuitSkillGroup,
 } from '../../../lib/honkai3rd/battlesuits'
-import { getI18NProps } from '../../../lib/i18n'
+import { generateI18NPaths, getI18NProps } from '../../../lib/i18n'
 import {
   getBattlesuitById,
   listBattlesuits,
 } from '../../../server/data/honkai3rd/battlesuits'
+import { useTranslation } from 'next-i18next'
 
 interface BattlesuitShowPageProps {
   battlesuit: BattlesuitData
 }
 
 const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
+  const { t } = useTranslation()
   return (
     <Box>
       <Honkai3rdNavigator />
@@ -33,8 +35,11 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
       <Box p={3}>
         <Breadcrumb
           items={[
-            { href: '/honkai3rd', label: 'Honkai 3rd' },
-            { href: '/honkai3rd/battlesuits', label: 'Battlesuits' },
+            { href: '/honkai3rd', label: t('breadcrumb.honkai-3rd') },
+            {
+              href: '/honkai3rd/battlesuits',
+              label: t('breadcrumb.battlesuits'),
+            },
             {
               href: `/honkai3rd/battlesuits/${battlesuit.id}`,
               label: battlesuit.name,
@@ -155,6 +160,7 @@ export async function getStaticProps({
   locale,
 }: NextPageContext & { params: { battlesuitId: string } }) {
   const battlesuit = getBattlesuitById(params.battlesuitId)
+
   return {
     props: { battlesuit, ...(await getI18NProps(locale)) },
   }
@@ -162,11 +168,13 @@ export async function getStaticProps({
 
 export async function getStaticPaths() {
   return {
-    paths: listBattlesuits().map((battlesuit) => {
-      return {
-        params: { battlesuitId: battlesuit.id },
-      }
-    }),
+    paths: generateI18NPaths(
+      listBattlesuits().map((battlesuit) => {
+        return {
+          params: { battlesuitId: battlesuit.id },
+        }
+      })
+    ),
     fallback: false,
   }
 }

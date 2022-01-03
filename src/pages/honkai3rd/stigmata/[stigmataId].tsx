@@ -6,7 +6,7 @@ import SingleStigmataPage, {
 import StigmataSetPage, {
   StigmataSetProps,
 } from '../../../components/pages/StigmataSetPage'
-import { getI18NProps } from '../../../lib/i18n'
+import { generateI18NPaths, getI18NProps } from '../../../lib/i18n'
 import {
   listStigmata,
   getStigmataById,
@@ -60,7 +60,7 @@ export async function getStaticProps({
 
 export async function getStaticPaths() {
   return {
-    paths: [
+    paths: generateI18NPaths([
       ...listStigmata().map((stigmata) => {
         return {
           params: { stigmataId: stigmata.id },
@@ -71,7 +71,7 @@ export async function getStaticPaths() {
           params: { stigmataId: `${stigmataSet.id}-set` },
         }
       }),
-    ],
+    ]),
     fallback: false,
   }
 }
