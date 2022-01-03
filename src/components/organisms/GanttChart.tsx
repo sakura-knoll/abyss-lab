@@ -91,6 +91,7 @@ const GanttChart = ({
         {times((index) => {
           return (
             <Box
+              key={`day-border-${index}`}
               sx={{
                 position: 'absolute',
                 height: totalRow * 50 + 40,
@@ -107,6 +108,7 @@ const GanttChart = ({
           const weekNumber = index + 1
           return (
             <Text
+              key={`week-start-date-${index}`}
               sx={{
                 position: 'absolute',
                 color: 'gray.5',
