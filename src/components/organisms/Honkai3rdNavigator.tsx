@@ -22,40 +22,52 @@ const Honkai3rdNavigator = () => {
           </NextLink>
         </Heading>
       </Flex>
-      <NextLink href='/honkai3rd/versions' passHref>
-        <NavLink mr={3} sx={{ fontFamily: 'monospace' }}>
-          {t('nav.versions')}
-        </NavLink>
-      </NextLink>
-      <Flex sx={{ height: 40, alignItems: 'center' }}>
-        <NextLink href='/honkai3rd/battlesuits' passHref>
-          <NavLink mr={3} sx={{ fontFamily: 'monospace' }}>
-            {t('nav.battlesuits')}
-          </NavLink>
-        </NextLink>
-        <NextLink href='/honkai3rd/weapons' passHref>
-          <NavLink mr={3} sx={{ fontFamily: 'monospace' }}>
-            {t('nav.weapons')}
-          </NavLink>
-        </NextLink>
-        <NextLink href='/honkai3rd/stigmata' passHref>
-          <NavLink mr={3} sx={{ fontFamily: 'monospace' }}>
-            {t('nav.stigmata')}
-          </NavLink>
-        </NextLink>
-        <NextLink href='/honkai3rd/elfs' passHref>
-          <NavLink mr={3} sx={{ fontFamily: 'monospace' }}>
-            {t('nav.elfs')}
-          </NavLink>
-        </NextLink>
-        <NextLink
-          href={{ pathname, query }}
-          locale={locale === 'en-US' ? 'ko-KR' : 'en-US'}
-          as={asPath}
-          passHref
-        >
-          <NavLink>{locale === 'en-US' ? '🇺🇸' : '🇰🇷'}</NavLink>
-        </NextLink>
+      <Flex sx={{ justifyContent: 'space-between', flex: 1 }}>
+        <Flex sx={{ height: 40, alignItems: 'center' }}>
+          <NextLink href='/honkai3rd/versions' passHref>
+            <NavLink mr={3} sx={{ fontFamily: 'monospace' }}>
+              {t('nav.versions')}
+            </NavLink>
+          </NextLink>
+          <NextLink href='/honkai3rd/battlesuits' passHref>
+            <NavLink mr={3} sx={{ fontFamily: 'monospace' }}>
+              {t('nav.battlesuits')}
+            </NavLink>
+          </NextLink>
+          <NextLink href='/honkai3rd/weapons' passHref>
+            <NavLink mr={3} sx={{ fontFamily: 'monospace' }}>
+              {t('nav.weapons')}
+            </NavLink>
+          </NextLink>
+          <NextLink href='/honkai3rd/stigmata' passHref>
+            <NavLink mr={3} sx={{ fontFamily: 'monospace' }}>
+              {t('nav.stigmata')}
+            </NavLink>
+          </NextLink>
+          <NextLink href='/honkai3rd/elfs' passHref>
+            <NavLink mr={3} sx={{ fontFamily: 'monospace' }}>
+              {t('nav.elfs')}
+            </NavLink>
+          </NextLink>
+        </Flex>
+        <Flex sx={{ height: 40, alignItems: 'center' }}>
+          <NextLink
+            href={{ pathname, query }}
+            locale={locale === 'en-US' ? 'ko-KR' : 'en-US'}
+            as={asPath}
+            passHref
+          >
+            <NavLink>
+              {locale === 'en-US' ? (
+                '🇺🇸'
+              ) : (
+                <>
+                  🇰🇷 <small>(한글화 작업 중)</small>
+                </>
+              )}
+            </NavLink>
+          </NextLink>
+        </Flex>
       </Flex>
     </Flex>
   )
