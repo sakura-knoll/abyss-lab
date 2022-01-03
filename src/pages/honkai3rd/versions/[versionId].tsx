@@ -20,6 +20,7 @@ import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
 import { SupplyEventData } from '../../../lib/honkai3rd/supplyEvents'
 import { VersionData } from '../../../lib/honkai3rd/versions'
+import { getI18NProps } from '../../../lib/i18n'
 
 interface VersionShowPageProps {
   versionData: VersionData
@@ -186,6 +187,7 @@ export default VersionShowPage
 
 export async function getStaticProps({
   params,
+  locale,
 }: NextPageContext & { params: { versionId: string } }) {
   const versionData = getVersion(params.versionId)!
 
@@ -204,6 +206,7 @@ export async function getStaticProps({
       battlesuits,
       weapons,
       supplyEvents,
+      ...(await getI18NProps(locale)),
     },
   }
 }

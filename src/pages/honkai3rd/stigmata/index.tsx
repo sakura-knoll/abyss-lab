@@ -1,5 +1,6 @@
 /** @jsxImportSource theme-ui */
 import { Box, Heading, Flex } from '@theme-ui/components'
+import { NextPageContext } from 'next'
 import { useRouter } from 'next/router'
 import { pick } from 'ramda'
 import { useMemo } from 'react'
@@ -9,6 +10,7 @@ import StigmataSetCard from '../../../components/molecules/StigmataSetCard'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { StigmataData, StigmataSet } from '../../../lib/honkai3rd/stigmata'
+import { getI18NProps } from '../../../lib/i18n'
 import {
   listStigmata,
   listStigmataSet,
@@ -89,7 +91,7 @@ const StigmataListPage = ({
 
 export default StigmataListPage
 
-export async function getStaticProps() {
+export async function getStaticProps({ locale }: NextPageContext) {
   return {
     props: {
       stigmataDataList: listStigmata().map((stigmata) =>
@@ -98,6 +100,7 @@ export async function getStaticProps() {
       stigmataSetList: listStigmataSet().map((stigmataSet) =>
         pick(['id', 'name', 'rarity'], stigmataSet)
       ),
+      ...(await getI18NProps(locale)),
     },
   }
 }

@@ -8,6 +8,7 @@ import SecondaryLabel from '../../../components/atoms/SecondaryLabel'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { ElfData } from '../../../lib/honkai3rd/elfs'
+import { getI18NProps } from '../../../lib/i18n'
 import { capitalize } from '../../../lib/string'
 import { getElfById, listElfs } from '../../../server/data/honkai3rd/elfs'
 
@@ -103,12 +104,13 @@ const ElfShowPage = ({ elf }: ElfShowPageProps) => {
 
 export default ElfShowPage
 
-export function getStaticProps(
-  context: NextPageContext & { params: { elfId: string } }
-) {
-  const elf = getElfById(context.params.elfId)
+export async function getStaticProps({
+  params,
+  locale,
+}: NextPageContext & { params: { elfId: string } }) {
+  const elf = getElfById(params.elfId)
   return {
-    props: { elf },
+    props: { elf, ...(await getI18NProps(locale)) },
   }
 }
 

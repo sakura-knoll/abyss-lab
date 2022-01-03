@@ -15,6 +15,7 @@ import {
   BattlesuitData,
   BattlesuitSkillGroup,
 } from '../../../lib/honkai3rd/battlesuits'
+import { getI18NProps } from '../../../lib/i18n'
 import {
   getBattlesuitById,
   listBattlesuits,
@@ -149,12 +150,13 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
 
 export default BattlesuitShowPage
 
-export function getStaticProps(
-  context: NextPageContext & { params: { battlesuitId: string } }
-) {
-  const battlesuit = getBattlesuitById(context.params.battlesuitId)
+export async function getStaticProps({
+  params,
+  locale,
+}: NextPageContext & { params: { battlesuitId: string } }) {
+  const battlesuit = getBattlesuitById(params.battlesuitId)
   return {
-    props: { battlesuit },
+    props: { battlesuit, ...(await getI18NProps(locale)) },
   }
 }
 

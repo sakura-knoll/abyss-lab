@@ -4,29 +4,12 @@ import Image from 'next/image'
 import NextLink from 'next/link'
 import Breadcrumb from '../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../components/organisms/Honkai3rdNavigator'
+import { NextPageContext } from 'next'
+import { getI18NProps } from '../../lib/i18n'
 
 const updateNotes = [
-  ['v5.3', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/17399'],
-  ['v5.2', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/16632'],
-  ['v5.1', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/15882'],
-  ['v5.0', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/14917'],
-  ['v4.9', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/13943'],
-  ['v4.8', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/13044'],
-  ['v4.7', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/11980'],
-  ['v4.6', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/9101'],
-  ['v4.5', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/7996'],
-  ['v4.4', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/7312'],
-  ['v4.3', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/6105'],
-  ['v4.2', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/5489'],
-  ['v4.1', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/4965'],
-  ['v4.0', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/4421'],
-  ['v3.9', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/3296'],
-  ['v3.8', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/2855'],
-  ['v3.7', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/2337'],
-  ['v3.6', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/1936'],
-  ['v3.5', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/1505'],
-  ['v3.4', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/1092'],
-  ['v3.3', 'https://honkaiimpact3.mihoyo.com/asia/en-us/news/851'],
+  ['v5.3', 'https://honkaiimpact3.mihoyo.com/global/en-us/news/17390'],
+  ['v5.2', 'https://honkaiimpact3.mihoyo.com/global/en-us/news/16625'],
 ]
 
 const Honkai3rdIndexPage = () => {
@@ -80,6 +63,14 @@ const Honkai3rdIndexPage = () => {
       </Box>
     </Box>
   )
+}
+
+export async function getStaticProps({ locale }: NextPageContext) {
+  return {
+    props: {
+      ...(await getI18NProps(locale)),
+    },
+  }
 }
 
 export default Honkai3rdIndexPage

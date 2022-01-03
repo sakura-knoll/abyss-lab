@@ -9,6 +9,8 @@ import FilterButton from '../../../components/atoms/FilterButton'
 import { useRouter } from 'next/router'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
 import WeaponCard from '../../../components/molecules/WeaponCard'
+import { getI18NProps } from '../../../lib/i18n'
+import { NextPageContext } from 'next'
 
 type WeaponListItemData = Pick<
   WeaponData,
@@ -94,12 +96,13 @@ const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
 
 export default WeaponListPage
 
-export async function getStaticProps() {
+export async function getStaticProps({ locale }: NextPageContext) {
   return {
     props: {
       weaponDataList: listWeapons().map((weapon) => {
         return pick(['name', 'id', 'rarity', 'category'], weapon)
       }),
+      ...(await getI18NProps(locale)),
     },
   }
 }

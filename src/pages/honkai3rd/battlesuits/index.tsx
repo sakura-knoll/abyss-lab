@@ -14,6 +14,8 @@ import {
 } from '../../../lib/honkai3rd/battlesuits'
 import BattlesuitCard from '../../../components/molecules/BattlesuitCard'
 import { useRouter } from 'next/router'
+import { NextPageContext } from 'next'
+import { getI18NProps } from '../../../lib/i18n'
 
 type BattlesuitListItemData = Pick<
   BattlesuitData,
@@ -117,12 +119,13 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
 
 export default BattlesuitListPage
 
-export async function getStaticProps() {
+export async function getStaticProps({ locale }: NextPageContext) {
   return {
     props: {
       battlesuits: listBattlesuits().map((battlesuit) =>
         pick(['id', 'name', 'features', 'type', 'valkyrie'], battlesuit)
       ),
+      ...(await getI18NProps(locale)),
     },
   }
 }

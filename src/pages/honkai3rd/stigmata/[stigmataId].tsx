@@ -6,6 +6,7 @@ import SingleStigmataPage, {
 import StigmataSetPage, {
   StigmataSetProps,
 } from '../../../components/pages/StigmataSetPage'
+import { getI18NProps } from '../../../lib/i18n'
 import {
   listStigmata,
   getStigmataById,
@@ -26,10 +27,11 @@ const StigmataListPage = (props: StigmataShowPageProps) => {
 
 export default StigmataListPage
 
-export async function getStaticProps(
-  ctx: NextPageContext & { params: { stigmataId: string } }
-) {
-  const stigmataData = getStigmataById(ctx.params.stigmataId)!
+export async function getStaticProps({
+  params,
+  locale,
+}: NextPageContext & { params: { stigmataId: string } }) {
+  const stigmataData = getStigmataById(params.stigmataId)!
   if (stigmataData != null) {
     return {
       props: {
@@ -42,7 +44,7 @@ export async function getStaticProps(
       },
     }
   }
-  const [stigmataSetId] = ctx.params.stigmataId.split('-set')
+  const [stigmataSetId] = params.stigmataId.split('-set')
   const stigmataSet = getStigmataSetBySetId(stigmataSetId)!
   return {
     props: {
@@ -51,6 +53,7 @@ export async function getStaticProps(
       stigmataSetList: (getStigmataListBySetId(stigmataSet.id) || []).sort(
         (a, b) => -a.type.localeCompare(b.type)
       ),
+      ...(await getI18NProps(locale)),
     },
   }
 }

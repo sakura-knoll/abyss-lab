@@ -1,10 +1,12 @@
 /** @jsxImportSource theme-ui */
 import { Box, Heading, Flex } from '@theme-ui/components'
+import { NextPageContext } from 'next'
 import { pick } from 'ramda'
 import ElfCard from '../../../components/molecules/ElfCard'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { ElfData } from '../../../lib/honkai3rd/elfs'
+import { getI18NProps } from '../../../lib/i18n'
 import { listElfs } from '../../../server/data/honkai3rd/elfs'
 
 interface ElfListPageProps {
@@ -43,10 +45,11 @@ const ElfListPage = ({ elfs }: ElfListPageProps) => {
 
 export default ElfListPage
 
-export async function getStaticProps() {
+export async function getStaticProps({ locale }: NextPageContext) {
   return {
     props: {
       elfs: listElfs().map((elf) => pick(['id', 'name'], elf)),
+      ...(await getI18NProps(locale)),
     },
   }
 }
