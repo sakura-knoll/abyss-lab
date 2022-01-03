@@ -1,15 +1,25 @@
 /** @jsxImportSource theme-ui */
 import { Box, Card, Text } from '@theme-ui/components'
+import { useRouter } from 'next/router'
 import { BattlesuitData } from '../../lib/honkai3rd/battlesuits'
+import { translate } from '../../lib/i18n'
 import PageLink from '../atoms/PageLink'
 import SquareImageBox from '../atoms/SquareImageBox'
 
 interface BattlesuitCardProps {
-  battlesuit: Pick<BattlesuitData, 'id' | 'name'>
+  battlesuit: Pick<BattlesuitData, 'id' | 'name' | 'krName'>
   hidden?: boolean
 }
 
 const BattlesuitCard = ({ battlesuit, hidden }: BattlesuitCardProps) => {
+  const { locale } = useRouter()
+
+  const battlesuitName = translate(
+    locale,
+    { 'ko-KR': battlesuit.krName },
+    battlesuit.name
+  )
+
   return (
     <Card
       className={hidden ? 'hidden' : ''}
@@ -27,7 +37,7 @@ const BattlesuitCard = ({ battlesuit, hidden }: BattlesuitCardProps) => {
         key={battlesuit.id}
       >
         <SquareImageBox
-          alt={battlesuit.name}
+          alt={battlesuitName}
           src={`/assets/honkai3rd/battlesuits/portrait-${battlesuit.id}.png`}
           size={[120, 140]}
         />
@@ -40,7 +50,7 @@ const BattlesuitCard = ({ battlesuit, hidden }: BattlesuitCardProps) => {
             textAlign: 'center',
           }}
         >
-          <Text>{battlesuit.name}</Text>
+          <Text>{battlesuitName}</Text>
         </Box>
       </PageLink>
     </Card>
