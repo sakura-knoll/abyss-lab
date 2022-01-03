@@ -20,7 +20,7 @@ import { translate, useTranslation } from '../../../lib/i18n'
 
 type BattlesuitListItemData = Pick<
   BattlesuitData,
-  'id' | 'name' | 'features' | 'type' | 'valkyrie'
+  'id' | 'name' | 'krName' | 'features' | 'type' | 'valkyrie'
 >
 
 interface BattlesuitListPageProps {
@@ -140,7 +140,10 @@ export async function getStaticProps({ locale }: NextPageContext) {
   return {
     props: {
       battlesuits: listBattlesuits().map((battlesuit) =>
-        pick(['id', 'name', 'features', 'type', 'valkyrie'], battlesuit)
+        pick(
+          ['id', 'name', 'krName', 'features', 'type', 'valkyrie'],
+          battlesuit
+        )
       ),
       ...(await getI18NProps(locale)),
     },

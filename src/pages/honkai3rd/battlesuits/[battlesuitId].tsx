@@ -20,7 +20,8 @@ import {
   getBattlesuitById,
   listBattlesuits,
 } from '../../../server/data/honkai3rd/battlesuits'
-import { useTranslation } from '../../../lib/i18n'
+import { translate, useTranslation } from '../../../lib/i18n'
+import { useRouter } from 'next/router'
 
 interface BattlesuitShowPageProps {
   battlesuit: BattlesuitData
@@ -28,6 +29,14 @@ interface BattlesuitShowPageProps {
 
 const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
   const { t } = useTranslation()
+  const { locale } = useRouter()
+
+  const battlesuitName = translate(
+    locale,
+    { ['ko-KR']: battlesuit.krName },
+    battlesuit.name
+  )
+
   return (
     <Box>
       <Honkai3rdNavigator />
@@ -42,12 +51,12 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
             },
             {
               href: `/honkai3rd/battlesuits/${battlesuit.id}`,
-              label: battlesuit.name,
+              label: battlesuitName,
             },
           ]}
         />
 
-        <Heading as='h1'>{battlesuit.name}</Heading>
+        <Heading as='h1'>{battlesuitName}</Heading>
 
         <Box mb={3}>
           <Box
@@ -59,7 +68,7 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
             }}
           >
             <Image
-              alt={battlesuit.name}
+              alt={battlesuitName}
               src={`/assets/honkai3rd/battlesuits/${battlesuit.id}.png`}
               width={600}
               height={600}
@@ -113,38 +122,38 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
         </Card>
 
         <BattlesuitSkillGroupCard
-          heading='Leader'
+          heading={t('battlesuit-show.leader')}
           skillGroup={battlesuit.leader}
         />
 
         <BattlesuitSkillGroupCard
-          heading='Passive'
+          heading={t('battlesuit-show.passive')}
           skillGroup={battlesuit.passive}
         />
 
         <BattlesuitSkillGroupCard
-          heading='Evasion'
+          heading={t('battlesuit-show.evasion')}
           skillGroup={battlesuit.evasion}
         />
 
         <BattlesuitSkillGroupCard
-          heading='Special Attack'
+          heading={t('battlesuit-show.special-attack')}
           skillGroup={battlesuit.special}
         />
 
         <BattlesuitSkillGroupCard
-          heading='Ultimate'
+          heading={t('battlesuit-show.ultimate')}
           skillGroup={battlesuit.ultimate}
         />
 
         <BattlesuitSkillGroupCard
-          heading='Basic Attack'
+          heading={t('battlesuit-show.basic-attack')}
           skillGroup={battlesuit.basic}
         />
 
         {battlesuit.sp != null && (
           <BattlesuitSkillGroupCard
-            heading='SP Skill'
+            heading={t('battlesuit-show.sp-skill')}
             skillGroup={battlesuit.sp}
           />
         )}
