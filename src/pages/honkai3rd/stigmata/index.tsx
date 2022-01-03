@@ -10,7 +10,7 @@ import StigmataSetCard from '../../../components/molecules/StigmataSetCard'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { StigmataData, StigmataSet } from '../../../lib/honkai3rd/stigmata'
-import { getI18NProps } from '../../../lib/i18n'
+import { getI18NProps } from '../../../server/i18n'
 import {
   listStigmata,
   listStigmataSet,

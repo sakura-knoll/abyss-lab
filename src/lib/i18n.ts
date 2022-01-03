@@ -1,17 +1,11 @@
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 
-export function getI18NProps(
-  locale: string = 'en-US',
-  nameSpaces: string[] = []
-) {
-  return serverSideTranslations(locale, ['common', ...nameSpaces])
+export function translate(
+  targetLocale: string = 'en_US',
+  localeMap: { [key: string]: string | undefined },
+  fallback: string
+): string {
+  return localeMap[targetLocale] != null ? localeMap[targetLocale]! : fallback
 }
 
-export function generateI18NPaths(paths: { params: any; locale?: string }[]) {
-  return paths.reduce<{ params: any; locale?: string }[]>((newPaths, path) => {
-    newPaths.push(path)
-    newPaths.push({ ...path, locale: 'ko-KR' })
-
-    return newPaths
-  }, [])
-}
+export { useTranslation }

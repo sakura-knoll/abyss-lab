@@ -20,7 +20,7 @@ import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
 import { SupplyEventData } from '../../../lib/honkai3rd/supplyEvents'
 import { VersionData } from '../../../lib/honkai3rd/versions'
-import { generateI18NPaths, getI18NProps } from '../../../lib/i18n'
+import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
 
 interface VersionShowPageProps {
   versionData: VersionData

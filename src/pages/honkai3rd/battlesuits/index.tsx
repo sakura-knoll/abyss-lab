@@ -15,7 +15,8 @@ import {
 import BattlesuitCard from '../../../components/molecules/BattlesuitCard'
 import { useRouter } from 'next/router'
 import { NextPageContext } from 'next'
-import { getI18NProps } from '../../../lib/i18n'
+import { getI18NProps } from '../../../server/i18n'
+import { translate, useTranslation } from '../../../lib/i18n'
 
 type BattlesuitListItemData = Pick<
   BattlesuitData,
@@ -26,14 +27,27 @@ interface BattlesuitListPageProps {
   battlesuits: BattlesuitListItemData[]
 }
 
-const featureFilterOptions: { value: string; label: string; icon?: string }[] =
-  [{ value: 'all', label: 'All' }, ...battlesuitFeatures]
+const featureFilterOptions: {
+  value: string
+  label: string
+  icon?: string
+  krLabel?: string
+}[] = [{ value: 'all', label: 'All', krLabel: '전체' }, ...battlesuitFeatures]
 
-const valkyrieFilterOptions: { value: string; label: string; icon?: string }[] =
-  [{ value: 'all', label: 'All' }, ...battlesuitTypes, ...valkyries]
+const valkyrieFilterOptions: {
+  value: string
+  label: string
+  icon?: string
+  krLabel?: string
+}[] = [
+  { value: 'all', label: 'All', krLabel: '전체' },
+  ...battlesuitTypes,
+  ...valkyries,
+]
 
 const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
-  const { query } = useRouter()
+  const { query, locale } = useRouter()
+  const { t } = useTranslation()
 
   const filter = useMemo(() => {
     if (query.filter == null) {
@@ -63,23 +77,26 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
       <Box p={3}>
         <Breadcrumb
           items={[
-            { href: '/honkai3rd', label: 'Honkai 3rd' },
-            { href: '/honkai3rd/battlesuits', label: 'Battlesuits' },
+            { href: '/honkai3rd', label: t('breadcrumb.honkai-3rd') },
+            {
+              href: '/honkai3rd/battlesuits',
+              label: t('breadcrumb.battlesuits'),
+            },
           ]}
         />
 
-        <Heading as='h1'>Battlesuits</Heading>
+        <Heading as='h1'>{t('battlesuits-list.heading')}</Heading>
 
         <Box>
-          <Heading as='h3'>Filter by Features</Heading>
+          <Heading as='h3'>{t('battlesuits-list.filter-by-features')}</Heading>
           <Flex mb={2} sx={{ flexWrap: 'wrap' }}>
-            {featureFilterOptions.map(({ value, label, icon }) => {
+            {featureFilterOptions.map(({ value, label, icon, krLabel }) => {
               return (
                 <FilterButton
                   key={value}
                   active={value === filter}
                   value={value}
-                  label={label}
+                  label={translate(locale, { 'ko-KR': krLabel }, label)}
                   icon={icon}
                   m={1}
                 />
@@ -87,15 +104,15 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
             })}
           </Flex>
 
-          <Heading as='h3'>Filter by Valkyries</Heading>
+          <Heading as='h3'>{t('battlesuits-list.filter-by-valkyries')}</Heading>
           <Flex mb={2} sx={{ flexWrap: 'wrap' }}>
-            {valkyrieFilterOptions.map(({ value, label, icon }) => {
+            {valkyrieFilterOptions.map(({ value, label, icon, krLabel }) => {
               return (
                 <FilterButton
                   key={value}
                   active={value === filter}
                   value={value}
-                  label={label}
+                  label={translate(locale, { 'ko-KR': krLabel }, label)}
                   icon={icon}
                   m={1}
                 />

@@ -5,7 +5,7 @@ import SquareImageBox from '../../../components/atoms/SquareImageBox'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
-import { generateI18NPaths, getI18NProps } from '../../../lib/i18n'
+import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
 import { capitalize } from '../../../lib/string'
 import {
   getWeaponById,

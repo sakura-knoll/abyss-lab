@@ -2,7 +2,7 @@
 import { NavLink, Heading, Flex } from '@theme-ui/components'
 import NextLink from 'next/link'
 import { useRouter } from 'next/router'
-import { useTranslation } from 'next-i18next'
+import { useTranslation } from '../../lib/i18n'
 
 const Honkai3rdNavigator = () => {
   const router = useRouter()

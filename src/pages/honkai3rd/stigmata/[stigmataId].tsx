@@ -6,7 +6,7 @@ import SingleStigmataPage, {
 import StigmataSetPage, {
   StigmataSetProps,
 } from '../../../components/pages/StigmataSetPage'
-import { generateI18NPaths, getI18NProps } from '../../../lib/i18n'
+import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
 import {
   listStigmata,
   getStigmataById,

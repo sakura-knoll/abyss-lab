@@ -9,7 +9,7 @@ import FilterButton from '../../../components/atoms/FilterButton'
 import { useRouter } from 'next/router'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
 import WeaponCard from '../../../components/molecules/WeaponCard'
-import { getI18NProps } from '../../../lib/i18n'
+import { getI18NProps } from '../../../server/i18n'
 import { NextPageContext } from 'next'
 
 type WeaponListItemData = Pick<

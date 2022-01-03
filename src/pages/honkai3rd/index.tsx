@@ -5,7 +5,7 @@ import NextLink from 'next/link'
 import Breadcrumb from '../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../components/organisms/Honkai3rdNavigator'
 import { NextPageContext } from 'next'
-import { getI18NProps } from '../../lib/i18n'
+import { getI18NProps } from '../../server/i18n'
 
 const updateNotes = [
   ['v5.3', 'https://honkaiimpact3.mihoyo.com/global/en-us/news/17390'],

@@ -1,6 +1,8 @@
 /** @jsxImportSource theme-ui */
 import { Flex, Text } from '@theme-ui/components'
+import { useRouter } from 'next/router'
 import { valkyries } from '../../lib/honkai3rd/battlesuits'
+import { translate } from '../../lib/i18n'
 import SquareImageBox from './SquareImageBox'
 
 interface ValkyrieLabelProps {
@@ -8,9 +10,12 @@ interface ValkyrieLabelProps {
 }
 
 const ValkyrieLabel = ({ valkyrie }: ValkyrieLabelProps) => {
-  const { icon, label } = valkyries.find(
+  const { icon, label, krLabel } = valkyries.find(
     (aValkyrie) => aValkyrie.value === valkyrie
-  ) || { label: valkyrie }
+  ) || { label: valkyrie, krLabel: valkyrie }
+  const { locale } = useRouter()
+
+  const translatedLabel = translate(locale, { 'ko-KR': krLabel }, label)
 
   return (
     <Flex sx={{ alignItems: 'center' }}>
@@ -18,11 +23,11 @@ const ValkyrieLabel = ({ valkyrie }: ValkyrieLabelProps) => {
         <SquareImageBox
           size={30}
           src={`/assets/honkai3rd/${icon}.png`}
-          alt={label}
+          alt={translatedLabel}
           mr={1}
         />
       )}
-      <Text>{label}</Text>
+      <Text>{translatedLabel}</Text>
     </Flex>
   )
 }

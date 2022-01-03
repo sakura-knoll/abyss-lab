@@ -1,5 +1,8 @@
 /** @jsxImportSource theme-ui */
 import { Flex, Text } from '@theme-ui/components'
+import { useRouter } from 'next/router'
+import { battlesuitTypes } from '../../lib/honkai3rd/battlesuits'
+import { translate } from '../../lib/i18n'
 import { capitalize } from '../../lib/string'
 import SquareImageBox from './SquareImageBox'
 
@@ -8,7 +11,17 @@ interface TypeLabelProps {
 }
 
 const TypeLabel = ({ type }: TypeLabelProps) => {
-  const label = capitalize(type)
+  const battlesuitType = battlesuitTypes.find((aType) => aType.value === type)
+
+  const { locale } = useRouter()
+  const label =
+    battlesuitType != null
+      ? translate(
+          locale,
+          { 'ko-KR': battlesuitType.krLabel },
+          battlesuitType.label
+        )
+      : capitalize(type)
 
   return (
     <Flex sx={{ alignItems: 'center' }}>

@@ -15,12 +15,12 @@ import {
   BattlesuitData,
   BattlesuitSkillGroup,
 } from '../../../lib/honkai3rd/battlesuits'
-import { generateI18NPaths, getI18NProps } from '../../../lib/i18n'
+import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
 import {
   getBattlesuitById,
   listBattlesuits,
 } from '../../../server/data/honkai3rd/battlesuits'
-import { useTranslation } from 'next-i18next'
+import { useTranslation } from '../../../lib/i18n'
 
 interface BattlesuitShowPageProps {
   battlesuit: BattlesuitData
