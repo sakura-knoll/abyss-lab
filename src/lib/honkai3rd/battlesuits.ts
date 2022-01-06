@@ -2,7 +2,7 @@ export interface BattlesuitSkill {
   name: string
   krName?: string
   description: string
-  krDescription: string
+  krDescription?: string
   requiredRank?: string
 }
 

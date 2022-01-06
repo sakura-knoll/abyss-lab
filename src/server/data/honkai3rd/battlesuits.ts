@@ -1,6 +1,9 @@
-import { readdirSync, readJsonFileSync } from '../fs'
+import { readdirSync, readFileSync, readJsonFileSync } from '../fs'
 import { compareVersion } from '../../../lib/string'
-import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
+import {
+  BattlesuitData,
+  BattlesuitSkillGroup,
+} from '../../../lib/honkai3rd/battlesuits'
 
 const battlesuitsFileNameList = readdirSync('honkai3rd/battlesuits')
 const battlesuitDataList = battlesuitsFileNameList
@@ -8,6 +11,21 @@ const battlesuitDataList = battlesuitsFileNameList
     const filePathname = 'honkai3rd/battlesuits/' + fileName
     const data = readJsonFileSync(filePathname) as BattlesuitData
 
+    const krDataFilePath = `honkai3rd/battlesuits-kr/${data.id}.md`
+    try {
+      const krData = parseSkillData(readFileSync(krDataFilePath).toString())
+
+      data.krName = krData.name
+      assignKrDataToSkill(data.leader, krData.leader)
+      assignKrDataToSkill(data.passive, krData.passive)
+      assignKrDataToSkill(data.evasion, krData.evasion)
+      assignKrDataToSkill(data.special, krData.special)
+      assignKrDataToSkill(data.ultimate, krData.ultimate)
+      assignKrDataToSkill(data.basic, krData.basic)
+    } catch (error) {
+      // console.warn('Failed to read', krDataFilePath)
+      // console.warn(error)
+    }
     return data
   })
   .sort((a, b) => {
@@ -32,4 +50,63 @@ export function listBattlesuits() {
 
 export function getBattlesuitById(id: string) {
   return battlesuitMap.get(id)
+}
+
+function parseSkillData(rawData: string) {
+  const [
+    nameSection,
+    leaderSection,
+    passiveSection,
+    evasionSection,
+    specialSection,
+    ultimateSection,
+    basicSection,
+  ] = rawData.split('\n## ')
+
+  const name = nameSection.replace('#', '').trim()
+
+  return {
+    name,
+    leader: parseSkillSection(leaderSection),
+    passive: parseSkillSection(passiveSection),
+    evasion: parseSkillSection(evasionSection),
+    special: parseSkillSection(specialSection),
+    ultimate: parseSkillSection(ultimateSection),
+    basic: parseSkillSection(basicSection),
+  }
+}
+
+function parseSkillSection(rawData: string) {
+  const [coreSection, ...subskillSections] = rawData.split('\n### ')
+
+  const [coreName, ...descriptionLines] = coreSection.trim().split('\n')
+
+  return {
+    core: {
+      name: coreName,
+      description: descriptionLines.join('\n').trim(),
+    },
+    subskills: subskillSections.map((subskillSection) => {
+      const [subskillName, ...subskillDescriptionLines] = subskillSection
+        .trim()
+        .split('\n')
+
+      return {
+        name: subskillName,
+        description: subskillDescriptionLines.join('\n').trim(),
+      }
+    }),
+  }
+}
+
+function assignKrDataToSkill(
+  skillGroup: BattlesuitSkillGroup,
+  krDataSkillGroup: BattlesuitSkillGroup
+) {
+  skillGroup.core.krName = krDataSkillGroup.core.name
+  skillGroup.core.krDescription = krDataSkillGroup.core.description
+  skillGroup.subskills.forEach((subskill, index) => {
+    subskill.krName = krDataSkillGroup.subskills[index].name
+    subskill.krDescription = krDataSkillGroup.subskills[index].description
+  })
 }
