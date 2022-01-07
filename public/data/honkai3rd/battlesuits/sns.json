@@ -98,5 +98,28 @@
         "description": "QTE: Triggered by impaired enemies to strike enemies (twice by default and can be increased to up to 5 times by spamming [ATK]) and deal 150% x 4  x hits + 800% ATK of Physical DMG. Every hit boosts shield breaking capacity by 10.0% for 10s (20 stacks max). QTE entry reduces the CD of the next switch by 4.0s and grants 10.0 SP."
       }
     ]
+  },
+  "sp": {
+    "core": {
+      "name": "Sweet Kohai",
+      "description": "Teammates can be switched in during Ultimate.\nIf a teammate is switched in during Sweet 'n' Spicy's Ultimate, she will stay on the field until she finishes her Ultimate."
+    },
+    "subskills": [
+      {
+        "name": "My Hands Are Burning",
+        "description": "When charging, Crit DMG and Crit Rate increase by 70.0% and 22.0% per second for 10s respectively. 2 stacks max. Triggering it again resets the duration.",
+        "requiredRank": "s"
+      },
+      {
+        "name": "Fully Charged",
+        "description": "Max Charged ATK restores 10.0 SP on hit.",
+        "requiredRank": "ss"
+      },
+      {
+        "name": "Venting Time",
+        "description": "On hit, max Charged ATK boosts Ultimate Physical DMG by 10.0% for 10s. Triggering it again resets the duration.",
+        "requiredRank": "sss"
+      }
+    ]
   }
 }
