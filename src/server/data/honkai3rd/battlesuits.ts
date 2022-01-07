@@ -104,9 +104,14 @@ function assignKrDataToSkill(
   krDataSkillGroup: BattlesuitSkillGroup
 ) {
   skillGroup.core.krName = krDataSkillGroup.core.name
-  skillGroup.core.krDescription = krDataSkillGroup.core.description
+  skillGroup.core.krDescription = krDataSkillGroup.core.description.replace(
+    /\\\*/g,
+    '*'
+  )
   skillGroup.subskills.forEach((subskill, index) => {
     subskill.krName = krDataSkillGroup.subskills[index].name
-    subskill.krDescription = krDataSkillGroup.subskills[index].description
+    subskill.krDescription = krDataSkillGroup.subskills[
+      index
+    ].description.replace(/\\\*/g, '*')
   })
 }
