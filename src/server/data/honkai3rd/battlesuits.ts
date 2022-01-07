@@ -22,6 +22,9 @@ const battlesuitDataList = battlesuitsFileNameList
       assignKrDataToSkill(data.special, krData.special)
       assignKrDataToSkill(data.ultimate, krData.ultimate)
       assignKrDataToSkill(data.basic, krData.basic)
+      if (data.sp != null && krData.sp != null) {
+        assignKrDataToSkill(data.sp, krData.sp)
+      }
     } catch (error) {
       // console.warn('Failed to read', krDataFilePath)
       // console.warn(error)
@@ -61,6 +64,7 @@ function parseSkillData(rawData: string) {
     specialSection,
     ultimateSection,
     basicSection,
+    spSection,
   ] = rawData.split('\n## ')
 
   const name = nameSection.replace('#', '').trim()
@@ -73,6 +77,7 @@ function parseSkillData(rawData: string) {
     special: parseSkillSection(specialSection),
     ultimate: parseSkillSection(ultimateSection),
     basic: parseSkillSection(basicSection),
+    sp: spSection != null ? parseSkillSection(spSection) : undefined,
   }
 }
 
