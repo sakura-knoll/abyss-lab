@@ -77,7 +77,7 @@ const SingleStigmataPage = ({
 
         <Card mb={3}>
           <Box p={2} sx={{ borderBottom: 'default' }}>
-            {t(`breadcrumb.${stigmataData.type}`)}
+            {t(`stigmata-show.${stigmataData.type}`)}
           </Box>
           <Box p={2} sx={{ borderBottom: 'default' }}>
             {'⭐'.repeat(stigmataData.rarity)}
