@@ -1,4 +1,4 @@
-import { readdirSync, readJsonFileSync } from '../fs'
+import { readdirSync, readFileSync, readJsonFileSync } from '../fs'
 import { compareVersion } from '../../../lib/string'
 import { StigmataData, StigmataSet } from '../../../lib/honkai3rd/stigmata'
 
@@ -7,6 +7,18 @@ const stigmataList = stigmataDataFileNameList
   .map((fileName) => {
     const filePathname = 'honkai3rd/stigmata/' + fileName
     const data = readJsonFileSync(filePathname) as StigmataData
+
+    const krDataFilePath = `honkai3rd/ko-KR/stigmata/${data.id}.md`
+    try {
+      const krData = parseStigmataData(readFileSync(krDataFilePath).toString())
+
+      data.krName = krData.name
+      data.skill.krName = krData.skill.name
+      data.skill.krDescription = krData.skill.description
+    } catch (error) {
+      // console.warn('Failed to read', krDataFilePath)
+      // console.warn(error)
+    }
 
     return data
   })
@@ -57,6 +69,23 @@ const stigmataSetList = stigmataSetFileNameList
     const filePathname = 'honkai3rd/stigmata-sets/' + fileName
     const data = readJsonFileSync(filePathname) as StigmataSet
 
+    const krDataFilePath = `honkai3rd/ko-KR/stigmata-sets/${data.id}.md`
+    try {
+      const krData = parseStigmataSetData(
+        readFileSync(krDataFilePath).toString()
+      )
+
+      data.krName = krData.name
+      data.krAltName = krData.altName
+      data.twoSetSkill.krName = krData.twoSetSkill.name
+      data.twoSetSkill.krDescription = krData.twoSetSkill.description
+      data.threeSetSkill.krName = krData.threeSetSkill.name
+      data.threeSetSkill.krDescription = krData.threeSetSkill.description
+    } catch (error) {
+      // console.warn('Failed to read', krDataFilePath)
+      // console.warn(error)
+    }
+
     return data
   })
   .filter((stigmataSet) => !stigmataSet.hidden)
@@ -99,4 +128,42 @@ export function getStigmataListBySetId(setId: string) {
 
 export function getStigmataSetBySetId(setId: string) {
   return stigmataSetMap.get(setId)
+}
+
+function parseStigmataData(rawData: string) {
+  const [name, skillName, skillDescription] = rawData
+    .split('\n\n')
+    .map((data) => data.replace(/#+\s/, '').trim())
+
+  return {
+    name,
+    skill: {
+      name: skillName,
+      description: skillDescription,
+    },
+  }
+}
+
+function parseStigmataSetData(rawData: string) {
+  const [
+    name,
+    altName,
+    twoSetSkillName,
+    twoSetSkillDescription,
+    threeSetSkillName,
+    threeSetSkillDescription,
+  ] = rawData.split('\n\n').map((data) => data.replace(/#+\s/, '').trim())
+
+  return {
+    name,
+    altName,
+    twoSetSkill: {
+      name: twoSetSkillName,
+      description: twoSetSkillDescription,
+    },
+    threeSetSkill: {
+      name: threeSetSkillName,
+      description: threeSetSkillDescription,
+    },
+  }
 }

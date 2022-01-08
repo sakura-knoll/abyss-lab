@@ -41,6 +41,7 @@ export async function getStaticProps({
           (a, b) => -a.type.localeCompare(b.type)
         ),
         stigmataSet: getStigmataSetBySetId(stigmataData.set!) || null,
+        ...(await getI18NProps(locale)),
       },
     }
   }
