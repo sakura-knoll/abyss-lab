@@ -1,11 +1,14 @@
 export interface WeaponSkill {
   name: string
+  krName?: string
   description: string
+  krDescription?: string
 }
 
 export interface WeaponData {
   id: string
   name: string
+  krName?: string
   atk: number
   crt: number
   category:

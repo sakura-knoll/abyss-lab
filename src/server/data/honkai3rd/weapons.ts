@@ -1,4 +1,4 @@
-import { readdirSync, readJsonFileSync } from '../fs'
+import { readdirSync, readFileSync, readJsonFileSync } from '../fs'
 import { compareVersion } from '../../../lib/string'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
 
@@ -7,6 +7,20 @@ const weaponDataList = weaponsFileNameList
   .map((fileName) => {
     const filePathname = 'honkai3rd/weapons/' + fileName
     const data = readJsonFileSync(filePathname) as WeaponData
+
+    const krDataFilePath = `honkai3rd/ko-KR/weapons/${data.id}.md`
+    try {
+      const krData = parseWeaponData(readFileSync(krDataFilePath).toString())
+
+      data.krName = krData.name
+      data.skills.forEach((skill, index) => {
+        skill.krName = krData.skills[index].name
+        skill.krDescription = krData.skills[index].description
+      })
+    } catch (error) {
+      // console.warn('Failed to read', krDataFilePath)
+      // console.warn(error)
+    }
 
     return data
   })
@@ -40,4 +54,23 @@ export function listWeapons() {
 
 export function getWeaponById(id: string) {
   return weaponMap.get(id)
+}
+
+function parseWeaponData(rawData: string) {
+  const [name, ...skillSections] = rawData
+    .split('## ')
+    .map((data) => data.replace(/#+\s/, '').trim())
+  const skills = skillSections.map((skillSection) => {
+    const [skillName, skillDescription] = skillSection.split('\n\n')
+
+    return {
+      name: skillName,
+      description: skillDescription,
+    }
+  })
+
+  return {
+    name,
+    skills,
+  }
 }
