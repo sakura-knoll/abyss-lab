@@ -8,15 +8,20 @@ import SecondaryLabel from '../../../components/atoms/SecondaryLabel'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { ElfData } from '../../../lib/honkai3rd/elfs'
-import { capitalize } from '../../../lib/string'
 import { getElfById, listElfs } from '../../../server/data/honkai3rd/elfs'
 import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
-
+import { translate, useTranslation } from '../../../lib/i18n'
+import { useRouter } from 'next/router'
 interface ElfShowPageProps {
   elf: ElfData
 }
 
 const ElfShowPage = ({ elf }: ElfShowPageProps) => {
+  const { locale } = useRouter()
+  const { t } = useTranslation()
+
+  const elfName = translate(locale, { 'ko-KR': elf.krName }, elf.name)
+
   return (
     <Box>
       <Honkai3rdNavigator />
@@ -24,16 +29,16 @@ const ElfShowPage = ({ elf }: ElfShowPageProps) => {
       <Box p={3}>
         <Breadcrumb
           items={[
-            { href: '/honkai3rd', label: 'Honkai 3rd' },
-            { href: '/honkai3rd/elfs', label: 'ELFs' },
+            { href: '/honkai3rd', label: t('breadcrumb.honkai-3rd') },
+            { href: '/honkai3rd/elfs', label: t('breadcrumb.elfs') },
             {
               href: `/honkai3rd/elfs/${elf.id}`,
-              label: elf.name,
+              label: elfName,
             },
           ]}
         />
 
-        <Heading as='h1'>{elf.name}</Heading>
+        <Heading as='h1'>{elfName}</Heading>
 
         <Box mb={3}>
           <Box
@@ -78,9 +83,11 @@ const ElfShowPage = ({ elf }: ElfShowPageProps) => {
                         as={columnIndex === 0 ? 'h2' : 'h3'}
                         sx={{ mb: 1 }}
                       >
-                        {item.name}
+                        {translate(locale, { 'ko-KR': item.krName }, item.name)}
                       </Heading>
-                      <SecondaryLabel>{capitalize(item.type)}</SecondaryLabel>
+                      <SecondaryLabel>
+                        {t(`elfs-show.${item.type}`)}
+                      </SecondaryLabel>
                     </Box>
                     <Paragraph
                       sx={{
@@ -89,7 +96,11 @@ const ElfShowPage = ({ elf }: ElfShowPageProps) => {
                         '&:last-child': { borderBottom: 'none' },
                       }}
                     >
-                      {item.description}
+                      {translate(
+                        locale,
+                        { 'ko-KR': item.krDescription },
+                        item.description
+                      )}
                     </Paragraph>
                   </React.Fragment>
                 )

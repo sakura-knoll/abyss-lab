@@ -8,12 +8,15 @@ import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator
 import { ElfData } from '../../../lib/honkai3rd/elfs'
 import { getI18NProps } from '../../../server/i18n'
 import { listElfs } from '../../../server/data/honkai3rd/elfs'
+import { useTranslation } from '../../../lib/i18n'
 
 interface ElfListPageProps {
-  elfs: Pick<ElfData, 'id' | 'name'>[]
+  elfs: Pick<ElfData, 'id' | 'name' | 'krName'>[]
 }
 
 const ElfListPage = ({ elfs }: ElfListPageProps) => {
+  const { t } = useTranslation()
+
   return (
     <Box>
       <Honkai3rdNavigator />
@@ -21,12 +24,12 @@ const ElfListPage = ({ elfs }: ElfListPageProps) => {
       <Box p={3}>
         <Breadcrumb
           items={[
-            { href: '/honkai3rd', label: 'Honkai 3rd' },
-            { href: '/honkai3rd/elfs', label: 'ELFs' },
+            { href: '/honkai3rd', label: t('breadcrumb.honkai-3rd') },
+            { href: '/honkai3rd/elfs', label: t('breadcrumb.elfs') },
           ]}
         />
 
-        <Heading as='h1'>ELFs</Heading>
+        <Heading as='h1'>{t('elfs-list.elfs')}</Heading>
 
         <Flex
           sx={{
@@ -48,7 +51,7 @@ export default ElfListPage
 export async function getStaticProps({ locale }: NextPageContext) {
   return {
     props: {
-      elfs: listElfs().map((elf) => pick(['id', 'name'], elf)),
+      elfs: listElfs().map((elf) => pick(['id', 'name', 'krName'], elf)),
       ...(await getI18NProps(locale)),
     },
   }
