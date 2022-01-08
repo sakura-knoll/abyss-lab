@@ -6,17 +6,23 @@ import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
 import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
-import { capitalize } from '../../../lib/string'
 import {
   getWeaponById,
   listWeapons,
 } from '../../../server/data/honkai3rd/weapons'
+import { useRouter } from 'next/router'
+import { useTranslation, translate } from '../../../lib/i18n'
 
 interface WeaponShowPageProps {
   weapon: WeaponData
 }
 
 const WeaponShowPage = ({ weapon }: WeaponShowPageProps) => {
+  const { locale } = useRouter()
+  const { t } = useTranslation()
+
+  const weaponName = translate(locale, { 'ko-KR': weapon.krName }, weapon.name)
+
   return (
     <Box>
       <Honkai3rdNavigator />
@@ -24,28 +30,28 @@ const WeaponShowPage = ({ weapon }: WeaponShowPageProps) => {
       <Box p={3}>
         <Breadcrumb
           items={[
-            { href: '/honkai3rd', label: 'Honkai 3rd' },
-            { href: '/honkai3rd/weapons', label: 'Weapons' },
+            { href: '/honkai3rd', label: t('breadcrumb.honkai-3rd') },
+            { href: '/honkai3rd/weapons', label: t('breadcrumb.weapons') },
             {
               href: `/honkai3rd/weapons/${weapon.id}`,
-              label: weapon.name,
+              label: weaponName,
             },
           ]}
         />
 
-        <Heading as='h1'>{weapon.name}</Heading>
+        <Heading as='h1'>{weaponName}</Heading>
 
         <Box mb={3}>
           <SquareImageBox
             size={100}
-            alt={weapon.name}
+            alt={weaponName}
             src={`/assets/honkai3rd/weapons/${weapon.id}.png`}
           />
         </Box>
 
         <Card mb={3}>
           <Box p={2} sx={{ borderBottom: 'default' }}>
-            {capitalize(weapon.category)}
+            {t(`weapons-show.${weapon.category}`)}
           </Box>
           <Box p={2} sx={{ borderBottom: 'default' }}>
             {'⭐'.repeat(weapon.rarity)}
@@ -60,7 +66,7 @@ const WeaponShowPage = ({ weapon }: WeaponShowPageProps) => {
             return (
               <Card key={skill.name} mb={3}>
                 <Heading as='h3' p={2} m={0} sx={{ borderBottom: 'default' }}>
-                  {skill.name}
+                  {translate(locale, { 'ko-KR': skill.krName }, skill.name)}
                 </Heading>
                 <Paragraph
                   p={2}
@@ -68,7 +74,11 @@ const WeaponShowPage = ({ weapon }: WeaponShowPageProps) => {
                     whiteSpace: 'pre-wrap',
                   }}
                 >
-                  {skill.description}
+                  {translate(
+                    locale,
+                    { 'ko-KR': skill.krDescription },
+                    skill.description
+                  )}
                 </Paragraph>
               </Card>
             )

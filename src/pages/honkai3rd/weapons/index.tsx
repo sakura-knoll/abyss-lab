@@ -11,8 +11,7 @@ import { WeaponData } from '../../../lib/honkai3rd/weapons'
 import WeaponCard from '../../../components/molecules/WeaponCard'
 import { getI18NProps } from '../../../server/i18n'
 import { NextPageContext } from 'next'
-import { useTranslation } from 'next-i18next'
-import { translate } from '../../../lib/i18n'
+import { useTranslation, translate } from '../../../lib/i18n'
 
 type WeaponListItemData = Pick<
   WeaponData,
@@ -62,8 +61,8 @@ const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
       <Box p={3}>
         <Breadcrumb
           items={[
-            { href: '/honkai3rd', label: 'Honkai 3rd' },
-            { href: '/honkai3rd/weapons', label: 'Weapons' },
+            { href: '/honkai3rd', label: t('breadcrumb.honkai-3rd') },
+            { href: '/honkai3rd/weapons', label: t('breadcrumb.weapons') },
           ]}
         />
 
