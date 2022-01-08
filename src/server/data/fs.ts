@@ -22,3 +22,11 @@ export function readJsonFileSync(pathname: string) {
 
   return JSON.parse(rawData)
 }
+
+export function writeFileSync(pathname: string, content: string) {
+  return fs.writeFileSync(resolvePathname(pathname), content)
+}
+
+export function existsSync(pathname: string) {
+  return fs.existsSync(resolvePathname(pathname))
+}
