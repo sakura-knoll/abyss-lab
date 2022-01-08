@@ -15,16 +15,18 @@ import {
   listStigmata,
   listStigmataSet,
 } from '../../../server/data/honkai3rd/stigmata'
+import { useTranslation } from 'next-i18next'
 
 interface StigmataListPageProps {
-  stigmataDataList: Pick<StigmataData, 'id' | 'name' | 'rarity'>[]
-  stigmataSetList: Pick<StigmataSet, 'id' | 'name' | 'rarity'>[]
+  stigmataDataList: Pick<StigmataData, 'id' | 'name' | 'rarity' | 'krName'>[]
+  stigmataSetList: Pick<StigmataSet, 'id' | 'name' | 'rarity' | 'krName'>[]
 }
 
 const StigmataListPage = ({
   stigmataDataList,
   stigmataSetList,
 }: StigmataListPageProps) => {
+  const { t } = useTranslation()
   const { query } = useRouter()
 
   const listMode = useMemo(() => {
@@ -41,12 +43,12 @@ const StigmataListPage = ({
       <Box p={3}>
         <Breadcrumb
           items={[
-            { href: '/honkai3rd', label: 'Honkai 3rd' },
-            { href: '/honkai3rd/stigmata', label: 'Stigmata' },
+            { href: '/honkai3rd', label: t('breadcrumb.honkai-3rd') },
+            { href: '/honkai3rd/stigmata', label: t('breadcrumb.stigmata') },
           ]}
         />
 
-        <Heading as='h1'>Stigmata</Heading>
+        <Heading as='h1'>{t('stigmata-list.stigmata')}</Heading>
 
         <Flex mb={3}>
           <PageLink
@@ -61,7 +63,7 @@ const StigmataListPage = ({
             sx={{ display: 'flex' }}
             variant='buttons.primary'
           >
-            Set List
+            {t('stigmata-list.set-list')}
           </PageLink>
         </Flex>
 
@@ -95,10 +97,10 @@ export async function getStaticProps({ locale }: NextPageContext) {
   return {
     props: {
       stigmataDataList: listStigmata().map((stigmata) =>
-        pick(['id', 'name', 'rarity'], stigmata)
+        pick(['id', 'name', 'rarity', 'krName'], stigmata)
       ),
       stigmataSetList: listStigmataSet().map((stigmataSet) =>
-        pick(['id', 'name', 'rarity'], stigmataSet)
+        pick(['id', 'name', 'rarity', 'krName'], stigmataSet)
       ),
       ...(await getI18NProps(locale)),
     },

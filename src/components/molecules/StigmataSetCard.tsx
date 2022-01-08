@@ -1,14 +1,23 @@
 /** @jsxImportSource theme-ui */
 import { Box, Card, Flex, Text } from '@theme-ui/components'
+import { useRouter } from 'next/router'
 import { StigmataSet } from '../../lib/honkai3rd/stigmata'
+import { translate } from '../../lib/i18n'
 import PageLink from '../atoms/PageLink'
 import SquareImageBox from '../atoms/SquareImageBox'
 
 interface StigmataSetCardProps {
-  stigmataSet: Pick<StigmataSet, 'id' | 'name' | 'rarity'>
+  stigmataSet: Pick<StigmataSet, 'id' | 'name' | 'krName' | 'rarity'>
 }
 
 const StigmataSetCard = ({ stigmataSet }: StigmataSetCardProps) => {
+  const { locale } = useRouter()
+  const stigmataSetName = translate(
+    locale,
+    { 'ko-KR': stigmataSet.krName },
+    stigmataSet.name
+  )
+
   return (
     <Card
       sx={{
@@ -44,7 +53,7 @@ const StigmataSetCard = ({ stigmataSet }: StigmataSetCardProps) => {
             textAlign: 'center',
           }}
         >
-          <Text>{stigmataSet.name}</Text>
+          <Text>{stigmataSetName}</Text>
         </Box>
         <Box sx={{ fontSize: 1, textAlign: 'center' }}>
           {'⭐'.repeat(stigmataSet.rarity)}
