@@ -1,0 +1,5 @@
+# Lier (B)
+
+## 
+
+At 100% or higher HP, gain 46% Physical DMG.
