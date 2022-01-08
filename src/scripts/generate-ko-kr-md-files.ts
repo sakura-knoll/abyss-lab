@@ -8,7 +8,7 @@ import { listWeapons } from '../server/data/honkai3rd/weapons'
 
 const locale = 'ko-KR'
 
-function generateStigmataData() {
+export function generateStigmataData() {
   const stigmataList = listStigmata()
 
   stigmataList.forEach((stigmata) => {
@@ -28,7 +28,7 @@ function generateStigmataData() {
   })
 }
 
-function generateStigmataSetData() {
+export function generateStigmataSetData() {
   const stigmataSetList = listStigmataSet()
 
   stigmataSetList.forEach((stigmataSet) => {
@@ -51,7 +51,7 @@ function generateStigmataSetData() {
   })
 }
 
-function generateWeaponData() {
+export function generateWeaponData() {
   const weaponList = listWeapons()
 
   weaponList.forEach((weapon) => {
@@ -72,7 +72,7 @@ function generateWeaponData() {
   })
 }
 
-function generateElfData() {
+export function generateElfData() {
   const elfList = listElfs()
 
   elfList.forEach((elf) => {
