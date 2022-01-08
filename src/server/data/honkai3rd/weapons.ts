@@ -27,12 +27,12 @@ const weaponDataList = weaponsFileNameList
   .sort((a, b) => {
     let compareResult = 0
 
-    compareResult = b.rarity - a.rarity
+    compareResult = compareVersion(b.version || '0.0', a.version || '0.0')
     if (compareResult !== 0) {
       return compareResult
     }
 
-    compareResult = compareVersion(b.version || '0.0', a.version || '0.0')
+    compareResult = b.rarity - a.rarity
     if (compareResult !== 0) {
       return compareResult
     }
