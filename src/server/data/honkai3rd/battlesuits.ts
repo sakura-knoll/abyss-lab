@@ -11,7 +11,7 @@ const battlesuitDataList = battlesuitsFileNameList
     const filePathname = 'honkai3rd/battlesuits/' + fileName
     const data = readJsonFileSync(filePathname) as BattlesuitData
 
-    const krDataFilePath = `honkai3rd/battlesuits-kr/${data.id}.md`
+    const krDataFilePath = `honkai3rd/ko-KR/battlesuits/${data.id}.md`
     try {
       const krData = parseSkillData(readFileSync(krDataFilePath).toString())
 
