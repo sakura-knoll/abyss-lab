@@ -1,8 +1,9 @@
 /** @jsxImportSource theme-ui */
-import { NavLink, Heading, Flex } from '@theme-ui/components'
+import { NavLink, Heading, Flex, Text } from '@theme-ui/components'
 import NextLink from 'next/link'
 import { useRouter } from 'next/router'
 import { useTranslation } from '../../lib/i18n'
+import SquareImageBox from '../atoms/SquareImageBox'
 
 const Honkai3rdNavigator = () => {
   const router = useRouter()
@@ -24,31 +25,11 @@ const Honkai3rdNavigator = () => {
       </Flex>
       <Flex sx={{ justifyContent: 'space-between', flex: 1 }}>
         <Flex sx={{ height: 40, alignItems: 'center' }}>
-          <NextLink href='/honkai3rd/versions' passHref>
-            <NavLink mr={3} sx={{ fontFamily: 'monospace' }}>
-              {t('nav.versions')}
-            </NavLink>
-          </NextLink>
-          <NextLink href='/honkai3rd/battlesuits' passHref>
-            <NavLink mr={3} sx={{ fontFamily: 'monospace' }}>
-              {t('nav.battlesuits')}
-            </NavLink>
-          </NextLink>
-          <NextLink href='/honkai3rd/weapons' passHref>
-            <NavLink mr={3} sx={{ fontFamily: 'monospace' }}>
-              {t('nav.weapons')}
-            </NavLink>
-          </NextLink>
-          <NextLink href='/honkai3rd/stigmata' passHref>
-            <NavLink mr={3} sx={{ fontFamily: 'monospace' }}>
-              {t('nav.stigmata')}
-            </NavLink>
-          </NextLink>
-          <NextLink href='/honkai3rd/elfs' passHref>
-            <NavLink mr={3} sx={{ fontFamily: 'monospace' }}>
-              {t('nav.elfs')}
-            </NavLink>
-          </NextLink>
+          <NavItem target='versions' />
+          <NavItem target='battlesuits' />
+          <NavItem target='weapons' />
+          <NavItem target='stigmata' />
+          <NavItem target='elfs' />
         </Flex>
         <Flex sx={{ height: 40, alignItems: 'center' }}>
           <NextLink
@@ -57,7 +38,13 @@ const Honkai3rdNavigator = () => {
             as={asPath}
             passHref
           >
-            <NavLink>
+            <NavLink
+              sx={{
+                overflow: 'hidden',
+                textOverflow: 'ellipsis',
+                whiteSpace: 'nowrap',
+              }}
+            >
               {locale === 'en-US' ? (
                 '🇺🇸'
               ) : (
@@ -74,3 +61,39 @@ const Honkai3rdNavigator = () => {
 }
 
 export default Honkai3rdNavigator
+
+interface NavItemProps {
+  target: 'versions' | 'battlesuits' | 'stigmata' | 'weapons' | 'elfs'
+}
+
+const NavItem = ({ target }: NavItemProps) => {
+  const { t } = useTranslation()
+  return (
+    <NextLink href={`/honkai3rd/${target}`} passHref>
+      <NavLink
+        mr={3}
+        sx={{
+          fontFamily: 'monospace',
+          display: 'flex',
+          alignItems: 'center',
+          overflow: 'hidden',
+        }}
+      >
+        <SquareImageBox
+          size={20}
+          mr={1}
+          src={`/assets/honkai3rd/nav-icons/${target}.png`}
+        />
+        <Text
+          sx={{
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
+            whiteSpace: 'nowrap',
+          }}
+        >
+          {t(`nav.${target}`)}
+        </Text>
+      </NavLink>
+    </NextLink>
+  )
+}
