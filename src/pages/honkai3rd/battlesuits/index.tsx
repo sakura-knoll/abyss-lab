@@ -1,7 +1,7 @@
 /** @jsxImportSource theme-ui */
-import { Box, Heading, Flex } from '@theme-ui/components'
+import { Box, Heading, Flex, Button } from '@theme-ui/components'
 import { pick } from 'ramda'
-import { useMemo } from 'react'
+import { useCallback, useMemo, useState } from 'react'
 import FilterButton from '../../../components/atoms/FilterButton'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
@@ -48,6 +48,11 @@ const valkyrieFilterOptions: {
 const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
   const { query, locale } = useRouter()
   const { t } = useTranslation()
+  const [hiddenFilters, setHiddenFilters] = useState(true)
+
+  const closeFilters = useCallback(() => {
+    setHiddenFilters(true)
+  }, [])
 
   const filter = useMemo(() => {
     if (query.filter == null) {
@@ -87,7 +92,26 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
 
         <Heading as='h1'>{t('battlesuits-list.heading')}</Heading>
 
-        <Box>
+        <Box sx={{ display: ['block', 'none'], mb: 2 }}>
+          <Button
+            className={hiddenFilters ? '' : 'active'}
+            sx={{ px: 2, py: 1 }}
+            onClick={() => {
+              setHiddenFilters((previousValue) => !previousValue)
+            }}
+          >
+            {t('battlesuits-list.filters')}
+          </Button>
+        </Box>
+        <Box
+          className={hiddenFilters ? 'hidden' : ''}
+          sx={{
+            display: 'block',
+            '&.hidden': {
+              display: ['none', 'block'],
+            },
+          }}
+        >
           <Heading as='h3'>{t('battlesuits-list.filter-by-features')}</Heading>
           <Flex mb={2} sx={{ flexWrap: 'wrap' }}>
             {featureFilterOptions.map(({ value, label, icon, krLabel }) => {
@@ -99,6 +123,7 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
                   label={translate(locale, { 'ko-KR': krLabel }, label)}
                   icon={icon}
                   m={1}
+                  close={closeFilters}
                 />
               )
             })}
@@ -115,6 +140,7 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
                   label={translate(locale, { 'ko-KR': krLabel }, label)}
                   icon={icon}
                   m={1}
+                  close={closeFilters}
                 />
               )
             })}

@@ -1,5 +1,6 @@
 /** @jsxImportSource theme-ui */
-import PageLink from './PageLink'
+import { useRouter } from 'next/router'
+import { Link } from 'theme-ui'
 import SquareImageBox from './SquareImageBox'
 
 interface FilterButtonProps {
@@ -8,6 +9,7 @@ interface FilterButtonProps {
   label: string
   value: string
   m?: string | number
+  close?: () => void
 }
 
 const FilterButton = ({
@@ -16,17 +18,25 @@ const FilterButton = ({
   label,
   value,
   m,
+  close,
 }: FilterButtonProps) => {
+  const { push } = useRouter()
   return (
-    <PageLink
-      href={{ query: { filter: value } }}
-      shallow={true}
+    <Link
+      href={`?filter=${value}`}
       m={m}
       py={1}
       px={2}
       className={active ? 'active' : ''}
       sx={{ display: 'flex' }}
       variant='buttons.primary'
+      onClick={(event) => {
+        event.preventDefault()
+        if (close != null) {
+          close()
+        }
+        push({ query: { filter: value } }, undefined, { shallow: true })
+      }}
     >
       {icon != null && (
         <SquareImageBox
@@ -37,7 +47,7 @@ const FilterButton = ({
         />
       )}
       {label}
-    </PageLink>
+    </Link>
   )
 }
 
