@@ -4,7 +4,17 @@ import NextLink from 'next/link'
 
 const RootNavigator = () => {
   return (
-    <Flex mx={3} sx={{ alignItems: 'center' }}>
+    <Flex
+      as='nav'
+      mx={3}
+      sx={{
+        alignItems: 'center',
+        position: 'sticky',
+        backgroundColor: 'rgba(255,255,255,0.9)',
+        top: 0,
+        zIndex: 100,
+      }}
+    >
       <Flex sx={{ alignItems: 'center', height: 50 }} mr={3}>
         <Heading margin={0}>
           <NextLink href='/' passHref>
@@ -12,7 +22,9 @@ const RootNavigator = () => {
           </NextLink>
         </Heading>
       </Flex>
-      <Flex sx={{ height: 40, alignItems: 'center' }}>
+      <Flex
+        sx={{ height: 40, alignItems: 'center', display: ['none', 'flex'] }}
+      >
         <NextLink href='/genshin' passHref>
           <NavLink mr={3}>Genshin</NavLink>
         </NextLink>
