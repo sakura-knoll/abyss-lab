@@ -1,4 +1,4 @@
-# Bronya: N-EX (B)
+# Bronya: N-EX (하)
 
 ## Warrior's Instinct
 

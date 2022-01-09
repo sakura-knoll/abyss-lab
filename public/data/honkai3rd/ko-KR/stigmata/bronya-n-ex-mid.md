@@ -1,4 +1,4 @@
-# Bronya: N-EX (M)
+# Bronya: N-EX (중)
 
 ## Free Knight
 

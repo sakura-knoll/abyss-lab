@@ -1,4 +1,4 @@
-# Bronya: N-EX (T)
+# Bronya: N-EX (상)
 
 ## Player Zero
 
