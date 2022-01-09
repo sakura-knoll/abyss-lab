@@ -1,5 +1,5 @@
-# Paganini (M)
+# 파가니니 (중)
 
-## 
+## 종소리
 
-Dealing DMG boosts team Physical DMG by 15.0% and team's DMG dealt to shields by 50.0% for 20s. Can be refreshed. Unique effect. Effect cannot be stacked.
+캐릭터가 대미지를 가할 시 파티원의 물리 대미지가 15.0% 증가하고, 실드에 가하는 대미지가 50.0% 증가한다. 지속 시간: 20초, 갱신 가능. 해당 스킬은 하나만 적용되며 중첩할 수 없다.

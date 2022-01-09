@@ -1,11 +1,11 @@
-# Paganini
+# 파가니니
 
-Devil's Violinist Set
+악마의 연주 세트
 
-## Devil's Deal 2 Pieces
+## 영혼의 거래 2세트
 
-Team deals 20.0% bonus DMG to shields. Charged ATK dealing DMG makes enemies take 20.0% bonus Physical DMG for 20s. Can be refreshed. Unique effect.
+파티원 캐릭터가 실드에 가하는 대미지가 20.0% 증가한다. 캐릭터 차지 공격이 대미지를 가할 시 적이 받는 물리 대미지가 20.0% 증가한다. 지속 시간: 20초, 갱신 가능. 해당 스킬은 하나만 적용되며 중첩할 수 없다.
 
-## 24 Caprices 3 Pieces
+## 24 기상곡 3세트
 
-Charged ATK dealing DMG boosts Total DMG for 15s. The boost is equal to 18.0% of host's bonus DMG-dealt-to-shields ratio. CD: 15s.
+차지 공격이 대미지를 가할 시 캐릭터의 모든 대미지가 캐릭터가 현재 실드에 대한 대미지 증가치의 18.0%만큼 증가한다. 지속 시간: 15초, 재사용 대기시간: 15초

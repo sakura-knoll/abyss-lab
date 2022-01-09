@@ -1,5 +1,5 @@
-# Paganini (T)
+# 파가니니 (상)
 
-## 
+## 마귀의 웃음소리
 
-Crit Rate increases by 15.0%. For every 5s, the next Charged ATK deals 40.0% bonus Physical DMG and restores 5 SP.
+크리티컬률이 15.0% 증가하고, 5초마다 강화 효과를 1회 획득한다. 또한 다음 짧은 시간 내 차지 공격은 물리 대미지가 40.0% 증가하고, SP를 5pt 회복한다.
