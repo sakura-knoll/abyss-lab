@@ -1,14 +1,13 @@
-# Domain of Incandescence
+# 염황지경: 겁화
 
-## Light Up the World
+## 하늘을 찬란히 불태워
 
-[SP 소모: 0][재사용 대기 시간: 18초] Hurl the pistols into the air to attack enemies automatically dealing 20,0% ATK of Fire DMG per 0.1s to enemies nearby (24 hits in total) and restoring 4 SP, after which the pistols explode dealing 750,0% ATK of Fire DMG.
-Herrscher of Flamescion equip bonus: Pistol hurling restores 5.0 bonus SP and the explosion DMG detonates Ember Brands.
+[SP 소모: 0][재사용 대기 시간: 18초] 권총을 던져 공중에서 자동으로 공격하며, 0.1초마다 주변 적에게 20.0%의 화염 원소 대미지를 가한다. 총 24단계로 공격하며, 동시에 SP를 4pt 회복한다. 이후 권총은 폭발해 750.0%의 화염 원소 대미지를 가한다. 신염의 율자가 사용 시, 다음 효과를 추가로 획득한다: SP를 추가로 5.0pt 회복하고, 폭발 시의 대미지가 주변 적의 불꽃 표식을 폭발시킨다.
 
-## I Am the Torch
+## 횃불로서
 
-Fire DMG increases by 30,0%. Combo ATK and Ultimate deal 35,0% bonus Total DMG.
+화염 원소 대미지가 30.0% 증가하고, 분기 공격과 필살기의 모든 대미지가 35.0% 증가한다.
 
-## The Fire Never Dies
+## 영원한 불꽃이 되겠노라
 
-Enemies impacted by the weapon active explosion take 15,0% bonus Fire DMG for 8.0s. Cannot stack but can be refreshed. Herrscher of Flamescion equip bonus: Detonating Ember Brands triggers the same effect.
+액티브 스킬의 폭발 대미지를 받은 적은 받는 화염 원소 대미지가 15.0% 증가한다. 지속 시간: 8.0초, 중첩 불가, 중복 발동 시 지속 시간이 갱신된다. 신염의 율자가 사용 시 불꽃 표식 폭발도 해당 효과를 발동 할 수 있다.

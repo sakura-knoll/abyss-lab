@@ -1,10 +1,9 @@
-# Key of Radiance
+# 염황의 열쇠
 
-## Blazing Air
+## 하늘을 불태워
 
-[SP 소모: 3][재사용 대기 시간: 18초] Hurl the pistols into the air to attack enemies automatically dealing 20.0% ATK of Fire DMG per 0.2s to enemies nearby (12 hits in total) and restoring 3 SP, after which the pistols explode dealing 600.0% ATK of Fire DMG.
-Herrscher of Flamescion equip bonus: Pistol hurling restores 3.0 bonus SP and the explosion DMG detonates Ember Brands.
+[SP 소모: 3][재사용 대기 시간: 18초] 권총을 던져 공중에서 자동으로 공격하며, 0.2초마다 주변 적에게 20.0%의 화염 원소 대미지를 가한다. 총 12단계로 공격하며, 동시에 SP를 3pt 회복한다. 이후 권총은 폭발해 600.0%의 화염 원소 대미지를 가한다. 신염의 율자가 사용 시, 다음 효과를 추가로 획득한다: SP를 추가로 3.0pt 회복하고, 폭발 시의 대미지가 주변 적의 불꽃 표식을 폭발시킨다.
 
-## Burning Touch
+## 횃불을 불태워
 
-Fire DMG increases by 20.0%. Combo ATK and Ultimate deal 25.0% bonus Total DMG.
+화염 원소 대미지가 20.0% 증가하고, 분기 공격과 필살기의 모든 대미지가 25.0% 증가한다.

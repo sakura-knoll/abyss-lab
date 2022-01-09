@@ -1,18 +1,21 @@
-# Abyss Flower - Liminal Spiral
+# 백화흑연·창멸나선
 
-## Fresh Bud
+## 꽃망울
 
-[SP 소모: 0][재사용 대기 시간: 25초] Active [Fresh Bud] deals Physical DMG equal to 200% + 700.0% ATK and restores 15 SP and 200 HP.
-When the Active button flashes during certain enemy moves, a Throw counter can be performed unconditionally, controlling enemies and dealing Physical DMG equal to 20% + 800.0% ATK (does not reset CD).Bright Knight equip bonus: In Burst mode, the Active becomes Special ATK [Divine Bloom], dealing Physical DMG equal to 200% + 1,500.0% ATK, which counts as both Active and Ultimate DMG, and has a 30% bonus Crit Rate. When the skill ends, the target takes 4 x 10% ATK of bonus Physical DMG. While the Active is in progress, stage and combat mode timers and paused. Host exits Burst mode after they finish casting the active. Entering or exiting Burst mode resets Weapon Skill CDs.
+[SP 소모: 0][재사용 대기 시간: 25초] 무기 스킬 [꽃망울] 사용 시, 공격력 200%+700.0%의 물리 대미지를 가하고, SP를 15pt, HP를 200 회복한다. 적의 특정 초식 기간, 무기 버튼이 깜빡일 때, 모든 조건을 무시하고 반격 던지기를 발동해 적을 제어하고 공격력 20%의 물리 대미지 + 공격력 800.0% 물리 대미지를 가한다, 이때 재사용 대기시간을 계산하지 않는다.
+성휘의 기사·월백이 사용 시, 폭발 상태의 무기 스킬이 특수 공격 [성창 개화]로 변경되어 공격력 200%+1,500.0%의 물리 대미지를 가하고, 무기 스킬과 필살기 스킬의 대미지로 간주해 추가로 30%의 크리티컬률을 획득하며, 스킬 종료 시 추가로 공격력 4\*10%의 물리 대미지를 가한다. 액티브 스킬 발동 기간 스테이지와 전투 상태의 카운트다운이 완전히 정지한다. 발동 후 폭발 상태가 해제되며, 폭발 상태 진입 또는 해제 모두 무기 스킬 재사용 대기시간을 초기화한다.
 
-## Samsara Reversal
+## 생멸역류
 
-The wielder gains 25.0% Crit Rate. While in Burst mode, the wielder increases Physical DMG by 35% for 15s; performing an Ultimate Evasion reduces the Ultimate Evasion CD by 2s and enables the next [Divine Bloom] attack to deal an additional 800.0% ATK of Physical DMG (2 stacks max).
+크리티컬률이 25.0% 증가한다. 폭발 상태 기간, 물리 대미지가 35% 증가한다, 지속 시간: 15초. 극한 회피 스킬 발동 시, 극한 회피 스킬의 재사용 대기시간이 2초 감소하며, 다음 [성창 개화]는 추가로 공격력 800.0%의 물리 대미지를 가한다. 최대 2스택 중첩
 
-## Creation And Destruction
+## 창생과 영락
 
-Ultimate CD is reduced by 20.0%.In burst mode, Crit DMG increases by 20.0% for 15s. If no enemy is defeated by [Divine Bloom], the DMG multiplier of the next [Fresh Bud] becomes 200% + 1200.0%.
+필살기 재사용 대기시간이 20.0% 감소한다.
+폭발 상태 기간 크리티컬 대미지가 20.0% 증가한다.
+지속 시간: 15초
+[성창 개화] 발동 과정에서 적을 처치하지 못하면, 다음 [꽃망울] 배율이 200%+1,200.0%로 증가한다.
 
-## Key of Creation
+## 창생의 열쇠
 
-In co-op raids, Valkyries deal 22.0% bonus Total DMG through weapon skills, Combo/Charged ATKs, and Ultimates. For 6s after casting a Weapon Active, Valkyries restore 1.5% max HP each time they deal DMG (can only be triggered one per second).
+멀티 RAID 스테이지에서 캐릭터의 무기 스킬, 분기 공격, 차지 공격, 필살기의 모든 대미지가 22.0% 증가하고, 캐릭터가 무기 액티브 스킬 사용 후 대미지를 가하면 최대 HP의 1.5%를 회복한다. 지속 시간: 6초(발동 간격 1초)

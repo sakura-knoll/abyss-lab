@@ -1,13 +1,14 @@
-# Whisper of the Past: Sonnet
+# 과거의 꽃잎·사랑의 시
 
-## Crystalline Seed
+## 수정의 씨
 
-[SP 소모: 0][재사용 대기 시간: 0초] Aim (up to 3s) and fire an arrow to deal 750.0% ATK of Physical DMG and create an explosion. The explosion deals 100.0% ATK of Physical DMG to nearby enemies and generates a crystalline force field that persists for 5s, reducing the Move Speed of enemies within it by 70%. Hitting a weakspot deals 850.0% DMG to the target, makes the explosion deal 50% ATK of bonus Physical DMG, and immobilizes enemies in the blast radius for 1s. Miss Pink Elf♪ equip bonus: If the target is carrying a Crystalline Seed, the explosion will spread seeds to surrounding enemies. The Weapon Active's CD and charging time depend on the shooting mode.
+[SP 소모: 0][재사용 대기 시간: 0초] 화살로 적을 조준 사격해(최대 3초 동안 조준), 목표에게 공격력 750.0%의 물리 대미지를 가하고, 목표 위치에 폭발을 1회 일으켜 주변 적에게 100.0%의 물리 대미지를 가한다. 또한 지상에 5초간 수정 결계를 생성하고, 결계 내 적의 이동 속도를 70% 감소시킨다. 목표의 약점 적중 시, 목표에게 가하는 대미지가 850.0%까지 증가한다. 폭발 대미지는 추가로 공격력 50%의 물리 대미지를 가하고, 폭발 범위 내의 적을 1초간 속박한다. 핑크 엘프양♪이 사용 시 얻는 추가 효과: 목표에게 [수정 꽃씨]가 있는 경우, 폭발 시 [수정 꽃시]가 주변 적에게 전파된다. 무기 액티브 스킬의 재사용 대기시간과 충전 시간은 장비 캐릭터의 사격 유형에 따라 결정된다.
 
-## Tender Ode
+## 시를 향한 사랑
 
-Using a Weapon Active or Charged ATK boosts Crit DMG by 30.0% for 3s. Triggering it again resets the duration. Charged ATKs deal 20% bonus Physical DMG.
+차지 공격이 가하는 물리 대미지가 20% 증가한다.
+무기 액티브 또는 차지 공격 발동 후, 크리티컬 대미지가 30.0% 증가한다. 지속 시간: 3초. 중복 발동 시 지속 시간을 갱신한다.
 
-## Crystalline Spikes
+## 사랑의 수정 가시
 
-Wielder deals 15.0% bonus Total DMG. Numerous spikes are generated 1s after the crystalline force field is created. The spikes deal 300.0% ATK of Physical DMG to enemies within range.
+캐릭터의 모든 대미지가 15.0% 증가하고, 수정 결계가 생성되고 1초 후 대량의 가시를 생성해 범위 내 적에게 300.0%의 물리 대미지를 가한다.

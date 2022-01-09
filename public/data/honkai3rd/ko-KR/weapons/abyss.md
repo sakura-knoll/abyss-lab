@@ -1,13 +1,13 @@
-# Abyss
+# 흑연
 
-## Sacred Obliteration
+## 인멸 심판
 
-[SP 소모: 0][재사용 대기 시간: 25초] Launches a thrust attack, dealing 50% ATK of Physical DMG. If the thrust hits an enemy who is not in Invincibility or Iron Body state, it triggers a Throw ATK, controlling the target and dealing 90% + 1,200.0% ATK of Physical DMG. While an enemy is executing certain moves, the wielder can unleash a Throw counter with no restrictions when the Weapon Skill button flashes, controlling the enemy and dealing 20% + 700.0% ATK of Physical DMG; this attack has no CD. Enemies hit by Throws take 10.0% bonus Physical DMG for 5s.
+[SP 소모: 0][재사용 대기 시간: 25초] 돌진 공격을 발동해 공격력 50%의 물리 대미지를 가한다. 슈퍼 아머/무적 상태가 아닌 적 명중 시, 던지기 공격이 발동되어 적을 제어하고 공격력 90%+1,200.0%의 물리 대미지를 가한다. 적의 특정 초식 기간, 무기 버튼이 번쩍일 때, 모든 조건을 무시하고 반격 던지기를 발동해 적을 제어하고 공격력 20%+700.0%의 물리 대미지를 가한다. 이때 재사용 대기시간을 계산하지 않는다. 던지기에 적중한 적이 받는 물리 대미지가 10.0% 증가한다. 지속 시간: 5초
 
-## Death to the Defeated
+## 패배는 곧 죽음
 
-Wielder deals 15.0% bonus Total DMG. Wielder has a 15.0% higher Crit Rate against impaired enemies.
+캐릭터의 모든 대미지가 15.0% 증가하고, 취약 상태의 적 공격 시 크리티컬률이 추가로 15.0% 증가한다.
 
-## Key of Creation
+## 창생의 열쇠
 
-In co-op raids, Valkyries deal 22.0% bonus Total DMG through weapon skills, Combo/Charged ATKs, and Ultimates. For 6s after casting a Weapon Active, Valkyries restore 1.5% max HP each time they deal DMG (can only be triggered once per second).
+멀티 RAID 스테이지에서 캐릭터의 무기 스킬, 분기 공격, 차지 공격, 필살기의 모든 대미지가 22.0% 증가하고, 캐릭터가 무기 액티브 스킬 사용 후 대미지를 가하면 최대 HP의 1.5%를 회복한다. 지속 시간: 6초(발동 간격 1초)
