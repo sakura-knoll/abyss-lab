@@ -1,5 +1,5 @@
 /** @jsxImportSource theme-ui */
-import { Box, Heading, Link, Flex, Text } from '@theme-ui/components'
+import { Box, Heading, Link, Flex, Text, Paragraph } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import GanttChart from '../../../components/organisms/GanttChart'
@@ -21,6 +21,8 @@ import { WeaponData } from '../../../lib/honkai3rd/weapons'
 import { SupplyEventData } from '../../../lib/honkai3rd/supplyEvents'
 import { VersionData } from '../../../lib/honkai3rd/versions'
 import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
+import { translate, useTranslation } from '../../../lib/i18n'
+import { useRouter } from 'next/router'
 
 interface VersionShowPageProps {
   versionData: VersionData
@@ -35,6 +37,9 @@ const VersionShowPage = ({
   weapons,
   supplyEvents,
 }: VersionShowPageProps) => {
+  const { t } = useTranslation()
+  const { locale } = useRouter()
+
   return (
     <Box>
       <Honkai3rdNavigator />
@@ -42,8 +47,8 @@ const VersionShowPage = ({
       <Box p={3}>
         <Breadcrumb
           items={[
-            { href: '/honkai3rd', label: 'Honkai 3rd' },
-            { href: '/honkai3rd/versions', label: 'Versions' },
+            { href: '/honkai3rd', label: t('breadcrumb.honkai-3rd') },
+            { href: '/honkai3rd/versions', label: t('breadcrumb.versions') },
             {
               href: `/honkai3rd/versions/${versionData.version}`,
               label: versionData.version,
@@ -57,7 +62,9 @@ const VersionShowPage = ({
                 href={`/honkai3rd/versions/${versionData.previousVersion}`}
                 passHref
               >
-                <Link>Previous (v{versionData.previousVersion})</Link>
+                <Link>
+                  {t('versions.previous')} (v{versionData.previousVersion})
+                </Link>
               </NextLink>
             )}
             {versionData.nextVersion != null && (
@@ -65,12 +72,19 @@ const VersionShowPage = ({
                 href={`/honkai3rd/versions/${versionData.nextVersion}`}
                 passHref
               >
-                <Link>Next (v{versionData.nextVersion})</Link>
+                <Link>
+                  {t('versions.next')} (v{versionData.nextVersion})
+                </Link>
               </NextLink>
             )}
           </Box>
           <Heading as='h1'>
-            v{versionData.version} : {versionData.name}
+            v{versionData.version} :{' '}
+            {translate(
+              locale,
+              { 'ko-KR': versionData.krName },
+              versionData.name
+            )}
           </Heading>
           <Box mb={4}>
             {formatDate(new Date(versionData.duration[0]), 'PP')} -{' '}
@@ -81,10 +95,16 @@ const VersionShowPage = ({
 
           <Box>
             <Heading as='h3' mb={2}>
-              New Battlesuits
+              {t('versions.new-battlesuits')}
             </Heading>
             <Box mb={3} sx={{ display: 'inline-block' }}>
               {battlesuits.map((battlesuit) => {
+                const battlesuitName = translate(
+                  locale,
+                  { 'ko-KR': battlesuit.krName },
+                  battlesuit.name
+                )
+
                 return (
                   <NextLink
                     key={battlesuit.id}
@@ -96,10 +116,10 @@ const VersionShowPage = ({
                         <SquareImageBox
                           size={40}
                           src={`/assets/honkai3rd/battlesuits/portrait-${battlesuit.id}.png`}
-                          alt={`${battlesuit.name}`}
+                          alt={`${battlesuitName}`}
                           mr={2}
                         />
-                        <Text>{battlesuit.name}</Text>
+                        <Text>{battlesuitName}</Text>
                       </Flex>
                     </Link>
                   </NextLink>
@@ -108,10 +128,15 @@ const VersionShowPage = ({
             </Box>
 
             <Heading as='h3' mb={2}>
-              New Weapons
+              {t('versions.new-weapons')}
             </Heading>
             <Box mb={3} sx={{ display: 'inline-block' }}>
               {weapons.map((weapon) => {
+                const weaponName = translate(
+                  locale,
+                  { 'ko-KR': weapon.krName },
+                  weapon.name
+                )
                 return (
                   <NextLink
                     key={weapon.id}
@@ -123,10 +148,10 @@ const VersionShowPage = ({
                         <SquareImageBox
                           size={40}
                           src={`/assets/honkai3rd/weapons/${weapon.id}.png`}
-                          alt={`${weapon.name}`}
+                          alt={`${weaponName}`}
                           mr={2}
                         />
-                        <Text>{weapon.name}</Text>
+                        <Text>{weaponName}</Text>
                       </Flex>
                     </Link>
                   </NextLink>
@@ -136,9 +161,9 @@ const VersionShowPage = ({
           </Box>
 
           <Heading as='h3' mb={2}>
-            Supply Events
+            {t('versions.supply-events')}
           </Heading>
-          <Box mb={4}>
+          <Box mb={2}>
             <ScrollContainer vertical={false}>
               <GanttChart
                 items={supplyEvents.map((supplyEventData) => {
@@ -177,6 +202,7 @@ const VersionShowPage = ({
               />
             </ScrollContainer>
           </Box>
+          <Paragraph mb={4}>{t('versions.supply-events-disclaimer')}</Paragraph>
         </Box>
       </Box>
     </Box>

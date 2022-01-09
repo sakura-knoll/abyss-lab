@@ -3,6 +3,7 @@ export interface VersionData {
   previousVersion?: string
   nextVersion?: string
   name: string
+  krName?: string
   duration: [string, string]
   verified: boolean
   newBattlesuits: string[]

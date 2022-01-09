@@ -1,5 +1,5 @@
 /** @jsxImportSource theme-ui */
-import { Box, Flex, Heading, Link, Text } from '@theme-ui/components'
+import { Box, Flex, Heading, Link, Text, Paragraph } from '@theme-ui/components'
 import NextLink from 'next/link'
 import SquareImageBox from '../../../components/atoms/SquareImageBox'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
@@ -21,6 +21,8 @@ import { VersionData } from '../../../lib/honkai3rd/versions'
 import { SupplyEventData } from '../../../lib/honkai3rd/supplyEvents'
 import { getI18NProps } from '../../../server/i18n'
 import { NextPageContext } from 'next'
+import { useTranslation, translate } from '../../../lib/i18n'
+import { useRouter } from 'next/router'
 
 interface VersionIndexPageProps {
   versionDataList: VersionData[]
@@ -37,6 +39,9 @@ const VersionIndexPage = ({
   currentVersionNewWeapons,
   currentVersionSupplyEvents,
 }: VersionIndexPageProps) => {
+  const { t } = useTranslation()
+  const { locale } = useRouter()
+
   return (
     <Box>
       <Honkai3rdNavigator />
@@ -55,7 +60,10 @@ const VersionIndexPage = ({
                 href={`/honkai3rd/versions/${currentVersionData.previousVersion}`}
                 passHref
               >
-                <Link>Previous (v{currentVersionData.previousVersion})</Link>
+                <Link>
+                  {t('versions.previous')} (v
+                  {currentVersionData.previousVersion})
+                </Link>
               </NextLink>
             )}
             {currentVersionData.nextVersion != null && (
@@ -63,14 +71,21 @@ const VersionIndexPage = ({
                 href={`/honkai3rd/versions/${currentVersionData.nextVersion}`}
                 passHref
               >
-                <Link>Next (v{currentVersionData.nextVersion})</Link>
+                <Link>
+                  {t('versions.next')} (v{currentVersionData.nextVersion})
+                </Link>
               </NextLink>
             )}
           </Box>
 
           <Heading as='h1'>
-            v{currentVersionData.version} : {currentVersionData.name}{' '}
-            <small>(Current Version)</small>
+            v{currentVersionData.version} :{' '}
+            {translate(
+              locale,
+              { 'ko-KR': currentVersionData.krName },
+              currentVersionData.name
+            )}{' '}
+            <small>({t('versions.current')})</small>
           </Heading>
           <Box mb={4}>
             {formatDate(new Date(currentVersionData.duration[0]), 'PP')} -{' '}
@@ -81,10 +96,16 @@ const VersionIndexPage = ({
 
           <Box>
             <Heading as='h3' mb={2}>
-              New Battlesuits
+              {t('versions.new-battlesuits')}
             </Heading>
             <Box mb={3} sx={{ display: 'inline-block' }}>
               {currentVersionNewBattlesuits.map((battlesuit) => {
+                const battlesuitName = translate(
+                  locale,
+                  { 'ko-KR': battlesuit.krName },
+                  battlesuit.name
+                )
+
                 return (
                   <NextLink
                     key={battlesuit.id}
@@ -96,10 +117,10 @@ const VersionIndexPage = ({
                         <SquareImageBox
                           size={40}
                           src={`/assets/honkai3rd/battlesuits/portrait-${battlesuit.id}.png`}
-                          alt={`${battlesuit.name}`}
+                          alt={`${battlesuitName}`}
                           mr={2}
                         />
-                        <Text>{battlesuit.name}</Text>
+                        <Text>{battlesuitName}</Text>
                       </Flex>
                     </Link>
                   </NextLink>
@@ -108,10 +129,15 @@ const VersionIndexPage = ({
             </Box>
 
             <Heading as='h3' mb={2}>
-              New Weapons
+              {t('versions.new-weapons')}
             </Heading>
             <Box mb={3} sx={{ display: 'inline-block' }}>
               {currentVersionNewWeapons.map((weapon) => {
+                const weaponName = translate(
+                  locale,
+                  { 'ko-KR': weapon.krName },
+                  weapon.name
+                )
                 return (
                   <NextLink
                     key={weapon.id}
@@ -123,10 +149,10 @@ const VersionIndexPage = ({
                         <SquareImageBox
                           size={40}
                           src={`/assets/honkai3rd/weapons/${weapon.id}.png`}
-                          alt={`${weapon.name}`}
+                          alt={`${weaponName}`}
                           mr={2}
                         />
-                        <Text>{weapon.name}</Text>
+                        <Text>{weaponName}</Text>
                       </Flex>
                     </Link>
                   </NextLink>
@@ -136,9 +162,9 @@ const VersionIndexPage = ({
           </Box>
 
           <Heading as='h3' mb={2}>
-            Supply Events
+            {t('versions.supply-events')}
           </Heading>
-          <Box mb={4}>
+          <Box mb={2}>
             <ScrollContainer vertical={false}>
               <GanttChart
                 items={currentVersionSupplyEvents.map((supplyEventData) => {
@@ -177,18 +203,11 @@ const VersionIndexPage = ({
               />
             </ScrollContainer>
           </Box>
-          <Box>
-            <NextLink
-              href={`/honkai3rd/versions/${currentVersionData.version}`}
-              passHref
-            >
-              <Link>Learn more...</Link>
-            </NextLink>
-          </Box>
+          <Paragraph mb={4}>{t('versions.supply-events-disclaimer')}</Paragraph>
         </Box>
 
         <Heading as='h2' mb={3}>
-          All Versions
+          {t('versions.all-versions')}
         </Heading>
         <Box>
           {versionDataList.map((versionData) => {
@@ -200,8 +219,13 @@ const VersionIndexPage = ({
                     passHref
                   >
                     <Link>
-                      {versionData.version} : {versionData.name} (
-                      {formatDate(new Date(versionData.duration[0]), 'PP')} -{' '}
+                      {versionData.version} :
+                      {translate(
+                        locale,
+                        { 'ko-KR': versionData.krName },
+                        versionData.name
+                      )}{' '}
+                      ({formatDate(new Date(versionData.duration[0]), 'PP')} -{' '}
                       {versionData.duration[1] != null
                         ? formatDate(new Date(versionData.duration[1]), 'PP')
                         : ''}
