@@ -8,10 +8,11 @@ import {
   Text,
   Box,
   IconButton,
+  Link,
 } from '@theme-ui/components'
 import NextLink from 'next/link'
 import { useRouter } from 'next/router'
-import { useEffect, useState } from 'react'
+import { useCallback, useState } from 'react'
 import { useTranslation } from '../../lib/i18n'
 import PageLink from '../atoms/PageLink'
 import SquareImageBox from '../atoms/SquareImageBox'
@@ -23,9 +24,9 @@ const Honkai3rdNavigator = () => {
 
   const [hiddenMobileNav, setHiddenMobileNav] = useState(true)
 
-  useEffect(() => {
+  const close = useCallback(() => {
     setHiddenMobileNav(true)
-  }, [router.pathname])
+  }, [])
 
   return (
     <Flex
@@ -91,17 +92,18 @@ const Honkai3rdNavigator = () => {
         </Flex>
 
         <Box>
-          <NavMobileItem href='/' label='Abyss Lab Home' />
+          <NavMobileItem href='/' label='Abyss Lab Home' close={close} />
           <NavMobileItem
             href='/honkai3rd'
             label={`${t('nav.honkai-3rd')} Home`}
+            close={close}
           />
 
-          <Honkai3rdNavMobileItem target='versions' />
-          <Honkai3rdNavMobileItem target='battlesuits' />
-          <Honkai3rdNavMobileItem target='weapons' />
-          <Honkai3rdNavMobileItem target='stigmata' />
-          <Honkai3rdNavMobileItem target='elfs' />
+          <Honkai3rdNavMobileItem target='versions' close={close} />
+          <Honkai3rdNavMobileItem target='battlesuits' close={close} />
+          <Honkai3rdNavMobileItem target='weapons' close={close} />
+          <Honkai3rdNavMobileItem target='stigmata' close={close} />
+          <Honkai3rdNavMobileItem target='elfs' close={close} />
         </Box>
       </Box>
       <Flex
@@ -192,17 +194,32 @@ const NavItem = ({ target }: NavItemProps) => {
   )
 }
 
-const Honkai3rdNavMobileItem = ({ target }: NavItemProps) => {
+interface Honkai3rdNavMobileItemProps {
+  target: 'versions' | 'battlesuits' | 'stigmata' | 'weapons' | 'elfs'
+  close: () => void
+}
+
+const Honkai3rdNavMobileItem = ({
+  target,
+  close,
+}: Honkai3rdNavMobileItemProps) => {
+  const { push } = useRouter()
   const { t } = useTranslation()
+  const href = `/honkai3rd/${target}`
   return (
     <PageLink
-      href={`/honkai3rd/${target}`}
+      href={href}
       sx={{
         fontFamily: 'monospace',
         display: 'flex',
         alignItems: 'center',
         overflow: 'hidden',
         mb: 2,
+      }}
+      onClick={(event) => {
+        event.preventDefault()
+        close()
+        push(href)
       }}
     >
       <SquareImageBox
@@ -227,11 +244,13 @@ const Honkai3rdNavMobileItem = ({ target }: NavItemProps) => {
 interface NavMobileItemProps {
   href: string
   label: string
+  close: () => void
 }
 
-const NavMobileItem = ({ href, label }: NavMobileItemProps) => {
+const NavMobileItem = ({ href, label, close }: NavMobileItemProps) => {
+  const { push } = useRouter()
   return (
-    <PageLink
+    <Link
       href={href}
       sx={{
         display: 'flex',
@@ -240,6 +259,11 @@ const NavMobileItem = ({ href, label }: NavMobileItemProps) => {
         height: 40,
         fontSize: 3,
         mb: 2,
+      }}
+      onClick={(event) => {
+        event.preventDefault()
+        close()
+        push(href)
       }}
     >
       <Flex
@@ -254,6 +278,6 @@ const NavMobileItem = ({ href, label }: NavMobileItemProps) => {
         <Icon path={mdiMenuRight} size={'30px'} />
       </Flex>
       <Text>{label}</Text>
-    </PageLink>
+    </Link>
   )
 }
