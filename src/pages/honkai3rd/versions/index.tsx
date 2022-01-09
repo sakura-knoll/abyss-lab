@@ -49,8 +49,8 @@ const VersionIndexPage = ({
       <Box p={3}>
         <Breadcrumb
           items={[
-            { href: '/honkai3rd', label: 'Honkai 3rd' },
-            { href: '/honkai3rd/versions', label: 'Versions' },
+            { href: '/honkai3rd', label: t('breadcrumb.honkai-3rd') },
+            { href: '/honkai3rd/versions', label: t('breadcrumb.versions') },
           ]}
         />
         <Box mb={4}>
@@ -219,7 +219,7 @@ const VersionIndexPage = ({
                     passHref
                   >
                     <Link>
-                      {versionData.version} :
+                      {versionData.version} :{' '}
                       {translate(
                         locale,
                         { 'ko-KR': versionData.krName },
