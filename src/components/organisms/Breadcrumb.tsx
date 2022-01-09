@@ -41,7 +41,15 @@ const Breadcrumb = ({ items }: BreadcrumbProps) => {
           >
             <Icon size={0.8} path={mdiChevronRight} />
             <NextLink passHref href={item.href}>
-              <NavLink>{item.label}</NavLink>
+              <NavLink
+                sx={{
+                  overflow: 'hidden',
+                  whiteSpace: 'nowrap',
+                  textOverflow: 'ellipsis',
+                }}
+              >
+                {item.label}
+              </NavLink>
             </NextLink>
           </React.Fragment>
         )
