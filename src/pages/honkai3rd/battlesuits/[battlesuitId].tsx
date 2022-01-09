@@ -103,7 +103,7 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
               <TypeLabel type={battlesuit.type} />
             </PageLink>
           </Box>
-          <Flex p={2}>
+          <Flex p={2} sx={{ flexWrap: 'wrap', rowGap: 1 }}>
             {battlesuit.features.map((feature) => {
               return (
                 <Box mr={2} key={feature}>
