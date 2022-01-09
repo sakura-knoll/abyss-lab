@@ -1,5 +1,5 @@
-# Murata Himeko (중)
+# 무라타 히메코 (중)
 
-##
+## 질풍의 촛불
 
-Boosts Max HP by 25.0%. When the host loses HP, enemies take 20.0% bonus Fire DMG from the host for 8.0s (independent effect; triggering it again resets the duration).
+최대 HP가 25.0% 증가한다. 캐릭터 HP가 감소하면 전장의 적이 받는 해당 캐릭터의 화염 원소 대미지가 20.0% 증가한다. 지속 시간: 8.0초(해당 효과는 독립적인 추가 효과이며, 중복 발동 시 갱신된다)

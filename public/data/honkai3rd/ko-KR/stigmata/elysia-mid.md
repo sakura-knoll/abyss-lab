@@ -1,5 +1,5 @@
-# Elysia (중)
+# 엘리시아 (중)
 
-##
+## 요정 같은 날렵함
 
-Physical DMG increases by 30.0%. Ultimate Evasion Skill has 20.0% shorter CD.
+물리 대미지가 30.0% 증가하고, 극한 회피 스킬 재사용 대기시간이 20.0% 감소한다.

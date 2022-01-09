@@ -1,11 +1,11 @@
-# Murata Himeko
+# 무라타 히메코
 
-Blazing Legacy Set
+화염의 계승 세트
 
-## Rebellious Fire 2 세트
+## 투쟁의 화염 2 세트
 
-In Herrscher form, a stack granted by the B-pc of this set provides another 15.0% bonus Fire DMG. The host takes 45.0% less Indirect DMG at below 60% HP.
+율자 형태에서 해당 세트 하 부위 성흔의 화염 원소 대미지 효과가 증가하고, 스택마다 추가로 15.0% 증가한다. HP가 60% 미만일 경우, 받는 간접 대미지가 45.0% 감소한다.
 
-## Everlasting Flames 3 세트
+## 영원한 신염 3 세트
 
-Boosts Total DMG by 20.0%. When the host loses HP, her next attack will deal 100% ATK of Fire DMG to surrounding enemies, which on hit boosts her Total DMG by 10.0% for 10s (CD: 2s; triggering it again resets the duration).
+모든 대미지가 20.0% 증가한다. 캐릭터 HP가 감소하면 다음 공격 시 주변 적에게 공격력 100.0%의 화염 원소 대미지를 가하고, 적중 시 가하는 모든 대미지가 10.0% 증가한다. 지속 시간: 10초, 중복 발동 시 지속 기간 갱신, 재사용 대기 시간: 2초

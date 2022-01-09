@@ -1,5 +1,5 @@
-# Linnaeus (상)
+# 린네 (상)
 
-##
+## 자연 시스팀
 
-Host and her summoned entities deal 24.0% bonus Total DMG, and further 15.0% bonus Total DMG for 3.5s after landing a Combo ATK.
+자신 및 소환물의 모든 대미지가 24.0% 증가하고, 분기 공격이 적에게 적중 시 3.5초간 추가로 15.0% 증가한다.

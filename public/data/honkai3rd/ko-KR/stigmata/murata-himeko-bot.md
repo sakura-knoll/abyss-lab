@@ -1,5 +1,5 @@
-# Murata Himeko (하)
+# 무라타 히메코 (하)
 
-##
+## 진홍의 열염
 
-Boosts Total DMG by 10.0%. The host gains 1 stack of buff that boosts her Fire DMG by 10.0% (max 4 stacks) for every 10% HP she loses.
+모든 대미지가 10.0% 증가하고, 캐릭터 HP가 10% 감소할 때마다 강화 1스택을 획득한다. 화염 원소 대미지가 10.0% 증가한다. 최대 4스택 중첩

@@ -1,11 +1,11 @@
-# Elysia
+# 엘리시아
 
-Pristine Elf Set
+무결의 요정 세트
 
-## Crystal Prayers 2 Pieces
+## 수정의 기도 2세트
 
-Total DMG increases by 25.0%. On hit, Charged ATKs make every attack in the next 5s deal 20.0% ATK of Physical DMG (can only be triggered once every 0.3s on each target). Host takes 20.0% less Total DMG from enemies within 5 meters.
+모든 대미지가 25.0% 증가한다. 차지 공격으로 적 적중 시, 5초 동안 공격마다 공격력 20.0%의 물리 대미지를 추가로 가한다. 목표당 발동 간격: 0.3초. 5m이내 적에게 받는 모든 대미지가 20.0% 감소한다.
 
-## Blessed Realm 3 Pieces
+## 신이 보우하는 낙원 3세트
 
-Crit DMG from ranged attacks increases by 30.0%. Casting Ultimate makes ranged attacks deal 20.0% ATK of bonus Physical DMG (can only be triggered once every 0.3s on each target) for 10.0s (hitting enemies with Charged ATKs extends the duration by 1s for up to 10s of extension). Charged ATKs restore 200 HP on hit. CD: 5s.
+원거리 공격의 크리티컬 대미지가 30.0% 증가한다. 필살기 발동 후, 캐릭터의 원거리 공격은 공격력 20.%의 물리 대미지를 추가로 가한다. 목표당 발동 간경: 0.3초, 지속 시간: 10.0초. 차지 공격으로 적을 적중할 때마다 해당 효과가 1초 연장된다. 최대 연장: 10초. 차지 공격이 적에게 적중 시 HP를 200 회복한다. 재사용 대기시간: 5초

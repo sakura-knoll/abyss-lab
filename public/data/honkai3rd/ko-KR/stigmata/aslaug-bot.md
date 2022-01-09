@@ -1,5 +1,5 @@
-# Aslaug (하)
+# 아슬라우그 (하)
 
-##
+## 뱀의 예언
 
-Fire DMG increases by 20.0%. On hit, Ultimate inflicts Feathered state on enemies for 8s and makes them take 20.0% bonus Elemental DMG. Triggering it again resets the duration.
+화염 원소 대미지가 20.0% 증가한다. 필살기가 적에게 적중 시 목표에게 8초간 [까마귀 깃털] 상태를 부여해 받는 모든 원소 대미지를 20.0% 증가시킨다. 중복 발동 시 지속 시간을 갱신한다.

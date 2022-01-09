@@ -1,5 +1,5 @@
-# Aslaug (중)
+# 아슬라우그 (중)
 
-##
+## 옷으로 가린 그물
 
-Fire DMG increases by 20.0%. Every hit (CD: 1s) boosts host's Total DMG by 5.0% for 5s. 6 stacks max. Triggering it again resets the duration. Switching out removes all stacks. With host on standby, team deals 20.0% bonus Fire DMG. Skill effects cannot stack.
+화염 원소 대미지가 20.0% 증가한다. 공격이 적에게 적중할 때마다(재사용 대기시간 1초) 자신의 모든 대미지가 5초간 5.0% 증가한다, 지속 시간: 5초, 최대 6스택 중첩. 중첩할 때마다 지속시간이 갱신되며, 퇴장 시 중첩 효과가 갱신된다. 캐릭터가 대기 상태일 때, 파티원 캐릭터의 화염 원소 대미지가 20.0% 증가한다. 해당 스킬은 하나만 적용되며 중첩할 수 없다.

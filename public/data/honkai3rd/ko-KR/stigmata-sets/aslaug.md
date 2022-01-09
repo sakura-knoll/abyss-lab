@@ -4,8 +4,8 @@
 
 ## 기구한 운명 2세트
 
-Total DMG increases by 15.0%. Enemies in Feathered state take 30.0% bonus Elemental DMG instead. Team deals 12.0% bonus Total DMG. Skill effects cannot stack.
+모든 대미지가 15.0% 증가하고, [까마귀 깃털] 상태의 적이 받는 모든 원소 대미지가 30.0%까지 증가한다. 파티원 캐릭터의 모든 대미지가 12.0% 증가한다. 해당 스킬은 하나만 적용되며 중첩할 수 없다.
 
 ## 까마귀 여왕 3세트
 
-Charged ATKs boost Total DMG by 20.0% on hit for 15s. Triggering it again resets the duration. With host on standby, team deals 30.0% bonus Fire DMG. Skill effects cannot stack.
+차지 공격 적중 시, 모든 대미지가 15초간 20.0% 증가한다. 중복 발동 시 지속시간이 갱신된다. 캐릭터가 대기 상태일 경우, 파티원의 화염 원소 대미지가 30.0% 증가한다. 해당 스킬은 하나만 적용되며 중첩할 수 없다.

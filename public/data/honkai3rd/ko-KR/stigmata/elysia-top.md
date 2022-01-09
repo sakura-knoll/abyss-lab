@@ -1,5 +1,5 @@
-# Elysia (상)
+# 엘리시아 (상)
 
-##
+## 화살 같은 냉혹함
 
-Physical DMG increases by 25.0%. Crit DMG from Basic/Combo/Charged ATKs increases by 20.0%.
+물리 대미지가 25.0% 증가하고, 기본 공격(분기 및 차지 포함) 크리티컬 대미지가 20.0% 증가한다.

@@ -1,5 +1,5 @@
-# Murata Himeko (상)
+# 무라타 히메코 (상)
 
-##
+## 극지의 봉화
 
-Boosts Total DMG by 20.0%. Boosts Fire DMG by 50.0% in Herrscher Form.
+모든 대미지가 20.0% 증가하고, 율자 상태에서 화염 원소 대미지가 50.0% 증가한다.

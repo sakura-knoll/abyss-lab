@@ -1,5 +1,5 @@
-# Linnaeus (중)
+# 린네 (중)
 
-##
+## 식물속지
 
-Host and her summoned entities deal 45.0% bonus Lightning DMG. Host takes 30.0% less DMG from enemies 3 meters away or further.
+자신 및 소환물의 뇌전 원소 대미지가 45.0% 증가하고, 캐릭터가 3미터 밖의 적에게 받는 대미지가 30.0% 감소한다.

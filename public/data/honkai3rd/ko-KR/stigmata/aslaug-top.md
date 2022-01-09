@@ -1,5 +1,5 @@
-# Aslaug (상)
+# 아슬라우그 (상)
 
-##
+## 은거의 하프
 
-Fire DMG increases by 20.0%. Team deals 20.0% bonus Elemental DMG to enemies in Feathered state. Skill effects cannot stack.
+화염 원소 대미지가 20.0% 증가하고, 파티원 캐릭터는 [까마귀 깃털] 상태의 적 공격 시 모든 원소 대미지가 20.0% 증가한다. 해당 스킬은 하나만 적용되며 중첩할 수 없다.
