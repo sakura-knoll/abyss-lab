@@ -2,11 +2,11 @@
 
 Sengoku Hime Set
 
-## Flame Wreath 2 Pieces
+## Flame Wreath 2 세트
 
 When exiting, unleash a 4-meter radius Flame Blossom that deals 200% ATK of Fire DMG to nearby enemies. CD: 30s.
 Kiana or Kallen equip bonus: Release 2 Flame Blossoms.
 
-## Summer Wave 3 Pieces
+## Summer Wave 3 세트
 
 Flame Wreath radius is expanded by 2 meters and gains 200% ATK of Fire DMG. Each Flame Wreath ignites enemies for 5s, dealing 30% ATK of Fire DMG every 0.5s.

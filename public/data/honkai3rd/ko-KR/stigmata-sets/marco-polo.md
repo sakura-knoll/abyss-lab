@@ -2,10 +2,10 @@
 
 Emilione Set
 
-## Khan's Envoy 2 Pieces
+## Khan's Envoy 2 세트
 
 When Combo Hit exceeds 25, Combo or Charged ATKs deal 250% ATK of bonus Physical DMG on hit. CD: 5s.
 
-## Book of Marvels 3 Pieces
+## Book of Marvels 3 세트
 
 When Combo Hit exceeds 25 host heals 200 HP per 5s.

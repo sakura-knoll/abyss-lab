@@ -2,10 +2,10 @@
 
 Writer Set
 
-## Shadow Shield 2 Pieces
+## Shadow Shield 2 세트
 
 Receive a shield upon entering the battlefield that can absorb all DMG equal to 15% of the host's Max HP (max: 1800 HP). While the shield is in effect, the host gains 40% Crit DMG. When broken, the shield reappears after 15s.
 
-## Shadow Blade 3 Pieces
+## Shadow Blade 3 세트
 
 Melee attacks gain 20% Total DMG Multiplier.
