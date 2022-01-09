@@ -1,5 +1,6 @@
 /** @jsxImportSource theme-ui */
 import { Box, Heading, Text, Flex, Link } from '@theme-ui/components'
+import { useCallback, useEffect, useState } from 'react'
 import Breadcrumb from '../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../components/organisms/Honkai3rdNavigator'
 import { NextPageContext } from 'next'
@@ -10,8 +11,35 @@ import SquareImageBox from '../../components/atoms/SquareImageBox'
 import { mdiGithub } from '@mdi/js'
 import { Icon } from '@mdi/react'
 
+const bannerValkyries = [
+  'kiana',
+  'mei',
+  'bronya',
+  'theresa',
+  'fuhua',
+  'bianka',
+  'rita',
+  'carole',
+]
+
 const Honkai3rdIndexPage = () => {
   const { t } = useTranslation()
+  const [bannerIndex, setBannerIndex] = useState(0)
+
+  const switchBanner = useCallback(() => {
+    setBannerIndex((previousBannerIndex) => {
+      return (previousBannerIndex + 1) % bannerValkyries.length
+    })
+  }, [])
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      switchBanner()
+    }, 5000)
+    return () => {
+      clearTimeout(timer)
+    }
+  }, [bannerIndex, switchBanner])
 
   return (
     <Box>
@@ -21,7 +49,21 @@ const Honkai3rdIndexPage = () => {
         <Breadcrumb
           items={[{ href: 'honkai3rd', label: t('breadcrumb.honkai-3rd') }]}
         />
-        <Heading as='h1'>{t('nav.honkai-3rd')}</Heading>
+        <Heading as='h1'>{t('nav.honkai-3rd')} </Heading>
+
+        <Box
+          sx={{ position: 'relative', mb: 3, width: 280, height: 280 }}
+          onClick={switchBanner}
+        >
+          {bannerValkyries.map((valkyrie, index) => (
+            <BannerItem
+              key={valkyrie}
+              valkyrie={valkyrie}
+              active={bannerIndex === index}
+            />
+          ))}
+        </Box>
+
         <Box mb={3}>
           <NavItem target='versions' />
           <NavItem target='battlesuits' />
@@ -78,6 +120,34 @@ const NavItem = ({ target }: NavItemProps) => {
           </Flex>
         </Box>
       </PageLink>
+    </Box>
+  )
+}
+
+interface BannerItemProps {
+  valkyrie: string
+  active: boolean
+}
+
+const BannerItem = ({ valkyrie, active }: BannerItemProps) => {
+  return (
+    <Box
+      className={active ? 'active' : ''}
+      sx={{
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: 280,
+        height: 280,
+        opacity: 0,
+        transition: 'opacity 500ms ease-in-out',
+        '&.active': { opacity: 1 },
+      }}
+    >
+      <SquareImageBox
+        size={280}
+        src={`/assets/honkai3rd/banner-${valkyrie}.png`}
+      />
     </Box>
   )
 }
