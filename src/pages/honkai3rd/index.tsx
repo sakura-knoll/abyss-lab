@@ -1,6 +1,5 @@
 /** @jsxImportSource theme-ui */
-import { Box, Heading, Text, Flex } from '@theme-ui/components'
-import Image from 'next/image'
+import { Box, Heading, Text, Flex, Link } from '@theme-ui/components'
 import Breadcrumb from '../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../components/organisms/Honkai3rdNavigator'
 import { NextPageContext } from 'next'
@@ -8,6 +7,8 @@ import { getI18NProps } from '../../server/i18n'
 import { useTranslation } from '../../lib/i18n'
 import PageLink from '../../components/atoms/PageLink'
 import SquareImageBox from '../../components/atoms/SquareImageBox'
+import { mdiGithub } from '@mdi/js'
+import { Icon } from '@mdi/react'
 
 const Honkai3rdIndexPage = () => {
   const { t } = useTranslation()
@@ -28,14 +29,19 @@ const Honkai3rdIndexPage = () => {
           <NavItem target='stigmata' />
           <NavItem target='elfs' />
         </Box>
-        <Box mb={3} sx={{ position: 'relative', minHeight: 300 }}>
-          <Image
-            alt='Honkai 3rd Wallpaper'
-            src='/assets/honkai3rd/wallpaper.png'
-            width={640}
-            height={360}
-            layout='responsive'
-          />
+
+        <Box>
+          <Link
+            href='https://github.com/sakura-knoll/abyss-lab'
+            target='_blank'
+            rel='noopener noreferrer'
+            sx={{ display: 'flex', alignItems: 'center' }}
+          >
+            <Box sx={{ display: 'flex', alignItems: 'center', mr: 1 }}>
+              <Icon path={mdiGithub} size='1rem' />
+            </Box>
+            <Text>Source Code</Text>
+          </Link>
         </Box>
       </Box>
     </Box>
