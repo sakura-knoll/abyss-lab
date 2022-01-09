@@ -132,6 +132,7 @@ export function getStigmataSetBySetId(setId: string) {
 
 function parseStigmataData(rawData: string) {
   const [name, skillName, skillDescription] = rawData
+    .replace(/\\\*/g, '')
     .split('\n\n')
     .map((data) => data.replace(/#+\s/, '').trim())
 
@@ -152,7 +153,10 @@ function parseStigmataSetData(rawData: string) {
     twoSetSkillDescription,
     threeSetSkillName,
     threeSetSkillDescription,
-  ] = rawData.split('\n\n').map((data) => data.replace(/#+\s/, '').trim())
+  ] = rawData
+    .replace(/\\\*/g, '')
+    .split('\n\n')
+    .map((data) => data.replace(/#+\s/, '').trim())
 
   return {
     name,
