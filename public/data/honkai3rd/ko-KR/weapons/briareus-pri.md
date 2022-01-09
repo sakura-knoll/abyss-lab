@@ -10,4 +10,4 @@ Missile hits have a 10% chance to stun / paralyze / freeze the target for 2s and
 
 ## Time Trap
 
-[SP: 18][CD: 24s] Rips open a Time Trap field in front of the character. Enemies within the AOE suffer Time Slow and 50% reduced DEF for 6.20s.
+[SP 소모: 18][재사용 대기 시간: 24초] Rips open a Time Trap field in front of the character. Enemies within the AOE suffer Time Slow and 50% reduced DEF for 6.20s.

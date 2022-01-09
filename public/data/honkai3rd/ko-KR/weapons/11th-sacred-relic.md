@@ -2,7 +2,7 @@
 
 ## Holy Blades
 
-[SP: 18][CD: 15s] Deploys the weapon. Nearby allies gain 10.0% Crit Rate for 10s. Drops a shower of blades on enemies within the AOE every 1s. Sword rain deals 5x50.0% ATK of Physical DMG to enemies within a small AOE.
+[SP 소모: 18][재사용 대기 시간: 15초] Deploys the weapon. Nearby allies gain 10.0% Crit Rate for 10s. Drops a shower of blades on enemies within the AOE every 1s. Sword rain deals 5x50.0% ATK of Physical DMG to enemies within a small AOE.
 
 ## Divine Heal
 

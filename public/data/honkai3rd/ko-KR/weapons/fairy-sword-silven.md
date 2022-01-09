@@ -2,7 +2,7 @@
 
 ## Wind Enchantment
 
-[SP: 17][CD: 38s] Creates a field that boosts all allies within the AOE so that they gain 25% Attack Speed, 20% Move Speed, and damage by 10% Total DMG Multiplier to their attacks for 20s.
+[SP 소모: 17][재사용 대기 시간: 38초] Creates a field that boosts all allies within the AOE so that they gain 25% Attack Speed, 20% Move Speed, and damage by 10% Total DMG Multiplier to their attacks for 20s.
 
 ## Power of Wind
 

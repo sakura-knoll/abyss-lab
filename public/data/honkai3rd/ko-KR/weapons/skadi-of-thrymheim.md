@@ -2,7 +2,7 @@
 
 ## Everwinter
 
-[SP: 0][CD: 11s] Large AOE ATK dealing 3x170% ATK of Ice DMG. Within the next 8s, affected enemies' first attack against the wielder deal 45% less Total DMG. Can be charged twice.
+[SP 소모: 0][재사용 대기 시간: 11초] Large AOE ATK dealing 3x170% ATK of Ice DMG. Within the next 8s, affected enemies' first attack against the wielder deal 45% less Total DMG. Can be charged twice.
 
 ## Ice Spirit
 

@@ -2,7 +2,7 @@
 
 ## Goka Fire
 
-[SP: 20][CD: 20s] Unleash the true powers of Shamash by consuming one's life force. Hits using the character's Basic, Combo, Charged, and Ultimate ATKs will deal an additional 500 Fire DMG. CD: 0.3s. After using the skill, lose 2% Max HP per second. If current HP is below 50%, lose 1% Max HP per second instead. Duration: 10s. Character will not die from the skill.
+[SP 소모: 20][재사용 대기 시간: 20초] Unleash the true powers of Shamash by consuming one's life force. Hits using the character's Basic, Combo, Charged, and Ultimate ATKs will deal an additional 500 Fire DMG. CD: 0.3s. After using the skill, lose 2% Max HP per second. If current HP is below 50%, lose 1% Max HP per second instead. Duration: 10s. Character will not die from the skill.
 
 ## Nirvana
 

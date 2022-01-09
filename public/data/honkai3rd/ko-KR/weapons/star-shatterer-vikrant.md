@@ -6,4 +6,4 @@ Rapid-fire weapon that deals continuous DMG to targets along a straight line of 
 
 ## Distortion Field
 
-[SP: 21][CD: 30s] Generate a field lasting 7s that inflicts upon enemies 50.0% Move Slow, 150% ATK of Physical DMG per second, and slowly drags them towards the center of the field. If not weakened, the enemy also suffers Weaken (ATK is reduced by 10%) for 3s.
+[SP 소모: 21][재사용 대기 시간: 30초] Generate a field lasting 7s that inflicts upon enemies 50.0% Move Slow, 150% ATK of Physical DMG per second, and slowly drags them towards the center of the field. If not weakened, the enemy also suffers Weaken (ATK is reduced by 10%) for 3s.

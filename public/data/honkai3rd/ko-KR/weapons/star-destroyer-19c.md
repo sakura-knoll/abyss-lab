@@ -10,4 +10,4 @@ Each missile or scatter shot shell that hits an enemy from the back gains 40% Cr
 
 ## Rapid Strike
 
-[SP: 25][CD: 12s] Directly fires a scatter shot of 18 cannon shells, each shell dealing 75.0% ATK of Physical DMG, knocks enemies airborne, and ignites them. Ignited enemies receive 600 Fire DMG every 0.5s for 4s.
+[SP 소모: 25][재사용 대기 시간: 12초] Directly fires a scatter shot of 18 cannon shells, each shell dealing 75.0% ATK of Physical DMG, knocks enemies airborne, and ignites them. Ignited enemies receive 600 Fire DMG every 0.5s for 4s.

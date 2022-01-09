@@ -6,4 +6,4 @@ Rapid-fire weapon that deals continuous DMG to targets along a straight line of 
 
 ## Inferno Breath
 
-[SP: 5][CD: 15s] Wielder gains 10% Crit Rate and 25% Crit DMG for 10s. Attacks no longer cause overheating. However, wielder loses HP equal to 2% Max HP per second.
+[SP 소모: 5][재사용 대기 시간: 15초] Wielder gains 10% Crit Rate and 25% Crit DMG for 10s. Attacks no longer cause overheating. However, wielder loses HP equal to 2% Max HP per second.

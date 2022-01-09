@@ -2,7 +2,7 @@
 
 ## Positronic Beam
 
-[SP: 0][CD: 20s] Upon hitting enemies, each hit deals 600% Physical DMG, paralyzing all targest for 6.0s. Can be charged twice. Knight Moonbeam equip bonus: Tap [ATK] right after casting the weapon active to directly unleash Combo ATK. All enemies hit by the Positronic Beam suffer 20.0% Physical Vulnerability for 8s. Trigger this effect repeatedly to extend the duration, but the effect cannot stack.
+[SP 소모: 0][재사용 대기 시간: 20초] Upon hitting enemies, each hit deals 600% Physical DMG, paralyzing all targest for 6.0s. Can be charged twice. Knight Moonbeam equip bonus: Tap [ATK] right after casting the weapon active to directly unleash Combo ATK. All enemies hit by the Positronic Beam suffer 20.0% Physical Vulnerability for 8s. Trigger this effect repeatedly to extend the duration, but the effect cannot stack.
 
 ## Leaping Arc
 

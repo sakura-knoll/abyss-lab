@@ -2,7 +2,7 @@
 
 ## Shamash Assault
 
-[SP: 20][CD: 35s] Smite the enemies in front of the character with the Judgment of Shamash. Enemies take 100% ATK + 1,984x2 Fire DMG, have their Attack and Move Speeds slowed by 30%, suffer 15% more Total DMG Multiplier from hits, receive 936 Fire DMG per second, and have a 10% chance of being stunned for 2.5s. Debuff duration: 15s.While activated, character gains Iron Body and 80% Total DMG Reduction. When the skill is active, character loses 13% Max HP/s for 5s but will not die from this effect. Skill cannot be cast when HP is below 33%.
+[SP 소모: 20][재사용 대기 시간: 35초] Smite the enemies in front of the character with the Judgment of Shamash. Enemies take 100% ATK + 1,984x2 Fire DMG, have their Attack and Move Speeds slowed by 30%, suffer 15% more Total DMG Multiplier from hits, receive 936 Fire DMG per second, and have a 10% chance of being stunned for 2.5s. Debuff duration: 15s.While activated, character gains Iron Body and 80% Total DMG Reduction. When the skill is active, character loses 13% Max HP/s for 5s but will not die from this effect. Skill cannot be cast when HP is below 33%.
 
 ## Ember
 

@@ -2,7 +2,7 @@
 
 ## Key of Sentience
 
-[SP: 0][CD: 26s] Unleash the Key of Sentience's power to immobilize enemies nearby for up to 8s (up to 3s against elite enemies or bosses). 1s after being attacked by wielder or her teammates, the immobilized target and enemies nearby will recover and take 2,150% ATK of Fire DMG (each enemy only takes the damage once).
+[SP 소모: 0][재사용 대기 시간: 26초] Unleash the Key of Sentience's power to immobilize enemies nearby for up to 8s (up to 3s against elite enemies or bosses). 1s after being attacked by wielder or her teammates, the immobilized target and enemies nearby will recover and take 2,150% ATK of Fire DMG (each enemy only takes the damage once).
 
 ## Flaming Feather
 

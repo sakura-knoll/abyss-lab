@@ -2,7 +2,7 @@
 
 ## Flame Spirit
 
-[SP: 15][CD: 12s] Summons a Flame Fairy that launches fire balls at nearby targets. Each fire ball deals 960 Fire DMG to enemies in a small AOE. The Flame Fairy lasts for 10s. Stores 2 charges.
+[SP 소모: 15][재사용 대기 시간: 12초] Summons a Flame Fairy that launches fire balls at nearby targets. Each fire ball deals 960 Fire DMG to enemies in a small AOE. The Flame Fairy lasts for 10s. Stores 2 charges.
 
 ## Flame Ring
 

@@ -2,7 +2,7 @@
 
 ## Nocturnal Bite
 
-[SP: 0][CD: 7s] Use chain claws to grapple the target towards the wielder or send the wielder to the target and perform scythe slashes dealing 100% + 900.0% ATK of Ice DMG. Starchasm Nyx equip bonus: Scythe slashes restore 1 Carmine Gash and can be connected into Sequence 4 of Basic ATK. In her Burst mode, the weapon active is changed to slamming the area in front of her and dragging enemies nearby to her dealing 900.0%+4x40% ATK of Ice DMG. Entering and exiting burst mode both reset the weapon active's cooldown.
+[SP 소모: 0][재사용 대기 시간: 7초] Use chain claws to grapple the target towards the wielder or send the wielder to the target and perform scythe slashes dealing 100% + 900.0% ATK of Ice DMG. Starchasm Nyx equip bonus: Scythe slashes restore 1 Carmine Gash and can be connected into Sequence 4 of Basic ATK. In her Burst mode, the weapon active is changed to slamming the area in front of her and dragging enemies nearby to her dealing 900.0%+4x40% ATK of Ice DMG. Entering and exiting burst mode both reset the weapon active's cooldown.
 
 ## Peek into the Abyss
 

@@ -2,7 +2,7 @@
 
 ## Crosscut Storm
 
-[SP: 0][CD: 24s] Unleashes 2 successive blade waves, dealing up to 8x25% ATK of Physical DMG to enemies in their paths. The blade waves explode when they cross, dealing 350% ATK of Physical DMG and stunning enemies for 6.00s.
+[SP 소모: 0][재사용 대기 시간: 24초] Unleashes 2 successive blade waves, dealing up to 8x25% ATK of Physical DMG to enemies in their paths. The blade waves explode when they cross, dealing 350% ATK of Physical DMG and stunning enemies for 6.00s.
 
 ## Sacred Rule
 

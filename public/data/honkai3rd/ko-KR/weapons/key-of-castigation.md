@@ -2,7 +2,7 @@
 
 ## Thunder Edge
 
-[SP: 5][CD: 25s] Unleashes a powerful forward slash with the lightning-imbued blade, dealing 700% ATK of Lightning DMG and paralyzing enemies for 3s. When equipped by Herrscher of Thunder, it also inflicts Narukami's Mark on enemies hit for 15s.
+[SP 소모: 5][재사용 대기 시간: 25초] Unleashes a powerful forward slash with the lightning-imbued blade, dealing 700% ATK of Lightning DMG and paralyzing enemies for 3s. When equipped by Herrscher of Thunder, it also inflicts Narukami's Mark on enemies hit for 15s.
 
 ## Thunder Blitz
 

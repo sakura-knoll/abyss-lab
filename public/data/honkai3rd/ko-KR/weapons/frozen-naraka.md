@@ -2,7 +2,7 @@
 
 ## Utpala Aura
 
-[SP: 0][CD: 25s] Generates a 12s Field that moves with the wielder. In the AOE, the wielder gains Ignore Interrupt and 50% Total DMG Reduction. Enemies in AOE take 25.0% more Ice DMG and gradually lose Movement Speed and ATK Speed till they freeze. Tap the Weapon Skill button again to unleash a Special ATK (1 time per Field) that deals 300% + 800% ATK of Ice DMG against enemies in front. CD starts only after the Field disappears.
+[SP 소모: 0][재사용 대기 시간: 25초] Generates a 12s Field that moves with the wielder. In the AOE, the wielder gains Ignore Interrupt and 50% Total DMG Reduction. Enemies in AOE take 25.0% more Ice DMG and gradually lose Movement Speed and ATK Speed till they freeze. Tap the Weapon Skill button again to unleash a Special ATK (1 time per Field) that deals 300% + 800% ATK of Ice DMG against enemies in front. CD starts only after the Field disappears.
 
 ## Frigid Incense
 

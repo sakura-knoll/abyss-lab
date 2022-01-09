@@ -2,7 +2,7 @@
 
 ## Implosion Core
 
-[SP: 0][CD: 20s] Summons Implosion Core to crush enemies dealing 150% ATK of Physical DMG and explode later, dealing 360% ATK of Physical DMG. When it is equipped on Herrscher of the Void, she restores 60 Herrscher Charge; Implosion Core attacks become Heavy ATKs and deal 40.0%s bonus damage against shield. Implosion Core generates a Space Core whose explosion benefits from Herrscher of the Void's skill bonuses and deals 200% ATK of bonus Physical DMG. An Implosion Core is also summoned upon Herrscher of the Void entering Herrscher Form (does not generate Space Core on hit).
+[SP 소모: 0][재사용 대기 시간: 20초] Summons Implosion Core to crush enemies dealing 150% ATK of Physical DMG and explode later, dealing 360% ATK of Physical DMG. When it is equipped on Herrscher of the Void, she restores 60 Herrscher Charge; Implosion Core attacks become Heavy ATKs and deal 40.0%s bonus damage against shield. Implosion Core generates a Space Core whose explosion benefits from Herrscher of the Void's skill bonuses and deals 200% ATK of bonus Physical DMG. An Implosion Core is also summoned upon Herrscher of the Void entering Herrscher Form (does not generate Space Core on hit).
 
 ## Void Sigil
 

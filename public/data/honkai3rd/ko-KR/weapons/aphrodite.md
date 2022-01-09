@@ -2,7 +2,7 @@
 
 ## Thorny Rose
 
-[SP: 13][CD: 8s] Blink and appear behind the target foe to deal 400%+8*50% ATK of Physical DMG to all nearby enemies.
+[SP 소모: 13][재사용 대기 시간: 8초] Blink and appear behind the target foe to deal 400%+8\*50% ATK of Physical DMG to all nearby enemies.
 
 ## Marigold's Luck
 

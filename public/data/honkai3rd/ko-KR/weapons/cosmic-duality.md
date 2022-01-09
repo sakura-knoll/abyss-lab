@@ -2,7 +2,7 @@
 
 ## Ocean of Yin
 
-[SP: 25][CD: 24s] The wielder gains Ignore Interrupt and 10% ATK Speed for 10s, during which she restores 20.0 HP and 3 SP per 0.5s. Azure Empyrea equip bonus: The Spirit Shield from her Evasion Skill is reset immediately.
+[SP 소모: 25][재사용 대기 시간: 24초] The wielder gains Ignore Interrupt and 10% ATK Speed for 10s, during which she restores 20.0 HP and 3 SP per 0.5s. Azure Empyrea equip bonus: The Spirit Shield from her Evasion Skill is reset immediately.
 
 ## Ocean of Yang
 

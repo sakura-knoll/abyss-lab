@@ -2,7 +2,7 @@
 
 ## Turbo Acceleration
 
-[SP: 5][CD: 30s] Character loses health equal to 15% max HP to gain 30% Total DMG Multiplier for 9.0s.
+[SP 소모: 5][재사용 대기 시간: 30초] Character loses health equal to 15% max HP to gain 30% Total DMG Multiplier for 9.0s.
 
 ## Twilight Operation
 

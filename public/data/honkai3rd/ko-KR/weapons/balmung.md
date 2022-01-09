@@ -6,4 +6,4 @@ Attacks unleash an Ultra Slash against enemies to the front, dealing 80% ATK of 
 
 ## Ultra Slash - Break
 
-[SP: 20][CD: 25s] Character gains 25.0% Physical DMG. All Ultra Slashes are transformed into Enhanced Ultra Slashes for 8s.
+[SP 소모: 20][재사용 대기 시간: 25초] Character gains 25.0% Physical DMG. All Ultra Slashes are transformed into Enhanced Ultra Slashes for 8s.

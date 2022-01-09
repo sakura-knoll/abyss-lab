@@ -2,7 +2,7 @@
 
 ## Formless
 
-[SP: 0][CD: 20s] Wielder gains 2 stacks of Mind Mark. Combo ATK consumes 1 stack on hit to restore 15 bonus SP. CD: 2s.
+[SP 소모: 0][재사용 대기 시간: 20초] Wielder gains 2 stacks of Mind Mark. Combo ATK consumes 1 stack on hit to restore 15 bonus SP. CD: 2s.
 
 ## Mindless
 

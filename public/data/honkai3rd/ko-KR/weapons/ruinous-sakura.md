@@ -2,7 +2,7 @@
 
 ## Bloodfyre Frenzy
 
-[SP: 0][CD: 21s] Unleashes 2 slashes: the 1st slash deals 500% ATK of Fire DMG, during which the wielder is invincible, and gains a buff (buff effect: additionally deals 200% ATK of Fire DMG) for her 2nd slash, if she takes any hits, then the wielder gains immunity to the 1st hit taken within the next 5s; the 2nd hit deals 300% ATK of Fire DMG and ignites the target to further deal 65 Fire DMG per 0.5s for 5s, during which the wielder is invincible. If wielded by Flame Sakitama, enemies hit by 1st slash take 42.0% more Fire Dmg and 10% more Ice and Lightning DMG for 17s (does not stack with the effects of Combo Follow-up Attack).
+[SP 소모: 0][재사용 대기 시간: 21초] Unleashes 2 slashes: the 1st slash deals 500% ATK of Fire DMG, during which the wielder is invincible, and gains a buff (buff effect: additionally deals 200% ATK of Fire DMG) for her 2nd slash, if she takes any hits, then the wielder gains immunity to the 1st hit taken within the next 5s; the 2nd hit deals 300% ATK of Fire DMG and ignites the target to further deal 65 Fire DMG per 0.5s for 5s, during which the wielder is invincible. If wielded by Flame Sakitama, enemies hit by 1st slash take 42.0% more Fire Dmg and 10% more Ice and Lightning DMG for 17s (does not stack with the effects of Combo Follow-up Attack).
 
 ## Pyre of Gojinka
 

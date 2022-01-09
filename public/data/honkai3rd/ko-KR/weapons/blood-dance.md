@@ -2,7 +2,7 @@
 
 ## Blood Rage
 
-[SP: 20][CD: 15s] Creates a blood tornado that sweeps away enemies, dealing 9x35% ATK of Physical DMG and sending them into a Blood Rage, doubling their Attack Speed but making them take 60% more Elemental DMG. The Blood Rage lasts for 9.00s.
+[SP 소모: 20][재사용 대기 시간: 15초] Creates a blood tornado that sweeps away enemies, dealing 9x35% ATK of Physical DMG and sending them into a Blood Rage, doubling their Attack Speed but making them take 60% more Elemental DMG. The Blood Rage lasts for 9.00s.
 
 ## Blood Revival
 

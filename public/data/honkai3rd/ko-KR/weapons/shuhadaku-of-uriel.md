@@ -2,7 +2,7 @@
 
 ## Ravaging Flame
 
-[SP: 0][CD: 25s] A mighty slash dealing 100% + 900%/1600%/2500% ATK of Fire DMG at 0/1/2 charge(s) respectively and igniting enemies to further deal 50 Fire DMG per 0.5s for 3/5/9 seconds at 0/1/2 charge(s) respectively. Wield loses 8% of current HP per second for 5s after casting weapon active (will not cause death). Weapon active unusable below 10% HP. Weapon has 1 initial charge and gains 1 charge when at least 25 SP is consumed in one action.
+[SP 소모: 0][재사용 대기 시간: 25초] A mighty slash dealing 100% + 900%/1600%/2500% ATK of Fire DMG at 0/1/2 charge(s) respectively and igniting enemies to further deal 50 Fire DMG per 0.5s for 3/5/9 seconds at 0/1/2 charge(s) respectively. Wield loses 8% of current HP per second for 5s after casting weapon active (will not cause death). Weapon active unusable below 10% HP. Weapon has 1 initial charge and gains 1 charge when at least 25 SP is consumed in one action.
 When cast at 2 charges, weapon active can be cast again in 2s to deal 2400.0% ATK of Fire DMG. For 45s after, wielder deals 80% less Total DMG, loses 20 SP per second, and cannot use weapon active again.
 
 ## Solar Flare

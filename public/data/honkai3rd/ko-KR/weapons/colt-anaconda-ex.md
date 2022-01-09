@@ -2,4 +2,4 @@
 
 ## Falling Frost
 
-[SP: 5][CD: 10s] Enemies in a small AOE suffers 60% slower Move Speed and Attack Speed for 4.50s.
+[SP 소모: 5][재사용 대기 시간: 10초] Enemies in a small AOE suffers 60% slower Move Speed and Attack Speed for 4.50s.

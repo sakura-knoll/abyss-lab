@@ -2,7 +2,7 @@
 
 ## Eastern Winds
 
-[SP: 0][CD: 20s] Deploys cross (summoned entity): Knocks down enemies in range dealing 200% ATK of Physical DMG and causing strong winds to deal 75.0% ATK of Physical DMG per 0.25s to enemies and slow their Move Speed by 30% for 8s. Boosts team Move Speed by 25% and Physical DMG by 15.0% for 13s.
+[SP 소모: 0][재사용 대기 시간: 20초] Deploys cross (summoned entity): Knocks down enemies in range dealing 200% ATK of Physical DMG and causing strong winds to deal 75.0% ATK of Physical DMG per 0.25s to enemies and slow their Move Speed by 30% for 8s. Boosts team Move Speed by 25% and Physical DMG by 15.0% for 13s.
 
 ## Empty Fort
 

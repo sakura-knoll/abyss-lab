@@ -9,4 +9,4 @@ Charged Cannon.
 
 ## Floating Fireball
 
-[SP: 18][CD: 10s] Launches a large fireball that floats slowly and explodes, dealing 420% ATK of Fire DMG and igniting enemies, dealing 18% ATK of Fire DMG every 0.5s for 3s.
+[SP 소모: 18][재사용 대기 시간: 10초] Launches a large fireball that floats slowly and explodes, dealing 420% ATK of Fire DMG and igniting enemies, dealing 18% ATK of Fire DMG every 0.5s for 3s.

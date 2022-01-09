@@ -2,7 +2,7 @@
 
 ## Holy Phalanx
 
-[SP: 20][CD: 15s] Deploys the weapon: Summons a holy beam every 2s, dealing 750.0% ATK of Physical DMG against enemies within an AOE. Nearby teammates gain 20.0% Crit Rate for 10s; if wielded by Celestial Hymn, she gains 5.0 SP per second during this period.
+[SP 소모: 20][재사용 대기 시간: 15초] Deploys the weapon: Summons a holy beam every 2s, dealing 750.0% ATK of Physical DMG against enemies within an AOE. Nearby teammates gain 20.0% Crit Rate for 10s; if wielded by Celestial Hymn, she gains 5.0 SP per second during this period.
 
 ## Divine Mending
 

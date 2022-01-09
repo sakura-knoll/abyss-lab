@@ -2,7 +2,7 @@
 
 ## Gale
 
-[SP: 20][CD: 25s] Releases a tornado traveling in a zigzag path, sending enemies along the path airborne and dealing 82 Ice DMG multiple times. Enemies hit will suffer 80% slower Move Speed and Attack Speed for 1.54s.
+[SP 소모: 20][재사용 대기 시간: 25초] Releases a tornado traveling in a zigzag path, sending enemies along the path airborne and dealing 82 Ice DMG multiple times. Enemies hit will suffer 80% slower Move Speed and Attack Speed for 1.54s.
 
 ## Tailwind
 

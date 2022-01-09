@@ -2,7 +2,7 @@
 
 ## Pumpkin Bomb
 
-[SP: 15][CD: 25s] Summons 3 pumpkin bombs near the wielder. Each bomb deals 300% ATK of Fire DMG.
+[SP 소모: 15][재사용 대기 시간: 25초] Summons 3 pumpkin bombs near the wielder. Each bomb deals 300% ATK of Fire DMG.
 In Halloween Maze: Within 5s, summon 3 pumpkin bombs near the wielder per second. Each bomb deals 500% ATK of Fire DMG to nearby enemies.
 
 ## Prank

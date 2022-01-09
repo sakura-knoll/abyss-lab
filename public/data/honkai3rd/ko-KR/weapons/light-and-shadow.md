@@ -2,7 +2,7 @@
 
 ## Polar Storm
 
-[SP: 20][CD: 20s] Generates an iceball that drags away all enemies in its path. The iceball then explodes, freezing enemies within a large AOE and dealing 850 Ice DMG every 0.9s for 4.00s.
+[SP 소모: 20][재사용 대기 시간: 20초] Generates an iceball that drags away all enemies in its path. The iceball then explodes, freezing enemies within a large AOE and dealing 850 Ice DMG every 0.9s for 4.00s.
 
 ## Coldarra
 

@@ -2,7 +2,7 @@
 
 ## Gigantomachy
 
-[SP: 0][CD: 30s] Creates a 6s spacetime field to deal 8x450.0% ATK of Physical DMG against the enemies within the AOE, inflicting Time Slow and impairing them (DEF down by 65.0%) during the duration. The impairing debuff lasts another 4s after the field ends. During the weapon active, the wielder remains invincible and can be switched out without interrupting the field channeling. After the weapon active is cast, it cannot be cast again by other wielder(s) within the next 30s.
+[SP 소모: 0][재사용 대기 시간: 30초] Creates a 6s spacetime field to deal 8x450.0% ATK of Physical DMG against the enemies within the AOE, inflicting Time Slow and impairing them (DEF down by 65.0%) during the duration. The impairing debuff lasts another 4s after the field ends. During the weapon active, the wielder remains invincible and can be switched out without interrupting the field channeling. After the weapon active is cast, it cannot be cast again by other wielder(s) within the next 30s.
 
 ## Hundred Hands
 

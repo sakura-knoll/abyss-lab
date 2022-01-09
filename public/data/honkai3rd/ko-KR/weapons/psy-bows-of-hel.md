@@ -2,7 +2,7 @@
 
 ## Land of Death
 
-[SP: 16][CD: 18s] Bombards the target with light beams, dealing 9x60.0% ATK of Physical DMG and freezing enemies within the AOE for 5.00s.
+[SP 소모: 16][재사용 대기 시간: 18초] Bombards the target with light beams, dealing 9x60.0% ATK of Physical DMG and freezing enemies within the AOE for 5.00s.
 
 ## Underworld River
 

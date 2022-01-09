@@ -2,7 +2,7 @@
 
 ## Lethal Thrust
 
-[SP: 8][CD: 20s] Attack enemies in front to deal 666+6,655 Physical DMG.
+[SP 소모: 8][재사용 대기 시간: 20초] Attack enemies in front to deal 666+6,655 Physical DMG.
 
 ## Undying Saltiness
 

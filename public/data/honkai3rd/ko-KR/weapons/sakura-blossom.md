@@ -2,7 +2,7 @@
 
 ## Falling Petals
 
-[SP: 15][CD: 12s] Sprints forward for a short distance to deal 400.0% ATK of Physical DMG to enemies hit along the way, stunning those with a Sakura Brand for 3.5s.Gyakushinn Miko equip bonus: Enemies hit will be marked with a Sakura Brand.
+[SP 소모: 15][재사용 대기 시간: 12초] Sprints forward for a short distance to deal 400.0% ATK of Physical DMG to enemies hit along the way, stunning those with a Sakura Brand for 3.5s.Gyakushinn Miko equip bonus: Enemies hit will be marked with a Sakura Brand.
 
 ## Round Dance
 

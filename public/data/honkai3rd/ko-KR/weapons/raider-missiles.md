@@ -9,4 +9,4 @@ Launches homing missiles at multiple targets. Longer charge time. Slightly decre
 
 ## Speedy Retreat
 
-[SP: 6][CD: 15s] Accelerates Move Speed of character by 100% for 6.00s.
+[SP 소모: 6][재사용 대기 시간: 15초] Accelerates Move Speed of character by 100% for 6.00s.

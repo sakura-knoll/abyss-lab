@@ -2,7 +2,7 @@
 
 ## Flame Block
 
-[SP: 30][CD: 30s] For the next 15s, slows character Move Speed by 60%. Character takes 25% less Physical DMG and 25% less Elemental DMG, and deals 600 Fire DMG every second to nearby enemies.
+[SP 소모: 30][재사용 대기 시간: 30초] For the next 15s, slows character Move Speed by 60%. Character takes 25% less Physical DMG and 25% less Elemental DMG, and deals 600 Fire DMG every second to nearby enemies.
 
 ## Bramblethorn
 

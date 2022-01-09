@@ -2,7 +2,7 @@
 
 ## Death of the Messiah
 
-[SP: 0][CD: 25s] Unleash a thrust dealing 50% ATK of Physical DMG. Against enemies not in invincibility or Iron Body, this attack triggers a Throw to control enemies and deal 90% + 1400.0% ATK of Physical DMG. During certain enemy moves and when the active button in flashing, a Throw counter can be performed unconditionally, controlling enemies and dealing 20% + 800.0% ATK of Physical DMG (does not reset CD). The last hit of the Throw deals 50% bonus damage to shields. Asuka equip bonus: Charged ATK, "Mind, Matching, Moment", and Ultimate finisher deal 15.0% bonus Total DMG and have 15% bonus Crit Rate.
+[SP 소모: 0][재사용 대기 시간: 25초] Unleash a thrust dealing 50% ATK of Physical DMG. Against enemies not in invincibility or Iron Body, this attack triggers a Throw to control enemies and deal 90% + 1400.0% ATK of Physical DMG. During certain enemy moves and when the active button in flashing, a Throw counter can be performed unconditionally, controlling enemies and dealing 20% + 800.0% ATK of Physical DMG (does not reset CD). The last hit of the Throw deals 50% bonus damage to shields. Asuka equip bonus: Charged ATK, "Mind, Matching, Moment", and Ultimate finisher deal 15.0% bonus Total DMG and have 15% bonus Crit Rate.
 
 ## Etz Hayim
 

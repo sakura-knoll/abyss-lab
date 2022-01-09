@@ -2,7 +2,7 @@
 
 ## Total Coverage
 
-[SP: 0][CD: 16s] Charge to enter the barrage mode and unleash up to 8 Charged ATKs; each Charged ATK shoots 9 bullets with each bullet dealing 22.0% ATK of Physical DMG. If wielded by Black Nucleus, she can aim in over-the-shoulder view by dragging the button; when she casts the weapon active under Invisibility, her Crit Rate increases by 40.0% and the weapon active's CD shortens by 6.0s.
+[SP 소모: 0][재사용 대기 시간: 16초] Charge to enter the barrage mode and unleash up to 8 Charged ATKs; each Charged ATK shoots 9 bullets with each bullet dealing 22.0% ATK of Physical DMG. If wielded by Black Nucleus, she can aim in over-the-shoulder view by dragging the button; when she casts the weapon active under Invisibility, her Crit Rate increases by 40.0% and the weapon active's CD shortens by 6.0s.
 
 ## Shockwave Missiles
 

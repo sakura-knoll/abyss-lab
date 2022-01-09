@@ -2,7 +2,7 @@
 
 ## Raiden's Cyclone
 
-[SP: 0][CD: 15s] Deals a 3-sequence ATK against enemies. First 2 sequences: Deal 250% Lightning DMG in total. 3rd sequence: Deals 600% ATK of Lightning DMG. Enemies will be paralyzed by the ATK for 5s and take 25.0% more Lightning DMG for 12.0s (effect cannot stack).
+[SP 소모: 0][재사용 대기 시간: 15초] Deals a 3-sequence ATK against enemies. First 2 sequences: Deal 250% Lightning DMG in total. 3rd sequence: Deals 600% ATK of Lightning DMG. Enemies will be paralyzed by the ATK for 5s and take 25.0% more Lightning DMG for 12.0s (effect cannot stack).
 Lightning Empress equip bonus: Active Skill inflicts Soul Razor's conductive debuff on enemies. Tap [ATK] right after casting the Active Skill to directly perform Combo ATK.
 
 ## EM Pulsar

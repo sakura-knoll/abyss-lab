@@ -2,7 +2,7 @@
 
 ## Libation to Fire
 
-[SP: 0][CD: 25s] Attack enemies with Might of An-Utu, dealing 100% + 900%/1,600%/2,500% ATK of Fire DMG at 0/1/2 stack(s) of charge respectively. Lose 8% of current HP per second for 5s after using the weapon active (will not cause death). Cannot use the weapon active at below 10% HP. Initial charge starts at 1 stack; gain 1 stack when spending no less than 30 SP at a time.
+[SP 소모: 0][재사용 대기 시간: 25초] Attack enemies with Might of An-Utu, dealing 100% + 900%/1,600%/2,500% ATK of Fire DMG at 0/1/2 stack(s) of charge respectively. Lose 8% of current HP per second for 5s after using the weapon active (will not cause death). Cannot use the weapon active at below 10% HP. Initial charge starts at 1 stack; gain 1 stack when spending no less than 30 SP at a time.
 
 ## Solar Prominence
 

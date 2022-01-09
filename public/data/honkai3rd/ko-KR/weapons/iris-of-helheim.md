@@ -2,7 +2,7 @@
 
 ## Soul Awakener
 
-[SP: 0][CD: 25s] Unleash soul-drinking mist around wielder to knock enemies airborne, deal 400% ATK of Lightning DMG, and trigger the following effects:Fallen Rosemary enters Valfreyja Form immediately, obtains Ulf/Strix/Ormr Runes, and fully restores Disir.
+[SP 소모: 0][재사용 대기 시간: 25초] Unleash soul-drinking mist around wielder to knock enemies airborne, deal 400% ATK of Lightning DMG, and trigger the following effects:Fallen Rosemary enters Valfreyja Form immediately, obtains Ulf/Strix/Ormr Runes, and fully restores Disir.
 Enemies in the mist are Bedazzled and take 80.0% ATK of bonus Lightning DMG from Ormr Rune's periodical lightning for 15s.Each Charged ATK boosts wielder's Total DMG by 25.0% for 15s (cannot stack).
 
 ## Guiding Fragrance

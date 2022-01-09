@@ -2,7 +2,7 @@
 
 ## Eldritch Shards
 
-[SP: 6][CD: 21s] Deploys the weapon: Knocks down enemies in the AOE, deals 200% ATK of Physical DMG, and summons an 8s hail of blades that deals 75.0% ATK of AOE Physical DMG and adds 1 Combo Hit count every 0.2s.
+[SP 소모: 6][재사용 대기 시간: 21초] Deploys the weapon: Knocks down enemies in the AOE, deals 200% ATK of Physical DMG, and summons an 8s hail of blades that deals 75.0% ATK of AOE Physical DMG and adds 1 Combo Hit count every 0.2s.
 
 ## Witching Hour
 

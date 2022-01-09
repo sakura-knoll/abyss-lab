@@ -10,4 +10,4 @@ Missile hits deal an additional 56 Fire DMG and triggers a delayed explosion to 
 
 ## Rapid Shot
 
-[SP: 20][CD: 120s] Gains 100% Attack Speed for 12.00s.
+[SP 소모: 20][재사용 대기 시간: 120초] Gains 100% Attack Speed for 12.00s.

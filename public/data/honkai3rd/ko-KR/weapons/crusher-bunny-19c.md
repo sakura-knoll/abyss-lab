@@ -2,7 +2,7 @@
 
 ## Sector Lockdown
 
-[SP: 0][CD: 20s] Projected weapons fires at targets for 2.5s, dealing Ice DMG equal to 40.0% ATK every 0.1s, adds 1 Combo Hit, and Freezes enemies for 2s. Team and host-summoned entities gain 27.0% bonus Ice DMG for 15s (this effect cannot stack). Haxxor Bunny equip special: Drone's attack interval is reduced by 0.4s for 3.5s. Ultimate triggered by QTE entry auto-casts active if host has not cast active in 20s.
+[SP 소모: 0][재사용 대기 시간: 20초] Projected weapons fires at targets for 2.5s, dealing Ice DMG equal to 40.0% ATK every 0.1s, adds 1 Combo Hit, and Freezes enemies for 2s. Team and host-summoned entities gain 27.0% bonus Ice DMG for 15s (this effect cannot stack). Haxxor Bunny equip special: Drone's attack interval is reduced by 0.4s for 3.5s. Ultimate triggered by QTE entry auto-casts active if host has not cast active in 20s.
 
 ## Cluster Tactic
 

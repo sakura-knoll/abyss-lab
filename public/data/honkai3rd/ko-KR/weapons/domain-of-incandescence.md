@@ -2,7 +2,7 @@
 
 ## Light Up the World
 
-[SP: 0][CD: 18s] Hurl the pistols into the air to attack enemies automatically dealing 20,0% ATK of Fire DMG per 0.1s to enemies nearby (24 hits in total) and restoring 4 SP, after which the pistols explode dealing 750,0% ATK of Fire DMG.
+[SP 소모: 0][재사용 대기 시간: 18초] Hurl the pistols into the air to attack enemies automatically dealing 20,0% ATK of Fire DMG per 0.1s to enemies nearby (24 hits in total) and restoring 4 SP, after which the pistols explode dealing 750,0% ATK of Fire DMG.
 Herrscher of Flamescion equip bonus: Pistol hurling restores 5.0 bonus SP and the explosion DMG detonates Ember Brands.
 
 ## I Am the Torch

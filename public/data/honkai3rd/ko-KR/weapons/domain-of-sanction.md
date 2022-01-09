@@ -2,7 +2,7 @@
 
 ## Raizan Cleave
 
-[SP: 0][CD: 15s] Unleash a powerful forward slash with the lightning-imbued blade, dealing 1500% ATK of Lightning DMG and paralyzing enemies for 5s. The wielder is invincible while casting the active. When it is equipped by Herrscher of Thunder, it also inflicts Narukami's Mark on enemies hit for 15s and can be connected in Shinzan Strike. When riding the dragon, Bombard deals 40.0% bonus Lightning DMG.
+[SP 소모: 0][재사용 대기 시간: 15초] Unleash a powerful forward slash with the lightning-imbued blade, dealing 1500% ATK of Lightning DMG and paralyzing enemies for 5s. The wielder is invincible while casting the active. When it is equipped by Herrscher of Thunder, it also inflicts Narukami's Mark on enemies hit for 15s and can be connected in Shinzan Strike. When riding the dragon, Bombard deals 40.0% bonus Lightning DMG.
 
 ## Deafening Peal
 

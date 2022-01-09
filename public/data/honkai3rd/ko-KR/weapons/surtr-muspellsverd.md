@@ -2,7 +2,7 @@
 
 ## Eldr of Ragnarok
 
-[SP: 0][CD: 25s] Consume 50% HP, ignite enemies to deal 20.0% ATK of Fire DMG per 0.5s, and create a shield that can absorb damage equal to 80% of max base HP (5000 max). Shield lasts for 12s, during which: Blood Rose's Ultimate costs no HP; Vermilion Knight: Eclipse’s Ultimate restores 8.0 SP and her Charged ATK and Ultimate deal 30.0% bonus Fire DMG. Weapon active unusable below 20% HP.
+[SP 소모: 0][재사용 대기 시간: 25초] Consume 50% HP, ignite enemies to deal 20.0% ATK of Fire DMG per 0.5s, and create a shield that can absorb damage equal to 80% of max base HP (5000 max). Shield lasts for 12s, during which: Blood Rose's Ultimate costs no HP; Vermilion Knight: Eclipse’s Ultimate restores 8.0 SP and her Charged ATK and Ultimate deal 30.0% bonus Fire DMG. Weapon active unusable below 20% HP.
 
 ## Rivener of an Era
 

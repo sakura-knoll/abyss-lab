@@ -2,7 +2,7 @@
 
 ## Cradle of Thorns
 
-[SP: 0][CD: 18s] Deal 1 damage to self and 800.0% ATK of Physical DMG to enemies nearby after 0.5s. In the following 5s, wielder's attacks cause an explosion on hit, dealing 100.0% ATK of Physical DMG. CD: 1s.
+[SP 소모: 0][재사용 대기 시간: 18초] Deal 1 damage to self and 800.0% ATK of Physical DMG to enemies nearby after 0.5s. In the following 5s, wielder's attacks cause an explosion on hit, dealing 100.0% ATK of Physical DMG. CD: 1s.
 
 ## Source of Nightmares
 

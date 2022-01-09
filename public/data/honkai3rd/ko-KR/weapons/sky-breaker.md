@@ -2,7 +2,7 @@
 
 ## Rift of the Heavens
 
-[SP: 20][CD: 18s] Attacks hit surrounding enemies multiple times, dealing a total of 400% ATK of Physical DMG. Last hit impairs enemies, reducing their DEF by 70% for 6.00s.
+[SP 소모: 20][재사용 대기 시간: 18초] Attacks hit surrounding enemies multiple times, dealing a total of 400% ATK of Physical DMG. Last hit impairs enemies, reducing their DEF by 70% for 6.00s.
 
 ## Divine Penalty
 

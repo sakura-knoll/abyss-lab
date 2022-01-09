@@ -2,7 +2,7 @@
 
 ## Rime Fury
 
-[SP: 12][CD: 20s] Leaps into the air and lands on the target, dealing 700% ATK of Ice DMG to enemies near the target. After landing, character gains 30% Attack Speed for 10s.
+[SP 소모: 12][재사용 대기 시간: 20초] Leaps into the air and lands on the target, dealing 700% ATK of Ice DMG to enemies near the target. After landing, character gains 30% Attack Speed for 10s.
 
 ## Shattered Whet
 

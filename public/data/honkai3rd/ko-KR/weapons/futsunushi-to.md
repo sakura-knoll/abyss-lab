@@ -2,7 +2,7 @@
 
 ## Kami of War
 
-[SP: 15][CD: 20s] For the next 6s, triggers 1 elemental explosion at a random location near the character to deal 200% DMG of a random element. Character also gains 12% DMG for said random element for 9.0s (max 3 stacks for the same element).
+[SP 소모: 15][재사용 대기 시간: 20초] For the next 6s, triggers 1 elemental explosion at a random location near the character to deal 200% DMG of a random element. Character also gains 12% DMG for said random element for 9.0s (max 3 stacks for the same element).
 
 ## Raging Izumo
 

@@ -9,4 +9,4 @@ Launches homing missiles at multiple targets. Slightly decreases DMG when hittin
 
 ## Speedy Clockwork
 
-[SP: 12][CD: 20s] Empowers the weapon, accelerating Attack Speed by 75% for 4.s.
+[SP 소모: 12][재사용 대기 시간: 20초] Empowers the weapon, accelerating Attack Speed by 75% for 4.s.

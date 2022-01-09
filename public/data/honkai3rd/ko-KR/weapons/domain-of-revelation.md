@@ -9,7 +9,7 @@ Wielder deals 40.0% bonus Ice DMG. Herrscher of Reason equip bonus: Triggering U
 
 ## Structural Truth
 
-[SP: 0][CD: 20s]Unleash a constructor matrix attack dealing 3x600.0% ATK of Ice DMG. Final hit freezes enemies for 6s. Casting the skill boosts wielder's Total DMG by 40.0% for 7s.Herrscher of Reason equip bonus: Active skill renders enemies Analyzed for 7s and restores 180 Konstruktyom in 3s.
+[SP 소모: 0][재사용 대기 시간: 20초]Unleash a constructor matrix attack dealing 3x600.0% ATK of Ice DMG. Final hit freezes enemies for 6s. Casting the skill boosts wielder's Total DMG by 40.0% for 7s.Herrscher of Reason equip bonus: Active skill renders enemies Analyzed for 7s and restores 180 Konstruktyom in 3s.
 
 ## Total Analysis
 

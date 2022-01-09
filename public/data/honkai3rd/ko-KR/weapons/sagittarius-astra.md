@@ -2,7 +2,7 @@
 
 ## Stellar Excelsis
 
-[SP: 0][CD: 25s] Unleash a thrust dealing 50% ATK of Physical DMG. Against enemies not in invincibility or Iron Body, this attack  triggers a Throw to control enemies and deal 90% ATK of Physical DMG + 1,100.0% ATK of Fire DMG. During certain enemy moves and when the active button is flashing, a Throw counter can be performed unconditionally, controlling enemies and dealing 20% ATK of Physical DMG + 800.0% ATK of Fire DMG (does not reset CD).Casting Throws, Ultimate, or entering burst mode inflicts Stardust on enemies. CD: 25s. Stardust does not expire and cannot stack. Wielder's Charged ATKs can shatter Stardust to trigger an explosion dealing 1,900.0% ATK of Fire DMG in a certain area.
+[SP 소모: 0][재사용 대기 시간: 25초] Unleash a thrust dealing 50% ATK of Physical DMG. Against enemies not in invincibility or Iron Body, this attack triggers a Throw to control enemies and deal 90% ATK of Physical DMG + 1,100.0% ATK of Fire DMG. During certain enemy moves and when the active button is flashing, a Throw counter can be performed unconditionally, controlling enemies and dealing 20% ATK of Physical DMG + 800.0% ATK of Fire DMG (does not reset CD).Casting Throws, Ultimate, or entering burst mode inflicts Stardust on enemies. CD: 25s. Stardust does not expire and cannot stack. Wielder's Charged ATKs can shatter Stardust to trigger an explosion dealing 1,900.0% ATK of Fire DMG in a certain area.
 
 ## Blazing Alnasl
 

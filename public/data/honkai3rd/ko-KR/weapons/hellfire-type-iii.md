@@ -10,4 +10,4 @@ Attacks against enemies with slowed move speed or frozen gain 20% Total DMG Mult
 
 ## Purgatory
 
-[SP: 49][CD: 36s] Shoots flames, dealing 12x60% ATK of Fire DMG and 12x60% ATK of Physical DMG to enemies in front.
+[SP 소모: 49][재사용 대기 시간: 36초] Shoots flames, dealing 12x60% ATK of Fire DMG and 12x60% ATK of Physical DMG to enemies in front.

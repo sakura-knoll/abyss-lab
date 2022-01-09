@@ -1,9 +1,9 @@
-# Miracle Kissy Pillow
+# 기적의 미츄
 
-## Embrace the World
+## 세계를 품은 포옹
 
-[SP: 0][CD: 25s] Fire rocket fists forward to deal 200% ATK of Physical DMG, which then smash into the ground to deal 100% ATK of Physical DMG. The fists will keep spinning on the ground to pull in enemies and deal 20x25.0% ATK of Physical DMG over 8s. When the weapon is equipped by Sweet 'n' Spicy, cast ground Charged ATK III or Aerial Charged ATK II while the fists are spinning to recover them, after which the spinning DMG becomes part of Charged ATK, and the current Charged ATK cast deals 45.0% bonus Physical DMG. Sweet 'n' Spicy can only recover fists launched by herself.
+[SP 소모: 0][재사용 대기시간: 25초] 전방에 기계 건틀릿을 발사해 적 적중 시 공격력 200%의 물리 대미지를 가하고, 건틀릿이 날아오른 후 지면을 내리찍어 공격력 100%의 물리 대미지를 가한다. 이후 건틀릿은 끊임없이 지상에서 회전하며 주변 적을 끌어당기고, 총 공격력 20\*25.0%의 물리 대미지를 가한다, 지속 시간: 8초. 전장에 1개의 건틀릿만 남는다. [매콤달콤 소녀]가 사용 시, 건틀릿 회전 기간 지상 3단 또는 공중 2단 차지 시 자동으로 건틀릿을 회수하며, 남은 회전 대미지는 차지 공격에 추가되어 이번 차지 공격의 물리 대미지가 45.0% 증가한다. [매콤달콤 소녀]는 자신이 해방한 건틀릿만 회수할 수 있다.
 
-## Loosen Up
+## 딱딱한 건 싫어
 
-Charged ATK and Ultimate deal 40.0% bonus DMG to shields. Ultimate boosts team Physical DMG by 35.0% for 15s. Triggering it again resets the duration. Unique effect.
+차지 공격과 필살기가 실드에 가하는 대미지가 40.0% 증가하고, 필살기 발동 시 파티원의 물리 대미지가 35.0% 증가한다. 지속 시간: 15초, 중복 발동 시 지속 시간을 갱신한다. 해당 효과는 하나만 적용되며 중첩할 수 없다.

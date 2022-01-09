@@ -2,7 +2,7 @@
 
 ## Toxic Avalanche
 
-[SP: 15][CD: 20s] Releases neurotoxins every 0.5s to deal 100% ATK of Lightning DMG to nearby enemies. Duration: 4.9s. Then unleash a powerful Toxic Mist that deals 700% ATK of Lightning DMG to nearby enemies.
+[SP 소모: 15][재사용 대기 시간: 20초] Releases neurotoxins every 0.5s to deal 100% ATK of Lightning DMG to nearby enemies. Duration: 4.9s. Then unleash a powerful Toxic Mist that deals 700% ATK of Lightning DMG to nearby enemies.
 
 ## Sin Stalker
 

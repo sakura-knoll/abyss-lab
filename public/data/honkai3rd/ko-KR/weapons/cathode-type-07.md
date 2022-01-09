@@ -6,4 +6,4 @@ Rapid-fire weapon that deals continuous DMG to targets along a straight line of 
 
 ## Frost Trail
 
-[SP: 7][CD: 20s] Surrounding enemies suffer 65% slower Move Speed and Attack Speed for 8s.
+[SP 소모: 7][재사용 대기 시간: 20초] Surrounding enemies suffer 65% slower Move Speed and Attack Speed for 8s.

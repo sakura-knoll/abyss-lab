@@ -2,7 +2,7 @@
 
 ## Comet Blast
 
-[SP: 15][CD: 15s] Deploys the weapon, launching a flame disc at a random target every 0.75s for the next 8s, dealing 5x233 Fire DMG and igniting it to further deal 80 Fire DMG every 0.5s for 3s.
+[SP 소모: 15][재사용 대기 시간: 15초] Deploys the weapon, launching a flame disc at a random target every 0.75s for the next 8s, dealing 5x233 Fire DMG and igniting it to further deal 80 Fire DMG every 0.5s for 3s.
 
 ## Burning Wound
 

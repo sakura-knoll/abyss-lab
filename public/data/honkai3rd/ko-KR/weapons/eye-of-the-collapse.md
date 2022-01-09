@@ -1,9 +1,9 @@
-# Eye of the Collapse
+# 담운의 눈동자
 
-## Collapse Threshold
+## 임계 붕괴
 
-[SP: 0][CD: 60s] Create a collapse force field and launch a collapse attack on enemies in range, dealing 700.0% ATK of Physical DMG, inflicting Collapse on QUA enemies, and making enemies in range take 10.0% bonus Total DMG for 18s. Enemies in range are marked by Decay, and if they're also in Collapsed state, Quantum Burst will be triggered to deal 700.0% ATK of Physical DMG to marked enemies.
+[SP 소모: 0][재사용 대기 시간: 60초] 적의 위치에 붕괴 역장을 생성하고, 범위 내 적에게 붕괴 공격을 1회 가해 공격력 700.0%의 물리 대미지를 가하며, 양자 속성 적에게 양자 붕괴를 1회 가한다. 범위 내의 적이 받는 모든 대미지가 18초 동안 10.0% 증가한다. 역장 범위 내의 몬스터에게 [쇠퇴] 표식을 1회 부여한다. 표식이 부여된 적이 붕괴 상태일 때 양자 폭발을 일으켜 표식이 부여된 적에게 공격력 700.0%의 물리대미지를 가한다.
 
-## Umbral Vision
+## 인력의 사슬
 
-Rapid-fire weapon that deals sustained DMG to targets along a straight line of fire. Continuous firing will overheat the weapon. Closer enemies take more DMG (maxes at 10-meter range or less). Team deals 15.0% bonus Total DMG to Collapsed enemies.
+레이저 무기. 직선 방향의 목표에게 지속 대미지를 가하고, 일정 시간이 지나면 오버히트 상태가 된다. 목표가 가까울수록 대미지가 증가하고, 10m 이내의 적에게 최대 대미지를 가한다. 파티원이 붕괴 상태의 적을 공격할 시 모든 대미지가 15.0% 증가한다(단일 효과).

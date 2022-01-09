@@ -2,7 +2,7 @@
 
 ## Blade Salvo
 
-[SP: 0][CD: 15s] Deploys the cross (summoned entity) to launch Sakura katanas at enemies in a large area, slashing them once every 0.3s for 3.5s. Each slash deals Fire DMG equal to 5*25.0% ATK, Ignites targets to further deal 200.0 Fire DMG every 0.5s for 10s, and inflicts 1 Sakura Count (CD: 2s).
+[SP 소모: 0][재사용 대기 시간: 15초] Deploys the cross (summoned entity) to launch Sakura katanas at enemies in a large area, slashing them once every 0.3s for 3.5s. Each slash deals Fire DMG equal to 5\*25.0% ATK, Ignites targets to further deal 200.0 Fire DMG every 0.5s for 10s, and inflicts 1 Sakura Count (CD: 2s).
 
 ## Blazing Sakura
 

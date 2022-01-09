@@ -2,7 +2,7 @@
 
 ## Shock Impact
 
-[SP: 10][CD: 30s] Charges forward to attack the enemy, dealing 900% ATK of Physical DMG. Wielder then recovers 4 SP per 0.5s for 8s.
+[SP 소모: 10][재사용 대기 시간: 30초] Charges forward to attack the enemy, dealing 900% ATK of Physical DMG. Wielder then recovers 4 SP per 0.5s for 8s.
 
 ## Capacitance Plus
 

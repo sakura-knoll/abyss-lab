@@ -2,7 +2,7 @@
 
 ## Divine Soulband
 
-[SP: 16][CD: 13s] Deploys the weapon, immobilizing enemies within range for 6s and launching 13 light spears. Light spears will drop on random enemies one by one, dealing 282% ATK of Lightning DMG.
+[SP 소모: 16][재사용 대기 시간: 13초] Deploys the weapon, immobilizing enemies within range for 6s and launching 13 light spears. Light spears will drop on random enemies one by one, dealing 282% ATK of Lightning DMG.
 
 ## Witness of Pledge
 

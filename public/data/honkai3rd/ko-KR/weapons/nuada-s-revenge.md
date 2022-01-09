@@ -2,7 +2,7 @@
 
 ## Champion of Danu
 
-[SP: 0][CD: 20s] Unleashes a powerful strike forward at enemies, dealing 500% ATK of Lightning DMG and bleeding them to further deal 750 Physical DMG per 0.5s for 12.0s. During Burst mode, this skill deals 200% DMG.
+[SP 소모: 0][재사용 대기 시간: 20초] Unleashes a powerful strike forward at enemies, dealing 500% ATK of Lightning DMG and bleeding them to further deal 750 Physical DMG per 0.5s for 12.0s. During Burst mode, this skill deals 200% DMG.
 
 ## Undying Resolve
 

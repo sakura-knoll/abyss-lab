@@ -2,7 +2,7 @@
 
 ## Skoll
 
-[SP: 11][CD: 30s] Continuously emits shockwaves upon activation, dealing 50% ATK of Physical DMG every 0.5s. Character also takes 65% less DMG from side or rear attacks for 10.0s.
+[SP 소모: 11][재사용 대기 시간: 30초] Continuously emits shockwaves upon activation, dealing 50% ATK of Physical DMG every 0.5s. Character also takes 65% less DMG from side or rear attacks for 10.0s.
 
 ## Hati
 

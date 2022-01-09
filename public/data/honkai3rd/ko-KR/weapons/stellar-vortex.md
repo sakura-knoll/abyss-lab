@@ -2,7 +2,7 @@
 
 ## Pulse Vortex
 
-[SP: 14][CD: 20s] Pulls in the target, dealing 450% Physical DMG and reducing its speed by 80% for 5s.
+[SP 소모: 14][재사용 대기 시간: 20초] Pulls in the target, dealing 450% Physical DMG and reducing its speed by 80% for 5s.
 
 ## Wave Breaker
 

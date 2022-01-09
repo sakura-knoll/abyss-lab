@@ -2,7 +2,7 @@
 
 ## Yin Yang
 
-[SP: 17][CD: 25s] Summons 3 Xuanyuan Sword illusions to attack enemies, each sword dealing 1,500 Fire DMG and inflicting Time Lock on enemies for hit for 4.5s.
+[SP 소모: 17][재사용 대기 시간: 25초] Summons 3 Xuanyuan Sword illusions to attack enemies, each sword dealing 1,500 Fire DMG and inflicting Time Lock on enemies for hit for 4.5s.
 
 ## Unlimited
 

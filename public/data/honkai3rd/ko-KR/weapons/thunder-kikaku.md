@@ -2,7 +2,7 @@
 
 ## Will-o'-the-Wisp
 
-[SP: 12][CD: 25s] Shoots ghostfire that sticks to the target, dealing 640 Lightning DMG every 0.5s to the target and nearby enemies for 8.00s.
+[SP 소모: 12][재사용 대기 시간: 25초] Shoots ghostfire that sticks to the target, dealing 640 Lightning DMG every 0.5s to the target and nearby enemies for 8.00s.
 
 ## Futsuno Mitama
 

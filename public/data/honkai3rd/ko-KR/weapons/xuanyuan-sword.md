@@ -2,7 +2,7 @@
 
 ## Elements Drive
 
-[SP: 9][CD: 12s] Continually discharges lightning, fire, and ice elements, each dealing 240% Physical DMG plus 240% of the corresponding Elemental DMG. Each corresponding Elemental DMG can either paralyze, ignite, or freeze enemies. The skill can be charged 3 times.
+[SP 소모: 9][재사용 대기 시간: 12초] Continually discharges lightning, fire, and ice elements, each dealing 240% Physical DMG plus 240% of the corresponding Elemental DMG. Each corresponding Elemental DMG can either paralyze, ignite, or freeze enemies. The skill can be charged 3 times.
 For a period after using the active skill (lightning: 4s, Fire: 7s, Ice: 10s), all enemies in the battlefield take 100% ATK of Elemental DMG from lightning, meteors, or hailstones every 1s.
 
 ## Sword Defence

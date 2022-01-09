@@ -2,7 +2,7 @@
 
 ## Absolute Zero
 
-[SP: 20][CD: 25s] Transform ionic energy into a frigid blast, freezing enemies along the way and dealing 999 Ice DMG every 0.9s for 5.00s.
+[SP 소모: 20][재사용 대기 시간: 25초] Transform ionic energy into a frigid blast, freezing enemies along the way and dealing 999 Ice DMG every 0.9s for 5.00s.
 
 ## Frigid Winter
 

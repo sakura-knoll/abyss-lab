@@ -2,7 +2,7 @@
 
 ## Void Bullet Hail
 
-[SP: 18][CD: 18s] When scoring a hit, deals 500% ATK of AOE Physical DMG and impairs enemies (-40% DEF) for 12s. Wielder gains 5s Iron Will buff: greatly increased Ignore Interrupt and each Combo ATK decreases target's DEF by 4% (CD: 0.4s. Max stack: 5) and refreshes the duration of the impair debuff.
+[SP 소모: 18][재사용 대기 시간: 18초] When scoring a hit, deals 500% ATK of AOE Physical DMG and impairs enemies (-40% DEF) for 12s. Wielder gains 5s Iron Will buff: greatly increased Ignore Interrupt and each Combo ATK decreases target's DEF by 4% (CD: 0.4s. Max stack: 5) and refreshes the duration of the impair debuff.
 
 ## Iron Will
 

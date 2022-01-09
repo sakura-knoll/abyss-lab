@@ -1,9 +1,9 @@
-# Basilisk's Image
+# 과거의 뱀 그림자
 
-## Blade of Death
+## 죽음과 재앙의 검
 
-[SP: 6][CD: 20s] Deploys the cross (summoned entity): Generate Serpent Domain lasting for 16s that deals 5x25.0% ATK of Lightning DMG to enemies every 4 seconds and marks them. Wielder's Combo ATKs consume the mark to deal 250.0% ATK of bonus Lightning DMG (DMG source: wielder).
+[SP 소모: 6][재사용 대기 시간: 20초] 십자가[소환물]을 전개한다: 16초간 지속되는 뱀 그림자 영역을 생성해 4초마다 범위 내의 적에게 공격력 5\*25.0%의 뇌전 원소 대미지를 가하며, 적중한 적에게 표식을 부여한다. 캐릭터 분기 공격은 표식을 소모해 추가로 공격력 250.0%의 뇌전 원소 대미지를 1회 가한다(캐릭터 대미지 판정).
 
-## Shadow of Ouroboros
+## 나가의 그림자
 
-Lightning DMG increases by 30.0% and another 10.0% against enemies within Serpent Domain.
+뇌전 원소 대미지가 30.0% 증가하고, 뱀 그림자 영역 내 적 공격 시 뇌전 원소 대미지가 추가로 10.0% 증가한다.

@@ -2,7 +2,7 @@
 
 ## Hot Smash
 
-[SP: 20][CD: 30s] For a period of 10s, unleashes a Flame Impact around the character every second that deals 800 Fire DMG. During the period, a successful Ultimate Evasion will immediately unleash an Empowered Flame Impact that deals 4,000 Fire DMG. Enemies hit by Flame Impact have a 10% chance to be stunned for 2s.
+[SP 소모: 20][재사용 대기 시간: 30초] For a period of 10s, unleashes a Flame Impact around the character every second that deals 800 Fire DMG. During the period, a successful Ultimate Evasion will immediately unleash an Empowered Flame Impact that deals 4,000 Fire DMG. Enemies hit by Flame Impact have a 10% chance to be stunned for 2s.
 
 ## Cruel Punishment
 

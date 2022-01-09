@@ -2,7 +2,7 @@
 
 ## Shin - Seven Sakura
 
-[SP: 21][CD: 14s] Attacks enemies near the target with a 7-hit telekinetic slash sequence. Each slash deals 77% ATK of Physical DMG and immobilize them for 3.7s.
+[SP 소모: 21][재사용 대기 시간: 14초] Attacks enemies near the target with a 7-hit telekinetic slash sequence. Each slash deals 77% ATK of Physical DMG and immobilize them for 3.7s.
 
 ## Night Sakura
 

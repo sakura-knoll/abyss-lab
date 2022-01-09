@@ -2,7 +2,7 @@
 
 ## Sealing Feather
 
-[SP: 18][CD: 25s] Summons a meteor shower to smite random enemies. Deals 90% ATK of Physical DMG and ignites them to cause 97 Fire DMG every 0.5s for 1.5s. This meteor shower lasts 12s.
+[SP 소모: 18][재사용 대기 시간: 25초] Summons a meteor shower to smite random enemies. Deals 90% ATK of Physical DMG and ignites them to cause 97 Fire DMG every 0.5s for 1.5s. This meteor shower lasts 12s.
 
 ## Endless
 

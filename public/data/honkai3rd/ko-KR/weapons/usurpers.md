@@ -2,7 +2,7 @@
 
 ## Infrasound
 
-[SP: 15][CD: 15s] Generates infrasound waves that deal 380% ATK of Physical DMG to nearby enemies. Affected enemies are also weakened, reducing their ATK by 60% for 6.0s.
+[SP 소모: 15][재사용 대기 시간: 15초] Generates infrasound waves that deal 380% ATK of Physical DMG to nearby enemies. Affected enemies are also weakened, reducing their ATK by 60% for 6.0s.
 
 ## Light and Order
 

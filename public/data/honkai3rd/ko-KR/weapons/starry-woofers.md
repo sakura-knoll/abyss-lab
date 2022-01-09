@@ -2,7 +2,7 @@
 
 ## Soul Wave
 
-[SP: 14][CD: 15s] Attacks against an enemy at front deals 300% ATK of Physical DMG. For the next 15s, every Sparkling Star picked up by the team adds a 50% ATK of Physical DMG boost to the skill.[Concert Stage] When picking up a Sparkling Star, all characters gain 10% Move Speed and 10% Physical DMG for 5s. Effect cannot stack.
+[SP 소모: 14][재사용 대기 시간: 15초] Attacks against an enemy at front deals 300% ATK of Physical DMG. For the next 15s, every Sparkling Star picked up by the team adds a 50% ATK of Physical DMG boost to the skill.[Concert Stage] When picking up a Sparkling Star, all characters gain 10% Move Speed and 10% Physical DMG for 5s. Effect cannot stack.
 
 ## Sparkling Star
 

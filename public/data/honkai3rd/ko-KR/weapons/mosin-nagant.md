@@ -2,4 +2,4 @@
 
 ## Flame Aura
 
-[SP: 12][CD: 18s] Generates flames surrounding the wielder, dealing 320 Fire DMG every 0.25s for 6s to enemies within range.
+[SP 소모: 12][재사용 대기 시간: 18초] Generates flames surrounding the wielder, dealing 320 Fire DMG every 0.25s for 6s to enemies within range.

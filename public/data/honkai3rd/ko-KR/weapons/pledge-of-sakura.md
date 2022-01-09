@@ -2,7 +2,7 @@
 
 ## Divine Soulband
 
-[SP: 20][CD: 12s] Summons and deploys the weapon, throwing Sakura katanas at enemies within range, slashing them once every 0.3s for the next 3.5s. Each slash deals 180.0% ATK of Physical DMG and has a 21.2% chance of adding a Sakura Count. An enemy with 3 Sakura Counts will have the count reset to 0 and receives a Sakura Brand. The Sakura Brand lasts 10s.
+[SP 소모: 20][재사용 대기 시간: 12초] Summons and deploys the weapon, throwing Sakura katanas at enemies within range, slashing them once every 0.3s for the next 3.5s. Each slash deals 180.0% ATK of Physical DMG and has a 21.2% chance of adding a Sakura Count. An enemy with 3 Sakura Counts will have the count reset to 0 and receives a Sakura Brand. The Sakura Brand lasts 10s.
 
 ## Fubuki
 

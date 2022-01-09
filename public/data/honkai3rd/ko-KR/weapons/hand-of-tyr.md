@@ -10,4 +10,4 @@ Basic and charged attacks gain 30% Physical DMG to enemies with broken Elite Shi
 
 ## Rending Shrapnel
 
-[SP: 19][CD: 9s] Instantly unleashes a 3-hit charged bombardment sequence. Bombardment bleeds enemies hit to deal 315 Physical DMG every 0.5s for 7s.
+[SP 소모: 19][재사용 대기 시간: 9초] Instantly unleashes a 3-hit charged bombardment sequence. Bombardment bleeds enemies hit to deal 315 Physical DMG every 0.5s for 7s.

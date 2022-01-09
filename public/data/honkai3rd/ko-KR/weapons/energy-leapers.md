@@ -2,7 +2,7 @@
 
 ## Stun and Run
 
-[SP: 14][CD: 16s] Drops a stun bomb and teleports backwards. The stun bomb then explodes, dealing 350% ATK of Physical DMG and generating a stun field that lasts for 4.50s.
+[SP 소모: 14][재사용 대기 시간: 16초] Drops a stun bomb and teleports backwards. The stun bomb then explodes, dealing 350% ATK of Physical DMG and generating a stun field that lasts for 4.50s.
 
 ## Temporal Frenzy
 

@@ -9,4 +9,4 @@ Launches homing missiles at multiple targets. Longer charge time. Slightly decre
 
 ## Frost Stare
 
-[SP: 12][CD: 20s] For 6.50s, the character's attacks slow enemies' Move Speed and Attack Speed by 60% for 3.5s.
+[SP 소모: 12][재사용 대기 시간: 20초] For 6.50s, the character's attacks slow enemies' Move Speed and Attack Speed by 60% for 3.5s.

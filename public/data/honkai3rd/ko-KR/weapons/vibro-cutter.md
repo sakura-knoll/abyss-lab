@@ -2,7 +2,7 @@
 
 ## Induction Collapse
 
-[SP: 14][CD: 11s] Teleports to target and creates a small immobilizing field that lasts for 4s. Enemies immobilized by the field lose 80% DEF and take 234 Lightning DMG every 0.4s for the duration. This Field lasts 4s.
+[SP 소모: 14][재사용 대기 시간: 11초] Teleports to target and creates a small immobilizing field that lasts for 4s. Enemies immobilized by the field lose 80% DEF and take 234 Lightning DMG every 0.4s for the duration. This Field lasts 4s.
 
 ## Frequency Overload
 

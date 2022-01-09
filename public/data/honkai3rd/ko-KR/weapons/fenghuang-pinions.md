@@ -2,7 +2,7 @@
 
 ## Miseries Abound
 
-[SP: 6][CD: 25s] Unleash a lightning strike upon the target to deal 200.0%x3 ATK of Lightning DMG. Tap the weapon button again to cast weapon finisher which deals 400.0% ATK of Lightning DMG to the target and enemies nearby, paralyzes the target for 1s and makes them take 35.0% bonus Lightning DMG for 9s (cannot stack).
+[SP 소모: 6][재사용 대기 시간: 25초] Unleash a lightning strike upon the target to deal 200.0%x3 ATK of Lightning DMG. Tap the weapon button again to cast weapon finisher which deals 400.0% ATK of Lightning DMG to the target and enemies nearby, paralyzes the target for 1s and makes them take 35.0% bonus Lightning DMG for 9s (cannot stack).
 
 ## Beyond Salvation
 

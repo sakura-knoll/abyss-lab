@@ -6,4 +6,4 @@ Fires a beam that continuously damages targets along a straight path. Continuous
 
 ## Heat Discharge
 
-[SP: 14][CD: 30s] For the next 11s, character attacks gain 12% Physical DMG but has 60% slower Move Speed. Buff also cancels distance-based damage reduction of the weapon.
+[SP 소모: 14][재사용 대기 시간: 30초] For the next 11s, character attacks gain 12% Physical DMG but has 60% slower Move Speed. Buff also cancels distance-based damage reduction of the weapon.

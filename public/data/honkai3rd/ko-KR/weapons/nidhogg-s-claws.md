@@ -2,7 +2,7 @@
 
 ## Deadly Bite
 
-[SP: 25][CD: 12s] Brutal chainsaw attack that deals 24x32% ATK of Physical DMG to enemies within range. Pulls back the weapon in the end to knock nearby enemies back, dealing 325% ATK of Physical DMG. Character also gains invincibility during the attack sequence.
+[SP 소모: 25][재사용 대기 시간: 12초] Brutal chainsaw attack that deals 24x32% ATK of Physical DMG to enemies within range. Pulls back the weapon in the end to knock nearby enemies back, dealing 325% ATK of Physical DMG. Character also gains invincibility during the attack sequence.
 
 ## Deadly Rend
 

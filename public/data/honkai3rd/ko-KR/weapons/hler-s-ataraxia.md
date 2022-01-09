@@ -1,13 +1,13 @@
-# Hler's Ataraxia
+# 잠적의 헬러
 
-## Sanction of Styx
+## 명계의 심판
 
-[SP: 0][CD: 25s] Launches a thrust attack, dealing 50% ATK of Physical DMG. If the thrust hits an enemy who is not in Invincibility or Iron Body state, it triggers a Throw ATK, controlling the target and dealing 90% + 1,400.0% ATK of Physical DMG. While an enemy is executing certain moves, the wielder can unleash a Throw counter with no restrictions when the Weapon Skill button flashes, controlling the enemy and dealing 20% + 800.0% ATK of Physical DMG; this attack has no CD. Throws can trigger an energy surge and deal 100.0% ATK of Physical DMG to affected enemies.
+[SP 소모: 0][재사용 대기 시간: 25초] 돌진 공격을 발동해 공격력 50%의 물리 대미지를 가한다. 슈퍼 아머/무적 상태가 아닌 적 명중 시, 던지기 공격이 발동되어 적을 제어하고 공격력 90%+1,400.0%의 물리 대미지를 가한다. 적의 특정 초식 기간, 무기 버튼이 번쩍일 때, 모든 조건을 무시하고 반격 던지기를 발동해 적을 제어하고 공격력 20%+800%의 물리 대미지를 가한다. 이때 재사용 대기시간을 계산하지 않는다. 던지기 공격은 1회의 에너지 분출을 발동시킬 수 있으며, 던지기에 제어당한 적에게 공격력의 100.0%의 물리 대미지를 가한다.
 
-## Billows of Annihilation
+## 세계를 삼키는 파도
 
-The Crit DMG of Charged and Throw ATKs increases by 30.0%. In Burst mode, Throw ATKs and energy surges deal 400.0% ATK of bonus Physical DMG and emit shockwaves every 2.5s dealing 60.0% ATK of Physical DMG. Shockwaves are considered Ultimate attacks with 50% bonus Crit Rate.
+차지 공격과 던지기 공격의 크리티컬 대미지가 30.0% 증가한다. 폭발 상태에서 던지기 공격과 에너지 분출은 추가로 공격력 400.0%의 물리대미지를 추가하며, 2.5초마다 충격을 1회 발동해 공격력 60.0%의 물리 대미지를 가한다. 해당 공격 유형은 50%의 추가 크리티컬률을 가진 필살기로 간주한다.
 
-## Torrent of Oblivion
+## 고요한 홍수
 
-Wielder has 25.0% bonus Crit Rate. When the energy surge caused by Throw ATKs ends, it offers an extra charge. Every charge makes the next Throw ATK restore 3.50 SP and boost the Crit Rate of Throw ATKs and energy surges by 4.0%. Every 2 charges cause one more energy surge. 8 stacks max and all stacks are removed at the end of the battle. At full stacks, every energy surge deals 300% ATK of bonus Physical DMG.
+캐릭터의 크리티컬률이 25.0% 증가한다. 던지기 공격으로 발동된 에너지 분출이 끝나면, 충전이 1스택 추가된다. 스택마다 다음 던지기 공격 시 자신의 SP를 3.50pt 회복하며, 던지기 공격과 에너지 분출의 크리티컬률이 4.0% 증가한다. 충전이 2스택 추가될 때마다 에너지 분출 횟수가 1회 증가하며, 해당 전투 종료시까지 최대 8스택까지 중첩할 수 있다. 중첩 최대치에 도달하면, 에너지 분출마다 추가로 공격력 300%의 물리 대미지를 가한다.

@@ -2,7 +2,7 @@
 
 ## Hyper RPM
 
-[SP: 18][CD: 24s] Revs up the spinning saw blades. Basic attacks (including charged attacks) gain 50.0% Attack Speed and 25.0% Crit Rate for 8s. Also increases Ignore Interrupt for the wielder in the duration.
+[SP 소모: 18][재사용 대기 시간: 24초] Revs up the spinning saw blades. Basic attacks (including charged attacks) gain 50.0% Attack Speed and 25.0% Crit Rate for 8s. Also increases Ignore Interrupt for the wielder in the duration.
 
 ## Lightning Punishment
 
