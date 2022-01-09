@@ -24,7 +24,7 @@ const BattlesuitCard = ({ battlesuit, hidden }: BattlesuitCardProps) => {
     <Card
       className={hidden ? 'hidden' : ''}
       sx={{
-        width: [140, 160],
+        width: 120,
         padding: 2,
         margin: 2,
         '&.hidden': {
@@ -39,7 +39,7 @@ const BattlesuitCard = ({ battlesuit, hidden }: BattlesuitCardProps) => {
         <SquareImageBox
           alt={battlesuitName}
           src={`/assets/honkai3rd/battlesuits/portrait-${battlesuit.id}.png`}
-          size={[120, 140]}
+          size={100}
         />
         <Box
           sx={{

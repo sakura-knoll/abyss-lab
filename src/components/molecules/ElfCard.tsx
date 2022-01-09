@@ -21,7 +21,7 @@ const ElfCard = ({ elf }: ElfCardProps) => {
       sx={{
         m: 2,
         p: 2,
-        width: [140, 160],
+        width: [120],
         '&.hiden': {
           display: 'none',
         },
@@ -31,7 +31,7 @@ const ElfCard = ({ elf }: ElfCardProps) => {
         <SquareImageBox
           alt={elfName}
           src={`/assets/honkai3rd/elfs/icon-${elf.id}.png`}
-          size={[120, 140]}
+          size={[100]}
         />
         <Box
           sx={{

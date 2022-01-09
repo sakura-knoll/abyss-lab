@@ -64,14 +64,14 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
               position: 'relative',
               overflow: 'hidden',
               width: '100%',
-              maxWidth: '600px',
+              maxWidth: [300, 400],
             }}
           >
             <Image
               alt={battlesuitName}
               src={`/assets/honkai3rd/battlesuits/${battlesuit.id}.png`}
-              width={600}
-              height={600}
+              width={400}
+              height={400}
               layout='responsive'
             />
           </Box>

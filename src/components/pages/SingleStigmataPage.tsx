@@ -62,15 +62,15 @@ const SingleStigmataPage = ({
             position: 'relative',
             overflow: 'hidden',
             width: '100%',
-            maxWidth: '600px',
+            maxWidth: [300, 400],
             borderRadius: 4,
           }}
         >
           <Image
             alt={stigmataName}
             src={`/assets/honkai3rd/stigmata/${stigmataData.id}.png`}
-            width={600}
-            height={600}
+            width={400}
+            height={400}
             layout='responsive'
           />
         </Box>

@@ -20,14 +20,14 @@ const StigmataCard = ({ stigmata }: StigmataCardProps) => {
   return (
     <Card
       sx={{
-        width: '120px',
-        padding: 2,
-        margin: 2,
+        width: [85, 120],
+        padding: [1, 2],
+        margin: [1, 2],
       }}
     >
       <PageLink href={`/honkai3rd/stigmata/${stigmata.id}`}>
         <SquareImageBox
-          size={100}
+          size={[75, 100]}
           alt={stigmataName}
           src={`/assets/honkai3rd/stigmata/icon-${stigmata.id}.png`}
         />
