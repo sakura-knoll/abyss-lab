@@ -1,5 +1,6 @@
-# Wang Zhenyi (중)
+# 정의 (중)
 
-##
+## 상수 관찰
 
-Host and her summoned entities deal 15.0% bonus Total DMG. Switching out ends Mitternacht and boosts Lightning DMG dealt by team members and summoned entities by 15.0% for 18.0s. Triggering it again resets the duration (cannot stack).
+자신과 자신의 소환물의 모든 대미지가 15.0% 증가한다. 캐릭터 퇴장 시 [유야] 상태를 소모해 파티원 캐릭터 및 소환물의 뇌전 대미지를 15.0% 증가시킨다.
+지속 시간: 18.0초, 중복 발동 시 지속 시간을 갱신한다.(한번만 발동)

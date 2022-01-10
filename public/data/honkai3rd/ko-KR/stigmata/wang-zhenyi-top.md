@@ -1,5 +1,5 @@
-# Wang Zhenyi (상)
+# 정의 (상)
 
-##
+## 알기 쉬운 계산
 
-Lightning DMG increases by 45.0%. Weapon actives grant Mitternacht status and restore 10.0 SP on hit. Mitternacht lasts 12s and a 15.0s CD.
+뇌전 원소 대미지가 45.0% 증가한다. 무기 액티브 스킬이 적 적중 시 자신은 [유야] 상태를 획득하고, SP를 10.0pt 회복한다. [유야] 상태의 지속 시간: 12초, 재사용 대기시간: 15.0초
