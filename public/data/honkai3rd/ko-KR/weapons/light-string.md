@@ -1,5 +1,5 @@
-# Light String
+# 경현
 
-## Rapid Shot
+## 속사
 
-[SP 소모: 0][재사용 대기 시간: 0초] Use the bow to aim and shoot (max aiming duration: 3s), dealing 450.0% ATK of Physical DMG. Hitting an enemy weakspot creates an explosion dealing 650.0% ATK of Physical DMG. The weapon active's CD and charging time are based on the shooting mode.
+[SP 소모: 0][재사용 대기 시간: 0초] 화살로 적을 조준하고 사격한다(최대 3초 동안 조준), 목표에게 450.0%의 뇌전 원소 대미지를 가한다. 목표 약점 적중 시, 공격력 650.0%의 물리 대미지를 가한다. 무기 액티브 스킬의 재사용 대기시간과 충전 시간은 장착 캐릭터의 사격 유형에 따라 결정된다.

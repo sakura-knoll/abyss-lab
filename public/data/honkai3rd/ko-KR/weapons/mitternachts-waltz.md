@@ -1,9 +1,9 @@
-# Mitternachts Waltz
+# 유야의 왈츠
 
-## Arrows of Verurteilung
+## 신성한 단죄의 화살
 
-[SP 소모: 0][재사용 대기 시간: 0초] Use the bow to aim and shoot (max aiming duration: 3s), dealing 650.0% ATK of Lightning DMG. Hitting an enemy weakspot creates an explosion dealing 200.0% ATK of Lightning DMG. The weapon active's CD and charging time are based on the shooting mode.
+[SP 소모: 0][재사용 대기 시간: 0초] 화살로 적을 조준하고 사격한다(최대 3초 동안 조준), 목표에게 650.0%의 뇌전 원소 대미지를 가한다. 목표 약점 적중 시, 목표 위치에 폭발을 1회 일으켜 주변 적에게 200.0%의 뇌전 원소 대미지를 가한다. 무기 액티브 스킬의 재사용 대기시간과 충전 시간은 장착 캐릭터의 사격 유형에 따라 결정된다.
 
-## Overture of Nightfall
+## 심원의 서막곡
 
-The weapon active marks enemies hit for 10s and make them take 125.0% ATK of bonus Lightning DMG. 30 times max (CD: 0.1s). Marking CD: 16s.
+무기 액티브 스킬이 적에게 명중 시, 10초간 표식을 부여한다. 표식을 부여받은 적은 뇌전 대미지를 받을 때마다 추가로 캐릭터 공격력 125.0%의 뇌전 원소 대미지를 받는다. 최대 발동 수: 30회(0.1초마다 최대 1회 발동), 표식 부여 재사용 대기시간: 16초

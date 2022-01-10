@@ -1,15 +1,18 @@
-# Iris of Helheim
+# 명계로 이끄는 향
 
-## Soul Awakener
+## 영혼 소환자
 
-[SP 소모: 0][재사용 대기 시간: 25초] Unleash soul-drinking mist around wielder to knock enemies airborne, deal 400% ATK of Lightning DMG, and trigger the following effects:Fallen Rosemary enters Valfreyja Form immediately, obtains Ulf/Strix/Ormr Runes, and fully restores Disir.
-Enemies in the mist are Bedazzled and take 80.0% ATK of bonus Lightning DMG from Ormr Rune's periodical lightning for 15s.Each Charged ATK boosts wielder's Total DMG by 25.0% for 15s (cannot stack).
+[SP 소모: 0][재사용 대기 시간: 25초] 자신의 주위에 혼을 빼앗는 안개를 방출해 적을 날리고, 공격력 400%의 뇌전 워소 대미지를 가하며 다음과 같은 효과를 획득한다:
+로스트 모즈마리는 즉시 [명계의 마녀] 형태에 진입해 [늑대] [부엉이] [뱀] 3개의 인장을 획득하고 모든 영혼을 회복한다.
+안개 안에 있는 적은 [실혼] 상태에 진입하고, [뱀의 인장]의 주기적인 뇌전은 [실혼] 상태의 적에게 추가로 공격력 80.0%의 뇌전 원소 대미지를 가한다. 지속 시간: 15초
+차지 공격을 발동할 때마다 자신의 모든 대미지가 25.0% 증가한다, 지속 시간: 15초(해당 효과는 중첩되지 않는다.)
 
-## Guiding Fragrance
+## 길을 인도하는 향
 
-Wielder's Charged ATK and Ultimate deal 30.0% bonus Lightning DMG. She deals 40.0% bonus Total DMG to enemies affected by Stain of Trickery.
+캐릭터의 차지 공격과 필살기가 가하는 뇌전 원소 대미지가 30.0% 증가한다. 자신이 [악의 주문] 상태의 적에게 가하는 모든 대미지가 40.0% 증가한다.
 
-## Reflux of Gjöll
+## 삼도천의 역류
 
-Fallen Rosemary equip bonuses:During Ultimate, all skill timers on her and enemies are paused.
-Ultimate channeling time is reduced to 2s, during which all enemies are slowed. Trickster has a much larger attack range.
+로스트 로즈마리가 장비 시 다음과 같은 효과를 획득한다:
+필살기 발동 기간 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다.
+로키의 발동 시간이 2초로 감소하고 공격 범위가 대폭 증가한다. 발동 기간 모든 적의 이동 속도가 대폭 감소한다.

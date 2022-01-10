@@ -1,13 +1,13 @@
-# Cosmic Duality
+# 불수음청
 
-## Ocean of Yin
+## 음회
 
-[SP 소모: 25][재사용 대기 시간: 24초] The wielder gains Ignore Interrupt and 10% ATK Speed for 10s, during which she restores 20.0 HP and 3 SP per 0.5s. Azure Empyrea equip bonus: The Spirit Shield from her Evasion Skill is reset immediately.
+[SP 소모: 25][재사용 대기 시간: 24초] 10초 동안 캐릭터의 경직 저항력과 공격 속도가 10% 증가하고, 0.5초마다 HP를 20.0, SP를 3.0pt 회복한다. 단심의 먹구름이 사용 시 즉시 회피 스킬의 보호 효과를 초기화한다.
 
-## Ocean of Yang
+## 양명
 
-Fu Hua equip bonus: Hitting an enemy with the final hit of any set of her combos boosts her Fire DMG by 18.0% for 18.0s (stacks up tp 3 times) and adds 1 charge (Max: 3). This effect can be triggered once every 2s; triggering it again resets the duration. Using the weapon active grants 3 stacks. When the wielder leaves the battlefield, each charge boosts teammates' Total DMG by 5.0% for 18.0s (triggering this effect again resets the duration), then all charges will be removed.
+후카 캐릭터는 초기 연계의 마지막 일격이 적에게 적중할 때마다, 화염 원소 대미지가 18.0% 증가하고 카운트를 1스택 획득한다(최대 3스택) 지속 시간: 18.0초. 해당 효과는 2초마다 1회 발동되며 중복 발동 시 지속 시간을 갱신한다. 무기 액티브 스킬 발동 시, 즉시 카운트를 3스택 획득한다. 캐릭터 퇴장 시 카운트 1스택마다 파티 내 기타 캐릭터의 모든 대미지가 5.0% 증가하며, 카운트를 초기화한다. 지속 시간: 18.0초(중복 발동 시 지속 기간을 갱신한다.)
 
-## All-Embracing Ki
+## 충만한 기운
 
-Whenever a team member casts Ultimate, the wielder restores 300.0 HP and 10.0 SP. Team-shared CD: 15s.
+파티 내 캐릭터가 필살기 발동 시, 자신의 HP를 300.0, SP를 10.0pt 회복한다. 공유 대기시간: 15초
