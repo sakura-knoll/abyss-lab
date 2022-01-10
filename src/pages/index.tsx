@@ -3,10 +3,12 @@ import { Box, Text } from '@theme-ui/components'
 import PageLink from '../components/atoms/PageLink'
 import Image from 'next/image'
 import RootNavigator from '../components/organisms/RootNavigator'
+import Head from '../components/atoms/Head'
 
 const IndexPage = () => {
   return (
     <Box>
+      <Head title='Abyss Lab - Unofficial Honkai3rd/Genshin Wiki' />
       <RootNavigator />
       <Box sx={{ p: 3 }}>
         <Box mb={4}>

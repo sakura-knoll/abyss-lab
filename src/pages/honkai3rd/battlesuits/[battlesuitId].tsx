@@ -13,7 +13,10 @@ import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import {
   BattlesuitData,
+  battlesuitFeatures,
   BattlesuitSkillGroup,
+  battlesuitTypes,
+  valkyries,
 } from '../../../lib/honkai3rd/battlesuits'
 import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
 import {
@@ -22,6 +25,8 @@ import {
 } from '../../../server/data/honkai3rd/battlesuits'
 import { translate, useTranslation } from '../../../lib/i18n'
 import { useRouter } from 'next/router'
+import Head from '../../../components/atoms/Head'
+import { capitalize } from '../../../lib/string'
 
 interface BattlesuitShowPageProps {
   battlesuit: BattlesuitData
@@ -37,8 +42,44 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
     battlesuit.name
   )
 
+  const { label: valkyrieLabel, krLabel } = valkyries.find(
+    (aValkyrie) => aValkyrie.value === battlesuit.valkyrie
+  ) || { label: battlesuit.valkyrie, krLabel: battlesuit.valkyrie }
+
+  const valkyrieName = translate(locale, { 'ko-KR': krLabel }, valkyrieLabel)
+
+  const battlesuitType = battlesuitTypes.find(
+    (aType) => aType.value === battlesuit.type
+  )
+  const battlesuitTypeLabel = battlesuitType
+    ? translate(
+        locale,
+        { 'ko-KR': battlesuitType.krLabel },
+        battlesuitType.label
+      )
+    : capitalize(battlesuit.type)
+
   return (
     <Box>
+      <Head
+        title={`${t('breadcrumb.honkai-3rd')}: ${battlesuitName} - Abyss Lab`}
+        description={`${t('breadcrumb.honkai-3rd')} ${t(
+          'battlesuit-show.battlesuit'
+        )} / ${valkyrieName} / ${battlesuitTypeLabel} / ${battlesuit.features
+          .map((feature) => {
+            const featureData = battlesuitFeatures.find(
+              (aFeature) => aFeature.value === feature
+            )
+            if (featureData == null) {
+              return feature
+            }
+
+            const { label, krLabel } = featureData
+
+            return translate(locale, { 'ko-KR': krLabel }, label)
+          })
+          .join(', ')}`}
+      />
       <Honkai3rdNavigator />
 
       <Box p={3}>

@@ -9,6 +9,7 @@ import Honkai3rdNavigator from '../../components/organisms/Honkai3rdNavigator'
 import SecondaryLabel from '../atoms/SecondaryLabel'
 import { useRouter } from 'next/router'
 import { translate, useTranslation } from '../../lib/i18n'
+import Head from '../atoms/Head'
 
 export interface SingleStigmataPageProps {
   type: 'single'
@@ -41,6 +42,17 @@ const SingleStigmataPage = ({
 
   return (
     <Box>
+      <Head
+        title={`${t('breadcrumb.honkai-3rd')}: ${stigmataName} - Abyss Lab`}
+        description={`${t('breadcrumb.honkai-3rd')} ${t(
+          'stigmata-show.stigmata'
+        )} /
+        ${'⭐'.repeat(stigmataData.rarity)} / ${t(
+          `stigmata-show.${stigmataData.type}`
+        )} / HP : ${stigmataData.hp} / ATK : ${stigmataData.atk} / DEF : ${
+          stigmataData.def
+        } / CRT : ${stigmataData.crt}`}
+      />
       <Honkai3rdNavigator />
       <Box p={3}>
         <Breadcrumb

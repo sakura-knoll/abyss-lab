@@ -17,6 +17,7 @@ import { useRouter } from 'next/router'
 import { NextPageContext } from 'next'
 import { getI18NProps } from '../../../server/i18n'
 import { translate, useTranslation } from '../../../lib/i18n'
+import Head from '../../../components/atoms/Head'
 
 type BattlesuitListItemData = Pick<
   BattlesuitData,
@@ -77,6 +78,12 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
 
   return (
     <Box>
+      <Head
+        title={`${t('breadcrumb.honkai-3rd')}: ${t(
+          'breadcrumb.battlesuits'
+        )} - Abyss Lab`}
+        description={t('battlesuits-list.description')}
+      />
       <Honkai3rdNavigator />
 
       <Box p={3}>

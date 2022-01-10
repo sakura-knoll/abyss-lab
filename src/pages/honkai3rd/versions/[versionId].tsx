@@ -23,6 +23,7 @@ import { VersionData } from '../../../lib/honkai3rd/versions'
 import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
 import { translate, useTranslation } from '../../../lib/i18n'
 import { useRouter } from 'next/router'
+import Head from '../../../components/atoms/Head'
 
 interface VersionShowPageProps {
   versionData: VersionData
@@ -42,6 +43,26 @@ const VersionShowPage = ({
 
   return (
     <Box>
+      <Head
+        title={`${t('breadcrumb.honkai-3rd')}: v${
+          versionData.version
+        } - Abyss Lab`}
+        description={`${t('breadcrumb.honkai-3rd')} ${t(
+          'versions.version'
+        )} / ${t('versions.new-battlesuits')}: ${battlesuits
+          .map((battlesuit) => {
+            return translate(
+              locale,
+              { 'ko-KR': battlesuit.krName },
+              battlesuit.name
+            )
+          })
+          .join(',')} / ${t('versions.new-weapons')}: ${weapons
+          .map((weapon) => {
+            return translate(locale, { 'ko-KR': weapon.krName }, weapon.name)
+          })
+          .join(',')}`}
+      />
       <Honkai3rdNavigator />
 
       <Box p={3}>

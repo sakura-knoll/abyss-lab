@@ -12,6 +12,7 @@ import WeaponCard from '../../../components/molecules/WeaponCard'
 import { getI18NProps } from '../../../server/i18n'
 import { NextPageContext } from 'next'
 import { useTranslation, translate } from '../../../lib/i18n'
+import Head from '../../../components/atoms/Head'
 
 type WeaponListItemData = Pick<
   WeaponData,
@@ -56,6 +57,12 @@ const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
 
   return (
     <Box>
+      <Head
+        title={`${t('breadcrumb.honkai-3rd')}: ${t(
+          'breadcrumb.weapons'
+        )} - Abyss Lab`}
+        description={t('weapons-list.description')}
+      />
       <Honkai3rdNavigator />
 
       <Box p={3}>

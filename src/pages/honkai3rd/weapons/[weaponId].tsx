@@ -12,6 +12,7 @@ import {
 } from '../../../server/data/honkai3rd/weapons'
 import { useRouter } from 'next/router'
 import { useTranslation, translate } from '../../../lib/i18n'
+import Head from '../../../components/atoms/Head'
 
 interface WeaponShowPageProps {
   weapon: WeaponData
@@ -22,9 +23,18 @@ const WeaponShowPage = ({ weapon }: WeaponShowPageProps) => {
   const { t } = useTranslation()
 
   const weaponName = translate(locale, { 'ko-KR': weapon.krName }, weapon.name)
+  const weaponCategory = t(`weapons-show.${weapon.category}`)
 
   return (
     <Box>
+      <Head
+        title={`${t('breadcrumb.honkai-3rd')}: ${weaponName} - Abyss Lab`}
+        description={`${t('breadcrumb.honkai-3rd')} ${t(
+          'weapons-show.weapon'
+        )} / ${'⭐'.repeat(weapon.rarity)} / ${weaponCategory} / ATK : ${
+          weapon.atk
+        } / CRT : ${weapon.crt}`}
+      />
       <Honkai3rdNavigator />
 
       <Box p={3}>
@@ -51,7 +61,7 @@ const WeaponShowPage = ({ weapon }: WeaponShowPageProps) => {
 
         <Card mb={3}>
           <Box p={2} sx={{ borderBottom: 'default' }}>
-            {t(`weapons-show.${weapon.category}`)}
+            {weaponCategory}
           </Box>
           <Box p={2} sx={{ borderBottom: 'default' }}>
             {'⭐'.repeat(weapon.rarity)}

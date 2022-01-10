@@ -10,6 +10,7 @@ import PageLink from '../../components/atoms/PageLink'
 import SquareImageBox from '../../components/atoms/SquareImageBox'
 import { mdiGithub } from '@mdi/js'
 import { Icon } from '@mdi/react'
+import Head from '../../components/atoms/Head'
 
 const bannerValkyries = [
   'kiana',
@@ -43,6 +44,10 @@ const Honkai3rdIndexPage = () => {
 
   return (
     <Box>
+      <Head
+        title={`${t('breadcrumb.honkai-3rd')}: Home - Abyss Lab`}
+        description={t('index.description')}
+      />
       <Honkai3rdNavigator />
 
       <Box p={3}>

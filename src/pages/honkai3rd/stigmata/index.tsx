@@ -16,6 +16,7 @@ import {
   listStigmataSet,
 } from '../../../server/data/honkai3rd/stigmata'
 import { useTranslation } from 'next-i18next'
+import Head from '../../../components/atoms/Head'
 
 interface StigmataListPageProps {
   stigmataDataList: Pick<StigmataData, 'id' | 'name' | 'rarity' | 'krName'>[]
@@ -38,6 +39,12 @@ const StigmataListPage = ({
 
   return (
     <Box>
+      <Head
+        title={`${t('breadcrumb.honkai-3rd')}: ${t(
+          'breadcrumb.stigmata'
+        )} - Abyss Lab`}
+        description={t('stigmata-list.description')}
+      />
       <Honkai3rdNavigator />
 
       <Box p={3}>

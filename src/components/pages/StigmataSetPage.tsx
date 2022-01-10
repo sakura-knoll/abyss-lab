@@ -9,6 +9,7 @@ import { StigmataData, StigmataSet } from '../../lib/honkai3rd/stigmata'
 import SecondaryLabel from '../atoms/SecondaryLabel'
 import { translate, useTranslation } from '../../lib/i18n'
 import { useRouter } from 'next/router'
+import Head from '../atoms/Head'
 
 export interface StigmataSetProps {
   type: 'set'
@@ -36,6 +37,14 @@ const StigmataSetPage = ({
 
   return (
     <Box>
+      <Head
+        title={`${t('breadcrumb.honkai-3rd')}: ${stigmataSetName} ${t(
+          'stigmata-show.stigmata-set'
+        )} - Abyss Lab`}
+        description={`${t('breadcrumb.honkai-3rd')} ${t(
+          'stigmata-show.stigmata-set'
+        )} / ${'⭐'.repeat(stigmataSet.rarity)} / ${stigmataSetAltName}`}
+      />
       <Honkai3rdNavigator />
 
       <Box p={3}>

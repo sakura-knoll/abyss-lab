@@ -23,6 +23,7 @@ import { getI18NProps } from '../../../server/i18n'
 import { NextPageContext } from 'next'
 import { useTranslation, translate } from '../../../lib/i18n'
 import { useRouter } from 'next/router'
+import Head from '../../../components/atoms/Head'
 
 interface VersionIndexPageProps {
   versionDataList: VersionData[]
@@ -44,6 +45,13 @@ const VersionIndexPage = ({
 
   return (
     <Box>
+      <Head
+        title={`${t('breadcrumb.honkai-3rd')}: ${t(
+          'breadcrumb.versions'
+        )} - Abyss Lab`}
+        description={t('versions.list-page-description')}
+      />
+
       <Honkai3rdNavigator />
 
       <Box p={3}>

@@ -12,6 +12,8 @@ import { getElfById, listElfs } from '../../../server/data/honkai3rd/elfs'
 import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
 import { translate, useTranslation } from '../../../lib/i18n'
 import { useRouter } from 'next/router'
+import Head from '../../../components/atoms/Head'
+import { battlesuitFeatures } from '../../../lib/honkai3rd/battlesuits'
 interface ElfShowPageProps {
   elf: ElfData
 }
@@ -24,6 +26,25 @@ const ElfShowPage = ({ elf }: ElfShowPageProps) => {
 
   return (
     <Box>
+      <Head
+        title={`${t('breadcrumb.honkai-3rd')}: ${elfName} - Abyss Lab`}
+        description={`${t('breadcrumb.honkai-3rd')} ${t(
+          'elfs-show.elf'
+        )} / ${'⭐'.repeat(elf.baseRank)} / ${elf.features
+          .map((feature) => {
+            const featureData = battlesuitFeatures.find(
+              (aFeature) => aFeature.value === feature
+            )
+            if (featureData == null) {
+              return feature
+            }
+
+            const { label, krLabel } = featureData
+
+            return translate(locale, { 'ko-KR': krLabel }, label)
+          })
+          .join(', ')}`}
+      />
       <Honkai3rdNavigator />
 
       <Box p={3}>

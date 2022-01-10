@@ -9,6 +9,7 @@ import { ElfData } from '../../../lib/honkai3rd/elfs'
 import { getI18NProps } from '../../../server/i18n'
 import { listElfs } from '../../../server/data/honkai3rd/elfs'
 import { useTranslation } from '../../../lib/i18n'
+import Head from '../../../components/atoms/Head'
 
 interface ElfListPageProps {
   elfs: Pick<ElfData, 'id' | 'name' | 'krName'>[]
@@ -19,6 +20,13 @@ const ElfListPage = ({ elfs }: ElfListPageProps) => {
 
   return (
     <Box>
+      <Head
+        title={`${t('breadcrumb.honkai-3rd')}: ${t(
+          'breadcrumb.elfs'
+        )} - Abyss Lab`}
+        description={t('elfs-list.description')}
+      />
+
       <Honkai3rdNavigator />
 
       <Box p={3}>
