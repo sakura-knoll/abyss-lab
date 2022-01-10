@@ -1,106 +1,111 @@
-# Prinzessin der Verurteilung!
+# 단죄의 황녀!!
 
-## Evernight Suite
+## 극야 조곡
 
-Leader Bonus:
-Ranged attackers on the team deal 6.0% bonus Total DMG; team deals 16.0% bonus Elemental DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+리더 스킬: 파티원 캐릭터의 원거리 공격 대미지가 15.0% 증가하고, 파티원 캐릭터가 가하는 모든 원소 대미지가 28.0% 증가한다.
 
-### Evernight Suite
+### 극야 조곡
 
-Team deals 15.0% bonus Total DMG through ranged ATKs and deals 28.0% bonus Elemental DMG.
+파티원 캐릭터의 원거리 공격 대미지가 15.0% 증가하고, 파티원 캐릭터가 가하는 모든 원소 대미지가 28.0% 증가한다.
 
-## Shrieking Shaft
+## 슬피 우는 화살
 
-Passive bonuses apply automaticallyBalanced archer with up to 2 shooting chances (one is restored ever 10s if less than 2).Corrected modifier of non-aimed shooting: 100%.Corrected modifier of aimed shooting: 100%.
+캐릭터는 자동으로 패시브 스킬 버프를 받는다.
+밸런스형 활 캐릭터로, 사격 기회를 2회 보유하고 있고 2회 미만 시 10초마다 1회 회복한다.
+기본 사격 배율 수정: 100%
+조준 사격 배율 수정: 100%
 
-### Domain of Isolation
+### 단절의 경계
 
-When enhanced, Valkyrie has 30.0% Total DMG Reduction and higher Ignore Interrupt during Basic ATKs.
+강화 상태에서 기본 공격 사용 시, 받는 모든 대미지가 30% 감소하고, 경직 저항력이 증가한다.
 
-### Causality Perceived
+### 인과 통찰
 
-Active skills of bow weapons deal 80.0% bonus Total DMG when hitting an enemy weakspot.
+활 무기 액티브 스킬로 적 약점 적중 시, 이번 공격의 모든 대미지가 80.0% 증가한다.
 
-### Entwined Arrowhead
+### 마를 엮는 화살
 
-The moment when the active skill of a bow weapon hits an enemy, tapping [ATK] triggers QTE.
+활 무기 액티브 스킬로 적을 적중하는 순간, 공격 버튼을 누르면 자신의 QTE를 발동할 수 있다.
 
-## Shadow Step
+## 허상의 발걸음
 
-Evade enemy attacks up to twice in a row.
-Ultimate Evasions deal 50%x5 ATK of Lightning DMG and trigger 3s of Time Fracture. CD: 18s.While Oz is present, hold [ATK] right after an evasion to perform Charged ATK.
+빠르게 적의 공격을 회피한다. 연속 2번 회피할 수 있다.
+극한 회피 성공 시 적중한 적에게 공격력 50%\*5의 뇌전 원소 대미지를 가하고, 3초 동안 시공 단열을 발동한다. 재사용 대기시간: 18초. 오즈가 전장에 존재할 때, 회피 후 짧은 시간 기본 공격 버턴을 길게 누르면 즉시 차지 공격을 발동할 수 있다.
 
-### Noble Manners
+### 존귀한 자태
 
-Shortens CD of Ultimate Evasion by 4.0s.
+극한 회피 스킬 재사용 대기시간이 4.0초 감소한다.
 
-### Shadow Chaser
+### 그림자를 쫓는 번개
 
-Each hit of lightning strike from Ultimate Evasion Skill deals 40.0% ATK of bonus Lightning DMG.
+극한 회피 스킬 낙뢰의 타격마다 추가로 공격력 40.0%의 뇌전 원소 대미지를 가한다.
 
-## Charged ATK: Nightrider
+## 차지 공격-밤을 순찰하는 날개
 
-Hold [ATK] to summon Oz to aid in battle and enhance Fischl's Basic ATK while it's presentHold [ATK] to summon Oz (summoned entity) lasting 12s. Oz is a melee attacker and deals 10%X12 ATK of Lightning DMG. While it's present, Fischl's Basic ATKs become enhanced and her attack speed increases.
-Hold [ATK] while Oz is present to launch Charged ATK dealing 300% ATK of Lightning DMG.
+공격 버튼을 길게 누르면 오즈를 소환해 보조 공격을 가하고, 오즈가 전장에 존재 시 강력 사격으로 변경되어 발동한다.
+기본 공격 버튼을 길게 눌러 오즈[소환물]를 소환한다. 지속 시간 12초. 오즈는 근접 공격으로 적을 공격해 공격력 40%\*12의 뇌전 원소 대미지를 가한다. 오즈가 전장에 존재 시, 피슬의 공격이 강화 공격으로 변경되어 공격 빈도가 증가한다. 오즈가 전장에 존재할 때 기본 공격을 다시 길게 누르면 피슬이 차지 공격을 발동해 공격력 300%의 뇌전 원소 대미지를 가한다.
 
-### Raven Roam
+### 배회하는 까마귀
 
-Oz lasts 30.0s.
+오즈의 지속 시간이 30초로 연장된다.
 
-### Sanctifying Choir
+### 성스러운 합창
 
-Every Basic ATK from Oz restores 2.2 SP for Fischl.
+오즈가 기본 공격을 발동할 때마다 피슬의 SP를 2.2pt 회복한다.
 
-## Midnight Phantasmagoria
+## 암야의 환상
 
-Command Oz to launch a rain of arrows.
-Command Oz to soar up and rain down a shower of arrows, dealing 20%x50 ATK of Lightning DMG before Oz dives down to create a massive explosion dealing 1000% ATK of Lightning DMG.
-Oz will remain on the field after Ultimate to attack enemies. If Oz is already present when casting Ultimate, its duration will be reset.
+오즈가 광범위 깃털 사격을 1회 발동한다.
+오즈를 공중에 소환해 광범위의 깃털 화살을 지속적으로 아래로 발사하고, 총 공격력 20%\*50의 뇌전 원소 대미지를 가한다. 이후 오즈는 급강하해 광범위 폭발을 1회 일으켜 공격력 1000%의 뇌전 원소 대미지를 가한다. 필살기 종료 후, 오즈는 전장에 남아 적을 계속 공격한다. 필살기 발동 시 오즈가 전장에 존재하면 지속 시간을 갱신한다.
+소모 SP: 100, 재사용 대기시간: 20초.
 
-Activation Cost: 100 SP. CD: 20s.
+### 파괴의 여세
 
-### Formation Breaker
+필살기 사용 후, 파티원이 가하는 뇌전 원소 대미지가 55.0% 증가하고, 오즈가 가하는 뇌전 원소 대미지가 125.0% 증가한다. 지속 시간: 18.0초
 
-Casting Ultimate boosts team Lightning DMG by 55.0% and Oz's Lightning DMG by 125.0% for 18.0s.
+### 숭고한 꿈
 
-### Sublime Dream
+필살기 사용 후, 오즈의 기본 공격과 특수 공격으로 회복하는 피슬의 SP가 3.5/4.5까지 증가한다. 지속 시간: 15.0초.
 
-For 15.0s after casting Ultimate, Oz's Basic/Special ATKs restore 3.5/4.5 SP for Fischl.
+## 죄멸의 화살
 
-## Bolts of Downfall
+활을 사용해서 사격한다.
+기본 공격:
+제1격: 공격력 25%의 뇌전 원소 대미지를 가한다.
+제2격: 공격력 40%의 뇌전 원소 대미지를 가한다.
+제3격: 공격력 80%의 뇌전 원소 대미지를 가한다.
+제4격: 공격력 60%의 뇌전 원소 대미지를 가한다.
+제5격: 공격력 180%의 뇌전 원소 대미지를 가한다.
+강화 공격:
+제1격: 공격력 25%\*3의 뇌전 원소 대미지를 가한다.
+제2격: 공격력 40%\*3의 뇌전 원소 대미지를 가한다.
+제3격: 공격력 80%\*3의 뇌전 원소 대미지를 가한다.
+제4격: 공격력 60%\*3의 뇌전 원소 대미지를 가한다.
+제5격: 중앙의 화살은 공격력 360%의 뇌전 원소 대미지를 가하고, 주변 화살 4개는 공격력 60%\*4의 뇌전 원소 대미지를 가한다.
 
-Shoot arrows with a bowBasic ATK:1st Sequence: 25% ATK of Lightning DMG.
-2nd Sequence: 40% ATK of Lightning DMG.
-3rd Sequence: 80% ATK of Lightning DMG.
-4th Sequence: 60% ATK of Lightning DMG.
-5th Sequence: 180% ATK of Lightning DMG.
-Enhanced ATK:1st Sequence: 25%x3 ATK of Lightning DMG.
-2nd Sequence: 40%x3 ATK of Lightning DMG.
-3rd Sequence: 80%x3 ATK of Lightning DMG.
-4th Sequence: 60%x3 ATK of Lightning DMG.
-5th Sequence: The central arrow deals 360% ATK of Lightning DMG and the 4 other arrows deal 60%x4 ATK of Lightning DMG.
+### 심판의 현
 
-### String of Conviction
+입장 시 12초 동안 기본 공격이 가하는 모든 대미지가 30% 증가한다.
 
-For 12s after entry, Basic ATKs deal 30.0% bonus Total DMG.
+### QTE-죄를 멸하는 번개
 
-### QTE: Thundering Execution
+적이 시공 감속 상태일 때 발동한다.
+공중에서 낙하해 공격력 5\*180%의 뇌전 원소 대미지를 가하고, 적중한 적에게 추가로 40.0%의 뇌전 원소 심화 효과를 부여한다. 지속 시간: 15.0초. 3초간 전체 시공 단열을 발동하고, SP를 추가로 16.0pt 회복한다. QTE가 발동한 전체 시공 단열과 SP 회복의 재사용 대기시간: 12초
 
-Triggered when an enemy is Time-Slowed to deal 5x180% ATK of Lightning DMG, inflict 40.0% Lightning Vulnerability on enemies hit for 15.0s, induce 3s of global Time Fracture, and restore 16.0 bonus SP. Global Time Fracture and bonus SP regen from QTE have a 12s CD.
+## 별을 삼킨 까마귀
 
-## Stellar Predator
+오즈의 능력을 강화한다.
+파티원의 분기/차지 공격이 적에게 명중 시, 오즈가 특수 공격을 1회 발동한다. 공중에서 적에게 돌격하고 빠르게 비행해 공격력 80%\*12의 뇌전 원소 대미지를 가하며, 피슬의 SP를 3pt 회복한다. 재사용 대기시간: 4초
 
-Empowers Oz.
-On hit, Combo/Charged ATKs from any team member summon Oz for a special ATK. it dives towards enemies, deals 80%x12 ATK of Lightning DMG, and restores 3 SP for Fischl. CD: 4s.
+### 창뢰의 깃털
 
-### Blazing Ravenfeather
+오즈의 특수 공격이 가하는 모든 대미지가 70.0% 증가하고, QTE가 부여한 뇌전 원소 피해 심화 효과의 지속 시간을 즉시 갱신한다.
 
-Oz's Special ATKs deal 70.0% bonus Total DMG and instantly reset the duration of Lightning Vulnerability inflicted by QTE.
+### 운명의 실
 
-### Strings of Fate
+활 무기 액티브 스킬로 적 적중 시, 오즈의 특수 공격이 즉시 발동하고, 필살기의 모든 대미지가 50.0% 증가한다. 지속 시간: 12.0초
 
-Hitting an enemy with the active skill of a bow weapon triggers Oz's Special ATK and boosts Ultimate's Total DMG by 50.0% for 12.0s.
+### 심원의 소리
 
-### Melody of Nightfall
-
-For 18.0s after casting Ultimate, Oz's Basic/Special ATKs restore 2.0/3.0 SP for Fischl.
+필살기 발동 후, 오즈의 기본 공격과 특수 공격이 피슬의 SP를 추가로 2.0/3.0pt 회복한다. 지속 시간: 18.0초
