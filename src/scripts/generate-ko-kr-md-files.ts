@@ -1,4 +1,6 @@
+import { BattlesuitSkillGroup } from '../lib/honkai3rd/battlesuits'
 import { existsSync, writeFileSync } from '../server/data/fs'
+import { listBattlesuits } from '../server/data/honkai3rd/battlesuits'
 import { listElfs } from '../server/data/honkai3rd/elfs'
 import {
   listStigmata,
@@ -98,4 +100,42 @@ export function generateElfData() {
       ].join('\n\n')
     )
   })
+}
+
+export function generateBattlesuitData() {
+  const battlesuitList = listBattlesuits()
+
+  battlesuitList.forEach((battlesuit) => {
+    const krBattlesuitDataPath = `honkai3rd/${locale}/battlesuits/${battlesuit.id}.md`
+    if (existsSync(krBattlesuitDataPath)) {
+      return
+    }
+
+    writeFileSync(
+      krBattlesuitDataPath,
+      [
+        `# ${battlesuit.name}`,
+        stringifySkillGroup(battlesuit.leader),
+        stringifySkillGroup(battlesuit.passive),
+        stringifySkillGroup(battlesuit.evasion),
+        stringifySkillGroup(battlesuit.special),
+        stringifySkillGroup(battlesuit.ultimate),
+        stringifySkillGroup(battlesuit.basic),
+        battlesuit.sp != null ? stringifySkillGroup(battlesuit.sp) : '',
+      ]
+        .join('\n\n')
+        .trim()
+    )
+  })
+}
+function stringifySkillGroup(skillGroup: BattlesuitSkillGroup) {
+  return [
+    `## ${skillGroup.core.name}`,
+    skillGroup.core.description,
+    ...skillGroup.subskills.map((subskill) => {
+      return [`### ${subskill.name}`, subskill.description].join('\n\n')
+    }),
+  ]
+    .join('\n\n')
+    .trim()
 }
