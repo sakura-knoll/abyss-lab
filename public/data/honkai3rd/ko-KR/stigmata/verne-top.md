@@ -1,5 +1,5 @@
-# Verne (상)
+# 베른 (상)
 
-##
+## 벌룬에서의 5주
 
-Ice DMG increases by 20.0%. Charged ATKs deal 40.0% bonus Total DMG.
+빙결 원소 대미지가 20.0% 증가하고, 차지 공격이 가하는 모든 대미지가 40.0% 증가한다.

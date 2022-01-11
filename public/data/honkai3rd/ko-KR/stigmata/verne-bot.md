@@ -1,5 +1,5 @@
-# Verne (하)
+# 베른 (하)
 
-##
+## 해저 2만 리
 
-Attack Speed increases by 20.0%. Basic & Charged ATKs deal 50.0% bonus Ice DMG.
+공격 속도가 20.0% 증가하고, 기본 공격과 차지 공격이 가하는 빙결 원소 대미지가 50.0% 증가한다.

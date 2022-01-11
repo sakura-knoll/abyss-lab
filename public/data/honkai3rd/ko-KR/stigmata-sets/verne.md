@@ -1,11 +1,11 @@
-# Verne
+# 베른
 
-Fantasy Voyage Set
+기묘한 여행 세트
 
-## Fantastic Adventure 2 세트
+## 환상적인 모험 2 세트
 
-Triggering Ultimate Evasion in Burst mode boosts Total DMG by 30.0% for 12s. Can be refreshed. In Burst mode, Charged ATKs boost Ice DMG by 15.0% on hit (CD: 0.3s) until Burst mode ends. 4 stacks max. Reaching 4 stacks deals 900.0% ATK of Ice DMG to enemies nearby. CD: 20s.
+폭발 상태에서 극한 회피 스킬 발동 시 모든 대미지가 30.0% 증가한다. 지속 시간: 12초, 갱신 가능. 폭발 상태에서 차지 공격이 목표에게 적중 시 빙결 원소 대미지가 15.0% 증가하며(재사용 대기시간: 0.3초), 폭발 상태가 해제될 때까지 지속되고, 최대 4스택 중첩 시 주변의 적에게 공격력 900.0%의 빙결 원소 대미지를 가한다. 재사용 대기시간: 20초
 
-## Futuristic Imagination 3 세트
+## 미래 예언 3 세트
 
-Charged ATKs restore 2 bonus SP on hit (CD: 2s). When it's equipped by Seele and she is deployed, all enemies take 20.0% bonus Ice DMG.
+차지 공격이 목표에게 적중 시 추가로 SP를 2pt 회복한다(재사용 대기시간: 2초). 제레 캐릭터가 사용 시, 전장의 적이 받는 빙결 원소 대미지가 20.0% 증가한다.

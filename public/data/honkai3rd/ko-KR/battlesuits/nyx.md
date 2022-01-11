@@ -1,100 +1,116 @@
-# Starchasm Nyx
+# 염야성연
 
-## A Torn Heart
+## 애증이 배회하는 마음
 
-Leader Bonus:
-Leader Bonus: Team deals 24.0% more Ice DMG. With Bronya on the team, team's Charged ATKs deal 29.0% more Total DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+리더 스킬: 파티원의 빙결 원소 대미지가 30.0% 증가한다. 파티에 브로냐가 있을 때, 파티원 차지 공격의 모든 대미지가 35.0% 증가한다.
 
-### A Torn Heart
+### 애증이 배회하는 마음
 
-Team deals 30.0% more Ice DMG. With Bronya on the team, team's Charged ATKs deal 35.0% more Total DMG.
+파티원의 빙결 원소 대미지가 30.0% 증가한다. 파티에 브로냐가 있을 때, 파티원 차지 공격의 모든 대미지가 35.0% 증가한다.
 
-## Hagridden Night
+## 악몽이 드리운 밤
 
-Passive bonuses apply automatically.
-In normal form, the 1st, 2nd, 3rd and 4th sequences of Basic ATK each restores 1 Carmine Gash, and the 5th restores 2.In Burst mode, the 1st and 2nd sequences of Basic ATK each restores 1 Carmine Gash, and the 3rd and 4th each restores 2.Carmine Gash max out at 6. Each excessive Carmine Gash turns into 1 SP.
-During Burst, Nightmare Stage will take effect throughout.
+패시브 스킬은 자동으로 발동한다.
+기본 상태의 기본 공격 제1·2·3·4격은 [적흔] 1개를 회복하고, 제5격은 [적흔] 2개를 회복한다.
+폭발 상태의 기본 공격 제1·2격은 [적흔] 1개를 회복하고, 제3·4격은 [적흔] 2개를 회복한다.
+[적흔] 6개를 보유한 상태에서 추가 획득 시 1SP로 전환된다.
 
-### The Lonely Beast
+폭발 상태에서 [악몽의 무대]가 생성되며, 폭발 상태가 해제될 때까지 효과가 지속된다.
 
-For every 45 Ice DMG hits taken by enemies within Nightmare Stage, they additionally take 300.0% ATK of Ice DMG and are Frozen for 2s, and Starchasm Nyx gains 1 Carmine Gash.
+### 사랑을 갈망하는 야수
 
-### The Snowy Garden
+[악몽의 무대] 내의 적이 빙결 원소 대미지를 45회 받으면, 공격력 300.0%의 빙결 원소 대미지를 받고, 2초간 빙결된다. 동시에 염야성연은 [적흔]을 1개 회복한다.
 
-Enemies within Nightmare Stage take 18.0% Ice DMG from Starchasm Nyx's attacks (independent effect).
+### 시든 백화
 
-## Aria of Torment
+[악몽의 무대] 내의 적이 염야성연의 공격을 받으면, 받는 빙결 원소 대미지가 18.0% 증가한다.(해당 효과는 독립적으로 부여된다)
 
-Quickly dodge enemy attacks up to twice in a rowPerforming an Ultimate Evasion triggers Ultimate Evasion skill Ceaseless Carousal.[Ceaseless Carousal]: Triggers a 3-sec global Time Fracture and restores 1 Carmine Gash.
-In normal form, tap [ATK] to connect into the 4th sequence of Basic ATK. CD: 15s.
+## 인재무상의 노래
 
-### The Lost Fledgling
+빠르게 공격을 회피하고 특수 공격을 발동한다. 2회 연속 회피할 수 있다.
+극한 회피 시 극한 회피 스킬 [끝나지 않는 밤의 연회]를 발동한다.
+[끝나지 않는 밤의 연회]: 3초간 전체 시공 단열을 발동하고 [적흔]을 1개 회복하며, 기본 상태에서 공격을 누르면 기본 공격 제4격을 발동한다. 재사용 대기시간 15초
 
-CD of Ceaseless Carousal is shortened by 4.0s.
+### 길 잃은 깃털
 
-### The Voiceless Mermaid
+[끝나지 않는 밤의 연회]의 재사용 대기 시간이 4.0초 감소한다.
 
-A successful evasion additionally restores 2 SP.
+### 말을 잃은 인어
 
-### QTE: Blood-Crimsoned Rose
+회피 성공 시 SP를 추가로 2.0 회복한다.
 
-QTE: Triggered by Time Slow or enemies being knocked into the air. Deals 1,100% ATK of Ice DMG and generates 1 Carmine Gash.
+### QTE-심장을 꿰뚫는 붉은 장미
 
-## Condemning Blade
+QTE: 적에게 시공 단열 또는 띄우기 발동 시 공격력 1100.0%의 빙결 원소 대미지를 가하고, [적흔]을 1개 회복한다.
 
-Hold [ATK] to perform a Charged ATK.
-In normal form, her Charged ATK consumes all Carmine Gashes, teleports her in front of the target and deals 300% ATK of Ice DMG.
-In Burst form, she can continuously consume Carmine Gashes to unleash Charged ATKs (each deals 2x270% ATK of Ice DMG) until she exhausts all of them, during which she has Iron Body. Each Charged ATK accelerates the next Charged ATK; Charged ATK Speed maxes after 3 Charged ATKs.
-During Burst form, casting Charged ATKs teleports her in front of enemies and activates her Ultimate Evasion skill Ceaseless Carousal.
+## 죄와 벌을 가르는 칼날
 
-### The Cold-blooded Prince
+공격 버튼을 길게 누르면 차지 공격이 발동한다.
+기본 상태에서 [적흔]을 모두 소모해 차지 공격을 발동하면, 적의 앞으로 이동해 공격력 300%의 빙결 원소 대미지를 가한다.
 
-In normal form, Charged ATK additionally deals Nx4x60.0% ATK of Ice DMG and restores Nx1.5 SP (N = the number of Carmine Gash consumed); when 6 Carmine Gashes are consumed in one go, enemies will be frozen for 2s and lose 50% Move Speed for 5s.
+폭발 상태에서 [적흔]을 소모해 차지 공격을 발동하면, [적흔]이 소진될 때까지 연속 발동하고, 차지 공격마다 2\*270%의 빙결 원소 대미지를 가한다.
+이때 캐릭터는 슈퍼아머 상태에 돌입하며, 차지 공격마다 다음 차지 공격의 공격 속도가 최대 3회까지 증가한다.
+폭발 상태에서 차지 공격을 발동하면, 적의 앞으로 이동해 극한 회피 스킬 [끝나지 않는 밤의 연회]를 발동한다.
 
-### Herd of Kids
+### 무온의 황태자
 
-Starchasm Nyx gains 10.0% Total DMG, and her Charged ATKs deal 32.0% more Total DMG.
+기본 상태에서 차지 공격 시 [적흔] 소모량에 따라 공격력 N\*4\*60.0%의 빙결 원소 대미지를 가하고, SP를 N\*1.5pt 회복한다(N은 [적흔]의 소모량이다). 한 번에 [적흔] 6개를 소모하면, 적을 2초간 빙결시키고 적의 이동 속도를 5초간 50% 감소시킨다.
 
-### The Star Coins
+### 군집한 어린 양
 
-During Burst, Charged ATK additionally deals 2x20.0% ATK of Ice DMG.
+캐릭터가 가하는 모든 대미지가 10.0% 증가하고, 차지 공격이 가하는 모든 대미지가 32.0% 증가한다.
 
-## Moment of Collapse
+### 쏟아지는 별빛
 
-Starchasm Nyx attacks with chain claws.
-Tap [ULT] to activate Burst mode, deal 700% ATK of Ice DMG and inflict one Quantum Implosion on QUA enemies.
-During Burst mode, Starchasm Nyx fights with her chain claws Blood & Love.
-1st Sequence: 360% ATK of Ice DMG2nd Sequence: 440% ATK of Ice DMG3rd Sequence: 660% ATK of Ice DMG4th Sequence: 780% ATK of Ice DMGDuring Burst mode, tap [ULT] again to unleash Time of Metamorph, dealing 900% ATK of Ice DMG and end Burst, during which all skill timers (for self and enemies) and the stage timer are temporarily suspended.
+폭발 상태에서 차지 공격 시 추가로 공격력 2\*20.0%의 빙결 원소 대미지를 가한다.
 
-Activation cost: 75 SP. CD: 12s. CD starts after Time of Metamorph.
-Burst lasts for up to 17s and ends when Starchasm Nyx leaves the field.
+## 저울이 무너지는 순간
 
-### Broken Lead Heart
+사슬발톱으로 전투한다.
+필살기를 누르면 폭발 상태에 진입해 적에게 공격력 700%의 빙결 원소 대미지를 가하고, 양자 속성 적에게 양자 붕괴를 가한다.
+폭발 상태에서 [사슬발톱 '피와 사랑']으로 전투한다.
+제1격: 총 공격력 360%의 빙결 원소 대미지를 가한다.
+제2격: 총 공격력 440%의 빙결 원소 대미지를 가한다.
+제3격: 총 공격력 660%의 빙결 원소 대미지를 가한다.
+제4격: 총 공격력 780%의 빙결 원소 대미지를 가한다.
 
-Burst activation restores Carmine Gashes to 6. During Burst, Starchasm Nyx gains 50.0% Ice DMG and takes 50.0% less Total DMG.
+폭발 상태에서 다시 필살기를 누르면 [악몽이 피어날 때]를 발동해 공격력 900%의 빙결 원소 대미지를 가하고 폭발 상태가 해제된다.
+발동 기간 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다.
 
-### Burnt Matches
+소모 SP: 75, 재사용 대기시간 12초. [악몽이 피어날 때] 발동 후 재사용 대기 시간에 진입한다.
 
-Ultimate deals 50.0% more Total DMG. When casting Time of Metamorph, for each SP consumed, the skill additionally deals 120.0% ATK of Ice DMG (cap: 15 SP).
+폭발상태는 최대 17초간 지속되며, 캐릭터 퇴장 시 폭발 상태가 해제된다.
 
-### Sleeping Thorns
+### 폭렬의 연심
 
-Casting Moment of Collapse will inflict Nightmare Thorns on up to 5 enemies hit and disable their Soul Link(s). 14.0% of the damage taken by each of said enemies will be passed on to the rest (effect: HP loss).
+폭발 상태 발동 시 [적흔]을 6개 회복한다. 폭발 상태에서 가하는 빙결 원소 대미지가 50.0% 증가하고, 받는 모든 대미지가 50.0% 감소한다.
 
-## Anguished Cry
+### 꺼져가는 등불
 
-Starchasm Nyx wields her scythe to attack.
-1st Sequence: 50% ATK of Physical DMG + 80% ATK of Ice DMG2nd Sequence: 70% ATK of Physical DMG + 120% ATK of Ice DMG3rd Sequence: 100% ATK of Physical DMG + 180% ATK of Ice DMG4th Sequence: 35%x(4~8) ATK of Ice DMG according to the duration of the attack pause, and pulls in surrounding enemies for a short time.
-5th Sequence: 460% ATK of Ice DMG.
+필살기가 가하는 모든 대미지가 50.0% 증가한다. [악몽이 피어날 때] 발동 시 SP를 1pt 소모해 추가로 공격력 120.0%의 빙결 원소 대미지를 가한다.(최대 소모 SP: 15)
 
-### The Ragged Hood
+### 깊이 잠든 가시
 
-The Valkyrie gains Iron Body and receives 50.0% less damage during the 5th sequence of Basic ATK.
+[저울이 무너지는 순간] 발동 시 명중한 최대 5기의 적을 악몽의 가시로 휘감아 혈연 효과를 끊는다. 한 기의 적이 받은 대미지가 14.0%의 비율로 가시에 휘감긴 모든 유닛에게 전이된다.(효과:HP감소)
 
-### The Poisoned Apple
+## 괴로움의 잠꼬대
 
-The 4th sequence of Basic ATK deals 70.0% more Ice DMG. Each landed hit additionally restores 1 SP.
+낫으로 전투한다.
+제1격: 총 공격력 50%의 물리 대미지 + 공격력 80%의 빙결 원소 대미지를 가한다.
+제2격: 총 공격력 70%의 물리 대미지 + 공격력 120%의 빙결 원소 대미지를 가한다.
+제3격: 총 공격력 100%의 물리 대미지 + 공격력 180%의 빙결 원소 대미지를 가한다.
+제4격: 공격 정지 시간에 따라 공격력 35%\*(4~8)의 빙결 원소 대미지를 가하고, 짧은 시간 주변의 적을 끌어당긴다.
+제5격: 총 공격력 460%의 빙결 원소 대미지를 가한다.
 
-### Bitter Sweets
+### 찢어진 붉은 도포
 
-The 5th sequence of Basic ATK releases chain claws to additionally deal 360.0% ATK of Ice DMG and restores 1 Carmine Gash.
+낫 기본 공격의 제 5격 발동 순간 캐릭터는 슈퍼 아머 상태에 돌입하고 받는 대미지가 50.0% 감소한다.
+
+### 독을 머금은 금과
+
+낫 기본 공격의 제4격이 가하는 빙결 원소 대미지가 70.0% 증가하고, 명중 시 추가로 SP를 1pt 회복한다.
+
+### 씁쓸한 달콤함
+
+낫 기본 공격의 제5격이 사슬 발톱을 발동해 공격력 360.0%의 빙결 원소 대미지를 가하고, [적흔]을 1개 회복한다.

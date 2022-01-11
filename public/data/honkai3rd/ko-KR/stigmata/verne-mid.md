@@ -1,5 +1,5 @@
-# Verne (중)
+# 베른 (중)
 
-##
+## 신비한 섬
 
-Total DMG increases by 20.0%. On hit, Charged ATKs deal 30.0% bonus Ice DMG for 10s. Can be refreshed.
+모든 대미지가 20.0% 증가하고, 차지 공격이 목표에게 적중 시 가하는 빙결 원소 대미지가 30.0% 증가한다. 지속 시간: 10초, 갱신 가능

@@ -1,17 +1,17 @@
-# Oblivion Down
+# 천령인진
 
-## Key of Sentience
+## 의식의 열쇠
 
-[SP 소모: 0][재사용 대기 시간: 26초] Unleash the Key of Sentience's power to immobilize enemies nearby for up to 8s (up to 3s against elite enemies or bosses). 1s after being attacked by wielder or her teammates, the immobilized target and enemies nearby will recover and take 2,150% ATK of Fire DMG (each enemy only takes the damage once).
+[SP 소모: 0][재사용 대기 시간: 26초] 의식의 열쇠의 힘을 폭발시켜 주변의 적을 움직이지 못하게 만든다. 최대 지속 시간: 8초(엘리트 적과 BOSS는 최대 3초). 움직이지 못하는 적이 장비 착용자나 다른 파티원 캐릭터의 공격을 받을 시, 1초 뒤 해당 적 및 주변의 작은 범위 내의 적은 공격력 2,150%의 화염 원소 대미지를 받고(적마다 대미지를 1회만 가할 수 있다), 움직임을 회복한다.
 
-## Flaming Feather
+## 타오르는 깃털
 
-Enemies recovering from the weapon active become Deranged and take 100.0%+Nx100.0% ATK of bonus Fire DMG from the wielder for 15s (CD: 1s. N: times triggered). If N equals 5, Deranged status on all enemies is removed and enemies in a large area take 1,500.0% ATK of Fire DMG.
+액티브 스킬의 영향을 받은 적이 움직인 후, 해당 적에게 15초 동안의 착란 효과를 부여하며 피격 시 장비 착용자는 해당 적에게 추가로 공격력(100.0%+X\*100.0%)의 화염 원소 대미지를 가한다(재사용 대기시간: 1초, X: 발동 횟수). 또한 X가 5일 때, 모든 적의 착란 효과를 제거하고 넓은 범위의 적에게 1,500.0%의 화염 원소 대미지를 가한다.
 
-## Peace Restored
+## 속세도진
 
-Wielder deals 35.0% bonus Total DMG and restores SP 30.0% faster from attacks.
+캐릭터의 모든 대미지가 35.0% 증가하고, 공격의 SP 회복 속도가 30.0% 증가한다.
 
-## Key of Sentience
+## 의식의 열쇠
 
-In Co-op Raid stages, wielder deals 22.0% bonus Elemental DMG and 22.0% more against paralyzed, frozen, or ignited enemies.
+멀티 Raid 스테이지 중, 캐릭터가 가하는 모든 원소 대미지가 22.0% 증가한다. 마비, 빙결, 연소 상태에 적에게는 22.0%가 추가로 증가한다.

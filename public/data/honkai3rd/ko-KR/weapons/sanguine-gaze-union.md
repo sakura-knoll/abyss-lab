@@ -1,13 +1,13 @@
-# Sanguine Gaze - Union
+# 피의 눈동자·여일
 
-## Nocturnal Bite
+## 염야의 칼날
 
-[SP 소모: 0][재사용 대기 시간: 7초] Use chain claws to grapple the target towards the wielder or send the wielder to the target and perform scythe slashes dealing 100% + 900.0% ATK of Ice DMG. Starchasm Nyx equip bonus: Scythe slashes restore 1 Carmine Gash and can be connected into Sequence 4 of Basic ATK. In her Burst mode, the weapon active is changed to slamming the area in front of her and dragging enemies nearby to her dealing 900.0%+4x40% ATK of Ice DMG. Entering and exiting burst mode both reset the weapon active's cooldown.
+[SP 소모: 0][재사용 대기 시간: 7초] 사슬 발톱으로 목표를 전방에 잡아당기거나 자신을 목표 근처로 이끈 뒤, 낫으로 참격을 가해 공격력 100%+900.0%의 빙결 원소 대미지를 가한다. 염야 성연이 사용 시, 낫으로 참격을 가한 후 [적흔]을 1개 회복하고 이어서 기본 공격 제4격을 발동한다. 또한 폭발 상태에서 무기 액티브 스킬의 효과는 거대한 발톱으로 전방의 구역을 강타하고 주변 적을 자신의 앞으로 끌어당기는 것으로 변경되며, 공격력 900.0%+4\*40%의 빙결 원소대미지를 가한다. 폭발 상태 진입과 해제는 모두 무기 스킬 재사용 대기시간을 리셋한다.
 
-## Peek into the Abyss
+## 심연의 염탐
 
-Ice DMG increases by 30.0%. Ultimate and Burst mode attacks deal 40.0% bonus Total DMG.
+빙결 원소 대미지가 30.0% 증가하고, 필살기 또는 폭발 상태에서 가하는 모든 대미지가 40.0% 증가한다.
 
-## Union in the Dream
+## 꿈의 여일
 
-Charged ATKs deal 20.0% bonus Total DMG and reduce Total DMG taken by 15.0% on hit for 3s. Triggering it again resets the duration.
+차지 공격이 가하는 모든 대미지가 20.0% 증가한다. 차지 공격이 목표에게 적중 시 3초 동안 받는 모든 대미지가 15.0% 감소한다. 중복 발동 시 지속 시간을 갱신한다.

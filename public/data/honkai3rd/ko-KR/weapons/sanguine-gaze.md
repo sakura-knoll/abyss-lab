@@ -1,9 +1,9 @@
-# Sanguine Gaze
+# 피의 눈동자
 
-## Nightmarish Beak
+## 악몽의 칼날
 
-[SP 소모: 4][재사용 대기 시간: 7초] Use chain claws to grapple the target towards the wielder or send the wielder to the target and perform scythe slashes dealing 100% + 800.0% ATK of Ice DMG. Starchasm Nyx equip bonus: Scythe slashes restore 1 Carmine Gash and can be connected into Sequence 4 of Basic ATK.
+[SP 소모: 4][재사용 대기 시간: 7초] 사슬 발톱으로 목표를 전방에 잡아당기거나 자신을 목표 근처로 이끈 뒤, 낫으로 참격을 가해 공격력 100%+800.0%의 빙결 원소 대미지를 가한다. 염야 성연이 사용 시, 낫으로 참격을 가한 후 [적흔]을 1개 회복하고 이어서 기본 공격 제4격을 발동한다.
 
-## Crimson Eyes
+## 선홍의 응시
 
-Ice DMG increases by 25.0%. Ultimate and Burst mode attacks deal 30.0% bonus Total DMG.
+빙결 원소 대미지가 25.0% 증가하고, 필살기 또는 폭발 상태에서 가하는 모든 대미지가 30.0% 증가한다.
