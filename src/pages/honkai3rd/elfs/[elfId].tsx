@@ -14,6 +14,7 @@ import { translate, useTranslation } from '../../../lib/i18n'
 import { useRouter } from 'next/router'
 import Head from '../../../components/atoms/Head'
 import { battlesuitFeatures } from '../../../lib/honkai3rd/battlesuits'
+
 interface ElfShowPageProps {
   elf: ElfData
 }
