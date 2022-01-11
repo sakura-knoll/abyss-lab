@@ -1,5 +1,5 @@
-# Sushang (중)
+# 이소상·절검 (중)
 
-##
+## 능소
 
-Boosts Physical DMG by 30.0%. Host takes 20.0% less Total DMG in burst mode.
+물리 대미지가 30.0% 증가하고, 폭발 상태에서 받는 모든 대미지가 20.0% 감소한다.
