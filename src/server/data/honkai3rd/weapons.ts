@@ -58,7 +58,7 @@ export function getWeaponById(id: string) {
 
 function parseWeaponData(rawData: string) {
   const [name, ...skillSections] = rawData
-    .replace(/\\\*/g, '')
+    .replace(/\\\*/g, '*')
     .split('## ')
     .map((data) => data.replace(/#+\s/, '').trim())
   const skills = skillSections.map((skillSection) => {
