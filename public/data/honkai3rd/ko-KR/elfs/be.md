@@ -1,48 +1,48 @@
-# Blood Embrace
+# 모조 유다
 
-## Ax of Destruction
+## 파멸참격
 
-Unleashes a mighty forward swing with a giant ax, dealing 490% ATK of Physical DMG, and restores 8 SP upon hit.
-ATK Interval: 3.3s
+도끼를 휘둘러 전방의 적에게 공격력 490%의 물리 대미지를 입히고, 명중 시 SP를 8pt 회복한다.
+공격 빈도: 3.3초
 
-### Glary Imprint
+### 광휘의 낙인
 
-ELF's Basic ATK has a 50% chance of dealing 300.0% more DMG; CD: 5s.
+인형이 기본 공격을 할 때 50% 확률로 300.0% 대미지를 추가로 입힌다. 재사용 대기시간: 5초.
 
-## Bloody Sentence
+## 선혈의 심판
 
-Charge at the target while swinging a giant ax, dealing 360% x 3 ATK of Physical DMG to nearby enemies, then toss ax into the sky. When the ax slams on the ground, deal 2900% ATK of AOE Physical DMG near the target. Bloody Sentence deals 100% more shield DMG and 3,000 more DMG against shields.
-CD: 30s
-SP: 75
+목표에게 달려들어 도끼를 휘두르고 주위의 적에게 공격력 360%*3의 물리 대미지를 주고 도끼를 하늘로 날려버린다. 도끼가 목표를 내리찍으면 주위의 공격력 2900%의 물리 대미지를 입힌다. 피의 단두대는 실드에 대한 대미지가 100% 증가하고, 실드에 3,000의 추가 대미지를 입힌다.
+스킬 CD: 30s
+SP 소모: 75
 
-### Final Judgment
+### 종말의 심판
 
-ELF's Ultimate deals 30.0% more Total DMG.
+인형의 필살기가 가하는 모든 대미지가 추가로 30.0% 증가한다.
 
-### Raging Wrath
+### 광포한 분노
 
-After unleashing ELF's Ultimate, ELF's Basic ATK deals 30.0% more Total DMG for 15s.
+인형이 필살기를 사용하면 기본 공격의 모든 대미지가 30.0% 증가한다. 지속 시간: 15초.
 
-## Siphon Life
+## 피의 굶주림
 
-ELF's Physical DMG increases by 50% deals 200% more damage against shields or enemies that only take fixed amounts of damage.
+인형의 물리 대미지가 50% 증가하고, 고정 대미지만 받는 실드나 적에게 가하는 대미지가 200% 증가한다.
 
-### Godsbane Grip
+### 멸신의 움켜쥠
 
-ELF deals 20.0% more Total DMG for 15s after ELF breaks an enemy shield.
+인형의 공격이 적의 실드를 파괴하면 모든 대미지가 20.0% 증가한다.
 
-## Holy Light
+## 성광
 
-ELF's initial SP increases by 40.0.
+인형의 초기 SP가 40.0 상승한다.
 
-### Greed
+### 탐욕
 
-ELF deals 12.0% more Physical DMG.
+인형이 가하는 물리 대미지가 12.0% 상승한다.
 
-### Armor Breaker
+### 파갑
 
-ELF deals 30.0% more DMG against shields.
+인형이 실드에 가하는 대미지가 30.0% 상승한다.
 
-### Pride
+### 오만
 
-ELF deals 10.0% more Total DMG.
+인형이 가하는 모든 대미지가 10.0% 상승.
