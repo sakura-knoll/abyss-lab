@@ -1,5 +1,5 @@
-# Dante (하)
+# 단테 (하)
 
-##
+## 지옥
 
-The host gains 15.0% Attack Speed. The host gains Mantle when hit by an enemy, which boosts her Total DMG by 10.0% for 10s; CD: 10s. The host gains Perfect Mantle upon Ultimate Evasion or Retaliation, which boosts her Total DMG by 20.0% for 10s; triggering this effect again resets the duration. Perfect Mantle will replace Mantle in cases of overlap.
+공격 속도 15.0% 상승. 캐릭터 피격 시 기초 강화를 획득하고 10초 동안 모든 대미지가 10.0% 증가한다. 재사용 대기시간 10초. 극한 회피 또는 방어 반격 발동 시 완벽 깅화를 획득하고 10초 동안 모든 대미지가 20.0% 증가하며 기초 강화를 덮어 씌운다. 리셋 가능
