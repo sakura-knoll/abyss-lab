@@ -1,5 +1,5 @@
-# Empyrea Phoenix (하)
+# 정위선인·절검 (하)
 
-##
+## 버드나무
 
-Combo ATK boosts team Crit DMG by 25.0% for 15s (cannot stack).
+분기 공격 사용 후, 파티원의 크리티컬 대미지가 25.0% 증가한다(1개만 적용). 지속 시간: 15초.
