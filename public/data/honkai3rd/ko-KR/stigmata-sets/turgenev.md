@@ -1,11 +1,11 @@
-# Turgenev
+# 트루게네프
 
-Rebel's Gun Set
+저항의 총 세트
 
-## The Rebellious Hunter 2 세트
+## 반역의 사냥꾼 2 세트
 
-Every 6 hits from the host or her summoned entities prolongs the Hunter Mark effect for 2s. Hunter Mark max duration: 12s. Combo counter resets when Hunter Mark disappears. Hunter Marked enemies receive 21.0% All Elemental DMG (cannot stack).
+[사냥꾼 표식]의 적이 캐릭터나 캐릭터 소환물의 공격을 6회 받을 때마다 [사냥꾼 표식]의 지속 시간이 2초 연장된다 (표식은 최대 12초까지 연장되며, 표식 종료 후 공격 카운트가 리셋된다). [사냥꾼 표식]이 있는 적이 받는 모든 원소 대미지가 21.0% 증가한다. (1개만 적용)
 
-## Before the Gunshot 3 세트
+## 총성의 전야 3 세트
 
-The host's Ultimate and her summoned entities deal 25.0% more Total DMG. When there are the host's summoned entities on the field, team deals 25.0% more Ice DMG against Hunter Marked enemies. This effect cannot stack.
+필살기와 자신의 소환몰의 모든 대미지가 25.0% 증가한다. 전장에 자신의 소환물이 존재할 경우, 파티원 캐릭터가 [사냥꾼 표식]의 적에게 가하는 빙결 원소 대미지가 25.0% 증가한다. (1개만 적용)

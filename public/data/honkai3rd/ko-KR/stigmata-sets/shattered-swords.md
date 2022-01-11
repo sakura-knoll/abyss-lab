@@ -1,11 +1,11 @@
-# Shattered Swords
+# 신주절검
 
-Shattered Swords Set
+신주절검 세트
 
-## Blade Mantra 2 세트
+## 검심 2 세트
 
-In Herrscher form, team deals 30.0% bonus Crit DMG (cannot stack) and host's attacks mark enemies. The mark explodes at 15 stacks dealing 300.0% ATK of Physical DMG to enemies nearby and removing marks on all enemies. CD: 5s.
+율자 형태에서 파티원의 크리티컬 대미지가 30.0% 증가하고(1개만 적용), 자신의 공격은 적에게 표식을 남긴다. 공격할 때마다 표식이 강해지고, 공격 15회 후 적에게 작은 범위의 폭발이 발동해 주변 적에게 공격력 300.0%의 물리 대미지를 가하며 표식이 사라진다. 재사용 대기시간: 5초.
 
-## Blade Sanction 3 세트
+## 검의 3 세트
 
-Team gains 10.0% Crit Rate for 12s upon entry. When the host is in Herrscher form and hits an enemy, team gains 3.5% Total DMG for 12s (CD: 0.4s; 10 stacks max; if equipped by more than 1 Valkyrie, only one piece will take effect). Triggering it again resets the duration.
+파티원 캐릭터가 전장에 있을 때 크리티컬률이 10.0% 증가한다.율자 형태에서 캐릭터 공격이 적에게 적중 시 파티원에게 강화 상태를 부여해 (1개만 적용, 발동 간격 0.4초) 가하는 모든 대미지가 3.5% 증가한다. 지속 시간: 12초, 중복 발동 시 지속 시간이 갱신된다, 최대 10스택 중첩

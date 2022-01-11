@@ -1,5 +1,5 @@
-# Turgenev (하)
+# 트루게네프 (하)
 
-##
+## 전야
 
-The host's attack triggers an explosion centering on the target, which inflicts a 6-sec Hunter Mark on enemies with no Hunter Mark within the explosion AOE. Explosion CD: 8s. Team and the host's summoned entities deal 36.0% more All Elemental DMG against Hunter Marked enemies; this effect cannot stack.
+캐릭터가 적을 공격하면 적중한 적을 중심으로 폭발이 1회 일어나고, 폭발은 [사냥꾼 표식]이 없는 적에게 6초 동안 [사냥꾼 표식]을 부여한다. 폭발 효과 재사용 대기시간: 8초. 파티원과 자신의 소환물의 공격이 [사냥꾼 표식]이 있는 적에게 가하는 모든 원소 대미지가 36.0% 증가한다. (1개만 적용)

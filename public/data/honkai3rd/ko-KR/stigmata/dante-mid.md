@@ -1,5 +1,5 @@
-# Dante (중)
+# 단테 (중)
 
-##
+## 연옥
 
-The host gains 30.0% Physical DMG. The host gains Mantle when hit by an enemy, which boosts her Crit DMG by 15.0% for 10s; CD: 10s. The host gains Perfect Mantle upon Ultimate Evasion or Retaliation, which boosts her Crit DMG by 30.0% for 10s; triggering this effect again resets the duration. Perfect Mantle will replace Mantle in cases of overlap.
+물리 대미지 30.0% 증가. 캐릭터 피격 시 기초 강화를 획득하고 10초 동안 크리티컬 대미지가 15.0% 증가한다. 재사용 대기시간 10초. 극한 회피 또는 방어 반격 발동 시 완벽 강화를 획득하고 10초 동안 크리티컬 대미지가 30.0% 증가하며 기초 강화를 덮어 씌운다. 리셋 가능

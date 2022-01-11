@@ -1,5 +1,5 @@
-# Ana Schariac (하)
+# 안나·샤니아트 (하)
 
-##
+## 눈 가시
 
-Boosts Attack Speed by 20.0%. Host deals 30.0% bonus Ice DMG to enemies within 5 meters. The bonus damage drops by 3.0% for every meter of distance beyond 5 meters (caps at 10 meters of distance).
+공격 속도가 20.0% 증가하고, 캐릭터가 5m 내의 목표에게 가하는 빙결 원소 대미지가 30.0% 증가하며, 5m 밖의 목표인 경우, 목표와 추라고 1m 떨어질 때마다 빙결 원소 대미지 증가 효과가 추가로 3.0% 감소한다. 목표와의 거리가 10m 넘을 때부터 더는 감소하지 않는다.

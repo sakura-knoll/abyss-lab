@@ -1,5 +1,5 @@
-# Raksha (상)
+# 나찰인·절검 (상)
 
-##
+## 수련
 
-Boosts Physical DMG by 20.0%. Ultimate Evasion boosts Physical DMG by 20.0% for 15s. Can be refreshed.
+물리 대미지가 20.0% 증가하고, 극한 회피 스킬 발동 시 물리 대미지가 20.0% 증가한다. 지속 시간: 15초. 갱신 가능.

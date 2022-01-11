@@ -1,11 +1,11 @@
-# Ana Schariac
+# 안나·샤니아트
 
-Herrscher of Ice Set
+얼음의 율자 세트
 
-## Might of Solid Rime 2 세트
+## 빙결의 힘 2 세트
 
-Boosts Ice DMG by 25.0%. Combo and Charged ATKs summon Ice Pillars around enemies on hit to deal 400.0% ATK of Ice DMG to enemies nearby and boost host's Ignore Interrupt for 3s. CD: 10s.
+빙결 원소 대미지 25.0% 증가, 분기 또는 차지 공격이 적에게 명중 시, 적 주변에 얼음 기둥을 소환해 주변 큰 범위의 적에게 400.0% 공격력의 빙결 원소 대미지를 입히고, 3초 동안 캐릭터의 경직 저항력을 대폭 증가시킨다. 재발동 대기시간: 10초
 
-## Heart of Bitter Ice 3 세트
+## 얼어붙은 마음 3 세트
 
-Combo and Charged ATKs deal 50.0% bonus Total DMG. Host deals 10.0% bonus Ice DMG to enemies within 5 meters.
+차지/분기 공격이 가하는 모든 대미지가 50.0% 증가하고, 캐릭터 주변 5m 내의 적이 해당 캐릭터에게 받는 얼음 원소 대미지가 10.0% 증가한다.

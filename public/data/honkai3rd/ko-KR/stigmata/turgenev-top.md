@@ -1,5 +1,5 @@
-# Turgenev (상)
+# 트루게네프 (상)
 
-##
+## 사냥꾼 일지
 
-The host and her summoned entities gain 20.0% Ice DMG. Team and the host's summoned entities gain 18.0% Total DMG when there are Hunter Marked enemies on the field. This effect cannot stack.
+자신과 자신의 소환물의 빙결 원소 대미지가 20.0% 증가한다. 전장에 [사냥꾼 표식]이 있는 적이 존재할 경우 파티원 캐릭터와 자신의 소환물의 모든 대미지가 18.0% 증가한다. (1개만 적용)

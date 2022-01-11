@@ -1,5 +1,5 @@
-# Ana Schariac (중)
+# 안나·샤니아트 (중)
 
-##
+## 서리의 곽
 
-Boosts Ice DMG by 25.0% Host takes 12.0% less Total DMG and additional 8.0% less Total DMG from enemies within 5 meters.
+빙결 원소 대미지가 25.0% 증가하고 캐릭터가 받는 모든 대미지가 12.0% 감소한다. 5m 내에서 받는 모든 대미지가 추가로 12.0% 감소한다.

@@ -1,11 +1,11 @@
-# Dante
+# 단테
 
-Eloquent Poet Set
+신성 시편 세트
 
-## La Vita Nuova 2 세트
+## 신생 2 세트
 
-The host gains 20.0% Crit DMG. The host gains 30.0% Physical DMG for 10s upon entering Burst mode or hitting an enemy with Charged ATK in Burst mode; triggering this effect again resets the duration. Durandal equip bonus: CD of Ultimate Evasion / Retaliation shortens by 20%.
+크리티컬 대미지 20.0% 증가. 폭발 상태 진입 또는 폭발 상태에서의 차지 공격이 적에게 명중 시 강화를 획득한다. 10초 동안 물리 대미지가 30.0% 증가하고, 리셋가능. 듀란달 장착 시 극한 회피와 방어 반격 발동 효과의 재사용 대기시간이 20% 감소한다.
 
-## Divine Comedy 3 세트
+## 신곡 3 세트
 
-In Burst mode, the host deals 30.0% more DMG against shields, and her Charged ATKs can impair unimpaired enemies, reducing their DEF by 40.0% for 8s. Durandal equip bonus: The impairing debuff reduces enemy DEF by 60.0% instead.
+폭발 상태에서 공격이 실드에 주는 대미지가 30.0% 증가하고, 폭발 상태에서의 차지 공격이 취약 상태가 아닌 적을 공격시 취약 상태를 부여하여, 8초 동안 적의 방어력을 40.0% 감소한다. 듀란달 장착 시 취약 상태의 적의 방어력을 60.0% 감소한다.

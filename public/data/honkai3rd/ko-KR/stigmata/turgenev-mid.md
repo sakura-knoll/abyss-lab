@@ -1,5 +1,5 @@
-# Turgenev (중)
+# 트루게네프 (중)
 
-##
+## 루딘
 
-The host's summoned entities deal 35.0% more Total DMG. The host's QTE deals 25.0% more Ice DMG against Hunter Marked enemies.
+자신의 소환물의 모든 대미지가 35.0% 증가한다. 자신의 QTE 공격이 [사냥꾼 표식]의 적에게 가하는 빙결 원소 대미지가 25.0% 증가한다.
