@@ -1,13 +1,13 @@
-# Fenghuang Down
+# 우도진
 
-## Key of Sentience
+## 의식의 열쇠
 
-[SP 소모: 10][재사용 대기 시간: 25초] Unleash Fenghuang Down's power to immobilize enemies nearby for up to 8s (up to 3s against elite enemies or bosses). 1s after being attacked by wielder or her teammates, immobilized enemies recover and take 2,000% ATK of Fire DMG.
+[SP 소모: 8][재사용 대기 시간: 30초] 우도진의 힘을 폭발시켜 주변의 적을 움직이지 못하게 만든다. 최대 지속 시간: 8초(엘리트 적과 BOSS는 최대 3초). 움직이지 못하는 적은 장비 착용자나 파티원의 다른 캐릭터의 공격을 받을 시, 1초 뒤에 움직일 수 있으며, 적은 움직이면 공격력 2,000%의 화염 원소 대미지를 받는다.
 
-## Blazing Plume
+## 연우
 
-Wielder deals 40.0% bonus Fire DMG. Against enemies affected by the weapon active, she deals 40.0% bonus Total DMG for 2s.
+캐릭터의 화염 원소 대미지가 40.0% 증가한다. 액티브 스킬의 영향을 받은 적에게 적중 시, 자신의 모든 대미지가 40.0% 증가한다. 지속 시간: 2초.
 
-## Key of Sentience
+## 의식의 열쇠
 
-In Co-op Raid stages, wielder deals 22.0% bonus Elemental DMG and 22.0% more against paralyzed, frozen, or ignited enemies.
+멀티 Raid 스테이지 중, 캐릭터가 가하는 모든 원소 대미지가 22.0% 증가한다. 마비, 빙결, 연소 상태에 적에게는 22.0%가 추가로 증가한다.
