@@ -1,13 +1,13 @@
-# Domain of Sentience
+# 무존지경: 의식
 
-## Formless
+## 신무소
 
-[SP 소모: 0][재사용 대기 시간: 20초] Wielder gains 2 stacks of Mind Mark. Combo ATK consumes 1 stack on hit to restore 15 bonus SP. CD: 2s.
+[SP 소모: 0][재사용 대기 시간: 20초] 캐릭터가 무기의 액티브 스킬을 사용하면 2스택의 심식을 획득한다. 분기 공격으로 적을 명중하면 1스택의 심식을 소모해 SP를 15pt 회복한다. 재사용 대기시간: 2초.
 
-## Mindless
+## 사무존
 
-Boosts Crit Rate by 15.0%. In Herrscher form, wielder deals 20.0% bonus Physical DMG.
+캐릭터의 크리티컬률이 15.0% 증가한다. 율자 형태 시, 캐릭터의 물리 대미지가 20.0% 증가한다.
 
-## Senseless
+## 식무귀
 
-While wielder is on standby, team deals 15.0% bonus Physical DMG (Lingering Thought and Senseless cannot stack).
+캐릭터가 대기 중일 때, 파티원의 물리 대미지가 15.0% 증가한다(잔의와 식무귀 1개만 적용).

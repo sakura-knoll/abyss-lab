@@ -1,13 +1,13 @@
-# Fenghuang Pinions
+# 범진난도
 
-## Miseries Abound
+## 속세의 고난
 
-[SP 소모: 6][재사용 대기 시간: 25초] Unleash a lightning strike upon the target to deal 200.0%x3 ATK of Lightning DMG. Tap the weapon button again to cast weapon finisher which deals 400.0% ATK of Lightning DMG to the target and enemies nearby, paralyzes the target for 1s and makes them take 35.0% bonus Lightning DMG for 9s (cannot stack).
+[SP 소모: 6][재사용 대기 시간: 25초] 하늘로 발사하고 목표 적이 있는 곳에 낙뢰를 생성해 공격력 200.0%\*3의 뇌전 원소 대미지를 가한다. 다시 무기 버튼을 누르면 무기 피니쉬를 발동해 목표와 주변 적에게 공격력 400.0%의 뇌전 원소 대미지를 가하고, 목표를 1초간 마비 상태로 만들어 목표가 받는 뇌전 원소 대미지가 35.0% 증가한다. 지속 시간: 9초(1개만 적용)
 
-## Beyond Salvation
+## 우난도
 
-The lightning strike will leave 3 feathers around the target. Casting weapon finisher or teammates picking up a feather extends the Paralyze caused by weapon finisher and the Lightning DMG boost by 1s. All feathers will vanish after casting weapon finisher. Team deals 15.0% bonus Total DMG against paralyzed enemies (cannot stack).
+낙뢰는 적 주변에 깃털 3개를 드랍한다. 무기 피니쉬를 발동하기 전 자신과 파티원이 깃털을 1개를 주울 때마다, 무기 피니쉬의 마비효과가 1초 연장되고, 적이 받는 뇌전 원소 대미지 증가 효과가 1초 연장된다. 무기 피니쉬 발동 후, 전장의 깃털은 사라진다. 파티원 캐릭터가 마비 상태의 목표를 적중시키면 모든 원소 대미지가 15.0% 증가한다(1개만 적용).
 
-## Key of Sentience
+## 의식의 열쇠
 
-In Co-op Raid stages, wielder deals 22.0% bonus Elemental DMG and 22.0% more against paralyzed, frozen, or ignited enemies.
+멀티 Raid 스테이지 중, 캐릭터가 가하는 모든 원소 대미지가 22.0% 증가한다. 마비, 빙결, 연소 상태에 적에게는 22.0%가 추가로 증가한다.

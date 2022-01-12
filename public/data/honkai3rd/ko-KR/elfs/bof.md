@@ -1,60 +1,60 @@
-# Book of Fuxi
+# 복희의 서
 
-## Shenzhou Will
+## 신주의지
 
-Fire multiple shells, dealing 550% ATK of Fire DMG against the target and restores 3 SP upon hit; CD: 2s.
-ATK Interval: 3.3s
+포탄을 다수 발사해 목표에게 총 공격력 550%의 화염 원소 대미지를 입히고, 명중시 SP를 3pt 회복한다, 재사용 대기시간: 2초.
+공격 빈도: 3.3초
 
-### Persistence
+### 지속
 
-ELF's Basic ATK hit additionally restores 10 SP for the ELF; CD: 2s.
+인형의 기본 공격이 적에게 명중하면 SP를 10pt 만큼 추가 회복한다. 재사용 대기시간: 2초.
 
-### Scorching
+### 연소
 
-ELF's Basic ATK hit has a 18.0% chance to deal 200.0% more Fire DMG; CD: 10s.
+인형의 기본 공격이 적에게 명중 시 18.0%의 확률로 200.0%의 화염 원소 대미지를 추가로 입힌다. 재사용 대기시간: 10초.
 
-### Fiery Soul
+### 치혼
 
-ELF's Basic ATK hit on a Ignited target boosts ELF's Total DMG by 15.0% for 10s.
+인형의 기본 공격이 연소 상태의 적에게 명중할 떄마다 모든 대미지가 15.0% 상승한다. 지속 시간: 10초
 
-## Flame Circle
+## 현화의 진
 
-Force activates the QTE of Valkyrie(s) capable of dealing Fire DMG on the team, and summons a magic fire circle (lasts 10s) to seal enemies within, dealing 5 x 1000% ATK of Fire DMG against them and inflicting a debuff on them to make them take 10.0% more All Elemental DMG.
-CD: 35s
-SP: 75
+파티 중 화염 원소 대미지 특성을 보유하고 있는 발키리의 QTE를 강제 발동시키고, 법진을 10초간 생성한다. 법진은 적을 봉쇄해 법진 밖으로 나가지 못하게 하고, 법진 내의 적에게 공격력 5 x 1000%의 화염 원소 대미지를 입히며 법진 내의 적이 받는 모든 원소 대미지가 10.0% 증가한다.
+스킬 CD: 35초
+SP 소모: 75
 
-### Unification
+### 귀일
 
-Within the next 5s after unleashing ELF's Ultimate, the whole team's QTE skills deal 15.0% more Total DMG.
+인형이 필살기를 발동한 후, 5초 동안 모든 파티원 QTE의 모든 대미지가 15.0% 증가한다.
 
-### Ashes
+### 잔해
 
-When the magic circle ends, enemies still within the AOE take 10.0% more Elemental DMG for 5s.
+법진이 끝난 후, 여전히 법진 안에 있는 적은 받는 원소 대미지가 10.0% 증가한다. 지속 시간: 5초
 
-## Roar of the Flame
+## 봉화의 숨
 
-[Team-triggered] With a Valkyrie capable of dealing Fire DMG as the team leader, the whole team gains 9.0% Fire DMG and 6.0% Ice and Lightning DMG.
+[파티 효과] 리더가 화염 원소 대미지 특성의 발키리일 때, 모든 파티원의 화염 원소 대미지가 9.0% 증가하고, 빙결, 뇌전 원소 대미지가 추가로 6.0% 증가한다.
 
-### Abundance
+### 충만
 
-ELF's initial SP increases by 40.
+인형의 기초 SP가 40 증가한다.
 
-### Joined Flames
+### 공연
 
-[Team-triggered] ELF's ALL Elemental DMG increases by 15.0% when there are 2 Valkyries capable of dealing Fire DMG on the team.
+[파티 효과] 파티에 화염 원소 대미지 특성을 보유한 발키리가 2명 있을 때 인형의 모든 원소 대미지가 15.0% 증가한다.
 
-### Nature Harmony
+### 만물통달
 
-[Team-triggered] Team deals 6.0% more Elemental DMG when the team is formed by Valkyries with three different Types.
+[파티 효과] 파티에 있는 3명의 발키리 속성이 전부 다를 때, 모든 파티원의 원소 대미지가 추가로 6.0% 증가한다.
 
-## Free Will
+## 사의
 
-When a Valkyrie performs Ultimate Evasion, the ELF restores 15 SP and provides a buff for the Valkyrie, which boosts her Fire DMG by 8.0% for 8s; CD: 15s.
+발키리가 극한 회피를 발동하면 인형이 캐릭터를 강화해 8초 동안 캐릭터의 화염 원소 대미지가 8.0% 증가하고 인형의 SP를 15pt 회복한다. 재발동 대기시간: 15초.
 
-### Still Water
+### 지수
 
-CD of Free Will decreases to 11s.
+사의의 재사용 대기시간이 11초로 감소한다.
 
-### Hong Meng
+### 홍몽
 
-Within the next 6s after triggering Free Will, the Valkyrie's next Charged/Combo ATK additionally deals 120.0% ATK of AOE Fire DMG.
+인형이 사의를 발동한 후 발키리가 6초 이내에 다음 차지 혹은 분기 공격을 발동하면 추가로 120.0%의 범위 화염 대미지를 입힌다.

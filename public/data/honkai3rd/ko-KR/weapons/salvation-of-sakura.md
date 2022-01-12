@@ -1,18 +1,19 @@
-# Salvation of Sakura
+# 벚꽃의 구원
 
-## Blade Salvo
+## 흩날리는 신의 칼날
 
-[SP 소모: 0][재사용 대기 시간: 15초] Deploys the cross (summoned entity) to launch Sakura katanas at enemies in a large area, slashing them once every 0.3s for 3.5s. Each slash deals Fire DMG equal to 5\*25.0% ATK, Ignites targets to further deal 200.0 Fire DMG every 0.5s for 10s, and inflicts 1 Sakura Count (CD: 2s).
+[SP 소모: 0][재사용 대기 시간: 15초] 십자가[소환물]를 전개한다: 광범위의 붉은 벚꽃 태도를 발사해 3.5초 동안 0.3초마다 범위 내의 적에게 참격 공격을 가한다. 참격마다 공격력 5\*25.0%의 화염 원소 대미지를 가하고, 적을 연소시켜 0.5초마다 200.0의 대미지를 가한다(지속 시간: 10초), 또한 적에게 붉은 벚꽃 카운터를 쌓는다. 재사용 대기시간: 2초.
 
-## Blazing Sakura
+## 흩날리는 앵화
 
-Hitting a target triggers a Sakura Slash covering a cicurlar area surrounding the target, dealing Fire DMG equal to 150.0% ATK.
-Enemies with Sakura Brand or Sakura Count take another 2,700 Fire DMG from Sakura Slash. Sakura Slash CD: 5s.Sakuno Rondo equip bonus: Sakura Slash adds 2 Sakura Counts and restores 14.0 SP.
+목표가 존재할 때, 공격이 적에게 적중 시 목표를 중심으로 원형 범위의 벚꽃 베기를 발동해 공격력 150.0%의 화염 원소 대미지를 가한다.
+적이 붉은 벚꽃 표식이나 붉은 벚꽃 카운터가 있다면 벚꽃 베기는 2,700의 화염 대미지를 추가로 가한다. 벚꽃 베기 재사용 대기시간: 5초.
+앵화윤무가 장비 시, 벚꽃 베기는 적에게 벚꽃 카운터를 2회 쌓으며, SP를 14.0pt 회복한다.
 
-## Beyond Pledge
+## 맹세의 피안
 
-Active triggers Sakura Rain that makes enemies in a large area take 40.0% more Fire DMG for 12s.
+무기 스킬 사용 시 벚꽃비를 발동해 넓은 범위의 적이 받는 화염 원소 대미지가 40.0% 증가한다. 지속 시간: 12초
 
-## Key of Binding
+## 제약의 열쇠
 
-In co-op raids, team deals 20.0% bonus Lightning DMG and takes 15.0% less Fire DMG for 10.0s after a weapon skill is used.
+멀티 Raid 스테이지에서 무기 액티브 스킬을 사용하면 뇌전 원소 대미지가 20.0% 증가하고, 받는 화염 대미지가 15.0% 감소한다. 지속 시간: 10.0초.

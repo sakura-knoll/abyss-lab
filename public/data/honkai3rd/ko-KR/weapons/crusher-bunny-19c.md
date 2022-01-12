@@ -1,9 +1,9 @@
-# Crusher Bunny 19C
+# 분쇄토끼19C
 
-## Sector Lockdown
+## 섹터 봉쇄
 
-[SP 소모: 0][재사용 대기 시간: 20초] Projected weapons fires at targets for 2.5s, dealing Ice DMG equal to 40.0% ATK every 0.1s, adds 1 Combo Hit, and Freezes enemies for 2s. Team and host-summoned entities gain 27.0% bonus Ice DMG for 15s (this effect cannot stack). Haxxor Bunny equip special: Drone's attack interval is reduced by 0.4s for 3.5s. Ultimate triggered by QTE entry auto-casts active if host has not cast active in 20s.
+[SP 소모: 0][재사용 대기 시간: 20초] 프로젝터 무기가 적을 2.5초 동안 사격해 0.1초마다 범위 내의 적에게 공격력 40.0%의 빙결 원소 대미지를 가한다, 이때 콤보수가 1 증가하며, 적을 2초 동안 빙결시킨다. 파티원 캐릭터와 자신의 소환물이 가하는 빙결 원소 대미지가 27.0% 증가한다. 지속 시간: 15초 (1개만 적용). 핵서 버니가 사용 시, 드론 공격 간격이 0.4초 감소한다, 지속 시간: 3.5초. QTE 등장으로 필살기를 발동하면 자동으로 무기 스킬이 발동한다. 해당 효과는 무기 스킬 발동 후 20초 동안 발동할 수 없다.
 
-## Cluster Tactic
+## 집군전술
 
-Launches homing missiles at multiple targets. Longer charge time. Slightly decreased DMG when hitting the same target multiple times. 1st Sequence: 3 missiles. 2nd Sequence: 7 missiles. 3rd Sequence: 15 missiles. Increases team's All Elemental DMG by 12.0% and host-summoned entity's All Elemental DMG by 25.0% (this effect cannot stack).
+다수의 목표 조준해 미사일을 발사한다. 동일한 적에게 많이 명중하면 위력이 조금 줄어든다. 차지 1단: 3발, 2단: 7발, 3단: 15발. 파티원 캐릭터의 모든 원소 대미지가 12.0% 증가하고, 자신의 소환물이 가하는 모든 원소 대미지가 25.0% 증가한다. (1개만 적용)

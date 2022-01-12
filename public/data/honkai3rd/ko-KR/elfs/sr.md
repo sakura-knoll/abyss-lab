@@ -1,66 +1,66 @@
-# Sirin
+# 시린
 
-## Snip☆Magic
+## 싹둑☆마법
 
-ELF has two forms of Basic ATK:
-Basic ATK 1: Use scissors to snip twice each dealing 300% ATK of Fire DMG.
-Basic ATK 2: Spin scissors to deal 150% ATK of requiredRank:2},Fire DMG 4 times.
-ATK Interval: 3.3s
+인형은 두 가지 기본 공격을 보유하고 있다:
+기본 공격 1: 절단 공격, 공격력 300%의 화염 원소 대미지를 2회 가한다.
+기본 공격 2: 가위를 휘두르는 회전 공격으로 주변 적에게 대미지를 4회 가한다. 공격마다 공격력 150%의 화염 원소 대미지를 가한다.
+공격 빈도: 3.3초
 
-### Heat Up
+### 가열
 
-ELF restores 2.0 SP per second in battle.
+전투 진입 시 인형은 매초 SP를 2.0pt 회복한다.
 
-### Fire Mark
+### 화염 인장
 
-ELF's Basic ATKs boost her Total DMG by 50.0% on hit for 10s.
+인형의 기본 공격이 적 적중 시, 인형의 모든 대미지가 50.0% 증가한다. 지속 시간: 10초
 
-## Shackle☆Magic
+## 속박☆마법
 
-ELF casts a spell at the target location to create a magic field that ignites, immobilizes enemies within and explodes with a 2.5s delay dealing 3 x requiredRank:2},700% + 1800% ATK of Fire DMG throughout the duration. Enemies within the field take 10.0% bonus Fire DMG for 13s. Restores 200 HP for all Valkyries.
-CD: 35s
-SP: 75
+인형이 목표 위치에 마법을 발동하고, 큐브 필드를 생성해 큐브 위치의 적을 속박 및 연소시킨다. 큐브는 2.5초 동안 지속한 후 폭발한다. 그 기간, 공격력 3 x 700% + 1800%의 화염 원소 대미지를 가한다. 스킬 발동 시, 필드 내의 적이 받는 화염 원소 대미지가 10.0% 증가한다. 지속 시간: 13초, 파티원의 HP를 200 회복한다.
+스킬 CD: 35초
+SP 소모: 75
 
-### Fiery Lock
+### 허공의 염쇄
 
-ELF's initial SP increases by 50.0.
+인형 초기 SP가 50.0pt 증가한다.
 
-### Cube of Conviction
+### 심판의 큐브
 
-ELF's Ultimate deals 60.0% bonus Fire DMG.
+인형 필살기의 화염 원소 대미지가 60.0% 증가한다.
 
-### Fire of Blessings
+### 축복의 불꽃
 
-The HP regen max charges from ELF's Ultimate increase to 25.0.
+인형 필살기의 HP 회복 카운트의 총 카운트가 25.0회로 증가한다.
 
-## Sweet☆Magic
+## 달콤☆마법
 
-After Elf's Ultimate is cast, team obtains 20 charges of HP regen. Any team member whose HP is below 100% consumes 1 charge to restore 60 HP when she hit,requiredRank:2},s an enemy.
+인형 필살기 발동 후, 파티원이 HP 회복 카운트를 20회 획특한다. 파티 내 HP가 100% 미만인 캐릭터의 공격이 적에게 적중 시 카운트를 1회 소모해 HP를 60 회복한다.
 
-### Caramel Pudding
+### 크림브륄레
 
-ELF restores 20.0% more HP for Valkyries whose HP is below 50%.
+인형이 HP가 50% 미만인 캐릭터에게 제공하는 HP 회복 효과가 20.0% 증가한다.
 
-### Choc Lava Cake
+### 라바 케이크
 
-[Lineup] ELF's Ultimate makes enemies take 15.0% bonus Fire DMG instead when there are 2 or more Fire DMG dealers on the team.
+[파티 발동] 파티원에 2명 또는 2명 이상의 화염 원소 대미지 특성 발키리가 있을 경우, 적이 받는 인형의 필살기 화염 원소 대미지가 15.0%로 증가한다.
 
-### Double Sugar
+### 달콤 곱하기
 
-[Lineup] When team leader is a Fire DMG dealer, team deals 10.0% bonus Fire DMG.
+[파티 발동] 리더가 화염 원소 대미지 특성의 발키리일 경우, 파티원의 화염 원소 대미지가 10.0% 증가한다.
 
-## Friendship☆Magic
+## 우정☆마법
 
-When a Valkyrie uses a weapon skill, ELF summons a black hole to fire 6 magic missiles each dealing 140% ATK of Fire DMG. CD: 15s.
+캐릭터가 무기 스킬 사용 시, 인형이 블랙홀을 소환해 목표 적에게 마법탄을 6발 발사하며, 마법탄은 1개당 공격력 140%의 화염 원소 대미지를 가한다. 재사용 대기시간: 15초
 
-### Sirin's Help
+### 시린의 도움
 
-Enemies hit by ELF's Joint ATKs take 10.0% bonus shield DMG for 12s.
+연계 공격에 적중한 적이 받는 실드 대미지가 10.0% 증가한다. 지속 시간: 12초
 
-### Sirin's Support
+### 시린의 응원
 
-Joint ATK's cooldown is reduced to 10.0s
+연계 공격의 재사용 대기시간이 10.0초로 감소한다.
 
-### Sirin's Regard
+### 시린의 성의
 
-Joint ATKs deal 200.0% bonus DMG to enemies or their shields which take fixed DMG.
+연계 공격이 고정 대미지를 받은 실드나 적에게 가하는 대미지가 200.0% 증가한다.

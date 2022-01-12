@@ -1,60 +1,60 @@
-# Selune's Elegy
+# 새벽달의 진혼가
 
-## Shadow Strike
+## 그림자 습격
 
-Swings her scythe to unleash multiple ATKs, dealing a total of 560% of Ice DMG; restores 8 SP upon hit.
-ATK Interval: 3.
+낫으로 적을 여러 번 공격해 목표에게 총 공격력 560%의 빙결 원소 대미지를 입히고, 명중시 SP를 8pt 회복한다.
+공격 빈도: 3.3초
 
-### Fighting Will
+### 파세
 
-Each of ELF's Basic ATK hits boosts ELF's Total DMG by 6.0% for 5s; stacks up to 3 times.
+인형의 기본 공격이 적에게 명중할 때마다 모든 대미지가 6.0%증가한다. 지속 시간: 5초, 3회 중첩 가능.
 
-### Imprisonment
+### 투옥
 
-ELF's Basic ATK has a 10% chance to additionally deal 150.0% ATK of Ice DMG; CD: 20s.
+인형의 기본 공격은 10% 확률로 공격력 150.0%의 빙결 원소 대미지를 추가로 입힌다. 재사용 대기시간: 20초
 
-## Selune's Requiem
+## 새벽달의 레퀴엠
 
-Throws her scythe to deal 400% x 5 ATK of AOE Ice DMG and summons Death's Aura that immobilizes enemies within and makes them take 5% more Ice DMG; Selune's Elegy attacks random targets in the Aura AOE 7 times (each target takes no more than 4 times of attack), with each attack dealing 800.0% ATK of Ice DMG against the target and nearby enemies; then deals 1500% ATK of Ice DMG against enemies within the Aura AOE, knocks them airborne, and freezes them for 3s.
-CD: 30s
-SP: 75
+낫을 던져 목표와 주변의 적에게 공격력 400% x 5의 빙결 원소 대미지를 입히고, 사신 결계를 만들어 결계 내의 적을 속박하며 받는 빙결 원소 대미지를 5% 증가시킨다. 새벽달의 진혼가는 결계 내의 무작위 적에게 7번 공격(같은 목표 최대 4회 공격)하며, 매번 목표와 가까이 있는 적에게 공격력 800.0%의 빙결 원소 대미지를 입힌다. 마지막엔 결계를 폭발시켜 공격력 1500%의 빙결 원소 대미지를 가하고, 공중에 띄운 후 적을 3초간 빙결시킨다.
+스킬 CD: 30초
+SP 소모: 75
 
-### Icebound Rift
+### 얼음 봉인 단열
 
-After an enemy has been knocked airborne, the duration of the freezing effect extends to 6.0s and additionally deals 250.0% Ice DMG.
+결계가 적을 띄우면 빙결 시간이 6.0초 연장된다, 추가로 250.0%의 빙결 원소 대미지를 입힌다.
 
-### Ultimate Blitz
+### 극한 시간
 
-After unleashing ELF's Ultimate, ELF gains 25.0% Total DMG for 15s (effect duration resets when triggered again).
+인형 필살기 발동 후 모든 대미지가 25.0% 증가한다, 지속 시간: 15초, 중복 발동 시 지속 시간 초기화.
 
-## Dark Form
+## 어둠의 몸
 
-ELF's Ice DMG increases by 40.0%. Enemies will still take 5% more Ice DMG for 10s after escaping from Death's Aura.
+인형의 빙결 원소 대미지가 40.0% 증가한다. 적이 사신 결계에서 빠져나와도 받는 빙결 원소 대미지 5% 증가 효과는 10초 동안 지속된다.
 
-### Convergence
+### 무간첩영
 
-ELF gains 1% Ice DMG for Each hit against the same target; effect maxes at 15.0% and resets when the target is changed.
+인형이 같은 목표를 공격하면 공격할 때마다 빙결 원소 대미지가 1% 증가한다, 최대 15.0% 증가. 목표를 변경하면 효과는 리셋된다
 
-### Field Captivity
+### 속박의 결계
 
-[Team-triggered] With any Valkyrie(s) capable of dealing Ice DMG on the team, the Ice Vulnerability effect of Death's Aura is enhanced to 10.0%.
+[파티 효과] 파티에 빙결 원소 대미지 특성을 보유한 발키리가 있을 때 결계 봉쇄의 빙결 원소 대미지 증가 효과가 10.0%까지 상승한다.
 
-### Frozen
+### 서리
 
-ELF's Ice DMG increases by 12.0%.
+인형이 가하는 빙결 원소 대미지가 12.0% 증가한다.
 
-## Energy Charge
+## 충전
 
-ELF's SP recovery rate increases by 12.0%.
+인형의 SP 회복 속도가 12.0% 증가한다.
 
-### Phantom Flash
+### 순영
 
-ELF's Ultimate CD shortens by 30.0%.
+인형의 필살기 재사용 대기시간이 30.0% 감소한다.
 
-### Revelation
+### 하늘의 계시
 
-ELF's initial SP increases by 40.0.
+인형의 초기 SP가 40.0 증가한다.
 
-### Extinction
+### 적멸
 
-ELF's Total DMG increases by 10.0%.
+인형이 가하는 모든 대미지가 10.0% 증가한다.

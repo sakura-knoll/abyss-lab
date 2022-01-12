@@ -1,9 +1,9 @@
-# Keys of Oblivion
+# 무존의 열쇠
 
-## Iron Will
+## 심념
 
-[SP 소모: 0][재사용 대기 시간: 20초] Wielder gains 2 stacks of Mind Mark. Combo ATK consumes 1 stack on hit to restore 12 bonus SP. CD:2s.
+[SP 소모: 0][재사용 대기 시간: 20초] 캐릭터가 무기의 액티브 스킬을 사용하면 2스택의 심식을 획득하고, 분기 공격으로 적을 명중하면 1스택의 심식을 소모해 SP를 12pt 회복한다. 재사용 대기시간: 2초.
 
-## Lingering Thought
+## 잔의
 
-While wielder is on standby, team deals 15.0% bonus Physical DMG (Lingering Thought and Senseless cannot stack).
+캐릭터가 대기 중일 때, 파티원의 물리 대미지가 15.0% 증가한다(잔의와 식무귀 1개만 적용).
