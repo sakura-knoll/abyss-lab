@@ -1,70 +1,70 @@
-# Klein
+# 클라인
 
-## A New Request?
+## 새로운 부탁?
 
-ELF has two forms of Basic ATK:
-Basic ATK 1: Launch syringes to deal 5 × 120% ATK of Lighting DMG.
-Basic ATK 2: Unleash biochemical lightning to deal 3 × 200% ATK of Lighting DMG.
-ATK Interval: 3.3s
+인형은 두 가지 기본 공격을 사용한다:
+기본 공격 1: 주사기 발사, 공격력 5 × 120%의 뇌전 원소 대미지를 가한다.
+기본 공격 2: 생화학 뇌전, 전방의 적에게 공격력 3 × 200%의 뇌전 원소 대미지를 가한다.
+공격 빈도: 3.3초
 
-### Sure, No Problem
+### 괜찮아, 문제 없어
 
-Each hit of Basic ATK has a 50.0% chance to inflict one stack of Fatigue on enemies. The chance is doubled on enemies not yet inflicted.
+기본 공격마다 50.0%의 확률로 적에게 [피로] 효과를 1스택씩 중첩시킨다. 만일 적에게 [피로] 효과가 없을 경우, 중첩 확률이 2배 증가한다.
 
-### Just Put It There
+### 거기 둬
 
-ELF restores 2.1 SP per second in battle.
+전투 진입 시 인형은 매초 2.1pt의 SP를 회복한다.
 
-### I'll Finish It on Time
+### 빨리 끝낼게
 
-ELF's basic ATKs deal 30.0% bonus Lightning DMG to enemies with Fatigue.
+인형의 기본 공격이 [피로] 상태의 적에게 적중 시, 뇌전 원소 대미지가 30.0% 증가한다.
 
-## Quick Sleep Helper
+## 즉효 수면 장치
 
-Take out a massive syringe and smash it at enemies to trigger a toxic explosion and deal 1800% ATK of Lighting DMG. The syringe then stays on the field and spread toxin to deal 7 × 300% ATK of Lightning DMG. Casting Ultimate reduces character switch CD by 8s. The 1st hit makes enemies take 10.0% bonus Lighting DMG for 15s. Ultimate inflicts Fatigue on enemies hit for 8s and each stack deals 20% ATK of Lightning DMG per second. Triggering it again resets the duration. 5 stacks max.
-CD: 45s
-SP: 75
+인형이 거대한 생화학 주사기를 꺼내 적을 찌른다. 독안개 폭발을 일으켜 공격력 1800%의 뇌전 원소 대미지를 가한다. 그후, 주사기는 전장에 남아 끊임 없이 사방으로 독액을 살포해 총 공격력 7 × 300%의 뇌전 원소 대미지를 가한다. 필살기를 발동하면 대기 상태 캐릭터의 캐릭터 교대 재사용 대기시간이 8초 감소한다. 제 1격에 적중한 적은 15초 동안 받는 뇌전 원소 대미지가 10.0% 증가하며, 필살기의 모든 대미지가 적에게 적중 시 [피로] 효과가 추가되어 8초간 스택마다 초당 공격력 20%의 뇌전 원소 대미지를 가한다. 최대 5스택, 중복 중첩 시 지속시간을 갱신한다.
+스킬 CD: 45초
+SP 소모: 75
 
-### Puts You to Sleep Instantly
+### 바로 잠들 수 있어
 
-The 1st hit paralyzes enemies for 2.0s.
+제1격 명중 시, 적을 2.0초간 마비시킨다.
 
-### Never Gonna Wake Up Again
+### 못 일어나
 
-ELF Ultimate makes enemies take 15.0% bonus Lightning DMG instead.
+인형 필살기가 적이 받는 뇌전 원소 대미지를 15.0%까지 증가시킨다.
 
-### Hmm, Very Helpful
+### 음, 실용적이야
 
-ELF Ultimate deals 40.0% bonus Total DMG. Casting Ultimate triggers the QTE of all Lightning DMG dealers on the team.
+인형 필살기의 모든 대미지가 40.0% 증가한다. 필살기를 발동하면 파티에 뇌전 원소 대미지 특성을 지닌 발키리의 QTE를 강제로 발동시킨다.
 
-## Still Got Work to Do
+## 일이 안 끝났어
 
-[Lineup] Elf deals 25% bonus Lightning DMG when the team leader is a Lightning DMG dealer.
+[파티 발동] 리더가 뇌전 원소 대미지 특성의 발키리일 경우, 인형의 뇌전 원소 대미지가 25% 증가한다.
 
-### Have to Get Myself Together
+### 정신 차려야지
 
-ELF's initial SP increases by 50.0.
+인형의 초기 SP가 50.0 증가한다.
 
-### Can't Fall Asleep
+### 절대 잠들면 안 돼
 
-[Lineup] Lightning DMG dealers on the team deal 6.0% bonus Lightning DMG to paralyzed or fatigued enemies.
+[파티 발동] 파티 내 뇌전 원소 대미지 특성의 발키리가 마비 혹은 [피로] 상태의 적에게 가하는 뇌전 원소 대미지가 6.0% 증가한다.
 
-### Can't... Sleep...
+### 잠들면... 안 돼...
 
-[Lineup] Every Lightning DMG dealer on the team reduces ELF's Ultimate CD by 8.0%.
+[파티 발동] 파티에 2명 또는 2명 이상의 뇌전 원소 대미지 특성 발키리가 있을 경우, 인형의 필살기 재사용 대기 시간이 8.0% 감소한다.
 
-## Did I Fall Asleep?
+## 음... 잠 들었나?
 
-Valkyries dealing Combo ATK DMG adds 1 to the count for up to once per second. When the count reaches 3, ELF performs a Joint ATK, clears the count, and launches multiple syringes at the target, dealing 10 x 80% ATK of Lightning DMG. CD: 20s. The count cannot exceed 2 during CD and starts with 2 when the battle begins.
+캐릭터가 분기 대미지를 가할 시 카운트가 1회 진행되며, 카운트는 초당 1회까지만 증가한다. 카운트가 3회에 도달하면 인형은 1회의 연계 공격을 발동하고, 카운트는 0으로 돌아가며, 목표를 향해 대량의 주사기를 발사해 공격력 10 x 80% 의 뇌전 원소 대미지를 가한다. 재사용 대기 중에 카운트는 최대 2pt까지 누적된다. 전투 시작 시 인형은 2pt의 카운트를 획득한다.
 
-### What Time Is It Now?
+### 지금 몇시야?
 
-Joint ATKs can inflict Fatigue.
+연계 공격이 적에게 [피로] 효과를 중첩시킨다.
 
-### Oh No... I'm Done!
+### 아... 망했다
 
-ELF Joint ATKs boost team Total DMG by 5.0% for 12s.
+인형이 연계 공격 발동 시, 파티원 캐릭터의 모든 대미지가 12초간 5.0% 증가한다.
 
-### Another Sleepless Night
+### 또 야근이네
 
-Joint ATK CD is reduced to 15.0s.
+연계 공격의 재사용 대기시간이 15.0초로 감소한다.
