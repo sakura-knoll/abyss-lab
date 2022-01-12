@@ -1,9 +1,9 @@
-# Dark Star
+# 검은 별
 
-## Starblast
+## 성열
 
-Charged cannon. 1st Sequence: Single shot. 2nd Sequence: Empowered double shot. 3rd Sequence: Super-powered triple shot. Team deals 15.0% bonus Physical DMG to bleeding enemies (cannot stack).
+축적포, 1단: 포탄 한 발, 2단: 강력한 포탄 두 발, 3단: 초강력 포탄 세 발. 출혈 상태의 적 공격 시 가하는 물리 대미지가 15.0% 증가한다. 해당 효과는 하나만 적용된다.
 
-## Umbral Vision
+## 움브라 시야
 
-[SP 소모: 12][재사용 대기 시간: 25초] Strike the target to deal 400.0% ATK of Physical DMG within 4m and create a Umbral Zone around the target lasting 7s, dealing 30% ATK of Physical DMG per second to them and bleeding them to further deal 15.0% ATK of Physical DMG per 0.3s for 5s (can be refreshed). Enemy kills within the zone proc 400.0% ATK of Physical DMG in a large area and expand the range of the zone by 1m (6m max).
+[SP 소모: 12][재사용 대기 시간: 25초] 맹렬하게 목표를 공격해 주변 4m 내의 목표에게 공격력 400.0% 물리 대미지를 가하고 적의 발밑에 7초간 지속되는 움브라 영역을 생성하고, 영역 내의 적에게 초당 공격력 30%의 물리 대미지를 가하며, 영역 내 적에게 출혈 효과를 부가해 5초 동안 0.3초마다 공격력 15.0%의 물리 대미지를 가한다(갱신 가능). 만약 움브라 영역 내에서 적을 처치하면 광범위 공격이 발동해 공격력 400.0%의 물리 대미지를 가하고, 움브라 영역을 1m 확장한다. 최대 범위: 6m.
