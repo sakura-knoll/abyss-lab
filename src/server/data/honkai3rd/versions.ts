@@ -35,9 +35,9 @@ export function getVersion(version: number | string) {
 export function getCurrentVersion() {
   const todayDateString = format(new Date(), 'yyyy-MM-dd')
 
-  return versionDataList.find((versionData) => {
+  return versionDataList.slice().find((versionData) => {
     const [startDateString] = versionData.duration
 
-    return startDateString.localeCompare(todayDateString) < 0
+    return startDateString.localeCompare(todayDateString) <= 0
   })
 }
