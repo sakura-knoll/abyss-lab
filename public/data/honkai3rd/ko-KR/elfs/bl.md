@@ -1,64 +1,64 @@
-# Bella
+# 벨라
 
-## Thundering Verdict
+## 심판의 천둥
 
-Basic ATKs deal 540% ATK of Lightning DMG. Restores 1.85 SP every second in battle.
-ATK Interval: 3.3s
+기본 공격이 공격력 540%의 뇌전 원소 대미지를 입힌다. 전투에 진입한 후 인형은 초당 1.85pt의 SP를 회복한다.
+공격 빈도: 3.3초
 
-### Galvanize
+### 교만함
 
-ELF deals 20.0% bonus Lightning DMG.
+인형이 가하는 뇌전 원소 대미지 20.0%증가.
 
-### Fulminating Blast
+### 천둥 포효
 
-ELF's attacks have a 50.0% chance to deal 250.0% ATK of bonus Lightning DMG. CD: 6s.
+인형의 공격이 적에게 명중할 때 50.0%의 확률로 250.0%의 뇌전 원소 대미지를 추가로 가한다. 재사용 대기시간: 6초.
 
-### Conducting Rod
+### 인뢰
 
-ELF deals 25.0% bonus Total DMG when there's only one enemy on the field.
+전장에 적이 하나만 있을 때, 인형의 모든 대미지가 25.0%증가한다.
 
-## Lightning Arrows
+## 폭뢰의 화살
 
-Shoots multiple thunderbolts dealing 300% x 2 + 160% x 10 + 560% ATK of Lightning DMG and boosting Lightning DMG taken by enemies hit by 8.0% for 6s (can be refreshed). If the last hit lands on a single target, it deals 800% ATK of bonus Lightning DMG and paralyzes the enemy for 1.0s.
-CD: 35s
-SP: 75
+인형이 목표를 조준하고 화살 여러개를 쏘아 300% x 2 + 160% x 10 + 560% 공격력의 뇌전 원소 대미지를 입히고, 명중된 적이 받는 뇌전 원소 대미지를 6초동안 8.0% 증가시킨다. 중복 발동 시 지속시간이 초기화된다. 마지막 일격이 단일 적에게 명중하면 추가로 800% 공격력의 뇌전 원소 대미지를 주고 적을 1.0초 동안 마비시킨다.
+스킬 CD: 35초
+SP 소모: 75
 
-### Dragon Rage
+### 용의 분노
 
-When there's only one enemy on the field, every thunderbolt of Ultimate deals 40.0% bonus Lightning DMG.
+전장의 적이 하나만 있으면, 필살기의 모든 화살에 추가로 공격력 40.0%의 뇌전 원소 대미지가 부가된다.
 
-### Lethal Smite
+### 뇌극
 
-Ultimate boosts Lightning DMG taken by enemies hit by 7.0%.
+필살기에 피격된 적이 받는 뇌전 원소 대미지를 추가로 7.0% 증가시킨다.
 
-### Conducting Cage
+### 뇌옥
 
-The Lightning DMG bonus of Ultimate's last hit lasts 10.0%.
+필살기의 마지막 일격이 가한 적이 받는 뇌전 원소 대미지 증가 효과의 지속 시간이 10.0초까지 연장된다.
 
-## Dragon Guard
+## 성스러운 용의 가호
 
-[Team] With a Fast ATK leader, the team deals 8% bonus Elemental DMG.
+[파티 발동] 리더가 고빈도 특성을 포함 시, 파티원이 가하는 모든 원소 대미지가 8% 증가한다.
 
-### Electrifying Dance
+### 뇌섬의 춤
 
-ELF's has 50.0 bonus initial SP.
+인형의 초기 SP가 50.0 증가한다.
 
-### Dragon Blood
+### 용의 혈통
 
-[Team] ELF deals 15% bonus Lightning DMG when there's at least one Lightning DMG dealer on the team.
+[파티 발동] 파티에 뇌전 원소 대미지 특성을 보유한 캐릭터가 있을 경우, 인형의 뇌전 원소 대미지가 15% 증가한다.
 
-### Electrine Soul
+### 뇌전의 혼
 
-[Team] With a Lightning DMG leader, team deals 6% bonus Lightning DMG.
+[파티 발동] 파티의 리더가 뇌전 원소 특성의 캐릭터일 때, 모든 캐릭터의 뇌전 원소 대미지가 6% 증가한다.
 
-## Lunar Mending
+## 고독한 달의 현음
 
-Restores 300.0 HP for the deployed Valkyrie when her HP drops below 50%. CD: 50s.
+현재 캐릭터의 HP가 50% 이하일 때, 인형은 캐릭터의 HP를 300.0 회복시킨다, 재사용 대기시간: 50초.
 
-### Harmony Crescent
+### 현인
 
-Lunar Mending's CD is reduced to 30s.
+고독한 달의 현음의 재사용 대기시간이 30초까지 감소한다.
 
-### Moon Touch
+### 창월
 
-Lunar Mending restores 450.0 HP instead.
+고독한 달의 현음 스킬 발동 시, 회복 가능한 HP가 450.0까지 증가한다.
