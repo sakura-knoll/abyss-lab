@@ -7,44 +7,103 @@
   "features": ["physical", "time mastery"],
   "leader": {
     "core": {
-      "name": "",
-      "description": ""
+      "name": "Star Kinght's Journey",
+      "description": "(Test V1) Team Physical DMG +30%, Team weapon skill Crit Rate +35%"
     },
-    "subskills": []
+    "subskills": [
+      {
+        "name": "Star Kinght's Journey",
+        "description": "(Test V1) Team Physical DMG +30%, Team weapon skill Crit Rate +35%"
+      }
+    ]
   },
   "special": {
     "core": {
-      "name": "",
-      "description": ""
+      "name": "Glory of Schariac",
+      "description": "(Test V1)\nThe black armor turns into Juan\nKnight Form ATK Sequence (Physical DMG): 150%+200% > 3x120% > 400% > 500%\n\nWhile galloping, press dodge button to [Stomp], hold ATK button to [Charge] and release atk button during [Charge] to deal [Elite Strike]\nStomp: Deal 350% ATK Physical DMG, pull nearby enemies, and can hold ATK button to connect to [Charge]\nCharge: Deal Nx110% ATK Physical DMG (N = no of hits, max 20), hitting enemy consumes meter.\nElite Strike: Deal 800% ATK Physical DMG\n[Stomp] [Charge] [Elite Strike] are all Charged ATK"
     },
-    "subskills": []
+    "subskills": [
+      {
+        "name": "Valkyrie's Path",
+        "description": "(Test V1) Stomp and Charge have Adamance effect (immunity while attacking)"
+      },
+      {
+        "name": "Valkyrie's Legacy",
+        "description": "(Test V1) After 10 hits of Charge, improve damage: [Charge] [Elite Strike] Total DMG +60%, Crit Rate +100%, Crit DMG +60%"
+      },
+      {
+        "name": "Valkyrie's Glory",
+        "description": "(Test V1) Charge deal additional 30% ATK Physical DMG",
+        "requiredRank": "sss"
+      }
+    ]
   },
   "passive": {
     "core": {
-      "name": "",
-      "description": ""
+      "name": "Riding Aria",
+      "description": "(Test V1)\nGuardian Form: Weapon skill restore 1 meter, evasion skill or retaliation restore 2 meter, max 6 meter.\nKnight Form: While moving, meter gradually charges up. When meter is full, Krishna starts to gallop. When Durandal stops moving, meter starts reducing down. (Basic ATK, Ultimate, getting hit, etc)"
     },
-    "subskills": []
+    "subskills": [
+      {
+        "name": "Genius",
+        "description": "(Test V1) When switching forms, reset the CD of evasion skill. CD: 12s"
+      },
+      {
+        "name": "Seed of Sumeru",
+        "description": "(Test V1) Weapon skill Physical DMG +30%, Crit DMG +30%"
+      },
+      {
+        "name": "Holy Sword's Blessing",
+        "description": "(Test V1) Enemies receive 25% more Physical DMG from PE (independent bonus)"
+      }
+    ]
   },
   "ultimate": {
     "core": {
-      "name": "",
-      "description": ""
+      "name": "Palatinus March",
+      "description": "(Test V1)\nTap Ult to switch forms. Switching from Knight to Guardian form activates Shield Burst; Switching from Guardian to Knight form triggers evasion skill.\n\nHold Ult buton to ult [100 sp, 20s CD]\nDual form stigmata power merges as one, spiralling lance to unleash a devastating attack. Deal 2000% ATK Physical DMG in a large area. Pauses timer."
     },
-    "subskills": []
+    "subskills": [
+      {
+        "name": "Herrscher Slayer",
+        "description": "(Test V1) When ult hits IMG enemies, deal dmg to IMG core too, at 100% rate (direct hp loss effect)"
+      },
+      {
+        "name": "Echo of Flames",
+        "description": "(Test V1) Ult Total DMG +50%, Ult is guaranteed to crit."
+      }
+    ]
   },
   "evasion": {
     "core": {
-      "name": "",
-      "description": ""
+      "name": "Antinomian Duality",
+      "description": "(Test V1)\nGuardian Form: Hold down evasion to [Defense], press forward+evasion to [Shield Burst]\n[Defense] When attacked during this period, nullify enemy attack and counter with 120% ATK Physical DMG, and can trigger evasion skill.\n[Shield Burst] Can trigger the same effect by bashing the enemy, can also trigger evasion skill.\nEvasion skill: Trigger 2s Time Fracture and can connect to Rising Slash weapon skill. CD: 10s\n\nKnight Form: Non-ultimate evasion triggers evasion skill. Trigger 2s Time Fracture, fill meter, CD: 10s. (Cant trigger evasion skill while Krishna is galloping) When triggering evasion skill, press directional button to enter galloping state, tap evasion key to [Stomp] and long press ATK button to [Charge], CD: 10s."
     },
-    "subskills": []
+    "subskills": [
+      {
+        "name": "QTE - Symmetry Breaking",
+        "description": "(Test V1) QTE: Triggered by time slow or enemy knocked up. Enter as Knight form, trigger 2s Time Fracture, deal 1000% ATK Physical DMG and with full meter."
+      }
+    ]
   },
   "basic": {
     "core": {
-      "name": "",
-      "description": ""
+      "name": "Immortal Kaslana",
+      "description": "(Test V1)\nGuardian Form ATK Sequence (Physical DMG): 150%+200% > 220% > 8x80% briefly pulls enemies > 300%\nWhen meter is full, hold ATK button to trigger a powerful Palatinus Slash, trigger 2s Time Fracture, deal 200% + 750% ATK Physical DMG\nShield Burst: Deal 150% ATK Physical DMG\nRising Slash: Deal 800% ATK Physical DMG"
     },
-    "subskills": []
+    "subskills": [
+      {
+        "name": "Shield of the People",
+        "description": "(Test V1) Restore 12 sp on successful retaliation (block/bash with evasion skill)"
+      },
+      {
+        "name": "Chimera's Legacy",
+        "description": "(Test V1) When Knight form switch to Guardian form, if evasion skill is triggered, restore 3 meter."
+      },
+      {
+        "name": "Primordial Stigmata",
+        "description": "(Test V1) Palatinus Slash Crit rate +35%"
+      }
+    ]
   }
 }
