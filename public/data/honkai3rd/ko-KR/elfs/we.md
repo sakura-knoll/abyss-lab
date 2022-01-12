@@ -1,59 +1,59 @@
-# Water's Edge
+# 약수
 
-## Blade Downpour
+## 검우
 
-ELF has two Basic ATKs:
-Basic ATK 1: Launch two water projectiles each dealing 240% ATK of Ice DMG.
-Basic ATK 2: Swing the sword to emit a marching wave dealing 480% ATK of Ice DMG.
-ATK Interval: 3.3s
+인형의 두 가지 기본 공격:
+기본 공격 1: 물폭탄 2개 발사한다. 발사한 물폭탄은 공격력 240%의 빙결 원소 대미지를 가한다.
+기본 공격 2: 검을 휘둘러 지속적으로 나아가는 물결을 조종해 적에게 공격력 480%의 빙결 원소 대미지를 가한다.
+공격 빈도: 3.3초
 
-### Pending Rain
+### 바람의 도래
 
-ELF restores 2.2 SP per second in battle.
+전투 진입 시 인형은 초당 2.2pt의 SP를 회복한다.
 
-### Imminent Storm
+### 비의 강림
 
-ELF's Basic ATKs deal 30.0% bonus Total DMG.
+인형 기본 공격의 모든 대미지가 30.0% 증가한다.
 
-## Purge of Evil
+## 각사
 
-Channel a formation to gather enemies in a large area dealing 800% + 5 x 100% + 800% ATK of Ice DMG over 7s. Enemies within become Sunken and take 10.0% bonus Ice DMG until the formation ends.
-Dealing over 500 Ice DMG to enemies within the formation enhances the gathering for 1s. CD: 1s.
-CD: 30s
-SP: 75
+인형은 목표 위치에 법진을 유도해 지속적으로 넒은 범위의 적을 법진으로 끌어당긴다. 법진은 7초간 유지되며, 공격력 800% + 5 x 100% + 800%의 빙결 원소 대미지를 가한다. 법진에 들어간 적은 침연 상태가 빠져 받는 빙결 원소 대미지가 10.0% 증가하며, 효과는 법진이 사라질 때까지 지속된다.
+법진이 존재하는 동안 법진 내 목표에게 가한 빙결 원소 대미지가 500보다 클 때 법진은 1초 동안 흡입력이 강화된다. 해당 효과는 1초의 재발동 대기시간을 갖는다.
+스킬 CD: 30초
+SP 소모: 75
 
-### Refreshing Dew
+### 음한로
 
-When the formation ends, enemies still within stay Sunken for 6.0s longer.
+법진 종료 후, 법진에 당한 적의 침연 상태가 추가로 6.0초 지속된다.
 
-### Tainted Heart
+### 청심탁
 
-Sunken enemies take 6.0% further bonus Ice DMG.
+침연 상태가 가하는 빙결 원소 대미지가 추가로 6.0% 증가한다.
 
-### Clairvoyance
+### 명경지수
 
-ELF's Ultimate deals 30.0% bonus Total DMG.
+인형 필살기의 모든 대미지가 30.0% 증가한다.
 
-## Shoreless
+## 무근
 
-[Team] With one or more Ice DMG dealers on the team, Sunken enemies take 8.0% bonus Ice DMG.
+[파티 발동] 파티원에 1명 또는 1명 이상의 빙결 원소 대미지 특성 캐릭터가 있을 경우, 침연 상태로 인해 받는 빙결 원소 대미지가 추가로 8.0% 증가한다.
 
-### Shapeless
+### 무상형
 
-ELF has 50.0 bonus initial SP.
+인형 초기 SP가 50.0pt 증가한다.
 
-### Traceless
+### 무상재
 
-[Team] With two or more Ice DMG dealers on the team, the Sunken status lasts for 3.0s longer additionally after the formation ends.
+[파티 발동] 파티원에 2명 또는 2명 이상의 빙결 원소 대미지 특성의 캐릭터가 있을 경우, 법진 종료 후, 발동한 침연 상태의 지속 시간이 추가로 3.0초 증가한다.
 
-## Water's Bane
+## 단수
 
-When a QTE hits, ELF launches a blade wave dealing 800.0% ATK of Ice DMG to enemies on its path. CD: 10s.
+캐릭터 QTE가 적에게 명중 시, 인형은 앞으로 날아가는 검기를 날려 경로에 있는 적에게 공격력 800.0%의 빙결 원소 대미지를 가한다. 재사용 대기시간: 10초
 
-### Roaring Tides
+### 입해류
 
-ELF's Joint ATKs deal 30.0% bonus Ice DMG.
+인형 연계 공격이 가하는 빙결 원소 대미지가 30.0% 증가한다.
 
-### Unbridled Influx
+### 창해귀
 
-ELF's Joint ATKs restore 9.0 SP.
+인형 연계 공격은 SP를 9.0pt 회복한다.
