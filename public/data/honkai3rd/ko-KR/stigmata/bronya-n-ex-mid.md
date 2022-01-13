@@ -1,5 +1,5 @@
-# Bronya: N-EX (중)
+# 브로냐·차생의 은익 (중)
 
-## Free Knight
+## 자유의 기사
 
-Total DMG increases by 30.0%. With [Falconwings] active, Total DMG received is reduced by 30.0%.
+모든 대미지가 30.0% 증가한다. [매의 날개] 효과가 있을 경우, 캐릭터가 받는 모든 대미지가 30.0% 감소한다.

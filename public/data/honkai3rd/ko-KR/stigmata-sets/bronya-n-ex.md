@@ -1,11 +1,11 @@
-# Bronya: N-EX
+# 브로냐·차생의 은익
 
-Wings of Reason Set
+진리의 날개 세트
 
-## Dearmament 2 세트
+## 무장 해석 2 세트
 
-Gain 1 [Falconwings] stack when performing an Ultimate or Combo ATK with this equipped. CD: 3s, CD calculated separately each time. Max stacked [Falconwings] increases Total DMG by 20.0%. Used with QTE, When QTE and [Falconwings] add together, if there are 3 [Falconwings] stacks, increases the Ice DMG by 10.0% for every stack granted by the B-piece of this set.
+해당 세트 하 부위 성흔을 착용 시, 필살기 발동 또는 분기 공격 대미지도 [매의 날개] 효과를 받을 수 있다, 재사용 대기시간 3초. 조건부 재사용 대기시간 발동은 독립적으로 계산된다. [매의 날개] 스택이 가득 찼을 경우, 캐릭터의 모든 대미지가 20.0% 증가한다. QTE [매의 날개] 스택이 가득 찼을 경우, 캐릭터의 모든 대미지가 20.0% 증가한다. QTE [매의 날개] 효과 중첩 후, 만약 [매의 날개] 스택이 가득 찼을 경우, 해당 세트 하 부위 성흔의 빙결 원소 대미지 증가 효과가 추가로 10.0% 증가한다.
 
-## Special Plot 3 세트
+## 특별 기획 3 세트
 
-Basic ATKs (including Charged and Combos) deal an additional 25.0% Ice DMG upon impact. CD 0.3s per target. Max stacked [Falconwings] restore 30.0 HP per second.
+일반 공격(차지와 분기 포함)이 적에게 적중 시 추가로 공격력 25.0%의 빙결 원소 대미지를 가한다, 목표당 발동 간격: 0.3초. [매의 날개] 효과 스택이 가득 찼을 경우, 캐릭터는 매초 HP를 30.0 회복한다.

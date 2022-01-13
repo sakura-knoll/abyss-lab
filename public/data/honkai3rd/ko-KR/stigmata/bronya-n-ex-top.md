@@ -1,5 +1,5 @@
-# Bronya: N-EX (상)
+# 브로냐·차생의 은익 (상)
 
-## Player Zero
+## 0호 유저
 
-Total DMG increases by 25%. Also, Combo ATKs summon a bird to dive-bomb the target on impact, dealing 200.0% Ice DMG to a small area. This is seen as Combo DMG with a CD of 8s.
+모든 대미지가 25.0% 증가한다. 분기 공격 명중 시, 새를 한 마리 소환하고, 목표를 향해 급강하해 작은 범위 내의 적에게 공격력 200.0%의 빙결 원소 대미지를 가하며, 분기 대미지로 간주한다. 재사용 대기시간: 8초

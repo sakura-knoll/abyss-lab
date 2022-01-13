@@ -1,82 +1,101 @@
-# Silverwing:N-EX
+# 차생의 은익
 
-## Hyper Proxy
+## 초규격 대리
 
-Leader Bonus
-Leader Skill: Ice DMG dealt by team ranged attackers increases 30.0%; Total DMG dealt by team increases 26.0%.
+리더로 배치 시, 모든 파티원이 버프를 받는다.
+리더 스킬: 모든 파티원의 빙결 원소 대미지가 30.0%, 파티원 캐릭터의 모든 대미지가 26.0% 증가한다.
 
-### Acting Squad Leader
+### 대장 대리
 
-Ice DMG dealt by team ranged attackers increases 30.0%; Total DMG dealt by team increases 26.0%.
+파티원의 원거리 빙결 원소 대미지가 30.0%, 모든 대미지가 26.0% 증가한다.
 
-## N-EX Protocol
+## 차생 협의
 
-Automatically receive passive skill bonus.
-Deploy no more than one scatter barrier when entering battle. Duration time dependent on next threshold charge. Next threshold is reduced 1 block per second while barrier is deployed Regains 1 block per second while barrier is not present for a maximum of 10 blocks. Global Time Fracture triggered for 3.5s when barrier is deployed. Next threshold cleared when barrier is destroyed. When user ATKs through barrier, the ATK being performed is doubled.
-Passing through the barrier grants Basic ground ATKs the following enhancements.
+패시브 스킬은 자동으로 발동한다.
+캐릭터는 전장에 분열 배리어를 전개할 수 있다. 최대 1개 존재할 수 있으며, 실드의 지속 시간은 현재 KP 충전 칸 수에 해당한다. 실드가 존재할 경우 KP는 매초 1칸 감소하며, 실드가 존재하지 않을 경우 매초 1칸 충전된다. 최대 10칸까지 충전 할 수 있다. 분열 배리어 전개 시 3.5초 동안 전체 시공 단열이 발동하며, 배리어가 파괴되면 KP가 리셋된다. 캐릭터의 공격이 분열 배리어를 통과하면 2개로 분열된다.
+지상 기본 공격이 분열 배리어를 통과하면 다음과 같은 강화 효과를 획득한다:
+제1격: 공격력 4 \* 100%의 빙결 원소 대미지를 가한다.
+제2격: 공격력 2 \* 100%의 빙결 원소 대미지를 가한다.
+제3격: 공격력 2 \* 100% + 7 \* 20%의 빙결 원소 대미지를 가한다.
+제4격: 공격력 6 \* 40%의 빙결 원소 대미지를 가한다.
+제5격: 공격력 2 \* 220%의 빙결 원소 대미지를 가하고, 블랙홀을 생성해 지속적으로 적을 끌어당겨 총 공격력 80%의 빙결 원소 대미지를 가한다.
+공중 기본 공격이 분열 배리어를 통과하면 다음과 같은 강화 효과를 획득한다:
+제1격: 공격력 2 \* 80%의 빙결 원소 대미지를 가한다.
+제2격: 공격력 4 \* 60% + 7 \* 20%의 빙결 원소 대미지를 가한다.
+제3격: 공격력 18 \* 30% + 2 \* 220%의 빙결 원소 대미지를 가하고, 블랙홀을 생성해 지속적으로 적을 끌어당겨 총 공격력 80%의 빙결 원소 대미지를 가한다.
+분열 배리어는 몬스터의 이동을 막을 수 있지만, 공격을 막을 수는 없다. 분열 배리어의 지속 시간이 끝나거나 차생의 은익 퇴장 시, 분열 배리어는 파괴되고, 파티원의 QTE 공격이 가하는 모든 대미지가 30% 증가한다, 지속 시간 8초.
+지상 기본 공격 제3격과 공중 기본 공격 제2격이 분열 후 생성되는 비조 충격은 동시에 1개만 존재할 수 있으며, 지상과 공중 기본 공격의 마지막 일격이 분열 후 생성되는 블랙홀 역시 동시에 1개만 존재할 수 있다.
 
-### Buddy Syetem
+### 보조 유닛
 
-(TEMP) When the scatter barrier's duration time is finished or Silverwing: N-EX has left the field, a global Time Fracture is triggered.
+분열 배리어 지속 시간이 끝나거나 차생의 은익이 퇴장해 분열 배리어가 파괴되면 2.5초 동안 전체 시공 단열이 발동한다.
 
-### Rear Echelon Dev
+### 백엔드 개발자
 
-(TEMP) During scatter barrier's CD, continue restoring SP when the user exits the field.
+KP가 충전이 완료되지 않았거나 충전 중일 때, 차생의 은익이 대기 상태일 경우 매초 1.0 SP를 회복한다.
 
-## Stealth Mode
+## 은신 모드
 
-Quickly dodges enemy ATKs, up to twice in a row.
-When dodging, the scatter barrier can be moved between the user and last enemy hit. Scatter barrier duration time is paused while moved. CD: 0.5s. If dodging interrupts a Basic ATK, tap ATK to continue Basic ATK. When performing an Ultimate Evasion, use Ultimate Evasion Skill to open fire, dealing 10 x 20% Ice DMG. Bullets deal 20 x 20% Ice DMG passing through a scatter barrier. CD: 15s.
+빠르게 적의 공격을 회피한다. 2회 연속 회피할 수 있다.
+회피 시 분열 배리어의 위치를 자신과 마지막으로 공격한 적 사이로 조정한다, 재사용 대기시간: 0.5초. 조정 기간, 분열 배리어의 카운트가 정지된다. 회피로 기본 공격이 끊어진 경우, 그전 기본 공격을 이어갈 수 있으며, 극한 회피 시 극한 회피 스킬을 발동한다: 탄을 발사해 공격력 10 \* 20%의 빙결 원소 대미지를 가하고, 총알이 분열 배리어 통과 시 공격력 20 \* 20%의 빙결 원소 대미지를 가한다. 재사용 대기시간: 15초
 
-### Production Assist
+### 협동 제작
 
-(TEMP) Other teammates'QTE, triggers Silverwing: N-EX's QTE.
+파티 내 다른 캐릭터가 QTE 사용 시, 차생의 은익 QTE를 발동한다.
 
-## Combo-Raze Effect
+## 분기-구조해석 역장
 
-(TEMP) Able to use when the next threshold is more than halfway charged, deploying a scatter barrier and firing a hail of bullets to deal 12 x 20% Ice DMG. If the bullets pass through the scatter barrier, Ice DMG increases by 24 x 20%.
-When a scatter barrier is present, the last blow of each Basic ATK grants a charge. If the barrier is broken, the charge is lost. With 2 charges, tap the ATK button to follow the last blow of a Basic ATK with a special Combo ATK dealing 500% Ice DMG. COntinue tapping ATK after the Combo finishes to follow with the second blow of a Basic aerial ATK or ...
+고빈도로 사격한다.
+KP가 절반 이상 충전되면 사용할 수 있으며, 분열 배리어를 소환하고, 무기로 대량의 탄을 퍼부어 공격력 12 \* 20%의 빙결 원소 대미지를 가한다, 분열 배리어 통과 시 공격력 24 \* 20%의 빙결 원소 대미지를 가한다.
+전장에 분열 배리어 존재 시, 기본 공격의 마지막 일격을 사용할 때마다 1회 충전할 수 있다.
+배리어가 파괴되면 충전은 리셋된다.
+2회 충전됐을 때 공격 버튼을 누르면 기본 공격 마지막 일격에 이어서 특수 분기 공격을 발동해 공격력 500%의 빙결 원소 대미지를 가한다. 특수 분기 공격 후 연속해서 공격 버튼을 누르면 이어서 공중 기본 공격 제2격 또는 지상 기본 공격 제4격을 발동한다. 특수 분기 공격이 분열 배리어를 통과하면 공격력 600% + 10 \* 20%의 빙결 원소 대미지를 가한다. 특수 분기 사용 시 2.5초간 전체 시공 단열을 발동한다.
+특수 분기 기간, 배리어의 지속 시간은 감소하지 않으며, 지속 시간마다 특수 분기를 최대 2회 사용할 수 있다.
 
-### Cobalt Wings
+### 파란 불꽃의 날개
 
-(TEMP) Combo ATK deal more Ice DMG
+분기 공격으로 가하는 빙결 원소 대미지가 50.0% 증가한다.
 
-### Plasma Squeeze
+### 플라즈마 압축
 
-(TEMP) Increase TOtal DMG against PSY-type enemies. Total DMG dealt by Combo ATKs increased for a short time after QTE
+이능 속성의 적에게 가하는 모든 대미지가 10.0% 증가하고, QTE 출전 후 10초 동안 분기 공격이 가하는 빙결 원소 대미지가 40.0% 증가한다.
 
-## Razing Chrome
+## 은익의 포효
 
-(TEMP) When tapped:
-If grounded, get airborne dealing 100% Ice DMG. Tap ATK afterwards to follow with the second blow of a Basic ATK.
-Aerial: Return to the ground dealing 100% Ice DMG. Tap ATK afterards to follow with the third blow of a Basic ATK.
-Getting airborne or grounded moves scatter barrier between you and the enemy hit last.
+증폭기를 통과하는 강력한 레이저를 발사해 광범위 공격을 가한다.
+짧은 터치:
+지상: 공중으로 이동해 공격력 100%의 빙결 원소 대미지를 가한다. 그 후, 공격 버튼을 누르면 이어서 기본 공격 제2격을 발동한다.
+공중: 지상으로 돌아가 공격력 100%의 빙결 원소 대미지를 가한다. 그 후, 공격 버튼을 누르면 이어서 기본 공격 제3격을 발동한다.
+공중 또는 지상으로 이동 시 분열 배리어의 위치를 자신과 마지막으로 공격한 적 사이로 조정한다.
+긴 터치:
+필살기를 발동해 공격력 2500%의 빙결 원소 대미지를 가한다. 필살기 발동 기간, 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다. 시전 시 전장에 존재하는 배리어를 강제로 파괴하며, 필살기 발동 종료 후 10초간 지속되는 분열 배리어를 전개한다.
+재사용 대기시간: 15초, SP 소모: 75pt
 
-If held: Perform Ultimate for 2500% Ice DMG. During Ultimate, user and enemy skill timers and stage timer are paused. Destroys barriers present on field. A scatter barrier is redployed....
+### 순찰 영역
 
-### Vigilant Procession
+분열 배리어 존재 기간, 전장의 적이 해당 캐릭터에게 받는 빙결 원소 대미지가 20.0% 증가한다(해당 효과는 독립적인 추가 효과로 간주한다).
 
-(TEMP) Total Ice DMG dealt by use increases while a scatter barrier is on the field
+### 쏟아지는 깃털
 
-### Aerial Salvo
+분열 배리어를 통과하는 탄의 모든 대미지가 30.0% 증가한다.
 
-(TEMP) Bullets passing through a scatter barrier deal more Total DMG
+## 다유닛 무기 0019
 
-## Multi-Unit Arm 0019
+원거리 무기로 공격한다.
+지상 제1격: 공격력 2 \* 100%의 빙결 원소 대미지를 가한다.
+지상 제2격: 공격력 100%의 빙결 원소 대미지를 가한다.
+지상 제3격: 공격력 100% + 7 \* 20%의 빙결 원소 대미지를 가한다.
+지상 제4격: 공격력 3 \* 20%의 빙결 원소 대미지를 가한다.
+지상 제5격: 공격력 100%의 빙결 원소 대미지를 가한다.
+공중 제1격: 공격력 100%의 빙결 원소 대미지를 가한다.
+공중 제2격: 공격력 50% + 50% + 7 \* 20%의 빙결 원소 대미지를 가한다.
+공중 제3격: 공격력 9 \* 20% + 100%의 빙결 원소 대미지를 가하고, 해당 기간에 방향 버튼을 사용해 이동할 수 있다.
+기본 공격과 분기 공격 기간, 경직 저항력이 증가하고 받는 대미지가 50% 감소한다.
 
-First Ground ATK deals 2 x 100% Ice DMG.
-Second Ground ATK deals 100% Ice DMG.
-Third Ground ATK deals 100% + 7 x 20% Ice DMG.
-Fifth Ground ATK deals 100% Ice DMG.
-First aerial ATK deals 100% Ice DMG.
-Second aerial ATK deals 50% + 50% + 7 x 20% Ice DMG.
-Third aerial ATK deals 9 x 20% + 100% Ice DMG. You can move during this time.
-During Basic ATKs and Combo ATKs, resistance to interruptions increases while DMG received decreases 50%.
+### 개조 토끼
 
-### Bunny Refit
+모든 대미지가 30.0% 증가하고, 기본 공격이 가하는 빙결 원소 대미지가 80.0% 증가한다.
 
-(TEMP) Total DMG and Basic ATK Ice DMG increase.
+### QTE-최신 기획
 
-### QTE-Prompt Plot
-
-(TEMP) QTE: Deals Ice DMG while restoring HP. Also, triggers a global Time Fracture and the CD of the next switch is reduced by 4 seconds.
+QTE: 적이 시공 감속 또는 빙결 상태 시 발동한다. SP를 5.0pt 회복하고, 2초 동안 전체 시공 단열을 발동해 공격력 6 \* 100%의 빙결 원소 대미지를 가한다. QTE 교대 출전 시, 교대된 캐릭터의 교대 시간이 4초 감소한다.

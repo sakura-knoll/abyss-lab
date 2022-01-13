@@ -1,5 +1,5 @@
-# Bronya: N-EX (하)
+# 브로냐·차생의 은익 (하)
 
-## Warrior's Instinct
+## 전사 본능
 
-When QTE deals DMG, grants 1 [Falconwings] stack. Each stack increases Ice DMG by 25.0% lasting for 20s, CD: 5s. 3 stacks max. Triggering it again resets the duration.
+캐릭터가 QTE 피해를 가할 경우 [매의 날개] 효과 1스택을 획득한다, 스택마다 빙결 원소 대미지가 25.0% 증가한다, 지속 시간: 20초, 재사용 대기시간: 5초, 최대 3스택 중첩, 중복 발동 시 지속 시간이 갱신된다.

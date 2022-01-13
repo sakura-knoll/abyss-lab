@@ -1,13 +1,13 @@
-# Falcon Flare: FINAL
+# 은빛날개·최종기획
 
-## Collapse Quill
+## 서리 날개의 신성
 
-[SP Cost: 0] [CD:16] Charges in the direction of the joystick and summons a weapon to fire an energy ball, dealing 400% Ice AoE DMG. After passing through Silverwing: N-EX's scatter barrier, energy ball becomes powered-up and deals 400% Ice DMG on impact and triggers a small Black Hole, continuously drawing in nearby enemies to deal 30 x 10.0% Ice DMG followed by an explosion dealing 500.0% Ice DMG. Powered-up energy balls reduce Weapon Skill CD by 300.0% upon impact. When Silverwing: N-EX is used, Weapon Skills can be directly followed with fourth blow of a Basic ground ATK or the third blow of a Basic aerial ATK.
+축적포, 1단: 포탄 한 발, 2단: 강력한 포탄 두 발, 3단: 초강력 포탄 세 발. 캐릭터의 모든 대미지가 40.0% 증가한다. QTE로 대미지를 가하면 전장의 목표가 받는 빙결 원소 대미지가 10초 동안 20.0% 증가한다. 효과 지속 기간 캐릭터 필살기가 목표에게 적중 시 효과가 10초 연장되며, 목표마다 최대 1회 연장된다(해당 효과는 하나만 적용되며 중첩 할 수 없다).
 
-## Rising Frostwings
+## 탐식의 깃탄
 
-Charged cannon. 1st Sequence: Single shot. 2nd Sequence: Empowered double shot. 3rd Sequence: Super-powered triple shot. Total DMG increases 40.0%. Ice DMG dealt to all targets on field increases 20.0% for 10s when QTE deals DMG. Additional 10s added if Ultimate used during this time, for a max 1 time. (cannot stack).
+[SP 소모: 0] [재사용 대기시간: 16초] 캐릭터가 레버 방향으로 일정 거리를 돌진한 후 무기를 소환하고 에너지탄을 발사해 목표에게 적중 시 공격력 400%의 빙결 원소 범위 대미지를 가한다. 에너지탄은 차생의 은익 분열 배리어 관통 시 강화 에너지탄으로 변화하며, 목표에게 적중 시 공격력 400%의 빙결 원소 대미지를 가한다. 또한 광범위 블랙홀을 생성해 주변의 적들을 지속적으로 끌어당기며 공격력 30\*10.0%의 빙결 원소 대미지를 가하고 폭발해 공격력 500.0%의 빙결 원소 대미지를 가한다. 강화 에너지탄 적중 시 무기 스킬 재사용 대기시간이 3.0초 감소한다. 차생의 은익이 사용 시 무기 스킬 발동 후 기본 공격 지상 제4격 또는 공중 제3격을 이어서 발동할 수 있다.
 
-## Zero Sector
+## 영도 역장
 
-Ice DMG increases by 40.0% for 10s when Weapon Skills or Ultimate are used. Triggering it again resets the duration. When Silverwing: N-EX is used, Ice DMG dealt by energy balls that pass through the scatter barrier increase 40.0%.
+무기 스킬 또는 필살기 사용 시 빙결 원소 대미지가 10초 동안 40.0% 증가하며, 중복 발동 시 지속 시간이 갱신된다. 차생의 은익이 사용 시, 분열 배리어를 통과한 강화 에너지탄이 가하는 빙결 원소 대미지가 40.0% 증가한다.
