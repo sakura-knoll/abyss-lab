@@ -1,5 +1,5 @@
-# Moment of Truth
+# 운명의 시침
 
-## Death Knell
+## 종말의 종
 
-[SP 소모: 13][재사용 대기 시간: 30초] For 2s, deal powerful Time Slow to enemies in a large AOE and accelerates character's Attack Speed and Move Speed by 30%. Duration: 5s.
+[SP 소모: 13][재사용 대기 시간: 30초] 2초 동안 넓은 범위의 적을 강력한 시공 감속 상태로 만들고 캐릭터의 공격 속도와 이동 속도를 30% 증가시킨다. 지속 시간: 5초.
