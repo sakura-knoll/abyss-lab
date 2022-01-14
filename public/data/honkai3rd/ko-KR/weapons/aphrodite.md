@@ -1,9 +1,9 @@
-# Aphrodite
+# 아프로디테
 
-## Thorny Rose
+## 블러드 로즈
 
-[SP 소모: 13][재사용 대기 시간: 8초] Blink and appear behind the target foe to deal 400%+8\*50% ATK of Physical DMG to all nearby enemies.
+[SP 소모: 13][재사용 대기 시간: 8초] 적의 뒤로 순간이동하여 주변의 적을 공격해서 공격력의 400%+8*50% 물리 대미지를 입힌다.
 
-## Marigold's Luck
+## 바람꽃
 
-The wielder deals 20% bonus Physical DMG. Basic ATKs (including Charged and Combo ATKs) deal 200% ATK of Physical DMG to nearby enemies on hit. This effect can be triggered 1 time every 4.0s, and its Crit Rate increases by 100% against MECH-type enemies.
+캐릭터가 가하는 물리 대미지가 20% 증가한다. 기본 공격(분기와 차지 공격 포함)이 적에게 적중 시 자신 주변의 적에게 공격력의 200% 물리 대미지를 준다. 4.0초에 한 번 발동하며 기계 속성의 적을 공격 시 크리티컬률이 100% 증가한다.
