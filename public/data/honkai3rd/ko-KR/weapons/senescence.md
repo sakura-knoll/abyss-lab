@@ -1,9 +1,9 @@
-# Senescence
+# 영락
 
-## San-Ge Brand
+## 흩날림
 
-[SP 소모: 13][재사용 대기 시간: 14초] Attacks nearby enemies to deal 200% ATK of Physical DMG and bleeds enemies hit, inflicting another 20.0% ATK of Physical DMG every 0.5s for 5s.
+[SP 소모: 13][재사용 대기 시간: 14초] 주변의 적을 공격하여 공격력의 200% 물리 대미지를 입히고 5초 동안 출혈 상태로 만들어 0.5초마다 공격력의 20.0% 물리 대미지를 입힌다.
 
-## Crimson Foliage
+## 조락
 
-Attacks against bleeding enemies gain 10.0% Crit Rate and 15.0% Crit DMG.
+출혈 상태의 적을 공격 시 크리티컬률이 10.0%, 크리티컬 대미지가 15.0% 증가한다.
