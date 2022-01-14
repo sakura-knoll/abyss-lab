@@ -1,9 +1,9 @@
-# Onyx Iron
+# 오닉스 아이언
 
-## Protective Field
+## 방호 역장
 
-[SP 소모: 5][재사용 대기 시간: 20초] Creates a shield that absorbs 12% Max HP of wielder when hit by enemy attack. While the shield stands, wielder heals 22.0 HP/s and ATKs gain 10.0% Total DMG Multiplier and deal 10% more Physical DMG. Duration: 10s.
+[SP 소모: 5][재사용 대기 시간: 20초] 적에게 피격 시 자신의 최대 HP의 12%만큼 모든 대미지를 흡수하는 실드를 획득한다. 실드가 존재하는 동안 캐릭터는 초당 22.0의 HP를 회복하며, 가하는 모든 대미지가 10.0%, 물리 대미지가 10% 증가한다. 실드 유지 시간: 10초.
 
-## Vitality Drive
+## 구동 엔진
 
-Gains a 1.20% Total DMG Multiplier and 0.50% Physical DMG buff per 10% HP that the wielder has.
+현재의 HP가 높을수록 모든 대미지가 증가한다. HP 10%마다 모든 대미지가 1.20%, 물리 대미지가 0.50% 증가한다.
