@@ -1,5 +1,5 @@
-# Obsidian Reaper
+# 옵시디언 리퍼
 
-## Volcanic Glass
+## Hot
 
-[SP 소모: 3][재사용 대기 시간: 12초] Knocks back enemies before the character, dealing 350% ATK of Physical DMG. The character's Basic ATKs also deal another 70.0 Fire DMG for 10.0s.
+[SP 소모: 3][재사용 대기 시간: 12초] 전방의 적을 다운시켜 공격력 350%의 물리 대미지를 입히고 10.0초 동안 캐릭터의 기본 공격에 타격마다 70.0의 화염 원소 대미지를 추가한다.
