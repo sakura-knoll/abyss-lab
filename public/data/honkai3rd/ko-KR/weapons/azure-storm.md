@@ -1,5 +1,5 @@
-# Azure Storm
+# 군청색 폭풍
 
-## Flash Strike
+## 섬격
 
-For every hit on the enemy, character gains 2.00% Attack Speed for 7.0s. Stacks up to 10 times.
+공격이 적에게 적중할 때마다 7.0초 동안 캐릭터의 공격 속도가 2.00% 증가한다, 최대 10회 중첩.
