@@ -1,9 +1,9 @@
-# Skadi Ondurgud
+# 영원한 서리의 스카디
 
-## Wind of Thrymheim
+## 북쪽의 서리바람
 
-[SP 소모: 4][재사용 대기 시간: 22초] Large AOE ATK dealing 7x120% ATK of Ice DMG. Affected enemies attacking the wielder for the first time within 8.0s suffer 30% Total DMG Reduction debuff for that attack.
+[SP 소모: 4][재사용 대기 시간: 22초] 주변 광범위의 적에게 공격력의 7x120% 빙결 원소 대미지를 입힐 수 있다. 피격된 적이 8.0초 내의 최초로 무기 소유자를 공격할 때 공격한 적의 모든 대미지가 30% 감소한다.
 
-## Goddess of Winter
+## 혹한의 신
 
-Character gains 20.0% Total DMG Multiplier. Argent Knight: Artemis equip bonus: Hits on enemies with Hypothermia recover 2.00 SP. CD: 4.0s.
+캐릭터의 모든 대미지가 20.0% 증가한다. 창기사·월혼이 장비 시 얼음 침식 상태의 적을 명중하면 자신의 SP를 2.00pt 회복한다, 재사용 대기시간: 4.0초.
