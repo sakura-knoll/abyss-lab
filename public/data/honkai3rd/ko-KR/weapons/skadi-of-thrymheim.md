@@ -1,13 +1,13 @@
-# Skadi of Thrymheim
+# 하늘 서리의 스카디
 
-## Everwinter
+## 영원한 겨울밤
 
-[SP 소모: 0][재사용 대기 시간: 11초] Large AOE ATK dealing 3x170% ATK of Ice DMG. Within the next 8s, affected enemies' first attack against the wielder deal 45% less Total DMG. Can be charged twice.
+[SP 소모: 0][재사용 대기 시간: 11초] 주변 광범위의 적에게 공격력 3x170%의 빙결 원소 대미지를 입힌다. 피격 된 적이 8초 내에 무기 소유자를 공격할 때 첫 공격의 모든 대미지가 45% 감소한다. 2회 충전 가능.
 
-## Ice Spirit
+## 빙혼
 
-The wielder gains 40.0% Ice DMG, and another 15.0% Total DMG against PSY-type enemies; restores 2.00 SP upon hitting an enemy. CD: 4s.
+캐릭터의 빙결 원소 대미지가 40.0% 증가하고, 이능 속성의 적에게 가하는 모든 대미지가 15.0% 증가한다. 공격이 적에게 명중 시 자신의 SP를 2.00 회복한다. 재사용 대기 시간: 4초.
 
-## Moonlit Rime
+## 한월상천
 
-Weapon Active will be triggered when Argent Knight consumes Hypothermia; CD: 6.0s. When unleashing Ultimate, the wielder restores 20.0 SP and reset this skill's CD (the 2nd sequence of her Ultimate does not trigger this effect).
+창기사·월혼이 발동해 얼음 침식 디버프를 지우면 즉시 액티브 스킬의 효과가 1회 발동한다, 재사용 대기 시간: 6.0초. 캐릭터가 필살기를 사용하면 자신의 SP를 20.0 회복하고, 해당 스킬의 재사용 대기 시간을 리셋한다(창기사·월혼의 2단 필살기는 해당 효과를 발동하지 않음).
