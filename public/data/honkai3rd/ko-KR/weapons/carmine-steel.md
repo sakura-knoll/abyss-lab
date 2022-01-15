@@ -1,5 +1,5 @@
-# Carmine Steel
+# 카민 스틸
 
-## Protective Field
+## 방호 역장
 
-[SP 소모: 15][재사용 대기 시간: 20초] Grants a shield that absorbs 10% character's Max HP of enemy attack DMG. When the shield exists, character heals 15.0 HP/s and attacks gain 10.0% Total DMG Multiplier. Shield duration: 10s.
+[SP 소모: 5][재사용 대기 시간: 20초] 적에게 피격 시 자신의 최대 HP의 10%만큼 모든 대미지를 흡수하는 실드를 획득한다. 실드가 존재하는 동안 캐릭터는 초당 15.0의 HP를 회복하며, 가하는 모든 대미지가 10.0%, 물리 대미지가 10% 증가한다. 실드 유지 시간: 10초.
