@@ -1,9 +1,9 @@
-# Titan's Fists
+# 갓파더 패왕권
 
-## Vehement Blow
+## 경천일격
 
-[SP 소모: 15][재사용 대기 시간: 30초] Pulls in nearby enemies and paralyzes them for 5.0 sec. For a period of 5 sec. after casting this skill, the next attack deals and additional 1000% ATK of Physical DMG to the target and nearby enemies and knocks them airborne.
+[SP 소모: 18][재사용 대기 시간: 35초] 주위에 있는 적을 끌어당기고 5.0초 동안 마비 상태로 만든다. 해당 스킬을 발동한 후 5초 내에 다음 공격을 진행하면 목표와 주변 적에게 추가로 공격력의 1000% 물리 대미지를 입히고 넉백시킨다.
 
-## Rampage
+## 폭주
 
-When Combo Hit Count exceeds 50, gain 40.0% DEF. Attacks against BIO-type enemies gain 20.0% Total DMG Multiplier.
+50 콤보 이상일 때, 방어력이 40.0% 증가한다. 생물 속성의 적에게 가하는 모든 대미지가 20.0% 증가한다.
