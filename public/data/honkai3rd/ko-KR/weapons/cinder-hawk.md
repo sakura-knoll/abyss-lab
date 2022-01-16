@@ -1,9 +1,10 @@
-# Cinder Hawk
+# 잔화의 연
 
-## Scarlet Spirit
+## 붉은 혼
 
-When dealing damage to ignited enemies or enemies with Firebrand, there is a 20% chance of dealing 300% ATK of Fire DMG. This effect has a minimum trigger cooldown of 1.5s for each enemy.
+연소 상태 혹은 이화 표식이 있는 적에게 대미지를 입힐 때, 20%의 확률로 공격력의 300% 화염 원소 대미지를 추가로 입힌다. 해당 효과는 적마다 1.5초의 재사용 대기시간이 존재한다.
 
-## Red Song
+## 단가
 
-Completely blocks an attack when being attacked by ignited enemies or enemies with Firebrand. Effect triggers every 40.0s. Character gains 20.0% All Elemental DMG and gains 20.0% Fire DMG.
+40.0초마다 실드를 획득한다. 연소 상태 혹은 이화가 부가된 적 공격 시, 실드는 이번 공격을 완전히 막아낸다. 캐릭터의 모든 원소 대미지가 20.0% 증가하고, 화염 원소 대미지는 추가로 20.0% 증가한다.
+ 
