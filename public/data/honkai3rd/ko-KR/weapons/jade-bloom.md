@@ -1,9 +1,9 @@
-# Jade Bloom
+# 취우낙화
 
-## Halcyon
+## 비
 
-Event items will drop when you attack. Pick them up to recover 30.0 HP for the team. CD: 3.0s.
+공격이 적을 명중 시 붕괴 에너지가 드랍되며 획득 시 전원의 HP를 30.0 회복시킨다. 재사용 대기시간 3.0초.
 
-## Kingfisher
+## 취
 
-Whenever the team picks up a HP Pack, gain 15.0% Total DMG Multiplier for 6s. Effect cannot be stacked.
+모든 파티원이 HP팩을 습득 시 6초 동안 가하는 모든 대미지가 15.0% 증가한다. 해당 효과는 하나만 발동할 수 있고 중첩되지 않는다.
