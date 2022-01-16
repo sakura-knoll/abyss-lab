@@ -1,9 +1,9 @@
-# CAS-II Namiko
+# CAS-II 부랑아
 
-## Wander
+## 떠돌이
 
-[SP 소모: 3][재사용 대기 시간: 10초] Creates a blast wave that deals 450% ATK of Physical DMG to enemies along a straight path.
+[SP 소모: 3][재사용 대기 시간: 10초] 전방을 향해 충격파를 날려, 직선 경로상의 적에게 공격력 450%의 물리 대미지를 입힌다.
 
-## Humidifier
+## 해수욕
 
-Wielder gains 15.00% Physical DMG.
+캐릭터의 물리 대미지 15.00% 증가.
