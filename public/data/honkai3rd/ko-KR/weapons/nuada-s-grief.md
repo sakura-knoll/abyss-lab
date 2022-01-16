@@ -1,9 +1,9 @@
-# Nuada's Grief
+# 단광의 누아다
 
-## Airgetlám
+## 신왕의 빛나는 팔
 
-[SP 소모: 4][재사용 대기 시간: 20초] Deals 500% ATK of DMG to enemies in front. Enemies are also knocked airborne and bleed, taking 500 Physical DMG every 0.5s for 8.0s.
+[SP 소모: 4][재사용 대기 시간: 20초] 전방의 적에게 공격력 600%의 물리 대미지를 입히고 적중된 적을 공중에 띄움과 동시에 8.0초 동안 출혈 상태로 만들어 0.5초마다 500의 물리 대미지를 입힌다.
 
-## Dazzling Blade
+## 섬광의 칼
 
-Gain 40% Lightning DMG.
+뇌전 원소 대미지 40% 증가.
