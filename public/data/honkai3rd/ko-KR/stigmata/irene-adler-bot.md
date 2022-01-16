@@ -1,5 +1,5 @@
-# Irene Adler (하)
+# 아이린 애들러 (하)
 
 ##
 
-Boost Total DMG by 15.0%. Charged and Ultimate ATKs Bewitch enemies hit and make them take 15.0% bonus Elemental DMG for 18s (cannot stack but can be refreshed).
+모든 대미지가 15.0% 증가하고, 차지 또는 필살기 공격 명중 시 목표는 미혼 상태에 빠져 받는 모든 원소 대미지가 15.0% 증가한다(해당 효과는 하나만 발동할 수 있다). 지속 시간: 18초, 중복 발동 시 지속 시간이 초기화된다.
