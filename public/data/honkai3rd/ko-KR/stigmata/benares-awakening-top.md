@@ -1,5 +1,5 @@
-# Benares - Awakening (상)
+# 베나레스·각성 (상)
 
-##
+## 고월
 
-Boosts Total DMG by 20.0%. Boosts Lightning DMG by 50.0% in Herrscher Form.
+모든 대미지가 20.0% 증가하고 율자 형태에서 뇌전 원소 대미지가 50.0% 증가한다.

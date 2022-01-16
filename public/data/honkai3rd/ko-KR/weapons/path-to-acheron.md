@@ -1,9 +1,9 @@
-# Path to Acheron
+# 피안의 문
 
-## Dhatura's Blessing
+## 피안화
 
-The wielder restores 200 HP instantly and gains 10% Crit Rate and 30.0% Crit Damage for 10.0s upon unleashing Switch Skill or Ultimate.
+캐릭터가 교대 혹은 필살기를 사용하면 곧바로 자신의 HP를 200회복하고 자신의 크리티컬률이 10%, 크리티컬 대미지가 30.0% 증가한다. 지속 시간 10.0초.
 
-## Higanbana's Curse
+## 붉은 피안화
 
-The wielder gains 20.0% Physical Damage. Stygian Nymph equip bonus: Gains 30.0% Total Damage Multiplier for Mark Damage.
+발키리가 가하는 물리 대미지가 20.0% 증가하고 피안쌍생이 사용하면 표식의 적에게 모든 대미지가 30.0% 증가한다.

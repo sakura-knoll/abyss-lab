@@ -1,5 +1,5 @@
-# Benares - Awakening (중)
+# 베나레스·각성 (중)
 
-##
+## 창룡
 
-Boosts Lightning DMG by 25.0%. Upon entry or casting weapon active, host deals 15.0% bonus Total DMG for 9s. Can be refreshed.
+뇌전 원소 대미지가 25.0% 증가하고, 캐릭터 출전 또는 무기 스킬 사용 후 9초 동안 모든 대미지가 15.0% 증가한다. 리셋 가능

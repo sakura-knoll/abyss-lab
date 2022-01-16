@@ -1,5 +1,5 @@
-# Benares - Awakening (하)
+# 베나레스·각성 (하)
 
-##
+## 여왕
 
-Boosts Lightning DMG by 25.0%. In Herrscher Form, attacks restore 6.0 SP on hit. CD: 6s.
+뇌전 원소 대미지가 25.0% 증가하고, 율자 형태에서 공격이 적에게 명중하면 6.0pt의 SP를 회복한다. 재사용 대기시간: 6초

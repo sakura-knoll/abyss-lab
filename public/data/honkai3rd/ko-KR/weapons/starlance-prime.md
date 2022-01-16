@@ -1,9 +1,10 @@
-# Starlance Prime
+# 스타 랜스 주계열성
 
-## Dawning Glory
+## 영광의 별
 
-[SP 소모: 0][재사용 대기 시간: 25초] Unleash a thrust dealing 50% ATK of Physical DMG. Against enemies not in invincibility or Iron Body, this attack triggers a Throw to control enemies and deal 90% ATK of Physical DMG + 900.0% ATK of Fire DMG. During certain enemy moves and when the active button is flashing, a Throw counter can be performed unconditionally, controlling enemies and dealing 20% ATK of Physical DMG + 700.0% ATK of Fire DMG (does not reset CD).Casting Throws, Ultimate, or entering burst mode inflicts Stardust on enemies. CD: 25s. Stardust does not expire and cannot stack. Wielder's Charged ATKs can shatter Stardust to trigger an explosion dealing 1,500.0% ATK of Fire DMG in a certain area.
+[SP 소모: 0][재사용 대기 시간: 25초] 돌진 공격을 발동하여 공격력 50%의 물리 대미지를 가한다. 슈퍼 아머/무적 상태가 아닌 적 명중 시, 던지기 공격을 발동해 적을 제어하고 공격력 90%의 물리 대미지 + 공격력 900.0%의 화염 원소 대미지를 가한다. 적의 특정 초식 기간 무기 버튼이 깜빡일 때, 모든 조건을 무시하고 반격 던지기를 발동해 적을 제어하고 공격력 20%의 물리 대미지 + 공격력 700.0%의 화염 원소 대미지를 가하며, 재사용 대기시간을 계산하지 않는다.
+던지거나 필살기, 또는 폭발 상태에서 상대에게 25초마다 1회 발동하는 [소성단] 효과를 부여한다. [소성단]은 영구 유지되지만 중첩되지 않는다. 해당 무기를 든 캐릭터가 차지 공격으로 [소성단]을 부수면, 화염 폭발을 일으켜 일정 범위 내의 적에게 공격력 1,500.0%의 화염 원소 대미지를 가한다.
 
-## Fire Star
+## 타오르는 별
 
-Ultimate or burst mode attacks deal 25.0% bonus Fire DMG. Enemies hit by the shattered Stardust blast take 16.0% bonus Fire DMG for 10s. Subsequent procs reset the duration.
+필살기나 폭발 상태의 공격이 가하는 화염 원소 대미지가 25.0% 증가한다. [소성단]을 부순 후, 화염 폭발에 명중된 적이 받는 화염 원소 대미지가 10초간 16.0% 증가한다. 중복 발동 시 지속 시간을 초기화한다.

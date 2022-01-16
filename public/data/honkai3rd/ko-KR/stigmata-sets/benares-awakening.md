@@ -1,11 +1,11 @@
-# Benares - Awakening
+# 베나레스·각성
 
-Moon Dragon Set
+창월 마룡 세트
 
-## Creation of Honkai 2 세트
+## 붕괴 조물 2 세트
 
-Boosts Total DMG by 20.0%. In Herrscher Form, attacks inflict Thunderblitz on enemies for 7s (cannot be stacked but can be refreshed). Enemies in Thunderblitz take 50.0% ATK of bonus Lightning DMG for each hit. CD: 1s.
+모든 대미지 20.0% 증가, 율자 형태에서 공격이 적에게 명중하면 적에게 뇌인 상태를 부여한다(해당 효과는 하나만 발동된다). 지속 시간:7초. 중복 발동 시 지속 시간이 초기화된다. 뇌인 상태의 적은 피격 시 추가로 공격력 50.0%의 뇌전 원소 대미지를 받는다. 1초의 발동 간격이 있다.
 
-## Naga of Judgement 3 세트
+## 심판의 용 3 세트
 
-Boosts Lightning DMG by 20.0%. Host takes 15.0% less Total DMG. Enemies in Thunderblitz take 15.0% bonus Lightning DMG.
+뇌전 원소 대미지 20.0% 증가, 캐릭터가 받는 모든 대미지가 15.0% 감소하고, 뇌인 상태의 적이 받는 뇌전 원소 대미지가 15.0% 증가한다.

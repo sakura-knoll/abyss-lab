@@ -1,10 +1,10 @@
-# Undine's Tale
+# 동요
 
-## Dark Flood
+## 어둠의 장막
 
-[SP 소모: 4][재사용 대기 시간: 18초] Attacks enemies in front to deal 550% ATK of Physical DMG, apply powerful Time Slow for 2.5s, and reduce their Ignore Interrupt for 8.0s. Used during Burst: Deals another 300% ATK of Physical DMG.
-Swallowtail Phantasm equip bonus: Entering Burst gives 250 Veil. If not in Burst mode, then enter Warp State.
+[SP 소모: 4][재사용 대기 시간: 18초] 전방의 적을 공격하여 공격력 550%의 물리 대미지를 주고 2.5초 동안 지속하는 강력한 시공 감속 상태로 만든 후 경직 저항력을 8.0초 동안 감소시킨다. 폭발 상태에서 사용하면 추가로 공격력 300%의 물리 대미지를 가한다.
+환해의 꿈나비가 사용할 때 만약 폭발 상태라면 즉시 암영 게이지를 250pt 회복하고, 폭발 상태가 아니라면 자신은 위상 워프 상태에 진입한다.
 
-## Songs of the Deep.
+## 심해의 노래
 
-Wielder gains 20.0% faster ATK Speed. Backside hits on the enemy gives 15% Total DMG Multiplier buff for the wielder for 6s. Triggering this skill again resets the duration.
+캐릭터의 공격 속도 20.0% 증가. 적의 후방에서 공격시 캐릭터는 강화되어 모든 대미지가 15% 증가한다, 지속 시간 6초, 중복 발동 시 지속 시간이 초기화된다.

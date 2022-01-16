@@ -1,9 +1,9 @@
-# Hler's Serenity
+# 영적의 헬러
 
-## Fury of Aegir
+## 심해의 분노
 
-[SP 소모: 0][재사용 대기 시간: 25초] Launches a thrust attack, dealing 50% ATK of Physical DMG. If the thrust hits an enemy who is not in Invincibility or Iron Body state, then unleashes Throw ATK, controlling the target and dealing 90%+1,200.0% ATK of Physical DMG. While an enemy is launching certain moves, the wielder can unleash a counterstrike Throw with no restrictions when the weapon skill button flashes to CC the enemy and deal 20% ATK of Physical DMG + 700.0% ATK of Physical DMG. Throw Counter does not trigger weapon skill cooldown. In burst mode, Throws deal 500.0% ATK of Physical DMG. When equipped by Bright Knight: Excelsis, Retaliation grants 20% bonus self Crit Rate for 3s.
+[SP 소모: 0][재사용 대기 시간: 25초] 돌진 공격을 1회 발동하여 공격력 50%의 물리 대미지를 가한다. 슈퍼 아머/무적 상태가 아닌 적 명중 시, 던지기 공격을 발동해 적을 제어하고 공격력 90% + 1,200.0%의 물리 대미지를 입한다. 적의 특정 초식 기간 무기 버튼이 번쩍일 때, 모든 조건을 무시하고 반격 던지기를 발동하여 적을 제어하고 공격력 20% + 700.0%의 물리 대미지를 입힌다. 재사용 대기시간을 계산하지 않는다. 폭발 상태에서, 던지기는 추가로 공격력 500.0%의 물리 대미지를 입힌다. 성휘의 기사·월백이 장착할 경우, 방어 반격 발동 시 3초간 자신의 크리티컬률이 20% 증가한다.
 
-## Waves of Cataclysm
+## 멸세의 파도
 
-The wielder's Crit Rate is boosted by 15.0%. Charged ATKs and Throws mark enemies, and the wielder deals 20.0% more Crit DMG against marked enemies. In Burst mode, a shockwave is emitted every 2.5s dealing 60.0% ATK of Physical DMG. Shockwaves are considered Ultimate attacks with 50% bonus Crit Rate that can mark enemies upon hit; the marks last 10s.
+캐릭터의 크리티컬률이 15.0% 증가한다. 차지 공격과 던지기는 적에게 표식을 남긴다. 표식이 있는 적을 공격시, 크리티컬 대미지가 20.0% 증가한다. 폭발 상태에서 2.5초마다 충격파를 한번 발동하여 공격력 60.0%의 물리 대미지를 입힌다. 해당 공격의 유형은 필살기로 간주하며, 50%의 추가 크리티컬률이 있고, 명중한 적에게 표식을 남긴다. 표식 지속시간 10초.

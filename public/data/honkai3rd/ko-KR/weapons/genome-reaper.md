@@ -1,9 +1,9 @@
-# Genome Reaper
+# 유전자 수확자
 
-## Toxic Avalanche
+## 눈사태 독소
 
-[SP 소모: 15][재사용 대기 시간: 20초] Releases neurotoxins every 0.5s to deal 100% ATK of Lightning DMG to nearby enemies. Duration: 4.9s. Then unleash a powerful Toxic Mist that deals 700% ATK of Lightning DMG to nearby enemies.
+[SP 소모: 15][재사용 대기 시간: 20초] 0.5초마다 독소를 내보내 주위의 적에게 공격력 100% 뇌전 원소 피해를 준다. 지속 시간 4.9초. 이후에 강력한 독소를 뿜어 주변의 적에게 공격력 700% 뇌전 원소 대미지를 가한다.
 
-## Sin Stalker
+## 추적자
 
-Character's Move Speed buffs Physical and Elemental DMG of attacks. For every 10% Move Speed buff, gain 5.0% DMG (Max DMG buff: 35%). Character gains 20% Move Speed.
+캐릭터의 이동 속도에 따라 캐릭터가 가하는 물리와 원소 대미지가 증가한다. 이동속도가 10%가 증가할 때마다 대미지가 5.0% 증가한다.(대미지는 최대 35%까지 증가할 수 있다.) 캐릭터의 이동 속도 20% 증가.

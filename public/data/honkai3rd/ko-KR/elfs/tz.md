@@ -1,60 +1,60 @@
-# Tesla ZERO
+# 테슬라 ZERO
 
-## EM Haymaker
+## 전자기 펄스
 
-Basic ATK deals 400.0% ATK of Physical DMG.
-ATK Interval: 3.3s
+기본 공격이 공격력 400.0%의 물리 대미지를 입힌다.
+공격 빈도: 3.3초
 
-### Charge
+### 충전
 
-ELF's Basic ATKs restore 5.0 bonus SP on hit for itself. CD: 2s.
+인형의 기본 공격이 적에게 명중 시 SP를 추가로 5.0pt 회복한다. 재사용 대기시간: 2초
 
-### Disruptive Punch
+### 섭동
 
-ELF's attacks have a 20.0% chance to deal 150.0% bonus Physical DMG. CD: 10s.
+인형의 공격이 적에게 명중할 때 20.0%의 확률로 150.0%의 물리 대미지를 추가로 가한다. 재사용 대기시간: 10초
 
-### Smelter Knuckle
+### 멜트 다운
 
-ELF deals 6.0% bonus Total DMG for 10s after landing a hit. 3 stacks max. CD: 1s.
+인형의 공격이 적에게 명중 시, 인형의 모든 대미지가 6.0% 증가한다. 지속 시간: 10초, 3회 중첩 가능, 1초의 발동 간격이 있다.
 
-## Power: ULTRA
+## 정격 출력
 
-ELF enters burst mode and launches fast attacks in midair for 10s. Each sequence deals 100.0% ATK of Physical DMG. ELF's Crit Rate increases by 12.0% every second (5 stacks max) until burst mode ends. ELF skill button is lit up at max stacks.
-CD: 35s
-SP: 75
+인형은 10초 동안 폭발 상태에 진입하고 공중에서 공격 빈도가 높은 공격을 발동해 단계마다 공격력 100.0%의 물리 대미지를 입힌다. 이때 인형의 크리티컬률이 초당 12.0% 증가하고 최대 5회 중첩한다. 효과는 폭발 상태의 지속 시간이 끝날 때까지 지속되고 게이지가 가득차면 인형 스킬 버튼이 반짝인다
+스킬 CD: 35초
+SP 소모: 75
 
-### Super RAD
+### 방사
 
-The 1st attack in burst mode bleeds enemies for 10.0s, dealing 100% ATK of Physical DMG per second and enabling ELF to Deal 12.0% bonus Total DMG to bleeding enemies within 10.0s.
+폭발 상태에 진입한 후의 첫번째 공격은 목표를 10.0초 동안 출혈 상태로 만든다. 초당 공격력 100%의 물리 대미지를 입히고, 인형이 10.0초 동안 출혈 상태의 적에게 가하는 모든 대미지를 12.0% 증가시킨다.
 
-### Fine Tuning
+### 조절
 
-ELF's initial SP increases by 50.
+인형의 기초 SP가 50 증가한다.
 
-### Super Critical
+### 초임계
 
-ELF's Ultimate Deals 20.0% bonus Total DMG.
+필살기가 가하는 모든 대미지가 20.0% 증가한다.
 
-## Harmonic Link
+## 동조 연결
 
-[Team] Team deals 3.0% bonus Physical DMG and an additional 2.0% bonus Physical DMG if all 3 members are the same type.
+[파티 효과] 모든 파티원이 가한 물리 대미지가 3.0% 증가한다. 파티에 있는 3명의 발키리 속성이 전부 같을 때, 모든 파티원이 가하는 물리 대미지가 추가로 2.0% 증가한다.
 
-### Rapid Harmonics
+### 고주파 공진
 
-[Team] With at least 1 Fast ATK Valkyrie, team deals 4.0% bonus Physical DMG and the last hit of ELF's Ultimate become Heavy ATK with strong trauma charge.
+[파티 발동] 파티에 고빈도 특성의 캐릭터 포함 시, 모든 파티원의 물리 대미지가 4.0% 증가하고, 인형 필살기의 마지막 일격이 중첩 능력 강의 강격으로 변한다.
 
-### Super Overdrive
+### 과부하 구동
 
-[Team] With at least 1 Burst Valkyrie, team deals 4.0% bonus Physical DMG and every hit of ELF's Ultimate deals 50.0% ATK of bonus Physical DMG.
+[파티 발동] 파티에 폭발 특성의 캐릭터 포함 시, 모든 파티원의 물리 대미지가 4.0% 증가하고, 폭발 상태에서 인형이 공격할 때마다 추가로 공격력 50.0%의 물리 대미지를 가한다.
 
-## Hard Trauma
+## 강성 충격
 
-When ELF skill is cast again during burst mode or when burst mode ends, ELF leaps up to deal 1,800.0% x2 ATK of Physical DMG and ELF skill enters cooldown.
+폭발 상태가 다시 인형의 스킬을 발동하거나 폭발 상태 지속 시간이 끝나면, 인형이 높이 도약해 목표에게 공격력 1,800.0% x 2의 물리 대미지를 입힌다. 이후 인형 스킬은 재사용 대기 상태에 진입한다.
 
-### Burst Charge
+### 축적
 
-Then the last hit of Ultimate crits, ELF restores 1.5 SP per second for 5s.
+필살기의 마지막 일격이 크리티컬일 때, 인형이 5초 동안 초당 1.5pt의 SP를 회복한다.
 
-### Particle Stream
+### 입자빔
 
-The last sequence of Ultimate makes enemies take 6.0% bonus Physical DMG for 10s.
+필살기의 마지막 단계는 피격된 적이 받는 물리 대미지를 6.0% 증가시킨다. 지속 시간: 10초.

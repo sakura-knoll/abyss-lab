@@ -1,9 +1,9 @@
-# Eos Gloria
+# 새벽빛의 영광
 
-## Aurora Domina
+## 빛나는 새벽빛
 
-[SP 소모: 0][재사용 대기 시간: 25초] Launches a thrust attack, dealing 50% ATK of Physical DMG. If the thrust hits an enemy who is not in Invincibility or Iron Body state, then unleashes Throw ATK, controlling the target and dealing 90%+1,500.0% ATK of Physical DMG. While an enemy is launching certain moves, the wielder can unleash a counterstrike Throw with no restrictions when the weapon skill button flashes to control the enemy and deal 20% ATK of Physical DMG + 800.0% ATK of Fire DMG; this attack has no CD. When this throw hits the target, generates an 11s Flame Aura centering around the wielder, which makes nearby enemies take 15.0% more Fire DMG and deals Fire DMG equal to 35% of the wielder's ATK against them every 0.5s.
+[SP 소모: 0][재사용 대기 시간: 25초] 돌진 공격을 발동하여 공격력 50%의 물리 대미지를 가한다. 슈퍼 아머/무적 상태가 아닌 적 명중 시, 던지기 공격을 발동해 적을 제어하고 공격력 90%의 물리 대미지 + 공격력 1,500.0%의 화염 원소 대미지를 가한다. 적의 특정 초식 기간 무기 버튼이 번쩍일 때, 모든 조건을 무시하고 반격 던지기를 발동해 적을 제어하고 공격력 20%의 물리 대미지 + 공격력 800.0%의 화염 원소 대미지를 입힌다. 재사용 대기시간을 계산하지 않는다. 던지기 공격이 명중 시, 자신의 주변에 11초 동안 화염 고리를 형성해 주변의 적이 받는 화염 원소 대미지가 15.0% 증가하고, 0.5초마다 공격력 35%의 화염 원소 대미지를 입힌다.
 
-## Fiery Cleansing
+## 어둠을 쫓는 불꽃
 
-When hitting an enemy with Basic ATKs or Charged ATKs, the wielder gains 4.00% Fire DMG for 8.0s; this buff stacks up to 10 times; each stack's duration is independent of others'. When hitting an enemy with Ultimate or Throw ATKs, the wielder immediately gains 10 stacks of the buff.
+기본 공격과 차지 공격 명중 시 캐릭터가 강화되어 캐릭터가 가하는 화염 원소 대미지가 4.00% 증가한다. 지속시간 8.0초, 최대 10회 중첩. 스택마다 지속시간은 독립적으로 계산한다. 필살기 또는 던지기 공격 명중 시, 즉시 10회의 강화를 획득한다.

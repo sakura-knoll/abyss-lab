@@ -1,9 +1,11 @@
-# Lance of Longinus
+# 롱기누스의 창
 
-## Death of the Messiah
+## 살신의 창
 
-[SP 소모: 0][재사용 대기 시간: 25초] Unleash a thrust dealing 50% ATK of Physical DMG. Against enemies not in invincibility or Iron Body, this attack triggers a Throw to control enemies and deal 90% + 1400.0% ATK of Physical DMG. During certain enemy moves and when the active button in flashing, a Throw counter can be performed unconditionally, controlling enemies and dealing 20% + 800.0% ATK of Physical DMG (does not reset CD). The last hit of the Throw deals 50% bonus damage to shields. Asuka equip bonus: Charged ATK, "Mind, Matching, Moment", and Ultimate finisher deal 15.0% bonus Total DMG and have 15% bonus Crit Rate.
+[SP 소모: 0][재사용 대기 시간: 25초] 찌르기 공격을 발동해 공격력 50%의 물리 대미지를 가한다. 슈퍼 아머/무적 상태가 아닌 적 명중 시, 던지기 공격을 발동해 적을 제어하고 공격력의 90%의 물리 대미지+공격력 1,400.0%의 물리 대미지를 가한다. 적의 특정 초식 기간 무기 버턴이 깜빡일 때, 모든 조건을 무시하고 반격 던지기를 발동해 적을 제어하고 공격력 20%의 물리 대미지 + 공격력 800.0%의 물리 대미지를 가하며, 이때 재사용 대기시간을 계산하지 않는다. 던지기의 마지막 일격은 실드에 가하는 대미지가 50% 증가한다.
+내일을 향한 기도가 장비 시, 차지 공격과 [순간, 마음을 합쳐] 공격 및 필살기 피니쉬의 모든 대미지가 15.0% 증가하고 크리티컬률이 15% 증가한다.
 
-## Etz Hayim
+## 생명의 나무
 
-Wielder deals 30.0% bonus Physical DMG. Throws mark enemies for 30s (can be refreshed). When Combo or Charged ATKs from a teammate hit marked enemies, Lance of Longinus emerges to assist, dealing 100.0% ATK of Physical DMG (DMG source: teammate). Team-shared CD: 3s. Asuka equip bonus: Lance of Longinus' assist attacks restore 3.0 SP for her.
+캐릭터 물리 대미지가 30.0% 증가한다. 던지기는 적중한 목표에 표식을 부여한다. 지속시간: 30초, 갱신 가능. 파티원의 분기/차지 공격이 표식이 있는 목표에게 적중시, 롱기누스의 창의 협력 공격이 발동해 공격력 100.0%의 물리 대미지를 가한다. 대미지는 해당 파티원의 대미지이며, 파티원은 3초의 재사용 대기시간을 공유한다.
+내일을 향한 기도가 장비 시, 롱기누스의 창의 협력 공격은 내일을 향한 기도의 SP를 3.0pt 회복한다.

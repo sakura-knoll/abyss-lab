@@ -1,9 +1,9 @@
-# Iris of the Dreams
+# 안식의 아이리스
 
-## Lady of the Fallen
+## 혼을 뺏는 자
 
-[SP 소모: 0][재사용 대기 시간: 30초] Fallen Rosemary enters Valfreyja Form immediately and unleashes soul-drinking mist around her dealing 200% ATK of Lightning DMG. Enemies in mist are Bedazzled and take 50.0% ATK of bonus lightning DMG from Ormr Rune's lightning for 15s. Each Charged ATK boosts host's Total DMG by 15.0% for 15s (cannot stack).
+[SP 소모: 0][재사용 대기 시간: 30초] 로스트 로즈마리는 즉시 [명계의 마녀] 상태에 진입하고 자신 주변에 혼을 빼앗는 안개를 방출해 공격력 200%의 뇌전 원소 대미지를 입힌다. 안개 속에 처한 적은 [실혼] 상태에 진입한다. [뱀의 인장]의 주기적인 뇌전은 15초 동안 [실혼] 상태의 적에게 추가로 공격력 50.0%의 뇌전 원소 대미지를 입힌다. 차지 공격을 사용할 때마다 15초 동안 자신의 모든 대미지를 15.0% 증가시킨다(해당 효과는 중첩되지 않는다).
 
-## Scent of the Dead
+## 안식향
 
-Wielder's Charged ATK and Ultimate deal 15.0% bonus Lightning DMG. Team deals 15.0% bonus Total DMG to enemies affected by Stain of Trickery (cannot stack).
+캐릭터의 차지 공격 및 필살기로 가하는 뇌전 원소 대미지가 15.0% 증가한다. 모든 팀원이 [악의 주문] 상태의 적에게 가하는 모든 대미지가 15.0% 증가한다(cannot stack).

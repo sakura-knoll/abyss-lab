@@ -255,4 +255,10 @@ export const valkyries = [
     label: 'Carole',
     krLabel: '캐롤',
   },
+  {
+    value: 'asuka',
+    icon: 'valkyrie-icons/asuka',
+    label: 'Asuka',
+    krLabel: '아스카',
+  },
 ]

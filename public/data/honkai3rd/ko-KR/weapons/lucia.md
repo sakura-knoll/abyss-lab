@@ -1,9 +1,9 @@
-# Lucia
+# 빛나는 별
 
-## Flash Slam
+## 빛나는 불꽃
 
-[SP 소모: 0][재사용 대기 시간: 25초] Launches a thrust attack, dealing 50% ATK of Physical DMG. If the thrust hits an enemy who is not in Invincibility or Iron Body state, then unleashes Throw ATK, controlling the target and dealing 90%+1,200.0% ATK of Physical DMG. While an enemy is launching certain moves, the wielder can unleash a counterstrike Throw with no restrictions when the weapon skill button flashes to control the enemy and deal 20%+600.0% ATK of Physical DMG; this attack has no CD. After triggering this Throw, the wielder gains Fyre Mantle which reduces 30.0% of the Total DMG she takes for 10s.
+[SP 소모: 0][재사용 대기 시간: 25초] 돌진 공격을 발동하여 공격력 50%의 물리 대미지를 입힌다. 슈퍼 아머/무적 상태가 아닌 적 명중 시, 던지기 공격을 발동되어 적을 제어하고 공격력 90% + 1,200.0%의 물리 대미지를 입힌다. 적의 특정 초식 기간 동안. 무기 버튼이 번쩍일 때, 모든 조건을 무시하고 반격 던지기를 발동해 적을 제어하고 공격력 20% + 600.0%의 물리 대미지를 입힌다. 재사용 대기시간을 계산하지 않는다. 던지기 발동에 성공하면 캐릭터는 화염의 수호를 획득하여 10초 동안 받는 모든 대미지가 30.0% 감소한다.
 
-## Ignis Stella
+## 성식
 
-Deals 15.0% more Fire DMG; additionally deals 35.0% more Fire DMG against ignited enemies.
+화염 원소 대미지가 15.0% 증가하고, 연소 상태의 적에게 가하는 모든 대미지 35.0% 증가.

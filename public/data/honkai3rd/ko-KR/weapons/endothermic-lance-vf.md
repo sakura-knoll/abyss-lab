@@ -1,9 +1,9 @@
-# Endothermic Lance VF
+# 에너지 바이트 랜스
 
-## Element Feedback
+## 서원
 
-[SP 소모: 0][재사용 대기 시간: 25초] Unleash a thrust dealing 50% ATK of Physical DMG. Against enemies not in invincibility or Iron Body, this attack triggers a Throw to control enemies and deal 90% + 1,200.0% ATK of Physical DMG. During certain enemy moves and when the active button is flashing, a Throw counter can be performed unconditionally, controlling enemies and dealing 20% ATK of Physical DMG + 700.0% ATK of Fire DMG (does not reset CD).The active's damage will match the element of the wielder's damage type (Priority: Fire > Ice > Lightning > Physical).
+[SP 소모: 0][재사용 대기 시간: 25초] 돌진 공격을 발동하여 공격력 50%의 물리 대미지를 가한다. 슈퍼 아머/무적 상태가 아닌 적 명중 시, 던지기 공격이 발동해 적을 제어하고 공격력 90% + 1,200.0%의 물리 대미지를 가한다. 적의 특정 초식 기간 동안 무기 버튼이 번쩍일 때, 모든 조건을 무시하고 반격 던지기를 발동해 적을 제어하고 공격력 20% + 700.0%의 물리 대미지를 가하며, 재사용 대기시간을 계산하지 않는다. 만약 캐릭터가 화염/빙결/뇌전 원소 대미지 특성을 지녔다면, 액티브 스킬이 해당 속성 대미지를 가한다(우선도: 화염>빙결>뇌전>물리)
 
-## Ignis Stella
+## 변환
 
-Wielder deals 22.0% bonus Total DMG.
+캐릭터의 모든 대미지가 22.0% 증가한다.
