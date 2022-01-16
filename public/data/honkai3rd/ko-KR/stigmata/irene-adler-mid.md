@@ -1,5 +1,5 @@
-# Irene Adler (중)
+# 아이린 애들러 (중)
 
 ##
 
-Boosts Lightning DMG by 20.0%. Host takes 20.0% less Total DMG.
+뇌전 원소 대미지가 20.0% 증가하고, 받는 모든 대미지가 20.0% 감소한다.
