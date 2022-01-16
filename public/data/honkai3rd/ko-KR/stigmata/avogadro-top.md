@@ -1,5 +1,5 @@
-# Avogadro (상)
+# 아보가드로 (상)
 
 ##
 
-The host gains 20.0% Total DMG. Team restores 30.0 HP per second for 10s after the host casts her weapon active. This effect has a 20-sec CD and cannot stack.
+모든 대미지가 20.0% 증가한다. 무기 스킬 사용 후, 파티원이 초당 HP를 30.0pt 회복한다. 지속 시간:10초, 재사용 대기시간:20초(1개만 적용)
