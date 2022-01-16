@@ -1,9 +1,9 @@
-# Cygnus Gauntlets
+# 백조문천
 
-## Butchering Shrike
+## 백설조
 
-[SP 소모: 5][재사용 대기 시간: 16초] Empowers team for the duration. Team gains 30% to healing, and the caster gains 40% Attack Speed for 8.0s.
+[SP 소모: 5][재사용 대기 시간: 16초] 강화 되어 8.0초 동안 모든 파티원의 치유량이 30% 증가하고, 캐릭터 자신의 공격 속도가 40% 증가한다.
 
-## Grey Kestrel
+## 회색 매
 
-Accelerates attack SP recovery by 25%.
+공격 시 SP 회복 속도 25% 증가.
