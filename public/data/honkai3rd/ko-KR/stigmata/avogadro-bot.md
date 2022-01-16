@@ -1,5 +1,5 @@
-# Avogadro (하)
+# 아보가드로 (하)
 
 ##
 
-The host gains 15.0% ATK Speed. Her weapon active deals 65.0% more Physical DMG for 5s after its activation. CD: 10s.
+공격 속도가 15.0% 증가한다. 무기 스킬 사용 후, 분기 스킬이 가하는 물리 대미지가 65.0% 증가한다. 지속 시간: 5초, 재사용 대기시간: 10초
