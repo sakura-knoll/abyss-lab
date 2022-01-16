@@ -257,7 +257,6 @@ export const valkyries = [
   },
   {
     value: 'asuka',
-    icon: 'valkyrie-icons/asuka',
     label: 'Asuka',
     krLabel: '아스카',
   },
