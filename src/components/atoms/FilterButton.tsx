@@ -1,6 +1,6 @@
 /** @jsxImportSource theme-ui */
 import { useRouter } from 'next/router'
-import { Link } from 'theme-ui'
+import { Link, Text } from 'theme-ui'
 import SquareImageBox from './SquareImageBox'
 
 interface FilterButtonProps {
@@ -46,7 +46,7 @@ const FilterButton = ({
           mr={1}
         />
       )}
-      {label}
+      <Text sx={{ lineHeight: '30px' }}>{label}</Text>
     </Link>
   )
 }
