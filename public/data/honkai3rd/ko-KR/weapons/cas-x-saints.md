@@ -1,9 +1,9 @@
-# CAS-X Saints
+# CAS-X 성도
 
-## Sacred Flames
+## 성스러운 화염
 
-Hits dealt has a 17.0% chance to deal an additional 700 fire damage.
+적중 시 17.0%의 확률로 700의 화염 원소 대미지를 추가로 입힌다.
 
-## Astral Fire
+## 신의 불
 
-Wielder gains 15.00% Fire DMG.
+발키리의 화염 원소 대미지 15.00% 증가.
