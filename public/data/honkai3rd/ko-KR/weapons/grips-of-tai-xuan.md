@@ -1,13 +1,13 @@
-# Grips of Tai Xuan
+# 태허의 장갑
 
-## Yin Yang
+## 음양
 
-[SP 소모: 17][재사용 대기 시간: 25초] Summons 3 Xuanyuan Sword illusions to attack enemies, each sword dealing 1,500 Fire DMG and inflicting Time Lock on enemies for hit for 4.5s.
+[SP 소모: 17][재사용 대기 시간: 25초] 헌원검의 투영을 3자루 소환하여 적을 공격한다. 각 검마다 1,500의 화염 원소 대미지를 입히고 명중한 적을 4.5초 동안 시공 속박 상태로 만든다.
 
-## Unlimited
+## 무기
 
-When basic attacks, combo attacks, burst attacks, or switch/QTE skills hit an enemy, character gains 8.0% Total DMG Multiplier for 8.0s. Different effects triggered by various attacks can be stacked, however if an identical buff is triggered, the buff's duration will be reset.
+일반 공격, 분기 공격, 폭발 상태 공격, 교대기/QTE가 적에게 명중 시 8.0초 동안 캐릭터가 가하는 모든 대미지가 8.0% 증가한다. 다른 유형의 공격으로 발동 된 효과는 중복이 가능하다. 동일한 효과 중복 발동 시 지속 시간을 초기화 한다.
 
-## Key of Domination
+## 지배의 열쇠
 
-In co-op raids, character attacks gain 15% Total DMG Multiplier and hit received suffer 10% Total DMG Reduction.
+멀티 Raid 스테이지 중, 발키리가 가하는 모든 대미지가 15% 증가하고 받는 모든 대미지가 10% 감소한다.
