@@ -1,128 +1,122 @@
-# Blazing Hope
+# 내일을 향한 기도
 
-## Heart: Pure Again
+## 초심, 회귀
 
-Leader Bonus:
-Heart: Pure Again: In the first 15s of battle, team deals 18.0% bonus Total DMG. Team Deals 20.0% bonus damage to shields if formed by 3 BIO battlesuits.
+리더로 배치 시, 파티원이 버프를 받는다.
+초심, 회귀: 파티원 출전 후 15초 동안 모든 대미지가 26% 증가하고, 파티원 3명이 모두 생물 속성일 때 자신이 실드에 가하는 대미지가 60% 증가한다.
 
-### Heart: Pure Again
+### 초심
 
-In the first 15s of battle, team deals 26.0% bonus Total DMG. Team Deals 60.0% bonus damage to shields if formed by 3 BIO battlesuits.
+파티원 출전 후 15초 동안 모든 대미지가 26% 증가하고, 파티원 3명이 모두 생물 속성일 때 자신이 실드에 가하는 대미지가 60% 증가한다.
 
-## Say Goodbye Today
+## 오늘은 이만 안녕
 
-Passive bonuses apply automatically.
-Field Energy: Maxes at 200.
+캐릭터는 자동으로 패시브 스킬 버프를 받는다.
+[영역 에너지]: 최대치 200pt
 
-### On the Journey of Hope
+### 희망의 여정에서
 
-Valkyrie has 200.0 initial Field Energy.
-After level 1, the skill can only be increased when  rank.
+캐릭터의 초기 [영역 에너지]가 200.0pt 증가한다.
 
-### Treasure Up the Joy
+### 기쁨을 소중히
 
-Valkyrie's imminent death procs 1.5s of invincibility and 30.0% HP regen. In the following 6s, she restores 5.0% HP per second. CD: 120s.
+캐릭터가 사망하기 직전, 지속 시간 1.5초의 무적 상태를 획득한다. 이때 HP를 30.0% 회복하고, 6초 동안 매초 HP를 5.0% 회복한다. 재사용 대기시간: 120초
 
-### Till We Meet Again
+### 다시 만나는 그날까지
 
-Breaking enemy shield restores 10.0 SP. CD: 10s.
-After level 1, the skill can only be increased when  rank.
+캐릭터가 적의 실드를 파괴하면 SP를 10.0pt 회복한다. 재사용 대기시간: 10초
 
 ## Eins Zwei Drei
 
-Evade enemy attacks up to twice in row.
-Ultimate Evasion triggers 3s of global Time Fracture. CD: 15s.
-Tap [ATK] after Ultimate Evasion to perform Ultimate Evasion ATK dealing 4x120% ATK of Physical DMG and restoring 60 Field Energy.
+빠르게 적의 공격을 회피한다. 연속 2번 회피할 수 있다.
+극한 회피: 극한 회피 시 3초 간 전체 시공 단열을 발동한다. 재사용 대기시간 15초
+극한 회피 스킬을 발동 후 공격 버튼을 누르면 극한 회피 공격을 발동해 공격력 4\*120%의 물리 대미지를 가하고, [영역 에너지] 60pt를 회복한다.
 
-### No More Prayers
+### 포기한 기원
 
-Ultimate Evasion ATKs deal 30.0% bonus Physical DMG.
+극한 회피 공격으로 주는 물리 대미지가 30.0% 증가한다.
 
-### Time Weaving
+### 시간 엮기
 
-Eins Zwei Drei's CD is reduced by 3.0s.
+[Eins Zwei Drei]의 재사용 대기 시간이 3.0초 감소한다.
 
-## Charged: Chance!
+## 차지-CHANCE!
 
-Charge for a duration or longer to perform different attacks.
-Hold [ATK] to charge, during which Valkyrie takes 80% less Total DMG and has Iron Body.
-Short charge and long charge result in different attacks.
-Charged ATK I: Consume 100 Field Energy to charge forward dealing 4x100% ATK of Physical DMG.
-Charged ATK II: Consume 200 Field Energy to charge forward dealing 3x100% + 700% ATK of Physical DMG.
-In non-enhanced form, Charged ATK I restores 5 SP and Charged ATK II restores 15.
-Performing a Charged ATK grants a barrier that reduces Total DMG taken from the next hit by 50%.
+공격 버튼을 누르고 있는 시간에 따라 강력한 공격을 발동한다.
+공격 버튼을 길게 눌러 차지 상태에 진입 시 받는 모든 대미지가 80% 감소하며, 그 기간 캐릭터는 슈퍼 아머 상태에 돌입하고, 공격 버튼을 누르는 시간에 따라 다른 공격을 한다.
+차지 공격 1단: [영역 에너지] 100pt를 소모하며 전방을 항해 돌진해 목표를 꿰뚫고 공격력 4\*100%의 물리 대미지를 가한다.
+차지 공격 2단: [영역 에너지] 200pt를 소모하며 전방의 목표를 공격해 공격력 3\*100%+700%의 물리 대미지를 가한다.
+강화 상태가 아닐 경우, 차지 공격 1단은 SP를 5pt, 2단은 15pt를 회복한다. 차지 공격 후 실드를 획득하며, 받는 다음 공격의 피해가 50% 감소한다.
 
-### Don't Order Me
+### 내게 명령하지 마
 
-In non-enhanced form, Charged ATK II restores 50.0 Field Energy.
+강화 상태가 아닐 때 차지 공격 2단은 [영역 에너지]를 50.0pt 회복시킨다.
 
-### I Knew It Already
+### 알았다니까!
 
-Charged ATK II deals 20.0% bonus Total DMG to unshielded enemies, and the last hit deals 150.0% ATK of bonus Physical DMG after a 2s delay.
-After level 4, the skill can only be increased when  rank.
+차지 공격 2단이 실드가 없는 적에게 가하는 대미지가 20.0% 증가하고, 마지막 공격이 적에게 적중 시, 2초 후 추가로 공격력 150%의 물리 대미지를 1회 가한다.
 
-### One More Hit
+### 아직 한 발 남았다
 
-Charged ATK I deals 100.0% bonus damage to shields. In enhanced form, Charged ATKs deal 50.0% bonus damage to shields.
+차지 공격 1단이 실드에 가하는 대미지가 100.0% 증가하고, 강화 상태에서 차지 공격 시 실드에 가하는 대미지가 50.0% 증가한다.
 
-## Thorny Lance Bloom
+## 균열의 창
 
-Enter enhanced form and enable different attack moves. 
-1st Sequence: 3x70% ATK of Physical DMG.
-2st Sequence: 3x100% ATK of Physical DMG.
-3st Sequence: 400% ATK of Physical DMG.
-Charged ATK: Skip the charging to directly perform Charged ATK II dealing 3x200% + 800% ATK of Physical DMG.
-Finisher: Tap [ULT] again in enhanced form to hurl the lance up in the air. When it lands, the lance deals 1500% + 15x50% + 500% ATK of Physical DMG and enhanced form ends.
-CD: 18s. SP cost: 100. Duration: 12s.
-Entering enhanced form restores 200 Field Energy instantly and 30 Field Energy every second after until it ends.
+강화 상태에 진입하고, 공격 방식이 전환된다.
+제1격: 공격력 3\*70%의 물리 대미지를 가한다.
+제2격: 공격력 3\*100%의 물리 대미지를 가한다.
+제3격: 공격력 400%의 물리 대미지를 가한다.
+차지 공격: 차지 준비 단계를 건너뛰고 곧바로 차지 공격 2단을 발동해 공격력 3\*200%+800%의 물리 대미지를 가한다.
+피니쉬: 강화 상태 기간 필살기를 다시 사용하면 랜스를 공중으로 던지고, 랜스가 땅으로 떨어지면 공격력 1500%+15\*50%+500%의 물리 대미지를 가하고 강화 상태가 해제된다.
+재사용 대기시간: 18초, SP 소모: 100, 지속 시간: 12초
+강화 상태에 진입하면 [영역 에너지]를 200pt 획득하고, 강화 상태 동안 매초 [영역 에너지]를 30pt 회복한다.
 
-### Field: Spikes
+### 영역·가시
 
-In enhanced form, enemies take 20.0% bonus Physical DMG.
-After level 6, the skill can only be increased when  rank.
+강화 상태 기간, 캐릭터 출전 시 전장의 모든 적이 받는 물리 대미지가 20.0% 증가한다.
 
-### Field: Blessing
+### 영역·축복
 
-In enhanced form, Valkyrie takes 30.0% less Total DMG and has higher Ignore Interrupt.
+강화 상태 기간, 캐릭터가 받는 모든 대미지가 30.0% 감소하고, 경직 저항력이 대폭 증가한다.
 
-### Field: Impact
+### 영역·충격
 
-In enhanced form, Crit Rate increases by 15.0% and Crit DMG of charged ATK / Mind, Matching, Moment / Ultimate finisher increases by 30.0%.
+강화 상태 기간, 크리티컬률이 15.0% 증가하고, 차지 공격/[순간, 마음을 합쳐]/필살기 피니쉬 크리티컬 대미지가 30.0% 증가한다.
 
-## Anta Baka?
+## 너 바보야?
 
-Lance attacks.
-1st Sequence: 40% + 60% ATK of Physical DMG and 20 Field Energy regen.
-2nd Sequence: 50% + 50% ATK of Physical DMG and 20 Field Energy regen.
-3rd Sequence: 3x60% ATK of Physical DMG and 30 Field Energy regen.
-4th Sequence: 3x70% ATK of Lightning DMG and 30 Field Energy regen.
-5th Sequence: 300% ATK of Physical DMG and 30 Field Energy regen.
+랜스로 적을 공격한다.
+제1격: 공격력 40%의 물리 대미지 + 공격력 60%의 물리 대미지를 가하고 [영역 에너지]를 20pt회복한다.
+제2격: 공격력 50%의 물리 대미지 + 공격력 50%의 물리 대미지를 가하고 [영역 에너지]를 20pt회복한다.
+제3격: 공격력 3\*60%의 물리 대미지를 가하고 [영역 에너지]를 30pt 회복한다.
+제4격: 공격력 3\*70%의 물리 대미지를 가하고 [영역 에너지]를 30pt 회복한다.
+제5격: 공격력 300%의 물리 대미지를 가하고 [영역 에너지]를 30pt 회복한다.
 
-### I'm Special
+### 난 특별해
 
-Valkyrie deals  30.0% bonus Physical DMG against single enemies.
+전장에 한 명의 적만 있을 때 가하는 물리 대미지가 30.0% 증가한다.
 
-### I'm More Than Enough
+### 혼자서도 충분해
 
-During 3rd/4th/5th sequence of Basic ATK, Valkyrie has higher Ignore Interrupt and takes 30.0% less Total DMG.
+3/4/5번째 기본 공격의 경직 저항력이 증가하고, 그 기간 받는 모든 대미지가 30.0% 감소한다.
 
-### QTE: So Look at Me Please
+### QTE-그러니까 날 지켜봐 줘
 
-Triggered by knocked-airborne enemies. Procs 3s of global Time Fracture and deals 900.0% ATK of Physical DMG.
+QTE: 적이 공중에 띄워졌을 때 발동, 3초간 전체 시공 단열을 발동하고 공격력 900.0%의 물리 대미지를 가한다.
 
-## Mind, Matching, Moment
+## 순간, 마음을 합쳐
 
-Tap [ATK] after Charged ATK to perform special attack.
-After Charged ATK I/II, tap [ATK] to perform special attack dealing 300% ATK of Physical DMG, or dealing double the damage and restoring 50 Field Energy in enhanced form.
+차지 공격 후 공격 버튼을 눌러 특수 공격을 발동한다.
+캐릭터 차지 1단/차지 2단 공격 후, 공격 버튼을 눌러 특수 공격을 발동하면 공격력 300%의 물리 대미지를 가하며, 강화 상태에서는 공격력 600%의 물리 대미지를 가하고, [영역 에너지]를 50pt 회복한다.
 
 ### Try Again
 
-Mind, Matching, Moment deals 20.0% bonus Total DMG and restores 4.0 SP.
+[순간, 마음을 합쳐] 공격의 모든 대미지가 20.0% 증가하고, SP를 4.0pt 회복한다.
 
-### Discord
+### 불협화음
 
-In non-enhanced form, Mind, Matching, Moment enhances teammates on hit for 12s. Can be refreshed. Attacks from teammates restore 3.0 SP for Valkyrie when she's on standby. Team-shared CD: 1s.
+강화 상태가 아닐 때 [순간, 마음을 합쳐]가 적에게 적중 시 파티원은 12초 동안 강화를 획득한다. (초기화 가능) 아스카가 전장에 있을 때 파티원이 적을 공격하면 아스카는 SP를 3.0pt 회복하고 파티원은 공유하는 1초 간의 재사용 대기시간에 돌입한다.
 
-### Shall We Dance?
+### Shall we dance?
 
-Mind, Matching, Moment restores 120.0 HP on hit.
+[순간, 마음을 합쳐]가 적에게 적중 시 캐릭터는 HP를 120.0pt 회복한다.
