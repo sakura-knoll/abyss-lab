@@ -1,9 +1,9 @@
-# Stellar Vortex
+# 행성 고리의 소용돌이
 
-## Pulse Vortex
+## 펄스 소용돌이
 
-[SP 소모: 14][재사용 대기 시간: 20초] Pulls in the target, dealing 450% Physical DMG and reducing its speed by 80% for 5s.
+[SP 소모: 14][재사용 대기 시간: 20초] 목표를 자신의 앞으로 끌어당겨 공격력의 450% 물리 대미지를 입히고 5초 동안 이동 속도를 80% 감소시킨다.
 
-## Wave Breaker
+## 파도
 
-When Combo Skill hits, deal 2,500 Physical DMG to nearby enemies. Cooldown is 1.5s.
+분기 공격 명중 시 발키리 주변에 있는 적에게 2,500의 물리 대미지를 입힌다. 재사용 대기시간 1.5초.
