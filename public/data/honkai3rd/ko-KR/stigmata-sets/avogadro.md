@@ -1,11 +1,11 @@
-# Avogadro
+# 아보가드로
 
-Matter Delver Set
+물질 탐구자 세트
 
-## Avogadro Constant 2 세트
+## 아보가드로 상수 2 세트
 
-The host gains 30.0 initial SP in battle, and her weapon active consumes 15.0% less SP.
+초기 SP가 30.0pt 증가하고, 무기 액티브 스킬 소모 SP가 15.0% 감소한다.
 
-## Avogadro's Law 3 세트
+## 아보가드로 법칙 3 세트
 
-The host gains 15.0% Total DMG. Her weapon active inflicts a mark on the target (CD: 20s), which explodes after 10s and deals 400.0% ATK of large-AOE Physical DMG. The host additionally deals 15.0% more Total DMG against marked enemies.
+모든 대미지가 15.0% 증가한다. 무기 스킬로 적 명중 시, 적이 [인장]을 획득하고(재사용 대기시간: 20초), 10초 후 표식이 폭발해 공격력 400.0%의 광범위 물리 대미지를 가하며, 표식 목표에 가하는 대미지가 추가로 15.0% 증가한다.
