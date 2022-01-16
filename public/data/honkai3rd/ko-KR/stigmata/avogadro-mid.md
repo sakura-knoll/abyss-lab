@@ -1,5 +1,5 @@
-# Avogadro (중)
+# 아보가드로 (중)
 
 ##
 
-The host's weapon active CD shortens by 30.0%. Team gains 10.0% Total DMG for 12s after the host casts her weapon active. This effect has a 20-sec CD and cannot stack.
+무기 스킬 재사용 대기시간이 30.0% 감소하고, 무기 스킬 사용 후 파티원의 모든 대미지가 10.0% 증가한다. 지속 시간: 12초, 재사용 대기시간: 20초(1개만 적용)
