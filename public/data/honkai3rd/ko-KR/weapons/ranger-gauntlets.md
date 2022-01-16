@@ -1,9 +1,9 @@
-# Ranger Gauntlets
+# 레인저의 완갑
 
-## Turbo Acceleration
+## 터빈 가속
 
-[SP 소모: 5][재사용 대기 시간: 30초] Character loses health equal to 15% max HP to gain 30% Total DMG Multiplier for 9.0s.
+[SP 소모: 5][재사용 대기 시간: 30초] 자신의 HP 최대치의 15%를 소모하고 9.0초 동안 캐릭터가 가하는 모든 대미지가 30% 증가한다.
 
-## Twilight Operation
+## 주야작전
 
-When character exits, team takes 10.0% less Indirect Physical DMG for 7.0s.[Ranger] Character takes 20% less Ice DMG. If other teammates are equipped with [Ranger] series weapons, then character gains 15.0% Physical DMG for 7.0s when deployed.
+캐릭터 퇴장 시 모든 팀원이 받는 간접 물리 대미지 10.0% 감소한다, 지속시간 7.0초. [레인저] 캐릭터가 받는 빙결 원소 대미지가 20% 감소하고, 파티 내에 다른 레인저 계열 무기를 장착한 캐릭터가 있을 경우 해당 캐릭터 등장 시 물리 대미지가 7.0초간 증가한다.
