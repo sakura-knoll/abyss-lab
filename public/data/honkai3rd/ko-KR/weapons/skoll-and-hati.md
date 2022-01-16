@@ -1,9 +1,9 @@
-# Skoll and Hati
+# 영원히 저무는 쌍랑
 
-## Skoll
+## 태양을 쫓는 그림자
 
-[SP 소모: 11][재사용 대기 시간: 30초] Continuously emits shockwaves upon activation, dealing 50% ATK of Physical DMG every 0.5s. Character also takes 65% less DMG from side or rear attacks for 10.0s.
+[SP 소모: 11][재사용 대기 시간: 30초] 발동 후, 지속해서 충격을 줘서 0.5초마다 주변 적에게 공격력의 50% 물리 대미지를 입히고 10.0초 동안 발키리가 측 후방에서 받는 대미지가 65% 감소한다.
 
-## Hati
+## 달을 깨는 어금니
 
-When attack hits the enemy, gain 3.0% Physical DMG for 3.0s. Effect stacks up to 10 times. Duration for each stack is determined separately. Attacks against enemies affected by Time Slow, reduced Attack Speed, or reduced Move Speed gain 10% Crit Rate.
+공격이 적에게 적중 시 3.0초 동안 캐릭터가 가하는 물리 대미지가 3.0% 증가한다, 최대 10회 중첩. 매 중첩 효과의 지속 시간은 독립적으로 계산된다. 시공 감속, 공격 속도 감소, 이동 속도 감소 상태의 적을 공격시 크리티컬률이 10% 증가한다.
