@@ -1,5 +1,5 @@
-# White Star Banishers
+# 흰 별의 구축자
 
-## Spiral Jet
+## 나선 제트 스트림
 
-[SP 소모: 12][재사용 대기 시간: 14초] Triggers an updraft of air around the character, dealing 450% ATK of Physical DMG to enemies and knocking them airborne.
+[SP 소모: 12][재사용 대기 시간: 14초] 자신의 주변에 상승 기류를 일으켜 적에게 공격력의 450% 물리 대미지를 입히고 띄운다.
