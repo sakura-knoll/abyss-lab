@@ -1,9 +1,9 @@
-# Nebulous Duality
+# 소매에 얽힌 구름
 
-## Well of Yin
+## 음
 
-[SP:25][CD:24s] The wielder gains Ignore Interrupt and 10% ATK Speed for 10s, during which she restores 3.00 SP but loses 1% of her current HP per 0.5s. If wielded by Azure Empyrea, the protective effect of her Evasion skill will be reset immediately.
+[SP 소모: 25][재사용 대기시간: 24초] 10초 동안 캐릭터의 경직 저항력이 증가하고 공격 속도가 10% 증가한다. 0.5초당 현재 HP가 1%씩 감소하고 SP를 3.00pt 회복한다. 단심의 먹구름이 사용 시 회피 스킬의 보호 효과가 바로 리셋된다.
 
-## Fount of Yang
+## 양
 
-Fu Hua equip bonus: Hitting an enemy with the final hit of any set of her combos boosts her Total DMG by 6.0% for 15s (stacks up to 3 times) and adds 1 charge (MAX: 3). This effect can be triggered once every 2s; triggering it again reset the duration. When the wielder leaves the battlefield, each charge boosts teammates' Total DMG by 4.0% for 15s (triggering this effect again resets the duration), then all charges will be removed.
+후카의 초식 연계 공격의 마지막 일격이 적에게 명중하면 15.0초 동안 캐릭터의 모든 대미지가 6.0% 증가하고 스택을 1개(쵀대 3개) 획득한다. 해당 효과는 2초마다 1번 발동하고 중복 발동 시, 지속 시간을 갱신한다. 캐릭터가 퇴장하면 스택은 초기화되고 스택마다 파티원의 모든 대미지를 4.0% 증가시킨다. 지속 시간: 15초 (중복 발동 시 지속 시간을 갱신한다)
