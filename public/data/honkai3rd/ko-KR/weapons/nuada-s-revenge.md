@@ -1,13 +1,13 @@
-# Nuada's Revenge
+# 농광의 누아다
 
-## Champion of Danu
+## 뚫고 나오는 빛
 
-[SP 소모: 0][재사용 대기 시간: 20초] Unleashes a powerful strike forward at enemies, dealing 500% ATK of Lightning DMG and bleeding them to further deal 750 Physical DMG per 0.5s for 12.0s. During Burst mode, this skill deals 200% DMG.
+[SP 소모: 0][재사용 대기 시간: 20초] 바로 앞의 적에게 강력한 공격을 발동해 공격력 500%의 뇌전 원소 대미지를 가하고 출혈 상태로 만들어 0.5초마다 750의 물리 대미지를 입힌다. 지속 시간: 12.0초. 폭발 상태에서 해당 스킬로 2배의 대미지를 입힐 수 있다.
 
-## Undying Resolve
+## 순간의 정적
 
-The wielder's Lightning DMG increases by 40% and gains 30% ATK Speed during Burst mode. When near death, the wielder heals for 50% Max HP and paralyzes nearby enemies for 4s. This effect activates once only during each battle.
+캐릭터의 뇌전 원소 대미지가 40% 증가하고 폭발 상태에서 공격 속도가 30% 증가한다. 캐릭터가 전투 불능이 되면 HP를 바로 50% 회복하고주변의 적을 4초 동안 마비시킨다. 해당 효과는 전투마다 1번 발동한다.
 
-## Airgetlám's Mantle
+## 두렵지 않은 한계
 
-During the Burst mode or within the first 5.0s after unleashing the weapon active or Ultimate, the wielder gains Ignore Interrupt and 40% Total DMG Reduction, and emits a Lightning Shockwave every 1.5s. The Lightning Shockwave deals 20.0% ATK of Lightning DMG against nearby enemies and makes them take 3.50% more Lightning DMG for 3s (Max stacks: 7; triggering this effect again resets the duration).
+폭발 상태에서 무기 스킬/필살기 발동 후 5.0초 내에 캐릭터는 강화되어 경직 저항력이 증가하고 받는 모든 대미지가 40% 감소한다. 1.5초마다 뇌전 충격을 1회 가하여 주변 적에게 공격력 20.0%의 뇌전 원소 대미지를 입히고 3초 동안 받는 뇌전 원소 대미지를 3.50% 증가시킨다. 최대 7번 중첩 가능하고 중복 발동시 지속 시간을 갱신한다.
