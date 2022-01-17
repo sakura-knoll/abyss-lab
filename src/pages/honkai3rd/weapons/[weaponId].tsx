@@ -13,6 +13,7 @@ import {
 import { useRouter } from 'next/router'
 import { useTranslation, translate } from '../../../lib/i18n'
 import Head from '../../../components/atoms/Head'
+import PageLink from '../../../components/atoms/PageLink'
 
 interface WeaponShowPageProps {
   weapon: WeaponData
@@ -61,7 +62,14 @@ const WeaponShowPage = ({ weapon }: WeaponShowPageProps) => {
 
         <Card mb={3}>
           <Box p={2} sx={{ borderBottom: 'default' }}>
-            {weaponCategory}
+            <PageLink
+              href={{
+                pathname: '/honkai3rd/weapons',
+                query: { filter: weapon.category },
+              }}
+            >
+              {weaponCategory}
+            </PageLink>
           </Box>
           <Box p={2} sx={{ borderBottom: 'default' }}>
             {'⭐'.repeat(weapon.rarity)}
