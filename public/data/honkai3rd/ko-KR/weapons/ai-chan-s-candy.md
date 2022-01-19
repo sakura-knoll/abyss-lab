@@ -1,5 +1,5 @@
-# Ai-chan's Candy
+# 아이쨩 캔디
 
-## Candy Rain
+## 사탕 비
 
-[SP 소모: 15][재사용 대기 시간: 15초] Summons and deploys AI Chan's Candy: Drops candy once every 0.8s for the next 8s. Candy explodes upon landing, dealing 666 Physical DMG to enemies in a small AOE.
+[SP 소모: 15][재사용 대기 시간: 15초] 아이쨩 캔디[소환물]를 전개한다. 8초 동안 0.8초마다 캔디를 떨어트린다. 땅에 닿은 캔디는 폭발하며 작은 범위 내의 적에게 666의 물리 대미지를 입힌다.
