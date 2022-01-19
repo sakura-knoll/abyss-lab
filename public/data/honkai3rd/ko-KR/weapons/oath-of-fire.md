@@ -1,5 +1,5 @@
-# Oath of Fire
+# 열화의 맹세
 
-## Oath of Fire
+## 열화의 맹세
 
-[SP 소모: 20][재사용 대기 시간: 12초] Deploys the weapon. For the next 6s, enemies within the AOE are ignited, taking 450 Fire DMG every 0.5s.
+[SP 소모: 20][재사용 대기 시간: 12초] 십자가[소환물]를 전개한다. 6초 동안 범위 내의 적을 연소 상태로 만들고 0.5초마다 450의 화염 원소 대미지를 입힌다.
