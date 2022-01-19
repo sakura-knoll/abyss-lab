@@ -1,5 +1,5 @@
-# Jack'o Lantern
+# 잭 오 랜턴
 
-## Pumpkin Harvest
+## 호박 풍년
 
-[SP 소모: 14][재사용 대기 시간: 12초] Deploys the weapon, generating a delayed-explosion pumpkin bomb every 0.6s for the next 8s next to a random enemy within range. Explosion deals 685 Fire DMG to enemies within the AOE.
+[SP 소모: 14][재사용 대기 시간: 12초] 십자가[소환물]를 전개한다. 8초 동안 0.6초마다 범위 내의 적에게 무작위로 호박 폭탄 하나를 떨어뜨린다. 호박은 일정 시간 후 폭발하며 범위 내의 적에게 685의 화염 원소 대미지를 입힌다.
