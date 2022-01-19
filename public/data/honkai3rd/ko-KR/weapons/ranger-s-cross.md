@@ -1,9 +1,9 @@
-# Ranger's Cross
+# 레인저 십자가
 
-## Comet Blast
+## 메테오 임팩트
 
-[SP 소모: 15][재사용 대기 시간: 15초] Deploys the weapon, launching a flame disc at a random target every 0.75s for the next 8s, dealing 5x233 Fire DMG and igniting it to further deal 80 Fire DMG every 0.5s for 3s.
+[SP 소모: 15][재사용 대기 시간: 15초] 십자가[소환물]를 전개한다. 8초 동안 0.75초마다 목표에게 화염 원반을 무작위로 발사하여 5x233의 화염 원소 대미지를 입히고, 3초 동안 연소 상태로 만들어 0.5초마다 80의 화염 원소 대미지를 입힌다.
 
-## Burning Wound
+## 상처 태우기
 
-Deals an additional 160 elemental fire damage when character attacks an enemy that has been ignited.[Ranger] Ice damage received is reduced by 20%. If other teammates are equipped with [Ranger] series weapons, deployed cross gain 40.0% Fire DMG.
+캐릭터가 연소 상태의 적을 공격 시 160의 화염 대미지 추가. [레인저]캐릭터가 입는 빙결 대미지 20% 감소, 파티 내에 다른 레인저 계열 무기를 장착한 발키리가 있을 시, 전개된 십자가의 화염 대미지가 40.0% 증가한다.
