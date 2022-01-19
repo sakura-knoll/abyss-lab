@@ -1,5 +1,5 @@
-# Lightning Angel
+# 낙뢰의 천사
 
 ## Ramiel
 
-[SP 소모: 15][재사용 대기 시간: 15초] Deploys the weapon, triggering an EM blast once every 1.5s for the next 6s, each time dealing 840 Lightning DMG to enemies within the AOE and paralyzing them for 0.7s.
+[SP 소모: 15][재사용 대기 시간: 15초] 십자가[소환물]를 전개한다. 6초 동안 1.5초마다 한번씩 전자기 쇼크를 발생시켜 범위 내의 적에게 840의 뇌전 원소 대미지를 입히고 0.7초 동안 마비 상태로 만든다.
