@@ -1,5 +1,5 @@
-# Brimstone
+# 화염탄 발사대
 
-## Flame Bullets
+## 화염탄
 
-[SP 소모: 15][재사용 대기 시간: 13초] Deploys the weapon, firing a flaming projectile at a random enemy within range every 0.6s for the next 8s. The projectiles explode, dealing 482 Fire DMG to enemies in a small AOE.
+[SP 소모: 15][재사용 대기 시간: 13초] 십자가[소환물]를 전개한다. 8초 동안 0.6초마다 범위내의 적에게 무작위로 화염 미사일을 발사한다. 화염 미사일은 작은 범위에 폭발을 일으켜 482의 화염 원소 대미지를 입힌다.
