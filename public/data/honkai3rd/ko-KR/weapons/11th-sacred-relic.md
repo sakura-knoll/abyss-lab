@@ -1,9 +1,9 @@
-# 11th Sacred Relic
+# 11th 성유물
 
-## Holy Blades
+## 세인트 팔랑크스
 
-[SP 소모: 18][재사용 대기 시간: 15초] Deploys the weapon. Nearby allies gain 10.0% Crit Rate for 10s. Drops a shower of blades on enemies within the AOE every 1s. Sword rain deals 5x50.0% ATK of Physical DMG to enemies within a small AOE.
+[SP 소모: 18][재사용 대기 시간: 15초] 십자가[소환물]를 전개한다. 10초 동안 범위 내 파티원의 크리티컬률을 10.0% 증가시키고 1초마다 무작위로 임의의 적에게 검의 비를 내린다. 검의 비는 작은 범위의 적에게 공격력의 5x50.0% 물리 대미지를 입힌다.
 
-## Divine Heal
+## 신성한 치유
 
-When character attacks impaired enemies, there is a 40.0% chance to heal the team for 74 HP. CD: 3s.
+캐릭터 자신이 취약 상태의 적을 공격 시 40.0% 확률로 모든 파티원의 HP를 74 회복시킨다, 재사용 대기시간 3초.
