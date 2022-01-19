@@ -1,5 +1,5 @@
-# Oath of Ice
+# 한빙의 맹세
 
-## Oath of Ice
+## 한빙의 맹세
 
-[SP 소모: 18][재사용 대기 시간: 12초] Deploys the weapon. For the next 7s, attacks within the AOE deal additional 120 Ice DMG.
+[SP 소모: 18][재사용 대기 시간: 12초] 십자가[소환물]를 전개한다. 7초 동안 범위 내의 아군 캐릭터가 공격할 때마다 120의 빙결 대미지를 추가한다.
