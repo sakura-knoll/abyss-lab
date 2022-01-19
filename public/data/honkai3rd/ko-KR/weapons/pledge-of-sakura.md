@@ -1,9 +1,13 @@
-# Pledge of Sakura
+# 벚꽃의 서약
 
-## Divine Soulband
+## 영도난신
 
-[SP 소모: 20][재사용 대기 시간: 12초] Summons and deploys the weapon, throwing Sakura katanas at enemies within range, slashing them once every 0.3s for the next 3.5s. Each slash deals 180.0% ATK of Physical DMG and has a 21.2% chance of adding a Sakura Count. An enemy with 3 Sakura Counts will have the count reset to 0 and receives a Sakura Brand. The Sakura Brand lasts 10s.
+[SP 소모: 20][재사용 대기 시간: 12초] 십자가[소환물]를 전개한다. 붉은 벚꽃 태도를 발사하여 3.5초 동안, 0.3초마다 범위 내의 적을 벤다. 한번 벨때마다 공격력 180.0%의 물리 대미지를 입히며 21.2% 확률로 적에게 붉은 벚꽃 카운터를 쌓는다. 적에게 붉은 벚꽃 카운터가 3회 이상 쌓이면 붉은 벚꽃 카운터를 지우고, 붉은 벚꽃 표식을 남긴다. 붉은 벚꽃 지속 시간 10초.
 
-## Fubuki
+## 후부키
 
-Hitting a target provides a 100.0% chance of unleashing a Sakura Slash dealing 200.0% of ATK of Physical DMG in a circular area centered on said target. Enemies with Sakura Brand or Sakura Count will take another 2,450 Fire DMG from Sakura Slash. Sakura Slash CD: 5s.Sakuno Rondo equip bonus: Sakura Slash adds 1 Sakura Count on the enemy.
+타깃이 존재할 때, 공격이 적에게 적중 시 100.0% 확률로 타깃을 중심으로 한 원형 범위의 벚꽃 베기를 발동하여 공격력의 200.0% 물리 대미지를 입힌다. 적에게 붉은 벚꽃 표식이나 붉은 벚꽃 카운터가 있으면 벚꽃 베기는 2,450의 화염 대미지를 추가로 입힌다. 벚꽃 베기 재사용 대기시간 5초. 앵화윤무가 사용 시 벚꽃 베기는 적에게 붉은 벚꽃 카운터를 하나 쌓는다.
+
+## 제약의 열쇠
+
+멀티 Raid 스테이지에서 무기 액티브 스킬을 사용하면 뇌전 원소 대미지가 20.0% 증가하고, 받는 화염 대미지가 15.0% 감소한다. 지속 시간: 10.0초
