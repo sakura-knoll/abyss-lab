@@ -1,9 +1,9 @@
-# Eliudnir
+# 엘류드니르
 
-## Palace of Misery
+## 참혹한 궁전
 
-[SP 소모: 20][재사용 대기 시간: 18초] Deploys the weapon. For a period of 10s, attacks of allies gain 30.0% Physical DMG against stunned enemies. Fires light beams every 1.5s at a random enemy within range to deal 320.0% ATK of Physical DMG and knockdown. The 1st hit will stun enemies for 6.00s.
+[SP 소모: 20][재사용 대기 시간: 18초] 십자가[소환물]를 전개한다. 10초 동안, 범위 내에서 아군이 기절 상태의 적에게 가하는 물리 대미지가 30.0% 증가한다. 또한 1.5초마다 범위 내의 적에게 빛의 탄환을 무작위로 발사해 범위 폭발로 공격력 320.0%의 물리 대미지를 입히고 적을 다운시킨다. 첫번째 타격은 적을 6.00초 동안 기절 상태로 만든다.
 
-## Mist of Decay
+## 썩은 안개
 
-Character attacks on stunned enemies gain 40.0% Total DMG Multiplier.
+기절 상태의 적 공격 시 가하는 모든 대미지 40.0% 증가.
