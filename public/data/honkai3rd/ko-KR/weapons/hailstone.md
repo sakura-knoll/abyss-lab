@@ -1,5 +1,5 @@
-# Hailstone
+# 십자가·빙결탄
 
-## Ice Bullets
+## 빙결탄
 
-[SP 소모: 14][재사용 대기 시간: 13초] Deploys the weapon, firing an ice bullet at a random enemy within range every 1.0s for the next 8s. The ice bullets explode, dealing 521 Ice DMG to enemies in a small AOE and slowing their Attack Speed by 50% for 0.8s.
+[SP 소모: 14][재사용 대기 시간: 13초] 십자가[소환물]를 전개한다. 8초 동안 1.0초마다 범위 내의 적에게 무작위로 빙결탄을 발사한다. 빙결탄은 작은 범위의 폭발을 일으켜 521의 빙결 원소 대미지를 입히고 0.8초 동안 목표의 공격 속도를 50% 감소시킨다.
