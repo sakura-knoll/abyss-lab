@@ -1,9 +1,13 @@
-# Oath of Judah
+# 유다의 서약
 
-## Divine Soulband
+## 신성한 속박
 
-[SP 소모: 16][재사용 대기 시간: 13초] Deploys the weapon, immobilizing enemies within range for 6s and launching 13 light spears. Light spears will drop on random enemies one by one, dealing 282% ATK of Lightning DMG.
+[SP 소모: 16][재사용 대기 시간: 13초] 십자가[소환물]를 전개한다. 6초 동안 범위 내의 적을 속박하고 13개의 빛의 창을 발사해, 무작위 타깃에게 떨어지며 창마다 공격력 282%의 뇌전 원소 대미지를 입힌다.
 
-## Witness of Pledge
+## 서약의 증명
 
-Characters attacks have a 20.0% chance of marking enemies with a Holy Light Brand that lasts for 6s. Marked enemies take another 650 Lightning DMG from every hit taken. Effect can only be triggered once every 13s.
+캐릭터 자신의 공격이 적에게 적중 시 20.0%의 확률로 6초 동안 적에게 성스러운 빛의 표식을 새긴다. 표식이 새겨진 적은 피격될 때마다 650의 뇌전 원소 대미지를 받는다, 재사용 대기시간 13초.
+
+## 제약의 열쇠
+
+멀티 Raid 스테이지에서 무기 액티브 스킬을 사용하면 뇌전 원소 대미지가 20.0% 증가하고, 받는 화염 대미지가 15.0% 감소한다. 지속 시간: 10.0초
