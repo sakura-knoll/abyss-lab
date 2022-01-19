@@ -1,9 +1,9 @@
-# Super-☆ Sonata
+# Dimension☆Sonata
 
-## Elfenlied
+## 요정의 노래
 
-[SP 소모: 8][재사용 대기 시간: 20초] Summons and deploys the weapon: emits light beams that eviscerates enemies within range for 10s. Each hit deals 250% ATK of Fire DMG. While the cross is deployed, attacks of allies within the AOE gain 15.0% Elemental DMG.
+[SP 소모: 8][재사용 대기 시간: 20초] 십자가[소환물]를 전개한다. 10초 동안 레이저를 빌시하여 범위 내의 적을 베어 타격마다 공격력 250%의 화염 원소 대미지를 입힌다. 십자가 전개 범위 내에 있는 아군 캐릭터는 가하는 원소 대미지가 15.0% 증가한다.
 
-## Chant
+## 성스러운 영창
 
-In Burst mode, character gains 40% Total DMG Multiplier.
+폭발 상태에서 발키리가 가하는 모든 대미지 40% 증가.
