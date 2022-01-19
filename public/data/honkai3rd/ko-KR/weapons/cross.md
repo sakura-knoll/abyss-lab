@@ -1,5 +1,5 @@
-# Cross
+# 십자가
 
-## Silver Bullets
+## 은탄
 
-[SP 소모: 10][재사용 대기 시간: 13초] Deploys the weapon, firing a silver bullet at a random enemy within range every 0.8s for the next 8s. The silver bullets explode, dealing 400 Physical DMG to enemies in a small AOE.
+[SP 소모: 10][재사용 대기 시간: 13초] 십자가[소환물]를 전개한다. 8초 동안, 0.8초마다 범위 내의 적에게 무작위로 은탄을 발사한다. 은탄은 작은 범위의 폭발을 일으켜 400의 물리 대미지를 입힌다.
