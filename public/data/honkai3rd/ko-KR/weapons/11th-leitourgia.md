@@ -1,13 +1,13 @@
-# 11th Leitourgia
+# 11th 원전
 
-## Holy Phalanx
+## 성각 팔랑크스
 
-[SP 소모: 20][재사용 대기 시간: 15초] Deploys the weapon: Summons a holy beam every 2s, dealing 750.0% ATK of Physical DMG against enemies within an AOE. Nearby teammates gain 20.0% Crit Rate for 10s; if wielded by Celestial Hymn, she gains 5.0 SP per second during this period.
+[SP 소모: 20][재사용 대기 시간: 15초] 십자가[소환물]를 전개한다. 2초마다 성스러운 빛을 떨어뜨려 범위 내의 적에게 공격력 750.0%의 물리 대미지를 입히고, 10초 동안 범위 내의 아군 크리티컬률이 20.0% 증가한다. 신은송가가 장비 시 자신의 SP를 1초마다 5.0 회복한다.
 
-## Divine Mending
+## 신성한 치유
 
-When the wielder attacks impaired enemies, there is a 60.0% chance of healing 89 HP for team. CD:3s.
+자신이 취약 상태의 적을 공격할 때 60.0% 확률로 모든 파티원의 HP를 89 회복시킨다. 재사용 대기시간 3초.
 
-## Angelic Pinion
+## 천사의 날개
 
-The team gains 10.0% attack SP regen; if wielded by Celestial Hymn, she gains an additional 35.0% attack SP regen. This effect cannot stack.
+모든 파티원의 공격 시 SP 획득 속도가 10.0% 증가하고, 신은송가 사용 시 SP 획득 속도가 추가로 35.0% 증가한다. 해당 효과는 중첩되지 않는다.
