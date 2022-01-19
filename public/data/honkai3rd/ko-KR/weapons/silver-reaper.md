@@ -1,9 +1,9 @@
-# Silver Reaper
+# 은색 처단자
 
-## Severing Slash
+## 경직
 
-[SP 소모: 15][재사용 대기 시간: 14초] Deploys the weapon to automatically slash enemies within range 3 times per second for the next 6s, with each hit dealing 900 Physical DMG and weakening enemies, reducing their ATK by 50% for 5s.
+[SP 소모: 15][재사용 대기 시간: 14초] 십자가[소환물]를 전개한다. 6초 동안 초당 3번씩 범위 내의 적을 무작위로 벤다. 타격마다 900의 물리 대미지를 입히고 5초 동안 허약 상태로 만들어 공격력을 50% 감소시킨다.
 
-## Deathly Scythe
+## 참살
 
-Attacks against weakened enemies gain 35% Total DMG Multiplier.
+허약 상태의 적을 공격 시 모든 대미지 35% 증가.
