@@ -1,9 +1,9 @@
-# Blood Embrace
+# 모조된 유다·피의 포옹
 
-## Slice and Dice
+## 피의 포옹
 
-[SP 소모: 12][재사용 대기 시간: 10초] Deploys the weapon, knocking enemies within the AOE airborne and slashing them once every 0.25s for the next 2s. Enemies receive 200.0% ATK of Physical DMG from being airborne and from each slash. Slashes bleed enemies, dealing 760 Physical DMG every 0.5s for 5s.
+[SP 소모: 12][재사용 대기 시간: 10초] 십자가[소환물]를 전개한다. 주변의 적을 공중에 띄운 후, 2초 동안 0.25초마다 한 번씩 벤다. 띄우기와 참격은 각각 공격력의 200.0% 물리 대미지를 입힌다. 참격은 적을 5초 동안 출혈 상태로 만들어 0.5초마다 760의 물리 대미지를 입힌다.
 
-## Blood Craze
+## 끓어오르는 피
 
-Character attacks gain 40.0% Physical DMG to bleeding enemies.
+출혈 상태의 적을 공격 시 물리 대미지 40.0% 증가.
