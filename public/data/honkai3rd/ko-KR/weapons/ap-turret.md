@@ -1,5 +1,5 @@
-# AP Turret
+# 성형탄 발사대
 
-## Penetrating Bullets
+## 성형작약탄
 
-[SP 소모: 15][재사용 대기 시간: 13초] Deploys the weapon, firing a penetrating bullet at a random enemy within range every 0.9s for the next 8s. The penetrating bullets explode, dealing 750 Physical DMG to enemies in a medium AOE.
+[SP 소모: 15][재사용 대기 시간: 13초] 십자가[소환물]를 전개한다. 8초 동안 0.9초마다 범위 내의 적에게 무작위로 성형작약탄을 발사하여 중간 범위의 폭발을 일으켜 750의 물리 대미지를 입힌다.
