@@ -1,9 +1,9 @@
-# Hekate's Gloom
+# 극야의 헤카테
 
-## Eldritch Shards
+## 영야의 오로라
 
-[SP 소모: 6][재사용 대기 시간: 21초] Deploys the weapon: Knocks down enemies in the AOE, deals 200% ATK of Physical DMG, and summons an 8s hail of blades that deals 75.0% ATK of AOE Physical DMG and adds 1 Combo Hit count every 0.2s.
+[SP 소모: 6][재사용 대기 시간: 21초] 십자가[소환물]를 전개한다. 범위 내의 적을 넘어트리고 공격력 200%의 물리 대미지를 입힌다. 8초 동안 칼날이 지속해서 내리며 적을 공격해 0.2초마다 범위 내의 적에게 공격력 75.0%의 물리 대미지를 입히고 콤보수가 1 증가한다.
 
-## Witching Hour
+## 암월의 밤
 
-Wielder gains 20.0% Total DMG Multiplier. Every 10 hits (including Basic ATKs, Charged ATKs, weapon skills, and Ultimate) on enemies gives the wielder and the cross a 2.5% Physical DMG buff. Max stack: 10.
+캐릭터의 모든 대미지가 20.0% 증가한다, 기본 공격, 차지 공격, 무기 스킬, 필살기가 적에게 10번 적중할 때마다 자신과 십자가가 입히는 물리 대미지가 추가로 2.5%씩 증가한다, 최대 10회 중첩.
