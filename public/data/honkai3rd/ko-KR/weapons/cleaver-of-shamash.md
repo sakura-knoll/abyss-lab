@@ -1,13 +1,13 @@
-# Cleaver of Shamash
+# 샤마시의 대검
 
-## Goka Fire
+## 겁화
 
-[SP 소모: 20][재사용 대기 시간: 20초] Unleash the true powers of Shamash by consuming one's life force. Hits using the character's Basic, Combo, Charged, and Ultimate ATKs will deal an additional 500 Fire DMG. CD: 0.3s. After using the skill, lose 2% Max HP per second. If current HP is below 50%, lose 1% Max HP per second instead. Duration: 10s. Character will not die from the skill.
+[SP 소모: 20][재사용 대기 시간: 20초] 생명력을 깎아 샤마시의 대검의 힘을 폭발시켜 캐릭터의 기본 공격, 분기 공격, 차지 공격과 필살기가 적중할 때마다 0.5초당 500의 화염 원소 대미지를 입힌다, 재사용 대기시간 0.3초; 시전 후, 10초 동안 캐릭터의 HP가 1초마다 HP 최대치의 2%씩 감소하고 HP가 50% 미만일 경우 초당 HP 최대치의 1%씩 감소한다. 캐릭터는 이 효과로 사망하지 않는다.
 
-## Nirvana
+## 열반
 
-Character gains 13.0% Total DMG Multiplier. At below 50% Max HP, character gains 15% Total DMG Reduction and heals 15.0 HP/s.
+캐릭터가 가하는 모든 대미지가 13.0% 증가한다. 현재 HP가 최대치의 50% 미만일 때 캐릭터가 받는 모든 대미지가 15% 감소하고 초당 15.0 HP를 회복한다.
 
-## Key of Destruction
+## 파괴의 열쇠
 
-In co-op raids, team attacks gain 20.0% Total DMG Multiplier and the team heals for 7.0% HP for 5.1s whenever a character uses a weapon skill.
+멀티 Raid 스테이지 중, 발키리가 무기 스킬 사용 후 모든 파티원이 가하는 모든 대미지가 20.0% 증가하고 5.1초 동안 자신의 HP가 초당 7.0%씩 회복한다.
