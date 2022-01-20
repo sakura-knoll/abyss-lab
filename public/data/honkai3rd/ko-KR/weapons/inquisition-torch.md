@@ -1,5 +1,5 @@
-# Inquisition Torch
+# 이단 심문의 횃불
 
-## Rainbow Flames
+## FFF단의 분노
 
-Attacks have a 11.11% chance of dealing 305 Fire DMG to enemies surrounding the target hit.
+공격 시 11.11% 확률로 목표 주변의 적들에게 305의 화염 원소 대미지를 입힌다.
