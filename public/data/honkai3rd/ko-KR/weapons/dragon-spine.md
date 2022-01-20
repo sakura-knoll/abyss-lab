@@ -1,9 +1,9 @@
-# Dragon Spine
+# 마룡의 척추
 
-## Draconic Vortex
+## 마룡 참수
 
-[SP 소모: 6][재사용 대기 시간: 15초] Leaps towards the target to unleash a spinning slash, dealing 600% ATK of Physical DMG to enemies in a large AOE and immobilizing them for 4.5s. During the period, the enemies also bleed, taking 240 DMG every 0.5s.
+[SP 소모: 6][재사용 대기 시간: 15초] 타깃을 향해 전방으로 날아올라 한 번 휘둘러 베어 광범위의 적에게 공격력 600%의 물리 대미지를 입히고 4.5초 동안 속박 상태로 만든다. 또한 지속 시간 동안 출혈 상태로 만들어 0.5초마다 240의 대미지를 입힌다.
 
-## Blood Thirsty
+## 피의 굶주림
 
-Every hit against a bleeding enemy heals the character for 40 HP.
+출혈 상태의 적을 공격 시 타격마다 40 HP를 회복한다.
