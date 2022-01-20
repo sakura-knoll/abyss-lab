@@ -24,6 +24,7 @@ import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
 import { translate, useTranslation } from '../../../lib/i18n'
 import { useRouter } from 'next/router'
 import Head from '../../../components/atoms/Head'
+import PageLink from '../../../components/atoms/PageLink'
 
 interface VersionShowPageProps {
   versionData: VersionData
@@ -79,24 +80,17 @@ const VersionShowPage = ({
         <Box>
           <Box mb={2}>
             {versionData.previousVersion != null && (
-              <NextLink
+              <PageLink
                 href={`/honkai3rd/versions/${versionData.previousVersion}`}
-                passHref
+                mr={2}
               >
-                <Link>
-                  {t('versions.previous')} (v{versionData.previousVersion})
-                </Link>
-              </NextLink>
+                {t('versions.previous')} (v{versionData.previousVersion})
+              </PageLink>
             )}
             {versionData.nextVersion != null && (
-              <NextLink
-                href={`/honkai3rd/versions/${versionData.nextVersion}`}
-                passHref
-              >
-                <Link>
-                  {t('versions.next')} (v{versionData.nextVersion})
-                </Link>
-              </NextLink>
+              <PageLink href={`/honkai3rd/versions/${versionData.nextVersion}`}>
+                {t('versions.next')} (v{versionData.nextVersion})
+              </PageLink>
             )}
           </Box>
           <Heading as='h1'>
