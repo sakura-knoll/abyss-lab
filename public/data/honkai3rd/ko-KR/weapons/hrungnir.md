@@ -1,9 +1,9 @@
-# Hrungnir
+# 흐룽그니르
 
-## Rime Fury
+## 서리 분노
 
-[SP 소모: 12][재사용 대기 시간: 20초] Leaps into the air and lands on the target, dealing 700% ATK of Ice DMG to enemies near the target. After landing, character gains 30% Attack Speed for 10s.
+[SP 소모: 12][재사용 대기 시간: 20초] 목표 지점으로 뛰어들어 목표 및 주변 적에게 공격력의 700% 빙결 원소 대미지를 입힌다. 착지 후 10초 동안 발키리의 공격 속도가 30% 증가한다.
 
-## Shattered Whet
+## 숫돌 치기
 
-Character gains 25% Total DMG Multiplier. Attacks against enemies who are frozen or with slowed Move Speed or Attack Speed has 25% chance of dealing 150% ATK of bonus Physical DMG. There is a minimum 1s interval between triggering the bonus DMG on the targets.
+발키리의 모든 대미지 25% 증가, 빙결 상태, 이동 속도 또는 공격 속도가 감소된 적 공격 시 25%의 확률로 공격력의 150% 추가 빙결 대미지를 입힌다. 추가 대미지는 타깃마다 1초의 재사용 대기시간이 있다.
