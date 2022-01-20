@@ -1,13 +1,13 @@
-# Surtr Muspellsverd
+# 열염검·수르트
 
-## Eldr of Ragnarok
+## 세상을 태우는 불꽃
 
-[SP 소모: 0][재사용 대기 시간: 25초] Consume 50% HP, ignite enemies to deal 20.0% ATK of Fire DMG per 0.5s, and create a shield that can absorb damage equal to 80% of max base HP (5000 max). Shield lasts for 12s, during which: Blood Rose's Ultimate costs no HP; Vermilion Knight: Eclipse’s Ultimate restores 8.0 SP and her Charged ATK and Ultimate deal 30.0% bonus Fire DMG. Weapon active unusable below 20% HP.
+[SP 소모: 0][재사용 대기 시간: 25초] 현재 HP의 50%를 소모해 12초 동안 지속해서 광범위 안의 적을 연소 상태에 빠트려 0.5초마다 공격력 20.0%의 화염 원소 대미지를 가한다. 그리고 기초 최대 HP의 80% 만큼 대미지를 막는 실드를 생성한다(최대 5000). 실드 지속 시간 12초. 실드가 존재하는 동안 핏빛 장미 캐릭터의 필살기는 HP를 소모하지 않으며, 진홍의 기사·월식 캐릭터가 필살기 사용시 8.0의 SP를 회복한다. 차지 공격 및 필살기가 가하는 화염 원소 대미지가 30.0% 증가한다. HP가 최대치의 20%보다 적을 시 무기 액티브 스킬을 사용할 수 없다.
 
-## Rivener of an Era
+## 막을 내리는
 
-When Ultimate or burst mode attacks hit, wielder deals 12% bonus Fire DMG for 13.0s. CD: 1s. 4 stacks max (subsequent procs reset the duration).
+필살기와 폭발 상태 공격이 적에게 명중 시, 13.0초 동안 캐릭터가 가하는 화염 원소 대미지가 12% 증가한다. 해당 효과는 1에 한 번씩 발동하고 최대 4회 중첩된다. 중복 발동 시 지속 시간 초기화.
 
-## Rekindled Fire
+## 잿불의 부활
 
-Wielder gains 20% SP recovery, 20% Attack Speed, and 30% Total DMG.
+캐릭터의 SP 회복 속도가 20%, 공격 속도가 20%, 모든 대미지가 30% 증가한다.
