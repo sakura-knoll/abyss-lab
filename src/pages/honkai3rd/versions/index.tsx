@@ -24,6 +24,7 @@ import { NextPageContext } from 'next'
 import { useTranslation, translate } from '../../../lib/i18n'
 import { useRouter } from 'next/router'
 import Head from '../../../components/atoms/Head'
+import PageLink from '../../../components/atoms/PageLink'
 
 interface VersionIndexPageProps {
   versionDataList: VersionData[]
@@ -64,25 +65,20 @@ const VersionIndexPage = ({
         <Box mb={4}>
           <Box mb={2}>
             {currentVersionData.previousVersion != null && (
-              <NextLink
+              <PageLink
                 href={`/honkai3rd/versions/${currentVersionData.previousVersion}`}
-                passHref
+                mr={2}
               >
-                <Link>
-                  {t('versions.previous')} (v
-                  {currentVersionData.previousVersion})
-                </Link>
-              </NextLink>
+                {t('versions.previous')} (v
+                {currentVersionData.previousVersion})
+              </PageLink>
             )}
             {currentVersionData.nextVersion != null && (
-              <NextLink
+              <PageLink
                 href={`/honkai3rd/versions/${currentVersionData.nextVersion}`}
-                passHref
               >
-                <Link>
-                  {t('versions.next')} (v{currentVersionData.nextVersion})
-                </Link>
-              </NextLink>
+                {t('versions.next')} (v{currentVersionData.nextVersion})
+              </PageLink>
             )}
           </Box>
 
