@@ -1,13 +1,13 @@
-# Might of An-Utu
+# 겁멸
 
-## Libation to Fire
+## 영겁멸신
 
-[SP 소모: 0][재사용 대기 시간: 25초] Attack enemies with Might of An-Utu, dealing 100% + 900%/1,600%/2,500% ATK of Fire DMG at 0/1/2 stack(s) of charge respectively. Lose 8% of current HP per second for 5s after using the weapon active (will not cause death). Cannot use the weapon active at below 10% HP. Initial charge starts at 1 stack; gain 1 stack when spending no less than 30 SP at a time.
+[SP 소모: 0][재사용 대기 시간: 25초] 겁멸을 휘둘러 적을 공격한다. 현재 충전 수치가 0/1/2일 때, 각각 100% + 900%/1600%/2500% 공격력의 화염 원소 대미지를 입히고 적을 연소 상태로 만들어 0.5초마다 50의 화염 원소 대미지를 입힌다. 충전 수치가 0/1/2 일때 지속 시간: 3/5/9초. 무기 스킬을 발동하면 5초 동안 1초마다 현재 생명력의 8%를 소모하며(이로 인해 사망하진 않는다), HP가 10% 이하로 떨어지면 무기 액티브 스킬을 더 발동할 수 없다. 첫 충전 pt는 1이고 SP를 한 번에 30 이상 소모할 때 1pt 충전된다.
 
-## Solar Prominence
+## 홍염
 
-The wielder gains 30.0% Total DMG Multiplier, and her weapon active inflicts 20.0% Fire Vulnerability on enemies for 10s. The wielder's initial SP + 30.0. Does not work in Open World.
+모든 대미지가 30.0% 증가하고 무기 액티브 스킬을 사용하면 적이 받는 화염 원소 대미지가 20.0% 증가한다(지속 시간 10초). 전투에서 초기 SP가 30.0 증가한다(해당 효과는 오픈월드에서 발동하지 않는다).
 
-## Key of Destruction
+## 파괴의 열쇠
 
-In co-op raids, team attacks gain 18.0% Total DMG Multiplier and the team heals 7.0% HP for 5.1s whenever a character uses a weapon skill.
+멀티 Raid 스테이지 중, 발키리가 무기 스킬 사용 후 모든 파티원이 가하는 모든 대미지가 18.0% 증가하고 5.1초 동안 자신의 HP가 초당 7.0%씩 회복한다.
