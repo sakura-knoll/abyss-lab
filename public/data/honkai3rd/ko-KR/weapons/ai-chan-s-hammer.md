@@ -1,5 +1,5 @@
-# Ai-chan's Hammer
+# 아이쨩 해머
 
-## Stop Stealing Power!
+## 전기 도둑의 징벌
 
-[SP 소모: 15][재사용 대기 시간: 15초] Smashes ground using Ai-Chan's Hammer to knock surrounding enemies back, dealing 300% ATK of Physical DMG. Has a 50% chance of stunning enemies for 3s.
+[SP 소모: 15][재사용 대기 시간: 15초] 아이쨩 해머로 지면을 내리쳐 주변의 적을 넉백시킨다. 공격력의 300% 물리 대미지를 입히고, 50% 확률로 3초 동안 적을 기절 상태로 만든다.
