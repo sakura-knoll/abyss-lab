@@ -1,5 +1,5 @@
-# Nitro Crystal
+# 질소 결정검
 
-## Icebound
+## 얼음 봉인
 
-Attacks gain 20.0% Physical DMG against frozen enemies.
+빙결 상태의 적에게 가하는 물리 대미지 20.0% 증가.
