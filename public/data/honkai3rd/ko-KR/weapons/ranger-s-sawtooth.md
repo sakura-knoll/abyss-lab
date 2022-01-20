@@ -1,9 +1,10 @@
-# Ranger's Sawtooth
+# 레인저 톱날
 
-## Flame Block
+## 플레임 패리
 
-[SP 소모: 30][재사용 대기 시간: 30초] For the next 15s, slows character Move Speed by 60%. Character takes 25% less Physical DMG and 25% less Elemental DMG, and deals 600 Fire DMG every second to nearby enemies.
+[SP 소모: 30][재사용 대기 시간: 30초] 15초 동안 캐릭터의 이동 속도가 60% 감소, 받는 물리 대미지가 25% 감소, 원소 대미지가 25% 감소하며 주변 적에게 1초마다 600의 화염 원소 대미지를 입힌다.
 
-## Bramblethorn
+## 불꽃의 가시나무
 
-When attacked, there's a 50% chance of dealing physical damage equal to 120% of ATK to nearby enemies. Can be triggered once every 0.25s.[Ranger] Character takes 20% less Ice DMG. If other teammates are equipped with [Ranger] series weapons, character attacks deal 12% more Physical DMG.
+피격 시 50% 확률로 범위 내의 모든 적에게 공격력의 120% 물리 대미지를 입힌다. 0.25초마다 한번 씩 발동 가능.
+[레인저] 캐릭터가 받는 빙속성 원소 피해량이 20% 감소하며 팀원 중에 다른 레인저 시리즈 무기를 장착한 캐릭터가 있다면 캐릭터가 공격 시 입히는 물리 대미지가 12% 증가한다.
