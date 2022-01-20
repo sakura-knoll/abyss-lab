@@ -1,13 +1,13 @@
-# Sleeper's Dream
+# 잠자는 미녀의 꿈
 
-## Cradle of Thorns
+## 가시나무 요람
 
-[SP 소모: 0][재사용 대기 시간: 18초] Deal 1 damage to self and 800.0% ATK of Physical DMG to enemies nearby after 0.5s. In the following 5s, wielder's attacks cause an explosion on hit, dealing 100.0% ATK of Physical DMG. CD: 1s.
+[SP 소모: 0][재사용 대기 시간: 18초] 0.5초 후 자신 및 주변의 적에게 피해를 입힌다. 캐릭터에게 1의 대미지를 입히고, 적에게 공격력 800.0%의 물리 대미지를 입힌다. 해당 효과 발동 후, 캐릭터의 공격이 적에게 명중하면 폭발하여 공격력 100.0%의 물리 대미지를 입힌다. 1초에 한 번씩 발동할 수 있다. 지속 시간: 5초
 
-## Source of Nightmares
+## 악몽의 원점
 
-Wielder has 20.0% bonus Crit Rate. When equipped by Molotov Cherry, entering Fervent Mode restores 6 SP (CD: 20s) and she takes 15.0% less Total DMG in Fervent Mode.
+캐릭터의 크리티컬률이 15.0% 증가한다. 체리 폭탄이 사용 시, 열광 상태에 진입하면 6pt의 SP를 회복한다. 재사용 대기시간: 20초. 열광 상태 기간, 받는 모든 대미지가 20.0% 감소한다.
 
-## Lucid Dreamer
+## 이중 꿈 세계
 
-Wielder has 35 bonus initial SP (ineffective in Open World). When equipped by Molotov Cherry, Basic ATKs deal 35.0% bonus Physical DMG in Fervent Mode.
+전투에서 초기 SP가 35pt 증가한다. 해당 효과는 오픈월드에서 발동하지 않는다. 체리 폭탄이 사용 시, 열광 상태에서 기본 공격이 가하는 물리 대미지가 35.0% 증가한다.
