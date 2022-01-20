@@ -1,9 +1,9 @@
-# Wotan's Cleaver
+# 데우스 대검
 
-## Death Gaze
+## 작열의 일격
 
-[SP 소모: 24][재사용 대기 시간: 18초] Unleashes a narrow-angle frontal sweeping laser blast that deals multiple hits and inflicts 89 Fire DMG per hit. Hit enemies then explode, dealing 717 Fire DMG to surrounding enemies in a small AOE and igniting them, dealing 89 Fire DMG every 0.5s for 3s.
+[SP 소모: 24][재사용 대기 시간: 18초] 전방의 작은 범위에 레이저를 소사하여 닿은 적을 폭발시킨다. 히트당 87의 화염 원소 대미지를 입히고 순서대로 폭발을 일으킨다. 주변 작은 범위 내의 적에게 712의 화염 원소 대미지를 입히고 3초 동안 연소 상태로 만들어 0.5초마다 87의 화염 원소 대미지를 입힌다.
 
-## Thermal Power
+## 열에너지 칼날
 
-Attacks deal an additional 95 Fire DMG.
+공격 시 94의 화염 대미지 추가.
