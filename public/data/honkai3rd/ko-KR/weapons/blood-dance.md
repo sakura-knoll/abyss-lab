@@ -1,9 +1,9 @@
-# Blood Dance
+# 선혈의 춤
 
-## Blood Rage
+## 혈룡 난무
 
-[SP 소모: 20][재사용 대기 시간: 15초] Creates a blood tornado that sweeps away enemies, dealing 9x35% ATK of Physical DMG and sending them into a Blood Rage, doubling their Attack Speed but making them take 60% more Elemental DMG. The Blood Rage lasts for 9.00s.
+[SP 소모: 20][재사용 대기 시간: 15초] 참격으로 선혈의 토네이도를 만들어 적에게 날린다. 공격력의 9x35% 물리 대미지를 입히고 9.00초 동안 적을 레이지 상태로 만든다, 레이지 상태 동안 적의 공격 속도는 두 배가 되고, 받는 원소 대미지가 60% 증가한다.
 
-## Blood Revival
+## 선혈의 윤회
 
-Combo Hit Count exceeds 15, gain 30% Physical DMG. When undeployed, heal 30.0 HP every 0.5s if HP is below 50%.
+15 콤보를 초과하면 물리 대미지가 30% 증가한다. 대기 중 HP가 50% 미만일 때, 0.5초마다 HP를 30.0 회복한다.
