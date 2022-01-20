@@ -1,9 +1,9 @@
-# Schiffschneider
+# 극광 참함도
 
-## Magstorm Surge
+## 일렉트릭 스톰 슬래시
 
-[SP 소모: 20][재사용 대기 시간: 18초] Unleashes a downward cleave that generates an EM storm to knock down enemies within the AOE, dealing 2,333 Lightning DMG and making them conductive. Conductive enemies receive 50% more Lightning DMG for 7s.
+[SP 소모: 20][재사용 대기 시간: 18초] 전방을 향해 내려 찍어 자기 폭풍을 방출한다. 범위 내의 적에게 2,333의 뇌전 원소 대미지를 입히고 7초 동안 감전 상태로 만들어 받는 뇌전 원소 대미지를 50% 증가시킨다.
 
-## EM Cleaver
+## 전자기 칼날
 
-Attacks deal an additional 80 Lightning DMG, and further gain 30% Crit Rate against paralyzed enemies.
+공격 시 80 의 전기 대미지를 추가한다. 마비 상태의 적을 공격 시 크리티컬률이 30% 증가한다.
