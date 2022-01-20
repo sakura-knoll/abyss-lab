@@ -1,5 +1,5 @@
-# Violet Knight
+# 딥 퍼플 나이트
 
-## Purple Impact
+## 딥 퍼플 임팩트
 
-[SP 소모: 15][재사용 대기 시간: 7초] Dashes towards target and unleash a swordwind, dealing 3x145% ATK of Physical DMG to enemies in an AOE in front of the character.
+[SP 소모: 15][재사용 대기 시간: 7초] 타깃을 향해 검기를 발사하여 전방 범위의 적에게 공격력의 3x145% 물리 대미지를 입힌다.
