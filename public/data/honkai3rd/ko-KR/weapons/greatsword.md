@@ -1,9 +1,1 @@
-# Greatsword
-
-## Obtained From
-
-Focused Supply
-
-## Added During
-
-Version Unknown
+# 대검
