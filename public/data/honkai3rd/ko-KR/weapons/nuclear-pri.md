@@ -1,9 +1,1 @@
-# Nuclear PRI
-
-## Obtained From
-
-Focused Supply
-
-## Added During
-
-Version Unknown
+# 원자력 동력검·프로토타입
