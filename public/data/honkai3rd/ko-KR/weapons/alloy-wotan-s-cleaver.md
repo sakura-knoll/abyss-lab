@@ -1,5 +1,5 @@
-# Alloy Wotan's Cleaver
+# 합금·데우스 대검
 
-## Alloy Death Gaze
+## 합금·작열의 일격
 
-[SP 소모: 18][재사용 대기 시간: 16초] Unleashes a small-angle frontal sweeping laser blast. Hit enemies will explode, dealing 536 Fire DMG to surrounding enemies in a small AOE.
+[SP 소모: 18][재사용 대기 시간: 16초] 전방의 작은 범위에 레이저를 소사하여 닿은 적을 폭발시킨다. 주변 작은 범위의 적에게 548의 화염 원소 대미지를 입힌다.
