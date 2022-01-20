@@ -1,9 +1,9 @@
-# Judgment by Dawn
+# 여명의 심판
 
-## Hyper RPM
+## 고속 카트리지
 
-[SP 소모: 18][재사용 대기 시간: 24초] Revs up the spinning saw blades. Basic attacks (including charged attacks) gain 50.0% Attack Speed and 25.0% Crit Rate for 8s. Also increases Ignore Interrupt for the wielder in the duration.
+[SP 소모: 18][재사용 대기 시간: 24초] 기어를 가속 운동시켜 8초 동안 공격 속도를 50.0%, 기본 공격(차지 공격 포함)의 크리티컬률을 25.0%, 자신의 경직 저항력을 증가시킨다.
 
-## Lightning Punishment
+## 천둥의 심판
 
-Crit Hits have a 25.0% of unleashing a lightning circle centered on the enemy, dealing 1,800 Lightning DMG and impairing it for 4s. Impaired enemies have reduced Ignore Interrupt and 50% less DEF. CD: 7s.
+크리티컬 시 25.0% 확률로 적을 중심으로 번개 고리가 폭발하여 적에게 1,800의 뇌전 대미지를 입히고 4촣 동안 취약 상태로 만든다. 취약 상태에서는 경직 저항력이 감소하고 방어력이 50% 감소한다, 재사용대기시간 7초.
