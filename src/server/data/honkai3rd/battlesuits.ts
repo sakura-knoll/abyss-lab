@@ -26,8 +26,8 @@ const battlesuitDataList = battlesuitsFileNameList
         assignKrDataToSkill(data.sp, krData.sp)
       }
     } catch (error) {
-      // console.warn('Failed to read', krDataFilePath)
-      // console.warn(error)
+      console.warn('Failed to read', krDataFilePath)
+      console.warn(error)
     }
     return data
   })
@@ -108,15 +108,35 @@ function assignKrDataToSkill(
   skillGroup: BattlesuitSkillGroup,
   krDataSkillGroup: BattlesuitSkillGroup
 ) {
-  skillGroup.core.krName = krDataSkillGroup.core.name
-  skillGroup.core.krDescription = krDataSkillGroup.core.description.replace(
-    /\\\*/g,
-    '*'
-  )
+  if (krDataSkillGroup == null || krDataSkillGroup.core == null) {
+    throw new Error(`No translation for ${skillGroup.core.name}`)
+  }
+  try {
+    skillGroup.core.krName = krDataSkillGroup.core.name
+    skillGroup.core.krDescription = krDataSkillGroup.core.description.replace(
+      /\\\*/g,
+      '*'
+    )
+  } catch (error) {
+    throw new Error(
+      `Failed to assign ${skillGroup.core.name}(${(error as Error).message})`
+    )
+  }
   skillGroup.subskills.forEach((subskill, index) => {
-    subskill.krName = krDataSkillGroup.subskills[index].name
-    subskill.krDescription = krDataSkillGroup.subskills[
-      index
-    ].description.replace(/\\\*/g, '*')
+    try {
+      subskill.krName = krDataSkillGroup.subskills[index].name
+      subskill.krDescription = krDataSkillGroup.subskills[
+        index
+      ].description.replace(/\\\*/g, '*')
+    } catch (error) {
+      if (krDataSkillGroup.subskills[index] == null) {
+        throw new Error(
+          `No translation for ${skillGroup.core.name} / ${subskill.name}`
+        )
+      }
+      throw new Error(
+        `Failed to assign ${skillGroup.core.name}(${(error as Error).message})`
+      )
+    }
   })
 }
