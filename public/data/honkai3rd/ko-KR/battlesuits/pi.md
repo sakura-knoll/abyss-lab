@@ -1,104 +1,99 @@
-# Phantom Iron
+# 헌트 슈트・팬텀 아이언
 
-## Ex Machina
+## 데우스 엑스 마키나
 
-Leader Bonus:
-Ex Machina: Team takes 15.0% less Elemental DMG. MECH-type characters: Basic ATK gains 12.0% Total DMG Multiplier.
+리더로 배치 시, 모든 파티원이 버프를 받는다.
+데우스 엑스 마키나: 모든 파티원 전원이 받는 원소 대미지가 15.0% 감소하고 기계 속성 파티원의 기본 공격의 모든 대미지가 12% 증가한다.
 
-### Ex Machina
+### 데우스 엑스 마키나
 
-Team takes 30.0% less Elemental DMG. Basic ATKs (including Charged ATKs and Combo ATKs) of MECH-type battlesuits deal 21.0%  more Total DMG.
+모든 파티원 전원이 받는 원소 대미지가 15.0% 감소하고 기계 속성 파티원의 기본 공격의 모든 대미지가 12% 증가한다.
 
-## Super Discharge
+## 슈퍼 디스차지
 
-Character automatically gain passive bonuses.
-Load: Starts at zero (0). Maxes out at 200.
-Supercharged: Gain 30% Move Speed but Load increases by 25/s.
-Max Load (200): Becomes Depleted, with Move Speed becoming 20% slower.
-Depleted: Load decreases by 15/s until zero (0).
+패시브 스킬은 자동으로 발동한다.
+부하(負荷): 전투 중 초기 수치 0pt, 최대치 200pt, 슈퍼차지 상태에서는 초당 25pt 씩 증가하고 이동 속도가 30% 증가한다. 풀 차지되면 피로 상태가 되어 이동 속도가 20% 감소한다. 피로 상태가 되면 0이 될 때까지 초당 15pt 씩 감소한다.
 
-### Total Sterilization
+### 무차별 섬멸
 
-Character attacks against Paralyzed or Ignited enemies gain 20.0% Total DMG Multiplier.
+마비, 연소 상태의 적을 공격 시 모든 대미지가 20.0% 증가한다.
 
-### Pattern Recognition
+### 패턴 인식
 
-Team gains 15.0% Elemental DMG when attacking enemies with active shields.
+모든 파티원이 실드의 보호를 받고 있는 적을 공격 시 원소 대미지가 15.0% 증가한다.
 
-### Hostile EWS
+### 호스틸 EWS
 
-Depleted: Load reduces by another 10.0 per 0.4s when there are nearby enemies.
+피로 상태일 때 주변에 적이 있으면 부하가 추가로 0.4초당 10.0pt씩 감소한다.
 
-## Lightning Reflex
+## 라이트닝 리플렉스
 
-Quickly evade enemy attacks. Can be performed twice in a row.
-Upon Ultimate Evasion, reduce 30 Load and gains 40% Move Speed for 3s.
-Lightning Reflex: Upon Ultimate Evasion, deals 300% ATK of Lightning DMG against the attacker and nearby enemies and paralyzes them for 2s; reduces 80 Load; immediately tap [ATK] to directly unleash the 4th Sequence of Basic ATK.
-CD: 15s.
+적의 공격을 빠르게 회피하며 연속으로 2회 사용할 수 있다.
+극한회피 시 자신의 부하를 30 사용해 이동속도 40% 증가시킨다.
+라이트닝 리플렉스: 극한 회피 시 목표 및 주변의 적에게 300% 뇌전 원소 대미지를 입히고 2초 동안 마비시킨다. 부하 감소량이 80으로 증가되고 바로 짧은 시간 내에 공격 버튼을 누르면 4번째 공격을 바로 시전할 수 있다. 재사용 대기시간: 15초
 
-### EM Cape
+### EM 망토
 
-Lightning Reflex CD shortened by 4.0s, and duration of Paralyze is extended to 3.6s.
+라이트닝 리플렉스의 재사용 대기시간이 4.0초 감소하고 마비 상태 지속 시간이 3.6초로 연장된다.
 
-### EMP Blast
+### EMP 블라스트
 
-Lightning Reflex AOE attack deals 600.0% ATK of Lightning DMG.
+라이트닝 리플렉스로 가하는 범위 뇌전 원소 대미지가 공격력의 600.0%로 증가된다.
 
-### Reflex Arc Augments
+### 리플렉스 아크 어그먼츠
 
-Lightning Reflex reduces Load by 150.0.
+라이트닝 리플렉스로 감소되는 부하가 150.0pt로 증가.
 
-## Charge: Lightning Phantom
+## 차지 - 라이트닝 팬텀
 
-Hold [ATK] during the 5-sequence Basic ATK to shuttle through the enemy and enter Supercharged mode.
-Charged ATK: Shuttles through the target, dealing 4x150% ATK of Lightning DMG, then enters Supercharged state.
-Supercharged state: 5-sequence Basic ATK deals Lightning DMG instead (same amount).
+기본 공격 도중 차지하여 적을 꿰뚫고 활성화 상태에 진입한다.
+부하가 0일 때, 기본 공격 도중 버튼을 눌러 차지 공격을 발동할 수 있다. 적을 꿰뚫어 공격력의 4\*150% 뇌전 원소 대미지를 입히고 슈퍼차지 상태에 진입한다. 슈퍼차지 상태에서 기본 공격의 물리 대미지는 뇌전 원소 대미지로 변하고 배율은 변하지 않는다.
 
-### Extrasensory Intuition
+### 초직감
 
-Supercharged: Every enemy kill lowers Load by 119
+슈퍼차지 상태에서 적을 처치할 때마다 부하가 119pt 감소한다.
 
-### QTE: Mental Torrent
+### QTE-멘탈 토렌트
 
-QTE: Triggered when enemy is in Time Slow to deal 60%+240% ATK of Physical + 2x300.0% ATK of AOE Lightning DMG and knock enemies airborne. Can be connected into the 5th Sequence of Basic ATK. Enemies hit by QTE are paralyzed. CD: 10s.
+QTE: 적이 시공감속 상태일 때 교대하여 큰 범위에 적에게 공격력 60%+240%의 물리 대미지+공격력 2\*300.0의 뇌전 원소 대미지를 입히고 적을 공중에 띄우며, 기본 공격 5격을 이어서 쓸 수 있다. QTE가 적에게 적중하면 마비 효과를 부가한다. 재사용 대기시간: 10초
 
-### Superconductivity
+### 초전도 현상
 
-Supercharged: Character deals 30.0% more Lightning DMG.
+슈퍼차지 상태 동안 자신이 가하는 뇌전 원소 대미지가 30.0% 증가한다.
 
-## Stalker Carbon
+## 수렵자 카본
 
-Deploys Stalker Carbon (summoned entity) for 24s (no recast during this time).
-Special moves release a Neurotoxin that inflicts Psycho on teammates and enemies.
-Affected enemies: Deal +10% Elemental DMG, but have reduced Ignore Interrupt and take 10% more Total DMG from hits.
-Affected teammates: Deal +15% Elemental DMG and gain Ignore Interrupt, but take 15% more Total DMG from hits.
-CD: 18s. Min. SP: 35. Stalker Carbon consumes SP faster over time, lowers SP regen from attacks by 50%, and exits 3s after SP is depleted.
+최대 24초 지속되는 자율 추적 병기 '수렵자 카본[소환물]'을 불러내며, 지속 시간 동안 중복 시전할 수 없다.
+특정 공격으로 신경 독소를 방출해 자신 이외의 팀원 혹은 적이 신경 독소 내에 들어오면 광분 상태에 진입한다. 광분은 팀원가 적에게 주는 영향이 다르다.
+적: 가하는 원소 대미지 10% 증가. 피격 시 받는 대미지 10% 증가, 경직 저항력 감소.
+팀원: 가하는 원소 대미지 15% 증가, 피격 시 받는 모든 대미지 15% 증가, 경직 저항력 증가.
+재사용 대기시간: 18초, 최소 발동 소모 SP: 35, 발동 중 공격으로 획득하는 SP가 50% 감소하고 SP는 점차 감소하며 시간이 흐를수록 소모 속도가 점점 빨라진다. SP가 0이 돼도 '수렵자 카본'은 최대 3초 동안 스테이지에 남아있는다.
 
-### Command: Kill
+### 지령: 사냥
 
-Attacks of Stalker Carbon deal 50.0% more Lightning DMG.
+수렵자 카본의 뇌전 원소 대미지가 50.0% 증가한다.
 
-### Command: Frenzy
+### 지령: 광란
 
-Psycho teammates: Elemental DMG bonus is raised to 30.0%, but suffer 30.0% Total DMG Multiplier from hits taken.
+광분 상태의 팀원이 가하는 원소 대미지가 30.0%로 증가. 피격시 받는 모든 대미지가 30.0%로 증가.
 
-### Command: Sync
+### 지령: 동기화
 
-When Stalker Carbon is active, character gains 60.0% Total DMG Multiplier.
+수렵자 카본이 스테이지에 존재하는 동안 캐릭터 자신의 모든 대미지가 60.0% 증가한다.
 
-## Iron Storm
+## 아이언 스톰
 
-5-sequence scythe sweeps.
-1st Sequence: 80% ATK of Physical DMG.
-2nd Sequence: 40% + 100% ATK of Physical DMG.
-3rd Sequence: 40% + 100% ATK of Physical DMG.
-4th Sequence: 50% + 120% + 150% ATK of Physical DMG.
-5th Sequence: 4x40% + 200% ATK of Physical DMG.
+낫을 휘둘러 적을 공격한다.
+1격: 공격력의 80% 물리 대미지
+2격: 공격력의 40% + 100% 물리 대미지
+3격: 공격력의 40% + 100% 물리 데미지
+4격: 공격력의 50% + 120% + 150% 물리 대미지
+5격: 공격력의 4\*40% + 200% 물리 대미지
 
-### Rave of Carnage
+### 살육의 욕망
 
-Supercharged: Gains Ignore Interrupt; 5-sequence Basic ATK gains 60.0% ATK of Lightning DMG and each sequence inflicts minor Parayze Trauma; takes 30.0% less Physical and Elemental DMG.
+슈퍼차지 상태에서 기본 공격 5연격은 판정마다 공격력 60.0%의 뇌전 원소 대미지를 추가하고, 공격마다 소량의 마비 게이지를 추가하며 경직 저항력이 증가한다. 또한 받는 물리대미지와 원소 대미지가 30.0% 감소한다.
 
-### Spark Discharge
+### 스파크 디스차지
 
-Any hit from the 5-sequence Basic ATK has a 10.0% chance to deal 60.0% more ATK of Lightning DMG.
+기본 공격 시 10.0%의 확률로 60.0% 뇌전 원소 피해를 준다.

@@ -1,90 +1,99 @@
-# Valkyrie Triumph
+# 발키리·개선(작업중)
 
-## Triumph
+## 개선
 
-Leader Bonus:
-Triumph: All characters in the team gain 15% Physical DMG at above 80% HP. BIO-type characters gain 25% DEF.
+리더로 배치 시 파티원이 버프를 받는다.
+모든 파티원의 HP가 80%를 초과했을 때 물리 대미지가 30% 증가한다.
+생물 속성의 캐릭터의 방어력이 40% 추가 상승한다.
 
-### Triumph
+### 개선
 
-All characters in the team gain 30% Physical DMG at above 80% HP. BIO-type characters gain 40% DEF.
+모든 파티원의 HP가 80%를 초과했을 때 물리 대미지가 30% 증가한다.
+생물 속성의 캐릭터의 방어력이 40% 추가 상승한다.
 
-## Passive
+## 패시브 스킬
 
-Passive bonuses apply automatically.
+패시브 스킬은 자동으로 발동한다.
 
-### By Victory
+### 기세 몰이
 
-Increases Crit DMG done to frozen and stunned enemies by 50.0%.
+빙결과 기절 상태인 적을 공격
+크리티컬 대미지가 50.0% 증가한다.
 
-### Iron Wall
+### 철벽
 
-Upon exiting, team gains Ignore Interrupt and 70.0% DEF for 4.0s.
+대기 상태
+모든 파티원의 경직 저항력이 증가하고 4.0초 동안 방어력이 70.0% 증가한다.
 
-## Shock Wave
+## 진동 변화
 
-Sideway dodge to evade enemy attacks. Can be triggered 2 times in a row.
-Energy Charge: Directly unleash 1st Charged Attack after Ultimate Evasion.
-Wave Blast: Releases a shock wave at original position after Ultimate Evasion, stunning all enemies within the AOE. Lasts for 2s. CD: 20s.
+적의 공격을 회피
+적의 공격을 측면으로 회피한다. 2회 연속 회피 가능
+에너지 충전: 극한 회피 후 곧바로 차지 1단을 발동할 수 있다.
+충격파: 극한 회피 후 원래 위치에 충격파를 발생시켜 범위 내의 적을 2초 동안 지속적으로 기절시킨다. 재사용 대기시간 20초
 
-### Rapid CD
+### 급속 냉각
 
-Shortens CD of Wave Blast by 6.0s.
+충격파의 재사용 대기시간 6.0초 감소.
 
-### Wave Enhance
+### 파동 강화
 
-Extends duration of Wave Blast by 2.0s.
+충격파의 지속 시간 2.0초 증가.
 
-### Wave Defense
+### 진동파 방패
 
-When triggering Wave Blast, increases Ignore Interruption and gains 50.0% Total DMG Reduction to self for 6.0s.
+충격파 발동
+자신의 경직 저항력을 증가시키고, 6.0초 동안 받는 모든 대미지를 50.0% 감소시킨다.
 
-## Valkyrie Charge
+## 발키리 돌격
 
-Unleash a Windmill Cleave attack when sprinting.
-Tap the [ATK] button while sprinting to unleash a jumping cleave, dealing 450% ATK of Physical DMG.
+돌진 중 공격 버튼을 누를 시
+뛰어올라 내려찍어 공격력의 450% 물리 대미지를 입힌다.
 
-### Switch: Mutilate
+### 교대기 파공참
 
-Switch entry unleashes a horizontal slash, dealing 480% ATK of Physical DMG.
+캐릭터 교체
+교대 시 횡베기를 발동하여 공격력의 480% 물리 대미지를 입힌다.
 
-### QTE: Mittelhau - Zorn
+### QTE 무쌍파공참
 
-QTE: Triggers when an enemy is frozen, unleashing a powerful horizontal slash that deals 800% ATK of Physical DMG.
+적이 빙결 상태일 때 캐릭터 교체
+강력한 횡베기를 발동하여 공격력의 800%[5] 물리 대미지를 입힌다.
 
-## Blade Field
+## 검의 결계
 
-Creates a sword rain enchant.
-Time Field: Lasts for 8s. Inflicts Time Slow to affected enemies.
-Field Shatter: Explosion deals 800% ATK of Physical DMG.
-SP Cost: 125
+SP 125 이상
+무수한 검이 펼쳐진 결계를 펼친다.
+시공의 결계：결계 내부에 있는 적은 8초 동안 강력한 시공 감속의 영향을 받는다.
+결계 분쇄：결계를 폭발시켜 공격력의 800% 물리 대미지를 입힌다.
 
-### Shattering Field
+### 파갑 결계
 
-Increases Physical DMG against enemies within the Enchant by 50.0%.
+결계 내부의 적이 받는 물리 대미지 50.0% 증가
 
-### Healing Field
+### 회복 결계
 
-For every enemy inside the Enchant, heal the team by 30.2 HP every 0.5s. Max stacks: 5.
+결계 내부의 적 1기마다, 모든 파티원의 HP를 0.5초마다 30.2씩 회복시킨다.(최대 5번 중첩)
 
-### Imploding Field
+### 결계 폭파
 
-Field Shatter deals additional 500% ATK of Physical DMG.
+결계 분쇄가 공격력의 500% 물리 대미지를 추가로 입힌다.
 
-## Charge: Heavy Sword (VT)
+## 차지 - 대검
 
-Basic ATK: 3-sequence Zweihander Fechten. Each sequence can be charged for enhanced power.
-1st Sequence: 150% ATK of Physical DMG.
-2nd Sequence: 180% ATK of Physical DMG.
-3rd Sequence: 250% ATK of Physical DMG.
-1st Charged Strike: 200%+300% ATK of Physical DMG.
-2nd Charged Strike: 250%+400% ATK of Physical DMG.
-3rd Charged Strike: 320%+440% ATK of Physical DMG.
+기본 공격: 3연속 검격, 검격마다 차지를 통해 강화할 수 있다.
+1격: 공격력 150%의 물리 대미지
+2격: 공격력 180%의 물리 대미지
+3격: 공격력 250%의 물리 대미지
+차지 1격: 공격력 200%+300%의 물리 대미지
+차지 2격: 공격력 250%+400%의 물리 대미지
+차지 3격: 공격력 320%+440%의 물리 대미지
 
-### Critical Cleave
+### 폭발 참격
 
-Charged ATKs gain 21.0% Crit Rate. Deals additional 35.0% Physical DMG to unshielded enemies.
+차지 공격의 크리티컬률 21.0% 증가하고 실드가 없는 적에게 가하는 물리 대미지가 35.0% 증가한다.[4]
 
-### Perseverance
+### 강인함
 
-During Charged ATKs, gain Ignore Interrupt and take 64.0% less Physical DMG.
+차지 공격 동안
+경직 저항력이 증가하고, 받는 물리 대미지가 64.0% 감소한다.

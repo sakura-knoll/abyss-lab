@@ -1,9 +1,9 @@
-# Celestial Hymn
+# 신은송가(작업중)
 
-## Sacred Arias
+## 성역의 노래
 
-Leader Bonus:
-Revelation: Team gains 12.0% Max SP in battle. Teams with 3 BIO-type characters gain 20.0% Physical DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+모든 팀원의 SP 상한 20% 증가. 팀 3명이 모두 생물 타입인 경우, 물리 피해 28% 증가.
 
 ### Blissful Hymn
 
@@ -11,94 +11,97 @@ Ultimate & QTE deal 15.0% more Total DMG.
 
 ### Revelation
 
-Team gains 20.0% Max SP in battle. If the team has 3 BIO-type characters, deal additional 28.0% Physical DMG.
+모든 팀원의 SP 상한 20% 증가. 팀 3명이 모두 생물 타입인 경우, 물리 피해 28% 증가.
 
 ### Divine Justice
 
 QTE deals 50.0% more DMG to shields.
 
-## Passive
+## 패시브 스킬
 
-Passive bonuses apply automatically.
+패시브 스킬은 자동으로 발동한다.
 
-### World's #1 Cutie
+### 세상에서 제일 귀여워!
 
-Gain 36.0 initial SP in battle. This bonus triggers once every 10 minutes in Open World.
+전투 중 초기 SP 36.0 증가. 오픈 월드에서는 10분에 한 번씩 발동 가능.
 
-### Holy Dirge
+### 성녀의 장송곡
 
-Team gains 30.0% Crit DMG against impaired enemies.
+취약 상태의 적 공격 시 모든 파티원의 크리티컬 대미지가 30.0% 증가
 
-### Psalms of Life
+### 생명의 시
 
-When cross is deployed, team gains 25.0% Physical DMG for 7.50s.
+십자가를 전개 후, 모든 파티원의 물리 대미지가 7.50초 동안 25.0% 증가
 
-## Evangelist
+## 구제의 복음
 
-Quick sideways dodge to evade enemy attack. Can be triggered 2 times in a row.
-After Ultimate Evasion, tap the button within a short duration to directly unleash a charged attack.
-Blade Barrier: Equip the whole team with 1 stack of blade barrier, greatly increasing Ignore Interrupt, and causes 30% ATK of Physical DMG every 04.s for 5s. CD: 20s.
+적의 공격 회피
+연속으로 2회까지 빠르게 회전하여 회피한다. 극한 회피 후 공격 버튼을 바로 누르면 차지 공격을 사용할 수 있다.
+검의 방패：모든 파티원을 검의 방패로 무장시켜, 경직 저항력을 대폭 증가시키고 5초 동안 적에게 0.4초마다 검의 방패 버프를 받은 캐릭터 공격력의 30% 물리 대미지를 입힌다. 재사용 대기시간 20초.
 
-### Divine Wisdom
+### 하늘이 내린 지혜
 
-Shortens CD of Blade Barrier by 4.00s.
+검의 방패의 재사용 대기시간이 4.00초 감소한다.
 
-### Divine Protection
+### 하늘이 내린 가호
 
-When exiting, directly consume an evasion attempt to grant a Blade Barrier to the whole team. Blade Barriers can block 50.0% of total DMG taken.
+On/Off 가능
+필드에서 떠날 때 회피 횟수를 소모하여 모든 파티원을 검과 방패로 무장시킨다. 검과 방패는 모든 대미지를 50.0% 상쇄할 수 있다.
 
-### Divine Smite
+### 하늘이 내린 징벌
 
-Each hit of the Blade Barrier additionally deals Physical DMG equal to 40.1% of the Base ATK of the Valkyrie protected by the Blade Barrier.
+검의 방패의 타격마다 무장된 캐릭터 공격력의 40.1% 물리 대미지를 입힌다.
 
-## Charged: Glorious Smite
+## 빛의 징벌
 
-Charge during the 5-sequence attack to unleash a spinning blade.
-Tap the [ATK] button to charge during a 5-sequence Basic ATK or Ultimate to unleash spinning blades after a short charge, dealing 4x20% ATK of Physical DMG to target and its surrounding enemies, and also impairing them, decreasing their DEF by 50% for 3s.
+공격 버튼을 꾸욱 눌러 발동
+5연격 시 차지하여 회전 도검을 사용한다. 단기간 내에 풀차지하여 회전도검으로 타깃과 주변 범위의 적에게 공격력의 20%\*4 물리 대미지를 입히며 취약 상태로 만들어 3초 동안 방어력을 50% 감소시킨다.
 
-### Switch: Dawn Strike
+### 교대기 여명의 성스러운 일격
 
-Switch: Unleashes cross swords, dealing 4x75.0% ATK of Physical DMG.
+캐릭터 교체
+교차하는 검진으로 공격력의 75.0%\*4 물리 대미지를 입힌다.
 
-### Benevolent Encounter
+### 은혜를 만나다
 
-Extends duration of the Charged ATK impair effect by 4.00s.
+차지 공격의 취약 상태를 4.00초 연장시킨다.
 
-### QTE: Torrent of Swords
+### QTE 섬광의 파동
 
-QTE: Triggered when enemy is affected by Time Slow. Deals 5x250.0% ATK of Physical DMG and impairs enemy, reducing its DEF by 50% for 7.00s.
+적이 시공 감속 상태일 때 캐릭터 교체
+공격력의 250.0%\*5 물리 대미지를 입히고, 맞은 적을 취약 상태로 만들어 방어력을 7.00초 동안 50% 감소시킨다.
 
-## Celestial Judgment
+## 천국의 심판
 
-Summons the Ultimate Blade Array, pulling in enemies to eviscerate them.
-When activated, creates a black hole lasting 3s, pulling enemies towards the center and slashing them with blades for an extended duration to deal 50x40% ATK of Physical DMG.
-SP Cost: 125
+SP 125 이상
+궁극의 검진을 소환하여 적을 끌어들여 검으로 벤다. 발동 시 3초 동안 지속되는 강력한 블랙홀을 생성하여 적을 가운데로 끌어들인 후 도검으로 공격력의 40%\*50 물리 대미지를 입힌다.
 
-### Justice Rhythm
+### 정의의 찬트
 
-When the ultimate Black Hole ends, affected enemies are impaired, reducing their DEF by 75.0% for 10.00s.
+필살기 블랙홀이 끝날 때 영향을 받은 적들이 취약 상태가 되고, 10.00초 동안 방어력이 75.0% 감소한다.
 
-### Crossing Harmony
+### 교차조율
 
-Enhances the Ultimate and QTE. Each hit gains 30.0% ATK of Physical DMG. QTE deals 50% more DMG against shields.
+필살기와 QTE를 강화한다. 필살기의 도검 대미지를 강화하여 매 타격마다 물리 대미지가 30.0% 증가하고 QTE가 실드에 가하는 대미지가 % 증가한다
 
-### Celestial Verdict
+### 절대신의 심판
 
-Enemies affected by the ultimate Black Hole have their Attack Speed lowered by 75.0% and receive 1,001 Ice DMG every 0.4s.
+필살기 블랙홀의 영향을 받은 적은 공격 속도가 75.0% 감소하고, 0.4초마다 1001의 빙결 원소 대미지를 입힌다.
 
-## Celestial Gladius
+## 신역 비도
 
-Basic ATK: Mid-range 5-sequence attack with ethereal blades.
-1st Sequence: 3x40% ATK of Physical DMG.
-2nd Sequence: 3x40% ATK of Physical DMG.
-3rd Sequence: 4x40% ATK of Physical DMG.
-4th Sequence: 3x40% ATK of Physical DMG.
-5th Sequence: 5x45% ATK of Physical DMG.
+영체로 된 검으로 중거리 5연격
+1단：공격력의 40%*3 물리 대미지
+2단：공격력의 40%*3 물리 대미지
+3단：공격력의 40%*4 물리 대미지
+4단：두 자루의 검이 각각 공격력의 40%*3 물리 대미지
+5단：공격력의 45%\*5 물리 대미지
 
-### Bright Guard
+### 빛의 수호
 
-Basic ATKs gain 25.0% Crit Rate.
+기본 공격의 크리티컬률 25.0% 증가
 
-### Ablution of Light
+### 성스러운 빛의 세례
 
-When Combo Hit Count exceeds 45, hits of the 5-sequence Basic ATK have a 40.02% chance to recover 2.00 SP for the whole team. CD: 1s.
+콤보 수 45 초과
+기본 공격의 5연격이 적에게 적중 시 40.02% 확률로 모든 파티원의 SP를 2.00 회복시킨다. 재사용 대기시간 1초

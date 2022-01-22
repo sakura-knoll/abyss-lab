@@ -1,96 +1,98 @@
-# Gyakushinn Miko
+# 역신 무녀(작업중)
 
-## Heart of Prajna
+## 지혜로운 마음
 
-Leader Bonus:
-Heart of Prajna: When Combo Hit Count exceeds 20, team gains 12% Physical DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+콤보 수가 20 이상일 때, 모든 파티원의 물리 대미지 18% 증가
 
-### Heart of Prajna
+### 지혜로운 마음
 
-Team gains 18% Physical DMG when Combo Hit Count exceeds 20.
+콤보 수가 20 이상일 때, 모든 파티원의 물리 대미지 18% 증가
 
-## Passive
+## 붉은 벚꽃 표식
 
-Passive bonuses apply automatically.
-Sakura Brand: Clears the Sakura Count on enemy once the count has reached 3 and inflicts a Sakura Brand. The Sakura Brand lasts for 10s.
+적 몸에 누적된 벚꽃 카운터가 3개 이상일 때 카운터를 초기화하고 벚꽃 표식을 새긴다. 유지 시간 10초.
 
-### Punctured Kabuto
+### 투구 관통
 
-Increases Crit Rate by X% and Crit DMG by X% when breaching the enemy's Elite Shield.
+엘리트 실드가 파괴된 적에게 크리티컬률 20.0%, 크리티컬 대미지 30.0% 증가.
 
-### Sakura no Haku
+### 벚꽃의 눈
 
-Basic ATKs deal additional 35.0% ATK of Physical DMG to enemies without a Sakura Brand.
+기본 공격이 붉은 벚꽃 표식이 없는 적에게 적중
+공격력의 35.0% 물리 대미지를 추가로 입힌다.
 
-### Iaido
+### 거상의 길
 
-Shortens CD of Ultimate Evasion by 4.0s.
+극한 회피 재사용 대기시간 4.0초 감소
 
-## Shuryu Slash
+## 습류참
 
-Quick dash to evade enemy attacks.
-Ultimate Evasion: Generates a 3-sequence sword aura, each hit dealing 10% ATK of Physical DMG to surrounding enemies.
-Shuryu Slash: Each sword aura hit adds a Sakura count onto the target upon Ultimate Evasion. CD: 15s.
+적의 공격 회피
+자신 주변에 3개의 검기를 폭발시켜, 검기 하나당 공격력의 10% 물리 대미지를 입힌다.
+습류참：극한 회피 성공 시, 매 검기마다 벚꽃 카운터를 1개씩 쌓는다. 재사용 대기시간 15초.
 
-### Lethal Mark
+### 살의의 상처
 
-Enhances the sword barrage generated upon an Ultimate Evasion, with each hit gaining 60.0% ATK of Physical DMG.
+극한 회피 시 폭발하는 검기가 강화되어, 매 타격마다 공격력의 60.0% 물리 대미지를 추가한다.
 
-### Zanshin
+### 잔심
 
-Upon Ultimate Evasion, gain 20.0% Attack Speed for 4.0s to self.
+극한 회피 후 4.0초 동안 자신의 공격 속도가 20.0% 증가한다.
 
-## Combo: Shunmetsu
+## 분기 공격 찰나의 섬광
 
-Penetrates enemy with a charged One Flash, dealing damage.
-One Flash: 100% ATK of Physical DMG.
-One Flash consumes Sakura Brands from enemies upon hit and unleashes One Slash, dealing 400% ATK of Physical DMG and knocking them airborne.
+공격 버튼 길게 입력
+일섬으로 한 명의 적을 꿰뚫고 지나가 공격력의 100% 물리 대미지를 입힌다.
+일섬으로 붉은 벚꽃 표식이 있는 적에게 적중 시 표식을 삭제하고 납도를 발동하여 공격력의 400% 물리 대미지를 입히고 적을 띄운다.
 
-### QTE: Void Triplex
+### QTE: 영허삼섬
 
-Switch: Swift Kill. Triggers QTE when enemy is knocked airborne. Unleashes 3 blade waves, each wave dealing 50%+154% ATK of Physical DMG and adding 1 Sakura Count.
+적이 띄워진 상태에서 캐릭터 교체
+검기 3개를 방출해 매 검기마다 공격력의 50%+154% 물리 대미지를 입히고 붉은 벚꽃 카운터를 1개씩 쌓는다.
 
-### One Slash
+### 납도
 
-Increases One Slash DMG to 400%+600% ATK of Physical DMG.
+납도의 물리 대미지가 공격력의 400%+600%로 증가된다.
 
-### Chain Flash
+### 이중섬신
 
-Triggers One Flash 5 additional times (once for each Sakura Brand present) when there are multiple enemies marked with a Sakura Brand.
+필드에 다수의 표식이 있는 적이 존재할 시 추가로 5번의 일섬을 발동할 수 있다.(벚꽃 표식 1개당 한 번만 발동 가능)
 
-## Crimson Naraka
+## 인페르노
 
-Trigger Valkyrie burst to augment attack mode and gain Ignore Interrupt.
-Burst deals 50% ATK of DMG and inflicts a Sakura Brand onto enemy. SP Cost: 100.
-After activation, Basic ATKs turn into One Flash. Hitting an enemy with this One Flash adds 1 Sakura Count. Duration: 10s.
+SP 100 이상
+폭발 시 적에게 공격력의 50% 물리 대미지를 입히고 붉은 벚꽃 표식을 새긴다.
+발동 후 10초 동안 기본 공격이 일섬으로 바뀌고 매 타격마다 붉은 벚꽃 카운터를 1개씩 쌓는다.
 
-### Blinding Draw
+### 납도역인
 
-When unleashing Ultimate, deal 50%+200.0% ATK of Physical DMG to surrounding enemies.
+필살기 발동 시 주변 적에게 공격력의 50%+200.0% 물리 대미지를 입힌다.
 
-### Ardor
+### 피의 떨림
 
-Increases Crit DMG by 40.0% during Ultimate.
+필살기 발동 중 크리티컬 대미지가 40.0% 증가한다.
 
-## Sakuraoti
+## 낙앵참
 
-Switch 6-sequence slash attack.
-1st Sequence: 50% ATK of DMG.
-2nd Sequence: 70% ATK of DMG.
-3rd Sequence: 100% ATK of DMG.
-4th Sequence: 120% ATK of DMG.
-5th Sequence: 120% ATK of DMG.
-6th Sequence: 150% ATK of DMG.
-The 3rd and 5th sequences of the Basic ATK adds 1 Sakura Count to the target.
+빠른 속도의 6단 베기
+1단：공격력의 50% 물리 대미지
+2단：총 70%의 물리 대미지
+3단：공격력의 100% 물리 대미지
+4단：총 120%의 물리 대미지
+5단：공격력의 120% 대미지
+6단：공격력의 150% 물리 대미지
+기본 공격 3번째, 5번째 공격은 적에게 붉은 벚꽃 카운터를 1개씩 쌓는다.
 
-### Thorny Blossoms
+### 광화참렬
 
-20.0% chance to bleed enemies hit, dealing 32.0 DMG every 0.5s for 5.0s.
+피격된 적은 20.0% 확률로 출혈 상태가 되고, 5.0초 동안 0.5초마다 32.0의 대미지를 입는다.
 
-### Flourish
+### 흩날리는 칼날
 
-When Combo Hit Count exceeds 20 and 50, gain 29.0% and 50.0% Total DMG Multiplier respectively.
+콤보 수 20, 50 이상
+모든 대미지가 각각 29.0%,50.0% 증가
 
-### San-Ge Brand
+### 흩날림
 
-Extends the duration of Sakura Brand to applied by self to 20.0s. 5-sequence Basic ATKs gains 20.0% Total DMG Multiplier.
+자신이 남긴 붉은 벚꽃 표식의 지속 시간이 20.0초로 연장된다. 기본 공격 5연격의 모든 대미지가 20.0% 증가한다.

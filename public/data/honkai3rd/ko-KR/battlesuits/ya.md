@@ -1,89 +1,93 @@
-# Yamabuki Armor
+# 기동장갑·황매화(작업중)
 
-## Mental Sync
+## 정신 동조
 
-Leader Bonus:
-Mental Sync: When Combo Hit Count exceeds 30, team gains 20% Crit Rate. PSY-type characters gain 20% Crit DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+콤보 수가 30을 초과하면 모든 파티원의 크리티컬률이 26% 증가한다.
+이능 속성의 캐릭터는 크리티컬 대미지가 29% 증가한다.
 
-### Mental Sync
+### 정신 동조
 
-When Combo Hit Count exceeds 30, team gains 26% Crit Rate. PSY-type characters gain 29% Crit DMG.
+콤보 수가 30을 초과하면 모든 파티원의 크리티컬률이 26% 증가한다.
+이능 속성의 캐릭터는 크리티컬 대미지가 29% 증가한다.
 
-## Passive Skill
+## 패시브 스킬
 
-Passive bonuses apply automatically.
+패시브 스킬은 자동으로 발동한다.
 
-### Mecha Barrier
+### 붕괴 집착
 
-All team members have a mech shield that absorbs Physical DMG. This shield has 558 HP which is fully restored if not attacked for 6.0s.
+모든 파티원에게 물리 대미지를 흡수하는 기갑 실드를 제공한다. 실드의 HP는 558이며, 6.0초 동안 공격당하지 않으면 HP를 완전히 회복한다.
 
-### Reactive Shield
+### 능동 기갑
 
-Mecha shield deals 1,620 Lightning DMG to surrounding enemies and knocks them airborne when breached.
+기갑 실드가 파괴될 시, 자신에게 근접한 적에게 1,620의 뇌전 원소 대미지를 입히며 넉백시킨다.
 
-### Reinforced Barrier
+### 충격 흡수 기갑
 
-Mecha shield receives DEF equal to 100% of Yamabuki's DEF.
+기갑 실드에 방어력이 생기고 황매화의 방어력을 100% 이어받는다.
 
-## Dimension Field
+## 초차원 역장
 
-Raises the shield to defend against frontal attacks.
-Counterstrike: Release the [Defense] button at the moment of the attack to unleash a counterstrike, dealing 100% ATK of Physical DMG.
-Perfect Defense: Counterstrike triggers a 5s Time Fracture, during which the Valkyrie gains 50% Move Speed and 30% ATK Speed for 3s.Base CD of Perfect Defense: 15s.
+회피 버튼
+방패를 들어 적면의 적의 공격을 방어한다. 공격을 받는 순간 방어키를 떼면 적에게 반격한다.
+퍼펙트 가드：반격 시 5초 동안 시공 단열이 발생하며, 모든 적의 움직임이 느려진다. 지속 시간 5초, 동시에 캐릭터의 이동 속도를 50%, 공격 속도를 30% 상승시킨다. 지속 시간 3초. 쿨타임 15초.
 
-### Reflective Shield
+### 화염 방패
 
-Can perform Counterstrike when defending against ranged attacks. Unleashes Shield Charge and ignites the enemy, dealing 154 Fire DMG every 0.5s for 10.0s.
+원거리 공격도 반격할 수 있게 된다. 실드 어택을 발동하며 적을 연소 상태로 만들어 10.0초 동안 0.5초마다 154의 화염 원소 대미지를 입힌다.
 
-### Reverse Trajectory
+### 투사체 반사
 
-Reflects the thrown objects back to the ranged attacker upon starting defense, dealing 350% of the original damage.
+방어 개시 순간 원거리 투사체를 반사하여 투사체 대미지의 350%를 돌려준다.
 
-### Field Propulsion
+### 역장 추진
 
-Recovers 4 SP for the whole team after Counterstrike.
+방어 반격 후 모든 파티원의 SP를 4 회복시킨다.
 
-## Switch: Shield Charge
+## 실드 어택
 
-Switch skill immediately unleashes a Shield Charge.
-Shield Charge: 150% ATK of Physical DMG and knocks enemy into the air.
+캐릭터 교체
+실드 어택을 발동하여 공격력의 150% 물리 대미지를 입히고 적을 넉백시킨다.
 
-### Power Charge
+### 강력 충돌
 
-Additionally deals 1,125 Physical DMG against enemies hit by Shield Charge.
+실드 어택에 맞은 적에게 1,125의 물리 대미지를 추가로 입힌다.
 
-### QTE: Honkai Barrier
+### QTE 붕괴 실드
 
-QTE: Triggers when an enemy is affected by Time Slow. Attacks with Super Shield Charge, dealing 600% ATK of Physical DMG and stunning the target for 5.0s.
+적이 시공 감속 상태일 때 캐릭터 교체
+공격력의 600% 물리 대미지를 입히고 5.0초 동안 기절 상태로 만든다.
 
-## Overdrive Mode
+## 오버로드
 
-Unlocks the Mecha's energy restrictions to enter Burst mode: Overdrive.
-Overdrive Cost: At over 40 SP, consumes 10 SP to enter Burst mode and 10 SP/s afterwards until SP is depleted during which the Valkyrie gains Iron Body.
-Overdrive Switch: Tap [Ultimate] to switch off Overdrive.
-Heat Reset: Heat meters of laser-type weapons will be reset upon Burst activation.
+SP 50 이상
+발동 시 10SP를 소모하고, SP를 소진할 때까지 초당 10SP씩 소모하며 슈퍼 아머 상태가 된다. 발동 중 필살기 버튼을 눌러 오버로드 상태를 끝낼 수 있다.
+히트리셋：필살기 사용 시 레이저 무기의 히트 게이지를 초기화 한다.
 
-### Terror Drain
+### 공포 흡수
 
-When Overdrive Mode is triggered, heal the whole team by 108 HP for every impaired enemy hit by fist attacks.
+오버로드 상태
+주먹으로 취약 상태의 적을 공격할 때마다 모든 파티원의 HP를 108 회복한다.
 
-### Terror Freeze
+### 공포 수확
 
-Upon triggering Overdrive Mode, apply Time Lock to impaired enemies for 10.0s. Affected enemies remain impaired during Time Lock.
+오버로드 발동
+발동 순간 취약 상태의 적을 10.0초 동안 시공 속박 상태로 만들고, 영향을 받은 적이 시공 속박 상태가 끝날 때까지 취약 상태를 유지 시킨다.
 
-### Mending Link
+### 광선 재생성
 
-When Overdrive Mode is triggered, heal the whole team by 299 HP for each enemy kill.
+오버로드 상태
+적을 처치할 때마다 모든 파티원의 HP를 299 회복.
 
-## Charge: Particle Cannon
+## 중입자포
 
-Charged cannon fire that deals greater DMG with higher charge sequence.
-Arm Switch: Charging mode changes with type of weapon equipped.
+암 스위치：장비한 무기에 따라 차지 공격이 바뀐다.
 
-### Mech Phobia
+### 기계의 공포
 
-Uncharged attacks impairs the target and other enemies nearby, decreasing their DEF by 30.0% for 10.0s.
+차지하지 않고 공격하는 경우 적을 취약 상태로 만들어 10.0초 동안 방어력을 30.0% 감소시킨다.
 
-### Energy Overload
+### 에너지 과부하
 
-Increases charging speed by 50.0% but decreases Crit Rate by 50%.
+차지 속도가 50.0% 증가하지만, 크리티컬률이 50.0% 감소한다.

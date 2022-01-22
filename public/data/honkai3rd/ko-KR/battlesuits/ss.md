@@ -1,89 +1,88 @@
-# Snowy Sniper
+# 설원 저격수(작업중)
 
-## Manchine Integration
+## 인갑일체!
 
-Leader Bonus:
-Manchine Integration: All team members' skill CD of Ultimate Evasion or Perfect Defense shortens by 3.0s.
+리더로 배치 시 파티원이 버프를 받는다.
+모든 파티원의 극한 회피/퍼펙트 가드 효과 재사용 대기시간이 4.5초 감소한다.
 
-### Manchine Integration
+### 인갑일체!
 
-Shortens the CDs of primary effects triggered by Ultimate Evasions and Perfect Defense by 4.5s for the team.
+모든 파티원의 극한 회피/퍼펙트 가드 효과 재사용 대기시간이 4.5초 감소한다.
 
-## Passive Skill
+## 패시브 스킬
 
-Passive bonuses apply automatically.
+패시브 스킬은 자동으로 발동한다.
 
-### Line of Fire
+### 광선 재생성
 
-Deal 40.0% more DMG against shields.
+실드에 가하는 대미지 40.0% 증가
 
-### Zone Lockdown
+### 구속 역장
 
-When attacked, there is a 40.0% chance to inflict lock the attacker, making it take 30.0% more Physical DMG for 6.0s.
+피격 시 40.0% 확률로 공격한 적을 조준하며 6.0초 동안 공격한 적이 받는 물리 대미지를 30.0% 증가시킨다.
 
-### Particle Accelerator
+### 입자 제약
 
-Increases Crit DMG against enemies at least 5 meters away by 25.0%.
+5m 이상 떨어진 적에게 크리티컬 대미지가 25.0% 증가한다.
 
-## Dimension Shift
+## 차원 회피
 
-Temporarily enters another dimension to evade attacks.
-Frost Center: Deals 60% ATK of Ice DMG against the attacker.
-Ultimate Evasion: Freezes the attacker for 3s and slows the Move Speed and ATK Speed of the enemies nearby for 7s.
+회피 버튼
+공격한 적을 잠시 동안 빙결 상태로 만들고 얼음이 터질 때 공격력의 60% 대미지를 입힌다. 재사용 대기시간 15초.
+공격한 적 주변의 적들의 이동 속도를 7초 동안 감소시킨다.
 
-### Frozen Field
+### 냉동 역장
 
-Enemies affected by Move Slow effect of Ultimate Evasion suffers 60% reduced Attack Speed.
+극한 회피로 인해 이동 속도가 감소된 적의 공격 속도를 60% 감소시킨다.
 
-### Deep Snow
+### 눈의 땅
 
-Extends the duration of Ultimate Evasion Move effect to 10.0s, and buffs the effect to 80% Move Slow.
+극한 회피 후 적의 이동 속도 저하 효과의 지속 시간이 10.0초로 연장되며 감속률이 80%가 된다.
 
-### Particle Rebuild
+### 입자 재생성
 
-Shortens CD of Ultimate Evasion by 3.0s.
+회피 효과 재사용 대기시간 3.0초 감소
 
-## Switch: Ice Phantom
+## 눈꽃의 흔적
 
-Switch entry triggers Dimension Shift upon entering the battle.
-Instant Evasion: Triggers Dimension Shift effects.
+캐릭터 교체
+교대 즉시 차원 회피 스킬의 효과를 발동한다.
 
-### Emergency Evasion
+### 긴급 회피
 
-Upon entry or evasion, gain 30.0% Move Speed for 8.0s.
+공격 받는 순간 교대하면 8.0초 동안 이동 속도가 30.0% 증가한다.
 
-### QTE: Frost Nova
+### QTE 프로스트 노바
 
-QTE: Triggers when an enemy is knocked airborne, freezing enemies within a large AOE for 2.5s and dealing 520% ATK of Physical DMG.
+적이 공중에 띄워진 상태일 때 캐릭터 교체
+넓은 범위 내 적을 빙결 시킨 후 공격력의 520% 물리 대미지를 입힌다. 빙결 효과는 2.5초간 지속된다.
 
 ## снег
 
-Summons artic snow that freezes all enemies.
-Land of Frost: Freezes all enemies for 8 sec.
-Frigid Blast: When the freezing ends, deal 150% ATK of Ice DMG against enemies.
-SP Cost: 75
+SP 75 이상
+북극설을 소환하여 필드 위의 모든 적을 8초 동안 빙결 상태로 만든다.
+빙결 상태가 끝나면 적에게 공격력 150% 빙결 대미지를 입힌다.
 
-### Polar Ice
+### 극지 빙한
 
-Extends the duration of Land of Frost by 4.0s. Charging speed increases by 60.0% for 8s when Ultimate is released.
+「극저온의 땅」의 빙결 지속 시간을 4.0초 연장하고, 필살기 발동 후 8초 동안 차지 속도가 60.0% 증가한다.
 
-### Sniper's Mark
+### 저격 속박
 
-Lockes enemies affected by Land of Frost, increasing Physical DMG they take by 35.0%.
+얼음의 땅 영향을 받은 적이 정지 상태가 되며 받는 물리 대미지가 35.0% 증가한다.
 
-## Charge: Particle Cannon
+## 중입자포
 
-Charged cannon fire that deals greater DMG with higher charge sequence.
-Arm Switch: Charging mode changes with type of weapon equipped.
+암 스위치：장비한 무기에 따라 차지 공격이 바뀐다.
 
-### Perfect Charge
+### 완전 충전
 
-Releasing the [ATK] button upon entering the next charge sequence increases Crit Rate of this attack by 30.0%.
+차지 단계가 바뀌는 순간 공격 버튼을 떼면 다음 공격의 크리티컬률이 30.0% 증가한다.
 
-### Reactive Charge
+### 충격 반사
 
-Force evasion when attacked during charging. Can be triggered once every 4.0s. Effect does not interrupt charging.
+차지하는 동안 공격을 받으면 강제 회피한다. 4.0초마다 1번 발동할 수 있으며, 차지를 중단하지 않는다.
 
-### Ultra Charge
+### 파이널 차지
 
-Releasing the [ATK] button upon entering the 3rd charge sequence increases the Crit DMG of this attack by 25%.
+3단 차지에 진입하는 순간 공격 버튼에서 손을 떼면, 다음 공격의 크리티컬 대미지가 25% 증가한다.

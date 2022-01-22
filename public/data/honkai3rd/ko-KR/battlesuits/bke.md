@@ -1,111 +1,112 @@
-# Bright Knight: Excelsis
+# 성휘의 기사·월백
 
-## Horns of Jericho
+## 신성의 호각
 
-Leader Bonus:
-Grants 20.0% bonus Physical DMG and 20.0% bonus Crit DMG to the team.
+리더로 배치 시 파티원이 버프를 받는다.
+파티원의 물리 대미지가 25.0% 증가하고, 크리티컬 대미지가 25.0% 증가한다
 
-### When the Flag Flutters
+### 깃발을 휘날리며
 
-Ultimate Evasion restores 6 SP and boosts Crit Rate by 10.0% for 8s.
+극한 회피 스킬 발동 시 SP를 6pt 회복하고, 크리티컬률이 추가로 10.0% 증가한다. 지속 시간: 8초
 
-### Horns of Jericho
+### 신성의 호각
 
-Team deals 25.0% bonus Physical DMG and 25.0% bonus Crit DMG.
+파티원의 물리 대미지가 25.0% 증가하고, 크리티컬 대미지가 25.0% 증가한다.
 
-### When the Stars Sparkle
+### 별이 빛나는 순간
 
-Every Retaliation grants 1 bonus Paragon stack.
+매회 방어 반격 시 [영령]을 추가로 1스택 획득한다.
 
-## Passive Skill
+## 패시브 스킬
 
-Passive bonuses apply automaticallyParagon: Durandal stacks Paragon when taking damage, and every stack empowers her. 10 stacks max.
+패시브 스킬은 자동으로 발동한다.
+[영령]: 듀란달이 공격이 받으면 [영령]을 획득하고, [영령]을 중첩할 때마다 자신을 강화한다. [영령]은 최대 10까지 중첩할 수 있다.
 
-### Castling
+### 캐슬링
 
-Every Paragon stack grants Durandal 3.0% total DMG reduction.
+[영령] 중첩마다 듀란달이 받는 모든 대미지가 3.0% 감소한다.
 
-### Checkmate
+### 체크메이트
 
-At 10 Paragon stacks, self total DMG is boosted by 20.0%.
+[영령]이 10 중첩 시, 자신의 모든 대미지가 20.0% 증가한다.
 
-### Queen's Promotion
+### 프로모션
 
-Every hit taken grants Durandal a Paragon stack which boosts self total DMG by 4.0% for 40s (10 stacks max). Retaliation grants 2 bonus stacks.
+듀란달이 공격 받을 때마다 [영령]이 1씩 중첩되어, [영령] 1 중첩마다 자신의 모든 대미지가 4.0% 증가한다. 최대 중첩 횟수: 10. 지속 시간 40초. [방어 반격]은 추가로 2의 [영령]이 중첩된다.
 
-## Scutum Divinitas
+## 성령의 방패
 
-Durandal adopts defense posture to block incoming attacks and retaliate.
-Tap [Evade] (non-directional) for Defense, during which incoming attacks trigger Retaliation, nullifying the attacks and returning 50% ATK of Physical DMG.
-Retaliation and Ultimate Evasion can both trigger Focus EX.
-Focus EX triggers brief Time Slow and enables Javelin EX or Phantom Cleave. CD: 10s. Minimum CD: 8s.
+듀란달이 방어를 발동하여, 성공 시 적의 공격을 무효화하고 반격 대미지를 입힌다.
+회피 버튼을 누르면(방향키 입력x) 짧은 시간 [방어]한다, 방어 중 공격을 받으면 [방어 반격]이 발동해 적의 공격을 무효화하고 공격력 50%의 물리 반격 대미지를 입힌다.
+[방어 반격] 혹은 [극한 회피] 모두 [극한 집중]을 발동할 수 있다.
+[극한 집중]: 짧은 시간 시공 감속을 발동하고 이어서 [강화 투창] 혹은 [강화 환령참]을 발동할 수 있다. 재사용 대기시간: 10초. [극한 집중]의 재사용 대기시간은 최소 8초까지 감소
 
-### Giuoco's Serenity
+### 쥬오코 피아노
 
-Retaliation recovers 10.0% of max HP and grants 50.0% of bonus Physical DMG plus 30.0% total DMG reduction to self for 8s.
+[방어 반격] 성공 시, 최대 HP의 10.0%를 회복한다, 또한 자신의 물리 대미지가 50.0% 증가하고, 받는 모든 대미지가 30.0% 감소한다. 지속 시간: 8초
 
-### Evans Assault
+### 에반스 갬빗
 
-Enemies hit by Retaliation are inflicted with Physical Vulnerability and take 10.0% bonus Physical DMG for 10s.
+[방어 반격]에 적중한 적은 물리 취약 상태에 빠져 받는 물리 대미지가 10.0% 증가한다. 지속 시간: 10초
 
-## Kontos Equites
+## 나이트 랜스
 
-Tap or hold [ATK] after certain moves to perform Charged ATKs.
-Hold [ATK] during the 5th sequence of Basic ATK or tap [ATK] after a successful Retaliation to perform Javelin or Javelin EX.
-Javelin deals 4x100% ATK of Physical DMG.
-Javelin EX deals 4x260% ATK of Physical DMG and pulls in enemies around the lance's landing point for 3s.The 4th sequence of Basic ATK can be performed right after Javelin or Javelin EX.
-In Burst mode, tap [ATK] upon a successful Retaliation to perform Phantom Blade or Phantom Cleave. Phantom Blade deals 650% ATK of Physical DMG. Phantom Cleave immediately pulls in all nearby enemies and then deals a total of 1550% ATK of Physical DMG.
-Javelin EX and Phantom Cleave are triggered by Focus EX.
+특수 초식 후, 공격 버튼을 누르거나 공격 버튼을 길게 눌러 차지 공격을 발동한다.
+일반 상태의 기본 5연격 도중 공격 버튼을 길게 누르거나 방어 반격 성공 후 공격 버튼을 누르면 [차지 투창] 혹은 [강화 투창]을 이어서 사용한다.
+[차지 투창]은 공격력 4\*100%의 물리 대미지를, [강화 투창]은 공격력 4\*260%의 물리 대미지를 입힌다. 또한 랜스가 떨어진 위치를 중심으로 3초간 주변의 적을 끌어당긴다. [차지 투창], [강화 투창] 후, 이어서 기본 공격 4격을 사용할 수 있다.
+폭발 상태에서 방어 반격 성공 후 공격 버튼을 누르면 [환령참] 혹은 [강화 환령참]을 이어서 사용한다. [환령참]은 공격력 650%의 물리 대미지를 입히고, [강화 환령참] 1단은 순식간에 주변의 적을 근처로 끌어당기며 총 공격력 1550%의 물리 대미지를 입힌다.
+[강화 투창]과 [강화 환령참]은 [극한 집중] 상태에서 발동한다
 
-### Knightly Phalanx
+### 쌍기사 열진
 
-Javelin and Javelin EX deal 20.0% more DMG against shields. Each hit of Javelin / Javelin EX additionally restores 1.4/2.0 SP respectively.
+[차지 투창]과 [강화 투창]이 실드에 가하는 대미지가 20.0% 증가한다. [차지 투창]의 1격마다 추가로 SP를 1.4 회복하고, [강화 투창]의 1격마다 추가로 SP를 2.0 회복한다
 
-### Hallowed Oberhau
+### 할로윈 갬빗
 
-Phantom Cleave deals 150.0% ATK of bonus Physical DMG.
+[강화 환령참]이 추가로 공격력 150.0%의 물리 대미지를 입힌다.
 
-## Sceptum Regalis
+## 왕권의 광휘
 
-Enter Burst mode and unlock the true potential of Bright Knight: Excelsis.
-1st sequence: 150% ATK of Physical DMG.
-2nd sequence: 180% + 200% ATK of Physical DMG.
-3rd sequence: 280% ATK of Physical DMG.
-4th sequence: 6 x 70% ATK of Physical DMG.
-5th sequence: 450% ATK of Physical DMG.
-Evade forward to deal 100% ATK of Physical DMG and enter Turbojet state, enabling Turbojet Assault, which deals 200% + 250% ATK of Physical DMG. The 3rd sequence of Basic ATK can be performed right after Turbojet Assault.
-When Focus EX in not in cooldown, hit an enemy upon entering Turbojet (forward evasion) to trigger Focus EX.
-Burst mode lasts 23s and costs 100SP to activate, during which Durandal gains Iron Body. CD: 25s.Switching out will end Burst mode.
+폭발 상태에 진입해 성휘의 기사·월백의 모든 기능을 해방한다.
+1격: 공격력 150%의 물리 대미지
+2격: 공격력 180%+200%의 물리 대미지
+3격: 공격력 280%의 물리 대미지
+4격: 공격력 6\*70%의 물리 대미지
+5격: 공격력 450%의 물리 대미지
+앞 회피는 공격력 100%의 물리 대미지를 입히고 분사 이동 상태에 진입한다. 분사 이동 상태는 이어서 [분사 급습]을 발동해 공격력 200%+250%의 물리 대미지를 가하고, [분사 급습] 후 이어서 기본 공격 3격을 사용할 수 있다.
+[극한 집중] 재사용 대기시간이 완료됐을 때 분사 순간(앞 회피)에 적을 공격하면 [극한 집중]을 발동할 수 있다.
+폭발 상태 지속시간: 23초, 재사용 대기시간: 25초, 소모 SP: 100. 폭발 상태에서 듀란달은 슈퍼 아머 상태가 된다.
+캐릭터가 대기 상태일 때 폭발 상태는 취소된다.
 
-### Benoni's Breaker
+### 볼레리오 충돌
 
-In Burst mode, the Valkyrie deals 20.0% more DMG against shields and 30.0% more Physical DMG against shieldless enemies.
+폭발 상태에서의 실드에 가하는 대미지가 20.0% 증가하고, 실드가 없는 적에게 가하는 물리 대미지가 30.0% 증가한다.
 
-### Caro-Kann Bulwark
+### 카로-칸 디펜스
 
-The ending of Burst mode recovers 15 SP.
+폭발 상태가 끝나면 SP를 15 회복한다.
 
-### Knight's Tour
+### 시칠리아 기행
 
-In Burst mode, Total DMG is boosted by 50.0%.
+폭발 상태에서 모든 대미지가 50.0% 증가한다.
 
-## Gladius Milites
+## 폰 소드
 
-Lance attacks.
-1st Sequence: 100% ATK of Physical DMG.
-2nd Sequence: 120% ATK of Physical DMG.
-3rd Sequence: 200% ATK of Physical DMG.
-4th Sequence: 4x100%% ATK of Physical DMG.
-5th Sequence: 150%+250% ATK of Physical DMG.
+랜스로 5연격을 펼친다
+1격: 공격력 100%의 물리 대미지
+2격: 공격력 120%의 물리 대미지
+3격: 공격력 200%의 물리 대미지
+4격: 공격력 4\*100%의 물리 대미지
+5격: 공격력 150+250%의 물리 대미지
 
-### Seize the Center
+### 중심 진군
 
-When not in Burst mode, 4th and 5th sequences grant Ignore Interrupt and 30.0% total DMG reduction.
+일반 상태의 네 번째, 다섯 번째 공격은 경직 저항력이 증가하고 받는 모든 대미지가 30.0% 감소한다
 
-### King's Gambit
+### 킹즈 갬빗
 
-When not in Burst mode, every hit of 4th sequence of Basic ATK recovers 1.7 bonus SP.
+일반 상태의 기본 네 번째 공격이 적에게 적중할 때마다 추가로 자신의 SP를 1.7 회복한다
 
-### QTE - Falkbeer's Counter
+### QTE-포크빌 카운터
 
-QTE: Triggered when an enemy is Time-Slowed to deal 5 x 40% + 800% ATK of Physical DMG and grants 2 stacks of Paragon.
+QTE: 적이 시공 감속 상태일 때 QTE 출전, 공격력 5\*40%+800%의 물리 대미지를 가하고, [영령]을 2스택 획득한다

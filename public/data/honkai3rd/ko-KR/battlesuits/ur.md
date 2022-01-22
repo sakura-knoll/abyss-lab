@@ -1,97 +1,95 @@
-# Umbral Rose
+# 검은 장미
 
-## Rosette Runners
+## 밤제비꽃
 
-Leader Bonus:
-Rosette Runners: Whole Team gains 16.0% faster attack speed. PSY-type character: Ultimate skills gain 21.0% Total DMG Multiplier.
+리더로 배치 시 파티원이 버프를 받는다.
+제비꽃: 모든 파티원의 공격 속도 16.0% 증가, 이능 속성 캐릭터의 필살기로 가하는 모든 대미지 21.0% 증가
 
-### Rosette Runners
+### 밤제비꽃
 
-Whole team gains 16.0% faster attack speed. PSY-type character: Ultimate skills gain 21.0% Total DMG Multiplier.
+모든 파티원의 공격 속도 16.0% 증가, 이능 속성 캐릭터의 필살기로 가하는 모든 대미지 21.0% 증가
 
-## Passive Skill
+## 패시브 스킬
 
-Character automatically gain passive bonuses.
-Umbra: Start battle with 800 Umbra and recovers 50 Umbra per second up to a max of 800.
-Umbra recovery. Last strike of the 2nd Basic ATK sequence: 80.
-Last strike of the 5th Basic ATK sequence: 120.
-Last strike of the Ultimate: 160.
+패시브 스킬은 자동으로 발동한다.
+움브라: 전투 중 초기 800, 최대치 800, 매초 50 회복
+기본 공격이 2번째 마지막 일격, 5번째 마지막 일격, 그리고 필살기의 마지막 일격이 적에게 명중 시 움브라를 각각 80, 120, 160 회복한다.
 
-### Rosemary
+### 로즈마리
 
-Auto-triggers before character dies, granting invincibility and recovering 5.0% HP every 0.5s for 3s. Activates 1 time per battle only.
+캐릭터가 사망 직전에 자동으로 무적상태가 되어 3초 동안 0.5초마다 최대 HP의 5.0%를 회복한다. 한 번의 전투에서 한 번만 발동.
 
-### Jagged Splinters
+### 덩굴곽향
 
-Thorny Scythe and the last strike of Ultimate Skill gain 35.0% or 50.0% Total DMG Multiplier against enemies with 1 or 2 laceration stacks respectively.
+영체의 낫과 필살기의 마지막 일격이 1단계/2단계 각인 상태의 적에게 가하는 모든 대미지가 추가로 35.0%/50.0% 증가한다.
 
-### Relentless Skullcap
+### 반지연
 
-When Combo Hit Count exceeds 40 or 80, gain 20.0% or 40.0% Physical DMG respectively.
+콤보수가 40/80을 초과하면, 자신이 적에게 가하는 물리 대미지가 20.0%/40.0% 증가한다.
 
-## Iris Blink
+## 아이리스
 
-Quickly evades enemy attacks. Can be performed twice in a row.
-Recovers 50 Umbra upon performing an Ultimate Evasion and gains 40% Move Speed for 3s.
-Iris Blink: Ultimate Evasions trigger a Time Fracture that slows all enemies for 2s. Tap [ATK] button to immediately perform a Shuttle ATK (the 4th Sequence of the Basic ATK) and recover up to 150 Umbra; CD: 15s
+적의 공격을 빠르게 회피하며 연속으로 2회 회피할 수 있다.
+극한 회피 시 자신은 움브라를 50 회복하고 3초 동안 이동 속도가 40% 증가한다.
+아이리스 환영: 극한 회피 시 2초 동안 전체 시공 단열을 발동한다. 이때 공격 버튼을 누르면 바로 4번째 기본 공격을 발동하고 움브라 회복량이 150으로 증가된다. 재사용 대기시간: 15초
 
-### Freesian Spurt
+### 프리지어
 
-Shortens the CD of Iris Blink by 4.0s and extends the duration of Time Fracture by 1.5s.
+아이리스 환영의 재사용 대기시간 4.0초 감소, 시공 단열 시간 1.5초 연장.
 
-### Rush Renewal
+### 등심붓꽃
 
-Iris Blink now regains 300.0 Umbra.
+아이리스 환영으로 회복하는 움브라가 300.0로 증가.
 
-## Charge: Rosy Funeral
+## 차지 - 꽃의 장례식
 
-Throw a Spirit Scythe to deal ranged DMG by charging during any sequence of the Basic ATK.
-At full Umbra, tap and hold the [ATK] button during any attack to throw a spinning Thorny Scythe that deals up to 8x100% ATK of Physical DMG while consuming all Umbra 15% of the character's Max HP (Thorny Scythe HP loss will not lead to death, but will trigger Rosemary). The character then enters a Rosy State for 6s, during each hit of Basic ATK or Ultimate heal her for 0.5% HP. Rosy State ends after the character receives healing from 40 hits.
-Switch: Performs an empowered form of the 3rd Sequence that deals 120%+180% ATK of Physical DMG.
+기본 공격 도중 차지하여 영체의 낫으로 적에게 원거리 공격을 한다.
+움브라가 최대치일 때, 일반 공격의 아무 단계에서 공격 버튼을 꾸욱 누르면, 전방에 회전하는 영체의 낫을 던져, 최대 8\*100% 물리 대미지를 주고, 동시에 모든 움브라와 자신의 최대 HP 15%를 소모해(영체의 낫은 HP를 소모하지만 전투불능 상태가 되지 않는다. 로즈마리 발동 가능), 6초간 장미 상태에 진입한다. 장미 상태에서 기본 공격 혹은 필살기가 적에게 명중할 때마다 0.5%의 HP를 회복한다. 최대 40번 회복한 후 장미 상태를 해제한다.
+교대기: 더욱 강력한 3번째 공격으로 공격력의 120%+180% 물리 대미지를 준다.
 
-### Edelweiss
+### 에델바이스
 
-Enemy kill within 1s of throwing the spinning scythe additionally heals the character for 10% + 500 additional HP.
+영체의 낫을 던진 후 1초 내에 적을 처치하면, 추가로 자신의 HP 최대치의 500+10%를 회복한다.
 
-### QTE: Mark the Weeds
+### QTE-수레국화
 
-QTE: Triggered when an enemy is Impaired, dealing 100% + 3x200.0% ATK of Physical DMG. The last 3 strikes of the attack can directly add 2 Laceration stacks to the enemy.
+QTE: 적이 취약 상태일 때 발동, 공격력의 100%+3\*200.0% 물리 대미지를 준다. 마지막 3격은 적에게 각인을 2개 쌓는다.
 
-### Hardy Lilac
+### 자배초
 
-Rosy State: Character gains 50.0% Total DMG Reduction and takes 50.0% less Indirect DMG.
+장미 상태 기간, 자신이 받는 모든 대미지가 50.0% 감소하고 받는 간접 대미지가 50.0% 감소한다.
 
-## Reaper of Weeds
+## 단재
 
-Attack the enemy with a 7-sequence Flash Attack that deals a total of 16x50% ATK AOE Physical DMG. Enemies hit suffer a short Time Slow. Then throw a spinning scythe to create a cyclone that deals 10x40% ATK of Physical DMG and adds 2 Laceration stacks to the enemy. Once the cyclone ends, the character then swings her scythe over a large AOE to deal 800% of ATK of Physical DMG.
-CD: 20s SP cost: 100
+적에게 7단 잔상 공격을 시전해 총 16\*50%의 물리 대미지를 입히고 적중한 적을 잠깐 시공 감속 상태로 만든다. 이어서 고속회전하는 낫을 던져 회오리를 일으켜 공격력의 10\*40%의 물리 대미지를 주고 각인을 2개 부여한다. 회오리가 멈추면 낫으로 내려 베어 큰 범위에 공격력의 800%의 물리 대미지를 입힌다.
+발동 소모 SP: 100, 재사용 대기시간: 20초
 
-### Rose of Jericho
+### 예리코의 장미
 
-If every blink attack at the beginning of Ultimate hits an enemy, the character is healed for 60 HP.
+필살기의 잔상 공격이 적에게 명중할 때마다 자신의 HP 60 회복.
 
-### Vile Mustard
+### 뿔냉이
 
-Ultimate skill gains 30.0% Total DMG Multiplier against bleeding or impaired enemies.
+필살기로 출혈 혹은 취약 상태의 적을 공격 시 적에게 가하는 모든 대미지가 30.0% 증가한다.
 
-### Double Swirls
+### 스톡
 
-Every strike of the Ultimate cyclone gains 50.0% ATK of Physical DMG. The last strike deals an additional 300.0% ATK of Physical DMG.
+필살기의 회오리 공격의 타격마다 물리 대미지가 50.0% 증가하고, 마지막 일격은 물리 대미지가 300.0% 증가한다.
 
-## Thorns
+## 가시나무
 
-5-sequence scythe sweeps.
-1st Sequence: 80% ATK of Physical DMG.
-2nd Sequence: 50% + (4x18%) + 120% ATK of Physical DMG.
-3rd Sequence: 50% + 60% ATK of Physical DMG.
-4th Sequence: (3x40%) + (5x30%) ATK of Physical DMG.
-5th Sequence: 150% + 200% ATK of Physical DMG.
-The last hit of the 2nd and 5th Sequences adds a Laceration status to the enemy for 5s. Laceration can stack up to 2 times.; gaining additional stacks resets the duration. Attacks against an enemy with 1/2 Laceration stack(s) deal 10%/20% more Total DMG.
+낫을 휘둘러 적을 5회 공격한다.
+1격: 공격력 80%의 물리 대미지
+2격: 공격력 50%+4\*18%+120%의 물리 대미지
+3격: 공격력 50%+60%의 물리 대미지
+4격: 3\*40%+5\*30%의 물리 대미지
+5격: 공격력 150%+200%의 물리 대미지
+2번째, 5번째 공격의 마지막 일격은 5초 동안 적에게 각인을 남긴다, 최대 2회 중첩 가능하며, 중첩할 때마다 지속 시간이 초기화된다, 자신이 1중/2중 각인 상태의 적에게 가하는 대미지가 10%/20% 증가한다.
 
-### Hardened Prickles
+### 찔레나무
 
-Character gains 20.0%, 40.0% Total DMG Multiplier against enemies with 1 or 2 Laceration stacks.
+자신이 1중/2중 각인 상태인 적에게 가하는 모든 대미지가 추가로 20.0%/40.0% 증가한다.
 
-### Queen of Mauve
+### 블루 큐리오사
 
-If the Shuttle ATK (the 4th Sequence of the Basic ATK) hits an enemy, the Valkyrie additionally recovers 6.0 SP.
+기본 공격의 4번째 공격이 적에게 명중 시, 추가로 자신의 SP를 6.0 회복한다.

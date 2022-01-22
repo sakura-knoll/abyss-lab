@@ -1,117 +1,114 @@
-# Fallen Rosemary
+# 로스트 로즈마리
 
-## Tonight or Never
+## 스 수와 우 자메
 
-Leader Bonus:
-Tonight or Never: Team deals 18.0% bonus Total DMG if formed by battlesuits of 3 different types. For the team, Combo, Charged ATKs, and Ultimates deal 12.0% bonus Lightning DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+리더 스킬: 파티원 3명의 속성이 모두 다를 경우, 파티원의 모든 대미지가 25.0% 증가한다. 파티원의 분기, 차지, 필살기가 가하는 뇌전 원소 대미지가 20.0% 증가한다.
 
-### Secluded Courtyard
+### 유폐정원
 
-Enemies within Stain of Trickery take 20.0% bonus Total DMG from Fallen Rosemary (independent effect).
+[악의 주문] 범위 내 적이 받는 로스트 로즈마리의 모든 대미지가 20.0% 증가한다(해당 효과는 독립적으로 부여된다.)
 
-### Tonight or Never
+### 스 수와 우 자메
 
-Team deals 25.0% bonus Total DMG if formed by battlesuits of 3 different types. For the team, Combo, Charged ATKs, and Ultimates deal 20.0% bonus Lightning DMG.
+파티원 3명의 속성이 모두 다를 경우, 파티원의 모든 대미지가 25.0% 증가한다. 파티원의 분기, 차지, 필살기가 가하는 뇌전 원소 대미지가 20.0% 증가한다.
 
-### Deadly Caress
+### 치명적인 상냥함
 
-After casting Ultimate, Fallen Rosemary restores 1.0 SP and 45.0 Disir per second for 10.0s. Triggering it again resets the duration.
+필살기 발동 후 10.0초 동안 초당 SP를 1.0pt, 영혼을 45.0pt 회복한다. 중복 발동 시 지속 시간을 갱신한다.
 
-## Unbound Flyting
+## 랑떼르디
 
-Passive bonuses apply automatically.
-Fallen Rosemary can charge her strength on standby when her teammates are fighting.
+패시브 스킬은 자동으로 발동한다.
+로스트 로즈마리는 파티 내 다른 캐릭터가 전투하는 과정에서 일부 힘을 축적할 수 있다.
 
-### Well of Urd
+### 롬브르단로
 
-Combo and Charged ATKs from teammates restore 65 Disir and 12 SP for Fallen Rosemary. CD: 5s.
+파티의 다른 캐릭터가 분기 공격 혹은 차지 공격을 발동하면 로스트 로즈마리는 65pt 영혼과 12pt의 SP를 회복한다. 재사용 대기 시간: 5초
 
-### Clairvoyant Night
+### 뉘 드 셀로판
 
-Entering Valfreyja Form restores 10 Disir per 0.2s for 2s. Can only be triggered once every battle.
+[명계의 마녀] 형태에 진입 시 0.2초마다 영혼을 10pt 회복한다. 지속 시간: 2초. 전투당 1회만 효과 적용.
 
-### Vapor of Souls
+### 스모크 포 더 소울
 
-In Valfreyja Form, Fallen Rosemary deals 30.0% bonus Total DMG and takes 25.0% less Total DMG.
-After level 5, the skill can only be increased when  rank.
-After level 7, the skill can only be increased when  rank.
+로스트 로즈마리가 [명계의 마녀] 형태일 때 모든 대미지가 30.0% 증가하고, 받는 모든 대미지가 25.0% 감소한다.
 
-## Night Seeress
+## 베이예흐 드 뉘
 
-Quickly evades enemy attack. Can be performed twice in a row.
-Evasions deal 2x40% ATK of Lightning DMG and conjure Strick in Valfreyja Form.
-Evasion ATKs conjure Strix to strike on hit, dealing 6x50% ATK of Lightning DMG with Paralyze Trauma and siphoning 24 Disir in total. Strix needs 8s to recharge for the next strike.
-Ultimate Evasions trigger Night Seeress, which creates a 3s global Time Fracture, fully recharges Strix, and conjures Strix to strike enemies with lightning (Strix enters recharging afterwards). CD: 15s.
-Upon Ultimate Evasion or when Strix is fully recharged in Valfreyja Form, Evasion ATKs can be connected into Basic ATK 4th sequence on hit.
+빠르게 적의 공격을 회피한다. 2회 연속 회피 가능.
+회피를 발동하면 주변의 적에게 공격력 2\*40%의 뇌전 원소 대미지를 입히고, 로스트 로즈마리는 [명계의 마녀] 형태에 진입해 부엉이의 영혼을 사역한다.
+회피 공격이 적에게 적중 시 부엉이의 영혼으로 공격해 공격력 6\*50%의 뇌전 원소 대미지를 입히고 마비 중첩 게이지를 부여하며 총 24pt의 영혼을 흡수한다.
+부엉이의 영혼은 1회 사용하면 8초의 충전 상태에 진입하는데, 충전 기간에는 발동할 수 없다.
+극한 회피가 성공하면 스킬 [베이예흐 드 뉘]가 발동한다. 3초의 전체 시공 단열을 발동하고, 부엉이의 영혼을 가득 채우며 부엉이의 영혼을 부려 적을 뇌전 폭격한다(발동 후 부엉이의 영혼은 충전 상태에 진입한다). 재사용 대기 시간 : 15초
+극한 회피 발동 또는 [명계의 마녀] 형태에서 부엉이의 영혼이 충전 완료 상태일 때 회피 공격을 사용하여 적에게 적중하면 이어서 기본 공격 제 4격을 발동할 수 있다.
 
-### Water of Hel
+### 로 플로이드
 
-Night Seeress's CD is reduced by 4.0s.
+[베이예흐 드 뉘]의 재사용 대기시간 4.0초 감소한다.
 
-### Long Darkness
+### 아라뉘
 
-Strix recharge takes 3.0s less time.
+부엉이의 영혼 충전 시간이 3.0초 감소한다.
 
-### QTE: Ash of Hekla
+### QTE-그리끌레
 
-Triggered by knocked-airborne or ignited enemies. Fallen Rosemary enters in Valfreyja Form, triggers a 3s global Time Fracture, and conjures Garmr to attack, dealing 800% ATK of Lightning DMG and additionally restoring 50.0 Disir on hit.
+QTE: 적이 공중에 띄워졌거나 연소 상태일 때 발동, 로스트 로즈마리가 [명계의 마녀] 형태로 출전해 3초간 전체 시공 단열을 발동하고, 늑대의 영혼을 부려 공격력 800%의 뇌전 원소 대미지를 가한다. 적 명중 시 추가로 영혼을 50.0pt 회복한다.
 
-## God Eater
+## 신을 삼킨 자
 
-Valfreyja Form enabled more powerful Charged ATKs.
-At 100 Disir, hold [ATK] to cast God Hunter.
-At 200 Disir, hold [ATK] to cast God Devourer.
-God Hunter: Conjure Garmr to attack enemies nearby, dealing 600% ATK of Lightning DMG.
-God Devourer: Garmr creates Stain of Trickery, making enemies in range take 18% bonus Lightning DMG for 20s.
-Casting God Eater grants temporary invincibility, gathers enemies nearby, and resets Valfreyja Form duration.
+로스트 로즈마리는 [명계의 마녀] 상태일 때 더 강력한 차지 공격을 사용할 수 있다.
+영혼이 100pt에 도달했을 때 공격 버튼을 길게 누르면 [신을 삼킨 자·포식]을 사용할 수 있고, 영혼이 200pt에 도달했을 때 공격 버튼을 길게 누르면 [신을 삼킨 자·폭식]을 사용할 수 있다.
+[신을 삼킨 자·포식]: 영혼을 소모하고 늑대의 영혼을 부려 로스트 로즈마리 주변의 적을 공격해 600%의 뇌전 원소 대미지를 가한다.
+[신을 삼킨 자·폭식]: 포식과 동시에 전장에 [악의 주문]을 생성해 범위 내의 적이 받는 뇌전 원소 대미지를 18% 증가시킨다. 지속 시간: 20초
+[신을 삼킨 자]를 발동할 때 짧은 무적 상태에 진입하고, 주변의 적을 끌어당기며 [명계의 마녀] 형태의 지속 시간을 초기화한다.
 
-### Bite of the Serpent
+### 물어뜯기
 
-Charged ATKs deal 30.0% bonus Total DMG, Paralyze enemies hit for 2s, and inflict Paralyze Trauma.
+차지 공격이 가하는 모든 대미지가 30.0% 증가하고, 적중한 적에게 2초간 마비 효과를 부여하며, 마비 중첩 게이지를 쌓는다.
 
-### Feast on the Damned
+### 공식
 
-When Stain of Trickery forms, every Rune present enhances its strength and makes enemies in range take 5.0% bonus Lightning DMG.
+[악의 주문] 생성 시 로스트 로즈마리가 보유하고 있는 [인장]의 수에 따라 효과가 증가하고, [인장]마다 범위 내의 적이 받는 뇌전 원소 대미지가 추가로 5.0% 증가한다.
 
-### Gorging Spirits
+### 악식
 
-Casting Charged ATKs boost team Elemental DMG by 35.0% for 20s.
-After level 5, the skill can only be increased when  rank.
+차지 공격 발동 후, 파티원의 원소 대미지가 35.0% 증가한다. 지속 시간 : 20초
 
-## Helvegr
+## 파사주 당페
 
-Lift the Trickster's seal for a mighty blow. 
-Unleash the Trickster sealed within the lantern. After a short channeling, the Tickerster unleashes a powerful AOE attack, dealing 1200% ATK of Lightning DMG, triggering a 1s global Time Fracture, and inflicting Quantum Implosion on QUA enemies.
-SP cost: 100. CD: 20s.
+짧은 시간 로키의 봉인을 해제하고 강력한 공격을 1회 시전한다.
+램프에 봉인된 로키를 해방한다. 짧은 시간 후 로키는 공격력 1200% 뇌전 원소 대미지의 강력한 범위 공격을 가하고, 1초간 지속되는 전체 시공단열을 발동하며 양자 속성 적에게는 양자 붕괴를 1회 가한다.
+소모 SP: 100, 재사용 대기시간: 20초
 
-### Free from Franangr
+### 라 꾸쉬 뒤 디아블
 
-When unleashed, the Trickster devours all Runes present, and for every Run devoured, the Trickster deals 500.0% ATK of bonus Lightning DMG.
+로키가 해방될 때 로스트 로즈마리의 [인장]을 삼킨다. [인장]을 1개 삼킬 때마다 로키는 추가로 공격력 500.0%의 뇌전 원소 대미지를 가한다.
 
-### Dark Edda
+### 드 프로펀디
 
-With Stain of Trickery present, the unleashed Trickster deals 30.0% bonus Total DMG.
+전장에 [악의 주문]이 있을 때 로키를 해방하면, 로키가 가하는 모든 대미지가 30.0% 증가한다.
 
-## Vaettir Mistress
+## 어혼사
 
-Attack with the scythe and siphon enemy souls to enhance self.
-1st Sequence: 30% ATK of Physical DMG + 40% ATK of Lightning DMG and 3 Disir regen on hit.
-2nd Sequence: 90% ATK of Physical DMG + 90% ATK of Lightning DMG and 9 Disir regen in total on hit.
-3rd Sequence: 80% ATK of Physical DMG + 105% ATK of Lightning DMG and 8 Disir regen in total on hit.
-4th Sequence: 120% ATK of Lightning DMG and 28 Disir regen in total on hit.
-5th Sequence: 160% ATK of Physical DMG + 170% ATK of Lightning DMG and 12 Disir regen in total on hit.
-At 100 Disir, hold [ATK] to consume 100 Disir, perform Charged ATK dealing 400$ ATK of Lightning DMG, and enter Valfreyja Form. In Valfreyja Form, basic ATK 3rd sequence conjures Garmr to attack dealing 350% ATK of Lightning DMG with Paralyze Trauma and restoring 10 Disir on hit.
-4th sequence conjures Linnorm to attack dealing 420% ATK of Lightning DMG with Paralyze Trauma, and restoring 40 Disir in total on hit.
+낫을 사용해 공격하고, 적의 영혼을 흡수해 자신을 강화한다.
+1격: 공격력 30%의 물리 대미지 + 공격력 40%의 뇌전 원소 대미지를 주고, 적에게 3pt의 영혼을 흡수한다.
+2격: 총 공격력 90%의 물리 대미지+공격력 90%의 원소 대미지를 주고, 적에게 적중 시 총 9pt의 영혼을 흡수한다.
+3격: 총 공격력 80%의 물리 대미지 + 105%의 뇌전 원소 대미지를 주고, 적에게 적중 시 총 8pt의 영혼을 흡수한다.
+4격: 총 공격력 120%의 뇌전 원소 대미지를 주고, 적에게 적중 시 총 28pt의 영혼을 흡수한다.
+5격: 총 공격력 160%의 물리 대미지 + 공격력 170%의 뇌전 원소 대미지를 주고, 적에게 적중 시 총 12pt의 영혼을 흡수한다.
+영혼이 100pt에 도달하면, 100pt의 영혼을 소모하여 공격 버튼을 길게 눌러 차지 공격을 발동해 공격력 400%의 뇌전 원소 대미지를 가하고, 로스트 로즈마리는 20초간 지속되는 [명계의 마녀] 형태에 진입한다.
+[명계의 마녀] 형태에서는 기본 공격 제3격이 변경되어, 늑대의 영혼으로 공격해 공격력 350%의 뇌전 원소 대미지를 입히고 마비 중첩 게이지를 부여하며, 적에게 적중 시 10pt의 영혼을 흡수한다.
+제4격은 뱀의 영혼으로 공격해 총 공격력 420%의 뇌전 원소 대미지를 입히고 마비 중첩 게이지를 부여하며, 적에게 적중 시 총 48pt의 영혼을 흡수한다.
 
-### Garmr
+### 늑대
 
-On hit, Garmr creates Ulf Rune: Enemies near Fallen Rosemary take 15.0% bonus Lightning DMG, become Weakened, deal 30.0% less damage, and suffer from reduced Interrupt for 15s. (Garmr can be conjured by the 3rd sequence of Basic ATK in Valfreyja Form and QTE.)
+늑대의 영혼이 적에게 적중하면 [늑대의 인장]을 생성한다. 로스트 로즈마리 근처의 적이 받는 뇌전 원소 대미지가 15.0% 증가하고, 허약 상태에 빠져 대미지가 30.0% 감소하며, 경직 능력이 감소한다. 지속 시간 15초 (명계 마녀 상태에서 3격과 QTE는 늑대의 영혼을 사역할 수 있다.)
 
-### Linnorm
+### 뱀
 
-On hit, Linnorm creates Ormr Rune: Enemies near Fallen Rosemary are struck by lightning, and take 50.0% ATK of Lightning DMG per second for 15s.
+뱀의 영혼이 적에게 명중하면 [뱀의 인장]을 생성한다. 뇌전을 소환하여 로스트 로즈마리 근처의 적을 끊임없이 폭격해 초당 50.0% 공격력의 뇌전 원소 대미지를 가한다. 지속 시간: 15초
 
-### Strix
+### 부엉이
 
-On hit, Strix creates Strix Rune: Team deals 15.0% bonus Lightning DMG and restores 0.5 SP per second for 15s.
-After level 5, the skill can only be increased when
+부엉이의 영혼이 적에게 적중하면 [부엉이의 인장]을 생성한다. 모든 파티원이 가하는 뇌전 원소 대미지가 15.0% 증가하고, 초당 0.5pt의 SP를 회복한다. 지속 시간: 15초

@@ -1,96 +1,107 @@
-# Scarlet Fusion
+# 퓨전 아머·스칼렛(작업중)
 
-## Nuclear Armaments
+## 핵융합 무장
 
-Leader Bonus:
-Nuclear Armament: Team gains 15% Total DMG Multiplier to switch skill attacks.
+리더로 배치 시 파티원이 버프를 받는다.
+모든 파티원의 교대기 사용 시 입히는 모든 대미지가 30% 증가한다.
 
-### Nuclear Armament
+### 핵융합 무장
 
-Team Switch Skill attacks gain 30% Total DMG Multiplier.
+모든 파티원의 교대기 사용 시 입히는 모든 대미지가 30% 증가한다.
 
-## Passive Skill
+## 패시브 스킬
 
-Passive bonuses apply automatically.
+패시브 스킬은 자동으로 발동한다.
 
-### Nuclear Protection
+### 핵에너지 방어
 
-Shortens the duration of most debuffs by 50%.
+캐릭터가 받는 대부분의 상태 이상 지속 시간을 50% 감소한다.
 
-### Barrier Smasher
+### 실드 관통
 
-Additionally deals 601 Lightning DMG against enemies with unbroken Elite Shield.
+엘리트 실드가 파괴되지 않은 적에게 601의 뇌전 원소 대미지를 추가로 입힌다.
 
-### Ruthless Pursuit
+### 잔인한 추격
 
-Attacks against ignited or bleeding enemies gain 40.0% Total DMG Multiplier.
+연소, 출혈 상태의 적 공격
+모든 대미지가 50.0% 증가한다.
 
-## Fusion Roll
+## 펄스 추진
 
-Evasive roll. Can be triggered twice in a row.
-Nuclear Propulsion: After Ultimate Evasion, Move Speed increases by 40% for 3s. Tap [ATK] button at the moment of Ultimate Evasion to immediately launch a Sprint ATK jump cleave.
-Nuclear Charge: After an Ultimate Evasion, receives a 5s EM Charge that increases Ignore Interrupt; CD: 15s.
-EM Blast: During EM Charge, hitting an enemy generates an EM Blast that deals 80% ATK of Lightning DMG to target and surrounding enemies, and paralyzes them for 3s.
+적의 공격 회피
+2번 연속 사용 가능.
+원자력 추진：극한 회피 후 3초 동안, 이동 속도가 40% 증가하고, 극한 회피 도중 공격 버튼을 누르면 내려찍기를 발동할 수 있다.
+핵융합 충전：극한 회피 후 5초 동안 전자기 충전 상태가 되어 경직 저항력이 증가한다. 쿨타임 15초.
+전자기 폭발：충전 상태에서 적을 공격하면 전자기 폭발을 일으켜 타깃 주변의 적에게 공격력의 80% 뇌전 원소 대미지를 입히고 3초 동안 마비 상태로 만든다.
 
-### Rapid CD
+### 급속 냉각
 
-Shortens CD of EM Charge by 4s.
+전자기 충전 재사용 대기시간 4.0초 감소.
 
-### Augmented Reactor
+### 강화 용해로
 
-Extends the duration of EM Charge by 3.0s. EM Blast additionally deals 301% ATK of Lightning DMG.
+전자기 충전의 지속 시간을 3.0초 연장하며 전자기 폭발 시 공격력의 301% 뇌전 원소 대미지를 추가로 입힌다.
 
-## Charge: Fusion Assault
+## 퓨전 임팩트
 
-Charging on the spot initiates a forward dash and upward slash that knocks the enemy airborne.
-Sprinting Zornhut: Tap and hold the [ATK] button to start, and pushes the enemy forward, then release the [ATK] button to knock the enemy airborne and deal 400% ATK of Physical DMG.
-Sprint ATK: During sprinting, tap the [ATK] button to launch a jump cleave that deals 500% ATK of Physical DMG.
+공격 버튼을 누르고 있으면 발동
+돌진 베기：적을 밀어내며 돌진하고, 공격 버튼을 떼는 순간 바로 앞에 있는 적을 띄우고 공격력의 400% 물리 대미지를 입힌다.
+돌진 공격：돌진 중 공격 버튼을 누르면 내려찍기로 적에게 공격력의 500% 물리 대미지를 입힌다.
 
-### Devastator's Charge
+### 맹렬한 돌격
 
-Each sprint attack additionally deals 200 Lightning DMG.
+돌진 과정 중 타격 판정마다 200의 뇌전 원소 대미지를 추가한다.
 
-### Switch: Shoryu Blade
+### 승룡검
 
-Switch entry unleashes Onrush Slash, dealing 450% ATK of Physical DMG and knocking enemies airborne.
+캐릭터 교체
+돌진 베기로 적을 띄우고 공격력의 450% 물리 대미지를 입힌다.
 
-### QTE: Shoryu Nuclear EX
+### QTE 퓨전 승룡검
 
-QTE: Triggers QTE when an enemy is affected by Time Slow. Knocks enemies airborne and deals 605% ATK of Physical DMG. Launches a Light Blade that deals 2,150 Lightning DMG and paralyzes enemies for 1.5s.
+적이 시공 감속 상태일 때 캐릭터 교체
+올려베기를 시전한다. 띄어진 적에게 공격력의 605% 물리 대미지를 입히고 빛의 칼날을 방출한다. 빛의 칼날은 적에게 2150의 뇌전 원소 대미지를 입히고 1.5초 동안 마비 상태로 만든다.
 
-## Nexus Unlock
+## Nexus 기동
 
-Enters the Valkyrie state, enhancing all attacks.
-Burst: Enhances most attack moves, ATK Speed, and Interrupt ability.
-At over 100 SP, consumes 20 AP to activate and 10 SP/s afterwards until SP is depleted; max duration: 60s.
+SP 100 이상
+발키리 상태에 진입하여, 모든 공격을 강화한다.
+폭발：대부분 공격을 강화하고 공격 속도, 경직력이 증가한다.
+폭발 지속：발동 시 20 SP를 소모하고, SP를 소진할 때까지 초당 10 SP씩 소모한다. 최대 지속 시간 60초.
 
-### Nuclear Impact
+### 아토믹 어택
 
-During Burst, each attack will launch a penetrating Light Blade that travels in a straight path, dealing 321% Lightning DMG to enemies hit.
+폭발 상태
+매 공격마다 직선으로 관통하는 빛의 칼날이 방출되어 적중된 적에게 공격력의 321% 뇌전 원소 대미지를 입힌다.
 
-### Fusion Rupture
+### 핵융합 폭렬
 
-Upon Burst Activation, deals 400.0% of Lightning DMG to surrounding enemies and paralyzes them for 3.00s.
+폭발 상태 진입
+주변의 적에게 400.0%의 뇌전 원소 대미지를 입히고 적을 3.00초 동안 마비 상태로 만든다.
 
-### Plasma Rend
+### 플라즈마 열상
 
-During Burst, the 3-sequence Light Blades bleeds enemies, dealing 120 Physical DMG every 0.5s for 3.00s.
+폭발 상태에서 3연 공격의 빛의 칼날은 적을 2.4초 동안 출혈 상태로 만들고 0.5초마다 물리 대미지를 입힌다.
 
-## Heavy Sword
+## 대검
 
-Basic ATK: Tri-strike. Triggering Perfect Combo boosts Ignore Interrupt.
-Tri-Strike: Each strike deals 150%, 180%, and 250% ATK of Physical DMG respectively.
-Perfect Combo: Triggered by tapping [ATK] when a flashing circle appears on the Valkyrie to gain 15% Crit Rate for this attack.
-When 2 consecutive (interval is less than 2s) Perfect Combos are triggered, charges the weapon briefly; within the 10s, the first Sprinting Zornhut unleashed will also launch a Spinning Blade that deals 3x200% ATK of Lightning DMG.
+3연속 공격으로 퍼펙트 콤보 시 경직 저항력이 증가한다.
+3연속 공격：공격력의 150/180/250% 물리 대미지
+퍼펙트 콤보：캐릭터 몸에 생성된 고리가 빛날 때 공격 버튼을 누르면 다음 공격의 크리티컬률이 15% 증가한다. 퍼펙트 콤보를 2번 연속 발동 시 무기를 잠시 동안 충전한다. 이때 10 안에 차지 공격하면 적에게 돌진한 뒤 선풍 광인을 날려 공격력의 3\*200% 뇌전 원소 대미지를 입힌다
 
-### Slash Rhythm
+### 참격 리듬
 
-The attack that triggers Perfect Combo gains 15.0% Crit Rate and additionally deals 120% ATK of Lightning DMG. Lightning DMG of Spinning Blade increases to 500% ATK.
+퍼펙트 콤보 발동
+다음 공격의 크리티컬률이 추가로 15.0% 증가하고 120%의 뇌전 원소 대미지를 추가로 입힌다.
+선풍 광안의 뇌전 원소 대미지가 공격력의 500%로 증가된다.
 
-### Slash Tempo
+### 참격 조율
 
-Gains Ignore Interrupt and 50% Total DMG Reduction after triggering Perfect Combo for 1.8s. Recovers 4.0 SP every time when Spinning Blade hits an enemy.
+퍼펙트 콤보 발동
+경직 저항력이 한 단계 더 상승하고, 1.8초 동안 받는 모든 대미지가 50% 감소한다.
+선풍 광안의 타격 판정마다 자신의 SP를 4.0 회복한다.
 
-### Slash Accent
+### 참격 악센트
 
-When triggering Perfect Combo on the 3rd sequence of the Basic ATK, gain Interrupt chance and 100.0% chance to paralyze the enemy for 3.2s. CD: 8s.
+기본 공격의 3번째 공격으로 퍼펙트 콤보 발동
+경직력이 증가하고, 100.0% 확률로 3.2초 동안 적을 마비 상태로 만든다. 재사용 대기시간 8초.

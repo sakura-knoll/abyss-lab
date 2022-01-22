@@ -1,123 +1,129 @@
-# Herrscher of Thunder
+# 번개의 율자(작업중)
 
-## Yaoyorozu
+## 야오요로즈
 
-Leader Bonus:
-Leader Skill: Team deals 14.0% bonus Total DMG. PSY-Type battlesuits have 50 bonus initial SP. In Open World, the initial SP bonus takes effect once every 10 mins.
+리더로 배치 시 파티원이 버프를 받는다.
+파티원의 모든 대미지가 28.0% 증가하고, 이능속성 발키리는 초기 SP가 70 증가한다.
+오픈 월드에서 초기 SP 증가 효과는 10분마다 1회 발동한다.
 
 ### Kamiyonanayo
 
 Bombard costs 30.0 Herrscher Charge per 0.2s.
 
-### Yaoyorozu
+### 야오요로즈
 
-Team deals 28.0% bonus Total DMG. PSY-Type battlesuits have 70 bonus initial SP. In Open World, the initial SP bonus takes effect once every 10 mins.
+파티원의 모든 대미지가 28.0% 증가하고, 이능속성 발키리는 초기 SP가 70 증가한다.
+오픈 월드에서 초기 SP 증가 효과는 10분마다 1회 발동한다.
 
 ### Takamagahara
 
 Casting Ultimate Finisher restores 400.0 Herrscher Charge, and the next Shinzan Strike restores 35 Herrscher Charge per 0.2s for 2s.
 
-## Kagutsuchi's Avatar
+## 화인 카구스치
 
-Passive bonuses apply automatically.
-Herrscher Charge starts at 200 and maxes at 600. When performing special Combo ATK and Ultimate, the Valkyrie is in Herrscher Form. Ultimate Evasion skill and Bombard inflict Blitzlock, which immobilize and paralyze enemies. 
-When hitting an enemy inflicted with Narukami's Mark, Basic ATK, Combo ATK, Evasion ATK, and Ultimate deal 5%/20% ATK of bonus Lightning DMG to all marked enemies and recover 26/50 Herrscher Charge. CD: 0.05s. (No Herrscher Charge regen during Bombard and Finisher.) 
-Falling Thunder: Certain moves can proc it to deal 30% ATK of Lightning DMG per 0.2s to all enemies marked with Narukami's Mark and restore 10 Herrscher Charge. Subsequent procs will extend the duration.
+패시브 스킬
+패시브 스킬은 자동으로 발동한다.
+율자 에너지는 초기 200pt, 최대 600pt이고, 특수 분기 공격과 필살기를 사용하면 율자 형태에 돌입한다.
+극한 회피 스킬과 필살기-공중 폭격은 적에게 뇌전 속박 상태를 부여하는데, 뇌전 속박 상태의 적은 움직일 수 없고, 동시에 마비 상태도 부여된다.
+기본 공격(분기 포함)과 회피 공격/필살기 공격이 [나루카미]가 부여된 적에게 적중하면 [나루카미]가 부여된 모든 적에게 공격력 5%/20%의 뇌전 원소 대미지를 가하고, 율자 에너지를 26pt/50pt 회복한다. 재사용 대기시간 : 0.05초(필살기 공중 폭격과 피니쉬 기간, 율자 에너지를 회복하지 않는다.)
+낙뢰:발동 시 일정 시간 동안 0.2초마다 [나루카미]가 부여된 모든 적에게 공격력 30%의 뇌전 원소 대미지를 가하고 율자 에너지를 10pt 회복한다. 중복 발동 시 지속 시간이 누적된다.
 
-### Brand of Kuji
+### 구자겁[링크]
 
-When the Valkyrie attacks enemies inflicted with Narukami's Mark, the bonus Lightning DMG increases to 10.0%/40.0% of ATK.
+[나루카미]가 부여된 적을 공격할 때 추가로 가하는 대미지가 공격력 10.0%/40.0%의 뇌전 원소 대미지만큼 증가한다.
 
-### Ruin of Arajishi
+### 황사자
 
-The Valkyrie deals 30.0% bonus Lightning DMG. In Herrscher Form, Elemental Breach is boosted by 18.0%.
+캐릭터의 뇌전 원소 대미지가 30.0% 증가하고, 율자 형태에서 모든 원소 관통 효과가 18.0% 증가한다.
 
-### Gale of Acala
+### 부동람
 
-When the Valkyrie is deployed, teammates on standby restore 10.0% of SP obtained by her. The Valkyrie deals 30.0% bonus Total DMG to Mech enemies.
+캐릭터가 출전해 있을 때, 대기 중인 캐릭터는 획득한 SP의 10.0%를 획득한다. 기계 속성의 적에게 가하는 모든 대미지가 30.0% 증가한다.
 
-## Tsukuyomi's Flash
+## 절영 츠쿠요미
 
-Evade enemy attacks up to twice a row.
-Evasion deals 120% ATK of Lightning DMG to enemies hit. 
-Ultimate Evasion inflicts Narukami's Mark & Blitzlock on enemies for 2s. Base CD: 15s. 
-Tap [ATK] within 1.5s of Ultimate Evasion to charge at and pull in enemies for follow up, dealing 250% ATK of Lightning DMG and proccing a 4s Time Fracture. 
-In Ultimate: Activating Ultimate Evasion skill procs a 3s global Time Fracture and the next attack deals 300% ATK of bonus Lightning DMG. The activation and ending of Ultimate both reset Ultimate Evasion skill CD.
+빠르게 적의 공격을 피한다. 2회 연속 회피할 수 있다.
+회피는 적중한 적에게 공격력 120%의 뇌전 원소 대미지를 가한다.
+극한 회피를 발동하면 주위 적에게 [나루카미]와 2초간 지속되는 뇌전 속박 상태를 부가한다. 기본 재사용 대기시간 : 15초
+극한 회피 스킬을 발동하고 1.5초 이내에 공격 버튼을 누르면 돌진해 적을 모으고 추격을 발동하며, 모인 적에게 공격력 250%의 뇌전 원소 대미지를 가한다. 그 후 4초간 지속되는 시공 단열을 발동한다.
+필살기 기간에 사용하면 극한 회피 스킬을 소모하고 3초간 지속되는 전체 시공 단열을 발동하며, 다음 공격이 추가로 300의 뇌전 원소 대미지를 가한다. 필살기를 시작하거나 종료할 때 극한 회피 스킬의 재사용 대기시간이 초기화된다.
 
-### Galvanized Ojuzu
+### 낙뢰주[링크]
 
-Ultimate Evasions restore 10.0 SP and trigger Narukami's Mark's Falling Thunder effect for 1s.
+극한 회피를 발동하면 자신의 SP를 10.0% pt 회복하고 [나루카미]의 낙뢰 효과를 발동한다. 지속 시간 1초.
 
-### Trance of Avalok
+### 환세의 빛[링크]
 
-Ultimate Evasion CD is reduced by 3.00s.
+극한 회피의 재사용 대기시간이 3.00초 감소한다.
 
-### Crane of Ichimonji
+### 학일문자[SSS]
 
-The Ultimate Evasion follow-up deals 500.0% ATK of Bonus Lightning DMG.
+극한 회피 추격의 대미지가 공격력 300.0%의 뇌전 대미지만큼 증가한다.
 
-## Combo: Susanoo's Frenzy
+## 광섬 스사노오
 
-Unleash Herrscher power for a mighty blow. 
-Hold [ATK] after Basic ATK to perform. 
-Combo ATK: 200% ATK of Lightning DMG. 
-At full Herrscher Charge, hold [ATK] after Basic or Combo ATK to consume all charge and perform special Combo ATK - Shinzan Strike, dealing 1050% ATK of Lightning DMG and triggering 3s of Narukami's Mark's Falling Thunder effect.
+기본 분기-기본 공격 후 공격 버튼을 길게 누르기
+특수 분기-율자 에너지가 최대치일 때 기본, 분기 공격 후 공격 버튼을 길게 누르기
+율자의 힘을 이용해 강력한 공격을 한다.
+분기 공격 :공격력 200%의 뇌전 원소 대미지를 가한다.
+율자 에너지가 가득 찼을 때 기본 공격 혹은 분기 공격 후 버튼을 길게 누르면 모든 율자 에너지를 소모하고 특수 분기공격-심장베기를 발동해 총 공격력 1050%의 뇌전 원소 대미지를 가하고, [나루카미]의 낙뢰 효과를 3초간 발동한다.
 
-### Bane of Shutendoji
+### 도우지키리
 
-Shinzan Strike deals 50.0% bonus Total DMG. In non-burst mode, Combo ATKS restore 9.0 SP on hit. CD: 6.0s.
+심장 베기가 가하는 모든 대미지가 50.0% 증가한다. 폭발 상태가 아닐 때의 분기 공격이 적에게 명중하면 SP를 9.0 회복한다. 재사용 대기 시간 6.0초.
 
-### Flare of Gongen
+### 빛의 권능
 
-At 75 hit count or higher, normal Combo ATKs reset hit count to 25, deal 100.0% ATK of bonus Lightning DMG, paralyze enemies, and proc Narukami's Mark's Falling Thunder effect for 2s. In the following 10s, affected enemies stack 1 Paralyze Trauma (12 max) for every hit by the Valkyrie.
+콤보 수가 75 이상일 때, 기본 분기 공격을 발동하면 콤보 수가 25로 재설정되면서 적에게 추가로 100.0%의 뇌전 원소 대미지를 가하고, 3.0초 마비시키며 2초간 지속되는 [나루카미]의 낙뢰 효과가 발동한다. 이후 10초 동안 영향을 받은 적은 공격을 받을 때마다 마비 중첩을 1 스택 누적한다.(최대 12스택)
 
-### Fang of Momiji
+### 수홍엽[SS][링크]
 
-After Combo ATKs hit, the Valkyrie restores 40.00 HP per second for 10s.
+분기 공격이 적에게 적중하면 캐릭터는 10초 동안 초당 HP를 40.00 회복한다.
 
-## Amaterasu's Ride
+## 검현 아마테라스
 
-Enter burst mode and unleash full Herrscher power on the dragon's back
-Ride the dragon to fight for 15s. 
-The Valkyrie takes damage when the dragon is hit but she has 80% Total DMG Reduction, cannot die, restores 120 HP/s, and cannot cast weapon actives. 
-Entry: 1600% ATK of Lightning DMG and 600 Herrscher Charge regen. 
-Barrage: Tap [ATK] repeatedly to attack, dealing 250% ATK of Lightning DMG per hit. The cyclone deals 25% ATK of Lightning DMG per 0.25s to enemies pulled in. 
-Combo ATK - Bombard: Hold [ATK] and consume 50 Herrscher Charge per 0.2s, dealing 160% ATK of Lightning DMG and inflicting 0.5s of Blitzlock. 
-Finisher: Deal 1400% ATK of Lightning DMG and trigger a 4s Time Fracture. Switch out the Valkyrie (will suspend burst mode and perform Finisher upon next entry) or tap [ULT] again to perform. 
-SP Cost: 125. Tap [ULT] 12s after activation or late to perform Finisher.
+SP 125 이상
+폭발 상태에 진입한 후 용에 올라타 공격한다.
+최대 15초 동안 용을 부려 싸운다.
+용이 공격받으면 캐릭터도 똑같이 대미지를 받지만, 받는 동안 모든 대미지가 80% 감소하고 사망하지 않으며, 초당 HP를 120씩 회복한다. 이 기간 무기 액티브 스킬은 사용할 수 없다.
+입장 : 공격력 1600%의 뇌전 원소 대미지를 가하고, 율자 에너지를 600 회복한다.
+연속 공격 : 연속으로 공격 버튼을 눌러 발동하며, 공격마다 공격력 250%의 뇌전 원소 대미지를 가한다. 회오리는 2초 동안 0.25초마다 끌어당긴 적에게 공격력 25%의 뇌전 원소 대미지를 가한다.
+분기-공중 폭격 : 공격 버튼을 길게 눌러 발동한다. 0.2초마다 율자 에너지를 50씩 소모해 공격력 160% 160%의 뇌전 원소 대미지를 가하고, 적에게 0.5초간 지속되는 뇌전 속박 상태를 부여한다.
+피니쉬 : 공격력 1400%의 뇌전 원소 대미지를 가하고 4초간 지속되는 시공 단열을 발동한다. 캐릭터를 교대하거나(폭발 상태가 중지되고, 다음 입장 시 발동한다.) 다시 필살기 버튼을 눌러 사용할 수 있다.
+발동 소모 SP : 125, 발동 12초 후 다시 필살기 버튼을 누르면 피니쉬를 사용한다.
 
-### Amenohabakiri
+### 아메노하바키리
 
-Barrage deals 300.0%ATK of bonus Physical DMG per hit and deals 120.0% bonus damage to shields.
+필살기 지속 공격의 매 공격마다 공격력 300.0%의 물리 대미지가 추가되고, 실드에 가하는 대미지가 120.0% 증가한다.
 
-### Futsuno Mitama
+### 후츠노미타마
 
-Ultimate ATKs deal 25.0% bonus Total DMG.
+필살기 공격의 모든 대미지가 25.0% 증가한다.
 
-### Tsumugari
+### 츠무카리[SS]
 
-Every next hit of Bombard deals 25.0% bonus Lightning DMG.
+공중 폭격이 가하는 타격마다의 공격력이 25.0%의 뇌전 원소 대미지만큼 증가한다.
 
-## Takemikazuchi's Edge
+## 농도 타케미카즈치
 
-Lightning-imbued katana attacks. Evading after any of the first 3 sequences does not break the combo.
-1st Sequence: 60% ATK of Physical DMG + 60% ATK of Lightning DMG.
-2nd Sequence: 80% ATK of Physical DMG + 70% ATK of Lightning DMG.
-3rd Sequence: 60% ATK of Physical DMG + 80% ATK of Lightning DMG.
-4th Sequence: 250% ATK of Lightning DMG.
-5th Sequence: 300% ATK of Lightning DMG. 
-5th Sequence of Basic ATK, Combo ATK, Ultimate Evasion skill, QTE, and Ultimate inflict Narukami's Mark on enemies for 15s. Marked enemies take 20% bonus Lightning DMG from the Valkyrie (independent effect). 
-Narukami's Mark cannot coexist with Soul Razor's conductive debuff for Lightning Empress.
+번개의 힘과 태도를 사용해 공격한다. 앞 3격 도중 회피해도 계속 다음 공격을 이어갈 수 있다.
+1식：공격력의 60%의 물리 대미지+공격력 60%의 뇌전 대미지
+2식：공격력의 80%의 물리 대미지+공격력 70%의 뇌전 대미지
+3식：공격력의 60%의 물리 대미지+공격력 80%의 뇌전 대미지
+4식：총 공격력의 250%의 뇌전 대미지
+5식：공격력 350%의 뇌전 대미지
+캐릭터의 기본 5번째 공격, 분기 공격, 극한 회피 스킬, QTE와 필살기는 적에게 15초 동안 [나루카미]를 부여한다. 자신이 [나루카미]가 부여된 적을 공격하면 적이 받는 원소 대미지가 20% 증가한다.(해당 효과는 독립적인 효과다)
+[나루카미] 효과는 뇌전여왕의 귀신갑주의 [단혼참] 감전 효과와 동시에 존재할 수 없다.
 
-### Mantle of Prajna
+### 대반야
 
-During the first 3 sequences of Basic ATK,  the Valkyrie takes 20.0% less Total DMG. During the 5th sequence, she has higher Ignore Interrupt and takes 80% less Total DMG. She can block the next incoming attack. Reset after 3 special Combo ATKs.
+기본 공격 3격 까지 캐릭터가 받는 모든 대미지가 20.0% 감소한다. 5격 중에는 경직 저항력이 증가하고 받는 모든 대미지가 80% 감소한다. 공격을 1회 막을 수 있으며, 특수 분기 공격을 3회 사용하면 초기화된다.
 
-### Curse of Mikazuki
+### 미카즈키
 
-When the Valkyrie attacks enemies inflicted with Narukami's Mark, the bonus  Lightning DMG increases to 40.0%.
+[나루카미]가 부여된 적 공격 시, 적이 받는 뇌전 원소 대미지가 40.0% 까지 증가한다.
 
-### QTE: Oni-Issen
+### QTE 귀일섬
 
-Triggered by Time-Slowed or knocked-airborne enemies to deal 400% + 600.0% ATK of Lightning DMG and restore 200 Herrscher Charge. Tap [ATK] immediately after to connect it to 4th sequence of Basic ATK. 
-If switching in the Valkyrie to cast Ultimate Finisher with a QTE entry, Finished deals 600% ATK of bonus Lightning DMG and restore 200 Herrscher Charge.
+적이 시공 감속 혹은 체공 상태일 때
+공격력 400% + 600%의 뇌전 원소 대미지를 가하고 율자 에너지를 200pt 회복한다. 그 후 공격 버튼을 길게 누르면 기본 4격을 즉시 발동할 수 있다. QTE를 발동할 때 캐릭터 교대를 통해 필살기 피니쉬를 사용하면 추가로 공격력 600%의 뇌전 원소 대미지를 입히고 율자 에너지를 200pt 회복한다.

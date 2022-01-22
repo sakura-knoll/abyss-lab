@@ -1,108 +1,107 @@
-# Blood Rose
+# 핏빛 장미(작업중)
 
-## Blood Waltz
+## 핏빛 무곡
 
-Leader Bonus:
-Blood Waltz: All team members' Charged ATKs deal 12% more Total DMG. If the team consists of members of 3 different types, all team members gain 12% Total DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+모든 파티원의 차지 공격과 모든 대미지가 18% 상승한다.
+캐릭터 3의 속성이 서로 다를 경우 모든 대미지가 15% 증가한다.
 
-### Blood Waltz
+### 핏빛 무곡
 
-Charged ATKs of the team gain 18% Total DMG Multiplier. For teams with characters of different types, attacks gain 16% Total DMG Multiplier.
+모든 파티원의 차지 공격과 모든 대미지가 18% 상승한다.
+캐릭터 3의 속성이 서로 다를 경우 모든 대미지가 15% 증가한다.
 
-## Passive
+## 패시브 스킬
 
-Passive bonuses apply automatically.
+패시브 스킬은 자동으로 발동한다.
 
-### Burning Blood
+### 불타는 피
 
-Basic ATKs or Blood Wrath ATK against ignited enemies additionally deals 160.0% ATK of Fire DMG.
+기본 공격/선혈의 자태 공격이 연소 상태의 적에게 적중 시 160% 화염 원소 대미지를 추가로 입힌다.
 
-### Warding Blood
+### 수호의 피
 
-When HP is below 66%, gain 30.0% Total DMG Multiplier, take 35.0% less Physical DMG, and increase Ignore Interrupt.
+HP 최대치의 66% 이하
+모든 대미지가 30% 증가하며, 받는 피해량이 35.0% 감소하고 경직 저항력이 증가한다.
 
-### Purifying Blood
+### 정화의 피
 
-When HP is below 50%, take 30.0% less elemental DMG, shorten the durations of most debuffs, and extends the duration of ignite by 25.0%.
+HP 최대치의 50% 이하
+받는 원소 대미지와 대부분 상태 이상 효과의 지속 시간이 67% 감소하고, 연소 상태의 지속 시간이 50% 증가한다.
 
-## Blood Bravura
+## 피의 악장
 
-Sideways dodge to evade enemy attacks. Can be triggered 2 times in a row.
-Crimson Charge: Unleashes a Charged Combo instantly after Ultimate Evasion.
-Macropyre: Creates an explosion centered on the attacker, dealing 200% ATK of Fire DMG.
-CD: 15s.
+적의 공격 회피
+블러디 차지 : 극한 회피 후 곧바로 차지 연속 공격을 사용할 수 있다.
+열염분신 : 공격한 적을 중심으로 폭발을 일으켜 공격력의 200% 화염 원소 대미지를 입힌다. 쿨타임 15초
 
-### Blood Concerto
+### 핏빛 협주곡
 
-Shortens CD of Macropyre by 4.0s.
+열염분신의 재사용 대기시간 4.0초 감소.
 
-### Blood Aria
+### 핏빛 아리아
 
-Generates a fire ring when Macropyre is triggered, dealing 127 Fire DMG every 0.3s. The fire ring lasts for 6.0s.
+열염분신 발동 시 6.0초 동안 화염의 고리를 생성해서 주변의 적에게 0.3초마다 127의 화염 원소 대미지를 입힌다.
 
-### Blood Serenade
+### 핏빛 세레나데
 
-Macropyre ignites enemy, dealing 233 Fire DMG every 0.5s for 4.0s.
+열염분신으로 적을 4.0초 동안 연소 상태로 만들어 0.5초마다 233의 화염 원소 대미지를 입힌다.
 
-## Blood Pirouette
+## 블러디 스텝
 
-During evasion, unleash a horizontal sweep attack at the enemy.
-Riposte: Tap the [ATK] button while evading to unleash a spinning slash, dealing 200.0% ATK of Physical DMG. CD: 5s.
-If the spinning slash hits the enemy, gain 5 SP to self.
-After spinning slash, tap the [ATK] button when the flashing circle appears on the character to directly unleash a charged attack.
-Sprint ATK: Tap the [ATK] button while sprinting to unleash a large AOE horizontal sweep that deals 400.0% ATK of Physical DMG.
+회피 도중 공격
+회피 회전 베기：회피 동작을 하는 동안 공격 버튼을 눌러 공격력의 200% 물리 대미지를 입히는 회전 베기를 발동한다. 회전 베기로 적을 명중했을 경우, 자신의 SP가 5만큼 추가로 회복한다. 쿨타임 5초. 회전 베기 후 공격 버튼을 누르면 차지 공격을 발동할 수 있다.
+돌진 공격：돌진 중 공격버튼을 눌러 넓은 범위에 공격력의 400% 물리 대미지를 입힌다.
 
-### Switch: Downward Step
+### 내려찍기 스텝
 
-Switch entry unleashes a Windmill Cleave, dealing 400.0%+50.0% ATK of Physical DMG.
+캐릭터 교체
+내려찍기를 발동하여 공격력의 400%+50% 물리 대미지를 입힌다.
 
-### Igniting Axel
+### ### 회전 스텝
 
-Riposte has a 75.0% chance to ignite the enemy for 4s, dealing 160 Fire DMG every 0.5s.
+회피 회전 베기가 75.0%의 확률로 적을 4초 동안 연소 상태로 만들어 0.5초마다 160의 화염 원소 대미지를 입힌다.
 
-### QTE: Burning Windmills
+### 화염의 춤
 
-QTE: Triggers when enemy is stunned. Unleashes a powerful Windmill Cleave, dealing 250.0%+301.0% ATK of Physical DMG and generating a flame burst that deals 115.0% AOE Fire DMG.
+적이 기절 상태일 때 캐릭터 교체
+공격력의 250%+301% 물리 대미지를 입히고 폭발하는 불꽃으로 115% 범위 화염 원소 대미지를 입힌다.
 
-## Blood Wrath
+## 선혈의 자태
 
-Activates burst mode: Blood Wrath which costs an increasing percentage of HP per second to maintain. Tap [ULT] again or switch out to end burst mode.
-Vehement Flame: Consumes 30 SP to enter burst mode. Tap the [ATK] button to unleash Charged ATKs.
-1st Sequence: 340% ATK of Physical + 310% ATK of Fire DMG;
-2nd Sequence: 260% ATK of Physical + 240% ATK of Fire DMG;
-3rd Sequence: 300% ATK of Physical + 250% ATK of Fire DMG; mid-air slash: 2x100% ATK of Physical DMG + 2x180% ATK of Fire DMG; Last Hit: (380%+50%) ATK of Physical DMG + (320%+50%) ATK of Fire DMG.
-Cost: 30 SP to activate. Deals 200% ATK of AOE Fire DMG and ignites enemies for 6s.
-Blood Philter: Blood Rose gains 40% Total DMG Reduction and immunity to stun, paralyze, and freeze.
+SP 30 이상
+발동 시 공격력의 200% 범위 화염 원소 대미지를 입히고 6초 동안 연소 상태로 만든다. 발동 중 HP가 시간에 따라 일정 비율로 소모되고 필살기 버튼을 눌러 ON/OFF할 수 있다.
+열염：공격 버튼을 눌러 폭발적인 4단 차지 공격을 발동한다. 340% 물리+310% 화염 원소/260% 물리+240% 화염 원소/300% 물리+250% 화염 원소/(2*100%+380%+50%) 물리+(2*180%320%+50%) 화염 원소 대미지.
+정화：받는 모든 대미지가 40% 감소하고 기절,마비,빙결 상태 이상에 면역된다. 선혈의 자태를 발동할 때마다 공격을 받아 한 번의 공격을 무효화 하기 전까지 무적 상태가 된다.
 
-### Blood Boost
+### 선혈 폭발
 
-Increases Attack Speed by 50.0% and Move Speed by 25.0% when Blood Wrath is active.
+선혈의 자태 발동 중에는 공격 속도가 50.0%, 이동 속도가 25.0% 증가한다.
 
-### Blood Rondeau
+### 선혈 윤무
 
-During Blood Wrath, tap the [ATK] button during Windmill Cleave to increase the number of strikes up to 5 times. Each Windmill Cleave strike also deals an increased 80.0% ATK of Physical and Fire DMG.
+선혈의 자태 발동 중 내려찍기 사용 시 공격 버튼을 누르면 공격 횟수를 최대 5회까지 증가할 수 있고 매 타격마다 물리 대미지와 화염 원소 대미지가 80.0% 증가한다.
 
-### Blood Curse
+### 선혈의 저주
 
-When Blood Wrath is active and HP is below 50%, gain 30.0% Crit Rate and 30.0% Fire DMG.
+선혈의 자태 발동 중 HP가 최대치의 50%보다 낮을 때, 크리티컬률이 30%, 화염 원소 대미지가 30% 증가한다.
 
-## Charge: Blooded Claymore
+## 차지 - 선혈의 대검
 
-Basic ATK: Uncharged: 3-sequence Zweihänder Fechten. Charging unleashes an empowered ATK sequence.
-Charged ATK Sequence: The 3-sequence attack is followed by an aerial Windmill Cleave with increased Ignore Interrupt during the attack.
-Basic ATK: 150%+180%+220% ATK of Physical DMG
-Charged ATK: 250%+160%+200% ATK of Physical DMG
-Windmill Cleave: 140%+140%+400% ATK of Physical DMG
+3연속 직접 공격을 가하고, 차지 후 강력한 연속 공격을 가한다.
+차지 연속 공격: 3연속 공격 후 추가로 공중 내려찍기를 시전하며, 공격 도중 경직 저항력이 증가한다.
+기본 공격：공격력의 150%+180%+220% 물리 대미지를 입힌다.
+차지：공격력의 250%+160%+200% 물리 대미지를 입힌다.
+내려찍기：공격력의 140%+140%+400% 물리 대미지를 입힌다.
 
-### Burning Passion
+### 플레임 버스트
 
-Every hit from Basic or Charged ATK deals an additional 100.0% Fire DMG.
+기본 차지 공격의 타격마다 공격력의 100% 화염 원소 대미지를 추가로 입힌다.
 
-### Blood Symphony
+### 피의 메아리
 
-Ignites the enemy attacker if attacked while performing Charged ATKs or during Blood Wrath, dealing 349 Fire DMG every 0.5s for 4s.
+차지 공격과 선혈의 자태 발동 중 공격을 받으면 공격한 적을 4초 동안 연소 상태로 만들어 0.5초마다 349의 화염 원소 대미지를 입힌다.
 
-### Undying Rage
+### 저력
 
-Upon ending Blood Wrath, recover 14.28% HP of the HP cost of the Ultimate.
-After level 5, the skill can only be increased when  rank.
+선혈의 자태 종료 시 이번 필살기에서 소모한 HP의 20.00%를 회복한다.

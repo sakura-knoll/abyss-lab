@@ -1,90 +1,90 @@
-# Black Nucleus
+# 이도 흑핵 침식(작업중)
 
-## Complex Operations
+## 허수 조작
 
-Leader Bonus:
-Complex Operations: Shortens CDs of main effects triggered by whole team's Ultimate Evasion and Perfect Defense by 3.5s.
+리더로 배치 시 파티원이 버프를 받는다.
+모든 파티원의 극한 회피/퍼펙트 가드 효과 재사용 대기시간이 4.5초 감소한다.
 
-### Complex Operations
+### 허수 조작
 
-Shortens the CDs of primary effects triggered by Ultimate Evasions and Perfect Defense by 4.5s for the team.
+모든 파티원의 극한 회피/퍼펙트 가드 효과 재사용 대기시간이 4.5초 감소한다.
 
-## Passive Skill
+## 패시브 스킬
 
-Passive bonuses apply automatically.
+패시브 스킬은 자동으로 발동한다.
 
-### Field Breach
+### 파쇄역장
 
-Gain 39.0% Total DMG Multiplier when attacking an enemy from the side or from behind.
+측후방에서 적을 공격 시 모든 대미지 39.0% 증가
 
-### Target Locked
+### 우선순위 변경
 
-When attacked or when triggering Ultimate Evasion, 40% chance to apply Locked Mode onto the attacker, making it take 25.0% more Physical DMG for 4.5s.
+적의 공격을 받거나 극한 회피 시 40.0%의 공격자를 정지 상태로 만들어 25.0의 물리 대미지를 추가로 입히고, 4.5초 간 지속한다.
 
-### Thermal Activation
+### 고열 유발
 
-The Valkyrie gains 30% Crit DMG. Each Crit hit additionally deals 30.0% ATK of Fire DMG.
+발키리 크리티컬 대미지가 30% 증가한다. 크리티컬 시 추가로 공격력 30.0%의 화염 대미지를 입힌다.
 
-## Dimensional Interruption
+## 차원 차단
 
-Dodges sideways to evade enemy attacks and becomes invisible.
-Dimensional Interruption: Enters 6s invisibility upon Ultimate Evasion. CD: 20s.
-Invisibility: Cannot be targeted by enemies; ignore all DMG taken when attacked; gain immunity against common debuffs; and greatly increased Move Speed and Attack Speed.
-Invisibility ends when tapping the [ATK] button, using weapon skills or Ultimates, or switching characters.
+회피 버튼
+6초 동안 은신 상태가 된다. 재사용 대기시간 20초
+은신 상태에서는 적의 타깃이 되지 않으며 피격 시 대미지와 상태 이상을 받지 않고 이동 속도와 공격 속도가 대폭 증가한다.
+기본 공격, 무기 스킬, 필살기를 사용하거나 교대하면 은신 상태는 해제된다.
 
-### Stealth Assassination
+### 암살
 
-When invisible, character attacks gain 35.0% Physical DMG. Lasts until 2.80s after invisibility ends.
+은신 상태에 진입 후 자신의 물리 대미지가 35.0% 증가하고, 은신이 해제된 후에도 2.80초 동안 유지된다.
 
-### Time Bomb
+### 시한폭탄
 
-Ultimate Evasion drops 8 bomblets at the enemy's location that explodes after a short delay, dealing 80% ATK of Physical DMG.
+극한 회피 시 적 근처에 8개의 소형 폭탄을 던진다. 시간이 지나면 폭발하며 각자 공격력의 80%의 물리 대미지를 입힌다.
 
-### Particle Reset
+### 입자 재설정
 
-Shortens CD of Dimensional Interruption by 4.0s.
+차원 차단의 재사용 대기시간이 4.0초 감소한다.
 
-## Switch: Mecha Smash
+## 기갑강공
 
-Switch skill unleashes a slam attack with robot arms.
-Slams enemies with robot arms, dealing 175% ATK of Physical DMG to enemies within the AOE.
+캐릭터 교체
+교대 시 기계 팔을 사용해 적을 찍어 눌러 범위 내의 적에게 공격력 175%의 물리 대미지를 입힌다.
 
-### Hardened Chassis
+### 경화 기갑
 
-Buffs the Switch Skill to deal 175%+175% ATK of Physical DMG.
+교대기의 물리 대미지가 공격력의 175%+175%로 증가한다.
 
-### QTE-Field Suppression
+### QTE 역장 억제
 
-QTE: Triggers when an enemy is knocked airborne or affected by Time Slow. Ground slams enemies within a large AOE, dealing 3x320% ATK of Physical DMG, then gain invisibility for 6s (invisibility is not triggered by normal evasions during QTE).
+적이 공중에 띄워지거나 시공 감속 상태일 때 캐릭터 교체
+목표 근처 큰 범위의 적을 찍어눌러 다운시키고 공격력 3\*320%의 물리 대미지를 입힌 후 6초 동안 은신 상태에 진입한다.(QTE 지속 시간 동안 보통 회피로 은신 상태에 진입할 수 없다.)
 
-## Suppression Barrage
+## 전역 제압
 
-Unloads the entire arsenal to bombard the designated area.
-Suppression Barrage: Creates a small immobilizing field surrounding the target and bombards the AOE to deal 20x80% ATK of Physical DMG.
-SP Cost: 125
+SP 125 이상
+목표를 중심으로 구속 필드를 전개하고, 목표와 적 주변에 중범위 연속 포격을 가하여 공격력의 20\*80% 물리 대미지를 입힌다.
 
-### Mortar Cannon
+### 박격포
 
-Enhances Bombardment, with each hit dealing an additional 100% ATK of Physical DMG and 12.0% chance to ignite enemies, dealing 450 Fire DMG every 0.5s for 7s.
+매 포격의 물리 대미지가 100.0% 증가하고, 12.0%의 확률로 적을 연소 상태로 만들어 7초 동안 0.5초마다 450의 화염 원소 대미지를 입힌다.
 
-### Blinding Munitions
+### 실명 무장
 
-Stuns enemies 0.5s after being hit by Bombardment for 5.00s.
+포격에 맞은 적은 포격이 멈추고 0.5초 이후 5.00초 동안 기절 상태가 된다.
 
-## Charge: Shrapnel Shell
+## 집속폭격
 
-Charged cannon fire. Higher charge sequence deals greater DMG.
-Arm Switch: Charging mode changes with type of equipped weapon.
-Guidance MOD: Equipping missile-type weapons transforms attacks to scatter shot shells. Each charge sequence increases the number of shells fired by 30%. Every shell deals a small AOE explosion. The 1st, 2nd, and 3rd charge sequences deal 50%, 60%, and 80% ATK of Physical DMG, respectively, and increases Interrupt.
+차지
+암 스위치：장비한 무기에 따라 차지 공격이 바뀐다.
+유도탄 개조: 유도탄 계열 무기를 장비하면 공격방식이 산탄형 사격으로 변경되고, 차지마다 산탄의 수량이 30% 증가한다. 각 산탄마다 작은 범위에 폭발을 일으킨다. 1/2/3단 차지가 각 50%,60%,80%의 물리 대미지를 입히고, 경직력이 증가한다.
 
-### Precision Charge
+### 정밀 차지
 
-Releasing the [ATK] button at the moment of entering the next charge sequence increases Crit Rate of this attack by 30.0%.
+차지 단계가 바뀌는 순간 공격 버튼을 떼면 다음 공격의 크리티컬률이 30.0% 증가한다.
 
-### Flash Dodge
+### 급속 회피
 
-Force evasion when attacked during charging. Can be triggered once every 4.0s. Effect does not interrupt charging.
+차지하는 동안 공격을 받으면 강제 회피한다. 4.0초마다 1번 발동할 수 있으며, 차지를 중단하지 않는다.
 
-### Primed Charge
+### 강격 해방
 
-Releasing the [ATK] button upon entering the 3rd charge sequence increases DMG of this attack by 20.0%, and gain 100% Move Speed for the next 3s.
+3단 차지에 진입하는 순간 공격 버튼에서 손을 떼면, 해당 공격의 모든 대미지가 20.0% 증가하고, 그 후 3초 간 이동 속도가 100.0% 증가한다.

@@ -1,102 +1,104 @@
-# Sakuno Rondo
+# 앵화윤무(작업중)
 
-## Ritual Dance
+## 제례의 춤
 
-Leader Bonus:
-Ritual Dance: For the team, attacks made against enemies knocked airborne gain 15% Total DMG Multiplier. Teams with 3 characters of different types gain 12% Elemental DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+체공상태의 적을 공격할 때 모든 피해 24%증가. 팀원의 속성이 각각 다르면, 원소 피해가 18% 증가.
 
-### Ritual Dance
+### 제례의 춤
 
-For the team, attacks against enemies knocked airborne gain 24% Total DMG Multiplier. If team is composed of 3 characters of different types, gain 18% Elemental DMG.
+체공상태의 적을 공격할 때 모든 피해 24%증가. 팀원의 속성이 각각 다르면, 원소 피해가 18% 증가.
 
-## Passive
+## 패시브 스킬
 
-Passive bonuses apply automatically.
+패시브 스킬은 자동으로 발동한다.
 Sakura Brand: Clears the Sakura Count on enemy once the count has reached 3 and inflicts a Sakura Brand. The Sakura Brand lasts for 10s.
 
-### World's #1 Cutie (SR)
+### 세상에서 제일 귀여워!
 
-Gain 30.0 initial SP in battle. This bonus triggers once every 10 minutes in Open World.
+전투 중 초기 SP 30.0 증가. 오픈 월드에서는 10분에 한 번씩 발동 가능.
 
-### Not the Ears
+### 내 귀에 손대지 마!
 
-Each hit against frozen / paralyzed enemies deals an additional X% Fire DMG.
+빙결/마비 상태의 적을 공격하면 공격력 80%의 화염 대미지를 추가로 입힌다.
 
-### Let's Dance
+### 한 곡 추실래요?
 
-When cross is deployed, team gains 23.4% Elemental DMG for 7.50s.
+십자가 전개 시
+7.50초 동안 모든 파티원의 원소 대미지가 23.4% 증가한다.
 
-## Burning Kenbu
+## 염화 =검무
 
-Quick side-step to evade enemy attacks.
-Ultimate Evasion: Generates a 3-sequence sword aura, each hit dealing 10% ATK of Physical DMG to surrounding enemies. Character gains 40% Move Speed for 3s.
-Burning Kenbu: Each sword ki hit adds 1 Sakura Count to the target. Tap the [ATK] button within a short duration to directly unleash Foxfire. CD: 15s.
+적의 공격 회피
+연속으로 2회까지 빠르게 회전하여 회피한다.
+극한 회피: 자신 주변에 3개의 검기를 폭발시켜, 검기 하나 당 공격력 10%의 물리 대미지를 입히고 3초 동안 자신의 이동 속도를 40% 증가시킨다.
+염화검무: 극한 회피를 발동하면 검기마다 붉은 벚꽃 카운터를 1개 씩 쌓으며, 짧은 시간 안에 공격 버튼을 누르면 여우불을 발동한다. 재사용 대기시간: 15초.
 
-### Blazing Kenbu
+### 열염 검무
 
-Enhances the sword aura triggered by Ultimate Evasions, each hit inflicting additional 50.1% ATK of Fire DMG.
+극한 회피 시 폭발하는 검기가 강화되어, 매 타격이 가하는 화염 원소 대미지가 공격력 50.1%만큼 증가한다.
 
-### Florid Kenbu
+### 적염 검무
 
-Shortens CD of Ultimate Evasion by 3.40s. Each Sword Ki hit has a 18.5% chance to bleed enemies, dealing 152 Physical DMG every 0.5s for 3.5s.
+극한 회피의 재사용 대기시간이 3,40초 감소하고, 검기가 적중할 때마다 18.5% 확률로 적을 출혈 상태로 만들어 3.5초 동안 90.5초마다 152의 물리 대미지를 입힌다.
 
-## Charged: Scorching Foxfire
+## 벚꽃 여우불
 
-Charge during the 5-sequence Basic ATK to unleash Foxfire.
-Tap and hold the [ATK] button to charge during a 5-sequence Basic ATK or Ultimate to unleash Foxfire after a short charge, dealing 3x50% ATK of Fire DMG to target and its surrounding enemies.
-Foxfire transforms Sakura Brand into Scorching Sakura Brand that then explodes after 1s, dealing 300% ATK of Fire DMG and knocking enemies airborne.
+기본 공격 5연격 도중 공격버튼 눌러 차지
+단기간 내에 풀차지하여 여우불을 방출해 타깃과 주변 범위의 적에게 공격력 50%\*3 화염 원소 대미지를 입힌다. 여우불은 붉은 벚꽃 표식을 불태워 1초 후 폭발하며 공격력의 300% 화염 원소 대미지를 입히고 적을 공중에 띄운다.
 
-### Switch: Twin Slashers
+### 교대기 영령의 칼날
 
-Switch: Launches 2 flying blades, each blade deals 3x250.0% ATK of Physical DMG and knocks down the enemy.
+캐릭터 교체
+두 자루의 비검을 날려 한 자루 당 공격력의 250.0%\*3 물리 대미지를 입히고 적을 다운시킨다.
 
-### Detonate Brand
+### 폭연
 
-Scorching Sakura Brand explosions deal 621% ATK of Fire DMG. When not in Hijoyo Mode, recover 5.0 SP every time Foxfire scorches a Sakura Brand.
+붉은 벚꽃 표식의 폭발로 인한 화염 원소 대미지가 공격력의 621%로 증가한다. 붉은 혼 상태가 아닐 때, 여우불이 붉은 벚꽃 표식을 태울 때마다 5.0 SP를 회복한다.
 
-### QTE: Triplex Slashers
+### QTE 삼중 영령의 칼날
 
-QTE: Triggered when enemy is paralyzed. Enters the battle near the target and unleashes 3-sequence sword ki, each hit dealing 324.0% ATK of Physical DMG and adding a Sakura Count.
+적이 마비 상태일 때 캐릭터 교체
+목표 지점과 자신 주변에 3개의 검기를 방출하여, 검기의 매 타격마다 공격력의 324.0% 물리 대미지를 입히고 붉은 벚꽃 카운터를 1개 쌓는다.
 
-## Hijoyo Frenzy
+## 붉은 혼의 폭주
 
-Unleash Valkyrie burst to enter Hijoyo Mode and gain increased Ignore Interrupt.
-Unleashes a 3-sequence combo slash to all targets in a large AOE when triggered, each hit dealing 100% ATK of Physical DMG and adding a Sakura Count.
-Hijoyo Mode: Turns the 5-sequence combo into an Ultimate 5-sequence combo, dealing Fire DMG for more DMG and transforms the Sakura Brand.
-The 3rd and 5th sequences add a Sakura Count on the target.
-Continuous Burst: Consumes 20 SP to activate and 8 SP/s afterwards. Max duration: 60s.
-SP Cost: 80
+SP 80 이상
+발동 시 주변의 넓은 범위에 3단 참격을 한다. 매 타격마다 공격력의 100% 물리 대미지를 입히고 붉은 벚꽃 카운터를 1개 씩 쌓는다.
+붉은 혼 상태: 5연격이 화염 대미지를 입히는 필살 5연격으로 바뀌고, 대미지가 증가하여 붉은 벚꽃 표식을 불태울 수 있다.
+3번째, 5번째 공격은 적에게 붉은 벚꽃 카운터를 1개 씩 쌓는다.
+폭발 지속: 발동 시 20SP를 소모하고, SP를 소진할 때까지 초당 8SP 씩 소모한다. 최대 지속 시간 60초.
 
-### Fire Sprite
+### 불꽃의 정령
 
-In Hijoyo Mode, character deals 50.0% more Fire DMG.
+붉은 혼 상태에서 화염 원소 대미지가 50.0% 증가
 
-### Sakura Mark
+### 붉은 벚꽃 각인
 
-3rd and 5th sequences of Ultimates apply 1 Sakura Counts on the target and deal additional 180.0% ATK of Physical DMG.
+필살기의 3번째, 5번째 공격이 적에게 추가로 1개의 붉은 벚꽃 카운터를 쌓고, 공격력의 180.0% 물리 대미지를 추가로 입힌다.
 
-### Warding Sprite
+### 수호령
 
-In Hijoyo Mode, gain 52.1% Total DMG Reduction, shorten the duration of most debuffs by 70%, and gain 45.1% Attack Speed.
+붉은 혼 상태에서 받은 모든 대미지가 52.1% 감소하고, 받는 대부분의 디버프 효과 지속 시간이 70% 단축된다. 또한 공격 속도가 45.1% 증가한다.
 
-## Fox Blade
+## 여우 불꽃 칼날
 
-Basic ATK: Mid-range 5-sequence attack with ethereal kanatas.
-1st Sequence: 3x40% ATK of Physical DMG.
-2nd Sequence: 3x40% ATK of Physical DMG.
-3rd Sequence: 150% ATK of Physical DMG.
-4th Sequence: 2 katanas dealing 3x40% ATK of Physical DMG each.
-5th Sequence: 180% ATK of Physical DMG.
-The 3rd and 5th sequences add 1 Sakura Count to the target.
+영체로 된 태도로 중거리 5연격
+1격：공격력의 40%*3 물리 대미지
+2격：공격력의 40%*3 물리 대미지
+3격：공격력 150%의 물리 대미지
+4격：두 자루의 태도 한 자루 당 공격력 40%\*3 물리 대미지
+5격：공격력 180%의 물리 대미지
+기본 공격 3번째, 5번째 공격은 적에게 붉은 벚꽃 카운터를 1개 씩 넣는다.
 
-### Ghostfire Burn
+### 혼령 소각
 
-5-sequence Basic ATKs or Ultimates have a 20% chance to ignite enemies, dealing 199 Fire DMG every 0.5s for 4s. CD: 6s.
+기본 공격/필살기 5연격이 20.0%의 확률로 적을 연소 상태로 만들어, 4초 동안 0.5초마다 199의 화염 피해를 입힌다. 재사용 대기시간 6초.
 
-### Ember
+### 잔불
 
-3rd and 5th Sequences of Basic and Ultimate ATKs deal additional 3*X% ATK of Fire DMG.
+기본 공격/필살기의 3번째와 5번째의 공격이 적에게 적중 시 추가로 공격력 3\*60%의 화염 대미지를 입힌다.
 
-### Engraved Mark
+### 유구의 낙인
 
-Extends the duration of Sakura Brand to applied by self to 20.0s. When Combo Hit Count exceeds 30, gain X% Total DMG Multiplier.
+자신이 남긴 붉은 벚꽃 표식의 지속 시간이 20.0초로 연장된다. 콤보 수가 30을 넘으면 모든 대미지가 20.0% 증가한다.

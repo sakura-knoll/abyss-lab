@@ -1,86 +1,92 @@
-# Blueberry Blitz
+# 블루베리 특공(작업중)
 
-## Vstavai!
+## 출전 시간이다
 
-Leader Bonus:
-Vstavai!: MECH and PSY-type battlesuits deal 10.0% more DMG to shields.
+리더로 배치 시 파티원이 버프를 받는다.
+기계와 이능 속성 캐릭터가 실드에 주는 피해 25.0% 증가
 
-### Vstavai!
+### 출전 시간이다
 
-MECH and PSY-type characters deal 25.0% more DMG to shields.
+기계와 이능 속성 캐릭터가 실드에 주는 피해 25.0% 증가
 
-## Passive
+## 패시브 스킬
 
-Passive bonuses apply automatically
-Blitz Power (BP): SBattle starts with 1000 BP (max). BP recovers at 40/s.
-First 3 sequences of Basic ATK restores 35 BP. 4th sequence and Ultimate Evasion restores 70 BP.
+패시브 스킬은 자동으로 발동한다.
 
-### Maneuver Warfare
+KP: 전투 초기 수치 1000, 최대치 1000, 초당 40회복
+기본 공격의 앞 3회 공격은 매회 35의 KP를 회복하고, 네 번째 공격과 극한 회피는 70 회복한다.
 
-Character gains 40.0% Total DMG Multiplier against enemies affected by Weaken or Time Slow.
+### 완전 무장
 
-### Equipment Enhancement
+출전 후 첫 번째 차지 공격/필살기가 적을 4초간 얼린다. 쿨타임 30초.
+대기 상태일 때 출전한 캐릭터의 물리 대미지가 15% 증가하고 출전한 캐릭터가 체리 폭탄일 경우 추가로 경직 저항력이 증가한다. 지속시간: 15초, 재사용 대기시간 20초.
 
-After switch entry, first Charged ATK or Ultimate ATK freezes hit enemies for 4.0s CD: 30s. Upon exit, the character switching in gains a 15.0% Physical DMG buff. If Molotov Cherry switches in, then she also gains Ignore Interrupt for 15s. CD: 20s.
+### 급소 급습
 
-## Emergency Evasion
+자동으로 발동
+발키리가 허약 및 시공 감속 상태의 적에게 가하는 모든 대미지가 40% 증가한다.
 
-Quickly evades enemy attack. Can be performed twice in a row.
-Ultimate Evasion: Generates an Iron Curtain that hits enemies in the AOE, dealing 50% ATK of Physical DMG per 0.5s and pulling them in for 3s. Base CD: 15s.
+## 긴급 회피
 
-### Speedy Recovery
+적의 공격 회피
+극한 회피 시, 이전 자리에 에너지 역장이 생겨 적을 공격한다. 0.5초당 공격력 50%의 물리 대미지를 가하고, 적을 역장 안으로 끌어들인다. 3초간 지속, 재사용 대기시간 15초.
 
-Shortens CD of Ultimate Evasion by 3.00s.
+### 급속 충전
 
-### Zamorozka Freeze
+극한 회피 효과 재사용 대기시간 3초 감소
 
-Iron Curtain also deals 30.0% ATK of Ice DMG for each hit.
+### 냉동액
 
-## Charged ATK: Sturmovik
+에너지 역장의 공격이 매번 추가로 공격력 30%의 빙결 대미지를 입힌다.
 
-Perform a charged leap into the air for a Dive ATK.
-At max Blitz Power (BP), tap and hold the [ATK] button to spend all KE, aim at the attack site, and release the [ATK] button to unleash Diving Ilyusha.
-Diving Ilyusha: Deals 1000% ATK of Physical DMG and knocks enemies airborne.
+## 순신격
 
-### Hardened Sabot
+KP가 최대치 일때 우측 하단 버튼을 길게 눌러서 발동
+차지 후 도약하여 내려찍는다.
+공격 버튼을 누르고 있는 동안 이동하여 공격 위치를 정한 후, 손가락을 떼어 즉시 공격한다.
+내려찍기: 공격력 1000%의 물리 대미지, 적을 공중에 띄운다.
 
-Charged ATK deals 50% more Physical DMG to shielded enemies.
+### 관통 강화
 
-### Tactical Stance
+차지 공격이 실드가 있는 적에게 가하는 대미지가 50% 증가한다.
 
-After Charged ATK, character enters Tactical Buff that gives 25% faster Move Speed, 20% Total DMG Reduction, and Ignore Interrupt for 7s.
+### 전술적 자세
 
-## We'll Bury You
+차지 공격 후 발키리가 강화 상태에 돌입, 이동 속도가 25% 증가하고 받는 모든 피해가 20% 감소하며, 경직력과 경직 저항력이 대폭 강화된다. 지속 시간: 7초
 
-Adopt a DEF stance to negate incoming attacks.
-Duration: 1.8s.When DEF Stance ends or when attacked during DEF Stance, Retaliation is triggered inflicting 550% + 400% ATK of Physical DMG and applies Weaken (deals 20% less DMG) to the enemy for 6s. If attacked immediately after taking DEF Stance, Retaliation EX is triggered, dealing 850% + 700% ATK of Physical DMG, proccing a brief Time Fracture and reducing Ultimate CD by 9s.
+## 방어 반격
 
-SP cost: 25. CD: 15s.
+SP가 25이상일때 우측 상단 버튼을 클릭
+방어 자세를 취해 공격을 흡수한다. 방어 자세 지속 시간 1.8초
+지속 시간이 끝나거나 공격을 받으면 돌진참을 발동하여 공격력 550%+400%의 물리 대미지를 입힉 허약 상태로 만들어 6초간 적의 대미지를 20% 감소시킨다.
+방어 자세를 취하자마자 공격을 받으면 강화 돌진참을 발동해 공격력 850%+700%의 물리 대미지를 가하며, 짧은 시공 단열과 함께 필살기의 재사용 대기시간이 9초 감소한다.
+재사용 대기시간 15초
 
-### Weakness Scan
+### 약점 간파
 
-After performing the Ultimate, character deals 50.0% more Physical DMG while Molotov Cherry deals 25.0% more Physical DMG for 30s. Triggering this again resets the duration.
+필살기 발동 시 자신의 물리 대미지가 50% 증가하고, 체리 폭탄의 물리 대미지가 25% 증가한다. 지속 시간: 30초, 중복 발동 시 지속 시간이 초기화된다.
 
-### Lethal Strike
+### 치명적 일격
 
-Ultimate gains 40.0% Crit Rate and 60.0% Crit DMG.
+필살기의 크리티컬률이 40% 증가하고 크리티컬 대미지가 60% 증가한다.
 
-### Composure
+### 정신집중
 
-Retaliation EX also recovers 12.0 SP.
+강화 돌진참 발동 시 자신의 SP를 12pt 회복한다.
 
-## Blitz Ataka
+## 연속 참격
 
-Swing that greatsword!<br>
-1st Sequence: 150% ATK of Physical DMG.
-2nd Sequence: 150% ATK of Physical DMG.
-3rd Sequence: 150% + 3x100% ATK of Physical DMG.
-4th Sequence: 2x100% + 300% ATK of Physical DMG.
+우측 하단 버튼을 클릭
+1격 : 공격력 150%의 물리 대미지
+2격 : 공격력 150%의 물리 대미지
+3격: 공격력 150% + 3*100% 물리 데미지
+4격 : 공격력 2*100% + 300%의 물리 대미지
 
-### Flash Freeze
+### 급속 냉각
 
-Each Basic ATK hit also deals 300.0 Ice DMG.
+기본 공격이 추가로 300의 빙결 대미지를 입힌다.
 
-### QTE: Operation Gemina
+### QTE:엄호 타격
 
-QTE: Triggered when enemy is knocked airborne or when teammate is hit (does not work in co-op/squad modes), dealing 3x150% + 300% ATK of Physical DMG. Heal Molotov Cherry for 300.0 HP if she is in the team.
+적이 체공 상태일 때 또는 아군이 피격시(멀티/소대 불가)
+주위에 적에게 공격력 3\*150%+300%의 물리 대미지를 가한다. 체리 폭탄이 팀에 있으면 체리 폭탄의 HP를 300 회복한다.

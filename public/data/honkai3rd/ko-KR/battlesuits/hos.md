@@ -1,118 +1,128 @@
-# Herrscher of Sentience
+# 의식의 율자(작업중)
 
-## Alliteration is an Agony
+## 시는 나를 싫어해
 
-Leader Bonus:
-Team deals 26% Crit DMG in burst mode. For every BIO battlesuit on the team, team has 4% bonus Crit Rate.
+리더로 배치 시 파티원이 버프를 받는다.
+리더 스킬: 파티원과 캐릭터가 폭발 상태 시 크리티컬 대미지가 26.0% 증가한다. 파티의 생물 캐릭터 1명마다 (최대 3명) 파티원 캐릭터의 크리티컬률이 4.0% 증가한다.
 
-### Alliteration is an Agony
+### 시는 나를 싫어해
 
-Team deals 30.0% Crit DMG in burst mode. For every BIO battlesuit on the team, team has 6.0% bonus Crit Rate.
+파티원과 캐릭터가 폭발 상태 시 크리티컬 대미지가 26.0% 증가한다. 파티의 생물 캐릭터 1명마다 (최대 3명) 파티원 캐릭터의 크리티컬률이 4.0% 증가한다.
 
-## Ace Arsenal
+## 도창검극부구차
 
-Passive bonuses apply automatically.
-Every weapon has an independent gauge of kinetic energy that starts at 300 and maxes at 300. Recovery:The weapon in use restores 3 points every 0.1s.Weapons not in use restore 1 point every 0.1s.Sword & spear: Every hit of Basic ATK restores 9 points.
-Chain blades: every hit of Basic ATK restores 12 points.
-All weapons restore 300 points when Herrscher form ends.
+패시브 스킬은 자동으로 발동한다.
+무기마다 독립적인 KP를 보유한다. 초기치 300pt, 최대치 300pt.
+KP는 다음과 같은 방법으로 회복할 수 있다.
+사용 중인 무기: 0.1초마다 3pt를 회복한다.
+미사용 무기: 0.1초마다 1pt를 회복한다.
+보검/장창: 기본 공격이 명중할 때마다 9pt를 회복한다.
+사슬: 기본 공격이 명중할 때마다 12pt를 회복한다.
+율자 형태가 종료 시: 모든 무기가 300pt를 회복한다.
 
-Certain attacks inflict coma on enemies. Enemies in a coma are immobilized and take 200% ATK of Physical DMG when the coma ends.
+일부 공격은 적을 혼미상태에 빠뜨린다. 혼미 상태의 적은 움직일 수 없으며, 상태 해제 시 추가로 공격력 200%의 물리 대미지를 받는다.
 
-### Innate Invulnerability
+### 적의 방패 날로 참한다
 
-Combo ATKs grant Shield: I'm Untouchable to all unshielded team members. Shield HP equals 30% of Valkyrie's max HP. The shield grants 50% DMG Reduction, moderate Ignore Interrupt, and boosts team Crit DMG by 30.0%. Subsequent procs refresh the shield. CD: 12s.
+임의의 분기 공격 사용할 시, 실드 스킬의 영향을 받지 않은 아군 캐릭터에게 [실드·속수무책]을 부여한다. 실드 HP는 자신의 HP 최대치의 30%이며 캐릭터가 받는 모든 대미지의 50%를 막는다. 또한 경직 저항력이 소폭 증가하고, 파티원이 가하는 크리티컬 대미지가 30.0% 증가하며 중복 발동 시 실드가 갱신된다. 최단 발동 간격: 12초
 
-### Stellar Start
+### 압운은 실로 어렵구나!
 
-Valkyrie has 20.0 bonus initial SP. Can only be triggered once every 10 minutes in Open World.
+참전 시 초기 SP가 20.0pt 증가한다. 오픈 월드에서 10분마다 1회 발동한다.
 
-### Against All Authority
+### 자미가 내 뜻을 거스르니
 
-When Valkyrie sends an enemy into coma, they take 15.0% bonus Physical DMG from her for 15s (independent effect). In addition, when she impairs enemies with her own skills, they take 15.0% bonus Physical DMG while the Impair lasts (independent effect; mutually exclusive with Night Squire's skill Authority).
+의식의 율자가 적을 혼미상태로 만들면, 해당 캐릭터가 가하는 물리 대미지가 15초간 15.0% 증가한다(해당 효과는 독립적으로 부여된다). 또한 의식의 율자가 자신의 스킬로 적을 취약상태로 만들면, 적이 받는 물리 대미지가 15.0% 증가한다(해당 효과는 독립적으로 부여된다).
+효과는 취약 상태 해제까지 지속되며 백야집사의 [자미]스킬과 중첩할 수 없다.
 
-## A Wraith without Trace
+## 흔적은 있지만 떠난 흔적은 있어
 
-Quickly dodge enemy attacks. Can be performed twice in a row.
-Ultimate Evasion triggers 2.5s of global Time Fracture. Base CD: 20s. Minimum CD: 16s.
+빠르게 이동해 공격을 회피한다. 2회 연속 회피할 수 있다.
+극한 회피 시 2.5초간 전체 시공 단열에 진입한다. 스킬 재사용 대기시간: 20초, 최소 16초.
 
-Evasions create an Illusion: Hit Me! lasting 3s which taunts enemies and explodes when hit or expired. The explosion deals 400% ATK of Physical DMG and procs Ultimate Evasion skill on hit. Only one illusion can exist and they cannot be created while Ultimate Evasion skill is in cooldown.
+회피 시 제자리에 [환상·때려봐!]를 3초간 생성한다. 환상은 적을 조롱하며, 적에게 피격되거나 지속 시간이 끝나면 폭발한다. 폭발이 적에게 명중하면 공격력 400%의 물리 대미지를 가하고, 극한 회피 스킬 효과가 발동한다.
+환상은 1개만 존재할 수 있으며, 극한 회피 스킬 재사용 대기시간 동안은 환상을 생성할 수 없다.
 
-In non-Herrscher form, Valkyrie begins sword riding after running for a duration and deals 50% ATK of Physical DMG per 0.5s to enemies nearby. Weapon switch ATKs are disabled while sword riding. Tap [ATK] to deal 150% ATK of Physical DMG and end sword riding.
+율자 형태가 아닐 때 캐릭터는 일정 시간 달리면 어검 상태에 진입한다. 어검 이동 시 0.5초마다 주변의 적에게 50%의 물리 대미지를 가한다. 어검 상태에서는 교체 공격을 발동할 수 없으며, 기본 공격 버튼을 누르면 공격력 150%의 물리 대미지를 가하고 정상 상태로 돌아온다.
 
-### Blown away with a Big Bang
+### 흩어진 향과 그림자가 진동하니
 
-Illusions can be detonated by Valkyrie attacks.
+환상은 캐릭터에게 적중해도 폭발한다.
 
-### The Wicked Will never Win
+### 귀신이 곡할 노릇이로구나
 
-Illusion explosions deal 400.0% ATK of bonus Physical DMG.
+환상이 폭발해 400.0%의 물리 대미지를 가한다.
 
-### Fluffy and Florescent
+### 검은 깃털 유유히 무지개를 이루네
 
-When illusions explode, they drop a black plume on hit. Pick it up to restore 150.0 HP and 15.0 SP for all team members.
+환상이 폭발해 적에게 명중 시, 제자리에 검은 깃털 하나가 떨어지며, 깃털 획득 후 파티원은 150.0의 HP와 15.0pt의 SP를 획득한다.
 
-## Combo: Transcendence of Trinity
+## 분기-백의 칼날, 천의 기세
 
-Hold [ATK] to perform enhanced attacks.
-Consume full kinetic energy of the current weapon to perform Combo ATK.
-Sword: Gather and Time-Lock enemies to smite them dealing 1390% ATK of Physical DMG.
-Spear: Hurl the spear to gather and strike enemies before blinking over to follow up dealing 820% ATK of Physical DMG.
-Chain blades: Launch AOE attacks dealing 850% ATK of Physical DMG and inflicting 1.2s of coma on enemies.
+공격 버튼을 길게 눌러 강력한 공격을 발동한다.
+사용 중인 무기의 KP가 가득 찼을 때 공격 버튼을 길게 누르면 모든 KP를 소모해 대응하는 무기의 분기 공격이 발동한다.
+보검: 적을 모아 시공 속박 상태에 빠뜨리고 맹렬한 공격으로 총 공격력 1390%의 물리 대미지를 가한다.
+장창: 창을 던져 목표에 명중하면, 적을 모으고 순식간에 이동한 후 연격을 발동해 총 공격력 820%의 물리 대미지를 가한다.
+사슬: 광범위 공격을 발동해 총 공격력 850%의 물리 대미지를 가하고, 적을 1.2초간 혼미 상태에 빠뜨린다.
 
-### Riding the Blade Waves
+### 무한히 이어지는 검기
 
-Every weapon switch or QTE grants 5s of Psyched status where the next Combo ATK restores 5.0 bonus SP and removes the status.
+무기를 교체하거나 QTE를 발동하면 5초간 흥분 상태에 진입한다. 해당 상태에서 분기 공격을 사용하면 캐릭터는 SP를 5.0pt 회복하고 해당 상태는 해제된다.
 
-### Spear Stands for Strength
+### 허점을 파고드는 창
 
-Spear Combo ATKs impair enemies and reduce their DEF by 50% for 15.0s.
+창의 분기 공격은 적을 취약 상태로 만들어 방어력을 50% 감소시킨다. 지속 시간 15.0초
 
-### Mercy Means Meekness
+### 영웅에게 용서란 없다
 
-In Psyched status, Combo ATKs restore 2 bonus SP and have special effects:Sword: The 2nd sequence inflicts 0.5s of coma on enemies hit. Spear: The 1st sequence Time Locks enemies for 1s on hit. Chain blades: Attacks impair enemies and reduce their DEF by 50% for 15s.
+흥분 상태에서 분기 공격을 사용하면 추가로 sp를 2pt 회복하고, 다음과 같은 효과를 획득한다.
+보검: 제 2격 명중 후 적을 0.5초간 혼미 상태에 빠뜨린다.
+장창: 제 1격 명중 후 적을 1초간 시공 속박 상태에 빠뜨린다.
+사슬: 공격 시 적을 15초간 취약 상태로 만들어 방어력을 50% 감소시킨다.
 
-## A Worldful of Woes
+## 고난의 속세
 
-Enter Herrscher form and use the weapon case to attack.
-Hold [ULT] to enter Herrscher form, create an illusive space, and launch spiritual attacks on enemies in a large area, dealing 1800% ATK of Physical DMG. This attack has 40% bonus Crit Rate and temporarily suspends all skill timers (for self and enemies) and the stage timer.
+율자 형태에 진입해 [은갑·칼집의 칼]로 공격한다.
+필살기 버튼을 길게 누르면 율자 형태에 진입해 환상 영역을 전개하고, 넓은 범위의 적에게 정신 소멸 공격으로 공격력 1800%의 물리 대미지를 가한다. 해당 공격의 크리티컬률이 추가로 40% 증가하고, 발동 기간 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다.
 
-In Herrscher form (burst mode), all enemies are impaired and have 75% less DEF, while Valkyrie has improved Ignore Interrupt and 40% Total DMG Reduction for 15s.Tap [ATK] repeatedly to perform a 3-sequence combo dealing 1120% ATK of Physical DMG.
-Hold [ATK] to perform Combo ATK: Slashes dealing Nx105% + (800% + Nx50%) ATK of Physical DMG. Spam or hold [ATK] to increase slashes (max: 10). Every slash boosts self Total DMG by 2% until the Combo ATK ends.
-Tap [ULT] to launch special ATK: Illusive Cataclysm, gathering enemies in a large area and dealing 350% ATK of Physical DMG. CD: 8s. The cataclysm lasts until the end of Herrscher form and enemies on it will not be knocked back.
-SP cost: 125.
+율자 형태(폭발 상태로 간주)에서 15초간 경직 저항력이 대폭 증가하고, 받는 모든 대미지가 40% 감소하며, 동시에 전장의 모든 적을 취약 상태로 만들고 방어력을 75% 감소시킨다.
+기본 공격 버튼을 연속으로 사용해 무기 3연격을 발동하면, 총 공격력 1120%의 물리 대미지를 가한다.
+기본 공격 버튼을 길게 누르면 분기 공격-연속 참격을 발동해 총 공격력 N\*105%+(800%+N\*50%)의 물리 대미지를 가한다. 기본 공격 버튼을 연속으로 누르거나 길게 누르면, 연속 참격 횟수가 최대 10회까지 증가한다. 연속 참격마다 자신의 모든 대미지가 2% 증가하고 분기 공격이 끝날 때까지 지속된다.
+필살기 버튼을 누르면 특수 공격-환상 균열을 발동해 넓은 범위의 적을 모으며 공격력 350%의 물리 대미지를 가한다. 재사용 대기 시간: 8초
+균열은 율자 형태가 끝날 때까지 전장에 유지되며 균열에 있는 적은 밀려나지 않는다.
 
-### A Leaf for Lifeboat
+### 잎사귀로 배를 엮어
 
-In Herrscher form, Valkyrie deals 60.0% bonus Crit DMG.
+율자 형태에서 크리티컬 대미지가 추가로 60.0% 증가한다.
 
-### Warden of the World
+### 천하를 돕고 싶으니
 
-In Herrscher form, attacks from teammates summon a plume attack from HoS on hit, dealing 180.0% ATK of Physical DMG. CD: 0.5s. 15 procs max.
+율자 형태에서 파티원이 공격이 적에게 명중 시, 해당 적에게 추가로 의식의 율자의 깃털 공격을 발동해 공격력 180.0%의 물리 대미지를 가한다. 해당 효과는 0.5초마다 1회 발동한다. 최대 발동 횟수: 15회
 
-### Votive in Vain
+### 근심에 편치 못하네
 
-Using Ultimate or special ATK triggers a shield. Special ATK additionally inflicts 1.0s of coma on hit.
+필살기나 특수 공격 발동 시, 자동으로 실드 스킬이 발동한다. 특수 공격이 적에게 명중하면 추가로 1.0초간 적을 혼미 상태로 만든다.
 
-## Trial of Trinity
+## 검은 내 뜻과 맞지 않아
 
-Use the sword/spear/chain blades to attack.
-Sword: 4 sequences dealing 810% ATK of Physical DMG.
-Spear: 5 sequences dealing 775% ATK of Physical DMG. The 2nd & 5th sequences gather enemies.
-Chain blades: 3 sequences dealing 750% ATK of Physical DMG.
+[보검·설참신검]/[장창·말 대신 창으로!]/[사슬·기기괴괴]를 사용해 전투한다.
+보검: 4연격, 총 공격력 810%의 물리 대미지를 가한다.
+장창: 5연격, 총 공격력 775%의 물리 대미지를 가한다. 제 2격과 제 5격 기간 적을 모을 수 있다.
+사슬: 3연격, 총 공격력 750%의 물리 대미지를 가한다.
 
-Tap [ULT] to switch weapon and perform weapon switch attack.
-Sword to spear: Connect into the 2nd sequence of spear Basic ATK.
-Spear to chain blades: 160% ATK of Physical DMG.
-Chain blades to sword: 160% ATK of Physical DMG.
+필살기 버튼을 누르면 현재 무기를 교체할 수 있고, 공격 도중 무기를 교체하면 교체 공격이 발동한다.
+보검에서 장창으로 교체: 바로 창의 기본 공격 2단을 이어서 발동한다.
+창에서 사슬로 교체: 공격력 160%의 물리 대미지를 가한다.
+사슬에서 보검으로 교체: 공격력 160%의 물리 대미지를 가한다.
 
-### The Best of Both Worlds
+### 속세에 들어선 건 내 뜻이니
 
-Upon entry or exit, Valkyrie deals 30.0% bonus Total DMG for 15s.
+캐릭터가 입장/퇴장할 때마다 자신의 모든 대미지가 15초간 30.0% 증가한다.
 
-### The World Is Never Enough
+### 일생 검과 검의에 의지하여
 
-In non-Herrscher form, attacks restore 2.0 SP and 30.0 kinetic energy for all weapons on hit. Only procs once every 5s for every weapon.
+율자 형태가 아닐 때, 공격이 적에게 명중하면 추가로 SP를 2.0pt, 모든 무기의 KP를 30.0pt 회복한다. 해당 효과는 무기마다 5초에 1회 발동한다.
 
-### QTE: Always Here, Always Ready
+### QTE-부름에 휘두르고 떠나렸다
 
-Triggered by Time-Slowed enemies in non-Herrscher form to launch spear attacks dealing 400.0% + 800.0% ATK of Physical DMG and restoring 300 spear energy.
+QTE: 율자 형태가 아닐 때, 적이 시공 감속 상태일 시 발동한다. 창으로 자동 교체 후 공격력 400.0%+800.0%의 물리 대미지를 가하고, 동시에 창은 KP를 300pt 회복한다.

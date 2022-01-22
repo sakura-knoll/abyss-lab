@@ -1,102 +1,102 @@
-# Luna Kindred
+# 월하초옹(작업중)
 
-## Mark of Cain
+## 사라져야 할 인장
 
-Leader Bonus:
-Mark of Cain: Shortens duration of most debuffs by 25% for the team. BIO-type character gains 15% Physical DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+모든 파티원의 대부분 상태 이상 지속 시간이 40% 감소한다. 생물 속성 캐릭터의 물리 대미지가 24% 증가한다.
 
-### Mark of Cain
+### 사라져야 할 인장
 
-Shortens debuff durations by 40% for the team. BIO-type characters gain 24% Physical DMG.
+모든 파티원의 대부분 상태 이상 지속 시간이 40% 감소한다. 생물 속성 캐릭터의 물리 대미지가 24% 증가한다.
 
-## Passive
+## 패시브 스킬
 
-Passive bonuses apply automatically.
+패시브 스킬은 자동으로 발동한다.
 
-### Unholy Relic
+### 신성한 해골
 
-Gain 30.0 initial SP in battle. This bonus triggers once every 10 minutes in Open World.
+전투 중 초기 SP 30.0 증가. 오픈 월드에서는 10분에 한 번씩 발동 가능.
 
-### Unclean Thorns
+### 불결한 가시
 
-After deploying the Cross, gain X% faster Attack Speed for Xs.
+십자가 전개
+6.0초 동안, 자신의 공격 속도가 50.0% 증가한다.
 
-### Kindred's Pact
+### 혈족 계약
 
-Attacks against bleeding enemies gain 60.0% Physical DMG. When attacked by bleeding enemies, gain 25.0% Total DMG Reduction.
+출혈 상태의 적을 공격 시 물리 대미지가 60.0% 증가하고 출혈 상태의 적에게 피격 시 받는 모든 대미지가 25.0% 감소한다.
 
-## Ethereal Nightmare
+## 무형의 악몽
 
-Quick sideways dodge to evade enemy attack. Can be triggered 2 times in a row.
-After Ultimate Evasion, gain 40% Move Speed for 3s.
-Time Fracture: Triggers Time Fracture upon an Ultimate Evasion, slowing all enemies for 3s. CD: 15s.
+적의 공격 회피
+2번 연속 사용 가능. 극한 회피 후 3초 동안 이동 속도 40% 증가.
+시공 단열：3초 동안 전체 시공 단열을 발동해 모든 적의 행동이 느려지게 한다. 쿨타임 15초.
 
-### Night of Fright
+### 방황의 밤
 
-Extends the duration of Time Fracture by Xs.
+시공 단열 지속 시간 1.5초 증가.
 
-### Mist Form
+### 안개가 되어버린 몸
 
-Shortens CD of Ultimate Evasion skill by Xs.
+극한 회피 재사용 대기시간 4.00초 감소.
 
-### Sacrilege
+### 신성모독
 
-Charged ATK gains 12.0% Crit Rate.
+차지 공격의 크리티컬률 12.0% 증가.
 
-## Charge ATK: Axe of the Fallen
+## 타락한 도끼
 
-Charge during the 4-sequence Basic ATK to swing an Axe!.
-Tap and hold the [ATK] button during the 4-sequence Basic ATK to unleash Axe of the Fallen.
-After charging, tap the [ATK] button to swing the Axe. Other actions unsummon the Axe.
-50 or more Sanguine Mark: Attacks consume 50 Sanguine Mark.
-1st Sequence: 150%+250% ATK
-2nd Sequence: 150%+250% ATK of Physical DMG
-Less than 50 Sanguine Mark: Hits deal 100%+200% ATK of Physical DMG
-Sanguine Mark cap: 200
-Sanguine Mark recovery: 5/s. Does not regenerate while undeployed.
+공격 버튼을 꾸욱 눌러 발동
+타락한 도끼를 휘두른다. 차지 후, 공격 버튼을 누르면 연이어 타락한 도끼를 휘두를 수 있다. 다른 조작으로 사용을 취소시킬 수 있다.
+피의 인장 50 이상일 때：공격 시 피의 인장 50을 소모하고, 공격력의 150%+250% 물리 대미지를 준다.
+피의 인장 50 미만일 때：타격마다 공격력의 100%+200% 물리 대미지.
+차지 사용 후 1.5초 동안 피의 인장을 회복하지 않는다.
 
-### Bleeding Roses
+### 장미 혈흔
 
-Charged ATKs that consume Sanguine Mark bleed enemies hit, dealing 240 Physical DMG every 0.5s for 6.5s.
+피의 인장을 소모하는 차지 공격은 명중한 적을 6.5초 동안 출혈 상태로 만들어 0.5초마다 240의 물리 피해를 준다.
 
-### Switch: Entomb
+### 교대기 매장
 
-Deals 320.0% ATK of Physical DMG.
+캐릭터 교체
+적에게 공격력의 320% 물리 대미지를 입힌다.
 
-### QTE: Blood Moon Kiss
+### QTE 붉은 달의 키스
 
-QTE: Triggers when enemy is paralyzed. Deals 700.0% ATK of Physical DMG and bleeds enemies to further deal 240.0 Physical DMG every 0.5s for 6.5s.
+적이 마비 상태일 때 캐릭터 교체
+공격력의 700.0% 물리 대미지를 입히고 6.5초 동안 출혈 상태로 만들어 0.5초마다 240.0 물리 피해를 준다.
 
-## Feast for the Dead
+## 망자의 성연
 
-Drop the Axe of Fallen from the sky for large AOE damage.
-Axe Drop: 2x300%+600% ATK of Physical DMG.
-SP cost to activate: 75
+SP 75 이상
+공중에서 거대한 도끼를 던져 큰 범위에 공격력의 2\*300%+600% 물리 대미지를 입힌다.
 
-### Tomb for the Living
+### 생자의 무덤
 
-Final sequence of Ultimate deals an additional 300% ATK of Physical DMG. When scoring a hit, triggers a global Time Fracture for 5.0s.
+필살기의 마지막 공격이 추가로 공격력의 300% 물리 대미지를 입힌다. 명중 시 5.0초 동안 전체 시공 단열을 발동한다.
 
-### Blood Frenzy
+### 광혈증
 
-When Ultimate deals DMG, gain 100 Sanguine Mark. During Ultimate, gain 12 Sanguine Mark per second while Charged ATKs gain 40.0% Total DMG Multiplier. Duration: 8.0.
+필살기로 대미지를 준 후 피의 인장 100을 회복한다. 8.0초 이내에 초당 피의 인장을 12씩 회복하고 차지 공격으로 가하는 모든 대미지가 40.0% 증가한다.
 
-## Tainted Blades
+## 불결한 쌍검
 
-Basic ATK: 4-sequence twin blade Melee ATK.
-1st Sequence: 2x50% ATK of Physical DMG.
-2nd Sequence: 2x50% ATK of Physical DMG.
-3rd Sequence: 2x60%+70% ATK of Physical DMG.
-4th Sequence: 2x50%+2x70% ATK of Physical DMG.
+근거리 4단 쌍검 공격
+1단：공격력의 2*50% 물리 대미지
+2단：공격력의 2*50% 물리 대미지
+3단：공격력의 2*60%+70% 물리 대미지
+4단：공격력의 2*50%+2\*70% 물리 대미지
 
-### Anemia
+### 빈혈효과
 
-Basic ATK (and Charged ATK) hits have a X% chance to weaken the enemy and reduce its ATK by 50% for 2s. After the weaken debuff ends, the enemy takes an additional X% ATK of Physical DMG. CD between triggers: 2s.
+기본 공격(차지 공격 포함) 적중
+20.0%의 확률로 적을 2초 동안 허약 상태로 만들어 공격력을 50% 감소시킨다. 허약 상태가 끝난 후 적은 공격력의 80.0% 추가 물리 대미지를 받는다. 최단 발동 간격 2초.
 
-### Soul Drinker
+### 흡혼귀
 
-When any hit of the Basic ATK sequence deals DMG against a bleeding enemy, heal 27.0 HP and gain 20.00 Sanguine Mark. Effect applies to non-bleeding enemies at below 50 Sanguine Mark.
+기본 공격의 매 단계 공격이 출혈 상태의 적에게 피해를 입힐 경우, HP를 27.0, 피의 인장을 20.00 회복한다. 피의 인장이 50 미만일 때 출혈 상태가 아닌 적에게도 이 효과를 1회 발동한다.
 
-### Sanguine Curse
+### 피의 주문
 
-When Combo Hit Count exceeds 30, each of the 4 Basic ATK sequences deals an additional 20.0% ATK of Physical DMG.
+30콤보 이상
+기본 공격 4연격의 매 타격마다 공격력의 20.0% 물리 대미지를 추가한다.

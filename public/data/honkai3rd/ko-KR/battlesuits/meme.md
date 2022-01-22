@@ -1,102 +1,102 @@
-# Goushinnso Memento
+# 현신화·물망초(작업중)
 
-## Sakura Dance
+## 벚꽃의 춤
 
-Leader Bonus:
-All characters in the team gain 17% Crit Rate at above 80% HP.
-MECH-type battlesuits: Gain 30% All Elemental DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+모든 파티원의 HP 비율이 80%보다 높을 때 크리티컬률이 21% 증가한다. 기계 속성 캐릭터의 모든 원소 대미지 36% 증가한다.
 
-### Sakura Dance
+### 벚꽃의 춤
 
-All characters in the team gain 21% Crit Rate at above 80% HP. MECH-type battlesuits: Gain 36% All Elemental DMG.
+모든 파티원의 HP 비율이 80%보다 높을 때 크리티컬률이 21% 증가한다. 기계 속성 캐릭터의 모든 원소 대미지 36% 증가한다.
 
-## Passive
+## 패시브 스킬
 
-Passive bonuses apply automatically.
+패시브 스킬은 자동으로 발동한다.
 
-### Onimusha
+### 귀무
 
-5th Basic ATK sequence, Ultimate Evasion ATK, and Ultimate mark enemies. Attacks against marked / stunned / paralyzed / frozen / time slowed enemies deal 40.0% bonus Physical and Elemental DMG.
+기절, 마비, 빙결, 시공 감속 상태인 적 공격
+물리 대미지와 원소 대미지가 40.0% 증가한다.
 
-### Mercy
+### 인심
 
-Recovers 10.0 KE per second even when off the battlefield. Restores 30 KE per 0.25s for 10s after unleashing Ultimate.
+캐릭터가 대기 중에도 초당 10.0의 KP를 회복한다.
 
-## Clone Step
+## 그림자 스텝
 
-Quick dash to evade enemy attacks.
-White Shadow: A White Shadow (summoned entity) emerges upon Ultimate Evasion and explodes after 1s, dealing 200% ATK of Ice DMG to surrounding enemies (damage source:self). CD: 15s.
+적의 공격 회피
+극한 회피 시 얼음 잔상을 남긴다. 잔상은 1초 뒤 폭발하며 주변의 적에게 공격력의 200% 빙결 원소 대미지를 입힌다. 쿨타임 15초.
 
-### Shadow Breath
+### 그림자 호흡
 
-Recovers 120 kinetic energy instantly when Ultimate Evasion is triggered.
+극한 회피 시 120의 KP를 회복한다.
 
-### Freezing Image
+### 냉기의 형태
 
-Enemies affected by White Shadow explosion have a 100% chance of being frozen for 4.0s.
+잔상 폭발의 영향을 받은 적은 30% 확률로 4.0초 동안 빙결 상태가 된다.
 
-### Illumination
+### 정신 통일
 
-Shortens evasion CD by 3.0s.
+회피 효과 재사용 대기시간 3.0초 감소.
 
-## Combo: Instant Draw
+## 영시검의 섬광
 
-High speed battou slash.
-Consumes 200 kinetic energy to unleash Zankeki ULTRA and inflict minor Rime Trauma.
-Kinetic energy caps at 1000 and slowly regenerates when the Valkyrie is deployed.
-Zankeki: 50% ATK of Physical DMG.
-Zankeki ULTRA: 100% ATK of Physical DMG + 200% ATK of Ice DMG.
-Assault: 100% ATK of Physical DMG.
+공격 버튼을 길게 누른다.
+200 KP를 소모해 강화 참격을 연속으로 사용한다. KP를 전부 소모하면 돌진해 공격력의 100%의 물리 대미지를 입힌다.
+참격：공격력의 50% 물리 대미지
+강화 참격：공격력의 100% 물리 대미지+공격력의 200% 빙결 원소 대미지.
 
-### Frost Fang
+### 얼어붙은 이빨
 
-Each hit of Zankeki ULTRA additionally deals 300% ATK of Ice DMG.
+강화 참격의 매 타격마다 공격력의 300% 빙결 원소 대미지를 추가로 입힌다.
 
-### Switch: Falling Sakura
+### 앵화요란
 
-Switch entry triggers an ice explosion that deals 180.0% ATK of Ice DMG to surrounding enemies. When Switch and QTE skills hit a target, then recover 205 kinetic energy.
+캐릭터 교체
+출격 시 얼음 폭발을 유도하여 주변 적들에게 공격력의 180.0% 빙결 원소 대미지를 입힌다. 출격기와 QTE 사용 시 적을 명중하면 205 KP를 회복한다.
 
-### Warrior's Pride
+### 꽃의 강인함
 
-Gains Ignore Interrupt and 40.0% Total DMG Reduction when unleashing Basic or Combo ATKs. Each Zankeki ULTRA performed gives 1.50 SP.
+분기 공격 시전 중 받는 모든 대미지 40.0% 감소
 
-## Frigid Rave
+## 한천광무
 
-Instant battou slash against enemies in front.
-Icewind: Total of 900% ATK of Ice DMG, with the last hit freezing the target.
-Execute: Shatters the ice to deal 1200% ATK of Physical DMG.
-Energy Charge: Gains 250 KE upon unleashing Ultimate, and gains 30 KE per 0.25s for 10s when Ultimate ends.
-SP Cost: 125
+SP 125 이상
+열풍：총 900%의 빙결 원소 대미지를 입히고, 마지막 일격이 적을 빙결 상태로 만든다.
+참살：얼음을 깨부숴 공격력의 1200% 물리 대미지를 입힌다.
+에너지 충전：필살기 사용 시 250 KP를 회복한다.
 
-### Transcendence
+### 무아
 
-After using Ultimate, gains 30.0% Total DMG Multiplier for 12s.
+필살기 사용
+7초 동안 캐릭터가 입히는 모든 대미지 40.0% 증가.
 
-### Bone Eater
+### 악착
 
-For every enemy killed by the Ultimate, character heals self for 550 HP.
+필살기로 적을 처치할 때마다 자신의 HP를 550씩 회복.
 
-### Iceborn
+### 벚꽃 소나기
 
-Recovers an additional 600 kinetic energy when using Ultimates.
+필살기 사용 시 추가로 200 KP를 회복.
 
-## Kansakura
+## 한앵참
 
-Swift 5-sequence slash, with each sequence restoring 60 Kinetic Energy (KE) upon hit. Evading during the first 4 sequences does not interrupt the sequence connection.
-1st Sequence: 50% ATK of Physical DMG.
-2nd Sequence: 80% ATK of Physical DMG.
-3rd Sequence: 120% ATK of Physical DMG.
-4th Sequence: 120% ATK of Physical DMG.
-5th Sequence: 250% ATK of Physical DMG.
+빠른 속도의 5단 베기. 공격이 적중할 때마다 40KP를 회복한다.
+1단：공격력의 50% 물리 대미지
+2단：총 80%의 물리 대미지
+3단：공격력의 120% 물리 대미지
+4단：총 120%의 물리 대미지
+5단：공격력의 250% 물리 대미지
 
-### Ice Spirit
+### 얼음같은 혼
 
-Each Basic ATK deals 35.0% ATK of bonus Ice DMG. 1st-4th Basic ATK sequences gain 30.0% faster Attack Speed, while the 5th sequence gives 30.0% Total DMG Multiplier buff for 8s.
+기본 공격 5연타의 각 공격마다 공격력의 35.0% 빙결 원소 대미지를 입힌다.
 
-### Energizing Flurry
+### 육화 산란
 
-Basic ATKs recover 15.0 kinetic energy upon landing a critical strike.
+기본 공격이 크리티컬 시 15.0의 KP를 회복한다.
 
-### QTE: Freezing Art
+### QTE: 냉기참
 
-QTE: Triggers upon shieldbreak. Unleashes sword ki of frost that deals 600.0% ATK of Ice DMG and freezes enemies for 4s.
+적의 실드를 파괴한 순간 캐릭터 교체
+빙결검기를 휘둘러 공격력의 600.0% 빙결 원소 대미지를 입히고 적을 4초간 빙결시킨다.

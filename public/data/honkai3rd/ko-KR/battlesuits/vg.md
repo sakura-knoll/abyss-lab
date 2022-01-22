@@ -1,101 +1,102 @@
-# Valkyrie Gloria
+# 발키리·영광
 
-## Praefect Equites
+## 기사 통솔
 
-Leader Bonus:
-Praefect Equites: Boosts 30.0% bonus Fire DMG. Throws deal 17.0% bonus total DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+기사 통솔: 모든 파티원의 화염 원소 대미지가 30.0% 증가하고, 던지기의 모든 대미지가 17.0% 증가한다
 
-### Praefect Equites
+### 기사 통솔
 
-Boosts Fire DMG by 30.0% and total DMG of Throw by 17.0% for the team.
+모든 파티원의 화염 원소 대미지가 30.0% 증가하고, 던지기의 모든 대미지가 17.0% 증가한다
 
-## Passive Skill
+## 패시브 스킬
 
-Passive bonus apply automatically
-Resolve: Starts at 240 and maxes at 480.
+패시브 스킬은 자동으로 발동한다.
+전의: 최대치 600pt, 초기 임계치 200pt
 
-### Burning Honor
+### 광휘
 
-Deals 55.0% more Fire DMG against ignited enemies.
+연소 상태의 적에게 가하는 화염 원소 대미지가 55.0% 증가한다
 
-### Medal of Victory
+### 승리의 훈장
 
-Performing at Throw with weapon active entering cooldown or inflicting Collapsed debuff recovers 480 Resolve. Triggering Throw Counter recovers 240 Resolve.
+적에게 던지기를 1회 사용해 무기 스킬 재사용 대기시간을 발동하거나 적을 붕괴 상태로 1회 만들면 전의를 480pt 회복한다. 반격 던지기를 발동하면 전의를 240pt 회복한다.
 
-### Victorious Pursuit
+### 기세 몰이
 
-Triggers a/an 2.0s Time Fracture when unleashing Throw of activating the CD of weapon skills.
+적에게 던지기를 1회 사용해 무기 스킬이 재사용 대기시간일 경우
+시공 단열 효과를 2.0초 발동할 수 있다.
 
-## Augur Martialis
+## 통찰 본능
 
-Tap [ATK] upon Ultimate Evasion to directly unleash the 5th sequence.
-Augur Martialis: Restores 120 Resolve and triggers Time Fracture for 3s. CD: 15s.
+적의 공격을 빠르게 회피하며 연속으로 2회 회피할 수 있다.
+극한 회피 시, 공격 버튼을 길게 누르면 다섯 번째 공격을 발동할 수 있다.
+통찰 본능: 전의를 120pt 회복하고, 시공 단열을 3초간 발동한다. 재사용 대기시간: 15초
 
-### Battle Stampede
+### 짓밟기
 
-In Combat Focus state, the 5th sequence of Basic ATK deals 40.0% more Total DMG.
+전의 집중 상태에서 기본 공격의 5번째 공격의 모든 대미지가 40.0% 증가한다
 
-### Temperance
+### 준비완료
 
-Augur Martalis grants Combat Focus for 3s, where the Valkyrie can directly unleash the 5th sequence of Basic ATK after evasion by tapping [ATK] and restores 3.0 SP and 40 Resolve on hit.
+통찰 본능 발동 후 전의 집중 상태를 3초간 획득한다. 이때 회피 동작 후 공격 버튼을 누르면 5번째 기본 공격을 발동할 수 있고 적에게 명중 시, 추가로 자신의 SP를 3.0, 전의를 40pt 회복한다.
 
-## Charged ATK: Impetus Gloria
+## 차지-영광의 행군
 
-Tap & hold [ATK] to unleashed Charged ATKs.
-At least 240 Resolve: Hold [ATK] to gain Adamance and Iron Body after 0.6s and enter Sprint Stage 1, where each hit costs 40 Resolve and deals 50% ATK of Physical DMG & 80% ATK of Fire DMG.
-Consume at lease 240 Resolve to enter Sprint Stage 2, where Fire DMG of each hit rises to 100% ATK.
-Consume at lease 240 Resolve: Release [ATK] to launch Sprint ATK dealing 100% ATK of Physical DMG & 450% ATK of Fire DMG, or perform 1st sequence of Basic ATK otherwise.
-While in Aura Ignis with over 240 Resolve, hold [ATK] to consume all Resolve for Decisive Blow dealing 8x60%+350% ATK of Fire DMG & 200% ATK of Physical DMG. Every Resolve consumed boosts total DMG by 0.2%.
+공격 버튼을 길게 눌러 차지 공격을 발동한다.
+전의가 240pt보다 높을때: 공격 버튼을 길게 누르면 뛰게 시작해 0.6초 후 돌진 상태 1단계에 진입하고 강직 및 슈퍼아머 효과를 획득하며, 이때 적에게 명중 시 전의를 40pt 소모해 공격마다 공격력 50%의 물리 대미지+공격력 80%의 화염 대미지를 입힌다.
+최소 240pt의 전의를 소모하면 돌진 상태 2단계에 돌입하여 명중된 적에게 가하는 대미지가 공격력 100%의 화염 대미지로 증가한다.
+최소 240pt의 전의 소모 후 공격 버튼을 놓으면 돌진 공격을 발동해 공격력 100%의 물리 대미지+공격력 450%의 화염 원소 대미지를 입힌다. 아닌 경우 기본 공격 첫 번째 공격이 나간다.
+필살기 성염 결계 안에서 전의가 240보다 높을 때 공격 버튼을 길게 누르면 전의를 전부 소모해 결전의 강타를 발동해 공격력 8\*60%+350%의 화염 원소 대미지+공격력 200%의 물리 대미지를 입히며 소모한 전의 1마다 모든 대미지가 0.2% 증가한다.
 
-### Unwavering
+### 불굴
 
-In Sprint Status, for ever 40 Resolve consumed, Sprint ATK deals 40.0% ATK of bonus Fire DMG.
+돌진 상태일 때 1초마다 전의를 40 소모한다. 돌진 공격은 추가로 공격력 40.0%의 화염 원소 대미지를 입힌다
 
-### Fiery Will
+### 전의 격앙
 
-During Sprint ATK of Decisive Blow, every 240 Resolve consumed grants stack of Fiery Will which boosts Fire DMG by 6.0% and reduces total DMG taken by 5% for 30s (10 stacks max).
+돌진 공격, 결전의 강타 시간 동안 240pt의 전의를 소모하면 전의 격앙 효과를 1스택 획득해 화염 원소 대미지가 6.0% 증가하고, 받는 모든 대미지가 5% 감소한다. 지속 시간: 20초, 최대 중첩: 10회
 
-### Fueled by War
+### 파군 폭격
 
-Decisive Blow additionally grants 2 stack(s) of Fiery Will; with max stacks of Fiery Will, the final hit of Decisive Blow deals 250.0% of bonus Fire DMG.
+결전의 강타는 추가로 전의 격앙 효과를 2스택 획득하고, 전의 격앙 효과의 스택이 가득 차면 결전의 강타 마지막 일격이 추가로 공격력 250.0%의 화염 원소 대미지를 입힌다.
 
-## Eruptio Magnifica
+## 타오르는 광휘
 
-Unleashes a Might Blow with a massive lance
-Leap towards the target and pull in nearby enemies for a  short duration, dealing 2x300% ATK of Physical DMG + 2x300% ATK of Fire DMG, then hurl a massive lance to further deal 500% ATK of Physical DMG + 1800% ATK of Fire DMG and inflict Quantum Implosion on QUA enemies, and generates an Aura Ignis covering the entire field, where Basic ATKs and Throw Counter recover twice the Resolve and Valkyrie gains higher Ignore Interrupt for 15s.
+거대화한 랜스를 사용해 강력한 일격을 가한다.
+목표에게 도약해 짧은 시간 주변의 적을 끌어당기고 공격력 2\*300%의 화염 원소 대미지를 가하고, 마지막에 거대한 랜스를 던져 공격력 500%의 물리 대미지 + 공격력 1800%의 화염 원소 대미지를 가한다. 양자 속성의 적에겐 양자 붕괴를 일으키고, 스테이지 전체를 뒤덮는 성염 결계를 15초간 발동해 기본 공격과 던지기로 회복하는 전의가 2배 증가하고 경직 저항력이 증가한다. 재사용 대기시간: 25초
+SP 소모: 100
 
-Activation cost: 100SP.
+### 여광
 
-### Undying Fire
+성염 결계 내에서 모든 대미지가 50.0% 증가한다.
 
-Gains 50.0% Total DMG during Aura Ignis.
+### 충만한 여광
 
-### Streamlined Splendor
+필살기 발동하면 전의를 480.0pt 회복한다.
 
-Casting Ultimate recovers 480.0 Resolve.
+### 담금질
 
-### Forging Fire
+성염 결계 내에서 기본 공격을 사용할 때마다(차지 포함) 적을 3회 적중한 후의 다음 기본 공격(차지 포함)은 추가로 공격력 80.0%의 화염 원소 대미지를 입힌다.
 
-Within Aura Ignis, after hitting any enemy with Basic ATK (including Charged ATK) 3 times, the next Basic ATK (including Charged ATK) additionally deals 80.0% ATK of Fire DMG.
+## 신무심판
 
-## Hasta Domina
+랜스를 사용하는 5연격:
+1격: 공격력 80%의 물리 대미지
+2격: 140%의 화염 원소 대미지 + 공격력 120%의 물리 대미지
+3격: 공격력 160%+80%의 화염 원소 대미지
+4격: 공격력 4\*60%의 화염 원소 대미지
+5격: 공격력 200%의 물리 대미지 + 공격력 300%의 화염 원소 대미지
+기본 공격 2, 4, 5번째 공격이 적에게 명중할 때마다 전의를 40pt 회복한다.
 
-Five-sequence lance attacks.
-1st Sequence: 80% ATK of Physical DMG.
-2nd Sequence: 140% ATK of Fire DMG + 120% ATK of Physical DMG.
-3rd Sequence: 160%+80% ATK of Fire DMG.
-4th Sequence: 4x60%% ATK of Fire DMG x2.
-5th Sequence: 200% ATK of Physical DMG + 300% ATK of Fire DMG.
-The 2nd, 4th, and 5th sequences restore 40 Resolve on hit.
+### 투지
 
-### Fighting Will
+기본 공격 4번째의 공격이 적에게 명중할 때마다, 추가로 자신의 SP를 1.0 회복한다.
 
-The 4th sequence of Basic ATK restores 1.0 bonus SP every hit.
+### 황염
 
-### Flaming Lance
+5번째 기본 공격과 돌진 공격에 적중된 적은 연소 상태에 빠져 0.5초마다 공격력 30%의 화염 원소 대미지를 입는다. 지속 시간: 8.0초
 
-5th sequence of Basic ATK, Sprint ATK, and Decisive Blow Ignite enemies on hit, dealing 30% ATK of Fire DMG per 0.5s for 8.0s.
+### QTE-천창 심판
 
-### QTE - Irae Angelus
-
-Triggers when an enemy is Time Slowed. Deals 300% ATK Physical DMG + 800.0% Fire DMG and restore 240 Resolve.
+QTE: 적이 시공 감속 상태일 때 QTE 출전, 공격력 300%의 물리 대미지+공격력 800.0%의 화염 원소 대미지를 가하고, 전의를 240pt 회복한다.

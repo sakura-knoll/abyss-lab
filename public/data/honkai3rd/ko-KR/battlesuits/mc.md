@@ -1,96 +1,107 @@
-# Molotov Cherry
+# 체리 폭탄(작업중)
 
-## SHOWTIME!
+## 개막 시간이다!
 
-Leader Bonus:
-SHOWTIME!: Entire team gains 40.0% Melee Physical DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+모든 파티원의 근접 물리 대미지 40.0% 증가
 
-### SHOWTIME!
+### 개막 시간이다!
 
-Entire team gains 40.0% Melee Physical DMG.
+모든 파티원의 근접 물리 대미지 40.0% 증가
 
-## Passive
+## 패시브 스킬
 
-Passive bonuses apply automatically
-Some attacks become Joint ATKs when Blueberry Blitz is also on the team. During Joint ATKs, Blueberry Blitz is considered to be summoned and the damage comes from Molotov Cherry.
-With Blueberry Blitz alive, Basic ATK Sequence 3/4 reduces Spice by 5%/10% respectively, while Joint ATK Sequence 3/4/5 reduces Spice by 5%/5%/10% respectively.
+패시브 스킬은 자동으로 발동한다.
 
-### HIT THAT THING!
+파티에 블루베리 특공이 있으면 일부 공격이 연합 공격으로 바뀐다. 3, 4, 5번째 기본 연합 공격은 열량을 5%/5%/10% 낮춘다.
 
-When Combo Hit Count exceeds 10/30, character gains a 20.0%/50.0% Total DMG Multiplier buff. Character gains a 40.0% Total DMG Multiplier buff against enemies affected by Weaken or Time Slow.
+### 급소 급습
 
-### I GOT HEALING!
+10/30 콤보를 넘으면 발키리의 모든 대미지가 20.0%/60.0% 증가하고, 허약 및 시공 감속 상태의 적에게 가하는 모든 대미지가 40.0% 증가.
 
-Heal 15.0 HP/s when enemies are nearby.
+### 뚠뚠뚠 회복[SS]
 
-### LILI! HELP!
+주변에 적 존재
+초당 자신의 HP를 15.0pt 회복.
+긴급 장면 전환
 
-If Blueberry Blitz is in the team, then auto-switch to Blueberry Blitz before death and heal self for 2000/span> HP. Triggers 1 time per battle only.
+### 블루베리 특공이 팀에 존재
 
-## CAN'T TOUCH ME!
+자신이 전투 불능이 되기 전에 자동으로 블루베리 특공으로 교체하고 HP를 2,000pt 회복.
+전투당 1회만 발동
 
-Evades enemy attack.
-VODKA SHIELD: Ultimate Evasion triggers a 3s Time Fracture and generates a shield that absorbs DMG equal to 15% of the Valkyrie's Max HP.
-The shield lasts 6s; CD: 15s.
+## 에구구 회피
 
-### YOU'RE TRAPPED!
+극한 회피
+자신의 최대 HP 15%의 모든 대미지를 흡수하는 실드를 생성
+6초 지속, 재사용 대기시간 15초
 
-Activating Ultimate Evasion skill immobilizes nearby enemies for 4.0s.
+### 눈부신 속박
 
-### I GOT SHIELDZ!
+극한 회피시 주위의 적을 4.0초간 속박
 
-When the Ultimate Evasion barrier on, Crit Rate increases by 25.0%.
+### 팅팅팅 폭격
 
-## Charged ATK: TYPHOON! YAY!
+극한 회피 실드 존재
+크리티컬률 25.0% 증가
 
-Spin ATK that hurts nearby enemies.
-TYPHOON CHOP: Tap and hold [ATK] to spin, dealing 110% ATK of Physical DMG. Release the [ATK] button to stop the spinning.
-TYPHOON CHOP builds up spice and must stop when it's too spicy, but Spice dissipates faster that way. Attacks on Roza gain +7% Total DMG Multiplier per second in TYPHOON CHOP. Max stacks: 7.
-Blueberry Blitz in the team: TYPHOON CHOP pulls in enemies. Release and tap [ATK] to unleash VODKA FINALE, dealing 1100% ATK of Physical DMG but adding 33% Spice.
+## 울랄라 타이푼
 
-### KLANG KLANG!
+선풍참: 공격력 90%의 물리 피해
+선풍참을 시전하는 동안 열량이 쌓이며, 과열되면 선풍참을 사용할 수 없다. 선풍참 지속 시간이 늘어날수록 캐릭터가 받는 모든 피해가 최대 7초간 초당 7%씩 증가한다.
+블루베리 특공이 팀에 있으면 선풍참이 적을 끌어들이며, 공격 버튼을 뗐다가 다시 누르면 연합 피니쉬 공격을 발동해 총 공격력 1100%의 물리 피해를 가하고, 열량이 33% 증가한다.
 
-During THPHOON CHOP, attacks from 5 meters away suffer 60% Total DMG Reduction. Also provides Ignore Interrupt to said attacks.
+### 딴딴한 갑옷
 
-### I KAN'T STOP!
+선풍참 시전
+자신보다 5m 떨어진 적에게 받는 모든 대미지가 60% 감소하고, 이 공격들에 대한 경직 저항력이 증가한다.
 
-TYPHOON CHOP deals 12.0% more Physical DMG per second. Max stacks: 7. Each stack dissipates every 0.1s after TYPHOON CHOP ends. When TYPHOON CHOP or Basic ATK hits, character recovers 0.75 SP. CD: 1s.
+### 광속회전[특수]
 
-## VODKA CHOPPA
+선풍참 시전
+선풍참의 지속 시간이 길수록 선풍참과 연합 피니쉬 공격의 물리 대미지가 증가하고, 물리 대미지가 초당 12.0%씩 최대 7회 증가
+선풍참과 기본 연합 공격이 명중하면 자신의 SP를 0.75pt 회복
+재사용 대기시간 1초
 
-A powerful chop that demolishes nearby enemies.
-CHOPPA: 2000% ATK of Physical DMG
-CHOPPA WITH LILI (Joint ATK): 500% + 3000% ATK of Physical DMG. Blueberry Blitz also gains 35 SP.
-SP Cost: 100. Base CD: 20s.
+## 보드카 쵸파☆
 
-### MOAR CHOPPY!
+SP 100 이상
+공격력 2000%의 물리 대미지
+연합 참격: 공격력 3000%의 물리 대미지.
+블루베리 특공의 SP 35 회복, 재사용 대기시간 20초
 
-After performing the Ultimate, the character's next TYPHOON CHOP gains 25.0% Total DMG Multiplier. If Blueberry Blitz is switched in after that, she gains 25.0% Total DMG Multiplier for 12s.
+### 우당탕 강화
 
-### VODKA GURLZ!
+필살기 발동
+자신의 다음번 선풍참의 모든 대미지가 25.0% 증가. 블루베리 특공의 다음번 출전 시 12초 이내 모든 대미지가 25.0% 증가.
 
-After performing the Ultimate, character and Blueberry Blitz gain 30% Total DMG Reduction for 9.0s.
+### 스포트라이트 스테이지
 
-## CHOP CHOP!
+필살기 사용 후 자신과 블루베리 특공이 받는 모든 피해가 9.0초 동안 30% 감소.
 
-4-Sequence greatsword swing!
-1st Sequence: 110% ATK of Physical DMG
-2nd Sequence: 60% + 70% ATK of Physical DMG
-3rd Sequence: 50% + 150% ATK of Physical DMG
-4th Sequence: 2x40% + 200% ATK of Physical DMG 
-Joint ATK Sequence 2: 130% + 90% ATK of Physical DMG
-Joint ATK Sequence 3: 100% + 100% ATK of Physical DMG
-Joint ATK Sequence 4: 140% + 100% ATK of Physical DMG
-Joint ATK Sequence 5: 2x60% + 150% ATK of Physical DMG
+## 악랄한 참격
 
-### BOOM BOOM!
+1격: 공격력 110%의 물리 대미지
+2격: 공격력 60%+70%의 물리 대미지
+3격: 공격력 50%+150%의 물리 대미지
+4격: 공격력 2*40%+200%의 물리 대미지
+연합 2격: 총 공격력 130%+90%의 물리 대미지
+연합 3격: 공격력 100%+100%의 물리 대미지
+연합 4격: 총 공격력 140%+100%의 물리 대미지
+연합 5격: 공격력 2*60%+150%의 물리 대미지
 
-If Blueberry Blitz is in the team, character's Basic ATK gains 25% Total DMG Multiplier to BIO-type enemies. Switching in Blueberry Blitz gives her Tactical Buff, where her Basic/Charged ATKs gain 25% Total DMG Multiplier for 7s.
+### 묵직한 한방
 
-### QTE: KATYUSHA HAMMA!
+블루베리 특공이 팀에 존재
+자신의 일반 공격이 생물 속성 적에게 가하는 모든 대미지가 25% 증가. 블루베리 특공으로 교체 시 블루베리 특공이 전술 강화 상태를 발동해 블루베리 특공의 기본 공격(차지 포함)의 모든 대미지가 25% 증가. 지속시간: 7초
 
-QTE: Triggers when enemy is weakened or upon shield break. Deals 800% ATK of Physical DMG to nearby enemies, pulls them in, and stuns them for 5.0s. QTE switch-in with Blueberry Blitz exit: Pull-in effect is greatly enhanced, granting Ignore Interrupt and 20% Total DMG Multiplier buff for 15s (does not trigger in co-op/squad mode).
+### 로켓 헤딩
 
-### LILI! WAIT!
+적이 허약 또는 실드 파괴 상태일 때
+공격력의 800%의 물리 대미지를 입히고 한데 모아 5.0초간 기절시킨다.
+블루베리 특공에서 체리 폭탄으로 교체해 QTE 발동 시, 적 모으기 효과가 대폭 강화하고, 추가로 자신의 경직 저항력이 증가하고 모든 대미지가 20% 증가한다.
+지속 시간 15초 (멀티/소대 모드에서는 사용 불가)
 
-Sequences 3, 4, and 5 of Basic Joint ATKs each restores 2.50 SP for Blueberry Blitz.
+### 찰떡궁합
+
+기본 연합 공격 3, 4, 5번째마다 블루베리 특공은 SP를 2.50pt 회복

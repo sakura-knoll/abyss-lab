@@ -1,103 +1,103 @@
-# Swallowtail Phantasm
+# 환해의 꿈나비
 
-## Azure Nymph
+## 감해의 정령
 
-Leader Bonus:
-Azure Nymph: Team gains 14% Crit Rate in Burst mode. If Bronya is in the team, team also gains 10% Total DMG Multiplier.
+리더로 배치 시 파티원이 버프를 받는다.
+감해의 정령: 모든 파티원의 폭발 상태에서의 크리티컬률 20% 증가, 파티 내에 브로냐가 있으면 모든 캐릭터의 모든 대미지 16% 증가.
 
-### Azure Nymph
+### 감해의 정령
 
-Team gains 20% Crit Rate in Burst mode. If Bronya is in the team, team also gains 16% Total DMG Multiplier.
+모든 파티원의 폭발 상태에서의 크리티컬률 20% 증가, 파티 내에 브로냐가 있으면 모든 캐릭터의 모든 대미지 16% 증가한다.
 
-## Passive Skill
+## 패시브 스킬
 
-Passive bonuses apply automatically.
-Veil is maxed at 500.
+패시브 스킬은 자동으로 발동한다.
+암영치: 최대치 500
 
-### Fragile Flight
+### 나비의 춤
 
-Character ATKs gain 40.0% Total DMG Multiplier against impaired enemies.
+취약 상태의 적을 공격 시 모든 대미지가 40% 증가한다.
 
-### Unending Fantasy
+### 환해 소녀
 
-When Combo Hit Count exceeds 10/30/50, character gains 20.00%/40.00%/60.00% Crit DMG.
+콤보 수 10/30/50 달성 시
+크리티컬 대미지가 20%/40%/60% 증가한다.
 
-### Soul Devourer
+### 존재 흡수
 
-Gain 150 Veil for each enemy kill.
+적 처치 시 자신의 암영치를 150.0pt 회복한다.
 
-## Blinking Flash
+## 블링크
 
-Evades enemy attack. Can be performed twice in a row.
-Recovers 30 Veil upon Ultimate Evasion.
-Plane Warp: In non-Burst mode, enters Phase Warp State (lasts 3s) upon Ultimate Evasion and can directly unleash the 4th Sequence of Basic ATK, during which the Valkyrie gains 20% Total DMG Reduction and can shuttle through enemies;
-Burst mode bonus: additionally gains 30 Veil and performs a special shuttle ATK that deals 2x60% + 2x100% + 480% ATK of Physical DMG and inflicts Velonia's Binding that reduces 40% Move Slow. CD: 15s.
-Velonia's Binding overrides Vibration Mode until Burst mode ends. Max duration: 6s.
+빠르게 적의 공격을 회피하며 연속으로 2회 회피할 수 있다.
+극한 회피 시 암영치를 30pt 회복한다.
+이계 워프: 극한 회피 후 일반 상태에서 위상 워프 상태에 진입하고 기본 공격의 4번째 공격을 바로 시전할 수 있다. 위상 워프는 3초간 지속되고 적에게 받는 모든 대미지가 20% 감소하며 적을 관통하며 이동할 수 있다. 폭발 상태에서는 추가로 자신의 암영치를 30pt 회복하고 적을 꿰뚫는 특수한 공격으로 적에게 공격력 2\*60%+2\*100%+480%의 물리 대미지를 가하고 암영 파동 상태를 부여하여 이동속도를 40% 감소시킨다. 재사용 대기시간: 15초.
+파동 상태는 폭발 상태의 지속 시간이 끝날 때까지 암영 파동 상태로 대체된다. 지속 시간 6초.
 
-### Quantum Form
+### 양자의 몸
 
-Ultimate Evasions gain 120 Veil. Plane Warp CD shortened by 8.0s.
+극한 회피 시 암영치를 120pt까지 회복하고 이계 워프의 재사용 대기시간이 8.0초 감소한다.
 
-### Tunnelling Effect
+### 터널 효과
 
-Extends duration of Phase Warp State to 6.0s and raises DMG reduction to 40.0%.
+위상 워프의 지속 시간이 6초까지 증가하고 피해 감소량이 40%까지 증가한다.
 
-### Traceless Shift
+### 은밀한 행적
 
-During Plane Warp, character ATKs deal 25.0% more Physical DMG and get 50.0% faster SP recovery.
+위상 워프 기간 자신이 가하는 물리 대미지가 25.0% 증가하고, 공격 시 획득하는 SP가 50.0% 증가한다.
 
-## Charged: Fluttering Ripple
+## 차지-나비의 물결
 
-Charged ATK can be performed during Basic ATKs.
-Tap and hold [ATK] during the Basic ATK sequence to deal 4x150% ATK of Physical DMG.
+5연결 도중 차지 공격을 발동할 수 있다.
+기본 공격 5연격 도중 공격 버튼을 꾸욱 누르면 암영치 250pt 소모해 적에게 공격력 4\*150%의 물리 대미지를 입힌다.
 
-### Sublime Current
+### 에너지 흐름
 
-Recover 10.0 SP when performing Charged ATK.
+차지 공격 시 추가로 자신의 SP를 10.0pt 회복한다.
 
-### Particle Vibration
+### 입자 파동
 
-Charged ATKs also inflicts Vibration Mode on enemies for 6s to slow their Move Speed by 40% and make them take 30.0% bonus Total DMG from Swallowtail Phantasm (independent effect).
+차지 공격이 적을 파동 상태로 만들어, 이동 속도를 40% 감소시키고 환해의 꿈나비에게 받는 모든 피해를 30% 증가시킨다(해당 효과는 독립적인 추가 효과다). 지속 시간: 6초
 
-### QTE: Soul Taker
+### QTE-섭혼
 
-QTE: Triggers when enemy is affected by Time Slow, dealing 4x200% ATK of Physical DMG. Scoring a hit on enemies recovers 250 Veil and 8.0 SP, and activates Phase Warp State.
+QTE: 적이 시공감속 상태일 때 발동하여 공격력 4\*200%의 물리 대미지를 입힌다. 적에게 명중 시 암영치를 250pt 회복하고 추가로 SP를 8.0pt 회복 후 위상 워프 상태에 진입한다.
 
-## Veliona's Torrent
+## 암영격류
 
-Assume the powers of the Shadow Avatar and enter Burst Mode.
-Perform a multi-sequence shuttle ATK to deal 6x150% ATK of Physical DMG, gain Avatar powers to deal 2x200% + 600% ATK of Physical DMG, then enter burst mode to get 250 Veil.
-Final blow applies Veliona's Binding and one Quantum Implosion against QUA enemies.
-Burst: Gain crit multiplier for Basic ATK and 50% Total DMG Reduction. Tap and hold [ATK] to spend an evasion to deal a special shuttle ATK and trigger Plane Warp.
-Cost: 30 Veil per 0.5s. Max duration: 18s.
-CD: 25s. SP cost: 125
+일시적으로 암영 형태의 힘을 얻어 폭발 상태에 진입한다.
+다단 관통 공격으로 공격력 6\*150%의 물리피해를 입히고 암영 형태의 힘을 얻어 공격력 2\*200%+600%의 물리 대미지와 함께 폭발상태에 진입해, 즉시 암영치 250pt를 회복한다.
+마지막 일격은 적을 암영 파동 상태에 빠뜨리고, 양자 속성의 적은 양자 붕괴시킨다.
+폭발 상태에서 5연격의 두 배 증가, 받는 모든 대미지는 50% 감소하며, 5연격 중 공격버튼을 길게 누르면 즉시 회피 횟수를 소모해 특수 관통 공격을 펼치고 이계 워프를 발동한다.
+0.5초마다 암영치가 30pt 감소하며 모두 소진하거나 최대 18초 지속 후 해제된다.
+재사용 대기시간: 25초, SP 소모: 125
 
-### Scarlet Chain
+### 스칼렛 웨이브
 
-In Burst mode: Enemy kills can be directly connected into special shuttle ATKs that inflict Velonia's Binding. Enemies affected by this debuff takes 40.0% bonus Total DMG from Swallowtail Phantasm's attacks (independent effect).
+폭발 상태에서 적을 처치하면 바로 특수 관통 공격을 펼치고 피격된 적을 암영 파동 상태로 만들어, 적이 환해의 꿈나비에게 받는 모든 대미지를 40% 증가시킨다(해당 효과는 독립적인 추가 효과다).
 
-### Shade of Folly
+### 불길한 그림자
 
-In Burst mode: Triggering Plane Warp recovers 180 Veil.
+폭발 상태에서 이계 워프를 발동 시 암영치를 추가로 180pt까지 증가한다.
 
-### Oneiric Shade
+### 유령의 그림자
 
-In Burst mode: Gains 35.0% Physical DMG; final sequence of the special shuttle ATK additionally deals 180.0% ATK of Physical DMG.
+폭발 상태에서 자신의 물리 대미지가 35.0% 증가하고 적을 관통하는 특수한 공격의 마지막 타격의 물리 대미지가 공격력의 180.0% 만큼 증가한다.
 
-## Spear of Phantasos
+## 환영의 낫
 
-5-sequence sweeping scythe attack.<br>
-1st Sequence: 100% ATK of Physical DMG.
-2nd Sequence: 80% + 100% ATK of Physical DMG.
-3rd Sequence: 2x60% + 120% ATK of Physical DMG.
-4th Sequence: 120% + 160% ATK of Physical DMG.
-5th Sequence: 2x80% + 240% ATK of Physical DMG.
-Recovers 15 Veil when Basic ATKs hits any enemy.
+낫을 휘둘러 적을 5회 공격한다.
+1격: 공격력 100%의 물리 대미지
+2격: 공격력 80% + 100%의 물리 대미지
+3격: 공격력의 2\*60% + 120% 물리 데미지
+4격: 공격력 120% + 160%의 물리 대미지
+5격: 공격력 2\*80% + 240%의 물리 대미지
+기본 5연격이 적에게 명중할 때마다 암영 게이지를 15pt 회복한다.
 
-### Serene Reaper
+### 고요한 칼날
 
-Gain 26 Veil when hitting with the 5-sequence Basic ATK.
+기본 5연격의 암영 회복량 26pt로 증가.
 
-### Veliona's Succor
+### 암조
 
-Heal 160 HP when Basic ATKs score a Crit. CD: 5.0s.
+5연격이 크리티컬 시 자신의 HP를 160.0pt 회복한다. 재사용 대기시간: 5.0초

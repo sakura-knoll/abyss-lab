@@ -1,102 +1,112 @@
-# Valkyrie Accipiter
+# 발키리·해청(작업중)
 
-## Chelonic Unity
+## 현무귀심
 
-Leader Bonus:
-When Combo Hit Count exceeds 30, Mei and Kiana in the team gain 22% Crit Rate; when Combo Hit Count is below 30, Bronya in the team gains 28% Crit DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+콤보 수가 30을 초과하면, 파티에 있는 키아나와 메이의 크리티컬률이 28% 증가하고,
+콤보 수가 30 미만일 때 파티에 있는 브로냐의 크리티컬 대미지가 40% 증가한다.
 
 ### Dragon Territory
 
-When Combo Hit Count exceeds 30, Mei and Kiana in the team gain 28% Crit Rate; when Combo Hit Count is below 30, Bronya in the team gains 40%
+콤보 수가 30을 초과하면, 파티에 있는 키아나와 메이의 크리티컬률이 28% 증가하고,
+콤보 수가 30 미만일 때 파티에 있는 브로냐의 크리티컬 대미지가 40% 증가한다.
 
-## Passive
+## 패시브 스킬
 
-Passive bonuses apply automatically.
+패시브 스킬은 자동으로 발동한다.
 
-### Resolve
+### 촌심
 
-When on the field, deal 40% more Physical DMG to enemies within a 3-meter radius. When exiting, allies gain 15% Physical DMG for the next 3 attacks.
+필드에 있을 때, 3m 이내의 적에게 입히는 물리 대미지가 40% 증가하고, 대기 시 모든 파티원의 다음 3회의 원거리 공격 물리 대미지가 15% 증가한다.
 
-### Serenity
+### 공심
 
-Last hit of Ki Shattering Fist causes a 1s stun. Last hit of Ki Avalanche causes a 5.0s stun, and deals an additional X% ATK of Physical DMG.
+촌경·암파의 마지막 일격은 적을 1초 동안 기절 상태로 만들고, 촌경·산붕의 마지막 일격은 적을 5.0초 동안 기절시키며 추가로 공격력의 200% 물리 대미지를 입힌다.
 
-### Enlightenment
+### 오심
 
-Last hit of Ki Zenith heals self for X HP. The Six Fists heals self for X HP. Last hit of Ki Impact heals team for X HP.
+촌경·운람의 마지막 일격은 자신의 HP를 80 회복시키고, 촌심권법 육식은 자신의 HP를 60 회복시키며, 촌경·개천의 마지막 공격은 모든 파티원의 HP를 400 회복시킨다.
 
-## Vermilion Dance
+## 주작답운
 
-Rapid movement to evade attacks.
-For a short period after using Ultimate Evasion, tap the Combo button to dash to the enemy and unleash a brutal smash, dealing 300% ATK of Physical DMG.
-Time Fracture: Ultimate Evasion triggers Time Fracture, slowing all enemies for 3s. CD: 15s.
+회피 버튼
+극한 회피 직후 분기 공격 버튼을 누르면 적의 바로 앞까지 빠르게 돌진하여 300%의 물리 대미지를 입히는 강력한 공격을 가한다.
+시공 단열：극한 회피 시 3초 동안 전체 시공 단열을 발동해 모든 적의 행동이 느려지게 한다. 재사용 대기시간 15초.
 
-### Fiery Flock
+### 순화
 
-Ultimate Evasion triggers Time Fracture for the game for 1.50s.
+극한 회피 시 발동되는 전체 시공 단열의 지속 시간을 1.5초 연장한다.
 
-### Sunchaser
+### 홍작축양
 
-After using Ultimate Evasion, press the Combo button to Crush enemies, thus impairing them and slowing their DEF by 30% for 4.0s.
+극한 회피 후 분기 공격 버튼을 눌러 강력한 공격으로 적을 취약 상태로 만들어 4.0초 동안 방어력을 30% 감소시킨다.
 
-### Anser Turn
+### 봉회안
 
-Shortens CD of Ultimate Evasion 4.00s.
+극한 회피 스킬의 재사용 대기시간 4.00초 감소.
 
-## Combo: Azure Dragon
+## 청룡출수
 
-Link the various Six Fists stances into different Combo ATKs.
-Ki Shattering Fist: 2x100%+150% ATK of Physical DMG
-Ki Zenith: When unlocked, 7x30%+100% ATK of Physical DMG.
-Ki Barrage: 80% ATK of Physical DMG for each hit.
-Ki Nova: Full charge launches a penetrating blast wave dealing 3x80% ATK of Physical DMG.
+촌경·암파
 
-### Switch: Raging Scale
+공격력의 2*100%+150% 물리 대미지
+촌경·운람
+개방 후 공격력의 7*30%+100% 물리 대미지를 입힌다.
+촌경·난뢰
+타격마다 공격력의 80% 물리 대미지
+촌경·벽력
+풀차지 시 공격력의 3\*80% 물리 대미지를 입힌다. 충격파는 적을 관통한다.
 
-Unlocks Switch Skill. Switch entry unleashes a ground slam that knocks surrounding enemies airborne and deals 300% Physical DMG.
+### 교대기 충천린
 
-### QTE: Gray Dragon
+캐릭터 교체
+지면을 강타하여 주변의 적에게 공격력의 300% 물리 대미지를 입히고 날려버린다.
 
-Triggers QTE when enemy's shield is broken, entering the battle and slamming the ground to deal X% Physical DMG, knocking nearby enemies airborne, apply Time Slow and impair, reducing DEF by 30% for Xs.
+### QTE 창룡탐해
 
-### Dragon's Return
+적의 실드를 파괴했을 때 캐릭터 교체
+지면을 강타해 적에게 공격력의 720% 물리 대미지를 입히고 6.0초 동안 주변의 적을 띄우고 시공 감속 상태와 취약 상태로 만들어 방어력을 30% 감소시킨다.
 
-For 5s after switch entry, gain slight increases to Interrupt and Ignore Interrupt, and X% DMG Reduction. When exiting, boost team mates by the same amount for Xs.
+### 용절신
 
-## Amber Dragon
+출전 후 5초 동안 경직력과 경직 저항력이 소폭 증가하며 받는 대미지가 20% 감소한다. 스테이지 이탈 시 5.0초 동안 모든 파티원에게 동일한 효과를 부여한다.
 
-Consumes 25 Sp to unleash a Burst Combo ATK.
-Ki Avalanche: 350% ATK of Physical DMG
-Ki Impact: 400% ATK of Physical DMG
-Ki Nova EX: 3x150% ATK of Physical DMG.
+## 황룡파천
 
-### Fallow Earth
+촌경·산붕
 
-After last hit of Ki Avalanche, last hit of Ki Impact, and hits by Ki Nova EX, take 15% less Physical DMG for 6.0s.
+공격력의 350% 물리 대미지
+촌경·개천
+공격력의 400% 물리 대미지
+촌경·극·벽력
+공격력의 3\*150% 물리 대미지
 
-### Celestial Spirit
+### 식양
 
-When the last hit of Ki Avalanche, last hit of Ki Impact, and hits of Ki Nova EX hits an impaired or stunned enemy, deal an additional 200% ATK of Physical DMG.
+촌경·산붕, 개천의 마지막 공격, 또는 촌경·극·벽력을 명중시킨 후 6.0초 동안 받는 물리 대미지가 15% 감소한다.
 
-## Whitetiger Dashing
+### 구천현령
 
-Use the Six Fists for battle.
-The Six Fists:
-1st Stance: 80% ATK of Physical DMG
-2nd Stance: 80% ATK of Physical DMG
-3rd Stance: 80% ATK of Physical DMG
-4th Stance: 2x100% ATK of Physical DMG
-5th Stance: 2x80% ATK of Physical DMG
-6th Stance: 150% ATK of Physical DMG
+촌경·산붕, 개천의 마지막 공격, 또는 촌경·극·벽력이 취약, 기절 상태의 적에게 적중 시 공격력의 200% 물리 대미지를 추가로 입힌다.
 
-### Panther Dance
+## 백호청풍
 
-Unlock Ki Zenith that deals 60% ATK of Physical DMG in each hit sequence and 200% ATK of Physical DMG in the final ground smash.
+촌심권법을 사용한 육식
+1식：공격력의 80% 물리 대미지
+2식：공격력의 80% 물리 대미지
+3식：공격력의 80% 물리 대미지
+4식：공격력의 2*100% 물리 대미지
+5식：공격력의 2*80% 물리 대미지
+6식：공격력의 150% 물리 대미지
 
-### Lord of the Wastes
+### 분호약보
 
-When Ki Zenith hits the ground, increase all kinds of damage by 20% for 7s; when Ki Impact hits the ground, team gains 20% Total DMG Multiplier for 7s.
+촌경·운람을 해금한다. 촌경·운람은 타격마다 공격력의 60% 물리 대미지를 입히며, 마지막 일격은 공격력의 200% 물리 대미지를 입힌다.
 
-### Battle Howl
+### 팔황거
 
-When Ki Nova EX hits, the team deals 200% more damage to shields for 6.5s.
+촌경·운람으로 지면 강타 시 7초 동안 모든 대미지가 20% 증가하고, 촌경·개천으로 지면 강타 시 전원의 모든 대미지가 7초 동안 20% 증가한다.
+
+### 양천소
+
+촌경·극·벽력이 적에게 명중 시 모든 파티원이 실드에 가하는 대미지가 6.5초 동안 200% 증가한다.

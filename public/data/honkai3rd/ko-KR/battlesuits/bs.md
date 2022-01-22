@@ -1,87 +1,97 @@
-# Battle Storm
+# 전장의 질풍(작업중)
 
-## Stand By
+## 내 몸을 방패로
 
-Leader Bonus:
-Stand By: Team takes 16% less Melee Physical DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+모든 파티원이 받는 근거리 물리 대미지가 24% 감소한다.
 
-### Stand By
+### 내 몸을 방패로
 
-Team receives 24% less Melee Physical DMG.
+모든 파티원이 받는 근거리 물리 대미지가 24% 감소한다.
 
-## Passive
+## 패시브 스킬
 
-Passive bonuses apply automatically.
+패시브 스킬은 자동으로 발동한다.
 
-### Courage
+### 용기
 
-Takes 35.0% less Elemental DMG.
+자신이 받는 원소 대미지가 35.0% 감소한다.
 
-### Crush
+### 강타
 
-Basic and Charged ATKs have a 15.0% chance to stun the target for 3s.
+기본/차지 공격이 15.0% 확률로 적을 기절 상태로 만든다.
 
-### Feuerhau
+### 열염 파격
 
-Ignites enemy upon breaking its shield, dealing 150 Fire DMG every 0.5s for 5.0s.
+실드를 파괴하는 순간
+적을 연소 상태로 만들어 5.0초 동안 0.5초마다 150의 화염 원소 대미지를 입힌다.
 
-## Time Sprint
+## 시공 질주
 
-Evasive roll. Can be triggered 2 times in a row.
-Zephyr: After Ultimate Evasion, gain 40% Move Speed for 3s.Time Fracture: Triggers Time Fracture upon Ultimate Evasion, slowing all enemies for 3s.CD: 15s.
+적의 공격 회피
+적의 공격을 굴러서 회피한다. 2회 연속 회피 가능.
+질풍: 극한 회피 시 이동 속도가 3초 동안 40% 증가한다.
+시공단열: 극한 회피 시 3초 동안 전체 시공 단열을 발동해 적의 행동이 느려지게 한다. 재사용 대기시간 15초
 
-### Swift Charge
+### 급속 차지
 
-Increases charging speed by 100% during the Time Fracture triggered by own evasion.
+자신이 발동시킨 시공 단열에서 차지 속도가 100% 증가한다.
 
-### Vigilant
+### 예민함
 
-Shortens CD of Time Fracture by 3.0s.
+시공 단열 재사용 대기시간 3.0초 감소.
 
-## Storm Assault
+## 질풍 돌진
 
-Attacks while dashing using sweeping strikes.
-Sprint ATK: Tap the [ATK] button while sprinting to attack enemies with sweeping strikes, dealing 450% ATK of Physical DMG to enemies in a large AOE.
+돌진중
+휘드르기를 발동한다.
+돌진 공격: 돌진 중 공격 버튼을 눌르면 넓은 범위에 공격력의 450% 물리 대미지를 입힌다.
 
-### Switch: Splitting Cleave
+### 교대기 수직베기
 
-Switch entry unleashes a downward cleave, knocking down enemies within range and dealing 450% ATK of Physical DMG.
+캐릭터 교체 내려찍기.
+넓은 범위의 적을 다운시키고 공격력의 450% 물리 대미지를 입힌다.
 
-### QTE: Storm Slasher
+### QTE 선풍 가르기
 
-QTE: Triggers when an enemy is paralyzed. Attacks the target with Storm Slasher, dealing 5x100% + 200% ATK of Physical DMG against enemies nearby and knocking them back.
+적이 마비 상태일 때 캐릭터 교체
+목표지점에 낙하하며 제자리에서 선풍 가르기를 시전해 주변 범위의 적에게
 
-## Tornado Storm
+## 허리케인
 
-Spins weapon to attack surrounding enemies.
-Deals 7x120% ATK of Physical DMG to surrounding enemies. Last hit deals 400% ATK of Physical DMG and knocks enemies airborne.
-Attracts nearby enemies when activated.
-SP Cost: 50.
+SP 50 이상
+자신을 중심으로 무기를 휘둘러 적을 후려친다.
+주위의 적에게 공격력 7\*120% 물리 대미지를 입히고, 마지막 일격으로 공격력의 400% 물리 대미지를 입히며 적을 공중으로 띄우고 넉백시킨다.
+발동 순간 주변의 적을 끌어당긴다.
 
-### Fire Storm
+### 맹염 폭풍
 
-During the Ultimate spinning attack, each hit additionally deals 240 Fire DMG.
+필살기의 회전 기간
+매 타격마다 240의 화염 원소 대미지를 추가로 입힌다.
 
-### Final Blow
+### 마지막 일격
 
-Last hit of the Ultimate additionally deals 250% ATK of Physical DMG and stuns the target for 5.0s.
+필살기 마지막 타격의 물리 대미지가 공격력 250%만큼 증가하고, 5.0초 간 기절시킨다
 
-## Charge: Heavy Sword (BS)
+## 차지 - 대검
 
-Basic ATK: Tap and hold the [ATK] button to initiate a 2-sequence charge. Tap the [ATK] button again after the 1st Sequence for a follow-up attack.
-Basic ATK: 180%+250% ATK of Physical DMG.
-1st Charged Sequence: 400%+630% ATK of Physical DMG.
-2nd Charged Sequence: 700%+900% ATK of Physical DMG.
-Release the [ATK] button after 2nd charge sequence to unleash the hits automatically after 2s.
+기본 공격: 공격 버튼을 누르고 있으면 최대 2단 차지가 가능하고, 1단 공격이 끝나기 전에 공격 버튼을 누르면 추가 공격이 가능하다.
+비 차지 기본 공격: 공격력의 180%+250% 물리 대미지
+1단 차지: 공격력의 400%+630% 물리 대미지
+2단 차지: 공격력의 700%+900% 물리 대미지
+2단 차지가 끝난 후 기본 공격 버튼에서 손을 때면 공격, 2초 후 자동으로 발동한다.
 
-### Frontal Assault
+### 강공
 
-During Charged ATKs, gain Ignore Interrupt. Blocks 75% of incoming Physical DMG and provides immunity against stun, freeze, and paralyze effects from frontal attacks. Weakens the blocked attacker and decreases its ATK by 60% for 8s.
+차지 공격 중
+경직 저항력 증가, 정면에서 받는 기절, 빙결, 마비 효과와 75%의 물리 대미지를 막아주고, 공격한 적을 8초 동안 허약 상태로 만들어 공격력을 60% 감소시킨다.
 
-### Fiery Hew
+### 열염휘무
 
-Crit hit of Basic, Charged, and Sprint ATK additionally deals 580 Fire DMG.
+일반/차지/돌진 공격 크리티컬
+추가로 580 화염 원소 대미지를 입힌다
 
-### Fearless
+### 거침없음
 
-Reduces Physical DMG taken by 50.0% when charging.
+차지 도중
+받는 물리 대미지를 50.0% 감소시킨다.

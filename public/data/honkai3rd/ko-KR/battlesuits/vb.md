@@ -1,96 +1,101 @@
-# Valkyrie Bladestrike
+# 발키리·스트라이크(작업중)
 
-## Sakura Aura
+## 벚꽃의 결계
 
-Leader Bonus:.
-Sakura Aura: Team gains 25% DEF in battle. BIO-type characters gain 5% Max HP.
+리더로 배치 시 파티원이 버프를 받는다.
+전투 중 모든 파티원의 방어력 40% 증가. 생물 속성의 캐릭터의 HP 최대치 9% 증가
 
-### Sakura Aura
+### 벚꽃의 결계
 
-Team gains 40% DEF in battle. BIO-type characters gain 9% Max HP.
+전투 중 모든 파티원의 방어력 40% 증가. 생물 속성의 캐릭터의 HP 최대치 9% 증가
 
-## Passive Skill
+## 패시브 스킬
 
-Character automatically gain passive bonuses.
+패시브 스킬은 자동으로 발동한다.
 
-### Shadow Aura X
+### 절영의 결계
 
-Gain 40% Total DMG Multiplier versus enemies with broken Elite Shield.
+엘리트 실드가 파괴된 적에게 모든 대미지 40% 증가
 
-### Combo Keeper
+### 콤보 유지
 
-Ignores combo interruption once. Can be triggered once every Xs. Applies for the whole team.
+콤보가 끊기는 것을 1회 방지해준다. 30.0초마다 한 번씩 발동하며 모든 파티원에게 적용된다.
 
-### Energy Overflow
+### 에너지 분출
 
-When deployed character reaches max SP, distributes X% SP gain to undeployed characters.
+캐릭터가 스테이지에 존재하고 SP가 가득 차면, 추가로 획득하는 SP의 50.0%를 대기 중인 캐릭터에게 배분해준다.
 
-## Phantom Blade
+## 질풍의 그림자 칼날
 
-Quick dash to evade enemy attacks.
-Time Fracture: Triggers Time Fracture upon an Ultimate Evasion, slowing all enemies for 3 sec. CD: 15s.
+적의 공격 회피
+극한 회피 시 3초 동안 전체 시공 단열을 발동해 모든 적의 행동이 느려지게 한다. 재사용 대기시간 15초.
 
-### Aerial Slash
+### 부공참
 
-Tap the [ATK] button after Ultimate Evasion to unleash Blade Flurry. Blade Flurry gains X% Crit DMG when attacking enemies knocked airborne.
+극한 회피 후 공격 버튼
+허공참을 바로 발동할 수 있다. 허공참으로 공중에 뜬 적을 공격 시 크리티컬 대미지가 40.0% 증가한다.
 
-### Shadow Razor
+### 그림자 끝의 칼날
 
-Shortens CD of Time Fracture by Xs.
+시공 단열 재사용 대기시간 2.5초 감소
 
-### Wind Aura
+### 공의 결계
 
-Upon Ultimate Evasion, character gains X% Attack Speed for 3+Xs. Duration of Time Fracture triggered by Ultimate Evasion is extended by Xs, at the end of which enemies will be knocked airborne and dealt Combo Hit Count (max 200) xX) of Physical DMG.
+극한 회피 발동 시 자신의 이동 속도가 3+1.0초 동안 60.0% 증가한다. 극한 회피 시 발동되는 전체 시공 단열의 지속 시간이 1.0초 증가하며, 지속 시간이 끝날 때 주변의 적을 넉백시키며 콤보 수\*50의 물리 대미지를 입힌다.(최대 200콤보)
 
-## Combo Skill: Void Edge
+## 허공참
 
-Slash flurry attack.
-Each Sequence: 210% ATK of Physical DMG.
-Fatal Slash: 260% ATK of Physical DMG.
+1번 공격 후 몸에서 빛이 날때 공격한다
+연속 베기로 1회당 공격력의 210%의 물리 대미지를 준 뒤 공격력의 260% 물리 대미지를 주는 마무리 일격으로 적을 찔러 넉백시킨다.
 
-### Switch: Impact Flurry
+### 칼날의 결계
 
-Switch entry unleashes Blade Furry. Blade Flurry gains 30.0% Crit Rate when attacking enemies knocked airborne.
+캐릭터 교체
+교대 시 허공참을 발동한다. 공중에 뜬 적 공격 시 크리티컬률 30.0% 증가
 
-### Relentless Flurry
+### 연환의 결계
 
-Tap the [ATK] button during Blade Flurry to keep triggering Blade Flurry (limit: 6 times).
+허공참 도중 공격 버튼을 누르면 허공참의 발동 횟수를 증가시킬 수 있다. 최대 6번
 
-### QTE: Issen
+### 벚꽃의 칼날
 
-Triggers QTE when enemy is affected by Time Slow, unleashing One Flash and dealing 250% + X% ATK of Physical DMG.
+적이 시공감속상태일 때 캐릭터 교체
+일섬으로 공격력의 250%+550% 물리 대미지를 입힌다.
 
-## Susanoo
+## 스사노오
 
-Activates Valkyrie SP burst to enter Valkyrie Mode.
-Burst: Consumes SP continuously to increase all forms of attack.
-Continuous Burst: Consumes 20 SP to activate and 10 SP/s aftewards. Duration: 60s or until SP is depleted.
+SP 100 이상
+발키리 에너지를 폭발시켜, 각성 상태가 된다. 발동 시 20 SP를 소모하고, SP를 소진할 때까지 초당 10 SP씩 소모한다. 최대 지속 시간 60초.
 
-### Martial Stream
+### 무도의 분류
 
-Channels energy during Burst, recovering undeployed characters' SP by X per second.
+폭발 상태
+에너지를 대기 중인 캐릭터에게 분배해 초당 2.00의 SP를 회복시킨다.
 
-### Ki Spirit
+### 기공의 혼
 
-Increases Crit Rate by X% and Crit DMG by X% during Burst.
+폭발 상태
+크리티컬률이 10.00%, 크리티컬 대미지가 75.0% 증가한다.
 
-## Gokiketsu
+## 오연참·결
 
-AOE penta-slash.
-1st Sequence: 80% ATK of Physical DMG.
-2nd Sequence: 80% ATK of Physical DMG.
-3rd Sequence: 100% ATK of Physical DMG.
-4th Sequence: 100% ATK of Physical DMG.
-5th Sequence: 250% ATK of AOE Physical DMG.
+일정 범위 5연속 베기
+1식：공격력의 80% 물리 대미지
+2식：공격력의 80% 물리 대미지
+3식：공격력의 100% 물리 대미지
+4식：공격력의 100% 물리 대미지
+5식：주변 범위에 공격력의 250% 물리 대미지
 
-### Kinetic Aura
+### 급속의 결계
 
-Basic ATKs gain X% Attack Speed.
+기본 공격의 공격 속도 30.0% 증가
 
-### Spirit Aura
+### 혼의 결계
 
-Gains higher Ignore Interrupt during Basic ATKs or Combo ATKs. Reduces Physical DMG taken by X%.
+기본/분기 공격
+경직 저항력이 증가하고, 받는 물리 대미지가 30.0% 감소한다.
 
-### Ankage Jutsu
+### 그림자 술법
 
-Increases the SP gain during basic and combo attacks by X%.
+기본/분기 공격
+SP 회복량 30.0% 증가

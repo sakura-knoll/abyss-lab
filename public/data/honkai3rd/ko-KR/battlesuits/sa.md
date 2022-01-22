@@ -1,118 +1,113 @@
-# Starlit Astrologos
+# 삭야관성(작업중)
 
-## Nine Palaces
+## 구궁천
 
-Leader Bonus:
-Teammates gain 15.0% Crit Rate for 10s after unleashing Charged ATKs. If the team is formed by 3 battlesuits of 3 different Types, all members gain 30.0% Total DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+파티원이 차지 공격을 적에게 명중시키면 크리티컬률이 10초간 15.0% 증가한다(갱신 가능). 파티원 3명의 속성이 다를 경우 파티원의 모든 대미지가 30.0% 증가한다
 
-### Nine Palaces
+### 구궁천
 
-Charged ATKS by teammates boost their Crit Rate on hit by 15.0% for 10s. Can be refreshed. Teams of 3 different battlesuit types deal 30.0% bonus Total DMG.
+파티원이 차지 공격을 적에게 명중시키면 크리티컬률이 10초간 15.0% 증가한다(갱신 가능). 파티원 3명의 속성이 다를 경우 파티원의 모든 대미지가 30.0% 증가한다
 
-## Azure Dragon
+## 창룡
 
-Passive bonuses apply automatically.
-When hitting an enemy, teammates obtain 1 stack of Hexagram with a 1s CD. Stacks are shared across the team. Taking a hit reduces 1 stack with a 3s CD. Starlit Astrologos' death removes all stacks and no stacks can be obtained after.
+패시브 스킬
+패시브 스킬은 자동으로 발동한다.
 
-### Arbiter's Horn
+파티원이 적을 공격하면 괘상을 1개 획득하고, 1초의 발동 간격이 있다.
+괘상은 파티원끼리 공유되며, 적의 공격을 받으면 괘상을 1개 잃으며 3초에 1회 발동된다.
+삭야관성이 사망하면 파티원의 괘상이 전부 사라지고 다시 획득할 수 없다.
 
-Ultimates cast by teammates grants 5.0 bonus Hexagram stacks with a 10s shared CD.
+### 각목교
 
-### Army's Heart
+파티원이 필살기 발동 시, 모든 파티원이 추가로 괘상 5.0 스택 획득한다.
 
-Gain 50.0 initial SP in battle. This effect triggers once every 10 minutes in Open World.
-After level 6, the skill can only be increased when  rank.
-After level 8, the skill can only be increased when  rank.
+### 심월호
 
-## White Tiger
+전투 중 초기 sp가 50.0 증가하며, 오픈월드에서는 10분에 한 번씩 발동한다.
 
-Step sideways to dodge attacks. Can be performed twice in a row.
-White Tiger: Ultimate Evasion triggers a 2s global Time Fracture. CD: 15s.
-Tap [ATK] upon White Tiger to perform Combo ATK.
+## 백호
 
-### Warden's Legs
+적의 공격을 빠르게 대시하여 회피한다. 연속 2회 발동 가능. 백호 : 극한 회피 시 2초 동안 전체 시공단열을 발동한다. 재사용 대기시간 : 15초
+백호 발동 후 바로 공격 버튼을 누르면 분기 공격을 발동할 수 있다.
 
-Triggering White Tiger restores 3.0 bonus SP.
+### 규목랑
 
-### Warrior's Triplet
+백호를 발동하면 SP를 추가로 3.0 회복한다.
 
-White Tiger's CD is reduced by 2.0s.
+### 참수원
 
-### Whisperer's Net
+백호의 재사용 대기시간이 2.0 초 감소한다.
 
-Upon White Tiger, Starlit Astrologos summons a formation on the ground. After 3s of preparation, the formation turns activatable by either teammate for 9s; activation triggers a 2.0s global Time Fracture. A newly summoned formation will replace the old one. The formation cannot be activated by Starlit Astrologos herself.
+### 필월오
 
-## Combo: Black Tortoise
+백호 발동 후, 삭야관성이 땅에 착지할 때 지면에 법진을 생성한다.
+법진은 3초의 준비 시간을 가지며, 준비가 끝난 후 파티원이 법진에 들어가면 전체 시공단열이 2.0 초간 발동한다.
+새로 생성된 법진은 이미 존재하던 법진을 덮어씌우며, 삭아관성 자신은 법진을 발동할 수 없다.
 
-Hold [ATK] for a mighty blow.
-After the 3rd sequence of Basic ATK, hold [ATK] to unleash a Combo ATK that deals 400% ATK of Physical DMG. With Three Rites unlocked, release [ATK] at the right moment for Perfect Cast.
+## 현무
 
-### Bludgeon's Ripper
+기본 공격 3단 이후 버튼 꾹
+공격 버튼을 길게 누르면 강력한 일격을 시전한다.
+기본 공격 3단 후 공격 버튼을 누르면 분기 공격을 발동해 적에게 공격력 400%의 물리 대미지를 입힌다..
+스킬 3식 해제 이후에는 특정 시간에 버튼을 떼면 완벽 발동을 할 수 있다.
 
-Combo ATKs deal 30.0% bonus Physical DMG.
+### 두목해
 
-### Bulwark's Wall
+SS랭크
+분기 공격의 대미지가 30.0% 증가한다.
 
-When channeling a Combo ATK, Valkyrie takes 60.0% less total DMG.  Performing Combo ATK reduces total DMG taken by 40.0% for 10s.
+### 벽수유
 
-### QTE: Battle Summit
+공격 버튼을 누르고 있는 동안 캐릭터가 받는 모든 대미지가 60.0% 감소한다. 스킬 발동 후, 10초 동안 캐릭터가 받는 모든 대미지가 40.00% 감소한다.
 
-QTE: Triggered upon 10 Hexagrams and targeted enemy in range to deal 1200% ATK of Physical DMG and boost team Crit Rate by 15.0% for 15s. Casting QTE does not switch in Starlit Astrologos. If her ultimate is ready when OTE is cast, her avatar will be switched to her ultimate button. Otherwise, her avatar can be tapped again to switch her in. Her QTE entry removes all Hexagrams stacks.
-After level 5, the skill can only be increased when  rank.
+### QTE 위월연
 
-## Eight Formations
+괘상 10스택
+괘상이 10스택에 도달하고, 현재 적이 목표로 선택되었을 때 삭야관성의 QTE를 발동할 수 있다.
+공격력의 1200% 대미지를 입히고 모든 파티원의 크리티컬률이 15초 동안 15% 증가한다.
+만약 삭야관성의 QTE 교대 순간 필살기 발동 조건을 충족했다면 우측 상단의 삭야관성 아이콘이 필살기 발동 버튼으로 바뀐다.
+반대의 경우 다시 우측 상단의 삭야관성 아이콘을 눌러 조종 캐릭터를 삭야관성으로 바꾸면 현재 조종하고 있던 캐릭터가 퇴장한다.
+삭야관성 QTE교대시 모든 파티원의 괘상을 초기화한다.
 
-Summon a tornado to sweep the battlefield.
-Deploy a formation with a whirling tornado, gathering enemies at the tornado eye and dealing 20 x 100% ATK of Physical DMG in total. 
-SP Cost: 125. CD: 25s.
+## 팔진
 
-### Empyrean Calamity
+SP 125 이상
+휘몰아치는 회오리를 생성한다.
+삭야관성의 전방에 법진을 생성한다.
+회오리를 소환해 이동시켜 적들을 회오리의 중심으로 끌어당기고, 회오리에 휘말린 적에게 총 공격력 20\*100%의 물리 대미지를 입힌다.
+발동 소모 SP 125, 재사용 대기시간 25 초
 
-Ultimate boosts team Physical DMG by 25.0% for 18s.
-After level 6, the skill can only be increased when  rank.
+### 천복의 진
 
-### Earthly Might
+필살기를 발동하면 모든 파티원의 물리 대미지가 18초간 25% 증가한다.
 
-Each sequence of Ultimate deals 60.00% ATK of bonus Physical DMG.
+### 지재의 진
 
-### Eolating Resistance
+삭야관성 필살기의 매 공격마다 추가로 물리공격 60.00%의 물리 대미지를 부여한다.
 
-Casting Ultimate grants 20.0% total DMG reduction and Ignore Interrupt to the team for 15s.
+### 풍양의 진
 
-## Rosefinch
+필살기 발동 후 15초 동안 모든 파티원이 받는 모든 대미지가 20% 감소하고 경직 저항력이 증가한다.
 
-Launch fan attacks. Evading during the first 3 sequences will not break the sequence connection.
-1st sequence: 80% + 80% ATK of Physical DMG.
-2nd Sequence: 100% + 100% ATK of Physical DMG.
-3rd sequence: 4 x 60% ATK of Physical DMG.
-4th sequence: 120% + 120% ATK of Physical DMG.
+## 주작
 
-### Vigor's Well
+우선을 사용해 공격한다. 앞 3단 공격 도중 회피해도 다음 공격을 계속 이어갈 수 있다.
+1격: 공격력 2*80%의 물리 대미지
+2격: 공격력 2*100%의 물리 대미지
+3격: 공격력 4*60%의 물리 대미지
+4격: 공격력 2*120%의 물리 대미지
 
-Hitting an enemy with the first 2 sequences of Basic ATK restores 0.60 bonus SP. CD: 0.5s.
+### 정목안
 
-### Vassal's Chariot
+기본 1,2번째 공격 명중
+추가로 0.06 sp를 회복한다. 발동 간격 0.5 초.
 
-Hitting an enemy with the 3rd sequence of Basic ATK restores  120.0 HP and 4.0 SP for every team member. CD: 6s.
+### 진수인
 
-### Vanquisher's Net
+기본 3번째 공격 명중
+추가로 모든 파티원의 HP를 120.0, SP를 4.0 회복한다. 재사용 대기 시간 6 초.
 
-Reaching 10/30/60 Combo Hits boosts Crit Rate by 20.0%/25.0%/30.0% respectively.
-After level 6, the skill can only be increased when  rank.
+### 장월녹
 
-## Three Rites
-
-When channeling Combo ATK, release [ATK] when a golden circle appears to trigger Perfect Cast.
-When channeling Combo ATK, release [ATK] upon seeing the flash prompt to trigger Perfect Cast, restoring 10 bonus SP and dealing 600% ATK of Physical DMG.
-
-### Gates of Mystery
-
-Combo ATKs of Perfect Cast grant 22.0% bonus total DMG to self on hit for 40s. 2 stacks max.
-
-### Six Stems of Heaven
-
-Combo ATKs of Perfect Cast stun enemies for 3.0s with a 8s CD.
-
-### Numbers of Taiyi
-
-Combo ATKs of Perfect Cast restore 15.0 SP on hit.
+콤보 수가 10/30/60일 때 크리티컬률이 각각 20.0%/25.0%/30.% 증가한다.

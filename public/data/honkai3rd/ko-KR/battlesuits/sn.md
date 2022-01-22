@@ -1,118 +1,115 @@
-# Stygian Nymph
+# 피안쌍생
 
-## Cursed Blessing
+## 축복=낙인
 
-Leader Bonus:
-Cursed Blessing: Team gains 14% Crit Rate. With 3 members of different types, team gains 21% bonus Physical DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+축복=낙인: 모든 팀원의 크리티컬률 16% 증가하고, 캐릭터 3명의 속성이 모두 다를 경우 물리피해가 25% 증가한다.
 
-### Withered Blossom
+### 성쇠
 
-Evasion skill has up to 2 charges.
+회피 스킬이 2스택 충전 스킬로 변경된다.
 
-### Cursed Blessing
+### 축복=낙인
 
-Team gains 16% Crit Rate. With 3 members of different types, team gains 25% Physical DMG.
+모든 팀원의 크리티컬률 16% 증가하고, 캐릭터 3명의 속성이 모두 다를 경우 물리피해가 25% 증가한다.
 
-### Flawed Perfection
+### 변화
 
-Ultimate's cooldown is reduced by 50% (minimum cooldown: 12.5s).
+필살기 재사용 대기시간이 50.0% 감소하며, 최대 12.5초로 감소한다.
 
-## Passive Skill
+## 패시브 스킬
 
-Passive bonuses apply automatically.
-Saulian Ego & Veilian Id share a meter of 400 points; One waxes and the other wanes.
-Sunnebrand & Veilmark, each lasts for 20s.
+패시브 스킬은 자동으로 발동한다.
+의식: 총 400pt로, 표면 의식과 내면 의식으로 구성됐으며, 한쪽이 상승하면 한쪽이 감소한다. 순백의 인장과 암흑의 인장, 20초 지속.
 
-### Vulnerable Duality
+### 표리
 
-Saule: Each kill recovers 200 Saulian Ego.
-Veliona: Grants 50.0% bonus damage to shields.
+표면 인격: 적 처치 시 표면 의식 200pt 회복.
+내면 인격: 실드에 가하는 대미지 50.0% 증가.
 
-### Robust Ambiguity
+### 시종
 
-After consuming all Saulian Ego or Veilian Id, gains 30.0% bonus Physical DMG for 10s (Can be reset).
-After level 7, the skill can only be increased after reaching  rank.
+모든 표면 의식 또는 내면 의식 소모 시 물리 대미지가 30.0% 증가한다. 10초 지속. 갱신 가능
 
-## Flash of Eternity
+## 영원=순간
 
-Quickly evades attacks. Can be performed twice in a row
-Saule's Ultimate Evasion recovers 100 Saulian Ego, enabling Saule to pass through enemies and directly perform the 4th sequence of her Basic ATK until the Evasion ends;Veliona's Ultimate Evasion recovers 100 Veilian Id, enabling Veliona to pass through enemies when evading forward, and directly perform the 4th sequence of her Basic ATK until Evasion ends.
-Flash of Eternity: Ultimate Evasion triggers a 3s global Time Fracture (CD: 15s). Flash of Eternity recovers 400 Saulian Ego for Saule and 400 Veilian Id for Veliona.
+적의 공격을 빠르게 회피하며 연속으로 2회 회피할 수 있다.
+극한 회피 시,
+표면 인격: 표면 의식 100pt 회복, 적을 관통할 수 있으며, 회피가 끝나기 전까지 즉시 제4격을 진행할 수 있다.
+내면 인격: 내면 의식 100pt 회복, 전방으로 회피 시 적을 관통할 수 있으며, 회피가 끝나기 전까지 즉시 제4격을 진행할 수 있다.
+영원=순간: 극한 회피 시: 전장에 3초간 시공 단열 발동, 재사용 대기시간 15초. 영원=순간 발동 시 표면 인격은 표면 의식을, 내면 인격은 내면 의식을 400pt 회복한다.
 
-### Lasting Ties
+### 은원
 
-When Flash of Eternity is not in CD, Saule's evasion and Veliona's forward evasion can pass through enemies and proc Flash of Eternity. Time Fracture triggered this way only lasts 2s. Evasion CD shortens by 2.0s.
+영원=순간이 재사용 대기 중이 아닐 때, 표면 인격의 회피와 내면 인격의 전방 회피가 적을 관통하면 영원=순간 스킬을 발동한다. 이 효과로 발동된 시공 단열은 2초만 지속된다. 회피 스킬 재사용 대기 시간이 2.0초 감소한다.
 
-### QTE: Eros and Eris
+### QTE-애증
 
-QTE: Triggers when an enemy is Time Slowed or Weakened. Saule: Deals 800.0% ATK of Physical DMG, recovers 400 Saulian Ego and inflicts Sunnebrand upon hit.
-Veliona: Deals 900.0% ATK of Physical DMG, recovers 400 Veilian Id and inflicts Veilmark upon hit.
+QTE: 적이 허약 상태이거나 시공 감속 상태일 때 발동한다. 표면 인격: 공격력 800.0%의 물리 대미지를 가하고 표면 의식 400pt를 회복하며, 명중된 적에게 순백의 인장을 남긴다. 내면 인격: 공격력 900.0%의 물리 대미지를 가하고 내면 의식 400pt를 회복하며, 명중된 적에게 암흑의 인장을 남긴다.
 
-## Charged ATK: Day and Night
+## 백주=흑야
 
-Hold [ATK] during Basic ATK, evasion, or QTE to unleash Charged ATK.
-Saule: 2x150% ATK of Physical DMG.
-Consume 400 Saulian Ego when it maxes to inflict Sunnebrand upon hit and resonate with the mark to deal 400% Physical AOE DMG.
-Veliona: 2x50% + 300% ATK of Physical DMG and inflict Veilmark upon hit. Consume 400 Veilmarks when it maxes to resonate with all Veilmarks, dealing 500% ATK of Physical DMG.
-With full Saulian Ego or Veilian Id, tap [ATK] after last sequence of Basic ATK to auto perform Charged ATK.
+기본 공격, 회피, QTE 사용 중 공격 버튼을 꾸욱 눌러 발동
+표면 인격: 공격력 2\*150%의 물리 대미지. 표면 의식이 가득할 때, 표면 의식 400pt를 소모해 적에게 순백의 인장을 남기고, 공격한 인장과 공명을 일으켜 공격력 400%의 범위 물리 대미지를 준다.
+내면 인격: 공격력 2\*50%+300%의 물리 대미지와 함께 적에게 암흑의 인장을 남긴다. 내면 의식이 가득할 때, 내면 의식 400pt를 소모해 공격한 인장과 공명하여 공격력 500%의 물리 대미지를 준다
+해당 의식이 가득할 때 기본 공격 마지막 일격 후 공격 버튼을 누르면 자동으로 차지 공격이 발동한다
 
-### Resonance Gain
+### 원근
 
-Resonated mark recovers 12.0 SP. CD: 1s.
+인장과 공명할 때 SP를 12.0 회복한다. 재발동 대기시간 1초
 
-### Spirit of Moirai
+### 유무
 
-Grants 20.0% bonus Crit Rate to damage dealt by resonated marks.
+인장의 공명으로 대미지를 가할 때, 크리티컬률 20.0% 상승.
 
-### Spirit of Keres
+### 존망
 
-Grants 50.0% bonus Crit DMG to damage dealt by resonated marks.
-After level 11, the skill can only be increased when  rank.
+인장의 공명으로 대미지를 가할 때, 크리티컬 대미지 50.0% 상승.
 
-## Chthonic Fury
+## 탄생=종말
 
-Saule transforms into Veliona and vice versa.
-Inflicts Quantum Implosion on QUA enemies.
-Cast by Saule: Briefly gathers and immobilizes nearby enemies for 4s, dealing 1000% + 7x100% of ATK of Physical DMG; awakens Veliona, recovers 400 Veilian Id, and inflicts Veilmark on enemies to replace Sunnebrand.
-Cast by Veliona: Deals 500% + 2500% ATK of Physical DMG; awakens Saule, recovers 400 Saulian Ego, and inflicts Sunnebrand on enemies to replace Veilmark.
-CD: 25s. Can be activated at any SP, but will consumes all SP upon activation. For every SP consumed, boosts Ultimate's Total DMG by 0.5% (75% max).
+인격을 전환한다.
+양자 속성의 적에게 양자 붕괴를 1회 일으킨다.
+표면 인격: 짧게 주변 적을 모으고 4초간 감금. 공격력 1000%+7\*100%의 물리 대미지를 가하고 내면 인격으로 전환 후 내면 의식 400pt를 회복하며, 전장의 적에게 암흑 인장을 남기고, 순백의 인장이 있다면 대체한다.
+내면 인격: 공격력 500%+2500%의 물리 대미지를 입히고 표면 인격으로 전환 후 표면 의식 400pt를 회복하며, 전장의 적에게 순백의 인장을 남기고, 암흑의 인장이 있다면 대체한다.
+재사용 대기시간: 25초. SP 소모 제한 해제, 사용 시 모든 SP를 소모한다. 소모한 SP 1 당 필살기의 모든 대미지가 0.5%씩 최대 75% 증가한다.
 
-### Claws of Nyx
+### 조석
 
-If unleashed by Saule: awakens Veliona and grants 15.0% ATK Speed and 35.0% Move Speed; her Veilian Id regen doubles, and will fully recover when 4th sequence of Basic ATK hits a target. Duration: 12s.
+표면 인격 해방: 내면 인격 전환 후 각성하여 공격 속도가 15.0%, 이동 속도가 35% 상승한다. 기본 공격의 내면 의식 회복 2배. 제4격이 적에게 명중 시 모든 내면 의식을 회복한다. 12초 지속
 
-### Scythe of Hemera
+### 주야
 
-If unleashed by Veliona: awakens Saule and gains Ignore Interrupt, 25.0% Physical DMG boost and 40% Physical DMG reduction; her Saulian Ego's ATK regen doubles. The 5th sequence can be performed directly after the 3rd sequence during this period. Duration: 12s.
+내면 인격 해방: 표면 인격 전환 후 각성하여 경직 저항력이 상승하고 물리 대미지가 25.0% 상승하며 받는 물리 피해가 40% 감소한다. 기본 공격의 표면 의식 회복 2배. 제3격 적중 후 즉시 제5격을 발동하며, 명중 시 모든 표면 의식을 회복한다. 12초 지속
 
-### Delayed Dusk
+### 미완
 
-Saule's Ultimate triggers a/an 2.0s global Time Fracture.
+표면 인격: 필살기 발동 후 전체 시공 단열이 2.0초간 발생한다
 
-## Light and Dark
+## 명광=암영
 
-Saule/Veliona basic ATK.
-Saule:
-1st Sequence: 80% + 100% ATK of Physical DMG; recovers 50 Saulian Ego upon hit.
-2nd Sequence: 120% ATK of Physical DMG; recovers 50 Saulian Ego upon hit.
-3rd Sequence: 100% + 2x60% ATK of Physical DMG; recovers 50 Saulian Ego upon hit.
-4th Sequence: 80% + 120% ATK of Physical DMG; recovers 50 Saulian Ego upon hit.
-5th Sequence: 3x150% + 200% ATK of Physical DMG; recovers 50 Saulian Ego upon hit.
-Veliona:
-1st Sequence: 120% ATK of Physical DMG; recovers 50 Veilian Id upon hit.
-2nd Sequence: 2x100% + 2x120% ATK of Physical DMG; recovers 50 Veilian Id upon hit.
-3rd Sequence: 300% ATK of Physical DMG; recovers 50 Veilian Id upon hit.
-4th Sequence: 3x150% ATK of Physical DMG; recovers 50 Veilian Id upon hit.
-Veliona's tentacle attacks immobilize enemies for 1s upon hit.
+이중인격이 연속으로 공격한다.
+표면 인격:
+1격: 공격력 80%+100%의 물리 대미지를 가하고, 명중 시 표면 의식 50pt 회복
+2격: 공격력 120%의 물리 대미지를 가하고, 명중 시 표면 의식 50pt 회복
+3격: 공격력 100%+2\*60%의 물리 대미지를 가하고, 명중 시 표면 의식 50pt 회복
+4격: 공격력 80%+120%의 물리 대미지를 가한다
+5격: 공격력 3\*150%+200%의 물리 대미지를 가하고, 명중 시 표면 의식 50pt 회복
+내면 인격:
+1격: 공격력 120%의 물리 대미지를 가하고, 명중 시 내면 의식 50pt 회복
+2격: 공격력 2\*100+2\*120%의 물리 대미지를 가하고, 명중 시 내면 의식 50pt 회복
+3격: 공격력 300%의 물리 대미지를 가하고, 명중 시 내면 의식 50pt 회복
+4격: 공격력 3\*150%의 물리 대미지를 가하고, 명중 시 내면 의식 50pt 회복
+내면 인격의 촉수 공격 명중 시 적을 1초간 감금한다.
 
-### Mark of Judgment
+### 선악
 
-Marked enemies take 25.0% bonus Physical DMG from character's Basic & Charged ATK (independent effect).
+인장이 있는 적은 피안쌍생에게 기본 공격(차지 공격 포함)을 받을 때, 받는 물리 피해가 25.0% 증가한다(해당 효과는 독립적인 추가 효과다).
 
-### Avenging Erinyes
+### 시비
 
-Grants Veliona Interrupt Resist and 40.0% Total DMG reduction.
+내면 인격은 경직 저항력이 증가하고, 받는 모든 피해가 40.0% 감소한다.
 
-### Might of Duality
+### 허실
 
-Gain 5.0 SP per second in battle for 10s. This effect can proc once every 10 min in Open World.
+전투 진입 시 SP가 초당 5.0씩 증가한다. 10초 지속, 오픈 월드에서는 10분에 한 번씩 발동.

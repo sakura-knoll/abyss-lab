@@ -1,99 +1,103 @@
-# Flame Sakitama
+# 진염행혼(작업중)
 
-## Eternal Cycle
+## 생명 유전
 
-Leader Bonus:
-Eternal Cycle: Team gains 25% DEF in battle. BIO-type characters gain 6% Max HP.
+리더로 배치 시 파티원이 버프를 받는다.
+팀원의 전투중 방어력이 40% 상승한다. 생물 속성인 경우 HP가 9% 상승한다.
 
-### Eternal Cycle
+### 생명 유전
 
-Team gains 40% DEF in battle. BIO-type characters gain 9% Max HP.
+팀원의 전투중 방어력이 40% 상승한다. 생물 속성인 경우 HP가 9% 상승한다.
 
-## Passive
+## 패시브 스킬
 
-Passive bonuses apply automatically.
+패시브 스킬은 자동으로 발동한다.
+
 After certain moves (4th hit of Basic ATK or Combo ATK), tap the [ATK] button when a flashing circle appears on the character to trigger follow-up attacks, dealing massive Fire DMG.
 
-### Ancient Dream
+### 오래된 지혜
 
-Ignores combo interruption once. Can be triggered once every 30s. Applies for the whole team.
+콤보가 끊기는 것을 1회 방지해준다. 30.0초마다 한 번씩 발동하며 모든 파티원에게 적용된다.
 
-### Artful Blade
+### 신묘검
 
-Basic follow-up attacks increase character's Zanshin by 225 upon hitting a target. For every 200 Zanshin, gain 17% (up to 68%) Total DMG Multiplier. When the character is deployed, consume 30 Zanshin per second.
+기본 추격이 적중 시 캐릭터의 잔심 수치가 240 상승하고, 잔심 수치 200마다 공격 시의 모든 대미지를 17% 증가시킨다.(최대 68%)
+캐릭터가 필드에 존재 시 초당 잔심 수치 30씩 소모한다.
 
-### Aerial Kill
+### 천중살
 
-Attacks against Time Slowed enemies gain 30.0% Physical and Elemental DMG.
+시공 감속 상태의 적을 공격 시 물리와 원소 대미지가 30.0% 증가한다.
 
-## Blazing Dance
+## 염무의 춤사위
 
-Quickly cartwheels away to evade enemy attacks.
-Time Fracture: Triggers Time Fracture upon an Ultimate Evasion, slowing all enemies for 3s. CD: 15s.
+적의 공격 회피
+4초 동안 전체 시공 단열을 발동해 모든 적의 행동이 느려지게 한다. 쿨타임 15초
 
-### Hazy Moon
+### 흐릿한 달
 
-Upon triggering an Ultimate Evasion, gains Ignore Interrupt and 30.0% Total DMG Multiplier for 4s.
+극한 회피 발동 시 4초 동안 캐릭터의 경직 저항력이 증가하고 받는 모든 대미지가 30.0% 감소한다.
 
-### Shokudai Kiri
+### 촛대 썰기
 
-Shortens CD of Time Fracture by 2.5s.
+시공 단열 재사용 대기시간 2.5초 감소.
 
-## Combo: Firewind
+## 열풍
 
-Leaping Slash ATK with both blades drawn.
-Combo Slash: 150% ATK of Physical DMG.
-Combo Follow-up ATK: Pause tapping [ATK] after Combo ATK and tap [ATK] again when the circle appears.
-Combo Follow-up ATK deals 220% ATK of Fire DMG and ignites enemies hit to deal 50 Fire DMG per 10s.
+공격 버튼을 길게 누른다.
+연속베기 : 총 150% 물리 대미지.
+분기 추격 : 분기공격 이후 공격을 멈추고 캐릭터 몸에 생성된 고리가 빛날 때 공격 버튼을 누르면 분기 추격을 발동한다. 공격력의 220% 화염 원소 대미지.
 
-### Asura
+### 아수라
 
-Combo follow-up attacks increase Fire DMG by 25% and Ice and Lightning DMG by 10% for 15 sec.
+분기 추격이 15초 동안 적이 받는 화염 원소 대미지를 25% 증가시키고, 빙결과 뇌전 원소 대미지를 10% 증가시킨다.
 
-### QTE: Backfire
+### QTE 역화
 
-Triggers QTE when enemy is paralyzed, dealing 50.0% ATK x [ATK] button tap count (up to 12) + 100% ATK of Fire DMG.
+적이 마비 상태일 때 발동
+공격력의 50.0%\*최대 12번+100% 화염 원소 대미지(공격 버튼을 누르는 만큼 공격 횟수가 증가한다)
 
-### Crimson Sunset
+### 교대기 붉은 노을
 
-Switch entry triggers a 3.1s Time Fracture. CD: 32s. This effect can only be activated 10s after the stage begins.
+캐릭터를 교체한다
+3.1초 동안 전체 시공 단열을 발동한다. 쿨타임 32초.
+스테이지 진입하고 10초가 지나면 발동할 수 있다.
 
-## Yae's Inferno
+## 팔중화담
 
-Attacks a random enemy multiple times and inflicts Time Lock to enemies within a large AOE.
-Guren Lotus: Attacks a random enemy 8 times, with each time dealing 200% ATK of Fire DMG.
-Karmic Flame: 400% ATK of Fire DMG to enemies in a large area and inflicts Time Slow for 4.5s.
-Blazing Tempo: Empowers character from Iron Body and faster attack for 9s. Follow-up attacks can be triggered without having to tap the [ATK] button at the precise time.
+SP 125 이상
+홍련：임의의 적에게 공격력의 200% 화염 원소 대미지를 입힌다.
+업화：넓은 범위의 적에게 공격력의 400% 화염 원소 대미지를 입히고 4.5초 동안 시공 감속 상태로 만든다.
+빙의：캐릭터가 9초 동안 강화되어 슈퍼 아머 상태가 되고, 공격 속도가 증가하며, 특정 타이밍에 공격 버튼을 누르지 않아도 기본 추격 공격을 발동할 수 있게 된다.
 
-### Surya's Burn
+### 환양염
 
-Each hit of the Ultimate combo strike deals an additional 200% ATK of Fire DMG.
+필살기의 연속 공격이 적중할 때마다 공격력의 200% 화염 원소 대미지를 추가로 입힌다.
 
-### Red Cloud
+### 붉은 구름
 
-For 10s after casting Ultimate, character attacks gain 19% Total DMG Multiplier.
+필살기 시전이 끝나고 10초 동안 캐릭터가 입히는 모든 대미지가 19% 증가한다.
 
-### Phoenix Blade
+### 일도비황
 
-Every Basic follow-up ATK deals additional 19% ATK of Fire DMG.
+기본 추격이 매 타격마다 공격력의 19% 화염 원소 대미지를 추가로 입힌다.
 
-## Ryuka Blade
+## 유화검
 
-Quick 5-sequence slash. Evading during the first 3 sequence will not break the sequence.
-1st to 3rd Sequences: 100%+100%+150% ATK of Physical DMG.
-4th Sequence: 150% ATK of Physical DMG.
-5th Sequence: 150% ATK of Physical DMG.
-Basic Follow-up ATK: After the 4th Sequence, wait for a flashing circle to appear and then immediately tap [ATK].
-Basic Follow-up ATK deals 650% ATK of Fire DMG and Ignites the target to further deal 50 Fire DMG per 0.5s for 10s.
+빠른 속도의 5단 베기. 1,2,3단 도중 회피해도 계속하여 다음 공격을 할 수 있다.
+3단까지：공격력의 100%+100%+150% 물리 대미지
+4단：공격력의 150% 물리 대미지
+5단：공격력의 150% 물리 대미지
+기본 추격 : 4단 공격 이후 연타를 멈추고, 캐릭터의 몸 근처에 생성된 고리가 빛날 때 공격 버튼을 누르면 적을 추격하는 공격을 발동한다. 총 650% 화염 원소 대미지.
 
-### Transcendent Realms
+### 무상의 경지
 
-When Combo Hit Counts reach 30 and 50, each sequence of the Basic ATK deals another 30.0% and 50.0% Fire DMG, respectively. Character also gains Ignore Interrupt during Basic ATKs.
+30, 50콤보
+기본 공격 1~4단 공격마다 공격력의 30.0%와 50.0% 화염 원소 대미지를 입히고, 기본 공격 도중 캐릭터의 경직 저항력이 상승한다.
 
-### Imperial Tachi
+### 사방태도
 
-First 4 sequences of the Basic ATK gain 30% Attack Speed. For the 4th sequence, gain 80% Total DMG Reduction and greatly increased Ignore Interrupt.
+기본 공격의 4단까지의 공격 속도가 30.0% 증가하고, 4번째 공격을 할 때 받는 모든 대미지가 80% 감소하며 경직 저항력이 대폭 증가한다.
 
-### Living Sword
+### 활인검
 
-If basic follow-up attacks score a hit, character gains 3.5 SP.
+기본 추격이 적에게 적중하면 자신의 SP를 3.5 회복한다.

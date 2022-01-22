@@ -1,102 +1,108 @@
-# Vermilion Knight: Eclipse
+# 진홍의 기사·월식(작업중)
 
-## Vermilion Mark
+## 진홍의 자국
 
-Leader Bonus:
-Vermilion Mark: For the team, switch skills & QTEs deal 21% Total DMG; Ultimates deal 21% Total DMG. Team deals 30.0% bonus Fire DMG if formed by 3 different-type battlesuits.
+리더로 배치 시 파티원이 버프를 받는다.
+모든 파티원의 교대기로 가하는 모든 대미지 25% 증가, 필살기로 가하는 모든 대미지 25% 증가. 모든 파티원의 속성이 모두 다르면 화염 원소 대미지 33.0% 증가
 
-### Vermilion Mark
+### 진홍의 자국
 
-For the team, switch skills & QTEs deal 25% Total DMG; Ultimates deal 25% Total DMG. Team deals 33.0% bonus Fire DMG if formed by 3 different-type battlesuits.
+모든 파티원의 교대기로 가하는 모든 대미지 25% 증가, 필살기로 가하는 모든 대미지 25% 증가. 모든 파티원의 속성이 모두 다르면 화염 원소 대미지 33.0% 증가
 
-## Passive Skill
+## 과부하 상태
 
-Character automatically gains passive bonuses.
-Overdrive status: Cannot use Charged ATK, perform 2 consecutive Evasions, or recover SP from Basic ATKs. Unleash Ultimate to end Overdrive status.
+패시브 스킬
+패시브 스킬은 자동으로 발동한다.
 
-### After Burn
+차지 공격 사용 불가, 연속 2번 회피 불가. 기본 공격 시 SP 회복 불가, 필살기 사용 후 과부하 상태 해제
 
-Gains 1.6% Fire DMG for each combo hit count, up to a max of 80.0%.
-After level 4, the skill can only be increased when  rank.
-After level 6, the skill can only be increased when  rank.
+### 연소
 
-### Scorching Sun
+콤보수가 1 오를 때마다, 화염 원소 대미지 1.6% 증가한다. 최대 80.0%까지 증가할 수 있다.
 
-When Combo Hit Count exceeds 30 or 50, indirect DMG received is reduced by 30.0% and 50.0% respectively.
+### 뙤약볕
 
-### Molten Cleaver
+콤보수 30/50 초과
+받는 간접 대미지가 30.0%/50.0% 감소한다.
 
-Attacks against ignited enemies gain 50.0% Fire DMG.
+### 융식
 
-## Guren Flash
+연소 상태의 적을 공격
+화염 원소 대미지가 50.0% 증가한다.
 
-Quickly evade enemy attacks. Can be performed 2 times in a row.
-Guren Flash: Triggered upon Ultimate Evasion and reduces CD of Ultimate by 5s. Tap the [ATK] button again to charge towards the target enemy and deal: 100% ATK of Physical DMG + 450% ATK of Fire DMG + 150% ATK of Physical DMG.
-CD: 15s
+## 홍련 섬광
 
-### Plasmonic Armor
+극한 회피
+연속으로 2회 회피 가능. 극한 회피 시, 필살기의 재사용 대기시간이 5초 감소한다. 다시 공격 버튼을 누르면 타깃에게 돌진해 공격력의 100% 물리 대미지+450% 화염 원소 대미지+150% 물리 대미지를 준다. 쿨타임 15초
 
-Shortens CD of Guren Flash by 3.0s.
+### 유염 장갑
 
-### Fuel Ignition
+홍련 섬광의 재사용 대기 시간이 3.0초 감소.
 
-Guren Flash strikes ignite enemies for 6.0s upon hit, dealing 50% ATK of Fire DMG every 0.5s.
+### 연소 폭발
 
-### QTE: Solar Impact
+홍련 섬광이 적에게 명중 시 적을 6.0초 간 연소 상태로 만들어 0.5초마다 공격력의 50% 화염 원소 대미지를 준다.
 
-Switch: Basic ATK 1st Sequence
-QTE: Triggered when enemy is affected by Time Slow. Deals 700.0% ATK of Fire DMG + 2x150% ATK of Fire DMG + 200% ATK of Physical DMG, and ignites nearby enemies for 5s, dealing 50% ATK of Fire DMG every 0.5s.
+### 솔라 임팩트
 
-## Charge: Meteoric Assault
+적이 시공 감속 상태일 때 캐릭터 교체
+공격력의 700.0% 화염 원소 대미지+2\*150% 화염 원소 대미지+200% 물리 대미지를 주고, 주위의 적을 5초 간 연소 상태로 만들어 0.5초마다 공격력의 50% 화염 원소 대미지를 준다.
 
-When not in Overdrive status, tap and hold the [ATK] button during 4-sequence Basic ATK and Guren Flash to deliver a Charged ATK.
-Charged ATK: Charges towards the target enemy, dealing 2x(50% ATK of Physical DMG + 150% ATK of Fire DMG). Finally, unleash a Schielhau cross-cut that deals 300% ATK of Physical DMG + 750% ATK of Fire DMG.
-After performing a Charged ATK, use another Charged ATK within 6s to enter Overdrive status for 13.5s.
+## 유성의 낙염
 
-### Undying Embers
+과부하 상태가 아닐 시, 공격 버튼을 꾸욱 눌러 발동.
+타깃에게 돌진해, 2\*(공격력의 50% 물리 대미지+150% 화염 원소 대미지)를 준다. 마지막으로 십자베기로 공격력의 300% 물리 대미지+750% 화염 원소 대미지를 준다.
+차지 공격 사용 후, 6초 내에 차지 공격을 다시 발동하면, 13.5초 동안 과부하 상태가 된다.
 
-Schielhau ignites the enemy target for 6.0s, dealing 50% ATK of Fire DMG every 0.5s.
+### 잔염
 
-### Incomplete Combustion
+십자베기가 적에게 명중
+적을 6.0초 간 연소 상태로 만들어 0.5초마다 공격력의 50% 화염 원소 대미지를 준다.
 
-Overdrive State: Gain 25.0% Fire DMG.
+### 불완전 연소
 
-### Turbo Fire
+과부하 상태
+화염 원소 대미지 25.0% 증가
 
-Overdrive: Each time the Ultimate hits an enemy, character recovers 2.0 SP, and the Ultimate gains 15.00% Fire DMG.
+### 화톳불
 
-## Annihilating Flames
+과부하 상태
+필살기가 적에게 명중할 때마다, 자신의 SP를 2.0 회복하고, 필살기의 화염 원소 대미지가 15.00% 증가한다.
 
-Unleash a devastating assault with a flaming greatsword and burn everything within sight. Overdrive status ends once the skill is complete.
-The Ultimate skill has 4 charges. 1 charge is consumed with every usage of the skill. With more than 0 charge, tap the [Ultimate] button before the Ultimate finishes to keep performing the skill. Re-activating the skill will unleash a 2-sequence attack.
-1st Sequence: Deals 2x(250% ATK of Fire DMG + 50% ATK of Physical DMG) + 400% ATK of Fire DMG + 50% ATK of Physical DMG.
-2nd Sequence: Deals 2x(200% ATK of Fire DMG + 50% ATK of Physical DMG) + 350% ATK of Fire DMG + 50% ATK of Physical DMG + 1000% ATK of Fire DMG.
+## 영겁의 불꽃
 
-### Boiling Lava
+SP 30 이상
+모든 것을 불 태우는 대검으로 파멸의 일격을 가한다, 종료 후 과부하 상태를 해제한다 필살기는 최대 4회 발동할 수 있으며, 한 번 사용할 때마다 발동 횟수가 1회 줄어든다. 연속으로 발동 시 2단 공격이 가능하다.
+1단：2*(공격력의 250% 화염 원소 대미지+50% 물리 대미지)+400% 화염 원소 대미지+50% 물리 대미지
+2단：2*(공격력의 200% 화염 원소 대미지+50% 물리 대미지)+350% 화염 원소 대미지+100% 물리 대미지+공격력 1000%의 화염 원소 대미지 재사용 대기시간: 20초
 
-Gains 20% Fire DMG each time the Valkyrie consumes SP to perform her Ultimate. Max stacks: 2. Duration: Until Ultimate ends.
+### 비등
 
-### Red Infernal
+SP를 소모해 필살기를 발동할 때마다 화염 원소 대미지가 20.0% 증가한다. 최대 2회 중첩할 수 있으며 필살기가 끝날 때까지 지속된다.
 
-When Ultimate strikes, target is ignited for 8.0s, taking 50% ATK of Fire DMG per 0.5s.
+### 홍염 연옥
 
-### Enraged Load
+필살기가 적에게 적중
+적을 8.0초 동안 연소 상태로 만들어 0.5초마다 공격력의 50% 화염 원소 대미지를 준다.
 
-After performing Charged ATK and if not in Overdrive, then shorten the CD of the Ultimate by 5.0s.
+### 발화 장전
 
-## Iron of Twilight
+차지 공격 사용 후, 과부하 상태에 진입하지 않았다면 필살기의 재사용 대기시간이 5.0초 감소한다.
 
-4-sequence attack.
-1st Sequence: 3x30% ATK of Fire DMG.
-Vermilion Knight will quickly start sprinting once she starts to move. During sprinting, the 1st Sequence will turn into a Sprint ATK with increased Interrupt and Ignore Interrupt.
-2nd Sequence: 50% ATK of Fire DMG + 100% ATK of Physical DMG.
-3rd Sequence: 2x100% ATK of Physical DMG + 50% ATK of Fire DMG.
-4th Sequence: 150% ATK of Fire DMG + 250% ATK of Physical DMG.
+## 황혼의 염인
 
-### Shadow of Muspell
+4연속 공격
+1격：3*공격력의 30% 화염 원소 대미지.
+2격：공격력의 50% 화염 원소 대미지+100% 물리 대미지
+3격：2*공격력의 100% 물리 대미지+50% 화염 원소 대미지
+4격：공격력의 100% 화염 원소 대미지+250% 물리 대미지.
+진홍의 기사는 이동 개시 후 곧바로 돌진 상태로 들어간다. 돌진 시에 기본 공격을 발동할 경우 첫 번째 공격은 돌진 판정을 받아 경직력과 경직 저항력이 상승한다.
 
-When combo hit count exceeds 50, gain Ignore Interrupt, and hits from the 3rd and 4th sequences of Basic ATK deal 250% ATK of Fire DMG and ignite enemies for 4.0s to inflict 50% ATK of Fire DMG every 0.5s.
+### 아지랑이 환영
 
-### Turbo Heatflow
+콤보수 50 초과
+경직 저항력이 상승하고 3번째와 4번째의 기본 공격에 아지랑이 환영이 나타나 공격력의 250% 화염 원소 대미지를 주고, 적을 4.0초 간 연소 상태로 만들어 0.5초마다 50% 화염 원소 대미지를 준다.
 
-The last hits of the 3rd and 4th Sequences of Basic ATK recover an additional 2.50 SP upon hitting the enemy.
+### 격동의 열류
+
+기본 공격의 3단과 4단의 마지막 일격이 적에게 명중시 추가로 2.50 SP를 회복한다.

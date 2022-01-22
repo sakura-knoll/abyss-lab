@@ -1,114 +1,115 @@
-# Argent Knight: Artemis
+# 창기사·월혼
 
-## Herald of Dawn
+## 촉야
 
-Leader Bonus:
-Setting Moon: Team gains 10% Total DMG Multiplier to Charged or Combo ATKs. For teams with characters of 3 different types, attacks gain 12% Elemental DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+촉야: 모든 파티원이 차지 혹은 분기로 적을 공격 시 모든 대미지가 16% 증가한다. 파티원 3명의 속성이 전부 다를 경우 공격 시 원소 대미지가 18% 증가한다.
 
-### Crescent Blade
+### 한월식도
 
-In burst mode, Valkyrie's Attack Speed increases by 15%.
+폭발 상태에서 캐릭터의 공격 속도가 15.0% 증가한다.
 
-### Herald of Dawn
+### 촉야
 
-Team gains 16% Total DMG Multiplier to Charged or Combo ATKs. For teams with characters of 3 different types, attacks gain 18% Elemental DMG.
+모든 파티원이 차지 혹은 분기로 적을 공격 시 모든 대미지가 16% 증가한다. 파티원 3명의 속성이 전부 다를 경우 공격 시 원소 대미지가 18% 증가한다.
 
-### Jade Moon
+### 고독한 달그림자
 
-Crescent Shadow's summoning cooldown is reduced to 6.0s.
+[남아있는 은빛 그림자]의 소환 재사용 대기 시간이 6.0초 감소한다.
 
-## Hypothermia
+## 얼음 침식
 
-Passive bonuses apply automatically.
-Hypothermia: When Crescent Harvest is present, hits from certain skills apply Hypothermia (2 stacks max) to enemies.
-1 stack of Hypothermia: Reduce enemy Ignore Interrupt for 10s and inflict minor Rime Trauma; 2 stack of Hypothermia: Reduce enemy Ignore Interrupt & Interrupt, slows their Attack and Move speed by 20% for 6s, and inflict minor Rime Trauma.
-Inflicting Hypothermia on enemies with 2 stacks will refresh the duration. Hypothermia does not work on enemies in Ice Cell.
+패시브 스킬은 자동으로 발동한다.
+얼음 침식: 은빛의 달이 출현할 때의 일부 공격이 적에게 명중하면 적을 최대 2단계 얼음 침식 상태로 만들어버린다.
+1단계 얼음 침식: 10초 동안 경직 저항력 감소하고, 소량의 빙결 축적치를 부여한다.
+2단계 얼음 침식: 경직 저항력, 경직력이 감소하고, 공격 속도와 이동 속도가 20% 감소한다. 지속 시간: 6초
+2단계 얼음 침식 상태의 적에게 중복으로 부여하면 지속 시간이 갱신되며, 얼음 감옥에 갇힌 적은 얼음 침식 상태가 부여되지 않는다.
 
-### Diamond Dust
+### 다이아몬드 더스트
 
-Gains 50.0% or 80.0% Ice DMG against enemies with Hypothermia or Ice Cell respectively.
+자신이 얼음 침식 상태의 적에게 가하는 빙결 원소 대미지가 50.0% 증가하고 얼음 감옥 상태의 적에게 가하는 빙결 원소 대미지가 80.0% 증가한다.
 
-### Robust Frigidity
+### 차가운 바람
 
-Gains 15% Total DMG at above 33% and another 15% at above 66% HP.
+자신의 HP가 최대치의 33%를 넘으면 공격 시 가하는 모든 대미지가 15.0% 증가하고, HP가 최대치의 66%를 넘으면 추가로 15.0% 증가한다.
 
-### Frost Prison
+### 얼음의 죄수
 
-Enemies trapped in Ice Cell take 24.0% bonus Total DMG (independent effect).
-After level 1, the skill can only be increased when  rank.
+얼음 감옥에서 적이 받는 모든 대미지가 24.0% 증가한다(해당 효과는 독립적인 추가 효과다).
 
-## Phantom Dance
+## 팬텀 댄스
 
-Quickly evades enemy attack. Can be performed twice in a row.
-Immediately launch the 4th sequence of Basic ATK after Ultimate Evasion.
-Phantom Dance: Summons Crescent Harvest (summoned entity) on the attacker upon Ultimate Evasion, dealing 6x80% ATK of AOE Ice DMG and inflicting Hypothermia; CD: 20s.
+빠르게 적의 공격을 회피하며 연속 2회 회피할 수 있다.
+극한 회피 후 바로 기본 공격의 4격을 발동할 수 있다.
+팬텀 댄스: 극한 회피 시 적의 위치에 은빛의 달[소환물]을 소환하여 범위 내의 적에게 공격력의 6\*80% 빙결 원소 대미지를 입히고 얼음 침식 상태로 만든다. 재사용 대기시간: 20초
 
-### Uranian Mirror
+### 천경
 
-Shortens CD of Phantom Dance by 3.0s.
+팬텀 댄스 재사용 대기시간 3.0초 감소.
 
-### Waning Crescent
+### 잔광
 
-Crescent Harvest summoned by Phantom Dance gain 50.0% ATK of Ice DMG for every ATK sequence.
+팬텀 댄스로 소환한 은빛의 달의 다단 히트 빙결 원소 대미지가 타격마다 50.0%씩 증가한다.
 
-### Rimy World
+### 빙천
 
-Each Charged ATK boosts Crescent Harvest's Ice DMG by 30.0% for 3s.
+차지 공격을 발동할 때마다, 은빛의 달이 가하는 빙결 원소 대미지가 30.0% 증가한다. 지속 시간: 3초
 
-## Charge: Frost Beam
+## 차지-얼음 광선
 
-Tap and hold the [ATK] button during the 5-sequence Basic ATK to remove 2 stacks of Hypothermia to deal massive DMG.
-Hold [ATK] button during any sequence of Basic ATK to unleash Charged ATK, which deals 100% ATK of AOE Ice DMG, removes 2 stacks (if any) of Hypothermia, seals enemies in Ice Cell, and deals 4x100% ATK of Ice DMG. Enemies will be frozen in Ice Cell.
-Normal mode: Each Charged ATK recovers 3 SP upon removing 2 stacks of Hypothermia.
-Burst mode: Charged ATK shuttles through enemies, deals 2x150% ATK of Ice DMG, and summons Crescent Harvest (summoned entity), which deals 5x125% ATK of Ice DMG with a spinning scythe in the position of the 1st enemy hit.
-Switch: Enhanced 3rd sequence of Basic ATK dealin 80%+160% ATK of Physical DMG.
+5연격 도중 차지를 발동. 2단계 얼음 침식을 수확하여 적에게 대량의 대미지를 준다.
+5연격 도중 아무 때나 공격 버튼을 길게 누르면 차지 공격을 발동하여 범위 내의 적에게 공격력의 100%의 빙결 원소 대미지를 준다. 만약 적이 2단계 얼음 침식 상태면 얼음 침식을 전부 수확하여 적을 잠시 얼음 감옥에 가둬 공격력의 4\*100%의 빙결 원소 대미지를 주고 빙결 상태로 만든다.
+폭발 상태가 아닐 시 차지 공격이 2단계 얼음 침식을 소모하면 자신의 SP를 3pt 회복한다.
+폭발 상태에서는 차지 공격을 발동하면 적을 관통해 공격력의 2\*150% 빙결의 빙결 원소 대미지를 주고 첫 번째로 공격한 적이 있는 위치에 은빛의 달[소환물]을 소환하여 공격력의 5\*125% 빙결 피해를 준다.
+교대기: 더욱 강력한 3격을 발동하여 적에게 공격력의 80%+160%의 물리 대미지를 준다.
 
-### Argent Scythe
+### 은빛의 낫
 
-Charged ATK consumes 2 stacks of Hypothermia to deal multi-stage DMG. Each stage gains 120.0% ATK of Ice DMG.
+차지 공격으로 2단계 얼음 침식 상태를 지운 후의 다단 히트 빙결 원소 대미지는 타격 당 공격력의 120.0%씩 증가한다.
 
-### QTE: Sudden Frost
+### QTE - 갑작스런 추위
 
-QTE: Triggered when paralyzing or freezing the enemy, dealing 100% + 150% + 300.0% ATK of Physical DMG. Crescent Harvest deals 3x50% + 400.0% ATK of Ice DMG and applies 1 stack of Hypothermia.
+QTE: 적이 마비 또는 빙결 상태일 때 QTE를 발동하여 적에게 공격력의 100%+150%+300.0%의 물리 대미지를 입히고 은빛의 달은 공격력의 3\*50%+400.0% 빙결 원소 대미지를 입히며 1단계의 얼음 침식 디버프를 부여한다.
 
-### Glacial Armor
+### 서리 갑옷
 
-When Charged ATK consumes 2 stacks of Hypothermia, gain Glacial Armor that gives a 50% Total DMG Reduction buff for 7.00s.
+차지 공격으로 2단계 얼음 침식 디버프를 지우면 서리 갑옷을 획득하여 자신이 받는 모든 대미지를 50.0% 감소시킨다. 지속 시간 7.00초
 
-## Rave of Artemis
+## 농월유광
 
-Enters Burst mode: Gains Glacial Armor, Ignore Interrupt, and 60% Total DMG Reduction. Basic ATKs (BATK) gain Ice DMG, and the last hit of each BATK sequence turns Hypothermia Stack 2 into Ice Cell; Crescent Harvest (summoned entity) assists Rita during BATK and inflicts Hypothermia with ATK sequences 2 and 4..Lunar Burst: During Burst, spend 10 SP to cast Ultimate again to end Burst mode, deal 400% ATK of large AOE Ice DMG, and inflict Ice Cell for 3s (2s for Bosses); enemies freeze for 5s and return to Hypothermia Stack 2 after that. CD: 6s. Min activation SP: 80. SP consumption: 0-8s: 7 SP/s; 8-16s: 10 SP/s; after 16s: 15 SP/s. Max duration: 24s.
+폭발 상태에 진입하면 서리 갑옷을 획득하여 경직저항력이 상승하고 받는 모든 대미지 60% 감소한다. 기본 공격으로 가하는 빙결 대미지가 더욱 강력해지고 매 타격의 마지막 일격은 2단계 얼음 침식 상태를 얼음 감옥으로 전환한다. 5연격 동안 은빛의 달[소환물]은 리타를 도와 적을 공격하며, 그의 2번째와 4번쨰 공격은 얼음 침식을 부여한다.
+역월단공: 폭발 상태에서 필살기 버튼을 누르면 10 SP를 소모하여 폭발 상태를 멈추고, 광범위의 적에게 공격력 400%의 빙결 원소 대미지와 함께 3초 동안 얼음 감옥에 가둔다(보스급의 적은 2초 지속). 이 기간에 적은 5초 동안 빙결 상태가 되고 종료 후 2단계 얼음 침식 상태가 된다. CD: 6초. 최소 발동 SP: 80, 폭발 상태 진입 후 8초 동안 초당 7 SP씩 소모하고 8~16초 동안에는 초당 10SP를 소모하며 16초 후부터는 초당 15SP씩 소모한다. 지속 시간 24초
 
-### Waxing Moon
+### 깨어난 월혼
 
-Performing the Ultimate heals the character for 600.0 HP.
+필살기를 발동할 때마다 자신의 HP를 600.0 회복한다.
 
-### Frost Cells
+### 영원한 얼음의 감옥
 
-Lunar Burst deals another 300.0% ATK of Ice DMG. Extends Ice Cell duration by 1.50s (duration against elites or bosses is extended by 1.00s).
+역월단공의 빙결 원소 대미지가 300.0% 증가하고 얼음 감옥의 지속 시간이 1.50초 증가한다.(우두머리 레벨의 적은 1.00초 증가)
 
-### Winter Harvest
+### 서리혼의 얼음 골수
 
-Burst: 5-sequence Basic ATK and Charged ATK of character / Crescent Harvest gain 60.0%/80.0% Ice DMG (including the multi-stage DMG inflicted by consuming 2 stacks of Hypothermia).
+폭발 상태 지속 기간 동안 자신/은빛의 달의 5연격과 차지 공격(2단계 얼음침식을 지운 후의 다단 히트 대미지 포함)의 빙결 원소 대미지가 각각 60%/80.0% 증가한다.
 
-## Cold Moon
+## 차가운 달
 
-5-sequence scythe attack.
-1st Sequence: 80% ATK of Physical DMG.
-2nd Sequence: 40% + 100% ATK of Physical DMG.
-3rd Sequence: 40% + 100% ATK of Physical DMG.
-4th Sequence: 2x60% + 160% ATK of Physical DMG; pulls in enemies within a small AOE.
-5th Sequence: 150% + 250% ATK of Physical DMG, summons Crescent Harvest (summoned entity) to unleash a hit dealing 150% ATK of Ice DMG.
-During the 5-sequence Basic ATK, tap the [ATK] immediately after Evasion to continue the sequence.
+낫을 휘둘러 적을 5회 공격한다.
+1격: 공격력 80%의 물리 대미지
+2격: 공격력 40%+100%의 물리 대미지
+3격: 공격력 40%+100%의 물리 대미지
+4격: 공격력 2\*60%+160%의 물리 피해를 주고 작은 범위의 적을 끌어당긴다.
+5격: 공격력 150%+250%의 물리 대미지. 또 은빛의 달[소환물]을 소환하여 공격력 150%의 빙결 원소 피해를 준다.
+5연격 도중 회피를 사용해도 짧은 시간 내에 기본 공격 버튼을 누르면 이어서 공격할 수 있다.
 
-### Frost Scythe
+### 얼음의 낫
 
-Each strike of the 5-sequence Basic ATK gains 50.0% ATK of Ice DMG.
+기본 공격 5연타의 각 공격마다 공격력의 50.0% 빙결 원소 대미지를 입힌다.
 
-### Crimson Astarte
+### 크림슨 아스타르테
 
-Hitting enemies not affected by Ice Cell or 2 stacks of Hypothermia with first 4 sequences of Basic ATK summons Crescent Harvest at the enemy's location, striking 1 time to deal 450.0% ATK of AOE Ice DMG and inflict Hypothermia. Summon CD: 6.00s.
+자신이 1~4단 기본 공격으로 2단계 얼음 침식 혹은 얼음 감옥 상태에 처하지 않은 적을 공격하면 적이 있는 위치에 은빛의 달을 소환하여 공격력의 450.0% 빙결 원소 대미지를 1회 입히고 얼음 침식을 부여한다. 소환 재사용 대기시간 6.00초
 
-### Crescent Shadow
+### 남아있는 은빛 그림자
 
-When team mates hit enemies with Charged or Combo ATKs, summon Crescent Harvest at the enemy's location, striking 1 time to deal 300.0% ATK of AOE Ice DMG and apply Hypothermia. Summon CD: 12.00s. CD is counted separately from each team mate.
+파티원의 차지 혹은 분기 공격이 적에게 적중 시 적이 있는 위치에 은빛의 달을 소환하여 공격력의 300.0% 범위 빙결 원소 대미지를 입히고 얼음 침식을 부여한다. 소환 재사용 대기시간 12.00초, 파티원마다 단독으로 계산한다.

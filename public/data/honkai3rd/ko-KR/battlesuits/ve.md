@@ -1,101 +1,106 @@
-# Violet Executer
+# 처형복·반혼초(작업중)
 
-## Execution Time
+## 처형 Time
 
-Leader Bonus:
-Execution Time: Burst/Ultimate attacks deal 12%  more Physical DMG. Teams formed by 3 battlesuits of at least two different types gains 8% Total DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+폭발 상태에서 물리 대미지가 20% 증가하며, 파티원 중 다른 속성이 하나라도 있으면 공격 시 모든 대미지가 12% 증가한다.
 
-### Execution Time
+### 처형 Time
 
-Team's Burst/Ultimate attacks deal 20% more Physical DMG. Teams formed by 3 battlesuits of at least two different types gains 12% Total DMG.
+폭발 상태에서 물리 대미지가 20% 증가하며, 파티원 중 다른 속성이 하나라도 있으면 공격 시 모든 대미지가 12% 증가한다.
 
-## Passive
+## 패시브 스킬
 
-Passive bonuses apply automatically.
+패시브 스킬은 자동으로 발동한다.
 
-### World's #1 Cutie
+### 세상에서 제일 귀여워!
 
-Gain 36.0 initial SP in battle. This bonus triggers once every 10 minutes in Open World.
+전투 중 초기 SP 36.0 증가. 오픈 월드에서는 10분에 한 번씩 발동 가능.
 
-### Salt for the Wound
+### 정의의 뒤통수치기
 
-ATK against a bleeding target additionally deals 3x226% ATK of AOE Physical DMG. CD: 1.50s.
+출혈 상태의 적 공격
+해당 타깃과 타깃 주변 적에게 공격력의 3\*226%의 물리 대미지를 입힌다. 쿨타임 1.50초
 
-### No Touching
+### 건드리지 마, 이 변태!
 
-When cross is deployed, the entire team gains 60.0% Total DMG Reduction for 8.01s.
+십자가를 전개 후, 8.01초 동안 모든 파티원이 받는 모든 대미지가 60.0% 감소한다.
 
-## Iron Maiden (Evasion)
+## 아이언 메이든
 
-Quick sideways dodge to evade enemy attack. Can be triggered 2 times in a row.
-After Ultimate Evasion, gain 40% Move Speed for 3s.Iron Maiden: Drops a giant halberd out of the air upon an Ultimate Evasion, dealing 200% ATK of Physical DMG to the attacker and surrounding enemies and knocking them down. CD: 15s.
+적의 공격 회피
+연속으로 2회까지 빠르게 회전하여 회피한다. 극한 회피 후 3초 동안 이동 속도가 40% 증가한다.
+아이언 메이든：극한 회피 시 거대 할버드를 떨어뜨려서, 공격한 적 및 주변에 있는 적에게 공격력의 200% 물리 대미지를 입히고 다운시킨다. 재사용 대기시간 15초
 
-### Iron Maiden
+### 아이언 메이든
 
-Upon evasion, deal 82.0% Physical DMG to surrounding enemies.
+On/Off 가능
+회피 시 자신 주변의 적에게 공격력의 82.0% 물리 대미지를 입힌다.
 
-### Rapid CD (VE)
+### 급속 냉각
 
-CD of Ultimate Evasion skill is 4.00s shorter.
+극한 회피 재사용 대기시간 4.00초 감소
 
-### Blood Magdalene
+### 블러디 메이든
 
-Giant halberd causes bleeding to enemies hit, dealing 750 Physical DMG every 0.5s for 4.50s.
+거대 할버드가 적에게 적중 시 출혈 상태로 만들어 4.50초 동안 0.5초마다 750의 물리 대미지를 입힌다.
 
-## Charge: Impaler
+## 심판의 창
 
-Charge during the 4-sequence attack to launch a multi-hit upward thrust attack.
-Impaler: Charge by holding the [ATK] button during the 4-sequence Basic ATK. Reaches full charge in a short time, then release the [ATK] button to deal a 9-sequence attack that deals 100% ATK of Physical DMG per hit and knocks enemies airborne.
+공격 버튼을 꾸욱 눌러 발동
+기본 공격 4연격 중 짧은 시간 안에 풀차지 시 다단 공격한다. 총 9자루의 제재장창을 던져 타격마다 공격력의 100% 물리 대미지를 입히고 적을 공중에 띄운다.
 
-### Vicious Impaler
+### 장창 차지
 
-Each strike of Impaler has a 25.0% chance to bleed enemies, dealing 360 Physical DMG every 0.5s for 3s.
+제재장창의 각 공격이 명중할 시 25.0% 확률로 적을 출혈 상태로 만들어 0.5초마다 360 물리 대미지를 입히고, 3초간 지속한다
 
-### Switch: Instant Impalement
+### 교대기 빛의 창
 
-Switch: Unleashes a 9-sequence Impaler combo, each hit dealing 120% ATK of Physical DMG and knocking enemies airborne.
+캐릭터 교체
+심판의 창이 9번 솟아올라 타격마다 공격력의 120% 물리 대미지를 입히고 적을 띄운다.
 
-### QTE: Cross Spears
+### QTE 이중 빛의 창
 
-QTE: Triggered by Time Slow: Unleashes 2 crossed rows of 6-sequence impaling spears, each hit dealing 160% ATK of Physical DMG and knocking enemies airborne.
+적이 시공 감속 상태일 때 캐릭터 교체
+적을 향해 교차되는 2줄의 심판의 창을 6자루 던져 타격마다 공격력의 160% 물리 대미지를 입히고 적을 띄운다.
 
-## Execute Mode
+## 처단 모드
 
-Execute Mode: Enters the Valkyrie state, transforming the 4-sequence Basic ATK into Burst ATKs with greater Interrupt ability.
-Burst: Consumes 80 SP to enter an 8s burst mode with CC immunity.
-1st Sequence: 2x75% ATK of Physical DMG.
-2nd Sequence: 2x65% ATK of Physical DMG.
-3rd Sequence: 2x (50+70%) ATK of Physical DMG.
-4th Sequence: 2x (60%+80%+100%) ATK of Physical DMG.
+SP 80 이상
+발키리 상태에 진입하여, 4연격이 더욱 강한 폭발 공격으로 변한다. 발키리 상태는 8초 동안 지속되며, 이 기간 동안 상태 이상에 면역된다.
+1단：공격력의 2*75% 물리 대미지
+2단：공격력의 2*65% 물리 대미지
+3단：공격력의 2*(50%+70%) 물리 대미지
+4단：공격력의 2*(60%+80%+100%) 물리 대미지
 
-### Execution Start
+### 처단 시작
 
-Burst activation deals 300.0% ATK of Physical DMG against nearby enemies, knocks them airborne and bleeds them to deal 750 Physical DMG every 0.5s for 4s.
+폭발 상태 진입 순간, 자신 주변의 적에게 공격력의 300.0% 물리 대미지를 입히고, 출혈 상태로 만들어 띄운다. 4초 동안 0.5초마다 750의 물리 대미지를 입힌다.
 
-### Hemorrhagic Shock
+### 출혈 쇼크[
 
-Each hit of the Ultimate has a 25.0% chance to bleed enemies, dealing 980 Physical DMG every 0.5s for 5s.
+필살기의 매 타격이 25.0% 확률로 적을 출혈 상태로 만들어 5초 동안 0.5초마다 980의 물리 대미지를 입힌다.
 
-### Arbiter
+### 중재자
 
-The 4th sequence of Burst ATK gains 50.0% Crit Rate.
+필살기의 네 번째 공격이 적에게 적중 시 크리티컬률이 50.0% 증가한다.
 
-## Lance of Longinus
+## 처형의 창
 
-Basic ATK: Mid-range 4-sequence attack with ethereal halberds.
-1st Sequence: 3x30% ATK of Physical DMG.
-2nd Sequence: 3x30% ATK of Physical DMG.
-3rd Sequence: 4x45% ATK of Physical DMG.
-4th Sequence: 6x45% ATK of Physical DMG against enemies within a mall AOE.
+영체로 된 할버드로 중거리 4연격
+1단：공격력의 30%*3 물리 대미지
+2단：공격력의 30%*3 물리 대미지
+3단：공격력의 45%*4 물리 대미지
+4단：작은 범위에 공격력의 45%*6 물리 대미지
 
-### Steel Tempest
+### 철의 강타
 
-4th sequence of Basic/Ultimate ATKs has a 50.00% chance to stun the target for 2.00s when scoring a Crit hit.
+기본 공격/필살기의 4회째 공격이 크리티컬 시 50.00% 확률로 적을 2.00초 동안 기절 상태로 만든다.
 
-### Spiked Skirt
+### 날카로운 강철 치마
 
-Gains Ignore Interrupt during 4-sequence Basic/Ultimate ATK. When being attacked, there is a 35.0% chance to reduce 345 Total DMG taken and knock down nearby enemies to deal 250.0% ATK of Physical DMG.
+기본 공격/필살기 4연격 도중 경직 저항력이 상승하고 적에게 피격 시 35.0% 확률로 모든 대미지를 345 감소시키며 자신 주변의 적에게 공격력의 250.0% 물리 대미지를 입히며 다운시킨다.
 
-### Flesh Raker
+### 진신 격파
 
-Basic ATKs, 4-sequence Burst ATKs and 5-sequence Fervent ATKs gain 50.0% Physical DMG against unshielded enemies, and gain 50.0% Crit DMG against shielded enemies.
+기본 공격/필살기 4단 공격이 현재 실드의 보호를 받고 있지 않은 적에게 가하는 물리 대미지가 50.1% 증가한다.

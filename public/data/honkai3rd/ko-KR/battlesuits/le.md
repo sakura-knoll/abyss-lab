@@ -1,97 +1,104 @@
-# Lightning Empress
+# 뇌전 여왕의 귀신 갑주(작업중)
 
-## Haunted Night
+## 백귀야행
 
-Leader Bonus:
-Haunted Night: Battlesuits have 50 bonus SP upon entrance. For a team of 3 PSY-type battlesuits, Valkyrie attacks deal 20% bonus Total DMG.
-In Open World, starting SP bonus can only be triggered once every 10min, and Valkyrie attacks deal 10% bonus Total DMG instead.
+리더로 배치 시 파티원이 버프를 받는다.
+파티원 전원의 전투 중 기본 SP 70 증가. 캐릭터 속성이 모두 이능일 경우 모든 대미지가 26% 증가한다.
+오픈 월드에서는 적용된 효과가 10분마다 한번씩 발동할 수 있고, 파티원 전원의 모든 대미지가 10% 증가한다.
 
-### Haunted Night
+### 백귀야행
 
-Team starts with 70 more initial SP in combat. A team formed by 3 PSY-type battlesuits gains 26% Total DMG. In Open World, initial SP bonus triggers once every 10 minutes, and the team gains 10% Total DMG.
+파티원 전원의 전투 중 기본 SP 70 증가. 캐릭터 속성이 모두 이능일 경우 모든 대미지가 26% 증가한다.
+오픈 월드에서는 적용된 효과가 10분마다 한번씩 발동할 수 있고, 파티원 전원의 모든 대미지가 10% 증가한다.
 
-## Passive Skill
+## 패시브 스킬
 
-Character automatically gain passive bonuses.
+패시브 스킬은 자동으로 발동한다.
 
-### Dragon's Aura
+### 청룡의 결계
 
-Gain 100.0% to Total DMG Multiplier when attacking frozen and slowed enemies.
+빙결, 이동 속도 저하 상태의 적 공격
+모든 대미지 100.0% 증가
 
-### Thunder Cloud
+### 뇌운참
 
-When hit, there is a 20.0% chance to paralyze the attacker and nearby enemies for 2.5s.
+피격 시 20.0%의 확률로 공격한 적과 그 주변의 적을 2.5초 동안 마비 상태로 만든다.
 
-### Sundered Shackles
+### 분노의 멍에
 
-Combo ATK has a 8.00% chance to apply conductive debuff of Soul Razor on the enemy.
+분기 공격 시 8.00%의 확률로 적에게 단혼참 스킬의 감전 효과를 추가한다.
 
-## Lightning Speed
+## 번개의 칼날
 
-Quick dash to evade enemy attacks. Can be performed twice in a row.
-Lightning Dodge: Triggers upon an Ultimate Evasion and lasts 5s, during which the Valkyrie takes 15% less Physical DMG and significantly gains Ignore Interrupt.
-Asura's Roar: Triggers upon an Ultimate Evasion and lasts 5s, during which the attacker is paralyzed and the Valkyrie takes 15% less Physical DMG and 80% less Lightning DMG; CD: 10s.
+적의 공격 회피
+카미나리 : 극한 회피 시 발동, 공격한 적을 5초 동안 마비 상태로 만들고, 5초 동안 캐릭터가 받는 물리 대미지를 15%, 받는 뇌전 원소 대미지를 80% 감소한다. 쿨타임 10초
+뇌둔 : 극한 회피 시 5초 동안 캐릭터가 받는 물리 대미지가 15% 감소하며, 경직 저항력이 증가한다.
 
-### Thunderclap
+### 뇌명
 
-Triggers a lightning field upon Ultimate Evasion, dealing 85.0% ATK of Lightning DMG to enemies within it every 0.5s for 5.0s.
+극한 회피에 성공 시 범위 내 전기장을 발동하고 0.5초마다 범위 내 적에게 공격력의 85.0% 뇌전 원소 대미지를 입히고, 5.0초간 지속된다.
 
-### Blinding Flash
+### 번뜩이는 검
 
-Extends the duration of the paralyzing effect triggered by Ultimate Evasions to 8.0 sec.
+극한 회피 시 발동되는 마비 효과 지속 시간이 8.0초가 된다.
 
-## Gigavolt Spin
+## 천명참
 
-Fulminating Zone.
-Raiden Slash: 80%x4 ATK of Lightning DMG.
+1번 공격 후 몸에서 빛이 날 때 공격
+번개를 담은 칼날로 적을 공격해 공격력의 80%\*4 뇌전 원소 대미지를 입힌다.
 
-### Switch: Falling Thunder
+### 교대기
 
-Switch entry unleashes Falling Thunder, dealing 250.0% ATK of Lightning DMG to surrounding enemies.
+낙뢰참
+캐릭터를 교체한다
+낙뢰를 떨어뜨려 주변 적에게 공격력의 250.0%의 뇌전 원소 대미지를 입힌다
 
-### Doppel Raiden
+### 뇌격 쌍참
 
-Tap the [ATK] button after Ultimate Evasion to unleash Gigavolt Spin. Gigavolt Spin can be triggered 1 more time to deal 80.0%x4 ATK of Lightning DMG.
+극한 회피 후 공격 버튼을 누르면 천명참을 발동한다. 천명참을 한번 더 발동하여 공격력의 80.0%\*4 뇌전 원소 대미지를 입힌다.
 
-### It Strikes Twice
+### 뇌격 폭참
 
-Gigavolt Spin can be triggered 1 more time (must unlock Doppel Raiden first), dealing 80.0%x4 ATK of Lightning DMG.
+뇌격 쌍참 습득 필요
+천명참을 추가로 한번 더 발동하여 공격력의 80.0%\*4 뇌전 원소 대미지를 입힌다.
 
-## Dragon May Cry
+## 뇌룡의 포효
 
-Unleashes the powers of Thor, damaging all enemies within a large area.
-Thor's Slash: Large AOE attack that deals 900% ATK of Physical DMG and 900% ATK of Lightning DMG.
-SP Cost: 125
+SP 125 이상
+넓은 범위의 적에게 공격력의 900% 물리 대미지와, 공격력의 900% 뇌전 원소 대미지를 입힌다.
 
-### QTE: Sakura Vortex
+### 벚꽃 소용돌이
 
-QTE: Triggers when enemy is knocked airborne. Deals 6x50.0% ATK of Physical DMG + 6x50.0% ATK of Lightning DMG against enemies within a large AOE. Restores 10 SP for the Valkyrie.
+적이 띄워진 상태에서 캐릭터 교체
+넓은 범위의 적에게 공격력의 50.0%*6 물리 대미지와, 공격력의 50.0%*6 뇌전 원소 대미지를 입히고, 10 SP를 회복한다.
 
-### SHIN: Ohka Fall
+### 진·벚꽃 산란
 
-The last strike of the Ultimate deals 119 bonus Lightning DMG per Combo Hit Count (limit: 100 hits).
+On/Off 가능
+필살기의 마지막 일격이 콤보 수 1당 119의 뇌전 원소 대미지를 추가로 입힌다. 최대 유효 콤보 수 : 100회.
 
 ### I'm Mei
 
-Paralyzes all enemies for 5.0s when the last strike hits the target and increases Lightning DMG dealt in attacks by 40% for 7s.
+마지막 일격이 적중 시 필드의 모든 적을 5.0초 동안 마비 상태로 만들고 7초 동안 캐릭터가 적에게 입히는 뇌전 원소 대미지가 40% 증가한다.
 
-## Gotamashiki
+## 오혼참
 
-Swift penta-slash with a 2% chance of paralyzing the target for 5s.
-1st Sequence: 100% ATK of Physical DMG.
-2nd Sequence: 120% ATK of Physical DMG.
-3rd Sequence: 75% ATK of Physical DMG.
-4th Sequence: 80% ATK of Physical DMG.
-5th Sequence: 250% ATK of AOE Physical DMG.
+빠른 속도의 5연속 베기. 적을 2%의 확률로 5초 동안 마비시킨다.
+1식：공격력의 100% 대미지
+2식：공격력의 120% 대미지
+3식：공격력의 75% 대미지
+4식：공격력의 80% 대미지
+5식：주변 범위에 공격력의 250% 대미지
 
-### Thunder Edge
+### 뇌신의 칼날
 
-Every Basic ATK sequence additionally deals 40.0% ATK of Lightning DMG.
+기본 공격의 각 단계마다 공격력의 40.0% 뇌전 원소 대미지를 추가로 입힌다.
 
-### Soul Razor
+### 단혼참
 
-Basic ATKs have a 40.0% chance to render enemies conductive for 6.0s, during which they take 70.0% bonus Lightning DMG. The 1st non-conductive enemy hit by the 5th sequence of Basic ATK will definitely become conductive.
+기본 공격 시 40.0% 확률로 적을 6.0초 동안 감전 상태로 만든다. 감전 상태의 적은 받는 뇌전 원소 대미지가 70.0% 증가한다. 기본 공격 5식의 공격을 받았지만 단혼참 스킬의 영향을 받지 않은 첫 번째 적은 반드시 감전 상태가 된다.
 
-### Relentless Slash EX
+### 연속 베기 - 극
 
-Increases Attack Speed by 25.0% when Combo Hit Count exceeds 30.
+콤보 수 30 이상
+공격 속도 25.0% 증가

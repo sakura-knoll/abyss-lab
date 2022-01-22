@@ -1,101 +1,104 @@
-# Azure Empyrea
+# 단심의 먹구름
 
-## Hex of Exposure
+## 산택손
 
-Leader Bonus:
-Hex of Exposure: All team members gain 14% Total DMG for 15.0s after entry. If the team consists of members of 3 different types, all team members gain 22% Total DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+산택손: 모든 파티원은 교대 후 15.0초 동안 모든 대미지가 18% 증가한다. 파티원 3명의 캐릭터 속성이 모두 다를 경우 파티원의 모든 대미지가 24% 증가한다.
 
-### Hex of Devastation
+### 산지박
 
-The first four Combo ATKs restore 1/2/4/8 SP for Azure Empyrea and deal 50% more Fire DMG. Casting Ultimate resets the counter.
+처음 4회 분기 공격은 SP를 1/2/4/8 회복하고, 가하는 화염 원소 대미지가 50.0% 증가한다. 필살기 발동 시 카운트를 리셋한다.
 
-### Hex of Exposure
+### 산택손
 
-All team members gain 18% Total DMG for 15.0s after entry. If the team consists of members of 3 different types, all team members gain 24% Total DMG.
+모든 파티원은 교대 후 15.0초 동안 모든 대미지가 18% 증가한다. 파티원 3명의 캐릭터 속성이 모두 다를 경우 파티원의 모든 대미지가 24% 증가한다.
 
-### Hex of Gale
+### 태풍대과
 
-Azure Empyrea gains 10.0% Total DMG for 20.0%s when her Basic ATK, Combo ATK, weapon active or Ultimate lands. The effect stacks when triggered by different types of attacks; the effect duration resets when triggered by the same type of attack.
+기본 공격, 분기 공격, 무기 스킬, 필살기가 적 적중 시, 캐릭터가 가하는 모든 대미지가 20.0초 동안 10.0% 증가한다. 다양한 공격으로 발동한 효과는 중첩되며, 동일 버프 발동 시 지속 시간이 갱신된다.
 
-## Passive
+## 패시브 스킬
 
-Passive bonuses apply automatically.
+패시브 스킬은 자동으로 발동한다.
 
-### Hex of Force
+### 건위천
 
-For each Combo ATK performed, the Valkyrie gains 4.0% Total DMG for 40s (max stacks: 5). Triggering this effect again resets the duration.
+분기 공격마다 캐릭터가 가하는 모든 대미지가 40초 간 4.0% 증가하며, 5번까지 중첩된다. 중복 발동 시 지속 시간이 초기화된다.
 
-### Hex of Reburn
+### 화천대유
 
-If 2 consecutive Combo ATK moves released are the same Combo ATK, the second one deals 30.0% more Fire DMG; if 2 consecutive Combo ATK moves released are 2 different Combo ATK moves, the second one restores 6.0 SP for the character upon hit.
+사용한 분기가 전과 같다면 가하는 화염 원소 대미지가 30.0% 증가하고, 전과 다르다면 분기가 적에게 명중 시 SP를 6.0 회복한다.
 
-### Hex of Rebirth
+### 택지췌
 
-Auto-triggers before character dies (can be triggered 1 time per battle): Fully heals the character and makes her invincible for 1s. If triggered later than 30s after the battle starts, character additionally restores 30.0 SP.
+캐릭터가 사망하기 전 자동으로 발동해 모든 HP를 회복하고 1초 무적 상태에 진입한다. 전투 당 1회만 발동한다. 해당 스킬을 발동했을 때 스테이지를 시작한 후 이미 30초가 지났다면, 추가로 SP를 15.0 회복한다.
 
-## Taichi of Inertia
+## 정태극
 
-Quickly dodge enemy attacks. Can be performed twice in a rowWithin the first 1.2s after performing Ultimate Evasion, Valkyrie gains Ignore Interrupt, 80% Total DMG Reduction, and can directly perform the 4th sequence of Basic ATK (once only).Time Fracture: Ultimate Evasion triggers 3s of Time Fracture; CD 15s.Spirit Shield: Valkyrie gains a barrier that blocks the next incoming attack. Reset upon Ultimate Evasion.
+고속 이동으로 공격을 회피한다. 연속 2회 회피 가능.
+극한 회피 성공 후 1.2초 동안 캐릭터의 경직 저항력이 증가하고, 받는 모든 대미지가 80% 감소한다. 또한 바로 네 번째 기본 공격을 사용할 수 있다(제한 횟수: 1회).
+시공 단열: 극한 회피 시 시공 단열이 발동한다. 지속 시간: 3초, 재사용 대기시간: 15초
 
-### Calculated Gust
+### 손위풍
 
-Shortens CD of Ultimate Evasion by 4.00s.
+극한 회피 스킬의 재사용 대기 시간이 4.00초 감소한다.
 
-### Hex of Foresight
+### 풍지관
 
-When Spirit Shield exist, character deals 35.0% more Total DMG.
+보호 효과 존재 시, 모든 대미지가 35.0% 증가한다.
 
-## Combo: Yin-Yang Tempo
+## 분기-양의법
 
-When the sum of Yin and Tang reaches 3, hold [ATK] to unleash various Combo ATKs based on the numbers of Yin and Yang.
-3 Yang: Unleashes Senpo: Emperyan Fir, dealing 900% ATK of Fire DMG and additionally restores 4 SP upon hit.
-2 Yin + 1 Yang/1 Yin + 2 Yang: Unleashes Senpo: Snaring Flame, dealing 600% ATK of Fire DMG and pulling in enemies and immobilizing them for 3s; if this combo hits any target, all Valkyries on the battlefield restore 1 SP per second for 15s.3 Yin: Unleashes Senpo: Magma Melt, dealing 600% ATK of Fire DMG and boosting the team's All Elemental DMG against the target hit by this combo by 30% for 15s.
+[음]과 [양]의 총 수가 3에 도달했을 때 기본 공격 버튼을 길게 누르면 [음]과 [양] 각각의 수에 따라 다른 분기 공격이 발동한다.
+0음 3양: [선법·천극]을 발동해 공격력 900%의 화염 원소 대미지를 입히고 적에게 명중하면 추가로 자신의 SP를 4 회복한다.
+2음 1양/1음 2양: [선법·인극]을 발동해 공격력 600%의 화염 원소 대미지를 입히고, 3초 동안 적을 모아 속박한다. 공격이 적에게 명중하면 15초 동안 출전 중인 캐릭터의 SP를 초당 1씩 회복한다.
+3음 0양: [선법·지극]을 발동해 공격력 600%의 화염 원소 대미지를 입히고 15초 동안 모든 파티원의 공격이 적에게 적중하면 모든 원소 대미지가 30% 증가한다.
 
-### Hex of Crucibles
+### 화풍정
 
-Combo ATK hit makes the target take 35.0% more Fire DMG for 15s.
+분기 공격이 적에게 적중하면, 적이 받는 화염 원소 대미지가 35.0% 증가한다. 지속 시간: 15초
 
-### Hex of Drowning
+### 택수곤
 
-Combo ATK hit makes the target take 30.0% more Ice DMG for 15s.
+분기 공격이 적에게 적중하면, 적이 받는 빙결 원소 대미지가 30.0% 증가한다. 지속 시간: 15초
 
-### Hex of Mending
+### 지천태
 
-Combo ATK hits heals all team members for 60 HP; CD 3s.
+분기 공격이 적에게 명중하면 모든 파티원의 HP를 60 회복한다. 재사용 대기 시간 3초
 
-## Empyrean Sunder
+## 분천지
 
-Pulls in enemies and deal damage.
-Immobilizes all enemies for 11s and deals 1800% ATK of Fire DMG to them. Boosts the team's Elemental DMG against enemies hit by this skill by 30% for 15s, during which the deployed Valkyrie restores 1 SP per second, gains Ignore Interrupt and 35% Total DMG Reduction, while all enemies' Ignore Interrupt is lowered. The above effects do not stack with Combo ATK effects.
+적을 모으고 대미지를 입힌다.
+모든 전장의 적을 11초간 속박하고 공격력 1800%의 화염 원소 대미지를 입힌다. 15초 동안 모든 파티원이 가하는 모든 원소 대미지가 30% 증가한다, 출전 중인 캐릭터 1초마다 SP를 1 회복한다, 경직 저항력 대폭 증가한다, 받는 모든 대미지 35% 감소한다. 위의 모든 효과는 분기 공격 효과와 중첩되지 않는다.
+발동 소모 SP: 125, 재사용 대기 시간: 5초
 
-Activation cost: 125 SP. CD: 5s.
+### 곤위지
 
-### Hex of Breaching
+필살기가 끝나면 모든 파티원은 15초 동안 원소 관통 상태에 진입한다. 모든 원소 관통 16.0% 증가
 
-When Azure Empyrea's Ultimate ends, all team members gain 16.0% Elemental Breach for 15s.
+### 화지진
 
-### Hex of Brilliance
+필살기가 끝나면, 15초 동안 모든 파티원의 공격은 추가로 공격력 50.0%의 화염 원소 대미지를 입힌다. 해당 효과는 각 적마다 1초에 1번 효과가 발동한다
 
-Within 15s after Azure Empyrea's Ultimate ends, all team members additionally deal 50.0% ATK of Fire DMG when attack. This effect can only apply once per second against each target.
+### 천뇌무망
 
-### Hex of Enervation
+필살기가 적에게 적중하면 [화풍정]과 [택수곤] 스킬의 대미지 상승 효과를 부여하고, 받는 뇌전 원소 대미지를 30.0% 증가시킨다. 지속 시간: 15초
 
-Enemies hit by Azure Empyrea's Ultimate suffer the vulnerability debuffs inflicted by Hex of Crucibles and Hex of Drowning and takes 30.0% more Lightning DMG for 15s.
+## 음양전
 
-## Yin and Yang
+적을 공격하면 [음]과 [양]을 획득하고, 기본 공격과 필살기 버튼을 눌러 사용할 수 있다.
+앞 3격: 매 공격마다 공격력 170%의 화염 원소 대미지를 입힌다.
+제4격: 공격력 200%의 화염 원소 대미지를 입힌다.
+기본 공격 버튼을 눌러 기본 공격을 사용하면 [집양]을 1회 발동하고, 필살기 버튼을 눌러 사용하면 [수음]을 1회 발동한다. [음]과 [양]의 최대 수량은 3이고, 최대 수량에 도달하면 기본 공격은 [집양]과 [수음]을 발동할 수 없다.
 
-Tap the [ULT] or [ATK] button to attack enemies and gain Yin or YangThe first 3 sequences: Each sequence deals 170% ATK of Fire DMG.
-4th sequence: Deals 200% ATK of Fire DMG.
-Tap [ATK]/[ULT] to unleash Solar Focus or Lunar Essence. The sum of Yin and Yang cannot not exceed 3; once this limit has been reached, Solar Focus or Lunar Essence can no longer be unleashed.
+### 천화동인
 
-### Unbroken Fire
+공격 속도가 15.0% 증가한다. 네 번째 기본 공격은 추가로 공격력 120.0%의 화염 원소 대미지를 입히고, 적을 연소시켜 0.5초마다 80.0의 화염 원소 대미지를 입힌다. 지속 시간: 8초
 
-ATK Speed increases by 15.0%; the final hit of the 4th sequence of Basic ATK additionally deals 120.0% ATK of Fire DMG and ignites the target, dealing 70.0 Fire DMG per 0.5s for 8s.
+### QTE - 리위화
 
-### QTE: Radiant Entry
+QTE: 적이 시공 감속 상태일 때 발동해 공격력 5\*100.0%+450.0%의 화염 원소 대미지를 입히고, [수음]을 3회 발동한다.
 
-QTE: Triggers when an enemy is affected by Time Slow. Deals 5x100.0%+450.0% ATK of Fire DMG, then unleashes Lunar Essence 3 times.
+### 간위산
 
-### Hex of Unyielding
-
-The first 3 sequences of Basic ATK grant Ignore Interrupt and 35.0% Total DMG Reduction; while unleashing the 4th sequence, character gains Iron Body and 80% Total DMG Reduction.
+기본 공격 3격까지 경직 저항력이 증가하고, 받는 모든 대미지가 35.0% 감소한다. 기본 공격 4격 간 캐릭터는 슈퍼 아머 상태에 돌입하여 받는 모든 대미지가 80% 감소한다.

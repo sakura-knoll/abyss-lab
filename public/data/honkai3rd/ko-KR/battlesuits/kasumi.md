@@ -1,122 +1,117 @@
-# Darkbolt Jonin
+# 밤 그림자 카스미(작업중)
 
-## The Sahā World
+## 사바세계
 
-Leader Bonus:
-Team gains 23% Lightning DMG and 13% total DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+모든 파티원의 뇌전 원소 대미지 30% 증가, 모든 대미지 15% 증가
 
-### The Sahā World
+### 사바세계
 
-Team deals 30.0% more Lightning DMG and 15% bonus Total DMG.
+모든 파티원의 뇌전 원소 대미지 30% 증가, 모든 대미지 15% 증가
 
-## Eight Dukkha
+## 침륜팔고
 
-Passive bonuses apply automatically.
-Zakti: Starts at 0 and maxes at 500. Passive regen: 10 per second.
+패시브 스킬
+패시브 스킬은 자동으로 발동한다.
+주력 게이지: 기본 0pt, 최대 500pt, 1초마다 10pt 자동 회복
 
-### Branded for Hate
+### 원증회
 
-Gains 30.0% Total DMG against enemies with Darkbolt Mark.
+몸에 주인 [단하]가 있는 적에게 가하는 모든 대미지가 30.0% 증가한다
 
-### Undying Love
+### 애별리
 
-Auto-triggers before the Valkyrie dies, activating an invincible Blink status and restoring 1.5% HP every 0.5s for 5s. CD: 60s; CD starts when the Blink status ends.
+캐릭터가 전투불능 직전에 자동으로 무적 순신 상태가 되어 5초 동안 0.5초마다 최대 HP의 1.5%를 회복한다. 재발동 대기시간 60초. 순신 상태 종료 시 재발동 대기시간에 돌입한다
 
-### Endless Desire
+### 구부득
 
-Each kill by Naraka Finisher recovers 150.0 Zakti.
+[나락] 적을 처치하면 주력을 150.0% 회복한다
 
-## Raijin's Blink
+## 뇌신섬광
 
-Lightning imbued evasion.
-Ultimate Evasion triggers Raijin's Blink.
-Raijin's Blink: Creates a Lightning imbued shadow at the starting point; the shadows pulls in enemies and deals 50% ATK of Lightning DMG during its existence, and explodes after 3s to deal 400% ATK of Lightning DMG, triggering a global Time Fracture that lasts 3s.
-Once Raijin's Blink is triggered, Darkbolt Jonin enters Blink status for 5s, during which she stays invisible and can sprint; while sprinting, her Jonin Finisher can be cast by tapping [ATK] to deal 6x50% ATK of AOE Lightning DMG. Jonin Finisher restores 60 Zakti energy and has an extra 3 SP upon hit.
-CD: 15s.
+극한 회피
+극한 회피 후 인법··뇌신섬광을 발동
+뇌신섬광: 극한 회피와 동시에 뇌전을 사용해 제자리에 분신을 만들어 적을 끌어당긴다. 분신이 존재하는 기간에 최대로 공격력 50%의 뇌전 원소 대미지를 입히며 분신은 3초 후 폭발해 공격력 400%의 뇌전 원소 대미지를 입히고 전체 시공 단열을 발동한다. 지속 시간: 3초
+뇌신섬광 발동 후 캐릭터 자신은 5초간 섬광 상태에 진입한다. 섬광 상태에서는 적에게 발견되지 않고, 공격 버튼을 눌러 [인살]을 발동한다. 인살은 범위 내의 적에게 공격력 6\*50%의 뇌전 원소 대미지를 입히고 총 주력 50과 SP 3을 회복한다. 재사용 대기시간: 15초
 
-### Fusuikami's Bliss
+### 후스이카즈치
 
-Raijin's Blink's CD is reduced by 4.0s.
+뇌신섬광의 재사용 대기시간이 4.0초 감소한다
 
-### Narukami's Curse
+### 명뢰
 
-Raijin's Blink explosion deals 30.0% more Lighting DMG. Jonin Finisher deals 40.0% more Lightning DMG.
+뇌신섬광이 폭발할 때 가하는 뇌전 원소 대미지가 30.0% 증가하고, [인살]이 가하는 뇌전 원소 대미지가 40.0% 증가한다
 
-### Wakaikami's Vigor
+### 와카이카즈치
 
-Raijin's Blink restores 100 Zakti energy when procced.
+뇌신섬광을 발동하면 100 주력을 회복한다
 
-## Combo: Naraka Finisher
+## 나락
 
-Tap & hold [ATK] to strike a deadly blow.
-Tap & hold [ATK] to consume 100 Zakti and unleash Naraka Finisher.
-Naraka Finisher can be unleashed in quick succession, dealing 100% ATK of Lightning DMG against enemies within range.
-Naraka Finisher additionally restore 1.4 SP upon each hit.
+공격 버튼을 길게 눌러 발동(주력 100 소모)
+[나락]은 연속 발동할 수 있고, 범위 내의 적에게 공격력 100%의 뇌전 원소 대미지를 입힌다
+[나락]이 적에게 명중할 때마다 추가로 SP를 0.5 회복한다
 
-### Yaksha Rush
+### 야차귀
 
-Each cast of Naraka Finisher boosts Total DMG dealt by Naraka Finisher by 12.0% for 2s, 6 stacks max. Each stack's duration is independent of others'.
+[나락]을 발동할 때마다 2초간 나락으로 가하는 모든 대미지가 12.0% 12.0% 증가한다. 최대 중첩수: 6회, 매 중첩 효과의 지속 시간은 독립적으로 계산된다.
 
-### Raksha AMP
+### 역나찰
 
-Naraka Finisher deals 15.0% more Lightning DMG against enemies below 30% HP.
+HP가 30% 이하인 적에게 가하는 뇌전 원소 대미지가 15.0% 증가한다
 
-### Sura's Retribution
+### 수라업
 
-Each hit of Naraka Finisher deals 50.0% ATK of bonus Lightning DMG.
+[나락] 공격마다 추가로 공격력 50.0%의 뇌전 원소 대미지를 입힌다
 
-## Raksha's Rage
+## 외도육법
 
-Raksha's Rage unleashes Rakshamaru's might to dominate the battlefield.
-Rakshamaru is summoned to smite enemies within a large AOE before her, dealing 300%+80%+6x30% ATK of AOE Lightning DMG.
-Tap [ULT] again within 12s since Rakshamaru's appearance to perform Samsara of Death, dealing 7x120%+7x180% ATK of AOE Lightning DMG and paralyzing enemies for 4s upon hit.
-Samsara of Death boots Ignore Interrupt and grants 40% Total DMG Reduction for 12s.
-CD: 20s. The first activation costs 100 SP, while the second costs 0 SP.
+재앙의 요호가 벼락같은 모습으로 잠시 현세에 강림하여 전방 큰 범위의 적을 공격해 공격력 350%+80%+6*30%의 뇌전 원소 대미지를 입힌다.
+재앙의 요호가 나타난 후 12초 안에 필살기 버튼을 다시 누르면 [육도살진]을 발동할 수 있다. 육도살진은 범위 내의 적에게 총 공격력 7*60%+7\*140%의 뇌전 원소 대미지를 입히고 4초간 마비시킨다
+[육도살진]으로 공격 후 자신의 경직 저항력이 증가하고 받는 모든 대미지가 40% 감소한다. 지속 시간: 12초
+재사용 대기시간: 20초, 필살기 첫 발동 시 SP를 100 소모하고 두 번째 발동 시 SP를 소모하지 않는다
 
-### Hungering Wraith
+### 천인아귀
 
-The 1st sequence of Rakshamaru attack enhances Zakti regen rate to 12.0 per 0.1s for 7s.
+재앙의 요호의 첫 번째 공격이 적에게 명중하면 주력 회복 속도가 증가한다. 0.1초 마다 8.0pt 회복, 지속 시간: 7초
 
-### Tiryag's Impulse
+### 축생지옥
 
-Raksamaru's 1st hit inflicts Conductive on the target, which makes it take 40.0% more Lightning DMG for 12s.
+재앙의 요호의 첫 번째 공격에 명중한 적에게 감전 효과를 부여해 12초 동안 받는 뇌전 원소 대미지가 40.0% 증가한다
 
-### Ashura's Gift
+### 수라세계
 
-Summoning Raksamaru recovers 400 Zakti.
+재앙의 요호 소환 후 주력을 400pt 회복한다
 
-## Garyu Stance
+## 자기류
 
-Melee moves that incorporate both kenjustsu and taijutsu.
-1st Sequence: 50% ATK of Physical DMG + 40% ATK of Lightning DMG. Restores 30 Zakti energy upon hit.
-2nd Sequence: 70% ATK of Physical DMG + 130% ATK of Lightning DMG. Restores 40 Zakti energy upon hit.
-3rd Sequence: 100% ATK of Physical DMG + 160% ATK of Lightning DMG. Restores 60 Zakti energy upon hit and an extra 3 SP upon hit.
-4th Sequence: 130% ATK of Physical DMG + 200% ATK of Lightning DMG. Restores 70 Zakti energy upon hit and an extra 5.5 SP upon hit.
+1격：공격력 50%의 물리 대미지+공격력 40%의 뇌전 원소 데미지를 입히고, 주력을 총 30pt를 회복한다
+2격：1격：공격력 70%의 물리 대미지+공격력 130%의 뇌전 원소 데미지를 입히고, 주력을 총 40pt를 회복한다
+3격：공격력 100%의 물리 대미지+공격력 160%의 뇌전 원소 데미지를 입히고, 주력을 40pt와 추가로 SP 3pt를 회복한다
+4격：공격력 130%의 물리 대미지+공격력 200%의 뇌전 원소 데미지를 입히고, 주력 50pt와 추가로 SP를 5.5pt 회복한다
 
-### Electrified Razor
+### 번개 칼날
 
-During the 3rd & 4th sequences of Basic ATK, the Valkyrie gains Ignore Interrupt and takes 40.0% less Total DMG; the last hit of Basic ATK 4th sequence paralyzes the target for 0.5s.
+인장이 있는 적은 캐릭터 자신에게 기본 공격(차지 공격 포함)을 받을 때, 받는 물리 피해가 25.0% 증가한다.
 
-### QTE: Shiden Blast
+### QTE 자전
 
-Triggered off Ignited enemies. Deals 700.0% ATK of AIE Lightning DMG and Paralyzes enemies for 1.0s.
+적이 연소 상태일 때 발동
+범위 내의 적에게 공격력 700.0%의 뇌전 원소 대미지를 입히고 마비시킨다. 지속시간: 1.0초
 
-## Darkbolt Pursuit
+## 공명귀염
 
-Tap [ATK] when a light circle appears on the character to strike enemies with lethal kunai.
-Darkbolt Pursuit: Cast kunai to deal 4x20% ATK of AOE Lightning DMG and inflict Darkbolt Marks (lasts 30s) upon hit.
-QTE & the 1st sequence of Rakshamaru attacks can also inflict Darkbolt Marks.
-Inflicting Darkbolt Marks on a marked enemy again resets its duration.
-Immediately after unleashing Darkbolt Pursuit, tap [ATK] to connect Jonin Finisher, or hold [ATK] to connect Naraka Finisher.
+기본 공격 3, 4단 후 공격 버튼을 눌러 발동
+전방에 대량의 쿠나이를 던져 범위 내의 적에게 공격력 4\*20%의 뇌전 원소 대미지를 입히고 적중한 모든 적에게 주인 [단하]를 새긴다. 지속 시간: 10초
 
-### Biting Ember
+### 밤의 촛불
 
-After unleashing Darkbolt Pursuit, the Valkyrie gains 20.0% Total DMG for 30s. Triggering this effect again to reset the duration.
+공명귀염 발동 후, 잠깐 동안 자신의 모든 대미지가 증가한다
 
-### Lingering Light
+### 파군성
 
-Naraka Finisher gains expanded range and faster ATK Speed. Each Naraka Finisher summons a lightning bolt that additionally deals 220.0% ATK of Lightning DMG.
+[나락]을 강화해 공격 범위와 속도를 대폭 증가시킨다. 매회 [나락]은 적에게 낙뢰를 1회 발동해 추가로 뇌전 원소 대미지를 가한다
 
-### Jonin's Lantern
+### 영등
 
-Zakti starts at 400 and maxes at 600.
+주력의 최대치가 600pt로 증가하고 초기 주력이 증가한다

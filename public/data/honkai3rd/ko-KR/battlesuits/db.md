@@ -1,92 +1,92 @@
-# Dimension Breaker
+# 차원 경계 돌파(작업중)
 
-## Metal Gear
+## 합금 장갑
 
-Leader Bonus:
-Metal Gear: Increases SP recovery by 25% for the team. Teams with 3 MECH-type characters gain 20% Total DMG Multiplier.
+리더로 배치 시 파티원이 버프를 받는다.
+모든 파티원의 공격 시 SP 회복량이 29% 증가한다. 3명의 캐릭터를 '기계' 속성으로 통일하고 공격하면 모든 대미지가 26% 증가한다.
 
-### Metal Gear
+### 합금 장갑
 
-Accelerates Attack SP Recovery of team by 29%. Teams with 3 MECH-type characters gain 26% Total DMG Multiplier.
+모든 파티원의 공격 시 SP 회복량이 29% 증가한다. 3명의 캐릭터를 '기계' 속성으로 통일하고 공격하면 모든 대미지가 26% 증가한다.
 
-### Fusion
+### 융합
 
-Increases own Crit DMG by 28.0% when Kiana and Mei are on the team.
+파티에 키아나와 메이가 있을 때, 자신의 크리티컬 대미지가 30.0% 증가한다.
 
-## Passive Skill
+## 패시브 스킬
 
-Passive bonuses apply automatically.
-Planes Walker: Become a Planes Walker after moving for 2s and significantly gains Move Speed.
+패시브 스킬은 자동으로 발동한다.
+차원 주행
 
-### Dark Matter Furnace
+2초 동안 이동하면 차원 주행 상태가 되어 이동 속도가 대폭 증가한다.
 
-When on standby, the Valkyrie restores 2 SP every 5.0s.
+### 다크매터 반응로
 
-## Dimension Reduction
+캐릭터가 대기 중일 때 5.0초마다 2 SP 회복
 
-Raises the shield to defend against frontal attacks.
-Counterstrike: Release the Defense button at the moment of the attack to unleash a counterstrike.
-Perfect Defense: Counterstrike knocks surrounding enemies airborne, paralyzing them and applying Time Lock for 4s and accelerating the character's Attack SPD by 30% for 3s. Perfect Defense base CD: 15s.
+## 차원 축소 역장
 
-### Reflexive Guard
+회피 버튼
+방패를 들어 정면의 적의 공격을 방어한다. 공격을 받는 순간 방어키를 떼면 적에게 반격한다.
+완벽방어：반격 시 근처의 적을 공중에 띄우고 마비 및 시공속박 상태로 만든다. 지속시간 4초. 동시에 캐릭터의 공격 속도를 30% 상승시킨다. 지속시간 3초. 재사용 대기시간 15초
 
-Frontal defense deals 50% ATK of Physical DMG to the attacker. Can be triggered once every 0.5s. Gains 30.0%  Crit Rate for 6.0s during Ultimate Defense.
+### 반사 실드
 
-### Mech Propulsion
+정면에서 오는 공격을 방어할 시 공격한 적에게 캐릭터 공격력의 50.0% 물리 대미지를 입힌다. 0.5초마다 1번씩 발동하며 저스트 가드 시 6.0초 동안 크리티컬률이 30.0% 증가한다.
 
-Gain 150% Move Speed when defending with a shield.
+### 기갑 동력 에너지
 
-### Absorptive Barrier
+방패로 가드 중 이동 속도 150% 증가
 
-When attacked, spend 3 SP to trigger Project Bunny Block, preventing interruption and gaining 20% Total DMG Reduction. Effect does not trigger at 0 SP.
+### 흡수 보호막
 
-## Switch: Dimension Pull
+피격 시 3 SP를 소모하여 중장 토끼 방어를 발동시키고 경직되지 않고 받는 모든 대미지가 20% 감소한다. SP가 0일 때 발동하지 않는다.
 
-Switch skill immediately knocks target and all enemies in a small surrounding area airborne and inflicts Time Lock.
-Dimensional Razor: 100% ATK of Physical DMG and inflicts Time Lock for 4s.
+## 차원흡인
 
-### Spacetime Cutter
+캐릭터 교체
+교대 시 타깃 주변 작은 범위의 적을 공중에 띄우고 4초 동안 시공 속박 상태로 만들어 공격력의 100% 물리 대미지를 입힌다.
 
-When hitting an enemy affected by Time Slow, character attacks gain 80.0% Physical and Elemental DMG for 6s. Triggering this again resets the duration. Enemies affected by Time Lock of Dimension Pull will bleed and take 248 Physical DMG every 0.5s.
+### 차원 절단
 
-### Dimension Edge
+시공 감속 상태의 적을 적중 시 6초간 적에게 입히는 물리, 원소 대미지가 80.0% 상승하고, 지속시간을 계속해서 갱신한다. 차원 흡인의 시공 속박을 받는 동안 적의 출혈 상태가 지속되며, 0.5초마다 248 물리 대미지를 입힌다.
 
-Extends the range of Dimension Pull by 3.0 times and its duration by 3.0s.
+### 차원의 경계
 
-### QTE: Complex Infinity
+차원 흡인의 영향 범위가 3.0배 증가하고, 지속 시간이 3.0초 증가된다.
 
-QTE: Triggered when enemy is paralyzed, dealing 10x70.0% ATK of Fire DMG to enemies in a large AOE. Knocks affected enemies airborne and inflicts Time Lock on them.
+### QTE 무한 차원
 
-## Project Bunny
+적이 마비 상태일 때 캐릭터 교체
+넓은 범위 내의 적에게 공격력의 10\*70.0% 화염 원소 대미지를 입히고, 영향을 받은 적을 공중에 띄워 시공 속박으로 만든다
 
-Project Bunny activates autonomous attack protocols.
-Mech Frenzy: Consumes 100 SP to enter a 10s Burst mode, during which Project Bunny (summoned entity) is invincible and draws enemies towards it.
-Surplus Energy: Turns own attacks into laser attacks.
-Heat Reset: Heat meters of laser-type weapons will be reset upon burst mode activation.
+## 중장 토끼 19C
 
-### Self Destruct
+SP 100 이상
+10초 동안 중장 토끼 19C가 무적 상태가 되어 적을 끌어당기고 자율 공격을 한다. 자신의 공격은 레이저 공격으로 변하며, 필살기 사용 시 레이저 무기의 히트 게이지를 초기화 한다.
 
-Project Bunny explodes at the end of the duration, dealing 600% ATK of AOE Physical DMG.
+### 자폭 기갑
 
-### Anti-Matter Core
+중장 토끼의 자율 행동 지속 시간이 끝나면 자폭하며, 주변에 공격력의 600% 물리 대미지를 입힌다.
 
-When Project Bunny is unleashed, character laser attacks gain 20% Physical and Elemental DMG. For every point of SP above 110, further increase the DMG bonus by 0.6%. Stacks up to 200 times.
+### 반물질 코어
 
-### S2 Cell
+중장 토끼 자율행동 시 본체 레이저 공격의 물리, 원소 대미지가 20% 상승한다. SP 최대치 110 초과 이후 1 SP가 추가될 때마다 0.6%씩 추가로 증가하며, 최대 200회 증가한다.
 
-Extends the duration of Project Bunny's detachment to 16.0s.
+### S2 전지
 
-## Charge: Particle Cannon
+중장 토끼의 자율 행동 지속 시간이 16.0초로 증가된다.
 
-Charged Cannon ATK. Deals greater DMG at higher charge sequence.
-Arm Switch: Changes the way of charging based on the weapon equipped.
-Perfect Cooling: A CD circle will appear when laser weapons overheat. Tap [ATK] right before the circle shrinks to its smallest size to instantly reset the CD and greatly accelerate ATK Speed for a short duration.
-Within a short duration after activating Perfect Cooling, hitting a target with a laser will inflict a 4s Time Slow  on the target and nearby enemies.
+## 중입자포
 
-### Dimension Ignite
+암 스위치：장비한 무기에 따라 차지 공격이 바뀐다.
+퍼펙트 쿨타임：레이저 무기가 과열된 후 쿨타임링이 출현한다. 링이 최소화하는 순간 공격 버튼을 누르면 과열을 제거하고, 짧은 시간 동안 차지 속도를 대폭 증가시킬 수 있다.
+퍼펙트 쿨타임 후 짧은 시간 동안 레이저로 적을 명중할 경우 4초간 타깃 및 주변 적들을 시공 감속 상태로 만든다.
 
-Each laser beam attack of Basic ATK and Ultimate additionally deals 30% ATK of Fire DMG. Rapid-fire weapon attacks at the 3rd charge sequence gain double bonus Fire DMG.
+### 차원 소각
 
-### Energy Absorb
+기본 공격과 필살기 도중 광선공격마다 공격력의 30%의 화염 원소 대미지를 입히고, 3단 차지 레이저 공격의 화염 대미지를 두 배로 증가시킨다.
 
-Reduces overheat time for rapid-fire weapons by 40.0%.
+### 에너지 흡수
+
+레이저 계열 무기의 과열 속도 40.0% 감소

@@ -1,98 +1,102 @@
-# Night Squire
+# 백야집사(작업중)
 
-## Night Squire
+## 백야
 
-Leader Bonus:
-Court Astrologer: Team gains 12.0% max HP. BIO-type characters gain 24.0% Crit DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+파티원 전원의 HP 최대치가 18.0% 증가, 생물 캐릭터의 크리티컬 대미지 추가로 36.0% 증가
 
-### Night Squire
+### 백야
 
-Team gains 18.0% max HP. BIO-type characters gain 36.0% Crit DMG.
+파티원 전원의 HP 최대치가 18.0% 증가, 생물 캐릭터의 크리티컬 대미지 추가로 36.0% 증가
 
-## Passive
+## 패시브 스킬
 
-Passive bonuses apply automatically.
+패시브 스킬은 자동으로 발동한다.
 
-### Magister
+### 문곡
 
-When the character has Ripple, last hit of Combo ATKs consumes 1 Ripple (will not be consumed again with Vanguard) and gains 40.0% ATK of Physical DMG for 4.0s. Consuming the Ripple again resets the duration.
+캐릭터에 열파가 있을 경우, 분기 공격의 마지막 1식이 명중하면 1열파("파군"과 중복 사용되지 않음)를 소모하고 입히는 물리 대미지가 4.0초간 40.0% 상승한다. 열파를 연속해서 감소하면 지속시간이 새로 시작된다.
 
-### Imperator
+### 천괴
 
-With available Ripple, attacks against bleeding, ignited, or move slowed enemies gain 30.0% Total DMG Multiplier.
+캐릭터가 열파를 보유 시 이동 속도 감소, 출혈, 연소 상태의 적에게 가하는 모든 대미지가 30.0% 증가한다.
 
-### Catastrophe
+### 지겁
 
-When the last strike of Ri-Ki Raptor or Ri-Ki Rending Claw hits an enemy, mark the enemy with a brand for 10.0s. When the last strike of Ri-Ki Talon Storm or Ri-Ki Moon Anseri hit said enemy or when the brand expires, clear the brand. Said enemy will then take an additional 200.0% ATK of Physical DMG.
+이식·입운응, 이식·현조산 최후 일식이 적중 시 10.0초 동안 적에게 표식을 남긴다. 이식·등공작, 이식·월하목 최후 일식 적중 혹은 표식의 지속 시간이 끝나면 표식이 사라지고 적에게 공격력의 200.0% 물리 대미지를 입힌다.
 
-## Blink
+## 순신
 
-Quick shift for evading enemy attacks.
-Time Fracture: Ultimate Evasion triggers global Time Fracture, slowing all enemies for 3s. CD: 15s.
-Gain 1 Ripple with Ultimate Evasion.
+회피 버튼
+극한 회피 시 3초 동안 전체 시공 단열을 발동해 모든 적의 행동이 느려지게 한다. 재사용 대기시간 15초. 극한 회피 스킬 발동 시 열파 1pt 회복
 
-### Vengeance
+### 녹존
 
-Extends duration of Time Fracture of Ultimate Evasion to 4.5s.
+극한 회피 스킬의 전체 시공 단열 지속시간이 4.5초로 연장된다.
 
-### Inquisitor
+### 거문
 
-Shortens CD of Ultimate Evasion skill by 4.0s. Upon triggering Time Fracture, character gains 25.0% Crit Rate.
+극한 회피 스킬 재사용 대기시간 4.0초 감소. 자신의 극한 회피로 발동하는 시공 단열에서 크리티컬률 25.0% 증가
 
-## Combo: Aurora
+## 오로라
 
-Different Six Fists moves can be connected to various Combo ATKs.
-Ri-Ki Raptor Strike: Up to 400% ATK of Physical DMG.
-Ri-Ki Rending Claw: Up to 460% ATK of Physical DMG.
-Ri-Ki Talon Storm: Up to 490% ATK of Physical DMG.
-Ri-Ki Moon Anseri: Up to 520% of ATK of Physical DMG.
-Initial Ripple: 3. Can store up to 5 charges.
+이식·입운응
+총 공격력의 400% 물리 대미지
+이식·현조산
+총 공격력의 460% 물리 대미지
+이식·등공작
+총 공격력의 490% 물리 대미지
+이식·월하목
+총 공격력의 520% 물리 대미지
 
-### Switch: Seven Deaths
+### 교대기 칠살
 
-Deals 360.0% ATK of Physical DMG.
+캐릭터 교체
+적에게 공격력의 360.0% 물리 대미지를 입힌다.
 
-### QTE: Emperor's Ax
+### QTE 천월
 
-QTE: Triggered when enemy is knocked airborne, dealing 900.0% ATK of Physical DMG. If the Combo ATK hits the enemy, trigger a global Time Fracture for 3.0s.
+적이 띄워진 상태일 때 캐릭터 교체
+공격력의 900.0% 물리 대미지를 입히고 적에게 적중 시 3.0초 동안 전체 시공 단열을 발동한다.
 
-### Enigma
+### 염정
 
-Recovers 1 Ripple every 2.5s when off the field. When exiting with 0 Ripple, team gains 15.0% Total DMG Multiplier for 10.0s.
+대기 중 2.5초마다 열파 1pt를 회복. 퇴장 시의 열파가 0이면 10.0초 동안 모든 파티원 모든 대미지 15.0% 증가한다.
 
-## Thousand Stars
+## 천성
 
-Consume 100 SP to enter Burst mode for 8s.
-Burst mode: Gain 30% Attack Speed. Tapping any [ATK] button quickly directly triggers Combo ATK to deal tons of DMG.
-During Burst Mode: Enemies in a small AOE around the character suffer 50% slower Move Speed.
-Burst mode activation provides max Ripple.
+SP 100 이상
+8초 동안 폭발 상태에 진입한다. 폭발 상태 진입 시 모든 열파를 전부 회복한다.
+폭발 상태에서 공격 속도가 30% 증가하고, 짧은 시간 동안 임의의 공격 버튼을 누르면 분기 공격을 발동하여 대량의 대미지를 입힌다.
+폭발 기간 동안 자신 주위 작은 범위 내 적의 이동 속도를 50% 감소시킨다.
 
-### Devouring Wolf
+### 탐랑
 
-Under Burst mode, gain a 80.0% Attack Speed buff.
+폭발 상태에서 공격 속도가 80.0% 증가한다.
 
-### Authority
+### 자미
 
-Under Burst mode, enemies within a small AOE around the Valkyrie take 40.0% more Physical DMG (independent effect).
+폭발 상태에서 자신 주위 작은 범위 내의 적이 받는 물리 대미지가 40.0% 증가한다.
 
-### Red Princess
+### 홍란
 
-Under Burst mode, character bleeds nearby enemies in a small AOE, dealing 150.0 Physical DMG every 0.5s.
+폭발 상태에서 자신 주위 작은 범위 내의 적을 출혈 상태로 만들어 0.5초마다 150.0의 물리 대미지를 가한다.
 
-## Iron Strike
+## 격철
 
-Fight using the Six Fists.
-Ri-Ki Darting Kite: 400% ATK of Physical DMG.
-Ri-Ki Phoenix Soar: 370% ATK of Physical DMG.
+이식·비준
+촌심권법을 사용한 3연타. 총 공격력의 400% 물리 대미지
+이식·황상각
+촌심권법을 사용한 3연타. 총 공격력의 370% 물리 대미지
 
-### Chancellor
+### 천상
 
-When Ri-Ki Darting Kite and Ri-Ki Phoenix Soar hit an enemy, gain 1 Ripple and Iron Body to take 40.0% less Physical DMG for 5.0s.
+이식·비준, 이식·황상각이 적에게 적중 시 열파 1pt를 회복하고 슈퍼 아머 상태가 되며 받는 물리 대미지가 40.0% 감소된다. 지속 시간 5.0초.
 
-### Vanguard
+### 파군
 
-When the character has stored charge, final hit of Combo ATKs consumes 1 Ripple (this will not be consumed again with Magister). This Combo ATK deals an additional 300.0% ATK of Physical DMG.
+열파 보유 상태에서 분기 공격의 최후 일식이 적에게 적중 시 열파 1pt를 소모하고("문곡"과 중복되지 않음), 분기 공격에 공격력의 300.0% 물리 대미지가 추가된다.
 
-### Marshal
+### 무곡
 
-Whenever the last strike of Combo ATKs hit the enemy, gain 4.0% Crit Rate for 5.0s. Stacks up to 5 times. Triggering this skill again resets the duration.
+분기 최후 일식이 적에게 적중할 때마다 5.0초 동안 크리티컬률이 4.0% 증가한다. 5회 중첩 가능. 중복으로 발동하면 지속 시간을 초기화한다.

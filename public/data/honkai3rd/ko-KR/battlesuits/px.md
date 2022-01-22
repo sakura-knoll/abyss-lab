@@ -1,100 +1,115 @@
-# Phoenix
+# 치령(작업중)
 
-## Flaming Heart
+## 적염단심
 
-Leader Bonus:
-Flaming Heart: Team gains 10% Attack Speed. Teams with 3 PSY-type characters gain 28% Total DMG Multiplier to combo, charged, and ultimate attacks.
+리더로 배치 시 파티원이 버프를 받는다.
+모든 파티원의 공격 속도가 16% 증가하고, 세 발키리가 모두 이능 속성일 때 분기, 차지, 필살기의 모든 대미지가 36% 증가한다.
 
-### Flaming Heart
+### 적염단심
 
-Team gains 16% Attack Speed. For teams with 3 PSY-type characters, combo, charged, and ultimate attacks gain 36% Total DMG Multiplier.
+모든 파티원의 공격 속도가 16% 증가하고, 세 발키리가 모두 이능 속성일 때 분기, 차지, 필살기의 모든 대미지가 36% 증가한다.
 
-## Passive
+## 패시브 스킬
 
-Passive bonuses apply automatically.
+패시브 스킬은 자동으로 발동한다.
 
-### Herald of Dawn
+### 촉야
 
-If the last hit of Sen-Ki Simurgh weakens enemies with a Firebrand, and reduces their ATK by 30.0% for 5s. If Sen-Ki Dashing Tern passes through enemies with a scorched mark, deal additional 120.0% ATK of Fire DMG in an AOE blast at the enemy location. When the last hit of Sen-Ki Moon Anseri hits an enemy with a scorched mark, they receive additional 200.0% ATK of Fire DMG.
+선식·흰 꿩의 마지막 일격은 이화 표식이 있는 적을 5초 동안 허약 상태로 만들어 허약 상태의 적의 공격력을 30.0% 감소시킨다.
+선식·시우연이 이화 표식이 있는 적을 꿰뚫고 지나갈 때 적의 위치에 공격력의 120.0% 범위 화염 원소 대미지를 추가로 입힌다. 선식·월하목의 마지막 일격이 명중했을 때 이화 표식이 있는 적은 추가로 공격력의 200.0% 화염 원소 대미지를 입는다.
 
-### Rainbow Pinion
+### 오색깃
 
-When Prajna is over 200, and when last strike of Combo ATKs hit, character gains 50.0% Elemental DMG. Team also gains 30.0% Elemental DMG for 12.0s.
+신통 200 이상
+분기 공격 마지막 일격이 명중하면 자신의 화염 원소 대미지가 50.0% 증가한다. 모든 파티원의 원소 대미지가 추가로 30.0% 증가한다. 지속 시간 12.0초.
 
-### Crucible
+### 황새
 
-When Prajna is over 100, enemies hit by the last sequence of Basic or Combo ATK are stunned by 1.5s. The stun trigger has a 5s CD.
+신통 100 이상
+기본 공격, 분기 공격의 마지막 일격이 명중하면 적을 0.8초 동안 기절 상태로 만든다. 재사용 대기시간 5초.
 
-## Fairy Dance
+## 불진보
 
-Quickly blinks to the enemy to attack.
-Mass Immobilize: Ultimate Evasion inflicts Time Lock on the target and nearby enemies in a small AOE for 1.5s. CD: 15s.
-Ultimate Evasion  resets attack move (any Combo ATK afterwards will gain Prajna).
-Tap [Ultimate] after Ultimate Evasion to directly perform Sen-Ki Dashing Tern's Shuttle ATK, during which and the following 1s, tap [Ultimate] again to unleash another Shuttle ATK (once only).
+회피 버튼
+극한 회피 시 타깃과 그 주변의 작은 범위 내 적을 1.5초 동안 시공 속박 상태로 만든다. 재사용 대기시간 15초
+극한 회피는 공격 초긱 유형을 초기화시킨다.(이후 분기 공격을 사용할 때마다 신통을 회복한다.)
 
-### Nightingale
+### 밤 올빼미
 
-Ultimate Evasion gives 100 Prajna. Also extends duration of Ultimate Evasion Time Lock to 4.0s.
+극한 회피 시 신통을100 회복하고 극한 회피 스킬의 시공 속박의 지속시간이 4.0초로 연장된다.
 
-### Morning Wind
+### 아침 바람
 
-Shortens CD of Ultimate Evasion by 3.0s. Upon Ultimate Evasion, gain 30.0% Fire DMG for 8.0s.
+극한 회피 스킬의 재사용 대기시간 3.0초 감소. 극한 회피 시 8.0초 동안 화염 원소 대미지가 30.0% 증가한다.
 
-## Combo: Flame Gust
+## 염풍
 
-Stances can be connected into different Combo ATKs.
-Sen-Ki Simurgh: Up to 460% ATK of Physical DMG.
-Sen-Ki Dashing Tern: Up to 660% ATK of Physical DMG.
-Sen-Ki Moon Anseri: Up to 660% ATK of Physical DMG.
-When using a different combo ATK move compared to last time (or when the attack move has been reset), then Sen-Ki Simurgh/Dashing Tern/Moon Anseri will gain 150/200/150 Prajna respectively.
-Character can store up to 400 Prajna, and Prajna will slowly drain. Higher Prajna will improve
+선식·흰 꿩
+선식·흰 꿩: 선식·현조 산 일식~이식+필살기 버튼 2회
 
-### Switch: Red Sparrow
+선식·시우연: 선식·현조 산 삼식~사식+필살기 버튼 2회
 
-Deals 300.0% ATK of Physical DMG.
+선식·월하목: 선식·황상각 일식~이식+기본 공격 2회
+총 공격력의 460% 물리 대미지
+사용하는 분기 초식의 우형이 이전과 다를 때(혹은 초식 유형이 초기화 되었을 때), 선식·흰 꿩/시우연/월하목을 발동하면 각각 150/200/150 신통을 회복할 수 있다.
+신통은 천천히 감소하며 최대치는 400이다. 신통이 높을수록 전투 능력이 강해진다.
+선식·시우연
+총 공격력의 460% 물리 대미지
+선식·월하목
+총 공격력의 490% 물리 대미지
 
-### QTE: Thrush
+### 교대기 붉은 여새
 
-QTE: Triggered when enemy is ignited, deals 800.0% ATK of Fire DMG to enemies in a large AOE, and recovers 100 Prajna.
+캐릭터 교체
+적에게 공격력의 300.0% 물리 대미지를 입힌다.
 
-### Oriole
+### QTE 화미
 
-When exiting, if Prajna is greater than 100/300, then enemies take 12.0%/20.0% more Elemental DMG for 12.0 s.
+적이 연소 상태일 때 캐릭터 교체
+넓은 범위의 적에게 공격력의 800.0% 화염 원소 대미지를 입히고 신통 100을 회복한다.
 
-## Spirit of Cinder
+### 홍수가동
 
-Transform into the Spirit of Cinder to deal large AOE damage.
-Spirit of Cinder: 1500% ATK of Fire DMG to enemies in a large AOE.
-Spirit of Cinder resets attack moves (any Combo ATK afterwards will gain Prajna).
-SP Cost: 100
+대기 상태로 전환 시, 신통이 100/300 이상이면 적이 받는 원소 피해가 12.0%/20.0% 증가한다. 지속 시간 12.0초
 
-### Carmine Down
+## 비신현령
 
-During Burst, gain 50% Total DMG Multiplier for 8.0s, gain 200 Prajna, and inflicts Time Lock on hit enemies for 6.0s.
+SP 100 이상
+비신현령의 화신이 되어 큰 범위에 공격력의 1500% 화염 원소 대미지를 입힌다.
+비신현령은 공격 초식 유형을 초기화한다.(이후 분기 공격을 사용할때마다 신통을 회복한다.)
 
-### Diving Phoenix
+### 단우화화
 
-During Burst, deal 750.0% ATK of Fire DMG to all enemies bearing the Firebrand in a large AOE.
+폭발이 모든 대미지를 8.0초 동안 50% 증가시키고 신통을 200 회복하며 명중한 적을 6.0초 동안 시공 속박 상태로 만든다.
 
-### Fire Raven
+### 오동낙봉
 
-When Burst ends, ignite all enemies to deal 200 Fire DMG every 0.5s for 6.0s. When Prajna is 100/200/300 or higher, DMG dealt will be increased by 150%/200%/250% of the original DMG respectively.
+폭발 시 넓은 범위의 이화 표식이 있는 적에게 공격력의 750.0% 화염 원소 대미지를 입힌다.
 
-## Rectrix
+### 필방아
 
-Fight enemies using Punch Arts.
-Sen-Ki Darting Swift: Up to 660% ATK of Physical DMG.
-Sen-Ki Phoenix Soar: Up to 470% ATK of Physical DMG.
-Last sequence of Basic ATK resets the attack move (any Combo ATK afterwards will gain Prajna).
+폭발 종료 시, 스테이지의 모든 적들을 6.0초 동안 연소 상태로 만들어 0.5초마다 200 화염 원소 대미지를 입힌다. 신통이 100/200/300 이상일 때, 대미지가 원래의 150%/200%/250%로 증가한다.
 
-### Cuckoo Cry
+## 역우타
 
-Last hit of Sen-Ki Darting Swift or Sen-Ki Phoenix Roar deals 80.0% ATK of Fire DMG. Last hit of Sen-Ki Simurgh, Sen-Ki Dashing Tern, or Sen-Ki Moon Anseri deals an additional 40.0% ATK of Fire DMG. When Prajna is 100/200/300 or higher, DMG dealt will be increased to 150%/200%/250% of the original DMG respectively.
+선식·현조 산
+기본 공격 5회
+권법을 사용한 5연타.
+총 공격력의 660% 물리 대미지
+기본 공격 마지막 일격이 명중했을 때 공격 초식 유형이 초기화된다.(이후 분기 공격을 사용할 때마다 신통이 회복된다.)
+선식·황상각
+필살기 버튼 3회
+권법을 사용한 3연타.
+총 공격력의 470% 물리 대미지
 
-### Hysteria
+### 뻐꾸기 울음
 
-Combo and burst attacks add a Firebrand to enemies. Hitting a marked enemy deals an additional 150.0% ATK of Fire DMG (CD: 1.5s). Duration: 20.0s. When Prajna is 100/200/300 or higher, DMG dealt will be increased to 150%/200%/250% of the original DMG respectively.
+선식·현조산, 선식·황상각의 마지막 일격에 공격력의 80.0% 화염 대미지를 추가한다. 선식·흰 꿩, 선식·시우연, 선식·월하목의 마지막 일격에 공격력의 40.0% 화염 대미지를 추가한다. 신통이 100/200/300 이상일 때, 대미지가 원래의 150%/200%/250%로 증가한다.
 
-### Peregrine
+### 학려풍성
 
-If last strike of Sen-Ki Darting Swift or Sen-Ki Phoenix Soar hits an enemy marked by Firebrand, then drop an SP pack. CD: 20.0s.
+분기, 폭발 공격은 적에게 이화 표식을 남기고 표식이 있는 적은 피격 시 추가로 공격력의 150.0% 화염 원소 대미지를 받는다. 재사용 대기시간 1.5초. 지속 시간 20.0초. 신통이 100/200/300 이상일 때, 대미지가 원래의 150%/200%/250%로 증가한다.
+
+### 독수리
+
+선식·현조산, 선식·황상각의 마지막 일격이 이화 표식이 있는 적에게 적중 하면, SP 팩을 드랍한다. 재사용 대기시간 20.0초.

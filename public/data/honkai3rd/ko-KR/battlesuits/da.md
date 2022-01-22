@@ -1,112 +1,119 @@
-# Dea Anchora
+# 데아 앵커
 
-## Crux Galactica
+## 은하수에 수놓은 십자성
 
-Leader Bonus:
-Crux Galactica: Team's Ultimate ATKs deal 18.0% bonus Total DMG. With 3 Fire DMG Valkyries, team deals 21.0% bonus Fire DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+은하수에 수놓은 십자성: 파티원 필살기의 모든 대미지가 24% 상승한다. 파티에 화염 원소 특성을 보유한 발키리 3명이 있을 경우 파티원의 화염 원소 대미지가 30% 증가한다.
 
-### Crux Galactica
+### 남십자자리α
 
-Team's Ultimate ATKs deal 24.0% bonus Total DMG. With 3 Fire DMG Valkyries, team deals 30.0% bonus Fire DMG.
+[성염권·극]과 [성연의 창·극]이 가하는 화염 원소 대미지가 15.0% 증가한다.
 
-## Argo the Navigator
+### 은하수에 수놓은 십자성
 
-Passive bonus apply automatically
-Astrum: Maxes at 200.
-In Astral Harness, Dea Anchora's Basic ATKs are permanently enhanced and she moves in DEA Astra state. In DEA Astra, tap [ATK] to connect into Astral Barrage. Forward evasions can be connected with DEA Astra faster.
+파티원 필살기의 모든 대미지가 24% 상승한다. 파티에 화염 원소 특성을 보유한 발키리 3명이 있을 경우 파티원의 화염 원소 대미지가 30% 증가한다.
 
-### γ - Vela of Speed
+### 남십자자리γ
 
-On standby, Valkyrie recovers 1.5 SP per second.
+[꿰뚫는 별빛] 발동 시 캐릭터가 SP를 6.0pt 회복한다. SP 소모 최대치가 38.0pt로 증가한다.
 
-### ζ - Puppis of Power
+## 아르고자리·돛과 물결
 
-Casting Ultimate boosts Total DMG by 20.0% for 3s. 2 stacks max and further procs can reset the duration.
+패시브 스킬은 자동으로 발동된다.
+[별 에너지]: 최대치 200pt
+데아 앵커는 [별의 인도자] 형태일 때, 영구적으로 공격이 강화되고, [비성 상태]로 이동한다. [비성 상태]에서 공격 버튼을 누르면 이어서 [비성권]을 발동할 수 있다. 전방 회피는 [비성 상태]를 더 빠르게 이어갈 수 있다.
 
-### α - Carina of Flames
+### 돛자리γ
 
-When attacked by Dea Anchora, ignited enemies take 24.0% bonus Fire DMG from her (independent effect).
-After level 3, the skill can only be increased when  rank.
-After level 7, the skill can only be increased when  rank.
+캐릭터가 대기 중일 때 1초마다 SP를 1.5 회복한다.
 
-## Pegasus the Fleet
+### 고물자리ζ
 
-Quickly dodge enemy attacks up to twice in a row.
-Can be connected into Astral Barrage and deal 120% ATK of Fire DMG. Astral Barrage can be further connected into 2nd sequence of Basic ATK.
-Ultimate Evasion trigger Ultimate Evasion skill: Flight of Bellephoron, which triggers a 3s global Time Fracture and can be connected into Ultimate Evasion ATK to deal 600% ATK of Fire DMG. Ultimate Evasion ATK can be further connected into the 3rd sequence of Basic ATK. CD: 15s.
+필살기 발동 후 3초 동안 가하는 모든 대미지가 20.0% 증가하고, 중복 발동 시 지속 시간이 초기화되며, 2회 중첩할 수 있다.
 
-### ε - Stallion's Muzzle
+### 용골자리α
 
-Shorten Flight of Bellephoron's CD by 3.0s.
+데아 앵커가 전장에서 ㅓ연소 상태의 적을 공격할 때 적에게 가하는 화염 대미지가 추가로 24.0% 증가한다. (해당 효과는 독립적인 추가 효과로 간주한다.)
 
-### β - Stallion's Shoulder
+## 페가수스자리·하늘을 쫒는 날개
 
-Last attack of Flight of Bellephoron restores 10 SP on hit.
+빠른 이동으로 공격을 회피하고, 이어서 특수 공격을 진행한다. 2회 연속 회피 가능 회피 후, [비성권]을 이어서 발동해 공격력 120%의 화염 원소 대미지를 가한다. [비성권]은 이어서 기본 공격 제2격을 발동할 수 있다.
+극한 회피 후 극한 회피 스킬 [하늘을 쫒는 날개]를 발동할 수 있다: 3초간 전체 시공 단열을 발동하고 극한 회피 공격을 이어 발동할 수 있으며, 총 공격력 600%의 화염 원소 대미지를 가한다. 극한 회피 공격 후 이어서 기본 공격 제3격을 발동할 수 있다. 재사용 대기시간: 15초
 
-## Hercules the Warrior
+### 페가수스자리ε
 
-Unleash the astral power within and enter Astral Harness to deal high burst damage
-With over 200 Astrum, hold [ATK] to activate Astra Forge and enter Astral Harness, which costs 20 Astrum per second.
-After the 1st activation through Astra Forge, Astral Harness will later be activated through Cosmic Nova.
-Astra Forge and Cosmic Nova are both Charged ATKs which deal 800% ATK of Fire DMG and trigger a 2s global Time Fracture.
+극한 회피 스킬 [하늘을 쫒는 날개]의 재사용 대기시간이 3.0초 감소된다.
 
-### β - Fighting Arm
+### 페가수스자리β
 
-Astral Harness grants 50.0% bonus Total DMG, boosts Ignore Interrupt, and reduces Total DMG taken by 30.0%.
+[하늘을 쫒는 날개]마지막 일격이 적에게 적중 시 SP를 10pt 회복한다.
 
-### ζ - Red Ember
+## 헤라클레스자리·검의 영광
 
-Entering Astral Harness restores 30 SP instantly and 0.6 SP per 0.2s for 5s.
+몸 안에 있는 별의 힘을 해방해 [별의 인도자] 형태에 진입한다. 이 기간 데아 앵커의 폭발적인 전투력이 한층 더 강화된다.
 
-## Sagittarius the Archer
+[별 에너지]가 200pt에 도달했을 때 공격 버튼을 길게 누르면 [별의 인도자 주형]을 진행해 데아앵커는 [별의 인도자] 형태에 진입하고, [별의 인도자] 형태에서 초당 20pt의 [별 에너지]를 소모한다.
+데아 앵커는 [별의 인도자 주형]을 1번만 진행하고, 그 후에는 [응집 폭발] 형식으로 [별의 인도자] 형태에 진입한다.
+[별의 인도자 주형]과 [응집 폭발]은 모두 차지 공격에 속하며, 공격력 800%의 화염 원소 대미지를 가하고, 2초간 지속하는 전체 시공 단열을 발동한다.
 
-Dea Anchora can perform different Ultimates.
-Melee mode: Astral Flares.
-Lance mode (3rd, 4th, 5th sequences of Basic ATK): Voidstar Anchor.
-Ultimates can be performed in cycle.
-Normal form: Costs 15 SP, restores 50 Astrum, and grants Iron Body.
-Astral Flares: Multiple punches dealing 1000% ATK of Fire DMG.
-Voidstar Anchor: Leap up and hurl spears at enemies dealing 800% ATK of Fire DMG and gathering enemies for 2s.
-In Astral Harness: Costs 15 SP and grants invincibility. Astral Harness doesn't cost Astrum during Ultimate.
-Astral Flares EX: 1280% ATK of Fire DMG.
-Voidstar Anchor EX: Hurl spears twice 720% ATK of Fire DMG and create 3 Ether Anchors to strike enemies dealing 3x80% ATK of Fire DMG.
-Cast Ultimate in Astral Harness twice in a row and tap [ULT] to cast Seirios Ballista: Unleash a star-shattering shot dealing 700% ATK of Fire DMG. Every SP consumed deals 60% ATK of bonus Fire DMG. SP cost caps at 35.
-Casting Seirios Ballista ends Astral Harness and resets Astrum.
+### 헤라클레스자리β
 
-### ε - Flaming Bow
+[별의 인도자] 형태에서 가하는 모든 대미지가 50.0% 증가하고, 경직 저항력이 증가하며, 받는 모든 대미지가 30.0% 감소한다.
 
-Ultimate deals 50% bonus Fire DMG to ignited enemies. During Ultimate, Valkyrie takes 65% less Total DMG.
+### 헤라클레스자리ζ
 
-### ν - Eye of the Archer
+[별의 인도자] 형태에 진입 시 즉시 20pt의 SP를 획득한다. 이후 0.2초마다 0.4pt의 SP를 회복한다. 지속 시간: 5초
 
-Last hit of Astral Flares EX deals 320% ATK of bonus Fire DMG. Voidstar Anchor EX creates 2 more Ether Anchors, and all Ether Anchors deal 80% bonus Fire DMG.
+## 사수자리·꿰뚫는 별빛
 
-### γ - Charged Arrowhead
+데아 앵커는 여러 가지 필살기로 전투를 진행한다.
+[별의 인도자] 형태에서 필살기는 강화되어 초·필살기를 발동할 수 있다.
 
-Seirios Ballista deals 50.0% bonus Total DMG.
+필살기 발동 조건: 맨손 상태에서 [성염권] 발동, 쌍랜스 상태에서(기본 공격 3, 4, 5격) [성연의 창] 발동. 각 필살기는 연속으로 번갈아 발동할 수 있다.
+일반 형태에서 필살기 발동 시 SP를 15 소모하고, [별 에너지]를 50 회복하며 필살기 기간, 캐릭터는 슈퍼 아머 상태가 된다.
+[성염권]: 적에게 다단 공격을 가하고 총 공격력 1000%의 화염 원소 대미지를 가한다.
+[성연의 창]: 뛰어오르면서 적을 향해 환창을 던져 범위 내의 적에게 공격력의 800%의 화염 원소 대미지를 가하고 주위 적을 2초간 끌어당긴다.
+[별의 인도자] 형태에서 진화된 필살기를 발동한다. SP를 15 소모하고 [별 에너지]는 회복하지 않는다. 필살기 기간 캐릭터는 무적 상태이며 [별 에너지]를 소모하지 않는다.
+[성염권·극]: [성염권]의 진화 스킬로 총공격력 1280%의 화염 원소 대미지를 가한다.
+[성연의 창·극]: [성연의 창]의 진화 스킬로 환창을 두 번 던져 공격력 720%의 화염 원소 대미지를 가하고, 적위에 3개의 [환창]을 생성해 범위내의 적을 공격하며 공격력 3\*80%의 화염 원소 대미지를 가한다.
+[별의 인도자] 형태에서 진화 필살기를 연속 2회 발동한 후 다시 필살기 버튼을 누르면 초·필살기 [꿰뚫는 별빛]으로 에워싸고, 양 날개는 천궁으로, 창은 화살이 되어 적을 향해 별무리를 꿰뚫는 일격을 가하여 전방 범위 내의 적에게 공격력 700%의 화염 원소 대미지를 가한다. 이때 SP를 1 소모할 때마다 공격력 60%의 화염 원소 대미지를 추가로 가한다(최대 소모 sp: 35).
+[꿰뚫는 별빛]을 발동한 후 [별의 인도자] 형태에서 벗어나고, [별 에너지]는 전부 리셋된다.
 
-## Orion the Hunter
+### 사수자리ε
 
-Use melee combat moves and dual lances to deal Physical & Fire DMG.
-Basic ATK:
-1st Sequence: 80% ATK of Physical DMG + 80% ATK of Fire DMG.
-2nd Sequence: 85% ATK of Physical DMG + 85% ATK of Fire DMG.
-3rd Sequence: 240% ATK of Fire DMG.
-4th Sequence: 350% ATK of Fire DMG.
-5th Sequence: 500% ATK of Fire DMG.
-Enhanced Basic ATK:
-3rd Sequence: 340% ATK of Fire DMG.
-4th Sequence: 520% ATK of Fire DMG.
-5th Sequence: 680% ATK of Fire DMG.
+필살기가 연소 상태의 적에게 가하는 화염 원소 대미지가 50.0% 증가하고, 필살기 기간 받는 모든 대미지가 65% 감소한다.
 
-### α - Shoulder of Orion
+### 사수자리ν
 
-5th sequence of Basic ATK ignites enemies hit, dealing 30% ATK of Fire DMG per 0.5s for 10s.
+[성염권·극] 마지막 일격이 추가로 공격력 320.0%의 화염 원소 대미지를 가한다. [성연의 창·극]은 추가로 창을 2개 생성하고, 모든 창이 가하는 화염 원소 대미지가 80.0% 증가한다.
 
-### β - Foot of the Hunter
+### 사수자리γ
 
-During Basic ATK and 3rd/4th/5th sequence of Enhanced Basic ATK, Valkyrie takes 30.0% less damage.
+[꿰뚫는 별빛]이 가하는 모든 대미지가 50.0% 증가한다.
 
-### QTE: γ - Bellatrix
+## 오리온자리·현의 열풍
 
-Triggered by knocked-airborne or ignited enemies to proc a 3s global Time Fracture, deal 1,100.0% ATK of Fire DMG, restore 10 SP, and gather enemies around.
+격투기와 쌍랜스로 적을 공격해 물리 대미지와 화염 대미지를 가한다.
+
+기본 공격:
+제1격: 총 공격력 80%의 물리 대미지 + 공격력 80%의 화염 원소 대미지를 가한다.
+제2격: 총 공격력 85%의 물리 대미지 + 공격력 85%의 화염 원소 대미지를 가한다.
+제3격: 총 공격력 240%의 화염 원소 대미지를 가한다.
+제4격: 총 공격력 360%의 화염 원소 대미지를 가한다.
+제5격: 총 공격력 500%의 화염 원소 대미지를 가한다.
+강화 공격:
+제3격: 총 공격력 340%의 화염 원소 대미지를 가한다.
+제4격: 총 공격력 520%의 화염 원소 대미지를 가한다.
+제5격: 총 공격력 680%의 화염 원소 대미지를 가한다.
+
+### 오리온자리α
+
+기본 공격 5번째 공격에 명중한 적은 연소 상태에 빠져 0.5초마다 공격력 30%의 화염 원소 대미지를 입는다. 지속시간: 5초
+
+### 오리온자리β
+
+기본 공격 및 강화 공격의 3, 4, 5번째 공격에 받는 모든 대미지가 30.0% 감소한다.
+
+### QTE-오리온자리γ
+
+QTE: 적이 공중에 띄워지거나 연소 상태일 때 발동, 3초 동안 전체 시공 단열을 발동, 공격력 1,100.0%의 화염 원소 대미지를 가하고, SP를 6.0 회복하며, 주변 적을 모은다.

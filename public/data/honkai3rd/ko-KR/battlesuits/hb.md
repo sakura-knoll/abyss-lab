@@ -1,111 +1,113 @@
-# Haxxor Bunny
+# 핵서 버니(작업중)
 
 ## H-T-T-P-S
 
-Leader Bonus:
-Team deals 17.0% more Ice DMG through Ultimates or in Burst modes. For every Ice DMG dealer on he team, team gains 1.0% total DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+파티원의 필살기 및 폭발 상태에서의 빙결 원소 대미지가 40.0% 증가한다. 파티 내 빙결 원소 대미지 특성의 발키리 1명마다 파티원의 모든 대미지가 5.0% 증가한다.
 
 ### H-T-T-P-S
 
-Team deals 40.0% more Ice DMG through Ultimates and in Burst modes. For every Ice DMG dealer on the team, team deals 5.0% more Total DMG.
+파티원의 필살기 및 폭발 상태에서의 빙결 원소 대미지가 40.0% 증가한다. 파티 내 빙결 원소 대미지 특성의 발키리 1명마다 파티원의 모든 대미지가 5.0% 증가한다.
 
-## Trackers
+## T-추적자
 
-Passive bonuses apply automatically.
-Kinetic Energy: Maxes at 200. Every hit of Basic ATK restores 5 KE.
-Haxxor Count: Maxes at 20.
+패시브 스킬은 자동으로 발동된다.
+KP : 최대 200pt, 기본 공격 적중 시 매회 5pt 회복한다. 해커 카운트 : 최대 20pt
+드론 : 핵서 버니가 두 가지 공격 방식을 가진 [소환물]드론을 전장에 소환한다. 지속 시간 : 30초
+기본 공격 : 자동 소총으로 목표를 사격한다. 공격 적중 시 공격력 50%의 빙결 원소 대미지를 가하고 한 발당 해커 카운트를 1pt 회복한다. 발동 간격은 1초이며 드론은 초당 1 사이클의 사격을 진행하고, 사이클당 3발을 발사한다.
+특수 공격 : 캐릭터의 무기 유형에 따라 대응하는 공격을 진행해 공격력 240%의 빙결 원소 대미지를 가한다.
+드론은 가장 가까운 적을 우선 공격 목표로 정하며, 전장 내 드론 1 기당 파티의 캐릭터와 소환물의 대미지를 2.5% 증가시킨다.(최대 수량 : 2개) 최대 수량에 도달한 상태에서 드론 소환 시, 전장 내 드론의 지속 시간이 10초 연장된다.
+지속 시간이 끝난 드론은 목표를 향해 돌진 자폭해 공격력 00%의 빙결 원소 대미지를 가한다.
 
-Drones: Bronie summons a drone (summoned entity) to aid in battle. Drones last for 30s and have 2 attack patterns.
-Basic ATK: Mini gun attacks which deal 50% ATK of Ice DMG every hit. Every bullet fired restores 1 Haxxor Count with a 1s CD. Each drone fires one round every second and every round has 3 bullets.
-Special ATK: Based on Bronie's weapon type. Deals 240% ATK of Ice DMG.
-Drones prioritize the nearest enemy. Each drone present boosts Total DMG from Valkyries or summoned entities by 2.5%. Up to 2 can be present. Summoning when where are 2 drones present extends their duration by 10s. At the end of the duration, drones dive towards the target to self-destruct and deal 100% ATK of Ice DMG.
+### 제한 해제
 
-### Limitations off
+무기 액티브 스킬 발동 시 전장의 드론은 공격마다 추가로 총알을 3발 발사한다. 지속시간 7.0초
 
-Casting weapon actives enables drones to fire 3 bonus bullets every round for 7.0s.
+### 데이터 공유
 
-### Data Sharing
+핵서 버니가 대기 상태일 때 드론의 기본 공격으로 해커 카운트 회복 시 추가로 캐릭터의 SP를 1.2pt 회복한다. 파티 내 기타 캐릭터가 필살기 발동 시 드론의 기본 공격은 해커 카운트를 추가로 3pt 회복한다. 지속 시간 3초, 재사용 대기 시간 10초.
 
-With Bronie on standby, Basic ATKs of drones restore 1.20 bonus SP for her whenever building up Haxxor Count. After any teammates casts Ultimate, Basic ATKs of drones build up 3 bonus Haxxor Count for 3s. CD: 10s.
+## P-이별 선물
 
-## Parting Gift
+빠르게 적의 공격을 회피하며, 연속으로 2회 회피할 수 있다.
+극한 회피 시 1초 지연 폭발하는 수류탄을 떨어뜨려 주위의 적을 잠시 끌어당기고, 4초간 지속되는 전체 시공 단열을 발동하며 공격력 200%의 빙결 원소 대미지를 가한다. 재사용 대기 시간 : 15초.
+극한 회피 스킬 발동 후 공격 버튼을 누르면 기본 공격 제 3격을 이어서 발동할 수 있다.
 
-Step sideways to dodge attacks. Can be performed twice in a row.
-Ultimate Evasion drops a grenade which detonates after a 1s delay, shortly gathers nearby enemies, procs a 4s global Time Fracture, and deal 200% ATK of Ice DMG.
-CD: 15s. Tap [ATK] after Ultimate Evasion to connect into the 3rd sequence of Basic ATK.
+### 긴급 복구
 
-### Hotfix
+극한 회피 스킬의 재사용 대기 시간이 3.0초 감소하고 수류탄 폭발 시 추가로 공격력 200%의 빙결 원소 대미지를 가한다.
 
-Ultimate Evasion's CD is reduced by 3.0s. Grenade explosion deal 200% ATK of bonus Ice DMG.
+## T-폭풍 저격
 
-## Charged: Tempest Sniper
+차지
+공격 버튼을 길게 눌러 대포로 강력한 공격을 가한다.
+KP가 가득 찼을 때 공격 버튼을 길게 누르면 모든 KP를 소모해 무기의 유형에 따라 대응하는 강력한 공격을 가해 공격력 120\*6의 빙결 원소 대미지를 가한다.
+차지 공격 시 캐릭터가 고정한 목표는 드론의 공격 목표가 되어 특수 공격을 1회 가한다.
 
-Hold [ATK] to unleash powerful cannon attacks.
-At full KE, hold [ATK] to consume all KE and unleash powerful attacks based on weapon type, dealing 120x6% ATK of Ice DMG.
-Charged ATK can also lock the current target for the drones to perform a special ATK.
+### 사전 적재
 
-### Preload
+캐릭터의 초기 KP가 200PT 증가 하며 QTE 발동 시 KP를 100.0pt 회복한다..
 
-Bronie has 200.0 bonus initial KE. Casting QTE restores 100.0 KE.
+### 전열 동기화
 
-### Synchronized Array
+파티 내 기타 캐릭터의 차지 공격 또는 분기 공격이 적에게 적중 시 전장에 드론이 있을 경우 전장의 드론이 협동해 특수 공격을 1회 발동하고, 핵서 버니는 초당 SP를 1.2 회복시킨다. 지속 시간 : 10초. 중복 발동 시 지속 시간이 갱신된다. 재사용 대기시간 : 2초.
 
-Charged/Combo ATKs from teammates coordinate drones (if present) to perform a special ATK and restore 1.6 SP per second for Bronie for 10s. Subsequent procs reset the duration. CD: 2s.
+## S-별 섬멸 프로젝트
 
-## Star Destroyer
+SP 125
+넓은 범위의 폭격을 유도해 전방의 적에게 대미지를 가한다.
+필살기 버튼을 눌로 발동한다. 짧은 유도 후, 고정한 목표 주변 넓은 범위에 융단 폭격을 가해 공격력 60\*30%의 빙결 원소 대미지를 가한다. 지속 시간 : 7초.
+필살기 발동 후 16초 동안 전장 내 드론은 강화 상태에 진입하며 공격 목표는 전장 캐릭터가 공격한 목표에 따라 수시로 변경된다.
+3초 간격으로 특수 공격을 1회 자동 사용하며 [전열 동기화] 스킬 효과가 발동한다.
+발동 중 [전열 동기화] 스킬은 파티 내 다른 캐릭터에 의해 발동되지 않는다.
+재사용 대기시간 : 25초.
 
-Unleash mass bombing upon enemies in front of Haxxor Bunny.
-Tap [ULT] to channel for a short duration and unleash carpet-bombing upon enemies in front of Haxxor Bunny for 7s dealing 60x30% ATK of Ice DMG.
-For 16s after Ultimate activation, drones are enhanced and they can switch to Haxxor Bunny's current target at any time. In addition, they perform a special attack every 3s and trigger Synchronized Array, but this effect cannot be triggered by teammates within the duration.
+### 논리 복제
 
-Activation SP Cost: 125. CD: 25s.
+필살기 발동 후 파티원이 가하는 빙결 원소 대미지가 15.0% 증가하고, 소환물이 가하는 빙결 원소 대미지가 100.0% 증가한다. 지속 시간 15초, 중복 발동 시 지속시간이 갱신된다.
 
-### Logic Coverage
+### 권한 삭제
 
-Casting Ultimate boosts team's Ice DMG by 15.0% and summoned entities' Ice DMG by 100.0% for 15s. Subsequent procs reset the duration.
+폭격에 적중한 적의 이동 속도가 40.0% 감소한다. 지속시간 : 5초, 중복 발동 시 지속시간이 갱신된다.
 
-### Permission Removed
+### 최종 코드
 
-Bombing slows enemy Move Speed by 40.0% for 5s. Subsequent procs reset the duration.
+필살기가 가하는 빙결 원소 대미지가 30.0%''증가하고, QTE 공격이 가하는 빙결 원소 대미지가 25.0% 증가한다.
 
-### Final Encoding
+## H-토끼 사냥꾼[19]
 
-Ultimate deals 30.0% more Ice DMG. QTE deals 25.0% more Ice DMG.
+자동 소총으로 사격하며 회피 시 공격을 유지할 수 있다.
+제1격 : 공격력 25%*4의 빙결 원소 대미지
+제2격 : 공격력 25%*4의 빙결 원소 대미지
+제3격 : 공격력 15%*8의 빙결 원소 대미지
+제 4격 : 공격력 30%*9의 빙결 원소 대미지
 
-## Hare Hunters
+### 방화 코팅
 
-Use submachine guns to shoot. Evasion enables the nest sequence.
-1st Sequence: 25%x4 of Ice DMG.
-2nd Sequence: 25%x4 ATK of Ice DMG.
-3rd Sequence: 15%x8 ATK of Ice DMG.
-4th Sequence: 30%x9 ATK of Ice DMG.
+기본 공격 기간 도중 받는 대미지가 30.0% 감소하고 경직 저항력이 증가한다.
 
-### Fireproof Coating
+### 바이러스 연동
 
-During Basic ATK, Bronie takes 30.0% less Total DMG and has improved Ignore Interrupt.
+QTE 공격 적중 시 적에게 [침입] 상태를 부여한다. 적이 받는 원소 대미지가 10.0 증가하고 파티원과 소환물이 [침입] 상태의 적에게 강하는 빙결 원소 대미지가 6.7 증가한다. 중복 발동 시 지속 시간이 갱신된다. 지속 시간 15초. [수정바람]
 
-### Interlinked Trojans
+### 해커 트리거
 
-QTE inflicts Hacked status on hit. Hacked enemies take 12.0% more Ice DMG, and Valkyries as well as their summoned entities deal 8.0% more Ice DMG to Hacked enemies for 15s. Subsequent procs reset the duration.
+해커 카운트가 20까지 채워진 상태에서 현재 선택된 목표가 있을 때 캐릭터 교체
+모든 해커 카운트를 소모해 공격력 1080%의 빙결 원소 대미지를 가하고 드론[소환물] 1기를 소환한다. 핵서 버니 QTE 기간 동안 캐릭터를 그대로 조작할 수 있으며 핵서 버니는 QTE 공격 발동 후 바로 퇴장한다.
+핵서 버니 QTE 기간 필살기 발동 조건을 만족하면 우측 상단의 핵서 버니 아이콘이 필살기 발동 버튼으로 변경된다. 또는 다시 우측 상단의 핵서 버니 아이콘을 터치해 조작권을 핵서 버니로 전환하고, 현재 조작 캐릭터를 퇴장시킬 수 있다.
 
-### Haxxor Trigger
+## 절대안전협의
 
-QTE: Triggered at full Haxxor Count and when there's a targetable enemy. Consumed all Haxxor Count to deal 1080% ATK of Ice DMG and summon a drone (summoned entity). Performing Haxxor Bunny's QTE doesn't require her to be switched in.
-When casting QTE, if her Ultimate is available, her avatar will change into her Ultimate icon, which can be tapped again to cast her Ultimate. If not, tapping her avatar again will switch her in.
+기본 공격 제 4격은 드론[소환물] 1기를 소환한다.
 
-## Absolute Security Protocol
+### 컴파일 초가속
 
-Basic ATK summons drones.
-4th sequence of Basic ATK summons a drone (summoned entity).
+차지 대미지가 45.0%증가하며 드론[소환물]을 2기 소환한다. 차지 공격 또는 필살기 발동 후 파티 내 모든 캐릭터와 소환물들에게 [사냥] 상태를 부여해 가하는 모든 원소 대미지를 10.0% 증가시킨다. 지속 시간 15초, 중복 발동 시 지속시간이 갱신된다.
 
-### Accelerated Compilation
+### 역서약화
 
-Charged ATK deals 45.0% more Ice DMG and summons 2 drones. Casting Charged ATK or Ultimate sends team members and their summoned entities into Tracking mode, where they deal 10.0% more Elemental DMG for 15s. Subsequent procs reset the duration.
-
-### Deserialization
-
-Drones deal 25.0% more Ice DMG. Casting Ultimate summons 2 drones.
+드론이 가하는 빙결 원소 대미지가 25.0%증가하며, 필살기 발동 시 드론[소환물]을 2기 소환한다.
 
 ### 404_Not_Found
 
-When deployed, Bronie restores 2.5 SP per second for 8s. Can only be triggered once every 10 minutes in Open World.
+전투 진입 시, 초반 SP를 초당 1.0% 회복한다. 지속 시간 : 8초. 해당 버프는 오픈월드에서 10분마다 1회 발동한다.

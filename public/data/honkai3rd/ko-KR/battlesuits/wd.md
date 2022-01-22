@@ -1,99 +1,104 @@
-# Wolf's Dawn
+# 은랑의 여명(작업중)
 
-## Harmonic Resonance
+## 싱크로
 
-Leader Bonus:
-Harmonic Resonance: When Combo Hit Count exceeds 30, team gains 15% Crit Rate. PSY-type characters gain 20% Crit DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+콤보 수가 30을 초과하면 모든 파티원의 크리티컬률이 26% 증가한다.
+이능 속성의 캐릭터는 크리티컬 대미지가 29% 증가한다.
 
-### Harmonic Resonance
+### 싱크로
 
-When Combo Hit Count exceeds 30, team gains 26% Crit Rate. PSY-type characters gain 29% Crit DMG.
+콤보 수가 30을 초과하면 모든 파티원의 크리티컬률이 26% 증가한다.
+이능 속성의 캐릭터는 크리티컬 대미지가 29% 증가한다.
 
-## Passive Skill
+## 중장 토끼
 
-Passive bonuses apply automatically.
-Project Bunny will be paralyzed once its HP depleted. Project Bunny restores 5% HP per second. If the Valkyrie goes near Project Bunny to help, it additionally restores 30% HP per second. Project Bunny revives when its HP is fully restored.
-Project Bunny: Knock surrounding enemies into the air upon revival. When Wolf's Dawn is nearby, Project Bunny gains 60% Physical DMG for 10s.
+패시브 스킬
+패시브 스킬은 자동으로 발동한다.
+중장 토끼의 HP가 모두 소진되면 마비 상태가 되며, 1초마다 5%의 HP를 회복한다. 캐릭터는 중장 토기 주변에 가서 구조할 수 있고, 1초마다 30%의 HP를 추가로 회복, 모든 HP를 회복하면 다시 전투에 참여된다.
+부활 시 주변 적을 넉백시키며, 은랑이 주변에 있을 경우 중장 토기의 물리 대미지가 10초 동안 6% 상승한다.
 
-### Bio Ward
+### 생물 수호
 
-All team members have a particle shield that absorbs Elemental DMG. The shield has 1,000 HP which is fully restores if not attacked for 6.0s.
+모든 파티원에게 원소 대미지를 흡수하는 기갑 실드를 제공한다. 실드의 HP는 1,000이며, 6.0초 동안 공격당하지 않으면 HP를 완전히 회복한다.
 
-### Prismatic Refraction
+### 프리즘 리플렉션
 
-When the particle shield on, Valkyrie deals 30.0% bonus Elemental DMG. Project Bunny has bonus ATK equal to 5% of Valkyrie's ATK.
+실드 존재
+원소 대미지가 30.0% 증가한다. 중장 토끼는 추가로 캐릭터 공격력의 5%를 이어받는다.
 
-### Quantum Survival
+### 양자 복귀
 
-With the particle shield on, Valkyrie has a 45.0% chance to be debuff-immune. Project Bunny has bonus DEF equal to 100% of Valkyrie's DEF.
+실드 존재
+45.0%의 확률로 상태 이상에 면역된다. 중장 토기는 추가로 캐릭터 방어력의 100%를 이어받는다.
 
-## Simulated Flicker
+## 허수 시공의 반짝임
 
-Enters temporary Dimension Shift to evade enemy attacks.
-Simulated Flicker: Summons Project Bunny to attack enemies upon an Ultimate Evasion, dealing 350% Project Bunny's ATK of Physical DMG and triggering Time Fracture for 3s on hit. CD: 15s.
-If Project Bunny is paralyzed, Ultimate Evasions will heal it for 50% HP.
+회피 버튼
+극한 회피 시 중장 토끼를 소환해 타깃을 공격하며, 공격력의 350% 물리 대미지를 입히고 3초 동안 시공 단열을 발동한다. 재사용 대기시간 15초.
+중장 토끼가 기능 마비 상태일 때 극한 회피하면 중장 토끼의 체력을 50% 회복한다.
 
-### Tactical MOD
+### 대응 모듈
 
-When Simulated Flicker is triggered, Project Bunny recovers 25.0% HP and gains 30.0% Physical DMG for 10s.
+허수 시공의 반짝임 발동
+중장 토기의 체력을 25.0% 회복하고, 10초 동안 중장 토끼의 물리 대미지가 30.0% 증가한다.
 
-### Counter Protocols
+### 카운터 회로
 
-Shortens CD of Simulated Flicker by 4.0s.
+허수 시공 반짝임의 재사용 대기시간이 4.00초 감소한다.
 
-### Field Supplies
+### 무장 속행
 
-Ultimate Evasions recover 5.0 SP for the whole team.
+극한 회피 시 추가로 모든 파티원의 SP를 5.0 회복시킨다.
 
-## Switch-Burst Assault
+## 강력 충돌
 
-Immediately unleashes Shield Charge upon entry.
-Shield Charge: 250% ATK of Physical DMG.
-Project Bunny (summoned entity) enters battle. Project Bunny stats: 40% ATK, 100% DEF and 400% HP of the Valkyrie; 50% Elemental DMG resistance; and immunity to most crowd controls. The Valkyrie loses 20% ATK during Project Bunny's presence.
+캐릭터 교체
+실드 어택을 발동하여 공격력의 250% 물리 대미지를 입힌다.
+스스로 전투하는 중장 토끼가 소환되고 캐릭터 교대 당시의 공격력을 40%, 방어력을 100%, HP를 400%, 원소 방어력을 50% 이어받으며 대부분의 상태 이상에 면역된다. 캐릭터의 공격력은 20% 감소한다.
 
-### Burst Assault
+### 폭렬 돌격
 
-Shield Charge additionally deals 170% ATK of Physical DMG. Project Bunny: Gains ATK equal to 20.0% of the Valkyrie's ATK.
+실드 어택의 공격을 받은 적에게 공격력의 170.0% 물리 대미지를 추가로 입힌다. 중장 토끼에게 캐릭터 공격력의 20.0%를 추가 복제한다.
 
-### QTE: Dilated Momentum
+### QTE 체공 에너지
 
-QTE: Triggers when an enemy is affected by Time Slow. Unleashes combo skills. Project Bunny: Burst Assault. The Valkyrie: Deals 750% ATK of Physical DMG and stuns enemies for 5.0s.
+적이 시공 감속 상태일 때 캐릭터 교체
+공격력의 750% 물리 대미지를 입히고 5.0초 동안 적을 기절시킨다. 중장 토끼는 폭렬 돌격 스킬 효과를 얻는다.
 
-### Remote Control
+### 원격 제어
 
-Project Bunny stays in battle for 12.0s after the Valkyrie exits.
+캐릭터가 필드를 떠나도 중장 토끼는 12.0초 동안 필드에 남아있는다.
 
-## GROM Slam
+## 우레의 일격
 
-Activate powerful resonance with Project Bunny to have it unleash devastating attacks.
-Resonance: Project Bunny smashes the ground 3 times to damage and stun enemies, and applies Time Lock on weakened enemies for 5s.
-1st Smash: 275% Project Bunny's ATK of Physical DMG.
-2nd Smash: 425% Project Bunny's ATK of Physical DMG.
-3rd Smash: 575% Project Bunny's ATK of Physical DMG.
-SP Cost: 55.
+SP 55 이상
+강렬한 공명을 통해 중장 토끼가 강력한 공격을 시전한다. 중장 토끼가 지면을 3번 강렬하게 내려찍어, 주변 작은 범위의 적에게 대미지를 가하고 기절 상태로 만든다. 허약 상태인 적은 5초 동안 시공 속박 상태가 된다.
+첫 번째：중장 토기 공격력의 275% 물리 대미지
+두 번째：중장 토끼 공격력의 425% 물리 대미지
+세 번째：중장 토끼 공격력의 575% 물리 대미지
 
-### Synchronized Frenzy
+### 폭주 동기화
 
-Upon Ultimate activation, Project Bunny recovers 60.0% HP. The Valkyrie and Project Bunny both gain 30.0% Physical DMG for 10.0s.
+필살기 사용 후, 중장 토끼의 체력이 60.0% 회복되고, 캐릭터와 중장 토끼의 물리 대미지가 10.0초 동안 30.0% 증가한다.
 
-### EM Counter
+### 자기장 제어
 
-Each ground slam additionally deals 8,000 fixed DMG against enemy shields. During Ultimate, Project Bunny deals 100.0% more DMG against shields, and 180.0% more Physical DMG against weakened enemies.
+땅을 찍어 적의 실드에 8,000의 고정 대미지를 준다. 필살기 사용 기간, 중장 토끼가 적의 실드에 가하는 대미지가 100.0% 증가한다. 허약 상태의 적에게 주는 물리 대미지가 추가로 180.0% 증가한다.
 
-### Gravity Traction
+### 인력 견제
 
-Upon slamming the ground, pulls enemies surrounding Project Bunny towards it and deals an additional 400.0% ATK of Physical DMG.
+지면을 찍는 순간, 중장 토끼 주변 넓은 범위 내 적에게 중장 토끼를 밀어 공격력의 .0% 물리 대미지를 추가로 입힌다.
 
-## Charge: Particle Cannon
+## 중입자포
 
-Charged ATK using a cannon. Higher charge sequence deals more DMG.
-Arm Switch: Changes the way of charging based on the weapon equipped.
-Uncharged attacks order Project Bunny to unleash special attacks on the target.
+암 스위치：장비한 무기에 따라 차지 공격이 바뀐다.
+차지하지 않은 기본 공격에 맞은 적은 중장 토끼의 특수 공격 목표가 된다.
 
-### Crippling Blast
+### 기갑 억제
 
-Uncharged attacks weakens the target and other enemies nearby, reducing their ATK by 50.0% for 6.0s.
+차지하지 않은 공격이 범위 허약 효과를 가지며 6.00초 동안 적의 공격력을 50.0% 감소시킨다.
 
-### Precise Targeting
+### 핀포인트 조준
 
-Project Bunny deals an additional 60.0% Physical DMG to weakened enemies.
+중장 토끼가 허약 상태의 적에게 가하는 물리 대미지가 60.0% 증가한다.

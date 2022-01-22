@@ -1,99 +1,98 @@
-# Kriegsmesser
+# 극지전인(작업중)
 
-## Ward of Boreas
+## 북풍의 수호
 
-Leader Bonus:
-Ward of Boreas: Team takes 14% less Melee Physical DMG.
-PSY-type character gains 8% Total DMG Multiplier.
+리더로 배치 시 파티원이 버프를 받는다.
+모든 파티원이 받는 근접 물리 대미지가 20% 감소. 이능 속성의 발키리는 모든 대미지가 14% 증가
 
-### Ward of Boreas
+### 북풍의 수호
 
-Team receives 20% less Melee Physical DMG. PSY-type battlesuits gains 14% Total DMG.
+모든 파티원이 받는 근접 물리 대미지가 20% 감소. 이능 속성의 발키리는 모든 대미지가 14% 증가
 
-## Passive
+## 패시브 스킬
 
-Passive bonuses apply automatically.
+패시브 스킬은 자동으로 발동한다.
 Threshold: Starts at 200 (max 600).
 
-### Merciless Pursuit
+### 무자비한 추격
 
-Team attacks against move slow, attack slow, or frozen enemies deal 30.0% more Ice DMG.
+모든 파티원이 이동 속도 감소/공격 속도 감소/빙결 상태의 적을 공격 시 빙결 원소 대미지가 30.0% 증가한다.
 
-### White Heat
+### 백열
 
-When Combo Hit Count exceeds 20, character gains 20.0% Total DMG Multiplier.
+콤보수 20 초과
+자신이 가하는 모든 대미지 20.0% 증가
 
-## Frost Touch
+## 얼어붙은 손길
 
-Roll evasion. Can be performed 2 times in a row.
-Ultimate Evasion generates a 4x25% ATK of AOE Ice DMG centered on the enemy and restores 50 Threshold.
-Frost Touch: Additionally restores 100 Threshold; tap [ATK] right after Ultimate Evasion to unleash a Windmill Cleave that deals 50%+100% ATK of Ice DMG and freezes the target for 3s; CD: 15s.
+적의 공격 회피
+2번 연속 사용 가능. 극한 회피 시 적을 중심으로 공격력의 4\*25% 범위 빙결 원소 대미지를 입히고 임계치 50pt 회복한다.
+얼어붙은 손길：추가로 임계치 100pt 회복하고 극한 회피 후 공격 버튼을 누르면 내려찍기로 공격력의 50%+100% 빙결 원소 대미지를 입히고 적을 3초 동안 빙결 상태로 만든다. 쿨타임 15초.
 
-### Ice Dust
+### 얼음 먼지
 
-After triggering Frost Touch by Ultimate evasionsion, the AOE downward hew attack gains 200% ATK of Ice DMG.
+극한 회피로 얼어붙은 손길 발동 후 내려찍기의 빙결 원소 범위 대미지가 200% 증가한다.
 
-### Polar Current
+### 극지 빙하류
 
-Shortens CD of Frost Touch by 8.0s. Every hit of Evade Slash deals 50% ATK of Ice DMG instead.
+얼어붙은 손길 재사용 대기시간 8.0초 감소. 매 회피 베기의 빙결 원소 대미지가 50% 증가한다.
 
-## Charge ATK: Fight for Survival
+## 생존 투쟁
 
-Tap and hold to charge to unleash an upward slash that deals 200% ATK of Physical DMG at full charge and 100% ATK of Physical DMG otherwise.
-When Threshold is at least 200, Charged ATK instantly spends 50 Threshold to activate Threshold mode.
-Threshold Mode: Consumes 20 Threshold every 0.5s, and ends at 0 Threshold or by ending the 4-sequence Basic ATK.
-Under Threshold Mode: Each attack move unleashes 3 Threshold Sword Ki that deals 50% ATK of Ice DMG per hit and slows enemy Attack Speed by 40% for 4s.
+공격 버튼을 꾸욱 눌러 발동
+차지 올려베기를 시전하여 공격력의 100% 물리 대미지를 입힌다. 풀차지 시 공격력의 200% 물리 대미지를 입힌다.
+임계치가 200pt 이상일 때 차지 공격 순간 임계치 50pt를 소비하고 임계 상태에 진입한다. 임계 상태에서는 공격마다 3개의 검기를 방출하며 공격력의 50% 빙결 원소 대미지를 입히고 적의 공격 속도를 3초 동안 40% 감소시킨다. 0.5초마다 20pt의 임계치를 소모하고 임계치를 소진하거나 4연격 사이클을 중지할 시 자동으로 임계 상태에서 벗어난다.
 
-### Switch: Ice Breaker
+### 교대기 파빙참
 
-Switch entry unleashes a downward cleave, knocking down enemies within the AOE and dealing 250%+100% ATK of Physical DMG.
+캐릭터 교체
+내려찍기로 범위 내의 적을 다운시켜 공격력의 250%+100% 물리 대미지를 입힌다.
 
-### QTE: Avalanche
+### QTE 눈사태
 
-QTE: Triggers when enemy is ignited. Deals 225% ATK of Physical DMG + 200%+250% ATK of Ice DMG and freezes enemies for 5.00s . Restores 200 Threshold.
+적이 연소 상태일 때 캐릭터 교체
+최대 공격력의 225% 물리 대미지와 200%+250% 빙결 원소 대미지를 입히고 5.00초 동안 적을 빙결 상태로 만든다. 동시에 자신의 임계치를 200pt 회복한다.
 
-### Adrenaline
+### 아드레날린
 
-Once Threshold Mode has been active for 2s, character deals 50.0% more Ice DMG. Effect lasts until 4s after Threshold Mode ends.
+임계 상태에 진입 후 2초 지나면 자신이 가하는 빙결 원소 대미지가 50.0% 증가한다. 이번 임계 상태 종료 후 4초 후까지 지속된다.
 
-## Frost Cyclone
+## 아이스 스톰 토네이도
 
-Unleashes mighty cleaves with the power of frost to deal massive Ice DMG.
-Unleash 3 freezing sword ki dealing 3x200% ATK of Ice DMG, then dash to the target to unleash a 3-hit windmill hew that deals 150% ATK of Physical DMG + 50% ATK of Ice DMG per hit. Final downward hew deals 300%+200% ATK of Physical DMG plus 150%+300% ATK of Ice DMG and unleashes a large AOE freeze for 3s.
-After dealing the final hit, character restores 200 Threshold.
-SP cost: 100
+SP 100 이상
+제자리에서 적에게 3개의 원거리 얼음 검기를 날려 공격력의 3\*200% 빙결 원소 대미지를 입힌 후 적에게 돌진하여 150% 물리 대미지와 50% 빙결 원소 대미지의 3단 베기를 시전한다. 그리고 내려찍기로 공격력의 300%+200% 물리 대미지와 공격력의 150%+300% 빙결 원소 대미지를 입히고, 광범위의 적을 3초 동안 빙결 상태로 만든다. 최후의 일격을 가하는 순간 임계치 200pt를 회복한다.
 
-### Frostbite
+### 동상
 
-Each hit of Ultimate additionally deals 100% ATK of Ice DMG.
+필살기의 빙결 원소 대미지가 타격마다 추가로 100% 증가한다.
 
-### Frozen Heart
+### 극한의 마음
 
-Final hit of Ultimate restores 600.0 Threshold instead.
+필살기의 마지막 일격을 가하는 순간 자신의 임계치를 600.0pt 회복한다.
 
-### Snowstorm
+### 폭풍설
 
-Freezing caused by the ultimate now lasts 6.00s. At the end of the duration, slows Attack Speed by 40% for 6.00s.
+필살기의 빙결 상태 지속 시간이 6.00초까지 증가하고 빙결 상태가 풀린 후 6.00초 동안 공격 속도가 40% 감소한다.
 
-## Subzero Cleaver
+## 영도 대검
 
-Basic ATK: 4-sequence Zweihänder Melee Fechten.
-1st Sequence: 200% ATK of Physical DMG.
-2nd Sequence: 200% ATK of Physical DMG.
-3rd Sequence: 150%+50% ATK of Physical DMG.
-4th Sequence: 250% ATK of Physical DMG.
-Does not enter charge phase when performing the 4-sequence Basic ATK.
-Sprint ATK: When sprinting, tap the [ATK] button for a large AOE sweep, dealing 450% ATK of Physical DMG.
-Hitting an enemy with the 4-sequence Basic ATK or Sprint ATK restores 30 Threshold.
+근접 전 4연격. 4연격 도중 차지 단계에 진입할 수 없다.
+1단：공격력의 200% 물리 대미지
+2단：공격력의 200% 물리 대미지
+3단：공격력의 150%+50% 물리 대미지
+4단：공격력의 250% 물리 대미지
+돌진 공격：돌진 시 공격 버튼을 누르면 광범위 가로베기 발동하여 공격력의 450% 물리 대미지를 입힌다.
+기본 공격 및 돌진 공격이 적에게 적중 시 타격마다 임계치 30pt 회복한다.
 
-### Cold Edge
+### 냉혈의 검
 
-In Threshold Mode, Valkyrie gains immunity to stun, paralyze, and freeze, and takes 40.0% less total DMG. The Attack Speed slowing effect inflicted by Threshold Sword Ki is extended to 6.00s. Threshold Sword Ki from 3rd sequence of Basic ATK freezes enemies for 2s. CD: 8s.
+임계 상태
+기절,마비,빙결 상태에 면역되고 받는 모든 대미지가 40.0% 감소한다. 임계 검기로 인한 공속 감소 효과의 지속시간이 6.00초 연장된다. 또한 기본 공격 제3격의 임계 검기는 적을 2초 간 빙결 상태에 빠트린다. 재사용 대기시간: 8초
 
-### Subzero Fechten
+### 저온 작전
 
-Each hit of the 4-sequence slash gains 100% ATK of Ice DMG.
+4연격이 적에게 적중 시 타격마다 추가로 공격력의 100% 빙결 원소 대미지를 입힌다.
 
-### Icy Frost
+### 서리
 
-Each hit of the 4-sequence Basic ATK and Spring ATK restores 60.0 Threshold instead. Each hit of blade wave unleashed under Threshold Mode additionally deals 70% ATK of Ice DMG.
+기본 공격 4연격과 돌진 공격으로 획득하는 임계치가 타격마다 60.0pt로 증가된다. 임계 상태에서의 임계 검기의 빙결 원소 대미지가 타격마다 추가로 70% 증가한다.

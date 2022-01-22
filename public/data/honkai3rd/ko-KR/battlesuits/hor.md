@@ -1,116 +1,123 @@
-# Herrscher of Reason
+# 이치의 율자(작업중)
 
-## Source Protocol
+## 누메론 프로토콜
 
-Leader Bonus:
-Source Protocol: Team gains 30.0% to all Elemental DMG. Any Bronya, Seele, or Olenyevas in the team also gains 25.0% Total DMG Multiplier.
+리더로 배치 시 파티원이 버프를 받는다.
+전체 파티원의 모든 원소 대미지가 30.0% 증가하고 파티 내 브로냐, 제레, 아린 자매의 모든 대미지가 25.0% 증가한다.
 
 ### Substantial Analysis
 
 In normal mode, Charged ATK has 10.0% Elemental Breach.
 
-### Source Protocol
+### 누메론 프로토콜
 
-Team gains 30.0% to all Elemental DMB. Any Bronya, Seele, or Olenyevas in the team also gains 25.0% Total DMG Multiplier.
+전체 파티원의 모든 원소 대미지가 30.0% 증가하고 파티 내 브로냐, 제레, 아린 자매의 모든 대미지가 25.0% 증가한다.
 
 ### Reason Reconstructed
 
 When exiting in bike mode, Bronya restores 240 Konstruktyom and 10.0 SP.
 
-## Passive
+## 패시브 스킬
 
-Passive bonuses apply automatically.
-Konstruktyom: Maxed at 480.
-Analyzed: A debuff. Analyed enemies are frozen for 1.5s. Bronya gains 40% Total DMG Multiplier against Analyzed / Frozen enemies.
-Exit: DEA Raison ends. Bunny reverts to Armored Bunny state.
+패시브 스킬은 자동으로 발동된다.
+구조 에너지 : 최대치 480pt
+적에게 해석 상태를 부여할 때 적은 1.5초 동안 빙결 상태가 되고 해당 적에게 가하는 모든 대미지가 40% 증가한다.
+퇴장 시 율자 모드에서 벗어나고 중장 토끼는 인간 형태로 돌아온다
 
-### 2-Pass Coding
+### 2패스 코딩
 
-Start battle with 360 more Konstruktyom.
-After level 1, the skill can only be increased when  rank.
+기본 구조 에너지 360pt 증가
 
-### Build Reboot
+### 빌드 리부트
 
-When USAGI Kinetik reverts to Armored Bunny, character gains 240 Konstruktyom.
+스테이지 위의 토끼가 모터사이클에서 인간 형태로 돌아올 때 이치의 율자는 구조 에너지를 240pt 회복한다.
 
-### Chilling Build
+### 모드 전환
 
-Charged ATKs deal 72% more Ice DMG.
-After level 6, the skill can only be increased when  rank.
+차지 공격으로 가하는 빙결 원소 대미지 72% 증가
 
-## Instant Freeze
+## 급속 제동
 
-Quickly evades enemy attacks.
-Ultimate Evasion: +120 Konstruktyom, and next ATK inflicts a 4s Analyzed debuff to the enemy.
-Instant Freeze: Ultimate Evasion generates 3s Time Fracture. CD: 15s.
+회피 버튼
+빠르게 적의 공격을 회피한다.
+극한 회피 시 자신의 구조 에너지를 120pt 회복하고
+다음 공격은 적을 4초 동안 해석 상태로 만든다.
+급속 제동 : 극한 회피 시 3초 동안 시공 단열을 발동한다.
+재사용 대기시간 : 15초
 
-### Freeze Threshold
+### 프리즈 트레쉬홀드
 
-Reduces Instant Freeze CD by 3.0s. Instant Freeze Time Fracture also inflicts a 6s Analyzed debuff to affected enemies.
+급속 제동의 재사용 대기시간이 3.0초 감소하고 급속 제동의 시공단열에 영향받은 적은 6초간 해석 상태에 진입한다.
 
-### Emergency Damper
+### 비상 댐퍼
 
-Triggering Instant Freeze also heals 400 HP. If Instant Freeze is not in CD, Instant Freeze can be manually triggered by evading within a short-time after being attacked.
+급속 제동 발동시 추가로 HP를 400pt 회복한다. 급속 제동이 재사용 대기 중이 아닐 때 피격 후 짧은 시간 안에 회피를 사용해 급속 제동을 발동할 수 있다.
 
-### QTE: Data Storm
+### QTE 데이터 스톰
 
-QTE: Triggered when an enemy is paralyzed or by Time Fracture. Deals 500% ATK of Physical DMG + 500%+300% ATK of Ice DMG, +120 Konstruktyom, and inflicts a 6s Analyzed debuff to enemies hit.
+적이 마비 혹은 시공 단열일 때 캐릭터 교체
+공격력의 500%의 물리 대미지+공격력 500%+300%의 빙결 원소 대미지를 입히고 구조 에너지를 120pt 회복한다. 그리고 적중한 적에게 6초간 해석 상태를 부여한다.
 
-## Charged: Weaponized Build
+## 무기화 빌드
 
-Perform Charged ATK during Basic ATK sequence or evasion. 
-Tap and hold [ATK] button to spend 120 Konstruktyom to turn into the DEA Raison Herrscher Form. DEA Raison: Tap [ATK] to unleash Charged ATKs.
-Armament Build: Charged ATK mode differs according to weapon type, but deals a total 660% ATK of Ice DMG.
+차지
+4연격과 회피 시 차지하여 차지 공격을 발동한다.
+차지 공격의 120pt의 구조 에너지를 소모하여 율자 형태로 진입한다. 이 기간 동안 공격 버튼을 누르면 차지 동작이 끝나기 전까지 바로 차지 공격을 발동할 수 있다.
+무기 구조 : 무기 유형에 따라 다른 차지 공격방식을 사용할 수 있으며 총 공격력 660%의 빙결 원소 대미지를 입힌다.
 
-### Speed Decypher
+### 데이터 질주
 
-DEA Raison active: ATKs gain 30.0% Total DMG Multiplier, and another 40% Total DMG Multiplier to PSY-type enemies.
+율자 형태 : 적에게 가하는 모든 대미지가 30% 증가 하고 이능 속성의 적에게 가하는 모든 데미지가 추가로 40% 증가한다.
 
-### Firewall
+### 방화벽
 
-DEA Raison active: Gains 50.0% Total DMG Reduction
+율자 형태 : 받는 모든 데미지가 50% 감소한다.
 
-### Stream Transfer
+### 스트림 트랜스퍼
 
-DEA Raison active: When not riding, each Charged ATK performed gives 5.0 SP and a 15.0% Ice DMG buff. Max DMG buff stacks: 3.
+율자 형태 : 라이드 모드가 아닐 때 차지 공격할 때마다 SP를 5.0pt 회복하고 빙결 원소 대미지가 15.0% 증가한다. 대미지 증가 최대 중첩 횟수 : 3회
 
-## Cyberangel.cfg
+## 사이버 엔젤.cfg
 
-Burst transform of Project Bunny
-Gains 480 Konstruktyom and deals 5x450% + 800% ATK of Ice DMG, then ride USAGI Kinetik as DEA Raison. Max duration: 17s.
-USAGI Kinetik: Gains 40 Konstruktyom per second. While moving, creates a Hover Gun per 0.6s that deals 4x65% ATK of Ice DMG.
-Tap [ATK]: Uses 240 Konstruktyom to perform Charged ATK and deal 2x250% + 2x300% ATK of Ice DMG and inflicts a 4s Analyzed debuff.
-Tap [Evade]: Enemies hit by evasion move take up to 4x10% ATK of Ice DMG and receive an Analyzed debuff for 4s.
-CD: 30s. SP cost: 125
+SP 125
+중장 토끼가 변신하여 폭발 상태에 진입한다.
+구조 에너지를 480pt 회복하고 적에게 공격력 5*450%+800%의 빙결 원소 대미지를 입히고 라이드 모드에 진입하고 율자 형태가 된다. 최대 지속시간 : 17초.
+라이드 모드 : 초당 40pt의 구조 에너지를 회복한다. 이동 시 0.6초마다 호버 레이저포를 고조하여 적에게 공격력 4*65%의 빙결 원소 대미지를 입힌다.
+공격 버튼 : 구조 에너지 240pt 소모, 바로 차지 공격 발동 시 적에게 공격력 2*250%+2*300%의 빙결 원소 대미지를 입히고 4초 동안 해석 상태를 부여한다.
+회피 버튼 : 회피하는 동안 적중한 적에게 최대로 공격력 4\*10%의 빙결 원소 대미지를 입히고 4초 동안 해석 상태를 부여한다.
+재사용 대기시간 : 30초.
 
-### Fast Decryption
+### 빠른 디크립션
 
-USAGI Kinetik: Charged ATKs gain a 20.0% All Elemental Breach buff.
+라이드 모드 : 차지 공격 시 20.0%의 모든 원소관통을 획득한다.
 
-### Underclock
+### 언더클럭
 
-USAGI Kinetik: Takes 30.0% less Indirect DMG.
+라이드 모드 : 받는 간접 피해량 30.0% 감소
 
 ### Rebuild.exe
 
-USAGI Kinetik: At below 50% HP, heal 40.0 HP per 0.5s. At below 25%, heal another 60.0 HP per 0.5s.
+라이드 모드 : HP가 50% 미만일 때 0.5초마다 40.0pt의 체력을 회복하고 HP가 25% 미만일 때 60 물리 대미지를 추가로 입힌다.
 
-## Zeroth Drive
+## 제로 드라이브
 
-4-sequence attack.
-1st Sequence: 100% ATK of Physical DMG + 80% ATK of Ice DMG.
-2nd Sequence: 100% ATK of Physical DMG + 100% ATK of Ice DMG +25 Konstruktyom.
-3rd Sequence: 150%+150% ATK of Physical DMG + 2x100% ATK of Ice DMG +25 Konstruktyom.
-4th Sequence: Drills deal 8x40%+200 ATK of Ice DMG. +9x25 Konstruktyom. Pulls in nearby enemies.
+4연격
+제1격 : 공격력 100%의 물리 대미지 + 공격력 80%의 빙결 대미지
+제2격 : 공격력 100%의 물리 대미지+ 공격력 100%의 빙결 원소 대미지,
+구조 에너지 25pt 회복
+제3격 : 150%+공격력 150%의 물리 대미지 + 공격력 2*100%의 빙결 원소 대미지,
+구조 에너지 25pt 회복
+제 4격 : 드릴을 만들어내 공격력 8*40%+200%의 빙결 원소 대미지를 입히고
+9\*25pt의 구조 에너지를 회복하며 작은 범위의 적을 끌어당긴다.
 
-### Cracked Construct
+### 구조 분석
 
-Shockwave after the Drill ATK inflicts a 6.0s Analyzed debuff to enemies hit.
+드릴 공격이 끝난 후의 임팩트는 피격된 적에게 6.00초 동안 해석 상태를 부여한다.
 
-### Power Link
+### 파워 링크
 
-If Drill ATK hits, then gain 0.50 SP.
+드릴 공격이 적을 명중할 때마다 SP를 0.50pt 회복한다.
 
-### Stop Array
+### 스톱 어레이
 
-When performing Drill ATK, become immune to front-side and flank ATKs. Back-side ATKs also suffer 30.0% Total DMG Reduction.
+드릴 공격 중 정면과 측면은 공격에 면역되고 후방에서 받는 모든 대미지가 30% 감소한다.

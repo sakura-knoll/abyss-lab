@@ -1,96 +1,99 @@
-# Valkyrie Pledge
+# 발키리·서약(작업중)
 
-## Our Pledge
+## 우리의 서약
 
-Leader Bonus:
-Our Pledge: Shortens duration of most debuffs by 25% for the team. PSY-type characters gain 15% Elemental DMG.
+리더로 배치 시 파티원이 버프를 받는다.
+디버프의 지속시간 40% 감소. 이능 속성 발키리의 원소피해 24%증가
 
-### Our Pledge
+### 우리의 서약
 
-Shortens debuff durations by 40% for the team. PSY-type characters gain 24% Elemental DMG.
+디버프의 지속시간 40% 감소. 이능 속성 발키리의 원소피해 24%증가
 
-## Passive
+## 패시브 스킬
 
-Passive bonuses apply automatically.
+패시브 스킬은 자동으로 발동한다.
 
-### World's #1 Cutie
+### 세상에서 제일 귀여워!
 
-Gain 30.0 initial SP in battle. This bonus triggers once every 10 minutes in Open World.
+전투 중 초기 SP 30.0 증가. 오픈 월드에서는 10분에 한 번씩 발동 가능.
 
-### I'm Mad
+### 진지하게 간다!
 
-After deploying the cross, character gains 50.0% Attack Speed.
+십자가를 전개하고 있는 동안, 자신의 공격 속도 50.0% 증가.
 
-### Lightning Strike
+### 뇌정 파격
 
-When Combo Hit Count exceeds 50, each hit of the next charged attack deals Combo Hit Count (max: 126) x 56 Lightning DMG and knocks down the enemy. Combo Hit Counts reset to zero at the end of the effect.
+콤보 수 50 이상
+다음 차지 공격의 매 타격마다 콤보 수\*56의 뇌전 원소 대미지를 추가로 입히고 적을 다운시키며 콤보를 초기화한다. 최대 적용 콤보 수 126 콤보.
 
-## Time Refuge
+## 시공의 가호
 
-Quick sideways dodge to evade enemy attack. Can be triggered 2 times in a row.
-After Ultimate Evasion, gain 40% Move Speed for 3s.
-Time Fracture: Triggers Time Fracture upon an Ultimate Evasion, slowing all enemies for 3s. CD: 15s.
+적의 공격 회피
+2번 연속 사용 가능. 극한 회피 후 3초 동안 이동 속도 40% 증가.
+시공 단열：3초 동안 전체 시공 단열을 발동해 모든 적의 행동이 느려지게 한다. 쿨타임 15초.
 
-### Refuge Enhance
+### 강화의 가호
 
-Increases the duration of Time Fracture by 2.50s.
+시공 단열 지속 시간 2.5초 증가.
 
-### Time Bender
+### 시공의 반짝임
 
-Shortens CD of Ultimate Evasion by 4.00s.
+극한 회피 재사용 대기시간 4.00초 감소.
 
-### Grace
+### 신의 은총
 
-After Time Fracture is triggered upon Ultimate Evasion, next deployed cross gains 20.0% Total DMG Multiplier.
+극한 회피로 발동된 시공 단열에서 처음 전개된 십자가의 모든 대미지 45.0% 증가.
 
-## Charge: Piercing Spear
+## 세인트 피어싱
 
-Charge during the 4-sequence Basic ATK to launch a piercing attack.
-Piercing Spear: Charge by holding the [ATK] button during the 4-sequence Basic ATK.
-Reaches full charge in a short time, then release the [ATK] button to deal 3x135% ATK of Physical DMG.
+공격 버튼을 꾸욱 눌러 발동
+짧은 시간 내에 차지를 완료한 뒤 즉시 사용하여 공격력의 3\*135% 물리 대미지를 입힌다. 기본 공격 4타 도중 공격 버튼 입력을 유지하여 차지 할 수 있다.
 
-### Charged Thrust
+### 차지 관통
 
-Each strike of Piercing Spear has a 13.4% chance to deal an additional 225% Lightning DMG and paralyze enemies for 2s.
+차지 공격이 명중하면 13.4%의 확률로 적에게 공격력의 240% 뇌전 원소 대미지를 추가로 입히고 2초간 마비 상태로 만든다.
 
-### Switch: Holy Lance
+### 교대기 성스러운 창
 
-Switch: Immediately unleash Piercing Spear, dealing 3x211% ATK of Physical DMG.
+캐릭터 교체
+세인트 피어싱을 발동하여 적에게 공격력의 211%\*3 물리 대미지를 입힌다.
 
-### QTE: Triple Spears
+### QTE 삼연속 성스러운 창
 
-QTE: Triggered when an enemy is frozen: Unleashes 3 Piercing Spears in succession, each Spear dealing 3x190% ATK of Physical DMG.
+적이 빙결 상태일 때 캐릭터 교체
+순서대로 3자루의 세인트 피어싱을 날려 매 타격마다 공격력의 190%\*3 물리 대미지를 입힌다.
 
-## Spearsss
+## 성뢰 투창
 
-Throws a spear into the air that transforms into a rain of holy javelins.
-Spearsss: Deals total Physical DMG equal to 25x75% of ATK.
-SP Cost: 75
+SP 75 이상
+공중에 던진 영체로 된 빛의 창이 빛의 비가 되어 적을 향해 쏟아진다. 최대 25\*75%의 물리 대미지를 입힌다.
 
-### Debilitating Thunder
+### 침식의 번개
 
-Each strike of the Ultimate has a 18.01% chance to impair the target, lowering its Ignore Interrupt and reducing its DEF by 80.0% for 3.5s.
+필살기의 각 공격이 명중할 시 18.01%의 확률로 적에게 쇠약을 걸어 경직 저항력을 감소시키고 80.0% 방어력 감소시킨다. 3.5초간 지속.
 
-### Thunderous Judgment
+### 심판의 번개
 
-Each hit from the Ultimate additionally deals 40.0% ATK of Lightning DMG.
+필살기의 각 공격이 명중할 시 40.0% 뇌전 원소 대미지를 입힌다.
 
-## Spear of Brionac
+## 신성한 창
 
-Basic ATK: Mid-range 4-sequence attack using ethereal light lances.
-1st Sequence: 3x30% ATK of Physical DMG.
-2nd Sequence: 3x30% ATK of Physical DMG.
-3rd Sequence: 4x45% ATK of Physical DMG.
-4th Sequence: 3x75% ATK of Physical DMG against enemies within a large AOE.
+영체로 된 빛의 창으로 중거리 4연격
+1단：공격력의 30%*3 물리 대미지
+2단：공격력의 30%*3 물리 대미지
+3단：공격력의 45%*4 물리 대미지
+4단：넓은 범위에 공격력의 75%*3 물리 대미지
 
-### Thunder Spear
+### 번개의 창
 
-Basic ATKs (including Charged ATKs) have a 8.0% chance to strike enemies with Cross Light Spears, dealing 2,400 Lightning DMG. CD: 3s.
+기본 공격(차지 공격 포함) 적중
+8.0%의 확률로 교차되는 빛의 창으로 적을 꿰뚫어 2,400의 뇌전 원소 대미지를 입힌다. 쿨타임 3초.
 
-### Spear of Imprisonment
+### 속박의 창
 
-Cross Light Spear immobilizes the enemy for 3.00s.
+교차되는 빛의 창은 적을 3.00초 동안 속박 상태로 만든다.
 
-### Blessing of Taranis
+### 번개의 축복
 
-When Combo Hit Count exceeds 30, each Basic ATK hit additionally deals 30.0% ATK of Lightning DMG.
+30콤보 이상
+기본 공격의 각 공격마다 공격력의 30% 뇌전 원소 대미지를 입힌다.
