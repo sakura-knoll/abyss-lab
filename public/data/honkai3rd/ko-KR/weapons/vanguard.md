@@ -1,5 +1,5 @@
-# Vanguard
+# 초중량 검·어썰트
 
-## Valkyrie Impact
+## 발키리 임펄스
 
-[SP 소모: 3][재사용 대기 시간: 8초] Unleash a downward cleave that generates a ground-shattering wave, knocking enemies along the path airborne and dealing 450% ATK of Physical DMG.
+[SP 소모: 3][재사용 대기 시간: 8초] 바닥을 쳐서 충격파를 방출하여 경로상의 적을 띄우고 공격력 450%의 물리 대미지를 입힌다.

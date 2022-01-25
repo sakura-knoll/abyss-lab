@@ -1,9 +1,1 @@
-# Energy Greatsword
-
-## Obtained From
-
-Focused Supply
-
-## Added During
-
-Version Unknown
+# 에너지·클레이모어

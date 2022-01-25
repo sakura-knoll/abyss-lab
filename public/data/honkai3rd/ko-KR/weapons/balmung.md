@@ -1,9 +1,9 @@
-# Balmung
+# 발뭉
 
-## Ultra Slash - Haze
+## 극의참·롱
 
-Attacks unleash an Ultra Slash against enemies to the front, dealing 80% ATK of Physical DMG. 15% chance of unleashing Enhanced Ultra Slash, dealing 160% ATK of Physical DMG. Enhanced Ultra Slash has a 0.8s CD.
+적 공격 시 전방으로 극의참을 날려, 공격력의 80% 물리 대미지를 입힌다. 15% 확률로 강화된 극의참이 발동되며 공격력의 160% 물리 대미지를 입힌다. 극의참은 최소 0.8초가 경과해야 다시 발동된다.
 
-## Ultra Slash - Break
+## 극의참·파
 
-[SP 소모: 20][재사용 대기 시간: 25초] Character gains 25.0% Physical DMG. All Ultra Slashes are transformed into Enhanced Ultra Slashes for 8s.
+[SP 소모: 20][재사용 대기 시간: 25초] 8초 동안 캐릭터의 물리 대미지가 25.0% 증가하며 모든 극의참이 강화 극의참으로 변한다.

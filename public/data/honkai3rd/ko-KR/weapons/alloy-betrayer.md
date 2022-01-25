@@ -1,5 +1,5 @@
-# Alloy Betrayer
+# 합금·배반자 대검
 
-## Alloy Treason
+## 합금·배반자의 참격
 
-[SP 소모: 12][재사용 대기 시간: 10초] Launches 6 homing missiles in rapid succession, each dealing 199% ATK of Physical DMG to the target and nearby enemies in a small AOE.
+[SP 소모: 12][재사용 대기 시간: 10초] 6개의 추적 미사일을 연속 발사하여 목표 범위 내의 적에게 각각 공격력의 202% 물리 대미지를 입힌다.

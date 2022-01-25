@@ -1,9 +1,9 @@
-# Sleeping Beauty
+# 잠자는 숲속의 미녀
 
-## Living Edge
+## 액티베이션 블레이드
 
-[SP 소모: 12][재사용 대기 시간: 25초] Wielder gains 20.0% Crit Rate and 50.0% Crit DMG for 10s. If wielder is below 50% HP, then heal 20.0 HP per 0.5s.
+[SP 소모: 12][재사용 대기 시간: 25초] 캐릭터의 경직 저항력과 크리티컬률 20.0%, 크리티컬 대미지 50.0%가 증가한다. 지속 시간: 10초. 지속 시간 동안 캐릭터의 HP가 최대 생명력의 50% 아래로 떨어지면 0.5초마다 20.0의 HP를 회복한다.
 
-## Thorny Briar
+## 생물 가시
 
-Charged ATK deals another 120% ATK of Physical DMG on enemies. This effect triggers once every 1s. Wielder gains Ignore Interrupt and 30.0% DEF.
+차지 공격은 적에게 추가로 공격력 120%의 물리 대미지를 입힌다. 효과는 적마다 1초에 1번 발동한다. 캐릭터의 경직 저항력이 증가하고 방어력이 30.0% 증가한다.

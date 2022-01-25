@@ -1,18 +1,18 @@
-# Shuhadaku of Uriel
+# 영원한 불꽃의 겁멸
 
-## Ravaging Flame
+## 영원한 불꽃
 
-[SP 소모: 0][재사용 대기 시간: 25초] A mighty slash dealing 100% + 900%/1600%/2500% ATK of Fire DMG at 0/1/2 charge(s) respectively and igniting enemies to further deal 50 Fire DMG per 0.5s for 3/5/9 seconds at 0/1/2 charge(s) respectively. Wield loses 8% of current HP per second for 5s after casting weapon active (will not cause death). Weapon active unusable below 10% HP. Weapon has 1 initial charge and gains 1 charge when at least 25 SP is consumed in one action.
-When cast at 2 charges, weapon active can be cast again in 2s to deal 2400.0% ATK of Fire DMG. For 45s after, wielder deals 80% less Total DMG, loses 20 SP per second, and cannot use weapon active again.
+[SP 소모: 0][재사용 대기 시간: 25초] 무기를 휘둘러 적을 공격한다. 현재 충전 수치가 0/1/2일 때, 각각 100% + 900%/1600%/2500% 공격력의 화염 원소 대미지를 입히고 적을 연소 상태로 만들어 0.5초마다 50의 화염 원소 대미지를 입힌다. 충전 수치가 0/1/2 일때 각각 3/5/9초 지속된다. 무기 스킬을 발동하면 5초 동안 초당 현재 HP의 8%를 소모하며(이로 인해 사망하진 않는다), HP가 10% 이하로 떨어지면 무기 액티브 스킬을 발동할 수 없다. 첫 충전 pt는 1이고 SP를 한 번에 25pt 이상 소모할 때 1pt 충전된다.
+사용 시 충전 pt가 2이면, 2초 내에 무기 버튼을 다시 눌러 적에게 2400.0% 공격력의 화염 원소 대미지를 입힐 수 있다. 이후 캐릭터가 가하는 모든 대미지가 80% 감소하고 초당 20pt의 SP가 감소되며 2단 무기 스킬을 발동할 수 없다. 지속 시간: 45초
 
-## Solar Flare
+## 홍염
 
-Wielder deals 35.0% bonus Total DMG. Weapon active inflicts 23.0% Fire DMG Vulnerability on enemies for 10s. Wielder has 30.0 bonus initial SP, but this effect does not work in Open World.
+캐릭터의 모든 대미지가 35.0% 증가하고 무기 액티브 스킬 사용 후 적에게 23.0%의 화염 원소 대미지 취약 효과를 부여한다. 지속 시간 10초. 전투에서 초기 SP가 30.0 증가한다. 해당 효과는 오픈월드에서 발동하지 않는다.
 
-## Stellar Crown
+## 성황
 
-After weapon active, wielder takes 30.0% less Total DMG and deals 50.0% ATK of Fire DMG per second to enemies nearby for 15s. Casting weapon active twice in succession will remove this effect.
+무기 스킬 사용 후, 캐릭터가 받는 모든 대미지가 30.0% 감소한다. 15초 동안 주변의 적에게 공격력 50.0%의 화염 원소 대미지를 입힌다. 2단 무기 스킬을 사용하면 해당 효과를 취소할 수 있다.
 
-## Key of Destruction
+## 파괴의 열쇠
 
-In co-op raids, team deals 18.0% bonus Total DMG and restores 7.0% HP per second for 5.1s whenever a weapon skill is cast.
+멀티 Raid 스테이지 중, 발키리가 무기 스킬 사용 후 모든 파티원이 가하는 모든 대미지가 18.0% 증가하고 5.1초 동안 자신의 HP가 초당 7.0%씩 회복한다.

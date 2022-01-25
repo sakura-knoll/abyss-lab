@@ -1,9 +1,9 @@
-# Godslayer - Surtr
+# 신운검·수르트
 
-## Aesirs' Bane
+## 몰락하는 신의 정원
 
-When Burst ATKs hit the enemy, character gains 5% Total DMG Multiplier for 10.0s. Effects trigger 1 time every 1s. Stacks up to 4 times. Triggering this again resets the duration.
+필살기와 폭발 상태 공격이 적에게 명중 시 10.0초 동안 캐릭터가 가하는 모든 대미지가 5% 증가한다. 해당 효과는 1초에 한 번 씩 발동하고 최대 4회 중첩된다. 중복 발동 시 지속 시간 초기화.
 
-## The Burnt One
+## 태워진 자
 
-Character gains 15% SP recovery, 15% faster Attack Speed, and 25% Total DMG Multiplier.
+캐릭터의 SP 회복 속도가 15%, 공격 속도가 15%, 모든 대미지가 25% 증가한다.

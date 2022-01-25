@@ -1,5 +1,5 @@
-# Hybrid Type-27
+# 하이브리드 대검 27식
 
-## Shoryu Cleave
+## 승룡참
 
-[SP 소모: 12][재사용 대기 시간: 10초] Knocks enemy in front of character airborne, dealing 350% ATK of Physical DMG.
+[SP 소모: 12][재사용 대기 시간: 10초] 전방의 적을 공중에 띄우고, 공격력의 350% 물리 대미지를 입힌다.

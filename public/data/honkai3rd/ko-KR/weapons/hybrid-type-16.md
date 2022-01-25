@@ -1,5 +1,5 @@
-# Hybrid Type-16
+# 하이브리드 대검 16식
 
-## Suppression
+## 억제
 
-Attacks against paralyzed, stunned, and Time Slowed enemies gain 20% Total DMG Multiplier.
+기절, 마비, 시공 감속 상태의 적에게 가하는 모든 대미지 20% 증가한다.

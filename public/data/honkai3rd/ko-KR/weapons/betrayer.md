@@ -1,9 +1,9 @@
-# Betrayer
+# 배반자 대검
 
-## Treason
+## 배반자의 참격
 
-[SP 소모: 18][재사용 대기 시간: 12초] Launches 6 homing missiles in a row, each dealing 200% ATK of Physical DMG to the target an nearby enemies in a small AOE. Hit enemies are stunned for 2.50s.
+[SP 소모: 18][재사용 대기 시간: 12초] 6개의 추적 미사일을 연속 발사하여 목표 작은 범위 내의 적에게 각각 공격력의 200% 물리 대미지를 입히고 2.53초 동안 기절 상태로 만든다.
 
-## Betrayer's Counter
+## 배반자의 반격
 
-When attacked, gain a 50% chance of dealing 160% ATK of Physical DMG.
+피격시 49% 확률로 타깃에게 공격력의 157% 물리 대미지를 입힌다.

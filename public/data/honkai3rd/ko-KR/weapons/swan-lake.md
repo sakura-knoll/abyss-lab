@@ -1,9 +1,9 @@
-# Swan Lake
+# 백조의 호수
 
-## Austenite Blade
+## 오스테나이트 블레이드
 
-[SP 소모: 18][재사용 대기 시간: 30초] Triggers 2 explosions that deal 50% + 300% + 500% ATK of Physical DMG. The 2nd explosion impairs the enemy (DEF lowered by 50%) for 8.0s. Can hold 2 charges. Performing Retaliation EX gives the Blueberry Blitz 1 charge. The next use of Austenite Blade gives 9 SP in return.
+[SP 소모: 18][재사용 대기 시간: 30초] 전방에 2번의 폭발을 이르켜 공격력 50% + 300% + 500%의 물리 대미지를 입힌다. 2번째 폭발은 적에게 취약 효과를 부여해 방어력을 50% 감소시킨다. 지속 시간: 8.0초, 2회 충전 가능. 블루 베리 특공이 강력한 돌진 베기를 사용 시 바로 1회 충전되고, 그다음 오스테나이트 블레이드를 사용하면 SP가 9pt 반환된다.
 
-## Odette's Apotheosis
+## 간파 강화
 
-When Ultimate hits, wielder gains 40.0% Physical DMG and 40.0% Crit DMG for 9.0s.
+필살기 명중 시 캐릭터의 물리 대미지가 40.0%, 크리티컬 대미지가 40.0% 증가한다. 지속 시간: 9.0초.

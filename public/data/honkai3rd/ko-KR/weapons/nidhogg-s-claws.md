@@ -1,9 +1,9 @@
-# Nidhogg's Claws
+# 니그호그의 날개 발톱
 
-## Deadly Bite
+## 데스 바이트
 
-[SP 소모: 25][재사용 대기 시간: 12초] Brutal chainsaw attack that deals 24x32% ATK of Physical DMG to enemies within range. Pulls back the weapon in the end to knock nearby enemies back, dealing 325% ATK of Physical DMG. Character also gains invincibility during the attack sequence.
+[SP 소모: 25][재사용 대기 시간: 12초] 전기톱으로 적을 찔러 범위 내 적에게 공격력의 24x32% 물리 대미지를 입히고, 마지막에 무기를 뽑아 주변 적을 넉백시켜 공격력의 325% 물리 대미지를 입힌다; 대미지를 입히는 동안 자신은 무적 상태가 된다.
 
-## Deadly Rend
+## 죽음을 가르다
 
-Attacks have a 10.0% chance of bleeding the enemy, dealing 152 Physical DMG every 0.5s for 3s.
+공격 시 10.0% 확률로 타깃을 출혈 상태로 만들어 3초 동안 0.5초마다 152의 물리 대미지를 입힌다.

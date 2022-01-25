@@ -1,9 +1,9 @@
-# Dark Xuanyuan Sword
+# 흑헌원검
 
-## Dark Will
+## 디스트로이 임팩트
 
-[SP 소모: 22][재사용 대기 시간: 25초] Gain 35% Physical DMG for the next 8s. The first kill in this duration triggers Time Fracture for 8s and extends the duration of the Physical DMG bonus to the end of the Time Fracture.
+[SP 소모: 22][재사용 대기 시간: 25초] 8초 동안 물리 대미지가 35% 증가하며 효과 지속 시간 내에 첫 번째 적을 쓰러뜨리면 8초 동안 전체 시공 단열을 발동시키고 물리 대미지 증가 효과를 시공 단열이 끝날 때까지 유지한다.
 
-## Time Shatterer
+## 시공참
 
-When attacks hit, trigger global Time Fracture for 4.5s. Effect can be triggered once every 60s.
+공격 적중 시 4.5초 동안 유지되는 전체 시공 단열을 발동한다, 재사용 대기시간 60초.

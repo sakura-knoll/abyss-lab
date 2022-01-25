@@ -1,14 +1,14 @@
-# Xuanyuan Sword
+# 헌원검
 
-## Elements Drive
+## 원소 폭발
 
-[SP 소모: 9][재사용 대기 시간: 12초] Continually discharges lightning, fire, and ice elements, each dealing 240% Physical DMG plus 240% of the corresponding Elemental DMG. Each corresponding Elemental DMG can either paralyze, ignite, or freeze enemies. The skill can be charged 3 times.
-For a period after using the active skill (lightning: 4s, Fire: 7s, Ice: 10s), all enemies in the battlefield take 100% ATK of Elemental DMG from lightning, meteors, or hailstones every 1s.
+[SP 소모: 9][재사용 대기 시간: 12초] 연속 사용 시 뇌전, 화염과 빙결 원소를 순서대로 방출한다. 각 공격마다 적에게 공격력의 240% 물리 대미지+240% 상응하는 원소 대미지를 가하고 적을 마비, 연소 혹은 빙결시킨다; 최대 3회 충전가능;
+액티브 스킬 사용 후 일정 기간 내에(뇌전,화염,빙결 속성 각각 4초,7초,10초), 캐릭터 주변 일정 범위 내에 있는 적은 1초마다 낙뢰, 운석과 우박의 공격을 받아 캐릭터 공격력의 100% 원소 대미지를 입는다.
 
-## Sword Defence
+## 헌원의 수호
 
-Charged ATK gains 20% Total DMG Multiplier. When attacked or after Ultimate Evasion, launch 2 penetrating ethereal Xuanyuan swords towards the enemy target, knocking all enemies airborne along the way and dealing 200% ATK of Physical DMG to enemies hit. CD: 10s.
+차지 공격의 모든 대미지가 25% 증가한다. 피격 혹은 극한 회피 후 타깃에게 영체로 된 두개의 헌원검을 발사하여 경로상의 적을 관통 후 띄워서 200% 물리 대미지를 입힌다, 재사용 대기시간 10초.
 
-## Key of Domination
+## 지배의 열쇠
 
-In co-op raids, team gains 20.0% All Elemental DMG and takes 15.0% All Elemental DMG Reduction for 6.0s whenever a character uses a weapon skill.
+멀티 Raid 스테이지 중, 발키리가 무기 스킬 사용 후, 6.0초 동안 모든 파티원이 가하는 원소 대미지가 20.0% 증가하고 받는 모든 원소 대미지가 15.0% 감소한다.

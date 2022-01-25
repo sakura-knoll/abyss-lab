@@ -1,9 +1,9 @@
-# Sunfire
+# 플레어 대검
 
-## Sunfire Impact
+## 플레어 임팩트
 
-[SP 소모: 20][재사용 대기 시간: 12초] Leaps up and lands on the target to knock surrounding enemies airborne. Deals 2,890 Fire DMG and ignites enemies to further deal 308 Fire DMG every 0.5s for 6s.
+[SP 소모: 20][재사용 대기 시간: 12초] 목표 지점으로 뛰어들어 주변 적을 띄우고 2,890의 화염 대미지를 입힌 뒤 6초 동안 연소 상태로 만들어 0.5초마다 308의 화염 원소 대미지를 입힌다.
 
-## Sunfire Knight
+## 플레어 나이트
 
-Gain 30% Fire DMG.
+화염 원소 대미지 30% 증가.

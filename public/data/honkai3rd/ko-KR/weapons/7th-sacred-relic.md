@@ -1,9 +1,9 @@
-# 7th Sacred Relic
+# 7th 성유물
 
-## Crosscut Storm
+## 십자 폭풍
 
-[SP 소모: 0][재사용 대기 시간: 24초] Unleashes 2 successive blade waves, dealing up to 8x25% ATK of Physical DMG to enemies in their paths. The blade waves explode when they cross, dealing 350% ATK of Physical DMG and stunning enemies for 6.00s.
+[SP 소모: 0][재사용 대기 시간: 24초] 검기를 2회 연속 방출하여 경로상의 적에게 최대로 공격력의 8x25% 물리 대미지를 입힌다. 검기가 십자로 교차하면 폭발하여 적에게 공격력의 350% 물리 대미지를 입히고 6.00초 동안 기절 상태로 만든다.
 
-## Sacred Rule
+## 세인트 슬래시
 
-After hitting a stunned enemy gain 50.0% Attack Speed and 25.0% Crit Rate for 4s. Trigger CD: 7s.
+기절 상태의 적 공격 시 4초 동안 공격 속도가 50.0%증가하고 크리티컬률이 25.0% 증가한다. 재사용 대기시간 8.0초.

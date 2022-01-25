@@ -1,5 +1,5 @@
-# King Cobra
+# 초중량 검·이무기
 
-## Royal Serpent
+## 이무기
 
-Character gains 20 initial SP when entering battle.
+캐릭터의 전투 중 초기 SP 20 증가.

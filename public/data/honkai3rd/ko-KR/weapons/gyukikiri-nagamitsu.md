@@ -1,9 +1,9 @@
-# Gyukikiri Nagamitsu
+# 우귀절·나가미츠
 
-## Kageryuu Blade Art
+## 음류 도검술
 
-Starts charging energy when sprinting. When the duration of the sprint reaches 0.5s, 1.5s, and 3s, the following Sprint Attack generates an explosion centered on the first enemy hit, dealing 400%, 600%, and 800% ATK of Physical DMG respectively.
+돌진하며 에너지를 축적한다, 돌진 지속 시간이 0.5초/1.5초/3초를 채우면 첫 번쨰로 대시 공격에 맞은 적을 중심으로 폭발이 발생하여 공격력이 400%/600%/800% 물리 대미지를 입힌다.
 
-## Sharp Edge
+## 예리한 칼날
 
-When Combo Hit Count is 5 or less, gain 32.0% Physical DMG.
+5 콤보 이하일 때, 물리 대미지 32.0% 증가.
