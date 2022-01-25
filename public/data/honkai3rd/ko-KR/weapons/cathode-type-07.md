@@ -1,9 +1,9 @@
-# Cathode Type-07
+# 음극자포 07식
 
-## Laser
+## 레이저
 
-Rapid-fire weapon that deals continuous DMG to targets along a straight line of fire. Continuous firing will overheat the weapon. Closer enemies take more DMG (maxes at 10-meter range or less).
+레이저 무기, 직선 방향의 목표에게 지속 대미지를 가하고, 일정 시간이 지나면 오버히트 상태가 된다. 타깃이 가까울수록 대미지가 증가하고 10m 이내의 적에게 최대 대미지를 가한다.
 
-## Frost Trail
+## 서릿발 궤적
 
-[SP 소모: 7][재사용 대기 시간: 20초] Surrounding enemies suffer 65% slower Move Speed and Attack Speed for 8s.
+[SP 소모: 7][재사용 대기 시간: 20초] 8초 동안 자신 주변 적의 이동 속도와 공격 속도를 80% 감소시킨다.
