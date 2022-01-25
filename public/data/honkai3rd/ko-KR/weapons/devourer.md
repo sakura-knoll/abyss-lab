@@ -1,9 +1,9 @@
-# Devourer
+# 잠식의 캐넌
 
-## Laser
+## 레이저
 
-Rapid-fire weapon that deals continuous DMG to targets along a straight line of fire. Continuous firing will overheat the weapon. Closer enemies will take more DMG, with DMG maximized at a range within 3 meters.
+레이저 무기, 직선 방향의 목표에게 지속 대미지를 가하고, 일정 시간이 지나면 오버히트 상태가 된다. 타깃이 가까울수록 대미지가 증가하고 10m 이내의 적에게 최대 대미지를 가한다.
 
-## Devouring Impact
+## 잠식 쇼크
 
-[SP 소모: 25][재사용 대기 시간: 20초] Slams the ground with robot arms to unleash a psychic impact wave that generates multiple explosions. Each explosion deals 214 Fire DMG and ignites enemies, dealing 134 Fire DMG every 0.5s for 4s. Provides a temporary Move Speed boost after using the skill.
+[SP 소모: 25][재사용 대기 시간: 20초] 기계 팔로 지면을 내리쳐 다단 이능 충격파로 적을 넉백시키고 폭발 후 타격마다 207의 화염 원소 대미지를 입힌다. 그리고 적을 4초 동안 연소 상태로 만들어 0.5초마다 130의 화염 원소 대미지를 입힌다. 스킬 발동 후 1.5초 동안 이동 속도가 70% 증가한다.
