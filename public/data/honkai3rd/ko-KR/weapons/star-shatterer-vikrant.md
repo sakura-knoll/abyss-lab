@@ -1,9 +1,9 @@
-# Star Shatterer - Vikrant
+# 별 파쇄자·비크란트
 
-## Gravity Plus: Rapid Fire
+## 중력 증폭·속사 무기
 
-Rapid-fire weapon that deals continuous DMG to targets along a straight line of fire. Continuous firing will overheat the weapon. Closer enemies take more DMG. DMG is maximized at a range within 3 meters. Wielder gains 15.0% Max HP during battle. Entire team gains 15% Total DMG Multiplier when attacking weakened enemies.
+레이저 무기. 직선 방향의 목표에게 지속 대미지를 가하고, 일정 시간이 지나면 오버히트 상태가 된다. 타깃이 가까울수록 대미지가 증가하고 10m 이내의 적에게 최대 대미지를 가한다. 캐릭터의 전투 중 최대 HP가 15.0% 증가하고, 파티원이 허약 상태의 적에게 가하는 모든 대미지가 15% 증가한다.
 
-## Distortion Field
+## 왜곡 역장
 
-[SP 소모: 21][재사용 대기 시간: 30초] Generate a field lasting 7s that inflicts upon enemies 50.0% Move Slow, 150% ATK of Physical DMG per second, and slowly drags them towards the center of the field. If not weakened, the enemy also suffers Weaken (ATK is reduced by 10%) for 3s.
+[SP 소모: 21][재사용 대기 시간: 30초] 7초 동안 적의 이동 속도를 50.0% 감소시키는 역장을 만들어내고 초당 공격력 150%의 물리 피해를 입히며 천천히 역장 중심으로 끌어당긴다. 만약 적이 허약 상태가 아니라면 3초간 허약 상태에 빠져 공격력이 10% 감소한다.
