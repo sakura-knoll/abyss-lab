@@ -1,9 +1,9 @@
-# Quantum Destroyer Type-II
+# 양자 파괴자 II형
 
-## Quantum Beam
+## 양자 레이저
 
-Rapid-fire weapon that deals continuous DMG to targets along a straight line of fire. Continuous firing will overheat the weapon. Closer enemies take more DMG. DMG is maximized at a range within 3 meters. Attacks against enemies affected by Time Slow gain 35% Physical DMG.
+레이저 무기. 직선 방향의 목표에게 지속 대미지를 가하고, 일정 시간이 지나면 오버히트 상태가 된다. 타깃이 가까울수록 대미지가 증가하고 10m 이내의 적에게 최대 대미지를 가한다. 시공 감속된 적에게 가하는 물리 대미지가 35% 증가한다.
 
-## Frozen Dimension
+## 극저온 차원
 
-[SP 소모: 20][재사용 대기 시간: 20초] Creates a black hole to draw enemies in and then teleports backwards. Creates a Slowing Field that lasts 6s. Enemies inside the field suffer 60% slower Move Speed and takes 188 Ice DMG every 0.6s. This Slowing Field lasts 6s.
+[SP 소모: 20][재사용 대기 시간: 20초] 후방으로 순간 이동하고 원래 있던 자리에 짧은 시간 동안 블랙홀을 열어 적을 끌어당기는 동시에 6초 동안 감속 역장을 생성한다. 역장 내에 있는 적은 이동 속도가 60% 감소하고, 0.6초마다 188의 빙결 원소 대미지를 입는다.
