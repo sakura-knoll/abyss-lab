@@ -1,12 +1,9 @@
-# Proto Pulse Cannon
+# 프로토 펄스 캐넌
 
 ## Cannon
 
-Charged Cannon.
-1st Sequence: Single shot.
-2nd Sequence: Empowered double shot.
-3rd Sequence: Super-powered triple shot.
+축적포, 1단: 포탄 한 개, 2단: 강력한 포탄 두 개, 3단: 초강력 포탄 세 개.
 
-## Temporary Overclocking
+## 오버 클럭
 
-[SP 소모: 8][재사용 대기 시간: 15초] Empowers the weapon such that basic attacks (including combo and charged attacks) gain 32% Physical DMG for 5s.
+[SP 소모: 8][재사용 대기 시간: 15초] 무기를 강화하여 5초 동안 기본 공격(분기와 차지 공격 포함)의 물리 대미지가 32% 증가한다.
