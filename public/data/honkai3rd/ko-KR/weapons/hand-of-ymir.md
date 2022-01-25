@@ -1,13 +1,10 @@
-# Hand of Ymir
+# 유미르의 팔
 
-## Encroaching Fire
+## 스트라이크 캐넌
 
-Charged Cannon.
-1st Sequence: Single shot.
-2nd Sequence: Empowered double shot.
-3rd Sequence: Super-powered triple shot.
-Ranged DMG increases with range: attacks gain 4% Physical DMG for every 1 meter of distance to the target. Stacks up to 8 times.
+축적포, 1단: 포탄 한 개, 2단: 강력한 포탄 두 개, 3단: 초강력 포탄 세 개.
+적과의 거리가 멀어질 수록 적에게 가하는 원거리 대미지가 증가한다. 1m당 물리 대미지 4%증가, 최대 8회 중첩.
 
-## Frost Hand
+## 프로스트 핸드
 
-[SP 소모: 18][재사용 대기 시간: 14초] Unleash a large AOE shock wave in front of the character, knocking enemies airborne and slowing their Move Speed and Attack Speed by 70% for 3s. The shock wave deals 12x40% ATK of Physical DMG. Character gains 60% faster Move Speed and Attack Speed for 5s after using the active skill.
+[SP 소모: 18][재사용 대기 시간: 14초] 진동파를 방출하여 주변과 전방의 넓은 범위의 적들을 넉백시키고 3초 동안 이동 속도와 공격 속도를 70% 감소시킨다. 진동파는 공격력의 12x40% 물리 대미지를 입힌다. 액티브 스킬 발동 후 5초 동안 자신의 이동 속도와 공격 속도가 60% 증가한다.
