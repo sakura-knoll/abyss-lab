@@ -1,9 +1,10 @@
-# Ranger's Laser
+# 레인저 레이저
 
-## Thermal Laser
+## 열에너지 레이저 무기
 
-Fires a beam that continuously damages targets along a straight path. Continuous firing will overheat the weapon. Closer enemies take more DMG. DMG is maximized at a range within 3 meters. Upon Ultimate Evasion, resets heat gauge. Character gains 50% Attack Speed for 2s. Skill effect triggers once every 8.0s.[Ranger] Character takes 20% less DMG. If other teammates are equipped with [Ranger] series weapons, then Ultimate Evasion also recovers 2 SP.
+레이저로 직선 방향의 목표에게 지속 대미지를 가하고, 일정 시간이 지나면 오버히트 상태가 된다. 타깃이 가까울수록 대미지가 증가하고 10m 이내의 적에게 최대 대미지를 가한다.극한 회피 성공 시 오버히트 상태가 초기화되고 2초 동안 캐릭터의 공격 속도가 50% 증가한다, 8.0초마다 1번 발동할 수 있다.
+[레인저] 캐릭터가 받는 빙결 원소 대미지가 20% 감소하며, 파티원 중에 다른 레인저 시리즈 무기를 장착한 캐릭터가 있다면, 극한 회피 성공 시 추가로 SP를 2pt 회복한다.
 
-## Heat Discharge
+## 솟아오르는 열에너지
 
-[SP 소모: 14][재사용 대기 시간: 30초] For the next 11s, character attacks gain 12% Physical DMG but has 60% slower Move Speed. Buff also cancels distance-based damage reduction of the weapon.
+[SP 소모: 14][재사용 대기 시간: 30초] 11초 동안 발키리가 가하는 물리 대미지가 12% 증가하고, 이동 속도가 60% 감소한다. 무기의 거리에 따른 대미지 감소 효과를 무효화 한다.
