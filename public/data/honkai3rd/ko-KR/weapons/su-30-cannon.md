@@ -1,8 +1,5 @@
-# SU-30 Cannon
+# SU-30 캐넌포
 
-## Heavy Cannon.
+## 중형 화포
 
-Heavy Cannon. Longer charging time. Basic attacks gain 50% Physical DMG.
-1st Sequence: Single shot.
-2nd Sequence: Empowered double shot.
-3rd Sequence: Super-powered triple shot.
+중포, 차지 시간이 길며 기본 공격 물리 대미지가 50% 증가한다. 1단: 포탄 한 개, 2단: 강력한 포탄 두 개, 3단: 초강력 포탄 세 개.
