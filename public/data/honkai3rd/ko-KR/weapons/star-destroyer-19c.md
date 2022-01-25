@@ -1,13 +1,10 @@
-# Star Destroyer 19C
+# 행성 파괴자 19C
 
-## Shadow Strike Missiles
+## 암습·유도 미사일
 
-Launches homing missiles at multiple targets. Slightly decreases DMG when hitting the same target multiple times.
-1st Sequence: 2 missiles.
-2nd Sequence: 5 missiles.
-3rd Sequence: 11 missiles.
-Each missile or scatter shot shell that hits an enemy from the back gains 40% Crit DMG, with each hit dealing 400 more Fire DMG.
+다중 타깃을 정하여 미사일 발사, 동일 타깃에 다중 미사일 적중 시 대미지는 조금 약해진다. 차지 1단: 2발, 2단: 5발, 3단: 11발;
+적 뒤에서 미사일 혹은 산탄포 사용 시, 크리티컬 대미지 40% 증가하고 매 타격 마다 400의 화염 원소 대미지를 입힌다.
 
-## Rapid Strike
+## 래피드 어썰트
 
-[SP 소모: 25][재사용 대기 시간: 12초] Directly fires a scatter shot of 18 cannon shells, each shell dealing 75.0% ATK of Physical DMG, knocks enemies airborne, and ignites them. Ignited enemies receive 600 Fire DMG every 0.5s for 4s.
+[SP 소모: 20][재사용 대기 시간: 12초] 바로 산탄포를 발사, 타깃에게 18개의 산탄포를 발포하고 포당 공격력의 75.0% 물리 대미지를 입히고 적을 띄우며 적을 연소 상태로 만든다, 4초 동안 0.5초마다 600의 화염 원소 대미지를 입힌다.
