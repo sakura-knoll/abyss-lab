@@ -1,13 +1,10 @@
-# Briareus PRI
+# 헤카톤케일·프로토타입
 
-## Typhon - Cluster Missiles
+## 거대한 팔·다중 유도 미사일
 
-Launches homing missiles at multiple targets. Longer charge time. Slightly decreased DMG when hitting the same target multiple times.
-1st Sequence: 3 missiles.
-2nd Sequence: 7 missiles.
-3rd Sequence: 15 missiles.
-Missile hits have a 10% chance to stun / paralyze / freeze the target for 2s and deal an additional 1,333 Fire / Lightning / Ice DMG.
+다수의 타깃을 조준하여 미사일을 발사한다. 차지가 비교적 길며 타깃에게 여러발 명중 시 위력이 조금 줄어든다. 차지 1단: 3발, 2단: 7발, 3단: 15발.
+미사일 명중 시 10% 확률로 2초 동안 기절/마비/빙결 상태 중 하나로 만들며 추가로 1,333의 화염/뇌전/빙결 원소 대미지를 입힌다.
 
-## Time Trap
+## 시공 트랩
 
-[SP 소모: 18][재사용 대기 시간: 24초] Rips open a Time Trap field in front of the character. Enemies within the AOE suffer Time Slow and 50% reduced DEF for 6.20s.
+[SP 소모: 18][재사용 대기 시간: 24초] 전방 구역에 시곧 트랩을 작렬시켜, 6.20초 동안 구역 내의 적에게 시공 감속과 취약 상태를 지속적으로 가한다(방어력 50% 감소).
