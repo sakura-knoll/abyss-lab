@@ -1,9 +1,9 @@
-# Alloy Devourer
+# 합금·잠식의 캐넌
 
-## Laser
+## 레이저
 
-Rapid-fire weapon that deals continuous DMG to targets along a straight line of fire. Continuous firing will overheat the weapon. Closer enemies take more DMG. DMG is maximized at a range within 3 meters.
+레이저 무기, 직선 방향의 목표에게 지속 대미지를 가하고, 일정 시간이 지나면 오버히트 상태가 된다. 타깃이 가까울수록 대미지가 증가하고 10m 이내의 적에게 최대 대미지를 가한다.
 
-## Alloy Devouring Impact
+## 합금·잠식 쇼크
 
-[SP 소모: 20][재사용 대기 시간: 15초] Unleash a psychic shock using mechanical arms that generate multiple explosions. Each explosion deals 158 Fire DMG.
+[SP 소모: 20][재사용 대기 시간: 15초] 기계 팔로 지면을 내리쳐 다단 이능 충격파로 적을 넉백시키고 폭발 후 타격마다 162의 화염 원소 대미지를 입힌다.
