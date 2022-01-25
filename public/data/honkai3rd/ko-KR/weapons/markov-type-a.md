@@ -1,13 +1,10 @@
-# Markov Type A
+# 마르코프 A형
 
-## Cannon
+## 대포
 
-Charged Cannon.
-1st Sequence: Single shot.
-2nd Sequence: Empowered double shot.
-3rd Sequence: Super-powered triple shot.
-Wielder's QTE ATK gains 25.00% Physical DMG.
+축적포, 1단: 포탄 한 개, 2단: 강력한 포탄 두 개, 3단: 초강력 포탄 세 개.
+발키리의 QTE 공격의 물리 대미지가 25.00% 증가한다.
 
-## Breath of Guren
+## 홍련의 한숨
 
-60% chance to ignite target, dealing 150 DMG every 0.5s for 4.10s.
+적에게 적중 시 60%의 확률로 타깃을 연소 상태로 만들어 4.10초 동안 0.5초마다 150의 대미지를 입힌다.
