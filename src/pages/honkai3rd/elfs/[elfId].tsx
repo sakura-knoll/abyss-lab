@@ -116,6 +116,7 @@ const ElfShowPage = ({ elf }: ElfShowPageProps) => {
                         p: 2,
                         borderBottom: 'default',
                         '&:last-child': { borderBottom: 'none' },
+                        whiteSpace: 'pre-wrap',
                       }}
                     >
                       {translate(

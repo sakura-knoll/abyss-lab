@@ -70,7 +70,7 @@ function parseElfData(rawData: string) {
         .map((data) => data.replace(/#+\s/, '').trim())
       return {
         name,
-        description,
+        description: description.replace(/\\\*/g, '*'),
       }
     })
   })
