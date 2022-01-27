@@ -8,103 +8,105 @@
   "leader": {
     "core": {
       "name": "Thuban - Circumpolar Star",
-      "description": "(Test V2) Team Combo/Charge Total DMG +34%. When non-mech types are in the team, team Fire DMG +40%"
+      "description": "Team Combo/Charge Total DMG +34.0%. When non-mech types are in the team, team Fire DMG +40.0%"
     },
     "subskills": [
       {
         "name": "Thuban - Circumpolar Star",
-        "description": "(Test V2) Team Combo/Charge Total DMG +34%. When non-mech types are in the team, team Fire DMG +40%"
+        "description": "Team Combo/Charge Total DMG +34.0%. When non-mech types are in the team, team Fire DMG +40.0%",
+        "requiredRank": "s3"
       }
     ]
   },
   "special": {
     "core": {
       "name": "Coma - Stargazing",
-      "description": "(Test V2)\nAt 600 meter, hold ATK to use Charged ATK\nActivates Astral Harness mode. Summons [Holy Blade Tornado] to deal 12x20% + 200% ATK Fire DMG\n\nWhen there is a [Holy Blade Tornado], hold ATK button to release [Starfire Retrieval], deal 4x30% ATK Fire DMG and swings a [Holy Blade Tornado] to deal 12x30% ATK Fire DMG\n\nWhen there are an [Enhanced Holy Blade Tornado], hold ATK button to release [Blooming Starfire], pulling enemies in a big aoe, deal 4x20% ATK Fire DMG and stabs forward to deal 1500% ATK Fire DMG. Ends Astrall Harness and empties out the meter."
+      "description": "At 600 meter, hold ATK to use Charged ATK\nActivates Astral Harness mode. Summons [Phantom Abyssal Tornado] to deal 12x20% + 200% ATK Fire DMG\n\nWhen Astral Harness is in active and there is a [Phantom Abyssal Tornado], hold ATK button to release [Starfire Relay], deal 4x30% ATK Fire DMG and swings a enhanced [Phantom Abyssal Tornado] to deal 12x30% ATK Fire DMG\n\nWhen Astral Harness is in active and there is an Enhanced [Phantom Abyssal Tornado], hold ATK button to release [Blooming Starfire], pulling enemies in a big aoe, deal 4x20% ATK Fire DMG and stabs forward to deal 1300% ATK Fire DMG. Ends Astral Harness and empties out the meter."
     },
     "subskills": [
       {
         "name": "Coma Eta",
-        "description": "(Test V2) During Astral Harness, Total DMG +40%, anti-interrupt increased and reduce dmg taken by 40% Total DMG."
+        "description": "During Astral Harness, Total DMG +40.0%, anti-interrupt increased and reduce dmg taken by 40.0% Total DMG."
       },
       {
         "name": "Coma Gamma",
-        "description": "(Test V2) Restore 10sp when using Charged ATK Blooming Starfire."
+        "description": "Restore 10.0 sp when using Charged ATK Blooming Starfire.",
+        "requiredRank": "ss"
       }
     ]
   },
   "passive": {
     "core": {
       "name": "Eridanus - Flow of Time",
-      "description": "(Test V2)\nIn normal form, recover 20 star meter per second, max 600.\nIn Astral Harness mode, consumes 100 star meter per second until meter is 0 or until Harness ends off-field (kinda vague, but it does drain off-field).\nIn Astral Harness mode, Charged ATK summons [Holy Blade Tornado] in an area and [Brilliant Star Formation] forms around the circle. Max 2 tornado can exist at once. When SPA exits, Tornado and Star Formation disappears."
+      "description": "In normal form, recovers 80 star meter per second, max 600.\nIn Astral Harness mode, consumes 50 star meter per second until meter is 0 or SPA leaves the field.\nIn Astral Harness mode, Charged ATK summons [Phantom Abyssal Tornado] and gathering enemies in a small area and forms [Brilliant Star Formation]. When SPA exits, Tornado and Star Formation disappears."
     },
     "subskills": [
       {
         "name": "Durandal's Blessing",
-        "description": "(Test V2) Enemies within [Brilliant Star Formation] receive 20% more Fire DMG from SPA. (independent bonus)"
+        "description": "Enemies within [Brilliant Star Formation] receive 20.0% more Fire DMG from SPA. (independent bonus)"
       },
       {
         "name": "Eridanus α",
-        "description": "(Test V2) In normal form, when 4th Basic ATK hits, restore 80 meter."
+        "description": "In normal form, when 4th Basic ATK hits, restore 50 meter."
       },
       {
         "name": "Eridanus β",
-        "description": "(Test V2) Fire DMG +80%. SPA attacks against ignited enemies gain Fire DMG +20%."
+        "description": "Fire DMG +80%. SPA attacks against ignited enemies gain Fire DMG +20%."
       }
     ]
   },
   "ultimate": {
     "core": {
       "name": "Pisces - Sun and Moon",
-      "description": "(Test V2)\n\nSPA instantly gets 200 meter and enter Astral Harness, gathering mimic durandal blade to form [Holy Blade Tornado] to deal a total of 1500% + 12x20% ATK Fire DMG. Pauses timer.\nAfter ult ends, summons [Enhanced Holy Blade Tornado].\n[100 sp, 20s CD]"
+      "description": "\nSPA instantly gets 600 meter and enter Astral Harness, gathering mimic durandal blade to form a huge [Phantom Abyssal Tornado] to deal a total of 1500% + 12x20% ATK Fire DMG. Pauses timer.\nAfter ult ends, summons [Enhanced Phantom Abyssal Tornado] in front of SPA.\n[100 sp, 20s CD]"
     },
     "subskills": [
       {
         "name": "Pisces Eta",
-        "description": "(Test V2) When entering Astral Harness state, triggers 2s Time Fracture.",
+        "description": "When entering Astral Harness state, triggers 2s Time Fracture.",
         "requiredRank": "s2"
       },
       {
         "name": "Pisces Gamma",
-        "description": "(Test V2) Enemies hit by [Holy Blade Tornado] are ignited. Every 0.5s, inflict 30% ATK Fire DMG, lasts for 8s."
+        "description": "Enemies hit by [Phantom Abyssal Tornado] are ignited. Every 0.5s, inflict 30% ATK Fire DMG, lasts for 8s."
       }
     ]
   },
   "evasion": {
     "core": {
       "name": "Andromeda - Nebula Song",
-      "description": "(Test V2)\nEvasion skill: Trigger 3s Time Fracture. If there is an ignited enemy near [Brilliant Star Formation], recover 200 HP. CD: 15s\nPress Basic ATK after evasion to connect to Basic ATK 3rd sequence."
+      "description": "Evasion skill: Trigger 3s Time Fracture. In Astral Harness mode, gain 5 [Blazar] stacks additionally. If there is an ignited enemy near [Brilliant Star Formation], recover 200 HP. CD: 15s\nPress Basic ATK after evasion to connect to Basic ATK 3rd sequence."
     },
     "subskills": [
       {
         "name": "Andromeda α",
-        "description": "(Test V2) When evasion skill is triggered, valk Total DMG +15% for 3s and restore extra 5 sp.",
-        "requiredRank": "sss"
+        "description": "When evasion skill is triggered, valk Total DMG +15.0% for 3s and restore extra 5 sp.",
+        "requiredRank": "ss2"
       },
       {
         "name": "Andromeda β",
-        "description": "(Test V2) On switch in, restore 150 star meter. CD:10s"
+        "description": "On switch in, restore 200 star meter. CD:10s"
       }
     ]
   },
   "basic": {
     "core": {
       "name": "Canis - Sirius Shine",
-      "description": "(Test V2)\nATK Sequence all fire damage, recover star meter\nDMG: 80% > 40%+100% > 40%+100% > 3x60% + 250%\nMeter recovery: 10 > 5+15 > 10+15 > 3x5+20\n\nIn Astral Harness mode, 100% and apply 1 Starfire > 60%+100% and apply 1 Starfire > 40%+150% and apply 2 Starfire > 4x20% + 250% > 500% + 800%\n\nStarfire = 100% ATK Fire DMG"
+      "description": "ATK Sequence all fire damage, recover star meter\n1st Sequence: Deals 80% ATK of Fire DMG and restores 10 star meter\n2nd Sequence: Deals 40%+100% ATK of Fire DMG and restores 5 + 10 star meter\n3rd Sequence: Deals 40%+100% ATK of Fire DMG and restores 10 + 15 star meter\n4th Sequence: Deals 3x60% + 250% ATK of Fire DMG and restores 3x5+20 star meter\n\nIn Astral Harness mode:\n1st Sequence: Deals 100% and applies 1 Starfire\n2nd Sequence: Deals 60%+100% and applies 1 Starfire\n3rd Sequence: Deals 40%+150% and applies 2 Starfire\n4th Sequence: Deals  4x20% + 250%\n5th Sequence: 500% + 800%\n\nIn Astral Harness mode, each 1st, 2nd, 3rd ATK inflicts Starfire DMG. Each Starfire deals 30% ATK of Fire DMG.\n\nIn Astral Harness mode, SPA gains [Blazar] stacks for each basic ATK hit. 1st~4th basic ATKs adds 1 [Blazar] stack. 5th basic ATK adds 5 [Blazar] stacks. Max at 20. When using Ult, SPA instantly gains full stacks of [Blazar].\nAfter using Ult or leaving Astral Harness mode, the stacks are cleared."
     },
     "subskills": [
       {
         "name": "Canis α",
-        "description": "(Test V2) Starfire deal additional 150% ATK Fire DMG.",
-        "requiredRank": "ss"
+        "description": "Starfire deal additional 150% ATK Fire DMG.",
+        "requiredRank": "sss"
       },
       {
         "name": "Canis ε",
-        "description": "(Test V2) In Astral Harness, 4th Basic ATK ignites enemy, every 0.5s they take 30% ATK Fire DMG. Lasts for 8s."
+        "description": "In Astral Harness, 4th Basic ATK ignites enemy, every 0.5s they take 30% ATK Fire DMG. Lasts for 8s."
       },
       {
         "name": "QTE: Canis δ",
-        "description": "(Test V2) QTE: Triggered when an enemy is ignited or knocked airborne, trigger 3s Time Fracture, deal 5x250% ATK Fire DMG, restore 5 SP."
+        "description": "QTE: Triggered when an enemy is ignited or knocked airborne, trigger 3s Time Fracture, deal 5x250% ATK Fire DMG, restore 5 SP."
       }
     ]
   }
