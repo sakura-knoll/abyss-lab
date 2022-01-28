@@ -1,13 +1,14 @@
-# Ruinous Sakura
+# 혼요도·적멸 사쿠라
 
-## Bloodfyre Frenzy
+## 혈욕광앵
 
-[SP 소모: 0][재사용 대기 시간: 21초] Unleashes 2 slashes: the 1st slash deals 500% ATK of Fire DMG, during which the wielder is invincible, and gains a buff (buff effect: additionally deals 200% ATK of Fire DMG) for her 2nd slash, if she takes any hits, then the wielder gains immunity to the 1st hit taken within the next 5s; the 2nd hit deals 300% ATK of Fire DMG and ignites the target to further deal 65 Fire DMG per 0.5s for 5s, during which the wielder is invincible. If wielded by Flame Sakitama, enemies hit by 1st slash take 42.0% more Fire Dmg and 10% more Ice and Lightning DMG for 17s (does not stack with the effects of Combo Follow-up Attack).
+[SP 소모: 0][재사용 대기 시간: 21초] 적을 향해 참격을 2회 발동한다. 제1격은 적에게 총 공격력 500%의 화염 원소 대미지를 가한다. 스킬 발동 시 무적 상태가 되며, 무적 중 피격되면 마지막 참격은 추가로 공격력 200%의 화염 원소 대미지를 가한다. 그 후, 캐릭터는 실드를 획득해 5초 동안 1회의 공격을 막는 실드를 획득하고, 공격을 막은 후에 실드는 사라진다. 제2격은 총 공격력 300%의 화염 원소 대미지를 가하고, 적을 연소 상태에 빠트려 0.5초마다 65의 화염 원소 대미지를 가한다. 지속 시간: 5초, 스킬 사용 시 캐릭터는 무적 상태에 진입한다.
+진염행혼이 장비 시, 해당 스킬의 제1격에 적중한 적은 17초 동안 받는 화염 원소 대미지가 42.0% 증가하고, 빙결과 뇌전 원소 대미지는 10% 증가한다(분기 추격의 대응 효과와 중첩되지 않는다).
 
-## Pyre of Gojinka
+## 역신의 불
 
-The wielder deals 45% more Fire DMG.
+캐릭터가 공격으로 가하는 화염 원소 대미지 45% 증가.
 
-## Fuel the Ruin
+## 붉은 날의 벚꽃
 
-While unleashing Ultimate, the powers of the Demonblade boost the wielder's Total DMG by 10.0% for 15s, during which the wielder is also cursed by the Demonblade and loses 1% of her max HP per second (will not cause death). The 2nd hit of Bloodefrye Frenzy releases the powers of the Demonblade in the form of flames, and for every 1% of the wielder's HP loss, this hit additionally deals 80% ATK of Fire DMG (max stacks: 10). The wielder stops losing Hp after unleashing the 2nd hit.
+필살기를 발동하면 요도의 힘을 빌려 자신의 대미지를 10.0% 증가시킨다. 스킬 시전 중 요도의 힘에 잠식당해 1초마다 최대 HP를 1%를 잃는다, 지속 시간: 15초. 혈용광앵의 두 번째 공격은 체내 요도의 힘이 불꽃이 되어 뿜어져 나와 HP를 1% 잃을 때마다 두번째 공격은 추가로 공격력 80%의 화염 원소 대미지(최대 10 중첩)를 입히고, HP 유실이 멈춘다, 캐릭터는 이 효과로 사망하지 않는다.
