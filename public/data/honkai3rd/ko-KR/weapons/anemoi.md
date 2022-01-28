@@ -1,9 +1,9 @@
-# Anemoi
+# 질풍 태도
 
-## Gale
+## 바람을 가르다
 
-[SP 소모: 20][재사용 대기 시간: 25초] Releases a tornado traveling in a zigzag path, sending enemies along the path airborne and dealing 82 Ice DMG multiple times. Enemies hit will suffer 80% slower Move Speed and Attack Speed for 1.54s.
+[SP 소모: 20][재사용 대기 시간: 25초] Z자로 이동하는 토네이도를 방출해 경로상의 적들을 공중에 띄우고, 다단 히트로 타격마다 222의 빙결 원소 대미지를 입힌 후 1.79초 동안 공격 속도와 이동 속도를 80% 감소시킨다.
 
-## Tailwind
+## 바람의 가호
 
-Hits against enemies have a 3.3% chance of accelerating Move Speed by 65% for 4.5s. CD: 10s.
+공격시 4.9% 확률로 4.5초 동안 이동 속도 98% 증가한다, 재사용 대기시간 10초.
