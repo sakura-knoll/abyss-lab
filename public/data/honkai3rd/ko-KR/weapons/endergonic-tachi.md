@@ -1,5 +1,5 @@
-# Endergonic Tachi
+# 엔도직 블레이드
 
-## Energy Tide
+## 에너지 변위
 
-When SP is below 20% of Max SP, gain 17% Physical DMG. When SP is 80% or higher than Max SP, each attack gains 72 Fire DMG.
+현재 SP가 최대치의 20% 미만일 때 물리 대미지가 17% 증가한다. 현재 SP가 전투 중 SP 최대치의 80%보다 많으면 공격마다 72의 화염 원소 대미지가 추가된다.
