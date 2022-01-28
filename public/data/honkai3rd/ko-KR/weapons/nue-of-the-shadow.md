@@ -1,9 +1,9 @@
-# Nue of the Shadow
+# 영야
 
-## Zaizan of Guilt
+## 죄악 척결
 
-[SP 소모: 4][재사용 대기 시간: 20초] Unleash a quick forward slash to deal 700.0% ATK of Physical DMG and boost team Crit Rate by 10.0% and Crit DMG by 15.0% for 9s. Effect cannot stack, but can be refreshed by Shadow Dash's Ultimate on hit when this weapon is equipped by her.
+[SP 소모: 4][재사용 대기 시간: 20초] 전방에 빠른 속도로 참격을 1회 발동해 700.0% 공격력의 물리 대미지를 입히고, 9초 동안 모든 팀원의 크리티컬률을 10.0%, 크리티컬 대미지를 15.0% 증가시킨다. 해당 효과는 중첩되지 않는다. 그림자 춤 장비 시, 필살기가 목표에게 명중하면 모든 팀원의 해당 효과를 리셋할 수 있다.
 
-## Fearsome Weeping
+## 야명
 
-Combo ATK and Ultimate deal 25.0% bonus Crit DMG. Upon entry or evasion skill activation, wielder takes 20.0% less Physical DMG for 9s. Can stack.
+분기 및 필살기의 크리티컬 대미지가 25.0% 증가하고, 캐릭터 출전 또는 회피 스킬 발동 후 9초 동안 받는 물리 대미지가 20.0% 감소한다. 갱신 가능.
