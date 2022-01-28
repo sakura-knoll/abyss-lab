@@ -1,9 +1,9 @@
-# Raikiri
+# 뇌절
 
-## Blade Ward
+## 영령의 수호
 
-[SP 소모: 18][재사용 대기 시간: 25초] Summons an ethereal blade barrier for all allies (including illusions), increasing their DEF by 50%. Enemies hit by the blade take 320 Lightning DMG every 0.25s for 6.00s.
+[SP 소모: 18][재사용 대기 시간: 25초] 전장의 모든 아군(분신 포함)에게 영체의 칼날을 추가하여 보호한다. 6.00초 동안 방어력이 50% 증가하고 칼날에 닿은 적에게 0.25초마다 320의 뇌전 원소 대미지를 입힌다.
 
-## Storm Raven
+## 천둥을 가르는 새
 
-40% chance of reducing direct or indirect DMG taken by 600 (indirect DMG: ignited, bleeding, etc.).
+캐릭터가 직접 혹은 간접 대미지(연소, 출혈 등)를 받을 때 40%의 확률로 받는 대미지가 600 감소한다.
