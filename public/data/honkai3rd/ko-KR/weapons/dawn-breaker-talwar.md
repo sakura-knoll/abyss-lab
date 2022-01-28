@@ -1,9 +1,9 @@
-# Dawn Breaker - Talwar
+# 여명의 파괴자·탤와르
 
-## Shock Impact
+## 쇼크웨이브
 
-[SP 소모: 10][재사용 대기 시간: 30초] Charges forward to attack the enemy, dealing 900% ATK of Physical DMG. Wielder then recovers 4 SP per 0.5s for 8s.
+[SP 소모: 10][재사용 대기 시간: 30초] 돌진하여 적에게 공격력 900%의 물리 대미지를 입힌 후 캐릭터는 8초 동안 0.5초마다 4의 SP를 회복한다.
 
-## Capacitance Plus
+## 전기 용량 증폭
 
-During Ultimate or Burst mode, ATKs gain 10.0% Total DMG Multiplier and 16.0% higher Crit Rate. Character starts with 10.0 more SP. Does not work in Open World.
+필살기와 폭발 상태에서의 모든 대미지가 10.0% 증가하고 크리티컬률이 10.0% 증가한다. 캐릭터가 전투 중 초기 SP가 16.0pt 증가하고 해당 효과는 오픈월드에서 발동하지 않는다.
