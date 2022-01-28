@@ -1,5 +1,5 @@
-# Rosefinch
+# 복합도·주작
 
-## Sinfire
+## 죄업의 화염
 
-[SP 소모: 10][재사용 대기 시간: 7초] Generates flame waves, dealing 100% ATK of Physical DMG plus 288 Fire DMG. Carries 2 charges.
+[SP 소모: 10][재사용 대기 시간: 7초] 화염 파동을 방출한다. 폭발 시 공격력 100%의 물리 대미지와 288의 화염 원소 대미지를 입힌다. 충전 횟수: 2회.
