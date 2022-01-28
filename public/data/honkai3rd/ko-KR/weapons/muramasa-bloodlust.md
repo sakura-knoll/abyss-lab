@@ -1,5 +1,5 @@
-# Muramasa Bloodlust
+# 요도 무라마사
 
-## Ripper Blade
+## 베어 가르는 영령의 칼날
 
-[SP 소모: 3][재사용 대기 시간: 4초] Launches an ethereal blade, dealing 50% ATK of Physical DMG and bleeding the enemy to deal another 62 Physical DMG every 0.5s for 3s. Stores 3 charges.
+[SP 소모: 3][재사용 대기 시간: 4초] 영체의 검을 발사하여 적에게 공격력의 50% 물리 대미지를 입히고 3초 동안 출혈 상태로 만들어 0.5초마다 62의 물리 대미지를 입힌다.(3회 충전 가능)
