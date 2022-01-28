@@ -1,13 +1,13 @@
-# Domain of Sanction
+# 천극지경: 심판
 
-## Raizan Cleave
+## 뇌참
 
-[SP 소모: 0][재사용 대기 시간: 15초] Unleash a powerful forward slash with the lightning-imbued blade, dealing 1500% ATK of Lightning DMG and paralyzing enemies for 5s. The wielder is invincible while casting the active. When it is equipped by Herrscher of Thunder, it also inflicts Narukami's Mark on enemies hit for 15s and can be connected in Shinzan Strike. When riding the dragon, Bombard deals 40.0% bonus Lightning DMG.
+[SP 소모: 0][재사용 대기 시간: 15초] 뇌전을 소환해 도신에 부여한 후, 전방에 강력한 참격을 1회 발동하여 공격력 1500%의 뇌전 원소 대미지를 입히고, 목표를 5초간 마비시킨다. 캐릭터가 무기 액티브 스킬을 사용하면 잠시 무적 상태가 된다. 번개의 율자가 사용하면 15초 동안 적에게 [나루카미]를 부여하고 빠른속도로 [심장 베기]를 이어 사용할 수 있다. 용에 타고 있는 동안 공중 폭격으로 가하는 뇌전 원소 대미지가 40.0% 증가한다.
 
-## Deafening Peal
+## 하늘을 꿰뚫는 소리
 
-Casting the active boosts wielder's Total DMG by 20.0% for 20s. When it's equipped by Herrscher of Thunder, activating her Ultimate can also proc this effect and subsequent procs refresh the duration. Casting the active restores 200 Herrscher Charge.
+무기 액티브 스킬 사용 시, 20초 동안 캐릭터가 가하는 모든 대미지를 20.0% 증가시킨다. 번개의 율자가 사용하면 필살기를 발동할 때에도 이 효과를 발동할 수 있다. 중복 발동 시 지속 시간이 초기화 된다. 무기 액티브 스킬을 사용하면 즉시 율자 에너지를 200pt 회복한다.
 
-## Divine Penalty
+## 죄악의 천벌
 
-Wielder deals 45.0% bonus Lightning DMG. When it's equipped by Herrscher of Thunder, she deals 20.0% bonus Lightning DMG to enemies with Narukami's Mark.
+캐릭터의 뇌전 원소 대미지 45.0% 증가. 번개의 율자가 사용하면 [나루카미]에 걸린 적에게 가하는 뇌전 원소 대미지가 추가로 20.0% 증가한다.
