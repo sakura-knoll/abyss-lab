@@ -1,5 +1,5 @@
-# Pulse Katana Type-19
+# 펄스 태도 19식
 
-## SP Saving
+## SP 절약
 
-Reduce skill activation SP cost by 23% (does not affect min SP required for skill activation).
+스킬 발동 후 소모하는 SP 23% 감소(스킬 발동에 필요한 최소 SP에는 영향을 주지 않음).
