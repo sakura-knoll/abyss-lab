@@ -1,9 +1,9 @@
-# Sakura Blossom
+# 영도·사쿠라 후부키
 
-## Falling Petals
+## 작앵난신
 
-[SP 소모: 15][재사용 대기 시간: 12초] Sprints forward for a short distance to deal 400.0% ATK of Physical DMG to enemies hit along the way, stunning those with a Sakura Brand for 3.5s.Gyakushinn Miko equip bonus: Enemies hit will be marked with a Sakura Brand.
+[SP 소모: 15][재사용 대기 시간: 12초] 전방을 향해 베어 가르며 피격된 적에게 공격력의 400.0% 물리 대미지를 입히고, 붉은 벚꽃 표식이 있는 적을 3.5초 동안 기절 상태로 만든다. 역신 무녀가 사용 시 명중된 타깃에게 붉은 벚꽃 표식을 새긴다.
 
-## Round Dance
+## 윤무
 
-Attacks have a 100.0% chance of unleashing a Blade Wave, dealing 200.0% ATK + 1,920 of Physical DMG. Blade Wave CD: 4.8s.Gyakushinn Miko equip bonus: Blade Wave adds 1 Sakura Count to the enemy. When One Slash hits the enemy, Blade Wave CD is immediately reset.
+타격 시 100.0% 확률로 전방에 검기 하나를 방출하여 적에게 200.0% 공격력 + 1,920 물리 대미지를 입힌다. 재사용 대기시간: 4.8초. 역신 무녀가 사용할 경우, 검기는 적에게 붉은 벚꽃 카운터를 하나 쌓는다. 납도로 적을 명중 시 재사용 대기시간이 초기화된다.
