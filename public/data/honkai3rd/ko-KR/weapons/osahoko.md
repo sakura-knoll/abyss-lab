@@ -1,9 +1,9 @@
-# Osahoko
+# 와호장룡
 
-## Turbulence
+## 난류
 
-Upon Ultimate Evasion, gain an EM Charge that lasts 5s. The first attack that hits within this period consumes the EM Charge and deals an additional 4,000 Lightning DMG and 4,000 Physical DMG. Only 1 EM Charge can be gained every 1.5s.
+극한 회피 성공 시 전자기 충전 상태가 되어 5초 이내에 명중한 첫 공격에 충전된 전자기를 소모하여 적에게 4,000의 뇌전 대미지와 4,000의 물리 대미지를 입힌다. 전자기 충전 후 1.5초 동안 다시 획득할 수 없다.
 
-## EM Radiation
+## 전자기 복사
 
-Attacks have a 8.0% chance of paralyzing target and surrounding enemies for 3s. CD: 6s.
+공격 시 8.0%의 확률로 타깃과 주변 적을 3초 동안 마비 상태로 만든다, 재사용 대기시간 6초.
