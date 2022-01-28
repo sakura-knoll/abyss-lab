@@ -1,5 +1,5 @@
-# Thermal Cutter
+# 열에너지 절단검
 
-## Molten Blade
+## 삭금의 칼날
 
-[SP 소모: 2][재사용 대기 시간: 10초] Wielder sprints and unleashes a sweeping heat blast that deals 270% ATK of Physical DMG and ignites enemies to deal 600 Fire DMG every 0.5s for 4s.
+[SP 소모: 2][재사용 대기 시간: 10초] 돌진하면서 강한 열에너지를 방출한다. 적을 베어 가르며 공격력 270%의 물리 대미지를 입히고 4초 동안 연소 상태로 만들어 0.5초마다 600의 화염 원소 대미지를 입힌다.
