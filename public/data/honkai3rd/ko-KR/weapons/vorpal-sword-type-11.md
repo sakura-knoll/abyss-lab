@@ -1,9 +1,9 @@
-# Vorpal Sword Type-11
+# 반역장 태도 11식
 
-## Blackhole
+## 블랙홀
 
-[SP 소모: 20][재사용 대기 시간: 20초] Generates a red black hole that pulls-in and eviscerates enemies within range, dealing 80% ATK of Physical DMG and bleeding them. The black hole then implodes to release a multi-hit energy blast that deals 20% ATK of DMG per hit. Bleeding enmies take 300 DMG every 0.5s for 4.60s.
+[SP 소모: 20][재사용 대기 시간: 20초] 빨간색 블랙홀을 만들어 적을 끌어당기고 범위 내의 적을 베어 공격력의 80% 물리 대미지를 입히고 4.60초 동안 출혈 상태로 만들어 0.5초마다 300의 대미지를 입힌다: 폭발한 에너지는 다시 적에게 공격력의 20% 대미지를 입힌다.
 
-## Time Prison
+## 시공 감금
 
-Attacks against enemies affected by Time Slow gain 20% Physical DMG.
+시공 감속 상태의 적에게 가하는 물리 대미지가 20% 증가.
