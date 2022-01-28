@@ -1,15 +1,16 @@
-# Jizo Mitama
+# 지장어혼
 
-## Soul Appearance
+## 어혼시현
 
-[SP 소모: 40][재사용 대기 시간: 50초] Summons Jizo Mitama to fight for 40s. Jizo Mitama deals Physical DMG equal to 300% of ATK to enemies within a larger area and sends them floating. Jizo Mitama has other attacking methods:Slash Attack: 100% ATK of Physical DMG.
-Dash Attack: 200% ATK of Physical DMG and knocks enemies airborne.
-Cleave: 100% ATK of Physical DMG and knocks enemies airborne.
+[SP 소모: 40][재사용 대기 시간: 50초] 40초 동안 지장어혼[소환물]이 나타나 전투를 도와준다. 어혼 등장 시 큰 범위의 적에게 공격력의 300% 물리 대미지를 입히고 공중에 띄운다. 어혼은 다음과 같은 공격 패턴을 가진다:
+베기, 공격력 100%의 물리 대미지를 입힌다.
+찌르기, 공격력 200%의 물리 대미지를 입히고 넉백시킨다.
+내려찍기, 공격력 100%의 물리 대미지를 입히고 적을 띄운다.
 
-## Sightless
+## 무명
 
-Character attacks against enemies knocked airborne gain 32% Total DMG Multiplier.
+캐릭터가 공중에 띄워진 적을 공격 시 모든 대미지가 32% 증가한다.
 
-## Key of Erosion
+## 침식의 열쇠
 
-In co-op raids, characters deal 15% more Physical DMG. Upon using weapon skill, deal 30% more Physical DMG for 10.0s.
+멀티 Raid 스테이지 중, 발키리가 가하는 물리 대미지가 15% 증가한다. 무기 스킬 사용 시, 10.0초 동안 가하는 물리 대미지가 30% 증가한다.
