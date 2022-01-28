@@ -1,13 +1,13 @@
-# Frozen Naraka
+# 어령도 한옥빙천
 
-## Utpala Aura
+## 빙천동운
 
-[SP 소모: 0][재사용 대기 시간: 25초] Generates a 12s Field that moves with the wielder. In the AOE, the wielder gains Ignore Interrupt and 50% Total DMG Reduction. Enemies in AOE take 25.0% more Ice DMG and gradually lose Movement Speed and ATK Speed till they freeze. Tap the Weapon Skill button again to unleash a Special ATK (1 time per Field) that deals 300% + 800% ATK of Ice DMG against enemies in front. CD starts only after the Field disappears.
+[SP 소모: 0][재사용 대기 시간: 25초] 12초 동안 캐릭터를 따라다니는 결계를 생성한다. 결계 유지 기간 동안 캐릭터가 받는 모든 대미지가 50% 감소하고 경직 저항력이 증가한다. 결계 내의 적이 받는 빙결 원소 대미지가 25.0% 증가하고 빙결 상태로 만들 때까지 이동 속도와 공격 속도가 점점 감소한다. 결계 유지 기간 동안 최대 1회 무기 스킬 버튼을 터치하여 특수 공격을 사용해 전방의 적에게 공격력 300% + 800%의 빙결 원소 대미지를 입힌다(결계 종료 후 재사용 대기시간을 계산한다).
 
-## Frigid Incense
+## 빙가라
 
-Wielder deals 45% more Ice DMG.
+캐릭터의 빙결 원소 대미지 45% 증가.
 
-## Glacial Bane
+## 고한지옥
 
-Gain 1 charge per 5s. Next hit deals 150% ATK of Ice DMG against the target and nearby enemies, slowing their ATK speed and Move Speed by 40% for 6.0s (slow effect does not work on enemies within the Active Skill's AOE). Goushinnso Memento equip bonus: Provides 200 more kinetic energy and 4.0 SP.
+5초마다 1회 충전하여 다음 공격이 적중 시 목표 및 주변의 적에게 공격력 150%의 빙결 원소 대미지를 입히고 6.0초 동안 공격 속도와 이동 속도를 40% 감소시킨다(액티브 스킬 결계의 감속 효과에 걸린 적에게는 효과 없음). 현신화·물망초 사용 시 200 KP와 4.0 SP를 추가로 회복한다.
