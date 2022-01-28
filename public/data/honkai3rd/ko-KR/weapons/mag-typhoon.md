@@ -1,14 +1,14 @@
-# MAG-Typhoon
+# 마그네틱 스톰·참 헤비형
 
-## Raiden's Cyclone
+## 중전참
 
-[SP 소모: 0][재사용 대기 시간: 15초] Deals a 3-sequence ATK against enemies. First 2 sequences: Deal 250% Lightning DMG in total. 3rd sequence: Deals 600% ATK of Lightning DMG. Enemies will be paralyzed by the ATK for 5s and take 25.0% more Lightning DMG for 12.0s (effect cannot stack).
-Lightning Empress equip bonus: Active Skill inflicts Soul Razor's conductive debuff on enemies. Tap [ATK] right after casting the Active Skill to directly perform Combo ATK.
+[SP 소모: 0][재사용 대기 시간: 15초] 적에게 3단 공격을 가한다. 앞 2단엔 각각 총 250%의 뇌전 원소 대미지를 입히고 마지막 3단엔 공격력 600%의 뇌전 원소 대미지를 입힌다. 공격 시 적을 5초 동안 마비시키고 12.0초 동안 받는 뇌전 원소 대미지가 25.0% 증가한다(같은 무기 효과는 하나만 발동할 수 있고 중첩되지 않는다). 
+뇌전 여왕의 귀신갑주 사용 시 액티브 스킬이 적에게 단혼참 스킬의 감전 효과를 추가하고 사용 후 공격 버튼을 터치하여 분기 공격을 바로 시전한다.
 
-## EM Pulsar
+## 전자기 역장
 
-Wielder deals 50% more Lightning DMG. After using the weapon's Active Skill, wielder gains Ignore Interrupt and 50% Total DMG Reduction.
+캐릭터의 뇌전 원소 대미지 50% 증가, 무기 액티브 스킬 사용 후 6초 동안 캐릭터가 받는 모든 대미지가 50% 감소하고 경직 저항력이 증가한다.
 
-## Roaring Nimbus
+## 뇌운
 
-When hitting a paralyzed enemy with Basic ATK or Combo ATK, summons Heaven's Thunder that deals 250% ATK of Lightning DMG against the target and nearby enemies and paralyzes all unparalyzed enemies for 2.0s. CD: 10.0s.
+기본 공격, 분기 공격이 마비 상태의 적에게 적중하면 번개가 나타나 목표 및 주변의 적에게 공격력 250%의 뇌전 원소 대미지를 입히고 마비 상태가 아닌 적을 2.0초 동안 마비시킨다. 재사용 대기시간: 10.0초.
