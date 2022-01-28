@@ -1,9 +1,9 @@
-# Key of Castigation
+# 천극의 열쇠
 
-## Thunder Edge
+## 뇌인
 
-[SP 소모: 5][재사용 대기 시간: 25초] Unleashes a powerful forward slash with the lightning-imbued blade, dealing 700% ATK of Lightning DMG and paralyzing enemies for 3s. When equipped by Herrscher of Thunder, it also inflicts Narukami's Mark on enemies hit for 15s.
+[SP 소모: 5][재사용 대기 시간: 25초] 뇌전을 소환해 도신에 부여한 후, 전방에 강력한 참격을 1회 발동하여 공격력 700%의 뇌전 원소 대미지를 입히고, 목표를 3초간 마비시킨다. 번개의 율자가 사용하면 적에게 [나루카미]를 부여한다. 지속시간: 15초.
 
 ## Thunder Blitz
 
-Wielder deals 35.0% bonus Lightning DMG. When it's equipped by Herrscher of Thunder, casting the active restores 100 Herrscher Charge. For 2s after, enemies with Narukami's Mark take 30% ATK of Lightning DMG and Herrscher of Thunder restores 10 Herrscher Charge per 0.2s (subsequent procs extend the duration).
+캐릭터의 뇌전 원소 대미지가 35.0% 증가한다. 번개의 율자가 사용하면 무기 액티브 스킬 사용 후 즉시 율자 에너지를 100pt 회복한다. 모든 [나루카미]가 있는 적은 2초간 0.2초마다 공격력 30%의 뇌전 원소 대미지를 받고, 율자 에너지를 10pt 회복한다(중복 발동 시 지속 시간이 누적된다).
