@@ -1,9 +1,9 @@
-# MagStorm
+# 마그네틱 스톰·참
 
-## Chaos Blade
+## 자기 폭풍의 칼날
 
-[SP 소모: 20][재사용 대기 시간: 15초] Dash and unleash 2 waves of Magstorms, each dealing 1,920 Lightning DMG and paralyzing enemies for 2.50s.
+[SP 소모: 20][재사용 대기 시간: 15초] 돌진하면서 자기 폭풍을 두 번 발생시켜 적을 쓸어버린다. 자기 폭풍마다 1,920의 뇌전 원소 대미지를 입히고 2.50초 동안 마비 상태로 만든다.
 
-## EM Induction
+## 전자기 유도
 
-Gain 40% Lightning DMG.
+뇌전 원소 대미지 40% 증가.
