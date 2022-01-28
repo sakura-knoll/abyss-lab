@@ -1,9 +1,9 @@
-# Fairy Sword Silven
+# 요정검·실반
 
-## Wind Enchantment
+## 바람의 결계
 
-[SP 소모: 17][재사용 대기 시간: 38초] Creates a field that boosts all allies within the AOE so that they gain 25% Attack Speed, 20% Move Speed, and damage by 10% Total DMG Multiplier to their attacks for 20s.
+[SP 소모: 17][재사용 대기 시간: 38초] 결계를 펼쳐, 20초 동안 결계 내의 파티원의 공격 속도를 25%, 이동 속도를 20% 증가시키고 공격 시 모든 대미지를 10% 증가시킨다.
 
-## Power of Wind
+## 바람의 힘
 
-Gain a Total DMG Multiplier buff based on the character's Move Speed bonus. Gain 5.0% Total DMG Multiplier for every 10% of Move Speed bonus (max DMG bonus: 50%). Character gains 30% Move Speed.
+캐릭터의 이동 속도에 따라 캐릭터가 공격으로 가하는 모든 대미지가 증가한다, 이동 속도가 10% 증가할 때마다 모든 대미지가 5.0% 증가한다(대미지는 최대로 50%까지 증한다); 캐릭터의 이동 속도가 30% 증가한다.
