@@ -8,7 +8,7 @@
   "leader": {
     "core": {
       "name": "Kindred's Link",
-      "description": "Leader Bonus:\nKindred's Link: Team gains 10% Move SPD. MECH-type characters gain 5% Attack Speed."
+      "description": "Leader Bonus:\nKindred's Link: Team gains 25% Move SPD. MECH-type characters gain 14% Attack Speed."
     },
     "subskills": [
       {
@@ -86,9 +86,23 @@
   "evasion": {
     "core": {
       "name": "Kindred's Feint",
-      "description": "Quickly evade enemy attacks. Can be performed twice in a row\nShadow: Upon performing an Ultimate Evasion, deals 200% ATK of Physical DMG against nearby enemies and inflicts a 13s Hunted Mark.\nHoly Brand: Gained upon an Ultimate Evasion, boosting Physical DMG by 15% for 10s; CD: 15s\nFollow-up: Tap [ATK] within 3s after an Ultimate Evasion to immediately cast Sturmgeschütz."
+      "description": "Quickly evade enemy attacks. Can be performed twice in a row.\nShadow: Upon performing an Ultimate Evasion, deals 200% ATK of Physical DMG against nearby enemies and inflicts a 13s Hunted Mark.\nHoly Brand: Gained upon an Ultimate Evasion, boosting Physical DMG by 15% for 10s; CD: 15s\nFollow-up: Tap [ATK] within 3s after an Ultimate Evasion to immediately cast Sturmgeschütz."
     },
-    "subskills": []
+    "subskills": [
+      {
+        "name": "Phantom Walk",
+        "description": "After evasion or switch entry, character takes 30.0% less Physical and Elemental DMG for 6.0s. CD: 15s"
+      },
+      {
+        "name": "Lucid Strike",
+        "description": "After Ultimate Evasion, character's Physical DMG skill effects gain 30.0%."
+      },
+      {
+        "name": "Reach of Desire",
+        "description": "Shortens CD of Ultimate Evasion by 2.00s. Restore 70.0 HP upon a successful Ultimate Evasion. If current HP is below 50%, additionally restores 70.0 HP. Healing effect CD: 5s",
+        "requiredRank": "s"
+      }
+    ]
   },
   "basic": {
     "core": {
