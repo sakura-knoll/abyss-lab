@@ -1,13 +1,13 @@
-# Twins of Eden
+# 에덴의 두 별
 
-## Fruit of Knowledge
+## 금과
 
-[SP 소모: 6][재사용 대기 시간: 18초] Fires a Grav Bomb at target lasting 7s and dealing 600% ATK of Physical DMG. The damage is boosted by 150% against shield. While Grav Bomb exists, [Grav Lock] is inflicted on the target if their shield breaks, disabling them and freezing shield regen for 3s. Grav Bomb explodes in 3s dealing 500% ATK of AOE Physical DMG. The generation of Grav Lock and explosion of Grav Bomb both grant 12.0% bonus team Physical DMG for 9s (can be refreshed but not stacked). Grav Bomb instantly explodes if hitting enemies with no or broken shield.
+[SP 소모: 6][재사용 대기 시간: 18초] 목표를 향해 7초간 지속되는 중력 폭탄을 발사하여 공격력 600%의 물리 대미지를 입히고, 실드에 가하는 대미지가 150% 증가한다. 중력 폭탄이 지속되는 동안 목표 적의 실드가 파괴되면 [중력 잠금]을 부여해 3초 동안 적의 움직임을 멈추고 실드의 회복 시간을 동결시킨다. 3초 후 중력 폭탄이 폭발하여 주변 적에게 공격력 500%의 범위 물리 대미지를 입힌다. 중력 잠금이 생성될 때와 중력 폭탄이 폭발할 때 9초 동안 모든 파티원의 물리 대미지가 12.0% 증가한다 (중첩되지 않고, 지속 시간을 초기화한다). 중력 폭탄이 실드가 없거나 실드 파괴 상태의 적에게 적중되면 즉시 폭발한다.
 
-## Original Sin
+## 원죄
 
-The generation of Grav Lock and explosion of Grav Bomb both impair enemies in the area, lowering their DEF by 65% for 9s (can be refreshed but not stacked).
+중력 잠금이 생성될 때와 중력 폭탄이 폭발할 때 9초 동안 범위 내의 적에게 취약 효과를 부여하고 방어력을 65% 감소한다. (중첩되지 않고, 지속 시간을 초기화한다)
 
-## Key of Devouring
+## 탄서의 열쇠
 
-In co-op raids, character gains 40.0% Crit DMG and 5.0% Crit Rate.
+멀티 Raid 스테이지 중, 발키리의 크리티컬 대미지가 40.0% 증가하고 크리티컬률이 5.0% 증가한다.
