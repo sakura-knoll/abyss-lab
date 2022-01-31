@@ -1,5 +1,5 @@
-# Water Spirit Type-II
+# 물의 요정 II형
 
-## Frost Shock
+## 프로스트 임팩트
 
-[SP 소모: 2][재사용 대기 시간: 13초] Fires an icy scattershot in a fan-shaped AOE that deals 500% ATK of Ice DMG and freezes enemies for 3.80s.
+[SP 소모: 2][재사용 대기 시간: 13초] 빙결 산탄을 발사하여 전방의 부채꼴 범위 내 적에게 공격력 500%의 빙결 원소 대미지를 가하고 3.80초 동안 빙결 상태로 만든다.
