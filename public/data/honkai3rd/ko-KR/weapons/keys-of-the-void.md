@@ -1,10 +1,10 @@
-# Keys of the Void
+# 공무의 열쇠
 
-## Gates of Revelation
+## 천계의 문
 
-[SP 소모: 5][재사용 대기 시간: 16초] Unleashes 3 energy shockwaves in front of character with a large interval in-between. Each shockwave deals 200% ATK of Physical DMG, knocks enemies airborne, and generates a Space Core. Space Core explosion deals 300% ATK of Physical DMG.
-Herrscher of the Void equip bonus: Space Core generated is buffed by the Herrscher's own abilities, deals another 150% ATK of Physical DMG and regain 60 Herrscher Charge.
+[SP 소모: 5][재사용 대기 시간: 16초] 캐릭터 전방의 적에게 3단 에너지 충격을 가한다. 타격마다 공격력 200%의 물리 대미지를 입히겨 적을 공중에 띄우고 공간 코어를 생성한다. 그 후에 공간 코어가 생성된 위치에 폭발이 발생하여 적에게 공격력 300%의 물리 대미지를 입힌다.
+공간의 율자가 사용 시 생성되는 공간 코어는 공간의 율자 패시브 스킬 효과를 받을 수 있으며 추가로 공격력 150%의 물리 대미지를 입힌 후 율자 에너지를 60 회복한다.
 
-## Void Sigil
+## 공허의 각인
 
-Character deals 20% more Physical DMG and gains 30% Crit DMG.
+발키리가 가하는 물리 대미지 20% 증가, 크리티컬 대미지 30% 증가.
