@@ -1,5 +1,5 @@
-# Icarus Pinions
+# 타오르는 날개
 
-## Daedalus Burst
+## 폭렬의 날개
 
-Hits on target have a 6.0% chance of causing an explosion, dealing 480 Fire DMG to the target and enemies surrounding it.
+공격 시 6.0% 확률로 폭발을 일으켜 타깃 주변의 적에게 480의 화염 원소 대미지를 입힌다.
