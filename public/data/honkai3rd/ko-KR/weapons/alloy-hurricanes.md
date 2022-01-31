@@ -1,5 +1,5 @@
-# Alloy Hurricanes
+# 합금·허리케인 리볼버
 
-## Alloy Spinning Windcut
+## 합금·칼날 바람
 
-[SP 소모: 15][재사용 대기 시간: 20초] Spins multiple times to slash surrounding enemies to deal 182 Ice DMG per hit. Ends with an explosive burst that deals 240% ATK of Physical DMG.
+[SP 소모: 15][재사용 대기 시간: 20초] 자신을 중심으로 회전하여 적을 여러 번 벤다. 한번 벨 때마다 182의 빙결 원소 대미지를 입히고, 최후의 폭발은 공격력의 240% 물리 대미지를 입힌다.
