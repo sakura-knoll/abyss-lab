@@ -1,5 +1,5 @@
-# Alloy Dominators
+# 합금·지배자의 권총
 
-## Alloy Burning Punch
+## 합금·타오르는 철권
 
-[SP 소모: 19][재사용 대기 시간: 10초] Unleash a terrifying uppercut with mecha power that strikes enemies in the AOE multiple times. Each hit deals 40% ATK of Physical DMG plus 97 Fire DMG.
+[SP 소모: 19][재사용 대기 시간: 10초] 강력한 기동력으로 어퍼컷을 날려 주변 적에게 다단 히트로 타격당 공격력의 40% 물리 대미지와 97의 화염 원소 대미지를 입힌다.
