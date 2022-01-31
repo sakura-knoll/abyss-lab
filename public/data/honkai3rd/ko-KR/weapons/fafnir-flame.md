@@ -1,9 +1,9 @@
-# Fafnir Flame
+# 파프닐의 폭염
 
-## Flame Overload
+## 오버히트
 
-[SP 소모: 15][재사용 대기 시간: 20초] Generates three explosions to blow up nearby enemies. Each explosion deals 240% ATK of Physical DMG and ignites enemies, dealing 400 Fire DMG every 0.5s for 3s.
+[SP 소모: 15][재사용 대기 시간: 10초] 자신을 중심으로 3회에 걸쳐 폭발을 일으켜 적을 넉백시킨다. 폭발마다 적에게 공격력의 240%의 물리 대미지를 입히고 연소 상태로 만들어 3초 동안 0.5초마다 400의 화염 대미지를 입힌다.
 
-## Saint's Pet
+## 성자의 반려
 
-During Burst Mode, gain 18% Physical DMG. When hit or when triggering Ultimate Evasion, cast 1 burst of Active Skill. CD: 5s.
+폭발 상태에서 물리 대미지가 18% 증가하고, 피격 혹은 극한 회피 시 액티브 스킬의 단일 폭발을 발동한다, 재사용 대기시간 5초.
