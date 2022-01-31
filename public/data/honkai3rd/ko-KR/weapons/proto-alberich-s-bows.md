@@ -1,9 +1,9 @@
-# Proto Alberich's Bows
+# 요정의 활·오리진
 
-## Ties of the Wind
+## 바람의 결박
 
-[SP 소모: 18][재사용 대기 시간: 0초] Fires compressed air projectiles in a straight trajectory, dealing 110% ATK of Physical DMG to all enemies hit. Caster gains 10 SP if the projectile hits at least 1 bleeding enemy.
+[SP 소모: 18][재사용 대기 시간: 0초] 풍압탄을 발사한다. 직선 경로의 모든 적에게 공격력 110% 물리 대미지를 두 번 입힌다. 만약 풍압탄을 맞은 적 중에 출혈 상태의 적이 포함되어 있다면 사용자는 10 SP를 회복한다.
 
-## Wings of the Wind
+## 바람의 날개
 
-Character gains 25% Attack Speed and 25% Move Speed.
+캐릭터의 이동 속도 25% 증가, 공격 속도 25% 증가.
