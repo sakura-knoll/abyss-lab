@@ -1,9 +1,9 @@
-# Thunder Kikaku
+# 뇌도·귀각
 
-## Will-o'-the-Wisp
+## 뇌염의 귀화
 
-[SP 소모: 12][재사용 대기 시간: 25초] Shoots ghostfire that sticks to the target, dealing 640 Lightning DMG every 0.5s to the target and nearby enemies for 8.00s.
+[SP 소모: 12][재사용 대기 시간: 25초] 도깨비 불을 목표에게 붙여 8.00초 동안 0.5초마다 목표와 주변의 적에게 640의 뇌전 원소 대미지를 입힌다.
 
-## Futsuno Mitama
+## 후츠노미타마
 
-Character gains 30% Total DMG Multiplier. Under Burst mode, enemies hit become conductive, taking 60.0% more Lightning DMG for 7s.
+캐릭터가 가하는 대미지가 30% 증가한다. 폭발 상태에서 적을 적중 시 7초 동안 감전 상태로 만들고 받는 뇌전 원소 대미지를 60.0% 증가시킨다.
