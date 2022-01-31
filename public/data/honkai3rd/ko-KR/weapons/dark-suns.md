@@ -1,5 +1,5 @@
-# Dark Suns
+# 다크니스 핸드건
 
-## Light and Order
+## 율령의 빛
 
-Increases Ranged Physical DMG by 30%, however, the further away an enemy is, the less Physical DMG it'll receive. Damage is decreased by 10% per meter (up to 80%). Character gains 10.0% Move Speed.
+원거리 물리 대미지 30% 증가, 적과 거리가 멀어질수록 대미지가 감소한다, 1m마다 10%씩 감소하며, 최대 80%까지 감소된다. 캐릭터의 이동 속도 10.0% 증가.
