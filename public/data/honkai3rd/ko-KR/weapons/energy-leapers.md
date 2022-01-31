@@ -1,9 +1,9 @@
-# Energy Leapers
+# 에너지 트랜스퍼
 
-## Stun and Run
+## 스턴 트랜지션
 
-[SP 소모: 14][재사용 대기 시간: 16초] Drops a stun bomb and teleports backwards. The stun bomb then explodes, dealing 350% ATK of Physical DMG and generating a stun field that lasts for 4.50s.
+[SP 소모: 14][재사용 대기 시간: 16초] 후방으로 순간 이동하고 원래 있던 자리에 기절탄을 떨군다. 기절탄은 폭발하여 공격력의 350% 물리 대미지를 입히고 4.50초 동안 기절 역장을 생성한다.
 
-## Temporal Frenzy
+## 시공 홀릭
 
-When triggering global Time Fracture, character gains 80.0% Attack Speed and 25.0% Crit Rate for 4s. Said buffs are dispelled once Time Fracture ends.
+전체 시공 단열에 진입 후 4초 동안 자신의 공격 속도가 80.0%, 크리티컬률이 25.0% 증가한다. 시공 단열이 끝나면 효과는 사라진다.
