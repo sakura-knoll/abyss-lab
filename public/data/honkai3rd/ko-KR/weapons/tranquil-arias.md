@@ -1,9 +1,9 @@
-# Tranquil Arias
+# 바이올렛 아리아
 
-## Waning Moon
+## 저녁달의 속삭임
 
-When attacking enemies affected by Time Slow, deal 1,000 Physical DMG and 1,500 Ice DMG to target and nearby enemies. CD: 5.0s.
+시공 감속 상태의 적을 공격 시 타깃과 근처의 적에게 1,000 물리 대미지와 1,500 빙결 원소 대미지를 입힌다. 재사용 대기시간 5.0초.
 
-## Night Bringer
+## 암야의 사도
 
-Character gains 15% Physical and Elemental DMG. When deployed, character gains 50% Total DMG Multiplier for 5.0s. This buff triggers once every 30s when the character is deployed. Using the Ultimate skill resets the CD and immediately activates the buff.
+캐릭터의 물리와 원소 대미지 15% 증가. 출전 시, 5.0초 동안 캐릭터의 모든 대미지가 추가로 50% 증가한다. 스테이지에 있을 때 30초 지날 때마다 해당 버프를 1회 발동하고 필살기 사용 시 재사용 대기시간을 초기화하고 해당 버프 효과를 즉시 발동한다.
