@@ -1,5 +1,5 @@
-# Water Spirit Type-I
+# 물의 요정 I형
 
-## Fairy's Tears
+## 요정의 통곡
 
-Gain 40% Physical DMG when attacking targets knocked airborne.
+공중의 뜬 타깃을 공격 시 물리 대미지 40% 증가.
