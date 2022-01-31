@@ -1,13 +1,14 @@
-# Judgment of Shamash
+# 샤마시의 심판·총
 
-## Shamash Assault
+## 추켜올린 천화
 
-[SP 소모: 20][재사용 대기 시간: 35초] Smite the enemies in front of the character with the Judgment of Shamash. Enemies take 100% ATK + 1,984x2 Fire DMG, have their Attack and Move Speeds slowed by 30%, suffer 15% more Total DMG Multiplier from hits, receive 936 Fire DMG per second, and have a 10% chance of being stunned for 2.5s. Debuff duration: 15s.While activated, character gains Iron Body and 80% Total DMG Reduction. When the skill is active, character loses 13% Max HP/s for 5s but will not die from this effect. Skill cannot be cast when HP is below 33%.
+[SP 소모: 20][재사용 대기 시간: 35초] 전방에 샤마시의 심판의 힘을 폭발시켜 공격력의 100% + 2x1,984 화염 원소 대미지를 입히고, 적중된 적의 이동 속도를 30% 감소, 받는 모든 대미지를 15% 증가시키고 초당 936의 화염 원소 대미지를 입히며 10% 확률로 2.5초 동안 기절 시킨다. 방해 효과 지속 시간 15초.
+시전 중, 발키리는 슈퍼아머 상태가 되고 받는 모든 대미지가 80% 감소한다; 시전 후, 5초 동안 캐릭터의 HP가 1초마다 HP 최대치의 13%씩 감소한다. 캐릭터는 이 효과로 사망하지 않는다; HP가 33% 이하일 경우, 액티브 스킬을 발동할 수 없다.
 
-## Ember
+## 잔불
 
-10% chance of igniting nearby enemies every second, dealing 301 Fire DMG every 0.5s for 3.5s. Attacks against ignited enemies gain 18% Total DMG Multiplier.
+1초마다 주변의 적을 10% 확률로 연소 상태로 만들어 3.5초 동안 0.5초마다 301의 화염 원소 대미지를 입힌다; 연소 상태의 적에게 가하는 모든 대미지가 18% 증가한다.
 
-## Key of Destruction
+## 파괴의 열쇠
 
-In co-op raids, team attacks gain 20.0% Total DMG Multiplier and the team heals for 7.0% HP for 5.1s whenever a character uses a weapon skill.
+멀티 Raids 스테이지 중, 발키리가 무기 스킬 사용 후 모든 파티원이 가하는 모든 대미지가 20.0% 증가하고 5.1초 동안 자신의 HP가 초당 7.0%씩 회복한다.
