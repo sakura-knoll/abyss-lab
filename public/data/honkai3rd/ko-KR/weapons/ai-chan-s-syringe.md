@@ -1,9 +1,9 @@
-# Ai-chan's Syringe
+# 아이쨩의 주사기
 
-## Ai-chan's Grace
+## 아이쨩의 은혜
 
-[SP 소모: 7][재사용 대기 시간: 15초] Large crystals fall from the sky, attacking enemies in front and slowing their Move Speed by 70% for 7.0s.
+[SP 소모: 7][재사용 대기 시간: 15초] 하늘에서 거대한 수정이 떨어져서 전방의 적을 다운시키고 7.0초 동안 이동 속도를 70% 감소시킨다.
 
-## Ai-chan's Vision
+## 아이쨩의 시선
 
-Hits gain 43 Ice DMG.
+적중 시 43의 빙결 원소 대미지를 추가한다.
