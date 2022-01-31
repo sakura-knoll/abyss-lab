@@ -1,9 +1,9 @@
-# Starry Woofers
+# 별하늘의 음파
 
-## Soul Wave
+## 영혼의 열파
 
-[SP 소모: 14][재사용 대기 시간: 15초] Attacks against an enemy at front deals 300% ATK of Physical DMG. For the next 15s, every Sparkling Star picked up by the team adds a 50% ATK of Physical DMG boost to the skill.[Concert Stage] When picking up a Sparkling Star, all characters gain 10% Move Speed and 10% Physical DMG for 5s. Effect cannot stack.
+[SP 소모: 14][재사용 대기 시간: 15초] 전방의 적을 공격하여 공격력의 300% 물리 대미지를 입힌다, 15초 내에 파티원이 반짝이는 별을 하나씩 습득할 때마다 해당 스킬의 물리 대미지가 50%씩 증가한다.[스테이지] 반짝이는 별 습득 시 5초 동안 스테이지에 있는 모든 발키리의 이동 속도와 물리 대미지가 10% 증가한다. 해당 효과는 하나만 발동할 수 있고 중첩되지 않는다.
 
-## Sparkling Star
+## 반짝이는 별
 
-When the character is deployed, 1 Sparkling Star appears nearby every 3s. Sparkling Star lasts 4.5s. When picking up the Sparkling Star, deal 200% ATK of Physical DMG to a random, nearby target and enemies surrounding it.
+발키리가 스테이지에 있을때, 3초마다 주변에 4.5초동안 존재하는 반짝이는 별이 생긴다. 반짝이는 별을 습득 시, 주변에 있는 무작위 적과 그 주변에 있는 적에게 공격력의 200% 물리 대미지를 입힌다.
