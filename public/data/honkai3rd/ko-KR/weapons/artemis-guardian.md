@@ -1,5 +1,5 @@
-# Artemis' Guardian
+# 달신의 가호
 
-## Sickle's Ascent
+## 초승달 승천
 
-[SP 소모: 12][재사용 대기 시간: 12초] Knocks enemies near the target airborne and applies Time Lock for 3.30s.
+[SP 소모: 12][재사용 대기 시간: 12초] 목표 주변의 적을 띄우고 3.30초 동안 시공 속박 상태로 만든다.
