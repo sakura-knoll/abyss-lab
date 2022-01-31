@@ -1,13 +1,13 @@
-# Tranquil Rhapsody
+# 유야의 랩소디
 
-## Night Phantom
+## 암월 속의 그림자
 
-[SP 소모: 0][재사용 대기 시간: 20초] Hold the weapon active button to enter Nightwalk mode (last 2s), during which the wielder is immune to attack; release the button to make wielder reappear and leap backwards pulling in enemies around her and dealing 1000% ATK of AOE Ice DMG. If wielded by Sixth Serenade, she will gain 300 points of Nachtsicht upon entering Nightwalk mode; in Nightwalk mode, she gains another 300 points of Nachtsicht (once during each skill span) and deals 200% ATK of Ice DMG when passing through an enemy; after casting the weapon active, tap [ATK] to immediately unleash her Combo ATK at no Nachtsicht cost.
+[SP 소모: 0][재사용 대기 시간: 20초] 무기 스킬 버튼을 길게 누르면 2초 간 유령 상태에 진입해 적의 공격을 받지 않는다. 버튼을 떼면 캐릭터가 원래대로 돌아오면서 백스텝을 시전하고, 주위의 적을 몸 주변으로 끌어들여 공격력 1,000%의 범위 빙결 원소 대미지를 입힌다. 제6야상곡이 사용하면 유령 상태에 진입할 때 즉시 300pt의 야안을 획득한다, 유령 상태에서 적을 관통해 공격력 200%의 빙결 원소 대미지를 입히고 추가로 300pt의 야안을 획득한다(시전 중 1회 제한). 무기 액티브 스킬을 사용한 후에 기본 공격 버튼을 누르면 바로 분기 공격을 1회 발동하며 야안을 소모하지 않는다.
 
-## Dirge of Totenmond
+## 망월의 노래
 
-After unleashing the weapon active or Ultimate, the wielder deals 40.0% more Total DMG for 9s; CD: 15.
+무기 액티브 스킬 혹은 필살기 사용 후 9초 동안 모든 대미지가 40.0% 증가한다. 재사용 대기시간: 5초.
 
-## Frost Raven
+## 고요한 밤의 까마귀
 
-The wielder deals 40.0% more Ice DMG and her QTE deals 40.0% more Total DMG; if wielded by Sixth Serenade, her Raven Mark deals 40.0% more Ice DMG, and she significantly gains Ignore Interrupt for 5s after unleashing weapon active or Combo ATK.
+빙결 원소 대미지가 40.0% 증가하고 캐릭터의 QTE 공격이 가하는 모든 대미지가 30.0% 증가한다. 제6야상곡 사용 시 까마귀 깃털 표식이 가하는 빙결 원소 대미지가 추가로 30.0% 증가하고 무기 액티브 스킬과 분기 공격을 사용한 후 5초 동안 경직 저항력이 대폭 상승한다.
