@@ -1,9 +1,9 @@
-# Jingwei's Wings
+# 정위의 날개
 
-## Sealing Feather
+## 봉인된 화염의 날개
 
-[SP 소모: 18][재사용 대기 시간: 25초] Summons a meteor shower to smite random enemies. Deals 90% ATK of Physical DMG and ignites them to cause 97 Fire DMG every 0.5s for 1.5s. This meteor shower lasts 12s.
+[SP 소모: 18][재사용 대기 시간: 25초] 불타는 하늘에서 유성이 무작위의 적에게 떨어져 폭발한다. 적에게 공격력 90%의 물리 대미지를 입히고 1.5초 동안 연소 상태로 만들어 0.5초마다 97의 화염 원소 대미지를 입힌다; 유성우 지속 시간: 12초.
 
-## Endless
+## 무한
 
-For each repeated hit on the same target (target resets if no attacks occur in 2.5s), the next attack gains 2.0% Crit Rate (caps at 20%) and 5.0% Crit DMG (caps at 50%).
+지속해서 동일 타깃을 공격 시(2.5초 내로 공격하지 않으면 타깃 초기화), 공격할 때마다 크리티컬률이 2.0%, 크리티컬 대미지가 5.0% 증가하며 각각 최대 20%, 50%까지 증가시킬 수 있다.
