@@ -1,5 +1,5 @@
-# Isaac Newton (상)
+# 아이작·뉴턴 (상)
 
-##
+## 제1법칙
 
-Gain 46% Melee Physical DMG. When hit by enemies 2 times, impose a 10.0s CD for this buff.
+근접 물리 대미지 46% 증가, 적에게 2회 피격 시 10.0초의 재사용 대기시간을 가진다.
