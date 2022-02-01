@@ -1,5 +1,5 @@
-# Allan Poe (상)
+# 엘런·포 (상)
 
-##
+## 검은 고양이
 
-Gain 18.0% Crit Rate. If there are 2 or more enemies present, 2.0%*n of the bonus Crit Rate will convert into 4.0%*n bonus Physical DMG (n=the number of enemies present, and n≤5).
+크리티컬률이 18.0% 증가한다. 전장의 적이 1기 이상일 때, 적 1기마다 크리티컬률 2.0% 증가가 물리대미지 4.0% 증가로 전환된다 (최대 5회 전환).
