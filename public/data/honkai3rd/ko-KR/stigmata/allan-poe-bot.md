@@ -1,5 +1,5 @@
-# Allan Poe (하)
+# 엘런·포 (하)
 
-##
+## 풍선 사기극
 
-Attack speed increases by 25.0%. CD of Ultimate Evasion shortens by 15.0%.
+공격 속도가 25.0% 증가하고, 극한 회피 스킬의 재사용 대기시간이 15.0% 감소한다.
