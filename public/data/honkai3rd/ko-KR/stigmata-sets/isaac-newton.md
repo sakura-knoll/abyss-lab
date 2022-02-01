@@ -1,11 +1,11 @@
-# Isaac Newton
+# 아이작·뉴턴
 
-Laws of Motion Set
+역학 3법칙 세트
 
-## Spectral Jet 2 세트
+## 반사 스펙트럼 2 세트
 
-Basic ATKs (including Combo and Charged ATKs) have a 10% chance to inflict one the following debuffs for 6.0s: paralyze, freeze, stun, slow, ignite, impair, and weaken. CD: 2.0s.
+기본 공격(분기와 차지 공격 포함) 시 10% 확률로 적을 6.0초 동안 마비, 빙결, 기절, 감속, 연소, 취약, 허약 중 한 가지 상태로 만든다, 재사용 대기시간 2.0초.
 
-## Deadly Acceleration 3 세트
+## 치명적인 가속 3 세트
 
-For every 1.0s, Basic ATK (including Combo and Charged ATKs) gains 20% Total DMG Multiplier. Stacks up to 5 times. Attacking resets the buff and initiates a 7s CD.
+1.0s초마다 다음 기본 공격(분기와 차지 공격 포함)의 모든 대미지가 20% 증가한다, 최대 5회 중첩. 공격이 끝난 후 짧은 시간이 지나면 버프가 사라지고 7초의 재사용 대기시간을 가진다.
