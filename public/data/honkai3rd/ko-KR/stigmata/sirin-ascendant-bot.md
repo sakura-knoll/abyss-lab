@@ -1,5 +1,5 @@
-# Sirin - Ascendant (하)
+# 시린·승화 (하)
 
-##
+## 공간의 실드
 
-Upon entering battle, generate a Space Shield. When hit by enemy, reduces all Elemental DMG by 300. Shield then disappears and enters a CD of 6s. When shield is standing, the host gains 20% Attack Speed and 15% Physical DMG.
+전투 진입 시 공간 실드를 생성해 적에게 공격받는 모든 원소 대미지가 300pt 감소한다. 실드가 사라지면 6초의 재사용 대기 시간에 돌입한다. 실드가 존재하는 동안 공격 속도가 20%, 물리 대미지가 15% 증가한다.
