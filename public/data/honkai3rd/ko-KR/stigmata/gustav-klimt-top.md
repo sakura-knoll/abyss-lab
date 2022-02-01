@@ -1,5 +1,5 @@
-# Gustav Klimt (상)
+# 구스타프·클림트 (상)
 
-##
+## 저주 감지
 
-Gain 20% Physical DMG. Hits taken from an enemy affected by Hematic Curse gain 20% Total DMG Reduction.
+물리 대미지가 20% 증가한다. 혈혼 저주 상태의 적에게 받는 모든 대미지가 20% 감소한다.
