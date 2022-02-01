@@ -1,5 +1,5 @@
-# Jin Shengtan (하)
+# 김성탄 (하)
 
-##
+## 소탈
 
-Gain 15% Attack Speed. Allies in the Blue Phoenix Aura gain 20% Total DMG Reduction. This effect cannot stack.
+공격 속도가 15% 증가한다. 청란 결계 중 아군이 받는 모든 대미지가 20% 감소한다(해당 효과는 하나만 발동한다).
