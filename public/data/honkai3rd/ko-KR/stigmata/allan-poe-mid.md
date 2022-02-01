@@ -1,5 +1,5 @@
-# Allan Poe (중)
+# 엘런 포 (중)
 
-##
+## 까마귀
 
-After spending 3/33/63 SP in one action, Crit DMG of Basic Attacks (including Combo ATKs and Charged ATKs) increases by 50.0%/60.0%/70.0%. This effect lasts until the next trigger.
+한 번에 소모한 SP가 최소 3/33/63일 경우, 일반 공격(분기와 차지 포함)의 크리티컬 대미지가 50.0%/60.0%/70.0% 상승한다(다음 효과 발생떄까지 지속).
