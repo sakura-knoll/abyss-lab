@@ -1,5 +1,5 @@
-# Shakespeare - Adrift (하)
+# 셰익스피어·표류 (하)
 
-##
+## 한여름의 꿈
 
-Boosts Fire DMG by 25.0%. Raising or refreshing Alignment restores 3.0 SP.
+화염 원소 대미지가 25.0% 증가한다. 별자리가 증가 또는 리셋될 때 SP를 3.0pt 회복한다.
