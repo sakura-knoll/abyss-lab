@@ -1,11 +1,11 @@
-# Dickens
+# 디킨스
 
-Pen of Critic Set
+비판의 펜 세트
 
-## Foe of Industrialists 2 세트
+## 속세의 괴로움 2 세트
 
-Basic, Combo, and Charged ATKs deal 20.0% bonus Physical DMG and an additional 15.0% bonus Physical DMG against MECH enemies. Casting Ultimate boosts Total DMG of Basic, Combo, and Charged ATKs by 20.0% for 8s. Can be refreshed
+기본 공격(분기와 차지 공격 포함)의 물리 대미지가 20.0% 증가하고, 기계 목표에게는 15.0% 추가로 증가한다. 필살기 시전 후 강화를 얻어 기본 공격(분기와 차지 공격 포함)의 모든 대미지가 8초간 20.0% 상승한다. 갱신 가능
 
-## Social Truth 3 세트
+## 현실 묘사 3 세트
 
-Casting Ultimate reduces Total DMG taken by 30.0% and improves Ignore Interrupt for 8s. When equipped by the Olenyevas, charges of an individual stigmata start at 5 and max at 8. The starting charge bonus can proc once every 10 min in Open World.
+필살기 사용 후 8초간 받는 모든 대미지가 30.0% 감소하고 경직 저항력이 증가한다. 아린 자매 사용 시, 이 성흔 세트의 단일 충전 한도가 8까지 상승하고, 전투 초기에 5회 충전을 획득한다. 오픈 월드에서는 10분당 1회 발동한다.
