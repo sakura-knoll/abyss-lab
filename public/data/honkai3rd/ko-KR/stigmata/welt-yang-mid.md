@@ -1,5 +1,5 @@
-# Welt Yang (중)
+# 웰트·양 (중)
 
-##
+## 신념
 
-Gain 20% Ice DMG. Every hit (CD: 0.3s) on the enemy causes it to take 1.0% more Ice DMG from the host for 5s. Max stacks: 10. Each stack gained resets the duration.
+빙결 원소 대미지가 20% 증가하고 매 공격이(재사용 대기시간 0.3초) 적에게 적중할 때마다 5초간 적이 해당 캐릭터에게 받는 빙결 원소 대미지가 1.0% 씩 증가한다. 최대 10회 중첩, 중첩할 때마다 지속 시간을 초기화한다.
