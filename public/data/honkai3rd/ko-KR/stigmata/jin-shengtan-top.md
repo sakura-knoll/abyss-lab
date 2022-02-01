@@ -1,5 +1,5 @@
-# Jin Shengtan (상)
+# 김성탄 (상)
 
-##
+## 유전
 
-Gain 40% DEF in battle. Allies in the Blue Phoenix Field gain 15% All Elemental DMG. Effect cannot be stacked.
+전투 중 방어력이 40% 증가한다. 청란 결계 중 아군이 가하는 모든 원소 대미지가 15% 증가한다(해당 효과는 하나만 발동한다).
