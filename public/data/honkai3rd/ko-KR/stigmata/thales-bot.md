@@ -1,5 +1,5 @@
-# Thales (하)
+# 탈레스 (하)
 
-##
+## 헤일로
 
-Gain 15% Attack Speed. For every Combo Hit Count, the host receives 1.5% less Physical DMG from hits taken. Stacks up to 10 times.
+공격 속도가 15% 증가한다, 콤보 수가 1 증가할 때마다 적에게 받는 물리 대미지가 1.5% 감소한다. 최대 10회 중첩.
