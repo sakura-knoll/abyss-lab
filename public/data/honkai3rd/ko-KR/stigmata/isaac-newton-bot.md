@@ -1,5 +1,5 @@
-# Isaac Newton (하)
+# 아이작·뉴턴 (하)
 
-##
+## 제3법칙
 
-Attacks on the enemy initiates Challenge Mode that lasts 5.0s. During Challenge Mode, attacks gain 41% Total DMG Multiplier but hits taken also gain 31%. CD: 10s.
+적을 공격하면 적은 5.0초 동안 도전 상태에 진입한다. 도전 상태에서는 가하는 모든 대미지가 41%, 받는 모든 대미지가 31% 증가한다. 재사용 대기시간 10초.
