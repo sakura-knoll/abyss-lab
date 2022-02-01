@@ -1,11 +1,11 @@
-# Welt Yang
+# 웰트·양
 
-AE Sovereign Set
+네겐트로피 맹주 세트
 
-## Tenacity 2 세트
+## 불굴 2 세트
 
-Each 15 non-Charged ATK gives a Charged ATK buff: Next Charged ATK and following Charged ATK for 5s gain 60% Total DMG Multiplier. Count ends after the buff ends. Host directly gains Charged ATK buff when entering battle (triggers 1 time per battle).
+비(非)차지 공격 시 15회마다 차지 공격이 1회 강화 된다. 다음 차지 공격과 그 후 5초 동안 시전하는 차지 공격의 모든 대미지가 60% 증가한다. 차지 강화 상태가 종료되면 카운트가 초기화 된다. 캐릭터가 전투에 진입 시(전투마다 최대 1회) 바로 차지 강화 상태에 진입한다.
 
-## Anti-Entropy 3 세트
+## 네겐트로피 3 세트
 
-Gain 40% Ice DMG. For 16s after casting the Ultimate, Charged ATKs will generate a 3s Gravity Vortex that pulls-in nearby enemies. CD: 4s.
+빙결 원소 대미지가 40% 증가한다. 필살기 발동 후 16초 동안 차지 공격은 3초간 지속하는 인력의 소용돌이를 생성하고, 주변의 적을 끌어당긴다. 재사용 대기시간: 4초.
