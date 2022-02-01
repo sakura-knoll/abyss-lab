@@ -1,5 +1,5 @@
-# Thales (중)
+# 탈레스 (중)
 
-##
+## 백반
 
-Gain 20% Total DMG Multiplier. Every hit (CD: 0.3s) on the enemy will cause it to take 2.0% more Fire DMG from the host for 5s. Stacks up to 10 times. Each stack gained resets the duration.
+모든 대미지 20% 증가, 공격이(재사용 대기시간 0.3초) 적에게 적중할 때마다 5초 동안 적이 해당 캐릭터에게 받는 화염 원소 대미지가 2.0%씩 증가한다. 최대 10회 중첩, 중첩할 때마다 지속 시간을 초기화 한다.
