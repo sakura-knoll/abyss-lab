@@ -1,5 +1,5 @@
-# Shuijing (상)
+# 수경 (상)
 
-##
+## 목우
 
-Team deals 8.0% bonus Physical DMG (cannot stack). QTE boosts team Physical DMG by 8.0% on hit for 8s (cannot stack but can be refreshed). While Recommendation is active, duration is extended by 4s.
+모든 파티원의 물리 대미지 8.0% 증가(해당 효과는 하나만 발동할 수 있다). QTE 공격이 적에게 명중 시 모든 파티원의 물리 대미지가 8초 동안 8.0% 증가한다(해당 효과는 하나만 발동할 수 있다). 리셋 가능. 천재 (薦才) 발동 시 지속 시간 4초 증가.
