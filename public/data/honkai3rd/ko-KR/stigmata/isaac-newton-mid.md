@@ -1,5 +1,5 @@
-# Isaac Newton (중)
+# 아이작·뉴턴 (중)
 
-##
+## 제2법칙
 
-Upon being hit and injured by an enemy, gain 41% Move Speed and a shield that absorbs 21% Max HP worth of incoming DMG. Shield duration: 4.0s. CD: 15s.
+적에게 피격당해 대미지를 입으면 이동 소곧가 41% 증가하고, 최대 HP의 21%만큼 대미지를 흡수하는 실드를 획득한다. 지속시간 4.0초, 재사용 대기시간: 15초.
