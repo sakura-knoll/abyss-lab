@@ -1,5 +1,5 @@
-# Kafka (중)
+# 카프카 (중)
 
-##
+## 성루
 
-Upon scoring a Crit hit, the host gains a 5.0% Physical DMG buff for 5s (Max stack: 8). Duration of each stack will not be affected by other stacks.
+크리티컬 시 5초간 물리 대미지가 5.0% 증가한다. 최대 8회 중첩. 매 중첩 효과의 지속 시간은 독립적으로 계산된다.
