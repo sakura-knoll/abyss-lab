@@ -1,5 +1,5 @@
-# Dirac (중)
+# 디랙 (중)
 
-##
+## 경로 적분
 
-Ultimate/Burst ATKs deal 26.0% more Total DMG. During Burst mode, the host gains 26.0% Total DMG, and gain another 1.5% Total DMG per second after unleashing Ultimate or entering Burst Mode; stacks up to 9 times; lasts 9s, during which the effect cannot be triggered again.
+필살기와 폭발 상태 공격의 모든 대미지가 26.0% 증가한다. 폭발 상태일 때 모든 대미지가 26.0% 증가하고, 필살기 발동 혹은 폭발 상태 진입 시, 1초마다 모든 대미지가 추가로 1.5% 증가한다(최대 9회 중첩, 지속 시간 9초). 효과가 지속되는 동안 다시 발동할 수 없다.
