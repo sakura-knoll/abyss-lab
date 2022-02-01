@@ -1,5 +1,5 @@
-# Jin Shengtan (중)
+# 김성탄 (중)
 
-##
+## 성에
 
-When undeployed, team gains 15% Ice Resistance and 15% Ice DMG (effect cannot stack). When deployed, character gains 35% Ice DMG.
+대기 중에 파티원의 15% 빙결 원소 저항력과 15% 빙결 원소 대미지를 증가시킨다(해당 효과는 하나만 발동한다). 출전 후 자신의 빙결 원소 대미지가 35% 증가한다.
