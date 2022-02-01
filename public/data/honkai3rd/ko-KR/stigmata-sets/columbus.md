@@ -1,11 +1,11 @@
-# Columbus
+# 콜럼버스
 
-Children Set
+적합자 세트
 
-## Combat Sync 2 세트
+## 전술 싱크 2 세트
 
-When Charged ATKs hit, if there is no more than one enemy within 8m, host deals 45.0% bonus Total DMG for 6s.
+차지 공격이 목표에게 명중 시, 캐릭터를 중심으로 8m 이내에 목표가 1명을 초과하지 않았을 경우 캐릭터 자신의 모든 대미지가 45.0% 증가한다. 지속 시간: 6초.
 
-## Battle-tested 3 세트
+## 백전연마 3 세트
 
-Charged ATKs deal 200.0% ATK of bonus Physical DMG. CD: 6s. Asuka equip bonus: Charged ATKs deal 40.0% bonus Physical DMG and in enhanced form, the CD drops to 3s.
+차지 공격은 목표에게 공격력 200.0%의 물리 대미지를 가한다. 재사용 대기시간: 6초. 아스카가 사용 시 자신의 차지 공격이 가하는 물리 대미지가 40.0% 증가하며, 강화 상태일 때 가하는 추가 대미지의 재사용 대기시간이 3초로 단축된다.
