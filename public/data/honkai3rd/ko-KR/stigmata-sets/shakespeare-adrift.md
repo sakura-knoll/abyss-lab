@@ -1,11 +1,11 @@
-# Shakespeare - Adrift
+# 셰익스피어·표류
 
-Traveling Skipper
+유랑 선장 세트
 
-## Shakespeare's Globe 2 세트
+## 세계 극장 2 세트
 
-Boosts Fire DMG by 20.0%. Landing an Ultimate within 4s after its cast raises Alignment by 1 (4 levels in total: Jove/Venus/Luna/Sol). Alignment drops by 1 every 10s and can be refreshed at level 4. Alignment 4 (Sol) makes enemies take 20.0% bonus Fire DMG from host (independent effect).
+화염 원소 대미지가 20.0% 증가한다. 캐릭터가 필살기를 사용할 때마다, 그리고 4초 이내의 적에게 적중할 때마다 별자리가 1레벨씩 오른다. 주피터/비너스/루나/솔 이렇게 총 4개 레벨이 존재하며, 별자리는 10초마다 1레벨씩 감소하고, 최대 레벨 도달 시 갱신할 수 있다. 별자리가 솔에 도달하면 적이 해당 캐릭터에게 받는 화염 원소 대미지가 20.0% 증가한다(해당 효과는 독립적인 추가 효과로 간주한다).
 
-## King's Men 3 세트
+## 국왕 극단 3 세트
 
-Boosts Ultimate's Total DMG by 30.0%. Raising or refreshing Alignment restores 30.0 HP. Durandal equip bonus: Ultimates deal 15.0% bonus Total DMG. Landing a Throw or QTE raises Alignment by 1.
+필살기의 모든 대미지가 30.0% 증가한다. 별자리 증가 또는 리셋 시 캐릭터는 HP를 30.0pt 회복한다. 듀란달이 장비 시 필살기의 모든 대미지가 추가로 15.0% 증가하고, 던지기 혹은 QTE 공격이 적에게 적중 시 별자리가 1레벨 증가한다.
