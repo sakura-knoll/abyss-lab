@@ -1,5 +1,5 @@
-# Kafka (상)
+# 카프카 (상)
 
-##
+## 숙고
 
-Upon scoring a Crit hit, the host gains a 2.5% Total DMG Multipler and 2.5% Crit DMG buff for 5s (Mad stack: 8). Duration of each stack will not be affected by other stacks.
+크리티컬 시 5초간 모든 대미지 2.5% 증가와 크리티컬 대미지가 2.5% 증가한다. 최대 8회 중첩. 매 중첩 효과의 지속 시간은 독립적으로 계산된다.
