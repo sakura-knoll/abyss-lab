@@ -1,5 +1,5 @@
-# Welt Yang (상)
+# 웰트·양 (상)
 
-##
+## 맹주
 
-Gain 20% Total DMG Multiplier. Herrscher Form: Gain 50% Ice DMG.
+모든 대미지가 20% 증가하고 율자 형태에서는 빙결 원소 대미지가 50% 증가한다.
