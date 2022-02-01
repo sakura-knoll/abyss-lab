@@ -1,5 +1,5 @@
-# Columbus (상)
+# 콜롬버스 (상)
 
-##
+## 항해사
 
-Host deals 20.0% bonus Physical DMG and after landing a Charged ATK, she deals 30.0% bonus Crit DMG for 4s (can be refreshed).
+물리 대미지가 20.0% 증가하고, 차지 공격이 목표 적중 시 4초 동안 캐릭터 크리티컬 대미지가 30.0% 증가한다.(갱신 가능)
