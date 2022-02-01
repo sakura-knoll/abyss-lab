@@ -1,11 +1,11 @@
-# Dirac
+# 디랙
 
-Quantum Waltz Set
+양자 왈츠 세트
 
-## 2nd Quantization 2 세트
+## 정준 양자화 2 세트
 
-If any 2 stigmata effects are active, gain 35.0% Physical DMG. When this effect is triggered, the durations of both stigmata effects are reset and extended to 14s.
+임의의 두 성흔의 효과가 동시에 존재하면 물리 대미지가 35.0% 증가한다. 효과가 발동하면 두 상태의 지속 시간을 다시 계산하고 효과 지속 시간을 14초 연장한다.
 
-## Dirac Equation 3 세트
+## 디랙 방정식 3 세트
 
-If all 3 stigmata effects are active, Ultimate/Burst mode ATKs also apply Impair to non-impaired enemies on hit, lowering their DEF by 50.0% for 3s. When this effect is triggered, the durations of all 3 stigmata effects are reset and extended to 18s.
+성흔의 효과가 3개 동시에 존재하면 필살기와 폭발 상태의 공격이 취약 상태가 아닌 적을 명중 시 방어력이 50.0% 감소한다, 지속 시간 3초. 효과가 발동하면 세 상태의 지속 시간을 다시 계산하고 효과 지속 시간을 18초 연장한다.
