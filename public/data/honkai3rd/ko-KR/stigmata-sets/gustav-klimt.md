@@ -1,11 +1,11 @@
-# Gustav Klimt
+# 구스타프·클림트
 
-Accursed Shadows Set
+저주의 그림자 세트
 
-## Blood Curse 2 세트
+## 선혈의 저주 2 세트
 
-Upon using weapon active skill (CD:16s), apply a 8s Hematic Curse to enemies within a 6-meter AOE center on self. Enemies affected by Hematic Curse take 10% more Physical DMG.
+무기 액티브 스킬 사용 후(재사용 대기시간 16초) 주변 반경 6m 내의 적을 8초 동안 혈혼 저주 상태로 만든다. 혈혼 저주 상태의 적이 받는 물리 대미지가 10% 증가한다.
 
-## Soul Shield 3 세트
+## 영혼의 가호 3 세트
 
-Character takes 50% less indirect DMG. Hematic Curse duration is extended by 2s.
+받는 간접 대미지가 50% 감소하고 혈혼 저주의 지속 시간 2초 연장된다.
