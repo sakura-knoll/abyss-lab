@@ -1,5 +1,5 @@
-# Holmes (중)
+# 셜록 홈즈 (중)
 
-##
+## 스트라디바리
 
-All team members' QTEs deal 18.0% bonus Total DMG against bleeding enemies (cannot be stacked).
+파티원 QTE가 출혈 상태의 적에게 명중 시, QTE가 가하는 대미지가 18.0% 증가한다. (1개만 적용).
