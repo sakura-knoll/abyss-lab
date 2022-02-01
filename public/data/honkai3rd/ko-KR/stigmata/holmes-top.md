@@ -1,5 +1,5 @@
-# Holmes (상)
+# 셜록 홈즈 (상)
 
-##
+## 221B
 
-Host deals 18.0% bonus Total DMG and host-inflicted Bleed lasts 36.0% longer.
+자신의 모든 대미지가 18.0% 증가하고, 자신이 가하는 출혈 상태 지속 시간이 36.0%초 증가한다.
