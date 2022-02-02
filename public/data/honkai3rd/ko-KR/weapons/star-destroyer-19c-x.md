@@ -1,14 +1,13 @@
-# Star Destroyer 19C-X
+# 행성 파괴자 19C-X
 
-## Total Coverage
+## 빈틈없는 총알비
 
-[SP 소모: 0][재사용 대기 시간: 16초] Charge to enter the barrage mode and unleash up to 8 Charged ATKs; each Charged ATK shoots 9 bullets with each bullet dealing 22.0% ATK of Physical DMG. If wielded by Black Nucleus, she can aim in over-the-shoulder view by dragging the button; when she casts the weapon active under Invisibility, her Crit Rate increases by 40.0% and the weapon active's CD shortens by 6.0s.
+[SP 소모: 0][재사용 대기 시간: 16초] 차지하여 연사모드에 진입하여 연속으로 8발의 탄알을 발사하고, 매 탄알마다 공격력 22.0%의 물리 대미지를 입힌다. 이도 흑핵 침식이 사용 시, 오버 더 숄더 숏 시점에 진입힌다. 버튼을 이동해 조준할 수 있고, 은신 상태에서 빈틈없는 총알비의 크리티컬률이 40.0% 증가하며 무기 스킬의 재사용 대기시간이 6.0초 감소한다.
 
-## Shockwave Missiles
+## 진동·유도 미사일
 
-Launches homing missiles at multiple targets. DMG dealt slightly decreases if it hits the same target again.
-1 stack: 2 missiles2 stacks: 6 missiles3 stacks: 13 missilesUnder the barrage mode, the wielder's Crit DMG increases by 60.0% when the target is less than 5 meters away.
+다수의 타깃을 조준하여 미사일을 발사한다. 동일한 적에게 많이 명중하면 위력이 조금 줄어든다. 차지 1단: 2발, 2단: 6발, 3단: 13발. 연발 모드에서 적과의 거리가 5미터 이내일 때 크리티컬 대미지가 60.0% 증가한다.
 
-## Polarized Munitions
+## 편광 방사
 
-Under the barrage mode, the wielder's Total DMG increases by 40.0%, and each shot boosts all subsequent shots' Physical DMG by 8.0%. This effect can stack and will be removed when the barrage mode ends.
+연발 모드일 때 사격으로 가하는 모든 대미지가 40.0% 증가하고 사격할 때마다 후속 사격으로 가하는 물리 대미지가 8.0%씩 증가한다. 중첩 가능하고 연사 종료 시 효과가 사라진다.

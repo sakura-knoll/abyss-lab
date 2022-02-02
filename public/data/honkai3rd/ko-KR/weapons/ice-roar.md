@@ -1,12 +1,9 @@
-# Ice Roar
+# 얼어붙은 포효
 
-## Heavy Cannon
+## 중형 화포
 
-Heavy Cannon. Longer charging time. Basic attacks gain 50% Physical DMG.
-1st Sequence: Single shot.
-2nd Sequence: Empowered double shot.
-3rd Sequence: Super-powered triple shot.
+중포, 차지 시간이 아주 길며 기본 공격의 물리 대미지가 50% 증가한다. 1단: 포탄 한 개, 2단: 강력한 포탄 두 개, 3단: 초강력 포탄 세 개.
 
-## Icebound
+## 얼음 봉인
 
-Hitting an enemy has a 40.0% chance to freeze it for 3s. CD: 9.00s.
+공격 시 40.0% 확률로 적을 3초 동안 빙결 상태로 만든다, 재사용 대기시간 9.00초.

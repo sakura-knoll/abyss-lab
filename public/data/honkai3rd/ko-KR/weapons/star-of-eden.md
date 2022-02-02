@@ -1,17 +1,14 @@
-# Star of Eden
+# 에덴의 별
 
-## Heavy Cannon
+## 해비 케논
 
-Charged Cannon.
-1st Sequence: Single shot.
-2nd Sequence: Empowered double shot.
-3rd Sequence: Super-powered triple shot.
-Enemies hit by the last shot from the 3rd charge sequence has 20.0% chance to be stunned for 3.5s.
+축적포, 1단: 포탄 한 개, 2단: 강력한 포탄 두 개, 3단: 초강력 포탄 세 개.
+3단 차지 후 마지막 일격 명중 시 적은 20.0% 확률로 3.5 초 동안 기절 시킨다.
 
-## Lost Paradise
+## 실낙원
 
-Enemies hit by the last shot from the 3rd charge sequence takes an additional 600 Physical DMG, and deals 200 Physical DMG to surrounding enemies (not including self) within 0.5s.
+3단 차지의 마지막 일격이 적에게 적중 시 추가로 600 물리 대미지를 입힌다, 또한 0.5초 후 주변에 있는 적에게(자신을 포함하지 않음) 200 물리 대미지를 입힌다.
 
-## Key of the Devourer
+## 탄서의 열쇠
 
-In co-op raids, character gains 40.0% Crit DMG and 5.0% Crit Rate.
+멀티 Raid 스테이지 중, 발키리의 크리티컬 대미지가 40.0% 증가하고 크리티컬률이 5.0% 증가한다.

@@ -1,17 +1,15 @@
-# Domain of Revelation
+# 진리지경: 계시
 
-## Divine Masterplan
+## 천계의 청사진
 
-Charged cannon. 1st Sequence: Single shot.
-2nd Sequence: Empowered double shot.
-3rd Sequence: Super-powered triple shot.
-Wielder deals 40.0% bonus Ice DMG. Herrscher of Reason equip bonus: Triggering Ultimate Evasion skill creates 3 hover guns and each deals 3x60.00% ATK of Ice DMG.
+축적포, 1단: 포탄 한 발, 2단: 강력한 포탄 두 발, 3단: 초강력 포탄 세 발.
+발키리가 가하는 빙결 원소 대미지가 40.0% 증가한다. 이치의 율자가 사용할 때, 극한 회피 스킬 발동 시 3개의 부유포가 생성되고, 부유포마다 목표에게 공격력 3x60.00%의 빙결 원소 대미지를 입힌다.
 
-## Structural Truth
+## 구조의 이치
 
-[SP 소모: 0][재사용 대기 시간: 20초]Unleash a constructor matrix attack dealing 3x600.0% ATK of Ice DMG. Final hit freezes enemies for 6s. Casting the skill boosts wielder's Total DMG by 40.0% for 7s.Herrscher of Reason equip bonus: Active skill renders enemies Analyzed for 7s and restores 180 Konstruktyom in 3s.
+[SP 소모: 0][재사용 대기 시간: 20초] 구조 어레이로 적을 공격하여 공격력 3x600.0%의 빙결 원소 대미지를 입히며, 마지막 일격은 적을 6.0초간 얼린다. 사용 후 캐릭터가 가하는 모든 대미지가 7초간 40.0% 증가한다. 이치의 율자가 사용 시 액티브 스킬은 적을 7초 동안 해석 상태로 만들고, 3초 동안 자신의 구조 에너지를 180pt 회복한다.
 
-## Total Analysis
+## 만물 해석
 
-Charged and Ultimate ATKs deal 30.0% bonus Total DMG.
-Herrscher of Reason equip bonus: Charged ATKs restore 3.0 SP in non-bike mode.
+차지 공격과 필살기 공격의 모든 대미지가 30.0% 증가한다.
+이치의 율자가 장비 시, 라이드 상태가 아닐 때의 차지 공격은 SP를 3.0pt 회복한다.

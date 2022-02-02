@@ -1,13 +1,10 @@
-# Dumpling Wrapper
+# 종엽수노
 
-## Sticky Rice Cannon
+## 찹쌀·경형 화포
 
-Light-weight cannon with short charging time. Basic attacks have 30% less Total DMG Multiplier.
-1st Sequence: Single shot.
-2nd Sequence: Empowered double shot.
-3rd Sequence: Super-powered triple shot.
-Enemies hit by shells of the 2nd and 3rd charge sequences will suffer 40% slower Move and Attack Speed for 7.0s.
+경형 화포, 차지 시간이 비교적 짧으며 기본 공격의 모든 대미지가 30% 감소한다. 1단: 포탄 한 개, 2단: 강력한 포탄 두 개, 3단: 초강력 포탄 세 개.
+2단 차지와 3단 차지에 명중된 적은 7.0초 동안 이동 속도와 공격 속도가 40% 감소한다.
 
-## Leaf-wrapped Rice
+## 갈대잎 쌈밥
 
-Whenever any team member attacks an enemy with reduced Move Speed or Attack Speed, heal for 25.0 HP. Triggers once every 5s.
+모든 파티원이 이동 속도 혹은 공격 속도가 감소한 적을 공격 시 HP를 25.0 회복한다. 5초마다 한 번씩 발동.

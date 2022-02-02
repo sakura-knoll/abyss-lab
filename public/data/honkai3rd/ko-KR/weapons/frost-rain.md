@@ -1,12 +1,9 @@
-# Frost Rain
+# 서리의 비
 
-## Light Artillery
+## 경형 화포
 
-Light-weight cannon with short charging time. Basic attacks have 30% less Total DMG Multiplier.
-1st Sequence: Single shot.
-2nd Sequence: Empowered double shot.
-3rd Sequence: Super-powered triple shot.
+속사포, 차지 시간이 짧고 기본 공격의 모든 대미지가 30% 감소한다. 1단: 포탄 한 개, 2단: 강력한 포탄 두 개, 3단: 초강력 포탄 세 개.
 
-## Frosty Jettison
+## 한기 누출
 
-When attacked, character releases a freezing blast that slows Attack and Move speeds of nearby enemies by 70% for 6.0s. Freezing blasts can be triggered once every 15s.
+캐릭터가 피격 시 한기를 내뿜어 6.0초 동안 주변 적의 공격 속도와 이동 속도를 70% 감소시킨다, 재사용 대기시간 15초.

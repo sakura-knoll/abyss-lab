@@ -1,13 +1,10 @@
-# Hand of Tyr
+# 티르의 잘린 팔
 
-## God Cannon
+## 군신 캐넌
 
-Charged Cannon.
-1st Sequence: Single shot.
-2nd Sequence: Empowered double shot.
-3rd Sequence: Super-powered triple shot.
-Basic and charged attacks gain 30% Physical DMG to enemies with broken Elite Shield.
+축적포, 1단: 포탄 한 개, 2단: 강력한 포탄 두 개, 3단: 초강력 포탄 세 개.
+기본 공격과 차지 공격이 엘리트 실드가 파괴된 적에게 가하는 물리 대미지가 30% 증가한다.
 
-## Rending Shrapnel
+## 군신의 칼날
 
-[SP 소모: 19][재사용 대기 시간: 9초] Instantly unleashes a 3-hit charged bombardment sequence. Bombardment bleeds enemies hit to deal 315 Physical DMG every 0.5s for 7s.
+[SP 소모: 19][재사용 대기 시간: 9초] 3단 차지 포격을 발사한다. 포격에 적중된 적은 7초 동안 출혈 상태가 되어 0.5초마다 315의 물리 대미지를 입는다.

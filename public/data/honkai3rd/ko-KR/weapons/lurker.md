@@ -1,12 +1,9 @@
-# Lurker
+# 잠복자의 캐넌
 
-## Cannon
+## 대포
 
-Charged Cannon.
-1st Sequence: Single shot.
-2nd Sequence: Empowered double shot.
-3rd Sequence: Super-powered triple shot.
+축적포, 1단: 포탄 한 개, 2단: 강력한 포탄 두 개, 3단: 초강력 포탄 세 개.
 
-## One Punch
+## 라스트 원 펀치
 
-[SP 소모: 18][재사용 대기 시간: 12초] Smashes the ground multiple times using robot arms, generating seismic waves that knock back enemies, deals 120% ATK of Physical DMG with each hit, and stuns enemies for 2.55s. Provides a temporary Move Speed boost after using the skill.
+[SP 소모: 18][재사용 대기 시간: 12초] 기계 팔로 지면을 내리쳐 다단 충격파로 적을 넉백시키고 기절시킨다. 타격마다 공격력의 119% 물리 대미지를 입히고 2.51초 동안 기절 상태로 만든다; 스킬 발동 후 잠깐 이동 속도가 증가한다.

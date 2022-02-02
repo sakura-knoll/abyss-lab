@@ -1,9 +1,9 @@
-# M134 Vulcan Minigun
+# 화신 기관총 M134
 
-## Gatling Gun
+## 기관총
 
-Rapid-fire weapon that deals continuous DMG to targets along a straight line of fire. Continuous firing will overheat the weapon. Closer enemies take more DMG. DMG is maximized at a range within 3 meters. When charged attacks score a crit, deal 50% ATK of Physical DMG to enemies in a small AOE around the target. Skill trigger CD: 0.3s.
+레이저 무기. 직선 방향의 목표에게 지속 대미지를 가하고, 일정 시간이 지나면 오버히트 상태가 된다. 타깃이 가까울수록 대미지가 증가하고 10m 이내의 적에게 최대 대미지를 가한다. 차지 공격이 크리티컬 시 목표 주변 작은 범위의 적에게 공격력 50%의 물리 대미지를 가한다. 최단 발동 간격: 0.3초.
 
-## Inferno Breath
+## 연옥호흡
 
-[SP 소모: 5][재사용 대기 시간: 15초] Wielder gains 10% Crit Rate and 25% Crit DMG for 10s. Attacks no longer cause overheating. However, wielder loses HP equal to 2% Max HP per second.
+[SP 소모: 5][재사용 대기 시간: 15초] 10초 동안 캐릭터의 크리티컬률이 10%, 크리티컬 대미지가 25% 증가한다. 과열되지 않지만 초당 자신의 HP 최대치의 2%에 해당하는 HP를 소모한다.

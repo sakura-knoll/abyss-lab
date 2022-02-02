@@ -1,9 +1,11 @@
-# Stellar Tempo
+# 리드미컬 노바
 
-## Cosmic Amplifiers
+## 유성 비트
 
-Fires a beam that continuously damages targets along a straight path. Continuous firing will overheat the weapon. Closer enemies will take more DMG, with DMG maximized at a range within 3 meters.[SP 소모: 11][재사용 대기 시간: 20초] When unleashed, all Sparkling Stars on the battlefield will sparkle brightly, dealing 200% ATK of Physical DMG (per star) to nearby enemies and impairs them, reducing their DEF by 30% for 4.0s.[Concert Stage] When picking up a Sparkling Star, all characters gain 10% Attack Speed for 5s. Effect cannot stack.
+레이저로 직선 방향의 목표에게 지속 대미지를 가하고, 일정 시간이 지나면 오버히트 상태가 된다. 타깃이 가까울수록 대미지가 증가하고 10m 이내의 적에게 최대 대미지를 가한다.
+[SP 소모: 11][재사용 대기 시간: 20초] 사용 시 전장의 모든 반짝이는 별은 강렬한 빛을 내며 반짝이는 별마다 주변 적에게 공격력 200%의 물리 대미지를 가하고 적을 취약 상태로 만들어 방어력을 30% 감소시킨다, 지속 시간: 4.0초.
+[무대] 반짝이는 별 습득 시 모든 캐릭터의 공격 속도가 5초간 10% 증가한다. 해당 효과는 하나만 적용되며 중첩할 수 없다.
 
-## Sparkling Star
+## 반짝이는 별
 
-When the character is deployed, 1 Sparkling Star appears nearby every 3s. Sparkling Star lasts 4.5s. When picking up the Sparkling Star, deal 200% ATK of Physical DMG to a random, nearby target and enemies surrounding it.
+발키리가 스테이지에 있을 때, 3초마다 주변에 4.5초 동안 존재하는 반짝이는 별이 생긴다. 반짝이는 별을 습득 시, 주변에 있는 무작위 적과 그 주변에 있는 적에게 공격력의 200% 물리 대미지를 입힌다.

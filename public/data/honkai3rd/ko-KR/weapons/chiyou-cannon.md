@@ -1,13 +1,10 @@
-# Chiyou Cannon
+# 치우의 대포
 
-## Ice Booster - Super Cannon
+## 서리·초대형 화포
 
-Super Cannon. Very long charge time. Basic attacks gain 100% Physical DMG.
-1st Sequence: Single shot.
-2nd Sequence: Empowered double shot.
-3rd Sequence: Super-powered triple shot.
-For every frozen enemy, accelerate charging speed by 20.0%. Stacks up to 10 times.
+초중량포, 차지 시간이 길며 기본 공격 물리 대미지가 100% 증가한다. 1단: 포탄 한 개, 2단: 강력한 포탄 두 개, 3단: 초강력 포탄 세 개.
+빙결 상태의 적 하나당, 차지 속도가 20.0% 증가한다, 최대 10회 중첩.
 
-## Dark Ice
+## 검은 얼음
 
-[SP 소모: 25][재사용 대기 시간: 20초] Launches an icy shock wave, imprisoning and freezing surrounding enemies in Dark Ice. Enemies imprisoned in the Dark Ice take 960 Ice DMG every 0.9s. Caster is also healed for 100 HP. Dark Ice lasts 4s.
+[SP 소모: 25][재사용 대기 시간: 20초] 극저온의 진동파를 방출하여 주변의 적을 4초 동안 검은 얼음에 봉인하여 빙결 상태로 만든다. 봉인된 적은 0.9초마다 960의 빙결 원소 대미지를 입는다. 스킬을 발동한 캐릭터는 HP를 100 회복한다.

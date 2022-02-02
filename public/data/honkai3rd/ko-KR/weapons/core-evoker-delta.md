@@ -1,9 +1,9 @@
-# Core Evoker Delta
+# 코어 집속포 Delta
 
-## EM Beam
+## 전자 레이저
 
-Rapid-fire weapon that deals continuous DMG to targets along a straight line of fire. Continuous firing will overheat the weapon. Closer enemies take more DMG. DMG is maximized at range within 3 meters. Attacks against paralyzed enemies gain 16% Total DMG Multiplier.
+레이저 무기. 직선 방향의 목표에게 지속 대미지를 가하고, 일정 시간이 지나면 오버히트 상태가 된다. 타깃이 가까울수록 대미지가 증가하고 10m 이내의 적에게 최대 대미지를 가한다. 마비 상태의 적에게 가하는 모든 대미지가 16% 증가한다.
 
-## EM Overload
+## 오버 일렉트릭
 
-[SP 소모: 20][재사용 대기 시간: 20초] Shoots a slow moving energy ball that zaps enemies along its path multiple times to deal 640 Lightning DMG per hit and paralyzes enemies for 3.60s.
+[SP 소모: 20][재사용 대기 시간: 20초] 전방으로 느리게 나아가는 에너지 구체를 발사한다. 경로상의 적에게 다단 히트로 타격마다 640의 뇌전 원소 대미지를 입히고 3.60초 동안 마비 상태로 만든다.

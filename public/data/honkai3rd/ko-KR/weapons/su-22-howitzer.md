@@ -1,8 +1,5 @@
-# SU-22 Howitzer
+# SU-22 유탄포
 
-## Cannon
+## 대포
 
-Charged Cannon.
-1st Sequence: Single shot.
-2nd Sequence: Empowered double shot.
-3rd Sequence: Super-powered triple shot.
+축적포, 1단: 포탄 한 개, 2단: 강력한 포탄 두 개, 3단: 초강력 포탄 세 개.

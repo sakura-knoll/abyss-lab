@@ -1,12 +1,9 @@
-# Xuanyuan Cannon
+# 헌원·펄스 캐넌
 
-## Cannon
+## 대포
 
-Charged Cannon.
-1st Sequence: Single shot.
-2nd Sequence: Empowered double shot.
-3rd Sequence: Super-powered triple shot.
+축적포, 1단: 포탄 한 개, 2단: 강력한 포탄 두 개, 3단: 초강력 포탄 세 개.
 
-## Floating Fireball
+## 부유 화염구
 
-[SP 소모: 18][재사용 대기 시간: 10초] Launches a large fireball that floats slowly and explodes, dealing 420% ATK of Fire DMG and igniting enemies, dealing 18% ATK of Fire DMG every 0.5s for 3s.
+[SP 소모: 18][재사용 대기 시간: 10초] 하늘에 둥둥 떠다니는 거대한 화염구를 발사하여 닿은 적에게 폭발로 공격력의 420% 화염 원소 대미지를 입히고 3초 동안 연소 상태로 만들어 0.5초마다 공격력의 18% 화염 원소 대미지를 입힌다.

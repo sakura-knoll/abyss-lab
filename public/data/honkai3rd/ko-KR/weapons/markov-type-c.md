@@ -1,12 +1,9 @@
-# Markov Type C
+# 마르코프 C형
 
-## Cluster Missile
+## 유도 미사일
 
-Launches homing missiles at multiple targets. Slightly decreases DMG when hitting the same target multiple times.
-1st Sequence: 2 missiles.
-2nd Sequence: 5 missiles.
-3rd Sequence: 11 missiles.
+다수의 타깃을 조준하여 미사일을 발사한다. 동일한 적에게 많이 맞으면 위력이 조금 줄어든다. 차지 1단: 2발, 2단: 5발, 3단: 11발.
 
-## Speedy Clockwork
+## 즉효 태엽
 
-[SP 소모: 12][재사용 대기 시간: 20초] Empowers the weapon, accelerating Attack Speed by 75% for 4.s.
+[SP 소모: 12][재사용 대기 시간: 20초] 자신의 무기를 강화하여 5.00초 동안 공격 속도를 75% 증가시킨다.

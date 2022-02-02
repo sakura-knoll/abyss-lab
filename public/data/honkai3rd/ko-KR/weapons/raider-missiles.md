@@ -1,12 +1,9 @@
-# Raider Missiles
+# 강습 미사일·스트라이커
 
-## Cluster Missile
+## 유도 미사일
 
-Launches homing missiles at multiple targets. Longer charge time. Slightly decreased DMG when hitting the same target multiple times.
-1st Sequence: 2 missiles.
-2nd Sequence: 5 missiles.
-3rd Sequence: 11 missiles.
+다수의 타깃을 조준하여 미사일을 발사한다. 동일한 적에게 많이 맞으면 위력이 조금 줄어든다. 차지 1단: 2발, 2단: 5발, 3단: 11발.
 
-## Speedy Retreat
+## 토끼같은 움직임
 
-[SP 소모: 6][재사용 대기 시간: 15초] Accelerates Move Speed of character by 100% for 6.00s.
+[SP 소모: 6][재사용 대기 시간: 15초] 6.00초 동안 자신의 이동 속도가 100% 증가한다.

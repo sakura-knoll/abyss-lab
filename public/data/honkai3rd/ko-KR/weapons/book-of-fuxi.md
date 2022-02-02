@@ -1,10 +1,12 @@
-# Book of Fuxi
+# 복희의 서
 
-## Samsara
+## 윤회
 
-Against ignited, impaired, slowed, or frozen enemies, gain 20,0% to Total DMG Multiplier.
+연소, 취약, 이동 속도 감속, 빙결 상태의 적에게 가하는 모든 대미지 20.0% 증가.
 
-## Three Elements
+## 심상
 
-[SP 소모: 6][재사용 대기 시간: 8초] The weapon can transform and switch between 3 elemental forms: fire, lightning, and ice, and uses said elements to destroy the enemy.
-Fire: Charged attacks launch fire balls that ignite enemies upon hit, dealing 400 Fire DMG every 0.5s for 3s.Lightning: Charged attacks launch a homing explosive lightning orb. Hits have a 15,0% chance of dealing additional 150% ATK of Lightning DMG and impairing the enemy, reducing their DEF by 60% for 3s.Ice: Launches a continuous ice fog. Hits will slow the Move Speed and Attack Speed of the enemy by 50% for 3s, and have a 2.0% chance to freeze the enemy for 3s.
+[SP 소모: 6][재사용 대기 시간: 8초] 무기는 화염, 뇌전, 빙결 세 개의 원소 사이에서 전환할 수 있으며 각각의 원소에 잠재되어 있는 힘으로 적을 섬멸한다.
+화염: 차지하여 불덩이를 발사한다. 적중 시 적을 6초 동안 연소 상태로 만들어 0.5초마다 400의 화염 원소 대미지를 입힌다.
+뇌전: 차지하여 자동으로 적을 추적하는 전기 구슬을 방출한다. 적중 시 15.0%의 확률로 공격력의 150% 뇌전 원소 폭발 대미지를 추가로 입히고 3초 동안 취약 상태로 만들어 방어력을 60% 감소 시킨다.
+빙결: 지속적인 얼음 안개를 발사하여 3초 동안 적중한 적의 이동 속도와 공격 속도를 50% 감소시키고 2.0%의 확률로 적을 3초 동안 빙결 상태로 만든다.

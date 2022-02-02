@@ -1,13 +1,10 @@
-# Flint Sanada
+# 화도·사나다
 
-## Erupt - Multiple Cluster Missiles
+## 폭염·다중 유도 미사일
 
-Launches homing missiles at multiple targets. Longer charge time. Slightly decreased DMG when hitting the same target multiple times.
-1st Sequence: 3 missiles.
-2nd Sequence: 7 missiles.
-3rd Sequence: 15 missiles.
-Missile hits deal an additional 56 Fire DMG and triggers a delayed explosion to further deal 490 AOE Fire DMG.
+다수의 타깃을 조준하여 미사일을 발사한다. 차지가 비교적 길며 타깃에 여러 발 명중 시 위력이 조금 줄어든다. 차지 1단: 3발, 2단: 7발, 3단: 15발.
+미사일 명중 시 추가로 56의 화염 원소 대미지를 입히며 잠시 후 폭발을 일으켜 490의 범위 화염 원소 대미지를 입힌다.
 
-## Rapid Shot
+## 극한 사격
 
-[SP 소모: 20][재사용 대기 시간: 120초] Gains 100% Attack Speed for 12.00s.
+[SP 소모: 20][재사용 대기 시간: 120초] 12.00초 동안 공격 속도가 100% 증가한다.

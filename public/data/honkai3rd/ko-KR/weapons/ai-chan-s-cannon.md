@@ -1,12 +1,9 @@
-# Ai-chan's Cannon
+# 아이쨩 캐넌
 
-## Cannon
+## 대포
 
-Charged Cannon.
-1st Sequence: Single shot.
-2nd Sequence: Empowered double shot.
-3rd Sequence: Super-powered triple shot.
+축적포, 1단: 포탄 한 개, 2단: 강력한 포탄 두 개, 3단: 초강력 포탄 세 개.
 
-## Ai-chan's Prank
+## 아이쨩의 장난
 
-Last hit of the 3rd charge sequence has a 66.7% chance of randomly inflicting one of the following effects on the target for 5.00s: weaken, slower Move Speed, or increased Move Speed.
+3단 차지의 마지막 포탄이 적에게 명중 시 66.7% 확률로 적을 5.00초 동안 허약, 이동 속도 감소, 이동 속도 증가 상태중의 하나로 만든다.

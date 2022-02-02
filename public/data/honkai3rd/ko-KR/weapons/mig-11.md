@@ -1,8 +1,5 @@
-# MiG-11
+# Mig-11 유도탄
 
-## Cluster Missile
+## 유도 미사일
 
-Launches homing missiles at multiple targets. Longer charge time. Slightly decreased DMG when hitting the same target multiple times.
-1st Sequence: 2 missiles.
-2nd Sequence: 5 missiles.
-3rd Sequence: 11 missiles.
+다수의 타깃을 조준하여 미사일을 발사한다. 동일한 적에게 많이 맞으면 위력이 조금 줄어든다. 차지 1단: 2발, 2단: 5발, 3단: 11발.

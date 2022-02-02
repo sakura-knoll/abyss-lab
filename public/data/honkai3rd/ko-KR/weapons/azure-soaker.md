@@ -1,13 +1,10 @@
-# Azure Soaker
+# 푸른 꿈방울
 
-## Cooling Bubble
+## 청량한 물방울
 
-Charged cannon.
-1st Sequence: Single shot.
-2nd Sequence: Empowered double shot.
-3rd Sequence: Super-powered triple shot.
-When Charged ATK stack 3 hits on an enemy, it suffers 40.0% slower Move and Attack Speed for 5.0s.
+축적포, 1단: 포탄 한 발, 2단: 강력한 포탄 두 발, 3단: 초강력 포탄 세 발.
+3단 차지 공격 명중 시 적의 이동 속도가 40.0% 감소한다. 지속 시간: 5.0초.
 
-## Beach Star
+## 모래사장의 별
 
-Deals 20.0%more Physical DMG against enemies with Move Slow.
+이동 속도가 감소한 적에게 가하는 물리 대미지 20.0% 증가.

@@ -1,9 +1,9 @@
-# Project Bunny 19C
+# 중장 토끼 19C
 
-## Anti-Material Beam
+## 전조 레이저
 
-Rapid-fire weapon that deals continuous DMG to targets along a straight line of fire. Continuous firing will overheat the weapon. Closer enemies take more DMG. DMG is maximized at a range within 3 meters. Attacks against mob enemies gain 60% Total DMG Multiplier.
+레이저 무기. 직선 방향의 목표에게 지속 대미지를 가하고, 일정 시간이 지나면 오버히트 상태가 된다. 타깃이 가까울수록 대미지가 증가하고 10m 이내의 적에게 최대 대미지를 가한다. 일반 적에게 가하는 모든 대미지가 60% 증가한다.
 
-## Quantum Outbreak
+## 양자 폭발의 코어
 
-Killing an enemy has a 60% chance for the character to gain 75% Physical DMG for 3s.
+적을 처치 시 60% 확률로 3초 동안 캐릭터의 물리 대미지 75% 증가한다.

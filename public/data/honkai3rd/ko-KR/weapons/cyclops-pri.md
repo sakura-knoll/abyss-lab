@@ -1,13 +1,10 @@
-# Cyclops PRI
+# 사이클롭스·프로토타입
 
-## Polyphemus - Super Gun
+## 빅 아이·초대형 화포
 
-Super Cannon. Very long charge time. Basic attacks gain 100% Physical DMG.
-1st Sequence: Single shot.
-2nd Sequence: Empowered double shot.
-3rd Sequence: Super-powered triple shot.
-When there are no more than 2 enemies on the battlefield, gain 20% Total DMG Multiplier.
+초중량포, 차지 시간이 길며 기본 공격 물리 대미지가 100% 증가한다. 1단: 포탄 한 개, 2단: 강력한 포탄 두 개, 3단: 초강력 포탄 세 개.
+전투 중 스테이지의 적의 수가 2기 이하일 때, 모든 대미지가 20% 증가한다.
 
-## Death Explosion
+## 죽음의 폭렬탄
 
-Hitting an enemy marks it with a Death Explosion status for 5s. When a marked enemy is killed in this duration, it explodes to deal 400% ATK of Physical DMG to nearby enemies. When the 3rd charge sequence shot hits the enemy, deal 200% ATK of Physical DMG to the target and nearby enemies. CD: 5s.
+적중 시 적에게 5초 동안 유지되는 사망 폭렬 표식을 새긴다. 상태 이상에 걸린 적이 죽으면 범위 폭발을 일으켜 주변의 적에게 공격력의 400% 물리 대미지를 입힌다. 3단 차지 포격이 적에게 명중 시 타깃과 주변의 적에게 공격력의 200% 물리 대미지를 입힌다. 재사용 대기시간 5초.
