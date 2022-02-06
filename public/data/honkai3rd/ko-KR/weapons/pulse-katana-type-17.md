@@ -1,5 +1,5 @@
-# Pulse Katana Type-17
+# 펄스 태도 17식
 
-## Frost Blade
+## 극저온 영령의 칼날
 
-[SP 소모: 3][재사용 대기 시간: 12초] Launches 6 ethereal blades, each blade dealing 980 Ice DMG and slowing their Move Speed and Attack Speed by 70% for 2.5s.
+[SP 소모: 3][재사용 대기 시간: 12초] 6자루의 영체의 검을 발사하여, 영체의 검 한 자루당 980의 빙결 대미지를 입히고, 2.5초 동안 적의 이동 속도와 공격 속도를 70% 감소시킨다.

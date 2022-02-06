@@ -1,5 +1,5 @@
-# Willow
+# 복합도·버들
 
-## Leaf Razor
+## 칼끝을 스치는 버들
 
-[SP 소모: 9][재사용 대기 시간: 7초] Unleashes a downward telekinetic slash followed by a large AOE horizontal sweeping slash. Each slash deals 250% ATK of Physical DMG.
+[SP 소모: 9][재사용 대기 시간: 7초] 타깃의 하단을 베어 가르고 이어서 넓은 범위의 횡 베기를 하여 각각 공격력의 250% 물리 대미지를 입힌다.

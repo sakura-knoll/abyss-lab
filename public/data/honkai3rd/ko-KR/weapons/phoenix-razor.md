@@ -1,5 +1,5 @@
-# Phoenix Razor
+# 황검
 
-## Huang
+## 황
 
-Hits against enemies gain 15 Fire DMG. When Kiana is in the team, character gains 11.4% Fire DMG.
+공격 시 화염 대미지를 36 추가한다. 파티에 키아나가 있다면, 자신이 주는 화염 대미지가 18% 증가한다.

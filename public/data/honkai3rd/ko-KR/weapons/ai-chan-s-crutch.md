@@ -1,9 +1,9 @@
-# Ai-chan's Crutch
+# 아이쨩 케인
 
-## Gingerbread Man Go
+## 진저맨 Go
 
-Upon scoring a crit hit, drop 3 Gingerbread Men at the target that explode after a delay. Each explosion deals 150% ATK of Physical DMG. CD: 8s.
+크리티컬 시 적에게 꼬마 진저맨을 3마리 떨어뜨리며. 일정 시간 후 폭발하여 각각 공격력의 150%의 물리 대미지를 입힌다, 재사용 대기시간 8초.
 
-## Subtle Sweetness
+## 미묘한 단맛
 
-When combo hits are greater than 10, elemental damage is increased by 15%.
+콤보 수가 10을 넘으면 원소 대미지 15% 증가.

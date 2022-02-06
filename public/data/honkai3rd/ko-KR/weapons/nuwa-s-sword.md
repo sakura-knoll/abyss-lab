@@ -1,9 +1,9 @@
-# Nuwa's Sword
+# 여와검
 
-## Flame Spirit
+## 화염의 정령
 
-[SP 소모: 15][재사용 대기 시간: 12초] Summons a Flame Fairy that launches fire balls at nearby targets. Each fire ball deals 960 Fire DMG to enemies in a small AOE. The Flame Fairy lasts for 10s. Stores 2 charges.
+[SP 소모: 15][재사용 대기 시간: 12초] 10초 동안 유지되는 불의 정령[소환물]이 생성하고 가까운 적을 향해 화염탄을 발사하여 960의 화염 원소 대미지를 입힌다. 최대 충전 횟수 2회.
 
-## Flame Ring
+## 화염의 고리
 
-Attacks have a 5.0% chance of activating a flame sword aura around the character, igniting nearby enemies and dealing 188 Fire DMG per 0.5s for 3s.
+공격 시 5.0% 확률로 자신을 중심으로 화염 검기를 방출하여 주변 적을 연소 상태로 만들어 3초 동안 0.5초마다 188의 화염 원소 대미지를 입힌다.

@@ -1,9 +1,10 @@
-# Galactic Nova
+# 빛을 쫒는 은하수
 
-## Lights on Stage
+## 스포트라이트 스테이지
 
-[SP 소모: 15][재사용 대기 시간: 30초] Switches on the Lighting FX for 10s. When the character equipping Glactic Nova is in the Lighting FX area, each attack hit deals 200.0 more Physical DMG.[Concert Stage] When picking up a Sparkling Star, all characters gain 5% Crit Rate for 5s. Effect cannot stack.
+[SP 소모: 15][재사용 대기 시간: 30초] 스포트라이트 출현, 빛을 쫓는 은하수를 장착한 발키리가 스포트라이트 범위 내에 있으면, 타격마다 가하는 물리 대미지가 200.0 증가한다, 스포트라이트 지속 시간 10초.
+[스테이지] 반짝이는 별 습득 시 5초 동안 스테이지에 있는 모든 발키리의 크리티컬률이 5% 증가한다. 해당 효과는 하나만 발동할 수 있고 중첩되지 않는다.
 
-## Sparkling Star
+## 반짝이는 별
 
-When the character is deployed, 1 Sparkling Star appears nearby every 3s. Sparkling Star lasts 4.5s. When picking up the Sparkling Star, deal 200% ATK of Physical DMG to a random, nearby target and enemies surrounding it.
+발키리가 스테이지에 있을 때, 3초마다 주변에 4.5초 동안 존재하는 반짝이는 별이 생긴다. 반짝이는 별을 습득 시, 주변 에 있는 무작위 적과 그 주변에 있는 적에게 공격력의 200% 물리 대미지를 입힌다.

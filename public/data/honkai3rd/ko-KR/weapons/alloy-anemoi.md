@@ -1,5 +1,5 @@
-# Alloy Anemoi
+# 합금·질풍 태도
 
-## Alloy Spinning Windcut
+## 합금·칼날 바람
 
-[SP 소모: 14][재사용 대기 시간: 15초] Releases a tornado that moves in a straight path, knocking enemies airborne and dealing 178 Ice DMG multiple times.
+[SP 소모: 14][재사용 대기 시간: 15초] 직선으로 이동하는 토네이도를 방출해 경로상의 적에게 다단 히트로 타격마다 183의 빙결 원소 대미지를 입힌다.

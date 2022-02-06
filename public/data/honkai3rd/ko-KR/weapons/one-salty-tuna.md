@@ -1,9 +1,9 @@
-# One Salty Tuna
+# 고등어 한 마리
 
-## Lethal Thrust
+## 치명적인 찌르기
 
-[SP 소모: 8][재사용 대기 시간: 20초] Attack enemies in front to deal 666+6,655 Physical DMG.
+[SP 소모: 8][재사용 대기 시간: 20초] 전방의 적을 공격해 666+6,655의 물리 대미지를 가한다.
 
-## Undying Saltiness
+## 고등어 정신
 
-Gain more Total DMG Multiplier at lower HP. For every 1% HP lost, gain 0.20% Total DMG Multiplier.
+현재의 HP가 낮아질수록 모든 대미지가 증가한다. HP가 1% 감소할 때마다 모든 대미지가 0.20%씩 증가한다.

@@ -1,9 +1,1 @@
-# Seishuu Muramasa
-
-## Obtained From
-
-Upgrade Seishuu Muramasa
-
-## Added During
-
-Version Unknown
+# 세이슈 무라마사

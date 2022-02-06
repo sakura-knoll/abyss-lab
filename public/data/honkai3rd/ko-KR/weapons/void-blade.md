@@ -1,9 +1,9 @@
-# Void Blade
+# 허무의 칼날
 
-## The Ouroboros
+## 우로보로스
 
-[SP 소모: 15][재사용 대기 시간: 20초] Generates a Time Slow field that moves with the character. The field lasts 6.00s, during the character's basic attacks (including combo and charged attacks) gain 30.0% Crit Rate.
+[SP 소모: 15][재사용 대기 시간: 20초] 6.00초 동안 자신을 따라 이동하는 시공 감속 영역을 만들어 낸다. 지속 시간 동안 기본 공격(분기와 차지 공격 포함)의 크리티컬률이 30.0% 증가하고 초당 2pt의 SP를 회복한다.
 
-## Energy Devourer
+## 에너지 포식
 
-After a one-time consumption of 10, 40, and 70 SP, gain 15%, 30%, or 45% Physical DMG respectively for 8s. This effect cannot stack.
+한꺼번에 SP를 10 / 40 / 70 소모 시 8초 동안 물리 대미지가 15% / 30% / 45% 증가한다. 해당 효과는 중첩되지 않는다.

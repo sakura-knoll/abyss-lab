@@ -1,9 +1,9 @@
-# Gluttony
+# 폭식 절도
 
-## Boomerang
+## 선풍 칼날
 
-[SP 소모: 18][재사용 대기 시간: 15초] Launches a blade whirlwind that interrupts enemies hit along the path, pulls them to the character, and stuns them for 1.50s. Each hit deals 448 Physical DMG.
+[SP 소모: 18][재사용 대기 시간: 15초] 칼날 바람을 날려 경로상의 적들을 경직시키고 자신의 앞으로 끌어당긴 후 1.48초 동안 기절 상태로 만든다. 타격 판정마다 448의 물리 대미지를 입힌다.
 
-## Blood Sacrifice
+## 피의 축제
 
-For each enemy kill, the team gains 4 SP.
+적을 처치할 때마다 파티원 전원의 SP 4 회복. 

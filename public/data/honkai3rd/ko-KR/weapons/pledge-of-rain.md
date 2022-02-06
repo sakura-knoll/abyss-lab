@@ -1,9 +1,9 @@
-# Pledge of Rain
+# 우후서언
 
-## Love is War!
+## 사랑은 전쟁!
 
-[SP 소모: 16][재사용 대기 시간: 18초] Throw an open umbrella forward to scatter ice crystals in all directions, dealing 24\*30.0% ATK of Ice DMG to enemies in a large AOE and slowing their Attack and Move Speeds by 40% for 5.00s.
+[SP 소모: 16][재사용 대기 시간: 18초] 펼쳐진 우산이 흔들거리면서 나아가 주변에 얼음 결정을 흩날린다. 큰 범위의 적에게 총 24*30.0% 빙결 원소 대미지를 입히고 5.00초 동안 공격 속도와 이동 속도를 40% 감소시킨다.
 
-## Our Pact
+## 우리의 서약
 
-Attacks gain 20.0% Physical DMG against slowed enemies. When Combo Hit Count exceeds 50, gain 20.0% Total DMG Multiplier.
+이동 속도가 감소된 적에게 주는 물리 대미지 20.0% 증가; 50 콤보 이상일 경우, 모든 대미지가 20.0% 증가한다.

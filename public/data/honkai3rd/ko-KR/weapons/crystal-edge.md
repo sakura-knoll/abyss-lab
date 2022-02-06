@@ -1,5 +1,5 @@
-# Crystal Edge
+# 역날 결정검
 
-## Frost Comet
+## 서리 혜성
 
-[SP 소모: 10][재사용 대기 시간: 18초] Unleash crystallization energy that freezes the target and nearby enemies in a small AOE for 4.00s.
+[SP 소모: 10][재사용 대기 시간: 18초] 결정 에너지를 방출하여 작은 범위의 적들을 결정에 봉인하고 4.00초 동안 빙결 상태로 만든다.

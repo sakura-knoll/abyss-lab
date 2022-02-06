@@ -1,9 +1,1 @@
-# Amemura Bloodlust
-
-## Obtained From
-
-Upgrade Amemura Bloodlust
-
-## Added During
-
-Version Unknown
+# 요도 아메무라

@@ -1,9 +1,9 @@
-# Futsunushi-To
+# 휘도·후쓰누시
 
-## Kami of War
+## 신의 위력
 
-[SP 소모: 15][재사용 대기 시간: 20초] For the next 6s, triggers 1 elemental explosion at a random location near the character to deal 200% DMG of a random element. Character also gains 12% DMG for said random element for 9.0s (max 3 stacks for the same element).
+[SP 소모: 15][재사용 대기 시간: 20초] 6초 동안, 1초마다 자신 주위의 랜덤 위치에 원소 폭발을 일으켜, 200% 랜덤 원소 대미지를 입히고, 캐릭터의 해당 원소 대미지를 12% 상승시킨다(같은 원소마다 최대 3회 중첩), 지속 시간 9.0초.
 
-## Raging Izumo
+## 이즈모
 
-Attacks have a 10% chance to generate elemental explosions nearby, dealing 200% ATK of DMG of a random element. Character also gains 8% DMG for said random element for 6.0s (max 3 stacks for the same element). This skill can trigger 1 elemental explosion every 1s.
+공격할 때마다 10% 확률로 주위에 원소 폭발을 일으켜, 공격력의 200% 랜덤 원소 대미지를 입히고, 캐릭터의 해당 원소 대미지를 8% 상승시킨다(같은 원소마다 최대 3회 중첩), 지속 시간 6초. 이 스킬로 1초마다 1번 원소 폭발을 일으킬 수 있다.

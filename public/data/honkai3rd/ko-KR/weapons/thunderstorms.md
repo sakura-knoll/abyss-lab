@@ -1,5 +1,5 @@
-# Thunderstorms
+# 뇌폭
 
-## Thunderstorms
+## 뇌폭
 
-[SP 소모: 10][재사용 대기 시간: 15초] Throws a lightning ball, dealing 750 Lightning DMG to enemies in a small AOE and paralyzing them for 2s.
+[SP 소모: 10][재사용 대기 시간: 15초] 번개 구체를 발사하여 작은 범위의 적에게 750의 뇌전 원소 대미지를 입히고 2초 동안 마비 상태로 만든다.

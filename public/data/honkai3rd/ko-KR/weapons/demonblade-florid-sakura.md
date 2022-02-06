@@ -1,10 +1,10 @@
-# Demonblade - Florid Sakura
+# 요도·아카조메 사쿠라
 
-## Crimson Sakura
+## 혈색낙앵
 
-[SP 소모: 20][재사용 대기 시간: 21초] Slashes nearby enemies to deal 500% ATK of Fire DMG. After casting the skill, the character becomes invincible. If taking hits when the skill is active, then the final slash will deal an additional 200% ATK of Fire DMG. For a period of 5s after skill ends, the character can completely block DMG effects of 1 attack.
-Flame Sakitama equip bonus: Enemies hit by this skill take 25% more Fire DMG and 10% more Ice and Lightning DMG for 15s (does not stack with the effects of Combo Follow-up Attack).
+[SP 소모: 20][재사용 대기 시간: 21초] 주위의 적에게 참격을 발동해 총 공격력 500%의 화염 원소 대미지를 가한다. 스킬 발동 시 캐릭터는 무적 상태가 되며, 무적 중 피격되면 마지막 참격은 공격력 200%의 화염 원소 대미지를 가한다. 그 후, 캐릭터가 실드를 획득해 5초 동안 1회의 공격을 막는 실드를 획득하고, 피격 시 실드는 사라진다.
+진염행혼이 장비 시, 해당 스킬에 적중한 적을 15초 동안 받는 화염 원소 대미지가 25% 증가하고, 빙결과 뇌전 원소 대미지가 10% 증가한다(분기 추격의 대응 효과와 중첩되지 않는다).
 
-## True Flame
+## 진염
 
-Increases Fire DMG caused by character attacks by 40%.
+캐릭터가 공격으로 가하는 화염 원소 대미지 40% 증가.

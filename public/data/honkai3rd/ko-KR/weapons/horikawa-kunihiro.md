@@ -1,9 +1,1 @@
-# Horikawa Kunihiro
-
-## Obtained From
-
-Upgrade Horikawa Kunihiro
-
-## Added During
-
-Version Unknown
+# 호리카오 쿠니히토

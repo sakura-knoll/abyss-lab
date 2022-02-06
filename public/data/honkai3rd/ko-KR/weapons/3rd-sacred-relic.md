@@ -1,9 +1,9 @@
-# 3rd Sacred Relic
+# 3rd 성유물
 
-## Sacred Charge
+## 세인트 임팩트
 
-When Combo Hit Count exceeds 20, 50, and 100, gain 20.0%, 30.0%, and 40% Physical DMG, respectively.
+콤보 수가 20, 50, 100을 초과했을 때 물리 대미지가 20%, 30%, 40% 증가한다(중첩되지 않는다).
 
-## Saint's Bless
+## 성자의 축복
 
-During Burst Mode, gain 30% Physical DMG.
+폭발 상태에서 물리 대미지가 30% 증가한다.

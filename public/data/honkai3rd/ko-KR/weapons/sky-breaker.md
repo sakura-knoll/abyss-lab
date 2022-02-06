@@ -1,9 +1,9 @@
-# Sky Breaker
+# 개천검
 
-## Rift of the Heavens
+## 개천
 
-[SP 소모: 20][재사용 대기 시간: 18초] Attacks hit surrounding enemies multiple times, dealing a total of 400% ATK of Physical DMG. Last hit impairs enemies, reducing their DEF by 70% for 6.00s.
+[SP 소모: 20][재사용 대기 시간: 18초] 주변의 적에게 다단 히트로 공격력의 400% 물리 대미지를 입힌다. 마지막 일격은 적을 6.00초 동안 취약 상태로 만들어 방어력을 70% 감소시킨다.
 
-## Divine Penalty
+## 천벌
 
-Upon ultimate evasion or when being hit, summon a bolt of lightning that strikes the attacker to deal 150% ATK of Lightning DMG in a small AOE and paralyzing enemies for 3.0s. CD: 10s. Attacks against impaired or paralyzed enemies gain 15% Total DMG Multiplier.
+극한 회피 발동 및 피격 시 공격한 적에게 낙뢰를 떨어트려 작은 범위의 적에게 공격력의 150% 뇌전 원소 대미지를 입히고 3.0초 동안 마비 상태로 만든다. 재사용 대기시간 10초. 취약 혹은 마비 상태의 적에게 가하는 모든 대미지가 15% 증가한다.

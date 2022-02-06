@@ -1,5 +1,5 @@
-# Hell Thunder
+# 묘도·뇌요
 
-## Minuano
+## 절풍참
 
-[SP 소모: 12][재사용 대기 시간: 12초] Unleashes a blade wave that attacks enemies along the path to deal 300% ATK of Physical DMG and impair enemies, reducing their DEF by 60% for 3.00s.
+[SP 소모: 12][재사용 대기 시간: 12초] 날카로운 검기를 발산하여 경로상의 적을 넘어뜨리며, 공격력의 300% 물리 대미지를 입히고 3.00초 동안 취약 상태로 만들어 방어력을 60% 감소시킨다.

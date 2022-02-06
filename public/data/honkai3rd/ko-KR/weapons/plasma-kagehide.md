@@ -1,9 +1,9 @@
-# Plasma Kagehide
+# 영도·플라즈마
 
-## Absolute Zero
+## 절대영도
 
-[SP 소모: 20][재사용 대기 시간: 25초] Transform ionic energy into a frigid blast, freezing enemies along the way and dealing 999 Ice DMG every 0.9s for 5.00s.
+[SP 소모: 10][재사용 대기 시간: 15초] 플라즈마 에너지를 한기로 전환해 방출하여 경로상의 적을 결정체로 봉인해 5.00초 동안 빙결 상태로 만들어 0.9초마다 999의 빙결 원소 대미지를 입힌다.
 
-## Frigid Winter
+## 엄동설한
 
-Hits against enemies gain 50 Ice DMG, and attacks against enemies who are frozen or have reduced Move Speed gain 20.0% Total DMG Multiplier.
+적 적중 시 공격에 50의 빙결 원소 대미지 추가되고 빙결 상태의 적 혹은 이동 속도가 감소된 적에게 가하는 모든 대미지 20.0% 증가한다.
