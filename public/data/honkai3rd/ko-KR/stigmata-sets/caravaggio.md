@@ -1,11 +1,11 @@
-# Caravaggio
+# 카라바조
 
-Tenebrosi Set
+묘사자 세트
 
-## Naturalism 2 세트
+## 자연주의 2 세트
 
-For each hit dealt by an entity summoned by the host (CD: 2s), team gains 5% Elemental DMG (unique effect). Stacks up to 4 times. At 4 stacks, enter Natural State for 6s (effect no longer stacks at this state). Natural State: Gain another 20% Elemental DMG. All buffs are cleared when Natural State ends.
+자신의소환물의 매 공격이(재사용 대기시간 2초) 적에게 명중 후 모든 파티원의 원소 대미지가 5% 증가한다. 해당 효과는 하나만 발동할 수 있다. 4회 중첩 후 6초 동안 자연 상태에 진입한다.(자연 상태에서는 효과가 중첩하지 않는다) 자연 상태에서는 원소 대미지가 추가로 20% 증가하고 자연 상태 종료 시 모든 버프 효과가 사라진다.
 
-## Chairoscuro 3 세트
+## 명암 대조법 3 세트
 
-For every friendly summoned entity present, the host gains 15% Total DMG Reduction. CD: 10s. Stacks up to 3 times. Each hit taken removes 1 stack.
+스테이지에 소환물이 새로 생성될 때마다 자신이 받는 모든 대미지가 15% 감소한다. 재사용 대기시간 10초. 최대 3회 중첩. 피격 후 하나의 중첩 효과를 잃는다.
