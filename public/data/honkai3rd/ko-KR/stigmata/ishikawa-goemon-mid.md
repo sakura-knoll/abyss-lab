@@ -1,5 +1,5 @@
-# Ishikawa Goemon (중)
+# 이시카와 고에몬 (중)
 
-##
+## 오시토
 
-Total DMG increases by 20.0%. Upon unleashing Ultimate, the host's Lightning DMG increases by 15.0% (Lightning DMG increases by another 10.0% under Kenbu mode) for 6s. CD: 18s.
+모든 대미지가 20.0% 증가한다. 필살기 발동 시 뇌전 원소 대미지가 15.0% 증가한다(검무 상태에서 대미지가 추가로 10.0% 증가한다). 지속시간: 6초. 재사용 대기시간: 18초.
