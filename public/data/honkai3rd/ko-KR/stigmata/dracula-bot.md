@@ -1,5 +1,5 @@
-# Dracula (하)
+# 드라큘라 (하)
 
-##
+## 블러디 스텝
 
-For every bleeding enemy on the battlefield, the host gains 12% Attack Speed and 4.0% Crit Rate. Stacks up to 3 times.
+스테이지에 출혈 상태의 적이 있을 때마다 자신의 공격 속도가 12%, 크리티컬률이 4.0% 증가한다, 최대 3회 중첩.
