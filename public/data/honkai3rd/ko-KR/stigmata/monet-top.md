@@ -1,5 +1,5 @@
-# Monet (상)
+# 모네 (상)
 
-##
+## 스케치
 
-Attacks against enemies gain 30% lightning DMG. For every Combo Hit Count, host gains 1.0% Total DMG Multiplier. Stacks up to 15 times.
+적을 공격 시 뇌전 원소 대미지가 30% 증가한다. 콤보가 1 증가할 때마다 자신의 모든 대미지가 1.0% 상승, 최대 15회 중첩.
