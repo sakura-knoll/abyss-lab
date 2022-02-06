@@ -1,5 +1,5 @@
-# Holmes (하)
+# 셜록 홈즈 (하)
 
-##
+## 바티츠
 
-After host deals damage to a bleeding enemy, team deals 18.0% bonus Physical DMG for 12s (cannot be stacked but can be reset).
+자신이 출혈 상태의 적에게 대미지를 가하면 파티원의 물리 대미지가 18.0% 증가한다. 지속 시간: 12초. (1개만 적용, 갱신 가능)

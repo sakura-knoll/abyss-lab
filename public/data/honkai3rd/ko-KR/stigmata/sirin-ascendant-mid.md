@@ -1,5 +1,5 @@
-# Sirin - Ascendant (중)
+# 시린·승화 (중)
 
-##
+## 번개의 시간
 
-Shortens CD of Ultimate Evasions by 20% and gains 30% Crit DMG.
+극한 회피 스킬의 재사용 대기시간이 20% 감소하고 크리티컬 대미지가 30% 증가한다.

@@ -1,5 +1,5 @@
-# Fu Hua - Margrave (상)
+# 후카·수호 (상)
 
-##
+## 변방의 추안
 
-Deals 20.0% more Fire DMG; with Fyreheart active, all team members gain 20.0% Fire, Ice and Lightning DMG. This effect cannot stack.
+화염 원소 대미지가 20.0% 증가한다. 소혼 상태에서 모든 파티원의 화염, 빙결, 뇌전 원소 대미지가 20.0% 증가한다, 해당 효과는 하나만 발동된다.

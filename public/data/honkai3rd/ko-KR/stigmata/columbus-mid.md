@@ -1,5 +1,5 @@
-# Columbus (중)
+# 콜럼버스 (중)
 
-##
+## 신항로
 
-Host deals 20.0% bonus Total DMG and against single enemies, she deals 20.0% bonus Crit DMG.
+모든 대미지가 20.0% 증가하고, 전장에 적이 하나일 때, 크리티컬 대미지가 20.0% 증가한다.

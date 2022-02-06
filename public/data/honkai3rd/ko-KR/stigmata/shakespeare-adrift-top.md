@@ -1,5 +1,5 @@
-# Shakespeare - Adrift (상)
+# 셰익스피어·표류 (상)
 
-##
+## 폭풍우
 
-Boosts Fire DMG by 25.0%. Raising or refreshing Alignment deals 150.0% ATK of Fire DMG and ignites enemies dealing further 30.0% ATK of Fire DMG per 0.5s for 6s.
+화염 원소 대미지가 25.0% 증가한다. 별자리가 증가 또는 리셋될 때 주변의 적에게 공격력 150.0%의 화염 원소 대미지를 가하고 목표를 연소시켜 6초간 0.5초마다 공격력 30.0%의 화염 원소 대미지를 가한다.

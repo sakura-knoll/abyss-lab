@@ -1,11 +1,11 @@
-# Allan Poe
+# 엘런·포
 
-Voice of Darkness Set
+어둠의 깨달음 세트
 
-## Sculptor of Terror 2 세트
+## 공포를 조각하다 2 세트
 
-Gain 20.0% Total DMG Multiplier. Total DMG of Charged ATK and any follow-up hits unleashed within the following 1s increases by 40.0%. Seele equip bonus: Total DMG increases by an additional 40.0%. CD: 3s.
+모든 대미지 20.0% 상승. 차지 공격 이후 1초 동안 강화되어 모든 대미지가 40.0% 상승하고, 제레가 장착하면 추가로 40.0% 상승한다. 재사용 대기시간 3초.
 
-## Weaver of Death 3 세트
+## 죽음을 짜다 3 세트
 
-Once attacked, ignore the damage from the attack and greatly gain Ignore Interrupt for 3s. CD: 20.0s. During CD, the host restores 650 HP upon hitting enemies with Charged ATK (applies once during each CD). Seele equip bonus: Total DMG increases by 25.0%.
+피격 시 해당 대미지를 무시하고 3초 동안 경직 저항력을 대폭 증가한다. 해당 효과는 20.0초에 1회 발동되고, 재발동 대기시간 도중 첫 번째 차지 공격이 적에게 명중 시 HP를 650 회복한다. 제레가 사용 시 모든 대미지 25.0% 증가.

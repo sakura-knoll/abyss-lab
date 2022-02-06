@@ -1,5 +1,5 @@
-# Dirac (하)
+# 디랙 (하)
 
-##
+## δ함수
 
-Gain 20.0% Physical DMG. After Ultimate Evasion or triggering evasion skill, host gains 1.5 SP/s for 10s. Does not trigger again during this time.
+물리 대미지 20.0% 증가. 회피 스킬 또는 극한 회피 스킬 발동 후 1초마다 SP를 1.5pt 회복한다. 지속 시간: 9초. 효과가 지속하는 동안 다시 발동할 수 없다.

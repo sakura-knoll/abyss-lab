@@ -1,5 +1,5 @@
-# Gustav Klimt (하)
+# 구스타프·클림트 (하)
 
-##
+## 정력 흡수
 
-Attacks made against an enemy with Hematic Curse have a 100% chance to heal the team for 80 HP. CD: 3s.
+혈혼 저주 상태의 적을 공격 시, 100%의 확률로 모든 파티원의 HP를 80 회복한다, 재사용 대기시간 3초.

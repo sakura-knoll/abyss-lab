@@ -1,5 +1,5 @@
-# Shuijing (하)
+# 수경 (하)
 
-##
+## 유마
 
-Enemies hit by QTE enter Censured State (cannot stack but can be refreshed), where they deal 12.0% reduced total DMG and take 18.0% bonus Physical DMG for 8s.
+QTE 공격에 적중한 적은 훈계 상태에 빠져(해당 효과는 하나만 발동할 수 있다), 8초 동안 가하는 모든 대미지가 12.0% 감소하고, 받는 물리 대미지가 18.0% 증가한다. 리셋 가능

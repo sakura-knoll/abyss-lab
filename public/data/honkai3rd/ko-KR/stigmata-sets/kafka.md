@@ -1,11 +1,11 @@
-# Kafka
+# 카프카
 
-Loner of Prague Set
+프라하의 갈까마귀 세트
 
-## K's Processing 2 세트
+## K 2 세트
 
-Charged ATKs directly trigger max-stacks effects of a stigma and gives the host a 45% Total DMG Multiplier buff for 12s. CD: 20s.
+차지 공격은 단일 성흔의 중첩 효과를 최대치로 만들고 12초간 자신의 모든 대미지가 45% 증가한다. 재사용 대기시간: 20초
 
-## Surreal Milieu 3 세트
+## 환영의 막 3 세트
 
-Gain 35% Total DMG Reduction against hits taken. Within 12s after unleashing a Charged ATK, each attack has a 60% chance to trigger a bonus strike that deals 15% ATK of Physical DMG, has 100% higher Crit Rate, and is added to the Combo Hit counter. Triggers 30 times only. CD: 20s.
+받는 모든 대미지가 35% 감소한다. 차지 공격 사용 후 12초 동안 공격 시 60% 확률로 대미지를 한 번 추가로 가해 공격력 15%의 물리 대미지를 입힌다. 해당 대미지는 크리티컬률이 100% 증가하고 콤보수에 추가된다. 최대 30회 발동. 재사용 대기시간: 20초

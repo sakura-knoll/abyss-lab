@@ -1,5 +1,5 @@
-# Shuijing (중)
+# 수경 (중)
 
-##
+## 수업
 
-Grants 30.0% bonus Physical DMG. QTE deals 50.0% bonus DMG against shields.
+물리 대미지 30.0% 증가, QTE 스킬이 실드에 가하는 대미지 50.0% 증가.

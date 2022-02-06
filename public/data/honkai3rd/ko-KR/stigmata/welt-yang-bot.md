@@ -1,5 +1,5 @@
-# Welt Yang (하)
+# 웰트·양 (하)
 
-##
+## 계승
 
-Gain 15% Total DMG Multiplier. Gain a shield when freezing enemies and heal 50 HP/s for 10s. CD: 15s. Shield shatters when hit, but host will not be interrupted.
+모든 대미지가 15% 증가한다. 적을 빙결 시 실드를 획득하고 10초간 초당 50pt의 HP를 회복한다. 재사용 대기시간: 15초. 실드가 존재하는 동안 대미지만 받고 경직 되지 않으며, 실드는 공격받으면 파괴된다.

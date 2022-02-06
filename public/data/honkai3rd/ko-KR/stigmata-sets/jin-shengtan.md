@@ -1,11 +1,11 @@
-# Jin Shengtan
+# 김성탄
 
-Critic Set
+평론가 세트
 
-## Blue Phoenix 2 세트
+## 청란 결계 2 세트
 
-Upon attacking, create a Blue Phoenix Aura that lasts for 6s (effect cannot stack). CD: 9s. Allies within the Aura gain 30% All Elemental DMG to their attacks, while enemies within take 10% more All Elemental DMG.
+공격 시 6초 동안 지속하는 청란 결계를 만든다(해당 효과는 하나만 발동할 수 있다), 재사용 대기시간 9초. 청란 결계 안에 있는 파티원들이 가하는 모든 원소 대미지가 30% 증가하고 적이 받는 원소 대미지가 10% 증가한다.
 
-## Cathartic Aura 3 세트
+## 결계 촉진 3 세트
 
-Extends the duration of Blue Phoenix Aura by 3s. Allies in the Aura receive Ice Protection. While DMG received is less than 10 x Valkyrie's Level, the character will only take DMG and will not get interrupted.
+청란 결계의 지속 시간 3초 증가, 파티원은 청란 결계에서 서리 수호 효과를 얻는다, 적에게 받는 대미지가 10 x 발키리 레벨 보다 낮을 때 대미지만 받고 경직되지 않는다.

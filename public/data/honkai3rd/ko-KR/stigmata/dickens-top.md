@@ -1,5 +1,5 @@
-# Dickens (상)
+# 디킨스 (상)
 
-##
+## 데이비드 코퍼필드
 
-Boosts Physical DMG by 30.0%. Basic, Combo, and Charged ATKs grant 1 charge on hit. 5 charges max. CD: 1s. Ultimate consumes all charges and every charge consumed restores 40.0 HP.
+물리 대미지가 30.0% 증가하고, 기본 공격(분기와 차지 공격 포함)이 목표에 명중하면 매번 1pt 씩 최대 5pt까지 충전할 수 있고, 1초의 발동 간격이 있다. 필살기 시전 시 모든 에너지를 소모하며, 에너지 1pt당 40.0의 HP를 회복한다.

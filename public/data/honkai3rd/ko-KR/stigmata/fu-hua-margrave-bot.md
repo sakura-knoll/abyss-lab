@@ -1,5 +1,5 @@
-# Fu Hua - Margrave (하)
+# 후카·수호 (하)
 
-##
+## 갈길은 멀기만 하네
 
-ATK Speed increases by 20.0%s; with Fyreheart active, all enemies less than 12 meters away from any team member suffer Warhaunt (effect does not stack), take 14.0% more Total DMG.
+공격 속도가 20.0% 증가하고, 소혼 상태에서 모든 캐릭터의 40미터 범위 내 적에게 전투 도발 효과를 부여해 적에게 가하는 모든 대미지가 14.0% 증가한다(해당 효과는 하나만 발동할 수 있고, 중복 발동 시 효과를 덮어씌운다).

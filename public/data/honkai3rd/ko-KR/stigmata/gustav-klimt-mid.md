@@ -1,5 +1,5 @@
-# Gustav Klimt (중)
+# 구스타프·클림트 (중)
 
-##
+## 선혈 연소의 순간
 
-Upon using weapon active skill, team gains 20% Physical DMG for 8s. CD: 16s. Effect cannot stack.
+무기 액티브 스킬 사용 후 8초 동안 모든 파티원의 물리 대미지가 20% 증가한다, 재사용 대기시간 16초, 해당 효과는 하나만 발동한다.

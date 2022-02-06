@@ -1,5 +1,5 @@
-# Fu Hua - Margrave (중)
+# 후카·수호 (중)
 
-##
+## 석양 아래 고독한 연기
 
-Deals 30.0% more Fire DMG; with Fyreheart active, all team members heal 20 Hp per second. This effect cannot stack.
+화염 원소 대미지가 30.0% 증가한다. 소혼 상태에서 모든 캐릭터는 초당 20의 HP를 회복한다, 해당 효과는 하나만 발동된다.

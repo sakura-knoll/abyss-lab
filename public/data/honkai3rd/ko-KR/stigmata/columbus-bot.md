@@ -1,5 +1,5 @@
-# Columbus (하)
+# 콜럼버스 (하)
 
-##
+## 신대륙
 
-Host has 15.0% bonus Crit Rate. Every attack against the same target deals 3% more Physical DMG (15%). Reset if no attacks in 10s or target changes.
+크리티컬률이 15.0% 증가하고, 지속적으로 한 명의 적만 공격하면 공격마다 물리 대미지가 3% 증가하며, 최대 15% 증가한다. 10초 동안 공격하지 않거나 목표를 변경하면 해당 효과는 리셋된다.
