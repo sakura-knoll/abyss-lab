@@ -1,5 +1,5 @@
-# Caravaggio (하)
+# 카라바조 (하)
 
-##
+## 도망에 능한 자
 
-Gain 10% faster Move and ATK Speeds. When an entity summoned by the host is present, gain another 10% faster Move and ATK speeds.
+이동 속도와 공격 속도 10% 증가, 자신의 소환물이 스테이지에 존재 시 이동 속도와 공격 속도가 추가로 10% 증가한다.
