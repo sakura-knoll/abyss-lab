@@ -1,5 +1,5 @@
-# Wilde (상)
+# 와일드 (상)
 
-##
+## 광인의 초상화
 
-Gains 30% Physical DMG. When entering global Time Fracture, the host gains 20.0% Attack Speed for 4s.
+물리 대미지 30% 증가, 전체 시공 단열에 진입 후 4초 동안 자신의 공격 속도가 20.0% 증가한다.
