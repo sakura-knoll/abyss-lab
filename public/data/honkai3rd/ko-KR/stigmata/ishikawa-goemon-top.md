@@ -1,5 +1,5 @@
-# Ishikawa Goemon (상)
+# 이시카와 고에몬 (상)
 
-##
+## 가부쿠마이
 
-The host gains 1 stack of Dance Art when dealing DMG with Melee ATKs; each stack provides 5.0% Total DMG Reduction and boosts Lightning DMG by 7.0% (Lightning DMG increases by another 5.0% under Kenbu mode). Max stacks: 3. Stack CD: 5s. The host loses 1 stack when attacked, but will not more stacks within the next 3s.
+근접 공격으로 피해를 주면 캐릭터는 무예 버프를 획득하고 1개 중첩될 때마다 뇌전 원소 대미지가 7.0% 증가하고(검무 상태에서 대미지가 추가로 5.0% 증가한다), 받는 모든 대미지가 5.0% 감소한다. 최대 중첩수: 3개, 중첩 재발동 시간: 5초. 피격 후 1개의 중첩수가 사라지고 3초 내에 연속 피격 시 중첩수가 1개만 사라진다, 초기에는 버프를 1개 획득하고 시작한다.
