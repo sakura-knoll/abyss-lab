@@ -1,9 +1,9 @@
-# Shennong's Guardians
+# 신농의 가호
 
-## Enchantment of Herbs
+## 백초의 결계
 
-[SP 소모: 20][재사용 대기 시간: 20초] Generates a global aura that affects all enemies. Impairs target enemy (does not work on bosses), reducing its ATK by 46%. Immobilizes all other enemies besides target and inflicts Time Freeze. All other enemies except for the target cannot be targeted and take greatly reduced DMG. This aura lasts for 7.60s.
+[SP 소모: 20][재사용 대기 시간: 20초] 10.00초 동안 결계를 펼쳐 타깃(Boss는 무효)을 헣약 상태로 만들어 공격력을 70% 감소시킨다. 타깃 이외의 적들은 전부 속박되어 시간 정지가 상태가 되며 타깃이 될 수 없고 받는 피해가 대폭 감소한다.
 
-## Suppression
+## 억제
 
-Attacks against weakened enemies gain 30% Total DMG Multiplier.
+허약 상태의 적을 공격시 모든 대미지 50% 증가.

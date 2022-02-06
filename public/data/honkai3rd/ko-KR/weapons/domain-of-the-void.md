@@ -1,13 +1,13 @@
-# Domain of the Void
+# 공무지경: 영겁
 
-## Implosion Core
+## 파공의 핵
 
-[SP 소모: 0][재사용 대기 시간: 20초] Summons Implosion Core to crush enemies dealing 150% ATK of Physical DMG and explode later, dealing 360% ATK of Physical DMG. When it is equipped on Herrscher of the Void, she restores 60 Herrscher Charge; Implosion Core attacks become Heavy ATKs and deal 40.0%s bonus damage against shield. Implosion Core generates a Space Core whose explosion benefits from Herrscher of the Void's skill bonuses and deals 200% ATK of bonus Physical DMG. An Implosion Core is also summoned upon Herrscher of the Void entering Herrscher Form (does not generate Space Core on hit).
+[SP 소모: 0][재사용 대기 시간: 20초] 파공의 핵을 소환해 적에게 떨어뜨려 공격력 150%의 물리 대미지를 입히고, 이어 파공의 핵이 폭발해 360% 공격력의 물리 대미지를 입힌다. 공간의 율자 사용 시 60pt의 율자 에너지를 회복한다, 파공의 핵 공격은 강격이고, 실드에 가하는 대미지가 추가로 40.0%s 증가한다. 파공의 핵이 적에게 명중하면 공간 코어가 생성되고, 공간 코어 폭발 시 공간의 율자 자신의 스킬 효과를 받을 수 있으며 추가로 공격력 200%의 물리 대미지를 입힌다. 공간의 율자가 율자 형태 진입 시 파공의 핵을 1개 소환한다(해당 파공의 핵은 적에게 명중 시 공간 코어를 생성하지 않는다).
 
-## Void Sigil
+## 공허의 각인
 
-Wielder deals 20% bonus Physical DMG and 30% Crit DMG. When equipped on Herrscher of the Void, it grants 10% bonus Physical DMG against Time Slowed Enemies.
+발키리가 가하는 물리 대미지 20% 증가, 크리티컬 대미지 30% 증가. 공간의 율자가 사용 시 시공 감속 상태의 적에게 가하는 물리 대미지 10% 증가.
 
-## Subspace Echo
+## 아공의 메아리
 
-When it is equipped on Herrscher of the Void, damage against shield boosts by 25% and total damage taken reduces by 20%.
+공간의 율자가 사용 시 실드에 가하는 물리 대미지 25% 증가, 받는 물리 대미지 20% 감소.

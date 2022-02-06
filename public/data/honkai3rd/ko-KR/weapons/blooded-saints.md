@@ -1,9 +1,9 @@
-# Blooded Saints
+# 블러디 세인트
 
-## Holy Verdict
+## 성벌
 
-When Basic or Burst attacks hit the enemy, summon Orbital Support to deal 450% ATK of Physical DMG to target nearby enemies. Orbital Support can strike once every 6.0s. Sündenjäger equip bonus: Apply a Hunted Brand to current target for 13s.
+기본 공격, 필살기와 폭발 상태 공격이 적에게 명중 시 궤도 지원 공격을 발동하여 타깃과 그 주변의 적에게 공격력 450%의 물리 대미지를 입힌다. 지원 공격은 6.0초마다 한 번 발동한다. 원죄 사냥꾼이 사용 시 현재 공격 중인 타깃에게 추가로 13초 동안 추적 표식을 남긴다.
 
-## Blooded Hands
+## 피묻은 손
 
-Every time the character summons Orbital Support using the Holy Verdict skill, character gains 7% Physical DMG for 20.0s. Stacks up to 6 times. Triggering this again resets the duration. Buff ends once the character exits.
+성벌 스킬의 궤도 지원 공격을 발동할 때마다 25.0초 동안 캐릭터의 물리 대미지가 7% 증가한다, 최대 6회 중첩. 중복 발동 시 지속 시간을 초기화한다. 캐릭터가 퇴장 시 물리 대미지 증가 효과가 사라진다.

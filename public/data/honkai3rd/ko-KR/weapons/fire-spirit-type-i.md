@@ -1,5 +1,5 @@
-# Fire Spirit Type-I
+# 불의 요정 I형
 
-## Spirit's Rage
+## 요정의 분노
 
-Hits have a 10% chance of igniting target, dealing 120 DMG every 0.5s for 2.07s.
+적중 시 10%의 확률로 타깃을 연소 상태로 만들어 2.07초 동안 0.5초마다 120의 화염 원소 대미지를 입힌다.

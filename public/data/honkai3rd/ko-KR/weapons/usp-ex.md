@@ -1,9 +1,1 @@
-# USP EX
-
-## Obtained From
-
-Upgrade USP EX
-
-## Added During
-
-Version Unknown
+# 개량형 USP

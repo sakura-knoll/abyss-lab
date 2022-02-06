@@ -1,11 +1,11 @@
-# Hallowed Saints
+# 송영 총
 
-## Pumpkin Bomb
+## 호박 폭탄
 
-[SP 소모: 15][재사용 대기 시간: 25초] Summons 3 pumpkin bombs near the wielder. Each bomb deals 300% ATK of Fire DMG.
-In Halloween Maze: Within 5s, summon 3 pumpkin bombs near the wielder per second. Each bomb deals 500% ATK of Fire DMG to nearby enemies.
+[SP 소모: 15][재사용 대기 시간: 25초] 자신 주위에 호박 폭탄을 3개 소환한다. 폭탄마다 주위의 적에게 공격력 300%의 화염 원소 대미지를 입힌다.
+할로윈 허수 미궁에서: 5초 동안, 1초마다 자신 주위에 호박 폭탄을 3개 소환한다. 폭탄마다 주위의 적에게 공격력 500%의 화염 원소 대미지를 입힌다.
 
-## Prank
+## 악취미
 
-Pumpkin bombs mark hit enemies for 7s. Attacks against enemies marked by the pumpkin bomb gain 10.0% Crit Rate and Crit DMG.
-In Halloween Maze: Attacks against enemies marked by the pumpkin bomb gain another 45.0% Crit Rate and Crit DMG.
+호박 폭탄은 명중한 적에게 표식을 남긴다, 지속 시간 7초. 호박 폭탄에 표식된 적을 공격할 때, 크리티컬률과 크리티컬 대미지가 10.0% 상승한다.
+할로윈 허수 미궁에서: 호박 폭탄이 표식된 적을 공격할 때, 크리티컬률과 크리티컬 대미지가 추가로 45.0% 상승한다.

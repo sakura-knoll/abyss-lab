@@ -1,9 +1,9 @@
-# Blaze Destroyer
+# 화염 궤멸자
 
-## Raging Flames
+## 진동하는 화염
 
-[SP 소모: 20][재사용 대기 시간: 9초] Knocks enemies in a small AOE in front of the character airborne, dealing 100% ATK of Physical DMG. Targets explode after a short period of time, dealing 1,888 Fire DMG and igniting other enemies. Ignited enemies receive 196 Fire DMG every 0.5s for 4.5s.
+[SP 소모: 20][재사용 대기 시간: 9초] 전방의 작은 범위 내의 적들을 공중에 띄워서 공격력의 100% 물리 대미지를 입힌다. 잠시 후 타깃을 중심으로 폭발을 일으켜 1,888의 화염 원소 피해를 입히고 4.5초 동안 연소 상태가 되어 0.5초마다 196의 화염 원소 피해를 입힌다.
 
-## Ignition
+## 점화
 
-For every enemy ignited, each attack deals an additional 41 Fire DMG. Stacks up to 5 times.
+스테이지의 연소 상태의 적 1기마다 자신의 공격에 41의 화염 대미지가 추가된다. 5회 중첩 가능.

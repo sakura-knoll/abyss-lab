@@ -1,9 +1,9 @@
-# Hyper Railguns
+# 초전자 핸드건
 
-## Megavolts
+## 백만 볼트
 
-[SP 소모: 16][재사용 대기 시간: 18초] Deals 2,300 Lightning DMG to enemies in a large AOE and paralyzes them for 4.00s.
+[SP 소모: 16][재사용 대기 시간: 18초] 넓은 범위의 적에게 2,300의 뇌전 원소 대미지를 입히고 4.00초 동안 마비 상태로 만든다.
 
-## Paralyzing Current
+## 전류 마비
 
-3.0% chance to paralyze a target, preventing it from moving or attacking for 2.50s.
+적중 시 3.0%의 확률로 타깃을 2.50초 동안 마비 상태로 만들어 공격과 이동을 못 하게 한다.

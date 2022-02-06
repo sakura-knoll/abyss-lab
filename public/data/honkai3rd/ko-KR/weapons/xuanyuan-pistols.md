@@ -1,5 +1,5 @@
-# Xuanyuan Pistols
+# 헌원·펄스 권총
 
-## Lightning Bullets
+## 뇌전탄
 
-[SP 소모: 18][재사용 대기 시간: 12초] Fire 6 penetrating lightning bullets in rapid succession, each bullet deals 233 Lightning DMG and impairs the target for 4s, decreasing it's DEF by 60%.
+[SP 소모: 18][재사용 대기 시간: 12초] 전방에 6발의 적을 관통하는 뇌전 탄환을 연사한다. 탄환마다 적에게 233의 뇌전 원소 대미지를 입히고 4초 동안 취약 상태로 만들어 방어력을 60% 감소시킨다.

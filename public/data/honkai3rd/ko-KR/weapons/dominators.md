@@ -1,9 +1,9 @@
-# Dominators
+# 지배자의 권총
 
-## Burning Punch
+## 타오르는 철권
 
-[SP 소모: 25][재사용 대기 시간: 10초] Unleash a humongous uppercut with mecha power. Deals 50% ATK of Physical DMG multiple times and ignites enemies in the AOE, dealing 149 Fire DMG every 0.5s for 2.10s.
+[SP 소모: 25][재사용 대기 시간: 10초] 강력한 기계의 힘으로 어퍼컷을 날려 범위 내의 적에게 다단 히트로 타격마다 공격력의 50% 물리 대미지를 입히고 2.08초 동안 연소 상태로 만들어 0.5초마다 151의 화염 원소 대미지를 입힌다.
 
-## Fury Dominator
+## 지배의 분노
 
-Hits against enemies gain 25 Fire DMG.
+적중 시 25의 화염 원소 대미지를 추가한다.

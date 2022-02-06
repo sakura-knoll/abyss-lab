@@ -1,5 +1,5 @@
-# Desert Eagle
+# 데저트 이글
 
-## Puncturing Blow
+## 회심의 일격
 
-[SP 소모: 10][재사용 대기 시간: 10초] Deals 340% ATK of Physical DMG to enemies in a straight line. Stores 2 charges.
+[SP 소모: 10][재사용 대기 시간: 10초] 직선 경로의 적에게 공격력의 340% 물리 대미지를 입힌다. 2회 충전 가능.

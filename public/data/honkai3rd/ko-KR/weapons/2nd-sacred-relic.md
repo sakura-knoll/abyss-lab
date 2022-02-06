@@ -1,9 +1,9 @@
-# 2nd Sacred Relic
+# 2nd 성유물
 
-## Saint's Prediction
+## 성자의 예언
 
-Accelerates attack SP recovery by 35%.
+공격 시 SP 회복 속도 35% 증가.
 
-## Thunder Clouds
+## 뇌운의 그림자
 
-Hits against enemies deal an additional 50 Lightning DMG. Character gains 10.0% Crit DMG for every 25 points of current SP. Effect stacks up to 8 times.
+공격이 적에게 적중 시 추가로 50 뇌전 원소 대미지를 입히고 25 SP마다 크리티컬 대미지가 10.0% 증가한다, 최대 8회 중첩.

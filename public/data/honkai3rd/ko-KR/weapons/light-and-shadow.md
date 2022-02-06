@@ -1,9 +1,9 @@
-# Light and Shadow
+# 빛과 그림자
 
-## Polar Storm
+## 극지의 폭풍
 
-[SP 소모: 20][재사용 대기 시간: 20초] Generates an iceball that drags away all enemies in its path. The iceball then explodes, freezing enemies within a large AOE and dealing 850 Ice DMG every 0.9s for 4.00s.
+[SP 소모: 20][재사용 대기 시간: 20초] 얼음 구체를 발사하여 경로상의 적을 밀어내고 마지막에 폭발을 일으켜 넒은 범위의 적을 4.00초 동안 빙결 상태로 만들고 0.9초마다 850의 빙결 원소 대미지를 입힌다.
 
-## Coldarra
+## 극저온의 땅
 
-When basic attack (including combo and charged attacks) breaks a shield, unleash a frosty blast, slowing Move Speed and Attack Speed of the target and nearby enemies in a small AOE by 84% for 4.00s.
+기본 공격(분기와 차지 공격 포함)으로 실드를 파괴하는 순간 한기를 폭발하여 4.00초 동안 타깃과 그 주변 적의 이동 속도와 공격 속도를 84% 감소시킨다.

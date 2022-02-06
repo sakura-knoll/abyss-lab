@@ -1,9 +1,9 @@
-# Usurpers
+# 어크로치 핸드건
 
-## Infrasound
+## 저주파음
 
-[SP 소모: 15][재사용 대기 시간: 15초] Generates infrasound waves that deal 380% ATK of Physical DMG to nearby enemies. Affected enemies are also weakened, reducing their ATK by 60% for 6.0s.
+[SP 소모: 15][재사용 대기 시간: 15초] 저주파를 발사하여 공격력의 380% 물리 대미지를 입힌다. 음파에 맞은 적은 6.0초 동안 허약 상태가 되어 공격력이 60% 감소한다.
 
-## Light and Order
+## 율령의 빛
 
-Increases Ranged Physical DMG by 40%, however, the further away an enemy is, the less Physical DMG it'll receive. Damage is decreased by 10% per meter (up to 80%). Character gains 15.0% Move Speed.
+원거리 물리 대미지 40% 증가, 적과 거리가 멀어질수록 대미지가 감소한다, 1m마다 10% 씩 감소하며, 최대 80%까지 감소된다. 캐릭터의 이동 속도 15.0% 증가.

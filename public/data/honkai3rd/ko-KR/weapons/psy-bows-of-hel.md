@@ -1,9 +1,9 @@
-# PSY - Bows of Hel
+# 이형·헬의 활
 
-## Land of Death
+## 죽음의 나라
 
-[SP 소모: 16][재사용 대기 시간: 18초] Bombards the target with light beams, dealing 9x60.0% ATK of Physical DMG and freezing enemies within the AOE for 5.00s.
+[SP 소모: 16][재사용 대기 시간: 18초] 타깃을 향해 레이저 포격을 가해 범위 내의 적에게 공격력의 9x60.0% 물리 대미지를 입히고 5.00초 동안 빙결 상태로 만든다.
 
-## Underworld River
+## 삼도천
 
-Gain 5.0% Crit Rate. Character attacks on stunned and frozen enemies gain 40.0% Physical DMG.
+크리티컬률이 5.0% 증가하며, 기절 또는 빙결 상태의 적을 공격 시 가하는 물리 대미지가 40.0% 증가한다.

@@ -1,9 +1,9 @@
-# Hurricanes
+# 허리케인 리볼버
 
-## Spinning Windcut
+## 칼날 바람
 
-[SP 소모: 24][재사용 대기 시간: 30초] Spins multiple times to slash nearby enemies and deal 174 Ice DMG per slash, then end with an explosive burst that deals 300% ATK of Physical DMG and slowing enemies by 60% for 1.50s. The character can freely move while spinning.
+[SP 소모: 24][재사용 대기 시간: 30초] 자신을 중심으로 장시간 회전하며 적을 베어 가른다. 한 번 벨때마다 173의 빙결 원소 대미지를 입히고, 마무리 폭발로 공격력의 300% 물리 대미지를 입히며 1.50초 동안 적을 60% 감속시킨다. 회전하는 동안 이동할 수 있다.
 
-## Tailwind
+## 바람의 가호
 
-Hits against enemies have a 5.0% chance of accelerating Move Speed by 100% for 4.5s. CD: 10s.
+공격 시 4.9% 확률로 4.5초 동안 이동 속도 98% 증가한다, 재사용 대기시간 10초.

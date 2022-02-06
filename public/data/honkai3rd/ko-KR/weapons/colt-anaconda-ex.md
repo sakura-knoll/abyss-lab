@@ -1,5 +1,5 @@
-# Colt Anaconda EX
+# 개량형·콜트 아나콘다
 
-## Falling Frost
+## 서리꽃
 
-[SP 소모: 5][재사용 대기 시간: 10초] Enemies in a small AOE suffers 60% slower Move Speed and Attack Speed for 4.50s.
+[SP 소모: 5][재사용 대기 시간: 10초] 4.50초 동안 타깃과 그 주변 작은 범위 적의 공격 속도와 이동 속도를 60% 감소시킨다.
