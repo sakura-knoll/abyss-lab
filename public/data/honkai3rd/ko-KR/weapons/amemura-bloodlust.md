@@ -1,1 +1,1 @@
-# Amemura Bloodlust
+# 요도 아메무라
