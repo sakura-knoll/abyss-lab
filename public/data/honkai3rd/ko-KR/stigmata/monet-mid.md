@@ -1,5 +1,5 @@
-# Monet (중)
+# 모네 (중)
 
-##
+## 빛과 그림자
 
-Gain 20% Total DMG Reduction against hits taken. For every Combo Hit Count, host gains 2.0% Lighting DMG. Stacks up to 15 times.
+받는 모든 대미지 20% 감소. 콤보가 1 증가할 대마다 뇌전 원소의 대미지가 2.0% 증가한다, 최대 15회 중첩.
