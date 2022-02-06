@@ -1,5 +1,5 @@
-# Wilde (중)
+# 와일드 (중)
 
-##
+## 피묻은 가시
 
-Activates at below 20% HP. Heals the host for 800 HP. CD: 30s.
+HP가 20% 미만일 때 즉시 자신의 HP를 800 회복한다, 재사용 대기시간: 30초.
