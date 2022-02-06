@@ -1,5 +1,5 @@
-# Dracula (중)
+# 드라큘라 (중)
 
-##
+## 피의 탐욕
 
-Hits on bleeding enemies recover 3.0% HP and 3.0% SP for self. CD: 4s.
+출혈 상태의 적에게 적중 시 자신의 HP를 3.0%, SP를 3.0% 회복한다. 재사용 대기시간: 4초.
