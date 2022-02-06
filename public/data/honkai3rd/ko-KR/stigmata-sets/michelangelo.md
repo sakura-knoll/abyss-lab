@@ -1,11 +1,11 @@
-# Michelangelo
+# 미켈란젤로
 
-Renaissance Set
+르네상스 세트
 
-## Creation 2 세트
+## 창세기 2 세트
 
-The host's attacks gain 15% Total DMG Multiplier. Upon entering the battlefield, further gain 15% Total DMG Multiplier for 15s. CD: 30s.
+모든 대미지 15% 증가, 출전 시 15초 동안 자신의 모든 대미지가 추가로 15% 증가한다, 재사용 대기시간 30초.
 
-## Doomsday Trial 3 세트
+## 최후의 심판 3 세트
 
-When exiting, heals self for 2.0% max HP per second for 10s. Unleash a Judgement Attack to all enemies on the battlefield, dealing 300% ATK of Physical DMG, and an additional 300% ATK of Physical DMG to enemies with less than 10% HP. CD: 30s.
+퇴장 시 10초 동안 초당 자신의 HP 최대치의 2.0%를 회복한다. 또한 스테이지의 모든 적에게 심판을 내려 공격력의 300% 물리 대미지를 입히고 HP가 10% 미만인 적에게 추가로 공격력의 300% 물리 대미지를 입힌다, 재사용 대기시간 30초.
