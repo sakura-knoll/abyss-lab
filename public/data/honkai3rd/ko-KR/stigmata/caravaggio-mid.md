@@ -1,5 +1,5 @@
-# Caravaggio (중)
+# 카라바조 (중)
 
-##
+## 싸움을 즐기는 자
 
-Gain 25% Lightning DMG. When an entity summoned by the host is present, team also gains 10% All Elemental DMG (does not stack).
+뇌전 원소 대미지 25% 증가, 자신의 소환물이 스테이지에 존재 시 모든 파티원의 모든 원소 대미지가 10% 증가한다. 해당 효과는 하나만 발동할 수 있다.
