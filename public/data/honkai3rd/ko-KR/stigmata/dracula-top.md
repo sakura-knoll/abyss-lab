@@ -1,5 +1,5 @@
-# Dracula (상)
+# 드라큘라 (상)
 
-##
+## 피의 갈망
 
-Attacks against bleeding enemies gain 40% Physical DMG.
+출혈 상태의 적을 공격 시 물리 대미지가 40% 증가한다.
