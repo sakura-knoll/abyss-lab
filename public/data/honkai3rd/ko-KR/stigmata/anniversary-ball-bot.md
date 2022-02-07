@@ -1,5 +1,5 @@
-# Anniversary Ball (하)
+# 제레·드레스 (하)
 
 ##
 
-Gain 20% Move Speed. When the Dance Level reaches 1, gain 15% Attack Speed.
+이동 속도가 20% 증가하고, 댄스 레벨이 1 이상일 경우 공격 속도가 15% 증가한다.

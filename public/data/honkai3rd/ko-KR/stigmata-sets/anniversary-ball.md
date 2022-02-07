@@ -1,11 +1,12 @@
-# Anniversary Ball
+# 무도회
 
-Anniversary Ball Set
+무도회 세트
 
-## Flower Dance 2 세트
+## 꽃들의 춤 2 세트
 
-When the host is on the field, gain 1 Dance Level for every 5s on the battlefield (Max Dance Level: 3). The 3 Dance Levels buff Total DMG Multiplier by 15%, 20%, and 25% respectively. The Dance Level is reset to 0 when the host exits the field.
+스테이지의 캐릭터는 5초가 지날 때마다 댄스 레벨이 1 (최대 3 레벨) 증가한다. 세 개의 댄스 레벨마다 자신이 가하는 모든 대미지가 각각 15%, 20%, 25% 증가한다.
+캐릭터가 퇴장 시 댄스 레벨을 초기화한다.
 
-## Dance of Passion 3 세트
+## 열정의 춤 3 세트
 
-When the Dance Level reaches 3, attacks will cause an explosion, dealing 300% ATK of Physical DMG to surrounding enemies. CD: 6s.
+캐릭터 댄스 레벨이 3일 경우 공격 시 폭발이 일어나 범위 내 적에게 공격력의 300% 물리 대미지를 입힌다. 재사용 대기시간 6초.
