@@ -1,5 +1,5 @@
-# Anniversary Festival (하)
+# 비홍·하이퍼 모드 (하)
 
 ##
 
-Attacks on an enemy with lower HP percentage than the host gain 50% Crit DMG.
+현재 HP 백분율이 자신보다 낮은 적을 공격 시 크리티컬 대미지 50% 증가
