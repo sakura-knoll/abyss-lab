@@ -1,12 +1,12 @@
-# Dark Jixuanyuan
+# 희헌원·흑
 
-Black Kirin Set
+흑헌원 세트
 
-## Blade of Darkness 2 세트
+## 어둠의 칼날 2 세트
 
-When global Time Fracture is active, gain 40% Physical DMG.
-Kiana or Kallen equip bonus: Basic ATKs (including Combo and Charged ATKs) gain 4 additional SP. CD: 2s.
+전체 시공 단열 상태에서 물리 대미지가 40% 증가한다.
+키아나 또는 카렌이 사용 시 기본 공격(분기와 차지 공격 포함)으로 SP를 추가로 4 획득할 수 있다. 재사용 대기시간 2초
 
-## Daughter of Darkness 3 세트
+## 어둠의 아이 3 세트
 
-When Time Fracture is active, active skills consumes 30% less SP.
+전체 시공 단열 상태에서 스킬 발동 시의 SP 소모량이 30% 감소한다.

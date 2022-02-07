@@ -1,5 +1,5 @@
-# Dark Jixuanyuan (하)
+# 희헌원·흑 (하)
 
 ##
 
-When global Time Fracture is active, gain 30% Move Speed and 25% Attack Speed.
+전체 시공 단열 상태에서 이동 속도 30%, 공격 속도가 25% 증가한다.

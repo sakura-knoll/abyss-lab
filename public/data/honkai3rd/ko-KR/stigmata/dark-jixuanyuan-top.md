@@ -1,5 +1,5 @@
-# Dark Jixuanyuan (상)
+# 희헌원·흑 (상)
 
 ##
 
-When global Time Fracture is triggered, deal 450% ATK of Physical DMG to surrounding enemies and knock them back. CD: 20s.
+전체 시공 단열 상태가 되면 주변 적에게 공격력의 450% 물리 대미지를 입히고 넉백시킨다. 재사용 대기시간 20초
