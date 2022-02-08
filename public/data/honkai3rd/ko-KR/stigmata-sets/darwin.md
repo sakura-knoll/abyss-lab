@@ -1,11 +1,11 @@
-# Darwin
+# 다윈
 
-Theory of Evolution Set
+진화론 세트
 
-## Origin of Shields 2 세트
+## 최초의 가호 2 세트
 
-Gains a shield upon entry. The shield disappears upon taking an enemy hit and inflicts a 3s paralysis on nearby enemies. Shield appears again after 10s. When the shield is active, character gains 20% Lightning DMG.
+입장 시 자신이 가하는 뇌전 원소 대미지가 20% 증가한다. 적에게 피격 시 해당 효과는 사라지며 주변 적에게 3초의 마비 효과를 부여한다. 10초 후 해당 효과를 다시 획득할 수 있다.
 
-## Wings of Life 3 세트
+## 생명의 날개 3 세트
 
-Gain 20% Lightning DMG and 20% faster Move Speed. The shield of the Origin of Shields disappears after taking 2 hits.
+뇌전 원소 대미지가 20% 증가하고, 이동 속도가 20% 증가한다. 초기 실드는 2회 피격 시 .
