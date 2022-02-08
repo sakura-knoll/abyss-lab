@@ -1,12 +1,12 @@
-# Leeuwenhoek
+# 레벤·후크
 
-Lord of Dierkens Set
+소인국 공주 세트
 
-## Lens Wizardry 2 세트
+## 빛의 마술사 2 세트
 
-The host gains 15.0% Total DMG. When unleashing Ultimate, all enemies on the battlefield take 15.0% more Fire DMG from the host for 12s and force-activates the 1-pc buffs of this stigma set; CD: 20s.
+모든 대미지가 15.0% 증가하고, 필살기 발동 시 12초 동안 필드의 모든 적이 해당 발키리로부터 받는 화염 원소 대미지가 15.0% 증가하고, 해당 성흔 세트의 단일 강화 효과를 강제로 발동한다. 재사용 대기시간: 20초.
 
-## Animaculum 3 세트
+## 미생물 왕국 3 세트
 
-The host gains 2.0% Total DMG Reduction each time she ignites an enemy; stacks up to 15 times; effect lasts until the battle ends.
-Durandal equip bonus: Auto-triggers the 2-pc bonus when entering the battlefield.
+연소 상태의 적을 공격할 때마다 받는 모든 대미지 2.0% 감소 효과를 획득하고, 최대 15회 중첩되며, 전투 종료까지 유지된다.
+듀란달이 장착하면, 출격 즉시 2세트 효과가 발동한다.
