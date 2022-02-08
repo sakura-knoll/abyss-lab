@@ -1,5 +1,5 @@
-# Darwin (하)
+# 다윈 (하)
 
-##
+## 회피 진화
 
-For every Ultimate Evasion performed by host, gain 6% Total DMG Multiplier. Stacks up to 4 times. DMG buff applies for current combat (host's death dispels the buff).
+자신이 극한 회피를 1회 성공할 때마다 가하는 모든 대미지가 6% 증가한다, 최대 4회 중첩. 증가 효과는 해당 전투에서만 유효하다(사망 시 효과가 사라진다).
