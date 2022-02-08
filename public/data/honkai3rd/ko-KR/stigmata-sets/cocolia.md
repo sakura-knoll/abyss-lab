@@ -1,11 +1,11 @@
-# Cocolia
+# 쿠쿠리아
 
-Anti-Entropy Commander Set
+네겐트로피 지휘관 세트
 
-## Charging Shield 2 세트
+## 충전 방어 2 세트
 
-Receives a shield when an entity summoned by the host is attacked. When active, the shield provides 50% Total DMG Reduction against incoming attacks and lasts 7s. CD: 21s.
+자신의 소환물이 적에게 피격 시 일정 시간 동안 받는 모든 대미지가 7초간 50% 감소한다. 재사용 대기시간: 21초.
 
-## Explosion Armor 3 세트
+## 폭발 장갑 3 세트
 
-The Charging Shield explodes when broken, dealing 500% ATK of Physical DMG to surrounding enemies in a large AOE.
+충전 방어 효과는 사라질 때 폭발하여 주변 적에게 공격력 500%의 물리 대미지를 가한다.
