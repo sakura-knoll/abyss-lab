@@ -1,5 +1,5 @@
-# Einstein (하)
+# 아인슈타인 (하)
 
-##
+## 아인슈타인 방정식
 
-Charged attacks gain 20% Total DMG Multiplier. Hits made against MECH-type enemies accelerates the character's Attack Speed by 15% for 3s Triggering this skill again resets the duration.
+차지 공격의 모든 대미지 20% 증가, 기계 속성의 적에게 적중 시 3초 동안 자신의 공격 속도가 15% 증가한다. 중복 발동 시 지속 시간이 초기화 된다.
