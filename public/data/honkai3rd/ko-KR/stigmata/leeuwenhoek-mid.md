@@ -1,5 +1,5 @@
-# Leeuwenhoek (중)
+# 레벤·후크 (중)
 
-##
+## 현미경
 
-The host gains 20.0% Total DMG. Ultimate Evasion boosts her Fire DMG by 20.0% for 10s; triggering this effect again resets the duration.
+모든 대미지 20.0% 증가. 극한 회피 시 강화 획득, 화염 원소 대미지 20.0% 증가. 지속 시간: 10초. 갱신 가능.
