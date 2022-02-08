@@ -1,5 +1,5 @@
-# Cleopatra (상)
+# 클레오파트라 (상)
 
-##
+## 고급 육체 고정
 
-Gain 41% Total DMG Multiplier against enemy with broken Elite Shield.
+엘리트 실드가 파괴된 적에게 가하는 모든 대미지 41% 증가.
