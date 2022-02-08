@@ -1,5 +1,5 @@
-# Darwin (중)
+# 다윈 (중)
 
-##
+## 방어 진화
 
-For every 1 hit taken by the host, gain 7% Total DMG Reduction. Stacks up to 4 times. DMG Reduction buff applies for current combat (host's death dispels the buff).
+적에게 1회 피격할 때마다 받는 모든 대미지가 7% 감소한다, 최대 4회 중첩. 감소 효과는 해당 전투에서만 유효하다(사망 시 효과가 사라진다).
