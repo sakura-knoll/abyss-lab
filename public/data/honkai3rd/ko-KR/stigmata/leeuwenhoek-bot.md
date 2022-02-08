@@ -1,5 +1,5 @@
-# Leeuwenhoek (하)
+# 레벤·후크 (하)
 
-##
+## 적혈구
 
-The host gains 20.0% Fire DMG. The host's switch entry and attacks against ignited enemies boost her Total DMG by 25.0% for 10s; triggering this effect again resets the duration.
+화염 원소 대미지 20.0% 증가. 출전 또는 연소 상태의 적을 공격 시 강화 획득, 모든 대미지 25.0% 증가. 지속 시간: 10초. 갱신 가능
