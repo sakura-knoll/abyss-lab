@@ -1,5 +1,5 @@
-# Cleopatra (하)
+# 클레오파트라 (하)
 
-##
+## 마비 고정
 
-Attacks against paralyzed enemies gain 82% Total DMG Multiplier.
+마비 상태의 적을 공격 시 모든 대미지 82% 증가.
