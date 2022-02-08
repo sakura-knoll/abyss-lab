@@ -1,5 +1,5 @@
-# Einstein (중)
+# 아인슈타인 (중)
 
-##
+## 광양자
 
-When charged attacks hit the enemy, heal character for 50 HP. CD: 3s. Hits made against MECH-type enemies also restore 2.0 SP. CD: 3s.
+차지 공격이 적에게 적중 시 자신의 HP를 50 회복한다, 재사용 대기시간 3초. 기계 속성인 적에게 적중 시 자신의 SP를 2.0 회복한다, 재사용 대기시간 3초.
