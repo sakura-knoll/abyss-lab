@@ -1,11 +1,11 @@
-# Einstein
+# 아인슈타인
 
-Relatively Natural Curls Set
+상대성 천연 곱슬 세트
 
-## Special Relativity 2 세트
+## 특수 상대성 이론 2 세트
 
-Gain 5% Total DMG Multiplier for every meter of distance from the enemy. Bonus stacks up to 5 times.
+적과의 거리가 1m씩 멀어질 때마다 가하는 모든 대미지가 5% 증가한다, 최대 5회 중첩 가능.
 
-## General Relativity 3 세트
+## 상대성 이론 3 세트
 
-Get Total DMG Reduction when closer to the enemy, up to a max of 40% DMG Reduction.
+적과의 거리가 가까울수록 최대 40%까지 받는 대미지가 감소한다.
