@@ -1,5 +1,5 @@
-# Beach Party (중)
+# 메이·수영복 파티 (중)
 
-##
+## 잔잔한 물결
 
-Gain 18% Total DMG Multiplier. When attacking, attacks against enemies gain 15% Total DMG Multiplier for 4s. CD: 8.0s.
+모든 대미지가 18% 증가하고 적을 공격 시 4초 동안 적이 받는 모든 대미지를 15% 증가시킨다. 재사용 대기시간: 8.0초.
