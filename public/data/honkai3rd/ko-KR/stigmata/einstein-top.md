@@ -1,5 +1,5 @@
-# Einstein (상)
+# 아인슈타인 (상)
 
-##
+## 질량 보존
 
-Charged attacks gain 30% DMG against shields. At below 33% HP, gain 41% Total DMG Multiplier.
+차지 공격으로 실드에 가하는 대미지가 30% 증가한다. HP가 33%보다 낮을 때 모든 대미지가 41% 증가한다.

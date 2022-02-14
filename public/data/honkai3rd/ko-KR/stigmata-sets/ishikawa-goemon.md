@@ -1,11 +1,11 @@
-# Ishikawa Goemon
+# 이시카와 고에몬
 
-Ninja Dancer Set
+춤추는 검심 세트
 
-## Kenbu Stance 2 세트
+## 최초의 댄서 2 세트
 
-The host enters Kenbu mode when hitting an enemy with Combo ATKs, under which her Total DMG increases by 30.00% for 7s. CD: 10s.
+분기 공격이 적을 명중 후 검무 상태에 진입한다. 모든 대미지가 30.00% 증가한다. 지속 시간: 7초. 재사용 대기시간: 10초.
 
-## Indomitable Outlaw 3 세트
+## 밤의 의적 3 세트
 
-The host gains 30.0% Total DMG Reduction and Interrupt Immunity when attacked. CD: 15s. The host restores 400 HP every 20s at below 50% HP.
+피격 시 받는 모든 대미지가 30.0% 감소하고 경직되지 않는다. 재사용 대기시간: 15초. HP가 50% 미만일 때 20초마다 400의 HP를 회복한다.

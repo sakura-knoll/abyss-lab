@@ -1,11 +1,11 @@
-# Ekaterina
+# 예카테리나
 
-Tsar of Russia Set
+러시아 황제 세트
 
-## MECH Power 2 세트
+## 기계의 힘 2 세트
 
-Gain 15% CRT in battle. MECH-type battlesuit equip bonus: Gain 15% Max SP in battle.
+전투 중 회심치가 15% 증가한다. 기계 속성의 캐릭터가 사용 시 전투 중 SP 최대치가 추가로 15% 증가한다.
 
-## Combo Burst 3 세트
+## Combo 버스트 3 세트
 
-When Combo Hit Count exceeds 70, gain 120% Crit DMG.
+콤보 수 70 초과 시 크리티컬 대미지 120% 증가.

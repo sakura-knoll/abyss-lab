@@ -1,5 +1,5 @@
-# Tesla Band (중)
+# 테슬라·밴드 (중)
 
-##
+## 스트롱 코드
 
-After exit, allies gain 15% Lightning DMG Resistance and attacks deal 15% more Lightning DMG (effect cannot stack). When on the field, the host takes 25% less Physical DMG from enemy hits.
+대기 중, 파티원의 뇌전 원소 저항력이 15%, 뇌전 원소 대미지가 15% 증가한다(해당 효과는 하나만 발동할 수 있다). 출전 후 적에게 피격 시 캐릭터가 받는 물리 대미지가 25% 감소한다.

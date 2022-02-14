@@ -1,5 +1,5 @@
-# Beethoven (하)
+# 베토벤 (하)
 
-##
+## 영웅
 
-On the field: Gain 15 SP. CD: 15.0s.
+출전 시 SP를 15pt 회복한다. 재사용 대기시간: 15.0초.

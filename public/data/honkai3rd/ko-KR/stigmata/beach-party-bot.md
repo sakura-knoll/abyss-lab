@@ -1,5 +1,5 @@
-# Beach Party (하)
+# 브로냐·수영복 파티 (하)
 
-##
+## 물 감옥
 
-When equipping character is deployed, attacks by any ally have 30% chance to slow enemy Move Speed by 60% for 4.0s. CD: 10s. This stigma effect cannot stack.
+장착한 캐릭터가 스테이지에 있으면 모든 파티원의 공격은 30%의 확률로 4.0초 동안 적의 이동 속도를 60% 감소시킬 수 있다, 재사용 대기시간 10초 (해당 성흔의 효과는 하나만 발동할 수 있다.)

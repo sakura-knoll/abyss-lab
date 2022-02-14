@@ -1,11 +1,11 @@
-# Marco Polo
+# 마르코 폴로
 
-Emilione Set
+백만 여행가 세트
 
-## Khan's Envoy 2 세트
+## 연합의 사자 2 세트
 
-When Combo Hit exceeds 25, Combo or Charged ATKs deal 250% ATK of bonus Physical DMG on hit. CD: 5s.
+콤보 수가 25 초과 시 분기 혹은 차지 공격이 적에게 명중 시 추가로 250%의 물리 대미지를 입힌다. 재사용 대기시간: 5초.
 
-## Book of Marvels 3 세트
+## 기적의 서 3 세트
 
-When Combo Hit exceeds 25 host heals 200 HP per 5s.
+콤보수가 25 초과 시 5초마다 자신의 HP를 200 회복한다.

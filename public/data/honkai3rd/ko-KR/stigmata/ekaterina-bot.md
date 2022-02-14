@@ -1,5 +1,5 @@
-# Ekaterina (하)
+# 예카테리나 (하)
 
-##
+## Combo 급속
 
-When Combo Hit Count exceeds 10, gain 31% Move Speed.
+콤보 수 10 초과 시, 이동 속도 31% 증가.

@@ -1,5 +1,5 @@
-# Monet (하)
+# 모네 (하)
 
-##
+## 착색
 
-For every 10s, combo/charged attacks that hit the enemy inflicts 60% Move Slow for 6s. When Combo Hit Count exceeds 30, gain 15.0% Attack Speed.
+10초마다 분기/차지 공격이 적에게 적중 시 6초 동안 적의 이동 속도가 60% 감소한다. 콤보 수 30 이상 시 공격속도 15.0% 증가.

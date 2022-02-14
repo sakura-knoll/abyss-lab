@@ -1,5 +1,5 @@
-# Beach Party (상)
+# 키아나·수영복 파티 (상)
 
-##
+## 물 탄환
 
-Recovers whole team's SP by 8 upon killing a normal enemy and 24 SP upon killing an elite enemy or boss. Consumes 1 Cool Blessing every time this effect is triggered. Cool Blessing is increased by 1 every 7 sec. The maximum number of Cool Blessings is 3. Character has maximum Cool Blessings when battle starts.
+일반 적 처치 시 모든 캐릭터의 SP가 8 회복된다. 엘리트와 BOSS를 처치할 경우 SP가 24 회복된다. 발동할 때마다 시원한 축복 하나를 소모해야 한다. 전투 시작 시 축복을 3개 갖고 시작하며, 시원한 축복은 7초마다 한 개씩 증가한다. (최대 3회 중첩)

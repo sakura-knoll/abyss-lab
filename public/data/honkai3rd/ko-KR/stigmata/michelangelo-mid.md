@@ -1,5 +1,5 @@
-# Michelangelo (중)
+# 미켈란젤로 (중)
 
-##
+## 집중
 
-Every Basic ATK (including Charged and Combo ATKs) increases your Crit Rate by 3.0% for 3s. Stacks up to 5 times, adding a stack resets the duration of the Crit Rate increase effect.
+기본 공격(차지와 분기 공격 포함)이 적에게 적중할 때마다 3초 동안 크리티컬률이 3.0% 증가한다. 최대 5회 중첩. 중복 발동 시 크리티컬률 증가 효과의 지속 시간을 초기화 한다.

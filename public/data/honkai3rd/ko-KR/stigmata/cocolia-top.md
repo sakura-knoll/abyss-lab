@@ -1,5 +1,5 @@
-# Cocolia (상)
+# 쿠쿠리아 (상)
 
-##
+## 에너지 과부하
 
-Basic ATKs (including Combo and Charged ATKs) gain 20% Physical DMG. When an entity summoned by the host is on the field, gain 25% Crit DMG.
+기본 공격(분기와 차지 공격 포함)으로 가하는 물리 대미지가 20% 증가한다. 자신의 소환물이 스테이지에 있으면 자신의 크리티컬 대미지가 25% 증가한다.

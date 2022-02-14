@@ -1,5 +1,5 @@
-# Caravaggio (상)
+# 카라바조 (상)
 
-##
+## 정확
 
-Gain 25% Total DMG Multiplier. When an entity summoned by the host is present, the host also gains 15% Total DMG Reduction.
+모든 대미지 25% 증가, 자신의 소환물이 스테이지에 존재 시 자신이 받는 모든 대미지가 15% 감소한다.

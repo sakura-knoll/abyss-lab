@@ -1,5 +1,5 @@
-# Wilde (하)
+# 와일드 (하)
 
-##
+## 애증의 무곡
 
-Gain 10% Crit Rate. Charged ATK bleed the target and nearby enemies in a small AOE to inflict 400 Physical DMG every 0.5s for 3s. CD: 9.0s.
+크리티컬률이 10% 증가하고 차지 공격 후 타깃과 주변 작은 범위의 적을 3초 동안 출혈 상태로 만들어 0.5초마다 400의 물리 대미지를 입힌다, 재사용 대기시간: 9.0초.

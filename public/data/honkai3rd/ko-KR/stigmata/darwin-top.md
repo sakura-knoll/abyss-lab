@@ -1,5 +1,5 @@
-# Darwin (상)
+# 다윈 (상)
 
-##
+## 공격 진화
 
-For every 15 Combo Hit Count, gain 8% Lightning DMG dealt. Stacks up to 4 times. DMG buff applies for current combat (host's death dispels the buff).
+자신의 15 콤보마다, 가하는 뇌전 원소 대미지가 8% 증가한다, 최대 4회 중첩. 증가 효과는 해당 전투에서만 유효하다(사망 시 효과가 사라진다).

@@ -1,5 +1,5 @@
-# Ishikawa Goemon (하)
+# 이시카와 고에몬 (하)
 
-##
+## 가구라
 
-The host deals 35.0% more Lightning DMG. The first attack unleashed after Ultimate Evasion deals an additional 60.0% ATK of Lightning DMG (deals another 60.0% ATK of Lightning DMG under Kenbu mode). CD: 8s.
+뇌전 원소의 대미지가 35.0% 증가하고 극한 회피 후 발동하는 다음 공격에 공격력 60.0%의 뇌전 원소 대미지가 추가된다(검무 상태에서 추가로 공격력 60.0%의 대미지가 추가된다). 재사용 대기시간: 8초.

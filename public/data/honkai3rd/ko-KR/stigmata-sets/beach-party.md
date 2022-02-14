@@ -1,11 +1,11 @@
-# Beach Party
+# 수영복 파티
 
-Beach Party Set
+수영복 파티 세트
 
-## Chaos Party 2 세트
+## 무질서한 파티 2 세트
 
-Attacks have a 12% chance of summoning a HOMU King who knocks down surrounding enemies to deal 450% ATK of Physical DMG. CD: 16s.
+공격 시 12% 확률로 호무왕[소환물]이 나타나 공격력 450%의 물리 대미지를 가하고 주변의 적을 넘어뜨린다(대미지는 사용자를 기준으로 한다), 재사용 대기시간 16초.
 
-## Zeal 3 세트
+## 정열 3 세트
 
-All allies (including illusions) receive a Flame Wreath when HOMU King appears, dealing 893 Fire DMG every 0.5s to surrounding enemies. Flame wreath lasts 6s.
+호무왕이 존재할 때 모든 아군(분신 포함)은 6초 동안 지속되는 불꽃의 고리를 획득하여 0.5초마다 주변 적에게 893의 화염 원소 대미지를 입힌다.

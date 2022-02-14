@@ -1,5 +1,5 @@
-# Edwin Hubble (중)
+# 에드원 허블 (중)
 
-##
+## 우주 요새
 
-Gain 20% Ice Resistance. Attacks have a 30% chance to inflict 20% Move Slow on the enemy for 4s. CD: 12s.
+빙결 원소 저항력 20% 증가, 공격 시 30%의 확률로 4초 동안 적의 이동 속도 20% 감소, 재사용 대기시간 12초.

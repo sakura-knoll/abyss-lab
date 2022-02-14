@@ -1,11 +1,11 @@
-# Robert Peary
+# 로버트·피어리
 
-Arctic Explorer Set
+북극의 탐험가 세트
 
-## Suzerain of Ice 2 세트
+## 얼음의 영주 2 세트
 
-When attacked, said attack suffers 25% Total DMG Reduction. The attacker is also frozen for 5.0s. Said effect works only 1 time for each enemy. After entry, the host's first attack directly adds 20 to the Combo Hit counter. CD: 15s.
+피격시 이번 공격의 모든 대미지가 25% 감소하고 공격한 적을 5.0초 동안 빙결 상태로 만든다. 해당 효과는 적마다 1회만 발동한다. 캐릭터 출전 후 적을 처음 명중 시 콤보수를 20을 즉시 획득한다. 재사용 대기시간: 15초.
 
-## Polar Expedition 3 세트
+## 극지 출정 3 세트
 
-The host gains 20% faster ATK Speed and 25% Total DMG Multiplier, and receives an Energy Charge for 15s that ignores combo interruption 1 time (Max stacks: 2).
+캐릭터의 공격 속도가 20% 증가하고 모든 대미지가 25% 증가한다. 15초마다 1회 충전하여 콤보가 끊기는걸 1회 방지한다. 최대 2회 충전.

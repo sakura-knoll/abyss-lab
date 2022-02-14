@@ -1,5 +1,5 @@
-# Marco Polo (상)
+# 마르코 폴로 (상)
 
-##
+## 출행
 
-Gain 15% Physical DMG. When Combo Hit Count exceeds 30, gain another 15% Physical DMG.
+물리 대미지가 15% 증가한다. 콤보 수가 30 초과 시 물리 대미지가 추가로 15% 증가한다.

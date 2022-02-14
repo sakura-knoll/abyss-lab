@@ -1,11 +1,11 @@
-# Wilde
+# 와일드
 
-Aesthetics First Set
+유미 예술가 세트
 
-## Broken Lead Heart 2 세트
+## 부서진 냉철한 마음 2 세트
 
-If the host takes DMG exceeding 15% Max HP within a short time, then enter Potential Mode to gain 30% Total DMG Multiplier for 5s. CD: 12s.
+캐릭터가 단기간 내에 잃은 HP가 최대치의 15%를 초과하면 잠재 능력 상태에 진입하고 자신이 가하는 모든 대미지가 30% 증가한다, 지속 시간 5초, 재사용 대기시간 12초.
 
-## Look at the Stars 3 세트
+## 별을 보는 자 3 세트
 
-Gain 50% Crit DMG. Extends duration of Potential Mode by 2s.
+크리티컬 대미지가 50% 증가하고 잠재 능력 활성화 상태 지속 시간이 2초 연장된다.

@@ -1,5 +1,5 @@
-# Edwin Hubble (상)
+# 에드윈 허블 (상)
 
-##
+## 프로스트 노바
 
-After an attack, generate a Frozen Nova explosion at the target's original position, freezing nearby enemies for 1.0s and dealing a one-time 300% ATK of Ice DMG. CD: 8.0s.
+공격 후 타깃을 원점으로 프로스트 노바를 발동하여 주변의 적을 1.0초 동안 빙결시키고 공격력의 300% 빙결 원소 대미지를 1번 입힌다, 재사용 대기시간 8.0초.

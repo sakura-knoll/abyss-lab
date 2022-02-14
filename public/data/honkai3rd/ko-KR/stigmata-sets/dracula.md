@@ -1,11 +1,11 @@
-# Dracula
+# 드라큘라
 
-Vampire Prince Set
+흡혈귀 공왕 세트
 
-## Kindred 2 세트
+## 권속 2 세트
 
-Upon scoring a crit hit, summon 1 Kindred that lasts 10s, and resets the duration of all existing Kindreds. The Kindred deals 50% ATK of Physical DMG (DMG is directly based on the host and benefit from the host's stat bonuses). Up to 3 Kindreds can exist at the same time, each increasing the host's Crit DMG by 15%.
+크리티컬 시 10초 동안 유지되는 권속[소환물]이 1개 생성되고, 동시에 이미 존재하는 권속의 지속 시간을 초기화 한다. 권속은 적에게 공격력 50%의 물리 대미지를 입힌다(대미지는 사용자를 기준으로 한다). 전장에 최대 3개의 권속이 동시에 존재할 수 있다. 권속 하나당 자신의 크리티컬 대미지가 15% 증가한다.
 
-## Resurrection 3 세트
+## 소생 3 세트
 
-When HP is below 1%, activate Revival Mode that lasts 5s, during which the host cannot attack nor move but is invincible and heals 20% of HP per second. When Revival Mode ends, knock surrounding enemies airborne and bleed them for 5s, dealing 20% ATK of Physical DMG per second. CD: 300s.
+현재 HP가 1% 미만일 때 5초 동안 소생 상태에 진입하여 무적 상태가 되며 공격과 이동을 할 수 없다. 초당 자신의 HP를 20%씩 회복하며 소생 상태 종료 시 주변의 적을 넉백시키고 5초 동안 출혈 상태로 만들어 초당 공격력의 20% 물리 대미지를 입힌다, 재사용 대기시간 300초.

@@ -1,5 +1,5 @@
-# Robert Peary (상)
+# 로버트·피어리 (상)
 
-##
+## 프로스트 라이더
 
-The host gains 20.0% Total DMG Multiplier. When Combo Hit Count exceeds 20, gain 20.0% Ice DMG.
+캐릭터의 모든 대미지가 20.0% 증가하고 콤보수가 20을 넘으면 빙결 원소 대미지가 20.0% 증가한다.

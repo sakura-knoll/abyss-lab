@@ -1,11 +1,11 @@
-# Beethoven
+# 베토벤
 
-Klassik Komponist Set
+고전악성 세트
 
-## Schicksalsinfonie 2 세트
+## 낙원의 딸 2 세트
 
-After casting the Ultimate, next team member switching in gains a 40% Melee Physical DMG buff (does not stack) for 10s. CD: 20s.
+필살기를 발동 후 다음 순서에 교대되는 파티원이 가하는 근접 물리 대미지가 10초 동안 40% 증가한다. 해당 효과는 하나만 발동할 수 있고 20초마다 1회 발동한다.
 
-## First Viennese School 3 세트
+## 빈 악파 3 세트
 
-After casting the Ultimate, next team member switching in takes 30% less Total DMG (effect does not stack) for 10s and restores HP equal to 20% of the host's Max HP. CD: 20s.
+필살기 발동 후 다음 순서에 교대하는 파티원이 받는 모든 대미지가 10초 동안 30% 감소하고,(해당 효과는 하나만 발동할 수 있다) 동시에 교대되는 파티원 최대 HP의 20%를 회복한다. 해당 효과는 20초마다 1회 발동한다.

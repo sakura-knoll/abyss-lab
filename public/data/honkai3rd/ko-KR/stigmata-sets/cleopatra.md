@@ -1,12 +1,12 @@
-# Cleopatra
+# 클레오파트라
 
-Queen of Egypt Set
+이집트 염후 세트
 
-## Gun Kata 2 세트
+## 건카타 2 세트
 
-Gain 25% Move Speed.
-Kiana or Kallen equip bonus: Gain 20% Max HP in battle.
+이동 속도가 25% 증가한다.
+키아나 혹은 카렌이 사용 시 전투 중 HP 최대치가 추가로 20% 증가한다.
 
-## Speeding Bullet 3 세트
+## 가속탄 3 세트
 
-Enemies further away get hit harder. Ranged attacks gain 5% Physical DMG for every meter of distance to the target. Max stacks: 10.
+적과의 거리가 멀어질 때마다 물리 대미지가 5%씩 증가, 최대 10회 중첩.

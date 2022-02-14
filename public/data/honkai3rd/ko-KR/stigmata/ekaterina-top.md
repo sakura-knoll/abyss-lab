@@ -1,5 +1,5 @@
-# Ekaterina (상)
+# 예카테리나 (상)
 
-##
+## Combo 장갑
 
-When Combo Hit Count exceeds 25, gain 61% DEF in battle.
+콤보 수 25 초과 시, 전투 중 방어력 61% 증가.

@@ -1,5 +1,5 @@
-# Robert Peary (중)
+# 로버트·피어리 (중)
 
-##
+## 절정
 
-For every Combo Hit Count, the host gains 0.40% Total DMG Multiplier and 0.50% Ice DMG. Stacks up to 60 times.
+1콤보가 오를 때마다 캐릭터의 모든 대미지가 0.40% 증가하고 빙결 원소 대미지가 0.50% 증가한다. 최대 60회 중첩.

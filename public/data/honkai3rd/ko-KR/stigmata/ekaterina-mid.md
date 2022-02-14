@@ -1,5 +1,5 @@
-# Ekaterina (중)
+# 예카테리나 (중)
 
-##
+## Combo 홀릭
 
-When Combo Hit Count exceeds 40, gain 41% Physical DMG.
+콤보수 40 초과 시, 물리 대미지 41% 증가.

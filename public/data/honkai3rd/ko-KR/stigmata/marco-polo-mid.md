@@ -1,5 +1,5 @@
-# Marco Polo (중)
+# 마르코 폴로 (중)
 
-##
+## 전파
 
-Gain 25% Crit DMG. When Combo Hit Count exceeds 30, gain another 25% Crit DMG.
+크리티컬 대미지가 25% 증가한다. 콤보수가 30 초과 시 크리티컬 대미지가 추가로 25% 증가한다.
