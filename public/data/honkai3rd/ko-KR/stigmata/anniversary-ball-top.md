@@ -1,5 +1,5 @@
-# Anniversary Ball (상)
+# 세실리아·드레스 (상)
 
-##
+## 흑자주색의 검
 
-Basic ATKs (including Combo and Charged ATKs) gain 20% Physical DMG. At Dance Level 2 or higher, gain 20% Crit DMG.
+기본 공격(분기와 차지 공격 포함)의 물리 대미지가 20% 증가하고 댄스 레벨이 1 이상일 경우 크리티컬 대미지가 20% 증가한다.

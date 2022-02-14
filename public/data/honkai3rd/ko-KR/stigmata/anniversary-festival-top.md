@@ -1,5 +1,5 @@
-# Anniversary Festival (상)
+# 백련·버스트 모드 (상)
 
-##
+## 버스트 모드
 
-Ultimate Evasions generate an explosion around self that deals 180% ATK of Physical DMG to enemies. CD: 4s.
+극한 회피 시 자신을 중심으로 폭발이 일어나 적에게 공격력의 180% 물리 대미지를 입힌다, 재사용 대기시간 4초.

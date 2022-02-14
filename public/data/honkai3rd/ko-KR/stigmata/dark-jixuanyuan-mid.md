@@ -1,5 +1,5 @@
-# Dark Jixuanyuan (중)
+# 희헌원·흑 (중)
 
-##
+## 어둠의 권속
 
-When global Time Fracture is active, gain 30% Crit Rate.
+전체 시공 단열 상태에서 크리티컬률이 30% 증가한다.

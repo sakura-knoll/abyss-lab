@@ -1,5 +1,5 @@
-# Anniversary Ball (중)
+# 비옥환·드레스 (중)
 
-##
+## 적홍의 화염
 
-Gain 20% Elemental DMG. At Dance Level 1 or higher, take 20% less indirect Physical DMG.
+화염, 뇌전, 빙결 원소 대미지 20% 증가, 댄스 레벨이 1 이상일 경우 받는 간접 물리 대미지가 20% 감소한다.

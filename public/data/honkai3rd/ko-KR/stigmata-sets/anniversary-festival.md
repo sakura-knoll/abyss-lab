@@ -1,11 +1,14 @@
-# Anniversary Festival
+# 반주년 기념
 
-Anniversary Festival Set
+반주년 기념 세트
 
-## Anniversary Performance 2 세트
+## 반주년 쇼 2 세트
 
-Show time shares a common CD of 10s.Ultimate Evasion starts Kiana's Taijutsu, gaining 45% Physical DMG for 5s.Combo ATKs start Mei's Chado Ceremony, healing the host for 30 HP/s for 5s.Being hit by an enemy attack starts Bronya's Shooting Show, with said attack suffering 30% Total DMG Reduction and gaining 25% Attack Speed for 5s.
+연출 시간은 공용 재사용 대기 시간을 가진다. 재사용 대기시간 10초
+극한 회피 시 5초 동안 키아나의 체술 연출 시간에 들어가서 물리 대미지가 45% 증가한다.
+분기 공격 후 5초 동안 메이의 다도 연출 시간에 들어가서 초당 자신의 HP를 30씩 회복한다.
+적에게 피격시 5초 동안 브로냐의 사격 연출 시간에 들어가서, 방금 받은 모든 대미지가 30% 감소하고 공격 속도가 25% 증가한다.
 
-## Festival 3 세트
+## 축전 3 세트
 
-Gain 15% Max HP and 10% Crit Rate in battle.
+전투 중 HP 최대치가 15% 증가하고 크리티컬률이 10% 증가한다.
