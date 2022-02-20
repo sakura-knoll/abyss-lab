@@ -34,6 +34,7 @@ const weaponFilterOptions = [
   { value: 'scythe', label: 'Scythes', krLabel: '낫' },
   { value: 'lance', label: 'Lances', krLabel: '랜스' },
   { value: 'bow', label: 'Bows', krLabel: '활' },
+  { value: 'chakram', label: 'Chakram', krLabel: '차크람' },
 ]
 
 const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {

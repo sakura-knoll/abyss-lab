@@ -260,4 +260,9 @@ export const valkyries = [
     label: 'Asuka',
     krLabel: '아스카',
   },
+  {
+    value: 'pardofelis',
+    label: 'Pardofelis',
+    krLabel: '파르도 펠리스',
+  },
 ]

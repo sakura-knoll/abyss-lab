@@ -21,6 +21,7 @@ export interface WeaponData {
     | 'lance'
     | 'gauntlet'
     | 'bow'
+    | 'chakram'
   rarity: number
   skills: WeaponSkill[]
   version?: string

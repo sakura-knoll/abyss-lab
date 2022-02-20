@@ -1,0 +1,124 @@
+{
+  "id": "pardofelis",
+  "version": "5.6",
+  "name": "Pardofelis",
+  "type": "imaginary",
+  "valkyrie": "pardofelis",
+  "features": ["ice-dmg", "freeze", "time mastery"],
+  "leader": {
+    "core": {
+      "name": "Life, an empty dream",
+      "description": "(Test v1) Leader Bonus:\nTeam SP recovery +25%, attacks against frozen enemies gain Total DMG +35%."
+    },
+    "subskills": [
+      {
+        "name": "Life, an empty dream",
+        "description": "(Test v1) Team SP recovery +25%, attacks against frozen enemies gain Total DMG +35%.",
+        "requiredRank": "s3"
+      }
+    ]
+  },
+  "special": {
+    "core": {
+      "name": "Combo ATK: Can, give me a hand!",
+      "description": "(Test v1) Combo ATK varies with Can's mood\nAngry mood: [Double Scratch] deal 500% ATK Ice DMG.\nSuper Cute: [Ice Can] deal 300% ATK of ice DMG."
+    },
+    "subskills": [
+      {
+        "name": "Meow~",
+        "description": "(Test v1) Entry via QTE fully restore both mood meter."
+      },
+      {
+        "name": "Use both paws",
+        "description": "(Test v1)\nWhen casting [Double Scratch], Total DMG +30.0% for 12s, can be refreshed.\nWhen [Ice Can] hits, enemy take 30% more Total DMG for 12s, can be refreshed."
+      },
+      {
+        "name": "Fishing",
+        "description": "(Test v1) [Double Scratch] restore 3 sp to entire team."
+      }
+    ]
+  },
+  "passive": {
+    "core": {
+      "name": "Boss",
+      "description": "(Test v1) Pardofelis will be assisted by her cat partner Can. Can has two moods during battle, [Angry] and [Super Cute]. Different mood will determine Can's support effect. Each mood has its own mood meter, max 100 points limit.\n1st-4th Basic ATK : restore 20 points\n5th Basic ATK : restore 100 points\nWhen you switch in, Can's mood switches back to [Angry].\n\nPhyllis uses chakram as dual blades and gain weapon skill Neko Neko Attack: deal 125% x 3 ATK Ice DMG and switches Can's mood.\nThis skill has max 2 charges, CD: 6s."
+    },
+    "subskills": [
+      {
+        "name": "Bluff",
+        "description": "(Test v1) Restore all weapon charge when entering [Ready to Flee] state (Ult)"
+      },
+      {
+        "name": "Freezing point",
+        "description": "(Test v1) Entire team attack against frozen enemies gain Total DMG +25%"
+      }
+    ]
+  },
+  "ultimate": {
+    "core": {
+      "name": "Go, Can!",
+      "description": "(Test v1) Can passes through Phyllis Ring and becomes huge. Deal 2000% ATK Ice DMG, restore full mood meter, and enter [Ready to Flee] state for 10 seconds.\nIn [Ready to Flee] state, both Combo ATK gain Ice DMG +50%. When weapon skill is used and mood changes, restore full meter of the current mood.\n[Ready to Flee] status ends when character leave and reenters."
+    },
+    "subskills": [
+      {
+        "name": "Hey, hurry up!",
+        "description": "(Test v1) In [Ready to Flee] state, self Ice DMG +40%. When Ult hits IMG enemies, if the Nihilus Seed HP is below 20%, insta-kill the enemy (or the current phase)."
+      },
+      {
+        "name": "OK, ready to flee!",
+        "description": "(Test v1) After using ult, all valks in the team restore 3 sp for 10s."
+      }
+    ]
+  },
+  "evasion": {
+    "core": {
+      "name": "If you can't fight it, run",
+      "description": "(Test v1) Evade enemy’s attack by quickly shifting position, can consecutively evade 2 times.\nAfter ultimate evasion can trigger 3s time fracture, CD: 15s."
+    },
+    "subskills": [
+      {
+        "name": "Sneak",
+        "description": "(Test v1) After triggering evasion skill, fully restores mood meter."
+      }
+    ]
+  },
+  "basic": {
+    "core": {
+      "name": "Hit me if you can",
+      "description": "(Test v1) 1st Sequence: 100% ATK of Ice DMG\n2nd Sequence: 100% ATK of Ice DMG\n3rd Sequence: 50% + 50% x 3 ATK of Ice DMG\n4th Sequence: 120% ATK of Ice DMG\n5th Sequence: 200% ATK of Ice DMG"
+    },
+    "subskills": [
+      {
+        "name": "QTE: Here comes the cat",
+        "description": "(Test v1) QTE: Triggered by time slow. Deal 225.0% x 4 ATK ice DMG. Decrease the preceeding valk switch CD by 4s."
+      },
+      {
+        "name": "Neko Attack",
+        "description": "(Test v1) For every 2 Combo ATK casted by the character, tap weapon skill to use [Rapid Strike]. Deals 200% x 4 ATK Ice DMG, additionally charges Rime Trauma, This attack counts as QTE, can directly link to 4th Basic ATK sequence. Using this skill triggers weapon skill effect."
+      }
+    ]
+  },
+  "sp": {
+    "core": {
+      "name": "Survival of the weak",
+      "description": "(Test v1) On exit, Can will remain on field to support the team.\nWhen Pardofelis exits the field, Can will dig for treasures on field, after 2s will throw a [Neko Bomb] towards enemies, deal 900% ATK Ice DMG, additionally applying Rime Trauma, and restore 10 SP for Pardofelis. In [Ready to Bounce] state, [Neko Bomb] will deal additional 900% ATK Ice DMG."
+    },
+    "subskills": [
+      {
+        "name": "Play nice",
+        "description": "(Test v1) [Double Scratch] skill additionally restores 40 mood points for [Angry] mood. [Ice Can] additionally restores 40 mood points for [Super Cute] mood. Combo ATK Ice DMG +25.0%.",
+        "requiredRank": "s"
+      },
+      {
+        "name": "One step ahead",
+        "description": "(Test v1) Increase weapon skill charge by 1",
+        "requiredRank": "ss"
+      },
+      {
+        "name": "Make friends",
+        "description": "(Test v1) Attacks that involve Can (including QTE, Combo ATK, ultimate), will provide team with one stack of Total DMG +5.0%, max 3 stacks, last 16s, can be refreshed.",
+        "requiredRank": "sss"
+      }
+    ]
+  }
+}
