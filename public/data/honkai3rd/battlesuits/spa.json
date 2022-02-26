@@ -4,109 +4,109 @@
   "name": "Spina Astera",
   "type": "mecha",
   "valkyrie": "rita",
-  "features": ["fire-dmg", "ignite", "time mastery"],
+  "features": ["fire-dmg", "ignite", "time mastery", "gather"],
   "leader": {
     "core": {
-      "name": "Thuban - Circumpolar Star",
-      "description": "Team Combo/Charge Total DMG +34.0%. When non-mech types are in the team, team Fire DMG +40.0%"
+      "name": "Thuban: Circumpolar Star",
+      "description": "Leader Bonus\nLeader Skill: Combo/Charged ATKs from any team member deal 34.0% bonus Total DMG. With at least one non-MECH Valkyrie on the team, team deals 40.0% bonus Fire DMG."
     },
     "subskills": [
       {
-        "name": "Thuban - Circumpolar Star",
-        "description": "Team Combo/Charge Total DMG +34.0%. When non-mech types are in the team, team Fire DMG +40.0%",
+        "name": "Thuban: Circumpolar Star",
+        "description": "Combo/Charged ATKs from any team member deal 34.0% bonus Total DMG. With at least one non-MECH Valkyrie on the team, team deals 40.0% bonus Fire DMG.",
         "requiredRank": "s3"
       }
     ]
   },
   "special": {
     "core": {
-      "name": "Coma - Stargazing",
-      "description": "At 600 meter, hold ATK to use Charged ATK\nActivates Astral Harness mode. Summons [Phantom Abyssal Tornado] to deal 12x20% + 200% ATK Fire DMG\n\nWhen Astral Harness is in active and there is a [Phantom Abyssal Tornado], hold ATK button to release [Starfire Relay], deal 4x30% ATK Fire DMG and swings a enhanced [Phantom Abyssal Tornado] to deal 12x30% ATK Fire DMG\n\nWhen Astral Harness is in active and there is an Enhanced [Phantom Abyssal Tornado], hold ATK button to release [Blooming Starfire], pulling enemies in a big aoe, deal 4x20% ATK Fire DMG and stabs forward to deal 1300% ATK Fire DMG. Ends Astral Harness and empties out the meter."
+      "name": "Charged ATK: Coma Berenices: Cluster",
+      "description": "Charged ATK unleashes Void Vortex.\nAt 600 Astrum, hold [ATK] to perform: Charged ATK - Astral Flare: Ignite: Induce Astral Harness state and unleash Void Vortex to deal 12 x 20% + 200% ATK of Fire DMG.\n\nIn Astral Harness and with Void Vortex present, hold [ATK] to perform:\nCharged ATK - Astral Flare: Combust: Deal 4 x 30% ATK of Fire DMG and unleash Void Vortex EX to deal 12 x 30% ATK of Fire DMG.\n\nIn Astral Harness and with Void Vortex EX present, hold [ATK] to perform:\nCharged ATK - Astral Flare: Erupt: Drive Void Vortex forward to gather enemies in a large area dealing 4 x 20% ATK of Fire DMG and then unleash the final blow dealing 1300% ATK of Fire DMG. Casting the Charged ATK ends Astral Harness and resets Astrum."
     },
     "subskills": [
       {
-        "name": "Coma Eta",
-        "description": "During Astral Harness, Total DMG +40.0%, anti-interrupt increased and reduce dmg taken by 40.0% Total DMG."
+        "name": "β Coma Berenices",
+        "description": "Astral Harness grants 40.0% bonus Total DMG, boosts Ignore Interrupt, and reduces Total DMG taken by 40.0%."
       },
       {
-        "name": "Coma Gamma",
-        "description": "Restore 10.0 sp when using Charged ATK Blooming Starfire.",
+        "name": "α Coma Berenices",
+        "description": "Astral Flare: Erupt restores 10.0 SP.",
         "requiredRank": "ss"
       }
     ]
   },
   "passive": {
     "core": {
-      "name": "Eridanus - Flow of Time",
-      "description": "In normal form, recovers 80 star meter per second, max 600.\nIn Astral Harness mode, consumes 50 star meter per second until meter is 0 or SPA leaves the field.\nIn Astral Harness mode, Charged ATK summons [Phantom Abyssal Tornado] and gathering enemies in a small area and forms [Brilliant Star Formation]. When SPA exits, Tornado and Star Formation disappears."
+      "name": "Eridanus: Riverflow",
+      "description": "Passive bonuses apply automatically.\nIn normal state recovers 80 Astrum per second (Max: 600).\nIn Astral Harness state, loses 50 Astrum per second. Reverts to normal state at 0 Astrum or switch-out.\nSpina Astera's Charged ATK in Astral Harness state generates Void Vortex that pulls enemies over a small area. All enemies are affected by Starshine Circle simultaneously. Upon exiting Astral Harness state, Void Vortex and Starshine Circle both cease."
     },
     "subskills": [
       {
-        "name": "Durandal's Blessing",
-        "description": "Enemies within [Brilliant Star Formation] receive 20.0% more Fire DMG from SPA. (independent bonus)"
+        "name": "Blessing of the Holy Blade",
+        "description": "Enemies within Starshine Circle take 20.0% bonus Fire DMG from Spina Astera (independent effect)."
       },
       {
-        "name": "Eridanus α",
-        "description": "In normal form, when 4th Basic ATK hits, restore 50 meter."
+        "name": "α Eridanus",
+        "description": "In normal state, the landing attack of Basic ATK SEQ 4 restores 50 Astrum on hit."
       },
       {
-        "name": "Eridanus β",
-        "description": "Fire DMG +80%. SPA attacks against ignited enemies gain Fire DMG +20%."
+        "name": "β Eridanus",
+        "description": "Fire DMG increases by 80.0%. Spina Astera deals 20.0% bonus Fire DMG to ignited enemies."
       }
     ]
   },
   "ultimate": {
     "core": {
-      "name": "Pisces - Sun and Moon",
-      "description": "\nSPA instantly gets 600 meter and enter Astral Harness, gathering mimic durandal blade to form a huge [Phantom Abyssal Tornado] to deal a total of 1500% + 12x20% ATK Fire DMG. Pauses timer.\nAfter ult ends, summons [Enhanced Phantom Abyssal Tornado] in front of SPA.\n[100 sp, 20s CD]"
+      "name": "Pisces: Alrescha",
+      "description": "Wield the might of the simulated Holy Blade to deal massive DMG.\nSpina Astera restores 600 Astrum and enters Astral Harness. She unleashes a massive Void Vortex using the simulated Holy Blade to deal 1500% + 11 x 20% ATK of Fire DMG during which all skill timers and the stage timer are paused. When Ultimate ends, a Void Vortex EX is created in front of Spina Astera.\n SP cost: 100. CD: 20s."
     },
     "subskills": [
       {
-        "name": "Pisces Eta",
-        "description": "When entering Astral Harness state, triggers 2s Time Fracture.",
+        "name": "η Pisces",
+        "description": "Entering Astral Harness triggers 2s of global Time Fracture.",
         "requiredRank": "s2"
       },
       {
-        "name": "Pisces Gamma",
-        "description": "Enemies hit by [Phantom Abyssal Tornado] are ignited. Every 0.5s, inflict 30% ATK Fire DMG, lasts for 8s."
+        "name": "γ Pisces",
+        "description": "Void Vortex ignites enemies on hit and make them take 30% ATK of Fire DMG every 0.5s for 8.0s. Triggering it again resets the duration."
       }
     ]
   },
   "evasion": {
     "core": {
-      "name": "Andromeda - Nebula Song",
-      "description": "Evasion skill: Trigger 3s Time Fracture. In Astral Harness mode, gain 5 [Blazar] stacks additionally. If there is an ignited enemy near [Brilliant Star Formation], recover 200 HP. CD: 15s\nPress Basic ATK after evasion to connect to Basic ATK 3rd sequence."
+      "name": "Andromeda: Nebula",
+      "description": "Evade enemy attacks up to twice in a row.\nUltimate Evasion Skill: triggers 3s of global Time Fracture and grants 5 stacks of Blazar if in Astral Harness. Also restores 200 HP if there are ignited enemies within Starshine Circle. CD: 15s.\nTap [ATK] immediately after Ultimate Evasion to connect into Basic ATK SEQ 3."
     },
     "subskills": [
       {
-        "name": "Andromeda α",
-        "description": "When evasion skill is triggered, valk Total DMG +15.0% for 3s and restore extra 5 sp.",
+        "name": "α Andromedae",
+        "description": "Ultimate Evasion Skill boosts Valkyrie's Total DMG by 15.0% for 3s and restores 5.0 SP.",
         "requiredRank": "ss2"
       },
       {
-        "name": "Andromeda β",
-        "description": "On switch in, restore 200 star meter. CD:10s"
+        "name": "β Andromedae",
+        "description": "Entering when Astrum is not full grants Valkyrie 200 Astrum. CD: 10s."
       }
     ]
   },
   "basic": {
     "core": {
-      "name": "Canis - Sirius Shine",
-      "description": "ATK Sequence all fire damage, recover star meter\n1st Sequence: Deals 80% ATK of Fire DMG and restores 10 star meter\n2nd Sequence: Deals 40%+100% ATK of Fire DMG and restores 5 + 10 star meter\n3rd Sequence: Deals 40%+100% ATK of Fire DMG and restores 10 + 15 star meter\n4th Sequence: Deals 3x60% + 250% ATK of Fire DMG and restores 3x5+20 star meter\n\nIn Astral Harness mode:\n1st Sequence: Deals 100% and applies 1 Starfire\n2nd Sequence: Deals 60%+100% and applies 1 Starfire\n3rd Sequence: Deals 40%+150% and applies 2 Starfire\n4th Sequence: Deals  4x20% + 250%\n5th Sequence: 500% + 800%\n\nIn Astral Harness mode, each 1st, 2nd, 3rd ATK inflicts Starfire DMG. Each Starfire deals 30% ATK of Fire DMG.\n\nIn Astral Harness mode, SPA gains [Blazar] stacks for each basic ATK hit. 1st~4th basic ATKs adds 1 [Blazar] stack. 5th basic ATK adds 5 [Blazar] stacks. Max at 20. When using Ult, SPA instantly gains full stacks of [Blazar].\nAfter using Ult or leaving Astral Harness mode, the stacks are cleared."
+      "name": "Canis Major: Sirius",
+      "description": "Wields a scythe to attack and ignite enemies with the might of stars.\nNormal State:\nSEQ 1: Deals 80% ATK of Fire DMG and restores 10 Astrum.\nSEQ 2: Deals 40% + 100% ATK of Fire DMG and restores 5 + 10 Astrum.\nSEQ 3: Deals 40% + 100% ATK of Fire DMG and restores 10 + 15 Astrum.\nSEQ 4: Deals 3 x 20% + 100% ATK of Fire DMG and restores 3 x 5 + 20 Astrum.\n\nAstral Harness state:\nSEQ 1: 80% and bonus 1 Astral Flare DMG once.\nSEQ 2: 40% + 100% and bonus 1 Astral Flare DMG once.\nSEQ 3: 40% + 150% and bonus 2 Astral Flare DMG twice.\nSEQ 4: 4 x 20% + 100%\nSEQ 5: 150% + 300%\n\nAstral Flare deals 30% ATK of Fire DMG each time.\n\nIn Astral Harness, Basic ATK grants one stack of Blazar on hit and each stack makes the Astral Flare: Erupt thrust deal 30% ATK of Fire DMG. SEQ 1/2/3/4 of Basic ATK each grants 1 stack, and SEQ 5 grants 5 stacks. 20 stacks max. Casting Ultimate grants full stacks. Casting Astral Flare: Erupt or exiting Astral Harness resets Blazar."
     },
     "subskills": [
       {
-        "name": "Canis α",
-        "description": "Starfire deal additional 150% ATK Fire DMG.",
+        "name": "α Canis Major",
+        "description": "Astral Flare: Erupt deals 150.0% ATK of bonus Fire DMG.",
         "requiredRank": "sss"
       },
       {
-        "name": "Canis ε",
-        "description": "In Astral Harness, 4th Basic ATK ignites enemy, every 0.5s they take 30% ATK Fire DMG. Lasts for 8s."
+        "name": "ε Canis Major",
+        "description": "In Astral Harness, Basic ATK SEQ 4 ignites enemies on hit and make them take 30% ATK of Fire DMG every 0.5s for 8.0s. Triggering it again resets the duration."
       },
       {
-        "name": "QTE: Canis δ",
-        "description": "QTE: Triggered when an enemy is ignited or knocked airborne, trigger 3s Time Fracture, deal 5x250% ATK Fire DMG, restore 5 SP."
+        "name": "QTE: δ Canis Major",
+        "description": "QTE: Triggered when an enemy is knocked airborne or ignited to induce 3s of global Time Fracture, deal 5 x 250% ATK Fire DMG, and restore 5.0 SP."
       }
     ]
   }
