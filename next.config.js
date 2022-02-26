@@ -28,6 +28,21 @@ module.exports = {
         destination: '/honkai3rd/elfs/bd',
         permanent: true,
       },
+      {
+        source: '/honkai3rd/weapons/pardofelis-5-star',
+        destination: '/honkai3rd/weapons/dream-of-the-past',
+        permanent: true,
+      },
+      {
+        source: '/honkai3rd/weapons/pardofelis-6-star',
+        destination: '/honkai3rd/weapons/dream-of-the-past-eyes-of-the-night',
+        permanent: true,
+      },
+      {
+        source: '/honkai3rd/weapons/chakram-foundry',
+        destination: '/honkai3rd/weapons/dark-meteorite-golden-scale',
+        permanent: true,
+      },
     ]
   },
   i18n,
