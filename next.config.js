@@ -23,6 +23,11 @@ module.exports = {
         destination: '/honkai3rd/stigmata/bianka-theatre-bot',
         permanent: true,
       },
+      {
+        source: '/honkai3rd/elfs/hsd',
+        destination: '/honkai3rd/elfs/bd',
+        permanent: true,
+      },
     ]
   },
   i18n,
