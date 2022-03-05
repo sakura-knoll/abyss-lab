@@ -21,9 +21,9 @@ const ElfListPage = ({ elfs }: ElfListPageProps) => {
   return (
     <Box>
       <Head
-        title={`${t('breadcrumb.honkai-3rd')}: ${t(
-          'breadcrumb.elfs'
-        )} - Abyss Lab`}
+        title={`${t('breadcrumb.honkai-3rd')}: ${t('breadcrumb.elfs')} - ${t(
+          'nav.abyss-lab'
+        )}`}
         description={t('elfs-list.description')}
       />
 

@@ -28,7 +28,9 @@ const ElfShowPage = ({ elf }: ElfShowPageProps) => {
   return (
     <Box>
       <Head
-        title={`${t('breadcrumb.honkai-3rd')}: ${elfName} - Abyss Lab`}
+        title={`${t('breadcrumb.honkai-3rd')}: ${elfName} - ${t(
+          'nav.abyss-lab'
+        )}`}
         description={`${t('breadcrumb.honkai-3rd')} ${t(
           'elfs-show.elf'
         )} / ${'⭐'.repeat(elf.baseRank)} / ${elf.features

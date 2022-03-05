@@ -49,7 +49,7 @@ const VersionIndexPage = ({
       <Head
         title={`${t('breadcrumb.honkai-3rd')}: ${t(
           'breadcrumb.versions'
-        )} - Abyss Lab`}
+        )} - ${t('nav.abyss-lab')}`}
         description={t('versions.list-page-description')}
       />
 

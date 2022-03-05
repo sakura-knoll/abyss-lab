@@ -45,7 +45,7 @@ const Honkai3rdIndexPage = () => {
   return (
     <Box>
       <Head
-        title={`${t('breadcrumb.honkai-3rd')}: Home - Abyss Lab`}
+        title={`${t('breadcrumb.honkai-3rd')}: Home - ${t('nav.abyss-lab')}`}
         description={t('index.description')}
       />
       <Honkai3rdNavigator />

@@ -42,7 +42,7 @@ const StigmataListPage = ({
       <Head
         title={`${t('breadcrumb.honkai-3rd')}: ${t(
           'breadcrumb.stigmata'
-        )} - Abyss Lab`}
+        )} - ${t('nav.abyss-lab')}`}
         description={t('stigmata-list.description')}
       />
       <Honkai3rdNavigator />

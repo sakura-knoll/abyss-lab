@@ -59,9 +59,9 @@ const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
   return (
     <Box>
       <Head
-        title={`${t('breadcrumb.honkai-3rd')}: ${t(
-          'breadcrumb.weapons'
-        )} - Abyss Lab`}
+        title={`${t('breadcrumb.honkai-3rd')}: ${t('breadcrumb.weapons')} - ${t(
+          'nav.abyss-lab'
+        )}`}
         description={t('weapons-list.description')}
       />
       <Honkai3rdNavigator />

@@ -29,7 +29,9 @@ const WeaponShowPage = ({ weapon }: WeaponShowPageProps) => {
   return (
     <Box>
       <Head
-        title={`${t('breadcrumb.honkai-3rd')}: ${weaponName} - Abyss Lab`}
+        title={`${t('breadcrumb.honkai-3rd')}: ${weaponName} - ${t(
+          'nav.abyss-lab'
+        )}`}
         description={`${t('breadcrumb.honkai-3rd')} ${t(
           'weapons-show.weapon'
         )} / ${'⭐'.repeat(weapon.rarity)} / ${weaponCategory} / ATK : ${

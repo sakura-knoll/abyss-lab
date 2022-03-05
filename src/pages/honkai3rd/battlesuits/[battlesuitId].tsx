@@ -62,7 +62,9 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
   return (
     <Box>
       <Head
-        title={`${t('breadcrumb.honkai-3rd')}: ${battlesuitName} - Abyss Lab`}
+        title={`${t('breadcrumb.honkai-3rd')}: ${battlesuitName} - ${t(
+          'nav.abyss-lab'
+        )}`}
         description={`${t('breadcrumb.honkai-3rd')} ${t(
           'battlesuit-show.battlesuit'
         )} / ${valkyrieName} / ${battlesuitTypeLabel} / ${battlesuit.features

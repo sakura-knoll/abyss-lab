@@ -81,7 +81,7 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
       <Head
         title={`${t('breadcrumb.honkai-3rd')}: ${t(
           'breadcrumb.battlesuits'
-        )} - Abyss Lab`}
+        )} - ${t('nav.abyss-lab')}`}
         description={t('battlesuits-list.description')}
       />
       <Honkai3rdNavigator />

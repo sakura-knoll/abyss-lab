@@ -40,7 +40,7 @@ const StigmataSetPage = ({
       <Head
         title={`${t('breadcrumb.honkai-3rd')}: ${stigmataSetName} ${t(
           'stigmata-show.stigmata-set'
-        )} - Abyss Lab`}
+        )} - ${t('nav.abyss-lab')}`}
         description={`${t('breadcrumb.honkai-3rd')} ${t(
           'stigmata-show.stigmata-set'
         )} / ${'⭐'.repeat(stigmataSet.rarity)} / ${stigmataSetAltName}`}
