@@ -1,7 +1,6 @@
 /** @jsxImportSource theme-ui */
-import { Box, Text } from '@theme-ui/components'
+import { Box, Text, Image } from '@theme-ui/components'
 import PageLink from '../components/atoms/PageLink'
-import Image from 'next/image'
 import RootNavigator from '../components/organisms/RootNavigator'
 import Head from '../components/atoms/Head'
 
@@ -19,7 +18,6 @@ const IndexPage = () => {
                 src='/assets/honkai3rd/wallpaper.png'
                 width={640}
                 height={360}
-                layout='responsive'
               />
             </Box>
             <Text sx={{ fontSize: 3 }}>Honkai 3rd</Text>

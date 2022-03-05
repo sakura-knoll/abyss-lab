@@ -11,6 +11,7 @@ import SquareImageBox from '../../components/atoms/SquareImageBox'
 import { mdiGithub } from '@mdi/js'
 import { Icon } from '@mdi/react'
 import Head from '../../components/atoms/Head'
+import { assetsBucketBaseUrl } from '../../lib/consts'
 
 const bannerValkyries = [
   'kiana',
@@ -119,7 +120,7 @@ const NavItem = ({ target }: NavItemProps) => {
             <SquareImageBox
               size={40}
               mr={1}
-              src={`/assets/honkai3rd/nav-icons/${target}.png`}
+              src={`${assetsBucketBaseUrl}/honkai3rd/nav-icons/${target}.png`}
             />
             <Text sx={{ fontSize: 3 }}>{t(`nav.${target}`)}</Text>
           </Flex>
@@ -151,7 +152,7 @@ const BannerItem = ({ valkyrie, active }: BannerItemProps) => {
     >
       <SquareImageBox
         size={280}
-        src={`/assets/honkai3rd/banner-${valkyrie}.png`}
+        src={`${assetsBucketBaseUrl}/honkai3rd/banner-${valkyrie}.png`}
       />
     </Box>
   )

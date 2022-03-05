@@ -25,6 +25,7 @@ import { translate, useTranslation } from '../../../lib/i18n'
 import { useRouter } from 'next/router'
 import Head from '../../../components/atoms/Head'
 import PageLink from '../../../components/atoms/PageLink'
+import { assetsBucketBaseUrl } from '../../../lib/consts'
 
 interface VersionShowPageProps {
   versionData: VersionData
@@ -130,7 +131,7 @@ const VersionShowPage = ({
                       <Flex sx={{ alignItems: 'center' }} mb={2}>
                         <SquareImageBox
                           size={40}
-                          src={`/assets/honkai3rd/battlesuits/portrait-${battlesuit.id}.png`}
+                          src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/portrait-${battlesuit.id}.png`}
                           alt={`${battlesuitName}`}
                           mr={2}
                         />
@@ -162,7 +163,7 @@ const VersionShowPage = ({
                       <Flex sx={{ alignItems: 'center' }} mb={2}>
                         <SquareImageBox
                           size={40}
-                          src={`/assets/honkai3rd/weapons/${weapon.id}.png`}
+                          src={`${assetsBucketBaseUrl}/honkai3rd/weapons/${weapon.id}.png`}
                           alt={`${weaponName}`}
                           mr={2}
                         />
@@ -270,15 +271,15 @@ export async function getStaticPaths() {
 function getIconSrcFromItem(item: { type: string; id: string }): string | null {
   switch (item.type) {
     case 'battlesuit':
-      return `/assets/honkai3rd/battlesuits/portrait-${item.id}.png`
+      return `${assetsBucketBaseUrl}/honkai3rd/battlesuits/portrait-${item.id}.png`
     case 'weapon':
-      return `/assets/honkai3rd/weapons/${item.id}.png`
+      return `${assetsBucketBaseUrl}/honkai3rd/weapons/${item.id}.png`
     case 'stigmata':
-      return `/assets/honkai3rd/stigmata/icon-${item.id}.png`
+      return `${assetsBucketBaseUrl}/honkai3rd/stigmata/icon-${item.id}.png`
     case 'elf':
-      return `/assets/honkai3rd/elfs/icon-${item.id}.png`
+      return `${assetsBucketBaseUrl}/honkai3rd/elfs/icon-${item.id}.png`
     case 'outfit':
-      return `/assets/honkai3rd/outfits/${item.id}.png`
+      return `${assetsBucketBaseUrl}/honkai3rd/outfits/${item.id}.png`
   }
   return null
 }

@@ -1,6 +1,7 @@
 /** @jsxImportSource theme-ui */
 import { useRouter } from 'next/router'
 import { Link, Text } from 'theme-ui'
+import { assetsBucketBaseUrl } from '../../lib/consts'
 import SquareImageBox from './SquareImageBox'
 
 interface FilterButtonProps {
@@ -40,7 +41,7 @@ const FilterButton = ({
     >
       {icon != null && (
         <SquareImageBox
-          src={`/assets/honkai3rd/${icon}.png`}
+          src={`${assetsBucketBaseUrl}/honkai3rd/${icon}.png`}
           alt={label}
           size={30}
           mr={1}

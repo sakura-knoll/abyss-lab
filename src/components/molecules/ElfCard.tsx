@@ -2,6 +2,7 @@
 
 import { Box, Card, Text } from '@theme-ui/components'
 import { useRouter } from 'next/router'
+import { assetsBucketBaseUrl } from '../../lib/consts'
 import { ElfData } from '../../lib/honkai3rd/elfs'
 import { translate } from '../../lib/i18n'
 import PageLink from '../atoms/PageLink'
@@ -30,7 +31,7 @@ const ElfCard = ({ elf }: ElfCardProps) => {
       <PageLink href={`/honkai3rd/elfs/${elf.id}`}>
         <SquareImageBox
           alt={elfName}
-          src={`/assets/honkai3rd/elfs/icon-${elf.id}.png`}
+          src={`${assetsBucketBaseUrl}/honkai3rd/elfs/icon-${elf.id}.png`}
           size={[100]}
         />
         <Box

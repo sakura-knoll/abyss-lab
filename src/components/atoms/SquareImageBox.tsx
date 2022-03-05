@@ -1,6 +1,5 @@
 /** @jsxImportSource theme-ui */
-import { Box } from '@theme-ui/components'
-import Image from 'next/image'
+import { Box, Image } from '@theme-ui/components'
 
 interface SquareImageBoxProps {
   size: number | string | Array<number | string>
@@ -45,7 +44,7 @@ const SquareImageBox = ({
         flexShrink: 0,
       }}
     >
-      <Image alt={alt} layout='fill' objectFit='cover' src={src} />
+      <Image alt={alt} src={src} />
     </Box>
   )
 }

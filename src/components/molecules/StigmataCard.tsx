@@ -1,6 +1,7 @@
 /** @jsxImportSource theme-ui */
 import { Box, Card, Text } from '@theme-ui/components'
 import { useRouter } from 'next/router'
+import { assetsBucketBaseUrl } from '../../lib/consts'
 import { StigmataData } from '../../lib/honkai3rd/stigmata'
 import { translate } from '../../lib/i18n'
 import PageLink from '../atoms/PageLink'
@@ -29,7 +30,7 @@ const StigmataCard = ({ stigmata }: StigmataCardProps) => {
         <SquareImageBox
           size={[75, 100]}
           alt={stigmataName}
-          src={`/assets/honkai3rd/stigmata/icon-${stigmata.id}.png`}
+          src={`${assetsBucketBaseUrl}/honkai3rd/stigmata/icon-${stigmata.id}.png`}
         />
         <Box
           sx={{

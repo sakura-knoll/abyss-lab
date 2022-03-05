@@ -13,6 +13,7 @@ import {
 import NextLink from 'next/link'
 import { useRouter } from 'next/router'
 import { useCallback, useState } from 'react'
+import { assetsBucketBaseUrl } from '../../lib/consts'
 import { useTranslation } from '../../lib/i18n'
 import PageLink from '../atoms/PageLink'
 import SquareImageBox from '../atoms/SquareImageBox'
@@ -178,7 +179,7 @@ const NavItem = ({ target }: NavItemProps) => {
         <SquareImageBox
           size={20}
           mr={1}
-          src={`/assets/honkai3rd/nav-icons/${target}.png`}
+          src={`${assetsBucketBaseUrl}/honkai3rd/nav-icons/${target}.png`}
         />
         <Text
           sx={{
@@ -225,7 +226,7 @@ const Honkai3rdNavMobileItem = ({
       <SquareImageBox
         size={40}
         mr={1}
-        src={`/assets/honkai3rd/nav-icons/${target}.png`}
+        src={`${assetsBucketBaseUrl}/honkai3rd/nav-icons/${target}.png`}
       />
       <Text
         sx={{

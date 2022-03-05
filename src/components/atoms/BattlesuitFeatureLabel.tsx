@@ -1,6 +1,7 @@
 /** @jsxImportSource theme-ui */
 import { Flex, Text } from '@theme-ui/components'
 import { useRouter } from 'next/router'
+import { assetsBucketBaseUrl } from '../../lib/consts'
 import { battlesuitFeatures } from '../../lib/honkai3rd/battlesuits'
 import { translate } from '../../lib/i18n'
 import SquareImageBox from './SquareImageBox'
@@ -27,7 +28,7 @@ const BattlesuitFeatureLabel = ({ feature }: BattlesuitFeatureLabelProps) => {
       {featureData != null && (
         <SquareImageBox
           size={30}
-          src={`/assets/honkai3rd/${icon}.png`}
+          src={`${assetsBucketBaseUrl}/honkai3rd/${icon}.png`}
           alt={translatedLabel}
           mr={1}
         />

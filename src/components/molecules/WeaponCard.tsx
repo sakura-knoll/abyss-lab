@@ -1,6 +1,7 @@
 /** @jsxImportSource theme-ui */
 import { Box, Card, Text } from '@theme-ui/components'
 import { useRouter } from 'next/router'
+import { assetsBucketBaseUrl } from '../../lib/consts'
 import { WeaponData } from '../../lib/honkai3rd/weapons'
 import { translate } from '../../lib/i18n'
 import PageLink from '../atoms/PageLink'
@@ -31,7 +32,7 @@ const WeaponCard = ({ weapon, hidden }: WeaponCardProps) => {
         <SquareImageBox
           size={100}
           alt={weaponName}
-          src={`/assets/honkai3rd/weapons/${weapon.id}.png`}
+          src={`${assetsBucketBaseUrl}/honkai3rd/weapons/${weapon.id}.png`}
         />
         <Box
           sx={{

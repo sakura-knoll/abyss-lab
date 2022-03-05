@@ -1,7 +1,13 @@
 /** @jsxImportSource theme-ui */
 import { StigmataData, StigmataSet } from '../../lib/honkai3rd/stigmata'
-import Image from 'next/image'
-import { Box, Heading, Paragraph, Card, Flex } from '@theme-ui/components'
+import {
+  Box,
+  Heading,
+  Paragraph,
+  Card,
+  Flex,
+  Image,
+} from '@theme-ui/components'
 import PageLink from '../../components/atoms/PageLink'
 import StigmataCard from '../../components/molecules/StigmataCard'
 import Breadcrumb from '../../components/organisms/Breadcrumb'
@@ -10,6 +16,7 @@ import SecondaryLabel from '../atoms/SecondaryLabel'
 import { useRouter } from 'next/router'
 import { translate, useTranslation } from '../../lib/i18n'
 import Head from '../atoms/Head'
+import { assetsBucketBaseUrl } from '../../lib/consts'
 
 export interface SingleStigmataPageProps {
   type: 'single'
@@ -82,10 +89,9 @@ const SingleStigmataPage = ({
         >
           <Image
             alt={stigmataName}
-            src={`/assets/honkai3rd/stigmata/${stigmataData.id}.png`}
+            src={`${assetsBucketBaseUrl}/honkai3rd/stigmata/${stigmataData.id}.png`}
             width={400}
             height={400}
-            layout='responsive'
           />
         </Box>
 

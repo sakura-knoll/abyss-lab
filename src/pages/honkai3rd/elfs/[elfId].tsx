@@ -1,7 +1,13 @@
 /** @jsxImportSource theme-ui */
-import { Box, Card, Flex, Heading, Paragraph } from '@theme-ui/components'
+import {
+  Box,
+  Card,
+  Flex,
+  Heading,
+  Paragraph,
+  Image,
+} from '@theme-ui/components'
 import { NextPageContext } from 'next'
-import Image from 'next/image'
 import React from 'react'
 import BattlesuitFeatureLabel from '../../../components/atoms/BattlesuitFeatureLabel'
 import SecondaryLabel from '../../../components/atoms/SecondaryLabel'
@@ -14,6 +20,7 @@ import { translate, useTranslation } from '../../../lib/i18n'
 import { useRouter } from 'next/router'
 import Head from '../../../components/atoms/Head'
 import { battlesuitFeatures } from '../../../lib/honkai3rd/battlesuits'
+import { assetsBucketBaseUrl } from '../../../lib/consts'
 
 interface ElfShowPageProps {
   elf: ElfData
@@ -76,9 +83,7 @@ const ElfShowPage = ({ elf }: ElfShowPageProps) => {
           >
             <Image
               alt={elf.name}
-              layout='fill'
-              objectFit='cover'
-              src={`/assets/honkai3rd/elfs/${elf.id}.png`}
+              src={`${assetsBucketBaseUrl}/honkai3rd/elfs/${elf.id}.png`}
             />
           </Box>
         </Box>

@@ -1,4 +1,5 @@
 /** @jsxImportSource theme-ui */
+import { assetsBucketBaseUrl } from '../../lib/consts'
 import SquareImageBox from './SquareImageBox'
 
 interface BattlesuitRankIconProps {
@@ -27,7 +28,7 @@ const BattlesuitRankIcon = ({
   return (
     <SquareImageBox
       size={size}
-      src={`/assets/honkai3rd/rank-icons/${rank}-rank.png`}
+      src={`${assetsBucketBaseUrl}/honkai3rd/rank-icons/${rank}-rank.png`}
       alt={`${rank} rank`}
       m={m}
       mx={mx}

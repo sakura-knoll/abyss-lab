@@ -32,7 +32,8 @@
     "start": "next start",
     "lint": "next lint",
     "tsc": "tsc --watch",
-    "node": "ts-node -T -P ./tsconfig-node.json"
+    "node": "ts-node -T -P ./tsconfig-node.json",
+    "assets-sync": "sh ./secrets/scripts/sync-public-assets.sh"
   },
   "keywords": [],
   "author": "",

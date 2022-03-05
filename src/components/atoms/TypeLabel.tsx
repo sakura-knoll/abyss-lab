@@ -1,6 +1,7 @@
 /** @jsxImportSource theme-ui */
 import { Flex, Text } from '@theme-ui/components'
 import { useRouter } from 'next/router'
+import { assetsBucketBaseUrl } from '../../lib/consts'
 import { battlesuitTypes } from '../../lib/honkai3rd/battlesuits'
 import { translate } from '../../lib/i18n'
 import { capitalize } from '../../lib/string'
@@ -28,7 +29,7 @@ const TypeLabel = ({ type }: TypeLabelProps) => {
       {isValidType(type) && (
         <SquareImageBox
           size={30}
-          src={`/assets/honkai3rd/type-icons/${type}.png`}
+          src={`${assetsBucketBaseUrl}/honkai3rd/type-icons/${type}.png`}
           alt={label}
           mr={1}
         />

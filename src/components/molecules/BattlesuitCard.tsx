@@ -1,6 +1,7 @@
 /** @jsxImportSource theme-ui */
 import { Box, Card, Text } from '@theme-ui/components'
 import { useRouter } from 'next/router'
+import { assetsBucketBaseUrl } from '../../lib/consts'
 import { BattlesuitData } from '../../lib/honkai3rd/battlesuits'
 import { translate } from '../../lib/i18n'
 import PageLink from '../atoms/PageLink'
@@ -38,7 +39,7 @@ const BattlesuitCard = ({ battlesuit, hidden }: BattlesuitCardProps) => {
       >
         <SquareImageBox
           alt={battlesuitName}
-          src={`/assets/honkai3rd/battlesuits/portrait-${battlesuit.id}.png`}
+          src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/portrait-${battlesuit.id}.png`}
           size={100}
         />
         <Box

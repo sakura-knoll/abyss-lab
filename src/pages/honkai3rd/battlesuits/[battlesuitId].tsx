@@ -1,7 +1,14 @@
 /** @jsxImportSource theme-ui */
-import { Box, Card, Flex, Heading, Paragraph, Text } from '@theme-ui/components'
+import {
+  Box,
+  Card,
+  Flex,
+  Heading,
+  Paragraph,
+  Text,
+  Image,
+} from '@theme-ui/components'
 import { NextPageContext } from 'next'
-import Image from 'next/image'
 import React from 'react'
 import BattlesuitFeatureLabel from '../../../components/atoms/BattlesuitFeatureLabel'
 import BattlesuitRankIcon from '../../../components/atoms/BattlesuitRankIcon'
@@ -27,6 +34,7 @@ import { translate, useTranslation } from '../../../lib/i18n'
 import { useRouter } from 'next/router'
 import Head from '../../../components/atoms/Head'
 import { capitalize } from '../../../lib/string'
+import { assetsBucketBaseUrl } from '../../../lib/consts'
 
 interface BattlesuitShowPageProps {
   battlesuit: BattlesuitData
@@ -112,10 +120,9 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
           >
             <Image
               alt={battlesuitName}
-              src={`/assets/honkai3rd/battlesuits/${battlesuit.id}.png`}
+              src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/${battlesuit.id}.png`}
               width={400}
               height={400}
-              layout='responsive'
             />
           </Box>
         </Box>

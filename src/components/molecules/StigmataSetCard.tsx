@@ -1,6 +1,7 @@
 /** @jsxImportSource theme-ui */
 import { Box, Card, Flex, Text } from '@theme-ui/components'
 import { useRouter } from 'next/router'
+import { assetsBucketBaseUrl } from '../../lib/consts'
 import { StigmataSet } from '../../lib/honkai3rd/stigmata'
 import { translate } from '../../lib/i18n'
 import PageLink from '../atoms/PageLink'
@@ -31,17 +32,17 @@ const StigmataSetCard = ({ stigmataSet }: StigmataSetCardProps) => {
           <SquareImageBox
             size={[80, 100]}
             alt={`${stigmataSet.id} Top`}
-            src={`/assets/honkai3rd/stigmata/icon-${stigmataSet.id}-top.png`}
+            src={`${assetsBucketBaseUrl}/honkai3rd/stigmata/icon-${stigmataSet.id}-top.png`}
           />
           <SquareImageBox
             size={[80, 100]}
             alt={`${stigmataSet.id} Mid`}
-            src={`/assets/honkai3rd/stigmata/icon-${stigmataSet.id}-mid.png`}
+            src={`${assetsBucketBaseUrl}/honkai3rd/stigmata/icon-${stigmataSet.id}-mid.png`}
           />
           <SquareImageBox
             size={[80, 100]}
             alt={`${stigmataSet.id} Bottom`}
-            src={`/assets/honkai3rd/stigmata/icon-${stigmataSet.id}-bot.png`}
+            src={`${assetsBucketBaseUrl}/honkai3rd/stigmata/icon-${stigmataSet.id}-bot.png`}
           />
         </Flex>
         <Box

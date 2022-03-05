@@ -14,6 +14,7 @@ import { useRouter } from 'next/router'
 import { useTranslation, translate } from '../../../lib/i18n'
 import Head from '../../../components/atoms/Head'
 import PageLink from '../../../components/atoms/PageLink'
+import { assetsBucketBaseUrl } from '../../../lib/consts'
 
 interface WeaponShowPageProps {
   weapon: WeaponData
@@ -58,7 +59,7 @@ const WeaponShowPage = ({ weapon }: WeaponShowPageProps) => {
           <SquareImageBox
             size={100}
             alt={weaponName}
-            src={`/assets/honkai3rd/weapons/${weapon.id}.png`}
+            src={`${assetsBucketBaseUrl}/honkai3rd/weapons/${weapon.id}.png`}
           />
         </Box>
 
