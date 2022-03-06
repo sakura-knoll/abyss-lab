@@ -32,7 +32,7 @@ const StigmataListPage = ({
 
   const listMode = useMemo(() => {
     if (query.list == null) {
-      return 'single'
+      return 'set'
     }
     return typeof query.list === 'string' ? query.list : query.list[0]
   }, [query])
