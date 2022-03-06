@@ -19,6 +19,7 @@ export const theme: Theme = {
     light: '#f8f9fa',
     dark: '#343a40',
     textMuted: '#6c757d',
+    transparent: 'transparent',
   },
   space: ['0rem', '0.25rem', '0.5rem', '1rem', '1.5rem', '3rem'],
   fonts: {
@@ -107,7 +108,7 @@ export const theme: Theme = {
         'box-shadow 200ms ease-in-out, color 200ms ease-in-out, background-color 200ms ease-in-out',
       '&:hover': {
         bg: 'rgba(0, 123, 255, 0.2)',
-        boxShadow: 'rgba(0, 0, 0, 0.2) 0px 4px 8px;',
+        boxShadow: 'default',
       },
       '&.hidden': {
         display: 'none',
@@ -228,7 +229,7 @@ export const theme: Theme = {
       transition:
         'box-shadow 200ms ease-in-out, color 200ms ease-in-out, background-color 200ms ease-in-out',
       '&:hover': {
-        boxShadow: 'rgba(0, 0, 0, 0.2) 0px 4px 8px;',
+        boxShadow: 'default',
       },
     },
     stigmata: {
