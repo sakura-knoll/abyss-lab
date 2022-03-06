@@ -11,6 +11,14 @@ export interface BattlesuitSkillGroup {
   subskills: BattlesuitSkill[]
 }
 
+export interface BattlesuitEquipment {
+  type: string
+  weapon: string
+  stigmataTop: string
+  stigmataMid: string
+  stigmataBot: string
+}
+
 export interface BattlesuitData {
   id: string
   version?: string
@@ -19,6 +27,7 @@ export interface BattlesuitData {
   type: string
   valkyrie: string
   features: string[]
+  equipment?: BattlesuitEquipment[]
   leader: BattlesuitSkillGroup
   special: BattlesuitSkillGroup
   evasion: BattlesuitSkillGroup

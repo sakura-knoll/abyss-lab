@@ -35,12 +35,27 @@ import Head from '../../../components/atoms/Head'
 import { capitalize } from '../../../lib/string'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
 import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
+import { WeaponData } from '../../../lib/honkai3rd/weapons'
+import { getWeaponById } from '../../../server/data/honkai3rd/weapons'
+import { StigmataData } from '../../../lib/honkai3rd/stigmata'
+import WeaponCard from '../../../components/molecules/WeaponCard'
+import StigmataCard from '../../../components/molecules/StigmataCard'
+import { getStigmataById } from '../../../server/data/honkai3rd/stigmata'
+
+type WeaponObjectMap = { [key: string]: WeaponData }
+type StigmataObjectMap = { [key: string]: StigmataData }
 
 interface BattlesuitShowPageProps {
   battlesuit: BattlesuitData
+  weaponMap: WeaponObjectMap
+  stigmataMap: StigmataObjectMap
 }
 
-const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
+const BattlesuitShowPage = ({
+  battlesuit,
+  weaponMap,
+  stigmataMap,
+}: BattlesuitShowPageProps) => {
   const { t } = useTranslation()
   const { locale } = useRouter()
 
@@ -170,6 +185,44 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
           </Flex>
         </Card>
 
+        {battlesuit.equipment != null && (
+          <Card
+            sx={{
+              mb: 3,
+              overflow: 'hidden',
+            }}
+          >
+            {battlesuit.equipment.map((equipmentItem) => {
+              return (
+                <Box key={equipmentItem.type}>
+                  <Heading
+                    as='h3'
+                    sx={{
+                      pt: 2,
+                      px: 2,
+                      mb: 1,
+                    }}
+                  >
+                    {t(`battlesuit-show.equipmentTypes.${equipmentItem.type}`)}
+                  </Heading>
+                  <Flex>
+                    <WeaponCard weapon={weaponMap[equipmentItem.weapon]} />
+                    <StigmataCard
+                      stigmata={stigmataMap[equipmentItem.stigmataTop]}
+                    />
+                    <StigmataCard
+                      stigmata={stigmataMap[equipmentItem.stigmataMid]}
+                    />
+                    <StigmataCard
+                      stigmata={stigmataMap[equipmentItem.stigmataBot]}
+                    />
+                  </Flex>
+                </Box>
+              )
+            })}
+          </Card>
+        )}
+
         <BattlesuitSkillGroupCard
           heading={t('battlesuit-show.leader')}
           skillGroup={battlesuit.leader}
@@ -224,10 +277,50 @@ export async function getStaticProps({
   params,
   locale,
 }: NextPageContext & { params: { battlesuitId: string } }) {
-  const battlesuit = getBattlesuitById(params.battlesuitId)
+  const battlesuit = getBattlesuitById(params.battlesuitId)!
+  const { weaponIds, stigmataIds } = (battlesuit.equipment || []).reduce<{
+    weaponIds: string[]
+    stigmataIds: string[]
+  }>(
+    (acc, equipmentItem) => {
+      acc.weaponIds.push(equipmentItem.weapon)
+      acc.stigmataIds.push(
+        equipmentItem.stigmataTop,
+        equipmentItem.stigmataMid,
+        equipmentItem.stigmataBot
+      )
+      return acc
+    },
+    { weaponIds: [], stigmataIds: [] }
+  )
+  const weaponMap = weaponIds.reduce<{ [key: string]: WeaponData }>(
+    (map, id) => {
+      const weapon = getWeaponById(id)
+      if (weapon != null) {
+        map[id] = weapon
+      }
+      return map
+    },
+    {}
+  )
+  const stigmataMap = stigmataIds.reduce<{ [key: string]: StigmataData }>(
+    (map, id) => {
+      const stigmata = getStigmataById(id)
+      if (stigmata != null) {
+        map[id] = stigmata
+      }
+      return map
+    },
+    {}
+  )
 
   return {
-    props: { battlesuit, ...(await getI18NProps(locale)) },
+    props: {
+      battlesuit,
+      weaponMap,
+      stigmataMap,
+      ...(await getI18NProps(locale)),
+    },
   }
 }
 
