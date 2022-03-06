@@ -253,7 +253,7 @@ const GanttChart = ({
                   minWidth: length,
                   width: 'inherit',
                   zIndex: 25,
-                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                  boxShadow: 'default',
                   transition: 'box-shadow 200ms ease-in-out',
                 },
               }}

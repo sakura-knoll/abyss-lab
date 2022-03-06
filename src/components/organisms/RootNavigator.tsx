@@ -10,7 +10,7 @@ const RootNavigator = () => {
       sx={{
         alignItems: 'center',
         position: 'sticky',
-        backgroundColor: 'rgba(255,255,255,0.9)',
+        backgroundColor: 'transparent',
         top: 0,
         zIndex: 100,
       }}
