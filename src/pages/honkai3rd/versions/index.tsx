@@ -4,7 +4,6 @@ import NextLink from 'next/link'
 import SquareImageBox from '../../../components/atoms/SquareImageBox'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import GanttChart from '../../../components/organisms/GanttChart'
-import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { getBattlesuitById } from '../../../server/data/honkai3rd/battlesuits'
 import { listSupplyEventsByVersion } from '../../../server/data/honkai3rd/supplyEvents'
 import {
@@ -26,6 +25,7 @@ import { useRouter } from 'next/router'
 import Head from '../../../components/atoms/Head'
 import PageLink from '../../../components/atoms/PageLink'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
+import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 
 interface VersionIndexPageProps {
   versionDataList: VersionData[]
@@ -46,15 +46,13 @@ const VersionIndexPage = ({
   const { locale } = useRouter()
 
   return (
-    <Box>
+    <Honkai3rdLayout>
       <Head
         title={`${t('breadcrumb.honkai-3rd')}: ${t(
           'breadcrumb.versions'
         )} - ${t('nav.abyss-lab')}`}
         description={t('versions.list-page-description')}
       />
-
-      <Honkai3rdNavigator />
 
       <Box p={3}>
         <Breadcrumb
@@ -243,7 +241,7 @@ const VersionIndexPage = ({
           })}
         </Box>
       </Box>
-    </Box>
+    </Honkai3rdLayout>
   )
 }
 

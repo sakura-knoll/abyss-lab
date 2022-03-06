@@ -5,7 +5,8 @@ import { ThemeProvider } from 'theme-ui'
 import { theme } from '../lib/theme'
 import NProgress from 'nprogress'
 import { useRouter } from 'next/router'
-import '../../public/assets/nprogress.css'
+import '../styles/nprogress.css'
+import '../styles/nextjs.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter()

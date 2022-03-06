@@ -2,7 +2,6 @@
 import { Box, Heading, Text, Flex, Link } from '@theme-ui/components'
 import { useCallback, useEffect, useState } from 'react'
 import Breadcrumb from '../../components/organisms/Breadcrumb'
-import Honkai3rdNavigator from '../../components/organisms/Honkai3rdNavigator'
 import { NextPageContext } from 'next'
 import { getI18NProps } from '../../server/i18n'
 import { useTranslation } from '../../lib/i18n'
@@ -12,6 +11,7 @@ import { mdiGithub } from '@mdi/js'
 import { Icon } from '@mdi/react'
 import Head from '../../components/atoms/Head'
 import { assetsBucketBaseUrl } from '../../lib/consts'
+import Honkai3rdLayout from '../../components/layouts/Honkai3rdLayout'
 
 const bannerValkyries = [
   'kiana',
@@ -44,12 +44,11 @@ const Honkai3rdIndexPage = () => {
   }, [bannerIndex, switchBanner])
 
   return (
-    <Box>
+    <Honkai3rdLayout>
       <Head
         title={`${t('breadcrumb.honkai-3rd')}: Home - ${t('nav.abyss-lab')}`}
         description={t('index.description')}
       />
-      <Honkai3rdNavigator />
 
       <Box p={3}>
         <Breadcrumb
@@ -92,7 +91,7 @@ const Honkai3rdIndexPage = () => {
           </Link>
         </Box>
       </Box>
-    </Box>
+    </Honkai3rdLayout>
   )
 }
 

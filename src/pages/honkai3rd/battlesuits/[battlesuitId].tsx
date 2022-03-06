@@ -17,7 +17,6 @@ import SecondaryLabel from '../../../components/atoms/SecondaryLabel'
 import TypeLabel from '../../../components/atoms/TypeLabel'
 import ValkyrieLabel from '../../../components/atoms/ValkyrieLabel'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
-import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import {
   BattlesuitData,
   battlesuitFeatures,
@@ -35,6 +34,7 @@ import { useRouter } from 'next/router'
 import Head from '../../../components/atoms/Head'
 import { capitalize } from '../../../lib/string'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
+import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 
 interface BattlesuitShowPageProps {
   battlesuit: BattlesuitData
@@ -68,7 +68,7 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
     : capitalize(battlesuit.type)
 
   return (
-    <Box>
+    <Honkai3rdLayout>
       <Head
         title={`${t('breadcrumb.honkai-3rd')}: ${battlesuitName} - ${t(
           'nav.abyss-lab'
@@ -90,7 +90,6 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
           })
           .join(', ')}`}
       />
-      <Honkai3rdNavigator />
 
       <Box p={3}>
         <Breadcrumb
@@ -215,7 +214,7 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
           />
         )}
       </Box>
-    </Box>
+    </Honkai3rdLayout>
   )
 }
 

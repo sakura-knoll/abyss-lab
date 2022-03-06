@@ -11,12 +11,12 @@ import {
 import PageLink from '../../components/atoms/PageLink'
 import StigmataCard from '../../components/molecules/StigmataCard'
 import Breadcrumb from '../../components/organisms/Breadcrumb'
-import Honkai3rdNavigator from '../../components/organisms/Honkai3rdNavigator'
 import SecondaryLabel from '../atoms/SecondaryLabel'
 import { useRouter } from 'next/router'
 import { translate, useTranslation } from '../../lib/i18n'
 import Head from '../atoms/Head'
 import { assetsBucketBaseUrl } from '../../lib/consts'
+import Honkai3rdLayout from '../layouts/Honkai3rdLayout'
 
 export interface SingleStigmataPageProps {
   type: 'single'
@@ -48,7 +48,7 @@ const SingleStigmataPage = ({
   )
 
   return (
-    <Box>
+    <Honkai3rdLayout>
       <Head
         title={`${t('breadcrumb.honkai-3rd')}: ${stigmataName} - ${t(
           'nav.abyss-lab'
@@ -62,7 +62,6 @@ const SingleStigmataPage = ({
           stigmataData.def
         } / CRT : ${stigmataData.crt}`}
       />
-      <Honkai3rdNavigator />
       <Box p={3}>
         <Breadcrumb
           items={[
@@ -179,7 +178,7 @@ const SingleStigmataPage = ({
           </Card>
         )}
       </Box>
-    </Box>
+    </Honkai3rdLayout>
   )
 }
 

@@ -1,13 +1,13 @@
 /** @jsxImportSource theme-ui */
 import { Box, Heading } from '@theme-ui/components'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
-import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { NextPageContext } from 'next'
 import { getI18NProps } from '../../../server/i18n'
 import { useTranslation } from '../../../lib/i18n'
 import Head from '../../../components/atoms/Head'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { times } from 'ramda'
+import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 
 const enemyIdList = [
   ...times((i) => i + 0, 1000).map((i) => {
@@ -110,12 +110,11 @@ const Honkai3rdIndexPage = () => {
   }, [validList])
 
   return (
-    <Box>
+    <Honkai3rdLayout>
       <Head
         title={`${t('breadcrumb.honkai-3rd')}: Home - ${t('nav.abyss-lab')}`}
         description={t('index.description')}
       />
-      <Honkai3rdNavigator />
 
       <Box p={3}>
         <Breadcrumb
@@ -166,7 +165,7 @@ const Honkai3rdIndexPage = () => {
           )
         })}
       </Box>
-    </Box>
+    </Honkai3rdLayout>
   )
 }
 

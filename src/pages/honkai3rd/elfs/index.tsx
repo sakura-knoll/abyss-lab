@@ -4,12 +4,12 @@ import { NextPageContext } from 'next'
 import { pick } from 'ramda'
 import ElfCard from '../../../components/molecules/ElfCard'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
-import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { ElfData } from '../../../lib/honkai3rd/elfs'
 import { getI18NProps } from '../../../server/i18n'
 import { listElfs } from '../../../server/data/honkai3rd/elfs'
 import { useTranslation } from '../../../lib/i18n'
 import Head from '../../../components/atoms/Head'
+import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 
 interface ElfListPageProps {
   elfs: Pick<ElfData, 'id' | 'name' | 'krName'>[]
@@ -19,16 +19,13 @@ const ElfListPage = ({ elfs }: ElfListPageProps) => {
   const { t } = useTranslation()
 
   return (
-    <Box>
+    <Honkai3rdLayout>
       <Head
         title={`${t('breadcrumb.honkai-3rd')}: ${t('breadcrumb.elfs')} - ${t(
           'nav.abyss-lab'
         )}`}
         description={t('elfs-list.description')}
       />
-
-      <Honkai3rdNavigator />
-
       <Box p={3}>
         <Breadcrumb
           items={[
@@ -50,7 +47,7 @@ const ElfListPage = ({ elfs }: ElfListPageProps) => {
           })}
         </Flex>
       </Box>
-    </Box>
+    </Honkai3rdLayout>
   )
 }
 

@@ -3,6 +3,7 @@ import { Box, Text, Image } from '@theme-ui/components'
 import PageLink from '../components/atoms/PageLink'
 import RootNavigator from '../components/organisms/RootNavigator'
 import Head from '../components/atoms/Head'
+import { assetsBucketBaseUrl } from '../lib/consts'
 
 const IndexPage = () => {
   return (
@@ -15,7 +16,7 @@ const IndexPage = () => {
             <Box sx={{ position: 'relative' }}>
               <Image
                 alt='Honkai 3rd Wallpaper'
-                src='/assets/honkai3rd/wallpaper.png'
+                src={`${assetsBucketBaseUrl}/assets/honkai3rd/wallpaper.png`}
                 width={640}
                 height={360}
               />

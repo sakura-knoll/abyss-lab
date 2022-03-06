@@ -3,7 +3,6 @@ import { Box, Heading, Link, Flex, Text, Paragraph } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import GanttChart from '../../../components/organisms/GanttChart'
-import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import {
   getVersion,
   listVersionData,
@@ -26,6 +25,7 @@ import { useRouter } from 'next/router'
 import Head from '../../../components/atoms/Head'
 import PageLink from '../../../components/atoms/PageLink'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
+import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 
 interface VersionShowPageProps {
   versionData: VersionData
@@ -44,7 +44,7 @@ const VersionShowPage = ({
   const { locale } = useRouter()
 
   return (
-    <Box>
+    <Honkai3rdLayout>
       <Head
         title={`${t('breadcrumb.honkai-3rd')}: v${versionData.version} - ${t(
           'nav.abyss-lab'
@@ -65,7 +65,6 @@ const VersionShowPage = ({
           })
           .join(',')}`}
       />
-      <Honkai3rdNavigator />
 
       <Box p={3}>
         <Breadcrumb
@@ -221,7 +220,7 @@ const VersionShowPage = ({
           <Paragraph mb={4}>{t('versions.supply-events-disclaimer')}</Paragraph>
         </Box>
       </Box>
-    </Box>
+    </Honkai3rdLayout>
   )
 }
 

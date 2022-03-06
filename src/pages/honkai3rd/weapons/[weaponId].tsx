@@ -3,7 +3,6 @@ import { Box, Card, Heading, Paragraph } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import SquareImageBox from '../../../components/atoms/SquareImageBox'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
-import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
 import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
 import {
@@ -15,6 +14,7 @@ import { useTranslation, translate } from '../../../lib/i18n'
 import Head from '../../../components/atoms/Head'
 import PageLink from '../../../components/atoms/PageLink'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
+import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 
 interface WeaponShowPageProps {
   weapon: WeaponData
@@ -28,7 +28,7 @@ const WeaponShowPage = ({ weapon }: WeaponShowPageProps) => {
   const weaponCategory = t(`weapons-show.${weapon.category}`)
 
   return (
-    <Box>
+    <Honkai3rdLayout>
       <Head
         title={`${t('breadcrumb.honkai-3rd')}: ${weaponName} - ${t(
           'nav.abyss-lab'
@@ -39,7 +39,6 @@ const WeaponShowPage = ({ weapon }: WeaponShowPageProps) => {
           weapon.atk
         } / CRT : ${weapon.crt}`}
       />
-      <Honkai3rdNavigator />
 
       <Box p={3}>
         <Breadcrumb
@@ -106,7 +105,7 @@ const WeaponShowPage = ({ weapon }: WeaponShowPageProps) => {
           })}
         </Box>
       </Box>
-    </Box>
+    </Honkai3rdLayout>
   )
 }
 

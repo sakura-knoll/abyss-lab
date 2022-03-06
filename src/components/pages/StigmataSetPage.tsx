@@ -4,12 +4,12 @@ import React from 'react'
 import PageLink from '../../components/atoms/PageLink'
 import StigmataCard from '../../components/molecules/StigmataCard'
 import Breadcrumb from '../../components/organisms/Breadcrumb'
-import Honkai3rdNavigator from '../../components/organisms/Honkai3rdNavigator'
 import { StigmataData, StigmataSet } from '../../lib/honkai3rd/stigmata'
 import SecondaryLabel from '../atoms/SecondaryLabel'
 import { translate, useTranslation } from '../../lib/i18n'
 import { useRouter } from 'next/router'
 import Head from '../atoms/Head'
+import Honkai3rdLayout from '../layouts/Honkai3rdLayout'
 
 export interface StigmataSetProps {
   type: 'set'
@@ -36,7 +36,7 @@ const StigmataSetPage = ({
   )
 
   return (
-    <Box>
+    <Honkai3rdLayout>
       <Head
         title={`${t('breadcrumb.honkai-3rd')}: ${stigmataSetName} ${t(
           'stigmata-show.stigmata-set'
@@ -45,7 +45,6 @@ const StigmataSetPage = ({
           'stigmata-show.stigmata-set'
         )} / ${'⭐'.repeat(stigmataSet.rarity)} / ${stigmataSetAltName}`}
       />
-      <Honkai3rdNavigator />
 
       <Box p={3}>
         <Breadcrumb
@@ -167,7 +166,7 @@ const StigmataSetPage = ({
           </Paragraph>
         </Card>
       </Box>
-    </Box>
+    </Honkai3rdLayout>
   )
 }
 

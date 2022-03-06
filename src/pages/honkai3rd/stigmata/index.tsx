@@ -8,7 +8,6 @@ import PageLink from '../../../components/atoms/PageLink'
 import StigmataCard from '../../../components/molecules/StigmataCard'
 import StigmataSetCard from '../../../components/molecules/StigmataSetCard'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
-import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { StigmataData, StigmataSet } from '../../../lib/honkai3rd/stigmata'
 import { getI18NProps } from '../../../server/i18n'
 import {
@@ -17,6 +16,7 @@ import {
 } from '../../../server/data/honkai3rd/stigmata'
 import { useTranslation } from 'next-i18next'
 import Head from '../../../components/atoms/Head'
+import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 
 interface StigmataListPageProps {
   stigmataDataList: Pick<StigmataData, 'id' | 'name' | 'rarity' | 'krName'>[]
@@ -38,14 +38,13 @@ const StigmataListPage = ({
   }, [query])
 
   return (
-    <Box>
+    <Honkai3rdLayout>
       <Head
         title={`${t('breadcrumb.honkai-3rd')}: ${t(
           'breadcrumb.stigmata'
         )} - ${t('nav.abyss-lab')}`}
         description={t('stigmata-list.description')}
       />
-      <Honkai3rdNavigator />
 
       <Box p={3}>
         <Breadcrumb
@@ -94,7 +93,7 @@ const StigmataListPage = ({
               })}
         </Flex>
       </Box>
-    </Box>
+    </Honkai3rdLayout>
   )
 }
 

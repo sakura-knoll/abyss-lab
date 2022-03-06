@@ -4,7 +4,6 @@ import { pick } from 'ramda'
 import { useCallback, useMemo, useState } from 'react'
 import FilterButton from '../../../components/atoms/FilterButton'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
-import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { listBattlesuits } from '../../../server/data/honkai3rd/battlesuits'
 import {
   BattlesuitData,
@@ -18,6 +17,7 @@ import { NextPageContext } from 'next'
 import { getI18NProps } from '../../../server/i18n'
 import { translate, useTranslation } from '../../../lib/i18n'
 import Head from '../../../components/atoms/Head'
+import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 
 type BattlesuitListItemData = Pick<
   BattlesuitData,
@@ -77,14 +77,13 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
   }, [battlesuits, filter])
 
   return (
-    <Box>
+    <Honkai3rdLayout>
       <Head
         title={`${t('breadcrumb.honkai-3rd')}: ${t(
           'breadcrumb.battlesuits'
         )} - ${t('nav.abyss-lab')}`}
         description={t('battlesuits-list.description')}
       />
-      <Honkai3rdNavigator />
 
       <Box p={3}>
         <Breadcrumb
@@ -163,7 +162,7 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
           {battlesuitList}
         </Flex>
       </Box>
-    </Box>
+    </Honkai3rdLayout>
   )
 }
 

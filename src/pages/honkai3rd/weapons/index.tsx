@@ -1,7 +1,6 @@
 /** @jsxImportSource theme-ui */
 import { Box, Heading, Flex } from '@theme-ui/components'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
-import Honkai3rdNavigator from '../../../components/organisms/Honkai3rdNavigator'
 import { listWeapons } from '../../../server/data/honkai3rd/weapons'
 import { pick } from 'ramda'
 import { useMemo } from 'react'
@@ -13,6 +12,7 @@ import { getI18NProps } from '../../../server/i18n'
 import { NextPageContext } from 'next'
 import { useTranslation, translate } from '../../../lib/i18n'
 import Head from '../../../components/atoms/Head'
+import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 
 type WeaponListItemData = Pick<
   WeaponData,
@@ -57,50 +57,51 @@ const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
   }, [weaponDataList, filter])
 
   return (
-    <Box>
-      <Head
-        title={`${t('breadcrumb.honkai-3rd')}: ${t('breadcrumb.weapons')} - ${t(
-          'nav.abyss-lab'
-        )}`}
-        description={t('weapons-list.description')}
-      />
-      <Honkai3rdNavigator />
-
-      <Box p={3}>
-        <Breadcrumb
-          items={[
-            { href: '/honkai3rd', label: t('breadcrumb.honkai-3rd') },
-            { href: '/honkai3rd/weapons', label: t('breadcrumb.weapons') },
-          ]}
+    <Honkai3rdLayout>
+      <Box>
+        <Head
+          title={`${t('breadcrumb.honkai-3rd')}: ${t(
+            'breadcrumb.weapons'
+          )} - ${t('nav.abyss-lab')}`}
+          description={t('weapons-list.description')}
         />
 
-        <Heading as='h1'>{t('weapons-list.weapons')}</Heading>
-        <Box>
-          <Heading as='h3'>{t('weapons-list.filter-by-category')}</Heading>
-          <Flex mb={2} sx={{ flexWrap: 'wrap' }}>
-            {weaponFilterOptions.map(({ value, label, krLabel }) => {
-              return (
-                <FilterButton
-                  key={value}
-                  active={value === filter}
-                  value={value}
-                  label={translate(locale, { 'ko-KR': krLabel }, label)}
-                  m={1}
-                />
-              )
-            })}
+        <Box p={3}>
+          <Breadcrumb
+            items={[
+              { href: '/honkai3rd', label: t('breadcrumb.honkai-3rd') },
+              { href: '/honkai3rd/weapons', label: t('breadcrumb.weapons') },
+            ]}
+          />
+
+          <Heading as='h1'>{t('weapons-list.weapons')}</Heading>
+          <Box>
+            <Heading as='h3'>{t('weapons-list.filter-by-category')}</Heading>
+            <Flex mb={2} sx={{ flexWrap: 'wrap' }}>
+              {weaponFilterOptions.map(({ value, label, krLabel }) => {
+                return (
+                  <FilterButton
+                    key={value}
+                    active={value === filter}
+                    value={value}
+                    label={translate(locale, { 'ko-KR': krLabel }, label)}
+                    m={1}
+                  />
+                )
+              })}
+            </Flex>
+          </Box>
+          <Flex
+            sx={{
+              flexWrap: 'wrap',
+              justifyContent: 'space-around',
+            }}
+          >
+            {weaponList}
           </Flex>
         </Box>
-        <Flex
-          sx={{
-            flexWrap: 'wrap',
-            justifyContent: 'space-around',
-          }}
-        >
-          {weaponList}
-        </Flex>
       </Box>
-    </Box>
+    </Honkai3rdLayout>
   )
 }
 
