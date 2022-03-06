@@ -31,7 +31,7 @@
   "scripts": {
     "dev": "run-p dev:web dev:assets",
     "dev:web": "next dev -p 4000",
-    "dev:assets": "http-server assets -p 4001",
+    "dev:assets": "http-server assets -p 4001 -s",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
