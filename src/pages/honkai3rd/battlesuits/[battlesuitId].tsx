@@ -36,11 +36,11 @@ import { capitalize } from '../../../lib/string'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
 import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
-import { getWeaponById } from '../../../server/data/honkai3rd/weapons'
+import { getWeaponMapByIds } from '../../../server/data/honkai3rd/weapons'
 import { StigmataData } from '../../../lib/honkai3rd/stigmata'
 import WeaponCard from '../../../components/molecules/WeaponCard'
 import StigmataCard from '../../../components/molecules/StigmataCard'
-import { getStigmataById } from '../../../server/data/honkai3rd/stigmata'
+import { getStigmataMapByIds } from '../../../server/data/honkai3rd/stigmata'
 
 type WeaponObjectMap = { [key: string]: WeaponData }
 type StigmataObjectMap = { [key: string]: StigmataData }
@@ -206,16 +206,24 @@ const BattlesuitShowPage = ({
                     {t(`battlesuit-show.equipmentTypes.${equipmentItem.type}`)}
                   </Heading>
                   <Flex>
-                    <WeaponCard weapon={weaponMap[equipmentItem.weapon]} />
-                    <StigmataCard
-                      stigmata={stigmataMap[equipmentItem.stigmataTop]}
-                    />
-                    <StigmataCard
-                      stigmata={stigmataMap[equipmentItem.stigmataMid]}
-                    />
-                    <StigmataCard
-                      stigmata={stigmataMap[equipmentItem.stigmataBot]}
-                    />
+                    {equipmentItem.weapon != null && (
+                      <WeaponCard weapon={weaponMap[equipmentItem.weapon]} />
+                    )}
+                    {equipmentItem.stigmataTop != null && (
+                      <StigmataCard
+                        stigmata={stigmataMap[equipmentItem.stigmataTop]}
+                      />
+                    )}
+                    {equipmentItem.stigmataMid != null && (
+                      <StigmataCard
+                        stigmata={stigmataMap[equipmentItem.stigmataMid]}
+                      />
+                    )}
+                    {equipmentItem.stigmataBot != null && (
+                      <StigmataCard
+                        stigmata={stigmataMap[equipmentItem.stigmataBot]}
+                      />
+                    )}
                   </Flex>
                 </Box>
               )
@@ -293,26 +301,9 @@ export async function getStaticProps({
     },
     { weaponIds: [], stigmataIds: [] }
   )
-  const weaponMap = weaponIds.reduce<{ [key: string]: WeaponData }>(
-    (map, id) => {
-      const weapon = getWeaponById(id)
-      if (weapon != null) {
-        map[id] = weapon
-      }
-      return map
-    },
-    {}
-  )
-  const stigmataMap = stigmataIds.reduce<{ [key: string]: StigmataData }>(
-    (map, id) => {
-      const stigmata = getStigmataById(id)
-      if (stigmata != null) {
-        map[id] = stigmata
-      }
-      return map
-    },
-    {}
-  )
+  const weaponMap = getWeaponMapByIds(weaponIds)
+
+  const stigmataMap = getStigmataMapByIds(stigmataIds)
 
   return {
     props: {

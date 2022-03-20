@@ -130,6 +130,16 @@ export function getStigmataSetBySetId(setId: string) {
   return stigmataSetMap.get(setId)
 }
 
+export function getStigmataMapByIds(idList: string[]) {
+  return idList.reduce<{ [key: string]: StigmataData }>((map, id) => {
+    const stigmata = getStigmataById(id)
+    if (stigmata != null) {
+      map[id] = stigmata
+    }
+    return map
+  }, {})
+}
+
 function parseStigmataData(rawData: string) {
   const [name, skillName, skillDescription] = rawData
     .replace(/\\\*/g, '*')

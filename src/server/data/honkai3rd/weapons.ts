@@ -56,6 +56,16 @@ export function getWeaponById(id: string) {
   return weaponMap.get(id)
 }
 
+export function getWeaponMapByIds(idList: string[]) {
+  return idList.reduce<{ [key: string]: WeaponData }>((map, id) => {
+    const weapon = getWeaponById(id)
+    if (weapon != null) {
+      map[id] = weapon
+    }
+    return map
+  }, {})
+}
+
 function parseWeaponData(rawData: string) {
   const [name, ...skillSections] = rawData
     .replace(/\\\*/g, '*')

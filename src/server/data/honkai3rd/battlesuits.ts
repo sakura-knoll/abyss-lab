@@ -55,6 +55,16 @@ export function getBattlesuitById(id: string) {
   return battlesuitMap.get(id)
 }
 
+export function getBattlesuitMapByIds(idList: string[]) {
+  return idList.reduce<{ [key: string]: BattlesuitData }>((map, id) => {
+    const battlesuit = getBattlesuitById(id)
+    if (battlesuit != null) {
+      map[id] = battlesuit
+    }
+    return map
+  }, {})
+}
+
 function parseSkillData(rawData: string) {
   const [
     nameSection,
