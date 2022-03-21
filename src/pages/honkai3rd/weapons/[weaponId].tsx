@@ -7,6 +7,7 @@ import { WeaponData } from '../../../lib/honkai3rd/weapons'
 import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
 import {
   getWeaponById,
+  getWeaponMapByIds,
   listWeapons,
 } from '../../../server/data/honkai3rd/weapons'
 import { useRouter } from 'next/router'
@@ -15,12 +16,23 @@ import Head from '../../../components/atoms/Head'
 import PageLink from '../../../components/atoms/PageLink'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
 import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
+import { getBattlesuitMapByIds } from '../../../server/data/honkai3rd/battlesuits'
+import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
+import BattlesuitCard from '../../../components/molecules/BattlesuitCard'
+import WeaponCard from '../../../components/molecules/WeaponCard'
+import SourceCard from '../../../components/molecules/SourceCard'
 
 interface WeaponShowPageProps {
   weapon: WeaponData
+  battlesuitMap: { [key: string]: BattlesuitData }
+  weaponMap: { [key: string]: WeaponData }
 }
 
-const WeaponShowPage = ({ weapon }: WeaponShowPageProps) => {
+const WeaponShowPage = ({
+  weapon,
+  battlesuitMap,
+  weaponMap,
+}: WeaponShowPageProps) => {
   const { locale } = useRouter()
   const { t } = useTranslation()
 
@@ -79,6 +91,50 @@ const WeaponShowPage = ({ weapon }: WeaponShowPageProps) => {
           <Box p={2}>
             ATK : {weapon.atk} / CRT : {weapon.crt}
           </Box>
+          {weapon.battlesuits != null && weapon.battlesuits.length > 0 && (
+            <Box sx={{ p: 2, borderTop: 'default' }}>
+              <Heading as='h4'>{t('weapons-show.best-on')}</Heading>
+              {weapon.battlesuits.map(({ id: battlesuitId }) => {
+                return (
+                  <BattlesuitCard
+                    key={battlesuitId}
+                    size='sm'
+                    battlesuit={battlesuitMap[battlesuitId]}
+                  />
+                )
+              })}
+            </Box>
+          )}
+          {weapon.priWeapon != null && (
+            <Box sx={{ p: 2, borderTop: 'default' }}>
+              <Heading as='h4'>{t('weapons-show.pri-weapon')}</Heading>
+              <WeaponCard size='sm' weapon={weaponMap[weapon.priWeapon]} />
+            </Box>
+          )}
+          {weapon.originalWeapons != null && weapon.originalWeapons.length > 0 && (
+            <Box sx={{ p: 2, borderTop: 'default' }}>
+              <Heading as='h4'>{t('weapons-show.original-weapon')}</Heading>
+              {weapon.originalWeapons.map((originalWeaponId) => {
+                return (
+                  <WeaponCard
+                    key={originalWeaponId}
+                    size='sm'
+                    weapon={weaponMap[originalWeaponId]}
+                  />
+                )
+              })}
+            </Box>
+          )}
+          {weapon.sources != null && (
+            <Box sx={{ p: 2, borderTop: 'default' }}>
+              <Heading as='h4'>{t('weapons-show.sources')}</Heading>
+              {weapon.sources
+                .sort((a, b) => a.type.localeCompare(b.type))
+                .map((source) => {
+                  return <SourceCard key={source.type} source={source} />
+                })}
+            </Box>
+          )}
         </Card>
 
         <Box>
@@ -116,9 +172,30 @@ export async function getStaticProps({
   locale,
 }: NextPageContext & { params: { weaponId: string } }) {
   const weapon = getWeaponById(params.weaponId)
+  const battlesuitMap = getBattlesuitMapByIds(
+    weapon != null && weapon.battlesuits != null
+      ? weapon.battlesuits.map(({ id }) => id)
+      : []
+  )
+
+  const weaponIds = []
+  if (weapon != null) {
+    if (weapon.priWeapon != null) {
+      weaponIds.push(weapon.priWeapon)
+    }
+    if (weapon.originalWeapons != null) {
+      weaponIds.push(...weapon.originalWeapons)
+    }
+  }
+  const weaponMap = getWeaponMapByIds(weaponIds)
 
   return {
-    props: { weapon, ...(await getI18NProps(locale)) },
+    props: {
+      weapon,
+      battlesuitMap,
+      weaponMap,
+      ...(await getI18NProps(locale)),
+    },
   }
 }
 

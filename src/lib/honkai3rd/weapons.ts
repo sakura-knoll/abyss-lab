@@ -1,3 +1,5 @@
+import { SourceData } from './sources'
+
 export interface WeaponSkill {
   name: string
   krName?: string
@@ -25,4 +27,13 @@ export interface WeaponData {
   rarity: number
   skills: WeaponSkill[]
   version?: string
+  battlesuits?: {
+    id: string
+    suitability?: number
+    description?: string
+    descriptionKr?: string
+  }[]
+  priWeapon?: string
+  originalWeapons?: string[]
+  sources?: SourceData[]
 }

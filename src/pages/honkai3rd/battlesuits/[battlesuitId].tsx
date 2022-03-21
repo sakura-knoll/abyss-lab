@@ -189,6 +189,7 @@ const BattlesuitShowPage = ({
           <Card
             sx={{
               mb: 3,
+              p: 2,
               overflow: 'hidden',
             }}
           >
@@ -198,29 +199,33 @@ const BattlesuitShowPage = ({
                   <Heading
                     as='h3'
                     sx={{
-                      pt: 2,
-                      px: 2,
                       mb: 1,
                     }}
                   >
                     {t(`battlesuit-show.equipmentTypes.${equipmentItem.type}`)}
                   </Heading>
-                  <Flex>
+                  <Flex sx={{ mx: -1 }}>
                     {equipmentItem.weapon != null && (
-                      <WeaponCard weapon={weaponMap[equipmentItem.weapon]} />
+                      <WeaponCard
+                        size='sm'
+                        weapon={weaponMap[equipmentItem.weapon]}
+                      />
                     )}
                     {equipmentItem.stigmataTop != null && (
                       <StigmataCard
+                        size='sm'
                         stigmata={stigmataMap[equipmentItem.stigmataTop]}
                       />
                     )}
                     {equipmentItem.stigmataMid != null && (
                       <StigmataCard
+                        size='sm'
                         stigmata={stigmataMap[equipmentItem.stigmataMid]}
                       />
                     )}
                     {equipmentItem.stigmataBot != null && (
                       <StigmataCard
+                        size='sm'
                         stigmata={stigmataMap[equipmentItem.stigmataBot]}
                       />
                     )}
