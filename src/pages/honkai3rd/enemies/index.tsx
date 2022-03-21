@@ -38,30 +38,30 @@ const enemyIdList = [
   //   }, []),
 ]
 
-console.log(
-  times((i) => i + 65, 26)
-    .reduce<[number, number][]>((array, first) => {
-      array.push(
-        ...times((i) => i + 65, 26).map<[number, number]>((second) => [
-          first,
-          second,
-        ])
-      )
-      return array
-    }, [])
-    .map(([first, second]) => {
-      return String.fromCharCode(first) + String.fromCharCode(second)
-    })
-    .reduce<string[]>((idList, prefix) => {
-      idList.push(
-        ...times((i) => i + 10, 1).map((i) => {
-          const stringified = i.toString()
-          return `${prefix}_${'0'.repeat(3 - stringified.length) + stringified}`
-        })
-      )
-      return idList
-    }, [])
-)
+// console.log(
+//   times((i) => i + 65, 26)
+//     .reduce<[number, number][]>((array, first) => {
+//       array.push(
+//         ...times((i) => i + 65, 26).map<[number, number]>((second) => [
+//           first,
+//           second,
+//         ])
+//       )
+//       return array
+//     }, [])
+//     .map(([first, second]) => {
+//       return String.fromCharCode(first) + String.fromCharCode(second)
+//     })
+//     .reduce<string[]>((idList, prefix) => {
+//       idList.push(
+//         ...times((i) => i + 10, 1).map((i) => {
+//           const stringified = i.toString()
+//           return `${prefix}_${'0'.repeat(3 - stringified.length) + stringified}`
+//         })
+//       )
+//       return idList
+//     }, [])
+// )
 
 // console.log(
 //   times(i => i + 65, 26).map(code => {
