@@ -1,5 +1,5 @@
 /** @jsxImportSource theme-ui */
-import { Box, Card, Text } from '@theme-ui/components'
+import { Box, Card, Text, Flex } from '@theme-ui/components'
 import { useRouter } from 'next/router'
 import { assetsBucketBaseUrl } from '../../lib/consts'
 import { BattlesuitData } from '../../lib/honkai3rd/battlesuits'
@@ -10,9 +10,10 @@ import SquareImageBox from '../atoms/SquareImageBox'
 interface BattlesuitCardProps {
   battlesuit: Pick<BattlesuitData, 'id' | 'name' | 'krName'>
   hidden?: boolean
+  size?: 'sm' | 'default'
 }
 
-const BattlesuitCard = ({ battlesuit, hidden }: BattlesuitCardProps) => {
+const BattlesuitCard = ({ battlesuit, hidden, size }: BattlesuitCardProps) => {
   const { locale } = useRouter()
 
   const battlesuitName = translate(
@@ -20,6 +21,44 @@ const BattlesuitCard = ({ battlesuit, hidden }: BattlesuitCardProps) => {
     { 'ko-KR': battlesuit.krName },
     battlesuit.name
   )
+
+  if (size === 'sm') {
+    return (
+      <Card
+        className={hidden ? 'hidden' : ''}
+        sx={{
+          width: 'fit-content',
+          p: 1,
+          m: 1,
+          '&.hidden': {
+            display: 'none',
+          },
+        }}
+      >
+        <PageLink href={`/honkai3rd/battlesuits/${battlesuit.id}`}>
+          <Flex>
+            <SquareImageBox
+              mr={2}
+              alt={battlesuitName}
+              src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/portrait-${battlesuit.id}.png`}
+              size={30}
+            />
+            <Box
+              sx={{
+                overflow: 'hidden',
+                textOverflow: 'ellipsis',
+                width: '100%',
+                whiteSpace: 'nowrap',
+                textAlign: 'center',
+              }}
+            >
+              <Text sx={{ lineHeight: '30px' }}>{battlesuitName}</Text>
+            </Box>
+          </Flex>
+        </PageLink>
+      </Card>
+    )
+  }
 
   return (
     <Card
