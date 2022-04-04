@@ -7,6 +7,7 @@ import NProgress from 'nprogress'
 import { useRouter } from 'next/router'
 import '../styles/nprogress.css'
 import '../styles/nextjs.css'
+import Head from 'next/head'
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter()
@@ -31,6 +32,9 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <ThemeProvider theme={theme}>
+      <Head>
+        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+      </Head>
       <Component {...pageProps} />
     </ThemeProvider>
   )
