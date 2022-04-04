@@ -16,7 +16,7 @@ const IndexPage = () => {
             <Box sx={{ position: 'relative' }}>
               <Image
                 alt='Honkai 3rd Wallpaper'
-                src={`${assetsBucketBaseUrl}/assets/honkai3rd/wallpaper.png`}
+                src={`${assetsBucketBaseUrl}/honkai3rd/wallpaper.png`}
                 width={640}
                 height={360}
               />
