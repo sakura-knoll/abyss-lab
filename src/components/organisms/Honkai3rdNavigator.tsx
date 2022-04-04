@@ -48,7 +48,7 @@ const Honkai3rdNavigator = ({ close }: Honkai3rdNavigatorProps) => {
       </NextLink>
       <Heading mb={3}>
         <NextLink href='/honkai3rd' passHref>
-          <NavLink>{t('nav.honkai-3rd')}</NavLink>
+          <NavLink>{t('common.honkai-3rd')}</NavLink>
         </NextLink>
       </Heading>
 
@@ -58,6 +58,7 @@ const Honkai3rdNavigator = ({ close }: Honkai3rdNavigatorProps) => {
         <NavItem target='weapons' />
         <NavItem target='stigmata' />
         <NavItem target='elfs' />
+        <NavItem target='elysian-realm' />
       </Box>
 
       <NextLink
@@ -88,7 +89,13 @@ const Honkai3rdNavigator = ({ close }: Honkai3rdNavigatorProps) => {
 export default Honkai3rdNavigator
 
 interface NavItemProps {
-  target: 'versions' | 'battlesuits' | 'stigmata' | 'weapons' | 'elfs'
+  target:
+    | 'versions'
+    | 'battlesuits'
+    | 'stigmata'
+    | 'weapons'
+    | 'elfs'
+    | 'elysian-realm'
 }
 
 const NavItem = ({ target }: NavItemProps) => {
@@ -116,7 +123,7 @@ const NavItem = ({ target }: NavItemProps) => {
             whiteSpace: 'nowrap',
           }}
         >
-          {t(`nav.${target}`)}
+          {t(`common.${target}`)}
         </Text>
       </NavLink>
     </NextLink>
