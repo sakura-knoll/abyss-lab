@@ -38,10 +38,10 @@ const StigmataSetPage = ({
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${t('breadcrumb.honkai-3rd')}: ${stigmataSetName} ${t(
+        title={`${t('common.honkai-3rd')}: ${stigmataSetName} ${t(
           'stigmata-show.stigmata-set'
-        )} - ${t('nav.abyss-lab')}`}
-        description={`${t('breadcrumb.honkai-3rd')} ${t(
+        )} - ${t('common.abyss-lab')}`}
+        description={`${t('common.honkai-3rd')} ${t(
           'stigmata-show.stigmata-set'
         )} / ${'⭐'.repeat(stigmataSet.rarity)} / ${stigmataSetAltName}`}
       />
@@ -49,13 +49,13 @@ const StigmataSetPage = ({
       <Box p={3}>
         <Breadcrumb
           items={[
-            { href: '/honkai3rd', label: t('breadcrumb.honkai-3rd') },
+            { href: '/honkai3rd', label: t('common.honkai-3rd') },
             {
               href: {
                 pathname: `/honkai3rd/stigmata`,
                 query: { list: 'set' },
               },
-              label: t('breadcrumb.stigmata'),
+              label: t('common.stigmata'),
             },
             {
               href: `/honkai3rd/stigmata/${stigmataSet.id}-set`,

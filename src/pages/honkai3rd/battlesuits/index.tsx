@@ -79,19 +79,19 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${t('breadcrumb.honkai-3rd')}: ${t(
-          'breadcrumb.battlesuits'
-        )} - ${t('nav.abyss-lab')}`}
+        title={`${t('common.honkai-3rd')}: ${t('common.battlesuits')} - ${t(
+          'common.abyss-lab'
+        )}`}
         description={t('battlesuits-list.description')}
       />
 
       <Box p={3}>
         <Breadcrumb
           items={[
-            { href: '/honkai3rd', label: t('breadcrumb.honkai-3rd') },
+            { href: '/honkai3rd', label: t('common.honkai-3rd') },
             {
               href: '/honkai3rd/battlesuits',
-              label: t('breadcrumb.battlesuits'),
+              label: t('common.battlesuits'),
             },
           ]}
         />

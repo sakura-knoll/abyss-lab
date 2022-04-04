@@ -11,9 +11,15 @@ interface BattlesuitCardProps {
   battlesuit: Pick<BattlesuitData, 'id' | 'name' | 'krName'>
   hidden?: boolean
   size?: 'sm' | 'default'
+  href?: string
 }
 
-const BattlesuitCard = ({ battlesuit, hidden, size }: BattlesuitCardProps) => {
+const BattlesuitCard = ({
+  battlesuit,
+  hidden,
+  size,
+  href,
+}: BattlesuitCardProps) => {
   const { locale } = useRouter()
 
   const battlesuitName = translate(
@@ -21,6 +27,10 @@ const BattlesuitCard = ({ battlesuit, hidden, size }: BattlesuitCardProps) => {
     { 'ko-KR': battlesuit.krName },
     battlesuit.name
   )
+
+  if (href == null) {
+    href = `/honkai3rd/battlesuits/${battlesuit.id}`
+  }
 
   if (size === 'sm') {
     return (
@@ -35,7 +45,7 @@ const BattlesuitCard = ({ battlesuit, hidden, size }: BattlesuitCardProps) => {
           },
         }}
       >
-        <PageLink href={`/honkai3rd/battlesuits/${battlesuit.id}`}>
+        <PageLink href={href}>
           <Flex>
             <SquareImageBox
               mr={2}
@@ -72,10 +82,7 @@ const BattlesuitCard = ({ battlesuit, hidden, size }: BattlesuitCardProps) => {
         },
       }}
     >
-      <PageLink
-        href={`/honkai3rd/battlesuits/${battlesuit.id}`}
-        key={battlesuit.id}
-      >
+      <PageLink href={href}>
         <SquareImageBox
           alt={battlesuitName}
           src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/portrait-${battlesuit.id}.png`}

@@ -85,10 +85,10 @@ const BattlesuitShowPage = ({
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${t('breadcrumb.honkai-3rd')}: ${battlesuitName} - ${t(
-          'nav.abyss-lab'
+        title={`${t('common.honkai-3rd')}: ${battlesuitName} - ${t(
+          'common.abyss-lab'
         )}`}
-        description={`${t('breadcrumb.honkai-3rd')} ${t(
+        description={`${t('common.honkai-3rd')} ${t(
           'battlesuit-show.battlesuit'
         )} / ${valkyrieName} / ${battlesuitTypeLabel} / ${battlesuit.features
           .map((feature) => {
@@ -109,10 +109,10 @@ const BattlesuitShowPage = ({
       <Box p={3}>
         <Breadcrumb
           items={[
-            { href: '/honkai3rd', label: t('breadcrumb.honkai-3rd') },
+            { href: '/honkai3rd', label: t('common.honkai-3rd') },
             {
               href: '/honkai3rd/battlesuits',
-              label: t('breadcrumb.battlesuits'),
+              label: t('common.battlesuits'),
             },
             {
               href: `/honkai3rd/battlesuits/${battlesuit.id}`,

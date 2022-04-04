@@ -21,16 +21,16 @@ const ElfListPage = ({ elfs }: ElfListPageProps) => {
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${t('breadcrumb.honkai-3rd')}: ${t('breadcrumb.elfs')} - ${t(
-          'nav.abyss-lab'
+        title={`${t('common.honkai-3rd')}: ${t('common.elfs')} - ${t(
+          'common.abyss-lab'
         )}`}
         description={t('elfs-list.description')}
       />
       <Box p={3}>
         <Breadcrumb
           items={[
-            { href: '/honkai3rd', label: t('breadcrumb.honkai-3rd') },
-            { href: '/honkai3rd/elfs', label: t('breadcrumb.elfs') },
+            { href: '/honkai3rd', label: t('common.honkai-3rd') },
+            { href: '/honkai3rd/elfs', label: t('common.elfs') },
           ]}
         />
 

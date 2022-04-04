@@ -35,10 +35,10 @@ const ElfShowPage = ({ elf }: ElfShowPageProps) => {
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${t('breadcrumb.honkai-3rd')}: ${elfName} - ${t(
-          'nav.abyss-lab'
+        title={`${t('common.honkai-3rd')}: ${elfName} - ${t(
+          'common.abyss-lab'
         )}`}
-        description={`${t('breadcrumb.honkai-3rd')} ${t(
+        description={`${t('common.honkai-3rd')} ${t(
           'elfs-show.elf'
         )} / ${'⭐'.repeat(elf.baseRank)} / ${elf.features
           .map((feature) => {
@@ -59,8 +59,8 @@ const ElfShowPage = ({ elf }: ElfShowPageProps) => {
       <Box p={3}>
         <Breadcrumb
           items={[
-            { href: '/honkai3rd', label: t('breadcrumb.honkai-3rd') },
-            { href: '/honkai3rd/elfs', label: t('breadcrumb.elfs') },
+            { href: '/honkai3rd', label: t('common.honkai-3rd') },
+            { href: '/honkai3rd/elfs', label: t('common.elfs') },
             {
               href: `/honkai3rd/elfs/${elf.id}`,
               label: elfName,

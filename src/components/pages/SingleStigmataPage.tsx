@@ -50,12 +50,10 @@ const SingleStigmataPage = ({
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${t('breadcrumb.honkai-3rd')}: ${stigmataName} - ${t(
-          'nav.abyss-lab'
+        title={`${t('common.honkai-3rd')}: ${stigmataName} - ${t(
+          'common.abyss-lab'
         )}`}
-        description={`${t('breadcrumb.honkai-3rd')} ${t(
-          'stigmata-show.stigmata'
-        )} /
+        description={`${t('common.honkai-3rd')} ${t('stigmata-show.stigmata')} /
         ${'⭐'.repeat(stigmataData.rarity)} / ${t(
           `stigmata-show.${stigmataData.type}`
         )} / HP : ${stigmataData.hp} / ATK : ${stigmataData.atk} / DEF : ${
@@ -65,8 +63,8 @@ const SingleStigmataPage = ({
       <Box p={3}>
         <Breadcrumb
           items={[
-            { href: '/honkai3rd', label: t('breadcrumb.honkai-3rd') },
-            { href: '/honkai3rd/stigmata', label: t('breadcrumb.stigmata') },
+            { href: '/honkai3rd', label: t('common.honkai-3rd') },
+            { href: '/honkai3rd/stigmata', label: t('common.stigmata') },
             {
               href: `/honkai3rd/stigmata/${stigmataData.id}`,
               label: stigmataName,

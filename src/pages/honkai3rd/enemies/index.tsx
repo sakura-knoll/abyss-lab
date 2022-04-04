@@ -112,13 +112,13 @@ const Honkai3rdIndexPage = () => {
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${t('breadcrumb.honkai-3rd')}: Home - ${t('nav.abyss-lab')}`}
+        title={`${t('common.honkai-3rd')}: Home - ${t('common.abyss-lab')}`}
         description={t('index.description')}
       />
 
       <Box p={3}>
         <Breadcrumb
-          items={[{ href: 'honkai3rd', label: t('breadcrumb.honkai-3rd') }]}
+          items={[{ href: 'honkai3rd', label: t('common.honkai-3rd') }]}
         />
         <Heading as='h1'>Enemies </Heading>
       </Box>

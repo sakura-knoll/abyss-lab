@@ -42,10 +42,10 @@ const WeaponShowPage = ({
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${t('breadcrumb.honkai-3rd')}: ${weaponName} - ${t(
-          'nav.abyss-lab'
+        title={`${t('common.honkai-3rd')}: ${weaponName} - ${t(
+          'common.abyss-lab'
         )}`}
-        description={`${t('breadcrumb.honkai-3rd')} ${t(
+        description={`${t('common.honkai-3rd')} ${t(
           'weapons-show.weapon'
         )} / ${'⭐'.repeat(weapon.rarity)} / ${weaponCategory} / ATK : ${
           weapon.atk
@@ -55,8 +55,8 @@ const WeaponShowPage = ({
       <Box p={3}>
         <Breadcrumb
           items={[
-            { href: '/honkai3rd', label: t('breadcrumb.honkai-3rd') },
-            { href: '/honkai3rd/weapons', label: t('breadcrumb.weapons') },
+            { href: '/honkai3rd', label: t('common.honkai-3rd') },
+            { href: '/honkai3rd/weapons', label: t('common.weapons') },
             {
               href: `/honkai3rd/weapons/${weapon.id}`,
               label: weaponName,

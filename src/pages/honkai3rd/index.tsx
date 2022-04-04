@@ -46,15 +46,15 @@ const Honkai3rdIndexPage = () => {
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${t('breadcrumb.honkai-3rd')}: Home - ${t('nav.abyss-lab')}`}
+        title={`${t('common.honkai-3rd')}: Home - ${t('common.abyss-lab')}`}
         description={t('index.description')}
       />
 
       <Box p={3}>
         <Breadcrumb
-          items={[{ href: 'honkai3rd', label: t('breadcrumb.honkai-3rd') }]}
+          items={[{ href: 'honkai3rd', label: t('common.honkai-3rd') }]}
         />
-        <Heading as='h1'>{t('nav.honkai-3rd')} </Heading>
+        <Heading as='h1'>{t('common.honkai-3rd')} </Heading>
 
         <Box
           sx={{ position: 'relative', mb: 3, width: 280, height: 280 }}
@@ -75,6 +75,7 @@ const Honkai3rdIndexPage = () => {
           <NavItem target='weapons' />
           <NavItem target='stigmata' />
           <NavItem target='elfs' />
+          <NavItem target='elysian-realm' />
         </Box>
 
         <Box>
@@ -106,7 +107,13 @@ export async function getStaticProps({ locale }: NextPageContext) {
 export default Honkai3rdIndexPage
 
 interface NavItemProps {
-  target: 'versions' | 'battlesuits' | 'stigmata' | 'weapons' | 'elfs'
+  target:
+    | 'versions'
+    | 'battlesuits'
+    | 'stigmata'
+    | 'weapons'
+    | 'elfs'
+    | 'elysian-realm'
 }
 
 const NavItem = ({ target }: NavItemProps) => {
@@ -121,7 +128,7 @@ const NavItem = ({ target }: NavItemProps) => {
               mr={1}
               src={`${assetsBucketBaseUrl}/honkai3rd/nav-icons/${target}.png`}
             />
-            <Text sx={{ fontSize: 3 }}>{t(`nav.${target}`)}</Text>
+            <Text sx={{ fontSize: 3 }}>{t(`common.${target}`)}</Text>
           </Flex>
         </Box>
       </PageLink>

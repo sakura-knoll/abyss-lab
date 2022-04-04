@@ -60,17 +60,17 @@ const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
     <Honkai3rdLayout>
       <Box>
         <Head
-          title={`${t('breadcrumb.honkai-3rd')}: ${t(
-            'breadcrumb.weapons'
-          )} - ${t('nav.abyss-lab')}`}
+          title={`${t('common.honkai-3rd')}: ${t('common.weapons')} - ${t(
+            'common.abyss-lab'
+          )}`}
           description={t('weapons-list.description')}
         />
 
         <Box p={3}>
           <Breadcrumb
             items={[
-              { href: '/honkai3rd', label: t('breadcrumb.honkai-3rd') },
-              { href: '/honkai3rd/weapons', label: t('breadcrumb.weapons') },
+              { href: '/honkai3rd', label: t('common.honkai-3rd') },
+              { href: '/honkai3rd/weapons', label: t('common.weapons') },
             ]}
           />
 

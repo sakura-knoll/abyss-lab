@@ -40,17 +40,17 @@ const StigmataListPage = ({
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${t('breadcrumb.honkai-3rd')}: ${t(
-          'breadcrumb.stigmata'
-        )} - ${t('nav.abyss-lab')}`}
+        title={`${t('common.honkai-3rd')}: ${t('common.stigmata')} - ${t(
+          'common.abyss-lab'
+        )}`}
         description={t('stigmata-list.description')}
       />
 
       <Box p={3}>
         <Breadcrumb
           items={[
-            { href: '/honkai3rd', label: t('breadcrumb.honkai-3rd') },
-            { href: '/honkai3rd/stigmata', label: t('breadcrumb.stigmata') },
+            { href: '/honkai3rd', label: t('common.honkai-3rd') },
+            { href: '/honkai3rd/stigmata', label: t('common.stigmata') },
           ]}
         />
 

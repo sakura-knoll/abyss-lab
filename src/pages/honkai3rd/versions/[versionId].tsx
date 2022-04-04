@@ -46,12 +46,12 @@ const VersionShowPage = ({
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${t('breadcrumb.honkai-3rd')}: v${versionData.version} - ${t(
-          'nav.abyss-lab'
+        title={`${t('common.honkai-3rd')}: v${versionData.version} - ${t(
+          'common.abyss-lab'
         )}`}
-        description={`${t('breadcrumb.honkai-3rd')} ${t(
-          'versions.version'
-        )} / ${t('versions.new-battlesuits')}: ${battlesuits
+        description={`${t('common.honkai-3rd')} ${t('versions.version')} / ${t(
+          'versions.new-battlesuits'
+        )}: ${battlesuits
           .map((battlesuit) => {
             return translate(
               locale,
@@ -69,8 +69,8 @@ const VersionShowPage = ({
       <Box p={3}>
         <Breadcrumb
           items={[
-            { href: '/honkai3rd', label: t('breadcrumb.honkai-3rd') },
-            { href: '/honkai3rd/versions', label: t('breadcrumb.versions') },
+            { href: '/honkai3rd', label: t('common.honkai-3rd') },
+            { href: '/honkai3rd/versions', label: t('common.versions') },
             {
               href: `/honkai3rd/versions/${versionData.version}`,
               label: versionData.version,
