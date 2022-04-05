@@ -1,9 +1,11 @@
-import { readFileSync } from '../fs'
+import { readFileSync, readJsonFileSync } from '../fs'
 import {
   PopulatedSignetGroup,
   SignetData,
   signetGroups,
   SignetSet,
+  SupportBattlesuit,
+  supportBattlesuitIds,
 } from '../../../lib/honkai3rd/elysianRealm'
 import { getBattlesuitById } from './battlesuits'
 
@@ -104,6 +106,46 @@ export function getSignetGroupById(id: string, locale = 'en-US') {
     return krSignetGroupMap[id]
   }
   return signetGroupMap[id]
+}
+
+export function getSupportBattlesuits(locale?: string) {
+  return supportBattlesuitIds.map<SupportBattlesuit>((battlesuitId) => {
+    const battlesuit = getBattlesuitById(battlesuitId)!
+    const {
+      skillName,
+      description,
+      cooldown,
+    }: { skillName: string; description: string; cooldown: number } =
+      readJsonFileSync(
+        `honkai3rd/elysianRealm/supportBattlesuits/${battlesuitId}.json`
+      )
+
+    let localizedName = battlesuit.name
+    let localizedSkillName = skillName
+    let localizedDescription = description
+
+    if (locale === 'ko-KR') {
+      const [krSkillName, ...krDescriptionLines] = readFileSync(
+        `honkai3rd/ko-KR/elysianRealm/supportBattlesuits/${battlesuitId}.md`
+      )
+        .toString()
+        .trim()
+        .slice(2)
+        .split('\n\n')
+
+      localizedName = battlesuit.krName!
+      localizedSkillName = krSkillName
+      localizedDescription = krDescriptionLines.join('\n').trim()
+    }
+
+    return {
+      id: battlesuitId,
+      name: localizedName,
+      skillName: localizedSkillName,
+      description: localizedDescription,
+      cooldown,
+    }
+  })
 }
 
 function parseNormalSignetsRawData(setId: string, data: string) {

@@ -13,12 +13,12 @@ import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 import {
   erVersions,
   rememberanceSigilIds,
-  supportBattlesuitIds,
 } from '../../../lib/honkai3rd/elysianRealm'
 import SquareImageBox from '../../../components/atoms/SquareImageBox'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
 import PageLink from '../../../components/atoms/PageLink'
 import SignetGroupNavigator from '../../../components/organisms/SignetGroupNavigator'
+import { getSupportBattlesuits } from '../../../server/data/honkai3rd/elysianRealm'
 
 type BattlesuitListItemData = Pick<
   BattlesuitData,
@@ -27,9 +27,13 @@ type BattlesuitListItemData = Pick<
 
 interface BattlesuitListPageProps {
   battlesuitMap: { [id: string]: BattlesuitListItemData }
+  supportBattlesuits: { id: string; name: string }[]
 }
 
-const ElysianRealmIndexPage = ({ battlesuitMap }: BattlesuitListPageProps) => {
+const ElysianRealmIndexPage = ({
+  battlesuitMap,
+  supportBattlesuits,
+}: BattlesuitListPageProps) => {
   const { t } = useTranslation()
 
   return (
@@ -90,15 +94,16 @@ const ElysianRealmIndexPage = ({ battlesuitMap }: BattlesuitListPageProps) => {
           <Heading as='h2'>{t('elysian-realm.supports')}</Heading>
 
           <Flex sx={{ flexWrap: 'wrap' }}>
-            {supportBattlesuitIds.map((battlesuitId) => {
+            {supportBattlesuits.map(({ id, name }) => {
               return (
-                <Card key={battlesuitId} sx={{ p: 1, m: 1 }}>
+                <Card key={id} sx={{ p: 1, m: 1 }} title={name}>
                   <PageLink
-                    href={`/honkai3rd/elysian-realm/support-battlesuits#${battlesuitId}`}
+                    href={`/honkai3rd/elysian-realm/support-battlesuits#${id}`}
                   >
                     <SquareImageBox
                       size={70}
-                      src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/portrait-${battlesuitId}.png`}
+                      alt={name}
+                      src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/portrait-${id}.png`}
                     />
                   </PageLink>
                 </Card>
@@ -139,9 +144,19 @@ export async function getStaticProps({ locale }: NextPageContext) {
     list.push(...version.battlesuits)
     return list
   }, [])
+
+  const supportBattlesuits = getSupportBattlesuits(locale).map(
+    ({ id, name }) => {
+      return {
+        id,
+        name,
+      }
+    }
+  )
   return {
     props: {
       battlesuitMap: getBattlesuitMapByIds(erBattlesuitIds),
+      supportBattlesuits,
       ...(await getI18NProps(locale)),
     },
   }

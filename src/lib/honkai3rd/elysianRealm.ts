@@ -150,3 +150,11 @@ export interface PopulatedSignetGroup {
   name: string
   sets: SignetSet[]
 }
+
+export interface SupportBattlesuit {
+  id: string
+  name: string
+  skillName: string
+  description: string
+  cooldown: number
+}

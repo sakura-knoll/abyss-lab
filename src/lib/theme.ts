@@ -240,4 +240,12 @@ export const theme: Theme = {
       borderStyle: 'solid',
     },
   },
+  badges: {
+    primary: {
+      backgroundColor: 'primary',
+    },
+    secondary: {
+      backgroundColor: 'secondary',
+    },
+  },
 }
