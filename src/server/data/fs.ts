@@ -14,7 +14,12 @@ export function readdirSync(pathname: string) {
 }
 
 export function readFileSync(pathname: string) {
-  return fs.readFileSync(resolvePathname(pathname))
+  try {
+    return fs.readFileSync(resolvePathname(pathname))
+  } catch (error) {
+    console.error(error)
+    throw error
+  }
 }
 
 export function readJsonFileSync(pathname: string) {
