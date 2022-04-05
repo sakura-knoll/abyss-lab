@@ -35,7 +35,6 @@
 # [예리]의 축복
 
 필살기 적중 시, 10초 동안 캐릭터 기본 공격(차지와 분기 공격 제외)이 추가로 공격력 30%의 빙결 원소 대미지를 가한다. 매초 HP를 25pt, SP를 3pt 회복한다. 중복 발동 시 지속 시간이 갱신된다.
-For 10s after landing the Ultimate, Basic ATKs deal 30% of ATK as bonus Ice DMG and Valkyrie restores 25 HP plus 3 SP per second. Triggering it again resets the duration.
 
 ## [예리]의 축복 +
 
