@@ -41,7 +41,7 @@ export const supportBattlesuitIds = [
   'br',
 ]
 
-export const rememberanceSigilIds = [
+export const remembranceSigilIds = [
   'the-moth-insignia',
   'home-lost',
   'false-hope',
@@ -157,4 +157,10 @@ export interface SupportBattlesuit {
   skillName: string
   description: string
   cooldown: number
+}
+
+export interface RemembranceSigil {
+  id: string
+  name: string
+  description: string
 }

@@ -1,12 +1,5 @@
 /** @jsxImportSource theme-ui */
-import {
-  Box,
-  Heading,
-  Flex,
-  Card,
-  Paragraph,
-  Badge,
-} from '@theme-ui/components'
+import { Box, Heading, Flex, Card, Paragraph } from '@theme-ui/components'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 
 import { NextPageContext } from 'next'
@@ -14,24 +7,24 @@ import { getI18NProps } from '../../../server/i18n'
 import { useTranslation } from '../../../lib/i18n'
 import Head from '../../../components/atoms/Head'
 import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
-import { SupportBattlesuit } from '../../../lib/honkai3rd/elysianRealm'
+import { RemembranceSigil } from '../../../lib/honkai3rd/elysianRealm'
 import SquareImageBox from '../../../components/atoms/SquareImageBox'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
-import { getSupportBattlesuits } from '../../../server/data/honkai3rd/elysianRealm'
+import { getRemembranceSigils } from '../../../server/data/honkai3rd/elysianRealm'
 
 interface BattlesuitListPageProps {
-  supportBattlesuits: SupportBattlesuit[]
+  remembranceSigils: RemembranceSigil[]
 }
 
 const ElysianRealmIndexPage = ({
-  supportBattlesuits,
+  remembranceSigils,
 }: BattlesuitListPageProps) => {
   const { t } = useTranslation()
 
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${t('elysian-realm.supports')} (${t(
+        title={`${t('elysian-realm.remembrance-sigil')} (${t(
           'common.elysian-realm'
         )}) - ${t('common.honkai-3rd')} - ${t('common.abyss-lab')}`}
         description={`${t('common.elysian-realm')} ${t(
@@ -48,41 +41,38 @@ const ElysianRealmIndexPage = ({
               label: t('common.elysian-realm'),
             },
             {
-              href: '/honkai3rd/elysian-realm/support-battlesuits',
-              label: t('elysian-realm.supports'),
+              href: '/honkai3rd/elysian-realm/remembrance-sigils',
+              label: t('elysian-realm.remembrance-sigil'),
             },
           ]}
         />
 
         <Heading as='h1' mb={3}>
-          {t('elysian-realm.supports')}
+          {t('elysian-realm.remembrance-sigil')}
         </Heading>
 
         <Box sx={{ mb: 3 }}>
-          {supportBattlesuits.map(
-            ({ id, name, skillName, description, cooldown }) => {
-              return (
-                <Card key={id} sx={{ p: 2, mb: 2 }} id={id}>
-                  <Flex>
-                    <SquareImageBox
-                      size={50}
-                      alt={name}
-                      src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/portrait-${id}.png`}
-                      mr={2}
-                    />
+          {remembranceSigils.map(({ id, name, description }) => {
+            return (
+              <Card key={id} sx={{ p: 2, mb: 2 }} id={id}>
+                <Flex>
+                  <SquareImageBox
+                    size={50}
+                    alt={name}
+                    src={`${assetsBucketBaseUrl}/honkai3rd/elysian-realm/remembrance-sigils/${id}.png`}
+                    mr={2}
+                  />
 
-                    <Box>
-                      <Heading as='h3' mb={0}>
-                        {name} - {skillName}
-                      </Heading>
-                      <Badge variant='secondary'>Cooldown: {cooldown}s</Badge>
-                      <Paragraph>{description}</Paragraph>
-                    </Box>
-                  </Flex>
-                </Card>
-              )
-            }
-          )}
+                  <Box>
+                    <Heading as='h3' mb={2}>
+                      {name}
+                    </Heading>
+                    <Paragraph>{description}</Paragraph>
+                  </Box>
+                </Flex>
+              </Card>
+            )
+          })}
         </Box>
       </Box>
     </Honkai3rdLayout>
@@ -92,11 +82,11 @@ const ElysianRealmIndexPage = ({
 export default ElysianRealmIndexPage
 
 export async function getStaticProps({ locale }: NextPageContext) {
-  const supportBattlesuits = getSupportBattlesuits(locale)
+  const remembranceSigils = getRemembranceSigils(locale)
 
   return {
     props: {
-      supportBattlesuits,
+      remembranceSigils,
       ...(await getI18NProps(locale)),
     },
   }

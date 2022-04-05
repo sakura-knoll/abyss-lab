@@ -10,15 +10,15 @@ import { getI18NProps } from '../../../server/i18n'
 import { useTranslation } from '../../../lib/i18n'
 import Head from '../../../components/atoms/Head'
 import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
-import {
-  erVersions,
-  rememberanceSigilIds,
-} from '../../../lib/honkai3rd/elysianRealm'
+import { erVersions } from '../../../lib/honkai3rd/elysianRealm'
 import SquareImageBox from '../../../components/atoms/SquareImageBox'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
 import PageLink from '../../../components/atoms/PageLink'
 import SignetGroupNavigator from '../../../components/organisms/SignetGroupNavigator'
-import { getSupportBattlesuits } from '../../../server/data/honkai3rd/elysianRealm'
+import {
+  getRemembranceSigils as getRemembranceSigils,
+  getSupportBattlesuits,
+} from '../../../server/data/honkai3rd/elysianRealm'
 
 type BattlesuitListItemData = Pick<
   BattlesuitData,
@@ -28,11 +28,13 @@ type BattlesuitListItemData = Pick<
 interface BattlesuitListPageProps {
   battlesuitMap: { [id: string]: BattlesuitListItemData }
   supportBattlesuits: { id: string; name: string }[]
+  remembranceSigils: { id: string; name: string }[]
 }
 
 const ElysianRealmIndexPage = ({
   battlesuitMap,
   supportBattlesuits,
+  remembranceSigils,
 }: BattlesuitListPageProps) => {
   const { t } = useTranslation()
 
@@ -118,15 +120,15 @@ const ElysianRealmIndexPage = ({
           <Heading as='h2'>{t('elysian-realm.remembrance-sigil')}</Heading>
 
           <Flex sx={{ flexWrap: 'wrap' }}>
-            {rememberanceSigilIds.map((sigilId) => {
+            {remembranceSigils.map(({ id, name }) => {
               return (
-                <Card key={sigilId} sx={{ p: 1, m: 1 }}>
+                <Card key={id} sx={{ p: 1, m: 1 }} title={name}>
                   <PageLink
-                    href={`/honkai3rd/elysian-realm/remembrance-sigils#${sigilId}`}
+                    href={`/honkai3rd/elysian-realm/remembrance-sigils#${id}`}
                   >
                     <SquareImageBox
                       size={70}
-                      src={`${assetsBucketBaseUrl}/honkai3rd/elysian-realm/remembrance-sigils/${sigilId}.png`}
+                      src={`${assetsBucketBaseUrl}/honkai3rd/elysian-realm/remembrance-sigils/${id}.png`}
                     />
                   </PageLink>
                 </Card>
@@ -155,10 +157,18 @@ export async function getStaticProps({ locale }: NextPageContext) {
       }
     }
   )
+
+  const remembranceSigils = getRemembranceSigils(locale).map(({ id, name }) => {
+    return {
+      id,
+      name,
+    }
+  })
   return {
     props: {
       battlesuitMap: getBattlesuitMapByIds(erBattlesuitIds),
       supportBattlesuits,
+      remembranceSigils,
       ...(await getI18NProps(locale)),
     },
   }

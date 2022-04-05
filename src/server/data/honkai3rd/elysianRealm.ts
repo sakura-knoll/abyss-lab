@@ -1,6 +1,8 @@
 import { readFileSync, readJsonFileSync } from '../fs'
 import {
   PopulatedSignetGroup,
+  RemembranceSigil,
+  remembranceSigilIds,
   SignetData,
   signetGroups,
   SignetSet,
@@ -144,6 +146,25 @@ export function getSupportBattlesuits(locale?: string) {
       skillName: localizedSkillName,
       description: localizedDescription,
       cooldown,
+    }
+  })
+}
+export function getRemembranceSigils(locale?: string) {
+  return remembranceSigilIds.map<RemembranceSigil>((sigilId) => {
+    const rawDataPathname =
+      locale === 'ko-KR'
+        ? `honkai3rd/ko-KR/elysianRealm/remembranceSigils/${sigilId}.md`
+        : `honkai3rd/elysianRealm/remembranceSigils/${sigilId}.md`
+    const [name, ...descriptionLines] = readFileSync(rawDataPathname)
+      .toString()
+      .trim()
+      .slice(2)
+      .split('\n\n')
+
+    return {
+      id: sigilId,
+      name: name.trim(),
+      description: descriptionLines.join('\n').trim(),
     }
   })
 }
