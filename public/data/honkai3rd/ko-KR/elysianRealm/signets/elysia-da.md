@@ -33,7 +33,6 @@
 # [성군]의 축복
 
 필살기가 가하는 모든 대미지가 50% 증가한다.
-Ultimate deals 50% bonus Total DMG.
 
 ## [성군]의 축복 +
 

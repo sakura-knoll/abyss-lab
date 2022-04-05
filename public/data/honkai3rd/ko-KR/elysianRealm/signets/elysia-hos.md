@@ -1,7 +1,6 @@
 # [검은 깃]의 축복
 
 분기 공격으로 적 적중 시 SP를 1pt 회복하고 적중한 적에게 깃털 공격을 1회 발동한다. 깃털 공격은 공격력 150%의 물리 대미지를 가한다. 발동 대기시간: 0.5초
-Combo ATK restores 1 SP and unleashes a plume attack on hit to deal 150% ATK of Physical DMG. CD: 0.5s.
 
 ## [검은 깃]의 축복 +
 
