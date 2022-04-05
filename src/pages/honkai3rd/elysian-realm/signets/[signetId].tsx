@@ -69,7 +69,7 @@ const SignetShowPage = ({ signetId, signetGroup }: SignetShowPageProps) => {
           const signetType = set.id.split('-')[1]
           return (
             <Box key={set.id} sx={{ mb: 4 }}>
-              <Heading as='h2' sx={{ mb: 2 }}>
+              <Heading as='h2' sx={{ mb: 3 }}>
                 {signetGroup.id === 'elysia' ? (
                   <PageLink
                     href={`/honkai3rd/elysian-realm/battlesuits/${signetType}`}
