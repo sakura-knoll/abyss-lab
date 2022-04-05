@@ -85,7 +85,7 @@ const BattlesuitShowPage = ({
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${t('common.honkai-3rd')}: ${battlesuitName} - ${t(
+        title={`${battlesuitName} - ${t('common.honkai-3rd')} - ${t(
           'common.abyss-lab'
         )}`}
         description={`${t('common.honkai-3rd')} ${t(

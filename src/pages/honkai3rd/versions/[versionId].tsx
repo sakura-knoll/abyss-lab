@@ -42,16 +42,20 @@ const VersionShowPage = ({
 }: VersionShowPageProps) => {
   const { t } = useTranslation()
   const { locale } = useRouter()
-
+  const versionName = translate(
+    locale,
+    { 'ko-KR': versionData.krName },
+    versionData.name
+  )
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${t('common.honkai-3rd')}: v${versionData.version} - ${t(
-          'common.abyss-lab'
-        )}`}
-        description={`${t('common.honkai-3rd')} ${t('versions.version')} / ${t(
-          'versions.new-battlesuits'
-        )}: ${battlesuits
+        title={`v${versionData.version} ${versionName} - ${t(
+          'common.honkai-3rd'
+        )} - ${t('common.abyss-lab')}`}
+        description={`${t('common.honkai-3rd')} ${t(
+          'versions.version'
+        )} ${versionName} / ${t('versions.new-battlesuits')}: ${battlesuits
           .map((battlesuit) => {
             return translate(
               locale,
@@ -94,12 +98,7 @@ const VersionShowPage = ({
             )}
           </Box>
           <Heading as='h1'>
-            v{versionData.version} :{' '}
-            {translate(
-              locale,
-              { 'ko-KR': versionData.krName },
-              versionData.name
-            )}
+            v{versionData.version} : {versionName}
           </Heading>
           <Box mb={4}>
             {formatDate(new Date(versionData.duration[0]), 'PP')} -{' '}

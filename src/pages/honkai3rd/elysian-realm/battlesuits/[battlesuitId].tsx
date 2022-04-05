@@ -2,18 +2,12 @@
 import { Box, Heading, Image } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import Breadcrumb from '../../../../components/organisms/Breadcrumb'
-import {
-  BattlesuitData,
-  battlesuitFeatures,
-  battlesuitTypes,
-  valkyries,
-} from '../../../../lib/honkai3rd/battlesuits'
+import { BattlesuitData } from '../../../../lib/honkai3rd/battlesuits'
 import { generateI18NPaths, getI18NProps } from '../../../../server/i18n'
 import { getBattlesuitById } from '../../../../server/data/honkai3rd/battlesuits'
 import { translate, useTranslation } from '../../../../lib/i18n'
 import { useRouter } from 'next/router'
 import Head from '../../../../components/atoms/Head'
-import { capitalize } from '../../../../lib/string'
 import { assetsBucketBaseUrl } from '../../../../lib/consts'
 import Honkai3rdLayout from '../../../../components/layouts/Honkai3rdLayout'
 import { WeaponData } from '../../../../lib/honkai3rd/weapons'
@@ -52,45 +46,15 @@ const BattlesuitShowPage = ({
     battlesuit.name
   )
 
-  const { label: valkyrieLabel, krLabel } = valkyries.find(
-    (aValkyrie) => aValkyrie.value === battlesuit.valkyrie
-  ) || { label: battlesuit.valkyrie, krLabel: battlesuit.valkyrie }
-
-  const valkyrieName = translate(locale, { 'ko-KR': krLabel }, valkyrieLabel)
-
-  const battlesuitType = battlesuitTypes.find(
-    (aType) => aType.value === battlesuit.type
-  )
-  const battlesuitTypeLabel = battlesuitType
-    ? translate(
-        locale,
-        { 'ko-KR': battlesuitType.krLabel },
-        battlesuitType.label
-      )
-    : capitalize(battlesuit.type)
-
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${t('common.honkai-3rd')}: ${battlesuitName} - ${t(
-          'common.abyss-lab'
-        )}`}
+        title={`${battlesuitName} (${t('common.elysian-realm')}) - ${t(
+          'common.honkai-3rd'
+        )} - ${t('common.abyss-lab')}`}
         description={`${t('common.honkai-3rd')} ${t(
-          'battlesuit-show.battlesuit'
-        )} / ${valkyrieName} / ${battlesuitTypeLabel} / ${battlesuit.features
-          .map((feature) => {
-            const featureData = battlesuitFeatures.find(
-              (aFeature) => aFeature.value === feature
-            )
-            if (featureData == null) {
-              return feature
-            }
-
-            const { label, krLabel } = featureData
-
-            return translate(locale, { 'ko-KR': krLabel }, label)
-          })
-          .join(', ')}`}
+          'common.elysian-realm'
+        )} ${t('battlesuit-show.battlesuit')}`}
       />
 
       <Box p={3}>

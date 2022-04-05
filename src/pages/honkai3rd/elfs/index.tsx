@@ -21,7 +21,7 @@ const ElfListPage = ({ elfs }: ElfListPageProps) => {
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${t('common.honkai-3rd')}: ${t('common.elfs')} - ${t(
+        title={`${t('common.elfs')} - ${t('common.honkai-3rd')} - ${t(
           'common.abyss-lab'
         )}`}
         description={t('elfs-list.description')}

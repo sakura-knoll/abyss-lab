@@ -112,7 +112,7 @@ const Honkai3rdIndexPage = () => {
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${t('common.honkai-3rd')}: Home - ${t('common.abyss-lab')}`}
+        title={`Enemies - ${t('common.honkai-3rd')} - ${t('common.abyss-lab')}`}
         description={t('index.description')}
       />
 

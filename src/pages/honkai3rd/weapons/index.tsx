@@ -60,7 +60,7 @@ const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
     <Honkai3rdLayout>
       <Box>
         <Head
-          title={`${t('common.honkai-3rd')}: ${t('common.weapons')} - ${t(
+          title={`${t('common.weapons')} - ${t('common.honkai-3rd')} - ${t(
             'common.abyss-lab'
           )}`}
           description={t('weapons-list.description')}

@@ -29,10 +29,12 @@ const SignetShowPage = ({ signetId, signetGroup }: SignetShowPageProps) => {
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${t('common.honkai-3rd')}: ${signetGroup.name} - ${t(
-          'common.abyss-lab'
+        title={`${signetGroup.name} ${t('elysian-realm.signets')} (${t(
+          'common.elysian-realm'
+        )}) - ${t('common.honkai-3rd')} - ${t('common.abyss-lab')}`}
+        description={`${t('common.honkai-3rd')} ${signetGroup.name} ${t(
+          'elysian-realm.signets'
         )}`}
-        description={`${t('common.honkai-3rd')} ${t('elysian-realm.signet')}`}
       />
 
       <Box p={3}>

@@ -40,7 +40,7 @@ const StigmataListPage = ({
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${t('common.honkai-3rd')}: ${t('common.stigmata')} - ${t(
+        title={`${t('common.stigmata')} - ${t('common.honkai-3rd')} - ${t(
           'common.abyss-lab'
         )}`}
         description={t('stigmata-list.description')}

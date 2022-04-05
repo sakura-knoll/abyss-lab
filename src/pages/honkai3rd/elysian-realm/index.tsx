@@ -39,7 +39,7 @@ const ElysianRealmIndexPage = ({
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${t('common.honkai-3rd')}: ${t('common.elysian-realm')} - ${t(
+        title={`${t('common.elysian-realm')} - ${t('common.honkai-3rd')} - ${t(
           'common.abyss-lab'
         )}`}
         description={t('common.elysian-realm')}
@@ -56,7 +56,9 @@ const ElysianRealmIndexPage = ({
           ]}
         />
 
-        <Heading as='h1'>{t('common.elysian-realm')}</Heading>
+        <Heading as='h1'>
+          {t('common.elysian-realm')} ({t('common.wip')})
+        </Heading>
 
         <Heading as='h2'>{t('common.battlesuits')}</Heading>
 
