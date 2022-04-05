@@ -9,10 +9,7 @@ import {
   valkyries,
 } from '../../../../lib/honkai3rd/battlesuits'
 import { generateI18NPaths, getI18NProps } from '../../../../server/i18n'
-import {
-  getBattlesuitById,
-  listBattlesuits,
-} from '../../../../server/data/honkai3rd/battlesuits'
+import { getBattlesuitById } from '../../../../server/data/honkai3rd/battlesuits'
 import { translate, useTranslation } from '../../../../lib/i18n'
 import { useRouter } from 'next/router'
 import Head from '../../../../components/atoms/Head'
@@ -24,7 +21,10 @@ import { getWeaponMapByIds } from '../../../../server/data/honkai3rd/weapons'
 import { StigmataData } from '../../../../lib/honkai3rd/stigmata'
 import { getStigmataMapByIds } from '../../../../server/data/honkai3rd/stigmata'
 import { getSignetGroupById } from '../../../../server/data/honkai3rd/elysianRealm'
-import { SignetSet } from '../../../../lib/honkai3rd/elysianRealm'
+import {
+  erBattlesuits,
+  SignetSet,
+} from '../../../../lib/honkai3rd/elysianRealm'
 import SignetCard from '../../../../components/molecules/SignetCard'
 
 type WeaponObjectMap = { [key: string]: WeaponData }
@@ -189,9 +189,9 @@ export async function getStaticProps({
 export async function getStaticPaths() {
   return {
     paths: generateI18NPaths(
-      listBattlesuits().map((battlesuit) => {
+      erBattlesuits.map((battlesuitId) => {
         return {
-          params: { battlesuitId: battlesuit.id },
+          params: { battlesuitId: battlesuitId },
         }
       })
     ),
