@@ -33,7 +33,7 @@
       },
       {
         "name": "QTE: Shoryu Nuclear EX",
-        "description": "QTE: Triggers QTE when an enemy is affected by Time Slow. Knocks enemies airborne and deals 605% ATK of Physical DMG. Launches a Light Blade that deals 2,150 Lightning DMG and paralyzes enemies for 1.5s.",
+        "description": "QTE: Triggers QTE when an enemy is Time-Slowed to knock enemies airborne, deal 605% ATK of Physical DMG and launch a Light Blade dealing 2,150 Lightning DMG, paralyzing enemies for 5s, and inflicting 5 Paralyze Trauma.",
         "requiredRank": "s"
       }
     ]
@@ -71,12 +71,12 @@
       },
       {
         "name": "Fusion Rupture",
-        "description": "Upon Burst Activation, deals 400.0% of Lightning DMG to surrounding enemies and paralyzes them for 3.00s.",
+        "description": "Activating burst mode deals 400.0% of Lightning DMG to enemies nearby, paralyzes them for 4s, and inflicts 5 Paralyze Trauma.",
         "requiredRank": "s"
       },
       {
         "name": "Plasma Rend",
-        "description": "During Burst, the 3-sequence Light Blades bleeds enemies, dealing 120 Physical DMG every 0.5s for 3.00s.",
+        "description": "In burst mode, the 3-sequence Light Blades bleed enemies, dealing 40% ATK of Physical DMG every 0.5s for 10s and inflicting 3 Bleed Trauma.",
         "requiredRank": "ss"
       }
     ]
@@ -84,7 +84,7 @@
   "evasion": {
     "core": {
       "name": "Fusion Roll",
-      "description": "Evasive roll. Can be triggered twice in a row.\nNuclear Propulsion: After Ultimate Evasion, Move Speed increases by 40% for 3s. Tap [ATK] button at the moment of Ultimate Evasion to immediately launch a Sprint ATK jump cleave.\nNuclear Charge: After an Ultimate Evasion, receives a 5s EM Charge that increases Ignore Interrupt; CD: 15s.\nEM Blast: During EM Charge, hitting an enemy generates an EM Blast that deals 80% ATK of Lightning DMG to target and surrounding enemies, and paralyzes them for 3s."
+      "description": "Evasive roll. Can be triggered twice in a row.\nNuclear Propulsion: After Ultimate Evasion, Move Speed increases by 40% for 3s. Tap [ATK] button at the moment of Ultimate Evasion to immediately launch a Sprint ATK jump cleave.\nNuclear Charge: After an Ultimate Evasion, receives a 5s EM Charge that increases Ignore Interrupt; CD: 15s.\nEM Blast: During EM Charge, hitting an enemy generates an EM Blast that deals 80% ATK of Lightning DMG to target and surrounding enemies, paralyzes them for 5s, and inflicts 5 Paralyze Trauma."
     },
     "subskills": [
       {
@@ -114,7 +114,7 @@
       },
       {
         "name": "Slash Accent",
-        "description": "When triggering Perfect Combo on the 3rd sequence of the Basic ATK, gain Interrupt chance and 100.0% chance to paralyze the enemy for 3.2s. CD: 8s.",
+        "description": "When Basic ATK SEQ 3 triggers Perfect Combo, it has higher Interrupt and a 100.0% chance to paralyze the enemies for 5s and inflict 10 Paralyze Trauma. CD: 8s.",
         "requiredRank": "sss"
       }
     ]

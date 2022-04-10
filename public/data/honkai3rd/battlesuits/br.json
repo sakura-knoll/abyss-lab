@@ -19,7 +19,7 @@
   "special": {
     "core": {
       "name": "Blood Pirouette",
-      "description": "During evasion, unleash a horizontal sweep attack at the enemy.\nRiposte: Tap the [ATK] button while evading to unleash a spinning slash, dealing 200.0% ATK of Physical DMG. CD: 5s.\nIf the spinning slash hits the enemy, gain 5 SP to self.\nAfter spinning slash, tap the [ATK] button when the flashing circle appears on the character to directly unleash a charged attack.\nSprint ATK: Tap the [ATK] button while sprinting to unleash a large AOE horizontal sweep that deals 400.0% ATK of Physical DMG."
+      "description": "During evasion, unleash a horizontal sweep attack at the enemy.\nRiposte: Tap the [ATK] button while evading to unleash a spinning slash, dealing 200% ATK of Physical DMG. CD: 5s.\nIf spinning slash hits the enemy, gain 5 SP to self.\nAfter spinning slash, tap the [ATK] button when the flashing circle appears on the character to directly unleash a charged attack.\nSprint ATK: Tap the [ATK] button while sprinting to unleash a large AOE horizontal sweep that deals 400.0% ATK of Physical DMG."
     },
     "subskills": [
       {
@@ -28,7 +28,7 @@
       },
       {
         "name": "Igniting Axel",
-        "description": "Riposte has a 75.0% chance to ignite the enemy for 4s, dealing 160 Fire DMG every 0.5s."
+        "description": "Riposte has a 75.0% chance to ignite the enemy for 10s, dealing 30% ATK of Fire DMG every 0.5s and inflicting 5 Ignite Trauma."
       },
       {
         "name": "QTE: Burning Windmills",
@@ -60,7 +60,7 @@
   "ultimate": {
     "core": {
       "name": "Blood Wrath",
-      "description": "Activates burst mode: Blood Wrath which costs an increasing percentage of HP per second to maintain. Tap [ULT] again or switch out to end burst mode.\nVehement Flame: Consumes 30 SP to enter burst mode. Tap the [ATK] button to unleash Charged ATKs.\n1st Sequence: 340% ATK of Physical + 310% ATK of Fire DMG;\n2nd Sequence: 260% ATK of Physical + 240% ATK of Fire DMG;\n3rd Sequence: 300% ATK of Physical + 250% ATK of Fire DMG; mid-air slash: 2x100% ATK of Physical DMG + 2x180% ATK of Fire DMG; Last Hit: (380%+50%) ATK of Physical DMG + (320%+50%) ATK of Fire DMG.\nCost: 30 SP to activate. Deals 200% ATK of AOE Fire DMG and ignites enemies for 6s.\nBlood Philter: Blood Rose gains 40% Total DMG Reduction and immunity to stun, paralyze, and freeze."
+      "description": "Activates burst mode: Blood Wrath which costs an increasing percentage of HP per second to maintain. Tap [ULT] again or switch out to end burst mode.\nVehement Flame: Consumes 30 SP to enter burst mode. Tap [ATK] to directly unleash Charged ATKs.\n1st Sequence: 340% ATK of Physical + 310% ATK of Fire DMG;\n2nd Sequence: 260% ATK of Physical + 240% ATK of Fire DMG;\n3rd Sequence: 300% ATK of Physical + 250% ATK of Fire DMG; mid-air slash: 2x100% ATK of Physical DMG + 2x180% ATK of Fire DMG; Last Hit: (380%+50%) ATK of Physical DMG + (320%+50%) ATK of Fire DMG.\nActivation costs 30 SP, deals 200% ATK of AOE Fire DMG, ignites enemies for 10s dealing 30% ATK of Fire DMG per 0.5s and inflicts 6 Ignite Trauma.\nBlood Philter: Blood Rose gains 40% Total DMG Reduction and immunity to Stun, Paralyze, and Freeze. Activating Blood Wrath grants a barrier that blocks the next incoming attack."
     },
     "subskills": [
       {
@@ -94,7 +94,7 @@
       },
       {
         "name": "Blood Serenade",
-        "description": "Macropyre ignites enemy, dealing 233 Fire DMG every 0.5s for 4.0s.",
+        "description": "Macropyre ignites enemies dealing 30% ATK of Fire DMG per 0.5s for 10s and inflicting 5 Ignite Trauma.",
         "requiredRank": "ss"
       }
     ]
@@ -111,7 +111,7 @@
       },
       {
         "name": "Blood Symphony",
-        "description": "Ignites the enemy attacker if attacked while performing Charged ATKs or during Blood Wrath, dealing 349 Fire DMG every 0.5s for 4s.",
+        "description": "When taking a hit during Charged ATK or Blood Wrath, ignite the attacker for 10s dealing 30% ATK of Fire DMG every 0.5s and inflicting 5 Ignite Trauma.",
         "requiredRank": "ss"
       },
       {
