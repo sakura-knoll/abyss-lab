@@ -44,7 +44,7 @@
   "passive": {
     "core": {
       "name": "Passive",
-      "description": "Passive bonuses apply automatically.\nHerrscher Charge: Starts at 0 (Max: 600).\nCharacter gains 50 Max SP. At full Herrscher Charge, character enters Inner Turmoil for 3s. Character cannot ATK, Evade, or use weapon skills for this duration. Nearby enemies are stunned for 3s. Stun CD: 10s.\nWhen Inner Turmoil ends, Herrscher Charge decays to ZERO (at 50 per 0.75s). Combo ATK can only be performed after Herrscher Charge decays to ZERO.\nInner Turmoil can be canceled by switching characters or casting Ultimate."
+      "description": "Passive bonuses apply automatically.\nHerrscher Charge: Starts at 0 (Max: 600).\nCharacter gains 50 Max SP. At full Herrscher Charge, character enters Inner Turmoil for 3s. Character cannot ATK, Evade, or use weapon skills for this duration. Nearby enemies are stunned for 5s and inflicted with 6 Stun Trauma. Stun CD: 10s.\nWhen Inner Turmoil ends, Herrscher Charge decays to ZERO (at 50 per 0.75s). Combo ATK can only be performed after Herrscher Charge decays to ZERO.\nInner Turmoil can be canceled by switching characters or casting Ultimate."
     },
     "subskills": [
       {
@@ -71,7 +71,7 @@
     "subskills": [
       {
         "name": "Valkyrie Impact",
-        "description": "The last hit of the Ultimate stuns enemy for 5.0s."
+        "description": "The last hit of the Ultimate stuns enemy for 5s and inflicts 6 Stun Trauma."
       },
       {
         "name": "Void Sync",
@@ -119,7 +119,7 @@
       },
       {
         "name": "Bleeding Shot",
-        "description": "Crit hits of Basic ATKs has a 80% chance to bleed enemies, dealing 255 Physical DMG every 0.5s for 4.0s."
+        "description": "Crit hits of Basic ATK have a 80% chance to bleed enemies, dealing 40% ATK of Physical DMG every 0.5s for 10s and inflicting 2 Bleed Trauma. CD: 1s."
       },
       {
         "name": "QTE: Twilight Ranger",

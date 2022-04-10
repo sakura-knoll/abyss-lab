@@ -29,7 +29,7 @@
       },
       {
         "name": "QTE: Avalanche",
-        "description": "QTE: Triggers when enemy is ignited. Deals 225% ATK of Physical DMG + 200%+250% ATK of Ice DMG and freezes enemies for 5.00s. Restores 200 Threshold."
+        "description": "QTE: Triggers when an enemy is ignited to deal 225% ATK of Physical DMG + 200%+250% ATK of Ice DMG, freezes the target enemies for 5s, inflicts 10 Rime Trauma, and restores 200 Threshold."
       },
       {
         "name": "Adrenaline",
@@ -58,7 +58,7 @@
   "ultimate": {
     "core": {
       "name": "Frost Cyclone",
-      "description": "Unleashes mighty cleaves with the power of frost to deal massive Ice DMG.\nUnleash 3 freezing sword ki dealing 3x200% ATK of Ice DMG, then dash to the target to unleash a 3-hit windmill hew that deals 150% ATK of Physical DMG + 50% ATK of Ice DMG per hit. Final downward hew deals 300%+200% ATK of Physical DMG plus 150%+300% ATK of Ice DMG and unleashes a large AOE freeze for 3s.\nAfter dealing the final hit, character restores 200 Threshold.\nSP cost: 100"
+      "description": "Unleashes mighty cleaves with the power of frost to deal massive Ice DMG.\nUnleash 3 freezing sword ki dealing 3x200% ATK of Ice DMG, then dash to the target to unleash a 3-hit windmill hew that deals 150% ATK of Physical DMG + 50% ATK of Ice DMG per hit. Final downward hew deals 300%+200% ATK of Physical DMG plus 150%+300% ATK of Ice DMG, freezes enemies in a large area for 5s, and inflicts 5 Rime Trauma.\nAfter dealing the final hit, character restores 200 Threshold.\nSP cost: 100"
     },
     "subskills": [
       {
@@ -72,7 +72,7 @@
       },
       {
         "name": "Snowstorm",
-        "description": "Freezing caused by the ultimate now lasts 6.00s. At the end of the duration, slows Attack Speed by 40% for 6.00s.",
+        "description": "Ultimate inflicts 5 Rime Trauma and when it ends, it slows enemy Attack Speed by 40% for 6.00s.",
         "requiredRank": "sss"
       }
     ]
@@ -80,7 +80,7 @@
   "evasion": {
     "core": {
       "name": "Frost Touch",
-      "description": "Roll evasion. Can be performed 2 times in a row.\nUltimate Evasion generates a 4x25% ATK of AOE Ice DMG centered on the enemy and restores 50 Threshold.\nFrost Touch: Additionally restores 100 Threshold; tap [ATK] right after Ultimate Evasion to unleash a Windmill Cleave that deals 50%+100% ATK of Ice DMG and freezes the target for 3s; CD: 15s."
+      "description": "Roll evasion. Can be performed 2 times in a row.\nUltimate Evasion generates a 4x25% ATK of AOE Ice DMG centered on the enemy and restores 50 Threshold.\nFrost Touch: Additionally gains 100 Threshold; tap [ATK] right after Ultimate Evasion to unleash a Windmill Cleave that deals 50%+100% ATK of Ice DMG, freezes the target for 5s and inflicts 5 Rime Trauma. CD: 15s."
     },
     "subskills": [
       {
@@ -103,7 +103,7 @@
     "subskills": [
       {
         "name": "Cold Edge",
-        "description": "In Threshold Mode, Valkyrie gains immunity to stun, paralyze, and freeze, and takes 40.0% less total DMG. The Attack Speed slowing effect inflicted by Threshold Sword Ki is extended to 6.00s. Threshold Sword Ki from 3rd sequence of Basic ATK freezes enemies for 2s. CD: 8s."
+        "description": "In Threshold Mode, Valkyrie has immunity to stun, paralyze, and freeze, and takes 40.0% less total DMG. The Attack Speed slowing effect inflicted by Threshold Sword Ki is extended to 6.00s. Threshold Sword Ki from 3rd sequence of Basic ATK freezes enemies for 5s and inflicts 10 Rime Trauma. CD: 8s."
       },
       {
         "name": "Subzero Fechten",
