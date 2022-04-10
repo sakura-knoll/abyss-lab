@@ -29,18 +29,28 @@ module.exports = {
         permanent: true,
       },
       {
-        source: '/honkai3rd/weapons/pardofelis-5-star',
-        destination: '/honkai3rd/weapons/dream-of-the-past',
+        source: '/honkai3rd/weapons/dream-of-the-past',
+        destination: '/honkai3rd/weapons/purana-phantasma',
         permanent: true,
       },
       {
-        source: '/honkai3rd/weapons/pardofelis-6-star',
-        destination: '/honkai3rd/weapons/dream-of-the-past-eyes-of-the-night',
+        source: '/honkai3rd/weapons/dream-of-the-past-eyes-of-the-night',
+        destination: '/honkai3rd/weapons/purana-phantasma-nighteye',
         permanent: true,
       },
       {
-        source: '/honkai3rd/weapons/chakram-foundry',
-        destination: '/honkai3rd/weapons/dark-meteorite-golden-scale',
+        source: '/honkai3rd/weapons/dark-meteorite-golden-scale',
+        destination: '/honkai3rd/weapons/gilded-librae',
+        permanent: true,
+      },
+      {
+        source: '/honkai3rd/weapons/azure-flare',
+        destination: '/honkai3rd/weapons/cerulean-flare',
+        permanent: true,
+      },
+      {
+        source: '/honkai3rd/battlesuits/pardofelis',
+        destination: '/honkai3rd/battlesuits/rc',
         permanent: true,
       },
     ]

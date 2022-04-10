@@ -1,0 +1,141 @@
+{
+  "id": "rc",
+  "version": "5.6",
+  "name": "Reverist Calico",
+  "type": "imaginary",
+  "valkyrie": "pardofelis",
+  "features": ["ice-dmg", "freeze", "time mastery"],
+  "equipment": [
+    {
+      "type": "recommended",
+      "weapon": "purana-phantasma-nighteye",
+      "stigmataTop": "bastet-top",
+      "stigmataMid": "bastet-mid",
+      "stigmataBot": "bastet-bot"
+    }
+  ],
+  "leader": {
+    "core": {
+      "name": "Life Is but a Reverie",
+      "description": "Leader Bonus:\nTeam restores SP 25.0% and deals 35.0% bonus Total DMG to frozen enemies."
+    },
+    "subskills": [
+      {
+        "name": "Life Is but a Reverie",
+        "description": "Leader Bonus:\nTeam restores SP 25.0% and deals 35.0% bonus Total DMG to frozen enemies.",
+        "requiredRank": "s3"
+      }
+    ]
+  },
+  "special": {
+    "core": {
+      "name": "Combo: All Paws on Deck",
+      "description": "Command Can to assist in battle.\nTwo Combo ATK variations based on Can's two Moods. Hold [ATK] with full Mood to consume all of it and perform Combo ATK of the matching Mood.\nConsume full Angry Mood to cast Double Scratch and deal 500% ATK of Ice DMG.\nConsume full well-behaved Mood to cast Frozen Can, gather enemies and deal 300% ATK of Ice DMG."
+    },
+    "subskills": [
+      {
+        "name": "Meow!",
+        "description": "QTE entry fully restores both types of Mood."
+      },
+      {
+        "name": "Plan B",
+        "description": "Double Scratch and Megaton Furball boost Reverist Calico's Total DMG by 30.0% for 15s (can be refreshed).\nFrozen Can and Megaton Furball make enemies hit take 30.0% bonus Total DMG by 15s (can be refreshed)."
+      },
+      {
+        "name": "Muddy the Waters",
+        "description": "Double Scratch restores 3.0 SP for the team."
+      }
+    ]
+  },
+  "passive": {
+    "core": {
+      "name": "Shopowner",
+      "description": "Passive bonuses apply automatically.\nThe kitten Can helps Reverist Calico in battle. It shows two different Moods, Angry and Well-behaved, and the Mood type decides Can's attack pattern. Both types of Mood cap at 100.\nBasic ATK SEQ 1 to 4 restore 20 current Mood on hit, and SEQ 5 restores 100.\nEntering the field resets Mood to Angry.\nWhen wielding a Chakram, Reverist Calico uses it as dual blades and obtains weapon skill Paw Barrage, which makes her charge forward and strike enemies repeatedly dealing 125%+150%x2 ATK of Ice DMG and switching Mood. The skill has up to 2 charges and 6s CD."
+    },
+    "subskills": [
+      {
+        "name": "Bluff",
+        "description": "Runaway restores full weapon active charges."
+      },
+      {
+        "name": "Subzero Sales",
+        "description": "Team deals 25.0% bonus Total DMG to frozen enemies."
+      },
+      {
+        "name": "Start-Up Fund",
+        "description": "Reverist Calico has 20.0 bonus initial SP. Can only be triggered once every 10 minutes in Open World."
+      }
+    ]
+  },
+  "ultimate": {
+    "core": {
+      "name": "Megaton Furball",
+      "description": "A giant Can falls from the sky and slam enemies. Reverist Calico hurls the Chakram high up and then Can falls through it to be enlarged and slam enemies dealing literally tons of DMG.\nTap [ULT] to deal 2000% ATK of Ice DMG, inflict 18 Rime Trauma, fully restore two types of Mood, and activate Runaway lasting 10s. In Runaway, two types of Combo ATK deal 50% bonus Ice DMG and switching Mood fully restores Mood of the current type.\nExiting ends Runaway."
+    },
+    "subskills": [
+      {
+        "name": "Ain't Got All Day!",
+        "description": "In Runaway, Reverist Calico deals 40.0% bonus Ice DMG."
+      },
+      {
+        "name": "Ready to Run!",
+        "description": "Ultimate restores 2.5 SP per second for the team for 10s."
+      },
+      {
+        "name": "Go pound'em!",
+        "description": "When hitting a Nihilus Seed, Ultimate instantly depletes its current-phase HP if it's below 20%."
+      }
+    ]
+  },
+  "evasion": {
+    "core": {
+      "name": "Gonna Bounce",
+      "description": "Dash quickly to evade enemy attacks. Can be performed twice in a row.\nUltimate Evasion triggers 3s of Global Time Fracture. CD: 15s."
+    },
+    "subskills": [
+      {
+        "name": "Cat Walk",
+        "description": "Ultimate Evasions fully restore current Mood."
+      }
+    ]
+  },
+  "basic": {
+    "core": {
+      "name": "Gotta Pounce",
+      "description": "Wield the Chakram as dual blades to slash enemies.\n SEQ 1: 100% ATK of Ice DMG.\nSEQ 2: 100% ATK of Ice DMG.\nSEQ 3: Triple strikes dealing 50% + 70% x 2 ATK of Ice DMG.\nSEQ 4: Summon cat paws dealing 120% ATK of Ice DMG.\nSEQ 5: Swing cat paws dealing 50% x 2 + 200% ATK of Ice DMG."
+    },
+    "subskills": [
+      {
+        "name": "QTE: Here Comes the Kitty",
+        "description": "QTE: Triggered by Time-Slowed or frozen enemies to deal 200.0%x8 ATK of ice DMG and reduces the switch CD of the exiting Valkyrie to 4s."
+      },
+      {
+        "name": "Kitty's Predation!",
+        "description": "After two Combo ATK casts, tap [Weapon] to perform Special ATK Predation, deal 80.0%x13 ATK of Ice DMG, and inflict 12 Rime Trauma (considered both QTE and weapon active). It triggers weapon active and can be connected into Basic ATK SEQ 4. Exiting resets the count."
+      }
+    ]
+  },
+  "sp": {
+    "core": {
+      "name": "Survival of the Weak",
+      "description": "After Reverist Calico exits, Can stays on the field to help other Valkyries.\nAfter Reverist Calico exits, Can appears on the field periodically to dig treasure and cast Boom-Meow at enemies 3 times in 9s each time dealing 900% ATK of Ice DMG and restoring 4 SP. The 3rd Boom-Meow inflicts 10 Rime Trauma."
+    },
+    "subskills": [
+      {
+        "name": "We're a Team",
+        "description": "Double Scratch additionally restores 40 Well-behaved Mood.\nFrozen Can additionally restores 40 Angry Mood.\nCombo ATK deals 30.0% bonus Ice DMG.",
+        "requiredRank": "s"
+      },
+      {
+        "name": "Scout Beforehand",
+        "description": "Weapon actives have one more charge. When Reverist Calico exits in Runaway, Boom-Meow deals 500.0% bonus Ice DMG.",
+        "requiredRank": "ss"
+      },
+      {
+        "name": "Well-Connected",
+        "description": "Attacks aided by Can(including QTE, QTE ATK, Ultimate, and Exit ATK) boost tam Total DMG by 5.0% for 16s. 3 stacks max. Can be refreshed.",
+        "requiredRank": "sss"
+      }
+    ]
+  }
+}
