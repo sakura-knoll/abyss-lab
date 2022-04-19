@@ -12,6 +12,7 @@ interface BattlesuitCardProps {
   hidden?: boolean
   size?: 'sm' | 'default'
   href?: string
+  m?: number
 }
 
 const BattlesuitCard = ({
@@ -19,6 +20,7 @@ const BattlesuitCard = ({
   hidden,
   size,
   href,
+  m,
 }: BattlesuitCardProps) => {
   const { locale } = useRouter()
 
@@ -37,33 +39,31 @@ const BattlesuitCard = ({
       <Card
         className={hidden ? 'hidden' : ''}
         sx={{
-          width: 'fit-content',
           p: 1,
-          m: 1,
+          m: m == undefined ? 1 : m,
           '&.hidden': {
             display: 'none',
           },
         }}
       >
         <PageLink href={href}>
-          <Flex>
+          <Flex sx={{ alignItems: 'center' }}>
             <SquareImageBox
               mr={2}
               alt={battlesuitName}
               src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/portrait-${battlesuit.id}.png`}
               size={30}
             />
-            <Box
+            <Text
               sx={{
                 overflow: 'hidden',
                 textOverflow: 'ellipsis',
                 width: '100%',
                 whiteSpace: 'nowrap',
-                textAlign: 'center',
               }}
             >
-              <Text sx={{ lineHeight: '30px' }}>{battlesuitName}</Text>
-            </Box>
+              {battlesuitName}
+            </Text>
           </Flex>
         </PageLink>
       </Card>
@@ -76,7 +76,7 @@ const BattlesuitCard = ({
       sx={{
         width: 120,
         padding: 2,
-        margin: 2,
+        m: m == undefined ? 2 : m,
         '&.hidden': {
           display: 'none',
         },

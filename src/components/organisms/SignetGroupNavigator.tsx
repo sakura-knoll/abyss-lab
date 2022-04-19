@@ -7,13 +7,7 @@ import { translate } from '../../lib/i18n'
 import PageLink from '../atoms/PageLink'
 import SquareImageBox from '../atoms/SquareImageBox'
 
-interface SignetGroupNavigatorProps {
-  size?: 'sm' | 'default'
-}
-
-const SignetGroupNavigator = ({
-  size = 'default',
-}: SignetGroupNavigatorProps) => {
+const SignetGroupNavigator = () => {
   const { locale } = useRouter()
   return (
     <Flex sx={{ flexWrap: 'wrap' }}>
@@ -23,23 +17,33 @@ const SignetGroupNavigator = ({
           { ['ko-KR']: signet.krName },
           signet.name
         )
+        const signetAltName = translate(
+          locale,
+          { ['ko-KR']: signet.krAltName },
+          signet.altName
+        )
         return (
-          <Card key={signet.id} sx={{ p: 1, m: 1 }}>
+          <Card key={signet.id} sx={{ p: 1, m: 1, width: [135, 135, 200] }}>
             <PageLink href={`/honkai3rd/elysian-realm/signets/${signet.id}`}>
               <Flex
                 sx={{
-                  flexDirection: size === 'default' ? 'column' : 'row',
-                  justifyContent: 'center',
+                  alignItems: 'center',
                 }}
               >
                 <SquareImageBox
-                  size={size === 'default' ? 70 : 30}
+                  size={30}
                   src={`${assetsBucketBaseUrl}/honkai3rd/elysian-realm/signets/${signet.id}.png`}
                 />
                 <Text
-                  sx={{ textAlign: 'center', ml: size === 'default' ? 0 : 1 }}
+                  sx={{
+                    ml: 2,
+                    overflow: 'hidden',
+                    width: '100%',
+                    whiteSpace: 'nowrap',
+                    textOverflow: 'ellipsis',
+                  }}
                 >
-                  {signetName}
+                  {signetAltName}({signetName})
                 </Text>
               </Flex>
             </PageLink>

@@ -76,7 +76,9 @@ const ElysianRealmIndexPage = ({
                         {name} - {skillName}
                       </Heading>
                       <Badge variant='secondary'>Cooldown: {cooldown}s</Badge>
-                      <Paragraph>{description}</Paragraph>
+                      <Paragraph sx={{ whiteSpace: 'pre-wrap' }}>
+                        {description}
+                      </Paragraph>
                     </Box>
                   </Flex>
                 </Card>

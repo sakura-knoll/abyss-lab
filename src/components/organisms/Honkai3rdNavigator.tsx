@@ -124,7 +124,6 @@ const NavItem = ({ target }: NavItemProps) => {
           }}
         >
           {t(`common.${target}`)}
-          {target === 'elysian-realm' ? ` (${t('common.wip')})` : ''}
         </Text>
       </NavLink>
     </NextLink>

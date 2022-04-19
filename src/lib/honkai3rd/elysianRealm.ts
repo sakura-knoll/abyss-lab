@@ -23,6 +23,10 @@ export const erVersions = [
     version: '5.5',
     battlesuits: ['pe', 'spa'],
   },
+  {
+    version: '5.6',
+    battlesuits: ['rc', 'fr'],
+  },
 ].reverse()
 
 export const erBattlesuits = erVersions.reduce<string[]>((list, version) => {
@@ -39,6 +43,9 @@ export const supportBattlesuitIds = [
   'bke',
   'ae',
   'br',
+  'hb',
+  'ma',
+  'rc',
 ]
 
 export const remembranceSigilIds = [
@@ -62,6 +69,30 @@ export const remembranceSigilIds = [
   'stained-sakura',
   'the-first-scale',
   'resolve',
+  'veil-of-tears',
+  'pseudo-miracle',
+  'fragile-friend',
+  'rainbow-of-absence',
+  'feast-of-emptiness',
+  'it-will-be-written',
+  'dreamful-gold',
+  'an-old-pal-s-legacy',
+  'empty-like-shala',
+  'tsukimi-himiko',
+  'boundless-logos',
+  'hometown',
+  'proof-of-good-and-evil',
+  'faraway-ship',
+  'ravenous-gully',
+  'grey-scale-rainbow',
+  'nine-lives',
+  'because-of-you',
+  'boundless-feeling',
+  'falling-in-past-light',
+  'out-of-reach',
+  'the-lonely-moon',
+  'awakening',
+  'key-to-the-deep',
 ]
 
 export interface SignetData {
@@ -86,6 +117,8 @@ export const signetGroups = [
     id: 'elysia',
     name: 'Elysia',
     krName: '엘리시아',
+    altName: '■■',
+    krAltName: '■■',
     setIds: erBattlesuits.map((battlesuitId) => {
       return `elysia-${battlesuitId}`
     }),
@@ -94,45 +127,107 @@ export const signetGroups = [
     id: 'eden',
     name: 'Eden',
     krName: '에덴',
+    altName: 'Gold',
+    krAltName: '황금',
     setIds: ['eden-normal', 'eden-nexus-1', 'eden-nexus-2'],
   },
   {
     id: 'hua',
     name: 'Hua',
     krName: '화',
+    altName: 'Vicissitude',
+    krAltName: '부생',
     setIds: ['hua-normal', 'hua-nexus-1', 'hua-nexus-2'],
   },
   {
     id: 'kalpas',
     name: 'Kalpas',
     krName: '칼파스',
+    altName: 'Decimation',
+    krAltName: '오멸',
     setIds: ['kalpas-normal', 'kalpas-nexus-1', 'kalpas-nexus-2'],
   },
   {
     id: 'kevin',
     name: 'Kevin',
     krName: '케빈',
+    altName: 'Deliverance',
+    krAltName: '구원',
     setIds: ['kevin-normal', 'kevin-nexus-1', 'kevin-nexus-2'],
   },
   {
     id: 'mobius',
     name: 'Mobius',
     krName: '뫼비우스',
+    altName: 'Infinity',
+    krAltName: '무한',
     setIds: ['mobius-normal', 'mobius-nexus-1', 'mobius-nexus-2'],
   },
   {
     id: 'sakura',
     name: 'Sakura',
     krName: '사쿠라',
+    altName: 'Setsuna',
+    krAltName: '찰나',
     setIds: ['sakura-normal', 'sakura-nexus-1', 'sakura-nexus-2'],
   },
   {
     id: 'su',
     name: 'Su',
     krName: '수',
+    altName: 'Bodhi',
+    krAltName: '천혜',
     setIds: ['su-normal', 'su-nexus-1', 'su-nexus-2'],
   },
+  {
+    id: 'pardofelis',
+    name: 'Pardofelis',
+    krName: '파르도 필리스',
+    altName: 'Reverie',
+    krAltName: '환몽',
+    setIds: ['pardofelis-normal', 'pardofelis-nexus-1'],
+  },
+  {
+    id: 'vill-v',
+    name: 'Vill-V',
+    krName: '빌-브이',
+    altName: 'Helix',
+    krAltName: '나선',
+    setIds: ['vill-v-normal', 'vill-v-nexus-1'],
+  },
+  {
+    id: 'aponia',
+    name: 'Aponia',
+    krName: '아포니아',
+    altName: 'Discipline',
+    krAltName: '계율',
+    setIds: ['aponia-normal', 'aponia-nexus-1'],
+  },
+  {
+    id: 'kosma',
+    name: 'Kosma',
+    krName: '코스마',
+    altName: 'Daybreak',
+    krAltName: '욱광',
+    setIds: ['kosma-normal', 'kosma-nexus-1'],
+  },
+  {
+    id: 'griseo',
+    name: 'Griseo',
+    krName: '그리세오',
+    altName: 'Stars',
+    krAltName: '번성',
+    setIds: ['griseo-normal', 'griseo-nexus-1'],
+  },
 ]
+
+export function parseSignetId(id: string) {
+  if (id.startsWith('vill-v')) {
+    return ['vill-v', ...id.split('-').slice(2)]
+  }
+
+  return id.split('-')
+}
 
 export const signetGroupMap = signetGroups.reduce((map, group) => {
   map.set(group.id, group)
@@ -148,6 +243,7 @@ export interface SignetSet {
 export interface PopulatedSignetGroup {
   id: string
   name: string
+  altName: string
   sets: SignetSet[]
 }
 

@@ -1,5 +1,6 @@
 import { readFileSync, readJsonFileSync } from '../fs'
 import {
+  parseSignetId,
   PopulatedSignetGroup,
   RemembranceSigil,
   remembranceSigilIds,
@@ -19,6 +20,7 @@ const signetGroupMap = signetGroups.reduce<{
     populatedGroup = {
       id: group.id,
       name: group.name,
+      altName: group.altName,
       sets: [],
     }
   }
@@ -28,7 +30,7 @@ const signetGroupMap = signetGroups.reduce<{
       `honkai3rd/elysianRealm/signets/${setId}.md`
     ).toString()
 
-    const [, setType, setIndex] = setId.split('-')
+    const [, setType, setIndex] = parseSignetId(setId)
 
     const name =
       group.id === 'elysia'
@@ -65,6 +67,7 @@ const krSignetGroupMap = signetGroups.reduce<{
     populatedGroup = {
       id: group.id,
       name: group.krName,
+      altName: group.krAltName,
       sets: [],
     }
   }
@@ -74,7 +77,7 @@ const krSignetGroupMap = signetGroups.reduce<{
       `honkai3rd/ko-KR/elysianRealm/signets/${setId}.md`
     ).toString()
 
-    const [, setType, setIndex] = setId.split('-')
+    const [, setType, setIndex] = parseSignetId(setId)
 
     const name =
       group.id === 'elysia'

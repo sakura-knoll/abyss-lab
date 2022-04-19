@@ -2,7 +2,7 @@
 import { Card, Box, Paragraph, Heading, Flex, Text } from '@theme-ui/components'
 import { useTranslation } from 'next-i18next'
 import { assetsBucketBaseUrl } from '../../lib/consts'
-import { SignetData } from '../../lib/honkai3rd/elysianRealm'
+import { parseSignetId, SignetData } from '../../lib/honkai3rd/elysianRealm'
 import SquareImageBox from '../atoms/SquareImageBox'
 
 interface SignetCardProps {
@@ -12,7 +12,8 @@ interface SignetCardProps {
 }
 
 const SignetCard = ({ signet, headingLevel = 3, m = 2 }: SignetCardProps) => {
-  const [signetGroupId] = signet.id.split('-')
+  const [signetGroupId] = parseSignetId(signet.id)
+
   const { t } = useTranslation()
   return (
     <Card sx={{ mb: 2 }}>

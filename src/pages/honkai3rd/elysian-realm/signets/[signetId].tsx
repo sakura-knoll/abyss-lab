@@ -53,7 +53,7 @@ const SignetShowPage = ({ signetId, signetGroup }: SignetShowPageProps) => {
         />
 
         <Box sx={{ mb: 4 }}>
-          <SignetGroupNavigator size={'sm'} />
+          <SignetGroupNavigator />
         </Box>
         <Heading as='h1' sx={{ mb: 4, display: 'flex', alignItems: 'center' }}>
           <SquareImageBox
@@ -62,7 +62,7 @@ const SignetShowPage = ({ signetId, signetGroup }: SignetShowPageProps) => {
             alt={signetGroup.name}
             src={`${assetsBucketBaseUrl}/honkai3rd/elysian-realm/signets/${signetGroup.id}.png`}
           />{' '}
-          {signetGroup.name} {t('elysian-realm.signets')}
+          {signetGroup.altName}({signetGroup.name}) {t('elysian-realm.signets')}
         </Heading>
 
         {signetGroup.sets.map((set) => {

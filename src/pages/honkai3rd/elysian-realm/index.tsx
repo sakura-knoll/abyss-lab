@@ -1,5 +1,5 @@
 /** @jsxImportSource theme-ui */
-import { Box, Heading, Flex, Card } from '@theme-ui/components'
+import { Box, Heading, Flex, Card, Text } from '@theme-ui/components'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import { getBattlesuitMapByIds } from '../../../server/data/honkai3rd/battlesuits'
 import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
@@ -58,9 +58,7 @@ const ElysianRealmIndexPage = ({
           ]}
         />
 
-        <Heading as='h1'>
-          {t('common.elysian-realm')} ({t('common.wip')})
-        </Heading>
+        <Heading as='h1'>{t('common.elysian-realm')}</Heading>
 
         <Heading as='h2'>{t('common.battlesuits')}</Heading>
 
@@ -74,12 +72,17 @@ const ElysianRealmIndexPage = ({
                 <Flex sx={{ flexWrap: 'wrap' }}>
                   {erVersion.battlesuits.map((battlesuitId) => {
                     return (
-                      <BattlesuitCard
+                      <Box
                         key={battlesuitId}
-                        battlesuit={battlesuitMap[battlesuitId]}
-                        size='sm'
-                        href={`/honkai3rd/elysian-realm/battlesuits/${battlesuitId}`}
-                      />
+                        sx={{ width: [135, 135, 200], m: 1 }}
+                      >
+                        <BattlesuitCard
+                          m={0}
+                          battlesuit={battlesuitMap[battlesuitId]}
+                          size={'sm'}
+                          href={`/honkai3rd/elysian-realm/battlesuits/${battlesuitId}`}
+                        />
+                      </Box>
                     )
                   })}
                 </Flex>
@@ -98,19 +101,16 @@ const ElysianRealmIndexPage = ({
           <Heading as='h2'>{t('elysian-realm.supports')}</Heading>
 
           <Flex sx={{ flexWrap: 'wrap' }}>
-            {supportBattlesuits.map(({ id, name }) => {
+            {supportBattlesuits.map((battlesuit) => {
               return (
-                <Card key={id} sx={{ p: 1, m: 1 }} title={name}>
-                  <PageLink
-                    href={`/honkai3rd/elysian-realm/support-battlesuits#${id}`}
-                  >
-                    <SquareImageBox
-                      size={70}
-                      alt={name}
-                      src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/portrait-${id}.png`}
-                    />
-                  </PageLink>
-                </Card>
+                <Box key={battlesuit.id} sx={{ width: [135, 135, 200], m: 1 }}>
+                  <BattlesuitCard
+                    m={0}
+                    battlesuit={battlesuit}
+                    size={'sm'}
+                    href={`/honkai3rd/elysian-realm/support-battlesuits#${battlesuit.id}`}
+                  />
+                </Box>
               )
             })}
           </Flex>
@@ -122,14 +122,30 @@ const ElysianRealmIndexPage = ({
           <Flex sx={{ flexWrap: 'wrap' }}>
             {remembranceSigils.map(({ id, name }) => {
               return (
-                <Card key={id} sx={{ p: 1, m: 1 }} title={name}>
+                <Card
+                  key={id}
+                  sx={{ p: 1, m: 1, width: [135, 135, 200] }}
+                  title={name}
+                >
                   <PageLink
                     href={`/honkai3rd/elysian-realm/remembrance-sigils#${id}`}
                   >
-                    <SquareImageBox
-                      size={70}
-                      src={`${assetsBucketBaseUrl}/honkai3rd/elysian-realm/remembrance-sigils/${id}.png`}
-                    />
+                    <Flex sx={{ alignItems: 'center' }}>
+                      <SquareImageBox
+                        size={30}
+                        src={`${assetsBucketBaseUrl}/honkai3rd/elysian-realm/remembrance-sigils/${id}.png`}
+                      />
+                      <Text
+                        sx={{
+                          ml: 2,
+                          overflow: 'hidden',
+                          whiteSpace: 'nowrap',
+                          textOverflow: 'ellipsis',
+                        }}
+                      >
+                        {name}
+                      </Text>
+                    </Flex>
                   </PageLink>
                 </Card>
               )
