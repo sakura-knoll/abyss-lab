@@ -277,7 +277,7 @@ function getIconSrcFromItem(item: { type: string; id: string }): string | null {
     case 'elf':
       return `${assetsBucketBaseUrl}/honkai3rd/elfs/icon-${item.id}.png`
     case 'outfit':
-      return `${assetsBucketBaseUrl}/honkai3rd/outfits/${item.id}.png`
+      return `${assetsBucketBaseUrl}/honkai3rd/outfits/portrait-${item.id}.webp`
   }
   return null
 }
