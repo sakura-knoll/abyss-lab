@@ -20,7 +20,7 @@ import { getBattlesuitMapByIds } from '../../../server/data/honkai3rd/battlesuit
 import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
 import BattlesuitCard from '../../../components/molecules/BattlesuitCard'
 import WeaponCard from '../../../components/molecules/WeaponCard'
-import SourceCard from '../../../components/molecules/SourceCard'
+// import SourceCard from '../../../components/molecules/SourceCard'
 
 interface WeaponShowPageProps {
   weapon: WeaponData
@@ -125,7 +125,7 @@ const WeaponShowPage = ({
               })}
             </Box>
           )}
-          {weapon.sources != null && (
+          {/* {weapon.sources != null && (
             <Box sx={{ p: 2, borderTop: 'default' }}>
               <Heading as='h4'>{t('weapons-show.sources')}</Heading>
               {weapon.sources
@@ -134,7 +134,7 @@ const WeaponShowPage = ({
                   return <SourceCard key={source.type} source={source} />
                 })}
             </Box>
-          )}
+          )} */}
         </Card>
 
         <Box>
