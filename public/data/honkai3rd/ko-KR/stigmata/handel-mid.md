@@ -1,5 +1,5 @@
-# Handel (M)
+# 헨델 (중)
 
-## 
+## 왕궁의 불꽃놀이 음악
 
-Total DMG +15.0%. After Weapon Active Skill hits an enemy, Lightning DMG +40.0% for 10s(can be refreshed).
+모든 대미지 +15.0%. 무기 스킬이 적에게 명중시, 10초간 뇌전 원소 대미지 +40.0%(갱신 가능).

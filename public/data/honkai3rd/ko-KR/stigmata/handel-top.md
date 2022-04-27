@@ -1,5 +1,5 @@
-# Handel (T)
+# 헨델 (상)
 
-## 
+## 수상 음악
 
-Lightning DMG +20.0%. After QTE hits an enemy, Lightning DMG of active valkyrie +30% for 20s(can be refreshed but cannot be stacked).
+뇌전 원소 대미지 +20.0%. QTE가 적에게 명중시, 20초간 전장의 모든 발키리의 뇌전 원소 대미지 +30.0%(갱신 가능, 중첩 불가).

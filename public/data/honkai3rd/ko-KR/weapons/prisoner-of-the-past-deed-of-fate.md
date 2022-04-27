@@ -1,13 +1,15 @@
-# Prisoner of the Past: Deed of Fate
+# 과거의 죄수: 운명의 계약
 
-## Active
+## 피할 수 없는 징벌
 
-[SP: 0][CD: 0] The weapon active's CD, max charges, and effects are based on wielder type. After using Weapon Active Skill, summon 4 lightning butterflies around the valkyrie. After she deals Lightning DMG, the butterflies will fly towards enemies, each causing 360.0% ATK of Lightning DMG, and boosts Lightning DMG 16.0% for 30.0s. The effect can be triggerd only once every 10s.
+[SP: 0][재사용 대기시간: 0] 무기 액티브 스킬의 재사용 대기시간, 충전 횟수, 스킬 효과는 장비한 캐릭터의 유형에 따라 결정된다.
+무기 스킬 사용 후, 자신 주변에 4개의 번개 나비를 소환하여, 자신이 뇌전 원소 대미지를 가한 후, 나비들이 적에게 날아가 각각 공격력의 360.0%의 뇌전 원소 대미지를 가하고, 30.0초간 피해를 받은 적에게 자신이 가하는 뇌전 원소 대미지 +16.0%(효과는 매 10초마다 최대 1번 발동).
 
-## Passive
+## 허망한 구원
 
-When using Weapon Active Skill, Lightning DMG +25.0 for 30s(can be refreshed). If wielded by Disciplinary Perdition, Thunderstorm during [Foreseer's Sin] deals 45.0% ATK of Lightning bonus DMG.
+무기 스킬 사용 후, 30초간 뇌전 원소 대미지 +25.0%(갱신 가능).
+계율·깊은 죄의 감옥이 착용시, [예견자의 처벌] 상태에서 내리는 뇌전 폭발이 추가로 공격력 45.0%의 뇌전 원소 대미지를 가한다.
 
-## Passive
+## 연민의 만언
 
-Lightning DMG +15.0%. If wielded by Disciplinary Perdition, Lightning DMG of Ult +30.0%.
+자신의 뇌전 원소 대미지 +15.0%. 계율·깊은 죄의 감옥이 착용시, 필살기의 모든 피해 +30.0%.

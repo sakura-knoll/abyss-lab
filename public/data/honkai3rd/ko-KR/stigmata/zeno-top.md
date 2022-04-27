@@ -1,5 +1,5 @@
-# Zeno (T)
+# 제논 (상)
 
-## 
+## 스테일메이트
 
-Lightning DMG +45%. After Combo ATK deals Lightning DMG, Total DMG +20.0% for 10s(can be refreshed).
+뇌전 원소 대미지 +45.0%. 분기 공격이 뇌전 원소 대미지를 주면, 10초간 자신의 모든 대미지 +20.0%(갱신 가능).

@@ -1,5 +1,5 @@
-# Handel (B)
+# 헨델 (하)
 
-## 
+## 구세주
 
-Lightning DMG +35.0%. After Combo ATK hit an enemy, Total DMG +15.0% and recovers 1.0 SP per second for 10s(can be refreshed).
+뇌전 원소 대미지 +35.0%. 분기 공격이 적에게 명중시, 10초간 모든 대미지 +15.0%, 매초 SP를 1.0pt 회복(갱신 가능).

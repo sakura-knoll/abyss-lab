@@ -1,11 +1,11 @@
-# Zeno
+# 제논
 
-Set
+역설의 철학 세트
 
-## 2 Pieces
+## 무한히 나눌 수 있는 시공 2 세트
 
-Total DMG +35.0%. Branch attacks inflict [Butterfly] debuff to enemies for 15s(can be refreshed. Every 4 times the enemies with [Butterfly] take damage, it will explode and deal 100.0% ATK of Lightning DMG. (CD: 1.5s)
+모든 대미지 +35.0%. 분기 공격시 [나비] 표식을 적에게 15초간 부여(갱신 가능). 적이 4번 공격 받을 때 마다, 폭발하여 공격력 100.0%의 뇌전 원소 대미지를 가한다. (재사용 대기시간: 1.5초)
 
-## 3 Pieces
+## 영원히 닿을수 없는 종점 3 세트
 
-When [Butterfly] explodes, recovers 2 SP. After triggering ultimate evasion skill, Lightning DMG +60% for 15s against enemies with [Butterfly](can be refreshed).
+[나비] 표식 폭발시 SP를 2pt 회복. 궁극 회피 스킬 발동시, 15초간 [나비] 표식을 가진 적에게 가하는 뇌전 원소 대미지 +60.0%(갱신 가능).

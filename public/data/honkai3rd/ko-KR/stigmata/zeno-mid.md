@@ -1,5 +1,5 @@
-# Zeno (M)
+# 제논 (중)
 
-## 
+## 움직이지 않는 화살
 
-Lightning DMG +35%. Ultimate Evasion Skill CD -20%.
+뇌전 원소 대미지 +35.0%. 궁극 회피 스킬 재사용 대기시간 -20.0%.

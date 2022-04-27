@@ -1,5 +1,5 @@
-# Zeno (B)
+# 제논 (하)
 
-## 
+## 끝이 없는 계단
 
-Total DMG of ranged attack +30.0%. Lightning DMG of Combo Attack +40.0%.
+원거리 공격의 모든 대미지 +30.0%. 분기 공격의 뇌전 원소 대미지 +40.0%.
