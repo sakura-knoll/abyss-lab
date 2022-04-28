@@ -8,6 +8,7 @@ import { useRouter } from 'next/router'
 import '../styles/nprogress.css'
 import '../styles/nextjs.css'
 import Head from 'next/head'
+import { GtagScript, useGtagPageViewReport } from '../lib/gtag'
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter()
@@ -30,11 +31,14 @@ function MyApp({ Component, pageProps }: AppProps) {
     }
   }, [router])
 
+  useGtagPageViewReport(router)
+
   return (
     <ThemeProvider theme={theme}>
       <Head>
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
+      <GtagScript />
       <Component {...pageProps} />
     </ThemeProvider>
   )
