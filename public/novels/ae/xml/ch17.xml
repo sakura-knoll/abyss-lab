@@ -1,0 +1,489 @@
+<data>
+	<img></img>
+	<characters>
+		<character color="#00ee00" id="oldTapeNoFace" name="録音" src="" />
+		<character color="rgb(249,222,230)" id="adaNormalRadioFar" name="エイダ" src="03_03_adaNormalRadioFar.png" />
+		<character color="rgb(249,222,230)" id="adaSmileRadioFar" name="エイダ" src="03_03_adaSmileRadioFar.png" />
+	</characters>
+	<story>
+		<scene background="bg.jpg" id="0">
+			<bgm src="mid-lude.mp3" status="start" />
+			<cg bg="bg.jpg" src="newchapter.png" />
+			<goto change="#000000" goto="10" />
+		</scene>
+		<scene background="bostonCommon.jpg" id="10">
+			<bgm src="03_03_bostonNight.mp3" status="start" />
+			<text>1955年11月24日木曜日、午前1時。</text>
+			<text>上弦の月は煤けており——街灯の灯りが届かない場所は深い暗闇に包まれている。</text>
+			<text remark="next">片手には改造したWS No.88無線機を持ち、もう一方の手で明るく輝くサーチライトをかざす。</text>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">WS No.88無線機は1950年代のイギリス軍が使用したVHF-FMトランシーバー（通称「携帯無線機」）、主に短距離（2マイル以内）の歩兵の通信に用いる。</p>
+			</remark>
+			<text>北米支部から借りてきた運転手に別れを告げ、아인슈타인と彼女の仲間たちは夜の更けたボストンの街に立っていた。</text>
+			<text>ここはトレモント・ストリート139番、ボストン・コモンの入口、「フリーダムトレイル」の出発地点。</text>
+			<text>100年の歴史を持つメモリアルルートは、4年前に補修されて新しくなっている。ダークレッドのレンガは凝固した血液のように激動の時代と今を結び付けていた。</text>
+			<show chara="einNormalWinterFar" position="right" />
+			<speak chara="einNoFace">ここが「フリーダムトレイル」の出発点だ。エイダ、何か見つかったか？</speak>
+			<show chara="einNormalWinterFar" opacity="0.7" position="right" />
+			<show chara="adaNormalRadioFar" position="left" />
+			<speak chara="adaNoFace">微弱な崩壊エネルギー反応を検出しました。</speak>
+			<speak chara="adaNoFace">秘密ファイルと以前手に入れた秘密の鍵が一致しました。前文明の人類による音声記録です。</speak>
+			<speak chara="adaNoFace">信号の長さは348単位、全て受け取りました。</speak>
+			<text>WS No.88携帯無線機が雑音の入った電子音を放つ。</text>
+			<text>エイダのコアは、このような簡単な装置の中だと動作を維持するのがやっとのことで、何かあると自分のホログラムすら安定して作れなくなってしまう。</text>
+			<show chara="adaNormalRadioFar" opacity="0.7" position="left" />
+			<show chara="einNormalWinterFar" position="right" />
+			<speak chara="einNoFace">じゃあ、翻訳は頼んだ。</speak>
+			<show chara="einNormalWinterFar" opacity="0.7" position="right" />
+			<show chara="adaSmileRadioFar" position="left" />
+			<speak chara="adaNoFace">かしこまりました。아인슈타인博士。</speak>
+			<goto change="#ffffff" goto="20" />
+		</scene>
+		<scene background="bostonCommon.jpg" id="20">
+			<bgm src="03_03_bostonNight.mp3" status="continue" />
+			<speak chara="oldTapeNoFace">……。</speak>
+			<speak chara="oldTapeNoFace">将来、他の文明の人がこの資料を見つけたなら、私はその人たちに真実を残してあげたい。</speak>
+			<speak chara="oldTapeNoFace">この星の崩壊は、文明が築かれたことで生まれた。</speak>
+			<speak chara="oldTapeNoFace">人類の文明が発展するほど崩壊の力も強くなる。</speak>
+			<speak chara="oldTapeNoFace">崩壊が律者を生み出すたび、人類は莫大な犠牲を払ってそれを打ち破ってきた。</speak>
+			<speak chara="oldTapeNoFace">理の律者、空の律者、雷の律者、風の律者……創生と破滅、支配と拘束……。</speak>
+			<speak chara="oldTapeNoFace">過去の出来事を数え上げれば、世界大戦に匹敵するほどの破壊が十数回も起きた。そのせいで7割近い都市が壊滅している。</speak>
+			<speak chara="oldTapeNoFace">だが……私が記録に残すとある事件に比べれば、過去のものなんてどれも取るに足りない出来事のはず。</speak>
+			<goto change="#ffffff" goto="25" />
+		</scene>
+		<scene background="bostonCommon.jpg" id="25">
+			<bgm src="03_03_bostonNight.mp3" status="continue" />
+			<show chara="weltQuestionNewFar" position="right" />
+			<speak chara="weltNoFace">……この人が言っている歴史について、何か知っているか？エイダ。</speak>
+			<show chara="weltQuestionNewFar" opacity="0.7" position="right" />
+			<show chara="adaNormalRadioFar" position="left" />
+			<speak chara="adaNoFace">分かりません。웰트様。</speak>
+			<speak chara="adaNoFace">私のデータベースには関連するデータがありません。</speak>
+			<speak chara="adaNoFace">……そして、私の自我意識そのものも、その時代を経験していません。</speak>
+			<show chara="adaNormalRadioFar" opacity="0.7" position="left" />
+			<show chara="teslaNormalGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace">そっか、웰트は知らなかったわね……エイダが発掘された時、まだ「オン」の状態じゃなかったのよ。</speak>
+			<speak chara="teslaNoFace">分かりやすく言うと……彼女は、この時代で発掘されてからようやく「誕生」したの。</speak>
+			<show chara="weltQuestionNewFar" position="right" />
+			<speak chara="weltNoFace">そうだったのか……。</speak>
+			<show chara="weltQuestionNewFar" opacity="0.7" position="right" />
+			<show chara="einNormalWinterFar" position="left" />
+			<speak chara="einNoFace">……とにかく先に進んでみよう。きっと、それぞれの名所に記録が残されているはずだ。</speak>
+			<show chara="einSmileWinterFar" position="left" />
+			<speak chara="einNoFace">フリーダムトレイルの二番目の名所は「マサチューセッツ州会議事堂」だったな。公園を抜けてビーコンストリートを歩いていけば着く。</speak>
+			<goto change="#ffffff" goto="30" />
+		</scene>
+		<scene background="massachusettsStateHouse.jpg" id="30">
+			<bgm src="03_03_bostonNight.mp3" status="continue" />
+			<show chara="weltQuestionNewFar" position="right" />
+			<speak chara="weltNoFace">……ところで、どうしてここを「ビーコンストリート」って言うんだ？</speak>
+			<show chara="weltQuestionNewFar" opacity="0.7" position="right" />
+			<show chara="teslaSnickerGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace">それはもちろん、昔はここに灯台があったからよ。</speak>
+			<speak chara="teslaNoFace">この通りを「ビーコンストリート」って呼ぶだけじゃなくて、このエリア全体を「ビーコンヒル」っていうの。</speak>
+			<speak chara="teslaNoFace">大体400年くらい前、ボストンは北米地域で最も重要な港の一つだったのよ。</speak>
+			<show chara="einNormalWinterFar" position="left" />
+			<speak chara="einNoFace">街の発展によってシンボルを失う。これもまた仕方のないことだ。</speak>
+			<speak chara="einNoFace" remark="next">大勢のアイルランド人がこの街へと移住して来るよりも前、海を埋め立てるためにビーコンヒルは取り壊されてしまったんだよ。</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">アイルランド人が大規模にアメリカ東北地域に移住してきたのは、1845年のアイルランド大飢饉が発生してからのこと。この飢饉はジャガイモの不作とイギリス政府が飢饉とみなさなかったことにより引き起こされ、アイルランド島の住民は半数まで減少した。移民として離れたり、災害で死亡したアイルランド人の大部分がゲール語を母語とした貧困層だっため、アイルランド現地で使用される言語は徐々に英語になっていった。これによってアイルランド島の言語文化環境は大きく変わってしまった。</p>
+			</remark>
+			<show chara="einNormalWinterFar" opacity="0.7" position="left" />
+			<show chara="adaNormalRadioFar" position="right" />
+			<speak chara="adaNoFace">微弱な崩壊エネルギー反応を検出しました。</speak>
+			<speak chara="adaNoFace">秘密ファイルと以前獲得した鍵が一致しました。前文明の人類による音声記録です。</speak>
+			<speak chara="adaNoFace">信号の長さは194単位、全て受信完了しました。</speak>
+			<show chara="adaNormalRadioFar" opacity="0.7" position="right" />
+			<show chara="einFoolWinterFar" position="left" />
+			<speak chara="einNoFace">おっと、無駄話はここまで。</speak>
+			<show chara="einNormalWinterFar" position="left" />
+			<speak chara="einNoFace">記録を聞いてみよう。</speak>
+			<goto change="#ffffff" goto="40" />
+		</scene>
+		<scene background="massachusettsStateHouse.jpg" id="40">
+			<bgm src="03_03_bostonNight.mp3" status="continue" />
+			<speak chara="oldTapeNoFace">ある軍事基地の33階、特別な소녀が一人閉じこめられていた。</speak>
+			<speak chara="oldTapeNoFace">彼女は体内に強烈な崩壊エネルギー反応を有しているものの、何の特殊能力も持っていない。</speak>
+			<speak chara="oldTapeNoFace">当然、彼女も人類としての意識を保ち続けている。</speak>
+			<speak chara="oldTapeNoFace">ポリグラフに繋がれた彼女が心の奥底から絞り出した本音。それはただ——</speak>
+			<speak chara="oldTapeNoFace">「家に帰りたい」</speak>
+			<goto change="#ffffff" goto="45" />
+		</scene>
+		<scene background="massachusettsStateHouse.jpg" id="45">
+			<bgm src="03_03_bostonNight.mp3" status="continue" />
+			<show chara="teslaEmbarraGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace" remark="next">……。「恐怖はあらゆる不寛容の原因」。この소녀の悲惨な運命が想像ついたわ。</speak>
+			<remark post="U2FsdGVkX18FMez2JjeaxPpFtfL8">
+				<p class="article-text-h">注：</p>
+				<p class="article-text">「もう一度繰り返そう。恐怖はあらゆる不寛容の原因だ」——これはヘンドリック・ウィレム・ヴァン・ルーン（Hendrik Willem Van Loon）が彼の著作『寛容』（Tolerance）の中で書いた名言。オランダ生まれではあるが、インテリ界では一般的に彼はアメリカの作家と思われている。</p>
+			</remark>
+			<show chara="teslaShameGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace">だけど、H.Aの狙いは何なの？結局、こういう情報だって彼女が人為的に置いたものでしょう。</speak>
+			<show chara="teslaShameGlassWinterFar" opacity="0.7" position="left" />
+			<show chara="einNormalWinterFar" position="right" />
+			<speak chara="einNoFace">……次はパークストリート教会だ。この先の角を右に曲がったところにある。</speak>
+			<show chara="einNormalWinterFar" opacity="0.7" position="right" />
+			<show chara="teslaErGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace">えっ。何とも思わないの？</speak>
+			<show chara="teslaErGlassWinterFar" opacity="0.7" position="left" />
+			<show chara="einNormalWinterFar" position="right" />
+			<speak chara="einNoFace">……焦ることはない。</speak>
+			<speak chara="einNoFace">「フリーダムトレイル」を全て回れば、おのずとこの記録を最後まで聞けるはずだ。</speak>
+			<show chara="einNormalWinterFar" opacity="0.7" position="right" />
+			<show chara="teslaErGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace">えー。よくそんなに落ち着いていられるわね。</speak>
+			<show chara="teslaErGlassWinterFar" opacity="0.7" position="left" />
+			<show chara="einSlyWinterFar" position="right" />
+			<speak chara="einNoFace">褒め言葉として受け取っておこう。軽々しく判断を下さないのは研究者として強みだからね。</speak>
+			<goto change="#ffffff" goto="50" />
+		</scene>
+		<scene background="ParkStreet.jpg" id="50">
+			<bgm src="03_03_bostonNight.mp3" status="continue" />
+			<speak chara="oldTapeNoFace">ある日、暗殺者が独断で監禁部屋に押し入り、彼女を無惨に殺した。</speak>
+			<speak chara="oldTapeNoFace">しかし、誰も想像していなかった。まさか、彼女が死んだ瞬間に第十二律者としての力を発現させるなんて。</speak>
+			<speak chara="oldTapeNoFace">「侵蝕の律者」</speak>
+			<speak chara="oldTapeNoFace">ある種の自我を持った感染源、ウィルス。</speak>
+			<speak chara="oldTapeNoFace">それは生物を対象とするだけでなく、電子的なものでもあった。</speak>
+			<goto change="#ffffff" goto="60" />
+		</scene>
+		<scene background="ParkStreet.jpg" id="60">
+			<bgm src="03_03_bostonNight.mp3" status="continue" />
+			<show chara="teslaShameGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace">えっ。そんな特異なウィルスが存在するの。</speak>
+			<speak chara="teslaNoFace">でも、理論的には不可能ではないのかも。「黒淵白花」みたいな「インチキ」武器だって存在しているんだから——</speak>
+			<show chara="einNormalWinterFar" position="right" />
+			<speak chara="einNoFace">次はグラナリー墓地だ。この角を曲がったところのはずだ。</speak>
+			<show chara="einNormalWinterFar" opacity="0.7" position="right" />
+			<show chara="teslaErGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace">えっ……。</speak>
+			<speak chara="teslaNoFace">まあ、いいわ。行きましょう……。</speak>
+			<goto change="#ffffff" goto="70" />
+		</scene>
+		<scene background="chapelBuryingGround.jpg" id="70">
+			<bgm src="03_03_bostonNight.mp3" status="continue" />
+			<speak chara="oldTapeNoFace">それはまず、その暗殺者たちに感染した。そして、彼らの体内にあったバイオチップを通じて、様々な電子システムへと侵入を果たした。</speak>
+			<speak chara="oldTapeNoFace">もちろん、その中には軍事基地のシステムも含まれていたよ。</speak>
+			<speak chara="oldTapeNoFace">基地内の全ミサイルが彼女の怒りと共に、我々の残り少ない都市に向けて発射された。</speak>
+			<speak chara="oldTapeNoFace">それらの都市が滅んだのは、想像に難くないだろう。</speak>
+			<speak chara="oldTapeNoFace">人も、機械も、爆発の高温で一瞬にして気化してしまったよ。</speak>
+			<goto change="#ffffff" goto="80" />
+		</scene>
+		<scene background="kingsChapel.jpg" id="80">
+			<bgm src="03_03_bostonNight.mp3" status="continue" />
+			<speak chara="oldTapeNoFace">追い打ちをかけるよう、我々の基地は外に繋がる通路を律者によって閉ざされた。</speak>
+			<speak chara="oldTapeNoFace">毎分毎秒、新しいシステムが支配される。</speak>
+			<speak chara="oldTapeNoFace">毎分毎秒、新しい同胞が侵蝕される。</speak>
+			<speak chara="oldTapeNoFace">彼らは開くことのないゲートにより隔離され、絶望の中、為すすべなく生ける屍となった。</speak>
+			<speak chara="oldTapeNoFace">文字通り生ける屍に。</speak>
+			<goto change="#ffffff" goto="90" />
+		</scene>
+		<scene background="campusMassachusetts.jpg" id="90">
+			<bgm src="03_03_bostonNight.mp3" status="continue" />
+			<speak chara="oldTapeNoFace">我々の基地は合計で1時間と8分20秒の間、制御を失った。</speak>
+			<speak chara="oldTapeNoFace">人類の歴史上、最も長い、1時間8分20秒だった。</speak>
+			<speak chara="oldTapeNoFace">しかし、我々は幸運にも対策を考える時間があった。自分の体内にあるバイオチップを破壊し、ほぼ全ての電子端末を犠牲にしたのだ……。</speak>
+			<speak chara="oldTapeNoFace">最終的にとある博士が仕掛けたトラップにより、この恐るべき律者を「箱」の中に封印した。</speak>
+			<speak chara="oldTapeNoFace">代償は……文明の断絶。</speak>
+			<goto change="#ffffff" goto="100" />
+		</scene>
+		<scene background="oldCornerBookstore.jpg" id="100">
+			<bgm src="03_03_bostonNight.mp3" status="continue" />
+			<speak chara="oldTapeNoFace">知識面から言えば、我々の衰退は手痛いものではなかったと言える。</speak>
+			<speak chara="oldTapeNoFace">幸い、生存者たちの中には有識者がたくさんいたのだ。彼らは決して戦うことを諦めなかった。</speak>
+			<speak chara="oldTapeNoFace">技術的な面からも、人がいなかったことによって災難を逃れた基地や避難所があったため、それを再び活用することは可能だった。</speak>
+			<speak chara="oldTapeNoFace">運がよければ我々は再びの軍事力を得て、もう一度強くなれたかもしれない。</speak>
+			<speak chara="oldTapeNoFace">しかし、文明の面から言えば……人類の文明はもう消え去っていた。</speak>
+			<speak chara="oldTapeNoFace">百年以上脈々と培われてきた工業の生産設備、千年以上にわたって伝えられてきた芸術の至宝、億を越える人たちによって築かれた都市社会……。</speak>
+			<speak chara="oldTapeNoFace">……これら全て、もう存在しない。</speak>
+			<speak chara="oldTapeNoFace">我々は負けたのだ、本当の意味で。</speak>
+			<goto change="#ffffff" goto="110" />
+		</scene>
+		<scene background="oldSouthMeetinghouse.jpg" id="110">
+			<bgm src="03_03_bostonNight.mp3" status="continue" />
+			<speak chara="oldTapeNoFace">これこそが、我々がこの変わり果てた基地を捨てて逃亡を始めた理由。</speak>
+			<speak chara="oldTapeNoFace">北アメリカ、南アメリカ、大陸から遠く離れた島……。</speak>
+			<speak chara="oldTapeNoFace">博士の指揮により、残された力を皆が振り絞った。いくつかの「艦隊」を編成し、わずかに残った物資を持って、襲撃を逃れた避難所に向かい出発したのだ。</speak>
+			<speak chara="oldTapeNoFace">彼女はみんなを励まして言った。「私たちの故郷に地理的概念なんてない。」</speak>
+			<speak chara="oldTapeNoFace">「故郷はどこでもかまわない——人が存在しているから、同胞が存在しているから故郷なの。」</speak>
+			<speak chara="oldTapeNoFace">「同胞がいる場所こそが故郷。」</speak>
+			<speak chara="oldTapeNoFace">……もしかしたら、博士が言ったことは真理なのかもしれない。</speak>
+			<speak chara="oldTapeNoFace">この「荒れ果てた島」は、確かに私たちにわずかに残された「約束の地」だった。</speak>
+			<goto change="#ffffff" goto="120" />
+		</scene>
+		<scene background="oldStateHouse.jpg" id="120">
+			<bgm src="03_03_bostonNight.mp3" status="continue" />
+			<speak chara="oldTapeNoFace">今日は、我々の出発の日。</speak>
+			<speak chara="oldTapeNoFace">基地の犠牲者数は1万5626人——放送で彼らの名前が読み上げられた。</speak>
+			<speak chara="oldTapeNoFace">以前から知り合いだった人。</speak>
+			<speak chara="oldTapeNoFace">埋葬の時に初めて知った人もいた。</speak>
+			<speak chara="oldTapeNoFace">私はこの犠牲者たちの物語を……知りうる限りここに記録していこう。</speak>
+			<speak chara="oldTapeNoFace">彼らの、最後の遺産として。</speak>
+			<goto change="#ffffff" goto="130" />
+		</scene>
+		<scene background="bostonMassacreSite.jpg" id="130">
+			<bgm src="03_03_bostonNight.mp3" status="continue" />
+			<show chara="teslaErGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">えっと……理由はあらかた察しがつくけど……。</speak>
+			<speak chara="teslaNoFace">どうして、このマンホールの前で止まったわけ？</speak>
+			<show chara="teslaErGlassWinterClose" opacity="0.7" position="left" />
+			<show chara="einNormalWinterClose" position="right" />
+			<speak chara="einNoFace">これはマンホールじゃない。表面の文字をよく見たまえ。</speak>
+			<show chara="einNormalWinterClose" opacity="0.7" position="right" />
+			<show chara="teslaNormalGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace" remark="next">3月5日、1770年……ボストン虐殺……あっ。</speak>
+			<remark post="U2FsdGVkX19kUIIJSICTAeS2APir">
+				<p class="article-text-h">注：</p>
+				<p class="article-text">ボストン虐殺事件（Boston Massacre）はイギリス軍兵士とボストン民衆の間で衝突が起こり、最終的に5人の民間人が死亡した。</p>
+				<p class="article-text">1770年3月5日、イギリス軍士官（John Goldfinch）がかつらを購入して駐屯地に帰った。かつら店の店員（Edward Garrick）は士官が代金を支払っていないと誤解し、士官に向かって怒鳴った。士官は説明してから帰ろうと思っていたが、随行していた部下（Hugh White）が士官のために不満を抱き、店員と口論になり、彼を殴ってケガをさせた。店員は大量に出血し、痛みで声をあげて泣き出し、その場にいた民衆が怒って士官とその部下を包囲した。別のイギリス軍士官（Thomas Preston）が数名の兵士を率いて彼らの救出にやって来ると、民衆は石を投げたり殴りつけたりした。慌てたイギリス軍兵士は群衆に向けて発砲、5名の市民が死亡し、6名が負傷した。</p>
+				<p class="article-text">この事件の責任が全てイギリス軍にあるわけではないが、イギリスの北米植民地における軍民の摩擦を過熱させ、アメリカ独立戦争を引き起こす結果となった。</p>
+			</remark>
+			<show chara="teslaNormalGlassWinterClose" opacity="0.7" position="left" />
+			<show chara="einNormalWinterClose" position="right" />
+			<speak chara="einNoFace">そう。ここが「フリーダムトレイル」10番目のスポット——ボストン虐殺地跡だ。</speak>
+			<goto change="#ffffff" goto="140" />
+		</scene>
+		<scene background="bostonMassacreSite.jpg" id="140">
+			<bgm src="03_03_bostonNight.mp3" status="continue" />
+			<speak chara="oldTapeNoFace">No.289 バーカブ・サリバン</speak>
+			<speak chara="oldTapeNoFace">No.290 フーナブ・サリバン</speak>
+			<speak chara="oldTapeNoFace">No.291 カマソッツィ・サリバン</speak>
+			<speak chara="oldTapeNoFace">No.292 イザムナー・サリバン</speak>
+			<speak chara="oldTapeNoFace">No.293 シチク・サリバン</speak>
+			<speak chara="oldTapeNoFace">サリバン五兄妹は皆戦士だ。</speak>
+			<speak chara="oldTapeNoFace">フーナブ、カマソッツィ、イザムナーの三兄弟は戦いの中で侵蝕を受けてしまった。</speak>
+			<speak chara="oldTapeNoFace">バーカブはその場にいて、弟たちの攻撃によって死んだ。</speak>
+			<speak chara="oldTapeNoFace">妹のシチクは戦いが終わるまで生き延びた……しかし三日後、薬品が不足し、不幸にも傷口から感染してしまい息を引き取った。</speak>
+			<speak chara="oldTapeNoFace">五兄妹は生前、私のことを知らない……。</speak>
+			<speak chara="oldTapeNoFace">私も彼らの遺体を埋葬したに過ぎなかった。</speak>
+			<speak chara="oldTapeNoFace">妹の身体には無数の引っかき傷があった……息を引き取る時、精神錯乱を起こしていたらしい。</speak>
+			<goto change="#ffffff" goto="150" />
+		</scene>
+		<scene background="faneuilHall.jpg" id="150">
+			<bgm src="03_03_bostonNight.mp3" status="continue" />
+			<speak chara="oldTapeNoFace">No.3426 ハスター・クルト</speak>
+			<speak chara="oldTapeNoFace">ハスターは人を惹き付ける演説家だった。よく各地の軍事基地を慰問していた。</speak>
+			<speak chara="oldTapeNoFace">私が彼を見た時、その死体は手足を曲げながら地面に横たわり、虚ろな目で揺れ動くランプを見つめていた。</speak>
+			<speak chara="oldTapeNoFace">現場の状況からして、彼は律者に侵蝕されてからも演説を止めなかったのだろう。それどころか、ますます熱を帯びていたかのようだった。</speak>
+			<speak chara="oldTapeNoFace">まるで彼の演説も侵蝕の能力を持ったかのように、彼と聴衆もある種の雰囲気への陶酔に抗えず、力尽きて死ぬまで体を動かしていた。</speak>
+			<speak chara="oldTapeNoFace">私は他の場所でハスターの演説を聞いたことがある。不幸中の幸いにして、私は彼のファンではない。</speak>
+			<goto change="#ffffff" goto="160" />
+		</scene>
+		<scene background="paulRevereHouse.jpg" id="160">
+			<bgm src="03_03_bostonNight.mp3" status="continue" />
+			<speak chara="oldTapeNoFace">No.5390 アンブロキノ・モロー</speak>
+			<speak chara="oldTapeNoFace">アンブロキノは射殺された。</speak>
+			<speak chara="oldTapeNoFace">彼は律者に侵蝕されていなかった。彼を射殺した人間も理性を失った痕跡がなく、それどころか銃に付着した指紋が丁寧にふき取られていた。</speak>
+			<speak chara="oldTapeNoFace">つまり、これは昔から計画されていた殺人だったのだろう。相手は律者出現の混乱に乗じて犯罪を成し遂げた。</speak>
+			<speak chara="oldTapeNoFace">アンブロキノ本人は性格がひねくれていて、ケチな老人だった。私も何度か挨拶をしたことはあるが、正直言って虫の好かない人物だった。</speak>
+			<speak chara="oldTapeNoFace">この人には家族がおらず、故郷も失くしていたため、基地に運ばれ一時的に安置された。</speak>
+			<speak chara="oldTapeNoFace">こうしてみると、わざわざ彼を殺そうとしたのは一体どんな人だったのだろう。</speak>
+			<goto change="#ffffff" goto="170" />
+		</scene>
+		<scene background="oldNorthChurch.jpg" id="170">
+			<bgm src="03_03_bostonNight.mp3" status="continue" />
+			<speak chara="oldTapeNoFace">No.8421 ウェンディゴ・カリィ</speak>
+			<speak chara="oldTapeNoFace">No.8422 ロベーナ・ラーロイル</speak>
+			<speak chara="oldTapeNoFace">No.8594 ジョークシャー・マルティネス</speak>
+			<speak chara="oldTapeNoFace">No.8595 クック・リー</speak>
+			<speak chara="oldTapeNoFace">ウェンディゴは牧師だった。彼は礼拝室の中で唯一、律者の侵蝕を受けなかったのだが……最初に死んだのは彼だった。</speak>
+			<speak chara="oldTapeNoFace">我々が把握している情報によれば、信徒たちが律者に侵蝕され精神錯乱に陥り、ウェンディゴを集団で囲んだらしい。</speak>
+			<speak chara="oldTapeNoFace">その時、彼は逃げ出したりせず、彼らのために祈り続けていた。信徒たちが彼を引き裂き、その肉塊を分け合うまで。</speak>
+			<speak chara="oldTapeNoFace">私はウェンディゴという名前を聞いたことがある。彼はとても敬虔な人だった。死を目の前にして彼は、彼の信じる「神」に何を祈ったのかは分からない。</speak>
+			<speak chara="oldTapeNoFace">コード番号8422からコード番号8595までは全てこの収容所内の市民の信徒たちだった。彼らはウェンディゴを食べ終わると、殺し合いをして息絶えた。</speak>
+			<speak chara="oldTapeNoFace">ロベーナは金髪の女の子だった。</speak>
+			<speak chara="oldTapeNoFace">ジョークシャーはかなり高齢の老人だった。</speak>
+			<speak chara="oldTapeNoFace">クックは商売をしていた。</speak>
+			<speak chara="oldTapeNoFace">「侵蝕の律者」の前では、彼らに何の違いもなかった……。</speak>
+			<goto change="#ffffff" goto="180" />
+		</scene>
+		<scene background="coppsHillBuryingGround.jpg" id="180">
+			<bgm src="03_03_bostonNight.mp3" status="continue" />
+			<speak chara="oldTapeNoFace">No.12687 エドワーズ・マンナハイム</speak>
+			<speak chara="oldTapeNoFace">No.12688 シェリー・マンナハイム</speak>
+			<speak chara="oldTapeNoFace">エドワーズは旧貴族だった。マンナハイム家最後の人間で、シェリーは彼の妻だ。</speak>
+			<speak chara="oldTapeNoFace">シェリーが我々の基地に来たのは、エドワーズとの結婚式を挙げるためだった。</speak>
+			<speak chara="oldTapeNoFace">戦闘が起こる前、エドワーズは白いタキシードを着ていた。シェリーはウェディングドレスのスカートを破り、彼と一緒に武器を取った。</speak>
+			<speak chara="oldTapeNoFace">2人の最終的な死因は出血多量と傷口からの感染。</speak>
+			<speak chara="oldTapeNoFace">シェリーが息を引き取る時、彼女はエドワーズの遺体を抱きかかえていた。私はその姿勢を保たせたまま、彼らを埋葬した。</speak>
+			<speak chara="oldTapeNoFace">残念ながら、彼らにマンナハイム家特有の七角形の墓碑を作ってあげることはできなかったが。</speak>
+			<goto change="#ffffff" goto="190" />
+		</scene>
+		<scene background="bunkerHill.jpg" id="190">
+			<bgm src="03_03_bostonNight.mp3" status="continue" />
+			<speak chara="oldTapeNoFace">No.14936 パトレシア・シンジャー</speak>
+			<speak chara="oldTapeNoFace">パトレシアとは顔を知っている程度の仲で、彼女は当時、基地に駐屯する軍医の一人だった。</speak>
+			<speak chara="oldTapeNoFace">あの長かった1時間の中で、彼女はその身に無数の銃創を受けるのも厭わず、最前線に立ち続けて皆の傷の手当をした。</speak>
+			<speak chara="oldTapeNoFace">我々が基地の支配権を取り戻してすぐ……私はこの目で彼女を見た。コントロールセンター前の赤レンガの突き当たりで倒れているのを。</speak>
+			<speak chara="oldTapeNoFace">彼女の体の下に広がる血は赤レンガの延長のようになっていた……しかし、我々は彼女の血を乗り越えて前に進まなければならなかった。</speak>
+			<goto change="#ffffff" goto="200" />
+		</scene>
+		<scene background="bunkerHill.jpg" id="200">
+			<bgm src="03_03_bostonNight.mp3" status="continue" />
+			<show chara="teslaNormalGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">バンカーヒル記念塔……つまり、ここが「フリーダムトレイル」の終点なの？</speak>
+			<show chara="teslaNormalGlassWinterClose-up" opacity="0.7" position="left" />
+			<show chara="weltNervousNewClose-up" position="right" />
+			<speak chara="weltNoFace">やっと終わったのか……あの重い話は……。</speak>
+			<show chara="weltNervousNewClose-up" opacity="0.7" position="right" />
+			<show chara="einNormalWinterClose-up" position="right" />
+			<speak chara="einNoFace">赤いレンガについてはそのようだ……だが、16のスポットという点では、まだ「コンスティチューション号」が残っている。</speak>
+			<show chara="einNormalWinterClose-up" opacity="0.7" position="right" />
+			<show chara="teslaNormalGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">えっ、あの百年以上前からずっと現役を続けてる海軍の木造戦艦のこと？</speak>
+			<show chara="teslaNormalGlassWinterClose-up" opacity="0.7" position="left" />
+			<show chara="einNormalWinterClose-up" position="right" />
+			<speak chara="einNoFace">ああ。記念塔の録音で犠牲者の話をしていたということは……。</speak>
+			<show chara="einNormalWinterClose-up" opacity="0.7" position="right" />
+			<show chara="teslaSnickerGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">じゃあ、H.Aは自分の考えを「コンスティチューション号」付近、あるいはレキシントンに残してるかもしれないってこと？まとめとして？</speak>
+			<show chara="teslaSnickerGlassWinterClose-up" opacity="0.7" position="left" />
+			<show chara="einSmileWinterClose-up" position="right" />
+			<speak chara="einNoFace">そう、その通りだ。</speak>
+			<goto change="#ffffff" goto="210" />
+		</scene>
+		<scene background="ussConstitution.jpg" id="210">
+			<bgm src="03_03_bostonNight.mp3" status="continue" />
+			<text>아인슈타인が推測した通り、「コンスティチューション号」の近くに残されていた録音は「H.A」本人の記録だった。</text>
+			<speak chara="haNoFace">私はH.A……きっと、もうこの声も耳に馴染んできたでしょう。</speak>
+			<speak chara="haNoFace">私もかつては「天命」という組織の「戦乙女」の一人だったのよ。</speak>
+			<speak chara="haNoFace">イエローストーンで、5万年の時を超え残されたこの資料を見つけた時、私は自分の好奇心を抑えられなかった。</speak>
+			<speak chara="haNoFace">私はそこで見つけた装置を使って全ての録音を聴いたわ……あなたたちは幸せよ。私は6組の犠牲者の話しか残さなかったんだから。</speak>
+			<speak chara="haNoFace">誓ってあげる。数百もの死亡ケースを片っ端から聞くのは絶対にやめた方がいいわ。</speak>
+			<speak chara="haNoFace">過去の言語に精通していなかった私は確実性を求めるため、ある学者にお願いしてこれらの資料をこっそりと翻訳してもらったの。</speak>
+			<speak chara="haNoFace">でも……その人は突然、天命の手先に冤罪をかけられて捕まってしまった。</speak>
+			<speak chara="haNoFace">これが1829年の出来事……学者の名前は「ニールス・ヘンリック・アーベル」。</speak>
+			<speak chara="haNoFace">もし可能なら、この出来事の真偽を確かめてみるといいわ。</speak>
+			<speak chara="haNoFace">その後、私自身も同じように冤罪をかけられた。ただ、私を捕まえにきた戦乙女が見逃してくれたおかげで、彼と同じような運命を辿らずに済んだけどね。</speak>
+			<speak chara="haNoFace">私は魂鋼の中から最も重要な十数個の情報を抜き出して、残りを天命に渡したの。</speak>
+			<speak chara="haNoFace">……もしかしたら、私はずっと前から既に彼らを信用していなかったのかもしれないわ。</speak>
+			<speak chara="haNoFace">彼らは敵に対し、一貫して同じ態度を取り続けていた。敵は「消滅するのみ」と。</speak>
+			<speak chara="haNoFace">これに乗じて、誰かが自らの卑劣な企みを隠そうとしているんじゃないかって疑念を抱かせるくらい、そのことに固執していたわ。</speak>
+			<speak chara="haNoFace">そして、私が持ち去らなかった魂鋼は主教によって破壊され、それを研究しようとした学者は飢えと寒さの中で肉体を消滅させられてしまった。</speak>
+			<speak chara="haNoFace">「天命」だろうと、その主教だろうと、真の意味で崩壊に勝つことはできない。</speak>
+			<speak chara="haNoFace">彼らがいつの日か前の時代の技術レベルに追いつき、それどころか超えることができたとしても……。</speak>
+			<speak chara="haNoFace">……少なくとも能力の推し量れない「律者」を相手に、彼らが同じやり方を続ければ人類の未来は真っ暗だわ。</speak>
+			<speak chara="haNoFace">世界の命運をこんな組織ひとつに委ねるなんて、絶対に間違っている。</speak>
+			<speak chara="haNoFace">レキシントンにあの主教に対抗できるだけの武器を残してあるわ。</speak>
+			<speak chara="haNoFace">上手に使ってね……でも「最高の脅威とは行動しないこと」だってことも覚えておいてほしい。</speak>
+			<speak chara="haNoFace">なぜなら、取った行動に効果がなかったら、もう誰も恐れなくなってしまうから。</speak>
+			<goto change="#ffffff" goto="220" />
+		</scene>
+		<scene background="ussConstitution.jpg" id="220">
+			<bgm src="03_03_bostonNight.mp3" status="continue" />
+			<show chara="teslaNormalGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">ボサ頭、どう思う？</speak>
+			<show chara="teslaNormalGlassWinterClose-up" opacity="0.7" position="left" />
+			<show chara="einNormalWinterClose-up" position="right" />
+			<speak chara="einNoFace">一方的な主張だけ……だな。</speak>
+			<speak chara="einNoFace">しかし、確かに矛盾はしていない。まだ判断は下せないが。</speak>
+			<show chara="einNormalWinterClose-up" opacity="0.7" position="right" />
+			<show chara="teslaNormalGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">じゃあ……彼女の言う「武器」を見つけてから、これからどうするか決めるつもり？</speak>
+			<show chara="teslaNormalGlassWinterClose-up" opacity="0.7" position="left" />
+			<show chara="einFoolWinterClose-up" position="right" />
+			<speak chara="einNoFace">他にもっといい方法があるのかい？証拠がないまま判断するわけにいかないだろう。</speak>
+			<show chara="einFoolWinterClose-up" opacity="0.7" position="right" />
+			<show chara="teslaShameGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">……あんたらしいわね。</speak>
+			<speak chara="teslaNoFace">感謝してよね。寮にある大事そうなものは何から何まで持ってくるようアドバイスしたのは私なんだから。</speak>
+			<show chara="teslaShameGlassWinterClose-up" opacity="0.7" position="left" />
+			<show chara="einSlyWinterClose-up" position="right" />
+			<speak chara="einNoFace">……シュレーディンガーさんが専用機を用意してくれたから、こんなことができたんじゃないか？</speak>
+			<show chara="einSlyWinterClose-up" opacity="0.7" position="right" />
+			<show chara="teslaShameGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">フンッ、よっぽど私を褒めたくないのね。</speak>
+			<speak chara="teslaNoFace">そもそも、シュレーディンガーがそこまでこの件を重視しているなら、どうして自分で来ないのよ？</speak>
+			<show chara="teslaShameGlassWinterClose-up" opacity="0.7" position="left" />
+			<show chara="einSlyWinterClose-up" position="right" />
+			<speak chara="einNoFace">エジソンの実験が重要な段階に入ったらしく、どうしても抜けられないらしい。</speak>
+			<speak chara="einNoFace">彼女からは、あとでニューヨークに来て「画期的なエネルギー装置」を見てほしいと言われている。</speak>
+			<show chara="einSlyWinterClose-up" opacity="0.7" position="right" />
+			<show chara="teslaEmbarraGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">ちぇっ。何が「画期的」よ。あのケチに何ができるっていうのよ？</speak>
+			<show chara="teslaEmbarraGlassWinterClose-up" opacity="0.7" position="left" />
+			<show chara="weltEmbarraNewClose-up" position="right" />
+			<speak chara="weltNoFace">おいおい……いくら彼女のことが嫌いだからって、そこまで言うなよ……。</speak>
+			<show chara="weltEmbarraNewClose-up" opacity="0.7" position="right" />
+			<show chara="teslaShameGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">あんたに何が分かるのよ。大人の話に子供が口を挟まないでよね。</speak>
+			<show chara="teslaShameGlassWinterClose-up" opacity="0.7" position="left" />
+			<show chara="weltSighNewClose-up" position="right" />
+			<speak chara="weltNoFace">はぁ……。</speak>
+			<show chara="weltSighNewClose-up" opacity="0.7" position="right" />
+			<show chara="einSmileWinterClose-up" position="right" />
+			<speak chara="einNoFace">Massachusetts H6D626……うん、これだ。シュレーディンガーさんが用意してくれた車。</speak>
+			<show chara="einSmileWinterClose-up" opacity="0.7" position="right" />
+			<show chara="teslaShoutWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">えっ、ほんとに？だってこれ……。</speak>
+			<speak chara="teslaNoFace">ロールスロイスじゃないのっ！？</speak>
+			<speak chara="teslaNoFace">間違ってない？シュレーディンガーのケチがこんないい車を用意してくれたの？</speak>
+			<show chara="teslaShoutWinterClose-up" opacity="0.7" position="left" />
+			<show chara="einSlyWinterClose-up" position="right" />
+			<speak chara="einNoFace">ふっふ——</speak>
+			<speak chara="einNoFace">親愛なる테슬라君……。</speak>
+			<speak chara="einNoFace">この静まり返った夜更けに「今まで経験したこともない」ようなドライブを僕としてみないかい？</speak>
+			<goto change="#ffffff" goto="230" />
+		</scene>
+		<scene background="lexingtonMA.jpg" id="230">
+			<bgm src="10_20_PeerGynt.mp3" status="start" />
+			<text>ナンバーH6D626の「ロールスロイス」はマサチューセッツアベニューを10マイルあまり（테슬라の興奮した叫び声とともに）ひた走った後、急ブレーキをかけ止まった。</text>
+			<text>この時、一行が目にしたのは道路脇にある三角形の形をした小さな公園——</text>
+			<text>——その見るべきもない大きさとは裏腹に、ここは人類史の中にその存在を深く焼き付けている偉大な場所だった。</text>
+			<text remark="next">レキシントン——ここは1775年4月19日、アメリカ独立戦争の最初の銃声が鳴り響いた場所である。</text>
+			<remark post="U2FsdGVkX19rc2sXYtcTfwfoS00J">
+				<p class="article-text-h">注：</p>
+				<p class="article-text">レキシントン・コンコードの戦い（Battles of Lexington and Concord）はイギリス陸軍と北アメリカ民兵の間で起きた武力衝突であり、1775年4月19日に発生した。アメリカの上院では1908年にポイント・プレザントの戦い（Battle of Point Pleasant）をアメリカ独立戦争（1775 - 1783）の初戦とする決議を通したが、アメリカ社会では、なおもレキシントン・コンコードの戦いを独立戦争の始まりとする見方が一般的である。</p>
+			</remark>
+			<goto change="#ffffff" goto="240" />
+		</scene>
+		<scene background="lexingtonMA.jpg" id="240">
+			<bgm src="10_20_PeerGynt.mp3" status="continue" />
+			<show chara="einNormalWinterFar" position="right" />
+			<speak chara="einNoFace">エイダ。</speak>
+			<show chara="einNormalWinterFar" opacity="0.7" position="right" />
+			<show chara="adaNormalRadioFar" position="left" />
+			<speak chara="adaNoFace">北緯42.45度、西経71.23度——目標エリアに入ったと判定。探索モードをオンにします。</speak>
+			<show chara="adaSmileRadioFar" position="left" />
+			<speak chara="adaNoFace">ターゲットソースを検出しました。</speak>
+			<show chara="adaSmileRadioFar" opacity="0.7" position="left" />
+			<show chara="weltAstonishNewFar" position="right" />
+			<speak chara="weltNoFace">こんなに早く？</speak>
+			<show chara="weltAstonishNewFar" opacity="0.7" position="right" />
+			<show chara="adaNormalRadioFar" position="left" />
+			<text>웰트の疑問に構うことなく、エイダは一連の作業を続けた。</text>
+			<speak chara="adaNoFace">アカウントにログイン、パスワードは以前と同じです。</speak>
+			<speak chara="adaNoFace">ターゲットソースに着陸をリクエスト。デコヒーレンスを使用して超次元迷彩を解除します。</speak>
+			<speak chara="adaNoFace">ターゲットの超次元迷彩、解除しました。</speak>
+			<speak chara="adaNoFace">ターゲットの軟着陸成功。</speak>
+			<show chara="adaSmileRadioFar" position="left" />
+			<speak chara="adaNoFace">前方のはずです。確認してください。</speak>
+			<goto change="#ffffff" goto="250" />
+		</scene>
+		<scene background="CG17-1.jpg" id="250">
+			<bgm src="10_20_PeerGynt.mp3" status="continue" />
+			<text>それは、とても目立っていた——</text>
+			<text>そして、月のように明るい。</text>
+			<text>「超次元迷彩」の解除とともに、金色に輝く光の球体が空中に現れ、ゆっくりと目の前に降りてくる。</text>
+			<speak chara="teslaNoFace">エイダ！あれは何なの！？</speak>
+			<speak chara="adaNoFace">1625型空中浮遊ストレージです。特定の場所上空で浮遊し続け、超次元迷彩を備えていることにより長期に渡って発見される心配もありません。</speak>
+			<speak chara="einNoFace">エイダ、開けてくれ。</speak>
+			<speak chara="adaNoFace">了解です、아인슈타인博士。</speak>
+			<goto change="#ffffff" goto="260" />
+		</scene>
+		<scene background="CG17-2.jpg" id="260">
+			<bgm src="10_20_PeerGynt.mp3" status="continue" />
+			<text>金色の球体は葉が落ちるような速度で、ゆっくりと開いていく。</text>
+			<text>それは人間一人分くらいの大きさで、蓮の花が開くように外側へと開く構造だった。そして、徐々に内部の透明なケースが露わになる。</text>
+			<speak chara="weltNoFace">これは……。</speak>
+			<text>透明なケースの中で、直径約10センチほどの青色の球体が静かに浮いていた。</text>
+			<speak chara="adaNoFace">ⴳⴽⵓ ⵐ ⵋⵓ（Baru Za Su）！</speak>
+			<speak chara="weltNoFace">え！？</speak>
+			<speak chara="teslaNoFace">エイダ、何て言ったの？</speak>
+			<speak chara="adaNoFace">神の鍵です。테슬라博士、これは神の鍵です。</speak>
+			<speak chara="adaNoFace">目標物体の識別コード、「神の鍵・第9番・エデンの星」！</speak>
+			<end post="U2FsdGVkX18OCUSLhPy1oDwFhkQc" />
+		</scene>
+	</story>
+</data>

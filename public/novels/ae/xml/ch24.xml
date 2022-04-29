@@ -1,0 +1,469 @@
+<data>
+	<img></img>
+	<characters>
+		<character color="#9dbff8" id="edisonNoNameNoFace" name="？？？" src="" />
+		<character color="#ffffff" id="edisonTeslaNoFace" name="2人" src="" />
+		<character color="#ffffff" id="radioNoNameNoFace" name="電波音" src="" />
+		<character color="#9dbff8" id="edisonWhiteWinterClose-up" name="ナンシー（？）" src="06_14_edisonWhiteWinterClose-up.png" />
+		<character color="rgb(237,118,114)" id="teslaTearsBigHead" name="테슬라" src="06_12_teslaTearsBigHead.png" />
+		<character color="rgb(237,118,114)" id="teslaTearsBigHeadCloseEye" name="테슬라" src="06_13_teslaTearsBigHeadCloseEye.png" />
+		<character color="rgb(237,118,114)" id="teslaTearsBigHeadShout" name="테슬라" src="06_13_teslaTearsBigHeadShout.png" />
+		<character color="rgb(237,118,114)" id="teslaTearsBigHeadTeatsDown" name="테슬라" src="06_13_teslaTearsBigHeadTeatsDown.png" />
+		<character color="rgb(237,118,114)" id="teslaDisgustedGlassWinterFar" name="테슬라" src="06_12_teslaDisgustedGlassWinterFar.png" />
+		<character color="#fff2c4" id="reaSeriousArmedNoLanceFar" name="リアーナ" src="06_12_reaSeriousArmedNoLanceFar.png" />
+		<character color="rgb(181,233,247)" id="einShockWinterClose-up" name="아인슈타인" src="06_12_einShockWinterClose-up.png" />
+		<character color="rgb(249,222,230)" id="adaNormalRadioClose-up" name="エイダ" src="06_12_adaNormalRadioClose-up.png" />
+		<character color="#ffffff" id="starFallUp" name="流れ星" src="06_13_starFallUp.png" />
+		<character color="#ffffff" id="starFallDown" name="流れ星" src="06_13_starFallDown.png" />
+		<character color="rgb(161,135,121)" id="schroShockLanceFar" name="シュレーディンガー" src="06_14_schroShockLanceFar.png" />
+		<character color="rgb(161,135,121)" id="schroNormalLanceFar" name="シュレーディンガー" src="06_14_schroNormalLanceFar.png" />
+		<character color="rgb(181,233,247)" id="einShockWinterFar" name="아인슈타인" src="06_13_einShockWinterFar.png" />
+		<character color="#ffffff" id="speedLine" name="スピードライン" src="06_14_speedLine.png" />
+		<character color="rgb(201,164,109)" id="nokiaDepressedWinterFar" name="フィンランド人 " src="06_14_nokiaDepressedWinterFar.png" />
+		<character color="rgb(201,164,109)" id="nokiaAnnoyedWinterFar" name="フィンランド人 " src="06_14_nokiaAnnoyedWinterFar.png" />
+		<character color="rgb(201,164,109)" id="nokiaCrazyWinterFar" name="フィンランド人 " src="06_14_nokiaCrazyWinterFar.png" />
+		<character color="#fff7cd" id="ottoChangeFar" name="？？？" src="06_14_ottoChangeLanceFar.png" />
+		<character color="#fff7cd" id="ottoConfidentLanceFar" name="オットー " src="06_14_ottoConfidentLanceFar.png" />
+		<character color="#fff7cd" id="ottoLaughLanceFar" name="オットー " src="06_14_ottoLaughLanceFar.png" />
+		<character color="#fff7cd" id="ottoRidiculingLanceFar" name="オットー " src="06_14_ottoRidiculingLanceFar.png" />
+		<character color="#fff7cd" id="ottoFrivolousLanceFar" name="オットー " src="06_14_ottoFrivolousLanceFar.png" />
+	</characters>
+	<story>
+		<scene background="bg.jpg" id="0">
+			<bgm src="mid-lude.mp3" status="start" />
+			<cg bg="bg.jpg" src="newchapter.png" />
+			<goto change="#000000" goto="10" />
+		</scene>
+		<scene background="roadNewYork.jpg" id="10">
+			<bgm src="04_20_tank.mp3" status="start" />
+			<show chara="starFallUp" position="back" />
+			<text>同日11時、ニューヨーク市郊外——</text>
+			<show chara="reaNormalArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">空の……あれは一体何かしら？</speak>
+			<show chara="reaSeriousArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">紫の……流星？</speak>
+			<show chara="reaSeriousArmedNoLanceClose-up" opacity="0.7" position="left" />
+			<show chara="schroNormalLanceClose-up" position="right" />
+			<speak chara="schroNoFace">いえ……あ、あれは……！</speak>
+			<goto change="0" goto="20" />
+		</scene>
+		<scene background="tankInside.jpg" id="20">
+			<bgm src="04_20_tank.mp3" status="continue" />
+			<show chara="adaNormalRadioFar" opacity="0.95" position="center" />
+			<speak chara="adaNoFace">아인슈타인博士、테슬라博士。</speak>
+			<speak chara="adaNoFace">電磁波の発信を検出。オープンチャネルを使用しています。信号の形式は——</speak>
+			<speak chara="adaNoFace" remark="next">——アナログ信号です。</speak>
+			<remark post="U2FsdGVkX1+unhzSzQEIRkMDDNP3">
+				<p class="article-text-h">注：</p>
+				<p class="article-text">アナログ信号（analog signal）。時間領域の数学の形式で連続した関数となる信号。アナログ信号に対応するのがデジタル信号であり、二元対立するロジックレベルのみを取る。</p>
+				<p class="article-text">デジタル信号と比べ、アナログ信号は主に原始データ（音声、動画等）の記録や、連続的に変動する範囲を持つ測量値（温度、圧力、変位等）に用いられる。欠点はチャネルのノイズによる影響を排除できないこと。複数回コピーしたり、長距離の送受信を行うと徐々に劣化していく。</p>
+			</remark>
+			<speak chara="adaNoFace">……ノイズ処理中。推定言語、英語。</speak>
+			<show chara="einShockWinterClose-up" position="center" />
+			<speak chara="einNoFace">……。</speak>
+			<show chara="adaNormalRadioFar" opacity="0.95" position="center" />
+			<speak chara="adaNoFace">……声紋照合、ナンシー・トーマス・エジソンCEO。</speak>
+			<show chara="teslaAstonishGlassWinterClose-up" position="center" />
+			<speak chara="teslaNoFace">……何ですって！？</speak>
+			<goto change="#ffffff" goto="30" />
+		</scene>
+		<scene background="cloudSky.jpg" id="30">
+			<bgm src="04_20_Brigantia.mp3" status="start" />
+			<speak chara="edisonNoNameNoFace">░▒░▒░▒であれ、私はやれる限りのことをする。罪なき人を私たちの実験で犠牲にしてはいけないのだ。</speak>
+			<speak chara="teslaNoFace">……エジソン？</speak>
+			<speak chara="teslaNoFace">……聞こえる？エジソン！？</speak>
+			<goto change="0" goto="40" />
+		</scene>
+		<scene background="tankInside.jpg" id="40">
+			<bgm src="04_20_Brigantia.mp3" status="continue" />
+			<show chara="edisonWhiteWinterClose-up" opacity="0.95" position="center" />
+			<speak chara="edisonNoFace">……테슬라？</speak>
+			<show chara="teslaShoutWinterClose-up" position="center" />
+			<speak chara="teslaNoFace">そうよ、私よ！どこかに閉じこめられてるの？すぐ助けに行くわ！</speak>
+			<show chara="edisonWhiteWinterClose-up" opacity="0.95" position="center" />
+			<speak chara="edisonNoFace">……それは優先事項ではない。ニコラ。</speak>
+			<speak chara="edisonNoFace">大至急、ニューヨーク湾の船舶と沿岸の住民に知らせるんだ。小規模の津波が起きるかもしれない、念のため干潟地域から避難するようにと。</speak>
+			<show chara="teslaAstonishGlassWinterClose-up" position="center" />
+			<speak chara="teslaNoFace">……なに、言っ——</speak>
+			<show chara="teslaEmbarraGlassWinterClose-up" position="center" />
+			<speak chara="teslaNoFace">——いえ、分かったわ。</speak>
+			<speak chara="teslaNoFace">私たちはもうすぐロング・アイランド海峡の端に着くわ。全速力で向かえば30分でマンハッタンに到着するはずよ！</speak>
+			<goto change="0" goto="50" />
+		</scene>
+		<scene background="CG24-1-0.jpg" id="50">
+			<bgm src="04_20_Brigantia.mp3" status="continue" />
+			<speak chara="edisonNoFace">……30分か。私の電力はそんなにもたないだろうな。</speak>
+			<speak chara="teslaNoFace">大丈夫っ！あなたの座標を教えて。市民に避難するよう伝えたら、すぐ助けに行くから！</speak>
+			<speak chara="edisonNoFace">……少し複雑なんだ。</speak>
+			<speak chara="edisonNoFace">とにかく、今私にできることは、できる限りこれを外海に押しやって津波の規模を小さくすることだけでね。</speak>
+			<speak chara="teslaNoFace">……外海に押しやる！？な、なに言ってんのよ！？</speak>
+			<speak chara="edisonNoFace">今、2万トン級のTNT爆弾を超える威力を持つであろう、崩壊エネルギーの圧縮ボールをどうにか支えているんだ。……素手でね。</speak>
+			<speak chara="edisonNoFace">人里離れた場所で壊さない限り、市民たちの安全は保障できない。</speak>
+			<speak chara="teslaNoFace">でも——</speak>
+			<speak chara="edisonNoFace">……これが、私の選択だ。</speak>
+			<speak chara="edisonNoFace">これを解決するには、一番理解している者が動くしかない。</speak>
+			<speak chara="edisonNoFace">これは私の身から出た錆だ。自分で責任を負わなくてはならない。</speak>
+			<speak chara="teslaNoFace">でも——！</speak>
+			<goto change="0" goto="60" />
+		</scene>
+		<scene background="roadNewYork.jpg" id="60">
+			<bgm src="04_20_Brigantia.mp3" status="continue" />
+			<show chara="starFallDown" position="back" />
+			<speak chara="edisonNoFace">すまない。私は、この崩壊エネルギーが制御不能になるのを見過ごすわけにはいかないのだ。</speak>
+			<speak chara="edisonNoFace">そうだ……。</speak>
+			<speak chara="edisonNoFace">君が研究所から出ていく時に差し引いた特許費だが……</speak>
+			<speak chara="edisonNoFace">……会社が支払ってくれるはずだ。</speak>
+			<goto change="0" goto="65" />
+		</scene>
+		<scene background="cloudSky.jpg" id="65">
+			<bgm src="04_20_Brigantia.mp3" status="continue" />
+			<show chara="teslaTearsBigHead" position="center" />
+			<speak chara="teslaNoFace">……。</speak>
+			<show chara="teslaTearsBigHeadCloseEye" position="center" />
+			<speak chara="teslaNoFace">ケチッ！あんたが自分で払わないと許さないんだから！</speak>
+			<show chara="teslaTearsBigHeadShout" position="center" />
+			<speak chara="teslaNoFace">じゃないと、私のメンツは潰れっぱなしなのよ！ねぇ、聞いてる！？</speak>
+			<speak chara="edisonNoFace">フフ……。</speak>
+			<speak chara="edisonNoFace">来週……もし私が遅刻するようなことがなければ、しっかり払うよ。</speak>
+			<goto change="#ffffff" goto="70" />
+		</scene>
+		<scene background="CG24-1-1.jpg" id="70">
+			<bgm src="06_15_ScarboroughFair.mp3" status="start" />
+			<speak chara="edisonNoFace" remark="next"> Are you going to Scarborough Fair?</speak>
+			<remark post="U2FsdGVkX185n4iwTfCoutEDolvL">
+				<p class="article-text-h">歌詞の意味：</p>
+				<p class="article-text">スカボローの市へ行くのですか？</p>
+			</remark>
+			<goto change="0" goto="73" />
+		</scene>
+		<scene background="CG24-1-2.jpg" id="73">
+			<bgm src="06_15_ScarboroughFair.mp3" status="continue" />
+			<speak chara="edisonNoFace" remark="next">"Parsley, sage, rosemary, and thyme"</speak>
+			<remark>
+				<p class="article-text-h">歌詞の意味：</p>
+				<p class="article-text">パセリ、セージ、ローズマリーにタイム</p>
+			</remark>
+			<speak chara="edisonNoFace" remark="next">Remember me to one who lives there</speak>
+			<remark>
+				<p class="article-text-h">歌詞の意味：</p>
+				<p class="article-text">そこに住む人によろしくお伝えください</p>
+			</remark>
+			<speak chara="edisonNoFace" remark="next">She once was a true love of mine</speak>
+			<remark>
+				<p class="article-text-h">歌詞の意味：</p>
+				<p class="article-text">かつて彼女は私の恋人だったから</p>
+			</remark>
+			<goto change="#ffffff" goto="80" />
+		</scene>
+		<scene background="cloudSky.jpg" id="80">
+			<bgm src="06_15_ScarboroughFair.mp3" status="continue" />
+			<show chara="teslaTearsBigHeadTeatsDown" position="center" />
+			<speak chara="teslaNoFace" remark="next">Tell her to make me a cambric shirt</speak>
+			<remark>
+				<p class="article-text-h">歌詞の意味：</p>
+				<p class="article-text">ケンブリックのシャツを彼女に作ってもらってください</p>
+			</remark>
+			<speak chara="teslaNoFace" remark="next">"Parsley, sage, rosemary, and thyme"</speak>
+			<remark>
+				<p class="article-text-h">歌詞の意味：</p>
+				<p class="article-text">パセリ、セージ、ローズマリーにタイム</p>
+			</remark>
+			<speak chara="teslaNoFace" remark="next">Without any seam or needlework</speak>
+			<remark>
+				<p class="article-text-h">歌詞の意味：</p>
+				<p class="article-text">縫い目も残さず針も使わずに</p>
+			</remark>
+			<speak chara="teslaNoFace" remark="next">Then she'll be a true love of mine</speak>
+			<remark>
+				<p class="article-text-h">歌詞の意味：</p>
+				<p class="article-text">そうしたら彼女は私の恋人</p>
+			</remark>
+			<goto change="#ffffff" goto="90" />
+		</scene>
+		<scene background="CG24-1-2.jpg" id="90">
+			<bgm src="06_15_ScarboroughFair.mp3" status="continue" />
+			<speak chara="edisonNoFace" remark="next">Tell her to find me an acre of land</speak>
+			<remark>
+				<p class="article-text-h">歌詞の意味：</p>
+				<p class="article-text">１エーカーの土地を彼女に見つけてもらってください</p>
+			</remark>
+			<goto change="0" goto="93" />
+		</scene>
+		<scene background="CG24-1-3.jpg" id="93">
+			<bgm src="06_15_ScarboroughFair.mp3" status="continue" />
+			<speak chara="teslaNoFace" remark="next">"Parsley, sage, rosemary, and thyme"</speak>
+			<remark>
+				<p class="article-text-h">歌詞の意味：</p>
+				<p class="article-text">パセリ、セージ、ローズマリーにタイム</p>
+			</remark>
+			<speak chara="edisonNoFace" remark="next">Between the salt water and the sea strands</speak>
+			<remark>
+				<p class="article-text-h">歌詞の意味：</p>
+				<p class="article-text">海と岸辺の間にある土地を</p>
+			</remark>
+			<speak chara="teslaNoFace" remark="next">Then she'll be a true love of mine</speak>
+			<remark>
+				<p class="article-text-h">歌詞の意味：</p>
+				<p class="article-text">そうしたら彼女は私の恋人</p>
+			</remark>
+			<speak chara="edisonTeslaNoFace" remark="next">Tell her to reap it in a sickle of leather</speak>
+			<remark>
+				<p class="article-text-h">歌詞の意味：</p>
+				<p class="article-text">それを革の鎌で刈り取ってもらってください</p>
+			</remark>
+			<goto change="0" goto="100" />
+		</scene>
+		<scene background="CG24-1-4.jpg" id="100">
+			<bgm src="06_15_ScarboroughFair.mp3" status="continue" />
+			<speak chara="edisonTeslaNoFace" remark="next">"Parsley, sage, rosemary, and thyme"</speak>
+			<remark>
+				<p class="article-text-h">歌詞の意味：</p>
+				<p class="article-text">パセリ、セージ、ローズマリーにタイム</p>
+			</remark>
+			<speak chara="edisonTeslaNoFace" remark="next">And gather it all in a bunch of heather</speak>
+			<remark>
+				<p class="article-text-h">歌詞の意味：</p>
+				<p class="article-text">そして、それを花のカゴに集めるように</p>
+			</remark>
+			<goto change="0" goto="106" />
+		</scene>
+		<scene background="white.jpg" id="106">
+			<bgm src="06_15_ScarboroughFair.mp3" status="continue" />
+			<speak chara="edisonTeslaNoFace" remark="next">Then she'll be a true love of mine</speak>
+			<remark>
+				<p class="article-text-h">歌詞の意味：</p>
+				<p class="article-text">そうしたら彼女は私の恋人</p>
+			</remark>
+			<goto change="#ffffff" goto="110" />
+		</scene>
+		<scene background="brightonBeach.jpg" id="110">
+			<bgm src="morning.mp3" status="start" />
+			<speak chara="radioNoNameNoFace">░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒</speak>
+			<speak chara="schroNoFace">……。</speak>
+			<speak chara="weltNoFace">……。</speak>
+			<speak chara="einNoFace">……。</speak>
+			<speak chara="teslaNoFace">……。</speak>
+			<show chara="reaSeriousArmedNoLanceFar" position="right" />
+			<bgm src="horror.mp3" status="start" />
+			<speak chara="reannaNoFace">……あなたたちは安全なところまで下がって。</speak>
+			<speak chara="reannaNoFace">私は上空に行って偵察してくる。</speak>
+			<show chara="reaSeriousArmedNoLanceFar" opacity="0.7" position="right" />
+			<show chara="teslaDisgustedGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace">ちょっと待って、あなたどうして——</speak>
+			<hide position="right" />
+			<hide position="left" />
+			<show chara="weltQuestionNewFar" position="center" />
+			<speak chara="weltNoFace">——お、おい、あれってもしかして……。</speak>
+			<goto change="#ffffff" goto="120" />
+		</scene>
+		<scene background="brightonBeach.jpg" id="120">
+			<bgm src="horror.mp3" status="continue" />
+			<show chara="nokiaDepressedWinterFar" position="right" />
+			<speak chara="nokiaNoFace">……。</speak>
+			<speak chara="nokiaNoFace">……みんな。</speak>
+			<show chara="nokiaDepressedWinterFar" opacity="0.7" position="right" />
+			<show chara="teslaShoutGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace">ええっ！フィンランド人じゃないの！？どうしたの！？大丈夫？</speak>
+			<show chara="teslaShoutGlassWinterFar" opacity="0.7" position="left" />
+			<show chara="nokiaAnnoyedWinterFar" position="right" />
+			<speak chara="nokiaNoFace">私もエジソンさんの信号を受信したんだ……。</speak>
+			<show chara="nokiaDepressedWinterFar" position="right" />
+			<speak chara="nokiaNoFace">……シェルターから引っ張り出した機械を使ってね。</speak>
+			<show chara="nokiaDepressedWinterFar" opacity="0.7" position="right" />
+			<show chara="schroNormalLanceFar" position="left" />
+			<speak chara="schroNoFace">みんな……無事、なのです？</speak>
+			<show chara="schroNormalLanceFar" opacity="0.7" position="left" />
+			<show chara="nokiaDepressedWinterFar" position="right" />
+			<speak chara="nokiaNoFace">……大丈夫。みんな生きてるよ。</speak>
+			<show chara="nokiaAnnoyedWinterFar" position="right" />
+			<speak chara="nokiaNoFace">……。</speak>
+			<show chara="nokiaCrazyWinterFar" position="right" />
+			<speak chara="nokiaNoFace">——いや、違うっ！</speak>
+			<show chara="nokiaCrazyWinterFar" opacity="0.7" position="right" />
+			<show chara="einShockWinterFar" position="left" />
+			<speak chara="einNoFace">……一体、どうしたんだい？</speak>
+			<show chara="einShockWinterFar" opacity="0.7" position="left" />
+			<show chara="nokiaCrazyWinterFar" position="right" />
+			<speak chara="nokiaNoFace">……私が言いたいことは、そんなことじゃない！</speak>
+			<show chara="nokiaAnnoyedWinterFar" position="right" />
+			<speak chara="nokiaNoFace">私は……。</speak>
+			<show chara="nokiaAnnoyedWinterFar" opacity="0.7" position="right" />
+			<show chara="teslaBiteGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace">……うん？どうしたのよ？話があるなら、ハッキリ言いなさいよ！</speak>
+			<show chara="teslaBiteGlassWinterFar" opacity="0.7" position="left" />
+			<show chara="nokiaCrazyWinterFar" position="right" />
+			<speak chara="nokiaNoFace">これは全て私のせいなんだ！私が、あの人の脅迫に屈してしまったせいで……！</speak>
+			<shake position="right" time="250" />
+			<speak chara="nokiaNoFace">か、彼がヨアヒムを……私の息子を人質に脅してきたんだ！</speak>
+			<show chara="nokiaCrazyWinterFar" opacity="0.7" position="right" />
+			<show chara="schroShockLanceFar" position="left" />
+			<speak chara="schroNoFace">……！？</speak>
+			<show chara="schroShockLanceFar" opacity="0.7" position="left" />
+			<show chara="nokiaCrazyWinterFar" position="right" />
+			<speak chara="nokiaNoFace">本意じゃなかったんだっ！まさか実験がこんなことになるなんて想像もしてなかった！</speak>
+			<speak chara="nokiaNoFace">だ、大主教からこう言われたんだ。古文書に書かれた後半のデータを改ざんしろって、それでエジソンの研究が少し長引くからと。ただ、それだけだって。</speak>
+			<speak chara="nokiaNoFace">「エジソンが時代に革新をもたらす技術的ブレイクスルーを成すのを望まない」、彼が軽い口調で私にそう言ってきたんだ！</speak>
+			<speak chara="nokiaNoFace">わ、私はまさかこんなことになるなんて、思ってもみなかったんだよ！</speak>
+			<shake position="right" time="250" />
+			<speak chara="nokiaNoFace">……実験の失敗がこんな結果になるなんて、誰だって想像できないだろう！？</speak>
+			<show chara="nokiaCrazyWinterFar" opacity="0.7" position="right" />
+			<show chara="weltSBDNewFar" position="left" />
+			<speak chara="weltNoFace">つまり——</speak>
+			<goto change="0" goto="130" />
+		</scene>
+		<scene background="CG24-2-0.jpg" id="130">
+			<bgm src="horror.mp3" status="stop" />
+			<sound src="05_18_claw.mp3" />
+			<speak chara="ottoNoNameNoFace">……ペラペラと喋りすぎだ。愚か者め。</speak>
+			<speak chara="nokiaNoFace">なっ——</speak>
+			<goto change="0" goto="135" />
+		</scene>
+		<scene background="CG24-2-1.jpg" id="135">
+			<bgm src="horror.mp3" status="stop" />
+			<sound src="04_20_fell.mp3" />
+			<speak chara="ottoNoNameNoFace">静かに家族のもとへと行くがいい。</speak>
+			<goto change="#ffffff" goto="140" />
+		</scene>
+		<scene background="brightonBeach.jpg" id="140">
+			<bgm src="horror.mp3" status="start" />
+			<show chara="teslaAstonishGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace">……。</speak>
+			<show chara="teslaAstonishGlassWinterFar" opacity="0.7" position="left" />
+			<show chara="schroShockLanceFar" position="right" />
+			<speak chara="schroNoFace">あなた……どうして……。</speak>
+			<show chara="einShockWinterFar" position="right" />
+			<speak chara="einNoFace">いや……お前は……何者だ！？</speak>
+			<hide position="right" />
+			<hide position="left" />
+			<show chara="ottoChangeFar" position="center" />
+			<speak chara="ottoNoNameNoFace">僕かい？物理的な観点から言えば、君たちと行動を共にしていた戦乙女リアーナ・ブリガンティアだろ？</speak>
+			<speak chara="ottoNoNameNoFace">——確かに、見た目と人格が違っているけどね。</speak>
+			<speak chara="ottoNoNameNoFace">……まあいい。君たちに見せてあげよう。</speak>
+			<goto change="#ffffff" goto="150" />
+		</scene>
+		<scene background="brightonBeach.jpg" id="150">
+			<bgm src="horror.mp3" status="continue" />
+			<show chara="ottoConfidentLanceFar" position="center" />
+			<speak chara="ottoNoNameNoFace">……機械海馬体接続率、99.993666%。魂鋼皮膚の接合完了。</speak>
+			<show chara="ottoRidiculingLanceFar" position="center" />
+			<speak chara="ottoNoNameNoFace">これでよし。君たちの中には僕のことを知っている人もいるだろうが……。</speak>
+			<show chara="ottoConfidentLanceFar" position="center" />
+			<speak chara="ottoNoNameNoFace">それでも、やはり自己紹介くらいはするのが礼儀というものだろう。</speak>
+			<show chara="ottoFrivolousLanceFar" position="center" />
+			<speak chara="ottoNoFace">僕はオットー・アポカリプス。一応「天命」の「主教」を務めている。</speak>
+			<show chara="weltSBDNewFar" position="center" />
+			<speak chara="weltNoFace">……オットー！</speak>
+			<speak chara="weltNoFace">な、何の手品だそれは！？</speak>
+			<speak chara="weltNoFace">それに何てことを……お前、何をしたのかわかってるのかっ！！</speak>
+			<show chara="ottoRidiculingLanceFar" position="center" />
+			<speak chara="ottoNoFace">まあまあ落ち着きたまえ、親愛なる友よ。</speak>
+			<show chara="ottoConfidentLanceFar" position="center" />
+			<speak chara="ottoNoFace">僕が自分で施した機械の身体に、ただ現れただけだ。「手品」でも何でもないだろう？</speak>
+			<show chara="ottoFrivolousLanceFar" position="center" />
+			<speak chara="ottoNoFace">……リアーナ・ブリガンティア。</speak>
+			<show chara="ottoRidiculingLanceFar" position="center" />
+			<speak chara="ottoNoFace">この100年、最強の座を譲ることのなかった僕の最も信頼している戦乙女。</speak>
+			<show chara="ottoConfidentLanceFar" position="center" />
+			<speak chara="ottoNoFace">彼女がかくも強く、頼りになったのは、類まれなる精神力なんかによるものじゃない……。</speak>
+			<show chara="ottoLaughLanceFar" position="center" />
+			<speak chara="ottoNoFace">——そうではなく、僕が無数の古代文明の遺産から選び抜き、この手で彼女に不朽の身体を作ってあげたからなんだよ！</speak>
+			<show chara="teslaAstonishGlassWinterFar" position="center" />
+			<speak chara="teslaNoFace">あんた……いったい何を言ってるの！？</speak>
+			<show chara="ottoConfidentLanceFar" position="center" />
+			<speak chara="ottoNoFace">……테슬라さん。</speak>
+			<show chara="ottoRidiculingLanceFar" position="center" />
+			<speak chara="ottoNoFace">もう勘づいているんだろう？けど、それを直視したくない。</speak>
+			<show chara="ottoFrivolousLanceFar" position="center" />
+			<speak chara="ottoNoFace">……まぁいい。</speak>
+			<speak chara="ottoNoFace">ちょっと時間を割いて、君たちに説明してあげよう。</speak>
+			<show chara="ottoConfidentLanceFar" position="center" />
+			<speak chara="ottoNoFace">以前、こんなことがあった。</speak>
+			<speak chara="ottoNoFace">あるギリシャ人の英雄……ハハッ、彼がどこの誰かは重要じゃないよ。</speak>
+			<speak chara="ottoNoFace">とにかく、彼は偉大だった。だから、現地の人は彼がかつて乗っていた船を祭り上げ、記念碑のようにしたんだ。</speak>
+			<speak chara="ottoNoFace">だが、時間とは残酷なものだ。その船の木材は徐々に朽ちていった。</speak>
+			<speak chara="ottoNoFace">この偉大な船が祭祀品として燃やされないよう、人々はある方法を思いついた——</speak>
+			<speak chara="ottoNoFace">数年おきに船の部品を全て検査し、もし腐っていたら新しいものと取り換えようと。</speak>
+			<speak chara="ottoNoFace">そして、長い月日が経ち、ある哲学者が見学にやって来た時、船の部品はどの箇所も最低2回は取り換えられていた。</speak>
+			<show chara="ottoFrivolousLanceFar" position="center" />
+			<speak chara="ottoNoFace">哲学者はこのことを聞きとても悲しみ、現地の人に「これはまだ元の船なのか？」と問いただした。</speak>
+			<show chara="ottoRidiculingLanceFar" position="center" />
+			<speak chara="ottoNoFace">しかし、現地の人は意にも介さない様子で答えた。「哲学者様、もし違うって言うなら、いつから違っているんですか？」</speak>
+			<speak chara="ottoNoFace">「ご存知でしょう。航海の途中だって、船は常に部品を交換しなきゃいけないんですよ。」</speak>
+			<show chara="weltSBDNewFar" position="center" />
+			<speak chara="weltNoFace">いい加減にしろっ！</speak>
+			<speak chara="weltNoFace">一体、何が言いたい！？</speak>
+			<show chara="ottoLaughLanceFar" position="center" />
+			<speak chara="ottoNoFace">ハハ……100年余りにわたって、大小1000回以上の人体改造を行った——</speak>
+			<speak chara="ottoNoFace">——そういう身体は果たして戦乙女なのか、それともロボットなのか？</speak>
+			<show chara="weltSBDNewFar" position="center" />
+			<speak chara="weltNoFace">っ！ふざけやがって——</speak>
+			<show chara="ottoRidiculingLanceFar" position="center" />
+			<speak chara="ottoNoFace">もちろん、答えはとても簡単さ。</speak>
+			<show chara="ottoConfidentLanceFar" position="center" />
+			<speak chara="ottoNoFace">——今の問題は、ちっとも重要なんかじゃないんだ。</speak>
+			<show chara="ottoLaughLanceFar" position="center" />
+			<speak chara="ottoNoFace">なぜなら、改造の果てにこの体は僕のものになったんだから。</speak>
+			<show chara="weltSBDNewFar" position="center" />
+			<speak chara="weltNoFace">……お前ッ！</speak>
+			<show chara="ottoFrivolousLanceFar" position="center" />
+			<speak chara="ottoNoFace">律者よ。君も長い生を享受する定めにあるなら、わかってくれるはずだ——永遠を生きるものにとって、自らの力を保つことがどれだけ大切なことかを。</speak>
+			<show chara="ottoRidiculingLanceFar" position="center" />
+			<speak chara="ottoNoFace">……それに君たちの目の前にいるこの実験体は、今日ルールを破ってしまった。</speak>
+			<show chara="ottoFrivolousLanceFar" position="center" />
+			<speak chara="ottoNoFace">……本当に悲しいよ。僕のリアーナ。</speak>
+			<show chara="ottoRidiculingLanceFar" position="center" />
+			<speak chara="ottoNoFace">……まさか、頂点に立つ戦乙女だからといって、主教と対等になれたとでも思ってたのかな？</speak>
+			<speak chara="ottoNoFace">……僕が実験している時に隠しポートを残さないと高を括っていたんだろう。単純だな。</speak>
+			<show chara="ottoLaughLanceFar" position="center" />
+			<speak chara="ottoNoFace">……ハッハッハッハ！</speak>
+			<show chara="schroShockLanceFar" position="center" />
+			<speak chara="schroNoFace">ど、どうして……そんなことをしたのです……。</speak>
+			<show chara="ottoRidiculingLanceFar" position="center" />
+			<speak chara="ottoNoFace">おっと、ここまでだ——</speak>
+			<speak chara="ottoNoFace">僕の話は終わり。それに正直な話、君たちは光栄に思うべきなんだよ。</speak>
+			<show chara="ottoLaughLanceFar" position="back" />
+			<show chara="speedLine" position="center" />
+			<speak chara="ottoNoFace">——今のオットー・アポカリプスがこの手で処刑するに値する敵なんて、ほとんどいないんだからね！</speak>
+			<goto change="0" goto="160" />
+		</scene>
+		<scene background="white.jpg" id="160">
+			<bgm src="horror.mp3" status="stop" />
+			<speak chara="schroNoFace">——危ない、なのですっ！</speak>
+			<goto change="0" goto="170" />
+		</scene>
+		<scene background="CG24-3-0.jpg" id="170">
+			<bgm src="horror.mp3" status="stop" />
+			<sound src="05_18_claw.mp3" />
+			<speak chara="schroNoFace">……っ！</speak>
+			<bgm src="04_20_Brigantia.mp3" status="start" />
+			<show chara="speedLine" position="center" />
+			<speak chara="schroNoFace">いやあぁああああああっ！！！！</speak>
+			<goto change="0" goto="180" />
+		</scene>
+		<scene background="CG24-4-0.jpg" id="180">
+			<bgm src="04_20_Brigantia.mp3" status="continue" />
+			<speak chara="ottoNoFace">……ふむ、飛んで火にいる何とやらだ。</speak>
+			<speak chara="ottoNoFace">崩壊獣と同化した程度の君に何ができるというのだ？</speak>
+			<speak chara="schroNoFace">私が……倒れない限り……。</speak>
+			<speak chara="schroNoFace">あなたは……誰も傷つけることができないのです……。</speak>
+			<speak chara="ottoNoFace">うーん。確かに一理あるな。</speak>
+			<speak chara="ottoNoFace">だが……大丈夫なのかい？この「黒淵」に触れただけで、君の「武器」は裂け始めているぞ。</speak>
+			<speak chara="schroNoFace">私がどうなろうと……どうでもいいのです。</speak>
+			<speak chara="schroNoFace">でも……。</speak>
+			<goto change="0" goto="185" />
+		</scene>
+		<scene background="CG24-4-1.jpg" id="185">
+			<bgm src="04_20_Brigantia.mp3" status="continue" />
+			<speak chara="schroNoFace">そんな風にその身体を汚すなら、私はあなたを絶対に許さないのですっ！それだけじゃないのです、私の仲間まで傷つけようとするなんて！</speak>
+			<speak chara="schroNoFace">その身体は、あなたのものではないのですっ！！</speak>
+			<speak chara="schroNoFace">その身体の唯一の持ち主は——</speak>
+			<goto change="0" goto="190" />
+		</scene>
+		<scene background="CG24-4-2.jpg" id="190">
+			<bgm src="04_20_Brigantia.mp3" status="continue" />
+			<shake position="all" time="250" />
+			<speak chara="schroNoFace">——リアーナさんなのですっ！！！</speak>
+			<end post="U2FsdGVkX1+xP0LTQC+x1lfTNrBM" />
+		</scene>
+	</story>
+</data>

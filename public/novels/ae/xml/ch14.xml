@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<img></img>
+	<characters>
+		<character name="？？？" color="#928eb0" id="fuhuaNoNameNoFace" src="" />
+		<character name="フカ" color="#928eb0" id="fuhuaNoFace" src="" />
+		<character name="フカ" color="#928eb0" id="fuhuaWatchingYouBack" src="12_29_fuhuaWatchingYouBack.png" />
+		<character name="フカ" color="#928eb0" id="fuhuaWatchingSeaBack" src="12_29_fuhuaWatchingSeaBack.png" />
+		<character name="フカ" color="#928eb0" id="fuhuaEatBack" src="12_29_fuhuaEatBack.png" />
+		<character name="フカ" color="#928eb0" id="fuhuaNormalOpenEyeFar" src="12_29_fuhuaNormalOpenEyeFar.png" />
+		<character name="フカ" color="#928eb0" id="fuhuaSmileOpenEyeFar" src="12_29_fuhuaSmileOpenEyeFar.png" />
+		<character name="フカ" color="#928eb0" id="fuhuaSmileCloseEyeFar" src="12_29_fuhuaSmileCloseEyeFar.png" />
+		<character name="フカ" color="#928eb0" id="fuhuaNormalCloseEyeFar" src="12_29_fuhuaNormalCloseEyeFar.png" />
+		<character name="フカ" color="#928eb0" id="fuhuaSeriousFar" src="12_29_fuhuaSeriousFar.png" />
+		<character name="？？？" color="#fff7cd" id="ottoNoNameNoFace" src="" />
+		<character name="웰트" color="#ffffff" id="weltDarkSweaterClose" src="12_29_weltDarkSweaterClose.png" />
+		<character name="웰트" color="#ffffff" id="weltShameSweaterClose" src="12_29_weltShameSweaterClose.png" />
+		<character name="リータ" color="rgb(221,149,235)" id="ritaAgentClose-up" src="12_29_ritaAgentClose-up.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaEatGlassWinterClose" src="12_29_teslaEatGlassWinterClose.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaEatGlassWinterClose-up" src="12_29_teslaEatGlassWinterClose-up.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaShoutGlassWinterClose" src="12_29_teslaShoutGlassWinterClose.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaNormalDrunkWinterClose-up" src="12_29_teslaNormalDrunkWinterClose-up.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaAstonishDrunkWinterClose-up" src="12_29_teslaAstonishDrunkWinterClose-up.png" />
+		<character name="？？？" color="#ffffff" id="beidou" src="12_29_beidou.png" />
+		<character name="？？？" color="#ffffff" id="beiji" src="12_29_beiji.png" />
+		<character name="？？？" color="#ffffff" id="northCross" src="12_29_northCross.png" />
+		<character name="？？？" color="#ffffff" id="yufubei" src="12_29_yufubei.png" />
+		<character name="？？？" color="#ffffff" id="liehu" src="12_29_liehu.png" />
+		<character name="？？？" color="#ffffff" id="yufunan" src="12_29_yufunan.png" />
+		<character name="？？？" color="#ffffff" id="chain" src="12_29_chain.png" />
+		<character name="？？？" color="#ffffff" id="pegasus" src="12_29_pegasus.png" />
+	</characters>
+	<story>
+		<scene id="0" background="bg.jpg">
+			<bgm src="mid-lude.mp3" status="start" />
+			<cg src="newchapter.png" bg="bg.jpg" />
+			<goto goto="10" change="#000000" />
+		</scene>
+		<scene id="10" background="westCliffBossRoom.jpg">
+			<bgm src="horror.mp3" status="start" />
+			<show chara="ritaAgentClose-up" position="center" />
+			<speak chara="ritaNoFace">こちら「女侯爵」です。</speak>
+			<speak chara="ritaNoFace">「アダム」をもてなすつもりが、「ジョージ」までついて来るとは思いませんでした。</speak>
+			<speak chara="ritaNoFace">「メインディッシュ」はどうすれば宜しいでしょうか。ご指示をお願い致します。</speak>
+			<goto goto="20" change="#ffffff" />
+		</scene>
+		<scene id="20" background="westCliffDinnerRoom.jpg">
+			<bgm src="10_20_PeerGynt.mp3" status="start" />
+			<show chara="fuhuaEatBack" position="back" />
+			<show chara="teslaEatGlassWinterClose" position="left" />
+			<show chara="einSmileCoatClose" position="right" opacity="0.7" />
+			<speak chara="teslaNoFace">何これ！随分と盛りだくさんね！どれがメインディッシュだか、分からないくらいじゃない！</speak>
+			<show chara="teslaEatGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="einSmileCoatClose" position="right" />
+			<speak chara="einNoFace">……落ち着いて、ゆっくり食べるんだぞ。</speak>
+			<show chara="einSmileCoatClose" position="right" opacity="0.7" />
+			<show chara="weltDarkSweaterClose" position="right" />
+			<speak chara="weltNoFace">……。</speak>
+			<show chara="weltDarkSweaterClose" position="right" opacity="0.7" />
+			<show chara="teslaEatGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">どうしたの……元気ないわね。</speak>
+			<show chara="teslaEatGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="weltDarkSweaterClose" position="right" />
+			<speak chara="weltNoFace">いや……。</speak>
+			<speak chara="weltNoFace">どうしても3年前のベルリンのことを考えてしまうんだ。</speak>
+			<speak chara="weltNoFace">カール……。</speak>
+			<speak chara="weltNoFace">マーサ……。</speak>
+			<speak chara="weltNoFace">それから……彼らと同じ罪のない人々……。</speak>
+			<speak chara="weltNoFace">……あの日30万人が……。</speak>
+			<show chara="weltShameSweaterClose" position="right" />
+			<speak chara="weltNoFace">30万人、想像できるかっ！？</speak>
+			<speak chara="weltNoFace">それほどの数を、나は！</speak>
+			<show chara="weltShameSweaterClose" position="right" opacity="0.7" />
+			<show chara="teslaBoringGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">……。</speak>
+			<show chara="teslaSmileGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">あんた、今まで私と一緒にいたのにわからないの？バカね。</speak>
+			<show chara="teslaSmileGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="weltSurpriseSweaterClose" position="right" />
+			<speak chara="weltNoFace">？？？</speak>
+			<show chara="weltSurpriseSweaterClose" position="right" opacity="0.7" />
+			<show chara="teslaSmileGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">私たちの人生に、振り返る価値のあるものなんて何一つないのよ……。</speak>
+			<speak chara="teslaNoFace">……過去に縛られるなんて、ナンセンスだわ。</speak>
+			<show chara="teslaShameGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">While worldly matters take their turn,（人事に代謝あり）</speak>
+			<speak chara="teslaNoFace">Ancient, modern, to and fro,（往来して古今を為す）</speak>
+			<speak chara="teslaNoFace">Rivers and mountains are changeless in their glory,（江山勝跡を留め）</speak>
+			<speak chara="teslaNoFace">And still to be witnessed from this trail.（吾輩また登臨す）</speak>
+			<show chara="teslaSnickerGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">――東洋の詩人、孟浩然の詩よ。</speak>
+			<speak chara="teslaNoFace">あんた、中国語知ってんだから……私よりもこの詩の意味、分かるでしょ。</speak>
+			<show chara="weltDarkSweaterClose" position="right" />
+			<speak chara="weltNoFace">……。</speak>
+			<show chara="weltDarkSweaterClose" position="right" opacity="0.7" />
+			<show chara="teslaBoringGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">この先も、きっとベルリン事件の犠牲者の話をたくさん聞くと思うわ。</speak>
+			<show chara="teslaNormalGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">でも、それがどうであっても……その人たちの過去と自分の未来を繋げちゃ駄目よ。</speak>
+			<show chara="teslaShameGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">あんたは間違いなく幸運だったけど、同時にどうしようもなくツイてなかった――</speak>
+			<show chara="teslaSnickerGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">それでも、あんたは犠牲者たちに借りなんて作ってないし、向こうだって同じ。</speak>
+			<show chara="teslaSmileGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">人生なんて、自分の心に恥じることさえしてなければいいのよ。</speak>
+			<show chara="teslaSmileGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="weltDarkSweaterClose" position="right" />
+			<speak chara="weltNoFace">……。</speak>
+			<speak chara="weltNoFace">…………。</speak>
+			<speak chara="weltNoFace">………………。</speak>
+			<show chara="weltGiggleSweaterClose" position="right" />
+			<speak chara="weltNoFace">そうか、ありがとう。</speak>
+			<show chara="weltGiggleSweaterClose" position="right" opacity="0.7" />
+			<show chara="teslaSnickerGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">そうよ、そうでなきゃ。</speak>
+			<show chara="teslaSmileGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">ほら、いい子、いい子～</speak>
+			<show chara="teslaEatGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">さぁ、お肉食べましょ、お肉お肉～！</speak>
+			<show chara="teslaEatGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="einSmileCoatClose" position="right" />
+			<speak chara="einNoFace">테슬라……。</speak>
+			<show chara="einSmileCoatClose" position="right" opacity="0.7" />
+			<show chara="teslaShameGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">何よ……。</speak>
+			<speak chara="teslaNoFace">あんたも、とっとと私を褒めなさいよね。</speak>
+			<show chara="teslaShameGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="einSlyCoatClose" position="right" />
+			<speak chara="einNoFace">くっくく……。</speak>
+			<show chara="einSlyCoatClose" position="right" opacity="0.7" />
+			<show chara="teslaShameGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">な、何よ……私だって、真面目になることくらいあるのよ！</speak>
+			<show chara="teslaShameGlassWinterClose" position="left" opacity="0.7" />
+			<show chara="einSlyCoatClose" position="right" />
+			<speak chara="einNoFace">……それはそれは。可愛いな、테슬라ちゃん。</speak>
+			<show chara="einSlyCoatClose" position="right" opacity="0.7" />
+			<show chara="teslaShoutGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">か、可愛いって、どういう意味よ！</speak>
+			<goto goto="30" change="#ffffff" />
+		</scene>
+		<scene id="30" background="westCliff.jpg">
+			<bgm src="10_20_PeerGynt.mp3" status="continue" />
+			<text>昼食に訪れる客も、どうやらほんの数人しかいないようだ――</text>
+			<text remark="next">しかし、“シーヤ・リータ”のテーブルにはフォアグラ、牡蠣、ヒレ、ロブスター、そして……。</text>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">ロブスター（Lobster）は海エビの一種で、広範囲に生息し、度々イセエビ（Palinuridae）と間違われる。</p>
+				<p class="article-text">ロブスターとイセエビの主な違いは、ロブスターにはハサミがあり、イセエビにはないこと、ロブスターの触角は細く短いが、イセエビは長く、太く、また棘がある、ロブスターは世界各国に生息しているが、イセエビは熱帯、亜熱帯地域のみに生息することなどが挙げられる。</p>
+			</remark>
+			<text>各種様々な肉料理が揃い、こちらが申し訳ないと感じるほどの食材が山のように並んでいた。</text>
+			<show chara="teslaEatGlassWinterClose-up" position="center" opacity="0.8" />
+			<speak chara="teslaNoFace">あんたたち！申し訳ないと思わないの！？</speak>
+			<speak chara="teslaNoFace">食べきれなかったら、こんなに沢山の食材を調達してくれたオーナーに申し訳ないじゃない！</speak>
+			<show chara="teslaEatGlassWinterClose-up" position="center" opacity="0" />
+			<text>そして、その日の午後3時、太陽の光がちょうど心地良い頃、見事に有言実行したある人物は、ベッドでアザラシのように転がっている始末だった。</text>
+			<show chara="teslaAstonishDrunkWinterClose-up" position="center" opacity="0.8" />
+			<speak chara="teslaNoFace">散歩？</speak>
+			<show chara="teslaNormalDrunkWinterClose-up" position="center" opacity="0.8" />
+			<speak chara="teslaNoFace">そんな老人じみたことに誘わないで……。</speak>
+			<show chara="teslaAstonishDrunkWinterClose-up" position="center" opacity="0.8" />
+			<speak chara="teslaNoFace">ボーリング？いやいやいや……できないってば。</speak>
+			<show chara="teslaNormalDrunkWinterClose-up" position="center" opacity="0.8" />
+			<speak chara="teslaNoFace">あんたたちだけで散歩に行ってくるといいわ。……私、あとでSPAに行ってくる……。</speak>
+			<show chara="teslaEatGlassWinterClose-up" position="center" opacity="0" />
+			<text>とはいえ、</text>
+			<text>「食べ過ぎて病院送り」の前科から比べれば、少しは進歩したと言えようか？</text>
+			<goto goto="40" change="#ffffff" />
+		</scene>
+		<scene id="40" background="westCliffBeach.jpg">
+			<bgm src="themeWelt.mp3" status="start" />
+			<show chara="fuhuaWatchingSeaBack" position="back" />
+			<text>冬。地平線が最も私たちに近づく季節。</text>
+			<text remark="next">寒く湿った砂浜、錆のように点々と浮かぶ要塞、煙を吐く様々な船――それが、今、目に映る全て。</text>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">マンセル要塞（Maunsell Forts）は第二次世界大戦時イギリスがテムズ川、マージー川河口に築いた量産型防空施設。</p>
+				<p class="article-text">海上要塞の構造は陸上高射砲塔に類似しているが、高床建屋の様にコンクリートの艀に建っている点、違いがある。要塞はドッグで組み立てられてから、船で指定の海域へ運ばれ、コンクリートの艀を沈めた上に、錨で要塞の基礎を海底に固定する。</p>
+				<p class="article-text">第二次世界大戦後には廃墟と化した。うちサフォーク郡東側公海に位置する「フォート・ラフス」（HMS Fort Rough）は1967年9月2日退役軍人パディ・ロイ・ベイツ（Paddy Roy Bates）一家が「占領」し、国際法に則り「シーランド公国」（Principality of Sealand）として独立すると宣言した。宣言は国際社会に合法と認められなかったが、国際法の応用の一例として興味深い事件となった。</p>
+			</remark>
+			<text>世の変遷、孤独。そして、人は穏やかになる。</text>
+			<show chara="weltSurpriseWinterFar" position="left" />
+			<show chara="einSmileWinterFar" position="center" opacity="0.7" />
+			<speak chara="weltNoFace">あれは……。</speak>
+			<show chara="weltSurpriseWinterFar" position="left" opacity="0.7" />
+			<show chara="einSmileWinterFar" position="center" />
+			<speak chara="einNoFace">ん？</speak>
+			<show chara="einSmileWinterFar" position="center" opacity="0.7" />
+			<show chara="weltSurpriseWinterFar" position="left" />
+			<speak chara="weltNoFace">あそこにいる人……さっき食事しているときにも見かけたような？</speak>
+			<show chara="weltSurpriseWinterFar" position="left" opacity="0.7" />
+			<show chara="einNormalWinterFar" position="center" />
+			<speak chara="einNoFace">そうだな。……それが、どうかしたのか？</speak>
+			<show chara="einNormalWinterFar" position="center" opacity="0.7" />
+			<show chara="weltSurpriseWinterFar" position="left" />
+			<speak chara="weltNoFace">……いや、なんとなく……。</speak>
+			<show chara="weltGiggleWinterFar" position="left" />
+			<speak chara="weltNoFace">どこか「危険な雰囲気」を感じるんだ……。</speak>
+			<show chara="weltGiggleWinterFar" position="left" opacity="0.7" />
+			<show chara="fuhuaWatchingYouBack" position="back" />
+			<speak chara="fuhuaNoNameNoFace">……。</speak>
+			<show chara="weltShameWinterFar" position="left" />
+			<speak chara="weltNoFace">（まずい……聞こえたか？）</speak>
+			<show chara="weltShameWinterFar" position="left" opacity="0.7" />
+			<hide position="back" />
+			<hide position="center" />
+			<show chara="fuhuaNormalOpenEyeFar" position="right" />
+			<speak chara="fuhuaNoNameNoFace">……。</speak>
+			<show chara="fuhuaSmileCloseEyeFar" position="right" />
+			<speak chara="fuhuaNoNameNoFace">水落ちて魚梁浅く、</speak>
+			<speak chara="fuhuaNoNameNoFace">天寒くして夢沢探し。</speak>
+			<speak chara="fuhuaNoNameNoFace">羊公の碑なお在り、</speak>
+			<speak chara="fuhuaNoNameNoFace">読を罷はず涙に襟を濡らす。</speak>
+			<show chara="fuhuaSmileOpenEyeFar" position="right" />
+			<speak chara="fuhuaNoNameNoFace">さっきの詩の後半です――中国語わかるんですよね？</speak>
+			<show chara="fuhuaSmileOpenEyeFar" position="right" opacity="0.7" />
+			<show chara="weltSurpriseWinterFar" position="left" />
+			<speak chara="weltNoFace">少しだけ……。</speak>
+			<speak chara="weltNoFace">……東洋の人？</speak>
+			<show chara="weltSurpriseWinterFar" position="left" opacity="0.7" />
+			<show chara="fuhuaSmileCloseEyeFar" position="right" />
+			<speak chara="fuhuaNoNameNoFace">はい。……そうですね、ここを基点にして言えば、神州は確かに「東洋」ですから、間違ってはいないかと。</speak>
+			<show chara="fuhuaSmileOpenEyeFar" position="right" />
+			<speak chara="fuhuaNoNameNoFace">そうだ、この本をあなたに。</speak>
+			<show chara="fuhuaSmileOpenEyeFar" position="right" opacity="0.7" />
+			<show chara="weltSurpriseWinterFar" position="left" />
+			<speak chara="weltNoFace">お、나に？</speak>
+			<show chara="weltSurpriseWinterFar" position="left" opacity="0.7" />
+			<show chara="fuhuaNormalOpenEyeFar" position="right" />
+			<speak chara="fuhuaNoNameNoFace">大したものではありません、ただの詩集ですから。</speak>
+			<show chara="fuhuaSmileOpenEyeFar" position="right" />
+			<speak chara="fuhuaNoNameNoFace">これがあれば、さっきの私みたいに詩人を気取れます。</speak>
+			<show chara="fuhuaSmileOpenEyeFar" position="right" opacity="0.7" />
+			<show chara="weltNormalWinterFar" position="left" />
+			<speak chara="weltNoFace">で、でも……。</speak>
+			<show chara="weltNormalWinterFar" position="left" opacity="0.7" />
+			<show chara="fuhuaSmileCloseEyeFar" position="right" />
+			<speak chara="fuhuaNoNameNoFace">いいんです。衝動買いしたものですから。</speak>
+			<show chara="fuhuaNormalCloseEyeFar" position="right" />
+			<speak chara="fuhuaNoNameNoFace">最近、頭の中がいっぱいで、こういう訳の分からないものは極力排除したいんです。</speak>
+			<show chara="fuhuaSmileOpenEyeFar" position="right" />
+			<speak chara="fuhuaNoNameNoFace">それに……。</speak>
+			<speak chara="fuhuaNoNameNoFace">……地球を半周してあなたの元に届いたんですから、これも何かの縁なのでしょう。</speak>
+			<show chara="fuhuaSmileOpenEyeFar" position="right" opacity="0.7" />
+			<show chara="weltSurpriseWinterFar" position="left" />
+			<speak chara="weltNoFace">縁……ね。</speak>
+			<show chara="weltSurpriseWinterFar" position="left" opacity="0.7" />
+			<show chara="fuhuaNormalOpenEyeFar" position="right" />
+			<speak chara="fuhuaNoNameNoFace">そう。</speak>
+			<speak chara="fuhuaNoNameNoFace">例えば、さっきの詩のタイトルに「峴山」（けんざん）という山があります。</speak>
+			<show chara="fuhuaNormalCloseEyeFar" position="right" />
+			<speak chara="fuhuaNoNameNoFace">地理的に言えば神州の小さな山に過ぎません。五岳や雪山には手も足も出ないし、世界の屋根とはまさに天と地の差。</speak>
+			<show chara="fuhuaSeriousFar" position="right" />
+			<speak chara="fuhuaNoNameNoFace">でも、友人が言っていました。その小さな峴山には「龍脈」が通っていて、神州の命運を握る要なんだと。</speak>
+			<speak chara="fuhuaNoNameNoFace">言い伝えでは、神州の始祖である伏羲が葬られたって話で――その体でもって「龍脈」を守り、土地を守っているそうです。</speak>
+			<show chara="fuhuaSeriousFar" position="right" opacity="0.7" />
+			<show chara="einNormalWinterFar" position="back" />
+			<speak chara="einNoFace">……웰트、通訳してくれないか？</speak>
+			<show chara="einNormalWinterFar" position="back" opacity="0.7" />
+			<show chara="weltSurpriseWinterFar" position="left" />
+			<speak chara="weltNoFace">あっ、ああ……この詩集を나にくれるって……あと東洋の伝説の話をしてくれた……。</speak>
+			<show chara="weltSurpriseWinterFar" position="left" opacity="0.7" />
+			<show chara="fuhuaNormalCloseEyeFar" position="right" />
+			<speak chara="fuhuaNoNameNoFace">Nein,ist es nicht.（いいえ、違います）</speak>
+			<show chara="fuhuaNormalOpenEyeFar" position="right" />
+			<speak chara="fuhuaNoNameNoFace">伝説ではありません。</speak>
+			<speak chara="fuhuaNoNameNoFace">「龍脈」は今の言葉に置き換えると、崩壊エネルギーが漏れ出て自然にできた「暗河」のことなんです。</speak>
+			<show chara="fuhuaNormalCloseEyeFar" position="right" />
+			<speak chara="fuhuaNoNameNoFace">伝説っていうものには、必ず由来があるものですからね。</speak>
+			<show chara="fuhuaNormalCloseEyeFar" position="right" opacity="0.7" />
+			<show chara="einSeriousAhWinterFar" position="back" />
+			<speak chara="einNoFace">君は……一体、誰なんだい？</speak>
+			<show chara="einSeriousEmWinterFar" position="back" opacity="0.7" />
+			<show chara="fuhuaNormalOpenEyeFar" position="right" />
+			<speak chara="fuhuaNoNameNoFace">戦乙女のフカと言います。</speak>
+			<show chara="fuhuaSmileCloseEyeFar" position="right" />
+			<speak chara="fuhuaNoFace">リアーナさんの同僚ってところです。</speak>
+			<show chara="fuhuaSmileOpenEyeFar" position="right" />
+			<speak chara="fuhuaNoFace">そうそう、リアーナさんが褒めていました。</speak>
+			<show chara="fuhuaSmileOpenEyeFar" position="right" opacity="0.7" />
+			<show chara="weltSurpriseWinterFar" position="left" />
+			<speak chara="weltNoFace">えっ、あ……それは、どうも……？</speak>
+			<show chara="weltSurpriseWinterFar" position="left" opacity="0.7" />
+			<show chara="fuhuaNormalOpenEyeFar" position="right" />
+			<speak chara="fuhuaNoFace">今日は、少し厄介な人物に出くわすかもしれません。</speak>
+			<show chara="fuhuaSmileCloseEyeFar" position="right" />
+			<speak chara="fuhuaNoFace">でも、安心してください――身に危険が及ばないよう、私が安全を保証します。</speak>
+			<show chara="fuhuaSmileOpenEyeFar" position="right" />
+			<speak chara="fuhuaNoFace">Adieu.（それでは。）</speak>
+			<hide position="back" />
+			<show chara="fuhuaNormalOpenEyeFar" position="right" />
+			<speak chara="fuhuaNoFace">（웰트さん。）</speak>
+			<show chara="fuhuaSmileCloseEyeFar" position="right" />
+			<speak chara="fuhuaNoFace" remark="next">相い濡すに沫を以てするは、江湖に相い忘るるに如かず。</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">これは『荘子』内篇・大宗師の「泉涸れて魚相い与(とも)に陸に処(お)り、相い呴(ふ)くに湿を以ってし、相い濡(うるお)すに沫を以てするは、江湖に相い忘るるに如かず」の一節。</p>
+				<p class="article-text">荘子はこの喩えによって、困難の中で互いに助け合うよりも、最初から災難の元を断ってこそ、世は太平無事であると説いている。</p>
+			</remark>
+			<show chara="fuhuaSmileOpenEyeFar" position="right" />
+			<speak chara="fuhuaNoFace">これから先……あなた自身の力で上手くやっていけるよう、祈っていますよ。</speak>
+			<hide position="right" />
+			<show chara="weltSurpriseWinterFar" position="left" />
+			<speak chara="weltNoFace">……。</speak>
+			<show chara="weltSurpriseWinterFar" position="left" opacity="0.7" />
+			<show chara="einNormalWinterFar" position="center" />
+			<speak chara="einNoFace">……変な人だ。</speak>
+			<show chara="einNormalWinterFar" position="center" opacity="0.7" />
+			<show chara="weltSurpriseWinterFar" position="left" />
+			<speak chara="weltNoFace">でも……あの話し方からすると……。</speak>
+			<show chara="weltNormalWinterFar" position="left" />
+			<speak chara="weltNoFace">나たち、なんか目をつけられてるのか？</speak>
+			<show chara="weltNormalWinterFar" position="left" opacity="0.7" />
+			<show chara="einSmileWinterFar" position="center" />
+			<speak chara="einNoFace">……別に意外でもないだろう。</speak>
+			<show chara="einFoolWinterFar" position="center" />
+			<speak chara="einNoFace">自己主張のあることをすれば、それがなんであろうと目をつけられるものだよ。</speak>
+			<show chara="einSmileWinterFar" position="center" />
+			<speak chara="einNoFace">でも、それだって「目をつけられる」だけのことさ。</speak>
+			<show chara="einSmileWinterFar" position="center" opacity="0.7" />
+			<show chara="weltSurpriseWinterFar" position="left" />
+			<speak chara="weltNoFace">ほ、本当に大丈夫なのか？</speak>
+			<show chara="weltSurpriseWinterFar" position="left" opacity="0.7" />
+			<show chara="einNormalWinterFar" position="center" />
+			<speak chara="einNoFace">……少なくともリアーナにしろ、さっきのフカとやらにしろ、僕たちをどうこうしようって気はないだろう。</speak>
+			<show chara="einSlyWinterFar" position="center" />
+			<speak chara="einNoFace">それも長くは続かないだろうけど――</speak>
+			<show chara="einSmileWinterFar" position="center" />
+			<speak chara="einNoFace">今、心配することじゃないさ。</speak>
+			<show chara="einSlyWinterFar" position="center" />
+			<speak chara="einNoFace">あぁ……そうそう。</speak>
+			<show chara="weltSurpriseWinterFar" position="left" />
+			<speak chara="weltNoFace">……うん？</speak>
+			<show chara="weltSurpriseWinterFar" position="left" opacity="0.7" />
+			<show chara="einSmileWinterFar" position="center" />
+			<speak chara="einNoFace">今日は天気がいいね。</speak>
+			<show chara="einSmileWinterFar" position="center" opacity="0.7" />
+			<show chara="weltSurpriseWinterFar" position="left" />
+			<speak chara="weltNoFace">……え？</speak>
+			<show chara="weltSurpriseWinterFar" position="left" opacity="0.7" />
+			<show chara="einSmileWinterFar" position="center" />
+			<speak chara="einNoFace">この砂浜、気に入った。</speak>
+			<speak chara="einNoFace">日が落ちたら、また来ないかい？</speak>
+			<speak chara="einNoFace">見せたいものがあるんだ。</speak>
+			<goto goto="55" change="#ffffff" />
+		</scene>
+		<scene id="55" background="westCliffSkyNorth.jpg">
+			<bgm src="11_17_memory.mp3" status="start" />
+			<text>夜。</text>
+			<text>しつこく酒を勧めてくる테슬라から解放された아인슈타인と웰트は、砂浜で2つの「大」の字となって寝転んでいた。</text>
+			<speak chara="weltNoFace">……寒いな。</speak>
+			<speak chara="weltNoFace">……寝転ぶ前は、まだよかったのに。</speak>
+			<speak chara="einNoFace">体を動かしてないから、寒いと感じるのは当然さ。</speak>
+			<speak chara="einNoFace">慣れれば大丈夫。この程度じゃ、風邪なんて引かないだろう。</speak>
+			<speak chara="weltNoFace">……はは、そうだな。</speak>
+			<speak chara="einNoFace">こんな綺麗な星空、見るのは初めてかな？</speak>
+			<speak chara="weltNoFace">ああ……。</speak>
+			<speak chara="weltNoFace">あの見え隠れしてるのが……天の川？</speak>
+			<speak chara="einNoFace">そうだよ。</speak>
+			<speak chara="einNoFace">星は？どれくらいわかる？</speak>
+			<speak chara="weltNoFace">う～ん……。</speak>
+			<show chara="beidou" position="back" />
+			<speak chara="weltNoFace">あれが北斗七星で……。</speak>
+			<show chara="beiji" position="back" />
+			<speak chara="weltNoFace">……ということは、こっちが北極星、だろう？</speak>
+			<speak chara="weltNoFace">正解。</speak>
+			<speak chara="einNoFace">北斗七星は恐らく……一番有名な星だろうね。</speak>
+			<speak chara="einNoFace">Großer Wagen, Großer Bär, Big Dipper, Plough……。</speak>
+			<speak chara="einNoFace">呼び方だけでもたくさんあるんだ。</speak>
+			<speak chara="weltNoFace">……へぇ。でも素人の나には、北極星を見つけるので精いっぱいだ。</speak>
+			<goto goto="60" change="0" />
+		</scene>
+		<scene id="60" background="CG14-1.jpg">
+			<bgm src="11_17_memory.mp3" status="continue" />
+			<speak chara="einNoFace">だったら……僕が他の星を教えてあげようか？</speak>
+			<speak chara="weltNoFace">本当か？……それは楽しみだ。</speak>
+			<speak chara="weltNoFace">実は、パッと指さして星の名前とか由来を言える人がずっと羨ましかったんだよ。</speak>
+			<speak chara="einNoFace">……それは天文学者だ。</speak>
+			<speak chara="weltNoFace">えっ……ははは、それもそうか。</speak>
+			<speak chara="einNoFace">天文学者レベルのものを求められたら敵わないが、素人レベルの紹介でも良ければ……。</speak>
+			<speak chara="einNoFace">僕も、少しは話せる。</speak>
+			<speak chara="weltNoFace">ああ……お喋りがてら色々教えてくれ。</speak>
+			<text>なんとなく、今日会った人は全員、何かがおかしいと青年は感じていた。</text>
+			<text>아인슈타인や테슬라だけではない。少し顔を合わせただけのリータやフカまでも……。</text>
+			<text>その誰もが、裏で示し合わせたかのように胸に何かを抱えていた。</text>
+			<text>こんな時はただのお喋りが、とても必要だと感じる。</text>
+			<text>例えそれが、他愛のない会話だとしても。</text>
+			<goto goto="65" change="0" />
+		</scene>
+		<scene id="65" background="westCliffSkyNorth.jpg">
+			<bgm src="11_17_memory.mp3" status="continue" />
+			<speak chara="einNoFace">お喋り……がてら……。</speak>
+			<speak chara="einNoFace">ああ、そうだ。あれが「お喋り星」だ。</speak>
+			<speak chara="weltNoFace">え？そんな名前の星まであるのか？</speak>
+			<speak chara="einNoFace">冗談に決まってるだろ。</speak>
+			<speak chara="einNoFace">こんなのを信じるな。</speak>
+			<speak chara="weltNoFace">……。</speak>
+			<speak chara="einNoFace">でも、次は本当だ。</speak>
+			<speak chara="einNoFace">さっき、どうやって北極星を見つけた？</speak>
+			<speak chara="weltNoFace">ええと……。</speak>
+			<show chara="beiji" position="back" />
+			<speak chara="weltNoFace">北斗七星の勺の先、2つの星から空の真ん中へ視線を移していくと北極星だ。</speak>
+			<speak chara="einNoFace">そう。</speak>
+			<hide position="back" />
+			<speak chara="einNoFace">じゃあ、今度は柄の方に注目してみてくれ。</speak>
+			<speak chara="einNoFace">この3つの星を、いっぱいに引っ張った弓と見立てる。</speak>
+			<speak chara="einNoFace">で……その弓で矢を西の方向へ放って、天の川を射る。</speak>
+			<speak chara="weltNoFace">あっ、あそこの3つの明るい星、三角形に見える。</speak>
+			<speak chara="einNoFace">そう。</speak>
+			<speak chara="einNoFace">天の川の両側にある2つの星こそ、東洋の伝説の中でとりわけ有名な織姫と彦星だ。</speak>
+			<speak chara="einNoFace">たった1つ、天の川の右側にあるのがこと座のベガ、織姫で……。</speak>
+			<speak chara="einNoFace">天の川の左にある、左右に2つ小さい星を携えているのが、わし座のアルタイル、彦星。</speak>
+			<speak chara="einNoFace">彦星の傍らの2つの小さな星は、織姫と彦星の息子たち。</speak>
+			<speak chara="weltNoFace">へぇ。</speak>
+			<speak chara="einNoFace">で、天の川の中に浸かっているのが……</speak>
+			<show chara="northCross" position="back" />
+			<speak chara="einNoFace" remark="next">ハクチョウ座のデネブ、北十字星を作る星の1つだ。</speak>
+			<remark post="U2FsdGVkX1+0GHKRy7JXUTMSQY8Q">
+				<p class="article-text-h">注：</p>
+				<p class="article-text">ハクチョウは漢字で「白鳥」と書く。</p>
+				<p class="article-text">デネブの英語表記はDeneb（アラビア語の音訳）である。</p>
+			</remark>
+			<speak chara="einNoFace">デネブとその下の3つの星、少し離れたもう1つの星が、十字架の形を作っているだろう。</speak>
+			<speak chara="einNoFace">……ついでに言うと、デネブは白鳥の尾なんだ。</speak>
+			<speak chara="weltNoFace">……つまり、十字架の長い辺は白鳥の首？</speak>
+			<speak chara="weltNoFace">両側で対称になっている部分が翼？</speak>
+			<speak chara="einNoFace">その通り。</speak>
+			<speak chara="einNoFace">この方角で見える星はこんなところだろう。</speak>
+			<show chara="beidou" position="back" />
+			<speak chara="einNoFace">今度は北斗七星の方角――</speak>
+			<speak chara="einNoFace">――勺の口縁から、柄と反対の方向へ、天の川の近くまでいくと……。</speak>
+			<speak chara="weltNoFace">あっ。</speak>
+			<speak chara="weltNoFace">織姫と同じように明るい星がある。</speak>
+			<show chara="yufubei" position="back" />
+			<speak chara="einNoFace" remark="next">うん、あれはぎょしゃ座α星。周りの星いくつかと五角形を作っている部分が、ぎょしゃ座の中心部分だ。</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">ぎょしゃ座α星の英語の俗称はCapella（カペラ）である。</p>
+			</remark>
+			<speak chara="einNoFace">五角形の下の2つの星がふたご座の頭、ふたご座αとβ星だ。</speak>
+			<speak chara="einNoFace">そして……。</speak>
+			<goto goto="75" change="0" />
+		</scene>
+		<scene id="75" background="westCliffSkySouth.jpg">
+			<bgm src="11_17_memory.mp3" status="continue" />
+			<speak chara="einNoFace">次に視線を天の川の反対側へ移して南にずらすと、</speak>
+			<speak chara="einNoFace">何か目立つものがあるだろう？</speak>
+			<speak chara="weltNoFace">……。</speak>
+			<show chara="liehu" position="back" />
+			<speak chara="weltNoFace">……左側に3つ、連続して並んでる星がある！</speak>
+			<speak chara="weltNoFace">周りの星も他より明るいみたいだ！</speak>
+			<speak chara="einNoFace" remark="next">そう。真ん中の3つが“オリオンのベルト”。オリオン座ζ、ε、δ星だ。</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">オリオン座ζ星、オリオン座ε星、オリオン座δ星の英語の俗称はそれぞれAlnitak（アルニタク）、Alnilam（アルニラム）、Mintaka（ミンタカ）である。</p>
+				<br />
+				<p class="article-text"></p>
+			</remark>
+			<speak chara="einNoFace" remark="next">この3つとその上のオリオン座α、γ星、下のオリオン座κ、β星でひとまとまり、オリオン座の主要部分を作っているんだ。</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">オリオン座α星、オリオン座γ星、オリオン座κ星、オリオン座β星の英語の俗称はそれぞれBetelgeuse（ベテルギウス）、Bellatrix（ベラトリックス）、Saiph（サイフ）、Rigel（リゲル）である。</p>
+			</remark>
+			<speak chara="einNoFace">……ただ、ロンドンは緯度が高いからね、左下にはもっと明るいシリウスがあるんだが、残念ながら見えない。本来、これが空で一番明るい星だ。</speak>
+			<speak chara="weltNoFace">そうなのか……。</speak>
+			<speak chara="einNoFace">今度は、オリオン座の右上を見てみてくれ。</speak>
+			<speak chara="einNoFace">金色の星が見えるだろう。他の星と「V」字形を作ってるやつだ。</speak>
+			<speak chara="weltNoFace">え～と……。</speak>
+			<show chara="yufunan" position="center" />
+			<speak chara="weltNoFace">あっ、オリオン座とぎょしゃ座の間のあれ？</speak>
+			<speak chara="einNoFace" remark="next">そう。おうし座α星さ。あの小さい「V」字形が牛の頭だ。</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">おうし座α星の英語の俗称はAldebaran（アルデバラン）である。</p>
+				<br />
+				<p class="article-text"></p>
+			</remark>
+			<goto goto="80" change="0" />
+		</scene>
+		<scene id="80" background="CG14-0.jpg">
+			<bgm src="11_17_memory.mp3" status="continue" />
+			<speak chara="weltNoFace">そう言えば……さっきから思ってたんだけど……。</speak>
+			<speak chara="weltNoFace">なんで、どの星もなんとか座のα星、β星って名前なんだ？</speak>
+			<speak chara="einNoFace" remark="next">それは、元が明るさの等級だからさ。</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">バイエル符合（Bayer designation）は目下国際的に広く使用されている恒星の命名法。ドイツの天文学者ヨハン・バイエル（Johann Bayer）が1603年に著した『ウラノメトリア』（Uranometria）の中で発表された。</p>
+				<p class="article-text">この命名法は星座の各星の明るさの順に従いギリシャ文字を付け、「星座名＋ギリシャ文字」の名称を作る（例外もあり、りゅう座α星は最も明るい星ではないが、α星である。というのは、5千年前はこの星が北極星であった。）</p>
+			</remark>
+			<speak chara="weltNoFace">へぇ、そうなんだ……。</speak>
+			<speak chara="einNoFace">それぞれ他に呼び方もあるが……外来語だから、ちょっと違和感を覚えるかもしれない。</speak>
+			<speak chara="einNoFace">アルデバランはアラビア語でおうし座α星のこと、カペラはラテン語でぎょしゃ座α星のこと。ふたご座α星とβ星はそれぞれカストルとポルックスで、ギリシャ語から来ている。</speak>
+			<speak chara="einNoFace">個人的にはこんな訳の分からない呼び方より、記号で名付けている方がずっといい。</speak>
+			<speak chara="einNoFace">そうだ。おうし座α星といえば……。</speak>
+			<speak chara="einNoFace">反対側に――そう、オリオン座とは反対側……。</speak>
+			<speak chara="einNoFace">小さな星が密集しているのが見えるだろう？</speak>
+			<speak chara="weltNoFace">どこだ……。</speak>
+			<speak chara="weltNoFace">あっ、あれか。</speak>
+			<speak chara="weltNoFace">ぎゅっと集まってる、6、7個はありそうだ。</speak>
+			<speak chara="einNoFace">7人姉妹だよ。</speak>
+			<speak chara="weltNoFace">7人姉妹？</speak>
+			<speak chara="einNoFace" remark="next">プレアデス（Pleiades）とアトラス（Atlas）の7人の娘さ。</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">プレアデス星団（Pleiades）、「スバル」は地球に最も近い星雲の一つ（約444光年）、メシエカタログ番号M45の星雲。</p>
+				<p class="article-text">この星雲には肉眼で判別できる明るさの星が含まれ、光線の条件さえ合えば、正常な視力の持ち主で、9つもの星を見ることができる。</p>
+			</remark>
+			<speak chara="einNoFace">アトラス自身はティーターンの神、西の空を支えている――大西洋（Atlantic Ocean）の語源でもあるんだ。</speak>
+			<goto goto="90" change="0" />
+		</scene>
+		<scene id="90" background="CG14-1.jpg">
+			<bgm src="11_17_memory.mp3" status="continue" />
+			<speak chara="weltNoFace">は～。</speak>
+			<speak chara="weltNoFace">アインは、星座や神話には疎いとばかり思ってた……。</speak>
+			<speak chara="einNoFace">そんなことは……でも、確かにつまらない話だ。</speak>
+			<speak chara="einNoFace">こっちが死んだかと思うとあっちが死んで、最後はみな星になってしまうのだから。</speak>
+			<speak chara="weltNoFace">……。</speak>
+			<speak chara="einNoFace">ただ、時には喜劇的な結末もある――真上を見てごらん。</speak>
+			<goto goto="95" change="0" />
+		</scene>
+		<scene id="95" background="westCliffSkySouth.jpg">
+			<bgm src="11_17_memory.mp3" status="continue" />
+			<show chara="yufunan" position="back" />
+			<speak chara="einNoFace">7人姉妹の上、ぎょしゃ座の右。1、2、3、4――</speak>
+			<show chara="chain" position="back" />
+			<speak chara="einNoFace">4つ整然と並んだ星があるだろう？</speak>
+			<speak chara="weltNoFace">……ああ。少し弧を描いてるけど、並んでる</speak>
+			<speak chara="einNoFace" remark="next">左からそれぞれ、ペルセウス座α星、アンドロメダ座γ、β、α星。</speak>
+			<remark post="U2FsdGVkX19gU8MXMOhDJndKApoQ">
+				<p class="article-text-h">注：</p>
+				<p class="article-text">ペルセウス座α星、アンドロメダ座γ星、アンドロメダ座β星、アンドロメダ座α星の英語の俗称はそれぞれMirfak（ミルファク）、Almach（アルマク）、Mirach（ミラク）、Alpheratz（アルフェラッツ）である。</p>
+				<br />
+				<p class="article-text">p.s. アンドロメダ座β星の上には影のような目立たない星雲があり、それこそまさに有名なM31星雲――アンドロメダ銀河（Andromeda Galaxy）である。地球とは約250万光年離れており、質量が天の川銀河系の2倍ある銀河系外星雲である。北半球の大部分の地域で唯一肉眼観察のできる銀河系外星雲である。</p>
+			</remark>
+			<speak chara="einNoFace" remark="next">アンドロメダα星はペガサス座δ星とも言われている――つまりアンドロメダ座とペガサス座で共有している星だ。</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">ペガサス座（Pegasus）、日本語での正式な星座名はペガスス座である。</p>
+			</remark>
+			<speak chara="weltNoFace">あ～。</speak>
+			<speak chara="weltNoFace">確か、ギリシャ神話の英雄がメドゥーサの頭で海の怪物を石化させ、生贄になっていた姫を救って結婚した話だよな？</speak>
+			<speak chara="einNoFace">そう。あの一列の星は、姫を繋いでいた鎖を象徴しているんだ。</speak>
+			<show chara="pegasus" position="center" />
+			<speak chara="einNoFace">ついでに言うとだね、ペガサス座の主体部はこの鎖の端のあの四辺形なんだよ。</speak>
+			<speak chara="einNoFace">全体を空に浮かぶ大きな勺と考えてもいい。</speak>
+			<speak chara="einNoFace">で……更に右に行くと、さっき見た彦星が見える。</speak>
+			<speak chara="weltNoFace">う～ん、나の目には……</speak>
+			<speak chara="weltNoFace">……なんだかアライグマっぽく見えるな。</speak>
+			<speak chara="weltNoFace">あの一列に並んだ星が尻尾、四辺形の右上から出ている星が頭。</speak>
+			<speak chara="einNoFace">ぷっ……あんな長いしっぽ、漫画の中のアライグマかなんかか？</speak>
+			<speak chara="weltNoFace">べ、別にいいじゃないか……。</speak>
+			<goto goto="100" change="0" />
+		</scene>
+		<scene id="100" background="CG14-0.jpg">
+			<bgm src="11_17_memory.mp3" status="continue" />
+			<speak chara="weltNoFace">……ん、あれ。</speak>
+			<speak chara="weltNoFace">あれはなんだ？南の海面上に見える……1番輝いている星……。</speak>
+			<speak chara="einNoFace">うん？……右下角の、彦星の反対方向の位置にあるやつかい？</speak>
+			<speak chara="weltNoFace">……そうそう。今、指差してくれてるやつだ。</speak>
+			<speak chara="einNoFace" remark="next">あれは、みなみのうお座α星……この方角で唯一の明星だ。</speak>
+			<remark post="U2FsdGVkX1+rF0ozx14SzE37yIBz">
+				<p class="article-text-h">注：</p>
+				<p class="article-text">みなみのうお座α星の英語の俗称はFomalhaut（フォーマルハウト）である。</p>
+				<br />
+				<p class="article-text"></p>
+			</remark>
+			<goto goto="110" change="0" />
+		</scene>
+		<scene id="110" background="CG14-1.jpg">
+			<bgm src="11_17_memory.mp3" status="continue" />
+			<speak chara="weltNoFace">……なんか、寂しそうだ。</speak>
+			<speak chara="einNoFace">星はみな、孤独なものさ。</speak>
+			<speak chara="einNoFace">もし、仮に地球と太陽の距離を目の前の位置にまで縮小したら――</speak>
+			<speak chara="einNoFace">比率から言って他の恒星は一番近いものでも、ここからロンドン中心部くらいまでの距離がある。</speak>
+			<speak chara="weltNoFace">え、そんなに……。</speak>
+			<speak chara="einNoFace">驚くことじゃない。</speak>
+			<speak chara="einNoFace">大きくは宇宙、小さくは原子に至るまで、この世界を占めるものは空虚なんだよ。</speak>
+			<speak chara="einNoFace">その広大な空虚の中で……打ち立つ波間に、みなが徐々に集まってきたんだ。</speak>
+			<speak chara="einNoFace">宇宙は90億年かけて地球を作ったし、地球もまた40億年かけて僕たちのこのエデンの園を作った。</speak>
+			<speak chara="einNoFace">もっと不思議なのは、そのエデンの園に君がいて、僕がいること。</speak>
+			<speak chara="weltNoFace">……。</speak>
+			<speak chara="einNoFace">すまない。僕らしくもないセリフだった。</speak>
+			<goto goto="120" change="#ffffff" />
+		</scene>
+		<scene id="120" background="westCliffSkySouth.jpg">
+			<bgm src="11_3_themeOtto.mp3" status="start" />
+			<text article="1">
+				<p class="article-text">冬は、決してロマンチックな季節ではない。</p>
+				<p class="article-text">もし、あの日の砂浜で、二人の心に何かが芽生えていたとしても……。</p>
+				<p class="article-text">その芽は、本来あるべき根を張ることなく、芽吹くことないその感情は、星空の下、虚空へと消えていった。</p>
+			</text>
+			<goto goto="160" change="0" />
+		</scene>
+		<scene id="160" background="studyLamp.jpg">
+			<bgm src="11_3_themeOtto.mp3" status="continue" />
+			<text>今は昔と違って、スパと言ってもサウナではない。</text>
+			<text>星を見た後のお風呂も、もちろん男女別々だ。</text>
+			<text>ただ――</text>
+			<goto goto="170" change="0" />
+		</scene>
+		<scene id="170" background="CG14-2.jpg">
+			<bgm src="11_3_themeOtto.mp3" status="continue" />
+			<speak chara="ottoNoNameNoFace">やぁ。</speak>
+			<speak chara="ottoNoNameNoFace">Ω、最近調子はどうかな？</speak>
+			<text>……今日1日、ひとりも男を見なかったからと言って、夜の浴場までそうとは限らない。</text>
+			<text>そう思わないか？</text>
+			<end post="U2FsdGVkX1+oux9WBwhQORIDDRFn" />
+		</scene>
+	</story>
+</data>

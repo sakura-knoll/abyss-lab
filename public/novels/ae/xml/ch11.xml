@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<img></img>
+	<characters>
+		<character name="リアーナ" color="#fff2c4" id="reaBlackRunWinterClose-up" src="11_22_reaBlackRunWinterClose-up.png" />
+		<character name="リアーナ" color="#fff2c4" id="reaNormalEmWinterClose-up" src="11_22_reaNormalEmWinterClose-up.png" />
+		<character name="リアーナ" color="#fff2c4" id="reaEmbarraCloseEyeWinterClose-up" src="11_22_reaEmbarraCloseEyeWinterClose-up.png" />
+		<character name="リアーナ" color="#fff2c4" id="reaEmbarraOpenEyeWinterClose-up" src="11_22_reaEmbarraOpenEyeWinterClose-up.png" />
+		<character name="リアーナ" color="#fff2c4" id="reaSmileAhWinterClose-up" src="11_22_reaSmileAhWinterClose-up.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einSlyWhiteClose-up" src="11_22_einSlyWhiteClose-up.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einFoolWhiteClose-up" src="11_22_einFoolWhiteClose-up.png" />
+		<character name="ヨアヒム" color="#ccbdac" id="joaNormalAhWinterClose-up" src="11_22_joaNormalAhWinterClose-up.png" />
+		<character name="ヨアヒム" color="#ccbdac" id="joaNormalEmWinterClose-up" src="11_22_joaNormalEmWinterClose-up.png" />
+		<character name="ヨアヒム" color="#ccbdac" id="joaSmileWinterClose-up" src="11_22_joaSmileWinterClose-up.png" />
+		<character name="ヨアヒム" color="#ccbdac" id="joaBlackWinterClose-up" src="11_24_joaBlackWinterClose-up.png" />
+		<character name="ヨアヒム" color="#ccbdac" id="joaNoFace" src="" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaShameEyeClose-up" src="11_24_teslaShameEyeClose-up.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaBoringEyeClose-up" src="11_24_teslaBoringEyeClose-up.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaAngryEyeClose-up" src="11_24_teslaAngryEyeClose-up.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaNormalEyeClose-up" src="11_24_teslaNormalEyeClose-up.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaEmbarraEyeClose-up" src="11_24_teslaEmbarraEyeClose-up.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaSnickerEyeClose-up" src="11_24_teslaSnickerEyeClose-up.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaSmileEyeClose-up" src="11_24_teslaSmileEyeClose-up.png" />
+		<character name="ハリー" color="#c34c66" id="harryNoFace" src="" />
+		<character name="「幽霊」" color="rgb(255,255,255)" id="ghostBlackFloatClose-up" src="11_24_ghostBlackFloatClose-up.png" />
+		<character name="웰트" color="#ffffff" id="weltGiggleSweaterClose-up" src="11_24_weltGiggleSweaterClose-up.png" />
+		<character name="웰트" color="#ffffff" id="weltShameSweaterClose-up" src="11_24_weltShameSweaterClose-up.png" />
+	</characters>
+	<story>
+		<scene id="0" background="bg.jpg">
+			<bgm src="mid-lude.mp3" status="start" />
+			<cg src="newchapter.png" bg="bg.jpg" />
+			<goto goto="10" change="#000000" />
+		</scene>
+		<scene id="10" background="studyLamp.jpg">
+			<bgm src="lab.mp3" status="start" />
+			<show chara="teslaShameEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">この金髪！烈火の剣を渡しなさい！</speak>
+			<show chara="teslaShameEyeClose-up" position="left" opacity="0.7" />
+			<show chara="reaEmbarraOpenEyeWinterClose-up" position="right" />
+			<speak chara="reannaNoFace">金髪って……私のこと？</speak>
+			<show chara="reaEmbarraCloseEyeWinterClose-up" position="right" />
+			<speak chara="reannaNoFace">……それに「烈火の剣」って何？</speak>
+			<show chara="reaEmbarraCloseEyeWinterClose-up" position="right" opacity="0.7" />
+			<show chara="joaSmileWinterClose-up" position="left" />
+			<speak chara="joaNoNameNoFace">戦乙女のお姉さん……多分ガスバーナーを渡せってことだと思う……。</speak>
+			<show chara="joaSmileWinterClose-up" position="left" opacity="0.7" />
+			<show chara="reaEmbarraCloseEyeWinterClose-up" position="right" />
+			<speak chara="reannaNoFace">あ、あぁ、ガスバーナーね……。</speak>
+			<show chara="reaEmbarraOpenEyeWinterClose-up" position="right" />
+			<speak chara="reannaNoFace">バーナー……バーナー……。</speak>
+			<show chara="reaEmbarraCloseEyeWinterClose-up" position="right" />
+			<speak chara="reannaNoFace">あった、はい、ガスバーナー。</speak>
+			<show chara="reaEmbarraCloseEyeWinterClose-up" position="right" opacity="0.7" />
+			<show chara="teslaBoringEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">そうそう……これよ。ありがと。</speak>
+			<show chara="teslaBoringEyeClose-up" position="left" opacity="0.7" />
+			<show chara="einFoolWhiteClose-up" position="right" />
+			<speak chara="einNoFace">すまない。うちのお馬鹿さんは、イライラすると人の言葉を喋れなくなるんだ。</speak>
+			<show chara="einFoolWhiteClose-up" position="right" opacity="0.7" />
+			<show chara="teslaAngryEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">ちょっと！このボサ頭！誰が馬鹿ですって！？</speak>
+			<show chara="teslaAngryEyeClose-up" position="left" opacity="0.7" />
+			<show chara="einSlyWhiteClose-up" position="right" />
+			<speak chara="einNoFace">高貴な테슬라閣下以外、他に誰かいるとでも？</speak>
+			<show chara="einSlyWhiteClose-up" position="right" opacity="0.7" />
+			<show chara="teslaAngryEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">こ、の……くらえ！烈火の剣！</speak>
+			<show chara="teslaAngryEyeClose-up" position="left" opacity="0.7" />
+			<show chara="weltScaredSweaterClose-up" position="right" />
+			<speak chara="weltNoFace">……危ない！</speak>
+			<show chara="weltShameSweaterClose-up" position="right" />
+			<speak chara="weltNoFace">……って、なんで나の方に向けるんだよ！？</speak>
+			<goto goto="30" change="#ffffff" />
+		</scene>
+		<scene id="30" background="studyLamp.jpg">
+			<bgm src="lab.mp3" status="continue" />
+			<text article="1">
+				<p class="article-text">どうしてこうなったのか……웰트は思わず深い溜め息をついた。</p>
+			</text>
+			<text article="1">
+				<p class="article-text">空もだいぶ暗くなった現在、42実験室には2人の来客者、リアーナ・ブリガンティアとヨアヒム・ノキアンビルタネンがいる。1人は本部でも優秀な戦乙女、もう1人はフィンランド人の息子だ。</p>
+				<p class="article-text">何故、この2人が同時にここに現れたかというと……。</p>
+				<p class="article-text">恐らく、それこそいわゆる「縁」というものであろう。</p>
+			</text>
+			<show chara="ghostBlackFloatClose-up" position="center" opacity="0.9" />
+			<text article="1">
+				<p class="article-text">この「縁」を結んだ不運な浮遊ロボットは、果たしてどう思っているのか。</p>
+				<br />
+				<p class="article-text">……もちろん、ロボットに思考能力があればの話だが。</p>
+			</text>
+			<goto goto="40" change="#ffffff" />
+		</scene>
+		<scene id="40" background="schoolNight3.jpg">
+			<text article="1">
+				<p class="article-text">ここが父親の職場ということもあって、ヨアヒムは何度も42実験室に来たことがある。毎回、天パのお姉さんとツインテールのお姉さんが、他の子どもでは体験できないようなことをさせてくれる。色鮮やかな化学溶液を作ったり、暗い部屋で放電コイルの音を楽しんだり、コンピューターのお姉さんと劇の練習をしたり……他の子たちに自慢できる思い出ばかりだ。</p>
+			</text>
+			<show chara="joaBlackWinterClose-up" position="center" opacity="0.9" />
+			<text article="1">
+				<p class="article-text" style="color:#ccbdac;font-style:italic;">「お姉ちゃんたちが一番好き！」</p>
+				<br />
+				<p class="article-text">――少年はそう思っている。웰트の目にはそう映った。</p>
+			</text>
+			<hide position="center" />
+			<text article="1">
+				<p class="article-text">ツインテールのお姉さんが夏休み中にくれた通信機、それが数日前に鳴った時も、きっと何か面白いことが起こると少年は本能的に感じたのだろう。</p>
+			</text>
+			<show chara="teslaBlackGlassWinterClose-up" position="center" opacity="0.9" />
+			<text article="1">
+				<p class="article-text" style="color:rgb(237,118,114);font-style:italic;">「やぁ少年、一緒にハロウィンのいたずらをしない？」</p>
+			</text>
+			<hide position="center" />
+			<text article="1">
+				<p class="article-text">ただ、ツインテールのお姉さんも墓地に忍ばせておいたロボットが、まさか偶然墓参りに来ていた戦乙女のお姉さんに「謎の飛行物体」扱いされ、バラバラにされるとは思っていなかっただろう。</p>
+			</text>
+			<show chara="reaBlackRunWinterClose-up" position="center" opacity="0.9" />
+			<text article="1">
+				<p class="article-text" style="color:#fff2c4;font-style:italic;">「あら……そうとは全然知らずに、本当にごめんなさい！ちゃんと弁償するわ」</p>
+			</text>
+			<hide position="center" />
+			<text article="1">
+				<p class="article-text">戦乙女のお姉さんが深くお辞儀し謝る様子を思い出し、ヨアヒムも自分のしたことを申し訳なく思った。</p>
+				<br />
+				<p class="article-text">―――少なくとも웰트の目にはそう映った。</p>
+			</text>
+			<show chara="joaBlackWinterClose-up" position="center" opacity="0.9" />
+			<text article="1">
+				<p class="article-text">何がなんでも弁償させようとする大人を前に、少年は場を和ませようと――</p>
+				<br />
+				<p class="article-text" style="color:#ccbdac;font-style:italic;">「リアーナお姉ちゃん、サイン頂戴！」</p>
+			</text>
+			<hide position="center" />
+			<text article="1">
+				<p class="article-text">と言うが……。</p>
+				<br />
+				<p class="article-text">赤毛の暴君が、このまま引き下がるなんてことはないだろう。</p>
+			</text>
+			<goto goto="60" change="#ffffff" />
+		</scene>
+		<scene id="60" background="studyLamp.jpg">
+			<bgm src="lab.mp3" status="continue" />
+			<show chara="teslaNormalEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">まったく……。</speak>
+			<show chara="teslaEmbarraEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">あんたのあの「黒淵白花」って、なんなの？配線を残らず内部から切断するなんて、いったいどんな芸当よ？</speak>
+			<show chara="teslaEmbarraEyeClose-up" position="left" opacity="0.7" />
+			<show chara="reaSmileAhWinterClose-up" position="right" />
+			<speak chara="reannaNoFace">「黒淵白花」は、分解と創生の能力を併せ持った「神の鍵」なの。</speak>
+			<show chara="reaEmbarraCloseEyeWinterClose-up" position="right" />
+			<speak chara="reannaNoFace">その破壊力は、標的を内から外へと無秩序な状態へ瓦解させるわ。</speak>
+			<show chara="reaEmbarraOpenEyeWinterClose-up" position="right" />
+			<speak chara="reannaNoFace">もし、これを最大出力で使用すれば――</speak>
+			<show chara="reaEmbarraOpenEyeWinterClose-up" position="right" opacity="0.7" />
+			<show chara="teslaEmbarraEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">ちょっと待って。</speak>
+			<show chara="teslaShameEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">「分解と創生の能力を併せ持った」ですって？</speak>
+			<show chara="teslaSnickerEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">ということは――修復能力もあるってこと？</speak>
+			<show chara="teslaSnickerEyeClose-up" position="left" opacity="0.7" />
+			<show chara="reaSmileAhWinterClose-up" position="right" />
+			<speak chara="reannaNoFace">……ええ、そうよ。</speak>
+			<show chara="reaSmileAhWinterClose-up" position="right" opacity="0.7" />
+			<show chara="teslaSmileEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">それを早く言いなさいよ！</speak>
+			<show chara="teslaSnickerEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">そいつで、このスクラップを元通り修復すれば、一件落着じゃない！</speak>
+			<show chara="teslaSnickerEyeClose-up" position="left" opacity="0.7" />
+			<show chara="reaEmbarraOpenEyeWinterClose-up" position="right" />
+			<speak chara="reannaNoFace">……ごめんなさい、それは無理なの。もしそれが可能なら、私もその場でしていたわ。</speak>
+			<show chara="reaEmbarraOpenEyeWinterClose-up" position="right" opacity="0.7" />
+			<show chara="teslaShameEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">え？なんで出来ないの？</speak>
+			<show chara="teslaShameEyeClose-up" position="left" opacity="0.7" />
+			<show chara="reaEmbarraCloseEyeWinterClose-up" position="right" />
+			<speak chara="reannaNoFace">黒淵白花の分解は、制限なく万物に使用ができるわ。でも、「創生」能力の方は生命体にしか適さないの。</speak>
+			<show chara="reaEmbarraCloseEyeWinterClose-up" position="right" opacity="0.7" />
+			<show chara="teslaNormalEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">ぐっ、そうなの。</speak>
+			<show chara="teslaEmbarraEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">いや、待って……おかしくない？有機と無機に絶対的な境界線はないはずでしょ。</speak>
+			<show chara="teslaShameEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">そもそも「人」だって、角度を変えてみれば自我のある機械と同じよ。</speak>
+			<show chara="teslaShameEyeClose-up" position="left" opacity="0.7" />
+			<show chara="reaEmbarraCloseEyeWinterClose-up" position="right" />
+			<speak chara="reannaNoFace">それは……。</speak>
+			<show chara="reaEmbarraCloseEyeWinterClose-up" position="right" opacity="0.7" />
+			<show chara="teslaShameEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">……初めて聞いたかしら？</speak>
+			<show chara="teslaSmileEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">私たちの臓器を想像してみて。それに細胞、ミトコンドリア、メッセージ物質。</speak>
+			<show chara="teslaSnickerEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">いずれも外部条件に基づいて、機械的に指令を実行してるだけでしょ？</speak>
+			<show chara="teslaNormalEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">ただ人は柔らかくて、機械は硬いだけ――材質の違いに過ぎないわ。</speak>
+			<show chara="teslaShameEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">私たち人類は賢そうだけど、機械は不器用そうなイメージがある。でもそれは私たちが、人類と同等の働きをする機械を作る能力がないからにすぎないわ。</speak>
+			<show chara="teslaBoringEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">頑なに「霊魂」なんてものを信じている奴は、この世の本質を深く知りたくないだけか――</speak>
+			<show chara="teslaEmbarraEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">若しくは「自我」の概念に分別を失って、「裸の王様」みたいに何がなんでもそれを見ようと自分の「合法性」を証明せずにはいられない人達よ。</speak>
+			<show chara="teslaShameEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">わかるかしら？こうした人間たちは、自分が自然の気まぐれの産物で、万事万物が発展する過程の副産物に過ぎないことを認めたがらないのよ。</speak>
+			<show chara="teslaSnickerEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">地に足をつけて、しっかり自分を見つめるよりも、虚構の中でもいいから「偉大」であろうとする。</speak>
+			<speak chara="teslaNoFace">怖くて仕方ないから、傲慢に他人を蔑視する――「王権神授説」を叫ぶ国王たちと何も変わらないわ。</speak>
+			<show chara="teslaSnickerEyeClose-up" position="left" opacity="0.7" />
+			<show chara="reaEmbarraOpenEyeWinterClose-up" position="right" />
+			<speak chara="reannaNoFace">あはは……。</speak>
+			<speak chara="reannaNoFace">そうね……。</speak>
+			<show chara="reaEmbarraCloseEyeWinterClose-up" position="right" />
+			<speak chara="reannaNoFace">あなたが言うことは最もだわ……でも、どんな修復にも図面が必要でしょ。</speak>
+			<show chara="reaEmbarraCloseEyeWinterClose-up" position="right" opacity="0.7" />
+			<show chara="teslaShameEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">図面？図面なら渡すわよ、何も難しいことじゃないわ。</speak>
+			<show chara="teslaShameEyeClose-up" position="left" opacity="0.7" />
+			<show chara="reaEmbarraOpenEyeWinterClose-up" position="right" />
+			<speak chara="reannaNoFace">いいえ……黒淵白花の場合、解析用遺伝子プログラム言語で書かれた図面でないといけないの。</speak>
+			<show chara="reaEmbarraOpenEyeWinterClose-up" position="right" opacity="0.7" />
+			<show chara="teslaBoringEyeClose-up" position="left" />
+			<speak chara="teslaNoFace" remark="next">え……DNA？</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">1953年初めワトソン（James Dewey Watson）とクリック（Francis Harry Compton Crick）はフランクリン（Rosalind Elsie Franklin）が撮影したX線回折写真に基づきDNA二重らせん構造の正確なモデルを提唱、『ネイチャー』に論文を発表した（第171巻4356期737頁、MOLECULAR’ STRUCTURE OF NUCLEIC ACIDS：A Structure for Deoxyribose Nucleic Acid）。</p>
+				<br />
+				<p class="article-text">P.S.たった1頁の論文で、署名と参考文献は738頁に掲載されている。</p>
+			</remark>
+			<show chara="teslaBoringEyeClose-up" position="left" opacity="0.7" />
+			<show chara="reaEmbarraCloseEyeWinterClose-up" position="right" />
+			<speak chara="reannaNoFace">そうなの、DNA形式の「図面」しか読み取れないの。</speak>
+			<show chara="reaEmbarraCloseEyeWinterClose-up" position="right" opacity="0.7" />
+			<show chara="teslaEmbarraEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">……ちぇ、つまんないの。</speak>
+			<show chara="teslaShameEyeClose-up" position="left" />
+			<speak chara="teslaNoFace" remark="next">「神の鍵」なんていうから……「賢者の石」か何かかと思ったわ。</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">賢者の石（Philosopher's stone）の概念は紀元後1世紀頃、ヘルメス主義（Hermeticism）の文書である『エメラルド・タブレット』（Emerald Tablet）に出てくる。</p>
+				<p class="article-text">「賢者の石」は錬金術の境地を象徴しており、これを使えば石を金に変えられるだけでなく、不老不死の霊薬でもあると考えられていた。</p>
+			</remark>
+			<show chara="teslaShameEyeClose-up" position="left" opacity="0.7" />
+			<show chara="reaEmbarraOpenEyeWinterClose-up" position="right" />
+			<speak chara="reannaNoFace">あははは……賢者の石なんて、そんな……。</speak>
+			<show chara="reaEmbarraOpenEyeWinterClose-up" position="right" opacity="0.7" />
+			<show chara="einSlyWhiteClose-up" position="right" />
+			<speak chara="einNoFace">すまない、うちの「お馬鹿さん」ときたら、博士と称される存在だというのにいまだ錬金術など信じていて。</speak>
+			<show chara="einSlyWhiteClose-up" position="right" opacity="0.7" />
+			<show chara="teslaAngryEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">……。</speak>
+			<show chara="teslaAngryEyeClose-up" position="left" opacity="0.7" />
+			<show chara="einSlyWhiteClose-up" position="right" />
+			<speak chara="einNoFace">どうした、何か文句でも？</speak>
+			<show chara="einSlyWhiteClose-up" position="right" opacity="0.7" />
+			<show chara="teslaAngryEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">…………。</speak>
+			<show chara="teslaAngryEyeClose-up" position="left" opacity="0.7" />
+			<show chara="einSlyWhiteClose-up" position="right" />
+			<speak chara="einNoFace">何も文句が無いのなら、修理を続けよう。</speak>
+			<show chara="einSlyWhiteClose-up" position="right" opacity="0.7" />
+			<show chara="teslaAngryEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">………………。</speak>
+			<show chara="teslaNormalEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">웰트。</speak>
+			<show chara="weltScaredSweaterClose-up" position="right" />
+			<speak chara="weltNoFace">はい！？</speak>
+			<show chara="weltScaredSweaterClose-up" position="right" opacity="0.7" />
+			<show chara="teslaShameEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">ケガさせるほど危険な道具じゃなきゃ、多少シバいてもいいわよね？</speak>
+			<show chara="teslaShameEyeClose-up" position="left" opacity="0.7" />
+			<show chara="weltTiredSweaterClose-up" position="right" />
+			<speak chara="weltNoFace">あー、それは……나を殴るとかじゃダメか？</speak>
+			<show chara="weltGiggleSweaterClose-up" position="right" />
+			<speak chara="weltNoFace">それか、関係ない人に迷惑が掛からないよう、家の壁相手に発散する方向で勘弁してくれると。</speak>
+			<show chara="weltGiggleSweaterClose-up" position="right" opacity="0.7" />
+			<show chara="teslaEmbarraEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">……。</speak>
+			<goto goto="70" change="0" />
+		</scene>
+		<scene id="70" background="">
+			<bgm src="lab.mp3" status="stop" />
+			<sound src="hit man.mp3" />
+			<text>ゴスッ！</text>
+			<goto goto="80" change="0" />
+		</scene>
+		<scene id="80" background="studyLamp.jpg">
+			<bgm src="themeTesla.mp3" status="start" />
+			<show chara="weltShameSweaterClose-up" position="right" />
+			<speak chara="weltNoFace">いってぇ！</speak>
+			<show chara="weltScaredSweaterClose-up" position="right" />
+			<speak chara="weltNoFace">なんで、また나なんだよ！？</speak>
+			<show chara="weltScaredSweaterClose-up" position="right" opacity="0.7" />
+			<show chara="teslaSnickerEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">だって、あんたの方が面白いじゃない。</speak>
+			<show chara="teslaSmileEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">それに、これが「関係ない人に迷惑が掛からない」一番いい方法でしょ。</speak>
+			<show chara="teslaSmileEyeClose-up" position="left" opacity="0.7" />
+			<show chara="weltSurpriseSweaterClose-up" position="right" />
+			<speak chara="weltNoFace">な、なんでだよ？</speak>
+			<show chara="weltSurpriseSweaterClose-up" position="right" opacity="0.7" />
+			<show chara="teslaShameEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">「……나を殴るとかじゃダメか？」って言ったじゃない。</speak>
+			<show chara="teslaSmileEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">ぷっ！</speak>
+			<show chara="teslaSnickerEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">아인슈타인博士、この無関係を決め込もうとした男にどう罰を与えたらいい？</speak>
+			<show chara="teslaSnickerEyeClose-up" position="left" opacity="0.7" />
+			<show chara="einSlyWhiteClose-up" position="left" />
+			<speak chara="einNoFace">死刑はどうかな。</speak>
+			<show chara="einSlyWhiteClose-up" position="left" opacity="0.7" />
+			<show chara="weltScaredSweaterClose-up" position="right" />
+			<speak chara="weltNoFace">……はぁ？ちょっと、どういうことだよ？</speak>
+			<show chara="weltScaredSweaterClose-up" position="right" opacity="0.7" />
+			<show chara="reaEmbarraCloseEyeWinterClose-up" position="left" />
+			<speak chara="reannaNoFace">……ははは。</speak>
+			<show chara="reaSmileAhWinterClose-up" position="left" />
+			<speak chara="reannaNoFace">……あなた、本当に「罪深い」男ね。</speak>
+			<show chara="reaEmbarraCloseEyeWinterClose-up" position="left" />
+			<speak chara="reannaNoFace">諦めて受け入れなさい。</speak>
+			<show chara="reaEmbarraCloseEyeWinterClose-up" position="left" opacity="0.7" />
+			<show chara="weltScaredSweaterClose-up" position="right" />
+			<speak chara="weltNoFace">……待て待て、そんな言葉で納得できないぞ、나は。</speak>
+			<show chara="weltScaredSweaterClose-up" position="right" opacity="0.7" />
+			<show chara="joaNormalAhWinterClose-up" position="left" />
+			<speak chara="joaNoFace">えっと……。</speak>
+			<show chara="joaNormalEmWinterClose-up" position="left" opacity="0.7" />
+			<show chara="weltTiredSweaterClose-up" position="right" />
+			<speak chara="weltNoFace">なぁ、少年……助けてくれよ、同じ男だろ。</speak>
+			<show chara="weltTiredSweaterClose-up" position="right" opacity="0.7" />
+			<show chara="joaNormalEmWinterClose-up" position="left" />
+			<speak chara="joaNoFace">……。</speak>
+			<show chara="joaSmileWinterClose-up" position="left" />
+			<speak chara="joaNoFace">ご愁傷様、です？</speak>
+			<show chara="joaSmileWinterClose-up" position="left" opacity="0.7" />
+			<show chara="weltScaredSweaterClose-up" position="right" />
+			<speak chara="weltNoFace">ご、ご愁傷様！？</speak>
+			<show chara="weltShameSweaterClose-up" position="right" />
+			<speak chara="weltNoFace" remark="next">君も「ブルータス」か！？</speak>
+			<remark post="U2FsdGVkX19IYJuwZsYSwhJzkZ5S">
+				<p class="article-text-h">注：</p>
+				<p class="article-text">シェイクスピアの歴史劇『ジュリアス・シーザー』に出てくる「Et tu, Brute?」（ブルータス、お前もか？）というセリフはカエサルが死に際、自分を刺殺した養子のブルータスに向かって放った最後の一言。</p>
+			</remark>
+			<show chara="weltShameSweaterClose-up" position="right" opacity="0.7" />
+			<show chara="teslaSnickerEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">あんた、この子の義理の親でもないのに、「ブルータス」も何もないでしょ。</speak>
+			<show chara="teslaSnickerEyeClose-up" position="left" opacity="0.7" />
+			<show chara="einSlyWhiteClose-up" position="left" />
+			<speak chara="einNoFace">なら、いっそこれを機に手続きするのはどうかな？</speak>
+			<show chara="einSlyWhiteClose-up" position="left" opacity="0.7" />
+			<show chara="teslaSnickerEyeClose-up" position="left" />
+			<speak chara="teslaNoFace">ヨアヒムの方がお断りでしょうけどね。はははは。</speak>
+			<show chara="teslaSnickerEyeClose-up" position="left" opacity="0.7" />
+			<show chara="weltScaredSweaterClose-up" position="right" />
+			<speak chara="weltNoFace">……もう、いい加減にしてくれーー！</speak>
+			<goto goto="100" change="#ffffff" />
+		</scene>
+		<scene id="100" background="">
+			<bgm src="lab.mp3" status="stop" />
+			<speak chara="schroNoFace">――ストップなのです！</speak>
+			<goto goto="110" change="0" />
+		</scene>
+		<scene id="110" background="CG11-1.jpg">
+			<bgm src="horror.mp3" status="start" />
+			<text>ニューヨーク、エジソンタワー・地下実験室。</text>
+			<speak chara="schroNoFace" remark="next">ハリー、反射体はまだそのままなのです！</speak>
+			<speak chara="schroNoFace">……見てください、反応がもう相当危険な領域なのです。</speak>
+			<text>シュレーディンガーは思わず顔の汗を拭おうとしたが、分厚い防護服の上からではなんの効果もないことに今更ながら気づく。</text>
+			<speak chara="schroNoFace" remark="next">……ルイス、ドライバーをしっかり持つのです！この金属はジェンガ並みに不安定なのです。</speak>
+			<speak chara="schroNoFace">そう、抜くときはゆっくり。</speak>
+			<speak chara="schroNoFace">ゆっくり……。</speak>
+			<speak chara="schroNoFace">……その調子、なのです。</speak>
+			<speak chara="schroNoFace">これでこの装置も未臨界の安定状態になるはずなのです……。</speak>
+			<speak chara="schroNoFace">順調にいけば――</speak>
+			<speak chara="schroNoFace">――ハリー、今「コア」の温度は何度、なのです？</speak>
+			<speak chara="harryNoFace">……45.7度です！</speak>
+			<speak chara="harryNoFace">……あっという間に20.7度上昇しました！非常に高い効率で、通常の内部エネルギーへ転換できています。</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">ハリー・ダフリアン（Harry K. Daghlian, Jr 、1921.4 - 1945.9）とルイス・スローティン（Louis Alexander Slotin 、1910.12 - 1946.5）</p>
+				<p class="article-text">米ロスアラモス国立研究所の職員で、彼らは不幸なことにそれぞれ1945年8月21日及び1946年5月21日、操作を誤って致死量の放射線を浴びて死去した。</p>
+				<p class="article-text">特にルイス・スローティン（Louis Alexander Slotin）は「両手で原子爆弾を分解した」ことで世に名を馳せた。</p>
+			</remark>
+			<goto goto="120" change="#ffffff" />
+		</scene>
+		<scene id="120" background="adaRoom.jpg">
+			<bgm src="11_17_tatakau.mp3" status="start" />
+			<show chara="nokiaSeriousEmWinterFar" position="right" opacity="0.7" />
+			<show chara="edisonSmileWinterFar" position="left" />
+			<speak chara="edisonNoFace">……素晴らしい！</speak>
+			<show chara="edisonLaughWinterFar" position="left" />
+			<speak chara="edisonNoFace">これは人類史上最も偉大な「民間」発明になるであろう！</speak>
+			<speak chara="edisonNoFace">立派なプロジェクト名をつけねばならんな！</speak>
+			<show chara="edisonSighWinterFar" position="left" />
+			<speak chara="edisonNoFace">さもないと、プランクの奴に教養がないと笑われかねない。</speak>
+			<show chara="edisonSighWinterFar" position="left" opacity="0.7" />
+			<show chara="nokiaSeriousAhWinterFar" position="right" />
+			<speak chara="nokiaNoFace">……偉大な民間発明？この発電が？</speak>
+			<show chara="nokiaSeriousAhWinterFar" position="right" opacity="0.7" />
+			<show chara="edisonLaughWinterFar" position="left" />
+			<speak chara="edisonNoFace">フッ、ハハハハ！何を言っているのだ。</speak>
+			<show chara="edisonSmileWinterFar" position="left" />
+			<speak chara="edisonNoFace">この発明が成功した暁には、私も、天命組織も、全員の望みが叶うのだぞ。</speak>
+			<show chara="edisonSlyWinterFar" position="left" />
+			<speak chara="edisonNoFace">いや、その時には……天命組織が存在する価値も存在するための資本さえなくなっているであろう。</speak>
+			<show chara="edisonSlyWinterFar" position="left" opacity="0.7" />
+			<show chara="nokiaSeriousAhWinterFar" position="right" />
+			<speak chara="nokiaNoFace">ど、どういう意味だい……。</speak>
+			<speak chara="nokiaNoFace">「存在する価値も、存在するための資本さえもない」？</speak>
+			<show chara="nokiaSeriousAhWinterFar" position="right" opacity="0.7" />
+			<show chara="edisonNeckWinterFar" position="left" />
+			<speak chara="edisonNoFace">当然ではないか。</speak>
+			<show chara="edisonSighWinterFar" position="left" />
+			<speak chara="edisonNoFace">解せぬかな？</speak>
+			<show chara="edisonSeriousWinterFar" position="left" />
+			<speak chara="edisonNoFace">制御可能、かつどんな状況でも崩壊エネルギーを通常の内部エネルギーに変換することができるのだ――</speak>
+			<show chara="edisonSmileWinterFar" position="left" />
+			<speak chara="edisonNoFace">この技術を広め、地球上の至る所で崩壊エネルギーを吸収、変換すれば――</speak>
+			<show chara="edisonNeckWinterFar" position="left" />
+			<speak chara="edisonNoFace">崩壊自体が存在しないことになるだろう？</speak>
+			<show chara="edisonSighWinterFar" position="left" />
+			<speak chara="edisonNoFace">天命は……崩壊でもって崩壊に対抗する組織でしかない。</speak>
+			<show chara="edisonSlyWinterFar" position="left" />
+			<speak chara="edisonNoFace">つまり、崩壊と切り離したら、当然何者でもなくなるのだ。</speak>
+			<show chara="edisonLaughWinterFar" position="left" />
+			<speak chara="edisonNoFace">この新大陸の力みなぎる人々が当時、斜陽の国王を必要しなかったようにだ！</speak>
+			<speak chara="edisonNoFace" remark="next">「昇れ、美しい月よ！」</speak>
+			<speak chara="edisonNoFace" remark="next">「妬み深い太陽の光を消してしまえ、自分に仕える乙女であるあの人の方が美しいと、怒り嘆き、両目を赤くしているあの太陽の光を消してしまうのだ！」</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">「昇れ、美しい太陽、妬み深い月の光を消してしまえ、自分に仕えるあの人の方が美しいと、悲しみ嘆き、病み青ざめている月の光を消してしまうのだ」――『ロミオとジュリエット』シェイクスピア。</p>
+			</remark>
+			<show chara="edisonSeriousWinterFar" position="left" />
+			<speak chara="edisonNoFace">ふむ。</speak>
+			<show chara="edisonNeckWinterFar" position="left" />
+			<speak chara="edisonNoFace">月……月光……。</speak>
+			<show chara="edisonSlyWinterFar" position="left" />
+			<speak chara="edisonNoFace">……「ムーンライト・スローン」？</speak>
+			<show chara="edisonLaughWinterFar" position="left" />
+			<speak chara="edisonNoFace">そうだ、作戦名「ムーンライト・スローン」！こういうのはどうかね？</speak>
+			<end post="U2FsdGVkX18acvktWFkCKCirIU76" />
+		</scene>
+	</story>
+</data>

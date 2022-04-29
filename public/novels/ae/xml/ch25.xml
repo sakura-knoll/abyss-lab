@@ -1,0 +1,424 @@
+<data>
+	<img></img>
+	<characters>
+		<character color="rgb(221,149,235)" id="ritaFullNameNoFace" name="マーガレット" src="" />
+		<character color="rgb(221,149,235)" id="ritaSmileGunFar" name="マーガレット" src="06_29_ritaSmileGunFar.png" />
+		<character color="rgb(221,149,235)" id="ritaNormalGunFar" name="マーガレット" src="06_29_ritaNormalGunFar.png" />
+		<character color="rgb(221,149,235)" id="ritaTalkGunFar" name="マーガレット" src="06_29_ritaTalkGunFar.png" />
+		<character color="rgb(221,149,235)" id="ritaNodGunFar" name="マーガレット" src="06_29_ritaNodGunFar.png" />
+		<character color="rgb(208,223,162)" id="planckYourNameNoFace" name="君" src="" />
+		<character color="rgb(255,255,255)" id="crewNoNameNoFace" name="クルー" src="" />
+		<character color="rgb(161,135,121)" id="schroPlasmaNoFace" name="？？？" src="" />
+		<character color="rgb(255,255,255)" id="memoryLoading" name="？？？" src="06_28_memoryLoading.png" />
+		<character color="#fff7cd" id="ottoScornfulGunFar" name="オットー" src="06_29_ottoScornfulGunFar.png" />
+		<character color="#fff7cd" id="ottoHaughtyGunFar" name="オットー" src="06_29_ottoHaughtyGunFar.png" />
+		<character color="#fff7cd" id="ottoConfidentGunFar" name="オットー" src="06_29_ottoConfidentGunFar.png" />
+		<character color="#fff7cd" id="ottoLaughGunFar" name="オットー" src="06_29_ottoLaughGunFar.png" />
+		<character color="#fff7cd" id="ottoChangeGunFar" name="オットー" src="06_29_ottoChangeGunFar.png" />
+	</characters>
+	<story>
+		<scene background="bg.jpg" id="0">
+			<bgm src="mid-lude.mp3" status="start" />
+			<cg bg="bg.jpg" src="newchapter.png" />
+			<goto change="#000000" goto="10" />
+		</scene>
+		<scene background="beachNorfolk.jpg" id="10">
+			<bgm src="10_25_noise.mp3" status="start" />
+			<sound src="8_24_launch.mp3" />
+			<text remark="next">突如発生した大規模電磁パルスの影響により、乗っていた専用機がノーフォーク海軍基地の軍用空港に着陸した。</text>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">ノーフォーク海軍基地（Naval Station Norfolk）はアメリカバージニア州ノーフォークにある軍港。アメリカ「大西洋艦隊」が母港としており、世界最大の海軍基地でもある。</p>
+			</remark>
+			<text>観測データによると、電磁パルスの中心地はニューヨーク市付近。しかも、恐ろしいほど崩壊パルスと酷似している。</text>
+			<text>ただ、驚嘆も悲観もしている暇などなかった。「緊急問い合わせリスト」に則り、最高指揮官として現場で救援活動を統括する責任ができてしまったのだから。</text>
+			<text>もっとも、もともとカモフラージュ役としては自分が適任だったのだ。だから、これも予定を繰り上げて動き出すことになっただけのこと。これでオットーの人質となるリスクを少しでも減らすことができる。</text>
+			<text>——隠れた敵を混乱させるのに、偽造した発信基地局を使って自分の生徒へと連絡し、あたかも計画が始まったばかりのように見せかけたりもしたが。</text>
+			<text>まさか、ちょっとした食い違いで一時的とはいえ、世界でもっとも強い国の指揮官になってしまうなんて。</text>
+			<text>とりあえず、行動を共にしている非戦闘員を基地の中に避難させよう。他の「重要な客人」を乗せた専用機も、次々ここに来るはずだ。</text>
+			<text>結果だけ見れば、運がよかったのかもしれない——何せ、ここはとても広い国だ。</text>
+			<text>どんな災害が起こったとしても、何だかんだ人は被害の受けない場所を見つけ出すのだから。</text>
+			<goto change="#ffffff" goto="20" />
+		</scene>
+		<scene background="aircraftCockpit.jpg" id="20">
+			<bgm src="04_20_tank.mp3" status="start" />
+			<speak chara="ritaFullNameNoFace">教授、ラリタン湾上空に到着したようです。</speak>
+			<speak chara="ritaFullNameNoFace">フォーメーションを偵察用にしますか？</speak>
+			<text>「エージェント」の先導の下、2回の給油と4時間越えの長距離飛行を経て、先遣しているヘリコプター編隊が災害の中心エリアへと間もなく到着する。</text>
+			<text>地表を見下ろすと、被害を受けた形跡は見当たらない。一部の道路が渋滞している以外、上空から見る限りでは目に見えた異常はないようだ。</text>
+			<speak chara="planckYourNameNoFace">ええ、偵察用にしてちょうだい。</speak>
+			<speak chara="planckYourNameNoFace">この状況、どうも不自然ね。総員に最高レベルの警戒態勢を取るよう通達して。どんな些細な点も見逃さないように。</speak>
+			<speak chara="ritaFullNameNoFace">はい、教授。</speak>
+			<speak chara="planckYourNameNoFace">そのまま警戒を保つように。私はコーヒーを淹れてくるわ。</speak>
+			<hide position="center" />
+			<speak chara="crewNoNameNoFace">……流星？2時の方向、空に流星がっ！</speak>
+			<speak chara="planckYourNameNoFace">……！？</speak>
+			<goto change="0" goto="30" />
+		</scene>
+		<scene background="CG25-1.jpg" id="30">
+			<bgm src="04_20_tank.mp3" status="continue" />
+			<text>突如現れた流星も確かに驚くべきことではあったが。</text>
+			<text>しかし、それよりも驚いたのが、道中、声一つ立てず箱の中に隠れていた、この子供のことだった。</text>
+			<goto change="#ffffff" goto="40" />
+		</scene>
+		<scene background="darkEnergy.jpg" id="40">
+			<bgm src="04_20_tank.mp3" status="stop" />
+			<text>……。</text>
+			<bgm src="03_03_bostonNight.mp3" status="start" />
+			<text>すべきことは理解していた。何があろうとも、自分があの邪悪極まりない主教の注意を引きつけなければいけないと。</text>
+			<text>ただの負傷者であれば、今の自分の力をもって量子化させ、隙を見て友人たちを移動させることも可能だった。</text>
+			<text>しかし、現在の状況では……まったく意味をなさない。</text>
+			<text>なぜなら、「黒淵」が彼らに与えた致命傷は、普通の治療では効果がないことが分かっていたからだ。</text>
+			<text>さらに最悪なことに、唯一それが可能な「白花」も「黒淵」と組み合わせなければ十分な創生効果を生み出せない。</text>
+			<text>その上、自分はこの双子の神の鍵が認める主ですらないのだ……。</text>
+			<text>一体どうすれば——</text>
+			<text>……。</text>
+			<text>いや、まだチャンスはあるかもしれない。</text>
+			<text>……。</text>
+			<text>아인슈타인。</text>
+			<text>테슬라。</text>
+			<text>웰트。</text>
+			<text>彼らの光が、このまま暗闇の中に埋もれてしまっていいはずがない。</text>
+			<text>そのために私は、今戦える唯一の人間としてここに留まる必要がある。</text>
+			<goto change="#ffffff" goto="50" />
+		</scene>
+		<scene background="CG25-2.jpg" id="50">
+			<bgm src="8_24_war.mp3" status="start" />
+			<speak chara="ottoNoFace">……大口ばかり叩くヤツだ。</speak>
+			<speak chara="ottoNoFace">……近接攻撃がダメなら、今度は分身を使って僕を惑わすつもりかい？</speak>
+			<speak chara="ottoNoFace">いいだろう。なら、決しようじゃないか。誰が無限の可能性を得るのに相応しい存在なのか。</speak>
+			<goto change="0" goto="60" />
+		</scene>
+		<scene background="CG25-3.jpg" id="60">
+			<bgm src="8_24_war.mp3" status="continue" />
+			<speak chara="ottoNoFace">この世に永遠のものなど必要ない。</speak>
+			<speak chara="ottoNoFace">夢幻が泡となり、瞬く間に移り変わっていく。どれも真実なのだ。</speak>
+			<speak chara="ottoNoFace">第一の「神の鍵」を第七に擬態・複製——</speak>
+			<goto change="0" goto="70" />
+		</scene>
+		<scene background="CG25-3.jpg" id="70">
+			<bgm src="8_24_war.mp3" status="continue" />
+			<cg bg="CG25-3.jpg" fadeIn="0" fadeOut="0" src="xuKongWanZang.png" />
+			<bgm src="8_24_war.mp3" status="stop" />
+			<sound src="05_18_gun.mp3" />
+			<cg bg="CG25-4.jpg" fadeIn="0" src="yuZhongTianHua.png" />
+			<goto change="#000000" goto="90" />
+		</scene>
+		<scene background="brightonBeach.jpg" id="90">
+			<bgm src="04_20_tank.mp3" status="start" />
+			<show chara="ottoScornfulGunFar" position="center" />
+			<speak chara="ottoNoFace">……ひとたまりもなかったか。</speak>
+			<goto change="0" goto="100" />
+		</scene>
+		<scene background="CG25-5.jpg" id="100">
+			<bgm src="04_20_tank.mp3" status="stop" />
+			<sound src="05_18_claw.mp3" />
+			<cg bg="CG25-5.jpg" fadeIn="0" fadeOut="1" src="CG25-5.jpg" />
+			<goto change="0" goto="110" />
+		</scene>
+		<scene background="brightonBeach.jpg" id="110">
+			<bgm src="morning.mp3" status="start" />
+			<speak chara="ritaNoNameNoFace">……チッ。やっぱり効かないわね。</speak>
+			<goto change="0" goto="120" />
+		</scene>
+		<scene background="brightonBeach.jpg" id="120">
+			<bgm src="morning.mp3" status="continue" />
+			<show chara="ottoChangeGunFar" position="center" />
+			<speak chara="ottoNoFace">……ふん。</speak>
+			<bgm src="04_20_tank.mp3" status="start" />
+			<show chara="ottoScornfulGunFar" position="center" />
+			<speak chara="ottoNoFace">出て来い、ネズミ。</speak>
+			<show chara="ottoHaughtyGunFar" position="center" />
+			<speak chara="ottoNoFace">僕の楽しみを邪魔しておいて、五体満足で帰れると思うなよ。</speak>
+			<hide position="center" />
+			<speak chara="ritaNoNameNoFace">……フフ。主教様、ご存じありません？</speak>
+			<show chara="ritaSmileGunFar" position="center" />
+			<speak chara="ritaFullNameNoFace">歴史上、最も偉大な哲学者はこう言いました。</speak>
+			<show chara="ritaNormalGunFar" position="center" />
+			<speak chara="ritaFullNameNoFace" remark="next">「すべての偉大な世界史的な出来事と偉人は二度現れる——」</speak>
+			<speak chara="ritaFullNameNoFace" remark="next">「一度目は悲劇として、二度目はみじめな笑劇として」</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">これはマルクス『ルイ・ボナパルトのブリュメール十八日』の書き出しの言葉である（原文とは若干異なる）。</p>
+			</remark>
+			<show chara="ottoConfidentGunFar" position="center" />
+			<speak chara="ottoNoFace">……ほう？</speak>
+			<show chara="ritaTalkGunFar" position="center" />
+			<speak chara="ritaFullNameNoFace">オットー様……さらに私たちの国の『独立宣言』にはこのような一節があります——</speak>
+			<show chara="ritaNormalGunFar" position="center" />
+			<speak chara="ritaFullNameNoFace">「現在の英国王の治世の歴史は、度重なる不正と権利侵害の歴史であり、そのすべてがこれらの諸邦に対する絶対的な暴政の確立を直接の目的としている。」</speak>
+			<show chara="ritaSmileGunFar" position="center" />
+			<speak chara="ritaFullNameNoFace">あなたが「ジョージ三世」の行いを真似しようとするなら——</speak>
+			<show chara="ritaNodGunFar" position="center" />
+			<speak chara="ritaFullNameNoFace">——ご自分を本当に「ピエロ」にしてしまうだけですよ。</speak>
+			<show chara="ottoLaughGunFar" position="center" />
+			<speak chara="ottoNoFace">……ハッ。こんな所に突然現れて、時代を切り開くご高説をのたまうとはね。たかだか、ホテルのオーナーの分際で。</speak>
+			<show chara="ottoHaughtyGunFar" position="center" />
+			<speak chara="ottoNoFace">ならば、こう答えてやろう——</speak>
+			<show chara="ottoConfidentGunFar" position="center" />
+			<speak chara="ottoNoFace">どんな統治もある種の暴政なのだ。責任のない者だけが言葉を飾り、人の目をごまかそうとしているだけにすぎない。</speak>
+			<show chara="ottoHaughtyGunFar" position="center" />
+			<speak chara="ottoNoFace">だから、君たちも哲学的なレベルまで上る必要などまったくないのだ——</speak>
+			<show chara="ottoScornfulGunFar" position="center" />
+			<speak chara="ottoNoFace">——僕は、今日、邪魔者を片付けようとしているだけなんだから。</speak>
+			<goto change="#ffffff" goto="150" />
+		</scene>
+		<scene background="darkEnergy.jpg" id="150">
+			<bgm src="11_17_tatakau.mp3" status="start" />
+			<text>よし……完璧に時間を稼げたのです。</text>
+			<text>まさか、こんな助っ人がいるなんて、予想もしていなかったけど……。</text>
+			<text>ただ、心より感謝なのです。</text>
+			<text>もちろん、眼前に敵がいる状況で通信を送り続けている——エイダにも。</text>
+			<text>とにかく、これで……。</text>
+			<text>……バトンをあの人に渡せるのです。</text>
+			<goto change="#ffffff" goto="160" />
+		</scene>
+		<scene background="CG25-6.jpg" id="160">
+			<bgm src="11_17_tatakau.mp3" status="continue" />
+			<speak chara="ottoNoFace">……ん？</speak>
+			<goto change="0" goto="170" />
+		</scene>
+		<scene background="CG25-7.jpg" id="170">
+			<bgm src="11_17_tatakau.mp3" status="continue" />
+			<speak chara="schroPlasmaNoFace">意識の再構築完了。崩壊エネルギーによる表現を採用。</speak>
+			<speak chara="schroPlasmaNoFace">全体粒子、マクスウェル分布を離脱。</speak>
+			<speak chara="schroPlasmaNoFace">基本次元のユニタリー性消去。</speak>
+			<goto change="0" goto="180" />
+		</scene>
+		<scene background="CG25-8.jpg" id="180">
+			<bgm src="11_17_tatakau.mp3" status="continue" />
+			<cg bg="CG25-8.jpg" fadeIn="0" fadeOut="0" src="heiYuanBaiHuaDiLingGongLv.png" />
+			<bgm src="11_17_tatakau.mp3" status="stop" />
+			<sound src="05_18_smash.mp3" />
+			<cg bg="CG25-8-2.jpg" fadeIn="0" fadeOut="1" src="jieXianTuPoQiangZhiZhanKai.png" />
+			<goto change="#ffffff" goto="900" />
+		</scene>
+		<scene background="cloudSky.jpg" id="900">
+			<bgm src="themeWelt.mp3" status="start" />
+			<text>君は、朦朧とする意識の中から目覚める。</text>
+			<text>懐かしい息遣いを感じる。いや、エネルギーだ。そして、それはすぐに消えていく。</text>
+			<text>君の体内にある魂の残り滓とは違い——</text>
+			<text>彼女は死んだわけではない。かと言って生きているとも言えないだろう。</text>
+			<text>……だが、彼女のことを心配するよりも、君はもっと大事なことをしなくてはならないと頭で理解していた。</text>
+			<text>彼女が施してくれたプラズマシールドのおかげで、主教はしばらく手出しができない。</text>
+			<text>今、君は確信できている——</text>
+			<text>아인슈타인と테슬라、彼女たちの命がこのまま終わりなどしないということを。</text>
+			<text>彼女たちが、まるで負傷していなかったのように。</text>
+			<text>彼女たちが、まるで不死身であったかのように。</text>
+			<text>……君は、生命を創造するのに必要な秘密を手にしたことを理解している。</text>
+			<text>この知識が、どこから来たものか分からなくとも——</text>
+			<text>言葉は自然と紡がれ、エネルギーを調整し、遺伝子をリセットした……全てが淀みなく、流れるように行われる。</text>
+			<text>君はこれらの代価を考える必要など、まったくなかった……。</text>
+			<text>なぜなら……。</text>
+			<text>この1ヵ月、君の周りで起きた数々の出来事が、何物にも代えがたい宝となっていたのだから。</text>
+			<goto change="#ffffff" goto="1000" />
+		</scene>
+		<scene background="studyNight.jpg" id="1000">
+			<bgm src="10_20_londonderry_p.mp3" status="start" />
+			<show chara="memoryLoading" position="center" />
+			<show chara="einSmileClose" position="back" />
+			<speak chara="einSmileClose">……웰트。W.E.L.T。</speak>
+			<speak chara="einSmileClose">君にお似合いだと思ってね。</speak>
+			<goto change="#ffffff" goto="1010" />
+		</scene>
+		<scene background="weltRoomDay2.jpg" id="1010">
+			<bgm src="10_20_londonderry_p.mp3" status="continue" />
+			<show chara="memoryLoading" position="center" />
+			<show chara="teslaAngryCloseNoName" position="back" />
+			<speak chara="teslaAngryCloseNoName">まったく、あんた耳聞こえないわけ？何回呼ばせる気よ！せっかくドアをこじ開けてきたのに。</speak>
+			<goto change="#ffffff" goto="1015" />
+		</scene>
+		<scene background="italianRestaurant.jpg" id="1015">
+			<bgm src="10_20_londonderry_p.mp3" status="continue" />
+			<show chara="memoryLoading" position="center" />
+			<show chara="0einSlyVestClose-up" position="back" />
+			<speak chara="einNoFace">君は知らないだろうが、僕は最近無駄話を控えてるんだ。</speak>
+			<speak chara="einNoFace">僕の祖父が言うには「成功は天賦の才と汗に加えて、無駄話の少なさ」だそうだ。</speak>
+			<goto change="#ffffff" goto="1020" />
+		</scene>
+		<scene background="barBillings.jpg" id="1020">
+			<bgm src="10_20_londonderry_p.mp3" status="continue" />
+			<show chara="memoryLoading" position="center" />
+			<show chara="planckSlyClose-up" position="back" />
+			<speak chara="planckNoFace">ロッキー・マウンテン・オイスターよ。</speak>
+			<show chara="schroNormalAhClose-up" position="back" />
+			<speak chara="schroNoFace">教授はこれが好きなのです。みなさんの口に合うかどうかはわからないなのですが。</speak>
+			<goto change="#ffffff" goto="1030" />
+		</scene>
+		<scene background="CG6-1.jpg" id="1030">
+			<bgm src="10_20_londonderry_p.mp3" status="continue" />
+			<show chara="memoryLoading" position="back" />
+			<speak chara="teslaNoFace">ちょっと。何してるのよ！</speak>
+			<speak chara="teslaNoFace">ねえ！セクハラよ、やめて！</speak>
+			<speak chara="teslaNoFace">아인슈타인！シュレーディンガー！プランク！お願い、彼女を止めて！？</speak>
+			<goto change="#ffffff" goto="1040" />
+		</scene>
+		<scene background="CG6-2.jpg" id="1040">
+			<bgm src="10_20_londonderry_p.mp3" status="continue" />
+			<show chara="memoryLoading" position="back" />
+			<speak chara="einNoFace">To the youngs who came here（ここに来た少年たちよ）</speak>
+			<speak chara="einNoFace">I leave the last Soulium to you（私は最後の魂鋼を君たちに預けよう）</speak>
+			<goto change="#ffffff" goto="1050" />
+		</scene>
+		<scene background="adaRoom.jpg" id="1050">
+			<bgm src="10_20_londonderry_p.mp3" status="continue" />
+			<show chara="memoryLoading" position="center" />
+			<show chara="adaSmileFar" position="back" />
+			<speak chara="adaNoFace">こんにちは。デバイスインターフェースの試作品0042号、人類としての名前はエイダ。</speak>
+			<speak chara="adaNoFace">A・D・Aと書いて、</speak>
+			<speak chara="adaNoFace">エ、イ、ダです。</speak>
+			<goto change="#ffffff" goto="1060" />
+		</scene>
+		<scene background="corridorMessy.jpg" id="1060">
+			<bgm src="10_20_londonderry_p.mp3" status="continue" />
+			<show chara="memoryLoading" position="center" />
+			<show chara="teslaFoolDrunkWinterClose" position="back" />
+			<speak chara="teslaNoFace">ハハハハ、いざ話してみると恥ずかしいものね。</speak>
+			<goto change="#ffffff" goto="1070" />
+		</scene>
+		<scene background="graveDayLate.jpg" id="1070">
+			<bgm src="10_20_londonderry_p.mp3" status="continue" />
+			<show chara="memoryLoading" position="center" />
+			<show chara="reaSmileEmWinterFar" position="back" />
+			<speak chara="reannaNoNameNoFace">リアーナ・ブリガンティアよ。</speak>
+			<show chara="reaSmileAhWinterFar" position="back" />
+			<speak chara="reannaNoFace">本部直属の戦乙女だけど――今日はあなたと同じ、ただ墓参りに来ただけの人。</speak>
+			<goto change="#ffffff" goto="1080" />
+		</scene>
+		<scene background="studyLamp.jpg" id="1080">
+			<bgm src="10_20_londonderry_p.mp3" status="continue" />
+			<show chara="memoryLoading" position="center" />
+			<show chara="teslaBoringEyeClose-up" position="back" />
+			<speak chara="teslaNoFace">頑なに「霊魂」なんてものを信じている奴は、この世の本質を深く知りたくないだけか――</speak>
+			<show chara="teslaEmbarraEyeClose-up" position="back" />
+			<speak chara="teslaNoFace">若しくは「自我」の概念に分別を失って、「裸の王様」みたいに何がなんでもそれを見ようと自分の「合法性」を証明せずにはいられない人達よ。</speak>
+			<show chara="teslaShameEyeClose-up" position="back" />
+			<speak chara="teslaNoFace">わかるかしら？こうした人間たちは、自分が自然の気まぐれの産物で、万事万物が発展する過程の副産物に過ぎないことを認めたがらないのよ。</speak>
+			<show chara="teslaSnickerEyeClose-up" position="back" />
+			<speak chara="teslaNoFace">地に足をつけて、しっかり自分を見つめるよりも、虚構の中でもいいから「偉大」であろうとする。</speak>
+			<speak chara="teslaNoFace">怖くて仕方ないから、傲慢に他人を蔑視する――「王権神授説」を叫ぶ国王たちと何も変わらないわ。</speak>
+			<goto change="#ffffff" goto="1090" />
+		</scene>
+		<scene background="CG12-1.jpg" id="1090">
+			<bgm src="10_20_londonderry_p.mp3" status="continue" />
+			<show chara="memoryLoading" position="back" />
+			<speak chara="einNoFace">"But come ye back when summer's in the meadow,（どうか帰ってきてほしい、草原に夏が訪れる頃でも）"</speak>
+			<speak chara="einNoFace">"Or when the valley's hushed and white with snow,（谷が純白な雪で、しじまに染まる頃でもいい）"</speak>
+			<speak chara="einNoFace">"It's you, it's you must go and I must bide.（あなたはどうしても行ってしまうんだね、それでも私はずっと待っているよ）"</speak>
+			<speak chara="einNoFace">"Oh, Danny Boy, oh Danny Boy, I love you so!（ああ、私のダニー、心から愛しているよ）"</speak>
+			<goto change="#ffffff" goto="1100" />
+		</scene>
+		<scene background="cloudSky.jpg" id="1100">
+			<bgm src="10_20_londonderry_p.mp3" status="continue" />
+			<speak chara="weltNoFace">「渇いている者には、」</speak>
+			<speak chara="weltNoFace">「命の水の泉から価なしに飲ませよう。」</speak>
+			<speak chara="weltNoFace">……いや、これでは全く足りない。</speak>
+			<goto change="0" goto="1120" />
+		</scene>
+		<scene background="cloudSky.jpg" id="1120">
+			<bgm src="04_20_Brigantia.mp3" status="start" />
+			<text article="1">
+				<p class="article-text">"This is the day, which down the void abysm"</p>
+				<br />
+				<p class="article-text">この日こそ、虚しい、深い淵の下へと、</p>
+			</text>
+			<text article="1">
+				<p class="article-text">"At the Earth-born's spell yawns for Heaven's despotism,"</p>
+				<br />
+				<p class="article-text">大地より生まれたりしものの力により、天の独裁を呑み込んでしまう日、</p>
+			</text>
+			<text article="1">
+				<p class="article-text">And Conquest is dragged captive through the deep:</p>
+				<br />
+				<p class="article-text">征服者が虜として曳かれ行くその日、</p>
+			</text>
+			<text article="1">
+				<p class="article-text">"Love, from its awful throne of patient power"</p>
+				<br />
+				<p class="article-text">愛が、賢き心のうちの堅忍の力の</p>
+			</text>
+			<text article="1">
+				<p class="article-text">"In the wise heart, from the last giddy hour"</p>
+				<br />
+				<p class="article-text">おごそかな王座から、また恐ろしき試練の</p>
+			</text>
+			<text article="1">
+				<p class="article-text">"Of dread endurance, from the slippery, steep,"</p>
+				<br />
+				<p class="article-text">めくるめく究極から、危うく、険しく、</p>
+			</text>
+			<text article="1">
+				<p class="article-text">"And narrow verge of crag-like agony, springs"</p>
+				<br />
+				<p class="article-text">瓦礫の如き、苦悩の狭き縁から湧き出でて、</p>
+			</text>
+			<text article="1">
+				<p class="article-text">And folds over the world its healing wings.</p>
+				<br />
+				<p class="article-text">その癒しの翼を世界に広げ、包む日なのだ。</p>
+			</text>
+			<goto change="#ffffff" goto="1160" />
+		</scene>
+		<scene background="darkEnergy.jpg" id="1160">
+			<bgm src="04_20_Brigantia.mp3" status="continue" />
+			<text article="1">
+				<p class="article-text">To suffer woes which Hope thinks infinite;</p>
+				<br />
+				<p class="article-text">終わることなしと希望が思う悲哀を忍ぶ、</p>
+			</text>
+			<text article="1">
+				<p class="article-text">To forgive wrongs darker than death or night;</p>
+				<br />
+				<p class="article-text">死や夜よりも暗い悪を赦す、</p>
+			</text>
+			<text article="1">
+				<p class="article-text">"To defy Power, which seems omnipotent;"</p>
+				<br />
+				<p class="article-text">全能に見える力を恐れない、</p>
+			</text>
+			<text article="1">
+				<p class="article-text">"To love, and bear; to hope till Hope creates"</p>
+				<br />
+				<p class="article-text">愛し、そして耐える、——希望が</p>
+			</text>
+			<text article="1">
+				<p class="article-text">From its own wreck the thing it contemplates;</p>
+				<br />
+				<p class="article-text">自らの残骸から静思するものを創り出すまで望む、</p>
+			</text>
+			<text article="1">
+				<p class="article-text">"Neither to change, nor falter, nor repent;"</p>
+				<br />
+				<p class="article-text">決して変わらず、たじろがず、悔やまない</p>
+			</text>
+			<text article="1">
+				<p class="article-text">"This, like thy glory, Titan, is to be"</p>
+				<br />
+				<p class="article-text">これこそが、あなたの栄光のように、タイタンよ、</p>
+			</text>
+			<text article="1">
+				<p class="article-text">"Good, great and joyous, beautiful and free;"</p>
+				<br />
+				<p class="article-text">善であり、偉大であり、喜ばしく、美しく、自由であるということだ。</p>
+			</text>
+			<text article="1">
+				<p class="article-text">"This is alone Life, Joy, Empire, and Victory."</p>
+				<br />
+				<p class="article-text">これのみが生命であり、喜びであり、支配であり、勝利なのだ。</p>
+			</text>
+			<goto change="0" goto="1200" />
+		</scene>
+		<scene background="CG25-9.jpg" id="1200">
+			<bgm src="04_20_Brigantia.mp3" status="continue" />
+			<speak chara="weltNoFace" remark="next">——この日こそ、天の独裁を呑み込んでしまう日。</speak>
+			<remark post="U2FsdGVkX18o9ZihHoexEPzjpmN9">
+				<p class="article-text-h">注：</p>
+				<p class="article-text">パーシー・ビッシュ・シェリー（P. B. Shelley）『鎖を解かれたプロメテウス』（Prometheus Unbound）の結末部分より引用。</p>
+			</remark>
+			<speak chara="weltNoFace">オットー・アポカリプス……。</speak>
+			<speak chara="weltNoFace">いや、フールα——</speak>
+			<speak chara="weltNoFace">星が砕け散る様を見るがいい！</speak>
+			<end post="U2FsdGVkX18FjFK3VUd0XhOzu9el" />
+		</scene>
+	</story>
+</data>

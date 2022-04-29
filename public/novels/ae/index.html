@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+  <head>
+    <style></style>
+    <meta name="applicable-device" content="mobile" />
+    <meta
+      name="viewport"
+      content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Copyright" content="miHoYo" />
+    <meta name="Description" content="" />
+    <meta name="Keywords" content="" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-status-bar-style"
+      content="black-translucent"
+    />
+    <link
+      href="http://cdn.houkai3rd.com/event_bh3_com/avg-anti-entropy/static_JP/css/common.css?v=20210817"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://cdn.houkai3rd.com/event_bh3_com/avg-anti-entropy/static_JP/css/css3_animation.css?v=20210817"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="/novels/ae/game.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>Anti-Entropy</title>
+  </head>
+
+  <body onselectstart="return false">
+    <div class="wrk">
+      <img
+        class="wrk-i"
+        src="http://cdn.houkai3rd.com/event_bh3_com/avg-anti-entropy/static_JP/resources/common/horizon_hint.png"
+      />
+    </div>
+    <table id="loading">
+      <tr>
+        <td>
+          <img
+            src="http://cdn.houkai3rd.com/event_bh3_com/avg-anti-entropy/static_JP/resources/common/loading.gif"
+          />
+        </td>
+      </tr>
+    </table>
+    <div class="preload"></div>
+    <div class="black">
+      <div class="frame">
+        <audio
+          class="bgm"
+          id="indexbgm"
+          src="http://cdn.houkai3rd.com/event_bh3_com/avg-anti-entropy/static_JP/resources/sound/themeEin.mp3"
+          loop="loop"
+          controls="controls"
+        ></audio>
+        <div class="transition" style="display: none"></div>
+        <div id="cg_layer" style="display: none"></div>
+        <div class="showCgOrigin"></div>
+        <div class="menuscene">
+          <div class="titleImageBox">
+            <div class="titleImage"></div>
+          </div>
+          <table class="grid_layout">
+            <tr>
+              <td class="menu_btn_frame">
+                <div class="menu_btn menu_btn_1" onclick="startGame(0)"></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="menu_btn_frame">
+                <div
+                  class="menu_btn menu_btn_3"
+                  onclick="catalogPageNew()"
+                ></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="menu_btn_frame">
+                <div class="menu_btn menu_btn_4" onclick="portraitPage()"></div>
+              </td>
+            </tr>
+            <tr>
+              <td class="menu_btn_frame">
+                <div class="menu_btn menu_btn_2" onclick="cgPage()"></div>
+              </td>
+            </tr>
+          </table>
+          <div class="cg-wrapper">
+            <div class="back" onclick="$('.cg-wrapper').fadeOut()"></div>
+            <ul class="cg-frame">
+              <li>
+                <div class="cg-img" id="cg-0"></div>
+              </li>
+              <li>
+                <div class="cg-img" id="cg-1"></div>
+              </li>
+              <li>
+                <div class="cg-img" id="cg-2"></div>
+              </li>
+              <li>
+                <div class="cg-img" id="cg-3"></div>
+              </li>
+            </ul>
+            <ul class="catalog-page">
+              <li>
+                <div class="pagenum" id="pagenum-1"></div>
+              </li>
+              <li>
+                <div class="pagenum" id="pagenum-2"></div>
+              </li>
+            </ul>
+          </div>
+          <div class="catalog-wrapper-new">
+            <div class="catalog-dark"></div>
+            <div
+              class="back"
+              onclick="$('.grid_layout').show();$('.catalog-wrapper-new').fadeOut()"
+            ></div>
+            <div id="catalog-content-0">
+              <div class="catalog-chap" id="catalog-chap-0"></div>
+              <div id="catalog-label_1-0"></div>
+              <div id="catalog-label_2-0"></div>
+              <div id="catalog-label_3-0"></div>
+              <div class="article-frame" id="article-frame-0"></div>
+              <div class="catalog-go" id="catalog-go-0"></div>
+            </div>
+            <div id="catalog-content-1">
+              <div class="catalog-chap" id="catalog-chap-1"></div>
+              <div id="catalog-label_1-1"></div>
+              <div id="catalog-label_2-1"></div>
+              <div id="catalog-label_3-1"></div>
+              <div class="article-frame" id="article-frame-1"></div>
+              <div class="catalog-go" id="catalog-go-1"></div>
+            </div>
+            <ul class="catalog-page">
+              <li>
+                <div class="pagenum" id="pagenum-7"></div>
+              </li>
+              <li>
+                <div class="pagenum" id="pagenum-8"></div>
+              </li>
+            </ul>
+          </div>
+          <div id="family-portrait" style="display: none">
+            <div class="portrait-wrapper" id="portrait-frame"></div>
+            <div
+              class="achievement-back"
+              onclick="$('#family-portrait').fadeOut()"
+            ></div>
+            <div class="progress-box">
+              <div class="progress-bar">
+                <div class="progress-span">
+                  <p class="progress-text"></p>
+                </div>
+              </div>
+              <div class="progress-frame"></div>
+              <div class="progress-icon"></div>
+            </div>
+            <div class="progress-button" onclick="exhibitionPage()"></div>
+          </div>
+          <div id="achievement-exhibition" style="display: none">
+            <div
+              class="achievement-back"
+              onclick="$('#achievement-exhibition').fadeOut()"
+            ></div>
+            <div class="achievement-chapter"></div>
+            <ul class="achievement-list"></ul>
+            <ul class="catalog-page">
+              <li>
+                <div class="pagenum" id="pagenum-5"></div>
+              </li>
+              <li>
+                <div class="pagenum" id="pagenum-6"></div>
+              </li>
+            </ul>
+          </div>
+          <div class="achievement-catalog">
+            <div
+              class="back"
+              onclick="$('.achievement-catalog').fadeOut()"
+            ></div>
+          </div>
+        </div>
+        <div id="confirm" style="display: none">
+          <div id="confirm_1"></div>
+        </div>
+        <div class="main">
+          <div class="cgBackground"></div>
+          <div class="cg"></div>
+          <div class="screen"></div>
+          <div class="galgame" id="all">
+            <div class="home_btn"></div>
+            <div class="remark_btn"></div>
+            <div class="buttonBar">
+              <div
+                class="record_btn"
+                id="record_btn"
+                onclick="add_record()"
+              ></div>
+              <div
+                class="read_record_btn"
+                id="read_record_btn"
+                onclick="get_record()"
+              ></div>
+              <div class="dialog-btn">
+                <div class="dialog-btn-skip"></div>
+                <div class="dialog-btn-autoplay"></div>
+                <div class="dialog-btn-history"></div>
+              </div>
+            </div>
+            <div id="top_layer" style="display: none"></div>
+            <div class="choice_list" style="display: none"></div>
+            <div class="background"></div>
+            <div class="weather"></div>
+            <div class="galgame-content">
+              <div class="white"></div>
+              <div class="canvas-wrapper">
+                <canvas class="canvas" id="canvas"></canvas>
+              </div>
+              <div class="dialog">
+                <div class="dialog-padding">
+                  <div class="dialog-overflow">
+                    <div class="dialog-text"></div>
+                  </div>
+                </div>
+                <div class="dialog-chara">
+                  <div class="dialog-chara-left dialog-chara-line"></div>
+                  <div class="dialog-chara-center dialog-chara-line">
+                    <div class="dialog-chara-padding">
+                      <div class="dialog-chara-text"></div>
+                    </div>
+                  </div>
+                  <div class="dialog-chara-right dialog-chara-line"></div>
+                </div>
+              </div>
+              <div class="history">
+                <div class="history-padding">
+                  <div class="history-overflow">
+                    <div class="history-text" id="historyTextBox"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="remark">
+                <div class="remark-padding">
+                  <div class="remark-overflow">
+                    <div class="remark-text" id="remarkTextBox"></div>
+                  </div>
+                </div>
+              </div>
+              <audio
+                class="bgm"
+                id="bgm"
+                src=""
+                loop="loop"
+                controls="controls"
+              ></audio>
+              <audio class="bgm" id="sound" src="" controls="controls"></audio>
+              <div class="character">
+                <div class="character-back" id="character-back"></div>
+                <div class="character-mostleft" id="character-mostleft"></div>
+                <div class="character-mostright" id="character-mostright"></div>
+                <div class="character-left" id="character-left"></div>
+                <div class="character-right" id="character-right"></div>
+                <div class="character-center" id="character-center"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var cssPath =
+        'http://cdn.houkai3rd.com/event_bh3_com/avg-anti-entropy/static_JP'
+      var jsPath =
+        'http://cdn.houkai3rd.com/event_bh3_com/avg-anti-entropy/static_JP'
+      var resPath =
+        'http://cdn.houkai3rd.com/event_bh3_com/avg-anti-entropy/static_JP'
+      var xmlPath = '/novels/ae/xml/'
+      var lang = 'ja'
+    </script>
+    <script
+      type="text/javascript"
+      src="http://cdn.houkai3rd.com/event_bh3_com/avg-anti-entropy/static_JP/tips/game_tips.js?v=20210817"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://cdn.houkai3rd.com/event_bh3_com/avg-anti-entropy/static_JP/js/jquery-1.11.1.min.js?v=20210817"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://cdn.houkai3rd.com/event_bh3_com/avg-anti-entropy/static_JP/js/xmlhttp.js?v=20210817"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://cdn.houkai3rd.com/event_bh3_com/avg-anti-entropy/static_JP/js/game.js?v=20210817"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,358 @@
+<data>
+	<img></img>
+	<characters>
+		<character color="#9dbff8" id="edisonAngelNoNameNoFace" name="？？？" src="" />
+		<character color="#9dbff8" id="edisonAngelNoFace" name="ナンシー（？）" src="" />
+		<character color="#a6a79c" id="dollarFranklinNoFace" name="フランクリン（？）" src="" />
+		<character color="#fff2c4" id="reaLaughArmedNoLanceClose-up" name="リアーナ" src="05_31_reaLaughArmedNoLanceClose-up.png" />
+		<character color="#fff2c4" id="reaEmbarraArmedNoLanceClose-up" name="リアーナ" src="05_31_reaEmbarraArmedNoLanceClose-up.png" />
+		<character color="#fff2c4" id="reaSeriousArmedNoLanceClose-up" name="リアーナ" src="05_31_reaSeriousArmedNoLanceClose-up.png" />
+		<character color="#fff2c4" id="reaNormalArmedNoLanceClose-up" name="リアーナ" src="05_31_reaNormalArmedNoLanceClose-up.png" />
+		<character color="#fff2c4" id="reaSmileArmedNoLanceClose-up" name="リアーナ" src="05_31_reaSmileArmedNoLanceClose-up.png" />
+		<character color="#fff2c4" id="reaHahArmedNoLanceClose-up" name="リアーナ" src="05_31_reaHahArmedNoLanceClose-up.png" />
+		<character color="rgb(161,135,121)" id="schroShrinkLanceClose-up" name="シュレーディンガー" src="05_31_schroShrinkLanceClose-up.png" />
+		<character color="rgb(161,135,121)" id="schroNormalLanceClose-up" name="シュレーディンガー" src="05_31_schroNormalLanceClose-up.png" />
+		<character color="rgb(161,135,121)" id="schroSmileLanceClose-up" name="シュレーディンガー" src="05_31_schroSmileLanceClose-up.png" />
+		<character color="#ffffff" id="weltSorryNewClose-up" name="웰트" src="05_31_weltSorryNewClose-up.png" />
+		<character color="#9dbff8" id="edisonAngelHelplessFar" name="ナンシー（？）" src="05_31_edisonAngelHelplessFar.png" />
+		<character color="#9dbff8" id="edisonAngelAngryFar" name="ナンシー（？）" src="05_31_edisonAngelAngryFar.png" />
+		<character color="#9dbff8" id="edisonAngelQuestionFar" name="ナンシー（？）" src="05_31_edisonAngelQuestionFar.png" />
+		<character color="#9dbff8" id="edisonAngelSeriousFar" name="ナンシー（？）" src="05_31_edisonAngelSeriousFar.png" />
+		<character color="#9dbff8" id="edisonAngelSmileFar" name="ナンシー（？）" src="05_31_edisonAngelSmileFar.png" />
+		<character color="#a6a79c" id="dollarFranklinAhFar" name="フランクリン（？）" src="05_31_dollarFranklinAhFar.png" />
+		<character color="#a6a79c" id="dollarFranklinEmFar" name="フランクリン（？）" src="05_31_dollarFranklinEmFar.png" />
+	</characters>
+	<story>
+		<scene background="bg.jpg" id="0">
+			<bgm src="mid-lude.mp3" status="start" />
+			<cg bg="bg.jpg" src="newchapter.png" />
+			<goto change="#000000" goto="10" />
+		</scene>
+		<scene background="CG22-2.jpg" id="10">
+			<bgm src="04_20_Brigantia.mp3" status="start" />
+			<speak chara="schroCatNoFace">……この力……確かにさっきまでとは別人なのです……。</speak>
+			<goto change="0" goto="20" />
+		</scene>
+		<scene background="schroFadeAway1.jpg" id="20">
+			<bgm src="04_20_Brigantia.mp3" status="continue" />
+			<speak chara="schroCatNoFace">フフッ……残り僅かな時間を賭けたのは、やっぱり正解だったのです……。</speak>
+			<goto change="0" goto="30" />
+		</scene>
+		<scene background="schroFadeAway2.jpg" id="30">
+			<bgm src="04_20_Brigantia.mp3" status="continue" />
+			<speak chara="schroCatNoFace">この時代における最初の律者の誕生なのです……おめでとうございます……あなたはもう「あの人」の傀儡ではなくなったのです……。</speak>
+			<goto change="0" goto="40" />
+		</scene>
+		<scene background="schroFadeAway3.jpg" id="40">
+			<bgm src="04_20_Brigantia.mp3" status="continue" />
+			<speak chara="schroCatNoFace">フフッ……つまり賭けは私の勝ちなのです……。</speak>
+			<goto change="#ffffff" goto="50" />
+		</scene>
+		<scene background="white.jpg" id="50">
+			<bgm src="04_20_Brigantia.mp3" status="stop" />
+			<sound src="04_20_fell.mp3" />
+			<speak chara="reannaNoNameNoFace">——あなたたち、そこまでにしなさいっ！</speak>
+			<goto change="0" goto="60" />
+		</scene>
+		<scene background="white.jpg" id="60">
+			<bgm src="11_17_tatakau.mp3" status="start" />
+			<cg fadeIn="0" fadeOut="1" src="CG23-1.jpg" />
+			<goto change="0" goto="70" />
+		</scene>
+		<scene background="CG23-2-1.jpg" id="70">
+			<bgm src="11_17_tatakau.mp3" status="continue" />
+			<speak chara="reannaNoFace">我は地獄へと馳せる黒。</speak>
+			<goto change="0" goto="72" />
+		</scene>
+		<scene background="CG23-2-2.jpg" id="72">
+			<bgm src="11_17_tatakau.mp3" status="continue" />
+			<speak chara="reannaNoFace">我は天より来訪せし白。</speak>
+			<goto change="0" goto="74" />
+		</scene>
+		<scene background="CG23-2.jpg" id="74">
+			<bgm src="11_17_tatakau.mp3" status="continue" />
+			<speak chara="reannaNoFace">神の鍵・黒淵白花、第二定格出力——</speak>
+			<goto change="0" goto="80" />
+		</scene>
+		<scene background="white.jpg" id="80">
+			<bgm src="11_17_tatakau.mp3" status="continue" />
+			<cg bg="white.jpg" fadeIn="0" fadeOut="0" src="shengqiangBack.png" />
+			<bgm src="11_17_tatakau.mp3" status="stop" />
+			<sound src="05_18_smash.mp3" />
+			<cg bg="CG23-3.jpg" fadeIn="0" fadeOut="1000" src="niliuStab.png" />
+			<goto change="#000000" goto="90" />
+		</scene>
+		<scene background="scienceEngineWarning.jpg" id="90">
+			<bgm src="10_25_noise.mp3" status="start" />
+			<text>約7時間前、ニュージャージー州・エジソン——</text>
+			<speak chara="schroNoFace">……原子炉の出力が異常な上昇をしているなのです！</speak>
+			<speak chara="schroNoFace">り、臨界定数を突破したのですっ！！</speak>
+			<speak chara="schroNoFace">このままでは、核反応の制御が不能になるのです！</speak>
+			<speak chara="nokiaNoFace">そんなっ！</speak>
+			<speak chara="nokiaNoFace">どうして突然——</speak>
+			<speak chara="edisonNoFace">……総員シェルターに退避ッ！急いで！</speak>
+			<speak chara="edisonNoFace">他の人よりも自分の身を優先しなさい、早くっ！</speak>
+			<speak chara="nokiaNoFace">だ、だけど——</speak>
+			<speak chara="edisonNoFace">つべこべ言わない！退避しなさい！</speak>
+			<goto change="#000000" goto="100" />
+		</scene>
+		<scene background="CG23-3.jpg" id="100">
+			<bgm src="11_17_memory.mp3" status="start" />
+			<speak chara="schroCatNoFace">あ、あなた……何故ここに……。</speak>
+			<speak chara="reannaNoFace">シッ……動かないで。</speak>
+			<speak chara="reannaNoFace">すぐに……終わるからね。</speak>
+			<goto change="#ffffff" goto="110" />
+		</scene>
+		<scene background="cloudSky.jpg" id="110">
+			<bgm src="11_17_memory.mp3" status="continue" />
+			<text>……。</text>
+			<text>30分後、屋根を取り外された高級スポーツカーの中——</text>
+			<goto change="0" goto="120" />
+		</scene>
+		<scene background="connecticutRoad.jpg" id="120">
+			<bgm src="11_17_memory.mp3" status="continue" />
+			<show chara="reaLaughArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">……さて、もう話せるわよね。</speak>
+			<show chara="reaEmbarraArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">あなたが寡黙なのは知っているけど……これじゃいくらなんでも息が詰まっちゃうでしょう。</speak>
+			<show chara="reaEmbarraArmedNoLanceClose-up" opacity="0.7" position="left" />
+			<bgm src="10_20_londonderry_p.mp3" status="start" />
+			<show chara="schroShrinkLanceClose-up" position="right" />
+			<speak chara="schroNoFace">……どうして……私を助けてくれたのです……？</speak>
+			<show chara="schroShrinkLanceClose-up" opacity="0.7" position="right" />
+			<show chara="reaSeriousArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">……どうして？まったく、私があなたたちのバカな行動を黙って見過ごすわけないでしょ。</speak>
+			<show chara="reaNormalArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">聞いて。あなたの体内にあった崩壊エネルギーは「白花」によって全部その右腕に封印したわ——</speak>
+			<speak chara="reannaNoFace">今回の件が一段落したら、あなたの仲間が治しに来てくれるはずよ。</speak>
+			<show chara="reaNormalArmedNoLanceClose-up" opacity="0.7" position="left" />
+			<show chara="schroShrinkLanceClose-up" position="right" />
+			<speak chara="schroNoFace">……でも……私は……。</speak>
+			<show chara="schroShrinkLanceClose-up" opacity="0.7" position="right" />
+			<show chara="reaNormalArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">崩壊の侵蝕を受けると、崩壊の意志からは逃れられなくなる。本当にバカなことをしたわね。</speak>
+			<show chara="reaSmileArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">……だけど、あなたの場合はちょっと違うかしら。</speak>
+			<show chara="reaNormalArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">身体の約半分を侵蝕されていたのにも関わらず、それでも理性を保つことができた——</speak>
+			<show chara="reaSmileArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">——99.9%の人間にはできない芸当よ。分かる？シュレーディンガー博士。</speak>
+			<show chara="reaSmileArmedNoLanceClose-up" opacity="0.7" position="left" />
+			<show chara="schroShrinkLanceClose-up" position="right" />
+			<speak chara="schroNoFace">……。</speak>
+			<show chara="schroShrinkLanceClose-up" opacity="0.7" position="right" />
+			<show chara="reaSeriousArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">……もちろん、だからといって、あなたのやり方を認めるわけじゃないけどね。</speak>
+			<show chara="reaNormalArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">罪なき人を傷つけたことはひとまず置いておきましょう——何であれ、あなたじゃ本物の律者を倒すことはできない。</speak>
+			<show chara="reaSeriousArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">いい？あの時、もし웰트が崩壊の側に立っていたら、あなたは自分の身を滅ぼすことになっていたのよ。</speak>
+			<show chara="reaNormalArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">そして、彼が今のように私たちの側に立っていてくれたとしても——あなたは彼に「人殺し」の十字架を背負わせることになっていた。</speak>
+			<show chara="reaSeriousArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">これがどれだけ酷なことか、分かるわよね？</speak>
+			<show chara="reaSeriousArmedNoLanceClose-up" opacity="0.7" position="left" />
+			<show chara="schroShrinkLanceClose-up" position="right" />
+			<speak chara="schroNoFace">……。</speak>
+			<show chara="schroShrinkLanceClose-up" opacity="0.7" position="right" />
+			<show chara="reaHahArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">けど、だからといって、あまり思いつめないでね……。</speak>
+			<show chara="reaSmileArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">もう終わったこと。でしょ、違う？</speak>
+			<show chara="reaHahArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">あなたには時間が残されてる。これからは、あの子たちともっと仲良くすることね。</speak>
+			<show chara="reaHahArmedNoLanceClose-up" opacity="0.7" position="left" />
+			<show chara="schroShrinkLanceClose-up" position="right" />
+			<speak chara="schroNoFace">リアーナさん……。</speak>
+			<show chara="schroNormalLanceClose-up" position="right" />
+			<speak chara="schroNoFace">私……。</speak>
+			<speak chara="schroNoFace">上手くできるかどうか、わからないのです……。</speak>
+			<speak chara="schroNoFace">……。</speak>
+			<show chara="schroSmileLanceClose-up" position="right" />
+			<speak chara="schroNoFace">……でも、がんばるなのです。</speak>
+			<speak chara="schroNoFace">……がんばって、あなたみたいな強い人になるのです。</speak>
+			<show chara="schroSmileLanceClose-up" opacity="0.7" position="right" />
+			<show chara="reaHahArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">アハハ……私なんか目標にならないわよ。</speak>
+			<show chara="reaSmileArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">さっき勝負した時……たぶん気づいたでしょう？</speak>
+			<show chara="reaHahArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">私は……あなたよりももっと「火に油を注ぐ」ような性格をしているのよ。</speak>
+			<show chara="reaSmileArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">物理的な意味でね。</speak>
+			<goto change="#ffffff" goto="130" />
+		</scene>
+		<scene background="tankInside.jpg" id="130">
+			<bgm src="04_20_tank.mp3" status="start" />
+			<show chara="teslaAstonishGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">えっ……待って、待って、待って……。</speak>
+			<speak chara="teslaNoFace">頭がこんがらがってきた……。</speak>
+			<show chara="teslaShoutWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">つまり……体が半分崩壊獣になっていたあの根暗女は、こいつの能力を目覚めさせようとして、あえて喧嘩を売りに来たってこと？</speak>
+			<speak chara="teslaNoFace">わざわざ人の家を壊してまで？私をボロボロになるまで巻き添いにして？</speak>
+			<show chara="teslaShoutWinterClose-up" opacity="0.7" position="left" />
+			<show chara="weltSorryNewClose-up" position="right" />
+			<speak chara="weltNoFace">そういうことみたいだな……。</speak>
+			<show chara="weltSorryNewClose-up" opacity="0.7" position="right" />
+			<show chara="teslaNormalGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">それで？あんたの能力って一体何なの？</speak>
+			<show chara="teslaNormalGlassWinterClose-up" opacity="0.7" position="left" />
+			<show chara="weltAstonishNewClose-up" position="right" />
+			<speak chara="weltNoFace">……へっ？</speak>
+			<show chara="weltAstonishNewClose-up" opacity="0.7" position="right" />
+			<show chara="teslaShameGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">どうしたのよ。あんた、私たちの仲間でいてくれるんでしょ。なら、単刀直入に聞いたって問題ないじゃない？</speak>
+			<show chara="teslaShameGlassWinterClose-up" opacity="0.7" position="left" />
+			<show chara="weltAstonishNewClose-up" position="right" />
+			<speak chara="weltNoFace">あ、ああ……。</speak>
+			<speak chara="weltNoFace">そ、それもそうだな테슬라……さすがは理解が早い。</speak>
+			<show chara="weltAstonishNewClose-up" opacity="0.7" position="right" />
+			<show chara="teslaSnickerGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">エヘヘッ。世界の変化を柔軟に受け止めることも発明家としては必要な才能なのよ！</speak>
+			<show chara="teslaBiteGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">……ちぇっ。何だか、あんたにおだてられたみたい。</speak>
+			<show chara="teslaShameGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">……とにかく！今は私の質問に答えてよねっ！</speak>
+			<show chara="teslaShameGlassWinterClose-up" opacity="0.7" position="left" />
+			<show chara="weltEmbarraNewClose-up" position="right" />
+			<speak chara="weltNoFace">えっと……それは……。</speak>
+			<speak chara="weltNoFace">お、나にもよく分からないんだ……。</speak>
+			<show chara="weltEmbarraNewClose-up" opacity="0.7" position="right" />
+			<show chara="teslaAstonishGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">……はぁ？</speak>
+			<show chara="teslaAstonishGlassWinterClose-up" opacity="0.7" position="left" />
+			<show chara="einSmileWinterClose-up" position="right" />
+			<speak chara="einNoFace">そう慌てるな、테슬라博士。웰트自身があの不思議な意志を拒んだことに変わりはない……。</speak>
+			<show chara="einNormalWinterClose-up" position="right" />
+			<speak chara="einNoFace">それに今はっきりと分かっていることが2つある。1つは、彼の手により発動された「エデンの星」の効果が、僕たちが使った時よりも遥かに高かったということ。もう1つは、ベルリン崩壊事件における犠牲者の「魂の残滓」が彼の体内にあるということ。</speak>
+			<show chara="einSeriousEmWinterClose-up" position="right" />
+			<speak chara="einNoFace">もし、シュレーディンガーさんが彼を「律者」にしようと考え行動していたなら……この2つの事柄はわざわざ考えるまでもない。</speak>
+			<show chara="einSeriousEmWinterClose-up" opacity="0.7" position="right" />
+			<show chara="teslaNormalGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">……。</speak>
+			<show chara="teslaNormalGlassWinterClose-up" opacity="0.7" position="left" />
+			<show chara="einNormalWinterClose-up" position="right" />
+			<speak chara="einNoFace">「神の鍵」は「律者のコア」を使用して作り出された武器だ。僕たちより律者のほうが自在に扱えるのは当然のこと。</speak>
+			<show chara="einSeriousEmWinterClose-up" position="right" />
+			<speak chara="einNoFace">そして「魂の残滓」は、恐らく彼の本当の能力がもたらした副産物だろう……そうでなければ、死者が口を開くことなんてできない。</speak>
+			<show chara="einSmileWinterClose-up" position="right" />
+			<speak chara="einNoFace">とにかく……それ以上の情報を彼から引きずり出そうとするのは、ちょっと欲張りすぎじゃないか？</speak>
+			<show chara="einSmileWinterClose-up" opacity="0.7" position="right" />
+			<show chara="teslaBoringGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">……。</speak>
+			<show chara="teslaShameGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">そうだけど。</speak>
+			<show chara="teslaNormalGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">でも……このバカが本当に「律者」なら、この一件の本番はここからってことよね？</speak>
+			<show chara="teslaNormalGlassWinterClose-up" opacity="0.7" position="left" />
+			<show chara="einSeriousEmWinterClose-up" position="right" />
+			<speak chara="einNoFace">君が言っているのは……。</speak>
+			<show chara="einSeriousEmWinterClose-up" opacity="0.7" position="right" />
+			<show chara="teslaNormalGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">忘れないでよね……今回の災害の大きさはベルリンの時と同じくらいなんだから……。</speak>
+			<speak chara="teslaNoFace">つまり、ベルリンではバカ웰트が律者になったでしょ。今回、根暗シュレーディンガーが律者じゃないとなると——</speak>
+			<speak chara="teslaNoFace">ニューヨークで「出来立てほやほや」のヤツに遭遇する可能性が高いってこと。</speak>
+			<speak chara="teslaNoFace">間違ってはないでしょ？</speak>
+			<goto change="#ffffff" goto="140" />
+		</scene>
+		<scene background="connecticutRoad.jpg" id="140">
+			<bgm src="11_17_memory.mp3" status="start" />
+			<show chara="reaNormalArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">ということは……エジソンさんは事故が起こる前にシェルターへ避難できたのね？</speak>
+			<show chara="reaNormalArmedNoLanceClose-up" opacity="0.7" position="left" />
+			<show chara="schroNormalLanceClose-up" position="right" />
+			<speak chara="schroNoFace">……いえ、避難できていないのです。</speak>
+			<show chara="schroNormalLanceClose-up" opacity="0.7" position="right" />
+			<show chara="reaSeriousArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">えっ？だって、彼女は無理やりノキアンビルタネン博士を連れて、一緒にシェルター内に入ったんでしょ？</speak>
+			<show chara="reaSeriousArmedNoLanceClose-up" opacity="0.7" position="left" />
+			<show chara="schroNormalLanceClose-up" position="right" />
+			<speak chara="schroNoFace">……そうなのです。でも、その後シェルターから出てきたのです。</speak>
+			<show chara="schroNormalLanceClose-up" opacity="0.7" position="right" />
+			<show chara="reaSeriousArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">……。</speak>
+			<show chara="reaSeriousArmedNoLanceClose-up" opacity="0.7" position="left" />
+			<show chara="schroShrinkLanceClose-up" position="right" />
+			<speak chara="schroNoFace">……私を守るために。</speak>
+			<show chara="schroShrinkLanceClose-up" opacity="0.7" position="right" />
+			<show chara="reaSeriousArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">……ちょっと待って。あなたは原子炉に近すぎたから、逃げる場所がなかったのよね？</speak>
+			<show chara="reaSeriousArmedNoLanceClose-up" opacity="0.7" position="left" />
+			<show chara="schroNormalLanceClose-up" position="right" />
+			<speak chara="schroNoFace">……はい、そうなのです。</speak>
+			<show chara="schroNormalLanceClose-up" opacity="0.7" position="right" />
+			<show chara="reaSeriousArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">……じゃあ、エジソンさんはどうやってあなたを守ったの？</speak>
+			<show chara="reaSeriousArmedNoLanceClose-up" opacity="0.7" position="left" />
+			<show chara="schroNormalLanceClose-up" position="right" />
+			<speak chara="schroNoFace">……それが、分からないのです。</speak>
+			<show chara="schroNormalLanceClose-up" opacity="0.7" position="right" />
+			<show chara="reaSeriousArmedNoLanceClose-up" position="left" />
+			<speak chara="reannaNoFace">……えっ？</speak>
+			<show chara="reaSeriousArmedNoLanceClose-up" opacity="0.7" position="left" />
+			<show chara="schroNormalLanceClose-up" position="right" />
+			<speak chara="schroNoFace">でも、これだけは言えるのです。あれは人間が手にできる力ではないのです。</speak>
+			<show chara="schroSmileLanceClose-up" position="right" />
+			<speak chara="schroNoFace">かといって、決して崩壊と同じ系統のものでもないのです。</speak>
+			<show chara="schroNormalLanceClose-up" position="right" />
+			<speak chara="schroNoFace">私には分かるのです。今この時も、エジソンさんはあの力で崩壊と戦っているなのです。</speak>
+			<show chara="schroShrinkLanceClose-up" position="right" />
+			<speak chara="schroNoFace">……ですが、恐らく私たちが介入できるようなレベルではないと思うのです。</speak>
+			<goto change="#ffffff" goto="150" />
+		</scene>
+		<scene background="cloudSky.jpg" id="150">
+			<bgm src="04_20_Brigantia.mp3" status="start" />
+			<text>同じ頃、ある場所の上空で——</text>
+			<show chara="edisonAngelHelplessFar" position="center" />
+			<speak chara="edisonAngelNoNameNoFace">クッ……このままじゃ、皆に知らせることもできない！</speak>
+			<speak chara="edisonAngelNoNameNoFace">私がこれを支えきれなくなったら……。</speak>
+			<show chara="edisonAngelAngryFar" position="center" />
+			<speak chara="edisonAngelNoNameNoFace">おいっ！紙幣に貼りついてしゃべるだけの臆病者！どうにかしろ！</speak>
+			<show chara="dollarFranklinAhFar" position="center" />
+			<speak chara="dollarFranklinNoFace">……もう手は尽くしましたよ、エジソンさん。</speak>
+			<show chara="dollarFranklinEmFar" position="center" />
+			<speak chara="dollarFranklinNoFace" remark="next">忘れてもらっちゃ困るんですがね、あなたが■■■■の力を借りて「干渉計」を使うと決めた時、“あの”11次元空間とは何の関わりもなくなってしまったんですよ——だからこそ、私はこうやってあなたと会話することができるんです。</speak>
+			<remark post="U2FsdGVkX1+X733EXSLz1fznthEa">
+				<p class="article-text-h">注：</p>
+				<p class="article-text">理論物理学の「弦理論」（後に「M理論」に発展）では、全ての素粒子はある特殊空間（10次元）の特殊な【波動】（「弦」と言う。「弦」はM理論の中ではより本質的な「膜」と表される）で【説明】できる。そのため、それは11次元空間（10次元に1次元加えたもの）に作られる。</p>
+				<p class="article-text">「人々はとても幸運にも斬新な対称を発見した。……ある方法について言えば、時空には私たちが体験している次元以外にも別の次元がある。これらの次元はグラスマン次元と呼ばれた。それらはグラスマン変数と呼ばれる数を用いるため、通常の実数によって測る必要はない。……私のような実証主義者にとっては、『追加の次元は本当に存在するのか？』という問題は意味がないものである。人々は『他の次元を備えた数学モデルはうまく宇宙を説明できるのか？』と言うことくらいしか聞けないだろう。」——スティーヴン・ホーキング『ホーキング、未来を語る』</p>
+			</remark>
+			<show chara="dollarFranklinAhFar" position="center" />
+			<speak chara="dollarFranklinNoFace">私は、あなたにでも理解できる方法で思考をお伝えしているつもりですが。もう一度言いますよ、私も■■■■の創造物の1つにすぎないんですよ。今のあなたと何の違いもないんです。</speak>
+			<show chara="dollarFranklinEmFar" position="center" />
+			<speak chara="dollarFranklinNoFace">……あなたが今持っている能力は、あなたの人生における無数の可能性を潰すことで手にできるものなのですよ。</speak>
+			<show chara="dollarFranklinAhFar" position="center" />
+			<speak chara="dollarFranklinNoFace">もしご不満なら、あなたが「干渉計」を使って能力をブーストさせようと焦りすぎたせいだということを覚えておいてください。そのせいで、潜在能力が表に出にくくなってしまったのですから。</speak>
+			<show chara="edisonAngelQuestionFar" position="center" />
+			<speak chara="edisonAngelNoFace">何だと？私が焦りすぎた？あんな状況では誰もが同じ選択をする！</speak>
+			<show chara="dollarFranklinAhFar" position="center" />
+			<speak chara="dollarFranklinNoFace">……だから、私はもう手を尽くしましたよ、エジソンさん。</speak>
+			<show chara="dollarFranklinEmFar" position="center" />
+			<speak chara="dollarFranklinNoFace">「あの人たち」は、間違いなくこの惑星の異常を放置しておくはずがありません……。</speak>
+			<show chara="dollarFranklinAhFar" position="center" />
+			<speak chara="dollarFranklinNoFace">しかし、私たちが理解できる方法では事を起こさないでしょうね。</speak>
+			<show chara="dollarFranklinEmFar" position="center" />
+			<speak chara="dollarFranklinNoFace">きっと「あの人たち」にとって、人類の存亡なんてどうでもいいことなんですよ。</speak>
+			<show chara="dollarFranklinAhFar" position="center" />
+			<speak chara="dollarFranklinNoFace">「あの人たち」が本当に興味があるのは11次元空間の、私たちがまだ理解できていないさざ波の部分なんですから——</speak>
+			<show chara="dollarFranklinEmFar" position="center" />
+			<speak chara="dollarFranklinNoFace">——そして、この惑星の異常なんて、その中で聞こえてくる煩わしいカエルの鳴き声みたいなものなんです。</speak>
+			<show chara="edisonAngelAngryFar" position="center" />
+			<speak chara="edisonAngelNoFace">……それを私に言って何が変わるんだ？役に立たない無駄話にすぎん！</speak>
+			<show chara="dollarFranklinEmFar" position="center" />
+			<speak chara="dollarFranklinNoFace">私は、ただの紙幣にすぎませんよ。私にどんな建設的な意見を求めているんですか？</speak>
+			<show chara="dollarFranklinAhFar" position="center" />
+			<speak chara="dollarFranklinNoFace">……それに、本物のベンジャミン・フランクリンだとしても、こんな状況で打開につながる策が出せると本当に思っているんですか？</speak>
+			<show chara="edisonAngelSeriousFar" position="center" />
+			<speak chara="edisonAngelNoFace">……。</speak>
+			<show chara="edisonAngelSmileFar" position="center" />
+			<speak chara="edisonAngelNoFace">……確かにそうだ。一時の気の迷いとはいえ、まさか私が紙幣に答えを乞うてしまうとはな。</speak>
+			<show chara="edisonAngelSeriousFar" position="center" />
+			<speak chara="edisonAngelNoFace">まあいい……あの高見の見物をしているやつらに証明してやろう……。</speak>
+			<show chara="edisonAngelAngryFar" position="center" />
+			<speak chara="edisonAngelNoFace">人類のことは、最後まで人類自身が決めるとなっ！</speak>
+			<speak chara="edisonAngelNoFace">ナンシー・トーマス・エジソン、たとえこの身が滅びようとも、ニューヨークをベルリンの二の舞にはさせはしない！</speak>
+			<end post="U2FsdGVkX1+x3U0ZNdcph971qhGD" />
+		</scene>
+	</story>
+</data>

@@ -1,0 +1,412 @@
+<data>
+	<img></img>
+	<characters>
+		<character color="#fff7cd" id="ottoShadowNoFace" name="？？？" src="" />
+		<character color="#fff7cd" id="ottoShadowClose-up" name="？？？" src="05_03_ottoShadowClose-up.png" />
+		<character color="#ff0000" id="elaineSmileClose" name="エレイン" src="05_03_elaineSmileClose.png" />
+		<character color="#ff0000" id="elaineNormalClose" name="エレイン" src="05_03_elaineNormalClose.png" />
+		<character color="#c4c4c4" id="hellawesNoNameNoFace" name="？？？" src="" />
+		<character color="#c4c4c4" id="hellawesNoFace" name="ヘラヴィーサ" src="" />
+		<character color="#c4c4c4" id="hellawesNormalClose" name="ヘラヴィーサ" src="05_02_hellawesNormalClose.png" />
+		<character color="#ffffff" id="weltNervousNewClose" name="웰트" src="05_03_weltNervousNewClose.png" />
+		<character color="#ffffff" id="weltQuestionNewClose" name="웰트" src="05_03_weltQuestionNewClose.png" />
+		<character color="#ffffff" id="weltSorryNewClose" name="웰트" src="05_03_weltSorryNewClose.png" />
+		<character color="#acb73b" id="percivalNoNameNoFace" name="？？？" src="" />
+		<character color="#acb73b" id="percivalNoFace" name="パーシヴァル" src="" />
+		<character color="#acb73b" id="percivalNormalClose" name="パーシヴァル" src="05_02_percivalNormalClose.png" />
+		<character color="#d1b1a4" id="morganNoNameNoFace" name="？？？" src="" />
+		<character color="#d1b1a4" id="morganNoFace" name="モーガン" src="" />
+		<character color="#d1b1a4" id="morganClose" name="モーガン" src="05_04_morganClose.png" />
+		<character color="rgb(181,233,247)" id="einLveWinterClose" name="아인슈타인" src="05_03_einLveWinterClose.png" />
+		<character color="#ea6cd5" id="schroCatNoNameNoFace" name="？？？" src="" />
+	</characters>
+	<story>
+		<scene background="bg.jpg" id="0">
+			<bgm src="mid-lude.mp3" status="start" />
+			<cg bg="bg.jpg" src="newchapter.png" />
+			<goto change="#000000" goto="10" />
+		</scene>
+		<scene background="dreamSky.jpg" id="10">
+			<bgm src="03_03_bostonNight.mp3" status="start" />
+			<show chara="ottoShadowClose-up" position="center" />
+			<speak chara="ottoShadowNoFace">昔話をしよう。</speak>
+			<speak chara="ottoShadowNoFace">あるギリシャ人の英雄がいた……うん？ハハ、彼がどこから来たのかは重要じゃないんだ。</speak>
+			<speak chara="ottoShadowNoFace">とにかく、彼はとても偉大で、彼が冒険に使った船は記念碑のように人々に祭られた。</speak>
+			<speak chara="ottoShadowNoFace">ただ、時間というのは無情なもので、その船を形作る木材が徐々に朽ちていってしまったんだ。</speak>
+			<speak chara="ottoShadowNoFace">この偉大な船が祭祀品として燃やされないようにするため、現地の人たちはある方法を思いついた——</speak>
+			<speak chara="ottoShadowNoFace">毎年すべての部品を検査し腐食のひどいものがあったら、その部分を新しく作り直す、とね。</speak>
+			<speak chara="ottoShadowNoFace">そして百年後、ある哲学者が船を見学しに来た時、どの部品も最低一度は取り換えられていた。</speak>
+			<speak chara="ottoShadowNoFace">哲学者はそれを聞いてとても嘆き、現地の人に尋ねた。「これはまだ元の船なのか？」</speak>
+			<speak chara="ottoShadowNoFace">しかし、現地の人はまったく意にも介さない様子で答えた——</speak>
+			<speak chara="ottoShadowNoFace">「哲学者さん、もし違うというのなら、いつから違っていると思いますか？」</speak>
+			<speak chara="ottoShadowNoFace">「ご存知の通り、たとえ大英雄の冒険であろうとも、その最中にだって船は常に部品を交換しなければなりません。」</speak>
+			<goto change="#ffffff" goto="20" />
+		</scene>
+		<scene background="benchClinic.jpg" id="20">
+			<bgm src="morning.mp3" status="start" />
+			<speak chara="reannaNoNameNoFace">……。</speak>
+			<text>夢から覚めた。</text>
+			<text>なぜか診療所のベンチに座っている。</text>
+			<text>あ……。</text>
+			<text>……思い出した。あの赤髪のカウガールが連れてきたんだ。</text>
+			<text>彼女の命を救ったから。</text>
+			<text>……ここに着いた後、いつの間にか座ったまま眠ってしまったのだ。</text>
+			<text>……恥ずかしい。「零式」の消耗など微々たるもののはずなのに。</text>
+			<text>やっぱり……。</text>
+			<text>……この人たちと一緒にいて、気が緩んだの？</text>
+			<text remark="next">幸い、時間はまだそれほど経っていない。一呼吸すると、ひんやりと湿った空気の中に石炭酸の臭いが充満していることに気づく。</text>
+			<remark post="U2FsdGVkX195uGGwk19hRG2IpYlg">
+				<p class="article-text-h">注：</p>
+				<p class="article-text">石炭酸（Carbolic acid）、フェノール（化学式：PhOH）ともいう。最も簡単なフェノール類有機物。その希釈溶液は早くから消毒薬として使用されていた。フェノールは危険な消毒剤である。その濃溶液は皮膚への浸透力が強く、腐食性があり、毒性も強い。現代では主にアスピリンやフェノール樹脂の製造等、合成化学工業に使われている。</p>
+			</remark>
+			<text>午前の燦々とした太陽が、廊下の突き当たりにある小窓から斜めに入り込んでいる。明暗の強いコントラストが、この何の変哲もない診療所に怪しげな雰囲気をもたらしていた。</text>
+			<goto change="0" goto="30" />
+		</scene>
+		<scene background="wallClinic.jpg" id="30">
+			<bgm src="lab.mp3" status="start" />
+			<show chara="morganClose" position="left" />
+			<speak chara="morganNoNameNoFace">こんにちは。</speak>
+			<show chara="morganClose" opacity="0.7" position="left" />
+			<show chara="reaHahArmedClose" position="right" />
+			<speak chara="reannaNoFace">こ、こんにちは。</speak>
+			<show chara="reaHahArmedClose" opacity="0.7" position="right" />
+			<show chara="morganClose" position="left" />
+			<text>相手は無表情のまま片手を伸ばしてきた……。</text>
+			<text>……どうやら握手するつもりのようだ。</text>
+			<speak chara="morganNoNameNoFace">ミカリ・モーガン。この診療所の責任者よ。</speak>
+			<show chara="morganClose" opacity="0.7" position="left" />
+			<show chara="reaHahArmedClose" position="right" />
+			<speak chara="reannaNoFace">リアーナ・ブリガンティア。天命の戦乙女よ。</speak>
+			<show chara="reaHahArmedClose" opacity="0.7" position="right" />
+			<show chara="morganClose" position="left" />
+			<speak chara="morganNoFace">あなたのお仲間は隣でエネルギーを補充しているわ……あなたもいる？高カロリー食品。</speak>
+			<show chara="morganClose" opacity="0.7" position="left" />
+			<show chara="reaHahArmedClose" position="right" />
+			<speak chara="reannaNoFace">あ、大丈夫よ。私……朝ご飯を食べすぎちゃったから。アハハ。</speak>
+			<show chara="reaHahArmedClose" opacity="0.7" position="right" />
+			<show chara="morganClose" position="left" />
+			<speak chara="morganNoFace">そう……じゃあ、私がいただくわね。</speak>
+			<text>そう言いながら、彼女はチョコレートの包みを開けて口の中に放り込んだ。</text>
+			<speak chara="morganNoFace">そうだ。</speak>
+			<speak chara="morganNoFace">エレインを助けてくれてありがとう。あのバカ、前にもこんなことがあってね、私たちがいなかったら何回死んでいたことか。</speak>
+			<speak chara="morganNoFace">それより、私が気になるのは——あなたたちが持つ「野戦用の医療キット」よ。一体どんなものなの？</speak>
+			<show chara="morganClose" opacity="0.7" position="left" />
+			<show chara="reaHahArmedClose" position="right" />
+			<speak chara="reannaNoFace">アハハ……それはね……。</speak>
+			<goto change="#ffffff" goto="40" />
+		</scene>
+		<scene background="livingroomClinic.jpg" id="40">
+			<bgm src="lab.mp3" status="continue" />
+			<show chara="einSmileWinterClose" position="left" />
+			<speak chara="einNoFace">うん……このキャビア、本当に美味しいね。パンの食感もちょうどいい。</speak>
+			<show chara="einSmileWinterClose" opacity="0.7" position="left" />
+			<show chara="elaineSmileClose" position="right" />
+			<speak chara="elaineNoFace">そうでしょう？あの人たちメチャクチャ美味しいものをいつも仕入れてくるのよ。</speak>
+			<speak chara="elaineNoFace" remark="next">今食べてるオオチョウザメのキャビアに、この前はイストリアの白トリュフを持ってきたわ、それからハモン・イベリコ……。</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">オオチョウザメ（学名：Huso huso）はチョウザメ科ダウリアチョウザメ属の魚。俗名「ベルーガ」。産地にちなんだ名前「黒海チョウザメ」、「カスピ海チョウザメ」と呼ばれることもある。オオチョウザメは世界最大の淡水魚品種の一つ。チョウザメの中でも最も大きく、最も貴重な品種。体長は8メートル以上にもなり、体重は1トンを越える。オオチョウザメ（特にヴォルガ川河口アストラハン産）のキャビアは粒が大きく、なめらかな口当たりで、後味が続くので、あらゆるキャビアの中で最もおいしく、最も貴重な品種である。</p>
+			</remark>
+			<show chara="elaineSmileClose" opacity="0.7" position="right" />
+			<show chara="teslaSurpriseGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">何ですって？Dr.モーガンって、そんなにお金持ちなの？</speak>
+			<show chara="teslaSurpriseGlassWinterClose" opacity="0.7" position="left" />
+			<show chara="elaineNormalClose" position="right" />
+			<speak chara="elaineNoFace">えっと……お金持ちというか……知り合いが多いというか……。</speak>
+			<show chara="hellawesNormalClose" position="right" />
+			<speak chara="hellawesNoNameNoFace">ウフフ……山海の珍味はどんなに美味しくても、お腹いっぱいにはならないでしょ？</speak>
+			<speak chara="hellawesNoNameNoFace">はい、お待たせ——チョコバナナケーキ。</speak>
+			<show chara="hellawesNormalClose" opacity="0.7" position="right" />
+			<show chara="teslaStarGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">わあっ、いい香り！</speak>
+			<show chara="teslaStarGlassWinterClose" opacity="0.7" position="left" />
+			<show chara="mbembaClose" position="right" />
+			<speak chara="mbembaNoFace">う～ん、ママが焼いたのよりもいい香りだ！</speak>
+			<show chara="hellawesNormalClose" position="right" />
+			<speak chara="hellawesNoNameNoFace">当たり前でしょ。伊達にバニーガールの格好はしていないわ。</speak>
+			<show chara="hellawesNormalClose" opacity="0.7" position="right" />
+			<show chara="teslaEatGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">いただきますっ！！</speak>
+			<show chara="teslaEatGlassWinterClose" opacity="0.7" position="left" />
+			<show chara="einSmileWinterClose" position="right" />
+			<speak chara="einNoFace">ぷっ……がっつかないでゆっくり食べるんだぞ。</speak>
+			<show chara="einSlyWinterClose" position="right" />
+			<speak chara="einNoFace">ほら、言わんこっちゃない……背中、叩こうか？</speak>
+			<show chara="einSlyWinterClose" opacity="0.7" position="right" />
+			<show chara="teslaBiteGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">……うっさいわね！ほっといて！</speak>
+			<show chara="teslaBiteGlassWinterClose" opacity="0.7" position="left" />
+			<show chara="hellawesNormalClose" position="right" />
+			<speak chara="hellawesNoNameNoFace">ウフ……その子の言う通りよ。急いでいてもゆっくり噛まなくちゃ。</speak>
+			<show chara="hellawesNormalClose" opacity="0.7" position="right" />
+			<show chara="teslaErGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">……ところで、ヘラヴィーサさんはDr.モーガンのところでどんな手伝いをしてるの？</speak>
+			<show chara="teslaErGlassWinterClose" opacity="0.7" position="left" />
+			<show chara="hellawesNormalClose" position="right" />
+			<speak chara="hellawesNoFace">今は……もちろん臨時の看護師よ。</speak>
+			<speak chara="hellawesNoFace">こんな格好をしてるけど——本当に免許を持っているのよ。</speak>
+			<speak chara="hellawesNoFace">普段の診療所は人手が足りているけど……必ず例外ってあるでしょ？</speak>
+			<show chara="elaineNormalClose" position="right" />
+			<speak chara="elaineNoFace">昨日の夜中、突然停電した時にDr.モーガンが私たちをここに集めたの——</speak>
+			<show chara="elaineSmileClose" position="right" />
+			<speak chara="elaineNoFace">見ての通り、こいつは夜の仕事の服を着替えずに来たってわけよ。</speak>
+			<show chara="elaineSmileClose" opacity="0.7" position="right" />
+			<show chara="weltAstonishNewClose" position="left" />
+			<speak chara="weltNoFace">待って……ということは、君たちは元々何かの……「組織」なのか？</speak>
+			<show chara="weltAstonishNewClose" opacity="0.7" position="left" />
+			<show chara="hellawesNormalClose" position="right" />
+			<speak chara="hellawesNoFace">ウフフ……「組織」って言ったら少し大げさね……。</speak>
+			<speak chara="hellawesNoFace">でも確かに、みんな一つの「ビジネスチーム」と言ってもいいかもね。</speak>
+			<speak chara="hellawesNoFace">私とパーシヴァルは情報収集、エレインは取引とかお金の貸付や回収を担当しているの。Dr.モーガンは——当然、頭を使う仕事担当ね。</speak>
+			<show chara="hellawesNormalClose" opacity="0.7" position="right" />
+			<show chara="weltNervousNewClose" position="left" />
+			<speak chara="weltNoFace">え……それってまさか……。</speak>
+			<show chara="weltNervousNewClose" opacity="0.7" position="left" />
+			<show chara="hellawesNormalClose" position="right" />
+			<speak chara="hellawesNoFace">ウフフ？私たち何も違法なことはしてないわよ。</speak>
+			<show chara="hellawesNormalClose" opacity="0.7" position="right" />
+			<show chara="elaineSmileClose" position="right" />
+			<speak chara="elaineNoFace">アハハ、あなたたち考えすぎじゃない？</speak>
+			<speak chara="elaineNoFace">この人たちに命をかけた取引ができるだけの度胸があるわけないでしょ……あっ、ケーキ食べ終わっちゃった！</speak>
+			<speak chara="elaineNoFace">ヘラ、あれを開けようよ！あれ！！「セナの花」！</speak>
+			<goto change="0" goto="50" />
+		</scene>
+		<scene background="backdoorClinic.jpg" id="50">
+			<bgm src="lab.mp3" status="stop" />
+			<sound src="11_3_mess lock.mp3" />
+			<show chara="percivalNormalClose" position="right" />
+			<speak chara="percivalNoNameNoFace">酒なんか開けるな！</speak>
+			<speak chara="percivalNoNameNoFace">手伝ってくれ！</speak>
+			<bgm src="10_25_noise.mp3" status="start" />
+			<text>勢いよく診療所の裏口を開けたのは、サイズの合わない「白衣」をまとったイカツイ男性だった。</text>
+			<show chara="percivalNormalClose" opacity="0.7" position="right" />
+			<show chara="hellawesNormalClose" position="left" />
+			<speak chara="hellawesNoFace">パーシヴァル、あなた——大変、誰かケガしたの？</speak>
+			<show chara="hellawesNormalClose" opacity="0.7" position="left" />
+			<show chara="percivalNormalClose" position="right" />
+			<speak chara="percivalNoFace">何をボヤボヤしてるんだ？早くコイツをドクターのところに運んでくれ！急がないと手遅れになるぞ！</speak>
+			<text>イカツイ男性は肩に担いでいた男を下ろす。運ばれてきた男はスーツを着ていて、全身血まみれで息も絶え絶えの状態だ。</text>
+			<text>男の背中には無数の線状に走る傷口があった——服の破れた程度からして、傷は上側が深く、下側が浅いのだろう。</text>
+			<show chara="percivalNormalClose" opacity="0.7" position="right" />
+			<show chara="weltQuestionNewClose" position="left" />
+			<speak chara="weltNoFace">これは……野獣に引っかかれたのか？</speak>
+			<show chara="weltQuestionNewClose" opacity="0.7" position="left" />
+			<show chara="percivalNormalClose" position="right" />
+			<speak chara="percivalNoFace">知るかよ！</speak>
+			<speak chara="percivalNoFace">こいつは任せたからな！入口にまだ一人倒れているんだ！</speak>
+			<goto change="#ffffff" goto="60" />
+		</scene>
+		<scene background="wallClinic.jpg" id="60">
+			<bgm src="04_20_tank.mp3" status="start" />
+			<show chara="elaineNormalClose" position="right" />
+			<speak chara="elaineNoFace">……ミカリ！様子はどう？</speak>
+			<show chara="elaineNormalClose" opacity="0.7" position="right" />
+			<show chara="morganClose" position="left" />
+			<speak chara="morganNoFace">傷はどれも深くないから大したことないわ。</speak>
+			<show chara="morganClose" opacity="0.7" position="left" />
+			<show chara="weltAstonishNewClose" position="right" />
+			<speak chara="weltNoFace">……え？</speak>
+			<show chara="weltAstonishNewClose" opacity="0.7" position="right" />
+			<show chara="morganClose" position="left" />
+			<speak chara="morganNoFace">大動脈や主神経も傷ついてない、ただの筋肉裂傷よ。一、二ヶ月も静養すれば大丈夫でしょう。</speak>
+			<speak chara="morganNoFace">ただ……。</speak>
+			<show chara="morganClose" opacity="0.7" position="left" />
+			<show chara="weltQuestionNewClose" position="right" />
+			<speak chara="weltNoFace">ただ、何ですか？</speak>
+			<show chara="weltQuestionNewClose" opacity="0.7" position="right" />
+			<show chara="morganClose" position="left" />
+			<speak chara="morganNoFace">……何でもない。「説明上手」のブリガンティアさんから説明してもらって。私はまだ彼らの縫合をしなくちゃいけないの。</speak>
+			<hide position="left" />
+			<show chara="reaHahArmedClose" position="right" />
+			<speak chara="reannaNoFace">アハハ……さっきのアレは……内緒にしておいてね。ごめんなさい。</speak>
+			<show chara="reaHahArmedClose" opacity="0.7" position="right" />
+			<show chara="teslaBiteGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">ちょっと、背中越しにこそこそと謝ってるの聞こえてるわよ。</speak>
+			<show chara="teslaEmbarraGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">リアーナ、一体何が起きたの？</speak>
+			<show chara="teslaEmbarraGlassWinterClose" opacity="0.7" position="left" />
+			<show chara="reaSeriousArmedClose" position="right" />
+			<speak chara="reannaNoFace">彼らの傷口に崩壊エネルギーによる侵蝕現象が見られたの。ひどくはないんだけれど、間違いなく崩壊獣の仕業よ。</speak>
+			<show chara="reaNormalArmedClose" position="right" />
+			<speak chara="reannaNoFace">それから、傷口の裂傷がとてもきれいだった。つまり、相手は尋常じゃないスピードで攻撃したってこと。普通の人じゃまず防げないわ。</speak>
+			<show chara="reaSeriousArmedClose" position="right" />
+			<speak chara="reannaNoFace">だから……。</speak>
+			<show chara="reaSmileArmedClose" position="right" />
+			<bgm src="04_20_Brigantia.mp3" status="start" />
+			<speak chara="reannaNoFace">あなたたちはここに残ってドクターを守って。私は崩壊獣を殲滅しに行くわ。</speak>
+			<show chara="reaSmileArmedClose" opacity="0.7" position="right" />
+			<show chara="einSeriousEmWinterClose" position="left" />
+			<speak chara="einNoFace">……大丈夫なのか？何か罠が仕掛けられているんじゃないか？</speak>
+			<show chara="einSeriousEmWinterClose" opacity="0.7" position="left" />
+			<show chara="reaEmbarraArmedClose" position="right" />
+			<speak chara="reannaNoFace">博士、私はこれまでにたくさんの崩壊獣を倒してきたけれど……その中に人類、いえ、哺乳動物の知性に近いものなんていなかったわ。</speak>
+			<show chara="reaSmileArmedClose" position="right" />
+			<speak chara="reannaNoFace">さっきも診療所には直接攻撃を仕掛けてきていない——あいつらの行動パターンからすると、しばらくの間ここも安全のはずよ。</speak>
+			<show chara="reaLaughArmedClose" position="right" />
+			<speak chara="reannaNoFace">それに私の思い違いじゃなければ……。</speak>
+			<show chara="reaSmileArmedClose" position="right" />
+			<speak chara="reannaNoFace">……あなたたちにも「切り札」があるんでしょ？</speak>
+			<show chara="reaSmileArmedClose" opacity="0.7" position="right" />
+			<show chara="einFoolWinterClose" position="left" />
+			<speak chara="einNoFace">……。</speak>
+			<goto change="#ffffff" goto="70" />
+		</scene>
+		<scene background="livingroomClinic.jpg" id="70">
+			<bgm src="04_20_Brigantia.mp3" status="continue" />
+			<text>リアーナは意味ありげにウィンクすると、黒淵白花を持って診療所から出て行った。</text>
+			<bgm src="04_20_tank.mp3" status="start" />
+			<show chara="elaineNormalClose" position="left" />
+			<speak chara="elaineNoFace">「切り札」？何のこと？</speak>
+			<show chara="elaineNormalClose" opacity="0.7" position="left" />
+			<show chara="weltNervousNewClose" position="right" />
+			<speak chara="weltNoFace">あー、えっと……。</speak>
+			<show chara="teslaErGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">それは……。</speak>
+			<show chara="einSmileWinterClose" position="right" />
+			<speak chara="einNoFace">ほら。</speak>
+			<text>天パ소녀はどこからともなく銀灰色の弾丸を取り出し、赤髪のカウガールに手渡した。</text>
+			<show chara="einSmileWinterClose" opacity="0.7" position="right" />
+			<show chara="elaineNormalClose" position="left" />
+			<speak chara="elaineNoFace">これは……。</speak>
+			<show chara="elaineNormalClose" opacity="0.7" position="left" />
+			<show chara="einSlyWinterClose" position="right" />
+			<speak chara="einNoFace" remark="next">「銀の弾丸」。</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">銀の弾丸（silver bullet）は銀で作られた銃器の弾丸。中世ヨーロッパの民間の言い伝えでは銀で作られた剣や銛等の銀製品は狼男や魔女、その他の怪物に対抗できる唯一の武器とされていた。そのため、「銀の弾丸」には強力で、永遠に、様々な場面で使える「万能の切り札」という意味が派生していった。</p>
+			</remark>
+			<show chara="einSlyWinterClose" opacity="0.7" position="right" />
+			<show chara="elaineNormalClose" position="left" />
+			<speak chara="elaineNoFace">え？</speak>
+			<show chara="elaineNormalClose" opacity="0.7" position="left" />
+			<show chara="einLveWinterClose" position="right" />
+			<speak chara="einNoFace">冗談だよ。そんな名前じゃない。</speak>
+			<show chara="einSmileWinterClose" position="right" />
+			<speak chara="einNoFace" remark="next">「アストラ弾」はこちらの테슬라博士が発明した合金を使って作った弾薬なんだ。崩壊獣の装甲を破るにはかなり効果があるよ。</speak>
+			<remark post="U2FsdGVkX18Mxo5Y1tbHXcnS6m3z">
+				<p class="article-text-h">注：</p>
+				<p class="article-text">「Astra」（サンスクリット語: अस्त्र）はインド神話で神から与えられた超自然的な武器の総称である。</p>
+				<p class="article-text">例えば「パーシュパタアストラ」（Pashupatastra）はシヴァ（Shiva、インド神話の「破壊神」。百獣の神でもある）がアルジュナに与えた「アストラ」で、その力は宇宙をも滅ぼせると言われている。</p>
+			</remark>
+			<show chara="einSmileWinterClose" opacity="0.7" position="right" />
+			<show chara="teslaErGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">そうそう……そうなのよ……アハハ……ひとまずは効果があるかな？</speak>
+			<show chara="teslaShameGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace" remark="next">あとその弾丸、成形炸薬弾なんだけど45口径なの……装填できる代物はあるかしら？</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">「.45 Auto（.45オート）」「.45 ACP（Automatic Colt Pistol、コルト自動拳銃）」とも言う。アメリカの多くの拳銃やサブマシンガンに使われている弾丸のタイプ。重量のある弾頭が亜音速で射出され、防御力のない目標に致命傷を与えられる……。</p>
+				<p class="article-text">……しかし、この物語の中では、테슬라がさらに変更を加えている。테슬라はテュール合金のセルフ・シャープニング効果——ウランが高速回転の摩擦により液化して侵徹する特殊性能——を利用して、小型銃器でも使用できるこの.45超音速成形炸薬弾を発明した。</p>
+				<p class="article-text">p.s. 「.45」は弾頭直径が約0.45インチの弾丸を指す。</p>
+			</remark>
+			<goto change="#ffffff" goto="80" />
+		</scene>
+		<scene background="livingroomClinic.jpg" id="80">
+			<bgm src="04_20_tank.mp3" status="continue" />
+			<show chara="elaineSmileClose" position="left" />
+			<speak chara="elaineNoFace">エヘヘ……。</speak>
+			<speak chara="elaineNoFace">おいで！1人1丁ずつ「タイプライター」だよ！</speak>
+			<show chara="elaineSmileClose" opacity="0.7" position="left" />
+			<show chara="mbembaClose" position="right" />
+			<speak chara="mbembaNoFace" remark="next">おお、トンプソンだ！こいつさえあれば恐いものなしだな。</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">「シカゴ・タイプライター」はトンプソン・サブマシンガンの通称。銃声がタイプライターに似ており、1930年代のシカゴマフィアのシンボル的な武器となっていたことに由来する。トンプソンシリーズの近距離殺傷力は抜きん出ており、当時は世界中で人気のサブマシンガンとなった——ソ連の「ペーペーシャ」に次いで。</p>
+			</remark>
+			<show chara="mbembaClose" opacity="0.7" position="right" />
+			<show chara="weltAstonishNewClose" position="left" />
+			<speak chara="weltNoFace">……これってサブマシンガンだろ？나たち、そんなにたくさん弾薬持ってたっけ？</speak>
+			<show chara="weltAstonishNewClose" opacity="0.7" position="left" />
+			<show chara="teslaShameGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">そこは安心して！私たちが乗って来たあのスポーツカーにたっぷり1ケースあるわよ。</speak>
+			<show chara="teslaShameGlassWinterClose" opacity="0.7" position="right" />
+			<show chara="weltEmbarraNewClose" position="left" />
+			<speak chara="weltNoFace">た……たっぷり1ケース！？</speak>
+			<show chara="weltEmbarraNewClose" opacity="0.7" position="left" />
+			<show chara="teslaErGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">……どうしたの。あいつらしいやり方だと思わない？大量生産して各地に残しておく。</speak>
+			<show chara="teslaErGlassWinterClose" opacity="0.7" position="right" />
+			<show chara="weltAstonishNewClose" position="left" />
+			<speak chara="weltNoFace">あいつ……？</speak>
+			<show chara="weltAstonishNewClose" opacity="0.7" position="left" />
+			<bgm src="04_20_tank.mp3" status="stop" />
+			<show chara="teslaBoringGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">……。</speak>
+			<bgm src="10_25_noise.mp3" status="start" />
+			<show chara="teslaDisgustedGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">エジソンよ！</speak>
+			<show chara="teslaEmbarraGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">……。</speak>
+			<show chara="teslaEmbarraGlassWinterClose" opacity="0.7" position="right" />
+			<show chara="weltAstonishNewClose" position="left" />
+			<speak chara="weltNoFace">あっ……ナ、ナンシーさんのことか。えっと、何か怒ってる？</speak>
+			<show chara="weltAstonishNewClose" opacity="0.7" position="left" />
+			<show chara="teslaNormalGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">……。</speak>
+			<show chara="teslaSmileGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">……あんた、今日はその名前あまり出さないでもらえる。ねえ？</speak>
+			<show chara="teslaAngryGlassWinterClose" position="right" />
+			<shake position="right" time="250" />
+			<speak chara="teslaNoFace">……その名前を聞くだけでイラつくから！</speak>
+			<show chara="teslaBiteGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">蚊よりムカつく。ノミよりもっとムカつく。蝿よりも10万倍ムカつく！</speak>
+			<show chara="teslaBiteGlassWinterClose" opacity="0.7" position="right" />
+			<show chara="weltSorryNewClose" position="left" />
+			<speak chara="weltNoFace">ご……ごめん。</speak>
+			<show chara="weltSorryNewClose" opacity="0.7" position="left" />
+			<show chara="teslaEmbarraGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">……。</speak>
+			<show chara="teslaBiteGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">ちぇっ。バカじゃないの。</speak>
+			<show chara="teslaBiteGlassWinterClose" opacity="0.7" position="right" />
+			<show chara="weltAstonishNewClose" position="left" />
+			<speak chara="weltNoFace">え……？</speak>
+			<show chara="weltAstonishNewClose" opacity="0.7" position="left" />
+			<show chara="teslaNormalGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">あんたが謝っても別にどうともならないでしょ。</speak>
+			<speak chara="teslaNoFace">……。</speak>
+			<show chara="teslaAstonishGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">もしあいつらに何かあったら、あんたがみんなを元通り元気な姿にしてくれるの？</speak>
+			<show chara="teslaDisgustedGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">できる？</speak>
+			<show chara="teslaAstonishGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">どうなの？え！？</speak>
+			<goto change="0" goto="90" />
+		</scene>
+		<scene background="backdoorClinic.jpg" id="90">
+			<bgm src="10_25_noise.mp3" status="stop" />
+			<sound src="8_24_knock_door.mp3" />
+			<text>コン。</text>
+			<sound src="8_24_knock_door.mp3" />
+			<text>コンコン。</text>
+			<sound src="8_24_knock_door.mp3" />
+			<text>コンコンコン。</text>
+			<goto change="0" goto="100" />
+		</scene>
+		<scene background="livingroomClinic.jpg" id="100">
+			<bgm src="10_25_noise.mp3" status="stop" />
+			<show chara="elaineNormalClose" position="right" />
+			<speak chara="elaineNoFace">……誰かノックしてる？</speak>
+			<show chara="elaineNormalClose" opacity="0.7" position="right" />
+			<show chara="mbembaClose" position="left" />
+			<speak chara="mbembaNoFace">……나が見てくる。</speak>
+			<goto change="#ffffff" goto="105" />
+		</scene>
+		<scene background="white" id="105">
+			<bgm src="10_25_noise.mp3" status="stop" />
+			<sound src="hit man.mp3" />
+			<speak chara="mbembaNoFace">うわっ！</speak>
+			<goto change="0" goto="110" />
+		</scene>
+		<scene background="CG21.jpg" id="110">
+			<bgm src="8_24_war.mp3" status="start" />
+			<speak chara="mbembaNoFace">な……何するんだ……？</speak>
+			<speak chara="schroCatNoNameNoFace">どくのです、雑魚。</speak>
+			<speak chara="schroCatNoNameNoFace">私は後ろにいるあのヒモ男に用があるのです。</speak>
+			<speak chara="schroCatNoNameNoFace">……そう、あなたなのです。</speak>
+			<speak chara="schroCatNoNameNoFace">……出てくるのです、「웰트」。</speak>
+			<speak chara="schroCatNoNameNoFace">……そして、死ぬのです。</speak>
+			<end post="U2FsdGVkX18B8yapKZq9zigEFiYZ" />
+		</scene>
+	</story>
+</data>

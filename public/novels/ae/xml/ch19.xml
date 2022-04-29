@@ -1,0 +1,385 @@
+<data>
+	<img></img>
+	<characters>
+		<character color="#fff2c4" id="reaSmileArmedClose" name="リアーナ" src="04_04_reaSmileArmedClose.png" />
+		<character color="#fff2c4" id="reaSeriousArmedClose" name="リアーナ" src="04_04_reaSeriousArmedClose.png" />
+		<character color="#fff2c4" id="reaNormalArmedClose" name="リアーナ" src="04_04_reaNormalArmedClose.png" />
+		<character color="#fff2c4" id="reaSeriousArmedClose-up" name="リアーナ" src="04_04_reaSeriousArmedClose-up.png" />
+		<character color="#fff2c4" id="reaNormalArmedClose-up" name="リアーナ" src="04_04_reaNormalArmedClose-up.png" />
+		<character color="#fff2c4" id="reaEmbarraArmedClose" name="リアーナ" src="04_04_reaEmbarraArmedClose.png" />
+		<character color="#ffffff" id="weltEmbarraNewClose" name="웰트" src="04_08_weltEmbarraNewClose.png" />
+		<character color="#ffffff" id="weltAstonishNewClose" name="웰트" src="04_08_weltAstonishNewClose.png" />
+		<character color="#fff2c4" id="reaLaughArmedClose" name="リアーナ" src="04_08_reaLaughArmedClose.png" />
+		<character color="#fff2c4" id="reaHahArmedClose" name="リアーナ" src="04_08_reaHahArmedClose.png" />
+		<character color="#b4a0a0" id="mbembaClose" name="ムベンバ" src="04_08_mbenbaClose.png" />
+		<character color="#b4a0a0" id="mbembaClose-up" name="ムベンバ" src="04_08_mbenbaClose-up.png" />
+		<character color="#b4a0a0" id="mbembaNoFace" name="ムベンバ" src="" />
+		<character color="#ffdaa6" id="alexClose" name="アレックス" src="04_08_alexClose.png" />
+		<character color="#ffdaa6" id="alexNoFace" name="アレックス" src="" />
+		<character color="rgb(237,118,114)" id="teslaDisgustedGlassWinterClose-up" name="테슬라" src="04_08_teslaDisgustedGlassWinterClose-up.png" />
+		<character color="#ffffff" id="tank" name="戦車" src="04_08_tank.png" />
+		<character color="#ffffff" id="peduncle" name="触手" src="04_08_peduncle.png" />
+		<character color="#c58c47" id="yuriSadClose" name="ユーリー" src="04_08_yuriSadClose.png" />
+		<character color="#c58c47" id="yuriSadClose-up" name="ユーリー" src="04_08_yuriSadClose-up.png" />
+		<character color="#c58c47" id="yuriSeriousClose" name="ユーリー" src="04_08_yuriSeriousClose.png" />
+		<character color="#c58c47" id="yuriSeriousClose-up" name="ユーリー" src="04_08_yuriSeriousClose-up.png" />
+	</characters>
+	<story>
+		<scene background="bg.jpg" id="0">
+			<bgm src="mid-lude.mp3" status="start" />
+			<cg bg="bg.jpg" src="newchapter.png" />
+			<goto change="#000000" goto="10" />
+		</scene>
+		<scene background="streetProvidence.jpg" id="10">
+			<bgm src="03_03_bostonNight.mp3" status="start" />
+			<text>目の前の道路が、いくつもの水たまりで埋め尽くされていた。</text>
+			<text>11月の真冬の寒さとは裏腹に水たまりからはまったく冷たさを感じない——それどころか暖かさすら感じた。</text>
+			<text>早起きのマガモが季節に反して水たまりの上を心地よさそうに行ったり来たりしている。</text>
+			<text>しかし……。</text>
+			<text>世界中で起きる全てのことは、僅かながらの感覚器官のみでは把握しきれないことも往々にあり、実際には美しくなかったなんてこともある。</text>
+			<text>この水たまりの下にある道路がそうだ。表面がデコボコしていたり、滑りやすくなっていたり、ベタベタしていたり……或いは鋭く硬いものが挟まっていて移動を邪魔することだってある。</text>
+			<show chara="einFoolWinterClose" position="center" />
+			<speak chara="einNoFace">パンクの原因を見つけたよ。</speak>
+			<hide position="center" />
+			<text>웰트が소녀の指さす方を見る。巨大で尖った「貝殻」がスポーツカーの細い右後輪タイヤにざっくりと刺さっていた。</text>
+			<text>タイヤにかき混ぜられていた水たまりが徐々に澄んでいく。웰트は、そこに不気味な生物がびっしりと生息していることに気づく。</text>
+			<text>灰色っぽい白と濃紺の間の「貝殻」——タイヤに刺さったのと同じ尖った石灰質のもの——が無秩序に群がっているのだ。</text>
+			<text>それが一体なんなのか、まったくわからなかった。</text>
+			<text>とにかく、地獄にいる全ての悪魔の爪をはぎ取り、さらにイワシの大群のように集めたら——大体目の前のような光景になるだろう。</text>
+			<show chara="teslaBiteGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace" remark="next">そうね、結論から言えば……このアスファルトの路面に通常より何倍も大きなフジツボが生息しているみたいね。</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">通常、フジツボは節足動物門、顎足綱、鞘甲亜綱に含まれる動物を指し、固着生活を営んでいる。彼らは主に岩礁に付着するが、流木や船底、蟹類や貝類の外殻に付着することもある。</p>
+				<p class="article-text">また、特別な品種はクジラの体に直接寄生する（「クジラフジツボ」と言う）。</p>
+			</remark>
+			<text>オシャレに着飾った소녀が歯ぎしりしながら言った。どうやら、この手の密集した甲殻類が苦手のようだ。</text>
+			<show chara="teslaBiteGlassWinterClose" opacity="0.7" position="left" />
+			<show chara="weltEmbarraNewClose" position="right" />
+			<speak chara="weltNoFace">フジツボって……海洋生物じゃないのか？</speak>
+			<speak chara="weltNoFace">ここは……海から近いといっても、さすがに限界があるだろ……？</speak>
+			<show chara="weltEmbarraNewClose" opacity="0.7" position="right" />
+			<show chara="teslaBiteGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">そんなこと、私だって分かってるわよっ！</speak>
+			<show chara="teslaDisgustedGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">だから、なおさら恐ろしいんじゃないの！</speak>
+			<show chara="teslaAstonishGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">内陸には絶対に現れない気持ち悪いヤツが、こうやって私たちのタイヤをパンクさせたのよ！？</speak>
+			<show chara="teslaAstonishGlassWinterClose" opacity="0.7" position="left" />
+			<show chara="einNormalWinterClose" position="right" />
+			<speak chara="einNoFace">1861年2月22日、シンガポールで暴風雨の中、無数の魚が空から降って来たことがある。</speak>
+			<speak chara="einNoFace">だけど、この水たまりの中で固着しているフジツボは空から降ってきたわけではなさそうだ。</speak>
+			<speak chara="einNoFace">……僕たちの今いる具体的な場所は？</speak>
+			<show chara="einNormalWinterClose" opacity="0.7" position="right" />
+			<show chara="teslaNormalGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">ポータケット・アベニュー……ホ―プエリア。</speak>
+			<text>테슬라は手に持った地図を見ながら言う。</text>
+			<speak chara="teslaNoFace">左側のそう遠くない場所に「スワン・ポイント墓地」があるわ。墓地からさらに外側に行くと、シーコンク川のラッパの形をした河口よ。</speak>
+			<speak chara="teslaNoFace">現地に偵察に行くのなら、ベンズリー・ポイントからリッピット記念公園に行って、そこからブラックストーンパークへ行く三角形はどうかしら——</speak>
+			<hide position="left" />
+			<hide position="right" />
+			<bgm src="03_03_bostonNight.mp3" status="stop" />
+			<speak chara="reannaNoNameNoFace">でも、中心はやっぱりあの墓地なんでしょう？</speak>
+			<speak chara="reannaNoNameNoFace">まったく、あなたたちとの縁ってどうしていつも墓地と関係してるのかしら。</speak>
+			<speak chara="teslaNoFace">誰っ！？</speak>
+			<show chara="reaSmileArmedClose" position="center" />
+			<text>全く足音の聞こえなかった「予想外の客人」は、つま先から頭まで特製の戦闘服をまとっていた。</text>
+			<speak chara="einNoFace">あっ……。</speak>
+			<speak chara="weltNoFace">……リアーナさん？</speak>
+			<goto change="#ffffff" goto="20" />
+		</scene>
+		<scene background="streetProvidence.jpg" id="20">
+			<bgm src="10_20_PeerGynt.mp3" status="start" />
+			<show chara="reaLaughArmedClose" position="right" />
+			<speak chara="reannaNoFace">……もしかして、今日みたいな格好じゃ誰か分からなかったかしら？</speak>
+			<show chara="reaLaughArmedClose" opacity="0.7" position="right" />
+			<show chara="teslaBoringGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">そ、そうね……。</speak>
+			<speak chara="teslaNoFace">（戦闘服って……金ピカに光ってもなければ、青や白をあしらったものでもないんだ……。）</speak>
+			<show chara="teslaBoringGlassWinterClose" opacity="0.7" position="left" />
+			<show chara="reaEmbarraArmedClose" position="right" />
+			<speak chara="reannaNoFace">ん？どうかした？</speak>
+			<show chara="reaEmbarraArmedClose" opacity="0.7" position="right" />
+			<show chara="teslaErGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">う、ううん。何でもないわ。</speak>
+			<show chara="teslaNormalGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">そんなことより……リアーナさんはどうしてここに？</speak>
+			<speak chara="teslaNoFace">本部の戦乙女でしょ？</speak>
+			<show chara="teslaNormalGlassWinterClose" opacity="0.7" position="left" />
+			<show chara="reaHahArmedClose" position="right" />
+			<speak chara="reannaNoFace">ああ、それはね……。</speak>
+			<show chara="reaSmileArmedClose" position="right" />
+			<speak chara="reannaNoFace">あなたたちと同じように、本当は休暇中とでも言うべきなのかしら。</speak>
+			<show chara="reaSmileArmedClose" opacity="0.7" position="right" />
+			<show chara="teslaSurpriseGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">え？</speak>
+			<show chara="teslaSurpriseGlassWinterClose" opacity="0.7" position="left" />
+			<show chara="reaHahArmedClose" position="right" />
+			<speak chara="reannaNoFace" remark="next">元々はナンタケットの捕鯨博物館を見に行く予定で、船のチケットを予約してたんだけど……。</speak>
+			<remark post="U2FsdGVkX1+nM00AVZfqWdagRa33">
+				<p class="article-text-h">注：</p>
+				<p class="article-text">ナンタケット（Nantucket）はアメリカ・マサチューセッツ州南西部の島。かつては世界的な捕鯨の中心地の一つだった。ハーマン・メルヴィル（Herman Melville）の名著『白鯨』の捕鯨船「ピークオッド号」（Pequod）は、ここから世界中を回る捕鯨の旅に出航している。</p>
+			</remark>
+			<show chara="reaSeriousArmedClose" position="right" />
+			<speak chara="reannaNoFace">だけど、あなたたちも知っての通り、昨日の明け方に異常事態が発生したでしょ。</speak>
+			<show chara="reaNormalArmedClose" position="right" />
+			<speak chara="reannaNoFace">……それで、あなたたちは？丸腰でどんな獲物を仕留めるつもり？</speak>
+			<speak chara="reannaNoFace">道路では何故かフジツボが育ってるし。もし、墓地の方に行って崩壊獣と出くわしたらどうするつもり？</speak>
+			<show chara="reaNormalArmedClose" opacity="0.7" position="right" />
+			<show chara="teslaShameGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">確かに行き当たりばったりだけど——そんなに心配しなくても大丈夫よ。</speak>
+			<speak chara="teslaNoFace">もう少しすれば私たちは神の——じゃなかった、すごい力が手に入るのよ。</speak>
+			<show chara="teslaShameGlassWinterClose" opacity="0.7" position="left" />
+			<show chara="weltAstonishNewClose" position="right" />
+			<speak chara="weltNoFace">？？？</speak>
+			<show chara="reaNormalArmedClose" position="right" />
+			<speak chara="reannaNoFace">……？</speak>
+			<show chara="reaNormalArmedClose" opacity="0.7" position="right" />
+			<show chara="teslaErGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">あっ……いや、その……私たちどうにかして現地の機関と連絡がとれたの。</speak>
+			<speak chara="teslaNoFace">あれ？えっと……何ていう名前だったっけ？</speak>
+			<show chara="einNormalWinterClose" position="left" />
+			<speak chara="einNoFace">緊急対応管理局プロビデンス特別連絡オフィス。</speak>
+			<speak chara="einNoFace">北米支部とアメリカ政府が合同で設立した機関だ。</speak>
+			<speak chara="einNoFace">彼らの規定では、現在は테슬라がその機関の臨時指揮権を持っているんだ。</speak>
+			<show chara="teslaErGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">コホン……まとめてくれてありがとう。</speak>
+			<show chara="teslaSnickerGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">とにかく、私たちと向こうの人は近くの大学の中央グラウンドで落ち合う約束なの。</speak>
+			<speak chara="teslaNoFace">リアーナさんも一緒に来る？</speak>
+			<goto change="#ffffff" goto="30" />
+		</scene>
+		<scene background="universityMorning.jpg" id="30">
+			<bgm src="themeTesla.mp3" status="start" />
+			<show chara="tank" position="back" />
+			<show chara="mbembaClose" position="left" />
+			<show chara="alexClose" position="right" />
+			<show chara="yuriSadClose" position="center" />
+			<text>ノッポとチビ、デブとガリ、様々な体格の3人と全く役に立たなそうな2輌の装甲戦車。</text>
+			<text>振り向いて戦乙女のリアーナを見てから、再び目の前の「公務員」数人に目を向ける。테슬라は猛烈に胃が痛くなってきた。</text>
+			<goto change="0" goto="40" />
+		</scene>
+		<scene background="universityMorning.jpg" id="40">
+			<bgm src="10_25_noise.mp3" status="start" />
+			<show chara="tank" position="back" />
+			<show chara="teslaErGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">それで……あなたたちだけ？しかも男ばかり？</speak>
+			<show chara="teslaErGlassWinterClose" opacity="0.7" position="left" />
+			<show chara="yuriSeriousClose" position="right" />
+			<speak chara="yuriNoFace">……す……すみません。</speak>
+			<text>3人の中で一番背の低いユーリーが彼らの代表のようだ。</text>
+			<show chara="yuriSadClose" position="right" />
+			<speak chara="yuriNoFace">私は夜勤だった者です……ムベンバはオフィスに泊っていて……アレックスは借りているアパートが近くだったんです。</speak>
+			<speak chara="yuriNoFace">通信が遮断された状況で、短時間で集められたのは我々3人だけでして……本当にどうしようもなくて。</speak>
+			<show chara="yuriSadClose" opacity="0.7" position="right" />
+			<show chara="teslaDisgustedGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">そんなこと言っても、今起きているのは崩壊による事件なのよ。</speak>
+			<show chara="teslaBiteGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">耐性のない男を数人寄こしたからって、何の役に立つのよ？</speak>
+			<show chara="teslaErGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">よくまあ「問題を解決できる手がある」なんて言ってくれたわね……。</speak>
+			<show chara="teslaDisgustedGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">……こんな陸軍が見でもしたらオンボロだと思うような戦車で、どうにかなるとでも？</speak>
+			<show chara="teslaErGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">新開発したプロトタイプの機甲は？まだ量産はしてないけれど、1台も配備されてないの？</speak>
+			<show chara="teslaErGlassWinterClose" opacity="0.7" position="left" />
+			<show chara="mbembaClose" position="right" />
+			<speak chara="mbembaNoFace" remark="next">この戦車はシャーマンⅡ型を改造したものです——テュール合金の防護壁を施し、さらに高性能火炎放射器と化学薬剤の噴射口も取り付けてあります。</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">M4中戦車は第二次世界大戦期にアメリカが開発・製造した戦車で、改造型も数多い。通称のシャーマン（Sherman）はイギリス軍がつけたあだ名。アメリカ南北戦争時の北軍の“悪魔将軍”ウィリアム・テカムセ・シャーマンに由来している。</p>
+				<p class="article-text">1864年のサバンナの戦い——俗称Sherman's March to the Sea（海への進軍）——でシャーマン配下の部隊は焦土作戦をとった。南部のインフラの多くを壊滅的に破壊し、非人道的な手段で南部の軍隊と民衆の財力および戦意を喪失させた。</p>
+			</remark>
+			<show chara="yuriSadClose" position="right" />
+			<speak chara="yuriNoFace">エジソンさんの話によれば……戦術機甲はコストが高すぎるので、普通の崩壊に対応する際はこのような一般的な軍隊装備を改良したものの方が……コストパフォーマンスがいいそうです。</speak>
+			<show chara="alexClose" position="right" />
+			<speak chara="alexNoFace" remark="next">補足しましょう。いわゆる「テュール合金」はエジソンさんが名付けたものですが、実際には浸炭処理したチタン（Ti）とウラン（U）の合金でして——</speak>
+			<remark post="U2FsdGVkX18qFb5k3RSFaoDOxcnk">
+				<p class="article-text-h">注：</p>
+				<p class="article-text">テュールは北欧神話の中の軍神——もっと正確に言えば英雄と勇気を象徴する神である。言語によってその書き方は異なる。Týr（古ノルド語）、Ty（古ノルウェー語）、Ti（古スウェーデン語）、TiwまたはTiu（古英語）、ZiuまたはZio（古ドイツ語）等。</p>
+				<p class="article-text">p.s.英語の火曜日（Tuesday）は「テュールの日」（Tiw's Day）の意味である。</p>
+			</remark>
+			<bgm src="themeTesla.mp3" status="start" />
+			<show chara="alexClose" opacity="0.7" position="right" />
+			<show chara="teslaAngryGlassWinterClose" position="left" />
+			<shake position="left" time="250" />
+			<speak chara="teslaNoFace">——そんな御託は結構！この合金は私が開発したんだからっ！</speak>
+			<shake position="left" time="250" />
+			<speak chara="teslaNoFace">崩壊エネルギーを防げる量産型合金よ！魂鋼の代替品！</speak>
+			<shake position="left" time="250" />
+			<speak chara="teslaNoFace">本当は正式版の機甲を作る際に使用するはずだったの！けど、密度が大きすぎてエンジン効率が追い付かなかったのよ！</speak>
+			<shake position="left" time="250" />
+			<speak chara="teslaNoFace">5万ドル相当の安価な特許よ。以上！</speak>
+			<bgm src="11_17_tatakau.mp3" status="start" />
+			<show chara="teslaErGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">……オホン。</speak>
+			<show chara="teslaShameGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">それで、結局あれを戦車の防御装甲に使ったってこと？</speak>
+			<speak chara="teslaNoFace">……アイツが考えそうなことね。</speak>
+			<show chara="teslaEmbarraGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">……私がアイツのことをどう思ってるか知ってる？</speak>
+			<speak chara="teslaNoFace">自分の相手しているものが単独の遊撃兵なのかマキシム機関銃なのか分かっていないのに、「私たち」はきっと勝てると思い込んでいるズールー族の戦士よ。</speak>
+			<show chara="teslaShameGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">……分からないならいいわ。</speak>
+			<speak chara="teslaNoFace">……とにかく、「ないよりはマシ」ってレベルなだけ。ただし、特定の条件下であれば、あなたたちでも多少マシになるわ——</speak>
+			<speak chara="teslaNoFace">——そう「特定の条件下」であればね。</speak>
+			<show chara="teslaSnickerGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">……リアーナさん。</speak>
+			<show chara="teslaSnickerGlassWinterClose" opacity="0.7" position="left" />
+			<show chara="reaHahArmedClose" position="right" />
+			<speak chara="reannaNoFace">……ええ、私は何をすればいいの？</speak>
+			<show chara="reaHahArmedClose" opacity="0.7" position="right" />
+			<show chara="teslaSnickerGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">偵察と突撃時のプランは全て私が立てるわ。いい？</speak>
+			<show chara="teslaShameGlassWinterClose" position="left" />
+			<speak chara="teslaNoFace">一応、私の方があれについては熟知しているからね。あの3バカトリオの装備でなんとかしてみるわ。</speak>
+			<goto change="#ffffff" goto="50" />
+		</scene>
+		<scene background="parkWaterTree.jpg" id="50">
+			<bgm src="horror.mp3" status="start" />
+			<text>1955年11月24日。</text>
+			<text>朝6時45分。</text>
+			<text>プロビデンス市の空がつい先ほどから白みがかってきた。</text>
+			<show chara="teslaNormalGlassHeadsetWinterClose-up" position="center" />
+			<speak chara="teslaNoFace">こちらニコラ・테슬라。私たちとアレックスはベンズリー・ポイント北側の予定ポイントに到着、赤い旗を掲げたわ。</speak>
+			<show chara="yuriSeriousClose-up" position="center" />
+			<speak chara="yuriNoFace">こちらユーリー・アームストロング。ブラックストーン公園北側の予定ポイントに到着しました、青い旗を掲げました。</speak>
+			<show chara="teslaNormalGlassHeadsetWinterClose-up" position="center" />
+			<speak chara="teslaNoFace">了解。</speak>
+			<speak chara="teslaNoFace">もう一度言うけど、あんたたちの戦闘力は大したことないんだから、怪しげな目標に遭遇したらすぐ化学薬剤を相手に噴射すること。みだりに撃ってはだめよ。火炎放射なんてもってのほか。想定外の結果を避けるためにも！</speak>
+			<show chara="yuriSeriousClose-up" position="center" />
+			<speak chara="yuriNoFace">分かりました。</speak>
+			<show chara="reaNormalArmedClose-up" position="center" />
+			<speak chara="reannaNoFace">こちらリアーナ・ブリガンティア。</speak>
+			<speak chara="reannaNoFace">リッピット記念公園西側の予定ポイントに到着したわ。</speak>
+			<show chara="teslaNormalGlassHeadsetWinterClose-up" position="center" />
+			<speak chara="teslaNoFace">了解。</speak>
+			<speak chara="teslaNoFace">リアーナさんはいつでも動ける準備をしておいて。私たちかユーリーたちが不自然な箇所を見つけたら、真っ先に教えるから。</speak>
+			<show chara="reaNormalArmedClose-up" position="center" />
+			<speak chara="reannaNoFace">了解。</speak>
+			<speak chara="reannaNoFace">私が各ポイントに到着するのに掛かる時間は長く見積もっても2分、殺傷半径は最悪のコンディションでも10メートル以内に抑えられるわ——</speak>
+			<speak chara="reannaNoFace">——みんな、この2つの数字をしっかり覚えておいて。判断ミスで不要な死傷者を出さないように。</speak>
+			<show chara="teslaNormalGlassHeadsetWinterClose-up" position="center" />
+			<speak chara="teslaNoFace">その通りよ。彼女の到着まで2分稼いで、到着後は10メートル以上離れること。</speak>
+			<speak chara="teslaNoFace">行動開始よ。</speak>
+			<goto change="#ffffff" goto="60" />
+		</scene>
+		<scene background="parkWaterTree.jpg" id="60">
+			<bgm src="horror.mp3" status="continue" />
+			<text>晩秋の朝日が静脈網のように交錯した木々の枝葉を突き抜け、湿った地面に残されたタイヤ跡を照らしている。</text>
+			<text>ユーリー・アームストロングは装甲戦車を操縦しながら、ブラックストーン公園を北に向かってゆっくり進んでいた。</text>
+			<text>初めて「戦場」を訪れた彼の頭の中に、父親の影が浮かぶ。</text>
+			<text>あれは十年前の夏のことだ。彼は復員して帰宅したばかりの父親の手を引っ張り、ノルマンディーの話をせがんだ。</text>
+			<text>しかし、父親は冷たい言葉を言い放つ——</text>
+			<text>「暗闇の中にいた나たちには高射砲の火の光しか見えなかった——そこに飛び込めるよう、나たちはどうやって自分を説得したと思う？」</text>
+			<text>「……。」</text>
+			<text>「そこに至る2年の間に、나たちは百回以上にも及ぶ訓練を受けてきたからなんだ。」</text>
+			<text>「それ以外に『なぜ』なんて思い浮かばない。」</text>
+			<text>「ここは現実なんだ。現実の世界にスーパーヒーローなんていないのさ。」</text>
+			<text>「初めてパラシュート降下した時、나は恐くて足が震えたし、チビってしまったよ。」</text>
+			<text>「……職業軍人というのは長い訓練を受けさえすれば、不必要な感情を全て忘れ去るようになる——ただ、それだけだ。」</text>
+			<show chara="yuriSeriousClose-up" position="left" />
+			<speak chara="yuriNoFace">（不必要な感情を全て忘れ去るようになる——ただ、それだけ。）</speak>
+			<show chara="yuriSeriousClose-up" opacity="0.7" position="left" />
+			<show chara="mbembaClose-up" position="right" />
+			<speak chara="mbembaNoFace">……ユーリー。</speak>
+			<show chara="mbembaClose-up" opacity="0.7" position="right" />
+			<show chara="yuriSadClose-up" position="left" />
+			<speak chara="yuriNoFace">……ひどいだろ？今の나の顔、真っ青に決まってる。</speak>
+			<show chara="yuriSadClose-up" opacity="0.7" position="left" />
+			<show chara="mbembaClose-up" position="right" />
+			<speak chara="mbembaNoFace">……いや。</speak>
+			<speak chara="mbembaNoFace">……나はお前よりひどいさ。</speak>
+			<speak chara="mbembaNoFace">……もうすぐ臭いもするはずだぞ。すまない。</speak>
+			<show chara="mbembaClose-up" opacity="0.7" position="right" />
+			<show chara="yuriSadClose-up" position="left" />
+			<speak chara="yuriNoFace">？？？</speak>
+			<show chara="yuriSeriousClose-up" position="left" />
+			<speak chara="yuriNoFace">うっ……。</speak>
+			<text>アンモニア水のような非常に強い臭いが車内に漂い始めた。</text>
+			<text>おそらくそれは哺乳類動物が極端な恐怖を感じた時に発する臭いだ。</text>
+			<show chara="yuriSeriousClose-up" opacity="0.7" position="left" />
+			<show chara="mbembaClose-up" position="right" />
+			<speak chara="mbembaNoFace">나……見つけた……。</speak>
+			<speak chara="mbembaNoFace">いや、というか……。</speak>
+			<speak chara="mbembaNoFace">あいつも나たちを見つけたようだ。</speak>
+			<hide position="left" />
+			<hide position="right" />
+			<show chara="peduncle" position="center" />
+			<text>怪物は触腕にあるラグビーボールほどの大きさの目で、ユーリーたちの乗る動く鉄の塊を不思議そうに見つめている。</text>
+			<text>その構造を説明するのは非常に難しい……いや、おそらくそもそも理解できないかもしれない。</text>
+			<text>触手のような腕には目や刃物のようなもの、さらには口のようなものまでついていた……。</text>
+			<text>この触手のような腕はフジツボと同じように直方体の花崗岩に付着している——もしかしたら、その花崗岩はこの付近にあった墓石なのかもしれない——とにかく、それらはミミズのように目的も音もなくひっそりと蠢いている。</text>
+			<text>ただ、はっきりしていたのは……それがここ一帯における唯一無二の支配者だということだ。</text>
+			<hide position="center" />
+			<show chara="mbembaClose-up" position="right" />
+			<speak chara="mbembaNoFace">나たち……どうすればいいんだ？火炎を放射する？こ、この気持ち悪いやつらを焼き払うのか？</speak>
+			<show chara="mbembaClose-up" opacity="0.7" position="right" />
+			<show chara="yuriSeriousClose-up" position="left" />
+			<speak chara="yuriNoFace">……いや。</speak>
+			<show chara="yuriSadClose-up" position="left" />
+			<speak chara="yuriNoFace">……絶対にダメだ。</speak>
+			<speak chara="yuriNoFace">お前……少し落ち着けよ。</speak>
+			<speak chara="yuriNoFace">その赤いパネルには触るな……手を青いパネルに置くんだ……。</speak>
+			<speak chara="yuriNoFace">そうだ……その青いパネルで操作するんだ……。</speak>
+			<show chara="yuriSeriousClose-up" position="left" />
+			<text>目にクマのある茶髪の青年は大きく深呼吸した。</text>
+			<text>アンモニア水の臭いでむせ返りそうになったが。</text>
+			<bgm src="11_17_tatakau.mp3" status="start" />
+			<speak chara="yuriNoFace">こちら「ブルー方面軍」！敵を発見！ただいまより化学薬剤を噴射する！</speak>
+			<speak chara="yuriNoFace">繰り返す。「ブルー方面軍」、敵を発見、化学薬剤を噴射する！</speak>
+			<goto change="0" goto="70" />
+		</scene>
+		<scene background="graveMorning.jpg" id="70">
+			<bgm src="11_17_tatakau.mp3" status="continue" />
+			<show chara="teslaDisgustedGlassWinterClose-up" position="center" />
+			<speak chara="teslaNoFace">リアーナ！</speak>
+			<show chara="reaSeriousArmedClose-up" position="center" />
+			<speak chara="reannaNoFace">……。</speak>
+			<speak chara="reannaNoFace">…………。</speak>
+			<show chara="teslaDisgustedGlassWinterClose-up" position="center" />
+			<speak chara="teslaNoFace">リアーナッ！！</speak>
+			<show chara="reaSeriousArmedClose-up" position="center" />
+			<speak chara="reannaNoFace">………………。</speak>
+			<show chara="reaNormalArmedClose-up" position="center" />
+			<speak chara="reannaNoFace">位置を確認！直ちに戦術行動を取って！敵は私が殲滅するわ！</speak>
+			<show chara="yuriSeriousClose-up" position="center" />
+			<speak chara="yuriNoFace">了解！</speak>
+			<goto change="#ffffff" goto="80" />
+		</scene>
+		<scene background="CG19-0-1.jpg" id="80">
+			<bgm src="11_17_tatakau.mp3" status="continue" />
+			<text>最強の戦乙女。</text>
+			<goto change="0" goto="82" />
+		</scene>
+		<scene background="CG19-0-2.jpg" id="82">
+			<bgm src="11_17_tatakau.mp3" status="continue" />
+			<text>彼女は、時にその足で1キロもの距離を僅か1分で駆け抜けるだけではなく——</text>
+			<goto change="0" goto="84" />
+		</scene>
+		<scene background="CG19-0-3.jpg" id="84">
+			<bgm src="11_17_tatakau.mp3" status="continue" />
+			<text>どんな兵器だろうと敵わない潜在能力を内に秘めている。</text>
+			<goto change="0" goto="90" />
+		</scene>
+		<scene background="CG19-0-4.jpg" id="90">
+			<bgm src="11_17_tatakau.mp3" status="continue" />
+			<speak chara="reannaNoFace">Ich bin das Schwarz auch das Weiß</speak>
+			<speak chara="reannaNoFace">Vor dem Beginn und zwar nach der Ende</speak>
+			<goto change="0" goto="95" />
+		</scene>
+		<scene background="CG19.jpg" id="95">
+			<bgm src="11_17_tatakau.mp3" status="continue" />
+			<speak chara="reannaNoFace">私は全てを呑み込む黒。私は全てを育む白。</speak>
+			<speak chara="reannaNoFace">創世の前に生まれ、隠滅の後に存在する。</speak>
+			<speak chara="reannaNoFace">神の鍵・黒淵白花、第一定格出力——</speak>
+			<goto change="0" goto="100" />
+		</scene>
+		<scene background="parkWaterTree.jpg" id="100">
+			<bgm src="11_17_tatakau.mp3" status="continue" />
+			<cg bg="parkWaterTree.jpg" fadeIn="0" fadeOut="0" src="shengqiangShock.png" />
+			<cg bg="parkWaterTree.jpg" fadeIn="0" fadeOut="0" src="zhanfangPetal.png" />
+			<end post="U2FsdGVkX1+Ny96acaorRcQ6snPL" />
+		</scene>
+	</story>
+</data>

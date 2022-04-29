@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<img>
+		<image src="campusImperialDay.jpg" type="background" />
+		<image src="libraryDay.jpg" type="background" />
+		<image src="schoolDay3.jpg" type="background" />
+		<image src="studyNoon.jpg" type="background" />
+		<image src="londonStreet.jpg" type="background" />
+		<image src="italianRestaurant.jpg" type="background" />
+		<image src="CG2.jpg" type="background" />
+		<image src="bg.jpg" type="background" />
+		<image src="newChapter.png" type="cg" />
+		<image src="teslaAngryClose.png" type="chara" />
+		<image src="nokiaSmileClose.png" type="chara" />
+		<image src="nokiaSeriousClose.png" type="chara" />
+		<image src="weltNormalClose.png" type="chara" />
+		<image src="weltSurpriseClose.png" type="chara" />
+		<image src="weltShameClose.png" type="chara" />
+		<image src="weltShySweaterClose-up.png" type="chara" />
+		<image src="weltNormalSweaterClose-up.png" type="chara" />
+		<image src="weltTiredSweaterClose-up.png" type="chara" />
+		<image src="weltScaredSweaterClose-up.png" type="chara" />
+		<image src="einSmileClose.png" type="chara" />
+		<image src="einNormalClose.png" type="chara" />
+		<image src="einSmileCoatClose.png" type="chara" />
+		<image src="einNormalCoatClose-up.png" type="chara" />
+		<image src="einFoolCoatClose-up.png" type="chara" />
+		<image src="einSmileCoatClose-up.png" type="chara" />
+		<image src="0einNormalVestClose-up.png" type="chara" />
+		<image src="0einSmileVestClose-up.png" type="chara" />
+		<image src="0einSeriousAhVestClose-up.png" type="chara" />
+		<image src="0einSlyVestClose-up.png" type="chara" />
+		<image src="0einFoolVestClose-up.png" type="chara" />
+		<image src="einNormalCoatClose.png" type="chara" />
+		<image src="einSeriousCoatClose.png" type="chara" />
+	</img>
+	<characters>
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaAngryClose" src="teslaAngryClose.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaNoFace" src="" />
+		<character name="웰트" color="#ffffff" id="weltNoFace" src="" />
+		<character name="웰트" color="#ffffff" id="weltNormalClose" src="weltNormalClose.png" />
+		<character name="웰트" color="#ffffff" id="weltSurpriseClose" src="weltSurpriseClose.png" />
+		<character name="웰트" color="#ffffff" id="weltShameClose" src="weltShameClose.png" />
+		<character name="웰트" color="#ffffff" id="weltShySweaterClose-up" src="weltShySweaterClose-up.png" />
+		<character name="웰트" color="#ffffff" id="weltNormalSweaterClose-up" src="weltNormalSweaterClose-up.png" />
+		<character name="웰트" color="#ffffff" id="weltTiredSweaterClose-up" src="weltTiredSweaterClose-up.png" />
+		<character name="웰트" color="#ffffff" id="weltScaredSweaterClose-up" src="weltScaredSweaterClose-up.png" />
+		<character name="図書館の職員" color="rgb(201,164,109)" id="nokiaNoNameNoFace" src="" />
+		<character name="図書館の職員" color="rgb(201,164,109)" id="nokiaNoNameSmileClose" src="nokiaSmileClose.png" />
+		<character name="図書館の職員" color="rgb(201,164,109)" id="nokiaNoNameSeriousClose" src="nokiaSeriousClose.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einNoFace" src="" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einSmileClose" src="einSmileClose.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einNormalClose" src="einNormalClose.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einSmileCoatClose" src="einSmileCoatClose.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einNormalCoatClose-up" src="einNormalCoatClose-up.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einFoolCoatClose-up" src="einFoolCoatClose-up.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einSmileCoatClose-up" src="einSmileCoatClose-up.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="0einNormalVestClose-up" src="0einNormalVestClose-up.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="0einSmileVestClose-up" src="0einSmileVestClose-up.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="0einSeriousAhVestClose-up" src="0einSeriousAhVestClose-up.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="0einSlyVestClose-up" src="0einSlyVestClose-up.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="0einFoolVestClose-up" src="0einFoolVestClose-up.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einNormalCoatClose" src="einNormalCoatClose.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einSeriousCoatClose" src="einSeriousCoatClose.png" />
+	</characters>
+	<story title="1">
+		<scene id="0" background="bg.jpg">
+			<bgm src="mid-lude.mp3" status="start" />
+			<cg src="newChapter.png" bg="bg.jpg" />
+			<goto goto="10" change="#000000" />
+		</scene>
+		<scene id="10" background="campusImperialDay.jpg">
+			<bgm src="morning.mp3" status="start" />
+			<text remark="next">帝国研究院。</text>
+			<remark post="U2FsdGVkX19nEXNXbauN7pDja052">
+				<p class="article-text-h">注：</p>
+				<p class="article-text">帝国研究院（Imperial Institute）はロンドンのケンジントン区に位置する。イギリスのヴィクトリア女王が1888年に創設し、1907年にインペリアル・カレッジ・ロンドンの創始メンバーとなる。</p>
+				<p class="article-text">1958年、帝国研究院は連邦研究員（Commonwealth Institute）に名前を改め、キャンパスの再建が行われた。元の建築物はシンボルであるクィーンズ・タワー（Queen's Tower）だけが残っている。</p>
+			</remark>
+			<text>赤髪暴力女に「家を追い出された」憐れな青年は目的もなく70年近い歴史を有する最高学府の中をほっつき歩いていた。</text>
+			<show chara="teslaAngryClose" position="center" opacity="0.6" />
+			<speak chara="teslaNoFace">ほらほら、さっさと環境に慣れて来なさいよ。</speak>
+			<speak chara="teslaNoFace">昼まで帰ってこなくていいから！</speak>
+			<hide position="center" />
+			<text>なぜだか、同じ天命組織の人でも、彼女に荒っぽく扱われるのは</text>
+			<text>――嫌な感じがしなかった。</text>
+			<speak chara="weltNoFace">はぁ……나はなにバカなこと考えてんだよ。</speak>
+			<bgm src="serenity.mp3" status="start" />
+			<text article="1">
+				<p class="article-text">The Imperial Institute.</p>
+				<p class="article-text">この機関には42実験室のように独立した建物と、壁のいくつかが斑模様に変色した背の高い建物がそびえ立っている。</p>
+				<p class="article-text">近くにはクィーンズ・タワーがあり、そのドームは埃と雨滴の跡にまみれて形容し難い見苦しさを晒していたーーその姿はまるで、数少ない晴れの日であろうとも、空気汚染に包まれてしまっているこの街をあざ笑っているかのようだ。</p>
+			</text>
+			<text>埃ひとつない清潔な先端研究所にずっといた웰트にとって、こういったかけ離れた雰囲気の場所はかえって落ち着いた。</text>
+			<text>まだ本当の意味で自由にはなれていないが――あの「強大な力を持つ」組織はしばらく自由にさせてくれるみたいだ。</text>
+			<text>多分。</text>
+			<text>秋が深まる中、日光は寒風吹きすさぶ大地を暖めようと悪あがきを続ける。</text>
+			<text>歩道脇の大理石の手すりに寄り掛かったまま、웰트は自分の頬を両手で強く叩いた。</text>
+			<text>やっぱ前向きにいい方に考えなきゃな。</text>
+			<sound src="deep breath.mp3" />
+			<text>深呼吸――</text>
+			<text>……。</text>
+			<text>――世界は美しい。</text>
+			<text article="1">
+				<p class="article-text">研究院の北に鬱蒼と茂る広い林があった。そこはかの有名なハイドパークとケンジントン・ガーデンズであるらしいが――あの天才二人は興味ないだろうな。</p>
+				<p class="article-text">俗世間の感覚を持ち合わせないエリートたちが一番最初に思い浮かべるリラックス方法は、多分パークのベンチに寝そべって目を閉じることだろうから。</p>
+				<p class="article-text">平凡だな。아인슈타인はともかく、테슬라は絶対につまらないと思うはずだ。</p>
+			</text>
+			<text article="1">
+				<p class="article-text">やっぱりもっと面白そうな所に連れて行こう。</p>
+				<p class="article-text">ロンドンなら面白い物がいっぱいあるはずだ――웰트はそう考え、図書館に行って資料を探してみることにした。</p>
+				<p class="article-text">――彼は知る由もない、未来の世界にはインターネットという便利な物があることを。</p>
+			</text>
+			<goto goto="20" />
+		</scene>
+		<scene id="20" background="libraryDay.jpg">
+			<bgm src="serenity.mp3" status="continue" />
+			<show chara="nokiaNoNameSmileClose" position="right" />
+			<speak chara="nokiaNoNameNoFace">コンニチハ。</speak>
+			<text>図書館の職員はストライプの半袖シャツを着て、金縁のメガネをかけた軽薄そうな男だった。</text>
+			<text>歳は30くらいで、金髪。男はどこの地方のものかも分からない奇妙な訛り方で話しかけてきた――</text>
+			<bgm src="lab.mp3" status="start" />
+			<speak chara="nokiaNoNameNoFace">キミ、本を借りにきたのかな？</speak>
+			<show chara="nokiaNoNameSmileClose" position="right" opacity="0.7" />
+			<show chara="weltSurpriseClose" position="left" />
+			<speak chara="weltNoFace">え……あ……ああ……。</speak>
+			<text>웰트は、なぜだかこの奇妙な男に対して言い表せない不安を覚えた。</text>
+			<speak chara="weltNoFace">その……ここ……旅行関係の本とかあるかな？</speak>
+			<show chara="weltSurpriseClose" position="left" opacity="0.7" />
+			<show chara="nokiaNoNameSmileClose" position="right" />
+			<speak chara="nokiaNoNameNoFace">旅行関係？</speak>
+			<show chara="nokiaNoNameSmileClose" position="right" opacity="0.7" />
+			<show chara="weltSurpriseClose" position="left" />
+			<speak chara="weltNoFace">うん……ロンドンの面白い場所とかを紹介してる本みたいな。</speak>
+			<show chara="weltSurpriseClose" position="left" opacity="0.7" />
+			<show chara="nokiaNoNameSmileClose" position="right" />
+			<speak chara="nokiaNoNameNoFace">……ウーン、それはないような気がするね。</speak>
+			<text>金縁メガネは残念そうに肩をすくめる。</text>
+			<speak chara="nokiaNoNameNoFace">新聞閲覧コーナーを探してみてはどうかな？</speak>
+			<speak chara="nokiaNoNameNoFace">ゴメンネ。旅行ガイドブックみたいなのはうちには置いてないんだ。</speak>
+			<speak chara="nokiaNoNameNoFace">――というか、完全に「守備範囲外」みたいな、ハハ。</speak>
+			<text>金縁眼鏡の薄ら笑いを見て、웰트は場違いなところにきてしまったんだなと思った。</text>
+			<show chara="nokiaNoNameSmileClose" position="right" opacity="0.7" />
+			<show chara="weltNormalClose" position="left" />
+			<speak chara="weltNoFace">そっか……もともとそんなに期待してなかったから。</speak>
+			<show chara="weltSurpriseClose" position="left" />
+			<speak chara="weltNoFace">新聞閲覧コーナーはどこにあるの？</speak>
+			<show chara="weltSurpriseClose" position="left" opacity="0.7" />
+			<show chara="nokiaNoNameSmileClose" position="right" />
+			<speak chara="nokiaNoNameNoFace">うーん</speak>
+			<speak chara="nokiaNoNameNoFace">説明しても分かりづらいと思うから……。</speak>
+			<speak chara="nokiaNoNameNoFace">案内するよ。</speak>
+			<show chara="nokiaNoNameSmileClose" position="right" opacity="0.7" />
+			<show chara="weltSurpriseClose" position="left" />
+			<speak chara="weltNoFace">ああ……すみません。</speak>
+			<text>少し変わっているだけで、いい人なのかもしれない――</text>
+			<show chara="weltSurpriseClose" position="left" opacity="0.7" />
+			<show chara="nokiaNoNameSmileClose" position="right" />
+			<speak chara="nokiaNoNameNoFace">待って。</speak>
+			<text>金縁メガネは前に出ようとしたが、急になにかを思い出したかのように立ち止まった。</text>
+			<speak chara="nokiaNoNameNoFace">閲覧証は持ってるかな？</speak>
+			<show chara="nokiaNoNameSmileClose" position="right" opacity="0.7" />
+			<show chara="weltShameClose" position="left" />
+			<speak chara="weltNoFace">……えっ！</speak>
+			<show chara="weltShameClose" position="left" opacity="0.7" />
+			<show chara="nokiaNoNameSmileClose" position="right" />
+			<speak chara="nokiaNoNameNoFace">どうしたの？</speak>
+			<show chara="nokiaNoNameSmileClose" position="right" opacity="0.7" />
+			<show chara="weltSurpriseClose" position="left" />
+			<speak chara="weltNoFace">あの……その……。</speak>
+			<speak chara="weltNoFace">……すみません、閲覧証は持ってないです。</speak>
+			<show chara="weltSurpriseClose" position="left" opacity="0.7" />
+			<show chara="nokiaNoNameSmileClose" position="right" />
+			<speak chara="nokiaNoNameNoFace">あらら、それは困っちゃったね……。</speak>
+			<show chara="nokiaNoNameSmileClose" position="right" opacity="0.7" />
+			<show chara="weltSurpriseClose" position="left" />
+			<speak chara="weltNoFace">あの……나は42実験室の新しいアシスタントで……なので……。</speak>
+			<show chara="weltSurpriseClose" position="left" opacity="0.7" />
+			<show chara="nokiaNoNameSeriousClose" position="right" />
+			<shake position="right" time="250" />
+			<speak chara="nokiaNoNameNoFace">え？42実験室？</speak>
+			<show chara="nokiaNoNameSeriousClose" position="right" opacity="0.7" />
+			<show chara="weltSurpriseClose" position="left" />
+			<speak chara="weltNoFace">あっ……はい……。</speak>
+			<text>どういうわけか、金縁メガネが急に険しい表情を見せた。</text>
+			<show chara="weltSurpriseClose" position="left" opacity="0.7" />
+			<show chara="nokiaNoNameSmileClose" position="right" />
+			<speak chara="nokiaNoNameNoFace">おやおや、아인슈타인老博士はお元気にしてらっしゃるかな？</speak>
+			<show chara="nokiaNoNameSmileClose" position="right" opacity="0.7" />
+			<show chara="weltShameClose" position="left" />
+			<shake position="left" time="250" />
+			<speak chara="weltNoFace">ア、아인슈타인老博士？</speak>
+			<shake position="left" time="250" />
+			<speak chara="weltNoFace">な、なに言ってんだよ！博士が老人なわけないだろ！</speak>
+			<text>「老」と聞いて、웰트はあごが外れそうになるほど驚いた。</text>
+			<show chara="weltShameClose" position="left" opacity="0.7" />
+			<show chara="nokiaNoNameSmileClose" position="right" />
+			<speak chara="nokiaNoNameNoFace">ははは……ごめんごめん。最近校内で詐欺事件があって、我々も警戒するように言われててね……。</speak>
+			<speak chara="nokiaNoNameNoFace">試すような真似をして悪かったよ。</speak>
+			<show chara="nokiaNoNameSmileClose" position="right" opacity="0.7" />
+			<show chara="weltSurpriseClose" position="left" />
+			<speak chara="weltNoFace">……。</speak>
+			<show chara="weltSurpriseClose" position="left" opacity="0.7" />
+			<show chara="nokiaNoNameSmileClose" position="right" />
+			<speak chara="nokiaNoNameNoFace">아인슈타인博士から話は聞いてるよ――ただ、博士は君の写真を持って来てくれなかったからね、本物かどうかわからなくて……。</speak>
+			<text>金縁メガネは変わらない笑顔で肩をすくめた。</text>
+			<speak chara="nokiaNoNameNoFace">ほんとのことを言うと、このやり方で試せと提案したのは博士自身なんだよ……はははは。</speak>
+			<show chara="nokiaNoNameSmileClose" position="right" opacity="0.7" />
+			<show chara="weltSurpriseClose" position="left" />
+			<speak chara="weltNoFace">……。</speak>
+			<show chara="weltSurpriseClose" position="left" opacity="0.7" />
+			<show chara="nokiaNoNameSmileClose" position="right" />
+			<speak chara="nokiaNoNameNoFace">大丈夫大丈夫。研究員用の利用者カードを作ってあげるよ。それがあればなんでも借りられるから。</speak>
+			<text>金縁メガネは変わらない笑顔で鼻梁の上の「本体」をクイッと押し上げた。</text>
+			<goto goto="30" />
+		</scene>
+		<scene id="30" background="campusImperialDay.jpg">
+			<bgm src="street.mp3" status="start" />
+			<sound src="walk slow.mp3" />
+			<text>『タイムズ』は堅い、『フィナンシャル・タイムズ』は完全に違う。『デイリー・ヘラルド』と『デイリー・ミラー』のタブロイド紙なら少し情報が載っているかもしれない。</text>
+			<text>昼になり、図書館から出た웰트は自分で書いたメモと借りた携帯用の交通地図を照らし合わせていた。</text>
+			<text>大英博物館――グレートラッセルストリート</text>
+			<text>ナショナル・ギャラリー――トラファルガー広場</text>
+			<text>ウエスト・エンド、カジノとチャイナタウン――レスタースクウェア</text>
+			<text>……。</text>
+			<text>初回だし、当たり障りのない観光名所なら、とりあえずは合格点だよな？</text>
+			<text>遊ぶついでに外食もできるし――研究院が仕事の日に配送してくれる飯もそこまでうまくないだろうから。</text>
+			<text>イギリス料理は海鮮以外あんまり種類がないけど、フランス、イタリア、トルコ、インド料理とかの店も結構あるし。チャイナタウンに行けば中華料理だって……。</text>
+			<goto goto="40" change="0" />
+		</scene>
+		<scene id="40" background="schoolDay3.jpg">
+			<bgm src="street.mp3" status="continue" />
+			<text>……自分は無一文だけど、仕事なら経費で落とせるよな。</text>
+			<text>――웰트はそう考えながら、知らず知らずの内に42実験室まで戻ってきていた。</text>
+			<text>42実験室は戦後に新しく建てられた仕事用の独立した一軒家。仕事場と生活空間が一体となった前衛的な設計になっている。</text>
+			<text>一階には書斎、仕事場、客間、キッチンやトイレといった設備があり、金庫のような重厚な扉を持った秘密の倉庫もある。</text>
+			<text>二階は「男性立ち入り禁止」の居住区で、웰트はどのような構造になっているのか知らない。</text>
+			<text>ピンクのカーテン？クリーム色の家具？キャンディとぬいぐるみがいっぱいのお部屋？</text>
+			<text>……いやいやいや、科学者の部屋はそんな感じじゃないだろう。それと彼女たちのプライベートな実験室もあの階にあるみたいだ。</text>
+			<goto goto="50" />
+		</scene>
+		<scene id="50" background="studyNoon.jpg">
+			<bgm src="street.mp3" status="stop" />
+			<sound src="door open.mp3" />
+			<speak chara="weltNoFace">ただいま。</speak>
+			<text>音を立てないようにドアを開けた青年は礼儀正しく誰もいない客間に向かって挨拶した。</text>
+			<text>웰트はずっとこの奇妙な習慣を続けていたが、それがために天命は彼が日本人ではないかと本気で調べたこともあった。</text>
+			<bgm src="lab.mp3" status="start" />
+			<show chara="einSmileClose" position="right" />
+			<speak chara="einNoFace">うん、ちょうどいい所に帰って来た。</speak>
+			<show chara="einSmileClose" position="right" opacity="0.7" />
+			<show chara="weltSurpriseClose" position="left" />
+			<speak chara="weltNoFace">へ？？</speak>
+			<text>誰もいないと思っていたが、天パ소녀が本を閉じて死角から出てきた。</text>
+			<show chara="einSmileClose" position="right" />
+			<show chara="weltSurpriseClose" position="left" opacity="0.7" />
+			<speak chara="einNoFace">驚かせたか？</speak>
+			<show chara="einSmileClose" position="right" opacity="0.7" />
+			<show chara="weltSurpriseClose" position="left" />
+			<speak chara="weltNoFace">ああ……いや……別に……。</speak>
+			<show chara="einNormalClose" position="right" />
+			<show chara="weltSurpriseClose" position="left" opacity="0.7" />
+			<speak chara="einNoFace">ならよかった。資料の準備はどうだ？</speak>
+			<show chara="einNormalClose" position="right" opacity="0.7" />
+			<show chara="weltNormalClose" position="left" />
+			<speak chara="weltNoFace">うん……まあまあかな？ロンドンには本当に名所が多いな。</speak>
+			<show chara="einNormalClose" position="right" />
+			<show chara="weltNormalClose" position="left" opacity="0.7" />
+			<speak chara="einNoFace">……。</speak>
+			<text>天パ소녀の表情は冷たく、どうやら青年の答えに満足していないようだ。</text>
+			<speak chara="einNoFace">それで、今日の昼ごはんはなんだ？</speak>
+			<text>天パ소녀はさらっと歴史的、そして世界的に見ても難問といえる質問を投げ掛けてきた。</text>
+			<show chara="einNormalClose" position="right" opacity="0.7" />
+			<show chara="weltSurpriseClose" position="left" />
+			<speak chara="weltNoFace">……え？</speak>
+			<show chara="einNormalClose" position="right" />
+			<show chara="weltSurpriseClose" position="left" opacity="0.7" />
+			<speak chara="einNoFace">昼は近くでなにか面白い物が食べたいなぁ。おすすめはあるか？</speak>
+			<show chara="einNormalClose" position="right" opacity="0.7" />
+			<show chara="weltSurpriseClose" position="left" />
+			<speak chara="weltNoFace">……ええと。</speak>
+			<text>朝からずっと資料を調べてて、まったく実地調査をしていなかった青年は冷や汗をかいた。まして、ここに来て間もないのに、おすすめなど分かるわけもなかった。</text>
+			<show chara="einNormalClose" position="right" />
+			<show chara="weltSurpriseClose" position="left" opacity="0.7" />
+			<speak chara="einNoFace">答えられないのか……。</speak>
+			<text>소녀は無表情のまま確認した。</text>
+			<show chara="einNormalClose" position="right" opacity="0.7" />
+			<show chara="weltSurpriseClose" position="left" />
+			<speak chara="weltNoFace">……。</speak>
+			<text>青年は気まずそうに頷いた。</text>
+			<show chara="einNormalClose" position="right" />
+			<show chara="weltSurpriseClose" position="left" opacity="0.7" />
+			<speak chara="einNoFace">昼ごはんは、君の奢りだ。</speak>
+			<text>소녀は冷ややかに罰を言い渡す。</text>
+			<show chara="einNormalClose" position="right" opacity="0.7" />
+			<show chara="weltNormalClose" position="left" />
+			<speak chara="weltNoFace">……ごめん。</speak>
+			<text>青年はがっくりとうなだれた。自分は本当に役に立たずだ。</text>
+			<text>こんな時は黙って罰を受け入れるしかない。たとえ――</text>
+			<show chara="einSmileClose" position="right" />
+			<show chara="weltNormalClose" position="left" opacity="0.7" />
+			<speak chara="einNoFace">いや、君はただ今月の補助金をだまし取られそうになっているだけだぞ。</speak>
+			<show chara="einSmileClose" position="right" opacity="0.7" />
+			<show chara="weltShameClose" position="left" />
+			<speak chara="weltNoFace">……へ？</speak>
+			<show chara="einSmileClose" position="right" />
+			<show chara="weltShameClose" position="left" opacity="0.7" />
+			<speak chara="einNoFace">ん？僕が無茶ぶりしていると思わないのか？午前中だけでケンジントン区を回りきれるわけないだろ？</speak>
+			<text>소녀は憐れむように、自分のいたずらを笑った。</text>
+			<speak chara="einNoFace">今日はスパゲッティにしよう！</speak>
+			<hide position="right" />
+			<hide position="left" />
+			<show chara="einSmileCoatClose" position="center" />
+			<text>소녀は独り言を言いながら白衣を脱いで、普通のジャケットを羽織る。</text>
+			<speak chara="einNoFace">테슬라は二度寝中だ、彼女に構う必要はない。테슬라が昼夜問わず寝ているのは、普通のことだと覚えておいてくれ。――冷蔵庫にはファストフードがぎっしり入っているし、電子レンジもある。何も問題はない。</speak>
+			<text>소녀は珍しくいっぺんに長く話した。そしてバッグに手を伸ばしつつドアノブを掴んだ。</text>
+			<speak chara="einNoFace">大丈夫だ。今日はまだ初日だぞ。僕が怒ったとは思わないでくれよ。</speak>
+			<show chara="einSmileCoatClose" position="center" opacity="0.7" />
+			<sound src="key.mp3" />
+			<text>소녀は鍵を取り出し、ドアにカギをかけた。</text>
+			<goto goto="60" />
+		</scene>
+		<scene id="60" background="londonStreet.jpg">
+			<bgm src="street.mp3" status="start" />
+			<text>……。</text>
+			<show chara="einNormalCoatClose-up" position="center" />
+			<speak chara="einNoFace">ここはV＆Aミュージアム。</speak>
+			<speak chara="einNoFace">あっちはホーリー・トリニティ教会だ。</speak>
+			<text>소녀はボサボサな短髪を揺らしながら、無表情に青年の横で解説する。事情を知らない人からすれば、長年離れ離れで少し疎遠になった兄妹に見えるだろう。</text>
+			<speak chara="weltNoFace">うん……。</speak>
+			<show chara="einSmileCoatClose-up" position="center" />
+			<speak chara="einNoFace">Aは「アルベルト」の頭文字だ。僕の名前から来ている。</speak>
+			<speak chara="weltNoFace">……へ？</speak>
+			<show chara="einNormalCoatClose-up" position="center" />
+			<speak chara="einNoFace">嘘だ。</speak>
+			<speak chara="weltNoFace">え……。</speak>
+			<show chara="einFoolCoatClose-up" position="center" />
+			<speak chara="einNoFace">まぁ、あながち嘘でもないがな。</speak>
+			<speak chara="weltNoFace">……は？</speak>
+			<show chara="einNormalCoatClose-up" position="center" />
+			<speak chara="einNoFace" remark="next">気にするな。ただの偶然にすぎないよ。</speak>
+			<remark post="U2FsdGVkX19iI3nii1DJQrJarsUb">
+				<p class="article-text-h">注：</p>
+				<p class="article-text">アルバート公（Albert、Prince Consort）、フルネームはフランシス・アルバート・アウグストゥス・チャールズ・エマニュエル（Francis Albert Augustus Charles Emmanuel）、イギリスのヴィクトリア女王（Queen Victoria）の夫。</p>
+				<p class="article-text">V＆A博物館（Victoria and Albert Museum）は夫婦の名前から命名された。イギリスには一連の「アルバート」と名付けられた地域や機関があり、いずれもアルバート公の薨去後、女王が彼を偲ぶために設立した。</p>
+			</remark>
+			<hide position="center" />
+			<text>こんな感じの会話を何回繰り返しただろう。</text>
+			<text>王立音楽アカデミーから、リージェントパーク、それから科学博物館、自然博物館……。</text>
+			<text>……もしかして、楽しんでいるのか？</text>
+			<show chara="einSmileCoatClose-up" position="center" />
+			<speak chara="einNoFace">ああ、もう半年もこんな遠出はしてなかったな。</speak>
+			<text>소녀は腰を伸ばし、振り向きもせずに言った。</text>
+			<speak chara="weltNoFace">……仕事忙しいんだな。</speak>
+			<text>青年は頭の中で計算してみたが、まだせいぜい1キロくらいしか歩いていない。</text>
+			<show chara="einNormalCoatClose-up" position="center" />
+			<sound src="Hah.mp3" />
+			<speak chara="einNoFace">そうだな。仕事は毎日3～4時間ぐらいはしているかな。</speak>
+			<text>소녀は気だるげにあくびをした。</text>
+			<speak chara="weltNoFace">……それ半日だけじゃん！</speak>
+			<show chara="einSmileCoatClose-up" position="center" />
+			<speak chara="einNoFace">だから君は分かっていないのだよ。</speak>
+			<hide position="center" />
+			<text>……。</text>
+			<text>多分、4時間だけでも科学者みたいに頭を使う仕事は大変なんだろうな。</text>
+			<text>……でも前にいた所はみんな徹夜で仕事してたぞ？</text>
+			<show chara="einNormalCoatClose-up" position="center" />
+			<speak chara="einNoFace">ここだ。</speak>
+			<text>疑問に思う青年の隣で、ボサボサ頭の소녀は突然足を止めた。</text>
+			<speak chara="weltNoFace">「コーヒーコンチェルト」……。</speak>
+			<speak chara="weltNoFace">……スパゲッティにするんじゃなかったっけ？</speak>
+			<show chara="einSmileCoatClose-up" position="center" />
+			<speak chara="einNoFace">ここはイタリアンレストランだよ。</speak>
+			<text>소녀はレストラン先の小さな黒板を指さした。書かれているメニューは確かにイタリアンだ。</text>
+			<text>……なんでイタリアンレストランなのに、こんな名前にしたんだ！？</text>
+			<goto goto="70" />
+		</scene>
+		<scene id="70" background="italianRestaurant.jpg">
+			<bgm src="lab.mp3" status="start" />
+			<text>装飾画、ワインの瓶、ケーキスタンド……「コーヒーコンチェルト」という奇妙な名を冠しているが、イタリアンレストランらしいテイストになっている。</text>
+			<text>青年と소녀は二人掛けの席を探して座った。店はとても暖かく、ふたりはそろって上着を脱いだ。</text>
+			<goto goto="72" change="0" />
+		</scene>
+		<scene id="72" background="CG2.jpg">
+			<bgm src="lab.mp3" status="continue" />
+			<speak chara="einNoFace">ああ、僕はあのショートケーキにするよ。</speak>
+			<speak chara="einNoFace">……うん、それだけで十分だ。</speak>
+			<speak chara="weltNoFace">나は……。</speak>
+			<speak chara="weltNoFace">……って待った、スパゲッティを食べるんじゃなかったのか？</speak>
+			<speak chara="einNoFace">あれは抽象的に言っただけだよ。</speak>
+			<speak chara="weltNoFace">いや……。</speak>
+			<speak chara="einNoFace">急にショートケーキが食べたくなった。</speak>
+			<speak chara="weltNoFace">……。</speak>
+			<speak chara="einNoFace">店員が待っているぞ。</speak>
+			<speak chara="weltNoFace">ああ……나はこのエスカルゴを……それから海鮮のスープパスタ。うん、これでお願いします。</speak>
+			<text article="1">
+				<p class="article-text">店員は満足げに戻って行った。手持ち無沙汰になった소녀は、まるで哲学的な問題でも考えるかのように窓の外を眺めている。深い青い瞳、西洋人形のようなたまご形の顔、それに淡い色の髪が合わさり――このボサボサな髪型でさえなければ、きっと相当な美人だろう。</p>
+			</text>
+			<text article="1">
+				<p class="article-text">あれやこれやと考えているうちに、웰트と名付けられた青年はやっと、自分が初めて天才소녀――リーゼル・アルベルト・아인슈타인博士の容貌を観察していることに気付いた。彼女からは伝説に聞く「マッドサイエンティスト」臭が確かにするのに、同時に隣の家に住む妹みたいな子だとも思えた。そして、憐れな自分をからかってくる不思議なやつとも思い始めていた。</p>
+			</text>
+			<goto goto="75" change="0" />
+		</scene>
+		<scene id="75" background="italianRestaurant.jpg">
+			<bgm src="lab.mp3" status="continue" />
+			<show chara="weltShySweaterClose-up" position="left" />
+			<speak chara="weltNoFace">Ein(アイン)……。</speak>
+			<show chara="weltShySweaterClose-up" position="left" opacity="0.7" />
+			<show chara="0einNormalVestClose-up" position="right" />
+			<speak chara="einNoFace">……僕？</speak>
+			<show chara="weltNormalSweaterClose-up" position="left" />
+			<show chara="0einNormalVestClose-up" position="right" opacity="0.7" />
+			<speak chara="weltNoFace">ごめん……ただ……思わず……口に出してしまった。</speak>
+			<show chara="weltShySweaterClose-up" position="left" />
+			<speak chara="weltNoFace">ニックネームがあればちょっとは話しやすいかなと思って……でも人の名前をばらすのはおかしいよな。</speak>
+			<show chara="weltShySweaterClose-up" position="left" opacity="0.7" />
+			<show chara="0einSmileVestClose-up" position="right" />
+			<speak chara="einNoFace">……僕なら気にしないよ。好きにすればいい。</speak>
+			<show chara="weltShySweaterClose-up" position="left" />
+			<show chara="0einSmileVestClose-up" position="right" opacity="0.7" />
+			<speak chara="weltNoFace">そうか……ありがとう。</speak>
+			<text>青年は落ち着かない様子で、意を決したように口を開いた――</text>
+			<speak chara="weltNoFace">実は……もしかしたら、すごく失礼かもしれないけど、質問があって……。</speak>
+			<show chara="0einSeriousAhVestClose-up" position="right" />
+			<show chara="weltShySweaterClose-up" position="left" opacity="0.7" />
+			<speak chara="einNoFace">女性の前で言葉を濁すほうが失礼だぞ。</speak>
+			<show chara="0einSeriousAhVestClose-up" position="right" opacity="0.7" />
+			<show chara="weltTiredSweaterClose-up" position="left" />
+			<speak chara="weltNoFace">……ごめん。</speak>
+			<text>青年は自分が考えすぎなんだと思った。</text>
+			<text>趣味とかを聞くだけなのに、なんでこんなに恥ずかしがっているのだろう？</text>
+			<show chara="0einSmileVestClose-up" position="right" />
+			<show chara="weltTiredSweaterClose-up" position="left" opacity="0.7" />
+			<speak chara="einNoFace">아인슈타인博士、51歳。</speak>
+			<show chara="0einSmileVestClose-up" position="right" opacity="0.7" />
+			<show chara="weltTiredSweaterClose-up" position="left" />
+			<text>どうやら相手は「失礼」の中身を誤解したようだ――</text>
+			<text>いや、待った？</text>
+			<text>51歳？</text>
+			<show chara="weltScaredSweaterClose-up" position="left" />
+			<shake position="left" time="250" />
+			<speak chara="weltNoFace">……え？</speak>
+			<text>反応が鈍い青年は両手で落ちかけた下あごを押さえた。</text>
+			<show chara="0einSlyVestClose-up" position="right" />
+			<show chara="weltScaredSweaterClose-up" position="left" opacity="0.7" />
+			<speak chara="einNoFace">嘘だよ。3で割ったぐらいがちょうどいい。</speak>
+			<show chara="weltTiredSweaterClose-up" position="left" />
+			<show chara="0einSlyVestClose-up" position="right" opacity="0.7" />
+			<speak chara="weltNoFace">……。</speak>
+			<show chara="weltNormalSweaterClose-up" position="left" />
+			<text>えっと？</text>
+			<text>48÷3＝16……。</text>
+			<text>54÷3＝18……。</text>
+			<text>51÷3＝17……아인슈타인博士は17歳……。</text>
+			<show chara="weltScaredSweaterClose-up" position="left" />
+			<shake position="left" time="250" />
+			<speak chara="weltNoFace">……未成年？</speak>
+			<speak chara="weltNoFace">博士の学位で……未成年！？</speak>
+			<show chara="weltScaredSweaterClose-up" position="left" opacity="0.7" />
+			<show chara="0einSmileVestClose-up" position="right" />
+			<speak chara="einNoFace">いけないかな？</speak>
+			<show chara="0einSmileVestClose-up" position="right" opacity="0.7" />
+			<show chara="weltTiredSweaterClose-up" position="left" />
+			<speak chara="weltNoFace">……いや、良い悪いとかじゃなくて。</speak>
+			<show chara="0einSlyVestClose-up" position="right" />
+			<show chara="weltTiredSweaterClose-up" position="left" opacity="0.7" />
+			<speak chara="einNoFace">ついでに言うと、테슬라博士はあんな性格だが僕よりも4歳年上の成人だ――君が知りたければだが。</speak>
+			<show chara="0einSlyVestClose-up" position="right" opacity="0.7" />
+			<show chara="weltNormalSweaterClose-up" position="left" />
+			<speak chara="weltNoFace">なんで테슬라博士のEQが低いみたいに聞こえるんだろう……。</speak>
+			<show chara="0einFoolVestClose-up" position="right" />
+			<show chara="weltNormalSweaterClose-up" position="left" opacity="0.7" />
+			<speak chara="einNoFace">君も似たりよったりだと思うがな。</speak>
+			<show chara="0einFoolVestClose-up" position="right" opacity="0.7" />
+			<show chara="weltTiredSweaterClose-up" position="left" />
+			<speak chara="weltNoFace">いや、一緒にしないでくれ……。</speak>
+			<show chara="0einNormalVestClose-up" position="right" />
+			<show chara="weltTiredSweaterClose-up" position="left" opacity="0.7" />
+			<speak chara="einNoFace">……。</speak>
+			<show chara="0einNormalVestClose-up" position="right" opacity="0.7" />
+			<show chara="weltNormalSweaterClose-up" position="left" />
+			<speak chara="weltNoFace">……。</speak>
+			<show chara="0einNormalVestClose-up" position="right" />
+			<show chara="weltNormalSweaterClose-up" position="left" opacity="0.7" />
+			<speak chara="einNoFace">僕はもう少し景色を見ているから話しかけなくていいぞ。</speak>
+			<show chara="0einNormalVestClose-up" position="right" opacity="0.7" />
+			<show chara="weltNormalSweaterClose-up" position="left" />
+			<speak chara="weltNoFace">……ああ。わかった。</speak>
+			<show chara="0einSmileVestClose-up" position="right" />
+			<show chara="weltNormalSweaterClose-up" position="left" opacity="0.7" />
+			<speak chara="einNoFace">こんないい天気はめったにない。</speak>
+			<show chara="0einSmileVestClose-up" position="right" opacity="0.7" />
+			<show chara="weltTiredSweaterClose-up" position="left" />
+			<speak chara="weltNoFace">……そう。</speak>
+			<show chara="0einSlyVestClose-up" position="right" />
+			<show chara="weltTiredSweaterClose-up" position="left" opacity="0.7" />
+			<speak chara="einNoFace">君は知らないだろうが、僕は最近無駄話を控えてるんだ。</speak>
+			<show chara="0einSlyVestClose-up" position="right" opacity="0.7" />
+			<show chara="weltTiredSweaterClose-up" position="left" />
+			<speak chara="weltNoFace">……。</speak>
+			<show chara="0einSlyVestClose-up" position="right" />
+			<show chara="weltTiredSweaterClose-up" position="left" opacity="0.7" />
+			<speak chara="einNoFace">僕の祖父が言うには、「成功は天賦の才と汗に加えて無駄話の少なさ」だそうだ。</speak>
+			<show chara="0einSlyVestClose-up" position="right" opacity="0.7" />
+			<show chara="weltTiredSweaterClose-up" position="left" />
+			<speak chara="weltNoFace">……。</speak>
+			<show chara="weltScaredSweaterClose-up" position="left" />
+			<shake position="left" time="250" />
+			<speak chara="weltNoFace">……さっきからずっと無駄話をしているのはあんたの方だろ！あんたのキャラ設定は無口とおしゃべりのどっちなんだよ！？</speak>
+			<show chara="weltScaredSweaterClose-up" position="left" opacity="0.7" />
+			<show chara="0einSlyVestClose-up" position="right" />
+			<speak chara="einNoFace">……아인슈타인博士は「キャラ設定」とはなんなのかが分からないな。</speak>
+			<text>一瞬、웰트という名の青年は悪戯に笑う彼女の横顔を見た気がした。</text>
+			<goto goto="80" />
+		</scene>
+		<scene id="80" background="schoolDay3.jpg">
+			<bgm src="street.mp3" status="start" />
+			<show chara="nokiaNoNameSmileClose" position="mostright" />
+			<text>……。</text>
+			<text>二人が「コーヒーコンチェルト」で食事を終えて戻ると、42実験室の玄関先に金髪の男が立っていることに気づいた。ストライプの半袖シャツを着た、金縁メガネの図書館職員だ。</text>
+			<text>なんというか……外でもその恰好なんだな。</text>
+			<hide position="mostright" />
+			<show chara="nokiaNoNameSmileClose" position="right" />
+			<speak chara="nokiaNoNameNoFace">ああ、아인슈타인博士！お帰りなさい！</speak>
+			<text>どうしてか、この男はとても親し気に소녀に手を振っている。웰트の胸の内に密かに嫌な感情が湧いた。</text>
+			<show chara="nokiaNoNameSmileClose" position="right" opacity="0.7" />
+			<show chara="einNormalCoatClose" position="left" />
+			<speak chara="einNoFace">……どうした。フィンランド人。</speak>
+			<hide position="left" />
+			<hide position="right" />
+			<show chara="nokiaNoNameSmileClose" position="center" />
+			<text>フィンランド人？</text>
+			<text>どうりで寒空が広がっているというのに半袖を着て、英語の発音にも訛りが混じっているわけだ――フィンランド人ならうなずける。</text>
+			<text>聞いた話だと、フィンランド人は気温0度でも裏庭でバーベキューをするそうだ</text>
+			<text>――タブロイド紙に出ていた笑い話だが。</text>
+			<text>いや……この軽薄そうな男なら……もしかすると……。</text>
+			<hide position="center" />
+			<show chara="nokiaNoNameSmileClose" position="right" />
+			<show chara="einNormalCoatClose" position="left" opacity="0.7" />
+			<speak chara="nokiaNoNameNoFace">42実験室へ速達を持ってきたよ。</speak>
+			<text>軽薄な男はファイルからエアメールを取り出した。</text>
+			<show chara="nokiaNoNameSmileClose" position="right" opacity="0.7" />
+			<show chara="einNormalCoatClose" position="left" />
+			<speak chara="einNoFace">わかった。</speak>
+			<text>아인슈타인は興味なさげに左手で手紙を受け取り、右手でポケットの中の家の鍵を探した。</text>
+			<show chara="nokiaNoNameSmileClose" position="right" />
+			<show chara="einNormalCoatClose" position="left" opacity="0.7" />
+			<speak chara="nokiaNoNameNoFace">先方から電報が来ててね、それを受け取ったらすぐに読んでほしいそうだよ――</speak>
+			<speak chara="nokiaNoNameNoFace">――君がきっと興味を持つ内容、だって。</speak>
+			<show chara="nokiaNoNameSmileClose" position="right" opacity="0.7" />
+			<show chara="einNormalCoatClose" position="left" />
+			<text>아인슈타인は鍵を探っていた右手を止めた。その表情は少しイライラしていた。</text>
+			<speak chara="einNoFace">開けてくれ。</speak>
+			<show chara="weltSurpriseClose" position="left" />
+			<show chara="einNormalCoatClose" position="center" opacity="0.7" />
+			<speak chara="weltNoFace">え……いいのか？나のセキュリティレベルは――</speak>
+			<show chara="weltSurpriseClose" position="left" opacity="0.7" />
+			<show chara="einSmileCoatClose" position="center" />
+			<speak chara="einNoFace">僕は――「開けてくれ」と言ったんだ。</speak>
+			<show chara="einSmileCoatClose" position="center" opacity="0.7" />
+			<show chara="nokiaNoNameSmileClose" position="right" />
+			<speak chara="nokiaNoNameNoFace">ははっ、自分で言うのもおかしいけど……もし機密の手紙なら、私のレベルでは届けに来られないよ。</speak>
+			<text>フィンランド人は金縁メガネを押し上げ、気取ったように付け加える。</text>
+			<show chara="nokiaNoNameSmileClose" position="right" opacity="0.7" />
+			<show chara="weltNormalClose" position="left" />
+			<speak chara="weltNoFace">……じゃあ開けるよ。</speak>
+			<sound src="envelope.wav" />
+			<text>웰트はわざとらしい男の方は無視した。</text>
+			<show chara="einNormalCoatClose" position="center" opacity="0.7" />
+			<text article="1">
+				<p class="article-text-h">아인슈타인へ</p>
+				<p class="article-text">お久ぶりなのです。シュレーディンガーなのです。最近、現地である面白そうな古いゲームを見つけたのです。興味があるなら、ぜひ遊びに来てくださいなのです。必ず興奮すること請け合いなのです。</p>
+				<p class="article-text">仕事のことなら、ⵥⵙⵎ ⵋⴱⴳ ⵐⵓⴽⴸ ⵐ ⵥⵛⵌⴱⴴⵙⴸ ⵋⵓⵖⴱ ⵥⴶが代わりにやってくれると思うなのです。</p>
+				<p class="article-text-s">お待ちしておりますなのです。</p>
+				<p class="article-text-s">シュレーディンガー</p>
+				<p class="article-text-s">10月16日 モンタナ州ビリングスより</p>
+			</text>
+			<show chara="einSeriousCoatClose" position="center" opacity="0.7" />
+			<speak chara="weltNoFace">……。</speak>
+			<text>なんか、のほほんとした内容だし、読めない記号とかあるし……。</text>
+			<show chara="weltNormalClose" position="left" opacity="0.7" />
+			<show chara="einSeriousCoatClose" position="center" />
+			<bgm src="themeEin.mp3" status="start" />
+			<speak chara="einNoFace">なぜ、わざわざ……。</speak>
+			<text>予想外にも、아인슈타인は厳しい表情で手紙をフィンランド人に渡した。</text>
+			<show chara="nokiaNoNameSeriousClose" position="right" opacity="0.7" />
+			<speak chara="einNoFace">これは……エイダの本名だろ？</speak>
+			<text>아인슈타인の指が、読めない記号をさした。</text>
+			<show chara="einSeriousCoatClose" position="center" opacity="0.7" />
+			<show chara="nokiaNoNameSeriousClose" position="right" />
+			<speak chara="nokiaNoNameNoFace">……そうだね。</speak>
+			<speak chara="nokiaNoNameNoFace">「エイダ」って知っているはずなのに、どうしてわざわざ……。</speak>
+			<show chara="nokiaNoNameSeriousClose" position="right" opacity="0.7" />
+			<show chara="weltSurpriseClose" position="left" />
+			<text>아인슈타인は、なんでフィンランド人に聞いたのだろう？まさかフィンランド人は何かの専門家なのか？</text>
+			<text>それと「エイダ」って誰だ？</text>
+			<text>何がどうなってんだ？</text>
+			<show chara="weltSurpriseClose" position="left" opacity="0.7" />
+			<show chara="einSeriousCoatClose" position="center" />
+			<speak chara="einNoFace">シュレーディンガーさんは、なんの意味もなしに行動するタイプじゃない。</speak>
+			<text>아인슈타인は、何かを理解したようだ。</text>
+			<speak chara="einNoFace">フィンランド人、今すぐビリングス行きの航空券を手配してくれ。出発は早ければ早いほどいい。</speak>
+			<shake position="center" time="250" />
+			<speak chara="einNoFace">웰트！</speak>
+			<hide position="center" />
+			<show chara="einSeriousCoatClose" position="right" opacity="0.7" />
+			<show chara="weltShameClose" position="left" />
+			<speak chara="weltNoFace">はい！？</speak>
+			<text>웰트はその声に気圧され、兵士のようにビシッと背を伸ばした。</text>
+			<text>そして、反射条件のように敬礼をした。すぐに手は下ろしたが。</text>
+			<show chara="weltShameClose" position="left" opacity="0.7" />
+			<show chara="einSeriousCoatClose" position="right" />
+			<speak chara="einNoFace">細かいことは気にせず、今すぐ테슬라を起こして来てくれ！部屋は203だ！</speak>
+			<show chara="weltSurpriseClose" position="left" />
+			<show chara="einSeriousCoatClose" position="right" opacity="0.7" />
+			<speak chara="weltNoFace">나が！？</speak>
+			<show chara="weltSurpriseClose" position="left" opacity="0.7" />
+			<show chara="einSeriousCoatClose" position="right" />
+			<speak chara="einNoFace">僕は手が回らないのでね。</speak>
+			<hide position="left" />
+			<hide position="right" />
+			<show chara="weltSurpriseClose" position="center" opacity="0.7" />
+			<text>ぽかんとしている웰트を無視して実験室に入った아인슈타인は、１階右手の廊下へと向かった。</text>
+			<text>その先にあるのは、不似合な金庫扉を持つ部屋だけだ。</text>
+			<end post="U2FsdGVkX187oCnLTMJUa96nJWvK" />
+		</scene>
+	</story>
+</data>

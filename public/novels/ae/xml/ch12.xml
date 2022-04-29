@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<img></img>
+	<characters>
+		<character name="？？？" color="rgb(221,149,235)" id="ritaNoNameNoFace" src="" />
+		<character name="リータ" color="rgb(221,149,235)" id="ritaNoFace" src="" />
+		<character name="リータ" color="rgb(221,149,235)" id="ritaSmileFar" src="12_08_ritaSmileFar.png" />
+		<character name="リータ" color="rgb(221,149,235)" id="ritaSmileLeftFar" src="12_08_ritaSmileLeftFar.png" />
+		<character name="リータ" color="rgb(221,149,235)" id="ritaNormalFar" src="12_08_ritaNormalFar.png" />
+		<character name="リータ" color="rgb(221,149,235)" id="ritaNormalAhFar" src="12_08_ritaNormalAhFar.png" />
+		<character name="웰트" color="#ffffff" id="weltSurpriseSweaterClose" src="12_08_weltSurpriseSweaterClose.png" />
+		<character name="웰트" color="#ffffff" id="weltGiggleSweaterClose" src="12_08_weltGiggleSweaterClose.png" />
+		<character name="아인슈타인" color="rgb(181,233,247)" id="einSleepWinterFar" src="12_08_einSleepWinterFar.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaAstonishGlassWinterFar" src="12_08_teslaAstonishGlassWinterFar.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaAstonishGlassNoiseWinterFar" src="12_08_teslaAstonishGlassNoiseWinterFar.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaBiteGlassWinterFar" src="12_08_teslaBiteGlassWinterFar.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaSurpriseGlassWinterClose" src="12_08_teslaSurpriseGlassWinterClose.png" />
+		<character name="테슬라" color="rgb(237,118,114)" id="teslaErGlassWinterClose" src="12_08_teslaErGlassWinterClose.png" />
+	</characters>
+	<story>
+		<scene id="0" background="bg.jpg">
+			<bgm src="mid-lude.mp3" status="start" />
+			<cg src="newchapter.png" bg="bg.jpg" />
+			<goto goto="10" change="#000000" />
+		</scene>
+		<scene id="10" background="schoolDay3.jpg">
+			<bgm src="lab.mp3" status="start" />
+			<speak chara="teslaNoFace">……この世で最も抗えないもの、それは時間ね。</speak>
+			<goto goto="20" change="0" />
+		</scene>
+		<scene id="20" background="studyDay.jpg">
+			<bgm src="lab.mp3" status="continue" />
+			<show chara="einSlyCoatClose" position="left" />
+			<show chara="teslaNormalGlassWinterClose" position="right" opacity="0.7" />
+			<speak chara="einNoFace">……どうやら遊び足りないようだな。</speak>
+			<show chara="einSlyCoatClose" position="left" opacity="0.7" />
+			<show chara="teslaShameGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">当たり前じゃない！？1ヶ月経とうとしてるっていうのに、街から一度も出てないのよ！折角、免許証取り戻したんだから、出かけるわ！</speak>
+			<show chara="teslaStarGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">出かける！さっさと着替えて！</speak>
+			<show chara="teslaStarGlassWinterClose" position="right" opacity="0.7" />
+			<show chara="weltSurpriseSweaterClose" position="back" />
+			<speak chara="weltNoFace">免許？いつの間に――</speak>
+			<show chara="weltSurpriseSweaterClose" position="back" opacity="0.7" />
+			<show chara="einFoolCoatClose" position="left" />
+			<speak chara="einNoFace">……君のパスポートと同じことさ。</speak>
+			<speak chara="einNoFace">それなりに手を尽くしさえすれば……そういうことだよ。</speak>
+			<show chara="einFoolCoatClose" position="left" opacity="0.7" />
+			<show chara="weltTiredSweaterClose" position="back" />
+			<speak chara="weltNoFace">……。</speak>
+			<show chara="weltTiredSweaterClose" position="back" opacity="0.7" />
+			<show chara="einSlyCoatClose" position="left" />
+			<speak chara="einNoFace" remark="next">それはそうと、테슬라博士。なんだかんだこの1ヶ月で、ロイヤル・アルバート・ホームも野外劇場も行ったし、オックスフォードストリートとリージェントストリートで買い物もした、スタンフォードブリッジでサッカー観戦も……それにヨアヒムと5回も大英博物館に行ったではないか――</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">スタンフォードブリッジをホームとするチェルシーFC（Chelsea Football Club）はフットボールリーグ1の1954－55年シーズン優勝クラブである。そしてこれが当クラブが20世紀に獲得した唯一のリーグ優勝であった。</p>
+			</remark>
+			<show chara="einSlyCoatClose" position="left" opacity="0.7" />
+			<show chara="teslaBiteGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">あぁあああああ、もう！全部、いつもの散歩ルートじゃない！残り数日で休暇らしいことがしたいの！</speak>
+			<show chara="teslaErGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">웰트、あんたもあんたよ。なんだってこのボサ頭の趣味そのままのプランなんか立てたの――</speak>
+			<speak chara="teslaNoFace">（……ま、そんなに嫌いじゃないけど）</speak>
+			<show chara="teslaErGlassWinterClose" position="right" opacity="0.7" />
+			<show chara="weltGiggleSweaterClose" position="back" />
+			<speak chara="weltNoFace">じゃ……じゃあ、海岸のリゾートにでも行くか？</speak>
+			<text>気怠い空気が流れる42実験室で、ホットミルクを飲みながら新聞を指さし青年が言った。</text>
+			<show chara="weltGiggleSweaterClose" position="back" opacity="0.7" />
+			<show chara="teslaDisgustedGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">何？今、冬よ！頭おかしいんじゃないの。</speak>
+			<show chara="teslaDisgustedGlassWinterClose" position="right" opacity="0.7" />
+			<show chara="weltTiredSweaterClose" position="back" />
+			<speak chara="weltNoFace">……広告だと、今はオフシーズンだから、貸し切りも70％引きだって――</speak>
+			<show chara="weltTiredSweaterClose" position="back" opacity="0.7" />
+			<show chara="teslaShameGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">――だとしても、この寒さの中、日光浴なんて無理でしょ？</speak>
+			<show chara="teslaShameGlassWinterClose" position="right" opacity="0.7" />
+			<show chara="weltSurpriseSweaterClose" position="back" />
+			<speak chara="weltNoFace">でも、ボーリング、スパ、バーベキューのチケットも割引対象らしいぞ――</speak>
+			<show chara="weltSurpriseSweaterClose" position="back" opacity="0.7" />
+			<show chara="teslaSurpriseGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">うそ！？それも？</speak>
+			<show chara="teslaSurpriseGlassWinterClose" position="right" opacity="0.7" />
+			<show chara="einSmileCoatClose" position="left" />
+			<speak chara="einNoFace">場所だけ遊ばせてても減価消耗するだけだからね。割引前の夏価格が、そもそもかなり上乗せしてあっただけだが。</speak>
+			<show chara="einSlyCoatClose" position="left" />
+			<speak chara="einNoFace">ま、ここまで聞いたら……行きたいのだろう？</speak>
+			<show chara="einSlyCoatClose" position="left" opacity="0.7" />
+			<show chara="teslaStarGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">当然でしょ！食欲の秋よ、食べなきゃ損じゃない！</speak>
+			<show chara="teslaStarGlassWinterClose" position="right" opacity="0.7" />
+			<show chara="einSmileCoatClose" position="left" />
+			<speak chara="einNoFace">食べ過ぎて病院送りにならないように。</speak>
+			<show chara="einSmileCoatClose" position="left" opacity="0.7" />
+			<show chara="teslaShameGlassWinterClose" position="right" />
+			<speak chara="teslaNoFace">だ、誰が……そんな馬鹿を！大丈夫よ！</speak>
+			<show chara="teslaShameGlassWinterClose" position="right" opacity="0.7" />
+			<show chara="einSlyCoatClose" position="left" />
+			<speak chara="einNoFace">そんな馬鹿をやったのは誰だったかな？</speak>
+			<text>天パ소녀は笑みを浮かべながらミルクティーを飲み干した。</text>
+			<show chara="einSlyCoatClose" position="left" opacity="0.7" />
+			<goto goto="30" change="#ffffff" />
+		</scene>
+		<scene id="30" background="westCliff.jpg">
+			<bgm src="street.mp3" status="start" />
+			<text>サウスエンド＝オン＝シー（Southend-on-Sea）</text>
+			<text>その地理的立地から名づけられた街は、産業革命以降ロンドン市民の人気を最も集めた近隣リゾートだ――</text>
+			<text>――ただ、それも夏だけのこと。</text>
+			<text>一行が目的地に着くと、広大な駐車場にはたった3台の車しか止まっていなかった……。アイスランドかどこか人口密度の極端に低い国に来たのかと錯覚するほどであった。</text>
+			<show chara="teslaBoringGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace">これは……随分寂しい所ね。</speak>
+			<show chara="teslaSnickerGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace">でも、いい空気ね！</speak>
+			<show chara="teslaSnickerGlassWinterFar" position="left" opacity="0.7" />
+			<show chara="weltTiredWinterFar" position="right" />
+			<speak chara="weltNoFace">食事にはまだ早いな……。</speak>
+			<speak chara="weltNoFace">チェックインしたら、どこに行こうか？</speak>
+			<show chara="weltTiredWinterFar" position="right" opacity="0.7" />
+			<show chara="einSleepWinterFar" position="center" />
+			<speak chara="einNoFace">僕は、ちょっと棄権させてもらうよ……。</speak>
+			<show chara="einFoolWinterFar" position="center" />
+			<speak chara="einNoFace">半年乗ってなかったが……前よりひどい運転だ……。</speak>
+			<show chara="einFoolWinterFar" position="center" opacity="0.7" />
+			<show chara="teslaAstonishGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace">え？</speak>
+			<show chara="teslaAstonishGlassNoiseWinterFar" position="left" />
+			<speak chara="teslaNoFace">そ、そんな……酔った？おぶってあげようか？</speak>
+			<show chara="teslaAstonishGlassNoiseWinterFar" position="left" opacity="0.7" />
+			<show chara="einSleepWinterFar" position="center" />
+			<speak chara="einNoFace">そこまでじゃ……少し気持ち悪いだけさ。</speak>
+			<show chara="einSleepWinterFar" position="center" opacity="0.7" />
+			<show chara="weltTiredWinterFar" position="right" />
+			<speak chara="weltNoFace">ああ……実は나もちょっと……。</speak>
+			<show chara="weltTiredWinterFar" position="right" opacity="0.7" />
+			<show chara="teslaBiteGlassWinterFar" position="left" />
+			<speak chara="teslaNoFace">あんたはどうでもいいのよ！もやしっ子！</speak>
+			<show chara="teslaBiteGlassWinterFar" position="left" opacity="0.7" />
+			<show chara="weltScaredWinterFar" position="right" />
+			<speak chara="weltNoFace">も、もやし？</speak>
+			<goto goto="40" change="#ffffff" />
+		</scene>
+		<scene id="40" background="westCliff.jpg">
+			<bgm src="street.mp3" status="continue" />
+			<show chara="ritaNormalAhFar" position="left" />
+			<speak chara="ritaNoNameNoFace">ようこそいらっしゃいました！……웰트・ジョイスご一行様ですね？</speak>
+			<show chara="ritaNormalFar" position="left" opacity="0.7" />
+			<show chara="weltShyWinterFar" position="right" />
+			<speak chara="weltNoFace">あ……はいそうです。帝国研究所の3名です。</speak>
+			<show chara="weltTiredWinterFar" position="right" />
+			<speak chara="weltNoFace">すみません。変な組み合わせですよね、お恥ずかしい。</speak>
+			<show chara="weltTiredWinterFar" position="right" opacity="0.7" />
+			<show chara="ritaSmileLeftFar" position="left" />
+			<speak chara="ritaNoNameNoFace">とんでもございません。仲がお宜しいんですね……。</speak>
+			<text>ホテルの女性は礼儀正しく웰트のスーツケースを手に取り――</text>
+			<show chara="ritaSmileFar" position="left" />
+			<speak chara="ritaNoNameNoFace">マルガリータ・アイヤートと申します。リータとお呼び下さい。</speak>
+			<show chara="ritaSmileLeftFar" position="left" />
+			<speak chara="ritaNoFace">――「シーヤ・リータ」にようこそ！</speak>
+			<show chara="ritaSmileLeftFar" position="left" opacity="0.7" />
+			<show chara="weltGiggleWinterFar" position="right" />
+			<speak chara="weltNoFace">え？……オーナーさんなんですか？</speak>
+			<show chara="weltGiggleWinterFar" position="right" opacity="0.7" />
+			<show chara="ritaSmileFar" position="left" />
+			<speak chara="ritaNoFace">ふふっ。この季節は人手が足りず、お恥ずかしい限りです。</speak>
+			<show chara="ritaSmileLeftFar" position="left" />
+			<speak chara="ritaNoFace">でも……チップ分、みなさんの予算も浮きますでしょう？</speak>
+			<goto goto="50" change="#ffffff" />
+		</scene>
+		<scene id="50" background="westCliffWindow.jpg">
+			<bgm src="themeWelt.mp3" status="start" />
+			<text article="1">
+				<p class="article-text">「シーヤ・リータ」での3人の部屋はオーシャンビューのコテージ。2階からはテムズ川河口に絶え間なく行き交う商船が眺められた。インテリアはビクトリア朝と植民地時代の趣を合わせた雰囲気で、明るい色の壁紙を背に、出所の知れない肖像画――恐らく10ポンド程度の三流作品――が掛かっていた。</p>
+			</text>
+			<text article="1">
+				<p class="article-text">一人で窓から海岸を眺めていた青年は、このいたずらな世の中になんとも言い難い感覚を覚えずにはいられなかった。</p>
+				<br />
+				<p class="article-text">この短い期間に興味深い人たちにたくさん出会い、そして誰一人として素性は知らないものの――その誰もが誠実な人たちばかりであった。</p>
+			</text>
+			<text article="1">
+				<p class="article-text">だからこそ、それぞれにどうしようもない立場があることも웰트にはわかっていた。エジソンは北米支部の中心人物。プランクは支部と本部の潤滑油の役割――もちろん、贔屓があるのも明らかだが。そして、リアーナは「命令に服従することを天職とする」軍人だ。</p>
+			</text>
+			<text article="1">
+				<p class="article-text">もしも将来、北米支部と本部の間で長年溜まっていた不満が爆発したとしたら、明確な立場のない人間……自分や아인슈타인、테슬라のようなごく普通の研究者は、一体どう振舞えばいいのだろう。</p>
+			</text>
+			<text article="1">
+				<p class="article-text">絵画から取り出した魂鋼の中で、「H.A」と名乗る謎の人物は天命組織をひどく恨んでいるようだった。一体彼女は何を見、何を経験したのだろう。あのパスワードのかかったデータをエイダが解読した時、自分たちは一体どう向き合うべきなのだろう？아인슈타인と테슬라は「調査研究しないものに発言権はない」と信じているが――瞬きをする間にすべてが変わってしまうこの世の中で、彼女たちに十分な時間は残されているのだろうか？</p>
+			</text>
+			<goto goto="55" change="#ffffff" />
+		</scene>
+		<scene id="55" background="planeNightRem.jpg">
+			<bgm src="themeWelt.mp3" status="continue" />
+			<text>1ヶ月前、ある機内でのこと。</text>
+			<goto goto="60" change="0" />
+		</scene>
+		<scene id="60" background="CG6-3_Rem.jpg">
+			<bgm src="themeWelt.mp3" status="continue" />
+			<speak chara="weltNoFace">え、その……「内緒話」って……。</speak>
+			<text>紅い唇に視線がいかないよう気をつけながら、웰트青年は気まずそうに尋ねた。</text>
+			<speak chara="planckNoFace">ふふっ……可愛らしい反応ね。</speak>
+			<speak chara="planckNoFace">とにかく、約束したことはきちんと教えてあげるってこと。</speak>
+			<text>プランクなる女教授は、いたずらっぽく目配せする。</text>
+			<goto goto="70" change="0" />
+		</scene>
+		<scene id="70" background="planeNightRem.jpg">
+			<bgm src="themeWelt.mp3" status="continue" />
+			<show chara="weltNormalWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckSmileCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">……「プリンセス・ナンシー」と組織との関係から話すわね。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">知ってるとは思うけど、彼女は17歳の時からゼネラル・メカトロニクス“GME”の取締役代表をやってるの。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltScaredWinterClose-up" position="right" />
+			<speak chara="weltNoFace">……17歳？</speak>
+			<show chara="weltScaredWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckSeriousCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">ええ、当時崩壊事件で両親を亡くしてね。</speak>
+			<show chara="planckSeriousCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltSurpriseWinterClose-up" position="right" />
+			<speak chara="weltNoFace">……。</speak>
+			<show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckNormalCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">あの時、彼女は崩壊のことを何も知らなくて、しかも「調査に深入りするな」とまではっきり言われていた――</speak>
+			<speak chara="planckNoFace">けれど彼女、自分の持っているものをどう使うべきかよくわかっていたのね。</speak>
+			<speak chara="planckNoFace">あの頃、世界大戦は終わったばかり。どこの経済も戦後の混乱で滅茶苦茶だったわ。</speak>
+			<speak chara="planckNoFace">そこで彼女は、高給と実験費を餌に組織から人材の引き抜きを始めたのよ。</speak>
+			<show chara="planckNormalCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltScaredWinterClose-up" position="right" />
+			<speak chara="weltNoFace">……そんなことできるのか？</speak>
+			<show chara="weltScaredWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">もちろん、一筋縄ではいかなかったわ。</speak>
+			<show chara="planckSmileCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">でも、引き抜きに失敗しても彼女は皆の意表を突いて本部を訪ね、北米支部を設立したいと申し出たの。</speak>
+			<show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltSurpriseWinterClose-up" position="right" />
+			<speak chara="weltNoFace">組織のことはよくわかんないけど……そんなこと、組織が簡単に承諾するのか？</speak>
+			<show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckSmileCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">仕方ないでしょ。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">分割で合計130億ドルの援助金を出すって言うんだから。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltScaredWinterClose-up" position="right" />
+			<speak chara="weltNoFace">ひゃっ……130億？</speak>
+			<show chara="weltScaredWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckSmileCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace" remark="next">名目は「ヨーロッパ復興計画」――。</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">ヨーロッパ復興計画（European Recovery Program）はマーシャルプラン（The Marshall Plan）とも言われ、第二次世界大戦後アメリカが戦争で大きな被害を受けた西ヨーロッパ（NATO）各国に対し行った経済援助、復興協力。その計画を通じて、西欧各国は様々な形で合計130億ドル（インフレを考慮し現在の価値に換算すると、当時の額面の10倍以上に相当）の援助を受けた。</p>
+			</remark>
+			<show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltSurpriseWinterClose-up" position="right" />
+			<speak chara="weltNoFace">それは……。</speak>
+			<show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">世の中にはお金で買えないモノがある、そうじゃなくて――つまりはそれ相応の額を出せるかどうかって話なのよ。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltNormalWinterClose-up" position="right" />
+			<speak chara="weltNoFace">でも、そんな話が持ち上がる以前から北米支部があったっておかしくないだろ。なんで、それまで存在しなかったんだ――</speak>
+			<show chara="weltSurpriseWinterClose-up" position="right" />
+			<speak chara="weltNoFace">あっ。</speak>
+			<text>フィンランド人が以前、北米には前文明の痕跡がほとんどないと言っていたのを웰트はふと思い出した。</text>
+			<show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">気づいたみたいね。</speak>
+			<show chara="planckSmileCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">その通りよ。当時の評議会からしてみれば、まさに棚からぼた餅よ。</speak>
+			<speak chara="planckNoFace">管轄内に前文明の遺跡が無いんだもの。北米支部は彼らにとって根のない木のようなもの。恐るるに足りないもののはずだったの。</speak>
+			<show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltSurpriseWinterClose-up" position="right" />
+			<speak chara="weltNoFace">ところが……。</speak>
+			<show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">そうよ。現代人も、前文明の骨董なんかに劣りはしないのよ。自分たちで作り上げたものだって、十分通用するの。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">それに、本部がイエローストーン遺跡の規模を知ったら、恐らくひと悶着あるでしょうね。</speak>
+			<show chara="planckSmileCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">もしくは……もう既に私たち以上に情報を掴んでいて、密かに何か進めてる可能性だってあるかもしれない。</speak>
+			<show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltScaredWinterClose-up" position="right" />
+			<speak chara="weltNoFace">……じゃあ、今はとても危険な状況ってこと？</speak>
+			<show chara="weltScaredWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">はは、もしあなたたちが“最後の魂鋼”なるものを見つけたら、それこそ面白いことになるわよ。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltScaredWinterClose-up" position="right" />
+			<speak chara="weltNoFace">な……面白いこと？</speak>
+			<show chara="weltScaredWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckSmileCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">……つまり、私たちがもし何か見つけたとしたら、それはきっと、とんでもない事実でしょう？</speak>
+			<show chara="planckSeriousCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">悲観的に言ってしまえば、その時なんらかの選択を迫られるかもってこと。</speak>
+			<show chara="planckSeriousCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltDarkWinterClose-up" position="right" />
+			<speak chara="weltNoFace">……。</speak>
+			<show chara="weltNormalWinterClose-up" position="right" />
+			<speak chara="weltNoFace">ずっと前から聞きたかったんだけど……。</speak>
+			<speak chara="weltNoFace">結局、組織の目的はなんなんだ？</speak>
+			<speak chara="weltNoFace">本当に、崩壊と戦うだけなのか？</speak>
+			<show chara="weltNormalWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckSeriousCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">……。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">その質問には、私も答えられないわ。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltNormalWinterClose-up" position="right" />
+			<speak chara="weltNoFace">……。</speak>
+			<show chara="weltNormalWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckSmileCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">勘違いしないで、よそ者扱いしてるわけじゃないの。</speak>
+			<show chara="planckSeriousCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">大きな組織よ。人によって組織の存在意義は全く変わってくるの。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">普通の事務員から戦乙女、研究者、協賛者、評議会……どの立場から見ても、それは組織のほんの一面でしかないわ。</speak>
+			<show chara="planckSmileCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">懐疑論者の考えとは正反対、世界的組織に“表面的な目的”以外の原動力などない――</speak>
+			<speak chara="planckNoFace">その複雑さはそれを構成する、生きた人間一人ひとりによってもたらされるの。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">例えば……私もたまにあの独りよがりの「プリンセス」が嫌になるのよ。</speak>
+			<show chara="planckSeriousCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">そうそう、테슬라の才能もあのプリンセスに台無しにされそうになったわ――悪気はなかったのだけど。</speak>
+			<show chara="planckNormalCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">でも、もしあのプリンセスと評議会を天秤にかけるとしたら……申し訳ないけど、全力で彼女の方を支持するわ。</speak>
+			<show chara="planckSeriousCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">彼女は少なくとも科学技術を広めることを尊重してくれているからね。</speak>
+			<show chara="planckSeriousCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltScaredWinterClose-up" position="right" />
+			<speak chara="weltNoFace">え？評議会って、技術色の強い機関だと思ってた……。</speak>
+			<show chara="weltScaredWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckNormalCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">それよりも軍事色が勝っていると言った方がいいかしら。</speak>
+			<show chara="planckSeriousCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">評議会が常に優先しているのは、本当に正しいかではなく……自分たちが掌握できるかどうかなの。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">評議会の技術力だって本当はとても高いのだけれど……彼らがすべてを掌握してしまえば、科学研究の発展面では物凄くマイナスになってしまう。</speak>
+			<show chara="planckSmileCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">魂鋼は最も典型的な例ね。</speak>
+			<show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltSurpriseWinterClose-up" position="right" />
+			<speak chara="weltNoFace">魂鋼が？</speak>
+			<show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckNormalCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">そうよ。魂鋼の中には前の時代の情報を保存しているものがあるの。</speak>
+			<show chara="planckSeriousCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">評議会は、その類の魂鋼に異常なまでに興味を持っていてね。各支部が自ら技術開発して解読することを許さないのよ。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">ねぇ、どうしてだと思う？</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltSurpriseWinterClose-up" position="right" />
+			<speak chara="weltNoFace">それは……記録された武器の技術を濫用させない為？</speak>
+			<show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckNormalCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">それもあるけど……もっと大きな懸念があるのよ。</speak>
+			<show chara="planckSeriousCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">前時代の武器技術は、それを操る者の崩壊エネルギー適応性に対して、厳しい条件が付いて来る。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">つまりは、その技術を使おうと思ったら、まず戦乙女を味方につけないといけないの。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltScaredWinterClose-up" position="right" />
+			<speak chara="weltNoFace">ということは……。</speak>
+			<show chara="weltScaredWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckSeriousCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">そうよ。戦乙女も人間、裏切る可能性があるわ。</speak>
+			<speak chara="planckNoFace">しかも歴史上、多くの人物が組織を裏切ったという確かな記録が残っている。</speak>
+			<show chara="planckNormalCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">記録では……個人的な恨み以外に、普遍的な要因として過去の情報っていうのがあるの。</speak>
+			<show chara="planckSeriousCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">崩壊との戦いに敗れた時代の思想にも色々あってね、当然、組織の信仰と異なるものもあるでしょう。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">さらに厄介なのは、こうした過去の「経験者」の言葉って、感情移入の激しい子供たちには真理として受け止められがちなの。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltSurpriseWinterClose-up" position="right" />
+			<speak chara="weltNoFace">……。</speak>
+			<show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckNormalCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">要するに、その昔の人たちの思想がどこまで信じられるか論理的に判断できないってわけ。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">技術は実験で検証できる、問題は数学で解ける。でも、虚偽の証明が難しいものは……厄介よね。</speak>
+			<speak chara="planckNoFace">ある人にとっては理にかなっていても、他の人にとってはそうではない――まさに「千人の読者がいて千のハムレットがある」ね。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltSurpriseWinterClose-up" position="right" />
+			<speak chara="weltNoFace">……。</speak>
+			<show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckNormalCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">だから、一度高慢な態度で接することができてしまうと、相手を「操りやすい」、「愚かだ」と思いこんでしまう。</speak>
+			<speak chara="planckNoFace">こういう時の対処として、上に立つ者が取れる最も簡単な方法が「権限」を抑えることよ。</speak>
+			<show chara="planckNormalCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltSurpriseWinterClose-up" position="right" />
+			<speak chara="weltNoFace">……。</speak>
+			<show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">でも裏を返して言えば、簡単な手段を取るという怠惰の末、なんでもかんでも裏で権力を振るっては操っていくことになる。</speak>
+			<speak chara="planckNoFace">……組織は軍隊的管理でしか維持と団結ができなくなり、より「権限を縮小」していくことでしか効率的に動けなくなってしまうのよ。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltSurpriseWinterClose-up" position="right" />
+			<speak chara="weltNoFace">……。</speak>
+			<show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckSmileCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">もし、これが普通の軍隊だったらいいんだけどね。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">誰もが「軍人は命令に服従するのが当たり前」と思ってるんだから。</speak>
+			<show chara="planckSeriousCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">問題は、天命はただの軍隊じゃないってこと。</speak>
+			<speak chara="planckNoFace">「権限を縮小」するのは、研究者の人材育成にとても不利に働くわ。</speak>
+			<show chara="planckSmileCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">組織の実験室には、あなたもいろいろと行ったでしょ。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">42実験室がどれだけ特殊か、分かるわよね。</speak>
+			<show chara="planckSeriousCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">もし人材育成に本当に必要な自由が、もし世界でたった一つ、42実験室にしかないとしたら――</speak>
+			<speak chara="planckNoFace">崩壊に立ち向かったって、私たちに勝算などないと思うわ。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">ねぇ、どう思う？</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7" />
+			<bgm src="11_17_tatakau.mp3" status="start" />
+			<show chara="weltDarkWinterClose-up" position="right" />
+			<speak chara="weltNoFace">……。</speak>
+			<speak chara="weltNoFace">それは……。</speak>
+			<show chara="weltNormalWinterClose-up" position="right" />
+			<speak chara="weltNoFace">……。</speak>
+			<speak chara="weltNoFace">……いずれにせよ、아인슈타인たちに危険が及ばないで欲しい。</speak>
+			<show chara="weltNormalWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckNormalCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">……うん？</speak>
+			<show chara="planckNormalCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltNormalWinterClose-up" position="right" />
+			<speak chara="weltNoFace">天命のような大きな組織がどうあれば正しいのか、そんなこと나にはわからない。</speak>
+			<speak chara="weltNoFace">けど、遠くない将来、あんたたちと欧州本部はバラバラになるんだと思う。</speak>
+			<show chara="weltDarkWinterClose-up" position="right" />
+			<speak chara="weltNoFace">それがどういうことなのか、理解しきれていないけど……。</speak>
+			<show chara="weltNormalWinterClose-up" position="right" />
+			<speak chara="weltNoFace">でも、その時が来たら、あんたの学生である彼女たちを巻き込まないでほしいんだ！</speak>
+			<speak chara="weltNoFace">……それだけは絶対に違うし、良くない。間違ってる。</speak>
+			<show chara="weltNormalWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">はぁー……何を言うかと思ったら……。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltShameWinterClose-up" position="right" />
+			<speak chara="weltNoFace">……何が？できないっていうのか？</speak>
+			<show chara="weltShameWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckSmileCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">あははっ！</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">北米支部を支持しろって、私が説得しているとでも思ったの？</speak>
+			<show chara="planckSmileCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">お馬鹿ちゃんね！</speak>
+			<show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltSurpriseWinterClose-up" position="right" />
+			<speak chara="weltNoFace">……。</speak>
+			<show chara="weltShameWinterClose-up" position="right" />
+			<speak chara="weltNoFace">だ、誰が馬鹿だよ！</speak>
+			<speak chara="weltNoFace">それに……「ちゃん」は余計だ！</speak>
+			<show chara="weltShameWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">ははは、웰트君はこういう時、ほんと面白いわ。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7" />
+			<show chara="weltTiredWinterClose-up" position="right" />
+			<speak chara="weltNoFace">……。</speak>
+			<show chara="weltTiredWinterClose-up" position="right" opacity="0.7" />
+			<show chara="planckSeriousCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">とにかく、いいこと？</speak>
+			<show chara="planckNormalCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">この世界には因果と言うものがあって、それだけは何があっても曲げられない。</speak>
+			<show chara="planckSeriousCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">万が一……万が一にも、あなたたちが探している魂鋼が、その導火線となったら……。</speak>
+			<show chara="planckNormalCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">その時は……自分の心に素直に従うことよ。</speak>
+			<show chara="planckSeriousCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">私たちのことはいいから、どんな組織のことも考えなくていいから……。</speak>
+			<show chara="planckSmileCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">必ず、心の奥底の、一人の人間としての、最も素の心の声を聴いて。</speak>
+			<show chara="planckSeriousCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">どんな物事にも両面性がある……だからこそ、自分自身が心から己の行動を褒められるか、それが大事になってくるの。</speak>
+			<show chara="planckNormalCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">そして……。</speak>
+			<show chara="planckSmileCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">……本当に守るべき価値のある人を、きちんと守ってね。</speak>
+			<show chara="planckSlyCoatClose-upSymme" position="left" />
+			<speak chara="planckNoFace">憶えておいて。あなたの崩壊エネルギーに対する耐性は、私たち科学者でも解明できないんだから。</speak>
+			<goto goto="80" change="#ffffff" />
+		</scene>
+		<scene id="80" background="westCliffWindow.jpg">
+			<bgm src="10_20_londonderry_p.mp3" status="start" />
+			<text>웰트が回想から我に返ると、いつから鳴っていたのか後ろから美しいピアノの音色が響いてきた。</text>
+			<goto goto="90" change="0" />
+		</scene>
+		<scene id="90" background="CG12-2.jpg">
+			<bgm src="10_20_londonderry_p.mp3" status="continue" />
+			<text>아인슈타인の指がリズミカルに鍵盤を打ち、ピアノ特有の澄んだ音色は、まるでその指先からこぼれ出ているかのようだった。</text>
+			<text>その一瞬、웰트は全身に鳥肌が立つのを覚えた。</text>
+			<text>民謡を習った覚えはないが、この旋律には聞き覚えがある。</text>
+			<text>いや、聞き覚え程度のものではない……。</text>
+			<speak chara="weltNoFace">Oh, Danny Boy, the pipes, the pipes are calling（おお、私のダニー、パイプの音が響いているよ）</speak>
+			<speak chara="weltNoFace">From glen to glen, and down the mountain side,（谷から谷へ、そして山際を音色が駆け巡る）</speak>
+			<speak chara="weltNoFace">The summer's gone, and all the roses falling,（夏が過ぎ、バラの花たちはみな枯れ落ちて）</speak>
+			<speak chara="weltNoFace">It's you, it's you must go and I must bide.（あなたはどうしても行ってしまうんだね、それでも私はずっと待っているよ）</speak>
+			<goto goto="95" change="0" />
+		</scene>
+		<scene id="95" background="CG12-1.jpg">
+			<bgm src="10_20_londonderry_p.mp3" status="continue" />
+			<speak chara="einNoFace">But come ye back when summer's in the meadow,（どうか帰ってきてほしい、草原に夏が訪れる頃でも）</speak>
+			<speak chara="einNoFace">Or when the valley's hushed and white with snow,（谷が純白な雪で、しじまに染まる頃でもいい）</speak>
+			<speak chara="einNoFace">It's I'll be here in sunshine or in shadow,（陽の光の中、暗闇の中、いつでもここで待っているから）</speak>
+			<speak chara="einNoFace">Oh, Danny Boy, oh Danny Boy, I love you so!（ああ、私のダニー、心から愛しているよ）</speak>
+			<goto goto="100" change="0" />
+		</scene>
+		<scene id="100" background="CG12-2.jpg">
+			<bgm src="10_20_londonderry_p.mp3" status="continue" />
+			<speak chara="einNoFace" remark="next">웰트……この歌、知っているのか？</speak>
+			<remark post="U2FsdGVkX19ZdL7hDqev2Mrxfcrrag==">
+				<p class="article-text-h">注：</p>
+				<p class="article-text">『ダニーボーイ』（Danny Boy）はイングランドのフレデリック・ウェザリー（Frederic Weatherly ）の作詞。民謡『ロンドンデリーの歌』（Londonderry Air）に合わせて歌われる。その意味については、愛情を表したものとも、死者を悼むものとも、出征した息子を思う父の心情を歌ったものなど、様々な説がある。</p>
+			</remark>
+			<speak chara="einNoFace">この歌は……</speak>
+			<speak chara="einNoFace">随分前に……</speak>
+			<speak chara="einNoFace">ある人が……</speak>
+			<speak chara="einNoFace">教えてくれたんだ……。</speak>
+			<end post="U2FsdGVkX1+r++fvlcKhEiAARLoGiw==" />
+		</scene>
+	</story>
+</data>

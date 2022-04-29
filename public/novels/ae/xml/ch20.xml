@@ -1,0 +1,402 @@
+<data>
+	<img></img>
+	<characters>
+		<character color="#ffffff" id="weltAstonishNewClose-up" name="웰트" src="04_19_weltAstonishNewClose-up.png" />
+		<character color="#ffffff" id="weltAstonishNewGloveClose-up" name="웰트" src="04_19_weltAstonishNewGloveClose-up.png" />
+		<character color="rgb(237,118,114)" id="teslaErGlassWinterClose-up" name="테슬라" src="04_19_teslaErGlassWinterClose-up.png" />
+		<character color="rgb(237,118,114)" id="teslaBiteGlassWinterClose-up" name="테슬라" src="04_19_teslaBiteGlassWinterClose-up.png" />
+		<character color="#fff2c4" id="reaNormalArmedFar" name="リアーナ" src="04_19_reaNormalArmedFar.png" />
+		<character color="#fff2c4" id="reaSmileArmedFar" name="リアーナ" src="04_19_reaSmileArmedFar.png" />
+		<character color="#fff2c4" id="reaLaughArmedFar" name="リアーナ" src="04_19_reaLaughArmedFar.png" />
+		<character color="#fff2c4" id="reaHahArmedFar" name="リアーナ" src="04_19_reaHahArmedFar.png" />
+		<character color="#ff0000" id="elaineNoNameNoFace" name="？？？" src="" />
+		<character color="#dd0000" id="elaineNoFace" name="エイレン" src="" />
+		<character color="#dd0000" id="elaineHematemesisFar" name="エイレン" src="04_20_elaineHematemesisFar.png" />
+		<character color="#dd0000" id="elaineStruggleFar" name="エイレン" src="04_20_elaineStruggleFar.png" />
+		<character color="#dd0000" id="elaineSmileFar" name="エイレン" src="04_20_elaineSmileFar.png" />
+		<character color="#dd0000" id="elaineNormalFar" name="エイレン" src="04_20_elaineNormalFar.png" />
+	</characters>
+	<story>
+		<scene background="bg.jpg" id="0">
+			<bgm src="mid-lude.mp3" status="start" />
+			<cg bg="bg.jpg" src="newchapter.png" />
+			<goto change="#000000" goto="10" />
+		</scene>
+		<scene background="tankInside.jpg" id="10">
+			<bgm src="mid-lude.mp3" status="stop" />
+			<text>同日、午前8時頃。</text>
+			<bgm src="04_20_tank.mp3" status="start" />
+			<show chara="teslaSnickerGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">ほら、もうそんなに双眼鏡を覗かなくても大丈夫よ。「臨時車掌」。</speak>
+			<show chara="teslaSnickerGlassWinterClose-up" opacity="0.7" position="left" />
+			<show chara="weltNervousNewClose-up" position="right" />
+			<speak chara="weltNoFace">もう……完全に安全なのか？</speak>
+			<show chara="weltNervousNewClose-up" opacity="0.7" position="right" />
+			<show chara="teslaSmileGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">ここは災害の中心地でもないんだし、そんなにビクビクする必要ないわよ。</speak>
+			<show chara="teslaShameGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">百歩譲って敵の襲撃があったとしても、視野の広いリアーナが真っ先に予兆を見つけるはずでしょ？</speak>
+			<show chara="teslaErGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">彼女のためにわざわざロールスロイスの屋根を取り払って、オープンカーにしたのよ？</speak>
+			<show chara="teslaErGlassWinterClose-up" opacity="0.7" position="left" />
+			<show chara="weltSighNewClose-up" position="right" />
+			<speak chara="weltNoFace">あ、ああ……そうだな……。</speak>
+			<show chara="weltSighNewClose-up" opacity="0.7" position="right" />
+			<show chara="teslaErGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">だから、早くその上から降りて来なさいよ。</speak>
+			<show chara="teslaSnickerGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">せっかくのチャンスなんだから、時間をムダにせず勉強しないとね。</speak>
+			<show chara="teslaSnickerGlassWinterClose-up" opacity="0.7" position="left" />
+			<show chara="weltEmbarraNewClose-up" position="right" />
+			<speak chara="weltNoFace">勉強？</speak>
+			<show chara="weltEmbarraNewClose-up" opacity="0.7" position="right" />
+			<show chara="einSlyWinterClose-up" position="left" />
+			<speak chara="einNoFace">うん。「神の鍵」の使い方を勉強するんだ。</speak>
+			<show chara="einSlyWinterClose-up" opacity="0.7" position="left" />
+			<show chara="weltAstonishNewClose-up" position="right" />
+			<speak chara="weltNoFace">……何だって？</speak>
+			<show chara="weltAstonishNewClose-up" opacity="0.7" position="right" />
+			<show chara="einNormalWinterClose-up" position="left" />
+			<speak chara="einNoFace">「エデンの星」。</speak>
+			<speak chara="einNoFace">かつて「岩の律者」から取り出された「律者のコア」、そこから作り出された必殺武器。</speak>
+			<speak chara="einNoFace">僕たちは、その能力や使い方を理解しないといけないんだ。</speak>
+			<show chara="teslaNormalGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">エイダが、私たちの代わりに説明書の解析をもう終わらせているわ——</speak>
+			<show chara="teslaShameGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">——私たちと本部の戦乙女の間にこの装甲があるうちに、さっさと始めましょう。</speak>
+			<show chara="teslaShameGlassWinterClose-up" opacity="0.7" position="left" />
+			<show chara="weltAstonishNewClose-up" position="right" />
+			<speak chara="weltNoFace">……え？</speak>
+			<show chara="weltAstonishNewClose-up" opacity="0.7" position="right" />
+			<show chara="teslaAngryGlassWinterClose-up" position="left" />
+			<shake position="left" time="250" />
+			<speak chara="teslaNoFace">「え」じゃないわよ！あんたバカ？</speak>
+			<show chara="teslaDisgustedGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">リアーナがどんなにいい人でも、あんたにあんな事を言ってきた“天命の主教”オットーの手下なのよ！</speak>
+			<show chara="teslaAstonishGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">彼の逆鱗に触れそうなことをこれだけしているんだから、それなりの防御策を練っておく必要があるでしょ？</speak>
+			<show chara="teslaBiteGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">それに万一エジソンの方で何かあった時、それが天災にしろ、人災にしろ、やられてしまったら——</speak>
+			<show chara="teslaDisgustedGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">——そんな時、私たちは自身以外の誰を頼れるのよ？</speak>
+			<shake position="left" time="250" />
+			<show chara="teslaAngryGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">まさか、あいつがあんたみたいに能天気なおバカさんだと本気で思ってたわけ？</speak>
+			<show chara="teslaAngryGlassWinterClose-up" opacity="0.7" position="left" />
+			<show chara="weltEmbarraNewClose-up" position="right" />
+			<speak chara="weltNoFace">えっ……。</speak>
+			<show chara="weltEmbarraNewClose-up" opacity="0.7" position="right" />
+			<show chara="teslaNormalGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">よく聞きなさい。</speak>
+			<show chara="teslaShameGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">他の時なら、あんたが実験室のマスコットでいることを我慢してあげるわ……。</speak>
+			<show chara="teslaSmileGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">一緒に旅行してもいいし、一緒に家でゴロゴロしてもいいし、どこかのボサ頭と一緒に私をいじめても構わない……。</speak>
+			<shake position="left" time="250" />
+			<show chara="teslaDisgustedGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">だけど、今日だけはダメ！</speak>
+			<show chara="teslaBoringGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">あなた、私、ボサ頭、全員が「エデンの星」の使い方を学ばなきゃダメなのよ！</speak>
+			<show chara="teslaBiteGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">そして、できる限り色々なことを試してみなくちゃ！</speak>
+			<shake position="left" time="250" />
+			<show chara="teslaDisgustedGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">これは文字通り生死に関わることなのよ！</speak>
+			<show chara="teslaDisgustedGlassWinterClose-up" opacity="0.7" position="left" />
+			<show chara="weltSBDNewClose-up" position="right" />
+			<speak chara="weltNoFace">……。</speak>
+			<show chara="mbembaClose-up" position="right" />
+			<speak chara="mbembaNoFace">えっと……それは나も学ばなきゃいけないのか？</speak>
+			<speak chara="mbembaNoFace">あの……神……神の何とかって……。</speak>
+			<show chara="mbembaClose-up" opacity="0.7" position="right" />
+			<show chara="teslaErGlassWinterClose-up" position="left" />
+			<speak chara="teslaNoFace">……あなたはいいわ。</speak>
+			<speak chara="teslaNoFace">運転手さん……あなたは運転に集中してちょうだい。</speak>
+			<goto change="#ffffff" goto="20" />
+		</scene>
+		<scene background="roadMontana3.jpg" id="20">
+			<bgm src="8_24_war.mp3" status="start" />
+			<speak chara="reannaNoFace">……私が知っていることは以上です。</speak>
+			<speak chara="reannaNoFace">……。</speak>
+			<speak chara="reannaNoFace">私の考えですか？3年前のように、実戦経験のない部隊を軽率に派遣しないことですね。</speak>
+			<speak chara="reannaNoFace">それは全くの無・意・味です。</speak>
+			<speak chara="reannaNoFace">……北米の地方組織はちゃんと偵察できる能力を持っているようですね。</speak>
+			<speak chara="reannaNoFace">しかも、彼らは自分の戦闘力の低さをはっきりと認識している。だから、無謀なことをして不必要な犠牲を出すこともありません。</speak>
+			<speak chara="reannaNoFace">……。</speak>
+			<speak chara="reannaNoFace">そんな、まさか。</speak>
+			<speak chara="reannaNoFace">ですが、もし本当にあのエジソンの小娘だったとしたら……。</speak>
+			<speak chara="reannaNoFace">……私が彼女の首を取ります。</speak>
+			<speak chara="reannaNoFace">言葉通りの意味です。</speak>
+			<speak chara="reannaNoFace">……。</speak>
+			<speak chara="reannaNoFace">ええ、連絡を取り続けます——主教様。</speak>
+			<goto change="#ffffff" goto="30" />
+		</scene>
+		<scene background="roadMontana1.jpg" id="30">
+			<bgm src="10_25_ada.mp3" status="start" />
+			<text>リアーナは自分より何倍も年上の男性から、生と死に対する冷たさを時折り感じていた。</text>
+			<text>もしかすると、権力者にとって人的損失なんてものは単なる数字にすぎないのかもしれない——</text>
+			<text>事実、優れた将軍になりたいならば、生と死を全て数字として計算しなければならない。</text>
+			<text>このような仲間たちを率いて生きていくこと——ひとつの個体としてではなく、集団として捉える——これは冷酷無情な科学なのだ。</text>
+			<text>時にはそれが芸術と言えるかもしれないが、救いと言われることは永遠にない。</text>
+			<text>戦争は戦争なのだ。</text>
+			<text>戦争は破滅しかもたらさない。</text>
+			<text>これだけは、永遠に変わることはない。</text>
+			<text>善い目的であったとしても、やがてくる犠牲に耐えなければならない。</text>
+			<text>そして、犠牲とは往々にして制御できないものなのだ。</text>
+			<text remark="next">簡単な博打なら教えても構わない。「仮借なく暴力を駆使し、流血を厭わずに使用する者は、相手が同じことをしない限り、優勢を占めるに違いない」。</text>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">これはクラウゼヴィッツの『戦争論』第一章第3節にある。そこに含まれている意味を一義的に理解してはならない。事実、同じ章でクラウゼヴィッツはこうも言っている。「文明のある国民はみだりに捕虜を処刑しないし、また敵の都市や国土を破壊しないのが通例である。その理由は、知性が文明国民の行う戦争に介入して、本能のかかる粗野な発現よりも、むしろ知性のほうが暴力を行使するにいっそう有効な手段であることを教えたからである。」</p>
+			</remark>
+			<text>崩壊はすぐそこにいる。</text>
+			<text>崩壊と取引することなどできない。</text>
+			<text>崩壊も私たちの理屈に耳を傾けたりはしない。</text>
+			<text>崩壊は自分たちの犠牲を恐れないし、私たちの犠牲を哀れんだりもしない……この世界がどうなろうとも全く気にしてすらいない。</text>
+			<text>永遠に自らの暴力を止めることはない——</text>
+			<text>——私たちが完全に、徹底的に、一人残らず、この星から消えない限り。</text>
+			<text>始まった時から既に背水の陣なのだ。</text>
+			<text>……そうであっても、私たちはまだ「贅沢」と言える気持ちを抱いていた。</text>
+			<text>この永遠に続く戦争の中で、再生、救い、人間性の美しさを見たいと思っているのだ。</text>
+			<text>しかも、それらが戦争固有のものではないからこそ、</text>
+			<text>この戦争が永遠に終わらないからこそ——</text>
+			<text>私たちは一層そのように期待するのだ。</text>
+			<text>それに……。</text>
+			<text>私は、このように期待するのはいいことだと思っている。</text>
+			<text>これは理に適った妬みだ。</text>
+			<text>人間らしさの源でもある。</text>
+			<text>もっと言えば、どんな贅沢なことを願っても何も悪いことではないのかもしれない——</text>
+			<text>贅沢というものが、当たり前にそこに存在するものではないと認めさえすれば。</text>
+			<text>贅沢が私たちに何をもたらすのか、分かってさえいれば。</text>
+			<text>……。</text>
+			<text>테슬라。</text>
+			<text>아인슈타인。</text>
+			<text>웰트。</text>
+			<text>この天命組織の中には、もう何年もこんなかわいいやつらはいなかった。</text>
+			<text>……もしかすると、ずっと昔「H.A」のイニシャルを名乗るのが好きだったあいつがそれに含まれるかもしれない。</text>
+			<text>彼女の懐疑論的な口調はまったく好きではなかったが……少なくとも彼女の雰囲気はみんなを楽しませた。</text>
+			<goto change="0" goto="40" />
+		</scene>
+		<scene background="cloudSky.jpg" id="40">
+			<bgm src="10_25_ada.mp3" status="continue" />
+			<text>いつの間にか、最後に会ったのは百年も前のことになってしまった。</text>
+			<text>あの頃は、シカゴに鉄道が通ったばかりだった——</text>
+			<text>それが今では数百万人を超える大都市になっている。</text>
+			<text>実のところ、この百年あまりの間に変化があったのはアメリカだけにとどまらない。</text>
+			<text remark="next">「ドイツ」はもう民族名だけではなくなった。彼らが作った二つの帝国はどちらも失敗に終わったが。</text>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">普仏戦争で勝利し「小ドイツ」を統一しようとする「ドイツ帝国」（1871～1918）と、ドイツ語国家であるオーストリアを強制的に併合し、ドイツ人の住むズデーテン、クライペダ（メーメル）、グダニスク（ダンツィヒ）、ユトランド（北シュレースヴィヒ）、ルクセンブルク、アルザス＝ロレーヌ等の地を併呑し、「大ドイツ」を築くいわゆる「第三帝国」（1933～1945）を指している。</p>
+			</remark>
+			<text remark="next">フランスの元首は大統領から皇帝になり、皇帝から大統領に戻った。</text>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">ブルボン朝を再び倒した「フランス第二共和政」（1848～1852）、ルイ＝ボナパルト（ナポレオン三世）の「フランス第二帝政」（1852～1870）、2回の対ドイツ戦敗北に挟まれた「フランス第三共和政」（1870～1940）を指している。</p>
+				<p class="article-text">p.s. マルクスの名著『ルイ・ボナパルトのブリュメール18日』はこの時期のフランス社会の様相をダイナミックに解説している。</p>
+			</remark>
+			<text remark="next">ハプスブルクは歴史の舞台から去り、かつての君主制国家は分裂した。</text>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">ハプスブルク家の一員が君主を務めた「オーストリア帝国」（1840～1867）や「オーストリア＝ハンガリー帝国」（1867～1918）を指している。1918年、第一次世界大戦終了後、オーストリア＝ハンガリー帝国は解体、オーストリア、ハンガリー、チェコスロバキアは共和国として独立。その他の地域もユーゴスラビア、ポーランド、ルーマニア、イタリアに併合された。</p>
+			</remark>
+			<text remark="next">オスマン王朝が崩壊した後の権力の真空状態は、ユダヤ人が千年も抱き続けてきた祖国復興の夢を実現させた。</text>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">第一次世界大戦後、オスマン帝国はアラビア半島、イラク、シリア一帯の大量の領土を放棄した。パレスチナはイギリスが管轄することとなり、ヨーロッパのユダヤ人が大量に流入した。第二次世界大戦後、ユダヤ人の戦争中の悲惨な出来事により、彼らの祖国復興の想いをアメリカやソ連などの強大な勢力が後押しし、「イスラエル」は1948年5月14日に独立を宣言した。</p>
+			</remark>
+			<text remark="next">イタリア、ギリシャももはや単純な地理的概念ではなくなっていた。トルコにいたっては「何世紀も鉄かごのように自分たちの思想を縛り付けていた、あの理解できない記号」から解放された……。</text>
+			<remark post="U2FsdGVkX19yQNaEeMBKin4QUNdj">
+				<p class="article-text-h">注：</p>
+				<p class="article-text">イタリアの統一（1815～1871）、ギリシャ独立戦争（1821～1829）、バルカン戦争（1912～1913）、トルコ独立戦争（1919～1923）を指している。</p>
+				<p class="article-text">p.s. 「何世紀も鉄かごのように自分たちの思想を縛り付けていた、あの理解できない記号」はトルコ建国の父（Atatürk）であるムスタファ・ケマル（Mustafa Kemal）のアラビア文字への評価である。</p>
+			</remark>
+			<text>特にこの数十年、「日常」の世界で2度の大戦が行われた。見かけ倒しの帝国が一つ、また一つと倒れていった……。</text>
+			<text>しかし、この「天命」という組織は反対に完全に停滞しており、変革の兆しなど微塵もない。</text>
+			<text>戦乙女（或いは「戦争マシン」）としては、このような不満はやや珍しいのかもしれない——</text>
+			<text>いや、「想像力を司る細胞」をあの厄介な主教が一人残らず吸い取ってしまったのかもしれない。皆があの「神州の仙人」の複製品かのように、冗談も言わず、面白みもない……。</text>
+			<text>少なくとも、彼らの心の中にオリジナルの思考があるのかどうかも怪しいのだ。</text>
+			<text>どれも普遍的で、面白さに欠け、暗くて窒息してしまいそうな「冷徹な大人」。</text>
+			<text>……私たちが「大人の冷徹さ」を自慢するのは、もっぱら年老いた証である。</text>
+			<text>もしかしたら、今この時、戦車の操縦室にいる「大人ではない」数人が、主教が禁じていることを企んでいるかもしれない。</text>
+			<text>……だが、それが何だというのだ？</text>
+			<text>あまりにひどいことをしなければ——それも彼らのスタイルなのではないだろうか——</text>
+			<text>——「マシン」である私は今日、どうしても彼らを庇ってしまう。</text>
+			<text>なぜなら、「マシン」にも感情があるからだ。</text>
+			<text>「マシン」であっても、あの「妬み」という感覚を味わってみたいのだ。</text>
+			<text>「でもとにかくさ、だだっぴろいライ麦畑みたいなところで、小さな子ども達がいっぱい集まって何かのゲームをしているところを、僕はいつも思い浮かべちまうんだ。」</text>
+			<text>「何千人もの子どもたちがいるんだけれど、他には誰もいない。つまりちゃんとした大人みたいなのは一人もいないんだよ。僕のほかにはね。」</text>
+			<text>「で、僕は危ない崖っぷちに立っている。僕の仕事と言えば、誰かが崖から落ちそうになったら、それを捕まえることなんだ。」</text>
+			<text>「それで僕はそのへんのクレイジーな崖っぷちに立っているわけさ。で、僕がそこで何をするかっていうとさ、誰かがその崖から落ちそうになる子どもがいると、かたっぱしからつかまえるんだよ。つまりさ、よく前を見ないで崖の方に走っていく子どもなんかがいたら、どっからともなく現れて、その子をさっとキャッチするんだ。」</text>
+			<text remark="next">「そういうのを朝から晩までずっとやっている。ライ麦畑のキャッチャー、僕はただそういうものになりたいんだ。」</text>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">『ライムギ畑でつかまえて』（作者：J.D.サリンジャー）より。原文は以下の通り：</p>
+				<p class="article-text">"Anyway, I keep picturing all these little kids playing some game in this big field of rye and all. Thousands of little kids, and nobody's around - nobody big, I mean - except me. And I'm standing on the edge of some crazy cliff. What I have to do, I have to catch everybody if they start to go over the cliff - I mean if they're running and they don't look where they're going I have to come out from somewhere and catch them. That's all I do all day. I'd just be the catcher in the rye and all. I know it's crazy, but that's the only thing I'd really like to be."</p>
+			</remark>
+			<goto change="0" goto="50" />
+		</scene>
+		<scene background="connecticutRoad.jpg" id="50">
+			<bgm src="10_25_ada.mp3" status="continue" />
+			<text>電子通信の異常によって大勢の人たちが眠りから覚めた後、大きな混乱が巻き起った。</text>
+			<text>しかし、パニック映画でよく見るシーンとは違い、混乱の最中であろうとも秩序は保たれていた。</text>
+			<text remark="next">プロビデンスを出発してから国道6号線に沿って進む中、私たちは大規模な交通渋滞に巻き込まれることもなく、混乱に乗じて強盗を働く悪党たちに出会うこともなかった——</text>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">国道6号線（U.S. Route 6）は東西方向に走るアメリカの国道。この道路はマサチューセッツ州プロビンスタウンとカリフォルニア州ビショップを結んでおり、「アメリカで最も景色の美しいハイウェイ」とされている。</p>
+			</remark>
+			<text>それどころか、普通の武器ではまったく歯が立たない崩壊獣に遭遇することもなかった。</text>
+			<text>もちろん、このように一時的に秩序が保たれているのは、情報の伝達に問題が発生していることと関係しているのだが……。</text>
+			<text>この国の国民、彼らの自治能力には本当に頭が下がる。</text>
+			<text>プロビデンスの3人の三流連絡員のうち、1人は42実験室のメンバーを乗せて戦車を操縦し、残りの2人は自分の「本業」に戻った。</text>
+			<text>そう、電子通信が機能しない状況下でも、人力で情報を伝えることはできるのだ。</text>
+			<text>一人から十人へ。</text>
+			<text>十人から百人へ。</text>
+			<text>百人から千人へ。</text>
+			<text>エジソンが彼らに配った装備は大して役に立つものではない。しかし、もしそれらが一万を超える人たちに行き渡れば……。</text>
+			<text>そうすれば、仮にニューヨークが爆発したり、ベルリン級の事件が起きたりしても、彼らは最前線を死守することができ、フェンスを築いて災害の蔓延を阻止することもできるだろう。</text>
+			<text>たとえ、私たちがその中の1割とだけとしか連絡が取れなかったとしても。</text>
+			<text>中心地域は……。</text>
+			<text>……そこは私に任せてくれればいい。</text>
+			<text>3年前、彼らは私のことを「最後の切り札」だと言って、頑なに本部から出そうとしなかった……。</text>
+			<text>私は何もできなかった、ただマーサが、あの何の経験もない子供たちが死んでいくのをただこの目に映すのみだった。</text>
+			<text>あんなのは「実戦テスト」でも何でもない。</text>
+			<text>あれはただ、造物主のように冷酷に、彼女たちが生きたまま崖から落ちていくのを見つめているようなものだ。</text>
+			<text>もう二度とあんなことがあってはいけない。</text>
+			<text>今回、私は徹底的に戦争マシンになりきる——</text>
+			<text>——どんな得体の知れないものに遭遇しようと、全て殺してやる。</text>
+			<text>……。</text>
+			<text>今回はこのマシンが——</text>
+			<text>「ライ麦畑のキャッチャー」になる。</text>
+			<goto change="#ffffff" goto="60" />
+		</scene>
+		<scene background="tankInside.jpg" id="60">
+			<bgm src="10_25_ada.mp3" status="stop" />
+			<sound src="04_20_brake.mp3" />
+			<show chara="teslaAngryGlassWinterClose-up" position="right" />
+			<shake position="all" time="250" />
+			<speak chara="teslaNoFace">わっ！どうして急ブレーキかけるのよ！</speak>
+			<show chara="weltAstonishNewGloveClose-up" position="right" />
+			<speak chara="weltNoFace">……どうしたんだ？</speak>
+			<show chara="weltAstonishNewGloveClose-up" opacity="0.7" position="right" />
+			<show chara="mbembaClose-up" position="left" />
+			<speak chara="mbembaNoFace">道路脇から……足を引きずった人が飛び出してきて……。</speak>
+			<goto change="#ffffff" goto="70" />
+		</scene>
+		<scene background="connecticutFarm.jpg" id="70">
+			<bgm src="street.mp3" status="start" />
+			<show chara="elaineStruggleFar" position="left" />
+			<speak chara="elaineNoNameNoFace">コネチカット川のハートフォードへようこそ！</speak>
+			<show chara="elaineHematemesisFar" position="left" />
+			<speak chara="elaineNoNameNoFace">ゴホッ——</speak>
+			<show chara="elaineHematemesisFar" opacity="0.7" position="left" />
+			<show chara="teslaShoutGlassWinterFar" position="right" />
+			<speak chara="teslaNoFace">あなた——大丈夫？</speak>
+			<show chara="teslaShoutGlassWinterFar" opacity="0.7" position="right" />
+			<show chara="elaineStruggleFar" position="left" />
+			<speak chara="elaineNoNameNoFace">だ、大丈夫よ。</speak>
+			<show chara="elaineHematemesisFar" position="left" />
+			<speak chara="elaineNoNameNoFace">ゴホッ——</speak>
+			<bgm src="street.mp3" status="stop" />
+			<hide position="left" />
+			<sound src="04_20_fell.mp3" />
+			<text>謎の女性は倒れてしまった。</text>
+			<bgm src="8_24_war.mp3" status="start" />
+			<show chara="teslaAstonishGlassWinterFar" position="right" />
+			<speak chara="teslaNoFace">ちょっと！しっかりしてよ！</speak>
+			<show chara="teslaAstonishGlassWinterFar" opacity="0.7" position="right" />
+			<show chara="einSeriousEmWinterFar" position="left" />
+			<speak chara="einNoFace">顔面蒼白……体温が低すぎる……。</speak>
+			<show chara="einSeriousAhWinterFar" position="left" />
+			<speak chara="einNoFace">……血圧が安定していない。急いで病院に運ばないと！</speak>
+			<show chara="einSeriousAhWinterFar" opacity="0.7" position="left" />
+			<show chara="reaNormalArmedFar" position="right" />
+			<speak chara="reannaNoNameNoFace">その必要はないわ。</speak>
+			<show chara="reaSmileArmedFar" position="right" />
+			<speak chara="reannaNoFace">私に任せて。</speak>
+			<show chara="reaSmileArmedFar" opacity="0.7" position="right" />
+			<show chara="weltAstonishNewFar" position="left" />
+			<speak chara="weltNoFace">リ、リアーナさん？</speak>
+			<show chara="weltAstonishNewFar" opacity="0.7" position="left" />
+			<show chara="reaLaughArmedFar" position="right" />
+			<speak chara="reannaNoFace">どうしたの？忘れちゃった？</speak>
+			<show chara="reaSmileArmedFar" position="right" />
+			<speak chara="reannaNoFace">「黒淵白花」——</speak>
+			<speak chara="reannaNoFace">——分解と創生を一体とした「神の鍵」よ！</speak>
+			<goto change="0" goto="80" />
+		</scene>
+		<scene background="CG20-1.jpg" id="80">
+			<bgm src="04_20_Brigantia.mp3" status="start" />
+			<speak chara="reannaNoFace">我こそは深淵より来たる黒。</speak>
+			<speak chara="reannaNoFace">我こそは雲より降りし白。</speak>
+			<speak chara="reannaNoFace">創生の前より誕生し、</speak>
+			<speak chara="reannaNoFace">隠滅の後に存在する。</speak>
+			<speak chara="reannaNoFace">命の水の泉から、</speak>
+			<speak chara="reannaNoFace" remark="next">価なしに飲ませよう。</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">『ヨハネの黙示録』（21:6）——彼はまた私に言った。「事は成就した。わたしはアルファであり、オメガである。初めであり、終わりである。渇いている者には、命の水の泉から価なしに飲ませよう。」</p>
+			</remark>
+			<speak chara="reannaNoFace">神の鍵・黒淵白花、第零定格出力——</speak>
+			<speak chara="reannaNoFace" remark="next">Heilige Lanze, die Welwitschie!</speak>
+			<remark post="U2FsdGVkX18O7USd7byF8+J6GxvE">
+				<p class="article-text-h">注：</p>
+				<p class="article-text">これはオットー主教の母語——ドイツ語。「Heilige Lanze」は「聖槍」、「Welwitschie」は「ウェルウィッチア」の意味。</p>
+				<p class="article-text">p.s. ウェルウィッチアは「ウェルウィッチア科」「ウェルウィッチア属」の唯一の品種である。またの名を「奇想天外」。1859年、オーストリアの探検家Friedrich Welwitschがアンゴラの砂漠で発見した。雌雄異株。茎は短く、一生で2枚の葉しか成長させない（左右対称。この2枚の葉は無限に成長する。その先端は徐々にひび割れて密集するので、見ただけでは元々2枚の葉であったとは分からない）。根は非常によく成長し、3メートルから10メートルになり、地下水を吸収する。平均寿命は数百年に達し、いくつかの個体は二千年以上も生きる。アンゴラの隣国ナミビアの国花である。</p>
+			</remark>
+			<goto change="#ffffff" goto="90" />
+		</scene>
+		<scene background="connecticutFarm.jpg" id="90">
+			<bgm src="10_20_PeerGynt.mp3" status="start" />
+			<show chara="elaineSmileFar" position="left" />
+			<speak chara="elaineNoNameNoFace">ちょっと、あなたたち、まさかどこかの医療チームの人？</speak>
+			<speak chara="elaineNoNameNoFace">Dr.モーガンだってこんなことできないわよ！</speak>
+			<show chara="elaineSmileFar" opacity="0.7" position="left" />
+			<show chara="reaHahArmedFar" position="right" />
+			<speak chara="reannaNoFace">いえ……私たちはたまたま便利な、そうね……「野戦用の医療キット」を持っていただけよ。</speak>
+			<show chara="reaHahArmedFar" opacity="0.7" position="right" />
+			<show chara="elaineSmileFar" position="left" />
+			<speak chara="elaineNoNameNoFace">わぁ、じゃあそれをDr.モーガンに見せてあげなきゃ！</speak>
+			<show chara="elaineNormalFar" position="left" />
+			<speak chara="elaineNoNameNoFace">あ、自己紹介するわね——エレイン・グラストン、退役レンジャーよ。</speak>
+			<show chara="elaineSmileFar" position="left" />
+			<speak chara="elaineNoFace" remark="next">「Rangers, Lead the Way!」——アハハハ、そう、あの「レンジャー」よ。</speak>
+			<remark>
+				<p class="article-text-h">注：</p>
+				<p class="article-text">「Rangers, Lead the Way!」（レンジャーが道を拓く！）はアメリカレンジャー（他の国の特殊部隊に相当）のモットー。</p>
+				<p class="article-text">1944年6月6日、ノルマンディーのオマハビーチでアメリカ軍が「ドッグホワイト」防御エリアに上陸した時、アメリカ第29歩兵師団副師団長ノーマン・コタ（Norman Cota）准将と第5レンジャー大隊の指揮官マックス・シュナイダー（Max Schneider）少佐が出会った。准将は「これはどこの部隊か？」（"What outfit is this?"）と尋ねた。少佐は「第5レンジャー大隊であります、准将！」（"5th Rangers, Sir!"）、准将はそこでこう言った。「よし、クソったれ。レンジャーなら道を拓け！」（"Well, goddamnit, if you're Rangers, lead the way!"）。</p>
+			</remark>
+			<speak chara="elaineNoFace">今、言ったDr.モーガン——ミカリ・モーガン——彼女は私の知り合いで、医者としての腕はなかなかなの。</speak>
+			<show chara="elaineNormalFar" position="left" />
+			<speak chara="elaineNoFace">それにあなたたちが「崩壊」と呼んでいるこの災害も個人的に研究しているのよ。</speak>
+			<show chara="elaineNormalFar" opacity="0.7" position="left" />
+			<show chara="reaSmileArmedFar" position="right" />
+			<speak chara="reannaNoFace">……個人的に研究？それはすごいわね。</speak>
+			<show chara="teslaErGlassWinterFar" position="right" />
+			<speak chara="teslaNoFace">ちょっと待って——エレイン……モーガン……まさか他にヴィヴィアンとかニミュエもいるんじゃないでしょうね？</speak>
+			<show chara="teslaErGlassWinterFar" opacity="0.7" position="right" />
+			<show chara="elaineSmileFar" position="left" />
+			<speak chara="elaineNoFace">……え？何それ？</speak>
+			<show chara="elaineSmileFar" opacity="0.7" position="left" />
+			<show chara="teslaErGlassWinterFar" position="right" />
+			<speak chara="teslaNoFace" remark="next">えっと……アーサー王？</speak>
+			<remark post="U2FsdGVkX18sNx6bP5ZCa35+JjZ3">
+				<p class="article-text-h">注：</p>
+				<p class="article-text">エレイン、モーガン、ヴィヴィアン、ニミュエは全てアーサー王伝説の登場人物。そのうちエレイン、ヴィヴィアン、ニミュエはいわゆる「湖の乙女」（Ladies of the Lake）の一員。モーガン（Morgan le Fay）はアーサー王の姉で、「邪悪な巫女」として有名。</p>
+				<p class="article-text">p.s. コネチカット州、ハートフォード市とアーサー王の関係は原題のタイムトラベル小説の開祖であるマーク・トウェインの名著『アーサー王宮廷のコネチカット・ヤンキー』（A Connecticut Yankee in King Arthur's Court）を参照。</p>
+			</remark>
+			<show chara="teslaErGlassWinterFar" opacity="0.7" position="right" />
+			<show chara="elaineStruggleFar" position="left" />
+			<speak chara="elaineNoFace">……アーサー王？ああ、小学校の時、先生に読まされたわね——</speak>
+			<show chara="elaineNormalFar" position="left" />
+			<speak chara="elaineNoFace">——って、待ってよ。あなたねえ、私は真面目に話をしてるの。……で、みなさんは政府の災害派遣で来たの？</speak>
+			<show chara="elaineNormalFar" opacity="0.7" position="left" />
+			<show chara="teslaSnickerGlassWinterFar" position="right" />
+			<speak chara="teslaNoFace">えっと……まあ、そんなところね。</speak>
+			<show chara="teslaSnickerGlassWinterFar" opacity="0.7" position="right" />
+			<show chara="elaineSmileFar" position="left" />
+			<speak chara="elaineNoFace">ならよかった。私たちのチームに何が欠けているか見てちょうだい——</speak>
+			<show chara="elaineStruggleFar" position="left" />
+			<speak chara="elaineNoFace">——見ての通り、こんなブローニングで怪獣と戦うのは、いかんせん無理があるからね。</speak>
+			<end post="U2FsdGVkX18lD14m4x7Hih5YT4tS" />
+		</scene>
+	</story>
+</data>
