@@ -29,8 +29,35 @@
       type="text/css"
     />
     <link href="/novels/ae/game.css" rel="stylesheet" type="text/css" />
-    <link rel="shortcut icon" href="favicon.ico" />
-    <title>Anti-Entropy</title>
+    <link
+    rel='apple-touch-icon'
+    sizes='180x180'
+    href='/apple-touch-icon.png'
+  />
+  <link
+    rel='icon'
+    type='image/png'
+    sizes='32x32'
+    href='/favicon-32x32.png'
+  />
+  <link
+    rel='icon'
+    type='image/png'
+    sizes='16x16'
+    href='/favicon-16x16.png'
+  />
+  <link rel='manifest' href='/site.webmanifest' />
+  <link rel='mask-icon' href='/safari-pinned-tab.svg' color='#5bbad5' />
+  <meta name='msapplication-TileColor' content='#2b5797' />
+  <meta name='theme-color' content='#ffffff'></meta>
+
+  <meta property='og:type' content='website' />
+  <meta
+    property='og:image'
+    content='https://www.abyss-lab.app/assets/honkai3rd/banner-bronya.png'
+  />
+
+    <title>네겐트로피 Beta - 어비스 랩</title>
   </head>
 
   <body onselectstart="return false">
@@ -68,6 +95,9 @@
           </div>
           <table class="grid_layout">
             <tr>
+              <td class="menu_btn_frame"></td>
+            </tr>
+            <tr>
               <td class="menu_btn_frame">
                 <div class="menu_btn menu_btn_1" onclick="startGame(0)"></div>
               </td>
@@ -78,11 +108,6 @@
                   class="menu_btn menu_btn_3"
                   onclick="catalogPageNew()"
                 ></div>
-              </td>
-            </tr>
-            <tr>
-              <td class="menu_btn_frame">
-                <div class="menu_btn menu_btn_4" onclick="portraitPage()"></div>
               </td>
             </tr>
             <tr>
@@ -296,9 +321,6 @@
       type="text/javascript"
       src="https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/js/xmlhttp.js?v=20210817"
     ></script>
-    <script
-      type="text/javascript"
-      src="https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/js/game.js?v=20210817"
-    ></script>
+    <script type="text/javascript" src="/novels/ae/game.js?v=20210817"></script>
   </body>
 </html>
