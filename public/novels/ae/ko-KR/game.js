@@ -20,7 +20,9 @@ var tl_css_lang = 'zh'
 uiImageList.push(
   'auto.png',
   'auto_1.png',
+  'cancel.png',
   'close.png',
+  'continue.png',
   'dialog.png',
   'dialogBig.png',
   'Label-L.png',
@@ -29,6 +31,8 @@ uiImageList.push(
   'left.png',
   'load.png',
   'log.png',
+  'quickload.png',
+  'quicksave.png',
   'remark.png',
   'right.png',
   'save.png',
@@ -55,14 +59,19 @@ $(function () {
   })
   check_size()
 
-  function play() {
-    var bgm = $('#indexbgm')[0]
-    if (!isNaN(bgm.duration)) bgm.currentTime = 0
-    bgm.play()
-    window.removeEventListener('click', play)
-  }
-
-  window.addEventListener('click', play)
+  var bgm = $('#indexbgm')[0]
+  if (!isNaN(bgm.duration)) bgm.currentTime = 0
+  bgm.play() //main bgm
+  // pv("gameStart_Menu");
+  // if (GetQueryString("from") == "wx") {
+  //     pv("gameStart_Menu_WX");
+  // } else if (GetQueryString("from") == "bh3") {
+  //     pv("gameStart_Menu_BH3");
+  // } else if (GetQueryString("from") == "ipz") {
+  //     pv("gameStart_Menu_IPZ");
+  // } else if (GetQueryString("from") == "cd") {
+  //     pv("gameStart_Menu_CD");
+  // }
 })
 
 window.onresize = function () {
@@ -1075,7 +1084,16 @@ var thanksWordsFlag = false
 
 function thanksWords() {
   thanksWordsFlag = true
-
+  // pv("gameEnd_Newest");
+  // if (GetQueryString("from") == "wx") {
+  //     pv("gameEnd_Newest_WX");
+  // } else if (GetQueryString("from") == "bh3") {
+  //     pv("gameEnd_Newest_BH3");
+  // } else if (GetQueryString("from") == "ipz") {
+  //     pv("gameEnd_Newest_IPZ");
+  // } else if (GetQueryString("from") == "cd") {
+  //     pv("gameEnd_Newest_CD");
+  // }
   $('#confirm_1')
     .html(`<div class="submit-center ${tl_css_lang}"></div>`)
     .css(
@@ -1334,8 +1352,8 @@ function systemAutoLoadStart(galgameKey) {
       .css('background', "url('/novels/ae/ko-KR/continue.webp') no-repeat")
       .css('background-size', 'auto 100%')
       .css('background-position', 'center')
-    $('.cancel').click(function (e) {
-      cancelAutoLoad(1)
+    $('.cancel').click({ k: galgameKey }, function (e) {
+      cancelAutoLoad(e.data.k)
     })
     $('#confirm').fadeIn()
   }
@@ -1344,7 +1362,7 @@ function systemAutoLoadStart(galgameKey) {
 function cancelAutoLoad(galgameKey) {
   $('.cancel').unbind()
   CloseConfirmDialog()
-  startGame(galgameKey, { S: 0, A: 0 })
+  startGame(1, { S: 0, A: 0 })
 }
 
 function checkAutoLoad() {
@@ -2578,3 +2596,343 @@ if (GetQueryString('auth_key')) {
       GetQueryString('sign')
   }
 }
+//achievement-------------------------------------------
+var ajax_answer_achievement = null
+
+function post_achievement(str_ach, callbackOne, callbackTwo) {
+  ajax_answer_achievement = null
+  $.ajax({
+    type: 'POST',
+    url: './utils/achievement.php' + achievementQueryString,
+    dataType: 'json',
+    data: {
+      achievement: str_ach,
+      chapter: now_galgame,
+      scene: now_scene,
+    },
+    success: function (result) {
+      ajax_answer_achievement = result
+      if (callbackOne) callbackOne()
+    },
+    error: function (XMLHttpRequest, textStatus, errorThrown) {
+      ajax_answer_achievement = null
+      if (callbackTwo) callbackTwo()
+    },
+  })
+}
+
+var achievement_result = null
+var achievement_list = new Array()
+var achievement_portraits = new Array()
+var award_result = null
+var award_pic_url = null
+var award_click_flag = false
+
+function portraitPage(typeReturn) {
+  startLoad()
+  if (!typeReturn) {
+    post_achievement(
+      'LOAD',
+      function () {
+        achievement_result = ajax_answer_achievement
+        portraitPage(10)
+      },
+      function () {
+        achievement_result = ajax_answer_achievement
+        portraitPage(10)
+      }
+    )
+    return
+  } else if (!achievement_result) {
+    LoadFinish()
+    alert(gameTips['link_error_tips'])
+    $('#family-portrait').fadeOut()
+    return
+  }
+  if (typeReturn < 50) {
+    post_achievement(
+      'GET_AWARD_JP',
+      function () {
+        award_result = ajax_answer_achievement
+        portraitPage(100)
+      },
+      function () {
+        award_result = ajax_answer_achievement
+        portraitPage(100)
+      }
+    )
+    return
+  }
+  if (award_result == null) {
+    LoadFinish()
+    alert(gameTips['link_error_tips'])
+    $('#family-portrait').fadeOut()
+    return
+  }
+  var retcode = achievement_result['retcode']
+  var retcode_award = award_result['retcode']
+  if (retcode_award > 0) {
+    award_pic_url =
+      "url('" + base_url + "/resources/achievement/haveSentAward.png')"
+    award_click_flag = false
+  } else if (retcode_award < -100) {
+    award_pic_url = ''
+    award_click_flag = false
+  } else {
+    award_pic_url =
+      "url('" + base_url + "/resources/achievement/clickSentAward.png')"
+    award_click_flag = true
+  }
+  if (retcode > 0) {
+    var achievement_progress =
+      parseInt(achievement_result['progress'] * 100) + '%'
+    var achievement_progress_rem =
+      achievement_result['progress'] * 28.55 + 'rem'
+    var achievement_progress_text =
+      achievement_result['progress'] * 28.55 + 1.3 + 0.5 + 'rem'
+    var achievement_progress_text_r = 1.3 + 0.5 + 'rem'
+    var achievement_progress_icon =
+      achievement_result['progress'] * 28.55 - 1.3 + 'rem'
+    achievement_list = achievement_result['achievement']
+    achievement_portraits = achievement_result['portrait']
+    //preload
+    var achievementImageList = new Array()
+    achievementImageList.push(
+      'portraitBg.jpg',
+      'sofaBack.png',
+      'sofaFrontLeft.png',
+      'sofaFrontRight.png',
+      'barBottom.png',
+      'barFrame.png',
+      'barIcon.png',
+      'barTop.png',
+      'choice.png',
+      'choice_b.png',
+      'details.png',
+      'exit.png',
+      'leftPage.png',
+      'listBG.jpg',
+      'remark.png',
+      'remark_b.png',
+      'rightPage.png',
+      'haveSentAward.png',
+      'clickSentAward.png'
+    )
+    for (var i = 0; i < achievement_portraits.length; i++) {
+      achievementImageList.push(achievement_portraits[i]['name'] + '.png')
+    }
+    achievementImageList.push('null_h.png')
+    for (var j = 0; j < achievement_list.length; j++) {
+      if (
+        $.inArray(
+          achievement_list[j]['image'] + '_h.png',
+          achievementImageList
+        ) < 0
+      ) {
+        achievementImageList.push(achievement_list[j]['image'] + '_h.png')
+      }
+    }
+    preLoadUiImages('achievement', achievementImageList)
+    //检测预加载图片是否加载完毕
+    var countIndexTimer = 0
+    var preLoadImagesTimer = setInterval(function () {
+      if (preLoadImagesCheck() > 0 || countIndexTimer > 1000) {
+        //图片预载完毕，或者超时
+        clearTimeout(preLoadImagesTimer)
+        $('#family-portrait').addClass('family-portrait')
+        $('#achievement-exhibition').addClass('achievement-exhibition')
+        $('.portrait-wrapper#portrait-frame').html('')
+        var pHtml = $('<div></div>')
+        pHtml.addClass('portrait-wrapper')
+        pHtml.css(
+          'background-image',
+          "url('" + base_url + "/resources/achievement/sofaBack.png')"
+        )
+        pHtml.css('z-index', '600')
+        $('.portrait-wrapper#portrait-frame').append(pHtml)
+        pHtml = $('<div id="sofaFrontLeft"></div>')
+        pHtml.addClass('portrait-wrapper')
+        pHtml.css(
+          'background-image',
+          "url('" + base_url + "/resources/achievement/sofaFrontLeft.png')"
+        )
+        pHtml.css('z-index', '700')
+        $('.portrait-wrapper#portrait-frame').append(pHtml)
+        pHtml = $('<div id="sofaFrontRight"></div>')
+        pHtml.addClass('portrait-wrapper')
+        pHtml.css(
+          'background-image',
+          "url('" + base_url + "/resources/achievement/sofaFrontRight.png')"
+        )
+        pHtml.css('z-index', '700')
+        $('.portrait-wrapper#portrait-frame').append(pHtml)
+
+        pHtml = $('<div id="awardTips"></div>')
+        pHtml.addClass('progress-award-text')
+        pHtml.css('background-image', award_pic_url)
+        if (award_click_flag) {
+          pHtml.click(function () {
+            $('.progress-award-text#awardTips').unbind()
+            portraitPage(10)
+          })
+        }
+        $('.progress-box').append(pHtml)
+
+        for (var i = 0; i < achievement_portraits.length; i++) {
+          pHtml = $('<div></div>')
+          pHtml.addClass('portrait-wrapper')
+          pHtml.css(
+            'background-image',
+            "url('" +
+              base_url +
+              '/resources/achievement/' +
+              achievement_portraits[i]['name'] +
+              ".png')"
+          )
+          pHtml.css('z-index', achievement_portraits[i]['index'])
+          $('.portrait-wrapper#portrait-frame').append(pHtml)
+          if (achievement_portraits[i]['name'] == 'welt') {
+            $('.portrait-wrapper#sofaFrontLeft').fadeOut()
+          }
+          if (achievement_portraits[i]['name'] == 'otto') {
+            $('.portrait-wrapper#sofaFrontRight').fadeOut()
+          }
+        }
+        $('.progress-span').css('width', achievement_progress_rem)
+        $('.progress-icon').css('left', achievement_progress_icon)
+        if (achievement_result['progress'] <= 0.8) {
+          $('.progress-text').css('left', achievement_progress_text)
+        } else {
+          $('.progress-text').css('right', achievement_progress_text_r)
+          $('.progress-text').css('color', '#5b4c51')
+        }
+        $('.progress-text').html(achievement_progress)
+        $('.family-portrait').fadeIn()
+        LoadFinish()
+        return
+      }
+      countIndexTimer++
+    }, 100)
+  } else {
+    LoadFinish()
+    alert(gameTips['check_error_tips'])
+    $('#family-portrait').fadeOut()
+    return
+  }
+}
+
+var exhibition_index = 10010
+var exhibition_last = 10010
+var exhibition_list = null
+
+function exhibitionPage(page) {
+  startLoad()
+  if (page) {
+    exhibition_index = Number(page)
+  }
+  var xmlDoc = loadExistXmlFile('exhibition_list', function () {
+    exhibition_list =
+      xml_files_all_in_this['exhibition_list'].getElementsByTagName('log')
+    exhibitionPage(page)
+  })
+  if (!xmlDoc) return
+  exhibition_last = Number(
+    exhibition_list[exhibition_list.length - 1].getAttribute('id')
+  )
+  $('.pagenum#pagenum-5').removeClass('pagenum-gray')
+  if (exhibition_index == 10010) {
+    $('.pagenum#pagenum-5').addClass('pagenum-gray')
+  }
+  $('.pagenum#pagenum-6').removeClass('pagenum-gray')
+  if (exhibition_index + 10 > exhibition_last) {
+    $('.pagenum#pagenum-6').addClass('pagenum-gray')
+  }
+  var pHtml = $('<p></p>')
+  pHtml.html('Chapter ' + (exhibition_index / 10 - 1000))
+  pHtml.addClass('achievement-chapter-text')
+  $('.achievement-chapter').html(pHtml)
+  $('.achievement-list').html('')
+  for (var i = 0; i < exhibition_list.length; i++) {
+    var listId = Number(exhibition_list[i].getAttribute('id'))
+    if (listId >= exhibition_index && listId < exhibition_index + 10) {
+      var pHtml = $('<li></li>')
+      var pHtml_box = $('<div></div>')
+      var pHtml_pic = $('<div></div>')
+      var pHtml_tip = $('<div></div>')
+      var pHtml_tit = $('<p></p>')
+      var pHtml_txt = $('<p></p>')
+      pHtml_tit.html(exhibition_list[i].textContent)
+      for (var j = 0; j < achievement_list.length; j++) {
+        if (Number(achievement_list[j]['achievement']) == listId) {
+          pHtml_txt.html(achievement_list[j]['text'])
+          pHtml_pic.css(
+            'background-image',
+            "url('" +
+              base_url +
+              '/resources/achievement/' +
+              achievement_list[j]['image'] +
+              "_h.png')"
+          )
+          if (exhibition_list[i].getAttribute('type') != 'end') {
+            pHtml_tip.css(
+              'background-image',
+              "url('" +
+                base_url +
+                '/resources/achievement/' +
+                exhibition_list[i].getAttribute('type') +
+                "_b.png')"
+            )
+          }
+          break
+        }
+      }
+      pHtml_pic.addClass('exhibition-member-image')
+      pHtml_tit.addClass('exhibition-member-title')
+      pHtml_tip.addClass('exhibition-member-tips')
+      pHtml_txt.addClass('exhibition-member-text')
+      if (j >= achievement_list.length) {
+        pHtml_txt.html('？？？？？？？？？？？？？？？？？？？？')
+        pHtml_txt.css('color', '#cccccc')
+        pHtml_pic.css(
+          'background-image',
+          "url('" + base_url + "/resources/achievement/null_h.png')"
+        )
+        if (exhibition_list[i].getAttribute('type') != 'end') {
+          pHtml_tip.css(
+            'background-image',
+            "url('" +
+              base_url +
+              '/resources/achievement/' +
+              exhibition_list[i].getAttribute('type') +
+              ".png')"
+          )
+        }
+      }
+      pHtml_box
+        .append(pHtml_pic)
+        .append(pHtml_tip)
+        .append(pHtml_tit)
+        .append(pHtml_txt)
+      pHtml_box.addClass('exhibition-member')
+      pHtml.append(pHtml_box)
+      pHtml.addClass('achievement-list-member')
+      $('.achievement-list').append(pHtml)
+    }
+  }
+  $('.achievement-exhibition').fadeIn()
+  LoadFinish()
+}
+
+$('.pagenum#pagenum-5').click(function () {
+  if (exhibition_index > 10010) {
+    exhibition_index -= 10
+    exhibitionPage()
+  }
+})
+
+$('.pagenum#pagenum-6').click(function () {
+  if (exhibition_index + 10 <= exhibition_last) {
+    exhibition_index += 10
+    exhibitionPage()
+  }
+})
