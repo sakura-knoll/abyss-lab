@@ -53,6 +53,26 @@ module.exports = {
         destination: '/honkai3rd/battlesuits/rc',
         permanent: true,
       },
+      {
+        source: '/novels/ae/index.html',
+        destination: '/honkai3rd/novels/ae',
+        permanent: false,
+      },
+    ]
+  },
+  async rewrites() {
+    return [
+      {
+        source: '/honkai3rd/novels/ae',
+        destination:
+          process.env.NEXT_PUBLIC_BASE_URL + '/novels/ae/ko-KR/index.html',
+      },
+      {
+        source: '/ko-KR/honkai3rd/novels/ae',
+        destination:
+          process.env.NEXT_PUBLIC_BASE_URL + '/novels/ae/ko-KR/index.html',
+        locale: false,
+      },
     ]
   },
   i18n,

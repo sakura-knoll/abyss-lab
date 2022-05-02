@@ -1331,7 +1331,7 @@ function systemAutoLoadStart(galgameKey) {
       .html(
         `<div class="cancel ${tl_css_lang}"></div><div class="submit ${tl_css_lang}" onclick="systemAutoLoad()"></div>`
       )
-      .css('background', "url('/novels/ae/continue.webp') no-repeat")
+      .css('background', "url('/novels/ae/ko-KR/continue.webp') no-repeat")
       .css('background-size', 'auto 100%')
       .css('background-position', 'center')
     $('.cancel').click(function (e) {
@@ -1694,7 +1694,7 @@ function add_record() {
   )
   $('#confirm_1').css(
     'background',
-    "url('/novels/ae/quicksave.webp') no-repeat"
+    "url('/novels/ae/ko-KR/quicksave.webp') no-repeat"
   )
   $('#confirm_1').css('background-size', 'auto 100%')
   $('#confirm_1').css('background-position', 'center')
@@ -1708,7 +1708,7 @@ function get_record() {
   )
   $('#confirm_1').css(
     'background',
-    "url('/novels/ae/quickload.webp') no-repeat"
+    "url('/novels/ae/ko-KR/quickload.webp') no-repeat"
   )
   $('#confirm_1').css('background-size', 'auto 100%')
   $('#confirm_1').css('background-position', 'center')
