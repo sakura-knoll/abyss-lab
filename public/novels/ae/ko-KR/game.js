@@ -59,9 +59,16 @@ $(function () {
   })
   check_size()
 
-  var bgm = $('#indexbgm')[0]
-  if (!isNaN(bgm.duration)) bgm.currentTime = 0
-  bgm.play() //main bgm
+  function play() {
+    var bgm = $('#indexbgm')[0]
+    if (!isNaN(bgm.duration)) bgm.currentTime = 0
+
+    bgm.play() //main bgm
+
+    window.removeEventListener('click', play)
+  }
+
+  window.addEventListener('click', play)
   // pv("gameStart_Menu");
   // if (GetQueryString("from") == "wx") {
   //     pv("gameStart_Menu_WX");
