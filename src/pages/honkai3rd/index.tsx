@@ -76,6 +76,7 @@ const Honkai3rdIndexPage = () => {
           <NavItem target='stigmata' />
           <NavItem target='elfs' />
           <NavItem target='elysian-realm' />
+          <NavItem target='media' />
         </Box>
 
         <Box>
@@ -114,6 +115,7 @@ interface NavItemProps {
     | 'weapons'
     | 'elfs'
     | 'elysian-realm'
+    | 'media'
 }
 
 const NavItem = ({ target }: NavItemProps) => {
@@ -123,11 +125,7 @@ const NavItem = ({ target }: NavItemProps) => {
       <PageLink href={`/honkai3rd/${target}`}>
         <Box sx={{ display: 'inline-block' }}>
           <Flex sx={{ alignItems: 'center' }}>
-            <SquareImageBox
-              size={40}
-              mr={1}
-              src={`${assetsBucketBaseUrl}/honkai3rd/nav-icons/${target}.png`}
-            />
+            <SquareImageBox size={40} mr={1} src={getIconByTarget(target)} />
             <Text sx={{ fontSize: 3 }}>{t(`common.${target}`)}</Text>
           </Flex>
         </Box>
@@ -162,4 +160,15 @@ const BannerItem = ({ valkyrie, active }: BannerItemProps) => {
       />
     </Box>
   )
+}
+
+function getIconByTarget(target: string) {
+  switch (target) {
+    case 'versions':
+      return `${assetsBucketBaseUrl}/honkai3rd/nav-icons/versions.webp`
+    case 'media':
+      return `${assetsBucketBaseUrl}/honkai3rd/nav-icons/grand-instructor.webp`
+    default:
+      return `${assetsBucketBaseUrl}/honkai3rd/nav-icons/${target}.png`
+  }
 }
