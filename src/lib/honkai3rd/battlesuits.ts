@@ -265,13 +265,23 @@ export const valkyries = [
     krLabel: '캐롤',
   },
   {
-    value: 'asuka',
-    label: 'Asuka',
-    krLabel: '아스카',
-  },
-  {
     value: 'pardofelis',
     label: 'Pardofelis',
     krLabel: '파르도 필리스',
+  },
+  {
+    value: 'aponia',
+    label: 'Aponia',
+    krLabel: '아포니아',
+  },
+  {
+    value: 'eden',
+    label: 'Eden',
+    krLabel: '에덴',
+  },
+  {
+    value: 'asuka',
+    label: 'Asuka',
+    krLabel: '아스카',
   },
 ]

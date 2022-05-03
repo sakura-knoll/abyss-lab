@@ -129,6 +129,7 @@ function isWeaponHidden(weapon: WeaponListItemData, filter: string): boolean {
     case 'scythe':
     case 'lance':
     case 'bow':
+    case 'chakram':
       return weapon.category !== filter
     default:
     case 'all':

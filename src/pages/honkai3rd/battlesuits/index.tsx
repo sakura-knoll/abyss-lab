@@ -230,6 +230,9 @@ function isBattlesuitHidden(
     case 'raven':
     case 'carole':
     case 'asuka':
+    case 'pardofelis':
+    case 'aponia':
+    case 'eden':
       return battlesuit.valkyrie !== filter
     default:
     case 'all':
