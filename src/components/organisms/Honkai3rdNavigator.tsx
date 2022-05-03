@@ -59,6 +59,7 @@ const Honkai3rdNavigator = ({ close }: Honkai3rdNavigatorProps) => {
         <NavItem target='stigmata' />
         <NavItem target='elfs' />
         <NavItem target='elysian-realm' />
+        <NavItem target='media' />
       </Box>
 
       <NextLink
@@ -96,6 +97,7 @@ interface NavItemProps {
     | 'weapons'
     | 'elfs'
     | 'elysian-realm'
+    | 'media'
 }
 
 const NavItem = ({ target }: NavItemProps) => {
@@ -111,11 +113,7 @@ const NavItem = ({ target }: NavItemProps) => {
           p: 1,
         }}
       >
-        <SquareImageBox
-          size={30}
-          mr={1}
-          src={`${assetsBucketBaseUrl}/honkai3rd/nav-icons/${target}.png`}
-        />
+        <SquareImageBox size={30} mr={1} src={getIconByTarget(target)} />
         <Text
           sx={{
             overflow: 'hidden',
@@ -128,4 +126,15 @@ const NavItem = ({ target }: NavItemProps) => {
       </NavLink>
     </NextLink>
   )
+}
+
+function getIconByTarget(target: string) {
+  switch (target) {
+    case 'versions':
+      return `${assetsBucketBaseUrl}/honkai3rd/nav-icons/versions.webp`
+    case 'media':
+      return `${assetsBucketBaseUrl}/honkai3rd/nav-icons/grand-instructor.webp`
+    default:
+      return `${assetsBucketBaseUrl}/honkai3rd/nav-icons/${target}.png`
+  }
 }
