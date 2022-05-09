@@ -63,15 +63,15 @@ module.exports = {
   async rewrites() {
     return [
       {
-        source: '/honkai3rd/novels/ae',
-        destination:
-          process.env.NEXT_PUBLIC_BASE_URL + '/novels/ae/en-US/index.html',
-      },
-      {
         source: '/ko-KR/honkai3rd/novels/ae',
         destination:
           process.env.NEXT_PUBLIC_BASE_URL + '/novels/ae/ko-KR/index.html',
         locale: false,
+      },
+      {
+        source: '/honkai3rd/novels/ae',
+        destination:
+          process.env.NEXT_PUBLIC_BASE_URL + '/novels/ae/en-US/index.html',
       },
       {
         source: '/ko-KR/honkai3rd/novels/duriduri',
