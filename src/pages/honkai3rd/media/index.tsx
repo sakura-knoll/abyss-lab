@@ -52,9 +52,7 @@ const MediaPage = () => {
           </Box>
         </Box>
 
-        <Paragraph>
-          Other novels and English verions will be available one day.
-        </Paragraph>
+        <Paragraph>Other novels will be available one day.</Paragraph>
       </Box>
     </Honkai3rdLayout>
   )
