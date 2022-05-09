@@ -1,0 +1,1316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="chileIceMountain.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <text remark="next">“High in the North in a land called Svithjod there is a mountain.”</text>
+            <text remark="next">“It is a hundred miles long and a hundred miles high”</text>
+            <text remark="next">“And once every thousand years a little bird comes to this mountain to sharpen its beak.”</text>
+            <text remark="next">“When the mountain has thus been torn away, a single day of eternity will have passed.”</text>
+            <remark post="U2FsdGVkX1+IG6e9RXnWjaMPClT3">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">以上文字引自房龙（Hendrik Willem van Loon）的作品《人类的故事》（The Story of Mankind）。原文如下：</p>
+                <br />
+                <p class="article-text">High in the North in a land called Svithjod there is a mountain.</p>
+                <p class="article-text">It is a hundred miles long and a hundred miles high</p>
+                <p class="article-text">and once every thousand years a little bird comes to this mountain to sharpen its beak.</p>
+                <p class="article-text">When the mountain has thus been worn away a single day of eternity will have passed.</p>
+                <br />
+                <p class="article-text">p.s. “Svithjod”是“瑞典”的一个古称，带有古诺斯语的色彩。</p>
+            </remark>
+            <text>The hero is gone. The wound gradually healed.</text>
+            <text>The everyday life has returned, just like how the eternal stars rise from east to west day after day.</text>
+            <text>Ten years have passed in the Bubble Universe’s time.</text>
+            <goto goto="20" change="#ffffff"/>
+        </scene>
+        <scene id="20" background="alexandriaPalace.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="0curtain" position="back"/>
+            <show chara="DogeNormal" position="left"/>
+            <speak chara="_CervantesVenice">Well? Antonio’s here, is he?</speak>
+            <show chara="DogeNormal" position="left" opacity="0.8"/>
+            <show chara="AntonioNormal" position="right"/>
+            <speak chara="_ThalesVenice">Ready, at your pleasure, Your Grace.</speak>
+            <show chara="AntonioNormal" position="right" opacity="0.8"/>
+            <show chara="DogeSad" position="left"/>
+            <speak chara="_CervantesVenice">I am sorry for you.</speak>
+            <show chara="DogeSad" position="left"/>
+            <speak chara="_CervantesVenice">You have come to answer a stony adversary, an inhuman wretch, incapable of pity and devoid of even a drop of mercy.</speak>
+            <show chara="DogeSad" position="left" opacity="0.8"/>
+            <show chara="AntonioHelpless" position="right"/>
+            <speak chara="_ThalesVenice">I’ve been told Your Grace has taken great pains to dissuade him from his course. But as he’s determined, and as the law can’t help me avoid his revenge, then…</speak>
+            <show chara="AntonioShout" position="right"/>
+            <speak chara="_ThalesVenice">...The saying fits well, one should die in silence! I...</speak>
+            <show chara="AntonioDismay" position="right"/>
+            <speak chara="_ThalesVenice">I...</speak>
+            <show chara="AntonioHelpless" position="right"/>
+            <speak chara="_ThalesVenice">I feel ashamed. I have never had the guts to do anything extraordinary, so today I have to quietly welcome my tragic fate.</speak>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="stageHuacaCloseUp.jpg">
+            <bgm src="10_10_kalinka.mp3" status="start"></bgm>
+            <show chara="BassanioShock" position="left"/>
+            <speak chara="_BiankaVeniceNoName">...What?</speak>
+            <show chara="BassanioDissatisfied" position="left"/>
+            <speak chara="_BiankaVeniceNoName">That… What Thales said wasn’t in the script at all, was it, Captain?</speak>
+            <show chara="BassanioDissatisfied" position="left" opacity="0.8"/>
+            <show chara="ShylockLaugh" position="right"/>
+            <speak chara="_ShakespeareVeniceNoName">Hahahaha, does that matter?</speak>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceNoName">It is very common for actors to forget their lines. As long as they continue to speak according to the situation, the story will continue to develop normally.</speak>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceNoName">And I will correct you. In here I am the “Director of the Theater”, not the “Captain”. As the orientals say, “If the name is not right, the words won’t flow well”.</speak>
+            <show chara="ShylockSmile" position="right" opacity="0.8"/>
+            <show chara="BassanioPrudish" position="left"/>
+            <speak chara="_BiankaVeniceNoName">...Ah, sorry. I’m just used to it.</speak>
+            <show chara="BassanioPrudish" position="left" opacity="0.8"/>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceNoName">Haha, you don’t have to get so cautious all of a sudden.</speak>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceNoName">It’s not bad to be humble, but I prefer the you who was more easygoing.</speak>
+            <show chara="ShylockSmile" position="right" opacity="0.8"/>
+            <show chara="BassanioHelpless" position="left"/>
+            <speak chara="_BiankaVeniceNoName">...Huh, Rita sometimes says the same thing.</speak>
+            <show chara="BassanioSmile" position="left"/>
+            <speak chara="_BiankaVeniceNoName">However, this is the so-called “growth”, right? I experienced, lost and gained many things--</speak>
+            <show chara="BassanioConfident" position="left"/>
+            <speak chara="_BiankaVeniceNoName">In the end, it may be very different from the past; But I know, from the depths of my heart, I managed to protect the treasure I cherish the most in this world:</speak>
+            <show chara="BassanioSmile" position="left"/>
+            <speak chara="_BiankaVeniceNoName">My true self.</speak>
+            <show chara="BassanioSmile" position="left" opacity="0.8"/>
+            <show chara="ShylockPleased" position="right"/>
+            <speak chara="_ShakespeareVeniceNoName">...You have really grown up, Bianka.</speak>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceNoName">Although on your side, the flow of time is much slower; Compared to the decade that has passed here...</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="SolanioSmile" position="center"/>
+            <speak chara="_ManfredVeniceNoName">Director of the Theater, it’s your scene next!</speak>
+            <hide position="center"></hide>
+            <show chara="ShylockSmile" position="left"/>
+            <speak chara="_ShakespeareVeniceNoName">Oops, it’s my turn to play. Bianka, can you match your lines with mine?</speak>
+            <show chara="ShylockSmile" position="left" opacity="0.8"/>
+            <show chara="BassanioSmile" position="right"/>
+            <speak chara="_BiankaVeniceNoName">Of course.</speak>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="alexandriaPalace.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="0curtain" position="back"/>
+            <show chara="DogeSerious" position="left"/>
+            <speak chara="_CervantesVenice">Shylock, come forward! We are all waiting for you to change your mind and give up cutting that pound of meat from this unfortunate businessman.</speak>
+            <show chara="DogeSerious" position="left" opacity="0.8"/>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">I’ve told Your Grace what my intentions are.</speak>
+            <speak chara="_ShakespeareVeniceFather">I’ve sworn by our holy Sabbath to get the full penalty for failure to pay the debt.</speak>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">If you deny it you will be undermining your city’s constitution and the rule of law.</speak>
+            <show chara="ShylockLaugh" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">You’ll ask me why I’d rather have a measure of dead flesh than receive three thousand ducats--</speak>
+            <show chara="ShylockProvocative" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">--Just say I feel like it. Is that good enough?</speak>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">What if my house were plagued by a rat and it suited me to pay ten thousand ducats to have it poisoned? Isn’t that my freedom?</speak>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">There are some men who don’t like the sight of a gaping pig’s head: some who go mad if they see a cat: and others who can’t help wetting themselves when they hear the nasal whine of the bagpipes.</speak>
+            <show chara="ShylockProvocative" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">That’s because our likes and dislikes govern our emotions. No one is their own master.</speak>
+            <show chara="ShylockHelplessSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">When one’s own likes and dislikes are stimulated, they don’t need a reason, everyone can’t help but show their ugly side.</speak>
+            <show chara="ShylockHelplessSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">And for me, it is a solid hatred and a loathing that I have for Antonio that makes me pursue this money-losing case against him!</speak>
+            <show chara="ShylockProvocative" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">——Have you got your answer?</speak>
+            <show chara="ShylockProvocative" position="right" opacity="0.8"/>
+            <show chara="BassanioScold" position="left"/>
+            <speak chara="_BiankaVenice">You callous man!</speak>
+            <show chara="BassanioTeeth" position="left"/>
+            <speak chara="_BiankaVenice">This is no excuse for your cruelty!</speak>
+            <show chara="BassanioTeeth" position="left" opacity="0.8"/>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">I don’t have to please you with my answers!</speak>
+            <show chara="ShylockSmile" position="right" opacity="0.8"/>
+            <show chara="BassanioTeeth" position="left"/>
+            <speak chara="_BiankaVenice">You are crazy!</speak>
+            <show chara="BassanioScold" position="left"/>
+            <speak chara="_BiankaVenice">Do all men kill the things they dislike?</speak>
+            <show chara="BassanioScold" position="left" opacity="0.8"/>
+            <show chara="ShylockProvocative" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">Wouldn’t every man just love to kill the things he doesn’t like?</speak>
+            <show chara="ShylockProvocative" position="right" opacity="0.8"/>
+            <show chara="BassanioFindOthersUnreasonable" position="left"/>
+            <speak chara="_BiankaVenice">Every offence causes hatred in the first place? How could that be true?</speak>
+            <show chara="BassanioFindOthersUnreasonable" position="left" opacity="0.8"/>
+            <show chara="ShylockFalseShock" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">What? Would you allow a serpent to sting you twice?</speak>
+            <show chara="AntonioHelpless" position="right"/>
+            <speak chara="_ThalesVenice">Please, don’t forget, you’re arguing with the Jew. You may as well stand on the beach and tell the sea not to reach its usual high point.</speak>
+            <show chara="AntonioDismay" position="right"/>
+            <speak chara="_ThalesVenice">You may as well ask the wolf why he has made the ewe bleat in bereavement of its lamb.</speak>
+            <show chara="AntonioHelpless" position="right"/>
+            <speak chara="_ThalesVenice">You may as well forbid the mountain pines to sway or make a noise in the buffeting winds.</speak>
+            <show chara="AntonioDisheartened" position="right"/>
+            <speak chara="_ThalesVenice">So, my friend, I beg you not to try anything else or use any further means——</speak>
+            <speak chara="_ThalesVenice">But let me have the judgment and the Jew his will as soon as possible.</speak>
+            <show chara="AntonioDisheartened" position="right" opacity="0.8"/>
+            <show chara="BassanioShock" position="left"/>
+            <speak chara="_BiankaVenice">You- How can you give yourself up like this?!</speak>
+            <show chara="BassanioHelpless" position="left"/>
+            <speak chara="_BiankaVenice">To the old man over there: If he borrowed three thousand ducats, I will return you six thousand.</speak>
+            <show chara="BassanioHelpless" position="left" opacity="0.8"/>
+            <show chara="ShylockFalseShock" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">I just said so much, did you not listen?!</speak>
+            <show chara="ShylockNormal" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">Listen well, brat. If every ducat in that six thousand were multiplied by six——</speak>
+            <show chara="ShylockCold" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">——I would not take the money. I want the punishment done as per the contract.</speak>
+            <show chara="ShylockCold" position="right" opacity="0.8"/>
+            <show chara="DogeSad" position="left"/>
+            <speak chara="_CervantesVenice">You… how can you hope for mercy, not giving any yourself?</speak>
+            <show chara="DogeSad" position="left" opacity="0.8"/>
+            <show chara="ShylockFalseShock" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">What do you mean, Your Grace? What judgment should I fear, not having done anything wrong?</speak>
+            <show chara="ShylockNormal" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">Between you, many have bought slaves which, treating them like beasts, you use for dirty and difficult jobs.</speak>
+            <show chara="ShylockProvocative" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">If I were to say: “Free them – marry them to your children, why care about the money spent?</speak>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">Give them beds as soft as yours and good food like your own”——</speak>
+            <speak chara="_ShakespeareVeniceFather">——Where would your compassion be then?</speak>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">You would answer: “The slaves are our property.”——</speak>
+            <speak chara="_ShakespeareVeniceFather">And that’s how I’m answering you. The pound of flesh that I demanded of him was expensive. It’s mine and I’m going to have it!</speak>
+            <show chara="ShylockLaugh" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">If you deny me then shame on your law! It will mean that the laws of Venice are only a piece of paper for decoration!</speak>
+            <show chara="ShylockLaugh" position="right" opacity="0.8"/>
+            <show chara="DogeAngry" position="left"/>
+            <speak chara="_CervantesVenice">How rude!</speak>
+            <show chara="DogeAngry" position="left" opacity="0.8"/>
+            <show chara="ShylockProvocative" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">I am waiting for the verdict, Your Grace. Answer me quickly: Will I have it?</speak>
+            <show chara="ShylockProvocative" position="right" opacity="0.8"/>
+            <show chara="DogeHelpless" position="left"/>
+            <speak chara="_CervantesVenice">...I have sent someone to ask for Don Quixote, a learned lawyer, to resolve this case.</speak>
+            <show chara="DogeHelpless" position="left"/>
+            <speak chara="_CervantesVenice">If he does not come today, according to the power invested in me by the state, I’m able to postpone the trial.</speak>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="stageHuacaCloseUp.jpg">
+            <bgm src="10_10_kalinka.mp3" status="start"></bgm>
+            <show chara="BassanioShock" position="left"/>
+            <speak chara="_BiankaVeniceSelf">Wait, wait, wait.</speak>
+            <show chara="BassanioDissatisfied" position="left"/>
+            <speak chara="_BiankaVeniceSelf">The name of this “Doctor” appeared once before, you can’t change it so casually, right?</speak>
+            <show chara="BassanioDissatisfied" position="left" opacity="0.8"/>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">Well, Bianka is right on this one. The details can be left to the actors, but the structure cannot be changed at will.</speak>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">“Bellario” is the cousin of the heroine, “Portia”, which is explained in the third act named “Portia”.</speak>
+            <show chara="ShylockSmile" position="right" opacity="0.8"/>
+            <show chara="DogeHelpless" position="left"/>
+            <speak chara="_CervantesVeniceSelf">Well… I’m getting old, and my head doesn’t work as well as it used to.</speak>
+            <show chara="DogeSmile" position="left"/>
+            <speak chara="_CervantesVeniceSelf">I couldn’t remember the name of the doctor just now, so I had to put “Don Quixote” in it.</speak>
+            <show chara="DogeSmile" position="left" opacity="0.8"/>
+            <show chara="ShylockLaugh" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">Hahaha, then how about this?</speak>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">We give a line to Bassanio, let him add the name of the Doctor.</speak>
+            <show chara="ShylockSmile" position="right" opacity="0.8"/>
+            <show chara="BassanioShock" position="left"/>
+            <speak chara="_BiankaVeniceSelf">I have to remind him?</speak>
+            <show chara="BassanioShock" position="left" opacity="0.8"/>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">Yeah. The governor dragged his tone and did not say the name, “I have sent someone to ask for…”</speak>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">You immediately add “Doctor Bellario, Your Grace.”</speak>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">Then the governor can go on, “Yes, yes… Doctor Bellario, a learned lawyer, to solve this case.”</speak>
+            <show chara="ShylockConfident" position="right" opacity="0.8"/>
+            <show chara="DogeSmile" position="left"/>
+            <speak chara="_CervantesVeniceSelf">Oh, that’s a good idea!</speak>
+            <show chara="DogeSmile" position="left" opacity="0.8"/>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">Then, let's continue?</speak>
+            <goto goto="60" change="#ffffff"/>
+        </scene>
+        <scene id="60" background="alexandriaPalace.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="0curtain" position="back"/>
+            <show chara="DogeHelpless" position="left"/>
+            <speak chara="_CervantesVenice">*Cough* I have sent someone to ask for… uh...</speak>
+            <show chara="DogeHelpless" position="left" opacity="0.8"/>
+            <show chara="BassanioHelpless" position="right"/>
+            <speak chara="_BiankaVenice">Doctor Bellario, Your Grace.</speak>
+            <show chara="BassanioHelpless" position="right" opacity="0.8"/>
+            <show chara="DogeSmile" position="left"/>
+            <speak chara="_CervantesVenice">Yes, yes… Doctor Bellario, a learned lawyer, to solve this case.</speak>
+            <show chara="DogeHelpless" position="left"/>
+            <speak chara="_CervantesVenice">If he does not come today, according to the power invested in me by the state, I’m able to postpone the trial.</speak>
+            <show chara="DogeHelpless" position="left" opacity="0.8"/>
+            <show chara="SolanioNormal" position="right"/>
+            <speak chara="_ManfredVenice">Your Grace the Governor.</speak>
+            <show chara="SolanioNormal" position="right" opacity="0.8"/>
+            <show chara="DogeNormal" position="left"/>
+            <speak chara="_CervantesVenice">What is it?</speak>
+            <show chara="DogeNormal" position="left" opacity="0.8"/>
+            <show chara="SolanioNormal" position="right"/>
+            <speak chara="_ManfredVenice">There’s a messenger waiting outside, just arrived from Padua with letters from Doctor Bellario.</speak>
+            <show chara="SolanioNormal" position="right" opacity="0.8"/>
+            <show chara="DogeSerious" position="left"/>
+            <speak chara="_CervantesVenice">Just in time. Bring me the letters and call the messenger in.</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="BassanioConfident" position="left"/>
+            <speak chara="_BiankaVenice">Be happy, Antonio.</speak>
+            <show chara="BassanioInspireOthers" position="left"/>
+            <speak chara="_BiankaVenice">Come on man, be brave.</speak>
+            <show chara="BassanioTeeth" position="left"/>
+            <speak chara="_BiankaVenice">This barbarian will have my flesh, blood, bones and all before you’ll lose one drop of blood for my sake.</speak>
+            <show chara="BassanioTeeth" position="left" opacity="0.8"/>
+            <show chara="AntonioDismay" position="right"/>
+            <speak chara="_ThalesVenice">I am the runt of the flock and the most vulnerable, it is my destiny to be slaughtered.</speak>
+            <speak chara="_ThalesVenice">The weakest fruit drops earliest to the ground, and so will I. Let me end my life of misfortune this way.</speak>
+            <show chara="AntonioDisheartened" position="right"/>
+            <speak chara="_ThalesVenice">The best thing you can do, Bassanio, is stay alive and write my epitaph.</speak>
+            <show chara="AntonioDisheartened" position="right" opacity="0.8"/>
+            <show chara="BassanioFindOthersUnreasonable" position="left"/>
+            <speak chara="_BiankaVenice">Hey, stop saying these self-defeating things! Look, the messenger has already come.</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="NerissaSmile" position="right"/>
+            <speak chara="_AliceVeniceM">I greet Your Grace the Governor.</speak>
+            <show chara="NerissaSmile" position="right" opacity="0.8"/>
+            <show chara="DogeSmile" position="left"/>
+            <speak chara="_CervantesVenice">Have you come from Padua, from that doctor?</speak>
+            <show chara="DogeSmile" position="left" opacity="0.8"/>
+            <show chara="NerissaSmile" position="right"/>
+            <speak chara="_AliceVeniceM">From both, my lord. Bellario sends his compliments to Your Grace.</speak>
+            <show chara="NerissaSmile" position="right"/>
+            <speak chara="_AliceVeniceM">This is his handwritten letter, please read it.</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <speak chara="_NarrationVenice">Shink-- Shink--</speak>
+            <speak chara="_NarrationVenice">Shink-- Shink-- Shink--</speak>
+            <show chara="BassanioScold" position="left"/>
+            <speak chara="_BiankaVenice">Hey, you’re being noisy! Why are you sharpening your knife so earnestly?</speak>
+            <show chara="BassanioScold" position="left" opacity="0.8"/>
+            <show chara="ShylockProvocative" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">Of course, it’s to cut the meat from that bankrupt guy there that belongs to me.</speak>
+            <show chara="ShylockProvocative" position="right" opacity="0.8"/>
+            <show chara="GratianoAngry" position="left"/>
+            <speak chara="_WattVenice">You… You cruel Jew! It’s not on your sole that you’re sharpening your knife, you- You are sharpening it on your stone heart!</speak>
+            <show chara="GratianoTeeth" position="left"/>
+            <speak chara="_WattVenice">No, no metal – not even the hangman’s axe – is half as hard as your heart!</speak>
+            <show chara="GratianoFindOthersUnreasonable" position="left"/>
+            <speak chara="_WattVenice">Can- Can no prayers move you?</speak>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="stageHuacaCloseUp.jpg">
+            <bgm src="10_10_kalinka.mp3" status="start"></bgm>
+            <show chara="BassanioDissatisfied" position="left"/>
+            <speak chara="_BiankaVeniceSelf">...Jimmy, you’re too nervous.</speak>
+            <show chara="BassanioDissatisfied" position="left" opacity="0.8"/>
+            <show chara="GratianoSorry" position="right"/>
+            <speak chara="_WattVeniceSelf">I’m… I’m sorry… When I noticed it was my part to accuse the villain, I just...</speak>
+            <show chara="GratianoSorry" position="right" opacity="0.8"/>
+            <show chara="ShylockLaugh" position="left"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">Haha, is there something wrong with that?</speak>
+            <show chara="ShylockConfident" position="left"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">Isn’t it interesting to have a timid and scared “Gratiano” who wants to stick to his simple sense of justice?</speak>
+            <show chara="ShylockConfident" position="left" opacity="0.8"/>
+            <show chara="BassanioShock" position="right"/>
+            <speak chara="_BiankaVeniceSelf">Ah… sorry...</speak>
+            <show chara="BassanioHelpless" position="right"/>
+            <speak chara="_BiankaVeniceSelf">I just can’t help but feel anxious when I see this type of person.</speak>
+            <show chara="BassanioHelpless" position="right" opacity="0.8"/>
+            <show chara="ShylockLaugh" position="left"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">Ahahaha. Since everyone here is a temporary guest actor, you must let the character follow your own nature, so that you can play it well.</speak>
+            <show chara="ShylockSmile" position="left"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">So, shall we continue with the rehearsal?</speak>
+            <show chara="ShylockConfident" position="left"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">After all, won’t tomorrow’s performance be broadcast to the whole world?</speak>
+            <goto goto="80" change="#ffffff"/>
+        </scene>
+        <scene id="80" background="alexandriaPalace.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="0curtain" position="back"/>
+            <show chara="ShylockCold" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">...None that you’re intelligent enough to make.</speak>
+            <show chara="ShylockCold" position="right" opacity="0.8"/>
+            <show chara="GratianoTeeth" position="left"/>
+            <speak chara="_WattVenice">G- Go rot in hell, you heartless dog!</speak>
+            <show chara="GratianoTeeth" position="left" opacity="0.8"/>
+            <show chara="ShylockProvocative" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">Hahaha, until the time comes that you can shout the seal from off my contract you’re only hurting your lungs with that noise - Why bother?</speak>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFather"> Good boy, I advise you to calm down. Don’t continue to make a fool out of yourself, and don’t do something unimaginable to yourself or others.</speak>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">——Your Grace, I only ask for a fair judgement by the law.</speak>
+            <show chara="ShylockConfident" position="right" opacity="0.8"/>
+            <show chara="DogeSerious" position="left"/>
+            <speak chara="_CervantesVenice">...This letter said that the doctor himself could not appear, but he recommended a young and promising lawyer to our court.</speak>
+            <show chara="DogeNormal" position="left"/>
+            <speak chara="_CervantesVenice">Messenger, has this young man come with you?</speak>
+            <show chara="DogeNormal" position="left" opacity="0.8"/>
+            <show chara="NerissaSmile" position="right"/>
+            <speak chara="_AliceVeniceM">Yes, he’s waiting nearby, to know your answer - To hear whether you’ll admit him or not.</speak>
+            <show chara="NerissaSmile" position="right" opacity="0.8"/>
+            <show chara="DogeSmile" position="left"/>
+            <speak chara="_CervantesVenice">With all my heart. Hurry up, three or four of you officials go and escort him here with all due courtesy.</speak>
+            <goto goto="90" clockwise="1"/>
+        </scene>
+        <scene id="90" background="alexandriaPalace.jpg">
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <show chara="0curtain" position="back"/>
+            <show chara="DogeSmile" position="left"/>
+            <speak chara="_CervantesVenice">Young man, you’ve come from the doctor?</speak>
+            <show chara="DogeSmile" position="left" opacity="0.8"/>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">I have, my lord.</speak>
+            <show chara="PortiaSmile" position="right" opacity="0.8"/>
+            <show chara="DogeSmile" position="left"/>
+            <speak chara="_CervantesVenice">You are welcome. Take your place.</speak>
+            <show chara="DogeSerious" position="left"/>
+            <speak chara="_CervantesVenice">Are you acquainted with the dispute that occupies this court today?</speak>
+            <show chara="DogeSerious" position="left" opacity="0.8"/>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">I’m fully briefed on the case.</speak>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">Which is the bankrupt merchant, and which is the creditor?</speak>
+            <show chara="PortiaSmile" position="right" opacity="0.8"/>
+            <show chara="DogeNormal" position="left"/>
+            <speak chara="_CervantesVenice">Antonio and old Shylock, both come forward.</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">Is your name Shylock?</speak>
+            <show chara="PortiaSmile" position="right" opacity="0.8"/>
+            <show chara="ShylockSmile" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">Shylock is my name.</speak>
+            <show chara="ShylockSmile" position="left" opacity="0.8"/>
+            <show chara="PortiaThink" position="right"/>
+            <speak chara="_RitaVeniceM">Your suit is an unusual one, but it stands up legally and Venetian law can’t challenge its validity.</speak>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">Antonio, you’re in some danger from this suit of his, aren’t you?</speak>
+            <show chara="PortiaNormal" position="right" opacity="0.8"/>
+            <show chara="AntonioDismay" position="left"/>
+            <speak chara="_ThalesVenice">Yes, that’s what he claims.</speak>
+            <show chara="AntonioDismay" position="left" opacity="0.8"/>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">Do you admit to this debt?</speak>
+            <show chara="PortiaNormal" position="right" opacity="0.8"/>
+            <show chara="AntonioHelpless" position="left"/>
+            <speak chara="_ThalesVenice">I do.</speak>
+            <show chara="AntonioHelpless" position="left" opacity="0.8"/>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">Since the other party admitted to being wrong, then I suggest the creditor to be merciful.</speak>
+            <show chara="PortiaSmile" position="right" opacity="0.8"/>
+            <show chara="ShylockProvocative" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">Why does everyone want me to be “merciful”? On whose authority must I?</speak>
+            <show chara="ShylockProvocative" position="left" opacity="0.8"/>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">I’m a scholar, so forgive me if it sounds like a sermon, but...</speak>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">The quality of mercy is not strained, It drops on to the world as the gentle rain does to all sentient beings.</speak>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">It’s doubly blessed, It blesses both the giver and the receiver. And to those who provide mercy, it gives a different type of happiness: One that is more noble and comforting than any right or wealth.</speak>
+            <show chara="PortiaPersuade" position="right"/>
+            <speak chara="_RitaVeniceM">I’ve spoken about this to soften the justice of your plea. If you insist on pure justice, however, then this serious Venetian court has no alternative other than to pronounce sentence against the merchant.</speak>
+            <show chara="PortiaPersuade" position="right" opacity="0.8"/>
+            <show chara="ShylockCold" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">I’ll not give in! I only ask that the law allow me to execute the punishment as per the contract.</speak>
+            <show chara="ShylockCold" position="left" opacity="0.8"/>
+            <show chara="PortiaThink" position="right"/>
+            <speak chara="_RitaVeniceM">Is he unable to pay you the money?</speak>
+            <show chara="PortiaThink" position="right" opacity="0.8"/>
+            <show chara="BassanioTeeth" position="left"/>
+            <speak chara="_BiankaVenice">No, he can pay. I’m offering it to him here in the court. Indeed, twice the sum.</speak>
+            <show chara="BassanioFindOthersUnreasonable" position="left"/>
+            <speak chara="_BiankaVenice">If that’s not enough I’m willing to be bound over to pay it ten times over, on the collateral of my hands, my head, my heart;</speak>
+            <speak chara="_BiankaVenice">If that’s still not enough, then it’s not the money that’s at issue – it’s the desire to murder my friend.</speak>
+            <show chara="BassanioSmile" position="left"/>
+            <speak chara="_BiankaVenice">Doctor, I beg of you, use your authority to bend the law——</speak>
+            <show chara="BassanioInspireOthers" position="left"/>
+            <speak chara="_BiankaVenice">Do a small wrong to bring about a great right and prevent this cruel devil from having his way, or else the whole law will be the accomplice of a murder.</speak>
+            <show chara="BassanioInspireOthers" position="left" opacity="0.8"/>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">It can’t be done, there’s no power in Venice that can circumvent an established law. It would create a precedent and encourage many other irregularities in the court.</speak>
+            <show chara="PortiaPersuade" position="right"/>
+            <speak chara="_RitaVeniceM">It’s impossible.</speak>
+            <show chara="PortiaPersuade" position="right" opacity="0.8"/>
+            <show chara="ShylockLaugh" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">A Daniel come to deliver justice! The wisdom of this young man is simplicity rare in this world, and I agree with his every word!</speak>
+            <show chara="ShylockLaugh" position="left" opacity="0.8"/>
+            <show chara="PortiaThink" position="right"/>
+            <speak chara="_RitaVeniceM">Lender, please let me see the contract.</speak>
+            <show chara="PortiaThink" position="right" opacity="0.8"/>
+            <show chara="ShylockSmile" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">Here it is, most reverend doctor. Here it is!</speak>
+            <show chara="ShylockSmile" position="left" opacity="0.8"/>
+            <show chara="PortiaPersuade" position="right"/>
+            <speak chara="_RitaVeniceM">Shylock, will you not think of it again? They are willing to repay you with more than three times the money.</speak>
+            <show chara="PortiaPersuade" position="right" opacity="0.8"/>
+            <show chara="ShylockFalseShock" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">No, no, I have sworn an oath before heaven. Do you want me to burden my soul with perjury?</speak>
+            <show chara="ShylockCold" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">No, no, no! Not even for the whole of Venice would I give it up.</speak>
+            <show chara="ShylockCold" position="left" opacity="0.8"/>
+            <show chara="PortiaSerious" position="right"/>
+            <speak chara="_RitaVeniceM">Very well. Then we will punish as agreed.</speak>
+            <show chara="PortiaSerious" position="right"/>
+            <speak chara="_RitaVeniceM">The Jew may lawfully claim a pound of flesh, to be cut, by him, from the merchant’s chest.</speak>
+            <show chara="PortiaPersuade" position="right"/>
+            <speak chara="_RitaVeniceM">But… Mr. Shylock, I advise you one last time: Be merciful, take three times the money. Tell me to tear the contract up.</speak>
+            <show chara="PortiaPersuade" position="right" opacity="0.8"/>
+            <show chara="ShylockNormal" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">When it’s paid, according to its terms, you can tear it up.</speak>
+            <show chara="ShylockSmile" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">You appear to be a good judge. You know the law!</speak>
+            <show chara="ShylockConfident" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">Your interpretation has been very sound, you are indeed a rising star of the legal world——</speak>
+            <speak chara="_ShakespeareVeniceFather">——In the name of the law, I ask you to proceed to judgment.</speak>
+            <show chara="ShylockCold" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">I don’t want a reconciliation or accommodation, I just want to enforce the penalty clause.</speak>
+            <show chara="AntonioDisheartened" position="left"/>
+            <speak chara="_ThalesVenice">...My desperate heart also asks you to use the sentence to end its suffering.</speak>
+            <show chara="AntonioDisheartened" position="left" opacity="0.8"/>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">...All right</speak>
+            <show chara="PortiaSerious" position="right"/>
+            <speak chara="_RitaVeniceM">Well then, this is it: You must prepare your breast for his knife.</speak>
+            <show chara="PortiaSerious" position="right" opacity="0.8"/>
+            <show chara="ShylockLaugh" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">Hahahaha, Oh noble judge! Oh excellent young man!</speak>
+            <show chara="ShylockLaugh" position="left" opacity="0.8"/>
+            <show chara="PortiaThink" position="right"/>
+            <speak chara="_RitaVeniceM">The reason why I pronounced this sentence is because the contractual punishment does not conflict with the laws of Venice.</speak>
+            <show chara="PortiaThink" position="right" opacity="0.8"/>
+            <show chara="ShylockConfident" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">That’s very true! Oh wise and upright judge! How much older you are than you look!</speak>
+            <show chara="ShylockConfident" position="left" opacity="0.8"/>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">...Antonio, uncover your chest.</speak>
+            <show chara="PortiaNormal" position="right" opacity="0.8"/>
+            <show chara="ShylockProvocative" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">Yes. “his chest”, “near his heart”! Here, it’s written on the contract in black and white!</speak>
+            <show chara="ShylockProvocative" position="left" opacity="0.8"/>
+            <show chara="PortiaThink" position="right"/>
+            <speak chara="_RitaVeniceM">...That's right. Are there scales here to weight the flesh?</speak>
+            <show chara="PortiaThink" position="right" opacity="0.8"/>
+            <show chara="ShylockSmile" position="left"/>
+            <speak chara="_ShakespeareVeniceFather"> I have them here.</speak>
+            <show chara="ShylockSmile" position="left" opacity="0.8"/>
+            <show chara="PortiaPersuade" position="right"/>
+            <speak chara="_RitaVeniceM">Well, I hope you have a doctor standing by, Shylock. At your expense, to stop his wounds in case he bleeds to death.</speak>
+            <show chara="PortiaPersuade" position="right" opacity="0.8"/>
+            <show chara="ShylockFalseShock" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">Does it say that in the contract?</speak>
+            <show chara="ShylockFalseShock" position="left" opacity="0.8"/>
+            <show chara="PortiaThink" position="right"/>
+            <speak chara="_RitaVeniceM">It’s not detailed, but what of that? You'd naturally do that out of charity.</speak>
+            <show chara="PortiaThink" position="right" opacity="0.8"/>
+            <show chara="ShylockCold" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">Sorry, but I can’t find any surgeon nor the obligation to do so.</speak>
+            <show chara="ShylockCold" position="left" opacity="0.8"/>
+            <show chara="PortiaSerious" position="right"/>
+            <speak chara="_RitaVeniceM">Then, merchant Antonio, do you have something to say?</speak>
+            <show chara="PortiaSerious" position="right" opacity="0.8"/>
+            <show chara="AntonioDisheartened" position="left"/>
+            <speak chara="_ThalesVenice">Very little - I’m fortified and mentally prepared.</speak>
+            <show chara="AntonioLaugh" position="left"/>
+            <speak chara="_ThalesVenice">Give me your hand, Bassanio. Farewell!</speak>
+            <show chara="AntonioSmile" position="left"/>
+            <speak chara="_ThalesVenice">Don’t grieve that I’ve fallen to this state for your sake. Any man who truly loves his friends would do the same.</speak>
+            <show chara="AntonioSmileCloseEye" position="left"/>
+            <speak chara="_ThalesVenice">Remember me to your dear wife. Tell her the story of Antonio’s death: tell her how much I loved my friends, and how I accepted my death.</speak>
+            <show chara="AntonioSmile" position="left"/>
+            <speak chara="_ThalesVenice">Speak well of me, and when the tale has been told ask her whether Bassanio was once dearly loved by his friend. Ask her if that friend really did die without regrets.</speak>
+            <show chara="AntonioLaugh" position="left"/>
+            <speak chara="_ThalesVenice">Regret only that you will lose your friend. If the Jew cuts deeply enough I’ll pay it immediately, with all my heart.</speak>
+            <show chara="AntonioLaugh" position="left" opacity="0.8"/>
+            <show chara="BassanioTangled" position="right"/>
+            <speak chara="_BiankaVenice">Antonio, I’m married to a woman who is as dear to me as life itself, but I don’t value life, my wife, and all the world more than I do your life!</speak>
+            <show chara="BassanioTeeth" position="right"/>
+            <speak chara="_BiankaVenice">I would give them all, yes, sacrifice them all, right here and now, to this devil, to save you!</speak>
+            <show chara="BassanioTeeth" position="right" opacity="0.8"/>
+            <show chara="PortiaSneer" position="left"/>
+            <speak chara="_RitaVeniceM">…*Cough*, *Cough*. Your wife wouldn’t thank you much for that, were she here to hear you make that offer.</speak>
+            <show chara="PortiaSneer" position="left" opacity="0.8"/>
+            <show chara="BassanioShock" position="right"/>
+            <speak chara="_BiankaVeniceQ">No, Rita——</speak>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="stageHuacaCloseUp.jpg">
+            <bgm src="10_10_kalinka.mp3" status="start"></bgm>
+            <show chara="BassanioHelpless" position="left"/>
+            <speak chara="_BiankaVeniceSelf">——Ah.</speak>
+            <show chara="BassanioShy" position="left"/>
+            <speak chara="_BiankaVeniceSelf">……Sorry, my tongue slipped.</speak>
+            <show chara="BassanioShy" position="left" opacity="0.8"/>
+            <show chara="PortiaSneer" position="right"/>
+            <speak chara="_RitaVeniceMSelf">Puff.</speak>
+            <show chara="ShylockLaugh" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">Hahahahahahaha!</speak>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">...It’s fine. We can laugh now, we just have to train a bit more later.</speak>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">Having said that, this paragraph is just a witty remark on the story, so everyone can play it as they interpret it.</speak>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">——Shall we continue?</speak>
+            <show chara="ShylockSmile" position="right" opacity="0.8"/>
+            <show chara="BassanioShy" position="left"/>
+            <speak chara="_BiankaVeniceSelf">...Alright.</speak>
+            <goto goto="110" change="#ffffff"/>
+        </scene>
+        <scene id="110" background="alexandriaPalace.jpg">
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <show chara="0curtain" position="back"/>
+            <show chara="PortiaSneer" position="left"/>
+            <speak chara="_RitaVeniceM">Your wife wouldn’t thank you much for that, were she here to hear you make that offer.</speak>
+            <show chara="PortiaSneer" position="left" opacity="0.8"/>
+            <show chara="BassanioShock" position="right"/>
+            <speak chara="_BiankaVenice">No, doctor, this was just a metaphor, I’m not saying I would really use my family to...</speak>
+            <show chara="GratianoNervous" position="right"/>
+            <speak chara="_WattVenice">Yes, yes. I also have a wife whom I swear I love——</speak>
+            <show chara="GratianoTeeth" position="right"/>
+            <speak chara="_WattVenice">But, in this situation, I can’t help but come up with some strange ideas: I wish she were in heaven so she could plead with some higher power to change this currish Jew’s mind!</speak>
+            <show chara="GratianoTeeth" position="right" opacity="0.8"/>
+            <show chara="NerissaDespise" position="left"/>
+            <speak chara="_AliceVeniceM">...It’s a good thing you’re offering that behind her back! Otherwise you’d have an unsettled household for several days.</speak>
+            <show chara="NerissaDespise" position="left" opacity="0.8"/>
+            <show chara="GratianoSorry" position="right"/>
+            <speak chara="_WattVenice">Uh...</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="ShylockLaugh" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">Look, this is the “good husband” of your so-called “civilized people”!</speak>
+            <show chara="ShylockNormal" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">I have a daughter, and I would rather have her marry the son of a pirate than a beast like you.</speak>
+            <show chara="ShylockConfident" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">We’re wasting time, the sentence, please!</speak>
+            <show chara="ShylockConfident" position="left" opacity="0.8"/>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">Very well.</speak>
+            <show chara="PortiaSerious" position="right"/>
+            <speak chara="_RitaVeniceM">A pound of that merchant’s flesh is yours. The court awards it, the law allows it.</speak>
+            <show chara="PortiaSerious" position="right" opacity="0.8"/>
+            <show chara="ShylockSmile" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">Most rightful judge!</speak>
+            <show chara="ShylockSmile" position="left" opacity="0.8"/>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">And since you did not accept any of the compromises proposed by the defendant, you must cut this flesh from his breast. The law allows it and the court awards it.</speak>
+            <show chara="PortiaNormal" position="right" opacity="0.8"/>
+            <show chara="ShylockConfident" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">Most learned judge! A good sentence!</speak>
+            <show chara="ShylockConfident" position="left" opacity="0.8"/>
+            <show chara="PortiaSerious" position="right"/>
+            <speak chara="_RitaVeniceM">One moment.</speak>
+            <show chara="PortiaSerious" position="right" opacity="0.8"/>
+            <show chara="ShylockProvocative" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">...Is there something else, Your Honor?</speak>
+            <show chara="ShylockProvocative" position="left" opacity="0.8"/>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">There is.</speak>
+            <show chara="PortiaSerious" position="right"/>
+            <speak chara="_RitaVeniceM">This contract doesn’t allow you a drop of blood. The words expressly are “a pound of flesh.” So you can take the meat, but一</speak>
+            <speak chara="_RitaVeniceM">But if, in cutting it, you shed one drop of his blood, under the laws of Venice your lands and goods are subject to confiscation to the state of Venice.</speak>
+            <show chara="BassanioShock" position="right"/>
+            <speak chara="_BiankaVenice">...What?</speak>
+            <show chara="GratianoExcited" position="right"/>
+            <speak chara="_WattVenice">Oh upright judge! Did you hear that, vampire? This is a truly learned judge!</speak>
+            <show chara="GratianoExcited" position="right" opacity="0.8"/>
+            <show chara="ShylockShock" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">Is that the law?</speak>
+            <show chara="ShylockShock" position="left" opacity="0.8"/>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">You can see the act for yourself.</speak>
+            <show chara="PortiaSerious" position="right"/>
+            <speak chara="_RitaVeniceM">As you urged justice so strongly, be assured that you will have more justice than you want.</speak>
+            <show chara="GratianoExcited" position="right"/>
+            <speak chara="_WattVenice">“Oh noble judge!”</speak>
+            <show chara="GratianoExcited" position="right"/>
+            <speak chara="_WattVenice">“Most learned judge! A good sentence!”</speak>
+            <show chara="GratianoExcited" position="right" opacity="0.8"/>
+            <show chara="ShylockDissatisfied" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">...Well then. I’ll accept the late payment, just pay back three times the amount in the contract.</speak>
+            <show chara="ShylockDissatisfied" position="left" opacity="0.8"/>
+            <show chara="BassanioConfident" position="right"/>
+            <speak chara="_BiankaVenice">Here’s the money.</speak>
+            <show chara="BassanioConfident" position="right" opacity="0.8"/>
+            <show chara="PortiaSneer" position="left"/>
+            <speak chara="_RitaVeniceM">Not so fast, friend of the defendant.</speak>
+            <show chara="PortiaNormal" position="left"/>
+            <speak chara="_RitaVeniceM">I have already pronounced the sentence. Since the plaintiff could not accept any of the compromises proposed by the defendant, he had to cut off the meat from the merchant’s chest.</speak>
+            <show chara="PortiaSerious" position="left"/>
+            <speak chara="_RitaVeniceM">He can no longer accept any alternative.</speak>
+            <show chara="PortiaSerious" position="left" opacity="0.8"/>
+            <show chara="GratianoExcited" position="right"/>
+            <speak chara="_WattVenice">Ah, there is no one who is fairer than you, oh Judge!</speak>
+            <show chara="GratianoExcited" position="right" opacity="0.8"/>
+            <show chara="PortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">And so, Mr. Shylock, please cut the meat now.</speak>
+            <show chara="PortiaSerious" position="left"/>
+            <speak chara="_RitaVeniceM">Shed no blood, and take care to cut off no more and no less than just a pound of flesh.</speak>
+            <speak chara="_RitaVeniceM">If the scale turns as much as the weight of a hair, you die and all your property is confiscated.</speak>
+            <show chara="PortiaSerious" position="left" opacity="0.8"/>
+            <show chara="GratianoExcited" position="right"/>
+            <speak chara="_WattVenice">“A Daniel come to deliver justice! The wisdom of this young man is simplicity rare in this world, and I agree with his every word!”</speak>
+            <show chara="GratianoExcited" position="right" opacity="0.8"/>
+            <show chara="PortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">Why are you hesitating? Take your forfeit.</speak>
+            <show chara="PortiaSmile" position="left" opacity="0.8"/>
+            <show chara="ShylockDissatisfied" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">...Give me my capital back and let's pretend this never happened.</speak>
+            <show chara="ShylockDissatisfied" position="right" opacity="0.8"/>
+            <show chara="BassanioConfident" position="left"/>
+            <speak chara="_BiankaVenice">I have it ready, here it is.</speak>
+            <show chara="BassanioConfident" position="left" opacity="0.8"/>
+            <show chara="PortiaSneer" position="right"/>
+            <speak chara="_RitaVeniceM">Friend of the defendant? </speak>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">As I said earlier, he can no longer accept any alternatives.</speak>
+            <show chara="PortiaSmile" position="right" opacity="0.8"/>
+            <show chara="ShylockFury" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">Wouldn’t getting my capital back suffice?</speak>
+            <show chara="ShylockFury" position="left" opacity="0.8"/>
+            <show chara="PortiaSerious" position="right"/>
+            <speak chara="_RitaVeniceM">You’ll have nothing but the penalty to be taken at your peril, Shylock.</speak>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">The law has already sentenced the defendant for breaching the contract, and you can’t change that fact.</speak>
+            <show chara="PortiaNormal" position="right" opacity="0.8"/>
+            <show chara="ShylockFury" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">Well then, may the devil give him the benefit of it! I won’t stay and argue this any longer.</speak>
+            <show chara="ShylockFury" position="left" opacity="0.8"/>
+            <show chara="PortiaSerious" position="right"/>
+            <speak chara="_RitaVeniceM">Wait, Jew, The law has another hold over you.</speak>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">It is stated in the Venetian law that if it should be proved against an foreigner that he has, by direct or indirect efforts, sought the life of any citizen, the person against which he has conspired is——</speak>
+            <show chara="PortiaSerious" position="right"/>
+            <speak chara="_RitaVeniceM">——entitled to seize one half of his goods, the other half going to the state coffers;</speak>
+            <speak chara="_RitaVeniceM">Furthermore, whether the offender lives or dies becomes the subject of the duke’s sole discretion.</speak>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">Kneel, therefore, and beg the duke for mercy. It might not be too late.</speak>
+            <show chara="DogeSmile" position="right"/>
+            <speak chara="_CervantesVenice">Shylock, let me show you the spirit of our “civilized people”: I already forgave your death sentence before you even asked for it.</speak>
+            <show chara="DogeSerious" position="right"/>
+            <speak chara="_CervantesVenice">Regarding half your wealth – it goes to Antonio. The other half goes to the state. Showing remorse could convert this to a fine.</speak>
+            <show chara="DogeSerious" position="right" opacity="0.8"/>
+            <show chara="ShylockFury" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">No!</speak>
+            <show chara="ShylockHysteria" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">I don’t need your “forgiveness”, just take my life as well!</speak>
+            <show chara="ShylockHysteria" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">When you take my house you take the means of maintaining it: you take my life when you take away the means whereby I live!</speak>
+            <show chara="ShylockHysteria" position="left" opacity="0.8"/>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">What mercy can you give him, Antonio?</speak>
+            <show chara="PortiaSmile" position="right" opacity="0.8"/>
+            <show chara="AntonioSmile" position="left"/>
+            <speak chara="_ThalesVenice">If it pleases my lord the duke and the court to not confiscate one half of his wealth, then I promise:</speak>
+            <speak chara="_ThalesVenice">The other half I took over will be transferred to his daughter and the gentleman who eloped with her recently.</speak>
+            <show chara="AntonioNormal" position="left"/>
+            <speak chara="_ThalesVenice">I only have one other condition: That he makes a will, here and now, in the court, leaving everything he owns at the time of his death to his son-in-law, Lorenzo, and his daughter.</speak>
+            <show chara="AntonioNormal" position="left" opacity="0.8"/>
+            <show chara="DogeSmile" position="right"/>
+            <speak chara="_CervantesVenice">He will do this, or I’ll withdraw the pardon that I’ve just pronounced.</speak>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">Are you satisfied, Shylock? What do you say?</speak>
+            <show chara="PortiaSmile" position="right" opacity="0.8"/>
+            <show chara="ShylockShock" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">I...</speak>
+            <show chara="ShylockDissatisfied" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">I’m content.</speak>
+            <show chara="ShylockDissatisfied" position="left" opacity="0.8"/>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">Then Clerk, please draw up a will.</speak>
+            <show chara="PortiaSmile" position="right" opacity="0.8"/>
+            <show chara="ShylockDisheartened" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">Could you… Give me permission to leave the court.... I’m not well.</speak>
+            <show chara="ShylockDisheartened" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">Send the will after me and I’ll sign it.</speak>
+            <show chara="ShylockDisheartened" position="left" opacity="0.8"/>
+            <show chara="DogeNormal" position="right"/>
+            <speak chara="_CervantesVenice">Go ahead, I don’t think you have the guts to change your mind.</speak>
+            <show chara="DogeSmile" position="right"/>
+            <speak chara="_CervantesVenice">Antonio, reward this gentleman because, in my opinion, you’re seriously indebted to him.</speak>
+            <show chara="DogeSmile" position="right" opacity="0.8"/>
+            <show chara="AntonioSmile" position="left"/>
+            <speak chara="_ThalesVenice">Yes, my lord.</speak>
+            <goto goto="120" change="#ffffff"/>
+        </scene>
+        <scene id="120" background="stageHuacaCloseUp.jpg">
+            <bgm src="10_10_kalinka.mp3" status="start"></bgm>
+            <show chara="BassanioSmile" position="left"/>
+            <speak chara="_BiankaVeniceSelf">Phew… I can finally take a break.</speak>
+            <show chara="BassanioSmile" position="left" opacity="0.8"/>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">Although it may be rude to say this - But the curtain hasn’t fallen yet?</speak>
+            <show chara="ShylockConfident" position="right" opacity="0.8"/>
+            <show chara="BassanioShock" position="left"/>
+            <speak chara="_BiankaVeniceSelf">...Ah. Is the part after this when Bassanio gives his wedding ring to the doctor?</speak>
+            <show chara="BassanioShock" position="left" opacity="0.8"/>
+            <show chara="PortiaSneer" position="right"/>
+            <speak chara="_RitaVeniceMSelf">Yes, Durandal——</speak>
+            <show chara="PortiaShock" position="right"/>
+            <speak chara="_RitaVeniceMSelf">——Ah, no, Bianka-sama.</speak>
+            <show chara="PortiaShock" position="right" opacity="0.8"/>
+            <show chara="BassanioConfident" position="left"/>
+            <speak chara="_BiankaVeniceSelf">It’s alright, I don’t mind it.</speak>
+            <show chara="BassanioSmile" position="left"/>
+            <speak chara="_BiankaVeniceSelf">Cap - No, Director, isn’t there a famous line in one of your other scripts?</speak>
+            <show chara="BassanioInspireOthers" position="left"/>
+            <speak chara="_BiankaVeniceSelf">“A name isn't a hand, a foot, an arm, a face, or anything like that”</speak>
+            <show chara="BassanioInspireOthers" position="left"/>
+            <speak chara="_BiankaVeniceSelf">“What does a name mean? The flower we call a rose would smell just as sweet if we called it by any other name.”</speak>
+            <show chara="BassanioInspireOthers" position="left" opacity="0.8"/>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">Haha. Having said that, didn’t you say the Holy Sword has been recast? Did it protest that you stole its name?</speak>
+            <show chara="ShylockConfident" position="right" opacity="0.8"/>
+            <show chara="BassanioHelpless" position="left"/>
+            <speak chara="_BiankaVeniceSelf">...Well, no.</speak>
+            <show chara="BassanioHelpless" position="left" opacity="0.8"/>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceMSelf">After all, in the words of the “Holy Sword” itself——</speak>
+            <show chara="PortiaSmile" position="right" opacity="0.8"/>
+            <show chara="BassanioShock" position="left"/>
+            <speak chara="_BiankaVeniceSelf">Hey——</speak>
+            <show chara="BassanioShock" position="left" opacity="0.8"/>
+            <show chara="PortiaPersuade" position="right"/>
+            <speak chara="_RitaVeniceMSelf"> “No, you should continue to use that name! I don’t know if people can get used to it once I get it back, but I really enjoy being able to claim to be your ancestor, you know?”</speak>
+            <show chara="PortiaPersuade" position="right" opacity="0.8"/>
+            <show chara="ShylockLaugh" position="left"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">Hahahaha! It would have been a lot more lively if it could come back here.</speak>
+            <show chara="ShylockLaugh" position="left" opacity="0.8"/>
+            <show chara="BassanioSmile" position="right"/>
+            <speak chara="_BiankaVeniceSelf">...That’s true.</speak>
+            <show chara="BassanioInspireOthers" position="right"/>
+            <speak chara="_BiankaVeniceSelf">Captain, we will definitely find a way to connect the “Inversion baseline” of this Bubble Universe to the “Imaginary Tree” and completely solve its stability problem.</speak>
+            <show chara="BassanioConfident" position="right"/>
+            <speak chara="_BiankaVeniceSelf">When the day that the “Holy Sword” can unload its burden - I will definitely take it back here to have a look.</speak>
+            <show chara="BassanioConfident" position="right" opacity="0.8"/>
+            <show chara="ShylockConfident" position="left"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">Hahaha, then is that a promise?</speak>
+            <show chara="ShylockConfident" position="left" opacity="0.8"/>
+            <show chara="BassanioConfident" position="right"/>
+            <speak chara="_BiankaVeniceSelf">It's a promise!</speak>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceMSelf">I promise.</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="ShylockLaugh" position="center"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">Alright everyone! We still have one-fifth left to surprise the world on the broadcast, come on!</speak>
+            <goto goto="130" change="#ffffff"/>
+        </scene>
+        <scene id="130" background="alexandriaCityLandscape.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="0curtain" position="back"/>
+            <show chara="BassanioInspireOthers" position="right"/>
+            <speak chara="_BiankaVenice">My dear sir, my friend and I have escaped some serious penalties today, as a result of your wisdom.</speak>
+            <show chara="BassanioConfident" position="right"/>
+            <speak chara="_BiankaVenice">I have the honour of offering you the three thousand ducats.</speak>
+            <show chara="BassanioSmile" position="right"/>
+            <speak chara="_BiankaVenice">They were due to the Jew, but you can have it as payment for the trouble you’ve taken.</speak>
+            <show chara="BassanioSmile" position="right" opacity="0.8"/>
+            <show chara="PortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">You two, you must not. All I wanted was the law to not be used in a twisted way. In rescuing you, I’ve achieved satisfaction, so I regard myself as having been well paid. I’ve never been interested in money.</speak>
+            <show chara="PortiaSneer" position="left"/>
+            <speak chara="_RitaVeniceM">Please, remember me when we meet again. Good luck. And so, goodbye.</speak>
+            <show chara="PortiaSneer" position="left" opacity="0.8"/>
+            <show chara="BassanioShock" position="right"/>
+            <speak chara="_BiankaVenice">——Wait, sir!</speak>
+            <show chara="BassanioSmile" position="right"/>
+            <speak chara="_BiankaVenice">Dear sir, I really must insist. Take a souvenir, as something to remember us by, not as a fee.</speak>
+            <show chara="BassanioInspireOthers" position="right"/>
+            <speak chara="_BiankaVenice">Grant me two things, I beg of you: not to say no to me, and to pardon my insistence.</speak>
+            <show chara="BassanioInspireOthers" position="right" opacity="0.8"/>
+            <show chara="PortiaShock" position="left"/>
+            <speak chara="_RitaVeniceM">...You’re very insistent, and therefore I will concede.</speak>
+            <show chara="PortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">Mr. Antonio, let me have your gloves. I’ll wear them to remember you;</speak>
+            <show chara="PortiaSneer" position="left"/>
+            <speak chara="_RitaVeniceM">And Mr. Bassanio, as a token of your goodwill, I’ll take this ring.</speak>
+            <show chara="PortiaSneer" position="left" opacity="0.8"/>
+            <show chara="BassanioShock" position="right"/>
+            <speak chara="_BiankaVenice">Eh? But——</speak>
+            <show chara="BassanioShock" position="right" opacity="0.8"/>
+            <show chara="PortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">No, don’t pull your hand away, I won’t take anything else. Surely you won’t refuse me?</speak>
+            <show chara="PortiaSmile" position="left" opacity="0.8"/>
+            <show chara="BassanioShy" position="right"/>
+            <speak chara="_BiankaVenice">But this ring is… I...</speak>
+            <show chara="BassanioTangled" position="right"/>
+            <speak chara="_BiankaVenice">Oh no, it’s worthless. I wouldn’t shame myself by giving it to you.</speak>
+            <show chara="BassanioTangled" position="right" opacity="0.8"/>
+            <show chara="PortiaShock" position="left"/>
+            <speak chara="_RitaVeniceM">...What is so embarrassing about it? If you say that, it really makes me want it now.</speak>
+            <show chara="PortiaPersuade" position="left"/>
+            <speak chara="_RitaVeniceM">I won’t have anything but this ring.</speak>
+            <show chara="PortiaPersuade" position="left" opacity="0.8"/>
+            <show chara="BassanioTangled" position="right"/>
+            <speak chara="_BiankaVenice">...Ugh. This ring itself is worthless, but it has sentimental value for me, and I can’t give it to others. </speak>
+            <show chara="BassanioInspireOthers" position="right"/>
+            <speak chara="_BiankaVenice">Doctor, I’ll advertise for the most expensive ring in Venice and give it to you. But as for this ring, I beg you to pardon me.</speak>
+            <show chara="BassanioInspireOthers" position="right" opacity="0.8"/>
+            <show chara="PortiaAngry" position="left"/>
+            <speak chara="_RitaVeniceM"> I see, sir, that you are very free with your offers.</speak>
+            <speak chara="_RitaVeniceM">You were the one who taught me how to beg, and now, it seems, you’re teaching me how a beggar should be treated.</speak>
+            <show chara="PortiaAngry" position="left" opacity="0.8"/>
+            <show chara="BassanioTangled" position="right"/>
+            <speak chara="_BiankaVenice">I…… I——</speak>
+            <show chara="BassanioTangled" position="right"/>
+            <speak chara="_BiankaVenice">Good sir, my wife gave me this ring, and when she put it on my finger she made me promise that I would never sell it or give it away or lose it.</speak>
+            <show chara="BassanioTangled" position="right" opacity="0.8"/>
+            <show chara="PortiaNormal" position="left"/>
+            <speak chara="_RitaVeniceM">...That’s an excuse many men use to avoid giving gifts.</speak>
+            <show chara="PortiaSerious" position="left"/>
+            <speak chara="_RitaVeniceM">Unless your wife is mad, knowing how well I deserve this ring, she wouldn’t hold it against you forever that you gave it to me.</speak>
+            <speak chara="_RitaVeniceM">Even if I take it away now, it would not result in the breakdown of your marriage.</speak>
+            <show chara="PortiaAngry" position="left"/>
+            <speak chara="_RitaVeniceM">Well, goodbye, and good luck.</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="BassanioShock" position="right"/>
+            <speak chara="_BiankaVenice">Ah, please wait——</speak>
+            <show chara="BassanioShock" position="right" opacity="0.8"/>
+            <show chara="AntonioHelpless" position="left"/>
+            <speak chara="_ThalesVenice">Let her have the ring, my Lord Bassanio——</speak>
+            <show chara="AntonioSmileCloseEye" position="left"/>
+            <speak chara="_ThalesVenice">Balance his worthiness and my love with your wife’s instruction!</speak>
+            <show chara="AntonioSmileCloseEye" position="left" opacity="0.8"/>
+            <show chara="BassanioTangled" position="right"/>
+            <speak chara="_BiankaVenice">……</speak>
+            <show chara="BassanioPrudish" position="right"/>
+            <speak chara="_BiankaVenice">Run, Gratiano! Catch up with him. Give him the ring, and bring him to Antonio’s house if you can.</speak>
+            <show chara="BassanioPrudish" position="right" opacity="0.8"/>
+            <show chara="GratianoNormal" position="left"/>
+            <speak chara="_WattVenice">Yes, I will chase them now.</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="BassanioInspireOthers" position="center"/>
+            <speak chara="_BiankaVenice">Come, Antonio. We’ll go to your house to celebrate, and we’ll both set off for Belmont early tomorrow.</speak>
+            <goto goto="140" clockwise="1"/>
+        </scene>
+        <scene id="140" background="alexandriaFair.jpg">
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <show chara="0curtain" position="back"/>
+            <show chara="PortiaSerious" position="left"/>
+            <speak chara="_RitaVeniceM">Nerissa, ask the way to Shylock's house, give him this will and make sure he signs it.</speak>
+            <show chara="PortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">We’ll leave tonight and be home a day before our husbands. Lorenzo will be very pleased with this document.</speak>
+            <show chara="PortiaSmile" position="left" opacity="0.8"/>
+            <show chara="GratianoExcited" position="right"/>
+            <speak chara="_WattVenice"> Hi, dear sir!</speak>
+            <show chara="GratianoExcited" position="right" opacity="0.8"/>
+            <show chara="PortiaShock" position="left"/>
+            <speak chara="_RitaVeniceM">Yes?</speak>
+            <show chara="PortiaShock" position="left" opacity="0.8"/>
+            <show chara="GratianoExcited" position="right"/>
+            <speak chara="_WattVenice">I’m glad I’ve caught you.</speak>
+            <show chara="GratianoNervous" position="right"/>
+            <speak chara="_WattVenice">My Lord Bassanio, has, on second thoughts, sent you this ring and requests your company at dinner.</speak>
+            <show chara="GratianoNervous" position="right" opacity="0.8"/>
+            <show chara="PortiaSneer" position="left"/>
+            <speak chara="_RitaVeniceM">I don’t need to eat; But I will take this ring, thank him for his kindness for me.</speak>
+            <show chara="PortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">And one last thing: please show my youth the way to old Shylock’s house.</speak>
+            <show chara="PortiaSmile" position="left" opacity="0.8"/>
+            <show chara="GratianoExcited" position="right"/>
+            <speak chara="_WattVenice">N- No problem!</speak>
+            <show chara="NerissaSmile" position="right"/>
+            <speak chara="_AliceVeniceM">Sir, I’d like a word.</speak>
+            <show chara="NerissaSneer" position="right"/>
+            <speak chara="_AliceVeniceM">(I’ll see if I can get my husband’s ring – the one I made him swear to keep forever.)</speak>
+            <show chara="NerissaSneer" position="right" opacity="0.8"/>
+            <show chara="PortiaSneer" position="left"/>
+            <speak chara="_RitaVeniceM">(That will be easy. We’ll get the old story that they gave the rings to men but we’ll be able to contradict them beautifully;</speak>
+            <speak chara="_RitaVeniceM">But we must not only win, we must make them value their vows even more than before.)</speak>
+            <show chara="PortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">Off you go, hurry up. You know where I’ll be waiting.</speak>
+            <show chara="PortiaSmile" position="left" opacity="0.8"/>
+            <show chara="NerissaSmile" position="right"/>
+            <speak chara="_AliceVeniceM">Come Sir, will you show me to this house?</speak>
+            <show chara="NerissaSmile" position="right" opacity="0.8"/>
+            <show chara="GratianoExcited" position="left"/>
+            <speak chara="_WattVenice">Please follow me, Mr. clerk.</speak>
+            <goto goto="150" change="#ffffff"/>
+        </scene>
+        <scene id="150" background="stageHuacaCloseUp.jpg">
+            <bgm src="10_10_kalinka.mp3" status="start"></bgm>
+            <show chara="JessicaLaugh" position="left"/>
+            <speak chara="_ShakespeareVeniceNoName"> Hahahaha, it’s really interesting to have real couples perform this kind of drama!</speak>
+            <show chara="JessicaLaugh" position="left" opacity="0.8"/>
+            <show chara="BassanioHelpless" position="right"/>
+            <speak chara="_BiankaVeniceSelf">Hmm… I sympathize with Jimmy a little too much, he’s too nervous no matter how I look at it.</speak>
+            <show chara="BassanioHelpless" position="right" opacity="0.8"/>
+            <show chara="JessicaFalseShock" position="left"/>
+            <speak chara="_ShakespeareVeniceNoName">Hm? And what about you?</speak>
+            <show chara="JessicaFalseShock" position="left" opacity="0.8"/>
+            <show chara="BassanioShock" position="right"/>
+            <speak chara="_BiankaVeniceSelf">Me? Why would I——</speak>
+            <show chara="BassanioTeeth" position="right"/>
+            <speak chara="_BiankaVeniceSelf">...Hey! What are you trying to imply, Director of the Gossip Theatre! </speak>
+            <show chara="BassanioTeeth" position="right" opacity="0.8"/>
+            <show chara="PortiaSneer" position="left"/>
+            <speak chara="_RitaVeniceMSelf">Did something happen, Bianka-sama?</speak>
+            <show chara="PortiaSneer" position="left" opacity="0.8"/>
+            <show chara="BassanioShy" position="right"/>
+            <speak chara="_BiankaVeniceSelf">...Nothing!</speak>
+            <show chara="BassanioShy" position="right" opacity="0.8"/>
+            <show chara="JessicaLaugh" position="left"/>
+            <speak chara="_ShakespeareVeniceNoName">Hahahaha, okay, okay, I was just joking.</speak>
+            <show chara="JessicaConfident" position="left"/>
+            <speak chara="_ShakespeareVeniceNoName">Those who need to change clothes hurry up, let’s finish the last act in one try!</speak>
+            <show chara="JessicaConfident" position="left" opacity="0.8"/>
+            <show chara="LorenzoHappy" position="right"/>
+            <speak chara="_YukimuraVeniceNoName">Yes, Director of the Theater!</speak>
+            <goto goto="160" clockwise="1"/>
+        </scene>
+        <scene id="160" background="starNight.jpg">
+            <bgm src="09_13_dannyBoy.mp3" status="start"></bgm>
+            <show chara="0curtain" position="back"/>
+            <show chara="LorenzoTender" position="left"/>
+            <speak chara="_YukimuraVenice">What a beautiful starry sky! On such a night as this, when the sweet wind kissed the trees so gently that they didn’t make a sound – it was such a night, I imagine –</speak>
+            <show chara="LorenzoTender" position="left" opacity="0.8"/>
+            <show chara="JessicaSurprised" position="right"/>
+            <speak chara="_ShakespeareVeniceDaughter">——Hush. Listen, there are footsteps.</speak>
+            <show chara="JessicaSurprised" position="right" opacity="0.8"/>
+            <show chara="LorenzoVigilant" position="left"/>
+            <speak chara="_YukimuraVenice">Who’s that running around here in the silence of the night?</speak>
+            <show chara="LorenzoVigilant" position="left" opacity="0.8"/>
+            <show chara="StephanoSincere" position="right"/>
+            <speak chara="_RolandVenice">A friend!</speak>
+            <show chara="StephanoSincere" position="right" opacity="0.8"/>
+            <show chara="JessicaVigilant" position="left"/>
+            <speak chara="_ShakespeareVeniceDaughter">Friend? Neither Lorenzo nor I know you.</speak>
+            <show chara="JessicaVigilant" position="left" opacity="0.8"/>
+            <show chara="StephanoTender" position="right"/>
+            <speak chara="_RolandVenice">My name’s Stephano and I’ve come to tell you that my mistress will be here at Belmont before dawn, and with her, she brings good news.</speak>
+            <show chara="StephanoTender" position="right" opacity="0.8"/>
+            <show chara="LorenzoSurprised" position="left"/>
+            <speak chara="_YukimuraVenice">What good news?</speak>
+            <show chara="LorenzoSurprised" position="left" opacity="0.8"/>
+            <show chara="StephanoSincere" position="right"/>
+            <speak chara="_RolandVenice">I don’t know, the mistress just wanted me to inform you in advance that “There will be good news”--</speak>
+            <show chara="GobboTalk" position="right"/>
+            <speak chara="_CaravaggioVenice">Get out of the way! I bring news!</speak>
+            <show chara="GobboTalk" position="right" opacity="0.8"/>
+            <show chara="JessicaSurprised" position="left"/>
+            <speak chara="_ShakespeareVeniceDaughter">...What? Shouldn’t you be taking care of my dad at home? Why have you come here to deliver a message?</speak>
+            <show chara="JessicaSurprised" position="left" opacity="0.8"/>
+            <show chara="GobboSmile" position="right"/>
+            <speak chara="_CaravaggioVenice">Ah, Jessica - This time I am helping the master’s enemy to deliver the message. He will be here tomorrow, and he will bring good news.</speak>
+            <show chara="GobboSmile" position="right" opacity="0.8"/>
+            <show chara="LorenzoSurprised" position="left"/>
+            <speak chara="_YukimuraVenice">What good news?</speak>
+            <show chara="LorenzoSurprised" position="left" opacity="0.8"/>
+            <show chara="GobboTalk" position="right"/>
+            <speak chara="_CaravaggioVenice">I don’t know.</speak>
+            <show chara="GobboTalk" position="right" opacity="0.8"/>
+            <show chara="LorenzoHelpless" position="left"/>
+            <speak chara="_YukimuraVenice">...What is going on, everyone is being so secretive.</speak>
+            <show chara="LorenzoSmile" position="left"/>
+            <speak chara="_YukimuraVenice">But let’s all get inside: Since the mistress of this house is coming back, we have to prepare.</speak>
+            <goto goto="170" clockwise="1"/>
+        </scene>
+        <scene id="170" background="starNightNorth.jpg">
+            <bgm src="09_13_dannyBoy.mp3" status="continue"></bgm>
+            <show chara="0curtain" position="back"/>
+            <show chara="DressPortiaShock" position="left"/>
+            <speak chara="_RitaVeniceM">Huh? Why are there lights in our house, and what is this wonderful music flowing in the wind?</speak>
+            <show chara="DressPortiaShock" position="left" opacity="0.8"/>
+            <show chara="AliceSurprisedClose" position="right"/>
+            <speak chara="_AliceVeniceM">Could it be… our husbands came back before us?</speak>
+            <show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
+            <show chara="DressPortiaThink" position="left"/>
+            <speak chara="_RitaVeniceM">Don’t panic, Nerissa: You know how good their relationship with Antonio is. They must have been eating and drinking in the city last night.</speak>
+            <show chara="DressPortiaThink" position="left" opacity="0.8"/>
+            <show chara="LorenzoSmile" position="right"/>
+            <speak chara="_YukimuraVenice">——That’s the mistress’s voice if I’m not mistaken.</speak>
+            <show chara="LorenzoSmile" position="right" opacity="0.8"/>
+            <show chara="DressPortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">He knows me just as the blind man knows the cuckoo – by its terrible voice.</speak>
+            <show chara="DressPortiaSmile" position="left" opacity="0.8"/>
+            <show chara="LorenzoSmile" position="right"/>
+            <speak chara="_YukimuraVenice">Dear lady! Welcome home!</speak>
+            <show chara="LorenzoSmile" position="right" opacity="0.8"/>
+            <show chara="DressPortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">We’ve been praying for our husbands’ welfare, we hope they’ll be back all the sooner because of those prayers. Are they back?</speak>
+            <show chara="DressPortiaSmile" position="left" opacity="0.8"/>
+            <show chara="LorenzoSmile" position="right"/>
+            <speak chara="_YukimuraVenice">Not yet, madam, but there was a messenger who came to announce their imminent arrival, saying they will bring good news——</speak>
+            <show chara="LorenzoHelpless" position="right"/>
+            <speak chara="_YukimuraVenice">——Which they refused to tell me what they were.</speak>
+            <show chara="LorenzoHelpless" position="right" opacity="0.8"/>
+            <show chara="DressPortiaShock" position="left"/>
+            <speak chara="_RitaVeniceM">...Well, then they should not be far.</speak>
+            <show chara="DressPortiaSerious" position="left"/>
+            <speak chara="_RitaVeniceM">Go in, Nerissa, tell my servants not to say a word about our absence. Nor must you, Lorenzo, nor you, Jessica.</speak>
+            <show chara="DressPortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">And about the good news, we will tell you when the time is right.</speak>
+            <show chara="DressPortiaSmile" position="left" opacity="0.8"/>
+            <show chara="LorenzoSmile" position="right"/>
+            <speak chara="_YukimuraVenice">Don’t worry, madam, we’re not tell-tales.</speak>
+            <show chara="LorenzoSurprised" position="right"/>
+            <speak chara="_YukimuraVenice">And listen - It’s Mr. Bassanio’s trumpet in the distance.</speak>
+            <goto goto="180" clockwise="1"/>
+        </scene>
+        <scene id="180" background="0_studyNight.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="0curtain" position="back"/>
+            <show chara="DressPortiaHappy" position="left"/>
+            <speak chara="_RitaVeniceM">Welcome home, my husband!</speak>
+            <show chara="DressPortiaHappy" position="left" opacity="0.8"/>
+            <show chara="BassanioSmile" position="right"/>
+            <speak chara="_BiankaVenice">Thank you, my wife. Thanks to you, we have returned safely.</speak>
+            <show chara="BassanioConfident" position="right"/>
+            <speak chara="_BiankaVenice">Let me introduce you formally: This is Antonio, to whom I’m eternally indebted.</speak>
+            <show chara="AntonioSmile" position="right"/>
+            <speak chara="_ThalesVenice">Good evening, madam.</speak>
+            <show chara="AntonioSmile" position="right" opacity="0.8"/>
+            <show chara="DressPortiaSneer" position="left"/>
+            <speak chara="_RitaVeniceM">You really are, Bassanio. I heard that because of you, he almost lost his life.</speak>
+            <show chara="DressPortiaSneer" position="left" opacity="0.8"/>
+            <show chara="AntonioLaugh" position="right"/>
+            <speak chara="_ThalesVenice">It was no more than I was prepared to pay.</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="GratianoNervous" position="center"/>
+            <speak chara="_WattVenice">——Wa-wait, please listen to my explanation, Nerissa.</speak>
+            <show chara="GratianoSorry" position="center"/>
+            <speak chara="_WattVenice">By the moon above us I swear you’re wronging me. I promise you, I gave it to the judge’s clerk.</speak>
+            <show chara="GratianoFindOthersUnreasonable" position="center"/>
+            <speak chara="_WattVenice">Th-There really is nothing! A-After all, he is just the doctor’s companion!</speak>
+            <hide position="center"></hide>
+            <show chara="DressPortiaShock" position="left"/>
+            <speak chara="_RitaVeniceM">A quarrel already? What’s the matter?</speak>
+            <show chara="DressPortiaShock" position="left" opacity="0.8"/>
+            <show chara="GratianoNervous" position="right"/>
+            <speak chara="_WattVenice">I, I...</speak>
+            <show chara="GratianoNervous" position="right" opacity="0.8"/>
+            <show chara="AliceHmClose" position="left"/>
+            <speak chara="_AliceVeniceM">Humph. Do you remember what you swore when I gave you that ring?</speak>
+            <show chara="AliceShockClose" position="left"/>
+            <speak chara="_AliceVeniceM">When I gave it to you you promised me that you’d wear it till you died and that you’d take it to the grave with you——</speak>
+            <show chara="AliceThinkClose" position="left"/>
+            <speak chara="_AliceVeniceM">——If not for my sake but because of your vehement oaths you should have been more serious and kept it.</speak>
+            <show chara="AliceShockClose" position="left"/>
+            <speak chara="_AliceVeniceM">And now what? He lies saying a boy got this ring! A boy!</speak>
+            <show chara="AliceShockClose" position="left" opacity="0.8"/>
+            <show chara="GratianoFindOthersUnreasonable" position="right"/>
+            <speak chara="_WattVenice">But if it was a girl the problem would be bigger, right?</speak>
+            <show chara="GratianoFindOthersUnreasonable" position="right" opacity="0.8"/>
+            <show chara="AliceShockClose" position="left"/>
+            <speak chara="_AliceVeniceM">What? You still dare make excuses?</speak>
+            <show chara="AliceShockClose" position="left" opacity="0.8"/>
+            <show chara="GratianoNervous" position="right"/>
+            <speak chara="_WattVenice">I, I...</speak>
+            <show chara="GratianoTeeth" position="right"/>
+            <speak chara="_WattVenice">I swear to God that the doctor and his clerk are out benefactors; He really wanted the ring instead of a fee, and I didn’t have the heart to refuse him.</speak>
+            <show chara="GratianoTeeth" position="right" opacity="0.8"/>
+            <show chara="DressPortiaAngry" position="left"/>
+            <speak chara="_RitaVeniceM">...Excuse me for coming in so bluntly.</speak>
+            <show chara="DressPortiaShock" position="left"/>
+            <speak chara="_RitaVeniceM">Nerissa is your wife, how could you so casually give away the first gift your wife gave you?</speak>
+            <show chara="DressPortiaAngry" position="left"/>
+            <speak chara="_RitaVeniceM">In front of her, you should have tried to keep some face.</speak>
+            <show chara="DressPortiaSerious" position="left"/>
+            <speak chara="_RitaVeniceM">It was placed on your finger with vows and welded to your flesh with trust. It was a part of your body, like your fingers are.</speak>
+            <show chara="DressPortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">I gave my love a ring and made him promise never to part with it——</speak>
+            <show chara="DressPortiaHappy" position="left"/>
+            <speak chara="_RitaVeniceM">I would bet he would never lose it nor take it off his finger for all the world’s wealth.</speak>
+            <show chara="DressPortiaAngry" position="left"/>
+            <speak chara="_RitaVeniceM">Gratiano, you’ve given your wife too unkind a cause for grief. You should find a way to apologize to her quickly.</speak>
+            <show chara="DressPortiaAngry" position="left" opacity="0.8"/>
+            <show chara="BassanioRegret" position="right"/>
+            <speak chara="_BiankaVenice">(...I really should have cut off my left hand when coming home. That way, I could swear that I lost the ring while defending it from a robber.)</speak>
+            <show chara="GratianoSorry" position="right"/>
+            <speak chara="_WattVenice">Bu- But… Mr. Ba- Bassiano… also gave his ring to the doctor?</speak>
+            <show chara="GratianoNervous" position="right"/>
+            <speak chara="_WattVenice">They helped us win the lawsuit, but they wouldn’t take any money, only——</speak>
+            <show chara="GratianoNervous" position="right" opacity="0.8"/>
+            <show chara="DressPortiaShock" position="left"/>
+            <speak chara="_RitaVeniceM">——What?</speak>
+            <show chara="DressPortiaFalseShock" position="left"/>
+            <speak chara="_RitaVeniceM">What ring did you give him, my love? Not the one I gave you, right?</speak>
+            <show chara="DressPortiaFalseShock" position="left" opacity="0.8"/>
+            <show chara="BassanioRegret" position="right"/>
+            <speak chara="_BiankaVenice">...If I could make you happy by lying, I would. But you can see the ring is not on my hand, and nothing I say will make you happy.</speak>
+            <show chara="BassanioRegret" position="right" opacity="0.8"/>
+            <show chara="DressPortiaFalseShock" position="left"/>
+            <speak chara="_RitaVeniceM">Oh my god, what good is it to be honest now? There is no trace of that in your hypocritical heart.</speak>
+            <show chara="DressPortiaAngry" position="left"/>
+            <speak chara="_RitaVeniceM">By heaven, I won’t come anywhere near your bed until I see that ring in your hand again!</speak>
+            <show chara="DressPortiaAngry" position="left" opacity="0.8"/>
+            <show chara="BassanioRegret" position="right"/>
+            <speak chara="_BiankaVenice">……</speak>
+            <show chara="BassanioTangled" position="right"/>
+            <speak chara="_BiankaVenice">Sweet Portia, If you knew who I gave the ring to——</speak>
+            <show chara="BassanioTangled" position="right" opacity="0.8"/>
+            <show chara="DressPortiaSerious" position="left"/>
+            <speak chara="_RitaVeniceM">It’s not a question of who you gave it to——</speak>
+            <show chara="DressPortiaAngry" position="left"/>
+            <speak chara="_RitaVeniceM">If you had realised the significance of the ring, or half the worth of she who gave you the ring, you wouldn’t have parted with the ring,</speak>
+            <show chara="DressPortiaFalseShock" position="left"/>
+            <speak chara="_RitaVeniceM">What man could be so unreasonable, so insensitive, as to insist on taking a ring from someone else’s hand?</speak>
+            <show chara="DressPortiaFalseShock" position="left"/>
+            <speak chara="_RitaVeniceM">Is he a fool not having realized the sentimental value of it?</speak>
+            <speak chara="_RitaVeniceM">I agree with Nerissa. I’d bet my life that some woman has the ring!</speak>
+            <show chara="DressPortiaFalseShock" position="left" opacity="0.8"/>
+            <show chara="BassanioShock" position="right"/>
+            <speak chara="_BiankaVenice">No!</speak>
+            <show chara="BassanioHelpless" position="right"/>
+            <speak chara="_BiankaVenice">I swear in my honour, madam, in my soul, I really gave it to the doctor who helped us in court.</speak>
+            <show chara="BassanioRegret" position="right"/>
+            <speak chara="_BiankaVenice">He refused to take three thousand ducats and demanded the ring, which I refused him, and let him leave displeased.</speak>
+            <show chara="BassanioTangled" position="right"/>
+            <speak chara="_BiankaVenice">The man who had saved the life of my dear friend! What can I say, sweet lady?</speak>
+            <show chara="BassanioHelpless" position="right"/>
+            <speak chara="_BiankaVenice">I was forced to send it after him: I was filled with shame and a sense of obligation. I couldn’t besmirch my honour with such ingratitude.</speak>
+            <show chara="BassanioRegret" position="right"/>
+            <speak chara="_BiankaVenice">Pardon me, good lady, but if you had been there I think you would have begged me for the ring to give to the worthy doctor.</speak>
+            <show chara="BassanioRegret" position="right" opacity="0.8"/>
+            <show chara="DressPortiaSerious" position="left"/>
+            <speak chara="_RitaVeniceM">Don’t let that doctor come anywhere near my house!</speak>
+            <show chara="DressPortiaThink" position="left"/>
+            <speak chara="_RitaVeniceM">But since he’s got the jewel that I loved, and which you swore to keep for my sake——</speak>
+            <show chara="DressPortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">——I’ll be as generous as you: I won’t deny him any of my possessions.</speak>
+            <show chara="DressPortiaSneer" position="left"/>
+            <speak chara="_RitaVeniceM">No, not even my body, nor my husband’s bed.</speak>
+            <show chara="DressPortiaSneer" position="left" opacity="0.8"/>
+            <show chara="AntonioHelpless" position="right"/>
+            <speak chara="_ThalesVenice">Madam, please calm down. I’m the unhappy subject of these quarrels.</speak>
+            <show chara="AntonioHelpless" position="right" opacity="0.8"/>
+            <show chara="DressPortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">Sir, don’t be troubled. We all like you, and you are welcome nevertheless.</speak>
+            <show chara="DressPortiaSmile" position="left" opacity="0.8"/>
+            <show chara="BassanioRegret" position="right"/>
+            <speak chara="_BiankaVenice">Portia! Forgive me for offending you. Here, with all these friends as witnesses, I swear to you, even by your lovely eyes, in which I see myself…</speak>
+            <show chara="BassanioRegret" position="right" opacity="0.8"/>
+            <show chara="DressPortiaFalseShock" position="left"/>
+            <speak chara="_RitaVeniceM">What are you talking about? There is you in my left eye, and there is you in my right eye. Are you going to swear by your hypocritical self?</speak>
+            <show chara="DressPortiaFalseShock" position="left" opacity="0.8"/>
+            <show chara="BassanioPrudish" position="right"/>
+            <speak chara="_BiankaVenice">No! Just listen! Forgive this fault and I swear by my soul that I’ll never break a promise to you!</speak>
+            <show chara="AntonioNormal" position="right"/>
+            <speak chara="_ThalesVenice">My good lady, I staked my body for his happiness. Now I offer to be bound again, with my soul as the forfeit.</speak>
+            <show chara="AntonioSwear" position="right"/>
+            <speak chara="_ThalesVenice">With my soul as the forfeit, your husband will never again knowingly break faith with you.</speak>
+            <show chara="AntonioSwear" position="right" opacity="0.8"/>
+            <show chara="DressPortiaShock" position="left"/>
+            <speak chara="_RitaVeniceM">Good sir, there is no need for contracts——</speak>
+            <show chara="DressPortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">Instead, you’ll be his guarantor. Give this to my husband, and tell him to look after it better than the other.</speak>
+            <show chara="DressPortiaSmile" position="left" opacity="0.8"/>
+            <show chara="AntonioSmile" position="right"/>
+            <speak chara="_ThalesVenice">Here, Lord Bassanio! Swear to keep this ring forever!</speak>
+            <show chara="BassanioShock" position="right"/>
+            <speak chara="_BiankaVenice">...By heaven! It’s the one I gave the doctor!</speak>
+            <show chara="BassanioShock" position="right" opacity="0.8"/>
+            <show chara="DressPortiaSneer" position="left"/>
+            <speak chara="_RitaVeniceM">I got it from him.</speak>
+            <show chara="DressPortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">Forgive me, Bassanio. The doctor slept with me in return for this ring.</speak>
+            <show chara="AliceSmileClose" position="right"/>
+            <speak chara="_AliceVeniceM">And forgive me, my gentle Gratiano, because that same scrubbed boy, the doctor’s clerk, slept with me for this ring as well.</speak>
+            <show chara="AliceSmileClose" position="right" opacity="0.8"/>
+            <show chara="GratianoFindOthersUnreasonable" position="left"/>
+            <speak chara="_WattVenice">What… the hell?</speak>
+            <show chara="BassanioFindOthersUnreasonable" position="left"/>
+            <speak chara="_BiankaVenice">That… That’s...</speak>
+            <show chara="BassanioFindOthersUnreasonable" position="left" opacity="0.8"/>
+            <show chara="DressPortiaSneer" position="right"/>
+            <speak chara="_RitaVeniceM">Fufu, seems like the shock was a little too much; I don’t think we should continue to tease you.</speak>
+            <show chara="DressPortiaHappy" position="right"/>
+            <speak chara="_RitaVeniceM">Here’s a letter; read it at your leisure. It comes from Padua; from Bellario. In it you will discover that Portia was the doctor, and Nerissa there, her clerk.</speak>
+            <show chara="DressPortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">Lorenzo here, will tell you that I set out immediately after you and have just returned. I haven’t even been inside yet.</speak>
+            <show chara="DressPortiaHappy" position="right"/>
+            <speak chara="_RitaVeniceM">Antonio, you are welcome, and I have even better news for you than you expect:</speak>
+            <show chara="DressPortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">Open this letter soon. You’ll find that three of your ships returned to the harbour richly laden. You must never have expected this letter to come from me.</speak>
+            <show chara="DressPortiaSmile" position="right" opacity="0.8"/>
+            <show chara="AntonioShock" position="left"/>
+            <speak chara="_ThalesVenice">...I’m speechless.</speak>
+            <show chara="BassanioShock" position="left"/>
+            <speak chara="_BiankaVenice">So… Were you the doctor and I couldn’t tell?</speak>
+            <show chara="BassanioShock" position="left" opacity="0.8"/>
+            <show chara="DressPortiaSneer" position="right"/>
+            <speak chara="_RitaVeniceM">Puff. Most men have no experience with crossdressing, so it’s normal for you to not have realized.</speak>
+            <show chara="DressPortiaSneer" position="right" opacity="0.8"/>
+            <show chara="BassanioShy" position="left"/>
+            <speak chara="_BiankaVenice">……</speak>
+            <show chara="BassanioConfident" position="left"/>
+            <speak chara="_BiankaVenice">Ah, let us leave all the questions behind!</speak>
+            <speak chara="_BiankaVenice">Sweet doctor, you will be my bed partner tonight!</speak>
+            <show chara="BassanioSmile" position="left"/>
+            <speak chara="_BiankaVenice">And when I’m away you can sleep with my wife.</speak>
+            <show chara="BassanioShy" position="left"/>
+            <speak chara="_BiankaVenice"> ...Or something like that.</speak>
+            <show chara="BassanioShy" position="left" opacity="0.8"/>
+            <show chara="DressPortiaSneer" position="right"/>
+            <speak chara="_RitaVeniceM">Alas, Bassiano, you suddenly learned to sweet talk - I think if you ever became a judge, you would be more talkative than the doctor.</speak>
+            <show chara="DressPortiaHappy" position="right"/>
+            <speak chara="_RitaVeniceM">By the way, Lorenzo——</speak>
+            <show chara="DressPortiaHappy" position="right" opacity="0.8"/>
+            <show chara="LorenzoSmile" position="left"/>
+            <speak chara="_YukimuraVenice">What’s the matter, madam?</speak>
+            <show chara="LorenzoSmile" position="left" opacity="0.8"/>
+            <show chara="DressPortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">This good news is for you: Here is a document signed by your rich father-in-law. Not only will he now give you half of his wealth for you and Jessica;</speak>
+            <speak chara="_RitaVeniceM">But after his death, all of his inheritance will go to you.</speak>
+            <show chara="DressPortiaSmile" position="right" opacity="0.8"/>
+            <show chara="LorenzoHappy" position="left"/>
+            <speak chara="_YukimuraVenice">That’s incredible! Madam, you are an angel who spreads happiness!</speak>
+            <show chara="LorenzoHappy" position="left" opacity="0.8"/>
+            <show chara="DressPortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">It’s almost morning, but I'm sure there’s more that you want to know about these events.</speak>
+            <show chara="DressPortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">Let’s go in. You can interrogate us there and we’ll tell you everything you want to know.</speak>
+            <show chara="DressPortiaSmile" position="right" opacity="0.8"/>
+            <show chara="BassanioSmile" position="left"/>
+            <speak chara="_BiankaVenice">There’s only two hours until daylight; It’s better to go to sleep and wait until the afternoon to celebrate our entire adventure together——</speak>
+            <show chara="BassanioShy" position="left"/>
+            <speak chara="_BiankaVenice">——Is that alright, my Sweet Doctor?</speak>
+            <goto goto="190" clockwise="1"/>
+        </scene>
+        <scene id="190" background="stageHuacaCloseUp.jpg">
+            <bgm src="10_10_kalinka.mp3" status="start"></bgm>
+            <show chara="BassanioShy" position="left"/>
+            <speak chara="_BiankaVeniceSelf">Phew… I didn’t expect that the last scene would be the most tiring part.</speak>
+            <show chara="BassanioShy" position="left" opacity="0.8"/>
+            <show chara="DressPortiaFalseShock" position="right"/>
+            <speak chara="_RitaVeniceMSelf">Hm? Is that so?</speak>
+            <show chara="DressPortiaSneer" position="right"/>
+            <speak chara="_RitaVeniceMSelf">I thought… Bianka-sama would definitely enjoy it.</speak>
+            <show chara="DressPortiaSneer" position="right" opacity="0.8"/>
+            <show chara="BassanioShy" position="left"/>
+            <speak chara="_BiankaVeniceSelf">Whe- Where would I——</speak>
+            <show chara="BassanioFindOthersUnreasonable" position="left"/>
+            <speak chara="_BiankaVeniceSelf">What would make me happy in that scene?</speak>
+            <show chara="BassanioFindOthersUnreasonable" position="left" opacity="0.8"/>
+            <show chara="DressPortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceMSelf">Hm? You don’t know?</speak>
+            <goto goto="200" change="0"/>
+        </scene>
+        <scene id="200" background="CG31-1.jpg">
+            <bgm src="12_29_street.mp3" status="start"></bgm>
+            <speak chara="_Rita">“Sweet doctor, you will be my bed partner tonight!”</speak>
+            <speak chara="_Rita">“And when I’m away you can sleep with my wife.”</speak>
+            <goto goto="210" change="0"/>
+        </scene>
+        <scene id="210" background="CG31-2.jpg">
+            <bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
+            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">Hey!</speak>
+            <end last="1" post="U2FsdGVkX19p0u0anU64b1thN0ia"/>
+        </scene>
+    </story>
+</data>

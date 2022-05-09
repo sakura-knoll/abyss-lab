@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="dashboard.jpg">
+            <bgm src="morning.mp3" status="start"></bgm>
+            <text>5 in the morning.</text>
+            <text>Inside a device wider than the driver seat of a truck, a young girl strapped with a belt turns on a machine.</text>
+            <text>Above the power button there is a mottled lamp. The abstract meter is surrounded by hard to read Cyrillic letters.</text>
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <text>И...Н...Т...Е...Р...К...О...С...М...О...С...</text>
+            <text>ИНТЕРКОСМОС (INTERKOSMOS)</text>
+            <!-- RENAME: Approximately half a century ago, the organization 「Destiny」 helped humanity send several astronauts of many different nationalities to the Moon. -->
+            <text>Approximately half a century ago, the organization 「Schicksal」 helped humanity send several astronauts of many different nationalities to the Moon.</text>
+            <text>This machine is a relic of that glorious era.</text>
+            <speak chara="_mechanicalSound">Warm-up is over.</speak>
+            <speak chara="_mechanicalSound">Current simulation magnification, 0.2.</speak>
+            <speak chara="_mechanicalSound">Starting operation.</speak>
+            <text>The smell of oil, the sound of machinery and the movement of the girl's hips serve as a signal to know the air pressurization system has begun to adjust the gravity.</text>
+            <text>Now her ankles and knees are only supporting 20% of her weight——</text>
+            <text>This will let the young girl run tens of kilometers continuously without risking damage to her joints.</text>
+            <text>The morning sun rises in the distance.</text>
+            <text>Valkyrie Durandal has begun another day of training.</text>
+            <goto goto="10" clockwise="1"/>
+        </scene>
+        <scene id="10" background="gymnasium.jpg">
+            <bgm src="peerGynt.mp3" status="continue"></bgm>
+            <show chara="biankaSportSmileClose" position="right"/>
+            <speak chara="_Durandal">Average heart rate is 125... Good, this is perfect.</speak>
+            <show chara="biankaSportSmileClose" position="right" opacity="0.8"/>
+            <show chara="ritaMaidSmileClose" position="left"/>
+            <speak chara="_Rita">In that case, 「Bianka」-sama, shall we have breakfast?</speak>
+            <show chara="ritaMaidSquintClose" position="left"/>
+            <speak chara="_Rita" remark="next">Today's dessert is a freshly baked Cheese Mille-feuille.</speak>
+            <remark post="U2FsdGVkX18du3l7nMcHK1ORJgIy">
+                <p class="article-text-h">Note：</p>
+                <p class="article-text">法式千层酥（mille-feuille）是由三层酥皮夹两层奶油或果酱制成的一类蛋糕，其发明灵感可能源自那不勒斯的披萨。</p>
+                <p class="article-text">由于“Napolitain”（“那不勒斯”的形容词形式）与"Napoleon"（“拿破仑”）的拼写近似，在英文中此甜点遂被戏称为"Napoleon"；中文亦随之译作“拿破仑蛋糕”。</p>
+                <p class="article-text">p.s. 由于1812年俄法战争的关系，“拿破仑”在俄罗斯是最受欢迎的蛋糕款式之一。</p>
+            </remark>
+            <show chara="ritaMaidSquintClose" position="left" opacity="0.8"/>
+            <show chara="biankaSportSurprisedClose" position="right"/>
+            <speak chara="_Durandal">Hm? Rita? What's up with you today, why such a high calorie——</speak>
+            <speak chara="_Durandal">——Wait.</speak>
+            <speak chara="_Durandal">Did you call me... 「Bianka」?</speak>
+            <show chara="biankaSportSurprisedClose" position="right" opacity="0.8"/>
+            <show chara="ritaMaidNaughtyClose" position="left"/>
+            <speak chara="_Rita">Hehehe. Correct.</speak>
+            <show chara="ritaMaidSquintClose" position="left"/>
+            <speak chara="_Rita">Today is a special day that should be celebrated with a cake.</speak>
+            <show chara="ritaMaidSquintClose" position="left" opacity="0.8"/>
+            <show chara="biankaSportSurprisedClose" position="right"/>
+            <speak chara="_Durandal">Today? February 28th... No, it's already 29th?</speak>
+            <speak chara="_Durandal">Ah.</speak>
+            <show chara="biankaSportHesitateClose" position="right"/>
+            <speak chara="_Durandal">.....</speak>
+            <speak chara="_Durandal">It's been 4 years already.</speak>
+            <show chara="biankaSportSmileClose" position="right"/>
+            <speak chara="_Durandal">From the day I met you... and the day I met them.</speak>
+            <show chara="biankaSportHesitateClose" position="right"/>
+            <speak chara="_Durandal">...Even I have gotten used to the name 「Durandal」.</speak>
+            <speak chara="_Durandal">.....</speak>
+            <show chara="biankaSportHesitateClose" position="right" opacity="0.8"/>
+            <show chara="ritaMaidNormalClose" position="left"/>
+            <!-- RENAME: The Bishop will put his plan in motion at the right moment. -->
+            <speak chara="_Rita">The Overseer will put his plan in motion at the right moment.</speak>
+            <speak chara="_Rita">The day when we can finally fulfill our promise will certainly come.</speak>
+            <show chara="ritaMaidNormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaSportSmileClose" position="right"/>
+            <speak chara="_Durandal">...Yeah.</speak>
+            <speak chara="_Durandal">Keeping that promise is very important for the girl called Bianka.</speak>
+            <goto goto="20" change="#ffffff"/>
+        </scene>
+        <scene id="20" background="libraryDay.jpg">
+            <bgm src="peerGynt.mp3" status="continue"></bgm>
+            <!-- RENAME: A now yellow colored piece of paper sits quietly in the archives of Destiny Organization. -->
+            <text>A now yellow colored piece of paper sits quietly in the archives of Schicksal.</text>
+            <text>The following is written on the first page of this confidential document——</text>
+            <text>Top Secret Mission："LONELY PANTHALASSA" </text>
+            <text>Start Time: February 29th 2012</text>
+            <text>Location: ██████████ - The Sea of Quanta  </text>
+            <text>Target: ██████████</text>
+            <!-- RENAME: Members: Bianka "Durandal" Atagina (12), Rita Rossweisse (16) -->
+            <text>Members: Bianka "Durandal" Ataegina (12), Rita Rossweisse (16)</text>
+            <text>Status: Closed</text>
+            <text>Reviewed by: Otto Apocalypse</text>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="black">
+            <bgm src="peerGynt.mp3" status="continue"></bgm>
+            <text>And now...</text>
+            <text>The story will go back in time 1461 days from February 29th 2016——</text>
+            <!-- RENAME: To the moment when Bianka Atagina and Rita Rossweisse arrived at the 「Quantum Sea」. -->
+            <text>To the moment when Bianka Ataegina and Rita Rossweisse arrived at the 「Sea of Quanta」.</text>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="fishingVillage.jpg">
+            <bgm src="bigTask.mp3" status="start"></bgm>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_BiankaNoName">Gosh, these refugees are nothing but cowards!</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_BiankaNoName">They're all the same no matter the era they came from!</speak>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_BiankaNoName">Can you believe they would prefer to live in hunger rather than help us sail to the sea!?</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_BiankaNoName">How spineless can someone be!?</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_RitaNoName">Well, before they drifted here they didn't have any sailing experience...</speak>
+            <show chara="rita17NormalClose" position="right"/>
+            <speak chara="_RitaNoName">...It's natural they would be afraid of the mythical sea monster 「Leviathan」.</speak>
+            <show chara="rita17NormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_BiankaNoName">What—— Are you saying it's okay for them to never leave this island? It's okay for them to keep living only picking up shells and catching crabs?</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="right"/>
+            <speak chara="_RitaNoName">There is a saying that goes 「The boat should be near the coast」.</speak>
+            <show chara="rita17SquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_BiankaNoName">...What?</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="right"/>
+            <speak chara="_RitaNoName">Bianka-sama, the 「average person」 is pessimistic and realistic. Before they even start considering the rewards of their success, they look at the consequences of their failure.</speak>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_RitaNoName">If a person like that is put against the sea, a completely unknown world to them—— They won't be able to fight back against their fears.</speak>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_RitaNoName">The name 「Leviathan」...</speak>
+            <speak chara="_RitaNoName">Makes them subconsciously believe that sailing to the sea is equal to becoming an enemy of nature itself——</speak>
+            <speak chara="_RitaNoName">——In other words, they are committing suicide.</speak>
+            <show chara="rita17SquintClose" position="right"/>
+            <speak chara="_RitaNoName">Thus, from their perspective, we are naive 「crazy adventurers」.</speak>
+            <show chara="rita17SquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">Hm. Sympathizing with the weak?</speak>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">Also——</speak>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">——Rita, how many times have I told you today?</speak>
+            <speak chara="_Bianka">Stop adding 「-sama」 to my name... It's creepy.</speak>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">I'm a Valkyrie who only met you right before this mission started, and you only became my adjutant due to a certain someone's insistence.</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <!-- RENAME: ——Please stop talking to me the same way you talk to the Bishop! -->
+            <speak chara="_Bianka">——Please stop talking to me the same way you talk to the Overseer!</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="right"/>
+            <speak chara="_Rita">Understood, Bianka-sama.</speak>
+            <show chara="rita17NormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_MiguelNoName">Excuse me.</speak>
+            <speak chara="_MiguelNoName">You two... are you perhaps new here?</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaConfidentClose" position="left"/>
+            <speak chara="_Bianka">...Yes.</speak>
+            <speak chara="_Bianka">We've been here for 38 minutes and 25 seconds—— No, 26 seconds now.</speak>
+            <show chara="biankaProudClose" position="left"/>
+            <speak chara="_Bianka">However, unlike you all, we've come here to 「explore」 rather than to 「escape」.</speak>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">Needless to say, until our mission is completed—— We plan to involve ourselves in all your joys and sorrows.</speak>
+            <show chara="biankaConfidentClose" position="left"/>
+            <!-- RENAME: I am Bianka Atagina, and this my adjutant, Rita Rossweisse—— How can we help you? -->
+            <speak chara="_Bianka">I am Bianka Ataegina, and this my adjutant, Rita Rossweisse—— How can we help you?</speak>
+            <show chara="biankaConfidentClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_MiguelNoName">Hahahaha!</speak>
+            <speak chara="_MiguelNoName">Ahahahaha!</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">...What's so funny?</speak>
+            <show chara="biankaAngryClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_MiguelNoName">My apologies! We the elderly just like to laugh. Please don't mind it, miss explorer.</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaAngryClose" position="left" opacity="0.8"/>
+            <show chara="cervantesNormalClose" position="right"/>
+            <speak chara="_MiguelNoName">Anyway——</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_MiguelNoName">I heard you two are trying to gather forces to defeat the 「Leviathan」 and open the way to the ocean.</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">Yes, that's correct.</speak>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">Not a single person wanted to fight together with us though!</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_MiguelNoName">Haha... Understandable. None of them are warriors——</speak>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_MiguelNoName">——They can't be compared with heroes who have seen hell itself.</speak>
+            <show chara="cervantesGazeClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">How do you know that...</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_MiguelNoName">Hahaha, when you get to my age you can just tell by looking at someone's eyes!</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_MiguelNoName">I'm Miguel. Let me get straight to the point——</speak>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">Brave warriors... Would you embark on an epic hunt together with this old sailor who can't even move his left hand?</speak>
+            <show chara="cervantesGazeClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">What?</speak>
+            <show chara="biankaProudClose" position="left"/>
+            <speak chara="_Bianka">You mean...</speak>
+            <show chara="biankaProudClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">In short, I'll provide you with a ship and take care of steering it.</speak>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">——Though all I have is a reed boat! Hahaha!</speak>
+            <goto goto="50" clockwise="1"/>
+        </scene>
+        <scene id="50" background="beachIslandNoName.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">O sea, my old friend!</speak>
+            <speak chara="_Miguel">I thank you for not breaking this tattered ship so that we may sail again today!</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">...What's up with you?</speak>
+            <show chara="biankaSighClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">Hahaha... Look, this reed boat hasn't seen any action in 3 years but it's still ready to go!</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">Has the 「Leviathan」 kept people trapped on the island for that long?</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="cervantesNormalClose" position="right"/>
+            <speak chara="_Miguel">Hmm, it could be even longer. Seems to have made a nest near the coast and refuses to go away.</speak>
+            <show chara="cervantesSeriousClose" position="right"/>
+            <speak chara="_Miguel">Though the first year after I came here I was still catching plenty of fish.</speak>
+            <show chara="cervantesSeriousClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">...You didn't see any other people out in the sea when you went out fishing?</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="cervantesNormalClose" position="right"/>
+            <speak chara="_Miguel">None. Just look at it.</speak>
+            <show chara="cervantesSeriousClose" position="right"/>
+            <speak chara="_Miguel">There is no other land nearby—— Not even Columbus himself would sail without making the necessary preparations.</speak>
+            <show chara="cervantesSeriousClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">...By preparation you mean enough food and water?</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">Yeah, you need those too but——</speak>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">——The most important thing is to have a 「strong ship」.</speak>
+            <show chara="cervantesShoutClose" position="right"/>
+            <speak chara="_Miguel">Keels! Triangle and square sails! That's what matters the most.</speak>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">Do you think anyone would look for new lands on an unreliable wooden boat? It's impossible, the sea is not so soft.</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaAngryClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">But if you can defeat the 「Leviathan」, then I'm sure everyone will start listening to you and build a ship strong enough to sail across the sea.</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">Are you sure about that?</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">Hahaha, isn't humanity a creature that lives on faith?</speak>
+            <show chara="cervantesNormalClose" position="right"/>
+            <speak chara="_Miguel">For example, do you know why a small group of Spanish soldiers was able to win against an immeasurable number of barbarians?</speak>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">It wasn't because they had enormous power on their side—— But because they never let the enemy feel they had a chance of winning.</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">That's how a mere 200 adventurers were able to fight against thousands and conquer Peru.</speak>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">The Battle of Lepanto was won also by a small number and it wasn't thanks to the Galleass—— The enemy was beaten by their momentum.</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">Could it be... You are from the imperial age of Spain?</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">Oh, you could tell?</speak>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">I'm not one to brag—— But before I came here I wasn't just a veteran soldier, but a cultured person who wrote many books too!</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">Heh, that attitude makes me think your books didn't sell well.</speak>
+            <show chara="biankaSneerClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSeriousClose" position="right"/>
+            <speak chara="_Miguel">Hmmm... You got a point. I don't know if I'm famous 400 years in the future.</speak>
+            <show chara="cervantesNormalClose" position="right"/>
+            <speak chara="_Miguel">Some of the books I wrote are 《La Galatea》, 《The Travails of Persiles and Sigismunda》——</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">——And 《Don Quixote》.</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">You are...</speak>
+            <speak chara="_Rita" remark="next">Could it be you are... Miguel De Cervantes?</speak>
+            <remark post="U2FsdGVkX19Bo9kqC3iZolEItRdA">
+                <p class="article-text-h">Note：</p>
+                <p class="article-text">米格尔·德·塞万提斯·萨维德拉（Miguel de Cervantes Saavedra, 1547 ~ 1616）是西班牙文学世界里最伟大的作家，甚至连西班牙语都被称为“塞万提斯的语言”。他的《堂吉诃德》，被认为是文学史上的第一部“现代小说”。</p>
+                <p class="article-text">塞万提斯曾作为普通军人参加了1571年10月7日的勒班陀战役。在八年后撰写的一项官方报告中这样写道：“……在这场海战中，塞万提斯发着高烧，状态很差，连长和战友告诉他：你的情况很糟糕，应该好好躺在帆船的房间里。塞万提斯指责道：你们说什么呢，我没有尽到我应尽的义务，与其当怕死鬼，倒宁愿为了上帝和国王而战死……他就这样与战友们一起，像连长所命令的那样，在这场战斗中和土耳其人搏斗着。战斗结束后，胡安将军知晓了他的英勇表现，给了他额外的四个金币……在这场战役中，他的胸部和手部两处受伤，他的左手从此残废了。”</p>
+            </remark>
+            <goto goto="60" clockwise="1"/>
+        </scene>
+        <scene id="60" background="beachIslandNoName.jpg">
+            <bgm src="peerGynt.mp3" status="continue"></bgm>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Cervantes">Well aren't I pretty famous!</speak>
+            <speak chara="_Cervantes">A master of literature! Hahaha, has a nice ring to it, I love it!</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">And here I thought you were a soldier used to the battlefield... Who could have guessed you could be this smug.</speak>
+            <show chara="biankaSighClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Cervantes">Hahahaha! How could I not be happy after hearing that! You should smile too, miss Bianka!</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Cervantes">It'll make you more motivated once we're out in the sea!</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">Hmph. Your concern is unneeded. There hasn't been a single day I haven't given my everything since I've become a Valkyrie at the age of 10.</speak>
+            <show chara="biankaProudClose" position="left"/>
+            <speak chara="_Bianka">If you teach me how, I'm confident I can learn how to catch fish or steer a ship perfectly.</speak>
+            <show chara="rita17SmileClose" position="left"/>
+            <speak chara="_Rita">My my. By the way...</speak>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">...Cervantes-san, how should we divide our roles once we sail?</speak>
+            <show chara="rita17SquintClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Cervantes">Haha, don't be so stiff, miss. You can call me 「Miguel」.</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">That's easy.</speak>
+            <show chara="cervantesNormalClose" position="right"/>
+            <speak chara="_Miguel">I'll be the captain. I'll steer the ship, and judge when we should advance and retreat. As for you two——</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">Miss Bianka's specialty was spears, right? The harpoons are all yours.</speak>
+            <speak chara="_Miguel">Miss Rita is a very attentive person, so keep an eye on the anchor rope to make sure it doesn't get tangled.</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">Anchor rope? What is it for?</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">That will, of course, be used to bring the ship closer to the beast.</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">Can't kill it if we're too far away, right? Also, we need to pick up his body and bring it back to the island for everyone to see. </speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">...What are we supposed to do if the 「Leviathan」 were to attack us? This reed boat is a little...</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">I'll make use of the currents to not give him the chance to attack us. It's that simple!</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">Oh right, didn't you two show something to the people on the island? A 「gun」 capable of even destroying boulders—— What was it called again...</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">...The all-purpose firing weapon of the previous civilization, 「2nd Relic」. Not a hard name to remember.</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">Hahahaha! We old people aren't good with long names.</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">But anyway, we have a weapon stronger than the cannons of the Invincible Armada——</speak>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">——What we're riding on isn't an unreliable reed boat... but a merciless hunting warship!</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">Remember this——</speak>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">「Leviathan」, sea creatures, they're all just mere beasts. The only difference is their size.</speak>
+            <show chara="cervantesGazeClose" position="right" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">——And brave hunters can't possibly be afraid of a prey they're willingly approaching themselves.</speak>
+            <show chara="biankaSneerClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">——Yeah, you get it!</speak>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">Now! Let's kill him!</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="left"/>
+            <!-- RENAME: Look closely, old man. This is how a Valkyrie from 「Destiny」 fights! -->
+            <speak chara="_Bianka">Look closely, old man. This is how a Valkyrie from 「Schicksal」 fights!</speak>
+            <show chara="biankaSneerClose" position="left" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="right"/>
+            <speak chara="_Rita">(....)</speak>
+            <speak chara="_Rita">(How can he say it's a 「mere beast」 with such confidence?)</speak>
+            <goto goto="70" clockwise="1"/>
+        </scene>
+        <scene id="70" background="seaWaveIslandNoName.jpg">
+            <bgm src="seaAndSky.mp3" status="start"></bgm>
+            <text article="1">
+                <p class="article-text">They walked around to measure the length of the island and looked at it from the top of many rocky mountains, but now that they are out in the sea, the two Valkyries realize how small the 「harbor」 truly was.</p>
+            </text>
+            <text article="1">
+                <p class="article-text">Even though it's only been a few minutes since the reed boat left the port, the island they were moments ago can't be seen anymore. The 「shelter」 that was large enough to house dozens of people could be covered with the palm of a hand.</p>
+            </text>
+            <text>The midday sun shines on the surface of the sea. The light reflected is so dazzling it's hard to keep one's eyes open.</text>
+            <text>The old man kept rowing the boat with his long oars, steadily advancing in the undulating waves.</text>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">Careful. He's coming.</speak>
+            <show chara="cervantesGazeClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">...I don't sense anything near us.</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">Yeah, but it's almost time.</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">...Time?</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">After the 「Leviathan」 gets a whiff that someone is out in the sea, it takes him approximately 15 minutes to catch up to the ship.</speak>
+            <show chara="cervantesGazeClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">I see——</speak>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">——So that's why you stopped the ship here!</speak>
+            <show chara="biankaSneerClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">That's right. The reef 5 meters below the ship protects us from any attack from beneath.</speak>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">After all, we're using ourselves as bait—— Being careless can be fatal.</speak>
+            <speak chara="_Miguel">And the opportunity to strike will only show itself for an instant——</speak>
+            <bgm src="noise.mp3" status="start"></bgm>
+            <show chara="cervantesShoutClose" position="right"/>
+            <speak chara="_Miguel">——Wait, what's that sound!?</speak>
+            <show chara="cervantesShoutClose" position="right" opacity="0.8"/>
+            <show chara="rita17AngryClose" position="left"/>
+            <speak chara="_Rita">The sound of machinery!?</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">Look! There's something black under the water...!</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">Is that... blood?</speak>
+            <show chara="cervantesShoutClose" position="right"/>
+            <speak chara="_Miguel">Something is fighting the 「Leviathan」 under the sea!</speak>
+            <show chara="cervantesShoutClose" position="right" opacity="0.8"/>
+            <show chara="rita17AngryClose" position="left"/>
+            <speak chara="_Rita">——It's coming!</speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="CG1.jpg">
+            <bgm src="noise.mp3" status="stop"></bgm>
+            <sound src="se_spring.mp3"/>
+            <cg src="CG1.jpg" bg="CG1.jpg" fadeIn="0" fadeOut="1"></cg>
+            <speak chara="_Bianka">That's...</speak>
+            <speak chara="_Bianka">...A submarine!?</speak>
+            <end post="U2FsdGVkX19d+mMVBhzEm6N2HRMF"/>
+        </scene>
+    </story>
+</data>

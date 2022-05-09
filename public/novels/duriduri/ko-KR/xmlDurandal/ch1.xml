@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <story>
+    <scene id="0" background="dashboard.jpg">
+    	<bgm src="morning.mp3" status="start"></bgm>
+ 			<text>午前5時。</text>
+ 			<text>トラックの運転席よりも広い装置の中で、ベルトを締めた少女が機器の電源をオンにした。</text>
+ 			<text>電源ボタンの上にあるのは、まだらに灯ったランプ。抽象的なメーターとその周りには読解のし難いキリル文字が並んでいる。</text>
+ 			<bgm src="peerGynt.mp3" status="start"></bgm>
+ 			<text>И...Н...Т...Е...Р...К...О...С...М...О...С...</text>
+ 			<text>ИНТЕРКОСМОС (INTERKOSMOS)</text>
+ 			<text>約半世紀前、「天命」組織の協力の下、人類は国籍のそれぞれ異なった宇宙飛行士を数名、月に送ることに成功した。</text>
+ 			<text>この機械は、その輝かしい時代の遺産の一つである。</text>
+ 			<speak chara="_mechanicalSound">ウォームアップタイム終了。</speak>	
+ 			<speak chara="_mechanicalSound">現在シミュレーション倍率、0.2。</speak>
+ 			<speak chara="_mechanicalSound">運行を開始します。</speak>
+ 			<text>古い機械から漂うオイルの匂いと鳴り響く騒音、それと共に少女の腰が下がり、空気与圧システムが重力のバランスを取り始める。</text>
+ 			<text>今、彼女の足首と膝は、体重の約20％ほどの負荷しか受けていない——</text>
+ 			<text>これにより、少女は関節損傷などのリスクを背負うことなく、連続で数十キロを走れるようになる。</text>
+ 			<text>朝日が昇る。</text>
+ 			<text>戦乙女・デュランダルの一日の訓練が始まった。</text>
+ 			<goto goto="10" clockwise="1"/>		
+	  </scene>
+	  <scene id="10" background="gymnasium.jpg">
+	  	<bgm src="peerGynt.mp3" status="continue"></bgm>
+	  	<show chara="biankaSportSmileClose" position="right"/>
+ 			<speak chara="_Durandal">平均心拍数125……よしっ、いい感じですね。</speak>
+ 			<show chara="biankaSportSmileClose" position="right" opacity="0.8"/>
+ 			<show chara="ritaMaidSmileClose" position="left"/>
+ 			<speak chara="_Rita">それでは「ビアンカ」様、朝食にいたしましょうか？</speak>
+ 			<show chara="ritaMaidSquintClose" position="left"/>
+ 			<speak chara="_Rita" remark="next">本日のデザートは、焼きたてのチーズミルフィーユです。</speak>
+			<remark post="U2FsdGVkX18du3l7nMcHK1ORJgIy">
+				<p class="article-text-h">注釈：</p>
+				<p class="article-text">ミルフィーユ（mille-feuille）は3枚のフィユタージュと呼ばれるパイ生地を重ね、その間にクリームを挟み、表面に粉砂糖がまぶしたもの、あるいは糖衣がけがされたフランス発祥の洋菓子。</p>
+				<p class="article-text">フランス語で mille は「千」を意味し、feuille は「葉」を意味している。つまり、mille-feuilleは「千枚の葉」という意。 歴史の長いお菓子である。フランス語での発音は「ミルフイユ」又は「ミルフェイユ」が近い。なお、日本人の発音「ミルフィーユ」では「千人の娘」となってしまう。</p>
+				<p class="article-text">p.s. 日本ではイチゴのミルフィーユのことを、ナポレオンが被っていた帽子に似ていることから「ナポレオンパイ」と呼ぶが、「ナポレオン」を通常のミルフィーユの名称として使う国も多い。</p>
+			</remark>	
+ 			<show chara="ritaMaidSquintClose" position="left" opacity="0.8"/>
+ 			<show chara="biankaSportSurprisedClose" position="right"/>
+ 			<speak chara="_Durandal">ん？リタ？今日はどうしたんですか、そんな高カロリーな——</speak>
+ 			<speak chara="_Durandal">——待ってください。</speak>
+ 			<speak chara="_Durandal">今、私のことを……「ビアンカ」と？</speak>
+ 			<show chara="biankaSportSurprisedClose" position="right" opacity="0.8"/>
+ 			<show chara="ritaMaidNaughtyClose" position="left"/>
+ 			<speak chara="_Rita">ふふふっ、その通りです。</speak>
+ 			<show chara="ritaMaidSquintClose" position="left"/>
+ 			<speak chara="_Rita">今日はケーキでお祝いすべき特別な日ですから。</speak>
+ 			<show chara="ritaMaidSquintClose" position="left" opacity="0.8"/>
+ 			<show chara="biankaSportSurprisedClose" position="right"/>
+ 			<speak chara="_Durandal">今日？2月28日……いや、29日がですか？</speak>
+ 			<speak chara="_Durandal">あっ。</speak>
+ 			<show chara="biankaSportHesitateClose" position="right"/>
+ 			<speak chara="_Durandal">……</speak>
+ 			<speak chara="_Durandal">もう4年なんですね。</speak>
+ 			<show chara="biankaSportSmileClose" position="right"/>
+ 			<speak chara="_Durandal">あなたと知り合ったのも……彼らと知り合ったのも。</speak>
+ 			<show chara="biankaSportHesitateClose" position="right"/>
+ 			<speak chara="_Durandal">……私自身でさえ「デュランダル」という名前に慣れていました。</speak>
+ 			<speak chara="_Durandal">……</speak>
+ 			<show chara="biankaSportHesitateClose" position="right" opacity="0.8"/>
+ 			<show chara="ritaMaidNormalClose" position="left"/>
+ 			<speak chara="_Rita">主教様はいつも機を見計らって計画を実行します。</speak>
+ 			<speak chara="_Rita">ですので、私たちにも自らの約束を果たす機会がいつか訪れます。</speak>
+ 			<show chara="ritaMaidNormalClose" position="left" opacity="0.8"/>
+ 			<show chara="biankaSportSmileClose" position="right"/>
+ 			<speak chara="_Durandal">……もちろんです。</speak>
+ 			<speak chara="_Durandal">それは少女ビアンカにとって、とても大事なことですから。</speak>
+ 			<goto goto="20" change="#ffffff"/>	
+	  </scene>
+	  <scene id="20" background="libraryDay.jpg">
+	  	<bgm src="peerGynt.mp3" status="continue"></bgm>
+ 			<text>天命組織の戦乙女資料室に、微かに黄色く変色した書類が静かに置かれている。</text>
+ 			<text>この機密処理がされた書類の冒頭には、こう書かれている——</text>
+ 			<text>機密任務："LONELY PANTHALASSA" </text>
+ 			<text>開始時間：2012年2月29日</text>
+ 			<text>任務地：██████████·“量子の海”  </text>
+ 			<text>任務目標：████████████</text>
+ 			<text>執行メンバー：ビアンカ・“デュランダル”・アタジナ（12）、リタ・ロスヴァイセ（16）</text>
+ 			<text>任務進捗：終了</text>
+ 			<text>最終確認者：オットー・アポカリプス</text>
+	  	<goto goto="30" change="#ffffff"/>	
+	  </scene>
+	  <scene id="30" background="black">
+	  	<bgm src="peerGynt.mp3" status="continue"></bgm>
+	  	<text>そう。</text>
+ 			<text>これから語られる物語は、2016年2月29日の1461日前——</text>
+ 			<text>ビアンカとリタが「量子の海」に辿り着いた最初の日から始まる。</text>
+ 			<goto goto="40" change="#ffffff"/>
+ 		</scene>
+ 		<scene id="40" background="fishingVillage.jpg">
+ 			<bgm src="bigTask.mp3" status="start"></bgm>
+ 			<show chara="biankaBiteClose" position="left"/>
+ 			<speak chara="_BiankaNoName">もう、ここの難民たちは揃いも揃ってみんな臆病者ばかりじゃないですか！</speak>
+ 			<show chara="biankaShoutClose" position="left"/>
+ 			<speak chara="_BiankaNoName">どの時代から来たってみんな同じです！</speak>
+ 			<show chara="biankaSneerClose" position="left"/>
+ 			<speak chara="_BiankaNoName">私たちに協力して出航するよりも、明日の食事もままならない日々の方が良いと言うんですか！？</speak>
+ 			<show chara="biankaShoutClose" position="left"/>
+ 			<speak chara="_BiankaNoName">もう少し意地というものはないんですか！？</speak>
+ 			<show chara="biankaShoutClose" position="left" opacity="0.8"/>
+ 			<show chara="rita17HesitateClose" position="right"/>
+ 			<speak chara="_RitaNoName">ここに流れ着くまで、彼らには航海をした経験がありませんから……</speak>
+ 			<show chara="rita17NormalClose" position="right"/>
+ 			<speak chara="_RitaNoName">……神話の中に出てくる海の怪物「リヴァイアサン」が怖いのも、仕方がないことでしょう。</speak>
+ 			<show chara="rita17NormalClose" position="right" opacity="0.8"/>
+ 			<show chara="biankaShoutClose" position="left"/>
+ 			<speak chara="_BiankaNoName">でも——このまま島から出られなくてもいいと言うんですか？あんな貝殻やカニを捕るだけの生活でいいんですか？</speak>
+ 			<show chara="biankaShoutClose" position="left" opacity="0.8"/>
+ 			<show chara="rita17SquintClose" position="right"/>
+ 			<speak chara="_RitaNoName">このようなことわざがあります、「The boat should be near the coast（小船は岸に近づいて運航すべきだ）」。</speak>
+ 			<show chara="rita17SquintClose" position="right" opacity="0.8"/>
+ 			<show chara="biankaBiteClose" position="left"/>
+ 			<speak chara="_BiankaNoName">……はい？</speak>
+ 			<show chara="biankaBiteClose" position="left" opacity="0.8"/>
+ 			<show chara="rita17SquintClose" position="right"/>
+ 			<speak chara="_RitaNoName">ビアンカ様、「一般人」というのは悲観的な現実主義者のことです。成功の報酬を考える前に、彼らはまず失敗した時の罰に目を向けます。</speak>
+ 			<show chara="rita17HesitateClose" position="right"/>
+ 			<speak chara="_RitaNoName">その相手が予測不能な海、全く未知なる世界となれば——少しでも可能性があることで、その恐怖は止められなくなります。</speak>
+ 			<show chara="rita17HesitateClose" position="right"/>
+ 			<speak chara="_RitaNoName">「リヴァイアサン」という名の通り……</speak>
+ 			<speak chara="_RitaNoName">彼らは無意識にそう思うのでしょう。海に出ることは、大自然を敵にすること——</speak>
+ 			<speak chara="_RitaNoName">——すなわち、自殺するということになります。</speak>
+ 			<show chara="rita17SquintClose" position="right"/>
+ 			<speak chara="_RitaNoName">ですので、彼らから見ると、私たちこそが世間知らずの「気の狂った冒険者」なのでしょうね。</speak>
+ 			<show chara="rita17SquintClose" position="right" opacity="0.8"/>
+ 			<show chara="biankaSighClose" position="left"/>
+ 			<speak chara="_Bianka">フン、弱い人たちに同情するんですか？</speak>
+ 			<show chara="biankaSeriousClose" position="left"/>
+ 			<speak chara="_Bianka">それと——</speak>
+ 			<show chara="biankaSneerClose" position="left"/>
+ 			<speak chara="_Bianka">——リタ、今日何回も言っていますよね？</speak>
+ 			<speak chara="_Bianka">「様」はやめてくださいと……気持ち悪いと思わないんですか？</speak>
+ 			<show chara="biankaSeriousClose" position="left"/>
+ 			<speak chara="_Bianka">私は任務開始前にあなたと知り合ったばかりの戦乙女ですし、あなただって誰かさんのせいで私の副官になっただけなんでしょう？</speak>
+ 			<show chara="biankaShoutClose" position="left"/>
+ 			<speak chara="_Bianka">——主教様相手に使うような言葉遣いを、この私にも使うのはやめてください！</speak>
+ 			<show chara="biankaShoutClose" position="left" opacity="0.8"/>
+ 			<show chara="rita17NormalClose" position="right"/>
+ 			<speak chara="_Rita">……かしこまりました、ビアンカ様。</speak>
+ 			<show chara="rita17NormalClose" position="right" opacity="0.8"/>
+ 			<show chara="biankaBiteClose" position="left"/>
+ 			<speak chara="_Bianka">……</speak>
+ 			<show chara="biankaBiteClose" position="left" opacity="0.8"/>
+ 			<bgm src="legion.mp3" status="start"></bgm>
+ 			<show chara="cervantesSmileClose" position="right"/>
+ 			<speak chara="_MiguelNoName">ちょっと失礼するよ。</speak> 			
+ 			<speak chara="_MiguelNoName">お二人さん……今日、島に来た新入りだろう？</speak>
+ 			<show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+ 			<show chara="biankaConfidentClose" position="left"/>
+ 			<speak chara="_Bianka">……ええ。</speak>
+ 			<speak chara="_Bianka">38分25秒——いいえ、26秒——の新入りです。</speak>
+ 			<show chara="biankaProudClose" position="left"/>
+ 			<speak chara="_Bianka">しかし、私たちはあなたたちとは違い、「避難」ではなく命令を受けて「探索」をしに来ました。</speak>
+ 			<show chara="biankaSeriousClose" position="left"/>
+ 			<speak chara="_Bianka">もちろん、任務が完了するまでは——この世界であなたたちと苦楽を共にします。</speak>
+ 			<show chara="biankaConfidentClose" position="left"/>
+ 			<speak chara="_Bianka">私はビアンカ・アタジナ、こちらは副官のリタ・ロスヴァイセ——何かご用でしょうか？</speak>
+ 			<show chara="biankaConfidentClose" position="left" opacity="0.8"/>
+ 			<show chara="cervantesLaughClose" position="right"/>
+ 			<speak chara="_MiguelNoName">ハハハハッ！</speak>
+ 			<speak chara="_MiguelNoName">ハーハハハハッ！</speak>
+ 			<show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+ 			<show chara="biankaAngryClose" position="left"/>
+ 			<speak chara="_Bianka">……何が面白いんです？</speak>
+ 			<show chara="biankaAngryClose" position="left" opacity="0.8"/>
+ 			<show chara="cervantesSmileClose" position="right"/>
+ 			<speak chara="_MiguelNoName">すまんすまん！年寄りは笑うのが好きでな、冒険者のお嬢さんは気にしないでくれ。</speak>
+ 			<show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+ 			<show chara="biankaAngryClose" position="left"/>
+ 			<speak chara="_Bianka">……</speak>
+ 			<show chara="biankaAngryClose" position="left" opacity="0.8"/>		
+ 			<show chara="cervantesNormalClose" position="right"/>
+ 			<speak chara="_MiguelNoName">ところで——</speak>
+ 			<show chara="cervantesSmileClose" position="right"/>
+ 			<speak chara="_MiguelNoName">お前さん、海上の道を切り開くために皆を先導して、「リヴァイアサン」を倒そうとしていると聞いたが。</speak>
+ 			<show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+ 			<show chara="biankaSeriousClose" position="left"/>
+ 			<speak chara="_Bianka">ええ、そうですね。</speak>
+ 			<show chara="biankaBiteClose" position="left"/>
+ 			<speak chara="_Bianka">一緒に戦おうという人はいませんでしたが！</speak>
+ 			<show chara="biankaBiteClose" position="left" opacity="0.8"/>
+ 			<show chara="cervantesLaughClose" position="right"/>
+ 			<speak chara="_MiguelNoName">ハハッ……そりゃそうだ。なんてったって、彼らは戦士じゃない——</speak>
+ 			<show chara="cervantesGazeClose" position="right"/>
+ 			<speak chara="_MiguelNoName">——地獄を見てきた英雄たちと比べるのは酷ってもんだ。</speak>
+ 			<show chara="cervantesGazeClose" position="right" opacity="0.8"/>
+ 			<show chara="rita17NormalClose" position="left"/>
+ 			<speak chara="_Rita">あなた……どうしてそれを……</speak>
+ 			<show chara="rita17NormalClose" position="left" opacity="0.8"/>
+ 			<show chara="cervantesLaughClose" position="right"/>
+ 			<speak chara="_MiguelNoName">ハハハハッ、この歳になると、目を見ただけで分かるさ！</speak>
+ 			<show chara="cervantesSmileClose" position="right"/>
+ 			<speak chara="_MiguelNoName">わしはミゲル、単刀直入に問おう——</speak>
+ 			<show chara="cervantesGazeClose" position="right"/>
+ 			<speak chara="_Miguel">勇敢なる二人の戦士よ……左手の動かぬこの年老いた水兵と共に、偉大なる狩りを成し遂げないか？</speak>
+ 			<show chara="cervantesGazeClose" position="right" opacity="0.8"/>
+ 			<show chara="rita17NormalClose" position="left"/>
+ 			<speak chara="_Rita">はい？</speak>
+ 			<show chara="biankaProudClose" position="left"/>
+ 			<speak chara="_Bianka">それって……</speak>
+ 			<show chara="biankaProudClose" position="left" opacity="0.8"/>
+ 			<show chara="cervantesSmileClose" position="right"/>
+ 			<speak chara="_Miguel">つまり、わしが船を出し、その操舵の責務を果たそう。</speak>
+ 			<show chara="cervantesLaughClose" position="right"/>
+ 			<speak chara="_Miguel">——藁の船でもよければの話だがな、ハハハッ！</speak>			
+ 			<goto goto="50" clockwise="1"/>
+ 		</scene>
+ 		<scene id="50" background="beachIslandNoName.jpg">
+ 			<bgm src="peerGynt.mp3" status="start"></bgm> 
+ 			<show chara="cervantesLaughClose" position="right"/>
+ 			<speak chara="_Miguel">ああ、海よ、我が友よ！</speak> 			
+ 			<speak chara="_Miguel">感謝する、今日までこのボロ船が壊れることなく、いま再び大海に漕ぎ出せることを！</speak> 
+ 			<show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+ 			<show chara="biankaSighClose" position="left"/>
+ 			<speak chara="_Bianka">……急にどうしちゃったんですか。</speak>
+ 			<show chara="biankaSighClose" position="left" opacity="0.8"/>
+ 			<show chara="cervantesLaughClose" position="right"/>
+ 			<speak chara="_Miguel">ハハハッ……見ろ、この葦船は3年も乗っていないというのに、まだ現役だ！</speak>
+ 			<show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+ 			<show chara="biankaSeriousClose" position="left"/>
+ 			<speak chara="_Bianka">……「リヴァイアサン」はそんなにも長い間、島の人たちをあそこに閉じ込めていたんですか？</speak>
+ 			<show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+ 			<show chara="cervantesNormalClose" position="right"/>
+ 			<speak chara="_Miguel">ふむ、もっと長いかもしれぬ。ヤツはこの近海に巣を作ったみたいでな、そこから離れなくなってしまったんじゃ。</speak>
+ 			<show chara="cervantesSeriousClose" position="right"/>
+ 			<speak chara="_Miguel">はぁ、最初ここに来た年はまだいい魚が捕れたんじゃがな。</speak>
+ 			<show chara="cervantesSeriousClose" position="right" opacity="0.8"/>
+ 			<show chara="rita17NormalClose" position="left"/>
+ 			<speak chara="_Rita">……魚を捕る時、この近海で他の島は見かけませんでしたか？</speak>
+ 			<show chara="rita17NormalClose" position="left" opacity="0.8"/>
+ 			<show chara="cervantesNormalClose" position="right"/>
+ 			<speak chara="_Miguel">うーむ、見ておらんな。</speak>
+ 			<show chara="cervantesSeriousClose" position="right"/>
+ 			<speak chara="_Miguel">この辺りからでは他の陸地は発見できん——たとえコロンブスであっても、十分な準備ができない限り軽率な出航はしないじゃろう？</speak>
+ 			<show chara="cervantesSeriousClose" position="right" opacity="0.8"/>
+ 			<show chara="biankaSeriousClose" position="left"/>
+ 			<speak chara="_Bianka">……準備というのは、飲み水と食料のことですか？</speak>
+ 			<show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+ 			<show chara="cervantesSmileClose" position="right"/>
+ 			<speak chara="_Miguel">ああ、それももちろん必要じゃが——</speak>
+			<show chara="cervantesGazeClose" position="right"/>
+			<speak chara="_Miguel">——最も肝心なのは、「丈夫な船」じゃ。</speak>
+			<show chara="cervantesShoutClose" position="right"/>	
+ 			<speak chara="_Miguel">竜骨！それに三角帆と四角帆！それらが大事じゃ。</speak>
+ 			<show chara="cervantesLaughClose" position="right"/>
+ 			<speak chara="_Miguel">この頼りない木船を当てに陸地を探す気か？無理じゃ、この海はそんな生やさしいものじゃない。</speak>
+ 			<show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+ 			<show chara="biankaAngryClose" position="left"/>
+ 			<speak chara="_Bianka">……</speak>
+ 			<show chara="biankaAngryClose" position="left" opacity="0.8"/>
+ 			<show chara="cervantesSmileClose" position="right"/>
+ 			<speak chara="_Miguel">だが、もし「リヴァイアサン」を倒せれば、きっとお前さんの言うことを聞いて、この海と渡り合えるような大きな船を作るヤツも現れるじゃろう。</speak>
+ 			<show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+ 			<show chara="biankaShoutClose" position="left"/>
+ 			<speak chara="_Bianka">本当ですか？</speak>
+ 			<show chara="biankaShoutClose" position="left" opacity="0.8"/>
+ 			<show chara="cervantesSmileClose" position="right"/>
+ 			<speak chara="_Miguel">ハハッ、人類というのは信じることを生きる糧にする生き物じゃろう？</speak>
+ 			<show chara="cervantesNormalClose" position="right"/>
+ 			<speak chara="_Miguel">たとえばスペインの兵士たちは、大勢の野蛮人を相手になぜ少数で勝てたか分かるか？</speak>
+ 			<show chara="cervantesGazeClose" position="right"/>
+ 			<speak chara="_Miguel">絶大な力をもってして勝ったのではない——敵に勝利の希望を感じさせなかったからじゃ。</speak>
+ 			<show chara="cervantesSmileClose" position="right"/>
+ 			<speak chara="_Miguel">だからこそ、200人弱の冒険者だけで数百万人のペルーを征服することができた。</speak>
+ 			<show chara="cervantesLaughClose" position="right"/>
+ 			<speak chara="_Miguel">レパントの海戦が少数で勝てたのも、ガレアス船なんかのおかげじゃない——勢いで敵を倒したからじゃ。</speak>
+ 			<show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+ 			<show chara="rita17NormalClose" position="left"/>
+ 			<speak chara="_Rita">もしかして……帝国時代のスペインから来たお方ですか？</speak>
+ 			<show chara="rita17NormalClose" position="left" opacity="0.8"/>
+ 			<show chara="cervantesSmileClose" position="right"/>
+ 			<speak chara="_Miguel">おや、お嬢さん分かるのか。</speak>
+ 			<show chara="cervantesLaughClose" position="right"/>
+ 			<speak chara="_Miguel">自慢じゃないが——この異世界に入る前のわしは退役軍人なんかではない、本を何冊も出版したことある文化人なんじゃよ！</speak>
+ 			<show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+ 			<show chara="biankaSneerClose" position="left"/>
+ 			<speak chara="_Bianka">フン、その感じだと、どうせ売れない作家なんでしょう？</speak>
+ 			<show chara="biankaSneerClose" position="left" opacity="0.8"/>
+ 			<show chara="cervantesSeriousClose" position="right"/>
+ 			<speak chara="_Miguel">うーむ……確かに400年後のお前さんたちの時代で有名かどうかは知らんのう。</speak>
+ 			<show chara="cervantesNormalClose" position="right"/>
+ 			<speak chara="_Miguel">《ガラテーア》、《ペルシーレスとシヒスムンダ》——</speak>
+ 			<show chara="cervantesSmileClose" position="right"/>
+ 			<speak chara="_Miguel">——それと、《ドン・キホーテ》。</speak>
+ 			<show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+ 			<show chara="rita17NormalClose" position="left"/>
+ 			<speak chara="_Rita">あなた……</speak> 			
+ 			<speak chara="_Rita" remark="next">もしかして……ミゲル・デ・セルバンテスですか？</speak>
+			<remark post="U2FsdGVkX19Bo9kqC3iZolEItRdA">
+				<p class="article-text-h">注釈：</p>
+				<p class="article-text">ミゲル・デ・セルバンテス・サアベドラ（Miguel de Cervantes Saavedra, 1547 ~ 1616）はスペイン文学界で最も偉大な作家のひとりとされ、彼の残した『ドン・キホーテ』は文学史上初めての「現代小説」と言われている。</p>
+				<p class="article-text">セルバンテスは1571年10月7日、レパントの海戦に一般軍人として参加した。報告書によると、この海戦中、彼は高熱を出したため横になるよう言われたが、頑なにそれを拒否。彼は戦友と共に戦場を駆け、その勇敢さより金貨を4枚与えられている。しかしこの戦いにより、彼は左胸と左手に銃弾を受けてしまう。そして、左手の自由を失ってしまった。</p>
+			</remark>	 			
+ 			<goto goto="60" clockwise="1"/>
+ 		</scene>
+ 		<scene id="60" background="beachIslandNoName.jpg">
+ 			<bgm src="peerGynt.mp3" status="continue"></bgm> 
+ 			<show chara="cervantesLaughClose" position="right"/> 		
+ 			<speak chara="_Cervantes">なんだ、わしは有名人になっとるんだな！</speak> 				
+ 			<speak chara="_Cervantes">さしずめ大文豪じゃな！ハハハッ、なかなか気持ちよい呼び名じゃ、気に入った！</speak>
+ 			<show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+ 			<show chara="biankaSighClose" position="left"/>	
+ 			<speak chara="_Bianka">むっ、戦場慣れした軍人かと思いましたが……こんなにも調子に乗る人物だったとは。</speak>
+ 			<show chara="biankaSighClose" position="left" opacity="0.8"/>	
+ 			<show chara="cervantesLaughClose" position="right"/>	
+ 			<speak chara="_Cervantes">ハハハハッ！ビアンカのお嬢さん、せっかく嬉しいことを聞いたんじゃ、お前さんももっと明るい顔をせい！</speak>
+ 			<show chara="cervantesSmileClose" position="right"/>	
+ 			<speak chara="_Cervantes">したらば海に出た後、やる気がもっと溢れてくるぞ。</speak>
+ 			<show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+ 			<show chara="biankaSneerClose" position="left"/>
+ 			<speak chara="_Bianka">フン、それは心配ご無用です。10歳で戦乙女になってから、やる気が出なかった日なんてありませんから。</speak>
+ 			<show chara="biankaProudClose" position="left"/>
+ 			<speak chara="_Bianka">教えてくれさえすれば、魚を捕ることも、船を操舵することも、完璧にこなせる自信があります。</speak>
+ 			<show chara="rita17SmileClose" position="left"/>
+ 			<speak chara="_Rita">あらあら。ところで……</speak>
+ 			<show chara="rita17SquintClose" position="left"/>	
+ 			<speak chara="_Rita">……セルバンテスさん、海を出た後の役割分担はいかがいたしましょう？</speak>
+ 			<show chara="rita17SquintClose" position="left" opacity="0.8"/>	
+ 			<show chara="cervantesLaughClose" position="right"/>	
+ 			<speak chara="_Cervantes">ハハッ、そう畏まらなくていいぞ、リタのお嬢さん。わしのことは「ミゲル」でよい。</speak>
+ 			<show chara="cervantesSmileClose" position="right"/>
+ 			<speak chara="_Miguel">役割分担も簡単だ。</speak>
+ 			<show chara="cervantesNormalClose" position="right"/>	
+ 			<speak chara="_Miguel">わしが船長、船の舵を取り、進退のタイミングを判断する。二人は——</speak>
+ 			<show chara="cervantesSmileClose" position="right"/>	
+ 			<speak chara="_Miguel">ビアンカのお嬢さんは槍が得意なのじゃろう？じゃから、銛投げを頼む。</speak>
+ 			<speak chara="_Miguel">リタのお嬢さんは気配り上手だから、銛のアンカーロープが絡まないよう見ておいてくれ。</speak>
+ 			<show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+ 			<show chara="biankaSeriousClose" position="left"/>	
+ 			<speak chara="_Bianka">アンカーロープ？何をするんですか？</speak>
+ 			<show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+ 			<show chara="cervantesLaughClose" position="right"/>	
+ 			<speak chara="_Miguel">それはもちろん怪物の近くまで船を手繰り寄せるのに使うんじゃよ。</speak>
+ 			<show chara="cervantesSmileClose" position="right"/>	
+ 			<speak chara="_Miguel">離れていたらヤツを殺せないじゃろう？それに、ヤツの死体を回収して、皆に見せないといかん。</speak>
+ 			<show chara="cervantesSmileClose" position="right" opacity="0.8"/>	
+ 			<show chara="rita17NormalClose" position="left"/>	
+ 			<speak chara="_Rita">……もし「リヴァイアサン」が攻撃してきた場合、どういたしますか？この葦の船では……少し……</speak>
+ 			<show chara="rita17NormalClose" position="left" opacity="0.8"/>	
+ 			<show chara="cervantesLaughClose" position="right"/>	
+ 			<speak chara="_Miguel">船長たるわしが海流をうまく利用して、ヤツに攻撃の隙を与えん。それだけの話じゃ！</speak>
+ 			<show chara="cervantesSmileClose" position="right"/>	
+ 			<speak chara="_Miguel">そういえばお前さんたち、前に島の皆に見せたものがあったじゃろう？巨石をも打ち砕く「火の銃」——何という名前じゃったか……</speak>
+ 			<show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+ 			<show chara="biankaSeriousClose" position="left"/>		
+ 			<speak chara="_Bianka">……前文明紀元汎用装填作戦兵器「2nd聖遺物」です。——そんなに難しい名前ではないと思いますが？</speak> 			
+ 			<show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+ 			<show chara="cervantesLaughClose" position="right"/> 	
+ 			<speak chara="_Miguel">ハハハハッ！年寄りは長い名前が苦手なんじゃよ。</speak>
+ 			<show chara="cervantesSmileClose" position="right"/>	
+ 			<speak chara="_Miguel">とにかく、無敵艦隊の大砲よりも強い武器がある以上——</speak>
+ 			<show chara="cervantesLaughClose" position="right"/>
+ 			<speak chara="_Miguel">——わしらが乗るのは頼りない葦船なんかじゃない……向かうところ敵なしの魔物狩りの戦艦じゃ！</speak>
+ 			<show chara="cervantesSmileClose" position="right"/>	
+ 			<speak chara="_Miguel">よく覚えておけ——</speak>
+ 			<show chara="cervantesGazeClose" position="right"/>	
+ 			<speak chara="_Miguel">「リヴァイアサン」も、海の怪物も、所詮はただの獣じゃ。図体が少しデカいだけのな。</speak>
+ 			<show chara="cervantesGazeClose" position="right" opacity="0.8"/>
+ 			<show chara="biankaSneerClose" position="left"/>
+ 			<speak chara="_Bianka">——そして勇敢な狩人は、自らに近づく獲物に恐れはしません。</speak>
+ 			<show chara="biankaSneerClose" position="left" opacity="0.8"/>
+ 			<show chara="cervantesLaughClose" position="right"/>	
+ 			<speak chara="_Miguel">——ああ、その通りだ！</speak> 			
+ 			<show chara="cervantesLaughClose" position="right"/>	
+ 			<speak chara="_Miguel">さあ！ヤツの息の根を止めるぞ！</speak>
+ 			<show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+ 			<show chara="biankaSneerClose" position="left"/>
+ 			<speak chara="_Bianka">おじいさん、よく見ててください。「天命」の戦乙女が、どう戦うのかを！</speak>
+ 			<show chara="biankaSneerClose" position="left" opacity="0.8"/>
+ 			<show chara="rita17NormalClose" position="right"/>
+ 			<speak chara="_Rita">（……）</speak>		
+ 			<speak chara="_Rita">（なぜ、「ただの獣」だと言い切れるのでしょうか？）</speak>
+ 			<goto goto="70" clockwise="1"/>
+ 		</scene>
+ 		<scene id="70" background="seaWaveIslandNoName.jpg">
+ 			<bgm src="seaAndSky.mp3" status="start"></bgm>
+			<text article="1">
+				<p class="article-text">歩いてこの島の全長を計測したり、岩山から周囲を見渡したりしてきたが、海に出て初めて、この「船着き場」の小ささを二人の戦乙女は実感した。</p>
+			</text>	
+			<text article="1">
+				<p class="article-text">葦船が海に出てからまだ数分しか経っていないというのに、先ほどまでいた島は、そこらの岩礁ともう見分けがつかない。数十人を収容する「避難所」は、手の平で覆い隠せるほどの大きさになっていた。</p>
+			</text>
+ 			<text>真昼の太陽が海面を照らし、反射した光が目を開けていられないほどに眩しい。</text>
+ 			<text>老人は長いオールで船を漕ぎ、うねる波の中を安定して進む。</text>
+ 			<show chara="cervantesGazeClose" position="right"/>
+ 			<speak chara="_Miguel">気を付けてくれ、もうじきヤツが来る。</speak>
+ 			<show chara="cervantesGazeClose" position="right" opacity="0.8"/>	
+ 			<show chara="biankaSeriousClose" position="left"/>
+ 			<speak chara="_Bianka">……でも、周りには何もありませんよ？</speak>
+ 			<show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+ 			<show chara="cervantesSmileClose" position="right"/>
+ 			<speak chara="_Miguel">じゃが、もうすぐ時間だ。</speak>
+ 			<show chara="cervantesSmileClose" position="right" opacity="0.8"/>	
+ 			<show chara="rita17NormalClose" position="left"/>
+ 			<speak chara="_Rita">……時間、ですか？</speak>
+ 			<show chara="rita17NormalClose" position="left" opacity="0.8"/>
+ 			<show chara="cervantesGazeClose" position="right"/>
+ 			<speak chara="_Miguel">海に出た人間の気配を嗅ぎ取り、「リヴァイアサン」は現れる。そこからヤツが船に追いつくまで、およそ15分。</speak>
+ 			<show chara="cervantesGazeClose" position="right" opacity="0.8"/>	
+ 			<show chara="biankaSeriousClose" position="left"/>
+ 			<speak chara="_Bianka">なるほど——</speak> 			
+ 			<show chara="biankaSneerClose" position="left"/>
+ 			<speak chara="_Bianka">——だから船をここに止めたんですね！</speak>
+ 			<show chara="biankaSneerClose" position="left" opacity="0.8"/>
+ 			<show chara="cervantesSmileClose" position="right"/>
+ 			<speak chara="_Miguel">そうじゃ。この船の下にある5メートル大の暗礁が、真下からの攻撃を守ってくれる。</speak>
+ 			<show chara="cervantesGazeClose" position="right"/>
+ 			<speak chara="_Miguel">なにせ、自分自身を餌におびき出しておるんじゃからな——少しの油断や躊躇いが命取りになる。</speak> 			
+ 			<speak chara="_Miguel">そして、絶好の機会はほんの一瞬——</speak>
+ 			<bgm src="noise.mp3" status="start"></bgm>
+ 			<show chara="cervantesShoutClose" position="right"/>	
+ 			<speak chara="_Miguel">——待て、何の音だッ！？</speak>
+ 			<show chara="cervantesShoutClose" position="right" opacity="0.8"/>
+ 			<show chara="rita17AngryClose" position="left"/>
+ 			<speak chara="_Rita">これは機械音でしょうか！？</speak>
+ 			<show chara="biankaShoutClose" position="left"/>
+ 			<speak chara="_Bianka">見てください！水中に何か黒いものが……！</speak>
+ 			<show chara="biankaShoutClose" position="left" opacity="0.8"/>
+ 			<show chara="cervantesGazeClose" position="right"/>
+ 			<speak chara="_Miguel">これは……血？</speak>
+ 			<show chara="cervantesShoutClose" position="right"/>
+ 			<speak chara="_Miguel">何者かが「リヴァイアサン」と戦っておる！この海面下で！</speak>
+ 			<show chara="cervantesShoutClose" position="right" opacity="0.8"/>
+ 			<show chara="rita17AngryClose" position="left"/>
+ 			<speak chara="_Rita">——浮かんできます！</speak> 
+ 			<goto goto="80" change="0"/>			
+ 		</scene>
+ 		<scene id="80" background="CG1.jpg">
+ 			<bgm src="noise.mp3" status="stop"></bgm>
+ 			<sound src="se_spring.mp3"/>
+ 			<cg src="CG1.jpg" bg="CG1.jpg" fadeIn="0" fadeOut="1"></cg>
+ 			<speak chara="_Bianka">これは……</speak>
+ 			<speak chara="_Bianka">……潜水艦！？</speak>
+ 			<end post="U2FsdGVkX19d+mMVBhzEm6N2HRMF"/>
+ 		</scene>		 						
+	</story>
+</data>

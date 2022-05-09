@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="chichenItzaNightLight.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+            <text>The sun sets and the stars make their presence known. The heat coming off from the stadium could still be felt, and the ruins were still decorated with precious colored lights.</text>
+            <text>This roller-coaster-like journey comes to a halt and exhaustion finally caught up to the young Valkyrie.</text>
+            <show chara="biankaDressSorrowClose" position="left"/>
+            <speak chara="_Bianka">Ah, I'm feeling tired all of the sudden.</speak>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">We haven't taken a break in two days, haven't we?</speak>
+            <show chara="biankaDressShyClose" position="left"/>
+            <speak chara="_Bianka">I just want to lie down and have a good night of sleep.</speak>
+            <show chara="biankaDressShyClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">That sounds good. The air here is nice and the terrain has been well maintained.</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose" position="left"/>
+            <speak chara="_Bianka">S-Stop it, or else I'm really going to fall asleep here until tomorrow.</speak>
+            <show chara="biankaDressScreamClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">Should I bring a tent, then? There won't be a problem if we use one.</speak>
+            <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">Yes there is! Why camp outside if we have a place to stay?</speak>
+            <show chara="biankaDressAngryClose" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">Well, resting here doesn't sound so bad.</speak>
+            <show chara="biankaDressShyClose" position="left"/>
+            <speak chara="_Bianka">And our quarters are a little too far away.</speak>
+            <goto goto="20" change="#000000"/>
+        </scene>
+        <scene id="20" background="starNight.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="continue"></bgm>
+            <show chara="biankaHand" position="center"/>
+            <speak chara="_Bianka">...The stars are beautiful tonight.</speak>
+            <speak chara="_Bianka">This beautiful starry night has been above us every night here——</speak>
+            <speak chara="_Bianka">——So why do unpleasant things keep happening?</speak>
+            <speak chara="_Bianka">Eikenal and the High Priestess... we caused things to end the way they did...</speak>
+            <speak chara="_Rita">Bianka-sama...</speak>
+            <speak chara="_Bianka">I know, Rita. I know.</speak>
+            <speak chara="_Bianka">If we hadn't intervened, Eikenal probably would had died in a civil war and the Federation under the High Priestess' control, would had crossed lines that shouldn't be crossed.</speak>
+            <speak chara="_Bianka">But I... can't help but feel disgusted at my own powerlessness.</speak>
+            <speak chara="_Rita">Please don't blame yourself, Bianka-sama. That isn't like you.</speak>
+            <speak chara="_Rita">I do believe those with power have a responsibility to uphold but...</speak>
+            <!-- Bishop -> Overseer -->
+            <speak chara="_Rita">...No matter how strong someone is, they can't be omnipotent like God. Not even the Overseer is able to run his organization all by himself.</speak>
+            <speak chara="_Bianka">I know that... very well.</speak>
+            <speak chara="_Bianka">How can I put it... It's like a obsessive compulsive disorder.</speak>
+            <speak chara="_Bianka">If my efforts don't bring the best possible results I begin to feel depressed——</speak>
+            <speak chara="_Bianka">——Agh, I hate this kind of self introspection but...</speak>
+            <speak chara="_Bianka">I'm aware this isn't a healthy way of living. I'll probably become a very boring and depressed person in 5 or 10 years.</speak>
+            <speak chara="_Bianka">But this is the only way I know to become stronger.</speak>
+            <speak chara="_Rita">.....</speak>
+            <speak chara="_Bianka">I have to be strong. Way stronger.</speak>
+            <speak chara="_Bianka">Most of the people I knew, teachers, fellow Valkyries, are no longer in this world.</speak>
+            <speak chara="_Bianka">In our world people's lives can be torn apart so easily by something beyond our understanding, as if they were a fragile piece of paper.</speak>
+            <speak chara="_Bianka">I hate it. That's why I want to do my best—— For those who are no longer here.</speak>
+            <speak chara="_Bianka">...I think it's similar to the reason why you became a maid, right?</speak>
+            <speak chara="_Rita">Huh?</speak>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="chichenItzaNightLight.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">...Was I mistaken?</speak>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">Rank A Valkyrie, Rita Rossweisse—— Tell me, why did you become a maid?</speak>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <!-- Bishop -> Overseer -->
+            <speak chara="_Bianka">According to the documents I've read your apprenticeship at the Overseer's place ended a long time ago.</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">Hehe. Knowing you're interested in me makes me very happy.</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose" position="left"/>
+            <speak chara="_Bianka">Please stop teasing me! Wanting to get to know one's subordinates better is a natural thing to do. Is it something you don't want to share?</speak>
+            <show chara="biankaDressScreamClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNaughtyClose" position="right"/>
+            <speak chara="_Rita">No, not at all.</speak>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">But... it'll take some time to explain...</speak>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">...In that case, let me tell you a story.</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">...?</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">——The story of a certain Valkyrie and a certain girl.</speak>
+            <goto goto="40" change="#000000"/>
+        </scene>
+        <scene id="40" background="black">
+            <bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
+            <text>The date is 2007——</text>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="buildingBangInside.jpg">
+            <bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
+            <sound src="08_03_smash.mp3"/>
+            <text>——And the location is Manchester, England.</text>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="buildingBangInsideInverted.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="start"></bgm>
+            <!-- RENAME: Houkai -> Honkai -->
+            <speak chara="_Rita">5 years ago, a Honkai incident occurred in the girl's hometown.</speak>
+            <speak chara="_Rita">From a world wide perspective it was just a small incident where no one died. Probably only a handful of people remember it ever happened.</speak>
+            <speak chara="_Rita">But that incident was the trigger that changed the life of a little girl who was supposed to inherit her family business and become a florist. She left her flower garden, underwent rigorous training, and became a Valkyrie.</speak>
+            <speak chara="_Rita">That day, a monster that indiscriminately tried to destroy everything in its path appeared. Screams and silhouettes of people panicking flooded the streets——</speak>
+            <speak chara="_Rita">——By the time the girl realized what was happening, the monster was already in the vicinity.</speak>
+            <speak chara="_Rita">She was just a regular first year middle schooler. All she could do was to hide between the stands, and pray to not be found.</speak>
+            <speak chara="_Rita">And then, as if her prayers had been answered——</speak>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="buildingBangInside.jpg">
+            <bgm src="theme.mp3" status="start"></bgm>
+            <speak chara="_Rita">A savior angel appeared.</speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="CG-18-0.jpg">
+            <bgm src="theme.mp3" status="continue"></bgm>
+            <speak chara="_RagnaNoName">Are you hurt, little girl?</speak>
+            <goto goto="90" change="#ffffff"/>
+        </scene>
+        <scene id="90" background="12_12_cloudSky.jpg">
+            <bgm src="theme.mp3" status="continue"></bgm>
+            <text>An angel dressed in lace fought the monster in front of her. The girl felt as if she was watching an art performance.</text>
+            <!-- RENAME: Houkai -> Honkai -->
+            <text>By the time reinforcements arrived and the Honkai beast was dealt with, the girl returned to her senses.</text>
+            <text>And when she couldn't muster up the strength to stand up and walk for herself...</text>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="CG-18-1.jpg">
+            <bgm src="theme.mp3" status="continue"></bgm>
+            <speak chara="_RitaChildNoName">...!</speak>
+            <speak chara="_RagnaNoName">No need to be shy.</speak>
+            <speak chara="_RagnaNoName">You can count on this big sister in times like these.</speak>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="CG-18-1.jpg">
+            <bgm src="theme.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text>The safe zone wasn't that far away, so in reality the angel only carried her for about a minute.</text>
+            <text>But to her it felt like an eternity, a moment of bliss full of light and pleasant aromas.</text>
+            <text>Purity, elegance, warmth, strength. Every virtue mankind has could be felt coming off her.</text>
+            <text>...Although back then the little girl was too shy and couldn't express those feelings inside her heart properly.</text>
+            <goto goto="120" change="0"/>
+        </scene>
+        <scene id="120" background="canalStreetManchester.jpg">
+            <bgm src="theme.mp3" status="continue"></bgm>
+            <show chara="ragnaMaidNormalClose" position="right"/>
+            <speak chara="_RagnaNoName">Yeah, you should be safe here. There's a chance the site of the incident could be dangerous so don't wander off, okay?</speak>
+            <show chara="ragnaMaidNormalClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildShyClose" position="left"/>
+            <speak chara="_RitaChildNoName">U-Umm...</speak>
+            <show chara="ritaChildShyClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidCareClose" position="right"/>
+            <speak chara="_RagnaNoName">Ah, are you worried about the flowers?</speak>
+            <show chara="ragnaMaidLaughClose" position="right"/>
+            <speak chara="_RagnaNoName">Don't worry, I think the insurance company has you covered.</speak>
+            <show chara="ragnaMaidLaughClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildShyClose" position="left"/>
+            <speak chara="_RitaChildNoName">N-No... U-Ummm...</speak>
+            <show chara="ritaChildShyClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidSmileClose" position="right"/>
+            <speak chara="_RagnaNoName">Hm?</speak>
+            <show chara="ragnaMaidSmileClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildShyMoreClose" position="left"/>
+            <speak chara="_RitaChildNoName">I-I wanted to...</speak>
+            <show chara="ritaChildAwkwardClose" position="left"/>
+            <speak chara="_RitaChildNoName">...T-Thank you very much.</speak>
+            <show chara="ritaChildAwkwardClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidLaughClose" position="right"/>
+            <speak chara="_RagnaNoName">You're welcome. As thanks, if you feel like it, come visit my shop any time tomorrow.</speak>
+            <show chara="ragnaMaidSmileClose" position="right"/>
+            <speak chara="_RagnaNoName">Here, my business card.</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <speak chara="_Rita">The angel put down the girl on a bench and immediately went somewhere else.</speak>
+            <speak chara="_Rita">...The girl carefully looked at the card the angel gave her.</speak>
+            <speak chara="_Rita">She called it her business card, but it was a card for a certain cafe.</speak>
+            <text>「ABYSS ANGEL, Liverpool Street 243」</text>
+            <text>Are they trying to increase their number of customers?</text>
+            <speak chara="_Rita">——The girl thought.</speak>
+            <speak chara="_Rita">On the following day, the girl arranged a flower bouquet fitting for the angel, and visited 「ABYSS ANGEL」 in the afternoon right after opening time.</speak>
+            <goto goto="130" change="#ffffff"/>
+        </scene>
+        <scene id="130" background="cafeAbyssAngel.jpg">
+            <bgm src="08_03_ScarboroughFair.mp3" status="start"></bgm>
+            <show chara="ritaChildAwkwardClose" position="center"/>
+            <speak chara="_RitaChildNoName">Excuse me...</speak>
+            <hide position="center"></hide>
+            <text>Only when the words came out of her mouth she realized how careless she had been. She went as far as preparing a flower bouquet but never asked the angel for her name!</text>
+            <text>Fortunately, the inside of the store wasn't so big and the angel quickly noticed the little girl.</text>
+            <show chara="ragnaMaidLaughClose" position="center"/>
+            <speak chara="_RagnaNoName">Good day, little lady. You came after all. I'm so happy!</speak>
+            <hide position="center"></hide>
+            <speak chara="_NPCMaidNoName">You know her, Aslaug?</speak>
+            <show chara="ragnaMaidNormalClose" position="center"/>
+            <speak chara="_RagnaFalseName">Yeah, we met yesterday.</speak>
+            <goto goto="140" change="0"/>
+        </scene>
+        <scene id="140" background="CG-18-2.jpg">
+            <bgm src="08_03_ScarboroughFair.mp3" status="continue"></bgm>
+            <speak chara="_RitaChildNoName">U-Ummm...</speak>
+            <speak chara="_RitaChildNoName">Thank you for saving me yesterday! This is a token of my appreciation, I thought sunflowers would suit you well!</speak>
+            <speak chara="_RagnaFalseName">Oh my, they're so pretty! Thank you.</speak>
+            <speak chara="_RagnaFalseName">Would you like a cappuccino? It's on the house.</speak>
+            <goto goto="150" change="#ffffff"/>
+        </scene>
+        <scene id="150" background="cafeAbyssAngel.jpg">
+            <bgm src="08_03_ScarboroughFair.mp3" status="continue"></bgm>
+            <show chara="ritaChildFunClose" position="left"/>
+            <speak chara="_RitaChildNoName">Delicious!</speak>
+            <show chara="ritaChildFunClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidNormalClose" position="right"/>
+            <speak chara="_RagnaFalseName">I am honored by your praise, little lady.</speak>
+            <show chara="ragnaMaidNormalClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildShyClose" position="left"/>
+            <speak chara="_RitaChildNoName">U-Umm, there is no need to call me 「lady」...</speak>
+            <show chara="ritaChildAwkwardClose" position="left"/>
+            <speak chara="_RitaChildNoName">I understand it's part of the job, but i-it's a bit embarrassing...</speak>
+            <show chara="ritaChildSeriousClose" position="left"/>
+            <speak chara="_RitaChildNoName">I am Rita Rossweisse. Um, please just call me 「Rita」.</speak>
+            <show chara="ritaChildSeriousClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidLaughClose" position="right"/>
+            <speak chara="_RagnaFalseName">「Rita」... Spelled like R-I-T-A? What a nice name.</speak>
+            <show chara="ragnaMaidNormalClose" position="right"/>
+            <speak chara="_RagnaFalseName">I am Ragna—— Ragna Lothbrok. A pleasure to be your acquaintance, Rita.</speak>
+            <show chara="ragnaMaidNormalClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildPuzzledClose" position="left"/>
+            <speak chara="_RitaChildNoName">Huh? Didn't the other maid call you 「Aslaug」?</speak>
+            <show chara="ritaChildPuzzledClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidHoweverClose" position="right"/>
+            <speak chara="_Ragna">Yeah, that's kind of a pseudonym I was given for my work here. The name 「Aslaug」 was taken from the same source and it's way cuter than 「Ragna」.</speak>
+            <show chara="ragnaMaidHoweverClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildPuzzledClose" position="left"/>
+            <speak chara="_RitaChildNoName">「Ragna」 and 「Aslaug」... have the same source?</speak>
+            <show chara="ritaChildNormalClose" position="left"/>
+            <speak chara="_RitaChildNoName">...Ah, the famous viking hero! The name of his wife was 「Aslaug」!</speak>
+            <show chara="ritaChildNormalClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidLaughClose" position="right"/>
+            <speak chara="_Ragna">Hehe, yes, it's that 「Ragna」.</speak>
+            <show chara="ragnaMaidCareClose" position="right"/>
+            <speak chara="_Ragna">My mother wanted to raise me as a warrior so she came up with that name. My surname also happened to be 「Lothbrok」.</speak>
+            <show chara="ragnaMaidCareClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildPuzzledClose" position="left"/>
+            <speak chara="_RitaChildNoName">Y-Your mother? One would think the father in the family would have those kind of ideas——</speak>
+            <show chara="ritaChildPuzzledClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidLaughClose" position="right"/>
+            <speak chara="_Ragna">Well, she's a Valkyrie. It was inevitable.</speak>
+            <show chara="ragnaMaidLaughClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildShyMoreClose" position="left"/>
+            <!-- Destiny Organization -> Schicksal -->
+            <speak chara="_RitaChildNoName">Valkyrie? Like an idol from Schicksal?</speak>
+            <show chara="ritaChildShyMoreClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidHoweverClose" position="right"/>
+            <speak chara="_Ragna">No, we're not 「idols」. We're genuine 「soldiers」.</speak>
+            <show chara="ragnaMaidSmileClose" position="right"/>
+            <!-- RENAME: Houkai -> Honkai -->
+            <speak chara="_Ragna">My actual job is to deal with Honkai incidents like the one from yesterday.</speak>
+            <show chara="ragnaMaidSmileClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildExcitingClose" position="left"/>
+            <speak chara="_RitaChildNoName">I see. So that's why you were able to beat that monster!</speak>
+            <show chara="ritaChildPuzzledClose" position="left"/>
+            <speak chara="_RitaChildNoName">Huh, but then...</speak>
+            <show chara="ritaChildPuzzledClose" position="left"/>
+            <speak chara="_RitaChildNoName">Why is a Valkyrie working as a part-time maid in a cafe?</speak>
+            <show chara="ritaChildAwkwardClose" position="left"/>
+            <speak chara="_RitaChildNoName">Do they also, umm, do this...</speak>
+            <show chara="ritaChildAwkwardClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidLaughClose" position="right"/>
+            <speak chara="_Ragna">Hehe, I'm sorry you had to see me like that.</speak>
+            <show chara="ragnaMaidNormalClose" position="right"/>
+            <speak chara="_Ragna">My part-time job is part of a two week long social activity. Actually, I'll be leaving Manchester tomorrow.</speak>
+            <show chara="ragnaMaidNormalClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildShyClose" position="left"/>
+            <speak chara="_RitaChildNoName">Ah... is that so...</speak>
+            <show chara="ritaChildSeriousClose" position="left"/>
+            <speak chara="_RitaChildNoName">「social activities」... I understand...</speak>
+            <show chara="ritaChildSeriousClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidHoweverClose" position="right"/>
+            <speak chara="_Ragna">Speaking of that...</speak>
+            <show chara="ragnaMaidSmileClose" position="right"/>
+            <speak chara="_Ragna">Do you know what kind of advantages people in the service industry have when it comes to communicating with others?</speak>
+            <show chara="ragnaMaidSmileClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildPuzzledClose" position="left"/>
+            <speak chara="_RitaChildNoName">...Advantage? Like being able to gather information eavesdropping?</speak>
+            <show chara="ritaChildPuzzledClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidLaughClose" position="right"/>
+            <speak chara="_Ragna">Valkyries aren't spies. They don't do that kind of work.</speak>
+            <show chara="ragnaMaidHoweverClose" position="right"/>
+            <speak chara="_Ragna">But you weren't that far off—— What I meant was that it's easy for people in the service industry to reach the 「truth」.</speak>
+            <show chara="ragnaMaidHoweverClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildNormalClose" position="left"/>
+            <speak chara="_RitaChildNoName">...Like a customer not bothering to lie in front of a waiter?</speak>
+            <show chara="ritaChildNormalClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidSmileClose" position="right"/>
+            <speak chara="_Ragna">Exactly.</speak>
+            <show chara="ragnaMaidCareClose" position="right"/>
+            <speak chara="_Ragna">People often live their lives wearing a mask. Specially in this country.</speak>
+            <show chara="ragnaMaidThinkClose" position="right"/>
+            <speak chara="_Ragna">It is said human relationships are like porcupines. They keep each other close by for warmth, but if they get too close they'll pinch each other with their needles.</speak>
+            <show chara="ragnaMaidHoweverClose" position="right"/>
+            <speak chara="_Ragna">So what you do is to keep a low profile, and appear to not be 「obviously」 threatening——</speak>
+            <show chara="ragnaMaidLaughClose" position="right"/>
+            <speak chara="_Ragna">People often lower their guard around those close to them. That way you'll be able to find out what a person is really like.</speak>
+            <show chara="ragnaMaidLaughClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildNormalClose" position="left"/>
+            <speak chara="_RitaChildNoName">.....</speak>
+            <show chara="ritaChildShyMoreClose" position="left"/>
+            <speak chara="_RitaChildNoName">U-Ummm, if you don't mind me asking, were you embarrassed when you began working as a maid?</speak>
+            <show chara="ritaChildShyMoreClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidLaughClose" position="right"/>
+            <speak chara="_Ragna">Yeah, I definitely was.</speak>
+            <show chara="ragnaMaidNormalClose" position="right"/>
+            <speak chara="_Ragna">But if you think about it, it's a rare life experience worth checking out, don't you think so?</speak>
+            <goto goto="160" change="#ffffff"/>
+        </scene>
+        <scene id="160" background="starNight.jpg">
+            <bgm src="08_03_ScarboroughFair.mp3" status="continue"></bgm>
+            <speak chara="_Rita">The angel and the girl spent the rest of the day talking. They talked a lot.</speak>
+            <speak chara="_Rita">The fact that the girl ended up becoming a maid like her later in life was just a happy coincidence——</speak>
+            <goto goto="170" change="0"/>
+        </scene>
+        <scene id="170" background="chichenItzaNightLight.jpg">
+            <bgm src="08_03_ScarboroughFair.mp3" status="continue"></bgm>
+            <show chara="ritaVestNormalClose" position="center"/>
+            <speak chara="_Rita">Ah——</speak>
+            <show chara="ritaVestSmileClose" position="center"/>
+            <speak chara="_Rita">You fell asleep, Bianka-sama.</speak>
+            <show chara="ritaVestNaughtyClose" position="center"/>
+            <speak chara="_Rita">You didn't get to hear Ragna-sama's name, then...</speak>
+            <show chara="ritaVestSquintClose" position="center"/>
+            <speak chara="_Rita">And here I finally mustered the courage to talk about her...</speak>
+            <goto goto="180" clockwise="1"/>
+        </scene>
+        <scene id="180" background="libraryDay.jpg">
+            <bgm src="11_16_themeOtto.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <show chara="ottoSuitsFun" position="back"/>
+            <speak chara="_Otto">Good timing, Rita. I have a job only you can do.</speak>
+            <!-- RENAME: Bishop -> Overseer -->
+            <speak chara="_Rita">Anything you desire, Overseer.</speak>
+            <show chara="ottoSuitsSad" position="back"/>
+            <speak chara="_Otto">Take a look at these documents. No matter what happens, I need you to secure the 「growth」 of this girl.</speak>
+            <speak chara="_Rita">Bianka Ataegina... Rank A Valkyrie... 12 years old...</speak>
+            <speak chara="_Rita">...12 years old?</speak>
+            <show chara="ottoSuitsConfident" position="back"/>
+            <speak chara="_Otto">Yes, she's 12 years old. She's the youngest Rank A Valkyrie in all of history.</speak>
+            <show chara="ottoSuitsFun" position="back"/>
+            <speak chara="_Otto">Speaking of age, if I recall correctly you were 13 when you joined the headquarters for training under Ragna's recommendation.</speak>
+            <speak chara="_Rita">Yes. I am honored you remembered.</speak>
+            <show chara="ottoSuitsConfident" position="back"/>
+            <speak chara="_Otto">It's nothing special. I know every detail about every Rank A Valkyrie.</speak>
+            <show chara="ottoSuitsSad" position="back"/>
+            <speak chara="_Otto">For instance, the woman who recommended you, Ranga, was a splendid Valkyrie. Just like you are right now.</speak>
+            <speak chara="_Otto">...Her death was a great loss for us.</speak>
+            <speak chara="_Rita">.....</speak>
+            <show chara="ottoSuitsConfident" position="back"/>
+            <speak chara="_Otto">Rita Rossweisse——</speak>
+            <speak chara="_Otto">I ask you, the finest Valkyrie recommended by the late Ragna Lothbrok——</speak>
+            <show chara="ottoSuitsSad" position="back"/>
+            <speak chara="_Otto">Please look after this kid who decided to follow Ragna's footsteps and become a Valkyrie.</speak>
+            <!-- Bishop -> Overseer -->
+            <speak chara="_Rita">Your orders are my will, Overseer.</speak>
+            <speak chara="_Rita">But, if I may ask, do you consider Bianka-sama a 「sample」 or a 「person」?</speak>
+            <show chara="ottoSuitsFun" position="back"/>
+            <speak chara="_Otto">Haha, you've been trained well.</speak>
+            <show chara="ottoSuitsConfident" position="back"/>
+            <speak chara="_Otto">Let me put it this way, Rita. I have special expectations from this girl.</speak>
+            <speak chara="_Otto">Not so special to the point I need to hide them—— But to talk about them requires certain conditions to be met.</speak>
+            <show chara="ottoSuitsFun" position="back"/>
+            <speak chara="_Otto">Hehe, it would be appropriate to quote that line from that famous novel in times like these.</speak>
+            <speak chara="_Otto">「Wait and hope」.</speak>
+            <end post="U2FsdGVkX19th95bB+i68vEiFyrB"/>
+        </scene>
+    </story>
+</data>

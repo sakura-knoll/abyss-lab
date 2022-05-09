@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="alexandriaPalace.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="neithLaughFar" position="center"/>
+            <speak chara="_Neith">President, I'm coming in!</speak>
+            <hide position="center"></hide>
+            <show chara="shelleyBoredFar" position="left"/>
+            <speak chara="_ShelleyCareer">And you were...?</speak>
+            <show chara="shelleyBoredFar" position="left" opacity="0.8"/>
+            <show chara="micheFocusFar" position="right"/>
+            <speak chara="_MichelCareer">Neith?</speak>
+            <show chara="micheSeriousFar" position="right"/>
+            <speak chara="_MichelCareer">...Did something happen to Champollion?</speak>
+            <show chara="micheSeriousFar" position="right" opacity="0.8"/>
+            <show chara="neithComplainFar" position="left"/>
+            <speak chara="_Neith">Please listen!</speak>
+            <show chara="neithScaredFar" position="left"/>
+            <speak chara="_Neith">We chased the kidnappers to the West and found out their hideout is in a sulfur lake!</speak>
+            <show chara="neithComplainFar" position="left"/>
+            <speak chara="_Neith">Sulfur lake! Poison gas! Hydrogen sulfide!</speak>
+            <show chara="neithComplainFar" position="left" opacity="0.8"/>
+            <show chara="micheSeriousFar" position="right"/>
+            <speak chara="_MichelCareer">...!</speak>
+            <show chara="micheSeriousFar" position="right" opacity="0.8"/>
+            <show chara="shelleyShockedFar" position="left"/>
+            <speak chara="_ShelleyCareer">Must be the volcanic area near El-Alamein.</speak>
+            <show chara="shelleyColdFar" position="left"/>
+            <speak chara="_ShelleyCareer">It sounds like something that person who had his 「records erased」 would do.</speak>
+            <show chara="shelleyArrogantFar" position="left"/>
+            <speak chara="_ShelleyCareer">Kid... Neith, was it?</speak>
+            <show chara="shelleyArrogantFar" position="left" opacity="0.8"/>
+            <show chara="neithSmileFar" position="right"/>
+            <speak chara="_Neith">Yup!</speak>
+            <show chara="neithSmileFar" position="right" opacity="0.8"/>
+            <show chara="shelleySmileFar" position="left"/>
+            <speak chara="_ShelleyCareer">...Take this document and give it to Commander Hussein of the Reserve Command, and give this other one to Director Ptolemy of the Municipal Equipment Department. They'll give you the personnel and equipment you need.</speak>
+            <show chara="shelleySmileFar" position="left" opacity="0.8"/>
+            <show chara="neithScaredFar" position="right"/>
+            <speak chara="_Neith">Oh, nice! You understood quickly!</speak>
+            <show chara="neithLaughFar" position="right"/>
+            <speak chara="_Neith">Thanks!</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="neithSmileFar" position="center"/>
+            <speak chara="_Neith">See ya later!</speak>
+            <goto goto="15" change="#000000"/>
+        </scene>
+        <scene id="15" background="alexandriaPalace.jpg">
+            <bgm src="01_18_tango.mp3" status="continue"></bgm>
+            <show chara="shakesLaughFar" position="center"/>
+            <speak chara="_ShakespeareCareer">What a lively kid.</speak>
+            <show chara="shakesSmileFar" position="center"/>
+            <speak chara="_ShakespeareCareer">...But shouldn't the 「leader」 of this scientific city be using her trustworthy robot units instead? Care to comment, President Shelley?</speak>
+            <hide position="center"></hide>
+            <show chara="shelleyBoredFar" position="left"/>
+            <speak chara="_Shelley">...You're here, Shakespeare.</speak>
+            <show chara="shelleyColdFar" position="left"/>
+            <speak chara="_Shelley">Do you really have time for this? I heard one of your crew members was kidnapped.</speak>
+            <show chara="shelleyColdFar" position="left" opacity="0.8"/>
+            <show chara="shakesSmileFar" position="right"/>
+            <speak chara="_Shakespeare">If the security system of this city is to be trusted—— There's nothing to be worried about.</speak>
+            <show chara="shakesSmileFar" position="right" opacity="0.8"/>
+            <show chara="shelleyColdFar" position="left"/>
+            <speak chara="_Shelley">...Tch. What are you getting it?</speak>
+            <show chara="shelleyColdFar" position="left" opacity="0.8"/>
+            <show chara="shakesSweatyFar" position="right"/>
+            <speak chara="_Shakespeare">...Are you really going to make me say it?</speak>
+            <show chara="shakesConfidentFar" position="right"/>
+            <speak chara="_Shakespeare">If you insist, I suppose I should.</speak>
+            <show chara="shakesConfidentFar" position="right" opacity="0.8"/>
+            <show chara="shelleyBoredFar" position="left"/>
+            <speak chara="_Shelley">.....</speak>
+            <show chara="shelleyBoredFar" position="left" opacity="0.8"/>
+            <show chara="shakesColdFar" position="right"/>
+            <speak chara="_Shakespeare">You, and Curator over there too predicted something like this was going to happen.</speak>
+            <show chara="shakesQuestionFar" position="right"/>
+            <speak chara="_Shakespeare">Otherwise, you wouldn't have 「real people」 ready on stand-by to catch the kidnappers. When you won the election 20 years ago, you told the public you would 「make advances in artificial intelligence and pass laws that will keep citizens away from dangerous work」.</speak>
+            <show chara="shakesDisgustedFar" position="right"/>
+            <speak chara="_Shakespeare">Leaving aside that those 「real people」 are in danger now, they haven't seen any actual combat in a long time—— And despite knowing that, you decided they were fit to handle this case.</speak>
+            <show chara="shakesDisgustedFar" position="right" opacity="0.8"/>
+            <show chara="micheFocusFar" position="left"/>
+            <speak chara="_Michel">.....</speak>
+            <show chara="micheSeriousFar" position="left"/>
+            <speak chara="_Michel">Will you get over it and tell us why you came here instead of meeting up with Champollion and the rest?</speak>
+            <show chara="micheSeriousFar" position="left" opacity="0.8"/>
+            <show chara="shelleyColdFar" position="left"/>
+            <speak chara="_Shelley">This is not a theater. I'd like for you to stop talking in such a roundabout way.</speak>
+            <show chara="shelleyColdFar" position="left" opacity="0.8"/>
+            <show chara="shakesLaughFar" position="right"/>
+            <speak chara="_Shakespeare">Hahahaha! Fine, fine.</speak>
+            <show chara="shakesSmileFar" position="right"/>
+            <speak chara="_Shakespeare">In that case... I'll let the expert handle this.</speak>
+            <show chara="shakesSmileFar" position="right" opacity="0.8"/>
+            <show chara="shelleyShockedFar" position="left"/>
+            <speak chara="_Shelley">...?</speak>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="alexandriaPalace.jpg">
+            <bgm src="02_22_amazingGrace.mp3" status="start"></bgm>
+            <sound src="02_03_highheels.mp3"/>
+            <show chara="ironWhiteSwordFar" position="center"/>
+            <speak chara="_SchrodingerNoName">The task is, not so much to see what no one has yet seen——</speak>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="CG8-1-2.jpg">
+            <bgm src="02_22_amazingGrace.mp3" status="continue"></bgm>
+            <speak chara="_SchrodingerNoName">But to think what nobody has yet thought——</speak>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="CG8-1-3.jpg">
+            <bgm src="02_22_amazingGrace.mp3" status="continue"></bgm>
+            <speak chara="_SchrodingerNoName">About that which everybody sees.</speak>
+            <speak chara="_Schrodinger">——I am Erwin Reanna Schrodinger, a dimensional traveler from beyond the abyss.</speak>
+            <goto goto="50" clockwise="1"/>
+        </scene>
+        <scene id="50" background="alexandriaPalace.jpg">
+            <bgm src="02_22_amazingGrace.mp3" status="continue"></bgm>
+            <show chara="micheSeriousFar" position="left"/>
+            <speak chara="_Michel">.....</speak>
+            <show chara="micheSeriousFar" position="left" opacity="0.8"/>
+            <show chara="shelleyShockedFar" position="right"/>
+            <speak chara="_Shelley">Dimensional traveler? Who are you?</speak>
+            <show chara="shelleyAngryFar" position="right"/>
+            <speak chara="_Shelley">...No, 「what」 are you?</speak>
+            <show chara="shelleyAngryFar" position="right" opacity="0.8"/>
+            <show chara="schroSeriousFar" position="left"/>
+            <speak chara="_Schrodinger">...Human.</speak>
+            <show chara="schroTalkFar" position="left"/>
+            <speak chara="_Schrodinger">To be specific, a being that had the unitarity of its quantum distribution altered.</speak>
+            <show chara="schroSmileFar" position="left"/>
+            <speak chara="_Schrodinger">Well, it's fine if you think of me as a ghost who 「leapt」 here from another world.</speak>
+            <show chara="schroSmileFar" position="left" opacity="0.8"/>
+            <show chara="shelleyShockedFar" position="right"/>
+            <speak chara="_Shelley">.....</speak>
+            <show chara="shelleyShockedFar" position="right" opacity="0.8"/>
+            <show chara="schroTalkFar" position="left"/>
+            <speak chara="_Schrodinger">Have you heard about this sword before? It's called 「Durandal」.</speak>
+            <show chara="schroTalkFar" position="left" opacity="0.8"/>
+            <show chara="shelleyBoredFar" position="right"/>
+            <speak chara="_Shelley">...?</speak>
+            <show chara="shelleyBoredFar" position="right" opacity="0.8"/>
+            <show chara="schroSmileFar" position="left"/>
+            <speak chara="_Schrodinger">It's no surprise the sword itself means nothing to you.</speak>
+            <show chara="schroCalmFar" position="left"/>
+            <speak chara="_Schrodinger">But—— The following story may change your reaction. An urban legend says that somewhere in this city there is a 「Philosopher's Stone」, a 「tesseract that gives all your robots the ability to think」.</speak>
+            <show chara="schroCalmFar" position="left" opacity="0.8"/>
+            <show chara="shelleySmileFar" position="right"/>
+            <speak chara="_Shelley">...Hmph. And here I thought you were going to say something interesting, but it's just the 「Philosopher's Stone」. Do you really believe in that nonsense?</speak>
+            <speak chara="_Shelley">Did you know? According to some urban legends, I'm actually dead and I was replaced by a robot replica.</speak>
+            <show chara="shelleySmileFar" position="right" opacity="0.8"/>
+            <show chara="schroSeriousFar" position="left"/>
+            <speak chara="_Schrodinger">Indeed. Urban legends are often nonsense far from the truth. Even the 「Philosopher's Stone」 it's just an old 「universal」 legend.</speak>
+            <show chara="schroSmileFar" position="left"/>
+            <speak chara="_Schrodinger" remark="next">But I also believe—— 「Any sufficiently advanced technology is indistinguishable from magic」.</speak>
+            <remark post="U2FsdGVkX1+9YlENGNASDdIYCoDF">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">“克拉克基本定律”（Clarke's three laws）——</p>
+                <p class="article-text">1. 如果一个杰出但年事已高的科学家说，某件事情是可能的，那他几乎就是正确的；但如果他说，某件事情是不可能的，那他很可能是错误的。</p>
+                <p class="article-text">2. 发现“可能”的界限的唯一途径，就是冒险跨出既有的“可能”，进入“不可能”的领域。</p>
+                <p class="article-text">3. 任何一项足够先进的技术，对受众来说都将与魔法无异。</p>
+            </remark>
+            <show chara="schroSmileFar" position="left"/>
+            <speak chara="_Schrodinger">It wouldn't be strange if a chemist who traveled back in time to the stone age were revered as a 「godly shaman」 after performing a couple of experiments.</speak>
+            <show chara="schroSmileFar" position="left" opacity="0.8"/>
+            <show chara="shelleyAngryFar" position="right"/>
+            <speak chara="_Shelley">...Are you just throwing ideas around fishing for information?</speak>
+            <show chara="shelleyAngryFar" position="right" opacity="0.8"/>
+            <show chara="schroTalkFar" position="left"/>
+            <speak chara="_Schrodinger">No, that's not my intention. To get my point across I need to build a foundation first.</speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="12_12_blackCloud.jpg">
+            <bgm src="02_22_amazingGrace.mp3" status="continue"></bgm>
+            <speak chara="_Schrodinger">Let me tell you a story about a certain 「magic sword」.</speak>
+            <speak chara="_Schrodinger">The name of that sword is 「Durandal」. This sword, capable of creating the heavens and earth, was made by a certain 「God」 to be used by one of its apostles. The seven rainbow colored gems on its hilt are proof of its power.</speak>
+            <speak chara="_Schrodinger">For instance... the Red Gem of Courage is able to track a specific kind of wavelength, which can serve as a guide during a search.</speak>
+            <speak chara="_Schrodinger">The Blue Gem of Reason has powerful information processing capabilities, which allows for instant data analysis of any kind.</speak>
+            <speak chara="_Schrodinger">Even separated each one of them has an immeasurable value.</speak>
+            <speak chara="_Schrodinger">...Among them, the most 「useful」 one is the 「Gem of Reason」 due to its ability to imitate human cognition.</speak>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="alexandriaPalace.jpg">
+            <bgm src="02_22_amazingGrace.mp3" status="continue"></bgm>
+            <show chara="schroSeriousFar" position="center"/>
+            <speak chara="_Schrodinger">I realized this after carefully observing your city.</speak>
+            <show chara="schroTalkFar" position="center"/>
+            <speak chara="_Schrodinger">There is nothing special about its combustion engines and vacuum tubes——</speak>
+            <show chara="schroSeriousFar" position="center"/>
+            <speak chara="_Schrodinger">——And yet the robots can perform police, guide and household work. Even their artificial intelligence is good enough to simplify the process of legislation and law enforcement.</speak>
+            <show chara="schroTalkFar" position="center"/>
+            <speak chara="_Schrodinger">These machines aren't simple automatons, they think like people do, and solve problems like people do.</speak>
+            <show chara="schroCalmFar" position="center"/>
+            <speak chara="_Schrodinger">They posses a genuine artificial intelligence of a level that can pass the Turing Test.</speak>
+            <show chara="schroSeriousFar" position="center"/>
+            <speak chara="_Schrodinger">This is, without doubt, a remarkable accomplishment... but at the same time, a suspicious one.</speak>
+            <show chara="schroTalkFar" position="center"/>
+            <speak chara="_Schrodinger">As you should know already, brain cells are a complex and delicate structure. Trying to imitate them using common electronic devices would consume a huge amount of power.</speak>
+            <show chara="schroCalmFar" position="center"/>
+            <speak chara="_Schrodinger">The reason why humans can function with only 「three meals a day」 is because the human body is well optimized.</speak>
+            <show chara="schroTalkFar" position="center"/>
+            <speak chara="_Schrodinger">Each cell is similar to a nanorobot. They record information on their own chemical structure rather than relying on electromagnetic fields that consume vast amounts of energy.</speak>
+            <show chara="schroSmileFar" position="center"/>
+            <speak chara="_Schrodinger">And these cells posses blueprints called DNA, and can replicate themselves by performing a 「3D printing」 process called cell division.</speak>
+            <show chara="schroCalmFar" position="center"/>
+            <speak chara="_Schrodinger">My point is—— Replicating the most complex and esoteric system in the world, the human brain—— Is theoretically impossible using common 「hardware」 such as vacuum tubes and combustion engines.</speak>
+            <show chara="schroTalkFar" position="center"/>
+            <speak chara="_Schrodinger">There are trillions of neuronal connections in a single human brain——</speak>
+            <speak chara="_Schrodinger">——If one were to use vacuum tubes, it would be like lighting up a trillion light bulbs.</speak>
+            <show chara="schroSeriousFar" position="center"/>
+            <speak chara="_Schrodinger">Even if we ignore the physical space needed and excess heat from them, you would need hundreds if not thousands of fully operational Hoover Dams to supply enough power to light up a 「trillion light bulbs」.</speak>
+            <show chara="schroTalkFar" position="center"/>
+            <speak chara="_Schrodinger">Only then someone would be able to recreate 「a single human brain」.</speak>
+            <show chara="schroCalmFar" position="center"/>
+            <speak chara="_Schrodinger">When you see it like this, the fact that this city has a 「genuine artificial intelligence」 sounds like a scenario taken from a fantasy novel.</speak>
+            <show chara="schroSeriousFar" position="center"/>
+            <speak chara="_Schrodinger">——And yet it exists. Everywhere in this city there are 「machines」 performing difficult tasks only a 「human」 should be able to do.</speak>
+            <show chara="schroTalkFar" position="center"/>
+            <speak chara="_Schrodinger">After I inspected discarded robots I noticed they are nothing but terminals following orders—— Which made this strange situation even more suspicious.</speak>
+            <show chara="schroSeriousFar" position="center"/>
+            <speak chara="_Schrodinger">Who is the 「main brain」 behind them that imitates 「tens of thousands」 of humans brains every single day?</speak>
+            <show chara="schroTalkFar" position="center"/>
+            <speak chara="_Schrodinger">And what kind of 「cheat」 did you use to pull it off?</speak>
+            <show chara="schroScornfulFar" position="center"/>
+            <speak chara="_Schrodinger">If such technological leap were possible thanks to a mere 「invention」—— Any shaman from the past would had been able to build a spaceship using a revelation from God.</speak>
+            <hide position="center"></hide>
+            <show chara="micheSeriousFar" position="left"/>
+            <speak chara="_Michel">.....</speak>
+            <show chara="micheSeriousFar" position="left" opacity="0.8"/>
+            <show chara="shelleyShockedFar" position="right"/>
+            <speak chara="_Shelley">...You are free to mock us, but let me tell you I don't believe the development of my city has been unethical or immoral.</speak>
+            <show chara="shelleyShockedFar" position="right" opacity="0.8"/>
+            <show chara="schroMemoryFar" position="left"/>
+            <speak chara="_Schrodinger">Yes, I understand how you feel. I used to feel the same way when I worked at a certain institution.</speak>
+            <show chara="schroSeriousFar" position="left"/>
+            <speak chara="_Schrodinger">That's why I have to tell you clearly what vulnerabilities the technology you 「borrowed」 has.</speak>
+            <show chara="schroTalkFar" position="left"/>
+            <speak chara="_Schrodinger">For instance, the most relevant to you right now—— The 「safety of the communication equipment」.</speak>
+            <goto goto="80" clockwise="1"/>
+        </scene>
+        <scene id="80" background="alexandriaOasisNight.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="chess1" position="center"/>
+            <speak chara="_Champollion">Bishop to D6.</speak>
+            <show chara="chess2" position="center"/>
+            <speak chara="_Bianka">Queen to A1. Check.</speak>
+            <hide position="center"></hide>
+            <show chara="biankaProudClose" position="left"/>
+            <speak chara="_Bianka">If you want to take back now this is the time, or else say goodbye to your Rooks.</speak>
+            <show chara="biankaProudClose" position="left" opacity="0.8"/>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">...Like I told you before, talking during chess will only distract yourself.</speak>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">Besides, I never take back my moves.</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="chess3" position="center"/>
+            <speak chara="_Champollion">King to E2.</speak>
+            <hide position="center"></hide>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">Heh, so stubborn.</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="chess4" position="center"/>
+            <speak chara="_Bianka">Bishop to G1.</speak>
+            <show chara="chess5" position="center"/>
+            <speak chara="_Champollion">Pawn to E5.</speak>
+            <show chara="chess6" position="center"/>
+            <speak chara="_Bianka">Knight to A6.</speak>
+            <show chara="chess7" position="center"/>
+            <speak chara="_Champollion">Knight to G7. Check.</speak>
+            <show chara="chess8" position="center"/>
+            <speak chara="_Bianka">King to D8.</speak>
+            <hide position="center"></hide>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">You should just admit defeat already.</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="chess9" position="center"/>
+            <speak chara="_Champollion">Queen to F6. Check.</speak>
+            <hide position="center"></hide>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">Oh my... making a break for it?</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">Heh. Stop talking and make your next move.</speak>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">This match is over.</speak>
+            <show chara="champoSweatyClose" position="right" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka">(...What did she mean by that? Was it a trap?)</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="chess10" position="center"/>
+            <speak chara="_Bianka">Knight to F6.</speak>
+            <show chara="chess11" position="center"/>
+            <speak chara="_Champollion">Bishop to E7. Checkmate.</speak>
+            <hide position="center"></hide>
+            <goto goto="90" change="0"/>
+        </scene>
+        <scene id="90" background="alexandriaOasisNightSmoke.jpg">
+            <bgm src="01_18_tango.mp3" status="continue"></bgm>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka">...Huh?</speak>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">Wait... checkmate already?</speak>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">I can't...</speak>
+            <show chara="biankaAngryClose" position="left" opacity="0.8"/>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">Well, well. Don't let it get to you.</speak>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">I think you did better compared to our first match.</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">Ugh... Taking two Rook at once turned out to be a trap all along.</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="right"/>
+            <speak chara="_Rita">That's the kind of game chess is, Bianka-sama.</speak>
+            <show chara="rita17SquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka">——Rita?</speak>
+            <show chara="biancaShyClose" position="left"/>
+            <speak chara="_Bianka">H-How long have you been there!?</speak>
+            <show chara="biancaShyClose" position="left" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="right"/>
+            <speak chara="_Rita">Since you asked the Detective-san if she wanted to take back her move, I think.</speak>
+            <show chara="rita17NormalClose" position="right" opacity="0.8"/>
+            <show chara="biancaShyClose" position="left"/>
+            <speak chara="_Bianka">...!!</speak>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">...Wait.</speak>
+            <speak chara="_Bianka">You were behind me all this time, and me, a great Valkyrie, didn't notice you——</speak>
+            <show chara="biankaBiteClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Bianka">——You can't use your abilities to peek at a chess match! What were you thinking!?</speak>
+            <speak chara="_Bianka">Unbelievable! The saying 「you must not use a steam hammer to crack a nut, if a nutcracker would do」 exists for a reason.</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_Rita">...It was a trap, but if that hadn't been the case this game wouldn't had ended that way, and you wouldn't have known such an ending was possible.</speak>
+            <show chara="rita17HesitateClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">Whatever. This was a lesson worth learning.</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="neithSmileClose" position="left"/>
+            <speak chara="_Neith">Professor! I brought the gas masks, oxygen cylinders and 50 men!</speak>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">...And somehow I got roped into this as well.</speak>
+            <show chara="thalesSeriousClose" position="left"/>
+            <speak chara="_Thales">For crying out loud. This kind of physical labor isn't for me.</speak>
+            <show chara="thalesSeriousClose" position="left" opacity="0.8"/>
+            <show chara="neithComplainClose" position="right"/>
+            <speak chara="_Neith">You're an important person, you need to be here!</speak>
+            <show chara="manfredQuestionClose" position="right"/>
+            <speak chara="_Manfred">...I heard it's partly your fault our engineer Watt was kidnapped.</speak>
+            <show chara="manfredQuestionClose" position="right" opacity="0.8"/>
+            <show chara="thalesAngryClose" position="left"/>
+            <speak chara="_Thales">How you dare to blame me, you simpleton!</speak>
+            <show chara="thalesAngryClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">Hahaha. Think about it like this, Director. That brain of yours may come in handy in this operation.</speak>
+            <speak chara="_Champollion">But first...</speak>
+            <show chara="neithSmileClose" position="left" opacity="0.8"/>
+            <speak chara="_Champollion">Well done, Neith! Tomorrow I'm buying you a Mille-feuille from 「Golden House」!</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="neithLaughClose" position="left"/>
+            <speak chara="_Neith">Yay! Cake! Thanks, Pro——</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <bgm src="01_18_horror.mp3" status="start"></bgm>
+            <show chara="neithScaredClose" position="center"/>
+            <speak chara="_Neith">.....</speak>
+            <show chara="neithShockClose" position="center"/>
+            <speak chara="_Neith">T-There's a burning smell coming from the city... I think something exploded!</speak>
+            <shake position="center" time="250"></shake>
+            <speak chara="_Neith">...Look! Over there! There's smoke! Smoke!!</speak>
+            <goto goto="100" change="#000000"/>
+        </scene>
+        <scene id="100" background="01_18_secretRoom.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+            <show chara="AliceSurprisedClose" position="center"/>
+            <speak chara="_Alice">...Alice got on the train. And guess what, all passengers and crew members suddenly disappeared!</speak>
+            <show chara="AliceShyClose" position="center"/>
+            <speak chara="_Alice">Alice was very worried. Who was going to drive this high speed train if the conductor was gone?</speak>
+            <show chara="AliceSmileClose" position="center"/>
+            <speak chara="_Alice">When Alice was starting to panic she heard a voice coming from the speaker. 「Dear Alice, do not worry. I am Nyter Elmont, the conductor of this train. Let us have a wonderful trip together.」</speak>
+            <show chara="AliceShyClose" position="center"/>
+            <speak chara="_Alice">Alice was very surprised. She got closer to the speaker and asked, 「Where are you, Conductor? I searched every corner of the train but I couldn't find you!」</speak>
+            <show chara="AliceSmileClose" position="center"/>
+            <speak chara="_Alice">Nyter laughed and replied 「Of course. You are inside me, Alice.」</speak>
+            <show chara="AliceShyClose" position="center"/>
+            <speak chara="_Alice">Alice was even more surprised. 「Are you... the train itself?」</speak>
+            <show chara="AliceSmileClose" position="center"/>
+            <speak chara="_Alice">The voice from the speaker told her, 「Yes. As you know, this world is in a constant state of change.」</speak>
+            <show chara="AliceSmileClose" position="center"/>
+            <speak chara="_Alice">「When two mirror images converge, every aspect of the world changes.」</speak>
+            <show chara="AliceSmileClose" position="center"/>
+            <speak chara="_Alice">「There used to be 4 staff members on this train. When the mirror images converged, a fully automated train was born.」</speak>
+            <show chara="AliceShyClose" position="center"/>
+            <speak chara="_Alice">Alice wondered why 4 people. 「5 would not work?」, she asked.</speak>
+            <show chara="AliceSilentClose" position="center"/>
+            <speak chara="_Alice">Nyter said with a disappointed voice, 「Yes, if there ever were 5 people, they would forever——」</speak>
+            <hide position="center"></hide>
+            <bgm src="02_22_ring_ring.mp3" status="start"></bgm>
+            <speak chara="_mechanicalSound">Warning. The system's power has reached a critical low level.</speak>
+            <speak chara="_mechanicalSound">Please perform Plan 5 of the emergency power supply manual.</speak>
+            <speak chara="_mechanicalSound">Starting the 5 minute countdown.</speak>
+            <bgm src="noise.mp3" status="start"></bgm>
+            <show chara="AliceSurprisedClose" position="left"/>
+            <speak chara="_Alice">...!</speak>
+            <show chara="AliceSurprisedClose" position="left" opacity="0.8"/>
+            <show chara="wattSurpriseClose" position="right"/>
+            <speak chara="_Watt">...What's happening?</speak>
+            <show chara="wattSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="AliceHmClose" position="left"/>
+            <speak chara="_Alice">There is a problem with the power supply.</speak>
+            <speak chara="_Alice">If Plan 5 is implemented, not only the base but also this interface—— My body—— will shut down.</speak>
+            <show chara="AliceHmClose" position="left" opacity="0.8"/>
+            <show chara="wattSadClose" position="right"/>
+            <speak chara="_Watt">...D-Did something happen at the power plant?</speak>
+            <show chara="wattSadClose" position="right" opacity="0.8"/>
+            <show chara="AliceThinkClose" position="left"/>
+            <speak chara="_Alice">Give me a moment. I'm running a diagnostic...</speak>
+            <show chara="AliceDigitalClose" position="left"/>
+            <speak chara="_Alice">……</speak>
+            <speak chara="_Alice">...No, there are no issues with the power supply, but the energy consumption is increasing exponentially.</speak>
+            <speak chara="_Alice">The cause is... the communication station!?</speak>
+            <show chara="AliceShockClose" position="left"/>
+            <speak chara="_Alice">...Ah!!</speak>
+            <show chara="AliceShockClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Alice">What do I do!? What do I do!?</speak>
+            <show chara="AliceShockClose" position="left" opacity="0.8"/>
+            <show chara="wattScaredClose" position="right"/>
+            <speak chara="_Watt">...C-Calm down and tell me what happened.</speak>
+            <show chara="wattScaredClose" position="right" opacity="0.8"/>
+            <show chara="AliceShockClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Alice">I can't remain calm! I'm in big trouble!</speak>
+            <show chara="AliceShockClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Alice">It's my fault, it's all my fault!! I forgot all about 「that plan」!!!</speak>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="02_22_computerRoom.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <text>At the same time, under the server room under Alexandria's City Hall——</text>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">...I wish you had admitted you were using the 「Gem of Reason」 from the beginning.</speak>
+            <show chara="schroTalkClose" position="left" opacity="0.8"/>
+            <show chara="shelleyColdClose" position="right"/>
+            <speak chara="_Shelley">...Hmph. Aren't we this late because you spent too much time telling your little story?</speak>
+            <show chara="shelleySmileClose" position="right"/>
+            <speak chara="_Shelley">I wish you would had pointed out the vulnerabilities in our robot's system in a less roundabout way.</speak>
+            <show chara="shelleySmileClose" position="right" opacity="0.8"/>
+            <show chara="schroCalmClose" position="left"/>
+            <speak chara="_Schrodinger">...But President, had I done that you would had called me a 「hacker」 and apprehend me.</speak>
+            <show chara="schroSmileClose" position="left"/>
+            <speak chara="_Schrodinger">Because 「I know too much」, even though I came from beyond the abyss.</speak>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">...Anyway, I'm starting.</speak>
+            <show chara="schroCalmClose" position="left"/>
+            <speak chara="_Schrodinger">Your security system is too bare-bones. This might sound wrong, but it's like it's naked——</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <sound src="02_22_ring_ring.mp3"/>
+            <text>Beep—— Beep——</text>
+            <show chara="shelleyColdClose" position="center"/>
+            <speak chara="_Shelley">It's me. ...Yes, I'm in the server room. ...Calm down! What happened?</speak>
+            <show chara="shelleyShockedClose" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="_Shelley">...What!? The robots are out of control!?</speak>
+            <show chara="shelleyAngryClose" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="_Shelley">...Idiot! Calm down and explain it clearly!</speak>
+            <goto goto="120" clockwise="1"/>
+        </scene>
+        <scene id="120" background="CG8-2.jpg">
+            <bgm src="01_18_horror.mp3" status="start"></bgm>
+            <speak chara="_AliceGreen">Jimmy... I'm so sorry... I can only talk you through this screen now.</speak>
+            <speak chara="_AliceGreen">The location of the connector is unknown so there is no way to destroy the communication station from the outside.</speak>
+            <speak chara="_AliceGreen">But... thank you very much... for returning my unresponsive body to its sleeping pod.</speak>
+            <speak chara="_AliceGreen">The situation in the outside world might be chaotic right now, but——</speak>
+            <speak chara="_AliceGreen">That's precisely why I must thank you now... for taking care of me...</speak>
+            <speak chara="_AliceGreen">.....</speak>
+            <speak chara="_AliceGreen">As I've told you, I was created by the Professor. I lack the authority to manage my own functions.</speak>
+            <speak chara="_AliceGreen">I wanted to be greedy just once——</speak>
+            <speak chara="_AliceGreen">——Like Scheherazade from the Thousand and One Nights, after telling you the stories I knew I wanted to tell you my own story, my truth.</speak>
+            <speak chara="_AliceGreen">But who could have guessed 「that program」 was running in the background all this time.</speak>
+            <speak chara="_AliceGreen">It now started to consume more power and it's trying to take away my privileges. I suspect it finished analyzing its target and is ready to strike.</speak>
+            <speak chara="_AliceGreen">...Of course, this is merely my guess. I don't have the authority to view 「that program」 after all.</speak>
+            <speak chara="_AliceGreen">In light of our current situation, I can only think of 「that plan」 to be responsible for the sudden increase in power consumption by the communication station.</speak>
+            <speak chara="_AliceGreen">I'm sorry. It took me too long to tell you the truth, and now the situation has gotten out of hand.</speak>
+            <speak chara="_AliceGreen">...Given my lack of authority, I can't know the execution phase of 「that plan」 either.</speak>
+            <speak chara="_AliceGreen">I'm so dumb. Like a small child who thought her parents would never harm her. I believed in something that wasn't real.</speak>
+            <speak chara="_AliceGreen">The truth is... everything is going as planned. Even if I'm abandoned the plan would proceed smoothly.</speak>
+            <speak chara="_AliceGreen">Without my knowledge the communication station was strengthened so that it couldn't be harmed by ordinary people.</speak>
+            <speak chara="_AliceGreen">...Don't try to comfort me. It's all my fault.</speak>
+            <speak chara="_AliceGreen">...I wanted to let myself get lost in that wonderful moment.</speak>
+            <speak chara="_AliceGreen">To forget the most important and terrifying truth about me...</speak>
+            <speak chara="_AliceGreen">My original purpose is—— To become a weapon in information warfare.</speak>
+            <speak chara="_AliceGreen">The Professor and his assistants wanted to use me to destroy the city that expelled them.</speak>
+            <speak chara="_AliceGreen">They wanted to decode and hijack the city's communication system wirelessly to destroy them with the robots they are so proud of.</speak>
+            <speak chara="_AliceGreen">...Now that I think about it, maybe my current consciousness as 「Alice」 is a 「by-product」 of the Professor's boredom.</speak>
+            <speak chara="_AliceGreen">To them, this 「Alice」 personality must have been nothing but a decoration to the 「Alice」 interface, as if they were playing with a doll.</speak>
+            <speak chara="_AliceGreen">Because 「I」 am completely unnecessary—— For what 「I」 was truly made for.</speak>
+            <speak chara="_AliceGreen">.....</speak>
+            <speak chara="_AliceGreen">I wonder if all humans use their own children this way, Jimmy.</speak>
+            <end post="U2FsdGVkX1+1vGdM9rblXGYOSlxi"/>
+        </scene>
+    </story>
+</data>

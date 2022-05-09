@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="asteroidPalace.jpg">
+            <bgm src="06_01_Tuluum.mp3" status="start"></bgm>
+            <text>Souls taste like honey.</text>
+            <text>The insides of a Honey Bee cannot contain the soul of a much bigger plant—— So the Honey Bee turns it into sweeter honey.</text>
+            <text>...That said, nectar taken straight from a fresh flower is also delicious.</text>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="CG15-1.jpg">
+            <bgm src="06_01_Tuluum.mp3" status="continue"></bgm>
+            <speak chara="_ZarathustraDaughter">Now then, the cute children or the elegant adults——</speak>
+            <speak chara="_ZarathustraDaughter">——Which one should I devour first?</speak>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="CG16-1-1.jpg">
+            <bgm src="12_14_Hero.mp3" status="start"></bgm>
+            <speak chara="_ZarathustraDaughter">?</speak>
+            <speak chara="_Rita">I won't let you... lay a finger... on Bianka-sama...</speak>
+            <speak chara="_ZarathustraDaughter">Oh my. You breathed a considerable amount of anesthetic gas, yet you are able to stand up?</speak>
+            <speak chara="_ZarathustraDaughter">Well, it matters not. You will not be able to save your precious 「Bianka-sama」 with that wobbling body of yours.</speak>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="CG16-1-2.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <speak chara="_Rita">You might not know but...</speak>
+            <speak chara="_Rita">Weapons that are sharp enough...</speak>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="CG16-2-1.jpg">
+            <bgm src="07_07_wind.mp3" status="start"></bgm>
+            <speak chara="_Rita">...Don't need much power behind them to kill someone.</speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="CG16-2-2.jpg">
+            <bgm src="02_22_amazingGrace.mp3" status="start"></bgm>
+            <speak chara="_ZarathustraDaughter">This... cannot be...</speak>
+            <speak chara="_Rita">You must... be surprised...</speak>
+            <speak chara="_Rita">But I told you... didn't I...</speak>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="CG16-3.jpg">
+            <bgm src="02_22_amazingGrace.mp3" status="continue"></bgm>
+            <speak chara="_Rita">I told you...</speak>
+            <speak chara="_Rita">I won't let you... lay a finger... on Bianka-sama...</speak>
+            <speak chara="_Rita">Goodbye... second... 「Serpent King」...</speak>
+            <goto goto="80" change="#000000"/>
+        </scene>
+        <scene id="80" background="black">
+            <bgm src="morning.mp3" status="start"></bgm>
+            <speak chara="_Bianka">(Ugh... why... am I...)</speak>
+            <speak chara="_Bianka">(It's cold... my head feels heavy...)</speak>
+            <speak chara="_Bianka">(Ah... I can feel something...)</speak>
+            <speak chara="_Bianka">(So warm... and smells good...)</speak>
+            <speak chara="_Bianka">(Mom...)</speak>
+            <speak chara="_Bianka">(.....)</speak>
+            <speak chara="_Bianka">(Wait——)</speak>
+            <speak chara="_Bianka">(Why am I—— Sleeping?)</speak>
+            <goto goto="90" change="#ffffff"/>
+        </scene>
+        <scene id="90" background="CG16-4.jpg">
+            <bgm src="06_01_ChichenItza.mp3" status="start"></bgm>
+            <speak chara="_Rita">Good morning, Bianka-sama.</speak>
+            <speak chara="_Rita">Did you sleep well?</speak>
+            <speak chara="_Bianka">Rita? What happened to me? Why am I here? How long was I asleep?</speak>
+            <speak chara="_Rita">Chichen Itza's castle. Specifically, the backyard of the Chicxulub meteorite building.</speak>
+            <speak chara="_Rita">Approximately 1 hour ago, we fell for a trap and inhaled a large amount of anesthetic gas.</speak>
+            <speak chara="_Rita">...You're still growing up, it's no surprise it would take you more time to recover.</speak>
+            <speak chara="_Bianka">What... anesthetic gas...</speak>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="cenote.jpg">
+            <bgm src="06_01_ChichenItza.mp3" status="continue"></bgm>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">And everyone else? Are the Captain and the rest okay?</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">Don't worry. Du-sama is treating them nearby using equipment left by the High Priestess. They should be waking up in about 30 minutes.</speak>
+            <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <!-- FLOW: Since when she's -> Since when has she -->
+            <speak chara="_Bianka">...Du? That sword? Since when has she been with us?</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">Since this morning. After recovering 2 of its gems, Du-sama became able to manipulate the air distribution around itself to hide in plain sight.</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">...What? So it's like optical camouflage?</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">Yes. Schrodinger-sama and I persuaded Du-sama into using that ability to become our triumph card.</speak>
+            <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">W-Why didn't you tell me something so important, idiot!?</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <!-- GRAMMAR: However it was necessary thing -> However it was a necessary thing -->
+            <speak chara="_Rita">My apologies, Bianka-sama. However it was a necessary thing to do to reduce the risk of a potential enemy finding out about our strategy.</speak>
+            <speak chara="_Rita">So it wasn't only you who didn't——</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">Yeah, I get it. I'm sure it would be written all over my face if I knew!</speak>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">...So, who attacked us anyway? Some rebel faction?</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">No.</speak>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">It was the 「High Priestess」 herself, Bianka-sama.</speak>
+            <show chara="ritaVestAngryClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">...Huh?</speak>
+            <goto goto="110" clockwise="1"/>
+        </scene>
+        <scene id="110" background="cenote.jpg">
+            <bgm src="06_01_Tuluum.mp3" status="start"></bgm>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">Basically... being friendly and inviting us to her place was all an act to get us into a closed room and look for a chance to put us to sleep?</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">I suspect that's the case. From what I could gather, I think she was planning to eat us to gain our power.</speak>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">...Just like the legendary 「Serpent King」 once did.</speak>
+            <show chara="ritaVestAngryClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">These are some notes she left behind. I'll translate them for you.</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <text article="1">
+                <p class="article-text">12.14.11.15.1.</p>
+                <br />
+                <p class="article-text">I ended up using the power of the 「Serpent」. I had no choice, these barbarians would not listen to anything but force.</p>
+                <p class="article-text">Fortunately, they have now completely submitted to me. I will have plenty of time to master this power.</p>
+            </text>
+            <text article="1">
+                <p class="article-text">12.14.11.15.2.</p>
+                <br />
+                <p class="article-text">「O Super Human! You have bestowed upon us ordinary people the secrets of victory and goodness. People have begun to imitate your values so that you may not be saddened or disillusioned by us. We will walk the path of truth and dedicate ourselves to the Super Human.」</p>
+                <p class="article-text">——That sounds good.</p>
+            </text>
+            <text article="1">
+                <p class="article-text">12.14.14.3.0.</p>
+                <br />
+                <p class="article-text">I have not eaten a brain in 40 days. There have not been any changes to my physical condition so far. Ingesting volunteers does seem to work in suppressing the desire of the 「Serpent」.</p>
+                <p class="article-text">I must continue to spread my faith so that it may reach more people.</p>
+            </text>
+            <text article="1">
+                <p class="article-text">12.15.1.0.8.</p>
+                <br />
+                <p class="article-text">I received a report of a rebellion in the highlands. I ate the brain of the reporter to verify the truth.</p>
+                <p class="article-text">——It was a lie. But just in case, I should change the officers at the border regularly.</p>
+            </text>
+            <text article="1">
+                <p class="article-text">12.15.6.1.15.</p>
+                <br />
+                <p class="article-text">A new generation has been born into our faith. It is necessary to make a tour around the newly acquired lands and solidify the perception of the people at the frontiers.</p>
+                <p class="article-text">I do not seem to age like a normal person. I wonder if it is due to the 「Serpent」.</p>
+            </text>
+            <text article="1">
+                <p class="article-text">12.15.10.15.6.</p>
+                <br />
+                <p class="article-text">It is been several years since the last time I ate a brain.</p>
+                <p class="article-text">Patrol guards picked up a dying old man who was stung by a jellyfish. He called himself 「The Painter Matisse」. I hope I can gain an artistic sense from him.</p>
+            </text>
+            <text article="1">
+                <p class="article-text">12.15.10.15.7.</p>
+                <br />
+                <p class="article-text">The brain of that old man was more dangerous than hallucinogenic mushrooms and mandrake.</p>
+                <p class="article-text">I have begun painting the Sun green and the sea pink. I must be more careful, I cannot let my believers think the High Priestess has gone crazy. However, I can use this to spread my faith even further.</p>
+            </text>
+            <text article="1">
+                <p class="article-text">12.15.10.15.8.</p>
+                <br />
+                <p class="article-text">There are two types of freedom in our faith. The freedom of an ordinary person and the freedom of a Super Human. They are completely different.</p>
+                <p class="article-text">The goal of an ordinary person is to become a Super Human. An ordinary person cannot question the acts of a Super Human.</p>
+            </text>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">...That's what it says. Thanks to her instructions the Maya won't see us as their enemy even though we killed their 「High Priestess」.</speak>
+            <show chara="ritaVestHesitateClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">Oh? I totally thought you scared off the believers...</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">.....</speak>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">From their point of view, a battle between 「Nakom」 is something sacred and they must accept the outcome regardless of who is victorious.</speak>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">Though they did ask for one of us to stay behind to be the next 「High Priest」.</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">...If Bishop Otto was here we could throw him at them.</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNaughtyClose" position="right"/>
+            <speak chara="_Rita">Hehe. If it were him, he would be able to handle the affairs of this place during teatime.</speak>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">——That reminds me, unlike the other Valkyries you don't seem to be scared of the Bishop, Bianka-sama. Did something interesting happen between you two?</speak>
+            <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="left"/>
+            <speak chara="_Bianka">Oh, he's been my personal doctor since the time I woke up in the hospital.</speak>
+            <show chara="biankaDressShyClose" position="left"/>
+            <speak chara="_Bianka">He asked me to treat him like any other doctor so that's what I did.</speak>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">...Actually, since I joined HQ I never really understood why the other Valkyries act cautious when they're around him.</speak>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">——Is he really that much of a scary person?</speak>
+            <show chara="biankaDressNormalClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNaughtyClose" position="right"/>
+            <speak chara="_Rita">Hehe. I suppose everyone is not as lucky as you.</speak>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">Many people see the Bishop as someone who stands above the clouds, and feel they shouldn't get too involved with him.</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">Alright. I'm feeling better now, it's time to——</speak>
+            <goto goto="120" change="0"/>
+        </scene>
+        <scene id="120" background="cenote.jpg">
+            <bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
+            <sound src="se_spring.mp3"/>
+            <shake position="all" time="250"></shake>
+            <speak chara="_Bianka">——W-What is it now!?</speak>
+            <bgm src="legion.mp3" status="start"></bgm>
+            <speak chara="_Rita">Something is coming from the bottom of the lake!</speak>
+            <show chara="BertrandSmile" position="center"/>
+            <shake position="all" time="250"></shake>
+            <speak chara="_bertrand">Le Peuple souverain s'avance, (Sovereign People comes forth,)</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand" remark="next">Tyrans descendez au cercueil! (Tyrants go down to your graves!)</speak>
+            <remark post="U2FsdGVkX1+JMOsAqrORmyQBW1vO">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">这是《出征曲》的两句歌词。</p>
+                <p class="article-text">《出征曲》（法语：Chant du départ；艾森蒂恩·尼古拉斯·梅耶尔作曲，玛丽-约瑟夫·切尼尔作词）是发表于1794年的一首法国革命战争歌曲，也是法兰西第一帝国的官方国歌。</p>
+            </remark>
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">You have my most sincere thanks for freeing me, ladies. I am Bertrand, colonel of the Eastern Expedition Force of France.</speak>
+            <speak chara="_bertrand">Attention! Salute!</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="center"/>
+            <speak chara="_Bianka">...Colonel? Expedition Force? France? What is this guy talking about?</speak>
+            <show chara="biankaDressShoutClose" position="center"/>
+            <speak chara="_Bianka">Actually, who are you? How can you talk!?</speak>
+            <show chara="biankaDressShoutClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">...Right. I no longer look 「like a human」, don't I?</speak>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">Apologies. I'm sure you see it happen often, an old man deludes himself into thinking he's back to his younger days.</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">For 3000 years! No, 3 months? 3 years? A-Anyway, that despicable witch took away my strength and imprisoned me in that bottomless lake.</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">Ladies, would you please tell me? Has the hammer of justice fallen upon that Persian witch?</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="center"/>
+            <speak chara="_Bianka">...I can say for sure 「Esther Zarathustra」 is dead. She tried to assassinate us and after failing to do so, was killed in self-defense.</speak>
+            <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">Haha... People are always brought down by their own specialty, just like it happened to my Imperator.</speak>
+            <show chara="BertrandSmile" position="center" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="center"/>
+            <speak chara="_Rita">...「Imperator」?</speak>
+            <show chara="ritaVestNormalClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand" remark="next">Yes, 「Imperator」. It means Emperor.</speak>
+            <remark post="U2FsdGVkX19v4Kx0G0CAr4k8kjaj">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">Imperator（音译：英白拉多，意译：凯旋将军、皇帝）是古罗马的一种头衔。在罗马共和国时期相当于军队的总指挥官，在罗马帝国时期变成“元首”（Princeps，意为“第一公民”）的头衔之一。</p>
+                <p class="article-text">——Imperator也是英语"Emperor"（“皇帝”）的辞源。</p>
+            </remark>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">Not Roman, Greek, German, Turkish or Russian——</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">The pride and joy of France——</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">——Napoleon Bonaparte!</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="center"/>
+            <speak chara="_Bianka">...First time I heard Napoleon had a dragon in his ranks.</speak>
+            <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">You're mistaken, lady. I've been by my Emperor's side as his most loyal soldier from Alexandria to St. Helena.</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">A soldier! Not a dragon! Fire comes out of my gun, not my mouth!</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">Ah... though I guess I'm indeed a dragon now.</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="center"/>
+            <speak chara="_Bianka">What exactly are you trying to say?</speak>
+            <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">Ah, excuse me. At my age I forget things rather quickly.</speak>
+            <speak chara="_bertrand">That I, the Emperor's most trusted soldier, betrayed him is an irrefutable and unacceptable fact.</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">That's right, I betrayed my Emperor. That day everything ended, and everything began.</speak>
+            <speak chara="_bertrand">The Emperor activated the 「wall」. He tried to create a new world. And yet I ran away from the battlefield.</speak>
+            <show chara="BertrandThink" position="center" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="center"/>
+            <speak chara="_Bianka">(...「Emperor」...「wall」...「new world」?)</speak>
+            <show chara="biankaDressShockClose" position="center" opacity="0.8"/>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">...Agh! Accursed algae! Damn you, whirl-worms!</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">They have eaten away my mind, and now this poor Bertrand is going crazy!</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">I'm deeply sorry.</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="center"/>
+            <speak chara="_Bianka">Yes yes I forgive you, just answer my question please.</speak>
+            <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">Ah yes, of course.</speak>
+            <show chara="BertrandSmile" position="center" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="center"/>
+            <speak chara="_Bianka">...「Colonel」 Bertrand, why did you become a 「dragon」?</speak>
+            <show chara="biankaDressNormalClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">Dragon? ...Dragons are often associated with Emperors. At least that's what Eastern legends say.</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">But lady, let me tell you something. There is no such thing as an 「Imperator」 in the East——</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">——「Divinity」 is a vulgar ideal, the essence of the 「Triumphant General」 is being a 「Super Human」.</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">Yes, our Emperor is a fair and just being——</speak>
+            <speak chara="_bertrand">——He's a 「Super Human」 same as that evil witch.</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="center"/>
+            <speak chara="_Bianka">...Is there any difference between a 「Serpent Woman」 and a 「Dragon Man」 then?</speak>
+            <show chara="biankaDressHesitateClose" position="center" opacity="0.8"/>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">There is. At first glance there is not much difference between clouds and rainbows.</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">But by looking at it from another perspective, you'll see they're very different. The person who makes clouds wants rain, and the person who makes rainbows wants sunlight.</speak>
+            <show chara="BertrandThink" position="center" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="center"/>
+            <speak chara="_Bianka">...?</speak>
+            <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">The Emperor is human... at least on the surface. A great person like him would never become a half-beast like me.</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">The Emperor once said 「God」 is a pyramid built by people inside their hearts, a tomb they created to escape from disaster and suffering.</speak>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">The great Emperor would always face his feelings head on and inspire everyone around him.</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">O great Napoleon Bonaparte, I swear my eternal loyalty to you!</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="center"/>
+            <speak chara="_Bianka">...But didn't you say a moment ago that you betrayed him?</speak>
+            <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">Me? Henri Gatien Bertrand? Betray the Emperor? What kind of joke is that——</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">——Ah right, I betrayed the Emperor. That's why I am here at the mercy of algae and whirl-worms.</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">Please forgive me. My head is a mess right now... but I'll do my best to remember.</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">...Was it Moscow? Waterloo? St. Helena? ...ahh, the butterflies in St. Helena were very beautiful.</speak>
+            <show chara="BertrandThink" position="center" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="center"/>
+            <speak chara="_Bianka">...Butterflies?</speak>
+            <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">No, forget the butterflies. They're a fantasy brought up by the algae and whirl-worms.</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">Let's me think... fantasy... ah, I remember! Everything started in St. Helena!</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">St. Helena was under the jurisdiction of the East India Company, so the British people watching us were their employees.</speak>
+            <speak chara="_bertrand">...The Emperor was defeated, and together with us, his faithful servants, he was exiled to that small island.</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">The island was managed by an old British man, but he had many Indian personnel like handymen, architects and even an astronomer working for him.</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">No, wait. The architect and the astronomer were the same person. He had a funny name, I think it was Ba... Bara...</speak>
+            <speak chara="_bertrand">...I remember! 「Bhaskara XVIII」!</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">Yes, that was him! That damn Indian madman!</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="center"/>
+            <speak chara="_Rita">If you mean Bhaskara II, he was one of the greatest mathematicians of the 12th century...</speak>
+            <show chara="ritaVestNormalClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">No idea if the 「XVIII」 one was a mathematician too.</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">In 1820, he spent the whole year working on a strange machine! That cursed machine was an affront to God!</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">...He was from India but he had a permit from the King of England, so no one could put a stop to his 「scientific research」.</speak>
+            <show chara="BertrandThink" position="center" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="center"/>
+            <speak chara="_Bianka">Then what... how is that machine related to the 「Emperor」? I don't understand what you're getting at.</speak>
+            <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">Please don't rush me, I will explain everything to you. The machine that Ba... 「Bhaskara」 madman made is related to my current situation.</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">First, he spent over a year installing strange devices throughout the island. Then, on May of 1821, on the day of the new moon——</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">He moved the island from Earth—— Or rather I should say—— From our universe.</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="center"/>
+            <speak chara="_Bianka">...What?</speak>
+            <show chara="biankaDressShoutClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">According to him, the night of the first new moon of May 1821 was the time when 「the stars are aligned」. By being at the right time and place, one would be able to exchange matter with a world next to ours.</speak>
+            <show chara="BertrandThink" position="center" opacity="0.8"/>
+            <show chara="ritaVestAngryClose" position="center"/>
+            <speak chara="_Rita">...!</speak>
+            <speak chara="_Rita">Did the Indian ever say the name of that device?</speak>
+            <show chara="ritaVestAngryClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">Err... I think it was 「Gernia」... no, that wasn't it. 「Genilus」... no... 「Genius」...</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">Yes! That one! 「Genius」! 「Genius Cluster」! I'm 100% sure!</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="center"/>
+            <speak chara="_Bianka">(Another incident involving the 「Genius」?)</speak>
+            <show chara="biankaDressShockClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">The Indian madman used that 「Genius Cluster」 to move the island to an unknown space.</speak>
+            <show chara="BertrandThink" position="center" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="center"/>
+            <speak chara="_Bianka">An unknown space? Not the world we are here right now?</speak>
+            <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">...Yes, I don't think they're the same. The stars in the sky at night look very different.</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">The madman threatened us, saying if we don't listen to him we'll be trapped there forever, and experience excruciating pain for all of eternity.</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="center"/>
+            <speak chara="_Bianka">So you obeyed his demands?</speak>
+            <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">I'd like to say 「we didn't」 but unfortunately that isn't what happened.</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">He pulled out a box out of nowhere, took a vial from the box and drank from it. His body then began to transform... into a monster.</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="center"/>
+            <speak chara="_Bianka">...!?</speak>
+            <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">I thought he was going to use strange magic to control everyone... but then he said:</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">「I know I don't have what it takes to be a 『Super Human』.」</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">「Drinking this drug means I'll soon lose my reason and become a merciless, cruel 『Houkai Beast』.」</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">「But I know at least one person among you has a 『Stigmata』——」</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">「——I'm talking about you, Napoleon Bonaparte, great Emperor of France.」</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">「If you take this drug, you will become a 「Super Human」.」</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">「Do so, and you will be able to defeat me, protect your men and their children, and by using the notes I've left, you will be able to move the island back to a stable world.」</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">「My skin has already become harder than steel. You have 10 seconds left to decide, Emperor.」</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="center"/>
+            <speak chara="_Bianka">...He's crazy.</speak>
+            <show chara="biankaDressHesitateClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">The British soldiers tried to stop him using swords and guns but they did nothing to him. The situation was hopeless——</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">——Until a vial of that drug rolled up to the Emperor's feet.</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="center"/>
+            <speak chara="_Bianka">...Did he drink from it?</speak>
+            <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">Yes. And what happened next was as the madman predicted. The Emperor didn't become a monster. Instead he became a 「Super Human」, a being stronger than a monster.</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">He looked like he was in his thirties but——</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">Not even the youngest and strongest soldiers could be a match for him——</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">His fist would split the sky and his kicks would smash the ground! He subdued the monster, even though swords and guns didn't work against it, with his bare hands and killed it.</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">Afterwards, the Emperor gathered every French and British on the island and used the notes left behind by the madman to go back to our original world...</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">...Or so we were supposed to.</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">We only noticed when our ship landed on the shores of Britain. This wasn't the world we knew.</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">Everyone on the island was speaking French, as if we were back to the time right after the 「Norman Conquest」.</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="center"/>
+            <speak chara="_Bianka">...That doesn't surprise me anymore. You still looked human at the time, didn't you? What happened next?</speak>
+            <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">The Emperor wasn't discouraged when he saw this strange new world——</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">「If that's how it is, let's make a new life, a new empire in this land!」 he said.</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">Now that I think about it, that was the moment when everything went downhill.</speak>
+            <end post="U2FsdGVkX19wRxPb54i8CCP+o3ni"/>
+        </scene>
+    </story>
+</data>

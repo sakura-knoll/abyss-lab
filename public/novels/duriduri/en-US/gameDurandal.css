@@ -1,0 +1,2125 @@
+*{font-size: 1rem; margin:0; text-shadow: 3px 3px 3px rgba(0,0,0,0.5);-webkit-tap-highlight-color: rgba(0,0,0,0);overflow: hidden;}
+td {border: 0px black solid;}
+td {text-align: center;}
+ul {margin: 0; padding: 0;}
+li {list-style: none; text-align: center; }
+
+@font-face {
+  font-family: "htmlHeitiFamily";
+  src:
+    local('STHeiTiSC'),
+    local('Microsoft YaHei Light'),
+    local('Microsoft YaHei'),
+    local('PingFang SC'),
+    local('Noto Sans CJK SC'),
+    local('Droid Sans Fallback');
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    background-color: black;
+}
+p{font-size: 1rem;}
+
+.preload{
+	position:absolute;
+	z-index:-9999;
+	width: 1px;
+  height: 1px;
+	overflow:hidden;
+	}
+
+.preload-image{
+	z-index:-9999;
+	width: 1px;
+  height: 1px;
+	overflow:hidden;
+	}
+
+.config-btn{
+    display:block;padding:5px; border-radius:5px;width:4rem;margin:0 auto;font-size: 1rem;cursor:pointer;
+}
+.config-btn.on{
+    border:white 1px solid;
+}
+.canvas-wrapper{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+}
+ .canvas{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+    display:none;
+}
+.transition{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: #fff;
+    z-index: 900;
+}
+
+.main{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: black;
+    z-index: 100;
+}
+.cg-wrapper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/background/bg.jpg) center /auto 100%  no-repeat ;
+    z-index: 520;
+    display: none;
+}
+
+.catalog-wrapper-new{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/background/CG1.jpg) center /auto 100%  no-repeat ;
+    z-index: 520;
+    display: none;
+}
+
+.catalog-dark{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/catalog/dark.png) center /auto 100%  no-repeat ;
+}
+
+.catalog-content-1A{
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/catalog/A.png);
+}
+.catalog-content-2Ab{
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/catalog/Ab.png);
+}
+.catalog-content-3Abc{
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/catalog/Abc.png);
+}
+.catalog-content-2Ba{
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/catalog/Ba.png);
+}
+.catalog-content-3Bac{
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/catalog/Bac.png);
+}
+.catalog-content-3Cab{
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/catalog/Cab.png);
+}
+
+#catalog-content-0{
+		position: absolute;
+    left: 3rem;
+    top: 2rem;
+    width: 37rem;
+    height: 9rem;
+    margin: 0.5rem;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+	}
+#catalog-content-1{
+		position: absolute;
+    left: 3rem;
+    top: 12rem;
+    width: 37rem;
+    height: 9rem;
+    margin: 0.5rem;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+	}
+
+.catalog-go{
+    position: absolute;
+    width: 6rem;
+    top: 6rem;
+    height: 2rem;
+    right: 3rem;
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/catalog/go.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.article-frame{
+    position: absolute;
+    width: 30rem;
+    top: 3.5rem;
+    height: 4.5rem;
+    left: 5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.catalog-chap{
+    position: absolute;
+    left: 0.1rem;
+    top: 0rem;
+    width: 37rem;
+    height: 9rem;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+.catalog-label_1_on {
+    position: absolute;
+    width: 6.45rem;
+    top: 1.35rem;
+    height: 1.5rem;
+    left: 7.75rem;
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/catalog/label_1_on.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.catalog-label_1_off {
+    position: absolute;
+    width: 6.45rem;
+    top: 1.35rem;
+    height: 1.5rem;
+    left: 7.75rem;
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/catalog/label_1_off.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.catalog-label_2_on {
+    position: absolute;
+    width: 6.45rem;
+    top: 1.35rem;
+    height: 1.5rem;
+    left: 14.3rem;
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/catalog/label_2_on.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.catalog-label_2_off {
+    position: absolute;
+    width: 6.45rem;
+    top: 1.35rem;
+    height: 1.5rem;
+    left: 14.3rem;
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/catalog/label_2_off.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.catalog-label_3_on {
+    position: absolute;
+    width: 6.45rem;
+    top: 1.35rem;
+    height: 1.5rem;
+    left: 20.85rem;
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/catalog/label_3_on.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.catalog-label_3_off {
+    position: absolute;
+    width: 6.45rem;
+    top: 1.35rem;
+    height: 1.5rem;
+    left: 20.85rem;
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/catalog/label_3_off.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.family-portrait{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/achievement/portraitBg.jpg) center /auto 100%  no-repeat ;
+    z-index: 520;
+    display: none;
+}
+
+.achievement-exhibition{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/achievement/listBG.jpg) center /auto 100%  no-repeat ;
+    z-index: 1200;
+    display: none;
+	}
+
+.achievement-catalog{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/background/bg.jpg) center /auto 100%  no-repeat ;
+    z-index: 1300;
+    display: none;
+	}
+
+.portrait-wrapper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-size:100% 100% ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.progress-box{
+	position: absolute;
+	z-index:1000;
+	left: 7.5rem;
+	bottom:0.75rem;
+	overflow: visible;
+	}
+
+.progress-bar{
+	position: absolute;
+	height: 2.1rem;
+	width: 28.55rem;
+	left:0;
+	bottom:0;
+	background: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/achievement/barBottom.png);
+	background-size:28.55rem 2.1rem;
+	background-position: left;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	}
+
+.progress-award-text{
+	position: absolute;
+	height: 2.1rem;
+	width: 28.55rem;
+	left:0;
+	bottom:-0.1rem;
+	background-size:28.55rem 2.1rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: visible;
+	}
+
+.progress-span{
+	position: absolute;
+	height: 2.1rem;
+	left:0;
+	bottom:0;
+	background: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/achievement/barTop.png);
+	background-size:28.55rem 2.1rem;
+	background-position: left;
+	background-repeat: no-repeat;
+	overflow: visible;
+	}
+
+.progress-frame{
+	position: absolute;
+	left:-9.7rem;
+	bottom:-1.75rem;
+	height: 4.5rem;
+	width: 39.1rem;
+	background: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/achievement/barFrame.png);
+	background-size:39.1rem 4.5rem;
+	background-position: left;
+	background-repeat: no-repeat;
+	overflow: visible;
+	}
+
+.progress-icon{
+	position: absolute;
+	height: 2.85rem;
+	width: 2.6rem;
+	left:0;
+	bottom:-0.375rem;
+	background: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/achievement/barIcon.png);
+	background-size:2.6rem 2.85rem;
+	background-position: left;
+	background-repeat: no-repeat;
+	overflow: visible;
+	}
+
+.progress-button{
+		position:absolute;
+		z-index:810;
+		height: 2rem;
+		width: 5.9rem;
+		right: 0.75rem;
+		bottom:0.65rem;
+		background: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/achievement/details.png) center /auto 100%  no-repeat ;
+		cursor: pointer;
+	}
+
+.progress-text{
+		position:absolute;
+    font-size: 1.5rem;
+    font-family: htmlHeitiFamily;
+    color: #fdffea;
+    height: auto;
+    margin-top:0rem;
+}
+
+.achievement-chapter{
+	position:absolute;
+	left:1.2rem;
+	top:0.6rem;
+	width:45rem;
+	height:3rem;
+	overflow: visible;
+	}
+
+.achievement-chapter-text{
+	float:left;
+	color: #fdffea;
+	font-family: htmlHeitiFamily;
+	font-size: 3rem;
+	font-style:Italic;
+	overflow: visible;
+	}
+
+.achievement-list{
+	position:absolute;
+	top:4.2rem;
+	left:4.2rem;
+	display:table;
+	}
+
+.achievement-list-member{
+	display:table-row;
+	}
+
+.exhibition-member{
+	position:relative;
+	height:4.2rem;
+	width:45rem;
+	}
+
+.exhibition-member-image{
+	position:absolute;
+	left:0.6rem;
+	top:0.6rem;
+	width:3.6rem;
+	height:3.6rem;
+  background-size:100% 100% ;
+  background-position: center;
+  background-repeat: no-repeat;
+	}
+
+.exhibition-member-tips{
+	position:absolute;
+	left:2.4rem;
+	top:0.6rem;
+	width:1.8rem;
+	height:1.8rem;
+  background-size:100% 100% ;
+  background-position: center;
+  background-repeat: no-repeat;
+	}
+
+.exhibition-member-title{
+	position:absolute;
+	left:4.8rem;
+	top:0.8rem;
+	color: #fdffea;
+	font-family: htmlHeitiFamily;
+	font-size: 1.3rem;
+	}
+
+.exhibition-member-text{
+	position:absolute;
+	left:4.8rem;
+	bottom:0.2rem;
+	color: #dddfca;
+	font-family: htmlHeitiFamily;
+	font-size: 1rem;
+	}
+
+.galgame{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: black;
+    z-index: 100;
+}
+
+
+.character_frame{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#character_left{
+    z-index: 101;
+}
+#character_center{
+    z-index: 121;
+}
+#character_right{
+    z-index: 111;
+}
+
+.ui_layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 300;
+}
+
+#top_layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 900;
+    cursor: pointer;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.bottom{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background: white;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.bottom_image{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 10%;
+    left: 25%;
+    background: url('https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/common/horizon_hint.png') 100% 100% /100% auto no-repeat;
+}
+#confirm{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 901;
+    background:rgba(0,0,0,.6);
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#confirm_1{
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    top: 20%;
+    left: 20%;
+    z-index: 902;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.cancel{
+    position: absolute;
+    width: 25%;
+    height: 14%;
+    top: 74%;
+    left: 23%;
+    z-index: 903;
+    background: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/cancel.png) right /auto 100%  no-repeat;
+}
+.submit{
+    position: absolute;
+    width: 25%;
+    height: 14%;
+    top: 74%;
+    right: 23%;
+    z-index: 903;
+    background: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/submit.png) left /auto 100%  no-repeat;
+
+}
+.submit-center{
+    position: absolute;
+    width: 25%;
+    height: 14%;
+    top: 74%;
+    right: 37.5%;
+    z-index: 903;
+    background: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/submit.png) left /auto 100%  no-repeat;
+
+}
+.goto{
+    position: absolute;
+    width: 50%;
+    height: 14%;
+    top: 14%;
+    left: 25%;
+    z-index: 903;
+}
+.score-submit{
+    position: absolute;
+    width: 50%;
+    height: 14%;
+    top: 78%;
+    left: 25%;
+    z-index: 903;
+
+
+}
+.score_cancel{
+    position: absolute;
+    width: 20%;
+    height: 14%;
+    top: 0%;
+    left: 71%;
+    z-index: 903;
+}
+#cg_layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1100;
+    text-align: center;
+    cursor: pointer;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.cg_pic{
+    display: block;
+    height: 100%;
+    width: auto;
+    margin: 0 auto;
+}
+
+.home_btn{
+    position: absolute;
+    width: 3.6rem;
+    height: 3.6rem;
+    margin: 0;
+    top: 0;
+    right: 0;
+    z-index: 810;
+    background: url("https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/close.png");
+    background-size: 100% 100%;
+    background-position: center;
+    cursor: pointer;
+}
+
+.home_btn_history{
+    top: 2.25rem;
+    right: 0.5rem;
+    z-index: 810;
+    background-size: 100% 100%;
+}
+
+.home_btn_remark{
+    top: 2.25rem;
+    right: 0.5rem;
+    z-index: 810;
+    background-size: 100% 100%;
+}
+
+.remark_btn{
+    position: absolute;
+    width: 3.6rem;
+    height: 3.6rem;
+    margin: 0.6rem;
+    bottom: 6rem;
+    right: 0;
+    z-index: 810;
+    background: url("https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/remark.png");
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.back{
+    position: absolute;
+    width: 3.6rem;
+    height: 3.6rem;
+    margin: 0;
+    top: 0;
+    right: 0;
+    z-index: 810;
+    background: url("https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/close.png");
+    background-size: 100% 100%;
+    background-position: center;
+    cursor: pointer;
+}
+
+.achievement-back{
+    position: absolute;
+    width: 3.6rem;
+    height: 3.6rem;
+    margin: 0;
+    top: 0;
+    right: 0;
+    z-index: 810;
+    background: url("https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/achievement/exit.png");
+    background-size: 100% 100%;
+    background-position: center;
+    cursor: pointer;
+}
+
+.buttonBar{
+    position: absolute;
+    width: /*14rem*/ 40rem;
+    height: /*2.3rem*/ 3.6rem;
+    margin: 0 1rem;
+    top: 0;
+    left: 0;
+    z-index: 800;
+}
+
+.record_btn{
+    position: absolute;
+    width: /*47%*/ 6.4rem;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 810;
+    background-image: url("https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/save.png");
+    background-size:100% 100% ;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+.read_record_btn{
+    position: absolute;
+    width: /*47%*/ 6.4rem;
+    height: 100%;
+    top: 0;
+    left: 6.4rem;
+    z-index: 810;
+    background-image: url("https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/load.png");
+    background-size:100% 100% ;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.dialog-btn{
+	position: absolute;
+	width: 19.2rem;
+	height: 100%;
+  top: 0;
+  left: 12.8rem;
+  overflow:	visible;
+	}
+
+.dialog-btn-autoplay{
+		position: absolute;
+		width: 6.4rem;
+		height: 100%;
+    bottom: 0;
+    left: 6.4rem;
+	  background-image: url("https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/auto.png");
+    background-size:100% 100%;
+    background-position: center;
+    background-repeat:  no-repeat;
+    cursor: pointer;
+	}
+
+.dialog-btn-autoplay-on{
+	  background-image: url("https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/auto_1.png");
+	}
+
+.dialog-btn-history{
+		position: absolute;
+		width: 6.4rem;
+		height: 100%;
+    top: 0;
+    right: 0;
+	  background-image: url("https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/log.png");
+    background-size:100% 100%;
+    background-position: center;
+    background-repeat:  no-repeat;
+    cursor: pointer;
+	}
+
+.dialog-btn-skip{
+		position: absolute;
+		width: 6.4rem;
+		height: 100%;
+    top: 0;
+    left: 0;
+	  background-image: url("https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/skip.png");
+    background-size:100% 100%;
+    background-position: center;
+    background-repeat:  no-repeat;
+    cursor: pointer;
+	}
+
+.dialog-btn-skip-on{
+	  background-image: url("https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/skip_1.png");
+	}
+
+.menuscene{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 400;
+    background: url("https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/menu/backTitle.jpg") black no-repeat;
+    background-size:  100% auto;
+    background-position: center;
+}
+.menuscene_fg{
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:0;
+    background:url("https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/menu/fg.png");
+    background-size:auto 100%;
+}
+
+
+@media screen and (max-aspect-ratio:16/9){
+}
+
+.grid_layout{
+    position: absolute;
+    right: /*35%*/ 2.4rem;
+    bottom: /*43%*/ 0.6rem;
+    width: /*30%*/ 15rem;
+    height: /*50%*/15rem;
+    z-index: 1;
+    border-collapse:collapse;
+}
+.menu_btn_frame{
+    width:100%;
+    height:25%;
+}
+.menu_btn{
+    float: right;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-size:auto 95%;
+    background-position: center;
+    background-repeat:  no-repeat;
+}
+.menu_btn_1{
+    background-image: url("/novels/duriduri/en-US/start.png");
+}
+.menu_btn_2{
+    background-image: url("/novels/duriduri/en-US/gallery.png");
+}
+.menu_btn_3{
+    background-image: url("/novels/duriduri/en-US/history.png");
+}
+.menu_btn_4{
+    background-image: url("https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/menu/achievement.png");
+}
+
+#loading{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,1);
+    z-index:999999;
+    display: none;
+}
+.loadingFrame{
+    margin: 0 auto;
+    background: white;
+    width: 100px;
+    height: 100px;
+}
+
+.dialog0{
+    bottom: 29%;
+    left: 5%;
+    width: auto;
+    height: auto;
+    z-index: 215;
+    background: rgba(90, 98, 184, 0.9);
+    border: 3px solid  #5a62b8;
+    border-radius: 8px;
+}
+
+.dialog_click{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 217;
+}
+.dialog1{
+    bottom: 1%;
+    left: 5%;
+    width: 90%;
+    height: 25%;
+    z-index: 210;
+    background: rgba(90, 98, 184, 0.9);
+    border: 3px solid  #5a62b8;
+    border-radius: 8px;
+    color: white;
+}
+
+.dialog2{
+    top: 15%;
+    left: 28%;
+    width: 46%;
+    height: 60%;
+    z-index: 220;
+}
+
+.dialog3{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0;
+    z-index: 230;
+    cursor: pointer;
+}
+
+.link{
+    position: absolute;
+    width: 27%;
+    height: 14%;
+    top: 78%;
+    left: 36%;
+    z-index: 1002;
+}
+.tab{
+    position: absolute;
+    width: 12%;
+    height: 14%;
+    top: 78%;
+    left: 81%;
+    z-index: 1002;
+}
+.close_btn{
+    position: absolute;
+    width: 10%;
+    height: 15%;
+    top: 3%;
+    right: 5%;
+    z-index: 810;
+}
+@media screen and (max-aspect-ratio:16/9){
+    .link{
+    position: absolute;
+    width: 27%;
+    height: 12%;
+    top: 72%;
+    left: 36%;
+    z-index: 1002;
+    }
+    .close_btn{
+        position: absolute;
+    width: 20%;
+    height: 12%;
+    top: 15%;
+    left: 75%;
+    z-index: 1002;
+	}
+	.tab{
+    position: absolute;
+    width: 19%;
+    height: 12%;
+    top: 72%;
+    left: 75%;
+    z-index: 1002;
+	}
+}
+
+.choice{
+    padding:/*10px*/1rem;
+    margin: 13px 0 0 21px;
+    cursor: pointer;
+    background: rgba(64, 31, 40, 0.9);
+    color: white;
+    font-family: htmlHeitiFamily;
+    font-size: 1.5rem;
+}
+
+
+.move_left_center_slow{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    animation:mymove_left_center 3s ;
+    -webkit-animation:mymove_left_center 3s; /*Safari and Chrome*/
+}
+
+.move_left_center_medium{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    animation:mymove_left_center 2s ;
+    -webkit-animation:mymove_left_center 2s; /*Safari and Chrome*/
+}
+
+.move_left_center_quick{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    animation:mymove_left_center 1s ;
+    -webkit-animation:mymove_left_center 1s; /*Safari and Chrome*/
+}
+
+@keyframes mymove_left_center
+{
+from {background-position:10% 100%;}
+to {background-position:bottom center;}
+}
+
+@-webkit-keyframes mymove_left_center /*Safari and Chrome*/
+{
+from {background-position:10% 100%;}
+to {background-position:bottom center;}
+}
+
+.move_left_right_slow{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    animation:mymove_left_right 3s ;
+    -webkit-animation:mymove_left_right 3s; /*Safari and Chrome*/
+}
+
+.move_left_right_medium{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    animation:mymove_left_right 2s ;
+    -webkit-animation:mymove_left_right 2s; /*Safari and Chrome*/
+}
+
+.move_left_right_quick{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    animation:mymove_left_right 3s ;
+    -webkit-animation:mymove_left_right 3s; /*Safari and Chrome*/
+}
+
+@keyframes mymove_left_right
+{
+from {background-position:10% 100%;}
+to {background-position:90% 100%;}
+}
+
+@-webkit-keyframes mymove_left_right /*Safari and Chrome*/
+{
+from {background-position:10% 100%;}
+to {background-position:90% 100%;}
+}
+
+.move_center_right_slow{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    animation:mymove_center_right 3s ;
+    -webkit-animation:mymove_center_right 3s; /*Safari and Chrome*/
+}
+
+.move_center_right_medium{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    animation:mymove_center_right 2s ;
+    -webkit-animation:mymove_center_right 2s; /*Safari and Chrome*/
+}
+
+.move_center_right_quick{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    animation:mymove_center_right 1s ;
+    -webkit-animation:mymove_center_right 1s; /*Safari and Chrome*/
+}
+
+@keyframes mymove_center_right
+{
+from {background-position:bottom center;}
+to {background-position:90% 100%;}
+}
+
+@-webkit-keyframes mymove_center_right /*Safari and Chrome*/
+{
+from {background-position:bottom center;}
+to {background-position:90% 100%;}
+}
+
+.move_right_center_slow{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    animation:mymove_right_center 3s ;
+    -webkit-animation:mymove_right_center 3s; /*Safari and Chrome*/
+}
+
+.move_right_center_medium{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    animation:mymove_right_center 2s ;
+    -webkit-animation:mymove_right_center 2s; /*Safari and Chrome*/
+}
+
+.move_right_center_quick{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    animation:mymove_right_center 1s ;
+    -webkit-animation:mymove_right_center 1s; /*Safari and Chrome*/
+}
+
+@keyframes mymove_right_center
+{
+from {background-position:90% 100%;}
+to {background-position:bottom center;}
+}
+
+@-webkit-keyframes mymove_right_center /*Safari and Chrome*/
+{
+from {background-position:90% 100%;}
+to {background-position:bottom center;}
+}
+
+.move_right_left_slow{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    animation:mymove_right_left 3s ;
+    -webkit-animation:mymove_right_left 3s; /*Safari and Chrome*/
+}
+
+.move_right_left_medium{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    animation:mymove_right_left 2s ;
+    -webkit-animation:mymove_right_left 2s; /*Safari and Chrome*/
+}
+
+.move_right_left_quick{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    animation:mymove_right_left 1s ;
+    -webkit-animation:mymove_right_left 1s; /*Safari and Chrome*/
+}
+
+@keyframes mymove_right_left
+{
+from {background-position:90% 100%;}
+to {background-position:10% 100%;}
+}
+
+@-webkit-keyframes mymove_right_left /*Safari and Chrome*/
+{
+from {background-position:90% 100%;}
+to {background-position:10% 100%;}
+}
+
+.move_center_left_slow{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    animation:mymove_center_left 3s ;
+    -webkit-animation:mymove_center_left 3s; /*Safari and Chrome*/
+}
+
+.move_center_left_medium{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    animation:mymove_center_left 2s ;
+    -webkit-animation:mymove_center_left 2s; /*Safari and Chrome*/
+}
+
+.move_center_left_quick{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    animation:mymove_center_left 1s ;
+    -webkit-animation:mymove_center_left 1s; /*Safari and Chrome*/
+}
+
+@keyframes mymove_center_left
+{
+from {background-position:bottom center;}
+to {background-position:10% 100%;}
+}
+
+@-webkit-keyframes mymove_center_left /*Safari and Chrome*/
+{
+from {background-position:bottom center;}
+to {background-position:10% 100%;}
+}
+
+
+
+.black{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0);
+    text-align: center;
+    z-index: 99;
+}
+
+.frame{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    z-index: 100;
+}
+
+.background{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+.weather{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+}
+.white{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #ffffff;
+    z-index: 10000;
+    display: none;
+}
+.bgm{
+    display: none;
+}
+.dialog{
+    position: absolute;
+    bottom: /*1%*/ 1rem;
+    left: /*5%*/ 1.75rem;
+    width: /*90%*/ 42rem;
+		height: /*25%*/ 7rem;
+    z-index: 210;
+    background-image: url("https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/dialog.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat:  no-repeat;
+    color: white;
+    font-family: htmlHeitiFamily;
+    overflow: visible;
+}
+
+.dialog_article{
+		height: 21rem;
+		background-image: url("https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/dialogBig.png");
+}
+
+.history{
+    position: absolute;
+    bottom: 1rem;
+    left: 1.75rem;
+    width: 42rem;
+		height: 21rem;
+    z-index: 250;
+    background-image: url("https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/dialogBig.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat:  no-repeat;
+    color: white;
+    font-family: htmlHeitiFamily;
+	}
+
+.remark{
+    position: absolute;
+    bottom: 1rem;
+    left: 1.75rem;
+    width: 42rem;
+		height: 21rem;
+    z-index: 250;
+    background-image: url("https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/dialogBig.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat:  no-repeat;
+    color: white;
+    font-family: htmlHeitiFamily;
+	}
+
+.dialog-padding{
+	  padding:/*12px 30px*/ 1rem 2.5rem;
+	}
+
+.history-padding{
+	  padding:1rem 4rem 1rem 2.5rem;
+	}
+
+.remark-padding{
+	  padding:1rem 4rem 1rem 2.5rem;
+	}
+
+.dialog-overflow{
+		height: 5rem;
+	  overflow-y: hidden;
+	}
+
+.dialog-overflow_article{
+	height: 18rem;
+	overflow-y: hidden;
+	}
+
+.dialog-overflow_article_center{
+	display: -webkit-flex; /* Safari */
+	-webkit-align-items: center; /* Safari 7.0+ */
+	display: flex;
+	align-items: center;
+	}
+
+.history-overflow{
+	height: 18rem;
+	overflow-y: scroll;
+	cursor: pointer;
+	}
+
+.remark-overflow{
+	height: 18rem;
+	overflow-y: scroll;
+	cursor: pointer;
+	}
+
+.dialog-text{
+    font-size: 1.5rem;
+    font-family: htmlHeitiFamily;
+    text-align: left;
+    line-height: 2.5rem;
+    height: auto;
+}
+
+.article-pic{
+		height: 5rem;
+		width: auto;
+    background-size: auto 100%;
+    background-repeat:  no-repeat;
+}
+
+.article-text{
+    font-size: 1.5rem;
+    font-family: htmlHeitiFamily;
+    text-align: left;
+    line-height: 2.5rem;
+    text-indent: 3rem;
+}
+
+.article-text-h{
+    font-size: 1.5rem;
+    font-family: htmlHeitiFamily;
+    text-align: left;
+    line-height: 2.5rem;
+}
+
+.article-text-s{
+    font-size: 1.5rem;
+    font-family: htmlHeitiFamily;
+    text-align: right;
+    line-height: 2.5rem;
+}
+
+.article-text-c{
+    font-size: 1.5rem;
+    font-family: htmlHeitiFamily;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.history-text{
+    font-size: 1.5rem;
+    font-family: htmlHeitiFamily;
+    text-align: left;
+    line-height: 2.5rem;
+	}
+
+.remark-text{
+    font-size: 1.5rem;
+    font-family: htmlHeitiFamily;
+    text-align: left;
+    line-height: 2.5rem;
+	}
+
+.history-choice{
+    padding: /*10px*/ 1rem;
+    margin: 13px 0 0 21px;
+    cursor: pointer;
+    background: rgba(64, 31, 40, 0.9);
+    color: white;
+    font-family: htmlHeitiFamily;
+    font-size: 1.5rem;
+}
+
+.history-choice-mark{
+    border: 1px solid rgb(101,101,101);
+    border-radius: 0;
+	}
+
+.dialog-chara{
+    position: absolute;
+    bottom: /*30%*/ 6.3rem;
+    left: 0.2rem;
+    width: auto;
+    height: 3.6rem;
+    font-size: 0;
+    -webkit-text-size-adjust:none;
+}
+
+.dialog-chara-line {
+  float: left;
+  height: 3.6rem;
+  background-size: auto 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.dialog-chara-line.dialog-chara-left {
+	width: 1.14rem;
+	background-image: url("https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/Label-L.png");
+}
+.dialog-chara-line.dialog-chara-center {
+	background-repeat: repeat;
+	background-image: url("https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/Label-M.png");
+}
+.dialog-chara-line.dialog-chara-right {
+	width: 2.4rem;
+	background-image: url("https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/Label-R.png");
+}
+
+.dialog-chara-padding{
+	padding: 1rem 0 1.4rem 0;
+	}
+
+.dialog-chara-text{
+    font-size: 1.2rem;
+    color: white;
+    font-family: htmlHeitiFamily;
+    text-align: left;
+	}
+
+.character{
+    z-index: 100;
+}
+.character div{
+    z-index: 100;
+}
+.character-left{
+    position: absolute;
+    left: 0%;
+    top:0%;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+.character-mostleft{
+    position: absolute;
+    left: 0%;
+    top:0%;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+.character-center{
+    position: absolute;
+    left: 0%;
+    top:0%;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+.character-back{
+    position: absolute;
+    left: 0%;
+    top:0%;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+.character-right{
+    position: absolute;
+    left: 0%;
+    top:0%;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+.character-mostright{
+    position: absolute;
+    left: 0%;
+    top:0%;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+.shake{
+    -moz-animation: shake 0.2s infinite;
+    -ms-animation: shake 0.2s infinite;
+    -webkit-animation:shake 0.2s infinite;
+    animation:shake 0.2s infinite;
+}
+ @-ms-keyframes shake {
+    0%{
+       -ms-transform:translate(3px, 3px);
+    }
+    25%{
+       -ms-transform:translate(-3px, -3px);
+    }
+    50%{
+       -ms-transform:translate(0px, 0px);
+    }
+    75%{
+        -ms-transform:translate(3px, -3px);
+    }
+    100%{
+        -ms-transform:translate(-3px, 3px);
+    }
+}
+@-moz-keyframes shake {
+    0%{
+       -moz-transform:translate(3px, 3px);
+    }
+    25%{
+       -moz-transform:translate(-3px, -3px);
+    }
+    50%{
+       -moz-transform:translate(0px, 0px);
+    }
+    75%{
+        -moz-transform:translate(3px, -3px);
+    }
+    100%{
+        -moz-transform:translate(-3px, 3px);
+    }
+}
+
+ @-webkit-keyframes shake {
+    0%{
+       -webkit-transform:translate(3px, 3px);
+    }
+    25%{
+       -webkit-transform:translate(-3px, -3px);
+    }
+    50%{
+       -webkit-transform:translate(0px, 0px);
+    }
+    75%{
+        -webkit-transform:translate(3px, -3px);
+    }
+    100%{
+        -webkit-transform:translate(-3px, 3px);
+    }
+}
+@keyframes shake {
+    0%{
+       transform:translate(3px, 3px);
+    }
+    25%{
+        transform:translate(-3px, -3px);
+    }
+    50%{
+        transform:translate(0px, 0px);
+    }
+    75%{
+        transform:translate(3px, -3px);
+    }
+    100%{
+        transform:translate(-3px, 3px);
+    }
+}
+
+
+.choice_list{
+    position: absolute;
+    z-index: 200;
+    top: 15%;
+    left: 28%;
+    width: 46%;
+    height: 60%;
+    z-index: 220;
+    font-size: 1rem;
+}
+.cg{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999999;
+    display:none;
+}
+.cgBackground{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999998;
+    display:none;
+}
+
+.expression{
+    position:absolute;
+    left: 48%;
+    width: 5rem;
+    height: 3.2rem;
+    margin-left: 4rem;
+    top: 5rem;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+.high{
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/expression/high.gif);
+}
+.low{
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/expression/low.gif);
+}
+.middle{
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/expression/middle.gif);
+}
+.super{
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/expression/super.gif);
+}
+
+ul li{
+    display: inline-block;
+    font-size: 0;
+}
+
+.catalog-page{
+    position: absolute;
+    left: 50%;
+    width: 12rem;
+    margin-left: -6rem;
+    height: 3rem;
+    top:50%;
+    margin-top: 9rem;
+    display: inline-block;
+    font-size: 0;
+}
+
+.pagenum{
+    position: relative;
+    width: 4rem;
+    height: 3rem;
+    background-repeat: no-repeat;
+    background-size: auto 80%;
+    background-position: center;
+    display: inline-block;
+    font-size: 0;
+}
+
+.pagenum-gray{
+	opacity: 0.5;
+	}
+
+#pagenum-1{
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/left.png);
+}
+#pagenum-2{
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/right.png);
+}
+
+#pagenum-5{
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/achievement/leftPage.png);
+}
+#pagenum-6{
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/achievement/rightPage.png);
+}
+#pagenum-7{
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/left.png);
+}
+#pagenum-8{
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/ui/right.png);
+}
+
+.cg-frame{
+    position: absolute;
+    left: 50%;
+    width: 34rem;
+    margin-left: -17rem;
+    height: 20rem;
+    top:50%;
+    margin-top: -10rem;
+    display: inline-block;
+    font-size: 0;
+}
+.cg-img{
+    width: 16rem;
+    height: 9rem;
+    background-repeat: no-repeat;
+    background-size: auto 88%;
+    background-position: center;
+    display: inline-block;
+    background-image: url(https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/common/cgclose.png);
+}
+
+.showCgOrigin{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    z-index: 99999;
+    display: none;
+}
+
+.updown{
+    -moz-animation: updown 0.2s infinite;
+    -ms-animation: updown 0.2s infinite;
+    -webkit-animation:updown 0.2s infinite;
+    animation:updown 0.2s infinite;
+}
+
+ @-ms-keyframes updown{
+    0%{
+       -ms-transform:translate(0px, 0px);
+    }
+    25%{
+        -ms-transform:translate(0px,4px);
+    }
+    50%{
+        -ms-transform:translate(0px, 0px);
+    }
+    75%{
+        -ms-transform:translate(0px,-4px);
+    }
+    100%{
+        -ms-transform:translate(0px, 0px);
+    }
+}
+@-moz-keyframes  updown{
+    0%{
+       -moz-transform:translate(0px, 0px);
+    }
+    25%{
+        -moz-transform:translate(0px,4px);
+    }
+    50%{
+        -moz-transform:translate(0px, 0px);
+    }
+    75%{
+        -moz-transform:translate(0px,-4px);
+    }
+    100%{
+        -moz-transform:translate(0px, 0px);
+    }
+}
+@-webkit-keyframes updown{
+    0%{
+       -webkit-transform:translate(0px, 0px);
+    }
+    25%{
+        -webkit-transform:translate(0px,4px);
+    }
+    50%{
+        -webkit-transform:translate(0px, 0px);
+    }
+    75%{
+        -webkit-transform:translate(0px,-4px);
+    }
+    100%{
+        -webkit-transform:translate(0px, 0px);
+    }
+}
+@keyframes updown{
+    0%{
+       transform:translate(0px, 0px);
+    }
+    25%{
+        transform:translate(0px, 4px);
+    }
+    50%{
+        transform:translate(0px, 0px);
+    }
+    75%{
+        transform:translate(0px, -4px);
+    }
+    100%{
+        transform:translate(0px, 0px);
+    }
+}
+
+
+
+.rightleft{
+    -moz-animation: rightleft 0.2s infinite;
+    -ms-animation: rightleft 0.2s infinite;
+    -webkit-animation:rightleft 0.2s infinite;
+    animation:rightleft 0.2s infinite;
+}
+
+
+ @-ms-keyframes rightleft {
+    0%{
+       -ms-transform:translate(0px, 0px);
+    }
+    25%{
+        -ms-transform:translate(4px, 0px);
+    }
+    50%{
+        -ms-transform:translate(0px, 0px);
+    }
+    75%{
+        -ms-transform:translate(-4px, 0px);
+    }
+    100%{
+        -ms-transform:translate(0px, 0px);
+    }
+}
+@-moz-keyframes rightleft {
+    0%{
+       -moz-transform:translate(0px, 0px);
+    }
+    25%{
+        -moz-transform:translate(4px, 0px);
+    }
+    50%{
+        -moz-transform:translate(0px, 0px);
+    }
+    75%{
+        -moz-transform:translate(-4px, 0px);
+    }
+    100%{
+        -moz-transform:translate(0px, 0px);
+    }
+}
+
+ @-webkit-keyframes rightleft {
+    0%{
+       -webkit-transform:translate(0px, 0px);
+    }
+    25%{
+        -webkit-transform:translate(4px, 0px);
+    }
+    50%{
+        -webkit-transform:translate(0px, 0px);
+    }
+    75%{
+        -webkit-transform:translate(-4px, 0px);
+    }
+    100%{
+        -webkit-transform:translate(0px, 0px);
+    }
+}
+@keyframes rightleft {
+    0%{
+       transform:translate(0px, 0px);
+    }
+    25%{
+        transform:translate(4px, 0px);
+    }
+    50%{
+        transform:translate(0px, 0px);
+    }
+    75%{
+        transform:translate(-4px, 0px);
+    }
+    100%{
+        transform:translate(0px, 0px);
+    }
+}
+
+
+
+.rightleft{
+    -moz-animation: rightleft 0.2s infinite;
+    -ms-animation: rightleft 0.2s infinite;
+    -webkit-animation:rightleft 0.2s infinite;
+    animation:rightleft 0.2s infinite;
+}
+
+
+ @-ms-keyframes rightleft {
+    0%{
+       -ms-transform:translate(0px, 0px);
+    }
+    25%{
+        -ms-transform:translate(4px, 0px);
+    }
+    50%{
+        -ms-transform:translate(0px, 0px);
+    }
+    75%{
+        -ms-transform:translate(-4px, 0px);
+    }
+    100%{
+        -ms-transform:translate(0px, 0px);
+    }
+}
+@-moz-keyframes rightleft {
+    0%{
+       -moz-transform:translate(0px, 0px);
+    }
+    25%{
+        -moz-transform:translate(4px, 0px);
+    }
+    50%{
+        -moz-transform:translate(0px, 0px);
+    }
+    75%{
+        -moz-transform:translate(-4px, 0px);
+    }
+    100%{
+        -moz-transform:translate(0px, 0px);
+    }
+}
+
+ @-webkit-keyframes rightleft {
+    0%{
+       -webkit-transform:translate(0px, 0px);
+    }
+    25%{
+        -webkit-transform:translate(4px, 0px);
+    }
+    50%{
+        -webkit-transform:translate(0px, 0px);
+    }
+    75%{
+        -webkit-transform:translate(-4px, 0px);
+    }
+    100%{
+        -webkit-transform:translate(0px, 0px);
+    }
+}
+@keyframes rightleft {
+    0%{
+       transform:translate(0px, 0px);
+    }
+    25%{
+        transform:translate(4px, 0px);
+    }
+    50%{
+        transform:translate(0px, 0px);
+    }
+    75%{
+        transform:translate(-4px, 0px);
+    }
+    100%{
+        transform:translate(0px, 0px);
+    }
+}
+
+
+
+.jump{
+    -moz-animation: jump 0.6s infinite;
+    -ms-animation: jump 0.6s infinite;
+    -webkit-animation:jump 0.6s infinite;
+    animation:jump 0.6s infinite;
+}
+
+
+ @-ms-keyframes jump {
+    0%{
+       -ms-transform:translate(0px, 0px);
+    }
+    25%{
+        -ms-transform:translate(0px, 15px);
+    }
+    50%{
+        -ms-transform:translate(0px, 20px);
+    }
+    75%{
+        -ms-transform:translate(0px, 15px);
+    }
+    100%{
+        -ms-transform:translate(0px, 0px);
+    }
+}
+@-moz-keyframes jump {
+    0%{
+       -moz-transform:translate(0px, 0px);
+    }
+    25%{
+        -moz-transform:translate(0px, 15px);
+    }
+    50%{
+        -moz-transform:translate(0px, 20px);
+    }
+    75%{
+        -moz-transform:translate(0px, 15px);
+    }
+    100%{
+        -moz-transform:translate(0px, 0px);
+    }
+}
+
+ @-webkit-keyframes jump {
+    0%{
+       -webkit-transform:translate(0px, 0px);
+    }
+    25%{
+        -webkit-transform:translate(0px, 15px);
+    }
+    50%{
+        -webkit-transform:translate(0px, 20px);
+    }
+    75%{
+        -webkit-transform:translate(0px, 15px);
+    }
+    100%{
+        -webkit-transform:translate(0px, 0px);
+    }
+}
+@keyframes jump {
+    0%{
+       transform:translate(0px, 0px);
+    }
+    25%{
+        transform:translate(0px, 15px);
+    }
+    50%{
+        transform:translate(0px, 20px);
+    }
+    75%{
+        transform:translate(0px, 15px);
+    }
+    100%{
+        transform:translate(0px, 0px);
+    }
+}
+
+.character-pic{
+	position:absolute;
+	width:100%;
+	height:100%;
+	}
+
+.wrk{
+	display: none;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	position: fixed;
+	z-index: 99999;
+	}
+.wrk-i{
+	width: 100%;
+	text-align: center;
+	background: #fff;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	left: 50%;top: 50%;
+	}

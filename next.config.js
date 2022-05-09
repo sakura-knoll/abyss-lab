@@ -65,13 +65,26 @@ module.exports = {
       {
         source: '/honkai3rd/novels/ae',
         destination:
-          process.env.NEXT_PUBLIC_BASE_URL + '/novels/ae/ko-KR/index.html',
+          process.env.NEXT_PUBLIC_BASE_URL + '/novels/ae/en-US/index.html',
       },
       {
         source: '/ko-KR/honkai3rd/novels/ae',
         destination:
           process.env.NEXT_PUBLIC_BASE_URL + '/novels/ae/ko-KR/index.html',
         locale: false,
+      },
+      {
+        source: '/ko-KR/honkai3rd/novels/duriduri',
+        destination:
+          process.env.NEXT_PUBLIC_BASE_URL +
+          '/novels/duriduri/ko-KR/index.html',
+        locale: false,
+      },
+      {
+        source: '/honkai3rd/novels/duriduri',
+        destination:
+          process.env.NEXT_PUBLIC_BASE_URL +
+          '/novels/duriduri/en-US/index.html',
       },
     ]
   },

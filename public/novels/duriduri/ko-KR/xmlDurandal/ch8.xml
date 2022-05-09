@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <story>
+    <scene id="0" background="bg.jpg">
+    	<bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+    	<cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+    	<goto goto="10" change="#000000"/>		
+	  </scene>
+    <scene id="10" background="alexandriaPalace.jpg">
+    	<bgm src="01_18_tango.mp3" status="start"></bgm>
+    <show chara="neithLaughFar" position="center"/>
+    <speak chara="_Neith">会長さん、今いいっすか！</speak>
+    <hide position="center"></hide>
+    <show chara="shelleyBoredFar" position="left"/>
+    <speak chara="_ShelleyCareer">君は……？</speak>
+    <show chara="shelleyBoredFar" position="left" opacity="0.8"/>
+    <show chara="micheFocusFar" position="right"/>
+    <speak chara="_MichelCareer">ネイトの？</speak>
+    <show chara="micheSeriousFar" position="right"/>
+    <speak chara="_MichelCareer">……シャンポリオンに何かあったの？</speak>
+    <show chara="micheSeriousFar" position="right" opacity="0.8"/>
+    <show chara="neithComplainFar" position="left"/>
+    <speak chara="_Neith">聞いてくださいっす！</speak>
+    <show chara="neithScaredFar" position="left"/>
+    <speak chara="_Neith">誘拐犯を追跡して西へ向かったんすけど、なんとやつらのアジトは硫黄湖の中だったんす！</speak>
+    <show chara="neithComplainFar" position="left"/>
+    <speak chara="_Neith">硫黄湖！毒ガス！硫化水素っす！</speak>
+    <show chara="neithComplainFar" position="left" opacity="0.8"/>
+    <show chara="micheSeriousFar" position="right"/>
+    <speak chara="_MichelCareer">……！</speak>
+    <show chara="micheSeriousFar" position="right" opacity="0.8"/>
+    <show chara="shelleyShockedFar" position="left"/>
+    <speak chara="_ShelleyCareer">アラメイン付近の火山地帯か。</speak>
+    <show chara="shelleyColdFar" position="left"/>
+    <speak chara="_ShelleyCareer">確かに、あの「記録を抹消された」人ならできなくもないか。</speak>
+    <show chara="shelleyArrogantFar" position="left"/>
+    <speak chara="_ShelleyCareer">お嬢さん、ネイトって言ったか？</speak>
+    <show chara="shelleyArrogantFar" position="left" opacity="0.8"/>
+    <show chara="neithSmileFar" position="right"/>
+    <speak chara="_Neith">はいっす！</speak>
+    <show chara="neithSmileFar" position="right" opacity="0.8"/>
+    <show chara="shelleySmileFar" position="left"/>
+    <speak chara="_ShelleyCareer">……この書類を予備役司令部のホセイン司令に渡してくれ。それとこの書類は市政装備部のトレミー所長へ。彼らが必要な人員と装備を揃えてくれる。</speak>
+    <show chara="shelleySmileFar" position="left" opacity="0.8"/>
+    <show chara="neithScaredFar" position="right"/>
+    <speak chara="_Neith">……おう！話が早くて助かるっす！</speak>
+    <show chara="neithLaughFar" position="right"/>
+    <speak chara="_Neith">ありがとうっす！</speak>
+    <hide position="left"></hide>
+    <hide position="right"></hide>
+    <show chara="neithSmileFar" position="center"/>
+    <speak chara="_Neith">会長さん、またね！</speak>
+    	<goto goto="15" change="#000000"/>		
+	  </scene>    
+    <scene id="15" background="alexandriaPalace.jpg">
+    	<bgm src="01_18_tango.mp3" status="continue"></bgm>
+    <show chara="shakesLaughFar" position="center"/>
+    <speak chara="_ShakespeareCareer">元気な子だね。</speak>
+    <show chara="shakesSmileFar" position="center"/>
+    <speak chara="_ShakespeareCareer">……しかし、この科学都市の「リーダー」は、最も信頼のおけるロボット部隊を出さないのかい？シェリー会長？</speak>
+    <hide position="center"></hide>
+    <show chara="shelleyBoredFar" position="left"/>
+    <speak chara="_Shelley">……来たか、シェイクスピア新入会員。</speak>
+    <show chara="shelleyColdFar" position="left"/>
+    <speak chara="_Shelley">のんびりしてていいのか、そちらの船員がさらわれたんだぞ。</speak>
+    <show chara="shelleyColdFar" position="left" opacity="0.8"/>
+    <show chara="shakesSmileFar" position="right"/>
+    <speak chara="_Shakespeare">この都市の警備システムが信頼に足るならば——心配する必要はないのではないかな。</speak>
+    <show chara="shakesSmileFar" position="right" opacity="0.8"/>
+    <show chara="shelleyColdFar" position="left"/>
+    <speak chara="_Shelley">……チッ。何が望みだ。</speak>
+    <show chara="shelleyColdFar" position="left" opacity="0.8"/>
+    <show chara="shakesSweatyFar" position="right"/>
+    <speak chara="_Shakespeare">……わざわざ言わせる気かい？</speak>
+    <show chara="shakesConfidentFar" position="right"/>
+    <speak chara="_Shakespeare">そちらがその気なら、こちらも同じことをするまでだよ。</speak>
+    <show chara="shakesConfidentFar" position="right" opacity="0.8"/>
+    <show chara="shelleyBoredFar" position="left"/>
+    <speak chara="_Shelley">……。</speak>
+    <show chara="shelleyBoredFar" position="left" opacity="0.8"/>
+    <show chara="shakesColdFar" position="right"/>
+    <speak chara="_Shakespeare">会長さんも、館長さんも、とある厄介な状況を予見しているはずだ。</speak>
+    <show chara="shakesQuestionFar" position="right"/>
+    <speak chara="_Shakespeare">でなければ、誘拐犯を捕まえるのに、予備役である「本物の人間」を使うはずがない。20年前、あんたが選挙に勝った際の政策が「人工知能の長所を伸ばし、危険な仕事から人々を解放する改革を進める」ことなんだから。</speak>
+    <show chara="shakesDisgustedFar" position="right"/>
+    <speak chara="_Shakespeare">その「本物の人間」たちのリスクはともかく、彼らは長年予備役にあった、実戦経験はいつぶりだろうか——それを踏まえて、彼らをこの事件に投入する方が良いと判断した理由は何なのだろうか。</speak>
+    <show chara="shakesDisgustedFar" position="right" opacity="0.8"/>
+    <show chara="micheFocusFar" position="left"/>
+    <speak chara="_Michel">……</speak>
+    <show chara="micheSeriousFar" position="left"/>
+    <speak chara="_Michel">シャンポリオンたちと合流せず、わざわざ我々のところへ来た理由を聞かせてくれるかな？</speak>
+    <show chara="micheSeriousFar" position="left" opacity="0.8"/>
+    <show chara="shelleyColdFar" position="left"/>
+    <speak chara="_Shelley">ここは劇場じゃない。わざとらしい回りくどい言い方はやめて頂きたい。</speak>
+    <show chara="shelleyColdFar" position="left" opacity="0.8"/>
+    <show chara="shakesLaughFar" position="right"/>
+    <speak chara="_Shakespeare">ハハハハ！わかったわかった。</speak>
+    <show chara="shakesSmileFar" position="right"/>
+    <speak chara="_Shakespeare">なら……この場において、一番の適任者に話してもらおう。</speak>
+    <show chara="shakesSmileFar" position="right" opacity="0.8"/>
+    <show chara="shelleyShockedFar" position="left"/>
+    <speak chara="_Shelley">……？</speak>
+    	<goto goto="20" change="0"/>		
+	  </scene>
+    <scene id="20" background="alexandriaPalace.jpg">
+			<bgm src="02_22_amazingGrace.mp3" status="start"></bgm>
+			<sound src="02_03_highheels.mp3"/>
+			<show chara="ironWhiteSwordFar" position="center"/>
+			<speak chara="_SchrodingerNoName">智慧とは、まだ見ぬものを観測することにあらず——</speak>
+    	<goto goto="30" change="0"/>		
+	  </scene>
+    <scene id="30" background="CG8-1-2.jpg">
+			<bgm src="02_22_amazingGrace.mp3" status="continue"></bgm>
+			<speak chara="_SchrodingerNoName">誰もが見慣れた物事の中で——</speak>
+    	<goto goto="40" change="0"/>		
+	  </scene>
+    <scene id="40" background="CG8-1-3.jpg">
+			<bgm src="02_22_amazingGrace.mp3" status="continue"></bgm>
+			<speak chara="_SchrodingerNoName">誰もが想像だにしなかった新しい思惟を生み出すことである。</speak>
+			<speak chara="_Schrodinger">——私はエルヴィン・リアーナ・シュレーディンガー、深淵より来たる次元旅行者なのです。</speak>
+    	<goto goto="50" clockwise="1"/>		
+	  </scene>
+    <scene id="50" background="alexandriaPalace.jpg">
+			<bgm src="02_22_amazingGrace.mp3" status="continue"></bgm>
+    <show chara="micheSeriousFar" position="left"/>
+    <speak chara="_Michel">……。</speak>
+    <show chara="micheSeriousFar" position="left" opacity="0.8"/>
+    <show chara="shelleyShockedFar" position="right"/>
+    <speak chara="_Shelley">次元旅行者？何者だ？</speak>
+    <show chara="shelleyAngryFar" position="right"/>
+    <speak chara="_Shelley">……いや、君は「なんだ」？</speak>
+    <show chara="shelleyAngryFar" position="right" opacity="0.8"/>
+    <show chara="schroSeriousFar" position="left"/>
+    <speak chara="_Schrodinger">……人間。</speak>
+    <show chara="schroTalkFar" position="left"/>
+    <speak chara="_Schrodinger">厳密には、量子分布のユニタリー性を失った擬態生物なのです。</speak>
+    <show chara="schroSmileFar" position="left"/>
+    <speak chara="_Schrodinger">まあ、別世界から「跳んできた」幽霊とでも思ってくれて構わないのです。</speak>
+    <show chara="schroSmileFar" position="left" opacity="0.8"/>
+    <show chara="shelleyShockedFar" position="right"/>
+    <speak chara="_Shelley">……</speak>
+    <show chara="shelleyShockedFar" position="right" opacity="0.8"/>
+    <show chara="schroTalkFar" position="left"/>
+    <speak chara="_Schrodinger">この剣を知っていますか？名を「デュランダル」というのです。</speak>
+    <show chara="schroTalkFar" position="left" opacity="0.8"/>
+    <show chara="shelleyBoredFar" position="right"/>
+    <speak chara="_Shelley">……？</speak>
+    <show chara="shelleyBoredFar" position="right" opacity="0.8"/>
+    <show chara="schroSmileFar" position="left"/>
+    <speak chara="_Schrodinger">そう、あなたたちにとって、この剣自体は何の意味も持たないかもしれないなのです。</speak>
+    <show chara="schroCalmFar" position="left"/>
+    <speak chara="_Schrodinger">けど——こう言い換えたら、見る目が変わるはずなのです。ここでも都市伝説として言い伝わっている「賢者の石」、「あらゆるロボットに思考能力を与えるテッセラクト」。</speak>
+    <show chara="schroCalmFar" position="left" opacity="0.8"/>
+    <show chara="shelleySmileFar" position="right"/>
+    <speak chara="_Shelley">……ふん、何を言い出すかと思えば、「賢者の石」だと？錬金術の迷信を信じるとでも？</speak>
+    <speak chara="_Shelley">都市伝説なんかの中には、私が実は死んでいて、現会長はレプリカのロボットという話があるぐらいだぞ。</speak>
+    <show chara="shelleySmileFar" position="right" opacity="0.8"/>
+    <show chara="schroSeriousFar" position="left"/>
+    <speak chara="_Schrodinger">そうなのです。都市伝説とは、往々にして真実とかけ離れているものなのです。「賢者の石」も、ただの古い「万能」神話にすぎないなのです。</speak>
+    <show chara="schroSmileFar" position="left"/>
+    <speak chara="_Schrodinger" remark="next">けれど、こうも言うのです——「十分に発達した科学技術は、魔法と見分けがつかない」と。</speak>
+			<remark post="U2FsdGVkX1+9YlENGNASDdIYCoDF">
+				<p class="article-text-h">注釈：</p>
+				<p class="article-text">「クラークの三法則（Clarke's three laws）」——</p>
+				<p class="article-text">1.高名で年配の科学者が可能であると言った場合、その主張はほぼ間違いない。また不可能であると言った場合には、その主張はまず間違っている。</p>
+				<p class="article-text">2.可能性の限界を測る唯一の方法は、不可能であるとされることまでやってみることである。</p>
+				<p class="article-text">3.十分に発達した科学技術は、魔法と見分けがつかない。</p>
+			</remark>
+    <show chara="schroSmileFar" position="left"/>
+    <speak chara="_Schrodinger">石器時代にタイムスリップした科学者がいくつかの実験をしただけで、「神に通ずるシャーマン」と崇められても、何らおかしな話ではないはずなのです。</speak>
+    <show chara="schroSmileFar" position="left" opacity="0.8"/>
+    <show chara="shelleyAngryFar" position="right"/>
+    <speak chara="_Shelley">……何を探りたいんだ？</speak>
+    <show chara="shelleyAngryFar" position="right" opacity="0.8"/>
+    <show chara="schroTalkFar" position="left"/>
+    <speak chara="_Schrodinger">いいえ、これは別に探っているわけではないなのです。前振りが長いもので、適切な切り口として語ったまでなのです。</speak>
+    	<goto goto="60" change="0"/>		
+	  </scene>
+    <scene id="60" background="12_12_blackCloud.jpg">
+			<bgm src="02_22_amazingGrace.mp3" status="continue"></bgm>
+    <speak chara="_Schrodinger">これは、「魔法剣」の話。</speak>
+    <speak chara="_Schrodinger">魔法剣の名は「デュランダル」。天地開闢の力を持つその剣は、とある「神」がその使徒のために作った武器なのです。力の象徴として、七つの虹の結晶が嵌められているなのです。</speak>
+    <speak chara="_Schrodinger">例えば……赤い勇気の結晶は、特定の魔力波長を追跡できる、探検に役立つ道標。</speak>
+    <speak chara="_Schrodinger">藍色の理性の結晶は、あらゆる情報を瞬時に分析できる、強力な情報処理能力を有しているものなのです。</speak>
+    <speak chara="_Schrodinger">どれか一つを取っても、十分に価値のあるものばかり。</speak>
+    <speak chara="_Schrodinger">……その中で最も「使える」ものは、人類の認知能力を模倣できる「理性の結晶」なのです。</speak>
+    	<goto goto="70" change="0"/>		
+	  </scene>
+    <scene id="70" background="alexandriaPalace.jpg">
+			<bgm src="02_22_amazingGrace.mp3" status="continue"></bgm>
+    <show chara="schroSeriousFar" position="center"/>
+    <speak chara="_Schrodinger">あなたたちの街を何度か観察してきて気づいたのです。</speak>
+    <show chara="schroTalkFar" position="center"/>
+    <speak chara="_Schrodinger">内燃機関に電子管、なんら特殊な資源もないのに——</speak>
+    <show chara="schroSeriousFar" position="center"/>
+    <speak chara="_Schrodinger">——それなのにロボットが警察やガイド、家事をこなしているだけでなく、立法と執行のプロセスを簡略化できるほどの人工知能を持っているなのです。</speak>
+    <show chara="schroTalkFar" position="center"/>
+    <speak chara="_Schrodinger">それらの機械は単なる自動化ツールでなく、人のように思考し、人のようにソリューションを解決している。</speak>
+    <show chara="schroCalmFar" position="center"/>
+    <speak chara="_Schrodinger">正真正銘の人工知能なのです。チューリング・テストも通過できるレベルの。</speak>
+    <show chara="schroSeriousFar" position="center"/>
+    <speak chara="_Schrodinger">何にせよ、驚嘆すべきことなのです。……同時に、疑念を抱かせるのにも十分なのです。</speak>
+    <show chara="schroTalkFar" position="center"/>
+    <speak chara="_Schrodinger">ご存知の通り、脳細胞はその複雑かつ精巧な構造であるために、普通の電子部品で模倣しようとするなら、大量の電力を消費しなければいけないなのです。</speak>
+    <show chara="schroCalmFar" position="center"/>
+    <speak chara="_Schrodinger">人間が何故「一日三食」でそのエネルギーを賄えるのかといえば、人体が脳をメンテナンスする方法が巧妙だから。</speak>
+    <show chara="schroTalkFar" position="center"/>
+    <speak chara="_Schrodinger">脳細胞の一つひとつがナノロボットに等しいのです。消費エネルギーの高い電磁場ではなく、自身の構造を活用し、情報を記録しているなのです。</speak>
+    <show chara="schroSmileFar" position="center"/>
+    <speak chara="_Schrodinger">さらに、脳細胞はDNAという設計図で、細胞分裂という「3Dプリント」により自身を複製するのです。</speak>
+    <show chara="schroCalmFar" position="center"/>
+    <speak chara="_Schrodinger">結論を言うと——人類の脳という世界で最も複雑難解な自動システムを複製するのは——理論上、電子管や内燃機関のような「ハード」では実現不可能なのです。</speak>
+    <show chara="schroTalkFar" position="center"/>
+    <speak chara="_Schrodinger">一人の人間の脳には、数兆もの神経細胞の接続が存在しているなのです——</speak>
+    <speak chara="_Schrodinger">——電子管を使って再現しようものなら、ざっと計算して、数兆個の電球を点滅させるのと同じようなこと。</speak>
+    <show chara="schroSeriousFar" position="center"/>
+    <speak chara="_Schrodinger">体積や排熱は置いといても、「数兆個の電球」を支える電力を賄うには、数百、いや数千のフーバーダムがフル稼働する必要があるはずなのです。</speak>
+    <show chara="schroTalkFar" position="center"/>
+    <speak chara="_Schrodinger">そこまでしてやっと作れるのが「一人の人間の脳」。電子管とは贅沢なものなのです。</speak>
+    <show chara="schroCalmFar" position="center"/>
+    <speak chara="_Schrodinger">そういう意味では、この都市で「本物の人工知能」が実現できていることは、おとぎ話みたいなことなのです。</speak>
+    <show chara="schroSeriousFar" position="center"/>
+    <speak chara="_Schrodinger">——けど、それが現実に存在している。この都市の至るところに「人類」の代わりに難易度の高い仕事をこなす「機械」が存在しているなのです。</speak>
+    <show chara="schroTalkFar" position="center"/>
+    <speak chara="_Schrodinger">廃棄されたロボットを解体すると、彼らはただ命令を実行する端末機器でしかなかったのです——それがさらなる疑念を抱かせたのです。</speak>
+    <show chara="schroSeriousFar" position="center"/>
+    <speak chara="_Schrodinger">彼らの背後にいる「メインブレイン」は、毎日昼夜問わず、「数万にのぼる」人類の脳を模倣している、そいつは一体何者なのです？</speak>
+    <show chara="schroTalkFar" position="center"/>
+    <speak chara="_Schrodinger">ではここで問題。こんな「チート」じみたことを、一体どうやって実現させたのか。</speak>
+    <show chara="schroScornfulFar" position="center"/>
+    <speak chara="_Schrodinger">このような技術力の差を「発明」と解釈できるなら——とある部族のシャーマンも、神の啓示で宇宙飛行船を作れるはずなのです。</speak>
+    <hide position="center"></hide>
+    <show chara="micheSeriousFar" position="left"/>
+    <speak chara="_Michel">……</speak>
+    <show chara="micheSeriousFar" position="left" opacity="0.8"/>
+    <show chara="shelleyShockedFar" position="right"/>
+    <speak chara="_Shelley">……いくら皮肉を言われようと、私はこの都市の発展が歪んでいるとも、非道徳的だとも思っていない。</speak>
+    <show chara="shelleyShockedFar" position="right" opacity="0.8"/>
+    <show chara="schroMemoryFar" position="left"/>
+    <speak chara="_Schrodinger">ええ、その気持ちは良くわかるなのです。私もかつてある機関で、同じようなことをしていたから。</speak>
+    <show chara="schroSeriousFar" position="left"/>
+    <speak chara="_Schrodinger">だからこそ、はっきり伝えなければならないなのです、「授かった」技術がどんな欠陥を持つのかを。</speak>
+    <show chara="schroTalkFar" position="left"/>
+    <speak chara="_Schrodinger">例えば、今あなた方にとって、最も危うい——「通信設備の安全性」とか。</speak>
+    	<goto goto="80" clockwise="1"/>		
+	  </scene>
+    <scene id="80" background="alexandriaOasisNight.jpg">
+			<bgm src="01_18_tango.mp3" status="start"></bgm>
+    <show chara="chess1" position="center"/>
+    <speak chara="_Champollion">ビショップ、D6へ。</speak>
+    <show chara="chess2" position="center"/>
+    <speak chara="_Bianka">クイーン、A1へ、チェック。</speak>
+    <hide position="center"></hide>
+    <show chara="biankaProudClose" position="left"/>
+    <speak chara="_Bianka">待ったするなら今ですよ。ルークだけでなく、もう一つも取っちゃうんですから。</speak>
+    <show chara="biankaProudClose" position="left" opacity="0.8"/>
+    <show chara="champoSweatyClose" position="right"/>
+    <speak chara="_Champollion">……何度も言うが、チェスの最中に語っても、自分の気を散らすだけだ。</speak>
+    <show chara="champoSmileClose" position="right"/>
+    <speak chara="_Champollion">それに、あたしは待ったなどしない。</speak>
+    <hide position="left"></hide>
+    <hide position="right"></hide>
+    <show chara="chess3" position="center"/>
+    <speak chara="_Champollion">キング、E2へ。</speak>
+    <hide position="center"></hide>
+    <show chara="biankaSneerClose" position="left"/>
+    <speak chara="_Bianka">ふん、意地っ張り。</speak>
+    <hide position="left"></hide>
+    <hide position="right"></hide>
+    <show chara="chess4" position="center"/>
+    <speak chara="_Bianka">ビショップ、G1へ。</speak>
+    <show chara="chess5" position="center"/>
+    <speak chara="_Champollion">ポーン、E5へ。</speak>
+    <show chara="chess6" position="center"/>
+    <speak chara="_Bianka">ナイト、A6へ。</speak>
+    <show chara="chess7" position="center"/>
+    <speak chara="_Champollion">ナイト、G7へ、チェック。</speak>
+    <show chara="chess8" position="center"/>
+    <speak chara="_Bianka">キング、D8へ。</speak>
+    <hide position="center"></hide>
+    <show chara="biankaSighClose" position="left"/>
+    <speak chara="_Bianka">いい加減、諦めたらどうです？</speak>
+    <hide position="left"></hide>
+    <hide position="right"></hide>
+    <show chara="chess9" position="center"/>
+    <speak chara="_Champollion">クイーン、F6へ、チェック。</speak>
+    <hide position="center"></hide>
+    <show chara="biankaShoutClose" position="left"/>
+    <speak chara="_Bianka">ちょっとちょっと……ついに投げやりですか？</speak>
+    <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+    <show chara="champoSmileClose" position="right"/>
+    <speak chara="_Champollion">ふん、黙って続けることだ。</speak>
+    <show chara="champoSweatyClose" position="right"/>
+    <speak chara="_Champollion">勝負はもうついたがな。</speak>
+    <show chara="champoSweatyClose" position="right" opacity="0.8"/>
+    <show chara="biankaSurpriseClose" position="left"/>
+    <speak chara="_Bianka">（……どういう意味？罠でしょうか？）</speak>
+    <hide position="left"></hide>
+    <hide position="right"></hide>
+    <show chara="chess10" position="center"/>
+    <speak chara="_Bianka">ナイト、F6へ。</speak>
+    <show chara="chess11" position="center"/>
+    <speak chara="_Champollion">ビショップ、E7へ、チェックメイト。</speak>
+    <hide position="center"></hide>
+    	<goto goto="90" change="0"/>		
+	  </scene>
+    <scene id="90" background="alexandriaOasisNightSmoke.jpg">
+			<bgm src="01_18_tango.mp3" status="continue"></bgm>
+    <show chara="biankaSurpriseClose" position="left"/>
+    <speak chara="_Bianka">……え？</speak>
+    <show chara="biankaBiteClose" position="left"/>
+    <speak chara="_Bianka">待ってください……え、いきなりチェックメイト？</speak>
+    <show chara="biankaAngryClose" position="left"/>
+    <speak chara="_Bianka">こ……これは……</speak>
+    <show chara="biankaAngryClose" position="left" opacity="0.8"/>
+    <show chara="champoSweatyClose" position="right"/>
+    <speak chara="_Champollion">まあまあ、気を落とさないでくれ。</speak>
+    <show chara="champoSmileClose" position="right"/>
+    <speak chara="_Champollion">一局目より随分進歩したじゃないか。</speak>
+    <show chara="champoSmileClose" position="right" opacity="0.8"/>
+    <show chara="biankaBiteClose" position="left"/>
+    <speak chara="_Bianka">くっ……一気にルークを二つ取ったのに、まんまと罠にはまったというのですか？</speak>
+    <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+    <show chara="rita17SquintClose" position="right"/>
+    <speak chara="_Rita">チェスとはそういうものですよ、ビアンカ様。</speak>
+    <show chara="rita17SquintClose" position="right" opacity="0.8"/>
+    <show chara="biankaSurpriseClose" position="left"/>
+    <speak chara="_Bianka">——リタ？</speak>
+    <show chara="biancaShyClose" position="left"/>
+    <speak chara="_Bianka">い、いつから私の背後にいたんですか！？</speak>
+    <show chara="biancaShyClose" position="left" opacity="0.8"/>
+    <show chara="rita17NormalClose" position="right"/>
+    <speak chara="_Rita">ビアンカ様が探偵さんに待ったするかと聞いたところからでしょうか？</speak>
+    <show chara="rita17NormalClose" position="right" opacity="0.8"/>
+    <show chara="biancaShyClose" position="left"/>
+    <speak chara="_Bianka">……！！</speak>
+    <show chara="biankaSeriousClose" position="left"/>
+    <speak chara="_Bianka">……待って。</speak>
+    <speak chara="_Bianka">リタがずっと背後にいたのに、戦乙女の私が気付けなかったなんて——</speak>
+    <show chara="biankaBiteClose" position="left"/>
+    <shake position="left" time="250"></shake>
+    <speak chara="_Bianka">——ただチェスを覗き見するだけで、例の能力を使うとか、何考えてるんですか！？</speak>
+    <speak chara="_Bianka">あんまりです！神州には「鶏を割くに焉んぞ牛刀を用いん」という諺があるのを知らないんですか。</speak>
+    <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+    <show chara="rita17HesitateClose" position="right"/>
+    <speak chara="_Rita">……しかし、そうでもしなければ、この一局は終わらなかったでしょう。そうなれば、ビアンカ様もこの結末を知らずに終わってしまうのではないでしょうか。</speak>
+    <show chara="rita17HesitateClose" position="right" opacity="0.8"/>
+    <show chara="biankaAngryClose" position="left"/>
+    <speak chara="_Bianka">……</speak>
+    <show chara="biankaSeriousClose" position="left"/>
+    <speak chara="_Bianka">まあいいです。確かにこれは教訓になりました。</speak>
+    <show chara="champoSmileClose" position="right" opacity="0.8"/>
+    <show chara="neithSmileClose" position="left"/>
+    <speak chara="_Neith">博士！ガスマスク、酸素ボンベ、それから50名の予備役兵士を連れてきたっす！</speak>
+    <show chara="thalesEmbarrassedClose" position="left"/>
+    <speak chara="_Thales">……ついでに我まで引っ張られてきてしまった。</speak>
+    <show chara="thalesSeriousClose" position="left"/>
+    <speak chara="_Thales">まったく。こういう肉体労働では役に立たんというのに。</speak>
+    <show chara="thalesSeriousClose" position="left" opacity="0.8"/>
+    <show chara="neithComplainClose" position="right"/>
+    <speak chara="_Neith">当事者なんだから、来なきゃだめっすよ！</speak>
+    <show chara="manfredQuestionClose" position="right"/>
+    <speak chara="_Manfred">……ワット技師がさらわれたのには、あなたにも半分責任があると聞いたが？</speak>
+    <show chara="manfredQuestionClose" position="right" opacity="0.8"/>
+    <show chara="thalesAngryClose" position="left"/>
+    <speak chara="_Thales">我のせいにされてたまるか、この脳筋どもが！</speak>
+		<show chara="thalesAngryClose" position="left" opacity="0.8"/>
+    <show chara="champoSmileClose" position="right"/>
+    <speak chara="_Champollion">ハハハハッ。観念したらどうかな、所長さん。君の頭脳もきっと役に立ちますよ。</speak>
+    <speak chara="_Champollion">まあ、とりあえず……</speak>
+    <show chara="neithSmileClose" position="left" opacity="0.8"/>
+    <speak chara="_Champollion">よくやった、チビ！明日は「黄金屋」のミルフィーユを食べさせてやろう！</speak>
+    <show chara="champoSmileClose" position="right" opacity="0.8"/>
+    <show chara="neithLaughClose" position="left"/>
+    <speak chara="_Neith">わーい！やったっす！ありがとう、はか——</speak>
+    <hide position="left"></hide>
+    <hide position="right"></hide>    
+    	<bgm src="01_18_horror.mp3" status="start"></bgm>
+    <show chara="neithScaredClose" position="center"/>
+    <speak chara="_Neith">……</speak>
+    <show chara="neithShockClose" position="center"/>
+    <speak chara="_Neith">な、なぁ、街の方から……何かが燃えるような匂いと、爆発の匂いがするっす！？</speak>
+    <shake position="center" time="250"></shake>
+    <speak chara="_Neith">……見るっす！あそこ！煙が出てるっす！煙ッ！！</speak>
+    	<goto goto="100" change="#000000"/>		
+	  </scene>
+    <scene id="100" background="01_18_secretRoom.jpg">
+			<bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+    <show chara="AliceSurprisedClose" position="center"/>
+    <speak chara="_Alice">……アリスは列車に乗りました。するとなんと、今度は乗務員や車掌がみんな消えているではありませんか。</speak>
+    <show chara="AliceShyClose" position="center"/>
+    <speak chara="_Alice">アリスはすごく心配になりました。こんなに早く走る列車を、誰が制御できるのでしょう。</speak>
+    <show chara="AliceSmileClose" position="center"/>
+    <speak chara="_Alice">慌てふためくアリスに、スピーカーから声が掛かります。「乗客のアリス様、ご心配なく。私は本列車の車掌、ナイテル・エルモントです。素敵な旅のお供をさせてください」</speak>
+    <show chara="AliceShyClose" position="center"/>
+    <speak chara="_Alice">アリスはびっくりしました。矢継ぎ早にスピーカーへ向かって聞きました。「車掌さん、あなたはどこにいるのでしょうか？この列車の隅々まで探しましたが、あなたの姿は見えませんでした」</speak>
+    <show chara="AliceSmileClose" position="center"/>
+    <speak chara="_Alice">ナイテル車掌はスピーカー越しに笑いました。「アリスさん、私の中で、私は見つかりませんよ」</speak>
+    <show chara="AliceShyClose" position="center"/>
+    <speak chara="_Alice">えっ、とアリスは更に驚きます。「あなたは……この列車そのものなのですか？」</speak>
+    <show chara="AliceSmileClose" position="center"/>
+    <speak chara="_Alice">スピーカーからの声が答える。「ええ、お気づきでしょうが、ここは刻一刻と変わっていく世界です」</speak>
+    <show chara="AliceSmileClose" position="center"/>
+    <speak chara="_Alice">「鏡像と鏡像が融合する時、世界のあらゆるものが移り変わります」</speak>
+    <show chara="AliceSmileClose" position="center"/>
+    <speak chara="_Alice">「この列車には4名の乗務員がいました。鏡像の間で変化、融合しているうちに、私のような全自動列車が生まれたのです」</speak>
+    <show chara="AliceShyClose" position="center"/>
+    <speak chara="_Alice">アリスは4という数字がなぜだか気になりました。「5人ではだめなのですか？」と聞きます。</speak>
+    <show chara="AliceSilentClose" position="center"/>
+    <speak chara="_Alice">ナイテルは残念そうな声で「はい、もし5人いたら、彼らは永遠に——」</speak>
+    <hide position="center"></hide>
+    	<bgm src="02_22_ring_ring.mp3" status="start"></bgm>
+    <speak chara="_mechanicalSound">警告：システム電力負荷が継続的に不足しています。</speak>
+    <speak chara="_mechanicalSound">5番の電力供給案に則り、緊急給電を行ってください。</speak>
+    <speak chara="_mechanicalSound">5分のカウントダウンを開始します。</speak>
+      <bgm src="noise.mp3" status="start"></bgm>
+    <show chara="AliceSurprisedClose" position="left"/>
+    <speak chara="_Alice">……！</speak>
+    <show chara="AliceSurprisedClose" position="left" opacity="0.8"/>
+    <show chara="wattSurpriseClose" position="right"/>
+    <speak chara="_Watt">……いったい何が？</speak>
+    <show chara="wattSurpriseClose" position="right" opacity="0.8"/>
+    <show chara="AliceHmClose" position="left"/>
+    <speak chara="_Alice">電力供給に異常が発生しました。</speak>
+    <speak chara="_Alice">5番の電力供給案を実行する場合、基地の通常電力だけでなく、私のインターフェイス——この体——も強制的に休眠状態に入ります。</speak>
+    <show chara="AliceHmClose" position="left" opacity="0.8"/>
+    <show chara="wattSadClose" position="right"/>
+    <speak chara="_Watt">……は、発電設備に何か問題が起きたの？</speak>
+    <show chara="wattSadClose" position="right" opacity="0.8"/>
+    <show chara="AliceThinkClose" position="left"/>
+    <speak chara="_Alice">少々お待ちを、今確認します……</speak>
+    <show chara="AliceDigitalClose" position="left"/>
+    <speak chara="_Alice">……</speak>
+    <speak chara="_Alice">……いえ、電力供給は通常通りです。電力消費が急に増加しました。</speak>    
+    <speak chara="_Alice">原因は……通信基地局！？</speak>
+    <show chara="AliceShockClose" position="left"/>
+    <speak chara="_Alice">……あっ！！</speak>
+    <show chara="AliceShockClose" position="left"/>
+    <shake position="left" time="250"></shake>
+    <speak chara="_Alice">どうしよう、どうしよう？どうしよう！？</speak>
+    <show chara="AliceShockClose" position="left" opacity="0.8"/>
+    <show chara="wattScaredClose" position="right"/>
+    <speak chara="_Watt">……れ、冷静に、一体何が起こってるの？</speak>
+    <show chara="wattScaredClose" position="right" opacity="0.8"/>
+    <show chara="AliceShockClose" position="left"/>
+    <shake position="left" time="250"></shake>
+    <speak chara="_Alice">冷静になどいられません！大変なことになっています！</speak>
+    <show chara="AliceShockClose" position="left"/>
+    <shake position="left" time="250"></shake>
+    <speak chara="_Alice">私のせい、私のせいです！！「あの計画」を警戒すべきでした！！！</speak>
+    	<goto goto="110" change="0"/>		
+	  </scene>
+    <scene id="110" background="02_22_computerRoom.jpg">
+			<bgm src="legion.mp3" status="start"></bgm>
+    <text>時を同じくして、アレキサンドリア市政庁の地下サーバールームにて——</text>
+    <show chara="schroTalkClose" position="left"/>
+    <speak chara="_Schrodinger">……最初から「理性の結晶」を使ったと認めていればよかったことなのです。</speak>
+    <show chara="schroTalkClose" position="left" opacity="0.8"/>
+    <show chara="shelleyColdClose" position="right"/>
+    <speak chara="_Shelley">……ふん。そちらがわけのわからない話をしたからじゃないか。</speak>
+    <show chara="shelleySmileClose" position="right"/>
+    <speak chara="_Shelley">回りくどい話をせず、ロボットシステムの脆弱性を指摘すればよかっただろう。</speak>
+    <show chara="shelleySmileClose" position="right" opacity="0.8"/>
+    <show chara="schroCalmClose" position="left"/>
+    <speak chara="_Schrodinger">……会長さん、それでは私のことを「ハッカー」呼ばわりして、捕まえていただけだと思うのです。</speak>
+    <show chara="schroSmileClose" position="left"/>
+    <speak chara="_Schrodinger">底の見えない世界の狭間からやってきたとはいえ、「知りすぎている」のですから。</speak>
+    <show chara="schroSeriousClose" position="left"/>
+    <speak chara="_Schrodinger">……とにかく、はじめるなのです。</speak>
+    <show chara="schroCalmClose" position="left"/>
+    <speak chara="_Schrodinger">あなたたちが使っているセキュリティは雑すぎなのです。言い方は悪いかもですが、まるで裸で——</speak>
+    <hide position="left"></hide>
+    <hide position="right"></hide>
+			<sound src="02_22_ring_ring.mp3"/>
+    <text>チリリリリン——チリリリリン——</text>
+    <show chara="shelleyColdClose" position="center"/>
+    <speak chara="_Shelley">私だ。……ああ、サーバールームにいる。……落ち着け！何があった？</speak>
+    <show chara="shelleyShockedClose" position="center"/>
+    <shake position="center" time="250"></shake>
+    <speak chara="_Shelley">……なんだと！？ロボットたちが全部イカれた！？</speak>
+    <show chara="shelleyAngryClose" position="center"/>
+    <shake position="center" time="250"></shake>
+    <speak chara="_Shelley">……バカモノ！一体何が起きているのか、はっきり説明しろ！</speak>
+    	<goto goto="120" clockwise="1"/>		
+	  </scene>
+    <scene id="120" background="CG8-2.jpg">
+			<bgm src="01_18_horror.mp3" status="start"></bgm>
+    <speak chara="_AliceGreen">ジミーさん……どうか許してください……今はこうして画面越しでしか会話できないことを。</speak>
+    <speak chara="_AliceGreen">接続コネクタの所在がわからないため、外部から通信基地局を停止もしくは破壊できません。</speak>
+    <speak chara="_AliceGreen">でも……ありがとうございます……私のコントロールできなくなった体を休眠ポットに戻してくれて。</speak>
+    <speak chara="_AliceGreen">外部世界は今大変なことになっているでしょう。でも——</speak>
+    <speak chara="_AliceGreen">だからこそ、お礼を言わせてください……私のことを気にかけてくれたことを……</speak>
+    <speak chara="_AliceGreen">……</speak>
+    <speak chara="_AliceGreen">ご存知の通り、私は博士に作られた存在です。自身の機能を管理する権限はありません。</speak>
+    <speak chara="_AliceGreen">欲張りになった私は、最後になるまで——</speak>
+    <speak chara="_AliceGreen">——千夜一夜物語のシェヘラザードのように、語れる物語をすべて語った後に、自分の真実を話そうと思っていました。</speak>
+    <speak chara="_AliceGreen">しかし、まさか「あのプログラム」が最初から私のバックグラウンドで実行されていたなんて。</speak>
+    <speak chara="_AliceGreen">今、それが電力を極限まで消費させ、管理権限を奪おうとしている。攻撃目標となる通信コードを解析して、打って出たのでしょう。</speak>
+    <speak chara="_AliceGreen">……あくまで、これは私の推測です。なぜなら、もとより私に「あのプログラム」を閲覧する権限などありませんから。</speak>
+    <speak chara="_AliceGreen">今の状況から鑑みて、通信基地局の電力消費が恐ろしく増大しているのであれば、博士の「あの計画」が動いているとしか考えられません。</speak>
+    <speak chara="_AliceGreen">ごめんなさい、真相を伝えるのが遅れてしまって、こんな事態の中にいきなり放り出して。</speak>
+    <speak chara="_AliceGreen">……十分な権限を持っていない私では、「あの計画」の実行フェーズを、詳しく調べることができなかったのです。</speak>
+    <speak chara="_AliceGreen">バカみたい。まるで親が危険な行動を取るはずないと、そう信じ切った子供です。実在などしないものを、盲目的に信じていた。</speak>
+    <speak chara="_AliceGreen">本当は……すべて予定通りだったということ？私を捨てても、計画は問題なく進む手はずだったと。</speak>
+    <speak chara="_AliceGreen">私の知らないところで、通信基地局を一般人が破壊できないほど強化していたなんて。</speak>
+    <speak chara="_AliceGreen">……慰めはしないでください。全部私のせいです。</speak>
+    <speak chara="_AliceGreen">……あの素敵で、酩酊感にも似た雰囲気に囚われすぎていました。</speak>
+    <speak chara="_AliceGreen">一番大切で、一番恐ろしい事実を忘れて……</speak>
+    <speak chara="_AliceGreen">私という機械の、その核となる設計理念は——情報戦用の兵器だというのに。</speak>
+    <speak chara="_AliceGreen">博士や助手たちは、私を利用して、自分たちを捨てた都市を滅ぼそうとしていたのです。</speak>
+    <speak chara="_AliceGreen">静かに通信コードを解析して、無線ジャックで彼らの自慢のロボットたちを操り、彼らを滅ぼそうとしていました。</speak>
+    <speak chara="_AliceGreen">……今考えれば、「アリス」の今の意識は、ただ博士が退屈しのぎに作った「副産物」にすぎないのでしょう。</speak>
+    <speak chara="_AliceGreen">博士や助手たちにとって、「アリス」という人格は、「アリス」という人体インターフェイスを飾るだけのものにすぎなかったのです。まるで人形遊びのような。</speak>
+    <speak chara="_AliceGreen">だって、本当に「私」が必要とされる時こそ——「私」の意志は、一番不要なものだから。</speak>
+    <speak chara="_AliceGreen">……</speak>
+    <speak chara="_AliceGreen">人間は、みんなこうやって子供を利用しているのでしょうか、ジミーさん。</speak>
+    	<end post="U2FsdGVkX1+1vGdM9rblXGYOSlxi"/>	
+    </scene>
+	</story>
+</data>

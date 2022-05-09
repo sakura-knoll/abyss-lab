@@ -1,0 +1,1314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#ffffff"/>
+        </scene>
+        <scene id="10" background="white.jpg">
+            <bgm src="x_DLC_UI7.mp3" status="start"></bgm>
+            <text>In the depths of the earth, the girl dreamt fragmented dreams.</text>
+            <text>In the gaps between each dream, impermanent poems are scattered.</text>
+            <goto goto="20" change="#ffffff"/>
+        </scene>
+        <scene id="20" background="CG3-1.jpg">
+            <bgm src="x_DLC_UI7.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text article="1">
+                <p class="article-text">The flower that smiles today</p>
+                
+                <br />
+                <p class="article-text">Tomorrow dies;</p>
+                
+            </text>
+            <text article="1">
+                <p class="article-text">All that we wish to stay,</p>
+                <br />
+                <p class="article-text">Tempts and then flies.</p>
+            </text>
+            <text article="1">
+                <p class="article-text">What is this world's delight? Lightning that mocks the night,</p>
+                <br />
+                <p class="article-text">Brief even as bright.</p>
+            </text>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="CG14-1.jpg">
+            <bgm src="x_DLC_UI7.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text article="1">
+                <p class="article-text">Virtue, how frail it is!</p>
+                <br />
+                <p class="article-text">Friendship how rare!</p>
+            </text>
+            <text article="1">
+                <p class="article-text">Love, how it sells poor bliss</p>
+                <br />
+                <p class="article-text">For proud despair!</p>
+            </text>
+            <text article="1">
+                <p class="article-text">But we, though soon they fall, Survive their joy and all</p>
+                <br />
+                <p class="article-text">Which ours we call.</p>
+            </text>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="CG4-4-2.jpg">
+            <bgm src="x_DLC_UI7.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text article="1">
+                <p class="article-text">Whilst skies are blue and bright,</p>
+                <br />
+                <p class="article-text">Whilst flowers are gay,</p>
+            </text>
+            <text article="1">
+                <p class="article-text">Whilst eyes that change ere night</p>
+                <br />
+                <p class="article-text">Make glad the day,</p>
+            </text>
+            <text article="1">
+                <p class="article-text">Whilst yet the calm hours creep, Dream thou – and from thy sleep</p>
+                <br />
+                <p class="article-text">Then wake to weep.</p>
+            </text>
+            <goto goto="50" change="#000000"/>
+        </scene>
+        <scene id="50" background="black.jpg">
+            <bgm src="x_DLC_UI7.mp3" status="continue"></bgm>
+            <text>The dream gradually disappeared like a bubble at dawn.</text>
+            <text>The girl felt the fresh air coming into her lungs.</text>
+            <text>Her eyelids were heavy, and her limbs didn’t want to wake up.</text>
+            <text>She tried to fight off the drowsiness in her mind, and struggled for control for three minutes… Or maybe it was half an hour.</text>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="CG30-1.jpg">
+            <bgm src="theme.mp3" status="start"></bgm>
+            <show chara="eyeOpening" position="center" opacity="1.0"/>
+            <speak chara="_Rita">Ah...</speak>
+            <speak chara="_Rita">Please don’t move yet, Bianka-sama.</speak>
+            <hide position="center"></hide>
+            <speak chara="_Rita">You were in a coma for about 3 hours and 45 minutes - This is the last shot of the treatment.</speak>
+            <speak chara="_Rita">So until the injection is completed, please maintain a supine position.</speak>
+            <speak chara="_Bianka">Uh… This is the kind of medicine that the Overseer told you to bring before we set off...</speak>
+            <speak chara="_Bianka">I remember the principle behind it was… Holy Blood diluted to a very low concentration--</speak>
+            <speak chara="_Rita">Shhh… I will now give you an intravenous injection, so I need you to be as quiet and relaxed as possible.</speak>
+            <speak chara="_Bianka">Ah… I’m sorry.</speak>
+            <speak chara="_Bianka">In that case… I only want to confirm one thing...</speak>
+            <speak chara="_Bianka">The plan to cut the Bubble Universe… was it successful?</speak>
+            <speak chara="_Rita">...The cutting itself can be said to have been very successful. Only--</speak>
+            <speak chara="_Rita">--There may be some remaining problems we need to solve. So please, cooperate with the treatment for now.</speak>
+            <speak chara="_Rita">It’s ok. It’ll be over soon.</speak>
+            <goto goto="70" clockwise="1"/>
+        </scene>
+        <scene id="70" background="fortHospital.jpg">
+            <bgm src="x_3_6_Talkbgm3.mp3" status="start"></bgm>
+            <show chara="biankaDressSmileClose" position="left"/>
+            <speak chara="_Bianka">...This medicine is really powerful. I feel like I’m healthier than before I collapsed.</speak>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">So what’s the situation now? And... where are we?</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">This is the infirmary of the “Fortress Command Center” deep underground. We are now at the closest point to the “Anchor Point”.</speak>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">The “Operation Pachakutiq” that you participated in to cut the Bubble Universe has ended. According to preliminary statistics from the chairwoman, 378 people were killed or are missing in action...</speak>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">...Including the first mate of Caledonia, “Jeanna François Champollion”.</speak>
+            <show chara="ritaVestHesitateClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">--What?</speak>
+            <show chara="biankaDressSorrowClose" position="left"/>
+            <speak chara="_Bianka">Why would she...</speak>
+            <show chara="biankaDressSorrowClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">“Champollion” is her pseudonym. According to Dr. Schrodinger, the archeologist is actually a “Star Whisperer” born from information fragments of the collective “Napoleon”.</speak>
+            <show chara="ritaVestAngryClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">...What?</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">Roughly speaking, she is another Napoleon that exists in this world - In fact, her personality is closer to the one we learn about from textbooks in our world.</speak>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">After the Bubble Universe was cut, the Honkai Beasts remaining on the fragments of Europe formed an aggregate of Napoleon’s will, captured the most important Anchor Channel of the island, and cut off our lines of communication.</speak>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">In order to prevent the annihilation of the more than 3000 people on the island, “Champollion” chose to die with “Napoleon” - She used the Anchor to turn herself into a special attack weapon, and annihilated the “Napoleon parts” in the Honkai Beast Aggregate.</speak>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">She used her own sacrifice to save the remaining two thousand people, and saved the seriously wounded General Draculesti, General Sanada Yukimura, and Miss Caravaggio...</speak>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">...It also avoided the need to forcibly activate the Genius to bring you back to our original world.</speak>
+            <show chara="ritaVestHesitateClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">However, although the Honkai Beast Aggregate no longer exists, its Honkai Energy has not completely disappeared.</speak>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">Not far from where it was defeated, Dr. Schrodinger found some newly formed giant crystals.</speak>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">For this reason, Dr. Schrodinger herself, Shigure Kira-senpai and Rowland-sama are still staying on the island for surveillance.</speak>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">...This is the “remaining problem” I mentioned before, and it might need our help.</speak>
+            <show chara="ritaVestAngryClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">...What do we need to do?</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">Use a Honkai Energy attack to test the crystal’s stability.</speak>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">If the crystals are stable, it’s a good idea to bury them deep underground or throw them into space.</speak>
+            <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">...And what if the crystals are fragile and easily leak Honkai Energy?</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">Then we blow them all up.</speak>
+            <show chara="ritaVestAngryClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">That’s… How do we do that?</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="eyeSwordNormal" position="right"/>
+            <speak chara="_eyeDurandalQNoName">Hehehe… that’s where I come in, of course.</speak>
+            <show chara="eyeSwordNormal" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">Are you… Dudu?</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="eyeSwordSmile" position="right"/>
+            <speak chara="_eyeDurandalQDurandal">Yes, of course it’s me!</speak>
+            <speak chara="_eyeDurandalQDurandal">The only member of the mechanical race in Caledonia, Matteo Maria Boiard Ludwig Aristotle XII!</speak>
+            <speak chara="_eyeDurandalQDurandal">Oh, I just made that name up on the spot, so don’t think too much about it.</speak>
+            <show chara="eyeSwordNormal" position="right"/>
+            <speak chara="_eyeDurandalQDurandal">In short, this is the anthropomorphic form I can use after having all of my functions restored. Isn’t it a lot more prestigious than before?</speak>
+            <show chara="eyeSwordNormal" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">...Yeah, kinda.</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="eyeSwordNormal" position="right"/>
+            <speak chara="_eyeDurandalQDurandal">I woke up 35 minutes and 28 seconds earlier than my master, so I already set up the crystal purification procedures for you.</speak>
+            <show chara="eyeSwordSmile" position="right"/>
+            <speak chara="_eyeDurandalQDurandal">So without further ado, should we get going?</speak>
+            <goto goto="80" clockwise="1"/>
+        </scene>
+        <scene id="80" background="commandCenterHuaca.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">Ah, is your body fine now?</speak>
+            <show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose" position="right"/>
+            <speak chara="_Bianka">Captain! Old man! Are you safe?</speak>
+            <show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="left"/>
+            <speak chara="_Miguel">Yes, we were well protected… thanks to the heroes who shed their blood and sacrificed their lives.</speak>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">...So, are you going back to the battlefield with the “Holy Sword”?</speak>
+            <show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">Yes. Dudu said it has the ability to deal with the residual Honkai Energy.</speak>
+            <show chara="biankaDressSmileClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">Then go ahead. This is probably the best thing that only you can do.</speak>
+            <show chara="cervantesNormalClose" position="left"/>
+            <speak chara="_Miguel">……</speak>
+            <show chara="cervantesSmileClose" position="left"/>
+            <speak chara="_Miguel">I heard that there is a saying in Eastern philosophy that everyone is born with a “fate”.</speak>
+            <show chara="cervantesNormalClose" position="left"/>
+            <speak chara="_Miguel">However, unlike the “fate” from prophecies, this kind of “fate” is almost always buried by trivial life.</speak>
+            <show chara="cervantesGazeClose" position="left"/>
+            <speak chara="_Miguel">Only those with true wisdom and bravery can perceive their “fate” on a once in a lifetime chance--</speak>
+            <show chara="cervantesSmileClose" position="left"/>
+            <speak chara="_Miguel">--And use it to create something that will be called “impossible” or “a miracle” by outsiders.</speak>
+            <show chara="cervantesSeriousClose" position="left"/>
+            <speak chara="_Miguel">Perhaps, sometimes this “miracle” comes at a heavy price;</speak>
+            <show chara="cervantesSeriousClose" position="left"/>
+            <speak chara="_Miguel">Perhaps, sometimes realizing our “fate” will make us sigh and grieve; </speak>
+            <show chara="cervantesGazeClose" position="left"/>
+            <speak chara="_Miguel">But it is still the history chosen by this world, from countless possibilities, because of various coincidences, that finally became our “destiny”.</speak>
+            <show chara="cervantesNormalClose" position="left"/>
+            <speak chara="_Miguel">Kid, what I really want to say is...</speak>
+            <show chara="cervantesSmileClose" position="left"/>
+            <speak chara="_Miguel">No matter the philosophy, “changing fate” is far more important than “praying for fate” or “cursing fate”.</speak>
+            <show chara="cervantesNormalClose" position="left"/>
+            <speak chara="_Miguel">Time can’t go backwards. The world can’t be reset. Rather than talking about your reasons of sadness, it’s better to count the things that can be done.</speak>
+            <show chara="cervantesGazeClose" position="left"/>
+            <speak chara="_Miguel">Kid, your journey has only begun… Maybe there are countless worlds and countless obstacles still waiting for you.</speak>
+            <show chara="cervantesSmileClose" position="left"/>
+            <speak chara="_Miguel">So do your best. The best way to commemorate the deceased is to go forward on the path they have opened up.</speak>
+            <show chara="cervantesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose" position="right"/>
+            <speak chara="_Bianka">...I will!</speak>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">Thank you very much, Sir Cervantes.</speak>
+            <goto goto="90" clockwise="1"/>
+        </scene>
+        <scene id="90" background="fortTunnel.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="biankaDressSighClose" position="center"/>
+            <speak chara="_Bianka">Although I’ve been here before… It still surprises me how big the central fortress to defend the “Anchor Point” is.</speak>
+            <hide position="center"></hide>
+            <show chara="rolandLNEmbarrassClose" position="left"/>
+            <speak chara="_RolandNoName">Oh, good, I caught up!</speak>
+            <show chara="rolandLNEmbarrassClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">...Rowland? Did you come back from the Honkai Crystal site?</speak>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">Rowland-sama, could it be that an accident happened?</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="rolandLNEmbarrassClose" position="left"/>
+            <speak chara="_Roland">Ah, no - It’s nothing so big like an “accident”.</speak>
+            <show chara="rolandLNSmileClose" position="left"/>
+            <speak chara="_Roland">It’s just that Dr. Schrodinger detected abnormal fluctuations in the Honkai Energy of the crystals, so she sent me back to discuss countermeasures with the Chairwoman.</speak>
+            <show chara="rolandLNEmbarrassClose" position="left"/>
+            <speak chara="_Roland"> The world is still in an unstable state after the cutting operation, and the communication with the island hasn’t been restored - So we need to use human power to deliver these messages.</speak>
+            <show chara="rolandLNNormalClose" position="left"/>
+            <speak chara="_Roland">...Wait, could you help with the Honkai site now?</speak>
+            <show chara="rolandLNNormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">Of course, we planned on that anyway.</speak>
+            <show chara="biankaDressSneerClose" position="right" opacity="0.8"/>
+            <show chara="rolandLNSmileClose" position="left"/>
+            <speak chara="_Roland">That’s great. If Miss Bianka is present, then Shigure Kira would also...</speak>
+            <show chara="rolandLNShockClose" position="left"/>
+            <speak chara="_Roland">Ah, no, it’s nothing. I’m just worrying too much.</speak>
+            <show chara="rolandLNShockClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
+            <show chara="rolandLNSeriousClose" position="left"/>
+            <speak chara="_Roland">She got accidentally “burned” while investigating the crystals, and her eyes and arms seemed to show some sign of corruption.</speak>
+            <show chara="rolandLNEmbarrassClose" position="left"/>
+            <speak chara="_Roland">She said she was fine, but...</speak>
+            <show chara="rolandLNEmbarrassClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">……</speak>
+            <show chara="biankaDressBiteClose" position="right"/>
+            <speak chara="_Bianka">That’s a problem...</speak>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">Rowland, please report it to the Chairwoman what happened. Rita and I are heading directly to Shigure Kira!</speak>
+            <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+            <show chara="rolandLNShockClose" position="left"/>
+            <speak chara="_Roland">Could that be serious?</speak>
+            <show chara="rolandLNSeriousClose" position="left"/>
+            <speak chara="_Roland">...Then after reporting to the Chairwoman, should I get everyone available to rush over there?</speak>
+            <show chara="rolandLNSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">Yes, please!</speak>
+            <goto goto="100" clockwise="1"/>
+        </scene>
+        <scene id="100" background="fireGroundNorth.jpg">
+            <bgm src="x_BGM32_boss4.mp3" status="start"></bgm>
+            <text>In the East there is a term for drought, “Thousands of miles of red land”.</text>
+            <text>And now, this small island in the North Sea has turned into a purgatory because of the action of cutting the Bubble Universe and the subsequent melee-</text>
+            <text>--The overflowing of lava makes one think of that idiom.</text>
+            <show chara="ShigureKiraVNShockClose" position="center"/>
+            <speak chara="_ShigureKiraNoName">……</speak>
+            <speak chara="_Rita">That- is that--</speak>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="swordTrail.jpg">
+            <bgm src="x_BGM32_boss4.mp3" status="continue"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_Bianka">Hold on tightly! Shigure Kira! Don’t let the Honkai erode your will!</speak>
+            <goto goto="120" change="0"/>
+        </scene>
+        <scene id="120" background="CG30-2.jpg">
+            <bgm src="x_BGM32_boss4.mp3" status="continue"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_ShigureKira">Calm down, Bianka!</speak>
+            <speak chara="_ShigureKira">You got the wrong idea! I haven’t been corrupted by the Honkai!</speak>
+            <speak chara="_Bianka">Senior Kira!</speak>
+            <speak chara="_Bianka">Your body has been badly corrupted! Can’t you even see it yourself?</speak>
+            <speak chara="_ShigureKira">Where am I being corrupted? Do I have...</speak>
+            <goto goto="130" change="0"/>
+        </scene>
+        <scene id="130" background="CG30-2B.jpg">
+            <bgm src="x_BGM32_boss4.mp3" status="continue"></bgm>
+            <speak chara="_ShigureKira">(...Tsk. So that’s what it is)</speak>
+            <speak chara="_ShigureKira">(Although it will only waste more time… It can’t be helped, I have to explain it)</speak>
+            <goto goto="140" change="0"/>
+        </scene>
+        <scene id="140" background="CG30-2.jpg">
+            <bgm src="x_BGM32_boss4.mp3" status="continue"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_ShigureKira">Listen up, self-righteous junior!</speak>
+            <speak chara="_ShigureKira">It’s not Honkai that is covering my body!</speak>
+            <speak chara="_ShigureKira">It’s a living alien, I call it by the second half of the name of my comrade-in-arms --</speak>
+            <speak chara="_ShigureKira">--”Niggurath”!</speak>
+            <goto goto="150" change="0"/>
+        </scene>
+        <scene id="150" background="fireBoomNorth.jpg">
+            <bgm src="11_22_Tiger.mp3" status="start"></bgm>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Bianka">……？！</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">“Niggurath”... Does this name come from “Shub Niggurath” who belonged to the Snow Wolf Squad alongside you?</speak>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">--The Valkyrie who is rumoured to have “resurrected” several times?</speak>
+            <show chara="ritaVestAngryClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraVNNormalClose" position="left"/>
+            <speak chara="_ShigureKira">...Yes.</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left"/>
+            <speak chara="_ShigureKira">This child can use its own cell repair to replace damaged organs and tissues of the host - That is the secret behind “Shub Niggurath”’s several resurrections.</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">What did you say?</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraVNNormalClose" position="left"/>
+            <speak chara="_ShigureKira">Don’t be surprised yet… Listen to me first.</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left"/>
+            <speak chara="_ShigureKira">Although Niggurath can enhance the vitality of the chosen person, its own survival also depends on the host itself.</speak>
+            <show chara="ShigureKiraVNThinkClose" position="left"/>
+            <speak chara="_ShigureKira">On the battlefield of the Second Eruption, when “Shub Niggurath”’s body completely collapsed… It chose me.</speak>
+            <show chara="ShigureKiraVNSadClose" position="left"/>
+            <speak chara="_ShigureKira">At the time I had lost consciousness, so I didn’t know what happened.</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left"/>
+            <speak chara="_ShigureKira">When I woke up, I was in another world.</speak>
+            <speak chara="_ShigureKira">And Niggurath’s “Consciousness” or “Emotions”... Began to resonate in my mind.</speak>
+            <show chara="ShigureKiraVNSadClose" position="left"/>
+            <speak chara="_ShigureKira">It’s difficult to describe this feeling, because Niggurath is not a creature with complex thinking. It just projects its various instincts on the human consciousness.</speak>
+            <show chara="ShigureKiraVNThinkClose" position="left"/>
+            <speak chara="_ShigureKira">All I know is… It brought me to this world to avoid risks, and it's surprisingly compatible with my body.</speak>
+            <show chara="ShigureKiraVNNormalClose" position="left"/>
+            <speak chara="_ShigureKira">People in this world regarded me as a “Star Whisperer” copied by the “Ether Anchor”, and I accepted my new identity along the way.</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left"/>
+            <speak chara="_ShigureKira">After all… After experiencing such a cruel war...</speak>
+            <show chara="ShigureKiraVNThinkClose" position="left"/>
+            <speak chara="_ShigureKira">...To be honest, I don’t really want to go back to my original world.</speak>
+            <show chara="ShigureKiraVNThinkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">So… You have been here… Ever since.</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraVNShockClose" position="left"/>
+            <speak chara="_ShigureKira">...Oops, now is not the time to go over those things.</speak>
+            <show chara="ShigureKiraVNSeriousClose" position="left"/>
+            <speak chara="_ShigureKira"> I only explained this much to show that I have not been corrupted by the Honkai Energy--</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left"/>
+            <speak chara="_ShigureKira">It’s just that I was hit by a sudden shockwave and lost consciousness, causing Niggurath in my body to produce a stress response.</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">...A sudden shockwave?</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraVNSadClose" position="left"/>
+            <speak chara="_ShigureKira">Yes. It’s shameful to say it, but I didn’t even get close to the crystals. I lost consciousness without knowing what happened.</speak>
+            <show chara="ShigureKiraVNShockClose" position="left"/>
+            <speak chara="_ShigureKira">...When I woke up, I found myself floating in lava under Niggurath’s protection.</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left"/>
+            <speak chara="_ShigureKira">Miss Rowland and Dr. Schrodinger were also missing. I worry that they are already...</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">This isn't good!</speak>
+            <show chara="ritaVestAngryClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">What’s the matter, Rita?</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">Bianka-sama, did you forget? We met Rowland-sama not long ago...</speak>
+            <show chara="ritaVestAngryClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">Ah!</speak>
+            <show chara="biankaDressScreamClose" position="left"/>
+            <speak chara="_Bianka">How can that be? </speak>
+            <goto goto="160" change="0"/>
+        </scene>
+        <scene id="160" background="fortTunnel.jpg">
+            <bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <show chara="rolandLNSeriousClose" position="back"/>
+            <speak chara="_Roland">She got accidentally “burned” while investigating the crystals, and her eyes and arms seemed to show some sign of corruption.</speak>
+            <show chara="rolandLNEmbarrassClose" position="back"/>
+            <speak chara="_Roland">She said she was fine, but...</speak>
+            <goto goto="170" change="0"/>
+        </scene>
+        <scene id="170" background="fireGroundNorth.jpg">
+            <bgm src="x_BGM32_boss4.mp3" status="start"></bgm>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">...I’m afraid that the person who had their will corrupted by the Honkai was Miss Rowland herself.</speak>
+            <show chara="schroNoSwordSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose" position="right"/>
+            <speak chara="_Bianka">Doc! You’re ok?</speak>
+            <show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSmileClose" position="left"/>
+            <speak chara="_Schrodinger">I’m fine.</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">Although this body is prone to losing unity after energy impacts, it’s not easy to leave irreversible damage.</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">...It just takes some time to condense back to this human form.</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">I heard your conversation just now. Let me add a testimony--</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">The shockwave that hit Kira and me was released by Rowland herself.</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">It clung to my body and blasted me to pieces.</speak>
+            <show chara="schroNoSwordSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="right"/>
+            <speak chara="_Bianka">No, that’s impossible...</speak>
+            <show chara="biankaDressBiteClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraVNShockClose" position="left"/>
+            <speak chara="_ShigureKira">……</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left"/>
+            <speak chara="_ShigureKira">Rowland has no reason to do this… Unless--</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="right"/>
+            <speak chara="_Schrodinger">--Unless she was corrupted by Honkai.</speak>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">I searched the entire island while gathering my body. The crystals we monitored before are nowhere to be seen.</speak>
+            <show chara="schroNoSwordTalkClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">Then… Could it be that...</speak>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">Rowland...</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="eyeSwordShock" position="right"/>
+            <speak chara="_eyeDurandalQDurandal">Oh my god!</speak>
+            <show chara="eyeSwordShock" position="right"/>
+            <speak chara="_eyeDurandalQDurandal">We carelessly let her into the fortress!</speak>
+            <goto goto="180" clockwise="1"/>
+        </scene>
+        <scene id="180" background="fortTunnelRed.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="start"></bgm>
+            <text>A few minutes ago.</text>
+            <text>The “woman” walked unhurriedly on the empty corridor of the fortress.</text>
+            <text>Her goal is very clear, and there is no hesitation in her heart.</text>
+            <text>She knew that in this battered world, she is a unique and noble existence.</text>
+            <text>Yes, she did originate from humans--</text>
+            <text>But just like humans don’t think of apes as their own kind, she doesn’t see any difference between the “naked apes” and “ants”.</text>
+            <text>To her, even Napoleon was nothing more than a stale and stubborn old father.</text>
+            <text>...This body is the crystallization of the coevolution of tens of thousands of wills.</text>
+            <text>They got rid of the “mastermind” biding their freedom, they got rid of the ugly monstrous form--</text>
+            <text>--The Son of God, through the inherently incomplete “Star Whisperer”’s body, finally came to this world.</text>
+            <text>...Yes, she still thinks she is just a “Son of God”.</text>
+            <text>She is not strong enough yet, so a little trick has to be used.</text>
+            <text>When she is sure that she will succeed, the disguise will be unnecessary.</text>
+            <text>…”Rowland”’s consciousness is still alive in her body. But it is just a trivial nerve cell, a part of the body which does not represent the soul.</text>
+            <text>All nighters don’t care about dry eyes. Marathon runners don’t care about muscle soreness--</text>
+            <text>No matter how much the mantis swings its forelimbs, the direction of the wind will not change.</text>
+            <text>...The Son of God was enjoying this small struggle in her body, and leisurely walked in the empty corridors of the fortress.</text>
+            <goto goto="190" change="#000000"/>
+        </scene>
+        <scene id="190" background="fortControlRoom.jpg">
+            <bgm src="x_ruin.mp3" status="start"></bgm>
+            <show chara="thorSighClose" position="left"/>
+            <speak chara="_Thoreau">Huh? Rowland?</speak>
+            <show chara="thorSighClose" position="left"/>
+            <speak chara="_Thoreau">Did something happen?</speak>
+            <show chara="thorSighClose" position="left" opacity="0.8"/>
+            <show chara="rolandLNEmbarrassClose" position="right"/>
+            <speak chara="_Roland">No, everything is fine, Chairwoman.</speak>
+            <show chara="rolandLNSmileClose" position="right"/>
+            <speak chara="_Roland">It’s just that we got the reinforcement of the two Valkyries, so Dr. Schrodinger sent me back.</speak>
+            <show chara="rolandLNSmileClose" position="right" opacity="0.8"/>
+            <show chara="thorNormalClose" position="left"/>
+            <speak chara="_Thoreau">Well, that’s fine. After all, as an incomplete “Star Whisperer”, your Honkai Resistance is not as good as theirs.</speak>
+            <show chara="thorSighClose" position="left"/>
+            <speak chara="_Thoreau">Alas… We made such a big mess ourselves, but we still need the help of others to clear up the aftermath.</speak>
+            <show chara="thorSighClose" position="left" opacity="0.8"/>
+            <show chara="DarwinEmbarrassedClose" position="right"/>
+            <speak chara="_Darwin">Well… Many unpredictable things did happen...</speak>
+            <show chara="DarwinEmbarrassedClose" position="right" opacity="0.8"/>
+            <show chara="rolandLNNormalClose" position="left"/>
+            <speak chara="_Roland">But I think you should be happy, Chairwoman and Commander.</speak>
+            <show chara="rolandLNNormalClose" position="left" opacity="0.8"/>
+            <show chara="DarwinSeriousClose" position="right"/>
+            <speak chara="_Darwin">……？</speak>
+            <show chara="DarwinSeriousClose" position="right" opacity="0.8"/>
+            <show chara="rolandLNSmileClose" position="left"/>
+            <speak chara="_RolandNina">We don’t think this is a bad result at all.</speak>
+            <show chara="rolandLNLaughClose" position="left"/>
+            <speak chara="_RolandNina">Because - Hasn't the most wonderful form of life been born in front of you?</speak>
+            <goto goto="200" change="0"/>
+        </scene>
+        <scene id="200" background="CG30-3.jpg">
+            <bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
+            <sound src="01_19_claw.mp3"/>
+            <cg src="01_19_bloodWhite.jpg" bg="CG30-3.jpg" fadeIn="0" fadeOut="1"></cg>
+            <bgm src="x_Night.mp3" status="start"></bgm>
+            <speak chara="_Darwin">Gu… Uh...</speak>
+            <speak chara="_RolandNina">Awww, it must be painful to have your neck clenched.</speak>
+            <speak chara="_RolandNina"> Should we be sorry? Since you may be the person who understands us best in this world...</speak>
+            <speak chara="_RolandNina">...We don’t want you to die without knowing anything like the Chairwoman.</speak>
+            <speak chara="_Darwin">Huh...</speak>
+            <speak chara="_RolandNina">Fufufufu… Yes, show us more expressions of pain, helplessness, despair, astonishment and anger.</speak>
+            <speak chara="_RolandNina">Otherwise, where should we start?</speak>
+            <speak chara="_RolandNina">A self-introduction?</speak>
+            <speak chara="_RolandNina">Yes, yes. It’s polite to introduce yourself during the first meeting.</speak>
+            <speak chara="_RolandNina">Hmm… But in that case, we have to give ourselves a name, right?</speak>
+            <speak chara="_RolandNina">So… Commander onee-san, do you think… Is there a name suitable for us, the “Son of God”?</speak>
+            <goto goto="210" clockwise="1"/>
+        </scene>
+        <scene id="210" background="fireBoomNorth.jpg">
+            <bgm src="noise.mp3" status="start"></bgm>
+            <show chara="ShigureKiraVNTalkClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_ShigureKira">Don’t stay there in a daze, Valkyries!</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left"/>
+            <speak chara="_ShigureKira">Let’s head back to headquarters! I worry that it's already too late!</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">！</speak>
+            <show chara="schroNoSwordSeriousClose" position="right"/>
+            <speak chara="_Schrodinger">Shigure Kira! Watch your feet!</speak>
+            <show chara="schroNoSwordSeriousClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraVNShockClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_ShigureKira">？！</speak>
+            <goto goto="220" change="0"/>
+        </scene>
+        <scene id="220" background="lavaBreak.jpg">
+            <bgm src="x_REV.mp3" status="start"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_ShigureKira">Thi-This is...</speak>
+            <shake position="all" time="250"></shake>
+            <speak chara="_Bianka">...Earthquake? Or a volcanic eruption?</speak>
+            <goto goto="230" change="0"/>
+        </scene>
+        <scene id="230" background="fireGroundNorth.jpg">
+            <bgm src="x_REV.mp3" status="continue"></bgm>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">...That’s not it. It seems like things are getting more and more out of control.</speak>
+            <show chara="schroNoSwordSeriousClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">What happened, Dr. Schrodinger?</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">I’m not sure, but whatever it is...</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">...Some kind of power, right now, is eroding the “Ether Anchor” itself.</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">For this Bubble Universe - It means the “end of the world”.</speak>
+            <show chara="schroNoSwordSeriousClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraVNShockClose" position="right"/>
+            <speak chara="_ShigureKira">Are you saying… This Bubble Universe will become a sea of fire? Like here?</speak>
+            <show chara="ShigureKiraVNShockClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">That’s uncertain. In fact, I think most areas won’t.</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">In this case, if the special “Anchor Point” system collapses… The Bubble Universe will likely become space-time fragments that will eventually decay and disappear.</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">At the bottom of the Sea of Quanta, there are many such World Fragments.</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">It would be like… If people could only live in the wreckage of a building like prisoners, repeating the same day endlessly.</speak>
+            <show chara="schroNoSwordTalkClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraVNSadClose" position="right"/>
+            <speak chara="_ShigureKira">That’s...</speak>
+            <show chara="ShigureKiraVNSadClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">Hello! Now is not the time to share this kind of knowledge! Did you not just tell me to not stay in a daze?</speak>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka"> Doctor, this “power” that you said is eroding the “Ether Anchor”, can we stop it?</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="right"/>
+            <speak chara="_Schrodinger">...Theoretically. However, now that the “Anchor Point” channel has become unstable, it’s difficult for us to even return there to solve the problem.</speak>
+            <show chara="schroNoSwordSeriousClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">Didn’t I just jump from here?</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">That was when the Anchor was stable!</speak>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">Now the energy fluctuations are so intense, how could we ever adjust flexibly in the air to not be torn apart by the rifts of time and space?</speak>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">Even though--</speak>
+            <show chara="schroNoSwordTalkClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestAngryClose" position="left"/>
+            <speak chara="_Rita">Everyone, look! Something is flying towards here!</speak>
+            <goto goto="240" change="0"/>
+        </scene>
+        <scene id="240" background="lavaBreak.jpg">
+            <bgm src="12_14_Hero.mp3" status="start"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_bertrandYNoName">Oooooooooooooooooooooooooooooooooooooooooo!</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrandY">Valkyries, travelers! Do you face any crisis? Do you need help?</speak>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrandY">Brigadier General Bertrand, turned dragon, is reporting! I feel like I get 20 years younger every day!</speak>
+            <show chara="BertrandSmile" position="center" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="center"/>
+            <speak chara="_Bianka">General Dragon? Great, you arrived at the perfect time!</speak>
+            <show chara="biankaDressHesitateClose" position="center"/>
+            <speak chara="_Bianka">But… Why are you here?</speak>
+            <show chara="biankaDressHesitateClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrandY">I felt the abnormal Honkai Energy fluctuations from the Yucatan, and was worried that you had already gone to war with the emperor--</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrandY">--Unexpectedly, I fell into the cracks of the world while flying! And after crawling out of it, the sight of purgatory was in front of me!</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrandY">--So is there really a problem?</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="center"/>
+            <speak chara="_Bianka">...Long story short, General Dragon! Now we need to break into a fortress to save the world, but the space tunnel is very unstable, so we can’t just jump in it!</speak>
+            <show chara="biankaDressShoutClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrandY">Hmm… Although I’m not sure what to do...</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrandY">...But in return for your kindness, I think there should be no problem with carrying a few people through the “space tunnel”!</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="center"/>
+            <speak chara="_Bianka">Thank you! We’ll get on you right away!</speak>
+            <show chara="biankaDressSneerClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrandY">Ah, wait--</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="center"/>
+            <speak chara="_Bianka">--What?</speak>
+            <show chara="biankaDressHesitateClose" position="center" opacity="0.8"/>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrandY">--You still have other allies heading here.</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrandY">...Look.</speak>
+            <goto goto="250" change="0"/>
+        </scene>
+        <scene id="250" background="fireGroundNorth.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <show chara="wattInspiredClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Watt">Bianka, long time no see!</speak>
+            <show chara="wattInspiredClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">Jimmy? And Mr. Pilot?</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="manfredSmileClose" position="left"/>
+            <speak chara="_Manfred">Haha, these are merely space fluctuations, how could it stop the wings of the “Red Baron”?</speak>
+            <show chara="manfredSadClose" position="left"/>
+            <speak chara="_Manfred">But the machine is not as flexible as a real dragon… We were flying ahead of him, but it took longer to find a place to land.</speak>
+            <show chara="manfredSadClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose" position="right"/>
+            <speak chara="_Bianka">It doesn’t matter! We didn’t even expect you to be here at all!</speak>
+            <show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">Bianka, Doctor - What is the current situation?</speak>
+            <show chara="wattRelievedClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">We have to cross the “Anchor Point” and return to the core area of the “Huaca Tunnel”! Right, Dr. Schrodinger?</speak>
+            <show chara="biankaDressSneerClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">...Yes. Before it’s too late.</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">You and Rita go back with the help of General Bertrand, Shigure Kira and I will board on the improved “Red Baron”--</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">--No matter who arrives first, give priority to the issue and search for Rowland’s whereabouts!</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="schroNoSwordTalkClose" position="center"/>
+            <speak chara="_Schrodinger">This is a race against time.</speak>
+            <show chara="schroNoSwordSeriousClose" position="center"/>
+            <speak chara="_Schrodinger">This may be our last shot at saving this world! Any remaining questions will be answered later!</speak>
+            <goto goto="260" clockwise="1"/>
+        </scene>
+        <scene id="260" background="CG30-4.jpg">
+            <bgm src="01_04_Darken-4.mp3" status="start"></bgm>
+            <speak chara="_bertrandY">...Everything is impermanent. So many things happened in less than a day’s work.</speak>
+            <speak chara="_bertrandY">Although it’s too late, I still would like to say some things to His Majesty the Emperor--</speak>
+            <speak chara="_bertrandY">--That sure enough, the “Bonaparte” from your youth, has always been in the depths of your heart.</speak>
+            <speak chara="_Bianka">……</speak>
+            <speak chara="_bertrandY">Ah, youngsters, you don’t need to get sentimental over an old man like me.</speak>
+            <speak chara="_bertrandY">Although we have both lost someone close to us, my story has little to no ups and downs now, while yours has, in fact, only begun.</speak>
+            <speak chara="_Rita">……</speak>
+            <speak chara="_bertrandY">When the Emperor was still the emperor, as long as he was working, you would not find the emotion called “sadness” in him.</speak>
+            <speak chara="_bertrandY">He said that the greatest kind of people in this world are the “Positively acting pessimists”.</speak>
+            <speak chara="_bertrandY">He was the greatest of all pessimists: He knows that mankind will continue to struggle to survive, and that there is no benevolent power helping us in secret.</speak>
+            <speak chara="_bertrandY">But even then he doesn’t act negatively or scared: Even if he knows he is weak, he continues to move forward towards his goal.</speak>
+            <speak chara="_bertrandY">Because he knows deep down: In this world, only actions mean anything, and only actions can change destiny.</speak>
+            <speak chara="_bertrandY">Any thought without action is just self-righteous arrogance.</speak>
+            <speak chara="_Rita">“It’s easier said than done”, I remember there was such a saying in the East.</speak>
+            <speak chara="_bertrandY">That’s right. The emperor often warned us before: Thought without action and action without thought - They are equally as dangerous.</speak>
+            <speak chara="_bertrandY">The former can only sit back and complain; The latter gets stubborn and fans the flames.</speak>
+            <speak chara="_bertrandY">The Emperor said that this kind of balance is difficult to grasp - He himself only performed well when compiling the “Civil Code”.</speak>
+            <speak chara="_bertrandY">He said that the “Civil Code” was the perfect combination of thought and action, and would never be abandoned by history.</speak>
+            <speak chara="_Bianka">...The job of a Valkyrie is to save the world. They will also not be abandoned by history.</speak>
+            <speak chara="_bertrandY">Hahahaha, you’re right. Your career is the cornerstone of everything. As long as you don’t betray it, you deserve the praise of most people.</speak>
+            <speak chara="_bertrandY">As you know, the Emperor sacrificed the entirety of Europe for his own interests, and for the interests of France… That eventually became a fatal stain on him.</speak>
+            <speak chara="_bertrandY">Beethoven even ripped off the title of the symphony composed for him and changed “Bonaparte” to “A hero”.</speak>
+            <speak chara="_bertrandY">After all… compared to the whole world, an Emperor and tens of millions of French people are just a small few.</speak>
+            <speak chara="_Bianka">But...</speak>
+            <speak chara="_Bianka">...None of us can guarantee that what we are doing is in line with the interest of mankind and the progress of civilization, right?</speak>
+            <speak chara="_bertrandY">That’s a good way to think.</speak>
+            <speak chara="_bertrandY">Judging from what you reported, the emperor may have chosen to integrate with his subjects into a new form of life just to avoid that.</speak>
+            <speak chara="_bertrandY">But for what price? These subjects were his most loyal and radical servants in the past. Combining with them only allowed a group of people to rush down the road of paranoia even more quickly.</speak>
+            <speak chara="_bertrandY">Perhaps, picking up the fragments of mankind and fusing them all together is a way to transcend Honkai--</speak>
+            <speak chara="_bertrandY">--But this example before us is definitely the worst of the worst. It’s a child born from personal and deformed desires.</speak>
+            <speak chara="_bertrandY">...It’s a pity that His Majesty the Emperor’s other half has died with him, and the remaining parts seem to be causing an even bigger disaster.</speak>
+            <speak chara="_Bianka">……</speak>
+            <speak chara="_eyeDurandalQDurandal">Master, this is not the time to be angry or sad.</speak>
+            <speak chara="_Bianka"> I know. Before we save the world… None of us can lose our cool.</speak>
+            <bgm src="11_22_Tiger.mp3" status="start"></bgm>
+            <speak chara="_Rita"> Bianka-sama, General Bertrand - It seems that we are very close to the entrance of the space crack.</speak>
+            <speak chara="_Bianka">Got it. Let’s just rush straight in.</speak>
+            <speak chara="_Bianka">Durandal, pay attention to the fluctuations of the “Anchor Point”, and correct the target position in real time.</speak>
+            <speak chara="_eyeDurandalQDurandal">...Leave it to me!</speak>
+            <goto goto="270" clockwise="1"/>
+        </scene>
+        <scene id="270" background="fortControlRoomDark.jpg">
+            <bgm src="x_ruin.mp3" status="start"></bgm>
+            <text>The remains of the Star Whisperers gradually dissipated, and the central monitoring room that could control the entire Ether Anchor was silent at this moment.</text>
+            <text>The demon born in the body of the old king lives in the center of the Bubble Universe like a spider, savoring its prey.</text>
+            <show chara="RolandBSKSmile" position="center"/>
+            <speak chara="_laNinaNoName">You managed to find us before we bid farewell to the old world, after all.</speak>
+            <show chara="RolandBSKNormal" position="center"/>
+            <speak chara="_laNinaNoName">And before we become a god that transcends this world… five minutes remain.</speak>
+            <show chara="RolandBSKSmile" position="center"/>
+            <speak chara="_laNinaNoName">Fufu, we are very interested in seeing what else you can do.</speak>
+            <goto goto="280" change="#000000"/>
+        </scene>
+        <scene id="280" background="fortTunnelRed.jpg">
+            <bgm src="x_Night.mp3" status="start"></bgm>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">Weird… How come there’s nobody here...</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">Bianka-sama, look over there!</speak>
+            <show chara="ritaVestAngryClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">？！</speak>
+            <goto goto="290" change="0"/>
+        </scene>
+        <scene id="290" background="fortTunnelRedRS.jpg">
+            <bgm src="x_Night.mp3" status="continue"></bgm>
+            <show chara="ShigureKiraVNShockClose" position="left"/>
+            <speak chara="_ShigureKira">Bianka? Rita? How come you are on this side--</speak>
+            <show chara="ShigureKiraVNShockClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">--That’s what I want to ask as well!</speak>
+            <show chara="biankaDressBiteClose" position="right"/>
+            <speak chara="_Bianka">Didn’t we divide the troops after landing to search for Rowland’s whereabouts? Why did we meet head on! This passage shouldn’t be circular!</speak>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">Didn’t we even leave the General Dragon and Watt behind to meet at the starting point?!</speak>
+            <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">……</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">You… didn’t meet anyone along the way?</speak>
+            <show chara="schroNoSwordTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="right"/>
+            <speak chara="_Bianka">Yeah, not a single guard! But if Honkai already captured this fortress, why would the battlefield be so clean?</speak>
+            <show chara="biankaDressSighClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">Indeed, Honkai is not one to deliberately clean the battlefield.</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">And since we proved with our feet that this passage is circular, there is only one possibility I can think of--</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">The part of the fortress where we are standing may have broken away from the normal order organized by the “Anchor”.</speak>
+            <show chara="schroNoSwordSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="right"/>
+            <speak chara="_Bianka">...What do you mean?</speak>
+            <show chara="biankaDressBiteClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">...Bianka, think of it like this.</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">The underground fortress was originally built on the place closest to the “Ether Anchor”. And what is the “Anchor” itself?</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">It’s the core that organizes this large-scale Bubble Universe, the “book spine” that organizes many different, small spaces tidely like pages.</speak>
+            <show chara="schroNoSwordCalmClose" position="left"/>
+            <speak chara="_Schrodinger">...No, in this case, a messy data cable on a computer might be a better analogy.</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">In short, because the fortress is too close to the Anchor Point, it’s actually very easy for it to be disassembled into tiny independent pieces, each of which is very similar to a  separate World Fragment.</speak>
+            <show chara="schroNoSwordCalmClose" position="left"/>
+            <speak chara="_Schrodinger">In order words, our encounter is a half-circle of a world in opposite directions.</speak>
+            <show chara="schroNoSwordCalmClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="right"/>
+            <speak chara="_Bianka">So… are you saying that this fortress has already been disassembled, and we got the wrong fragment?</speak>
+            <show chara="biankaDressBiteClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger"> ...No. The first half of what you said is correct, but the second half isn't.</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">Shigure Kira, the… “Niggurath” in your body… does it also have an organ that can sense Honkai Energy?</speak>
+            <show chara="schroNoSwordTalkClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraVNShockClose" position="right"/>
+            <speak chara="_ShigureKira">Organ? It’s not always easy to get what you mean… But yes, “Niggurath” has a way to tell me the approximate distribution of Honkai Energy around me.</speak>
+            <show chara="ShigureKiraVNShockClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">...Then can you detect the crystals we were investigating before?</speak>
+            <show chara="schroNoSwordSeriousClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraVNThinkClose" position="right"/>
+            <speak chara="_ShigureKira">……</speak>
+            <show chara="ShigureKiraVNSeriousClose" position="right"/>
+            <speak chara="_ShigureKira">There is a small… vague feeling...</speak>
+            <show chara="ShigureKiraVNTalkClose" position="right"/>
+            <speak chara="_ShigureKira">I even think… it might be hidden behind the wall in front of us. That can’t be true.</speak>
+            <show chara="ShigureKiraVNTalkClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordCalmClose" position="left"/>
+            <speak chara="_Schrodinger">No, my “smell” tells me the same.</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">Alright. Since it’s like this, it's very simple. Bianka--</speak>
+            <show chara="schroNoSwordTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="right"/>
+            <speak chara="_Bianka">What do I need to do?</speak>
+            <show chara="biankaDressNormalClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">Cut the space there with the Holy Sword.</speak>
+            <show chara="schroNoSwordCalmClose" position="left"/>
+            <speak chara="_Schrodinger">The culprit we are looking for is behind this wall.</speak>
+            <show chara="schroNoSwordCalmClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">Is it really that simple?</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordCalmClose" position="left"/>
+            <speak chara="_Schrodinger">It's that simple.</speak>
+            <show chara="schroNoSwordCalmClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">...Very well.</speak>
+            <goto goto="300" change="0"/>
+        </scene>
+        <scene id="300" background="Fist01.jpg">
+            <bgm src="01_04_Miracle.mp3" status="start"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_Bianka">Then let’s do it!</speak>
+            <goto goto="310" change="#ffffff"/>
+        </scene>
+        <scene id="310" background="fortControlRoomDark.jpg">
+            <bgm src="01_04_Miracle.mp3" status="continue"></bgm>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNinaNoName">Oh my.</speak>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNinaNoName">As expected of you. “La Niña” has been waiting here for a long time.</speak>
+            <show chara="RolandBSKSmile" position="left" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">You- You are--</speak>
+            <show chara="ShigureKiraVNShockClose" position="right"/>
+            <speak chara="_ShigureKira">Rowland?</speak>
+            <show chara="ShigureKiraVNShockClose" position="right" opacity="0.8"/>
+            <show chara="RolandBSKNormal" position="left"/>
+            <speak chara="_laNina">Ah… You mean the original owner of this body?</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">The Star Whisperer, Knight Rowland, is just one of the thousands of cells that make up us.</speak>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">Nothing special, nothing meaningful. Can’t even take part in the thinking.</speak>
+            <show chara="RolandBSKSmile" position="left" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="right"/>
+            <speak chara="_Bianka">...That means you are just a damn parasite!</speak>
+            <show chara="biankaDressBiteClose" position="right" opacity="0.8"/>
+            <show chara="RolandBSKDis" position="left"/>
+            <speak chara="_laNina">Gee, what a rude little creature.</speak>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">All the various creatures of this world evolved from single cells like bacteria - That’s the discovery Darwin made in another world, and we think you should all be familiar with it.</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">So, using that truth as a metaphor--</speak>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">--We, “La Niña”, are the “evolution” of both the subjects of the “Napoleonic Empire” and your knight Rowland under the beautiful effect of the Honkai.</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">She becomes our bones, and we become her wisdom. Do you think that the bones in your body are jealous of your brain?</speak>
+            <show chara="RolandBSKBark" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraVNTalkClose" position="right"/>
+            <speak chara="_ShigureKira">...What the hell are you talking about?</speak>
+            <show chara="ShigureKiraVNTalkClose" position="right" opacity="0.8"/>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">Do you think this is ridiculous, Miss Shigure Kira? Even though you survived our attack thanks to the benefit of fusing with another creature?</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">Is it really so hard for you to understand why we are so much better than ordinary people?</speak>
+            <show chara="RolandBSKBark" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraVNSadClose" position="right"/>
+            <speak chara="_ShigureKira">...You only make me sick.</speak>
+            <show chara="ShigureKiraVNSadClose" position="right" opacity="0.8"/>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">Hmm, perhaps. Our birth does seem a little too wonderful.</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">If you think about it, it is the result of so many coincidences happening one after the other--</speak>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">First of all, our emperor, Mr. Napoleon. He incorporated us as part of his body so his rule could last for generations;</speak>
+            <show chara="RolandBSKDis" position="left"/>
+            <speak chara="_laNina">After that, you, the republic that wanted to get rid of his threat, cut off a part of the Bubble Universe, forcing us, body and soul, to fully combine under the effects of Honkai;</speak>
+            <show chara="RolandBSKNormal" position="left"/>
+            <speak chara="_laNina">And after that, the opposite existence of the emperor chose to die with him, and we became the “brain in the jar”, trapped in the crystallization of Honkai Energy;</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">And in the end, the incomplete Star Whisperer happened to appear before us, allowing us to use her body for our rebirth.</speak>
+            <show chara="RolandBSKBark" position="left" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">What are you trying to do now! Are you trying to use our feelings for Rowland?</speak>
+            <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">Fufu, what an impatient little girl.</speak>
+            <show chara="RolandBSKSmile" position="left" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="right"/>
+            <speak chara="_Bianka">You… I am not afraid to treat you like a comrade-in-arms who was corrupted by the Honkai on the battlefield!</speak>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">So get out of Rowland’s body quickly, or I will not hesitate to use the Holy Sword “Durandal”!</speak>
+            <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">Oh my, rude and impatient, like a little bandit. At least your companions have more restraint--</speak>
+            <show chara="RolandBSKDis" position="left"/>
+            <speak chara="_laNina">--But what a pity. This time you were in the right, and they were in the wrong.</speak>
+            <show chara="RolandBSKDis" position="left" opacity="0.8"/>
+            <show chara="biankaDressHateClose" position="right"/>
+            <speak chara="_Bianka">...What do you mean?</speak>
+            <show chara="biankaDressHateClose" position="right" opacity="0.8"/>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">Hmm, do you need me to spell it out for you?</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">While you were threatening us, the synchronization between us and the “Anchor” was quietly completed. From now on, we are the “Anchor”, and the “Anchor” is us.</speak>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">And you -- In order to listen to our story, just wasted the last five minutes in which you could stop “La Niña”.</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">...What a pity.</speak>
+            <show chara="RolandBSKBark" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">Synchronized with the “Anchor”...?</speak>
+            <show chara="schroNoSwordTalkClose" position="right" opacity="0.8"/>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">Ah, our dear doctor. Among them, you must be the one who understands the weight of that sentence the most.</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">The “Ether Anchor” controls the world - If someone can synchronize with it, they will not only be unaffected by the laws of this world, but will even be able to use them to their advantage.</speak>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">In other words… We, the Son of God “La Niña”--</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">Have become the god of this world which you are oh so concerned about.</speak>
+            <show chara="RolandBSKBark" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraVNShockClose" position="right"/>
+            <speak chara="_ShigureKira">That… That’s not possible! No one has been able to manipulate even one thousandth of the “Anchor”’s information at the same time--</speak>
+            <show chara="ShigureKiraVNSeriousClose" position="right"/>
+            <speak chara="_ShigureKira">--What kind of bluff are you trying to use here?!</speak>
+            <show chara="ShigureKiraVNSeriousClose" position="right" opacity="0.8"/>
+            <show chara="RolandBSKSerious" position="left"/>
+            <speak chara="_laNina">Bluff? No, you are wrong, Miss Idol.</speak>
+            <show chara="RolandBSKSeriousTalk" position="left"/>
+            <speak chara="_laNina">“La Niña” is not only one person, but one thousand,  as well as a hundred thousand. You can’t begin to imagine what we can do.</speak>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">Rest assured, this is actually a good thing.</speak>
+            <show chara="RolandBSKSeriousTalk" position="left"/>
+            <speak chara="_laNina">What the Emperor did was kill the chicken to get the eggs, and the Republic’s cutting of the Bubble Universe was breaking the pot.</speak>
+            <show chara="RolandBSKDis" position="left"/>
+            <speak chara="_laNina">And only we, the Holy child chosen by fate, can keep this world alive for a long time, and let it have a “tomorrow” and an “after tomorrow”.</speak>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">As proof of that...</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">Yes, why don’t we copy a few of the people who just died in this world for you?</speak>
+            <show chara="RolandBSKBark" position="left" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="right"/>
+            <speak chara="_Bianka">What did you say--</speak>
+            <goto goto="320" change="0"/>
+        </scene>
+        <scene id="320" background="fortDarkHonkai.jpg">
+            <bgm src="x_BGM32_boss4.mp3" status="start"></bgm>
+            <text>Honkai Energy pours out from the body of “La Niña”.</text>
+            <text>But the scary thing is - most of that energy did not dissipate, but condensed into both familiar and unfamiliar figures.</text>
+            <goto goto="330" change="0"/>
+        </scene>
+        <scene id="330" background="fortControlRoomDark.jpg">
+            <bgm src="x_BGM32_boss4.mp3" status="continue"></bgm>
+            <show chara="darwinHonkai" position="center"/>
+            <speak chara="_DarwinError">……</speak>
+            <show chara="darwinHonkai" position="center" opacity="0.8"/>
+            <show chara="soldierDeLaVegaHonkai" position="left"/>
+            <speak chara="_soldierDeLaVegaError">……</speak>
+            <show chara="soldierGarcilasoHonkai" position="right"/>
+            <speak chara="_soldierGarcilasoError">……</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <hide position="center"></hide>
+            <show chara="RolandBSKNormal" position="left"/>
+            <speak chara="_laNina">Oh, it seems like something went wrong.</speak>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">Yes, how could I forget - These people’s minds were so delicious, that we already digested them. Now we can’t vomit them out anymore.</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">Whatever… The “Moving goodbye” did not happen here--</speak>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">--But if you were all eaten by us, couldn't everyone reunite in the same body?</speak>
+            <goto goto="340" change="0"/>
+        </scene>
+        <scene id="340" background="CG30-5.jpg">
+            <bgm src="x_BGM32_boss4.mp3" status="continue"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_Bianka">You’re crazy!</speak>
+            <speak chara="_laNina">Ah! Did you plan to win by relying on “Durandal”?</speak>
+            <goto goto="350" change="0"/>
+        </scene>
+        <scene id="350" background="CG30-6.jpg">
+            <bgm src="x_BGM32_boss4.mp3" status="continue"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_laNina">--And In front of the body of “Rowland”, did you want to teach a fish how to swim?</speak>
+            <speak chara="_Bianka">...The sword… Broke?</speak>
+            <speak chara="_laNina">Did you not notice until now? That the weakness of this sword is its “complete form” itself?</speak>
+            <speak chara="_laNina">Well, since your friends are less skilled, let’s get rid of you first...</speak>
+            <goto goto="360" change="0"/>
+        </scene>
+        <scene id="360" background="CG30-7.jpg">
+            <bgm src="x_Tarot.mp3" status="start"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_Rita">I won’t let you!</speak>
+            <show chara="iceFrozen" position="center"/>
+            <speak chara="_laNina">Hm? A freeze attack?</speak>
+            <speak chara="_laNina">What a joke--</speak>
+            <show chara="iceFrozen" position="back"/>
+            <speak chara="_laNina">————</speak>
+            <speak chara="_laNina">————————</speak>
+            <goto goto="370" change="0"/>
+        </scene>
+        <scene id="370" background="fortDarkHonkai.jpg">
+            <bgm src="x_Tarot.mp3" status="continue"></bgm>
+            <show chara="RolandBSKBark" position="center"/>
+            <shake position="all" time="250"></shake>
+            <speak chara="_laNina">--Did you hope that this power would work on us?</speak>
+            <goto goto="380" change="0"/>
+        </scene>
+        <scene id="380" background="fortDarkHonkaiRS.jpg">
+            <bgm src="x_Tarot.mp3" status="continue"></bgm>
+            <show chara="schroNoSwordTalkClose" position="center"/>
+            <speak chara="_Schrodinger">--We didn’t. Just like you just now, we bought her some precious time.</speak>
+            <show chara="schroNoSwordSmileClose" position="center"/>
+            <speak chara="_Schrodinger">Bianka! Use your will to move the gems of “Durandal”!</speak>
+            <show chara="schroNoSwordSmileClose" position="center"/>
+            <speak chara="_Schrodinger">You are its current owner, it will certainly respond to your will!</speak>
+            <show chara="schroNoSwordSmileClose" position="center" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">…Yes!</speak>
+            <goto goto="390" change="0"/>
+        </scene>
+        <scene id="390" background="m_CG27-2.jpg">
+            <bgm src="12_14_Hero.mp3" status="start"></bgm>
+            <speak chara="_Bianka"> (Rowland’s Holy Sword...)</speak>
+            <speak chara="_Bianka"> (If you agree to let me save her honor in this world...)</speak>
+            <speak chara="_Bianka"> (If you are willing to use my body to destroy the enemy…)</speak>
+            <speak chara="_Bianka"> (...Then respond to my heartfelt call, Immortal Blade!)</speak>
+            <goto goto="400" change="0"/>
+        </scene>
+        <scene id="400" background="white.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_laNina">Impossible--</speak>
+            <speak chara="_laNina">What is this?</speak>
+            <goto goto="410" change="0"/>
+        </scene>
+        <scene id="410" background="CG30-8.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <speak chara="_Bianka">It turns out… that’s how it is...</speak>
+            <speak chara="_Bianka">Used as a weapon, Soulium can replace the body of the Valkyrie to absorb, control, and release Honkai Energy...</speak>
+            <speak chara="_Bianka">But conversely, a Valkyrie can also use her body to temporarily do what Soulium does!</speak>
+            <speak chara="_Bianka">So, you who call yourself “La Niña”, the scum of this world...</speak>
+            <speak chara="_Bianka">This is the purification program that the Holy Sword prepared for you before we set off.</speak>
+            <goto goto="420" change="0"/>
+        </scene>
+        <scene id="420" background="white.jpg">
+            <bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_Bianka">--Take this!</speak>
+            <goto goto="430" clockwise="1"/>
+        </scene>
+        <scene id="430" background="fortControlRoomDark.jpg">
+            <bgm src="x_DLC_UI7.mp3" status="start"></bgm>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">--Rowland!</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraVNTalkClose" position="right"/>
+            <speak chara="_ShigureKira">Don’t panic, Bianka. The Honkai energy in her body was drained by you, she just passed out.</speak>
+            <show chara="ShigureKiraVNSadClose" position="right"/>
+            <speak chara="_ShigureKira">Besides that...</speak>
+            <show chara="ShigureKiraVNSadClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">Yes… The underlying problem is still there.</speak>
+            <show chara="schroNoSwordSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">Dr. Schrodinger... What does that mean…?</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">...Your - And the Holy Sword is no exception - perception of Honkai Energy is indeed not as sensitive as mine’s or Shigure Kira’s.</speak>
+            <show chara="schroNoSwordSmileClose" position="left"/>
+            <speak chara="_Schrodinger">The purification procedure just now has indeed “erased” the consciousness mixed in the Honkai Energy.</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">But the problem is that the Honkai Energy has been associated with the “Ether Anchor” - Even the Holy Sword can only push it deeper into the “Anchor Point”, rather than outside of the Bubble Universe.</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">...Just like how you can’t use washing powder to clean the water itself.</speak>
+            <show chara="schroNoSwordTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">So… What will happen next?</speak>
+            <show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">The Bubble Universe will have temporary peace. However, due to the corrosive effect of the freely running Honkai on the “Anchor Point”, it will likely disintegrate completely within three to five years.</speak>
+            <show chara="schroNoSwordTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">...disintegrate completely?</speak>
+            <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">Yes. The Bubble Universe will be broken into countless pieces and head to its own end.</speak>
+            <speak chara="_Schrodinger">This process started the moment that “La Niña” died.</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">In other words, this Bubble is slowly disintegrating as we speak.</speak>
+            <show chara="schroNoSwordTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="right"/>
+            <speak chara="_Bianka">--Ho- How can that be!</speak>
+            <bgm src="11_22_Tiger.mp3" status="start"></bgm>
+            <show chara="biankaDressBiteClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">You’re right. No one can accept this fate.</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">Fortunately, I can think of one solution...</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">...But the pros and cons weight the same, so I need your consent.</speak>
+            <show chara="schroNoSwordSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">It’s ok! No matter what you say, if it can completely save this world, I agree!</speak>
+            <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">Listen to me first.</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">The method I just came up with isn’t an ultimate solution to the problem. It is just a substitute for the plot of “La Niña”, but it will greatly delay the death of this world.</speak>
+            <show chara="schroNoSwordTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">And also.</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">Once this plan is up into action, everyone except the four of us will have to stay inside this dying Bubble Universe, whether they want it or not.</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">The space-time cracks of this world will be completely locked from the outside. We won’t be able to say goodbye to them, and we will have no chance to tell them of what happened here.</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">We will even lose the chance to repair the “Durandal”.</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">--But I assure you: This world will indeed gain precious breathing time.</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">Whether it’s me, Shigure Kira, your overseer Otto, or someone from “Anti-Entropy”, it is possible to use this time to find a permanent solution.</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">But… since this is the only way I can think of at the moment, from a decision making perspective, none of that is the deciding factor.</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">The deciding factor is that the fate of this world will depend on you alone from now on.</speak>
+            <show chara="schroNoSwordSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">Could it be that… You want me to...</speak>
+            <bgm src="01_04_Darken-4.mp3" status="start"></bgm>
+            <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSmileClose" position="left"/>
+            <speak chara="_Schrodinger">That’s right.</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">You will directly replace “La Niña” as “God”, and lock the survival of this Bubble Universe within yourself--</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">--As long as you live, this world will exist; But on the contrary, the process of disintegration will start once again when you die.</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">I had never expected it… But you behaved better as Durandal’s gem container than the original Soulium body.</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">In this way, although we won’t be able to completely separate the Honkai Energy left by “La Niña” in the “Ether Anchor”--</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">--We can use the gems of “Durandal” to seal the entire “Anchor”, alongside the Bubble Universe itself and the Honkai Energy, inside your body.</speak>
+            <show chara="schroNoSwordTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressScreamClose" position="right"/>
+            <speak chara="_Bianka">...What? Inside my body? Literally?</speak>
+            <show chara="biankaDressScreamClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSmileClose" position="left"/>
+            <speak chara="_Schrodinger">Exactly what I said. Just like how you used your own body to replace “Durandal”’s sword body.</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">Just like how a geometric “inversion” can replace an object from outside the circle inside of the circle--</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">--Using Durandal’s energy manipulation tech, we can treat you as the circle and “invert” the Bubble Universe outside you to inside you.</speak>
+            <show chara="schroNoSwordSmileClose" position="left"/>
+            <speak chara="_Schrodinger">After the “inversion” takes effect, you can use the Genius to return to Schicksal headquarters as normal.</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">And the Bubble Universe...</speak>
+            <speak chara="_Schrodinger">Yes, from a philosophical perspective--</speak>
+            <show chara="schroNoSwordSmileClose" position="left"/>
+            <speak chara="_Schrodinger">--Will become your personal “Little universe”.</speak>
+            <show chara="schroNoSwordSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">Of course, for you personally, it won’t just be a mental burden: You are a Valkyrie, so this may make some people from Schicksal want to conduct human experiments on you.</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">...But as I said earlier, this is the only way I can think of right now.</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">Perhaps we can find another way if we sit down and research...</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">But at that time, as the “Anchor” will be more eroded and destroyed, we might lose the chance to “Invert” the Bubble with “Durandal”’s gems like we have now.</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">Using my “smell” of Honkai Energy to estimate… We still have a week or so until we have to decide on whether we will do the “Inversion” or not</speak>
+            <bgm src="11_22_Tiger.mp3" status="start"></bgm>
+            <show chara="schroNoSwordTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">...Doctor, I've heard enough.</speak>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">You just need to tell me how I can grasp this “life-saving straw” and save the world.</speak>
+            <show chara="biankaDressSorrowClose" position="right"/>
+            <speak chara="_Bianka">I like a lot of people in this world. Some even gave up their lives for its future.</speak>
+            <show chara="biankaDressAngryClose" position="right"/>
+            <speak chara="_Bianka">No matter what, I don’t want to let this world end with death. Now that our journey brought us here, we must help them protect it to the end.</speak>
+            <show chara="biankaDressAngryClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSmileClose" position="left"/>
+            <speak chara="_Schrodinger">...Bianka, you are the bravest person I have ever met.</speak>
+            <show chara="ShigureKiraVNShockClose" position="left"/>
+            <speak chara="_ShigureKira">But… How can you do it so easily… How can you decide the future of your life in one go? Won’t you shoulder the responsibility of the whole world!?</speak>
+            <show chara="ShigureKiraVNShockClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">...Senpai, hasn’t the life of a Valkyrie always been like that?</speak>
+            <show chara="biankaDressAngryClose" position="right"/>
+            <speak chara="_Bianka">We are warriors, people who can die at any time, and people who will always bear the fate of everyone's lives.</speak>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">We had no intention of ignoring the destruction in front of us from the beginning.</speak>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">In fact, since then, we had already decided what our life would be like.</speak>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">If anyone hesitates about this...</speak>
+            <show chara="biankaDressHateClose" position="right"/>
+            <speak chara="_Bianka">Then they haven’t carefully thought about--</speak>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">--What it means to be a Valkyrie who fights for all that’s beautiful in this world.</speak>
+            <show chara="biankaDressSmileClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraVNTalkClose" position="left"/>
+            <speak chara="_ShigureKira">……</speak>
+            <goto goto="440" change="#ffffff"/>
+        </scene>
+        <scene id="440" background="CG13-1.jpg">
+            <bgm src="12_14_Hero.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="center" opacity="1.0"/>
+            <speak chara="_Bianka">For the people that I like,</speak>
+            <goto goto="450" change="0"/>
+        </scene>
+        <scene id="450" background="CG10-2.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="1.0"/>
+            <speak chara="_Bianka">And for the people that they like,</speak>
+            <goto goto="460" change="0"/>
+        </scene>
+        <scene id="460" background="CG24-1.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="1.0"/>
+            <speak chara="_Bianka">For everyone who make “people”,  be “people”--</speak>
+            <goto goto="470" change="0"/>
+        </scene>
+        <scene id="470" background="CG21-1.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="1.0"/>
+            <speak chara="_Bianka">--They have moved me, and I’m willing to dedicate everything I have to protect them.</speak>
+            <goto goto="480" change="0"/>
+        </scene>
+        <scene id="480" background="m_CG11-1.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <speak chara="_Bianka">Holy Sword! If you are still conscious, if you still feel like I am a master worthy of your trust--</speak>
+            <speak chara="_Bianka">--Go beyond your limits with me!</speak>
+            <goto goto="490" change="#ffffff"/>
+        </scene>
+        <scene id="490" background="CG30-9-1.jpg">
+            <bgm src="x_Lighting.mp3" status="start"></bgm>
+            <speak chara="_Rita">The shining armor that suddenly covered her whole body… Did Bianka-sama and the Holy Sword achieve a deeper fusion?</speak>
+            <speak chara="_ShigureKira">The space has begun to distort! Is the thing behind her… a black hole?!</speak>
+            <speak chara="_Schrodinger">No, that should be called a “horizon” - A black hole is just one way to produce them.</speak>
+            <speak chara="_Schrodinger">It seems that the “Immortal Blade” understands what I meant by “inversion”.</speak>
+            <speak chara="_ShigureKira">Invert the whole world… Do you mean to store the whole world in a “point” with no volume?</speak>
+            <speak chara="_Schrodinger">The size of the Bubble Universe itself is pretty small. Bianka and “Durandal” can do this.</speak>
+            <speak chara="_Schrodinger">Miss Rita, prepare your “Genius”. Shigure Kira, wake up your “Niggurath”.</speak>
+            <speak chara="_Schrodinger">Rowland was originally a Star Whisperer born from the “Anchor”, no matter what we do, she would be forced back into the Bubble Universe.</speak>
+            <speak chara="_Schrodinger">Everyone… It’s time to say goodbye.</speak>
+            <speak chara="_Bianka">Doc...</speak>
+            <speak chara="_Rita">Bianka-sama? You don’t have to force yourself to speak--</speak>
+            <goto goto="500" change="0"/>
+        </scene>
+        <scene id="500" background="CG30-9-2.jpg">
+            <bgm src="x_Lighting.mp3" status="continue"></bgm>
+            <speak chara="_Bianka">It’s alright...</speak>
+            <speak chara="_Bianka">I’m getting… more and more used to it...</speak>
+            <speak chara="_Bianka">I can feel… The sky and the earth inside my body.</speak>
+            <speak chara="_Bianka">Someone is welcoming a brand new blue sky… someone is hugging their friends...</speak>
+            <speak chara="_Bianka">...I will cherish all of them.</speak>
+            <goto goto="510" change="0"/>
+        </scene>
+        <scene id="510" background="CG30-9-1.jpg">
+            <bgm src="x_Lighting.mp3" status="continue"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_Bianka">--Rita, now! Start the “Genius”!</speak>
+            <speak chara="_Bianka">The “Inversion” will end soon, and we will be forced into the void of the Sea of Quanta!</speak>
+            <goto goto="520" change="0"/>
+        </scene>
+        <scene id="520" background="white.jpg">
+            <bgm src="x_Lighting.mp3" status="continue"></bgm>
+            <speak chara="_Rita">Yes! Bianka-sama!</speak>
+            <end post="U2FsdGVkX1+Uikg4fnAgehPgXIiy"/>
+        </scene>
+    </story>
+</data>

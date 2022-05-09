@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="commandCenterHuaca.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text>Seven years ago-</text>
+            <show chara="DraculaThinkClose" position="left"/>
+            <speak chara="_Dracula">Miss Deputy Minister, please explain the current situation to everyone.</speak>
+            <show chara="DraculaThinkClose" position="left" opacity="0.8"/>
+            <show chara="thorNormalClose" position="right"/>
+            <speak chara="_Thoreau">Very well.</speak>
+            <show chara="thorAngryClose" position="right"/>
+            <speak chara="_Thoreau">Early this morning, the automated routine monitoring noticed an abnormal concentration of Honkai Energy on Rapa Nui island.</speak>
+            <show chara="thorAngryClose" position="right"/>
+            <speak chara="_Thoreau">And at the same time, there was an abnormal depletion of Honkai Energy in the center of the Anchor Point, where we are now - It appears to be a rare case of “Anchor Capillary Blockage”.</speak>
+            <show chara="thorAngryClose" position="right" opacity="0.8"/>
+            <show chara="DraculaSeriousClose" position="left"/>
+            <speak chara="_Dracula">……</speak>
+            <show chara="DraculaSeriousClose" position="left"/>
+            <speak chara="_Dracula">What do you think, Yuki?</speak>
+            <show chara="DraculaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="yukimuraTalkClose" position="right"/>
+            <speak chara="_Yukimura">The island is just an abandoned resort, so it’s unlikely any human casualty will occur from the gathering of Honkai Energy.</speak>
+            <show chara="yukimuraColdClose" position="right"/>
+            <speak chara="_Yukimura">However, the depletion of Honkai Energy means that it’s likely there is a group of capillary channels connecting the island and the Anchor Point center.</speak>
+            <show chara="yukimuraSeriousClose" position="right"/>
+            <speak chara="_Yukimura">If left unattended and the Honkai “dam” suddenly breaks, it would cause devastating damage to the Anchor Point center.</speak>
+            <show chara="yukimuraTalkClose" position="right"/>
+            <speak chara="_Yukimura">In the worst case, it would be a tsunami of Honkai - But of course, it’s not so urgent that it would happen in just a couple of hours.</speak>
+            <show chara="yukimuraTalkClose" position="right" opacity="0.8"/>
+            <show chara="thorNormalClose" position="left"/>
+            <speak chara="_Thoreau">...So going by Chief of Staff Sanda’s suggestions, will it be fine if we send 300 people to solve this matter?</speak>
+            <show chara="thorNormalClose" position="left" opacity="0.8"/>
+            <show chara="DraculaQuestionClose" position="right"/>
+            <speak chara="_Dracula">300 people? Is that really necessary?</speak>
+            <show chara="DraculaQuestionClose" position="right" opacity="0.8"/>
+            <show chara="thorNormalClose" position="left"/>
+            <speak chara="_Thoreau">Parting from Caldera using a steamboat, it would take 5 days at the fastest to reach Rapa Nui.</speak>
+            <show chara="thorSighClose" position="left"/>
+            <speak chara="_Thoreau">Today it only takes three people to solve the issue. Five days later we suddenly will need 30, and ten days later we will need to send 300 -- That’s how it goes.</speak>
+            <show chara="thorNormalClose" position="left"/>
+            <speak chara="_Thoreau">And considering travel time and possible bad weather, I think it will be appropriate to send a team of 300 right away.</speak>
+            <show chara="thorAngryClose" position="left"/>
+            <speak chara="_Thoreau">...This operation might face unexpected problems.</speak>
+            <show chara="thorAngryClose" position="left" opacity="0.8"/>
+            <show chara="yukimuraColdClose" position="right"/>
+            <speak chara="_Yukimura">About that -- Please let me lead the team in this operation.</speak>
+            <show chara="yukimuraColdClose" position="right" opacity="0.8"/>
+            <show chara="DraculaQuestionClose" position="left"/>
+            <speak chara="_Dracula">...Why?</speak>
+            <show chara="DraculaThinkClose" position="left"/>
+            <speak chara="_Dracula">You are one of the designers of the Anchor Defense System. We shouldn't allow you to take risks personally.</speak>
+            <show chara="DraculaThinkClose" position="left" opacity="0.8"/>
+            <show chara="yukimuraSmileClose" position="right"/>
+            <speak chara="_Yukimura">It’s precisely because I’m familiar with the structure and performance of the Defense System that I will be able to react to any sudden change and make the right decision.</speak>
+            <show chara="yukimuraTalkClose" position="right"/>
+            <speak chara="_Yukimura">Besides, no one in this world has experience with Anchor Capillary Blockage. To minimize damage you should let a Star Whisperer who is both used to Anchors and the battlefield lead this expedition.</speak>
+            <show chara="yukimuraSmileClose" position="right"/>
+            <speak chara="_Yukimura">...This is also a good opportunity to repay you all for taking care of me.</speak>
+            <show chara="yukimuraSmileClose" position="right" opacity="0.8"/>
+            <show chara="thorNormalClose" position="left"/>
+            <speak chara="_Thoreau">……</speak>
+            <show chara="thorNormalClose" position="left" opacity="0.8"/>
+            <show chara="yukimuraSmileClose" position="right"/>
+            <speak chara="_Yukimura">But just to be safe, Commander, I want to borrow something from you.</speak>
+            <show chara="yukimuraSmileClose" position="right" opacity="0.8"/>
+            <show chara="DraculaQuestionClose" position="left"/>
+            <speak chara="_Dracula">……？</speak>
+            <goto goto="20" clockwise="1"/>
+        </scene>
+        <scene id="20" background="moaiEasterIsland.jpg">
+            <bgm src="noise.mp3" status="start"></bgm>
+            <show chara="caravaColdClose" position="left"/>
+            <speak chara="_Caravaggio">Sanada borrowed our “Gem of Prosperity” from the equipment department - Now that I think about it, she probably was prepared for the worse from the start.</speak>
+            <show chara="caravaColdClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">...Why is she like this?</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="caravaDisgustedClose" position="left"/>
+            <speak chara="_Caravaggio">I don’t know. At the time, the concentration of Honkai Energy was much higher than we could ever imagine.</speak>
+            <show chara="caravaFocusClose" position="left"/>
+            <speak chara="_Caravaggio">I have no idea what this gal did. By the time I realized it the concentration of Honkai Energy had been greatly reduced and the passage from capillary to Anchor Point had been successfully bridged.</speak>
+            <show chara="caravaDisgustedClose" position="left"/>
+            <speak chara="_Caravaggio">And she was frozen like this - Most of her body had already been crystallized.</speak>
+            <show chara="caravaFocusClose" position="left"/>
+            <speak chara="_Caravaggio">Without the vitality from the “Gem of Prosperity”, she wouldn’t even be alive.</speak>
+            <show chara="caravaSurpriseClose" position="left"/>
+            <speak chara="_Caravaggio">...Ever seen freezing rain? Sometimes the whole tree gets encased in ice.</speak>
+            <show chara="caravaFocusClose" position="left"/>
+            <speak chara="_Caravaggio">Whenever I see the Honkai Energy crystalizing in her body, I think of that.</speak>
+            <show chara="caravaSurpriseClose" position="left"/>
+            <speak chara="_Caravaggio">Apparently the Star Whisperer’s body works like a container of Honkai Energy.</speak>
+            <show chara="caravaFocusClose" position="left"/>
+            <speak chara="_Caravaggio" remark="next">Crystalized Honkai Energy is hard to dissipate and it’s as stable as nitroglycerin explosives without diatomaceous earth.</speak>
+            <remark post="U2FsdGVkX19F48nvbMaxcMojdPXv">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">硝酸甘油（Nitroglycerin, CHNO3(CH2NO3)2）是一种爆炸能力极强的炸药。1847年由都灵大学的化学家索布雷洛（Ascanio Sobrero）发明。</p>
+                <p class="article-text">高纯度硝酸甘油作为炸药虽然威力巨大却过于易爆（连运输途中的颠簸都可能导致其突然爆炸），这极大限制了它在实际生产与军事中的应用——直到索布雷洛的学生诺贝尔在1866年发明了用硅藻土稳定硝酸甘油的“安全炸药”（Dynamite）为止。</p>
+            </remark>
+            <show chara="caravaFocusClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">But even then… Why did you leave her here?</speak>
+            <show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
+            <show chara="caravaDisgustedClose" position="left"/>
+            <speak chara="_Caravaggio">And what can we do? Although her whole body is crystalized, she is not much different from a vegetative human - She is still alive.</speak>
+            <show chara="caravaSurpriseClose" position="left"/>
+            <speak chara="_Caravaggio">So if when she is touched she falls and breaks down into a pile of rocks, would it have been worth moving her?</speak>
+            <show chara="caravaSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHateClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressHateClose" position="right" opacity="0.8"/>
+            <show chara="caravaDisgustedClose" position="left"/>
+            <speak chara="_Caravaggio">But it has already been seven years… That question no longer matters. What matters now is--</speak>
+            <show chara="caravaColdClose" position="left"/>
+            <speak chara="_Caravaggio">Be it you, the country or the world - Everyone is in need of the gem this gal holds, right?</speak>
+            <show chara="caravaColdClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">That’s right… But--</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <text>Before the Valkyrie even finished speaking, the painter in indegenous clothing was already walking up to the crystalized samurai.</text>
+            <text>She silently raised her club.</text>
+            <speak chara="_Bianka">Hey… Hey! What do you think you’re doing!</speak>
+            <text>The painter did not respond.</text>
+            <text>As though she hadn’t heard anything, she swung her club with all her might.</text>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background=".jpg">
+            <bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_Bianka">Stop!</speak>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="CG25-1.jpg">
+            <bgm src="noise.mp3" status="start"></bgm>
+            <speak chara="_Bianka">Have you gone crazy?!</speak>
+            <speak chara="_Bianka">Isn’t that person still alive?!</speak>
+            <speak chara="_Caravaggio">Geez.</speak>
+            <speak chara="_Caravaggio">I really don’t understand you people.</speak>
+            <speak chara="_Bianka">...What?</speak>
+            <speak chara="_Caravaggio">Didn’t you come here for the gem?</speak>
+            <speak chara="_Caravaggio">Now the gem is in her body. Isn’t smashing the crystal the only way to take it out?</speak>
+            <speak chara="_Bianka">Of course not!</speak>
+            <speak chara="_Caravaggio">Alright then, why don’t you tell me this other method?!</speak>
+            <speak chara="_Bianka">……</speak>
+            <speak chara="_Caravaggio">If you don’t have one, let me go!</speak>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="moaiEasterIsland.jpg">
+            <bgm src="bigTask.mp3" status="start"></bgm>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">...Hold on.</speak>
+            <show chara="schroTalkClose" position="left" opacity="0.8"/>
+            <show chara="caravaColdClose" position="right"/>
+            <speak chara="_Caravaggio">……？</speak>
+            <show chara="biankaDressSmileAhClose" position="right"/>
+            <speak chara="_Bianka">Yes, tell us what to do, Dr. Schrodinger!</speak>
+            <show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">There is a way… But that method will have its own costs.</speak>
+            <show chara="schroSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">Doesn’t matter! Anything is fine as long as we don’t have to kill her!</speak>
+            <show chara="biankaDressSneerClose" position="right" opacity="0.8"/>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">...Calm down.</speak>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">In theory, we could reactivate and manipulate the Honkai Energy and have it leave the Star Whisperer’s body.</speak>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">--Now that we have the Gem of Dominance, that should be possible to do.</speak>
+            <show chara="schroTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">…Then let’s get to it!</speak>
+            <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">However, Honkai Energy can’t just disappear. Once reactivated, for everyone’s safety, we can’t allow it to wander freely.</speak>
+            <show chara="schroSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">You mean...</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">Yes. Given the performance limitations of “Durandal”, our only option would be to transfer the Honkai Energy to the body of the sword’s holder.</speak>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">Therefore, if the wielder’s Honkai Resistance turns out to be lower than the “Star Whisperer” Sanada Yukimura’s - Everything she’s done would have been for nothing.</speak>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">I know I can’t do it. But if it’s one of you Valkyries… Well, only you know how high your Resistance is.</speak>
+            <show chara="schroSeriousClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffThinkClose" position="right"/>
+            <speak chara="_ShigureKira">……</speak>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">…………</speak>
+            <show chara="biankaDressHateClose" position="right"/>
+            <speak chara="_Bianka">………………</speak>
+            <show chara="biankaDressNormalClose" position="right"/>
+            <speak chara="_Bianka">Dr. Schrodinger, I think I can do it.</speak>
+            <show chara="biankaDressNormalClose" position="right" opacity="0.8"/>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">...That’s not something you should say on the spur of the moment, miss Bianka.</speak>
+            <show chara="schroTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="right"/>
+            <speak chara="_Bianka">I know.</speak>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">A certain doctor once said something to me--</speak>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka"> “Bianka, your Honkai Resistance will increase every time you are exposed to Honkai Energy”</speak>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">“If you ever choose to become a Valkyrie, remember this:”</speak>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">“What can’t kill you, will make you stronger”</speak>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">Trust me, doctor. This amount of Honkai Energy isn’t enough to kill me.</speak>
+            <show chara="biankaDressSmileClose" position="right" opacity="0.8"/>
+            <show chara="schroSmileClose" position="left"/>
+            <speak chara="_Schrodinger">……</speak>
+            <show chara="ritaVestHesitateClose" position="left"/>
+            <speak chara="_Rita">Bianka-sama...</speak>
+            <show chara="ritaVestHesitateClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">It’s fine, Rita.</speak>
+            <show chara="biankaDressNormalClose" position="right"/>
+            <speak chara="_Bianka">I got exposed to this amount of Honkai Radiation in Agra Fort. For a whole night.</speak>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">It put me in a week-long coma...</speak>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">But this time it won’t take that long.</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="biankaDressSneerClose" position="center"/>
+            <speak chara="_Bianka">Let’s go, Dudu.</speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="CG25-2.jpg">
+            <bgm src="11_22_Tiger.mp3" status="start"></bgm>
+            <text>The girl stabbed the two-handed sword into the sandy ground.</text>
+            <text>The Honkai Energy crystals gradually melted away from the Samurai’s body, but the next moment, they formed terrible shockwaves around the girl.</text>
+            <text>But the girl’s will did not waver.</text>
+            <text>Valkyries, be it by birth or by modifications, are all fighters chosen to adapt to and manipulate Honkai Energy.</text>
+            <text>Although her blood was boiling and her consciousness fading--</text>
+            <text>Bianka Ataegina still held onto “Durandal”, and used her own blood and flesh to dissolve the waves of Honkai Energy.</text>
+            <text>And at the end of this storm...</text>
+            <text>Old memories lay, and began surfacing once again like a dream.</text>
+            <goto goto="70" change="#ffffff"/>
+        </scene>
+        <scene id="70" background="CG25-3.jpg">
+            <bgm src="11_16_themeOtto.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <speak chara="_OttoDr">Good morning.</speak>
+            <speak chara="_Bianka">G-Good morning...</speak>
+            <speak chara="_OttoDr">How are you? Getting used to hospital life?</speak>
+            <speak chara="_Bianka">...Hospitalization is like this. There’s no getting used to it.</speak>
+            <speak chara="_Bianka">Ah, right. I chose my first and last names. The form is on the head of the bed.</speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="bedSochi.jpg">
+            <bgm src="11_16_themeOtto.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <show chara="ottoDrTrickyClose" position="back"/>
+            <speak chara="_OttoDr">“Bianka Ataegina”...</speak>
+            <show chara="ottoDrNormalClose" position="back"/>
+            <speak chara="_OttoDr">Congratulations, from now on, you have your own name.</speak>
+            <speak chara="_Bianka">...Doctor, it’s still early morning. Did you come here for an exam?</speak>
+            <show chara="ottoDrFoolishSmileClose" position="back"/>
+            <speak chara="_OttoDr">Ah, no no. I just came here to see you.</speak>
+            <speak chara="_Bianka">...Looks like you have a lot of free time. Isn’t being a surgeon a job that kills you from overwork?</speak>
+            <show chara="ottoDrFoolishSmileClose" position="back"/>
+            <speak chara="_OttoDr">Haha, it must be because the departments of this hospital are very finely organized, right?</speak>
+            <show chara="ottoDrKindClose" position="back"/>
+            <speak chara="_OttoDr">Pediatric neurosurgery - You can tell by the name I don’t have many patients.</speak>
+            <speak chara="_Bianka">...I don't know much about doctors.</speak>
+            <speak chara="_Bianka">Anyway - When will I be allowed to get out of bed?</speak>
+            <speak chara="_Bianka">I don’t feel anything wrong with my body.</speak>
+            <show chara="ottoDrNormalClose" position="back"/>
+            <speak chara="_OttoDr">Well, it’s almost time anyway.</speak>
+            <show chara="ottoDrFoolishSmileClose" position="back"/>
+            <speak chara="_OttoDr">How about you go for a walk with me? If no problems come up, I will let you move freely tomorrow.</speak>
+            <speak chara="_Bianka">Really?</speak>
+            <show chara="ottoDrKindClose" position="back"/>
+            <speak chara="_OttoDr">Really.</speak>
+            <show chara="ottoDrTrickyClose" position="back"/>
+            <speak chara="_OttoDr">As the saying goes, “An apple a day keeps the doctor away”.</speak>
+            <show chara="ottoDrNormalClose" position="back"/>
+            <speak chara="_OttoDr">So how about leaving after eating this apple?</speak>
+            <goto goto="90" clockwise="1"/>
+        </scene>
+        <scene id="90" background="beachAzores.jpg">
+            <bgm src="seaAndSky.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <show chara="ottoDrFoolishSmileClose" position="back"/>
+            <speak chara="_OttoDr" remark="next">In ancient times this place was called “Colchis” - Yes, the same destination of the mythical “Argo”, and the place where Princess Medea helped Jason steal the Golden Fleece.</speak>
+            <remark post="U2FsdGVkX1+M8qDQSorPucbUeTiQ">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">科尔基斯（Κολχίς）位于高加索地区的黑海沿岸（分属今日的俄罗斯、格鲁吉亚、土耳其等国）；一般认为，这块狭长的滨海地带正是格鲁吉亚古老文化的起源地。</p>
+            </remark>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="ottoDrColdClose" position="back"/>
+            <speak chara="_OttoDr">Oh, it seems you don’t know this story.</speak>
+            <show chara="ottoDrKindClose" position="back"/>
+            <speak chara="_OttoDr">Putting it in simple terms, a magical princess fell in love with a prince who was a captain and helped him steal her country’s god-given treasure, the “Golden Fleece”. The prince and the princess married on the ship later.</speak>
+            <show chara="ottoDrTalkClose" position="back"/>
+            <speak chara="_OttoDr">--The real story starts after that.</speak>
+            <show chara="ottoDrColdClose" position="back"/>
+            <speak chara="_OttoDr">On the way back to the prince’s country on the “Argo”, the princess’s younger brother chased them down to regain the stolen treasure.</speak>
+            <speak chara="_OttoDr">And for the sake of the prince, the princess killed her brother without mercy.</speak>
+            <speak chara="_OttoDr">The prince returned to his home country with the Golden Fleece, but the usurper who promised to return the throne if he succeeded turned back on his word.</speak>
+            <speak chara="_OttoDr">The princess then used her specialty, magic, and tricked the usurper to enter a “Magical pot of rejuvenation”, causing him to die in the boiling water.</speak>
+            <show chara="ottoDrTalkClose" position="back"/>
+            <speak chara="_OttoDr">The princess did so much for the prince, but he ended up leaving her out of fear.</speak>
+            <show chara="ottoDrColdClose" position="back"/>
+            <speak chara="_OttoDr">In his eyes, the princess’s blood stained hands resembled that of a devil’s.</speak>
+            <speak chara="_OttoDr">In fact, the prince didn’t even expect his adventure to succeed - But when the princess did all of that for him without worrying about the cost, he felt panic, fear and even disgust.</speak>
+            <show chara="ottoDrTalkClose" position="back"/>
+            <speak chara="_OttoDr">But was the princess really in the wrong?</speak>
+            <show chara="ottoDrColdClose" position="back"/>
+            <speak chara="_OttoDr">A poison named “Love” had taken her soul, and all she could do was give her all to support the one she loved--</speak>
+            <speak chara="_OttoDr">--Even if she stains her hands with blood, even if she becomes an enemy of the world.</speak>
+            <speak chara="_OttoDr">Once love captured her soul… her life was destined to become a tragedy.</speak>
+            <speak chara="_OttoDr">...Of course, she is still happier than the vermin whose life-long love would never be reciprocated.</speak>
+            <show chara="ottoDrTalkClose" position="back"/>
+            <speak chara="_OttoDr">But in the end, she still killed her only proof of happiness - Her and the prince’s two children.</speak>
+            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">That’s a really scary fairy tale. Why did you want to tell it to me?</speak>
+            <show chara="ottoDrNormalClose" position="back"/>
+            <speak chara="_OttoDr">Because… One day you might meet someone similar.</speak>
+            <show chara="ottoDrColdClose" position="back"/>
+            <speak chara="_OttoDr">When the time comes...</speak>
+            <show chara="ottoDrTalkClose" position="back"/>
+            <speak chara="_OttoDr">...try not to take pity on the princess.</speak>
+            <show chara="ottoDrColdClose" position="back"/>
+            <speak chara="_OttoDr">She is already knee-deep in a bloody swamp - Even if she wanted to turn back it would be equally as difficult.</speak>
+            <speak chara="_Bianka">Could it be that… You have someone like that around you?</speak>
+            <show chara="ottoDrTrickyClose" position="back"/>
+            <speak chara="_OttoDr">God, the world would be a terrible place if that was the case.</speak>
+            <show chara="ottoDrKindClose" position="back"/>
+            <speak chara="_OttoDr">...Bianka.</speak>
+            <show chara="ottoDrColdClose" position="back"/>
+            <speak chara="_OttoDr">There are all kinds of people who would do all kinds of bad things for all kinds of reasons.</speak>
+            <show chara="ottoDrNormalClose" position="back"/>
+            <speak chara="_OttoDr">But please believe in one thing - That there are more kind hearted people than there are bad people.</speak>
+            <show chara="ottoDrTalkClose" position="back"/>
+            <speak chara="_OttoDr">Because if that wasn’t the case, then hundreds, thousands, tens of thousands of years ago, humanity would have wiped itself out.</speak>
+            <speak chara="_Bianka">……</speak>
+            <hide position="back"></hide>
+            <text>The blonde doctor turned to face the sea.</text>
+            <text>His mouth sang a poem the girl couldn’t understand.</text>
+            <speak chara="_OttoDr">“There is an island of graves, an island of silence; In there my youth is buried. I will return there with a evergreen wreath of life”</speak>
+            <speak chara="_OttoDr">“I made such a decision, took a boat and crossed the sea”</speak>
+            <speak chara="_OttoDr">“For me you will destroy all graves: As only where there are tombs can there be resurrection”</speak>
+            <end post="U2FsdGVkX18XUGkE4E5zBPLImNFI"/>
+        </scene>
+    </story>
+</data>

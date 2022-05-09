@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="11_15_gallery.jpg">
+            <bgm src="11_16_themeOtto.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <show chara="ottoSuitsConfident" position="back"/>
+            <speak chara="_OttoPapa">So, Rita, now that you’ve met Bianka, what do you think of her?</speak>
+            <speak chara="_Rita">...I think she’s a special type of person.</speak>
+            <show chara="ottoSuitsSad" position="back"/>
+            <speak chara="_OttoPapa">Explain.</speak>
+            <speak chara="_Rita">It’s just my intuition, but… She seems to be the type of person who cherishes the past, in spite of being so young.</speak>
+            <speak chara="_Rita">How do I put it, once she decides on something, she won’t easily change her thinking and methods.</speak>
+            <speak chara="_Rita">Many people in the world claim they can do the same, but...</speak>
+            <speak chara="_Rita">...But the truth is they have long changed their opinions.</speak>
+            <speak chara="_Rita">Because of that, I think that if Miss Bianka is properly cultivated, she will surely become a backbone of Schicksal in the future.</speak>
+            <show chara="ottoSuitsFun" position="back"/>
+            <speak chara="_OttoPapa">...But this Otto isn’t a leader suitable for that, right?</speak>
+            <speak chara="_Rita">Overseer, I didn’t know you could joke.</speak>
+            <show chara="ottoSuitsSad" position="back"/>
+            <speak chara="_OttoPapa">No, I’m not kidding.</speak>
+            <speak chara="_OttoPapa">An organization such as Schicksal isn’t suitable for the growth of middle-level personnel… After all, I always have the final say.</speak>
+            <show chara="ottoSuitsFun" position="back"/>
+            <speak chara="_OttoPapa">Of course, it has its own advantages, so I’m not changing it.</speak>
+            <show chara="ottoSuitsConfident" position="back"/>
+            <speak chara="_OttoPapa"> --Even then, I would like to make a soldier who will protect her in the future: Think you can do it?</speak>
+            <speak chara="_Rita">Overseer… you’re asking for... me?</speak>
+            <show chara="ottoSuitsConfident" position="back"/>
+            <speak chara="_OttoPapa">I think you’re the only person who can help me with that right now - Of course, among the qualified people.</speak>
+            <show chara="ottoSuitsSad" position="back"/>
+            <speak chara="_OttoPapa">Sooner or later, just like her predecessors, Bianka will realize that the Overseer is not the person she thought she knew - Rather, he is the exact opposite.</speak>
+            <show chara="ottoSuitsConfident" position="back"/>
+            <speak chara="_OttoPapa">Once that time comes, will she be able to remain calm enough… It’s up to you, Rita Rossweisse.</speak>
+            <goto goto="20" clockwise="1"/>
+        </scene>
+        <scene id="20" background="submarineDoctorRoom.jpg">
+            <bgm src="11_16_themeOtto.mp3" status="continue"></bgm>
+            <text>At first, I didn’t know what the Overseer was trying to tell me.</text>
+            <text>He gave me the profiles of many different people.</text>
+            <text>Eleanor, Octavia, Reanna, Theresa.</text>
+            <text>One rejected the title of S-Rank Valkyrie and left headquarters.</text>
+            <text>Another was unfortunate, she turned into a Honkai Beast in a radical experiment and had to be killed by her companion on the spot.</text>
+            <text>There was even one who betrayed the mandate of Schicksal and had her records erased after death.</text>
+            <text>And the last one… wasn’t even a Valkyrie.</text>
+            <text>It’s almost like when you enter Schicksal… Once you grow to the point you can help save the world by yourself, you will almost certainly have some kind of conflict with the organization itself.</text>
+            <text>The Overseer… What does he really want me to do…</text>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="CG26-1.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+            <speak chara="_Bianka">Hmm… Miss Ragna...</speak>
+            <speak chara="_Rita">(...Sleep-talking?)</speak>
+            <speak chara="_Bianka">I… in many ways… am different from them...</speak>
+            <speak chara="_Bianka">I don’t really care but...</speak>
+            <speak chara="_Bianka">People who envy me are starting to imitate me...</speak>
+            <speak chara="_Bianka">I can see… They are overdoing themselves...</speak>
+            <speak chara="_Bianka">It’s difficult… but to no avail...</speak>
+            <speak chara="_Rita">（……）</speak>
+            <speak chara="_Bianka">Teacher… I think Rita is very strong… How did she do it?</speak>
+            <speak chara="_Rita">（！）</speak>
+            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">I see...</speak>
+            <speak chara="_Bianka">The daily life of the strong… is the romance of the weak…?</speak>
+            <speak chara="_Bianka">Whether it be joy or pain… It's romance...</speak>
+            <speak chara="_Bianka">...But, there’s people who don’t like that type of “romance”, right? What do they do?</speak>
+            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">I agree.</speak>
+            <speak chara="_Bianka">You’re right… people who don’t pursue that romance can never become a Valkyrie...</speak>
+            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">Huh?</speak>
+            <speak chara="_Bianka">One day… in their own way… they’ll protect me?</speak>
+            <speak chara="_Rita">（……）</speak>
+            <goto goto="40" clockwise="1"/>
+        </scene>
+        <scene id="40" background="submarineCabinBlur.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="continue"></bgm>
+            <show chara="yukimuraTalkClose" position="left"/>
+            <speak chara="_Yukimura">Miss Rita, how is the situation…?</speak>
+            <show chara="yukimuraTalkClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">It’s all right now, she is sleeping very peacefully. Even had a little sleep talk.</speak>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">But Miss Yukimura… You haven’t closed your eyes all night, right? Even though “Star Whisperers” are physically strong, you should take care of the health you just recovered.</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="yukimuraColdClose" position="left"/>
+            <speak chara="_Yukimura">There is an ancient saying from Shenzhou that says “The grace of dripping water should be reciprocated with a gushing spring” - Not to mention the grace of life saving.</speak>
+            <show chara="yukimuraSmileClose" position="left"/>
+            <speak chara="_Yukimura">Besides, you haven’t slept yourself, have you?</speak>
+            <show chara="yukimuraSmileClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNaughtyClose" position="right"/>
+            <speak chara="_Rita">I am Bianka-sama’s adjudant, this is part of my work.</speak>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">I understand and am touched by Miss Yukimura’s desire to repay Bianka… But please take care of yourself.</speak>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">In a few hours Bianka-sama should be fully recovered - If you want a short rest until then, I can prepare some sleeping pills for you.</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="yukimuraTalkClose" position="left"/>
+            <speak chara="_Yukimura">……</speak>
+            <show chara="yukimuraSmileClose" position="left"/>
+            <speak chara="_Yukimura">Very well, then I will be respectful towards your wishes.</speak>
+            <goto goto="50" clockwise="1"/>
+        </scene>
+        <scene id="50" background="cafeAbyssAngel.jpg">
+            <bgm src="12_29_street.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text>Ragna-senpai once said that maids are invincible.</text>
+            <text>At first I thought it was a joke, perhaps a personal hobby…</text>
+            <text>But now, I feel as though I understand more what she meant by that.</text>
+            <text>It’s not that one becomes invincible when they become a maid, but rather that one must be in perfect condition to become a maid.</text>
+            <text>--Just like the saying “A mother is invincible”.</text>
+            <text>Without a constitution that allows me to stay awake for a day with only four hours of sleep, I wouldn’t be able to play this role well.</text>
+            <text>...For some reason I remembered a fragment of a book left between the archives of a Valkyrie.</text>
+            <text>It was cut from a novel, and the cut was neat and smooth.</text>
+            <text remark="next">"Anyway, I keep picturing all these little kids playing some game in this big field of rye and all.”</text>
+            <text remark="next">“Thousands of little kids, and nobody's around--nobody big, I mean--except me"</text>
+            <text remark="next">"And I'm standing on the edge of some crazy cliff. What I have to do, I have to catch everybody if they start to go over the cliff"</text>
+            <text remark="next">“--I mean if they're running and they don't look where they're going I have to come out from somewhere and catch them"</text>
+            <text remark="next">"That's all I'd do all day. I'd just be the catcher in the rye and all."</text>
+            <text remark="next">"I know it's crazy, but that's the only thing I'd really like to be"</text>
+            <remark post="U2FsdGVkX1837JTjrcOLdwgLDIYj">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">《麦田里的守望者》（The Catcher in the Rye），又译为《麦田捕手》，是美国作家J.D.塞林格于1951年发表的长篇小说。</p>
+                <p class="article-text">《麦田里的守望者》刚出版时，许多学校和图书馆将这本书列为禁书；但现在，它却是许多美国学校的指定读物。有的评论家说，它“大大地影响了好几代美国青年”。</p>
+            </remark>
+            <text>--And the owner of that page betrayed her destiny.</text>
+            <text>In the future, I will probably take a completely different path from the one she took...</text>
+            <text>...That doesn’t mean I don’t understand what she felt.</text>
+            <text>And although she was a traitor, she was a strong woman.</text>
+            <text>If she had lived up to the present day--</text>
+            <text>Then perhaps Bianka wouldn’t have been so lonely.</text>
+            <text>...No, for that kid, being alone doesn’t mean she is lonely.</text>
+            <text>What she needs is not a strength without match-</text>
+            <text>--What she needs is to “keep getting stronger”.</text>
+            <text>That’s the type of person she is.</text>
+            <text>……</text>
+            <goto goto="60" clockwise="1"/>
+        </scene>
+        <scene id="60" background="submarineDoctorRoom.jpg">
+            <bgm src="theme.mp3" status="start"></bgm>
+            <text>It seemed like I had a long dream.</text>
+            <text>It was broken, chaotic, like a revolving lantern… But I couldn’t remember the details.</text>
+            <text>The sun shined into the room through the porthole - This is probably the infirmary, and the crew is probably taking a lunch break.</text>
+            <text>Yes, it seems like my attempt was successful. That’s why we’re going back leisurely.</text>
+            <text>If anything had to be said to be off…</text>
+            <text>A miracle--</text>
+            <text>The quilt was still covering my body properly after waking up.</text>
+            <text>...Is that?</text>
+            <goto goto="70" change="#ffffff"/>
+        </scene>
+        <scene id="70" background="CG26-2.jpg">
+            <bgm src="theme.mp3" status="continue"></bgm>
+            <text>The moment I sat up from the bed, I understood where this little miracle came from.</text>
+            <text>...She was sleeping soundly on the end of my bed.</text>
+            <text>Unprotected, a face that both feels familiar and unfamiliar.</text>
+            <text>……</text>
+            <text>At first, to be honest, I just treated her like a freak.</text>
+            <text>I don’t know what Otto was planning. This is such an important task, but the adjutant he gave me is one as far from “serious” as one can be.</text>
+            <text>Eventually, I realized she has her own type of resolve... She seemed to value the “person” Bianka more than the mission itself.</text>
+            <text>Although that’s the type of job an adjutant usually has…</text>
+            <text>But she saved me, she saved everyone - Even if it was planned in advance and just kept in secret from me.</text>
+            <text>……</text>
+            <text>Weird, why would I think about this stuff?</text>
+            <text>Isn’t it just her job?</text>
+            <text>I don’t actually need to know who she is, nor what her goals are…</text>
+            <text>But--</text>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="submarineDoctorRoom.jpg">
+            <bgm src="10_10_kalinka.mp3" status="start"></bgm>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="left"/>
+            <speak chara="_ShigureKira">Sorry, coming in--</speak>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">(Shhh)</speak>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">(Let her sleep for a little longer.)</speak>
+            <show chara="biankaDressSmileAhClose" position="right"/>
+            <speak chara="_Bianka">(Let’s talk outside.)</speak>
+            <goto goto="90" change="#ffffff"/>
+        </scene>
+        <scene id="90" background="submarineCabinBlurSunset.jpg">
+            <bgm src="10_10_kalinka.mp3" status="continue"></bgm>
+            <show chara="ShigureKiraSunGlassesOffSunshineClose" position="left"/>
+            <speak chara="_ShigureKira">Finally, I’m so glad you woke up!</speak>
+            <speak chara="_ShigureKira">Do you feel anything wrong?</speak>
+            <speak chara="_ShigureKira">Can you remember who we are?</speak>
+            <show chara="ShigureKiraSunGlassesOffSunshineClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">Well...</speak>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">Rather than feeling discomfort, I kinda feel even more energetic?</speak>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">But what happened to the samurai? Is she alright?</speak>
+            <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="left"/>
+            <speak chara="_ShigureKira">She’s fine. She took some sleeping pills and is resting in the sailor’s room.</speak>、
+            <show chara="ShigureKiraSunGlassesOffTalkingClose" position="left"/>
+            <speak chara="_ShigureKira">She is very worried about you. She stayed awake outside your room all night last night - She even used sea water to perform Misogi for you.</speak>
+            <show chara="ShigureKiraSunGlassesOffTalkingClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">...And what’s that?</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffThinkClose" position="left"/>
+            <speak chara="_ShigureKira">It’s an ancient way of praying. You take off your clothes, splash yourself with ice-cold water and pray for someone.</speak>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="left"/>
+            <speak chara="_ShigureKira">Well, Star Whisperers can’t catch colds anyway, so no need to worry for her.</speak>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">Haha… Where’s the captain?</speak>
+            <show chara="biankaDressSmileClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="left"/>
+            <speak chara="_ShigureKira">She’s out on the bridge. Are you going to see her?</speak>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">Yes. The plan the Chairwoman brought up… I want to do it for this world.</speak>
+            <show chara="biankaDressSmileClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffShockClose" position="left"/>
+            <speak chara="_ShigureKira">…Don’t you need to think about it more? Won’t your life be at serious risk if you execute it?</speak>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="left"/>
+            <speak chara="_ShigureKira">Hey… You’re not confused by having just woken up, right?</speak>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="right"/>
+            <speak chara="_Bianka">...Of course not.</speak>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka"> Did you forget? Both Rita and I have the “Genius”.</speak>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">As long as the two worlds are close, we can return to our original anytime, anywhere.</speak>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka"> --Do you think there’s anyone more suitable to take that risk than us?</speak>
+            <show chara="biankaDressSmileAhClose" position="right"/>
+            <speak chara="_Bianka">Besides, the case from yesterday should have proven my Honkai Resistance, right?</speak>
+            <show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffThinkClose" position="left"/>
+            <speak chara="_ShigureKira">Did you… to prove it...</speak>
+            <show chara="ShigureKiraSunGlassesOffThinkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="left"/>
+            <speak chara="_ShigureKira">It’s nothing, I was just thinking about unrelated things.</speak>
+            <show chara="ShigureKiraSunGlassesOffConfidentClose" position="left"/>
+            <speak chara="_ShigureKira">(If she planned that far ahead she wouldn’t be Bianka, would she… fufu.)</speak>
+            <goto goto="100" clockwise="1"/>
+        </scene>
+        <scene id="100" background="seaWaveSunset.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">Yo, you’re here.</speak>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">Hahaha, figured it was you when I heard someone climbing up the ladders.</speak>
+            <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose" position="right"/>
+            <speak chara="_Bianka">Is the captain enjoying the scenery?</speak>
+            <show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">Yeah.</speak>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">...How about you? Did you come here to tell me you’re going to partake in the Chairwoman's plan?</speak>
+            <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka"> Eh? You… How did you find out?</speak>
+            <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">Well, I’m not 20 years older than you for nothing.</speak>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">Just before you got here I was remembering a book from that big library.</speak>
+            <speak chara="_Shakespeare">It started like this:</speak>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare" remark="next">“He was an  old man who fished alone in a skiff in the Gulf Stream and he had gone  eighty-four days now without taking a fish.”</speak>
+            <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose" position="right"/>
+            <speak chara="_Bianka" remark="next">…”A man can be destroyed but not defeated."</speak>
+            <remark post="U2FsdGVkX1+0S+Ev9NslvrDBBkgH">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">《老人与海》（The Old Man and the Sea），是海明威（Ernest Miller Hemingway）生前最后也是最重要的一部作品：用他自己的话说，是“他这辈子最好的作品”。</p>
+                <p class="article-text">p.s. 以下两段都是作者本人的总结，而它们【并不矛盾】——</p>
+                <p class="article-text">“象征主义是学究们的新花样。没有什么象征主义的东西。大海就是大海。老人就是老人。孩子就是孩子。鱼就是鱼。鲨鱼全是鲨鱼，不比别的鲨鱼好，也不比别的鲨鱼坏。人们说什么象征主义，全是胡说。”</p>
+                <p class="article-text">“我试着描写一个真正的老人，一个真正的男孩，一个真正的海，一条真正的鱼和真正的鲨鱼们。但如果我把它们写得够好够真实，它们就能象征着很多事情。”</p>
+            </remark>
+            <show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">Hahaha, you people from the future are really familiar with these works.</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="left"/>
+            <speak chara="_Shakespeare">But… If someone doesn’t know the experience of actually “fishing”, then for them, that phrase is just an excuse for self-deception.</speak>
+            <show chara="shakesCasualDislikeClose" position="left"/>
+            <speak chara="_Shakespeare"> Young people are the first to chant “Don’t be afraid of failure”... But unfortunately, they are also the first to give up half-way.</speak>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">--That’s why you’re an exception among exceptions. If everyone was as clear cut as you, the world would operate much more smoothly.</speak>
+            <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka"> But their “lack of perseverance” is also their way of freedom, isn’t it?</speak>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">I might not know how to do things half-heartedly...But I get that it’s a way of life that some people can enjoy.</speak>
+            <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualMercyClose" position="left"/>
+            <speak chara="_Shakespeare">“A woman was looking at the sea, when below the empty beer cans and dead barracudas she saw a huge, white spine.”</speak>
+            <speak chara="_Shakespeare">“It had a huge tailfin attached to it. Once the strong east wind continued to make waves outside the harbor, the tail would be swept away along with the tide.”</speak>
+            <speak chara="_Shakespeare">“‘What’s that?’ The woman asked a waiter and pointed to the long spine of the big fish. It was now more just waste waiting to be swept away.”</speak>
+            <speak chara="_Shakespeare">“‘Tiburon’, said the waiter, ‘Sorry, It means shark’. He wanted to explain the situation.”</speak>
+            <speak chara="_Shakespeare">“‘Oh, I never realized that a shark tail would be so beautiful and elegant.’”</speak>
+            <speak chara="_Shakespeare">“‘Neither did I’, said her male friend.”</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="left"/>
+            <speak chara="_Shakespeare">--A half-hearted person can’t see the shark. They will only see the meat on the plate and a bunch of garbage.</speak>
+            <show chara="shakesCasualDislikeClose" position="left"/>
+            <speak chara="_Shakespeare">Are you fine with it if they were just born destined to be that way?</speak>
+            <show chara="shakesCasualDislikeClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">I think I am.</speak>
+            <show chara="biankaDressSighClose" position="right"/>
+            <speak chara="_Bianka">You don’t think that everyone can be a fisherman, do you?</speak>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">Isn’t the purpose of a fisherman to bring good meat to the table while showing specimens, wreckages and videos for the people to imagine a big fish?</speak>
+            <show chara="biankaDressSneerClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">Hahahaha, but that’s not a real “fish” now, is it? They haven’t even seen one!</speak>
+            <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="right"/>
+            <speak chara="_Bianka">...That can’t be helped. After all, everyone has their own limit.</speak>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">Besides, while giving my all to achieve my goal, I must have missed plenty of beautiful scenes in other places, right?</speak>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">Although people often say that “A beautiful scenery awaits at the end of a difficult road”...</speak>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">...Everyone can only follow a route that they can travel by themselves, right?</speak>
+            <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualSeriousClose" position="left"/>
+            <speak chara="_Shakespeare">……</speak>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">Hahaha, you’re right.</speak>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">It’s just that there are a ton of pretentious people who will try to achieve things they can’t do at all.</speak>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">Sometimes they will succeed by a fluke; Most will unsurprisingly fail.</speak>
+            <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="right"/>
+            <speak chara="_Bianka">...Even then, just like that fisherman, at least they saw a real, moving fish, right?</speak>
+            <show chara="biankaDressNormalClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">Hahahaha! Very well said!</speak>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">Perhaps I was being arrogant. Indeed, no one can judge a hero based on success or failure.</speak>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">Even I have to respect my past.</speak>
+            <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">...Oh? Captain’s past? But aren’t you a world-class playwright?</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualEmbarrassedClose" position="left"/>
+            <speak chara="_Shakespeare">...Oh, I wasn’t talking about that.</speak>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">Soon we might have a chance to talk about it.</speak>
+            <show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">It’s nothing. For now think of it as...</speak>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">...“The old man was dreaming about the lions”!</speak>
+            <goto goto="110" clockwise="1"/>
+        </scene>
+        <scene id="110" background=".jpg">
+            <bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
+            <text>Early next morning. Satellite Control Center, Alexandria, Egypt--</text>
+            <goto goto="120" change="#ffffff"/>
+        </scene>
+        <scene id="120" background="satelliteControlCenter.jpg">
+            <bgm src="bigTask.mp3" status="start"></bgm>
+            <show chara="micheDrySmileClose" position="left"/>
+            <speak chara="_Michel">...Alright, everything is ready.</speak>
+            <show chara="micheDrySmileClose" position="left" opacity="0.8"/>
+            <show chara="shelleyBoredClose" position="right"/>
+            <speak chara="_Shelley"> Are you really going to do it?</speak>
+            <show chara="shelleyBoredClose" position="right" opacity="0.8"/>
+            <show chara="micheFocusClose" position="left"/>
+            <speak chara="_Michel">Of course. Since the mission of the “Curator” ends here, I can’t leave you with all the mess, right?</speak>
+            <show chara="micheArrogantClose" position="left"/>
+            <speak chara="_Michel">...This is the least I can do to make up for you.</speak>
+            <show chara="micheArrogantClose" position="left" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">You are too cruel to yourself, Curator.</speak>
+            <show chara="AliceSilentClose" position="right"/>
+            <speak chara="_Alice">……</speak>
+            <show chara="wattRelievedClose" position="right"/>
+            <speak chara="_Watt">But on the other hand, we can also help you, right?</speak>
+            <show chara="manfredSmileClose" position="right"/>
+            <speak chara="_Manfred">Yeah. According to you, this is being done to save the world.</speak>
+            <show chara="neithComplainClose" position="right"/>
+            <speak chara="_Neith">Or will you come up with an excuse for us to not help?</speak>
+            <show chara="neithComplainClose" position="right" opacity="0.8"/>
+            <show chara="micheArrogantClose" position="left"/>
+            <speak chara="_Michel">Fufu, of course not. Rather, I do want you to help me.</speak>
+            <show chara="micheDrySmileClose" position="left"/>
+            <speak chara="_Michel">Just make sure to not leave any evidence. In name, you are all my precious “hostages”.</speak>
+            <show chara="micheArrogantClose" position="left"/>
+            <speak chara="_Michel"> --Everyone, let’s make a bet without any precedents!</speak>
+            <end post="U2FsdGVkX19Jw9hQNH6qmTwkbqDR"/>
+        </scene>
+    </story>
+</data>

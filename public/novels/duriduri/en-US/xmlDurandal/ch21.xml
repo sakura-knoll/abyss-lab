@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="CG20-2.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+            <speak chara="_Roland">This is a memorial monument for unknown soldiers of the Republic.</speak>
+            <speak chara="_Roland">Every name engraved on them corresponds to a soldier whose body we could not recover…</speak>
+            <speak chara="_Roland">...And to Star Whisperers, who can’t leave a body behind.</speak>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="chileRiverMountain.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="continue"></bgm>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">Can’t leave a body behind? Is that true?</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="rolandNormalClose" position="right"/>
+            <speak chara="_Roland">Yes. When a Star Whisperer suffers a fatal injury, what makes up their bodies rapidly decays… and crumbles like sand.</speak>
+            <show chara="rolandNormalClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose" position="left"/>
+            <speak chara="_Rita">……</speak>
+            <show chara="ritaVestHesitateClose" position="left" opacity="0.8"/>
+            <show chara="rolandEmbarrassClose" position="right"/>
+            <speak chara="_Roland">Ahaha… seems like I let out something terrifying…</speak>
+            <show chara="rolandLaughClose" position="right"/>
+            <speak chara="_Roland">Don’t worry about it! Rather, it actually saves us some trouble, right? Hahaha…</speak>
+            <show chara="rolandLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="rolandSmileClose" position="right"/>
+            <speak chara="_Roland">Speaking of which - did you notice what I put on my shoulder?</speak>
+            <show chara="rolandSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka"> Is that… a military rank insignia?</speak>
+            <show chara="biankaDressNormalClose" position="left" opacity="0.8"/>
+            <show chara="rolandLaughClose" position="right"/>
+            <speak chara="_Roland">That’s right, it’s for the “Deputy Army Commander”. When going to the fortress I wear it in accordance with the regulations.</speak>
+            <show chara="rolandEmbarrassClose" position="right"/>
+            <speak chara="_Roland">But wearing this thing while in power armor… It’s ok for a while, but it can get really uncomfortable.</speak>
+            <show chara="rolandSmileClose" position="right"/>
+            <speak chara="_Roland">That’s why my soldiers and I usually take them out! Ahaha…</speak>
+            <show chara="rolandSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">About that…</speak>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">Speaking of the power armor, I’ve been wondering…</speak>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">Miss Rowland actually has Honkai resistance, wouldn’t it be better to not wear such heavy armor?</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="rolandSmileClose" position="right"/>
+            <speak chara="_Roland">Ah… in terms of agility, that would indeed be the case…</speak>
+            <show chara="rolandNormalClose" position="right"/>
+            <speak chara="_Roland">But personally - Since the other soldiers have to operate something so heavy every day, shouldn’t I as well?</speak>
+            <show chara="rolandSeriousClose" position="right"/>
+            <speak chara="_Roland">Without understanding the difficulties the soldiers experience it would be difficult for me to give accurate orders on a battlefield where mobility is needed.</speak>
+            <show chara="rolandNormalClose" position="right"/>
+            <speak chara="_Roland">...For as long as one serves as a military commander, a single command they give could determine the life and death of countless people.</speak>
+            <show chara="rolandSeriousClose" position="right"/>
+            <speak chara="_Roland">Every soldier must remember that.</speak>
+            <show chara="rolandSeriousClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="rolandEmbarrassClose" position="right"/>
+            <speak chara="_Roland">Ah… Why did it have to become a heavy topic again?</speak>
+            <show chara="rolandLaughClose" position="right"/>
+            <speak chara="_Roland">Let’s go! Across the valley - To tunnels and fortresses!</speak>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="railwayChileValley.jpg">
+            <bgm src="12_29_busyHarbor.mp3" status="start"></bgm>
+            <show chara="biankaDressSmileAhClose" position="left"/>
+            <speak chara="_Bianka">Is this… a railway? Are we going by train?</speak>
+            <show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
+            <show chara="rolandArmorSmileClose" position="right"/>
+            <speak chara="_Roland">Indeed. Be it soldiers or supplies, as long as it’s not an emergency, it will first be transported by rail.</speak>
+            <show chara="rolandArmorLaughClose" position="right"/>
+            <speak chara="_Roland">This is the main entrance to the tunnel, so it has more bandwidth.</speak>
+            <show chara="rolandArmorLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">Bandwidth? Like the internet?</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="rolandArmorSmileClose" position="right"/>
+            <speak chara="_Roland">Is it surprising? The capacity of data transfer should obviously be called bandwidth.</speak>
+            <show chara="rolandArmorEmbarrassClose" position="right"/>
+            <speak chara="_Roland">Ah… Did I not say it before? The reason that the Huaca Tunnel can connect to different places on the surface of the planet is because it can informatize matter and later materialize information.</speak>
+            <show chara="rolandArmorEmbarrassClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">Wait… That’s the same way the Genius works!</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="rolandArmorLaughClose" position="right"/>
+            <speak chara="_Roland">So is the technology that sent you here similar? In that case what you will experience next should feel very familiar!</speak>
+            <goto goto="40" clockwise="1"/>
+        </scene>
+        <scene id="40" background="railwayStationSaksaqWaman.jpg">
+            <bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">Wow, what an old station!</speak>
+            <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+            <show chara="rolandArmorEmbarrassClose" position="right"/>
+            <speak chara="_Roland">That’s because… this is a genuine ruin.</speak>
+            <show chara="rolandArmorSmileClose" position="right"/>
+            <speak chara="_Roland">The ancients who worshipped nature built these temples - The fact that they are still standing after a thousand years is proof of their devotion.</speak>
+            <show chara="rolandArmorLaughClose" position="right"/>
+            <speak chara="_Roland">Even soldiers coming by troop carriers have to get off at this station and transfer to an underground specialized line on the tunnel.</speak>
+            <show chara="rolandArmorSmileClose" position="right"/>
+            <speak chara="_Roland">Everyone, please wait a little bit while I deal with all the procedures.</speak>
+            <show chara="rolandArmorSmileClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">Oh, thank you!</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <text>The knight drove her power armor to a building that resembled a checkpoint. A nostalgic train whistle sounded in the distance.</text>
+            <text>The cool autumn breeze from high latitudes stroked Bianka’s hair, reminding her of the few days she spent in Arkhangelsk.</text>
+            <text article="1">
+                <p class="article-text">Архáнгельск - Spelled in the latin alphabet as Arkh-angel-sk, “City of Archangel”. This city from the Far North Branch is under charge of a D-class Valkyrie named “Misha”. Despite being only a clerk, she manages the entire state by herself with no problems.</p>
+            </text>
+            <text article="1">
+                <p class="article-text">Misha once said that if every branch of Schicksal was like hers, if everything was as simple as a Valkyrie accepting a mission and killing the honkai beasts, then the world would be beautiful. It would be a world where everyone is living in peaceful days.</p>
+            </text>
+            <text>The whistle from the train sounded closer. Probably coming to deliver new supplies and soldiers to the fortress.</text>
+            <text>Rowland came out of the building waving what seemed like a passport in her hand.</text>
+            <text>She seemed to have stored the power armor - It made her look small and pretty like Misha.</text>
+            <text>Bianka ran towards the one waving--</text>
+            <text>--Her heart praying for world peace</text>
+            <goto goto="50" clockwise="1"/>
+        </scene>
+        <scene id="50" background="railwayStationTunnel.jpg">
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <show chara="shakesCasualQuestionClose" position="left"/>
+            <speak chara="_Shakespeare">Phew… After climbing down such a long staircase, my knees are going to hurt.</speak>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">But is this the car we’ll take next? How should I say it… it’s kinda small?</speak>
+            <show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
+            <show chara="rolandEmbarrassClose" position="right"/>
+            <speak chara="_Roland">Ahaha, this is actually a modified traditional lightweight minecart.</speak>
+            <speak chara="_Roland">The cost of excavating the inside of the Huaca tunnel is quite high, so we chose the most lightweight design.</speak>
+            <show chara="rolandEmbarrassClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose" position="left"/>
+            <speak chara="_Bianka">Well, it should be fine if it’s only girls, right? Although it might be hard for the grandpa over there.</speak>
+            <show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">Hahaha, but look at those soldiers sitting down still wearing power armor! Compared to them, does it matter if we bow down a little?</speak>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">And what do you mean “It’s fine if it’s only girls”? If we stand together and compare, I'm the tallest of all of us, right? … Tch!</speak>
+            <show chara="champoSweatyClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="left"/>
+            <speak chara="_Bianka">But you are young! Did your spine become like a grandpa’s after too much desk work?</speak>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">No wonder you were the only one to catch a cold.</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">This is a rare opportunity, let’s get on right now!</speak>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">This reminds me of the Galleass oars - only this time we don’t need to contribute with muscle strength, hahahaha!</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">Wow, the paddle rooms? That’s the place where the stench of male hormones gather! So dramatic, so great!</speak>
+            <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">Hahaha, although there is a word that I don’t know even with the translation, I agree with you! Sweat is both one of the ugliest and most beautiful things in the world!</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">...It’s hard for ordinary people to understand the interests of a writer.</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">But if it was easy to understand, then wouldn’t the art have no depth?</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka" remark="next">Hmm… but people are so indulgent that they can hang an urinal upside down and claim it’s a work of art, right?</speak>
+            <remark post="U2FsdGVkX1+TtcIcw6vru39zAYww">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">《喷泉》（Fountain），是美籍法裔艺术家、达达主义大师马塞尔·杜尚（Henri-Robert-Marcel Duchamp，1887－1968）于1917年创作的作品。杜尚在《喷泉》这件作品中使用了在纽约第五大道118号的J·L·莫特铁工坊连锁店购买的贝德福郡型（Bedfordshire）陶瓷小便斗，将其倒立过来命名为“喷泉”，并用涂鸦字体署名“R. Mutt 1917”。</p>
+            </remark>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">Wait what? Do you still have such avant-garde works over there? I thought that “Waiting for Godot” was already the pinnacle of absurdity!</speak>
+            <show chara="shakesCasualLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">Hmm… Maybe it’s because there are so many people like that that there is no shortage of Honkai Energy in our world?</speak>
+            <show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">Hey, I was just kidding, lighten up a bit ok? Human society is meaningful because it’s so rich and colorful!</speak>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">If the people on the other side of the world had this kind of aesthetic spirit, there wouldn’t be a problem with an energy wall for us to solve!</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <text>Whether it was good or bad timing, just when Bianka was feeling the cultural shock, the train bell rang.</text>
+            <text>Right after boarding in with Rowland’s guidance, the engine roar overwhelmed everyone’s voices.</text>
+            <text>The concrete wall outside quickly receded and the train was swallowed by darkness.</text>
+            <text>And just when Bianka was wondering if there was nothing more to it--</text>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="trainWindowStrangeLight.jpg">
+            <bgm src="09_13_Sine.mp3" status="start"></bgm>
+            <text>--A beautiful light shone outside, catching the eyes of everyone visiting for the first time.</text>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="CG21-1.jpg">
+            <bgm src="09_13_Sine.mp3" status="continue"></bgm>
+            <speak chara="_Shakespeare">Wow! Is that the “spine” of this world?</speak>
+            <speak chara="_Bianka">So pretty…</speak>
+            <speak chara="_Roland">Isn’t it? It’s like “Galactic Railroad” has come to life!</speak>
+            <speak chara="_Roland" remark="next">Ah… do you know “Night on the Galactic Railroad”? It’s a fairytale said to not have been finished in the original world…</speak>
+            <remark post="U2FsdGVkX182b3s6B7lBgLF40mWY">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">《银河铁道之夜》是日本作家宫泽贤治（1896－1933）于1934年所出版的著名童话作品。因作者离世时全书仍处于草稿阶段，故作品现存4个版本，且不同版本间差异较大。尽管如此，由于作品充满唯美主义的奇思妙想，因此仍受到众多读者的喜爱——宫泽贤治本人更是在他去世多年之后被捧为日本的“国民级”作家。</p>
+            </remark>
+            <speak chara="_Bianka">Hmm… I think I have, but I’m not sure…</speak>
+            <speak chara="_Bianka">Then what about Rita?</speak>
+            <speak chara="_Rita">I have. The Milky Way Railroad is a soul train that connects the ground and the heavens… In our dreams, we would ride it among the stars with our best friends.</speak>
+            <speak chara="_Bianka">...Sounds like a sad story.</speak>
+            <speak chara="_Rita">Fairytales always seek the delicate balance between sadness and warmth.</speak>
+            <speak chara="_Rita">And… It is said that the author’s sister had just passed away when he began writing this story.</speak>
+            <speak chara="_Bianka">That’s…</speak>
+            <speak chara="_Bianka">I’m sorry. I should not have used the word “sad” to describe such brave work.</speak>
+            <speak chara="_Shakespeare">Hahaha, you Valkyries are always too serious. Because there is no journey in life that can be repeated, cherishing “Ichi-go ichi-e” is the simplest of the romances!</speak>
+            <speak chara="_Bianka">“Ichi-go ichi-e”?</speak>
+            <speak chara="_Rita">It means “One time, one meeting”.</speak>
+            <speak chara="_Miguel">Even if you meet with the same people in the future, be it yourself or them, you will not be the same as you were then.</speak>
+            <speak chara="_Shakespeare">But that’s not a bad thing, is it? What we call “romance” is so attractive because it can’t easily be replicated!</speak>
+            <speak chara="_Shakespeare">“Oh Romeo, Romeo! Wherefore art thou Romeo!”.</speak>
+            <speak chara="_Shakespeare">If you haven’t seen my play, this line won’t make you sad, right?</speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="CG21-1-2.jpg">
+            <bgm src="09_13_Sine.mp3" status="continue"></bgm>
+            <speak chara="_Bianka"> ...I don’t understand you at all.</speak>
+            <speak chara="_Rita">Rest assured, Bianka-sama. Even if my name becomes Brunhilde or Ortlinde, Rita will always be your loyal servant.</speak>
+            <speak chara="_Bianka">Hey...! Don’t make fun of your boss in public!</speak>
+            <goto goto="90" clockwise="1"/>
+        </scene>
+        <scene id="90" background="commandCenterHuaca.jpg">
+            <bgm src="theme.mp3" status="start"></bgm>
+            <show chara="DarwinFunnyClose" position="center"/>
+            <speak chara="_DarwinNoName">Oh, it seems you’re getting along with the Valkyries, Rowland.</speak>
+            <show chara="DarwinSmileClose" position="center"/>
+            <speak chara="_DarwinNoName">Let me introduce myself: I am the Minister of Defense of the Republic and the commander of this fortress - Anna Charles Darwin.</speak>
+            <show chara="DarwinFunnyClose" position="center"/>
+            <speak chara="_Darwin" remark="next">Everyone, let’s sit down and drink some mate tea together.</speak>
+            <remark post="U2FsdGVkX18o9bCa4l1P1Um8gxrF">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">马黛茶（yerba mate）一种传统的南美洲草本茶，富含咖啡因，成分是巴拉圭冬青干燥后的叶子。在阿根廷有“国茶”之称。</p>
+            </remark>
+            <hide position="center"></hide>
+            <text article="1">
+                <p class="article-text">--After getting off of the “Command Center” station and passing through several large gates with dedicated gatekeepers, Bianka and her party met the Minister of Defense, Darwin, who had been waiting for them.</p>
+                <br />
+                <p class="article-text">After her brief introduction, Rowland introduces Bianka and her group one by one.</p>
+            </text>
+            <text>Bianka really hated these kinds of formal greetings, but she waited until it was over.</text>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">Uh… can I ask a question now?</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="DarwinSmileClose" position="right"/>
+            <speak chara="_Darwin">Go ahead. What’s the matter?</speak>
+            <show chara="DarwinSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">Just now… you said your last name was Darwin, right? It wouldn’t be the one from “Origin of the Species”...</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="DarwinFunnyClose" position="right"/>
+            <speak chara="_Darwin">Oh, you mean my dad? Indeed, before I left that world he was planning on writing such a book.</speak>
+            <show chara="DarwinSmileClose" position="right"/>
+            <speak chara="_Darwin">I’m happy to learn that his book changed people’s worldview for the following century. </speak>
+            <show chara="DarwinSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose" position="left"/>
+            <speak chara="_Bianka">Oh… you’re his “daughter”?</speak>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">But in that case, wouldn’t the “Origin of the Species” you read be the work from a different world’s Professor Charles?</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="DarwinEmbarrassedClose" position="right"/>
+            <speak chara="_Darwin">Nope. As far as I’m aware, from all known worlds, there is only one Darwin who published “Origin of the Species”, married and had children, who is my father.</speak>
+            <show chara="DarwinEmbarrassedClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose" position="left"/>
+            <speak chara="_Bianka">Huh?</speak>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">Then just like the “High Priestess” of the Yucatan, you spent so long in the form of data in the Sea of Quanta that it resulted in an apparent time leap?</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="DarwinFunnyClose" position="right"/>
+            <speak chara="_Darwin">...It’s essentially different.</speak>
+            <show chara="DarwinFunnyClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka"> But… in your case we can’t use “Different Universes have different starting points and different flows of time” as an excuse!</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="DarwinEmbarrassedClose" position="right"/>
+            <speak chara="_Darwin">Because that’s not the case. And I’m not immortal like the “snake” you met.</speak>
+            <show chara="DarwinNormalClose" position="right"/>
+            <speak chara="_Darwin">The reason why there is a time contradiction in what I said is--</speak>
+            <show chara="DarwinSeriousClose" position="right"/>
+            <speak chara="_Darwin">I’m a Star Whisperer born from the death of someone. A mere copy.</speak>
+            <show chara="DarwinSeriousClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">“Born from death”? “Copy”? What are you talking about?</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="DarwinNormalClose" position="right"/>
+            <speak chara="_Darwin">The real “Anna Charles Darwin” died of illness at the age of 10.</speak>
+            <speak chara="_Darwin">The one standing in front of you is just an afterimage inherited from the Sea of Quanta.</speak>
+            <show chara="DarwinNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">……？！</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="DarwinSmileClose" position="right"/>
+            <speak chara="_Darwin">Don’t get me wrong, I’m not saying I’m a ghost or a spirit. This is just the result of applying the Ether Anchor’s ability of “copying the world” on “people”.</speak>
+            <show chara="DarwinNormalClose" position="right"/>
+            <speak chara="_Darwin">Be it the achievements of civilization or intelligent life, they are ultimately an amount of “Negentropy”. You can use the “Ether Anchor” as a “medium” to “balance” the "Negentropy".</speak>
+            <show chara="DarwinNormalClose" position="right" opacity="0.8"/>
+            <show chara="schroMemoryClose" position="left"/>
+            <speak chara="_Schrodinger">...And Negentropy and Imaginary Energy - That is, Honkai Energy - are associated with each other.</speak>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">In theory, we could indeed do the opposite: Use Honkai Energy under control to create new Negentropy.</speak>
+            <show chara="schroMemoryClose" position="left"/>
+            <speak chara="_Schrodinger">-That is the basic principle behind the “Selene”.</speak>
+            <show chara="schroMemoryClose" position="left" opacity="0.8"/>
+            <show chara="DarwinSmileClose" position="right"/>
+            <speak chara="_Darwin">Haha, as expected of Dr. Schrodinger, who proposed the theory behind Negentropy - You already seem to understand what I’m talking about.</speak>
+            <show chara="DarwinSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">Well, what are you talking about?</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="schroMemoryClose" position="right"/>
+            <speak chara="_Schrodinger">……</speak>
+            <show chara="schroTalkClose" position="right"/>
+            <speak chara="_Schrodinger">Valkyries, do you know the power of the “First Herrscher”?</speak>
+            <show chara="schroTalkClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">You mean the “Sovereign” of Anti-Entropy? He can copy all kinds of mechanical devices, Sacred Relics and even Divine Keys out of thin air, right?</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="schroSmileClose" position="right"/>
+            <speak chara="_Schrodinger"> A good summary, but if we’re being technical… he doesn’t make those copies out of “thin air”.</speak>
+            <show chara="schroTalkClose" position="right"/>
+            <speak chara="_Schrodinger"> On the contrary: By manipulating the Honkai Energy stored in his body he creates reason, making constructs out of something similar to “Negentropy”.</speak>
+            <show chara="schroSmileClose" position="right"/>
+            <speak chara="_Schrodinger">Generally speaking, Honkai Energy is almost impossible to control - but he is a herrscher, a superpower beyond human comprehension.</speak>
+            <show chara="schroTalkClose" position="right"/>
+            <speak chara="_Schrodinger">Miss Darwin… Your “Ether Anchor” has a similar power, but you can’t manipulate it as you wish, correct?</speak>
+            <show chara="schroTalkClose" position="right" opacity="0.8"/>
+            <show chara="DarwinEmbarrassedClose" position="left"/>
+            <speak chara="_Darwin">Hmm… To be more precise, the “Ether Anchor Point” can’t be controlled at all.</speak>
+            <show chara="DarwinNormalClose" position="left"/>
+            <speak chara="_Darwin">It, by itself, is “salvaging” information that can be restored from the Sea of Quanta - An ocean of data.</speak>
+            <show chara="DarwinSmileClose" position="left"/>
+            <speak chara="_Darwin">Those two Valkyries there must have gone through the experience of being informatized and later rematerialized.</speak>
+            <show chara="DarwinNormalClose" position="left"/>
+            <speak chara="_Darwin">- That is a specially targeted “salvage”.</speak>
+            <show chara="DarwinFunnyClose" position="left"/>
+            <speak chara="_Darwin">This type of “salvage” is always happening in the “present continuous”, therefore their souls and consciousness also remain the same - Even if they show up on the other side of the world, they are still themselves.</speak>
+            <show chara="DarwinNormalClose" position="left"/>
+            <speak chara="_Darwin">But the information of “Anna Charles Darwin” is already “past perfect”, the Ether Anchor just happened to read this vanishing data from the Sea of Quanta and restore it.</speak>
+            <show chara="DarwinSmileClose" position="left"/>
+            <speak chara="_Darwin">...That’s why I can be sure I’m just a copy of a historical figure.</speak>
+            <show chara="DarwinNormalClose" position="left"/>
+            <speak chara="_Darwin">Perhaps there is a more complex mechanism out there that can truly revive the dead - But this world’s “Anchor” can not.</speak>
+            <show chara="DarwinNormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSorrowClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">Thank you for being so honest, Miss Darwin.</speak>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">If you’re not holding back on all of these top secrets, would I be right to presume your “Republic” is in desperate need of help from our Caledonia?</speak>
+            <show chara="shakesCasualLaughClose" position="right" opacity="0.8"/>
+            <show chara="DraculaLaughClose" position="left"/>
+            <speak chara="_DraculaNoName">Hahahaha! Such a sharp tongue, as expected from the Red Captain of the Seven Seas! I just might fall for you at first sight!</speak>
+            <show chara="DraculaLaughClose" position="left" opacity="0.8"/>
+            <show chara="DarwinEmbarrassedClose" position="right"/>
+            <speak chara="_Darwin">Hey, Llona, don’t suddenly barge in and start making fun of our guests!</speak>
+            <show chara="DarwinEmbarrassedClose" position="right" opacity="0.8"/>
+            <show chara="DraculaFunnyClose" position="left"/>
+            <speak chara="_DraculaNoName">Humph, Anna is still so stingy even after becoming the Minister of Defense.</speak>
+            <show chara="DraculaSmileClose" position="left"/>
+            <speak chara="_DraculaNoName">My name is Llona Draculesti, Commander of the First Guard- But you can call me Dracula.</speak>
+            <show chara="DraculaNormalClose" position="left"/>
+            <speak chara="_Dracula">Unlike this beautiful but stingy girl next to me, I’m a Star Whisperer who doesn’t need the Ether Anchor to exist--</speak>
+            <show chara="DraculaSmileClose" position="left"/>
+            <speak chara="_Dracula">--In fact, I have been alive for over 500 years! What do you think, aren’t “vampires” strong?</speak>
+            <show chara="DraculaSmileClose" position="left" opacity="0.8"/>
+            <show chara="DarwinFunnyClose" position="right"/>
+            <speak chara="_Darwin">Let me translate: “After being adrift in the Sea of Quanta for over 500 years I no longer care whether I’m human or a monster, so don’t feel bad for me”.</speak>
+            <show chara="DarwinSmileClose" position="right"/>
+            <speak chara="_Darwin">Am I wrong, Llona?</speak>
+            <show chara="DarwinSmileClose" position="right" opacity="0.8"/>
+            <show chara="DraculaFunnyClose" position="left"/>
+            <speak chara="_Dracula">...Tch. You always ruin my perfect image.</speak>
+            <show chara="DraculaLaughClose" position="left"/>
+            <speak chara="_Dracula">Friends of Rowland, don’t you also think it’s hard to talk to Darwin?</speak>
+            <show chara="DraculaLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="right"/>
+            <speak chara="_Bianka">Uh… I think I prefer this straightforward style. It’s at least better than our Overseer, always speaking in riddles!</speak>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">...It feels weird to talk about him in this way, he did save my life after all.</speak>
+            <show chara="schroSeriousClose" position="right"/>
+            <speak chara="_Schrodinger">...Let’s leave the talk about the other world for later.</speak>
+            <show chara="schroCalmClose" position="right"/>
+            <speak chara="_Schrodinger">Everyone from the Inca Republic - Your only important military goal is to destroy the empire on the other side of the globe - Is that correct?</speak>
+            <show chara="schroCalmClose" position="right" opacity="0.8"/>
+            <show chara="DraculaFunnyClose" position="left"/>
+            <speak chara="_Dracula">Oh, are you the famous Dr. Schrodinger?</speak>
+            <show chara="DraculaSeriousClose" position="left"/>
+            <speak chara="_Dracula">That would be correct. The Republic itself only exists in order to deal with that “natural disaster”.</speak>
+            <show chara="DraculaFunnyClose" position="left"/>
+            <speak chara="_Dracula">...Although I haven’t done much lately.</speak>
+            <show chara="DraculaSmileClose" position="left"/>
+            <speak chara="_Dracula">Is the reason why you summed it up in such a way because there is now a method to “achieve that goal”?</speak>
+            <show chara="DraculaSmileClose" position="left" opacity="0.8"/>
+            <show chara="schroSmileClose" position="right"/>
+            <speak chara="_Schrodinger">Hehe, you might say that. But first I need to ask a seemingly irrelevant question…</speak>
+            <show chara="schroTalkClose" position="right"/>
+            <speak chara="_Schrodinger">Is there an “idol” working in the Republic?</speak>
+            <show chara="schroTalkClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka"> ...What?？</speak>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">Why would you ask that no--</speak>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">--Oh.</speak>
+            <show chara="biankaDressNormalClose" position="left" opacity="0.8"/>
+            <show chara="DraculaFunnyClose" position="right"/>
+            <speak chara="_Dracula">What do you mean? Do you know that “idol” in some way?</speak>
+            <show chara="DraculaFunnyClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">Simply put, we are trying to reassemble a long-lost powerful weapon.</speak>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">--And a part of that weapon might be in the hands of that “idol”.</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="DraculaLaughClose" position="right"/>
+            <speak chara="_Dracula">Hahahaha, you have to be joking, right?</speak>
+            <show chara="DarwinSeriousClose" position="right"/>
+            <speak chara="_Darwin">Miss Bianka, could you be talking about the gems that contain the power of the Holy Sword “Durandal”?</speak>
+            <show chara="DarwinSeriousClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">That’s right. Thanks to her connection with the gems, Dudu showed us some clues on where to search for--</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="durandalOutstretchOpen" position="right"/>
+            <speak chara="_SwordDurandalQ">--Coming! Bianka, it’s coming!</speak>
+            <show chara="durandalOutstretchOpen" position="right" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">Hey! Don’t interrupt me, you idiot! What is “coming”?</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="durandalOpen" position="right"/>
+            <speak chara="_SwordDurandalQ">It’s the golden “Gem of Love”!</speak>
+            <show chara="durandalOutstretchOpen" position="right"/>
+            <speak chara="_SwordDurandalQ">I suddenly felt it’s presence near here! Like it jumped through time and space!</speak>
+            <show chara="durandalOutstretchOpen" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">Huh?</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="champoQuestionClose" position="right"/>
+            <speak chara="_Champollion">Is that so?</speak>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">Maybe the person with the Gem used the “Huaca Tunnel”? It’s very much like a “Hyperspace jump”.</speak>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">Miss Darwin, is there a special event scheduled for today at the fortress?</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="DarwinNormalClose" position="left"/>
+            <speak chara="_Darwin">Today? There should be a live concert in an hour-</speak>
+            <show chara="DarwinEmbarrassedClose" position="left"/>
+            <speak chara="_Darwin">Wait, could “that” star be the “idol with a gem” you are looking for?!</speak>
+            <show chara="DarwinSeriousClose" position="left"/>
+            <speak chara="_Darwin">This hour… she should have just arrived!</speak>
+            <show chara="DarwinSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">“Star”?</speak>
+            <show chara="biankaDressScreamClose" position="right"/>
+            <speak chara="_Bianka">...Is she an energetic-looking girl with light blue hair in a ponytail?</speak>
+            <show chara="biankaDressScreamClose" position="right" opacity="0.8"/>
+            <show chara="DraculaFunnyClose" position="left"/>
+            <speak chara="_Dracula">Oh, so you do know her?</speak>
+            <show chara="DraculaFunnyClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">Ah… no, I mean--</speak>
+            <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+            <show chara="DraculaLaughClose" position="left"/>
+            <speak chara="_Dracula">Alright, alright, what are you still doing here? Hurry up and go to the venue!</speak>
+            <show chara="DraculaSmileClose" position="left"/>
+            <speak chara="_Dracula">You need to talk to her before the show, right? Go! Go! We can talk about plans after it’s over!</speak>
+            <show chara="DraculaSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressScreamClose" position="right"/>
+            <speak chara="_Bianka">Ah- don’t push me! I can walk by myself!</speak>
+            <goto goto="95" clockwise="1"/>
+        </scene>
+        <scene id="95" background="stageHuaca.jpg">
+            <bgm src="09_13_dannyBoy.mp3" status="start"></bgm>
+            <text>The auditorium of the fort was much quieter than expected, perhaps because the audience had yet to be allowed in.</text>
+            <text>Bianka was about to go straight to the backstage--</text>
+            <text>--But suddenly the accompaniment starts, and a girl in a cute dress begins her rehearsal.</text>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="stageHuacaCloseUp.jpg">
+            <bgm src="09_13_dannyBoy.mp3" status="continue"></bgm>
+            <show chara="ShigureKiraSingingCloseEyeFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">My voice ♬ Can you hear it ♪ </speak>
+            <show chara="ShigureKiraSingingLyricalFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">Your smile ♬ Is like the sunshine after the rain ♪</speak>
+            <show chara="ShigureKiraSingingPassionFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">An angel descending on earth  ♪</speak>
+            <show chara="ShigureKiraSingingPassionFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">A rainbow between the clouds  ♪</speak>
+            <show chara="ShigureKiraSingingCloseEyeFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">A gentle creature running around ♬</speak>
+            <show chara="ShigureKiraSingingCloseEyeFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">A poisonous rose sprouting ♬</speak>
+            <show chara="ShigureKiraSingingPassionFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">Because if you were there  ♪ I could've cherished my fate ♬</speak>
+            <show chara="ShigureKiraSingingPassionFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">Because if you were there  ♪ I could’ve been brave ♬</speak>
+            <show chara="ShigureKiraSingingLyricalFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">Our souls meet ♬</speak>
+            <show chara="ShigureKiraSingingPassionFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">I only wish we’ll no longer be apart  ♪</speak>
+            <show chara="ShigureKiraSingingCloseEyeFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">Our fingertips touch ♬</speak>
+            <show chara="ShigureKiraSingingLyricalFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">I only wish to not forget those moments  ♪</speak>
+            <end post="U2FsdGVkX18nlZmHoGxgv3pMXtlH"/>
+        </scene>
+    </story>
+</data>

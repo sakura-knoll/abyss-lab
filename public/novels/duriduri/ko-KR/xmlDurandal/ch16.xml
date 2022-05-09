@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <story>
+    <scene id="0" background="bg.jpg">
+	    <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+	    <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+	    <goto goto="10" change="#000000"/>
+    </scene>
+    <scene id="10" background="asteroidPalace.jpg">
+	    <bgm src="06_01_Tuluum.mp3" status="start"></bgm>
+	    <text>魂は蜜の味。</text>
+	    <text>ミツバチの小さな内臓に、彼らよりよほど巨大な植物の魂など入るはずもない——だから、ミツバチはそれをもっと甘いハチミツに変えた。</text>
+	    <text>……とはいえ、新鮮な花の蜜も味わい深いものである。</text>
+	    <goto goto="20" change="0"/>
+    </scene>
+    <scene id="20" background="CG15-1.jpg">
+	    <bgm src="06_01_Tuluum.mp3" status="continue"></bgm>
+	    <speak chara="_ZarathustraDaughter">さて、かわいい子たち、雅な大人たちよ——</speak>
+	    <speak chara="_ZarathustraDaughter">——誰から食べようか？</speak>
+	    <goto goto="30" change="0"/>
+    </scene>
+    <scene id="30" background="CG16-1-1.jpg">
+	    <bgm src="12_14_Hero.mp3" status="start"></bgm>
+	    <speak chara="_ZarathustraDaughter">？</speak>
+	    <speak chara="_Rita">ビアンカ様に……指一本……触れさせはしません……</speak>
+	    <speak chara="_ZarathustraDaughter">おや？麻酔ガスを大量に吸ったはずなのに、まだ立ち上がる気力が残っているの？</speak>
+	    <speak chara="_ZarathustraDaughter">でもまあ、そのようなふらふらの体では、「ビアンカ様」を助けることもままならないでしょうけど。</speak>
+	    <goto goto="40" change="0"/>
+    </scene>
+    <scene id="40" background="CG16-1-2.jpg">
+	    <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+	    <speak chara="_Rita">大司祭様は知らないでしょう……</speak>
+	    <speak chara="_Rita">十分に鋭利な武器には……</speak>
+	    <goto goto="50" change="0"/>
+    </scene>
+    <scene id="50" background="CG16-2-1.jpg">
+	    <bgm src="07_07_wind.mp3" status="start"></bgm>
+	    <speak chara="_Rita">……人を殺すのに、力などいりません。</speak>
+	    <goto goto="60" change="0"/>
+    </scene>
+    <scene id="60" background="CG16-2-2.jpg">
+	    <bgm src="02_22_amazingGrace.mp3" status="start"></bgm>
+	    <speak chara="_ZarathustraDaughter">そんな……バカな……</speak>
+	    <speak chara="_Rita">驚かれた……でしょう……</speak>
+	    <speak chara="_Rita">でも……多くは教えません……</speak>
+	    <goto goto="70" change="0"/>
+    </scene>
+    <scene id="70" background="CG16-3.jpg">
+	    <bgm src="02_22_amazingGrace.mp3" status="continue"></bgm>
+	    <speak chara="_Rita">言ったでしょう……</speak>
+	    <speak chara="_Rita">ビアンカ様に……指一本……触れさせはしませんと……</speak>
+	    <speak chara="_Rita">さようなら……二代目……「蛇王」……</speak>
+	    <goto goto="80" change="#000000"/>
+    </scene>
+    <scene id="80" background="black">
+	    <bgm src="morning.mp3" status="start"></bgm>
+	    <speak chara="_Bianka">（うっ……私……なんで……）</speak>
+	    <speak chara="_Bianka">（寒い……頭が重い……）</speak>
+	    <speak chara="_Bianka">（あ……何か来る……）</speak>
+	    <speak chara="_Bianka">（あたたかくて……いい匂い……）</speak>
+	    <speak chara="_Bianka">（おかあ……さん……）</speak>
+	    <speak chara="_Bianka">（……）</speak>
+	    <speak chara="_Bianka">（待って、待って——）</speak>
+	    <speak chara="_Bianka">（私、確か——何で眠っているのでしょう？）</speak>
+	    <goto goto="90" change="#ffffff"/>
+    </scene>
+    <scene id="90" background="CG16-4.jpg">
+	    <bgm src="06_01_ChichenItza.mp3" status="start"></bgm>
+	    <speak chara="_Rita">おはようございます、ビアンカ様。</speak>
+	    <speak chara="_Rita">よく眠れましたか？</speak>
+	    <speak chara="_Bianka">リタ？私、いったい。何でこんなところに？どれぐらい寝ていましたか？</speak>
+	    <speak chara="_Rita">ここはキキンイーサ城ですよ。正確には、チクシュルーブ隕石の建物の裏庭です。</speak>
+	    <speak chara="_Rita">一時間ほど前、私たちは罠にはめられて、大量の麻酔ガスを吸い込んでしまいました。</speak>
+	    <speak chara="_Rita">……ビアンカ様はまだ成長期ですので、いささか回復が遅かったのでしょう。</speak>
+	    <speak chara="_Bianka">え、そんな……麻酔ガスを……</speak>
+	    <goto goto="100" change="0"/>
+    </scene>
+    <scene id="100" background="cenote.jpg">
+	    <bgm src="06_01_ChichenItza.mp3" status="continue"></bgm>
+	    <show chara="biankaDressShockClose" position="left"/>
+	    <speak chara="_Bianka">他の人は？船長たちは無事なんですか？</speak>
+	    <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+	    <show chara="ritaVestSmileClose" position="right"/>
+	    <speak chara="_Rita">ご心配には及びません。デュラ様が大司祭の設備を使って治療しています。あと30分ほどで目が覚めるでしょう。</speak>
+	    <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
+	    <show chara="biankaDressBiteClose" position="left"/>
+	    <speak chara="_Bianka">……デュラ？あの剣が？いつの間についてきてたんですか？</speak>
+	    <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+	    <show chara="ritaVestSquintClose" position="right"/>
+	    <speak chara="_Rita">今朝からずっと一緒でしたよ。宝石を2つ回収したことで、まわりの気体分布を操れるようになり、自分の身を隠せるようになったのです。</speak>
+	    <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+	    <show chara="biankaDressSighClose" position="left"/>
+	    <speak chara="_Bianka">……なんですって？あいつ、光学迷彩まで備えてるんですか。</speak>
+	    <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+	    <show chara="ritaVestSmileClose" position="right"/>
+	    <speak chara="_Rita">ええ。私とシュレディンガー博士の説得により、切り札として同行してもらっていました。</speak>
+	    <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
+	    <show chara="biankaDressShoutClose" position="left"/>
+	    <speak chara="_Bianka">で、でもそんな大事なこと、なんで私にまで黙っていたんですか？ひどい！</speak>
+	    <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+	    <show chara="ritaVestNormalClose" position="right"/>
+	    <speak chara="_Rita">申し訳ありません、ビアンカ様。存在を知る人間が少なければ少ないほど、情報が漏れにくいかと思いまして……</speak>
+	    <speak chara="_Rita">ですから、ビアンカ様だけでなく——</speak>
+	    <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+	    <show chara="biankaDressBiteClose" position="left"/>
+	    <speak chara="_Bianka">あーあーわかりましたよ、どうせ私はすぐ顔に出ますよ！</speak>
+	    <show chara="biankaDressHesitateClose" position="left"/>
+	    <speak chara="_Bianka">……それで、誰に攻撃されたんです？反乱分子？</speak>
+	    <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+	    <show chara="ritaVestHesitateClose" position="right"/>
+	    <speak chara="_Rita">いいえ。</speak>
+	    <show chara="ritaVestAngryClose" position="right"/>
+	    <speak chara="_Rita">ビアンカ様、麻酔ガスを仕掛けてきたのは、「大司祭」その人です。</speak>
+	    <show chara="ritaVestAngryClose" position="right" opacity="0.8"/>
+	    <show chara="biankaDressShockClose" position="left"/>
+	    <speak chara="_Bianka">……え？</speak>
+	    <goto goto="110" clockwise="1"/>
+    </scene>
+    <scene id="110" background="cenote.jpg">
+	    <bgm src="06_01_Tuluum.mp3" status="start"></bgm>
+	    <show chara="biankaDressBiteClose" position="left"/>
+	    <speak chara="_Bianka">つまり……私たちを歓迎したのは全部お芝居で、密室に誘い込んで、隙を見てガスを放ったんですか？</speak>
+	    <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+	    <show chara="ritaVestHesitateClose" position="right"/>
+	    <speak chara="_Rita">恐らくその通りです。彼女の言葉から推測するに、私たちを喰らうことで、それぞれの力を得ようと企んだのでしょう。</speak>
+	    <show chara="ritaVestAngryClose" position="right"/>
+	    <speak chara="_Rita">……「蛇王」伝説のように。</speak>
+	    <show chara="ritaVestAngryClose" position="right" opacity="0.8"/>
+	    <show chara="biankaDressShockClose" position="left"/>
+	    <speak chara="_Bianka">……</speak>
+	    <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+	    <show chara="ritaVestNormalClose" position="right"/>
+	    <speak chara="_Rita">彼女の手記です。訳すとこうなっています。</speak>
+	    <hide position="left"></hide>
+	    <hide position="right"></hide>
+	    <text article="1">
+<p class="article-text">12.14.11.15.1.</p>
+<br />
+<p class="article-text">「蛇」の力を使ってしまった。しょうがなかった。暴力で物事を解決する野蛮人ばかりだったから。</p>
+<p class="article-text">幸い、これで彼らは私に完全服従するようになった。力を飼いならす時間は十分にある。</p>
+</text>
+	    <text article="1">
+<p class="article-text">12.14.11.15.2.</p>
+<br />
+<p class="article-text">「ああ、超人よ！あなたは善良さと勝利の秘訣を凡人にお与えになった。あなたが悲しまないよう、あなたに幻滅されないよう、人々はあなたの美徳を倣いはじめた。真理の道を歩み、超人を讃え崇める。」</p>
+<p class="article-text">——このように書いておこう。</p>
+</text>
+	    <text article="1">
+<p class="article-text">12.14.14.3.0.</p>
+<br />
+<p class="article-text">40日、脳を食べなかった。体調に変化はない。自発的に身を捧げる者を摂取すると、確かに「蛇」の欲望を抑えられる。</p>
+<p class="article-text">我々の信仰をより多くの人間に伝えよう。</p>
+</text>
+	    <text article="1">
+<p class="article-text">12.15.1.0.8.</p>
+<br />
+<p class="article-text">高地へ向かった植民部隊に反乱が起きたと報告を受けた。真偽を確かめるために、報告者の肉を食べた。</p>
+<p class="article-text">——嘘だった。でも、国境部隊の将校は定期的に変えたほうが良いだろう。</p>
+</text>
+	    <text article="1">
+<p class="article-text">12.15.6.1.15.</p>
+<br />
+<p class="article-text">学校で信仰を学んだ世代が成長した。新しく開拓した土地を巡回し、辺境民の国家への認識を固める必要がありそうだ。</p>
+<p class="article-text">……人間のように老いることはないらしい。「蛇」のおかげだろうか。</p>
+</text>
+	    <text article="1">
+<p class="article-text">12.15.10.15.6.</p>
+<br />
+<p class="article-text">数年ぶりに脳を食べた。</p>
+<p class="article-text">近衛たちがクラゲに刺され死にそうになっているおっさんを拾った。「画家のマティス」と名乗った。こいつで少しでも芸術センスを取り入れられるといいが。</p>
+</text>
+	    <text article="1">
+<p class="article-text">12.15.10.15.7.</p>
+<br />
+<p class="article-text">おっさんめ、こいつの頭の中は毒キノコにマンドラゴラを混ぜたものよりやばい。</p>
+<p class="article-text">太陽は緑色に、海はピンクに塗ってしまう。勘付かれないようにしなければ。大司祭の頭がおかしくなった、など噂されないように。これを機に信条を増やそうか。</p>
+</text>
+	    <text article="1">
+<p class="article-text">12.15.10.15.8.</p>
+<br />
+<p class="article-text">信仰の中で二種類の自由について語った。凡人の自由と超人の自由。それらは完全なる別物である。</p>
+<p class="article-text">凡人の存在意義は超人になること。凡人には超人に干渉する能力も理由もない。</p>
+</text>
+	    <show chara="ritaVestHesitateClose" position="right"/>
+	    <speak chara="_Rita">……とはいえ、彼女の作った信仰のおかげで、ここのマヤ人が「大司祭」の死で私たちを敵視することはありませんでした。</speak>
+	    <show chara="ritaVestHesitateClose" position="right" opacity="0.8"/>
+	    <show chara="biankaDressHesitateClose" position="left"/>
+	    <speak chara="_Bianka">え？てっきりリタが狂信者を見せしめに鎮圧したのかと思いました……</speak>
+	    <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+	    <show chara="ritaVestSquintClose" position="right"/>
+	    <speak chara="_Rita">……</speak>
+	    <show chara="ritaVestHesitateClose" position="right"/>
+	    <speak chara="_Rita">彼らからすれば、「ナコム」の間の戦いは神聖なものであり、何があっても正しいのだそうです。</speak>
+	    <show chara="ritaVestNormalClose" position="right"/>
+	    <speak chara="_Rita">ただ、私たちの誰か一人がここに残り、次の「大司祭」になってほしいと言われました。</speak>
+	    <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+	    <show chara="biankaDressSighClose" position="left"/>
+	    <speak chara="_Bianka">……オットー主教がいたら適任そうですね。</speak>
+	    <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+	    <show chara="ritaVestNaughtyClose" position="right"/>
+	    <speak chara="_Rita">ふふ。主教様なら、お茶一杯の時間でここの事務を処理できるでしょう。</speak>
+	    <show chara="ritaVestSmileClose" position="right"/>
+	    <speak chara="_Rita">——そういえば、ビアンカ様は他の戦乙女のように、主教様を怖がったりしませんね。何か面白いことでもあったのでしょうか。</speak>
+	    <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
+	    <show chara="biankaDressSmileClose" position="left"/>
+	    <speak chara="_Bianka">ああ、あの人は私の主治医だったんです、病院で目覚めて間もない頃の。</speak>
+	    <show chara="biankaDressShyClose" position="left"/>
+	    <speak chara="_Bianka">普通の医者として接してほしいと言われたので、その通りにしていました。</speak>
+	    <show chara="biankaDressHesitateClose" position="left"/>
+	    <speak chara="_Bianka">……本部に来てから、逆に他の戦乙女の恭しい態度に慣れませんでしたよ。</speak>
+	    <show chara="biankaDressNormalClose" position="left"/>
+	    <speak chara="_Bianka">——主教ってそんなに怖いんですか？</speak>
+	    <show chara="biankaDressNormalClose" position="left" opacity="0.8"/>
+	    <show chara="ritaVestNaughtyClose" position="right"/>
+	    <speak chara="_Rita">ふふ。皆さん、ビアンカ様ほど幸運ではないのでしょう。</speak>
+	    <show chara="ritaVestNormalClose" position="right"/>
+	    <speak chara="_Rita">多くの人間にとって、主教様は雲の上の存在。自分とは関わりのない、よくわからない年長者、でしょう？</speak>
+	    <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+	    <show chara="biankaDressHesitateClose" position="left"/>
+	    <speak chara="_Bianka">……</speak>
+	    <show chara="biankaDressSneerClose" position="left"/>
+	    <speak chara="_Bianka">さて、体の調子も戻ってきましたし、そろそろ——</speak>
+	    <goto goto="120" change="0"/>
+    </scene>
+    <scene id="120" background="cenote.jpg">
+	    <bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
+			<sound src="se_spring.mp3"/>
+			<shake position="all" time="250"></shake>	
+	    <speak chara="_Bianka">——えっ、何ですか！？</speak>
+	    <bgm src="legion.mp3" status="start"></bgm>
+	    <speak chara="_Rita">何かが、湖の底から出てきます！</speak>
+	    <show chara="BertrandSmile" position="center"/>
+			<shake position="all" time="250"></shake>	
+	    <speak chara="_bertrand">Le Peuple souverain s'avance,（主権者国民は前に進み、）</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand" remark="next">Tyrans descendez au cercueil! （暴君は棺の中に行く！）</speak>
+			<remark post="U2FsdGVkX1+JMOsAqrORmyQBW1vO">
+				<p class="article-text-h">注釈：</p>
+				<p class="article-text">『門出の歌』の歌詞。</p>
+				<p class="article-text">『門出の歌』（フランス語：Chant du départ。マリー＝ジョゼフ・シェニエ作詞、エティエンヌ＝ニコラ・メユール作曲）、1794年に発表されたフランスの革命歌。フランス第一帝政期の公式歌である。</p>
+			</remark>
+			<bgm src="01_18_tango.mp3" status="start"></bgm>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">お嬢さん方、自由を取り戻してくださってありがとう。我が名はベルトラン、フランス共和国東方遠征軍の大佐である。</speak>
+	    <speak chara="_bertrand">気をつけ！敬礼！</speak>
+	    <show chara="BertrandNormal" position="center" opacity="0.8"/>
+	    <show chara="biankaDressShockClose" position="center"/>
+	    <speak chara="_Bianka">……大佐？遠征軍？フランス？何を言ってるんです？</speak>
+	    <show chara="biankaDressShoutClose" position="center"/>
+	    <speak chara="_Bianka">いやいや、それより、あなたは何者？何で喋れるんですか！？</speak>
+	    <show chara="biankaDressShoutClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">……ああ。私の見た目はもう、「普通の人間」ではなくなっているのか。</speak>
+	    <show chara="BertrandSmile" position="center"/>
+	    <speak chara="_bertrand">失礼した。よくある話だろう、老人が己を若い頃の自分であるかのように錯覚し、過去の体験を口にするのは。</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">三千年！あ、いや、三ヶ月？三年？と、ともかく、あの憎き魔女が私の力を奪い、この底なしの湖に閉じ込めた。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">それでお嬢さん方、教えていただけるかな。あのペルシアの魔女に正義の鉄槌が下されたのだろうか？</speak>
+	    <show chara="BertrandNormal" position="center" opacity="0.8"/>
+	    <show chara="biankaDressSighClose" position="center"/>
+	    <speak chara="_Bianka">……「エステル・ツァラトゥストラ」は確かに死にました。私たちを暗殺しようとして、失敗したんです。私たちの正当防衛ですね。</speak>
+	    <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandSmile" position="center"/>
+	    <speak chara="_bertrand">ハハッ……人はいつも得意分野で挫かれるものだ。我々のインペラトルと同じように。</speak>
+	    <show chara="BertrandSmile" position="center" opacity="0.8"/>
+	    <show chara="ritaVestNormalClose" position="center"/>
+	    <speak chara="_Rita">……「インペラトル」？</speak>
+	    <show chara="ritaVestNormalClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand" remark="next">ああ、「Imperator」、皇帝という意味だ。</speak>
+			<remark post="U2FsdGVkX19v4Kx0G0CAr4k8kjaj">
+				<p class="article-text-h">注釈：</p>
+				<p class="article-text">Imperator（インペラトル。凱旋将軍、皇帝の意味）、古代ローマの称号の一つ。ローマ共和政期は軍司令官を意味する言葉だったが、ローマ帝国においては「元首」（Princeps、第一人者の意味）の称号となった。</p>
+				<p class="article-text">——Imperatorは、英語の「Emperor」（「皇帝」）の語源でもある。</p>
+			</remark>
+	    <show chara="BertrandSmile" position="center"/>
+	    <speak chara="_bertrand">ローマ人でも、ギリシャ人でも、ドイツ人でも、トルコ人やロシア人でもない——</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">我がフランスが誇る唯一無二の皇帝——</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">——その名はナポレオン・ボナパルト！</speak>
+	    <show chara="BertrandAnger" position="center" opacity="0.8"/>
+	    <show chara="biankaDressSighClose" position="center"/>
+	    <speak chara="_Bianka">……ナポレオンが龍を大佐に任命したなんて聞いたことありませんが。</speak>
+	    <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandSmile" position="center"/>
+	    <speak chara="_bertrand">それは違うぞ、お嬢さん。アレクサンドリアからセントヘレナまで、このベルトランは常に皇帝陛下の最も信頼する兵士であった。</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">兵士だ！龍ではない！火を吹くのは銃であって、口ではない！</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">あ、いや……今は確かに龍だが。</speak>
+	    <show chara="BertrandNormal" position="center" opacity="0.8"/>
+	    <show chara="biankaDressBiteClose" position="center"/>
+	    <speak chara="_Bianka">一体、何が言いたいんです？</speak>
+	    <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandSmile" position="center"/>
+	    <speak chara="_bertrand">ああ、これは失礼、年老いた頭はすぐに忘れるのだ。</speak>
+	    <speak chara="_bertrand">最も忠実なしもべであるベルトランが皇帝を裏切った、その事実が受け入れがたい。</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">ああ、ああ、私は皇帝を裏切ってしまった。全てが終わり、全てが始まった。</speak>
+	    <speak chara="_bertrand">皇帝は「壁」を起動した。新世界を作ろうとした。なのに、私は戦場から逃げ出した。</speak>
+	    <show chara="BertrandThink" position="center" opacity="0.8"/>
+	    <show chara="biankaDressShockClose" position="center"/>
+	    <speak chara="_Bianka">（……「皇帝」……「壁」……「新世界」？）</speak>
+	    <show chara="biankaDressShockClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">……ああ！おのれ水藻！おのれ渦虫！</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">この使えない頭は侵食された、なんと可哀想なベルトラン、ほとんどイカれてしまった。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">誠に申し訳ない。</speak>
+	    <show chara="BertrandNormal" position="center" opacity="0.8"/>
+	    <show chara="biankaDressSighClose" position="center"/>
+	    <speak chara="_Bianka">はいはい、許すから、質問に答えてください。</speak>
+	    <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandSmile" position="center"/>
+	    <speak chara="_bertrand">ああ、ああ、もちろんだとも。</speak>
+	    <show chara="BertrandSmile" position="center" opacity="0.8"/>
+	    <show chara="biankaDressNormalClose" position="center"/>
+	    <speak chara="_Bianka">……ベルトラン「大佐」、あなたはどうして「龍」になったんですか？</speak>
+	    <show chara="biankaDressNormalClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">龍？……龍は皇帝の象徴。少なくとも、東方の伝説ではそう言われている。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">しかしお嬢さん、これだけは言っておく。東方に「インペラトル」などいない——</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">——「神聖」は俗物的な発想であり、「超人」こそが「凱旋将軍」の真髄である。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">そう、我らが皇帝は公明正大な存在である——</speak>
+	    <speak chara="_bertrand">——悪どい魔女と同じ、「超人」という括りだが。</speak>
+	    <show chara="BertrandNormal" position="center" opacity="0.8"/>
+	    <show chara="biankaDressHesitateClose" position="center"/>
+	    <speak chara="_Bianka">……「蛇人」も「龍人」も、大して変わらないでしょう？</speak>
+	    <show chara="biankaDressHesitateClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandSmile" position="center"/>
+	    <speak chara="_bertrand">その通り。雲も虹も大して変わらない。</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">しかし、雲を作った人間は雨を求む、虹を作った人間は太陽を求む。見方が変われば、大きく違ってくる。</speak>
+	    <show chara="BertrandThink" position="center" opacity="0.8"/>
+	    <show chara="biankaDressSighClose" position="center"/>
+	    <speak chara="_Bianka">……？</speak>
+	    <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">皇帝は人間だ。……少なくとも外見上はそう。彼のような偉人は、私のような半獣に成り下がることはない。</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">皇帝は言った。「神」とは人々が心の中で築き上げたピラミッド、耐えられない災厄や苦痛から逃がれるために用意した、自らの精神の墓だ。</speak>
+	    <show chara="BertrandSmile" position="center"/>
+	    <speak chara="_bertrand">偉大なる皇帝は、常に自分の感情を真正面から受け止め、周囲の人を感化する。</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">唯一無二のナポレオン・ボナパルトよ、永遠の忠誠を誓おう！</speak>
+	    <show chara="BertrandAnger" position="center" opacity="0.8"/>
+	    <show chara="biankaDressBiteClose" position="center"/>
+	    <speak chara="_Bianka">……皇帝を裏切ったって、ついさっき自分で言ってませんでした？</speak>
+	    <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">私が？このアンリ・ガティアン・ベルトランが？皇帝を裏切る？ハハハ、どんな冗談だ——</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">——あ、いや、私は皇帝を裏切った。だからここにいるのだ。水藻や渦虫に支配されて。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">申し訳ない。この頭はもうほとんど使い物にならないのだ……だが思い出す努力はしよう。</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">……モスクワか？ワーテルローか？セントヘレナか？……いやいや、セントヘレナの蝶々は綺麗だった。</speak>
+	    <show chara="BertrandThink" position="center" opacity="0.8"/>
+	    <show chara="biankaDressSighClose" position="center"/>
+	    <speak chara="_Bianka">……蝶々？</speak>
+	    <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandSmile" position="center"/>
+	    <speak chara="_bertrand">いや、いや、蝶々とは関係がない。あれは水藻や渦虫がもたらした空想、虚構の中の精霊だ。</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">えーと……虚構……そう、思い出した！すべてはセントヘレナから始まった！</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">セントヘレナは東インド会社の管轄だった。だから、我々を看守するイギリス人も会社の職員だった。</speak>
+	    <speak chara="_bertrand">……皇帝は破れ、しもべである我々とともにこの小さな島に追放された。</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">島の長官は昔ながらの英国紳士だったが、部下にはインド人の傭兵、雑用係、建築士、さらには天文学者もいた。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">いや、建築士も天文学者も同一人物だった。おかしな名前だった。たしかバ……バラ……</speak>
+	    <speak chara="_bertrand">……そうだ、「バースカラ18世」だ。</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">ああ、あの狂ったインド野郎め！</speak>
+	    <show chara="BertrandAnger" position="center" opacity="0.8"/>
+	    <show chara="ritaVestNormalClose" position="center"/>
+	    <speak chara="_Rita">バースカラ2世なら、12世紀で最も偉大な数学者の一人のはずですが……</speak>
+	    <show chara="ritaVestNormalClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">「18世」が数学者かどうかは知らん。</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">1820年、あいつはその年ずっと、島に奇妙な機械を設置していた！神を冒涜する、呪われた機械を！</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">……あいつはインド人なのに、イギリス国王からのライセンスを得ていた。だから誰もあいつの「科学研究」を邪魔できなかった。</speak>
+	    <show chara="BertrandThink" position="center" opacity="0.8"/>
+	    <show chara="biankaDressBiteClose" position="center"/>
+	    <speak chara="_Bianka">それで……その機械はあなたや「皇帝」とどう関係するのですか？全然意味がわからないんですけど。</speak>
+	    <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">どうか焦らないでくれ、じっくり説明するとも。バ……「バースカラ」の装置は、今の私の状況と深く関わっている。</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">まず、あいつは1年余りの時間をかけて、セントヘレナの各所にあの忌まわしい装置を設置した。そして1821年5月、新月の夜——</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">あいつは島を丸ごと地球から——いや、我々の宇宙から——取り替えたのだ。</speak>
+	    <show chara="BertrandNormal" position="center" opacity="0.8"/>
+	    <show chara="biankaDressShoutClose" position="center"/>
+	    <speak chara="_Bianka">……は？</speak>
+	    <show chara="biankaDressShoutClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">あいつが言うに、1821年5月のはじめの新月の夜は「星々の正しい時」だそうだ。その夜の特定の時間と場所で、隣の異世界と物質の交換ができる。</speak>
+	    <show chara="BertrandThink" position="center" opacity="0.8"/>
+	    <show chara="ritaVestAngryClose" position="center"/>
+	    <speak chara="_Rita">……！</speak>
+	    <speak chara="_Rita">そのインド人は、装置の名前を言っていませんでしたか？</speak>
+	    <show chara="ritaVestAngryClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">えーと、確か「ゲルニア」……じゃなくて、「ゲニルス」……でもなくて、「ゲニウス」……</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">そう！「ゲニウス」！「ゲニウスの群れ」！間違いない！</speak>
+	    <show chara="BertrandAnger" position="center" opacity="0.8"/>
+	    <show chara="biankaDressShockClose" position="center"/>
+	    <speak chara="_Bianka">（……また「ゲニウス」を使った事件？）</speak>
+	    <show chara="biankaDressShockClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">インド人は「ゲニウスの群れ」を使って、島ごと未知の空間へ転移させた。</speak>
+	    <show chara="BertrandThink" position="center" opacity="0.8"/>
+	    <show chara="biankaDressBiteClose" position="center"/>
+	    <speak chara="_Bianka">未知の空間？私たちが今いるこの世界ではなく？</speak>
+	    <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">……違うと思う。星空が全く似ていないから。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">インド人は、言うことを聞かなければ、時の狭間に取り残され、無尽の苦痛と滅びから逃れることができなくなると、我々を脅した。</speak>
+	    <show chara="BertrandNormal" position="center" opacity="0.8"/>
+	    <show chara="biankaDressSighClose" position="center"/>
+	    <speak chara="_Bianka">だから、言うことを聞くしかなかった？</speak>
+	    <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">「違う」と言いたいが、残念ながら事実はそうではない。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">あいつはどこからか妙な薬剤を一箱持ってきて、それを一本取り出し自分で飲んだ。すると体が変形しはじめ……怪物となった。</speak>
+	    <show chara="BertrandNormal" position="center" opacity="0.8"/>
+	    <show chara="biankaDressBiteClose" position="center"/>
+	    <speak chara="_Bianka">……！？</speak>
+	    <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">魔法で全員を操る気かと思ったが……そいつはこう言った。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">「自分には『超人』になる素質がないとわかっている」</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">「この薬を飲めば、私の理性はすぐに死んで、残虐な、全てを滅ぼそうとする『崩壊獣』になる」</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">「だが、この中には少なくとも一人、『聖痕』を発現した者——」</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">「——ナポレオン・ボナパルト、フランスの偉大なる皇帝がいる」</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">「この薬を飲めば、あなたは「超人」に進化する」</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">「そうすれば、私を倒し、部下とその子供たちを守ることができ、さらに私が残した資料を使って、島を安定した世界に着陸させることができる」</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">「私の皮膚はすでに鋼よりも固くなっている。あと10秒しか猶予はないよ、皇帝陛下」</speak>
+	    <show chara="BertrandNormal" position="center" opacity="0.8"/>
+	    <show chara="biankaDressHesitateClose" position="center"/>
+	    <speak chara="_Bianka">……狂ってる。</speak>
+	    <show chara="biankaDressHesitateClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">島のイギリス軍は銃や剣でそいつを止めようとしたが、まったく歯が立たなかった。状況は騒然としていた——</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">——その時、薬剤が一本、皇帝の足元に転がってきた。</speak>
+	    <show chara="BertrandNormal" position="center" opacity="0.8"/>
+	    <show chara="biankaDressBiteClose" position="center"/>
+	    <speak chara="_Bianka">……飲んだんですか？</speak>
+	    <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">ああ。その後の展開はあのイカれ野郎の言う通りだった。皇帝はバケモノにならなかった。バケモノより強い、「超人」になった。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">30歳も若返ったようだった——</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">いや、もっとも若く力のある兵士も敵わなかった——</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">手で空を引き裂き！足で大地を割る！銃も剣も効かなかった怪獣を素手で制し、鱗を剥ぎ、首を刎ねた。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">その後、皇帝は島にいるフランス人とイギリス人を率いて、イカれ野郎の残した資料を元に、島を元の世界に戻す……</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">……はずだった。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">我々の船がブリテンの土地に近付いてから、ようやく気付いた。そこは我々の知っている、元の世界などではなかった。</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">島の人間は皆フランス語を喋っていた。まるで「ノルマン・コンクエスト」後の時代のようだった。</speak>
+	    <show chara="BertrandAnger" position="center" opacity="0.8"/>
+	    <show chara="biankaDressSighClose" position="center"/>
+	    <speak chara="_Bianka">……それぐらいではもう驚かないですけど。その頃はまだ今の姿になっていなかったんですよね？それから何があったんですか？</speak>
+	    <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">見知らぬ異世界を目の当たりにしても、皇帝は挫けなかった——</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">「それなら、新しい生活、新しい帝国を作ろうではないか！」と。</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">今思えば、それが全ての動乱の始まりだった。</speak>
+	    <end post="U2FsdGVkX19wRxPb54i8CCP+o3ni"/>
+    </scene>
+  </story>
+</data>

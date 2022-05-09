@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="ko">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko-KR">
   <head>
     <style></style>
     <meta name="applicable-device" content="mobile" />
@@ -19,49 +19,52 @@
       content="black-translucent"
     />
     <link
-      href="https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/css/common.css?v=20210817"
+      href="https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/css/common.css?v=20190203"
       rel="stylesheet"
       type="text/css"
     />
     <link
-      href="https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/css/css3_animation.css?v=20210817"
+      href="https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/css/css3_animation.css?v=20190203"
       rel="stylesheet"
       type="text/css"
     />
-    <link href="/novels/ae/ko-KR/game.css" rel="stylesheet" type="text/css" />
+    <link
+      href="/novels/duriduri/ko-KR/gameDurandal.css"
+      rel="stylesheet"
+      type="text/css"
+    />
 
     <link
     rel='apple-touch-icon'
     sizes='180x180'
     href='/apple-touch-icon.png'
-  />
-  <link
-    rel='icon'
-    type='image/png'
-    sizes='32x32'
-    href='/favicon-32x32.png'
-  />
-  <link
-    rel='icon'
-    type='image/png'
-    sizes='16x16'
-    href='/favicon-16x16.png'
-  />
-  <link rel='manifest' href='/site.webmanifest' />
-  <link rel='mask-icon' href='/safari-pinned-tab.svg' color='#5bbad5' />
-  <meta name='msapplication-TileColor' content='#2b5797' />
-  <meta name='theme-color' content='#ffffff'></meta>
+    />
+    <link
+      rel='icon'
+      type='image/png'
+      sizes='32x32'
+      href='/favicon-32x32.png'
+    />
+    <link
+      rel='icon'
+      type='image/png'
+      sizes='16x16'
+      href='/favicon-16x16.png'
+    />
+    <link rel='manifest' href='/site.webmanifest' />
+    <link rel='mask-icon' href='/safari-pinned-tab.svg' color='#5bbad5' />
+    <meta name='msapplication-TileColor' content='#2b5797' />
+    <meta name='theme-color' content='#ffffff'></meta>
 
-  <meta property='og:type' content='website' />
-  <meta
-    property='og:image'
-    content='https://www.abyss-lab.app/assets/honkai3rd/banner-bronya.png'
-  />
-
-    <title>네겐트로피 Beta - 어비스 랩</title>
+    <title>듀란달 Beta - 어비스 랩</title>
   </head>
-
-  <body onselectstart="return false">
+  <body>
+    <iframe
+      src="https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/sound/01_21_1-second-of-silence.mp3"
+      allow="autoplay"
+      id="audio"
+      style="display: none"
+    ></iframe>
     <div class="wrk">
       <img
         class="wrk-i"
@@ -83,7 +86,7 @@
         <audio
           class="bgm"
           id="indexbgm"
-          src="https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/resources/sound/themeEin.mp3"
+          src="https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/baseDurandal/resources/sound/theme.mp3"
           loop="loop"
           controls="controls"
         ></audio>
@@ -91,9 +94,6 @@
         <div id="cg_layer" style="display: none"></div>
         <div class="showCgOrigin"></div>
         <div class="menuscene">
-          <div class="titleImageBox">
-            <div class="titleImage"></div>
-          </div>
           <table class="grid_layout">
             <tr>
               <td class="menu_btn_frame"></td>
@@ -173,9 +173,44 @@
               </li>
             </ul>
           </div>
-          <div style="position: absolute;bottom:4px;left: 4px;font-size:0.5rem;color:white;user-select:none;font-style: italic;text-align:left;text-shadow: 1px 1px 2px black;font-family: monospace;">
-            Translated by fans.<br/>
-            All assets bleong to miHoYo Co., Ltd.
+          <div id="family-portrait" style="display: none">
+            <div class="portrait-wrapper" id="portrait-frame"></div>
+            <div
+              class="achievement-back"
+              onclick="$('#family-portrait').fadeOut()"
+            ></div>
+            <div class="progress-box">
+              <div class="progress-bar">
+                <div class="progress-span">
+                  <p class="progress-text"></p>
+                </div>
+              </div>
+              <div class="progress-frame"></div>
+              <div class="progress-icon"></div>
+            </div>
+            <div class="progress-button" onclick="exhibitionPage()"></div>
+          </div>
+          <div id="achievement-exhibition" style="display: none">
+            <div
+              class="achievement-back"
+              onclick="$('#achievement-exhibition').fadeOut()"
+            ></div>
+            <div class="achievement-chapter"></div>
+            <ul class="achievement-list"></ul>
+            <ul class="catalog-page">
+              <li>
+                <div class="pagenum" id="pagenum-5"></div>
+              </li>
+              <li>
+                <div class="pagenum" id="pagenum-6"></div>
+              </li>
+            </ul>
+          </div>
+          <div class="achievement-catalog">
+            <div
+              class="back"
+              onclick="$('.achievement-catalog').fadeOut()"
+            ></div>
           </div>
         </div>
         <div id="confirm" style="display: none">
@@ -272,21 +307,24 @@
         'https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN'
       var resPath =
         'https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN'
-      var xmlPath = '/novels/ae/ko-KR/xml/'
-      var lang = 'ko'
+      var xmlPath = '/novels/duriduri/ko-KR/xmlDurandal/'
+      var lang = 'ko-KR'
     </script>
     <script
       type="text/javascript"
-      src="https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/tips/game_tips.js?v=20210817"
+      src="https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/tips/game_tips.js?v=20190203"
     ></script>
     <script
       type="text/javascript"
-      src="https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/js/jquery-1.11.1.min.js?v=20210817"
+      src="https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/js/jquery-1.11.1.min.js?v=20190203"
     ></script>
     <script
       type="text/javascript"
-      src="https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/js/xmlhttp.js?v=20210817"
+      src="https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy/static_CN/js/xmlhttp.js?v=20190203"
     ></script>
-    <script type="text/javascript" src="/novels/ae/ko-KR/game.js?v=20210817"></script>
+    <script
+      type="text/javascript"
+      src="/novels/duriduri/ko-KR/game.js"
+    ></script>
   </body>
 </html>

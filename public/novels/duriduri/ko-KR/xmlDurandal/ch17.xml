@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <story>
+    <scene id="0" background="bg.jpg">
+	    <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+	    <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+	    <goto goto="10" change="#000000"/>
+    </scene>
+    <scene id="10" background="cenote.jpg">
+	    <bgm src="01_18_tango.mp3" status="start"></bgm>
+	    <show chara="biankaDressHesitateClose" position="center"/>
+	    <speak chara="_Bianka">……その「動乱」って、「皇帝」が「壁」を起動した件ですよね？</speak>
+	    <show chara="biankaDressHesitateClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">そうだ。エネルギー配列が全ての古い秩序の名残を壊した——それが皇帝の狙いだった。</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">皇帝は、前人が築き上げた「新秩序」を本当の意味で機能させると言っていた。</speak>
+	    <show chara="BertrandThink" position="center" opacity="0.8"/>
+	    <show chara="biankaDressSighClose" position="center"/>
+	    <speak chara="_Bianka">待ってください、「新秩序」って？</speak>
+	    <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">うん？言ってなかったか？</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">……ああ、確かに言ってなかったかもしれない。</speak>
+	    <show chara="BertrandSmile" position="center"/>
+	    <speak chara="_bertrand">この歳になると、絵本でさえ何回も読まなければ理解できないのだ。</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">「新秩序」が何かと聞いたのだったな？ふむ……それは、この世界の歴史から話さなければ。</speak>
+	    <show chara="BertrandSmile" position="center"/>
+	    <speak chara="_bertrand">皇帝がこの地に降り立つまで、「ここの」ヨーロッパには「預言者」がいた。</speak>
+	    <show chara="BertrandSmile" position="center" opacity="0.8"/>
+	    <show chara="biankaDressSneerClose" position="center"/>
+	    <speak chara="_Bianka">預言者？宗教上のあの「預言者」ですか？</speak>
+	    <show chara="biankaDressSneerClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">ああ、その「預言者」だ。</speak>
+	    <show chara="BertrandSmile" position="center"/>
+	    <speak chara="_bertrand">彼を崇める村や集落は、いずこも異常な状態を保っていた。全員が個人より組織を優先するという異常さを。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">ああ、わかるよ、お嬢さんの目はそんな人間は五万といると言っている。</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">その通りだ。個より全を取るのは美徳だ。だが美徳であればあるほど、「すべての人間が持つ」ことは不可能だ。</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">ある集団が時間の流れ、人の移り変わり、情報の錯綜を経ても、全員が「個より全」を維持できていた——お嬢さんなら、その大変さがわかるはずだ。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">「利他」が純水で、「利己」が墨のように、黒に染まらぬため、理想を持った組織はひとりひとりが水のように雲となり、再び地上に戻ることを強要してきた。</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">維持し続けられた人類の群れは、長い歴史の中でもそう数はなかっただろう——だが「預言者」は奇跡的に、この大陸に無数の「成果」を残した。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">皇帝はその異常さに気づいて、答えを探そうとした。</speak>
+	    <show chara="BertrandNormal" position="center" opacity="0.8"/>
+	    <show chara="biankaDressBiteClose" position="center"/>
+	    <speak chara="_Bianka">……もったいぶらないでください。答えは何なんですか？</speak>
+	    <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandSmile" position="center"/>
+	    <speak chara="_bertrand">せっかちなお嬢さんだ。</speak>
+	    <speak chara="_bertrand">簡単だよ——預言者はその人間たちが生まれ持っていた本能を変えたのだ。</speak>
+	    <hide position="center"></hide>
+	    <show chara="biankaDressShoutClose" position="left"/>
+	    <speak chara="_Bianka">「生まれ持っていた本能を変えた」？</speak>
+	    <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+	    <show chara="ritaVestNormalClose" position="right"/>
+	    <speak chara="_Rita">遺伝子の組み換えでしょうか？集合精神にでも改造されたと？</speak>
+	    <hide position="left"></hide>
+	    <hide position="right"></hide>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">「遺伝子の組み換え」や「集合精神」の意味はよくわからないが……</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">皇帝が見つけた答えは、ラテン語だった。預言者が生前残した手稿にあったのだ。</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">預言者は「禁断の果実」から知識を得たと言っていた。その知識が未来で悪用されないよう、何をしたのかのみを残し、どうやって成し遂げたのかは語らなかった。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">彼は部族民たちの本能に三つの原則を刻んだ。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">一つ、個人は集団に危害を加えてはならない。また、その危険を看過することによって、集団に危害を及ぼしてはならない。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">一つ、前述の原則に反しない限り、個人が他の個人を侵害してはならない。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">一つ、前述の原則に反しない限り、個人は集団の命令に服従しなければならない。</speak>
+	    <hide position="center"></hide>
+	    <show chara="biankaDressShockClose" position="left"/>
+	    <speak chara="_Bianka" remark="next">な、なんか「ロボット工学三原則」に似ていますね？</speak>
+			<remark post="U2FsdGVkX1+qVHLfxjwj8NGnvMCM">
+				<p class="article-text-h">注釈：</p>
+				<p class="article-text">ロボット工学三原則はSF作家アイザック・アシモフのSF小説において、ロボットが従うべきとして示された原則である。</p>
+				<p class="article-text">1.ロボットは人間に危害を加えてはならない。また、その危険を看過することによって、人間に危害を及ぼしてはならない。</p>
+				<p class="article-text">2.ロボットは人間にあたえられた命令に服従しなければならない。ただし、あたえられた命令が、第一条に反する場合は、この限りでない。</p>
+				<p class="article-text">3.ロボットは、前掲第一条および第二条に反するおそれのないかぎり、自己をまもらなければならない。</p>
+				<p class="article-text">0.ロボットは人類に危害を加えてはならない。また、その危険を看過することによって、人類に危害を及ぼしてはならない。この法則はすべての法則より優先するものとする。</p>
+			</remark>
+	    <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+	    <show chara="ritaVestHesitateClose" position="right"/>
+	    <speak chara="_Rita">……「軍人の三原則」と呼んだ方が適切かもしれませんね。</speak>
+	    <show chara="ritaVestAngryClose" position="right"/>
+	    <speak chara="_Rita">集団は人類全体とは限りません。「集団」の真意は「軍隊そのもの」に置き換えられます。</speak>
+	    <show chara="ritaVestNaughtyClose" position="right"/>
+	    <speak chara="_Rita">皇帝からすれば、これ以上ないほど理想的な兵士でしょう。</speak>
+	    <hide position="left"></hide>
+	    <hide position="right"></hide>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">その通り。</speak>
+	    <show chara="BertrandSmile" position="center"/>
+	    <speak chara="_bertrand">良い指揮者は兵士を激励できる、良い兵士も支持者を激励できる。</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">あれは良い時期だった。皆の士気が高まっていた——唯一不快だったのが、ハドソン・ロイとその部下たちの危険な行為だった。</speak>
+	    <show chara="BertrandThink" position="center" opacity="0.8"/>
+	    <show chara="biankaDressSighClose" position="center"/>
+	    <speak chara="_Bianka">……ハドソン・ロイって？</speak>
+	    <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">セントヘレナを守っていたイギリスの将校だ。彼らは皇帝の力を狙って——</speak>
+	    <bgm src="legion.mp3" status="start"></bgm>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">——皇帝！皇帝が今ここにいる！</speak>
+	    <show chara="BertrandAnger" position="center" opacity="0.8"/>
+	    <show chara="biankaDressSighClose" position="center"/>
+	    <speak chara="_Bianka">……？</speak>
+	    <show chara="biankaDressBiteClose" position="center"/>
+	    <speak chara="_Bianka">待って、何を言っているんですか？</speak>
+	    <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">皇帝の気配がした！こ、この中に皇帝と関わりのある人間がいるのか？それとも皇帝の行方がわかったのか？</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">ああ、違う、違うんだ。皇帝が反逆者である私を捕らえようと？いや、ありえない、皇帝はあそこから離れるはずが——</speak>
+	    <show chara="BertrandAnger" position="center" opacity="0.8"/>
+	    <show chara="biankaDressShoutClose" position="center"/>
+	    <shake position="center" time="250"></shake>	
+	    <speak chara="_Bianka">落ち着いてください、このバカ龍！</speak>
+	    <show chara="biankaDressShoutClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">……！</speak>
+	    <show chara="BertrandAnger" position="center" opacity="0.8"/>
+	    <show chara="durandalOutstretchOpen" position="center"/>
+	    <speak chara="_SwordDurandalQ">ほんとっしょ、いい歳して喚くなんてみっともない。</speak>
+	    <show chara="durandalOutstretchOpen" position="center" opacity="0.8"/>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">こ、これはなんだ？魔物の類か？</speak>
+	    <hide position="center"></hide>
+	    <show chara="durandalSquint" position="right"/>
+	    <speak chara="_SwordDurandalQ">え、ワタシのこと？コホン、聞いて驚くなっしょ、ワタシこそがこの世でたったひとつの——</speak>
+	    <show chara="durandalSquint" position="right" opacity="0.8"/>
+	    <show chara="biankaDressSighClose" position="left"/>
+	    <speak chara="_Bianka">——たったひとつの、うるさすぎてへし折って熔鉱炉に放り込みたい武器です。</speak>
+	    <show chara="biankaDressSneerClose" position="left"/>
+	    <speak chara="_Bianka">で、私に色々黙っていたことはさておき、ここにいるってことは、みんな回復したんですね？</speak>
+	    <goto goto="20" change="0"/>
+    </scene>
+    <scene id="20" background="caveEntranceChichenItza.jpg">
+	    <bgm src="peerGynt.mp3" status="start"></bgm>
+	    <show chara="shakesCasualLaughClose" position="center"/>
+	    <speak chara="_Shakespeare">ああ、ごきげんよう、お二人さん！はー、「昼寝」をしたら、なんだかスッキリしたね。</speak>
+	    <show chara="shakesCasualNormalClose" position="center"/>
+	    <speak chara="_Shakespeare">おや、何だそれは？新しいペットかい？</speak>
+	    <show chara="shakesCasualNormalClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">……</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">（うむ？皇帝の気配が……消えた？）</speak>
+	    <hide position="center"></hide>
+	    <show chara="biankaDressSighClose" position="left"/>
+	    <speak chara="_Bianka">……船長は元気そうですね。これはペットじゃなくて、「皇帝」の元部下、ベルトラン准将です。</speak>
+	    <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+	    <show chara="shakesCasualQuestionClose" position="right"/>
+	    <speak chara="_Shakespeare">……皇帝？「壁」を作った？私たちが始末しようとしているあの？</speak>
+	    <show chara="shakesCasualQuestionClose" position="right" opacity="0.8"/>
+	    <show chara="biankaDressNormalClose" position="left"/>
+	    <speak chara="_Bianka">そう、あの「皇帝」。</speak>
+	    <show chara="biankaDressNormalClose" position="left"/>
+	    <speak chara="_Bianka">——この方が言うには、「皇帝」の名前は「ナポレオン・ボナパルト」だそうです。</speak>
+	    <show chara="biankaDressNormalClose" position="left" opacity="0.8"/>
+	    <show chara="champoQuestionClose" position="right"/>
+	    <speak chara="_Champollion">……そ、そんなバカな！</speak>
+	    <show chara="champoQuestionClose" position="right" opacity="0.8"/>
+	    <show chara="cervantesSailorNormalClose" position="left"/>
+	    <speak chara="_Miguel">博士……知り合いなのか？</speak>
+	    <show chara="shakesCasualLaughClose" position="left"/>
+	    <speak chara="_Shakespeare">——親戚とかじゃないよね？</speak>
+	    <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+	    <show chara="champoSweatyClose" position="right"/>
+	    <speak chara="_Champollion">……</speak>
+	    <bgm src="01_18_tango.mp3" status="start"></bgm> 
+	    <show chara="champoDisgustedClose" position="right"/>
+	    <shake position="right" time="250"></shake>	
+	    <speak chara="_Champollion">待ってくれ、冗談だよな？あのナポレオンだぞ！</speak>
+	    <show chara="champoDisgustedClose" position="right"/>
+	    <speak chara="_Champollion">ナポレオン・ボナパルト、フランス第一帝政の皇帝、人類史上最も偉大な用兵家の一人だ！大図書館で読んだことないのか？</speak>
+	    <show chara="champoDisgustedClose" position="right" opacity="0.8"/>
+	    <show chara="shakesCasualDislikeClose" position="left"/>
+	    <speak chara="_Shakespeare">ああ、そういえばいたね、一部の世界ではフランスを率いてあっちこっち殺しまくって、ヨーロッパ中をかき回したやつ。</speak>
+	    <show chara="shakesCasualDislikeClose" position="left" opacity="0.8"/>
+	    <show chara="champoSweatyClose" position="right"/>
+	    <speak chara="_Champollion">……船長がイギリス人だということはよくわかった。</speak>
+	    <show chara="champoSweatyClose" position="right" opacity="0.8"/>
+	    <show chara="cervantesSailorStareClose" position="left"/>
+	    <speak chara="_Miguel">えーと、つまり、カエサルみたいなやつか？そんなすごい英雄を倒さねばならんのか。</speak>
+	    <show chara="cervantesSailorStareClose" position="left" opacity="0.8"/>
+	    <show chara="champoColdClose" position="right"/>
+	    <speak chara="_Champollion">……そうとは限らないだろう。この「ベルトラン准将」の証言しか情報がないのだから。</speak>
+	    <show chara="champoQuestionClose" position="right"/>
+	    <speak chara="_Champollion">待てよ……「ベルトラン」だって？</speak>
+	    <hide position="left"></hide>
+	    <hide position="right"></hide>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">なんだ偉そうな娘、このベルトランの話が信じられないというのか！？</speak>
+	    <show chara="BertrandAnger" position="center" opacity="0.8"/>
+	    <show chara="champoSmileClose" position="center"/>
+	    <speak chara="_Champollion">……いや、信じないのではなく、鵜呑みにできないだけだ。</speak>
+	    <show chara="champoSmileClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">私が嘘をついているとでも言いたいのか！</speak>
+	    <show chara="BertrandAnger" position="center" opacity="0.8"/>
+	    <show chara="champoSweatyClose" position="center"/>
+	    <speak chara="_Champollion">そういう意味ではない。</speak>
+	    <show chara="champoSweatyClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">……では、どういう意味だ！</speak>
+	    <show chara="BertrandAnger" position="center" opacity="0.8"/>
+	    <show chara="champoNormalClose" position="center"/>
+	    <speak chara="_Champollion">ベルトランさん、君の言うことは、あたしたちからすれば「一方的な言い分」なんだよ。</speak>
+	    <show chara="champoColdClose" position="center"/>
+	    <speak chara="_Champollion">「ナポレオン・ボナパルト」についての情報が、仮に君の記憶違いや言い間違いであったとしても、あたしたちには判別するすべがない。</speak>
+	    <show chara="champoSweatyClose" position="center"/>
+	    <speak chara="_Champollion">——君以外の情報源がないから。</speak>
+	    <show chara="champoSmileClose" position="center"/>
+	    <speak chara="_Champollion">それはご理解頂けるだろうか。</speak>
+	    <show chara="champoSmileClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">み、認めんぞ！私はベルトラン大佐、いや、准将だ！皇帝に最も長く仕えた人間の一人だ！</speak>
+	    <show chara="BertrandAnger" position="center" opacity="0.8"/>
+	    <show chara="champoSmileClose" position="center"/>
+	    <speak chara="_Champollion">ああ、それで？</speak>
+	    <show chara="champoSmileClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">それで？何がそれでだ？水藻や渦虫でも——</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">……</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <shake position="center" time="250"></shake>	
+	    <speak chara="_bertrand">……ああ、なんてことだ、おのれ水藻と渦虫！</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">あなたの言う通りだ。私も自分の記憶が全て正しいとは言い切れない。</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">だが！「壁」は皇帝が見つけて、起動したのだ！それだけは確かだ！</speak>
+	    <show chara="BertrandAnger" position="center" opacity="0.8"/>
+	    <show chara="shakesCasualDislikeClose" position="center"/>
+	    <speak chara="_Shakespeare">ああ、そのように言い伝えられてもいた——「皇帝」の正体までは伝えられていなかったけどね。</speak>
+	    <bgm src="legion.mp3" status="start"></bgm>
+	    <show chara="shakesCasualMercyClose" position="center"/>
+	    <speak chara="_Shakespeare">それよりも「皇帝」の動機だ。「壁」を起動して、一体何のメリットがあるんだ？</speak>
+	    <show chara="shakesCasualSeriousClose" position="center"/>
+	    <speak chara="_Shakespeare">ベルトラン准将、何か知っているかい？</speak>
+	    <show chara="shakesCasualSeriousClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">……それはもちろん、国境がほしかったからだ、リメスや、ハドリアヌスの長城のような。</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">いや、ローマよりも、皇帝の新帝国はもっと「壁」を必要とした。「壁」は必要不可欠なものだ。</speak>
+	    <show chara="BertrandThink" position="center" opacity="0.8"/>
+	    <show chara="shakesCasualQuestionClose" position="center"/>
+	    <speak chara="_Shakespeare">……どういうことだ？</speak>
+	    <show chara="shakesCasualQuestionClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">私を見ろ、このかろうじて生きている獣の姿を。「壁」から飛び出した時から、この体はもう二度と最良の状態には戻れなくなった。</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">おのれペルシアの魔女め！ある紫の宝石が力を取り戻してくれるなどとほざきおって！</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand" remark="next">つけてみたらこのザマだ！動けなくなって、「ライデン瓶」扱いされ、エネルギーを吸わされてしまった！</speak>
+			<remark post="U2FsdGVkX18e7vGpcOTb1pyCt6c5">
+				<p class="article-text-h">注釈：</p>
+				<p class="article-text">「ライデン瓶」は18世紀頃に用いられた静電気を蓄える装置である。van Musschenbroekがオランダのライデンで最初に試験運用をした。原始的な蓄電容器として、様々な電気実験に使われた。</p>
+			</remark>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">誰でもいい、この首の後ろのくそったれな宝石を抉り取ってくれ！</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">我々のエネルギー源と色や気配が似ていたから、同じものだと信じ込んだ私が虚けだった！</speak>
+	    <show chara="BertrandAnger" position="center" opacity="0.8"/>
+	    <show chara="durandalOpen" position="center"/>
+	    <speak chara="_SwordDurandalQ">宝石？紫の？</speak>
+	    <show chara="durandalOutstretchSquint" position="center"/>
+	    <speak chara="_SwordDurandalQ">どれどれ見せるっしょ――</speak>
+	    <goto goto="30" change="0"/>
+    </scene>
+    <scene id="30" background="cenote.jpg">
+	    <bgm src="bigTask.mp3" status="start"></bgm>
+	    <show chara="durandalOutstretchOpen" position="center"/>
+	    <speak chara="_SwordDurandalQ">あー！こ、これは！ワタシの「高貴」を司る「支配結晶」っしょ！何でこんなところに？</speak>
+	    <show chara="durandalOutstretchOpen" position="center" opacity="0.8"/>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">おかしな魔法剣、この宝石はあなたのものだと？</speak>
+	    <show chara="BertrandAnger" position="center" opacity="0.8"/>
+	    <show chara="durandalWhite" position="center"/>
+	    <speak chara="_SwordDurandalQ">そうっしょ。説明すると長くなるから、先に取り外してやるっしょ！</speak>
+	    <show chara="durandalDeadfish" position="center"/>
+	    <speak chara="_SwordDurandalQ">大丈夫、こいつはエネルギーの指向先を変えられるっしょ——もちろん、キミの神経の電気信号も——だから痛く感じることはないっしょ。</speak>
+	    <goto goto="40" change="#000000"/>
+    </scene>
+    <scene id="40" background="cenote.jpg">
+	    <bgm src="12_29_busyHarbor.mp3" status="start"></bgm>
+	    <show chara="durandalSquint" position="center"/>
+	    <speak chara="_SwordDurandalQ">よし、取れたっしょ！</speak>
+	    <show chara="durandalOutstretchSquint" position="center"/>
+	    <speak chara="_SwordDurandalQ">どう？痛くなかったっしょ。</speak>
+	    <show chara="durandalOutstretchSquint" position="center" opacity="0.8"/>
+	    <show chara="BertrandSmile" position="center"/>
+	    <speak chara="_bertrand">ああ、膿を出し切ったような清々しさだ！ハハハハッ！</speak>
+	    <hide position="center"></hide>
+	    <show chara="durandalStare" position="left"/>
+	    <speak chara="_SwordDurandalQ">しかし、もったいない使い方するなぁ、あの蛇女。</speak>
+	    <show chara="durandalStare" position="left" opacity="0.8"/>
+	    <show chara="ritaVestNormalClose" position="right"/>
+	    <speak chara="_Rita">では、「支配結晶」の本当の使い道はなんなのでしょうか。</speak>
+	    <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+	    <show chara="durandalWhite" position="left"/>
+	    <speak chara="_SwordDurandalQ">うーん、シュレーディンガー博士が思いついた例で説明すると——</speak>
+	    <show chara="durandalOpen" position="left"/>
+	    <speak chara="_SwordDurandalQ">「マクスウェルの悪魔」って知ってる？</speak>
+	    <show chara="durandalOpen" position="left" opacity="0.8"/>
+	    <show chara="biankaDressSighClose" position="right"/>
+	    <speak chara="_Bianka">……なにそれ、崩壊獣の一種ですか？</speak>
+	    <show chara="biankaDressSighClose" position="right" opacity="0.8"/>
+	    <show chara="ritaVestNaughtyClose" position="left"/>
+	    <speak chara="_Rita">ふふ。ビアンカ様、「マクスウェルの悪魔」とは、物理学者たちが想像上で作った架空の魔物です——</speak>
+	    <show chara="ritaVestSquintClose" position="left"/>
+	    <speak chara="_Rita">粒子の運動方向を操り、エネルギー伝達に干渉することによって、都合の良いエネルギー分布を作り出します。</speak>
+	    <show chara="ritaVestSquintClose" position="left" opacity="0.8"/>
+	    <show chara="durandalOutstretchOpen" position="right"/>
+	    <speak chara="_SwordDurandalQ">うんうん、リタさん100点満点っしょ！「支配結晶」があれば、もっと広範囲でのエネルギー操作ができるようになるっしょ！</speak>
+	    <show chara="durandalClose" position="right"/>
+	    <speak chara="_SwordDurandalQ">どうもサンキューっしょ、龍さん。助かったっしょ！</speak>
+	    <show chara="durandalClose" position="right" opacity="0.8"/>
+	    <show chara="biankaDressSighClose" position="left"/>
+	    <speak chara="_Bianka">（知らない人には礼儀正しいんだから。）</speak>
+	    <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+	    <show chara="ritaVestSquintClose" position="right"/>
+	    <speak chara="_Rita">（ふふ、ビアンカ様のことが好きだからですよ。）</speak>
+	    <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+	    <show chara="biankaDressScreamClose" position="left"/>
+	    <speak chara="_Bianka">（ちょっと！あんなのに好かれても困るんですけど！？）</speak>
+	    <hide position="left"></hide>
+	    <hide position="right"></hide>
+	    <show chara="shakesCasualEmbarrassedClose" position="center"/>
+	    <speak chara="_Shakespeare">コホン。話を戻そう。</speak>
+	    <bgm src="06_01_ChichenItza.mp3" status="start"></bgm>
+	    <show chara="shakesCasualQuestionClose" position="center"/>
+	    <speak chara="_Shakespeare">ベルトランさん、何故「皇帝」には「壁」が必要不可欠なんだい？</speak>
+	    <show chara="shakesCasualQuestionClose" position="center"/>
+	    <speak chara="_Shakespeare">ただ例の希少エネルギーを集めるためか？「イカれたインド人」が「皇帝」に飲ませたあれを？</speak>
+	    <show chara="shakesCasualQuestionClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">「ただ」とはなんだ！大切なエネルギーだぞ！</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">年月を重ねていくうちに、皇帝の力が弱まり始めた。そもそもインド人の件の時にはすでに、人間としての寿命も近かったのだ。</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">何もしなければ、「超人」の力が消えた後、皇帝は恐らく死ぬ……そうしたら、ブリテンで作り上げた新帝国も瓦解しかねない。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">だからインド人が残した、生産方法が不明な薬を、計画的に消費するようになった。その頃だ、「不老不死」を欲した旧イギリス軍将校が薬を盗もうとした事件が起きたのは。</speak>
+	    <speak chara="_bertrand">——そう、さっき話したハドソン・ロイの件だ。</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">あの薬の代わりを探さなければ、できれば臣民にも分け与えられるほど多く。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">そうだ、その間に、皇帝は「聖歌」の秘密も知った。……どちらが先に起こったのかははっきりと覚えていないが。とにかく、皇帝は「聖歌」の力と、「壁」の設計図を手に入れたのだ。</speak>
+	    <show chara="BertrandNormal" position="center" opacity="0.8"/>
+	    <show chara="shakesCasualNormalClose" position="center"/>
+	    <speak chara="_Shakespeare">順を追って話してくれ。「聖歌」とは？</speak>
+	    <show chara="shakesCasualNormalClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">「聖歌」は「預言者」が作った楽曲だ。人間が先祖より血脈に刻み込まれた「洗礼」を呼び起こし、血が薄れて効力がなくならないようにする。</speak>
+	    <show chara="BertrandSmile" position="center"/>
+	    <speak chara="_bertrand">皇帝はその秘密を知って、音楽の力で大陸の部族や集落に対して帝国に忠誠を誓うよう仕向けた。</speak>
+	    <show chara="BertrandSmile" position="center" opacity="0.8"/>
+	    <show chara="ritaVestNormalClose" position="center"/>
+	    <speak chara="_Rita">「洗礼」というのは、先ほどの「三原則」のことですか？</speak>
+	    <show chara="ritaVestNormalClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">そうだ。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">一つ、個人は集団に危害を加えてはならない。また、その危険を看過することによって、集団に危害を及ぼしてはならない。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">一つ、前述の原則に反しない限り、個人が他の個人を侵害してはならない。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">一つ、前述の原則に反しない限り、個人は集団の命令に服従しなければならない。</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">——これらの「本能」は人々の血脈に刻み込まれ、徐々に大陸全体に拡散された。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">皇帝がしたのはただ、「先天的な国民」を帝国に迎え入れただけだ。</speak>
+	    <show chara="BertrandNormal" position="center" opacity="0.8"/>
+	    <show chara="shakesCasualDislikeClose" position="center"/>
+	    <speak chara="_Shakespeare">「異郷の皇帝はしもべたちを引き連れ街を歩く。すると、奇妙なことが起きた」</speak>
+	    <show chara="shakesCasualDislikeClose" position="center"/>
+	    <speak chara="_Shakespeare">「その行列を見た人の半数が、何故か行列に加わってしまうのだ。まるで自分が最初から皇帝のしもべだったかのように」</speak>
+	    <show chara="shakesCasualDislikeClose" position="center"/>
+	    <speak chara="_Shakespeare">「皇帝のしもべたちは食べず、飲まず、寝ない。ただただ自分たちの皇帝にはべり、私たちの知らない言語で唄を歌いながら、前へ前へ進軍する」</speak>
+	    <show chara="shakesCasualDislikeClose" position="center"/>
+	    <speak chara="_Shakespeare">——この伝説は事実なのか？</speak>
+	    <show chara="shakesCasualDislikeClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">いや……いくらなんでも誇張しすぎだ。</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">飲まず食わず？最初からしもべのように？いや、いや、これだけは私が保証する、イギリス人よ——フランスの皇帝はそのような「まじない師」まがいのことは決してしない！</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">ふざけた伝説だ。皇帝はただ昔からの部下でデモンストレーションをしただけだ。人の力が「人類」を超えられることを証明するために。</speak>
+	    <show chara="BertrandNormal" position="center" opacity="0.8"/>
+	    <show chara="biankaDressSighClose" position="center"/>
+	    <speak chara="_Bianka">……どういうこと？自分の力を示せばいいじゃないですか？</speak>
+	    <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">アムステルダムに上陸する前に、皇帝は我々に薬を分け与えてくれた。力を得られるのは皇帝一人じゃないことを確信したからだ。それに、その頃にはもう薬を節約する必要もなくなっていた。</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">「壁」を展開すれば、全ての人に薬を投与するのと同じことだと分かったのだ。その「壁」の知識をどこで知ったのかはわからないが……もしかしたら、どこかの遺跡で……</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">ああ……皇帝を裏切る前に時を巻き戻したい。それまでは、全てが単純で美しかったのに。</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">皇帝が「預言者」の技術を十分に理解できていなかったのか、あるいは計算ミスだったのか、現実は……</speak>
+	    <bgm src="12_14_fadeAway.mp3" status="start"></bgm>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">「壁」が展開され、罪のない人々が死んでいった。たくさん。</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">皆、皇帝の部下だ。皇帝を信じて仲間に加わった、血脈に「洗礼」が刻まれていた新しい部下も。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">皇帝自身、それほどの犠牲を出すとは予想していなかった。</speak>
+	    <show chara="BertrandNormal" position="center" opacity="0.8"/>
+	    <show chara="shakesCasualMercyClose" position="center"/>
+	    <speak chara="_Shakespeare">……</speak>
+	    <show chara="shakesCasualMercyClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">結果的に、「預言者」からの「洗礼」は彼らに進化を耐えうる強さを与えてはいなかった。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">一部は私のように生き延びた。皇帝のように完全に進化を遂げた者もいた——</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">——だがそれよりもっと多くの！九割の人間が！インド野郎のように化物になり、もしくはエネルギーを浴びた途端焼かれて灰になった！</speak>
+	    <hide position="center"></hide>
+	    <show chara="biankaDressBiteClose" position="left"/>
+	    <speak chara="_Bianka">……！</speak>
+	    <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+	    <show chara="ritaVestHesitateClose" position="right"/>
+	    <speak chara="_Rita">……惨い。</speak>
+	    <hide position="left"></hide>
+	    <hide position="right"></hide>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">ああ、惨い。</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">地獄とは、あのような光景を言うのだろうな……</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">断末魔を出すやつ、出せないやつ、泣き叫ぶやつ、同族を喰らうやつ、燃やし尽くされたやつ、バラバラに砕けたやつ……</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">……残った一割は、冷たくそれらを見下ろし、床のシミのように処理した。</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">彼らの魂には古い「洗礼」が刻まれているから。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">……私はそんなのに耐えられなかった。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">これ以上、皇帝についていけないと思った。</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">恐怖が忠誠より勝ったのだ！ただただ本能的に逃げた！可笑しいだろ！この龍が！</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">……「裏切り」ですらなかった。</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">私は……あの惨状に耐えられなかっただけだ。</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">逃げた！あの最も忠誠だったベルトランが逃げた！もらったばかりの「超人」の力で、尻尾を巻いて逃げた！</speak>
+	    <show chara="BertrandAnger" position="center" opacity="0.8"/>
+	    <show chara="ritaVestHesitateClose" position="center"/>
+	    <speak chara="_Rita">あなたのせいでは……ないと思います。</speak>
+	    <show chara="ritaVestHesitateClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">「壁」の内側では、皇帝がきっとこの上ないほど冷酷で、強大な「超人の国」を作り上げていることだろう。恥ずべきベルトランが、「壁」の外側であてもなく彷徨っていた間に。</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">臆病者のベルトラン！何もできなかった！持っている情報を伝えることすらできなかった！</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">誰も恐ろしい邪龍と話したがらなかった。誰も邪龍とこんな危険な議論を交わす者などいなかった。</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">100人のうち99人はこの姿を見るなり逃げた。残った1人は、名誉と金欲しさに私を殺そうとした。</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">そして、あの食えないペルシアの魔女！私を閉じ込め、残り少ないエネルギーを搾取した！</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">……</speak>
+	    <bgm src="noise.mp3" status="start"></bgm>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">終わらせよう、全てを。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">皇帝の秘密は、もはや一人の臆病者だけが守るものではなくなった……</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">……もっと相応しい人間に託そう。</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">さあ、勇敢なお嬢さんたち、皇帝と対峙する前に、予行演習として彼の部下だったものを倒せ！</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">ベルトラン准将はもう遠征には参加できない……それなら、せめて戦って死なせてくれ！</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">——さあ、殺せ！戦場で死なせてくれ！</speak>
+	    <hide position="center"></hide>
+	    <show chara="biankaDressShoutClose" position="left"/>
+	    <speak chara="_Bianka">……ちょっと、いきなり何を言ってるんですか！？</speak>
+	    <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+	    <show chara="ritaVestAngryClose" position="right"/>
+	    <speak chara="_Rita">落ち着いてください、ベルトランさん。</speak>
+	    <show chara="ritaVestAngryClose" position="right" opacity="0.8"/>
+	    <show chara="durandalClose" position="right"/>
+	    <speak chara="_SwordDurandalQ">う～ん、ワタシはむしろ……</speak>
+	    <speak chara="_SwordDurandalQ">こんなに死にたがっているのだし、一思いにやったらどうっしょ？</speak>
+	    <show chara="durandalClose" position="right" opacity="0.8"/>
+	    <show chara="biankaDressBiteClose" position="left"/>
+	    <speak chara="_Bianka">ちょっとデュラ！冗談言わないでください！？</speak>
+	    <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+	    <show chara="durandalStare" position="right"/>
+	    <speak chara="_SwordDurandalQ">いや、ビアンカ様、冗談じゃないっしょ。</speak>
+	    <bgm src="legion.mp3" status="start"></bgm> 
+	    <speak chara="_SwordDurandalQ">人類はいずれ死ぬ——死に方を選ぶのも大切なことっしょ。</speak>
+	    <hide position="left"></hide>
+	    <hide position="right"></hide>
+	    <show chara="durandalWhite" position="center"/>
+	    <speak chara="_SwordDurandalQ">でも、ひとつだけ臆病者さんは勘違いしているっしょ。</speak>
+	    <show chara="durandalOpen" position="center"/>
+	    <speak chara="_SwordDurandalQ">戦いで栄誉ある死を求めるのならば、真にすべきことは、「生きること」に何度でも挑むこと。そして、何回目に自分が殺されるのか試すことっしょ。</speak>
+	    <show chara="durandalOpen" position="center" opacity="0.8"/>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">……「生きること」？</speak>
+	    <show chara="BertrandNormal" position="center" opacity="0.8"/>
+	    <show chara="durandalOutstretchOpen" position="center"/>
+	    <speak chara="_SwordDurandalQ">そうっしょ、「生きること」。世界で最も手強い相手っしょ。誰一人勝てなかったのだから。本物の英雄でさえも、全力でやつとの戦いを楽しんだことっしょ。</speak>
+	    <show chara="durandalOutstretchWhite" position="center"/>
+	    <speak chara="_SwordDurandalQ">年寄りは頑固らしいから……</speak>
+	    <show chara="durandalSquint" position="center"/>
+	    <speak chara="_SwordDurandalQ">今から暴言を吐くっしょ。コホン。</speak>
+	    <show chara="durandalDeadfish" position="center"/>
+	    <speak chara="_SwordDurandalQ">このボケ！死に損ない！腰抜け野郎！</speak>
+	    <show chara="durandalSquint" position="center"/>
+	    <speak chara="_SwordDurandalQ">『門出の歌』を歌っていた戦士はどこへ行ったっしょ？</speak>
+	    <show chara="durandalStare" position="center"/>
+	    <speak chara="_SwordDurandalQ">「生きること」は、まだ次の一手を待ち構えているっしょ！世界にはできることがまだたくさんあるっしょ！この——</speak>
+	    <hide position="center"></hide>
+	    <show chara="biankaDressSneerClose" position="left"/>
+	    <speak chara="_Bianka">そ、そうです！</speak>
+	    <show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
+	    <show chara="durandalOutstretchStare" position="right"/>
+	    <speak chara="_SwordDurandalQ">（ちょっ、ビアンカ様、まだ——）</speak>
+	    <show chara="durandalOutstretchStare" position="right" opacity="0.8"/>
+	    <show chara="biankaDressBiteClose" position="left"/>
+	    <speak chara="_Bianka">（黙って私に従ってください！でなければ村人に渡してピッケル代わりにさせますよ！）</speak>
+	    <hide position="left"></hide>
+	    <hide position="right"></hide>
+	    <bgm src="12_14_Hero.mp3" status="start"></bgm>
+	    <show chara="biankaDressNormalClose" position="center"/>
+	    <speak chara="_Bianka">ベルトラン将軍。確かに私たちはこれから「皇帝」と対峙します。</speak>
+	    <show chara="biankaDressSmileClose" position="center"/>
+	    <speak chara="_Bianka">あなたが同行することができないこともわかっています。でも、それなら丁度いい仕事があります。</speak>
+	    <show chara="biankaDressSmileClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">……？</speak>
+	    <show chara="BertrandNormal" position="center" opacity="0.8"/>
+	    <show chara="biankaDressNormalClose" position="center"/>
+	    <speak chara="_Bianka">まわりを見てください、この歪な、困った、「超人」を崇拝する国を、迷信に踊らされた隣国を。</speak>
+	    <show chara="biankaDressBiteClose" position="center"/>
+	    <speak chara="_Bianka">私たちが皆、去ってしまったら、彼らはどうなるでしょうか？</speak>
+	    <show chara="biankaDressShoutClose" position="center"/>
+	    <speak chara="_Bianka">ベルトラン将軍、この地を助けてください！本物の「超人」として、彼らを導いていただけないでしょうか！</speak>
+	    <show chara="biankaDressScreamClose" position="center"/>
+	    <speak chara="_Bianka">「皇帝」よりも「ペルシアの魔女」よりも、あなたが適任です！あなたは善良な心を持っているのですから！</speak>
+	    <show chara="biankaDressBiteClose" position="center"/>
+	    <shake position="center" time="250"></shake>	
+	    <speak chara="_Bianka">長い歳月でさえ変えられなかったその心を——大切にしてください！</speak>
+	    <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">……</speak>
+	    <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+	    <show chara="BertrandNormal" position="center" opacity="0.8"/>
+	    <show chara="shakesCasualNormalClose" position="center"/>
+	    <speak chara="_Shakespeare">よく言った、戦乙女。</speak>
+	    <show chara="shakesCasualConfidentClose" position="center"/>
+	    <speak chara="_Shakespeare">龍さん、ここの人たちはあんたを嫌ったりしない。それどころか、あんたは崇拝されるだろう。</speak>
+	    <show chara="shakesCasualConfidentClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">……だが、私は皇帝を裏切ったんだぞ！</speak>
+	    <show chara="BertrandAnger" position="center" opacity="0.8"/>
+	    <show chara="champoQuestionClose" position="center"/>
+	    <speak chara="_Champollion">それがどうした？「皇帝」は誰も裏切ったことがないのかな？</speak>
+	    <show chara="champoColdClose" position="center"/>
+	    <speak chara="_Champollion">侵略し、国を作り——そのために死んだ人間は自ら志願したとはいえ、「栄誉ある死」なのだろうか？</speak>
+	    <show chara="champoQuestionClose" position="center"/>
+	    <speak chara="_Champollion">「皇帝」として、彼は何人裏切った？君が「裏切った」ことを本当に気にしているのか？</speak>
+	    <show chara="champoQuestionClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">それは……</speak>
+	    <show chara="BertrandSmile" position="center"/>
+	    <speak chara="_bertrand">確かに、気にしないだろう。誰かに裏切られたかなんて、考えない人だ。</speak>
+	    <show chara="BertrandNormal" position="center"/>
+	    <speak chara="_bertrand">……</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">あなたたちの勝ちだ。私は苦境から自力で這い上がれない愚か者だ。</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">ああ、おのれ水藻と渦虫！</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">私は今まで何を考えていた！？</speak>
+	    <show chara="BertrandAnger" position="center" opacity="0.8"/>
+	    <show chara="shakesCasualLaughClose" position="center"/>
+	    <speak chara="_Shakespeare">ハッ、いいじゃないか。</speak>
+	    <show chara="shakesCasualConfidentClose" position="center"/>
+	    <speak chara="_Shakespeare">年配の人ほど導きが必要だって——よく言うだろう？</speak>
+	    <show chara="shakesCasualLaughClose" position="center"/>
+	    <speak chara="_Shakespeare">パーッとやって、嫌なこと全部忘れよう。</speak>
+	    <show chara="shakesCasualNormalClose" position="center"/>
+	    <speak chara="_Shakespeare">さあ、早速ここの人たちに紹介しようか？</speak>
+	    <goto goto="50" clockwise="1"/>
+    </scene>
+    <scene id="50" background="hallOfPriestChichenItza.jpg">
+	    <bgm src="06_01_Tuluum.mp3" status="start"></bgm>
+	    <show chara="biankaDressHesitateClose" position="left"/>
+	    <speak chara="_Bianka">……リタ。</speak>
+	    <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+	    <show chara="ritaVestNormalClose" position="right"/>
+	    <speak chara="_Rita">どうかなさいましたか、ビアンカ様？何か心配事でも？</speak>
+	    <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+	    <show chara="biankaDressShyClose" position="left"/>
+	    <speak chara="_Bianka">……急に責任重大な仕事をお年寄りに押し付けて、本当に良かったのでしょうか。</speak>
+	    <show chara="biankaDressShyClose" position="left" opacity="0.8"/>
+	    <show chara="ritaVestSquintClose" position="right"/>
+	    <speak chara="_Rita">ふふ、ビアンカ様は本当にお優しいですね。</speak>
+	    <show chara="ritaVestNaughtyClose" position="right"/>
+	    <speak chara="_Rita">土壇場の妙案としては、これ以上ないほどのものでした。</speak>
+	    <show chara="ritaVestNaughtyClose" position="right" opacity="0.8"/>
+	    <show chara="biankaDressSmileClose" position="left"/>
+	    <speak chara="_Bianka">本当に？</speak>
+	    <show chara="biankaDressSmileClose" position="left" opacity="0.8"/>
+	    <show chara="ritaVestSquintClose" position="right"/>
+	    <speak chara="_Rita">少なくとも、新しい職場は彼の経歴とは無関係です。自身の存在価値を再確認するのにはもってこいでしょう。</speak>
+	    <show chara="ritaVestSmileClose" position="right"/>
+	    <speak chara="_Rita">それに良い仕事は、心身を癒してくれるとも言います。</speak>
+	    <goto goto="60" clockwise="1"/>
+    </scene>
+    <scene id="60" background="ballcourtFar.jpg">
+	    <bgm src="11_29_lab.mp3" status="start"></bgm>
+	    <show chara="shakesCasualConfidentClose" position="center"/>
+	    <speak chara="_Shakespeare">……というわけで、最古の超人、「龍将軍」ベルトランが地上に舞い戻ったことを祝して——</speak>
+	    <show chara="shakesCasualLaughClose" position="center"/>
+	    <speak chara="_Shakespeare">——盛大な球技大会を行う！赤チームと青チームに分かれるんだ！誰でも参加可能！</speak>
+	    <hide position="center"></hide>
+	    <show chara="vilagerSmileClose" position="left"/>
+	    <speak chara="_citizenChichenItzaMan">万歳！ナコム様万歳！</speak>
+	    <show chara="vilagerSmileClose" position="left" opacity="0.8"/>
+	    <show chara="vilagerWomanSmileClose" position="right"/>
+	    <speak chara="_citizenChichenItzaWoman">暗くなったら松明を灯して、子どもたちには球技場で新しい紀元を迎えさせましょう！</speak>
+	    <hide position="left"></hide>
+	    <hide position="right"></hide>
+	    <show chara="biankaDressSighClose" position="left"/>
+	    <speak chara="_Bianka">……出遅れました。これは何事です？</speak>
+	    <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+	    <show chara="durandalOutstretchOpen" position="right"/>
+	    <speak chara="_SwordDurandalQ">聞いたっしょ、「龍将軍」を祝って、船長が民衆を球技大会に誘ったっしょ。</speak>
+	    <show chara="durandalOutstretchOpen" position="right" opacity="0.8"/>
+	    <show chara="biankaDressHesitateClose" position="left"/>
+	    <speak chara="_Bianka">……球技大会？サッカーなら少しできますけど、ここの「球技」ってどんなのでしょう？</speak>
+	    <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+	    <show chara="champoSmileClose" position="right"/>
+	    <speak chara="_Champollion" remark="next">メソアメリカの球戯。大図書館の資料によると、ここ一帯で最も人気なスポーツなようだ。</speak>
+			<remark post="U2FsdGVkX18XlOZKtpb4YulAHtLS">
+				<p class="article-text-h">注釈：</p>
+				<p class="article-text">メソアメリカの球戯（マヤ語：pitz、ナワトル語：ōllamalīztli）はメソアメリカで行われてきたゴム製のボールを使った競技である。三千年以上の歴史があり、具体的なルールは年代や地域によって異なる。一般的に2人もしくは2チームに分かれて行う競技である。</p>
+				<p class="article-text">メソアメリカの球戯は宗教的な意味も持つ。球は太陽を表し、正式な試合では天上の神と地下世界の支配者の戦いと見なされた。負けた方のリーダーは斬首もしくは心臓をえぐられ生贄とされ、頭蓋骨は新たな球の元となった（今回の球はゴムボール）。</p>
+			</remark>
+	    <show chara="champoSweatyClose" position="right"/>
+	    <speak chara="_Champollion">端的に言えば、両チームが交互に球を打って、フィールドから出さないようにする。球と接触していいのは肘、膝、腰、尻のみ。</speak>
+	    <show chara="champoSweatyClose" position="right" opacity="0.8"/>
+	    <show chara="biankaDressSighClose" position="left"/>
+	    <speak chara="_Bianka">ええ……変わったスポーツですね……</speak>
+	    <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+	    <show chara="champoSmileClose" position="right"/>
+	    <speak chara="_Champollion">そうそう、もう一つルールがあった。球を相手側の石の輪に通せたら勝ちだ。</speak>
+	    <show chara="champoSmileClose" position="right"/>
+	    <speak chara="_Champollion">その場合、アウトやルール違反でコツコツ貯めたポイントも無効になる。</speak>
+	    <show chara="champoSmileClose" position="right"/>
+	    <speak chara="_Champollion">——もちろん、難易度の高い勝利方法だ。</speak>
+	    <show chara="champoSmileClose" position="right" opacity="0.8"/>
+	    <show chara="biankaDressSneerClose" position="left"/>
+	    <speak chara="_Bianka">ほう、一撃必殺ですか。面白い。</speak>
+	    <goto goto="70" change="#000000"/>
+    </scene>
+    <scene id="70" background="ballcourtClose.jpg">
+	    <bgm src="11_29_lab.mp3" status="continue"></bgm>
+	    <show chara="biankaDressNormalClose" position="left"/>
+	    <speak chara="_Bianka">ねえ、石の輪って、壁にあるあれのことですか？</speak>
+	    <show chara="biankaDressNormalClose" position="left" opacity="0.8"/>
+	    <show chara="champoNormalClose" position="right"/>
+	    <speak chara="_Champollion">そうだ。</speak>
+	    <show chara="champoSmileClose" position="right"/>
+	    <speak chara="_Champollion">見ての通り、壁の上部に設置されており、サイズも球がちょうど通るくらいだ。</speak>
+	    <show chara="champoSmileClose" position="right" opacity="0.8"/>
+	    <show chara="biankaDressSneerClose" position="left"/>
+	    <speak chara="_Bianka">ふふん、戦乙女に不可能はありません！</speak>
+	    <show chara="biankaDressSmileAhClose" position="left"/>
+	    <speak chara="_Bianka">私も参加します！伝説の一撃必殺を見せてやります！</speak>
+	    <show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
+	    <show chara="ritaVestSquintClose" position="right"/>
+	    <speak chara="_Rita">ふふ。なら、ビアンカ様のお相手は私がいたしましょう。</speak>
+	    <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+	    <show chara="biankaDressSneerClose" position="left"/>
+	    <speak chara="_Bianka">ほう、リタ、私に勝負を挑むのですか？</speak>
+	    <show chara="biankaDressSmileAhClose" position="left"/>
+	    <speak chara="_Bianka">よしよし、それでこそ戦乙女です！宜しい、褒めてつかわします！</speak>
+	    <show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
+	    <show chara="ritaVestNormalClose" position="right"/>
+	    <speak chara="_Rita">いえ、ビアンカ様……1チームにだけ戦乙女がいたら、一方的な試合になるかと思いまして……</speak>
+	    <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+	    <show chara="biankaDressSighClose" position="left"/>
+	    <speak chara="_Bianka">なんだ、つまらないですね。</speak>
+	    <show chara="biankaDressSneerClose" position="left"/>
+	    <speak chara="_Bianka">でも、試合では手を抜かないでくださいね、リタ副官？</speak>
+	    <show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
+	    <show chara="ritaVestSmileClose" position="right"/>
+	    <speak chara="_Rita">もちろんです。ビアンカ様を失望させはしません。</speak>
+	    <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
+	    <show chara="biankaDressSmileClose" position="left"/>
+	    <speak chara="_Bianka">よろしい。</speak>
+	    <show chara="biankaDressSmileAhClose" position="left"/>
+	    <speak chara="_Bianka">さあ、早く参加の申し込みをしましょう。</speak>
+	    <goto goto="80" clockwise="1"/>
+    </scene>
+    <scene id="80" background="CG17-1.jpg">
+	    <bgm src="bigTask.mp3" status="start"></bgm>
+	    <speak chara="_Shakespeare">では、これから特別試合を開始する！</speak>
+	    <speak chara="_citizenChichenItzaFan">おぉおおおおおっ！</speak>
+	    <speak chara="_Shakespeare">赤陣営特別チーム——「一撃必殺」！</speak>
+	    <speak chara="_Shakespeare">隊長：戦乙女、ビアンカ・アタジナ！</speak>
+	    <speak chara="_citizenChichenItzaFan">ビアンカ様！あなたに全財産を賭けます！頑張ってください！</speak>
+	    <speak chara="_Shakespeare">青陣営特別チーム——「ご命令とあらば手を抜きません。油断したら負けちゃいますよビアンカ様」！</speak>
+	    <speak chara="_Shakespeare">隊長：戦乙女、リタ・ロスヴァイセ！</speak>
+	    <speak chara="_citizenChichenItzaFan">リタ様万歳！向こうに賭けたやつらにお力を見せつけてやってください！</speak>
+	    <speak chara="_Shakespeare">盛り上がってるね！選手たちもウズウズしているんじゃないかい？</speak>
+	    <speak chara="_Shakespeare">では、用意——</speak>
+	    <speak chara="_Shakespeare">——スタート！</speak>
+	    <goto goto="90" change="0"/>
+    </scene>
+    <scene id="90" background="ballcourtClose.jpg">
+	    <bgm src="bigTask.mp3" status="continue"></bgm>
+	    <speak chara="_Shakespeare">開始早々ぶつかり合う両チーム！</speak>
+	    <goto goto="100" change="0"/>
+    </scene>
+    <scene id="100" background="CG17-2.jpg">
+	    <bgm src="bigTask.mp3" status="continue"></bgm>
+	    <speak chara="_Shakespeare">ナイス！ビアンカがフィールド前方から肘で球を打ち返し、それを臨機応変にフィールド後方へと戻したリタ！</speak>
+	    <speak chara="_Shakespeare">赤チーム球に届かず！青チームの得点、0：1！</speak>
+	    <goto goto="110" change="0"/>
+    </scene>
+    <scene id="110" background="ballcourtClose.jpg">
+	    <bgm src="bigTask.mp3" status="continue"></bgm>
+	    <speak chara="_Shakespeare">なんと、赤チームすぐに取り返した！ビアンカが相手の体目掛けてサービスエース！1：1！</speak>
+	    <speak chara="_Shakespeare">試合が膠着状態に入った、双方ともしばらく得点をゲットしていない。</speak>
+	    <speak chara="_Shakespeare">おっと、ミスか？ビアンカのミスだ！球を観客席に返してしまった！1：2！青チームリード！</speak>
+	    <speak chara="_Shakespeare">まただ！赤チーム連続ミス！</speak>
+	    <speak chara="_Shakespeare">先ほどのミスの影響か、後方を守るメンバーが受け損ねて、球を場外へ運んだ！1：3！</speak>
+	    <speak chara="_Shakespeare">それでも強気の赤チーム、真っ直ぐに球を運ぶ。もしや輪を狙っているのか？</speak>
+	    <speak chara="_Shakespeare">青チーム、また不意をついて赤チーム後方へ打球！なんとか受け止めたが……ルール外の部位で球を触ったため反則！1：4！</speak>
+	    <speak chara="_Shakespeare">青チームが4点でマッチポイントだ！赤チームどうする！</speak>
+	    <speak chara="_Shakespeare">赤チームのメンバーが何かジェスチャーで意思疎通を図っているようだ……はじまった！赤チームが一か八かの攻めの姿勢！青チームは冷静に防御、陣形を保っている……</speak>
+	    <goto goto="120" change="0"/>
+    </scene>
+    <scene id="120" background="CG17-3.jpg">
+	    <bgm src="bigTask.mp3" status="continue"></bgm>
+	    <speak chara="_Shakespeare">わお！なんてことだ！何が起きた！？</speak>
+	    <speak chara="_Shakespeare">ビアンカが側翼にまわり、空中で膝シュート！見事に輪を通過！</speak>
+	    <goto goto="130" change="0"/>
+    </scene>
+    <scene id="130" background="ballcourtClose.jpg">
+	    <bgm src="bigTask.mp3" status="continue"></bgm>	    
+	    <speak chara="_Shakespeare">輪を通った！赤チーム、1：4の劣勢を見事に逆転！</speak>
+	    <speak chara="_Shakespeare">赤チームの勝利！赤チームの勝ちだ！チーム名の通り、「一撃必殺」を決めた！</speak>
+	    <speak chara="_Shakespeare">おめでとう、赤チーム！おめでとう、ビアンカ！本日最高の一球だった！</speak>
+	    <speak chara="_Shakespeare">球技大会特別試合、赤チームが勝ち点を取った！現在は14：12で赤陣営がリードしているぞ！</speak>
+	    <goto goto="140" clockwise="1"/>
+    </scene>
+    <scene id="140" background="ballcourtFar.jpg">
+	    <bgm src="peerGynt.mp3" status="start"></bgm>
+	    <show chara="biankaDressSmileAhClose" position="left"/>
+	    <speak chara="_Bianka">リタ、いい試合でした。危うく負けるところでした。</speak>
+	    <show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
+	    <show chara="ritaVestSquintClose" position="right"/>
+	    <speak chara="_Rita">ええ、あの一球は素晴らしかったです。</speak>
+	    <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+	    <show chara="biankaDressSmileAhClose" position="left"/>
+	    <speak chara="_Bianka">観客も盛り上がってて、最高でしたね！</speak>
+	    <hide position="left"></hide>
+	    <hide position="right"></hide>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">いやはや……理解し難いものだ……</speak>
+	    <show chara="BertrandAnger" position="center"/>
+	    <speak chara="_bertrand">ついさっき、自分たちの君主を亡くしたのだろう？なのに、身を翻して球場ではしゃぐとは。彼らの信仰は偽りだったのだろうか？</speak>
+	    <show chara="BertrandAnger" position="center" opacity="0.8"/>
+	    <show chara="champoSmileClose" position="center"/>
+	    <speak chara="_Champollion">——これが「文化の違い」だろう。正直、羨ましいな。</speak>
+	    <show chara="champoSmileClose" position="center" opacity="0.8"/>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">……羨ましい？</speak>
+	    <show chara="BertrandThink" position="center" opacity="0.8"/>
+	    <show chara="champoNormalClose" position="center"/>
+	    <speak chara="_Champollion">ああ。彼らにとって、統治者はただのトーテムなんだよ。日々は自分のもので、上層からの影響は受けない。</speak>
+	    <show chara="champoSmileClose" position="center"/>
+	    <speak chara="_Champollion">素晴らしいことじゃないか。統治者が彼らの日常生活に干渉していない証拠だ。</speak>
+	    <show chara="champoSweatyClose" position="center"/>
+	    <speak chara="_Champollion">あのペルシア人は、この点だけで言えば、良い君主だったと言わざるを得ないだろう。</speak>
+	    <show chara="champoNormalClose" position="center"/>
+	    <speak chara="_Champollion">ここの人々は制度を崇拝する。統治者ではなく。……その制度は難ありだが、整っているのに信用されない制度よりはマシだ。</speak>
+	    <show chara="champoSmileClose" position="center"/>
+	    <speak chara="_Champollion">だから「大司祭」が「龍将軍」になったぐらいで、素晴らしい何かがこの社会から失われはしない。</speak>
+	    <show chara="champoSmileClose" position="center"/>
+	    <speak chara="_Champollion">教義の違いはともかく、神の名の頭文字がJかAか、君は気にするか？</speak>
+	    <show chara="BertrandThink" position="center"/>
+	    <speak chara="_bertrand">それは……</speak>
+	    <show chara="champoSmileClose" position="center"/>
+	    <speak chara="_Champollion">よく考えてみてくれ、「龍将軍」。</speak>
+	    <end post="U2FsdGVkX19GiBRUa512FcBs35kF"/>
+    </scene>
+  </story>
+</data>

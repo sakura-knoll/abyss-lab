@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="CG13-6.jpg">
+            <bgm src="noise.mp3" status="start"></bgm>
+            <text>The Valkyrie's head went blank.</text>
+            <text>She wasn't overwhelmed by anger or surprise——</text>
+            <text>She has been trained to discard all unnecessary thoughts to focus better on saving the lives of the people in front of her.</text>
+            <text>It's weak, but she still has a pulse.</text>
+            <text>I might be able to save her.</text>
+            <text>The tactical oxygen and anesthesia kits I was carrying with me came in handy.</text>
+            <text>All that's left is a blood transfusion. But before that I need to test her blood type.</text>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="starNight.jpg">
+            <bgm src="noise.mp3" status="continue"></bgm>
+            <text>——The Valkyrie relentlessly ran under the night sky.</text>
+            <speak chara="_Bianka">(Come on, her blood type! Tell me her blood type already, test strip!)</speak>
+            <speak chara="_Bianka">(Rita or me would be fine, please just tell me one of us is compatible!)</speak>
+            <speak chara="_Bianka">(There is no one else but us who can withstand a blood transfusion for heart surgery.)</speak>
+            <speak chara="_Bianka">(Please, hurry! Even if there is a 1 in a 100 chance of saving her, please tell me!）</speak>
+            <speak chara="_Bianka">(Please, test strip—— Turn teal!)</speak>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="submarinePipe.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="start"></bgm>
+            <text>.....</text>
+            <text>The Valkyrie let out a long exhale and her knees hit the floor of the ship's deck.</text>
+            <text>The blood test strip displayed a brown color.</text>
+            <text>3 minutes passed. No change. 6 minutes passed. The result still refuses to change——</text>
+            <text>——Type O.</text>
+            <text>Type A and B are blood types that cause agglutination.</text>
+            <text>A person with type O can only accept blood from a type O donor.</text>
+            <text>...And unfortunately, neither Rita nor her are compatible with that blood type.</text>
+            <text>This small blood test strip proved performing surgery will be impossible.</text>
+            <text>The young Valkyrie realized that other than using Abyss Flower, the Divine Key stored in HQ far away——</text>
+            <text>——There is no way she or anyone else from the Caledonia could save Eikenal's life.</text>
+            <text>The only thing the young Valkyrie could do for her... was to prepare a funeral.</text>
+            <goto goto="40" clockwise="1"/>
+        </scene>
+        <scene id="40" background="starNight.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
+            <speak chara="_Rita">...As requested by Tazumal-sama, I will proceed to read the 「last oracle」 of Eikenal-sama.</speak>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="CG14-1.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
+            <speak chara="_Rita">「God told me the 13th Baktun is the beginning of a new era.」</speak>
+            <speak chara="_Rita">「On the last day of the 12th Baktun, the world of God and man shall be completely separated.」</speak>
+            <speak chara="_Rita">「God will never bless you again. God will never curse you again. The future will be left to the natural cycle and order.」</speak>
+            <speak chara="_Rita">「But before that, God demanded that a truly pure avatar living in this world, were to come to live in his world.」</speak>
+            <speak chara="_Rita">「Everyone, who I love from the bottom of my heart, please do not be angry, sad or jealous——」</speak>
+            <speak chara="_Rita">「Ix Tab-sama has told me: By separating Heaven from Earth, our world will one day will be able to be as splendid and bright as Heaven.」</speak>
+            <speak chara="_Rita">「In the new era, through hard work anyone will be able to create miracles on par with God.」</speak>
+            <goto goto="60" clockwise="1"/>
+        </scene>
+        <scene id="60" background="mayanBeachMorning.jpg">
+            <bgm src="morning.mp3" status="start"></bgm>
+            <show chara="shakesCasualMercyClose" position="center"/>
+            <speak chara="_Shakespeare">.....</speak>
+            <show chara="shakesCasualSeriousClose" position="center"/>
+            <speak chara="_Shakespeare">The purest avatar of God has left this world and gone to the other side. Come on, let's go.</speak>
+            <hide position="center"></hide>
+            <show chara="champoSweatyClose" position="left"/>
+            <speak chara="_Champollion">I feel like... she pulled a fast one on us.</speak>
+            <show chara="champoSweatyClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSailorUnhappyClose" position="right"/>
+            <!-- FLOW: How ourselves feel -> How we feel -->
+            <speak chara="_Miguel">...How ourselves feel about this doesn't really matter.</speak>
+            <show chara="cervantesSailorUnhappyClose" position="right" opacity="0.8"/>
+            <show chara="schroMemoryClose" position="left"/>
+            <speak chara="_Schrodinger">...At the very least, it seems the rest of the village is willing to earnestly go along with her 「oracle」.</speak>
+            <show chara="schroMemoryClose" position="left" opacity="0.8"/>
+            <show chara="lallaSeriousClose" position="right"/>
+            <speak chara="_Lalla">There might had been a better way to end this but... we can't turn back in time.</speak>
+            <show chara="lallaSeriousClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose" position="left"/>
+            <speak chara="_Rita">.....</speak>
+            <show chara="ritaVestHesitateClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="right"/>
+            <speak chara="_Bianka">I agree. Let's get going.</speak>
+            <show chara="biankaDressHateClose" position="right"/>
+            <speak chara="_Bianka">We're going South, to the 「Federation」.</speak>
+            <show chara="biankaDressBiteClose" position="right"/>
+            <speak chara="_Bianka">...Maybe we'll be able to do something for her and this village.</speak>
+            <goto goto="70" clockwise="1"/>
+        </scene>
+        <scene id="70" background="yamTuluum.jpg">
+            <bgm src="06_01_Tuluum.mp3" status="start"></bgm>
+            <show chara="Warrior2PClose" position="left"/>
+            <speak chara="_Warrior2PNoNameShort">T-The 「Nakom」-sama is here!!</speak>
+            <show chara="Warrior2PClose" position="left" opacity="0.8"/>
+            <show chara="Warrior3PClose" position="right"/>
+            <speak chara="_Warrior3PNoNameShort">We must inform Cauac-sama the 「Nakom」-sama is here immediately!</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">...What's up with these guys? Aren't they supposed to be a garrison from the Federation's army? Why are they running away?</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualSeriousClose" position="right"/>
+            <speak chara="_Shakespeare">...You must have left quite the impression on them yesterday.</speak>
+            <show chara="shakesCasualNormalClose" position="right"/>
+            <speak chara="_Shakespeare">Well, that works on our favor.</speak>
+            <show chara="shakesCasualSeriousClose" position="right"/>
+            <speak chara="_Shakespeare">Looking at how they're panicking tells me they won't put up much resistance.</speak>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">Time to act like a pirate, Valkyrie.</speak>
+            <show chara="shakesCasualConfidentClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">...?</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualNormalClose" position="right"/>
+            <speak chara="_Shakespeare">It's fine, most of the work is done already. It'll be easy.</speak>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">They're so afraid that just 「being direct」 will be enough.</speak>
+            <goto goto="80" clockwise="1"/>
+        </scene>
+        <scene id="80" background="yamTuluum.jpg">
+            <bgm src="06_01_Tuluum.mp3" status="continue"></bgm>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2PNoNameShort">I am sorry to have made you wait, 「Nakom」-sama. Welcome to Tuluum Fort. I am Cauac, the person in charge of this place.</speak>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">I have heard warriors of the 「Federation」 were disrespectful towards you the other day. Please allow me to sincerely apologize on their behalf.</speak>
+            <show chara="Officer2PClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">Huh? What was that? I can't believe what I am hearing... Can you say it again?</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">The other day, us, the 「Federation」, were disrespectful. I sincerely apologize.</speak>
+            <show chara="Officer2PClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">Quite the sudden change of attitude, don't you think? You people sure were acting all high and mighty back in 「El Rey」.</speak>
+            <show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">Please forgive us. You are a 「Nakom」-sama. No member of the Federation is allowed to be disrespectful towards a 「Nakom」.</speak>
+            <show chara="Officer2PClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">...What's this 「Nakom」 thing? Why I am a 「Nakom」?</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">「Nakom」 means 「Super Human」. They are heroes who stand far above the average person, and who are loyal to this land and not to God in Heaven.</speak>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">「The path to become a Super Human can be traversed by anyone. However, until you reach that level, you must display the utmost respect towards those who already are Super Human.」</speak>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">「They are the sea, and you are a grain of sand. No matter how much a grand of sand struggles, they will always be buried by the tide.」</speak>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">We follow the teachings of the High Priestess, please do not misunderstand us and think we only show this level of respect to you. I deeply apologize if we ever have offended you.</speak>
+            <show chara="Officer2PClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaDressHateClose" position="left"/>
+            <speak chara="_Bianka">Then, if I tell you to leave 「El Rey」 alone, will you do it?</speak>
+            <show chara="biankaDressHateClose" position="left" opacity="0.8"/>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">Yes. As long as the High Priestess doesn't oppose to your orders, we will treat your words as law.</speak>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">If you wish, from now on 「El Rey」 will be treated as an independent nation.</speak>
+            <show chara="Officer2PClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaDressAngryClose" position="left"/>
+            <speak chara="_Bianka">Very well. Then I don't mind being a 「Nakom」.</speak>
+            <show chara="biankaDressHateClose" position="left"/>
+            <speak chara="_Bianka">Are my companions and the Captain also considered 「Nakom」?</speak>
+            <show chara="biankaDressHateClose" position="left" opacity="0.8"/>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">Yes. It is clear they all posses enormous prestige and power.</speak>
+            <show chara="Officer2PClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="left"/>
+            <speak chara="_Bianka">Then that makes things easier.</speak>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">This 「Nakom」 wants you to arrange a meeting—— Between me, my companions and your 「High Priestess」.</speak>
+            <show chara="biankaDressHateClose" position="left"/>
+            <speak chara="_Bianka">Will that be possible?</speak>
+            <show chara="biankaDressHateClose" position="left" opacity="0.8"/>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">Of course. I will immediately send a messenger to 「El Castillo」 of Chichen Itza.</speak>
+            <show chara="Officer2PClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualSeriousClose" position="left"/>
+            <speak chara="_Shakespeare">How long will it take him to reach that castle?</speak>
+            <show chara="shakesCasualSeriousClose" position="left" opacity="0.8"/>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">He runs until he switches with someone else at a relay point along the way. It will take a day and a half approximately.</speak>
+            <show chara="Officer2PClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualDislikeClose" position="left"/>
+            <speak chara="_Shakespeare">Running? Surprisingly primitive.</speak>
+            <show chara="shakesCasualQuestionClose" position="left"/>
+            <speak chara="_Shakespeare">Then the fact that there are relay points and routes it means the roads are in good condition, correct?</speak>
+            <show chara="shakesCasualQuestionClose" position="left" opacity="0.8"/>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">Yes. The Federation makes sure to maintain the roads in good condition every year.</speak>
+            <show chara="Officer2PClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">Perfect. Then, let's do the following: Bring us a capable guide, and I'll teach him an easier and better method of traveling than running.</speak>
+            <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">(...?)</speak>
+            <goto goto="90" clockwise="1"/>
+        </scene>
+        <scene id="90" background="mayanRoad.jpg">
+            <bgm src="bigTask.mp3" status="start"></bgm>
+            <show chara="speedLine" position="back"/>
+            <show chara="vilagerManSmileClose-up" position="center"/>
+            <speak chara="_vilagerGuide">Wow! I can't believe this! This is amazing! Long live the Nakom!</speak>
+            <hide position="center"></hide>
+            <show chara="biankaDressSighClose-up" position="left"/>
+            <speak chara="_Bianka">...Hey, Rita.</speak>
+            <show chara="biankaDressHesitateClose-up" position="left"/>
+            <speak chara="_Bianka">Is riding a bicycle really that fun?</speak>
+            <show chara="biankaDressHesitateClose-up" position="left" opacity="0.8"/>
+            <show chara="ritaVestNormalClose-up" position="right"/>
+            <speak chara="_Rita">Yes, Bianka-sama.</speak>
+            <show chara="ritaVestSquintClose-up" position="right"/>
+            <speak chara="_Rita">Our guide is, for the first time in his life, experiencing a speed faster than when he's running with his feet.</speak>
+            <show chara="ritaVestSquintClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose-up" position="left"/>
+            <speak chara="_Bianka">...I see. I guess they don't have horses around here.</speak>
+            <show chara="biankaDressShockClose-up" position="left" opacity="0.8"/>
+            <show chara="ritaVestSmileClose-up" position="right"/>
+            <speak chara="_Rita">Which is why he's as excited as the bikers of a violent running tribe making their engines roar at midnight.</speak>
+            <show chara="ritaVestSmileClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose-up" position="left"/>
+            <speak chara="_Bianka">...Violent running tribe? What's that?</speak>
+            <show chara="biankaDressHesitateClose-up" position="left" opacity="0.8"/>
+            <show chara="ritaVestNaughtyClose-up" position="right"/>
+            <speak chara="_Rita">A group of people who like to drive bikes really fast.</speak>
+            <show chara="ritaVestNaughtyClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose-up" position="left"/>
+            <speak chara="_Bianka">...Ah, delinquents?</speak>
+            <show chara="biankaDressSighClose-up" position="left" opacity="0.8"/>
+            <show chara="ritaVestSmileClose-up" position="right"/>
+            <speak chara="_Rita">Hehe. It's true there are delinquents among bike gangs, but that doesn't mean every bike lover is a bad person, Bianka-sama.</speak>
+            <show chara="ritaVestSquintClose-up" position="right"/>
+            <speak chara="_Rita">If we ever have the chance, I'd like to take you for a drive through the empty streets of Naples at night.</speak>
+            <show chara="ritaVestSquintClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose-up" position="left"/>
+            <speak chara="_Bianka">Umm... sure, maybe one day...</speak>
+            <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+            <show chara="biankaDressSorrowClose-up" position="left"/>
+            <speak chara="_Bianka">Sorry, I'm just not in the mood right now.</speak>
+            <show chara="biankaDressSorrowClose-up" position="left" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose-up" position="right"/>
+            <speak chara="_Rita">.....</speak>
+            <show chara="ritaVestHesitateClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressAngryClose-up" position="left"/>
+            <speak chara="_Bianka">I was... really useless today.</speak>
+            <show chara="biankaDressAngryClose-up" position="left"/>
+            <speak chara="_Bianka">I couldn't stop her from hurting herself.</speak>
+            <show chara="biankaDressNormalClose-up" position="left"/>
+            <speak chara="_Bianka">I was only able to watch her die from blood loss.</speak>
+            <show chara="biankaDressSorrowClose-up" position="left"/>
+            <speak chara="_Bianka">There should have been... absolutely... a better way to handle that...</speak>
+            <show chara="biankaDressSorrowClose-up" position="left" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose-up" position="right"/>
+            <speak chara="_Rita">.....</speak>
+            <show chara="ritaVestHesitateClose-up" position="right"/>
+            <speak chara="_Rita">That's... how life is, Bianka-sama.</speak>
+            <show chara="ritaVestNormalClose-up" position="right"/>
+            <speak chara="_Rita">You might know this already, but in the outskirts of Naples there was once a settlement which was buried under volcanic ash in the year 79 AD—— Its name was Pompeii.</speak>
+            <show chara="ritaVestHesitateClose-up" position="right"/>
+            <speak chara="_Rita">The victims of the Pompeii tragedy had a chance to escape when the volcano began to erupt.</speak>
+            <speak chara="_Rita">But after the first earthquake passed, they chose to go back to their homes to protect their property, without realizing the ash was getting closer with each passing moment.</speak>
+            <show chara="ritaVestAngryClose-up" position="right"/>
+            <speak chara="_Rita">The thought of stealing from someone else didn't even cross their minds.</speak>
+            <speak chara="_Rita">They simply wanted to repair their broken houses and take whatever they could carry to a safer place.</speak>
+            <show chara="ritaVestAngryClose-up" position="right"/>
+            <speak chara="_Rita">Regrettably, the world did not wait for them, and hundreds of volcanic ash fell upon the city in an instant. Those unlucky people were buried deep in ash... and never had the chance to use those properties they cared so much about again.</speak>
+            <show chara="ritaVestHesitateClose-up" position="right"/>
+            <speak chara="_Rita">——Did they do the wrong thing?</speak>
+            <show chara="ritaVestAngryClose-up" position="right"/>
+            <speak chara="_Rita">Back then, would had anyone been able to know about volcanic activity and devise a plan to evacuate?</speak>
+            <show chara="ritaVestAngryClose-up" position="right"/>
+            <speak chara="_Rita">...The answer is of course no. No one is omnipotent.</speak>
+            <show chara="ritaVestHesitateClose-up" position="right"/>
+            <speak chara="_Rita">It's easy to criticize the past using knowledge from the present, but no one living in the present can predict the future.</speak>
+            <show chara="ritaVestHesitateClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose-up" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaDressSorrowClose-up" position="left"/>
+            <speak chara="_Bianka">I understand... what you're trying to say. But... I...</speak>
+            <show chara="biankaDressSorrowClose-up" position="left" opacity="0.8"/>
+            <show chara="ritaVestTearClose-up" position="right"/>
+            <speak chara="_Rita">I know. You don't have to say anything, Bianka-sama. I know well.</speak>
+            <show chara="ritaVestTearClose-up" position="right"/>
+            <speak chara="_Rita">Because you have... a pure and kind heart.</speak>
+            <show chara="ritaVestTearClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose-up" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaDressBiteClose-up" position="left"/>
+            <speak chara="_Bianka">H-Hey! What's up with you!? Wipe off your tears, idiot!</speak>
+            <show chara="biankaDressBiteClose-up" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose-up" position="right"/>
+            <speak chara="_Rita">Hehe. Bianka-sama sure is cute.</speak>
+            <show chara="ritaVestSquintClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose-up" position="left"/>
+            <speak chara="_Bianka">Y-You're being super creepy right now!</speak>
+            <goto goto="100" clockwise="1"/>
+        </scene>
+        <scene id="100" background="mayanRoad.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <show chara="vilagerManSmileClose-up" position="left"/>
+            <speak chara="_vilagerGuide">We've now passed Oxkutzcab Station. We'll be arriving at Chichen Itza once we go through the forest you can see up ahead.</speak>
+            <show chara="vilagerManSmileClose-up" position="left" opacity="0.8"/>
+            <show chara="shakesCasualNormalClose-up" position="right"/>
+            <speak chara="_Shakespeare">Is Chichen Itza a big city?</speak>
+            <show chara="shakesCasualNormalClose-up" position="right" opacity="0.8"/>
+            <show chara="vilagerManSmileClose-up" position="left"/>
+            <speak chara="_vilagerGuide">I believe it's quite small compared to the 「large cities」 you all are used to. It takes approximately 3000 steps to walk from one end to the other.</speak>
+            <show chara="vilagerManSmileClose-up" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose-up" position="right"/>
+            <speak chara="_Champollion">Hm. Should be more or less similar in size to Ajaccio.</speak>
+            <show chara="champoSmileClose-up" position="right" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose-up" position="left"/>
+            <speak chara="_Shakespeare">Haha. I think nobody but you understands that comparison, Archaeologist. What's Ajaccio? Some rural town in Italy?</speak>
+            <show chara="shakesCasualConfidentClose-up" position="left" opacity="0.8"/>
+            <show chara="champoSweatyClose-up" position="right"/>
+            <speak chara="_Champollion">No, it's the capital of Corsica in France.</speak>
+            <show chara="champoSweatyClose-up" position="right" opacity="0.8"/>
+            <show chara="shakesCasualEmbarrassedClose-up" position="left"/>
+            <speak chara="_Shakespeare">Ho... I see. So Corsica is considered French territory, huh. History sure has its interesting twists and turns.</speak>
+            <show chara="shakesCasualEmbarrassedClose-up" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose-up" position="right"/>
+            <speak chara="_Bianka">That's the future to you, right?</speak>
+            <show chara="biankaDressHesitateClose-up" position="right" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose-up" position="left"/>
+            <speak chara="_Shakespeare">Hahaha, yes, but once I know what the future is like I can't help but wanting to change it.</speak>
+            <show chara="shakesCasualLaughClose-up" position="left" opacity="0.8"/>
+            <show chara="biankaDressNormalClose-up" position="right"/>
+            <speak chara="_Bianka">...Do you dislike 「fatalism」?</speak>
+            <show chara="biankaDressNormalClose-up" position="right" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose-up" position="left"/>
+            <speak chara="_Shakespeare">That's one of the reasons, yes. But the most important one is knowing what to expect.</speak>
+            <show chara="shakesCasualEmbarrassedClose-up" position="left"/>
+            <speak chara="_Shakespeare">For example... someone who learns flushing toilets exist can't go back to take a dump in a pit latrine like nothing happened, you know?</speak>
+            <show chara="shakesCasualEmbarrassedClose-up" position="left" opacity="0.8"/>
+            <show chara="biankaDressAngryClose-up" position="right"/>
+            <speak chara="_Bianka">Couldn't you have come up with a better example...</speak>
+            <show chara="biankaDressAngryClose-up" position="right" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose-up" position="left"/>
+            <speak chara="_Shakespeare">Hahaha, that reaction right there is exclusive to someone from a 「developed world」. From the perspective of a 「non-developed world」, you guys look 「impeccable」.</speak>
+            <show chara="shakesCasualDislikeClose-up" position="left"/>
+            <speak chara="_Shakespeare">Even nobles rarely took baths in the 13th and 14th century in Europe. I'm sure you can't even imagine it. In my time, doctors didn't even know they needed to disinfect themselves before performing surgery.</speak>
+            <show chara="shakesCasualQuestionClose-up" position="left"/>
+            <speak chara="_Shakespeare">That era wasn't academic at all. If one were to collect all books made during that period they wouldn't even fill a corner of the Great Library.</speak>
+            <show chara="shakesCasualConfidentClose-up" position="left"/>
+            <speak chara="_Shakespeare">And I wouldn't have been able to hear the beautiful melodies composed by Mozart and Beethoven had I not 「met by chance」 the future in this world.</speak>
+            <show chara="shakesCasualNormalClose-up" position="left"/>
+            <speak chara="_Shakespeare">Humans are fundamentally greedy creatures. I think being honest with that desire is the key to live a good life.</speak>
+            <show chara="shakesCasualLaughClose-up" position="left"/>
+            <speak chara="_Shakespeare">——Don't you agree, Guide? It'll probably take you several years to make your own bicycle using materials from here, but even so you're willing to work hard for it, don't you?</speak>
+            <show chara="shakesCasualLaughClose-up" position="left" opacity="0.8"/>
+            <show chara="vilagerManSmileClose-up" position="right"/>
+            <speak chara="_vilagerGuide">...Yes, what is it?</speak>
+            <show chara="vilagerManSmileClose-up" position="right" opacity="0.8"/>
+            <show chara="shakesCasualEmbarrassedClose-up" position="left"/>
+            <speak chara="_Shakespeare">Oops, I forgot he can't understand us if no one is translating for him.</speak>
+            <goto goto="110" clockwise="1"/>
+        </scene>
+        <scene id="110" background="highTempleChichenItza.jpg">
+            <bgm src="06_01_ChichenItza.mp3" status="start"></bgm>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">Wow! What a tall temple!</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">Is it a historical building, Guide-san?</speak>
+            <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
+            <show chara="vilagerSmileClose" position="left"/>
+            <speak chara="_vilagerGuide">Yes, it's a thousand years old building.</speak>
+            <show chara="vilagerSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">A-A thousand years？</speak>
+            <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+            <show chara="vilagerSmileClose" position="left"/>
+            <speak chara="_vilagerGuide">Yes, Nakom-sama. The High Priestess encourages the preservation of historical buildings.</speak>
+            <show chara="vilagerSmileClose" position="left"/>
+            <speak chara="_vilagerGuide">The interior of the temples have been refurbished not only to protect its structure but also so that they can be used as buildings.</speak>
+            <show chara="vilagerSmileClose" position="left"/>
+            <speak chara="_vilagerGuide">I'm sure you will understand once you go inside one of them.</speak>
+            <goto goto="120" change="#ffffff"/>
+        </scene>
+        <scene id="120" background="castilloChichenItza.jpg">
+            <bgm src="06_01_ChichenItza.mp3" status="continue"></bgm>
+            <show chara="vilagerSmileClose" position="left"/>
+            <speak chara="_vilagerGuide">...This is the Kukulkan Temple, the most magnificent building in all of Chichen Itza!</speak>
+            <show chara="vilagerSmileClose" position="left"/>
+            <speak chara="_vilagerGuide">Kukulkan is the name of an ancient deity, it means 「Feathered Serpent」——</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <speak chara="_Shakespeare">Yes yes, it's a great temple we get it. What's that thing behind the temple? Looks like a big pile of iron to me?</speak>
+            <show chara="vilagerSeriousClose" position="left"/>
+            <speak chara="_vilagerGuide">...「Big pile of iron」, you say?</speak>
+            <show chara="vilagerSmileClose" position="left"/>
+            <speak chara="_vilagerGuide">Ah! You must be referring to the 「Heart of Kukulkan」! It's actually a meteorite.</speak>
+            <show chara="vilagerSmileClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">Oh? A meteorite?</speak>
+            <show chara="shakesCasualConfidentClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">Looks similar to the Ayers Rock in Australia...</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <speak chara="_ZarathustraDaughterNoNameZero" remark="next">Hehe. Travelers from far away, that is the core of a star who fell from the sky that I purposely dug up from Chicxulub.</speak>
+            <remark post="U2FsdGVkX18+S4v9CKiWAD46NKkM">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">希克苏鲁伯（Chicxulub，玛雅语意为“恶魔的尾巴”）陨石坑位于尤卡坦半岛西北部，是一个埋藏在地表之下、直径约有150~180公里的陨石撞击坑。它也是地球表面最大的撞击地形之一。</p>
+                <p class="article-text">2010年3月5日，《科学》杂志上的一篇研究报告确认，在6500万年前形成希克苏鲁伯陨石坑的小行星撞击事件，是造成恐龙大灭绝的首要原因。</p>
+                <p class="article-text">p.s. 该陨石撞击时产生的爆炸，相当于百万枚人类历史上威力最强的氢弹——“沙皇炸弹”同时起爆；因此在实际情形中，这颗直径10公里以上的小行星，在撞击的瞬间就完全汽化了。</p>
+            </remark>
+            <speak chara="_vilagerGuide">High Priestess! Forgive my rudeness!</speak>
+            <goto goto="140" change="0"/>
+        </scene>
+        <scene id="140" background="CG14-2.jpg">
+            <bgm src="06_01_ChichenItza.mp3" status="continue"></bgm>
+            <speak chara="_ZarathustraDaughterNoName">At ease.</speak>
+            <speak chara="_ZarathustraDaughterNoName">Guests from a distant land—— Your arrival has been foretold by the stars and birds.</speak>
+            <speak chara="_ZarathustraDaughterNoName">I am Esther Zarathustra, High Priestess of the 「Peninsula Federation」. You may address me as Esther.</speak>
+            <speak chara="_ZarathustraDaughter">I believe you already know the Federation to a certain extent.</speak>
+            <speak chara="_ZarathustraDaughter">But nonetheless, I would like you to personally introduce you to the country I founded with my own hands.</speak>
+            <goto goto="150" change="0"/>
+        </scene>
+        <scene id="150" background="castilloChichenItza.jpg">
+            <bgm src="06_01_ChichenItza.mp3" status="continue"></bgm>
+            <show chara="ZarathustraSmileClose" position="center"/>
+            <speak chara="_ZarathustraDaughter">The long count calendar of Yucatan is entering its 13th Baktun.</speak>
+            <show chara="ZarathustraNormalClose" position="center"/>
+            <speak chara="_ZarathustraDaughter">If the 「long count calendar」 was created for the sake of a special day, then that would mean the Maya civilization has existed in this land for nearly 5000 years.</speak>
+            <show chara="ZarathustraSorrowClose" position="center"/>
+            <speak chara="_ZarathustraDaughter">But as you can see, their tools are very primitive and they lack the livestock necessary to cultivate the land.</speak>
+            <show chara="ZarathustraThinkClose" position="center"/>
+            <speak chara="_ZarathustraDaughter">When I first arrived, like many others 「Wanderer」 did, I could not believe a civilization this strange could exist.</speak>
+            <show chara="ZarathustraNormalClose" position="center"/>
+            <speak chara="_ZarathustraDaughter">But now I can say with confidence this wasn't a 「human」 problem. The Yucatan Peninsula is a geographically impoverished region.</speak>
+            <show chara="ZarathustraAngerClose" position="center"/>
+            <speak chara="_ZarathustraDaughter">There is no livestock and ore can not be mined. The nearest vein is far away in the Mexican plateau.</speak>
+            <show chara="ZarathustraSorrowClose" position="center"/>
+            <speak chara="_ZarathustraDaughter">People did their best with the tools they had, but their lives did not improve. If one did not know the date, one would think they had gone back to ancient times.</speak>
+            <show chara="ZarathustraSmileClose" position="center"/>
+            <speak chara="_ZarathustraDaughter">I come from the era of Cyrus the Great—— If you were to ask other Wanderer for their opinion, they would claim 2500 years in the past are 「ancient times」.</speak>
+            <hide position="center"></hide>
+            <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">Eh?</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraSmileClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">It is not that surprising, young lady.</speak>
+            <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">I mean, isn't your Spanish really good?</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraNormalClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">When in Rome, do as the Romans do. When many Wanderer can speak the same language, there is no need to keep around the language of the natives no one knows.</speak>
+            <show chara="ZarathustraNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">B-But the natives communicate using hieroglyphs, don't they? Shouldn't you be the one following their customs?</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraSorrowClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">The language of this place is too primitive, it is unable to express advanced technological vocabulary. It is easier to teach a Wanderer Spanish than going through the trouble of using a translator.</speak>
+            <show chara="ZarathustraSorrowClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">...Y-You discarded their language for that reason?</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraAngerClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">Is it strange? Things without value must be discarded. That is what I learned from my father at the age of 10.</speak>
+            <show chara="ZarathustraAngerClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="left"/>
+            <speak chara="_Rita">「Zarathustra」...</speak>
+            <show chara="ritaVestNormalClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraSmileClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">Yes, that is the name of my father. This 「Federation」 I built with my own hands is based on the ideals my father passed down to me.</speak>
+            <show chara="ZarathustraSmileClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">...Let us continue our talk inside the 「Heart of Kukulkan」.</speak>
+            <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">...You mean inside the meteorite?</speak>
+            <goto goto="160" clockwise="1"/>
+        </scene>
+        <scene id="160" background="hallOfPriestChichenItza.jpg">
+            <bgm src="06_01_Tuluum.mp3" status="start"></bgm>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">Why did you make such a fancy building inside a meteorite?</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraSmileClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">No reason in particular, it was simply a mining site that was no longer in use.</speak>
+            <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="left"/>
+            <speak chara="_Rita">It's a place full of mystery fitting to be Esther-sama's house.</speak>
+            <show chara="ritaVestSquintClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraSmileClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">Thank you for the compliment. But rather than my 「house」, this place is closer to being my 「laboratory」.</speak>
+            <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+            <show chara="champoSmileClose" position="left"/>
+            <speak chara="_Champollion">Oh? And what kind of experiments does the great High Priestess do?</speak>
+            <show chara="champoSmileClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraThinkClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">Before I begin my explanation, there is a question you must answer first, my honored guests.</speak>
+            <show chara="ZarathustraNormalClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">Do you know who my father is?</speak>
+            <show chara="ZarathustraNormalClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualEmbarrassedClose" position="left"/>
+            <speak chara="_Shakespeare">「Zarathustra」? The Persian Priest the Greeks called 「Zoroaster」?</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraNormalClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">Yes, my father was a Priest too.</speak>
+            <show chara="ZarathustraAngerClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">I would like to make a small correction to your answer. 「Persia」 is a derogatory term used by the Greeks, its proper name is 「Iran」.</speak>
+            <show chara="ZarathustraAngerClose" position="right" opacity="0.8"/>
+            <show chara="champoNormalClose" position="left"/>
+            <speak chara="_Champollion">Later generations paint him as the person who started Zoroastrianism and unified the many multi-ethnic groups in Iran.</speak>
+            <show chara="champoNormalClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraSorrowClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">...I have heard that from many Wanderer. However, there seems to be a misunderstanding.</speak>
+            <show chara="ZarathustraSmileClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">——Do you know anything else?</speak>
+            <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+            <show chara="cervantesSailorSmileClose" position="left"/>
+            <speak chara="_Miguel">『Avesta』 is a religious text with the purpose of reaching enlightenment...</speak>
+            <show chara="cervantesSailorNormalClose" position="left"/>
+            <speak chara="_Miguel">But unfortunately two thirds of it were burned by Alexander The Great.</speak>
+            <show chara="cervantesSailorNormalClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraSmileClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">My father would had not felt bad about that.</speak>
+            <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+            <show chara="cervantesSailorUnhappyClose" position="left"/>
+            <speak chara="_Miguel">...Why?</speak>
+            <show chara="cervantesSailorUnhappyClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraNormalClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">Because my father never made such scripture in the first place.</speak>
+            <show chara="ZarathustraSmileClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">And according to what I have heard, these days 「Zoroastrianism」 has taken a form very different from what was originally intended to be.</speak>
+            <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualSeriousClose" position="left"/>
+            <speak chara="_Shakespeare">...Does that have any relationship with the 「experiment」 you mentioned earlier?</speak>
+            <show chara="shakesCasualSeriousClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraSmileClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">You are correct, Captain.</speak>
+            <show chara="ZarathustraNormalClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">And, it is deeply connected to the legend of the 「Serpent King」 as well.</speak>
+            <show chara="ZarathustraSmileClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">Please, sit. Let us take our time to get to know each other.</speak>
+            <end post="U2FsdGVkX1+unOFloVQ674ElPqfG"/>
+        </scene>
+    </story>
+</data>

@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="mayanBeach.jpg">
+            <bgm src="12_29_busyHarbor.mp3" status="start"></bgm>
+            <text>15 minutes ago——</text>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">Ah! What a beautiful sea! What a beautiful sky!</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="left"/>
+            <speak chara="_Shakespeare">I'd love to keep basking forever in the Sun on this beach.</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">Captain Shakespeare... I'm pretty sure we landed because you saw smoke in the distance.</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualMercyClose" position="left"/>
+            <speak chara="_Shakespeare">Yeah, I know. We need supplies and a guide. Specially a guide.</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="left"/>
+            <speak chara="_Shakespeare">We're not in Alexandria anymore, we probably won't find many people who can speak English.</speak>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">Let's start with that—— Can everyone tell me which languages you can speak?</speak>
+            <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">...Heh, thought you were supposed to know every little detail about everyone since you're the Captain.</speak>
+            <show chara="biankaDressSneerClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">Well, we'll be fine even if we can't communicate—— I felt like asking just in case.</speak>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">I only know English and Latin... I'm sure Valkyries like you two know a lot more.</speak>
+            <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">Hm.</speak>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">I can speak these four—— English, German, Russian and French.</speak>
+            <show chara="biankaDressSneerClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">And Rita?</speak>
+            <show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">...It's not my intention to brag, but I can speak more than a dozen of major languages. However, I'm not sure how useful they will be here in the 「New World」.</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">W-Wait a moment.</speak>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <!-- 
+                This section differs from Aiatar's translation a bit since it's the JP version.
+                 - In CN, Bianka asks Chinese->Japanese->Spanish, in JP she asks Japanese->Chinese->Spanish (just an ordering change)
+                 - In CN, Bianka speaks 1st->2nd verse by Yan Shu, in JP she speaks "Of course."->1st verse (skips 2nd verse)
+            -->
+            <speak chara="_Bianka">「A dozen major languages」... does that include Chinese?</speak>
+            <show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita" remark="next">「一曲新词酒一杯， 去年天气旧亭台。夕阳西下几时回？」</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">A new song, a cup of wine;</p>
+                <p class="article-text">Last year's weather at the old pond terrace.</p>
+                <p class="article-text">The setting sun sinks in the west— when to return?</p>
+                <p class="article-text">——Yan Shu</p>
+                <p class="article-text"></p>
+                <p class="article-text">TL Note: this help box doesn't appear in CN since she's speaking Chinese here</p>
+            </remark>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita" remark="next">「无可奈何花落去， 似曾相识燕归来。小园香径独徘徊。」</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">Do what one may, blossoms will fall,</p>
+                <p class="article-text">As if we knew each other, the swallows come back.</p>
+                <p class="article-text">In the little garden I pace a fragrant path alone.</p>
+                <p class="article-text">——Yan Shu</p>
+                <p class="article-text"></p>
+                <p class="article-text">TL Note: this help box doesn't appear in CN since she's speaking Chinese here</p>
+                <p class="article-text">Poem info: https://baike.baidu.com/item/浣溪沙·一曲新词酒一杯</p>
+            </remark>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">What about... Japanese? Can you speak it too?</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNaughtyClose" position="right"/>
+            <speak chara="_Rita" remark="next">「古池や / 蛙飛びこむ / 水の音」</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">an ancient pond / a frog jumps in / the splash of water</p>
+                <p class="article-text">——Matsuo Bashō</p>
+            </remark>
+            <show chara="ritaVestNaughtyClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose" position="left"/>
+            <speak chara="_Bianka">T-Then... Spanish?</speak>
+            <show chara="biankaDressScreamClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita" remark="next">「Cuando una puerta se cierra, otra se abre.」</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">When one door closes, another opens.</p>
+                <p class="article-text">——《Don Quixote》 Volume 1, Section 21</p>
+            </remark>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">...You really can do anything.</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSailorLaughClose" position="right"/>
+            <speak chara="_Miguel">Hahaha, I wrote that last one!</speak>
+            <show chara="cervantesSailorLaughClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestSmileClose" position="left"/>
+            <speak chara="_Rita">Yes, Cervantes-sama, that line is from your 《Don Quixote》.</speak>
+            <show chara="ritaVestSmileClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">Old man, since you come from Spain, do you know any minor language from that region?</speak>
+            <show chara="shakesCasualLaughClose" position="right" opacity="0.8"/>
+            <show chara="cervantesSailorSmileClose" position="left"/>
+            <speak chara="_Miguel">Hmm... 「minor」 you say... I guess Arabic doesn't count...</speak>
+            <show chara="cervantesSailorNormalClose" position="left"/>
+            <speak chara="_Miguel">And the rest of the European languages are covered by everyone else...</speak>
+            <show chara="cervantesSailorLaughClose" position="left"/>
+            <speak chara="_Miguel">Sorry, can't think of any.</speak>
+            <show chara="cervantesSailorLaughClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualEmbarrassedClose" position="right"/>
+            <speak chara="_Shakespeare">What to do... Lalla and Schrodinger are staying behind on the ship...</speak>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">Ah, I know. Champollion, since you're an archaeologist, did you happen to learn any language of the New World in one of your adventures?</speak>
+            <show chara="shakesCasualConfidentClose" position="right" opacity="0.8"/>
+            <show chara="champoSweatyClose" position="left"/>
+            <speak chara="_Champollion">...Sorry, I only know the Coptic language of Egypt.</speak>
+            <show chara="champoSweatyClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">Hahaha, makes sense, you were studying Egypt when we met you!</speak>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">Oh well! Everything will work out just fine, we can let our Spanish speakers take the lead—— They'll be able to talk to God for us!</speak>
+            <show chara="shakesCasualConfidentClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">...How did you even arrive to that conclusion?</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSailorLaughClose" position="right"/>
+            <speak chara="_Miguel">...I think she's probably referring to 「I speak Spanish to God」.</speak>
+            <show chara="cervantesSailorLaughClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">Yeah, that's what I was talking about.</speak>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">Come on, let's go—— To the most likely place with people living on it!</speak>
+            <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="right"/>
+            <speak chara="_Bianka" remark="next">(...Eh? Was that a saying or something? I'm the only one who doesn't get it?)</speak>
+            <remark post="U2FsdGVkX1+el5qtmajBs2CXtBqo">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">“我用西班牙语和上帝对话，用意大利语同女人调情，用法语与绅士寒暄，而用德语调教马匹。”</p>
+                <p class="article-text">——查理五世（西班牙国王、神圣罗马帝国皇帝）</p>
+            </remark>
+            <goto goto="20" clockwise="1"/>
+        </scene>
+        <scene id="20" background="mayanWallBroken.jpg">
+            <bgm src="morning.mp3" status="start"></bgm>
+            <show chara="shakesCasualQuestionClose" position="left"/>
+            <speak chara="_Shakespeare">HELLOOOO! IS THERE ANYONE HERE?</speak>
+            <show chara="shakesCasualDislikeClose" position="left"/>
+            <speak chara="_Shakespeare">...CAN SOMEONE HEAR ME?</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="left"/>
+            <speak chara="_Shakespeare">Weird... no response at all...</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSailorNormalClose" position="right"/>
+            <speak chara="_Miguel">...Wait, I see someone running in the woods.</speak>
+            <goto goto="25" change="#ffffff"/>
+        </scene>
+        <scene id="25" background="mayanWallBroken.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="cervantesSailorLaughClose" position="left"/>
+            <speak chara="_Miguel">Miss! Can you speak Spanish?</speak>
+            <show chara="cervantesSailorLaughClose" position="left" opacity="0.8"/>
+            <show chara="WitchShockClose" position="right"/>
+            <speak chara="_WitchNoName">...</speak>
+            <show chara="WitchSadClose" position="right"/>
+            <speak chara="_WitchNoName">You're... from the Federation!? But those clothes...</speak>
+            <show chara="WitchSadClose" position="right" opacity="0.8"/>
+            <show chara="cervantesSailorNormalClose" position="left"/>
+            <speak chara="_Miguel">...Federation? What's that? Isn't this Mexico?</speak>
+            <show chara="cervantesSailorNormalClose" position="left" opacity="0.8"/>
+            <show chara="WitchShockClose" position="right"/>
+            <speak chara="_WitchNoName">...Huh?</speak>
+            <show chara="WitchSadClose" position="right"/>
+            <speak chara="_WitchNoName">Mister... you haven't heard of the Federation?</speak>
+            <show chara="WitchShockClose" position="right"/>
+            <speak chara="_WitchNoName">But... you're speaking the 「standard language of the Federation」.</speak>
+            <show chara="WitchShockClose" position="right" opacity="0.8"/>
+            <show chara="cervantesSailorSmileClose" position="left"/>
+            <speak chara="_Miguel">...Hm? We're obviously speaking Spanish.</speak>
+            <show chara="cervantesSailorLaughClose" position="left"/>
+            <speak chara="_Miguel">「Standard language of the Federation」, you called it? Never heard of it.</speak>
+            <show chara="cervantesSailorLaughClose" position="left" opacity="0.8"/>
+            <show chara="WitchSadClose" position="right"/>
+            <speak chara="_WitchNoName">...?</speak>
+            <show chara="WitchShockClose" position="right"/>
+            <speak chara="_WitchNoName">...Ah! I get it!</speak>
+            <show chara="WitchHappyClose" position="right"/>
+            <speak chara="_WitchNoName">You're a 「Wanderer」, right? You came from another world, like the 「High Priestess」 of the Federation!</speak>
+            <show chara="WitchHappyClose" position="right" opacity="0.8"/>
+            <show chara="cervantesSailorLaughClose" position="left"/>
+            <speak chara="_Miguel">Umm... yes, I think so?</speak>
+            <show chara="cervantesSailorLaughClose" position="left" opacity="0.8"/>
+            <show chara="WitchSmileClose" position="right"/>
+            <speak chara="_WitchNoName">——I'm glad!</speak>
+            <show chara="WitchSeriousClose" position="right"/>
+            <speak chara="_WitchNoName">Wanderers who speak God's tongue! The army of the Federation is about to attack my village. Please, lend me your help!</speak>
+            <show chara="WitchSeriousClose" position="right" opacity="0.8"/>
+            <show chara="cervantesSailorStareClose" position="left"/>
+            <speak chara="_Miguel">...What?</speak>
+            <show chara="cervantesSailorStareClose" position="left" opacity="0.8"/>
+            <show chara="WitchSeriousClose" position="right"/>
+            <speak chara="_WitchNoName">I-I'm the 「Oracle」 of the village, and the 「human avatar」 of the local deity 「Ix Tab」.</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="WitchSmileClose-up" position="center"/>
+            <speak chara="_WitchNoName">If you're willing to help us...</speak>
+            <show chara="WitchSeriousClose-up" position="center"/>
+            <speak chara="_WitchNoName">We'll do anything to repay you!</speak>
+            <goto goto="30" clockwise="1"/>
+        </scene>
+        <scene id="30" background="mayanVillage.jpg">
+            <bgm src="bigTask.mp3" status="start"></bgm>
+            <text>Present——</text>
+            <show chara="OfficerClose" position="left"/>
+            <speak chara="_OfficerNoName">What did you say...?</speak>
+            <show chara="OfficerClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_RitaOutsiderNoName">...As expected, not being able to understand each other is an inconvenience. I suppose I should translate what Bianka-sama said literally.</speak>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_RitaOutsiderNoName">「Go away and don't come back to this village ever again！」</speak>
+            <show chara="ritaVestNaughtyClose" position="right"/>
+            <speak chara="_RitaOutsiderNoName">——She said.</speak>
+            <show chara="ritaVestNaughtyClose" position="right" opacity="0.8"/>
+            <show chara="WarriorClose" position="left"/>
+            <speak chara="_WarriorNoName">D-Damn you! How you dare to display such rudeness towards the holy army of the Federation! I request a duel to the death!</speak>
+            <show chara="WarriorClose" position="left" opacity="0.8"/>
+            <show chara="OfficerClose" position="right"/>
+            <speak chara="_OfficerNoName">...Calm down, Chacujal-kun.</speak>
+            <show chara="OfficerClose" position="right"/>
+            <speak chara="_OfficerNoName">Do not forget we are here to bring civilization to them. We cannot step down to their barbaric level.</speak>
+            <show chara="OfficerClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_BiankaOutsiderNoName">.....</speak>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_BiankaOutsiderNoName">I swear, there must have been over 50.000 people throughout history who have said those exact same words to justify their crimes.</speak>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="CG13-2.jpg">
+            <bgm src="bigTask.mp3" status="continue"></bgm>
+            <speak chara="_BiankaOutsiderNoName">Rita, give me my gauntlets.</speak>
+            <speak chara="_RitaOutsiderNoName">Yes, Bianka-sama.</speak>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="CG13-3.jpg">
+            <bgm src="bigTask.mp3" status="continue"></bgm>
+            <speak chara="_BiankaOutsiderNoName">Scumbags who pick on the weak...</speak>
+            <speak chara="_BiankaOutsiderNoName">...Burn in your eyes the power of a Valkyrie.</speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="CG13-4.jpg">
+            <bgm src="bigTask.mp3" status="continue"></bgm>
+            <speak chara="_BiankaOutsiderNoName">And——</speak>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="Fist01.jpg">
+            <bgm src="bigTask.mp3" status="continue"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_OfficerNoNameShort">Wha——!</speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="Fist02.jpg">
+            <bgm src="bigTask.mp3" status="continue"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_WarriorNoNameShort">Uwaaa——</speak>
+            <goto goto="90" change="0"/>
+        </scene>
+        <scene id="90" background="CG13-5.jpg">
+            <bgm src="bigTask.mp3" status="continue"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_BiankaOutsiderNoName">——Go back to the hole you crawled from!</speak>
+            <goto goto="100" clockwise="1"/>
+        </scene>
+        <scene id="100" background="mayanVillage.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <show chara="PriestAngryClose" position="left"/>
+            <speak chara="_PriestNoName">O God!</speak>
+            <show chara="PriestSmileClose" position="left"/>
+            <speak chara="_PriestNoName">You must be the avatar of 「Buluc Chabtan」, who heard our prayers and has come to our aid!</speak>
+            <show chara="PriestSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="right"/>
+            <speak chara="_Bianka">...?</speak>
+            <show chara="biankaDressNormalClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="left"/>
+            <speak chara="_Rita">(She's saying you're the incarnation of the local god of war and that you've come to help them.)</speak>
+            <show chara="ritaVestSquintClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">(...Quite the misunderstanding. Please keep translating for us, Rita.)</speak>
+            <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+            <show chara="PriestSmileClose" position="left"/>
+            <speak chara="_PriestNoName">...Ahh, excuse my rudeness. I haven't introduced myself yet.</speak>
+            <show chara="PriestSmileClose" position="left"/>
+            <speak chara="_PriestNoName">My name is Tazumal, I'm the 「Izzat Venyc」, what you would call the Chief Elder of the village. Outsiders call this place 「El Rey」.</speak>
+            <show chara="PriestSmileClose" position="left"/>
+            <speak chara="_PriestTrueName">And this is my granddaughter, Eikenal—— She's the 「human avatar」 of 「Ix Tab」, the guardian deity of this village.</speak>
+            <show chara="WitchHappyClose" position="left"/>
+            <speak chara="_WitchTrueName">A pleasure to meet you.</speak>
+            <show chara="WitchHappyClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">...I-I am Bianka. This is Captain Shakespeare, and the maid is Rita.</speak>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">Hello.</speak>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">I'm delighted to make your acquaintance, Tazumal-sama, Eikenal-sama.</speak>
+            <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
+            <show chara="WitchShyClose" position="left"/>
+            <speak chara="_WitchTrueName">P-Please, don't address me so formally. I'm just a priestess.</speak>
+            <show chara="WitchShyClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose" position="right"/>
+            <speak chara="_Bianka">Hehe, give up on that. That's just how Rita is.</speak>
+            <show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
+            <show chara="PriestSmileClose" position="left"/>
+            <speak chara="_PriestTrueName">Ah—— I bet you must be starving after your long trip.</speak>
+            <show chara="PriestSmileClose" position="left"/>
+            <speak chara="_PriestTrueName">How does freshly made tortillas sound?</speak>
+            <show chara="PriestSmileClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSailorSmileClose" position="right"/>
+            <speak chara="_Miguel">Ohh, is that the famous taco I've heard so much about?</speak>
+            <show chara="cervantesSailorSmileClose" position="right" opacity="0.8"/>
+            <show chara="PriestSmileClose" position="left"/>
+            <speak chara="_PriestTrueName">Oh my, do you know about it? Then the more reason to put extra effort to let you taste its genuine flavor.</speak>
+            <show chara="PriestSmileClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSailorLaughClose" position="right"/>
+            <speak chara="_Miguel">Hahaha, my empty stomach is about to growl after hearing that!</speak>
+            <show chara="cervantesSailorLaughClose" position="right" opacity="0.8"/>
+            <show chara="PriestSmileClose" position="left"/>
+            <speak chara="_PriestTrueName">Eikenal, will you keep them company? I'm going to the kitchen to prepare the food.</speak>
+            <show chara="PriestSmileClose" position="left" opacity="0.8"/>
+            <show chara="WitchShyClose" position="right"/>
+            <speak chara="_WitchTrueName">Leave it to me, grandmother! I'd love to hear more about the world beyond the sea.</speak>
+            <goto goto="110" clockwise="1"/>
+        </scene>
+        <scene id="110" background="mayanRoom.jpg">
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <show chara="WitchShockClose-up" position="left"/>
+            <speak chara="_WitchTrueName">...I heard there is a city beyond the sea that is managed by machines. Is that true?</speak>
+            <show chara="WitchShockClose-up" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileClose-up" position="right"/>
+            <speak chara="_Bianka">Yes, they do as they're told and assist the people of the city in various ways. A close comparison would be the 「familiars」 that often show up in legends.</speak>
+            <show chara="biankaDressSighClose-up" position="right"/>
+            <speak chara="_Bianka">...Though that technology also has its downsides.</speak>
+            <show chara="biankaDressSighClose-up" position="right" opacity="0.8"/>
+            <show chara="WitchSeriousClose-up" position="left"/>
+            <speak chara="_WitchTrueName">Could it be... their presence angered the Egyptian Gods? For example, they could have made people stop relying on them.</speak>
+            <show chara="WitchSeriousClose-up" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose-up" position="right"/>
+            <speak chara="_Bianka">No, but even if that were the case—— Their existence is proof of humanity's efforts.</speak>
+            <speak chara="_Bianka">There is no parent that wouldn't be proud of the accomplishments of their children, right?</speak>
+            <show chara="biankaDressHesitateClose-up" position="right" opacity="0.8"/>
+            <show chara="WitchShockClose-up" position="left"/>
+            <speak chara="_WitchTrueName">...I see, it never occurred me to think about it that way.</speak>
+            <show chara="WitchShockClose-up" position="left" opacity="0.8"/>
+            <show chara="ritaVestSmileClose-up" position="right"/>
+            <speak chara="_Rita">...Hehe.</speak>
+            <show chara="ritaVestSmileClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressShyClose-up" position="left"/>
+            <speak chara="_Bianka">Hey. What's so funny, Rita?</speak>
+            <show chara="biankaDressShyClose-up" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose-up" position="right"/>
+            <speak chara="_Rita">Apologies. I couldn't help but smile at seeing Bianka-sama and Eikenal-sama getting along so well.</speak>
+            <show chara="ritaVestSquintClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressAngryClose-up" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaDressBiteClose-up" position="left"/>
+            <speak chara="_Bianka">W-W-What are you saying!</speak>
+            <show chara="biankaDressBiteClose-up" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose-up" position="right"/>
+            <speak chara="_Rita">(Eikenal-sama. Isn't Bianka-sama's blushing face cute?)</speak>
+            <show chara="ritaVestSquintClose-up" position="right" opacity="0.8"/>
+            <show chara="WitchHappyClose-up" position="left"/>
+            <speak chara="_WitchTrueName">(...Hehe. You're like her big sister.)</speak>
+            <show chara="WitchHappyClose-up" position="left" opacity="0.8"/>
+            <show chara="biankaDressShoutClose-up" position="right"/>
+            <speak chara="_Bianka">Hey! Don't laugh at me!</speak>
+            <show chara="biankaDressBiteClose-up" position="right"/>
+            <speak chara="_Bianka">(Rita, you are translating what I'm saying properly, right?)</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <speak chara="_PriestTrueName">Eikenal, come here! The food is ready!</speak>
+            <show chara="WitchSmileClose-up" position="center"/>
+            <speak chara="_WitchTrueName">Yes, I'm coming!</speak>
+            <goto goto="120" clockwise="1"/>
+        </scene>
+        <scene id="120" background="mayanRoom.jpg">
+            <bgm src="11_29_lab.mp3" status="continue"></bgm>
+            <show chara="biankaDressSmileAhClose-up" position="left"/>
+            <speak chara="_Bianka">Wow! They look delicious!</speak>
+            <show chara="biankaDressSmileAhClose-up" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose-up" position="right"/>
+            <speak chara="_Shakespeare">Oh my. If I were to make a comparison, I'd say they're above the food 「Tireman Restaurant」 from Alexandria makes.</speak>
+            <show chara="shakesCasualLaughClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose-up" position="left"/>
+            <!-- TYPO: good -> food (probably)-->
+            <speak chara="_Bianka">Thanks for the food!</speak>
+            <goto goto="130" change="0"/>
+        </scene>
+        <scene id="130" background="CG13-1.jpg">
+            <bgm src="11_29_lab.mp3" status="stop"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_Bianka">Woah! So spicy!</speak>
+            <bgm src="11_29_lab.mp3" status="continue"></bgm>
+            <speak chara="_WitchTrueName">B-Bianka-sama? ...Are you alright?</speak>
+            <speak chara="_Bianka">I-I'm fine! A Valkyrie will not lose to mere chili pepper!</speak>
+            <speak chara="_Bianka">This tortilla is delicious! The amount of meat is just right and the tomatoes are perfectly baked!</speak>
+            <speak chara="_Bianka">I-I just wasn't prepared and the spiciness caught me by surprise... This is not a problem at all!</speak>
+            <speak chara="_Shakespeare">I wonder about that~ Judging from your tongue I'd say you're avoiding the peppers as much as you can~</speak>
+            <speak chara="_Bianka">S-Shut up, you dumb Captain! I'm not doing anything like that!</speak>
+            <speak chara="_Shakespeare">...Is that so? Then I'll tell Tazumal to make the next round extra spicy.</speak>
+            <speak chara="_Bianka">W-Wa——Wait!</speak>
+            <goto goto="140" clockwise="1"/>
+        </scene>
+        <scene id="140" background="mayanRoom.jpg">
+            <bgm src="11_15_shakespeareTheme.mp3" status="start"></bgm>
+            <show chara="shakesCasualLaughClose-up" position="left"/>
+            <speak chara="_Shakespeare">Ahahaha! Ate so much I can't take another bite!</speak>
+            <show chara="shakesCasualLaughClose-up" position="left" opacity="0.8"/>
+            <show chara="biankaDressSighClose-up" position="right"/>
+            <speak chara="_Bianka">...I think you ate like 2 pounds worth of food, you bottomless stomach Captain.</speak>
+            <show chara="biankaDressSighClose-up" position="right" opacity="0.8"/>
+            <show chara="WitchHappyClose-up" position="left"/>
+            <speak chara="_WitchTrueName">Starting tomorrow, a big festival will be held for 10 days. You'll have plenty of opportunities to eat delicious food.</speak>
+            <show chara="WitchHappyClose-up" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose-up" position="right"/>
+            <speak chara="_Bianka">All 10 days?</speak>
+            <show chara="biankaDressShockClose-up" position="right" opacity="0.8"/>
+            <show chara="WitchSmileClose-up" position="left"/>
+            <speak chara="_WitchTrueName">Yes. Today is 12.19.19.17.18—— The day after tomorrow will be 13.0.0.0.0, the beginning of a new 「Baktun」.</speak>
+            <show chara="WitchSmileClose-up" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose-up" position="right"/>
+            <speak chara="_Bianka">「Baktun」?</speak>
+            <show chara="biankaDressHesitateClose-up" position="right" opacity="0.8"/>
+            <show chara="champoSmileClose-up" position="left"/>
+            <speak chara="_Champollion">——I've heard about it. A 「Baktun」 is one of the Maya's 「long time measuring units」. In our calendar it's approximately 400 years.</speak>
+            <show chara="champoNormalClose-up" position="left"/>
+            <speak chara="_Champollion">Basically, what we call 「new decade」... Or more accurately, our 「millennium year」.</speak>
+            <show chara="champoSmileClose-up" position="left"/>
+            <speak chara="_Champollion">Eikenal, you said the festival lasts for 10 days—— Does each one of the 10 days have a particular religious meaning?</speak>
+            <show chara="champoSmileClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchHappyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">No, there isn't one.</speak>
+            <show chara="WitchShyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">Besides the 「oracle」 before the festival begins there are no other religious activities involved.</speak>
+            <show chara="WitchSmileClose-up" position="right"/>
+            <speak chara="_WitchTrueName">Unlike the Federation, we don't indulge the idea 「each person should communicate with God」.</speak>
+            <show chara="WitchSmileClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose-up" position="left"/>
+            <speak chara="_Bianka">...Is it bad to talk to God by yourself? Like, during meditation.</speak>
+            <show chara="biankaDressShockClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchShyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">It's a bad thing to do if you want something from it.</speak>
+            <show chara="WitchSadClose-up" position="right"/>
+            <speak chara="_WitchTrueName">Gods are whimsical. If you selfishly ask for a favor you may be cursed with misfortune.</speak>
+            <show chara="WitchSadClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressAngryClose-up" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaDressHesitateClose-up" position="left"/>
+            <speak chara="_Bianka">Honestly... I don't really get it.</speak>
+            <show chara="biankaDressHesitateClose-up" position="left" opacity="0.8"/>
+            <show chara="shakesCasualMercyClose-up" position="right"/>
+            <speak chara="_Shakespeare">Faith is not supposed to be logical. You either 「believe」 or 「not believe」, rather than 「understand」 or 「not understand」.</speak>
+            <show chara="shakesCasualMercyClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressAngryClose-up" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaDressAngryClose-up" position="left" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose-up" position="right"/>
+            <speak chara="_Shakespeare">Even if it looks strange to outsiders like us, the belief system of this place has its unique 「humanism」.</speak>
+            <show chara="shakesCasualConfidentClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose-up" position="left"/>
+            <speak chara="_Bianka">...?</speak>
+            <show chara="WitchShockClose-up" position="left"/>
+            <speak chara="_WitchTrueName">Huma...? Is that a technical term for something?</speak>
+            <show chara="WitchShockClose-up" position="left" opacity="0.8"/>
+            <show chara="shakesCasualEmbarrassedClose-up" position="right"/>
+            <speak chara="_Shakespeare">Ah, this is a problem. It's a concept difficult to explain.</speak>
+            <show chara="shakesCasualConfidentClose-up" position="right"/>
+            <speak chara="_Shakespeare">Archaeologist, can you come up with an easy to understand explanation?</speak>
+            <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+            <show chara="champoSweatyClose-up" position="right"/>
+            <speak chara="_Champollion">Hmmm... let's see...</speak>
+            <show chara="champoNormalClose-up" position="right"/>
+            <speak chara="_Champollion">In simpler terms, it's a stance that protects each person's freedom of thought, values and personality.</speak>
+            <show chara="champoSmileClose-up" position="right"/>
+            <speak chara="_Champollion">For example, the beginning of the 『Declaration of the Rights of the Man and of the Citizen』 says——</speak>
+            <show chara="champoNormalClose-up" position="right"/>
+            <speak chara="_Champollion">「Men are born and remain free and equal in rights.」</speak>
+            <show chara="champoSmileClose-up" position="right"/>
+            <speak chara="_Champollion">「These rights are liberty, property, security, and resistance to oppression.」</speak>
+            <show chara="champoSmileClose-up" position="right" opacity="0.8"/>
+            <show chara="WitchShyClose-up" position="left"/>
+            <speak chara="_WitchTrueName">...?</speak>
+            <show chara="WitchShyClose-up" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose-up" position="right"/>
+            <speak chara="_Shakespeare">Well, it's like how your culture separated worshiping Gods from the festival——</speak>
+            <show chara="shakesCasualConfidentClose-up" position="right"/>
+            <speak chara="_Shakespeare">「Humanism」 is a society that lets people live as they please as much as possible.</speak>
+            <show chara="shakesCasualNormalClose-up" position="right"/>
+            <speak chara="_Shakespeare">If there were a priest like Eikenal in that kind of society, they wouldn't force everyone else to have the same beliefs and values as them.</speak>
+            <show chara="shakesCasualNormalClose-up" position="right" opacity="0.8"/>
+            <show chara="WitchShockClose-up" position="left"/>
+            <speak chara="_WitchTrueName">I see.</speak>
+            <show chara="WitchSmileClose-up" position="left"/>
+            <speak chara="_WitchTrueName">My God, 「Ix Tab」, is the guardian deity of this village. I've taken it upon me to accept all of her anger and joy so that they may not burden anyone else.</speak>
+            <show chara="WitchSeriousClose-up" position="left"/>
+            <speak chara="_WitchTrueName">Protect others from the whims of God—— That is my duty.</speak>
+            <show chara="WitchSeriousClose-up" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose-up" position="right"/>
+            <speak chara="_Shakespeare">...Very interesting. You're trying to minimize the influence God has on people.</speak>
+            <show chara="shakesCasualNormalClose-up" position="right"/>
+            <speak chara="_Shakespeare">Everyone grows up one day. They realize their father and mother aren't omnipotent, and learn they can only count on themselves.</speak>
+            <show chara="shakesCasualEmbarrassedClose-up" position="right"/>
+            <speak chara="_Shakespeare">——Gods are the same as the parents. Maybe their help stopped even before 「Genesis」.</speak>
+            <show chara="shakesCasualConfidentClose-up" position="right"/>
+            <speak chara="_Shakespeare">And that's not a sad thing. On the contrary, it's proof of how much people, humanity itself, has grown.</speak>
+            <show chara="shakesCasualNormalClose-up" position="right"/>
+            <speak chara="_Shakespeare">——It proves they can take responsibility for their own actions and be free.</speak>
+            <show chara="shakesCasualNormalClose-up" position="right" opacity="0.8"/>
+            <show chara="WitchShockClose-up" position="left"/>
+            <speak chara="_WitchTrueName">Freedom, you say?</speak>
+            <show chara="WitchHappyClose-up" position="left"/>
+            <speak chara="_WitchTrueName">I think I'll use 「freedom」 as the subject of tonight's oracle.</speak>
+            <show chara="WitchHappyClose-up" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose-up" position="right"/>
+            <speak chara="_Bianka">Huh?</speak>
+            <show chara="biankaDressShockClose-up" position="right" opacity="0.8"/>
+            <show chara="WitchShyClose-up" position="left"/>
+            <speak chara="_WitchTrueName">Today our village wouldn't have been able to remain independent if it wasn't for you all——</speak>
+            <show chara="WitchSmileClose-up" position="left"/>
+            <speak chara="_WitchTrueName">——But I believe one day, both our village and the Federation, will be able to live freely without burdens.</speak>
+            <show chara="WitchSmileClose-up" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose-up" position="right"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaDressSmileAhClose-up" position="right" opacity="0.8"/>
+            <show chara="WitchHappyClose-up" position="left"/>
+            <speak chara="_WitchTrueName">...I must begin the preparations for the ceremony in the afternoon.</speak>
+            <show chara="WitchShyClose-up" position="left"/>
+            <speak chara="_WitchTrueName">If everything goes well tomorrow, would it be okay if I join your crew?</speak>
+            <show chara="WitchHappyClose-up" position="left"/>
+            <speak chara="_WitchTrueName">I want to see with my own eyes the world beyond this village, beyond this island!</speak>
+            <show chara="WitchHappyClose-up" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose-up" position="right"/>
+            <speak chara="_Shakespeare">Hahaha, consider it done.</speak>
+            <show chara="shakesCasualNormalClose-up" position="right"/>
+            <speak chara="_Shakespeare">——If you want, we can even take you with us right now.</speak>
+            <show chara="shakesCasualNormalClose-up" position="right" opacity="0.8"/>
+            <show chara="WitchSmileClose-up" position="left"/>
+            <speak chara="_WitchTrueName">Even if you're cursed by 「Ix Tab」?</speak>
+            <show chara="WitchSmileClose-up" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose-up" position="right"/>
+            <speak chara="_Shakespeare">Yeah.</speak>
+            <show chara="shakesCasualEmbarrassedClose-up" position="right"/>
+            <speak chara="_Shakespeare">Though I can't say if the rest of the village will think they have been 「cursed」 or not...</speak>
+            <show chara="shakesCasualEmbarrassedClose-up" position="right" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose-up" position="left"/>
+            <speak chara="_Rita">(...Captain, you're going too far——)</speak>
+            <show chara="ritaVestHesitateClose-up" position="left" opacity="0.8"/>
+            <show chara="shakesCasualNormalClose-up" position="right"/>
+            <speak chara="_Shakespeare">(It's fine, just translate what I said.)</speak>
+            <show chara="shakesCasualNormalClose-up" position="right" opacity="0.8"/>
+            <show chara="ritaVestNormalClose-up" position="left"/>
+            <speak chara="_Rita">The Captain says she's not afraid of curses. There is no problem with taking you with us right now, the only issue is——</speak>
+            <show chara="ritaVestAngryClose-up" position="left"/>
+            <speak chara="_Rita">——Whether you're capable of putting an end to the responsibilities you have towards your 「beliefs」 or not.</speak>
+            <show chara="ritaVestAngryClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchShockClose-up" position="right"/>
+            <speak chara="_WitchTrueName">.....</speak>
+            <show chara="WitchShockClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressBiteClose-up" position="left"/>
+            <speak chara="_Bianka">(Hey! How could you say that!? Now the mood is all tense!)</speak>
+            <show chara="biankaDressBiteClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchShyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">...It's okay, Bianka-sama.</speak>
+            <show chara="WitchShyClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose-up" position="left"/>
+            <speak chara="_Bianka">Eh? Do you understand English?</speak>
+            <show chara="biankaDressShockClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchHappyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">I don't know what you just said, but I could tell you were concerned for me.</speak>
+            <show chara="WitchHappyClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressShyClose-up" position="left"/>
+            <speak chara="_Bianka">Y-You're welcome...</speak>
+            <show chara="biankaDressShyClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchSeriousClose-up" position="right"/>
+            <speak chara="_WitchTrueName">Captain Shakespeare is correct. I am the avatar of a God. Before I can begin to think about my own future, I need to fulfill my duty towards the village first.</speak>
+            <show chara="WitchShyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">For their own futures... I need to bear any hardships.</speak>
+            <show chara="WitchShyClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose-up" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaDressHesitateClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchHappyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">...Sorry, I made the mood even worse.</speak>
+            <show chara="WitchSeriousClose-up" position="right"/>
+            <speak chara="_WitchTrueName">Do you all remember that Federation Officer?</speak>
+            <show chara="WitchSadClose-up" position="right"/>
+            <speak chara="_WitchTrueName">Among everything he said, there was one thing that was absolutely right. Unlike his Gods, the ones that have protected us for so long are certainly cruel.</speak>
+            <show chara="WitchSadClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose-up" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaDressShockClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchSeriousClose-up" position="right"/>
+            <speak chara="_WitchTrueName">The God of the Sun 「Kinich Ahau」, and the God of Maize 「Hun Hunahpu」 required blood sacrifices.</speak>
+            <show chara="WitchSadClose-up" position="right"/>
+            <speak chara="_WitchTrueName">The God of Death 「Cizin」 only recognizes people with chronic skin diseases as his avatars.</speak>
+            <show chara="WitchSeriousClose-up" position="right"/>
+            <speak chara="_WitchTrueName">The God of Rain 「Chaahk」 selects weak children to restore its power.</speak>
+            <show chara="WitchSadClose-up" position="right"/>
+            <speak chara="_WitchTrueName">Even 「Ix Tab」, the guardian deity of this village who looks over mothers who died during childbirth and suicides, requires her avatars to pierce their tongues.</speak>
+            <show chara="WitchSadClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose-up" position="left"/>
+            <speak chara="_Bianka">U-Unbelievable!</speak>
+            <show chara="biankaDressScreamClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchShyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">...I know what you want to say, Bianka.</speak>
+            <show chara="WitchSadClose-up" position="right"/>
+            <speak chara="_WitchTrueName">That's why the Federation calls us barbaric and savage.</speak>
+            <show chara="WitchSadClose-up" position="right" opacity="0.8"/>
+            <show chara="champoColdClose-up" position="left"/>
+            <speak chara="_Champollion">No, I'm pretty sure that's just an excuse to expand their territory.</speak>
+            <show chara="champoColdClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchSeriousClose-up" position="right"/>
+            <speak chara="_WitchTrueName">...But even so, that fact made the Federation warriors look down on us, or I'm wrong?</speak>
+            <show chara="WitchSadClose-up" position="right"/>
+            <speak chara="_WitchTrueName">In order to change—— I want our guardian deities to let us, the ordinary people, live more freely.</speak>
+            <show chara="WitchSadClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose-up" position="left"/>
+            <speak chara="_Bianka">Please wait—— Why can't you simply choose to 「change」 yourself?</speak>
+            <show chara="biankaDressBiteClose-up" position="left"/>
+            <speak chara="_Bianka">Isn't God in the end the sublimation of the human will and soul?</speak>
+            <show chara="biankaDressBiteClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchShockClose-up" position="right"/>
+            <speak chara="_WitchTrueName">.....</speak>
+            <show chara="WitchShyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">Yes, that's right.</speak>
+            <show chara="WitchSmileClose-up" position="right"/>
+            <speak chara="_WitchTrueName">That's why tonight's ceremony is so important.</speak>
+            <show chara="WitchHappyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">This 「end of an era」 ritual can only be performed once every 400 years. It's the perfect opportunity to change the influence all Gods have on us rather than doing it individually.</speak>
+            <show chara="WitchHappyClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose-up" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaDressShockClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchShyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">I sincerely thank you all for coming to visit our village today.</speak>
+            <show chara="WitchSmileClose-up" position="right"/>
+            <speak chara="_WitchTrueName">Not only you chased away the Federation's army——</speak>
+            <show chara="WitchHappyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">——But you also gave me the courage to ask the Gods for the change I yearned for.</speak>
+            <show chara="WitchShyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">I sincerely thank you from the bottom of my heart.</speak>
+            <goto goto="150" clockwise="1"/>
+        </scene>
+        <scene id="150" background="mayanWallBroken.jpg">
+            <bgm src="theme.mp3" status="start"></bgm>
+            <show chara="shakesCasualSeriousClose" position="left"/>
+            <speak chara="_Shakespeare">...That girl with the feather accessory went inside the cave. By the way, where are our two Valkyries?</speak>
+            <show chara="shakesCasualSeriousClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSailorNormalClose" position="right"/>
+            <speak chara="_Miguel">They didn't want to stick around for the preparations of the ceremony, but they didn't have any reason to stop it either so they went back to the ship.</speak>
+            <show chara="cervantesSailorStareClose" position="right"/>
+            <speak chara="_Miguel">It's not our place to say anything, but I must confess the customs of this place worry me.</speak>
+            <show chara="cervantesSailorStareClose" position="right" opacity="0.8"/>
+            <show chara="champoColdClose" position="left"/>
+            <speak chara="_Champollion">...I'm a bit worried as well. I wonder if that girl will do something stupid.</speak>
+            <show chara="champoColdClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualQuestionClose" position="right"/>
+            <speak chara="_Shakespeare">...Something stupid?</speak>
+            <show chara="shakesCasualQuestionClose" position="right" opacity="0.8"/>
+            <show chara="champoQuestionClose" position="left"/>
+            <speak chara="_Champollion">The content of the ritual is a secret, but I'm sure it involves the use of hallucinogenic drugs. They can be used to null pain and see visions.</speak>
+            <show chara="champoColdClose" position="left"/>
+            <speak chara="_Champollion">...Seeing her try so hard makes it difficult to see how things will turn out...</speak>
+            <show chara="champoColdClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSailorNormalClose" position="right"/>
+            <speak chara="_Miguel">She probably feels it's necessary to protect the 「mystery」 and 「Holiness」 of it.</speak>
+            <show chara="cervantesSailorStareClose" position="right"/>
+            <speak chara="_Miguel">However, thinking logically, even a man of God like myself can see how awful this is.</speak>
+            <show chara="cervantesSailorStareClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">Hahaha! Now that's a 「Spaniard」!</speak>
+            <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSailorSmileClose" position="right"/>
+            <speak chara="_Miguel">Hm? ...Let me tell you that's not all I have to say.</speak>
+            <show chara="cervantesSailorSmileClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">Oh?</speak>
+            <show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSailorNormalClose" position="right"/>
+            <speak chara="_Miguel">I've always thought pagans and atheists always look at Spaniards with compassionate eyes.</speak>
+            <show chara="cervantesSailorSmileClose" position="right"/>
+            <speak chara="_Miguel">What's Jesus Christ? An avatar of God, and part of the 「Holy Trinity」.</speak>
+            <show chara="cervantesSailorNormalClose" position="right"/>
+            <speak chara="_Miguel">——Leaving aside the matter of God actually existing or not, that girl is no different than Christ.</speak>
+            <show chara="cervantesSailorSmileClose" position="right"/>
+            <speak chara="_Miguel">So what did Christ do? He sacrificed himself to free us from the original sin.</speak>
+            <show chara="cervantesSailorNormalClose" position="right"/>
+            <speak chara="_Miguel">——Regardless of God existing or not, people willingly hurt themselves and shed blood on His name.</speak>
+            <show chara="cervantesSailorLaughClose" position="right"/>
+            <speak chara="_Miguel">Naturally, those who don't believe in the one true God won't think Christ's divinity was genuine.</speak>
+            <show chara="cervantesSailorSmileClose" position="right"/>
+            <speak chara="_Miguel">Makes me wonder if those people saw Christ as a stubborn and naive person.</speak>
+            <show chara="cervantesSailorSmileClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">...Ho.</speak>
+            <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSailorLaughClose" position="right"/>
+            <speak chara="_Miguel">Well, I wouldn't have been able to say all of this out loud in 「that」 Spain.</speak>
+            <show chara="cervantesSailorSmileClose" position="right"/>
+            <speak chara="_Miguel">In this place, the majority of the people from the 「Old World」 don't seem to be religious fanatics.</speak>
+            <show chara="cervantesSailorSmileClose" position="right" opacity="0.8"/>
+            <show chara="champoSweatyClose" position="left"/>
+            <speak chara="_Champollion">Yeah. That 「wall」 has been there for 100 years already. A big chunk of them is bound to have been 「consumed」 by now.</speak>
+            <show chara="champoSweatyClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualEmbarrassedClose" position="right"/>
+            <speak chara="_Shakespeare">...The same can't be said about remote areas, but it's not our place to speak for them.</speak>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">Anyway, let's get down to business before the young lady comes back. I heard——</speak>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">——The corn flour they have here is amazing. Let's buy tons!</speak>
+            <goto goto="160" clockwise="1"/>
+        </scene>
+        <scene id="160" background="12_12_blackCloud.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="start"></bgm>
+            <text>The Sun is setting,</text>
+            <goto goto="170" change="0"/>
+        </scene>
+        <scene id="170" background="starNight.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
+            <text>And the stars begin to appear.</text>
+            <goto goto="175" change="0"/>
+        </scene>
+        <scene id="175" background="submarinePipe.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
+            <text>Bianka Ataegina spent the next 12 hours aboard the 「Caledonia」 feeling anxious.</text>
+            <text>Be it cleaning her weapons, learning Spanish or playing with cards, she couldn't concentrate.</text>
+            <text>She felt like she did during her first mission as a Valkyrie.</text>
+            <text>She was part of a secondary unit who had to spend 15 long minutes in the helicopter before they were given the order to sortie.</text>
+            <text remark="next">The Agra Fort in one side and the Taj Mahal in the other. It was a defense operation to protect many treasures of human civilization.</text>
+            <remark post="U2FsdGVkX1+ZeN1QQy+0Qu+c5q+Y">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">阿格拉堡（印地语：आगरा क़िला，乌尔都语：آگرہ قلعہ‬‎‎）是印度莫卧儿王朝全盛时期的皇宫，使用者包括巴布尔、胡马雍、阿克巴、贾汗吉尔、沙贾汗、奥朗则布六代雄主。</p>
+                <p class="article-text">著名的泰姬陵位于阿格拉堡东南2.5公里处，是沙贾汗为其妻子慕塔芝·玛哈修建的陵寝。沙贾汗晚年被儿子奥朗则布夺取皇位并囚禁于阿格拉堡，他在人生最后的八年中只能从这里去默默地眺望泰姬陵。</p>
+            </remark>
+            <!-- RENAME: Houkai -->
+            <text>The primary unit would lure the Honkai beasts away to the citadel's garden to minimize the damage. Bianka's unit would then cut off their path, make a stand at Yamuna River and proceed to easily eliminate the Houkai beasts from both sides with the help of the primary unit.</text>
+            <text>...Or so they were supposed to.</text>
+            <goto goto="180" change="0"/>
+        </scene>
+        <scene id="180" background="submarineCabinBlurDeep.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="ritaVestNormalClose" position="left"/>
+            <speak chara="_Rita">Bianka-sama, Tazumal-sama of 「El Rey」 has come to see you.</speak>
+            <text>——The sudden appearance of the maid interrupted the Valkyrie's recollection.</text>
+            <show chara="ritaVestNormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">She came to see... me?</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="left"/>
+            <speak chara="_Rita">Yes. She specifically asked for you.</speak>
+            <show chara="PriestSmileClose" position="left"/>
+            <speak chara="_PriestTrueName">O avatar of 「Buluc Chabtan」! I have to come request your aid. Please accompany 「Ix Tab」's soul in her journey during the ceremony.</speak>
+            <show chara="PriestSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="right"/>
+            <speak chara="_Bianka">...?</speak>
+            <show chara="biankaDressNormalClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestSmileClose" position="left"/>
+            <speak chara="_Rita">She's asking for your help during the ritual. The village is still under the impression you're the incarnation of a local god.</speak>
+            <show chara="ritaVestSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
+            <show chara="PriestSeriousClose" position="left"/>
+            <speak chara="_PriestTrueName">This is the will of 「Ix Tab」—— Only an incarnation of a God such as yourself is allowed to help during the ceremony.</speak>
+            <show chara="PriestSmileClose" position="left"/>
+            <speak chara="_PriestTrueName">Please, I beg you.</speak>
+            <show chara="PriestSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">...U-Understood.</speak>
+            <goto goto="190" clockwise="1"/>
+        </scene>
+        <scene id="190" background="mayanCandleCave.jpg">
+            <bgm src="01_18_horror.mp3" status="start"></bgm>
+            <text>Many candles were lit in this limestone cave, which was sacred ground for the people of the village.</text>
+            <text>The Elder guided Bianka deep into the cave. Even someone in her position is not allowed to speak inside this place.</text>
+            <text>——That is a privilege unique to the 「Avatar of God」.</text>
+            <text>The faint lights of the candles sways gently.</text>
+            <text>Drops of water fall from above, hitting the stalagmite on the ground.</text>
+            <text>The air made her feel as if blood was dripping from her fingertips, just like they did that day.</text>
+            <text>——The first mission Bianka took part in as a Valkyrie.</text>
+            <text>——Bianka was the sole survivor of that mission.</text>
+            <text>That day, Bianka realized she was special.</text>
+            <text>It wasn't due to luck or an easy to understand talent.</text>
+            <text>The average person has, no matter the specialty, an invisible 「ceiling」—— A top they can't overcome no matter how much they try.</text>
+            <text>But Bianka is different. When it comes to battle, she can keep growing as long as she puts effort.</text>
+            <text>Bianka's intuition told her she is what people call a 「genius」.</text>
+            <text>But her heart didn't want to admit that.</text>
+            <text>She wanted to believe that every person, regardless of their background, is able to surpass their limits.</text>
+            <text>She didn't want to admit that task was too much for the average person.</text>
+            <text>The Elder stopped walking.</text>
+            <text>Bianka must walk alone the path leading to the deepest part of the cave. Another 「Avatar of God」 told Bianka the secret ritual will have started by the time she gets there.</text>
+            <text>Ten, twenty, thirty steps.</text>
+            <text>Make a turn, go through a crack in the wall and turn again. Those were her instructions.</text>
+            <text>The surroundings were serene. Neither music or the sound of wooden shoes hitting the ground could be heard anymore.</text>
+            <text>Beyond the candle lights, Bianka arrived at a red curtain with a pattern of black totem-like symbols.</text>
+            <show chara="biankaDressDarkClose" position="center"/>
+            <speak chara="_Bianka">...Eikenal? Soy Bianka. Ya estoy aqui. (...Eikenal? It's Bianka. I'm coming in.)</speak>
+            <hide position="center"></hide>
+            <text>——Those were some of the few words of Spanish she learned during the evening.</text>
+            <text>However, no one answered her call.</text>
+            <text>The Valkyrie moved the curtain aside——</text>
+            <goto goto="200" change="0"/>
+        </scene>
+        <scene id="200" background="CG13-6.jpg">
+            <bgm src="01_18_horror.mp3" status="continue"></bgm>
+            <cg src="CG13-6.jpg" bg="CG13-6.jpg" fadeIn="0" fadeOut="1"></cg>
+            <text>——And saw the scene she wanted to see the least.</text>
+            <end post="U2FsdGVkX19NCGf3MWcQ4Va1Xf3k"/>
+        </scene>
+    </story>
+</data>
