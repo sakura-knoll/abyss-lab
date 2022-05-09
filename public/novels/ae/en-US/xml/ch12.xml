@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newchapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="schoolDay3.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <speak chara="teslaNoFace"> … The greatest enemy in the world is Time. </speak>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="studyDay.jpg">
+            <bgm src="lab.mp3" status="continue"></bgm>
+            <show chara="einSlyCoatClose" position="left"/>
+            <show chara="teslaNormalGlassWinterClose" position="right" opacity="0.7"/>
+            <speak chara="einNoFace"> … It seems someone hasn't enjoyed her vacation enough. </speak>
+            <show chara="einSlyCoatClose" position="left" opacity="0.7"/>
+            <show chara="teslaShameGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">Isn't it so? This month is already over, but we haven't been out of the city yet! And I only just got a new driver's license! </speak>
+            <show chara="teslaStarGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">Let's go! Let's go! Let me hurry and change my clothes, and you guys can quit dilly-dallying about! </speak>
+            <show chara="teslaStarGlassWinterClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseSweaterClose" position="back"/>
+            <speak chara="weltNoFace">Driver's license? When — </speak>
+            <show chara="weltSurpriseSweaterClose" position="back" opacity="0.7"/>
+            <show chara="einFoolCoatClose" position="left"/>
+            <speak chara="einNoFace"> … It's not unlike your own passport, Welt. </speak>
+            <speak chara="einNoFace"> … After much coaxing and pestering, if you get my gist. </speak>
+            <show chara="einFoolCoatClose" position="left" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose" position="back"/>
+            <speak chara="weltNoFace"> … </speak>
+            <show chara="weltTiredSweaterClose" position="back" opacity="0.7"/>
+            <show chara="einSlyCoatClose" position="left"/>
+            <speak chara="einNoFace" remark="next">Having said that, Dr Tesla, we've been to the Royal Concert Hall, the Open Air Theatre, Oxford Street, Regent Street, watched the football at Stamford Bridge Stadium … and visited the British Museum five times with Joachim — </speak>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">Chelsea Football Club, whose home ground is the Stamford Bridge Stadium, was the champion of the English Football League during the 1954-55 season. This was the only top league championship trophy the club had won in the 20th century — they were only able to win again 50 years later, during the 2004-05 season. </p>
+            </remark>
+            <show chara="einSlyCoatClose" position="left" opacity="0.7"/>
+            <show chara="teslaBiteGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">Ahhh! That's enough! Aren't all these places within walking distance from here? Do you people want to spend the last few days doing the exact same thing!? </speak>
+            <show chara="teslaErGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace"> Welt, really, all your plans and arrangements match the tastes of this Mophead — </speak>
+            <speak chara="teslaNoFace">（ … though I must say I don't actually hate it. ）</speak>
+            <show chara="teslaErGlassWinterClose" position="right" opacity="0.7"/>
+            <show chara="weltGiggleSweaterClose" position="back"/>
+            <speak chara="weltNoFace">Then … would you like to try going to a seaside resort?</speak>
+            <text>In the languid atmosphere of Lab 42, Welt speaks while pointing to a newspaper, and enjoying a glass of warm milk. </text>
+            <show chara="weltGiggleSweaterClose" position="back" opacity="0.7"/>
+            <show chara="teslaDisgustedGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">Uh? Going to the beach in winter, is there something wrong with your head? </speak>
+            <show chara="teslaDisgustedGlassWinterClose" position="right" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose" position="back"/>
+            <speak chara="weltNoFace"> …  But I saw this ad here, it says that, because it's off-season, you can get a 70% discount off all reservations — </speak>
+            <show chara="weltTiredSweaterClose" position="back" opacity="0.7"/>
+            <show chara="teslaShameGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace"> — Even if it's 70% off, you can't sunbathe at this temperature, right? </speak>
+            <show chara="teslaShameGlassWinterClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseSweaterClose" position="back"/>
+            <speak chara="weltNoFace">The ad says that this 70% off also includes bowling coupons, hot spring passes, and self-service barbecue hire … </speak>
+            <show chara="weltSurpriseSweaterClose" position="back" opacity="0.7"/>
+            <show chara="teslaSurpriseGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">What? All of that is being discounted? </speak>
+            <show chara="teslaSurpriseGlassWinterClose" position="right" opacity="0.7"/>
+            <show chara="einSmileCoatClose" position="left"/>
+            <speak chara="einNoFace">Even if the site is not being used, there is still depreciation loss due to general wear and tear. Besides, its pre-discount price is equal to the summer price with some additional “padding”. </speak>
+            <show chara="einSlyCoatClose" position="left"/>
+            <speak chara="einNoFace">That being said … it seems you really want to go, am I right? </speak>
+            <show chara="einSlyCoatClose" position="left" opacity="0.7"/>
+            <show chara="teslaStarGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">Of course I do! It's the Autumn of Mighty Appetite; if I don't eat fully I might as well not eat at all! </speak> <!-- 食欲之秋, from the Japanese concept 食欲の秋, that one has a better appetite in autumn because of the abundance of many fresh foods at this time of the year -->
+            <show chara="teslaStarGlassWinterClose" position="right" opacity="0.7"/>
+            <show chara="einSmileCoatClose" position="left"/>
+            <speak chara="einNoFace">No need to eat too much, lest you end up in hospital. </speak>
+            <show chara="einSmileCoatClose" position="left" opacity="0.7"/>
+            <show chara="teslaShameGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">Who … who could be so stupid?! O-of course not! </speak>
+            <show chara="teslaShameGlassWinterClose" position="right" opacity="0.7"/>
+            <show chara="einSlyCoatClose" position="left"/>
+            <speak chara="einNoFace">Oops, indeed, who could be so stupid? </speak>
+            <text>Mophead sips the last drop of milk tea with a smile. </text>
+            <show chara="einSlyCoatClose" position="left" opacity="0.7"/>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="westCliff.jpg">
+            <bgm src="street.mp3" status="start"></bgm>
+            <text>Southend-on-Sea. </text>
+            <text>This resort, named after its own geographical location, has been the most popular suburban resort for Londoners since the large-scale urbanisation during the Industrial Revolution of the 18th century — </text>
+            <text> — But only during the summer. </text>
+            <text>In fact, when the group arrive at their destination, in their familiar Volkswagen Beetle, only three cars can be seen in the large parking lot …  which made them all wonder whether they had suddenly arrived at Iceland or some other country with a very low population density. </text>
+            <show chara="teslaBoringGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace"> … This is really deserted. </speak>
+            <show chara="teslaSnickerGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">But the air is pretty good, eh! </speak>
+            <show chara="teslaSnickerGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="weltTiredWinterFar" position="right"/>
+            <speak chara="weltNoFace">There's still a fair bit of time before lunch … </speak>
+            <speak chara="weltNoFace">After completing the check-in, where do you plan to go first? </speak>
+            <show chara="weltTiredWinterFar" position="right" opacity="0.7"/>
+            <show chara="einSleepWinterFar" position="center"/>
+            <speak chara="einNoFace">I need to go for a stroll … </speak>
+            <show chara="einFoolWinterFar" position="center"/>
+            <speak chara="einNoFace">Tesla, you … it's been half a year since you last drove … and yet you drive even more erratically than before … </speak>
+            <show chara="einFoolWinterFar" position="center" opacity="0.7"/>
+            <show chara="teslaAstonishGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">Huh? </speak>
+            <show chara="teslaAstonishGlassNoiseWinterFar" position="left"/>
+            <speak chara="teslaNoFace">No, no it can't be … Do you have motion sickness? Do you need me to piggy-back you? </speak>
+            <show chara="teslaAstonishGlassNoiseWinterFar" position="left" opacity="0.7"/>
+            <show chara="einSleepWinterFar" position="center"/>
+            <speak chara="einNoFace">Not really … I just feel a little nauseated. </speak>
+            <show chara="einSleepWinterFar" position="center" opacity="0.7"/>
+            <show chara="weltTiredWinterFar" position="right"/>
+            <speak chara="weltNoFace">Um … I too feel a little … </speak>
+            <show chara="weltTiredWinterFar" position="right" opacity="0.7"/>
+            <show chara="teslaBiteGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">Who cares about you?! Bean sprout! </speak> <!-- 豆芽菜 = "Bean sprout", used to describe a weakling -->
+            <show chara="teslaBiteGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="weltScaredWinterFar" position="right"/>
+            <speak chara="weltNoFace">B-bean sprout?! </speak>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="westCliff.jpg">
+            <bgm src="street.mp3" status="continue"></bgm>
+            <show chara="ritaNormalAhFar" position="left"/>
+            <speak chara="ritaNoNameNoFace">Ladies and gentleman! … Is this Mr Welt Joyce and his party? </speak>
+            <show chara="ritaNormalFar" position="left" opacity="0.7"/>
+            <show chara="weltShyWinterFar" position="right"/>
+            <speak chara="weltNoFace">Ah … yes! Imperial Institute, group of three. </speak>
+            <show chara="weltTiredWinterFar" position="right"/>
+            <speak chara="weltNoFace"> Sorry, for distracting you with our shenanigans. </speak>
+            <show chara="weltTiredWinterFar" position="right" opacity="0.7"/>
+            <show chara="ritaSmileLeftFar" position="left"/>
+            <speak chara="ritaNoNameNoFace">Oh, what do you mean …  You guests are clearly getting along with each other quite nicely … </speak>
+            <text>The female concierge courteously takes hold of the suitcase in Welt's hand — </text>
+            <show chara="ritaSmileFar" position="left"/>
+            <speak chara="ritaNoNameNoFace">My name is Margarita Ayette, but you can call me “Rita”. </speak> <!-- At this stage, no clear relation to Rita Rosseweisse, future Schicksal Valkyrie. -->
+            <show chara="ritaSmileLeftFar" position="left"/>
+            <speak chara="ritaNoFace"> —Welcome to “West Cliff Rita”! </speak>
+            <show chara="ritaSmileLeftFar" position="left" opacity="0.7"/>
+            <show chara="weltGiggleWinterFar" position="right"/>
+            <speak chara="weltNoFace">Huh?  … Wait, are you the manageress? </speak>
+            <show chara="weltGiggleWinterFar" position="right" opacity="0.7"/>
+            <show chara="ritaSmileFar" position="left"/>
+            <speak chara="ritaNoFace">Haha, there aren't many staff around during the off-season, so I guess it's a little embarrassing. </speak>
+            <show chara="ritaSmileLeftFar" position="left"/>
+            <speak chara="ritaNoFace">But … on the other hand, it will help you save on tips, isn't that right? </speak>
+            <goto goto="50" change="#ffffff"/>
+        </scene>
+        <scene id="50" background="westCliffWindow.jpg">
+            <bgm src="themeWelt.mp3" status="start"></bgm>
+            <text article="1">
+                <p class="article-text">The accommodation provided by “West Cliff Rita” is a small villa with a seaside view. From the second floor, one can see a continuous flow of merchant ships passing through the Thames estuary. The furnishings in the villa are a mix of both Victorian and Colonial-era designs, and hanging from the light wallpaper are art portraits of dubious origin, many of which look like third-rate works commissioned for ten pounds each. </p>
+            </text>
+            <text article="1">
+                <p class="article-text">Standing alone, looking at the seashore by the window, Welt cannot help but feel a strong sense of mixed emotions flood into his heart. </p>
+                <br />
+                <p class="article-text">Recently, he has met many interesting people. Although no one could help him get to the bottom of what is going on — there is no doubt that they are all sincere people. </p>
+            </text>
+            <text article="1">
+                <p class="article-text">Because of this, Welt can understand that they have different positions. Edison is the core of the North American branch; Planck seems to be the lubricant between her and the Headquarters — although obviously biased; and Reanna is a soldier whose “duty is to obey orders”. </p>
+            </text>
+            <text article="1">
+                <p class="article-text">In the future, when the hidden contradictions between the North American branch and Headquarters eventually erupt into full-blown conflict, then, unlike those who already have a clear position … those who are caught in the middle  — whether it is myself, or ordinary researchers such as Einstein and Tesla — which side should we take? </p>
+            </text>
+            <text article="1">
+                <p class="article-text">From the previously-collected Soulium data, the mysterious character who claims to be “H.A.” treats Schicksal as her enemy. What did she discover? What did she experience?  When Ada eventually decodes her encrypted information, how should we face it? Einstein and Tesla believed that “there can be no decision without proper investigation and research” — but the external situation may change rapidly at any moment, in a myriad ways — can that really give them enough time? </p>
+            </text>
+            <goto goto="55" change="#ffffff"/>
+        </scene>
+        <scene id="55" background="planeNightRem.jpg">
+            <bgm src="themeWelt.mp3" status="continue"></bgm>
+            <text>A month ago, aboard a certain airplane.</text>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="CG6-3_Rem.jpg">
+            <bgm src="themeWelt.mp3" status="continue"></bgm>
+            <speak chara="weltNoFace">Um … what do you mean by so-called “speaking in whispers” … </speak>
+            <text>The young man named Welt asked awkwardly, all the while carefully avoiding direct eye contact with a pair of luscious red lips. </text>
+            <speak chara="planckNoFace">Fufu … That's not a bad reaction either. </speak>
+            <speak chara="planckNoFace">Well, since I promised you, of course I'll inform you, of all the juicy details. </speak>
+            <text>The professor called Planck batted her eyes mischievously. </text>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="planeNightRem.jpg">
+            <bgm src="themeWelt.mp3" status="continue"></bgm>
+            <show chara="weltNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace"> …  Let us begin with the cooperation between “Princess Nancy” and the organisation. </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">As you may know, she is the chairwoman of the General Electric company, or “GE” for short, since the age of 17. </speak> <!-- The VN states GME, and may have been confused with General Motors. -->
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="right"/>
+            <speak chara="weltNoFace"> … 17? </speak>
+            <show chara="weltScaredWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Uh-huh. The year her parents were killed in a Honkai event. </speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace"> … </speak>
+            <show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Although at that time, she knew nothing about the Honkai, and was explicitly told “not to investigate any further” — </speak>
+            <speak chara="planckNoFace"> — Such a person as Nancy would never cease to make good use of all the resources at hand. </speak>
+            <speak chara="planckNoFace">The situation at the time was that the World War had just ended, and the economy in most parts of the world had been ruined by the destruction of the war. </speak>
+            <speak chara="planckNoFace">So, she directly used offers of high salary and experimental funds as bait, and began attempting to poach personnel from our Organisation. </speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="right"/>
+            <speak chara="weltNoFace"> … Is that even possible? </speak>
+            <show chara="weltScaredWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Certainly not something that went smoothly. </speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">But something that no-one expected her to do, was that, when her poaching was unsuccessful, she paid a personal visit to Headquarters, and proposed that she help the Organisation establish a North American branch. </speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">I don't know much about the Organisation … but could they even agree to such a thing? </speak>
+            <show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">There was no argument. </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">The other party offered a total of $13 billion USD in sponsorship funds as staged payments. </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">Thir … Thirteen billion?! </speak>
+            <show chara="weltScaredWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace" remark="next">In nominal terms — the “European Recovery Program”. </speak>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">The European Recovery Program (ERP), also known as The Marshall Plan, was a plan for the United States to provide economic assistance and assistance to reconstruction in Western Europe (NATO) countries damaged by the war after World War II. During this period, various forms of assistance received by Western European countries totaled approximately $13 billion (considering inflation, the value of this assistance today is equivalent to more than ten times its face value) </p>
+            </remark>
+            <show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">That's … </speak>
+            <show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">So, it's not that some things can't be bought with money — it's just that they can't be bought unless you have enough of the stuff. </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">But why was there no North American branch in the past? — </speak>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">Ah. </speak>
+            <text> Welt suddenly remembered the Finn's explanation: that North America at the time had not shown many signs of activities dating back to the Previous Civilisation. </text>
+            <show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">It seems that you have it figured out yourself. </speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">That's right, in the opinion of the council at the time, this was simply a pie falling from the sky. </speak>
+            <speak chara="planckNoFace">There were no known remnants of the Previous Civilisation in the region, and so the North American branch was nothing in their eyes. It could not possibly be a threat to their headquarters. </speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">But in fact … </speak>
+            <show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">That's correct. We modern people are no less capable than the ancient people of the Previous Civilisation. If we do it ourselves, we can also succeed. </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace"> What's more, once the scale of the Yellowstone ruins is known to Headquarters, there will probably be friction between the two sides again.</speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace"> Or … perhaps Headquarters already has more information than we have, and is working secretly? </speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="right"/>
+            <speak chara="weltNoFace"> … If so, isn't the current situation really dangerous right now? </speak>
+            <show chara="weltScaredWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Hehe, if you lot manage to find the so-called “Last Soulium”, then you will have front-row seats to a good show. </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">G-good show? </speak>
+            <show chara="weltScaredWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace"> … Don't you think, if we do eventually find something, it must definitely be some kind of explosive revelation? </speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Worst-case scenario, if it does come to that, then we may have to make some sort of choice. </speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltDarkWinterClose-up" position="right"/>
+            <speak chara="weltNoFace"> … </speak>
+            <show chara="weltNormalWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">I wanted to ask this question a long time ago … </speak>
+            <speak chara="weltNoFace">What is the true purpose of the Organisation? </speak>
+            <speak chara="weltNoFace"> Is it really just fighting the Honkai? </speak>
+            <show chara="weltNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace"> … </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">I have no way to answer your specific question. </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="right"/>
+            <speak chara="weltNoFace"> … </speak>
+            <show chara="weltNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Don't worry, it doesn't mean that I'm treating you as an outsider. </speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace"> The Organisation is huge. Between any two members, the perceived meaning behind its existence may be as different as night and day. </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Ordinary clerks, Valkyries, researchers, patrons, council members … What each party sees is just one aspect of the Organisation.  </speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Contrary to the suspicions of a skeptic, for this world organisation there is no impetus other than its “superficial purpose” — </speak>
+            <speak chara="planckNoFace"> — its complexity is brought about by the living people who comprise it. </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">For example … I sometimes hate this obstinate and self-opinionated “princess”. </speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">You know, Tesla's talents were almost wasted in her hands — although her motivations were good. </speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">However, if it comes to considering her against the council … I'm sorry, but I will spare no effort to support her. </speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">She at least respects the objective laws of scientific research. </speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">Huh? I thought the council is an institution grounded in technological and scientific understanding … </speak>
+            <show chara="weltScaredWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">But their militaristic aspirations are even more well-grounded. </speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">The priority of the council is never whether a thing is scientifically true … but whether it can be controlled by them. </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace"> The technological and scientific capabilities of the council are actually very strong … but when they try to control everything, their impact on scientific research is very negative. </speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">The most obvious example is Soulium. </speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">Soulium? The one we're looking for? </speak>
+            <show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Correct. Some Soulium store information from the Previous Era. </speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">The Council has an unusual interest in this type of Soulium, and in principle, does not allow the branches to develop technology and interpret them on their own. </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Why do you think that is? </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">Because … they are afraid of misuse of the weapon technology contained with them? </speak>
+            <show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">That is indeed one of their reasons … but they actually have more pressing concerns. </speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">The weapon technology from the Previous Era has extremely demanding requirements on the Honkai adaptability of whoever operates the weapon. </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">In other words, if you want to use those technologies, you must first have the Valkyrie on your side. </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">Do you mean to say … </speak>
+            <show chara="weltScaredWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Yes. Valkyries are also human, and therefore they may naturally betray the Organisation. </speak>
+            <speak chara="planckNoFace"> Moreover, throughout history, there were indeed no shortage of records of betrayal against Schicksal by combatants. In these records … </speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">in addition to “personal grievances”, another common factor was “information from the past”.  </speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">These ideas originated from a generation that failed to defeat the Honkai. Many ideas. And naturally some of these ideas may deviate from the core beliefs of Schicksal. </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace"> What's more problematic is that these ideas from “those before us” may be easily accepted as truth by children who are too empathetic. </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace"> … </speak>
+            <show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">In a nutshell, logically it is difficult to judge how many of these ancient people's ideas are credible or even usable. </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Technology can be tested through experiments, and problems can be solved through mathematics; but ideas that cannot be falsified … they are difficult to handle. </speak>
+            <speak chara="planckNoFace"> They may make sense in the eyes of one person, but not in the eyes of another — it's the so-called phenomenon of “a thousand readers having a thousand Hamlets”. </speak> <!-- 一千个读者有一千个哈姆雷特. This is actually a modern Chinese proverb that has no prior basis in English or Shakespeare. It is likely a neologistic idiom -->
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace"> … </speak>
+            <show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Because of this, once you start treating these dissenting people with a condescending attitude, it is easy to feel that they are “easily manipulated”, and “impossibly stupid”. </speak>
+            <speak chara="planckNoFace">In this case, the most convenient means for you as a leader to handle the situation, is to limit their “rights” and “privileges”. </speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace"> … </speak>
+            <show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">But, in turn, the result of such laziness is that, with you as the head, situations involving covert operations are bound to happen everywhere … </speak>
+            <speak chara="planckNoFace"> … The entire organisation has become dependent on militarised management to maintain unity. It becomes only possible to maintain efficiency by further “shrinking privileges”. </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace"> … </speak>
+            <show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">When it comes to the general army, this is nothing.  </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">After all, everyone agrees that “the soldier's duty is to obey orders”. </speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">The problem is that Schicksal is not just an army.  </speak>
+            <speak chara="planckNoFace">From the perspective of cultivating scientific research personnel, “shrinking privileges” is very bad for talent growth. </speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">You've been to many labs in our organisation. </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">So you should already know how special Lab 42 really is. </speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace"> If there is only one Lab 42 in the world, that can satisfy a degree of freedom that scientific talents truly need to grow — </speak>
+            <speak chara="planckNoFace"> — then I think we have absolutely no chance of winning against the Honkai. </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace"> What do you say? </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <bgm src="11_17_tatakau.mp3" status="start"></bgm>
+            <show chara="weltDarkWinterClose-up" position="right"/>
+            <speak chara="weltNoFace"> … </speak>
+            <speak chara="weltNoFace">That's … </speak>
+            <show chara="weltNormalWinterClose-up" position="right"/>
+            <speak chara="weltNoFace"> … </speak>
+            <speak chara="weltNoFace"> … Whatever the case, please do not put Einstein and the others at risk of danger. </speak>
+            <show chara="weltNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace"> … Hmm? </speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">Although I don't know, for a huge organisation like Schicksal, whether what they're doing is truly right … </speak>
+            <speak chara="weltNoFace">But I can feel that, someday in the future, you and the European headquarters will eventually part ways. </speak>
+            <show chara="weltDarkWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">I don't know what that will mean … </speak>
+            <show chara="weltNormalWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">But when that happens, as their teacher, please do not involve your students in it! </speak>
+            <speak chara="weltNoFace"> … At least that alone is definitely wrong, not good, and should not be done! </speak>
+            <show chara="weltNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Heh … I thought you were going to say something with a bit more … </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltShameWinterClose-up" position="right"/>
+            <speak chara="weltNoFace"> … What, is this something you can't do? </speak>
+            <show chara="weltShameWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Fufu! </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Do you think I intend to persuade you to support the North American branch in principle? </speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">You cute little idiot! </speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace"> … </speak>
+            <show chara="weltShameWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">W-who's the idiot! </speak>
+            <speak chara="weltNoFace"> … Also, “cute” and “little” are unnecessary! </speak>
+            <show chara="weltShameWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Haha, Welt, it's times like these that you become especially amusing. </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltTiredWinterClose-up" position="right"/>
+            <speak chara="weltNoFace"> … </speak>
+            <show chara="weltTiredWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Look, listen to me. </speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">In this world, there are always causes and effects that we cannot stop. </speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">In the case … In the case that the Soulium you seek is the spark that lights the fuse … </speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace"> … When that time comes, you must all listen to your own inner judgement. </speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Don't think about us, don't think about any organisation … </speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">You must listen attentively to that inner voice deep within yourself, the voice that, as an ordinary person, gives fruition to those simplest and purest ideas. </speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace"> Everything has its two sides … so instead the key point is whether or not you acknowledge your actions from the heart.</speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">And then … </speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace"> … Protect well, those who truly deserve your protection. </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Do not forget, you are resistant to Honkai … but even us scientists cannot yet explain it. </speak>
+            <goto goto="80" change="#ffffff"/>
+        </scene>
+        <scene id="80" background="westCliffWindow.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="start"></bgm>
+            <text>As Welt finishes revisiting his memories, he notices that the splendid sound of a piano had been playing behind him, for God knows how long. </text>
+            <goto goto="90" change="0"/>
+        </scene>
+        <scene id="90" background="CG12-2.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="continue"></bgm>
+            <text>Einstein's ten fingers tap nimbly upon the piano keys, and the characteristically crisp sound of the piano seems to slip out from beneath her fingertips. </text>
+            <text>For a moment, Welt feels as if his entire body has erupted in goosebumps. </text>
+            <text> He doesn't remember learning any folk songs, but the melody of the music sounds strangely familiar to him. </text>
+            <text>No, not just the level of familiarity … </text>
+            <speak chara="weltNoFace">Oh, Danny Boy, the pipes, the pipes are calling</speak>
+            <speak chara="weltNoFace">From glen to glen, and down the mountain side, </speak>
+            <speak chara="weltNoFace">The summer's gone, and all the roses falling, </speak>
+            <speak chara="weltNoFace">It's you, it's you must go and I must bide. </speak>
+            <goto goto="95" change="0"/>
+        </scene>
+        <scene id="95" background="CG12-1.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="continue"></bgm>
+            <speak chara="einNoFace">But come ye back when summer's in the meadow,</speak>
+            <speak chara="einNoFace">Or when the valley's hushed and white with snow, </speak>
+            <speak chara="einNoFace">It's I'll be here in sunshine or in shadow, </speak>
+            <speak chara="einNoFace">Oh, Danny Boy, oh Danny Boy, I love you so! </speak>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="CG12-2.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="continue"></bgm>
+            <speak chara="einNoFace" remark="next">Welt … are you also familiar with this song? </speak>
+            <remark post="U2FsdGVkX19ZdL7hDqev2Mrxfcrrag==">
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">“Danny Boy” is a folk song written by English composer Frederic Weatherly. It is usually sung in tune to “Londonderry Air”. There have always been different theories about the meaning of this song, such as the fact that it is a love song, or an elegy, or a verse written by a father to a son departing for war, etc. </p>
+            </remark>
+            <speak chara="einNoFace">This is … </speak>
+            <speak chara="einNoFace">From a long, long time ago … </speak>
+            <speak chara="einNoFace">Someone … </speak>
+            <speak chara="einNoFace">Who first taught me this song … </speak>
+            <end post="U2FsdGVkX1+r++fvlcKhEiAARLoGiw=="/>
+        </scene>
+    </story>
+</data>		

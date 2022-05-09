@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newchapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="studyLamp.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <show chara="teslaShameEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">Blondie! Bring me my Blazing Blade! </speak> <!-- 烈火之剑 from the Chinese title for Fire Emblem, the Blazing Blade -->
+            <show chara="teslaShameEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="reaEmbarraOpenEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">Blondie … Do you mean me? </speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace"> … What do you mean by “Blazing Blade”? </speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="joaSmileWinterClose-up" position="left"/>
+            <speak chara="joaNoNameNoFace">Miss Valkyrie … she probably wants you to pass her the welding gun … </speak>
+            <show chara="joaSmileWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">Ah, ah, welding gun is it … </speak>
+            <show chara="reaEmbarraOpenEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">Welding gun … Welding gun … </speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace"> Here, welding gun. </speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaBoringEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">Ah … That's the one. Ta. </speak>
+            <show chara="teslaBoringEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="einFoolWhiteClose-up" position="right"/>
+            <speak chara="einNoFace">Sorry for the inconvenience, but this idiot of ours, once she gets a bit twitchy, she'll stop speaking in a human language. </speak>
+            <show chara="einFoolWhiteClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaAngryEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">OI! MOPHEAD! WHO ARE YOU CALLING AN IDIOT?! </speak>
+            <show chara="teslaAngryEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="einSlyWhiteClose-up" position="right"/>
+            <speak chara="einNoFace">Who else is there, other than the most esteemed and distinguished Lady Tesla? </speak>
+            <show chara="einSlyWhiteClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaAngryEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace"> … EAT MY BLAZING BLADE! </speak>
+            <show chara="teslaAngryEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="weltScaredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace"> … Danger! </speak>
+            <show chara="weltShameSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace"> …  Hey, why are you waving it in my face!? </speak>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="studyLamp.jpg">
+            <bgm src="lab.mp3" status="continue"></bgm>
+            <text article="1">
+                <p class="article-text">How did the situation come to this … Welt can't help but sigh. </p>
+            </text>
+            <text article="1">
+                <p class="article-text">The two guests who have come to Lab 42 tonight are Reanna Brigantia and Joachim Nokianvirtanen.The former is a high-level Valkyrie from Headquarters, while the latter is the son of the frivolous Finn. </p>
+                <p class="article-text">Why have these two come here together … </p>
+                <p class="article-text">This is probably so-called “fate” at work. </p>
+            </text>
+            <show chara="ghostBlackFloatClose-up" position="center" opacity="0.9"/>
+            <text article="1">
+                <p class="article-text">Of course, we have no way of knowing, as the ultimate stepping stone to this fate, what the remotely-controlled robot, who had been cursed with rotten luck for several generations, was thinking at the time of its demise. </p> <!-- 倒了八辈子血霉 -->
+                <br />
+                <p class="article-text"> … If it could even think at all. </p>
+            </text>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="schoolNight3.jpg">
+            <text article="1">
+                <p class="article-text">Joachim had been to his father's workplace many times before; every time, the Sister with the Mophead, and the Sister with the Twintails, would always give him a variety of things to play with that other children could never get: making various brightly-coloured chemical solutions, playing music with electrical discharge coils in a dark room, and rehearsing stage shows with Miss Computer …  Stories and social capital he could use to brag to other children. </p> <!-- See https://www.youtube.com/watch?v=93T0mVddBgM for Tesla coil music -->
+            </text>
+            <show chara="joaBlackWinterClose-up" position="center" opacity="0.9"/>
+            <text article="1">
+                <p class="article-text" style="color:#ccbdac;font-style:italic;">“I love my big sisters the most!”</p>
+                <br />
+                <p class="article-text"> — at least in Welt's opinion, the young boy is probably thinking like this. </p>
+            </text>
+            <hide position="center"/>
+            <text article="1">
+                <p class="article-text">So, a few days ago, when the communicator the Twintailed sister gave him during his summer vacation suddenly sounded, the young boy instinctively felt that something interesting was going to happen. </p>
+            </text>
+            <show chara="teslaBlackGlassWinterClose-up" position="center" opacity="0.9"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(237,118,114);font-style:italic;">“Hey, kiddo! You wanna play Halloween tricks together? ”</p>
+            </text>
+            <hide position="center"/>
+            <text article="1">
+                <p class="article-text">It's just that the Twintail Sister couldn't predict that the robot she had prepared in the cemetery, would coincidentally be treated it as an “Unidentified Flying Object” and smashed to pieces, by a Valkyrie Sister who was just passing by to sweep a grave. </p>
+            </text>
+            <show chara="reaBlackRunWinterClose-up" position="center" opacity="0.9"/>
+            <text article="1">
+                <p class="article-text" style="color:#fff2c4;font-style:italic;">“Ah … um … this … I really didn't know! I'm so terribly sorry! I will recompensate you as you ask! ”</p>
+            </text>
+            <hide position="center"/>
+            <text article="1">
+                <p class="article-text">Recalling the deeply apologetic demeanour and repeated bowing of the Valkyrie Sister, Joachim also felt embarrassed and a little bit apologetic to her. </p>
+                <br />
+                <p class="article-text"> — At least, he seemed to be the case in Welt's opinion. </p>
+            </text>
+            <show chara="joaBlackWinterClose-up" position="center" opacity="0.9"/>
+            <text article="1">
+                <p class="article-text">Confronted by the other party being so insistent on claiming compensation, the boy had an idea — </p>
+                <br />
+                <p class="article-text" style="color:#ccbdac;font-style:italic;">“Miss Reanna, I want your autograph! ”</p>
+            </text>
+            <hide position="center"/>
+            <text article="1">
+                <p class="article-text">Of course, now that we talk about it … </p>
+                <br />
+                <p class="article-text">It was impossible for the Redhaired Tyrant to pretend that “nothing had happened”. </p>
+            </text>
+            <goto goto="60" change="#ffffff"/>
+        </scene>
+        <scene id="60" background="studyLamp.jpg">
+            <bgm src="lab.mp3" status="continue"></bgm>
+            <show chara="teslaNormalEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">Really … </speak>
+            <show chara="teslaEmbarraEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">What is this thing you call the “Abyss Flower”? How did you disintegrate every wire from the inside? </speak>
+            <show chara="teslaEmbarraEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="reaSmileAhWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">The “Abyss Flower” is a “Divine Key” that integrates the powers of decomposition and creation into one. </speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">When its destructive powers are activated, the target will be automatically deconstructed from the inside-out into a more-or-less chaotic and disordered state </speak>
+            <show chara="reaEmbarraOpenEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">If used at maximum power — </speak>
+            <show chara="reaEmbarraOpenEyeWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaEmbarraEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">Slowly, slowly now. </speak>
+            <show chara="teslaShameEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">“Integrate decomposition and creation into one”? </speak>
+            <show chara="teslaSnickerEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">That is — it also has the ability to repair? </speak>
+            <show chara="teslaSnickerEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="reaSmileAhWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace"> … Yes. </speak>
+            <show chara="reaSmileAhWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaSmileEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">Then why didn't you say so earlier! </speak>
+            <show chara="teslaSnickerEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">Let's work together then, and repair this pile of scrap metal, wouldn't that be it? </speak>
+            <show chara="teslaSnickerEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="reaEmbarraOpenEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace"> … Sorry, but I can't do that. If I could, I would have fixed it on the spot. </speak>
+            <show chara="reaEmbarraOpenEyeWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaShameEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">Oh? Why is that? </speak>
+            <show chara="teslaShameEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">Although the Abyss Flower can decompose everything, its “creative” powers are only suitable for repairing damage to living organisms. </speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaNormalEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">Ah, is that so. </speak>
+            <show chara="teslaEmbarraEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">Wait … that doesn't make sense. There is no absolute boundary between the organic and inorganic.  </speak>
+            <show chara="teslaShameEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace"> After all, from a different perspective, isn't the so-called “human being” just a machine with self-awareness? </speak>
+            <show chara="teslaShameEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">That's … </speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaShameEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace"> … The first time you heard of such an argument </speak>
+            <show chara="teslaSmileEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">Think of our organs. Think of your cells. Think of our mitochondria. Think of our neurotransmitters. </speak>
+            <show chara="teslaSnickerEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">Which of these do not execute commands mechanically based on external stimuli? </speak>
+            <show chara="teslaNormalEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">Humans are soft and squishy, while machines are hard and rigid — that is just a difference in construction materials. </speak>
+            <show chara="teslaShameEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace"> We may seem clever, and the machines may seem clumsy, but that's just because we don't yet have the ability to design a machine as good as ourselves. </speak>
+            <show chara="teslaBoringEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">Those who stubbornly believe that people have so-called “souls” are either unwilling to delve into the true nature of this world — </speak>
+            <show chara="teslaEmbarraEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace"> Or, it is because they have been befuddled by the concept of the “self” or “ego”, and they have to search desperately for their own “Emperor's new clothes” to prove their “legitimacy”. </speak>
+            <show chara="teslaShameEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">Do you understand? These people simply can't believe they're just a product of nature, and they can't believe that they're just a by-product of the natural evolution of everything. </speak>
+            <show chara="teslaSnickerEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">They would rather that we be great and powerful “heroes” in our own fiction, than to accept a down-to-earth understanding of ourselves. </speak>
+            <speak chara="teslaNoFace">Because they are so afraid to die, they are willing to look down on everything around them — they are no different from those kings and queens who cry that they have a “divine right” or “God's mandate” to rule. </speak>
+            <show chara="teslaSnickerEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="reaEmbarraOpenEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">Ah ha ha … </speak>
+            <speak chara="reannaNoFace">That's … </speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">The reasoning you have given is very interesting … but any repair job needs reference to a blueprint. </speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaShameEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">Blueprint? I can give that to you. There should be no problem! </speak>
+            <show chara="teslaShameEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="reaEmbarraOpenEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">No … For the Abyss Flower, it can only analyse blueprints written in the genetic code. </speak>
+            <show chara="reaEmbarraOpenEyeWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaBoringEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace" remark="next">Tsk … DNA? </speak>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">In early 1953, James Dewey Watson and Francis Harry Compton Crick proposed an accurate model of DNA, with a double helix deconstruction based on X-ray diffraction patterns taken by Rosalind Elsie Franklin, and published it in “Nature” (Vol. 171, Issue 4356, p. 737, MOLECULAR STRUCTURE OF NUCLEIC ACIDS: A Structure for Deoxyribose Nucleic Acid). </p>
+                <br />
+                <p class="article-text">P.S. This paper is only one page long — apart from the attribution and references which are listed on page 738. </p>
+            </remark>
+            <show chara="teslaBoringEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">Mm-hmm … it can only recognise “blueprints” in “DNA” format. </speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaEmbarraEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace"> … Tsk, boring. </speak>
+            <show chara="teslaShameEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace" remark="next">Since it is lauded as a “Divine Key” from God  … I thought it'll also come with some “Philosopher's Stone”. </speak>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">The concept of the Philosopher's stone is generally believed to be from the guiding essay of Hermeticism, the “Emerald Tablet” written around the 1st century AD.</p>
+                <p class="article-text"> The “Philosopher's stone” symbolises the apex of alchemy, and arcanists believe that it can not only turn stone to gold, but also make one immortal. </p>
+            </remark>
+            <show chara="teslaShameEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="reaEmbarraOpenEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">Ah ha ha ha ha … what is this “Philosopher's stone” … </speak>
+            <show chara="reaEmbarraOpenEyeWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="einSlyWhiteClose-up" position="right"/>
+            <speak chara="einNoFace">Sorry, our resident “idiot” has studied to the level of a doctorate, yet she still believes in alchemy. </speak>
+            <show chara="einSlyWhiteClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaAngryEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace"> … </speak>
+            <show chara="teslaAngryEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="einSlyWhiteClose-up" position="right"/>
+            <speak chara="einNoFace">What's wrong, is there any problem? </speak>
+            <show chara="einSlyWhiteClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaAngryEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace"> … … </speak>
+            <show chara="teslaAngryEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="einSlyWhiteClose-up" position="right"/>
+            <speak chara="einNoFace">If there's no problem, shall we continue to repair it? </speak>
+            <show chara="einSlyWhiteClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaAngryEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace"> … … … </speak>
+            <show chara="teslaNormalEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">Welt. </speak>
+            <show chara="weltScaredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">Present!? </speak>
+            <show chara="weltScaredSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaShameEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">If I don't use any dangerous weapons … may I still hit people? </speak>
+            <show chara="teslaShameEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">Um … if you don't beat me, I guess? </speak>
+            <show chara="weltGiggleSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace"> As long as you don't hurt any innocent people, it doesn't matter even if you demolish a house. </speak>
+            <show chara="weltGiggleSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaEmbarraEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace"> … </speak>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="">
+            <bgm src="lab.mp3" status="stop"></bgm>
+            <sound src="hit man.mp3"/>
+            <text>“AH! ”</text>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="studyLamp.jpg">
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <show chara="weltShameSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">That hurt! </speak>
+            <show chara="weltScaredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">Why did it have to be me!? </speak>
+            <show chara="weltScaredSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaSnickerEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">Of course, it's because hitting you is more fun. </speak>
+            <show chara="teslaSmileEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">Besides, this is also an action that “does not hurt any innocent people”. </speak>
+            <show chara="teslaSmileEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">Wait, wait a sec? </speak>
+            <show chara="weltSurpriseSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaShameEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">“Um …  if you don't beat me, I guess?”</speak>
+            <show chara="teslaSmileEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">Ha! </speak>
+            <show chara="teslaSnickerEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">Dr Einstein, you say, for such a person who sits on the fence so irresponsibly, how should we punish him? </speak>
+            <show chara="teslaSnickerEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="einSlyWhiteClose-up" position="left"/>
+            <speak chara="einNoFace">The death penalty should suffice. </speak>
+            <show chara="einSlyWhiteClose-up" position="left" opacity="0.7"/>
+            <show chara="weltScaredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace"> … W-w-w-wait? </speak>
+            <show chara="weltScaredSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="left"/>
+            <speak chara="reannaNoFace"> … Ha ha ha ha. </speak>
+            <show chara="reaSmileAhWinterClose-up" position="left"/>
+            <speak chara="reannaNoFace"> … You are indeed a most “profoundly sinful” man.</speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="left"/>
+            <speak chara="reannaNoFace">Just accept it, just accept it. </speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltScaredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace"> … W-w-w-w-w-wait? </speak>
+            <show chara="weltScaredSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="joaNormalAhWinterClose-up" position="left"/>
+            <speak chara="joaNoFace">That's … </speak>
+            <show chara="joaNormalEmWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">Hey l-little kiddo … y-you've got to help me! On behalf of all men! </speak>
+            <show chara="weltTiredSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="joaNormalEmWinterClose-up" position="left"/>
+            <speak chara="joaNoFace"> … </speak>
+            <show chara="joaSmileWinterClose-up" position="left"/>
+            <speak chara="joaNoFace">My condolences? </speak>
+            <show chara="joaSmileWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltScaredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">“C-condolences”? ! </speak>
+            <show chara="weltShameSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace" remark="next">You little brat, is your surname “Brutus”! ? </speak>
+            <remark post="U2FsdGVkX19IYJuwZsYSwhJzkZ5S">
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">In Shakespeare's historical play `Julius Caesar', ``Et tu, Brute?'' (And you, Brutus?) is the last sentence Caesar says to his adopted son Brutus before he dies. </p>
+            </remark>
+            <show chara="weltShameSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaSnickerEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">You are not his adoptive father, how could he be your “Brutus”? </speak>
+            <show chara="teslaSnickerEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="einSlyWhiteClose-up" position="left"/>
+            <speak chara="einNoFace">Well, perhaps we could use this opportunity to get on with the formalities? </speak>
+            <show chara="einSlyWhiteClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaSnickerEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">But no one would ever want to be his heir. Hahahaha. </speak>
+            <show chara="teslaSnickerEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="weltScaredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace"> … That's enough! All of you! </speak>
+            <goto goto="100" change="#ffffff"/>
+        </scene>
+        <scene id="100" background="">
+            <bgm src="lab.mp3" status="stop"></bgm>
+            <speak chara="schroNoFace"> — Stop! </speak>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="CG11-1.jpg">
+            <bgm src="horror.mp3" status="start"></bgm>
+            <text>New York, the Consolidated Edison Building, Underground Laboratory</text>
+            <speak chara="schroNoFace" remark="next">Harry, don't add the reflection module yet! </speak>
+            <speak chara="schroNoFace"> …  Yes, you see, the potential scale of the reaction is already very dangerous. </speak>
+            <text>Schrödinger instinctively moves to wipe the sweat from her head, but as she is wearing heavy protective clothing, it is virtually impossible for her to do so. </text>
+            <speak chara="schroNoFace" remark="next"> … Louis, hold your screwdriver tight! These metal pieces are just as unstable as Jenga. </speak>
+            <speak chara="schroNoFace"> … Yes. Remove it slowly. </speak>
+            <speak chara="schroNoFace"> Slowly now … </speak>
+            <speak chara="schroNoFace"> … Good. </speak>
+            <speak chara="schroNoFace">Now the device will be in a subcritical steady-state  … </speak>
+            <speak chara="schroNoFace">If everything goes well — </speak>
+            <speak chara="schroNoFace"> — Harry, what is the temperature of the “core” now? </speak>
+            <speak chara="harryNoFace"> … 45.7 degrees Celsius! </speak>
+            <speak chara="harryNoFace"> … It has risen rapidly by 20.7 degrees! Conversion into ordinary internal energy is very efficient! </speak>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">This is probably the most saddening side-story in our entire story.. </p>
+                <p class="article-text">In our world, Harry K. Daghlian, Jr (1921.4--1945.9) and Louis Alexander Slotin (1910.12--1946.5) were employees of Los Alamos National Laboratory in the United States. The two unfortunate scientists, on August 21, 1945 and May 21, 1946 respectively, suffered fatal doses of nuclear radiation due to inadvertent mishandling of the same plutonium core, and passed away as a result. </p>
+                <p class="article-text">Among them, Louis Alexander Slotin was famous for his great act of “disarming the atomic bomb with both hands”. </p>
+            </remark>
+            <goto goto="120" change="#ffffff"/>
+        </scene>
+        <scene id="120" background="adaRoom.jpg">
+            <bgm src="11_17_tatakau.mp3" status="start"></bgm>
+            <show chara="nokiaSeriousEmWinterFar" position="right" opacity="0.7"/>
+            <show chara="edisonSmileWinterFar" position="left"/>
+            <speak chara="edisonNoFace"> … Excellent. </speak>
+            <show chara="edisonLaughWinterFar" position="left"/>
+            <speak chara="edisonNoFace">This will become the greatest “civil” invention ever known in the history of humanity!</speak>
+            <speak chara="edisonNoFace"> We must give it a loud and resounding project name! </speak>
+            <show chara="edisonSighWinterFar" position="left"/>
+            <speak chara="edisonNoFace">Otherwise, that woman Planck will definitely laugh at us for being uncultured. </speak>
+            <show chara="edisonSighWinterFar" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousAhWinterFar" position="right"/>
+            <speak chara="nokiaNoFace"> … Civil invention? Do you mean power generation? </speak>
+            <show chara="nokiaSeriousAhWinterFar" position="right" opacity="0.7"/>
+            <show chara="edisonLaughWinterFar" position="left"/>
+            <speak chara="edisonNoFace">Oh ha ha ha ha! What are you on about? </speak>
+            <show chara="edisonSmileWinterFar" position="left"/>
+            <speak chara="edisonNoFace"> Once this invention is successful, whether it is my own wishes, or the Schicksal's wishes: everybody's wishes can be successfully attained. </speak>
+            <show chara="edisonSlyWinterFar" position="left"/>
+            <speak chara="edisonNoFace">No, it should be said  … By that time, Schicksal will have neither value nor capital to continue existing. </speak>
+            <show chara="edisonSlyWinterFar" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousAhWinterFar" position="right"/>
+            <speak chara="nokiaNoFace">Wha … </speak>
+            <speak chara="nokiaNoFace">“Neither value nor capital to exist”? </speak>
+            <show chara="nokiaSeriousAhWinterFar" position="right" opacity="0.7"/>
+            <show chara="edisonNeckWinterFar" position="left"/>
+            <speak chara="edisonNoFace">Of course. </speak>
+            <show chara="edisonSighWinterFar" position="left"/>
+            <speak chara="edisonNoFace">You still don't yet realise it? </speak>
+            <show chara="edisonSeriousWinterFar" position="left"/>
+            <speak chara="edisonNoFace">Now that we finally have the chance, in a controlled and universal circumstance, to complete the conversion from Honkai energy to ordinary energy — </speak>
+            <show chara="edisonSmileWinterFar" position="left"/>
+            <speak chara="edisonNoFace">This technology can then be extended to absorb and convert Honkai energy from every corner of the earth — </speak>
+            <show chara="edisonNeckWinterFar" position="left"/>
+            <speak chara="edisonNoFace">Then isn't that equivalent to Honkai itself being non-existent? </speak>
+            <show chara="edisonSighWinterFar" position="left"/>
+            <speak chara="edisonNoFace">As for Schicksal … it's just an organisation that fights against Honkai. </speak>
+            <show chara="edisonSlyWinterFar" position="left"/>
+            <speak chara="edisonNoFace">Once there is no Honkai, naturally it no longer serves any purpose. </speak>
+            <show chara="edisonLaughWinterFar" position="left"/>
+            <speak chara="edisonNoFace">Just like the vigorous and energetic people of this New World, we will no longer needed the old and decaying kings of a twilight world! </speak>
+            <speak chara="edisonNoFace" remark="next">“Arise, fair moon! ”</speak>
+            <speak chara="edisonNoFace" remark="next">“Kill the envious sun, Whose eyes are already flushed with redness, That thou, her maid, art far more fair than she! ”</speak>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">“Arise, fair sun, and kill the envious moon, Who is already sick and pale with grief, That thou, her maid, art far more fair than she.” — “Romeo and Juliet”, Shakespeare. </p>
+            </remark>
+            <show chara="edisonSeriousWinterFar" position="left"/>
+            <speak chara="edisonNoFace">Ah. </speak>
+            <show chara="edisonNeckWinterFar" position="left"/>
+            <speak chara="edisonNoFace">Moon … Moonlight … </speak>
+            <show chara="edisonSlyWinterFar" position="left"/>
+            <speak chara="edisonNoFace"> … “Moonlight Throne”? </speak>
+            <show chara="edisonLaughWinterFar" position="left"/>
+            <speak chara="edisonNoFace">“The Moonlight Throne Project”! What do you think of us using this name? </speak>
+            <end post="U2FsdGVkX18acvktWFkCKCirIU76"/>
+        </scene>
+    </story>
+</data>	

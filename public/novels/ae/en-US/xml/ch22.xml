@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newchapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="edisonTower.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <text>7 hours ago. Edison, New Jersey. Schrodinger is talking to someone on the phone.</text>
+            <show chara="schroNormalHeadsetEmClose" position="center"/>
+            <speak chara="schroNoFace">...Correct. That's why we came to New Jersey.</speak>
+            <show chara="schroNormalHeadsetAhClose" position="center"/>
+            <speak chara="schroNoFace">We're in a laboratory near Raritan River—— You should know about it.</speak>
+            <show chara="schroNormalHeadsetEmClose" position="center"/>
+            <speak chara="schroNoFace" remark="next">...Yes. The famous 「Edison」's 「Edison Laboratory」 in 「Edison Street」.</speak>
+            <remark>
+                <p class="article-text-h">Note：</p>
+                <p class="article-text">This is the history of the real world.</p>
+                <p class="article-text">In late 1875, Thomas Edison (1847 ~ 1931) moved his home to "Monroe Park" in Raritan Town. Here, from the opening of the laboratory in 1876 to the move out of the factory in 1887, Edison developed more than 400 inventions and applied for more than 1,000 patents in 11 years.</p>
+                <p class="article-text">In 1925, the state of New Jersey honored Edison by erecting the "Thomas Edison Memorial" at the Site of Monroe Park, where Edison's home and laboratory had collapsed due to disuse.</p>
+                <p class="article-text">In 1954, the town of Raritan was renamed "Edison City" to further honor Edison.</p>
+                <p class="article-text">Today, Edison is one of the most livable towns in the world.</p>
+            </remark>
+            <show chara="schroNormalHeadsetAhClose" position="center"/>
+            <speak chara="schroNoFace">Anyway, we're 50km away from Manhattan—— It will have no impact on the citizens.</speak>
+            <show chara="schroNormalHeadsetEmClose" position="center"/>
+            <speak chara="schroNoFace">.....</speak>
+            <speak chara="schroNoFace">...I can't stop her. You know how she is. Once an idea pops up in her head she'll do whatever she can to verify it——</speak>
+            <show chara="schroNormalHeadsetAhClose" position="center"/>
+            <speak chara="schroNoFace">If the blueprints do exist, then due to unknown circumstances she hasn't been able to go through with it.</speak>
+            <show chara="schroNormalHeadsetEmClose" position="center"/>
+            <speak chara="schroNoFace">.....</speak>
+            <speak chara="schroNoFace">Yes, it'll be quite difficult.</speak>
+            <speak chara="schroNoFace">That is always the hardest part.</speak>
+            <show chara="schroNormalHeadsetAhClose" position="center"/>
+            <speak chara="schroNoFace">She has always been a walking haphazard.</speak>
+            <speak chara="schroNoFace">Who can say she won't invent some kind of device that will nullify all Houkai energy based weapons next.</speak>
+            <show chara="schroNormalHeadsetEmClose" position="center"/>
+            <speak chara="schroNoFace">...Yes. I'm being sarcastic. There is no other workaholic who can work 365 straight like her.</speak>
+            <show chara="schroNormalHeadsetAhClose" position="center"/>
+            <speak chara="schroNoFace">But who could possibly stop our dear selfish 「Princess」?</speak>
+            <speak chara="schroNoFace">Also, Finn is right there too——</speak>
+            <speak chara="schroNoFace">Ah, don't talk about him like that. He is a very smart person too, just only about his area of expertise.</speak>
+            <show chara="schroNormalHeadsetEmClose" position="center"/>
+            <speak chara="schroNoFace">.....</speak>
+            <speak chara="schroNoFace">...No problem. Let's create a 「surprise」 for them. You planned to come in person from the start, correct?</speak>
+            <show chara="schroNormalHeadsetAhClose" position="center"/>
+            <speak chara="schroNoFace">...Eh? Ivan? Margaret? Benedict? Who are they?</speak>
+            <speak chara="schroNoFace">...Wait a moment. Doesn't that mean 「total mobilization」?</speak>
+            <show chara="schroNormalHeadsetEmClose" position="center"/>
+            <speak chara="schroNoFace">...I understand. That is also important. 「To cut the Gordian knot」. There is no need to prolong it any longer.</speak>
+            <show chara="schroNormalHeadsetAhClose" position="center"/>
+            <speak chara="schroNoFace">Eh? But of course. There is no need to ask.</speak>
+            <show chara="schroNormalHeadsetEmClose" position="center"/>
+            <speak chara="schroNoFace">A certain someone has finally left its home. They might come to help at any moment.</speak>
+            <goto goto="20" change="#ffffff"/>
+        </scene>
+        <scene id="20" background="hospital.jpg">
+            <bgm src="04_20_tank.mp3" status="start"></bgm>
+            <text>Present——</text>
+            <sound src="05_18_gun.mp3"/>
+            <show chara="percivalNormalClose" position="left"/>
+            <speak chara="percivalNoFace">Doctor! Aren't we goning to help?！</speak>
+            <show chara="percivalNormalClose" position="left" opacity="0.7"/>
+            <sound src="05_18_gun.mp3"/>
+            <show chara="morganClose" position="right"/>
+            <speak chara="morganNoFace">....Hella, hemostatic forceps...</speak>
+            <show chara="morganClose" position="right" opacity="0.7"/>
+            <show chara="hellawesNormalClose" position="left"/>
+            <speak chara="hellawesNoFace">...Here</speak>
+            <sound src="05_18_crash.mp3"/>
+            <show chara="percivalNormalClose" position="left"/>
+            <speak chara="percivalNoFace">Hey! You two! There's a fight outside!</speak>
+            <show chara="percivalNormalClose" position="left" opacity="0.7"/>
+            <show chara="morganClose" position="right"/>
+            <speak chara="morganNoFace">……So what?</speak>
+            <show chara="morganClose" position="right" opacity="0.7"/>
+            <show chara="percivalNormalClose" position="left"/>
+            <speak chara="percivalNoFace">...Huh?</speak>
+            <show chara="percivalNormalClose" position="left" opacity="0.7"/>
+            <show chara="morganClose" position="right"/>
+            <speak chara="morganNoFace">Percival, what is the first clause of the doctor's oath?</speak>
+            <speak chara="morganNoFace">You memorized that last year when you took your license test, right?</speak>
+            <show chara="morganClose" position="right" opacity="0.7"/>
+            <show chara="percivalNormalClose" position="left"/>
+            <speak chara="percivalNoFace">Hmm..."I will devote everything to the service of mankind."</speak>
+            <show chara="percivalNormalClose" position="left" opacity="0.7"/>
+            <show chara="morganClose" position="right"/>
+            <speak chara="morganNoFace">What about the fourth?</speak>
+            <show chara="morganClose" position="right" opacity="0.7"/>
+            <show chara="percivalNormalClose" position="left"/>
+            <speak chara="percivalNoFace">..."The health of my patients should be my primary concern."</speak>
+            <show chara="percivalNormalClose" position="left" opacity="0.7"/>
+            <show chara="morganClose" position="right"/>
+            <speak chara="morganNoFace">What about number nine?</speak>
+            <show chara="morganClose" position="right" opacity="0.7"/>
+            <show chara="percivalNormalClose" position="left"/>
+            <speak chara="percivalNoFace" remark="next">...I'm going to do everything I can to preserve human life.</speak>
+            <remark post="U2FsdGVkX19IVfciYsx86aiXz8zW">
+                <p class="article-text-h">Note：</p>
+                <p class="article-text">The "Geneva Declaration" is the oath of a doctor appointed by the "World Medical Association". The first edition was proposed in 1948 (at the conference held in Geneva, Switzerland). The full text of his oath (first edition, not the sixth edition used nowadays) is as follows-</p>
+                <br />
+                <p class="article-text">『准许我进入医业时：</p>
+                <p class="article-text">1.我郑重地保证自己要奉献一切为人类服务；</p>
+                <p class="article-text">2.我将要给我的师长以应有的崇敬及感恩；</p>
+                <p class="article-text">3.我将要凭我的良心和尊严从事医业；</p>
+                <p class="article-text">4.病人的健康应为我的首要的顾念；</p>
+                <p class="article-text">5.我将要尊重所寄托给我的秘密；</p>
+                <p class="article-text">6.我将要尽力维护医业的荣誉和高尚的传统；</p>
+                <p class="article-text">7.我将视我的同业为手足；</p>
+                <p class="article-text">8.我将不容许有任何宗教、国籍、种族、政见或地位的上的考量，横亘于我的职责和病人之间；</p>
+                <p class="article-text">9.我将要尽可能地维护所有人的生命，自从受胎时起；</p>
+                <p class="article-text">10.即使在威胁之下，我也不会运用我的医学知识去违反人道；</p>
+                <p class="article-text">- I solemnly, freely, and upon my character swear the foregoing."</p>
+            </remark>
+            <show chara="percivalNormalClose" position="left" opacity="0.7"/>
+            <show chara="morganClose" position="right"/>
+            <speak chara="morganNoFace">What so you think will happen to the patient if we do not go to debridement and suture now?</speak>
+            <show chara="morganClose" position="right" opacity="0.7"/>
+            <show chara="percivalNormalClose" position="left"/>
+            <speak chara="percivalNoFace">……</speak>
+            <speak chara="percivalNoFace">...Death due to Honkai Corruption cannot be ruled out.</speak>
+            <!--^ Not entirly sure of accuracy  -->
+            <show chara="percivalNormalClose" position="left" opacity="0.7"/>
+            <show chara="morganClose" position="right"/>
+            <speak chara="morganNoFace">So, what else there is to say? Work hard!</speak>
+            <speak chara="morganNoFace">...Have trust in your friends next door！</speak>
+            <goto goto="25" change="#ffffff"/>
+        </scene>
+        <scene id="25" background="">
+            <bgm src="04_20_tank.mp3" status="stop"></bgm>
+            <sound src="05_18_claw.mp3"/>
+            <cg src="catClaw.png"></cg>
+            <goto goto="30" change="#000000"/>
+        </scene>
+        <scene id="30" background="CG22-1.jpg">
+            <bgm src="8_24_war.mp3" status="start"></bgm>
+            <speak chara="schroCatNoFace">Hmph... so this is the power of the 9th, the Herrscher of 「Earth」 that lived 50.000 years ago?</speak>
+            <speak chara="schroCatNoFace">...The relic that transcends time, commonly referred to as a 「Divine Key」, is quite impressive.</speak>
+            <speak chara="schroCatNoFace">...It's surprising even a weak person like you was able to fend off my attack.</speak>
+            <speak chara="einNoFace">Schrodinger-san...</speak>
+            <speak chara="einNoFace">No... 「you」...</speak>
+            <speak chara="einNoFace">...How do 「you」 know so much about the 「Star of Eden」?</speak>
+            <speak chara="schroCatNoFace">Hm... Is that the question Professor Einstein, the person who has been studying by my side for 7 years, wants to ask the msot?</speak>
+            <speak chara="schroCatNoFace">Well, it's fine.</speak>
+            <speak chara="schroCatNoFace">That Valkyrie is distracted by my quantum doubles—— So I have plenty of time.</speak>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="connecticutFarm.jpg">
+            <bgm src="8_24_war.mp3" status="continue"></bgm>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroSmileCatClose" position="center"/>
+            <speak chara="schroCatNoFace">In short... You taught me about that 「Divine Key」 yourself.</speak>
+            <show chara="schroSmileCatClose" position="center" opacity="0.7"/>
+            <show chara="energyballSchroBackLeftClose" position="back" opacity="0.7"/>
+            <show chara="einShockWinterEdenClose" position="right"/>
+            <speak chara="einNoFace">...?</speak>
+            <show chara="einShockWinterEdenClose" position="right" opacity="0.7"/>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroHaughtyCatClose" position="center"/>
+            <speak chara="schroCatNoFace">To be precise, the knowledge came from the 「trapped core」 inside of it.</speak>
+            <speak chara="schroCatNoFace">——If you 「sniff」 its 「smell」 anyone can learn it. Got it?</speak>
+            <show chara="schroHaughtyCatClose" position="center" opacity="0.7"/>
+            <show chara="energyballSchroBackLeftClose" position="back" opacity="0.7"/>
+            <show chara="einSadWinterEdenClose" position="right"/>
+            <speak chara="einNoFace">I-Is that kind of thing possible...?</speak>
+            <show chara="einSadWinterEdenClose" position="right" opacity="0.7"/>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroScornfulCatClose" position="center"/>
+            <speak chara="schroCatNoFace">It surprised me as well.</speak>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroHaughtyCatClose" position="center"/>
+            <speak chara="schroCatNoFace">You could say... I have one more sensory organ than you all. It lets me 「sniff」 the information the Houkai has 「written」.</speak>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroSmileCatClose" position="center"/>
+            <speak chara="schroCatNoFace">Thus knowing about the defensive power of the 9th Herrscher also wouldn't be strange, right?</speak>
+            <show chara="schroSmileCatClose" position="center" opacity="0.7"/>
+            <show chara="energyballSchroBackLeftClose" position="back" opacity="0.7"/>
+            <show chara="weltQuestionNewClose" position="right"/>
+            <speak chara="weltNoFace">Hey... What else do you know?</speak>
+            <show chara="weltQuestionNewClose" position="right" opacity="0.7"/>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroExcitedCatClose" position="center"/>
+            <speak chara="schroCatNoFace">Oh my. Our 「Hero」 finally dared to ask a question.</speak>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroSmileCatClose" position="center"/>
+            <speak chara="schroCatNoFace">Let's see... I know a lot of things...</speak>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroHaughtyCatClose" position="center"/>
+            <speak chara="schroCatNoFace">I know about New York... I know about the 「Princess」... I have you almost figured out.</speak>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroScornfulCatClose" position="center"/>
+            <speak chara="schroCatNoFace">Ah... I just learned about what's going on with that Valkyrie from earlier.</speak>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroExcitedCatClose" position="center"/>
+            <speak chara="schroCatNoFace">So what do you want to know, 「Herrscher」 of our era?</speak>
+            <show chara="schroExcitedCatClose" position="center" opacity="0.7"/>
+            <show chara="energyballSchroBackLeftClose" position="back" opacity="0.7"/>
+            <show chara="weltNoWordsNewClose" position="right"/>
+            <speak chara="weltNoFace">.....</speak>
+            <show chara="einShockWinterEdenClose" position="right"/>
+            <speak chara="einNoFace">Hey...</speak>
+            <show chara="einShockWinterEdenClose" position="right" opacity="0.7"/>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroSmileCatClose" position="center"/>
+            <speak chara="schroCatNoFace">What's wrong? Wasn't it obvious to anyone that he is a Herrscher?</speak>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroScornfulCatClose" position="center"/>
+            <speak chara="schroCatNoFace">Ah, I see. You all can't sense it.</speak>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroExcitedCatClose" position="center"/>
+            <speak chara="schroCatNoFace">Every single one of his cells are screaming in hunger!</speak>
+            <speak chara="schroCatNoFace">「I want to swallow everything」... 「I want to absorb everything」... ｢I want to remake everything｣!</speak>
+            <show chara="weltSBDNewClose" position="right"/>
+            <speak chara="weltNoFace">You're wrong... Stop talking nonsense!</speak>
+            <show chara="weltSBDNewClose" position="right" opacity="0.7"/>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroScornfulCatClose" position="center"/>
+            <speak chara="schroCatNoFace">Hehe... nonsense?</speak>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroExcitedCatClose" position="center"/>
+            <speak chara="schroCatNoFace">Your head may not be able to understand it—— But your body knows well it can no longer endure its hunger!</speak>
+            <goto goto="50" change="#ffffff"/>
+        </scene>
+        <scene id="50" background="CG22-1-2.jpg">
+            <bgm src="8_24_war.mp3" status="continue"></bgm>
+            <speak chara="einNoFace">Stop it!</speak>
+            <speak chara="einNoFace">Before you do something you won't be able to take back!</speak>
+            <speak chara="schroCatNoFace">...Not being able to take it back?</speak>
+            <speak chara="schroCatNoFace">Hahaha, wouldn't that actually be a good thing?</speak>
+            <speak chara="schroCatNoFace">...If you want him to return to the 「right path」 you designed for him, let Welt stand up for himself!</speak>
+            <speak chara="einNoFace">Not a chance!</speak>
+            <speak chara="einNoFace">I won't let you hurt him!</speak>
+            <speak chara="schroCatNoFace">Hmph——</speak>
+            <goto goto="60" change="#ffffff"/>
+        </scene>
+        <scene id="60" background="CG22-1-3.jpg">
+            <bgm src="8_24_war.mp3" status="stop"></bgm>
+            <sound src="05_18_smash.mp3"/>
+            <speak chara="schroCatNoFace">——Then, I'll start by breaking your shield!</speak>
+            <goto goto="70" change="#ffffff"/>
+        </scene>
+        <scene id="70" background="darkEnergy.jpg">
+            <bgm src="03_15_ruinBerlin.mp3" status="start"></bgm>
+            <show chara="energyBallSchroBackClose-up" position="back"/>
+            <show chara="schroScornfulCatClose-up" position="center"/>
+            <speak chara="schroCatNoFace">Hehe...</speak>
+            <show chara="schroExcitedCatClose-up" position="center"/>
+            <speak chara="schroCatNoFace">Listen carefully, gigolo hiding behind a woman.</speak>
+            <show chara="schroSmileCatClose-up" position="center"/>
+            <speak chara="schroCatNoFace">For reasons unknown to you... this woman is honestly trying hard to save your life.</speak>
+            <show chara="schroScornfulCatClose-up" position="center"/>
+            <speak chara="schroCatNoFace">...But it seems she has reached her limit.</speak>
+            <show chara="schroSmileCatClose-up" position="center"/>
+            <speak chara="schroCatNoFace">...She won't be able to take another blow from my hand.</speak>
+            <show chara="schroScornfulCatClose-up" position="center"/>
+            <speak chara="schroCatNoFace">Do you understand what I am saying...?</speak>
+            <show chara="schroExcitedCatClose-up" position="center"/>
+            <speak chara="schroCatNoFace">What's the point of 「Excalibur」 if it isn't in King Arthur's hands?</speak>
+            <show chara="schroHaughtyCatClose-up" position="center"/>
+            <speak chara="schroCatNoFace">...Well? Are you frustrated?</speak>
+            <show chara="schroScornfulCatClose-up" position="center"/>
+            <speak chara="schroCatNoFace">If you want to prove you are different from past Herrscher...</speak>
+            <show chara="schroExcitedCatClose-up" position="center"/>
+            <speak chara="schroCatNoFace">If you want to prove you will not succumb to your instincts...</speak>
+            <show chara="schroScreamCatClose-up" position="center"/>
+            <speak chara="schroCatNoFace">No... If you want to prove you are a real man——</speak>
+            <speak chara="schroCatNoFace">Grab your weapon and fight me head on fair and square!</speak>
+            <speak chara="weltNoFace">...</speak>
+            <speak chara="weltNoFace">......</speak>
+            <goto goto="80" change="#0"/>
+        </scene>
+        <scene id="80" background="nebula.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="start"></bgm>
+            <show chara="ottoShadowClose-up" position="center"/>
+            <speak chara="ottoShadowNoFace">Hehe don't get hit by her.</speak>
+            <speak chara="weltNoFace">Y-You are...</speak>
+            <speak chara="ottoShadowNoFace">Me? Who I am doesn't matter.</speak>
+            <speak chara="ottoShadowNoFace">What matters is—— Schrodinger. You can't do anything about her.</speak>
+            <speak chara="ottoShadowNoFace">If you buy enough time Reanna will come back and save you, right?</speak>
+            <speak chara="weltNoFace">A-Are you saying...</speak>
+            <show chara="karlShadowFar" position="center"/>
+            <speak chara="karlShadowNoFace">Don't... You must face her head on, Welt.</speak>
+            <speak chara="karlShadowNoFace">You are not an ordinary person—— Believe in your own power.</speak>
+            <speak chara="karlShadowNoFace">That is the upmost respect you can show Professor Schrodinger.</speak>
+            <show chara="ottoShadowClose-up" position="center"/>
+            <speak chara="ottoShadowNoFace">...Grr! Who the hell are you!?</speak>
+            <show chara="girlShadowFar" position="center"/>
+            <speak chara="girlShadowNoFace">If you are trying to led him astray...</speak>
+            <show chara="peopleAShadowFar" position="left"/>
+            <speak chara="peopleAShadowNoFace">...We won't stay silent.</speak>
+            <show chara="peopleBShadowFar" position="right"/>
+            <speak chara="peopleBShadowNoFace">Don't be afraid, we're not your enemy.</speak>
+            <show chara="peopleCShadowFar" position="center"/>
+            <speak chara="peopleCShadowNoFace">As long as you don't listen to that blonde devil you won't go down a dark path.</speak>
+            <show chara="soldierAShadowFar" position="left"/>
+            <speak chara="soldierAShadowNoFace">Your opponent is Professor Schrodinger. She is ready to fight you until the end.</speak>
+            <show chara="soldierBShadowFar" position="right"/>
+            <speak chara="soldierBShadowNoFace">Can you tell why?</speak>
+            <goto goto="90" change="#ffffff"/>
+        </scene>
+        <scene id="90" background="darkEnergy.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="weltNoFace">...</speak>
+            <speak chara="weltNoFace">.....</speak>
+            <show chara="weltNoWordsNewClose" position="right"/>
+            <speak chara="weltNoFace">E-Everyone... is calling me.</speak>
+            <show chara="weltNoWordsNewClose" position="right" opacity="0.7"/>
+            <show chara="einShockWinterEdenClose" position="left"/>
+            <speak chara="einNoFace">...What?</speak>
+            <show chara="einShockWinterEdenClose" position="left" opacity="0.7"/>
+            <show chara="weltSmileNewClose" position="right"/>
+            <speak chara="weltNoFace">Eins...</speak>
+            <show chara="weltNervousNewClose" position="right"/>
+            <speak chara="weltNoFace">Would you lend me...</speak>
+            <speak chara="weltNoFace">...The 「Star of Eden」?</speak>
+            <show chara="weltNervousNewClose" position="right" opacity="0.7"/>
+            <show chara="einSadWinterEdenClose" position="left"/>
+            <speak chara="einNoFace">.....</speak>
+            <speak chara="einNoFace">But...</speak>
+            <show chara="einSadWinterEdenClose" position="left" opacity="0.7"/>
+            <show chara="karlShadowClose" position="right"/>
+            <speak chara="weltKarlNoFace">Have you forgotten... there is no limit to the dimension of space.</speak>
+            <show chara="weltNervousNewClose" position="right" opacity="0.7"/>
+            <show chara="einShockWinterEdenClose" position="left"/>
+            <speak chara="einNoFace">...!</speak>
+            <show chara="einShockWinterEdenClose" position="left" opacity="0.7"/>
+            <show chara="weltSmileNewClose" position="right"/>
+            <speak chara="weltNoFace">Don't worry.</speak>
+            <show chara="weltSorryNewClose" position="right"/>
+            <speak chara="weltNoFace">Certainly... my body is longing... to be exposed to this torrent of energy...</speak>
+            <show chara="weltNervousNewClose" position="right"/>
+            <speak chara="weltNoFace">But... thanks to that... I can feel 「everyone's power」 within me.</speak>
+            <show chara="weltNervousNewClose" position="right" opacity="0.7"/>
+            <show chara="einShockWinterEdenClose" position="left"/>
+            <speak chara="einNoFace">...「everyone's power」?</speak>
+            <show chara="einShockWinterEdenClose" position="left" opacity="0.7"/>
+            <show chara="weltSighNewClose" position="right"/>
+            <speak chara="weltNoFace">Yes. 「Everyone」.</speak>
+            <show chara="weltAstonishNewClose" position="right"/>
+            <speak chara="weltNoFace">It's not only Carl... there are many others, children and adults we've never met.</speak>
+            <show chara="weltAstonishNewClose" position="right" opacity="0.7"/>
+            <show chara="einSadWinterEdenClose" position="left"/>
+            <speak chara="einNoFace">You are...</speak>
+            <show chara="einSadWinterEdenClose" position="left" opacity="0.7"/>
+            <show chara="weltSmileNewClose" position="right"/>
+            <speak chara="weltNoFace">Don't worry. I am... I am myself. Always been, and always will be.</speak>
+            <speak chara="weltNoFace">So... will you help me, Eins—— Professor Einstein?</speak>
+            <show chara="weltSmileNewClose" position="right" opacity="0.7"/>
+            <show chara="einSadWinterEdenClose" position="left"/>
+            <speak chara="einNoFace">...</speak>
+            <show chara="einRelaxWinterEdenClose" position="left"/>
+            <bgm src="11_17_tatakau.mp3" status="start"></bgm>
+            <speak chara="einNoFace">.....</speak>
+            <speak chara="einNoFace">Ahh, I guess every man has this kind of moment in their life.</speak>
+            <show chara="einRelaxWinterEdenClose" position="left" opacity="0.7"/>
+            <show chara="weltEmbarraNewClose" position="right"/>
+            <speak chara="weltNoFace">Eh... what?</speak>
+            <show chara="weltEmbarraNewClose" position="right" opacity="0.7"/>
+            <show chara="einRelaxWinterEdenClose" position="left"/>
+            <speak chara="einNoFace">Forget it. It was a little compliment.</speak>
+            <show chara="einSmileWinterClose" position="left"/>
+            <speak chara="einNoFace">(This 「World」 is always exceeding my expectations...)</speak>
+            <speak chara="einNoFace">(I entrust you 「Welt」's fate.)</speak>
+            <goto goto="95" change="#ffffff"/>
+        </scene>
+        <scene id="95" background="white.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <text>Meanwhile——</text>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="cloudSky.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <text>A dozen Houkai beasts suddenly disappeared as if they were phantoms.</text>
+            <text>I realized I was tricked.</text>
+            <text>The one thing I was fearing became reality.</text>
+            <text>From the place I left—— That is, Dr. Morgan's clinic——</text>
+            <text>A Houkai vortex, which seemed to have been contained by a mysterious power, erupted as if it were a volcano.</text>
+            <text>...It's exactly as that Professor described.</text>
+            <text>I relied too much on my past experiences.</text>
+            <text>...It's impossible for me to perform an indiscriminate attack from this distance due to possible collateral damage.</text>
+            <text>Luckily, it seems they still haven't used their triumph card given the Houkai energy shock waves.</text>
+            <text>...But that doesn't mean I have a single moment to spare.</text>
+            <goto goto="110" change="#ffffff"/>
+        </scene>
+        <scene id="110" background="connecticutFarm.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <speak chara="reannaNoFace">T-This is...</speak>
+            <text>There was a large hole in the outer wall of the clinic.</text>
+            <text>Einstein was resting alongside an unconscious Tesla in a pile of hay. The rest of the clinic's staff was near them, looking in awe at the distance.</text>
+            <text>...Their gaze was focused on the two dangerous energies clashing with each other.</text>
+            <goto goto="120" change="#ffffff"/>
+        </scene>
+        <scene id="120" background="CG22-2.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <speak chara="schroCatNoFace">What is it, Welt? Don't tell me you've used all your power already?</speak>
+            <speak chara="weltNoFace">Stop this, Professor Schrodinger! Else human lives will be lost!</speak>
+            <speak chara="schroCatNoFace">...Human lives? Stop joking already. Where is that 「human」 life you speak of!</speak>
+            <speak chara="schroCatNoFace">How contradictory! You knew this was going to be a battle to the death the moment you took my challenge!</speak>
+            <speak chara="weltNoFace">...</speak>
+            <speak chara="schroCatNoFace">Ahaha, what is it? Cat got your tongue?</speak>
+            <speak chara="schroCatNoFace">If you don't want me to soak my hands in blood awaken that power of yours!</speak>
+            <goto goto="130" change="0"/>
+        </scene>
+        <scene id="130" background="CG22-3.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="weltNoFace">...No. Just because I can, doesn't mean I want that, but I also don't want to do something I'll regret.</speak>
+            <speak chara="weltNoFace">But the voices inside of me tell me...</speak>
+            <speak chara="weltNoFace">You are... not my enemy.</speak>
+            <goto goto="140" change="0"/>
+        </scene>
+        <scene id="140" background="CG22-2.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="schroCatNoFace">...Hahaha!</speak>
+            <speak chara="schroCatNoFace">...Stop joking! I'm seriously trying to kill you all!</speak>
+            <goto goto="150" change="0"/>
+        </scene>
+        <scene id="150" background="CG22-3.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="weltNoFace">...I don't doubt it.</speak>
+            <speak chara="weltNoFace">You are seriously trying to kill me... It's true it would be better for everyone if you were to kill me.</speak>
+            <speak chara="weltNoFace">But even so... I can tell you're not my enemy.</speak>
+            <speak chara="weltNoFace">You're just my opponent in this battle.</speak>
+            <goto goto="160" change="0"/>
+        </scene>
+        <scene id="160" background="CG22-2.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="schroCatNoFace">Heh...</speak>
+            <speak chara="schroCatNoFace">Hehehe...</speak>
+            <speak chara="schroCatNoFace">...What are you trying to say?</speak>
+            <speak chara="schroCatNoFace">...What are you trying to do?</speak>
+            <goto goto="170" change="0"/>
+        </scene>
+        <scene id="170" background="CG22-3.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="weltNoFace">...To be honest, I don't get it myself.</speak>
+            <speak chara="weltNoFace">Right now there are countless voices whispering within my body.</speak>
+            <speak chara="weltNoFace">Some voices wish for the destruction of everything. But the majority are encouraging me to bring happiness to this world.</speak>
+            <speak chara="weltNoFace">The one thing I'm certain is... if I'm killed by you then they will... the last piece of them left in this world... will disappear.</speak>
+            <speak chara="weltNoFace">So... if you honestly want a duel to the death...</speak>
+            <speak chara="weltNoFace">I can't let myself be killed without putting up a fight.</speak>
+            <goto goto="175" change="0"/>
+        </scene>
+        <scene id="175" background="CG22-3-1.jpg">
+            <speak chara="weltNoFace">I still have to make reality the beautiful wishes of those countless voices!</speak>
+            <goto goto="180" change="0"/>
+        </scene>
+        <scene id="180" background="CG22-2.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="schroCatNoFace">Ha...</speak>
+            <speak chara="schroCatNoFace">Hahahahaha!</speak>
+            <speak chara="schroCatNoFace">You don't have to say anything else.</speak>
+            <speak chara="schroCatNoFace">Come! Let's see how long can a 「Herrscher」 last!</speak>
+            <goto goto="190" change="0"/>
+        </scene>
+        <scene id="190" background="CG22-3.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="weltNoFace">...</speak>
+            <speak chara="weltNoFace">.....</speak>
+            <speak chara="weltNoFace">...Professor Schrodinger.</speak>
+            <goto goto="200" change="#ffffff"/>
+        </scene>
+        <scene id="200" background="CG22-3-2.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="weltNoFace">I accept your determination!</speak>
+            <end post="U2FsdGVkX1+fxfq7GL5Sc8Cdoiw9"/>
+        </scene>
+    </story>
+</data>	

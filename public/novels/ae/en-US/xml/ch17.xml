@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newchapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="bostonCommon.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="start"></bgm>
+            <text>November 24, 1955, Thursday, 1 am.</text>
+            <text>The first quarter moon shone weakly above—— standing beyond the glare of the streetlights, one wouldn't even be able to see the fingers of their outstretched hand.</text> <!-- The moon in the First Quarter phase is typically called the Half Moon. -->
+            <text remark="next">Holding a modified WS No.88 wireless transceiver in one hand, and a searchlight in the other — </text>
+            <remark>
+                <p class="article-text-h">Note:</p>
+                <p class="article-text">WS No.88 wireless transceiver is a VHF-FM transceiver (commonly known as "walkie-talkie"), used by the British military since the 1950s. It is mainly used for short-distance (within 2 miles) infantry communication.</p>
+            </remark>
+            <text> After saying goodbye to the driver lent by the North American Branch, Dr. Einstein and her friends are standing on the streets of Boston late at night.</text>
+            <text>This is the 139th Tremont Street, the entrance to Boston park and the starting point of the "Freedom Trail".</text>
+            <text>This century-old memorial line was repaired four years ago. The new, bright red tiles look like coagulated blood, linking the turbulent era with the present.</text>
+            <show chara="einNormalWinterFar" position="right"/>
+            <speak chara="einNoFace">This is the starting point of the "Freedom Trail". Ada, did you find anything?</speak>
+            <show chara="einNormalWinterFar" position="right" opacity="0.7"/>
+            <show chara="adaNormalRadioFar" position="left"/>
+            <speak chara="adaNoFace">A weak Honkai energy response was detected.</speak>
+            <speak chara="adaNoFace">The ciphertext matches the previously obtained key. This is an audio recording of the previous era humans.</speak>
+            <speak chara="adaNoFace">The signal length of 348 units, have all been received.</speak>
+            <text>The WS No.88 walkie-talkie made a series of noisy electronic sounds.</text>
+            <text>Adas core in such a simple device in can only maintain the operation and can not even generate her own image stably.</text>
+            <show chara="adaNormalRadioFar" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterFar" position="right"/>
+            <speak chara="einNoFace">Please translate it then</speak>
+            <show chara="einNormalWinterFar" position="right" opacity="0.7"/>
+            <show chara="adaSmileRadioFar" position="left"/>
+            <speak chara="adaNoFace">No problem, Dr. Einstein.</speak>
+            <goto goto="20" change="#ffffff"/>
+        </scene>
+        <scene id="20" background="bostonCommon.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">.....</speak>
+            <speak chara="oldTapeNoFace">If people from a future civilization find this recording, I want you to learn the truth.</speak>
+            <speak chara="oldTapeNoFace">The Honkai of this planet are born from civilization.</speak>
+            <speak chara="oldTapeNoFace">As human civilization develops, so to does the power of the Honkai.</speak>
+            <speak chara="oldTapeNoFace">Every time the Honkai gave birth to a Herrscher, humanity only defeated it by paying a huge price.</speak>
+            <speak chara="oldTapeNoFace">The Herrscher of Reason, the Herrscher of The Void, the Herrscher of Lightning, the Herrscher of Wind... Creation and Destruction, Domination and Binding...</speak>
+            <speak chara="oldTapeNoFace">After more than 10 devastating incidents causing damage comparable to that of World Wars. Almost 70% of the cities around the world have been destroyed as a result.</speak>
+            <speak chara="oldTapeNoFace">But... everything that happened in the past pales in comparison to what I will talk about.</speak>
+            <goto goto="25" change="#ffffff"/>
+        </scene>
+        <scene id="25" background="bostonCommon.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <show chara="weltQuestionNewFar" position="right"/>
+            <speak chara="weltNoFace">...Do you know of the history he was talking about, Ada?</speak>
+            <show chara="weltQuestionNewFar" position="right" opacity="0.7"/>
+            <show chara="adaNormalRadioFar" position="left"/>
+            <speak chara="adaNoFace">No I don't, Mr Welt.</speak>
+            <speak chara="adaNoFace">There is no relevant information in my database.</speak>
+            <speak chara="adaNoFace">... And speaking from when I first became self-aware, I had not experienced that era either.</speak>
+            <show chara="adaNormalRadioFar" position="left" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">You may not know this, Welt... but when Ada was discovered, it had still not been "activated" yet.</speak>
+            <speak chara="teslaNoFace">In other words...it was only after we excavated it that she was "born".</speak> <!-- editor's note: is "it" more appropriate or "she" for Ada? Perhaps conspicuously, Tesla uses the non-gendered pronoun 它 in the written text to refer to Ada, but in spoken Chinese all the relevant pronouns "he", "she" and "it" sound the same when spoken. -->
+            <show chara="weltQuestionNewFar" position="right"/>
+            <speak chara="weltNoFace">Oh...</speak>
+            <show chara="weltQuestionNewFar" position="right" opacity="0.7"/>
+            <show chara="einNormalWinterFar" position="left"/>
+            <speak chara="einNoFace">...Anyway, let's go forward. The other party should have intentionally left short records at each scenic spot.</speak>
+            <show chara="einSmileWinterFar" position="left"/>
+            <speak chara="einNoFace">The second attraction on the Freedom Trail is the "Massachusetts State House". Go through the park and walk to Lighthouse Street.</speak>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="massachusettsStateHouse.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <show chara="weltQuestionNewFar" position="right"/>
+            <speak chara="weltNoFace">...Speaking of which, why is it called the "Lighthouse Street"?</speak>
+            <show chara="weltQuestionNewFar" position="right" opacity="0.7"/>
+            <show chara="teslaSnickerGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">It's because there was originally a lighthouse here of course.</speak>
+            <speak chara="teslaNoFace">Not only is this street called the "Beacon Street", this area is also called the "Beacon Hill".</speak>
+            <speak chara="teslaNoFace">You would have to know that since from about four hundred years ago, Boston has been one of the most important ports in North America.</speak>
+            <show chara="einNormalWinterFar" position="left"/>
+            <speak chara="einNoFace">The loss of landmarks due to urban development also plays a part in that.</speak>
+            <speak chara="einNoFace" remark="next">Long before the massive Irish immigration of the city, Beacon Hill had been dug out for recovering land.</speak>
+            <remark>
+                <p class="article-text-h">Note:</p>
+                <p class="article-text">Irish people began to migrate to the northeastern United States on a large scale, after the Great Irish Famine broke out in 1845. This famine, caused by the failure of potato harvests and the inaction of the British government, caused the population of the island of Ireland to drop by half. Since most of the Irish immigrants left or died in the disaster are poor people whose native language is Gaelic, the local language in Ireland has gradually changed to English, which has permanently changed the language and cultural ecology of the island.</p>
+            </remark>
+            <show chara="einNormalWinterFar" position="left" opacity="0.7"/>
+            <show chara="adaNormalRadioFar" position="right"/>
+            <speak chara="adaNoFace">A weak Honkai energy response is detected.</speak>
+            <speak chara="adaNoFace">The ciphertext matches the previously obtained key. It is an audio recording of previous era civilization humanity.</speak>
+            <speak chara="adaNoFace">The signal length is 194 units, and all have been received</speak>
+            <show chara="adaNormalRadioFar" position="right" opacity="0.7"/>
+            <show chara="einFoolWinterFar" position="left"/>
+            <speak chara="einNoFace">Ah, let's not talk about useless topics</speak>
+            <show chara="einNormalWinterFar" position="left"/>
+            <speak chara="einNoFace">Let's listen to the recorded content.</speak>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="massachusettsStateHouse.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">A certain girl was held prisoner on the 33rd floor of a military base.</speak>
+            <speak chara="oldTapeNoFace">Although she emitted a strong Houkai energy signal, she didn't posses any special ability.</speak>
+            <speak chara="oldTapeNoFace">Needless to say, she also kept her consciousness as a human.</speak>
+            <speak chara="oldTapeNoFace">Her real intention, which was brought up by a polygraph was just——</speak>
+            <speak chara="oldTapeNoFace">「I want to go home.」</speak>
+            <goto goto="45" change="#ffffff"/>
+        </scene>
+        <scene id="45" background="massachusettsStateHouse.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <show chara="teslaEmbarraGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace" remark="next">.....「For fear, I repeat it, is at the bottom of all intolerance.」 I can already guess what happened to her.</speak>
+            <remark post="U2FsdGVkX18FMez2JjeaxPpFtfL8">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">"I repeat, fear is the cause of all intolerance" - this is a famous line written by Hendrik Willem van Loon in his book "Tolerance." Although he was born in the Netherlands, people in intellectual circles generally believe that he was an American writer.</p>
+            </remark>
+            <show chara="teslaShameGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">但是H.A.What could it be H.A.'s goal? For all we know, she could have manufactured all this information.</speak>
+            <show chara="teslaShameGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterFar" position="right"/>
+            <speak chara="einNoFace">...Next one is at Park Street Church. Turn right at the next corner.</speak>
+            <show chara="einNormalWinterFar" position="right" opacity="0.7"/>
+            <show chara="teslaErGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">Ho. So you can't come up with anything?</speak>
+            <show chara="teslaErGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterFar" position="right"/>
+            <speak chara="einNoFace">...I won't get ahead of myself.</speak>
+            <speak chara="einNoFace">If we get to the end of the 「Freedom Trail」 we should be able to listen to the full recording.</speak>
+            <show chara="einNormalWinterFar" position="right" opacity="0.7"/>
+            <show chara="teslaErGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">Right. I'm surprised you can remain this calm.</speak>
+            <show chara="teslaErGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="einSlyWinterFar" position="right"/>
+            <speak chara="einNoFace">I'll take that as a compliment. Not passing judgement lightly is one of my strengths as a researcher.</speak>
+            <goto goto="50" change="#ffffff"/>
+        </scene>
+        <scene id="50" background="ParkStreet.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">One day, an assassin broke into her jail cell and mercilessly killed her.</speak>
+            <speak chara="oldTapeNoFace">No one could have predicted that, at the moment of her death, her power as the 12th Herrscher would manifest.</speak>
+            <speak chara="oldTapeNoFace">「Herrscher of Corruption」.</speak>
+            <speak chara="oldTapeNoFace">It was a virus, the source of an infection who had its own ego.</speak>
+            <speak chara="oldTapeNoFace">It didn't only affect living things but machinery as well.</speak>
+            <goto goto="60" change="#ffffff"/>
+        </scene>
+        <scene id="60" background="ParkStreet.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <show chara="teslaShameGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">Hmm. So a unique virus like that exists.</speak>
+            <speak chara="teslaNoFace">I suppose it's not theoretically impossible, considering we know of 「cheating」 weapons like 「Abyss Flower」——</speak>
+            <show chara="einNormalWinterFar" position="right"/>
+            <speak chara="einNoFace">Next is Granary Burying Ground. It should be around the corner.</speak>
+            <show chara="einNormalWinterFar" position="right" opacity="0.7"/>
+            <show chara="teslaErGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">Yeah...</speak>
+            <speak chara="teslaNoFace">Well, whatever. Let's go...</speak>
+            <goto goto="70" change="#ffffff"/>
+        </scene>
+        <scene id="70" background="chapelBuryingGround.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">It first infected the assassin, and through its biochip it gained access to various electronic systems.</speak>
+            <speak chara="oldTapeNoFace">Including the military base's system.</speak>
+            <speak chara="oldTapeNoFace">All the missiles on the base, fueled by her anger, were fired at the few remaining cities.</speak>
+            <speak chara="oldTapeNoFace">Needless to say, those cities were destroyed.</speak>
+            <speak chara="oldTapeNoFace">People and machines, both were equally instantly vaporized due to the high temperature of the explosions.</speak>
+            <goto goto="80" change="#ffffff"/>
+        </scene>
+        <scene id="80" background="kingsChapel.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">The base was closed off from the outside by the Herrscher.</speak>
+            <speak chara="oldTapeNoFace">With every minute that went by the Herrscher gained more control.</speak>
+            <speak chara="oldTapeNoFace">With every minute that went by more of my companions were infected.</speak>
+            <speak chara="oldTapeNoFace">They were isolated by a gate that wouldn't open, and in their despair, became living corpses.</speak>
+            <speak chara="oldTapeNoFace">Quite literally living corpses.</speak>
+            <goto goto="90" change="#ffffff"/>
+        </scene>
+        <scene id="90" background="campusMassachusetts.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">We lost control for 1 hour, 8 minutes and 20 seconds.</speak>
+            <speak chara="oldTapeNoFace">They were the longest 1 hour, 8 minutes and 20 seconds in human history.</speak>
+            <speak chara="oldTapeNoFace">But we were fortunate to have enough time to think of a countermeasure. We destroyed the biochips inside our bodies and destroyed most of our electronic devices...</speak>
+            <speak chara="oldTapeNoFace">Then a certain Professor managed to set up a trap to seal this terrifying Herrscher inside a 「box」.</speak>
+            <speak chara="oldTapeNoFace">The price we paid was... the decline of humanity.</speak>
+            <goto goto="100" change="#ffffff"/>
+        </scene>
+        <scene id="100" background="oldCornerBookstore.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">From a knowledge perspective, you could say it wasn't a painful loss.</speak>
+            <speak chara="oldTapeNoFace">Thankfully there were many scholars among the survivors. They never gave up and continued fighting.</speak>
+            <speak chara="oldTapeNoFace">From a technical perspective, we had many bases and shelters left intact due to the lack of people, so it was possible to reuse them.</speak>
+            <speak chara="oldTapeNoFace">If luck is on our side, we'll be able to regain our military strength and come back stronger.</speak>
+            <speak chara="oldTapeNoFace">But from a civilization perspective... human civilization is done for.</speak>
+            <speak chara="oldTapeNoFace">Factories that existed for over 100 years, pieces of art that have been passed down through generations for more than 1000 years, urban societies housing over 100 million people...</speak>
+            <speak chara="oldTapeNoFace">...They're all gone.</speak>
+            <speak chara="oldTapeNoFace">We lost, plain and simple.</speak>
+            <goto goto="110" change="#ffffff"/>
+        </scene>
+        <scene id="110" background="oldSouthMeetinghouse.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">Which is why we plan to abandon this base and spread out.</speak>
+            <speak chara="oldTapeNoFace">North America, South America, islands far away from any continent.</speak>
+            <speak chara="oldTapeNoFace">Under the leadership of a certain Professor, we are amassing what little power we have left. Several 「fleets」 were formed and using our few remaining supplies, we are going to leave this base and head to another shelter.</speak>
+            <speak chara="oldTapeNoFace">The Professor kept telling us 「Our home isn't a particular geographical location」.</speak>
+            <speak chara="oldTapeNoFace">「Home can be anywhere—— Because our people and comrades will be there」.</speak>
+            <speak chara="oldTapeNoFace">「My home is wherever my comrades are」.</speak>
+            <speak chara="oldTapeNoFace">...Perhaps what she said was true.</speak>
+            <speak chara="oldTapeNoFace">Because that 「devastated island」 became a 「promised land」 for us.</speak>
+            <goto goto="120" change="#ffffff"/>
+        </scene>
+        <scene id="120" background="oldStateHouse.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">Today is the day we depart.</speak>
+            <speak chara="oldTapeNoFace">We had a total of 15.626 casualties at the base—— All of their names were read aloud before we left.</speak>
+            <speak chara="oldTapeNoFace">There were some I knew.</speak>
+            <speak chara="oldTapeNoFace">There were some I only learned of at the time of their burial.</speak>
+            <speak chara="oldTapeNoFace">I want to record their story here as best as I can.</speak>
+            <speak chara="oldTapeNoFace">For that will be the only thing left behind of them.</speak>
+            <goto goto="130" change="#ffffff"/>
+        </scene>
+        <scene id="130" background="bostonMassacreSite.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <show chara="teslaErGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">Uh...I know everything else...</speak>
+            <speak chara="teslaNoFace">But why do we need stop in front of this manhole cover?</speak>
+            <show chara="teslaErGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose" position="right"/>
+            <speak chara="einNoFace">This is not a manhole cover. Take a good look at the words above.</speak>
+            <show chara="einNormalWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace" remark="next">March 5th, 1770... The Boston Massacre... Ah.</speak>
+            <remark post="U2FsdGVkX19kUIIJSICTAeS2APir">
+                <p class="article-text-h">Note:</p>
+                <p class="article-text">The Boston Massacre was a clash between British soldiers and the people of Boston, resulting in the death of five people.</p>
+                <p class="article-text">On March 5, 1770, a British officer (John Goldfinch) bought a wig and returned to camp. The clerk of the wig shop (Edward Garrick) misunderstood and though that the officer did not pay, so he shouted and misbehaved with the officer. The officer had actually setteled the acount and ignored the insults. However a private in his entourage (Hugh White) started an quarrel with the clerk, and finally beat him. The hurt clerk was bleeding and started weeping, and the angry onlookers immediately surrounded the officer and his men. Another British army officer (Thomas Preston) led several soldiers to rescue them, but they were thrown stones and beaten by the people. The British army fired at the crowd in a hurry, killing 5 civilians and causing other six people to be injured.</p>
+                <p class="article-text">Although the responsibility for this matter was not entirely on the British army, it greatly intensified the previous tensions existing between the military and civilians in the British North American colonies, and eventually became one of the most significant events leading to the outbreak of the American Revolution.</p>
+            </remark>
+            <show chara="teslaNormalGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose" position="right"/>
+            <speak chara="einNoFace">Ok. This is the tenth location on the "Freedom Trail" - the Boston Massacre site.</speak>
+            <goto goto="140" change="#ffffff"/>
+        </scene>
+        <scene id="140" background="bostonMassacreSite.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">No.289 Bacab Sullivan</speak>
+            <speak chara="oldTapeNoFace">No.290 Huunab Sullivan</speak>
+            <speak chara="oldTapeNoFace">No.291 Kamassozzi Sullivan</speak>
+            <speak chara="oldTapeNoFace">No.292 Izamna Sullivan</speak>
+            <speak chara="oldTapeNoFace">No.293 Shichiku Sullivan</speak>
+            <speak chara="oldTapeNoFace">The Sullivan siblings were warriors.</speak>
+            <speak chara="oldTapeNoFace">Huunab, Kamassozzi and Izamna were infected in battle.</speak>
+            <speak chara="oldTapeNoFace">Bacab was also there. He was killed by his own brothers.</speak>
+            <speak chara="oldTapeNoFace">Their little sister, Shichiku, survived until the end of the battle... but 3 days later she ran out of medicine and, unfortunately, died from her wounds.</speak>
+            <speak chara="oldTapeNoFace">Those five siblings didn't know me...</speak>
+            <speak chara="oldTapeNoFace">All I did was to bury their bodies.</speak>
+            <speak chara="oldTapeNoFace">There were countless scratches on Shichiku's body... It seems she lost her mind before she died.</speak>
+            <goto goto="150" change="#ffffff"/>
+        </scene>
+        <scene id="150" background="faneuilHall.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">No.3426 Hastur Colt</speak>
+            <speak chara="oldTapeNoFace">Hastur was a capable orator. He often visited military bases around the country.</speak>
+            <speak chara="oldTapeNoFace">When I found him, his corpse was lying on the ground, his arms were bent, staring at a swaying lamp with empty eyes.</speak>
+            <speak chara="oldTapeNoFace">Going by the scene, he probably didn't stop preaching after being attacked by the Herrscher. On the contrary, he must have turned it up to eleven.</speak>
+            <speak chara="oldTapeNoFace">As if his own speech had the power to corrupt as well, he and his audience gave in to the euphoria and died from exhaustion.</speak>
+            <speak chara="oldTapeNoFace">I've heard Hastur's speeches before. Thankfully I wasn't a fan of him.</speak>
+            <goto goto="160" change="#ffffff"/>
+        </scene>
+        <scene id="160" background="paulRevereHouse.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">No.5390 Ambrokino Moreau</speak>
+            <speak chara="oldTapeNoFace">Ambrokino was shot dead.</speak>
+            <speak chara="oldTapeNoFace">He wasn't attacked by the Herrscher. The man who shot him didn't lose his reason either. On the contrary, he was completely sane. His fingerprints on the murder weapon had been carefully wiped off.</speak>
+            <speak chara="oldTapeNoFace">This was a planned homicide. The assassin took advantage of the chaos to commit his crime.</speak>
+            <speak chara="oldTapeNoFace">Ambrokino was a perverse, stingy old man. I've exchanged greetings with him a few times, but honestly he was an antipathetic person.</speak>
+            <speak chara="oldTapeNoFace">He had no family left and lost his hometown so he was relocated temporarily to the base.</speak>
+            <speak chara="oldTapeNoFace">I wonder what kind of person wanted to kill him.</speak>
+            <goto goto="170" change="#ffffff"/>
+        </scene>
+        <scene id="170" background="oldNorthChurch.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">No.8421 Wendigo Karie.</speak>
+            <speak chara="oldTapeNoFace">No.8422 Rowena Lauroyl.</speak>
+            <speak chara="oldTapeNoFace">No.8594 Yorkshire Martinez.</speak>
+            <speak chara="oldTapeNoFace">No.8595 Cook Lee.</speak>
+            <speak chara="oldTapeNoFace">Wendigo was a pastor. He was in a prayer room that wasn't directly attacked by the Herrscher... but he ended up dying first.</speak>
+            <speak chara="oldTapeNoFace">According to our intel, many believers were infected by the Herrscher, fell into confusion and surrounded Wendigo. </speak>
+            <speak chara="oldTapeNoFace">Instead of running away he stood where he was and started praying for them. The believers teared him apart, and consumed his flesh.</speak>
+            <speak chara="oldTapeNoFace">I've heard of him before. He was a very religious person. I can't even imagine what he prayed to his 「God」 moments before his death.</speak>
+            <speak chara="oldTapeNoFace">No.8422 to No.8592 were all civilians. After they were done eating Wendigo, they began to kill each other.</speak>
+            <speak chara="oldTapeNoFace">Rowena was a blonde woman.</speak>
+            <speak chara="oldTapeNoFace">Yorkshire was a very old man.</speak>
+            <speak chara="oldTapeNoFace">Cook ran a business.</speak>
+            <speak chara="oldTapeNoFace">Before the 「Herrscher of Corruption」 appeared, they were all equal...</speak>
+            <goto goto="180" change="#ffffff"/>
+        </scene>
+        <scene id="180" background="coppsHillBuryingGround.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">No.12687 Edwards Mannerheim</speak>
+            <speak chara="oldTapeNoFace">No.12688 Shelly Mannerheim</speak>
+            <speak chara="oldTapeNoFace">Edwards was a noble. He was the last man of the Mannerheim family, and Shelly was his wife.</speak>
+            <speak chara="oldTapeNoFace">Shelly came to our base to marry Edwards.</speak>
+            <speak chara="oldTapeNoFace">Edwards was wearing a white tuxedo and Shelly a wedding dress before the battle began. Shelly had to cut up the skirt of her dress, and together they took up arms.</speak>
+            <speak chara="oldTapeNoFace">Their cause of death was blood loss and infection from their wounds.</speak>
+            <speak chara="oldTapeNoFace">Shelly was hugging Edwards' body when she died. I decided to keep them in that position when it was time to bury them.</speak>
+            <speak chara="oldTapeNoFace">Unfortunately, we weren't able to make the typical tombstone of the Mannerheim family for them.</speak>
+            <goto goto="190" change="#ffffff"/>
+        </scene>
+        <scene id="190" background="bunkerHill.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">No.14936 Patrecia Singer</speak>
+            <speak chara="oldTapeNoFace">I knew Patrecia personally. She was one of the few military doctors stationed at the base.</speak>
+            <speak chara="oldTapeNoFace">During that endless hour, she was willing to put herself in danger and stood on the frontlines treating everyone's wounds.</speak>
+            <speak chara="oldTapeNoFace">As soon as we regained control of the base... I saw her body with my own eyes. She collapsed in front of the Control Center.</speak>
+            <speak chara="oldTapeNoFace">The blood coming from her body was mixing with the red bricked floor... but we had to keep moving forward.</speak>
+            <goto goto="200" change="#ffffff"/>
+        </scene>
+        <scene id="200" background="bunkerHill.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <show chara="teslaNormalGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">Bunker Hill Monument... So, this is the end of the "Freedom Trail"?</speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltNervousNewClose-up" position="right"/>
+            <speak chara="weltNoFace">Is it finally over... Those were heavy stories...</speak>
+            <show chara="weltNervousNewClose-up" position="right" opacity="0.7"/>
+            <show chara="einNormalWinterClose-up" position="right"/>
+            <speak chara="einNoFace">From the perspective of the red brick road, it seems like that... But from the list of 16 scenic spots, we still have the "USS Constitution" missing.</speak>
+            <show chara="einNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">Huh, that's the wooden warship that has been kept in service by the US Navy since more than a hundred years ago?</speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose-up" position="right"/>
+            <speak chara="einNoFace">Ok. Since the recording here at the monument is still telling the story of the victims...</speak>
+            <show chara="einNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaSnickerGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">So in conclusion H.A. is likely to left the record near the USS Constitution, or Lexington? </speak>
+            <show chara="teslaSnickerGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einSmileWinterClose-up" position="right"/>
+            <speak chara="einNoFace">That's right. This is it.</speak>
+            <goto goto="210" change="#ffffff"/>
+        </scene>
+        <scene id="210" background="ussConstitution.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <text>The last stop is the ship USS Constitution. Here H.A. left her personal thoughts.</text>
+            <speak chara="haNoFace">I am H.A.... I am sure you have heard my voice before.</speak>
+            <!-- RENAME: I used to be a 「Valkyrie」 of the organization known as 「Destiny」. -->
+            <speak chara="haNoFace">I used to be a 「Valkyrie」 of the organization known as 「Schicksal」.</speak>
+            <speak chara="haNoFace">When I found this peculiar material in Yellowstone that survived 50.000 years, I could not control my curiosity.</speak>
+            <speak chara="haNoFace">I listened to all the recordings using the equipment I found here... You are blessed. I left you only 6 out of those heartbreaking stories.</speak>
+            <speak chara="haNoFace">I swear to you, listening to hundreds of those stories of death is not a good idea.</speak>
+            <speak chara="haNoFace">Since I was unfamiliar with the old language, I asked a certain scholar to secretly translate them for me.</speak>
+            <!-- RENAME: But... out of nowhere, he was accused of false charges and imprisoned by Destiny. -->
+            <speak chara="haNoFace">But... out of nowhere, he was accused of false charges and imprisoned by Schicksal.</speak>
+            <speak chara="haNoFace">This happened in 1829. His name is 「Niels Henrik Abel」.</speak>
+            <speak chara="haNoFace">If possible, please investigate the truth of that incident.</speak>
+            <speak chara="haNoFace">Soon afterwards I was falsely accused as well. In my case, the Valkyrie who came to arrest me decided to look the other way, so I did not meet the same end as him.</speak>
+            <speak chara="haNoFace">I kept to myself the most important pieces of information from my Soulium Sphere, and handed over the rest to Schicksal.</speak>
+            <speak chara="haNoFace">...Perhaps I stopped trusting them long before that.</speak>
+            <speak chara="haNoFace">They continued to take the same approach towards the enemy. Any enemy must be 「thoroughly exterminated」.</speak>
+            <speak chara="haNoFace">That determination to eliminate any opposition made me question if it was not being used as an excuse to cover up their own dirty deeds.</speak>
+            <!-- RENAME: The Soulium Sphere I could not keep with me was destroyed by the Bishop, and the scholars who tried to study it where dealt with by depriving them of food and warm. -->
+            <speak chara="haNoFace">The Soulium Sphere I could not keep with me was destroyed by the Overseer, and the scholars who tried to study it where dealt with by depriving them of food and warm.</speak>
+            <!-- RENAME: Neither 「Destiny」 nor its Bishop can exterminate the Houkai in the real sense of the word. -->
+            <speak chara="haNoFace">Neither 「Schicksal」 nor its Overseer can exterminate the Houkai in the real sense of the word.</speak>
+            <speak chara="haNoFace">Even if they could catch up or even surpass the technological level of the previous civilization...</speak>
+            <speak chara="haNoFace">...Specially when taking into account the 「Herrscher」 and their mysterious abilities,、if they do not change their methods the future of humanity will remain bleak.</speak>
+            <!-- RENAME: Entrusting the fate of the world to an organization such as Destiny is a complete mistake. -->
+            <speak chara="haNoFace">Entrusting the fate of the world to an organization such as Schicksal is a complete mistake.</speak>
+            <!-- RENAME: I have left behind a weapon in Lexington that can pose a threat to that Bishop. -->
+            <speak chara="haNoFace">I have left behind a weapon in Lexington that can pose a threat to that Overseer.</speak>
+            <speak chara="haNoFace">Use it wisely... but keep in mind that 「no action is the best threat」.</speak>
+            <speak chara="haNoFace">Because if you take action and your plan does not work, nobody will be afraid of you anymore.</speak>
+            <goto goto="220" change="#ffffff"/>
+        </scene>
+        <scene id="220" background="ussConstitution.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <show chara="teslaNormalGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">Mophead, what do you think about this?</speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose-up" position="right"/>
+            <speak chara="einNoFace">This is one-side of the story... I presume.</speak>
+            <speak chara="einNoFace">However, it can indeed be very plausible.</speak>
+            <show chara="einNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">Hmm...Are you going to wait until you find what she called the "weapon" before you decide what to do next?</speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einFoolWinterClose-up" position="right"/>
+            <speak chara="einNoFace">Is there a better way? It is impossible to make a sound judgment without evidence.</speak>
+            <show chara="einFoolWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaShameGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">......knew you'd say that.</speak>
+            <speak chara="teslaNoFace">Thank me, I suggested that you bring all the important stuff in the dormitory with you.</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einSlyWinterClose-up" position="right"/>
+            <speak chara="einNoFace">… Isn’t that only due to Schrödingers specially arranged special plane that we had the opportunity to do so in the first place?</speak>
+            <show chara="einSlyWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaShameGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">Humph, I know you just don't want to praise me.</speak>
+            <speak chara="teslaNoFace">If Schrödinger put so much importance on the matter, then why didn't she come by herself?</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einSlyWinterClose-up" position="right"/>
+            <speak chara="einNoFace">It's said that Edison's experiment has reached a critical stage, and it is impossible for her to get out from there.</speak>
+            <speak chara="einNoFace">She also specifically suggested that we go to New York after this and see this "epoch-making energy installation".</speak>
+            <show chara="einSlyWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">Gee. What an "epoch-making" thing. How did that stingy woman come with something like that?</speak>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltEmbarraNewClose-up" position="right"/>
+            <speak chara="weltNoFace">Um... even if you don't like her, you don't have to say it like that...</speak>
+            <show chara="weltEmbarraNewClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaShameGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">Eh, What do you know. When adults speak, children should'nt interrupt.</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltSighNewClose-up" position="right"/>
+            <speak chara="weltNoFace">Sigh...</speak>
+            <show chara="weltSighNewClose-up" position="right" opacity="0.7"/>
+            <show chara="einSmileWinterClose-up" position="right"/>
+            <speak chara="einNoFace">Massachusetts H6D626... Ah, this is it. Please ask Schrodinger to prepare the car.</speak>
+            <show chara="einSmileWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaShoutWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">What? This is……</speak>
+            <speak chara="teslaNoFace">Isn't that a Rolls Royce?</speak>
+            <speak chara="teslaNoFace">Do you seriously believe that, Schrodinger, and that stingy woman would give us such a good car?</speak>
+            <show chara="teslaShoutWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einSlyWinterClose-up" position="right"/>
+            <speak chara="einNoFace">Hm——</speak>
+            <speak chara="einNoFace">Dear Miss Tesla...</speak>
+            <speak chara="einNoFace">It's dead at night now, should we take an "unprecedented" drive?</speak>
+            <goto goto="230" change="#ffffff"/>
+        </scene>
+        <scene id="230" background="lexingtonMA.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="start"></bgm>
+            <text>The "Rolls Royce" with the license plate H6D626 ran for more than ten miles on Massachusetts Avenue (with the yelling of excitement from Miss Tesla), and finally stopped with a sudden brake.</text>
+            <text>What the group of people now face at this moment is a small triangular park by the side of the road——</text>
+            <text>——Different from its inconspicuous area, this is a great landmark that deeply imprinted its own existence into human history.</text>
+            <text remark="next">Lexington - This is the place where the first shot of the American Revolutionary War was fired on April 19, 1775.</text>
+            <remark post="U2FsdGVkX19rc2sXYtcTfwfoS00J">
+                <p class="article-text-h">Note：</p>
+                <p class="article-text">The Battle of Lexington and Concord (Battles of Lexington and Concord) was an armed conflict between the British Army and the North American militia, which took place on April 19, 1775. Although the U.S. Senate passed a resolution in 1908 to designate the Battle of Point Pleasant as the first battle of the American Revolutionary War (1775-1783), the American society still generally regarded the battle of Lexington and Concord as the first battle. It is seen as the starting point for the war of independence</p>
+            </remark>
+            <goto goto="240" change="#ffffff"/>
+        </scene>
+        <scene id="240" background="lexingtonMA.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <show chara="einNormalWinterFar" position="right"/>
+            <speak chara="einNoFace">Ada.</speak>
+            <show chara="einNormalWinterFar" position="right" opacity="0.7"/>
+            <show chara="adaNormalRadioFar" position="left"/>
+            <speak chara="adaNoFace">42.45 degrees north latitude, 71.23 degrees west longitude - it is determined that the target area has been entered, and the search mode is now turned on.</speak>
+            <show chara="adaSmileRadioFar" position="left"/>
+            <speak chara="adaNoFace">The target source is detected.</speak>
+            <show chara="adaSmileRadioFar" position="left" opacity="0.7"/>
+            <show chara="weltAstonishNewFar" position="right"/>
+            <speak chara="weltNoFace">So fast?</speak>
+            <show chara="weltAstonishNewFar" position="right" opacity="0.7"/>
+            <show chara="adaNormalRadioFar" position="left"/>
+            <text>Ignoring Welts questions, Ada went through a series of processes on her own.</text>
+            <speak chara="adaNoFace">The account login is successful, and the password is the same as before.</speak>
+            <speak chara="adaNoFace">The target source has been requested to land, and decoherence has been used to remove the super-dimensional camouflage.</speak>
+            <speak chara="adaNoFace">The super-dimensional camouflage has been lifted.</speak>
+            <speak chara="adaNoFace">The soft landing was successful.</speak>
+            <show chara="adaSmileRadioFar" position="left"/>
+            <speak chara="adaNoFace">The objective should be right in front of you, please accept it.</speak>
+            <goto goto="250" change="#ffffff"/>
+        </scene>
+        <scene id="250" background="CG17-1.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <text>It stood out greatly——</text>
+            <text>It was as bright as the Moon.</text>
+            <text>After deactivating the 「Hyperdimensional Camouflage」, a golden sphere of light appeared in the air, and slowly descended in front of Welt.</text>
+            <speak chara="teslaNoFace">Ada! what is that?!</speak>
+            <speak chara="adaNoFace">Model 1625 floating storage room. With super-dimensional camouflage, it can be suspended in the sky above a fixed location and could be hidden for a very long time.</speak>
+            <speak chara="einNoFace">Open it, Ada</speak>
+            <speak chara="adaNoFace">Understood, Dr. Einstein.</speak>
+            <goto goto="260" change="#ffffff"/>
+        </scene>
+        <scene id="260" background="CG17-2.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <text>The golden sphere opened slowly.</text>
+            <text>It was about the size of a single person, and opened outwards as if it were a lotus flower. The transparent case inside was gradually exposed.</text>
+            <speak chara="weltNoFace">This is...</speak>
+            <text>In a transparent case, a blue sphere of about 10 centimeters in diameter floated quietly.</text>
+            <speak chara="adaNoFace">ⴳⴽⵓ ⵐ ⵋⵓ (Baru Za Su)!</speak>
+            <speak chara="weltNoFace">Eh!?</speak>
+            <speak chara="teslaNoFace">Ada, what does that mean?</speak>
+            <speak chara="adaNoFace">It is a Divine Key, Professor Tesla.</speak>
+            <speak chara="adaNoFace">Identification code of target object: 「9th Divine Key - The Star of Eden! </speak>
+            <end post="U2FsdGVkX18OCUSLhPy1oDwFhkQc"/>
+        </scene>
+    </story>
+</data>

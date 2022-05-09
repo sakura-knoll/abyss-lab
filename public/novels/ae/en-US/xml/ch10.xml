@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <img>
+        <image src="mancala.png" type="background"/>
+    </img>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newchapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="plankVienaNormal.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="start"></bgm>
+            <text remark="next">Vienna, 13th district, Schicksal Headquarters</text>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">Vienna's thirteenth district is called “Hietzing” and is located in the westernmost part of the city. The Schönbrunn Palace of the Habsburgs is located here. </p>
+            </remark>
+            <speak chara="abcNoFace">Professor Planck, please refrain from doing such “unconventional” things ever again. </speak>
+            <text> A council member anonymously berates the provocative scholar via the intercom. </text>
+            <goto goto="15" change="0"/>
+        </scene>
+        <scene id="15" background="plankVienaSly.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="planckNoFace">This is a part of my teaching. I do not know what you are making a fuss about. </speak>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="plankVienaSmile.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="abcNoFace">Teaching is no excuse for violating the organisation's core principles. </speak>
+            <goto goto="25" change="0"/>
+        </scene>
+        <scene id="25" background="plankVienaSerious.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="planckNoFace"> … But we are entitled to a certain degree of autonomy, aren't we, whether it is the North American branch, or Lab 42?</speak>
+            <speak chara="abcNoFace">Lab 42 is a member of the European branch. They are still required to follow procedure. </speak>
+            <text>Another voice in the council seems to speak in a slightly calmer tone. </text>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="plankVienaSly.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="planckNoFace">So, from which side do you wish to withdraw the right to self-autonomy? </speak>
+            <goto goto="35" change="0"/>
+        </scene>
+        <scene id="35" background="plankVienaSmile.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="abcNoFace">No … please don't take it in such an extreme way. We are only investigating procedural issues, and there is no need to turn this into a larger problem than it really is. </speak> <!-- 上纲上线 = "to analyse a problem through the discourse of class struggle and dialectics". This phrase has its origins in the political theory of Communist China, but is used here in a belittling way to describe something akin to "brewing a storm in a teacup" -->
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="plankVienaSly.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="planckNoFace">Then I am just here to remind you — </speak>
+            <goto goto="45" change="0"/>
+        </scene>
+        <scene id="45" background="plankVienaNormal.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="planckNoFace">That the right to autonomy and self-determination is the source of vitality for research institutions. If you insist that everything has to go through procedures for approval, then in terms of academic and scientific vigour, it will be a disaster for this organisation. </speak>
+            <speak chara="abcNoFace">Ahem … speaking of which, how is Edison's personal situation? </speak>
+            <text>Seeing that the two sides held firm to their own positions on the issue, a third speaker shifts the topic. </text>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="plankVienaSly.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="planckNoFace">Oh, Princess Nancy? She's quite interesting. </speak>
+            <goto goto="55" change="0"/>
+        </scene>
+        <scene id="55" background="plankVienaSmile.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="planckNoFace">For example, I have the exact evidence on hand — that she is helping to train an army outside of this organisation. </speak>
+            <speak chara="abcNoFace">What? Is she planning to rebel? </speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="plankVienaSly.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="planckNoFace">No … this is a request from the US government, and both parties have signed an agreement for development of non-lethal weaponry, a matter that is difficult for us to refuse. </speak>
+            <goto goto="65" change="0"/>
+        </scene>
+        <scene id="65" background="plankVienaSmile.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="abcNoFace"> …  What the hell is this, some sort of militia for civil defence and law enforcement? </speak>
+            <speak chara="abcNoFace">Don't make such vile jokes in poor taste, Professor Planck. </speak>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="plankVienaSly.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="planckNoFace">Ara ara … I'm just thinking that you're all being too serious right now, are you not? </speak>
+            <goto goto="75" change="0"/>
+        </scene>
+        <scene id="75" background="plankVienaSmile.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="abcNoFace"> … Of course, the council must be serious. Please do not introduce such unrefined “foreign” habits to our discussion. </speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="plankVienaSerious.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="planckNoFace">Endšuldigung, I am a true “Bavarian”, born and bred. I simply cannot help it. </speak>
+            <goto goto="85" change="0"/>
+        </scene>
+        <scene id="85" background="plankVienaNormal.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="abcNoFace">I say … everyone, please do not go off-topic. </speak>
+            <text>A more dignified-sounding “elder” speaks. </text>
+            <speak chara="abcNoFace">The trivialities of the North American branch shall be set aside for now … today we have more important matters to discuss. </speak>
+            <goto goto="100" change="#ffffff"/>
+        </scene>
+        <scene id="100" background="edisonTower.jpg">
+            <bgm src="10_25_ada.mp3" status="start"></bgm>
+            <text>New York, Manhattan, the Consolidated Edison building.</text>
+            <show chara="schroNormalAhFar" position="left"/>
+            <show chara="edisonSlyWinterFar" position="center" opacity="0.7"/>
+            <show chara="nokiaSmileEmWinterFar" position="right" opacity="0.7"/>
+            <speak chara="schroNoFace">So …  about those “important matters” you wish to speak about, what is it? </speak>
+            <show chara="schroNormalEmFar" position="left"/>
+            <text>Schrödinger, who nearly overturns an ink bottle, glares grumpily at Nancy Edison and Elias Nokianvirtanen, who have been stubbornly interrupting her own research. </text>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="edisonTower.jpg">
+            <bgm src="10_25_ada.mp3" status="continue"></bgm>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSmileAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">Let me explain. </speak>
+            <show chara="nokiaSmileEmWinterClose" position="right"/>
+            <text>The man pretends to nudge his gold-rimmed glasses — </text>
+            <show chara="nokiaSmileAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">Previously, Headquarters lent Lab 42 an unpublished section of the Dead Sea Scrolls … Do you remember this? </speak>
+            <show chara="nokiaSmileEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace"> … Ah. </speak>
+            <speak chara="schroNoFace"> … So? </speak>
+            <speak chara="schroNoFace">Did you manage to find anything from this object, one with a history of “merely” three to four thousand years? </speak>
+            <show chara="schroNormalEmClose" position="left"/>
+            <text>Evidently, the researcher with the Corkscrew Ponytail is not particularly enthusiastic about these fantastical antiques from a less civilised age. </text>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace"> … First, let me confirm with you one thing. </speak>
+            <speak chara="nokiaNoFace">Is there an important constant in physics, one whose first digits begin with 6626070? I am saying, without the decimal separator. </speak>
+            <show chara="nokiaSeriousEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace"> … 6626070? </speak>
+            <speak chara="schroNoFace">Isn't that Planck's constant? Why are you asking when you already know the answer? </speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">Is there also another constant, whose first few digits are 1045571? </speak>
+            <show chara="nokiaSeriousEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace"> … That is the reduced Planck constant that I recommend everyone should use. </speak>
+            <speak chara="schroNoFace"> But what exactly is it that you want to say? </speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace"> … They all appear in a manuscript with a history of “merely three or four thousand years”!</speak>
+            <show chara="nokiaSeriousEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace"> … What? </speak>
+            <goto goto="120" change="0"/>
+        </scene>
+        <scene id="120" background="edisonTower.jpg">
+            <bgm src="10_25_ada.mp3" status="continue"></bgm>
+            <show chara="schroNormalEmClose-up" position="left" opacity="0.7"/>
+            <show chara="nokiaSmileAhWinterClose-up" position="right"/>
+            <speak chara="nokiaNoFace">Not only that</speak>
+            <speak chara="nokiaNoFace">You see, although their notation is different from ours … </speak>
+            <speak chara="nokiaNoFace">But this strange-looking coat-of-arms, when you take it apart like this and look — don't you think it looks a lot like some formula from calculus? </speak>
+            <show chara="nokiaSmileEmWinterClose-up" position="right"/>
+            <text>The man gets more and more excited as he speaks, and he fishes out his own notebook and thrusts it into the face of the Corkscrew Ponytail. </text>
+            <show chara="nokiaSmileEmWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose-up" position="left"/>
+            <speak chara="schroNoFace">Uh … I can't read it if it's this close … </speak>
+            <show chara="schroNormalEmClose-up" position="left"/>
+            <text>The doctor in physics awkwardly takes a step back — </text>
+            <goto goto="130" change="0"/>
+        </scene>
+        <scene id="130" background="edisonTower.jpg">
+            <bgm src="10_25_ada.mp3" status="continue"></bgm>
+            <show chara="nokiaSmileEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace">Hmm … </speak>
+            <speak chara="schroNoFace">Indeed you have a point … </speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSmileAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">Right, right! Do you think this is really pure coincidence? </speak>
+            <show chara="nokiaSmileEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace"> … So? </speak>
+            <speak chara="schroNoFace"> … Should you instead be asking: from which remnant of the Previous Era did a group of Jews copy this kind of thing? </speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSmileAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">Correct! That's it! </speak>
+            <show chara="nokiaSmileEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace"> … Huh? </speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">Let's start with my conclusion first — I think this scroll is extremely valuable. It inadvertently records a method of energy conversion that we have never imagined before. </speak>
+            <show chara="nokiaSmileAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">You should first take a look at this passage I decoded. </speak>
+            <show chara="nokiaSmileEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace"> … A thesis? </speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">Correct. A thesis. </speak>
+            <show chara="nokiaSmileAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace"> Although the original ancient manuscript has a completely nonsensical and sensationalised Aramaic curse as a title — </speak>
+            <speak chara="nokiaNoFace">If you treat it as an output, as the result of another passage of text that has been passed through a simple substitution cipher … </speak>
+            <show chara="nokiaSmileEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace"> — Wait, wait, wait, wait. “A simple substitution cipher”? </speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSmileAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">Ah … Sorry, I jumped ahead too quickly. </speak>
+            <speak chara="nokiaNoFace" remark="next">Change A to D, B to E, C to F … This is the most primitive encryption method — simple substitution, also known as a “Caesar cipher”. Do you understand? </speak>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">“If he (Caesar) had anything confidential to say, he wrote it in cipher, that is, by so changing the order of the letters of the alphabet, that not a word could be made out. If anyone wishes to decipher these, and get at their meaning, he must substitute the fourth letter of the alphabet, namely D, for A, and so with the others.”</p>
+                <p class="article-text"> — Suetonius (69AD-?), “The Twelve Roman Emperors” (Loeb Classical Library translation) </p>
+            </remark>
+            <show chara="nokiaSmileEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace">Mm-hmm. </speak>
+            <speak chara="schroNoFace">So? </speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">Imagine that we are the Jews who strayed into the ruins of the Previous Era. </speak>
+            <speak chara="nokiaNoFace">We see these texts which have been left behind by the previous Era of humans. And we think it's some mysterious magical text. </speak>
+            <speak chara="nokiaNoFace">But unfortunately, our knowledge is limited, and we cannot understand these holy books. </speak>
+            <speak chara="nokiaNoFace">In this situation, if we want to force-read … </speak>
+            <show chara="nokiaSeriousEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace">Then we can only make up a name for each letter, and read it letter by letter? </speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">That's right. </speak>
+            <show chara="nokiaSmileAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">Because of this one-to-one correspondence, the Aramaic text on the scrolls just so happens to form a simple substitution of the original text. </speak>
+            <speak chara="nokiaNoFace"> … Once we understand it at this level, the rest of the deciphering work is extremely simple. Just trial and error. </speak>
+            <show chara="nokiaSmileEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace"> … </speak>
+            <speak chara="schroNoFace"> … Since the result of the description is meaningful, from the perspective of probability, I gather that you managed to ascertain the original text. </speak>
+            <speak chara="schroNoFace"> … So, your so-called “method of energy conversion that we have never imagined before”, what is it exactly? </speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">It's a way to allow Honkai energy to return to ordinary energy in a controlled manner. </speak>
+            <show chara="nokiaSeriousEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace"> … What? </speak>
+            <goto goto="160" change="0"/>
+        </scene>
+        <scene id="160" background="edisonTower.jpg">
+            <bgm src="10_25_ada.mp3" status="continue"></bgm>
+            <show chara="schroNormalEmFar" position="left" opacity="0.7"/>
+            <show chara="edisonSmileWinterFar" position="center"/>
+            <show chara="nokiaSeriousEmWinterFar" position="right" opacity="0.7"/>
+            <speak chara="edisonNoFace">That comes as no surprise. </speak>
+            <speak chara="edisonNoFace" remark="next">The Second Law of Thermodynamics places a constraint on ordinary internal energy. Can it also include Honkai energy on the imaginary side? </speak>
+            <remark post="U2FsdGVkX19FYPxwW3ZnF4aisvMm">
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">There are many equivalent expressions of the Second Law of Thermodynamics. Common examples are: </p>
+                <p class="article-text">“Heat can never pass from a colder to a warmer body without some other change, connected therewith, occurring at the same time.” (Clausius); </p>
+                <p class="article-text">“It is impossible, by means of inanimate material agency, to derive mechanical effect from any portion of matter by cooling it below the temperature of the coldest of the surrounding objects.” (Kelvin); </p>
+                <p class="article-text">“It is impossible to construct an engine which will work in a complete cycle, and produce no effect except the raising of a weight and cooling of a heat reservoir.” (Planck);</p>
+                <p class="article-text"> “When an isolated system performs a process after the removal of a series of internal constraints, it will reach a unique state of equilibrium: this state of equilibrium is independent of the order in which the constraints are removed.” (Hatsopoulos-Keenan);</p>
+                <p class="article-text">and many more. </p>
+            </remark>
+            <show chara="schroNormalAhFar" position="left"/>
+            <show chara="edisonSmileWinterFar" position="center" opacity="0.7"/>
+            <speak chara="schroNoFace">That being said … </speak>
+            <speak chara="schroNoFace">Circumstances mean that there will be a very high Honkai energy density  … Because of this, our degree of control will approach zero … </speak>
+            <show chara="schroNormalEmFar" position="left" opacity="0.7"/>
+            <show chara="edisonSighWinterFar" position="center"/>
+            <speak chara="edisonNoFace">No, of course it won't approach zero. </speak>
+            <show chara="edisonSlyWinterFar" position="center"/>
+            <speak chara="edisonNoFace">Did you forget about the “Herrscher”? </speak>
+            <goto goto="200" change="#ffffff"/>
+        </scene>
+        <scene id="200" background="campusImperialDay.jpg">
+            <bgm src="street.mp3" status="start"></bgm>
+            <text>London, Kensington, Imperial Institute.</text>
+            <goto goto="210" change="0"/>
+        </scene>
+        <scene id="210" background="schoolDay3.jpg">
+            <bgm src="street.mp3" status="continue"></bgm>
+            <text article="1">
+                <p class="article-text">Maybe Einstein's dictionary attack was too powerful — but Tesla ends up sleeping through to the afternoon of the next day. </p>
+                <br />
+                <p class="article-text">When she rubs the dark circles around her eyes, and eventually climbs downstairs, she sees the culprit and Welt sitting face-to-face in the foyer, taking turns playing around with some small pebbles that they've picked up for somewhere. </p>
+            </text>
+            <goto goto="220" change="0"/>
+        </scene>
+        <scene id="220" background="studyNoon.jpg">
+            <bgm src="street.mp3" status="continue"></bgm>
+            <text article="1">
+                <p class="article-text">The room has its floor heating switched on, so it is more comfortable now than before when there was a cold draft. </p>
+                <br />
+                <p class="article-text">Also, permeating through the languid atmosphere is the unique fragrance of fried food. </p>
+            </text>
+            <show chara="teslaNormalSleepyNightyClose" position="center"/>
+            <speak chara="teslaNoFace">I say, you guys … What's up? </speak>
+            <hide position="center"/>
+            <show chara="einNormalCoatClose" position="right"/>
+            <speak chara="einNoFace">Omweso. </speak>
+            <show chara="einSmileCoatClose" position="right" opacity="0.7"/>
+            <show chara="weltNormalSweaterClose" position="left"/>
+            <speak chara="weltNoFace">Owale. </speak>
+            <show chara="weltNormalSweaterClose" position="left" opacity="0.7"/>
+            <show chara="einNormalCoatClose" position="right"/>
+            <speak chara="einNoFace">Bao. </speak>
+            <show chara="einSmileCoatClose" position="right" opacity="0.7"/>
+            <show chara="weltNormalSweaterClose" position="left"/>
+            <speak chara="weltNoFace" remark="next">Kalah. </speak>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">The above four are different variants of Mancala (called “African chess” in Chinese).  Omweso is popular in Uganda, Owale is popular in Ghana, Bao is popular in Kenya, and Kalah is a variant adopted by Americans. </p>
+                <p class="article-text">In general, this is a two-player turn-based board game, featuring the peculiar mechanic of constantly moving pieces into holes on a board in a seeding process — in doing so, one can win pieces according to certain rules and eventually become victorious. </p>
+                <div class="article-pic" picsrc="mancala.png" style="background-position:left;height:11.5rem;"/>
+            </remark>
+            <show chara="weltNormalSweaterClose" position="left" opacity="0.7"/>
+            <hide position="left"/>
+            <hide position="right"/>
+            <show chara="teslaDisgustedShySleepyNightyClose" position="center"/>
+            <speak chara="teslaNoFace"> … Speak to me in a human language. </speak>
+            <text>The devil with the messy red hair stares intensely at the piles of small stones on the coffee table, and makes a motion as if she were trying to scatter them. </text>
+            <show chara="einFoolCoatClose" position="center"/>
+            <speak chara="einNoFace">Careful, careful now. </speak>
+            <text>Mophead hurriedly reaches out to protect the piles of stones — </text>
+            <show chara="einSlyCoatClose" position="center"/>
+            <speak chara="einNoFace">We are studying the numerous variants of this board game called Mancala. </speak>
+            <show chara="teslaNormalSleepyNightyClose" position="center"/>
+            <speak chara="teslaNoFace"> … Don't tell me you've been doing this retarded crap for the whole morning. </speak>
+            <show chara="einSmileCoatClose" position="center"/>
+            <speak chara="einNoFace">Of the 60 mainstream variants, four have already been studied. </speak>
+            <show chara="einSlyCoatClose" position="center"/>
+            <speak chara="einNoFace">We are now preparing to try out the fifth. </speak>
+            <show chara="teslaNormalSleepyNightyClose" position="center"/>
+            <speak chara="teslaNoFace"> … Is it really that interesting? </speak>
+            <show chara="einSmileCoatClose" position="center"/>
+            <speak chara="einNoFace">Pure, innocent men need some less stimulating entertainment. </speak>
+            <text>Mophead continues to explain in a vague, circumlocutory manner. </text>
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <show chara="einSlyCoatClose" position="center"/>
+            <speak chara="einNoFace"> … Must I remind you: last night you were chasing after this “pure-hearted” man in a booze-fuelled frenzy. </speak>
+            <show chara="teslaNormalSleepyNightyClose" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace"> … Guh. </speak>
+            <text>The bewildered red demon suddenly seems to remember something. </text>
+            <show chara="teslaShyHandNightyClose" position="center"/>
+            <speak chara="teslaNoFace">Uhahhhhhhhhhhhhhh! </speak>
+            <text>Instantly, her face turns red, and she attempts to crawl under the sofa like a cat. </text>
+            <hide position="center"/>
+            <show chara="einNormalCoatClose" position="right" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose" position="left"/>
+            <speak chara="weltNoFace"> … </speak>
+            <text>Welt awkwardly shakes his head. </text>
+            <show chara="weltTiredSweaterClose" position="left" opacity="0.7"/>
+            <show chara="einSlyCoatClose" position="right"/>
+            <speak chara="einNoFace">As you can see, “this person” is rather pure and innocent. </speak>
+            <show chara="einSlyCoatClose" position="right" opacity="0.7"/>
+            <show chara="teslaDisgustedShySleepyNightyClose" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace"> … Who the hell are you talking about!? </speak>
+            <text>Tesla is confused by Einstein's twinkling eyes and shifty vague expression. Is she referring to Welt, or she referring to Tesla herself? </text>
+            <show chara="teslaDisgustedShySleepyNightyClose" position="center" opacity="0.7"/>
+            <show chara="einSlyCoatClose" position="right"/>
+            <speak chara="einNoFace">Mm-hmm. Today's Tesla is especially cute. </speak>
+            <show chara="einSlyCoatClose" position="right" opacity="0.7"/>
+            <show chara="teslaShyHandNightyClose" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace">Enough! ! ! ! </speak>
+            <goto goto="300" change="#ffffff"/>
+        </scene>
+        <scene id="300" background="carNoon.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <sound src="9_11_car away.mp3"/>
+            <show chara="weltTiredWinterClose-up" position="left"/>
+            <show chara="teslaBoringGlassWinterClose-up" position="right" opacity="0.7"/>
+            <speak chara="weltNoFace">Well … Where exactly are we going? </speak>
+            <text remark="next">Riding a taxi to Hampstead Heath, Welt finally gets the chance to ask the red-haired tyrant. </text>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">Hampstead Heath (or simply, “the Heath”) is a large and ancient London park spanning a clay belt (including sand dunes, the highest point in London's geography, 134 meters above sea level), from Hampstead to Highgate Cemetery. It is one of London's famous natural attractions. </p>
+            </remark>
+            <show chara="weltTiredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">Huh? </speak>
+            <show chara="teslaShameGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace"> … Oh, right, when I was making that phone call for our taxi, you were still playing that retarded stone game.  </speak>
+            <show chara="teslaSnickerGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">Cemetery, we're going to Highgate Cemetery. </speak>
+            <show chara="teslaSnickerGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">Cemetery? ! </speak>
+            <show chara="weltScaredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace"> … Why are you kicking up such a fuss? It's not like we're going to bury you there. </speak>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace"> … </speak>
+            <show chara="weltTiredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">Anyway, back to the point … </speak>
+            <show chara="teslaShameGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">That large bag you threw into the back of the trunk, don't you know what's actually in it? </speak>
+            <show chara="teslaShameGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace"> … Well, no matter how hard I try, I can't will myself to receive superpowers like x-ray vision, okay? </speak>
+            <show chara="weltScaredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace"> … </speak>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">Do you have rhinitis? Couldn't you smell the cat food? </speak>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">Oh, that … I've never raised a cat — </speak>
+            <show chara="weltTiredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaShameGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace"> — Then I hope you won't be sniffing about, drool trailing from your mouth, okay? </speak>
+            <show chara="teslaShameGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace"> … You're treating me just like a cat! </speak>
+            <show chara="weltScaredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaSnickerGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">Yeah, that's about right. There's virtually no difference. </speak>
+            <show chara="teslaSnickerGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace"> … There is a huge difference, okay? ! </speak>
+            <show chara="weltScaredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaSmileGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">Fufu. Only Welt would argue and complain so seriously. </speak>
+            <show chara="teslaSmileGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace"> … </speak>
+            <show chara="weltSurpriseWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">You don't say … </speak>
+            <speak chara="weltNoFace">But why are we feeding cats at the cemetery? This drive seems rather long. </speak>
+            <show chara="weltSurpriseWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaSmileGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">I guess that's true … but I've gotten used to it. </speak>
+            <show chara="teslaShameGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">After all, in the first half of the year, I was forced to do volunteer work there for five months. </speak>
+            <show chara="teslaShameGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">Forced … to volunteer … </speak>
+            <show chara="weltScaredWinterClose-up" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="weltNoFace"> … At a cemetery? </speak>
+            <shake position="left" time="250"></shake>
+            <speak chara="weltNoFace">How did the situation come to that? </speak>
+            <show chara="weltScaredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">The situation was a non-situation … </speak>
+            <show chara="teslaShameGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">If a court orders you to be a volunteer, would you still refuse to go? </speak>
+            <show chara="teslaShameGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">Court? </speak>
+            <show chara="weltTiredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">I-I guess you must have broken some law relating to the cemetery … </speak>
+            <show chara="weltSurpriseWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">Besides, don't all members of our organisation have judicial immunity? </speak>
+            <show chara="weltSurpriseWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace"> … Does the treaty signed between our organisation and the government include drink-driving? </speak>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">Huh? </speak>
+            <speak chara="weltNoFace">Drink-driving? </speak>
+            <show chara="weltScaredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">Haven't you wondered, now that the Finn has left, why we could only take the Underground or hire a taxi? </speak>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="teslaNoFace">If it wasn't for that blasted Scotland Yard! Being so insistent on revoking my driver's licence! </speak>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">Urgh … </speak>
+            <speak chara="weltNoFace">This … this all sounds like it's your own fault … </speak>
+            <show chara="weltTiredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">How is it my fault … </speak>
+            <show chara="teslaShameGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">Clearly it's their established rules and standards that are too baffling! In fact I didn't even “feel” anything so to speak! </speak> <!-- She is implying that she did not feel drunk when she was booked. -->
+            <show chara="teslaShameGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">Well, well … By the time it gets to the point that the “feeling” is obvious even to you, wouldn't it already be a major disaster?! </speak>
+            <show chara="weltScaredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace"> … </speak>
+            <show chara="teslaShameGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">Ahem, anyway, during the weekends of the first half of the year, I spent my time in the graveyard … </speak>
+            <show chara="teslaSmileGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace"> … But actually, it was pretty fun. </speak>
+            <show chara="teslaSnickerGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">This place called Highgate, perhaps it's more appropriate to call it a “point of historical interest”, rather than a “cemetery”. </speak>
+            <show chara="teslaSnickerGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="left"/>
+            <speak chara="weltNoFace"> … Historical interest? </speak>
+            <show chara="weltSurpriseWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaSmileGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">You'll understand when you get there. </speak>
+            <goto goto="400" change="#ffffff"/>
+        </scene>
+        <scene id="400" background="graveAfternoon.jpg">
+            <bgm src="10_20_londonderry_b.mp3" status="start"></bgm>
+            <text remark="next">Ms Elizabeth Jackson, who died in May 1839, must not have expected … </text>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text"> Elizabeth Jackson was the first deceased to be buried in Highgate Cemetery. </p>
+                <p class="article-text">In the mid-early nineteenth century, due to a soaring urban population brought about by the Industrial Revolution, there was a “grave shortage” in London. Graves that had only been recently used several months ago were being reused to bury more dead. Highgate Cemetery was one of the new cemeteries planned by the British government at the time, to solve this challenging problem affecting the populace's dignity and welfare. </p>
+            </remark>
+            <text>That in the decades following her death, the place where she now rests would gradually evolve into what we see today: a place where a variety of tomb styles have converged to create a place of attraction all of its own — </text>
+            <text> — A unique cemetery where surrounding villas and real estate continue to fetch high prices. </text>
+            <goto goto="410" change="0"/>
+        </scene>
+        <scene id="410" background="catHighgate.jpg">
+            <bgm src="10_20_londonderry_b.mp3" status="continue"></bgm>
+            <text>Naturally … in such a venue, much like a public park or garden, there are bound to be many cats. </text>
+            <speak chara="teslaNoFace">Ah … it's Pandu. </speak>
+            <speak chara="weltNoFace">Pandu? </speak>
+            <speak chara="weltNoFace"> … Is that the cat's name. </speak>
+            <speak chara="teslaNoFace">Mm-hmm. As it can be regarded as a perfect specimen of an “exiled” cat, don't you think such a name is very fitting? </speak>
+            <speak chara="weltNoFace"> … I have absolutely no idea what you're on about. </speak>
+            <speak chara="teslaNoFace" remark="next">No problem, I just borrowed the name of a boring character from a boring story … </speak>
+            <remark post="U2FsdGVkX18I67XYQqwGpilFZmQ5">
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">Pandu was the ancestor of the Pandavas in the Hindu epic “Mahabharata”, and the nominal father of the “five sons of Pandu”, who included Arjuna among others. </p>
+                <p class="article-text">When he was young, Pandu hunted in the countryside, and shot arrows at a mating antelope — but the antelope happened to be the incarnation of a sage, and Pandu was cursed by him to not be able to approach others with the intention of lovemaking, or else he would die tragically.   When he grew up, as a king, he married Kunti, who had learned immortality. Kunti gave birth to sons (including Karna, the son of the Sun god, who was born before her marriage. This eldest son was adopted and brought up by a charioteer), thus giving Pandu heirs. (Translator's note: This is not entirely accurate as far as the most common version of the Mahabharata is concerned — Pandu had already married before he shot the sage and became cursed; Pandu thus exiled himself and his family from his own kingdom because of this curse [hence Tesla's nickname for the cat]; Kunti never learned of immortality; and precisely because of Pandu's curse, all her sons were sired by different fathers, who were all Hindu Gods.) </p>
+            </remark>
+            <goto goto="420" change="0"/>
+        </scene>
+        <scene id="420" background="graveAfternoon.jpg">
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <show chara="teslaStarGlassWinterFar" position="right"/>
+            <show chara="weltTiredWinterFar" position="left" opacity="0.7"/>
+            <speak chara="teslaNoFace">Oh that's right! </speak>
+            <speak chara="teslaNoFace">Pass me half of the cat food in the bag!  </speak>
+            <show chara="teslaStarGlassWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltScaredWinterFar" position="left"/>
+            <speak chara="weltNoFace">Half? </speak>
+            <speak chara="weltNoFace">Can it eat that much on its own? </speak>
+            <show chara="weltScaredWinterFar" position="left" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterFar" position="right"/>
+            <speak chara="teslaNoFace"> … What the hell are you on about. </speak>
+            <show chara="teslaShameGlassWinterFar" position="right"/>
+            <speak chara="teslaNoFace">It's a large garden, and now it's that time of day again — so won't it be reasonable for us to split up and work separately? </speak>
+            <show chara="weltScaredWinterFar" position="left"/>
+            <speak chara="weltNoFace">W-work s-separately? </speak>
+            <speak chara="weltNoFace">He-here? </speak>
+            <show chara="weltScaredWinterFar" position="left" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterFar" position="right"/>
+            <speak chara="teslaNoFace"> … </speak>
+            <show chara="teslaEmbarraGlassWinterFar" position="right"/>
+            <speak chara="teslaNoFace">As such a big boy, you sure have a lot of courage. </speak>
+            <show chara="teslaShameGlassWinterFar" position="right"/>
+            <speak chara="teslaNoFace">Here, a map for you. I definitely want to stay on the eastern side, so … </speak>
+            <show chara="teslaStarGlassWinterFar" position="right"/>
+            <speak chara="teslaNoFace">The entire western side is entrusted to you! </speak>
+            <goto goto="430" change="#ffffff"/>
+        </scene>
+        <scene id="430" background="graveDayLate.jpg">
+            <bgm src="10_20_londonderry_b.mp3" status="start"></bgm>
+            <text remark="next">Highgate Cemetery, unlike Westminster Abbey, houses countless renowned personages of the empire — </text>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">Westminster Abbey, located in the Westminster district of central London, has been the site of the crowning and burial of British monarchs (since the foundation of England).</p>
+                <p class="article-text">The non-royal members buried there are mostly British greats, including Isaac Newton, Charles Darwin, Charles Dickens and so on.</p>
+            </remark>
+            <text remark="next"> — But of all the names, two names in particular — `Michael Faraday' and `Karl Marx' — give the lonesome Welt an inexplicable sense of familiarity and peace of mind.</text>
+            <remark post="U2FsdGVkX18nWTNTcyVHAnSlQCjJ">
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">These two great men were buried at Highgate Cemetery. </p>
+                <p class="article-text">P.S. For our work, we should also add Douglas Adams (1952-2001AD), author of “The Hitchhiker's Guide to the Galaxy”. We thank him for giving us “42”, “the Answer to the Ultimate Question of Life, The Universe, and Everything”. </p>
+            </remark>
+            <text>So to speak …  the so-called “celebrity effect” is really an omnipresent and universal phenomenon that transcends death itself.</text>
+            <text>Fortunately, thanks to this, the young man named Welt can finally experience and appreciate the unique charm of this cemetery. </text>
+            <text article="1">
+                <p class="article-text">From simple crude tombs that are so small as to be barely perceptible; to grandiose, luxurious palatial mausoleums that look like they come straight from Angkor Wat — all of these have decayed into prehistoric ruins under the weathering and erosion of lichen moss and acid rain. A stone-carved piano, its keys long since blurred together; a statue with broken arms, covered from head to toe with clambering vines; a granite lion with a mane covered completely by bird guano … Although admittedly it all seems rather eerie and creepy, it can also be seen as yet another Natural History Museum — a dazzling display of the world's living and non-living. </p> <!-- 众生百态，琳琅满目 = "a hundred forms of living things, glittering jewels to delight the eye." -->
+            </text>
+            <goto goto="440" change="#ffffff"/>
+        </scene>
+        <scene id="440" background="graveDayLate.jpg">
+            <bgm src="10_20_londonderry_b.mp3" status="continue"></bgm>
+            <show chara="reaNormalAhWinterFar" position="right"/>
+            <speak chara="weltNoFace">Ah. </speak>
+            <text>When the young man directs his eyes back to the trail in front of him, he suddenly notices that there is a somewhat familiar-looking female figure, standing in the corner ahead. </text>
+            <hide position="right"/>
+            <show chara="reaSmileAhWinterFar" position="center"/>
+            <speak chara="reannaNoNameNoFace">Oh. How serendipitous. </speak>
+            <speak chara="weltNoFace">When did we … </speak>
+            <show chara="reaSmileEmWinterFar" position="center"/>
+            <speak chara="reannaNoNameNoFace">It was last month, at the airport, wasn't it? </speak>
+            <goto goto="450" change="#ffffff"/>
+        </scene>
+        <scene id="450" background="airportNewYorkOld.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="start"></bgm>
+            <show chara="blackTwo" position="center"/>
+            <speak chara="weltNoFace"> … </speak>
+            <goto goto="460" change="#ffffff"/>
+        </scene>
+        <scene id="460" background="graveDayLate.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="continue"></bgm>
+            <show chara="weltScaredWinterFar" position="left"/>
+            <show chara="reaSmileEmWinterFar" position="right" opacity="0.7"/>
+            <speak chara="weltNoFace"> … Ah! </speak>
+            <show chara="weltShyWinterFar" position="left"/>
+            <speak chara="weltNoFace">T-that was … </speak>
+            <show chara="weltShyWinterFar" position="left" opacity="0.7"/>
+            <show chara="reaSmileEmSadWinterFar" position="right"/>
+            <speak chara="reannaNoNameNoFace">No need to worry. </speak>
+            <show chara="reaSmileEmWinterFar" position="right"/>
+            <speak chara="reannaNoNameNoFace">My name is Reanna Brigantia. </speak>
+            <show chara="reaSmileAhWinterFar" position="right"/>
+            <speak chara="reannaNoFace">Although I am a Valkyrie directly under the command of Headquarters — today I am just like you, an ordinary person who has come to visit and sweep the graves. </speak>
+            <show chara="reaSmileEmWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltTiredWinterFar" position="left"/>
+            <speak chara="weltNoFace">Not … here … to sweep graves … </speak>
+            <show chara="weltTiredWinterFar" position="left" opacity="0.7"/>
+            <show chara="reaNormalAhWinterFar" position="right"/>
+            <speak chara="reannaNoFace">? </speak>
+            <show chara="reaNormalAhWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltTiredWinterFar" position="left"/>
+            <speak chara="weltNoFace">I-I'm really only here to help people feed the cats … </speak>
+            <goto goto="470" change="#ffffff"/>
+        </scene>
+        <scene id="470" background="graveDayLate.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="continue"></bgm>
+            <show chara="weltTiredWinterFar" position="left" opacity="0.7"/>
+            <show chara="reaSmileEmSadWinterFar" position="right"/>
+            <speak chara="reannaNoFace">Ha. So that's the reason.  </speak>
+            <show chara="reaSmileAhWinterFar" position="right"/>
+            <speak chara="reannaNoFace">You must have really been working hard. </speak>
+            <show chara="reaSmileEmWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltGiggleWinterFar" position="left"/>
+            <speak chara="weltNoFace">Ahaha … that's not exactly true … </speak>
+            <show chara="weltGiggleWinterFar" position="left" opacity="0.7"/>
+            <show chara="reaSmileAhWinterFar" position="right"/>
+            <speak chara="reannaNoFace">It must really be fate, for us to meet here … </speak>
+            <speak chara="reannaNoFace"> … Perhaps we should feed these little furry children together? </speak>
+            <show chara="reaSmileEmWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltShyWinterFar" position="left"/>
+            <speak chara="weltNoFace">Um? C-can we really? </speak>
+            <show chara="weltShyWinterFar" position="left" opacity="0.7"/>
+            <show chara="reaSmileAhWinterFar" position="right"/>
+            <speak chara="reannaNoFace">Of course we can. </speak>
+            <speak chara="reannaNoFace">Anyway, today I'm off-duty. </speak>
+            <show chara="reaSmileEmWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltShyWinterFar" position="left"/>
+            <speak chara="weltNoFace"> … </speak>
+            <show chara="weltSmileWinterFar" position="left"/>
+            <speak chara="weltNoFace"> … </speak>
+            <show chara="weltNormalWinterFar" position="left"/>
+            <speak chara="weltNoFace">In that case, will you also permit me to join you in paying respects to the dead? </speak>
+            <show chara="weltNormalWinterFar" position="left" opacity="0.7"/>
+            <show chara="reaNormalAhWinterFar" position="right"/>
+            <speak chara="reannaNoFace">Mmm? </speak>
+            <show chara="reaSmileEmSadWinterFar" position="right"/>
+            <speak chara="reannaNoFace">Oh, of course. </speak>
+            <show chara="reaNormalEmWinterFar" position="right"/>
+            <speak chara="reannaNoFace">The child, Martha, she's a good conversationalist, and she won't despise your company. </speak>
+            <goto goto="480" change="#ffffff"/>
+        </scene>
+        <scene id="480" background="callaLily.jpg">
+            <bgm src="11_17_memory.mp3" status="start"></bgm>
+            <speak chara="weltNoFace"> … I wish, wherever you are, may there be no ominous darkness, nor glaring brightness. </speak>
+            <speak chara="weltNoFace"> … I wish, wherever you are, may there be no raucous noise, nor frightful silence. </speak>
+            <speak chara="weltNoFace"> …  Wherever you are, may it be a warm and genial paradise on the other side. Amen. </speak>
+            <speak chara="reannaNoFace"> … </speak>
+            <speak chara="reannaNoFace">Martha “Lily” Jacobs … a child born in Holloway Street. </speak>
+            <speak chara="reannaNoFace">“Lily” was her nickname because she liked calla lilies. </speak>
+            <speak chara="reannaNoFace" remark="next">She was the only Valkyrie who died from the Honkai Eruption in Berlin but was not buried in the Invalidenfriedhof cemetery. </speak>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">The Invalidenfriedhof is one of the oldest cemeteries in Berlin and was used as a military cemetery in Prussia. </p>
+            </remark>
+            <speak chara="weltNoFace"> … B-Berlin?  </speak>
+            <speak chara="weltNoFace">W-wasn't that … </speak>
+            <speak chara="reannaNoFace">Mm-hmm. It was the incident where you were “born”. </speak>
+            <speak chara="weltNoFace"> … </speak>
+            <speak chara="reannaNoFace">You don't need to feel too guilty. </speak>
+            <speak chara="reannaNoFace">Sacrifice is an inevitability on the battlefield. </speak>
+            <speak chara="reannaNoFace">Generally speaking, the organisation chooses a cemetery nearby. In the event of death, they will bury everyone there, so that one can rest with their comrades-in-arms. </speak>
+            <speak chara="weltNoFace"> … </speak>
+            <speak chara="weltNoFace">Huh? So Martha's situation was … </speak>
+            <speak chara="reannaNoFace">In the process of destroying the Emperor-class Honkai beasts, the “Night Moth” team she led was almost completely annihilated. </speak>
+            <speak chara="reannaNoFace">This child … as the sole survivor, she must have bore an unimaginably heavy burden. </speak>
+            <speak chara="weltNoFace"> …  … </speak>
+            <speak chara="reannaNoFace">Although we had immediately arranged for her to leave the front and receive treatment … </speak>
+            <speak chara="reannaNoFace">In the end … </speak>
+            <speak chara="weltNoFace"> …  …  … </speak>
+            <speak chara="reannaNoFace">New Year's day of this year, was the second anniversary of the incident … </speak>
+            <speak chara="reannaNoFace">She was at her home … </speak>
+            <speak chara="reannaNoFace"> … Where she hanged herself. </speak>
+            <speak chara="weltNoFace"> …  …  …  … </speak>
+            <speak chara="reannaNoFace">Because of her suicide in a non-combat situation, according to military protocol, we could not bury her together with her compatriots, or with those who have yet to die, in the one place. </speak>
+            <shake position="all" time="250"></shake>
+            <speak chara="weltNoFace"> … I-isn't that too cruel? ! </speak>
+            <goto goto="490" change="0"/>
+        </scene>
+        <scene id="490" background="graveDayLate.jpg">
+            <bgm src="11_17_memory.mp3" status="continue"></bgm>
+            <show chara="reaSeriousWinterClose" position="center"/>
+            <speak chara="reannaNoFace"> … There is no alternative. That is the way of the military. </speak>
+            <show chara="reaSmileEmSadWinterClose" position="center"/>
+            <speak chara="reannaNoFace"> The so-called army is a machine that cannot tolerate the failure of any one screw.  </speak>
+            <speak chara="reannaNoFace">Because of this, its “Hall of Heroes”, its “Valhalla” … will only accept those who fulfill their “responsibilities” to their final breath.</speak>
+            <show chara="reaSeriousWinterClose" position="center"/>
+            <speak chara="reannaNoFace">It is cruel … but we have no better solution. </speak>
+            <show chara="reaNormalEmWinterClose" position="center"/>
+            <speak chara="reannaNoFace">Don't get me wrong. </speak>
+            <show chara="reaSmileEmSadWinterClose" position="center"/>
+            <speak chara="reannaNoFace">To anyone else, her misfortune was a complete tragedy. A tragedy that should have never been borne by her alone. </speak>
+            <show chara="reaNormalEmWinterClose" position="center"/>
+            <speak chara="reannaNoFace"> It's just that … for the warrior, for the soldier — the “professional code of honour” is something that must come before any one individual. </speak>
+            <show chara="reaSmileEmSadWinterClose" position="center"/>
+            <speak chara="reannaNoFace">Yes, it is tragic, for the individual … </speak>
+            <show chara="reaNormalEmWinterClose" position="center"/>
+            <speak chara="reannaNoFace"> … But this is also a situation where there is no alternative, but to “fight fire with fire, poison with poison”. </speak>
+            <show chara="reaSeriousWinterClose" position="center"/>
+            <speak chara="reannaNoFace">Because only in this way, can we organise some of the bravest among us — </speak>
+            <speak chara="reannaNoFace">To let them work in unison like a machine, on a rapidly-changing battlefield — </speak>
+            <speak chara="reannaNoFace"> — To confront … and then … to defeat … some of the cruellest things in the world. </speak>
+            <goto goto="500" change="#ffffff"/>
+        </scene>
+        <scene id="500" background="graveNight.jpg">
+            <bgm src="themeWelt.mp3" status="start"></bgm>
+            <text>The sky slowly fills with stars, and the food bag slowly empties. </text>
+            <text> Along the way, the cats appear to be very much gratified …  However, after hearing the story of the Valkyrie Martha, Welt felt upset and needed to vent. </text>
+            <show chara="weltDarkWinterFar" position="left" opacity="0.7"/>
+            <show chara="reaNormalAhWinterFar" position="right"/>
+            <speak chara="reannaNoFace"> … This is the last feeding point. </speak>
+            <show chara="reaNormalEmWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltDarkWinterFar" position="left"/>
+            <speak chara="weltNoFace">Mm. </speak>
+            <show chara="weltDarkWinterFar" position="left" opacity="0.7"/>
+            <show chara="reaSmileEmSadWinterFar" position="right"/>
+            <speak chara="reannaNoFace"> … I'm sorry. </speak>
+            <show chara="reaSmileEmSadWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltDarkWinterFar" position="left"/>
+            <speak chara="weltNoFace"> … </speak>
+            <show chara="weltDarkWinterFar" position="left" opacity="0.7"/>
+            <show chara="reaSmileEmSadWinterFar" position="right"/>
+            <speak chara="reannaNoFace">Martha's incident … This is not a sadness you need to bear. </speak>
+            <show chara="reaSmileEmSadWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterFar" position="left"/>
+            <speak chara="weltNoFace"> … </speak>
+            <show chara="weltSmileWinterFar" position="left"/>
+            <speak chara="weltNoFace"> … But, Miss Reanna, you must also be upset, right? </speak>
+            <show chara="ghostFloatDarkFar" position="back" opacity="0.3"/>
+            <bgm src="horror.mp3" status="start"></bgm>
+            <speak chara="weltNoFace">Isn't there a saying that goes — </speak>
+            <speak chara="weltNoFace">“A joy shared is a joy doubled; a sorrow shared is a sorrow halved.”</speak>
+            <show chara="weltSmileWinterFar" position="left" opacity="0.7"/>
+            <show chara="reaNormalAhWinterFar" position="right"/>
+            <speak chara="reannaNoFace"> … ? </speak>
+            <show chara="reaNormalAhWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltGiggleShyWinterFar" position="left"/>
+            <show chara="ghostFloatDarkFar" position="back" opacity="0.5"/>
+            <speak chara="weltNoFace">Ahaha … wasn't that … a little bit desperate of me. </speak>
+            <show chara="reaSeriousWinterFar" position="right"/>
+            <speak chara="reannaNoFace"> … ! </speak>
+            <show chara="reaSeriousWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltShyWinterFar" position="left"/>
+            <show chara="ghostFloatDarkFar" position="back" opacity="0.7"/>
+            <speak chara="weltNoFace"> … Well, I-I guess it wasn't good for me to be joking like that? </speak>
+            <show chara="weltShyWinterFar" position="left" opacity="0.7"/>
+            <hide position="right"/>
+            <hide position="back"/>
+            <bgm src="11_17_tatakau.mp3" status="start"></bgm>
+            <show chara="reaSeriousWinterFar" position="center"/>
+            <speak chara="reannaNoFace"> … Shush! </speak>
+            <goto goto="520" change="0"/>
+        </scene>
+        <scene id="520" background="graveNightSpeed.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <text>No sooner does she say this, than Reanna covers Welt's mouth with her hand, and violently pulls him into the bushes! </text>
+            <show chara="ghostFloatClose-up" position="center"/>
+            <text>In a direction he had not noticed before — a mysterious floating object appears out of nowhere in the night air! </text>
+            <goto goto="530" change="0"/>
+        </scene>
+        <scene id="530" background="CG10-2.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <speak chara="weltNoFace">W-what is that? </speak>
+            <speak chara="reannaNoFace"> … </speak>
+            <speak chara="weltNoFace">Urgh … Can that not be … that s-s-something? </speak>
+            <speak chara="reannaNoFace">What do you mean by “Can that not be that something”? … speak precisely! </speak>
+            <speak chara="weltNoFace">Urgh … </speak>
+            <speak chara="weltNoFace">That must be … </speak>
+            <speak chara="weltNoFace">One of those … </speak>
+            <speak chara="weltNoFace">G … g … g … </speak>
+            <speak chara="weltNoFace">Ghosts? </speak> <!-- In Chinese, the word for "ghost" (幽灵, yōulíng) starts with the "you" syllable. The VN therefore uses 'u's in English, instead of 'g's. -->
+            <speak chara="reannaNoFace"> … Tsk. Don't say such unlucky words! </speak>
+            <speak chara="reannaNoFace">The “ghosts” that truly exist in this world are way more troublesome than those in urban legends! </speak>
+            <speak chara="weltNoFace">Huh? Are there really ghosts? </speak>
+            <speak chara="reannaNoFace"> … It's just a metaphor. </speak>
+            <speak chara="reannaNoFace">Also, stop yelling at me. On the battlefield, it could mean death! </speak>
+            <goto goto="540" change="#ffffff"/>
+        </scene>
+        <scene id="540" background="graveNight.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <show chara="ghostFloatFar2" position="center"/>
+            <speak chara="ghostNoFace" remark="next">Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn …</speak>
+            <hide position="center"/>
+            <show chara="ghostFloatFar" position="right"/>
+            <speak chara="ghostNoFace" remark="next">Cthulhu fhtagn!</speak>
+            <hide position="right"/>
+            <show chara="ghostFloatFar2" position="left"/>
+            <speak chara="ghostNoFace" remark="next">Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn …</speak>
+            <hide position="left"/>
+            <show chara="ghostFloatFar" position="center"/>
+            <speak chara="ghostNoFace" remark="next">Cthulhu fhtagn!</speak>
+            <hide position="center"/>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text"> This is a mantra used by Cthulhu's cult in Lovecraft's famous short novel “Call of Cthulhu”. It means, “In his house at R'lyeh, dead Cthulhu waits dreaming.”. </p>
+            </remark>
+            <show chara="ghostFloatFar2" position="right"/>
+            <speak chara="weltNoFace"> … It's hovering on the spot! </speak>
+            <hide position="right"/>
+            <show chara="ghostFloatFar" position="left"/>
+            <speak chara="weltNoFace"> … In fact it's also reciting something?! </speak>
+            <hide position="left"/>
+            <show chara="ghostFloatFar2" position="center"/>
+            <speak chara="reannaNoFace"> … Hmph. </speak>
+            <hide position="center"/>
+            <show chara="ghostFloatFar" position="right"/>
+            <speak chara="reannaNoFace">That fluttering object …  don't you think it looks too much like a bed sheet? </speak>
+            <hide position="right"/>
+            <show chara="ghostFloatFar2" position="left"/>
+            <speak chara="weltNoFace">B-bed sheet? </speak>
+            <hide position="left"/>
+            <show chara="ghostFloatFar" position="center"/>
+            <speak chara="weltNoFace">Hmm … but it has no legs? </speak>
+            <hide position="center"/>
+            <show chara="ghostFloatFar2" position="right"/>
+            <speak chara="reannaNoFace"> …  Who knows. I guess it's someone's prank with a balloon? </speak>
+            <hide position="right"/>
+            <show chara="ghostFloatFar" position="left"/>
+            <speak chara="reannaNoFace">And also, those words it's saying … I feel … isn't it something I've heard of before, somewhere? --|||</speak> <!-- This is likely an emoticon depicting cold sweat. -->
+            <hide position="left"/>
+            <show chara="ghostFloatFar2" position="center"/>
+            <text>Reanna picks up a stone from the grass — </text>
+            <goto goto="550" change="0"/>
+        </scene>
+        <scene id="550" background="white">
+            <bgm src="horror.mp3" status="stop"></bgm>
+            <sound src="11_17_metal hit.mp3"/>
+            <text>Ping! </text>
+            <goto goto="560" change="0"/>
+        </scene>
+        <scene id="560" background="graveNight.jpg">
+            <bgm src="horror.mp3" status="start"></bgm>
+            <text>The stone hits the “ghost” and makes a crisp sound, as if it had struck  hard rock, before rolling back onto the grass. </text>
+            <show chara="weltScaredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="reaNormalAhWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace"> … ? </speak>
+            <show chara="reaNormalAhWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">T-that strange clanging sound, what the hell is going on?! </speak>
+            <show chara="weltScaredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="reaNormalAhWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace"> … How would I know?! </speak>
+            <goto goto="565" change="0"/>
+        </scene>
+        <scene id="565" background="graveNightSpeed.jpg">
+            <bgm src="11_17_tatakau.mp3" status="start"></bgm>
+            <show chara="ghostEscapeFar" position="center"/>
+            <speak chara="ghostNoFace">Oops, I've been discovered! </speak>
+            <hide position="center"/>
+            <sound src="11_17_gust wind.mp3"/>
+            <show chara="ghostEscapeFar" position="left"/>
+            <text> The “ghost” suddenly blows a stream of air from beneath it, and flees from the scene at rapid speed! </text>
+            <hide position="left"/>
+            <show chara="reaNormalAhWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">Wait, w-w-what's going on now? </speak>
+            <show chara="weltScaredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="reaSeriousWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace"> … Tsk.  </speak>
+            <text>Reanna pulls out a miniature walkie-talkie device. </text>
+            <hide position="right"/>
+            <hide position="left"/>
+            <show chara="reaRunWinterClose-up" position="center"/>
+            <sound src="11_17_D.mp3"/>
+            <speak chara="reannaNoFace">V-23 requests emergency support! I have encountered an Unidentified Flying Object, please send weapons to my location immediately in accordance with Plan 8! Mobile units, please stand by! </speak>
+            <hide position="center"/>
+            <sound src="11_17_D.mp3"/>
+            <show chara="reaRunWinterClose-up" position="left"/>
+            <speak chara="reannaNoFace">I repeat, I have encountered an Unidentified Flying Object, please send weapons to my location immediately in accordance with Plan 8! Mobile units, please stand by! </speak>
+            <goto goto="600" change="#ffffff"/>
+        </scene>
+        <scene id="600" background="graveNightRS.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <show chara="teslaBiteGlassWinterClose" position="right"/>
+            <show chara="joaNormalEmWinterClose" position="left" opacity="0.7"/>
+            <speak chara="teslaNoFace">slkjfdsjfdjlsdjlfjlaslioeijfdslf?</speak>
+            <show chara="teslaBiteGlassWinterClose" position="right" opacity="0.7"/>
+            <show chara="joaNormalAhWinterClose" position="left"/>
+            <speak chara="joaNoNameNoFace">esoppusIootsevilllitsuhluhtC...</speak> <!-- In reverse: “Cthulhu still lives too I suppose." -->
+            <show chara="joaNormalEmWinterClose" position="left" opacity="0.7"/>
+            <text>At the junction separating the east and west cemeteries, Tesla, whose expression is inexplicably tense, is communicating with a young boy — </text>
+            <goto goto="610" change="0"/>
+        </scene>
+        <scene id="610" background="graveNightSpeed.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <show chara="weltScaredWinterClose-up" position="center"/>
+            <speak chara="weltNoFace">Tesla! Danger! </speak>
+            <show chara="reaRunWinterClose-up" position="center"/>
+            <speak chara="reannaNoFace">Make way! Redhead! </speak>
+            <goto goto="620" change="0"/>
+        </scene>
+        <scene id="620" background="graveNightRS.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <show chara="teslaDisgustedGlassWinterClose" position="center"/>
+            <speak chara="teslaNoFace">R-redhead? Who's the redhead!? </speak>
+            <show chara="teslaAstonishGlassWinterClose" position="center"/>
+            <speak chara="teslaNoFace">Hey hey hey … what's going on?? ! </speak>
+            <goto goto="630" change="0"/>
+        </scene>
+        <scene id="630" background="graveNightSpeed.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <show chara="reaRunWinterClose-up" position="center"/>
+            <speak chara="reannaNoFace">Make way if you want to live!  </speak>
+            <goto goto="640" change="0"/>
+        </scene>
+        <scene id="640" background="white">
+            <bgm src="11_17_tatakau.mp3" status="stop"></bgm>
+            <speak chara="teslaJoaNoFace">AAARRRRGHHHH — </speak>
+            <goto goto="650" change="0"/>
+        </scene>
+        <scene id="650" background="graveNightRS.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <show chara="reannaBlackWhite" position="center"/>
+            <sound src="11_17_D.mp3"/>
+            <speak chara="reannaNoFace"> … Plan 8 was a perfect success. The UFO has been disintegrated. </speak>
+            <sound src="11_17_D.mp3"/>
+            <speak chara="reannaNoFace">I will bring back Abyss Flower myself, in accordance with the plan. Over and out. </speak> <!-- Chinese full name 黑渊白花 = "Black Abyss White Lotus" -->
+            <show chara="teslaAstonishGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace"> … </speak>
+            <show chara="joaScaredWinterClose-up" position="center"/>
+            <speak chara="joaNoNameNoFace"> … </speak>
+            <show chara="reannaBlackWhite" position="center"/>
+            <speak chara="reannaNoFace">The two of you, are you okay? Have you been hurt? </speak>
+            <bgm src="10_20_PeerGynt.mp3" status="stop"></bgm>
+            <show chara="joaScaredWinterClose-up" position="center"/>
+            <speak chara="joaNoNameNoFace"> … </speak>
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <show chara="teslaShoutWinterClose-up" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace">HAVE YOU BEEN HURT MY ARSE?!</speak>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace">THAT WAS OUR LATEST FLOATING ROBOT!!</speak>
+            <shake position="center" time="250"></shake>
+            <show chara="teslaAngryGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">REPAY ME!!!!</speak>
+            <end post="U2FsdGVkX18eaRN6J700hdHmH7oe"/>
+        </scene>
+    </story>
+</data>

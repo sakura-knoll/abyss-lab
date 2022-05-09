@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newchapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="CG22-2.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="start"></bgm>
+            <speak chara="schroCatNoFace">...This power... it's certainly different than before...</speak>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="schroFadeAway1.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="schroCatNoFace">Heh... Betting on what little time we had left was the right move...</speak>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="schroFadeAway2.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="schroCatNoFace">The first Herrscher of this era has been born... Congratulations... You are no longer 「Its」 puppet...</speak>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="schroFadeAway3.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="schroCatNoFace">Hehe... which means I won this bet...</speak>
+            <goto goto="50" change="#ffffff"/>
+        </scene>
+        <scene id="50" background="white.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="stop"></bgm>
+            <sound src="04_20_fell.mp3"/>
+            <speak chara="reannaNoNameNoFace">——That's enough, you two!</speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="white.jpg">
+            <bgm src="11_17_tatakau.mp3" status="start"></bgm>
+            <cg src="CG23-1.jpg" fadeIn="0" fadeOut="1"></cg>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="CG23-2-1.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <speak chara="reannaNoFace">Darker than Hell.</speak>
+            <goto goto="72" change="0"/>
+        </scene>
+        <scene id="72" background="CG23-2-2.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <speak chara="reannaNoFace">Whiter than Heaven.</speak>
+            <goto goto="74" change="0"/>
+        </scene>
+        <scene id="74" background="CG23-2.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <speak chara="reannaNoFace">Divine Key 「Abyss Flower」, 2nd level output——</speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="white.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <cg src="shengqiangBack.png" bg="white.jpg" fadeIn="0" fadeOut="0"></cg>
+            <bgm src="11_17_tatakau.mp3" status="stop"></bgm>
+            <sound src="05_18_smash.mp3"/>
+            <cg src="niliuStab.png" bg="CG23-3.jpg" fadeIn="0" fadeOut="1000"></cg>
+            <goto goto="90" change="#000000"/>
+        </scene>
+        <scene id="90" background="scienceEngineWarning.jpg">
+            <bgm src="10_25_noise.mp3" status="start"></bgm>
+            <text>About seven hours ago, Edison, New Jersey——</text>
+            <speak chara="schroNoFace">... The reactor power is rising abnormally!</speak>
+            <speak chara="schroNoFace">It's exceeded the exact critical point!</speak>
+            <speak chara="schroNoFace">The reaction is about to go out of control!</speak>
+            <speak chara="nokiaNoFace">！</speak>
+            <speak chara="nokiaNoFace">How did it suddenly——</speak>
+            <speak chara="edisonNoFace">... Everyone, into the shelter! Quickly!</speak>
+            <speak chara="edisonNoFace">Focus on saving yourself, and just run!</speak>
+            <speak chara="nokiaNoFace">But——</speak>
+            <speak chara="edisonNoFace">There's no time! Get out of here!</speak>
+            <goto goto="100" change="#000000"/>
+        </scene>
+        <scene id="100" background="CG23-3.jpg">
+            <bgm src="11_17_memory.mp3" status="start"></bgm>
+            <speak chara="schroCatNoFace">W-Why... are you here?</speak>
+            <speak chara="reannaNoFace">Shhh... stay still.</speak>
+            <speak chara="reannaNoFace">Soon... it'll be all over.</speak>
+            <goto goto="110" change="#ffffff"/>
+        </scene>
+        <scene id="110" background="cloudSky.jpg">
+            <bgm src="11_17_memory.mp3" status="continue"></bgm>
+            <text>……</text>
+            <text>Half an hour later, in a hoodless luxury sports car——</text>
+            <goto goto="120" change="0"/>
+        </scene>
+        <scene id="120" background="connecticutRoad.jpg">
+            <bgm src="11_17_memory.mp3" status="continue"></bgm>
+            <show chara="reaLaughArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">...Come on, say something？</speak>
+            <show chara="reaEmbarraArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">I know you are a quiet and reserved person,... but surely this is too boring. </speak>
+            <show chara="reaEmbarraArmedNoLanceClose-up" position="left" opacity="0.7"/>
+            <bgm src="10_20_londonderry_p.mp3" status="start"></bgm>
+            <show chara="schroShrinkLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">...Why...did you save me...</speak>
+            <show chara="schroShrinkLanceClose-up" position="right" opacity="0.7"/>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">...Why? Seriously, I couldn't just watch you do something stupid.</speak>
+            <show chara="reaNormalArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">Listen carefully. The Honkai energy in your body has already been sealed by the「White Flower」to your right arm——</speak>
+            <speak chara="reannaNoFace">Once this is all over, your friends will have plenty of time to cure you.</speak>
+            <show chara="reaNormalArmedNoLanceClose-up" position="left" opacity="0.7"/>
+            <show chara="schroShrinkLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">...But...I...</speak>
+            <show chara="schroShrinkLanceClose-up" position="right" opacity="0.7"/>
+            <show chara="reaNormalArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">Those infected by the Honkai will inevitably be provoked by the Will of the Honkai, and do something stupid.</speak>
+            <show chara="reaSmileArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">...But to you, this is not an issue.</speak>
+            <show chara="reaNormalArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">Being infected to the point of almost losing half your body, yet still able to think rationally——</speak>
+            <show chara="reaSmileArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">——that is already stronger than 99.9% of people, do you understand, Dr. Schrödinger?</speak>
+            <show chara="reaSmileArmedNoLanceClose-up" position="left" opacity="0.7"/>
+            <show chara="schroShrinkLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">......</speak>
+            <show chara="schroShrinkLanceClose-up" position="right" opacity="0.7"/>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">...Of course, this doesn't mean I approve of your methods.</speak>
+            <show chara="reaNormalArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">Disregarding the matter of hurting innocents for the time being——no matter what, you wouldn't have been able to defeat a true Herrscher.</speak>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">If Welt stood on the side of the Honkai, then you would have gotten yourself killed;</speak>
+            <show chara="reaNormalArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">and if he stood on our side——like he does now——then you would have forced onto him the burden of being a "killer".</speak>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">Do you understand how vile something like that is?</speak>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left" opacity="0.7"/>
+            <show chara="schroShrinkLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">......</speak>
+            <show chara="schroShrinkLanceClose-up" position="right" opacity="0.7"/>
+            <show chara="reaHahArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">However, don't stress yourself too much...</speak>
+            <show chara="reaSmileArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">It's already over, isn't it?</speak>
+            <show chara="reaHahArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">You still have time, you can go and mend your ties with them.</speak>
+            <show chara="reaHahArmedNoLanceClose-up" position="left" opacity="0.7"/>
+            <show chara="schroShrinkLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">Miss Reanna... </speak>
+            <show chara="schroNormalLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">I...</speak>
+            <speak chara="schroNoFace">I don't know if I can do it...</speak>
+            <speak chara="schroNoFace">......</speak>
+            <show chara="schroSmileLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">...But I will try.</speak>
+            <speak chara="schroNoFace">...Try my best to become someone like you.</speak>
+            <show chara="schroSmileLanceClose-up" position="right" opacity="0.7"/>
+            <show chara="reaHahArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">Haha...I am not any kind of role model.</speak>
+            <show chara="reaSmileArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">The last time we fought...you must have realised already, right?</speak>
+            <show chara="reaHahArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">I'm a...someone who is even worse than you.</speak>
+            <show chara="reaSmileArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">In the physical sense.</speak>
+            <goto goto="130" change="#ffffff"/>
+        </scene>
+        <scene id="130" background="tankInside.jpg">
+            <bgm src="04_20_tank.mp3" status="start"></bgm>
+            <show chara="teslaAstonishGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">Uh...Wait, wait...</speak>
+            <speak chara="teslaNoFace">That's a lot of information...</speak>
+            <show chara="teslaShoutWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">That is to say... That gloomy woman who half turned into a Honkai beast, she was trying to awaken your powers, and was here to pick a fight?</speak>
+            <speak chara="teslaNoFace">Demolishing people's houses, And even smashed me into a mess?</speak>
+            <show chara="teslaShoutWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltSorryNewClose-up" position="right"/>
+            <speak chara="weltNoFace">That's about it...</speak>
+            <show chara="weltSorryNewClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">So? What are your abilities? </speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltAstonishNewClose-up" position="right"/>
+            <speak chara="weltNoFace">Well...</speak>
+            <show chara="weltAstonishNewClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaShameGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">How so. Since you're still one of us -- shouldn't you start with something constructive??</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltAstonishNewClose-up" position="right"/>
+            <speak chara="weltNoFace">Er...</speak>
+            <speak chara="weltNoFace">That was a surprisly accepting response...As expected of Tesla...</speak>
+            <show chara="weltAstonishNewClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaSnickerGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">Heh heh, being able to quickly accept changes in the world is a must condition for being an inventor!</speak>
+            <show chara="teslaBiteGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">...Tsk. Why does it seem like I'm getting flattered. </speak>
+            <show chara="teslaShameGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">... Anyways, answer my question first!</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltEmbarraNewClose-up" position="right"/>
+            <speak chara="weltNoFace">Uh, Well...</speak>
+            <speak chara="weltNoFace">I...I don't quite understand it myself...</speak>
+            <show chara="weltEmbarraNewClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaAstonishGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">...Huh?</speak>
+            <show chara="teslaAstonishGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einSmileWinterClose-up" position="right"/>
+            <speak chara="einNoFace">Take it easy, Dr. Tesla. Except for Welt's own rejection of the mysterious will...</speak>
+            <show chara="einNormalWinterClose-up" position="right"/>
+            <speak chara="einNoFace">What's certain is, number one, that he used Eden star much more effectively than we did; The second is that he carries whithin himself "the residue of the souls" of victims of the Berlin Eruption.</speak>
+            <show chara="einSeriousEmWinterClose-up" position="right"/>
+            <speak chara="einNoFace">If Schrodinger was correct in her judgment that he is indeed a "Herrscher"... So, these two things, they don't really have any deductive value.</speak>
+            <show chara="einSeriousEmWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">……</speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose-up" position="right"/>
+            <speak chara="einNoFace">The Divine keys were built with the Core of Herrschers, and a Herrscher can use them more easily and effectively than we can.</speak>
+            <show chara="einSeriousEmWinterClose-up" position="right"/>
+            <speak chara="einNoFace">And the "residue of souls" is very likley just a side effect of his true abilities... Otherwise, they wouldn't be in such a state of disarray.</speak>
+            <show chara="einSmileWinterClose-up" position="right"/>
+            <speak chara="einNoFace">All in all... It would be quite difficult to infer more information from just this, right?</speak>
+            <show chara="einSmileWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">……</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">That's the way it is.</speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">But... if this idiot really is a "Herrscher", then he was one from the very beginning, right?</speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einSeriousEmWinterClose-up" position="right"/>
+            <speak chara="einNoFace">Do you mean...</speak>
+            <show chara="einSeriousEmWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">Don’t forget... the scale of this disaster is estimated to be comparable to the one in Berlin...</speak>
+            <speak chara="teslaNoFace">In other words, since the idiot Welt is a Herrscher, and that idiot Schrödinger is not—-</speak>
+            <speak chara="teslaNoFace">Well, there's a good chance we might have another one appear in New York.</speak>
+            <speak chara="teslaNoFace">That's how it works, right?</speak>
+            <goto goto="140" change="#ffffff"/>
+        </scene>
+        <scene id="140" background="connecticutRoad.jpg">
+            <bgm src="11_17_memory.mp3" status="start"></bgm>
+            <show chara="reaNormalArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">So did Edison-san escape to the shelter before the incident happened?</speak>
+            <show chara="reaNormalArmedNoLanceClose-up" position="left" opacity="0.7"/>
+            <show chara="schroNormalLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">...No, she wasn't able to evacuate.</speak>
+            <show chara="schroNormalLanceClose-up" position="right" opacity="0.7"/>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">What? Didn't she go inside the shelter together with Nokianvirtanen?</speak>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left" opacity="0.7"/>
+            <show chara="schroNormalLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">...She did. But then she left right after.</speak>
+            <show chara="schroNormalLanceClose-up" position="right" opacity="0.7"/>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">.....</speak>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left" opacity="0.7"/>
+            <show chara="schroShrinkLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">...to help me.</speak>
+            <show chara="schroShrinkLanceClose-up" position="right" opacity="0.7"/>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">...Wait. You were too close to the reactor so there was nowhere to run, right?</speak>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left" opacity="0.7"/>
+            <show chara="schroNormalLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">...That's correct.</speak>
+            <show chara="schroNormalLanceClose-up" position="right" opacity="0.7"/>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">...Then what did Edison-san do to protect you?</speak>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left" opacity="0.7"/>
+            <show chara="schroNormalLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">...I don't know.</speak>
+            <show chara="schroNormalLanceClose-up" position="right" opacity="0.7"/>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">...What?</speak>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left" opacity="0.7"/>
+            <show chara="schroNormalLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">But what can I say is, that wasn't power a human could have obtained by themselves.</speak>
+            <show chara="schroSmileLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">However it doesn't belong to the same system as the Honkai.</speak>
+            <show chara="schroNormalLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">I can tell. Even now Edison-san is fighting against the Honkai using that power.</speak>
+            <show chara="schroShrinkLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">...But I believe she has reached a domain none of us can get close to.</speak>
+            <goto goto="150" change="#ffffff"/>
+        </scene>
+        <scene id="150" background="cloudSky.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="start"></bgm>
+            <text>At the same time, in a certain place——</text>
+            <show chara="edisonAngelHelplessFar" position="center"/>
+            <speak chara="edisonAngelNoNameNoFace">Damn... At this rate I won't be able to let everyone know!</speak>
+            <speak chara="edisonAngelNoNameNoFace">If I can't withstand this long enough...</speak>
+            <show chara="edisonAngelAngryFar" position="center"/>
+            <speak chara="edisonAngelNoNameNoFace">Hey! Useless coward attached to the dollar bill! Do something!</speak>
+            <show chara="dollarFranklinAhFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">...You've done everything you could, Edison-san.</speak>
+            <show chara="dollarFranklinEmFar" position="center"/>
+            <speak chara="dollarFranklinNoFace" remark="next">It'll be problematic if you forget. The moment you borrowed the power of ■■■■ and decided to use the 「Interferometer」, it stopped being connected to "that" 11-dimensional space—— That's why I can have a conversation with you like this.</speak>
+            <remark post="U2FsdGVkX1+X733EXSLz1fznthEa">
+                <p class="article-text-h">Note：</p>
+                <p class="article-text">The "string theory" in theoretical physics (later developed as "M theory") believes that all elementary particles can be [expressed] as special [waves] in a special space (ten-dimensional) (called "strings") , "String" is represented by the more essential "membrane" in M theory). Therefore, it is based on eleven-dimensional space-time (ten-dimensional space plus one-dimensional time).</p>
+                <p class="article-text">"People are very fortunate to discover a new kind of symmetry.... One way is to say that time and space have additional dimensions besides the dimensions we experience. These dimensions are called Glassman dimensions because they are used The number of the so-called Grassmann variable is not measured by the usual real numbers.... For a positivist like me, the question of'do extra dimensions really exist?' is meaningless. People can only ask at most : Can a mathematical model with extra dimensions describe the universe well?" -Stephen Hawking, "The Universe in a Nutshell"</p>
+            </remark>
+            <show chara="dollarFranklinAhFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">I intend to convey my thoughts in a way even you can understand. I'll say it again, I'm just one of ■■■■'s creations. I'm not any different than you right now.</speak>
+            <show chara="dollarFranklinEmFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">...The power you posses right now was obtained by crushing the many possibilities of your life.</speak>
+            <show chara="dollarFranklinAhFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">If you are dissatisfied, remember that it was you the one who rushed to use the 「Interferometer」 to boost your abilities. Because of that it was difficult to bring forth your latent potential.</speak>
+            <show chara="edisonAngelQuestionFar" position="center"/>
+            <speak chara="edisonAngelNoFace">What? I was too impatient? In the situation we were in anyone would had done the same thing!</speak>
+            <show chara="dollarFranklinAhFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">...Which is why I've been telling you that you've done what you could, Edison-san.</speak>
+            <show chara="dollarFranklinEmFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">「They」 definitely can't ignore the anomalies on this planet...</speak>
+            <show chara="dollarFranklinAhFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">But their actions are done in such a way we can't comprehend.</speak>
+            <show chara="dollarFranklinEmFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">Presumably, to 「Them」 the survival of mankind is completely irrelevant.</speak>
+            <show chara="dollarFranklinAhFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">What 「They」 are really interested in is the ripples inside the 11-dimensional space we have yet to understand——</speak>
+            <show chara="dollarFranklinEmFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">——And the anomalies on this planet are akin to the annoying screams of a frog.</speak>
+            <show chara="edisonAngelAngryFar" position="center"/>
+            <speak chara="edisonAngelNoFace">...And how is any of that going to help me? What a bunch of useless information!</speak>
+            <show chara="dollarFranklinEmFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">I'm just a dollar bill. What constructive opinion were you expecting from me?</speak>
+            <show chara="dollarFranklinAhFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">...And even if I were the real Benjamin Franklin, do you really think he could come up with a plan to get out of this situation?</speak>
+            <show chara="edisonAngelSeriousFar" position="center"/>
+            <speak chara="edisonAngelNoFace">.....</speak>
+            <show chara="edisonAngelSmileFar" position="center"/>
+            <speak chara="edisonAngelNoFace">...You're right. Can't believe I lost my cool and counted on a dollar bill for answers.</speak>
+            <show chara="edisonAngelSeriousFar" position="center"/>
+            <speak chara="edisonAngelNoFace">Whatever... I'll prove to those watching from above...</speak>
+            <show chara="edisonAngelAngryFar" position="center"/>
+            <speak chara="edisonAngelNoFace">Mankind will be in control of its own fate right until the end!</speak>
+            <speak chara="edisonAngelNoFace">Nancy Thomas Edison swears, even if her life comes to an end, she won't let New York become another Berlin!</speak>
+            <end post="U2FsdGVkX1+x3U0ZNdcph971qhGD"/>
+        </scene>
+    </story>
+</data>

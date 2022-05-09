@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story title="1">
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="campusImperialDay.jpg">
+            <bgm src="morning.mp3" status="start"></bgm>
+            <text remark="next">The Imperial Institute.</text>
+            <remark post="U2FsdGVkX19nEXNXbauN7pDja052">
+                <p class="article-text-h">Note:</p>
+                <p class="article-text">The Imperial Institute is located in Kensington, London. It was founded by Queen Victoria of the United Kingdom in 1888 and became one of the founding members of Imperial College, London in 1907. (Translator's note: This is not accurate: the Imperial Institute remained a separate institution from Imperial College, although the College now occupies the spot where the Institute once stood.)</p>
+                <p class="article-text">In 1958, the Imperial Institute was renamed the Commonwealth Institute and the campus was rebuilt elsewhere. Of the original building, only the iconic Queen's Tower was retained.</p>
+            </remark>
+            <text>Having been “driven out of the house” by that violent redhaired girl, the pitiful young man now wanders aimlessly around the college, a college with close to 70 years of history.</text>
+            <show chara="teslaAngryClose" position="center" opacity="0.6"/>
+            <speak chara="teslaNoFace"> Okay okay hurry up get out and get used to your surroundings!</speak>
+            <speak chara="teslaNoFace">Don't you dare come back before noon!</speak>
+            <hide position="center"/>
+            <text>He can't fathom why, but even though she is also a member of Schicksal, the feeling of being so cruelly treated by this girl —</text>
+            <text>— It doesn't seem that unpleasant to him.</text>
+            <speak chara="weltNoFace">Phew … Even now I'm having such mixed-up thoughts.</speak>
+            <bgm src="serenity.mp3" status="start"></bgm>
+            <text article="1">
+                <p class="article-text">The Imperial Institute.</p>
+                <p class="article-text">In this institution, there are not only low-rise detached buildings like Lab 42, but also several, tall towering buildings with mottled peeling walls.</p>
+                <p class="article-text">Close by, the pastel-green dome of the Queen's Tower is covered with dust and rainwater trails, producing an inexpressibly ugly colour and lustre — it is as if, even on such an uncommonly clear day, it felt the need to mock and remind people of the irksome air pollution that occurs every other weekday.</p>
+            </text>
+            <text>Having been accustomed to the spotless environs of high-end research labs, the young man named Welt feels oddly comforted by what could be considered as the landmark equivalent of a washed-up celebrity.</text>
+            <text>Although there is no personal freedom in the absolute sense — at least this “omnipresent and omnipotent” organisation has chosen to loosen up for a moment.</text>
+            <text>Well, maybe.</text>
+            <text>Autumn is slowly setting in, and the sun makes a futile attempt to imbue some warmth into the cooling windswept earth.</text>
+            <text>Leaning on a marble railing beside a footpath, Welt vigorously pats his cheeks.</text>
+            <text>Better think up something more positive.</text>
+            <sound src="deep breath.mp3"/>
+            <text>Take a deep breath —</text>
+            <text>…</text>
+            <text>— Look at how beautiful the world is.</text>
+            <text article="1">
+                <p class="article-text">To the north of the institute is a large expanse of lush and verdant woodland. They say it's the famous Hyde Park and Kensington Gardens — but that will probably be of no interest to that particular pair of lady geniuses.</p>
+                <p class="article-text">For those elites in their ivory tower, I fear that the only method of relaxation that comes to mind is to lean against a garden bench, close one's eyes, and relax.</p>
+                <p class="article-text">It's not creative enough. Even leaving Einstein aside, Tesla will definitely be bored out of her mind.</p>
+            </text>
+            <text article="1">
+                <p class="article-text">I should take them somewhere else more interesting.</p>
+                <p class="article-text">London should have no shortage of fun things to do — With this thought in mind, Welt decides to go to the library to try his luck, and see if there is any information available there.</p>
+                <p class="article-text">— Of course, he cannot know that in the future, there will be something more convenient like the Internet.</p>
+            </text>
+            <goto goto="20"/>
+        </scene>
+        <scene id="20" background="libraryDay.jpg">
+            <bgm src="serenity.mp3" status="continue"></bgm>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">Hallo.</speak>
+            <text>The librarian is a frivolously-dressed man, wearing a striped short-sleeved shirt and gold-rimmed glasses.</text>
+            <text>A blond man in his thirties, he opens the conversation with a strange foreign accent —</text>
+            <bgm src="lab.mp3" status="start"></bgm>
+            <speak chara="nokiaNoNameNoFace">Sierr, may I ask, do you vant to borrow soume bouks?</speak>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">Uh … ah … I …</speak>
+            <text>Welt feels he can't quite handle this weird man with his weird accent.</text>
+            <speak chara="weltNoFace">Excuse me … are there any … books on travel, or travel guides here?</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">Trahvel guyde?</speak>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">Hmm … it's the kind of book that introduces you to interesting places in London.</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">… That das not really ring any bells.</speak>
+            <text>Mr Gold-rimmed Glasses regrettably throws up his hands.</text>
+            <speak chara="nokiaNoNameNoFace">Would you like to go directly to the newspaper reading roum for a louk?</speak>
+            <speak chara="nokiaNoNameNoFace">I'm very sorry, but books like trahvel guydes and the Yellow Pages, our library really dasn't have any of those —</speak>
+            <speak chara="nokiaNoNameNoFace">— or perhaps it is better to say: those are completely beyond our “hunting range”, hurr hurr.</speak>
+            <text> Mr Gold-rimmed Spectacles puts on a fake smile mixed with a pained expression, leaving Welt to feel that he himself is the weird one now.</text>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltNormalClose" position="left"/>
+            <speak chara="weltNoFace">Uh … I wasn't really expecting much.</speak>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">May I ask, where is the newspaper reading room?</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">Hmm …</speak>
+            <speak chara="nokiaNoNameNoFace"> If I explain it to you directly, you may not get it …</speak>
+            <speak chara="nokiaNoNameNoFace">Better come with me.</speak>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">Hm … Thanks, and sorry to inconvenience you.</speak>
+            <text>This guy, although he seems a bit pretentious, he does seem like a good person after all —</text>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">Hold up.</speak>
+            <text>Mr Gold-rimmed Spectacles is about to lead the way, when he suddenly stops as if he remembers something.</text>
+            <speak chara="nokiaNoNameNoFace">May I ask, do you have a library borrowing card?</speak>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltShameClose" position="left"/>
+            <speak chara="weltNoFace">… Ah!</speak>
+            <show chara="weltShameClose" position="left" opacity="0.7"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">What is it?</speak>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">Ahhh … Umm …</speak>
+            <speak chara="weltNoFace">…  Sorry, no, I do not have a library card.</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">Oh? That may complicate things a little …</speak>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">Um … I'm a new assistant with Lab 42 … so …</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="nokiaNoNameSeriousClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="nokiaNoNameNoFace">What? Lab 42?</speak>
+            <show chara="nokiaNoNameSeriousClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">Uh … That's right …</speak>
+            <text>Welt doesn't quite understand why Mr Gold-rimmed Glasses has suddenly become so serious.</text>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">Oopsy-daisies, well, well, Dr Einstein, that old geezer, is he keeping well these days?</speak>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltShameClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="weltNoFace">Old, old geezer?</speak>
+            <shake position="left" time="250"></shake>
+            <speak chara="weltNoFace">What, what are you saying?! How, how can the doctor be an old man?!</speak>
+            <text>The words “old geezer” are so startling to Welt that his jaw almost falls off.</text>
+            <show chara="weltShameClose" position="left" opacity="0.7"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">Ha ha ha … my apologies, recently there have been scams going on around the school, so we need to stay vigilant …</speak>
+            <speak chara="nokiaNoNameNoFace">I'm really sorry, to have deliberately put you through a test just now.</speak>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">…</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">Dr Einstein had specifically ordered me to — but at that time she didn't have your photo, so …</speak>
+            <text>Mr Gold-rimmed Glasses shrugs his shoulders, while he continues to smile in his usual manner.</text>
+            <speak chara="nokiaNoNameNoFace">To be honest, this method of testing people was really her own suggestion … Ha ha ha ha.</speak>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">…</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">No problem, I'll get you a research assistant's library card right away. You may borrow whatever book you want.</speak>
+            <text>Mr Gold-rimmed Glasses nudges his “namesake” further up the bridge of his nose, while he continues to smile in his usual manner.</text>
+            <goto goto="30"/>
+        </scene>
+        <scene id="30" background="campusImperialDay.jpg">
+            <bgm src="street.mp3" status="start"></bgm>
+            <sound src="walk slow.mp3"/>
+            <text>“The Times” is too serious, and “the Financial Times” completely unsuited for his purpose: but it is within the pages of down-market tabloids like “The Daily Herald” and “The Daily Mirror” that he finds some items of interest.</text>
+            <text>At noon, Welt returns from the newspaper room, reviewing his notes in one hand, while consulting a borrowed street directory in the other.</text>
+            <text>The British Museum — Great Russell Street;</text>
+            <text>The National Gallery — Trafalgar Square;</text>
+            <text>The Theatre District, Casino and Chinatown — Leicester Square;</text>
+            <text>…</text>
+            <text>Starting with tourist attractions should get me at least a passing score, right?</text>
+            <text>After our tour, I can also invite them to dine at a proper restaurant — those “staff meals” delivered to the institute on weekdays don't taste that great, so I should use this opportunity to improve on that.</text>
+            <text>Although local British cuisine is nothing to brag about (besides their seafood), the dishes of France, Italy, Turkey, India and other countries are easy to find and eat. If we go to Chinatown, we also have the choice of Chinese food …</text>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="schoolDay3.jpg">
+            <bgm src="street.mp3" status="continue"></bgm>
+            <text>… Although I am penniless, since this is my job, it should be okay for me to be reimbursed, right?</text>
+            <text>— And thus Welt drifts into a state of deep thought, and before long he has unknowingly returned to the small courtyard of Lab 42.</text>
+            <text>The detached Lab 42 is a work villa built during the post-war period, so it sports an avant-garde design integrating both work and living requirements.</text>
+            <text>The ground floor houses a study, workshop, guest room, various kitchen and bathroom facilities, and even a secret warehouse secured with a vault door;</text>
+            <text>The top floor is a residential area where “men are forbidden to enter”. Welt is not particularly clear what that area looks like. </text>
+            <text>Pink curtains? Cream-coloured furniture? A room full of sweets and plush toys?</text>
+            <text>… No no no, no matter what, a researcher's room can never be of that décor. Indeed, their private laboratory appears to be on the same floor.</text>
+            <goto goto="50"/>
+        </scene>
+        <scene id="50" background="studyNoon.jpg">
+            <bgm src="street.mp3" status="stop"></bgm>
+            <sound src="door open.mp3"/>
+            <speak chara="weltNoFace">I'm home.</speak>
+            <text>Gently opening the villa front door, the young man politely greets an empty living room.</text>
+            <text>He has maintained this odd habit for as long as he could recall, so much so that Schicksal had seriously investigated the possibility of him being Japanese.</text>
+            <bgm src="lab.mp3" status="start"></bgm>
+            <show chara="einSmileClose" position="right"/>
+            <speak chara="einNoFace">Well, you came back at the right time.</speak>
+            <show chara="einSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">Huh??</speak>
+            <text>Unexpectedly, from an overlooked corner behind the living room door, the girl with the mophead emerges into the open, closing a book.</text>
+            <show chara="einSmileClose" position="right"/>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">Did I scare you?</speak>
+            <show chara="einSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">Ah … no … no you didn't …</speak>
+            <show chara="einNormalClose" position="right"/>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">That's good then. How has your information-gathering been going?</speak>
+            <show chara="einNormalClose" position="right" opacity="0.7"/>
+            <show chara="weltNormalClose" position="left"/>
+            <speak chara="weltNoFace">Hmm … not bad? London really does have many places of interest.</speak>
+            <show chara="einNormalClose" position="right"/>
+            <show chara="weltNormalClose" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">…</speak>
+            <text>Mophead's expression is cold, and she doesn't seem particularly satisfied with the young man's response.</text>
+            <speak chara="einNoFace">So, what's for lunch today?</speak>
+            <text>And with this understatement, she casually tosses out a rather universal and time-honored dilemma.</text>
+            <show chara="einNormalClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">Er … Huh?</speak>
+            <show chara="einNormalClose" position="right"/>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">For lunch I want to have something interesting nearby. Any tips?</speak>
+            <show chara="einNormalClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">… Ugh.</speak>
+            <text>This morning he had been preoccupied with just a literature search, and had not conducted any on-site field visits. The young man breaks out in a cold sweat. As a newcomer to this place, how could he possibly figure out what restaurants are worth visiting?</text>
+            <show chara="einNormalClose" position="right"/>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">Can't answer, I see …</speak>
+            <text>The girl confirms with a blank expression.</text>
+            <show chara="einNormalClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">…</speak>
+            <text>Embarrassed, the young man shakes his head.</text>
+            <show chara="einNormalClose" position="right"/>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">Lunch, your treat.</speak>
+            <text>With such indifference, the girl casually metes out her punishment.</text>
+            <show chara="einNormalClose" position="right" opacity="0.7"/>
+            <show chara="weltNormalClose" position="left"/>
+            <speak chara="weltNoFace">… I've made a mistake.</speak>
+            <text>The young man bows his head, feeling despondent. Feeling himself to be so very useless.</text>
+            <text>At this moment, not to mention how, but it is as though she had expected him to pluck stars from the sky on her behalf —</text>
+            <show chara="einSmileClose" position="right"/>
+            <show chara="weltNormalClose" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">No, you'll only be cheated of this month's allowance, that's all.</speak>
+            <show chara="einSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltShameClose" position="left"/>
+            <speak chara="weltNoFace">… Huh?</speak>
+            <show chara="einSmileClose" position="right"/>
+            <show chara="weltShameClose" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">What, am I not just setting you up to fail and get scammed? How could you even have the time to do a pass over the entire Kensington District?</speak> <!-- 碰瓷儿 = "break porcelain", to scam someone by setting up an accident, such as putting an "expensive" piece of porcelain somewhere where it can be easily knocked over and broken, then seeking compensation. --> 
+            <text> The girl gently mocks and pities the fool who had just been the target of her own teasing.</text>
+            <speak chara="einNoFace">Today we shall have pasta!</speak>
+            <hide position="right"></hide>
+            <hide position="left"></hide>
+            <show chara="einSmileCoatClose" position="center"/>
+            <text>While speaking to herself, she takes off her white coat and throws it onto the sofa.</text>
+            <speak chara="einNoFace">Tesla is still sleeping in, and we need not worry about her. It is normal for her type to be awake or asleep at any time — there are snacks in the fridge. We also have a microwave oven. No problem.</speak>
+            <text>In this rare instance, the young girl blurts out everything she needs to say in a single breath. With one hand she picks up her purse, and with the other she pulls on the doorknob. </text>
+            <speak chara="einNoFace">No matter. Today is your first day. Please, please do not think I'd be so easily angered.</speak>
+            <show chara="einSmileCoatClose" position="center" opacity="0.7"/>
+            <sound src="key.mp3"/>
+            <text> She takes out a key, and begins to lock up the front door.</text>
+            <goto goto="60"/>
+        </scene>
+        <scene id="60" background="londonStreet.jpg">
+            <bgm src="street.mp3" status="start"></bgm>
+            <text>…</text>
+            <show chara="einNormalCoatClose-up" position="center"/>
+            <speak chara="einNoFace">This is the V&amp;A Museum.</speak>
+            <speak chara="einNoFace">That is the Holy Trinity Church.</speak>
+            <text>With her messy swaying hair, and an expressionless demeanour, the young lady continues her guided tour alongside the young man. Those not familiar with the situation would probably mistake them for a pair of long-lost siblings, somewhat estranged.</text>
+            <speak chara="weltNoFace">Mm …</speak>
+            <show chara="einSmileCoatClose-up" position="center"/>
+            <speak chara="einNoFace">The A is an initial for “Albert”. From my own name.</speak>
+            <speak chara="weltNoFace">… Huh?</speak>
+            <show chara="einNormalCoatClose-up" position="center"/>
+            <speak chara="einNoFace">Fooled you.</speak>
+            <speak chara="weltNoFace">Eh …</speak>
+            <show chara="einFoolCoatClose-up" position="center"/>
+            <speak chara="einNoFace">Hehe, guess I didn't really fool you.</speak>
+            <speak chara="weltNoFace">… Huh?</speak>
+            <show chara="einNormalCoatClose-up" position="center"/>
+            <speak chara="einNoFace" remark="next">Forget it. It's just a silly coincidence.</speak>
+            <remark post="U2FsdGVkX19iI3nii1DJQrJarsUb">
+                <p class="article-text-h">Note:</p>
+                <p class="article-text">Prince Consort Albert, full name Francis Albert Augustus Charles Emmanuel, was Queen Victoria's husband.</p>
+                <p class="article-text">The V&amp;A（Victoria and Albert) Museum was named after the royal couple. In England there is a series of landmarks and institutions named after “Albert”. They were all established by the Queen to commemorate Prince Albert after he had passed away.</p>
+            </remark>
+            <hide position="center"/>
+            <text>Hasn't the same conversation been repeated several times already?</text>
+            <text>From the Royal College of Music, to Princes Gardens, to the Science Museum, to the Natural History Museum …</text>
+            <text>… She wouldn't be finding this all that enjoyable, would she?</text>
+            <show chara="einSmileCoatClose-up" position="center"/>
+            <speak chara="einNoFace">Ah. It seems like it's already been half a year since I've taken such a long walk.</speak>
+            <text>The girl lazily stretches, and speaks without looking back.</text>
+            <speak chara="weltNoFace">… Work has been rather busy of late.</speak>
+            <text>The young man does some quick mental estimates, and realises that the pair had only walked a little over a kilometre.</text>
+            <show chara="einNormalCoatClose-up" position="center"/>
+            <sound src="Hah.mp3"/>
+            <speak chara="einNoFace">Mm. Every day I work roughly three to four hours.</speak>
+            <text>The young woman does an even lazier yawn than before.</text>
+            <speak chara="weltNoFace">… But isn't that just a half-day of work?!</speak>
+            <show chara="einSmileCoatClose-up" position="center"/>
+            <speak chara="einNoFace">So, clearly you don't understand what I mean.</speak>
+            <hide position="center"/>
+            <text>…</text>
+            <text>It is possible that, when it comes to a brain-taxing occupation such as a scientist, working for four hours is already tiring enough.</text>
+            <text>… But in the previous labs, those people were undoubtedly working day and night, weren't they?</text>
+            <show chara="einNormalCoatClose-up" position="center"/>
+            <speak chara="einNoFace">Here we are.</speak>
+            <text>While the young man is mulling over his confusion, the rough mess of hair beside him comes to an abrupt stop.</text>
+            <speak chara="weltNoFace">“Caffé Concerto”…</speak>
+            <speak chara="weltNoFace">… Didn't we say we were going to have pasta?</speak>
+            <show chara="einSmileCoatClose-up" position="center"/>
+            <speak chara="einNoFace">Well, here's an Italian restaurant.</speak>
+            <text>The girl points to the tiny blackboard at the entrance of the restaurant. The names of the dishes on it are indeed Italian.</text>
+            <text>… But what is an Italian restaurant doing with such a name?!</text>
+            <goto goto="70"/> <!-- The translator does not know why the name is a source of controversy. "Caffé Concerto" sounds fine to me, if only a little corny. -->
+        </scene>
+        <scene id="70" background="italianRestaurant.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <text>The decorative artwork, bottles of champagne, shelves of dessert … Despite bearing a corny name like “Caffé Concerto”, the place does indeed look the part of an Italian restaurant.</text>
+            <text>The young man and young lady sit down at a table. The interior feels pleasantly warm, so the pair immediately take off their coats.</text>
+            <goto goto="72" change="0"/>
+        </scene>
+        <scene id="72" background="CG2.jpg">
+            <bgm src="lab.mp3" status="continue"></bgm>
+            <speak chara="einNoFace">Ah! I rather fancy that strawberry cake!</speak>
+            <speak chara="einNoFace">… Um, just that one. That'll be enough.</speak>
+            <speak chara="weltNoFace">I'll have …</speak>
+            <speak chara="weltNoFace">… Wait, didn't you say you wanted to eat pasta?</speak>
+            <speak chara="einNoFace">That was just a figure of speech.</speak>
+            <speak chara="weltNoFace">But …</speak>
+            <speak chara="einNoFace">I just felt like having cake all of a sudden.</speak>
+            <speak chara="weltNoFace">…</speak>
+            <speak chara="einNoFace">The waiter is looking at you.</speak>
+            <speak chara="weltNoFace">Oh, uh … I'll have this baked snail … and I'll also have the seafood stew pasta. Uh, that's all. </speak> <!-- Probably Polenta e Bogoni and Pasta Marinara. -->
+            <text article="1">
+                <p class="article-text">The waiter walks away, satisfied with the order. The young girl, having nothing to do, gazes out of the windows, as if contemplating some question of philosophy. Her deep blue eyes, round doll-like face, topped by her fair natural curls — if it were not for that terrible hairstyle, she could easily have been an exemplar of beauty.</p>
+            </text>
+            <text article="1">
+                <p class="article-text">It is while musing in such a disorganised way, that the young man now known as Welt has come to realise something: this is probably the first time he has ever paid close attention to the looks of this lady genius — Dr Lieserl Albert Einstein. No doubt, she has the legendary temperament of a “crazy scientist”; yet at the same time, she also seems to pull off the girl-next-door act, albeit one who enjoys teasing his poor pitiful self.</p>
+            </text>
+            <goto goto="75" change="0"/>
+        </scene>
+        <scene id="75" background="italianRestaurant.jpg">
+            <bgm src="lab.mp3" status="continue"></bgm>
+            <show chara="weltShySweaterClose-up" position="left"/>
+            <speak chara="weltNoFace">Eins …</speak>
+            <show chara="weltShySweaterClose-up" position="left" opacity="0.7"/>
+            <show chara="0einNormalVestClose-up" position="right"/>
+            <speak chara="einNoFace">… Me?</speak>
+            <show chara="weltNormalSweaterClose-up" position="left"/>
+            <show chara="0einNormalVestClose-up" position="right" opacity="0.7"/>
+            <speak chara="weltNoFace">Sorry … It's just … I … just accidentally said it out loud.</speak>
+            <show chara="weltShySweaterClose-up" position="left"/>
+            <speak chara="weltNoFace"> I feel that using nicknames may help the flow of our conversation … but it does seem rather bizarre, pulling apart someone's surname.</speak>
+            <show chara="weltShySweaterClose-up" position="left" opacity="0.7"/>
+            <show chara="0einSmileVestClose-up" position="right"/>
+            <speak chara="einNoFace">… I don't mind. As long as you like it, it's fine.</speak>
+            <show chara="weltShySweaterClose-up" position="left"/>
+            <show chara="0einSmileVestClose-up" position="right" opacity="0.7"/>
+            <speak chara="weltNoFace">Really? … Then I must really thank you.</speak>
+            <text>The young man glances left and right, rubbing his ears and cheeks in embarrassment —</text>
+            <speak chara="weltNoFace">In fact … I do have a question to ask, though it may be rude of me …</speak>
+            <show chara="0einSeriousAhVestClose-up" position="right"/>
+            <show chara="weltShySweaterClose-up" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">Prevaricating before a lady is even more impolite.</speak>
+            <show chara="0einSeriousAhVestClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose-up" position="left"/>
+            <speak chara="weltNoFace">… Sorry.</speak>
+            <text>At this moment, the young man feels as if his mind had just boarded the wrong train.</text>
+            <text>Just asking about someone's daily habits, nothing more. Why does one have be so embarrassed?</text>
+            <show chara="0einSmileVestClose-up" position="right"/>
+            <show chara="weltTiredSweaterClose-up" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">Dr Einstein, 51 years old.</speak>
+            <show chara="0einSmileVestClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose-up" position="left"/>
+            <text>Nonetheless, it seems that she too has misjudged what I meant by speaking “rudely” —</text>
+            <text>Wait, what?</text>
+            <text>51 years old?</text>
+            <show chara="weltScaredSweaterClose-up" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="weltNoFace">… Huuuuh?</speak>
+            <text>A little slow on the uptake, the young man has to use both hands to keep his jaw from dropping to the ground.</text>
+            <show chara="0einSlyVestClose-up" position="right"/>
+            <show chara="weltScaredSweaterClose-up" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">Just pulling your leg. If you divide by three it should be just about right.</speak>
+            <show chara="weltTiredSweaterClose-up" position="left"/>
+            <show chara="0einSlyVestClose-up" position="right" opacity="0.7"/>
+            <speak chara="weltNoFace">…</speak>
+            <show chara="weltNormalSweaterClose-up" position="left"/>
+            <text>Hold on?</text>
+            <text>51 divided by 3 …</text>
+            <text>6 times 8 is 48, 48 divided by 3 is 16; 6 times 9 is 54, 54 divided by 3 is 18 …</text>
+            <text>So 51 divided by 3 is 17 … Dr Einstein is 17 years old …</text>
+            <show chara="weltScaredSweaterClose-up" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="weltNoFace">… A minor?</speak>
+            <speak chara="weltNoFace">A doctorate degree … as a minor?!</speak>
+            <show chara="weltScaredSweaterClose-up" position="left" opacity="0.7"/>
+            <show chara="0einSmileVestClose-up" position="right"/>
+            <speak chara="einNoFace">Can't I?</speak>
+            <show chara="0einSmileVestClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose-up" position="left"/>
+            <speak chara="weltNoFace">… Eh, this is not a matter of “can” or “can't”.</speak>
+            <show chara="0einSlyVestClose-up" position="right"/>
+            <show chara="weltTiredSweaterClose-up" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">While we're on the topic, Dr Tesla is four years older than me, and she's an adult — if you really want to know.</speak> <!-- ( ͡° ͜ʖ ͡°) -->
+            <show chara="0einSlyVestClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalSweaterClose-up" position="left"/>
+            <speak chara="weltNoFace">Why does the way you put it make her seem like she's socially-inept for her age? …</speak> <!--  情商负分 = "EQ score in the negatives." -->
+            <show chara="0einFoolVestClose-up" position="right"/>
+            <show chara="weltNormalSweaterClose-up" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">It's not like Welt is any better.</speak>
+            <show chara="0einFoolVestClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose-up" position="left"/>
+            <speak chara="weltNoFace">Eh …</speak>
+            <show chara="0einNormalVestClose-up" position="right"/>
+            <show chara="weltTiredSweaterClose-up" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">…</speak>
+            <show chara="0einNormalVestClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalSweaterClose-up" position="left"/>
+            <speak chara="weltNoFace">…</speak>
+            <show chara="0einNormalVestClose-up" position="right"/>
+            <show chara="weltNormalSweaterClose-up" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">I wish to resume admiring the scenery for a moment, so please refrain from talking to me for now.</speak>
+            <show chara="0einNormalVestClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalSweaterClose-up" position="left"/>
+            <speak chara="weltNoFace">… Eh. Okay.</speak>
+            <show chara="0einSmileVestClose-up" position="right"/>
+            <show chara="weltNormalSweaterClose-up" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">It is rare for the weather to be as good as today's.</speak>
+            <show chara="0einSmileVestClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose-up" position="left"/>
+            <speak chara="weltNoFace">… Huh.</speak>
+            <show chara="0einSlyVestClose-up" position="right"/>
+            <show chara="weltTiredSweaterClose-up" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">You probably didn't know, but recently I've been trying to keep myself from spouting too much nonsense.</speak>
+            <show chara="0einSlyVestClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose-up" position="left"/>
+            <speak chara="weltNoFace">…</speak>
+            <show chara="0einSlyVestClose-up" position="right"/>
+            <show chara="weltTiredSweaterClose-up" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">My grandfather once said, “Success is equal to genius plus sweat plus less spouting of nonsense.”</speak>
+            <show chara="0einSlyVestClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose-up" position="left"/>
+            <speak chara="weltNoFace">…</speak>
+            <show chara="weltScaredSweaterClose-up" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="weltNoFace">… Yet for some time now, <i>YOU'VE</i> been the one spewing out nonsense! What sort of “character trope” or setting are you going for? Are you the quiet-and-reserved type, or the chatty-and-catty type?!</speak>
+            <show chara="weltScaredSweaterClose-up" position="left" opacity="0.7"/>
+            <show chara="0einSlyVestClose-up" position="right"/>
+            <speak chara="einNoFace">… Dr Einstein doesn't understand what you mean by “character trope”.</speak>
+            <text>And for a brief moment, Welt catches a glimpse of a devilish grin.</text>
+            <goto goto="80"/>
+        </scene>
+        <scene id="80" background="schoolDay3.jpg">
+            <bgm src="street.mp3" status="start"></bgm>
+            <show chara="nokiaNoNameSmileClose" position="mostright"/>
+            <text>…</text>
+            <text>Returning from the “Caffé Concerto”, Einstein and Welt incidentally find the blond-haired librarian, with the striped short-sleeved shirt and gold-rimmed glasses, at the doorway of Lab 42. </text>
+            <hide position="mostright"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">Ah, dear Einstein! You're back!</speak>
+            <text>Somehow, the way this man waves to the girl suggests they are very familiar with each other. A hint of aversion flutters in Welt's heart. </text>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="einNormalCoatClose" position="left"/>
+            <speak chara="einNoFace">… What's the matter? Finn.</speak>
+            <hide position="left"/>
+            <hide position="right"/>
+            <show chara="nokiaNoNameSmileClose" position="center"/>
+            <text>Finn?</text>
+            <text>No wonder this guy wears only short sleeves in winter and speaks English with such a strange accent — if he is from Finland, that is not surprising at all.</text>
+            <text>It is said that when the temperature reaches freezing point, they are still flipping summer sausages in the backyard —</text>
+            <text>— Though that's probably just a joke from some newspaper.</text>
+            <text>No … for such a frivolous man … can't say for certain …</text>
+            <hide position="center"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <show chara="einNormalCoatClose" position="left" opacity="0.7"/>
+            <speak chara="nokiaNoNameNoFace">An urgent matter concerning Lab 42.</speak>
+            <text>The frivolous man pulls out an airmail envelope from a folder.</text>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="einNormalCoatClose" position="left"/>
+            <speak chara="einNoFace">Understood.</speak>
+            <text>Her enthusiasm waning, Einstein reaches for the letter with her left hand, while fumbling for the keys with her right.</text>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <show chara="einNormalCoatClose" position="left" opacity="0.7"/>
+            <speak chara="nokiaNoNameNoFace">They sent a telegram earlier today, informing us that they wish you check it out as soon as you receive it —</speak>
+            <speak chara="nokiaNoNameNoFace">— they said you will most <i>certainly</i> be interested in its contents.</speak>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="einNormalCoatClose" position="left"/>
+            <text>Instantly, Einstein's right hand stops groping for the key. Her expression seems a little impatient.</text>
+            <speak chara="einNoFace">Help me tear it open.</speak>
+            <show chara="weltSurpriseClose" position="left"/>
+            <show chara="einNormalCoatClose" position="center" opacity="0.7"/>
+            <speak chara="weltNoFace">Uh … is that okay? My security clearance level—</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="einSmileCoatClose" position="center"/>
+            <speak chara="einNoFace">I said —“Help me tear it open.”</speak>
+            <show chara="einSmileCoatClose" position="center" opacity="0.7"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">Ha ha, it may be strange for me to say so … but if it were a highly-classified letter, it would never be delivered by someone at my rank.</speak>
+            <text>The Finn pushes his gold-rimmed glasses, while interjecting in an affected manner.</text>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltNormalClose" position="left"/>
+            <speak chara="weltNoFace">… Okay, let me open it.</speak>
+            <sound src="envelope.wav"/>
+            <text>Welt avoids giving the attention-seeking man a single glance.</text>
+            <show chara="einNormalCoatClose" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text-h">Einstein, my esteemed senior colleague:</p>
+                <p class="article-text">I trust you've been well since we last met. Recently, over here, we've come across a rather excellent ancient pasttime. If you are interested, please make sure you find a day to come and play. I guarantee you'll be awfully excited.</p>
+                <p class="article-text">As for work-related matters, ⵥⵙⵎ ⵋⴱⴳ ⵐⵓⴽⴸ ⵐ ⵥⵛⵌⴱⴴⵙⴸ ⵋⵓⵖⴱ ⵥⴶ ought to be able to help you, yes?</p>
+                <p class="article-text-s">Your junior colleague, who looks forward to welcoming you, </p>
+                <p class="article-text-s">Schrödinger</p>
+                <p class="article-text-s">10.16. Billings, Montana</p>
+            </text>
+            <show chara="einSeriousCoatClose" position="center" opacity="0.7"/>
+            <speak chara="weltNoFace">…</speak>
+            <text>It is a curious situation: the contents of the letter seem rather carefree and casual. But it contains some rather cryptic code.</text>
+            <show chara="weltNormalClose" position="left" opacity="0.7"/>
+            <show chara="einSeriousCoatClose" position="center"/>
+            <bgm src="themeEin.mp3" status="start"></bgm>
+            <speak chara="einNoFace">Why did she so specifically …</speak>
+            <text>To Welt's surprise, Einstein solemnly hands the papers back to the Finn.</text>
+            <show chara="nokiaNoNameSeriousClose" position="right" opacity="0.7"/>
+            <speak chara="einNoFace">This is … this is Ada's real name, yes?</speak>
+            <text> Her slender finger points to the string of unintelligible code that is “ⵥⵙⵎ ⵋⴱⴳ ⵐⵓⴽⴸ ⵐ ⵥⵛⵌⴱⴴⵙⴸ ⵋⵓⵖⴱ ⵥⴶ”.</text>
+            <show chara="einSeriousCoatClose" position="center" opacity="0.7"/>
+            <show chara="nokiaNoNameSeriousClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">… Uh huh.</speak>
+            <speak chara="nokiaNoNameNoFace">She should know the name “Ada” … Why bother to …</speak>
+            <show chara="nokiaNoNameSeriousClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <text>Why do they need to consult this person? Could he be some expert in some field?</text>
+            <text>Who's “Ada”? </text>
+            <text>What exactly happened?</text>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="einSeriousCoatClose" position="center"/>
+            <speak chara="einNoFace">This person Schrödinger, she would never cause trouble if there wasn't any.</speak>
+            <text>Einstein suddenly seems to understand something.</text>
+            <speak chara="einNoFace">Finn, go now and arrange for a flight: we need to board the next plane to Billings —</speak>
+            <shake position="center" time="250"></shake>
+            <speak chara="einNoFace">Welt!</speak>
+            <hide position="center"/>
+            <show chara="einSeriousCoatClose" position="right" opacity="0.7"/>
+            <show chara="weltShameClose" position="left"/>
+            <speak chara="weltNoFace">Yes, ma'am!?</speak>
+            <text>Probably influenced by the sudden imposing manner of the young woman, the new lab assistant stands to attention, just like a soldier —</text>
+            <text>— and subconsciously salutes. Although he is quick to put his hand back down.</text>
+            <show chara="weltShameClose" position="left" opacity="0.7"/>
+            <show chara="einSeriousCoatClose" position="right"/>
+            <speak chara="einNoFace">Don't worry about the small details — Quickly, go upstairs and wake up Tesla! 203!</speak>
+            <show chara="weltSurpriseClose" position="left"/>
+            <show chara="einSeriousCoatClose" position="right" opacity="0.7"/>
+            <speak chara="weltNoFace">Me?!</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="einSeriousCoatClose" position="right"/>
+            <speak chara="einNoFace">Ein's too busy and cannot come.</speak>
+            <hide position="left"/>
+            <hide position="right"/>
+            <show chara="weltSurpriseClose" position="center" opacity="0.7"/>
+            <text>Ignoring the dumbstruck Welt, Einstein opens the front door of the lab, then bolts towards the corridor on the right side of the ground floor. </text>
+            <text>— Where all that stands is a giant vault door.</text>
+            <end post="U2FsdGVkX187oCnLTMJUa96nJWvK"/>
+        </scene>
+    </story>
+</data>

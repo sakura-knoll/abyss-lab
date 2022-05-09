@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story title="1">
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10"/>
+        </scene>
+        <scene id="10" background="carMorning.jpg">
+            <bgm src="morning.mp3" status="start"></bgm>
+            <show chara="planckSmileCoatClose-upSymme" position="center"/>
+            <speak chara="planckNoFace">Destination: Yellowstone Lake — Let's go!</speak>
+            <sound src="9_11_car away.mp3"/>
+            <text article="1">
+                <p class="article-text">Early next morning, as Planck steps on the accelerator, the plump Volkswagen Type 2 camper van spits out a thick puff of hot air, then trundles forth, carrying everyone westwards out of Billings.</p>
+                <p class="article-text"> Soon after boarding the van, the four in the rear begin to dose off, toppling and sprawling over the seats, probably because they had woken up so early.</p> <!-- Original Chinese text erroneously says there are only three in the back, when there are clearly four - Tesla, Einstein, Welt and Elias/Finn. Planck driving, Schrodinger shotgun. -->
+            </text>
+            <goto goto="12" change="0"/>
+        </scene>
+        <scene id="12" background="roadMontana1.jpg">
+            <bgm src="street.mp3" status="start"></bgm>
+            <text>Laurel.</text>
+            <text>Park City.</text>
+            <text>Columbus.</text>
+            <text>Reed Point.</text>
+            <text>Greycliff.</text>
+            <text>Big Timber.</text>
+            <text article="1">
+                <p class="article-text">A number of small, quaint, colonial towns line the winding Yellowstone River. They have been scattered about throughout the Montana wilderness in a disorderly but picturesque fashion — thus giving this vast landscape a touch of the human spark.</p>
+                <p class="article-text">Despite having travelled along this route many times, Schrödinger continues to silently admire the bleak scenery outside the window.</p>
+            </text>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Oh Montana, so pleasant … </speak>
+            <speak chara="planckNoFace">This wilderness, filled with serenity, is most suited for emptying your mind and calming your mood!</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="schroNormalAhClose-upSymme" position="right"/>
+            <speak chara="schroNoFace">Mm. It would be better if there were fewer people. </speak>
+            <show chara="schroNormalEmClose-upSymme" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Ara, would you like Alaska then?</speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="schroNormalAhClose-upSymme" position="right"/>
+            <speak chara="schroNoFace">No … this is enough … </speak>
+            <speak chara="schroNoFace" remark="next">No matter how you look at it, there are too many mountains near Anchorage.</speak>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">Anchorage is the largest city in Alaska, the United States. It is located in south-central Alaska, on the eastern foot of the Chugach Mountains.</p>
+            </remark>
+            <show chara="schroNormalAhClose-upSymme" position="right"/>
+            <speak chara="schroNoFace">Ah. </speak>
+            <speak chara="schroNoFace">Siberia might be nice.</speak>
+            <speak chara="schroNoFace">It's just that Russians have too strong a body odour, so I suppose I might not tolerate it.</speak> <!-- That's a bit harsh there, Schrodinger! -->
+            <show chara="schroNormalEmClose-upSymme" position="right" opacity="0.7"/>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Even when Canada is just to the north? You really favour the exotic over the familiar, don't you?</speak>] <!-- 舍近求远 = "Favour remote distant things over nearby ones." -->
+            <show chara="planckNormalCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="schroNormalAhClose-upSymme" position="right"/>
+            <speak chara="schroNoFace" remark="next">Canada — including the Yukon region near Alaska —  was all completely submerged by the Arctic ice sheet during the last Ice Age … </speak> <!-- The Chinese text mistakenly mentions the Yukon region as being part of Alaska, instead of being adjacent to it. That said, Fort Yukon is a city in Alaska. -->
+            <remark post="U2FsdGVkX18Fdl7WdyWDLF5FgdGs">
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">The Last Glacial Maximum is the coldest period prior to modern times, the peak of which was around 25,000 BC.</p>
+                <p class="article-text"> At that time, about 24% of the global land mass was covered by ice, the sea level was about 120 meters lower, and the average temperature of the poles was 10-20°C lower than it is now. </p>
+                <p class="article-text">During the last Ice Age, the earth was cooler and drier, and desertification more severe, than it is in the present day.</p>
+            </remark>
+            <speak chara="schroNoFace">Teacher, do you reasonably think we'll ever be given an opportunity to work over there?</speak>
+            <show chara="schroNormalEmClose-upSymme" position="right" opacity="0.7"/>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Be that as it may … </speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace"> But Siberia isn't under our jurisdiction at all, ja?</speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="schroNormalAhClose-upSymme" position="right"/>
+            <speak chara="schroNoFace">Yes, but the “Babylon Laboratory” is there. Isn't that the place where they send anyone who disobeys the Overseer for human experimentation?</speak>
+            <show chara="schroNormalEmClose-upSymme" position="right" opacity="0.7"/>
+            <show chara="planckBoringCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace"> … That was a cruel joke.</speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace"> … And not at all funny.</speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="schroNormalAhClose-upSymme" position="right"/>
+            <speak chara="schroNoFace">Teacher, you are always reluctant to consider the negative possibilities.</speak>
+            <show chara="schroNormalEmClose-upSymme" position="right"/>
+            <text>Schrödinger continued to leisurely play with her corkscrew curl, as if the admonishment was of no concern to her.</text>
+            <show chara="schroNormalAhClose-upSymme" position="right"/>
+            <speak chara="schroNoFace" remark="next">The Uncertainty Principle.</speak>
+            <speak chara="schroNoFace" remark="next">The world changes with human observation — if you only focus on cute and pretty things, then it'll transform into a fragile porcelain doll.</speak>
+            <remark post="U2FsdGVkX18cdcmDUJFVy06pVsT6">
+                <p class="article-text-h">Note: </p>
+                <p class="article-text"> The Uncertainty Principle states that the position and momentum of a particle cannot be determined simultaneously, and the uncertainty follows the inequality — </p>
+                <p class="article-text">ΔxΔp ≥ h/4π</p>
+                <p class="article-text"> — where, h is the Planck constant.</p>
+                <p class="article-text">This principle indicates that it is impossible for observers to make accurate predictions for all physical quantities of a microscopic particle. The higher the certainty of some quantities, the greater the uncertainty of others. (Translator note: Schrödinger seems to have confused the Uncertainty Principle with the Observer Effect. Note that this is a common confusion.)</p>
+            </remark>
+            <show chara="schroNormalEmClose-upSymme" position="right" opacity="0.7"/>
+            <show chara="planckBoringCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace"> … </speak>
+            <speak chara="planckNoFace">Speaking of porcelain dolls — </speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace"> — Einstein has always been a lot cuter than you, Dr Schrödinger.</speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="schroNormalEmClose-upSymme" position="right"/>
+            <speak chara="schroNoFace"> … </speak>
+            <text> Schrödinger halts her fiddling of her single corkscrew curl, her finger frozen in midair, possibly because the jump in topic had been so unexpected.</text>
+            <show chara="schroNormalEmClose-upSymme" position="right" opacity="0.7"/>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Hehe — </speak>
+            <speak chara="planckNoFace" remark="next"> — you Austrians will need to practice for another hundred years, if you dream of ever surpassing us Bavarians with your cruel humour!</speak>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">Bavaria (German: Bayern) is located in the southeast of the Federal Republic of Germany, and is the largest state in modern Germany. </p>
+                <p class="article-text">The local customs are quite different from those in other parts of Germany, and it is also historically one of the last German states to be unified by Prussia.</p>
+                <p class="article-text">P.S.</p>
+                <p class="article-text">Planck is Bavarian, while Schrödinger is Austrian.</p>
+            </remark>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="schroNormalAhClose-upSymme" position="right"/>
+            <speak chara="schroNoFace"> … </speak>
+            <speak chara="schroNoFace">Teacher, discrimination on the basis of nationality is unbecoming behaviour.</speak> <!-- Without any sense of self-irony - see previous Russian comment -->
+            <show chara="schroNormalEmClose-upSymme" position="right" opacity="0.7"/>
+            <show chara="planckBoringCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Aha, that is why you still need to cultivate yourself.</speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace"> Not only is your entire person steeped in “Sturm und Drang”, but you are also a little out-of-touch with the common sensibilities. — </speak> <!-- 阴郁气质 = "Gloomy temperament" -->
+            <show chara="planckSadCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">How can you ever find a boyfriend like this?</speak>
+            <show chara="planckSadCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="schroNormalEmClose-upSymme" position="right"/>
+            <speak chara="schroNoFace"> … </speak>
+            <show chara="schroNormalEmClose-upSymme" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">So … </speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Isn't that convincing enough as a reason for change?</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="schroNormalEmClose-upSymme" position="right"/>
+            <speak chara="schroNoFace"> … </speak>
+            <text>Schrödinger sighs helplessly.</text>
+            <speak chara="schroNoFace">Must I really say this … </speak>
+            <show chara="schroNormalAhClose-upSymme" position="right"/>
+            <speak chara="schroNoFace">Teacher, this is all about your own anxiety of being single. Isn't it getting a bit out of hand?</speak>
+            <show chara="schroNormalEmClose-upSymme" position="right" opacity="0.7"/>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace"> … </speak>
+            <show chara="planckSadCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">You meanie, that was totally not cute at all!</speak>
+            <speak chara="planckNoFace">Hmph!</speak>
+            <goto goto="20"/>
+        </scene>
+        <scene id="20" background="CG5.jpg">
+            <bgm src="street.mp3" status="continue"></bgm>
+            <text> … </text>
+            <text article="1">
+                <p class="article-text">When Welt opens his sleepy eyes once more, he sees that the driver of the Volkswagen Type 2 camper van had been replaced by a gloomy Corkscrew Ponytail.</p>
+                <p class="article-text">In the front passenger seat, a pair of long legs are propped up against the windshield; a skirt is slipping to one side in a rather ungraceful manner; and loose strands of long hair cascade down the back of the seat like a waterfall — also, the Professor happens to be snoring in a rather un-ladylike manner.</p>
+            </text>
+            <speak chara="schroNoFace">Just out of Livingston. Now we are driving south along Route 89.</speak>
+            <text>Schrödinger explains the current situation, having noticed through the rear-view mirror that someone is now awake.</text>
+            <speak chara="einNoFace">Then let's check out the situation in Yellowstone first.</speak>
+            <text> It seems that Einstein too had already awoken some time ago, peeling open her seemingly drowsy eyes.</text>
+            <speak chara="planckNoFace">Shouldn't we let those two continue to rest for a while?</speak>
+            <text>Planck speaks, with her eyes closed. It seems that she too didn't really fall asleep after all.</text>
+            <speak chara="einNoFace">This drunkard has slept long enough.</speak>
+            <shake position="all" time="250"></shake>
+            <text> Without another word, the Mophead with light-coloured hair punches the Red Twintails in the head.</text>
+            <goto goto="25" change="0"/>
+        </scene>
+        <scene id="25" background="roadMontana2.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">Ah! — Ow ow ow … </speak>
+            <sound src="Hah.mp3"/>
+            <speak chara="teslaNoFace">Can't you be a little more gentle?</speak>
+            <text>Today she puts on her glasses as soon as she wakes up. Could it be that they are actually real prescription spectacles, and not just plano glasses?</text>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="einSeriousEmWinterClose-up" position="left"/>
+            <speak chara="einNoFace">People with hangovers have no right to say anything.</speak>
+            <text>Einstein gives her a disapproving glance.</text>
+            <show chara="einNormalWinterClose-up" position="left"/>
+            <speak chara="einNoFace">Is the Finn awake too?</speak>
+            <hide position="left"/>
+            <hide position="right"/>
+            <show chara="nokiaSmileEmWinterClose-up" position="center"/>
+            <speak chara="nokiaNoFace">Joo! I raise my hand!</speak>
+            <text> A familiar frivolous voice transmits from the rear of the van. He seems quite energetic.</text>
+            <goto goto="30"/>
+        </scene>
+        <scene id="30" background="roadMontana2.jpg">
+            <bgm src="lab.mp3" status="continue"></bgm>
+            <show chara="planckSmileCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">Now that everyone is awake — </speak>
+            <speak chara="planckNoFace"> — let us begin with the basic geographical situation.</speak>
+            <show chara="planckSmileCoatClose-up" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose-up" position="left"/>
+            <speak chara="schroNoFace">Okay.</speak>
+            <show chara="schroNormalEmClose-up" position="left"/>
+            <text>Schrödinger skillfully changes gears, and slows down the van to an appropriate speed.</text>
+            <show chara="schroNormalEmClose-up" position="left" opacity="0.7"/>
+            <show chara="planckNormalCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">As you know, Yellowstone Park is the first nature reserve in human history.</speak>
+            <speak chara="planckNoFace">The core of the park is Yellowstone Lake, which is the caldera or crater formed from the main vent of the Yellowstone super-volcano. This active volcano can release huge amounts of energy — </speak>
+            <speak chara="planckNoFace">If it ever erupts, the volcanic ash it brings will reduce the average global temperature by about 10 degrees for up to a year.</speak>
+            <show chara="planckNormalCoatClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">10 degrees?</speak>
+            <text> Welt doesn't quite understand the significance of Planck's point.</text>
+            <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="planckSeriousCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">This means that, soon after the disaster, the overwhelming majority of tropical or subtropical crops will die off, resulting in failed harvests.</speak>
+            <speak chara="planckNoFace">If the response is not adequate … </speak>
+            <speak chara="planckNoFace">It is no exaggeration to say that devastating famines and plagues will spread throughout many countries.</speak>
+            <show chara="planckSeriousCoatClose-up" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">How … </speak>
+            <show chara="weltSurpriseWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="schroNormalAhClose-up" position="left"/>
+            <speak chara="schroNoFace">Relax, that's not something we should worry about in our lifetime.</speak>
+            <text>Schrödinger squints at Welt through the rear-view mirror.</text>
+            <speak chara="schroNoFace">What's more, if we happen to lose to the Honkai, these anxieties — they will all cease to have meaning anyway.</speak>
+            <show chara="schroNormalEmClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaSnickerGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">Of course, if you are a little paranoid, you can also think of the Yellowstone Volcano as part of a “Honkai Luxury Extra-Value Set Meal”, specially prepared for humanity's enjoyment.</speak>
+            <show chara="teslaSnickerGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="left"/>
+            <speak chara="weltNoFace"> … Set meal?</speak>
+            <hide position="left"/>
+            <hide position="right"/>
+            <show chara="teslaSnickerGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">The destructive nature of Honkai can manifest in a myriad ways.</speak> <!-- 五花八门 = "Five Blossoms and Eight Doors", originally used to describe the many-varied tactics of a special formation in ancient warfare, later used as a metaphor to describe "a multitude of varied and unpredictable things" --> 
+            <text>Red Twintails adopts the pose of a lecturer — </text>
+            <show chara="teslaNormalGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">The Black Death, the Ice Age, the World Wars — all of these had the shadow of Honkai within them.</speak>
+            <speak chara="teslaNoFace">Not to mention, analysis of war criminals has shown that they had often been eroded by small quantities of Honkai energy — </speak>
+            <show chara="teslaBoringGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">Indeed, there were even one or two specimens, where the Honkai energy density had reached several times the lethal dose.</speak>
+            <show chara="weltSurpriseWinterClose-up" position="center"/>
+            <speak chara="weltNoFace">Wha — </speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">Generally speaking, the metabolic circumstances of male mammals are such that they have a strong allergic response to Honkai infections — </speak>
+            <speak chara="teslaNoFace">In other words, men's adaptability to Honkai is usually very low — </speak>
+            <show chara="teslaSnickerGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">But occasionally there are exceptions.</speak>
+            <bgm src="themeEin.mp3" status="start"></bgm>
+            <speak chara="teslaNoFace">Whether it is a male war criminal, or you yourself, these are all exceptional cases.</speak>
+            <show chara="weltSurpriseWinterClose-up" position="center"/>
+            <speak chara="weltNoFace">Uh … Me?</speak>
+            <text>Welt had never thought that his name would be associated with demonic war criminals, and for a while he doesn't know how to react.</text>
+            <show chara="teslaSnickerGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">Yes. You clearly have some strange exotic property that we don't yet understand.</speak>
+            <show chara="teslaBoringGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">The organisation has conducted so many experiments on you, a point you should already be painfully aware of.</speak>
+            <show chara="weltDarkWinterClose-up" position="center"/>
+            <speak chara="weltNoFace">No, I mean … </speak>
+            <hide position="center"/>
+            <show chara="weltDarkWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose-up" position="right"/>
+            <speak chara="einNoFace">Calm down.</speak>
+            <text>The girl with the natural curls, seated in the second row, turns around and gently pats the young man's head.</text>
+            <speak chara="einNoFace">Your soul will not deteriorate.</speak>
+            <show chara="einNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltShyWinterClose-up" position="left"/>
+            <speak chara="weltNoFace"> … </speak>
+            <show chara="weltShyWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose-up" position="right"/>
+            <speak chara="einNoFace">Perhaps you have forgotten who you once were, but you are a kind and compassionate person.</speak>
+            <show chara="einNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltShyWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">A ha ha … </speak>
+            <speak chara="weltNoFace">There … there is no evidence for that, right?</speak>
+            <show chara="weltShyWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einSmileWinterClose-up" position="right"/>
+            <speak chara="einNoFace">Trust me.</speak>
+            <speak chara="einNoFace">There is indeed not much “evidence”, and I have only my intuition to depend upon here … </speak>
+            <speak chara="einNoFace"> … But please, trust in me.</speak>
+            <hide position="left"/>
+            <hide position="right"/>
+            <show chara="einSmileWinterClose-up" position="center"/>
+            <text>Einstein's eyes are warm but resolute.</text>
+            <bgm src="lab.mp3" status="start"></bgm>
+            <show chara="planckSlyCoatClose-up" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="planckNoFace">Ahem.</speak>
+            <show chara="planckSmileCoatClose-up" position="center"/>
+            <speak chara="planckNoFace">All right, all right.</speak>
+            <speak chara="planckNoFace">Let's get back to the main topic, shall we? We're here to get down to business, ja? Very interesting business, ja.</speak>
+            <goto goto="40"/>
+        </scene>
+        <scene id="40" background="roadMontana3.jpg">
+            <bgm src="lab.mp3" status="continue"></bgm>
+            <show chara="planckSeriousCoatClose-up" position="right"/>
+            <speak chara="planckNoFace" remark="next"> … Finally, no carbon-14 could be detected in this sample.</speak>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text"> Carbon-14 is a radioactive isotope of carbon with a half-life of approximately 5730 years.</p>
+                <p class="article-text">That is to say, for a sample that has ceased to have any biological activity, the carbon-14 content within it will be reduced by half for every 5730 years — it will continue to decline at this rate until even sophisticated instruments can no longer detect its presence.</p>
+            </remark>
+            <speak chara="planckNoFace">From this comprehensive assessment, the last human activity in the ruins would have taken place at around 50,000 BC, with a margin of error of no more than 1,000 years.</speak>
+            <show chara="planckSmileCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">That is all.</speak>
+            <show chara="planckSmileCoatClose-up" position="right" opacity="0.7"/>
+            <show chara="nokiaSmileAhWinterClose-upSymme" position="left"/>
+            <speak chara="nokiaNoFace">It's still incredible … </speak>
+            <text>The Finn clasps his hands together, sinking into deep contemplation.</text>
+            <show chara="nokiaSmileEmWinterClose-upSymme" position="left"/>
+            <speak chara="nokiaNoFace"> … I did not expect that, during the era of the Previous Civilisation, human activity was already present in North America.</speak>
+            <show chara="nokiaSmileEmWinterClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="planckSmileCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">It's analogous to us having research stations in Antarctica.</speak>
+            <show chara="planckSlyCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">And it does not contradict our current understanding of the Previous Era.</speak>
+            <text>Planck absent-mindedly plays with her long hair, as if in deliberate imitation of Schrödinger from before.</text>
+            <show chara="planckSlyCoatClose-up" position="right" opacity="0.7"/>
+            <show chara="nokiaSeriousEmWinterClose-upSymme" position="left"/>
+            <speak chara="nokiaNoFace">No … </speak>
+            <show chara="nokiaSmileAhWinterClose-upSymme" position="left"/>
+            <speak chara="nokiaNoFace">The scale of this is comparable to archaeological ruins in the Old World … things may not be as simple as you say.</speak>
+            <text>The Finn continues to prop up his chin with his clasped hands.</text>
+            <text>Where did this wannabe Sherlock Holmes fan come from?</text>
+            <show chara="weltSurpriseWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">That … </speak>
+            <text> Welt, who long ago had been scratching his head in confusion, now raises his hand.</text>
+            <speak chara="weltNoFace">That “Previous Era” you speak of — </speak>
+            <speak chara="weltNoFace"> — What is it exactly?</speak>
+            <show chara="weltSurpriseWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="planckNormalCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">Mmm … Now we're at … </speak>
+            <show chara="planckSlyCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">Ah, no, we haven't arrived at Gardiner yet.</speak>
+            <text>Professor Long-hair studies the signs along the highway.</text>
+            <show chara="planckSmileCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">It's okay, we're still early. You lot can continue to pass the time. Pick one from among yourselves to give him a primer on the subject.</speak>
+            <show chara="nokiaSmileEmWinterClose-up" position="right"/>
+            <speak chara="nokiaNoFace">Then let me explain.</speak>
+            <text>As an expert in ancient literature, the Finn simply could not refuse the offer.</text>
+            <show chara="nokiaSmileAhWinterClose-up" position="right"/>
+            <speak chara="nokiaNoFace">The “Previous Era”, as its name implies, was a scientifically- and technologically-advanced civilisation that once flourished on Earth, long before the beginning of our own history.</speak>
+            <speak chara="nokiaNoFace" remark="next">This civilisation could be traced back to the Astrakhan archaeological site number 3, from around 53,000 BC.</speak>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">Astrakhan is located on the shores of the Caspian Sea. It is the last great city through which the Volga River flows. It is distributed on more than a dozen islands connected by bridges. The city was founded in the 13th Century by the Golden Horde, and formed an independent Astrakhan Khanate from 1460-1556, before being annexed by the Grand Duchy of Moscow.</p>
+                <p class="article-text">The local specialty is watermelon.</p>
+            </remark>
+            <speak chara="nokiaNoFace"> It was characterised by a common culture, and covered an enormous region, ranging from the Sea of Japan to the Mediterranean, from the Baltic Sea to the Persian Gulf.</speak>
+            <show chara="nokiaSmileEmWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">Were they also humans?</speak>
+            <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="nokiaSmileAhWinterClose-up" position="right"/>
+            <speak chara="nokiaNoFace">Haha, of course. They would have been the first “Homo sapiens” to “step out of Africa” — </speak>
+            <speak chara="nokiaNoFace">Having said that, their model of civilisation was still very different from ours.</speak>
+            <show chara="nokiaSmileEmWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="left"/>
+            <speak chara="weltNoFace"> … Do you mean differences in lifestyle, customs, or art?</speak>
+            <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="nokiaSmileAhWinterClose-up" position="right"/>
+            <speak chara="nokiaNoFace">Hahahaha, no, not so. Rather, we are unexpectedly similar in many of those aspects.</speak>
+            <speak chara="nokiaNoFace">The so-called model I just mentioned is mainly referring to the duration and diversity of civilisation.</speak>
+            <speak chara="nokiaNoFace"> For example, our civilisation today can be traced back to a few regions, such as the Middle East, as early as 4000 BC; </speak>
+            <speak chara="nokiaNoFace">Since then, after nearly 6,000 years of propagation and expansion, we have finally formed a civilised society covering the entire globe. </speak>
+            <speak chara="nokiaNoFace">We have countless different nations, countless languages, countless cultures. We have a very diverse civilisation.</speak>
+            <show chara="nokiaSmileEmWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">Wasn't it the same for the “Previous Era”??</speak>
+            <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="nokiaSmileAhWinterClose-up" position="right"/>
+            <speak chara="nokiaNoFace">No, they were different. Their “entire world” had a unified language and technological system.</speak>
+            <speak chara="nokiaNoFace">In our world, although the Greco-Roman, British and American cultures have been very influential, they remain far from reaching that level of hegemony.</speak>
+            <show chara="nokiaSmileEmWinterClose-up" position="right"/>
+            <speak chara="nokiaNoFace">If we were to find a better comparison, the manner of unity is more like that of ancient East Asia — where every other nation around China uses Han Chinese characters in some form or another.</speak> <!-- 大家都用汉字; Han Chinese characters (汉字 or 漢字) are almost identical to Japanese Kanji, Korean Hanja, and Vietnamese Hán tự. -->
+            <show chara="nokiaSmileEmWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">So you're saying … their cultural diversity was very low?</speak>
+            <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousAhWinterClose-up" position="right"/>
+            <speak chara="nokiaNoFace">Mm-hmm. Moreover, they seem to have preserved the entire American continent in a pristine, uninhabited state, just like how we are now protecting Antarctica.</speak>
+            <speak chara="nokiaNoFace">To put it simply, it's almost as if this land was not their primary source of economic resources.</speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">They may have started using Honkai energy on a large scale, very early on.</speak>
+            <show chara="teslaBoringGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">If that were the case, then it doesn't make sense to settle in an area lacking in Honkai energy.</speak>
+            <speak chara="teslaNoFace">Just like how the metropolises of today are often situated close to sea ports, river ports, and railway hubs.</speak>
+            <show chara="teslaBoringGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">Isn't Honkai a shockwave- or radiation-like thing?</speak>
+            <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaSnickerGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">Hahahaha, lightning can be used to blast people to bits, yet electricity can also illuminate!</speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">The same is true for Honkai energy.</speak>
+            <show chara="teslaBoringGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">From a physics perspective, Honkai energy — or so-called “imaginary internal energy” — </speak>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">Oh, even if I put it like that, you won't ever understand. What a headache.</speak>
+            <show chara="einSmileWinterClose-up" position="right"/>
+            <speak chara="einNoFace">“Imaginary internal energy” is a hypothesis about the phenomenon of Honkai and the Big Bang.</speak>
+            <text>Einstein seemed uncharacteristically delighted to take over the explanation — </text>
+            <hide position="left"/>
+            <hide position="right"/>
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <show chara="einBlackWinterClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);">The second law of thermodynamics can be formulated as follows: if the entropy of a system decreases, it will inevitably cause the entropy of another system to rise by a greater margin. From the perspective of information theory, this is equivalent to the huge information asymmetry between the ordinary environment where information is highly chaotic, and the negative entropic environment where information is highly ordered. Historically, research has shown that Honkai energy and this information asymmetry have a strong inter-relationship. Mathematically, the imaginary internal energy belongs to the collapsing, convergent manifold, while the so-called divergent manifold — that is, the four-dimensional space-time that we can usually perceive — contains the thermodynamic manifestation of the “real internal energy”; together these can be mathematically-expressed as a higher-order complex function, and as a result it can be used to predict Honkai fluctuations at the sub-atomic scale. Therefore, current researchers generally suspect that this “imaginary internal energy” is Honkai energy, or at least a major constituent of it.</p>
+            </text>
+            <show chara="einSmileWinterClose-up" position="center"/>
+            <speak chara="einNoFace"> How about that, do you understand a bit more now, Assistant Welt?</speak>
+            <show chara="weltDarkWinterClose-up" position="center"/>
+            <speak chara="weltNoFace"> … </speak>
+            <show chara="weltShameWinterClose-up" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="weltNoFace">I understood jack-all!</speak>
+            <goto goto="50"/>
+        </scene>
+        <scene id="50" background="hotSpring.jpg">
+            <bgm src="street.mp3" status="start"></bgm>
+            <text article="1">
+                <p class="article-text"> Passing under the Roosevelt Arch, which is engraved with the words “For the Benefit and Enjoyment of the People”, the Volkswagen Type 2 camper van enters Wyoming along Route 89. The scholars enthusiastically discuss all manner of technical details — Welt, who barely understood even the most elementary of such details, can do nothing more than admire the scenery of the national park instead.</p>
+            </text>
+            <text>Mammoth Hot Springs … </text>
+            <text>Swan Lake … </text>
+            <text>Roaring Mountain … </text>
+            <text>Firehole River … </text>
+            <text>Americans sure have a quirky way of naming things, and their taste for scenic place names is no less peculiar.</text>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Welt, what time is it now?</speak>
+            <text>Planck, who had switched back to the driver's seat, suddenly seems to remember something, and presses Welt for the time.</text>
+            <show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">Give me a moment … </speak>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="center"/>
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <text>The young man, lacking a wristwatch, twists his body to grab the wrist of one of the girls in front of him.</text>
+            <show chara="weltNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaAngryGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">OI OI OI, DO YOU CHOOSE DEATH!?</speak>
+            <show chara="teslaAngryGlassWinterClose-up" position="center" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="right"/>
+            <text>Turning a deaf ear to Tesla's protests, Welt desperately puts his life on the line, and focuses his eyes on that small round surface — </text>
+            <speak chara="weltNoFace">Report for the Professor, it is ten-fo-fo-fo-forty-three — </speak>
+            <hide position="left"/>
+            <hide position="right"/>
+            <show chara="teslaAngryGlassWinterClose-up" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace">PISS OFF!</speak>
+            <goto goto="52" change="0"/>
+        </scene>
+        <scene id="52" background="black">
+            <bgm src="themeTesla.mp3" status="continue"></bgm>
+            <sound src="hit man.mp3"/>
+            <speak chara="weltNoFace">AAAAAAAAAHHHHHH!!!!!!!!!!!!!!!!!!!!</speak>
+            <text>With a complete lack of restraint, Tesla flips her hand, and strikes with her elbow with such force that she even dislodges her own glasses.</text>
+            <text>At once, a tragic mournful howl resonates throughout the entire van.</text> <!-- 惨绝人寰 = "tragic and miserable on an unprecedented scale" -->
+            <goto goto="53" change="0"/>
+        </scene>
+        <scene id="53" background="hotSpring.jpg">
+            <bgm src="street.mp3" status="start"></bgm>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Ha ha ha ha … </speak>
+            <speak chara="planckNoFace">Anyway, looks like we need to catch up!</speak>
+            <text>The Long-haired Big Sister violently changes gear, and immediately slams on the accelerator — </text>
+            <goto goto="54" change="0"/>
+        </scene>
+        <scene id="54" background="hotSpring2.jpg">
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">Those who are here for the first time, please look to your right!</speak>
+            <hide position="left"/>
+            <text>The camper suddenly lurches forward, first bypassing several sapphire-coloured springs, then crossing over a large bridge — </text>
+            <text>Then it turns off the main highway, and rushes up a relatively gentle slope — </text>
+            <text>Only to immediately perform a sharp brake with a 90-degree drift.</text> <!-- PURANKU DORIFTO! -->
+            <show chara="weltShameWinterClose-up" position="center"/> 
+            <speak chara="weltNoFace">AAARRRGGGHHH WE'RE GOING TO CRASH!! SAVE US!!</speak>
+            <text> And right at this moment, with Welt still in a state of shock — </text>
+            <goto goto="55" change="0"/> 
+        </scene>
+        <scene id="55" background="white">
+            <bgm src="lab.mp3" status="stop"></bgm>
+            <sound src="9_11_spring.mp3"/>
+            <text article="1">
+                <p class="article-text">Phwoah!</p>
+            </text>
+            <text article="1">
+                <p class="article-text">A huge column of water, about 30 to 40 metres tall, shoots high into the air from a basin behind the hillside, spewing out a large quantity of white mist, much like a volcanic eruption.</p>
+            </text>
+            <goto goto="60"/>
+        </scene>
+        <scene id="60" background="CG5_2.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <speak chara="teslaNoFace" remark="next">The Old Faithful geyser!</speak>
+            <remark post="U2FsdGVkX18n4C50htMsi6EoUNdz">
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">The Old Faithful is the most popular geyser in the world. The volume of each spray is between 3700 gallons and 8400 gallons, and the water temperature is about 95°C.</p>
+                <p class="article-text">“Old Faithful is sometimes degraded by being made a laundry. Garments placed in the crater during quiescence are ejected thoroughly washed when the eruption takes place. Gen. Sheridan's men, in 1882, found that linen and cotton fabrics were uninjured by the action of the water, but woolen clothes were torn to shreds.” (Translator's note: taken from “The Yellowstone National Park — A Manual for Tourists” by Henry Winser, 1883 — as cited in the Old Faithful Wikipedia article.)</p>
+            </remark>
+            <speak chara="teslaNoFace">What a coincidence that we can actually see it!</speak>
+            <speak chara="nokiaNoFace">Oh my, oh my, we've definitely hit the jackpot.</speak>
+            <speak chara="einNoFace"> … Winter is indeed much more spectacular than summer.</speak>
+            <speak chara="planckNoFace">Although this attraction is named “Old Faithful” because it is very punctual, it actually has two intervals!</speak>
+            <speak chara="planckNoFace">65 minutes and 91 minutes — the exact interval is said to depend on the size of each eruption.</speak>
+            <speak chara="weltNoFace">Eh … then we — </speak>
+            <speak chara="planckNoFace">So how about that, aren't we all very lucky today?</speak>
+            <speak chara="schroNoFace"> … Professor, please stop being a tease. This was no dumb luck.</speak>
+            <speak chara="schroNoFace">Especially given that the park forecasts and updates the eruption times every day.</speak>
+            <speak chara="planckNoFace"> … </speak>
+            <speak chara="planckNoFace">Schrödinger … Always, no matter the situation, you just say something, anything, and all sense of mystery and wonder is dispelled … </speak>
+            <speak chara="schroNoFace">Thank you. That is indeed my strength.</speak>
+            <end post="U2FsdGVkX18hpl2iS7jGFPVPBmAW"/>
+        </scene>
+    </story>
+</data>
