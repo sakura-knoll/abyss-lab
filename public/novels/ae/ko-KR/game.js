@@ -42,6 +42,35 @@ uiImageList.push(
   'thanks.png'
 )
 
+function tryAudio(pauseOrPlay, indexOrInner, countNumber) {
+  var audio
+  if (indexOrInner == 0) audio = $('#indexbgm')[0]
+  else audio = $('#bgm')[0] //选择控件
+  if (pauseOrPlay == 0) {
+    audio.pause()
+    if (!isNaN(audio.duration)) audio.currentTime = 0
+    if (indexOrInner == 0) indexAudioPlayingflag = false
+    else innerAudioPlayingflag = false
+    return //暂停，立即执行
+  }
+  if (countNumber != 0) {
+    if (indexOrInner == 0 && indexAudioPlayingflag == false) return
+    if (indexOrInner == 1 && innerAudioPlayingflag == false) return
+  } else {
+    if (indexOrInner == 0) indexAudioPlayingflag = true
+    else innerAudioPlayingflag = true
+  }
+  audio.load()
+  if (!isNaN(audio.duration)) audio.currentTime = 0
+  $(audio).one('canplay', function () {
+    this.play().catch(function () {
+      setTimeout(function () {
+        tryAudio(1, indexOrInner, countNumber + 1)
+      }, 100)
+    })
+  })
+}
+
 //------------------------------------------------------
 $(function () {
   loadExistXmlFile('date_url', function () {
@@ -59,26 +88,7 @@ $(function () {
   })
   check_size()
 
-  function play() {
-    var bgm = $('#indexbgm')[0]
-    if (!isNaN(bgm.duration)) bgm.currentTime = 0
-
-    bgm.play() //main bgm
-
-    window.removeEventListener('click', play)
-  }
-
-  window.addEventListener('click', play)
-  // pv("gameStart_Menu");
-  // if (GetQueryString("from") == "wx") {
-  //     pv("gameStart_Menu_WX");
-  // } else if (GetQueryString("from") == "bh3") {
-  //     pv("gameStart_Menu_BH3");
-  // } else if (GetQueryString("from") == "ipz") {
-  //     pv("gameStart_Menu_IPZ");
-  // } else if (GetQueryString("from") == "cd") {
-  //     pv("gameStart_Menu_CD");
-  // }
+  tryAudio(1, 0, 0)
 })
 
 window.onresize = function () {
