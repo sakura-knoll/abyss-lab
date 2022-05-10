@@ -662,7 +662,7 @@
                 return { cid: t }
               },
               onLoadFail: function () {
-                v.$toast({ content: v.$MI18N.WORD.progressEmpty })
+                v.$toast({ content: i18n.loadFail })
               },
               beforeLoad: function (e) {
                 if (e && e.cid !== t) {
@@ -689,7 +689,7 @@
                   return (
                     h.destroy(),
                     d.closeGal(f),
-                    void v.$toast({ content: v.$MI18N.WORD.sceneNotExist })
+                    void v.$toast({ content: i18n.noScene })
                   )
                 var i = _.find(d.novelData.chapters, function (e) {
                   return e.id === t
@@ -988,11 +988,11 @@
                     [
                       e.initialized
                         ? [
-                            n('p', [e._v(e._s(e.$MI18N.WORD.wifi))]),
+                            n('p', [e._v(e._s(i18n.wifi))]),
                             e._v(' '),
                             n('span', [
                               e._v(
-                                e._s(e.$MI18N.WORD.loading) +
+                                e._s(i18n.loading) +
                                   ' ' +
                                   e._s(
                                     e.loadingProgress
@@ -1005,17 +1005,14 @@
                             n('p', [
                               e._v(
                                 '\n          ' +
-                                  e._s(e.$MI18N.WORD['fictional-1']) +
+                                  e._s(i18n.fictional1) +
                                   '\n          '
                               ),
                               n('br'),
-                              e._v(
-                                e._s(e.$MI18N.WORD['fictional-2']) +
-                                  '\n        '
-                              ),
+                              e._v(e._s(i18n.fictional2) + '\n        '),
                             ]),
                           ]
-                        : n('p', [e._v(e._s(e.$MI18N.WORD.loading))]),
+                        : n('p', [e._v(e._s(i18n.loading))]),
                     ],
                     2
                   ),
@@ -1095,7 +1092,7 @@
             n(
               'div',
               { staticClass: 'main-menu__item', on: { click: e.start } },
-              [n('span', [e._v(e._s(e.startReadingText))])]
+              [n('span', [e._v(e._s(i18n.start))])]
             ),
             e._v(' '),
             e.hasSaveData
@@ -1105,7 +1102,7 @@
                     staticClass: 'main-menu__item',
                     on: { click: e.continueRead },
                   },
-                  [n('span', [e._v(e._s(e.$MI18N.WORD.continueRead))])]
+                  [n('span', [e._v(e._s(i18n.continue))])]
                 )
               : e._e(),
             e._v(' '),
@@ -1114,7 +1111,7 @@
               { staticClass: 'main-menu__item' },
               [
                 n('router-link', { attrs: { to: '/chapterList' } }, [
-                  e._v(e._s(e.$MI18N.WORD.chapterList)),
+                  e._v(e._s(i18n.chapters)),
                 ]),
               ],
               1
@@ -1125,23 +1122,8 @@
               { staticClass: 'main-menu__item' },
               [
                 n('router-link', { attrs: { to: '/cg' } }, [
-                  e._v(e._s(e.$MI18N.WORD.cg)),
+                  e._v(e._s(i18n.gallery)),
                 ]),
-              ],
-              1
-            ),
-            e._v(' '),
-            n(
-              'div',
-              { staticClass: 'main-menu__item' },
-              [
-                e.novelData.is_login
-                  ? n('router-link', { attrs: { to: '/archive' } }, [
-                      e._v(e._s(e.$MI18N.WORD.archive)),
-                    ])
-                  : n('span', { on: { click: e.needLogin } }, [
-                      e._v(e._s(e.$MI18N.WORD.archive)),
-                    ]),
               ],
               1
             ),
@@ -2204,6 +2186,7 @@
     var b,
       y = {
         install: function (e) {
+          return // Block unnecessary i18n installation
           var t = this,
             n =
               arguments.length > 1 && void 0 !== arguments[1]
@@ -2573,7 +2556,7 @@
   91: function (e, t, n) {
     'use strict'
     Object.defineProperty(t, '__esModule', { value: !0 })
-    ;(t.environment = 'production'), (t.apiBase = '/novels/7s/en-US/')
+    ;(t.environment = 'production'), (t.apiBase = consts.apiBase)
   },
   92: function (e, t, n) {
     'use strict'
@@ -2638,9 +2621,7 @@
             return this.novelData && '1' === this.novelData.is_finished
           },
           startReadingText: function () {
-            return this.novelFinished
-              ? this.$MI18N.WORD.fromBeginning
-              : this.$MI18N.WORD.latestChapter
+            return i18n.start
           },
         },
         data: function () {
@@ -2661,6 +2642,7 @@
             var e = this,
               t = this.getNew()
             this.createGal(t.chapter, t.sceneId, void 0, !1, function () {
+              console.log(e.getSaveData(), 'save data')
               e.hasSaveData = e.getSaveData()
             })
           },
@@ -2678,38 +2660,56 @@
               },
               'asc'
             )
-            if ('1' === this.novelData.is_finished) {
-              var t = _.first(e),
-                n = _.get(t, 'parts')
-              return {
-                chapter: t,
-                sceneId: _.get(
-                  _.first(
-                    _.orderBy(
-                      n,
-                      function (e) {
-                        return Number(e.order)
-                      },
-                      'asc'
-                    )
-                  ),
-                  'scene_id'
+            // Load first always
+            var t = _.first(e),
+              n = _.get(t, 'parts')
+            return {
+              chapter: t,
+              sceneId: _.get(
+                _.first(
+                  _.orderBy(
+                    n,
+                    function (e) {
+                      return Number(e.order)
+                    },
+                    'asc'
+                  )
                 ),
-              }
-            }
-            var r = _.last(e),
-              i = _.get(r, 'parts'),
-              a = _.orderBy(
-                _.filter(i, function (e) {
-                  return 1 === Number(e.is_newest)
-                }),
-                function (e) {
-                  return Number(e.order)
-                },
-                'asc'
+                'scene_id'
               ),
-              o = _.last(a)
-            return { chapter: r, sceneId: o ? o.scene_id : void 0 }
+            }
+            // if ('1' === this.novelData.is_finished) {
+            //   var t = _.first(e),
+            //     n = _.get(t, 'parts')
+            //   return {
+            //     chapter: t,
+            //     sceneId: _.get(
+            //       _.first(
+            //         _.orderBy(
+            //           n,
+            //           function (e) {
+            //             return Number(e.order)
+            //           },
+            //           'asc'
+            //         )
+            //       ),
+            //       'scene_id'
+            //     ),
+            //   }
+            // }
+            // var r = _.last(e),
+            //   i = _.get(r, 'parts'),
+            //   a = _.orderBy(
+            //     _.filter(i, function (e) {
+            //       return 1 === Number(e.is_newest)
+            //     }),
+            //     function (e) {
+            //       return Number(e.order)
+            //     },
+            //     'asc'
+            //   ),
+            //   o = _.last(a)
+            // return { chapter: r, sceneId: o ? o.scene_id : void 0 }
           },
           getSaveData: function () {
             return a.default.readAutoSaveData('gal_' + o.NOVEL_NAME)
