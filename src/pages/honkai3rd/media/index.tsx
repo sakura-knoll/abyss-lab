@@ -41,6 +41,11 @@ const MediaPage = () => {
             </Link>
           </Box>
           <Box as='li'>
+            <Link href={'/honkai3rd/novels/7s'} target='_blank'>
+              🇺🇸 Seven Swords (WIP)
+            </Link>
+          </Box>
+          <Box as='li'>
             <Link href={'/ko-KR/honkai3rd/novels/ae'} target='_blank'>
               🇰🇷 네겐트로피 Beta(작업중)
             </Link>
@@ -48,6 +53,11 @@ const MediaPage = () => {
           <Box as='li'>
             <Link href={'/ko-KR/honkai3rd/novels/duriduri'} target='_blank'>
               🇰🇷 듀란달 Beta(작업중)
+            </Link>
+          </Box>
+          <Box as='li'>
+            <Link href={'/ko-KR/honkai3rd/novels/7s'} target='_blank'>
+              🇰🇷 신주절검록 (작업중)
             </Link>
           </Box>
         </Box>
