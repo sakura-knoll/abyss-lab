@@ -1,0 +1,951 @@
+/*! Copyright © 2011 - 2022 miHoYo. All Rights Reserved */
+.home {
+  position: relative;
+  height: 100%;
+  background: url(/novels/7s/en-US/bg.png) 50% 50% no-repeat;
+  background-size: cover;
+}
+.home .avg-button-back {
+  top: 0.2rem;
+  left: 0.4rem;
+  right: auto;
+}
+.main-menu {
+  position: absolute;
+  right: 2.7rem;
+  top: 3.65rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.main-menu__item {
+  padding: 0.36rem 0 0;
+  position: relative;
+}
+.main-menu__item:after {
+  content: '';
+  position: absolute;
+  bottom: -0.01rem;
+  left: 50%;
+  margin-left: 0.3rem;
+  width: 4.81rem;
+  height: 0.05rem;
+  background: url(/novels/7s/common/menu-border.png) bottom no-repeat;
+  background-size: contain;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+}
+.main-menu__item a,
+.main-menu__item span {
+  display: block;
+  font-size: 0.48rem;
+  padding-top: 0.1rem;
+  text-align: center;
+  width: 3.83rem;
+  height: 0.87rem;
+  cursor: pointer;
+  color: #43261f;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-menu__item a:active,
+.main-menu__item span:active {
+  background-image: url(https://webstatic-sea.mihoyo.com/bh3/event/mihoyo-bh3-novel-7swords-ja-fe/images/hover.127a7376.png);
+  color: #fff;
+}
+.pager__btn {
+  cursor: pointer;
+  width: 0.62rem;
+  height: 0.67rem;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-image: url(/novels/7s/common/arrow.png);
+  background-size: cover;
+}
+.pager__prev {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.pager__btn--disabled {
+  background-image: url(/novels/7s/common/arrow-disabled.png);
+}
+.chapter {
+  position: relative;
+  padding-top: 1.2rem;
+  padding-left: 1.08rem;
+  width: 13.65rem;
+  height: 3.65rem;
+  background: url(https://webstatic-sea.mihoyo.com/bh3/event/mihoyo-bh3-novel-7swords-ja-fe/images/chapter.c1b4c90c.png)
+    50% 50% no-repeat;
+  background-size: cover;
+}
+.chapter__title {
+  position: absolute;
+  top: 0.65rem;
+  left: 1.6rem;
+  font-size: 0.3rem;
+  font-weight: 700;
+  color: #9d720a;
+}
+.chapter__wrapper {
+  position: relative;
+}
+.chapter__scene-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  padding-top: 0.15rem;
+  margin: 0 0.8rem;
+}
+.chapter__scene-list ul {
+  padding: 0 0.13rem;
+  white-space: nowrap;
+  height: 0.73rem;
+}
+.chapter__scene-list .pager {
+  position: absolute;
+}
+.chapter__scene {
+  width: 2rem;
+  height: 0.73rem;
+  font-size: 0.24rem;
+  font-weight: 700;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+.chapter__scene span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  z-index: 10;
+  height: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 0.05rem;
+}
+.chapter__scene--selected span {
+  color: #fff;
+}
+.chapter__scene--selected:after {
+  content: '';
+  width: 2.26rem;
+  height: 0.73rem;
+  background: url(/novels/7s/common/chapter-selected.png) 50% 50% no-repeat;
+  background-size: cover;
+  display: block;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  top: 0;
+  z-index: 5;
+}
+.chapter__scene + .chapter__scene:before {
+  content: '';
+  width: 0.04rem;
+  height: 0.46rem;
+  background: url(/novels/7s/common/scene-bar.png) 50% 50% no-repeat;
+  background-size: cover;
+  display: block;
+  position: absolute;
+  left: -0.02rem;
+  top: 0.08rem;
+  z-index: 0;
+}
+.chapter__desc {
+  padding: 0.24rem 0.36rem 0.3rem;
+  font-size: 0.24rem;
+  line-height: 0.48rem;
+  font-weight: 700;
+  width: 9.5rem;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+.chapter__read {
+  position: absolute;
+  width: 2.09rem;
+  height: 0.65rem;
+  background: url(/novels/7s/en-US/chapter-load.png) 50% 50% no-repeat;
+  background-size: cover;
+  right: 0.8rem;
+  bottom: 0.3rem;
+  cursor: pointer;
+}
+.chapter__pager.pager {
+  position: absolute;
+  top: 0.22rem;
+  left: 0;
+  width: 100%;
+}
+.chapter__pager.pager .pager__btn {
+  position: absolute;
+  width: 0.44rem;
+  height: 0.47rem;
+}
+.chapter__pager.pager .pager__prev {
+  left: 0.4rem;
+}
+.chapter__pager.pager .pager__next {
+  right: 0.4rem;
+}
+.chapter-list {
+  height: 100%;
+  background: url(/novels/7s/en-US/chapter-bg.png) 50% 50% no-repeat;
+  background-size: cover;
+}
+.chapter-list__content {
+  padding-top: 1.5rem;
+  padding-left: 2.45rem;
+}
+.chapter-list__content .chapter + .chapter {
+  margin-top: 0.1rem;
+}
+.chapter-list__pager.pager {
+  position: absolute;
+  left: 0;
+  bottom: 0.55rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.chapter-list__pager.pager .pager__prev {
+  margin-right: 2.5rem;
+}
+.chapter-list__pager.pager .pager__next {
+  margin-left: 2.5rem;
+}
+.archive {
+  height: 100%;
+  background: url(https://webstatic-sea.mihoyo.com/bh3/event/mihoyo-bh3-novel-7swords-ja-fe/images/bg.37447077.jpg)
+    50% 50% no-repeat;
+  background-size: cover;
+}
+.archive__back {
+  width: 2.56rem;
+  height: 0.75rem;
+  background: url(https://webstatic-sea.mihoyo.com/bh3/event/mihoyo-bh3-novel-7swords-ja-fe/images/back.1e8d18de.png)
+    50% 50% no-repeat;
+  background-size: cover;
+  left: 10.3rem;
+  bottom: 0.7rem;
+}
+.archive__back,
+.archive__ex {
+  position: absolute;
+  z-index: 1010;
+}
+.archive__ex {
+  width: 3.89rem;
+  height: 3.32rem;
+  background: url(https://webstatic-sea.mihoyo.com/bh3/event/mihoyo-bh3-novel-7swords-ja-fe/images/ex.b50bfdbf.png)
+    50% 50% no-repeat;
+  background-size: cover;
+  left: 9.75rem;
+  top: 1.62rem;
+  cursor: pointer;
+}
+.archive__content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+.archive__intro {
+  position: absolute;
+  width: 11.1rem;
+  left: 2.8rem;
+  top: 5.2rem;
+  height: 3.2rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 10;
+}
+.archive__text {
+  font-size: 0.3rem;
+  line-height: 0.64rem;
+  color: #43261f;
+  position: relative;
+  padding: 0 0.5rem 0 1rem;
+  min-height: 0.64rem;
+  background-size: 12.05rem 0.63rem;
+}
+.archive__chara {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  z-index: 0;
+}
+.archive__menu-wrp {
+  position: absolute;
+  left: 0.3rem;
+  top: 3.8rem;
+  z-index: 20;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.archive__menu {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  z-index: 10;
+}
+.archive__menu-item {
+  font-size: 0.36rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.9rem;
+  height: 0.9rem;
+  width: 2.15rem;
+  cursor: pointer;
+  position: relative;
+}
+.archive__menu-item:after {
+  content: '';
+  width: 2.15rem;
+  height: 2px;
+  background: url(/novels/7s/common/menu-border.png) 50% 50% no-repeat;
+  background-size: contain;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+.archive__menu-item--selected {
+  color: #e99c47;
+}
+.archive .pager {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 4.5rem;
+  z-index: 0;
+}
+.archive .pager .pager__next,
+.archive .pager .pager__prev {
+  position: absolute;
+  left: 50%;
+  margin-left: -0.31rem;
+}
+.archive .pager .pager__prev {
+  top: -0.8rem;
+  -webkit-transform: rotate(90deg) scaleX(-1);
+  -ms-transform: rotate(90deg) scaleX(-1);
+  transform: rotate(90deg) scaleX(-1);
+}
+.archive .pager .pager__next {
+  bottom: -1rem;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.cg-list {
+  height: 100%;
+  background: url(https://webstatic-sea.mihoyo.com/bh3/event/mihoyo-bh3-novel-7swords-ja-fe/images/bg.1d8179cb.jpg)
+    50% 50% no-repeat;
+  background-size: cover;
+}
+.cg-list .gal-collection-container {
+  background-color: transparent;
+  z-index: 1000;
+}
+.cg-list .gal-collection-container .gal-collection-close {
+  width: 1.54rem;
+  height: 1.81rem;
+  background: url(/novels/7s/common/close.png) 50% 50% no-repeat;
+  background-size: cover;
+  right: 0.4rem;
+  top: 0.4rem;
+  cursor: pointer;
+}
+.cg-list .gal-collection-container .gal-collection-close:active {
+  opacity: 0.9;
+}
+.cg-list .gal-collection-container .gal-collection-view {
+  width: 12.5rem;
+  padding: 0;
+  margin-top: 2.1rem;
+  margin-left: 3.5rem;
+}
+.cg-list .gal-collection-container .gal-collection-pager {
+  bottom: 0.55rem;
+  margin: 0;
+}
+.cg-list .gal-collection-container .gal-collection-pager-btn {
+  width: 0.62rem;
+  height: 0.67rem;
+  cursor: pointer;
+}
+.cg-list .gal-collection-container .gal-collection-pager-prev {
+  background-image: url(/novels/7s/common/arrow.png);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  margin-right: 2.5rem;
+}
+.cg-list .gal-collection-container .gal-collection-pager-next {
+  background-image: url(/novels/7s/common/arrow.png);
+  margin-left: 2.5rem;
+}
+.cg-list .gal-collection-container .gal-collection-pager-disabled {
+  cursor: default;
+  opacity: 1;
+  background-image: url(/novels/7s/common/arrow-disabled.png);
+}
+.cg-list .gal-collection-container .gal-collection-list li {
+  padding: 0.15rem 0.36rem;
+}
+.cg-list .gal-collection-container .gal-collection-preview {
+  background-color: #000;
+}
+.cg-list .gal-collection-container .gal-collection-image {
+  -webkit-animation: none;
+  animation: none;
+}
+.cg-list #cg {
+  height: 100%;
+}
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+main {
+  display: block;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+hr {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+a {
+  background-color: transparent;
+}
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+img {
+  border-style: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+[type='button'],
+[type='reset'],
+[type='submit'],
+button {
+  -webkit-appearance: button;
+}
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner,
+button::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring,
+button:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+legend {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+progress {
+  vertical-align: baseline;
+}
+textarea {
+  overflow: auto;
+}
+[type='checkbox'],
+[type='radio'] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
+  height: auto;
+}
+[type='search'] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type='search']::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+details {
+  display: block;
+}
+summary {
+  display: list-item;
+}
+[hidden],
+template {
+  display: none;
+}
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: #000;
+  color: #333;
+  font-family: Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, Arial, sans-serif;
+}
+* {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-overflow-scrolling: touch;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+li,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+#frame {
+  visibility: hidden;
+  left: 0 !important;
+  right: 0;
+  margin: auto;
+}
+.avg-button-back {
+  position: absolute;
+  width: 1.54rem;
+  height: 1.81rem;
+  background: url(/novels/7s/common/close.png) 50% 50% no-repeat;
+  background-size: cover;
+  right: 0.4rem;
+  top: 0.4rem;
+  z-index: 1010;
+}
+.avg-button:active {
+  opacity: 0.9;
+}
+#loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  z-index: 9999;
+  font-size: 0.32rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#loading .loading-spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#loading .loading-spinner p {
+  text-align: center;
+  line-height: 0.48rem;
+  margin-bottom: 0.2rem;
+}
+#loading .loading-spinner span {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+#gal {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #333;
+  z-index: 2000;
+  overflow: hidden;
+}
+#gal.gal--active {
+  display: block;
+}
+.gal-main {
+  height: 100%;
+}
+.gal-btn-fullscreen {
+  position: absolute;
+  z-index: 2100;
+  right: 0;
+  bottom: 0.3rem;
+  width: 1.26rem;
+  height: 1.26rem;
+  background: url(/novels/7s/common/fullscreen-inactive.png) 50% 50% no-repeat;
+  background-size: 0.86rem 0.86rem;
+}
+.gal-btn-fullscreen--active {
+  background-image: url(/novels/7s/common/fullscreen.png);
+}
+.gal-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 3000;
+}
+.gal-popup__content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -5.25rem;
+  margin-top: -3.21rem;
+  width: 10.5rem;
+  height: 6.42rem;
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gal-popup-next .gal-popup__content {
+  background-image: url(https://webstatic-sea.mihoyo.com/bh3/event/mihoyo-bh3-novel-7swords-ja-fe/images/ep_next.bf729685.png);
+}
+.gal-popup-end .gal-popup__content {
+  background-image: url(https://webstatic-sea.mihoyo.com/bh3/event/mihoyo-bh3-novel-7swords-ja-fe/images/ep_end.01dfea81.png);
+}
+.gal-popup__textwrp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2.25rem 0.6rem 0 1.5rem;
+  width: 100%;
+  height: 4.5rem;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.gal-popup__text {
+  white-space: pre-wrap;
+  font-size: 0.36rem;
+  line-height: 0.6rem;
+  display: inline-block;
+  text-align: left;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+.gal-popup__confirm {
+  width: 3.06rem;
+  height: 0.96rem;
+  background: url(/novels/7s/en-US/yes.png) 50% no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 0.7rem;
+  left: 50%;
+  margin-left: -1.1rem;
+  cursor: pointer;
+}
+.gal-popup-enter-active {
+  -webkit-animation: fade-in 0.3s both;
+  animation: fade-in 0.3s both;
+}
+.gal-popup-leave-active {
+  -webkit-animation: fade-out 0.3s both;
+  animation: fade-out 0.3s both;
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.mihoyo_landscape img {
+  -webkit-animation: none !important;
+  animation: none !important;
+}
+.stage-scene .stage-control-panel {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  top: -1.43rem;
+  height: 1.21rem;
+  background: url(https://webstatic-sea.mihoyo.com/bh3/event/mihoyo-bh3-novel-7swords-ja-fe/images/panel.385ed49d.png)
+    50% no-repeat;
+  background-size: cover;
+}
+.stage-scene .stage-control-panel.stage-control-panel-active {
+  top: 0;
+}
+.stage-scene .stage-btn {
+  position: absolute;
+  z-index: 800;
+  cursor: pointer;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1.38rem;
+  height: 1.28rem;
+}
+.stage-scene .stage-btn-save {
+  top: 0.15rem;
+  left: 0.5rem;
+  background-image: url(/novels/7s/en-US/save.png);
+}
+.stage-scene .stage-btn-load {
+  top: 0.15rem;
+  left: 2.18rem;
+  background-image: url(/novels/7s/en-US/load.png);
+}
+.stage-scene .stage-btn-skip {
+  top: 0.15rem;
+  left: 3.86rem;
+  background-image: url(/novels/7s/en-US/skip-inactive.png);
+}
+.stage-scene .stage-btn-skip.stage-btn-active {
+  background-image: url(/novels/7s/en-US/skip.png);
+}
+.stage-scene .stage-btn-auto {
+  top: 0.15rem;
+  left: 5.54rem;
+  background-image: url(/novels/7s/en-US/auto-inactive.png);
+}
+.stage-scene .stage-btn-auto.stage-btn-active {
+  background-image: url(/novels/7s/en-US/auto.png);
+}
+.stage-scene .stage-btn-log {
+  top: 0.15rem;
+  left: 7.22rem;
+  background-image: url(/novels/7s/en-US/log.png);
+}
+.stage-scene .stage-btn-cgmode {
+  top: 0.15rem;
+  left: 8.9rem;
+  background-image: url(/novels/7s/en-US/hide.png);
+}
+.stage-scene .stage-btn-panel {
+  top: 0.15rem;
+  right: 0.5rem;
+  background-image: url(/novels/7s/common/menu.png);
+}
+.stage-scene .stage-btn-panel.stage-btn-active {
+  background-image: url(/novels/7s/common/menu.png);
+}
+.stage-scene .stage-btn-exit {
+  top: 0.15rem;
+  left: 10.58rem;
+  background-image: url(/novels/7s/en-US/exit.png);
+}
+.stage-scene .stage-btn-close {
+  top: 0;
+  right: 0;
+  width: 1.54rem;
+  height: 1.81rem;
+  background-image: url(/novels/7s/common/close.png);
+}
+.stage-scene .stage-btn-remark {
+  bottom: 2.5rem;
+  right: 0.5rem;
+  background-image: url(/novels/7s/common/remark.png);
+}
+.stage-popup-container.stage-popup-load-confirm .stage-popup-content {
+  background-image: url(/novels/7s/en-US/quickload.png);
+}
+.stage-popup-container.stage-popup-save-confirm .stage-popup-content {
+  background-image: url(/novels/7s/en-US/quicksave.png);
+}
+.stage-popup-container .stage-popup-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 0;
+}
+.stage-popup-container .stage-popup-content {
+  width: 10.5rem;
+  height: 6.42rem;
+}
+.stage-popup-container .stage-popup-content .stage-popup-text-wrp {
+  margin-top: 0.55rem;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+  height: 2.4rem;
+}
+.stage-popup-container
+  .stage-popup-content
+  .stage-popup-text-wrp
+  .stage-popup-text {
+  font-size: 0.48rem;
+  color: #fff;
+  line-height: 1.6;
+}
+.stage-popup-container .stage-popup-content .stage-popup-btn-wrp {
+  position: absolute;
+  width: 100%;
+  left: 0.4rem;
+  bottom: 0.7rem;
+  color: #fff;
+}
+.stage-popup-container .stage-popup-btn {
+  width: 3.06rem;
+  height: 0.96rem;
+  font-size: 0.48rem;
+  line-height: 1.6;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  border: none;
+  outline: none;
+}
+.stage-popup-container .stage-popup-btn.stage-popup-btn-confirm {
+  background-image: url(/novels/7s/en-US/yes.png);
+}
+.stage-popup-container .stage-popup-btn.stage-popup-btn-cancel {
+  background-image: url(/novels/7s/en-US/no.png);
+  margin-right: 0.6rem;
+}

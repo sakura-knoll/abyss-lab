@@ -86,6 +86,17 @@ module.exports = {
           process.env.NEXT_PUBLIC_BASE_URL +
           '/novels/duriduri/en-US/index.html',
       },
+      {
+        source: '/ko-KR/honkai3rd/novels/7s',
+        destination:
+          process.env.NEXT_PUBLIC_BASE_URL + '/novels/7s/ko-KR/index.html',
+        locale: false,
+      },
+      {
+        source: '/honkai3rd/novels/7s',
+        destination:
+          process.env.NEXT_PUBLIC_BASE_URL + '/novels/7s/en-US/index.html',
+      },
     ]
   },
   i18n,
