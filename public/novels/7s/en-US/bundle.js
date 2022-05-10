@@ -74,7 +74,8 @@
     (o.o = function (e, t) {
       return Object.prototype.hasOwnProperty.call(e, t)
     }),
-    (o.p = '')
+    (o.p =
+      'https://webstatic-sea.mihoyo.com/bh3/event/mihoyo-bh3-novel-7swords-ja-fe/')
   var u = (window.webpackJsonp = window.webpackJsonp || []),
     s = u.push.bind(u)
   ;(u.push = t), (u = u.slice())
@@ -1685,7 +1686,11 @@
     'use strict'
     Object.defineProperty(t, '__esModule', { value: !0 })
     var r = n(91)
-    t.default = { baseURL: r.apiBase, withCredentials: !0 }
+    t.default = {
+      baseURL:
+        'https://webstatic-sea.mihoyo.com/bh3/event/mihoyo-bh3-novel-7swords-ja-fe/',
+      withCredentials: !0,
+    }
   },
   526: function (e, t, n) {
     var r = {
@@ -2008,8 +2013,14 @@
             return n
           })(e, ['isPreview', 'isPublish'])
         return s.auth_key || s.bind_uid
-          ? (0, i.get)('index', r({}, s, { isPreview: n, isPublish: o }))
-          : (0, i.get)('index', { isPreview: n, isPublish: o })
+          ? (0, i.get)(
+              '/api/index.json',
+              r({}, s, { isPreview: n, isPublish: o })
+            )
+          : (0, i.get)('/api/index.json', {
+              isPreview: n,
+              isPublish: o,
+            })
       },
       postAchievement: function (e) {
         var t = l(),
@@ -2562,8 +2573,7 @@
   91: function (e, t, n) {
     'use strict'
     Object.defineProperty(t, '__esModule', { value: !0 })
-    ;(t.environment = 'production'),
-      (t.apiBase = 'https://sg-public-api.mihoyo.com/event/gal_sword_jp/api/')
+    ;(t.environment = 'production'), (t.apiBase = '/novels/7s/en-US/')
   },
   92: function (e, t, n) {
     'use strict'
