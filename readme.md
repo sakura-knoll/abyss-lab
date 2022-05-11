@@ -15,7 +15,34 @@ npm run dev
 
 ## Visual Novels
 
+[Novel List - Abyss Lab](https://www.abyss-lab.app/honkai3rd/media)
+
 ### Translation Attributions
+
+- Title Background Image : 앙고르#1961
+- UI Translation : 앙고르#1961, zklm
+
+#### Anti-Entropy (KR)
+
+| Chapters | Translators                   | Progress |
+| -------- | ----------------------------- | -------- |
+| 1-?      | s4kuraknoll#1717, 앙고르#1961 | WIP      |
+
+#### Durandal (KR)
+
+| Chapters | Translators | Progress |
+| -------- | ----------- | -------- |
+| N/A      | N/A         | N/A      |
+
+We need translators!
+
+#### Seven Swords (KR)
+
+| Chapters | Translators | Progress |
+| -------- | ----------- | -------- |
+| N/A      | N/A         | N/A      |
+
+We need translators!
 
 #### Anti-Entropy (EN)
 
@@ -31,6 +58,14 @@ npm run dev
 | -------- | ------------------------------ | --------------------------------------- |
 | 1-20     | Aiatar and zklm                | Complete, but may require further edits |
 | 21-31    | delialala#8801 and Sacron#6623 | Complete, but may require further edits |
+
+#### Seven Swords (EN)
+
+| Chapters | Translators | Progress |
+| -------- | ----------- | -------- |
+| N/A      | N/A         | N/A      |
+
+We need translators!
 
 ## License
 
