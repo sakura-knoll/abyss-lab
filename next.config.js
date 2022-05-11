@@ -64,33 +64,45 @@ module.exports = {
     return [
       {
         source: '/ko-KR/honkai3rd/novels/ae',
-        destination: '/novels/ae/ko-KR',
+        destination: '/novels/ae/ko-KR/index.html',
+        locale: false,
+      },
+      {
+        source: '/en-US/honkai3rd/novels/ae',
+        destination: '/novels/ae/en-US/index.html',
         locale: false,
       },
       {
         source: '/honkai3rd/novels/ae',
-        destination: '/novels/ae/en-US',
-        locale: false,
+        destination: '/novels/ae/en-US/index.html',
       },
       {
         source: '/ko-KR/honkai3rd/novels/duriduri',
-        destination: '/novels/duriduri/ko-KR',
+        destination: '/novels/duriduri/ko-KR/index.html',
+        locale: false,
+      },
+      {
+        source: '/en-US/honkai3rd/novels/duriduri',
+        destination: '/novels/duriduri/en-US/index.html',
         locale: false,
       },
       {
         source: '/honkai3rd/novels/duriduri',
-        destination: '/novels/duriduri/en-US',
-        locale: false,
+        destination: '/novels/duriduri/en-US/index.html',
       },
       {
         source: '/ko-KR/honkai3rd/novels/7s',
-        destination: '/novels/7s/ko-KR',
+        destination: '/novels/7s/ko-KR/index.html',
+        locale: false,
+      },
+      {
+        source: '/en-US/honkai3rd/novels/7s',
+        destination: '/novels/7s/en-US/index.html',
         locale: false,
       },
       {
         source: '/honkai3rd/novels/7s',
-        destination: '/novels/7s/en-US',
-        locale: false,
+        destination: '/novels/7s/en-US/index.html',
       },
     ]
   },
