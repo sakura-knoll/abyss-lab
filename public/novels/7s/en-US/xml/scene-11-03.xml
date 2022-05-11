@@ -1,0 +1,149 @@
+<scene id="03" type="block" prev="02" title="天命派">
+  <motion chara="001" action="img_trans" img="奥托-微笑自信-摊手-中景"></motion>
+  <motion chara="002" action="img_trans" img="素裳-元气-背手-中景"></motion>
+  <dialog chara="001">
+    <p>「最初から話そう。神州の西側に、ヨーロッパという名前の大陸があるんだ。[\s]</p>
+    <p>神州の武術界には色々な門派があるが、今のヨーロッパ大陸には一つだけしかないんだ。天命派という名前だよ。」</p>
+  </dialog>
+  <motion chara="001" action="img_trans" img="奥托-微笑自信-单空手-中景"></motion>
+  <dialog chara="001">「天命派は三人で一緒に作った組織なんだ。創始者は比類なき武術の腕を持ち、天下無敵だったと言われているよ。」</dialog>
+  <dialog chara="001">「天命は数年でヨーロッパ大陸でも無視できないほどの勢力になり、その後は神々の神殿、英霊宮、荊冠門などの各宗派を併合し、非常に大きな勢力となっていったんだ。」</dialog>
+  <motion chara="001" action="img_trans" img="奥托-苦笑-标准-中景"></motion>
+  <dialog chara="001">「天命はヨーロッパ大陸を支配したが、一人では処理しきれないほど煩雑な雑務が増えていった。そこで、天命の大権は御三家……三大宗門が引き継ぐようになり、かれこれ千年経ったんだ。」</dialog>
+  <motion chara="002" action="img_trans" img="素裳-惊讶-抱手-中景"></motion>
+  <dialog chara="002">「へぇ、千年も！」</dialog>
+  <text>李素裳はとても驚いた。</text>
+  <motion chara="002" action="img_trans" img="素裳-元气-普通-中景"></motion>
+  <dialog chara="002">「うわぁ、それって本当にすごいね。アタシたちの六大派だって、千年もの歴史を持っているところなんてほとんどないよ！その天命って、剣派？どんな修行をしているの？」</dialog>
+  <motion chara="001" action="img_trans" img="奥托-笑容释然-标准-中景"></motion>
+  <dialog chara="001">「剣術もあるし、槍術もある。でも天命は、本当に独自の秘技を極めているんだ。君たちが『妖術』や『奇術』と呼ぶようなものだね。」</dialog>
+  <motion chara="001" action="img_trans" img="奥托-微笑自信-单空手-中景"></motion>
+  <text>羅刹人は左手を上げ、黄金の十字架を見せた。</text>
+  <motion chara="002" action="img_trans" img="素裳-惊讶2-普通-中景"></motion>
+  <motion chara="001" action="img_trans" img="奥托-微笑奸-单十字-中景"></motion>
+  <dialog chara="001">「君たちの文化に合わせるなら、法器と呼んだ方がしっくりくるかもしれない。」</dialog>
+  <event action="hide_ui" duration="1.1"></event>
+  <motion chara="002" action="hide" duration="0"></motion>
+  <motion chara="001" action="hide" duration="0"></motion>
+  <cg img="氛围_通用_犹大誓约"></cg>
+  <delay t="0.1"></delay>
+  <cg img="氛围_通用_犹大誓约" duration="1" scale="1.5"></cg>
+  <cg img="氛围_通用_犹大誓约启动" duration="1" reset="true"></cg>
+  <text>
+    <p>金の鎖が光る。李素裳は、たちまち体から力が抜けていくのを感じた。内功がなくなってしまったのだ。</p>
+    <p>しかし、それはほんの一瞬のことで、すぐにまた元に戻った。</p>
+  </text>
+  <cg duration="2"></cg>
+  <bg img="沙漠-夜谈1"></bg>
+  <text>彼女が羅刹人の手のひらを見ると、金色の十字架は既に消え、煙になっていた。</text>
+  <motion chara="002" action="show" pos="right" duration="1" img="素裳-疲惫无神-持剑-中景"></motion>
+  <motion chara="001" action="show" pos="left" duration="1" img="奥托-微笑释然-标准-中景"></motion>
+  <dialog chara="002">（あれ、この感覚は……）</dialog>
+  <dialog chara="001">
+    <p>「天命派の三大至宝の一つ、『誓約の十字架』だよ。</p>
+    <p>これは崩壊エネルギー――つまり、『真気』の流れを封じることができるんだ。」</p>
+  </dialog>
+  <dialog chara="001">
+    <p>「そして昨夜、君の治療に使ったのは別の法器、『黒淵白花』さ。</p>
+    <p>あれは人の体を癒し、骨や肌を再生させる。十分な真気があれば、どんなに重い傷でも治せるんだ。」</p>
+  </dialog>
+  <motion chara="001" action="img_trans" img="奥托-微笑奸-摊手-中景"></motion>
+  <dialog chara="001">「だけど、君が目にした二つの法器はどちらも本物ではない。偽物なんだ。」</dialog>
+  <text>羅刹人は細い指で自分のこめかみを指した。</text>
+  <cg></cg>
+  <motion chara="002" action="hide"></motion>
+  <motion chara="001" action="hide"></motion>
+  <bg img="BGNeuron03"></bg>
+  <dialog chara="001">「ここには天命派も知らない、僕だけの法器――『虚空万象』がある。」</dialog>
+  <dialog chara="001">「虚空万象は真気を使うことで、見たもの、触れたもの、理解したものすべてを『模倣』し、実体化させられるんだ。[\s]だから僕は、天命派の三大法器の力を模倣することで、それらを少しだけ扱えるのさ。」</dialog>
+  <bg img="沙漠-夜谈1"></bg>
+  <motion chara="001" action="show" pos="left" duration="1" img="奥托-微笑自信-标准-中景"></motion>
+  <motion chara="002" action="show" pos="right" duration="1" img="素裳-嘟嘴-抱手-中景"></motion>
+  <dialog chara="002">「……」</dialog>
+  <text>
+    <p>李素裳は腕を組んで首を傾げる。無意識のうちに、唇を軽く噛んでいた。[\s]</p>
+    <p>羅刹人の話を信じていないわけではない。ただ、様々な用語によって、頭が混乱してしまったのだ。</p>
+  </text>
+  <motion chara="002" action="img_trans" img="素裳-嘟嘴-抱手-中景"></motion>
+  <dialog chara="002">「……ちょっと待って、ちょっと待って。天命派ってのは面白そうだけど、法器とかは……」</dialog>
+  <text>素裳は考えながら口を挟んだ。</text>
+  <motion chara="002" action="img_trans" img="素裳-元气-背手-中景"></motion>
+  <dialog chara="002">「急にどうやって習得したの？いいや、やっぱり言わないで、あんたがすごいのは分かっているから。天命派の話を続けて。」</dialog>
+  <motion chara="001" action="img_trans" img="奥托-汗苦笑-标准-中景"></motion>
+  <dialog chara="001">「ああ。」</dialog>
+  <text>羅刹人は長い息を吐くと、素裳の方に目を向けた。</text>
+  <motion chara="001" action="img_trans" img="奥托-微笑自信-单空手-中景"></motion>
+  <dialog chara="001">「天命はヨーロッパ大陸を強固に支配していた。時が経つにつれ、その野心は膨れ上がり、ついに広大な土地と豊富な資源を持つ隣国に目を付けたんだ。」</dialog>
+  <dialog chara="001">「二十年以上前、天命は兵を出して神州に攻め入った――いや、神州を訪問した。神州と――そうだね、手合わせをしたかったんだろう。」</dialog>
+  <motion chara="001" action="img_trans" img="奥托-汗严-单空手-中景"></motion>
+  <dialog chara="001">「君たち、神州の軍隊は強かった。しかし、天命の戦乙――いや、女武術家は優れた法器を使い、ついに試合に勝った。」</dialog>
+  <text inline="true">羅刹人は何度も止まりながら話す。李素裳が史実を理解できるよう、内容を改めようと苦心しているようだった。</text>
+  <text>その証拠に――強い日差しの下でも汗をかいたことがなかった羅刹人は、大粒の汗をいくつも頬から滴らせている。</text>
+  <motion action="img_trans" chara="002" img="素裳-元气-普通-中景"></motion>
+  <text>彼の苦心する姿を横で見ていた素裳は嬉しくなった。</text>
+  <motion chara="001" action="img_trans" img="奥托-微笑释然-标准-中景"></motion>
+  <dialog chara="001">「天命はほぼ勝利を掴んでいた。しかし、仙人が現れた。」</dialog>
+  <motion chara="001" action="img_trans" img="奥托-悲伤-标准-中景"></motion>
+  <dialog chara="001">「そして、僕は彼女に会ったんだ……」</dialog>
+  <dialog chara="001">
+    <p>「さすがは仙人、と言うべきだろうか？……</p>
+    <p>彼女が手を一振りしただけで、空に雷鳴が轟き、大地に氷が張り、風もないのに炎が燃え広がった。」</p>
+  </dialog>
+  <dialog chara="001">「怪奇現象の数々によって、天命の陣営は崩れた。聖騎士が次々と出撃したが、彼女の敵ではなかった。」</dialog>
+  <text>羅刹人は苦笑した。その声は徐々にぼんやりとしていく。</text>
+  <motion chara="001" action="img_trans" img="奥托-茫然-标准-中景"></motion>
+  <dialog chara="001">
+    <p>「最強の戦乙女……『誓約の十字架』を使いこなす天才ですら、</p>
+    <p>彼女と対峙し、完敗した……」</p>
+  </dialog>
+  <text>羅刹人の目が、再びあの棺に向けられる。</text>
+  <motion chara="002" action="img_trans" img="素裳-悲伤目前-抱手-中景"></motion>
+  <text>李素裳は彼の視線に注目していた。[\s]彼女は羅刹人と一日中、ずっと共にいて、あることに気が付いたのだ。彼は喋ったり笑ったりしながらも、棺に目を向けると、外界を完全に拒絶するような孤独に陥る。</text>
+  <motion chara="002" action="img_trans" img="素裳-笑-背手-中景"></motion>
+  <dialog chara="002">「あの中には何が入っているの？」</dialog>
+  <text>戦争にはまったく興味がない李素裳は、ついに我慢できずに尋ねた。</text>
+  <motion chara="002" action="img_trans" img="素裳-浅笑-背手-中景"></motion>
+  <dialog chara="002">「いつもあれに話しかけているけど、中に誰か入っているの？」</dialog>
+  <dialog chara="001">「いや……」</dialog>
+  <text>羅刹人は首を横に振る。彼はとても困惑しているかのように、視線を棺に向け、そして自分の手のひらを見つめた。</text>
+  <motion chara="002" action="img_trans" img="素裳-元气-背手-中景"></motion>
+  <dialog chara="002">「知らないの？あんたも開けたことがないの？」</dialog>
+  <dialog chara="001">「……」</dialog>
+  <motion chara="001" action="hide" duration="0"></motion>
+  <motion chara="002" action="hide" duration="0"></motion>
+  <bg img="沙漠-夜谈2"></bg>
+  <text>羅刹人は答えなかった。彼の思考は遥か彼方へ飛んでいき、李素裳のそばに残っているのは空っぽの抜け殻であるかのようだった。</text>
+  <text>素裳は辛抱強く待った。彼女は下あごに手を当て、容姿に似合わぬ羅刹人の虚ろな目を見つめる。不思議だ、と思う。羅刹人は、何を考えているのだろう。</text>
+  <dialog chara="002">[em italic]（故郷が恋しいのかな？）[/em]</dialog>
+  <text>
+    <p>遠く離れた、彼女には想像もできないような西域の祖国が恋しいのだろうか？[\s]</p>
+    <p>それとも、誰かを懐かしんでいるのだろうか？</p>
+  </text>
+  <dialog chara="002">
+    <p>[em italic]（……羅刹人にも、父さんや母さんがいるのかな？</p>
+    <p>あっ、馬鹿なことを考えちゃった。いるに決まってる！</p>
+    <p>いくら何でも、石を割って生まれてくるわけないし。）[/em]</p>
+  </dialog>
+  <dialog chara="002">
+    <p>[em italic]（友達は？恋人は？</p>
+    <p>きっといるよね……まさかもう結婚しているのかな？</p>
+    <p>師匠はいるのかな？その天命派とやらの弟子なのかな？）[/em]</p>
+  </dialog>
+  <text>少女は、己が羅刹人について何も知らないことに急に気が付いた。</text>
+  <text>二日間ほどずっと共にいたが、少女は、羅刹人とあまり意味のある会話をしていなかったのだ。</text>
+  <text>名前も聞いたが、返ってきたのは奇妙奇天烈な言葉だったので、覚えるのを諦めてしまった。今では、どう頑張っても思い出せなくなってしまっている。</text>
+  <notification>伝記更新：「羅刹人」</notification>
+  <event action="achievement" aid="c6df415ec80024b4"></event>
+  <dialog chara="002">[em italic]（もっと羅刹人と話さないと……）[/em]</dialog>
+  <text>素裳はやや気落ちした。</text>
+  <text>
+    <p>彼女はふと気付いたのだった。この羅刹人を連れて師匠の元に戻ったら、彼とは別れることになる。[\s]</p>
+    <p>彼と一緒にいる時間はもう半日ほどしかないだろう。短い、とても短いのだ。</p>
+  </text>
+  <dialog chara="002">「あーあ……師匠が羅刹人を何日か留め置いてくれればいいのにな？」</dialog>
+  <text>少女は何故か、更にがっかりした気分になる。</text>
+  <text>これまでの十五年の歳月の中で、初めて友達ができたのだ。彼女は、一緒にいることの楽しさと別れることの悲しみを味わっていた。</text>
+  <text>夜は長く、眠れない二人は並んで座ったまま、夜が明けるまでぼんやりと考え事をしていた。</text>
+  <transition mode="fade" in="3" stop="0.5" out="0" color="#000000"></transition>
+  <event action="goto" to="04"></event>
+</scene>

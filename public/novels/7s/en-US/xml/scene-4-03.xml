@@ -1,0 +1,218 @@
+<scene id="03" type="block" prev="02" title="戦闘1">
+  <transition mode="fade" in="0" stop="0.5" out="2" color="#000000"></transition>
+  <bgm id="竹林伏兵"></bgm>
+  <bg img="BGDesert00"></bg>
+  <text>（一、）</text>
+  <se id="01-18男性沙漠疾行_01"></se>
+  <event action="hide_ui" duration="2"></event>
+  <motion chara="099" action="show" pos="right" img="山贼3号远景" duration="3"></motion>
+  <delay t="2"></delay>
+  <event action="show_ui"></event>
+  <text>少女は心の中で数字を数える。</text>
+  <text>（二、）</text>
+  <event action="hide_ui" duration="2"></event>
+  <se id="01-19男性沙漠疾行_02"></se>
+  <motion chara="095" action="show" pos="left" img="砂匪2-远-微笑" duration="3" reversex="true"></motion>
+  <delay t="2"></delay>
+  <event action="show_ui"></event>
+  <text>
+    <p>二人の男が左側から近付いてくる。</p>
+    <p>そのうち一人は、最も早く少女に気付き、声を出した男だ。</p>
+  </text>
+  <text>
+    <p>彼は剣を手に、嬉しそうな顔をしている。</p>
+    <p>まるで罠にかかった獲物を見つめる狩人のように、その笑顔は死を語っている。</p>
+  </text>
+  <text>しかし、少女は動じなかった。</text>
+  <transition mode="move" in="0.5" stop="0.5" out="0.5" color="#000000" direction="left" custom="thick"></transition>
+  <motion chara="099" action="hide"></motion>
+  <motion chara="095" action="hide"></motion>
+  <text>彼女は視線をもう片方に向ける。</text>
+  <text>（三、）</text>
+  <event action="hide_ui" duration="2"></event>
+  <se id="01-19男性沙漠疾行_03"></se>
+  <motion chara="099" action="show" pos="right" duration="3" img="山贼4号中景"></motion>
+  <delay t="2"></delay>
+  <event action="show_ui"></event>
+  <text>
+    <p>右後ろの男は少女の視界にはいなかったが、</p>
+    <p>先程の男の声を聞いて走ってきたのだ。</p>
+  </text>
+  <text>（四。）</text>
+  <event action="hide_ui" duration="2"></event>
+  <motion chara="094" action="show" pos="-200,0" duration="3" img="砂匪1-近-坏笑" reversex="true"></motion>
+  <delay t="2"></delay>
+  <event action="show_ui"></event>
+  <text>一番近くにいる男は、少女とは約五歩の距離しか離れていない。</text>
+  <text>相手は刀を持った筋肉質の男だ。四人の中では最年長で、その武術の腕も最も優れている。</text>
+  <motion chara="099" action="hide"></motion>
+  <motion chara="094" action="hide"></motion>
+  <transition mode="move" in="0.3" stop="0.5" out="0.5" color="#000000" direction="right" custom="default"></transition>
+  <bg img="BGDesert01"></bg>
+  <motion chara="002" action="show" pos="center" img="素裳-专注-持剑-远景"></motion>
+  <text>……少女は師匠との手合わせしかしたことがなく、実戦経験がない。</text>
+  <text>そうでなければ、武術の達人でも多勢に無勢という状況を避けるべきだと理解しているはずだ。</text>
+  <text>一人で、訓練された四人の盗賊と対峙するなど、まさに死に急ぐ行動である。</text>
+  <motion chara="002" action="img_trans" img="素裳-浅笑-持剑-远景"></motion>
+  <text>しかし、少女はその『常識』を持っておらず、生まれつき感情が希薄な彼女の師匠も同様だった。</text>
+  <text>だから彼女は恐れるどころか、ワクワクしているのだ。</text>
+  <bgm looptimes="0"></bgm>
+  <motion chara="002" action="hide"></motion>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <bgm id="传奇诞生"></bgm>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p>——賊と彼女の距離はたったの五歩。</p>
+  </mono>
+  <event action="hide_ui" duration="1"></event>
+  <transition mode="fade" in="0.1" stop="0.1" out="0.1" color="#FFFFFF"></transition>
+  <se id="01-20拿出轩辕剑"></se>
+  <motion chara="-4" action="shake" duration="0.2" range="20" direction="horizontal"></motion>
+  <motion chara="002" action="show" img="素裳-浅笑-背剑-远景" duration="0.6" pos="center"></motion>
+  <delay t="0.2"></delay>
+  <event action="show_ui"></event>
+  <mono inline="true">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>少女は包みを開き、逆手で古剣『軒轅』を握る。</p>
+  </mono>
+  <motion chara="002" action="hide"></motion>
+  <cg scale="2.7" origin="75%,10%" img="CG_通用_李素裳战斗-1"></cg>
+  <delay t="0.1"></delay>
+  <cg img="CG_通用_李素裳战斗-1" scale="2.7" origin="75%,10%" duration="5" pos="260,0"></cg>
+  <delay t="3"></delay>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>剣が手にある感覚は、彼女を安心させる。</p>
+  </mono>
+  <delay t="0.1"></delay>
+  <event action="hide_ui" duration="1"></event>
+  <cg pos="260,0" scale="2.7" origin="75%,10%" img="CG_通用_李素裳战斗-2" duration="1"></cg>
+  <delay t="1"></delay>
+  <event action="show_ui"></event>
+  <mono pageend="true">
+    <p>その後の出来事は、</p>
+    <p></p>
+    <p>きっとこういう展開になる筈だ。</p>
+  </mono>
+  <transition mode="move" in="0.2" stop="1" out="1" color="#000000" direction="right" custom="default"></transition>
+  <cg></cg>
+  <bg img="PureBlack"></bg>
+  <se id="01-22女孩轻功whoosh_01"></se>
+  <motion chara="-5" action="show" pos="center" img="速度线左右1"></motion>
+  <mono pageend="true">
+    <p></p>
+    <p>少女は飛び立つ鳥のように軽い動作で飛び上がる。</p>
+  </mono>
+  <motion chara="-5" action="hide"></motion>
+  <delay t="0.1"></delay>
+  <transition mode="dissolve" in="0.1" stop="0.1" out="0.1" color="#000000"></transition>
+  <bg img="BGBlood1"></bg>
+  <se id="01-02大剑命中"></se>
+  <motion chara="-4" action="shake" duration="0.1" range="60" direction="default"></motion>
+  <delay t="0.1"></delay>
+  <mono>
+    <p></p>
+    <p>着地した瞬間、剣の切っ先はすでに男の胸元に刺さっていた。</p>
+  </mono>
+  <mono inline="true">
+    <p></p>
+    <p></p>
+    <p>剣を戻し、振り返る——噴き出す血より、ずっと速い。</p>
+  </mono>
+  <se id="01-02大剑命中"></se>
+  <motion chara="-4" action="shake" duration="0.1" range="60" direction="vertical"></motion>
+  <delay t="0.1"></delay>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>次の瞬間すぐさま剣で刺し、男の凶悪そうな笑顔を固まらせる。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p>こうして、四人の敵は二人だけになる——なんの抵抗もなく。</p>
+  </mono>
+  <transition mode="dissolve" in="3" stop="0.5" out="0" color="#000000"></transition>
+  <bg img="PureBlack"></bg>
+  <motion chara="002" action="show" pos="center" img="素裳-标准-持剑-远景"></motion>
+  <transition mode="fade" in="0" stop="0.5" out="1" color="#000000"></transition>
+  <text>……少女は一瞬でその筋書きを思いついた。</text>
+  <text>
+    <p>彼女の武術の造詣と、古剣軒轅があれば——</p>
+    <p>その幻想を現実にすることは、難しいことではない。</p>
+  </text>
+  <bgm looptimes="0"></bgm>
+  <motion chara="002" action="hide"></motion>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>——賊と彼女の距離はあと四歩。</p>
+  </mono>
+  <motion chara="002" action="show" pos="center" img="素裳-专注-持剑-远景"></motion>
+  <text>しかし、少女は行動に出なかった。</text>
+  <text>……相応しくない。</text>
+  <motion chara="002" action="hide"></motion>
+  <se id="01-21轩辕剑氛围声" looptimes="-1"></se>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <text inline="true">古剣軒轅——それはこういう相手と戦うための武器ではない。</text>
+  <text>
+    <p></p>
+    <p>目の前の四人は、宝剣を拝む価値すらないのだ。</p>
+  </text>
+  <cg img="氛围_通用_轩辕剑"></cg>
+  <text>
+    <p>この剣は遠い昔、仙人たちの時代から受け継がれ、幾千万年の時を見届けてきた。</p>
+    <p>その持ち主は武術界の伝説、唯一の真仙、神州の守護者『精衛真人』である。</p>
+  </text>
+  <text>今から29年前、精衛真人は東海で孤児の娘を七番目の弟子にし、その剣を授けた。太虚第七剣こと、秦素衣と『墨染香』の名は武術界に広く名が知られるようになる。</text>
+  <text>
+    <p>精衛真人が天に昇って仙人になった後、秦素衣はしばらく隠居したが、3年後に彼女は再び武術界に名を馳せた。</p>
+    <p>彼女と『川公子』李紳の恋物語は当時、美談​として語られていた。</p>
+  </text>
+  <text>
+    <p>10年前、引退した母親は『墨染香』を幼い素裳に渡し、[\s]</p>
+    <p>同時に素裳の肩には、「太虚五蘊を悟り、『天下一』になる」という母親の期待がかかり始めた。</p>
+  </text>
+  <text inline="true">これは他に比べるものがないほどの武器、その切っ先は強者のみを待っている。</text>
+  <text>
+    <p></p>
+    <p>目の前にいる平凡な人間たちの血で、この剣の威名を汚すわけにはいけない。</p>
+  </text>
+  <se looptimes="0" id="01-21轩辕剑氛围声"></se>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <cg></cg>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>——賊と彼女の距離はあと三歩。</p>
+  </mono>
+  <bgm id="传奇诞生"></bgm>
+  <motion chara="002" action="show" pos="center" img="素裳-专注-持剑-远景"></motion>
+  <text>小さな誇りと満足感が、少女の心に満ち溢れていた。</text>
+  <motion chara="002" action="img_trans" img="素裳-算计-持剑-远景"></motion>
+  <text>フン、こんなやつら——</text>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>——あと二歩。</p>
+  </mono>
+  <motion chara="002" action="img_trans" img="素裳-浅笑-持剑-远景"></motion>
+  <text>——剣試しにはまだ足りない！</text>
+  <motion chara="002" action="hide"></motion>
+  <event action="goto" to="04"></event>
+</scene>

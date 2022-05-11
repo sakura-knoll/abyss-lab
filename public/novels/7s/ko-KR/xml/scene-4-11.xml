@@ -1,0 +1,188 @@
+<scene id="11" prev="10" title="ピンタ">
+  <transition mode="fade" in="0" stop="0.5" out="1" color="#000000"></transition>
+  <bg img="PureBlack"></bg>
+  <text>「鷹」は喜び、驚き、そして怒りを覚えた。</text>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <bgm id="竹林伏兵"></bgm>
+  <bg img="废弃驿站院内" duration="3"></bg>
+  <text inline="true">部下が騒ぎを起こしたネズミを捕らえたと知って、喜びを感じた。</text>
+  <text>
+    <p></p>
+    <p>『侵入者』がまさかの小娘だと聞いた時、驚きを覚えた。</p>
+  </text>
+  <transition mode="move" in="0.5" stop="0.5" out="0.5" color="#000000" direction="left" custom="default"></transition>
+  <bg img="废弃驿站"></bg>
+  <text>少女の姿を見た時、「鷹」は怒りに震えた。</text>
+  <event action="hide_ui" duration="2"></event>
+  <motion chara="002" action="show" pos="center" img="素裳-嘟嘴-背手-远景" duration="2"></motion>
+  <delay t="2"></delay>
+  <text inline="true">彼が手塩にかけて育てた兵士が、10代の小娘にあんな風にボコボコにされただと！？</text>
+  <text>
+    <p></p>
+    <p>なんという侮辱だ！！！</p>
+  </text>
+  <text>怒りのあまり、衝撃すら感じた。</text>
+  <event action="hide_ui" duration="1"></event>
+  <motion chara="002" action="move" pos="right" duration="1"></motion>
+  <motion chara="015" action="show" pos="left" img="老鹰-普通-玩玉-远景" reversex="true" duration="1"></motion>
+  <delay t="0.8"></delay>
+  <motion chara="002" action="img_trans" img="素裳-标准-背手-远景"></motion>
+  <text>「鷹」は一歩前へ出る。目の前の少女を観察し、心の中が疑問で溢れた。</text>
+  <text>この小娘は何者だ！？</text>
+  <mono>
+    <p></p>
+    <p>この漠北で、金砂会を恐れぬ者はいない。</p>
+  </mono>
+  <mono>
+    <p></p>
+    <p>官兵の精鋭でも、遠くて頑丈な金砂会を恐れ、衝突を避けている。</p>
+  </mono>
+  <mono>
+    <p></p>
+    <p>一体誰が、身の程知らずにも自らやってきて、この「鷹」を敵に回すというのだ？</p>
+  </mono>
+  <text>彼には分からなかった。</text>
+  <motion chara="002" action="img_trans" img="素裳-标准-背手-远景"></motion>
+  <text>更に——来たのは小娘だ。歳は高くとも16くらいだろう。子供っぽさがまだ残っていて、その眼差しからは少年のような心意気を感じる。</text>
+  <text>更に——彼女の武術は悪くない、むしろ驚くほど優れていた。「鷹」の自慢の部下が一斉にかかっても、彼女を捕らえることはできなかったという。</text>
+  <text>この小娘は一体何者だ！？</text>
+  <text inline="true">「鷹」はそう訊ねたかった。</text>
+  <text>
+    <p></p>
+    <p>しかし予想外にも、先に口を開いたのは彼ではなかった。</p>
+  </text>
+  <motion chara="002" action="img_trans" img="素裳-大笑-背手-远景"></motion>
+  <dialog chara="002">「あんたが『鷹』なの？へえ、想像していたのとちが——」</dialog>
+  <event action="hide_ui" duration="1"></event>
+  <se id="01-42耳光轻-1"></se>
+  <motion chara="-4" action="shake" duration="0.1" range="40" direction="default"></motion>
+  <motion chara="002" action="shake" duration="0.2" range="80" direction="horizontal"></motion>
+  <motion chara="002" action="hide" img="素裳-呆滞血-背手-远景"></motion>
+  <text inline="true">「鷹」は手を上げて少女に平手打ちを食わせ、少女の言葉を塞ぐ。</text>
+  <text>
+    <p></p>
+    <p>彼の縄張りでは、彼が先に口を開き、彼が先に質問するのが鉄則である。</p>
+  </text>
+  <motion chara="002" action="show" img="素裳-呆滞血-背手-远景" pos="right" duration="2"></motion>
+  <text>少女は顔を上げた。口元に血が流れている。</text>
+  <motion chara="002" action="img_trans" img="素裳-撒娇哭-背手-远景"></motion>
+  <text>彼女は信じられないといった表情で「鷹」を見上げる。涙目になっていた。</text>
+  <dialog chara="002">「あんた……アタシを殴った？母さんにも——」</dialog>
+  <se id="01-44耳光重"></se>
+  <motion chara="-4" action="shake" duration="0.1" range="40" direction="default"></motion>
+  <motion chara="002" action="shake" duration="0.2" range="100" direction="horizontal"></motion>
+  <motion chara="002" action="hide"></motion>
+  <text>「鷹」はまた少女に平手打ちを食らわす。今回は力が入っていて、素裳はあやうく床に足をつけるところだった。</text>
+  <motion chara="015" action="img_trans" img="老鹰-狞笑-扭头-远景" reversex="true"></motion>
+  <dialog chara="015">「……今度、捕虜を連れ帰った時は、口を塞いでおけ。」</dialog>
+  <motion chara="094" action="show" pos="right" img="砂匪1-远-坏笑"></motion>
+  <dialog chara="094">「はい、首領。」</dialog>
+  <motion chara="094" action="hide" duration="0.5"></motion>
+  <motion chara="015" action="hide" duration="0.5"></motion>
+  <text>
+    <p>「鷹」は手を拭い、少女の前にしゃがむ。</p>
+    <p>少女もまた彼を見ていた。その視線に恐れの色はなく、あるのは強情と怒りのみだ。</p>
+  </text>
+  <motion chara="015" action="show" pos="center" img="老鹰-微笑-叉腰-中景"></motion>
+  <text>「鷹」は彼女の顎を掴み、ゆっくりと話す。</text>
+  <dialog chara="015">
+    <p>「お前が誰だか知らないし、その目的も知らない。</p>
+    <p>最初は、興味があったらお前の目的を聞いてやってもいいと思った。</p>
+    <p>もし俺を笑わせられるなら、大目に見てやってもいいとさえ思ったんだが。」</p>
+  </dialog>
+  <motion chara="015" action="img_trans" img="老鹰-普通-叉腰-中景"></motion>
+  <dialog chara="015">「……今、お前にそういう機会はやってこない。」</dialog>
+  <text>「鷹」は涙で濡れた少女の両目をじっと見つめながら、敵に制裁を与える快感を楽しむ。これは本来の彼のやり方ではないが、あの羅刹人と出会ってから、気分が晴れないままだった。</text>
+  <text>威嚇と恫喝に意味はないと知りつつも、彼は話を続ける。</text>
+  <motion chara="015" action="img_trans" img="老鹰-普通-抱胸NO刀-中景"></motion>
+  <dialog chara="015" inline="true">
+    <p>「次は、自分が口を開いてもいい時機を覚えろ。</p>
+    <p>口を慎め。主人に気に入られるためにも、自分の命を守るためにも。</p>
+  </dialog>
+  <motion chara="015" action="img_trans" img="老鹰-微笑-抱胸NO刀-中景"></motion>
+  <dialog chara="015">
+    <p></p>
+    <p>将来お前が日々付き合うだろう人間は、俺のように優しくはないからな。」</p>
+  </dialog>
+  <dialog chara="015">「お前はまだ幼い、顔も悪くない。調教すればきっと気に入ってもらえるだろう。正直に言えば、俺はお前をいい値段で売り捌くつもりだ。あと数日は安全だろうが、あまり調子に乗るな。」</dialog>
+  <motion chara="015" action="img_trans" img="老鹰-狞笑-扭头-中景"></motion>
+  <dialog chara="015">「バイホイの奴隷商人がお前を連れ去った後、きっとお前は今日俺に殺されなかったことを後悔するだろう。俺が保証する。」</dialog>
+  <motion chara="015" action="img_trans" img="老鹰-悲伤-扭头-中景"></motion>
+  <dialog chara="015">
+    <p>「思い切り後悔して、許しを乞えばいい……お前は死ぬまでそうする運命だからな。</p>
+    <p>俺の金砂会を挑発したやつは、その結末からは逃げられない。」</p>
+  </dialog>
+  <text>そう言って、「鷹」は捕虜を一目見て、満足する結果を得ようとしたが、また失望する。</text>
+  <text>
+    <p>少女は鼻をすすり、大人しく頷き、一言も口にしなかった。</p>
+    <p>様々な反応の中で、こういう態度が一番彼の逆鱗に触れる。</p>
+  </text>
+  <motion chara="015" action="hide"></motion>
+  <text>「鷹」は素裳を突き飛ばした。不快感を表すかのように服で手を拭い、横にいる部下を見る。</text>
+  <motion chara="015" action="show" pos="right" img="老鹰-撩发笑-远景" duration="0.5"></motion>
+  <motion chara="095" action="show" reversex="true" pos="left" img="砂匪2-远-微笑" duration="0.5"></motion>
+  <dialog chara="015">「何を考えている？」</dialog>
+  <motion chara="095" action="img_trans" reversex="true" img="砂匪2-远-普通"></motion>
+  <text>突如聞かれた男はビックリした。汗だくになり、言葉もうまく発することができない 。</text>
+  <dialog chara="015">
+    <p>「さっきからお前は落ち着かない様子だった。</p>
+    <p>……言いたいことがあるんだろう？言え。」</p>
+  </dialog>
+  <dialog chara="095">「は、はい……こ、この娘は手強いです……用心したほうがいいかと……」</dialog>
+  <motion chara="015" action="img_trans" img="老鹰-撩发-远景"></motion>
+  <text>「鷹」が嫌悪した表情で部下をちらりと見ると、相手は驚いて一歩下がった。</text>
+  <dialog chara="015">「お前たち、彼女に『截気散』を飲ませたんだな。」</dialog>
+  <dialog chara="095">「は……はい、抵抗はされませんでした。その……首領に不利なことをするんじゃないかって、心配で。」</dialog>
+  <motion chara="015" action="img_trans" img="老鹰-悲伤-扭头-远景"></motion>
+  <dialog chara="015">「十代の娘が、手枷で束縛されて、内功も使えない。」</dialog>
+  <motion chara="015" action="img_trans" img="老鹰-微笑-抱胸NO刀-远景"></motion>
+  <dialog chara="015">「……そんな相手が、俺に不利なことをすると思うのか？」</dialog>
+  <motion chara="095" action="hide" duration="0"></motion>
+  <dialog chara="095">「申し訳ありませんでした！」</dialog>
+  <text>
+    <p>男は気が動転して、慌てて跪く。</p>
+    <p>首領の口調が穏やかであればあるほど、怒り心頭の状態にあるということを、知っているからだ。</p>
+  </text>
+  <motion chara="015" action="img_trans" img="老鹰-普通-抱胸NO刀-远景"></motion>
+  <dialog chara="015">「……」</dialog>
+  <text>「鷹」は腹を立ててはいるが、顔色ひとつ変えていない。それは彼が長年培った習慣である。</text>
+  <text>羅刹人を見ると、気分が晴れない。小娘を見ると怒りが湧いてくる。そして部下の勝手な真似は、権威が損なわれたと彼に思わせた。</text>
+  <dialog chara="015">「あの娘を……地下牢に入れておけ。あの羅刹人と共にな。」</dialog>
+  <dialog chara="015">「食料は与えるな、バイホイの人間が来るまで飢えさせるんだ。」</dialog>
+  <dialog chara="-1">「はい！」</dialog>
+  <text>衆人は一斉に呼応し、少女を引き摺り、暗い地下牢に入れるため連れ去った。</text>
+  <motion chara="015" action="img_trans" img="老鹰-普通-玩玉-远景"></motion>
+  <dialog chara="015">「……ん？」</dialog>
+  <text>
+    <p>先程跪いた男は、まだその場にいる。</p>
+    <p>頭を伏せ、顔を上げていないが、体の震えは彼の緊張を物語っている。</p>
+  </text>
+  <dialog chara="015">「まだ何か言いたいことがあるのか？」</dialog>
+  <motion chara="095" action="show" pos="left" img="砂匪2-远-微笑" reversex="true"></motion>
+  <text>男は罪を赦免されたかのように体をまっすぐに伸ばし、少し興奮した笑みを見せる。</text>
+  <dialog chara="095">「首領に献上したい宝物があります。どうか、これでお許しを。」</dialog>
+  <text>そう言って、彼は手品をするかのように包みを取り出し、両手で差し出す。</text>
+  <text>「鷹」は受け取ることなく、包みに視線を向けぬまま、質問した。</text>
+  <motion chara="015" action="img_trans" img="老鹰-普通-抱胸NO刀-远景"></motion>
+  <dialog chara="015">「中身は？どこで手に入れた？」</dialog>
+  <dialog chara="095">「鉄をも簡単に削れる宝剣、あの小娘から奪ったものです。」</dialog>
+  <dialog chara="015">「……」</dialog>
+  <motion chara="095" action="img_trans" img="砂匪2-远-普通" reversex="true"></motion>
+  <text inline="true">「鷹」は依然として受け取らない。</text>
+  <text>男も宝物を献上する姿勢のまま、微動だにしない。</text>
+  <motion chara="015" action="img_trans" img="老鹰-微笑-玩玉-远景"></motion>
+  <text>
+    <p>しばらくして、「鷹」はふと笑い出した。包みを取って帯を解き、宝剣の本当の姿を見る。[\s]</p>
+    <p>目の前の男には隠し事も嘘もないということを確認できた。それで十分だ。</p>
+  </text>
+  <event action="hide_ui" duration="3"></event>
+  <motion chara="095" action="hide"></motion>
+  <motion chara="015" action="hide"></motion>
+  <cg img="氛围_通用_轩辕剑" duration="3"></cg>
+  <delay t="3"></delay>
+  <dialog chara="015">「へえ——」</dialog>
+  <text>淡い月明かりの下で、宝剣が銀色の光を放つ。</text>
+  <text>一目見て、その剣が珍しい宝物であることが分かった。</text>
+  <transition mode="fade" in="1" stop="0.5" out="0" color="#000000"></transition>
+  <event action="goto" to="12"></event>
+</scene>

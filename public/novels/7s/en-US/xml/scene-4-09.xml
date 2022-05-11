@@ -1,0 +1,242 @@
+<scene id="09" prev="08" title="地下牢">
+  <transition mode="fade" in="0" stop="0.5" out="1" color="#000000"></transition>
+  <bg img="PureBlack"></bg>
+  <text>李素裳は元々、深夜まで大人しく待とうとしていた。そして、決して音を出さないと決めていた。</text>
+  <event action="hide_ui" duration="1.5"></event>
+  <motion chara="002" action="show" pos="center" img="素裳-欸真的吗-普通-近景" duration="2"></motion>
+  <delay t="1.5"></delay>
+  <dialog chara="002">「……うまく行くのかな？」</dialog>
+  <text>しかし30分も経たないうちに綺麗に約束を破り、彼女は独り言を呟き始める。</text>
+  <bgm id="佛心禅悟"></bgm>
+  <motion chara="002" action="hide"></motion>
+  <transition mode="clock" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <text>よく考えてみれば、その約束というのも、彼女がとっさに思いついたものに過ぎない。</text>
+  <cg img="CG_第一折_李素裳1"></cg>
+  <text>2時間前のことだ。李素裳は金砂会の4人の門番を倒し、彼らから情報を聞き出した。</text>
+  <dialog chara="002" inline="true">「……113人？今夜戻る？</dialog>
+  <dialog chara="002">
+    <p></p>
+    <p>思ったよりずっと多い。まずいな……」</p>
+  </dialog>
+  <cg img="CG_第一折_李素裳2"></cg>
+  <dialog chara="002">
+    <p>「ねえ、アタシよりも『鷹』に詳しいんだよね……</p>
+    <p>もし、一対一で勝負したいって言ったら、彼は受け入れてくれると思う？」</p>
+  </dialog>
+  <dialog chara="095">「お、お前、一体何者だ！？」</dialog>
+  <text>男は見当違いな答えを口にする。</text>
+  <cg img="CG_第一折_李素裳1"></cg>
+  <dialog chara="002" inline="true">
+    <p>「はぁ……[\s]</p>
+    <p>アタシは李素裳、『自在門』の一番弟子。</p>
+  </dialog>
+  <dialog chara="002">
+    <p></p>
+    <p>話を逸らさないで、まだ答えをもらってないよ。」</p>
+  </dialog>
+  <dialog chara="095">
+    <p>「何を言って……自在門……</p>
+    <p>……誰だ！？……」</p>
+  </dialog>
+  <text>
+    <p>男は、少女の話をデタラメだと思っているようだ。</p>
+    <p>李素裳は相手とは意思疎通できないと判断し、無視することにした。</p>
+  </text>
+  <cg></cg>
+  <bg img="BGDesert01" duration="1"></bg>
+  <motion chara="002" action="show" pos="center" img="素裳-专注-抱手-近景" duration="1"></motion>
+  <dialog chara="002">
+    <p>（100人以上もいて、規律に従う？……そんなの面倒過ぎる。</p>
+    <p>今回の目的は「鷹」との勝負、それだけなのに。）</p>
+  </dialog>
+  <text>
+    <p>師匠の、[em color=#FAFAD2]「金砂会を知っている？彼らの頭を倒してきて。」[/em]という言葉は、</p>
+    <p>簡単そうに聞こえるが、そのせいで正直者の弟子はかなり困っていた。</p>
+  </text>
+  <motion chara="002" action="img_trans" img="素裳-悲伤目下-普通-近景"></motion>
+  <text>少女はため息をつき、他に方法はないかと考え始めた。</text>
+  <dialog chara="002">「む……」</dialog>
+  <text>彼女の人生経験はまだ浅く、参考にできるのは父親、乳母、それから村の語り部から聞いた話だけ。</text>
+  <text>「真仙」こと、精衛真人……[\s]「軽塵剣」こと、林朝雨……[\s]「百里逐駒」こと、馬非馬……</text>
+  <text>
+    <p>武術界で有名な名前が次から次へと現れ、また次から次へと少女に否定されていく。</p>
+    <p>それらは名の知れた達人だ。自分のような境遇に陥ることなどある筈がない。</p>
+  </text>
+  <dialog chara="002">「何かいい案はないのかな……」</dialog>
+  <text>
+    <p>[em italic]閻世羅……[/em][\s]</p>
+    <p>不思議な力に導かれたかのように、40年前に存在した武術の怪傑の名が少女の頭に浮かんだ。</p>
+  </text>
+  <text>彼女は一度だけ、語り部からその話を聞いたが、はっきりと覚えている。</text>
+  <text>『武術界の豪傑たちが蓮花大会に集い、魔教討伐について話し合っていた。そこに変装した聖火教聖主、閻世羅が潜入しているとも知らずに。』</text>
+  <text>『閻世羅は大会当日、少、蓮、華の三派の門主に勝ち、玉蓮台に火を放ち笑いながら去った。』</text>
+  <text>[em italic]変装して潜入……[/em]</text>
+  <motion chara="002" action="img_trans" img="素裳-小恶魔-普通-近景"></motion>
+  <dialog chara="002">（あった！）</dialog>
+  <text>少女はようやく参考になる方法を思いついた。</text>
+  <motion chara="002" action="hide"></motion>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <cg img="CG_第一折_李素裳1"></cg>
+  <text>李素裳は男の頭に指を当てる。力は入っていなかったが、男は息を呑んだ。</text>
+  <dialog chara="002">「ちょっと、動かないで。あんたを殺していないのは、話し合いがしたいからだよ。」</dialog>
+  <dialog chara="095">「頭のおかしい奴め……な、何がしたいんだ？」</dialog>
+  <dialog chara="002">「首領が戻ってきて、あんたたちがアタシにボコボコにされたって知ったらきっと怒るよね。そして、あんたたちにお仕置きする。違う？」</dialog>
+  <text>男は返答しなかったが、図星だと察した少女は上機嫌で話を続けた。</text>
+  <cg img="CG_第一折_李素裳2"></cg>
+  <dialog chara="002">
+    <p>「一つ提案がある。アタシの計画通りにしてくれれば、彼にバレないと思うんだ。</p>
+    <p>仲間を呼んできて。話し合いをしよう……」</p>
+  </dialog>
+  <transition mode="shutter" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <cg></cg>
+  <bg img="牢房-暗"></bg>
+  <text>こうして、少女は「自発的に」地下牢に入った。</text>
+  <text>『地下牢』は元々、宿場の穴蔵だ。金砂会がこの場所を占領した後、機能自体は変わらなかったが、蓄えるものが食料品から生きている人間になった。</text>
+  <text>強盗たちが略奪した「品物」はここに入れられる。バイホイの奴隷商人が月一で訪れ、地下牢を綺麗にし、相当の金銭を残していく。ここ数年間、この「宿場」の運営は非常に順調であった。</text>
+  <text>
+    <p>しかし自らやってきて、「品物」の振りをしてこっそり地下牢に入ってきた人間は、</p>
+    <p>金砂会が占領して以来、おそらく李素裳が初めてかもしれない。</p>
+  </text>
+  <transition mode="clock" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <bg img="牢房-暗"></bg>
+  <motion chara="002" action="show" pos="center" img="素裳-标准-抱手-近景"></motion>
+  <text>地下牢は暗くて、湿っぽい。臭い匂いがする。時々すすり泣く声が聞こえるが、しばらくして、また静かになる。</text>
+  <text>
+    <p>素裳は枯草を整え、その上に大人しく座り、</p>
+    <p>『剣心訣』の黙読で時間を潰そうとした。</p>
+  </text>
+  <motion chara="002" action="hide"></motion>
+  <bg img="PureBlack" duration="2"></bg>
+  <mono pageend="true">
+    <p></p>
+    <p>剣心訣は『太虚剣気』の入門となる内功、</p>
+    <p>武術界の誰もが求める奇術である。[\s]</p>
+    <p></p>
+    <p>しかし剣心訣の正体が、奇妙で不可解な音節であることを、ほとんどのものが知らない。</p>
+  </mono>
+  <mono pageend="true" inline="true">
+    <p></p>
+    <p>その音節には形式がなく、文字で表現することもできない。</p>
+    <p>気の流れを教えるわけではなく、体の鍛え方を教えるわけでもない。</p>
+    <p>『口訣』とはいうものの、実際何の意味もない。</p>
+  </mono>
+  <mono>
+    <p></p>
+    <p>何も知らない状況で剣心訣を聞いたとしても、うわ言としか思えず、</p>
+    <p>それが神州の武術界の頂点に立つ、無双の神業だとは誰も考えないだろう。[\s]</p>
+    <p></p>
+    <p>実は、その奥深さはここにあるのだ。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>暗唱、黙読、そして、聞くこと。それが心の鍛錬となる。</p>
+  </mono>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <dialog chara="002">「……モー……タラリ……モー……ラクラ……」</dialog>
+  <text>
+    <p>言葉には力がある。[\s]</p>
+    <p>素裳にはその中身を理解できないが、確実に『心』の変化を感じ取れた。</p>
+  </text>
+  <text>言葉の響き、韻律の起伏と共に、剣心訣はまるで血液に溶けるかのように、体の奇経を巡る。</text>
+  <dialog chara="002">「モー、マリ。」</dialog>
+  <bg img="心湖（1）止水" duration="10"></bg>
+  <text>
+    <p>体はますます軽くなり、頭の中も澄んでいく。</p>
+    <p>五感が一箇所に集い、心の湖に溶ける。</p>
+  </text>
+  <dialog chara="002">「モー、ウールト。」</dialog>
+  <text>湖は透き通っていて、憂慮が古い葉のように湖面に落ちても、さざ波にすらならない。</text>
+  <dialog chara="002">「モー、カバイスル。」</dialog>
+  <text>波が落ち着き、水が止まる。平静は「李素裳」という存在に満ちている。</text>
+  <text>
+    <p>それが、剣心四境の一つ。</p>
+    <p>——『止水』。</p>
+  </text>
+  <dialog chara="002">（続けよう……）</dialog>
+  <text>
+    <p>素裳は雑念を捨て、剣心に集中する。</p>
+    <p>次の境界へと入る——</p>
+  </text>
+  <event action="hide_ui" duration="5"></event>
+  <bg img="心湖（2）无尘" duration="5"></bg>
+  <delay t="4.5"></delay>
+  <text>
+    <p>心の湖が氷となり、</p>
+    <p>些細な考えを払い、少しの痕跡をも残さない。</p>
+  </text>
+  <text>第二境——『無塵』</text>
+  <dialog chara="002">（もっと……）</dialog>
+  <event action="hide_ui" duration="5"></event>
+  <bg img="心湖（3）明镜" duration="5"></bg>
+  <delay t="4.5"></delay>
+  <text>
+    <p>硬い氷のひびは消えてなくなる。</p>
+    <p>心の湖は限りなく透明に近く、万物を照らす。</p>
+  </text>
+  <text>第三境——『明鏡』</text>
+  <text>それは十数年の修行を経て、李素裳が悟った『剣心』の在処でもある。</text>
+  <text>
+    <p>しかしその上には剣心の最高境界……</p>
+    <p>この世で師匠だけが到達した第四境がある……それは……</p>
+  </text>
+  <event action="hide_ui" duration="5"></event>
+  <bg img="心湖（4）太虚" duration="5"></bg>
+  <delay t="5"></delay>
+  <text>…………『太虚』…………</text>
+  <bg img="PureBlack" duration="0"></bg>
+  <motion chara="-4" action="shake" duration="0.2" range="40" direction="default"></motion>
+  <dialog chara="002">「あっ——」</dialog>
+  <bgm looptimes="0"></bgm>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <bg img="牢房-暗"></bg>
+  <motion chara="002" action="show" pos="center" img="素裳-疲惫无神-抱手-近景"></motion>
+  <text>
+    <p>氷面が急に割れ、心の湖が流れ、剣心訣も頭の中から消散する。[\s]</p>
+    <p>李素裳はその場に座ったまま、激しい頭痛に襲われた。知らぬ間に、背中は冷や汗で濡れている。</p>
+  </text>
+  <motion chara="002" action="img_trans" img="素裳-绝望张嘴-抱手-近景"></motion>
+  <dialog chara="002">「また……失敗しちゃった。」</dialog>
+  <text>『明鏡』に到達した後、素裳の剣心は止まっていた。</text>
+  <dialog chara="002">「……どうしてかな？」</dialog>
+  <text>師匠は2歳で弟子入りしている。入門した年齢が最も早いから、剣心の境界も弟子の中で最も高いのだと、母親は言っていた。</text>
+  <text>
+    <p>しかし自分は、生まれた時から母親が暗唱した剣心訣を聞いて育っている。</p>
+    <p>師匠よりも早く進展するはずなのでは？</p>
+  </text>
+  <motion chara="002" action="img_trans" img="素裳-悲伤目前-普通-近景"></motion>
+  <text>
+    <p>師匠は13歳の時に『太虚』に到達し、</p>
+    <p>15歳の若さで無上『剣神』となった。</p>
+  </text>
+  <motion chara="002" action="img_trans" img="素裳-悲伤目下-普通-近景"></motion>
+  <text>
+    <p>自分はどうだろう？同じ15歳になったというのに……[\s]</p>
+    <p>『剣心』が円満になっていないだけではなく、</p>
+    <p>『剣意』もままならない。</p>
+  </text>
+  <text>
+    <p>この二つの難題を克服したとしても、</p>
+    <p>その先には「神」蘊が立ちはだかっている。まるで雲霧の中にいるかのように、よく見えないのだ。</p>
+  </text>
+  <dialog chara="002">「……」</dialog>
+  <dialog chara="002">「あちゃー。」</dialog>
+  <text>李素裳はボーっとして、それから、ふと笑った。</text>
+  <motion chara="002" action="img_trans" img="素裳-大笑-抱手-近景"></motion>
+  <dialog chara="002">「師匠はすごい！」</dialog>
+  <text>
+    <p>『情』は『心』蘊の敵である。</p>
+    <p>もし心の海に現れた感情を放っておいた場合、剣心が破損する恐れがあるのだ。</p>
+    <p>明鏡の心を有する素裳はよく知っている。</p>
+  </text>
+  <motion chara="002" action="img_trans" img="素裳-笑-普通-近景"></motion>
+  <dialog chara="002">
+    <p>「平気、ただの挫折でしょ。大したことない。</p>
+    <p>今の最優先事項はやっぱり試剣のことだよ！」</p>
+  </dialog>
+  <text>
+    <p>素裳は横に置いていた包みを手にする。</p>
+    <p>計画通りにいけば、今夜こそ、剣が鞘から抜かれる時なのだ。</p>
+  </text>
+  <event action="goto" to="10"></event>
+</scene>
+scripts>

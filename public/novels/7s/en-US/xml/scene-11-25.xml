@@ -1,0 +1,67 @@
+<scene id="25" prev="24" title="生きて">
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <bgm id="侠女之声（女抒情）"></bgm>
+  <bg img="凌霜小屋室内"></bg>
+  <delay t="2"></delay>
+  <text>李素裳は苦労して、昏睡状態の羅刹人を寝台に寝かせた。</text>
+  <cg img="CG_第二折_奥托重伤" duration="2"></cg>
+  <text>頭はまだクラクラしており、指を動かすだけで全身に激痛が走る。それでも彼女は力を振り絞り、この難しい作業をやり遂げた。</text>
+  <text>彼女は羅刹人に掛布団をかけ、横に腰かけた。そして鼻歌を口ずさんだ。</text>
+  <dialog chara="002">「ラララ姉よ兄よ……ラララ……」</dialog>
+  <text>この曲は、まるで岸に流れ着いた枯れ葉のように、突如として彼女の脳裏に浮かんできた。</text>
+  <dialog chara="002">「ラララ……ラララ、姉よ姉よ……」</dialog>
+  <text>あぁ、この歌を聞いたのはいつだっただろうか？誰が歌っていたのだろう？</text>
+  <text>不思議なことに、素裳は母である秦素衣の姿を思い浮かべた。</text>
+  <event action="hide_ui"></event>
+  <cg img="CG_回忆篇_李素裳" duration="3"></cg>
+  <delay t="3"></delay>
+  <event action="show_ui"></event>
+  <text>普段着の母親が素裳の前にしゃがみ込み、手を伸ばして彼女の髪の毛を優しく撫でてくれた。</text>
+  <dialog chara="009">「まだ幼いあなたを、母さんのために遠いところに送ることになって……本当にごめんね。でも、母さんはちゃんと手配しておくから。将来、あなたの剣が大成した時にはもう、誰も私たちをいじめられなくなるわ。」</dialog>
+  <dialog chara="009" inline="true">「母さんにも苦衷がある。今あなたに話しても、きっと分かってもらえない。この武術界に身を置くと、自分で決められないことがたくさんあるの。でも……</dialog>
+  <dialog chara="009">生きていくの、素裳、あなたはちゃんと生きていくの。母さんと約束して。」</dialog>
+  <event action="hide_ui"></event>
+  <cg duration="2"></cg>
+  <delay t="2"></delay>
+  <event action="show_ui"></event>
+  <text>少女の澄んだ歌声がぴたりと止まった。</text>
+  <dialog chara="002">「……」</dialog>
+  <text>李素裳は特に理由もなく剣心に意識を集中させ、心の湖に大きく硬い氷を張った。</text>
+  <bg img="心湖（3）明镜"></bg>
+  <text>無数の荒れ狂う激流のように、思考が水の下へと沈んでいく。</text>
+  <text>その上に位置する心の湖は鏡のように澄み、万物を映し出す。</text>
+  <text>突然、素裳は未来を予知できるような感覚に襲われた。間もなく扉が開き、師匠がいつものように淡々とした表情で、自分の方へと歩いてくるのが分かる――</text>
+  <event action="hide_ui"></event>
+  <se id="01-71开门声"></se>
+  <bg img="凌霜小屋室内" duration="3"></bg>
+  <motion chara="007" action="show" pos="center" img="凌霜-标准-标准-远景"></motion>
+  <delay t="3"></delay>
+  <event action="show_ui"></event>
+  <text>すべてが予想通りだ。</text>
+  <event action="hide_ui"></event>
+  <motion chara="007" action="hide"></motion>
+  <motion chara="007" action="show" img="凌霜-标准-标准-近景" duration="1" pos="center"></motion>
+  <delay t="1"></delay>
+  <event action="show_ui"></event>
+  <text>
+    <p>凌霜は重い足取りでゆっくりと素裳のそばへと歩み寄る。</p>
+    <p>彼女の顔にはまったく表情がなかった。あらゆるものに対して興味がないかのようだ。</p>
+  </text>
+  <text>李素裳は師匠を見て、拭い去れない影を追い払うかのように本能的に微笑んだ。</text>
+  <dialog chara="007">「……」</dialog>
+  <motion chara="007" action="img_trans" img="凌霜-厌烦-标准-近景"></motion>
+  <text>凌霜はやや間を置き、面倒くさそうに瞬きをして、言う。</text>
+  <dialog chara="007">「あなたのお母さんが亡くなったそうよ。」</dialog>
+  <delay t="1"></delay>
+  <event action="achievement" aid="f264952df7ffa72c"></event>
+  <notification>伝記解放：「秦素衣」</notification>
+  <delay t="2"></delay>
+  <motion chara="007" action="hide" delay="2"></motion>
+  <transition mode="fade" in="3" stop="0.5" out="1" color="#000000"></transition>
+  <bg img="第二折_结尾_底板"></bg>
+  <delay t="1"></delay>
+  <cg img="结尾印子"></cg>
+  <delay t="3"></delay>
+  <transition mode="fade" in="3" stop="0.5" out="0" color="#000000"></transition>
+  <event action="goto" to="27"></event>
+</scene>

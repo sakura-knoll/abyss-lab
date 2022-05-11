@@ -1,0 +1,196 @@
+<scene id="01" type="block" prev="00" title="序2">
+  <text>少年は礼をすると、背を向けて山を下りていった。林朝雨は弟子の姿が石段のほうに消えていくのを見届けてから、黙ったままの蘇湄に向き直る。</text>
+  <bgm id="天穹"></bgm>
+  <motion chara="003" action="hide"></motion>
+  <motion chara="004" action="hide"></motion>
+  <transition mode="fade" in="1" stop="0.5" out="1.6" color="#000000"></transition>
+  <event action="hide_ui" duration="1.5"></event>
+  <bg img="拂云观-亮" scale="1.2"></bg>
+  <motion chara="004" action="show" img="苏湄-自信-标准-中景" pos="right"></motion>
+  <motion chara="003" action="show" reversex="true" img="林朝雨-不悦-标准-中景" pos="left"></motion>
+  <delay t="1.4"></delay>
+  <dialog chara="003">「あなたのことは妹弟子だと思っているけれど、私の太虚剣派に口を挟む権利なんてないのよ。」</dialog>
+  <motion chara="004" action="img_trans" img="苏湄-甜笑-标准-中景"></motion>
+  <dialog chara="004">「ごめんなさい。」</dialog>
+  <text>蘇湄は笑顔のまま視線を遠くに向け、そして、またこの小さな部屋を見回した。</text>
+  <motion chara="003" action="img_trans" img="林朝雨-不悦-标准-中景" reversex="true"></motion>
+  <motion chara="004" action="img_trans" img="苏湄-自信-标准-中景"></motion>
+  <dialog chara="004">「太虚剣派、拂雲観……ふふ、それらはすべて朝雨姉さんのものよ。」</dialog>
+  <text>林朝雨は冷たく、ふん、と鼻を鳴らして応えた。</text>
+  <dialog chara="003">「いずれにしても太虚一門は伝えていかないと。私の手で途切れさせるわけにはいかないわ。」</dialog>
+  <motion chara="004" action="img_trans" img="苏湄-甜笑-标准-中景"></motion>
+  <dialog chara="004">「はぁ、私たち七人の中で、朝雨姉さんが一番昔を懐かしがっているわね。」</dialog>
+  <text>二人は世間話を続け、いつまでも本題に入らなかった。林朝雨は辛抱強く待ち続けたが、蘇湄は瑣末なことに興味津々な様子だった。</text>
+  <motion chara="004" action="img_trans" img="苏湄-自信-标准-中景"></motion>
+  <dialog chara="004">「朝雨姉さんの弟子は中々の素質があるわね。度胸もあるし。ただ、男なのが残念ね。彦ちゃんの境地まで鍛え上げるのは難しいでしょう。」</dialog>
+  <dialog chara="003">「……私は弟子を取る時、師匠ほど才能を重視しないの。それに、彦卿は誰も敵わないほどの武術の才能を持っているのよ。男女など関係なく、私の弟子は誰一人として彦卿には及ばないわ。」</dialog>
+  <motion action="img_trans" chara="003" img="林朝雨-怅然-标准-中景" reversex="true"></motion>
+  <dialog chara="003">「でも、枕玉は確かに筋がいいわね。太虚派は、いずれ次の世代に引き継がれるでしょう。もしかしたら彼が私の最後の弟子になるかもしれないわ。」</dialog>
+  <dialog chara="004">「朝雨姉さんったら、今から最後の弟子のことを考えているの？」</dialog>
+  <motion chara="003" action="img_trans" img="林朝雨-心头一震-标准-中景" reversex="true"></motion>
+  <text>林朝雨はやや呆然とし、急に青ざめる。</text>
+  <text>精衛の七人の弟子の中で、彼女は最も年長で、二番弟子より十五歳も年上だった。[\s]林朝雨も最初は気にしていなかったが、歳月が経ち、さらに一番年下の馬非馬と結婚したことで、余計に年齢を意識するようになっていた。</text>
+  <motion chara="003" action="img_trans" reversex="true" img="林朝雨-愤怒-标准-中景"></motion>
+  <dialog chara="003">「蘇湄、私の辛抱強さを試そうとするのはよしなさい……本題に戻りましょう。」</dialog>
+  <text>太虚剣派の当主は、腹の探り合いを打ち破る。</text>
+  <dialog chara="003">「師匠が復活して、妹弟子が死んだ。次は私たちの番――あなたはどうするつもり？[\s]雑談をするためだけに、久しぶりに会いに来たわけではないでしょう？あなた……もう一度、師匠を殺すつもりなの？」</dialog>
+  <dialog chara="004">「……」</dialog>
+  <text>林朝雨は、妹弟子の沈黙を肯定と受け取った。</text>
+  <motion chara="003" action="img_trans" reversex="true" img="林朝雨-愤恨-标准-中景"></motion>
+  <dialog chara="003">「蘇湄、あなたのことは好きじゃないけれど、かつては実の妹のように思っていたわ。だから、一言忠告してあげましょう。」</dialog>
+  <dialog chara="003">「今は昔とは違う。私たち七人が揃うことはもうないわ。あの時は運がよかっただけよ。もう一度やっても、同じ結果になるとは限らない。」</dialog>
+  <text>林朝雨は長いため息をついた。</text>
+  <motion chara="003" action="img_trans" reversex="true" img="林朝雨-心头一震-标准-中景"></motion>
+  <dialog chara="003">
+    <p>「もう二十年も経つのに、あの晩を忘れたことはないわ……</p>
+    <p>婉如と凌霜も、危うく命を落とすところだった。もしあなたがいなければ、彦卿の顔のあの剣も……災いとなっていたでしょうね。」</p>
+  </dialog>
+  <motion chara="004" action="img_trans" img="苏湄-甜笑-标准-中景"></motion>
+  <dialog chara="004">「やっぱり、朝雨姉さんは昔が懐かしくてたまらないのね。ふふ、もう二十年よ。『もし』なんてないわ。」</dialog>
+  <text>
+    <p>蘇湄は、過去のことにはまったく興味がなかった。</p>
+    <p>林朝雨も理解していたが、まったく賛同できなかった。</p>
+  </text>
+  <motion chara="004" action="img_trans" img="苏湄-自信-标准-中景"></motion>
+  <motion chara="003" action="img_trans" img="林朝雨-不悦-标准-中景" reversex="true"></motion>
+  <dialog chara="003">「ふん、言ってごらんなさい。あなたの計画はどんなものなの？」</dialog>
+  <dialog chara="004">「計画なんてないわよ。」</dialog>
+  <motion chara="003" action="img_trans" reversex="true" img="林朝雨-惊恐-标准-中景"></motion>
+  <text>武術界では誰もが聡明だと認め、『知計無双』の異名を取る蘇湄だが、彼女はそう言い放った。</text>
+  <motion action="img_trans" chara="004" img="苏湄-闭目-标准-中景"></motion>
+  <dialog chara="004">「どんなに考え抜いても、完璧にうまくいく計画なんてないでしょう？計画通りにいくなら、師匠は今頃死んでいるはずだし、この世に戻って来るはずもない……」</dialog>
+  <motion chara="004" action="img_trans" img="苏湄-标准-标准-中景"></motion>
+  <dialog chara="004">「だから計画なんて立てるつもりはないわ。変化は常に起きているし、人の心なんて計算できないもの。」</dialog>
+  <motion chara="003" action="img_trans" reversex="true" img="林朝雨-惊讶-标准-中景"></motion>
+  <text>林朝雨の心の中に、急に冷たいものがこみ上げてくる。</text>
+  <text>蘇湄を嫌ってはいても、内心では、彼女には何らかの考えがあるはずだと信じていたのだ。</text>
+  <text>ちょうど二十年前、彼女が七人を集め、天下無敵の真仙である精衛の誅殺を企んだ時のように。――時間とともに、世の中も移り変わる。それは分かっていたが、太虚七剣も昔とは変わってしまっていた。</text>
+  <motion chara="003" action="img_trans" reversex="true" img="林朝雨-怅然-标准-中景"></motion>
+  <dialog chara="003">「それで、あなたは……」</dialog>
+  <motion chara="004" action="img_trans" img="苏湄-平静-标准-中景"></motion>
+  <dialog chara="004">「そうね、計画はないけど、方法ならたくさんあるわ。」</dialog>
+  <motion chara="003" action="img_trans" reversex="true" img="林朝雨-惊讶-标准-中景"></motion>
+  <text>林朝雨は訝しげに眉をひそめる。</text>
+  <dialog chara="003">「方法？」</dialog>
+  <motion action="img_trans" chara="004" img="苏湄-闭目-标准-中景"></motion>
+  <dialog chara="004">「ええ。」</dialog>
+  <dialog chara="004">
+    <p>「二十年前、私たちは師匠を葬り、太虚山に火を放った。</p>
+    <p>その後、山に戻ってみたのだけど、不審な点が見つかったの。」</p>
+  </dialog>
+  <motion chara="004" action="img_trans" img="苏湄-平静-标准-中景"></motion>
+  <dialog chara="004">「師匠の軒轅剣がなくなっていたのよ。」</dialog>
+  <text>蘇湄は一歩前に進み出る。林朝雨を見つめる目には、さらに深い意味が込められているようだった。</text>
+  <event action="hide_ui" duration="1.5"></event>
+  <motion chara="003" action="hide"></motion>
+  <motion chara="004" action="hide"></motion>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <bg img="拂云观-亮" scale="1.3"></bg>
+  <motion chara="003" action="show" reversex="true" img="林朝雨-惊恐-标准-近景" pos="left"></motion>
+  <motion chara="004" action="show" pos="right" img="苏湄-平静-标准-近景"></motion>
+  <dialog chara="003">「……なくなっていた？」</dialog>
+  <dialog chara="004">「……」</dialog>
+  <text>蘇湄はじっと林朝雨の顔を見つめていたが、急に視線を逸らす。</text>
+  <motion chara="004" action="img_trans" img="苏湄-标准-标准-近景"></motion>
+  <dialog chara="004">「……朝雨姉さんじゃないわ。」</dialog>
+  <dialog chara="003">「えっ？」</dialog>
+  <motion chara="004" action="img_trans" img="苏湄-自信-标准-近景"></motion>
+  <text>蘇湄は何か面白いことでも思いついたかのように、顔にうっすらと笑みを浮かべた。</text>
+  <dialog chara="004">「私が戻った時、師匠の棺は燃え尽きていたの。棺の中の骨も焼け焦げ、見る影もなかったわ。残念だけど、棺の位置は私が決めたのよ。あの場所なら火の手が回るはずはないと思っていたから。」</dialog>
+  <dialog chara="004">「だから、私は現場を調べてみたの。そうしたら、やっぱり――」</dialog>
+  <motion chara="004" action="img_trans" img="苏湄-标准-标准-近景"></motion>
+  <dialog chara="004">「棺の中の亡骸は師匠のものではなかったわ。」</dialog>
+  <motion chara="003" action="img_trans" img="林朝雨-愤怒-标准-近景" reversex="true"></motion>
+  <dialog chara="003">「……何ですって？」</dialog>
+  <motion chara="003" action="img_trans" reversex="true" img="林朝雨-惊恐-标准-近景"></motion>
+  <dialog chara="004">「…………」</dialog>
+  <dialog chara="003">
+    <p>「つまり……あなたはずっと前から、師匠が生きていることを知っていたの？あなた……二十年前から知っていたの？</p>
+    <p>それなのに、教えずにいたなんて……何も言わず、黙っていた……」</p>
+  </dialog>
+  <motion chara="004" action="img_trans" img="苏湄-平静-标准-近景"></motion>
+  <dialog chara="004">「……」</dialog>
+  <motion chara="003" action="img_trans" reversex="true" img="林朝雨-怅然-标准-近景"></motion>
+  <dialog chara="003">
+    <p>「知らなかったわ。ずっと知らなかった……彦卿は？彦卿も事情を知らないの？婉兮と婉如は……</p>
+    <p>それに、素衣。少なくとも素衣には知らせないと――」</p>
+  </dialog>
+  <dialog chara="004">「いいえ。誰にも言ってないわ。」</dialog>
+  <motion chara="003" action="hide" img="林朝雨-怅然-标准-近景"></motion>
+  <text>林朝雨は後ろに下がった。突如、小じわの増えた頬に痛みが走る。老いは、太虚剣派の当主の誇りを打ち砕いた。彼女は一瞬で十歳も年老いたかのようだった。時間が、彼女のごまかしを消し去っていく。</text>
+  <motion chara="003" action="show" img="林朝雨-愤怒-标准-近景" reversex="true" pos="left"></motion>
+  <dialog chara="003">
+    <p>「素衣は生涯孤独に生きてきたわ。あの子は私たちとは違う。私たちは準備をしているけれど……いずれにしても、あの子に知らせないわけにいかないわ。</p>
+    <p>一体、どうして？蘇湄、どうして私たちに黙っていたの？」</p>
+  </dialog>
+  <motion chara="004" action="img_trans" img="苏湄-标准-标准-近景"></motion>
+  <dialog chara="004">「そうね……どうしてかしら？」</dialog>
+  <motion chara="004" action="img_trans" img="苏湄-瞥视-标准-近景"></motion>
+  <motion chara="003" action="img_trans" img="林朝雨-惊讶-标准-近景" reversex="true"></motion>
+  <text>蘇湄は呟くように言う。その目には霧がかかっているようだった。</text>
+  <dialog chara="004">「……時間……」</dialog>
+  <text>その口から、ぼんやりとした言葉が出てきた。蘇湄は気が動転したかのように周囲を見回す。まるで記憶を失った老人が、過去の遺物の山の中から自分でもよく分からない宝物を探しているかのようだった。</text>
+  <dialog chara="004">「ただ……もう少し……時間が……」</dialog>
+  <motion chara="004" action="img_trans" img="苏湄-闭目-标准-近景"></motion>
+  <text>そう言いながら、彼女は目を閉じる。どうやら、話題の終わりを意味しているようだ。[\s]彼女が再び口を開いた時、老人の幻影は消えていた。林朝雨の前に立っているのは、落ち着き払った無双門の主だった。</text>
+  <motion chara="004" action="img_trans" img="苏湄-平静-标准-近景"></motion>
+  <dialog chara="004">「そうよ……私はずっと前から知っていたわ。二十年前、師匠の遺体が太虚山から消えたの。誰かが盗んだのかもしれないし、師匠は既に蘇っているのかもしれない――分かるわけないでしょう？私はただ、1つの『可能性』に気付いただけ。」</dialog>
+  <dialog chara="004">「師匠は死んでいない、生きているかもしれないってね。」</dialog>
+  <dialog chara="004">
+    <p>「どんなに信じられなくても、可能性がある以上は無視できない。[\s]</p>
+    <p>だから無双門を作り、彼らを中原の各地に派遣したのよ。彼らには妖魔を倒すだけでなく、師匠の行方を探し、怪しい場所を見張る任務も与えていたの。」</p>
+  </dialog>
+  <dialog chara="004">
+    <p>「そして私は……</p>
+    <p>ここ数年、師匠と軒轅剣の秘密をずっと探ってきたの。多少は収穫があったわ。[\s]</p>
+    <p>必ず勝てるという確証はないけれど、使える手段は十分ある。」</p>
+  </dialog>
+  <text>『手段』……その言葉は林朝雨をやや不愉快な気持ちにさせた。</text>
+  <motion chara="003" action="img_trans" img="林朝雨-心头一震-标准-近景" reversex="true"></motion>
+  <dialog chara="003">「師匠に汚い真似をしてはダメよ。向こうは精衛真人なのだから。」</dialog>
+  <motion chara="004" action="img_trans" img="苏湄-瞥视-标准-近景"></motion>
+  <dialog chara="004">「ええ……私だって師匠に失敬なことをするつもりはないわ。」</dialog>
+  <motion chara="004" action="img_trans" img="苏湄-标准-标准-近景"></motion>
+  <text>蘇湄は口元にかすかな笑みを浮かべたが、そこには悲しみが混ざっていた。</text>
+  <dialog chara="004">「師匠が私を殺しに来るなら、それは当然のことよ。殺された人には復讐する権利があるもの。」</dialog>
+  <dialog chara="004">「だけど、師匠殺しについては後悔していないわ。ああでもしなければ、私たちは今でも果てしない苦痛の中にいたでしょうから。朝雨姉さんは？」</dialog>
+  <motion chara="003" action="img_trans" img="林朝雨-怅然-标准-近景" reversex="true"></motion>
+  <dialog chara="003">「……」</dialog>
+  <text>一緒に過ごした三十年の月日が細い針となり、太虚剣派の女当主の胸に軽く刺さった。</text>
+  <dialog chara="003">「……私も後悔していないわ。」</dialog>
+  <text>林朝雨は小さな声で言った。</text>
+  <motion chara="003" action="img_trans" img="林朝雨-认真-标准-近景" reversex="true"></motion>
+  <motion chara="004" action="img_trans" img="苏湄-自信-标准-近景"></motion>
+  <dialog chara="004">
+    <p>「いいの。私は座して死を待つつもりなんてない。これから、全力で師匠と戦うわ。生死や勝敗は神のみぞ知る――[\s]</p>
+    <p>それがここに来た目的よ。朝雨姉さん、力を貸してほしいの。」</p>
+  </dialog>
+  <text>
+    <p>林朝雨は、目の前の赤髪の女性をじっと見つめた。[\s]</p>
+    <p>彼女はかつて、自分の妹であり、親友であり、仲間であり、恋敵であり、敵でもあった。一度決別した以上、死ぬまで関わることはないと思っていた。</p>
+  </text>
+  <text>しかし今、林朝雨の心の中には様々な感情が渦巻き、一つにまとまらずにいる。</text>
+  <text>そして、彼女は最後にこう言った。</text>
+  <motion chara="003" action="img_trans" img="林朝雨-心头一震-标准-近景" reversex="true"></motion>
+  <dialog chara="003">「言ってごらんなさい。」</dialog>
+  <transition mode="fade" in="1" stop="0.1" out="0" color="#000000"></transition>
+  <motion chara="004" action="hide"></motion>
+  <motion chara="003" action="hide"></motion>
+  <transition mode="fade" in="0" stop="0.5" out="1" color="#000000"></transition>
+  <cg img="CG_第二折_天穹苏湄" duration="1"></cg>
+  <text>蘇湄は拂雲観から出て、天穹峰の頂上で両腕を広げ、円を描きながら答える。</text>
+  <motion chara="004" action="show" pos="center" img="苏湄-甜笑-标准-近景"></motion>
+  <dialog chara="004">「朝雨姉さんの太虚剣派が欲しいの。」</dialog>
+  <event action="hide_ui" duration="8"></event>
+  <motion chara="004" action="hide" duration="2.5"></motion>
+  <transition mode="fade" in="2" stop="0.5" color="#000000" out="0"></transition>
+  <cg></cg>
+  <bgm looptimes="0"></bgm>
+  <transition mode="fade" in="0" stop="0.5" out="1" color="#000000"></transition>
+  <bg img="Chapter02"></bg>
+  <delay t="2.5"></delay>
+  <se id="01-10标题试剑"></se>
+  <delay t="3"></delay>
+  <transition mode="fade" in="2" stop="3" out="0" color="#000000"></transition>
+  <event action="goto" to="02"></event>
+</scene>

@@ -1,0 +1,208 @@
+<scene id="01" prev="00" title="宿場">
+  <transition mode="fade" in="0" stop="0.5" out="3" color="#000000"></transition>
+  <bgm id="中原传说"></bgm>
+  <bg img="沙漠驿站"></bg>
+  <delay t="2"></delay>
+  <mono pageend="true">
+    <p></p>
+    <p>ここは砂漠の中の小さな宿場。</p>
+  </mono>
+  <mono inline="true">
+    <p></p>
+    <p>1400年前、流浪のテュイク人がここでオアシスを発見した。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p>彼らは神様の加護に感謝し、思う存分水を飲んだが、止まることはなかった。</p>
+  </mono>
+  <mono inline="true">
+    <p></p>
+    <p>そこから300年、顔国の隊商がここを通った。</p>
+  </mono>
+  <mono inline="true">
+    <p></p>
+    <p>宝石と絹織物を満載した隊商に、一人の外交の使者がいた。</p>
+    <p>その使者の価値は荷物を遥かに超えている。なぜなら彼は西域に出向き、同盟を結ぶ責任を背負っているからだ。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p>商人たちはここで足を休め、翌日に出発した。</p>
+    <p>彼らは漠北を出ておらず、誰もその行方を知らない。</p>
+  </mono>
+  <mono inline="true">
+    <p></p>
+    <p>740年前、ハンユー族の遊牧民がオアシスの横に拠点を作った。</p>
+    <p></p>
+    <p>この水源がある限り、私たちはもう漂泊しないで済むと、首領は民たちにそう告げた。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p>100年後、匈人は北からやってきた。彼らはハンユーの村を一掃し、老人と男を殺し、女と子供を連れて遠い西域に向かった。</p>
+    <p></p>
+    <p>……オアシスは匈人たちによって残され、再び世界に忘れ去られた。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>そして時が流れる。[\s]</p>
+    <p></p>
+    <p>文明は生まれ、滅亡する。人々は行ったり来たり、やがて歴史という川に消えてなくなる。</p>
+  </mono>
+  <bgm looptimes="0"></bgm>
+  <transition mode="fade" in="2" stop="1" out="2" color="#000000"></transition>
+  <se id="01-11沙漠环境loop（有风沙）" looptimes="0"></se>
+  <bg img="氛围_第一折_烈阳" duration="1"></bg>
+  <delay t="1.2"></delay>
+  <bg img="氛围_第一折_烈阳" duration="3" scale="1.2" origin="80%,20%"></bg>
+  <delay t="3.2"></delay>
+  <bgm id="神秘东方"></bgm>
+  <text>見上げると、大地を焦がすほどの烈日がある。</text>
+  <se id="01-12沙漠环境（无风沙）" looptimes="-1"></se>
+  <event action="hide_ui" duration="9"></event>
+  <bg img="BGDesert01" duration="3"></bg>
+  <delay t="3"></delay>
+  <bg img="BGDesert03" duration="3"></bg>
+  <delay t="3"></delay>
+  <bg img="BGDesert02" duration="3"></bg>
+  <delay t="3"></delay>
+  <event action="show_ui"></event>
+  <se id="01-12沙漠环境（无风沙）" looptimes="0"></se>
+  <text>周りを見渡すと、立ち上る熱の気流の中、幾重にも重なる砂丘はまるで湧き上がる波のように見える。</text>
+  <event action="hide_ui" duration="2"></event>
+  <motion chara="095" action="show" pos="right" img="砂匪2-中-普通" duration="2"></motion>
+  <delay t="2"></delay>
+  <event action="show_ui"></event>
+  <se id="01-14男气声哎"></se>
+  <dialog chara="095">「……はぁ。」</dialog>
+  <text>
+    <p>オアシスの来訪者は今、古い壁の陰に隠れながらため息をつく。[\s]</p>
+    <p>この重苦しい烈日と砂の海を、彼は3ヶ月間も見ているのだ。</p>
+  </text>
+  <se id="01-13男气声哎"></se>
+  <dialog chara="095">「はぁ…………」</dialog>
+  <text>
+    <p>男はもう一度ため息をつく。</p>
+    <p>砂漠の物寂しさと暑さのせいで気が晴れない。</p>
+  </text>
+  <text>
+    <p>見渡す限り、景色は変わらない——</p>
+    <p>太陽、空、黄砂……何もかもが停滞していて、微動だにしない。</p>
+    <p>空気まで固まっているような気がして、少しの風も感じられないのだ。</p>
+  </text>
+  <motion chara="095" action="img_trans" img="砂匪2-中-惊慌"></motion>
+  <dialog chara="095">「栄さん……そっちはどうだ？」</dialog>
+  <motion chara="095" action="hide"></motion>
+  <transition mode="move" in="0.5" stop="0.5" out="0.5" color="#000000" direction="right" custom="default"></transition>
+  <bg img="BGDesert02"></bg>
+  <motion chara="094" action="show" pos="left" img="砂匪1-远-普通"></motion>
+  <dialog chara="094">「…………」</dialog>
+  <text>離れた場所にいる男の仲間は返答せず、ただ頭を振っている——状況に変化なし、という意味だ。</text>
+  <text>
+    <p>相手は知っているのだ、男は単に退屈を紛らわすためだけに話しかけてきたのだと。</p>
+    <p>しかしこの黄砂に囲まれた蒸籠のような場所では、話すこと自体が贅沢だ。</p>
+  </text>
+  <text>
+    <p>口を開くというのは、精神の緩み、水分の流失を意味する。</p>
+    <p>『金砂会』の番人にとってそれはもったいないことだ。</p>
+  </text>
+  <motion chara="094" action="hide"></motion>
+  <transition mode="move" in="0.5" stop="0.5" out="0.5" color="#000000" direction="left" custom="default"></transition>
+  <bg img="BGDesert01"></bg>
+  <motion chara="095" action="show" pos="right" img="砂匪2-中-普通"></motion>
+  <remark>
+    <p>ㅤ</p>
+    <p>注：</p>
+    <p>ㅤ</p>
+    <p>『※』は罵り言葉です。悪影響を避けるため、ここでは米印で表現しています。内容はご想像にお任せします。もしくは、お忘れください。</p>
+    <p>ㅤ</p>
+    <p>物語の登場人物は、出自、環境、個人の教養などの要素により、罵り言葉を口にすることがあります。しかし、小説内では登場人物の性格を尊重するため、一部非表示となります。予めご了承ください。</p>
+  </remark>
+  <dialog chara="095">「ああ、いいさ……※※、分かったよ。」</dialog>
+  <text>拒否された男は少し苛立って、唇を舐めた。</text>
+  <text>彼はまだ新入りで、『金砂会』に入って数ヶ月しか経っておらず、まだ全てのルールを把握していない。そうでなければ、彼は水の貴重さを知り、首領が帰ってくるまで無口のまま、壁の影に隠れるだろう。</text>
+  <motion chara="095" action="img_trans" img="砂匪2-中-微笑"></motion>
+  <remark>
+    <p>ㅤ</p>
+    <p>注：</p>
+    <p>ㅤ</p>
+    <p>『※』は罵り言葉です。悪影響を避けるため、ここでは米印で表現しています。内容はご想像にお任せします。もしくは、お忘れください。</p>
+    <p>ㅤ</p>
+    <p>物語の登場人物は、出自、環境、個人の教養などの要素により、罵り言葉を口にすることがあります。しかし、小説内では登場人物の性格を尊重するため、一部非表示となります。予めご了承ください。</p>
+  </remark>
+  <dialog chara="095">「※、あれはでかい商売だぞ。」</dialog>
+  <text>
+    <p>男は鬱憤を晴らすために悪態をつく。</p>
+    <p>声は大きくない。たとえ仲間に聞かれても、内容を聞き取ることはできないだろう。</p>
+  </text>
+  <motion chara="095" action="img_trans" img="砂匪2-中-普通"></motion>
+  <text>
+    <p>……しかし、男はちゃんと分かっている。首領は新入りの彼を馬鹿になどしていないと。</p>
+    <p>見張りの仕事は当番制、あいにく今日は彼の番になっただけだ。</p>
+  </text>
+  <text>金砂会の中では、拠点の守りと外での戦い、どちらも功績は同じで、もらえる報酬が少なくなることはない。</text>
+  <text>
+    <p>だが、彼は亡命者だ。その手は血に汚れ、足は無数の死体を踏みつけてきた。</p>
+    <p>略奪、強盗、蹂躙、殺戮こそが彼のすべきこと。</p>
+    <p>刀を振り回し、血に染まる刺激こそが彼が得るべき報酬だ。</p>
+  </text>
+  <text>
+    <p>男は自分の価値を信じている。ㅤ[em bold color=#ff0000]戦闘[/em]ㅤとㅤ[em bold color=#ff0000]殺戮[/em]ㅤ。[\s]</p>
+    <p>もし『悪』に真偽があるのなら、男は本物の残酷非道な極悪人だろう。[\s]</p>
+    <p>彼は暴力を恥じることなく、むしろ暴力を自分の強さの証明だと考えている。</p>
+  </text>
+  <text>
+    <p>そのため、長く計画されてきた『大商売』から外されたことに、</p>
+    <p>彼は屈辱に近い怒りを感じていた。[\s]</p>
+    <p>怒りのせいで焦燥感に駆られ、口が渇き、煩わしく感じる。</p>
+  </text>
+  <motion chara="095" action="hide"></motion>
+  <transition mode="eye" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <bg img="PureBlack"></bg>
+  <se id="01-15喝水"></se>
+  <dialog chara="095">「ごくり——」</dialog>
+  <text>気分が最悪な男は水筒を持ち、ガブガブ​飲み始めた。</text>
+  <dialog chara="095">「あれは——」</dialog>
+  <bg img="氛围-1-素裳过曝-1" duration="5"></bg>
+  <event action="hide_ui" duration="4"></event>
+  <delay t="4"></delay>
+  <event action="show_ui"></event>
+  <text>男はぎょっとした。</text>
+  <event action="hide_ui" duration="3"></event>
+  <bg img="氛围-1-素裳过曝-2" duration="3"></bg>
+  <delay t="3"></delay>
+  <event action="show_ui"></event>
+  <text>視線の先から、一人の少女が歩いてくる。</text>
+  <text>
+    <p>目がかすんでいる訳でも、漠北でよくある「蜃気楼」を見た訳でもない。[\s]</p>
+    <p>あの少女……砂漠の向こうからゆっくりと歩いてくる少女は、本当に存在している。</p>
+  </text>
+  <dialog chara="095">「栄さん——！」</dialog>
+  <text>
+    <p>思わず叫んでしまった言葉は、すぐに熱気の中に消えた。</p>
+    <p>気付かぬうちに、男は金砂会の禁忌を犯していた。</p>
+  </text>
+  <text>
+    <p>一つ目、狼狽えること。</p>
+    <p>二つ目、軽率な行動を取ってしまったこと。</p>
+    <p>金砂会の古参なら、彼のように慌てることは決してないのだろう。</p>
+  </text>
+  <text>
+    <p>しかし、男の心には疑問があった。</p>
+    <p>漠北で横行する金砂会を相手に、自らやってくる女は今までいなかった。</p>
+  </text>
+  <text>「あの女は何者だ？」</text>
+  <text>「頭がおかしいのか？ここは金砂会の縄張りだぞ！」</text>
+  <text>「喧嘩か？この金砂会を相手に？」</text>
+  <text>……たくさんの疑問は稲妻のように脳を駆け巡り、最後に一つの疑問へと収束する。</text>
+  <event action="hide_ui" duration="3"></event>
+  <se id="01-17女孩沙漠行走loop" looptimes="-1"></se>
+  <bg img="氛围-1-素裳过曝-3" duration="3"></bg>
+  <delay t="3"></delay>
+  <event action="show_ui"></event>
+  <dialog chara="095">「あの女は一体……何者だ？」</dialog>
+  <bgm looptimes="0"></bgm>
+  <transition mode="fade" in="3" stop="2" out="0" color="#000000"></transition>
+  <event action="goto" to="02"></event>
+</scene>

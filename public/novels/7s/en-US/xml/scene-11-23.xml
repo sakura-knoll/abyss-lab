@@ -1,0 +1,146 @@
+<scene id="23" type="block" prev="22" title="刃不破2">
+  <bgm id="太鼓乱舞（战斗）"></bgm>
+  <motion chara="007" action="hide" duration="0"></motion>
+  <motion chara="008" action="hide" duration="0"></motion>
+  <cg img="CG_第二折_马非马分身1"></cg>
+  <se id="01-21轩辕剑氛围声"></se>
+  <text>そう言い終わると、赤絶影は光り輝き、中庭全体が霧に包まれたかのように明滅した。</text>
+  <bg img="凌霜小屋室外"></bg>
+  <dialog chara="007">「あら。」</dialog>
+  <text>凌霜は鼻であしらうような言葉を発すると、人差し指と中指で剣の鞘を挟んだ。</text>
+  <dialog chara="007">「一つの技を大事に使うことね。とっておきの必殺技を出してきなさい。」</dialog>
+  <dialog chara="008">「――いくぞ！」</dialog>
+  <event action="hide_ui"></event>
+  <se id="01-25沙子飞溅"></se>
+  <cg img="CG_第二折_马非马分身2" duration="2"></cg>
+  <event action="show_ui"></event>
+  <mono>
+    <p></p>
+    <p>気合いを入れる声を上げた瞬間、急に馬非馬の姿が二つに分かれた。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>これこそが太虚剣派六番弟子の剣意「赤絶影」だった！</p>
+  </mono>
+  <mono>
+    <p></p>
+    <p>真気を軒轅剣に注入し、さらに太虚剣意で光を屈折させる。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>馬非馬は剣意の鍛錬を20年以上重ねた結果、今では光を利用して自由に鏡像を作り出せるようになっていた。</p>
+  </mono>
+  <event action="hide_ui"></event>
+  <cg img="CG_第二折_马非马分身3" duration="3"></cg>
+  <delay t="3"></delay>
+  <event action="show_ui"></event>
+  <text>そして分身は二体から四体へ、四体から八体へと増えていった。八体の分身が百になり、千になり、数え切れぬほどになる。</text>
+  <mono>
+    <p></p>
+    <p>夕方の荒涼とした中庭に、無数の「逐駒剣」こと馬非馬が現れた――</p>
+  </mono>
+  <mono>
+    <p></p>
+    <p>同じような馬非馬が同じような赤絶影を手にしている。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>まるで一枚の鏡から無数の破片が中庭に降り注ぎ、どの破片も馬非馬の姿を映し出しているかのようだった。</p>
+  </mono>
+  <bg img="凌霜小屋室外"></bg>
+  <text>男の手には目に見えない巨剣が握られており、期待が顔に表れている。</text>
+  <transition mode="move" in="1" stop="0.5" out="1" color="#000000" direction="left" custom="default"></transition>
+  <motion chara="007" action="show" pos="center" img="凌霜-思考-标准-远景"></motion>
+  <cg></cg>
+  <delay t="0.1"></delay>
+  <dialog chara="007">「手合わせだというのに、」</dialog>
+  <text>凌霜は不機嫌そうに言った。</text>
+  <motion chara="007" action="img_trans" img="凌霜-拒绝-标准-远景"></motion>
+  <dialog chara="007">「どうして謎解きになってしまったの？」</dialog>
+  <dialog chara="008">「ほう。なら聞くが、霜姉さんは俺がどこにいるのか分かるのか！」</dialog>
+  <text>馬非馬の声が遠くから聞こえてくる。</text>
+  <motion chara="007" action="img_trans" img="凌霜-哼-标准-远景"></motion>
+  <dialog chara="007">「まだまだ甘いのね。解くだけ無駄な謎なのに、わざわざ解く必要なんてないでしょう。」</dialog>
+  <bgm></bgm>
+  <motion chara="007" action="hide" duration="0"></motion>
+  <cg img="CG_第二折_刃不破1" duration="0.5" pos="0,0" scale="2" origin="30%,10%"></cg>
+  <delay t="1"></delay>
+  <cg img="CG_第二折_刃不破1" duration="1" pos="0,0" scale="1" origin="30%,10%"></cg>
+  <delay t="1"></delay>
+  <text>凌霜はそう言いながら、指を返して空に向けた。剣の鞘が真っ直ぐ上を向く。</text>
+  <se id="01-26大刀向下挥"></se>
+  <cg img="CG_第二折_刃不破1" duration="0.2" pos="0,-800"></cg>
+  <dialog chara="007">「はっ！」</dialog>
+  <cg img="CG_第二折_刃不破2" duration="0.3" scale="2"></cg>
+  <delay t="0.1"></delay>
+  <cg img="CG_第二折_刃不破2" reset="true"></cg>
+  <motion chara="-4" action="shake" duration="0.2" range="30" direction="default"></motion>
+  <delay t="0.1"></delay>
+  <se id="01-80雷电 轰隆"></se>
+  <text>
+    <p>気合を入れる声とともに、剣の鞘『刃不破』は前方へと飛んでいった。</p>
+    <p>鞘の先端が落雷のように落ち、空気が轟音とともに爆発し、中庭全体が揺れる――</p>
+  </text>
+  <text>二人の周囲に立ち込めていた水蒸気が忽然と消え、大気は割れた鏡のように裂け目からバラバラに崩れていった。</text>
+  <event action="hide_ui"></event>
+  <cg img="CG_第二折_马非马分身3" duration="1"></cg>
+  <delay t="1"></delay>
+  <motion chara="-4" action="shake" duration="0.5" direction="default" range="20"></motion>
+  <cg img="CG_第二折_马非马分身4" duration="1"></cg>
+  <se id="01-55手指弹剑"></se>
+  <delay t="2"></delay>
+  <event action="show_ui"></event>
+  <text>馬非馬の無数の体にもひびが入り、粉々になっていく。</text>
+  <cg img="CG_第二折_刃不破2"></cg>
+  <text>無数の破片の光の中で、凌霜は微動だにしなかった。</text>
+  <dialog chara="007">「真実と虚構が入り混じった見事な戦術ね。さすがは師匠の高弟。」</dialog>
+  <bgm id="原始武士"></bgm>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <cg></cg>
+  <motion chara="007" action="show" pos="left" img="凌霜-注视-标准-远景"></motion>
+  <motion chara="008" action="show" pos="right" img="马非马-闭目-收剑"></motion>
+  <dialog chara="008">「……恐れ入った。いやはや……本当に感服した。」</dialog>
+  <text>「刃不破」の鞘の先端は馬非馬の喉のすぐ手前で止まっていた。</text>
+  <text>高く掲げていた赤絶影は地面に落ち、馬非馬は俯きながら大剣を見つめている。その顔には苦笑が浮かんでいた。</text>
+  <motion chara="008" action="img_trans" img="马非马-苦笑-标准-远景"></motion>
+  <dialog chara="008">「霜姉さんに敵わないことは分かっていたが、一体何をしたんだ？俺には……」</dialog>
+  <motion chara="007" action="img_trans" img="凌霜-看戏-标准-远景"></motion>
+  <dialog chara="007">「あなたの剣意には三つの綻びがあったのよ。」</dialog>
+  <text>凌霜は面倒くさそうに批評する。</text>
+  <motion chara="007" action="img_trans" img="凌霜-免了-标准-远景"></motion>
+  <dialog chara="007">「一つ目は水鏡。どの分身もあなた本人と同じ動きをしていたから、あなたがどこにいるかを当てるのは難しくない。」</dialog>
+  <motion chara="007" action="img_trans" img="凌霜-嫌弃-标准-远景"></motion>
+  <dialog chara="007">「二つ目は声。戦いの時に私の言葉に応じるべきではなかった。軒轅剣で光は操れても、声の出所は変えられないもの。」</dialog>
+  <motion chara="007" action="img_trans" img="凌霜-哼-标准-远景"></motion>
+  <dialog chara="007">「三つ目は気の流れ。肉眼で見るまでもない。あなたが少しでも動けば、気配の流れで自然と位置が分かるのよ。」</dialog>
+  <bgm looptimes="0"></bgm>
+  <motion chara="008" action="img_trans" img="马非马-悲伤-标准-远景"></motion>
+  <dialog chara="008">「ハハッ……湄姉さんもそう言っていたな。」</dialog>
+  <motion chara="007" action="img_trans" img="凌霜-小恶魔-标准-远景"></motion>
+  <dialog chara="007">「馬鹿なことを言わないで。私ですら三つも綻びをみつけたのよ。蘇湄姉さんなら十個は見つけるでしょう。」</dialog>
+  <dialog chara="008">「……」</dialog>
+  <motion chara="008" action="img_trans" img="马非马-笑-标准-远景"></motion>
+  <bgm id="秋恋古道（慢抒情）"></bgm>
+  <motion chara="007" action="img_trans" img="凌霜-标准-标准-远景"></motion>
+  <dialog chara="008">「はぁ、くそ、俺の実力もまだまだだな。」</dialog>
+  <motion chara="008" action="img_trans" img="马非马-闭目-标准-远景"></motion>
+  <dialog chara="008">「霜姉さんに負けるのはともかくとして、木の鞘なんかに……太虚剣意を破られるとは思わなかった。」</dialog>
+  <motion chara="007" action="img_trans" img="凌霜-哼-标准-远景"></motion>
+  <dialog chara="007">「そんなに卑下する必要はなんてないでしょう。彦卿、あなたの成長は目を見張るものがあるもの。以前は曲芸みたいなことしかできなかったけど、今では自分の分身を作れるんだもの。剣意を鍛錬している証拠ね。」</dialog>
+  <dialog chara="007">「蘇湄姉さんと私以外の人では、あなたに勝つのは難しいでしょうね。」</dialog>
+  <motion chara="007" action="img_trans" img="凌霜-对吧-标准-远景"></motion>
+  <dialog chara="007">「でも、遠路はるばる私と手合わせするために来たのだから、喜んで受けて立ったってわけ。小手先の技で勝っても面白くないから、あなたの技を崩そうとしたの――」</dialog>
+  <motion chara="007" action="img_trans" img="凌霜-微笑-标准-远景"></motion>
+  <dialog chara="007">「それにしても、どうして私の弟子を倒したの？犬を叩く時には飼い主の顔色を伺うものでしょう？」</dialog>
+  <motion chara="008" action="img_trans" img="马非马-苦笑-标准-远景"></motion>
+  <motion chara="007" action="img_trans" img="凌霜-厌烦-标准-远景"></motion>
+  <dialog chara="007">「それから、」</dialog>
+  <se id="01-57接住剑柄"></se>
+  <text>刃不破が空中でクルクルと回った。</text>
+  <motion chara="007" action="img_trans" img="凌霜-标准-标准-远景"></motion>
+  <dialog chara="007">
+    <p>「これは普通の木の鞘よ。とても使いものにならないわ。</p>
+    <p>あなたを破った技は剣魂ではなく剣神なの――分かる？負けてもしょうがないでしょう？」</p>
+  </dialog>
+  <event action="goto" to="24"></event>
+</scene>

@@ -1,0 +1,261 @@
+<scene id="15" prev="14" title="約束">
+  <transition mode="fade" in="0" stop="0.5" out="1" color="#000000"></transition>
+  <bg img="PureBlack"></bg>
+  <cg img="CG_第一折_起手姿势_1" duration="1"></cg>
+  <delay t="0.5"></delay>
+  <cg img="CG_第一折_起手姿势_1" duration="10" pos="-50,75" scale="1.2"></cg>
+  <bgm id="传奇诞生"></bgm>
+  <text inline="true">李素裳は低い姿勢のまま左ひざを地面すれすれまで曲げ、親指、薬指、小指で軽く地面に触れた。</text>
+  <text>もし誰かが彼女のその時の様子に気付いていれば、滑稽の極みとすら思ったかもしれない。</text>
+  <text>しかし、李素裳の身のこなしをもってすれば、凡人の動体視力でその不思議な構えを捕捉することなど不可能だった。</text>
+  <text>
+    <p>その技は太虚剣気ではなく、李家に伝わる軽功だった。</p>
+    <p>「飛燕功」。</p>
+  </text>
+  <event action="hide_ui" duration="1"></event>
+  <delay t="0.1"></delay>
+  <motion chara="-4" action="shake" duration="0.1" range="1000" direction="vertical"></motion>
+  <se id="01-30女孩轻功whoosh_02"></se>
+  <cg duration="0.1"></cg>
+  <delay t="0.1"></delay>
+  <bg img="BGPureWhite00"></bg>
+  <bg img="老鹰黑屏" duration="0" pos="-600,0"></bg>
+  <delay t="0.1"></delay>
+  <bg img="老鹰黑屏" duration="0.5"></bg>
+  <delay t="0.5"></delay>
+  <text>黒い影が閃いたかと思うと、すでに李素裳が「鷹」の目の前まで跳躍していた。</text>
+  <text>彼女が最初に繰り出したのは手刀による攻撃だった。</text>
+  <bg img="老鹰黑屏" duration="0.3" scale="3" origin="45%,80%"></bg>
+  <delay t="0.3"></delay>
+  <motion chara="-5" action="show" pos="center" img="竖劈-上下(透明) "></motion>
+  <se id="01-22女孩轻功whoosh_01"></se>
+  <motion chara="-5" action="hide" delay="0.2"></motion>
+  <se id="01-23腿部命中"></se>
+  <motion chara="-4" action="shake" duration="0.2" range="400" direction="vertical"></motion>
+  <bg img="老鹰黑屏" duration="0.1"></bg>
+  <delay t="0.3"></delay>
+  <se id="01-28胸口命中"></se>
+  <motion chara="-4" action="shake" duration="0.2" range="400" direction="horizontal"></motion>
+  <motion chara="-5" action="show" pos="left" img="对战特效（小）"></motion>
+  <delay t="0.1"></delay>
+  <motion chara="-5" action="hide" delay="0.2"></motion>
+  <delay t="0.1"></delay>
+  <bg img="PureBlack"></bg>
+  <text>
+    <p>彼女の右手が「鷹」の前腕に命中し、彼は「軒轅」を落とす。</p>
+    <p>そして返す手で稲妻のような掌打を男のみぞおちに叩き込み、吹き飛ばした。</p>
+  </text>
+  <se id="01-57接住剑柄"></se>
+  <bg img="废弃驿站"></bg>
+  <event action="hide_ui" duration="4"></event>
+  <motion chara="015" action="show" pos="left" img="老鹰-惊讶-肉搏备战-远景" duration="2"></motion>
+  <delay t="2"></delay>
+  <motion chara="002" action="show" img="素裳-笑-背剑-远景" pos="right" duration="2"></motion>
+  <delay t="1"></delay>
+  <text>それと同時に、彼女の左手は古剣を正確に掴み取っていた。</text>
+  <text>
+    <p>慣れ親しんだ安心感が素裳の胸に満ち溢れた。</p>
+    <p>再び剣を握り締める。しっくりくる感じだ。</p>
+  </text>
+  <text>李素裳は宝剣を振り、「鷹」に明るく微笑んだ。</text>
+  <motion chara="002" action="img_trans" img="素裳-大笑-背剑-远景"></motion>
+  <dialog chara="002">「ありがと。」</dialog>
+  <motion chara="015" action="img_trans" img="老鹰-微笑-肉搏备战-远景"></motion>
+  <text inline="true">彼女の口調は素直で可愛らしかったが、「鷹」にはこの上ない屈辱に聞こえた。</text>
+  <text>
+    <p></p>
+    <p>長年、漠北を旅してきたが、これほどまでに打ち負かされたことはない。</p>
+  </text>
+  <motion chara="002" action="hide"></motion>
+  <motion chara="015" action="hide"></motion>
+  <transition mode="move" in="1" stop="0.5" out="1" color="#000000" direction="right" custom="default"></transition>
+  <bg img="PureBlack"></bg>
+  <mono>
+    <p></p>
+    <p>たちまち「鷹」に殺意が芽生え、それとともに復讐心が満ち溢れていった。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>ただ李素裳を殺すだけでは飽き足らない。彼女にはこれ以上ないほど悲惨な死を与えなくてはならない。</p>
+  </mono>
+  <cg img="CG_第一折_老鹰战姿_掌" duration="3"></cg>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p>彼は敵を迎え撃つ姿勢を保った。</p>
+    <p></p>
+    <p>金砂会の首領は気力を振り絞り、</p>
+    <p>目の前の少女を紛うことなく『強敵』と見なした。</p>
+  </mono>
+  <cg img="CG_第一折_老鹰战姿_掌" duration="30" scale="1.8" origin="10%,10%"></cg>
+  <mono>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>これは戦争だ。</p>
+  </mono>
+  <mono>
+    <p></p>
+    <p>武術の手合わせでも、決闘でもない。戦争なのだ。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>規模は極めて小さく、目的も単純だが、戦争に他ならない。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>ならば、</p>
+    <p></p>
+    <p>この場所は「鷹」が最も得意とする戦場だ。</p>
+    <p>この時間は「鷹」が最も戦い慣れている時間だ。</p>
+    <p></p>
+    <p>わずか数秒のうちに、彼は頭を高速回転させ、弱み、強み、変数を全て計算した。</p>
+  </mono>
+  <transition mode="dissolve" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <bg img="废弃驿站"></bg>
+  <cg></cg>
+  <mono>弱みは一つ。すなわち「実力の差」だ。</mono>
+  <mono>
+    <p></p>
+    <p>「鷹」はそのことをよく分かっており、恥じることなく認めていた。</p>
+    <p>目の前のこの少女の内功と外功は、いずれも自分のそれをはるかに上回っている。</p>
+    <p>もしかすると、自分が知っている武術界のどの人間よりも強いかもしれない。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>天と地のような大きな実力差は、最初からこの戦いの結末を決定づけている。</p>
+    <p>——もし、これがただの手合わせであればの話だが。</p>
+  </mono>
+  <mono>変数は二つ。すなわち「不明の事実」だ。</mono>
+  <mono>
+    <p></p>
+    <p>先ほど2回繰り出した掌打は、いずれも内功を使っていない。「截気散」がまだ効いているのだろうか？</p>
+    <p>この二人は地下牢から逃げ出した。「羅刹人」はまだ近くにいるのか？</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>この二つの不明の事実も、結末を左右する可能性がある。</p>
+    <p>これらを悪い方向で考えれば、「鷹」に勝ち目はないと言ってもよいだろう。</p>
+    <p>——もし、不幸にも予想通りになればの話だが。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>……形勢は非常に悪く、勝ち目はないに等しい。</p>
+    <p>それでも「鷹」は絶対に勝つ自信があった。</p>
+    <p></p>
+    <p>なぜなら、彼は「強み」も計算していたからだ。</p>
+  </mono>
+  <event action="hide_ui" duration="2"></event>
+  <motion chara="015" action="show" pos="left" img="老鹰-微笑-肉搏备战-远景" duration="2"></motion>
+  <motion chara="002" action="show" pos="right" img="素裳-浅笑-背剑-远景" duration="2"></motion>
+  <delay t="1.5"></delay>
+  <text>そして強みは三つある。</text>
+  <dialog chara="015">「ハッハッハッハッハ——」</dialog>
+  <text>男は愉快そうに笑った。</text>
+  <motion chara="015" action="img_trans" img="老鹰-狞笑-肉搏备战-远景"></motion>
+  <dialog chara="015">「見事だ！小娘、いい腕をしている！」</dialog>
+  <dialog chara="015">
+    <p>「お前のことを見くびっていたようだ。それとも俺が年を取ったか……</p>
+    <p>俺から物を奪うなど、ふっ、羅刹鬼が束になってもできなかったというのに。」</p>
+  </dialog>
+  <motion chara="002" action="img_trans" img="素裳-悲伤目前-背剑-远景"></motion>
+  <dialog chara="002">
+    <p>「へぇ……それは、どうも。でも、これは元々アタシのだからね。</p>
+    <p>あんたの物を奪ったんじゃなくて、元の所有者のところに戻っただけだよ。」</p>
+  </dialog>
+  <motion chara="015" action="img_trans" img="老鹰-微笑-肉搏备战-远景"></motion>
+  <dialog chara="015">「フッ……」</dialog>
+  <text>男は思わず笑みを浮かべた。</text>
+  <motion chara="015" action="img_trans" img="老鹰-狞笑-肉搏备战-远景"></motion>
+  <dialog chara="015">「元の所有者のところに戻ったのに、まだ立ち去らないのか？」</dialog>
+  <motion chara="002" action="img_trans" img="素裳-惊讶2-背剑-远景"></motion>
+  <dialog chara="002">「まだあんたを倒していないもの。立ち去るわけにはいかないでしょ。」</dialog>
+  <motion chara="015" action="img_trans" img="老鹰-惊讶-肉搏备战-远景"></motion>
+  <dialog chara="015">「……」</dialog>
+  <motion chara="015" action="img_trans" img="老鹰-狞笑-肉搏备战-远景"></motion>
+  <dialog chara="015">「つまり……お前は俺を殺しに来たのか。」</dialog>
+  <motion chara="002" action="img_trans" img="素裳-惊讶-背剑-远景"></motion>
+  <dialog chara="002" inline="true">「いやいや、そこまでは考えてないよ……殺しても殺さなくてもどっちでもいいの。</dialog>
+  <motion chara="002" action="img_trans" img="素裳-浅笑-背剑-远景"></motion>
+  <dialog chara="002">だけど、あんたはアタシに2回も平手打ちを食らわせたんだもの。正々堂々とお返ししないとね。」</dialog>
+  <dialog chara="015">「フッ。」</dialog>
+  <text>「鷹」は嘲笑った。</text>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p>これが一つ目の強み、「経験」だ。</p>
+    <p></p>
+    <p>武術界に長年身を置いている彼に比べれば、李素裳は外の世界の経験がないに等しかった。</p>
+    <p>彼女は「鷹」が言葉の中に隠した糸口に気が付かず、</p>
+    <p>知らず知らずのうちに罠の中へと足を踏み入れていった。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p>二つ目の強みは「個性」だ。</p>
+    <p></p>
+    <p>「鷹」は敗北の味を知っている。だからこそ、勝つためなら何でもできる。</p>
+    <p>一方の李素裳は、融通が利かないほど正直でお人好しだ。</p>
+    <p>彼女の心の中では、いまだに公正さと正義が最優先となっている。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p>この二つの強みを活かしつつ、</p>
+    <p>三つ目の強みに頼るのだ。</p>
+    <p>そして、変数に賭ける。</p>
+    <p></p>
+    <p>「鷹」は、「勝利」の天秤が必ず自分の方に傾くと確信していた。</p>
+  </mono>
+  <dialog chara="015">
+    <p>「正々堂々……いいだろう。俺もそのつもりだ。</p>
+    <p>こうしよう。小娘、俺たちで賭けをしないか。」</p>
+  </dialog>
+  <motion chara="015" action="img_trans" img="老鹰-惊讶-肉搏备战-远景"></motion>
+  <motion chara="002" action="img_trans" img="素裳-小恶魔-背剑-远景"></motion>
+  <dialog chara="002">「賭け事はよくないよ……でも、聞いてあげるから言ってみて。」</dialog>
+  <motion chara="015" action="img_trans" img="老鹰-微笑-肉搏备战-远景"></motion>
+  <motion chara="002" action="img_trans" img="素裳-浅笑-背剑-远景"></motion>
+  <dialog chara="015">「ハハ、いいだろう。」</dialog>
+  <dialog chara="015">
+    <p>「お前の望み通り、正々堂々と手合わせしよう。拳と足だけで、武器はなしだ。</p>
+    <p>俺が負けたら首を差し出してやろう。お前が負けたら宝剣を置いていけ。」</p>
+  </dialog>
+  <motion chara="002" action="img_trans" img="素裳-专注-背剑-远景"></motion>
+  <motion chara="015" action="img_trans" img="老鹰-惊讶-肉搏备战-远景"></motion>
+  <dialog chara="002">「そんなのダメだよ。」</dialog>
+  <text>少女は大きく首を横に振った。</text>
+  <motion chara="002" action="img_trans" img="素裳-浅笑-背剑-远景"></motion>
+  <dialog chara="002">
+    <p>「絶対にこの剣から離れないって母さんと約束したもの。</p>
+    <p>こうしよう。アタシが負けたらアタシも首を差し出すよ。これで公平でしょ？」</p>
+  </dialog>
+  <dialog chara="015">「……」</dialog>
+  <text>「鷹」は驚いたが、すぐさま大声をあげて笑った。</text>
+  <motion chara="015" action="img_trans" img="老鹰-狞笑-肉搏备战-远景"></motion>
+  <dialog chara="015">「公平！ハハハッ。確かに公平だ。公平この上ない！」</dialog>
+  <motion chara="002" action="img_trans" img="素裳-悲伤目前-背剑-远景"></motion>
+  <dialog chara="002">「うーん……約束してくれる？」</dialog>
+  <motion chara="002" action="img_trans" img="素裳-浅笑-背剑-远景"></motion>
+  <dialog chara="015">「約束しよう。」</dialog>
+  <motion chara="002" action="img_trans" img="素裳-大笑-背剑-远景"></motion>
+  <dialog chara="002">「よし。」</dialog>
+  <motion chara="002" action="hide" duration="0"></motion>
+  <motion chara="015" action="hide" duration="0"></motion>
+  <text inline="true">李素裳は無造作に放り投げる動きをした。</text>
+  <event action="hide_ui" duration="1"></event>
+  <cg img="氛围_通用_轩辕剑下落" duration="0.5" pos="0,200" scale="2"></cg>
+  <delay t="0.3"></delay>
+  <se id="01-26大刀向下挥"></se>
+  <text>軒轅の剣身が地面に深く突き刺さり、柄だけが古い石畳の上に伸びていた。</text>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <cg img="CG_第一折_鹰李对峙_鹰惊李抱拳_无剑" scale="2" origin="85%,54%"></cg>
+  <dialog chara="002">「アタシが先でいい？アタシの方が年下なんだし。」</dialog>
+  <cg img="CG_第一折_鹰李对峙_鹰惊李抱拳_无剑" duration="0.5" origin="85%,54%"></cg>
+  <text>そう言っている間に、素裳はもう剣心に意識を集中させていた。</text>
+  <bgm looptimes="0"></bgm>
+  <transition mode="fade" in="1" stop="0.5" out="0" color="#000000"></transition>
+  <event action="goto" to="16"></event>
+</scene>

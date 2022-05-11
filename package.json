@@ -36,12 +36,13 @@
     "dev": "run-p dev:web dev:assets",
     "dev:web": "next dev -p 4000",
     "dev:assets": "http-server assets -p 4001 -s",
-    "build": "next build",
+    "build": "npm run compile:novels && next build",
     "start": "next start",
     "lint": "next lint",
     "tsc": "tsc --watch",
     "node": "ts-node -T -P ./tsconfig-node.json",
-    "assets-sync": "sh ./secrets/scripts/sync-public-assets.sh"
+    "assets-sync": "sh ./secrets/scripts/sync-public-assets.sh",
+    "compile:novels": "npm run node src/scripts/compile7sChapters.ts"
   },
   "keywords": [],
   "author": "",

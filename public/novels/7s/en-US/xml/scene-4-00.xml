@@ -1,0 +1,372 @@
+<scene id="00" title="楔子" root="true">
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>果てしなく広がる暗闇の中で、[\s]死んだ仙人の意識が蘇った。</p>
+  </mono>
+  <se id="01-01白光转场"></se>
+  <delay t="0.15"></delay>
+  <transition in="1" stop="0.5" out="1.5" color="#ffffff" mode="fade"></transition>
+  <mono>最初、新たに生まれた意識は世界の誕生と同じように、太虚の中にある一粒の光に過ぎなかった。</mono>
+  <se id="01-01恢复意识" looptimes="-1"></se>
+  <bg img="BGIntel1" duration="3"></bg>
+  <mono>
+    <p></p>
+    <p>『その力』は限られている。感官から情報を受け取ることも、神経に指令を出すこともできなかった。</p>
+  </mono>
+  <bg img="BGIntel3" duration="5"></bg>
+  <mono pageend="true">
+    <p></p>
+    <p>混沌の中、弱い意識は古の本能に従い、盲目的でありながら揺るぎなく存在し、伸びていく。</p>
+  </mono>
+  <delay t="0.2"></delay>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>意識はまだ自分自身の死に気付いていない。[\s]</p>
+    <p>彼女は自分自身の死を認めようとしない——</p>
+  </mono>
+  <se id="01-01恢复意识" looptimes="0"></se>
+  <transition in="2" stop="0" out="0" color="#ffffff" mode="dissolve"></transition>
+  <transition mode="fade" in="0" stop="0.2" out="1.5" color="#FFFFFF"></transition>
+  <bg img="PureBlack"></bg>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>常識で判断すれば、仙人は確かに死んだ。</p>
+  </mono>
+  <event action="hide_ui"></event>
+  <cg img="CG_第一折_赤鸢碎片1"></cg>
+  <delay t="0.5"></delay>
+  <event action="show_ui"></event>
+  <mono>右足は斬られ、くるぶしから下はなくなっている。</mono>
+  <event action="hide_ui"></event>
+  <cg img="CG_第一折_赤鸢碎片2"></cg>
+  <delay t="0.5"></delay>
+  <event action="show_ui"></event>
+  <mono>両手の脈は潰され、もう使い物にならない。</mono>
+  <event action="hide_ui"></event>
+  <cg img="CG_第一折_赤鸢碎片3"></cg>
+  <delay t="0.5"></delay>
+  <event action="show_ui"></event>
+  <mono>内臓も全部破壊されている。</mono>
+  <event action="hide_ui"></event>
+  <cg img="CG_第一折_赤鸢碎片4"></cg>
+  <delay t="0.5"></delay>
+  <event action="show_ui"></event>
+  <mono>
+    <p></p>
+    <p>一番重傷を負った胸部は、十数ヶ所も損傷していた。</p>
+  </mono>
+  <cg duration="0.5"></cg>
+  <mono pageend="true">
+    <p></p>
+    <p>しかし、最も致命的な傷は頭部にある。</p>
+  </mono>
+  <transition in="0.6" stop="0" out="0" color="#8b0000" mode="dissolve"></transition>
+  <transition mode="fade" in="0" stop="0.2" out="0.15" color="#8b0000"></transition>
+  <se id="01-02大剑命中"></se>
+  <motion chara="-4" action="shake" duration="0.1" range="80" direction="horizontal"></motion>
+  <bg img="BGBlood1"></bg>
+  <mono>それは剣による傷だ。</mono>
+  <mono inline="true">
+    <p></p>
+    <p>剣が彼女の額に刺さり、</p>
+  </mono>
+  <mono inline="true">彼女の脳を破壊し、</mono>
+  <mono>そのまま頭を貫通した。</mono>
+  <mono>普通の人間ならば、彼女が受けた傷のひとつだけで死に至るだろう。</mono>
+  <mono pageend="true">
+    <p></p>
+    <p>しかし「仙人」は普通ではない。</p>
+  </mono>
+  <transition mode="eye" in="2" stop="0" out="2" color="#000000"></transition>
+  <se id="01-03野外小屋loop" looptimes="-1"></se>
+  <cg img="CG_第一折_赤鸢沉睡" duration="0" origin="15%,0%" scale="2"></cg>
+  <delay t="2.2"></delay>
+  <bg></bg>
+  <event action="show_ui"></event>
+  <mono pageend="true">仙人は不死で、不滅なり。</mono>
+  <event action="show_ui"></event>
+  <mono>
+    <p>その体は千年経っても死なず、[\s]</p>
+    <p>その魂は万年経っても消滅することはない。[\s]</p>
+    <p></p>
+    <p>命の法則を徹底的に覆した、</p>
+    <p>神州唯一無二の仙人。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>今、静かに石室に横たわる体は、まさにそういう存在であった。</p>
+  </mono>
+  <mono>ゆえに、</mono>
+  <event action="show_ui"></event>
+  <se id="01-03野外小屋loop" looptimes="0"></se>
+  <se id="01-04痊愈loop" looptimes="-1"></se>
+  <cg img="CG_第一折_赤鸢沉睡" duration="8" scale="1" origin="15%,0%"></cg>
+  <event action="show_ui"></event>
+  <mono pageend="true">
+    <p></p>
+    <p>一つ一つの神経細胞から、</p>
+    <p>仙人の脳と肉体は長い修復と再構築を始めた。</p>
+  </mono>
+  <event action="show_ui"></event>
+  <delay t="7"></delay>
+  <mono pageend="true">周りの真気を吸収することで、</mono>
+  <event action="hide_ui" duration="2"></event>
+  <cg img="CG_第一折_赤鸢沉睡2" duration="2"></cg>
+  <delay t="2"></delay>
+  <event action="show_ui"></event>
+  <se id="01-05痊愈"></se>
+  <mono>
+    <p></p>
+    <p>裂けた皮膚を修復し、</p>
+  </mono>
+  <event action="hide_ui" duration="2"></event>
+  <cg img="CG_第一折_赤鸢沉睡3" duration="2"></cg>
+  <delay t="2"></delay>
+  <se id="01-06痊愈"></se>
+  <mono>
+    <p></p>
+    <p>折れた骨を治し、</p>
+  </mono>
+  <event action="hide_ui" duration="2"></event>
+  <cg img="CG_第一折_赤鸢沉睡4" duration="2"></cg>
+  <delay t="2"></delay>
+  <se id="01-07痊愈"></se>
+  <mono>
+    <p></p>
+    <p>ボロボロになった筋肉を繋ぎ、</p>
+  </mono>
+  <event action="hide_ui" duration="2"></event>
+  <cg img="CG_第一折_赤鸢沉睡5" duration="2"></cg>
+  <delay t="2"></delay>
+  <event action="show_ui"></event>
+  <se id="01-05痊愈"></se>
+  <mono pageend="true">
+    <p></p>
+    <p>損傷した器官を再生する……</p>
+  </mono>
+  <delay t="2"></delay>
+  <transition in="3" stop="0.5" out="0" color="#ffffff" mode="halo"></transition>
+  <se id="01-04痊愈loop" looptimes="0"></se>
+  <cg></cg>
+  <transition in="0" stop="0" out="1" color="#ffffff" mode="fade"></transition>
+  <bgm id="千年之羽"></bgm>
+  <bg img="PureBlack"></bg>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>やがて、仙人の『意識』が辺りを知覚する。</p>
+  </mono>
+  <transition mode="move" in="1" stop="0.5" out="0.5" color="#000000" direction="left" custom="thick"></transition>
+  <letterbox action="show_letterbox" height="400" duration="0"></letterbox>
+  <se id="01-03野外小屋loop" looptimes="-1"></se>
+  <bg img="BGSky00"></bg>
+  <mono>石室の小窓の外で、光と影が織り成す線が、東から西へ、また西から東へと移動する様が見える。</mono>
+  <letterbox action="show_letterbox" height="300" duration="1"></letterbox>
+  <bg img="BGSky01"></bg>
+  <mono>石室の中で、消えない虫たちの死体による腐臭に紛れた、枯れた草木の匂いを嗅ぐ。</mono>
+  <letterbox action="show_letterbox" height="200" duration="1"></letterbox>
+  <bg img="BGSky02"></bg>
+  <mono>夏が終わり、秋の落葉が地に落ちる音や、雪に包まれた枝の揺れを感じる。</mono>
+  <letterbox action="show_letterbox" duration="1" height="100"></letterbox>
+  <bg img="BGSky04"></bg>
+  <mono pageend="true">
+    <p></p>
+    <p>それから、痛み、痺れ、腫れ、痒み……体の様々な部位が悲鳴を上げる。</p>
+    <p>終わりのない苦痛が襲ってくる。</p>
+  </mono>
+  <se id="01-03野外小屋loop" looptimes="0"></se>
+  <letterbox action="hide_letterbox" duration="0"></letterbox>
+  <bg img="PureBlack" duration="3"></bg>
+  <mono>
+    <p></p>
+    <p>……終わりのない修復、終わりのない痛み。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>仙人は沈黙したままだ。</p>
+  </mono>
+  <se id="01-08扰乱心神杂音loop" looptimes="-1"></se>
+  <bg img="BGNeuron03" duration="3"></bg>
+  <mono chara="000" pageend="true">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>「       私               誰          ？      」</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>頭の中は混乱したまま。覚えていることもあるが、忘れたことのほうが多い。</p>
+  </mono>
+  <mono chara="000" pageend="true">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>「       此処               何処          ？      」</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>記憶の中には断片的な言葉しかなく、彼女が求めている答えを繋ぎ合わせることができない。</p>
+  </mono>
+  <mono chara="000" pageend="true">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>「       ……              何            ？      」</p>
+  </mono>
+  <bgm id="千年之羽" looptimes="0"></bgm>
+  <se id="01-08扰乱心神杂音loop" looptimes="0"></se>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <bgm id="余烬"></bgm>
+  <cg img="CG_第一折_赤鸢沉睡end"></cg>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>そう思った瞬間、長いこと摩耗してきた感情が突如として胸に湧いた。</p>
+  </mono>
+  <se id="01-09心跳loop" looptimes="-1"></se>
+  <event action="hide_ui" duration="0.5"></event>
+  <motion action="shake" chara="-4" range="30" direction="default" duration="0.1" delay="0.1"></motion>
+  <mono>
+    <p></p>
+    <p>七……</p>
+  </mono>
+  <delay t="0.2"></delay>
+  <event action="show_ui"></event>
+  <mono>
+    <p></p>
+    <p>彼女と最も親しい七人。</p>
+  </mono>
+  <mono>彼女のそばに最も長く居た七本の剣。</mono>
+  <motion chara="-4" action="shake" duration="0.1" range="30" direction="default" looptimes="1"></motion>
+  <mono pageend="true" inline="true">
+    <p></p>
+    <p>七人が共謀し、彼女を嵌めた。[\s]</p>
+    <p>七本の剣が罠を仕掛け、彼女を殺した。</p>
+  </mono>
+  <se id="01-09心跳loop" looptimes="0"></se>
+  <transition mode="dissolve" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <bg img="PureBlack"></bg>
+  <cg></cg>
+  <mono chara="000" pageend="true">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>「       ……              何      故       ？      」</p>
+  </mono>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <bg img="BGNeuron01"></bg>
+  <cg img="CG_第一折_赤鸢沉睡end"></cg>
+  <mono pageend="true" inline="true">
+    <p>湧き上がる感情が消えることはない。[\s]</p>
+    <p>怒り、[\s]</p>
+    <p>困惑、[\s]</p>
+    <p>憤怨、[\s]</p>
+    <p>腹立ち、[\s]</p>
+    <p>そして悲しみ。</p>
+  </mono>
+  <mono chara="000">
+    <p></p>
+    <p></p>
+    <p>「……どうして？」</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>答えはない、あるのは答えを求める渇望だけ。</p>
+  </mono>
+  <event action="hide_ui" duration="3"></event>
+  <cg img="CG_第一折_赤鸢苏醒end" duration="3"></cg>
+  <delay t="3"></delay>
+  <event action="show_ui"></event>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>……仙人は待つことにした。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>かつての彼女は長い間、この地を守ってきた。時の流れは彼女にとってさほど重要ではない。</p>
+  </mono>
+  <mono pageend="true" inline="true">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>彼女は待ち続ける、体が完治する日がやってくるまで。[\s]</p>
+    <p></p>
+    <p>そしてあの七人を探し出す、自分を殺した理由を訊ねるため。</p>
+  </mono>
+  <mono>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>強い衝動がぼんやりした意識の中で焼印を押し、</p>
+    <p></p>
+    <p>彼女を促し、鞭撻し、変えていく。</p>
+    <p></p>
+    <p>待つことが習慣に、苦痛が自然になるように。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>それから……</p>
+  </mono>
+  <transition mode="clock" in="2" stop="0.5" out="0" color="#000000"></transition>
+  <transition mode="fade" in="0" stop="0" out="2" color="#000000"></transition>
+  <cg></cg>
+  <mono>
+    <p>痛い</p>
+    <p>痛い</p>
+    <p>痛い</p>
+    <p>痛い</p>
+  </mono>
+  <mono>
+    <p></p>
+    <p>終わりのない修復、終わりのない痛み。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>仙人は沈黙したままだ。</p>
+  </mono>
+  <transition in="1" stop="0.1" out="1" color="#000000" mode="dissolve"></transition>
+  <bg img="PureBlack"></bg>
+  <mono>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>彼女は長い間我慢してきた、</p>
+  </mono>
+  <mono pageend="true">彼女はまだまだ我慢できる。</mono>
+  <bgm looptimes="0"></bgm>
+  <event action="hide_ui"></event>
+  <transition in="1" stop="0.5" out="1" color="#000000" mode="fade"></transition>
+  <bg img="Chapter01"></bg>
+  <delay t="2.5"></delay>
+  <se id="01-10标题试剑"></se>
+  <delay t="6"></delay>
+  <transition in="2" stop="3" out="0" color="#000000" mode="fade"></transition>
+  <event action="goto" to="01"></event>
+</scene>

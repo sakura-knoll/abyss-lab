@@ -1,0 +1,189 @@
+<scene id="12" prev="11" title="悪い羅刹人">
+  <transition mode="fade" in="0" stop="0.5" out="0.5" color="#000000"></transition>
+  <bg img="牢房-暗"></bg>
+  <se id="01-34男沙地重摔"></se>
+  <delay t="0.5"></delay>
+  <motion chara="-4" action="shake" duration="0.5" range="40" direction="default"></motion>
+  <text>ドン。</text>
+  <text>李素裳は突き飛ばされ、地面に転んだ。</text>
+  <dialog chara="002">「う——」</dialog>
+  <text>痛くはないが、素裳は本能的に喚いた。少女の柔らかい声は口の中に入れられた布のせいで打って変わって、低い鳴き声にしかならない。</text>
+  <text>強盗たちが牢屋の外で談笑し、汚い言葉を放つ。</text>
+  <bg img="PureBlack" duration="4"></bg>
+  <text>
+    <p>ガタッ。[\s]</p>
+    <p>鉄格子の鍵がかかった。</p>
+  </text>
+  <text>松明の光が足音と共に遠くなる。少女は、暗い地下牢の中に置き去りにされてしまった。</text>
+  <text>
+    <p>素裳は体を動かしながら、座ろうと試みる。[\s]</p>
+    <p>彼女の目はまだ暗闇に慣れておらず、何も見えない。両足を動かす時に、何かにぶつけた。</p>
+  </text>
+  <event action="hide_ui" duration="1"></event>
+  <delay t="1"></delay>
+  <se id="01-50奥托叹气"></se>
+  <text>そして、ため息が聞こえる。</text>
+  <event action="hide_ui" duration="3"></event>
+  <bg img="牢房-暗" duration="3"></bg>
+  <delay t="2.5"></delay>
+  <text>その声と共に、部屋の中に仄かに揺らめく炎が現れ、かろうじて小さな牢屋を照らした。</text>
+  <bgm id="神秘东方"></bgm>
+  <bg img="牢房-亮" duration="4"></bg>
+  <delay t="4"></delay>
+  <motion chara="002" action="show" pos="center" img="素裳-惊讶-背手-中景" duration="1"></motion>
+  <text>
+    <p>李素裳は、驚く。[\s]</p>
+    <p>彼女を驚かせたのは突如現れた火の光ではなく、ため息をついた相手だった。</p>
+  </text>
+  <motion chara="002" action="hide"></motion>
+  <transition mode="fade" in="1" stop="0.5" out="0.2" color="#000000"></transition>
+  <se id="01-37棺材氛围声loop" looptimes="-1"></se>
+  <event action="hide_ui" duration="8"></event>
+  <cg img="CG_第一折_奥托地牢_看杯" duration="0" scale="3" origin="25%,75%"></cg>
+  <delay t="2"></delay>
+  <transition mode="fade" in="0.2" stop="0.1" out="0.2" color="#000000"></transition>
+  <cg duration="0" scale="3" img="CG_第一折_奥托地牢_看杯" origin="25%,25%"></cg>
+  <delay t="2"></delay>
+  <transition mode="fade" in="0.2" stop="0.1" out="0.2" color="#000000"></transition>
+  <cg img="CG_第一折_奥托地牢_看杯" duration="0" scale="3" origin="75%,75%"></cg>
+  <delay t="2"></delay>
+  <transition mode="fade" in="0.2" stop="0.1" out="0.2" color="#000000"></transition>
+  <cg img="CG_第一折_奥托地牢_看杯" duration="0" scale="3" origin="75%,25%"></cg>
+  <delay t="2"></delay>
+  <transition mode="fade" in="0.2" stop="0.1" out="0.2" color="#000000"></transition>
+  <cg img="CG_第一折_奥托地牢_看杯"></cg>
+  <text>それは20歳くらいの女性で、白い肌と美しい容姿を持っていた。神州人とは全く違っていて、まるで伝説の中の仙人のようだ。</text>
+  <text>炎が彼女の耳元で揺らぎ、妖艶さを一層引き立てている。</text>
+  <text>
+    <p>[em italic]羅刹人……[/em][\s]</p>
+    <p>李素裳は強盗たちのひそひそ話を思い出した。[\s]</p>
+    <p>[em italic]羅刹人は、こんな感じなんだ。[/em]</p>
+  </text>
+  <event action="hide_ui" duration="2"></event>
+  <cg img="CG_第一折_奥托地牢_看杯" duration="8" scale="2.8" origin="5%,3%"></cg>
+  <delay t="2"></delay>
+  <text>
+    <p>その横を見ると、女性の横には大きな棺が置いてあった。</p>
+    <p>危うく蹴ってしまいそうになったものである。</p>
+  </text>
+  <text>棺桶はよくあるものだ。わざわざ避けるようなものでもない。しかし、怪談話をたくさん聞いてきた素裳は、やはり怯えてしまう。こんな時に、こんなものが暗い地下牢の中に現れるなんて、不気味そのものだ。</text>
+  <text>
+    <p>素裳は本能的に視線を逸らし、また羅刹の女性に戻す。</p>
+    <p>最初はチラッと見ただけだったが、相手の反応がないと分かった後は、開き直ってじっと見つめ始める。</p>
+  </text>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <event action="hide_ui" duration="1"></event>
+  <cg img="CG_第一折_奥托地牢_看杯"></cg>
+  <delay t="1"></delay>
+  <text>羅刹人は彼女の無礼な眼差しを無視し、ただ手に持つ硝子の容器を揺らす。</text>
+  <cg img="CG_第一折_奥托地牢_看人"></cg>
+  <dialog chara="002">「うううむ？」</dialog>
+  <text>
+    <p>口の中に布が入っていることを忘れていた彼女は、意味不明な音しか出せない。[\s]</p>
+    <p>李素裳は気まずそうな表情をしたが、周りは暗く、相手に悟られずに済んだ。</p>
+  </text>
+  <text>素裳は女性に、口の中の布を外してほしいと視線を送る。</text>
+  <cg img="CG_第一折_奥托地牢_看杯"></cg>
+  <text>
+    <p>だが、羅刹人は視線を戻し、素知らぬ顔をした。</p>
+    <p>何度か目配せをしてみたが、全部相手に無視される。少しの反応もない。</p>
+  </text>
+  <dialog chara="002">（こいつ——）</dialog>
+  <text>ふといい案が閃き、素裳はあの棺を蹴る振りをした。</text>
+  <se id="01-47火熄灭"></se>
+  <transition mode="eye" in="0.2" stop="0.5" out="0.1" color="#000000"></transition>
+  <bg img="PureBlack"></bg>
+  <cg></cg>
+  <text>李素裳が枷をはめられた両足を上げようとした時、炎が一瞬消える。続いて、口元の重圧感から解放された。</text>
+  <transition mode="fade" in="1" stop="1" out="1" color="#000000"></transition>
+  <se id="01-48火燃烧"></se>
+  <delay t="1"></delay>
+  <cg img="CG_第一折_奥托地牢_看人" duration="3"></cg>
+  <delay t="1"></delay>
+  <text>
+    <p>そして、再び火が灯る。李素裳は壁際にいる羅刹人をチラリと見たが、彼女は先ほどの姿勢のままだった。[\s]</p>
+    <p>ただ、彼女がこちらに向ける視線には、かすかな苛立ちが混ざっていた。</p>
+  </text>
+  <cg duration="1" img="CG_第一折_奥托地牢_看杯"></cg>
+  <delay t="1"></delay>
+  <dialog chara="001" inline="true">「何がしたい？」</dialog>
+  <dialog chara="002">
+    <p></p>
+    <p>「男だったの？」</p>
+  </dialog>
+  <text>二人は同時に口を開き、同時に驚いた。</text>
+  <text>
+    <p>羅刹人は口を閉ざし、黙って李素裳の言葉を肯定した。</p>
+    <p>しかし李素裳の口からは、立て続けに言葉が出る。</p>
+  </text>
+  <dialog chara="002">
+    <p>「アタシ？別に何もしないよ。ただ、あんたに布を取ってもらいたかっただけ。</p>
+    <p>ありがとう。あんた、いい人なんだね。ただちょっと……女っぽいけど。」</p>
+  </dialog>
+  <dialog chara="002">
+    <p>「この恩は必ず返すよ。</p>
+    <p>気功を使ってこの枷を外したらあんたを——って、あんたの枷は！？」</p>
+  </dialog>
+  <text>
+    <p>猿轡をされ、手足に枷をはめられていた李素裳とは異なり、</p>
+    <p>この羅刹人の体は一切拘束されていなかった。</p>
+  </text>
+  <text>それだけではない。彼は凝った装飾の椅子に腰かけ、グラスを片手に持ち、赤い液体に口をつけている。その姿はとても上品だった。</text>
+  <dialog chara="002">「あんた……囚人でしょ？」</dialog>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <bg img="牢房-亮"></bg>
+  <cg></cg>
+  <motion chara="001" action="show" pos="left" duration="2" img="奥托-严肃-标准-中景（棺材）"></motion>
+  <se id="01-05痊愈"></se>
+  <se id="01-37棺材氛围声loop" looptimes="0"></se>
+  <text>羅刹人は一言も発することなく立ち上がった。椅子とグラスは雪や水が蒸発するかのように、火の中へと消えていった。</text>
+  <motion chara="002" action="show" pos="right" img="素裳-吓脸黑-背手-中景"></motion>
+  <dialog chara="002" inline="true">「えええええ……</dialog>
+  <motion chara="002" action="img_trans" img="素裳-吓-背手-中景"></motion>
+  <dialog chara="002">よ、妖術！妖怪！」</dialog>
+  <text>李素裳は血の気が引いた。</text>
+  <text>
+    <p>少女は怖いもの知らずだが、霊的なものには弱かったのだ。[\s]</p>
+    <p>彼女は羅刹人の妖術に腰を抜かした。女傑としてのメンツなどお構いなしである。</p>
+  </text>
+  <event action="hide_ui" duration="1"></event>
+  <motion chara="001" action="hide"></motion>
+  <motion chara="002" action="hide"></motion>
+  <text>甲高い悲鳴が地下牢の中に長く響いたが、誰一人として応じる者はおらず、様子を見に来る者もいなかった。[\s]羅刹人は悲鳴が終わり、彼女が炎に映る自分の影を見るまで待ってから口を開いた。</text>
+  <motion chara="001" action="show" pos="left" duration="1" img="奥托-标准-标准-中景（棺材）"></motion>
+  <motion chara="002" action="show" pos="right" duration="1" img="素裳-吓脸黑-背手-中景"></motion>
+  <dialog chara="001">「違う。」</dialog>
+  <text>素裳は少し考え、ようやくそれが、自分の質問に対する答えだと分かった。</text>
+  <motion chara="002" action="img_trans" img="素裳-欸真的吗-背手-中景"></motion>
+  <dialog chara="002" inline="true">「何が違うの？妖怪じゃないの？あっ、囚人じゃないって言ったよね。</dialog>
+  <motion chara="002" action="img_trans" img="素裳-嘟嘴-背手-中景"></motion>
+  <dialog chara="002">
+    <p></p>
+    <p>あれ？じゃあどうしてここに閉じこめられているの？あんた、アタシを騙して——」</p>
+  </dialog>
+  <dialog chara="001">「……」</dialog>
+  <motion chara="002" action="img_trans" img="素裳-悲伤目前-背手-中景"></motion>
+  <text>羅刹人は肯定も否定もしない。彼女の言葉が理解できているかも定かではなかった。素裳はその男性をチラリと見る。息を呑むほど美しい顔立ちをしており、ならず者には見えなかった。</text>
+  <text>無意識のうちに頭が回転し始め、素裳は目の前の羅刹人の過去について、あれこれと思い浮かべた。</text>
+  <motion chara="002" action="img_trans" img="素裳-惊讶2-背手-中景"></motion>
+  <dialog chara="002">
+    <p>「あんたも金砂会に捕まったの？</p>
+    <p>そんなはずないよね。あいつらは極悪人だから、囚人を鎖で繋げないなんておかしいもの。」</p>
+  </dialog>
+  <dialog chara="002">
+    <p>「もしかして、『鷹』の客？だからあんたに遠慮してるとか……</p>
+    <p>それも違うよね。そうだったらアタシをあんたと一緒に閉じこめるはずないもの。」</p>
+  </dialog>
+  <dialog chara="001">「……」</dialog>
+  <motion chara="002" action="img_trans" img="素裳-小恶魔-背手-中景"></motion>
+  <dialog chara="002">「まさか……アタシと同じこと考えてる？」</dialog>
+  <dialog chara="002">「そうなんでしょ？アタシの思った通りなんじゃない？」</dialog>
+  <motion chara="002" action="img_trans" img="素裳-笑-背手-中景"></motion>
+  <motion chara="001" action="img_trans" img="奥托-微笑自信-标准-中景（棺材）"></motion>
+  <text>羅刹人は肩をすくめ、口元にかすかな笑みを浮かべた。</text>
+  <dialog chara="001">「僕は君じゃない。何を考えているかなんて分からない。」</dialog>
+  <motion chara="002" action="img_trans" img="素裳-大笑-背手-中景"></motion>
+  <bgm id="原始武士"></bgm>
+  <dialog chara="002">「うっ……じゃあ教えてあげる。」</dialog>
+  <event action="goto" to="13"></event>
+</scene>

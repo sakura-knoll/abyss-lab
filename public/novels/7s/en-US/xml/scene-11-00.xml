@@ -1,0 +1,201 @@
+<scene id="00" title="序">
+  <transition mode="fade" in="0" stop="0.5" out="3" color="#000000"></transition>
+  <bg img="拂云观-侧面"></bg>
+  <bgm id="秋恋古道（慢抒情）"></bgm>
+  <delay t="3"></delay>
+  <dialog chara="012">「ふぅ……」</dialog>
+  <motion chara="012" action="show" img="枕玉-闭眼张嘴-敲门-中景（汗）" pos="center" duration="1"></motion>
+  <text>
+    <p>少年は大きく深呼吸した。</p>
+    <p>彼は手を伸ばして扉を叩こうとしたが、拳が扉に当たる寸前で止める。</p>
+  </text>
+  <motion chara="012" action="img_trans" img="枕玉-标准-敲门-中景（汗）"></motion>
+  <dialog chara="012">「どうして僕なんだよ……」</dialog>
+  <text>不満と無力感が、少年の心の中で渦巻いていた。</text>
+  <transition mode="shutter" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <bg img="PureBlack"></bg>
+  <text>少年の名は枕玉という。太虚剣派に入門してから三ヶ月も経っていない弟子なのだが、当主から大目玉を食らうために、天穹峰の頂上にある彼女の部屋へと遣わされていた。</text>
+  <motion chara="012" action="img_trans" img="枕玉-闭眼张嘴-敲门-中景（汗）"></motion>
+  <dialog chara="012">（当主様からお叱りを受ける役目を僕に押し付けるなんて、姉弟子も兄弟子もひどすぎるよ……）</dialog>
+  <text>少年は当主の怒った姿を想像し、不安で落ち着かない気持ちになった。</text>
+  <motion chara="012" action="hide"></motion>
+  <transition mode="eye" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <bg img="拂云观-亮"></bg>
+  <event action="hide_ui" duration="1"></event>
+  <motion chara="003" action="show" pos="right" img="林朝雨-标准-标准-中景" duration="1"></motion>
+  <delay t="1"></delay>
+  <mono pageend="true">
+    <p></p>
+    <p>太虚剣派当主――『軽塵剣』こと、林朝雨。</p>
+    <p>今年で五十六歳になり、天命を知る年齢も過ぎている。</p>
+  </mono>
+  <mono>
+    <p></p>
+    <p>精衛仙人が金色の光に包まれて天に昇り、太虚山は炎に包まれた。</p>
+    <p>その後、仙人の一番弟子だった彼女と六人の兄弟弟子はこの天穹峰に残り、</p>
+    <p>太虚剣派を再建した。</p>
+    <p></p>
+    <p>十年余りの時を経て、太虚剣派は見事に復活を遂げ、</p>
+    <p>神州武術界の六大派に名を連ねている。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>そのため、林朝雨の名声もとても高く、夫の『逐駒剣』こと</p>
+    <p>馬非馬と共に、武術界の誰もが羨む武術家夫婦となっていた。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>一門の主である林朝雨は決して偏屈な性格ではない。</p>
+    <p>その逆で、彼女は誰に対しても優しく穏やかに、</p>
+    <p>平等に接する。</p>
+    <p></p>
+    <p>幾つかの例外を除いては。[\s]</p>
+    <p></p>
+    <p>その例外に接すると、林朝雨はいつも</p>
+    <p>人が変わったように怒り狂う。</p>
+  </mono>
+  <motion chara="003" action="hide"></motion>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <bg img="入云阶" pos="0,-600"></bg>
+  <text>少年が天穹峰に来たばかりの頃、世話好きな兄弟子たちが彼に教えてくれた。</text>
+  <bg img="入云阶" duration="60" pos="0,0"></bg>
+  <dialog chara="-1">
+    <p>「枕玉、お前は来たばかりだから、ここの掟を教えてやる。</p>
+    <p>当主の前では、ある話題と二人の名前を絶対に口にしちゃいけないんだ。」</p>
+  </dialog>
+  <dialog chara="-1">
+    <p>「ある話題とは、副当主のことだ。</p>
+    <p>副当主が外でやっていることについては、何を聞いても当主には話すな。この二人の話には口出し無用だ。」</p>
+  </dialog>
+  <dialog chara="012">「それなら大丈夫だよ。」</dialog>
+  <text>
+    <p>枕玉は慌てて頷いた。夫婦の問題など、部外者が口を挟むべきではない。</p>
+    <p>彼は口数が多いほうではない。なので、そんな失敗はしないだろう。</p>
+  </text>
+  <dialog chara="012">「ある話題についてはわかったよ。それと、二人の名前って？」</dialog>
+  <dialog chara="-1">「一人は俺たちの師匠の師匠、つまり大師匠、精衛真人だ……」</dialog>
+  <text>兄弟子は急に声を潜め、周囲を見回した。</text>
+  <dialog chara="-1">「お前たちはまだ小さいからこの名前を聞いたことがないかもしれないが、昔、大師匠はすごく有名だったんだ。下界に下りてから、千年も年を取っていない神様だって。」</dialog>
+  <dialog chara="-1">「精衛真人は二十年前に、仙人の世界に戻った。だけど、それを口に出して当主を刺激するなよ。大師匠が天に昇った時、当主を連れて行かなかったもんだから、ずっと気にしているんだ。」</dialog>
+  <dialog chara="012">「うんうん。」</dialog>
+  <text>精衛真人の名前は時間が経つにつれて色褪せていたが、少年は彼女に関する話を多々聞いていた。むしろ、『唯一の真仙』の存在があったからこそ、遠路はるばる天穹峰までやって来て、太虚剣派に入門したと言ってもいいくらいだ。</text>
+  <dialog chara="-1">「もう一人の名前は、『無双』こと蘇湄だ。彼女は当主の妹弟子なんだが、二人の関係は水と油なんだよ……」</dialog>
+  <dialog chara="-1">「この名前は口に出すどころか、お前の耳にも入れるな。無双門の人間に出くわしたら、遠く離れて隠れるんだ。奴らとは一切関係を持つんじゃないぞ。」</dialog>
+  <dialog chara="012">「えっ？」</dialog>
+  <transition mode="eye" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <event action="hide_ui" duration="1.5"></event>
+  <bg img="BGDarkRoom"></bg>
+  <motion chara="004" action="show" pos="right" duration="2" img="苏湄-自信-标准-中景"></motion>
+  <mono>
+    <p></p>
+    <p>無双門――それは二十年近く前、新たな太虚剣派と</p>
+    <p>ほぼ同時期に創設されたが、規模はまったく違う。</p>
+    <p></p>
+    <p>今の太虚剣派は六大派に名を連ねているが、</p>
+    <p>無双門はいまだに小さな宗派だ。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>しかし、無双門の門弟に手を出そうとする者はいない。</p>
+    <p>その理由は、当主――『才色兼備』の蘇湄にあった。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>絶世の美貌、そして、優れた知性を持つ女性。</p>
+    <p></p>
+    <p>蘇湄は精衛真人の二番弟子だったが、武術界では</p>
+    <p>太虚七剣の中で最も恐ろしい人物とされており、畏敬の念を込めて</p>
+    <p>『女諸葛』、『無双仙人』と呼ばれていた。</p>
+  </mono>
+  <motion chara="004" action="hide"></motion>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <bg img="入云阶"></bg>
+  <dialog chara="012">「……そんなに恐ろしいの？」</dialog>
+  <text>兄弟子たちは顔を見合わせ、一斉に頷く。</text>
+  <dialog chara="-1">「恐ろしいんだ。」</dialog>
+  <event action="hide_ui" duration="2.1"></event>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <bg img="拂云观-侧面（开门）" duration="2"></bg>
+  <motion chara="012" action="show" img="枕玉-闭眼张嘴-敲门-中景（汗）" pos="center"></motion>
+  <dialog chara="012">「…………」</dialog>
+  <text>彼がぼんやりしていると、部屋の中から当主の声が聞こえてきた。</text>
+  <motion chara="012" action="img_trans" img="枕玉-吃惊-敲门-中景（汗）"></motion>
+  <dialog chara="003">「枕玉、外で何をぼんやりとしているの？」</dialog>
+  <motion chara="012" action="img_trans" img="枕玉-吃惊张嘴-标准-中景"></motion>
+  <dialog chara="012">「あっ……はい！弟子、枕玉。入ります。」</dialog>
+  <text>少年は緊張していたが、それと同時に興奮もしていた。</text>
+  <motion chara="012" action="img_trans" img="枕玉-吃惊张嘴-标准-中景（多汗）"></motion>
+  <dialog chara="012">「当主様……どうして、僕のことをご存知で？」</dialog>
+  <dialog chara="003">「何故？弟子の名前も覚えられないほど年老いてはいないわ。」</dialog>
+  <text>
+    <p>当主が答えた。</p>
+    <p>その声の中には、非難というよりも自嘲の響きがあった。</p>
+  </text>
+  <dialog chara="003">「門派の者は217名、全員のことをしっかりと覚えているわよ。[\s]内息は乱れているし、足どりもしっかりしていない。明らかに基礎ができていない。そんな者は、入門したばかりのあなたしかいないでしょう。」</dialog>
+  <motion chara="012" action="img_trans" img="枕玉-标准-标准-中景"></motion>
+  <dialog chara="012">「……あっ、は、はい。これからもっと、修行を頑張ります！」</dialog>
+  <text>枕玉は瞬時に冷や汗を流した。[\s]彼はまだ入門してから3ヶ月しか経っておらず、『太虚真訣』の入門となる『太易勁』もまだ会得できずにいる。そのため、入雲階を登るだけで息を切らしていたのだ。</text>
+  <text>師匠の言葉は淡々としていたが、枕玉には修行不足を指摘されたように聞こえ、急に恥ずかしくなった。</text>
+  <dialog chara="004">「この入雲階を登ってくるだなんて、それだけでも大した子でしょう。怖がらせちゃダメよ。」</dialog>
+  <text>枕玉は少し不思議に思った。今の声は、当主のものではないようだ。</text>
+  <event action="hide_ui" duration="3.1"></event>
+  <motion chara="012" action="hide"></motion>
+  <se id="01-71开门声"></se>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <bg img="拂云观-亮"></bg>
+  <motion action="show" pos="800,0" chara="004" img="苏湄-自信-标准-远景"></motion>
+  <motion chara="004" action="move" pos="right" duration="2"></motion>
+  <text>扉が急に開く。中には、少年がこれまで見たことがないほど美しい女性が微笑みながら立っていた。</text>
+  <dialog chara="003">「……」</dialog>
+  <motion chara="003" action="show" pos="left" img="林朝雨-愤恨-标准-远景" duration="1"></motion>
+  <motion chara="004" action="show" pos="right" img="苏湄-自信-标准-远景" duration="1"></motion>
+  <text>彼女の背後にいる当主、林朝雨は暗い顔をしている。</text>
+  <dialog chara="003">「蘇湄……無双門のあなたが、いつから私の太虚剣派の弟子を評価するようになったの？」</dialog>
+  <motion chara="004" action="img_trans" img="苏湄-甜笑-标准-远景"></motion>
+  <dialog chara="004">「あら、余計なことを言っちゃったかしら。」</dialog>
+  <text>目を見張るほど美しい女性が、枕玉の方を向いて目を瞬かせた。</text>
+  <text>そこで、ようやく林朝雨が少年に視線を向けた。</text>
+  <motion action="img_trans" chara="003" img="林朝雨-微笑-标准-远景"></motion>
+  <motion chara="004" action="img_trans" img="苏湄-自信-标准-远景"></motion>
+  <dialog chara="003">「枕玉。何の用なの？言いなさい。」</dialog>
+  <motion chara="003" action="hide"></motion>
+  <motion chara="004" action="hide"></motion>
+  <motion chara="012" action="show" pos="center" duration="1" img="枕玉-吃惊张嘴-标准-中景（汗）"></motion>
+  <dialog chara="012">「あっ……」</dialog>
+  <text>少年は思わず躊躇う。彼は、兄弟子と姉弟子の代わりに師匠に謝りに来たのだ。</text>
+  <mono pageend="true">
+    <p></p>
+    <p>早朝の話である。『無双仙人』こと蘇湄がいきなり天穹峰へやって来て、</p>
+    <p>副当主からの言付けを当主に伝える必要があると言ったのだ。</p>
+    <p></p>
+    <p>姉弟子や兄弟子たちは師匠の逆鱗に触れるのを恐れ、</p>
+    <p>誰も、蘇湄を連れて山を登ろうとはしなかった。</p>
+    <p></p>
+    <p>そうこうしているうちに、無双門の当主はいなくなってしまったのだが……</p>
+    <p>……まさか、既に拂雲観にいるだなんて、誰も思わなかっただろう。</p>
+  </mono>
+  <text>少年はどうしていいのか分からず、ありのままを話すことにした。</text>
+  <motion chara="012" action="img_trans" img="枕玉-闭眼张嘴-标准-中景（汗）"></motion>
+  <dialog chara="012">「はい、師匠。無双門の蘇当主がお会いしたいそうです。二番弟子の姉さんや玄離兄さんは勝手に決められないとのことで、山に登って師匠に報告するようにと言われたんです。」</dialog>
+  <motion chara="012" action="hide" duration="0"></motion>
+  <motion chara="004" action="show" pos="right" img="苏湄-甜笑-标准-远景"></motion>
+  <motion chara="003" action="show" pos="left" img="林朝雨-惊讶-标准-远景"></motion>
+  <dialog chara="004">「ふふっ。」</dialog>
+  <text>横にいた蘇湄は、思わず声を出して笑った。</text>
+  <motion chara="003" action="img_trans" img="林朝雨-不悦-标准-远景"></motion>
+  <text>当主は明らかに面白くなさそうな顔をして、冷たく言い放つ。</text>
+  <dialog chara="003">「本人がここにいるのに、そんなことを報告してどうするの？戻りなさい。」</dialog>
+  <dialog chara="012">「はい……失礼します。」</dialog>
+  <text>枕玉はうなだれながら一礼した。</text>
+  <motion action="img_trans" chara="003" img="林朝雨-认真-标准-远景"></motion>
+  <dialog chara="003">「それから、」</dialog>
+  <text>当主はため息をつき、優しい声で言った。</text>
+  <motion chara="003" action="img_trans" img="林朝雨-微笑-标准-远景"></motion>
+  <dialog chara="003">「これからは使い走りで来る必要はないわ。玄離に太虚真訣を教えてもらい、太易勁と太初勁の基礎をしっかりと作りなさい。そうすれば山を登っても、そんなに疲れることはないでしょう。」</dialog>
+  <dialog chara="012">「かしこまりました。」</dialog>
+  <text>当主は少年のことを思い遣っていた。枕玉は心から感激したが、何と言えばいいのか分からず、頭を垂れてこう言っただけだった。</text>
+  <dialog chara="012">「ありがとうございます。」</dialog>
+  <dialog chara="003">「行きなさい。」</dialog>
+  <bgm looptimes="0"></bgm>
+  <event action="goto" to="01"></event>
+</scene>

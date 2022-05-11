@@ -1,0 +1,175 @@
+<scene id="15" type="block" prev="14" title="霧と火2">
+  <motion chara="002" action="show" pos="left" img="素裳-战损-虚弱-空手-中景"></motion>
+  <motion chara="008" action="show" pos="right" img="马非马-苦笑-标准-中景"></motion>
+  <dialog chara="008">「しかし、世界とはかくも残酷なものだ。娘。」</dialog>
+  <text>馬非馬は彼女から体一つ分離れた位置に立った。彼女が震えながら、両手で膝を支え、立ち上がる姿を何の驚きもなく見る。</text>
+  <dialog chara="008">
+    <p>「威勢がいいのはいいことだが、俺には勝てない。</p>
+    <p>無理するな。お前には素晴らしい未来がある。」</p>
+  </dialog>
+  <motion chara="002" action="img_trans" img="素裳-战损-顽强-空手-中景"></motion>
+  <dialog chara="002">「アタシは……負け……ない……」</dialog>
+  <text>
+    <p>少女の鼻先から血が滴り落ちた。</p>
+    <p>李素裳が顔を上げる。その目は焦点が定まっていなかった。</p>
+  </text>
+  <motion action="img_trans" chara="002" img="素裳-战损-顽强-邀战-中景"></motion>
+  <dialog chara="002">「アタシは……ゲホッ……ゲホ……あんたなんかに……」</dialog>
+  <motion chara="008" action="img_trans" img="马非马-微笑-标准-中景"></motion>
+  <dialog chara="008">「……」</dialog>
+  <motion chara="002" action="hide"></motion>
+  <motion chara="008" action="hide"></motion>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <event action="hide_ui" duration="1"></event>
+  <motion chara="002" action="show" pos="center" img="素裳-战损-顽强-标准-近景"></motion>
+  <delay t="1"></delay>
+  <mono>
+    <p></p>
+    <p>馬非馬は、このような表情を何度目にしてきたことだろう？</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>二十年もの間、大勢の人が彼の命を狙いに来た。</p>
+    <p>多数の英雄、豪傑、優れた若者が彼に挑んだ。</p>
+    <p></p>
+    <p>そのほとんどがこうだった。</p>
+    <p>僅かな勝ち目すらなくても、最後まで諦めず、生死を分ける一瞬の可能性に賭けていた。</p>
+  </mono>
+  <dialog chara="008">[em italic]（悪あがきか？……そうだろうな。）[/em]</dialog>
+  <mono pageend="true">
+    <p></p>
+    <p>しかし、馬非馬はそれが嫌いなわけではなかった。</p>
+    <p>それどころか、彼を夢中にさせていた。</p>
+  </mono>
+  <motion chara="002" action="hide"></motion>
+  <cg img="氛围_第二折_烟雾2"></cg>
+  <bg img="PureBlack"></bg>
+  <mono>
+    <p></p>
+    <p>何故なら……この霧に包まれたかのような世界で、馬非馬は孤独であったからだ。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>たった一度だけの縁でも、今後二度と会うことがなくても――[\s]</p>
+    <p></p>
+    <p>挑戦者が自らの命を燃やし、存在を証明しようとする姿を見ていると、己が世界に認められたように思えるのだ。</p>
+    <p>馬非馬は、そうした人の形をした霧が自分を包み込んでくれるような気がしていた。生きているという実感を与えてくれるのだ。</p>
+  </mono>
+  <cg></cg>
+  <mono pageend="true">
+    <p></p>
+    <p>だから彼は、いつも戦いの相手に機会を与えていた。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>だから、[\s]</p>
+    <p></p>
+    <p>彼は、いつも自分が殺されることを望んでいた――</p>
+  </mono>
+  <se id="01-32铁剑掷出"></se>
+  <event action="hide_ui" duration="2"></event>
+  <bg img="轩辕剑_灯光00%"></bg>
+  <delay t="0.1"></delay>
+  <bg img="轩辕剑_灯光00%下" duration="0.5" scale="1.2"></bg>
+  <delay t="0.5"></delay>
+  <bg img="轩辕剑_灯光00%" duration="0.5" scale="1.3" pos="-100,100"></bg>
+  <delay t="0.5"></delay>
+  <bg img="轩辕剑_灯光00%下" pos="-300,200" scale="1.5" duration="1"></bg>
+  <text>少女の前で、軒轅が音も立てず落ちた。</text>
+  <bg img="BGDesert03"></bg>
+  <motion chara="002" action="show" pos="left" img="素裳-战损-虚弱-空手-远景"></motion>
+  <motion chara="008" action="show" pos="300,0" img="马非马-笑-标准-远景"></motion>
+  <dialog chara="008">「拾え。」</dialog>
+  <text>馬非馬は言った。</text>
+  <motion chara="008" action="img_trans" img="马非马-微笑-标准-远景"></motion>
+  <dialog chara="008">「剣がなければ――お前は俺とは戦えない。」</dialog>
+  <motion chara="008" action="img_trans" img="马非马-认真-标准-远景"></motion>
+  <dialog chara="008">「俺は手加減しない。今度は全力で俺を殺しにかかれ。分かったか？拾え！」</dialog>
+  <se id="01-21轩辕剑氛围声"></se>
+  <text>素裳はゆっくりと下を向く。一滴の血が古剣に落ち、鳳凰の鳴き声のような小さな音を立てた。</text>
+  <se id="01-21轩辕剑氛围声" looptimes="0"></se>
+  <se id="01-60吐血小"></se>
+  <dialog chara="002">「あんた……どうして……剣神を……」</dialog>
+  <text>素裳は口の中の血を吐き出した。そこでようやく、言葉をはっきりと話せるようになった。</text>
+  <motion chara="008" action="img_trans" img="马非马-微惊-标准-远景"></motion>
+  <dialog chara="008">「……？」</dialog>
+  <motion chara="008" action="img_trans" img="马非马-笑-标准-远景"></motion>
+  <dialog chara="008">「ハッ――ハハッ！」</dialog>
+  <dialog chara="008">
+    <p>「あれが剣神だと思っているのか？ハハッ。それは買いかぶりすぎだ。</p>
+    <p>娘、剣神がどれほどの境界か分かっているのか？武術界の大半が一生をかけても触れることすらできないんだぞ。」</p>
+  </dialog>
+  <dialog chara="008">「精衛師匠や霜姉さんのような天才でなければ、神蘊など会得できない――娘、俺の技は剣神ではない、剣意だ。」</dialog>
+  <motion chara="008" action="img_trans" img="马非马-笑-示剑0-远景"></motion>
+  <dialog chara="008">「見るといい。」</dialog>
+  <event action="hide_ui"></event>
+  <delay t="0.5"></delay>
+  <se id="01-01白光转场"></se>
+  <motion chara="008" action="img_trans" img="马非马-笑-示剑1-远景" duration="1"></motion>
+  <delay t="1"></delay>
+  <motion chara="008" action="img_trans" img="马非马-笑-示剑2-远景" duration="0.5"></motion>
+  <delay t="0.5"></delay>
+  <event action="show_ui"></event>
+  <text>彼が手を伸ばすと、炎のように赤い大剣が突然姿を現した。</text>
+  <dialog chara="008">「これが俺の軒轅剣、『赤絶影』だ。」</dialog>
+  <dialog chara="008">「軒轅剣は俺たち七人の弟子が一本ずつ持っている。この剣は太虚剣気に同調し、剣意の変化に応じて巧みな技を繰り出せるんだ。」</dialog>
+  <dialog chara="008">「『赤絶影』は光を操れる。これの可視、不可視は俺の気持ち一つで変えられる。普段は滅多に見せないようにしているが、ここぞという時に剣意を錬成するんだ。」</dialog>
+  <dialog chara="002">「えっ……」</dialog>
+  <motion chara="002" action="img_trans" img="素裳-战损-虚弱-标准-远景"></motion>
+  <text>
+    <p>素裳は軒轅剣を拾うと、じっとそれを見つめた。[\s]</p>
+    <p>馬非馬の言う通りなら、自分の軒轅剣はどうして変化しないのだろうか？</p>
+  </text>
+  <text>まさか、あのぼんやりとした気は剣意の真の姿ではないのだろうか？</text>
+  <dialog chara="002">「ア、アタシの……」</dialog>
+  <motion chara="008" action="img_trans" img="马非马-微笑-示剑2-远景"></motion>
+  <dialog chara="008">「ああ……お前の軒轅剣は元の姿のまま、つまり、剣意が習得できていないということだ。お前が意蘊を習得すれば、その剣も形を変えるだろう。」</dialog>
+  <dialog chara="002">「そうだったの……そうか……まだできていなかったんだ。」</dialog>
+  <mono>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>少し残念だった……しかし、それも事実なのだろう。</p>
+  </mono>
+  <mono>
+    <p></p>
+    <p>一口、苦い血を飲み込んだ。喪失感、羞恥心、悔しさ、悲しみも共に呑み込む。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>大丈夫。素裳、二度目の試練の機会でしょ？</p>
+  </mono>
+  <se id="01-20拿出轩辕剑"></se>
+  <text>李素裳は背筋を伸ばし、剣を手に持った。</text>
+  <motion action="img_trans" chara="002" img="素裳-战损-振作-单手-远景"></motion>
+  <dialog chara="002">
+    <p>「あんたも……剣を……</p>
+    <p>それでこそ…………公平でしょ！……」</p>
+  </dialog>
+  <text>
+    <p>彼女の体はまだ震えていた。止まらなかった。特に、両足が震えていた。[\s]</p>
+    <p>しかし、彼女の瞳……彼女の視線は力強かった。それは――</p>
+  </text>
+  <motion chara="008" action="img_trans" img="马非马-笑-示剑2-远景"></motion>
+  <text>燃えている者たちに共通している目だった。</text>
+  <motion chara="002" action="img_trans" img="素裳-战损-顽强-单手-远景"></motion>
+  <dialog chara="002">「自在門……李素裳、改めて、師叔……お相手願います。」</dialog>
+  <dialog chara="002">「これは……試練なの！」</dialog>
+  <dialog chara="008">「――」</dialog>
+  <motion chara="008" action="hide"></motion>
+  <motion chara="002" action="hide"></motion>
+  <cg img="氛围_第二折_火苗2"></cg>
+  <delay t=".1"></delay>
+  <bg img="PureBlack"></bg>
+  <cg img="氛围_第二折_火苗2" duration="30" scale="1.2"></cg>
+  <text>馬非馬は鼻にある赤い傷痕を撫でた。微かな温もりを指先に感じる。</text>
+  <text>[em italic]ああ。こういう孤独、こういう炎の光。[/em]</text>
+  <text>彼はまだ生きている。</text>
+  <cg></cg>
+  <bgm looptimes="0"></bgm>
+  <dialog chara="008">「よく聞け。」</dialog>
+  <text>馬非馬は言った。</text>
+  <dialog chara="008">「俺が使う技は一つだけだ。開剣・山崩。」</dialog>
+  <transition mode="fade" in="3" stop="0.5" out="0" color="#000000"></transition>
+  <event action="goto" to="16"></event>
+</scene>
