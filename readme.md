@@ -61,11 +61,17 @@ We need translators!
 
 #### Seven Swords (EN)
 
-| Chapters | Translators | Progress |
-| -------- | ----------- | -------- |
-| N/A      | N/A         | N/A      |
+| Chapters | Translators                                   | Progress     |
+| -------- | --------------------------------------------- | ------------ |
+| 1-3      | Elysianempire, Mz, Italics By Voliyu, Vizulix | Implementing |
 
-We need translators!
+Currently, all scripts of Seven Swords have been translated but have not implemented yet.
+If you're interested in helping the implementation, pleaes check [#100](https://github.com/sakura-knoll/abyss-lab/issues/100).
+
+Prior works
+
+- [Seven Swords EN Translation Google Docs](https://docs.google.com/document/d/1vCSIOWXYogEPSYYsVzQCrpgOadw6-udABBgd5eAvoZ8/edit#)
+- [Seven Swords EN Translation Game Play Video](https://www.youtube.com/channel/UCyeHz1CGgJkXJd-c7lw_RiQ/playlists)
 
 ## License
 
