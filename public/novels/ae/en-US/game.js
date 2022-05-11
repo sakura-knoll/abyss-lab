@@ -1366,7 +1366,7 @@ function systemAutoLoadStart(galgameKey) {
       .html(
         `<div class="cancel ${tl_css_lang}"></div><div class="submit ${tl_css_lang}" onclick="systemAutoLoad()"></div>`
       )
-      .css('background', "url('/novels/ae/en-US/continue.webp') no-repeat")
+      .css('background', "url('/novels/ae/en-US/continue.png') no-repeat")
       .css('background-size', 'auto 100%')
       .css('background-position', 'center')
     $('.cancel').click({ k: galgameKey }, function (e) {
@@ -1729,7 +1729,7 @@ function add_record() {
   )
   $('#confirm_1').css(
     'background',
-    "url('/novels/ae/en-US/quicksave.webp') no-repeat"
+    "url('/novels/ae/en-US/quicksave.png') no-repeat"
   )
   $('#confirm_1').css('background-size', 'auto 100%')
   $('#confirm_1').css('background-position', 'center')
@@ -1743,7 +1743,7 @@ function get_record() {
   )
   $('#confirm_1').css(
     'background',
-    "url('/novels/ae/en-US/quickload.webp') no-repeat"
+    "url('/novels/ae/en-US/quickload.png') no-repeat"
   )
   $('#confirm_1').css('background-size', 'auto 100%')
   $('#confirm_1').css('background-position', 'center')
