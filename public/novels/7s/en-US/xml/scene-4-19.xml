@@ -1,0 +1,182 @@
+<scene id="19" type="block" prev="18" title="帰還2">
+  <bg></bg>
+  <cg img="CG_第一折_夺剑_SWORD" duration="10"></cg>
+  <text>宝剣が「鷹」の手から離れ、空中を舞った。</text>
+  <event action="hide_ui" duration="2"></event>
+  <motion action="show" pos="center" chara="096" img="老鹰-特写-惊讶"></motion>
+  <cg></cg>
+  <delay t="0.5"></delay>
+  <motion chara="-4" action="shake" duration="0.3" range="95" direction="default"></motion>
+  <bg img="BGBlood1"></bg>
+  <se id="01-28胸口命中"></se>
+  <delay t="1"></delay>
+  <text>「鷹」は激怒し、掌打で素裳をはじき飛ばすと、剣を受け止めるため走った。</text>
+  <motion chara="096" action="hide"></motion>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <cg img="CG_第一折_夺剑_SWORD"></cg>
+  <bg img="废弃驿站"></bg>
+  <motion chara="096" action="show" img="老鹰-动作-夺剑" pos="-250,0"></motion>
+  <delay t="0.1"></delay>
+  <motion chara="096" action="move" pos="0,0" duration="30"></motion>
+  <text>今回ばかりは彼も少女の飛燕功を見くびっていたようだ。</text>
+  <event action="hide_ui" duration="2.5"></event>
+  <motion chara="096" action="hide"></motion>
+  <cg></cg>
+  <motion chara="-4" action="shake" duration="0.5" range="25" direction="default"></motion>
+  <se id="01-34男沙地重摔"></se>
+  <delay t="1"></delay>
+  <motion chara="002" action="show" pos="right" img="素裳-战损无血-振作-单手-近景"></motion>
+  <delay t="0.5"></delay>
+  <se id="01-60吐血小"></se>
+  <delay t="1"></delay>
+  <text>少女は石畳に落ち、口から血を吐いたが、打ちつけられた反動ですぐに身を翻す。</text>
+  <event action="hide_ui" duration="2"></event>
+  <motion chara="002" action="hide"></motion>
+  <se id="01-22女孩轻功whoosh_01"></se>
+  <motion chara="100" action="show" pos="center" img="轩辕剑-剑柄朝上"></motion>
+  <motion chara="096" action="show" pos="-250,0" img="老鹰-动作-夺剑"></motion>
+  <bg img="CG_第一折_夺剑_BG"></bg>
+  <delay t="1"></delay>
+  <motion chara="097" action="show" pos="300,0" duration="1" img="素裳-动作-夺剑"></motion>
+  <text>次の瞬間には、空中に跳躍していた。</text>
+  <bgm looptimes="0"></bgm>
+  <event action="hide_ui" duration="2"></event>
+  <se id="01-30女孩轻功whoosh_02"></se>
+  <motion chara="096" action="move" pos="0,0" duration="30"></motion>
+  <motion chara="097" action="move" pos="120,0" duration="30"></motion>
+  <motion chara="100" action="move" pos="0,-50" duration="30"></motion>
+  <delay t="1"></delay>
+  <text>
+    <p>両者の目的は古剣「軒轅」だ。[\s]</p>
+    <p>手にした者が勝ち、手にできなかった者は死ぬ。</p>
+  </text>
+  <mono chara="002">
+    <p></p>
+    <p>（……アタシを助けてくれるよね？）</p>
+  </mono>
+  <mono>
+    <p></p>
+    <p>体の動きを、完全に本能に任せる。</p>
+    <p>「少女」の、李素裳の意識が呟いた。</p>
+  </mono>
+  <mono chara="002" pageend="true">
+    <p></p>
+    <p>「あんたはアタシの剣でしょ……」</p>
+  </mono>
+  <event action="hide_ui" duration="3"></event>
+  <motion chara="100" action="move" pos="-25,100" duration="30"></motion>
+  <motion chara="096" action="move" pos="-100,0" duration="30"></motion>
+  <motion chara="097" action="move" pos="50,0" duration="30"></motion>
+  <delay t="3"></delay>
+  <mono>
+    <p></p>
+    <p>軒轅は最高の位置に達して一瞬停止すると、すぐに落下してきた。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>突如、李素裳の中に、とても懐かしい感覚がこみ上げてきた。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>この光景、どこかで見たことがあるような？[\s]</p>
+    <p></p>
+    <p>目の前に落ちてくる剣は、どうしてこれほど親しみがあるんだろう？[\s]</p>
+    <p></p>
+    <p>…………</p>
+    <p>何年も前のこと</p>
+    <p>…………</p>
+  </mono>
+  <motion chara="096" action="hide"></motion>
+  <motion chara="097" action="hide"></motion>
+  <motion chara="100" action="hide"></motion>
+  <transition mode="eye" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <cg img="CG_第一折_抢剑_李ONLY" scale="2" pos="-200,200"></cg>
+  <delay t="1"></delay>
+  <cg img="CG_第一折_抢剑_李ONLY" scale="3" pos="-50,200" duration="20"></cg>
+  <delay t="1"></delay>
+  <text>
+    <p>指が剣の柄に近付いていく。</p>
+    <p>剣のぶつかり合う音が、少女の頭の中で鳴り響いているかのようだった。</p>
+    <p>まさにその時、李素裳は、自分が「剣意」を会得したのだと確信した。</p>
+  </text>
+  <transition mode="dissolve" in="0.5" stop="0.5" out="1" color="#000000"></transition>
+  <cg></cg>
+  <bg img="PureBlack"></bg>
+  <se id="01-21轩辕剑氛围声"></se>
+  <text>キィン——————</text>
+  <se id="01-21轩辕剑氛围声" looptimes="0"></se>
+  <event action="hide_ui" duration="7"></event>
+  <cg img="CG_第一折_抢剑_鹰WIN" scale="3" pos="100,150"></cg>
+  <se id="01-57接住剑柄"></se>
+  <delay t="1"></delay>
+  <cg></cg>
+  <bg img="PureBlack"></bg>
+  <delay t="2"></delay>
+  <motion chara="096" action="show" img="老鹰-特写-狞笑" pos="center"></motion>
+  <motion chara="097" action="show" img="李素裳-特写-惊讶" pos="center"></motion>
+  <delay t="2"></delay>
+  <cg img="CG_第一折_抢剑_鹰挥刀" duration="2" scale="2" origin="20%,0"></cg>
+  <motion chara="096" action="hide"></motion>
+  <motion chara="097" action="hide"></motion>
+  <delay t="2"></delay>
+  <text>しかし、剣の柄を握ったのは彼女ではなかった。</text>
+  <event action="hide_ui" duration="0.8"></event>
+  <motion chara="096" action="show" pos="0,-1080" img="老鹰-特写-狞笑（带血）"></motion>
+  <delay t="0.1"></delay>
+  <motion chara="096" action="move" pos="center" duration="0.3"></motion>
+  <delay t="0.3"></delay>
+  <dialog chara="015">「勝った！」</dialog>
+  <text>耳に届いたのは死を宣告する言葉だった。</text>
+  <dialog chara="015">「死ね、小娘——」</dialog>
+  <event action="hide_ui" duration="1"></event>
+  <motion chara="097" action="show" pos="center" img="李素裳-特写-濒死" duration="1"></motion>
+  <delay t="1"></delay>
+  <dialog chara="002">「…………」</dialog>
+  <event action="hide_ui" duration="2"></event>
+  <cg duration="2"></cg>
+  <delay t="2"></delay>
+  <mono pageend="true">
+    <p></p>
+    <p>この時の絶望と失望は今まで以上に大きかった。[\s]</p>
+    <p></p>
+    <p>少女は死ぬことを恐れてはいない。[\s]</p>
+    <p></p>
+    <p>しかし、希望を手に入れては失い、頂上まで登りつめては落ちていく苦しみを味わったのだ。</p>
+    <p>体に沁みこむような大きな後悔とともに。</p>
+    <p>悲鳴や震えは絶えることがなかった。</p>
+  </mono>
+  <event action="hide_ui" duration="1"></event>
+  <motion chara="097" action="img_trans" img="李素裳-特写-坚定" duration="1"></motion>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>「——いや！」</p>
+  </mono>
+  <transition mode="fade" in="0.5" stop="0.2" out="0.5" color="#FFFFFF"></transition>
+  <bgm id="传奇诞生"></bgm>
+  <bg img="BGPureWhite00" duration="0"></bg>
+  <motion chara="096" action="hide" duration="0"></motion>
+  <motion chara="097" action="hide" duration="0"></motion>
+  <cg img="CG_第一折_抢剑_鹰挥刀" scale="4" origin="99%,10%"></cg>
+  <text>
+    <p>次の瞬間には一刀両断されようとしていても、</p>
+    <p>本能は負けを認めようとはしなかった。</p>
+  </text>
+  <event action="hide_ui" duration="1"></event>
+  <cg duration="0.5" origin="99%,10%" img="CG_第一折_抢剑_鹰挥刀"></cg>
+  <delay t="0.5"></delay>
+  <text>
+    <p>極めてぼんやりとした意識が素裳の掌剣を押し出し、</p>
+    <p>相打ちするつもりで必死に敵に攻撃を繰り出す。</p>
+  </text>
+  <cg duration="5"></cg>
+  <text>
+    <p>この瞬間、「死」を理解して受け入れた少女は、</p>
+    <p>ついに一足遅れて、手にしたのだ……</p>
+  </text>
+  <text>「覚悟」を。</text>
+  <transition mode="fade" in="3" stop="0.5" out="0" color="#000000"></transition>
+  <event action="goto" to="20"></event>
+</scene>

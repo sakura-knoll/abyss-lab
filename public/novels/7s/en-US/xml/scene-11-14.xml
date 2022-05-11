@@ -1,0 +1,122 @@
+<scene id="14" prev="13" title="霧と火">
+  <transition mode="fade" in="0" stop="0.5" out="2" color="#000000"></transition>
+  <bg img="PureBlack"></bg>
+  <bgm id="十大恶人（阴谋）"></bgm>
+  <text>
+    <p>一撃。[\s]</p>
+    <p>馬非馬はたった一撃で勝利した。それでも、顔に喜びの色はなかった。</p>
+  </text>
+  <transition mode="eye" in="0.5" stop="0.2" out="1" color="#000000"></transition>
+  <bg img="BGDesert03"></bg>
+  <motion chara="001" action="show" pos="center" duration="1" img="奥托-严肃-标准-远景（棺材）"></motion>
+  <text>
+    <p>掌からは命中した手応えが伝わってくる。</p>
+    <p>馬非馬は思わず羅刹人の方を見たが、無反応で失望する。</p>
+  </text>
+  <motion chara="001" action="img_trans" img="奥托-严肃-标准-近景（棺材）"></motion>
+  <text>
+    <p>無反応……そうだ。</p>
+    <p>羅刹人は素裳を注視していた。まるで、石や砂粒を見つめるかのような目で。</p>
+  </text>
+  <bg img="PureBlack"></bg>
+  <text inline="true">[em italic]少女が目の前で攻撃され、あちこちから血を流して倒れているのに、何故何の反応も示さぬのだろうか？[/em]</text>
+  <text>[em italic]たとえ見知らぬ相手だったとしても……これほど重傷を負っている者を目の当たりにして、まったく動揺しないでいられるだろうか？[/em]</text>
+  <dialog chara="008">[em italic]（――つまらん男だ。）[/em]</dialog>
+  <motion chara="001" action="hide"></motion>
+  <mono>
+    <p></p>
+    <p>落胆の感情が俄雨のように押し寄せてくる。</p>
+    <p>冷雨のような感情が頭から足先まで降り注ぎ、馬非馬をその冷たさで包み込んだ。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>馬非馬はこの金髪の男が気に入らなかった。それは、本質的な拒絶と嫌悪感だった。</p>
+  </mono>
+  <event action="hide_ui" duration="1"></event>
+  <cg img="氛围_第二折_冰块"></cg>
+  <delay t="1"></delay>
+  <mono pageend="true">
+    <p></p>
+    <p>例えるなら、この羅刹人は世界の外で孤立し、浮いている氷のようなものだ。</p>
+    <p></p>
+    <p>何も必要としておらず、何も気にしていない。たとえ世界が滅んだとしても、いつまでも漂い続ける。</p>
+  </mono>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <event action="hide_ui" duration="1"></event>
+  <cg img="氛围_第二折_烟雾2"></cg>
+  <delay t="1"></delay>
+  <bg img="BGDesert02"></bg>
+  <mono pageend="true">
+    <p></p>
+    <p>一方の馬非馬は――炎のような存在だ。</p>
+  </mono>
+  <event action="hide_ui" duration="2"></event>
+  <cg img="氛围_第二折_火苗2" duration="2"></cg>
+  <delay t="2"></delay>
+  <mono>
+    <p></p>
+    <p>世界は煙で、馬非馬は燃え盛る炎だった。</p>
+    <p></p>
+    <p>彼が燃えているからこそ、この世界は存在している。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>強烈な感情、爆発的な衝動、破壊的な戦いこそが彼を存在させている。</p>
+  </mono>
+  <mono>
+    <p></p>
+    <p>そして、その虚ろでぼんやりとした存在の中から、己のかすかな断片を見つけるのだ。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>それらの断片こそが、人生の意義。</p>
+  </mono>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <cg></cg>
+  <text>……</text>
+  <text>馬非馬は少女の剣を拾い上げ、しげしげと見つめる。</text>
+  <motion chara="008" action="show" pos="center" img="马非马-闭目-标准-中景"></motion>
+  <text>
+    <p>それは間違いなく、本物の古剣・軒轅だった。</p>
+    <p>精衛真人が七人の弟子に授けた宝物だ。</p>
+  </text>
+  <motion chara="008" action="img_trans" img="马非马-疑惑-标准-中景"></motion>
+  <dialog chara="008">
+    <p>[em italic]（どこで手に入れた？</p>
+    <p>……霜姉さんの剣は折れたはず。この剣は？）[/em]</p>
+  </dialog>
+  <dialog chara="008">[em italic]（湄姉さんは知っていたのか？どうりで俺に用心するよう言ったわけだ……）[/em]</dialog>
+  <event action="hide_ui" duration="1"></event>
+  <motion chara="008" action="img_trans" img="马非马-闭目-标准-中景"></motion>
+  <delay t="1"></delay>
+  <dialog chara="008">[em italic]（どうしたものか？）[/em]</dialog>
+  <se id="01-38踏在沙上的脚步声"></se>
+  <text>馬非馬は軒轅を握ったまま、膝をついた少女の方へ歩み寄った。その歩みはゆっくりとしていたが、力強い。</text>
+  <motion chara="008" action="hide"></motion>
+  <transition mode="move" in="1" stop="0.5" out="1" color="#000000" direction="right" custom="default"></transition>
+  <bg img="BGDesert03"></bg>
+  <motion chara="002" action="show" pos="0,300" img="素裳-战损-虚弱-空手-中景"></motion>
+  <text>戦う気のない手練れよりも、自分に敗れた少女の方がずっと面白かった。</text>
+  <motion chara="002" action="hide"></motion>
+  <cg img="氛围_第二折_火苗2"></cg>
+  <se id="02-20柔柔的火"></se>
+  <text>彼女もまた、炎だった。生まれたばかりの火種で、どのように燃えればいいのか迷っている。</text>
+  <dialog chara="008">[em italic]（惜しいな――）[/em]</dialog>
+  <text>
+    <p>馬非馬は自分の力をよく分かっていた。彼は内勁をほぼ抑えていた。重傷を負うことはあっても、命に別状はないだろう。</p>
+    <p>それでも無視できるほどの傷ではないはずだが。</p>
+  </text>
+  <dialog chara="008">
+    <p>[em italic]（惜しい――この娘の実力なら、経験さえ積んでいれば、開剣・震風を受け止められたはずだ……</p>
+    <p>相手が俺じゃなければ、こんなにあっさり負けることもなかっただろう。）[/em]</p>
+  </dialog>
+  <text>
+    <p>十六歳で剣心を「明鏡」の境界にまで鍛え上げた……</p>
+    <p>七剣の中でもこの才能を上回るのは、十三歳で「太虚」を会得した凌霜くらいだろう。</p>
+  </text>
+  <dialog chara="008">[em italic]（どうりで霜姉さんが弟子にするわけだ。時が来れば、この娘も「剣神」の一人になるかもしれない。）[/em]</dialog>
+  <text>それに……彼女は幸運に恵まれている。女として生まれた彼女には、太虚剣気を修練する最高の条件が備わっているのだ。</text>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <cg></cg>
+  <event action="goto" to="15"></event>
+</scene>

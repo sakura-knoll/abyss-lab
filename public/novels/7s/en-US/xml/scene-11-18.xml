@@ -1,0 +1,220 @@
+<scene id="18" prev="17" title="炎と氷">
+  <cg img="氛围_第二折_山崩"></cg>
+  <bg img="PureBlack"></bg>
+  <bgm id="太鼓乱舞（战斗）"></bgm>
+  <text>
+    <p>技が放たれた！[\s]</p>
+    <p>巨剣「赤絶影」は山をも崩すような勢いで砂の竜巻を起こす。</p>
+  </text>
+  <cg img="氛围_第二折_瞬尘"></cg>
+  <text>
+    <p>技が放たれた！[\s]</p>
+    <p>素裳の軒轅が真っ直ぐ伸びた。それは「瞬塵」だった！</p>
+    <p>守剣でも化剣でもなく開剣だ！</p>
+  </text>
+  <cg img="氛围_第二折_瞬尘对山崩"></cg>
+  <text>
+    <p>開剣対開剣――[\s]</p>
+    <p>気が剣から放たれ、躊躇いもなく相手に向かっていく！</p>
+  </text>
+  <text>
+    <p>命を懸けて捨て身の攻撃を繰り出したのだ。素裳は、相討ちになる覚悟を決めていたようだ――[\s]</p>
+    <p>しかし、実際、そうはならなかった。</p>
+  </text>
+  <cg></cg>
+  <text>開剣に開剣をぶつけるという考えは、「震風」で負傷した時に思いついたものだった。</text>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <bg img="奥托的眼睛2"></bg>
+  <text>黄と青の不可思議な螺旋の中で、李素裳は羅刹人と一瞬だけ目が合った。</text>
+  <dialog chara="001">「……」</dialog>
+  <text>
+    <p>緑の両目は虚ろだったが、自分の方をしっかりと見つめていた。</p>
+    <p>その刹那……李素裳は、完全に彼のことを信じていた。</p>
+  </text>
+  <text>[em italic]きっと羅刹人が手を貸してくれる！[/em]</text>
+  <text>
+    <p>そして羅刹人が手を貸してくれれば――</p>
+    <p>絶対に負けない！</p>
+  </text>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <bg img="BGDesert01"></bg>
+  <motion chara="001" action="show" pos="center" img="奥托-严肃-单空手-远景（棺材）"></motion>
+  <text>
+    <p>そんな考えに基づいて作り上げたあらすじだったが、勝敗を決する時が来た。</p>
+    <p>全力を剣に投じている二人の後ろで、羅刹人が左手を上げる。</p>
+  </text>
+  <motion chara="001" action="hide"></motion>
+  <event action="hide_ui"></event>
+  <cg img="氛围_通用_犹大誓约"></cg>
+  <se id="01-01白光转场"></se>
+  <delay t="0.1"></delay>
+  <cg img="氛围_通用_犹大誓约" duration="1" scale="1.5"></cg>
+  <cg img="氛围_通用_犹大誓约启动" duration="1" reset="true"></cg>
+  <delay t="1"></delay>
+  <cg duration="1"></cg>
+  <event action="show_ui"></event>
+  <cg img="氛围_通用_犹大"></cg>
+  <motion chara="-4" action="shake" duration="0.1" range="200" direction="horizontal"></motion>
+  <text>
+    <p>黄金の十字架がどこからともなく彼の手の中に現れ、燃え上がるように消失した――[\s]</p>
+    <p>それは天命派の三大至宝の一つ、「誓約の十字架」だった！！！</p>
+  </text>
+  <text>
+    <p>古代の神の遺産である法器が再び姿を現した！</p>
+    <p>目に見えぬ鎖が馬非馬に向かって飛んでいき、彼を縛る！</p>
+  </text>
+  <text>
+    <p>目標……固定！</p>
+    <p>真気……禁戒！</p>
+  </text>
+  <cg img="CG_第二折_开剑山崩2" duration="1"></cg>
+  <delay t="0.1"></delay>
+  <cg img="CG_第二折_开剑山崩2" duration="1" scale="2"></cg>
+  <delay t="0.5"></delay>
+  <cg img="CG_第二折_开剑山崩2" reset="true"></cg>
+  <se id="01-09心跳loop"></se>
+  <text>
+    <p>ちょうど三日ほど前の夜にあった、李素裳と「鷹」の死闘の光景が再現される。[\s]</p>
+    <p>突然、馬非馬は動悸がした。真気が消え去ってしまったのだ。</p>
+  </text>
+  <dialog chara="008">
+    <p>[em italic]（なに――？[/em][\s]</p>
+    <p>[em italic]何が起こった――？）[/em]</p>
+  </dialog>
+  <text>一瞬の間に馬非馬は考えを巡らせ、原因を突き止めた。</text>
+  <dialog chara="008">[em italic]（羅刹鬼！！！）[/em]</dialog>
+  <text>抑えつけられていた期待と喜びが急に爆発した。</text>
+  <dialog chara="008">[em italic]（ついに手を出したのか！！！！）[/em]</dialog>
+  <dialog chara="008">「いいだろう！！」</dialog>
+  <text>馬非馬は大きな声で叫んだ。</text>
+  <dialog chara="008">「そうこなくては。かかってこい！」</dialog>
+  <cg img="氛围_第二折_山崩" scale="1.5" origin="25%,50%"></cg>
+  <text>
+    <p>彼は手を緩めて剣を放した！[\s]</p>
+    <p>――しかし、山崩の勢いは最高潮に達し、もはや止められない。</p>
+  </text>
+  <text>
+    <p>真気を封じられても関係ないのだ！[\s]</p>
+    <p>大剣「赤絶影」が勢いよく前に飛び出していく！</p>
+  </text>
+  <cg img="CG_第二折_开剑山崩3" scale="2" origin="50%,40%"></cg>
+  <motion chara="-4" action="shake" duration="0.1" range="200" direction="vertical" delay="0.5"></motion>
+  <delay t="0.1"></delay>
+  <cg img="CG_第二折_开剑山崩3" duration="1" scale="1" origin="50%,40%"></cg>
+  <delay t="0.5"></delay>
+  <cg img="CG_第二折_开剑山崩3" reset="true"></cg>
+  <text inline="true">同時に馬非馬は左手を前に出した。それも、開剣・山崩である――</text>
+  <text>
+    <p></p>
+    <p>内功を失ったとしても、彼は太虚剣派の六番弟子、百戦錬磨の馬彦卿だ！</p>
+  </text>
+  <text>発達した筋肉による重い一撃を軒轅の剣身に叩き込み、上空へと押し上げる。</text>
+  <text>
+    <p>シャッ――[\s]</p>
+    <p>そして[\s]</p>
+    <p>ドーン――</p>
+  </text>
+  <transition mode="fade" in="0.3" stop="0.5" out="1" color="#000000"></transition>
+  <cg></cg>
+  <bg img="BGBlood1"></bg>
+  <text>
+    <p>軒轅は馬非馬の頭頂部をかすめ、彼の髪の毛を何本か切った。[\s]</p>
+    <p>赤絶影は素裳の真横を飛んだ。彼女の幼い体は大きな力に吸い込まれて後ろに引きずられ、地面に倒れる。</p>
+  </text>
+  <text>彼女の左肩は赤絶影に近かった。そのため砂の流れに巻き込まれ、骨が見えるほどの深手を負った。[\s]新しい痛みと、古い痛みが一気に少女に襲いかかり、彼女は気を失ってしまう。</text>
+  <cg img="CG_第二折_开剑山崩3"></cg>
+  <text>
+    <p>馬非馬は、勝った。彼が使った技は確かに「山崩」だけだった。</p>
+    <p>しかし、馬非馬は敗れもした。彼が「山崩」を使ったのは一度だけではなかったからだ。</p>
+  </text>
+  <cg img="氛围_第二折_瞬尘"></cg>
+  <text>
+    <p>李素裳の「瞬塵」は最も速く、最も精度の高い開剣の技だった。</p>
+    <p>「瞬塵」を使っていなければ、素裳は赤絶影の山崩を前にして、馬非馬の脅威となることはあり得なかっただろう。</p>
+  </text>
+  <text>しかし、「瞬塵」は「震風」ではない。だからこそ、馬非馬は純粋な筋力で切っ先を逸らすことができたのだ。</text>
+  <bgm looptimes="0"></bgm>
+  <cg></cg>
+  <bg img="BGDesert02"></bg>
+  <text>
+    <p>それは運によるものだろうか？いや、そうではない。[\s]</p>
+    <p>技を見て分析する能力が卓越していたのだ。[\s]</p>
+    <p>つまるところ、実力に大きな開きがあったのである。</p>
+  </text>
+  <motion action="show" pos="left" chara="008" img="马非马-沉思-标准-远景"></motion>
+  <text>
+    <p>今回もまた、生死を懸けた決闘となった。[\s]</p>
+    <p>馬非馬はゆっくりと振り返った。[\s]</p>
+    <p>相手は、全力を出すだけの価値がある。</p>
+  </text>
+  <bgm id="原始武士"></bgm>
+  <motion chara="008" action="img_trans" img="马非马-疯狂-标准-远景"></motion>
+  <event action="hide_ui"></event>
+  <motion chara="001" action="show" pos="right" img="奥托-汗严-标准-远景" duration="1"></motion>
+  <delay t="1"></delay>
+  <event action="show_ui"></event>
+  <text>羅刹人は近くで立ったまま動かなかった。彼の顔からは笑みが消えている。先ほどまでの穏やかさはなくなっていた。</text>
+  <dialog chara="008">「手を出したな。」</dialog>
+  <motion chara="008" action="img_trans" img="马非马-邪恶-标准-远景"></motion>
+  <dialog chara="008">「お前――手を出したな！？」</dialog>
+  <text>
+    <p>[em italic]あぁ、よかった！この男は血も涙もない人形ではなかった。</p>
+    <p>冷たい氷のようにに見えるが、燃え盛る炎があった！[/em]</p>
+  </text>
+  <text>この時、馬非馬の喜びは頂点に達した。</text>
+  <motion chara="008" action="hide" duration="0"></motion>
+  <motion chara="001" action="hide"></motion>
+  <motion chara="-4" action="shake" duration="0.1" range="200" direction="horizontal"></motion>
+  <text>ガッ！</text>
+  <text>
+    <p>内勁のまったく込められていない拳が羅刹人の頬を打った。</p>
+    <p>羅刹人はその意図を察してはいても、避けたり防いだりしようとはしなかった。</p>
+  </text>
+  <text>
+    <p>羅刹人の体が砂漠に倒れる。</p>
+    <p>彼は、よろよろと立ち上がった。</p>
+  </text>
+  <event action="hide_ui" duration="1"></event>
+  <motion chara="008" action="show" pos="left" img="马非马-邪恶-标准-远景" duration="1"></motion>
+  <delay t="1"></delay>
+  <dialog chara="008">「……あれはどういう技だ？俺の真気を封じ込めるとは。」</dialog>
+  <se id="01-38踏在沙上的脚步声"></se>
+  <text>大男が金髪の男に向かって歩いていく。</text>
+  <dialog chara="008">「西南の辺境に『玄天化気』という不思議な技があるらしいが、お前の技は明らかに違う。俺からあんなに離れていたのに、どうやって封じた？……まさか、毒か？いや、いつ俺に毒を盛ったんだ？」</dialog>
+  <motion chara="008" action="img_trans" img="马非马-笑-标准-远景"></motion>
+  <dialog chara="008" inline="true">「ああ、まあ、そんなことはどうでもいい。</dialog>
+  <dialog chara="008">
+    <p></p>
+    <p>大事なのは、お前が行動で宣戦布告したことだ。」</p>
+  </dialog>
+  <event action="hide_ui" duration="1"></event>
+  <motion chara="001" action="show" pos="right" duration="1" img="奥托-伤严肃-标准-远景"></motion>
+  <text>馬非馬は羅刹人の前で立ち止まると、隠そうとするそぶりもなく値踏みした。</text>
+  <text>砂で擦り切れた傷には血が滲んでおり、彼の整った顔はとても汚れているように見える。しかし、彼はゆっくりと立ち上がり、背筋を伸ばすと、不思議な緑色の目で馬非馬を見つめた。</text>
+  <motion chara="001" action="img_trans" img="奥托-伤严肃-单空手-远景"></motion>
+  <dialog chara="001">「……あの剣を取りに行かないのかい？」</dialog>
+  <text>羅刹人が尋ねた。</text>
+  <motion chara="008" action="img_trans" img="马非马-疑惑-标准-远景"></motion>
+  <dialog chara="008">「ああ？気にするな。必要になってから取りに行っても間に合うだろう。」</dialog>
+  <motion chara="008" action="img_trans" img="马非马-苦笑-标准-远景"></motion>
+  <dialog chara="008">「それに、お前が真気を封じることができるなら、『赤絶影』に頼りすぎると却って不利になる。」</dialog>
+  <motion chara="001" action="img_trans" img="奥托-伤严肃-标准-远景"></motion>
+  <dialog chara="001">「……」</dialog>
+  <motion chara="008" action="img_trans" img="马非马-疯狂-标准-远景"></motion>
+  <text>馬非馬は羅刹人の視線を追うように後ろを振り返り、思わず笑ってしまった。</text>
+  <dialog chara="008">「お前が何を心配しているかは分かる。安心しろ。あの娘は問題ない。」</dialog>
+  <dialog chara="008">「今はあの娘を心配したり、逃げる方法を考えたりする必要はない――お前の本当の実力を全部出して俺を殺せば、万事解決だ。なあ、お前には難しくないだろう？」</dialog>
+  <text>羅刹人は黙っている。何かを考えているようだ。</text>
+  <motion chara="001" action="img_trans" img="奥托-伤笑-单空手-远景"></motion>
+  <dialog chara="001">「じゃあ、君は僕の剣を受けるつもりなのかい？」</dialog>
+  <dialog chara="008">「はぁ？」</dialog>
+  <text>馬非馬は一瞬驚き、続けて大声で笑いだした。</text>
+  <motion chara="008" action="img_trans" img="马非马-邪恶-标准-远景"></motion>
+  <dialog chara="008">「ハハッ。お前の剣を受ける？大きな口をきくものだ！面白い！いいだろう。お前の腕前を見せてもらおう。どの剣を使うつもりだ？あの娘の軒轅か？俺の赤絶影を貸してやってもいいが。」</dialog>
+  <motion chara="001" action="img_trans" img="奥托-伤严肃-标准-远景"></motion>
+  <text>羅刹人は視線を下に向け、ため息をついた。</text>
+  <dialog chara="001">「必要ない。」</dialog>
+  <bgm looptimes="0"></bgm>
+  <transition mode="fade" in="2" stop="0.5" out="0" color="#000000"></transition>
+  <event action="goto" to="19"></event>
+</scene>

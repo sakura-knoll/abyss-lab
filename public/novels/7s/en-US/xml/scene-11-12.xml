@@ -1,0 +1,214 @@
+<scene id="12" prev="11" title="天•地•螺旋">
+  <transition mode="fade" in="0" stop="1" out="2" color="#000000"></transition>
+  <bg img="BGDesert03"></bg>
+  <bgm id="十大恶人（阴谋）"></bgm>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p>果てしなく広がる黄砂が、太陽に照らされている。</p>
+  </mono>
+  <mono>
+    <p></p>
+    <p></p>
+    <p>目に見えない気の波とともに、汗が噴き出るほどの熱気が押し寄せてくる。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>しかし、目の前の男が放つ冷たい殺意に、李素裳は寒気がした。</p>
+  </mono>
+  <event action="hide_ui"></event>
+  <motion chara="008" action="show" pos="center" duration="1" img="马非马-邪恶-标准-中景"></motion>
+  <delay t="1"></delay>
+  <event action="show_ui"></event>
+  <text>男は頬ひげを生やしており、年齢は推測できない。彼の頬には痛々しい傷痕が残されている。真っ赤な稲妻のように下顎へと伸び、突然途切れている。……それはまだ、落ち続けようとしているようだった。</text>
+  <text>よくよく見れば、この男の体には数えきれないほどの傷痕があった。</text>
+  <text>それらの古傷がなければ、彼はきっと美男子だったに違いない。血のように赤い傷も、彼を凶悪な顔に変えてしまうどころか、格段に勇ましく見せていた。</text>
+  <transition mode="shutter" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <motion chara="008" action="show" pos="400,0" img="马非马-苦笑-标准-远景"></motion>
+  <motion chara="001" action="show" pos="-500,0" img="奥托-严肃-标准-远景（棺材）"></motion>
+  <motion chara="002" action="show" pos="-200,0" img="素裳-愤怒-持剑-远景" duration="1"></motion>
+  <dialog chara="001">「素裳、気を付けるんだ。」</dialog>
+  <se id="01-39踏在木板的脚步声"></se>
+  <text>羅刹人はゆっくりと馬車から降りると、棺をそっと砂漠の上に置いた。</text>
+  <motion chara="001" action="img_trans" img="奥托-微笑自信-标准-远景（棺材）" duration="0"></motion>
+  <dialog chara="001">「あの男は君の剣を手に入れようとしている。」</dialog>
+  <motion chara="002" action="img_trans" img="素裳-惊讶-持剑-远景"></motion>
+  <dialog chara="002">「え？アタシの軒轅を？」</dialog>
+  <motion chara="002" action="img_trans" img="素裳-标准-持剑-远景"></motion>
+  <text>李素裳は驚いたが、すぐにハッとした。色々と合点がいったのだ。</text>
+  <event action="hide_ui" duration="2"></event>
+  <motion chara="002" action="move" img="素裳-严肃汗-持剑-近景" pos="right" duration="2"></motion>
+  <motion chara="008" action="hide"></motion>
+  <motion chara="001" action="hide"></motion>
+  <delay t="1.9"></delay>
+  <motion chara="002" action="img_trans" img="素裳-标准-持剑-中景"></motion>
+  <motion chara="008" action="show" pos="left" img="马非马-瞥目-标准-中景" duration="1"></motion>
+  <text>彼女が見知らぬ男に目をやると、彼は羅刹人を見つめていた。その目は光り輝いているようだった。</text>
+  <event action="hide_ui" duration="1"></event>
+  <motion chara="008" action="img_trans" img="马非马-微笑-标准-中景"></motion>
+  <delay t="1"></delay>
+  <text>突然、男が笑い出す。</text>
+  <text>
+    <p>上がる口角と共に赤い古傷が動く様子は、やや不自然だった。しかし、彼は楽しそうに屈託のない笑顔を見せている。</p>
+    <p>男は笑い終えると、表情をやや和らげた。</p>
+  </text>
+  <motion chara="008" action="img_trans" img="马非马-笑-标准-中景"></motion>
+  <dialog chara="008">「娘！お前は霜姉さんの弟子なのか？」</dialog>
+  <motion chara="002" action="img_trans" img="素裳-愤怒-持剑-中景"></motion>
+  <dialog chara="002">「……教えないよ！」</dialog>
+  <text>李素裳は怒りのあまり、目を大きく見開く。</text>
+  <dialog chara="002">「何がしたいの！お喋りしたいなら挨拶すればよかったじゃない！」</dialog>
+  <motion chara="008" action="img_trans" img="马非马-疯狂-标准-中景"></motion>
+  <dialog chara="008">「フッ、どうやら間違いないようだ。」</dialog>
+  <text>男は怒るどころか笑みを浮かべると、片手を前に伸ばし、羅刹人に向けた。</text>
+  <dialog chara="008">「悪いが、色々と話したいことがある。話し終わったら始めよう――ああ、そこの羅刹鬼を、倒すんだ。」</dialog>
+  <dialog chara="002">「えっ……ええっ……何するつもり！？」</dialog>
+  <text>素裳は慌てて羅刹人の前に立ちはだかった。</text>
+  <dialog chara="002">「彼はあんたと戦ったりしないよ。彼は……あんた、一体何が狙いなの？どうしていきなり襲いかかってきたの！？」</dialog>
+  <motion chara="008" action="img_trans" img="马非马-笑-标准-中景"></motion>
+  <dialog chara="008">
+    <p>「お前の馬車を壊してしまってすまない。</p>
+    <p>詫びとして、夜血で連れて行ってやろう。」</p>
+  </dialog>
+  <text>男はそう言いながら関節をバキバキと鳴らした。</text>
+  <dialog chara="008">「羅刹鬼の言う通りだ。ああ、俺はお前の軒轅剣が気になっている。だが、無理やり奪ったりはしない……少なくとも、今はな。娘、その剣はお前のものか？」</dialog>
+  <dialog chara="002">「アタシのに決まってるじゃない！」</dialog>
+  <dialog chara="008">「フッ、なら、やはり霜姉さんの弟子だったか。どうりで見覚えがある訳だ。いいだろう、弟子の序列に従うなら、俺のことは師叔とでも呼べばいい。」</dialog>
+  <dialog chara="008">「話は、その男を倒してからにしてくれ。ちょうど俺も、お前の師匠に会いに行くところだったからな。」</dialog>
+  <dialog chara="002">「この人はあんたと戦ったりしないよ。」</dialog>
+  <motion chara="008" action="img_trans" img="马非马-邪恶-标准-中景"></motion>
+  <dialog chara="008">「いや、戦うだろう。戦うしかない。」</dialog>
+  <text>男は興味深そうに羅刹人を見つめた。</text>
+  <dialog chara="008">「何故なら、俺がそう決めたからだ。」</dialog>
+  <dialog chara="002">「あんた――」</dialog>
+  <motion chara="002" action="hide" duration="0"></motion>
+  <motion chara="008" action="hide" duration="0"></motion>
+  <event action="hide_ui"></event>
+  <bg img="BGSky00"></bg>
+  <delay t="1"></delay>
+  <bg img="BGSky01" duration="1"></bg>
+  <delay t="1"></delay>
+  <event action="show_ui"></event>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p>――突如、異変が起こった。</p>
+  </mono>
+  <motion chara="008" action="show" pos="center" img="马非马-闭目-标准-远景"></motion>
+  <text>
+    <p>激しい殺意が急に空を覆ったかと思うと、すぐさま跡形もなく消えてしまったのだ。[\s]</p>
+    <p>まるで、目の前の人物の形跡が世界から消えてしまったかのようだった。</p>
+  </text>
+  <bg img="PureBlack" duration="2"></bg>
+  <text>李素裳は羅刹人に目を向ける。彼は相変わらず落ち着いているように見えた。</text>
+  <text>そうだ。羅刹人は分かっていないようだったが、李素裳だけは理解していた。これは、敵が剣心の境界に入ったことを意味している。</text>
+  <motion chara="008" action="hide"></motion>
+  <bg img="心湖（1）止水"></bg>
+  <mono>
+    <p></p>
+    <p></p>
+    <p>無意味な感情や価値のない思考を捨て、</p>
+  </mono>
+  <mono>
+    <p></p>
+    <p>欲望、怒り、邪念、憎しみを捨て、明鏡止水のような空虚さを保つ。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>それこそが太虚剣心であり、精衛真人が生み出した神業なのだ！</p>
+  </mono>
+  <event action="hide_ui"></event>
+  <motion chara="008" action="show" pos="center" img="马非马-认真-标准-近景" duration="1"></motion>
+  <delay t="1"></delay>
+  <event action="show_ui"></event>
+  <text inline="true">眼前の謎の男は、精衛の直弟子に間違いない。太虚七剣で唯一の男の弟子、</text>
+  <text>
+    <p></p>
+    <p>「百里逐駒」こと馬非馬……</p>
+  </text>
+  <text>素裳は幼い頃、憶剣山荘で何度か彼に会ったことがある。この太虚剣派の副当主は世界を股に掛ける気概を持っており、素裳に深い印象を残した。</text>
+  <text>[em italic]……六大派の当主級の相手を前にして、己は勝てるのだろうか？[/em]</text>
+  <motion chara="008" action="hide"></motion>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <bg img="BGDesert03"></bg>
+  <motion chara="008" action="show" pos="400,0" img="马非马-标准-标准-远景" duration="1"></motion>
+  <motion chara="001" action="show" pos="-500,0" img="奥托-标准-标准-远景（棺材）" duration="1"></motion>
+  <motion chara="002" action="show" pos="-200,0" duration="1" img="素裳-愤怒-持剑-远景"></motion>
+  <dialog chara="002">「羅刹人、あんたは……下がってて。アタシが相手をするから。」</dialog>
+  <text>いつの間にか、少女は相手の気迫に圧倒されていた。その声はか細く、ほとんど聞こえぬほどだった。</text>
+  <motion chara="001" action="hide"></motion>
+  <dialog chara="001">「ああ。」</dialog>
+  <text>羅刹人は頷く。彼は、最初から戦うつもりなどなかったようだ。</text>
+  <motion chara="001" action="show" pos="-700,0"></motion>
+  <text>
+    <p>数歩ほど後ろに下がった羅刹人は、顔を上げて馬非馬を見つめた。</p>
+    <p>彼は何も言わず、その目は虚ろだった。</p>
+  </text>
+  <motion chara="008" action="img_trans" img="马非马-闭目-标准-远景"></motion>
+  <dialog chara="008">「……軟弱者。」</dialog>
+  <text>馬非馬はそう吐き捨てると、素裳の方を向いて言った。</text>
+  <dialog chara="008">「そいつを殺さないのか？」</dialog>
+  <dialog chara="008">「霜姉さんから教えられているだろう。太虚一門の人間は、魔に堕ちた者を殺さねばならない。」</dialog>
+  <dialog chara="002">「彼の気は暴走してないよ。」</dialog>
+  <dialog chara="008">「ハッ。そんなのものは時間の問題だ。そいつの腕からして、気の暴走よりもはるかに厄介なことになる。全く、何故その男の肩を持つ？その羅刹鬼は実力を隠している……お前には、想像もつかないほどの実力を。」</dialog>
+  <dialog chara="008">「……まあいい、俺にはお前を指導する資格などないからな。」</dialog>
+  <dialog chara="002">「……」</dialog>
+  <text>李素裳は大男をじっと見つめ、一歩も退こうとはしなかった。</text>
+  <dialog chara="008">「お前がそいつを殺していれば、こんな面倒なことにはならなかったんだが。」</dialog>
+  <text>馬非馬は肩を竦めながら言った。</text>
+  <dialog chara="008">
+    <p>「いいだろう。そこまでその男を庇うなら……お前が代わりに戦うんだな。</p>
+    <p>まだ準備ができてないだろ？時間をやろう、最高の状態に整えるといい。</p>
+    <p>忘れるな。必ず俺を殺す覚悟で戦え。分かるか？俺は手加減などしない。」</p>
+  </dialog>
+  <dialog chara="002">「……どうして戦わないといけないの！？」</dialog>
+  <dialog chara="008">「……」</dialog>
+  <text>馬非馬は彼女を見つめたまま、微かな笑みを浮かべた。</text>
+  <text>そうだ。話すべきことはすべて話した。これ以上言うべきことなど、何もないだろう？何故なら、馬非馬が「決めた」からだ。彼が「決めた」ことは、必ず成し遂げなければならない。</text>
+  <text>少女は唇を軽く噛みしめ、無理やり怒りを抑え込み、言われた通りにした。</text>
+  <motion chara="001" action="hide"></motion>
+  <motion chara="002" action="hide"></motion>
+  <motion chara="008" action="hide"></motion>
+  <transition mode="clock" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <bg img="心湖（1）止水"></bg>
+  <mono>
+    <p></p>
+    <p>目の前の敵は、決して力を抜ける相手ではない……</p>
+    <p>全力を出したとしても、必ず勝てるという保証はない。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>何しろ――彼は太虚剣派の六番弟子、師匠と同等の腕を持つ最高の使い手なのだから！</p>
+  </mono>
+  <bg img="心湖（2）无尘" duration="3"></bg>
+  <mono chara="-3">
+    <p></p>
+    <p>[em color=#FAFAD2]（もう。人生初の決闘から数日も経っていないのに、また戦わないといけないなんて。）[/em]</p>
+  </mono>
+  <mono chara="-3">
+    <p></p>
+    <p>しかも相手は武術界最強の七人の中の一人……</p>
+  </mono>
+  <mono pageend="true" chara="-3">
+    <p></p>
+    <p>[em color=#FAFAD2]（まさに本に書いてあった通りだね、武術界ってとこは、海のように深い。）[/em]</p>
+  </mono>
+  <bg img="心湖（3）明镜" duration="3"></bg>
+  <mono>
+    <p></p>
+    <p>李素裳は心の中で意味のない嘆きを呟くと、それを原動力にし、溢れんばかりの闘志に変えていった。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>心は穏やかで波風一つなく、透明で、澄んでいた。</p>
+  </mono>
+  <mono>
+    <p></p>
+    <p>これは馬非馬の「止水」よりも高い境界だった。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>剣心・明鏡。</p>
+  </mono>
+  <event action="goto" to="13"></event>
+</scene>

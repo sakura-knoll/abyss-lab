@@ -1,0 +1,249 @@
+<scene id="18" prev="17" title="帰還">
+  <transition mode="fade" in="0" stop="0.5" out="1" color="#000000"></transition>
+  <bgm id="火燃"></bgm>
+  <cg img="CG_通用_李素裳战斗-1" duration="2"></cg>
+  <text>このような戦いは、李素裳が当初想像していたものとはかけ離れていた。</text>
+  <event action="hide_ui" duration="1"></event>
+  <cg duration="1"></cg>
+  <delay t="1"></delay>
+  <text>
+    <p>必殺技、技の駆け引き、一進一退の攻防など、期待していたものは一切ない。</p>
+    <p>あったのは怒涛のように押し寄せ、せわしなく単調な攻撃と、徐々に罠を形作っていく防御だけだった。</p>
+  </text>
+  <text>……これは李素裳が思い描いていた手合わせではなかった。</text>
+  <motion chara="097" action="show" pos="center" duration="1" img="李素裳-特写-张口"></motion>
+  <mono>
+    <p></p>
+    <p></p>
+    <p>彼女の目は既に「鷹」の拳術に慣れている。</p>
+    <p>「剣心」で観察を続け、虎吼震九霄にも</p>
+    <p>対抗する術があることを見つけた。</p>
+  </mono>
+  <motion chara="097" action="img_trans" img="李素裳-特写-睁眼"></motion>
+  <mono pageend="true">
+    <p></p>
+    <p>新たな「隙」はその時に訪れた。</p>
+  </mono>
+  <event action="hide_ui" duration="1"></event>
+  <motion chara="097" action="hide"></motion>
+  <delay t="0.2"></delay>
+  <cg></cg>
+  <bg img="刀光与剑影"></bg>
+  <se id="01-67战斗-拳打4"></se>
+  <text>
+    <p>「鷹」の右拳はまったく威力がなく、明らかに陽動だった。[\s]</p>
+    <p>しかし、その陽動は敵を誘い込むためでも、防御のためでもなく、彼女に態勢を整える十分な時間を与えるだけの、実に中途半端な動きだった。</p>
+  </text>
+  <bg img="PureBlack"></bg>
+  <se id="01-53少女拳"></se>
+  <motion chara="-5" action="show" pos="center" img="横劈-左右2(爪痕，透明)"></motion>
+  <text>
+    <p>素裳はそのわずかな隙をずっと待っていた。</p>
+    <p>一式「化剣・雲鷹」で防御から攻撃に転じ、</p>
+    <p>瞬時に「開剣・瞬塵」を繰り出して「鷹」の喉元に突き刺した。</p>
+  </text>
+  <mono>
+    <p></p>
+    <p>太虚剣気の剣は実体を伴って伸びる。[\s]</p>
+    <p>剣を手にしている場合、この技は真気を注入して敵の喉の急所を真っ直ぐに狙う無慈悲な剣術となる。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>李素裳の神速をもってすれば、相手は無理矢理この剣を受ける以外になす術はないだろう。</p>
+    <p>彼女は剣の代わりに指を使い、「鷹」の返し技に備えていた。</p>
+  </mono>
+  <motion chara="-5" action="hide"></motion>
+  <bg img="废弃驿站院内" duration="1"></bg>
+  <motion chara="015" action="show" pos="center" img="老鹰-微笑-受伤擦血-近景" duration="1"></motion>
+  <text>
+    <p>しかし、「鷹」は防御も回避もしなかった。[\s]</p>
+    <p>それどころか、彼の上半身ががら空きになり、隙だらけになる。</p>
+  </text>
+  <motion chara="015" action="hide"></motion>
+  <motion chara="096" action="show" pos="center" img="老鹰-特写-胜利（带血）"></motion>
+  <motion chara="097" action="show" pos="center" img="李素裳-特写-惊讶"></motion>
+  <dialog chara="002">（えっ——！？）</dialog>
+  <text>素裳は大いに驚いた。この展開は予想していなかった。</text>
+  <text>敵が自分から隙を見せるということは、抵抗を諦めたか、捨て身の覚悟で攻撃を仕掛けてくるかのどちらかだ。</text>
+  <text>
+    <p>勝利に近付いた時ほど、危険が増す。</p>
+    <p>生きるか死ぬかの状況になると、人は往々にして思いもよらぬ行動を起こせるものだ。</p>
+  </text>
+  <text>しかし、一瞬、素裳の脳内に相手への心配が過ぎり、混乱した。</text>
+  <event action="hide_ui" duration="1"></event>
+  <motion chara="097" action="show" pos="center" duration="1" img="李素裳-特写-艰难"></motion>
+  <delay t="1"></delay>
+  <dialog chara="002">（この人を、殺してしまうの……）</dialog>
+  <text>
+    <p>「瞬塵」の速度は極めて速く、彼女に考える時間を与えてはくれなかった。</p>
+    <p>剣が実体を伴って伸びる。「鷹」が応じなければ、たちどころに絶命するだろう。</p>
+  </text>
+  <motion chara="096" action="hide"></motion>
+  <motion chara="097" action="hide"></motion>
+  <transition mode="move" in="0.5" stop="0.2" out="0.5" color="#000000" direction="left" custom="default"></transition>
+  <bg img="速度线前后3"></bg>
+  <text>
+    <p>間一髪のところで、李素裳は唐突に気が付いた。</p>
+    <p>実のところ、自分はこれまで覚悟ができていなかったのだと。</p>
+  </text>
+  <text>
+    <p>彼女には剣を扱う覚悟、戦う覚悟、勝利の覚悟、人を殺める覚悟がなかった……</p>
+    <p>彼女は15歳の少女に過ぎず、武術界に足を踏み入れたつもりになっているが、実際には人の命を大切にする情、命に対する畏敬の念を捨て切れていなかった。</p>
+  </text>
+  <dialog chara="002">「——！」</dialog>
+  <text>
+    <p>間もなく自分の手にかかって死のうとしている極悪人を前にして……</p>
+    <p>首を賭けた約束、平手打ちの仕返し、一瞬で全てが頭から消え去った。</p>
+    <p>李素裳は歯を食いしばり、技を引っ込めることにした——</p>
+  </text>
+  <bgm looptimes="0"></bgm>
+  <bg img="PureBlack"></bg>
+  <event action="hide_ui" duration="2"></event>
+  <se id="01-30女孩轻功whoosh_02"></se>
+  <delay t="2"></delay>
+  <text>
+    <p>繰り出した太虚剣気を無理矢理押し戻す。</p>
+    <p>反動の指の力が体に戻り、腕に大きな痛みが走った。</p>
+  </text>
+  <text>
+    <p>技の勁力を分散させるため、彼女はつま先を軽く叩き、</p>
+    <p>「飛燕帰巣」を繰り出し、回転を利用して力を削ぐしかなかった。</p>
+  </text>
+  <event action="hide_ui" duration="1"></event>
+  <motion chara="-5" action="show" pos="center" img="竖劈（无色）"></motion>
+  <motion chara="-5" action="hide" delay="0.2"></motion>
+  <se id="01-27大刀横挥"></se>
+  <delay t="1"></delay>
+  <text>
+    <p>ちょうどその時、足下にザザッという音が響いた。</p>
+    <p>一筋の白い光が目の前で煌めき、先ほどまでいた空間を寸断していた。</p>
+  </text>
+  <bg img="PureBlack"></bg>
+  <motion chara="096" action="show" pos="center" img="老鹰-特写-惊讶（带血）"></motion>
+  <dialog chara="015">「チッ！」</dialog>
+  <text>
+    <p>素裳が技を引っ込めるのと同時に、</p>
+    <p>「鷹」の左手が急に「軒轅」を引き抜き、上向きに斬撃を繰り出した。</p>
+    <p>少女が後ろにさがっていなければ、体は一刀両断されていただろう。</p>
+  </text>
+  <motion chara="097" action="show" pos="center" img="李素裳-特写-惊讶"></motion>
+  <text>
+    <p>李素裳の優しさが正しかったのかどうかは分からないが、</p>
+    <p>彼女自身の命を救ったのは間違いない。</p>
+  </text>
+  <motion chara="097" action="hide"></motion>
+  <motion action="hide" chara="096" img="老鹰-狞笑-拔刀预备-近景"></motion>
+  <transition mode="eye" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <cg img="CG_第一折_抢剑_鹰挥刀" scale="2" origin="20%,30%"></cg>
+  <text>剣が襲いかかってくる。空中にいる李素裳が目にしたのは、隠しようのない残酷な笑みを浮かべた「鷹」だった。</text>
+  <motion chara="096" action="show" pos="center" duration="1" img="老鹰-特写-狞笑"></motion>
+  <dialog chara="015">「……逃がさん！」</dialog>
+  <cg></cg>
+  <motion action="hide" chara="096"></motion>
+  <event action="hide_ui" duration="1.1"></event>
+  <se id="01-26大刀向下挥"></se>
+  <bg img="轩辕剑_灯光00%" duration="1" scale="2" pos="0,200"></bg>
+  <delay t="1.01"></delay>
+  <text>「鷹」が彼女に襲いかかる。手に持った宝剣、軒轅が眩い光を反射しながら、稲妻のように振り下ろされる。</text>
+  <event action="hide_ui" duration="2.1"></event>
+  <se id="01-21轩辕剑氛围声"></se>
+  <bg img="轩辕剑_灯光35%" duration="1" scale="2" pos="0,200"></bg>
+  <delay t="1.01"></delay>
+  <bg img="轩辕剑_灯光99%" scale="2" duration="1" pos="0,200"></bg>
+  <delay t="1.01"></delay>
+  <mono chara="002">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>（あれはロウソクの光？それとも月明りかな？）</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p></p>
+    <p>死が訪れる直前、李素裳はふと思った。</p>
+  </mono>
+  <event action="hide_ui" duration="6"></event>
+  <transition mode="fade" in="2" stop="0.5" out="1" color="#ffffff"></transition>
+  <bg img="心湖（3）明镜" duration="3.5"></bg>
+  <delay t="1.5"></delay>
+  <bgm id="佛心禅悟"></bgm>
+  <motion chara="097" action="show" pos="center" img="李素裳-大特写-闭眼" duration="3"></motion>
+  <delay t="3"></delay>
+  <dialog chara="002">（ちょっと、興味を持つ対象が違うんじゃない？）</dialog>
+  <text>
+    <p>十年の修行で極めた剣心はとても穏やかだった。[\s]</p>
+    <p>これまで死に直面したことがなかった少女だが、死の間際、これほどまでに虚しくなった。</p>
+  </text>
+  <dialog chara="002">
+    <p>（あぁ、負けちゃった——[\s]</p>
+    <p>負けただけじゃなくて、死ぬんだ。）</p>
+  </dialog>
+  <dialog chara="002">
+    <p>（容赦なく人を殺めることもできないし、</p>
+    <p>平手打ちの仕返しもできない。</p>
+    <p>武術界での経験がないことって、本当に命取りなんだね。）</p>
+  </dialog>
+  <event action="hide_ui" duration="1"></event>
+  <motion chara="097" action="img_trans" img="李素裳-大特写-张口" duration="1"></motion>
+  <delay t="1"></delay>
+  <dialog chara="002">
+    <p>（師匠、ごめんなさい。</p>
+    <p>母さん、ごめんなさい。</p>
+    <p>素裳は、アタシは——）</p>
+  </dialog>
+  <event action="hide_ui" duration="4"></event>
+  <motion chara="097" action="hide"></motion>
+  <se id="01-01白光转场"></se>
+  <bg img="心湖（1）止水" duration="4"></bg>
+  <delay t="4"></delay>
+  <text>少女の思いは落ち葉のように剣心の湖に静かに浮かび、小さな波紋を立てた。</text>
+  <event action="hide_ui" duration="3"></event>
+  <motion chara="097" action="show" pos="center" img="李素裳-大特写-闭眼" duration="3"></motion>
+  <delay t="3"></delay>
+  <text>次の瞬間、素裳は心の湖の中央で波打つこだまが聞こえたような気がした。</text>
+  <dialog chara="099">「……私のために。」</dialog>
+  <text>
+    <p>それは女性の声だった。</p>
+    <p>遠い場所から、はるか遠くの場所から聞こえる……</p>
+  </text>
+  <text>[em italic]えっ、誰……？[/em]</text>
+  <dialog chara="009">「生きていくの。素裳、あなたはちゃんと生きていくの……母さんと約束して。」</dialog>
+  <text>[em italic]母さんの声……[/em]</text>
+  <dialog chara="009">「約束して！」</dialog>
+  <event action="hide_ui" duration="3.3"></event>
+  <bgm looptimes="0"></bgm>
+  <bg img="BGPureWhite00" duration="2"></bg>
+  <delay t="2"></delay>
+  <motion chara="097" action="img_trans" duration="0.1" img="李素裳-大特写-睁眼"></motion>
+  <delay t="0.3"></delay>
+  <transition mode="dissolve" in="1" stop="0.1" out="0.3" color="#FFFFFF"></transition>
+  <motion chara="097" action="hide"></motion>
+  <bgm id="火燃"></bgm>
+  <text>少女はまだ朦朧としていたが、体は本能的に動いていた。</text>
+  <bg img="CG_第一折_夺剑_BG"></bg>
+  <motion chara="-5" action="show" pos="center" img="对战特效"></motion>
+  <motion chara="-5" action="hide" delay="0.5"></motion>
+  <se id="01-22女孩轻功whoosh_01"></se>
+  <text>素裳は飛燕帰巣の回転を推力に変え、自分でも信じられないような速度で攻撃を繰り出した。</text>
+  <text>少女は普段から速度を自慢としていたが、この指の動きは彼女の目でも正確に形を捉えきれないほどだった。</text>
+  <transition mode="move" in="0.5" stop="0.2" out="0.5" color="#000000" direction="left" custom="default"></transition>
+  <bg img="轩辕剑_灯光99%" pos="0,200" scale="2"></bg>
+  <text>まさしく稲妻のごとく……いや、稲妻よりも速かった！</text>
+  <text>
+    <p>彼女は体からほんのわずかな距離で剣の刃を受け止めた。[\s]</p>
+    <p>続いて指で弾いた。</p>
+  </text>
+  <bg img="PureBlack" duration="0"></bg>
+  <event action="hide_ui" duration="1"></event>
+  <se id="01-55手指弹剑"></se>
+  <bg img="轩辕剑-上升" pos="0,300"></bg>
+  <delay t="0.1"></delay>
+  <bg img="轩辕剑-上升" duration="30" pos="0,-900"></bg>
+  <delay t="0.5"></delay>
+  <text inline="true">少女は意識がとてもはっきりしていた。剣心を極めている時ですら、これほど無駄のない動きで太虚剣気を扱えなかった。</text>
+  <text>
+    <p></p>
+    <p>この指の動きは、かつての師匠の指さばきに匹敵するほど完璧だった。</p>
+  </text>
+  <event action="goto" to="19"></event>
+</scene>

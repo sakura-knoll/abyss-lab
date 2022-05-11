@@ -1,0 +1,148 @@
+<scene id="20" prev="19" title="太虚の五番弟子">
+  <transition mode="fade" in="0" stop="0.5" out="1" color="#000000"></transition>
+  <event action="hide_ui"></event>
+  <bg img="PureBlack"></bg>
+  <se id="02-20柔柔的火"></se>
+  <cg img="氛围_第二折_火苗2" duration="2"></cg>
+  <delay t="2"></delay>
+  <event action="show_ui"></event>
+  <mono>
+    <p></p>
+    <p>炎は消えた。</p>
+  </mono>
+  <event action="hide_ui"></event>
+  <se></se>
+  <cg img="氛围_通用_烟雾" duration="2"></cg>
+  <delay t="2"></delay>
+  <event action="show_ui"></event>
+  <mono>
+    <p></p>
+    <p>一度は空まで昇った炎の光は、一度は金をも焦がした熱は、突然跡形もなく消えてしまった。</p>
+  </mono>
+  <se id="01-01恢复意识"></se>
+  <dialog chara="002">（あれ、どうしたんだろう――）</dialog>
+  <mono>
+    <p></p>
+    <p>それが痛みに変わった。痛みは胸と腹、肩甲骨、頭頂部からまとめて押し寄せてくる。まるで、洪水によって堤防が決壊したかのようだった。</p>
+  </mono>
+  <dialog chara="002">（ここはどこ――）</dialog>
+  <mono pageend="true">
+    <p></p>
+    <p>彼女に答えたのは激しい痛みだった。それらは頭の中で音を打ち鳴らし、その音と心臓の鼓動が混ざり、うるさくて眠れぬほどだった。</p>
+  </mono>
+  <dialog chara="002">（うるさい！うるさいよ。起きるから――）</dialog>
+  <cg duration="0"></cg>
+  <event action="hide_ui"></event>
+  <delay t="0.1"></delay>
+  <letterbox action="show_letterbox" height="600" duration="0"></letterbox>
+  <delay t="0.1"></delay>
+  <letterbox action="hide_letterbox" duration="5"></letterbox>
+  <bg img="凌霜小屋室内"></bg>
+  <delay t="6"></delay>
+  <event action="show_ui"></event>
+  <bgm id="红颜近落霞（慢哀）"></bgm>
+  <text>李素裳はゆっくりと目を開いた。</text>
+  <motion chara="007" action="show" pos="right"></motion>
+  <text inline="true">それは見慣れた天井、見慣れた小屋だった。そばで自分を見つめている人も、とても見覚えのある顔だった。</text>
+  <text>
+    <p></p>
+    <p>……安心でき、いつもと同じだと思えるほど見慣れていた。</p>
+  </text>
+  <motion chara="002" action="show" pos="left" img="素裳-疲惫无神-背手-近景"></motion>
+  <motion chara="007" action="show" pos="right" img="凌霜-标准-标准-近景"></motion>
+  <dialog chara="002">「師……匠？」</dialog>
+  <dialog chara="007">「ええ。」</dialog>
+  <text>凌霜はまったく無駄のない返事をした。</text>
+  <motion chara="002" action="img_trans" img="素裳-疲惫笑-背手-近景"></motion>
+  <dialog chara="002" inline="true">「エヘヘ。アタシ――</dialog>
+  <motion chara="002" action="img_trans" img="素裳-撒娇哭-背手-近景"></motion>
+  <motion chara="002" action="shake" duration="0.5" range="20" direction="default"></motion>
+  <dialog chara="002">イタッ！」</dialog>
+  <text>少女は体を起こそうとしたが、すぐに痛みで声をあげた。</text>
+  <text>馬非馬との戦いの傷は軽くなかった。今この時、少し動いただけで、全身に耐えがたい痛みが走る。</text>
+  <mono pageend="true">
+    <p></p>
+    <p>あれ？</p>
+    <p></p>
+    <p>馬非馬？</p>
+  </mono>
+  <motion chara="002" action="img_trans" img="素裳-惊讶-普通-近景"></motion>
+  <dialog chara="002">「あっ！」</dialog>
+  <text>素裳は夢から覚めたかのように、痛みに構うことなく慌てて言った。</text>
+  <motion chara="002" action="show" pos="left" img="素裳-严肃汗-背手-近景"></motion>
+  <dialog chara="002">「師匠、大変です！師叔が来たんです。師叔は――」</dialog>
+  <motion chara="007" action="img_trans" img="凌霜-哼-标准-近景"></motion>
+  <motion chara="002" action="img_trans" img="素裳-疲惫无神-背手-近景"></motion>
+  <dialog chara="007">「何を慌てているの？彦卿が怖いの？」</dialog>
+  <text>凌霜は冷たく言った。</text>
+  <dialog chara="007">「誰があなたたちを送り届けてくれたと思っているの？大丈夫。あなたの手当をしたら、あの男を追い出すから。」</dialog>
+  <dialog chara="002">「えっ……」</dialog>
+  <text>少女の頭を激しい痛みが襲い、じっくりと考えることができなかった。</text>
+  <motion chara="002" action="img_trans" img="素裳-惊讶2-背手-近景"></motion>
+  <dialog chara="002">「あぁ――羅刹人は！？師匠、金髪の――」</dialog>
+  <motion chara="007" action="img_trans" img="凌霜-嫌弃-标准-近景"></motion>
+  <dialog chara="007">「あなたの横にいるけれど。」</dialog>
+  <motion chara="007" action="hide"></motion>
+  <motion chara="002" action="hide" img="素裳-疲惫无神-背手-近景"></motion>
+  <cg img="CG_第二折_奥托与李素裳"></cg>
+  <text>そう言われた素裳が横を見ると、羅刹人が自分の隣で寝ていた。</text>
+  <text>少し意外だったが、知り合って以来、彼が目を閉じているところを見るのは初めてだった。</text>
+  <cg img="CG_第二折_奥托与李素裳" scale="2" origin="100%, 75%" duration="60"></cg>
+  <mono>
+    <p></p>
+    <p>……素裳の心の中に、同情のような悲しみが湧き上がってくる。</p>
+  </mono>
+  <mono>
+    <p></p>
+    <p>熟睡している金髪の男には、神のように澄みきった優雅さがあった。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>しかし、今の彼は、起きている時よりも生身の人間に近いように思えた。</p>
+  </mono>
+  <mono>
+    <p></p>
+    <p>ごまかすことも、隠れることもなく、過去の悩みも未来への執着もない。</p>
+  </mono>
+  <mono>
+    <p></p>
+    <p>羅刹人はただ眠っているだけであった。普通の人とまったく変わらず、眠っている。</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>もしかしたら……これが彼の本来の姿なのだろうか？</p>
+  </mono>
+  <bgm></bgm>
+  <text>……あれ？</text>
+  <text>彼はどこにいるのだろう？</text>
+  <motion chara="-4" action="shake" duration="0.5" range="50" direction="default"></motion>
+  <bgm id="清晨赶集（轻快）"></bgm>
+  <dialog chara="002">「あああああ――――――」</dialog>
+  <cg></cg>
+  <motion chara="002" action="show" pos="left" img="素裳-撒娇哭-背手-近景"></motion>
+  <se id="01-29下颚命中"></se>
+  <text>少女は本能的に掛布団を引っ張り、足で羅刹人を蹴飛ばした。</text>
+  <text>金髪の異邦人は寝台から転がり落ち、床に倒れたが、それでも目を覚まさなかった。</text>
+  <motion chara="002" action="show" pos="left" img="素裳-撒娇哭-普通-近景"></motion>
+  <motion chara="007" action="show" pos="right" img="凌霜-注视-标准-近景"></motion>
+  <motion chara="002" action="shake" duration="0.5" range="3" direction="default"></motion>
+  <dialog chara="002">「どどどどどどどうして、こここの人がアアアア……アタタタシの横に……」</dialog>
+  <text>素裳の顔が真っ赤になる。目には涙を浮かべており、今にも零れ落ちそうだった。一方、凌霜はまったく動じていない。</text>
+  <motion chara="007" action="img_trans" img="凌霜-嫌弃-标准-近景"></motion>
+  <dialog chara="007">「寝台は一つしかないでしょう。あなたの横に寝かせなかったらどこに寝かせればいいの？床の上？」</dialog>
+  <motion chara="002" action="shake" duration="0.5" range="2" direction="default"></motion>
+  <dialog chara="002">「師、師匠のところにも寝台はあるじゃないですか！」</dialog>
+  <motion chara="007" action="img_trans" img="凌霜-拒绝-标准-近景"></motion>
+  <dialog chara="007">「――この人を寝かせたら私はどこで寝るの？」</dialog>
+  <dialog chara="002">「そ、それでもダメです！アタシはまだ、まだ……」</dialog>
+  <motion chara="002" action="img_trans" img="素裳-委屈-普通-近景"></motion>
+  <text>素裳は言葉が出なくなり、嗚咽を漏らした。</text>
+  <motion chara="002" action="img_trans" img="素裳-撒娇哭-普通-近景"></motion>
+  <dialog chara="002">「師匠――男女が直接接触するのは良くないですよ！」</dialog>
+  <dialog chara="007">「えっ……」</dialog>
+  <text>師匠は目を伏せ、黙って考え込んだ。</text>
+  <motion chara="002" action="img_trans" img="素裳-委屈-抱手-近景"></motion>
+  <text>少女はため息をつき、ふと気づく。師匠にこの手の常識を理解してもらうなんて、少し無理があるのではないか。</text>
+  <text>なにしろ――</text>
+  <event action="goto" to="21"></event>
+</scene>

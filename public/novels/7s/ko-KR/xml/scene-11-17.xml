@@ -1,0 +1,51 @@
+<scene id="17" prev="16" title="一撃に返す•弐">
+  <event action="hide_ui" duration="2"></event>
+  <cg img="气氛_通用_赤绝影"></cg>
+  <delay t="2"></delay>
+  <mono pageend="true">
+    <p></p>
+    <p>「赤絶影」――[\s]</p>
+    <p></p>
+    <p>剣の長さは五尺九寸。古剣・軒轅は、剣意を感じ取り変化する。</p>
+    <p></p>
+    <p>――それが馬非馬の持つ、世界で二本とない神剣だ。</p>
+  </mono>
+  <event action="achievement" aid="0ecde88422bfcefe"></event>
+  <notification>伝記更新：「馬非馬」</notification>
+  <event action="hide_ui" duration="2"></event>
+  <cg img="CG_第二折_开剑山崩1" duration="1" scale="2" origin="25%,25%"></cg>
+  <delay t="0.1"></delay>
+  <cg img="CG_第二折_开剑山崩1" duration="1" scale="1" origin="25%,25%"></cg>
+  <delay t="0.8"></delay>
+  <cg img="CG_第二折_开剑山崩1" reset="true"></cg>
+  <mono pageend="true">
+    <p></p>
+    <p>「山崩」――[\s]</p>
+    <p></p>
+    <p>太虚開剣形第四式。左手の五指から人差し指と中指を突き出し、守剣「幽蘭」の構えをとる。</p>
+    <p></p>
+    <p>右手に持った刃を肩に担ぎ、剣で寸勁を放つ。その威力は山をも砕くほどだ。</p>
+  </mono>
+  <text>
+    <p>しかし、この技には弱点があった。[\s]</p>
+    <p>馬非馬のような達人でも、剣の構えを整えてから技を出すまでの間に、力を溜めるためのほんの僅かな時間が生まれるのだ。</p>
+  </text>
+  <text>並みの達人では、その瞬間の隙を見抜くことはできないだろう。</text>
+  <text>
+    <p>しかし、同じように太虚剣心を修練する者である李素裳が、その隙を見抜けるかどうかは分からなかった。[\s]</p>
+    <p>……しかし、馬非馬は技の使用を避けることも、隠すこともしなかった。</p>
+  </text>
+  <text>
+    <p>……化剣にすることもしなかった。[\s]</p>
+    <p>守剣にもしなかった。</p>
+  </text>
+  <text>開剣・山崩だけと告げた以上、放つ技は開剣・山崩だけなのだ！</text>
+  <text>
+    <p>生死や勝敗など気にしていない。馬非馬はただ、この瞬間だけを生きていた。</p>
+    <p>その心の中に残されているのは「山崩」だけだ。</p>
+  </text>
+  <bgm looptimes="0"></bgm>
+  <text>すべては一撃で終わる。</text>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <event action="goto" to="18"></event>
+</scene>
