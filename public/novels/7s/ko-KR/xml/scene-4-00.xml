@@ -4,22 +4,22 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>果てしなく広がる暗闇の中で、[\s]死んだ仙人の意識が蘇った。</p>
+    <p>끝없는 어둠 속,[\s]죽었던 선인의 의식을 되찾았다.</p>
   </mono>
   <se id="01-01白光转场"></se>
   <delay t="0.15"></delay>
   <transition in="1" stop="0.5" out="1.5" color="#ffffff" mode="fade"></transition>
-  <mono>最初、新たに生まれた意識は世界の誕生と同じように、太虚の中にある一粒の光に過ぎなかった。</mono>
+  <mono>처음에는, 마치 이 세계에서 처음 탄생한 것처럼, 그저 태허 속의 작은 점이었다.</mono>
   <se id="01-01恢复意识" looptimes="-1"></se>
   <bg img="BGIntel1" duration="3"></bg>
   <mono>
     <p></p>
-    <p>『その力』は限られている。感官から情報を受け取ることも、神経に指令を出すこともできなかった。</p>
+    <p>[그것]의 권능은 극히 한정되어, 감각에서 오는 신호를 받거나, 신경에 명령을 전달하지 못했다.</p>
   </mono>
   <bg img="BGIntel3" duration="5"></bg>
   <mono pageend="true">
     <p></p>
-    <p>混沌の中、弱い意識は古の本能に従い、盲目的でありながら揺るぎなく存在し、伸びていく。</p>
+    <p>혼란 속에서, 그저 옛 본능을 따르는 의식만이, 맹목적이면서도 확고하게, 뻗어나갔다.</p>
   </mono>
   <delay t="0.2"></delay>
   <mono pageend="true">
@@ -28,8 +28,8 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>意識はまだ自分自身の死に気付いていない。[\s]</p>
-    <p>彼女は自分自身の死を認めようとしない——</p>
+    <p>아직 자신의 죽음을 발견하지 못했다.[\s]</p>
+    <p>자신의 죽음을 인정하는 걸 거부했다ㅡ</p>
   </mono>
   <se id="01-01恢复意识" looptimes="0"></se>
   <transition in="2" stop="0" out="0" color="#ffffff" mode="dissolve"></transition>
@@ -41,35 +41,35 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>常識で判断すれば、仙人は確かに死んだ。</p>
+    <p>상식적으로 보았을 때, 선인은 분명 죽었다.</p>
   </mono>
   <event action="hide_ui"></event>
   <cg img="CG_第一折_赤鸢碎片1"></cg>
   <delay t="0.5"></delay>
   <event action="show_ui"></event>
-  <mono>右足は斬られ、くるぶしから下はなくなっている。</mono>
+  <mono>그녀의 오른발목은 부러져 있다.</mono>
   <event action="hide_ui"></event>
   <cg img="CG_第一折_赤鸢碎片2"></cg>
   <delay t="0.5"></delay>
   <event action="show_ui"></event>
-  <mono>両手の脈は潰され、もう使い物にならない。</mono>
+  <mono>그녀의 양손 힘줄은 나가있다.</mono>
   <event action="hide_ui"></event>
   <cg img="CG_第一折_赤鸢碎片3"></cg>
   <delay t="0.5"></delay>
   <event action="show_ui"></event>
-  <mono>内臓も全部破壊されている。</mono>
+  <mono>그녀의 내장은 전부 파열되었다.</mono>
   <event action="hide_ui"></event>
   <cg img="CG_第一折_赤鸢碎片4"></cg>
   <delay t="0.5"></delay>
   <event action="show_ui"></event>
   <mono>
     <p></p>
-    <p>一番重傷を負った胸部は、十数ヶ所も損傷していた。</p>
+    <p>상처가 매우 심한 심장, 열 군데가 넘게 파열되었다.</p>
   </mono>
   <cg duration="0.5"></cg>
   <mono pageend="true">
     <p></p>
-    <p>しかし、最も致命的な傷は頭部にある。</p>
+    <p>하지만, 가장 치명적인 상처는 바로 머리였다.</p>
   </mono>
   <transition in="0.6" stop="0" out="0" color="#8b0000" mode="dissolve"></transition>
   <transition mode="fade" in="0" stop="0.2" out="0.15" color="#8b0000"></transition>
@@ -79,14 +79,14 @@
   <mono>それは剣による傷だ。</mono>
   <mono inline="true">
     <p></p>
-    <p>剣が彼女の額に刺さり、</p>
+    <p>검상이었다.</p>
   </mono>
-  <mono inline="true">彼女の脳を破壊し、</mono>
-  <mono>そのまま頭を貫通した。</mono>
-  <mono>普通の人間ならば、彼女が受けた傷のひとつだけで死に至るだろう。</mono>
+  <mono inline="true">검이 그녀의 이마를 관통해,</mono>
+  <mono>뇌를 파괴하고 두개골을 뚫었다.</mono>
+  <mono>평범한 사람이었다면, 이 중 하나만으로도 치명적일 것이다.</mono>
   <mono pageend="true">
     <p></p>
-    <p>しかし「仙人」は普通ではない。</p>
+    <p>하지만 "선인"은 평범하지 않았다.</p>
   </mono>
   <transition mode="eye" in="2" stop="0" out="2" color="#000000"></transition>
   <se id="01-03野外小屋loop" looptimes="-1"></se>
@@ -94,22 +94,22 @@
   <delay t="2.2"></delay>
   <bg></bg>
   <event action="show_ui"></event>
-  <mono pageend="true">仙人は不死で、不滅なり。</mono>
+  <mono pageend="true">선인은 불사, 불멸이다.</mono>
   <event action="show_ui"></event>
   <mono>
-    <p>その体は千年経っても死なず、[\s]</p>
-    <p>その魂は万年経っても消滅することはない。[\s]</p>
+    <p>몸은 천년이 지나도 죽지 않는다.[\s]</p>
+    <p>혼은 만년이 지나도 사라지지 않는다.[\s]</p>
     <p></p>
-    <p>命の法則を徹底的に覆した、</p>
-    <p>神州唯一無二の仙人。</p>
+    <p>쇠망의 법칙을 완벽히 뒤엎은,</p>
+    <p>신주의 유일한 선인.</p>
   </mono>
   <mono pageend="true">
     <p></p>
     <p></p>
     <p></p>
-    <p>今、静かに石室に横たわる体は、まさにそういう存在であった。</p>
+    <p>이 고요한 석실에 있는 유해가, 바로 그 존재였다.</p>
   </mono>
-  <mono>ゆえに、</mono>
+  <mono>그리고,</mono>
   <event action="show_ui"></event>
   <se id="01-03野外小屋loop" looptimes="0"></se>
   <se id="01-04痊愈loop" looptimes="-1"></se>
@@ -117,12 +117,12 @@
   <event action="show_ui"></event>
   <mono pageend="true">
     <p></p>
-    <p>一つ一つの神経細胞から、</p>
-    <p>仙人の脳と肉体は長い修復と再構築を始めた。</p>
+    <p>하나의 신경에서부터 시작하여,</p>
+    <p>선인의 뇌와 육체가 점차 복구되고 재생하기 시작했다.</p>
   </mono>
   <event action="show_ui"></event>
   <delay t="7"></delay>
-  <mono pageend="true">周りの真気を吸収することで、</mono>
+  <mono pageend="true">주위의 모든 기를 흡수하여,</mono>
   <event action="hide_ui" duration="2"></event>
   <cg img="CG_第一折_赤鸢沉睡2" duration="2"></cg>
   <delay t="2"></delay>
@@ -130,7 +130,7 @@
   <se id="01-05痊愈"></se>
   <mono>
     <p></p>
-    <p>裂けた皮膚を修復し、</p>
+    <p>찢어진 피부를 메우고,</p>
   </mono>
   <event action="hide_ui" duration="2"></event>
   <cg img="CG_第一折_赤鸢沉睡3" duration="2"></cg>
@@ -138,7 +138,7 @@
   <se id="01-06痊愈"></se>
   <mono>
     <p></p>
-    <p>折れた骨を治し、</p>
+    <p>부러진 골격을 연결하고,</p>
   </mono>
   <event action="hide_ui" duration="2"></event>
   <cg img="CG_第一折_赤鸢沉睡4" duration="2"></cg>
@@ -146,7 +146,7 @@
   <se id="01-07痊愈"></se>
   <mono>
     <p></p>
-    <p>ボロボロになった筋肉を繋ぎ、</p>
+    <p>파괴된 근육을 붙이고,</p>
   </mono>
   <event action="hide_ui" duration="2"></event>
   <cg img="CG_第一折_赤鸢沉睡5" duration="2"></cg>
@@ -155,7 +155,7 @@
   <se id="01-05痊愈"></se>
   <mono pageend="true">
     <p></p>
-    <p>損傷した器官を再生する……</p>
+    <p>손상된 장기를 복구한다...</p>
   </mono>
   <delay t="2"></delay>
   <transition in="3" stop="0.5" out="0" color="#ffffff" mode="halo"></transition>
@@ -169,36 +169,36 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>やがて、仙人の『意識』が辺りを知覚する。</p>
+    <p>점차, 선인의 [의식]이 지각을 얻었다.</p>
   </mono>
   <transition mode="move" in="1" stop="0.5" out="0.5" color="#000000" direction="left" custom="thick"></transition>
   <letterbox action="show_letterbox" height="400" duration="0"></letterbox>
   <se id="01-03野外小屋loop" looptimes="-1"></se>
   <bg img="BGSky00"></bg>
-  <mono>石室の小窓の外で、光と影が織り成す線が、東から西へ、また西から東へと移動する様が見える。</mono>
+  <mono>그녀는 석실의 창에서 빛줄기가 동에서 서로, 서에서 동으로 들어오는 걸 보았다.</mono>
   <letterbox action="show_letterbox" height="300" duration="1"></letterbox>
   <bg img="BGSky01"></bg>
-  <mono>石室の中で、消えない虫たちの死体による腐臭に紛れた、枯れた草木の匂いを嗅ぐ。</mono>
+  <mono>그녀는 석실에 퍼진 개미 시체와 시든 식물의 썩은 내를 맡았다.</mono>
   <letterbox action="show_letterbox" height="200" duration="1"></letterbox>
   <bg img="BGSky02"></bg>
-  <mono>夏が終わり、秋の落葉が地に落ちる音や、雪に包まれた枝の揺れを感じる。</mono>
+  <mono>그녀는 여름이 가고 가을이 와 낙엽이 떨어지는 소리를 듣고, 눈송이를 안는 가지들이 흔들리는 것을 느꼈다.</mono>
   <letterbox action="show_letterbox" duration="1" height="100"></letterbox>
   <bg img="BGSky04"></bg>
   <mono pageend="true">
     <p></p>
-    <p>それから、痛み、痺れ、腫れ、痒み……体の様々な部位が悲鳴を上げる。</p>
-    <p>終わりのない苦痛が襲ってくる。</p>
+    <p>그녀는 아픔, 슬픔, 시려움, 저림, 더부룩함, 가려움... 을 신체 곳곳에서 느꼈다.</p>
+    <p>일천의 고난, 일백의 고통이 몸에 남아, 끝없는 고문인듯했다.</p>
   </mono>
   <se id="01-03野外小屋loop" looptimes="0"></se>
   <letterbox action="hide_letterbox" duration="0"></letterbox>
   <bg img="PureBlack" duration="3"></bg>
   <mono>
     <p></p>
-    <p>……終わりのない修復、終わりのない痛み。</p>
+    <p>...끝없는 회복, 끝없는 고통.</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>仙人は沈黙したままだ。</p>
+    <p>선인은 묵묵부답이었다.</p>
   </mono>
   <se id="01-08扰乱心神杂音loop" looptimes="-1"></se>
   <bg img="BGNeuron03" duration="3"></bg>
@@ -207,29 +207,29 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>「       私               誰          ？      」</p>
+    <p>「[       난          누군가       ?      ]」</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>頭の中は混乱したまま。覚えていることもあるが、忘れたことのほうが多い。</p>
+    <p>머릿속은 아직도 혼란하여, 기억나는 것도 있지만, 잊은 것이 더 많았다.</p>
   </mono>
   <mono chara="000" pageend="true">
     <p></p>
     <p></p>
     <p></p>
     <p></p>
-    <p>「       此処               何処          ？      」</p>
+    <p>「       여기는                ?      」</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>記憶の中には断片的な言葉しかなく、彼女が求めている答えを繋ぎ合わせることができない。</p>
+    <p>기억에 남은 문자들로는, 원하는 답이 나오지 않았다.</p>
   </mono>
   <mono chara="000" pageend="true">
     <p></p>
     <p></p>
     <p></p>
     <p></p>
-    <p>「       ……              何            ？      」</p>
+    <p>「       ...              왜           ?      」</p>
   </mono>
   <bgm id="千年之羽" looptimes="0"></bgm>
   <se id="01-08扰乱心神杂音loop" looptimes="0"></se>
@@ -240,27 +240,27 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>そう思った瞬間、長いこと摩耗してきた感情が突如として胸に湧いた。</p>
+    <p>생각을 하자, 사라졌던 감정이 가슴속에서 격동했다.</p>
   </mono>
   <se id="01-09心跳loop" looptimes="-1"></se>
   <event action="hide_ui" duration="0.5"></event>
   <motion action="shake" chara="-4" range="30" direction="default" duration="0.1" delay="0.1"></motion>
   <mono>
     <p></p>
-    <p>七……</p>
+    <p>일곱...</p>
   </mono>
   <delay t="0.2"></delay>
   <event action="show_ui"></event>
   <mono>
     <p></p>
-    <p>彼女と最も親しい七人。</p>
+    <p>그녀와 가장 가까웠던 일곱 사람.</p>
   </mono>
-  <mono>彼女のそばに最も長く居た七本の剣。</mono>
+  <mono>그녀와 가장 오랫동안 함께했던 일곱 자루의 검.</mono>
   <motion chara="-4" action="shake" duration="0.1" range="30" direction="default" looptimes="1"></motion>
   <mono pageend="true" inline="true">
     <p></p>
-    <p>七人が共謀し、彼女を嵌めた。[\s]</p>
-    <p>七本の剣が罠を仕掛け、彼女を殺した。</p>
+    <p>일곱 사람은 모략으로, 그녀를 이곳에 빠트렸다.[\s]</p>
+    <p>일곱 자루의 검은 끌어내려, 그녀를 죽였다.</p>
   </mono>
   <se id="01-09心跳loop" looptimes="0"></se>
   <transition mode="dissolve" in="1" stop="0.5" out="1" color="#000000"></transition>
@@ -271,30 +271,30 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>「       ……              何      故       ？      」</p>
+    <p>「       ...              왜       ?      」</p>
   </mono>
   <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
   <bg img="BGNeuron01"></bg>
   <cg img="CG_第一折_赤鸢沉睡end"></cg>
   <mono pageend="true" inline="true">
-    <p>湧き上がる感情が消えることはない。[\s]</p>
-    <p>怒り、[\s]</p>
-    <p>困惑、[\s]</p>
-    <p>憤怨、[\s]</p>
-    <p>腹立ち、[\s]</p>
-    <p>そして悲しみ。</p>
+    <p>흉포한 감정이 멈추지 않았다,[\s]</p>
+    <p>증오,[\s]</p>
+    <p>의혹,[\s]</p>
+    <p>원망,[\s]</p>
+    <p>분노,[\s]</p>
+    <p>그리고 슬픔이.</p>
   </mono>
   <mono chara="000">
     <p></p>
     <p></p>
-    <p>「……どうして？」</p>
+    <p>「[...어째서?]</p>
   </mono>
   <mono pageend="true">
     <p></p>
     <p></p>
     <p></p>
     <p></p>
-    <p>答えはない、あるのは答えを求める渇望だけ。</p>
+    <p>답은 없었다, 오직 답을 얻고자 하는 의지만 있을 뿐.</p>
   </mono>
   <event action="hide_ui" duration="3"></event>
   <cg img="CG_第一折_赤鸢苏醒end" duration="3"></cg>
@@ -304,52 +304,52 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>……仙人は待つことにした。</p>
+    <p>...선인은 기다리기로 결정했다.</p>
   </mono>
   <mono pageend="true">
     <p></p>
     <p></p>
     <p></p>
-    <p>かつての彼女は長い間、この地を守ってきた。時の流れは彼女にとってさほど重要ではない。</p>
+    <p>그녀는 긴 세월을 지켜봐왔고, 시간은 그녀에게 중요하지 않았다.</p>
   </mono>
   <mono pageend="true" inline="true">
     <p></p>
     <p></p>
     <p></p>
-    <p>彼女は待ち続ける、体が完治する日がやってくるまで。[\s]</p>
+    <p>그녀는 몸이 회복되기 전까지, 계속 기다려왔다.[\s]</p>
     <p></p>
-    <p>そしてあの七人を探し出す、自分を殺した理由を訊ねるため。</p>
+    <p>그녀는 일곱 사람을 찾아가, 왜 자신을 죽였는가라고 묻고 싶었다.</p>
   </mono>
   <mono>
     <p></p>
     <p></p>
     <p></p>
-    <p>強い衝動がぼんやりした意識の中で焼印を押し、</p>
+    <p>강렬한 충동이 흐릿한 의식에 각인되었고,</p>
     <p></p>
-    <p>彼女を促し、鞭撻し、変えていく。</p>
+    <p>재촉하고, 일깨웠고, 변화시킨다,</p>
     <p></p>
-    <p>待つことが習慣に、苦痛が自然になるように。</p>
+    <p>기다림은 습관이 되고, 시련은 천성이 되었다.</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>それから……</p>
+    <p>그리고...</p>
   </mono>
   <transition mode="clock" in="2" stop="0.5" out="0" color="#000000"></transition>
   <transition mode="fade" in="0" stop="0" out="2" color="#000000"></transition>
   <cg></cg>
   <mono>
-    <p>痛い</p>
-    <p>痛い</p>
-    <p>痛い</p>
-    <p>痛い</p>
+    <p>고통</p>
+    <p>고통</p>
+    <p>고통</p>
+    <p>고통</p>
   </mono>
   <mono>
     <p></p>
-    <p>終わりのない修復、終わりのない痛み。</p>
+    <p>...끝없는 회복, 끝없는 고통.</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>仙人は沈黙したままだ。</p>
+    <p>선인은 묵묵부답이었다.</p>
   </mono>
   <transition in="1" stop="0.1" out="1" color="#000000" mode="dissolve"></transition>
   <bg img="PureBlack"></bg>
@@ -357,9 +357,9 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>彼女は長い間我慢してきた、</p>
+    <p>그녀는 오랜 시간 인내해왔다,</p>
   </mono>
-  <mono pageend="true">彼女はまだまだ我慢できる。</mono>
+  <mono pageend="true">그녀는 오랜 시간 인내할 수 있다.</mono>
   <bgm looptimes="0"></bgm>
   <event action="hide_ui"></event>
   <transition in="1" stop="0.5" out="1" color="#000000" mode="fade"></transition>
