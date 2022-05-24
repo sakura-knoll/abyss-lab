@@ -8,7 +8,7 @@
   "equipment": [
     {
       "type": "recommended",
-      "weapon": "prisoner-of-the-past-deed-of-fate",
+      "weapon": "lost-conviction-damnation",
       "stigmataTop": "zeno-top",
       "stigmataMid": "zeno-mid",
       "stigmataBot": "zeno-bot"
@@ -16,112 +16,112 @@
   ],
   "leader": {
     "core": {
-      "name": "This Discipline, Must Not Be Abandoned",
-      "description": "Leader Bonus: Team Ranged Lightning DMG +40.0%. Team Total DMG +20.0%."
+      "name": "Discipline, Undefiable",
+      "description": "Leader Bonus\nLeader Skill: Increases the team's ranged Lightning DMG by 40.0% and the team's Total DMG by 20.0%."
     },
     "subskills": [
       {
-        "name": "This Discipline, Must Not Be Abandoned",
-        "description": "Leader Bonus: Team Lightning DMG +40.0%. Team Total DMG +20.0%."
+        "name": "This Discipline, Indispensable",
+        "description": "Increases the team's ranged Lightning DMG by 40.0% and the team's Total DMG by 20.0%."
       }
     ]
   },
   "special": {
     "core": {
-      "name": "Combo ATK: Good and Evil, Evidence in the Heart",
-      "description": "[Conviction] During this period, when a teammate with Lightning DMG tag on the field deals DMG, Aponia additionally deals 135% ATK of Lightning DMG. It can be triggered once every 0.4s.\n\n[Purgation] When the Purgation meter is full, hold ATK to enter [Foreseer's Punishment] state, reduced Total DMG taken by Aponia by 80%, deals 16 x 125% ATK of Lightning DMG. When [Purgation] count is reset to zero, Aponia will release [Restrictor's Judgment] to all enemies in the field, deals 1850% ATK of Lightning DMG, and remove [Foreseer's Punishment] state."
+      "name": "Combo ATK: Good and Evil, Absolute",
+      "description": "In Conviction, teammates on the field deal Disciplinary Perdition's DMG.\nIn Conviction, she prays for the Valkyries on the field, allowing Lightning DMG dealers to deal 135% Disciplinary Perdition's ATK of bonus Lightning DMG to all enemies (CD: 0.4s).\nAt full Redemption, hold [ATK] to enter Predictor's Sentence, which reduces incoming Total DMG by 80% and summons Thunderstorms dealing 16 x 125% ATK of Lightning DMG in total to surrounding enemies. When Redemption falls to 0, she unleashes Inhibitor's Adjudication that deals 1850% ATK of Lightning DMG to all enemies and cancels Predictor's Sentence."
     },
     "subskills": [
       {
-        "name": "Do Not Disgrace",
-        "description": "Total DMG of Combo ATK +15.0%, During [Conviction] every Combo ATK restores 10.0 [Purgation] count"
+        "name": "Insolence is Forbidden",
+        "description": "Increases Combo ATK's Total DMG by 15.0%. In Conviction, every triggerd Combo ATK restores 10.0 Redemption."
       },
       {
-        "name": "Do Not Indulge",
-        "description": "Lightning DMG of Combo ATK +15.0%. During [Conviction], every Combo ATK hit restores 0.20 SP."
+        "name": "Imprudence is Forbidden",
+        "description": "Increases Combo ATK's Lightning DMG by 15.0%. In Conviction, every landed Combo ATK restores 0.20 SP."
       },
       {
-        "name": "Do Not Extort",
-        "description": "[Restrictor's Judgment] deals 300.0 ATK of bonus Lightning DMG and restores 5.0 SP.",
+        "name": "Avarice is Forbidden",
+        "description": "Inhibitor's Adjudication deals 300.0% ATK of bonus Lightning DMG and restores 5.0 SP.",
         "requiredRank": "s2"
       }
     ]
   },
   "passive": {
     "core": {
-      "name": "This Sentience, Forbidden From Having Worldly Thoughts",
-      "description": "[Purgation] count can be gain by various skills during battle(max at 200).\nWhen 3rd SEQ and 4th SEQ of Basic ATKs hit the target, it restores 10/25 [Purgation] count.\nWhen the character equiped Chakram, Aponia will use it as a magic ring and obtain [This Sentience, Forbidden From Having Worldly Thoughts].\nWhile [Purgation] is not full, using Weapon Skill makes Aponia enters [Conviction] state.\nDuring [Conviction], [Purgation] count restores 5 points per second, max at 200, the character becomes invincible and unable to move or evade. During this time, you can switch to other characters to enter the field. Aponia will remain on the field until fully charged.\nWhen [Purgation] count reaches 200, [Conviction] state ends, leaving the fields and resets switch CD of herself."
+      "name": "This Life, Ascetic",
+      "description": "Passive bonuses apply automatically.\nRedemption, which caps at 200, can be recovered in many ways.\nBasic ATK SEQ 3/4 restores 10/25 Redemption on hit.\nBy wielding the chakram as a ring, she has acquired the weapon active This Mind, Untainted.\nWithout full Redemption, using weapon active sends her into Conviction.\nIn Conviction, she recovers 5 Redemption(max: 200) per second, becomes invincible but unable to move or evade, and will stay on the field until charging is complete if switched out.\nOnce Redemption reaches 200, she exits Conviction, and leaves and resets her switch CD if she is still on the field."
     },
     "subskills": [
       {
-        "name": "Follow Me, Redeem",
-        "description": "When entering [Foreseer's Punishment], Total DMG +30.0% for 9.0s."
+        "name": "I Shall Correct Paths",
+        "description": "Entering perdictor's Sentence increases Total DMG by 30.0% for 9.0s."
       },
       {
-        "name": "Follow Me, Awaken",
-        "description": "Lightning DMG of [Restrictor's Judgment] +45.0%. When leaving [Foreseer's Punishment], restores 15.0 SP ",
+        "name": "I Shall Achieve Illumination",
+        "description": "Increases Inhibitor's Adjudication's Lightning DMG by 45.0%. Exiting Predictor's Sentence restores 15.0 SP.",
         "requiredRank": "ss"
       },
       {
-        "name": "Follow Me, Eclose",
-        "description": "When triggering Ultimate Evasion, Light DMG taken by enemies +20.0% for 12.0s(independent effect)."
+        "name": "I Shall Avert Ruination",
+        "description": "Triggering Ultimate Evasion Skill makes enemies take 20.0% bonus Lightning DMG from her (cannot stack) for 12.0s."
       }
     ]
   },
   "ultimate": {
     "core": {
-      "name": "This Sin, Lasts Forever",
-      "description": "Disciplinary Perdition drops devastating blows and deals 14 x 180% + 1280% ATK of Lightning DMG. During this period, all timers stop.\n\nSP: 100, CD: 20s"
+      "name": "This Sin, Inexorable",
+      "description": "Aponia rises into the sky and delivers punishment to all enemies.\nRain down destruction from above, dealing 14 x 180% + 1280% ATK of Lightning DMG to all enemies, during which all skill timers and the stage timer are paused.\nSP cost: 100. CD: 20s."
     },
     "subskills": [
       {
-        "name": "The Sin, Deep and Irreversible.",
-        "description": "After exiting [Foreseer's Punishment] state, Total DMG of Ult +35.0% for 4.0s."
+        "name": "Its Sin, Irredeemable",
+        "description": "Exiting Predictor's Sentence increases Ultimate's Total DMG by 35.0% for 4.0s."
       },
       {
-        "name": "The Sin, Prevading and Unforgivable",
-        "description": "During [Conviction], when teammates triggers [Good and Evil, Evidence in the Heart], Disciplinary Perdition deals 15.0% ATK of Lightning bonus DMG.",
+        "name": "Its Sin, Unforgivable",
+        "description": "In Conviction, Good and Evil, Absolute triggered by teammates on the field deals 15.0% ATK of bonus Lightning DMG.",
         "requiredRank": "sss"
       },
       {
-        "name": "The Sin, Must Be Excommunicated",
-        "description": "After Ult, Total DMG of Normal ATK and Combo ATK +20.0% and Total DMG taken by Aponia -30.0% for 12.0s."
+        "name": "Its Sin Deserves Excommunication",
+        "description": "Using Ultimate increases Basic ATK's and Combo ATK's Total DMG by 20.0% and reduces incoming Total DMG by 30.0% for 12.0s."
       }
     ]
   },
   "evasion": {
     "core": {
-      "name": "This Body, Surrendering To Every Karma",
-      "description": "Quickly evades enemy attack. Can be performed twice in a row.\nUltimate Evasion: Inflicts 2.5s of global Time Fracutre, unleash [Invoker's Promise] against all enemies in the field, dealing 3 x 300% ATK of Lightning DMG and restoring 300 HP of the whole team. CD: 15s."
+      "name": "This Soma, Reincarnated",
+      "description": "Quickly dodge enemy attacks. Can be performed twice in a row.\nUltimate Evasion Skill: Causes a 2.5s Global Time Fracture, unleashes Summoner's Promise that deals 3 x 300% ATK of Lightning DMG to all enemies, and restores 100 HP to the team. CD: 15s."
     },
     "subskills": [
       {
-        "name": "Witnessed Puppet Strings Broke",
-        "description": "When an enemy paralyzes, restores 40.0 [Purgation] count and triggers Ultimate Evasion(Other Valkyrie on the field can also take effect). Lightning DMG of [Invoker's Promise] +50.0%."
+        "name": "To See Strings Detach",
+        "description": "If an enemy is paralyzed, restores 40.0 Redemption and triggers Ultimate Evasion Skill (effective if controlling another Valkyrie). The ensuing Summoner's Promise deals 50.0% more Lightning DMG."
       },
       {
-        "name": "Witnessed Suffering Dissipated",
-        "description": "Total DMG of [Invoker's Promise] +30.0%. Shortens CD of Ultimate Evasion by by 4.0s"
+        "name": "To See Suffering Cycle",
+        "description": "Increases Summoner's Promise's Total DMG by 30.0% and reduces its CD by 4.0s."
       },
       {
-        "name": "Witnessed Desolation At The Last",
-        "description": "Entering [Conviction] or [Foreseer's Punishment] state, triggers Ultimate Evasion Skill."
+        "name": "To See Ending Decay",
+        "description": "Entering Conviction or Predictor's Sentence triggers Ultimate Evasion Skill."
       }
     ]
   },
   "basic": {
     "core": {
-      "name": "Love Grows, Clearly Unbounded",
-      "description": "1st SEQ: 3 x 65% ATK of Lightning DMG.\n2nd SEQ: 6 x 25% ATK of Lightning DMG.\n3rd SEQ: 65% + 80% ATK of Lightning DMG.\n4th SEQ: 250% ATK of Lightning DMG.\nDuring [Conviction], hold ATK button to drops lightning against an enemy, to deal 100% ATK of Lightning DMG. This damage is regarded as a Combo ATK, which can be triggered once every 0.35s."
+      "name": "Love and Hate, Discerned",
+      "description": "Using the chakram as a ring to purge enemies.\nBasic ATK:\nSEQ 1: Deals 3 x 65% ATK of Lightning DMG.\nSEQ 2: Deals 6 x 25% ATK of Lightning DMG.\nSEQ 3: Deals 65% + 80% ATK of Lightning DMG.\nSEQ4: Deals 250% ATK of Lightning DMG.\nIn Conviction, hold [ATK] to call down lightning dealing 100% ATK of Lightning DMG. It is registered as Combo ATK and has a 0.35s CD."
     },
     "subskills": [
       {
-        "name": "To This Atonment For Evil Deed",
-        "description": "When recovering [Purgation], Total DMG +20.0% for 10.0s(can be refreshed)."
+        "name": "Cleansed Henceforth",
+        "description": "Restoring Redemption increases Total DMG by 20.0% for 10.0s (triggering it again refreshes the duration)."
       },
       {
-        "name": "QTE: To This Suffering From Evil Intention",
-        "description": "QTE: Triggered when enemy is time-slowed or paralyzed, induces 3s of global Time Fracture, deals 3 x 100% + 4 x 150% + 900.0% ATK of Lightning DMG to all enemies in the field, and restores 6.0 SP."
+        "name": "QTE: Sinful Henceforth",
+        "description": "QTE: Triggered when an enemy is Time-Slowed or paralyzed. Causes a 3s Global Time Fracture, deals 3 x 100% + 4 x 150% + 900.0% ATK of Lightning DMG to all enemies, and restores 6.0 SP."
       }
     ]
   }

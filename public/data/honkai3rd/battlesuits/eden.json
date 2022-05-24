@@ -8,7 +8,7 @@
   "equipment": [
     {
       "type": "recommended",
-      "weapon": "beautiful-poem-of-the-past",
+      "weapon": "echo-of-paradise",
       "stigmataTop": "handel-top",
       "stigmataMid": "handel-mid",
       "stigmataBot": "handel-bot"
@@ -16,133 +16,133 @@
   ],
   "leader": {
     "core": {
-      "name": "Shining Like Gold",
-      "description": "Team Lightning DMG +20.0%. Team Total DMG +22.0%."
+      "name": "This Moment Shines Like Gold",
+      "description": "Leader Bonus\nLeader Skill: Increases the team's Lightning DMG by 20.0% and the team's Total DMG by 22.0%."
     },
     "subskills": [
       {
-        "name": "Shining Like Gold",
-        "description": "Team Lightning DMG +20.0%. Team Total DMG +22.0%."
+        "name": "This Moment Shines Like Gold",
+        "description": "Increases the team's Lightning DMG by 20.0% and the team's Total DMG by 22.0%."
       }
     ]
   },
   "special": {
     "core": {
       "name": "Combo Attack-Romance: Paradise",
-      "description": "Hold ATK button to unleash various Combo ATKs based on [Musical Score]\n[Chord]: Shoots rapidly, dealing 5x130% ATK of Lightning Element DMG and gains [Playing] status.\n[Variation]: Throw a note bomb, dealing 400% ATK of Lightning Element DMG and provides [Enchanted] status to all characters.\n[Doubling]: Throw pistols, circling 2 times, dealing 200% + 6 x 80% ATK of Lightning DMG and consuming 6 Notes during the first circling, and dealing 6 x 25% ATK of Lightning Elemeng DMG during the second circling. After using, gains [Music Surrounding] and [Playing] status, and provides [Enchanted] status to all characters. During the second circling, the pistols can be retrieved by releasing ATK button.\nDuring [Chord] and [Variation], gains Iron Body and 30% Total DMG Reduction. During [Doubling], the character won't take any damage from enemies."
+      "description": "When Score meets different conditions, hold [ATK] to cast different Combo ATKs.\nChord: Fire rapidly, dealing 5 x 130% ATK of Lightning DMG. Casting it makes the caster enter Performance.\nVariation: Throw a note bomb, dealing 400% ATK of Lightning DMG. Casting it makes the team enter Fascination.\nEnsemble: Hurl pistols, which can spin twice. The first spin deals 200% + 6 x 80% ATK of Lightning DMG and consumes 6 notes. The second spin deals 6 x 25% ATK of Lightning DMG in total. Casting it makes the caster enter Symphony and Performance and the team enter Fascination. Release [ATK] during the second spin to retrieve the pistols. \nDuring Chord and Variation, gain Iron Body and 30% Total DMG Reduction. During Ensemble, become immune to incoming DMG."
     },
     "subskills": [
       {
-        "name": "The 1st Movement: Lamplight",
-        "description": "[Playing] status lasts 8s(can be refreshed). During the status, dealing DMG will cause the targets to take 30.0% more Lightning Element DMG for 20s(can be refreshed, independent effect)."
+        "name": "1st Movement: Lights",
+        "description": "Performance lasts 8s (triggering it again refreshes the duration). In this state, damaging enemies make them take 30.0% more Lightning DMG for 20s (triggering it again refreshes the duration and it cannot stack)."
       },
       {
-        "name": "The 2nd Movement: Thriving City",
-        "description": "[Enchanted] status lasts 20s(can be refreshed). During the status, Total DMG +40.0%."
+        "name": "2nd Movement: Downtown",
+        "description": "Fascination lasts 20s (triggering it again refreshes the duration). In this state, Total DMG increases by 40.0%."
       },
       {
-        "name": "The 3rd Movement: Beautiful Night",
-        "description": "[Music Surrounding] status lasts 8s(can be refreshed). During the status, every Normal ATK and Combo ATK dealing damage additionally unleashes a note attack, dealing 30.0% ATK of Lightning Element DMG. This attack can be triggered once every 0.3s. [Doubling] inflicts 12 x 0.25 Paralyze Trauma."
+        "name": "3rd Movement: After-hours",
+        "description": "Symphony lasts 8s (triggering it again refreshes the duration). In this state, a note attack dealing 30.0% ATK of Lightning DMG (CD: 0.3s) follows every Basic ATK or Combo ATK that has damaged an enemy, and Ensemble inflicts 12 x 0.25 Paralyze Trauma in total."
       }
     ]
   },
   "passive": {
     "core": {
-      "name": "Requiem: Memory",
-      "description": "[Musical Score] Divided into two measures. Each measure can have 3 notes, each Normal ATK restores 1 Note. When Notes are maxed out, you can use Combo ATK([Chord], [Variation]) and complete one measure. After completing two measures, you can use next Combo ATK([Doubling]) and consume all Notes, and recover 100 HP for each note consumed."
+      "name": "Requiem: Remembrance",
+      "description": "Passive bonuses apply automatically.\nScore: Separated into 2 bars that each holds 3 notes. Using Basic ATK restores 1 note. At 3 notes, use Combo ATK to finish the bar. After finishing 2 bars, use Combo ATK to consume all notes. Consuming a note restores 100 HP."
     },
     "subskills": [
       {
-        "name": "The 1st Movement: Old Days",
-        "description": "After Golden Diva exits, duration of [Enchanted] state of all characters in the battlefield are refreshed.",
+        "name": "1st Movement: Bygones",
+        "description": "Upon exit, refreshes the duration of Fascination on all Valkyries on the field.",
         "requiredRank": "s"
       },
       {
-        "name": "The 2nd Movment: Stars",
-        "description": "Initial SP +40.0(can be triggered every 10 mins in the open world).",
+        "name": "2nd Movment: Stars",
+        "description": "Start battle with 40.0 bonus SP. Triggered once every 10 minutes in Open World.",
         "requiredRank": "ss"
       },
       {
-        "name": "The 3rd Movment: An Epoch",
-        "description": "When the team inflicts paralyze against an enemy, Total DMG 20.0% for 10s.",
+        "name": "3rd Movment: An Epoch",
+        "description": "Enemies paralyzed by the team take 20.0% more Total DMG by 10s.",
         "requiredRank": "sss"
       }
     ]
   },
   "ultimate": {
     "core": {
-      "name": "Fantasia: Ode To The World",
-      "description": "Play [Ode to the World], dealing 1800% ATK of Lightning Element DMG to enemies within the range, inflicting 12 Paralyze Trauma, and obtaining [Sound of Heaven] buff to herself which lasts for 15s. During the ult casting, the character won't take any damage from enemies. When obtaining [Sound of Heaven], immediately restores all notes and complete all measures. During the buff, Notes continously restores and you can unleash Combo ATKs, [Doubling], [Chord], [Variation] by tapping ATK button. Also [Doubling] circles only once. When the buff ends, clears all Notes.\nSP: 125, CD: 17s."
+      "name": "Fantasy: Century",
+      "description": "Expand a domain and strengthen herself. Pluck strings to play Century Chapter for 15s, dealing 1800% ATK of AoE Lightning DMG, inflicting 12 Paralyze Trauma, and granting Sound of Nature, which makes skill animations negate incoming DMG for 15s. She can move freely while Century Chapter is playing. Upon gaining Sound of Nature, recover all notes and finish all bars. While the buff lasts, auto-recover notes, and tapping [ATK] unleashes Combo ATKs Ensemble (pistols only spin once), Chord, and Variation in order. Score resets when the buff expires.\nSP cost: 125. CD: 17s."
     },
     "subskills": [
       {
-        "name": "The 1st Movement: Pastorale",
-        "description": "After playing [Ode to the World], all characters on the battlefield restore 2.0 SP every second for 8.0s second."
+        "name": "1st Movement: Contryside",
+        "description": "Century Chapter restores 2.0 SP/s for 8s to all Valkyries on the field."
       },
       {
-        "name": "The 2nd Movement: Gunsmoke",
-        "description": "During [Sound of Heaven], self Lightning Element DMG of Combo ATKs +20.0%.",
+        "name": "2nd Movement: Gunsmoke",
+        "description": "In Sound of Nature, increases Combo ATK's Lightning DMG by 20.0%.",
         "requiredRank": "sss"
       },
       {
-        "name": "The 3rd Movement: Epigraphy",
-        "description": "When hitting a Nihilus Seed, Ultimate instantly depletes its current-phase HP if it's below 20%."
+        "name": "3rd Movement: Epigraphy",
+        "description": "If Ultimate hits a Nihilus Seed whose current phase has less than 20% HP, it insta-kills this phase."
       }
     ]
   },
   "evasion": {
     "core": {
-      "name": "Waltz: Drunken Dreams",
-      "description": "Quickly evades enemy attack. Can be performed twice in a row.\nUltimate Evasion: Inflicts 3.0s of Time Fracture. CD: 15s."
+      "name": "Waltz: Dream",
+      "description": "Quickly dodge enemy attacks. Can be performed twice in a row.\nUltimate Evasion causes a 3s Global Time Fracture (CD: 15s)."
     },
     "subskills": [
       {
-        "name": "The 1st Movement: Sweet Dew",
-        "description": "After using Ultimate Evasion, restores all notes of curent measure. Hold ATK button to release corresponding Combo ATK directly."
+        "name": "1st Movement: Sweet Dew",
+        "description": "Triggering Ultimate Evasion Skill maxes out the notes in the current bar. Hold [ATK] to use the corresponding Combo ATK."
       },
       {
-        "name": "The 2nd Movement: Delight",
-        "description": "While the character is standby, restores 5 SP per second if her current SP is below 100.0.",
+        "name": "2nd Movement: Joy",
+        "description": "If SP is below 100.0 when off the field, recover 5.0 SP/s.",
         "requiredRank": "s"
       }
     ]
   },
   "basic": {
     "core": {
-      "name": "Capriccio: Starlight",
-      "description": "1th SEQ: 90% ATK of Lightning Element DMG.\n2nd SEQ: 100% ATK of Lightning Element DMG.\n3rd SEQ: 120% ATK of Lightning Element DMG.\nEach Normal ATK restores 1 Note."
+      "name": "Caprice: Starlight",
+      "description": "Fire dual pistols\nSEQ 1: 90% ATK of Lightning DMG.\nSEQ 2: 100% ATK of Lightning DMG.\nSEQ 3: 120% ATK of Lightning DMG.\nUsing Basic ATK restores 1 note."
     },
     "subskills": [
       {
-        "name": "The 1st Movement: Nightfall",
-        "description": "When 3rd SEQ hits an enemy, self Lightning Element DMG +30.0% for 3s.",
+        "name": "1st Movement: Nightfall",
+        "description": "On hit, the 3rd attacks in the Basic ATK sequence increases Lightning DMG by 30.0% for 3s.",
         "requiredRank": "ss"
       },
       {
-        "name": "QTE-The 2nd Movement: Enlightenment",
-        "description": "QTE: Triggered when enemy is time-slowed or a teammate uses Weapon Active Skill, inflicting 3s of global Time Fracture, dealing 1500.0% + 2 x 50% ATK of Lightning Element DMG, restores 12 SP, completes the first measure, and obtaining [Playing] Status. QTE entry reduces the CD of the next switch by 4.0s."
+        "name": "QTE-2nd Movement: Enlightenment",
+        "description": "QTE: Triggered when an enemy is Time-Slowed or a teammate uses weapon active. Causes a 3s Global Time Fracture, deals 1,500.0% + 2 x 50% ATK of Lightning DMG, restores 12.0 SP, finishes the 1st bar, activates Performance, and reduces switch CD to 4s."
       }
     ]
   },
   "sp": {
     "core": {
-      "name": "Peerless Singing Voice",
-      "description": "During [Doubling], releasing ATK button when a flash appears on the body activates [Grand Ensemble]. [Grand Ensemble] deals 500% ATK of Lightning Element DMG and accumulates 3.5 Paralyze Trauma. During [Grand Ensemble], the character won't take any damages. In [Sound of Heaven] status, [Grand Ensemble] is released automatically."
+      "name": "Unique Singing",
+      "description": "Release [ATK] when she flashes during Ensemble to unleash Ensemble Playing.\nIt deals 500% ATK of Lightning DMG and inflicts 3.5 Paralyze Trauma. Ensemble Playing negates incoming DMG for its duration. With Sound of Nature, Ensemble Playing is auto-cast during Ensemble."
     },
     "subskills": [
       {
-        "name": "Like The Sound Of Heaven Above Clouds",
-        "description": "When [Grand Ensemble] hits an enemy, Golden Diva recovers 2.5 SP and 100.0 HP.",
+        "name": "Like a Song Above Clouds",
+        "description": "On hit, Ensemble Playing restores 2.5 SP and 100.0 HP.",
         "requiredRank": "s"
       },
       {
-        "name": "Like A Clear Stream Of A Lake",
-        "description": "When [Grand Ensemble] hits an enemy, restores 8.0 SP to all team members. CD: 8s. After using Ult, the first [Grand Ensemble] before exiting triggers 3s of Time Fracture.",
+        "name": "Like a Current in Lake",
+        "description": "On hit, Ensemble Playing restores 8.0 SP to the team (CD: 8s). After using Ultimate and before exiting, the first Ensemble Playing causes a 3s Time Fracture.",
         "requiredRank": "ss"
       },
       {
-        "name": "Like A Bright Star In The Night",
-        "description": "After using Ult, enhance Golden Diva's Combo ATKs. Paralyze Trauma accumlation rate of the attacks are increased by 25.0% for 10s. Self Total DMG of the attacks are increased by 25.0% for 15s.",
+        "name": "Like a Star at Night",
+        "description": "Using Ultimate increases Paralyze Trauma from Combo ATK by 25.0% for 10s and Combo ATK's Total DMG by 25.0% for 15s.",
         "requiredRank": "sss"
       }
     ]
