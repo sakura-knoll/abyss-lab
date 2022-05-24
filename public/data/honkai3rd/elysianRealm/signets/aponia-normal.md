@@ -68,32 +68,32 @@ Ultimate's Physical DMG and Elemental DMG increase by 0.48% of Exhortation. Usin
 
 # Fifth, No Falsehood
 
-Valkyries start with 70 bonus Exhortation.
+Valkyries start with 70 bonus Exhortation. Whenever Exhortation is reduced, enemies take 25% bonus Total DMG for 5s. Can be refreshed.
 
 ## Fifth, No Falsehood +1
 
-Valkyries start with 80 bonus Exhortation.
+Valkyries start with 70 bonus Exhortation. Whenever Exhortation is reduced, enemies take 30% bonus Total DMG for 5s. Can be refreshed.
 
 ## Fifth, No Falsehood +2
 
-Valkyries start with 90 bonus Exhortation.
+Valkyries start with 70 bonus Exhortation. Whenever Exhortation is reduced, enemies take 35% bonus Total DMG for 5s. Can be refreshed.
 
 ## Fifth, No Falsehood +3
 
-Valkyries start with 100 bonus Exhortation.
+Valkyries start with 70 bonus Exhortation. Whenever Exhortation is reduced, enemies take 40% bonus Total DMG for 5s. Can be refreshed.
 
 # Sixth, No Decadence
 
-Whenever Exhortation is reduced, enemies take 25% bonus Physical DMG and Elemental DMG for 5s. Can be refreshed.
+Boosts Valkyrie Total DMG by 30% and keeps Exhortation from decreasing for 15s upon QTE hitting an enemy. Triggering it again resets the duration.
 
 ## Sixth, No Decadence +1
 
-Whenever Exhortation is reduced, enemies take 30% bonus Physical DMG and Elemental DMG for 5s. Can be refreshed.
+Boosts Valkyrie Total DMG by 35% and keeps Exhortation from decreasing for 15s upon QTE hitting an enemy. Triggering it again resets the duration.
 
 ## Sixth, No Decadence +2
 
-Whenever Exhortation is reduced, enemies take 35% bonus Physical DMG and Elemental DMG for 5s. Can be refreshed.
+Boosts Valkyrie Total DMG by 40% and keeps Exhortation from decreasing for 15s upon QTE hitting an enemy. Triggering it again resets the duration.
 
 ## Sixth, No Decadence +3
 
-Whenever Exhortation is reduced, enemies take 40% bonus Physical DMG and Elemental DMG for 5s. Can be refreshed.
+Boosts Valkyrie Total DMG by 45% and keeps Exhortation from decreasing for 15s upon QTE hitting an enemy. Triggering it again resets the duration.

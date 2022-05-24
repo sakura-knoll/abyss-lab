@@ -54,6 +54,21 @@ module.exports = {
         permanent: true,
       },
       {
+        source: '/honkai3rd/weapons/prisoner-of-the-past',
+        destination: '/honkai3rd/weapons/lost-conviction',
+        permanent: true,
+      },
+      {
+        source: '/honkai3rd/weapons/prisoner-of-the-past-deed-of-fate',
+        destination: '/honkai3rd/weapons/lost-conviction-damnation',
+        permanent: true,
+      },
+      {
+        source: '/honkai3rd/weapons/beautiful-poem-of-the-past',
+        destination: '/honkai3rd/weapons/echo-of-paradise',
+        permanent: true,
+      },
+      {
         source: '/novels/ae/index.html',
         destination: '/honkai3rd/novels/ae',
         permanent: false,

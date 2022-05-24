@@ -1,50 +1,50 @@
 # Talons that Desecrate the Santuary
 
-Basic/Combo/Charged ATKs inflict a stack of Rend on hit, each stack dealing 20% ATK of Adaptive DMG per second for 10s. 70 stacks max. Stacking CD: 1s.
+Basic/Combo/Charged ATKs inflict a stack of Rend on hit, each stack dealing 25% ATK of Adaptive DMG per second for 10s. 70 stacks max. Stacking CD: 1s.
 
 ## Talons that Desecrate the Santuary +1
 
-Basic/Combo/Charged ATKs inflict a stack of Rend on hit, each stack dealing 20% ATK of Adaptive DMG per second for 10s. 70 stacks max. Stacking CD: 0.9s.
+Basic/Combo/Charged ATKs inflict a stack of Rend on hit, each stack dealing 25% ATK of Adaptive DMG per second for 10s. 70 stacks max. Stacking CD: 0.9s.
 
 ## Talons that Desecrate the Santuary +2
 
-Basic/Combo/Charged ATKs inflict a stack of Rend on hit, each stack dealing 20% ATK of Adaptive DMG per second for 10s. 70 stacks max. Stacking CD: 0.8s.
+Basic/Combo/Charged ATKs inflict a stack of Rend on hit, each stack dealing 25% ATK of Adaptive DMG per second for 10s. 70 stacks max. Stacking CD: 0.8s.
 
 ## Talons that Desecrate the Santuary +3
 
-Basic/Combo/Charged ATKs inflict a stack of Rend on hit, each stack dealing 20% ATK of Adaptive DMG per second for 10s. 70 stacks max. Stacking CD: 0.6s.
+Basic/Combo/Charged ATKs inflict a stack of Rend on hit, each stack dealing 25% ATK of Adaptive DMG per second for 10s. 70 stacks max. Stacking CD: 0.6s.
 
 # Wings that Mask the Sanguine Moon
 
-Ultimate Evasion Skill inflicts 8 stacks of Rend on all enemies, each stack dealing 20% ATK of adaptive DMG per second for 10s. 70 stacks max. CD: 8s.
+Ultimate Evasion Skill inflicts 15 stacks of Rend on all enemies, each stack dealing 25% ATK of adaptive DMG per second for 10s. 70 stacks max. CD: 15s.
 
 ## Wings that Mask the Sanguine Moon +1
 
-Ultimate Evasion Skill inflicts 8 stacks of Rend on all enemies, each stack dealing 20% ATK of adaptive DMG per second for 10s. 70 stacks max. CD: 7s.
+Ultimate Evasion Skill inflicts 15 stacks of Rend on all enemies, each stack dealing 25% ATK of adaptive DMG per second for 10s. 70 stacks max. CD: 13s.
 
 ## Wings that Mask the Sanguine Moon +2
 
-Ultimate Evasion Skill inflicts 8 stacks of Rend on all enemies, each stack dealing 20% ATK of adaptive DMG per second for 10s. 70 stacks max. CD: 6s.
+Ultimate Evasion Skill inflicts 15 stacks of Rend on all enemies, each stack dealing 25% ATK of adaptive DMG per second for 10s. 70 stacks max. CD: 11s.
 
 ## Wings that Mask the Sanguine Moon +3
 
-Ultimate Evasion Skill inflicts 8 stacks of Rend on all enemies, each stack dealing 20% ATK of adaptive DMG per second for 10s. 70 stacks max. CD: 5s.
+Ultimate Evasion Skill inflicts 15 stacks of Rend on all enemies, each stack dealing 25% ATK of adaptive DMG per second for 10s. 70 stacks max. CD: 9s.
 
 # Horns that Rip the Bleak Sky
 
-Ultimate inflicts 8 stacks of Rend on all enemies, each stack dealing 20% ATK of adaptive DMG per second for 10s. 70 stacks max. CD: 8s.
+Ultimate inflicts 15 stacks of Rend on all enemies, each stack dealing 25% ATK of adaptive DMG per second for 10s. 70 stacks max. CD: 15s.
 
 ## Horns that Rip the Bleak Sky +1
 
-Ultimate inflicts 8 stacks of Rend on all enemies, each stack dealing 20% ATK of adaptive DMG per second for 10s. 70 stacks max. CD: 7s.
+Ultimate inflicts 15 stacks of Rend on all enemies, each stack dealing 25% ATK of adaptive DMG per second for 10s. 70 stacks max. CD: 13s.
 
 ## Horns that Rip the Bleak Sky +2
 
-Ultimate inflicts 8 stacks of Rend on all enemies, each stack dealing 20% ATK of adaptive DMG per second for 10s. 70 stacks max. CD: 6s.
+Ultimate inflicts 15 stacks of Rend on all enemies, each stack dealing 25% ATK of adaptive DMG per second for 10s. 70 stacks max. CD: 11s.
 
 ## Horns that Rip the Bleak Sky +3
 
-Ultimate inflicts 8 stacks of Rend on all enemies, each stack dealing 20% ATK of adaptive DMG per second for 10s. 70 stacks max. CD: 5s.
+Ultimate inflicts 15 stacks of Rend on all enemies, each stack dealing 25% ATK of adaptive DMG per second for 10s. 70 stacks max. CD: 9s.
 
 # Eyes that Overlook the Vicious Abyss
 

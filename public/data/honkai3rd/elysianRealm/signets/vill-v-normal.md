@@ -16,67 +16,67 @@ Using a weapon active boosts its Total DMG by 16%. 6 stacks max. Reset at the en
 
 # Act II: Pendulum
 
-Using a weapon active makes enemies take 20% bonus Total DMG for 3.5s. Triggering it again resets the duration.
+Using a weapon active makes enemies take 20% bonus Total DMG for 4.5s. Triggering it again resets the duration.
 
 ## Act II: Pendulum +1
 
-Using a weapon active makes enemies take 24% bonus Total DMG for 3.5s. Triggering it again resets the duration.
+Using a weapon active makes enemies take 24% bonus Total DMG for 4.5s. Triggering it again resets the duration.
 
 ## Act II: Pendulum +2
 
-Using a weapon active makes enemies take 28% bonus Total DMG for 3.5s. Triggering it again resets the duration.
+Using a weapon active makes enemies take 28% bonus Total DMG for 4.5s. Triggering it again resets the duration.
 
 ## Act II: Pendulum +3
 
-Using a weapon active makes enemies take 32% bonus Total DMG for 3.5s. Triggering it again resets the duration.
+Using a weapon active makes enemies take 32% bonus Total DMG for 4.5s. Triggering it again resets the duration.
 
 # Act III: Conflict
 
-Using a weapon active boosts Valkyrie Total DMG by 30% for 3.5s. Triggering it again resets the duration.
+Using a weapon active boosts Valkyrie Total DMG by 30% for 4.5s. Triggering it again resets the duration.
 
 ## Act III: Conflict +1
 
-Using a weapon active boosts Valkyrie Total DMG by 36% for 3.5s. Triggering it again resets the duration.
+Using a weapon active boosts Valkyrie Total DMG by 36% for 4.5s. Triggering it again resets the duration.
 
 ## Act III: Conflict +2
 
-Using a weapon active boosts Valkyrie Total DMG by 42% for 3.5s. Triggering it again resets the duration.
+Using a weapon active boosts Valkyrie Total DMG by 42% for 4.5s. Triggering it again resets the duration.
 
 ## Act III: Conflict +3
 
-Using a weapon active boosts Valkyrie Total DMG by 48% for 3.5s. Triggering it again resets the duration.
+Using a weapon active boosts Valkyrie Total DMG by 48% for 4.5s. Triggering it again resets the duration.
 
 # Act IV: Spoon
 
-Using a weapon active boosts Physical DMG and Elemental DMG from Charged ATK and Combo ATK by 25% for 3.5s. Triggering it again resets the duration.
+Using a weapon active boosts Physical DMG and Elemental DMG from Charged ATK and Combo ATK by 25% for 4.5s. Triggering it again resets the duration.
 
 ## Act IV: Spoon +1
 
-Using a weapon active boosts Physical DMG and Elemental DMG from Charged ATK and Combo ATK by 30% for 3.5s. Triggering it again resets the duration.
+Using a weapon active boosts Physical DMG and Elemental DMG from Charged ATK and Combo ATK by 30% for 4.5s. Triggering it again resets the duration.
 
 ## Act IV: Spoon +2
 
-Using a weapon active boosts Physical DMG and Elemental DMG from Charged ATK and Combo ATK by 35% for 3.5s. Triggering it again resets the duration.
+Using a weapon active boosts Physical DMG and Elemental DMG from Charged ATK and Combo ATK by 35% for 4.5s. Triggering it again resets the duration.
 
 ## Act IV: Spoon +3
 
-Using a weapon active boosts Physical DMG and Elemental DMG from Charged ATK and Combo ATK by 40% for 3.5s. Triggering it again resets the duration.
+Using a weapon active boosts Physical DMG and Elemental DMG from Charged ATK and Combo ATK by 40% for 4.5s. Triggering it again resets the duration.
 
 # Act V: Spider Web
 
-Using a weapon active boosts Valkyrie ranged Total DMG by 40% for 3.5s. Triggering it again resets the duration.
+Using a weapon active boosts Valkyrie ranged Total DMG by 40% for 4.5s. Triggering it again resets the duration.
 
 ## Act V: Spider Web +1
 
-Using a weapon active boosts Valkyrie ranged Total DMG by 48% for 3.5s. Triggering it again resets the duration.
+Using a weapon active boosts Valkyrie ranged Total DMG by 48% for 4.5s. Triggering it again resets the duration.
 
 ## Act V: Spider Web +2
 
-Using a weapon active boosts Valkyrie ranged Total DMG by 56% for 3.5s. Triggering it again resets the duration.
+Using a weapon active boosts Valkyrie ranged Total DMG by 56% for 4.5s. Triggering it again resets the duration.
 
 ## Act V: Spider Web +3
 
-Using a weapon active boosts Valkyrie ranged Total DMG by 62% for 3.5s. Triggering it again resets the duration.
+Using a weapon active boosts Valkyrie ranged Total DMG by 62% for 4.5s. Triggering it again resets the duration.
 
 # Act VI: Sneer
 
