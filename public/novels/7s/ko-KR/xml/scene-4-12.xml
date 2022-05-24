@@ -4,36 +4,36 @@
   <se id="01-34男沙地重摔"></se>
   <delay t="0.5"></delay>
   <motion chara="-4" action="shake" duration="0.5" range="40" direction="default"></motion>
-  <text>ドン。</text>
-  <text>李素裳は突き飛ばされ、地面に転んだ。</text>
-  <dialog chara="002">「う——」</dialog>
-  <text>痛くはないが、素裳は本能的に喚いた。少女の柔らかい声は口の中に入れられた布のせいで打って変わって、低い鳴き声にしかならない。</text>
-  <text>強盗たちが牢屋の外で談笑し、汚い言葉を放つ。</text>
+  <text>쿵.</text>
+  <text>이소상이 바닥에 떨어져 나뒹굴었다.</text>
+  <dialog chara="002">[읍ㅡ]</dialog>
+  <text>아프진 않았지만, 소상은 본능적으로 소리를 질렀다. 소녀의 부드러운 목소리가 찢어진 천 조각을 지나며, 낮은 신음이 되었다.</text>
+  <text>몇몇 도적들이 감옥 바깥에서 웃으며 잡답을 하는데, 더러운 말이 대부분이었다.</text>
   <bg img="PureBlack" duration="4"></bg>
   <text>
-    <p>ガタッ。[\s]</p>
-    <p>鉄格子の鍵がかかった。</p>
+    <p>찰칵.[\s]</p>
+    <p>철문이 위에서 잠겼다.</p>
   </text>
-  <text>松明の光が足音と共に遠くなる。少女は、暗い地下牢の中に置き去りにされてしまった。</text>
+  <text>불에 흔들리는 그림자가 멀어지며, 소녀를 어둑한 지하감옥에 버리고 가버렸다.</text>
   <text>
-    <p>素裳は体を動かしながら、座ろうと試みる。[\s]</p>
-    <p>彼女の目はまだ暗闇に慣れておらず、何も見えない。両足を動かす時に、何かにぶつけた。</p>
+    <p>소상이 몸을 뒤척이며, 일어나려 했다.[\s]</p>
+    <p>그녀의 눈은 아직 어둠에 적응하지 못해 아무것도 보이지 않았는데, 다리를 움직이자 무언가 살짝 닿았다.</p>
   </text>
   <event action="hide_ui" duration="1"></event>
   <delay t="1"></delay>
   <se id="01-50奥托叹气"></se>
-  <text>そして、ため息が聞こえる。</text>
+  <text>누군가의 한숨소리가 났다.</text>
   <event action="hide_ui" duration="3"></event>
   <bg img="牢房-暗" duration="3"></bg>
   <delay t="2.5"></delay>
-  <text>その声と共に、部屋の中に仄かに揺らめく炎が現れ、かろうじて小さな牢屋を照らした。</text>
+  <text>목소리가 나고, 허름한 방에서 갑자기 불길이 피어올라 작은 흑뢰를 찬찬히 비췄다.</text>
   <bgm id="神秘东方"></bgm>
   <bg img="牢房-亮" duration="4"></bg>
   <delay t="4"></delay>
   <motion chara="002" action="show" pos="center" img="素裳-惊讶-背手-中景" duration="1"></motion>
   <text>
-    <p>李素裳は、驚く。[\s]</p>
-    <p>彼女を驚かせたのは突如現れた火の光ではなく、ため息をついた相手だった。</p>
+    <p>이소상은 깜짝 놀랐다[\s]</p>
+    <p>그녀가 놀란건 갑자기 나타난 불꽃 때문이 아니라, 사람 때문이었다.</p>
   </text>
   <motion chara="002" action="hide"></motion>
   <transition mode="fade" in="1" stop="0.5" out="0.2" color="#000000"></transition>
@@ -52,138 +52,138 @@
   <delay t="2"></delay>
   <transition mode="fade" in="0.2" stop="0.1" out="0.2" color="#000000"></transition>
   <cg img="CG_第一折_奥托地牢_看杯"></cg>
-  <text>それは20歳くらいの女性で、白い肌と美しい容姿を持っていた。神州人とは全く違っていて、まるで伝説の中の仙人のようだ。</text>
-  <text>炎が彼女の耳元で揺らぎ、妖艶さを一層引き立てている。</text>
+  <text>대략 20세 정도의 여인, 하얀 피부에 고운 용모, 신주인의 모습이 아닌, 마치 전설 속의 선녀 같은 모습이었다.</text>
+  <text>불꽃이 그녀의 귓가에서 떠다녀, 더욱 요염해 보였다.</text>
   <text>
-    <p>[em italic]羅刹人……[/em][\s]</p>
-    <p>李素裳は強盗たちのひそひそ話を思い出した。[\s]</p>
-    <p>[em italic]羅刹人は、こんな感じなんだ。[/em]</p>
+    <p>[em italic]나찰인...[/em][\s]</p>
+    <p>이소상은 도적들이 속닥이던걸 떠올렸다. [\s]</p>
+    <p>[em italic] 나찰인은 이런 모습이구나.[/em]</p>
   </text>
   <event action="hide_ui" duration="2"></event>
   <cg img="CG_第一折_奥托地牢_看杯" duration="8" scale="2.8" origin="5%,3%"></cg>
   <delay t="2"></delay>
   <text>
-    <p>その横を見ると、女性の横には大きな棺が置いてあった。</p>
-    <p>危うく蹴ってしまいそうになったものである。</p>
+    <p>다시 그쪽을 보니, 여인의 곁에는 큰 관이 놓여있었고,</p>
+    <p>방금 소상이 그 끝을 찰 뻔했었다.</p>
   </text>
-  <text>棺桶はよくあるものだ。わざわざ避けるようなものでもない。しかし、怪談話をたくさん聞いてきた素裳は、やはり怯えてしまう。こんな時に、こんなものが暗い地下牢の中に現れるなんて、不気味そのものだ。</text>
+  <text>관이야 흔한 물건이니, 꺼림칙한 건 아니었다. 하지만 수많은 귀신 이야기를 들었던 이소상은, 가슴이 두근거렸다. 지금 이 순간, 이게 어두운 감옥에 있으니, 정말 기이하고 공포스러웠다.</text>
   <text>
-    <p>素裳は本能的に視線を逸らし、また羅刹の女性に戻す。</p>
-    <p>最初はチラッと見ただけだったが、相手の反応がないと分かった後は、開き直ってじっと見つめ始める。</p>
+    <p>소상이 본능적으로 시선을 돌려, 다시 나찰인 여자의 몸을 보았다.</p>
+    <p>처음에는 슬쩍슬쩍 보았지만, 아무런 반응이 없자, 아예 대놓고 뜯어보았다.</p>
   </text>
   <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
   <event action="hide_ui" duration="1"></event>
   <cg img="CG_第一折_奥托地牢_看杯"></cg>
   <delay t="1"></delay>
-  <text>羅刹人は彼女の無礼な眼差しを無視し、ただ手に持つ硝子の容器を揺らす。</text>
+  <text>나찰인은 그녀의 무례한 눈길을 무시한 채로, 들고 있는 유리그릇만 흔들고 있었다.</text>
   <cg img="CG_第一折_奥托地牢_看人"></cg>
-  <dialog chara="002">「うううむ？」</dialog>
+  <dialog chara="002">[으읍읍읍?]</dialog>
   <text>
-    <p>口の中に布が入っていることを忘れていた彼女は、意味不明な音しか出せない。[\s]</p>
-    <p>李素裳は気まずそうな表情をしたが、周りは暗く、相手に悟られずに済んだ。</p>
+    <p>입에 무언가 있다는 사실을 잊어, 아무도 들을 수 없는 말이 되었다.[\s]</p>
+    <p>이소상이 부끄럽다는 얼굴을 했지만, 감옥이 어두워 아무도 눈치채지 못했다.</p>
   </text>
-  <text>素裳は女性に、口の中の布を外してほしいと視線を送る。</text>
+  <text>소상은 여인을 향해 입에 있는 천을 빼달라는 눈짓을 보냈다.</text>
   <cg img="CG_第一折_奥托地牢_看杯"></cg>
   <text>
-    <p>だが、羅刹人は視線を戻し、素知らぬ顔をした。</p>
-    <p>何度か目配せをしてみたが、全部相手に無視される。少しの反応もない。</p>
+    <p>나찰인이 시선을 거두더니, 관심을 보이지 않았다.</p>
+    <p>이소상이 계속 눈을 깜빡였지만, 계속 무시하고, 꿈쩍도 하지 않았다.</p>
   </text>
-  <dialog chara="002">（こいつ——）</dialog>
-  <text>ふといい案が閃き、素裳はあの棺を蹴る振りをした。</text>
+  <dialog chara="002">（(이게ㅡ)</dialog>
+  <text>문득 생각이 떠올라, 소상은 관을 차려 했다.</text>
   <se id="01-47火熄灭"></se>
   <transition mode="eye" in="0.2" stop="0.5" out="0.1" color="#000000"></transition>
   <bg img="PureBlack"></bg>
   <cg></cg>
-  <text>李素裳が枷をはめられた両足を上げようとした時、炎が一瞬消える。続いて、口元の重圧感から解放された。</text>
+  <text>그녀가 간신히 묶인 두 다리를 꺼내자, 화염이 순식간에 사라지고, 말문이 트였다.</text>
   <transition mode="fade" in="1" stop="1" out="1" color="#000000"></transition>
   <se id="01-48火燃烧"></se>
   <delay t="1"></delay>
   <cg img="CG_第一折_奥托地牢_看人" duration="3"></cg>
   <delay t="1"></delay>
   <text>
-    <p>そして、再び火が灯る。李素裳は壁際にいる羅刹人をチラリと見たが、彼女は先ほどの姿勢のままだった。[\s]</p>
-    <p>ただ、彼女がこちらに向ける視線には、かすかな苛立ちが混ざっていた。</p>
+    <p>불빛이 다시 밝아졌고, 이소상이 벽 쪽에 있는 나찰인을 바라보았지만, 아까 모습 그대로였다.[\s]</p>
+    <p>하지만, 자신을 바라보는 그녀의 눈빛에 불편함이 한가닥 보였다.</p>
   </text>
   <cg duration="1" img="CG_第一折_奥托地牢_看杯"></cg>
   <delay t="1"></delay>
-  <dialog chara="001" inline="true">「何がしたい？」</dialog>
+  <dialog chara="001" inline="true">[무슨 생각이지?]</dialog>
   <dialog chara="002">
     <p></p>
-    <p>「男だったの？」</p>
+    <p>[당신 남자입니까?]</p>
   </dialog>
-  <text>二人は同時に口を開き、同時に驚いた。</text>
+  <text>두 사람이 동시에 질문하고, 동시에 바라보았다.</text>
   <text>
-    <p>羅刹人は口を閉ざし、黙って李素裳の言葉を肯定した。</p>
-    <p>しかし李素裳の口からは、立て続けに言葉が出る。</p>
+    <p>나찰인은 입을 닫고, 묵인했다.</p>
+    <p>이소상의 입은 멈추지 않았다.</p>
   </text>
   <dialog chara="002">
-    <p>「アタシ？別に何もしないよ。ただ、あんたに布を取ってもらいたかっただけ。</p>
-    <p>ありがとう。あんた、いい人なんだね。ただちょっと……女っぽいけど。」</p>
+    <p>[저 말입니까? 별생각은 없고, 천 빼는 거나 도와달라고 한겁니다.</p>
+    <p>감사합니다, 좋으신 분이군요, 조금... 여성스럽지만.]</p>
   </dialog>
   <dialog chara="002">
-    <p>「この恩は必ず返すよ。</p>
-    <p>気功を使ってこの枷を外したらあんたを——って、あんたの枷は！？」</p>
+    <p>[소녀가 은혜를 입었으니, 필히 보답하겠습니다.</p>
+    <p>제가 족쇄를 따고 나면, 당신 것도ㅡ 족쇄는요?!]</p>
   </dialog>
   <text>
-    <p>猿轡をされ、手足に枷をはめられていた李素裳とは異なり、</p>
-    <p>この羅刹人の体は一切拘束されていなかった。</p>
+    <p>입에 천을 넣고, 손발에 족쇄를 채운 이소상과는 달리,</p>
+    <p>나찰인의 몸에는 아무런 구속이 없었다.</p>
   </text>
-  <text>それだけではない。彼は凝った装飾の椅子に腰かけ、グラスを片手に持ち、赤い液体に口をつけている。その姿はとても上品だった。</text>
-  <dialog chara="002">「あんた……囚人でしょ？」</dialog>
+  <text>게다가 화려한 장식이 있는 의자에 앉아 손에 유리잔을 들고 붉은 액체를 홀짝이는 모습이, 꽤나 멋스러웠다.</text>
+  <dialog chara="002">[당신... 포로 아닙니까?]</dialog>
   <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
   <bg img="牢房-亮"></bg>
   <cg></cg>
   <motion chara="001" action="show" pos="left" duration="2" img="奥托-严肃-标准-中景（棺材）"></motion>
   <se id="01-05痊愈"></se>
   <se id="01-37棺材氛围声loop" looptimes="0"></se>
-  <text>羅刹人は一言も発することなく立ち上がった。椅子とグラスは雪や水が蒸発するかのように、火の中へと消えていった。</text>
+  <text>나찰인이 아무 말도 하지 않고 자리에서 일어났다, 그러자 의자와 잔이 눈 녹듯 불꽃 속으로 사라졌다.</text>
   <motion chara="002" action="show" pos="right" img="素裳-吓脸黑-背手-中景"></motion>
-  <dialog chara="002" inline="true">「えええええ……</dialog>
+  <dialog chara="002" inline="true">[히이이익...</dialog>
   <motion chara="002" action="img_trans" img="素裳-吓-背手-中景"></motion>
-  <dialog chara="002">よ、妖術！妖怪！」</dialog>
-  <text>李素裳は血の気が引いた。</text>
+  <dialog chara="002">요, 요술이다! 요괴다!]</dialog>
+  <text>이소상의 얼굴이 흙빛이 되었다.</text>
   <text>
-    <p>少女は怖いもの知らずだが、霊的なものには弱かったのだ。[\s]</p>
-    <p>彼女は羅刹人の妖術に腰を抜かした。女傑としてのメンツなどお構いなしである。</p>
+    <p>물론 소녀는 무서운 것이 아무것도 없었지만, 귀신은 예외였다.[\s]</p>
+    <p>나찰인의 잡기에 아주 혼비백산하였는데, 그 어떤 여협도 체면을 이렇게까지 구기진 못했을 것이다.</p>
   </text>
   <event action="hide_ui" duration="1"></event>
   <motion chara="001" action="hide"></motion>
   <motion chara="002" action="hide"></motion>
-  <text>甲高い悲鳴が地下牢の中に長く響いたが、誰一人として応じる者はおらず、様子を見に来る者もいなかった。[\s]羅刹人は悲鳴が終わり、彼女が炎に映る自分の影を見るまで待ってから口を開いた。</text>
+  <text>비명이 날카롭고 길게 이어지며 감옥이 오랬동안 울렸지만, 아무도 반응하지 않고, 살펴보지도 않았다.[\s]나찰인은 그녀가 소리를 다 지르고, 불꽃에 비친 그림자를 보게 될 때까지 기다렸다.</text>
   <motion chara="001" action="show" pos="left" duration="1" img="奥托-标准-标准-中景（棺材）"></motion>
   <motion chara="002" action="show" pos="right" duration="1" img="素裳-吓脸黑-背手-中景"></motion>
-  <dialog chara="001">「違う。」</dialog>
-  <text>素裳は少し考え、ようやくそれが、自分の質問に対する答えだと分かった。</text>
+  <dialog chara="001">[아니다.]</dialog>
+  <text>이소상은 생각을 거듭하고 나서야, 자신의 질문에 답한 것임을 알았다.</text>
   <motion chara="002" action="img_trans" img="素裳-欸真的吗-背手-中景"></motion>
-  <dialog chara="002" inline="true">「何が違うの？妖怪じゃないの？あっ、囚人じゃないって言ったよね。</dialog>
+  <dialog chara="002" inline="true">[뭐가 아닙니까? 요괴가 아닙니까? 아, 포로가 아니라는 것이군요.</dialog>
   <motion chara="002" action="img_trans" img="素裳-嘟嘴-背手-中景"></motion>
   <dialog chara="002">
     <p></p>
-    <p>あれ？じゃあどうしてここに閉じこめられているの？あんた、アタシを騙して——」</p>
+    <p>응? 그럼 왜 여기 있습니까? 아니, 절 속이신 것이군요ㅡ]</p>
   </dialog>
-  <dialog chara="001">「……」</dialog>
+  <dialog chara="001">[...]</dialog>
   <motion chara="002" action="img_trans" img="素裳-悲伤目前-背手-中景"></motion>
-  <text>羅刹人は肯定も否定もしない。彼女の言葉が理解できているかも定かではなかった。素裳はその男性をチラリと見る。息を呑むほど美しい顔立ちをしており、ならず者には見えなかった。</text>
-  <text>無意識のうちに頭が回転し始め、素裳は目の前の羅刹人の過去について、あれこれと思い浮かべた。</text>
+  <text>나찰인은 가타부타 말이 없었다, 그녀가 무슨 말을 하는지 알아듣기도 어려웠다.소상은 이 남자를 흘긋 보고는 그 준수함에 감탄하며, 악한 무리는 아닐 거라 생각해,</text>
+  <text>부지불식 입을 놀리며, 나찰인이 오게 된 내력에 대한 이야기를 생각해내고 있었다.</text>
   <motion chara="002" action="img_trans" img="素裳-惊讶2-背手-中景"></motion>
   <dialog chara="002">
-    <p>「あんたも金砂会に捕まったの？</p>
-    <p>そんなはずないよね。あいつらは極悪人だから、囚人を鎖で繋げないなんておかしいもの。」</p>
+    <p>[금사단에게 잡혀온 것입니까?</p>
+    <p>아니, 이 무리들은 악한들인데, 왜 족쇄도 차지 않은 겁니까?]</p>
   </dialog>
   <dialog chara="002">
-    <p>「もしかして、『鷹』の客？だからあんたに遠慮してるとか……</p>
-    <p>それも違うよね。そうだったらアタシをあんたと一緒に閉じこめるはずないもの。」</p>
+    <p>[아니면, "노응"의 세객? 그래서 이렇게 당신은 정중하게...</p>
+    <p>아니, 그러면 절 당신에게 던져줄 이유가 없겠지요.]</p>
   </dialog>
-  <dialog chara="001">「……」</dialog>
+  <dialog chara="001">[......]</dialog>
   <motion chara="002" action="img_trans" img="素裳-小恶魔-背手-中景"></motion>
-  <dialog chara="002">「まさか……アタシと同じこと考えてる？」</dialog>
-  <dialog chara="002">「そうなんでしょ？アタシの思った通りなんじゃない？」</dialog>
+  <dialog chara="002">[혹은... 당신도 저와 같은 생각을?]</dialog>
+  <dialog chara="002">[그렇죠? 제가 맞혔습니다, 그렇죠?]</dialog>
   <motion chara="002" action="img_trans" img="素裳-笑-背手-中景"></motion>
   <motion chara="001" action="img_trans" img="奥托-微笑自信-标准-中景（棺材）"></motion>
-  <text>羅刹人は肩をすくめ、口元にかすかな笑みを浮かべた。</text>
-  <dialog chara="001">「僕は君じゃない。何を考えているかなんて分からない。」</dialog>
+  <text>나찰인이 어개를 으쓱했다, 입가에 미소가 살짝 보였다.</text>
+  <dialog chara="001">[나는 네가 아니다, 어떻게 네 생각을 알까.]</dialog>
   <motion chara="002" action="img_trans" img="素裳-大笑-背手-中景"></motion>
   <bgm id="原始武士"></bgm>
-  <dialog chara="002">「うっ……じゃあ教えてあげる。」</dialog>
+  <dialog chara="002">[어... 그럼 알려드리겠습니다.]</dialog>
   <event action="goto" to="13"></event>
 </scene>
