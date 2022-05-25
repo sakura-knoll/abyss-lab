@@ -1,11 +1,12 @@
-# Lucia
+# 루시아
 
-Holy Order
+성전 기사 세트
 
-## Cannon Master 2 세트
+## 중포 마스터리 2 세트
 
-Gain 15% Ranged Physical DMG. Bronya equip bonus: Gain 5% Max HP in battle.
+원거리 물리 대미지 15% 증가<br>
+브로냐가 사용 시, 전투 중 HP 최대치가 추가로 5% 증가한다.
 
-## DEF Boost 3 세트
+## 방어 강화 3 세트
 
-Gain 15% DEF in battle.
+전투 중 방어력 15% 증가

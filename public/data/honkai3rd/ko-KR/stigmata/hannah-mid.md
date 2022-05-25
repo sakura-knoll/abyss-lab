@@ -1,5 +1,5 @@
-# Hannah (중)
+# 한나 (중)
 
 ##
 
-Switch skill (and QTE) gain 10% Physical DMG.
+교대기 물리 대미지 10% 증가 (QTE 포함)

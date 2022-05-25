@@ -1,11 +1,11 @@
-# Charlotte
+# 샬롯
 
-Ranger Set
+사수 세트
 
-## Basic DMG Boost 2 세트
+## 초급 대미지 강화 2 세트
 
-Gain 8% Physical DMG.
+물리 대미지 8% 증가
 
-## DEF Boost 3 세트
+## 방어 강화 3 세트
 
-Gain 20% DEF in battle.
+전투 중 방어력 20% 증가

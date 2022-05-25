@@ -1,5 +1,5 @@
-# Victoria (상)
+# 빅토리아 (상)
 
 ##
 
-Gain 4% Melee Physical DMG.
+근접 물리 대미지 4% 증가
