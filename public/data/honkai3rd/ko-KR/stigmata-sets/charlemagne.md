@@ -1,12 +1,11 @@
-# Charlemagne
+# 샤를마뉴
 
-Charles the Great Set
+샤를마뉴 대제 세트
 
-## Fränkischen Herrscher 2 세트
+## 프랑크의 왕 2 세트
 
-At 70% or higher SP, surrounding enemies lose 20% ATK and 20% DEF.
+현재 SP가 70%보다 많을 시 주변 적은 공격력이 20%, 방어력이 20% 감소한다.
 
-## Joyeuse 3 세트
+## 주와이외즈 3 세트
 
-When attacking MECH-type enemies, gain 20% Physical DMG.
-Mei or Yae Sakura equip bonus: Gain 25% HP in battle.
+기계 속성의 적을 공격 시 물리 대미지가 20% 증가한다. 메이 또는 야에 사쿠라가 사용 시 전투 중 HP가 25% 증가한다.

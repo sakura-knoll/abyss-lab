@@ -1,5 +1,5 @@
-# Dragon Boat (하)
+# 브로냐·단오 (하)
 
 ##
 
-Shortens debuff durations by 30%. Switch skills (including QTE) gain 25% Physical DMG.
+상태 이상 지속시간 30% 감소, 교대기(QTE 포함) 물리 대미지 25% 증가

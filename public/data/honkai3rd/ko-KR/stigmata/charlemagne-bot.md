@@ -1,5 +1,5 @@
-# Charlemagne (하)
+# 샤를마뉴 (하)
 
 ##
 
-Gain 25% Move Speed at 70% or higher SP.
+현재 SP가 70%보다 많을 시 이동 속도가 25 증가한다.

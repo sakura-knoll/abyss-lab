@@ -1,5 +1,5 @@
-# HOMU (상)
+# 호무 (상)
 
-##
+## 거래
 
-When Basic ATKs (including Combo and Charged ATKs) hit an enemy, there is a 50% chance of dropping HOMU Coins (CD: 4s). For each HOMU Coin picked up, the host gains 10% Total DMG Multiplier for 10 sec. Stacks up to 3 times.
+기본 공격(분기와 차지 공격 포함)이 적에게 적중하면 50%의 확률로(재사용 대기시간 4초) 호무 코인을 드랍한다. 호무 코인을 습득할 때 마다 10초 동안 자신의 모든 대미지가 10% 증가한다, 최대 3회 중첩.

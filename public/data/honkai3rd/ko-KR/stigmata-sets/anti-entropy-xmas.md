@@ -1,12 +1,11 @@
-# Anti-Entropy XMas
+# 크리스마스
 
-Anti-Entropy XMas Set
+네겐트로피 크리스마스 세트
 
-## General Purpose Polar Suit 2 세트
+## 범용 인형 방한복 2 세트
 
-The host takes 10% less Lightning and Fire DMG and 15% less Ice DMG.
+받는 뇌전 원소 및 화염 원소의 대미지가 10% 증가하고 받는 빙결 원소 대미지가 15% 감소한다.
 
-## XMas: Anti-Entropy 3 세트
+## 크리스마스·Anti-Entropy 3 세트
 
-Gain 15% Max HP.
-MECH-type battlesuit equip bonus: Gain another 10% Max HP.
+HP 최대치가 15% 증가한다. 기계 속성의 발키리는 HP가 추가로 10% 증가한다.

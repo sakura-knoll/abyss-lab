@@ -1,5 +1,5 @@
-# Charlemagne (중)
+# 샤를마뉴 (중)
 
 ##
 
-Gain 75% DEF at 70% or higher SP.
+현재 SP가 70%보다 많을 시 방어력이 75% 증가한다.

@@ -1,5 +1,5 @@
-# Himeko - Christmas (하)
+# 히메코·크리스마스 (하)
 
 ##
 
-Attacks on a target drop Jingling Bell. Picking it up recovers 3 SP. Double benefits if picked up by Himeko. Drop CD: 5s. Jingling Bell disappears after 8s if not picked up.
+목표를 공격하면 징글벨을 드랍한다, 습득 후 3 SP를 회보갛ㄴ다. 히메코가 습득할 경우 두 배의 효과를 받는다. 재사용 대시시간 5초. 습득하지 않은 징글벨은 8초 후 사라진다.

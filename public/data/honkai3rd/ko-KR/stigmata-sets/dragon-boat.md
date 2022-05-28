@@ -1,11 +1,11 @@
-# Dragon Boat
+# 단오
 
-Dragon Boat Festival Set
+단오 세트
 
-## Aromatic Bath 2 세트
+## 정화의 목란 2 세트
 
-Gain 10% Max SP in battle. Gain 10% Max HP in battle.
+전투 중 SP 최대치가 10% 증가한다. 전투 중 HP 최대치가 10% 증가한다.
 
-## Medicinal Wine 3 세트
+## 창포주로 평화를 3 세트
 
-When HP is above 70%, gain 6% Physical DMG for every 5% of HP exceeded.
+현재 HP가 70%보다 많을 시 HP가 5% 증가할 때마다 물리 대미지가 6% 증가한다.

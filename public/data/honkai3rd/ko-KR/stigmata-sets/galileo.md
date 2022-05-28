@@ -1,11 +1,11 @@
-# Galileo
+# 갈릴레이
 
-Stargazer Set
+천체 관찰자 세트
 
-## Heliocentrism 2 세트
+## 태양중심설 2 세트
 
-Gain 30% Melee Crit DMG.
+근접 크리티컬 대미지 30% 증가
 
-## Sunspot Observation 3 세트
+## 플레어 관측 3 세트
 
-Receive 40% less Indirect Physical DMG (such as bleeding).
+간접 물리 대미지(출혈 등) 40% 감소

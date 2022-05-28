@@ -1,5 +1,5 @@
-# Scott (중)
+# 스콧 (중)
 
 ##
 
-Gain 15% Ice DMG. Charged or Combo ATKs gain another 20% Ice DMG.
+빙결 원소 대미지가 15% 증가한다. 차지, 분기 공격으로 가하는 빙결 원소 대미지가 추가로 20% 증가한다.

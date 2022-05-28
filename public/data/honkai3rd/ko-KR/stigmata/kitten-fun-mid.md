@@ -1,5 +1,5 @@
-# Kitten Fun (중)
+# 듀란달·고양이 놀이 (중)
 
-##
+## 궁극의 생물
 
-The host restores 30.0 HP per second at below 50% HP.
+HP가 50% 미만일 때 초당 HP를 30.0씩 회복

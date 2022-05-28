@@ -1,5 +1,5 @@
-# Summer Surf (중)
+# 여름 모래사장 (중)
 
 ##
 
-Ranged attacks gain 40% Crit DMG.
+원거리 공격 크리티컬 대미지 40% 증가

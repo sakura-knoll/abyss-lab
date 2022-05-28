@@ -1,5 +1,5 @@
-# Sakamoto Ryoma (상)
+# 사카모토 료마 (상)
 
 ##
 
-Charged ATKs gain 18% Physical DMG.
+차지 공격의 물리 대미지 18% 증가

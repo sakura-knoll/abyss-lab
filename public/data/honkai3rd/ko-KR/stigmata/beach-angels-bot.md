@@ -1,5 +1,5 @@
-# Beach Angels (하)
+# 제레·휴가 (하)
 
-##
+## 은방울꽃 이슬
 
-Ultimate and Burst mode ATKs gain 25.0% Physical DMG, but Basic ATKs (including Combo and Charged ATKs) deal 10.0% less Physical DMG.
+필살기와 폭발 상태에서의 물리 대미지가 25.0% 증가하고 기본 공격 (분기와 차지 포함)의 물리 대미지가 10.0% 감소한다

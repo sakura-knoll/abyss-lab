@@ -1,5 +1,5 @@
-# Galileo (중)
+# 갈릴레이 (중)
 
 ##
 
-Gain 5% Total DMG Multiplier. Attacks against airborne enemies gain an additional 10% Total DMG Multiplier.
+모든 대미지가 5% 증가한다, 공중에 띄워진 적에게 가하는 모든 대미지가 추가로 10% 증가한다.

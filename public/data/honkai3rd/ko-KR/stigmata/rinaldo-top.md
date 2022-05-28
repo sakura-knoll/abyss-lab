@@ -1,5 +1,5 @@
-# Rinaldo (상)
+# 리날도 (상)
 
 ##
 
-Upon scoring a crit strike, deal an additional 150.0% ATK of Physical DMG to target and nearby enemies within a 2-meter radius. CD: 5.0s.
+크리티컬 시 목표 및 목표 2.5m 범위 내 적에게 추가로 공격력의 150% 물리 대미지를 입힌다, 재사용 대기시간 5.0초

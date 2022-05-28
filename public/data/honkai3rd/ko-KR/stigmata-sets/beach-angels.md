@@ -1,11 +1,11 @@
-# Beach Angels
+# 해변 휴가
 
-Beach Angels Set
+해변 휴가 세트
 
-## Azure Summer 2 세트
+## 푸른 바다 여름꽃 2 세트
 
-Combo ATKs gain 200% ATK of Physical DMG. CD: 4s.
+분기 공격이 공격력 200%의 물리 대미지를 입힌다. 재사용 대기시간: 4초
 
-## Best Vacation 3 세트
+## 아름다운 휴가 3 세트
 
-Removed 1-pc debuffs from this stigmata set.
+본 세트의 성흔의 단일 성흔 디버프 효과 면제

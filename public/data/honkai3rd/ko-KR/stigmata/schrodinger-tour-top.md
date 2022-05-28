@@ -1,5 +1,5 @@
-# Schrodinger - Tour (상)
+# 슈뢰딩거·스터디 투어 (상)
 
 ##
 
-After performing Ultimate, gain 20.0% Physical DMG for 6s. Does not trigger again during this time.
+필살기 사용 후 물리 대미지 20.0% 증가, 지속 시간 6초. 효과가 지속하는 동안 다시 발동할 수 없다

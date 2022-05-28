@@ -1,5 +1,5 @@
-# Attila (하)
+# 아틸라 (하)
 
 ##
 
-When Combo Hit Count exceeds 30, gain 31% Physical DMG.
+콤보 수 30 초과 시, 물리 대미지 31% 증가

@@ -1,5 +1,5 @@
-# Yodo Dono (중)
+# 아자이 차차 (중)
 
 ##
 
-Gain 31% to Fire DMG dealt, and receive 20% less Fire DMG.
+가하는 화염 원소 대미지가 31% 증가하고, 받는 화염 원소 대미지가 20% 감소한다.

@@ -1,5 +1,5 @@
-# Dragon Boat (상)
+# 키아나·단오 (상)
 
 ##
 
-Combo ATKs gain 20% Physical DMG and 5% Crit Rate.
+분기 공격의 물리 대미지가 20% 증가하고, 분기 공격의 크리티컬률이 5% 증가한다.

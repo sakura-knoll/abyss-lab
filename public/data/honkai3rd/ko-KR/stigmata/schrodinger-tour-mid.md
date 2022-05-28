@@ -1,5 +1,5 @@
-# Schrodinger - Tour (중)
+# 슈뢰딩거·스터디 투어 (중)
 
 ##
 
-After Ultimate Evasion, gain 20.0% Crit DMG for 6s. Does not trigger again during this time.
+극한 회피 후, 크리티컬 대미지 20.0% 증가, 지속 시간 6초. 효과가 지속하는 동안 다시 발동할 수 없다.

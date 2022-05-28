@@ -1,5 +1,5 @@
-# Ryunosuke Akutagawa (중)
+# 아쿠타가와 류노스케 (중)
 
-##
+## 심안
 
-With each increase in Combo Hit Count, gain 5.0 Crit. Max bonus: 25.0.
+콤보가 1 증가할 때 마다 회심치가 5.0 증가하며 최대 25.0 까지 증가한다.

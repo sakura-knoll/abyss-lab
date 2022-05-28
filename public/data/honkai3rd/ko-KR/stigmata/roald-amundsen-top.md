@@ -1,5 +1,5 @@
-# Roald Amundsen (상)
+# 로알 아문센 (상)
 
 ##
 
-Charged ATK gains 20% Total DMG Multiplier.
+차지 공격이 적에게 가하는 모든 대미지가 20% 증가

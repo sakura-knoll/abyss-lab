@@ -1,5 +1,5 @@
-# Rinaldo (중)
+# 리날도 (중)
 
 ##
 
-Upon scoring a crit strike, paralyze target and surrounding enemies within a 2.5-meter radius for 1.5s. CD: 5.0s.
+크리티컬 시 목표와 주변 2.5m 범위 내의 적에게 마비 게이지를 2pt 누적한다. 재사용 대기시간: 5.0초

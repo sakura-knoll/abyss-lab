@@ -1,5 +1,5 @@
-# Rowland (하)
+# 롤랑 (하)
 
-##
+## 충성
 
-Gain 31% DEF at 80% or higher HP.
+현재 HP가 80% 초과 시 방어력이 31% 증가한다.

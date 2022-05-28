@@ -1,5 +1,5 @@
-# Kitten Fun (상)
+# 듀란달·고양이 놀이 (상)
 
-##
+## 안개성의 메이드
 
-Increase Fire DMG by 15.0% and Fire DMG of Combo & Charged ATKs by an additional 15.0%.
+화염 원소 대미지 15.0% 증가. 분기 공격과 차지 공격의 화염 원소 대미지 추가로 15.0% 증가

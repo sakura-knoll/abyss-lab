@@ -1,5 +1,5 @@
-# Attila (중)
+# 아틸라 (중)
 
 ##
 
-When Combo Hit Count exceeds 20, gain 41% DEF in battle.
+콤보 수 20 초과 시, 전투 중 방어력 41% 증가

@@ -1,5 +1,5 @@
-# Nikola Tesla (하)
+# 니콜라·테슬라 (하)
 
 ##
 
-Attacks against stunned enemies gain 51% Total DMG Multiplier.
+기절 상태의 적을 공격 시 모든 대미지 51% 증가

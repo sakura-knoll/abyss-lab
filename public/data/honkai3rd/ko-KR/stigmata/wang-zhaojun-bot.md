@@ -1,5 +1,5 @@
-# Wang Zhaojun (하)
+# 왕소군 (하)
 
 ##
 
-Gain 5.0% Total DMG Multiplier. When entering battle, ATKs gain 5.0% Fire DMG for every enemy on the field. Max stacks: 4.
+모든 대미지가 5.0% 증가한다. 전투 상태에 돌입하면 전장의 적 한 명당 자신의 화염 원소 대미지가 5.0% 증가한다(최대 4회 중첩)

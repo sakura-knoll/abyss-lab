@@ -1,5 +1,5 @@
-# Summer Surf (하)
+# 여름 모래사장 (하)
 
 ##
 
-Take 15% less Ranged DMG and gain 20% Max HP in battle.
+받는 원거리 대미지 15% 감소, 전투 HP 최대치 20% 증가

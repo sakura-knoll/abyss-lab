@@ -1,5 +1,5 @@
-# Galileo (하)
+# 갈릴레이 (하)
 
 ##
 
-When repeating attacks on the same target (target resets if no attacks were made for 2.5s), each attack gains 1% Crit Rate up to a max of 10% bonus Crit Rate.
+동일한 타깃을 지속 공격 시(2.5초 동안 공격하지 않으면 목표가 초기화된다) 공격마다 크리티컬률이 1% 증가하며 최대 10%까지 중첩된다.

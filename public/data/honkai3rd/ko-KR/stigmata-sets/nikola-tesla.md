@@ -1,11 +1,11 @@
-# Nikola Tesla
+# 니콜라·테슬라
 
-Sine Twin Tails Set
+트윈테일 사인파
 
-## Breach Lockon 2 세트
+## 육체 고정 2 세트
 
-Gain 15% Total DMG Multiplier against enemy with broken Elite Shield.
+엘리트 실드가 파괴된 적에게 가하는 모든 대미지 15% 증가
 
-## EM Induction 3 세트
+## 전자기 유도 3 세트
 
-Gain 30% Lightning DMG.
+뇌전 원소 대미지 30% 증가

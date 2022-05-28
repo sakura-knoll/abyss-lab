@@ -1,11 +1,11 @@
-# Rinaldo
+# 리날도
 
-Berserk Knight Set
+광폭한 기사 세트
 
-## Battle Lust 2 세트
+## 전투 갈망 2 세트
 
-Gain 15% Crit Rate.
+크리티컬률 15% 증가
 
-## Keep 'Em Comin' 3 세트
+## 용맹 3 세트
 
-Upon enemy kill, gain 50% Crit DMG for 6s. Duration is reset every time this effect is triggered.
+적 처치 시 6초 동안 크리티컬 대미지가 50% 증가한다. 중복 발동 시 지속 시간을 초기화한다.

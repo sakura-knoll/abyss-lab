@@ -1,13 +1,11 @@
-# Rowland
+# 롤랑
 
-Holy Knight Set
+신성 기사 세트
 
-## Paladin 2 세트
+## 팔라딘 2 세트
 
-Attacks by PSY-type enemies suffer 20% DMG Reduction.
-Kiana or Kallen equip bonus: Gain 20% Max HP in battle.
+이능 속성의 적에게 피격 시 받는 대미지가 20% 감소한다. 키아나 또는 카렌이 사용 시 전투 중 HP가 20% 증가한다.
 
-## Durandal 3 세트
+## 듀란달 3 세트
 
-When attacking PSY-type enemies, gain 20% Physical DMG.
-Kiana or Kallen equip bonus: Gain 10% Crit Rate in battle.
+이능 속성의 적을 공격 시 물리 대미지가 20% 증가한다. 키아나 또는 카렌이 사용 시 전투 중 크리티컬률이 10% 증가한다.

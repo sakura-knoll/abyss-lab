@@ -1,5 +1,5 @@
-# Anti-Entropy XMas (중)
+# 아인슈타인·크리스마스 (중)
 
 ##
 
-When Combo or Charged ATKs hit the enemy, the host gains a buff that grants 10% Total DMG Multiplier, 10% Total DMG Reduction, and 10% Attack Speed for 5s. CD: 15s.
+분기 혹은 차지 공격이 적에게 적중 후 캐릭터는 1회의 버프를 받아 가하는 모든 대미지가 10% 증가하고 받는 모든 대미지가 10% 감소하며 공격 속도가 10% 증가한다. 지속 시간 5초, 재사용 대기시간 15초

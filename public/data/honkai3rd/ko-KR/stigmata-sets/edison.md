@@ -1,11 +1,11 @@
-# Edison
+# 에디슨
 
-Inventor Set
+발명가 세트
 
-## Surge Current 2 세트
+## 요동치는 전류 2 세트
 
-Gain 1 charge every 12 sec. Next Basic ATK (including Combo and Charged ATK) gains 50% Total DMG Multiplier. Host also gains 15% Total DMG Multiplier for 6s.
+12초마다 1회 차지하고, 다음 기본 공격(분기와 차지 포함)의 모든 대미지가 추가로 50% 증가하며 캐릭터의 모든 대미지가 15% 증가한다. 지속 시간: 6초
 
-## EM Field 3 세트
+## EM 필드 3 세트
 
-Gain 25% Lightning DMG.
+뇌전 원소 대미지 25% 증가

@@ -1,5 +1,5 @@
-# Dragon Boat (중)
+# 매이·단오 (중)
 
 ##
 
-Attacks have a 10% chance of paralyzing enemies for 2s. CD: 5s.
+공격이 10%의 확률로 마비 게이지를 3pt 누적한다. 재사용 대기시간: 5초

@@ -1,5 +1,5 @@
-# Ogier (하)
+# 오지에 (하)
 
 ##
 
-After exit, team mates gain 5% Physical DMG. Effect does not stack. After entry, host gains 25% faster Move Speed.
+대기 상태일 때 파티원의 물리 대미지가 5% 증가하고 해당 효과는 하나만 발동한다. 출전 후 자신의 이동 속도가 25% 증가한다

@@ -1,5 +1,5 @@
-# Ryunosuke Akutagawa (상)
+# 아쿠타가와 류노스케 (상)
 
-##
+## 진격
 
-Gain 20% Melee Physical DMG.
+근접 물리 대미지 20% 증가

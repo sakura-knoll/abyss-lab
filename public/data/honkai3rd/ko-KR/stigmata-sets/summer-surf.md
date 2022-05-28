@@ -1,11 +1,11 @@
-# Summer Surf
+# 여름 모래사장
 
-Summer Surfer Set
+여름 모래사장 세트
 
-## Boom Volleyball 2 세트
+## 폭탄 배구 2 세트
 
-When ranged attack hits, deal 200% ATK of Physical DMG in a 3.5-meter AOE around the enemy. CD: 5s.
+원거리 공격이 적에게 적중 시 적 주변 3.5m 범위에 공격력의 200% 물리 대미지를 입힌다, 재사용 대기시간 5초
 
-## Overclock 3 세트
+## 오버클럭 3 세트
 
-Gain 20% Attack Speed.
+공격속도 20% 증가

@@ -1,5 +1,5 @@
-# Himeko - Christmas (중)
+# 히메코·크리스마스 (중)
 
 ##
 
-Himeko equip bonus: Nearby enemies suffer 15% Attack Slow and 15% Move Slow.
+히메코가 사용 시 주변 적의 공격 속도를 15%, 이동 속도를 15% 감소시킨다.

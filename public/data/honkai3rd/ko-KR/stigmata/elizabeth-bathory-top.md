@@ -1,5 +1,5 @@
-# Elizabeth Bathory (상)
+# 엘리자베스·바토리 (상)
 
 ##
 
-Gain 5% Crit Rate. At above 80% HP, also gain 31% DEF during combat.
+크리티컬률이 5% 증가한다. HP가 80% 이상일 때 전투 중 방어력이 31% 증가한다

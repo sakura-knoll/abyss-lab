@@ -1,11 +1,11 @@
-# Scott
+# 스콧
 
-Antarctic Martyr Set
+남극 영령 세트
 
-## Polar Journals 2 세트
+## 극지 일기 2 세트
 
-Gain 12% Total DMG Multiplier.
+모든 대미지 12% 증가
 
-## Explorer's Eulogy 3 세트
+## 탐험가의 예찬 3 세트
 
-After using Combo or Charged ATK, host gains 18% Ice DMG for 6s.
+분기 혹은 차지 공격 후 자신의 빙결 원소 대미지가 18% 증가한다. 지속 시간: 6초

@@ -1,5 +1,5 @@
-# Shigure Kira (하)
+# 시구레 키라 (하)
 
 ##
 
-After a successful Ultimate Evasion, Fire, Lightning, and Ice DMG are each increased by 20% for 5s. Triggering the ability again will reset the duration.
+극한 회피 성공 후 5초 동안 화염, 뇌전 빙결 등 세 가지 원소의 대미지가 각각 20% 증가한다. 중복 발동 시 지속 시간이 초기화된다.

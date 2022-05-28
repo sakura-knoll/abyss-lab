@@ -1,5 +1,5 @@
-# Wang Zhaojun (상)
+# 왕소군 (상)
 
 ##
 
-Gain 15% Fire DMG.
+화염 원소 대미지 15% 증가

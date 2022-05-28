@@ -1,11 +1,11 @@
-# Naoe Kanetsugu
+# 나오에 카네츠구
 
-Niou Dachi Set
+꼿꼿한 인왕 세트
 
-## Indomitable 2 세트
+## 승승장구 2 세트
 
-Front-side hits taken by the host deal 80% less Physical DMG. Attacks from other directions deal 40% more Physical DMG. Frontal attack DMG reduction does not apply for a 20s period after evasion.
+정면에서 받는 물리 대미지 80% 감소하고 기타 위치에서 받는 물리 대미지가 40% 증가한다, 회피 후 정면에서의 대미지 감소 효과가 20초 동안 무효화된다.
 
-## Vidyaraja 3 세트
+## 명왕 3 세트
 
-Upon entering battle, acquire Might of the Vidyaraja, gaining 40% Physical DMG and 60% DEF for 20s. CD: 60s.
+전투 상태 진입 시 명왕의 힘을 얻어 20초 동안 물리 대미지가 40%, 방어력이 60% 증가한다. 재사용 대기시간 60초,

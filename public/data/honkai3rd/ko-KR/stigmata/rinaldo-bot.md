@@ -1,5 +1,5 @@
-# Rinaldo (하)
+# 리날도 (하)
 
-##
+## 피를 마시다
 
-Upon scoring a crit strike, heals self for 120 HP. CD: 8.0s.
+크리티컬 시 HP 120 회복, 재사용 대기시간 8.0초.

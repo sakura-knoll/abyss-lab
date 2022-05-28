@@ -1,5 +1,5 @@
-# Theresa - Origins (상)
+# 테레사·기원 (상)
 
 ##
 
-Upon using a weapon active skill, gain 30% Total DMG Multiplier for 6.0s.
+무기 액티브 스킬 사용 후 6.0초 동안 모든 대미지 30% 증가.

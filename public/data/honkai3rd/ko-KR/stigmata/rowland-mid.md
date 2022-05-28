@@ -1,5 +1,5 @@
-# Rowland (중)
+# 롤랑 (중)
 
-##
+## 신성
 
-51% chance to directly ignore a debuff.
+상태 이상의 영향을 받을 경우 51%의 확률로 해당 상태 이상 효과를 무시한다.

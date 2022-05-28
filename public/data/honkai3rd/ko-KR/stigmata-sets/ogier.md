@@ -1,11 +1,11 @@
-# Ogier
+# 오지에
 
-Holger Danske Set
+덴마크 성검 세트
 
-## Timeless 2 세트
+## 영원 2 세트
 
-When there are 2 or less enemies on the field, team mates take 10.0% less Indirect DMG. This effect cannot stack.
+출전 시 스테이지의 적의 수량이 2기 이하일 때 모든 파티원이 받는 간접 대미지가 10.0% 감소한다. 해당 효과는 하나만 발동할 수 있다
 
-## Curtana 3 세트
+## 코르탱 3 세트
 
-After exit, the team mates switching in gains 20% DEF for 10s.
+대기 상태로 전환 시, 다음 파티원의 방어력이 10초간 20% 증가한다
