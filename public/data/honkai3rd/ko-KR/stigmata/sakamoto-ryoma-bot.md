@@ -1,5 +1,5 @@
-# Sakamoto Ryoma (하)
+# 사카모토 료마 (하)
 
 ##
 
-Combo ATKs gain 26% Physical DMG.
+분기 공격 물리 대미지 26% 증가

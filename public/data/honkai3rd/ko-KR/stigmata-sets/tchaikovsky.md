@@ -1,11 +1,12 @@
-# Tchaikovsky
+# 차이콥스키
 
-Winter Symphony Set
+겨울 멜로디 세티
 
-## Pateticheskaya 2 세트
+## 비창 교항곡 2 세트
 
-After casting the Ultimate, next team member switching in gains a 10% Total DMG Multiplier buff (does not stack) for 10s. CD: 30s.
+필살기를 발동 후 다음 순서에 교대되는 파티원이 가하는 모든 대미지가 10초 동안 10% 증가한다. 해당 효과는 하나만 발동 할 수 있고 30초마다 1회 발동한다
 
-## Zimniye Gryozy 3 세트
+## 겨울의 꿈 3 세트
 
-After casting the Ultimate, next team member switching in takes 30% less Total DMG (effect does not stack) for 10s and restores HP equal to 10% of the host's Max HP. CD: 30s.
+필살기를 발동 후 다음 순서에 교대하는 파티원이 받는 간접 대미지가 10초 동안 30% 감소하고, (해당 효과는 하나만 발동 할 수 있다) 동시에 교대되는 파티원 최대 HP의 10%를 회복한다.
+해당 효과는 30초마다 1회 발동한다

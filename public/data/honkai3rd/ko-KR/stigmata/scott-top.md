@@ -1,5 +1,5 @@
-# Scott (상)
+# 스콧 (상)
 
 ##
 
-Gain 12% Ice DMG. For each Combo Hit, the host gains 0.5% Total DMG Multiplier. Max stacks: 20.
+빙결 원소 대미지가 12% 증가한다. 콤보가 1 증가할 때 마다 모든 대미지가 0.5 증가한다. 최대 20회 중첩

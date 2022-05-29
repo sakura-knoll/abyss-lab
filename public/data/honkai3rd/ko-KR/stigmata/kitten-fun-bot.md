@@ -1,5 +1,5 @@
-# Kitten Fun (하)
+# 듀란달·고양이 놀이 (하)
 
-##
+## 안개성의 발키리
 
-The host gains 15.0% ATK Speed and 10.0% Move Speed.
+공격 속도 15.0% 증가, 이동 속도 10.0% 증가

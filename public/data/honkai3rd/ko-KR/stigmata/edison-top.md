@@ -1,5 +1,5 @@
-# Edison (상)
+# 에디슨 (상)
 
 ##
 
-Gain 15% Lightning DMG. Gain 1 charge every 6s. The next Basic ATK (including Combo and Charged ATKs) deals an additional 120% Lightning DMG.
+뇌전 원소 대미지가 15% 증가. 6초 마다 차지한 후 다음 기본 공격(분기와 차지 포함)에 공격력의 120% 뇌전 원소 대미지가 추가된다.

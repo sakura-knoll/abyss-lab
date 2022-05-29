@@ -1,11 +1,11 @@
-# Wang Zhaojun
+# 왕소군
 
-Frontier Seductress Set
+변경의 요녀 세트
 
-## Cloud of Ashes 2 세트
+## 노을 2 세트
 
-Gain 15.0% Fire DMG. When attacking, deal 300% ATK of Fire DMG to nearby enemies. CD: 15s.
+화염 원소 대미지가 15.0% 증가한다. 공격 시 주변의 적에게 공격력 300%의 화염 원소 대미지를 입힌다. 재사용 대기시간: 15초
 
-## Fallen Cormorant 3 세트
+## 낙안(落雁) 3 세트
+전투 중 HP 최대치가 20% 증가하고, 모든 대미지가 10.0% 증가한다
 
-Gain 20% Max HP and 10.0% Total DMG Multiplier during combat.

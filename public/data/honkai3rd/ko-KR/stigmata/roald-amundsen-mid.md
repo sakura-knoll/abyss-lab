@@ -1,5 +1,5 @@
-# Roald Amundsen (중)
+# 로알 아문센 (중)
 
 ##
 
-Deals 20% more Ice DMG and takes 20% less Ice DMG.
+가하는 빙결 원소 대미지가 20% 증가하고, 받는 빙결 원소 대미지가 20% 감소한다.

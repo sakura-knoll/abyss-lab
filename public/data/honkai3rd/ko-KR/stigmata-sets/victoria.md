@@ -1,11 +1,11 @@
-# Victoria
+# 빅토리아
 
-Exiled Knight Set
+추방 기사 세트
 
-## Firm Will 2 세트
+## 초지관철 2 세트
 
-Upon killing an enemy, gain 50% chance to recover 10 SP. Himeko equip bonus: Gain 8% Max HP in battle.
+적을 처치 시 50%의 확률로 SP 10 회복한다. 히메코가 사용 시 전투 중 HP 최대치가 추가로 8% 증가한다.
 
-## Immortal Hero 3 세트
+## 불멸의 영웅 3 세트
 
-When attacking BIO-type enemies, gain 10% Crit Rate.
+생물 속성의 적을 공격 시 크리티컬률이 10% 증가한다.

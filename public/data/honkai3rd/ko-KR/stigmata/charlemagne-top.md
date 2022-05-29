@@ -1,5 +1,5 @@
-# Charlemagne (상)
+# 샤를마뉴 (상)
 
 ##
 
-Basic ATKs (including Combo and Charged ATKs) gain 4% Physical DMG for every 5% of SP above a 70% threshold.
+현재 SP가 70%보다 많을 시 SP가 5% 증가할 때마다 기본 공격(분기와 차지 포함)의 물리 대미지가 4% 증가한다.

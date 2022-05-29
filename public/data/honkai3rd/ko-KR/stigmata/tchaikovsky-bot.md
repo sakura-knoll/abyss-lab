@@ -1,5 +1,5 @@
-# Tchaikovsky (하)
+# 차이콥스키 (하)
 
 ##
 
-Switching heals self for 20.00% Max HP. CD: 30.0s.
+팀원으로 교체 시 자신의 최대 HP의 20.00%를 회복한다. 해당 효과는 30.0초마다 한번 발동한다.

@@ -1,5 +1,5 @@
-# Tchaikovsky (중)
+# 차이콥스키 (중)
 
 ##
 
-Casting weapon skill gives the host a 8.00% Indirect Physical DMG reduction buff. Max stacks: 4. DMG reduction lasts the entire battle but taking a hit removes all stacks.
+무기 스킬을 발동할 때마다 자신이 받는 간접 물리 피해가 8.00% 감소한다. 해당 효과는 4회 중첩 가능하며 피해 감소는 해당 전투에서만 유효하고 피격되면 중첩 횟수가 리셋된다.

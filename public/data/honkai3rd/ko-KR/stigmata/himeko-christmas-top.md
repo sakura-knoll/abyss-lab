@@ -1,6 +1,5 @@
-# Himeko - Christmas (상)
+# 히메코·크리스마스 (상)
 
 ##
 
-Gain 8% Move Speed.
-Himeko equip bonus: Gain 8% Move Speed.
+이동 속도 8% 증가. 히메코가 사용 시 이동 속도 추가로 8% 증가한다.

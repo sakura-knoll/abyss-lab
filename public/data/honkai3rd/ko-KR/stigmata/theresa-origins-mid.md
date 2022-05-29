@@ -1,5 +1,5 @@
-# Theresa - Origins (중)
+# 테레사·기원 (중)
 
 ##
 
-Upon using a weapon active skill, shorten CDs by 30%.
+무기 액티브 스킬 사용 시 재사용 대기시간 30% 감소

@@ -1,5 +1,5 @@
-# Ogier (중)
+# 오지에 (중)
 
 ##
 
-After exit, team mates take 10% less direct Physical DMG. Effect does not stack. After entry, host takes 25% less Physical DMG from enemy attacks.
+대기 상태일 때 파티원이 받는 직접적인 물리 대미지가 10% 감소하고, 해당 효과는 하나만 발동한다. 출전 후 자신이 적에게 공격을 받았을 때 받는 물리 대미지가 25% 감소한다

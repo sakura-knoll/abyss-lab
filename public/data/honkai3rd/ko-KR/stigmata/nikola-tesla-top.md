@@ -1,5 +1,5 @@
-# Nikola Tesla (상)
+# 니콜라·테슬라 (상)
 
 ##
 
-Attacks against paralyzed enemies gain 51% Total DMG Multiplier.
+마비 상태의 적을 공격 시 모든 대미지 51% 증가

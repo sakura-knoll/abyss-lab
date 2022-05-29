@@ -1,11 +1,11 @@
-# Kitten Fun
+# 듀란달·고양이 놀이
 
-London Holiday Set
+안개성 휴가 세트
 
-## Holiday Surprise 2 세트
+## 휴가 2 세트
 
-Increases Total DMG of Ultimate & Burst mode ATKs by 20.0%
+필살기와 폭발 상태 공격의 모든 대미지 20.0% 증가
 
-## Stoic Warrior 3 세트
+## 강자 3 세트
 
-Grants 15.0% Total DMG Reduction and an additional 15.0% Total DMG Reduction to Rita & Durandal battlesuits.
+피격 시 받는 모든 대미지 15.0% 감소. 리타 혹은 듀란달 사용 시 받는 모든 대미지 추가로 15.0% 감소

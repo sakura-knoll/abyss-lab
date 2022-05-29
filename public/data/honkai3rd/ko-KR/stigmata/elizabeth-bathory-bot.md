@@ -1,5 +1,5 @@
-# Elizabeth Bathory (하)
+# 엘리자베스·바토리 (하)
 
 ##
 
-At 80% or higher HP, gain 41% Move Speed.
+HP가 80% 이상일 때, 이동 속도 41% 증가

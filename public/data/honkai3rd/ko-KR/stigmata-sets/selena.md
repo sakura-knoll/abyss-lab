@@ -1,11 +1,11 @@
-# Selena
+# 샤론
 
-Swordsman Set
+검사 세트
 
-## Swordsman 2 세트
+## 검사 2 세트
 
-Gain 10% Melee Physical DMG.
+근접 물리 대미지 10% 증가
 
-## HP Boost 3 세트
+## 생명 강화 3 세트
 
-Gain 8% Max HP during battle.
+전투 중 HP 최대치가 8% 증가한다.

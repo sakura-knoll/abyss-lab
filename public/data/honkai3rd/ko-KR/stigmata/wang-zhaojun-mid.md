@@ -1,5 +1,5 @@
-# Wang Zhaojun (중)
+# 왕소군 (중)
 
 ##
 
-Gain 10% Fire DMG. Gain 1 charge every 10s that gives a 10% Total DMG Multiplier buff for 5s.
+화염 원소의 대미지가 10% 증가한다. 10초마다 에너지를 1회 충전하고, 5초간 자신의 모든 대미지가 10% 증가한다.

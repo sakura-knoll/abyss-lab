@@ -1,5 +1,5 @@
-# Naoe Kanetsugu (중)
+# 나오에 카네츠구 (중)
 
 ##
 
-Take 25% less Fire DMG. After taking Fire DMG, the host gains 40% Physical DMG for 4s. CD: 10s.
+받는 화염 원소 대미지가 25% 감소한다; 화염 원소 대미지를 받은 후 4초 동안 자신의 물리 대미지가 40% 증가한다, 재사용 대기시간 10초.

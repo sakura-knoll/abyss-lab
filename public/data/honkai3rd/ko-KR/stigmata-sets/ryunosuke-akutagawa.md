@@ -1,11 +1,11 @@
-# Ryunosuke Akutagawa
+# 아쿠타가와 류노스케
 
-Writer Set
+필기자 세트
 
-## Shadow Shield 2 세트
+## 그림자 실드 2 세트
 
-Receive a shield upon entering the battlefield that can absorb all DMG equal to 15% of the host's Max HP (max: 1800 HP). While the shield is in effect, the host gains 40% Crit DMG. When broken, the shield reappears after 15s.
+입장 시 실드를 획득해 자신의 최대 HP의 15%만큼 모든 대미지를 흡수한다(최대 1800). 실드가 존재할 때 자신의 크리티컬 대미지가 40% 증가하며, 실드 파괴 시 15초 후 다시 생성된다.
 
-## Shadow Blade 3 세트
+## 그림자 칼날 3 세트
 
-Melee attacks gain 20% Total DMG Multiplier.
+근접 공격의 모든 대미지 20% 증가

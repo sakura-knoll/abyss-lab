@@ -1,11 +1,11 @@
-# Sakamoto Ryoma
+# 사카모토 료마
 
-Sentyu Hassaku Set
+선중팔책 세트
 
-## Shield Lockon 2 세트
+## 장갑 고정 2 세트
 
-Gain 10% Total DMG Multiplier against enemy with unbroken Elite Shield.
+엘리트 실드가 파괴되지 않은 적에게 가하는 모든 대미지 10% 증가
 
-## Debuff Resistance 3 세트
+## 상태 이상 저항 3 세트
 
-Shortens debuff durations by 35%.
+상태 이상 지속 시간 35% 감소

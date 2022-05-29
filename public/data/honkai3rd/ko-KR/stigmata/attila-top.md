@@ -1,5 +1,5 @@
-# Attila (상)
+# 아틸라 (상)
 
 ##
 
-When Combo Hit Count exceeds 10, gain 15% Move Speed.
+콤보 수 10 초과 시, 이동 속도 15% 증가

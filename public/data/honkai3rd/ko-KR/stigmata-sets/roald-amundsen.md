@@ -1,11 +1,11 @@
-# Roald Amundsen
+# 로알 아문센
 
-Polar Conquest Set
+극지의 정복자 세트
 
-## Snowy Ward 2 세트
+## 눈의 가호 2 세트
 
-After using the weapon's active skill, team takes 15% less Physical DMG for 8s. CD: 20s. Effect cannot stack.
+무기 액티브 스킬 사용 후 8초 동안 모든 파티원의 받는 물리 대미지가 15% 감소한다, 재사용 대기시간 20초, 해당 효과는 하나만 발동한다.
 
-## Explorer's Glory 3 세트
+## 탐험가의 영광 3 세트
 
-Team gains 10% Fire, Lightning, and Ice DMG. Effect cannot stack.
+모든 파티원이 적에게 가하는 화염, 뇌전, 빙결 등 세 가지 원소의 대미지가 각각 10% 증가한다.

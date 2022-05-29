@@ -1,5 +1,5 @@
-# Nikola Tesla (중)
+# 니콜라·테슬라 (중)
 
 ##
 
-Attacks against frozen enemies gain 51% Total DMG Multiplier.
+빙결 상태의 적을 공격 시 모든 대미지 51% 증가

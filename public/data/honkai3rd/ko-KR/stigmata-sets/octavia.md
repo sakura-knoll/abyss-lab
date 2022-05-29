@@ -1,11 +1,12 @@
-# Octavia
+# 오토벨라
 
-Schicksal Order Set
+천명 기사 세트
 
-## Sword Master 2 세트
+## 도검 마스터리 2 세트
 
-Gain 23% Crit DMG. Mei or Yae Sakura equip bonus: 5% Max HP in battle.
+크리티컬 대미지 23% 증가.
+메이 혹은 야에 사쿠라가 사용 시 전투 중 HP 최대치가 추가로 5% 증가한다.
 
-## Scavenger 3 세트
+## 휴지 줍기 3 세트
 
-Expand pick-up range by 150%.
+아이템 루팅 범위 150% 증가

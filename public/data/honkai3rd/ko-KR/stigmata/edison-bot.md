@@ -1,5 +1,5 @@
-# Edison (하)
+# 에디슨 (하)
 
 ##
 
-Entities summoned by the host gain 30% Total DMG Multiplier. Charges once every 6s. The next Basic ATK (including Combo and Charged ATKs) inflicts 30% Move Slow on the enemy for 4s.
+자신의 소환물이 가하는 모든 대미지가 30% 증가한다. 6초마다 차지하며 다음 기본 공격(분기, 차지 공격 포함)이 4초 동안 적의 이동 속도를 30% 감소시킨다.

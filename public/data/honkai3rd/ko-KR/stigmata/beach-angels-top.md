@@ -1,5 +1,5 @@
-# Beach Angels (상)
+# 공간의 율자·휴가 (상)
 
 ##
 
-Gain 25.0% Physical DMG but suffer 10.0% less Crit DMG.
+물리 대미지 25.0% 증가, 크리티컬 대미지 10.0% 감소

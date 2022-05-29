@@ -1,5 +1,5 @@
-# Roald Amundsen (하)
+# 로알 아문센 (하)
 
 ##
 
-When attacks hit Forzen, Move Slowed, or Attack Slowed enemies, heal self for 200 HP. CD: 10s.
+빙결 상태, 이동 속도 감소 또는 공격 속도 감소 상태인 적을 공격 시 자신의 HP를 200 회복한다. 재사용 대기시간 10초

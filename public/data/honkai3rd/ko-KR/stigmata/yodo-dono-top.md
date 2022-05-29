@@ -1,5 +1,5 @@
-# Yodo Dono (상)
+# 아자이 차차 (상)
 
 ##
 
-After exit, team gains 26% Fire DMG Reduction (effect cannot stack). When on the field, the host gains 15% Melee Physical DMG.
+대기 중 아군이 받는 화염 원소 대미지를 26% 감소시킨다.(효과는 하나만 발동할 수 있다) 출전 후 근접 물리 대미지가 15% 증가한다.

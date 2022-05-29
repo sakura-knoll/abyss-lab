@@ -1,5 +1,5 @@
-# Naoe Kanetsugu (하)
+# 나오에 카네츠구 (하)
 
 ##
 
-When there are nearby enemies, heal self for 2% HP every 4.0s.
+주변에 적이 있을 경우 4.0초마다 자신의 HP를 2% 회복한다.

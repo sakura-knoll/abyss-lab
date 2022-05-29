@@ -1,5 +1,5 @@
-# Shigure Kira (상)
+# 시구레 키라 (상)
 
 ##
 
-Elemental damage of fire, lightning, and ice are all increased by 15%.
+화염, 뇌전, 빙결 등 세가지 원소의 대미지가 각각 15% 증가한다.

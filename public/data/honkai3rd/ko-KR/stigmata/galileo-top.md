@@ -1,5 +1,5 @@
-# Galileo (상)
+# 갈릴레이 (상)
 
 ##
 
-For 5.0s after Ultimate Evasion, attacks gain 15% Total DMG Multiplier. Re-triggering this effect resets the duration.
+극한 회피 후 5.0초 동안 가하는 모든 대미지가 15% 증가한다. 중복 발동 시 지속 시간을 초기화한다.

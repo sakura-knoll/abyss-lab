@@ -1,11 +1,12 @@
-# Attila
+# 아틸라
 
-Scourge of God Set
+신의 채찍 세트
 
-## MECH Master 2 세트
+## 기계 마스터리 2 세트
 
-Gain 30% Crit DMG. MECH-type battlesuit equip bonus: Gain 10% Max SP in battle.
+크리티컬 대미지가 30% 증가한다.
+기계 속성의 캐릭터가 사용 시 전투 중 SP 최대치가 추가로 10% 증가한다.
 
-## Basic CRT Boost 3 세트
+## 초급 회심 강화 3 세트
 
-Gain 40% CRT in battle.
+전투 중 회심치 40% 증가

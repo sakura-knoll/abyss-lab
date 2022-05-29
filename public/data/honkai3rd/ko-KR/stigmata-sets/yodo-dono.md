@@ -1,12 +1,12 @@
-# Yodo Dono
+# 아자이 차차
 
-Sengoku Hime Set
+전국 공주 세트
 
-## Flame Wreath 2 세트
+## 화염의 고리 2 세트
 
-When exiting, unleash a 4-meter radius Flame Blossom that deals 200% ATK of Fire DMG to nearby enemies. CD: 30s.
-Kiana or Kallen equip bonus: Release 2 Flame Blossoms.
+대기 상태로 변경 시 반경 4m의 불타는 화환을 방출하여 주변의 적에게 공격력의 200% 화염 원소 대미지를 입힌다, 재사용 대기시간 30초.
+키아나 또는 카렌이 사용 시 불타는 화환을 두 개 방출한다.
 
-## Summer Wave 3 세트
+## 여름 전선 3 세트
 
-Flame Wreath radius is expanded by 2 meters and gains 200% ATK of Fire DMG. Each Flame Wreath ignites enemies for 5s, dealing 30% ATK of Fire DMG every 0.5s.
+화염 화한의 반경이 2m 증가하고, 추가로 공격력 200%의 화염 원소 대미지를 가한다. 화환마다 연소 게이지를 3pt 누적한다.

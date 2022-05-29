@@ -1,5 +1,5 @@
-# Beach Angels (중)
+# 듀란달·휴가 (중)
 
 ##
 
-Gain 15.0% Total DMG Multiplier but suffers 20.0% less SP recovery.
+모든 대미지 15.0% 증가. SP 회복 속도 20.0% 감소

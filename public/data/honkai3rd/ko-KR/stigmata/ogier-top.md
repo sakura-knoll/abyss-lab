@@ -1,5 +1,5 @@
-# Ogier (상)
+# 오지에 (상)
 
 ##
 
-After exit, team gains 7% Fire, Lightning, or Ice DMG. Effect cannot stack. After entry, Basic ATKs (including Combo and Charged ATKs) gain 20% Physical DMG.
+대기 상태에서 파티원의 화염, 뇌전, 빙결 원소 대미지가 7% 증가하고, 해당 효과는 하나만 발동한다. 출전 후 자신의 기본 공격(분기와 차지 포함), 물리 대미지가 20% 증가한다.

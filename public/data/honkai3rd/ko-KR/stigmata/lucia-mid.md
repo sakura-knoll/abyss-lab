@@ -1,5 +1,5 @@
-# Lucia (중)
+# 루시아 (중)
 
 ##
 
-Charged attacks gain 5% Physical DMG.
+차지 공격의 물리 대미지 5% 증가

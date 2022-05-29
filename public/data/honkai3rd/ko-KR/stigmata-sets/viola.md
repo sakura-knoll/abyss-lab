@@ -1,11 +1,11 @@
-# Viola
+# 비올라
 
-Knight Medic Set
+병원 기사 세트
 
-## Sword of Blessings 2 세트
+## 축복의 검 2 세트
 
-At 80% or higher HP, gain 15% Physical DMG.
+HP 80% 이상일 때, 물리 대미지 15% 증가
 
-## Speed Boost 3 세트
+## 가속 3 세트
 
-Gain 25% Move Speed.
+이동 속도 25% 증가

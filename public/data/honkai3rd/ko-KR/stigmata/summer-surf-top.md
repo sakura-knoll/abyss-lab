@@ -1,5 +1,5 @@
-# Summer Surf (상)
+# 여름 모래사장 (상)
 
 ##
 
-Gain 20% Ranged Physical DMG.
+원거리 물리 대미지 20% 증가

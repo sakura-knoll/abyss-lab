@@ -1,5 +1,5 @@
-# Theresa - Origins (하)
+# 테레사·기원 (하)
 
 ##
 
-Upon using a weapon active skill, gain 25% Attack Speed for 4.0s.
+무기 액티브 스킬 사용 후 공격 속도 25% 증가, 지속 시간 4.0초.

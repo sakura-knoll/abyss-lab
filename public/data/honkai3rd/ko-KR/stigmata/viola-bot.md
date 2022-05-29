@@ -1,5 +1,5 @@
-# Viola (하)
+# 비올라 (하)
 
 ##
 
-Gain 9% Max HP in battle.
+전투 중 HP 최대치가 9% 증가한다.

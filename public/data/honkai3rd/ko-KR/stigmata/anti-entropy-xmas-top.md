@@ -1,5 +1,5 @@
-# Anti-Entropy XMas (상)
+# 테슬라·크리스마스 (상)
 
-##
+## 흡능 레이저·T
 
-For every stunned, paralyzed, or frozen enemy, the host gains 4% Total DMG Multiplier. Stacks up to 4% times.
+스테이지의 기절, 마비, 빙결 상태의 적마다 자신이 가하는 모든 대미지 4% 증가한다. 최대 4회 중첩.

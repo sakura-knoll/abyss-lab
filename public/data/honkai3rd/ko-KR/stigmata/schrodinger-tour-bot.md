@@ -1,5 +1,5 @@
-# Schrodinger - Tour (하)
+# 슈뢰딩거·스터디 투어 (하)
 
 ##
 
-After entry, gain 20.0% Total DMG Reduction for 6s. Does not trigger again during this time.
+출전 후 받는 모든 대미지 20.0% 감소, 지속 시간 6초. 효과가 지속하는 동안 다시 발동할 수 없다

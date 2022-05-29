@@ -1,5 +1,5 @@
-# Octavia (상)
+# 오토벨라 (상)
 
 ##
 
-Combo attacks gain 7% Physical DMG.
+분기 공격 물리 대미지 7% 증가

@@ -1,11 +1,12 @@
-# Hannah
+# 한나
 
-Teutonic Order Set
+튜턴 기사 세트
 
-## Dual Guns Master 2 세트
+## 쌍권총 마스터리 2 세트
 
-Gain 15% Melee Physical DMG. Kiana or Kallen equip bonus: Gain 5% Max HP in battle.
+근접 물리 대미지 15% 증가
+키아나 또는 카렌이 사용 시 전투 중 HP 최대치가 추가로 5% 증가한다.
 
-## Speed Boost 3 세트
+## 가속 3 세트
 
-Gain 15% Move Speed.
+이동 속도 15% 증가

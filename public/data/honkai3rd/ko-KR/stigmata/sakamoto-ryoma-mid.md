@@ -1,5 +1,5 @@
-# Sakamoto Ryoma (중)
+# 사카모토 료마 (중)
 
 ##
 
-Switch skill (and QTE) gain 41% Physical DMG.
+교대기 물리 대미지 41% 증가 (QTE 포함)

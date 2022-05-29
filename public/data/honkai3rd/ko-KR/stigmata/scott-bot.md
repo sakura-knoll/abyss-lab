@@ -1,5 +1,5 @@
-# Scott (하)
+# 스콧 (하)
 
 ##
 
-Gain 20% Max HP in battle. ATKs against frozen enemies have a 20% chance to heal the host for 200 HP. CD: 10s.
+전투 중 HP 최대치가 20% 증가한다. 빙결 상태의 적을 공격 시 20% 확률로 HP를 200pt 회복한다. 재사용 대기시간: 10초

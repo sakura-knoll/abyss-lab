@@ -1,5 +1,5 @@
-# Ryunosuke Akutagawa (하)
+# 아쿠타가와 류노스케 (하)
 
-##
+## 율동
 
-With each increase in combo hit count, gain 2.0% Attack Speed. Max bonus: 10.0%.
+콤보가 1 증가할 때 마다 공격 속도가 2.0% 증가하며 최대 10.0% 까지 증가한다.

@@ -1,5 +1,5 @@
-# Shigure Kira (중)
+# 시구레 키라 (중)
 
 ##
 
-Gain 15% Max HP and 15% DEF in battle.
+전투중 HP 최대치가 15% 증가하고 방어력이 15% 증가한다.

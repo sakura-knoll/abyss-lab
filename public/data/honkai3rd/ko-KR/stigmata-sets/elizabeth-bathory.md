@@ -1,12 +1,11 @@
-# Elizabeth Bathory
+# 엘리자베스·바토리
 
-Vampire Countess Set
+흡혈귀 백작 부인 세트
 
-## BIO Master 2 세트
+## 생물 마스터리 2 세트
 
-Gains 20% Physical DMG.
-BIO equip bonus: Gains another 10% Max SP.
+물리 대미지가 20% 증가한다. 생물 속성의 캐릭터가 사용 시, 전투 중 SP 최대치가 추가로 10% 증가한다
 
-## Feedback 3 세트
+## 피드백 3 세트
 
-Host gains 15% faster ATK Speed. Hits have a 10% chance to heal 3% HP. CD: 2s.
+공격 속도가 15% 증가하고, 명중하면 10% 확률로 HP를 3% 회복한다. 재사용 대기시간: 2초

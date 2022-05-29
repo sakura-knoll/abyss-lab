@@ -1,5 +1,5 @@
-# Edison (중)
+# 에디슨 (중)
 
 ##
 
-Gain 10% Lightning DMG. Create a shield every 6s. The shield absorbs 105 Physical DMG from the next enemy ATK taken.
+뇌전 원소 대미지가 10% 증가한다. 6초마다 실드를 획득해 적에게 받는 다음 공격의 물리 대미지를 105 흡수한다.
