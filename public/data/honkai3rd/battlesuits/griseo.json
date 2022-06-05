@@ -1,0 +1,147 @@
+{
+  "id": "griseo",
+  "version": "5.8",
+  "name": "Starry Impression",
+  "type": "psychic",
+  "valkyrie": "griseo",
+  "features": ["physical", "bleed", "time mastery"],
+  "equipment": [
+    {
+      "type": "recommended",
+      "weapon": "griseo-pri-weapon",
+      "stigmataTop": "cezanne-top",
+      "stigmataMid": "cezanne-mid",
+      "stigmataBot": "cezanne-bot"
+    }
+  ],
+  "leader": {
+    "core": {
+      "name": "Self-Portrait: Stars",
+      "description": "Leader Bonus\nLeader Skill: Increases Physical DMG of all team members against Bleeding enemies by 24.0%.\nInitial SP in battle increases by 55.0. This bonus triggers once every 10 minutes in Open World."
+    },
+    "subskills": [
+      {
+        "name": "Self-Portrait: Stars",
+        "description": "Increases Physical DMG of all team members against Bleeding enemies by 24.0%.\nInitial SP in battle increases by 55.0. This bonus triggers once every 10 minutes in Open World."
+      }
+    ]
+  },
+  "special": {
+    "core": {
+      "name": "Combo Attack - Knight Blowing Bubbles",
+      "description": "Attacks with Mr. Knight\nDepending on number of color types and whether color guage is full, releases a different Combo ATK:\nWhen number of color types is less than 3 or the color guage is not full, consumes all colors, Mr. Kinight knocks enemies airborne deals 400% ATK of Physical DMG.\nWhen number of color types is 3 and the color guage is full, consuems all colors, Mr. Knight deals 650% ATK of Physical DMG.\nAfter releasing Combo ATK, obtains [Colorful Bubble] which lasts for 10s.\n[Colorful Bubble]: Blocks an incoming attack once. After blocking an attack or the duration ends, deals 100% ATK of AoE Physical DMG to surrounding enemies."
+    },
+    "subskills": [
+      {
+        "name": "Wheat Fields, Brilliantly Golden",
+        "description": "After using Combo ATK, for every 1/2/3 color types consumed, restores 4.0/8.0/16.0 SP additionally.",
+        "requiredRank": "s"
+      },
+      {
+        "name": "Water Lily, Fluffy",
+        "description": "[Colorful Bubble] can be stacked up to 2 times. When [Colorful Bubble] is triggered again with 10s, increases Ignore Interrupt level by 1 and gains 30% Total DMG Reduction.",
+        "requiredRank": "sss"
+      },
+      {
+        "name": "Crow, Pitch-Black",
+        "description": "When enters the field for the first time, obtains 3 different colors."
+      }
+    ]
+  },
+  "passive": {
+    "core": {
+      "name": "Starry Sky, Impression",
+      "description": "There are 3 color types. Initial active color is red. Tap ATK button to gain the active color. Tap Ult to switch the active color. If it hits an enemy, gains the switched color.\nWhen gains a color, get a different buff from each color for 20s. (Can be refreshed)\nRed: Increases Total DMG against enemies with a broken shield or no shield by 20%\nYellow: Gains 15% Total DMG reduction.\nBlue: Increases Physial DMG of host's Bleed by 35%.\nWhen the color guage is full, you cannot gain color buffs."
+    },
+    "subskills": [
+      {
+        "name": "Sister Fairy, Smiling",
+        "description": "When using Combo ATK while having more than one of the same color, Combo ATK deals additional Physical DMG. According to the color type with highest count, each stack of the same color deals additional 250% ATK of Physical DMG. This DMG counts as Bleed DMG.",
+        "requiredRank": "s"
+      },
+      {
+        "name": "Mr. Knight, Climbing a Mountain",
+        "description": "When attacking Bio type enemies, increases Total DMG by 40.0%, Bleed DMG by 40.0 and Total DMG taken by the enemies by 10.0%."
+      },
+      {
+        "name": "Miss Moon, Resting",
+        "description": "Initial SP in battle increases by 40.0. This bonus triggers once every 10 minutes in Open World.",
+        "requiredRank": "s"
+      }
+    ]
+  },
+  "ultimate": {
+    "core": {
+      "name": "Genesis: Drawing of Dreamland",
+      "description": "Expands an auto-complete painting, which attacks enemies after it is completed.\nTriggers 3s of Global Time Fracture, attacks of other team members inflicts 2 Bleed Trauma. Trigger Interval: 2s.\nUlt lasts for 18s, the color guage is increased up to 5. 8s after using Ult, deals 500% ATK of AoE Physical DMG.\nWhen Griseo exits during Ult, refreshes duration of colors, and all team members obtain the same color buffs.\nSP Cost: 75, CD: 20s."
+    },
+    "subskills": [
+      {
+        "name": "Moonlit Night on the River",
+        "description": "Ult deals 500.0% ATK of AoE Physical DMG against Bleeding enemies. For every Bleed stack, the multiplier is increased by 300.0%, up to 2,000.0%. The DMG counts as Bleed DMG.",
+        "requiredRank": "s"
+      },
+      {
+        "name": "Girl in Dream",
+        "description": "During Ult, all team members obtain [Tracing] status, which increases max Bleed stacks by 4, each stack of Bleed status deals 15% ATK of bonus Physical DMG for every 0.5s.\nAfter releasing Ult, inflicts 6.0 Bleed Trauma to all enemies on the field."
+      },
+      {
+        "name": "Dove with a Branch",
+        "description": "During Ult, increases Total DMG of Host's Bleed by 50.0%.",
+        "requiredRank": "s"
+      }
+    ]
+  },
+  "evasion": {
+    "core": {
+      "name": "Birth of the Painter",
+      "description": "Quickly dodge enemy attacks. Can be performed twice in a row.\nUltimate Evasion Skill: triggers 2s of Global Time Fracture. CD: 15s."
+    },
+    "subskills": [
+      {
+        "name": "Girl with Gray Feather",
+        "description": "After Ultimate Evasion Skill is activated, obtains [Colorful Bubble].\nTap [ATK] immediately after Ultimate Evasion to connect into Basic ATK SEQ 3."
+      }
+    ]
+  },
+  "basic": {
+    "core": {
+      "name": "Painter and Knight",
+      "description": "Use a paint brush to attack with Mr. Knight.\nSEQ 1: Deals 80% ATK of Physical DMG.\nSEQ 2: Deals 100% ATK of Physical DMG.\nSEQ 3: Deals 120% ATK of Physical DMG.\nSEQ 4: Deals 160% ATK of Physical DMG.\nSEQ 5: Deals 180% ATK of Physical DMG."
+    },
+    "subskills": [
+      {
+        "name": "QTE - Windmill",
+        "description": "QTE: Triggered when an enemy is Time-Slowed or Bleeding (including refresh). Deals 140.0% x 7 ATK of Physical DMG, restores 6 SP to all team members, obtains 3 different colors, and reduces switching CD to 4s."
+      },
+      {
+        "name": "Butterfly, Grass",
+        "description": "When Basic ATK SEQ 3/5 hits, increases self Physical DMG by 35.0% for 6.0s. (Can be refreshed)",
+        "requiredRank": "ss"
+      }
+    ]
+  },
+  "sp": {
+    "core": {
+      "name": "Night of Star and Moon",
+      "description": "Mr. Knight's attacks inflict Bleed Trauma.\nDuring Ult, enemies on the field gains [Dyed] status. Every Bleed of the enemies with [Dyed] status is considered that it is from Griseo."
+    },
+    "subskills": [
+      {
+        "name": "Sleeping White Peony",
+        "description": "Increases Physical DMG taken by enemies, bleeding and with a broken shield or no shield, by 8.0%.",
+        "requiredRank": "s"
+      },
+      {
+        "name": "Whispering Iris",
+        "description": "Bleed deals 6 DMG against shield which is taking flat damage only.",
+        "requiredRank": "ss"
+      },
+      {
+        "name": "Blooming Sunflower",
+        "description": "When all team members attacking Bleeding enemies, each Bleed stack inreases Crit Rate by 3.0% and Physical DMG of Griseo by 3.0%.",
+        "requiredRank": "sss"
+      }
+    ]
+  }
+}
