@@ -16,16 +16,19 @@ import SecondaryLabel from '../../../../components/atoms/SecondaryLabel'
 import StigmataCard from '../../../../components/molecules/StigmataCard'
 import { translate, useTranslation } from '../../../../lib/i18n'
 import { useRouter } from 'next/router'
+import { SingleStigmataPageProps } from '../../../../components/pages/SingleStigmataPage'
 
-type StigmataShowPageProps = StigmataSetProps
+type StigmataShowPageProps = StigmataSetProps | SingleStigmataPageProps
 
-const StigmataListPage = ({
-  stigmataSet,
-  stigmataSetList,
-}: StigmataShowPageProps) => {
+const StigmataListPage = (props: StigmataShowPageProps) => {
   const { t } = useTranslation()
   const { locale } = useRouter()
 
+  if (props.type === 'single') {
+    return null
+  }
+
+  const { stigmataSet, stigmataSetList } = props
   const stigmataSetName = translate(
     locale,
     { 'ko-KR': stigmataSet.krName },
