@@ -1,0 +1,1230 @@
+- id: bd
+  version: "5.5"
+  name: Blade Durandal
+  krName: 성검 듀란달
+  baseRank: 2
+  features:
+    - physical
+    - gather
+  skillRows:
+    - - name: Viva La Girls!
+        krName: 미소녀 만세!
+        type: basic
+        description: |-
+          ELF has two forms of Basic ATK:
+          Basic ATK 1: Attack continuously dealing 2100% ATK of Physical DMG.
+          Basic ATK 2: Thrust foward to deal 2100% ATK of Physical DMG.
+          Restore 0.85 SP every second in battle.
+          ATK Interval: 3.3s
+        krDescription: |-
+          인형은 두 가지 기본 공격을 사용한다:
+          기본 공격 1: 빠르게 찔러 공격력 2100%의 물리 대미지를 가한다.
+          기본 공격 2: 돌진하여 공격력 2100%의 물리 대미지를 가한다.
+          전투 진입 시 인형은 매초 0.85pt의 SP를 회복한다.
+          공격 빈도: 3.3초
+        requiredRank: 2
+      - name: I Can Talk about This All Day
+        krName: 얘기하면 안 졸려
+        type: passive
+        description: "ELF's Basic ATK restores 5.0 bonus SP. CD: 2.0s."
+        krDescription: "인형의 기본 공격이 적에게 적중 시, 인형이 추가로 SP를 5.0pt 회복한다. 재사용 대기시간: 2.0초"
+        requiredRank: 2
+      - name: Never Tired
+        krName: 일해도 힘들지 않아
+        type: passive
+        description: "ELF's attacks have a 40.0% chance to deal 60.0% ATK of bonus
+          Physical DMG. CD: 6s."
+        krDescription: "인형의 공격이 적에게 적중 시, 40.0%의 확률로 공격력 60.0%의 물리 대미지를 추가로 가한다. 재사용 대기시간: 6초"
+        requiredRank: 3
+      - name: Double Seriousness
+        krName: 진지하게 더블
+        type: passive
+        description: ELF's Basic ATK boosts its Total DMG by 30.0% on hit for 10s.
+          Triggering it again resets the duration.
+        krDescription: "인형의 기본 공격이 적에게 적중 시, 인형의 모든 대미지가 30.0% 증가한다. 지속 시간: 10초. 중복 발동 시
+          재사용 대기시간이 갱신된다."
+        requiredRank: 4
+    - - name: Immortal Blades!!
+        krName: 불멸의 칼날!!
+        type: ultimate
+        description: >-
+          Blink to the target location, pull in enemies, and unleash AoE
+          attacks dealing 600% x 8 ATK of Physical DMG. Afterwards, pull in
+          enemies again and deal 1800% ATK of Physical DMG. Enemies hit are
+          inflicted with Dissociated stacks (lasting 5s) and each stack makes
+          them take 1.0% bonus Physical DMG. 5 stacks max. Ultimate also reduces
+          switch CD.
+
+
+          CD: 45s
+
+          SP: 75
+        krDescription: >-
+          인형이 지정 목표 위치에 나타나 적을 모으고, 범위 내 적에게 다단 공격을 발동해 공격력 600%*8의 물리 대미지를
+          가한다. 다단 공격 종료 후, 다시 적을 모아 폭발을 일으켜 1800%의 물리 대미지를 가한다. 공격할 때마다 피격된 적은
+          [해리] 효과가 중첩되며, 적은 스택마다 받는 물리 대미지가 1.0% 증가한다. 최대 5스택 중첩, 지속 시간: 5초.
+
+          필살기 발동 시 대기 상태 캐릭터의 교대 재사용 대기시간이 8초 감소한다.
+        requiredRank: 2
+      - name: Perpetual Motion Machine, Fake
+        krName: 가짜 영구 기관
+        type: passive
+        description: Dissociated lasts 10.0s.
+        krDescription: "[해리]의 지속 시간시 10.0초까지 증가한다."
+        requiredRank: 2
+      - name: Cheat Loop
+        krName: 조작 순환
+        type: passive
+        description: Ultimate boosts ELF's Crit Rate by 90.0% for 20.0s.
+        krDescription: "필살기 사용 후, 인형의 크리티컬률이 90.0% 증가한다. 지속 시간: 20.0초"
+        requiredRank: 3
+      - name: Maxwell's Demon
+        krName: 맥스웰의 도깨비
+        type: passive
+        description: ELF's Ultimate deals 30.0% bonus Total DMG.
+        krDescription: 인형 필살기의 모든 대미지가 30.0% 증가한다.
+        requiredRank: 4
+    - - name: Holy Blade of Existentialism
+        krName: 존재주의 성검
+        type: passive
+        description: Switching Valkyrie boosts team Total DMG by 2.0 for 8.0s. 2 stacks max.
+        krDescription: "캐릭터 교대 시 파티원의 모든 대미지가 2.0% 증가한다. 최대 2 스택 중첩, 지속 시간: 8.0초"
+        requiredRank: 2
+      - name: Form of Existence
+        krName: 존재의 형식
+        type: passive
+        description: "[Lineup] When team leader is a Physical DMG dealer, team deals
+          5.0% bonus Physical DMG."
+        krDescription: "[파티 발동] 리더가 물리 대미지 특성의 발키리일 경우, 파티원의 물리 대미지가 5.0% 증가한다."
+        requiredRank: 2
+      - name: Existence of Form
+        krName: 형식의 존재
+        type: passive
+        description: "[Lineup] Each stack of Dissociated boosts Physical DMG taken by
+          affected enemies by 2.00% when there's at least one Physical DMG
+          dealer on the team."
+        krDescription: "[파티 발동] 파티원에 물리 대미지 특성 캐릭터가 있을 경우, [해리] 효과가 스택마다 2.00%까지 증가한다."
+        requiredRank: 3
+    - - name: Sisyphus Myth
+        krName: 시시퍼스 신화
+        type: team
+        description: ELF's initial SP increases by 50.0.
+        krDescription: 인형의 초기 SP가 50.0pt 증가한다.
+        requiredRank: 2
+      - name: End of Absurdity
+        krName: 황당한 끝
+        type: passive
+        description: ELF deals 40.0% more Physical DMG.
+        krDescription: 인형이 가하는 물리 대미지가 40.0% 증가한다.
+        requiredRank: 3
+      - name: Absurdity of End
+        krName: 끝의 황당
+        type: passive
+        description: ELF's Ultimate CD shortens by 30.0%.
+        krDescription: 인형의 필살기 재사용 대기시간이 30.0% 감소한다.
+        requiredRank: 4
+- id: kl
+  version: "5.2"
+  name: Klein
+  krName: 클라인
+  baseRank: 2
+  features:
+    - lightning-dmg
+    - paralyze
+  skillRows:
+    - - name: A New Request?
+        krName: 새로운 부탁?
+        type: basic
+        description: >-
+          ELF has two forms of Basic ATK:
+
+          Basic ATK 1: Launch syringes to deal 5 × 120% ATK of Lighting DMG.
+
+          Basic ATK 2: Unleash biochemical lightning to deal 3 × 200% ATK of Lighting DMG.
+
+          ATK Interval: 3.3s
+        krDescription: |-
+          인형은 두 가지 기본 공격을 사용한다:
+          기본 공격 1: 주사기 발사, 공격력 5 × 120%의 뇌전 원소 대미지를 가한다.
+          기본 공격 2: 생화학 뇌전, 전방의 적에게 공격력 3 × 200%의 뇌전 원소 대미지를 가한다.
+          공격 빈도: 3.3초
+        requiredRank: 2
+      - name: Sure, No Problem
+        krName: 괜찮아, 문제 없어
+        type: passive
+        description: Each hit of Basic ATK has a 50.0% chance to inflict one stack of
+          Fatigue on enemies. The chance is doubled on enemies not yet
+          inflicted.
+        krDescription: 기본 공격마다 50.0%의 확률로 적에게 [피로] 효과를 1스택씩 중첩시킨다. 만일 적에게 [피로] 효과가 없을
+          경우, 중첩 확률이 2배 증가한다.
+        requiredRank: 2
+      - name: Just Put It There
+        krName: 거기 둬
+        type: passive
+        description: ELF restores 2.1 SP per second in battle.
+        krDescription: 전투 진입 시 인형은 매초 2.1pt의 SP를 회복한다.
+        requiredRank: 2
+      - name: I'll Finish It on Time
+        krName: 빨리 끝낼게
+        type: passive
+        description: ELF's basic ATKs deal 30.0% bonus Lightning DMG to enemies with
+          Fatigue.
+        krDescription: 인형의 기본 공격이 [피로] 상태의 적에게 적중 시, 뇌전 원소 대미지가 30.0% 증가한다.
+        requiredRank: 3
+    - - name: Quick Sleep Helper
+        krName: 즉효 수면 장치
+        type: ultimate
+        description: >-
+          Take out a massive syringe and smash it at enemies to trigger a
+          toxic explosion and deal 1800% ATK of Lighting DMG. The syringe then
+          stays on the field and spread toxin to deal 7 × 300% ATK of Lightning
+          DMG. Casting Ultimate reduces character switch CD by 8s. The 1st hit
+          makes enemies take 10.0% bonus Lighting DMG for 15s. Ultimate inflicts
+          Fatigue on enemies hit for 8s and each stack deals 20% ATK of
+          Lightning DMG per second. Triggering it again resets the duration. 5
+          stacks max.
+
+          CD: 45s
+
+          SP: 75
+        krDescription: >-
+          인형이 거대한 생화학 주사기를 꺼내 적을 찌른다. 독안개 폭발을 일으켜 공격력 1800%의 뇌전 원소 대미지를
+          가한다. 그 후, 주사기는 전장에 남아 끊임 없이 사방으로 독액을 살포해 총 공격력 7 × 300%의 뇌전 원소 대미지를
+          가한다. 필살기를 발동하면 대기 상태 캐릭터의 캐릭터 교대 재사용 대기시간이 8초 감소한다. 제 1격에 적중한 적은 15초
+          동안 받는 뇌전 원소 대미지가 10.0% 증가하며, 필살기의 모든 대미지가 적에게 적중 시 [피로] 효과가 추가되어 8초간
+          스택마다 초당 공격력 20%의 뇌전 원소 대미지를 가한다. 최대 5스택, 중복 중첩 시 지속 시간을 갱신한다.
+
+          스킬 CD: 45초
+
+          SP 소모: 75
+        requiredRank: 2
+      - name: Puts You to Sleep Instantly
+        krName: 바로 잠들 수 있어
+        type: passive
+        description: The 1st hit paralyzes enemies for 2.0s.
+        krDescription: 제1격 명중 시, 적을 2.0초간 마비시킨다.
+        requiredRank: 2
+      - name: Never Gonna Wake Up Again
+        krName: 못 일어나
+        type: passive
+        description: ELF Ultimate makes enemies take 15.0% bonus Lightning DMG instead.
+        krDescription: 인형 필살기가 적이 받는 뇌전 원소 대미지를 15.0%까지 증가시킨다.
+        requiredRank: 3
+      - name: Hmm, Very Helpful
+        krName: 음, 실용적이야
+        type: passive
+        description: ELF Ultimate deals 40.0% bonus Total DMG. Casting Ultimate triggers
+          the QTE of all Lightning DMG dealers on the team.
+        krDescription: 인형 필살기의 모든 대미지가 40.0% 증가한다. 필살기를 발동하면 파티에 뇌전 원소 대미지 특성을 지닌 발키리의
+          QTE를 강제로 발동시킨다.
+        requiredRank: 3
+    - - name: Still Got Work to Do
+        krName: 일이 안 끝났어
+        type: passive
+        description: "[Lineup] Elf deals 25% bonus Lightning DMG when the team leader is
+          a Lightning DMG dealer."
+        krDescription: "[파티 발동] 리더가 뇌전 원소 대미지 특성의 발키리일 경우, 인형의 뇌전 원소 대미지가 25% 증가한다."
+        requiredRank: 2
+      - name: Have to Get Myself Together
+        krName: 정신 차려야지
+        type: passive
+        description: ELF's initial SP increases by 50.0.
+        krDescription: 인형의 초기 SP가 50.0 증가한다.
+        requiredRank: 2
+      - name: Can't Fall Asleep
+        krName: 절대 잠들면 안 돼
+        type: passive
+        description: "[Lineup] Lightning DMG dealers on the team deal 6.0% bonus
+          Lightning DMG to paralyzed or fatigued enemies."
+        krDescription: "[파티 발동] 파티 내 뇌전 원소 대미지 특성의 발키리가 마비 혹은 [피로] 상태의 적에게 가하는 뇌전 원소
+          대미지가 6.0% 증가한다."
+        requiredRank: 3
+      - name: Can't... Sleep...
+        krName: 잠들면... 안 돼...
+        type: passive
+        description: "[Lineup] Every Lightning DMG dealer on the team reduces ELF's
+          Ultimate CD by 8.0%."
+        krDescription: "[파티 발동] 파티에 2명 또는 2명 이상의 뇌전 원소 대미지 특성 발키리가 있을 경우, 인형의 필살기 재사용 대기
+          시간이 8.0% 감소한다."
+        requiredRank: 3
+    - - name: Did I Fall Asleep?
+        krName: 음... 잠 들었나?
+        type: passive
+        description: "Valkyries dealing Combo ATK DMG adds 1 to the count for up to once
+          per second. When the count reaches 3, ELF performs a Joint ATK, clears
+          the count, and launches multiple syringes at the target, dealing 10 x
+          80% ATK of Lightning DMG. CD: 20s. The count cannot exceed 2 during CD
+          and starts with 2 when the battle begins."
+        krDescription: 캐릭터가 분기 대미지를 가할 시 카운트가 1회 진행되며, 카운트는 초당 1회까지만 증가한다. 카운트가 3회에 도달하면
+          인형은 1회의 연계 공격을 발동하고, 카운트는 0으로 돌아가며, 목표를 향해 대량의 주사기를 발사해 공격력 10 x 80%의
+          뇌전 원소 대미지를 가한다. 재사용 대기 중에 카운트는 최대 2pt까지 누적된다. 전투 시작 시 인형은 2pt의 카운트를
+          획득한다.
+        requiredRank: 2
+      - name: What Time Is It Now?
+        krName: 지금 몇시야?
+        type: passive
+        description: Joint ATKs can inflict Fatigue.
+        krDescription: 연계 공격이 적에게 [피로] 효과를 중첩시킨다.
+        requiredRank: 2
+      - name: Oh No... I'm Done!
+        krName: 아... 망했다
+        type: passive
+        description: ELF Joint ATKs boost team Total DMG by 5.0% for 12s.
+        krDescription: 인형이 연계 공격 발동 시, 파티원 캐릭터의 모든 대미지가 12초간 5.0% 증가한다.
+        requiredRank: 4
+      - name: Another Sleepless Night
+        krName: 또 야근이네
+        type: passive
+        description: Joint ATK CD is reduced to 15.0s.
+        krDescription: 연계 공격의 재사용 대기시간이 15.0초로 감소한다.
+        requiredRank: 4
+- id: sr
+  version: "5.0"
+  name: Sirin
+  krName: 시린
+  baseRank: 2
+  features:
+    - fire-dmg
+    - ignite
+  skillRows:
+    - - name: Snip☆Magic
+        krName: 싹둑☆마법
+        type: basic
+        description: >-
+          ELF has two forms of Basic ATK:
+
+          Basic ATK 1: Use scissors to snip twice each dealing 300% ATK of Fire DMG.
+
+          Basic ATK 2: Spin scissors to deal 150% ATK of Fire DMG 4 times.
+
+          ATK Interval: 3.3s
+        krDescription: >-
+          인형은 두 가지 기본 공격을 보유하고 있다:
+
+          기본 공격 1: 절단 공격, 공격력 300%의 화염 원소 대미지를 2회 가한다.
+
+          기본 공격 2: 가위를 휘두르는 회전 공격으로 주변 적에게 대미지를 4회 가한다. 공격마다 공격력 150%의 화염 원소 대미지를 가한다.
+
+          공격 빈도: 3.3초
+        requiredRank: 2
+      - name: Heat Up
+        krName: 가열
+        type: passive
+        description: ELF restores 2.0 SP per second in battle.
+        krDescription: 전투 진입 시 인형은 매초 SP를 2.0pt 회복한다.
+        requiredRank: 2
+      - name: Fire Mark
+        krName: 화염 인장
+        type: passive
+        description: ELF's Basic ATKs boost her Total DMG by 50.0% on hit for 10s.
+        krDescription: "인형의 기본 공격이 적 적중 시, 인형의 모든 대미지가 50.0% 증가한다. 지속 시간: 10초"
+        requiredRank: 3
+    - - name: Shackle☆Magic
+        krName: 속박☆마법
+        type: ultimate
+        description: >-
+          ELF casts a spell at the target location to create a magic field
+          that ignites, immobilizes enemies within and explodes with a 2.5s
+          delay dealing 3 x 700% + 1800% ATK of Fire DMG throughout the
+          duration. Enemies within the field take 10.0% bonus Fire DMG for 13s.
+          Restores 200 HP for all Valkyries.
+
+          CD: 35s
+
+          SP: 75
+        krDescription: >-
+          인형이 목표 위치에 마법을 발동하고, 큐브 필드를 생성해 큐브 위치의 적을 속박 및 연소시킨다. 큐브는 2.5초 동안
+          지속한 후 폭발한다. 그 기간, 공격력 3 x 700% + 1800%의 화염 원소 대미지를 가한다. 스킬 발동 시, 필드 내의
+          적이 받는 화염 원소 대미지가 10.0% 증가한다. 지속 시간: 13초, 파티원의 HP를 200 회복한다.
+
+          스킬 CD: 35초
+
+          SP 소모: 75
+        requiredRank: 2
+      - name: Fiery Lock
+        krName: 허공의 염쇄
+        type: passive
+        description: ELF's initial SP increases by 50.0.
+        krDescription: 인형 초기 SP가 50.0pt 증가한다.
+        requiredRank: 2
+      - name: Cube of Conviction
+        krName: 심판의 큐브
+        type: passive
+        description: ELF's Ultimate deals 60.0% bonus Fire DMG.
+        krDescription: 인형 필살기의 화염 원소 대미지가 60.0% 증가한다.
+        requiredRank: 3
+      - name: Fire of Blessings
+        krName: 축복의 불꽃
+        type: passive
+        description: The HP regen max charges from ELF's Ultimate increase to 25.0.
+        krDescription: 인형 필살기의 HP 회복 카운트의 총 카운트가 25.0회로 증가한다.
+        requiredRank: 4
+    - - name: Sweet☆Magic
+        krName: 달콤☆마법
+        type: passive
+        description: After Elf's Ultimate is cast, team obtains 20 charges of HP regen.
+          Any team member whose HP is below 100% consumes 1 charge to restore 60
+          HP when she hits an enemy.
+        krDescription: 인형 필살기 발동 후, 파티원이 HP 회복 카운트를 20회 획특한다. 파티 내 HP가 100% 미만인 캐릭터의 공격이
+          적에게 적중 시 카운트를 1회 소모해 HP를 60 회복한다.
+        requiredRank: 2
+      - name: Caramel Pudding
+        krName: 크림브륄레
+        type: passive
+        description: ELF restores 20.0% more HP for Valkyries whose HP is below 50%.
+        krDescription: 인형이 HP가 50% 미만인 캐릭터에게 제공하는 HP 회복 효과가 20.0% 증가한다.
+        requiredRank: 2
+      - name: Choc Lava Cake
+        krName: 라바 케이크
+        type: passive
+        description: "[Lineup] ELF's Ultimate makes enemies take 15.0% bonus Fire DMG
+          instead when there are 2 or more Fire DMG dealers on the team."
+        krDescription: "[파티 발동] 파티원에 2명 또는 2명 이상의 화염 원소 대미지 특성 발키리가 있을 경우, 적이 받는 인형의 필살기
+          화염 원소 대미지가 15.0%로 증가한다."
+        requiredRank: 3
+      - name: Double Sugar
+        krName: 달콤 곱하기
+        type: passive
+        description: "[Lineup] When team leader is a Fire DMG dealer, team deals 10.0%
+          bonus Fire DMG."
+        krDescription: "[파티 발동] 리더가 화염 원소 대미지 특성의 발키리일 경우, 파티원의 화염 원소 대미지가 10.0% 증가한다."
+        requiredRank: 4
+    - - name: Friendship☆Magic
+        krName: 우정☆마법
+        type: passive
+        description: "When a Valkyrie uses a weapon skill, ELF summons a black hole to
+          fire 6 magic missiles each dealing 140% ATK of Fire DMG. CD: 15s."
+        krDescription: "캐릭터가 무기 스킬 사용 시, 인형이 블랙홀을 소환해 목표 적에게 마법탄을 6발 발사하며, 마법탄은 1개당 공격력
+          140%의 화염 원소 대미지를 가한다. 재사용 대기시간: 15초"
+        requiredRank: 2
+      - name: Sirin's Help
+        krName: 시린의 도움
+        type: passive
+        description: Enemies hit by ELF's Joint ATKs take 10.0% bonus shield DMG for 12s.
+        krDescription: "연계 공격에 적중한 적이 받는 실드 대미지가 10.0% 증가한다. 지속 시간: 12초"
+        requiredRank: 2
+      - name: Sirin's Support
+        krName: 시린의 응원
+        type: passive
+        description: Joint ATK's cooldown is reduced to 10.0s
+        krDescription: 연계 공격의 재사용 대기시간이 10.0초로 감소한다.
+        requiredRank: 2
+      - name: Sirin's Regard
+        krName: 시린의 성의
+        type: passive
+        description: Joint ATKs deal 200.0% bonus DMG to enemies or their shields which
+          take fixed DMG.
+        krDescription: 연계 공격이 고정 대미지를 받은 실드나 적에게 가하는 대미지가 200.0% 증가한다.
+        requiredRank: 3
+- id: we
+  version: "4.6"
+  name: Water's Edge
+  krName: 약수
+  baseRank: 2
+  features:
+    - ice-dmg
+    - gather
+  skillRows:
+    - - name: Blade Downpour
+        krName: 검우
+        type: basic
+        description: >-
+          ELF has two Basic ATKs:
+
+          Basic ATK 1: Launch two water projectiles each dealing 240% ATK of Ice DMG.
+
+          Basic ATK 2: Swing the sword to emit a marching wave dealing 480% ATK of Ice DMG.
+
+          ATK Interval: 3.3s
+        krDescription: |-
+          인형의 두 가지 기본 공격:
+          기본 공격 1: 물폭탄 2개 발사한다. 발사한 물폭탄은 공격력 240%의 빙결 원소 대미지를 가한다.
+          기본 공격 2: 검을 휘둘러 지속적으로 나아가는 물결을 조종해 적에게 공격력 480%의 빙결 원소 대미지를 가한다.
+          공격 빈도: 3.3초
+        requiredRank: 2
+      - name: Pending Rain
+        krName: 바람의 도래
+        type: passive
+        description: ELF restores 2.2 SP per second in battle.
+        krDescription: 전투 진입 시 인형은 초당 2.2pt의 SP를 회복한다.
+        requiredRank: 2
+      - name: Imminent Storm
+        krName: 비의 강림
+        type: passive
+        description: ELF's Basic ATKs deal 30.0% bonus Total DMG.
+        krDescription: 인형 기본 공격의 모든 대미지가 30.0% 증가한다.
+        requiredRank: 3
+    - - name: Purge of Evil
+        krName: 각사
+        type: ultimate
+        description: >-
+          Channel a formation to gather enemies in a large area dealing 800%
+          + 5 x 100% + 800% ATK of Ice DMG over 7s. Enemies within become Sunken
+          and take 10.0% bonus Ice DMG until the formation ends.
+
+          Dealing over 500 Ice DMG to enemies within the formation enhances the gathering for 1s. CD: 1s.
+
+          CD: 30s
+
+          SP: 75
+        krDescription: >-
+          인형은 목표 위치에 법진을 유도해 지속적으로 넒은 범위의 적을 법진으로 끌어당긴다. 법진은 7초간 유지되며, 공격력
+          800% + 5 x 100% + 800%의 빙결 원소 대미지를 가한다. 법진에 들어간 적은 침연 상태가 빠져 받는 빙결 원소
+          대미지가 10.0% 증가하며, 효과는 법진이 사라질 때까지 지속된다.
+
+          법진이 존재하는 동안 법진 내 목표에게 가한 빙결 원소 대미지가 500보다 클 때 법진은 1초 동안 흡입력이 강화된다. 해당 효과는 1초의 재발동 대기시간을 갖는다.
+
+          스킬 CD: 30초
+
+          SP 소모: 75
+        requiredRank: 2
+      - name: Refreshing Dew
+        krName: 음한로
+        type: passive
+        description: When the formation ends, enemies still within stay Sunken for 6.0s
+          longer.
+        krDescription: 법진 종료 후, 법진에 당한 적의 침연 상태가 추가로 6.0초 지속된다.
+        requiredRank: 2
+      - name: Tainted Heart
+        krName: 청심탁
+        type: passive
+        description: Sunken enemies take 6.0% further bonus Ice DMG.
+        krDescription: 침연 상태가 가하는 빙결 원소 대미지가 추가로 6.0% 증가한다.
+        requiredRank: 3
+      - name: Clairvoyance
+        krName: 명경지수
+        type: passive
+        description: ELF's Ultimate deals 30.0% bonus Total DMG.
+        krDescription: 인형 필살기의 모든 대미지가 30.0% 증가한다.
+        requiredRank: 4
+    - - name: Shoreless
+        krName: 무근
+        type: passive
+        description: "[Team] With one or more Ice DMG dealers on the team, Sunken
+          enemies take 8.0% bonus Ice DMG."
+        krDescription: "[파티 발동] 파티원에 1명 또는 1명 이상의 빙결 원소 대미지 특성 캐릭터가 있을 경우, 침연 상태로 인해 받는
+          빙결 원소 대미지가 추가로 8.0% 증가한다."
+        requiredRank: 2
+      - name: Shapeless
+        krName: 무상형
+        type: passive
+        description: ELF has 50.0 bonus initial SP.
+        krDescription: 인형 초기 SP가 50.0pt 증가한다.
+        requiredRank: 2
+      - name: Traceless
+        krName: 무상재
+        type: passive
+        description: "[Team] With two or more Ice DMG dealers on the team, the Sunken
+          status lasts for 3.0s longer additionally after the formation ends."
+        krDescription: "[파티 발동] 파티원에 2명 또는 2명 이상의 빙결 원소 대미지 특성의 캐릭터가 있을 경우, 법진 종료 후, 발동한
+          침연 상태의 지속 시간이 추가로 3.0초 증가한다."
+        requiredRank: 3
+    - - name: Water's Bane
+        krName: 단수
+        type: team
+        description: "When a QTE hits, ELF launches a blade wave dealing 800.0% ATK of
+          Ice DMG to enemies on its path. CD: 10s."
+        krDescription: "캐릭터 QTE가 적에게 명중 시, 인형은 앞으로 날아가는 검기를 날려 경로에 있는 적에게 공격력 800.0%의 빙결
+          원소 대미지를 가한다. 재사용 대기시간: 10초"
+        requiredRank: 2
+      - name: Roaring Tides
+        krName: 입해류
+        type: passive
+        description: ELF's Joint ATKs deal 30.0% bonus Ice DMG.
+        krDescription: 인형 연계 공격이 가하는 빙결 원소 대미지가 30.0% 증가한다.
+        requiredRank: 2
+      - name: Unbridled Influx
+        krName: 창해귀
+        type: passive
+        description: ELF's Joint ATKs restore 9.0 SP.
+        krDescription: 인형 연계 공격은 SP를 9.0pt 회복한다.
+        requiredRank: 3
+- id: tz
+  version: "4.3"
+  name: Tesla ZERO
+  krName: 테슬라 ZERO
+  baseRank: 2
+  features:
+    - physical
+  skillRows:
+    - - name: EM Haymaker
+        krName: 전자기 펄스
+        type: basic
+        description: |-
+          Basic ATK deals 400.0% ATK of Physical DMG.
+          ATK Interval: 3.3s
+        krDescription: |-
+          기본 공격이 공격력 400.0%의 물리 대미지를 입힌다.
+          공격 빈도: 3.3초
+        requiredRank: 2
+      - name: Charge
+        krName: 충전
+        type: passive
+        description: "ELF's Basic ATKs restore 5.0 bonus SP on hit for itself. CD: 2s."
+        krDescription: "인형의 기본 공격이 적에게 명중 시 SP를 추가로 5.0pt 회복한다. 재사용 대기시간: 2초"
+        requiredRank: 2
+      - name: Disruptive Punch
+        krName: 섭동
+        type: passive
+        description: "ELF's attacks have a 20.0% chance to deal 150.0% bonus Physical
+          DMG. CD: 10s."
+        krDescription: "인형의 공격이 적에게 명중할 때 20.0%의 확률로 150.0%의 물리 대미지를 추가로 가한다. 재사용 대기시간: 10초"
+        requiredRank: 3
+      - name: Smelter Knuckle
+        krName: 멜트 다운
+        type: passive
+        description: "ELF deals 6.0% bonus Total DMG for 10s after landing a hit. 3
+          stacks max. CD: 1s."
+        krDescription: "인형의 공격이 적에게 명중 시, 인형의 모든 대미지가 6.0% 증가한다. 지속 시간: 10초, 3회 중첩 가능,
+          1초의 발동 간격이 있다."
+        requiredRank: 4
+    - - name: "Power: ULTRA"
+        krName: 정격 출력
+        type: ultimate
+        description: >-
+          ELF enters burst mode and launches fast attacks in midair for 10s.
+          Each sequence deals 100.0% ATK of Physical DMG. ELF's Crit Rate
+          increases by 12.0% every second (5 stacks max) until burst mode ends.
+          ELF skill button is lit up at max stacks.
+
+          CD: 35s
+
+          SP: 75
+        krDescription: >-
+          인형은 10초 동안 폭발 상태에 진입하고 공중에서 공격 빈도가 높은 공격을 발동해 단계마다 공격력 100.0%의 물리
+          대미지를 입힌다. 이때 인형의 크리티컬률이 초당 12.0% 증가하고 최대 5회 중첩한다. 효과는 폭발 상태의 지속 시간이 끝날
+          때까지 지속되고 게이지가 가득차면 인형 스킬 버튼이 반짝인다
+
+          스킬 CD: 35초
+
+          SP 소모: 75
+        requiredRank: 2
+      - name: Super RAD
+        krName: 방사
+        type: passive
+        description: The 1st attack in burst mode bleeds enemies for 10.0s, dealing 100%
+          ATK of Physical DMG per second and enabling ELF to Deal 12.0% bonus
+          Total DMG to bleeding enemies within 10.0s.
+        krDescription: 폭발 상태에 진입한 후의 첫번째 공격은 목표를 10.0초 동안 출혈 상태로 만든다. 초당 공격력 100%의 물리
+          대미지를 입히고, 인형이 10.0초 동안 출혈 상태의 적에게 가하는 모든 대미지를 12.0% 증가시킨다.
+        requiredRank: 2
+      - name: Fine Tuning
+        krName: 조절
+        type: passive
+        description: ELF's initial SP increases by 50.
+        krDescription: 인형의 기초 SP가 50 증가한다.
+        requiredRank: 2
+      - name: Super Critical
+        krName: 초임계
+        type: passive
+        description: ELF's Ultimate Deals 20.0% bonus Total DMG.
+        krDescription: 필살기가 가하는 모든 대미지가 20.0% 증가한다.
+        requiredRank: 3
+    - - name: Harmonic Link
+        krName: 동조 연결
+        type: passive
+        description: "[Team] Team deals 3.0% bonus Physical DMG and an additional 2.0%
+          bonus Physical DMG if all 3 members are the same type."
+        krDescription: "[파티 효과] 모든 파티원이 가한 물리 대미지가 3.0% 증가한다. 파티에 있는 3명의 발키리 속성이 전부 같을
+          때, 모든 파티원이 가하는 물리 대미지가 추가로 2.0% 증가한다."
+        requiredRank: 2
+      - name: Rapid Harmonics
+        krName: 고주파 공진
+        type: passive
+        description: "[Team] With at least 1 Fast ATK Valkyrie, team deals 4.0% bonus
+          Physical DMG and the last hit of ELF's Ultimate become Heavy ATK with
+          strong trauma charge."
+        krDescription: "[파티 발동] 파티에 고빈도 특성의 캐릭터 포함 시, 모든 파티원의 물리 대미지가 4.0% 증가하고, 인형 필살기의
+          마지막 일격이 중첩 능력 강의 강격으로 변한다."
+        requiredRank: 3
+      - name: Super Overdrive
+        krName: 과부하 구동
+        type: passive
+        description: "[Team] With at least 1 Burst Valkyrie, team deals 4.0% bonus
+          Physical DMG and every hit of ELF's Ultimate deals 50.0% ATK of bonus
+          Physical DMG."
+        krDescription: "[파티 발동] 파티에 폭발 특성의 캐릭터 포함 시, 모든 파티원의 물리 대미지가 4.0% 증가하고, 폭발 상태에서
+          인형이 공격할 때마다 추가로 공격력 50.0%의 물리 대미지를 가한다."
+        requiredRank: 4
+    - - name: Hard Trauma
+        krName: 강성 충격
+        type: ultimate
+        description: When ELF skill is cast again during burst mode or when burst mode
+          ends, ELF leaps up to deal 1,800.0% x2 ATK of Physical DMG and ELF
+          skill enters cooldown.
+        krDescription: 폭발 상태가 다시 인형의 스킬을 발동하거나 폭발 상태 지속 시간이 끝나면, 인형이 높이 도약해 목표에게 공격력
+          1,800.0% x 2의 물리 대미지를 입힌다. 이후 인형 스킬은 재사용 대기 상태에 진입한다.
+        requiredRank: 2
+      - name: Burst Charge
+        krName: 축적
+        type: passive
+        description: Then the last hit of Ultimate crits, ELF restores 1.5 SP per second
+          for 5s.
+        krDescription: 필살기의 마지막 일격이 크리티컬일 때, 인형이 5초 동안 초당 1.5pt의 SP를 회복한다.
+        requiredRank: 2
+      - name: Particle Stream
+        krName: 입자빔
+        type: passive
+        description: The last sequence of Ultimate makes enemies take 6.0% bonus
+          Physical DMG for 10s.
+        krDescription: "필살기의 마지막 단계는 피격된 적이 받는 물리 대미지를 6.0% 증가시킨다. 지속 시간: 10초."
+        requiredRank: 3
+- id: bl
+  version: "4.1"
+  name: Bella
+  krName: 벨라
+  baseRank: 2
+  features:
+    - lightning-dmg
+  skillRows:
+    - - name: Thundering Verdict
+        krName: 심판의 천둥
+        type: basic
+        description: >-
+          Basic ATKs deal 540% ATK of Lightning DMG. Restores 1.85 SP every
+          second in battle.
+
+          ATK Interval: 3.3s
+        krDescription: |-
+          기본 공격이 공격력 540%의 뇌전 원소 대미지를 입힌다. 전투에 진입한 후 인형은 초당 1.85pt의 SP를 회복한다.
+          공격 빈도: 3.3초
+        requiredRank: 2
+      - name: Galvanize
+        krName: 교만함
+        type: passive
+        description: ELF deals 20.0% bonus Lightning DMG.
+        krDescription: 인형이 가하는 뇌전 원소 대미지 20.0%증가.
+        requiredRank: 2
+      - name: Fulminating Blast
+        krName: 천둥 포효
+        type: passive
+        description: "ELF's attacks have a 50.0% chance to deal 250.0% ATK of bonus
+          Lightning DMG. CD: 6s."
+        krDescription: "인형의 공격이 적에게 명중할 때 50.0%의 확률로 250.0%의 뇌전 원소 대미지를 추가로 가한다. 재사용 대기시간: 6초"
+        requiredRank: 2
+      - name: Conducting Rod
+        krName: 인뢰
+        type: passive
+        description: ELF deals 25.0% bonus Total DMG when there's only one enemy on the
+          field.
+        krDescription: 전장에 적이 하나만 있을 때, 인형의 모든 대미지가 25.0%증가한다.
+        requiredRank: 3
+    - - name: Lightning Arrows
+        krName: 폭뢰의 화살
+        type: ultimate
+        description: >-
+          Shoots multiple thunderbolts dealing 300% x 2 + 160% x 10 + 560%
+          ATK of Lightning DMG and boosting Lightning DMG taken by enemies hit
+          by 8.0% for 6s (can be refreshed). If the last hit lands on a single
+          target, it deals 800% ATK of bonus Lightning DMG and paralyzes the
+          enemy for 1.0s.
+
+          CD: 35s
+
+          SP: 75
+        krDescription: >-
+          인형이 목표를 조준하고 화살 여러개를 쏘아 300% x 2 + 160% x 10 + 560% 공격력의 뇌전 원소
+          대미지를 입히고, 명중된 적이 받는 뇌전 원소 대미지를 6초동안 8.0% 증가시킨다. 중복 발동 시 지속 시간이 초기화된다.
+          마지막 일격이 단일 적에게 명중하면 추가로 800% 공격력의 뇌전 원소 대미지를 주고 적을 1.0초 동안 마비시킨다.
+
+          스킬 CD: 35초
+
+          SP 소모: 75
+        requiredRank: 2
+      - name: Dragon Rage
+        krName: 용의 분노
+        type: passive
+        description: When there's only one enemy on the field, every thunderbolt of
+          Ultimate deals 40.0% bonus Lightning DMG.
+        krDescription: 전장의 적이 하나만 있으면, 필살기의 모든 화살에 추가로 공격력 40.0%의 뇌전 원소 대미지가 부가된다.
+        requiredRank: 2
+      - name: Lethal Smite
+        krName: 뇌극
+        type: passive
+        description: Ultimate boosts Lightning DMG taken by enemies hit by 7.0%.
+        krDescription: 필살기에 피격된 적이 받는 뇌전 원소 대미지를 추가로 7.0% 증가시킨다.
+        requiredRank: 3
+      - name: Conducting Cage
+        krName: 뇌옥
+        type: passive
+        description: The Lightning DMG bonus of Ultimate's last hit lasts 10.0s.
+        krDescription: 필살기의 마지막 일격이 가한 적이 받는 뇌전 원소 대미지 증가 효과의 지속 시간이 10.0초까지 연장된다.
+        requiredRank: 4
+    - - name: Dragon Guard
+        krName: 성스러운 용의 가호
+        type: passive
+        description: "[Team] With a Fast ATK leader, the team deals 8% bonus Elemental DMG."
+        krDescription: "[파티 발동] 리더가 고빈도 특성을 포함 시, 파티원이 가하는 모든 원소 대미지가 8% 증가한다."
+        requiredRank: 2
+      - name: Electrifying Dance
+        krName: 뇌섬의 춤
+        type: passive
+        description: ELF's has 50.0 bonus initial SP.
+        krDescription: 인형의 초기 SP가 50.0 증가한다.
+        requiredRank: 2
+      - name: Dragon Blood
+        krName: 용의 혈통
+        type: passive
+        description: "[Team] ELF deals 15% bonus Lightning DMG when there's at least one
+          Lightning DMG dealer on the team."
+        krDescription: "[파티 발동] 파티에 뇌전 원소 대미지 특성을 보유한 캐릭터가 있을 경우, 인형의 뇌전 원소 대미지가 15% 증가한다."
+        requiredRank: 3
+      - name: Electrine Soul
+        krName: 뇌전의 혼
+        type: passive
+        description: "[Team] With a Lightning DMG leader, team deals 6% bonus Lightning
+          DMG."
+        krDescription: "[파티 발동] 파티의 리더가 뇌전 원소 특성의 캐릭터일 때, 모든 캐릭터의 뇌전 원소 대미지가 6% 증가한다."
+        requiredRank: 4
+    - - name: Lunar Mending
+        krName: 고독한 달의 현음
+        type: team
+        description: "Restores 300.0 HP for the deployed Valkyrie when her HP drops
+          below 50%. CD: 50s."
+        krDescription: "현재 캐릭터의 HP가 50% 이하일 때, 인형은 캐릭터의 HP를 300.0 회복시킨다. 재사용 대기시간: 50초"
+        requiredRank: 2
+      - name: Harmony Crescent
+        krName: 현인
+        type: passive
+        description: Lunar Mending's CD is reduced to 30s.
+        krDescription: 고독한 달의 현음의 재사용 대기시간이 30초까지 감소한다.
+        requiredRank: 2
+      - name: Moon Touch
+        krName: 창월
+        type: passive
+        description: Lunar Mending restores 450.0 HP instead.
+        krDescription: 고독한 달의 현음 스킬 발동 시, 회복 가능한 HP가 450.0까지 증가한다.
+        requiredRank: 3
+- id: bof
+  version: "3.7"
+  name: Book of Fuxi
+  krName: 복희의 서
+  baseRank: 2
+  features:
+    - fire-dmg
+  skillRows:
+    - - name: Shenzhou Will
+        krName: 신주의지
+        type: basic
+        description: >-
+          Fire multiple shells, dealing 550% ATK of Fire DMG against the
+          target and restores 3 SP upon hit; CD: 2s.
+
+          ATK Interval: 3.3s
+        krDescription: >-
+          포탄을 다수 발사해 목표에게 총 공격력 550%의 화염 원소 대미지를 입히고, 명중시 SP를 3pt 회복한다. 재사용
+          대기시간: 2초
+
+          공격 빈도: 3.3초
+        requiredRank: 2
+      - name: Persistence
+        krName: 지속
+        type: passive
+        description: "ELF's Basic ATK hit additionally restores 10 SP for the ELF; CD: 2s."
+        krDescription: "인형의 기본 공격이 적에게 명중하면 SP를 10pt 만큼 추가 회복한다. 재사용 대기시간: 2초"
+        requiredRank: 2
+      - name: Scorching
+        krName: 연소
+        type: passive
+        description: "ELF's Basic ATK hit has a 18.0% chance to deal 200.0% more Fire
+          DMG; CD: 10s."
+        krDescription: "인형의 기본 공격이 적에게 명중 시 18.0%의 확률로 200.0%의 화염 원소 대미지를 추가로 입힌다. 재사용
+          대기시간: 10초"
+        requiredRank: 2
+      - name: Fiery Soul
+        krName: 치혼
+        type: passive
+        description: ELF's Basic ATK hit on a Ignited target boosts ELF's Total DMG by
+          15.0% for 10s.
+        krDescription: "인형의 기본 공격이 연소 상태의 적에게 명중할 떄마다 모든 대미지가 15.0% 상승한다. 지속 시간: 10초"
+        requiredRank: 2
+    - - name: Flame Circle
+        krName: 현화의 진
+        type: ultimate
+        description: >-
+          Force activates the QTE of Valkyrie(s) capable of dealing Fire DMG
+          on the team, and summons a magic fire circle (lasts 10s) to seal
+          enemies within, dealing 5 x 1000% ATK of Fire DMG against them and
+          inflicting a debuff on them to make them take 10.0% more All Elemental
+          DMG.
+
+          CD: 35s
+
+          SP: 75
+        krDescription: >-
+          파티 중 화염 원소 대미지 특성을 보유하고 있는 발키리의 QTE를 강제 발동시키고, 법진을 10초간 생성한다. 법진은
+          적을 봉쇄해 법진 밖으로 나가지 못하게 하고, 법진 내의 적에게 공격력 5 x 1000%의 화염 원소 대미지를 입히며 법진
+          내의 적이 받는 모든 원소 대미지가 10.0% 증가한다.
+
+          스킬 CD: 35초
+
+          SP 소모: 75
+        requiredRank: 2
+      - name: Unification
+        krName: 귀일
+        type: passive
+        description: Within the next 5s after unleashing ELF's Ultimate, the whole
+          team's QTE skills deal 15.0% more Total DMG.
+        krDescription: 인형이 필살기를 발동한 후, 5초 동안 모든 파티원 QTE의 모든 대미지가 15.0% 증가한다.
+        requiredRank: 2
+      - name: Ashes
+        krName: 잔해
+        type: passive
+        description: When the magic circle ends, enemies still within the AOE take 10.0%
+          more Elemental DMG for 5s.
+        krDescription: "법진이 끝난 후, 여전히 법진 안에 있는 적은 받는 원소 대미지가 10.0% 증가한다. 지속 시간: 5초"
+        requiredRank: 3
+    - - name: Roar of the Flame
+        krName: 봉화의 숨
+        type: passive
+        description: "[Team-triggered] With a Valkyrie capable of dealing Fire DMG as
+          the team leader, the whole team gains 9.0% Fire DMG and 6.0% Ice and
+          Lightning DMG."
+        krDescription: "[파티 효과] 리더가 화염 원소 대미지 특성의 발키리일 때, 모든 파티원의 화염 원소 대미지가 9.0% 증가하고,
+          빙결, 뇌전 원소 대미지가 추가로 6.0% 증가한다."
+        requiredRank: 2
+      - name: Abundance
+        krName: 충만
+        type: passive
+        description: ELF's initial SP increases by 40.
+        krDescription: 인형의 기초 SP가 40 증가한다.
+        requiredRank: 2
+      - name: Joined Flames
+        krName: 공연
+        type: passive
+        description: "[Team-triggered] ELF's ALL Elemental DMG increases by 15.0% when
+          there are 2 Valkyries capable of dealing Fire DMG on the team."
+        krDescription: "[파티 효과] 파티에 화염 원소 대미지 특성을 보유한 발키리가 2명 있을 때 인형의 모든 원소 대미지가 15.0% 증가한다."
+        requiredRank: 3
+      - name: Nature Harmony
+        krName: 만물통달
+        type: passive
+        description: "[Team-triggered] Team deals 6.0% more Elemental DMG when the team
+          is formed by Valkyries with three different Types."
+        krDescription: "[파티 효과] 파티에 있는 3명의 발키리 속성이 전부 다를 때, 모든 파티원의 원소 대미지가 추가로 6.0% 증가한다."
+        requiredRank: 4
+    - - name: Free Will
+        krName: 사의
+        type: team
+        description: "When a Valkyrie performs Ultimate Evasion, the ELF restores 15 SP
+          and provides a buff for the Valkyrie, which boosts her Fire DMG by
+          8.0% for 8s; CD: 15s."
+        krDescription: "발키리가 극한 회피 발동 시, 인형이 캐릭터를 강화해 8초 동안 캐릭터의 화염 원소 대미지가 8.0% 증가하고,
+          인형의 SP를 15pt 회복한다. 재사용 대기시간: 15초"
+        requiredRank: 2
+      - name: Still Water
+        krName: 지수
+        type: passive
+        description: CD of Free Will decreases to 11s.
+        krDescription: 사의의 재사용 대기시간이 11초로 감소한다.
+        requiredRank: 2
+      - name: Hong Meng
+        krName: 홍몽
+        type: passive
+        description: Within the next 6s after triggering Free Will, the Valkyrie's next
+          Charged/Combo ATK additionally deals 120.0% ATK of AOE Fire DMG.
+        krDescription: 인형이 사의를 발동한 후 발키리가 6초 이내에 다음 차지 혹은 분기 공격을 발동하면 추가로 120.0%의 범위 화염
+          대미지를 입힌다.
+        requiredRank: 3
+- id: se
+  version: "3.2"
+  name: Selune's Elegy
+  krName: 새벽달의 진혼가
+  baseRank: 2
+  features:
+    - ice-dmg
+    - freeze
+  skillRows:
+    - - name: Shadow Strike
+        krName: 그림자 습격
+        type: basic
+        description: >-
+          Swings her scythe to unleash multiple ATKs, dealing a total of 560%
+          of Ice DMG; restores 8 SP upon hit.
+
+          ATK Interval: 3.3s
+        krDescription: |-
+          낫으로 적을 여러 번 공격해 목표에게 총 공격력 560%의 빙결 원소 대미지를 입히고, 명중시 SP를 8pt 회복한다.
+          공격 빈도: 3.3초
+        requiredRank: 2
+      - name: Fighting Will
+        krName: 파세
+        type: passive
+        description: Each of ELF's Basic ATK hits boosts ELF's Total DMG by 6.0% for 5s;
+          stacks up to 3 times.
+        krDescription: "인형의 기본 공격이 적에게 명중할 때마다 모든 대미지가 6.0%증가한다. 지속 시간: 5초, 3회 중첩 가능."
+        requiredRank: 3
+      - name: Imprisonment
+        krName: 투옥
+        type: passive
+        description: "ELF's Basic ATK has a 10% chance to additionally deal 150.0% ATK
+          of Ice DMG; CD: 20s."
+        krDescription: "인형의 기본 공격은 10% 확률로 공격력 150.0%의 빙결 원소 대미지를 추가로 입힌다. 재사용 대기시간: 20초"
+        requiredRank: 4
+    - - name: Selune's Requiem
+        krName: 새벽달의 레퀴엠
+        type: ultimate
+        description: >-
+          Throws her scythe to deal 400% x 5 ATK of AOE Ice DMG and summons
+          Death's Aura that immobilizes enemies within and makes them take 5%
+          more Ice DMG; Selune's Elegy attacks random targets in the Aura AOE 7
+          times (each target takes no more than 4 times of attack), with each
+          attack dealing 800.0% ATK of Ice DMG against the target and nearby
+          enemies; then deals 1500% ATK of Ice DMG against enemies within the
+          Aura AOE, knocks them airborne, and freezes them for 3s.
+
+          CD: 30s
+
+          SP: 75
+        krDescription: >-
+          낫을 던져 목표와 주변의 적에게 공격력 400% x 5의 빙결 원소 대미지를 입히고, 사신 결계를 만들어 결계 내의
+          적을 속박하며 받는 빙결 원소 대미지를 5% 증가시킨다. 새벽달의 진혼가는 결계 내의 무작위 적에게 7번 공격(같은 목표 최대
+          4회 공격)하며, 매번 목표와 가까이 있는 적에게 공격력 800.0%의 빙결 원소 대미지를 입힌다. 마지막엔 결계를 폭발시켜
+          공격력 1500%의 빙결 원소 대미지를 가하고, 공중에 띄운 후 적을 3초간 빙결시킨다.
+
+          스킬 CD: 30초
+
+          SP 소모: 75
+        requiredRank: 2
+      - name: Icebound Rift
+        krName: 얼음 봉인 단열
+        type: passive
+        description: After an enemy has been knocked airborne, the duration of the
+          freezing effect extends to 6.0s and additionally deals 250.0% Ice DMG.
+        krDescription: 결계가 적을 띄우면 빙결 시간이 6.0초 연장된다, 추가로 250.0%의 빙결 원소 대미지를 입힌다.
+        requiredRank: 3
+      - name: Ultimate Blitz
+        krName: 극한 시간
+        type: passive
+        description: After unleashing ELF's Ultimate, ELF gains 25.0% Total DMG for 15s
+          (effect duration resets when triggered again).
+        krDescription: "인형 필살기 발동 후 모든 대미지가 25.0% 증가한다, 지속 시간: 15초, 중복 발동 시 지속 시간 초기화."
+        requiredRank: 4
+    - - name: Dark Form
+        krName: 어둠의 몸
+        type: passive
+        description: ELF's Ice DMG increases by 40.0%. Enemies will still take 5% more
+          Ice DMG for 10s after escaping from Death's Aura.
+        krDescription: 인형의 빙결 원소 대미지가 40.0% 증가한다. 적이 사신 결계에서 빠져나와도 받는 빙결 원소 대미지 5% 증가
+          효과는 10초 동안 지속된다.
+        requiredRank: 2
+      - name: Convergence
+        krName: 무간첩영
+        type: passive
+        description: ELF gains 1% Ice DMG for Each hit against the same target; effect
+          maxes at 15.0% and resets when the target is changed.
+        krDescription: 인형이 같은 목표를 공격하면 공격할 때마다 빙결 원소 대미지가 1% 증가한다, 최대 15.0% 증가, 목표를 변경하면
+          효과는 리셋된다.
+        requiredRank: 2
+      - name: Field Captivity
+        krName: 속박의 결계
+        type: passive
+        description: "[Team-triggered] With any Valkyrie(s) capable of dealing Ice DMG
+          on the team, the Ice Vulnerability effect of Death's Aura is enhanced
+          to 10.0%."
+        krDescription: "[파티 효과] 파티에 빙결 원소 대미지 특성을 보유한 발키리가 있을 때 결계 봉쇄의 빙결 원소 대미지 증가 효과가
+          10.0%까지 상승한다."
+        requiredRank: 4
+      - name: Frozen
+        krName: 서리
+        type: passive
+        description: ELF's Ice DMG increases by 12.0%.
+        krDescription: 인형이 가하는 빙결 원소 대미지가 12.0% 증가한다.
+        requiredRank: 4
+    - - name: Energy Charge
+        krName: 충전
+        type: passive
+        description: ELF's SP recovery rate increases by 12.0%.
+        krDescription: 인형의 SP 회복 속도가 12.0% 증가한다.
+        requiredRank: 2
+      - name: Phantom Flash
+        krName: 순영
+        type: passive
+        description: ELF's Ultimate CD shortens by 30.0%.
+        krDescription: 인형의 필살기 재사용 대기시간이 30.0% 감소한다.
+        requiredRank: 2
+      - name: Revelation
+        krName: 하늘의 계시
+        type: passive
+        description: ELF's initial SP increases by 40.0.
+        krDescription: 인형의 초기 SP가 40.0 증가한다.
+        requiredRank: 2
+      - name: Extinction
+        krName: 적멸
+        type: passive
+        description: ELF's Total DMG increases by 10.0%.
+        krDescription: 인형이 가하는 모든 대미지가 10.0% 증가한다.
+        requiredRank: 3
+- id: be
+  version: "3.0"
+  name: Blood Embrace
+  krName: 모조 유다
+  baseRank: 1
+  features:
+    - physical
+  skillRows:
+    - - name: Ax of Destruction
+        krName: 파멸참격
+        type: basic
+        description: >-
+          Unleashes a mighty forward swing with a giant ax, dealing 490% ATK
+          of Physical DMG, and restores 8 SP upon hit.
+
+          ATK Interval: 3.3s
+        krDescription: |-
+          도끼를 휘둘러 전방의 적에게 공격력 490%의 물리 대미지를 입히고, 명중 시 SP를 8pt 회복한다.
+          공격 빈도: 3.3초
+        requiredRank: 1
+      - name: Glary Imprint
+        krName: 광휘의 낙인
+        type: passive
+        description: "ELF's Basic ATK has a 50% chance of dealing 300.0% more DMG; CD: 5s."
+        krDescription: "인형이 기본 공격을 할 때 50% 확률로 300.0% 대미지를 추가로 입힌다. 재사용 대기시간: 5초."
+        requiredRank: 3
+    - - name: Bloody Sentence
+        krName: 선혈의 심판
+        type: ultimate
+        description: >-
+          Charge at the target while swinging a giant ax, dealing 360% x 3
+          ATK of Physical DMG to nearby enemies, then toss ax into the sky. When
+          the ax slams on the ground, deal 2900% ATK of AOE Physical DMG near
+          the target. Bloody Sentence deals 100% more shield DMG and 3,000 more
+          DMG against shields.
+
+          CD: 30s
+
+          SP: 75
+        krDescription: >-
+          목표에게 달려들어 도끼를 휘두르고 주위의 적에게 공격력 360%*3의 물리 대미지를 주고 도끼를 하늘로 날려버린다.
+          도끼가 목표를 내리찍으면 주위의 공격력 2900%의 물리 대미지를 입힌다. 피의 단두대는 실드에 대한 대미지가 100%
+          증가하고, 실드에 3,000의 추가 대미지를 입힌다.
+
+          스킬 CD: 30초
+
+          SP 소모: 75
+        requiredRank: 1
+      - name: Final Judgment
+        krName: 종말의 심판
+        type: passive
+        description: ELF's Ultimate deals 30.0% more Total DMG.
+        krDescription: 인형의 필살기가 가하는 모든 대미지가 추가로 30.0% 증가한다.
+        requiredRank: 3
+      - name: Raging Wrath
+        krName: 광포한 분노
+        type: passive
+        description: After unleashing ELF's Ultimate, ELF's Basic ATK deals 30.0% more
+          Total DMG for 15s.
+        krDescription: "인형이 필살기를 사용하면 기본 공격의 모든 대미지가 30.0% 증가한다. 지속 시간: 15초"
+        requiredRank: 4
+    - - name: Siphon Life
+        krName: 피의 굶주림
+        type: passive
+        description: ELF's Physical DMG increases by 50% deals 200% more damage against
+          shields or enemies that only take fixed amounts of damage.
+        krDescription: 인형의 물리 대미지가 50% 증가하고, 고정 대미지만 받는 실드나 적에게 가하는 대미지가 200% 증가한다.
+        requiredRank: 1
+      - name: Godsbane Grip
+        krName: 멸신의 움켜쥠
+        type: passive
+        description: ELF deals 20.0% more Total DMG for 15s after ELF breaks an enemy
+          shield.
+        krDescription: "인형의 공격이 적의 실드를 파괴하면 모든 대미지가 20.0% 증가한다. 지속 시간: 15초"
+        requiredRank: 4
+    - - name: Holy Light
+        krName: 성광
+        type: passive
+        description: ELF's initial SP increases by 40.0.
+        krDescription: 인형의 초기 SP가 40.0 상승한다.
+        requiredRank: 1
+      - name: Greed
+        krName: 탐욕
+        type: passive
+        description: ELF deals 12.0% more Physical DMG.
+        krDescription: 인형이 가하는 물리 대미지가 12.0% 상승한다.
+        requiredRank: 1
+      - name: Armor Breaker
+        krName: 파갑
+        type: passive
+        description: ELF deals 30.0% more DMG against shields.
+        krDescription: 인형이 실드에 가하는 대미지가 30.0% 상승한다.
+        requiredRank: 2
+      - name: Pride
+        krName: 오만
+        type: passive
+        description: ELF deals 10.0% more Total DMG.
+        krDescription: 인형이 가하는 모든 대미지가 10.0% 상승.
+        requiredRank: 3
+- id: jw
+  version: "3.0"
+  name: Jingwei's Wings
+  krName: 정위의 날개
+  baseRank: 1
+  features:
+    - fire-dmg
+  skillRows:
+    - - name: Pinion
+        krName: 비우의 불꽃
+        type: basic
+        description: >-
+          Uses the Blazing Pinion to deal 400% ATK of Fire DMG against the
+          target spot, and restores 5 SP upon hit.
+
+          ATK Interval: 3.3s
+        krDescription: |-
+          비우의 불꽃을 조종해 목표 위치에 공격력 400%의 화염 대미지를 입히고, 명중 시 SP를 5pt 회복한다.
+          공격 빈도: 3.3초
+        requiredRank: 1
+      - name: Light Pursuer
+        krName: 축일천광
+        type: passive
+        description: ELF's Basic ATK deals 25.0% more Total DMG.
+        krDescription: 인형 기본 공격의 모든 대미지가 25.0% 증가한다.
+        requiredRank: 1
+    - - name: Legacy of Starfire
+        krName: 성화전승
+        type: ultimate
+        description: >-
+          Perform Jingwei's Dance to heal Valkyries on the field for 100 HP
+          per 0.25s for a total of 5 times. Once the Dance ends, the ELF
+          releases her ,requiredRank:2},fiery energy to deal 1400% ATK of Fire
+          DMG to enemies near the Valkyrie.
+
+          CD: 40s
+
+          SP: 50
+        krDescription: |-
+          공중에서 정위의 춤을 춰, 0.25초마다 전장의 발키리 HP를 100만큼 총 5회 회복시킨다
+          춤사위가 끝나면 한곳으로 모이는 화염 에너지를 폭발시켜 발키리 주위의 적에게 공격력 1400%의 화염 대미지를 가한다.
+          스킬 CD: 40초 SP 소모: 50
+        requiredRank: 1
+    - - name: Fire Fairy
+        krName: 화염의 정령
+        type: passive
+        description: ELF's Fire DMG increases by 20% and heals 30% more HP for the
+          Valkyries.
+        krDescription: 인형의 화염 원소 대미지가 20% 증가하고, 발키리에 대한 치료 효과가 30% 증가한다.
+        requiredRank: 1
+    - - name: Recuperation
+        krName: 입적
+        type: passive
+        description: When ELF casts Ultimate, heals the Valkyrie for 270 HP.
+        krDescription: 인형의 필살기를 발동 후 스테이지에 있는 발키리의 HP를 추가로 270 회복한다.
+        requiredRank: 2
+      - name: Resuscitation
+        krName: 소생
+        type: passive
+        description: ELF healing effects improve by 24.0%.
+        krDescription: 인형이 주는 회복 효과가 24.0% 증가한다.
+        requiredRank: 2
+      - name: Fire Signet
+        krName: 화문
+        type: passive
+        description: "ELF Basic ATK additionally restores 5 SP; CD: 6s."
+        krDescription: 인형이 기본 공격 시 SP를 5.0pt 만큼 추가로 회복한다. 재사용 대기시간 6초
+        requiredRank: 2
+      - name: Contemplation
+        krName: 염심응신
+        type: passive
+        description: ELF's SP recovery rate increases by 12.0%.
+        krDescription: 인형의 SP 회복 속도가 12.0% 증가한다.
+        requiredRank: 3
