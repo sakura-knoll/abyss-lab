@@ -12,7 +12,7 @@ import {
 } from '../../../lib/honkai3rd/elysianRealm'
 import { getBattlesuitById } from './battlesuits'
 
-const signetGroupMap = signetGroups.reduce<{
+export const signetGroupMap = signetGroups.reduce<{
   [key: string]: PopulatedSignetGroup
 }>((map, group) => {
   let populatedGroup = map[group.id]
@@ -59,7 +59,7 @@ const signetGroupMap = signetGroups.reduce<{
   return map
 }, {})
 
-const krSignetGroupMap = signetGroups.reduce<{
+export const krSignetGroupMap = signetGroups.reduce<{
   [key: string]: PopulatedSignetGroup
 }>((map, group) => {
   let populatedGroup = map[group.id]
