@@ -22,7 +22,7 @@ import {
 
 type BattlesuitListItemData = Pick<
   BattlesuitData,
-  'id' | 'name' | 'krName' | 'features' | 'type' | 'valkyrie'
+  'id' | 'name' | 'features' | 'type' | 'valkyrie'
 >
 
 interface BattlesuitListPageProps {
@@ -182,7 +182,7 @@ export async function getStaticProps({ locale }: NextPageContext) {
   })
   return {
     props: {
-      battlesuitMap: getBattlesuitMapByIds(erBattlesuitIds),
+      battlesuitMap: getBattlesuitMapByIds(erBattlesuitIds, locale),
       supportBattlesuits,
       remembranceSigils,
       ...(await getI18NProps(locale)),

@@ -1,14 +1,12 @@
 /** @jsxImportSource theme-ui */
 import { Box, Card, Text, Flex } from '@theme-ui/components'
-import { useRouter } from 'next/router'
 import { assetsBucketBaseUrl } from '../../lib/consts'
 import { BattlesuitData } from '../../lib/honkai3rd/battlesuits'
-import { translate } from '../../lib/i18n'
 import PageLink from '../atoms/PageLink'
 import SquareImageBox from '../atoms/SquareImageBox'
 
 interface BattlesuitCardProps {
-  battlesuit: Pick<BattlesuitData, 'id' | 'name' | 'krName'>
+  battlesuit: Pick<BattlesuitData, 'id' | 'name'>
   hidden?: boolean
   size?: 'sm' | 'default'
   href?: string
@@ -22,14 +20,6 @@ const BattlesuitCard = ({
   href,
   m,
 }: BattlesuitCardProps) => {
-  const { locale } = useRouter()
-
-  const battlesuitName = translate(
-    locale,
-    { 'ko-KR': battlesuit.krName },
-    battlesuit.name
-  )
-
   if (href == null) {
     href = `/honkai3rd/battlesuits/${battlesuit.id}`
   }
@@ -50,7 +40,7 @@ const BattlesuitCard = ({
           <Flex sx={{ alignItems: 'center' }}>
             <SquareImageBox
               mr={2}
-              alt={battlesuitName}
+              alt={battlesuit.name}
               src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/portrait-${battlesuit.id}.png`}
               size={30}
             />
@@ -62,7 +52,7 @@ const BattlesuitCard = ({
                 whiteSpace: 'nowrap',
               }}
             >
-              {battlesuitName}
+              {battlesuit.name}
             </Text>
           </Flex>
         </PageLink>
@@ -84,7 +74,7 @@ const BattlesuitCard = ({
     >
       <PageLink href={href}>
         <SquareImageBox
-          alt={battlesuitName}
+          alt={battlesuit.name}
           src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/portrait-${battlesuit.id}.png`}
           size={100}
         />
@@ -97,7 +87,7 @@ const BattlesuitCard = ({
             textAlign: 'center',
           }}
         >
-          <Text>{battlesuitName}</Text>
+          <Text>{battlesuit.name}</Text>
         </Box>
       </PageLink>
     </Card>

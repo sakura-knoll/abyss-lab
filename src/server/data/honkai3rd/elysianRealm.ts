@@ -81,7 +81,7 @@ export const krSignetGroupMap = signetGroups.reduce<{
 
     const name =
       group.id === 'elysia'
-        ? `${getBattlesuitById(setType)!.krName} 전용 각인`
+        ? `${getBattlesuitById(setType, 'ko-KR')!.name} 전용 각인`
         : `${setType === 'nexus' ? '증폭 각인' : '일반 각인'}${
             setIndex != null ? ` ${setIndex}` : ''
           }`
@@ -115,7 +115,7 @@ export function getSignetGroupById(id: string, locale = 'en-US') {
 
 export function getSupportBattlesuits(locale?: string) {
   return supportBattlesuitIds.map<SupportBattlesuit>((battlesuitId) => {
-    const battlesuit = getBattlesuitById(battlesuitId)!
+    const battlesuit = getBattlesuitById(battlesuitId, locale)!
     const {
       skillName,
       description,
@@ -138,7 +138,6 @@ export function getSupportBattlesuits(locale?: string) {
         .slice(2)
         .split('\n\n')
 
-      localizedName = battlesuit.krName!
       localizedSkillName = krSkillName
       localizedDescription = krDescriptionLines.join('\n').trim()
     }

@@ -1,8 +1,6 @@
 export interface BattlesuitSkill {
   name: string
-  krName?: string
   description: string
-  krDescription?: string
   requiredRank?: string
 }
 
@@ -23,7 +21,6 @@ export interface BattlesuitData {
   id: string
   version?: string
   name: string
-  krName?: string
   type: string
   valkyrie: string
   features: string[]

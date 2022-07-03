@@ -57,11 +57,7 @@ const VersionShowPage = ({
           'versions.version'
         )} ${versionName} / ${t('versions.new-battlesuits')}: ${battlesuits
           .map((battlesuit) => {
-            return translate(
-              locale,
-              { 'ko-KR': battlesuit.krName },
-              battlesuit.name
-            )
+            return battlesuit.name
           })
           .join(',')} / ${t('versions.new-weapons')}: ${weapons
           .map((weapon) => {
@@ -113,12 +109,6 @@ const VersionShowPage = ({
             </Heading>
             <Box mb={3} sx={{ display: 'inline-block' }}>
               {battlesuits.map((battlesuit) => {
-                const battlesuitName = translate(
-                  locale,
-                  { 'ko-KR': battlesuit.krName },
-                  battlesuit.name
-                )
-
                 return (
                   <NextLink
                     key={battlesuit.id}
@@ -130,10 +120,10 @@ const VersionShowPage = ({
                         <SquareImageBox
                           size={40}
                           src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/portrait-${battlesuit.id}.png`}
-                          alt={`${battlesuitName}`}
+                          alt={`${battlesuit.name}`}
                           mr={2}
                         />
-                        <Text>{battlesuitName}</Text>
+                        <Text>{battlesuit.name}</Text>
                       </Flex>
                     </Link>
                   </NextLink>
@@ -232,7 +222,7 @@ export async function getStaticProps({
   const versionData = getVersion(params.versionId)!
 
   const battlesuits = versionData.newBattlesuits.map((battlesuitId) => {
-    return getBattlesuitById(battlesuitId)
+    return getBattlesuitById(battlesuitId, locale)
   })
   const weapons = versionData.newWeapons.map((weaponId) => {
     return getWeaponById(weaponId)

@@ -22,6 +22,7 @@ const order = [
   'basic',
   'sp',
   'core',
+  'subskills',
   'description',
   'krDescription',
   'requiredRank',

@@ -103,12 +103,6 @@ const VersionIndexPage = ({
             </Heading>
             <Box mb={3} sx={{ display: 'inline-block' }}>
               {currentVersionNewBattlesuits.map((battlesuit) => {
-                const battlesuitName = translate(
-                  locale,
-                  { 'ko-KR': battlesuit.krName },
-                  battlesuit.name
-                )
-
                 return (
                   <NextLink
                     key={battlesuit.id}
@@ -120,10 +114,10 @@ const VersionIndexPage = ({
                         <SquareImageBox
                           size={40}
                           src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/portrait-${battlesuit.id}.png`}
-                          alt={`${battlesuitName}`}
+                          alt={`${battlesuit.name}`}
                           mr={2}
                         />
-                        <Text>{battlesuitName}</Text>
+                        <Text>{battlesuit.name}</Text>
                       </Flex>
                     </Link>
                   </NextLink>

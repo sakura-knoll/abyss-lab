@@ -5,8 +5,7 @@ import Breadcrumb from '../../../../components/organisms/Breadcrumb'
 import { BattlesuitData } from '../../../../lib/honkai3rd/battlesuits'
 import { generateI18NPaths, getI18NProps } from '../../../../server/i18n'
 import { getBattlesuitById } from '../../../../server/data/honkai3rd/battlesuits'
-import { translate, useTranslation } from '../../../../lib/i18n'
-import { useRouter } from 'next/router'
+import { useTranslation } from '../../../../lib/i18n'
 import Head from '../../../../components/atoms/Head'
 import { assetsBucketBaseUrl } from '../../../../lib/consts'
 import Honkai3rdLayout from '../../../../components/layouts/Honkai3rdLayout'
@@ -38,18 +37,10 @@ const BattlesuitShowPage = ({
   signetSet,
 }: BattlesuitShowPageProps) => {
   const { t } = useTranslation()
-  const { locale } = useRouter()
-
-  const battlesuitName = translate(
-    locale,
-    { ['ko-KR']: battlesuit.krName },
-    battlesuit.name
-  )
-
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${battlesuitName} (${t('common.elysian-realm')}) - ${t(
+        title={`${battlesuit.name} (${t('common.elysian-realm')}) - ${t(
           'common.honkai-3rd'
         )} - ${t('common.abyss-lab')}`}
         description={`${t('common.honkai-3rd')} ${t(
@@ -67,12 +58,12 @@ const BattlesuitShowPage = ({
             },
             {
               href: `/honkai3rd/elysian-realm/battlesuits/${battlesuit.id}`,
-              label: battlesuitName,
+              label: battlesuit.name,
             },
           ]}
         />
 
-        <Heading as='h1'>{battlesuitName}</Heading>
+        <Heading as='h1'>{battlesuit.name}</Heading>
 
         <Box mb={3}>
           <Box
@@ -84,7 +75,7 @@ const BattlesuitShowPage = ({
             }}
           >
             <Image
-              alt={battlesuitName}
+              alt={battlesuit.name}
               src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/${battlesuit.id}.png`}
               width={400}
               height={400}
@@ -111,7 +102,7 @@ export async function getStaticProps({
   locale,
 }: NextPageContext & { params: { battlesuitId: string } }) {
   try {
-    const battlesuit = getBattlesuitById(params.battlesuitId)!
+    const battlesuit = getBattlesuitById(params.battlesuitId, locale)!
     const { weaponIds, stigmataIds } = (battlesuit.equipment || []).reduce<{
       weaponIds: string[]
       stigmataIds: string[]

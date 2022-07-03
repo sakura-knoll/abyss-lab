@@ -1,6 +1,5 @@
 /** @jsxImportSource theme-ui */
 import { Box, Heading, Flex, Button } from '@theme-ui/components'
-import { pick } from 'ramda'
 import { useCallback, useMemo, useState } from 'react'
 import FilterButton from '../../../components/atoms/FilterButton'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
@@ -21,7 +20,7 @@ import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 
 type BattlesuitListItemData = Pick<
   BattlesuitData,
-  'id' | 'name' | 'krName' | 'features' | 'type' | 'valkyrie'
+  'id' | 'name' | 'features' | 'type' | 'valkyrie'
 >
 
 interface BattlesuitListPageProps {
@@ -171,12 +170,15 @@ export default BattlesuitListPage
 export async function getStaticProps({ locale }: NextPageContext) {
   return {
     props: {
-      battlesuits: listBattlesuits().map((battlesuit) =>
-        pick(
-          ['id', 'name', 'krName', 'features', 'type', 'valkyrie'],
-          battlesuit
-        )
-      ),
+      battlesuits: listBattlesuits().map((battlesuit) => {
+        return {
+          id: battlesuit.id,
+          name: battlesuit.name,
+          features: battlesuit.features,
+          type: battlesuit.type,
+          valikyrie: battlesuit.valkyrie,
+        }
+      }),
       ...(await getI18NProps(locale)),
     },
   }

@@ -1,152 +1,67 @@
-import { readdirSync, readFileSync, readJsonFileSync } from '../fs'
-import { compareVersion } from '../../../lib/string'
-import {
-  BattlesuitData,
-  BattlesuitSkillGroup,
-} from '../../../lib/honkai3rd/battlesuits'
+import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
+import fs from 'fs'
+import path from 'path'
+import yaml from 'yaml'
+import { omit } from 'ramda'
 
-const battlesuitsFileNameList = readdirSync('honkai3rd/battlesuits')
-const battlesuitDataList = battlesuitsFileNameList
-  .map((fileName) => {
-    const filePathname = 'honkai3rd/battlesuits/' + fileName
-    const data = readJsonFileSync(filePathname) as BattlesuitData
+let parsedData: any = null
 
-    const krDataFilePath = `honkai3rd/ko-KR/battlesuits/${data.id}.md`
-    try {
-      const krData = parseSkillData(readFileSync(krDataFilePath).toString())
+export function listBattlesuits(locale?: string): BattlesuitData[] {
+  if (parsedData == null) {
+    parsedData = yaml.parse(
+      fs
+        .readFileSync(
+          path.join(process.cwd(), 'data/honkai3rd/battlesuits.yaml')
+        )
+        .toString('utf-8')
+    )
+  }
+  const battlesuits = parsedData
 
-      data.krName = krData.name
-      assignKrDataToSkill(data.leader, krData.leader)
-      assignKrDataToSkill(data.passive, krData.passive)
-      assignKrDataToSkill(data.evasion, krData.evasion)
-      assignKrDataToSkill(data.special, krData.special)
-      assignKrDataToSkill(data.ultimate, krData.ultimate)
-      assignKrDataToSkill(data.basic, krData.basic)
-      if (data.sp != null && krData.sp != null) {
-        assignKrDataToSkill(data.sp, krData.sp)
-      }
-    } catch (error) {
-      console.warn('Failed to read', krDataFilePath)
-      console.warn(error)
-    }
-    return data
+  const localized = (battlesuits as any[]).map((battlesuit) => {
+    return {
+      ...omit(['krName', 'krDescription'], battlesuit),
+      name: locale === 'ko-KR' ? battlesuit.krName : battlesuit.name,
+      leader: localizeSkillGroup(battlesuit.leader),
+      passive: localizeSkillGroup(battlesuit.passive),
+      evasion: localizeSkillGroup(battlesuit.evasion),
+      special: localizeSkillGroup(battlesuit.special),
+      ultimate: localizeSkillGroup(battlesuit.ultimate),
+      basic: localizeSkillGroup(battlesuit.basic),
+      sp: battlesuit.sp != null ? localizeSkillGroup(battlesuit.sp) : null,
+    } as any
   })
-  .sort((a, b) => {
-    let compareResult = compareVersion(b.version || '0.0', a.version || '0.0')
-    if (compareResult !== 0) {
-      return compareResult
+
+  return localized
+
+  function localizeSkillGroup(skillGroup: any) {
+    return {
+      core: localizeSkill(skillGroup.core),
+      subskills: skillGroup.subskills.map((subskill: any) =>
+        localizeSkill(subskill)
+      ),
     }
-    compareResult = a.name
-      .replace(/ \(.\)/, '')
-      .localeCompare(b.name.replace(/ \(.\)/, ''))
+  }
 
-    return compareResult
-  })
-const battlesuitMap = battlesuitDataList.reduce((map, stigmata) => {
-  map.set(stigmata.id, stigmata)
-  return map
-}, new Map<string, BattlesuitData>())
-
-export function listBattlesuits() {
-  return battlesuitDataList
+  function localizeSkill(skill: any) {
+    return {
+      ...omit(['krName', 'krDescription'], skill),
+      name: locale === 'ko-KR' ? skill.krName : skill.name,
+      description: locale === 'ko-KR' ? skill.krDescription : skill.description,
+    }
+  }
 }
 
-export function getBattlesuitById(id: string) {
-  return battlesuitMap.get(id)
+export function getBattlesuitById(id: string, locale?: string) {
+  return listBattlesuits(locale).find((battlesuit) => battlesuit.id === id)
 }
 
-export function getBattlesuitMapByIds(idList: string[]) {
+export function getBattlesuitMapByIds(idList: string[], locale?: string) {
   return idList.reduce<{ [key: string]: BattlesuitData }>((map, id) => {
-    const battlesuit = getBattlesuitById(id)
+    const battlesuit = getBattlesuitById(id, locale)
     if (battlesuit != null) {
       map[id] = battlesuit
     }
     return map
   }, {})
-}
-
-function parseSkillData(rawData: string) {
-  const [
-    nameSection,
-    leaderSection,
-    passiveSection,
-    evasionSection,
-    specialSection,
-    ultimateSection,
-    basicSection,
-    spSection,
-  ] = rawData.split('\n## ')
-
-  const name = nameSection.replace('#', '').trim()
-
-  return {
-    name,
-    leader: parseSkillSection(leaderSection),
-    passive: parseSkillSection(passiveSection),
-    evasion: parseSkillSection(evasionSection),
-    special: parseSkillSection(specialSection),
-    ultimate: parseSkillSection(ultimateSection),
-    basic: parseSkillSection(basicSection),
-    sp: spSection != null ? parseSkillSection(spSection) : undefined,
-  }
-}
-
-function parseSkillSection(rawData: string) {
-  const [coreSection, ...subskillSections] = rawData.split('\n### ')
-
-  const [coreName, ...descriptionLines] = coreSection.trim().split('\n')
-
-  return {
-    core: {
-      name: coreName,
-      description: descriptionLines.join('\n').trim(),
-    },
-    subskills: subskillSections.map((subskillSection) => {
-      const [subskillName, ...subskillDescriptionLines] = subskillSection
-        .trim()
-        .split('\n')
-
-      return {
-        name: subskillName,
-        description: subskillDescriptionLines.join('\n').trim(),
-      }
-    }),
-  }
-}
-
-function assignKrDataToSkill(
-  skillGroup: BattlesuitSkillGroup,
-  krDataSkillGroup: BattlesuitSkillGroup
-) {
-  if (krDataSkillGroup == null || krDataSkillGroup.core == null) {
-    throw new Error(`No translation for ${skillGroup.core.name}`)
-  }
-  try {
-    skillGroup.core.krName = krDataSkillGroup.core.name
-    skillGroup.core.krDescription = krDataSkillGroup.core.description.replace(
-      /\\\*/g,
-      '*'
-    )
-  } catch (error) {
-    throw new Error(
-      `Failed to assign ${skillGroup.core.name}(${(error as Error).message})`
-    )
-  }
-  skillGroup.subskills.forEach((subskill, index) => {
-    try {
-      subskill.krName = krDataSkillGroup.subskills[index].name
-      subskill.krDescription = krDataSkillGroup.subskills[
-        index
-      ].description.replace(/\\\*/g, '*')
-    } catch (error) {
-      if (krDataSkillGroup.subskills[index] == null) {
-        throw new Error(
-          `No translation for ${skillGroup.core.name} / ${subskill.name}`
-        )
-      }
-      throw new Error(
-        `Failed to assign ${skillGroup.core.name}(${(error as Error).message})`
-      )
-    }
-  })
 }

@@ -147,7 +147,8 @@ export async function getStaticProps({
   const battlesuitMap = getBattlesuitMapByIds(
     weapon != null && weapon.battlesuits != null
       ? weapon.battlesuits.map(({ id }) => id)
-      : []
+      : [],
+    locale
   )
 
   const weaponIds = []

@@ -59,12 +59,6 @@ const BattlesuitShowPage = ({
   const { t } = useTranslation()
   const { locale } = useRouter()
 
-  const battlesuitName = translate(
-    locale,
-    { ['ko-KR']: battlesuit.krName },
-    battlesuit.name
-  )
-
   const { label: valkyrieLabel, krLabel } = valkyries.find(
     (aValkyrie) => aValkyrie.value === battlesuit.valkyrie
   ) || { label: battlesuit.valkyrie, krLabel: battlesuit.valkyrie }
@@ -85,7 +79,7 @@ const BattlesuitShowPage = ({
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${battlesuitName} - ${t('common.honkai-3rd')} - ${t(
+        title={`${battlesuit.name} - ${t('common.honkai-3rd')} - ${t(
           'common.abyss-lab'
         )}`}
         description={`${t('common.honkai-3rd')} ${t(
@@ -116,12 +110,12 @@ const BattlesuitShowPage = ({
             },
             {
               href: `/honkai3rd/battlesuits/${battlesuit.id}`,
-              label: battlesuitName,
+              label: battlesuit.name,
             },
           ]}
         />
 
-        <Heading as='h1'>{battlesuitName}</Heading>
+        <Heading as='h1'>{battlesuit.name}</Heading>
 
         <Box mb={3}>
           <Box
@@ -133,7 +127,7 @@ const BattlesuitShowPage = ({
             }}
           >
             <Image
-              alt={battlesuitName}
+              alt={battlesuit.name}
               src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/${battlesuit.id}.png`}
               width={400}
               height={400}
@@ -239,44 +233,37 @@ const BattlesuitShowPage = ({
         <BattlesuitSkillGroupCard
           heading={t('battlesuit-show.leader')}
           skillGroup={battlesuit.leader}
-          locale={locale}
         />
 
         <BattlesuitSkillGroupCard
           heading={t('battlesuit-show.passive')}
           skillGroup={battlesuit.passive}
-          locale={locale}
         />
 
         <BattlesuitSkillGroupCard
           heading={t('battlesuit-show.evasion')}
           skillGroup={battlesuit.evasion}
-          locale={locale}
         />
 
         <BattlesuitSkillGroupCard
           heading={t('battlesuit-show.special-attack')}
           skillGroup={battlesuit.special}
-          locale={locale}
         />
 
         <BattlesuitSkillGroupCard
           heading={t('battlesuit-show.ultimate')}
           skillGroup={battlesuit.ultimate}
-          locale={locale}
         />
 
         <BattlesuitSkillGroupCard
           heading={t('battlesuit-show.basic-attack')}
           skillGroup={battlesuit.basic}
-          locale={locale}
         />
 
         {battlesuit.sp != null && (
           <BattlesuitSkillGroupCard
             heading={t('battlesuit-show.sp-skill')}
             skillGroup={battlesuit.sp}
-            locale={locale}
           />
         )}
       </Box>
@@ -290,7 +277,7 @@ export async function getStaticProps({
   params,
   locale,
 }: NextPageContext & { params: { battlesuitId: string } }) {
-  const battlesuit = getBattlesuitById(params.battlesuitId)!
+  const battlesuit = getBattlesuitById(params.battlesuitId, locale)!
   const { weaponIds, stigmataIds } = (battlesuit.equipment || []).reduce<{
     weaponIds: string[]
     stigmataIds: string[]
@@ -336,13 +323,11 @@ export async function getStaticPaths() {
 interface BattlesuitSkillGroupCardProps {
   heading: string
   skillGroup: BattlesuitSkillGroup
-  locale?: string
 }
 
 const BattlesuitSkillGroupCard = ({
   heading,
   skillGroup,
-  locale,
 }: BattlesuitSkillGroupCardProps) => {
   return (
     <Card mb={3}>
@@ -353,39 +338,21 @@ const BattlesuitSkillGroupCard = ({
         }}
       >
         <Heading as='h2' mb={1}>
-          {translate(
-            locale,
-            { 'ko-KR': skillGroup.core.krName },
-            skillGroup.core.name
-          )}
+          {skillGroup.core.name}
         </Heading>
         <SecondaryLabel>{heading}</SecondaryLabel>
       </Box>
 
       <Paragraph p={2} sx={{ whiteSpace: 'pre-wrap', borderBottom: 'default' }}>
-        {translate(
-          locale,
-          { 'ko-KR': skillGroup.core.krDescription },
-          skillGroup.core.description
-        )}
+        {skillGroup.core.description}
       </Paragraph>
 
       {skillGroup.subskills.map((subskill) => {
-        const skillName = translate(
-          locale,
-          { 'ko-KR': subskill.krName },
-          subskill.name
-        )
-        const skillDescription = translate(
-          locale,
-          { 'ko-KR': subskill.krDescription },
-          subskill.description
-        )
         return (
           <React.Fragment key={subskill.name}>
             <Heading as='h3' p={2} m={0} sx={{ borderBottom: 'default' }}>
               <Flex sx={{ alignItems: 'center' }}>
-                <Text>{skillName}</Text>
+                <Text>{subskill.name}</Text>
                 {subskill.requiredRank != null ? (
                   /^[0-9]/.test(subskill.requiredRank) ? (
                     <Box
@@ -415,7 +382,7 @@ const BattlesuitSkillGroupCard = ({
                 '&:last-child': { borderBottom: 'none' },
               }}
             >
-              {skillDescription}
+              {subskill.description}
             </Paragraph>
           </React.Fragment>
         )
