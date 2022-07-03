@@ -130,11 +130,6 @@ const VersionIndexPage = ({
             </Heading>
             <Box mb={3} sx={{ display: 'inline-block' }}>
               {currentVersionNewWeapons.map((weapon) => {
-                const weaponName = translate(
-                  locale,
-                  { 'ko-KR': weapon.krName },
-                  weapon.name
-                )
                 return (
                   <NextLink
                     key={weapon.id}
@@ -146,10 +141,10 @@ const VersionIndexPage = ({
                         <SquareImageBox
                           size={40}
                           src={`${assetsBucketBaseUrl}/honkai3rd/weapons/${weapon.id}.png`}
-                          alt={`${weaponName}`}
+                          alt={`${weapon.name}`}
                           mr={2}
                         />
-                        <Text>{weaponName}</Text>
+                        <Text>{weapon.name}</Text>
                       </Flex>
                     </Link>
                   </NextLink>

@@ -2,6 +2,7 @@
 import { Box, Card, Heading, Paragraph } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import SquareImageBox from '../../../../components/atoms/SquareImageBox'
+import Breadcrumb from '../../../../components/organisms/Breadcrumb'
 import { WeaponData } from '../../../../lib/honkai3rd/weapons'
 import { generateI18NPaths, getI18NProps } from '../../../../server/i18n'
 import {
@@ -9,8 +10,7 @@ import {
   getWeaponMapByIds,
   listWeapons,
 } from '../../../../server/data/honkai3rd/weapons'
-import { useRouter } from 'next/router'
-import { useTranslation, translate } from '../../../../lib/i18n'
+import { useTranslation } from '../../../../lib/i18n'
 import PageLink from '../../../../components/atoms/PageLink'
 import { assetsBucketBaseUrl } from '../../../../lib/consts'
 import { getBattlesuitMapByIds } from '../../../../server/data/honkai3rd/battlesuits'
@@ -29,20 +29,29 @@ const WeaponShowPage = ({
   battlesuitMap,
   weaponMap,
 }: WeaponShowPageProps) => {
-  const { locale } = useRouter()
   const { t } = useTranslation()
 
-  const weaponName = translate(locale, { 'ko-KR': weapon.krName }, weapon.name)
   const weaponCategory = t(`weapons-show.${weapon.category}`)
 
   return (
     <Box p={3}>
-      <Heading as='h1'>{weaponName}</Heading>
+      <Breadcrumb
+        items={[
+          { href: '/honkai3rd', label: t('common.honkai-3rd') },
+          { href: '/honkai3rd/weapons', label: t('common.weapons') },
+          {
+            href: `/honkai3rd/weapons/${weapon.id}`,
+            label: weapon.name,
+          },
+        ]}
+      />
+
+      <Heading as='h1'>{weapon.name}</Heading>
 
       <Box mb={3}>
         <SquareImageBox
           size={100}
-          alt={weaponName}
+          alt={weapon.name}
           src={`${assetsBucketBaseUrl}/honkai3rd/weapons/${weapon.id}.png`}
         />
       </Box>
@@ -115,7 +124,7 @@ const WeaponShowPage = ({
           return (
             <Card key={skill.name} mb={3}>
               <Heading as='h3' p={2} m={0} sx={{ borderBottom: 'default' }}>
-                {translate(locale, { 'ko-KR': skill.krName }, skill.name)}
+                {skill.name}
               </Heading>
               <Paragraph
                 p={2}
@@ -123,11 +132,7 @@ const WeaponShowPage = ({
                   whiteSpace: 'pre-wrap',
                 }}
               >
-                {translate(
-                  locale,
-                  { 'ko-KR': skill.krDescription },
-                  skill.description
-                )}
+                {skill.description}
               </Paragraph>
             </Card>
           )
@@ -143,7 +148,7 @@ export async function getStaticProps({
   params,
   locale,
 }: NextPageContext & { params: { weaponId: string } }) {
-  const weapon = getWeaponById(params.weaponId)
+  const weapon = getWeaponById(params.weaponId, locale)
   const battlesuitMap = getBattlesuitMapByIds(
     weapon != null && weapon.battlesuits != null
       ? weapon.battlesuits.map(({ id }) => id)
@@ -160,7 +165,7 @@ export async function getStaticProps({
       weaponIds.push(...weapon.originalWeapons)
     }
   }
-  const weaponMap = getWeaponMapByIds(weaponIds)
+  const weaponMap = getWeaponMapByIds(weaponIds, locale)
 
   return {
     props: {

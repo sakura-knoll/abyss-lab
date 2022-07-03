@@ -1,22 +1,17 @@
 /** @jsxImportSource theme-ui */
 import { Box, Card, Text, Flex } from '@theme-ui/components'
-import { useRouter } from 'next/router'
 import { assetsBucketBaseUrl } from '../../lib/consts'
 import { WeaponData } from '../../lib/honkai3rd/weapons'
-import { translate } from '../../lib/i18n'
 import PageLink from '../atoms/PageLink'
 import SquareImageBox from '../atoms/SquareImageBox'
 
 interface WeaponCardProps {
-  weapon: Pick<WeaponData, 'id' | 'name' | 'rarity' | 'krName'>
+  weapon: Pick<WeaponData, 'id' | 'name' | 'rarity'>
   hidden?: boolean
   size?: 'sm' | 'default'
 }
 
 const WeaponCard = ({ weapon, hidden, size = 'default' }: WeaponCardProps) => {
-  const { locale } = useRouter()
-  const weaponName = translate(locale, { 'ko-KR': weapon.krName }, weapon.name)
-
   if (size === 'sm') {
     return (
       <Card
@@ -35,7 +30,7 @@ const WeaponCard = ({ weapon, hidden, size = 'default' }: WeaponCardProps) => {
             <SquareImageBox
               mr={2}
               size={30}
-              alt={weaponName}
+              alt={weapon.name}
               src={`${assetsBucketBaseUrl}/honkai3rd/weapons/${weapon.id}.png`}
             />
             <Box
@@ -47,7 +42,7 @@ const WeaponCard = ({ weapon, hidden, size = 'default' }: WeaponCardProps) => {
                 textAlign: 'center',
               }}
             >
-              <Text sx={{ lineHeight: '30px' }}>{weaponName}</Text>
+              <Text sx={{ lineHeight: '30px' }}>{weapon.name}</Text>
             </Box>
           </Flex>
         </PageLink>
@@ -70,7 +65,7 @@ const WeaponCard = ({ weapon, hidden, size = 'default' }: WeaponCardProps) => {
       <PageLink href={`/honkai3rd/weapons/${weapon.id}`}>
         <SquareImageBox
           size={100}
-          alt={weaponName}
+          alt={weapon.name}
           src={`${assetsBucketBaseUrl}/honkai3rd/weapons/${weapon.id}.png`}
         />
         <Box
@@ -82,7 +77,7 @@ const WeaponCard = ({ weapon, hidden, size = 'default' }: WeaponCardProps) => {
             textAlign: 'center',
           }}
         >
-          <Text>{weaponName}</Text>
+          <Text>{weapon.name}</Text>
         </Box>
         <Box sx={{ fontSize: 1, textAlign: 'center' }}>
           {'⭐'.repeat(weapon.rarity)}

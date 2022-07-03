@@ -293,7 +293,7 @@ export async function getStaticProps({
     },
     { weaponIds: [], stigmataIds: [] }
   )
-  const weaponMap = getWeaponMapByIds(weaponIds)
+  const weaponMap = getWeaponMapByIds(weaponIds, locale)
 
   const stigmataMap = getStigmataMapByIds(stigmataIds)
 

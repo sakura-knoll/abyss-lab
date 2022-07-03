@@ -170,7 +170,7 @@ export default BattlesuitListPage
 export async function getStaticProps({ locale }: NextPageContext) {
   return {
     props: {
-      battlesuits: listBattlesuits().map((battlesuit) => {
+      battlesuits: listBattlesuits(locale).map((battlesuit) => {
         return {
           id: battlesuit.id,
           name: battlesuit.name,

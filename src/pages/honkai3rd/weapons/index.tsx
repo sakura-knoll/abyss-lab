@@ -16,7 +16,7 @@ import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 
 type WeaponListItemData = Pick<
   WeaponData,
-  'id' | 'name' | 'rarity' | 'category' | 'krName'
+  'id' | 'name' | 'rarity' | 'category'
 >
 
 interface WeaponListPageProps {
@@ -110,8 +110,8 @@ export default WeaponListPage
 export async function getStaticProps({ locale }: NextPageContext) {
   return {
     props: {
-      weaponDataList: listWeapons().map((weapon) => {
-        return pick(['name', 'id', 'rarity', 'category', 'krName'], weapon)
+      weaponDataList: listWeapons(locale).map((weapon) => {
+        return pick(['name', 'id', 'rarity', 'category'], weapon)
       }),
       ...(await getI18NProps(locale)),
     },

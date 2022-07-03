@@ -4,11 +4,11 @@ import path from 'path'
 import yaml from 'yaml'
 import { omit } from 'ramda'
 
-let parsedData: any = null
+let cachedData: any = null
 
 export function listBattlesuits(locale?: string): BattlesuitData[] {
-  if (parsedData == null) {
-    parsedData = yaml.parse(
+  if (cachedData == null) {
+    cachedData = yaml.parse(
       fs
         .readFileSync(
           path.join(process.cwd(), 'data/honkai3rd/battlesuits.yaml')
@@ -16,7 +16,7 @@ export function listBattlesuits(locale?: string): BattlesuitData[] {
         .toString('utf-8')
     )
   }
-  const battlesuits = parsedData
+  const battlesuits = cachedData
 
   const localized = (battlesuits as any[]).map((battlesuit) => {
     return {

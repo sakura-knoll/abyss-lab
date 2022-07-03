@@ -2,15 +2,12 @@ import { SourceData } from './sources'
 
 export interface WeaponSkill {
   name: string
-  krName?: string
   description: string
-  krDescription?: string
 }
 
 export interface WeaponData {
   id: string
   name: string
-  krName?: string
   atk: number
   crt: number
   category:
@@ -31,7 +28,6 @@ export interface WeaponData {
     id: string
     suitability?: number
     description?: string
-    descriptionKr?: string
   }[]
   priWeapon?: string
   originalWeapons?: string[]

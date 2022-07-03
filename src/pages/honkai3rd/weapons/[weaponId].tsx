@@ -10,8 +10,7 @@ import {
   getWeaponMapByIds,
   listWeapons,
 } from '../../../server/data/honkai3rd/weapons'
-import { useRouter } from 'next/router'
-import { useTranslation, translate } from '../../../lib/i18n'
+import { useTranslation } from '../../../lib/i18n'
 import Head from '../../../components/atoms/Head'
 import PageLink from '../../../components/atoms/PageLink'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
@@ -20,7 +19,6 @@ import { getBattlesuitMapByIds } from '../../../server/data/honkai3rd/battlesuit
 import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
 import BattlesuitCard from '../../../components/molecules/BattlesuitCard'
 import WeaponCard from '../../../components/molecules/WeaponCard'
-// import SourceCard from '../../../components/molecules/SourceCard'
 
 interface WeaponShowPageProps {
   weapon: WeaponData
@@ -33,16 +31,14 @@ const WeaponShowPage = ({
   battlesuitMap,
   weaponMap,
 }: WeaponShowPageProps) => {
-  const { locale } = useRouter()
   const { t } = useTranslation()
 
-  const weaponName = translate(locale, { 'ko-KR': weapon.krName }, weapon.name)
   const weaponCategory = t(`weapons-show.${weapon.category}`)
 
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${weaponName} - ${t('common.honkai-3rd')} - ${t(
+        title={`${weapon.name} - ${t('common.honkai-3rd')} - ${t(
           'common.abyss-lab'
         )}`}
         description={`${t('common.honkai-3rd')} ${t(
@@ -59,17 +55,17 @@ const WeaponShowPage = ({
             { href: '/honkai3rd/weapons', label: t('common.weapons') },
             {
               href: `/honkai3rd/weapons/${weapon.id}`,
-              label: weaponName,
+              label: weapon.name,
             },
           ]}
         />
 
-        <Heading as='h1'>{weaponName}</Heading>
+        <Heading as='h1'>{weapon.name}</Heading>
 
         <Box mb={3}>
           <SquareImageBox
             size={100}
-            alt={weaponName}
+            alt={weapon.name}
             src={`${assetsBucketBaseUrl}/honkai3rd/weapons/${weapon.id}.png`}
           />
         </Box>
@@ -142,7 +138,7 @@ const WeaponShowPage = ({
             return (
               <Card key={skill.name} mb={3}>
                 <Heading as='h3' p={2} m={0} sx={{ borderBottom: 'default' }}>
-                  {translate(locale, { 'ko-KR': skill.krName }, skill.name)}
+                  {skill.name}
                 </Heading>
                 <Paragraph
                   p={2}
@@ -150,11 +146,7 @@ const WeaponShowPage = ({
                     whiteSpace: 'pre-wrap',
                   }}
                 >
-                  {translate(
-                    locale,
-                    { 'ko-KR': skill.krDescription },
-                    skill.description
-                  )}
+                  {skill.description}
                 </Paragraph>
               </Card>
             )
@@ -171,11 +163,12 @@ export async function getStaticProps({
   params,
   locale,
 }: NextPageContext & { params: { weaponId: string } }) {
-  const weapon = getWeaponById(params.weaponId)
+  const weapon = getWeaponById(params.weaponId, locale)
   const battlesuitMap = getBattlesuitMapByIds(
     weapon != null && weapon.battlesuits != null
       ? weapon.battlesuits.map(({ id }) => id)
-      : []
+      : [],
+    locale
   )
 
   const weaponIds = []
@@ -187,7 +180,7 @@ export async function getStaticProps({
       weaponIds.push(...weapon.originalWeapons)
     }
   }
-  const weaponMap = getWeaponMapByIds(weaponIds)
+  const weaponMap = getWeaponMapByIds(weaponIds, locale)
 
   return {
     props: {
