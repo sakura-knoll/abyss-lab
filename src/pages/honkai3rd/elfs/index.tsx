@@ -12,7 +12,7 @@ import Head from '../../../components/atoms/Head'
 import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 
 interface ElfListPageProps {
-  elfs: Pick<ElfData, 'id' | 'name' | 'krName'>[]
+  elfs: Pick<ElfData, 'id' | 'name'>[]
 }
 
 const ElfListPage = ({ elfs }: ElfListPageProps) => {
@@ -56,7 +56,7 @@ export default ElfListPage
 export async function getStaticProps({ locale }: NextPageContext) {
   return {
     props: {
-      elfs: listElfs().map((elf) => pick(['id', 'name', 'krName'], elf)),
+      elfs: listElfs(locale).map((elf) => pick(['id', 'name', 'krName'], elf)),
       ...(await getI18NProps(locale)),
     },
   }

@@ -30,12 +30,10 @@ const ElfShowPage = ({ elf }: ElfShowPageProps) => {
   const { locale } = useRouter()
   const { t } = useTranslation()
 
-  const elfName = translate(locale, { 'ko-KR': elf.krName }, elf.name)
-
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${t('common.honkai-3rd')}: ${elfName} - ${t(
+        title={`${t('common.honkai-3rd')}: ${elf.name} - ${t(
           'common.abyss-lab'
         )}`}
         description={`${t('common.honkai-3rd')} ${t(
@@ -63,12 +61,12 @@ const ElfShowPage = ({ elf }: ElfShowPageProps) => {
             { href: '/honkai3rd/elfs', label: t('common.elfs') },
             {
               href: `/honkai3rd/elfs/${elf.id}`,
-              label: elfName,
+              label: elf.name,
             },
           ]}
         />
 
-        <Heading as='h1'>{elfName}</Heading>
+        <Heading as='h1'>{elf.name}</Heading>
 
         <Box mb={3}>
           <Box
@@ -111,7 +109,7 @@ const ElfShowPage = ({ elf }: ElfShowPageProps) => {
                         as={columnIndex === 0 ? 'h2' : 'h3'}
                         sx={{ mb: 1 }}
                       >
-                        {translate(locale, { 'ko-KR': item.krName }, item.name)}
+                        {item.name}
                       </Heading>
                       <SecondaryLabel>
                         {t(`elfs-show.${item.type}`)}
@@ -125,11 +123,7 @@ const ElfShowPage = ({ elf }: ElfShowPageProps) => {
                         whiteSpace: 'pre-wrap',
                       }}
                     >
-                      {translate(
-                        locale,
-                        { 'ko-KR': item.krDescription },
-                        item.description
-                      )}
+                      {item.description}
                     </Paragraph>
                   </React.Fragment>
                 )
@@ -148,7 +142,7 @@ export async function getStaticProps({
   params,
   locale,
 }: NextPageContext & { params: { elfId: string } }) {
-  const elf = getElfById(params.elfId)
+  const elf = getElfById(params.elfId, locale)
   return {
     props: { elf, ...(await getI18NProps(locale)) },
   }

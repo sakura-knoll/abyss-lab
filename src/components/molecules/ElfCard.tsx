@@ -1,22 +1,16 @@
 /** @jsxImportSource theme-ui */
-
 import { Box, Card, Text } from '@theme-ui/components'
-import { useRouter } from 'next/router'
 import { assetsBucketBaseUrl } from '../../lib/consts'
 import { ElfData } from '../../lib/honkai3rd/elfs'
-import { translate } from '../../lib/i18n'
 import PageLink from '../atoms/PageLink'
 import SquareImageBox from '../atoms/SquareImageBox'
 
 interface ElfCardProps {
-  elf: Pick<ElfData, 'id' | 'name' | 'krName'>
+  elf: Pick<ElfData, 'id' | 'name'>
   hidden?: boolean
 }
 
 const ElfCard = ({ elf }: ElfCardProps) => {
-  const { locale } = useRouter()
-  const elfName = translate(locale, { 'ko-KR': elf.krName }, elf.name)
-
   return (
     <Card
       sx={{
@@ -30,7 +24,7 @@ const ElfCard = ({ elf }: ElfCardProps) => {
     >
       <PageLink href={`/honkai3rd/elfs/${elf.id}`}>
         <SquareImageBox
-          alt={elfName}
+          alt={elf.name}
           src={`${assetsBucketBaseUrl}/honkai3rd/elfs/icon-${elf.id}.png`}
           size={[100]}
         />
@@ -43,7 +37,7 @@ const ElfCard = ({ elf }: ElfCardProps) => {
             textAlign: 'center',
           }}
         >
-          <Text>{elfName}</Text>
+          <Text>{elf.name}</Text>
         </Box>
       </PageLink>
     </Card>
