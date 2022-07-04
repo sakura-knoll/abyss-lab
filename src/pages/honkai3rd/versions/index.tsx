@@ -5,7 +5,6 @@ import SquareImageBox from '../../../components/atoms/SquareImageBox'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import GanttChart from '../../../components/organisms/GanttChart'
 import { getBattlesuitById } from '../../../server/data/honkai3rd/battlesuits'
-import { listSupplyEventsByVersion } from '../../../server/data/honkai3rd/supplyEvents'
 import {
   getCurrentVersion,
   listVersionData,
@@ -17,11 +16,9 @@ import { format as formatDate } from 'date-fns'
 import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
 import { VersionData } from '../../../lib/honkai3rd/versions'
-import { SupplyEventData } from '../../../lib/honkai3rd/supplyEvents'
 import { getI18NProps } from '../../../server/i18n'
 import { NextPageContext } from 'next'
-import { useTranslation, translate } from '../../../lib/i18n'
-import { useRouter } from 'next/router'
+import { useTranslation } from '../../../lib/i18n'
 import Head from '../../../components/atoms/Head'
 import PageLink from '../../../components/atoms/PageLink'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
@@ -32,7 +29,6 @@ interface VersionIndexPageProps {
   currentVersionData: VersionData
   currentVersionNewBattlesuits: BattlesuitData[]
   currentVersionNewWeapons: WeaponData[]
-  currentVersionSupplyEvents: SupplyEventData[]
 }
 
 const VersionIndexPage = ({
@@ -40,10 +36,8 @@ const VersionIndexPage = ({
   currentVersionNewBattlesuits,
   versionDataList,
   currentVersionNewWeapons,
-  currentVersionSupplyEvents,
 }: VersionIndexPageProps) => {
   const { t } = useTranslation()
-  const { locale } = useRouter()
 
   return (
     <Honkai3rdLayout>
@@ -82,12 +76,7 @@ const VersionIndexPage = ({
           </Box>
 
           <Heading as='h1'>
-            v{currentVersionData.version} :{' '}
-            {translate(
-              locale,
-              { 'ko-KR': currentVersionData.krName },
-              currentVersionData.name
-            )}{' '}
+            v{currentVersionData.version} : {currentVersionData.name}{' '}
             <small>({t('versions.current')})</small>
           </Heading>
           <Box mb={4}>
@@ -159,30 +148,34 @@ const VersionIndexPage = ({
           <Box mb={2}>
             <ScrollContainer vertical={false}>
               <GanttChart
-                items={currentVersionSupplyEvents.map((supplyEventData) => {
-                  const imgSrc = getIconSrcFromItem(supplyEventData.featured[0])
-                  return {
-                    id: supplyEventData.id,
-                    label: (
-                      <Flex sx={{ alignItems: 'center' }}>
-                        {!supplyEventData.verified && (
-                          <Text sx={{ flexShrink: 0 }}>❓</Text>
-                        )}
-                        {imgSrc != null && (
-                          <SquareImageBox
-                            size={20}
-                            src={imgSrc}
-                            alt={supplyEventData.featured[0].id}
-                            mr={1}
-                          />
-                        )}
-                        <Text>{supplyEventData.name}</Text>
-                      </Flex>
-                    ),
-                    duration: supplyEventData.duration,
-                    row: supplyEventData.track,
+                items={currentVersionData.supplyEvents.map(
+                  (supplyEventData) => {
+                    const imgSrc = getIconSrcFromItem(
+                      supplyEventData.featured[0]
+                    )
+                    return {
+                      id: `${supplyEventData.duration[0]}/${supplyEventData.duration[1]}/${supplyEventData.name}`,
+                      label: (
+                        <Flex sx={{ alignItems: 'center' }}>
+                          {!supplyEventData.verified && (
+                            <Text sx={{ flexShrink: 0 }}>❓</Text>
+                          )}
+                          {imgSrc != null && (
+                            <SquareImageBox
+                              size={20}
+                              src={imgSrc}
+                              alt={supplyEventData.featured[0].id}
+                              mr={1}
+                            />
+                          )}
+                          <Text>{supplyEventData.name}</Text>
+                        </Flex>
+                      ),
+                      duration: supplyEventData.duration,
+                      row: supplyEventData.track,
+                    }
                   }
-                })}
+                )}
                 today={getDateString(new Date())}
                 startDate={currentVersionData.duration[0]}
                 endDate={
@@ -211,13 +204,8 @@ const VersionIndexPage = ({
                     passHref
                   >
                     <Link>
-                      {versionData.version} :{' '}
-                      {translate(
-                        locale,
-                        { 'ko-KR': versionData.krName },
-                        versionData.name
-                      )}{' '}
-                      ({formatDate(new Date(versionData.duration[0]), 'PP')} -{' '}
+                      {versionData.version} : {versionData.name} (
+                      {formatDate(new Date(versionData.duration[0]), 'PP')} -{' '}
                       {versionData.duration[1] != null
                         ? formatDate(new Date(versionData.duration[1]), 'PP')
                         : ''}
@@ -235,21 +223,17 @@ const VersionIndexPage = ({
 }
 
 export async function getStaticProps({ locale }: NextPageContext) {
-  const currentVersionData = getCurrentVersion()!
+  const currentVersionData = getCurrentVersion(locale)!
 
   const currentVersionNewBattlesuits = currentVersionData.newBattlesuits.map(
     (battlesuitId) => {
-      return getBattlesuitById(battlesuitId)
+      return getBattlesuitById(battlesuitId, locale)
     }
   )
   const currentVersionNewWeapons = currentVersionData.newWeapons.map(
     (weaponId) => {
-      return getWeaponById(weaponId)
+      return getWeaponById(weaponId, locale)
     }
-  )
-
-  const currentVersionSupplyEvents = listSupplyEventsByVersion(
-    currentVersionData.version
   )
 
   return {
@@ -257,8 +241,7 @@ export async function getStaticProps({ locale }: NextPageContext) {
       currentVersionData,
       currentVersionNewBattlesuits,
       currentVersionNewWeapons,
-      currentVersionSupplyEvents,
-      versionDataList: listVersionData(),
+      versionDataList: listVersionData(locale),
       ...(await getI18NProps(locale)),
     },
   }

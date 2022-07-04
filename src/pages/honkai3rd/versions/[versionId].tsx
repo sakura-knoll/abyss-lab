@@ -13,15 +13,12 @@ import NextLink from 'next/link'
 import SquareImageBox from '../../../components/atoms/SquareImageBox'
 import { getWeaponById } from '../../../server/data/honkai3rd/weapons'
 import ScrollContainer from 'react-indiana-drag-scroll'
-import { listSupplyEventsByVersion } from '../../../server/data/honkai3rd/supplyEvents'
 import { addDateToDateString, getDateString } from '../../../lib/string'
 import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
-import { SupplyEventData } from '../../../lib/honkai3rd/supplyEvents'
 import { VersionData } from '../../../lib/honkai3rd/versions'
 import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
-import { translate, useTranslation } from '../../../lib/i18n'
-import { useRouter } from 'next/router'
+import { useTranslation } from '../../../lib/i18n'
 import Head from '../../../components/atoms/Head'
 import PageLink from '../../../components/atoms/PageLink'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
@@ -31,31 +28,23 @@ interface VersionShowPageProps {
   versionData: VersionData
   battlesuits: BattlesuitData[]
   weapons: WeaponData[]
-  supplyEvents: SupplyEventData[]
 }
 
 const VersionShowPage = ({
   versionData,
   battlesuits,
   weapons,
-  supplyEvents,
 }: VersionShowPageProps) => {
   const { t } = useTranslation()
-  const { locale } = useRouter()
-  const versionName = translate(
-    locale,
-    { 'ko-KR': versionData.krName },
-    versionData.name
-  )
   return (
     <Honkai3rdLayout>
       <Head
-        title={`v${versionData.version} ${versionName} - ${t(
+        title={`v${versionData.version} ${versionData.name} - ${t(
           'common.honkai-3rd'
         )} - ${t('common.abyss-lab')}`}
-        description={`${t('common.honkai-3rd')} ${t(
-          'versions.version'
-        )} ${versionName} / ${t('versions.new-battlesuits')}: ${battlesuits
+        description={`${t('common.honkai-3rd')} ${t('versions.version')} ${
+          versionData.name
+        } / ${t('versions.new-battlesuits')}: ${battlesuits
           .map((battlesuit) => {
             return battlesuit.name
           })
@@ -94,7 +83,7 @@ const VersionShowPage = ({
             )}
           </Box>
           <Heading as='h1'>
-            v{versionData.version} : {versionName}
+            v{versionData.version} : {versionData.name}
           </Heading>
           <Box mb={4}>
             {formatDate(new Date(versionData.duration[0]), 'PP')} -{' '}
@@ -165,10 +154,10 @@ const VersionShowPage = ({
           <Box mb={2}>
             <ScrollContainer vertical={false}>
               <GanttChart
-                items={supplyEvents.map((supplyEventData) => {
+                items={versionData.supplyEvents.map((supplyEventData) => {
                   const imgSrc = getIconSrcFromItem(supplyEventData.featured[0])
                   return {
-                    id: supplyEventData.id,
+                    id: `${supplyEventData.duration[0]}/${supplyEventData.duration[1]}/${supplyEventData.name}`,
                     label: (
                       <Flex sx={{ alignItems: 'center' }}>
                         {!supplyEventData.verified && (
@@ -214,23 +203,20 @@ export async function getStaticProps({
   params,
   locale,
 }: NextPageContext & { params: { versionId: string } }) {
-  const versionData = getVersion(params.versionId)!
+  const versionData = getVersion(params.versionId, locale)!
 
   const battlesuits = versionData.newBattlesuits.map((battlesuitId) => {
     return getBattlesuitById(battlesuitId, locale)
   })
   const weapons = versionData.newWeapons.map((weaponId) => {
-    return getWeaponById(weaponId)
+    return getWeaponById(weaponId, locale)
   })
-
-  const supplyEvents = listSupplyEventsByVersion(versionData.version)
 
   return {
     props: {
       versionData,
       battlesuits,
       weapons,
-      supplyEvents,
       ...(await getI18NProps(locale)),
     },
   }
