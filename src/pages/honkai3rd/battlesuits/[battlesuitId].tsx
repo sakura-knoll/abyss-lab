@@ -295,7 +295,7 @@ export async function getStaticProps({
   )
   const weaponMap = getWeaponMapByIds(weaponIds, locale)
 
-  const stigmataMap = getStigmataMapByIds(stigmataIds)
+  const stigmataMap = getStigmataMapByIds(stigmataIds, locale)
 
   return {
     props: {

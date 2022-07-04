@@ -1,25 +1,16 @@
 /** @jsxImportSource theme-ui */
 import { Box, Card, Text, Flex } from '@theme-ui/components'
-import { useRouter } from 'next/router'
 import { assetsBucketBaseUrl } from '../../lib/consts'
 import { StigmataData } from '../../lib/honkai3rd/stigmata'
-import { translate } from '../../lib/i18n'
 import PageLink from '../atoms/PageLink'
 import SquareImageBox from '../atoms/SquareImageBox'
 
 interface StigmataCardProps {
-  stigmata: Pick<StigmataData, 'id' | 'name' | 'rarity' | 'krName'>
+  stigmata: Pick<StigmataData, 'id' | 'name' | 'rarity'>
   size?: 'sm' | 'default'
 }
 
 const StigmataCard = ({ stigmata, size }: StigmataCardProps) => {
-  const { locale } = useRouter()
-  const stigmataName = translate(
-    locale,
-    { 'ko-KR': stigmata.krName },
-    stigmata.name
-  )
-
   if (size === 'sm') {
     return (
       <Card
@@ -36,7 +27,7 @@ const StigmataCard = ({ stigmata, size }: StigmataCardProps) => {
           <Flex>
             <SquareImageBox
               mr={2}
-              alt={stigmataName}
+              alt={stigmata.name}
               src={`${assetsBucketBaseUrl}/honkai3rd/stigmata/icon-${stigmata.id}.png`}
               size={30}
             />
@@ -49,7 +40,7 @@ const StigmataCard = ({ stigmata, size }: StigmataCardProps) => {
                 textAlign: 'center',
               }}
             >
-              <Text sx={{ lineHeight: '30px' }}>{stigmataName}</Text>
+              <Text sx={{ lineHeight: '30px' }}>{stigmata.name}</Text>
             </Box>
           </Flex>
         </PageLink>
@@ -68,7 +59,7 @@ const StigmataCard = ({ stigmata, size }: StigmataCardProps) => {
       <PageLink href={`/honkai3rd/stigmata/${stigmata.id}`}>
         <SquareImageBox
           size={[75, 100]}
-          alt={stigmataName}
+          alt={stigmata.name}
           src={`${assetsBucketBaseUrl}/honkai3rd/stigmata/icon-${stigmata.id}.png`}
         />
         <Box
@@ -80,7 +71,7 @@ const StigmataCard = ({ stigmata, size }: StigmataCardProps) => {
             textAlign: 'center',
           }}
         >
-          <Text>{stigmataName}</Text>
+          <Text>{stigmata.name}</Text>
         </Box>
         <Box sx={{ fontSize: 1, textAlign: 'center' }}>
           {'⭐'.repeat(stigmata.rarity)}

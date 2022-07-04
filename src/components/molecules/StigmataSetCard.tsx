@@ -1,24 +1,15 @@
 /** @jsxImportSource theme-ui */
 import { Box, Card, Flex, Text } from '@theme-ui/components'
-import { useRouter } from 'next/router'
 import { assetsBucketBaseUrl } from '../../lib/consts'
 import { StigmataSet } from '../../lib/honkai3rd/stigmata'
-import { translate } from '../../lib/i18n'
 import PageLink from '../atoms/PageLink'
 import SquareImageBox from '../atoms/SquareImageBox'
 
 interface StigmataSetCardProps {
-  stigmataSet: Pick<StigmataSet, 'id' | 'name' | 'krName' | 'rarity'>
+  stigmataSet: Pick<StigmataSet, 'id' | 'name' | 'rarity'>
 }
 
 const StigmataSetCard = ({ stigmataSet }: StigmataSetCardProps) => {
-  const { locale } = useRouter()
-  const stigmataSetName = translate(
-    locale,
-    { 'ko-KR': stigmataSet.krName },
-    stigmataSet.name
-  )
-
   return (
     <Card
       sx={{
@@ -31,17 +22,17 @@ const StigmataSetCard = ({ stigmataSet }: StigmataSetCardProps) => {
         <Flex sx={{ justifyContent: 'space-around' }}>
           <SquareImageBox
             size={[80, 100]}
-            alt={`${stigmataSet.id} Top`}
+            alt={`${stigmataSet.name} Top`}
             src={`${assetsBucketBaseUrl}/honkai3rd/stigmata/icon-${stigmataSet.id}-top.png`}
           />
           <SquareImageBox
             size={[80, 100]}
-            alt={`${stigmataSet.id} Mid`}
+            alt={`${stigmataSet.name} Mid`}
             src={`${assetsBucketBaseUrl}/honkai3rd/stigmata/icon-${stigmataSet.id}-mid.png`}
           />
           <SquareImageBox
             size={[80, 100]}
-            alt={`${stigmataSet.id} Bottom`}
+            alt={`${stigmataSet.name} Bottom`}
             src={`${assetsBucketBaseUrl}/honkai3rd/stigmata/icon-${stigmataSet.id}-bot.png`}
           />
         </Flex>
@@ -54,7 +45,7 @@ const StigmataSetCard = ({ stigmataSet }: StigmataSetCardProps) => {
             textAlign: 'center',
           }}
         >
-          <Text>{stigmataSetName}</Text>
+          <Text>{stigmataSet.name}</Text>
         </Box>
         <Box sx={{ fontSize: 1, textAlign: 'center' }}>
           {'⭐'.repeat(stigmataSet.rarity)}

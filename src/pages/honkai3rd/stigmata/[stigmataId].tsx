@@ -9,7 +9,7 @@ import StigmataSetPage, {
 import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
 import {
   listStigmata,
-  getStigmataById,
+  getStigmaById,
   getStigmataListBySetId,
   getStigmataSetBySetId,
   listStigmataSet,
@@ -31,29 +31,29 @@ export async function getStaticProps({
   params,
   locale,
 }: NextPageContext & { params: { stigmataId: string } }) {
-  const stigmataData = getStigmataById(params.stigmataId)!
+  const stigmataData = getStigmaById(params.stigmataId, locale)!
   if (stigmataData != null) {
     return {
       props: {
         type: 'single',
         stigmataData: stigmataData,
-        stigmataSetList: (getStigmataListBySetId(stigmataData.set!) || []).sort(
-          (a, b) => -a.type.localeCompare(b.type)
-        ),
-        stigmataSet: getStigmataSetBySetId(stigmataData.set!) || null,
+        stigmataSetList: (
+          getStigmataListBySetId(stigmataData.set!, locale) || []
+        ).sort((a, b) => -a.type.localeCompare(b.type)),
+        stigmataSet: getStigmataSetBySetId(stigmataData.set!, locale) || null,
         ...(await getI18NProps(locale)),
       },
     }
   }
   const [stigmataSetId] = params.stigmataId.split('-set')
-  const stigmataSet = getStigmataSetBySetId(stigmataSetId)!
+  const stigmataSet = getStigmataSetBySetId(stigmataSetId, locale)!
   return {
     props: {
       type: 'set',
       stigmataSet,
-      stigmataSetList: (getStigmataListBySetId(stigmataSet.id) || []).sort(
-        (a, b) => -a.type.localeCompare(b.type)
-      ),
+      stigmataSetList: (
+        getStigmataListBySetId(stigmataSet.id, locale) || []
+      ).sort((a, b) => -a.type.localeCompare(b.type)),
       ...(await getI18NProps(locale)),
     },
   }

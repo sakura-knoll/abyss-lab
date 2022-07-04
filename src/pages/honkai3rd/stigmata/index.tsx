@@ -19,8 +19,8 @@ import Head from '../../../components/atoms/Head'
 import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 
 interface StigmataListPageProps {
-  stigmataDataList: Pick<StigmataData, 'id' | 'name' | 'rarity' | 'krName'>[]
-  stigmataSetList: Pick<StigmataSet, 'id' | 'name' | 'rarity' | 'krName'>[]
+  stigmataDataList: Pick<StigmataData, 'id' | 'name' | 'rarity'>[]
+  stigmataSetList: Pick<StigmataSet, 'id' | 'name' | 'rarity'>[]
 }
 
 const StigmataListPage = ({
@@ -102,11 +102,11 @@ export default StigmataListPage
 export async function getStaticProps({ locale }: NextPageContext) {
   return {
     props: {
-      stigmataDataList: listStigmata().map((stigmata) =>
-        pick(['id', 'name', 'rarity', 'krName'], stigmata)
+      stigmataDataList: listStigmata(locale).map((stigmata) =>
+        pick(['id', 'name', 'rarity'], stigmata)
       ),
-      stigmataSetList: listStigmataSet().map((stigmataSet) =>
-        pick(['id', 'name', 'rarity', 'krName'], stigmataSet)
+      stigmataSetList: listStigmataSet(locale).map((stigmataSet) =>
+        pick(['id', 'name', 'rarity'], stigmataSet)
       ),
       ...(await getI18NProps(locale)),
     },

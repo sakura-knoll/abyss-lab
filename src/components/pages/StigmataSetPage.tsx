@@ -6,8 +6,7 @@ import StigmataCard from '../../components/molecules/StigmataCard'
 import Breadcrumb from '../../components/organisms/Breadcrumb'
 import { StigmataData, StigmataSet } from '../../lib/honkai3rd/stigmata'
 import SecondaryLabel from '../atoms/SecondaryLabel'
-import { translate, useTranslation } from '../../lib/i18n'
-import { useRouter } from 'next/router'
+import { useTranslation } from '../../lib/i18n'
 import Head from '../atoms/Head'
 import Honkai3rdLayout from '../layouts/Honkai3rdLayout'
 
@@ -22,28 +21,16 @@ const StigmataSetPage = ({
   stigmataSetList,
 }: StigmataSetProps) => {
   const { t } = useTranslation()
-  const { locale } = useRouter()
-
-  const stigmataSetName = translate(
-    locale,
-    { 'ko-KR': stigmataSet.krName },
-    stigmataSet.name
-  )
-  const stigmataSetAltName = translate(
-    locale,
-    { 'ko-KR': stigmataSet.krAltName },
-    stigmataSet.altName
-  )
 
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${stigmataSetName} ${t('stigmata-show.stigmata-set')} - ${t(
+        title={`${stigmataSet.name} ${t('stigmata-show.stigmata-set')} - ${t(
           'common.honkai-3rd'
         )} - ${t('common.abyss-lab')}`}
         description={`${t('common.honkai-3rd')} ${t(
           'stigmata-show.stigmata-set'
-        )} / ${'⭐'.repeat(stigmataSet.rarity)} / ${stigmataSetAltName}`}
+        )} / ${'⭐'.repeat(stigmataSet.rarity)} / ${stigmataSet.altName}`}
       />
 
       <Box p={3}>
@@ -59,16 +46,16 @@ const StigmataSetPage = ({
             },
             {
               href: `/honkai3rd/stigmata/${stigmataSet.id}-set`,
-              label: stigmataSetName,
+              label: stigmataSet.name,
             },
           ]}
         />
 
         <Box mb={3}>
           <Heading as='h1' mb={0}>
-            {stigmataSetName}
+            {stigmataSet.name}
           </Heading>
-          <SecondaryLabel>{stigmataSetAltName}</SecondaryLabel>
+          <SecondaryLabel>{stigmataSet.altName}</SecondaryLabel>
         </Box>
 
         <Card mb={3}>
@@ -90,16 +77,6 @@ const StigmataSetPage = ({
             })}
           </Flex>
           {stigmataSetList.map((stigmataSetItem) => {
-            const stigmataName = translate(
-              locale,
-              { 'ko-KR': stigmataSetItem.krName },
-              stigmataSetItem.name
-            )
-            const stigmataSkillDescrpition = translate(
-              locale,
-              { 'ko-KR': stigmataSetItem.skill.krDescription },
-              stigmataSetItem.skill.description
-            )
             return (
               <React.Fragment key={stigmataSetItem.id}>
                 <Box sx={{ p: 2, borderBottom: 'default' }}>
@@ -107,7 +84,7 @@ const StigmataSetPage = ({
                     <PageLink
                       href={`/honkai3rd/stigmata/${stigmataSetItem.id}`}
                     >
-                      {stigmataName}
+                      {stigmataSetItem.name}
                     </PageLink>
                   </Heading>
                   <SecondaryLabel>
@@ -126,7 +103,7 @@ const StigmataSetPage = ({
                     '&:last-child': { borderBottom: 'none' },
                   }}
                 >
-                  {stigmataSkillDescrpition}
+                  {stigmataSetItem.skill.description}
                 </Paragraph>
               </React.Fragment>
             )
@@ -135,34 +112,16 @@ const StigmataSetPage = ({
 
         <Card>
           <Heading as='h2' m={0} p={2} sx={{ borderBottom: 'default' }}>
-            {translate(
-              locale,
-              { 'ko-KR': stigmataSet.twoSetSkill.krName },
-              stigmataSet.twoSetSkill.name
-            )}
+            {stigmataSet.twoSetSkill.name}
           </Heading>
           <Paragraph m={0} p={2} sx={{ borderBottom: 'default' }}>
-            {translate(
-              locale,
-              { 'ko-KR': stigmataSet.twoSetSkill.krDescription },
-              stigmataSet.twoSetSkill.description
-            )}
+            {stigmataSet.twoSetSkill.description}
           </Paragraph>
           <Heading as='h2' m={0} p={2} sx={{ borderBottom: 'default' }}>
-            {translate(
-              locale,
-              {
-                'ko-KR': stigmataSet.threeSetSkill.krName,
-              },
-              stigmataSet.threeSetSkill.name
-            )}
+            {stigmataSet.threeSetSkill.name}
           </Heading>
           <Paragraph m={0} p={2}>
-            {translate(
-              locale,
-              { 'ko-KR': stigmataSet.threeSetSkill.krDescription },
-              stigmataSet.threeSetSkill.description
-            )}
+            {stigmataSet.threeSetSkill.description}
           </Paragraph>
         </Card>
       </Box>
