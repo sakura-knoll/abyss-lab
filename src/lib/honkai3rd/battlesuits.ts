@@ -104,7 +104,7 @@ export const battlesuitFeatures = [
   },
   {
     icon: 'feature-icons/time-mastery',
-    value: 'time mastery',
+    value: 'time-mastery',
     label: 'Time Mastery',
     krLabel: '시공',
   },
@@ -117,7 +117,7 @@ export const battlesuitFeatures = [
   { icon: 'feature-icons/heal', value: 'heal', label: 'Heal', krLabel: '치료' },
   {
     icon: 'feature-icons/fast-atk',
-    value: 'fast atk',
+    value: 'fast-atk',
     label: 'Fast ATK',
     krLabel: '높은 빈도',
   },

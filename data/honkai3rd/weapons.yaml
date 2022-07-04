@@ -1,3 +1,43 @@
+- id: vill-v-pri-weapon
+  version: "5.9"
+  name: Vill V Pri Weapon
+  krName: 빌브이 초월 무기
+  category: cannon
+  rarity: 6
+  atk: 0
+  crt: 0
+  battlesuits:
+    - id: vill-v
+  originalWeapons:
+    - vill-v-weapon
+  sources:
+    - type: pri-weapon-foundry
+  skills:
+    - name: ""
+      krName: ""
+      description: >-
+
+      krDescription: >-
+- id: vill-v-weapon
+  version: "5.9"
+  name: Vill V Weapon
+  krName: 빌브이 초월 무기
+  category: cannon
+  rarity: 5
+  atk: 0
+  crt: 0
+  battlesuits:
+    - id: vill-v
+  priWeapon: vill-v-pri-weapon
+  sources:
+    - type: focused-supply
+  skills:
+    - name: ""
+      krName: ""
+      description: >-
+
+      krDescription: >-
+
 - id: seven-thunders-pri
   version: "5.8"
   name: Seven Thunders of Retribution - Naruikazuchimi
@@ -104,8 +144,7 @@
         출혈 대미지 +20.0%.
 
         무기 스킬 사용 후, 22초간 쉴드가 부서지거나 없는 적이 받는 피해가 8.0% 증가하고(갱신 가능) 다음 효과를 얻는다: 출혈 상태의 적에게 공격이 명중시, 물감을 퍼뜨려 공격력 5 x 140.0%의 물리 대미지를 주변의 적에게 가한다.
-- priWeapon: seven-thunders-pri
-  id: seven-thunders
+- id: seven-thunders
   version: "5.8"
   name: Seven Thunders of Retribution - Echo
   krName: 속죄의 칠뢰·명
@@ -117,6 +156,7 @@
     - id: hot
   sources:
     - type: special-divine-key-supply
+  priWeapon: seven-thunders-pri
   skills:
     - name: Naruikazuchinokami
       krName: 나루이카즈치노카미
