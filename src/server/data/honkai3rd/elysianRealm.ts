@@ -1,242 +1,118 @@
-import { readFileSync, readJsonFileSync } from '../fs'
 import {
-  parseSignetId,
   PopulatedSignetGroup,
   RemembranceSigil,
-  remembranceSigilIds,
-  SignetData,
-  signetGroups,
-  SignetSet,
   SupportBattlesuit,
-  supportBattlesuitIds,
 } from '../../../lib/honkai3rd/elysianRealm'
-import { getBattlesuitById } from './battlesuits'
+import yaml from 'yaml'
+import fs from 'fs'
+import path from 'path'
+import { omit } from 'ramda'
 
-export const signetGroupMap = signetGroups.reduce<{
+let cachedSignetGroupMap: any = null
+
+export function getSignetGroupMap(locale?: string): {
   [key: string]: PopulatedSignetGroup
-}>((map, group) => {
-  let populatedGroup = map[group.id]
-  if (populatedGroup == null) {
-    populatedGroup = {
-      id: group.id,
-      name: group.name,
-      altName: group.altName,
-      sets: [],
+} {
+  if (cachedSignetGroupMap == null) {
+    cachedSignetGroupMap = yaml.parse(
+      fs
+        .readFileSync(
+          path.join(process.cwd(), 'data/honkai3rd/er-signets.yaml')
+        )
+        .toString('utf-8')
+    )
+  }
+  const signetGroupMap = cachedSignetGroupMap
+
+  const localized = Object.entries(signetGroupMap as any).reduce(
+    (map, [groupId, group]: [string, any]) => {
+      const sets = group.sets.map((set: any) => {
+        const signets = (set.signets as any[]).map((signet) => {
+          return {
+            ...localizeSignet(signet),
+            upgrades: signet.upgrades.map(localizeSignet),
+          }
+        })
+        return {
+          ...omit(['krName'], set),
+          name: locale === 'ko-KR' ? set.krName : set.name,
+          signets,
+        }
+      })
+      map[groupId] = {
+        ...omit(['krName', 'krAltName'], group),
+        name: locale === 'ko-KR' ? group.krName : group.name,
+        altName: locale === 'ko-KR' ? group.krAltName : group.altName,
+        sets,
+      }
+      return map
+    },
+    {} as any
+  )
+
+  return localized
+
+  function localizeSignet(signet: any) {
+    return {
+      ...omit(['krName', 'krDescription'], signet),
+      name: locale === 'ko-KR' ? signet.krName : signet.name,
+      description:
+        locale === 'ko-KR' ? signet.krDescription : signet.description,
     }
   }
-
-  for (const setId of group.setIds) {
-    const rawSetData = readFileSync(
-      `honkai3rd/elysianRealm/signets/${setId}.md`
-    ).toString()
-
-    const [, setType, setIndex] = parseSignetId(setId)
-
-    const name =
-      group.id === 'elysia'
-        ? `${getBattlesuitById(setType)!.name} Exclusive Signets`
-        : `${setType === 'nexus' ? 'Nexus Signets' : 'Normal Signets'}${
-            setIndex != null ? ` ${setIndex}` : ''
-          }`
-    const signetSet: SignetSet = {
-      id: setId,
-      name,
-      signets: [],
-    }
-
-    if (setId.startsWith('elysia-') || setId.endsWith('normal')) {
-      const signets = parseNormalSignetsRawData(setId, rawSetData)
-      signetSet.signets.push(...signets)
-    } else {
-      const signets = parseNexusSignetsRawData(setId, rawSetData)
-      signetSet.signets.push(...signets)
-    }
-
-    populatedGroup.sets.push(signetSet)
-  }
-  map[group.id] = populatedGroup
-
-  return map
-}, {})
-
-export const krSignetGroupMap = signetGroups.reduce<{
-  [key: string]: PopulatedSignetGroup
-}>((map, group) => {
-  let populatedGroup = map[group.id]
-  if (populatedGroup == null) {
-    populatedGroup = {
-      id: group.id,
-      name: group.krName,
-      altName: group.krAltName,
-      sets: [],
-    }
-  }
-
-  for (const setId of group.setIds) {
-    const rawSetData = readFileSync(
-      `honkai3rd/ko-KR/elysianRealm/signets/${setId}.md`
-    ).toString()
-
-    const [, setType, setIndex] = parseSignetId(setId)
-
-    const name =
-      group.id === 'elysia'
-        ? `${getBattlesuitById(setType, 'ko-KR')!.name} 전용 각인`
-        : `${setType === 'nexus' ? '증폭 각인' : '일반 각인'}${
-            setIndex != null ? ` ${setIndex}` : ''
-          }`
-    const signetSet: SignetSet = {
-      id: setId,
-      name,
-      signets: [],
-    }
-
-    if (setId.startsWith('elysia-') || setId.endsWith('normal')) {
-      const signets = parseNormalSignetsRawData(setId, rawSetData)
-      signetSet.signets.push(...signets)
-    } else {
-      const signets = parseNexusSignetsRawData(setId, rawSetData)
-      signetSet.signets.push(...signets)
-    }
-
-    populatedGroup.sets.push(signetSet)
-  }
-  map[group.id] = populatedGroup
-
-  return map
-}, {})
+}
 
 export function getSignetGroupById(id: string, locale = 'en-US') {
-  if (locale === 'ko-KR') {
-    return krSignetGroupMap[id]
-  }
-  return signetGroupMap[id]
+  const signetGroup = getSignetGroupMap(locale)
+  return signetGroup[id]
 }
 
-export function getSupportBattlesuits(locale?: string) {
-  return supportBattlesuitIds.map<SupportBattlesuit>((battlesuitId) => {
-    const battlesuit = getBattlesuitById(battlesuitId, locale)!
-    const {
-      skillName,
-      description,
-      cooldown,
-    }: { skillName: string; description: string; cooldown: number } =
-      readJsonFileSync(
-        `honkai3rd/elysianRealm/supportBattlesuits/${battlesuitId}.json`
-      )
+let cachedSupports: any = null
 
-    let localizedName = battlesuit.name
-    let localizedSkillName = skillName
-    let localizedDescription = description
+export function getSupportBattlesuits(locale?: string): SupportBattlesuit[] {
+  if (cachedSignetGroupMap == null) {
+    cachedSupports = yaml.parse(
+      fs
+        .readFileSync(
+          path.join(process.cwd(), 'data/honkai3rd/er-supports.yaml')
+        )
+        .toString('utf-8')
+    )
+  }
+  const supports = cachedSupports
 
-    if (locale === 'ko-KR') {
-      const [krSkillName, ...krDescriptionLines] = readFileSync(
-        `honkai3rd/ko-KR/elysianRealm/supportBattlesuits/${battlesuitId}.md`
-      )
-        .toString()
-        .trim()
-        .slice(2)
-        .split('\n\n')
-
-      localizedSkillName = krSkillName
-      localizedDescription = krDescriptionLines.join('\n').trim()
-    }
-
+  const localized = supports.map((support: any) => {
     return {
-      id: battlesuitId,
-      name: localizedName,
-      skillName: localizedSkillName,
-      description: localizedDescription,
-      cooldown,
+      ...omit(['krName', 'krSkillName', 'krDescription'], support),
+      name: locale === 'ko-KR' ? support.krName : support.name,
+      skillName: locale === 'ko-KR' ? support.krSkillName : support.skillName,
+      description:
+        locale === 'ko-KR' ? support.krDescription : support.description,
     }
   })
-}
-export function getRemembranceSigils(locale?: string) {
-  return remembranceSigilIds.map<RemembranceSigil>((sigilId) => {
-    const rawDataPathname =
-      locale === 'ko-KR'
-        ? `honkai3rd/ko-KR/elysianRealm/remembranceSigils/${sigilId}.md`
-        : `honkai3rd/elysianRealm/remembranceSigils/${sigilId}.md`
-    const [name, ...descriptionLines] = readFileSync(rawDataPathname)
-      .toString()
-      .trim()
-      .slice(2)
-      .split('\n\n')
 
+  return localized
+}
+
+let cachedSigils: any = null
+
+export function getRemembranceSigils(locale?: string): RemembranceSigil[] {
+  if (cachedSignetGroupMap == null) {
+    cachedSigils = yaml.parse(
+      fs
+        .readFileSync(path.join(process.cwd(), 'data/honkai3rd/er-sigils.yaml'))
+        .toString('utf-8')
+    )
+  }
+  const sigils = cachedSigils
+
+  const localized = sigils.map((sigil: any) => {
     return {
-      id: sigilId,
-      name: name.trim(),
-      description: descriptionLines.join('\n').trim(),
+      ...omit(['krName', 'krDescription'], sigil),
+      name: locale === 'ko-KR' ? sigil.krName : sigil.name,
+      description: locale === 'ko-KR' ? sigil.krDescription : sigil.description,
     }
   })
-}
 
-function parseNormalSignetsRawData(setId: string, data: string) {
-  const signetSections = data.replace(/\\\*/g, '*').slice(2).split('\n# ')
-  const signets: SignetData[] = []
-  for (const index in signetSections) {
-    const section = signetSections[index]
-    const [name, description, ...upgradeTextBlocks] = section.split('\n\n')
-    const upgradeList = upgradeTextBlocks
-      .join('\n\n')
-      .split('## ')
-      .slice(1)
-      .map((upgradeTextBlock) => {
-        const [name, description] = upgradeTextBlock.split('\n\n')
-        return {
-          name,
-          description,
-          krName: name,
-          krDescription: description,
-        }
-      })
-    signets.push({
-      id: `${setId}-${index + 1}`,
-      name,
-      description,
-      upgrades: upgradeList,
-    })
-  }
-  return signets
-}
-
-function parseNexusSignetsRawData(setId: string, data: string) {
-  const signetSections = data.replace(/\\\*/g, '*').slice(2).split('\n## ')
-  const coreSignetSection = signetSections.shift()
-  const [coreSignetName, coreSignetDescription] =
-    coreSignetSection!.split('\n\n')
-  const coreSignet = {
-    id: `${setId}-1`,
-    name: coreSignetName,
-    description: coreSignetDescription,
-    krName: coreSignetName,
-    krDescription: coreSignetDescription,
-    upgrades: [],
-  }
-  const signets: SignetData[] = []
-  signets.push(coreSignet)
-  for (const index in signetSections) {
-    const section = signetSections[index]
-    const [name, description, ...upgradeTextBlocks] = section.split('\n\n')
-    const upgradeList = upgradeTextBlocks
-      .join('\n\n')
-      .split('### ')
-      .slice(1)
-      .map((upgradeTextBlock) => {
-        const [name, description] = upgradeTextBlock.split('\n\n')
-        return {
-          name,
-          description,
-          krName: name,
-          krDescription: description,
-        }
-      })
-    signets.push({
-      id: `${setId}-${index + 2}`,
-      name,
-      description,
-      upgrades: upgradeList,
-    })
-  }
-  return signets
+  return localized
 }
