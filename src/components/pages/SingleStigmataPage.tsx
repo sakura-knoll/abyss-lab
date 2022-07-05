@@ -87,7 +87,14 @@ const SingleStigmataPage = ({
             HP : {stigmataData.hp} / ATK : {stigmataData.atk} / DEF :{' '}
             {stigmataData.def} / CRT : {stigmataData.crt}
           </Box>
-          <Paragraph p={2}>{stigmataData.skill.description}</Paragraph>
+          <Paragraph
+            p={2}
+            sx={{
+              whiteSpace: 'pre-wrap',
+            }}
+          >
+            {stigmataData.skill.description}
+          </Paragraph>
         </Card>
 
         {stigmataSet != null && (
@@ -122,13 +129,23 @@ const SingleStigmataPage = ({
             <Heading as='h3' m={0} p={2} sx={{ borderBottom: 'default' }}>
               {stigmataSet.twoSetSkill.name}
             </Heading>
-            <Paragraph m={0} p={2} sx={{ borderBottom: 'default' }}>
+            <Paragraph
+              m={0}
+              p={2}
+              sx={{ borderBottom: 'default', whiteSpace: 'pre-wrap' }}
+            >
               {stigmataSet.twoSetSkill.description}
             </Paragraph>
             <Heading as='h3' m={0} p={2} sx={{ borderBottom: 'default' }}>
               {stigmataSet.threeSetSkill.name}
             </Heading>
-            <Paragraph m={0} p={2}>
+            <Paragraph
+              m={0}
+              p={2}
+              sx={{
+                whiteSpace: 'pre-wrap',
+              }}
+            >
               {stigmataSet.threeSetSkill.description}
             </Paragraph>
           </Card>

@@ -101,6 +101,7 @@ const StigmataSetPage = ({
                   sx={{
                     borderBottom: 'default',
                     '&:last-child': { borderBottom: 'none' },
+                    whiteSpace: 'pre-wrap',
                   }}
                 >
                   {stigmataSetItem.skill.description}
@@ -114,13 +115,17 @@ const StigmataSetPage = ({
           <Heading as='h2' m={0} p={2} sx={{ borderBottom: 'default' }}>
             {stigmataSet.twoSetSkill.name}
           </Heading>
-          <Paragraph m={0} p={2} sx={{ borderBottom: 'default' }}>
+          <Paragraph
+            m={0}
+            p={2}
+            sx={{ borderBottom: 'default', whiteSpace: 'pre-wrap' }}
+          >
             {stigmataSet.twoSetSkill.description}
           </Paragraph>
           <Heading as='h2' m={0} p={2} sx={{ borderBottom: 'default' }}>
             {stigmataSet.threeSetSkill.name}
           </Heading>
-          <Paragraph m={0} p={2}>
+          <Paragraph m={0} p={2} sx={{ whiteSpace: 'pre-wrap' }}>
             {stigmataSet.threeSetSkill.description}
           </Paragraph>
         </Card>

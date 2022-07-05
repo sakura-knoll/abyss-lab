@@ -1,7 +1,7 @@
-- previousVersion: "5.8"
-  version: "5.9"
-  name: "-"
-  krName: "-"
+- previousVersion: '5.8'
+  version: '5.9'
+  name: '-'
+  krName: '-'
   duration:
     - 2022-08-11
     - 2022-09-22
@@ -10,11 +10,11 @@
   newWeapons:
     - vill-v-pri-weapon
     - vill-v-weapon
-  description: ""
+  description: ''
   supplyEvents: []
-- previousVersion: "5.7"
-  version: "5.8"
-  nextVersion: "5.9"
+- previousVersion: '5.7'
+  version: '5.8'
+  nextVersion: '5.9'
   name: Canvas of Stars
   krName: 뭇별의 캔버스
   duration:
@@ -25,9 +25,163 @@
   newWeapons:
     - griseo-pri-weapon
     - griseo-weapon
-  description: ""
+  description: ''
   supplyEvents:
-    - name: Dark Star Focused Supply B
+    - name: Cerulean Flare Focused Supply B
+      duration:
+        - 2022-08-01
+        - 2022-08-08
+      track: 5
+      verified: false
+      featured:
+        - type: weapon
+          id: cerulean-flare
+        - type: stigmata-set
+          id: avogadro
+      others: []
+    - name: Falcon Flare 0019 Focused Supply A
+      duration:
+        - 2022-07-29
+        - 2022-08-05
+      track: 4
+      verified: false
+      featured:
+        - type: weapon
+          id: falcon-flare-0019
+        - type: stigmata-set
+          id: bronya-n-ex
+      others:
+        - type: weapon
+          id: nue-of-the-shadow
+        - type: weapon
+          id: basilisk-s-image
+        - type: weapon
+          id: skoll-and-hati
+        - type: weapon
+          id: iris-of-the-dream
+        - type: weapon
+          id: eos-gloria
+        - type: weapon
+          id: cerulean-flare
+        - type: stigmata-set
+          id: avogadro
+        - type: stigmata-set
+          id: wang-zhenyi
+        - type: stigmata-set
+          id: elysia
+        - type: stigmata-set
+          id: shuijing
+    - name: 'Silverwing: N-EX Expansion Supply'
+      duration:
+        - 2022-07-29
+        - 2022-08-05
+      track: 3
+      verified: false
+      featured:
+        - type: battlesuit
+          id: sw
+        - type: battlesuit
+          id: vg
+      others:
+        - type: battlesuit
+          id: ns
+        - type: battlesuit
+          id: sf
+        - type: battlesuit
+          id: va
+    - name: Might of An-Utu Schicksal Arsenal
+      duration:
+        - 2022-07-29
+        - 2022-08-11
+      track: 7
+      verified: false
+      featured:
+        - type: weapon
+          id: might-of-an-utu
+        - type: weapon
+          id: miracle-kissy-pillow
+        - type: stigmata-set
+          id: paganini
+      others:
+        - type: weapon
+          id: crusher-bunny-19c
+        - type: weapon
+          id: basilisk-s-image
+        - type: weapon
+          id: keys-of-oblivion
+        - type: weapon
+          id: path-to-acheron
+        - type: weapon
+          id: hler-s-serenity
+        - type: stigmata-set
+          id: murata-himeko
+        - type: stigmata-set
+          id: benares-awaken
+        - type: stigmata-set
+          id: dickens
+        - type: stigmata-set
+          id: shakespeare-adrift
+    - name: Sweet 'n' Spicy Event Supply
+      duration:
+        - 2022-07-29
+        - 2022-08-11
+      track: 1
+      verified: false
+      featured:
+        - type: battlesuit
+          id: sns
+      others:
+        - type: battlesuit
+          id: random-a-rank
+        - type: battlesuit-fragment
+          id: random-a-rank
+        - type: battlesuit-soul
+          id: random-a-rank
+    - name: Key of Reason Focused Supply B
+      duration:
+        - 2022-07-25
+        - 2022-08-01
+      track: 5
+      verified: false
+      featured:
+        - type: weapon
+          id: key-of-reason
+        - type: stigmata-set
+          id: welt-yang
+      others: []
+    - name: Starlance Prime Focused Supply A
+      duration:
+        - 2022-07-22
+        - 2022-07-29
+      track: 4
+      verified: false
+      featured:
+        - type: weapon
+          id: starlance-prime
+        - type: stigmata-set
+          id: shakespeare-adrift
+      others:
+        - type: weapon
+          id: keys-of-the-void
+        - type: weapon
+          id: key-of-reason
+        - type: weapon
+          id: godslayer-surtr
+        - type: weapon
+          id: nebulous-duality
+        - type: weapon
+          id: path-to-acheron
+        - type: weapon
+          id: whisper-of-the-past
+        - type: stigmata-set
+          id: welt-yang
+        - type: stigmata-set
+          id: linnaeus
+        - type: stigmata-set
+          id: dickens
+        - type: stigmata-set
+          id: aslaug
+    - name: Iris of the Dreams Focused Supply B
       duration:
         - 2022-07-18
         - 2022-07-25
@@ -35,13 +189,9 @@
       verified: false
       featured:
         - type: weapon
-          id: dark-star
-        - type: stigmata
-          id: holmes-top
-        - type: stigmata
-          id: holmes-mid
-        - type: stigmata
-          id: holmes-bot
+          id: iris-of-the-dreams
+        - type: stigmata-set
+          id: irene-adler
       others: []
     - name: Seven Thunders Supply
       duration:
@@ -54,12 +204,8 @@
           id: seven-thunders
         - type: weapon
           id: mitternachts-waltz
-        - type: stigmata
-          id: wang-zhenyi-top
-        - type: stigmata
-          id: wang-zhenyi-mid
-        - type: stigmata
-          id: wang-zhenyi-bot
+        - type: stigmata-set
+          id: wang-zhenyi
       others:
         - type: weapon
           id: key-of-radiance
@@ -71,30 +217,14 @@
           id: sanguine-gaze
         - type: weapon
           id: whisper-of-the-past
-        - type: stigmata
-          id: fu-hua-margrave-top
-        - type: stigmata
-          id: fu-hua-margrave-mid
-        - type: stigmata
-          id: fu-hua-margrave-bot
-        - type: stigmata
-          id: turgenev-top
-        - type: stigmata
-          id: turgenev-mid
-        - type: stigmata
-          id: turgenev-bot
-        - type: stigmata
-          id: avogadro-top
-        - type: stigmata
-          id: avogadro-mid
-        - type: stigmata
-          id: avogadro-bot
-        - type: stigmata
-          id: ragna-top
-        - type: stigmata
-          id: ragna-mid
-        - type: stigmata
-          id: ragna-bot
+        - type: stigmata-set
+          id: fu-hua-margrave
+        - type: stigmata-set
+          id: turgenev
+        - type: stigmata-set
+          id: avogadro
+        - type: stigmata-set
+          id: ragna
     - name: Key of Castigation Focused Supply A
       duration:
         - 2022-07-15
@@ -110,7 +240,27 @@
           id: benares-awakening-mid
         - type: stigmata
           id: benares-awakening-bot
-      others: []
+      others:
+        - type: weapon
+          id: eye-of-collapse
+        - type: weapon
+          id: sleeping-beauty
+        - type: weapon
+          id: hekate-s-gloom
+        - type: weapon
+          id: keys-of-oblivion
+        - type: weapon
+          id: iris-of-the-dream
+        - type: weapon
+          id: hler-s-serenity
+        - type: stigmata-set
+          id: irene-adler
+        - type: stigmata-set
+          id: columbus
+        - type: stigmata-set
+          id: allan-poe
+        - type: stigmata-set
+          id: murata-himeko
     - name: Herrscher of Thunder Battlesuit Expansion Supply
       duration:
         - 2022-07-15
@@ -158,12 +308,8 @@
       featured:
         - type: weapon
           id: dark-star
-        - type: stigmata
-          id: holmes-top
-        - type: stigmata
-          id: holmes-mid
-        - type: stigmata
-          id: holmes-bot
+        - type: stigmata-set
+          id: holmes
       others: []
     - name: Infinite Ouroboros Battlesuit Expansion Supply
       duration:
@@ -211,52 +357,52 @@
           id: nuada-s-grief
         - type: weapon
           id: obscuring-wing
-        - type: stigmata
-          id: holmes-top
-        - type: stigmata
-          id: holmes-mid
-        - type: stigmata
-          id: holmes-bot
-        - type: stigmata
-          id: verne-top
-        - type: stigmata
-          id: verne-mid
-        - type: stigmata
-          id: verne-bot
-        - type: stigmata
-          id: irene-top
-        - type: stigmata
-          id: irene-mid
-        - type: stigmata
-          id: irene-bot
-        - type: stigmata
-          id: shakespeare-adrift-top
-        - type: stigmata
-          id: shakespeare-adrift-mid
-        - type: stigmata
-          id: shakespeare-adrift-bot
+        - type: stigmata-set
+          id: holmes
+        - type: stigmata-set
+          id: verne
+        - type: stigmata-set
+          id: irene-adler
+        - type: stigmata-set
+          id: shakespeare-adrift
     - name: Sleeping Beauty Focused Supply B
       duration:
-        - 2022-07-03
+        - 2022-07-04
         - 2022-07-11
       track: 5
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: sleeping-beauty
-        - type: stigmata
-          id: dickens-top
-        - type: stigmata
-          id: dickens-mid
-        - type: stigmata
-          id: dickens-bot
-      others: []
+        - type: stigmata-set
+          id: dickens
+      others:
+        - type: weapon
+          id: ice-epiphyllum
+        - type: weapon
+          id: zither-s-lament
+        - type: weapon
+          id: nebulous-duality
+        - type: weapon
+          id: path-to-acheron
+        - type: weapon
+          id: eos-gloria
+        - type: weapon
+          id: whisper-of-the-past
+        - type: stigmata-set
+          id: benares-awakening
+        - type: stigmata-set
+          id: shuijing
+        - type: stigmata-set
+          id: welt-yang
+        - type: stigmata-set
+          id: leeuwenhoek
     - name: Tesla ZERO Elf Supply
       duration:
         - 2022-06-30
         - 2022-07-15
       track: 6
-      verified: false
+      verified: true
       featured:
         - type: elf
           id: tz
@@ -266,16 +412,12 @@
         - 2022-06-30
         - 2022-07-08
       track: 4
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: keys-of-oblivion
-        - type: stigmata
-          id: shattered-swords-top
-        - type: stigmata
-          id: shattered-swords-mid
-        - type: stigmata
-          id: shattered-swords-bot
+        - type: stigmata-set
+          id: shattered-swords
       others:
         - type: weapon
           id: key-of-radiance
@@ -289,36 +431,20 @@
           id: mitternachts-waltz
         - type: weapon
           id: sanguine-gaze
-        - type: stigmata
-          id: dickens-top
-        - type: stigmata
-          id: dickens-mid
-        - type: stigmata
-          id: dickens-bot
-        - type: stigmata
-          id: turgenev-top
-        - type: stigmata
-          id: turgenev-mid
-        - type: stigmata
-          id: turgenev-bot
-        - type: stigmata
-          id: avogadro-top
-        - type: stigmata
-          id: avogadro-mid
-        - type: stigmata
-          id: avogadro-bot
-        - type: stigmata
-          id: columbus-top
-        - type: stigmata
-          id: columbus-mid
-        - type: stigmata
-          id: columbus-bot
+        - type: stigmata-set
+          id: dickens
+        - type: stigmata-set
+          id: turgenev
+        - type: stigmata-set
+          id: avogadro
+        - type: stigmata-set
+          id: columbus
     - name: Herrscher of Sentience Battlesuit Expansion Supply
       duration:
         - 2022-06-30
         - 2022-07-08
       track: 3
-      verified: false
+      verified: true
       featured:
         - type: battlesuit
           id: hos
@@ -331,28 +457,42 @@
           id: vr
         - type: battlesuit
           id: sp
-    - name: Starry Night of the Past Equipment Supply
+    - name: Elysian Astra Equipment Supply
       duration:
         - 2022-06-30
         - 2022-07-29
       track: 2
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: griseo-weapon
-        - type: stigmata
-          id: cezanne-top
-        - type: stigmata
-          id: cezanne-mid
-        - type: stigmata
-          id: cezanne-bot
-      others: []
+        - type: stigmata-set
+          id: cezanne
+      others:
+        - type: weapon
+          id: key-of-castigation
+        - type: weapon
+          id: crusher-bunny-19c
+        - type: weapon
+          id: astral-rend
+        - type: weapon
+          id: starlance-prime
+        - type: weapon
+          id: obscuring-wing
+        - type: stigmata-set
+          id: linnaeus
+        - type: stigmata-set
+          id: murata-himeko
+        - type: stigmata-set
+          id: kafka
+        - type: stigmata-set
+          id: wang-zhenyi
     - name: Starry Impression Event Supply
       duration:
         - 2022-06-30
         - 2022-07-29
       track: 1
-      verified: false
+      verified: true
       featured:
         - type: battlesuit
           id: griseo
@@ -363,10 +503,9 @@
           id: random-a-rank
         - type: battlesuit-soul
           id: random-a-rank
-  verified: false
-- previousVersion: "5.6"
-  nextVersion: "5.8"
-  version: "5.7"
+- previousVersion: '5.6'
+  nextVersion: '5.8'
+  version: '5.7'
   name: Song of Perdition
   krName: 죄의 노래
   duration:
@@ -379,14 +518,14 @@
     - lost-conviction-damnation
     - lost-conviction
     - echo-of-paradise
-  description: ""
+  description: ''
   supplyEvents:
     - name: Key of Reason Focused Supply B
       duration:
         - 2022-06-27
         - 2022-06-30
       track: 4
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: key-of-reason
@@ -402,7 +541,7 @@
         - 2022-06-24
         - 2022-06-30
       track: 3
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: mitternachts-waltz
@@ -464,7 +603,27 @@
           id: irene-adler-mid
         - type: stigmata
           id: irene-adler-bot
-      others: []
+      others:
+        - type: weapon
+          id: demonblade-florid-sakura
+        - type: weapon
+          id: briareus-pri
+        - type: weapon
+          id: sleeping-beauty
+        - type: weapon
+          id: 11th-sacred-relic
+        - type: weapon
+          id: pledge-of-sakura
+        - type: weapon
+          id: nuada-s-grief
+        - type: stigmata-set
+          id: shakespeare-adrift
+        - type: stigmata-set
+          id: dante
+        - type: stigmata-set
+          id: ishikawa-goemon
+        - type: stigmata-set
+          id: thales
     - name: Spina Astera Expansion Supply
       duration:
         - 2022-06-17
@@ -543,7 +702,7 @@
           id: allan-poe-mid
         - type: stigmata
           id: allan-poe-bot
-    - name: "Astral Rend: White Dwarf Focused Supply A"
+    - name: 'Astral Rend: White Dwarf Focused Supply A'
       duration:
         - 2022-06-17
         - 2022-06-24
@@ -699,7 +858,7 @@
           id: welt-yang-mid
         - type: stigmata
           id: welt-yang-bot
-    - name: "Bright Knight: Excelsis ADV Supply"
+    - name: 'Bright Knight: Excelsis ADV Supply'
       duration:
         - 2022-06-03
         - 2022-06-17
@@ -1058,9 +1217,9 @@
         - type: battlesuit
           id: vg
   verified: false
-- previousVersion: "5.5"
-  nextVersion: "5.7"
-  version: "5.6"
+- previousVersion: '5.5'
+  nextVersion: '5.7'
+  version: '5.6'
   name: Elysian Reverie
   krName: 과거의 공상
   duration:
@@ -1073,7 +1232,7 @@
     - purana-phantasma
     - gilded-librae
     - cerulean-flare
-  description: ""
+  description: ''
   supplyEvents:
     - name: Nue of the Shadow Focused Supply B
       duration:
@@ -2030,9 +2189,9 @@
         - type: battlesuit-fragment
           id: ur
   verified: true
-- previousVersion: "5.4"
-  nextVersion: "5.6"
-  version: "5.5"
+- previousVersion: '5.4'
+  nextVersion: '5.6'
+  version: '5.5'
   name: Equinox Gate
   krName: 천원시동
   duration:
@@ -2046,7 +2205,7 @@
     - midnight-eclipse
     - astral-divide-pisces
     - astral-rend-white-dwarf
-  description: ""
+  description: ''
   supplyEvents:
     - name: Skaldi Ondurgud Supply B
       duration:
@@ -3162,7 +3321,7 @@
           id: vg
         - type: battlesuit-fragment
           id: vg
-    - name: "Astral Rend: White Dwarf Equipment Supply"
+    - name: 'Astral Rend: White Dwarf Equipment Supply'
       duration:
         - 2022-02-27
         - 2022-03-14
@@ -3511,9 +3670,9 @@
           id: bd
       others: []
   verified: true
-- previousVersion: "5.3"
-  nextVersion: "5.5"
-  version: "5.4"
+- previousVersion: '5.3'
+  nextVersion: '5.5'
+  version: '5.4'
   name: Silverwing Beyond
   krName: 피안의 은익
   duration:
@@ -3524,7 +3683,7 @@
   newWeapons:
     - falcon-flare-0019
     - falcon-flare-final
-  description: ""
+  description: ''
   supplyEvents:
     - name: Eos Gloria Focused Supply B
       duration:
@@ -4178,7 +4337,7 @@
         - type: elf
           id: we
       others: []
-    - name: "Silverwing: N-EX Expansion Supply"
+    - name: 'Silverwing: N-EX Expansion Supply'
       duration:
         - 2022-01-13
         - 2022-02-04
@@ -4309,8 +4468,8 @@
         - type: stigmata
           id: ana-schariac-bot
   verified: true
-- nextVersion: "5.4"
-  version: "5.3"
+- nextVersion: '5.4'
+  version: '5.3'
   name: Post Dusk Odyssey
   krName: 황혼후서
   duration:

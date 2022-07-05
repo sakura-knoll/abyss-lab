@@ -58,13 +58,12 @@
   crt: 0
   set: cezanne
   skill:
-    name: ""
-    krName: "##"
-    description: "Increases Physical DMG by 15.0%. When Ult of any team charater
-      hits, increases Physical DMG of Ult by 27.0% for a short duration. CD:
-      10s. (Cannot be stacked)"
-    krDescription: "물리 대미지 +15.0%. 파티원의 필살기가 적에게 명중시, 필살기의 물리 대미지가 짧은 시간동안 27.0%
-      증가한다. 재사용 대기시간: 10초. (중첩 불가)"
+    name: "Landscape: Village Hut"
+    krName: "풍경화: 마을의 오두막"
+    description: >-
+      Physical DMG increases by 15.0%. Boosts Physical DMG dealt by Ultimate by 27.0% for a short duration after triggering any of the team's Ultimate. Can trigger once every 10s (cannot stack).
+    krDescription: >-
+      물리 대미지가 15.0% 증가한다. 파티원의 필살기 적중 시, 짧은 시간 필살기가 가하는 물리 대미지가 27.0% 증가한다. 발동 간격: 1초(하나만 적용)
 - id: cezanne-mid
   version: "5.8"
   name: Cezanne (M)
@@ -77,12 +76,12 @@
   crt: 8
   set: cezanne
   skill:
-    name: ""
-    krName: "##"
-    description: Increases Bleeding Trauma accumulation by 25.0%. When the character
-      inflicts Bleding, increases Bleeding DMG of the character, taken by
-      enemies, by 20.0% for 10s. (Can be refreshed, independent effect)
-    krDescription: 출혈 게이지 축적 +25.0%. 출혈 부여시 적이 받는 출혈 피해 10초간 +20.0%. (갱신 가능, 독립 효과)
+    name: "Still Life: Tabletop Vase"
+    krName: "경물화: 책상 위의 꽃병"
+    description: >-
+      Increases Bleeding Trauma inflicted by wielder by 25.0%. When enemies take Bleed DMG, Bleed DMG is increased by 20.0% for 10.0s (cannot be stacked but can be reset).
+    krDescription: >-
+      캐릭터의 공격이 누적하는 출혈 게이지가 25.0% 증가한다. 캐릭터가 적에게 출혈 대미지를 가할 시, 해당 적이 받는 출혈 대미지가 20.0% 증가한다. 지속 시간: 10.0초(갱신 가능, 하나만 적용)
 - id: cezanne-bot
   version: "5.8"
   name: Cezanne (B)
@@ -95,16 +94,12 @@
   crt: 16
   set: cezanne
   skill:
-    name: ""
-    krName: "##"
-    description: "When Branch attack hits, all enemies on the field gain [Structure
-      Sketch] status, which increases Total DMG taken of the enemies by 36.0%
-      for 6s. CD: 16s. And other team members gain a buff which is consumed when
-      they enter the battle field and extends duration of [Structure Sketch] by
-      1.5s, up to 9s. [Structure Sketch] can be stacked up to 2 times."
-    krDescription: "분기 공격이 적중시, 필드의 모든 적에게 [구조 묘사] 상태를 부여하여 6초간 적이 받는 모든 피해를 36.0%
-      증가시킨다. 재사용 대기시간: 16초. 그리고 동시에 다른 파티원에게 강화 효과를 부여하여, 이를 지닌 파티원들은 필드 진입시 해당
-      효과를 소모하고, [구조 묘사] 상태를 1.5초 연장시킨다. 최대 9초까지 연장 가능. [구조 묘사] 상태는 2회 중첩될 수 있다."
+    name: "Sculpture: Hatted Man"
+    krName: "초상화: 모자 쓴 사람"
+    description: >-
+      When hitting character's Combo ATK, all enemies are inflicted with Structure Outline, increasing their TOtal DMG received by 36.0% for 6s. CD: 16s. Team's characters are enhanced once. Entering the field again clears the enhancement and causes Structure Outline to last 1.5s longer, up to a maximum of 9s. Structure Outline can only be stacked twice.
+    krDescription: >-
+      캐릭터의 분기 공격 적중 시, 전장의 모든 적은 [구조 스케치] 상태를 획득해 받는 모든 대미지가 36.0% 증가한다. 지속 시간: 6초, 재사용 대기시간: 16초. 또한, 파티 내 다른 캐릭터는 강화 효과를 1회 획득하고, 다음 출전 시 강화를 소모해 [구조 스케치] 상태의 지속 시간을 1.5초 연장한다. 최대 연장 시간: 9초, [구조 스케치] 상태는 최대 2회 중첩할 수 있다.
 - id: handel-top
   version: "5.7"
   name: Handel (T)
