@@ -67,7 +67,9 @@ const ElysianRealmIndexPage = ({
                     <Heading as='h3' mb={2}>
                       {name}
                     </Heading>
-                    <Paragraph>{description}</Paragraph>
+                    <Paragraph sx={{ whiteSpace: 'pre-wrap' }}>
+                      {description}
+                    </Paragraph>
                   </Box>
                 </Flex>
               </Card>

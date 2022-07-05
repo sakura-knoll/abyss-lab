@@ -109,7 +109,7 @@
 - id: griseo
   version: '5.8'
   name: Starry Impression
-  krName: 뭇별·세상을 그리는 책
+  krName: 번성·세상을 그리는 별
   type: psychic
   valkyrie: griseo
   features:
@@ -15621,13 +15621,11 @@
         requiredRank: ss
       - name: 'QTE: Freezing Art'
         krName: QTE - 냉기참
-        description:
-          'QTE: Triggered by shieldbreak to unleash Freezing Ki dealing
-          600.0% ATK of Ice DMG, freezing enemies for 5s, and inflicting 6 Rime
-          Trauma.'
-        krDescription:
-          'QTE: 적의 실드가 파괴됐을 때 발동한다. 얼음 검기를 휘둘러 공격력 600.0%의 빙결 원소 대미지를 가하고,
-          적을 5초 동안 빙결시키며, 빙결 게이지를 6pt 누적한다.'
+        description: |-
+          QTE: Triggered by a shield break to unleash Freezing Ki, dealing
+          600% ATK of Ice DMG and inflicting 6 Rime Trauma.
+        krDescription: |-
+          QTE: 적의 실드가 파괴됐을 때 QTE 출전, 얼음 검기를 발사해 공격력 600%의 빙결 원소 대미지를 가하고, 빙결 게이지를 6pt 누적한다.
 - id: miko
   name: Gyakushinn Miko
   krName: 역신 무녀
@@ -17093,11 +17091,10 @@
     subskills:
       - name: Particle Beam
         krName: 입자 광선
-        description: Enemies gathered by Grav Singularity bleed, take 40% ATK of
-          Physical DMG every 0.5s and build up 1.5 Bleed Trauma every second.
-        krDescription:
-          특이점에 끌려온 적은 지속적으로 출혈 상태에 빠져 0.5초마다 공격력 40%의 물리 대미지를 받고, 매초 출혈
-          게이지를 1.5pt 누적한다.
+        description: |-
+          Enemies pulled by Grav Singularity receive 1.5 Bleed Trauma every second.
+        krDescription: |-
+          특이점에 끌려온 적에게 매초 출혈 게이지를 1.5pt 누적한다.
       - name: Particle Fusion
         krName: 입자 융합
         description:
@@ -17133,12 +17130,9 @@
           대미지를 막아낸다.'
       - name: Atomic Radiation
         krName: 원자 방사
-        description:
-          Uncharged attacks ignite the target and enemies nearby, dealing 30%
-          ATK of Fire DMG every 0.5s for 10s and  inflicting 2 Ignite Trauma.
-        krDescription:
-          '차지하지 않고 바로 공격 시, 목표와 주변 적을 연소시킨다. 연소 상태인 적은 0.5초마다 공격력 30%의 화염
-          원소 대미지를 받는다. 지속 시간: 10초, 연소 게이지를 2pt 누적한다.'
+        description: Uncharged attacks inflict 2 Ignite Trauma on the target and nearby enemies.
+        krDescription: |-
+          차지하지 않고 바로 공격 시, 목표와 주변 적에게 연소 게이지를 2pt 누적한다.
       - name: Chain Reaction
         krName: 연쇄 반응
         description:
@@ -17597,13 +17591,11 @@
           6pt 누적한다.
       - name: 'QTE: Aerial Helix'
         krName: QTE - 부유 나선
-        description:
-          'QTE: Triggered when an enemy is knocked airborne, dealing 375% ATK
-          + 2,250.0 of Physical DMG. Last hit of the QTE stuns the enemy for 5s
-          and inflicts 3 Stun Trauma.'
-        krDescription:
-          'QTE: 적이 공중에 띄워질 때 발동한다. 공격력의 375% + 2,250.0의 물리 대미지를 가하고, 마지막
-          일격은 적을 기절시킨다. 지속 시간: 5초. 기절 게이지를 3pt 누적한다.'
+        description: |-
+          QTE: Triggered when an enemy is knocked airborne, dealing 375% ATK
+          + 5,000.0 of Physical DMG. The last hit inflicts 3 Stun Trauma.
+        krDescription: |-
+          QTE: 적이 공중에 띄워질 때 발동한다. 공격력의 375% + 5,000.0의 물리 대미지를 가하고, 마지막 일격은 적에게 기절 게이지를 3pt 누적한다.
       - name: Gravity Freak
         krName: 허황된 중력
         description:
