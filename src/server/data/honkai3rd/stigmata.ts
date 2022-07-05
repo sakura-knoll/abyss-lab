@@ -120,9 +120,11 @@ export function getStigmataSetBySetId(setId: string, locale?: string) {
 }
 
 export function getStigmataListBySetId(setId: string, locale?: string) {
-  return ['top', 'mid', 'bot'].map((type) => {
-    return getStigmaById(setId + '-' + type, locale)!
-  })
+  return ['top', 'mid', 'bot']
+    .map((type) => {
+      return getStigmaById(setId + '-' + type, locale)!
+    })
+    .filter((stigma) => stigma != null)
 }
 
 export function getStigmataMapByIds(idList: string[], locale?: string) {

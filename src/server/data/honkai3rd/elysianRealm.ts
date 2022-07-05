@@ -70,7 +70,7 @@ export function getSignetGroupById(id: string, locale = 'en-US') {
 let cachedSupports: any = null
 
 export function getSupportBattlesuits(locale?: string): SupportBattlesuit[] {
-  if (cachedSignetGroupMap == null) {
+  if (cachedSupports == null) {
     cachedSupports = yaml.parse(
       fs
         .readFileSync(
@@ -97,7 +97,7 @@ export function getSupportBattlesuits(locale?: string): SupportBattlesuit[] {
 let cachedSigils: any = null
 
 export function getRemembranceSigils(locale?: string): RemembranceSigil[] {
-  if (cachedSignetGroupMap == null) {
+  if (cachedSigils == null) {
     cachedSigils = yaml.parse(
       fs
         .readFileSync(path.join(process.cwd(), 'data/honkai3rd/er-sigils.yaml'))

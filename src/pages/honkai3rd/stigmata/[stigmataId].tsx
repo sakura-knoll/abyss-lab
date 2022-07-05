@@ -38,7 +38,9 @@ export async function getStaticProps({
         type: 'single',
         stigmataData: stigmataData,
         stigmataSetList: (
-          getStigmataListBySetId(stigmataData.set!, locale) || []
+          (stigmataData.set != null &&
+            getStigmataListBySetId(stigmataData.set!, locale)) ||
+          []
         ).sort((a, b) => -a.type.localeCompare(b.type)),
         stigmataSet: getStigmataSetBySetId(stigmataData.set!, locale) || null,
         ...(await getI18NProps(locale)),
