@@ -1498,7 +1498,8 @@ function preLoadUiImages(resStr, resList, flag_continue) {
   if (flag_continue != 'continue') $('.preload').html('')
   for (var i = 0; i < resList.length; i++) {
     var $tempImage = $('<img></img>')
-    var tempSrc = base_url + '/resources/' + resStr + '/' + resList[i]
+    var tempSrc = getResourceUrl(resStr, resList[i])
+
     $tempImage
       .attr('src', tempSrc)
       .addClass('preload-image')
@@ -1583,12 +1584,11 @@ function preLoadImagesBegin(imageList) {
     else if (imageList[i].getAttribute('type') == 'cg') continue
     else if (imageList[i].getAttribute('type') == 'background') continue
     var $tempImage = $('<img></img>')
-    var tempSrc =
-      base_url +
-      '/resources/' +
-      imageList[i].getAttribute('type') +
-      '/' +
+    var tempSrc = getResourceUrl(
+      imageList[i].getAttribute('type'),
       imageList[i].getAttribute('src')
+    )
+
     if (imageList[i].getAttribute('type') == 'www')
       tempSrc = imageList[i].getAttribute('src')
     $tempImage
