@@ -1,4 +1,5 @@
 var base_url = 'https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy'
+var extra_url = '/novels/ae/ko-KR/extra'
 base_url = resPath
 var now_galgame_tag = '_2017_anti_entropy_now_galgame'
 var now_scene_tag = '_2017_anti_entropy_now_scene'
@@ -377,7 +378,7 @@ function cgPage(page, flag) {
       if (j >= page * 4 && j < (page + 1) * 4) {
         $('#cg-' + (j - page * 4)).css(
           'background-image',
-          "url('" + base_url + '/resources/cg/' + getText(cgListSort[i]) + "')"
+          "url('" + getResourceUrl('cg', getText(cgListSort[i])) + "')"
         )
         $('#cg-' + (j - page * 4)).click(
           { str: getText(cgListSort[i]) },
@@ -409,11 +410,7 @@ function cgPage(page, flag) {
         if (j >= page * 4 && j < (page + 1) * 4) {
           $('#cg-' + (j - page * 4)).css(
             'background-image',
-            "url('" +
-              base_url +
-              '/resources/cg/' +
-              getText(cgListSort[i]) +
-              "')"
+            "url('" + getResourceUrl('cg', getText(cgListSort[i])) + "')"
           )
           $('#cg-' + (j - page * 4)).click(
             { str: getText(cgListSort[i]) },
@@ -767,9 +764,7 @@ function processAction(act, gotoScene, gotoAction, skipKey, loadKey2) {
         .css(
           'background',
           "url('" +
-            base_url +
-            '/resources/cg/' +
-            act.getAttribute('src') +
+            getResourceUrl('cg', act.getAttribute('src')) +
             "') no-repeat"
         )
         .css('background-size', 'auto 100%')
@@ -1794,7 +1789,7 @@ function get_record_submit() {
 function showCgOrigin(str) {
   $('.showCgOrigin').css(
     'background-image',
-    "url('" + base_url + '/resources/cg/' + str + "')"
+    "url('" + getResourceUrl('cg', str) + "')"
   )
   $('.showCgOrigin').fadeIn()
 }
@@ -2953,3 +2948,10 @@ $('.pagenum#pagenum-6').click(function () {
     exhibitionPage()
   }
 })
+
+function getResourceUrl(type, fileName) {
+  if (fileName.startsWith('*')) {
+    return extra_url + '/' + type + '/' + fileName.slice(1)
+  }
+  return base_url + '/resources/' + type + '/' + fileName
+}
