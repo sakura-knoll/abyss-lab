@@ -40,8 +40,8 @@
 
 - id: seven-thunders-pri
   version: '5.8'
-  name: Seven Thunders of Retribution - Naruikazuchimi
-  krName: 속죄의 칠뢰·나루이카즈치미
+  name: 'Seven Thunders of Retribution: Narukami'
+  krName: 속죄의 칠뢰·명뢰현
   category: katana
   rarity: 6
   atk: 452
@@ -53,52 +53,40 @@
   sources:
     - type: pri-weapon-foundry
   skills:
-    - name: Naruikazuchinokami
-      krName: 나루이카즈치노카미
-      description: >-
-        (Test Server) [SP: 0][CD: 15s] Releases Honkai energy of the Divine
-        Key, unleashes a cross slash and detonates with thunder and lightning.
-        Deals 400.0% x 2 + 100.0 x 4 ATK of Lightning DMG, accumulates 10
-        Paralyze Trauma, gains invincibility and 10 SP during the active skill.
+    - name: Narukami Divinity
+      krName: 울부짖는 뇌신
+      description: |-
+        [SP: 0][CD: 15s] Channel the Honkai energy in the Divine Key to slash out an X-shaped beam and detonate it with lightning in a burst of dimensional beams, dealing 400.0% x 2 + 100.0% x 4 ATK of Lightning DMG in total. The first hit inflicts 10 Paralyze Trauma. Wielder is invincible while casting the weapon active and regains 10 SP.
 
-        Herrscher of Thunder equip bonus: The active skill can be used during the burst to deal 400.0% + 100% x 4 ATK of Lightning DMG. During the active skill, gains invincibility and triggers Ultimate Evasion skill. After using the active skill, Herrscher of Thunder can release Finisher immediately and CD of the Ult is increased by 11s. When the active skill hits an enemy twice, applies [Narukami] status to the enemy for 15s.
-      krDescription: >-
-        (테스트 서버) [SP: 0][cd: 15s] 신의 열쇠에 담긴 붕괴 에너지를 방출해, X자로 두번 베고 천둥 번개
-        폭발을 일으킨다. 공격력 400.0% x 2 + 100.0% x 4의 뇌전 대미지를 가하고, 마비 게이지를 10pt 누적시키며,
-        스킬 발동 중 무적 상태를 얻고, SP를 10pt 회복한다.
+        Herrscher of Thunder equip bonus: Can use the weapon active in burst mode to deal 400.0% + 100% x 4 ATK of Lightning DMG. She is invincible and has Ultimate Evasion Skill triggered while casting the weapon active. After casting the weapon active, she can immediately cast Finisher, which extends Ultimate CD by 11s. On hit, 2 kinds of weapon actives inflict a 15s Narukami's Mark.
+      krDescription: |-
+        [SP 소모: 0][재사용 대기시간: 15초] 신의 열쇠의 붕괴 에너지를 방출한다. 전방에 X자의 검기를 날리고 뇌전으로 여러 갈래의 차원 검기를 폭발시켜 총 공격력 400.0% x 2 + 100.0% x 4의 뇌전 원소 대미지를 가한다. 제1격은 마비 게이지를 10pt 누적하고, 캐릭터는 무기 스킬 사용 기간 잠시 무적 상태가 되며 SP를 10pt 회복한다.
 
-        번개의 율자 착용 보너스: 무기 스킬을 폭발 상태에서도 사용할 수 있게 되어, 공격력 400.0% + 100% x 4의 뇌전 대미지를 가한다. 액티브 스킬 발동 중 무적 상태를 얻고, 극한 회피 스킬을 발동시킨다. 액티브 스킬 사용 후, 번개의 율자는 즉시 피니쉬를 사용할 수 있게 되고, 필살기의 재사용 대기시간이 11초 증가한다. 무기 스킬이 적에게 두번 적중하면, 15초간 [나루카미] 상태를 적에게 부여한다.
-    - name: Punishment of Sin
-      krName: 과오의 징벌
-      description: >-
-        (Test Server) Increases Total DMG against enemies of countered
-        types by 45.0%. CD of the active skill is refreshed when using Ult. This
-        effect has 10s of CD.
+        번개의 율자가 사용 시, 폭발 상태에서 무기 스킬을 발동하면 공격력 400.0% + 100% x 4의 뇌전 원소 대미지를 가한다. 해당 스킬 발동 기간, 캐릭터는 무적 상태가 되며 극한 회피 스킬을 발동한다. 해당 무기 스킬 발동 후, 번개의 율자는 즉시 피니쉬를 발동할 수 있고, 필살기의 재사용 대기시간이 추가로 11초 증가한다. 두 가지 무기 스킬이 적에게 적중하면 적에게 [나루카미] 상태를 부여한다. 지속 시간: 15초
+    - name: Forfeiture
+      krName: 멸죄
+      description: |-
+        Wielder deals 45.0% bonus Total DMG to enemies of weaker types. Casting Ultimate refreshes weapon skill CD (CD: 10s).
 
-        Herrscher of Thunder equip bonus: During Ult and Finisher, all skill timers and the stage timer are paused; Each entry restores 200 Herrscher energy. CD: 10;
+        Herrscher of Thunder equip bonus: During the 2-sequence Ultimate, all skill timers and stage timers are paused. She gains 200 Herrscher Charge on every entry (CD: 10s). If she casts the weapon active in burst mode and Finisher before exit, the dragon will remain on the field as a summoned entity and bombard enemies in mid-air. She retains Herrscher form while the dragon is present. The dragon gains up to 600 of her current Herrscher Charge, and its bombardment consumes 200% Herrscher Charge and deals 70% DMG compared to her. The dragon disappears if it loses all energy, has been on the field for 10s, or she casts Ultimate again.
+      krDescription: |-
+        캐릭터가 유리한 속성의 적에게 가하는 모든 대미지가 45.0% 증가한다. 캐릭터가 필살기 발동 시, 무기의 스킬 재사용 대기시간이 갱신된다. 재사용 대기시간: 10초
 
-        If the active skill is used in the burst state, the dragon stays on the field as a summoned entity after releasing Finisher till the host exits, releases Bombard. When the dragon is on the field, the host stays in Herrscher Form. The dragon obtains energy equal to the host's current Herrscher Charge up to 600. Energy consumetion of Bombard becomes 200% and DMG dealt becomes 70% DMG of the host's DMG. When the energy is depleted, the dragon stays more than 10s, or the host use Ult again, the dragon exits.
-      krDescription: >-
-        (테스트 서버) 상성 관계의 적에게 가하는 모든 대미지 +45.0%. 액티브 스킬의 재사용 대기시간은 필살기 사용시
-        초기화 된다. 이 효과는 10초의 재사용 대기시간을 가진다.
+        번개의 율자가 사용 시, 2단 필살기 기간 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지하고, 캐릭터가 출전할 때마다 율자 에너지를 200pt 획득한다. 재사용 대기시간: 10초. 폭발 상태에서 무기 스킬을 발동하고 퇴장 전에 피니쉬 발동 시, 용은 소환물로써 전장에 남아 적에게 공중 폭격을 발동한다. 용이 전장에 있을 경우 캐릭터는 율자 상태가 된다. 용은 캐릭터의 현재 율자 에너지를 획득한다, 최대 600pt. 공중 폭격이 소모하는 율자에너지는 캐릭터의 200%, 대미지 계수는 캐릭터의 70%으로 계산된다. 용은 에너지 소진 및 전장에 머무는 시간이 10초를 초과하거나 번개의 율자가 필살기를 다시 발동할 경우 퇴장한다.
+    - name: Inverse
+      krName: 도사린 칼날
+      description: |-
+        In non-burst mode, wielder's Lightning DMG increases by 35.0%.
 
-        번개의 율자 착용 보너스: 필살기와 피니쉬 중, 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다; 매번 전장 진입시 200의 율자 에너지를 회복한다. 재사용 대기시간: 10초;
+        Herrscher of Thunder equip bonus: When the dragon loses all energy or reaches the time limit, it will dive on enemies, dealing 100.0% ATK of Lightning DMG. When the dragon is present, every Shinzan Strike makes the dive deal additional 300.0% ATK of Lightning DMG (capped at 2 x 300.0%).
+      krDescription: |-
+        폭발 상태가 아닐 때 캐릭터의 뇌전 원소 대미지가 35.0% 증가한다.
 
-        폭발 상태에서 액티브 스킬 사용 후, 번개의 율자가 전장에서 이탈하기 까지 용은 전장에 남아 폭격을 가한다. 용이 전장에 있을 때, 캐릭터는 율자 형태를 유지한다. 용은 율자의 현재 율자 에너지와 동일한 수치의 에너지를 최대 600pt까지 얻는다. 폭격은 에너지 소모가 200%가 되고, 피해량이 70%가 된다. 용의 에너지가 고갈되거나, 용이 10초 이상 전장에 남아있거나, 캐릭터가 필살기를 재사용 시, 전장을 이탈한다.
-    - name: Upraised Dagger-axe
-      krName: 하늘을 향하는 창
-      description: >-
-        (Test Server) In non-burst mode, increases Lightning DMG by 35.0%.
-
-        Herrscher of Thunder equip bonus: When energy of the dragon is depleted or the duration  reaches the miximum time, the dragon swoops towards enemies to deal 100.0% ATK of Lightning DMG. Every time the host unleashes Shinzan Strike, the swooping deals 300.0% ATK of bonus Lightning DMG, up to 2 x 300.0%.
-      krDescription: >-
-        (테스트 서버) 폭발 상태가 아닐 때, 뇌전 대미지 +35.0%.
-
-        번개의 율자 착용 보너스: 용의 에너지가 고갈되거나 지속시간이 끝날 때, 용이 적을 덮쳐 공격력 100.0%의 뇌전 피해를 가한다. 매 심장 베기마다, 덮치기가 추가로 공격력 300.0%의 뇌전 원소 대미지를 가한다, 최대 2 x 300.0%.
-    - name: Key of Sanction
+        번개의 율자가 사용 시, 용은 에너지를 소진하거나 최대 시간 이상 존재할 경우, 맹렬한 기세로 돌진해 공격력 100.0%의 뇌전 원소 대미지를 가한다. 협동 상태 기간, 번개의 율자가 심장 베기를 발동할 때마다 돌진은 추가로 공격력 300.0%의 뇌전 원소 대미지를 가한다. 최대 추가 대미지: 2 x 300.0%
+    - name: Key of Judgment
       krName: 심판의 열쇠
-      description: In co-op raids, increases Element DMG +25.0%.
-      krDescription: 레이드 중, 원소 대미지 +25.0%.
+      description: In co-op raids, character's total Elemental DMG increases by 25.0%.
+      krDescription: 멀티 Raid 스테이지에서 캐릭터의 모든 원소 대미지가 25.0% 증가한다.
 - id: griseo-pri-weapon
   version: '5.8'
   name: "Elysian Astra: Heart's Color"
@@ -139,7 +127,7 @@
         캐릭터는 아래 효과를 1회 획득한다: 공격이 출혈 상태의 적에게 적중하면 해당 적에게 물감 폭발을 1회 발동해 주변 적에게 5 x 140.0%의 물리 대미지를 가한다.
 - id: seven-thunders
   version: '5.8'
-  name: Seven Thunders of Retribution - Echo
+  name: 'Seven Thunders of Retribution: Rumble'
   krName: 속죄의 칠뢰·명
   category: katana
   rarity: 5
@@ -151,38 +139,30 @@
     - type: special-divine-key-supply
   priWeapon: seven-thunders-pri
   skills:
-    - name: Naruikazuchinokami
-      krName: 나루이카즈치노카미
-      description: >-
-        (Test Server) [SP: 0][CD: 15s] Releases Honkai energy of the Divine
-        Key, unleashes a cross slash. Deals 300.0% x 2 ATK of Lightning DMG,
-        accumulates 10 Paralyze Trauma, gains invincibility and 10 SP during the
-        active skill.
+    - name: Thunderbolt Call
+      krName: 천둥의 부름
+      description: |-
+        [SP: 0][CD: 15s] Channel the Honkai energy in the Divine Key to slash out an X-shaped beam and detonate it with lightning in a burst of dimensional beams, dealing 300.0% x 2 ATK of Lightning DMG in total. The first hit inflicts 10 Paralyze Trauma. Wielder is invincible while casting the weapon active and regains 10 SP.
 
-        Herrscher of Thunder equip bonus: The active skill can be used during the burst to deal 600.0% ATK of Lightning DMG. During the active skill, gains invincibility and triggers Ultimate Evasion skill. After using the active skill, Herrscher of Thunder can release Finisher immediately and CD of the Ult is increased by 11s. When the active skill hits an enemy twice, applies [Narukami] status to the enemy for 15s.
-      krDescription: >-
-        (테스트 서버) [SP: 0][cd: 15s] 신의 열쇠에 담긴 붕괴 에너지를 방출해, X자로 두번 벤다. 공격력
-        300.0% x 2의 뇌전 대미지를 가하고, 마비 게이지를 10pt 누적시키며, 스킬 발동 중 무적 상태를 얻고, SP를 10pt
-        회복한다.
+        Herrscher of Thunder equip bonus: Can use the weapon active in burst mode to deal 600.0% ATK of Lightning DMG. She is invincible and has Ultimate Evasion Skill triggered while casting the weapon active. After casting the weapon active, she can immediately cast Finisher, which extends Ultimate CD by 11s. On hit, 2 kinds of weapon actives inflict a 15s Narukami's Mark.
+      krDescription: |-
+        [SP 소모: 0][재사용 대기시간: 15초] 신의 열쇠의 붕괴 에너지를 방출한다. 전방에 X자의 검기를 날리고 뇌전으로 여러 갈래의 차원 검기를 폭발시켜 총 공격력 300.0% x 2의 뇌전 원소 대미지를 가한다. 제1격은 마비 게이지를 10pt 누적하고, 캐릭터는 무기 스킬 사용 기간 잠시 무적 상태가 되며 SP를 10pt 회복한다.
 
-        번개의 율자 착용 보너스: 무기 스킬을 폭발 상태에서도 사용할 수 있게 되어, 공격력 600.0%의 뇌전 대미지를 가한다. 액티브 스킬 발동 중 무적 상태를 얻고, 극한 회피 스킬을 발동시킨다. 액티브 스킬 사용 후, 번개의 율자는 즉시 피니쉬를 사용할 수 있게 되고, 필살기의 재사용 대기시간이 11초 증가한다. 무기 스킬이 적에게 두번 적중하면, 15초간 [나루카미] 상태를 적에게 부여한다.
-    - name: Punishment of Sin
-      krName: 과오의 징벌
-      description: >-
-        (Test Server) Increases Total DMG against enemies of countered
-        types by 30.0%. CD of the active skill is refreshed when using Ult. This
-        effect has 10s of CD.
+        번개의 율자가 사용 시, 폭발 상태에서 무기 스킬을 발동하면 공격력 600.0%의 뇌전 원소 대미지를 가한다. 해당 스킬 발동 기간, 캐릭터는 무적 상태가 되며 극한 회피 스킬을 발동한다. 해당 무기 스킬 발동 후, 번개의 율자는 즉시 피니쉬를 발동할 수 있고, 필살기의 재사용 대기시간이 추가로 11초 증가한다. 두 가지 무기 스킬이 적에게 적중하면 적에게 [나루카미] 상태를 부여한다. 지속 시간: 15초
+    - name: Exoneration
+      krName: 속죄
+      description: |-
+        Wielder deals 30.0% bonus Total DMG to enemies of weaker types. Casting Ultimate refreshes weapon skill CD (CD: 10s).
 
-        Herrscher of Thunder equip bonus: During Ult and Finisher, all skill timers and the stage timer are paused; Each entry restores 200 Herrscher energy. CD: 10;
+        Herrscher of Thunder equip bonus: During the 2-sequence Ultimate, all skill timers and stage timers are paused. She gains 200 Herrscher Charge on every entry (CD: 10s). If she casts the weapon active in burst mode and Finisher before exit, the dragon will remain on the field as a summoned entity and bombard enemies in mid-air. She retains Herrscher form while the dragon is present. The dragon gains up to 600 of her current Herrscher Charge, and its bombardment consumes 200% Herrscher Charge and deals 70% DMG compared to her. The dragon disappears if it loses all energy, has been on the field for 10s, or she casts Ultimate again.
+      krDescription: |-
+        캐릭터가 유리한 속성의 적에게 가하는 모든 대미지가 30.0% 증가한다. 캐릭터가 필살기 발동 시, 무기의 스킬 재사용 대기시간이 갱신된다. 재사용 대기시간: 10초
 
-        If the active skill is used in the burst state, the dragon stays on the field as a summoned entity after releasing Finisher till the host exits, releases Bombard. When the dragon is on the field, the host stays in Herrscher Form. The dragon obtains energy equal to the host's current Herrscher Charge up to 600. Energy consumetion of Bombard becomes 200% and DMG dealt becomes 70% DMG of the host's DMG. When the energy is depleted, the dragon stays more than 10s, or the host use Ult again, the dragon exits.
-      krDescription: >-
-        (테스트 서버) 상성 관계의 적에게 가하는 모든 대미지 +30.0%. 액티브 스킬의 재사용 대기시간은 필살기 사용시
-        초기화 된다. 이 효과는 10초의 재사용 대기시간을 가진다.
-
-        번개의 율자 착용 보너스: 필살기와 피니쉬 중, 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다; 매번 전장 진입시 200의 율자 에너지를 회복한다. 재사용 대기시간: 10초;
-
-        폭발 상태에서 액티브 스킬 사용 후, 번개의 율자가 전장에서 이탈하기 까지 용은 전장에 남아 폭격을 가한다. 용이 전장에 있을 때, 캐릭터는 율자 형태를 유지한다. 용은 율자의 현재 율자 에너지와 동일한 수치의 에너지를 최대 600pt까지 얻는다. 폭격은 에너지 소모가 200%가 되고, 피해량이 70%가 된다. 용의 에너지가 고갈되거나, 용이 10초 이상 전장에 남아있거나, 캐릭터가 필살기를 재사용 시, 전장을 이탈한다.
+        번개의 율자가 사용 시, 2단 필살기 기간 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지하고, 캐릭터가 출전할 때마다 율자 에너지를 200pt 획득한다. 재사용 대기시간: 10초. 폭발 상태에서 무기 스킬을 발동하고 퇴장 전에 피니쉬 발동 시, 용은 소환물로써 전장에 남아 적에게 공중 폭격을 발동한다. 용이 전장에 있을 경우 캐릭터는 율자 상태가 된다. 용은 캐릭터의 현재 율자 에너지를 획득한다, 최대 600pt. 공중 폭격이 소모하는 율자에너지는 캐릭터의 200%, 대미지 계수는 캐릭터의 70%으로 계산된다. 용은 에너지 소진 및 전장에 머무는 시간이 10초를 초과하거나 번개의 율자가 필살기를 다시 발동할 경우 퇴장한다.
+    - name: Key of Judgment
+      krName: 심판의 열쇠
+      description: In co-op raids, character's total Elemental DMG increases by 25.0%.
+      krDescription: 레이드 중, 원소 대미지 +25.0%.
 - id: griseo-weapon
   version: '5.8'
   name: Elysian Astra
