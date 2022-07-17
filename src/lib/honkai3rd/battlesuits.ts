@@ -263,21 +263,25 @@ export const valkyries = [
   },
   {
     value: 'pardofelis',
+    icon: 'valkyrie-icons/pardofelis',
     label: 'Pardofelis',
     krLabel: '파르도 필리스',
   },
   {
     value: 'aponia',
+    icon: 'valkyrie-icons/aponia',
     label: 'Aponia',
     krLabel: '아포니아',
   },
   {
     value: 'eden',
+    icon: 'valkyrie-icons/eden',
     label: 'Eden',
     krLabel: '에덴',
   },
   {
     value: 'griseo',
+    icon: 'valkyrie-icons/griseo',
     label: 'Griseo',
     krLabel: '그리세오',
   },

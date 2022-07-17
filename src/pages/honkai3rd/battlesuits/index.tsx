@@ -64,7 +64,6 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
 
   const battlesuitList = useMemo(() => {
     return battlesuits.map((battlesuit) => {
-      console.log(battlesuit)
       const hidden = isBattlesuitHidden(battlesuit, filter)
       return (
         <BattlesuitCard
