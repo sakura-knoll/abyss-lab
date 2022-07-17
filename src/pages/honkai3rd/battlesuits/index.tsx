@@ -64,6 +64,7 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
 
   const battlesuitList = useMemo(() => {
     return battlesuits.map((battlesuit) => {
+      console.log(battlesuit)
       const hidden = isBattlesuitHidden(battlesuit, filter)
       return (
         <BattlesuitCard
@@ -176,7 +177,7 @@ export async function getStaticProps({ locale }: NextPageContext) {
           name: battlesuit.name,
           features: battlesuit.features,
           type: battlesuit.type,
-          valikyrie: battlesuit.valkyrie,
+          valkyrie: battlesuit.valkyrie,
         }
       }),
       ...(await getI18NProps(locale)),
@@ -235,6 +236,8 @@ function isBattlesuitHidden(
     case 'pardofelis':
     case 'aponia':
     case 'eden':
+    case 'griseo':
+    case 'vill-v':
       return battlesuit.valkyrie !== filter
     default:
     case 'all':

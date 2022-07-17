@@ -2,7 +2,6 @@
 import { Box, Card, Heading, Paragraph } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import SquareImageBox from '../../../../components/atoms/SquareImageBox'
-import Breadcrumb from '../../../../components/organisms/Breadcrumb'
 import { WeaponData } from '../../../../lib/honkai3rd/weapons'
 import { generateI18NPaths, getI18NProps } from '../../../../server/i18n'
 import {
@@ -35,17 +34,6 @@ const WeaponShowPage = ({
 
   return (
     <Box p={3}>
-      <Breadcrumb
-        items={[
-          { href: '/honkai3rd', label: t('common.honkai-3rd') },
-          { href: '/honkai3rd/weapons', label: t('common.weapons') },
-          {
-            href: `/honkai3rd/weapons/${weapon.id}`,
-            label: weapon.name,
-          },
-        ]}
-      />
-
       <Heading as='h1'>{weapon.name}</Heading>
 
       <Box mb={3}>

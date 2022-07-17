@@ -277,6 +277,16 @@ export const valkyries = [
     krLabel: '에덴',
   },
   {
+    value: 'griseo',
+    label: 'Griseo',
+    krLabel: '그리세오',
+  },
+  {
+    value: 'vill-v',
+    label: 'Vill-V',
+    krLabel: '빌-브이',
+  },
+  {
     value: 'asuka',
     label: 'Asuka',
     krLabel: '아스카',

@@ -1,11 +1,11 @@
 - id: vill-v-pri-weapon
   version: '5.9'
-  name: Vill V Pri Weapon
-  krName: 빌브이 초월 무기
+  name: Elysian Tower·Silk Ladder
+  krName: 과거의 탑·실로 짠 사다리
   category: cannon
   rarity: 6
-  atk: 0
-  crt: 0
+  atk: 441
+  crt: 18
   battlesuits:
     - id: vill-v
   originalWeapons:
@@ -13,31 +13,94 @@
   sources:
     - type: pri-weapon-foundry
   skills:
-    - name: ''
-      krName: ''
-      description: >-
+    - name: 'Helix, from Begining to End'
+      krName: '나선, 시작과 끝'
+      description: |-
+        Charged cannon.
+        1st Sequence: Single shot.
+        2nd Sequence: Empowered double shot.
+        3rd Sequence: Super-powered triple shot.
 
-      krDescription: >-
+        Increases Total DMG by 12.0%.
+        When hitting an enemy, inflicts [Locked] state to the enemy for 15.0s(can be refreshed).
+        During [Locked] state, reduces movement speed of enemies by 30%, increases Fire DMG of wielder by 12.0%.
+      krDescription: |-
+        축적포
+        1단: 포탄 한 발
+        2단: 강력한 포탄 두 발
+        3단: 초강력 포탄 세 발
+
+        모든 대미지 +12.0%.
+        적 공격시, 적에게 [잠금] 상태를 15초간 발동시킨다(갱신 가능).
+        [잠금] 상태 동안, 적의 이동속도 -30%, 착용자의 화염 대미지 +12.0%.
+    - name: Active Skill
+      krName: Active Skill
+      description: |-
+        [SP Cost: 0][CD: 20s] Call an artillery attack to deal 10 x 100.0% ATK of Fire DMG.
+
+        Vill-V equip bonus: Entering [Armed Mode] will trigger the weapon skill with 7s CD.
+        During Burst mode, the active skill is changed to a concentrated fire which penetrates enemies in front of her and deals 1300.0% + 6 x 50% ATK of Fire DMG.
+      krDescription: |-
+        [SP Cost: 0][CD: 20s] 포격을 요청해 10 x 100.0%의 화염 대미지를 가한다.
+
+        빌브이 착용 보너스: [무장 형태] 진입 시 무기 스킬을 자동으로 발동하고, 재사용 대기시간은 7초가 된다.
+        폭발 모드 지속 중, 액티브 스킬은 전방의 적을 관통하는 집중 사격으로 변경되어 공격력 1300.0% + 6 x 50%의 화염 대미지를 가한다.
+    - name: Passive Skill
+      krName: Passive Skill
+      description: |-
+        Increases Fire DMG of Ultimate and Burst mode attacks by 10.0% against enemies in [Locked] state.
+
+        Vill-V equip bonus: During Burst mode, increases Total DMG by 15.0% against enemies in [Locked] state, and deals 80.0% ATK of Fire DMG additionally for every attack(CD: 1s).
+      krDescription: |-
+        필살기와 폭발 상태의 공격이 [잠금] 상태의 적에게 가하는 화염 대미지 +15.0%.
+
+        빌브이 착용 보너스: 폭발 상태 동안, [잠금] 상태의 적에게 모든 대미지가 15.0% 증가하고, 모든 공격에 추가로 공격력 80.0%의 화염 대미지를 가한다(재사용 대기시간: 1초).
 - id: vill-v-weapon
   version: '5.9'
-  name: Vill V Weapon
-  krName: 빌브이 초월 무기
+  name: Elysian Tower
+  krName: 과거의 탑
   category: cannon
   rarity: 5
-  atk: 0
-  crt: 0
+  atk: 294
+  crt: 18
   battlesuits:
     - id: vill-v
   priWeapon: vill-v-pri-weapon
   sources:
     - type: focused-supply
   skills:
-    - name: ''
-      krName: ''
-      description: >-
+    - name: 'Finale of the Third Chapter'
+      krName: '3막의 끝'
+      description: |-
+        Charged cannon.
+        1st Sequence: Single shot.
+        2nd Sequence: Empowered double shot.
+        3rd Sequence: Super-powered triple shot.
 
-      krDescription: >-
+        Increases Total DMG by 8.0%.
+        When hitting an enemy, inflicts [Locked] state to the enemy for 15.0s(can be refreshed).
+        During [Locked] state, reduces movement speed of enemies by 30%, increases Fire DMG of wielder by 8.0%.
+      krDescription: |-
+        축적포
+        1단: 포탄 한 발
+        2단: 강력한 포탄 두 발
+        3단: 초강력 포탄 세 발
 
+        모든 대미지 +8.0%.
+        적 공격시, 적에게 [잠금] 상태를 15초간 발동시킨다(갱신 가능).
+        [잠금] 상태 동안, 적의 이동속도 -30%, 착용자의 화염 대미지 +8.0%.
+    - name: Active Skill
+      krName: Active Skill
+      description: |-
+        [SP Cost: 0][CD: 20s] Call an artillery attack to deal 10 x 80.0% ATK of Fire DMG.
+
+        Vill-V equip bonus: Entering [Armed Mode] will trigger the weapon skill with 7s CD.
+        During Burst mode, the active skill is changed to a concentrated fire which penetrates enemies in front of her and deals 1000.0% + 6 x 50% ATK of Fire DMG.
+      krDescription: |-
+        [SP Cost: 0][CD: 20s] 포격을 요청해 10 x 80.0%의 화염 대미지를 가한다.
+
+        빌브이 착용 보너스: [무장 형태] 진입 시 무기 스킬을 자동으로 발동하고, 재사용 대기시간은 7초가 된다.
+        폭발 모드 지속 중, 액티브 스킬은 전방의 적을 관통하는 집중 사격으로 변경되어 공격력 1000.0% + 6 x 50%의 화염 대미지를 가한다.
 - id: seven-thunders-pri
   version: '5.8'
   name: 'Seven Thunders of Retribution: Narukami'
