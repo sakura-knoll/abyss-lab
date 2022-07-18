@@ -4141,7 +4141,7 @@
       20 HP/s.
 - id: jixuanyuan-top
   name: Jixuanyuan (T)
-  krName: Jixuanyuan (상)
+  krName: 희헌원 (상)
   type: top
   rarity: 5
   hp: 541
@@ -4150,13 +4150,13 @@
   crt: 0
   set: jixuanyuan
   skill:
-    name: ''
-    krName: '##'
+    name: 'Switch Skill Boost'
+    krName: 교대기 강화
     description: Switch skill (and QTE) gain 62% Physical DMG.
-    krDescription: Switch skill (and QTE) gain 62% Physical DMG.
+    krDescription: 교대기 물리 대미지 62% 증가(QTE 포함).
 - id: jixuanyuan-mid
   name: Jixuanyuan (M)
-  krName: Jixuanyuan (중)
+  krName: 희헌원 (중)
   type: mid
   rarity: 5
   hp: 541
@@ -4165,13 +4165,13 @@
   crt: 6
   set: jixuanyuan
   skill:
-    name: ''
-    krName: '##'
+    name: 'Charged ATK Boost'
+    krName: 차지 공격 강화
     description: Charged ATKs gain 36% Physical DMG.
-    krDescription: Charged ATKs gain 36% Physical DMG.
+    krDescription: 차지 공격의 물리 대미지 36% 증가.
 - id: jixuanyuan-bot
   name: Jixuanyuan (B)
-  krName: Jixuanyuan (하)
+  krName: 희헌원 (하)
   type: bot
   rarity: 5
   hp: 574
@@ -4180,10 +4180,10 @@
   crt: 1
   set: jixuanyuan
   skill:
-    name: ''
-    krName: '##'
+    name: 'Weapon Skill Boost'
+    krName: 무기 스킬 강화
     description: Weapon's active skills gain 41% Total DMG Multiplier.
-    krDescription: Weapon's active skills gain 41% Total DMG Multiplier.
+    krDescription: 무기 액티브 스킬의 모든 대미지 41% 증가.
 - id: kallen-hymn-top
   name: Kallen - Hymn (T)
   krName: Kallen - Hymn (상)
@@ -8388,3 +8388,52 @@
     krName: '##'
     description: N/A
     krDescription: 없음
+- id: bronya-magic-top
+  name: 'Bronya: Magic (T)'
+  krName: 브로냐·마력 (상)
+  type: top
+  rarity: 4
+  hp: 325
+  atk: 56
+  def: 72
+  crt: 0
+  set: bronya-magic
+  skill:
+    name: 'Adept'
+    krName: '마스터리'
+    description: Charged ATKs gain 20% Physical DMG.
+    krDescription: 차지 공격의 물리 대미지 20% 증가.
+- id: bronya-magic-mid
+  name: 'Bronya: Magic (M)'
+  krName: 브로냐·마력 (중)
+  type: mid
+  rarity: 4
+  hp: 325
+  atk: 0
+  def: 72
+  crt: 9
+  set: bronya-magic
+  skill:
+    name: 'Bullseye'
+    krName: '마법 유도'
+    description: |-
+      Gain 15% Ranged Physical DMG.
+      Bronya qeuip bonus: Gain 10% Max HP in battle.
+    krDescription: |-
+      원거리 물리 대미지 15% 증가.
+      브로냐가 사용 시, 전투 중 HP 최대치가 추가로 10% 증가한다.
+- id: bronya-magic-bot
+  name: 'Bronya: Magic (B)'
+  krName: 브로냐·마력 (하)
+  type: bot
+  rarity: 4
+  hp: 325
+  atk: 28
+  def: 72
+  crt: 6
+  set: bronya-magic
+  skill:
+    name: 'Flame Manipulation'
+    krName: '원소 제어'
+    description: Gain 20% Fire DMG.
+    krDescription: 화염 원소 대미지 20% 증가.
