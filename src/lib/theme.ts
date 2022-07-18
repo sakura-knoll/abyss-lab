@@ -3,6 +3,10 @@ import { colors } from './colors'
 
 export const theme: Theme = {
   breakpoints: ['576px', '768px', '992px', '1200px'],
+  config: {
+    initialColorModeName: 'light',
+    printColorModeName: 'light',
+  },
   colors: {
     ...colors,
     white: '#fff',
@@ -11,7 +15,7 @@ export const theme: Theme = {
     background: '#fff',
     primary: '#007bff',
     secondary: '#6c757d',
-    muted: '#dee2e6',
+    muted: colors.gray[5],
     success: '#28a745',
     info: '#17a2b8',
     warning: '#ffc107',
@@ -20,6 +24,32 @@ export const theme: Theme = {
     dark: '#343a40',
     textMuted: '#6c757d',
     transparent: 'transparent',
+    border: colors.gray[5],
+    altBackground: colors.gray[2],
+    altBorder: colors.gray[3],
+    modes: {
+      dark: {
+        ...colors,
+        white: '#fff',
+        black: '#000',
+        text: '#dedede',
+        background: '#202124',
+        primary: colors.blue[4],
+        secondary: '#6c757d',
+        muted: '#dee2e6',
+        success: '#28a745',
+        info: '#17a2b8',
+        warning: '#ffc107',
+        danger: '#dc3545',
+        light: '#f8f9fa',
+        dark: '#343a40',
+        textMuted: '#6c757d',
+        transparent: 'transparent',
+        border: colors.gray[7],
+        altBorder: colors.gray[8],
+        altBackground: colors.gray[8],
+      },
+    },
   },
   space: ['0rem', '0.25rem', '0.5rem', '1rem', '1.5rem', '3rem'],
   fonts: {
@@ -53,8 +83,8 @@ export const theme: Theme = {
     display: 300,
   },
   borders: {
-    default: `1px solid ${colors.gray[5]}`,
-    primary: `1px solid #007bff`,
+    default: '1px solid var(--theme-ui-colors-border)',
+    primary: `1px solid var(--theme-)`,
   },
   lineHeights: {
     body: 1.6,
@@ -96,7 +126,7 @@ export const theme: Theme = {
       borderColor: 'primary',
       borderStyle: 'solid',
       borderWidth: 1,
-      bg: 'background',
+      bg: 'transparent',
       cursor: 'pointer',
       textDecoration: 'none',
       borderRadius: 'default',
@@ -192,24 +222,23 @@ export const theme: Theme = {
     table: {
       width: '100%',
       marginBottom: 3,
-      color: 'gray.9',
       borderCollapse: 'collapse',
     },
     th: {
       verticalAlign: 'bottom',
       borderTopWidth: 2,
       borderTopStyle: 'solid',
-      borderTopColor: 'gray.3',
+      borderTopColor: 'default',
       borderBottomWidth: 2,
       borderBottomStyle: 'solid',
-      borderBottomColor: 'gray.3',
+      borderBottomColor: 'default',
       padding: '.75rem',
       textAlign: 'inherit',
     },
     td: {
       borderBottomWidth: 2,
       borderBottomStyle: 'solid',
-      borderBottomColor: 'gray.3',
+      borderBottomColor: 'default',
       verticalAlign: 'top',
       padding: '.75rem',
     },
@@ -224,6 +253,7 @@ export const theme: Theme = {
   cards: {
     primary: {
       border: 'default',
+      borderColor: 'border',
       borderRadius: 'default',
 
       transition:
@@ -235,7 +265,7 @@ export const theme: Theme = {
     stigmata: {
       padding: 2,
       borderRadius: 4,
-      borderColor: 'gray.3',
+      borderColor: 'default',
       borderWidth: 1,
       borderStyle: 'solid',
     },

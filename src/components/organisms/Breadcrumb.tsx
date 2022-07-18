@@ -20,7 +20,9 @@ const Breadcrumb = ({ items }: BreadcrumbProps) => {
     <Flex
       mb={3}
       sx={{
-        backgroundColor: 'gray.2',
+        backgroundColor: 'altBackground',
+        transition:
+          'background-color 300ms ease-in-out, color 300ms ease-in-out',
         paddingY: 2,
         paddingX: 4,
         borderRadius: 8,

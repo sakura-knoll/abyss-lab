@@ -82,10 +82,10 @@ const GanttChart = ({
           height: totalRow * 50 + 40,
           borderBottomStyle: 'solid',
           borderBottomWidth: 1,
-          borderBottomColor: 'gray.5',
+          borderBottomColor: 'border',
           borderTopStyle: 'solid',
           borderTopWidth: 1,
-          borderTopColor: 'gray.5',
+          borderTopColor: 'border',
         }}
       >
         {times((index) => {
@@ -97,7 +97,7 @@ const GanttChart = ({
                 height: totalRow * 50 + 40,
                 borderRightStyle: 'solid',
                 borderRightWidth: 1,
-                borderRightColor: index % 7 === 6 ? 'gray.5' : 'gray.3',
+                borderRightColor: index % 7 === 6 ? 'border' : 'altBorder',
                 left: (index + 1) * 40 - 1 - 20,
               }}
             />
@@ -111,7 +111,7 @@ const GanttChart = ({
               key={`week-start-date-${index}`}
               sx={{
                 position: 'absolute',
-                color: 'gray.5',
+                color: 'border',
                 zIndex: 21,
                 top: 0,
                 left: weekNumber * 280 - 15,
@@ -235,10 +235,10 @@ const GanttChart = ({
               sx={{
                 boxSizing: 'border-box',
                 position: 'absolute',
-                borderColor: 'gray.5',
+                borderColor: 'border',
                 borderWidth: 1,
                 borderStyle: 'solid',
-                backgroundColor: 'white',
+                backgroundColor: 'background',
                 width: length,
                 left: offset,
                 top: (item.row - 1) * 50 + 20,

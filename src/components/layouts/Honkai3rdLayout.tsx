@@ -49,7 +49,7 @@ const Honkai3rdLayout: React.FC = ({ children }) => {
           width: ['100%', 240],
           borderRightWidth: 1,
           borderRightStyle: 'solid',
-          borderRightColor: 'gray.2',
+          borderRightColor: 'border',
           overflowY: 'auto',
           overflowX: 'hidden',
           display: [hiddenMobileNav ? 'none' : 'block', 'block'],

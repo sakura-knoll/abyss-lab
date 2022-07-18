@@ -8,9 +8,11 @@ import {
   Box,
   Flex,
   IconButton,
+  Switch,
 } from '@theme-ui/components'
 import NextLink from 'next/link'
 import { useRouter } from 'next/router'
+import { useColorMode } from 'theme-ui'
 import { assetsBucketBaseUrl } from '../../lib/consts'
 import { useTranslation } from '../../lib/i18n'
 import SquareImageBox from '../atoms/SquareImageBox'
@@ -23,6 +25,7 @@ const Honkai3rdNavigator = ({ close }: Honkai3rdNavigatorProps) => {
   const router = useRouter()
   const { pathname, asPath, query, locale } = router
   const { t } = useTranslation()
+  const [colorMode, setColorMode] = useColorMode()
   return (
     <Box
       sx={{
@@ -83,6 +86,24 @@ const Honkai3rdNavigator = ({ close }: Honkai3rdNavigatorProps) => {
           <Icon path={mdiMenuSwap} size='20px' />
         </NavLink>
       </NextLink>
+
+      <Box>
+        <Switch
+          checked={colorMode === 'dark'}
+          onChange={(event) => {
+            setColorMode(event.target.checked ? 'dark' : 'default')
+          }}
+          sx={{
+            'input ~ &': {
+              backgroundColor: 'muted',
+            },
+            'input:checked ~ &': {
+              backgroundColor: 'primary',
+            },
+          }}
+          label={colorMode === 'default' ? '☀️' : '🌙'}
+        />
+      </Box>
     </Box>
   )
 }
