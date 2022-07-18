@@ -145,7 +145,7 @@ const BattlesuitShowPage = ({
             <PageLink
               href={{
                 pathname: '/honkai3rd/battlesuits',
-                query: { filter: battlesuit.valkyrie },
+                query: { valkyrie: battlesuit.valkyrie },
               }}
             >
               <ValkyrieLabel valkyrie={battlesuit.valkyrie} />
@@ -155,7 +155,7 @@ const BattlesuitShowPage = ({
             <PageLink
               href={{
                 pathname: '/honkai3rd/battlesuits',
-                query: { filter: battlesuit.type },
+                query: { valkyrie: battlesuit.type },
               }}
             >
               <TypeLabel type={battlesuit.type} />
@@ -168,7 +168,7 @@ const BattlesuitShowPage = ({
                   <PageLink
                     href={{
                       pathname: '/honkai3rd/battlesuits',
-                      query: { filter: feature },
+                      query: { feature: feature },
                     }}
                   >
                     <BattlesuitFeatureLabel feature={feature} />
