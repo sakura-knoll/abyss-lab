@@ -41,20 +41,22 @@ const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
   const { query, locale } = useRouter()
   const { t } = useTranslation()
 
-  const filter = useMemo(() => {
-    if (query.filter == null) {
+  const categoryFilter = useMemo(() => {
+    if (query.category == null) {
       return 'all'
     }
 
-    return typeof query.filter === 'string' ? query.filter : query.filter[0]
+    return typeof query.category === 'string'
+      ? query.category
+      : query.category[0]
   }, [query])
 
   const weaponList = useMemo(() => {
     return weaponDataList.map((weapon) => {
-      const hidden = isWeaponHidden(weapon, filter)
+      const hidden = isWeaponHidden(weapon, categoryFilter)
       return <WeaponCard key={weapon.id} weapon={weapon} hidden={hidden} />
     })
-  }, [weaponDataList, filter])
+  }, [weaponDataList, categoryFilter])
 
   return (
     <Honkai3rdLayout>
@@ -82,8 +84,8 @@ const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
                 return (
                   <FilterButton
                     key={value}
-                    active={value === filter}
-                    value={value}
+                    href={`?category=${value}`}
+                    active={value === categoryFilter}
                     label={translate(locale, { 'ko-KR': krLabel }, label)}
                     m={1}
                   />

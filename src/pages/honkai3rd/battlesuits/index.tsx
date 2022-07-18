@@ -54,26 +54,43 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
     setHiddenFilters(true)
   }, [])
 
-  const filter = useMemo(() => {
-    if (query.filter == null) {
+  const valkyrieFilter = useMemo(() => {
+    if (query.valkyrie == null) {
       return 'all'
     }
 
-    return typeof query.filter === 'string' ? query.filter : query.filter[0]
+    return typeof query.valkyrie === 'string'
+      ? query.valkyrie
+      : query.valkyrie[0]
   }, [query])
 
-  const battlesuitList = useMemo(() => {
-    return battlesuits.map((battlesuit) => {
-      const hidden = isBattlesuitHidden(battlesuit, filter)
-      return (
-        <BattlesuitCard
-          key={battlesuit.id}
-          battlesuit={battlesuit}
-          hidden={hidden}
-        />
-      )
-    })
-  }, [battlesuits, filter])
+  const featureFilter = useMemo(() => {
+    if (query.feature == null) {
+      return 'all'
+    }
+
+    return typeof query.feature === 'string' ? query.feature : query.feature[0]
+  }, [query])
+
+  const battlesuitsFiteredByValkyrie = useMemo(() => {
+    return battlesuits.filter((battlesuit) =>
+      isValkyrieFilterMatching(battlesuit, valkyrieFilter)
+    )
+  }, [battlesuits, valkyrieFilter])
+
+  const availableFeatureSet = battlesuitsFiteredByValkyrie.reduce(
+    (set, battlesuit) => {
+      battlesuit.features.forEach((feature) => set.add(feature))
+      return set
+    },
+    new Set()
+  )
+
+  const battlesuitsFilteredByFeature = useMemo(() => {
+    return battlesuitsFiteredByValkyrie.filter((battlesuit) =>
+      isFeatureFilterMatching(battlesuit, featureFilter)
+    )
+  }, [battlesuitsFiteredByValkyrie, featureFilter])
 
   return (
     <Honkai3rdLayout>
@@ -117,14 +134,14 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
             },
           }}
         >
-          <Heading as='h3'>{t('battlesuits-list.filter-by-features')}</Heading>
+          <Heading as='h3'>{t('battlesuits-list.filter-by-valkyries')}</Heading>
           <Flex mb={2} sx={{ flexWrap: 'wrap' }}>
-            {featureFilterOptions.map(({ value, label, icon, krLabel }) => {
+            {valkyrieFilterOptions.map(({ value, label, icon, krLabel }) => {
               return (
                 <FilterButton
                   key={value}
-                  active={value === filter}
-                  value={value}
+                  active={value === valkyrieFilter}
+                  href={`?valkyrie=${value}`}
                   label={translate(locale, { 'ko-KR': krLabel }, label)}
                   icon={icon}
                   m={1}
@@ -133,22 +150,28 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
               )
             })}
           </Flex>
-
-          <Heading as='h3'>{t('battlesuits-list.filter-by-valkyries')}</Heading>
+          <Heading as='h3'>{t('battlesuits-list.filter-by-features')}</Heading>
           <Flex mb={2} sx={{ flexWrap: 'wrap' }}>
-            {valkyrieFilterOptions.map(({ value, label, icon, krLabel }) => {
-              return (
-                <FilterButton
-                  key={value}
-                  active={value === filter}
-                  value={value}
-                  label={translate(locale, { 'ko-KR': krLabel }, label)}
-                  icon={icon}
-                  m={1}
-                  close={closeFilters}
-                />
-              )
-            })}
+            {featureFilterOptions
+              .filter((filterOption) => {
+                if (filterOption.value === 'all') {
+                  return true
+                }
+                return availableFeatureSet.has(filterOption.value)
+              })
+              .map(({ value, label, icon, krLabel }) => {
+                return (
+                  <FilterButton
+                    key={value}
+                    active={value === featureFilter}
+                    href={`?valkyrie=${valkyrieFilter}&feature=${value}`}
+                    label={translate(locale, { 'ko-KR': krLabel }, label)}
+                    icon={icon}
+                    m={1}
+                    close={closeFilters}
+                  />
+                )
+              })}
           </Flex>
         </Box>
 
@@ -158,7 +181,11 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
             justifyContent: 'space-around',
           }}
         >
-          {battlesuitList}
+          {battlesuitsFilteredByFeature.map((battlesuit) => {
+            return (
+              <BattlesuitCard key={battlesuit.id} battlesuit={battlesuit} />
+            )
+          })}
         </Flex>
       </Box>
     </Honkai3rdLayout>
@@ -184,36 +211,17 @@ export async function getStaticProps({ locale }: NextPageContext) {
   }
 }
 
-function isBattlesuitHidden(
+function isValkyrieFilterMatching(
   battlesuit: BattlesuitListItemData,
-  filter: string
-): boolean {
-  switch (filter) {
-    case 'physical':
-    case 'fire-dmg':
-    case 'ice-dmg':
-    case 'lightning-dmg':
-    case 'freeze':
-    case 'paralyze':
-    case 'stun':
-    case 'ignite':
-    case 'bleed':
-    case 'heavy-atk':
-    case 'weaken':
-    case 'impair':
-    case 'time mastery':
-    case 'gather':
-    case 'heal':
-    case 'fast atk':
-    case 'burst':
-    case 'aerial':
-      return !battlesuit.features.some((feature) => feature === filter)
+  valkyrieFilter: string
+) {
+  switch (valkyrieFilter) {
     case 'mecha':
     case 'biologic':
     case 'psychic':
     case 'quantum':
     case 'imaginary':
-      return battlesuit.type !== filter
+      return battlesuit.type === valkyrieFilter
     case 'kiana':
     case 'mei':
     case 'bronya':
@@ -237,9 +245,19 @@ function isBattlesuitHidden(
     case 'eden':
     case 'griseo':
     case 'vill-v':
-      return battlesuit.valkyrie !== filter
+      return battlesuit.valkyrie === valkyrieFilter
     default:
     case 'all':
-      return false
+      return true
   }
+}
+
+function isFeatureFilterMatching(
+  battlesuit: BattlesuitListItemData,
+  featureFilter: string
+) {
+  if (featureFilter === 'all') {
+    return true
+  }
+  return battlesuit.features.some((feature) => feature === featureFilter)
 }

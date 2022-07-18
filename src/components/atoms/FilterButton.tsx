@@ -8,7 +8,7 @@ interface FilterButtonProps {
   active?: boolean
   icon?: string
   label: string
-  value: string
+  href: string
   m?: string | number
   close?: () => void
 }
@@ -17,14 +17,14 @@ const FilterButton = ({
   active = false,
   icon,
   label,
-  value,
+  href,
   m,
   close,
 }: FilterButtonProps) => {
   const { push } = useRouter()
   return (
     <Link
-      href={`?filter=${value}`}
+      href={href}
       m={m}
       py={1}
       px={2}
@@ -36,7 +36,7 @@ const FilterButton = ({
         if (close != null) {
           close()
         }
-        push({ query: { filter: value } }, undefined, { shallow: true })
+        push(href, href, { shallow: true })
       }}
     >
       {icon != null && (
