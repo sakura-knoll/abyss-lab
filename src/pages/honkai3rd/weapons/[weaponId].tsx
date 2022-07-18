@@ -1,9 +1,9 @@
 /** @jsxImportSource theme-ui */
-import { Box, Card, Heading, Paragraph } from '@theme-ui/components'
+import { Flex, Box, Card, Heading, Paragraph } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import SquareImageBox from '../../../components/atoms/SquareImageBox'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
-import { WeaponData } from '../../../lib/honkai3rd/weapons'
+import { weaponCategories, WeaponData } from '../../../lib/honkai3rd/weapons'
 import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
 import {
   getWeaponById,
@@ -33,7 +33,10 @@ const WeaponShowPage = ({
 }: WeaponShowPageProps) => {
   const { t } = useTranslation()
 
-  const weaponCategory = t(`weapons-show.${weapon.category}`)
+  const weaponCategoryName = t(`weapons-show.${weapon.category}`)
+  const weaponCategory = weaponCategories.find(
+    (category) => category.value === weapon.category
+  )
 
   return (
     <Honkai3rdLayout>
@@ -43,7 +46,7 @@ const WeaponShowPage = ({
         )}`}
         description={`${t('common.honkai-3rd')} ${t(
           'weapons-show.weapon'
-        )} / ${'⭐'.repeat(weapon.rarity)} / ${weaponCategory} / ATK : ${
+        )} / ${'⭐'.repeat(weapon.rarity)} / ${weaponCategoryName} / ATK : ${
           weapon.atk
         } / CRT : ${weapon.crt}`}
       />
@@ -75,10 +78,20 @@ const WeaponShowPage = ({
             <PageLink
               href={{
                 pathname: '/honkai3rd/weapons',
-                query: { filter: weapon.category },
+                query: { category: weapon.category },
               }}
             >
-              {weaponCategory}
+              <Flex>
+                {weaponCategory != null && (
+                  <SquareImageBox
+                    size={30}
+                    src={`${assetsBucketBaseUrl}/honkai3rd/${weaponCategory.icon}.png`}
+                    alt={weaponCategoryName}
+                    mr={1}
+                  />
+                )}
+                {weaponCategoryName}
+              </Flex>
             </PageLink>
           </Box>
           <Box p={2} sx={{ borderBottom: 'default' }}>

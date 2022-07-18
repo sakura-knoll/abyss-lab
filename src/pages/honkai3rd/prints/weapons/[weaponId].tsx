@@ -1,8 +1,8 @@
 /** @jsxImportSource theme-ui */
-import { Box, Card, Heading, Paragraph } from '@theme-ui/components'
+import { Flex, Box, Card, Heading, Paragraph } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import SquareImageBox from '../../../../components/atoms/SquareImageBox'
-import { WeaponData } from '../../../../lib/honkai3rd/weapons'
+import { weaponCategories, WeaponData } from '../../../../lib/honkai3rd/weapons'
 import { generateI18NPaths, getI18NProps } from '../../../../server/i18n'
 import {
   getWeaponById,
@@ -30,7 +30,10 @@ const WeaponShowPage = ({
 }: WeaponShowPageProps) => {
   const { t } = useTranslation()
 
-  const weaponCategory = t(`weapons-show.${weapon.category}`)
+  const weaponCategoryName = t(`weapons-show.${weapon.category}`)
+  const weaponCategory = weaponCategories.find(
+    (category) => category.value === weapon.category
+  )
 
   return (
     <Box p={3}>
@@ -52,7 +55,17 @@ const WeaponShowPage = ({
               query: { filter: weapon.category },
             }}
           >
-            {weaponCategory}
+            <Flex>
+              {weaponCategory != null && (
+                <SquareImageBox
+                  size={30}
+                  src={`${assetsBucketBaseUrl}/honkai3rd/${weaponCategory.icon}.png`}
+                  alt={weaponCategoryName}
+                  mr={1}
+                />
+              )}
+              {weaponCategoryName}
+            </Flex>
           </PageLink>
         </Box>
         <Box p={2} sx={{ borderBottom: 'default' }}>

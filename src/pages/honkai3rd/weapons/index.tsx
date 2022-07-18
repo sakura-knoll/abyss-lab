@@ -6,7 +6,7 @@ import { pick } from 'ramda'
 import { useMemo } from 'react'
 import FilterButton from '../../../components/atoms/FilterButton'
 import { useRouter } from 'next/router'
-import { WeaponData } from '../../../lib/honkai3rd/weapons'
+import { weaponCategories, WeaponData } from '../../../lib/honkai3rd/weapons'
 import WeaponCard from '../../../components/molecules/WeaponCard'
 import { getI18NProps } from '../../../server/i18n'
 import { NextPageContext } from 'next'
@@ -24,17 +24,8 @@ interface WeaponListPageProps {
 }
 
 const weaponFilterOptions = [
-  { value: 'all', label: 'All', krLabel: '전체' },
-  { value: 'pistol', label: 'Pistols', krLabel: '쌍권총' },
-  { value: 'katana', label: 'Katanas', krLabel: '태도' },
-  { value: 'cannon', label: 'Cannons', krLabel: '대포' },
-  { value: 'greatsword', label: 'Greatswords', krLabel: '대검' },
-  { value: 'cross', label: 'Crosses', krLabel: '십자가' },
-  { value: 'gauntlet', label: 'Gauntlets', krLabel: '건틀릿' },
-  { value: 'scythe', label: 'Scythes', krLabel: '낫' },
-  { value: 'lance', label: 'Lances', krLabel: '랜스' },
-  { value: 'bow', label: 'Bows', krLabel: '활' },
-  { value: 'chakram', label: 'Chakram', krLabel: '차크람' },
+  { value: 'all', label: 'All', krLabel: '전체', icon: undefined },
+  ...weaponCategories,
 ]
 
 const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
@@ -80,12 +71,13 @@ const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
           <Box>
             <Heading as='h3'>{t('weapons-list.filter-by-category')}</Heading>
             <Flex mb={2} sx={{ flexWrap: 'wrap' }}>
-              {weaponFilterOptions.map(({ value, label, krLabel }) => {
+              {weaponFilterOptions.map(({ value, label, krLabel, icon }) => {
                 return (
                   <FilterButton
                     key={value}
                     href={`?category=${value}`}
                     active={value === categoryFilter}
+                    icon={icon}
                     label={translate(locale, { 'ko-KR': krLabel }, label)}
                     m={1}
                   />
