@@ -6,10 +6,9 @@ import {
   differenceInCalendarDays,
   differenceInCalendarWeeks,
   format,
-  subDays,
 } from 'date-fns'
 import { times } from 'ramda'
-import { useMemo, MouseEventHandler } from 'react'
+import React, { useMemo, MouseEventHandler } from 'react'
 
 export interface GanttChartItem {
   id: string
@@ -26,6 +25,11 @@ interface GanttChartProps {
   items: GanttChartItem[]
 }
 
+const widthOfDay = 20
+const widthOfWeek = widthOfDay * 7
+
+const itemHeight = 30
+
 const GanttChart = ({
   startDate: startDateString,
   endDate: endDateString,
@@ -34,8 +38,8 @@ const GanttChart = ({
 }: GanttChartProps) => {
   const startDate = new Date(startDateString)
   const endDate = new Date(endDateString)
-  const firstDateToRender = subDays(startDate, startDate.getDay() - 1)
-  const lastDateToRender = addDays(endDate, 6 - endDate.getDay() + 1)
+  const firstDateToRender = startDate
+  const lastDateToRender = endDate
   const todayDate = new Date(todayDateString)
 
   const daysToRender = differenceInCalendarDays(
@@ -54,91 +58,55 @@ const GanttChart = ({
   }, [items])
 
   return (
-    <Box sx={{ width: weeksToRender * 280 + 70 }}>
-      <Flex
-        sx={{
-          marginLeft: -20,
-        }}
-      >
-        {times((index) => {
-          const weekNumber = index + 1
-          return (
-            <Box
-              key={`week-${weekNumber}`}
-              sx={{
-                width: 280,
-                textAlign: 'center',
-                fontWeight: 700,
-              }}
-            >
-              Week {weekNumber}
-            </Box>
-          )
-        }, weeksToRender)}
-      </Flex>
+    <Box
+      sx={{ width: weeksToRender * widthOfWeek + 70, marginLeft: widthOfDay }}
+    >
+      <WeekLabelRow
+        firstDateToRender={firstDateToRender}
+        weeksToRender={weeksToRender}
+      />
       <Box
         sx={{
           position: 'relative',
-          height: totalRow * 50 + 40,
-          borderBottomStyle: 'solid',
-          borderBottomWidth: 1,
-          borderBottomColor: 'border',
-          borderTopStyle: 'solid',
-          borderTopWidth: 1,
-          borderTopColor: 'border',
+          height: totalRow * (itemHeight + 10) + 30,
         }}
       >
         {times((index) => {
           return (
-            <Box
+            <DateMeasure
               key={`day-border-${index}`}
-              sx={{
-                position: 'absolute',
-                height: totalRow * 50 + 40,
-                borderRightStyle: 'solid',
-                borderRightWidth: 1,
-                borderRightColor: index % 7 === 6 ? 'border' : 'altBorder',
-                left: (index + 1) * 40 - 1 - 20,
-              }}
+              index={index}
+              totalRow={totalRow}
             />
           )
-        }, daysToRender + 1)}
+        }, daysToRender)}
 
         {times((index) => {
-          const weekNumber = index + 1
           return (
-            <Text
-              key={`week-start-date-${index}`}
+            <Box
+              key={`weekdate-${index}`}
               sx={{
                 position: 'absolute',
-                color: 'border',
-                zIndex: 21,
-                top: 0,
-                left: weekNumber * 280 - 15,
-                width: 300,
-                pointerEvents: 'none',
+                left: (index - 1) * widthOfDay,
+                width: widthOfDay,
+                textAlign: 'center',
+                color:
+                  index - (1 % 7) === 3
+                    ? 'red'
+                    : index - (1 % 7) === 2
+                    ? 'blue'
+                    : 'default',
               }}
             >
-              {format(addWeeks(firstDateToRender, weekNumber), 'PP')}
-            </Text>
+              {format(addDays(firstDateToRender, index - 1), 'EEEEE')}
+            </Box>
           )
-        }, weeksToRender - 1)}
-        <Box
-          sx={{
-            boxSizing: 'border-box',
-            position: 'absolute',
-            width: 40,
-            height: totalRow * 50 + 40,
-            backgroundColor: 'blue.5',
-            borderStyle: 'solid',
-            borderColor: 'blue.7',
-            opacity: 0.2,
-            zIndex: 20,
-            borderRadius: 4,
-            left:
-              differenceInCalendarDays(todayDate, firstDateToRender) * 40 - 20,
-            pointerEvents: 'none',
-          }}
+        }, daysToRender + 2)}
+
+        <TodayBox
+          totalRow={totalRow}
+          todayDate={todayDate}
+          firstDateToRender={firstDateToRender}
         />
 
         <Box
@@ -146,22 +114,11 @@ const GanttChart = ({
             boxSizing: 'border-box',
             position: 'absolute',
             width: 1,
-            height: totalRow * 50 + 40,
+            height: totalRow * (itemHeight + 10) + itemHeight,
             backgroundColor: 'red.3',
             zIndex: 20,
-            left: differenceInCalendarDays(startDate, firstDateToRender) * 40,
-            pointerEvents: 'none',
-          }}
-        />
-        <Box
-          sx={{
-            boxSizing: 'border-box',
-            position: 'absolute',
-            width: 1,
-            height: totalRow * 50 + 40,
-            backgroundColor: 'red.3',
-            zIndex: 20,
-            left: differenceInCalendarDays(endDate, firstDateToRender) * 40,
+            left:
+              differenceInCalendarDays(endDate, firstDateToRender) * widthOfDay,
             pointerEvents: 'none',
           }}
         />
@@ -171,25 +128,11 @@ const GanttChart = ({
             transform: 'rotate(90deg)',
             color: 'red.5',
             zIndex: 21,
-            top: 150,
+            top: 170,
             left:
-              differenceInCalendarDays(startDate, firstDateToRender) * 40 +
-              -160,
-            width: 300,
-            pointerEvents: 'none',
-          }}
-        >
-          {format(startDate, 'PP')}
-        </Text>
-        <Text
-          sx={{
-            position: 'absolute',
-            transform: 'rotate(90deg)',
-            color: 'red.5',
-            zIndex: 21,
-            top: 150,
-            left:
-              differenceInCalendarDays(endDate, firstDateToRender) * 40 + -140,
+              differenceInCalendarDays(endDate, firstDateToRender) *
+                widthOfDay +
+              -140,
             width: 300,
             pointerEvents: 'none',
           }}
@@ -197,41 +140,25 @@ const GanttChart = ({
           {format(endDate, 'PP')}
         </Text>
 
-        <Text
-          sx={{
-            position: 'absolute',
-            color: 'blue.7',
-            transform: 'rotate(90deg)',
-            zIndex: 21,
-            top: 150,
-            left:
-              differenceInCalendarDays(new Date(todayDate), firstDateToRender) *
-                40 -
-              150,
-            width: 300,
-            pointerEvents: 'none',
-          }}
-        >
-          Today ({format(todayDate, 'PP')})
-        </Text>
-
         {items.map((item) => {
           const offset =
             differenceInCalendarDays(
               new Date(item.duration[0]),
               firstDateToRender
-            ) * 40
+            ) *
+              widthOfDay -
+            widthOfDay / 2
           const length =
             differenceInCalendarDays(
               new Date(item.duration[1]),
               new Date(item.duration[0])
-            ) * 40
+            ) * widthOfDay
 
           return (
             <Flex
               key={item.id}
               py={2}
-              px={3}
+              px={2}
               sx={{
                 boxSizing: 'border-box',
                 position: 'absolute',
@@ -241,13 +168,13 @@ const GanttChart = ({
                 backgroundColor: 'background',
                 width: length,
                 left: offset,
-                top: (item.row - 1) * 50 + 20,
+                top: (item.row - 1) * (itemHeight + 10) + 30,
                 overflow: 'hidden',
                 textOverflow: 'ellipsis',
                 whiteSpace: 'nowrap',
-                height: 40,
-                borderRadius: 40,
-                fontWeight: 700,
+                height: itemHeight,
+                borderRadius: itemHeight / 2,
+                fontSize: 1,
                 zIndex: 10,
                 '&:hover': {
                   minWidth: length,
@@ -268,3 +195,103 @@ const GanttChart = ({
 }
 
 export default GanttChart
+
+const WeekLabelRow = ({
+  weeksToRender,
+  firstDateToRender,
+}: {
+  weeksToRender: number
+  firstDateToRender: Date
+}) => {
+  return (
+    <Flex sx={{}}>
+      {times((index) => {
+        const weekNumber = index
+        return (
+          <Box
+            key={`week-${weekNumber}`}
+            sx={{
+              width: widthOfWeek,
+              color: 'textMuted',
+            }}
+          >
+            {format(addWeeks(firstDateToRender, weekNumber), 'PP')}
+          </Box>
+        )
+      }, weeksToRender)}
+    </Flex>
+  )
+}
+
+const DateMeasure = ({
+  index,
+  totalRow,
+}: {
+  index: number
+  totalRow: number
+}) => {
+  return (
+    <Box
+      key={`day-border-${index}`}
+      sx={{
+        position: 'absolute',
+        height: totalRow * 50 + widthOfDay,
+        borderRightStyle: index % 7 === 0 ? 'solid' : 'dashed',
+        borderRightWidth: 1,
+        borderRightColor: index % 7 === 0 ? 'border' : 'altBorder',
+        left: index * widthOfDay,
+      }}
+    />
+  )
+}
+
+const TodayBox = ({
+  totalRow,
+  todayDate,
+  firstDateToRender,
+}: {
+  totalRow: number
+  todayDate: Date
+  firstDateToRender: Date
+}) => {
+  return (
+    <>
+      <Text
+        sx={{
+          position: 'absolute',
+          color: 'blue.7',
+          transform: 'rotate(90deg)',
+          zIndex: 21,
+          top: 170,
+          left:
+            differenceInCalendarDays(new Date(todayDate), firstDateToRender) *
+              widthOfDay -
+            160,
+          width: 300,
+          pointerEvents: 'none',
+        }}
+      >
+        Today ({format(todayDate, 'PP')})
+      </Text>
+      <Box
+        sx={{
+          boxSizing: 'border-box',
+          position: 'absolute',
+          width: widthOfDay,
+          height: totalRow * (itemHeight + 10) + itemHeight,
+          backgroundColor: 'blue.5',
+          borderStyle: 'solid',
+          borderColor: 'blue.7',
+          borderRadius: 4,
+          opacity: 0.3,
+          zIndex: 20,
+          left:
+            differenceInCalendarDays(todayDate, firstDateToRender) *
+              widthOfDay -
+            20,
+          pointerEvents: 'none',
+        }}
+      />
+    </>
+  )
+}
