@@ -3,11 +3,11 @@ import { times } from 'ramda'
 
 interface BossSearchPageProps {}
 
-const AZArray = times((index) => {
-  const charCode = 'A'.charCodeAt(0) + index
-  const result = String.fromCharCode(charCode)
-  return result
-}, 26)
+// const AZArray = times((index) => {
+//   const charCode = 'A'.charCodeAt(0) + index
+//   const result = String.fromCharCode(charCode)
+//   return result
+// }, 26)
 const NumberArray = times((index) => {
   if (index / 100 >= 1) {
     return index
