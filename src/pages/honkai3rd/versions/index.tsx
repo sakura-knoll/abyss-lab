@@ -27,12 +27,16 @@ import WeaponCard from '../../../components/molecules/WeaponCard'
 import BattlesuitCard from '../../../components/molecules/BattlesuitCard'
 import { useEffect, useState } from 'react'
 import BossTable from '../../../components/organisms/BossTable'
+import { getStigmataSetBySetId } from '../../../server/data/honkai3rd/stigmata'
+import { StigmataSet } from '../../../lib/honkai3rd/stigmata'
+import StigmataSetCard from '../../../components/molecules/StigmataSetCard'
 
 interface VersionIndexPageProps {
   versionDataList: VersionData[]
   currentVersionData: VersionData
   currentVersionNewBattlesuits: BattlesuitData[]
   currentVersionNewWeapons: WeaponData[]
+  currentVersionNewStigmataSets: StigmataSet[]
 }
 
 const VersionIndexPage = ({
@@ -40,6 +44,7 @@ const VersionIndexPage = ({
   currentVersionNewBattlesuits,
   versionDataList,
   currentVersionNewWeapons,
+  currentVersionNewStigmataSets,
 }: VersionIndexPageProps) => {
   const { t } = useTranslation()
   const [today, setToday] = useState<Date | null>(null)
@@ -98,7 +103,7 @@ const VersionIndexPage = ({
             <Heading as='h3' mb={2}>
               {t('versions.new-battlesuits')}
             </Heading>
-            <Box mb={3} sx={{ display: 'inline-block' }}>
+            <Box mb={2} sx={{ display: 'inline-block' }}>
               {currentVersionNewBattlesuits.map((battlesuit) => {
                 return (
                   <BattlesuitCard
@@ -113,9 +118,24 @@ const VersionIndexPage = ({
             <Heading as='h3' mb={2}>
               {t('versions.new-weapons')}
             </Heading>
-            <Box mb={3} sx={{ display: 'inline-block' }}>
+            <Box mb={2} sx={{ display: 'inline-block' }}>
               {currentVersionNewWeapons.map((weapon) => {
                 return <WeaponCard key={weapon.id} weapon={weapon} size='sm' />
+              })}
+            </Box>
+
+            <Heading as='h3' mb={2}>
+              {t('versions.new-stigmata-sets')}
+            </Heading>
+            <Box mb={2} sx={{ display: 'inline-block' }}>
+              {currentVersionNewStigmataSets.map((stigmataSet) => {
+                return (
+                  <StigmataSetCard
+                    key={stigmataSet.id}
+                    stigmataSet={stigmataSet}
+                    size='sm'
+                  />
+                )
               })}
             </Box>
           </Box>
@@ -222,11 +242,18 @@ export async function getStaticProps({ locale }: NextPageContext) {
     }
   )
 
+  const currentVersionNewStigmataSets = currentVersionData.newStigmataSets.map(
+    (stigmataSetId) => {
+      return getStigmataSetBySetId(stigmataSetId, locale)
+    }
+  )
+
   return {
     props: {
       currentVersionData,
       currentVersionNewBattlesuits,
       currentVersionNewWeapons,
+      currentVersionNewStigmataSets,
       versionDataList: listVersionData(locale),
       ...(await getI18NProps(locale)),
     },

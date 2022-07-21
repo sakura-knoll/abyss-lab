@@ -6,6 +6,7 @@ export interface VersionData {
   duration: [string, string]
   newBattlesuits: string[]
   newWeapons: string[]
+  newStigmataSets: string[]
   description: string
   supplyEvents: SupplyEventData[]
   superstring: [

@@ -1,5 +1,5 @@
 /** @jsxImportSource theme-ui */
-import { Box, Heading, Link, Flex, Text, Paragraph } from '@theme-ui/components'
+import { Box, Heading, Flex, Text, Paragraph } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import GanttChart from '../../../components/organisms/GanttChart'
@@ -9,7 +9,6 @@ import {
 } from '../../../server/data/honkai3rd/versions'
 import { format as formatDate } from 'date-fns'
 import { getBattlesuitById } from '../../../server/data/honkai3rd/battlesuits'
-import NextLink from 'next/link'
 import SquareImageBox from '../../../components/atoms/SquareImageBox'
 import { getWeaponById } from '../../../server/data/honkai3rd/weapons'
 import ScrollContainer from 'react-indiana-drag-scroll'
@@ -25,17 +24,24 @@ import { assetsBucketBaseUrl } from '../../../lib/consts'
 import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 import { useEffect, useState } from 'react'
 import BossTable from '../../../components/organisms/BossTable'
+import StigmataSetCard from '../../../components/molecules/StigmataSetCard'
+import WeaponCard from '../../../components/molecules/WeaponCard'
+import BattlesuitCard from '../../../components/molecules/BattlesuitCard'
+import { getStigmataSetBySetId } from '../../../server/data/honkai3rd/stigmata'
+import { StigmataSet } from '../../../lib/honkai3rd/stigmata'
 
 interface VersionShowPageProps {
   versionData: VersionData
   battlesuits: BattlesuitData[]
   weapons: WeaponData[]
+  stigmataSets: StigmataSet[]
 }
 
 const VersionShowPage = ({
   versionData,
   battlesuits,
   weapons,
+  stigmataSets,
 }: VersionShowPageProps) => {
   const { t } = useTranslation()
   const [today, setToday] = useState<Date | null>(null)
@@ -102,26 +108,14 @@ const VersionShowPage = ({
             <Heading as='h3' mb={2}>
               {t('versions.new-battlesuits')}
             </Heading>
-            <Box mb={3} sx={{ display: 'inline-block' }}>
+            <Box mb={2} sx={{ display: 'inline-block' }}>
               {battlesuits.map((battlesuit) => {
                 return (
-                  <NextLink
+                  <BattlesuitCard
                     key={battlesuit.id}
-                    href={`/honkai3rd/battlesuits/${battlesuit.id}`}
-                    passHref
-                  >
-                    <Link>
-                      <Flex sx={{ alignItems: 'center' }} mb={2}>
-                        <SquareImageBox
-                          size={40}
-                          src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/portrait-${battlesuit.id}.png`}
-                          alt={`${battlesuit.name}`}
-                          mr={2}
-                        />
-                        <Text>{battlesuit.name}</Text>
-                      </Flex>
-                    </Link>
-                  </NextLink>
+                    battlesuit={battlesuit}
+                    size='sm'
+                  />
                 )
               })}
             </Box>
@@ -129,26 +123,23 @@ const VersionShowPage = ({
             <Heading as='h3' mb={2}>
               {t('versions.new-weapons')}
             </Heading>
-            <Box mb={3} sx={{ display: 'inline-block' }}>
+            <Box mb={2} sx={{ display: 'inline-block' }}>
               {weapons.map((weapon) => {
+                return <WeaponCard key={weapon.id} weapon={weapon} size='sm' />
+              })}
+            </Box>
+
+            <Heading as='h3' mb={2}>
+              {t('versions.new-stigmata-sets')}
+            </Heading>
+            <Box mb={2} sx={{ display: 'inline-block' }}>
+              {stigmataSets.map((stigmataSet) => {
                 return (
-                  <NextLink
-                    key={weapon.id}
-                    href={`/honkai3rd/weapons/${weapon.id}`}
-                    passHref
-                  >
-                    <Link>
-                      <Flex sx={{ alignItems: 'center' }} mb={2}>
-                        <SquareImageBox
-                          size={40}
-                          src={`${assetsBucketBaseUrl}/honkai3rd/weapons/${weapon.id}.png`}
-                          alt={`${weapon.name}`}
-                          mr={2}
-                        />
-                        <Text>{weapon.name}</Text>
-                      </Flex>
-                    </Link>
-                  </NextLink>
+                  <StigmataSetCard
+                    key={stigmataSet.id}
+                    stigmataSet={stigmataSet}
+                    size='sm'
+                  />
                 )
               })}
             </Box>
@@ -225,12 +216,16 @@ export async function getStaticProps({
   const weapons = versionData.newWeapons.map((weaponId) => {
     return getWeaponById(weaponId, locale)
   })
+  const stigmataSets = versionData.newStigmataSets.map((stigmataSetId) => {
+    return getStigmataSetBySetId(stigmataSetId, locale)
+  })
 
   return {
     props: {
       versionData,
       battlesuits,
       weapons,
+      stigmataSets,
       ...(await getI18NProps(locale)),
     },
   }

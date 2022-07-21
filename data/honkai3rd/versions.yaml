@@ -1,7 +1,7 @@
 - previousVersion: '5.8'
   version: '5.9'
-  name: '-'
-  krName: '-'
+  name: 'Banquet of Helix'
+  krName: '나선의 연회'
   duration:
     - 2022-08-11
     - 2022-09-22
@@ -10,6 +10,10 @@
   newWeapons:
     - vill-v-pri-weapon
     - vill-v-weapon
+  newStigmataSets:
+    - carlo-collodi
+  newFoundryStigmataSets:
+    - dickens
   description: ''
   superstring:
     - - label: qua
@@ -18,9 +22,9 @@
         boss: ofg
   ma:
     - - label: sss
-        boss: kosma
+        boss: qksm
       - label: sss
-        boss: jizo-sss
+        boss: jz-sss
       - label: ss
         boss: hpt
   supplyEvents: []
@@ -37,10 +41,14 @@
   newWeapons:
     - griseo-pri-weapon
     - griseo-weapon
+  newStigmataSets:
+    - cezanne
+  newFoundryStigmataSets:
+    - gustav-klimt
   description: ''
   superstring:
     - - label: physical
-        boss: jizo
+        boss: jz
       - label: paralyze
         boss: jk
     - - label: type
@@ -62,7 +70,7 @@
     - - label: type
         boss: wolf
       - label: type
-        boss: hdl
+        boss: hmd
   ma:
     - - label: sss
         boss: hod
@@ -75,7 +83,7 @@
       - label: ss
         boss: hpt
       - label: ss
-        boss: hdl
+        boss: hmd
     - - label: sss
         boss: ofg
       - label: ss
@@ -85,7 +93,7 @@
     - - label: sss
         boss: hod
       - label: ss
-        boss: kasumi
+        boss: ksm
       - label: ss
         boss: ana
     - - label: sss
@@ -701,9 +709,74 @@
     - lost-conviction-damnation
     - lost-conviction
     - echo-of-paradise
+  newStigmataSets:
+    - zeno
+    - handel
+  newFoundryStigmataSets:
+    - handel
   description: ''
-  superstring: []
-  ma: []
+  superstring:
+    - - label: lightning (paralyze)
+        boss: husk
+      - label: ice
+        boss: hm
+    - - label: paralyze
+        boss: jk
+      - label: img
+        boss: ofg
+    - - label: type
+        boss: ksm
+      - label: lightning (hit count)
+        boss: husk2
+    - - label: ignite
+        boss: aka
+      - label: physical
+        boss: jz
+    - - label: lightning
+        boss: wolf
+      - label: type
+        boss: hd
+    - - label: ignite
+        boss: aka
+      - label: blood thirsty
+        boss: adr
+  ma:
+    - - label: sss
+        boss: husk-sss
+      - label: ss
+        boss: ksm
+      - label: ss
+        boss: ana
+    - - label: sss
+        boss: jz-sss
+      - label: ss
+        boss: hpt
+      - label: ss
+        boss: bns
+    - - label: sss
+        boss: qt-sss
+      - label: ss
+        boss: dd
+      - label: ss
+        boss: kl
+    - - label: sss
+        boss: husk-sss
+      - label: ss
+        boss: aka
+      - label: ss
+        boss: qc
+    - - label: sss
+        boss: qt-sss
+      - label: ss
+        boss: dd
+      - label: ss
+        boss: dj
+    - - label: sss
+        boss: jz-sss
+      - label: ss
+        boss: hm
+      - label: ss
+        boss: hd
   supplyEvents:
     - name: Key of Reason Focused Supply B
       duration:
@@ -1417,9 +1490,73 @@
     - purana-phantasma
     - gilded-librae
     - cerulean-flare
+  newStigmataSets:
+    - bastet
+  newFoundryStigmataSets:
+    - jin-shengtan
   description: ''
-  superstring: []
-  ma: []
+  superstring:
+    - - label: ice
+        boss: hm
+      - label: ice
+        boss: hd
+    - - label: qua
+        boss: qc
+      - label: img
+        boss: hod
+    - - label: ignite
+        boss: pvt
+      - label: ice
+        boss: mpe
+    - - label: lightning
+        boss: wolf
+      - label: fire
+        boss: tank2
+    - - label: type
+        boss: sk
+      - label: ice
+        boss: bns
+    - - label: ignite
+        boss: aka
+      - label: type
+        boss: hos
+  ma:
+    - - label: sss
+        boss: ofg
+      - label: ss
+        boss: hm
+      - label: ss
+        boss: qt
+    - - label: sss
+        boss: tank2
+      - label: ss
+        boss: ksm
+      - label: ss
+        boss: ana
+    - - label: sss
+        boss: wolf-sss
+      - label: ss
+        boss: bns
+      - label: ss
+        boss: hmd
+    - - label: sss
+        boss: ofg
+      - label: ss
+        boss: dd
+      - label: ss
+        boss: hpt
+    - - label: sss
+        boss: tank2
+      - label: ss
+        boss: kl
+      - label: ss
+        boss: aka
+    - - label: sss
+        boss: wolf-sss
+      - label: ss
+        boss: ask
+      - label: ss
+        boss: dj
   supplyEvents:
     - name: Nue of the Shadow Focused Supply B
       duration:
@@ -2392,9 +2529,74 @@
     - midnight-eclipse
     - astral-divide-pisces
     - astral-rend-white-dwarf
+  newStigmataSets:
+    - bianka-theatre
+    - ragna
+  newFoundryStigmataSets:
+    - fuhua-margrave
   description: ''
-  superstring: []
-  ma: []
+  superstring:
+    - - label: img
+        boss: hod
+      - label: ignite
+        boss: aka
+    - - label: img
+        boss: hod
+      - label: blood thirsty
+        boss: homu
+    - - label: physical
+        boss: ova
+      - label: type
+        boss: wolf
+    - - label: shield
+        boss: rw
+      - label: ice
+        boss: mpe
+    - - label: ignite
+        boss: aka
+      - label: lightning (hit count)
+        boss: husk2
+    - - label: qua
+        boss: qc
+      - label: ranged
+        boss: ask2
+  ma:
+    - - label: sss
+        boss: wolf-sss
+      - label: ss
+        boss: hm
+      - label: ss
+        boss: bns
+    - - label: sss
+        boss: hod
+      - label: ss
+        boss: ksm
+      - label: ss
+        boss: bke
+    - - label: sss
+        boss: pvt-sss
+      - label: ss
+        boss: ofg
+      - label: ss
+        boss: ksm
+    - - label: sss
+        boss: hod
+      - label: ss
+        boss: dd
+      - label: ss
+        boss: kl
+    - - label: sss
+        boss: wolf-sss
+      - label: ss
+        boss: sk
+      - label: ss
+        boss: dj
+    - - label: sss
+        boss: pvt-sss
+      - label: ss
+        boss: hpt
+      - label: ss
+        boss: hov
   supplyEvents:
     - name: Skaldi Ondurgud Supply B
       duration:
@@ -3872,9 +4074,71 @@
   newWeapons:
     - falcon-flare-0019
     - falcon-flare-final
+  newStigmataSets:
+    - allan-poe
   description: ''
-  superstring: []
-  ma: []
+  superstring:
+    - - label: ice
+        boss: mpe
+      - label: qua
+        boss: qc
+    - - label: physical
+        boss: jz
+      - label: ice
+        boss: bns
+    - - label: type
+        boss: hos
+      - label: ranged
+        boss: ask2
+    - - label: ranged
+        boss: tank2
+      - label: lightning
+        boss: wolf
+    - - label: lightning
+        boss: bke
+      - label: type
+        boss: sk
+    - - label: type
+        boss: ksm
+      - label: ignite
+        boss: pvt
+  ma:
+    - - label: sss
+        boss: husk-sss
+      - label: ss
+        boss: ana
+      - label: ss
+        boss: bke
+    - - label: sss
+        boss: jz-sss
+      - label: ss
+        boss: hm
+      - label: ss
+        boss: ana
+    - - label: sss
+        boss: hod
+      - label: ss
+        boss: dd
+      - label: ss
+        boss: bns
+    - - label: sss
+        boss: jz-sss
+      - label: ss
+        boss: pvt
+      - label: ss
+        boss: hmd
+    - - label: sss
+        boss: husk-sss
+      - label: ss
+        boss: ana
+      - label: ss
+        boss: kl
+    - - label: sss
+        boss: hod
+      - label: ss
+        boss: qc
+      - label: ss
+        boss: bke
   supplyEvents:
     - name: Eos Gloria Focused Supply B
       duration:
@@ -4671,8 +4935,75 @@
   newWeapons:
     - hekate-s-sombre
     - miracle-kissy-pillow
+  newStigmataSets:
+    - paganini
+  newFoundryStigmataSets:
+    - caravaggio
+    - wilde
   description: |
     https://honkaiimpact3.mihoyo.com/global/en-us/news/17390
+  superstring:
+    - - label: physical
+        boss: ask2
+      - label: fire
+        boss: ana
+    - - label: shield
+        boss: rw
+      - label: ranged
+        boss: tank2
+    - - label: lightning
+        boss: wolf
+      - label: ice
+        boss: hm
+    - - label: ignite
+        boss: pvt
+      - label: type
+        boss: dj
+    - - label: ice
+        boss: mpe
+      - label: type
+        boss: sk
+    - - label: fire
+        boss: hmd
+      - label: img
+        boss: hod
+  ma:
+    - - label: sss
+        boss: husk-sss
+      - label: ss
+        boss: pvt
+      - label: ss
+        boss: hov
+    - - label: sss
+        boss: jz-sss
+      - label: ss
+        boss: ana
+      - label: ss
+        boss: hpt
+    - - label: sss
+        boss: wolf-sss
+      - label: ss
+        boss: dd
+      - label: ss
+        boss: hm
+    - - label: sss
+        boss: husk-sss
+      - label: ss
+        boss: qt
+      - label: ss
+        boss: ksm
+    - - label: sss
+        boss: jz-sss
+      - label: ss
+        boss: hod
+      - label: ss
+        boss: dj
+    - - label: sss
+        boss: wolf-sss
+      - label: ss
+        boss: hmd
+      - label: ss
+        boss: bns
   supplyEvents:
     - name: Keys of the Void Focused Supply B
       duration:

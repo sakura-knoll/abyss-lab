@@ -19,11 +19,11 @@ const NumberArray = times((index) => {
 }, 1000)
 
 const BossSearchPage = ({}: BossSearchPageProps) => {
-  return NumberArray.map((number) => number + '.png').map((item) => {
+  return NumberArray.map((item) => {
     return (
       <img
         key={item}
-        src={`https://upload-os-bbs.mihoyo.com/game_record/honkai3rd/global/SpriteOutput/OpenWorld/QuestBossIcon/BOSS_${item}`}
+        src={`https://upload-os-bbs.mihoyo.com/game_record/honkai3rd/global/SpriteOutput/OpenWorld/QuestBossIcon/DG_${item}_M01.png`}
       />
     )
   })

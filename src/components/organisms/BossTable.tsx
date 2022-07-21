@@ -30,11 +30,11 @@ const BossTable = ({ versionData, today }: BossTableProps) => {
         </Box>
         {versionData.superstring.map(([first, second], index) => {
           const firstDuration = [
-            addDays(versionStartDate, index * 7),
-            addDays(versionStartDate, index * 7 + 2),
+            addDays(versionStartDate, index * 7 + 0),
+            addDays(versionStartDate, index * 7 + 3),
           ]
           const secondDuration = [
-            addDays(versionStartDate, index * 7 + 3),
+            addDays(versionStartDate, index * 7 + 4),
             addDays(versionStartDate, index * 7 + 6),
           ]
 
@@ -79,8 +79,8 @@ const BossTable = ({ versionData, today }: BossTableProps) => {
         </Box>
         {versionData.ma.map(([first, second, third], index) => {
           const durations = [
-            addDays(versionStartDate, index * 7 + 3),
-            addDays(versionStartDate, (index + 1) * 7 + 2),
+            addDays(versionStartDate, index * 7 + 4),
+            addDays(versionStartDate, (index + 1) * 7 + 3),
           ]
           const active =
             today != null && today >= durations[0] && today <= durations[1]

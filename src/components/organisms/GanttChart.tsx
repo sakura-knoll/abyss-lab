@@ -58,9 +58,7 @@ const GanttChart = ({
   }, [items])
 
   return (
-    <Box
-      sx={{ width: weeksToRender * widthOfWeek + 70, marginLeft: widthOfDay }}
-    >
+    <Box sx={{ width: weeksToRender * widthOfWeek + 70 }}>
       <WeekLabelRow
         firstDateToRender={firstDateToRender}
         weeksToRender={weeksToRender}
@@ -79,7 +77,7 @@ const GanttChart = ({
               totalRow={totalRow}
             />
           )
-        }, daysToRender)}
+        }, daysToRender + 1)}
 
         {times((index) => {
           return (
@@ -87,23 +85,23 @@ const GanttChart = ({
               key={`weekdate-${index}`}
               sx={{
                 position: 'absolute',
-                left: (index - 1) * widthOfDay,
+                left: index * widthOfDay,
                 width: widthOfDay,
                 textAlign: 'center',
                 color:
-                  index - (1 % 7) === 3
+                  (index - 1) % 7 === 2
                     ? 'red'
-                    : index - (1 % 7) === 2
+                    : (index - 1) % 7 === 1
                     ? 'blue'
                     : 'default',
               }}
             >
-              {format(addDays(firstDateToRender, index - 1), 'EEEEE')}
+              {format(addDays(firstDateToRender, index), 'EEEEE')}
             </Box>
           )
-        }, daysToRender + 2)}
+        }, daysToRender + 1)}
 
-        {todayDate != null && (
+        {todayDate != null && todayDate <= endDate && (
           <TodayBox
             totalRow={totalRow}
             todayDate={todayDate}
@@ -116,11 +114,15 @@ const GanttChart = ({
             boxSizing: 'border-box',
             position: 'absolute',
             width: 1,
-            height: totalRow * (itemHeight + 10) + itemHeight,
-            backgroundColor: 'red.3',
+            top: 24,
+            height: totalRow * (itemHeight + 10) + itemHeight - 24,
+            backgroundColor: 'red.9',
+            opacity: 0.8,
             zIndex: 20,
             left:
-              differenceInCalendarDays(endDate, firstDateToRender) * widthOfDay,
+              differenceInCalendarDays(endDate, firstDateToRender) *
+                widthOfDay +
+              widthOfDay / 2,
             pointerEvents: 'none',
           }}
         />
@@ -134,6 +136,7 @@ const GanttChart = ({
             left:
               differenceInCalendarDays(endDate, firstDateToRender) *
                 widthOfDay +
+              widthOfDay / 2 +
               -140,
             width: 300,
             pointerEvents: 'none',
@@ -148,7 +151,7 @@ const GanttChart = ({
               new Date(item.duration[0]),
               firstDateToRender
             ) *
-              widthOfDay -
+              widthOfDay +
             widthOfDay / 2
           const length =
             differenceInCalendarDays(
@@ -266,7 +269,8 @@ const TodayBox = ({
           zIndex: 21,
           top: 170,
           left:
-            differenceInCalendarDays(new Date(todayDate), firstDateToRender) *
+            (differenceInCalendarDays(new Date(todayDate), firstDateToRender) +
+              1) *
               widthOfDay -
             160,
           width: 300,
@@ -288,7 +292,7 @@ const TodayBox = ({
           opacity: 0.3,
           zIndex: 20,
           left:
-            differenceInCalendarDays(todayDate, firstDateToRender) *
+            (differenceInCalendarDays(todayDate, firstDateToRender) + 1) *
               widthOfDay -
             20,
           pointerEvents: 'none',
