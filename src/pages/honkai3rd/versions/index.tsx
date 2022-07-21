@@ -141,7 +141,7 @@ const VersionIndexPage = ({
           </Box>
 
           <Heading as='h3' mb={2}>
-            Bosses
+            {t('versions.weekly-bosses')}
           </Heading>
 
           <Box sx={{ mb: 3 }}>

@@ -21,6 +21,17 @@ export function listVersionData(locale?: string): VersionData[] {
       return {
         ...omit(['krName'], version),
         name: locale === 'ko-KR' ? version.krName : version.name,
+        superstring: version.superstring.map((row: any[]) => {
+          return row.map((stage: any) => {
+            return {
+              ...stage,
+              label:
+                locale === 'ko-KR' && stage.krLabel != null
+                  ? stage.krLabel
+                  : stage.label,
+            }
+          })
+        }),
       }
     })
     .sort((a: any, b: any) => {

@@ -1,4 +1,5 @@
 import { addDays } from 'date-fns'
+import { useTranslation } from 'next-i18next'
 import { Box, Flex, Image, Text } from 'theme-ui'
 import { assetsBucketBaseUrl } from '../../lib/consts'
 import { VersionData } from '../../lib/honkai3rd/versions'
@@ -9,6 +10,7 @@ interface BossTableProps {
 }
 
 const BossTable = ({ versionData, today }: BossTableProps) => {
+  const { t } = useTranslation()
   const versionStartDate = new Date(versionData.duration[0])
   return (
     <Flex>
@@ -26,7 +28,7 @@ const BossTable = ({ versionData, today }: BossTableProps) => {
             borderBottom: 'default',
           }}
         >
-          Super String
+          {t('versions.super-string')}
         </Box>
         {versionData.superstring.map(([first, second], index) => {
           const firstDuration = [
@@ -75,7 +77,7 @@ const BossTable = ({ versionData, today }: BossTableProps) => {
             borderBottom: 'default',
           }}
         >
-          Memorial Arena
+          {t('versions.memorial-arena')}
         </Box>
         {versionData.ma.map(([first, second, third], index) => {
           const durations = [
@@ -140,11 +142,11 @@ const BossCard = ({
         >
           <Text
             sx={{
-              lineHeight: '10px',
+              lineHeight: '14px',
               fontWeight: 700,
               py: 0,
               px: 1,
-              fontSize: '10px',
+              fontSize: '14px',
               color: 'white',
             }}
           >
