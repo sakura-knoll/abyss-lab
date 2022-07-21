@@ -23,6 +23,10 @@ import Head from '../../../components/atoms/Head'
 import PageLink from '../../../components/atoms/PageLink'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
 import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
+import WeaponCard from '../../../components/molecules/WeaponCard'
+import BattlesuitCard from '../../../components/molecules/BattlesuitCard'
+import { useEffect, useState } from 'react'
+import BossTable from '../../../components/organisms/BossTable'
 
 interface VersionIndexPageProps {
   versionDataList: VersionData[]
@@ -38,6 +42,10 @@ const VersionIndexPage = ({
   currentVersionNewWeapons,
 }: VersionIndexPageProps) => {
   const { t } = useTranslation()
+  const [today, setToday] = useState<Date | null>(null)
+  useEffect(() => {
+    setToday(new Date(getDateString(new Date())))
+  }, [])
 
   return (
     <Honkai3rdLayout>
@@ -93,23 +101,11 @@ const VersionIndexPage = ({
             <Box mb={3} sx={{ display: 'inline-block' }}>
               {currentVersionNewBattlesuits.map((battlesuit) => {
                 return (
-                  <NextLink
+                  <BattlesuitCard
                     key={battlesuit.id}
-                    href={`/honkai3rd/battlesuits/${battlesuit.id}`}
-                    passHref
-                  >
-                    <Link>
-                      <Flex sx={{ alignItems: 'center' }} mb={2}>
-                        <SquareImageBox
-                          size={40}
-                          src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/portrait-${battlesuit.id}.png`}
-                          alt={`${battlesuit.name}`}
-                          mr={2}
-                        />
-                        <Text>{battlesuit.name}</Text>
-                      </Flex>
-                    </Link>
-                  </NextLink>
+                    battlesuit={battlesuit}
+                    size='sm'
+                  />
                 )
               })}
             </Box>
@@ -119,27 +115,17 @@ const VersionIndexPage = ({
             </Heading>
             <Box mb={3} sx={{ display: 'inline-block' }}>
               {currentVersionNewWeapons.map((weapon) => {
-                return (
-                  <NextLink
-                    key={weapon.id}
-                    href={`/honkai3rd/weapons/${weapon.id}`}
-                    passHref
-                  >
-                    <Link>
-                      <Flex sx={{ alignItems: 'center' }} mb={2}>
-                        <SquareImageBox
-                          size={40}
-                          src={`${assetsBucketBaseUrl}/honkai3rd/weapons/${weapon.id}.png`}
-                          alt={`${weapon.name}`}
-                          mr={2}
-                        />
-                        <Text>{weapon.name}</Text>
-                      </Flex>
-                    </Link>
-                  </NextLink>
-                )
+                return <WeaponCard key={weapon.id} weapon={weapon} size='sm' />
               })}
             </Box>
+          </Box>
+
+          <Heading as='h3' mb={2}>
+            Bosses
+          </Heading>
+
+          <Box sx={{ mb: 3 }}>
+            <BossTable versionData={currentVersionData} today={today} />
           </Box>
 
           <Heading as='h3' mb={2}>
@@ -176,7 +162,7 @@ const VersionIndexPage = ({
                     }
                   }
                 )}
-                today={getDateString(new Date())}
+                today={today}
                 startDate={currentVersionData.duration[0]}
                 endDate={
                   currentVersionData.duration[1] != null

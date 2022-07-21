@@ -23,6 +23,8 @@ import Head from '../../../components/atoms/Head'
 import PageLink from '../../../components/atoms/PageLink'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
 import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
+import { useEffect, useState } from 'react'
+import BossTable from '../../../components/organisms/BossTable'
 
 interface VersionShowPageProps {
   versionData: VersionData
@@ -36,6 +38,10 @@ const VersionShowPage = ({
   weapons,
 }: VersionShowPageProps) => {
   const { t } = useTranslation()
+  const [today, setToday] = useState<Date | null>(null)
+  useEffect(() => {
+    setToday(new Date(getDateString(new Date())))
+  }, [])
   return (
     <Honkai3rdLayout>
       <Head
@@ -149,6 +155,14 @@ const VersionShowPage = ({
           </Box>
 
           <Heading as='h3' mb={2}>
+            Bosses
+          </Heading>
+
+          <Box sx={{ mb: 3 }}>
+            <BossTable versionData={versionData} today={today} />
+          </Box>
+
+          <Heading as='h3' mb={2}>
             {t('versions.supply-events')}
           </Heading>
           <Box mb={2}>
@@ -178,7 +192,7 @@ const VersionShowPage = ({
                     row: supplyEventData.track,
                   }
                 })}
-                today={getDateString(new Date())}
+                today={today}
                 startDate={versionData.duration[0]}
                 endDate={
                   versionData.duration[1] != null

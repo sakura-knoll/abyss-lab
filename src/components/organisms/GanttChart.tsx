@@ -21,7 +21,7 @@ export interface GanttChartItem {
 interface GanttChartProps {
   startDate: string
   endDate: string
-  today: string
+  today: Date | null
   items: GanttChartItem[]
 }
 
@@ -33,14 +33,14 @@ const itemHeight = 30
 const GanttChart = ({
   startDate: startDateString,
   endDate: endDateString,
-  today: todayDateString,
+  today,
   items,
 }: GanttChartProps) => {
   const startDate = new Date(startDateString)
   const endDate = new Date(endDateString)
   const firstDateToRender = startDate
   const lastDateToRender = endDate
-  const todayDate = new Date(todayDateString)
+  const todayDate = today
 
   const daysToRender = differenceInCalendarDays(
     lastDateToRender,
@@ -103,11 +103,13 @@ const GanttChart = ({
           )
         }, daysToRender + 2)}
 
-        <TodayBox
-          totalRow={totalRow}
-          todayDate={todayDate}
-          firstDateToRender={firstDateToRender}
-        />
+        {todayDate != null && (
+          <TodayBox
+            totalRow={totalRow}
+            todayDate={todayDate}
+            firstDateToRender={firstDateToRender}
+          />
+        )}
 
         <Box
           sx={{

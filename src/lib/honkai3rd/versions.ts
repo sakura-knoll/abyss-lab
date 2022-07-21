@@ -8,6 +8,15 @@ export interface VersionData {
   newWeapons: string[]
   description: string
   supplyEvents: SupplyEventData[]
+  superstring: [
+    { label: string; boss: string },
+    { label: string; boss: string }
+  ][]
+  ma: [
+    { label: string; boss: string },
+    { label: string; boss: string },
+    { label: string; boss: string }
+  ][]
 }
 
 export interface SupplyEventData {
