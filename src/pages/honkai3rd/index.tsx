@@ -1,96 +1,223 @@
 /** @jsxImportSource theme-ui */
-import { Box, Heading, Text, Flex, Link } from '@theme-ui/components'
-import { useCallback, useEffect, useState } from 'react'
-import Breadcrumb from '../../components/organisms/Breadcrumb'
-import { NextPageContext } from 'next'
-import { getI18NProps } from '../../server/i18n'
-import { useTranslation } from '../../lib/i18n'
-import PageLink from '../../components/atoms/PageLink'
+import { Box, Flex, Heading, Link, Text, Paragraph } from '@theme-ui/components'
+import NextLink from 'next/link'
 import SquareImageBox from '../../components/atoms/SquareImageBox'
-import { mdiGithub } from '@mdi/js'
-import { Icon } from '@mdi/react'
+import Breadcrumb from '../../components/organisms/Breadcrumb'
+import GanttChart from '../../components/organisms/GanttChart'
+import { getBattlesuitById } from '../../server/data/honkai3rd/battlesuits'
+import {
+  getCurrentVersion,
+  listVersionData,
+} from '../../server/data/honkai3rd/versions'
+import { getWeaponById } from '../../server/data/honkai3rd/weapons'
+import { addDateToDateString, getDateString } from '../../lib/string'
+import ScrollContainer from 'react-indiana-drag-scroll'
+import { format as formatDate } from 'date-fns'
+import { BattlesuitData } from '../../lib/honkai3rd/battlesuits'
+import { WeaponData } from '../../lib/honkai3rd/weapons'
+import { VersionData } from '../../lib/honkai3rd/versions'
+import { getI18NProps } from '../../server/i18n'
+import { NextPageContext } from 'next'
+import { useTranslation } from '../../lib/i18n'
 import Head from '../../components/atoms/Head'
+import PageLink from '../../components/atoms/PageLink'
 import { assetsBucketBaseUrl } from '../../lib/consts'
 import Honkai3rdLayout from '../../components/layouts/Honkai3rdLayout'
+import WeaponCard from '../../components/molecules/WeaponCard'
+import BattlesuitCard from '../../components/molecules/BattlesuitCard'
+import { useEffect, useState } from 'react'
+import BossTable from '../../components/organisms/BossTable'
+import { getStigmataSetBySetId } from '../../server/data/honkai3rd/stigmata'
+import { StigmataSet } from '../../lib/honkai3rd/stigmata'
+import StigmataSetCard from '../../components/molecules/StigmataSetCard'
 
-const bannerValkyries = [
-  'kiana',
-  'mei',
-  'bronya',
-  'theresa',
-  'fuhua',
-  'bianka',
-  'rita',
-  'carole',
-]
+interface VersionIndexPageProps {
+  versionDataList: VersionData[]
+  currentVersionData: VersionData
+  currentVersionNewBattlesuits: BattlesuitData[]
+  currentVersionNewWeapons: WeaponData[]
+  currentVersionNewStigmataSets: StigmataSet[]
+}
 
-const Honkai3rdIndexPage = () => {
+const VersionIndexPage = ({
+  currentVersionData,
+  currentVersionNewBattlesuits,
+  versionDataList,
+  currentVersionNewWeapons,
+  currentVersionNewStigmataSets,
+}: VersionIndexPageProps) => {
   const { t } = useTranslation()
-  const [bannerIndex, setBannerIndex] = useState(0)
-
-  const switchBanner = useCallback(() => {
-    setBannerIndex((previousBannerIndex) => {
-      return (previousBannerIndex + 1) % bannerValkyries.length
-    })
-  }, [])
-
+  const [today, setToday] = useState<Date | null>(null)
   useEffect(() => {
-    const timer = setTimeout(() => {
-      switchBanner()
-    }, 5000)
-    return () => {
-      clearTimeout(timer)
-    }
-  }, [bannerIndex, switchBanner])
+    setToday(new Date(getDateString(new Date())))
+  }, [])
 
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${t('common.honkai-3rd')}: Home - ${t('common.abyss-lab')}`}
-        description={t('index.description')}
+        title={`${t('common.versions')} - ${t('common.honkai-3rd')} - ${t(
+          'common.abyss-lab'
+        )}`}
+        description={t('versions.list-page-description')}
       />
 
       <Box p={3}>
         <Breadcrumb
-          items={[{ href: 'honkai3rd', label: t('common.honkai-3rd') }]}
+          items={[{ href: '/honkai3rd', label: t('common.honkai-3rd') }]}
         />
-        <Heading as='h1'>{t('common.honkai-3rd')} </Heading>
+        <Box mb={4}>
+          <Box mb={2}>
+            {currentVersionData.previousVersion != null && (
+              <PageLink
+                href={`/honkai3rd/versions/${currentVersionData.previousVersion}`}
+                mr={2}
+              >
+                {t('versions.previous')} (v
+                {currentVersionData.previousVersion})
+              </PageLink>
+            )}
+            {currentVersionData.nextVersion != null && (
+              <PageLink
+                href={`/honkai3rd/versions/${currentVersionData.nextVersion}`}
+              >
+                {t('versions.next')} (v{currentVersionData.nextVersion})
+              </PageLink>
+            )}
+          </Box>
 
-        <Box
-          sx={{ position: 'relative', mb: 3, width: 280, height: 280 }}
-          onClick={switchBanner}
-        >
-          {bannerValkyries.map((valkyrie, index) => (
-            <BannerItem
-              key={valkyrie}
-              valkyrie={valkyrie}
-              active={bannerIndex === index}
-            />
-          ))}
-        </Box>
+          <Heading as='h1'>
+            v{currentVersionData.version} : {currentVersionData.name}{' '}
+            <small>({t('versions.current')})</small>
+          </Heading>
+          <Box mb={4}>
+            {formatDate(new Date(currentVersionData.duration[0]), 'PP')} -{' '}
+            {currentVersionData.duration[1] != null
+              ? formatDate(new Date(currentVersionData.duration[1]), 'PP')
+              : ''}
+          </Box>
 
-        <Box mb={3}>
-          <NavItem target='versions' />
-          <NavItem target='battlesuits' />
-          <NavItem target='weapons' />
-          <NavItem target='stigmata' />
-          <NavItem target='elfs' />
-          <NavItem target='elysian-realm' />
-          <NavItem target='media' />
-        </Box>
-
-        <Box>
-          <Link
-            href='https://github.com/sakura-knoll/abyss-lab'
-            target='_blank'
-            rel='noopener noreferrer'
-            sx={{ display: 'flex', alignItems: 'center' }}
-          >
-            <Box sx={{ display: 'flex', alignItems: 'center', mr: 1 }}>
-              <Icon path={mdiGithub} size='1rem' />
+          <Box>
+            <Heading as='h3' mb={2}>
+              {t('versions.new-battlesuits')}
+            </Heading>
+            <Box mb={2} sx={{ display: 'inline-block' }}>
+              {currentVersionNewBattlesuits.map((battlesuit) => {
+                return (
+                  <BattlesuitCard
+                    key={battlesuit.id}
+                    battlesuit={battlesuit}
+                    size='sm'
+                  />
+                )
+              })}
             </Box>
-            <Text>Source Code</Text>
-          </Link>
+
+            <Heading as='h3' mb={2}>
+              {t('versions.new-weapons')}
+            </Heading>
+            <Box mb={2} sx={{ display: 'inline-block' }}>
+              {currentVersionNewWeapons.map((weapon) => {
+                return <WeaponCard key={weapon.id} weapon={weapon} size='sm' />
+              })}
+            </Box>
+
+            <Heading as='h3' mb={2}>
+              {t('versions.new-stigmata-sets')}
+            </Heading>
+            <Box mb={2} sx={{ display: 'inline-block' }}>
+              {currentVersionNewStigmataSets.map((stigmataSet) => {
+                return (
+                  <StigmataSetCard
+                    key={stigmataSet.id}
+                    stigmataSet={stigmataSet}
+                    size='sm'
+                  />
+                )
+              })}
+            </Box>
+          </Box>
+
+          <Heading as='h3' mb={2}>
+            {t('versions.weekly-bosses')}
+          </Heading>
+
+          <Box sx={{ mb: 3 }}>
+            <BossTable versionData={currentVersionData} today={today} />
+          </Box>
+
+          <Heading as='h3' mb={2}>
+            {t('versions.supply-events')}
+          </Heading>
+          <Box mb={2}>
+            <ScrollContainer vertical={false}>
+              <GanttChart
+                items={currentVersionData.supplyEvents.map(
+                  (supplyEventData) => {
+                    const imgSrc = getIconSrcFromItem(
+                      supplyEventData.featured[0]
+                    )
+                    return {
+                      id: `${supplyEventData.duration[0]}/${supplyEventData.duration[1]}/${supplyEventData.name}`,
+                      label: (
+                        <Flex sx={{ alignItems: 'center' }}>
+                          {!supplyEventData.verified && (
+                            <Text sx={{ flexShrink: 0 }}>❓</Text>
+                          )}
+                          {imgSrc != null && (
+                            <SquareImageBox
+                              size={20}
+                              src={imgSrc}
+                              alt={supplyEventData.featured[0].id}
+                              mr={1}
+                            />
+                          )}
+                          <Text>{supplyEventData.name}</Text>
+                        </Flex>
+                      ),
+                      duration: supplyEventData.duration,
+                      row: supplyEventData.track,
+                    }
+                  }
+                )}
+                today={today}
+                startDate={currentVersionData.duration[0]}
+                endDate={
+                  currentVersionData.duration[1] != null
+                    ? currentVersionData.duration[1]
+                    : addDateToDateString(currentVersionData.duration[0], {
+                        weeks: 6,
+                      })
+                }
+              />
+            </ScrollContainer>
+          </Box>
+          <Paragraph mb={4}>{t('versions.supply-events-disclaimer')}</Paragraph>
+        </Box>
+        <Heading as='h2' mb={3}>
+          {t('versions.all-versions')}
+        </Heading>
+        <Box>
+          {versionDataList.map((versionData) => {
+            return (
+              <Box key={versionData.version} mb={2}>
+                <Heading as='h3'>
+                  <NextLink
+                    href={`/honkai3rd/versions/${versionData.version}`}
+                    passHref
+                  >
+                    <Link>
+                      {versionData.version} : {versionData.name} (
+                      {formatDate(new Date(versionData.duration[0]), 'PP')} -{' '}
+                      {versionData.duration[1] != null
+                        ? formatDate(new Date(versionData.duration[1]), 'PP')
+                        : ''}
+                      )
+                    </Link>
+                  </NextLink>
+                </Heading>
+              </Box>
+            )
+          })}
         </Box>
       </Box>
     </Honkai3rdLayout>
@@ -98,77 +225,51 @@ const Honkai3rdIndexPage = () => {
 }
 
 export async function getStaticProps({ locale }: NextPageContext) {
+  const currentVersionData = getCurrentVersion(locale)!
+
+  const currentVersionNewBattlesuits = currentVersionData.newBattlesuits.map(
+    (battlesuitId) => {
+      return getBattlesuitById(battlesuitId, locale)
+    }
+  )
+  const currentVersionNewWeapons = currentVersionData.newWeapons.map(
+    (weaponId) => {
+      return getWeaponById(weaponId, locale)
+    }
+  )
+
+  const currentVersionNewStigmataSets = currentVersionData.newStigmataSets.map(
+    (stigmataSetId) => {
+      return getStigmataSetBySetId(stigmataSetId, locale)
+    }
+  )
+
   return {
     props: {
+      currentVersionData,
+      currentVersionNewBattlesuits,
+      currentVersionNewWeapons,
+      currentVersionNewStigmataSets,
+      versionDataList: listVersionData(locale),
       ...(await getI18NProps(locale)),
     },
   }
 }
 
-export default Honkai3rdIndexPage
+export default VersionIndexPage
 
-interface NavItemProps {
-  target:
-    | 'versions'
-    | 'battlesuits'
-    | 'stigmata'
-    | 'weapons'
-    | 'elfs'
-    | 'elysian-realm'
-    | 'media'
-}
-
-const NavItem = ({ target }: NavItemProps) => {
-  const { t } = useTranslation()
-  return (
-    <Box mb={2}>
-      <PageLink href={`/honkai3rd/${target}`}>
-        <Box sx={{ display: 'inline-block' }}>
-          <Flex sx={{ alignItems: 'center' }}>
-            <SquareImageBox size={40} mr={1} src={getIconByTarget(target)} />
-            <Text sx={{ fontSize: 3 }}>{t(`common.${target}`)}</Text>
-          </Flex>
-        </Box>
-      </PageLink>
-    </Box>
-  )
-}
-
-interface BannerItemProps {
-  valkyrie: string
-  active: boolean
-}
-
-const BannerItem = ({ valkyrie, active }: BannerItemProps) => {
-  return (
-    <Box
-      className={active ? 'active' : ''}
-      sx={{
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        width: 280,
-        height: 280,
-        opacity: 0,
-        transition: 'opacity 500ms ease-in-out',
-        '&.active': { opacity: 1 },
-      }}
-    >
-      <SquareImageBox
-        size={280}
-        src={`${assetsBucketBaseUrl}/honkai3rd/banner-${valkyrie}.png`}
-      />
-    </Box>
-  )
-}
-
-function getIconByTarget(target: string) {
-  switch (target) {
-    case 'versions':
-      return `${assetsBucketBaseUrl}/honkai3rd/nav-icons/versions.webp`
-    case 'media':
-      return `${assetsBucketBaseUrl}/honkai3rd/nav-icons/grand-instructor.webp`
-    default:
-      return `${assetsBucketBaseUrl}/honkai3rd/nav-icons/${target}.png`
+function getIconSrcFromItem(item: { type: string; id: string }): string | null {
+  switch (item.type) {
+    case 'battlesuit':
+      return `${assetsBucketBaseUrl}/honkai3rd/battlesuits/portrait-${item.id}.png`
+    case 'weapon':
+      return `${assetsBucketBaseUrl}/honkai3rd/weapons/${item.id}.png`
+    case 'stigmata':
+      return `${assetsBucketBaseUrl}/honkai3rd/stigmata/icon-${item.id}.png`
+    case 'elf':
+      return `${assetsBucketBaseUrl}/honkai3rd/elfs/icon-${item.id}.png`
+    case 'outfit':
+      return `${assetsBucketBaseUrl}/honkai3rd/outfits/portrait-${item.id}.webp`
   }
+  return null
 }
