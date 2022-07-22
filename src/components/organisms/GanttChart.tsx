@@ -8,7 +8,7 @@ import {
   format,
 } from 'date-fns'
 import { times } from 'ramda'
-import React, { useMemo, MouseEventHandler } from 'react'
+import React, { useMemo, MouseEventHandler, useEffect } from 'react'
 
 export interface GanttChartItem {
   id: string
@@ -23,6 +23,7 @@ interface GanttChartProps {
   endDate: string
   today: Date | null
   items: GanttChartItem[]
+  scrollTo?: (to: number) => void
 }
 
 const widthOfDay = 20
@@ -35,6 +36,7 @@ const GanttChart = ({
   endDate: endDateString,
   today,
   items,
+  scrollTo,
 }: GanttChartProps) => {
   const startDate = new Date(startDateString)
   const endDate = new Date(endDateString)
@@ -56,6 +58,19 @@ const GanttChart = ({
       return item.row > max ? item.row : max
     }, 1)
   }, [items])
+
+  useEffect(() => {
+    if (today == null || scrollTo == null) {
+      return
+    }
+
+    const target =
+      differenceInCalendarDays(today, firstDateToRender) * widthOfDay -
+      widthOfWeek -
+      widthOfDay / 2
+
+    scrollTo(target > 0 ? target : 0)
+  }, [firstDateToRender, scrollTo, today])
 
   return (
     <Box sx={{ width: weeksToRender * widthOfWeek + 70 }}>
@@ -171,8 +186,8 @@ const GanttChart = ({
                 borderWidth: 1,
                 borderStyle: 'solid',
                 backgroundColor: 'background',
-                width: length,
-                left: offset,
+                width: length + 'px',
+                left: offset + 'px',
                 top: (item.row - 1) * (itemHeight + 10) + 30,
                 overflow: 'hidden',
                 textOverflow: 'ellipsis',

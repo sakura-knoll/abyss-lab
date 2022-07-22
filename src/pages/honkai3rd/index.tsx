@@ -25,7 +25,7 @@ import { assetsBucketBaseUrl } from '../../lib/consts'
 import Honkai3rdLayout from '../../components/layouts/Honkai3rdLayout'
 import WeaponCard from '../../components/molecules/WeaponCard'
 import BattlesuitCard from '../../components/molecules/BattlesuitCard'
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import BossTable from '../../components/organisms/BossTable'
 import { getStigmataSetBySetId } from '../../server/data/honkai3rd/stigmata'
 import { StigmataSet } from '../../lib/honkai3rd/stigmata'
@@ -48,8 +48,16 @@ const VersionIndexPage = ({
 }: VersionIndexPageProps) => {
   const { t } = useTranslation()
   const [today, setToday] = useState<Date | null>(null)
+  const supplyGanttChartScrollContainerRef = useRef<HTMLElement>(null)
   useEffect(() => {
     setToday(new Date(getDateString(new Date())))
+  }, [])
+
+  const scrollSupplyGanttChart = useCallback((to: number) => {
+    if (supplyGanttChartScrollContainerRef.current == null) {
+      return null
+    }
+    supplyGanttChartScrollContainerRef.current.scrollTo(to, 0)
   }, [])
 
   return (
@@ -149,8 +157,12 @@ const VersionIndexPage = ({
             {t('versions.supply-events')}
           </Heading>
           <Box mb={2}>
-            <ScrollContainer vertical={false}>
+            <ScrollContainer
+              vertical={false}
+              innerRef={supplyGanttChartScrollContainerRef}
+            >
               <GanttChart
+                scrollTo={scrollSupplyGanttChart}
                 items={currentVersionData.supplyEvents.map(
                   (supplyEventData) => {
                     const imgSrc = getIconSrcFromItem(
