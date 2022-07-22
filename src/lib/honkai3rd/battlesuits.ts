@@ -287,6 +287,7 @@ export const valkyries = [
   },
   {
     value: 'vill-v',
+    icon: 'valkyrie-icons/vill-v',
     label: 'Vill-V',
     krLabel: '빌-브이',
   },
