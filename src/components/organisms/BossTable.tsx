@@ -128,7 +128,7 @@ const BossCard = ({
 }) => {
   return (
     <Box
-      sx={{ position: 'relative', '&.active': { bg: 'primary' } }}
+      sx={{ position: 'relative', '&.active': { bg: 'transparentPrimary' } }}
       className={active ? 'active' : ''}
     >
       {label != null && (

@@ -14,6 +14,7 @@ export const theme: Theme = {
     text: '#212529',
     background: '#fff',
     primary: '#007bff',
+    transparentPrimary: '#007bff99',
     secondary: '#6c757d',
     muted: colors.gray[5],
     success: '#28a745',
