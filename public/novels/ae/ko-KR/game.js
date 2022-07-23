@@ -1427,9 +1427,7 @@ function startGame(galgameKey, loadKey) {
     }
   }
 
-  // CUSTOM
-  let current = getCookie(now_galgame_tag)
-  if (!current) {
+  if (loadKey == null) {
     playKey = 'ch1'
   }
 
