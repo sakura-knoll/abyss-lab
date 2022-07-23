@@ -62,12 +62,7 @@ const VersionIndexPage = ({
 
   return (
     <Honkai3rdLayout>
-      <Head
-        title={`${t('common.versions')} - ${t('common.honkai-3rd')} - ${t(
-          'common.abyss-lab'
-        )}`}
-        description={t('versions.list-page-description')}
-      />
+      <Head title={`${t('common.honkai-3rd')} - ${t('common.abyss-lab')}`} />
 
       <Box p={3}>
         <Breadcrumb
