@@ -30,12 +30,12 @@
 		</scene>
 		<scene background="CG22-2.jpg" id="10">
 			<bgm src="04_20_Brigantia.mp3" status="start" />
-			<speak chara="schroCatNoFace">……이 힘……확실히 아까까지와는 다른 사람인 거에요…….</speak>
+			<speak chara="schroCatNoFace">……이 힘……확실히 조금 전까지와는 다르다는 것이에요…….</speak>
 			<goto change="0" goto="20" />
 		</scene>
 		<scene background="schroFadeAway1.jpg" id="20">
 			<bgm src="04_20_Brigantia.mp3" status="continue" />
-			<speak chara="schroCatNoFace">후훗……얼마 남지 않았던 시간을 건 것은, 역시 정답이었던 것이네요…….</speak>
+			<speak chara="schroCatNoFace">후훗……얼마 없는 시간에 도박을 걸은 건, 역시 정답이었던 것이에요…….</speak>
 			<goto change="0" goto="30" />
 		</scene>
 		<scene background="schroFadeAway2.jpg" id="30">
@@ -45,7 +45,7 @@
 		</scene>
 		<scene background="schroFadeAway3.jpg" id="40">
 			<bgm src="04_20_Brigantia.mp3" status="continue" />
-			<speak chara="schroCatNoFace">후훗……즉 내기는 제 승리인 것이에요…….</speak>
+			<speak chara="schroCatNoFace">후훗……즉 이 도박에서는 제가 이겼다는 것이에요…….</speak>
 			<goto change="#ffffff" goto="50" />
 		</scene>
 		<scene background="white.jpg" id="50">
@@ -61,7 +61,7 @@
 		</scene>
 		<scene background="CG23-2-1.jpg" id="70">
 			<bgm src="11_17_tatakau.mp3" status="continue" />
-			<speak chara="reannaNoFace">나는 지옥으로 달리는 흑(黒).</speak>
+			<speak chara="reannaNoFace">나는 지옥을 향해 달려가는 흑(黒).</speak>
 			<goto change="0" goto="72" />
 		</scene>
 		<scene background="CG23-2-2.jpg" id="72">
@@ -74,33 +74,33 @@
 			<speak chara="reannaNoFace">신의 열쇠 백화흑연, 제2정격 출력——</speak>
 			<goto change="0" goto="80" />
 		</scene>
+
+
 		<scene background="white.jpg" id="80">
-			<bgm src="11_17_tatakau.mp3" status="continue" />
-			<cg bg="white.jpg" fadeIn="0" fadeOut="0" src="shengqiangBack.png" />
 			<bgm src="11_17_tatakau.mp3" status="stop" />
-			<sound src="05_18_smash.mp3" />
-			<cg bg="CG23-3.jpg" fadeIn="0" fadeOut="1000" src="niliuStab.png" />
+			<sound src="*af2.mp3" />
+			<cg bg="white.jpg" fadeIn="0" fadeOut="1000" src="*af2.webp" />
 			<goto change="#000000" goto="90" />
 		</scene>
 		<scene background="scienceEngineWarning.jpg" id="90">
 			<bgm src="10_25_noise.mp3" status="start" />
 			<text>약 7시간 전, 뉴저지주 에디슨——</text>
 			<speak chara="schroNoFace">……원자로의 출력이 비정상적으로 상승하고 있는 것이에요!</speak>
-			<speak chara="schroNoFace">이, 임계상수를 돌파했습니다!!</speak>
+			<speak chara="schroNoFace">이, 임계상수를 돌파했다는 것이에요!!</speak>
 			<speak chara="schroNoFace">이대로는, 핵반응의 제어가 불가능하게 되는 것이에요!</speak>
 			<speak chara="nokiaNoFace">이런!</speak>
 			<speak chara="nokiaNoFace">어째서 갑자기——</speak>
 			<speak chara="edisonNoFace">……전원 셸터로 대피! 서둘러!</speak>
-			<speak chara="edisonNoFace">다른 사람들보다도 자신의 몸을 우선시하도록, 빨리!</speak>
+			<speak chara="edisonNoFace">남은 신경쓰지 말고 자신을 우선해, 빨리!</speak>
 			<speak chara="nokiaNoFace">하, 하지만——</speak>
 			<speak chara="edisonNoFace">중얼대지 말고! 대피하세요!</speak>
 			<goto change="#000000" goto="100" />
 		</scene>
 		<scene background="CG23-3.jpg" id="100">
 			<bgm src="11_17_memory.mp3" status="start" />
-			<speak chara="schroCatNoFace">다、당신……어째서 여기에…….</speak>
+			<speak chara="schroCatNoFace">다, 당신……어째서 여기에…….</speak>
 			<speak chara="reannaNoFace">쉿……움직이지 마세요.</speak>
-			<speak chara="reannaNoFace">곧……끝날테니까.</speak>
+			<speak chara="reannaNoFace">곧……끝날 테니까.</speak>
 			<goto change="#ffffff" goto="110" />
 		</scene>
 		<scene background="cloudSky.jpg" id="110">
@@ -112,7 +112,7 @@
 		<scene background="connecticutRoad.jpg" id="120">
 			<bgm src="11_17_memory.mp3" status="continue" />
 			<show chara="reaLaughArmedNoLanceClose-up" position="left" />
-			<speak chara="reannaNoFace">……자, 이제 말해보실까요.</speak>
+			<speak chara="reannaNoFace">……자, 이제 얘기하실 수 있을 거예요.</speak>
 			<show chara="reaEmbarraArmedNoLanceClose-up" position="left" />
 			<speak chara="reannaNoFace">당신이 과묵한 건 알고 있지만……이러면 아무리 그래도 숨 막히겠죠.</speak>
 			<show chara="reaEmbarraArmedNoLanceClose-up" opacity="0.7" position="left" />
@@ -136,7 +136,7 @@
 			<show chara="reaNormalArmedNoLanceClose-up" position="left" />
 			<speak chara="reannaNoFace">신체의 약 절반을 침식당했음에도 불구하고, 그럼에도 이성을 유지하는 게 가능했다——</speak>
 			<show chara="reaSmileArmedNoLanceClose-up" position="left" />
-			<speak chara="reannaNoFace">——99.9%의 인간은 할 수 없는 재주에요. 알겠나요? 슈뢰딩거 박사.</speak>
+			<speak chara="reannaNoFace">——99.9%의 인간은 할 수 없는 재주예요. 알겠나요? 슈뢰딩거 박사.</speak>
 			<show chara="reaSmileArmedNoLanceClose-up" opacity="0.7" position="left" />
 			<show chara="schroShrinkLanceClose-up" position="right" />
 			<speak chara="schroNoFace">…….</speak>
@@ -146,9 +146,9 @@
 			<show chara="reaNormalArmedNoLanceClose-up" position="left" />
 			<speak chara="reannaNoFace">죄 없는 사람을 다치게 한 것은 일단 놔두죠——어찌됐든, 당신으로는 진짜 율자를 쓰러뜨릴 수 없어요.</speak>
 			<show chara="reaSeriousArmedNoLanceClose-up" position="left" />
-			<speak chara="reannaNoFace">알죠? 그때, 만약 웰트가 붕괴 편에 섰다면, 당신은 자신의 몸을 없앨 뻔 했다고요.</speak>
+			<speak chara="reannaNoFace">알죠? 그때, 만약 웰트가 붕괴 편에 섰다면, 당신은 죽었을 거예요.</speak>
 			<show chara="reaNormalArmedNoLanceClose-up" position="left" />
-			<speak chara="reannaNoFace">그리고, 그가 지금처럼 우리 편에 섰다고 해도——당신은 그에게「살인자」의 십자가를 짊어지게끔 했을 겁니다.</speak>
+			<speak chara="reannaNoFace">그리고, 그가 지금처럼 우리 편에 섰다고 해도——당신은 그에게 「살인자」라는 십자가를 짊어지게끔 했을 겁니다.</speak>
 			<show chara="reaSeriousArmedNoLanceClose-up" position="left" />
 			<speak chara="reannaNoFace">그게 얼마나 잔혹한 짓인지, 알고 계시죠?</speak>
 			<show chara="reaSeriousArmedNoLanceClose-up" opacity="0.7" position="left" />
@@ -158,18 +158,18 @@
 			<show chara="reaHahArmedNoLanceClose-up" position="left" />
 			<speak chara="reannaNoFace">하지만, 그렇다고, 너무 깊게 생각하진 말아주세요…….</speak>
 			<show chara="reaSmileArmedNoLanceClose-up" position="left" />
-			<speak chara="reannaNoFace">이미 끝난 일. 맞죠, 아닌가요?</speak>
+			<speak chara="reannaNoFace">이미 끝난 일이니까요, 그렇죠?</speak>
 			<show chara="reaHahArmedNoLanceClose-up" position="left" />
-			<speak chara="reannaNoFace">신에겐 시간이 남아있어요. 앞으로는, 그 아이들과 좀 더 사이좋게 지내세요.</speak>
+			<speak chara="reannaNoFace">당신에겐 앞으로도 살 날이 많아요. 그러니까, 그 아이들과 더 사이좋게 지내세요.</speak>
 			<show chara="reaHahArmedNoLanceClose-up" opacity="0.7" position="left" />
 			<show chara="schroShrinkLanceClose-up" position="right" />
 			<speak chara="schroNoFace">레아나 씨…….</speak>
 			<show chara="schroNormalLanceClose-up" position="right" />
 			<speak chara="schroNoFace">저…….</speak>
-			<speak chara="schroNoFace">잘 할 수 있을지, 모르겠는 것이에요…….</speak>
+			<speak chara="schroNoFace">잘 할 수 있을지, 모르겠다는 것이에요…….</speak>
 			<speak chara="schroNoFace">…….</speak>
 			<show chara="schroSmileLanceClose-up" position="right" />
-			<speak chara="schroNoFace">……그래도, 노력하겠는 것이에요.</speak>
+			<speak chara="schroNoFace">……그래도, 노력하겠다는 것이에요.</speak>
 			<speak chara="schroNoFace">……노력해서, 당신처럼 강한 사람이 될 것이에요.</speak>
 			<show chara="schroSmileLanceClose-up" opacity="0.7" position="right" />
 			<show chara="reaHahArmedNoLanceClose-up" position="left" />
@@ -177,7 +177,7 @@
 			<show chara="reaSmileArmedNoLanceClose-up" position="left" />
 			<speak chara="reannaNoFace">아까 승부했을 때……대충 눈치챘죠?</speak>
 			<show chara="reaHahArmedNoLanceClose-up" position="left" />
-			<speak chara="reannaNoFace">저는……당신보다 훨씬「불에 기름을 붓는」듯한 성격을 가졌거든요.</speak>
+			<speak chara="reannaNoFace">저는……당신보다 훨씬 「불에 기름을 붓는」 듯한 성격을 가졌거든요.</speak>
 			<show chara="reaSmileArmedNoLanceClose-up" position="left" />
 			<speak chara="reannaNoFace">물리적인 의미로.</speak>
 			<goto change="#ffffff" goto="130" />
@@ -185,11 +185,11 @@
 		<scene background="tankInside.jpg" id="130">
 			<bgm src="04_20_tank.mp3" status="start" />
 			<show chara="teslaAstonishGlassWinterClose-up" position="left" />
-			<speak chara="teslaNoFace">엑……잠깐, 잠깐, 잠깐만…….</speak>
+			<speak chara="teslaNoFace">엇……잠깐, 잠깐, 잠깐만…….</speak>
 			<speak chara="teslaNoFace">머리가 복잡해졌어…….</speak>
 			<show chara="teslaShoutWinterClose-up" position="left" />
 			<speak chara="teslaNoFace">즉……몸이 반 정도 붕괴수가 됐던 그 음침녀는, 이 녀석의 능력을 깨우려고, 일부러 싸움을 걸었단 거야?</speak>
-			<speak chara="teslaNoFace">일부러 사람 집을 박살 내서까지? 나를 너덜너덜하게 될 때까지 말려들게 하고?</speak>
+			<speak chara="teslaNoFace">일부러 남의 집을 부수면서까지? 나까지 정신을 잃을 만큼 그 난리를 치고?</speak>
 			<show chara="teslaShoutWinterClose-up" opacity="0.7" position="left" />
 			<show chara="weltSorryNewClose-up" position="right" />
 			<speak chara="weltNoFace">그런거 같아…….</speak>
@@ -201,16 +201,16 @@
 			<speak chara="weltNoFace">……어?</speak>
 			<show chara="weltAstonishNewClose-up" opacity="0.7" position="right" />
 			<show chara="teslaShameGlassWinterClose-up" position="left" />
-			<speak chara="teslaNoFace">왜 그런데. 너, 우리의 동료로 있을 거잖아. 그럼, 단도직입적으로 들어도 문제없잖아?</speak>
+			<speak chara="teslaNoFace">왜 그래? 너, 우리의 동료로 있어줄 거잖아. 그럼, 단도직입적으로 물어봐도 문제없지 않아?</speak>
 			<show chara="teslaShameGlassWinterClose-up" opacity="0.7" position="left" />
 			<show chara="weltAstonishNewClose-up" position="right" />
 			<speak chara="weltNoFace">아, 아아…….</speak>
-			<speak chara="weltNoFace">그, 그것도 그렇지 테슬라……역시 이해가 빨라.</speak>
+			<speak chara="weltNoFace">그, 그렇긴 하네, 테슬라……역시 이해가 빨라.</speak>
 			<show chara="weltAstonishNewClose-up" opacity="0.7" position="right" />
 			<show chara="teslaSnickerGlassWinterClose-up" position="left" />
 			<speak chara="teslaNoFace">에헤헷. 세계의 변화를 유연하게 받아들이는 것 또한 발명가로서 필요한 재능이라고!</speak>
 			<show chara="teslaBiteGlassWinterClose-up" position="left" />
-			<speak chara="teslaNoFace">……쳇. 어째, 너한테 부추겨진 것 같네.</speak>
+			<speak chara="teslaNoFace">……쳇. 어째, 너무 자랑한 것 같네.</speak>
 			<show chara="teslaShameGlassWinterClose-up" position="left" />
 			<speak chara="teslaNoFace">……아무튼! 지금은 내 질문에 대답해!</speak>
 			<show chara="teslaShameGlassWinterClose-up" opacity="0.7" position="left" />
@@ -222,11 +222,11 @@
 			<speak chara="teslaNoFace">……뭐어?</speak>
 			<show chara="teslaAstonishGlassWinterClose-up" opacity="0.7" position="left" />
 			<show chara="einSmileWinterClose-up" position="right" />
-			<speak chara="einNoFace">그렇게 당황마시죠, 테슬라 박사. 웰트 자신이 그 이상한 의지를 거부했단 것에 변함은 없습니다…….</speak>
+			<speak chara="einNoFace">그렇게 당황마시죠, 테슬라 박사. 웰트 자신이 그 불가사의한 의지를 거부했단 것에 변함은 없습니다…….</speak>
 			<show chara="einNormalWinterClose-up" position="right" />
-			<speak chara="einNoFace">그리고 지금 분명하게 알아낸 것은 2가지. 하나는, 그의 손에서 발동된「에덴의 별」의 효과가, 우리가 썼을 때보다도 월등하게 좋았다는 것. 다른 하나는, 베를린 붕괴 사건에 대한 희생자의 「혼의 잔재」가 그의 몸속에 있다는 것.</speak>
+			<speak chara="einNoFace">그리고 지금 분명하게 알아낸 것은 2가지입니다. 하나는, 그의 손에서 발동된 「에덴의 별」의 효과가, 우리가 썼을 때보다도 훨씬 강력했다는 것. 다른 하나는, 베를린 붕괴 사건에 대한 희생자의 「혼의 잔재」가 그의 몸속에 있다는 것.</speak>
 			<show chara="einSeriousEmWinterClose-up" position="right" />
-			<speak chara="einNoFace">만약, 슈뢰딩거 양이 그를 「율자」로 만들 생각에 행동한거라면……이 2개의 사항은 일부러 고려할 것도 없어요.</speak>
+			<speak chara="einNoFace">만약, 슈뢰딩거 씨가 그를 「율자」로 만들 생각에 행동한거라면……이 2개의 사항은 생각할 필요도 없었을 거예요.</speak>
 			<show chara="einSeriousEmWinterClose-up" opacity="0.7" position="right" />
 			<show chara="teslaNormalGlassWinterClose-up" position="left" />
 			<speak chara="teslaNoFace">…….</speak>
@@ -236,7 +236,7 @@
 			<show chara="einSeriousEmWinterClose-up" position="right" />
 			<speak chara="einNoFace">그리고 「혼의 잔재」는, 아마 그의 진짜 능력이 가져온 부산물이겠죠……그게 아니라면, 죽은 자가 입을 여는 일 같은 건 불가능합니다.</speak>
 			<show chara="einSmileWinterClose-up" position="right" />
-			<speak chara="einNoFace">아무튼……더 이상의 정보를 그에게서 억지로 끌어내는 건, 조금 욕심이 아닐까요?</speak>
+			<speak chara="einNoFace">아무튼……더 이상의 정보를 그에게서 억지로 끌어내는 건, 조금 욕심이 과한 거 아닐까요?</speak>
 			<show chara="einSmileWinterClose-up" opacity="0.7" position="right" />
 			<show chara="teslaBoringGlassWinterClose-up" position="left" />
 			<speak chara="teslaNoFace">…….</speak>
@@ -246,13 +246,13 @@
 			<speak chara="teslaNoFace">하지만……이 바보가 정말로 「율자」라면, 이번 사건의 본편은 이제부터라는 거네?</speak>
 			<show chara="teslaNormalGlassWinterClose-up" opacity="0.7" position="left" />
 			<show chara="einSeriousEmWinterClose-up" position="right" />
-			<speak chara="einNoFace">당신이 말하는 것은…….</speak>
+			<speak chara="einNoFace">당신이 말하려는 게…….</speak>
 			<show chara="einSeriousEmWinterClose-up" opacity="0.7" position="right" />
 			<show chara="teslaNormalGlassWinterClose-up" position="left" />
 			<speak chara="teslaNoFace">잊지말라고……이번 재해의 크기는 베를린 때와 같은 수준이니까…….</speak>
-			<speak chara="teslaNoFace">즉, 베를린에서는 바보 웰트가 율자로 됐잖아. 이번에, 음침 슈뢰딩거가 율자가 아니라면——</speak>
+			<speak chara="teslaNoFace">즉, 베를린에서는 바보 웰트가 율자로 됐잖아. 이번 재해에, 음침 슈뢰딩거가 율자가 된 게 아니라면——</speak>
 			<speak chara="teslaNoFace">뉴욕에서 「갓 만들어진 따끈따끈한」 녀석을 만날 가능성이 높다는 것.</speak>
-			<speak chara="teslaNoFace">틀리진 않잖아?</speak>
+			<speak chara="teslaNoFace">그렇지 않아?</speak>
 			<goto change="#ffffff" goto="140" />
 		</scene>
 		<scene background="connecticutRoad.jpg" id="140">
@@ -276,16 +276,16 @@
 			<speak chara="schroNoFace">……저를 지키기 위해서.</speak>
 			<show chara="schroShrinkLanceClose-up" opacity="0.7" position="right" />
 			<show chara="reaSeriousArmedNoLanceClose-up" position="left" />
-			<speak chara="reannaNoFace">……잠깐만요. 당신은 원자로에 너무 가까워서 도망갈 곳이 없었던 거였죠?</speak>
+			<speak chara="reannaNoFace">……잠깐만요. 당신은 원자로에 너무 가까워서, 도망갈 곳이 없었던 거였죠?</speak>
 			<show chara="reaSeriousArmedNoLanceClose-up" opacity="0.7" position="left" />
 			<show chara="schroNormalLanceClose-up" position="right" />
 			<speak chara="schroNoFace">……예, 그랬던 것이에요.</speak>
 			<show chara="schroNormalLanceClose-up" opacity="0.7" position="right" />
 			<show chara="reaSeriousArmedNoLanceClose-up" position="left" />
-			<speak chara="reannaNoFace">……그럼, 에디슨 양은 어떻게 당신을 지켰는데요?</speak>
+			<speak chara="reannaNoFace">……그럼, 에디슨 양은 어떻게 당신을 지켰다는 거예요?</speak>
 			<show chara="reaSeriousArmedNoLanceClose-up" opacity="0.7" position="left" />
 			<show chara="schroNormalLanceClose-up" position="right" />
-			<speak chara="schroNoFace">……그걸, 모르겠는 것이에요.</speak>
+			<speak chara="schroNoFace">……그걸, 모르겠다는 것이에요.</speak>
 			<show chara="schroNormalLanceClose-up" opacity="0.7" position="right" />
 			<show chara="reaSeriousArmedNoLanceClose-up" position="left" />
 			<speak chara="reannaNoFace">……예?</speak>
@@ -295,9 +295,9 @@
 			<show chara="schroSmileLanceClose-up" position="right" />
 			<speak chara="schroNoFace">그렇다고, 결코 붕괴와 같은 계통의 힘도 아닌 것이에요.</speak>
 			<show chara="schroNormalLanceClose-up" position="right" />
-			<speak chara="schroNoFace">저는 알 수 있는 것이에요. 지금 이 시간에도, 에디슨 양은 그 힘으로 붕괴와 싸우고 있는 것이에요.</speak>
+			<speak chara="schroNoFace">저는 알 수 있는 것이에요. 지금 이 시간에도, 에디슨 씨는 그 힘으로 붕괴와 싸우고 있는 것이에요.</speak>
 			<show chara="schroShrinkLanceClose-up" position="right" />
-			<speak chara="schroNoFace">……하지만, 아마 우리가 개입할 수 있는 수준은 아니라고 생각하는 것이에요.</speak>
+			<speak chara="schroNoFace">……하지만, 아마 우리가 개입할 수 있는 수준은 훨씬 넘어선다고 생각되는 것이에요.</speak>
 			<goto change="#ffffff" goto="150" />
 		</scene>
 		<scene background="cloudSky.jpg" id="150">
@@ -305,50 +305,50 @@
 			<text>같은 시각, 어떤 장소의 상공에서——</text>
 			<show chara="edisonAngelHelplessFar" position="center" />
 			<speak chara="edisonAngelNoNameNoFace">큭……이대로라면, 모두에게 알릴 수도 없는데!</speak>
-			<speak chara="edisonAngelNoNameNoFace">내가 이걸 받칠 수 없게 된다면…….</speak>
+			<speak chara="edisonAngelNoNameNoFace">내가 이걸 버텨내지 못한다면…….</speak>
 			<show chara="edisonAngelAngryFar" position="center" />
-			<speak chara="edisonAngelNoNameNoFace">이봐! 지폐에 들러붙어서 지껄이기만 하는 겁쟁이! 어떻게든 해봐!</speak>
+			<speak chara="edisonAngelNoNameNoFace">이봐! 지폐에 들러붙어서 떠들어대기만 하는 겁쟁이! 어떻게든 해봐!</speak>
 			<show chara="dollarFranklinAhFar" position="center" />
 			<speak chara="dollarFranklinNoFace">……이미 손은 다 써봤어요, 에디슨 씨.</speak>
 			<show chara="dollarFranklinEmFar" position="center" />
 			<speak chara="dollarFranklinNoFace" remark="next">잊어버리면 곤란하거든요, 당신이 ■■■■의 힘을 빌려서 「간섭계」를 사용한다 정했을 때, "그" 11차원 공간과는 어떠한 관계도 없게 돼버렸거든요——그렇기에, 저는 이렇게 당신과 대화할 수 있는 것이지요.</speak>
 			<remark post="U2FsdGVkX1+X733EXSLz1fznthEa">
-				<p class="article-text-h">주: </p>
-				<p class="article-text">이론물리학의 「끈이론」(후에 「M이론」으로 발전)에서는, 모든 소립자는 어떤 특수 공간(10차원)의 특수한 【파동】(「끈」이라고 한다. 「끈」은 M이론 안에서는 보다 본질적인 「막」으로 나타난다)으로【설명】할 수 있다. 그래서, 그것은 11차원 공간(10차원에 1차원을 더한 것)으로 만들어진다.</p>
-				<p class="article-text">「사람들은 매우 운 좋게도 참신한 대칭을 발견했다.……어떤 방법에 대해 말하자면, 시공에는 우리가 겪고 있는 차원 이외에도 다른 차원이 있다. 이러한 차원은 그라스만 차원으로 불렸다. 그것들은 그라스만 변수라고 불리는 수를 이용하기 때문에, 통상적인 실수에 따라 측정할 필요는 없다.……나와 같은 실증주의자에게 있어서는, 『추가 차원은 정말로 존재하는가?』라고 하는 문제는 의미가 없는 것이다. 사람들은 『다른 차원을 갖춘 수학 모델은 우주를 잘 설명할 수 있을까?』라는 말 정도밖에 들을 수 없을 것이다.」——스티븐 호킹 『호킹, 미래를 말하다』</p>
+				<p class="article-text-h">주:</p>
+				<p class="article-text">이론물리학의 「끈이론」(후에 「M이론」으로 발전)에서는, 모든 소립자는 어떤 특수 공간(10차원)의 특수한 【파동】(「끈」이라고 한다. 「끈」은 M이론 안에서는 보다 본질적인 「막」으로 나타난다)으로 【설명】할 수 있다. 그래서, 그것은 11차원 공간(10차원에 1차원을 더한 것)으로 만들어진다.</p>
+				<p class="article-text">「사람들은 매우 운 좋게도 참신한 대칭을 발견했다.……그 방법에 대해 말하자면, 시공에는 우리가 겪고 있는 차원 이외에도 다른 차원이 있다. 이러한 차원은 그라스만 차원으로 불렸다. 그것들은 그라스만 변수라고 불리는 수를 이용하기 때문에, 통상적인 실수에 따라 측정할 필요는 없다.……나와 같은 실증주의자에게 있어서는, 『추가 차원은 정말로 존재하는가?』라고 하는 문제는 의미가 없는 것이다. 사람들은 『다른 차원을 갖춘 수학 모델은 우주를 잘 설명할 수 있을까?』라는 말 정도밖에 들을 수 없을 것이다.」——스티븐 호킹 『호킹, 미래를 말하다』</p>
 			</remark>
 			<show chara="dollarFranklinAhFar" position="center" />
 			<speak chara="dollarFranklinNoFace">저는, 당신도 이해할 수 있는 방법으로 사고를 전하고 있을 텐데요. 다시 한번 말해드리죠, 저도 ■■■■의 창조물 중 하나일 뿐이에요. 지금의 당신과 아무 차이도 없어요.</speak>
 			<show chara="dollarFranklinEmFar" position="center" />
-			<speak chara="dollarFranklinNoFace">……당신이 지금 가지고 있는 능력은, 당신의 인생에 있어서 무수한 가능성을 무너뜨림으로써 얻을 수 있는 것입니다.</speak>
+			<speak chara="dollarFranklinNoFace">……당신이 지금 가지고 있는 능력은, 당신의 인생에 있어서 무수한 가능성을 무너뜨림으로써 얻고 있는 것입니다.</speak>
 			<show chara="dollarFranklinAhFar" position="center" />
-			<speak chara="dollarFranklinNoFace">만약 불만이라면, 당신이 「간섭계」를 사용하여 능력을 부스트시키려고 너무 조바심을 낸 탓이라는 것을 기억하세요. 그 때문에, 잠재 능력이 드러나기 어렵게 되어버렸으니까요.</speak>
+			<speak chara="dollarFranklinNoFace">만약 불만이 있다면, 당신이 「간섭계」를 사용하여 능력을 향상시키려고 너무 서두른 탓이라는 걸 기억하세요. 그 때문에, 잠재 능력이 드러나기 어렵게 되어버렸으니까요.</speak>
 			<show chara="edisonAngelQuestionFar" position="center" />
-			<speak chara="edisonAngelNoFace">뭐라고? 내가 너무 조바심을 냈어? 저런 상황에서는 누구라도 같은 선택을 해!</speak>
+			<speak chara="edisonAngelNoFace">뭐라고? 내가 너무 서둘렀다고? 그런 상황에서는 누구라도 같은 선택을 해!</speak>
 			<show chara="dollarFranklinAhFar" position="center" />
-			<speak chara="dollarFranklinNoFace">……그러니까, 저는 이제 손을 다 써봤다고요, 에디슨 씨.</speak>
+			<speak chara="dollarFranklinNoFace">……그러니까, 저도 이미 할 수 있는 건 다 해봤다고요, 에디슨 씨.</speak>
 			<show chara="dollarFranklinEmFar" position="center" />
-			<speak chara="dollarFranklinNoFace">「그 사람들」은, 틀림없이 이 행성의 이상을 방치해 둘 리가 없습니다…….</speak>
+			<speak chara="dollarFranklinNoFace">「그 사람들」은, 틀림없이 이 행성의 이상 현상을 방치해 둘 리가 없습니다…….</speak>
 			<show chara="dollarFranklinAhFar" position="center" />
-			<speak chara="dollarFranklinNoFace">하지만, 우리가 이해할 수 있는 방법으로는 일을 일으키지 않겠죠.</speak>
+			<speak chara="dollarFranklinNoFace">하지만, 우리가 이해할 수 있는 방법으로는 일을 벌이지는 않을 거예요.</speak>
 			<show chara="dollarFranklinEmFar" position="center" />
 			<speak chara="dollarFranklinNoFace">분명 「그 사람들」에게 있어서, 인류의 존망 따위는 아무래도 좋은 일이라고요.</speak>
 			<show chara="dollarFranklinAhFar" position="center" />
-			<speak chara="dollarFranklinNoFace">「그 사람들」이 정말 관심 있는 건 11차원 공간의, 우리가 아직 이해하지 못한 잔물결 부분이니까——</speak>
+			<speak chara="dollarFranklinNoFace">「그 사람들」이 정말 관심 있어 하는 건 11차원 공간의, 우리가 아직 이해하지 못한 잔물결 부분이니까——</speak>
 			<show chara="dollarFranklinEmFar" position="center" />
-			<speak chara="dollarFranklinNoFace">——그리고, 이 행성의 이상 따위는, 그 안에서 들려오는 성가신 개구리 울음소리 같은 것입니다.</speak>
+			<speak chara="dollarFranklinNoFace">——그리고, 이 행성의 이상 현상 따위는, 그 안에서 들려오는 성가신 개구리 울음소리 같은 것입니다.</speak>
 			<show chara="edisonAngelAngryFar" position="center" />
 			<speak chara="edisonAngelNoFace">……그걸 나한테 말한다고 뭐가 달라져? 쓸데없는 잡담일 뿐이야!</speak>
 			<show chara="dollarFranklinEmFar" position="center" />
 			<speak chara="dollarFranklinNoFace">저는, 그냥 지폐일 뿐이거든요. 저에게 어떤 건설적인 의견을 바란 건가요?</speak>
 			<show chara="dollarFranklinAhFar" position="center" />
-			<speak chara="dollarFranklinNoFace">……게다가, 진짜 벤자민 프랭클린이라고 해도, 이런 상황을 타개할 수 있는 대책을 내놓을 수 있다고 정말로 생각하고 있나요?</speak>
+			<speak chara="dollarFranklinNoFace">……게다가, 제가 진짜 벤자민 프랭클린이라고 해도, 이런 상황을 타개할 대책을 내놓을 수 있을 거라 정말로 생각하시는 건 아니겠죠?</speak>
 			<show chara="edisonAngelSeriousFar" position="center" />
 			<speak chara="edisonAngelNoFace">…….</speak>
 			<show chara="edisonAngelSmileFar" position="center" />
-			<speak chara="edisonAngelNoFace">……그건 그래. 잠깐 미쳤지, 설마 내가 지폐에게 답을 구걸하다니.</speak>
+			<speak chara="edisonAngelNoFace">……분명 그렇긴 하네. 아무리 내가 잠깐 마음이 흔들렸다고 해서, 지폐에게 답을 구걸하다니.</speak>
 			<show chara="edisonAngelSeriousFar" position="center" />
-			<speak chara="edisonAngelNoFace">뭐 됐어……높은 곳에서 구경하고 있는 녀석들에게 증명해주지…….</speak>
+			<speak chara="edisonAngelNoFace">뭐 됐어……높은 곳에서 구경하고 있는 녀석들에게 증명해 주지…….</speak>
 			<show chara="edisonAngelAngryFar" position="center" />
 			<speak chara="edisonAngelNoFace">인류의 일은, 마지막까지 인류 자신이 정한다는 걸!</speak>
 			<speak chara="edisonAngelNoFace">낸시 토마스 에디슨, 비록 이 몸이 사라질지언정, 뉴욕이 베를린의 전철을 밟게 두진 않아!</speak>
