@@ -1046,10 +1046,7 @@ function processAction(act, gotoScene, gotoAction, skipKey, loadKey2) {
         return
       }
       var sound = $('#sound')[0]
-      $('#sound').attr(
-        'src',
-        base_url + '/resources/sound/' + act.getAttribute('src')
-      )
+      $('#sound').attr('src', getResourceUrl('sound', act.getAttribute('src')))
       if (!isNaN(sound.duration)) sound.currentTime = 0
       sound.play()
 
@@ -1496,6 +1493,27 @@ function preLoadUiImages(resStr, resList, flag_continue) {
   if (!resList) return
   if (!resList.length) return
   if (flag_continue != 'continue') $('.preload').html('')
+  if (resStr === 'sound') {
+    for (var i = 0; i < resList.length; i++) {
+      var $tempImage = $('<audio></audio>')
+      var tempSrc = getResourceUrl(resStr, resList[i])
+
+      $tempImage
+        .attr('src', tempSrc)
+        .addClass('preload-audio')
+        .data('retryCount', 0)
+        .bind('error', function () {
+          var count = $(this).data('retryCount')
+          if (count < 5) {
+            //尝试次数
+            $(this).data('retryCount', count + 1)
+            this.src = this.src
+          }
+        })
+      $('.preload').append($tempImage)
+    }
+    return
+  }
   for (var i = 0; i < resList.length; i++) {
     var $tempImage = $('<img></img>')
     var tempSrc = getResourceUrl(resStr, resList[i])
@@ -1520,6 +1538,7 @@ function preLoadImagesBegin(imageList) {
   showInSceneList = new Array() //清空立绘缓存名单
   bgInSceneList = new Array()
   cgInSceneList = new Array()
+  soundList = new Array()
   var charaDefErrorList = new Array()
   for (i in sceneList) {
     var thisScene = sceneList[i] //场景列表在流程上已被读取
@@ -1571,10 +1590,13 @@ function preLoadImagesBegin(imageList) {
             }
           }
         }
+      } else if (thisEvent.tagName === 'sound') {
+        soundList.push(thisEvent.getAttribute('src'))
       }
     }
   }
   preLoadUiImages('chara', showInSceneList)
+  preLoadUiImages('sound', soundList, 'continue')
   preLoadUiImages('background', bgInSceneList, 'continue')
   preLoadUiImages('cg', cgInSceneList, 'continue')
   var i_max = -1
