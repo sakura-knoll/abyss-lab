@@ -37,102 +37,102 @@
 		<scene background="roadNewYork.jpg" id="10">
 			<bgm src="04_20_tank.mp3" status="start" />
 			<show chara="starFallUp" position="back" />
-			<text>同日11時、ニューヨーク市郊外——</text>
+			<text>같은 날 11시, 뉴욕시 교외——</text>
 			<show chara="reaNormalArmedNoLanceClose-up" position="left" />
-			<speak chara="reannaNoFace">空の……あれは一体何かしら？</speak>
+			<speak chara="reannaNoFace">하늘의……저건 대체 뭘까요?</speak>
 			<show chara="reaSeriousArmedNoLanceClose-up" position="left" />
-			<speak chara="reannaNoFace">紫の……流星？</speak>
+			<speak chara="reannaNoFace">보라색……유성?</speak>
 			<show chara="reaSeriousArmedNoLanceClose-up" opacity="0.7" position="left" />
 			<show chara="schroNormalLanceClose-up" position="right" />
-			<speak chara="schroNoFace">いえ……あ、あれは……！</speak>
+			<speak chara="schroNoFace">아니요……저, 저건……!</speak>
 			<goto change="0" goto="20" />
 		</scene>
 		<scene background="tankInside.jpg" id="20">
 			<bgm src="04_20_tank.mp3" status="continue" />
 			<show chara="adaNormalRadioFar" opacity="0.95" position="center" />
-			<speak chara="adaNoFace">아인슈타인博士、테슬라博士。</speak>
-			<speak chara="adaNoFace">電磁波の発信を検出。オープンチャネルを使用しています。信号の形式は——</speak>
-			<speak chara="adaNoFace" remark="next">——アナログ信号です。</speak>
+			<speak chara="adaNoFace">아인슈타인 박사, 테슬라 박사.</speak>
+			<speak chara="adaNoFace">전자파의 발신을 검출. 오픈 채널을 사용하고 있습니다. 신호의 형식은——</speak>
+			<speak chara="adaNoFace" remark="next">——아날로그 신호입니다.</speak>
 			<remark post="U2FsdGVkX1+unhzSzQEIRkMDDNP3">
-				<p class="article-text-h">注：</p>
-				<p class="article-text">アナログ信号（analog signal）。時間領域の数学の形式で連続した関数となる信号。アナログ信号に対応するのがデジタル信号であり、二元対立するロジックレベルのみを取る。</p>
-				<p class="article-text">デジタル信号と比べ、アナログ信号は主に原始データ（音声、動画等）の記録や、連続的に変動する範囲を持つ測量値（温度、圧力、変位等）に用いられる。欠点はチャネルのノイズによる影響を排除できないこと。複数回コピーしたり、長距離の送受信を行うと徐々に劣化していく。</p>
+				<p class="article-text-h">주: </p>
+				<p class="article-text">아날로그 신호(analog signal). 시간 영역의 수학 형식에서 연속적인 함수가 되는 신호. 아날로그 신호에 대응하는 것이 디지털 신호이며, 이원 대립하는 로직 레벨만을 취한다.</p>
+				<p class="article-text">디지털 신호와 비교해, 아날로그 신호는 주로 원시 데이터(음성, 동영상 등)의 기록이나, 연속적으로 변동하는 범위를 가지는 측량값(온도, 압력, 변위 등)에 이용된다. 결점은 채널의 노이즈에 의한 영향을 배제할 수 없다는 것. 여러 번 복사하거나, 장거리 송수신을 하면 서서히 열화해 간다.</p>
 			</remark>
-			<speak chara="adaNoFace">……ノイズ処理中。推定言語、英語。</speak>
+			<speak chara="adaNoFace">……노이즈 처리 중. 추정 언어, 영어.</speak>
 			<show chara="einShockWinterClose-up" position="center" />
-			<speak chara="einNoFace">……。</speak>
+			<speak chara="einNoFace">…….</speak>
 			<show chara="adaNormalRadioFar" opacity="0.95" position="center" />
-			<speak chara="adaNoFace">……声紋照合、낸시・トーマス・에디슨CEO。</speak>
+			<speak chara="adaNoFace">……성문 대조, 낸시 토마스 에디슨 CEO.</speak>
 			<show chara="teslaAstonishGlassWinterClose-up" position="center" />
-			<speak chara="teslaNoFace">……何ですって！？</speak>
+			<speak chara="teslaNoFace">……뭐라고!?</speak>
 			<goto change="#ffffff" goto="30" />
 		</scene>
 		<scene background="cloudSky.jpg" id="30">
 			<bgm src="04_20_Brigantia.mp3" status="start" />
-			<speak chara="edisonNoNameNoFace">░▒░▒░▒であれ、私はやれる限りのことをする。罪なき人を私たちの実験で犠牲にしてはいけないのだ。</speak>
-			<speak chara="teslaNoFace">……에디슨？</speak>
-			<speak chara="teslaNoFace">……聞こえる？에디슨！？</speak>
+			<speak chara="edisonNoNameNoFace">░▒░▒░▒이든, 저는 할 수 있는 모든 것을 할 것입니다. 무고한 사람을 우리의 실험에서 희생시켜서는 안 되는 것입니다.</speak>
+			<speak chara="teslaNoFace">……에디슨?</speak>
+			<speak chara="teslaNoFace">……들려? 에디슨!?</speak>
 			<goto change="0" goto="40" />
 		</scene>
 		<scene background="tankInside.jpg" id="40">
 			<bgm src="04_20_Brigantia.mp3" status="continue" />
 			<show chara="edisonWhiteWinterClose-up" opacity="0.95" position="center" />
-			<speak chara="edisonNoFace">……테슬라？</speak>
+			<speak chara="edisonNoFace">……테슬라?</speak>
 			<show chara="teslaShoutWinterClose-up" position="center" />
-			<speak chara="teslaNoFace">そうよ、私よ！どこかに閉じこめられてるの？すぐ助けに行くわ！</speak>
+			<speak chara="teslaNoFace">그래, 나야! 어디에 갇혀있는 거야? 금방 구하러 갈게!</speak>
 			<show chara="edisonWhiteWinterClose-up" opacity="0.95" position="center" />
-			<speak chara="edisonNoFace">……それは優先事項ではない。ニコラ。</speak>
-			<speak chara="edisonNoFace">大至急、ニューヨーク湾の船舶と沿岸の住民に知らせるんだ。小規模の津波が起きるかもしれない、念のため干潟地域から避難するようにと。</speak>
+			<speak chara="edisonNoFace">……그건 우선사항이 아냐. 니콜라.</speak>
+			<speak chara="edisonNoFace">시급히, 뉴욕만의 선박과 연안 주민들에게 알리는 거야. 소규모 쓰나미가 일어날지도 모른다, 만약을 위해 갯벌 지역에서 대피하라고.</speak>
 			<show chara="teslaAstonishGlassWinterClose-up" position="center" />
-			<speak chara="teslaNoFace">……なに、言っ——</speak>
+			<speak chara="teslaNoFace">……뭘, 말하는——</speak>
 			<show chara="teslaEmbarraGlassWinterClose-up" position="center" />
-			<speak chara="teslaNoFace">——いえ、分かったわ。</speak>
-			<speak chara="teslaNoFace">私たちはもうすぐロング・アイランド海峡の端に着くわ。全速力で向かえば30分でマンハッタンに到着するはずよ！</speak>
+			<speak chara="teslaNoFace">——아니, 알겠어.</speak>
+			<speak chara="teslaNoFace">우리는 곧 롱아일랜드 해협 끝에 도착할 거야. 전속력으로 향하면 30분이면 맨해튼에 도착할 거야!</speak>
 			<goto change="0" goto="50" />
 		</scene>
 		<scene background="CG24-1-0.jpg" id="50">
 			<bgm src="04_20_Brigantia.mp3" status="continue" />
-			<speak chara="edisonNoFace">……30分か。私の電力はそんなにもたないだろうな。</speak>
-			<speak chara="teslaNoFace">大丈夫っ！あなたの座標を教えて。市民に避難するよう伝えたら、すぐ助けに行くから！</speak>
-			<speak chara="edisonNoFace">……少し複雑なんだ。</speak>
-			<speak chara="edisonNoFace">とにかく、今私にできることは、できる限りこれを外海に押しやって津波の規模を小さくすることだけでね。</speak>
-			<speak chara="teslaNoFace">……外海に押しやる！？な、なに言ってんのよ！？</speak>
-			<speak chara="edisonNoFace">今、2万トン級のTNT爆弾を超える威力を持つであろう、崩壊エネルギーの圧縮ボールをどうにか支えているんだ。……素手でね。</speak>
-			<speak chara="edisonNoFace">人里離れた場所で壊さない限り、市民たちの安全は保障できない。</speak>
-			<speak chara="teslaNoFace">でも——</speak>
-			<speak chara="edisonNoFace">……これが、私の選択だ。</speak>
-			<speak chara="edisonNoFace">これを解決するには、一番理解している者が動くしかない。</speak>
-			<speak chara="edisonNoFace">これは私の身から出た錆だ。自分で責任を負わなくてはならない。</speak>
-			<speak chara="teslaNoFace">でも——！</speak>
+			<speak chara="edisonNoFace">……30분인가. 내 전력(電力)은 그렇게 많지 않겠지.</speak>
+			<speak chara="teslaNoFace">괜찮아! 네 좌표를 가르쳐줘. 시민들에게 대피하라고 전하면, 바로 구하러 갈 테니까!</speak>
+			<speak chara="edisonNoFace">……조금 복잡해.</speak>
+			<speak chara="edisonNoFace">어쨌든, 지금 내가 할 수 있는 건, 가능한 한 이걸 외해로 밀어내 쓰나미의 규모를 줄이는 것밖에 없어.</speak>
+			<speak chara="teslaNoFace">……외해로 밀어내!? 뭐, 뭘 말하는 거야!?</speak>
+			<speak chara="edisonNoFace">지금, 2만 톤급 TNT 폭탄을 뛰어넘는 위력을 가지고 있는, 붕괴 에너지 압축 구체를 간신히 버텨내고 있는 중이야.……맨손으로 말이지.</speak>
+			<speak chara="edisonNoFace">외딴 곳에서 부수지 않는 한, 시민들의 안전을 보장할 수 없어.</speak>
+			<speak chara="teslaNoFace">그치만——</speak>
+			<speak chara="edisonNoFace">……이게, 내 선택이야.</speak>
+			<speak chara="edisonNoFace">이걸 해결하기 위해서는, 가장 잘 이해하고 있는 사람이 움직여야만 해.</speak>
+			<speak chara="edisonNoFace">자업자득이란 거지. 스스로 책임질 수 밖에 없어.</speak>
+			<speak chara="teslaNoFace">그치만——!</speak>
 			<goto change="0" goto="60" />
 		</scene>
 		<scene background="roadNewYork.jpg" id="60">
 			<bgm src="04_20_Brigantia.mp3" status="continue" />
 			<show chara="starFallDown" position="back" />
-			<speak chara="edisonNoFace">すまない。私は、この崩壊エネルギーが制御不能になるのを見過ごすわけにはいかないのだ。</speak>
-			<speak chara="edisonNoFace">そうだ……。</speak>
-			<speak chara="edisonNoFace">君が研究所から出ていく時に差し引いた特許費だが……</speak>
-			<speak chara="edisonNoFace">……会社が支払ってくれるはずだ。</speak>
+			<speak chara="edisonNoFace">미안. 나는, 이 붕괴 에너지가 통제 불능이 되는 걸 간과할 수 없어.</speak>
+			<speak chara="edisonNoFace">그래…….</speak>
+			<speak chara="edisonNoFace">네가 연구소에서 나갈 때 떼먹힌 로열티 말인데……</speak>
+			<speak chara="edisonNoFace">……회사에서 지급해 줄거야.</speak>
 			<goto change="0" goto="65" />
 		</scene>
 		<scene background="cloudSky.jpg" id="65">
 			<bgm src="04_20_Brigantia.mp3" status="continue" />
 			<show chara="teslaTearsBigHead" position="center" />
-			<speak chara="teslaNoFace">……。</speak>
+			<speak chara="teslaNoFace">…….</speak>
 			<show chara="teslaTearsBigHeadCloseEye" position="center" />
-			<speak chara="teslaNoFace">ケチッ！あんたが自分で払わないと許さないんだから！</speak>
+			<speak chara="teslaNoFace">구두쇠! 네가 직접 줘야 용서해준다니까!</speak>
 			<show chara="teslaTearsBigHeadShout" position="center" />
-			<speak chara="teslaNoFace">じゃないと、私のメンツは潰れっぱなしなのよ！ねぇ、聞いてる！？</speak>
-			<speak chara="edisonNoFace">フフ……。</speak>
-			<speak chara="edisonNoFace">来週……もし私が遅刻するようなことがなければ、しっかり払うよ。</speak>
+			<speak chara="teslaNoFace">아니면, 내 체면이 안 서! 있잖아, 듣고있어!?</speak>
+			<speak chara="edisonNoFace">후후…….</speak>
+			<speak chara="edisonNoFace">다음 주……만약 내가 지각만 안 한다면, 확실히 지불할게.</speak>
 			<goto change="#ffffff" goto="70" />
 		</scene>
 		<scene background="CG24-1-1.jpg" id="70">
 			<bgm src="06_15_ScarboroughFair.mp3" status="start" />
 			<speak chara="edisonNoFace" remark="next"> Are you going to Scarborough Fair?</speak>
 			<remark post="U2FsdGVkX185n4iwTfCoutEDolvL">
-				<p class="article-text-h">歌詞の意味：</p>
-				<p class="article-text">スカボローの市へ行くのですか？</p>
+				<p class="article-text-h">가사의 의미: </p>
+				<p class="article-text">스카보로 시장에 가시나요?</p>
 			</remark>
 			<goto change="0" goto="73" />
 		</scene>
@@ -140,18 +140,18 @@
 			<bgm src="06_15_ScarboroughFair.mp3" status="continue" />
 			<speak chara="edisonNoFace" remark="next">"Parsley, sage, rosemary, and thyme"</speak>
 			<remark>
-				<p class="article-text-h">歌詞の意味：</p>
-				<p class="article-text">パセリ、セージ、ローズマリーにタイム</p>
+				<p class="article-text-h">가사의 의미: </p>
+				<p class="article-text">파슬리, 샐비어, 로즈마리, 백리향</p>
 			</remark>
 			<speak chara="edisonNoFace" remark="next">Remember me to one who lives there</speak>
 			<remark>
-				<p class="article-text-h">歌詞の意味：</p>
-				<p class="article-text">そこに住む人によろしくお伝えください</p>
+				<p class="article-text-h">가사의 의미: </p>
+				<p class="article-text">거기 사는 한 여인에게 안부를 전해주세요</p>
 			</remark>
 			<speak chara="edisonNoFace" remark="next">She once was a true love of mine</speak>
 			<remark>
-				<p class="article-text-h">歌詞の意味：</p>
-				<p class="article-text">かつて彼女は私の恋人だったから</p>
+				<p class="article-text-h">가사의 의미: </p>
+				<p class="article-text">한 때 그녀는 나의 진실한 사랑이었어요</p>
 			</remark>
 			<goto change="#ffffff" goto="80" />
 		</scene>
@@ -160,23 +160,23 @@
 			<show chara="teslaTearsBigHeadTeatsDown" position="center" />
 			<speak chara="teslaNoFace" remark="next">Tell her to make me a cambric shirt</speak>
 			<remark>
-				<p class="article-text-h">歌詞の意味：</p>
-				<p class="article-text">ケンブリックのシャツを彼女に作ってもらってください</p>
+				<p class="article-text-h">가사의 의미: </p>
+				<p class="article-text">그녀에게 내게 캠브릭 셔츠를 만들어 달라고 해주세요</p>
 			</remark>
 			<speak chara="teslaNoFace" remark="next">"Parsley, sage, rosemary, and thyme"</speak>
 			<remark>
-				<p class="article-text-h">歌詞の意味：</p>
-				<p class="article-text">パセリ、セージ、ローズマリーにタイム</p>
+				<p class="article-text-h">가사의 의미: </p>
+				<p class="article-text">파슬리, 샐비어, 로즈마리, 백리향</p>
 			</remark>
 			<speak chara="teslaNoFace" remark="next">Without any seam or needlework</speak>
 			<remark>
-				<p class="article-text-h">歌詞の意味：</p>
-				<p class="article-text">縫い目も残さず針も使わずに</p>
+				<p class="article-text-h">가사의 의미: </p>
+				<p class="article-text">이음매나 바느질 자국 없는 그런 옷을요</p>
 			</remark>
 			<speak chara="teslaNoFace" remark="next">Then she'll be a true love of mine</speak>
 			<remark>
-				<p class="article-text-h">歌詞の意味：</p>
-				<p class="article-text">そうしたら彼女は私の恋人</p>
+				<p class="article-text-h">가사의 의미: </p>
+				<p class="article-text">그러면 그녀는 내 진실한 사랑이 될 거예요</p>
 			</remark>
 			<goto change="#ffffff" goto="90" />
 		</scene>
@@ -184,8 +184,8 @@
 			<bgm src="06_15_ScarboroughFair.mp3" status="continue" />
 			<speak chara="edisonNoFace" remark="next">Tell her to find me an acre of land</speak>
 			<remark>
-				<p class="article-text-h">歌詞の意味：</p>
-				<p class="article-text">１エーカーの土地を彼女に見つけてもらってください</p>
+				<p class="article-text-h">가사의 의미: </p>
+				<p class="article-text">그녀에게 내게 한 에이커 땅을 구해 달라고 해주세요</p>
 			</remark>
 			<goto change="0" goto="93" />
 		</scene>
@@ -193,23 +193,23 @@
 			<bgm src="06_15_ScarboroughFair.mp3" status="continue" />
 			<speak chara="teslaNoFace" remark="next">"Parsley, sage, rosemary, and thyme"</speak>
 			<remark>
-				<p class="article-text-h">歌詞の意味：</p>
-				<p class="article-text">パセリ、セージ、ローズマリーにタイム</p>
+				<p class="article-text-h">가사의 의미: </p>
+				<p class="article-text">파슬리, 샐비어, 로즈마리, 백리향</p>
 			</remark>
 			<speak chara="edisonNoFace" remark="next">Between the salt water and the sea strands</speak>
 			<remark>
-				<p class="article-text-h">歌詞の意味：</p>
-				<p class="article-text">海と岸辺の間にある土地を</p>
+				<p class="article-text-h">가사의 의미: </p>
+				<p class="article-text">바다와 바닷가 사이의 땅을요</p>
 			</remark>
 			<speak chara="teslaNoFace" remark="next">Then she'll be a true love of mine</speak>
 			<remark>
-				<p class="article-text-h">歌詞の意味：</p>
-				<p class="article-text">そうしたら彼女は私の恋人</p>
+				<p class="article-text-h">가사의 의미: </p>
+				<p class="article-text">그러면 그녀는 내 진실한 사랑이 될 거예요</p>
 			</remark>
 			<speak chara="edisonTeslaNoFace" remark="next">Tell her to reap it in a sickle of leather</speak>
 			<remark>
-				<p class="article-text-h">歌詞の意味：</p>
-				<p class="article-text">それを革の鎌で刈り取ってもらってください</p>
+				<p class="article-text-h">가사의 의미: </p>
+				<p class="article-text">그녀에게 가죽 낫으로 거두어들여서</p>
 			</remark>
 			<goto change="0" goto="100" />
 		</scene>
@@ -217,13 +217,13 @@
 			<bgm src="06_15_ScarboroughFair.mp3" status="continue" />
 			<speak chara="edisonTeslaNoFace" remark="next">"Parsley, sage, rosemary, and thyme"</speak>
 			<remark>
-				<p class="article-text-h">歌詞の意味：</p>
-				<p class="article-text">パセリ、セージ、ローズマリーにタイム</p>
+				<p class="article-text-h">가사의 의미: </p>
+				<p class="article-text">파슬리, 샐비어, 로즈마리, 백리향</p>
 			</remark>
 			<speak chara="edisonTeslaNoFace" remark="next">And gather it all in a bunch of heather</speak>
 			<remark>
-				<p class="article-text-h">歌詞の意味：</p>
-				<p class="article-text">そして、それを花のカゴに集めるように</p>
+				<p class="article-text-h">가사의 의미: </p>
+				<p class="article-text">모두 모아 꽃다발로 만들어 달라고 해주세요</p>
 			</remark>
 			<goto change="0" goto="106" />
 		</scene>
@@ -231,18 +231,18 @@
 			<bgm src="06_15_ScarboroughFair.mp3" status="continue" />
 			<speak chara="edisonTeslaNoFace" remark="next">Then she'll be a true love of mine</speak>
 			<remark>
-				<p class="article-text-h">歌詞の意味：</p>
-				<p class="article-text">そうしたら彼女は私の恋人</p>
+				<p class="article-text-h">가사의 의미: </p>
+				<p class="article-text">그러면 그녀는 내 진실한 사랑이 될 거예요</p>
 			</remark>
 			<goto change="#ffffff" goto="110" />
 		</scene>
 		<scene background="brightonBeach.jpg" id="110">
 			<bgm src="morning.mp3" status="start" />
 			<speak chara="radioNoNameNoFace">░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒</speak>
-			<speak chara="schroNoFace">……。</speak>
-			<speak chara="weltNoFace">……。</speak>
-			<speak chara="einNoFace">……。</speak>
-			<speak chara="teslaNoFace">……。</speak>
+			<speak chara="schroNoFace">…….</speak>
+			<speak chara="weltNoFace">…….</speak>
+			<speak chara="einNoFace">…….</speak>
+			<speak chara="teslaNoFace">…….</speak>
 			<show chara="reaSeriousArmedNoLanceFar" position="right" />
 			<bgm src="horror.mp3" status="start" />
 			<speak chara="reannaNoFace">……あなたたちは安全なところまで下がって。</speak>
