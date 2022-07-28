@@ -25,75 +25,75 @@
 		<scene background="beachNorfolk.jpg" id="10">
 			<bgm src="10_25_noise.mp3" status="start" />
 			<sound src="8_24_launch.mp3" />
-			<text remark="next">突如発生した大規模電磁パルスの影響により、乗っていた専用機がノーフォーク海軍基地の軍用空港に着陸した。</text>
+			<text remark="next">갑자기 발생한 대규모 전자기 펄스의 영향으로, 타고 있던 전용기가 노퍽 해군 기지의 군용공항에 착륙했다.</text>
 			<remark>
-				<p class="article-text-h">注：</p>
-				<p class="article-text">ノーフォーク海軍基地（Naval Station Norfolk）はアメリカバージニア州ノーフォークにある軍港。アメリカ「大西洋艦隊」が母港としており、世界最大の海軍基地でもある。</p>
+				<p class="article-text-h">주: </p>
+				<p class="article-text">노퍽 해군 기지(Naval Station Norfolk)는 미국 버지니아주 노퍽에 있는 군항이다. 미국 「대서양 함대」가 모항으로 하고 있으며, 세계 최대의 해군기지이기도 하다.</p>
 			</remark>
-			<text>観測データによると、電磁パルスの中心地はニューヨーク市付近。しかも、恐ろしいほど崩壊パルスと酷似している。</text>
-			<text>ただ、驚嘆も悲観もしている暇などなかった。「緊急問い合わせリスト」に則り、最高指揮官として現場で救援活動を統括する責任ができてしまったのだから。</text>
-			<text>もっとも、もともとカモフラージュ役としては自分が適任だったのだ。だから、これも予定を繰り上げて動き出すことになっただけのこと。これで오토の人質となるリスクを少しでも減らすことができる。</text>
-			<text>——隠れた敵を混乱させるのに、偽造した発信基地局を使って自分の生徒へと連絡し、あたかも計画が始まったばかりのように見せかけたりもしたが。</text>
-			<text>まさか、ちょっとした食い違いで一時的とはいえ、世界でもっとも強い国の指揮官になってしまうなんて。</text>
-			<text>とりあえず、行動を共にしている非戦闘員を基地の中に避難させよう。他の「重要な客人」を乗せた専用機も、次々ここに来るはずだ。</text>
-			<text>結果だけ見れば、運がよかったのかもしれない——何せ、ここはとても広い国だ。</text>
-			<text>どんな災害が起こったとしても、何だかんだ人は被害の受けない場所を見つけ出すのだから。</text>
+			<text>관측 데이터에 의하면, 전자기 펄스의 중심지는 뉴욕시 부근. 게다가 무서울 정도로 붕괴 펄스와 매우 유사하다.</text>
+			<text>다만, 경악도 비관도 할 틈이 없었다. 「긴급 연락 리스트」에 따라, 최고 지휘관으로서 현장에서 구호활동을 총괄할 책임이 생겼으니 말이다.</text>
+			<text>애당초, 원래 눈속임 역으로는 자신이 적임이었던 것이다. 그러니, 이것도 예정을 앞당겨 움직이게 됐을 뿐. 이로써 오토의 인질이 될 위험을 조금이라도 줄일 수 있다.</text>
+			<text>——숨은 적을 혼란시키기 위해, 위조한 발신기지국을 이용해 자신의 학생들에게 연락해, 마치 계획이 막 시작된 것처럼 꾸미기도 했지만.</text>
+			<text>설마, 사소한 엇갈림으로 일시적이라고는 해도 세계에서 가장 강한 나라의 지휘관이 되어 버리다니.</text>
+			<text>우선, 행동을 같이하고 있는 비전투원들을 기지 안으로 대피시키자. 다른 「중요한 손님」을 태운 전용기도, 차차 이곳에 올 것이다.</text>
+			<text>결과만 보면, 운이 좋았을지도 모른다——아무튼, 여기는 아주 넓은 나라다.</text>
+			<text>어떤 재해가 일어나도, 이러니저러니 사람은 피해를 받지 않을 곳을 찾아내니까.</text>
 			<goto change="#ffffff" goto="20" />
 		</scene>
 		<scene background="aircraftCockpit.jpg" id="20">
 			<bgm src="04_20_tank.mp3" status="start" />
-			<speak chara="ritaFullNameNoFace">教授、ラリタン湾上空に到着したようです。</speak>
-			<speak chara="ritaFullNameNoFace">フォーメーションを偵察用にしますか？</speak>
-			<text>「エージェント」の先導の下、2回の給油と4時間越えの長距離飛行を経て、先遣しているヘリコプター編隊が災害の中心エリアへと間もなく到着する。</text>
-			<text>地表を見下ろすと、被害を受けた形跡は見当たらない。一部の道路が渋滞している以外、上空から見る限りでは目に見えた異常はないようだ。</text>
-			<speak chara="planckYourNameNoFace">ええ、偵察用にしてちょうだい。</speak>
-			<speak chara="planckYourNameNoFace">この状況、どうも不自然ね。総員に最高レベルの警戒態勢を取るよう通達して。どんな些細な点も見逃さないように。</speak>
-			<speak chara="ritaFullNameNoFace">はい、教授。</speak>
-			<speak chara="planckYourNameNoFace">そのまま警戒を保つように。私はコーヒーを淹れてくるわ。</speak>
+			<speak chara="ritaFullNameNoFace">교수님, 라리탄 만 상공에 도착한 것 같습니다.</speak>
+			<speak chara="ritaFullNameNoFace">포메이션을 정찰용으로 하시겠습니까?</speak>
+			<text> 「에이전트」의 선도 아래, 두 차례의 주유와 네 시간이 넘는 장거리 비행을 거쳐, 선발된 헬기 편대가 재난 중심 지역에 곧 도착한다.</text>
+			<text>지표를 내려다보면, 피해를 입은 흔적은 찾아볼 수 없다. 일부 도로가 정체된 것 외에, 상공에서 보는 한 눈에 보이는 이상은 없는 것 같다.</text>
+			<speak chara="planckYourNameNoFace">응, 정찰용으로 해줘.</speak>
+			<speak chara="planckYourNameNoFace">이 상황, 아무래도 부자연스럽네. 전원에게 최고 레벨의 경계 태세를 취하도록 통지해줘. 어떤 사소한 점도 놓치지 않도록.</speak>
+			<speak chara="ritaFullNameNoFace">네, 교수님.</speak>
+			<speak chara="planckYourNameNoFace">그대로 경계를 유지하렴. 나는 커피를 내려올게.</speak>
 			<hide position="center" />
-			<speak chara="crewNoNameNoFace">……流星？2時の方向、空に流星がっ！</speak>
-			<speak chara="planckYourNameNoFace">……！？</speak>
+			<speak chara="crewNoNameNoFace">……유성? 2시 방향, 하늘에 유성이!</speak>
+			<speak chara="planckYourNameNoFace">……!?</speak>
 			<goto change="0" goto="30" />
 		</scene>
 		<scene background="CG25-1.jpg" id="30">
 			<bgm src="04_20_tank.mp3" status="continue" />
-			<text>突如現れた流星も確かに驚くべきことではあったが。</text>
-			<text>しかし、それよりも驚いたのが、道中、声一つ立てず箱の中に隠れていた、この子供のことだった。</text>
+			<text>갑자기 나타난 유성도 확실히 놀라운 일이었지만.</text>
+			<text>하지만, 그것보다도 놀랐던 건, 도중, 소리 하나 없이 상자 속에서 숨어있었던 이 아이였다.</text>
 			<goto change="#ffffff" goto="40" />
 		</scene>
 		<scene background="darkEnergy.jpg" id="40">
 			<bgm src="04_20_tank.mp3" status="stop" />
-			<text>……。</text>
+			<text>…….</text>
 			<bgm src="03_03_bostonNight.mp3" status="start" />
-			<text>すべきことは理解していた。何があろうとも、自分があの邪悪極まりない主教の注意を引きつけなければいけないと。</text>
-			<text>ただの負傷者であれば、今の自分の力をもって量子化させ、隙を見て友人たちを移動させることも可能だった。</text>
-			<text>しかし、現在の状況では……まったく意味をなさない。</text>
-			<text>なぜなら、「黒淵」が彼らに与えた致命傷は、普通の治療では効果がないことが分かっていたからだ。</text>
-			<text>さらに最悪なことに、唯一それが可能な「白花」も「黒淵」と組み合わせなければ十分な創生効果を生み出せない。</text>
-			<text>その上、自分はこの双子の神の鍵が認める主ですらないのだ……。</text>
-			<text>一体どうすれば——</text>
-			<text>……。</text>
-			<text>いや、まだチャンスはあるかもしれない。</text>
-			<text>……。</text>
-			<text>아인슈타인。</text>
-			<text>테슬라。</text>
-			<text>웰트。</text>
-			<text>彼らの光が、このまま暗闇の中に埋もれてしまっていいはずがない。</text>
-			<text>そのために私は、今戦える唯一の人間としてここに留まる必要がある。</text>
+			<text>할 일은 이해하고 있었다. 무슨 일이 있어도, 자신이 그 사악하기 짝이 없는 주교의 주의를 끌어야 한다고.</text>
+			<text>단순한 부상자라면, 지금의 내 힘으로 양자화시켜, 틈을 타 친구들을 이동시키는 것도 가능했다.</text>
+			<text>하지만, 현재 상황에서는……정말이지 의미가 없다.</text>
+			<text>어째서냐면, 「흑연」이 그들에게 준 치명상은, 평범한 치료로는 효과가 없다는 걸 알았으니까다.</text>
+			<text>더욱 최악인 점은 유일하게 그게 가능한 「백화」도 「흑연」과 함께하지 않으면 충분한 창생 효과를 낼 수 없다.</text>
+			<text>게다가, 자신은 이 쌍둥이 신의 열쇠가 인정하는 주인이 아닌 것이다…….</text>
+			<text>대체 어떻게 하면——</text>
+			<text>…….</text>
+			<text>아니, 아직 기회는 있을지도 몰라.</text>
+			<text>…….</text>
+			<text>아인슈타인.</text>
+			<text>테슬라.</text>
+			<text>웰트.</text>
+			<text>그들의 빛이, 이대로 어둠 속에 파묻혀도 좋을 리 없다.</text>
+			<text>그러기 위해 나는, 지금 싸울 수 있는 유일한 인간으로 이곳에 남을 필요가 있다.</text>
 			<goto change="#ffffff" goto="50" />
 		</scene>
 		<scene background="CG25-2.jpg" id="50">
 			<bgm src="8_24_war.mp3" status="start" />
-			<speak chara="ottoNoFace">……大口ばかり叩くヤツだ。</speak>
-			<speak chara="ottoNoFace">……近接攻撃がダメなら、今度は分身を使って나を惑わすつもりかい？</speak>
-			<speak chara="ottoNoFace">いいだろう。なら、決しようじゃないか。誰が無限の可能性を得るのに相応しい存在なのか。</speak>
+			<speak chara="ottoNoFace">……큰소리만 치는 녀석이군.</speak>
+			<speak chara="ottoNoFace">……근접 공격이 안된다면, 이번에는 분신을 사용해 나를 혼란시킬 생각인가?</speak>
+			<speak chara="ottoNoFace">좋아. 그렇다면, 정해보지 않겠나. 누가 무한한 가능성을 가지는데 합당한 존재인가를.</speak>
 			<goto change="0" goto="60" />
 		</scene>
 		<scene background="CG25-3.jpg" id="60">
 			<bgm src="8_24_war.mp3" status="continue" />
-			<speak chara="ottoNoFace">この世に永遠のものなど必要ない。</speak>
-			<speak chara="ottoNoFace">夢幻が泡となり、瞬く間に移り変わっていく。どれも真実なのだ。</speak>
-			<speak chara="ottoNoFace">第一の「神の鍵」を第七に擬態・複製——</speak>
+			<speak chara="ottoNoFace">이 세계에 영원한 것 따윈 필요 없다.</speak>
+			<speak chara="ottoNoFace">몽환이 거품이 되듯, 눈 깜빡할 사이에 변천하지. 어느 것도 진실이다.</speak>
+			<speak chara="ottoNoFace">제1 「신의 열쇠」를 제7로 의태·복제——</speak>
 			<goto change="0" goto="70" />
 		</scene>
 		<scene background="CG25-3.jpg" id="70">
@@ -107,7 +107,7 @@
 		<scene background="brightonBeach.jpg" id="90">
 			<bgm src="04_20_tank.mp3" status="start" />
 			<show chara="ottoScornfulGunFar" position="center" />
-			<speak chara="ottoNoFace">……ひとたまりもなかったか。</speak>
+			<speak chara="ottoNoFace">……조금도 못 버텼나.</speak>
 			<goto change="0" goto="100" />
 		</scene>
 		<scene background="CG25-5.jpg" id="100">
@@ -118,49 +118,49 @@
 		</scene>
 		<scene background="brightonBeach.jpg" id="110">
 			<bgm src="morning.mp3" status="start" />
-			<speak chara="ritaNoNameNoFace">……チッ。やっぱり効かないわね。</speak>
+			<speak chara="ritaNoNameNoFace">……칫. 역시 효과가 없네요.</speak>
 			<goto change="0" goto="120" />
 		</scene>
 		<scene background="brightonBeach.jpg" id="120">
 			<bgm src="morning.mp3" status="continue" />
 			<show chara="ottoChangeGunFar" position="center" />
-			<speak chara="ottoNoFace">……ふん。</speak>
+			<speak chara="ottoNoFace">……흥.</speak>
 			<bgm src="04_20_tank.mp3" status="start" />
 			<show chara="ottoScornfulGunFar" position="center" />
-			<speak chara="ottoNoFace">出て来い、ネズミ。</speak>
+			<speak chara="ottoNoFace">나와라, 생쥐.</speak>
 			<show chara="ottoHaughtyGunFar" position="center" />
-			<speak chara="ottoNoFace">나の楽しみを邪魔しておいて、五体満足で帰れると思うなよ。</speak>
+			<speak chara="ottoNoFace">내 즐거움을 방해해 놓고, 오체만족으로 돌아갈 생각 말도록.</speak>
 			<hide position="center" />
-			<speak chara="ritaNoNameNoFace">……フフ。主教様、ご存じありません？</speak>
+			<speak chara="ritaNoNameNoFace">……후후, 주교님, 아시나요?</speak>
 			<show chara="ritaSmileGunFar" position="center" />
-			<speak chara="ritaFullNameNoFace">歴史上、最も偉大な哲学者はこう言いました。</speak>
+			<speak chara="ritaFullNameNoFace">역사상, 가장 위대한 철학자는 이렇게 말했습니다.</speak>
 			<show chara="ritaNormalGunFar" position="center" />
-			<speak chara="ritaFullNameNoFace" remark="next">「すべての偉大な世界史的な出来事と偉人は二度現れる——」</speak>
-			<speak chara="ritaFullNameNoFace" remark="next">「一度目は悲劇として、二度目はみじめな笑劇として」</speak>
+			<speak chara="ritaFullNameNoFace" remark="next">「세계사적으로 위대한 모든 사건과 위인은 두 번 나타난다——」</speak>
+			<speak chara="ritaFullNameNoFace" remark="next">「첫 번째는 비극으로, 두 번째는 참혹한 희극으로」</speak>
 			<remark>
-				<p class="article-text-h">注：</p>
-				<p class="article-text">これはマルクス『ルイ・ボナパルトのブリュメール十八日』の書き出しの言葉である（原文とは若干異なる）。</p>
+				<p class="article-text-h">주: </p>
+				<p class="article-text">이것은 마르크스 『루이 보나파르트의 브뤼메르 18일』의 첫 구절이다(원문과는 약간 다르다).</p>
 			</remark>
 			<show chara="ottoConfidentGunFar" position="center" />
-			<speak chara="ottoNoFace">……ほう？</speak>
+			<speak chara="ottoNoFace">……호오?</speak>
 			<show chara="ritaTalkGunFar" position="center" />
-			<speak chara="ritaFullNameNoFace">오토様……さらに私たちの国の『独立宣言』にはこのような一節があります——</speak>
+			<speak chara="ritaFullNameNoFace">오토 님……더욱이 우리 나라의 『독립선언』에는 이러한 구절이 있습니다——</speak>
 			<show chara="ritaNormalGunFar" position="center" />
-			<speak chara="ritaFullNameNoFace">「現在の英国王の治世の歴史は、度重なる不正と権利侵害の歴史であり、そのすべてがこれらの諸邦に対する絶対的な暴政の確立を直接の目的としている。」</speak>
+			<speak chara="ritaFullNameNoFace">「현재 영국 왕의 치세 역사는, 거듭된 부정과 권리침해의 역사이며, 그 모두가 각 제국에 대한 절대적인 폭정의 확립을 직접적인 목적으로 하고 있다.」</speak>
 			<show chara="ritaSmileGunFar" position="center" />
-			<speak chara="ritaFullNameNoFace">あなたが「ジョージ三世」の行いを真似しようとするなら——</speak>
+			<speak chara="ritaFullNameNoFace">당신이 「조지 3세」의 행실을 흉내내려 한다면——</speak>
 			<show chara="ritaNodGunFar" position="center" />
-			<speak chara="ritaFullNameNoFace">——ご自分を本当に「ピエロ」にしてしまうだけですよ。</speak>
+			<speak chara="ritaFullNameNoFace">——자신을 정말로 「피에로」로 만들어 버릴 뿐입니다.</speak>
 			<show chara="ottoLaughGunFar" position="center" />
-			<speak chara="ottoNoFace">……ハッ。こんな所に突然現れて、時代を切り開くご高説をのたまうとはね。たかだか、ホテルのオーナーの分際で。</speak>
+			<speak chara="ottoNoFace">……핫. 이런 곳에 갑자기 나타나, 시대를 개척하는 고견을 내주시다니. 고작해야, 호텔 오너 주제에.</speak>
 			<show chara="ottoHaughtyGunFar" position="center" />
-			<speak chara="ottoNoFace">ならば、こう答えてやろう——</speak>
+			<speak chara="ottoNoFace">그렇다면, 이렇게 대답해 주지——</speak>
 			<show chara="ottoConfidentGunFar" position="center" />
-			<speak chara="ottoNoFace">どんな統治もある種の暴政なのだ。責任のない者だけが言葉を飾り、人の目をごまかそうとしているだけにすぎない。</speak>
+			<speak chara="ottoNoFace">어떤 통치든 모종의 폭정이다. 책임 없는 자만이 말을 꾸며, 남의 눈을 속이려 할 뿐이지.</speak>
 			<show chara="ottoHaughtyGunFar" position="center" />
-			<speak chara="ottoNoFace">だから、君たちも哲学的なレベルまで上る必要などまったくないのだ——</speak>
+			<speak chara="ottoNoFace">그러니, 자네들도 철학적인 수준까지 올라갈 필요는 전혀 없는 거야——</speak>
 			<show chara="ottoScornfulGunFar" position="center" />
-			<speak chara="ottoNoFace">——나は、今日、邪魔者を片付けようとしているだけなんだから。</speak>
+			<speak chara="ottoNoFace">——나는, 오늘, 방해꾼을 정리하려고 할 뿐이니까.</speak>
 			<goto change="#ffffff" goto="150" />
 		</scene>
 		<scene background="darkEnergy.jpg" id="150">
