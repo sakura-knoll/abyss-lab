@@ -13,12 +13,12 @@
 		<character color="#fff2c4" id="reaSeriousArmedNoLanceFar" name="레아나" src="06_12_reaSeriousArmedNoLanceFar.png" />
 		<character color="rgb(181,233,247)" id="einShockWinterClose-up" name="아인슈타인" src="06_12_einShockWinterClose-up.png" />
 		<character color="rgb(249,222,230)" id="adaNormalRadioClose-up" name="에이다" src="06_12_adaNormalRadioClose-up.png" />
-		<character color="#ffffff" id="starFallUp" name="流れ星" src="06_13_starFallUp.png" />
-		<character color="#ffffff" id="starFallDown" name="流れ星" src="06_13_starFallDown.png" />
+		<character color="#ffffff" id="starFallUp" name="유성" src="06_13_starFallUp.png" />
+		<character color="#ffffff" id="starFallDown" name="유성" src="06_13_starFallDown.png" />
 		<character color="rgb(161,135,121)" id="schroShockLanceFar" name="슈뢰딩거" src="06_14_schroShockLanceFar.png" />
 		<character color="rgb(161,135,121)" id="schroNormalLanceFar" name="슈뢰딩거" src="06_14_schroNormalLanceFar.png" />
 		<character color="rgb(181,233,247)" id="einShockWinterFar" name="아인슈타인" src="06_13_einShockWinterFar.png" />
-		<character color="#ffffff" id="speedLine" name="スピードライン" src="06_14_speedLine.png" />
+		<character color="#ffffff" id="speedLine" name="스피드라인" src="06_14_speedLine.png" />
 		<character color="rgb(201,164,109)" id="nokiaDepressedWinterFar" name="핀란드인 " src="06_14_nokiaDepressedWinterFar.png" />
 		<character color="rgb(201,164,109)" id="nokiaAnnoyedWinterFar" name="핀란드인 " src="06_14_nokiaAnnoyedWinterFar.png" />
 		<character color="rgb(201,164,109)" id="nokiaCrazyWinterFar" name="핀란드인 " src="06_14_nokiaCrazyWinterFar.png" />
@@ -39,7 +39,7 @@
 			<show chara="starFallUp" position="back" />
 			<text>같은 날 11시, 뉴욕시 교외——</text>
 			<show chara="reaNormalArmedNoLanceClose-up" position="left" />
-			<speak chara="reannaNoFace">하늘의……저건 대체 뭘까요?</speak>
+			<speak chara="reannaNoFace">하늘 위에……저건 대체 뭐죠?</speak>
 			<show chara="reaSeriousArmedNoLanceClose-up" position="left" />
 			<speak chara="reannaNoFace">보라색……유성?</speak>
 			<show chara="reaSeriousArmedNoLanceClose-up" opacity="0.7" position="left" />
@@ -50,12 +50,12 @@
 		<scene background="tankInside.jpg" id="20">
 			<bgm src="04_20_tank.mp3" status="continue" />
 			<show chara="adaNormalRadioFar" opacity="0.95" position="center" />
-			<speak chara="adaNoFace">아인슈타인 박사, 테슬라 박사.</speak>
+			<speak chara="adaNoFace">아인슈타인 박사님, 테슬라 박사님.</speak>
 			<speak chara="adaNoFace">전자파의 발신을 검출. 오픈 채널을 사용하고 있습니다. 신호의 형식은——</speak>
 			<speak chara="adaNoFace" remark="next">——아날로그 신호입니다.</speak>
 			<remark post="U2FsdGVkX1+unhzSzQEIRkMDDNP3">
-				<p class="article-text-h">주: </p>
-				<p class="article-text">아날로그 신호(analog signal). 시간 영역의 수학 형식에서 연속적인 함수가 되는 신호. 아날로그 신호에 대응하는 것이 디지털 신호이며, 이원 대립하는 로직 레벨만을 취한다.</p>
+				<p class="article-text-h">주:</p>
+				<p class="article-text">아날로그 신호(analog signal). 시간 영역의 수학 형식에서 연속적인 함수가 되는 신호. 아날로그 신호에 대비되는 것은 디지털 신호이며, 이는 두개로 나누어진 논리 값만을 취한다.</p>
 				<p class="article-text">디지털 신호와 비교해, 아날로그 신호는 주로 원시 데이터(음성, 동영상 등)의 기록이나, 연속적으로 변동하는 범위를 가지는 측량값(온도, 압력, 변위 등)에 이용된다. 결점은 채널의 노이즈에 의한 영향을 배제할 수 없다는 것. 여러 번 복사하거나, 장거리 송수신을 하면 서서히 열화해 간다.</p>
 			</remark>
 			<speak chara="adaNoFace">……노이즈 처리 중. 추정 언어, 영어.</speak>
@@ -69,7 +69,7 @@
 		</scene>
 		<scene background="cloudSky.jpg" id="30">
 			<bgm src="04_20_Brigantia.mp3" status="start" />
-			<speak chara="edisonNoNameNoFace">░▒░▒░▒이든, 저는 할 수 있는 모든 것을 할 것입니다. 무고한 사람을 우리의 실험에서 희생시켜서는 안 되는 것입니다.</speak>
+			<speak chara="edisonNoNameNoFace">░▒░▒░▒되든, 저는 할 수 있는 모든 것을 할 거예요. 무고한 이들을 저희의 실험 때문에 희생시킬 수는 없어요.</speak>
 			<speak chara="teslaNoFace">……에디슨?</speak>
 			<speak chara="teslaNoFace">……들려? 에디슨!?</speak>
 			<goto change="0" goto="40" />
@@ -81,38 +81,38 @@
 			<show chara="teslaShoutWinterClose-up" position="center" />
 			<speak chara="teslaNoFace">그래, 나야! 어디에 갇혀있는 거야? 금방 구하러 갈게!</speak>
 			<show chara="edisonWhiteWinterClose-up" opacity="0.95" position="center" />
-			<speak chara="edisonNoFace">……그건 우선사항이 아냐. 니콜라.</speak>
-			<speak chara="edisonNoFace">시급히, 뉴욕만의 선박과 연안 주민들에게 알리는 거야. 소규모 쓰나미가 일어날지도 모른다, 만약을 위해 갯벌 지역에서 대피하라고.</speak>
+			<speak chara="edisonNoFace">……그건 우선 사항이 아냐. 니콜라.</speak>
+			<speak chara="edisonNoFace">시급히, 뉴욕만에 있는 선박과 연안 주민들에게 알려줘. 소규모 쓰나미가 일어날지도 모르니, 만약을 위해 갯벌 지역에서 대피하라고.</speak>
 			<show chara="teslaAstonishGlassWinterClose-up" position="center" />
-			<speak chara="teslaNoFace">……뭘, 말하는——</speak>
+			<speak chara="teslaNoFace">……무슨, 말을——</speak>
 			<show chara="teslaEmbarraGlassWinterClose-up" position="center" />
 			<speak chara="teslaNoFace">——아니, 알겠어.</speak>
-			<speak chara="teslaNoFace">우리는 곧 롱아일랜드 해협 끝에 도착할 거야. 전속력으로 향하면 30분이면 맨해튼에 도착할 거야!</speak>
+			<speak chara="teslaNoFace">우리는 곧 롱아일랜드 해협 끝에 도착해. 전속력으로 향하면 30분이면 맨해튼에 도착할 거야!</speak>
 			<goto change="0" goto="50" />
 		</scene>
 		<scene background="CG24-1-0.jpg" id="50">
 			<bgm src="04_20_Brigantia.mp3" status="continue" />
-			<speak chara="edisonNoFace">……30분인가. 내 전력(電力)은 그렇게 많지 않겠지.</speak>
-			<speak chara="teslaNoFace">괜찮아! 네 좌표를 가르쳐줘. 시민들에게 대피하라고 전하면, 바로 구하러 갈 테니까!</speak>
-			<speak chara="edisonNoFace">……조금 복잡해.</speak>
-			<speak chara="edisonNoFace">어쨌든, 지금 내가 할 수 있는 건, 가능한 한 이걸 외해로 밀어내 쓰나미의 규모를 줄이는 것밖에 없어.</speak>
-			<speak chara="teslaNoFace">……외해로 밀어내!? 뭐, 뭘 말하는 거야!?</speak>
-			<speak chara="edisonNoFace">지금, 2만 톤급 TNT 폭탄을 뛰어넘는 위력을 가지고 있는, 붕괴 에너지 압축 구체를 간신히 버텨내고 있는 중이야.……맨손으로 말이지.</speak>
-			<speak chara="edisonNoFace">외딴 곳에서 부수지 않는 한, 시민들의 안전을 보장할 수 없어.</speak>
+			<speak chara="edisonNoFace">……30분인가. 내가 가진 전력(電力)이 그만큼까지는 못 버틸 것 같은데.</speak>
+			<speak chara="teslaNoFace">괜찮아! 네 좌표를 알려줘. 사람들에게 대피하라고 알리고 나면, 바로 구하러 갈 테니까!</speak>
+			<speak chara="edisonNoFace">그게…… 조금 복잡해.</speak>
+			<speak chara="edisonNoFace">뭐가 어떻게 되든, 지금 내가 할 수 있는 건, 가능한 한 이걸 외해로 밀어내 쓰나미의 규모를 줄이는 것밖에 없어.</speak>
+			<speak chara="teslaNoFace">……외해로 밀어내!? 무, 무슨 소리를 하는 거야!?</speak>
+			<speak chara="edisonNoFace">지금, 2만 톤급 TNT 폭탄을 뛰어넘는 위력을 가진, 붕괴 에너지가 압축된 구체를 간신히 받아내고 있어……맨손으로 말야.</speak>
+			<speak chara="edisonNoFace">멀리 떨어진 곳에서 부수지 않는 한, 사람들의 안전을 보장할 수 없어.</speak>
 			<speak chara="teslaNoFace">그치만——</speak>
-			<speak chara="edisonNoFace">……이게, 내 선택이야.</speak>
-			<speak chara="edisonNoFace">이걸 해결하기 위해서는, 가장 잘 이해하고 있는 사람이 움직여야만 해.</speak>
-			<speak chara="edisonNoFace">자업자득이란 거지. 스스로 책임질 수 밖에 없어.</speak>
+			<speak chara="edisonNoFace">……이건, 나의 선택이야.</speak>
+			<speak chara="edisonNoFace">이걸 해결하기 위해서는, 이를 가장 잘 이해하고 있는 사람이 해야만 해.</speak>
+			<speak chara="edisonNoFace">이건 나 자신이 초래한 재해야. 스스로 책임질 수 밖에 없어.</speak>
 			<speak chara="teslaNoFace">그치만——!</speak>
 			<goto change="0" goto="60" />
 		</scene>
 		<scene background="roadNewYork.jpg" id="60">
 			<bgm src="04_20_Brigantia.mp3" status="continue" />
 			<show chara="starFallDown" position="back" />
-			<speak chara="edisonNoFace">미안. 나는, 이 붕괴 에너지가 통제 불능이 되는 걸 간과할 수 없어.</speak>
+			<speak chara="edisonNoFace">미안. 나는, 이 붕괴 에너지가 통제 불능이 되는 걸 보고만 있을 수는 없어.</speak>
 			<speak chara="edisonNoFace">그래…….</speak>
 			<speak chara="edisonNoFace">네가 연구소에서 나갈 때 떼먹힌 로열티 말인데……</speak>
-			<speak chara="edisonNoFace">……회사에서 지급해 줄거야.</speak>
+			<speak chara="edisonNoFace">……회사에서 지불해 줄거야.</speak>
 			<goto change="0" goto="65" />
 		</scene>
 		<scene background="cloudSky.jpg" id="65">
@@ -120,120 +120,78 @@
 			<show chara="teslaTearsBigHead" position="center" />
 			<speak chara="teslaNoFace">…….</speak>
 			<show chara="teslaTearsBigHeadCloseEye" position="center" />
-			<speak chara="teslaNoFace">구두쇠! 네가 직접 줘야 용서해준다니까!</speak>
+			<speak chara="teslaNoFace">구두쇠! 네가 직접 지불하지 않으면 용서할 맘 없다고!</speak>
 			<show chara="teslaTearsBigHeadShout" position="center" />
-			<speak chara="teslaNoFace">아니면, 내 체면이 안 서! 있잖아, 듣고있어!?</speak>
+			<speak chara="teslaNoFace">아니면, 내 체면이 안 서! 야, 듣고있어!?</speak>
 			<speak chara="edisonNoFace">후후…….</speak>
-			<speak chara="edisonNoFace">다음 주……만약 내가 지각만 안 한다면, 확실히 지불할게.</speak>
+			<speak chara="edisonNoFace">다음 주……만약 내가 지각하게 될 일이 없다면, 확실히 지불할게.</speak>
 			<goto change="#ffffff" goto="70" />
 		</scene>
 		<scene background="CG24-1-1.jpg" id="70">
 			<bgm src="06_15_ScarboroughFair.mp3" status="start" />
-			<speak chara="edisonNoFace" remark="next"> Are you going to Scarborough Fair?</speak>
-			<remark post="U2FsdGVkX185n4iwTfCoutEDolvL">
-				<p class="article-text-h">가사의 의미: </p>
-				<p class="article-text">스카보로 시장에 가시나요?</p>
-			</remark>
+			<speak chara="edisonNoFace">
+				Are you going to Scarborough Fair? (스카보로 시장에 가시나요?)
+</speak>
 			<goto change="0" goto="73" />
 		</scene>
 		<scene background="CG24-1-2.jpg" id="73">
 			<bgm src="06_15_ScarboroughFair.mp3" status="continue" />
-			<speak chara="edisonNoFace" remark="next">"Parsley, sage, rosemary, and thyme"</speak>
+			<speak chara="edisonNoFace">"Parsley, sage, rosemary, and thyme" (파슬리, 세이지, 로즈마리, 타임)</speak>
+			<speak chara="edisonNoFace">Remember me to one who lives there (거기 사는 한 여인에게 안부를 전해주세요)</speak>
+			<speak chara="edisonNoFace" remark="next">She once was a true love of mine (한 때 그녀는 나의 진실한 사랑이었어요)</speak>
 			<remark>
-				<p class="article-text-h">가사의 의미: </p>
-				<p class="article-text">파슬리, 세이지, 로즈마리, 타임</p>
-			</remark>
-			<speak chara="edisonNoFace" remark="next">Remember me to one who lives there</speak>
-			<remark>
-				<p class="article-text-h">가사의 의미: </p>
-				<p class="article-text">거기 사는 한 여인에게 안부를 전해주세요</p>
-			</remark>
-			<speak chara="edisonNoFace" remark="next">She once was a true love of mine</speak>
-			<remark>
-				<p class="article-text-h">가사의 의미: </p>
-				<p class="article-text">한 때 그녀는 나의 진실한 사랑이었어요</p>
+				<p class="article-text-h">가사의 의미:</p>
+				<p class="article-text">과거형이므로 현재는 더 이상 진실한 사랑이 아니라는 것을 의미한다.</p>
 			</remark>
 			<goto change="#ffffff" goto="80" />
 		</scene>
 		<scene background="cloudSky.jpg" id="80">
 			<bgm src="06_15_ScarboroughFair.mp3" status="continue" />
 			<show chara="teslaTearsBigHeadTeatsDown" position="center" />
-			<speak chara="teslaNoFace" remark="next">Tell her to make me a cambric shirt</speak>
+			<speak chara="teslaNoFace">Tell her to make me a cambric shirt (그녀에게 저를 위해 면으로 된 셔츠를 만들어 달라고 해주세요)</speak>
+			<speak chara="teslaNoFace">"Parsley, sage, rosemary, and thyme" (파슬리, 세이지, 로즈마리, 타임)</speak>
+			<speak chara="teslaNoFace" remark="next">Without any seam or needlework (이음매나 바느질 자국 없는 그런 옷을요)</speak>
 			<remark>
-				<p class="article-text-h">가사의 의미: </p>
-				<p class="article-text">그녀에게 내게 캠브릭 셔츠를 만들어 달라고 해주세요</p>
+				<p class="article-text-h">가사의 의미:</p>
+				<p class="article-text">이음매나 바느질 없이는 면으로 옷을 만들 수 없기에 불가능 한 일을 의미한다.</p>
 			</remark>
-			<speak chara="teslaNoFace" remark="next">"Parsley, sage, rosemary, and thyme"</speak>
+			<speak chara="teslaNoFace" remark="next">Then she'll be a true love of mine (그러면 그녀는 내 진실한 사랑이 될 거예요)</speak>
 			<remark>
-				<p class="article-text-h">가사의 의미: </p>
-				<p class="article-text">파슬리, 세이지, 로즈마리, 타임</p>
-			</remark>
-			<speak chara="teslaNoFace" remark="next">Without any seam or needlework</speak>
-			<remark>
-				<p class="article-text-h">가사의 의미: </p>
-				<p class="article-text">이음매나 바느질 자국 없는 그런 옷을요</p>
-			</remark>
-			<speak chara="teslaNoFace" remark="next">Then she'll be a true love of mine</speak>
-			<remark>
-				<p class="article-text-h">가사의 의미: </p>
-				<p class="article-text">그러면 그녀는 내 진실한 사랑이 될 거예요</p>
+				<p class="article-text-h">가사의 의미:</p>
+				<p class="article-text">불가능을 전제하기에 다시는 진실한 사랑을 할 수 없게 되었다는 것을 의미한다.</p>
 			</remark>
 			<goto change="#ffffff" goto="90" />
 		</scene>
 		<scene background="CG24-1-2.jpg" id="90">
 			<bgm src="06_15_ScarboroughFair.mp3" status="continue" />
-			<speak chara="edisonNoFace" remark="next">Tell her to find me an acre of land</speak>
-			<remark>
-				<p class="article-text-h">가사의 의미: </p>
-				<p class="article-text">그녀에게 내게 한 에이커의 땅을 구해 달라고 해주세요</p>
-			</remark>
+			<speak chara="edisonNoFace">Tell her to find me an acre of land (그녀에게 저를 위해 한 에이커의 땅을 구해 달라고 해주세요)</speak>
 			<goto change="0" goto="93" />
 		</scene>
 		<scene background="CG24-1-3.jpg" id="93">
 			<bgm src="06_15_ScarboroughFair.mp3" status="continue" />
-			<speak chara="teslaNoFace" remark="next">"Parsley, sage, rosemary, and thyme"</speak>
+			<speak chara="teslaNoFace">"Parsley, sage, rosemary, and thyme" (파슬리, 세이지, 로즈마리, 타임)</speak>
+			<speak chara="edisonNoFace" remark="next">Between the salt water and the sea strands (바다와 바닷가 사이의 땅을요)</speak>
 			<remark>
-				<p class="article-text-h">가사의 의미: </p>
-				<p class="article-text">파슬리, 세이지, 로즈마리, 타임</p>
+				<p class="article-text-h">가사의 의미:</p>
+				<p class="article-text">바다와 바닷가는 이어지기에 사이에 있는 땅은 존재하지 않는다. 고로, 이 역시 불가능한 일을 의미한다.</p>
 			</remark>
-			<speak chara="edisonNoFace" remark="next">Between the salt water and the sea strands</speak>
-			<remark>
-				<p class="article-text-h">가사의 의미: </p>
-				<p class="article-text">바다와 바닷가 사이의 땅을요</p>
-			</remark>
-			<speak chara="teslaNoFace" remark="next">Then she'll be a true love of mine</speak>
-			<remark>
-				<p class="article-text-h">가사의 의미: </p>
-				<p class="article-text">그러면 그녀는 내 진실한 사랑이 될 거예요</p>
-			</remark>
-			<speak chara="edisonTeslaNoFace" remark="next">Tell her to reap it in a sickle of leather</speak>
-			<remark>
-				<p class="article-text-h">가사의 의미: </p>
-				<p class="article-text">그녀에게 가죽 낫으로 거두어들여서</p>
-			</remark>
+			<speak chara="teslaNoFace">Then she'll be a true love of mine (그러면 그녀는 내 진실한 사랑이 될 거예요)</speak>
+			<speak chara="edisonTeslaNoFace">Tell her to reap it in a sickle of leather (그녀에게 가죽으로 만든 낫을 써달라고 해주세요)</speak>
 			<goto change="0" goto="100" />
 		</scene>
 		<scene background="CG24-1-4.jpg" id="100">
 			<bgm src="06_15_ScarboroughFair.mp3" status="continue" />
-			<speak chara="edisonTeslaNoFace" remark="next">"Parsley, sage, rosemary, and thyme"</speak>
+			<speak chara="edisonTeslaNoFace">"Parsley, sage, rosemary, and thyme" (파슬리, 세이지, 로즈마리, 타임)</speak>
+			<speak chara="edisonTeslaNoFace" remark="next">And gather it all in a bunch of heather (그 낫으로 헤더를 베어 꽃다발을 만들어 달라고 해주세요)</speak>
 			<remark>
-				<p class="article-text-h">가사의 의미: </p>
-				<p class="article-text">파슬리, 세이지, 로즈마리, 타임</p>
-			</remark>
-			<speak chara="edisonTeslaNoFace" remark="next">And gather it all in a bunch of heather</speak>
-			<remark>
-				<p class="article-text-h">가사의 의미: </p>
-				<p class="article-text">모두 모아 헤더 꽃다발로 만들어 달라고 해주세요</p>
+				<p class="article-text-h">가사의 의미:</p>
+				<p class="article-text">가죽으로 만든 낫은 존재 하지 않고, 있더라도 아무것도 벨 수 없으니 이 역시 불가능한 일을 의미한다.</p>
 			</remark>
 			<goto change="0" goto="106" />
 		</scene>
 		<scene background="white.jpg" id="106">
 			<bgm src="06_15_ScarboroughFair.mp3" status="continue" />
-			<speak chara="edisonTeslaNoFace" remark="next">Then she'll be a true love of mine</speak>
-			<remark>
-				<p class="article-text-h">가사의 의미: </p>
-				<p class="article-text">그러면 그녀는 내 진실한 사랑이 될 거예요</p>
-			</remark>
+			<speak chara="edisonTeslaNoFace">Then she'll be a true love of mine (그러면 그녀는 내 진실한 사랑이 될 거예요)</speak>
 			<goto change="#ffffff" goto="110" />
 		</scene>
 		<scene background="brightonBeach.jpg" id="110">
@@ -246,7 +204,7 @@
 			<show chara="reaSeriousArmedNoLanceFar" position="right" />
 			<bgm src="horror.mp3" status="start" />
 			<speak chara="reannaNoFace">……당신들은 안전한 곳까지 내려가세요.</speak>
-			<speak chara="reannaNoFace">제가 상공에 가서 정찰하고 올게요.</speak>
+			<speak chara="reannaNoFace">제가 상공에서 정찰하고 올게요.</speak>
 			<show chara="reaSeriousArmedNoLanceFar" opacity="0.7" position="right" />
 			<show chara="teslaDisgustedGlassWinterFar" position="left" />
 			<speak chara="teslaNoFace">잠깐만, 넌 어째서——</speak>
@@ -263,12 +221,12 @@
 			<speak chara="nokiaNoFace">……여러분.</speak>
 			<show chara="nokiaDepressedWinterFar" opacity="0.7" position="right" />
 			<show chara="teslaShoutGlassWinterFar" position="left" />
-			<speak chara="teslaNoFace">에엑! 핀란드인 아니야!? 왜 그래!? 괜찮아?</speak>
+			<speak chara="teslaNoFace">아앗! 핀란드인 아니야!? 왜 그래!? 괜찮아?</speak>
 			<show chara="teslaShoutGlassWinterFar" opacity="0.7" position="left" />
 			<show chara="nokiaAnnoyedWinterFar" position="right" />
 			<speak chara="nokiaNoFace">저도 에디슨 씨의 신호를 수신했습니다…….</speak>
 			<show chara="nokiaDepressedWinterFar" position="right" />
-			<speak chara="nokiaNoFace">……셸터에서 끌어낸 기계를 사용해서 말이죠.</speak>
+			<speak chara="nokiaNoFace">……대피소에서 가져온 장비를 사용해서 말이죠.</speak>
 			<show chara="nokiaDepressedWinterFar" opacity="0.7" position="right" />
 			<show chara="schroNormalLanceFar" position="left" />
 			<speak chara="schroNoFace">모두……무사, 한 것이에요?</speak>
@@ -284,28 +242,28 @@
 			<speak chara="einNoFace">……대체, 왜 그러시죠?</speak>
 			<show chara="einShockWinterFar" opacity="0.7" position="left" />
 			<show chara="nokiaCrazyWinterFar" position="right" />
-			<speak chara="nokiaNoFace">……제가 하고 싶은 말은, 그런 게 아니에요!</speak>
+			<speak chara="nokiaNoFace">……제가 하고 싶은 말은, 그게 아니에요!</speak>
 			<show chara="nokiaAnnoyedWinterFar" position="right" />
 			<speak chara="nokiaNoFace">저는…….</speak>
 			<show chara="nokiaAnnoyedWinterFar" opacity="0.7" position="right" />
 			<show chara="teslaBiteGlassWinterFar" position="left" />
-			<speak chara="teslaNoFace">……응? 왜 그래? 할 얘기가 있으면, 확실히 말해!</speak>
+			<speak chara="teslaNoFace">……응? 왜 그래? 할 얘기가 있으면, 똑바로 말해!</speak>
 			<show chara="teslaBiteGlassWinterFar" opacity="0.7" position="left" />
 			<show chara="nokiaCrazyWinterFar" position="right" />
-			<speak chara="nokiaNoFace">이건 전부 제 탓입니다! 제가, 그 사람의 협박에 당해버려서……!</speak>
+			<speak chara="nokiaNoFace">이건 전부 제 탓입니다! 제가, 그 사람의 협박에 굴복해버려서……!</speak>
 			<shake position="right" time="250" />
-			<speak chara="nokiaNoFace">그, 그가 요아힘을……제 아들을 인질로 위협했어요!</speak>
+			<speak chara="nokiaNoFace">그, 그가 요아힘을……제 아들을 인질로 삼아 위협했어요!</speak>
 			<show chara="nokiaCrazyWinterFar" opacity="0.7" position="right" />
 			<show chara="schroShockLanceFar" position="left" />
 			<speak chara="schroNoFace">……!?</speak>
 			<show chara="schroShockLanceFar" opacity="0.7" position="left" />
 			<show chara="nokiaCrazyWinterFar" position="right" />
-			<speak chara="nokiaNoFace">본의가 아니었어요! 설마 실험이 이렇게 될 줄은 상상도 못했어요!</speak>
-			<speak chara="nokiaNoFace">대, 대주교가 그랬어요. 고문서에 적힌 후반기 데이터를 조작하라고, 그러면 에디슨의 연구가 조금 지체될 뿐이라고. 단지, 그것뿐이라고.</speak>
-			<speak chara="nokiaNoFace">「에디슨이 시대에 혁신을 가져올 기술적 돌파구를 찾아내는 것을 바라지 않는다」, 그가 가벼운 어조로 제게 그렇게 말했다고요!</speak>
-			<speak chara="nokiaNoFace">저, 전 설마 이렇게 되리라고는, 생각도 못했다고요!</speak>
+			<speak chara="nokiaNoFace">이렇게 만들 의도는 없었어요! 설마 그 실험이 이렇게 될 줄은 상상도 못했다고요!</speak>
+			<speak chara="nokiaNoFace">대, 대주교가 그랬어요. 고문서에 적힌 뒷부분의 데이터를 조작하라고, 그러면 에디슨의 연구가 조금 지체될 뿐이라고. 단지, 그것뿐이라고.</speak>
+			<speak chara="nokiaNoFace">「에디슨이 이 시대에 혁신을 가져올 기술적 돌파구를 이뤄내는 것은 바라지 않는다」, 그는 가벼운 말투로 제게 그렇게 얘기해왔어요!</speak>
+			<speak chara="nokiaNoFace">저, 전 설마 이렇게 되리라고는, 생각도 못 했다고요!</speak>
 			<shake position="right" time="250" />
-			<speak chara="nokiaNoFace">……실험 실패가 이런 결과가 되리라고는, 누구도 상상하지 못하잖아요!?</speak>
+			<speak chara="nokiaNoFace">……실험 실패가 이런 결과가 되리라고는, 어느 누구도 상상도 못했을 거예요!</speak>
 			<show chara="nokiaCrazyWinterFar" opacity="0.7" position="right" />
 			<show chara="weltSBDNewFar" position="left" />
 			<speak chara="weltNoFace">즉——</speak>
@@ -314,14 +272,14 @@
 		<scene background="CG24-2-0.jpg" id="130">
 			<bgm src="horror.mp3" status="stop" />
 			<sound src="05_18_claw.mp3" />
-			<speak chara="ottoNoNameNoFace">……재잘재잘 너무 지껄이는구나. 어리석은 자가.</speak>
+			<speak chara="ottoNoNameNoFace">……조잘조잘 잘도 지껄이는구나. 어리석은 자여.</speak>
 			<speak chara="nokiaNoFace">뭣——</speak>
 			<goto change="0" goto="135" />
 		</scene>
 		<scene background="CG24-2-1.jpg" id="135">
 			<bgm src="horror.mp3" status="stop" />
 			<sound src="04_20_fell.mp3" />
-			<speak chara="ottoNoNameNoFace">조용히 가족 품으로 가는 게 좋아.</speak>
+			<speak chara="ottoNoNameNoFace">조용히 가족들 품으로 가시게.</speak>
 			<goto change="#ffffff" goto="140" />
 		</scene>
 		<scene background="brightonBeach.jpg" id="140">
@@ -336,8 +294,8 @@
 			<hide position="right" />
 			<hide position="left" />
 			<show chara="ottoChangeFar" position="center" />
-			<speak chara="ottoNoNameNoFace">나 말인가? 물리적인 관점에서 말하자면, 너희와 행동을 같이 했던 발키리 레아나 브리간티아다만?</speak>
-			<speak chara="ottoNoNameNoFace">——확실히, 겉모습과 인격이 다르지만.</speak>
+			<speak chara="ottoNoNameNoFace">나 말인가? 물리적인 관점에서 말하자면, 너희들과 행동을 같이 해왔던 발키리 레아나 브리간티아다만?</speak>
+			<speak chara="ottoNoNameNoFace">——확실히, 겉모습과 인격이 다르긴 하네.</speak>
 			<speak chara="ottoNoNameNoFace">……뭐 좋아. 너희들에게도 보여주지.</speak>
 			<goto change="#ffffff" goto="150" />
 		</scene>
@@ -346,33 +304,33 @@
 			<show chara="ottoConfidentLanceFar" position="center" />
 			<speak chara="ottoNoNameNoFace">……기계 해마체 접속률, 99.993666%. 혼강 피부 접합 완료.</speak>
 			<show chara="ottoRidiculingLanceFar" position="center" />
-			<speak chara="ottoNoNameNoFace">이것으로 좋아. 너희들 중에는 나에 대해 아는 사람도 있겠다만…….</speak>
+			<speak chara="ottoNoNameNoFace">이거면 되겠지. 너희들 중에는 이미 나에 대해 아는 사람도 있겠다만…….</speak>
 			<show chara="ottoConfidentLanceFar" position="center" />
 			<speak chara="ottoNoNameNoFace">그래도, 역시 자기소개 정도는 하는 것이 예의겠지.</speak>
 			<show chara="ottoFrivolousLanceFar" position="center" />
 			<speak chara="ottoNoFace">나는 오토 아포칼립스. 일단 「천명」의 「주교」를 맡고 있다.</speak>
 			<show chara="weltSBDNewFar" position="center" />
 			<speak chara="weltNoFace">……오토!</speak>
-			<speak chara="weltNoFace">무, 무슨 마술이야 그건!?</speak>
-			<speak chara="weltNoFace">게다가 무슨 일을……너, 어떤 짓을 했는지 알고 있어?!</speak>
+			<speak chara="weltNoFace">무, 무슨 속임수야 그건!?</speak>
+			<speak chara="weltNoFace">게다가 무슨 짓을……너, 어떤 짓을 했는지 알고 있어?!</speak>
 			<show chara="ottoRidiculingLanceFar" position="center" />
 			<speak chara="ottoNoFace">자자 진정하게, 친애하는 친구여.</speak>
 			<show chara="ottoConfidentLanceFar" position="center" />
-			<speak chara="ottoNoFace">내가 직접 베푼 기계의 신체에, 단지 나타났을 뿐이다. 「마술」도 뭣도 아니다만?</speak>
+			<speak chara="ottoNoFace">내가 직접 하사한 기계로 만든 신체에, 단지 나타났을 뿐이다. 「속임수」도 뭣도 아니다만?</speak>
 			<show chara="ottoFrivolousLanceFar" position="center" />
 			<speak chara="ottoNoFace">……레아나 브리간티아.</speak>
 			<show chara="ottoRidiculingLanceFar" position="center" />
-			<speak chara="ottoNoFace">지난 100년, 최강의 자리를 물려주지 못한 내가 가장 신뢰하는 발키리.</speak>
+			<speak chara="ottoNoFace">지난 100년, 최강의 자리를 양보한 적 없는 내가 가장 신뢰하는 발키리.</speak>
 			<show chara="ottoConfidentLanceFar" position="center" />
-			<speak chara="ottoNoFace">그녀가 그토록 강하고, 의지가 된 것은, 유례없는 정신력 따위에 의한 것이 아니다…….</speak>
+			<speak chara="ottoNoFace">그녀가 그토록 강하고, 듬직했던 것은, 유례없는 정신력 따위에 의한 것이 아니다…….</speak>
 			<show chara="ottoLaughLanceFar" position="center" />
-			<speak chara="ottoNoFace">——그게 아니라, 내가 무수한 고대 문명의 유산에서 뽑아내, 이 손으로 그녀에게 불후의 신체를 만들어 주었기 때문이다!</speak>
+			<speak chara="ottoNoFace">——그게 아니라, 내가 무수한 고대 문명의 유산에서 골라낸 혼강을 써서, 이 손으로 직접 그녀에게 불멸의 신체를 만들어 주었기 때문이다!</speak>
 			<show chara="teslaAstonishGlassWinterFar" position="center" />
 			<speak chara="teslaNoFace">너……대체 무슨 소리야!?</speak>
 			<show chara="ottoConfidentLanceFar" position="center" />
 			<speak chara="ottoNoFace">……테슬라 양.</speak>
 			<show chara="ottoRidiculingLanceFar" position="center" />
-			<speak chara="ottoNoFace">벌써 눈치채고 있겠지? 하지만, 그걸 직시하고 싶지 않아.</speak>
+			<speak chara="ottoNoFace">벌써 눈치챘겠지? 하지만, 그걸 직시하고 싶지 않을 뿐.</speak>
 			<show chara="ottoFrivolousLanceFar" position="center" />
 			<speak chara="ottoNoFace">……뭐 좋아.</speak>
 			<speak chara="ottoNoFace">잠깐 시간을 내서, 너희에게 설명해주도록 하지.</speak>
@@ -385,7 +343,7 @@
 			<speak chara="ottoNoFace">몇 년 간격으로 배의 부품을 모두 검사하고, 만약 썩었다면 새 것으로 교체한다고.</speak>
 			<speak chara="ottoNoFace">그리고, 오랜 세월이 흘러, 한 철학자가 견학을 왔을 때, 배의 부품은 어느 곳이나 최소한 두 번은 교체되어 있었다.</speak>
 			<show chara="ottoFrivolousLanceFar" position="center" />
-			<speak chara="ottoNoFace">철학자는 이 소식을 듣고 매우 슬퍼하며, 현지인들에게 「이건 아직 원래 배가 맞는가」라고 물었다.</speak>
+			<speak chara="ottoNoFace">철학자는 이 소식을 듣고 매우 슬퍼하며, 현지인들에게 「이 배는 아직도 원래의 그 배인가?」라고 물었다.</speak>
 			<show chara="ottoRidiculingLanceFar" position="center" />
 			<speak chara="ottoNoFace">그러나, 현지인들은 개의치 않는다는 듯 대답했다. 「철학자 양반, 만약 아니라고 한다면, 언제부터 달랐다고 생각하십니까?」</speak>
 			<speak chara="ottoNoFace">「아시잖습니까. 항해 도중에도, 배는 항상 부품을 교체해야 합니다.」</speak>
@@ -396,7 +354,7 @@
 			<speak chara="ottoNoFace">하하……100여 년에 걸쳐, 크고 작은 1000회 이상의 인체개조를 실시했다——</speak>
 			<speak chara="ottoNoFace">——그런 신체는 과연 발키리일까, 아니면 로봇일까?</speak>
 			<show chara="weltSBDNewFar" position="center" />
-			<speak chara="weltNoFace">윽! 웃기지 마——</speak>
+			<speak chara="weltNoFace">윽! 헛소리하지 마——</speak>
 			<show chara="ottoRidiculingLanceFar" position="center" />
 			<speak chara="ottoNoFace">물론, 답은 아주 간단하지.</speak>
 			<show chara="ottoConfidentLanceFar" position="center" />
@@ -406,24 +364,24 @@
 			<show chara="weltSBDNewFar" position="center" />
 			<speak chara="weltNoFace">……너!</speak>
 			<show chara="ottoFrivolousLanceFar" position="center" />
-			<speak chara="ottoNoFace">율자여. 자네도 오랜 삶을 누려야 하는 숙명에 있다면 알아줄 테지——영원을 사는 자에게, 스스로의 힘을 유지하는 것이 얼마나 중요한 일인가를.</speak>
+			<speak chara="ottoNoFace">율자여. 자네도 오랜 삶을 누려야 하는 숙명을 지니고 있다면, 이해할 수 있겠지——영원을 사는 자에게, 스스로의 힘을 유지하는 것이 얼마나 중요한 일인가를.</speak>
 			<show chara="ottoRidiculingLanceFar" position="center" />
 			<speak chara="ottoNoFace">……게다가 너희 눈앞에 있는 이 실험체는, 오늘 규칙을 어기고 말았다.</speak>
 			<show chara="ottoFrivolousLanceFar" position="center" />
 			<speak chara="ottoNoFace">……정말 슬프구나. 나의 레아나.</speak>
 			<show chara="ottoRidiculingLanceFar" position="center" />
-			<speak chara="ottoNoFace">……설마, 정점에 서는 발키리라고 해서, 주교와 대등해지기라도 했다고 생각했던 건가?</speak>
-			<speak chara="ottoNoFace">……내가 실험하고 있을 때 숨겨진 포트를 남기지 않았다고 안이한 예측을 했겠지. 단순하구나.</speak>
+			<speak chara="ottoNoFace">……설마, 정점에 올라선 발키리라고 해서, 주교와 대등해지기라도 했다고 생각했던 건가?</speak>
+			<speak chara="ottoNoFace">……내가 실험하고 있을 때 숨겨진 포트 같은 걸 남겨두지는 않았을 거라고 안이하게 지내왔겠지. 단순하구나.</speak>
 			<show chara="ottoLaughLanceFar" position="center" />
 			<speak chara="ottoNoFace">……핫핫핫하!</speak>
 			<show chara="schroShockLanceFar" position="center" />
 			<speak chara="schroNoFace">어, 어째서……그런 짓을 한 것이에요…….</speak>
 			<show chara="ottoRidiculingLanceFar" position="center" />
-			<speak chara="ottoNoFace">이런, 여기까지다——</speak>
+			<speak chara="ottoNoFace">이런, 얘기는 여기까지다——</speak>
 			<speak chara="ottoNoFace">나의 이야기는 끝. 게다가 솔직히, 자네들은 영광으로 여겨야 해.</speak>
 			<show chara="ottoLaughLanceFar" position="back" />
 			<show chara="speedLine" position="center" />
-			<speak chara="ottoNoFace">——지금의 오토 아포칼립스가 직접 처형할 만한 적은, 거의 없으니까!</speak>
+			<speak chara="ottoNoFace">——지금의 오토 아포칼립스가 직접 처형할 만큼 가치를 가진 적은, 거의 없으니까!</speak>
 			<goto change="0" goto="160" />
 		</scene>
 		<scene background="white.jpg" id="160">
@@ -437,13 +395,13 @@
 			<speak chara="schroNoFace">……읏!</speak>
 			<bgm src="04_20_Brigantia.mp3" status="start" />
 			<show chara="speedLine" position="center" />
-			<speak chara="schroNoFace">이야아아아아아아아앗!!!!</speak>
+			<speak chara="schroNoFace">안돼애애애애애애애앳!!!!</speak>
 			<goto change="0" goto="180" />
 		</scene>
 		<scene background="CG24-4-0.jpg" id="180">
 			<bgm src="04_20_Brigantia.mp3" status="continue" />
 			<speak chara="ottoNoFace">……흠, 날아서 불에 뛰어드는 무언가 같군.</speak>
-			<speak chara="ottoNoFace">붕괴수와 동화된 정도의 자네가 무엇을 할 수 있단 말인가?</speak>
+			<speak chara="ottoNoFace">붕괴수와 동화된 정도로 자네가 무엇을 할 수 있단 말인가?</speak>
 			<speak chara="schroNoFace">내가……쓰러지지 않는 한…….</speak>
 			<speak chara="schroNoFace">당신은……누구도 다치게 할 수 없는 것이에요…….</speak>
 			<speak chara="ottoNoFace">으ー음. 확실히 일리가 있네.</speak>
@@ -454,7 +412,7 @@
 		</scene>
 		<scene background="CG24-4-1.jpg" id="185">
 			<bgm src="04_20_Brigantia.mp3" status="continue" />
-			<speak chara="schroNoFace">그런 식으로 그 몸을 더럽힌다면, 난 당신을 절대로 용서하지 않을 것이에요! 그뿐만이 아닌 것이에요, 내 동료까지 다치게 하려 하다니!</speak>
+			<speak chara="schroNoFace">그런 식으로 그 몸을 더럽힌다면, 난 당신을 절대로 용서하지 않을 것이에요! 그뿐만이 아닌 것이에요, 내 동료까지 해치려 하다니!</speak>
 			<speak chara="schroNoFace">그 몸은, 당신의 것이 아닌 것이에요!!</speak>
 			<speak chara="schroNoFace">그 몸의 유일한 소유자는——</speak>
 			<goto change="0" goto="190" />
