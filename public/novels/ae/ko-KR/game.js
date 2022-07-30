@@ -1105,10 +1105,7 @@ function thanksWords() {
   // }
   $('#confirm_1')
     .html(`<div class="submit-center ${tl_css_lang}"></div>`)
-    .css(
-      'background',
-      "url('" + base_url + "/resources/ui/thanks.png') no-repeat"
-    )
+    .css('background', "url('/novels/ae/ko-KR/end.png') no-repeat")
     .css('background-size', 'auto 100%')
     .css('background-position', 'center')
   $('.submit-center').click(function () {
