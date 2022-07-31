@@ -22,14 +22,268 @@
       - label: img
         krLabel: 허수
         boss: ofg
+    - - label: qua
+        krLabel: 양자
+        boss: qt-sss
+      - label: fire
+        krLabel: 화염
+        boss: tank2
   ma:
     - - label: sss
         boss: qksm
       - label: sss
         boss: jz-sss
       - label: ss
-        boss: hpt
-  supplyEvents: []
+        boss: tank2
+    - - label: sss
+        boss: husk-sss
+      - label: sss
+        boss: tank2
+      - label: ss
+        boss: hmd
+  supplyEvents:
+    # - name: Infinite Ouroboros Battlesuit Expansion Supply
+    #   duration:
+    #     - 2022-09-02
+    #     - 2022-09-09
+    #   track: 1
+    #   verified: false
+    #   featured:
+    #     - type: battlesuit
+    #       id: io
+    #     - type: battlesuit
+    #       id: ma
+    #   others:
+    #     - type: battlesuit
+    #       id: ns
+    #     - type: battlesuit
+    #       id: sd
+    #     - type: battlesuit
+    #       id: dp
+    - name: Sanguine Gaze Focused Supply B
+      duration:
+        - 2022-08-29
+        - 2022-09-05
+      track: 3
+      verified: false
+      featured:
+        - type: weapon
+          id: sanguine-gaze
+        - type: stigmata-set
+          id: verne
+      others:
+        - type: weapon
+          id: nue-of-the-shadow
+        - type: weapon
+          id: eye-of-the-collapse
+        - type: weapon
+          id: sleeping-beauty
+        - type: weapon
+          id: nebulous-duality
+        - type: weapon
+          id: path-to-acheron
+        - type: weapon
+          id: obscuring-wing
+        - type: stigmata-set
+          id: benares-awakening
+        - type: stigmata-set
+          id: irene-adler
+        - type: stigmata-set
+          id: avogadro
+        - type: stigmata-set
+          id: turgenev
+    - name: Twins Of Eden Schicksal Arsenal
+      duration:
+        - 2022-08-26
+        - 2022-09-09
+      track: 6
+      verified: false
+      featured:
+        - type: weapon
+          id: twins-of-eden
+        - type: weapon
+          id: purana-phantasma
+        - type: stigmata-set
+          id: bastet
+      others:
+        - type: weapon
+          id: key-of-radiance
+        - type: weapon
+          id: dark-star
+        - type: weapon
+          id: keys-of-oblivion
+        - type: weapon
+          id: eos-gloria
+        - type: weapon
+          id: whisper-of-the-past
+        - type: stigmata-set
+          id: kafka
+        - type: stigmata-set
+          id: turgenev
+        - type: stigmata-set
+          id: wang-zhenyi
+        - type: stigmata-set
+          id: aslaug
+    - name: Reverist Calico Event Supply
+      duration:
+        - 2022-08-26
+        - 2022-09-09
+      track: 5
+      verified: false
+      featured:
+        - type: battlesuit
+          id: rc
+      others:
+        - type: battlesuit
+          id: random-a-rank
+        - type: battlesuit-fragment
+          id: random-a-rank
+        - type: battlesuit-soul
+          id: random-a-rank
+    - name: Water's Edge Elf Supply
+      duration:
+        - 2022-08-26
+        - 2022-09-09
+      track: 4
+      verified: false
+      featured:
+        - type: elf
+          id: we
+      others: []
+    - name: Falcon Flare 0019 Focused Supply B
+      duration:
+        - 2022-08-22
+        - 2022-08-29
+      track: 3
+      verified: false
+      featured:
+        - type: weapon
+          id: falcon-flare-0019
+        - type: stigmata-set
+          id: bronya-n-ex
+      others:
+        - type: weapon
+          id: keys-of-void
+        - type: weapon
+          id: key-of-castigation
+        - type: weapon
+          id: basilisk-s-image
+        - type: weapon
+          id: iris-of-the-dreams
+        - type: weapon
+          id: hler-s-serenity
+        - type: weapon
+          id: mitternachts-waltz
+        - type: stigmata-set
+          id: shakespeare-adrift
+        - type: stigmata-set
+          id: fu-hua-margrave
+        - type: stigmata-set
+          id: shattered-swords
+        - type: stigmata-set
+          id: columbus
+    - name: Obscuring Wing Focused Supply B
+      duration:
+        - 2022-08-15
+        - 2022-08-22
+      track: 3
+      verified: false
+      featured:
+        - type: weapon
+          id: obscuring-wing
+        - type: stigmata-set
+          id: aslaug
+      others: []
+    - name: Daughter Of Corals Outfit Supply
+      duration:
+        - 2022-08-19
+        - 2022-09-09
+      track: 8
+      verified: true
+      featured:
+        - type: outfit
+          id: io-daughter-of-corals
+      others: []
+    - name: Midsummer Collector Outfit 1680 B-Chip
+      duration:
+        - 2022-08-11
+        - 2022-08-19
+      track: 7
+      verified: true
+      featured:
+        - type: outfit
+          id: rc-midsummer-collector
+      others: []
+    - name: Midsummer Collector Outfit 1980 B-Chip
+      duration:
+        - 2022-08-19
+        - 2022-09-02
+      track: 7
+      verified: true
+      featured:
+        - type: outfit
+          id: rc-midsummer-collector
+      others: []
+    - name: Sirin Elf Supply
+      duration:
+        - 2022-08-11
+        - 2022-08-26
+      track: 4
+      verified: false
+      featured:
+        - type: elf
+          id: sr
+      others: []
+    - name: Elysian Tower Focused Supply A
+      duration:
+        - 2022-08-11
+        - 2022-09-02
+      track: 2
+      verified: false
+      featured:
+        - type: weapon
+          id: vill-v-weapon
+        - type: stigmata-set
+          id: carlo-collodi
+      others:
+        - type: weapon
+          id: ice-epiphyllum
+        - type: weapon
+          id: crusher-bunny-19c
+        - type: weapon
+          id: keys-of-oblivion
+        - type: weapon
+          id: astral-rend
+        - type: weapon
+          id: starlance-prime
+        - type: weapon
+          id: obscuring-wing
+        - type: stigmata-set
+          id: aslaug
+        - type: stigmata-set
+          id: verne
+        - type: stigmata-set
+          id: murata-himeko
+        - type: stigmata-set
+          id: wang-zhenyi
+    - name: Helical Contraption Battlesuit Expansion Supply
+      duration:
+        - 2022-08-11
+        - 2022-09-02
+      track: 1
+      verified: false
+      featured:
+        - type: battlesuit
+          id: vill-v
+        - type: battlesuit
+          id: ma
+      others:
+        - type: battlesuit
+          id: ns
+        - type: battlesuit
+          id: sd
+        - type: battlesuit
+          id: dp
 - previousVersion: '5.7'
   version: '5.8'
   nextVersion: '5.9'
