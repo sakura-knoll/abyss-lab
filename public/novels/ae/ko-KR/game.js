@@ -1121,14 +1121,7 @@ function nextChapterBox() {
     .html(
       `<div class="submit-center ${tl_css_lang}" onclick="CloseConfirmDialog()"></div>`
     )
-    .css(
-      'background',
-      "url('" +
-        base_url +
-        '/resources/catalog/' +
-        date_url +
-        "nextChapter.png') no-repeat"
-    )
+    .css('background', "url('/novels/ae/ko-KR/end.png') no-repeat")
     .css('background-size', 'auto 100%')
     .css('background-position', 'center')
   $('#confirm').fadeIn()
