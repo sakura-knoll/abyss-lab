@@ -8,7 +8,7 @@ import { assetsBucketBaseUrl } from '../lib/consts'
 const IndexPage = () => {
   return (
     <Box>
-      <Head title='Abyss Lab - Unofficial Honkai3rd/Genshin Wiki' />
+      <Head title='Abyss Lab - Unofficial Honkai3rd Wiki' />
       <RootNavigator />
       <Box sx={{ p: 3 }}>
         <Box mb={4}>
@@ -22,11 +22,6 @@ const IndexPage = () => {
               />
             </Box>
             <Text sx={{ fontSize: 3 }}>Honkai 3rd</Text>
-          </PageLink>
-        </Box>
-        <Box mb={4}>
-          <PageLink href='/genshin'>
-            <Text sx={{ fontSize: 3 }}>Genshin (Under Construction)</Text>
           </PageLink>
         </Box>
       </Box>
