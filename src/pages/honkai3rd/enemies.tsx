@@ -23,7 +23,7 @@ const BossSearchPage = ({}: BossSearchPageProps) => {
     return (
       <img
         key={item}
-        src={`https://upload-os-bbs.mihoyo.com/game_record/honkai3rd/global/SpriteOutput/OpenWorld/QuestBossIcon/DG_${item}_M01.png`}
+        src={`https://upload-os-bbs.mihoyo.com/game_record/honkai3rd/global/SpriteOutput/OpenWorld/QuestBossIcon/QT_${item}.png`}
       />
     )
   })

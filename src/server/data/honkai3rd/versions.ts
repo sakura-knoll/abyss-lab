@@ -32,6 +32,15 @@ export function listVersionData(locale?: string): VersionData[] {
             }
           })
         }),
+        supplyEvents: version.supplyEvents.map((supplyEvent: any) => {
+          return {
+            ...supplyEvent,
+            name:
+              locale === 'ko-KR' && supplyEvent.krName != null
+                ? supplyEvent.krName
+                : supplyEvent.name,
+          }
+        }),
       }
     })
     .sort((a: any, b: any) => {

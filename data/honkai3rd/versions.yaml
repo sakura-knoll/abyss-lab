@@ -28,6 +28,12 @@
       - label: fire
         krLabel: 화염
         boss: tank2
+    - - label: qua
+        krLabel: 양자
+        boss: qp
+      - label: type (hit count)
+        krLabel: 상성 (타수)
+        boss: husk2
   ma:
     - - label: sss
         boss: qksm
@@ -41,26 +47,80 @@
         boss: tank2
       - label: ss
         boss: hmd
+    - - label: sss
+        boss: qksm
+      - label: sss
+        boss: wolf-sss
+      - label: ss
+        boss: ksm
   supplyEvents:
-    # - name: Infinite Ouroboros Battlesuit Expansion Supply
-    #   duration:
-    #     - 2022-09-02
-    #     - 2022-09-09
-    #   track: 1
-    #   verified: false
-    #   featured:
-    #     - type: battlesuit
-    #       id: io
-    #     - type: battlesuit
-    #       id: ma
-    #   others:
-    #     - type: battlesuit
-    #       id: ns
-    #     - type: battlesuit
-    #       id: sd
-    #     - type: battlesuit
-    #       id: dp
+    - name: Starlance Prime Focused Supply B
+      krName: 스타 랜스 주계열성 집중 보급 B
+      duration:
+        - 2022-09-05
+        - 2022-09-12
+      track: 3
+      verified: false
+      featured:
+        - type: weapon
+          id: starlance-prime
+        - type: stigmata-set
+          id: shakespeare-adrift
+      others: []
+    - name: Basilisk's Image Focused Supply A
+      krName: 과거의 뱀 그림자 집중 보급 A
+      duration:
+        - 2022-09-02
+        - 2022-09-09
+      track: 2
+      verified: false
+      featured:
+        - type: weapon
+          id: basilisk-s-image
+        - type: stigmata-set
+          id: linnaeus
+      others:
+        - type: weapon
+          id: key-of-radiance
+        - type: weapon
+          id: godslayer-surtr
+        - type: weapon
+          id: hekate-s-gloom
+        - type: weapon
+          id: astral-rend-white-dwarf
+        - type: weapon
+          id: starlance-prime
+        - type: weapon
+          id: whisper-of-the-past
+        - type: stigmata-set
+          id: shakespeare-adrift
+        - type: stigmata-set
+          id: dickens
+        - type: stigmata-set
+          id: shattered-swords
+        - type: stigmata-set
+          id: holmes
+    - name: Infinite Ouroboros Battlesuit Expansion Supply
+      krName: 무한·우로보로스 확장 발키리 보급
+      duration:
+        - 2022-09-02
+        - 2022-09-09
+      track: 1
+      verified: false
+      featured:
+        - type: battlesuit
+          id: io
+        - type: battlesuit
+          id: fs
+      others:
+        - type: battlesuit
+          id: bb
+        - type: battlesuit
+          id: va
+        - type: battlesuit
+          id: ns
     - name: Sanguine Gaze Focused Supply B
+      krName: 피의 눈동자 집중 보급 B
       duration:
         - 2022-08-29
         - 2022-09-05
@@ -93,6 +153,7 @@
         - type: stigmata-set
           id: turgenev
     - name: Twins Of Eden Schicksal Arsenal
+      krName: 에덴의 두 별 천명 무기고
       duration:
         - 2022-08-26
         - 2022-09-09
@@ -125,6 +186,7 @@
         - type: stigmata-set
           id: aslaug
     - name: Reverist Calico Event Supply
+      krName: 환몽・꿈꾸는 고양이 발키리 보급
       duration:
         - 2022-08-26
         - 2022-09-09
@@ -141,6 +203,7 @@
         - type: battlesuit-soul
           id: random-a-rank
     - name: Water's Edge Elf Supply
+      krName: 약수 인형 보급
       duration:
         - 2022-08-26
         - 2022-09-09
@@ -151,6 +214,7 @@
           id: we
       others: []
     - name: Falcon Flare 0019 Focused Supply B
+      krName: 은빛날개 0019 집중 보급 B
       duration:
         - 2022-08-22
         - 2022-08-29
@@ -183,6 +247,7 @@
         - type: stigmata-set
           id: columbus
     - name: Obscuring Wing Focused Supply B
+      krName: 영야의 깃털 집중 보급 B
       duration:
         - 2022-08-15
         - 2022-08-22
@@ -195,6 +260,7 @@
           id: aslaug
       others: []
     - name: Daughter Of Corals Outfit Supply
+      krName: 용궁 소녀 코스튬 보급
       duration:
         - 2022-08-19
         - 2022-09-09
@@ -204,7 +270,8 @@
         - type: outfit
           id: io-daughter-of-corals
       others: []
-    - name: Midsummer Collector Outfit 1680 B-Chip
+    - name: Midsummer Collector Outfit (1680 B-Chip)
+      krName: 여름 수집가 코스튬 (1680 패키지 코인)
       duration:
         - 2022-08-11
         - 2022-08-19
@@ -215,6 +282,7 @@
           id: rc-midsummer-collector
       others: []
     - name: Midsummer Collector Outfit 1980 B-Chip
+      krName: 여름 수집가 코스튬 (1980 패키지 코인)
       duration:
         - 2022-08-19
         - 2022-09-02
@@ -225,6 +293,7 @@
           id: rc-midsummer-collector
       others: []
     - name: Sirin Elf Supply
+      krName: 시린 인형 보급
       duration:
         - 2022-08-11
         - 2022-08-26
@@ -234,7 +303,8 @@
         - type: elf
           id: sr
       others: []
-    - name: Elysian Tower Focused Supply A
+    - name: Tower of the Past Focused Supply A
+      krName: 과거의 탑 집중 보급 A
       duration:
         - 2022-08-11
         - 2022-09-02
@@ -253,7 +323,7 @@
         - type: weapon
           id: keys-of-oblivion
         - type: weapon
-          id: astral-rend
+          id: astral-rend-white-dwarf
         - type: weapon
           id: starlance-prime
         - type: weapon
@@ -267,6 +337,7 @@
         - type: stigmata-set
           id: wang-zhenyi
     - name: Helical Contraption Battlesuit Expansion Supply
+      krName: 나선·환상의 상자 확장 보급
       duration:
         - 2022-08-11
         - 2022-09-02
@@ -382,7 +453,7 @@
         - 2022-08-08
         - 2022-08-11
       track: 5
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: nue-of-the-shadow
@@ -394,7 +465,7 @@
         - 2022-08-05
         - 2022-08-11
       track: 4
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: astral-rend-white-dwarf
@@ -402,7 +473,7 @@
           id: ragna
       others:
         - type: weapon
-          id: nue-of-the-shadow
+          id: starlance-prime
         - type: weapon
           id: key-of-castigation
         - type: weapon
@@ -412,9 +483,9 @@
         - type: weapon
           id: nebulous-duality
         - type: weapon
-          id: hler-s-serenity
+          id: obscuring-wing
         - type: stigmata-set
-          id: columbus
+          id: aslaug
         - type: stigmata-set
           id: shakespeare-adrift
         - type: stigmata-set
@@ -426,7 +497,7 @@
         - 2022-08-05
         - 2022-08-11
       track: 3
-      verified: false
+      verified: true
       featured:
         - type: battlesuit
           id: spa
@@ -444,19 +515,39 @@
         - 2022-08-01
         - 2022-08-08
       track: 5
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: cerulean-flare
         - type: stigmata-set
           id: avogadro
-      others: []
+      others:
+        - type: weapon
+          id: ice-epiphyllum
+        - type: weapon
+          id: key-of-reason
+        - type: weapon
+          id: godslayer-surtr
+        - type: weapon
+          id: hekate-s-gloom
+        - type: weapon
+          id: skadi-ondurgud
+        - type: weapon
+          id: hler-s-serenity
+        - type: stigmata-set
+          id: murata-himeko
+        - type: stigmata-set
+          id: jin-shengtan
+        - type: stigmata-set
+          id: gustav-klimt
+        - type: stigmata-set
+          id: sirin-ascendant
     - name: Falcon Flare 0019 Focused Supply A
       duration:
         - 2022-07-29
         - 2022-08-05
       track: 4
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: falcon-flare-0019
@@ -488,7 +579,7 @@
         - 2022-07-29
         - 2022-08-05
       track: 3
-      verified: false
+      verified: true
       featured:
         - type: battlesuit
           id: sw
@@ -501,12 +592,43 @@
           id: sf
         - type: battlesuit
           id: va
+    - name: Summery Tide(Summer Outfits)
+      duration:
+        - 2022-07-29
+        - 2022-08-11
+      track: 9
+      verified: true
+      featured:
+        - type: outfit
+          id: vp-shallow-sunset
+        - type: outfit
+          id: sf-summer-party
+        - type: outfit
+          id: vc-blue-reunion
+        - type: outfit
+          id: miko-summer-sakura
+        - type: outfit
+          id: hov-parasol-kaiserin
+        - type: outfit
+          id: sp-papilio-lily
+        - type: outfit
+          id: vg-purrfect-holiday
+        - type: outfit
+          id: mc-coral-sunrise
+        - type: outfit
+          id: sn-stygian-seafoam
+        - type: outfit
+          id: pi-icy-sea-spray
+        - type: outfit
+          id: bb-wave-galactica
+        - type: outfit
+          id: dp-sea-and-breeze
     - name: Might of An-Utu Schicksal Arsenal
       duration:
         - 2022-07-29
         - 2022-08-11
       track: 7
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: might-of-an-utu
@@ -538,7 +660,7 @@
         - 2022-07-29
         - 2022-08-11
       track: 1
-      verified: false
+      verified: true
       featured:
         - type: battlesuit
           id: sns
