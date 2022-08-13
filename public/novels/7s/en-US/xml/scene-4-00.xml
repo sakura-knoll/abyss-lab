@@ -1,25 +1,25 @@
-<scene id="00" title="楔子" root="true">
+<scene id="00" title="Wedge" root="true">
   <mono pageend="true">
     <p></p>
     <p></p>
     <p></p>
     <p></p>
-    <p>果てしなく広がる暗闇の中で、[\s]死んだ仙人の意識が蘇った。</p>
+    <p>In the endless darkness, [\s]the dead Celestial's consciousness awakened</p>
   </mono>
   <se id="01-01白光转场"></se>
   <delay t="0.15"></delay>
   <transition in="1" stop="0.5" out="1.5" color="#ffffff" mode="fade"></transition>
-  <mono>最初、新たに生まれた意識は世界の誕生と同じように、太虚の中にある一粒の光に過ぎなかった。</mono>
+  <mono>In the beginning, the new consciousness was like the birth of the world, just a spot of light in the universe</mono>
   <se id="01-01恢复意识" looptimes="-1"></se>
   <bg img="BGIntel1" duration="3"></bg>
   <mono>
     <p></p>
-    <p>『その力』は限られている。感官から情報を受け取ることも、神経に指令を出すこともできなかった。</p>
+    <p>『Its』power is still limitedIt can neither receive signals from the senses, nor send them to the nerves</p>
   </mono>
   <bg img="BGIntel3" duration="5"></bg>
   <mono pageend="true">
     <p></p>
-    <p>混沌の中、弱い意識は古の本能に従い、盲目的でありながら揺るぎなく存在し、伸びていく。</p>
+    <p>In that chaos, the weak consciousness followed its ancient instincts. Blindly but firmly it awakens and starts growing</p>
   </mono>
   <delay t="0.2"></delay>
   <mono pageend="true">
@@ -28,8 +28,8 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>意識はまだ自分自身の死に気付いていない。[\s]</p>
-    <p>彼女は自分自身の死を認めようとしない——</p>
+    <p>It has not discovered its own death yet[\s]</p>
+    <p>The girl refuses to acknowledge her own death——</p>
   </mono>
   <se id="01-01恢复意识" looptimes="0"></se>
   <transition in="2" stop="0" out="0" color="#ffffff" mode="dissolve"></transition>
@@ -41,52 +41,52 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>常識で判断すれば、仙人は確かに死んだ。</p>
+    <p>Judging by common sense, the immortal Celestial is indeed dead</p>
   </mono>
   <event action="hide_ui"></event>
   <cg img="CG_第一折_赤鸢碎片1"></cg>
   <delay t="0.5"></delay>
   <event action="show_ui"></event>
-  <mono>右足は斬られ、くるぶしから下はなくなっている。</mono>
+  <mono>Her right leg has been cut off, and it's missing from the ankle below</mono>
   <event action="hide_ui"></event>
   <cg img="CG_第一折_赤鸢碎片2"></cg>
   <delay t="0.5"></delay>
   <event action="show_ui"></event>
-  <mono>両手の脈は潰され、もう使い物にならない。</mono>
+  <mono>Her hands were crippled</mono>
   <event action="hide_ui"></event>
   <cg img="CG_第一折_赤鸢碎片3"></cg>
   <delay t="0.5"></delay>
   <event action="show_ui"></event>
-  <mono>内臓も全部破壊されている。</mono>
+  <mono>All her internal organs were destroyed</mono>
   <event action="hide_ui"></event>
   <cg img="CG_第一折_赤鸢碎片4"></cg>
   <delay t="0.5"></delay>
   <event action="show_ui"></event>
   <mono>
     <p></p>
-    <p>一番重傷を負った胸部は、十数ヶ所も損傷していた。</p>
+    <p>Her chest had taken more than a dozen blows</p>
   </mono>
   <cg duration="0.5"></cg>
   <mono pageend="true">
     <p></p>
-    <p>しかし、最も致命的な傷は頭部にある。</p>
+    <p>However, the deadliest wound was on her head</p>
   </mono>
   <transition in="0.6" stop="0" out="0" color="#8b0000" mode="dissolve"></transition>
   <transition mode="fade" in="0" stop="0.2" out="0.15" color="#8b0000"></transition>
   <se id="01-02大剑命中"></se>
   <motion chara="-4" action="shake" duration="0.1" range="80" direction="horizontal"></motion>
   <bg img="BGBlood1"></bg>
-  <mono>それは剣による傷だ。</mono>
+  <mono>It was wounded by a sword</mono>
   <mono inline="true">
     <p></p>
-    <p>剣が彼女の額に刺さり、</p>
+    <p>The sword struck her forehead,</p>
   </mono>
-  <mono inline="true">彼女の脳を破壊し、</mono>
-  <mono>そのまま頭を貫通した。</mono>
-  <mono>普通の人間ならば、彼女が受けた傷のひとつだけで死に至るだろう。</mono>
+  <mono inline="true"> destroyed her brain,</mono>
+  <mono>and passed through to the back of her head</mono>
+  <mono>If it were for any other person, it would have died with just one of those injuries</mono>
   <mono pageend="true">
     <p></p>
-    <p>しかし「仙人」は普通ではない。</p>
+    <p>But the「Celestial」wasn't ordinary</p>
   </mono>
   <transition mode="eye" in="2" stop="0" out="2" color="#000000"></transition>
   <se id="01-03野外小屋loop" looptimes="-1"></se>
@@ -94,22 +94,22 @@
   <delay t="2.2"></delay>
   <bg></bg>
   <event action="show_ui"></event>
-  <mono pageend="true">仙人は不死で、不滅なり。</mono>
+  <mono pageend="true">The Celestial is an immortal that never died</mono>
   <event action="show_ui"></event>
   <mono>
-    <p>その体は千年経っても死なず、[\s]</p>
-    <p>その魂は万年経っても消滅することはない。[\s]</p>
+    <p>Her body wouldn't die even after thousands of years,[\s]</p>
+    <p>neither would her soul, even after tens of thousands of years[\s]</p>
     <p></p>
-    <p>命の法則を徹底的に覆した、</p>
-    <p>神州唯一無二の仙人。</p>
+    <p>She completely overthrew the laws of nature,</p>
+    <p>she was the one and only Celestial of Shenzhou</p>
   </mono>
   <mono pageend="true">
     <p></p>
     <p></p>
     <p></p>
-    <p>今、静かに石室に横たわる体は、まさにそういう存在であった。</p>
+    <p>This was the very essence of the body that was now lying still in the stone chamber</p>
   </mono>
-  <mono>ゆえに、</mono>
+  <mono>And so,</mono>
   <event action="show_ui"></event>
   <se id="01-03野外小屋loop" looptimes="0"></se>
   <se id="01-04痊愈loop" looptimes="-1"></se>
@@ -117,12 +117,12 @@
   <event action="show_ui"></event>
   <mono pageend="true">
     <p></p>
-    <p>一つ一つの神経細胞から、</p>
-    <p>仙人の脳と肉体は長い修復と再構築を始めた。</p>
+    <p>Starting from each braincell,</p>
+    <p>the Celestial's mind and body began a long period of repair and reconstruction</p>
   </mono>
   <event action="show_ui"></event>
   <delay t="7"></delay>
-  <mono pageend="true">周りの真気を吸収することで、</mono>
+  <mono pageend="true">Drawing on every breath from her surroundings,</mono>
   <event action="hide_ui" duration="2"></event>
   <cg img="CG_第一折_赤鸢沉睡2" duration="2"></cg>
   <delay t="2"></delay>
@@ -130,7 +130,7 @@
   <se id="01-05痊愈"></se>
   <mono>
     <p></p>
-    <p>裂けた皮膚を修復し、</p>
+    <p>patching up the torn skin,</p>
   </mono>
   <event action="hide_ui" duration="2"></event>
   <cg img="CG_第一折_赤鸢沉睡3" duration="2"></cg>
@@ -138,7 +138,7 @@
   <se id="01-06痊愈"></se>
   <mono>
     <p></p>
-    <p>折れた骨を治し、</p>
+    <p>healing the broken bones,</p>
   </mono>
   <event action="hide_ui" duration="2"></event>
   <cg img="CG_第一折_赤鸢沉睡4" duration="2"></cg>
@@ -146,7 +146,7 @@
   <se id="01-07痊愈"></se>
   <mono>
     <p></p>
-    <p>ボロボロになった筋肉を繋ぎ、</p>
+    <p>tying up the crumbling muscles,</p>
   </mono>
   <event action="hide_ui" duration="2"></event>
   <cg img="CG_第一折_赤鸢沉睡5" duration="2"></cg>
@@ -155,7 +155,7 @@
   <se id="01-05痊愈"></se>
   <mono pageend="true">
     <p></p>
-    <p>損傷した器官を再生する……</p>
+    <p>repairing the damaged organs...</p>
   </mono>
   <delay t="2"></delay>
   <transition in="3" stop="0.5" out="0" color="#ffffff" mode="halo"></transition>
@@ -169,36 +169,36 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>やがて、仙人の『意識』が辺りを知覚する。</p>
+    <p>Gradually, the Celestial's 『consciousness』started perceiving its surroundings</p>
   </mono>
   <transition mode="move" in="1" stop="0.5" out="0.5" color="#000000" direction="left" custom="thick"></transition>
   <letterbox action="show_letterbox" height="400" duration="0"></letterbox>
   <se id="01-03野外小屋loop" looptimes="-1"></se>
   <bg img="BGSky00"></bg>
-  <mono>石室の小窓の外で、光と影が織り成す線が、東から西へ、また西から東へと移動する様が見える。</mono>
+  <mono>She saw the line of light and shadow going from east to west and from west to east through the little window of the chamber</mono>
   <letterbox action="show_letterbox" height="300" duration="1"></letterbox>
   <bg img="BGSky01"></bg>
-  <mono>石室の中で、消えない虫たちの死体による腐臭に紛れた、枯れた草木の匂いを嗅ぐ。</mono>
+  <mono>She could smell the odor of the withering plants mixing with rotting insects</mono>
   <letterbox action="show_letterbox" height="200" duration="1"></letterbox>
   <bg img="BGSky02"></bg>
-  <mono>夏が終わり、秋の落葉が地に落ちる音や、雪に包まれた枝の揺れを感じる。</mono>
+  <mono>She heard the sound of falling leaves, welcoming the autumn, and the snow-covered branches swaying</mono>
   <letterbox action="show_letterbox" duration="1" height="100"></letterbox>
   <bg img="BGSky04"></bg>
   <mono pageend="true">
     <p></p>
-    <p>それから、痛み、痺れ、腫れ、痒み……体の様々な部位が悲鳴を上げる。</p>
-    <p>終わりのない苦痛が襲ってくる。</p>
+    <p>Then she felt pain, numbness, swelling, itching... every part of her body was screaming</p>
+    <p>An endless torment took her over</p>
   </mono>
   <se id="01-03野外小屋loop" looptimes="0"></se>
   <letterbox action="hide_letterbox" duration="0"></letterbox>
   <bg img="PureBlack" duration="3"></bg>
   <mono>
     <p></p>
-    <p>……終わりのない修復、終わりのない痛み。</p>
+    <p>...an endless recovery, an endless pain</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>仙人は沈黙したままだ。</p>
+    <p>The Celestial remains silent</p>
   </mono>
   <se id="01-08扰乱心神杂音loop" looptimes="-1"></se>
   <bg img="BGNeuron03" duration="3"></bg>
@@ -207,29 +207,29 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>「       私               誰          ？      」</p>
+    <p>「     Who           am I        ?      」</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>頭の中は混乱したまま。覚えていることもあるが、忘れたことのほうが多い。</p>
+    <p>Her mind is still confused, she remembers some things but forgets more and more</p>
   </mono>
   <mono chara="000" pageend="true">
     <p></p>
     <p></p>
     <p></p>
     <p></p>
-    <p>「       此処               何処          ？      」</p>
+    <p>「     Where           is this        ?      」</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>記憶の中には断片的な言葉しかなく、彼女が求めている答えを繋ぎ合わせることができない。</p>
+    <p>With just fragments in her memory, she can't put together the answer she seeks</p>
   </mono>
   <mono chara="000" pageend="true">
     <p></p>
     <p></p>
     <p></p>
     <p></p>
-    <p>「       ……              何            ？      」</p>
+    <p>「     …          wh-          ?      」</p>
   </mono>
   <bgm id="千年之羽" looptimes="0"></bgm>
   <se id="01-08扰乱心神杂音loop" looptimes="0"></se>
@@ -240,27 +240,27 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>そう思った瞬間、長いこと摩耗してきた感情が突如として胸に湧いた。</p>
+    <p>Suddely, thinking of that made long abandoned emotions swell up in her chest</p>
   </mono>
   <se id="01-09心跳loop" looptimes="-1"></se>
   <event action="hide_ui" duration="0.5"></event>
   <motion action="shake" chara="-4" range="30" direction="default" duration="0.1" delay="0.1"></motion>
   <mono>
     <p></p>
-    <p>七……</p>
+    <p>Seven…</p>
   </mono>
   <delay t="0.2"></delay>
   <event action="show_ui"></event>
   <mono>
     <p></p>
-    <p>彼女と最も親しい七人。</p>
+    <p>The Seven people closest to her</p>
   </mono>
-  <mono>彼女のそばに最も長く居た七本の剣。</mono>
+  <mono>The Seven Swords that stayed by her side for the longest time</mono>
   <motion chara="-4" action="shake" duration="0.1" range="30" direction="default" looptimes="1"></motion>
   <mono pageend="true" inline="true">
     <p></p>
-    <p>七人が共謀し、彼女を嵌めた。[\s]</p>
-    <p>七本の剣が罠を仕掛け、彼女を殺した。</p>
+    <p>Seven people that conspired, lured her to doom[\s]</p>
+    <p>Seven Swords that trapped her and killed her</p>
   </mono>
   <se id="01-09心跳loop" looptimes="0"></se>
   <transition mode="dissolve" in="1" stop="0.5" out="1" color="#000000"></transition>
@@ -271,30 +271,30 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>「       ……              何      故       ？      」</p>
+    <p>「       …              Why        ?      」</p>
   </mono>
   <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
   <bg img="BGNeuron01"></bg>
   <cg img="CG_第一折_赤鸢沉睡end"></cg>
   <mono pageend="true" inline="true">
-    <p>湧き上がる感情が消えることはない。[\s]</p>
-    <p>怒り、[\s]</p>
-    <p>困惑、[\s]</p>
-    <p>憤怨、[\s]</p>
-    <p>腹立ち、[\s]</p>
-    <p>そして悲しみ。</p>
+    <p>Many emotions swelled up endlessly[\s]</p>
+    <p>Anger,[\s]</p>
+    <p>Doubt,[\s]</p>
+    <p>Resentment,[\s]</p>
+    <p>Fury,[\s]</p>
+    <p>and sadness, at the end</p>
   </mono>
   <mono chara="000">
     <p></p>
     <p></p>
-    <p>「……どうして？」</p>
+    <p>「… why?」</p>
   </mono>
   <mono pageend="true">
     <p></p>
     <p></p>
     <p></p>
     <p></p>
-    <p>答えはない、あるのは答えを求める渇望だけ。</p>
+    <p>There's no answer, only the desire to find one</p>
   </mono>
   <event action="hide_ui" duration="3"></event>
   <cg img="CG_第一折_赤鸢苏醒end" duration="3"></cg>
@@ -304,52 +304,52 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>……仙人は待つことにした。</p>
+    <p>… the Celestial decide to wait</p>
   </mono>
   <mono pageend="true">
     <p></p>
     <p></p>
     <p></p>
-    <p>かつての彼女は長い間、この地を守ってきた。時の流れは彼女にとってさほど重要ではない。</p>
+    <p>She has protected this land for countless years. time doesn't matter for her anymore</p>
   </mono>
   <mono pageend="true" inline="true">
     <p></p>
     <p></p>
     <p></p>
-    <p>彼女は待ち続ける、体が完治する日がやってくるまで。[\s]</p>
+    <p>She will keep waiting until her body and mind are fully healed[\s]</p>
     <p></p>
-    <p>そしてあの七人を探し出す、自分を殺した理由を訊ねるため。</p>
+    <p>Then she will find those Seven and ask them why they killed her</p>
   </mono>
   <mono>
     <p></p>
     <p></p>
     <p></p>
-    <p>強い衝動がぼんやりした意識の中で焼印を押し、</p>
+    <p>A strong desire was branded deep into her consciousness,</p>
     <p></p>
-    <p>彼女を促し、鞭撻し、変えていく。</p>
+    <p>urging her, pushing her, changing her</p>
     <p></p>
-    <p>待つことが習慣に、苦痛が自然になるように。</p>
+    <p>The wait becomes a habit and the pain becomes natural</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>それから……</p>
+    <p>And then…</p>
   </mono>
   <transition mode="clock" in="2" stop="0.5" out="0" color="#000000"></transition>
   <transition mode="fade" in="0" stop="0" out="2" color="#000000"></transition>
   <cg></cg>
   <mono>
-    <p>痛い</p>
-    <p>痛い</p>
-    <p>痛い</p>
-    <p>痛い</p>
+    <p>Pain</p>
+    <p>Pain</p>
+    <p>Pain</p>
+    <p>Pain</p>
   </mono>
   <mono>
     <p></p>
-    <p>終わりのない修復、終わりのない痛み。</p>
+    <p>Endless recovery and endless pain</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>仙人は沈黙したままだ。</p>
+    <p>The Celestial remains silent</p>
   </mono>
   <transition in="1" stop="0.1" out="1" color="#000000" mode="dissolve"></transition>
   <bg img="PureBlack"></bg>
@@ -357,9 +357,9 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>彼女は長い間我慢してきた、</p>
+    <p>She has endured for a long time,</p>
   </mono>
-  <mono pageend="true">彼女はまだまだ我慢できる。</mono>
+  <mono pageend="true">she can still endure it</mono>
   <bgm looptimes="0"></bgm>
   <event action="hide_ui"></event>
   <transition in="1" stop="0.5" out="1" color="#000000" mode="fade"></transition>
