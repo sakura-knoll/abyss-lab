@@ -10,12 +10,12 @@
   crt: 0
   set: carlo-collodi
   skill:
-    name: ''
-    krName: ''
+    name: Laughter and Tears
+    krName: 웃다 또 울다
     description: |-
-      Increases Total DMG by 25.0%, Fire DMG of Ranged attacks by 40.0%.
+      Total DMG increases by 25.0%. Fire DMG dealt by ranged attacks increases by 40.0%.
     krDescription: |-
-      모든 대미지 +30.0%, 원거리 공격의 화염 대미지 +40.0%.
+      모든 대미지가 25.0% 증가하고, 원거리 공격이 가하는 화염 원소 대미지가 40.0% 증가합니다.
 - id: carlo-collodi-mid
   version: '5.9'
   name: Carlo Collodi (M)
@@ -28,14 +28,12 @@
   crt: 5
   set: carlo-collodi
   skill:
-    name: ''
-    krName: ''
+    name: Pinocchio Lies
+    krName: 거짓말하면 코가 쭈욱
     description: |-
-      When an summoned entity is created or destroyed, all enemies take 20.0% more Fire DMG from the wielder for 15s(independent effect, can be refreshed).
-      Reduces CD of Ultimate Evasion skill by 20.0%.
+      When an entity summoned is spawned or defeated, all enemies take 20.0% bonus Fire DMG from the host for 15.0s (cannot stack). Triggering it again resets the duration. Ultimate Evasion skill CD is reduced by 20.0%.
     krDescription: |-
-      소환물이 만들어지거나 부서질 때, 착용자로부터 모든 적들이 받는 화염 대미지가 15초간 20.0% 증가(독립 효과, 갱신 가능).
-      극한 회피 스킬의 재사용 대기시간 -20.0%.
+      자신의 소환물이 생성되거나 파괴되면 전장의 모든 적은 해당 캐릭터에게 받는 화염 원소 대미지가 20.0% 증가한다. 지속 시간: 15.0초(해당 효과는 독립적인 추가 효과이며, 중복 발동 시 갱신된다). 극한 회피 스킬의 재사용 대기시간이 20.0% 감소한다.
 - id: carlo-collodi-bot
   version: '5.9'
   name: Carlo Collodi (B)
@@ -48,14 +46,13 @@
   crt: 8
   set: carlo-collodi
   skill:
-    name: ''
-    krName: ''
+    name: Reunion Within the Fish
+    krName: 물고기 배 속에서의 재회
     description: |-
-      Increases Fire DMG by 60.0%.
-      After entering Burst mode, restores 2 SP and 20 HP per second for 5s(can be refreshed).
+      Fire DMG increases by 60.0%.
+      Restore 2.0 SP and 20 HP per sec for 5s after entering burst mode. Triggering it again resets the duration.
     krDescription: |-
-      화염 대미지 +60.0%.
-      폭발 상태 진입 후, 매초 2 SP와 20 HP를 5초간 회복한다(갱신 가능).
+      화염 원소 대미지가 60.0% 증가한다. 폭발 상태 진입 후, 매초 SP를 2.0pt, HP를 20 회복한다. 지속 시간: 5초, 중복 발동 시 지속 시간을 갱신한다.
 - id: cezanne-top
   version: '5.8'
   name: Cezanne (T)

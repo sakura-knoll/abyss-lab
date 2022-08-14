@@ -25,9 +25,6 @@ const RootNavigator = () => {
       <Flex
         sx={{ height: 40, alignItems: 'center', display: ['none', 'flex'] }}
       >
-        <NextLink href='/genshin' passHref>
-          <NavLink mr={3}>Genshin</NavLink>
-        </NextLink>
         <NextLink href='/honkai3rd' passHref>
           <NavLink mr={3}>Honkai 3rd</NavLink>
         </NextLink>

@@ -4,7 +4,7 @@
   krName: '나선의 연회'
   duration:
     - 2022-08-11
-    - 2022-09-22
+    - 2022-09-15
   newBattlesuits:
     - vill-v
   newWeapons:
@@ -34,6 +34,12 @@
       - label: type (hit count)
         krLabel: 상성 (타수)
         boss: husk2
+    - - label: blood
+        krLabel: 전쟁광
+        boss: homu
+      - label: lightning
+        krLabel: 뇌전
+        boss: bke
   ma:
     - - label: sss
         boss: qksm
@@ -53,12 +59,83 @@
         boss: wolf-sss
       - label: ss
         boss: ksm
+    - - label: sss
+        boss: bke-sss
+      - label: sss
+        boss: pvt-sss
+      - label: ss
+        boss: dd
   supplyEvents:
+    - name: Dark Star Focused Supply B
+      krName: 검은 별 집중 보급 B
+      duration:
+        - 2022-09-09
+        - 2022-09-15
+      track: 3
+      verified: false
+      featured:
+        - type: weapon
+          id: dark-star
+        - type: stigmata-set
+          id: holmes
+      others: []
+    - name: Whisper of the Past Focused Supply A
+      krName: 과거의 꽃잎 집중 보급 A
+      duration:
+        - 2022-09-09
+        - 2022-09-15
+      track: 2
+      verified: false
+      featured:
+        - type: weapon
+          id: whisper-of-the-past
+        - type: stigmata-set
+          id: elysia
+      others:
+        - type: weapon
+          id: key-of-castigation
+        - type: weapon
+          id: eye-of-the-collapse
+        - type: weapon
+          id: dark-star
+        - type: weapon
+          id: basilisk-s-image
+        - type: weapon
+          id: sanguine-gaze
+        - type: weapon
+          id: hler-s-serenity
+        - type: stigmata-set
+          id: holmes
+        - type: stigmata-set
+          id: columbus
+        - type: stigmata-set
+          id: aslaug
+        - type: stigmata-set
+          id: ragna
+    - name: Miss Pink Elf♪ Battlesuit Expansion Supply
+      krName: 핑크 엘프양♪ 확장 발키리 보급
+      duration:
+        - 2022-09-09
+        - 2022-09-15
+      track: 1
+      verified: false
+      featured:
+        - type: battlesuit
+          id: mpe
+        - type: battlesuit
+          id: sp
+      others:
+        - type: battlesuit
+          id: lk
+        - type: battlesuit
+          id: vr
+        - type: battlesuit
+          id: ur
     - name: Starlance Prime Focused Supply B
       krName: 스타 랜스 주계열성 집중 보급 B
       duration:
-        - 2022-09-05
-        - 2022-09-12
+        - 2022-09-02
+        - 2022-09-09
       track: 3
       verified: false
       featured:
@@ -122,8 +199,8 @@
     - name: Sanguine Gaze Focused Supply B
       krName: 피의 눈동자 집중 보급 B
       duration:
-        - 2022-08-29
-        - 2022-09-05
+        - 2022-08-26
+        - 2022-09-02
       track: 3
       verified: false
       featured:
@@ -216,8 +293,8 @@
     - name: Falcon Flare 0019 Focused Supply B
       krName: 은빛날개 0019 집중 보급 B
       duration:
-        - 2022-08-22
-        - 2022-08-29
+        - 2022-08-19
+        - 2022-08-26
       track: 3
       verified: false
       featured:
@@ -249,16 +326,36 @@
     - name: Obscuring Wing Focused Supply B
       krName: 영야의 깃털 집중 보급 B
       duration:
-        - 2022-08-15
-        - 2022-08-22
+        - 2022-08-11
+        - 2022-08-19
       track: 3
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: obscuring-wing
         - type: stigmata-set
           id: aslaug
-      others: []
+      others:
+        - type: weapon
+          id: key-of-castigation
+        - type: weapon
+          id: key-of-reason
+        - type: weapon
+          id: godslayer-surtr
+        - type: weapon
+          id: hekate-s-gloom
+        - type: weapon
+          id: nebulous-duality
+        - type: weapon
+          id: hler-s-serenity
+        - type: stigmata-set
+          id: linnaeus
+        - type: stigmata-set
+          id: irene-adler
+        - type: stigmata-set
+          id: kafka
+        - type: stigmata-set
+          id: ana-schariac
     - name: Daughter Of Corals Outfit Supply
       krName: 용궁 소녀 코스튬 보급
       duration:
@@ -298,7 +395,7 @@
         - 2022-08-11
         - 2022-08-26
       track: 4
-      verified: false
+      verified: true
       featured:
         - type: elf
           id: sr
@@ -309,7 +406,7 @@
         - 2022-08-11
         - 2022-09-02
       track: 2
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: vill-v-weapon
@@ -342,7 +439,7 @@
         - 2022-08-11
         - 2022-09-02
       track: 1
-      verified: false
+      verified: true
       featured:
         - type: battlesuit
           id: vill-v

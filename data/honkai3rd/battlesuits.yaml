@@ -18,218 +18,203 @@
       type: recommended
   leader:
     core:
-      name: |-
-        Helix, Foolish Play Won't last forever
-      krName: '나선, 어릿광대는 영원하지 않아'
+      name: The Helix, Farcical
+      krName: 나선, 변화무쌍한 속임수
       description: |-
-        Increses Team Total DMG by 20.0%, Team Fire DMG by 20.0%.
-        If there are other valk with fire dmg tag, increases Fire DMG by 5% additionally.
+        Leader Bonus:
+        Leader Skill: Increases team's Total DMG by 20.0%. Increases team's Fire DMG by 20.0%.
+        Increases Fire DMG by an additional 5% for every other Fire DMG Valkyrie in the team.
       krDescription: |-
-        팀의 모든 대미지 +20.0%, 팀의 화염 대미지 +20.0%.
-        만약 화염 피해 속성을 가진 다른 발키리가 파티에 있으면, 추가로 화염 대미지 +5%.
+        리더로 배치 시 파티원이 버프를 받는다.
+        리더 스킬: 파티원의 모든 대미지가 20.0% 증가하고, 파티원의 화염 원소 대미지가 20.0% 증가한다.
+        파티원 중 다른 화염 원소 특성의 발키리가 1명 있을 때마다 화염 원소 대미지가 추가로 5% 증가한다.
     subskills:
       - name: |-
-          Helix, Foolish Play Won't last forever
-        krName: '나선, 어릿광대는 영원하지 않아'
+          The Helix, Farcical
+        krName: 나선, 변화무쌍한 속임수
         description: |-
-          Increses Team Total DMG by 20.0%, Team Fire DMG by 20.0%.
-          If there are other valk with fire dmg tag, increases Fire DMG by 5% additionally.
+          Leader Skill: Increases team's Total DMG by 20.0%. Increases team's Fire DMG by 20.0%.
+          Increases Fire DMG by an additional 5% for every other Fire DMG Valkyrie in the team.
         krDescription: |-
-          팀의 모든 대미지 +20.0%, 팀의 화염 대미지 +20.0%.
-          만약 화염 피해 속성을 가진 다른 발키리가 파티에 있으면, 추가로 화염 대미지 +5%.
+          파티원의 모든 대미지가 20.0% 증가하고, 파티원의 화염 원소 대미지가 20.0% 증가한다.
+          파티원 중 다른 화염 원소 특성의 발키리가 1명 있을 때마다 화염 원소 대미지가 추가로 5% 증가한다.
   passive:
     core:
-      name: 'Overturned Rules'
-      krName: '뒤집어진 규칙들'
+      name: Overturning Assemblage
+      krName: 규칙을 뒤엎는 군중
       description: |-
-        Vill-V can obtain [Armed Heat Value] by attacking(max at 200). When fully charged, enters [At this moment, the climax is approaching] state.
-        After stopping attacks more than 2 seconds, [Armed Heat Value] is reduced by 30 per second.
+        Passive bonuses apply automatically.
+        In Weapon Mode, Helical Contraption can gain up to 200 Weapon Heat Value through attacking. When fully charged, she enters Climax Approaching state. Lose 30 Weapon Heat Value per sec after 2 s of ceasing attack.
 
-        When the character enters the field, summons [Heavy Canon - Marvelous] and [Gatling Gun - Applause]. When the character leaves, destroy all [Noisy Armaments] to deal 150% ATK of Fire DMG against surrounding enemies.
+        Automatically summons Revolving Gatling: Applause and Heavy Cannon: Exclamation when entering the field. Destroys all Loud Armaments when character exits the field, dealing 150% ATK of Fire DMG to nearby enemies.
 
-        In [Armed Mode], Vill-V cannot use weapon active skill. Press weapon skill to switch between [Heavy Canon - Marvelous] and [Gatling Gun - Applause] and to trigger Ultimate Evasion skill.
-
-        Switching can be stored up to 2 times, recharged every 4s. Recharge timer will be reset after exiting [Armed Mode].
+        Unable to unleash weapon skill in Weapon Mode. Tap [Weapon] to switch between Revolving Gatling: Applause and Heavy Cannon: Exclamation, enter Weapon Mode, and trigger Ultimate Evasion skill.
+        Store up to 2 switch attempts. Recharges 1 attempt every 4s. Exiting Weapon Mode will reset the recharging.
       krDescription: |-
-        빌브이는 공격을 하면 [무장 에너지]를 획득한다(최대 200). 무장 에너지가 가득차면, [지금, 클라이막스가 다가온다] 상태에 들어간다.
-        공격을 2초이상 멈추면, [무장 에너지]는 매초 30만큼 감소한다.
+        패시브 스킬은 자동으로 발동한다.
+        [무장 형태] 나선·환상의 상자는 공격을 통해 [무장 게이지]를 최대 200pt 획득할 수 있고, 가득 차면 [최고조] 상태에 진입한다. 공격 중단 2초 후 [무장 게이지]가 매초 30pt 감소한다.
 
-        캐릭터가 전장에 진입 시, [중포 - 경탄]과 [개틀링 건 - 박수갈채]를 소환한다. 캐릭터가 전장에서 벗어나면, 모든 [시끄러운 무장]을 부수고 근처의 적에게 공격력 150%의 화염 대미지를 가한다.
+        캐릭터 입장 시 자동으로 [회전 기관포·명장]과 [대포·경탄]을 소환하고, 퇴장 시 [소란 병장]을 파괴해 주변 적에게 공격력 150%의 화염 원소 대미지를 가한다.
 
-        [무장 형태]에서, 빌브이는 무기 액티브 스킬을 사용할 수 없다. 무기 액티브 스킬을 쓰면 [중포 - 경탄]와 [개틀링 건 - 박수갈채]을 번갈아가며 교체하며 극한 회피 스킬을 발동시킨다.
-
-        무장 교체는 최대 2번까지 충전 가능하고, 4초마다 하나씩 재충전된다. 재충전 타이머는 [무장 형태]를 벗어나면 초기화된다.
+        [무장 형태]는 무기 액티브 스킬을 발동할 수 없다. 무기 버튼을 눌러 [회전 기관포·명장]과 [대포·경탄] 간에 전환을 진행하면, [무장 형태]에 진입해 극한 회피 스킬을 발동할 수 있다. 전환은 최대 2회 저장되며, 4초마다 1회 충전된다. [무장 형태] 해제 시 충전 횟수를 리셋한다.
     subskills:
-      - name: 'Passive Subskill 1'
-        krName: 'Passive Subskill 1'
+      - name: Nomine, Quintessential Collection
+        krName: 이 이름으로 진미를
         description: |-
-          During [At this moment, the climax is approaching] state, restores 2 SP and 30.0 HP per second.
-          During [Armed Mode], increases Total DMG of Charged ATK by 45.0%.
+          Restore 2.0 SP and 30.0 HP per sec in Climax Approaching state. Charged ATKs deal 45.0% more Total DMG in Weapon Mode.
         krDescription: |-
-          [지금, 클라이막스가 다가온다] 지속 중, 매초 2 SP와 30 HP를 회복한다.
-          [무장 형태] 지속 중, 차지 공격의 모든 대미지 +45.0%.
-      - name: 'Passive Subskill 2'
-        krName: 'Passive Subskill 2'
+          [최고조] 상태일 때 매초 추가로 SP를 2.0pt, HP를 30.0 회복하고, [무장 형태]에서 차지 공격이 가하는 모든 대미지가 45.0% 증가한다.
+      - name: Nomine, Entangled Cobwebs
+        krName: 이 이름으로 속박을
         description: |-
-          During [Armed Mode] or Burst mode, all enemies on the field takes 20.0% more Fire DMG by Vill-V for 20s(independent bonus, can be refreshed).
+          When entering Weapon Mode or burst mode, Helical Contraption deals 20.0% more Fire DMG to all enemies for 20s (independent effect). Triggering it again resets the duration.
         krDescription: |-
-          [지금, 클라이막스가 다가온다] 지속 중, 매초 2 SP와 30 HP를 회복한다.
-          [무장 형태] 혹은 폭발 상태 지속 중, 필드위의 모든 적이 빌브이에게 받는 화염 피해 +20.0%(독립 효과, 갱신 가능).
-      - name: 'Passive Subskill 3'
-        krName: 'Passive Subskill 3'
+          [무장 형태] 또는 폭발 상태 진입 시, 전장의 모든 적이 나선·환상의 상자에게 받는 화염 원소 대미지가 20.0% 증가한다(해당 효과는 독립적인 추가 효과로 간주한다). 지속 시간: 20초, 중복 발동 시 지속 시간을 갱신한다.
+      - name: Nomine, Contemptuos Sneer
+        krName: 이 이름으로 극악의 웃음을
         description: |-
-          During Burst mode, gets 70.0% Total DMG reduction, increases Fire DMG by 20.0%.
-          Within 5 seconds after Burst mode ends, entering [Armed Mode] restores 150.0 points of [Armed Heat Value] immediately.
+          Gain 70.0% Total DMG Reduction and deal 20.0% more Fire DMG in burst mode. Enter Weapon Mode within 5s of exiting burst mode to immediately regain 150.0 Weapon Heat Value.
         krDescription: |-
-          폭발 상태 지속 중, 받는 모든 피해 -70.0%, 가하는 화염 대미지 +20.0%.
-          폭발 종료후 5초 이내에 [무장 형태] 진입 시, 즉시 [무장 에너지]를 150.0만큼 얻는다.
+          폭발 상태에서 받는 모든 대미지가 70.0% 감소하고, 공격이 가하는 화염 원소 대미지가 20.0% 증가한다. 폭발 상태 해제 후 5초 이내 [무장 형태] 진입 시, [무장 게이지]를 150.0pt 즉시 회복한다.
   evasion:
     core:
-      name: 'Overlooking Fate of Stars'
-      krName: '별들의 운명을 내려다보며'
+      name: Divining the Stars
+      krName: 별들의 운명
       description: |-
-        Quickly dodge enemy attacks. Can be performed twice in a row.
-        During [Armed Mode], uses a shield to block attacks.
-        Ultimate Evasion Skill: Inflict global Time Fracture for 3s, and summons [Mortar - Silence] which automatically attacks and lasts for 8s.
-        Each Mortar shell deals 150% ATK of Fire DMG and makes a Burning ground which lasts for 2s and deals 100% ATK of Fire DMG per second to enemies within the range.
-        CD: 14s
+        Evade quickly up to 2 times.
+        Activate shield in Weapon Mode to negate attacks.
+        Ultimate Evasion skill: Trigger Global Time Fracture for 3s, summon Mortar Cannon: Silenced to automatically attack continuously for 8s. Each shot deals 150% ATK of Fire DMG and forms a Burn Zone that lasts 2s. Enemies in the zone take 100% ATK of Fire DMG per sec.
+        CD: 14s.
 
-        [Armed Mode]
-        Tap Evasion button to deploy a shield which lasts for 1.5s.
-        If Vill-V is attacked while the shield is deployed, the attack is nullified and Vill-V deals 100% ATK of Fire DMG to the attacker and trigger Ultimate Evasion Skill.
-        If the attack is a quantum attack, inflict a quantum collapse to the attacker.
+        Weapon Mode
+        Tap [EVA] to activate a shield for 1.5s. When the shield is attacked enemy attacks are negated and deal 100% ATK of Fire DMG to enemies and triggers Ultimate Evasion skill. If the attack received is a QUA-type attack, it causes QUA Monsters to enter Collapsed state once.
       krDescription: |-
-        빠르게 적의 공격을 회피한다. 2회 연속 회피할 수 있다.
-        [무장 형태]에서는 방패를 사용해 적의 공격을 막는다.
-        극한 회피 스킬: 전역 시공 단열을 3초간 발동시키며 8초간 적에게 자동으로 공격하는 [박격포 - 침묵]을 소환한다.
-        각각의 박격포탄은 공격력 150%의 화염 대미지를 가하며, 2초간 지면을 불타오르게 해 매초 공격력 100%의 화염 원소 대미지를 범위 내의 적에게 가한다.
+        빠르게 공격을 회피한다. 2회 연속 회피할 수 있다.
+        [무장 형태]에서 실드를 발동해 공격을 막는다.
+        극한 회피 스킬: 전체 시공 단열을 3초간 발동하고, [박격포·침묵]을 소환해 8초간 자동 공격한다. 포탄마다 공격력 150%의 화염 원소 대미지를 가하고, 2초간 화염 지대를 생성해 범위 내 적에게 매초 공격력 100%의 화염 원소 대미지를 가한다. 재사용 대기시간: 14초
 
         [무장 형태]
-        회피 버튼을 눌러 1.5초간 방패를 전개한다.
-        방패가 전개 중 빌브이가 공격받으면, 해당 공격을 무효화시키고 공격자에게 공격력 100%의 화염 대미지를 가하며 극한 회피 스킬을 발동시킨다.
-        만약 해당 공격이 양자 공격일 경우, 양자 붕괴를 발동시킨다.
+        회피 버튼을 누르면 1.5초간 실드를 발동한다.
+        실드 발동 기간 피격 시 적의 공격을 무효화하고 공격력 100%의 화염 원소 대미지를 가하며, 동시에 극한 회피 스킬을 발동한다. 해당 공격이 양자 공격인 경우, 양자 속성의 적에게 양자 붕괴를 1회 가한다.
     subskills:
-      - name: 'Evasion Subskill 1'
-        krName: 'Evasion Subskill 1'
+      - name: Ether Memories
+        krName: 에테르 메모리
         description: |-
-          Reduces CD of Ultimate Evasion Skill by 5.0s.
-          During Burst mode, Ultimate Evasion Skill restores 400.0 HP(CD: 2).
+          Reduces Ultimate Evasion skill CD by 5.0s.
+          Regains 400.0 HP when Ultimate Evasion is triggered in burst mode. CD: 2s.
         krDescription: |-
-          극한 회피스킬의 재사용 대기시간을 5초 감소시킨다.
-          폭발 상태에서, 극한 회피 스킬은 HP를 400만큼 회복시킨다(재사용 대기시간: 2초).
-      - name: 'Evasion Subskill 2'
-        krName: 'Evasion Subskill 2'
+          극한 회피 스킬 재사용 대기 시간이 5초 감소한다.
+          폭발 상태에서 극한 회피 성공 시, HP를 400.0 회복한다. 재사용 대기시간: 2초
+      - name: Constellations With Origins
+        krName: 존재 기원의 별자리
         description: |-
-          When exiting Burst mode, resets CD of Ultimate Evasion Skill, and increases Total DMG during [Armed Form] by 40.0% for 15s(can be refreshed).
+          Resets Ultimate Evasion skill CD when exiting burst mode and deals 40.0% more Total DMG with Charged ATKs in Weapon Mode for 15s. Triggering it again resets the duration.
         krDescription: |-
-          폭발 상태에서 벗어날 때, 극한 회피 스킬의 재사용 대기시간을 초기화하고, [무장 형태]의 모든 대미지를 15초간 40.0%만큼 증가시킨다(갱신 가능).
+          폭발 상태 해제 시, 극한 회피 스킬 재사용 대기시간이 갱신되고, [무장 형태]에서 차지 공격이 가하는 모든 대미지가 40.0% 증가한다. 지속 시간: 15초, 중복 발동 시 지속 시간을 갱신한다.
   special:
     core:
-      name: 'Charged ATK-Hall of Theater'
-      krName: '차지 공격-연극 회관'
+      name: 'Charged: Cutting Room Floor'
+      krName: 차지-막을 가르는 홀
       description: |-
-        Control [Noisy Armaments] to fight
-        [Armed Form]
-        [Gatling Gun - Applause]: Hold ATK to shoot continuously at the target enemy, each bullet deals 30% ATK of Fire DMG and restores 2 points of [Armed Heat Value]. During [At this moment, the climax is approaching], each bullet deals 48% ATK of Fire DMG.
-        [Heavy Canon - Marvelous]: Tap ATK to launch powerful cannonballs. Each cannon ball deals 450% ATK of Fire DMG and restores 30 points of [Armed Heat Value]. During [At this moment, the climax is approaching], each cannonball deals 720% ATK of Fire DMG.
-
-        Press Ult exits [Armed Form].
-
-        In [Armed Form], total DMG receving is reduced by 60%.
+        Control Loud Armaments in battle.
+        Weapon Mode
+        [Revolving Gatling: Applause]: Hold [ATK] to continuously shoot at the target. Every ammo deals 30% ATK of Fire DMG and recovers 2 Weapon Heat Value. In Climax Approaching state, each ammo deals 48% ATK of Fire DMG and recovers 30 Weapon Heat Value. In Climax Approaching state, each cannonball deals 720% ATK of Fire DMG.
+        Tap [ULT] to exit Weapon Mode.
+        In Weapon Mode, character receives 60% less Total DMG.
       krDescription: |-
-        [시끄러운 무장]을 조작하여 싸운다.
+        [소란 병장]을 조종해 싸운다.
         [무장 형태]
-        [개틀링 건 - 박수갈채]: 공격 버튼을 길게 눌러 적에게 사격한다. 각각의 총알은 공격력 30%의 화염 대미지를 가하고, [무장 에너지]를 2만큼 회복시킨다. [지금, 클라이막스가 다가온다], 지속 중 각 총알은 공격력 48%의 화염 원소 대미지를 가한다.
-        [중포 - 경탄]: 공격 버튼을 눌러 강력한 대포를 쏜다. 각각의 포탄은 공격력 450%의 화염 대미지를 가하고, [무장 에너지]를 30만큼 회복시킨다. [지금, 클라이막스가 다가온다], 지속 중 각 포탄은 공격력 720%의 화염 원소 대미지를 가한다.
-
-        필살기 버튼을 누르면 [무장 형태]에서 벗어난다.
-
-        [무장 형태] 상태에서 받는 대미지가 60% 감소한다.
+        [회전 기관포·명장]: 공격 버튼을 길게 눌러 목표 적을 지속적으로 사격한다. 탄알마다 공격력 30%의 화염 원소 대미지를 가하고, [무장 게이지]를 2pt 회복한다. [최고조] 상태 시, 탄알마다 공격력 48%의 화염 원소 대미지를 가한다.
+        [대포·경탄]: 공격 버튼을 길게 눌러 강력 포탄을 발사한다. 포탄마다 공격력 450%의 화염 원소 대미지를 가하고, [무장 게이지]를 30pt 회복한다. [최고조] 상태 시, 포탄마다 공격력 720%의 화염 원소 대미지를 가한다.
+        필살기 버튼을 누르면 [무장 형태]가 해제된다.
+        [무장 형태]에서 캐릭터가 받는 모든 대미지가 60% 감소한다.
     subskills:
-      - name: 'Charged ATK Subskill 1'
-        krName: 'Charged ATK Subskill 1'
+      - name: Deepest Hurdles
+        krName: 심연이라는 이름의 허들
         description: |-
-          When entering [Armed Mode], restores 50.0 points of [Armed Heat Value].
+          Regain 50.0 Weapon Heat Value immediately upon entering Weapon Mode.
         krDescription: |-
-          [무장 형태] 진입시, [무장 에너지] 50만큼 회복한다.
-      - name: 'Charged ATK Subskill 2'
-        krName: 'Charged ATK Subskill 2'
+          [무장 형태] 진입시, [무장 에너지]를 50.0pt 즉시 회복한다.
+      - name: Ark to Empyrea
+        krName: 먼 하늘로 향하는 방주
         description: |-
-          During [Armed Mode], increases Total DMG of Charged ATK by 15.0%, restores 15 SP(CD: 10s).
+          Total DMG dealt by Charged ATKs in Weapon Mode increases by 15.0% and recovers additional 15.0 SP. SP recovery CD: 10s.
         krDescription: |-
-          [무장 형태] 지속 중, 차지 공격이 가하는 모든 대미지 +15.0%, SP를 15만큼 회복(재사용 대기시간: 10초).
+          [무장 형태]에서 차지 공격이 가하는 모든 대미지가 15.0% 증가하고, 추가로 SP를 15.0pt 회복한다. SP 회복 재사용 대기시간: 10초
         requiredRank: ss
       - name: 'Charged ATK Subskill 3'
-        krName: 'Charged ATK Subskill 3'
+        krName: 영웅이 돌아오는 저택
         description: |-
-          During [Armed Mode], increases Fire DMG by 40.0%, against quantum enemies, increases Fire DMG by 20.0% additionally.
+          Deal 40.0% more Fire DMG in Weapon Mode. Deal additional 20.0% more Fire DMG to QUA Monsters.
         krDescription: |-
-          [무장 형태] 지속 중, 화염 대미지 +40.0%, 양자 속성의 적에게 추가로 화염 대미지 +20.0%.
+          [무장 형태]에서 가하는 화염 원소 대미지가 40.0% 증가하고, 양자 적에게 가하는 화염 원소 대미지가 추가로 20.0% 증가한다.
   ultimate:
     core:
-      name: 'End of Silence'
+      name: Silent Finale
       krName: '침묵의 끝'
       description: |-
-        Build and ride [Special Armament: Model 9]!
-        When SP is above 50, hold ULT to unleash the ultimate: Helical Contraption recycles all [Noisy Armaments] on the field and build into a chariot, [Special Armament: Model 9], to enter Burst mode, to deal 500% ATK of Fire DMG to all enemies on the field and to cause a quantum collapse.
+        Ultimate: Helical Contraption withdraws all Loud Armaments on field to build Special Weapon: No.9 and enter burst mode, dealing 500% ATK of Fire DMG to all enemies and causing QUA Monsters to enter Collapsed state once.
+        Tap or hold [ATK] to deal 550% ATK of Fire DMG with each attack.
+        When Chariot Heat Value is full, hold [ATK] to automatically unleash Interlude Salute to deal 1000% ATK of Fire DMG and trigger Ultimate Evasion skill.
+        Hole [EVA] to ride the chariot, dealing 8 x 100% ATK of Fire DMG per sec to enemies ahead.
 
-        In Burst mode, recover 28 points of [Vehicle Heat Value] per second. Hold ATK button to deal 550% ATK of Fire DMG for each cycle.
-        When [Vehicle Heat Value] is full, Hold ATK button to unleash [Interlude Greeting] which deals 1000% ATK of Fire DMG and triggers Ultimate Evasion skill.
-        Hold Evasion button to attack enemies in front of her to deal 8 x 100% ATK of Fire DMG in total.
-        Press Ult to execute [Self-Destruct] which crashes the tank into enemies to deal 900% + N x 70% ATK of Fire DMG(N is the duration of Burst mode in seconds) and to exit Burst mode. During the skill effects, all timer stops.
-        Burst mode consumes 5 SP per second. After 5 seconds, it consumes additionally 10 SP per second(Max duration: 16s). When SP is depleted or the duration expires, [Self-Destruct] is automatically triggered.
-
-        CD: 12s, SP Cost: 30
+        Tap [ULT] to self-destruct, driving the chariot into enemies and dealing 900% + N x 70% ATK of Fire DMG (N = duration of burst mode in seconds) before exiting burst mode. In this duration, skill effects on enemies and characters and stage countdown will stall.
+        Lose 5 SP per sec in burst mode, losing an additional 10 SP per sec after 5s. Max duration: 16s. AUtomatically self-destructs when SP runs out or max duration is reached.
+        Exits burst mode when character leaves the field. CD: 12s. SP cost: 30.
       krDescription: |-
-        [특수 무장: 9호]를 조립해 탑승합니다!
-        SP가 50 이상일 때, 필살기를 길게 눌러 발동한다: 빌브이는 모든 [시끄러운 무장]들을 재활용해 전차, [특수 무장: 9호]를 만들고, 폭발모드에 진입하며, 전장의 모든 적에게 500%의 화염 원소 피해를 가하고, 양자 붕괴를 일으킨다.
+        [특수·무장 9호]를 조종해 전장을 누빈다.
+        SP가 50 이상일 때, 필살기 버튼을 길게 누르면 필살기를 발동한다: 나선·환상의 상자가 전장의 모든 [소란 병장]을 회수한 후, 전차 [특수·무장 9호]로 재조립해 폭발 상태에 진입하고, 전장의 모든 적에게 공격력 500%의 화염 원소 대미지를 가한다. 양자 속성인 적에게 양자 붕괴를 1회 가한다.
+        폭발 상태에서 매초 [전차 게이지]를 28pt 회복한다(최대 200pt).
+        공격 버튼을 길게 누르거나 터치하면 공격하며, 공격마다 총 공격력 550%의 화염 원소 대미지를 가한다.
+        [전차 게이지]가 가득 찼을 때 공격 버튼을 길게 누르면 [막간 인사]를 발동해 공격력 1000%의 화염 원소 대미지를 가하고, 극한 회피 스킬을 발동한다.
+        회피 버튼을 길게 누르면 전차를 조종해 전방의 적에게 매초 공격력 8 x 100%의 화염 원소 대미지를 가한다.
 
-        폭발 상태에서 [전차 에너지]를 매초 28 회복하며, 공격 버튼을 길게 눌러 한 사이클마다 공격력 550%의 화염 대미지를 가한다.
-        [전차 열에너지가] 가득 차면, 공격 버튼을 길게 눌러 [막간의 인사]를 발동해 총합 공격력 1000%의 화염 대미지를 가하고, 극한 회피 스킬을 발동시킨다.
-        회피 스킬을 길게 누르면 매초마다 전방의 적에게 공격을 가해 총합 공격력 8 x 100%의 화염 대미지를 준다.
-        필살기를 누르면 [자폭]을 발동해 전차를 적에게 돌진시켜 공격력의 900% + N x 70%의 화염 원소 대미지를 가한다(N은 폭발 모드의 초단위 지속 시간). 필살기 효과 시간 동안, 모든 타이머가 정지한다.
-        폭발 모드는 매초마다 SP를 5 소모한다. 5초 후, 추가로 매초 SP를 10만큼 더 소모한다(최대 지속 시간: 16초). SP가 고갈되거나 지속시간이 만료되면, 자동으로 [자폭]을 발동시킨다.
+        필살기 버튼을 누르면 자폭을 발동한다. 전차로 적에게 돌진해 공격력 900% + N x 70%의 화염 원소 대미지를 가하고(N: 폭발 상태의 지속 시간, 단위: 초), 폭발 상태가 해제된다. 이 기간 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다.
+        폭발 상태에서 매초 SP가 5pt 감소하고, 5초 후 매초 추가로 SP가 10pt 감소한다. 최대 지속 시간: 16초. SP가 소진되거나 지속 시간이 끝나면 강제로 자폭을 발동한다.
+        캐릭터 퇴장 시 폭발 상태가 해제된다. 재사용 대기시간: 12초, SP 소모: 30.
     subskills:
-      - name: 'Prologue [Fiction Replacing Reality]'
-        krName: '서막 [현실을 대체하는 허구]'
+      - name: 'Prologue: Illusory Reality'
+        krName: 서막 [거짓을 진실로]
         description: |-
-          During Burst mode, increases Fire DMG by 45.0%, against collapsed enemies increases Fire DMG by 20.0%.
+          Increases Fire DMG dealt in burst mode by 45.0%. Increases Fire DMG dealt to Collapsed QUA Monsters by 20.0%.
         krDescription: |-
-          폭발 중, 화염 대미지 +45.0%, 양자 붕괴 상태의 적에게 화염 대미지 +20.0%.
-      - name: 'Interlude [Born From Nothing]'
-        krName: '막간 [무에서 태어나다]'
+          폭발 상태에서 가하는 화염 원소 대미지가 45.0% 증가하고, 붕괴 상태의 양자 적에게 가하는 화염 원소 대미지가 20.0% 증가한다.
+      - name: 'Interlude: Fabrication'
+        krName: 막간 [무에서 유]
         description: |-
-          Increases Total DMG of [Interlude Greeting] by 50.0%.
-          After entering Burst mode, each round of attacks deals additional 300.0% ATK of Fire DMG for 5s.
+          Increases Total DMG dealt by Interlude Salute by 50.0%. Deal an additional 300.0% ATK of Fire DMG after 5s from entering burst mode.
         krDescription: |-
-          [막간의 인사]가 가하는 모든 대미지 +50.0%.
-          폭발 상태 진입 후 5초간, 각각의 공격 사이클은 추가로 공격력 300.0%의 화염 대미지를 가한다.
-      - name: 'Finale [Unmatched]'
-        krName: '피날레 [미증유]'
+          [막간 인사]가 가하는 모든 대미지가 50.0% 증가하고, 폭발 상태 진입 5초 후 공격마다 추가로 공격력 300.0%의 화염 원소 대미지를 가한다.
+      - name: 'Finale: Unprecedented'
+        krName: 종막 [전무후무]
         description: |-
-          When [Interlude Greeting] hits an enemy, increases Fire DMG by 20.0% for 15s(can be refreshed).
+          When Interlude Salute hits enemies, Helical Contraption deals 20.0% more Fire DMG for 15s. Triggering it again resets the duration.
         krDescription: |-
-          [막간의 인사]가 적에게 대미지를 주면 15초간 화염 원소 대미지 +20.0%(갱신 가능).
+          [막간 인사]가 적에게 적중 시, 나선·환상의 상자가 가하는 화염 원소 대미지가 20.0% 증가한다. 지속 시간: 15초, 중복 발동 시 지속 시간을 갱신한다.
         requiredRank: sss
   basic:
     core:
-      name: 'All-Enemies Adaptive Cog'
-      krName: '만능 적응형 톱니'
+      name: A Gear for Every Foe
+      krName: 대인용 톱니바퀴
       description: |-
-        Hold ATK button to enter [Armed Mode].
-        Tap Weapon button to switch weapon type of [Noisy Armament], between [Gatling Gun - Applause] and [Heavy Canon - Marvelous].
-        Tap ATK or Ult to summon a [Noisy Armament] and enter [Armed Mode].
+        Tap [ATK] or [ULT] to enter Weapon Mode.
+        Tap [Weapon] to switch Loud Armament types: Revolving Gatling: Applause or Heavy Cannon: Exclamation.
+        Tap [ATK] or [ULT] to summon Loud Armament and enter Weapon Mode.
+
+        Tap [ATK] or [ULT] near a Loud Armament to enter Weapon Mode of its corresponding type.
       krDescription: |-
-        공격 버튼을 길게 눌러 [무장 형태]로 진입한다.
-        무기 버튼을 눌러 [시끄러운 무장]을 갈아탈 수 있다. [개틀링 건 - 박수갈채] <-> [중포 - 경탄]
-        공격이나 필살기 버튼을 짧게 누르면 [시끄러운 무장]을 소환하고 [무장 형태]로 진입.
+        공격 버튼 또는 필살기 버튼을 누르면 [무장 형태]에 진입한다.
+        무기 버튼을 누르면 [소란 병장] 유형을 변경할 수 있다: [회전 기관포·명장] 또는 [대포·경탄]
+        공격 또는 필살기 버튼을 누르면 [소란 병장]을 소환하고, [무장 형태]에 진입할 수 있다.
+
+        대응하는 [소란 병장] 주변에서 공격 버튼 또는 필살기 버튼을 누르면 해당 유형의 [무장 형태]에 진입할 수 있다.
     subskills:
-      - name: 'QTE-Inverted Leverage'
-        krName: 'QTE-거꾸로 된 지레'
+      - name: 'QTE-Levered Horizon'
+        krName: 'QTE-대지를 뒤바꾸는 지레'
         description: |-
-          QTE: Triggered when an enemy is Time-Slowed or ignited. Inflicts 1s global time fracture, deals 1000.0% ATK of Fire DMG, summons a [Noisy Armament] with [Gatling Gun - Applause] and enter [Armed Mode]
+          QTE: Triggered when an enemy is Time-Slowed or Ignited to induce 1s of Global Time Fracture, dealing 1,000.0% ATK of Fire DMG, summon Revolving Gatling: Applause, and enter Weapon Mode.
         krDescription: |-
-          QTE: 적이 시공이나 연소시 발동. 1초 전역 시공단열을 일으키며 공격력 1000.0%의 화염 대미지를 주고, [개틀링 건 - 박수갈채]를 소환해 바로 [무장 형태]로 진입한다.
+          QTE: 적이 시공 감속 또는 연소 상태일 때 발동한다. 1초간 전체 시공 단열을 발동하고, 공격력 1,000.0%의 화염 원소 대미지를 가하며, [회전 기관포·명장]을 소환해 [무장 형태]에 진입한다.
 - id: griseo
   version: '5.8'
   name: Starry Impression
@@ -707,11 +692,11 @@
     subskills:
       - name: Cleansed Henceforth
         krName: 이곳에서 죄업을 속죄하리라
-        description: Restoring Redemption increases Total DMG by 20.0% for 10.0s
+        description: |-
+          Restoring Redemption increases Total DMG by 30.0% for 10.0s
           (triggering it again refreshes the duration).
-        krDescription:
-          '[속죄] 카운트 회복 시, 자신의 모든 대미지가 20.0% 증가한다. 지속 시간: 10.0초, 중복 발동 시 지속
-          시간을 개인한다.'
+        krDescription: |-
+          [속죄] 카운트 회복 시, 자신의 모든 대미지가 30.0% 증가한다. 지속 시간: 10.0초, 중복 발동 시 지속 시간을 갱신한다.
       - name: 'QTE: Sinful Henceforth'
         krName: 'QTE: 이 악념을 받아들이리라'
         description:
@@ -1169,13 +1154,12 @@
     subskills:
       - name: 'QTE: Here Comes the Kitty'
         krName: QTE - 냥이 등장!
-        description:
-          'QTE: Triggered by Time-Slowed or frozen enemies to deal 200.0%x8
+        description: |-
+          QTE: Triggered by Time-Slowed or frozen enemies to deal 200.0% x 8
           ATK of ice DMG and reduces the switch CD of the exiting Valkyrie to
-          4s.'
-        krDescription:
-          'QTE: 적이 시공 감속 또는 빙결 상태일 때 발동한다. 공격력 200.0% x 8의 빙결 원소 대미지를 가하고,
-          교대된 캐릭터의 교대 시간이 4초 감소한다.'
+          4s.
+        krDescription: |-
+          QTE: 적이 시공 감속 또는 빙결 상태일 때 발동한다. 공격력 200.0% x 8의 빙결 원소 대미지를 가하고, 교대된 캐릭터의 교대 시간이 4초로 감소한다.
       - name: Kitty's Predation!
         krName: 냥냥 급습!
         description:
@@ -1199,7 +1183,7 @@
       krDescription: >-
         퇴장 시, 깡통이 전장에 남아 파티의 다른 캐릭터를 지원한다.
 
-        환몽・꿈꾸는 고양이 퇴장 시, 깡통이 일정 시간마다 나타나 전장에서 보물을 발굴하고, 목표에게 [냥냥 폭탄]을 투척한다. 9초 동안 총 3회 투척하며, 투척할 때마다 900%의 빙결 원소 대미지를 가하고, 캐릭터의 SP를 4pt 회복한다. 세 번째 [냥냥 폭탄]은 빙결 게이지를 10pt 누적한다.
+        환몽・꿈꾸는 고양이 퇴장ㅁ 시, 깡통이 일정 시간마다 나타나 전장에서 보물을 발굴하고, 목표에게 [냥냥 폭탄]을 투척한다. 9초 동안 총 3회 투척하며, 투척할 때마다 900%의 빙결 원소 대미지를 가하고, 캐릭터의 SP를 4pt 회복한다. 세 번째 [냥냥 폭탄]은 빙결 게이지를 10pt 누적한다.
     subskills:
       - name: We're a Team
         krName: 완벽한 팀워크
@@ -15659,14 +15643,14 @@
 
         Execute: Shatters the ice to deal 1200% ATK of Physical DMG.
 
-        Energy Charge: Gains 250 KE upon unleashing Ultimate, and gains 30 KE per 0.25s for 10s when Ultimate ends.
+        Energy Charge: Gains 250 KE upon unleashing Ultimate, and gains 60 KE per 0.25s for 10s when Ultimate ends.
 
         SP Cost: 125
       krDescription: |-
         빠른 속도로 발도하여 전방의 적을 벤다.
         열풍: 총 900%의 빙결 원소 대미지를 입히고, 마지막 일격이 적을 빙결 상태로 만든다. 또한 빙결 게이지를 18pt 누적한다.
         참살: 얼음을 깨부숴 공격력의 1200% 물리 대미지를 입힌다.
-        에너지 충전: 필살기 사용 시 250 KP를 즉시 회복한다. 필살기 종료 후 10초간 0.25초당 30 KP를 회복한다.
+        에너지 충전: 필살기 사용 시 250 KP를 즉시 회복한다. 필살기 종료 후 10초간 0.25초당 60 KP를 회복한다.
         발동 시 소모 SP: 125
     subskills:
       - name: Transcendence
