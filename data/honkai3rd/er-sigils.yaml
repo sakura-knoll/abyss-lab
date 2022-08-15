@@ -176,10 +176,12 @@
   krName: 선악의 증거
   description: |-
     Grants 1 extra level when choosing a Signet of Discipline.
-    When the Signets of [You Shall be Subject to Numerous Disciplines] are active and Exhortation reaches 100, Nexus Signet's effects will be triggered.
+    When the Signets of [You Shall be Subject to Numerous Disciplines] are active and Exhortation reaches 100, Nexus Signet's effects will be triggered;
+    When the Signets of [You Shall Receive Disciplines' Blessing] are active, their Total DMG cap is raised from 70% to 100%.
   krDescription: |-
     [계율]의 각인 선택 시 초기 레벨이 1레벨 증가한다.
     각인 [그대여, 계율을 받으라] 보유 시, [훈계] 카운트를 100 달성하면 코어 각인의 증폭 효과를 발동할 수 있다.
+    각인 [그대의 계율에 가호를] 보유 시, 모든 대미지의 증가 최대치가 70%에서 100%로 증가한다.
 - id: faraway-ship
   name: Faraway Ship
   krName: 멀리 떠나가는 배
@@ -203,10 +205,12 @@
   krName: 알록달록 물든 재
   description: |-
     Grants 1 extra level when choosing a Signet of Stars.
-    When the Signets of [Shining Like Stars] are active, if an enemy is tainted red, yellow, and blue at the same time, enemies stay tainted for an extra 2.5s.
+    When the Signets of [Shining Like Stars] are active, if an enemy is tainted red, yellow, and blue at the same time, enemies stay tainted for an extra 2.5s;
+    When the Signets of [Faded Stars] are active, tainted enemies will taint nearby enemies with the same colors after 1s of their defeat.
   krDescription: |-
     [번성]의 각인 선택 시 초기 레벨이 1레벨 증가한다.
     각인 [반짝이는 뭇별처럼] 보유 시, 전장에 빨간색, 노란색, 파란색에 물든 적이 있을 경우, 그 기간 발동한 염색의 지속 시간이 추가로 2.5초 연장된다.
+    각인 [어두운 뭇별처럼] 보유 시, 잉크에 물든 적이 사망하면 1초 지연 후 주변 적을 동일한 색의 잉크로 물들인다.
 - id: nine-lives
   name: Nine Lives
   krName: 아홉의 명
@@ -259,12 +263,12 @@
   krName: 오랜 친구의 선물
   description: |-
     Effect: Grants 1 extra level when choosing a Signet of Decimation.
-    A special skill that increases deployed Valkyrie's max HP by 1000 for 10s is available once Charge reaches 600. This skill permanently raises max HP by 50 with each use, for a maximum increase of 500 HP.
+    A special skill that increases deployed Valkyrie's max HP by 1000 for 10s is available at 600 Charge. In every run, it permanently increases max HP by 50 with each use, up to 500 HP.
     Charging: Gain 100 Charge for each enemy defeated.
   krDescription: |-
     장신구 효과: [오멸]의 각인 선택 시, 초기 레벨이 1레벨 증가한다.
     600pt 충전 시, 스킬을 발동해 출전 발키리의 최대 HP를 1000 증가시킨다. 지속 시간: 10초. 도전마다 사용 시, 출전 발키리의 최대 HP가 영구적으로 50 증가한다(최대 500).
-    충전 방식: 적 처치 시 100pt 충전한다.
+    충전 방식: 적 사망 시 100pt 충전한다.
 - id: empty-like-shala
   name: Empty like Shala
   krName: 사라수와 같은 공허
@@ -347,12 +351,12 @@
   krName: 검은 하늘에 뜬 달
   description: |-
     Effect: Grants 1 extra level when choosing a Signet of Stars.
-    A special skill that creates a phantom studio enemy is available at 600 charges. Valkyries deal 30% more Total DMG to countering -type enemies in the tainted area. Also triggers a paint explosion that causes HP loss and taints enemies with all unlocked paint colors when exiting the field. (DMG increases with Deep Sequence difficulty and the number of floors reached.)
-    Charging: Gain 150 Charge for taking down countered-type enemies, 50 for countering-types, and 100 for other types.
+    A special skill that creates a phantom studio enemy is available at 600 charges. Valkyries deal 30% more Total DMG to countered-type enemies in the tainted area. When the skill effect ends, the paint explodes to inflict HP loss and taint with all unlocked paint colors. (DMG increases with Deep Sequence difficulty and the number of floors reached.)
+    Charging: Gain 150 Charge for each countered-type, 50 for countering-type, and 100 for each neutral-type enemy defeated.
   krDescription: |-
     장신구 효과: [번성]의 각인 선택 시, 초기 레벨이 1레벨 증가한다.
-    600pt 충전 시, 스킬을 발동해 영혼 상태의 화실 적 1기를 생성한다. 적이 주변의 염색 구역에 있을 경우, 속성 상성 관계 발키리에게 받는 모든 대미지가 30% 증가한다. 시간이 종료되어 퇴장 시, 물감이 폭발해 구역 내 적의 HP를 감소시키고, 개방한 모든 색상의 잉크를 부여한다(심층 서열과 동일한 난이도에서 스테이지 층수가 높을수록 대미지가 증가한다).
-    충전 방식: 속성 상성의 적 처치 시 150pt, 역상성의 적 처치 시 50pt, 상성 관계가 없는 적 처치 시 100pt 충전한다.
+    600pt 충전 시, 스킬을 발동해 영혼 상태의 그림 적 1기를 생성한다. 적이 주변의 염색 구역에 있을 경우, 속성 상성 관계 발키리에게 받는 모든 대미지가 30% 증가한다. 시간이 종료되어 퇴장 시, 물감이 폭발해 구역 내 적의 HP를 감소시키고, 개방한 모든 색상의 잉크를 부여한다(심층 서열과 동일한 난이도에서 스테이지 층수가 높을수록 대미지가 증가한다).
+    충전 방식: 속성 상성의 적 사망 시 150pt, 역상성의 적 사망 시 50pt, 상성 관계가 없는 적 사망 시 100pt 충전한다.
 - id: awakening
   name: Awakening
   krName: 꿈에서 깨어난 듯

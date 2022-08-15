@@ -35,6 +35,10 @@ export const erVersions = [
     version: '5.8',
     battlesuits: ['griseo', 'ft'],
   },
+  {
+    version: '5.9',
+    battlesuits: ['vill-v', 'meme'],
+  },
 ].reverse()
 
 export const erBattlesuits = erVersions.reduce<string[]>((list, version) => {
@@ -55,6 +59,7 @@ export const supportBattlesuitIds = [
   'ma',
   'rc',
   'sa',
+  'sn',
 ]
 
 export const remembranceSigilIds = [
