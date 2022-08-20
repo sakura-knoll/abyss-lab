@@ -47,7 +47,7 @@ const MediaPage = () => {
           </Box>
           <Box as='li'>
             <Link href={'/ko-KR/honkai3rd/novels/ae'} target='_blank'>
-              🇰🇷 네겐트로피 Beta(작업중)
+              🇰🇷 네겐트로피 Beta
             </Link>
           </Box>
           <Box as='li'>

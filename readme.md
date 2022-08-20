@@ -38,9 +38,9 @@ We need translators!
 
 #### Seven Swords (KR)
 
-| Chapters | Translators | Progress |
-| -------- | ----------- | -------- |
-| N/A      | N/A         | N/A      |
+| Chapters | Translators                          | Progress |
+| -------- | ------------------------------------ | -------- |
+| 1-26     | Hooo#0313, 앙고르#1961, Sakura Knoll | Complete |
 
 We need translators!
 
