@@ -24,23 +24,24 @@ npm run dev
 
 #### Anti-Entropy (KR)
 
-| Chapters | Translators                   | Progress |
-| -------- | ----------------------------- | -------- |
-| 1-?      | s4kuraknoll#1717, 앙고르#1961 | WIP      |
+| Chapters | Translators                              | Progress |
+| -------- | ---------------------------------------- | -------- |
+| 1-26     | Hooo#0313, 앙고르#1961, s4kuraknoll#1717 | Complete |
 
 #### Durandal (KR)
 
-| Chapters | Translators | Progress |
-| -------- | ----------- | -------- |
-| N/A      | N/A         | N/A      |
+| Chapters | Translators                 | Progress |
+| -------- | --------------------------- | -------- |
+| 1-?      | Hooo#0313, s4kuraknoll#1717 | WIP      |
 
 We need translators!
 
 #### Seven Swords (KR)
 
-| Chapters | Translators                          | Progress |
-| -------- | ------------------------------------ | -------- |
-| 1-26     | Hooo#0313, 앙고르#1961, Sakura Knoll | Complete |
+| Chapters | Translators                 | Progress |
+| -------- | --------------------------- | -------- |
+| 1        | Hooo#0313, s4kuraknoll#1717 | Complete |
+| 2-?      | Hooo#0313                   | WIP      |
 
 We need translators!
 
