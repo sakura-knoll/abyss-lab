@@ -15,8 +15,20 @@
   newFoundryStigmataSets:
     - irene-adler
   description: ''
-  superstring: []
-  ma: []
+  superstring:
+    - - label: ice
+        krLabel: 빙결
+        boss: bns
+      - label: paralyze
+        krLabel: 마비
+        boss: jk
+  ma:
+    - - label: sss
+        boss: hpt
+      - label: sss
+        boss: tank2
+      - label: ss
+        boss: hmd
   supplyEvents: []
 - previousVersion: '5.8'
   nextVersion: '6.0'
@@ -61,6 +73,12 @@
       - label: lightning
         krLabel: 뇌전
         boss: bke
+    - - label: ice
+        krLabel: 빙결
+        boss: hm
+      - label: physical
+        krLabel: 물리
+        boss: ova
   ma:
     - - label: sss
         boss: qksm
@@ -86,6 +104,12 @@
         boss: pvt-sss
       - label: ss
         boss: dd
+    - - label: sss
+        boss: husk-sss
+      - label: sss
+        boss: hod
+      - label: ss
+        boss: hm
   supplyEvents:
     - name: Dark Star Focused Supply B
       krName: 검은 별 집중 보급 B
