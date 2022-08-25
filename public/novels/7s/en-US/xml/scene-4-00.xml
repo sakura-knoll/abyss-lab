@@ -9,17 +9,22 @@
   <se id="01-01白光转场"></se>
   <delay t="0.15"></delay>
   <transition in="1" stop="0.5" out="1.5" color="#ffffff" mode="fade"></transition>
-  <mono>In the beginning, the new consciousness was like the birth of the world: just a spot of light in the universe.</mono>
+  <mono>
+    <p></p>
+    <p>In the beginning, the new consciousness was like the birth of the world:[\s]</p>
+    <p>just a spot of light in the universe.</p>
+  </mono>
   <se id="01-01恢复意识" looptimes="-1"></se>
   <bg img="BGIntel1" duration="3"></bg>
   <mono>
     <p></p>
-    <p>『Its』power is still limited. It can neither receive signals from the senses, nor send them to the nerves.</p>
+    <p>『Its』power is still limited. [\s] It can neither receive signals from the senses, nor send them to the nerves.</p>
   </mono>
   <bg img="BGIntel3" duration="5"></bg>
   <mono pageend="true">
     <p></p>
-    <p>In that chaos, the weak consciousness followed its ancient instincts. Blindly but firmly it awakened and started growing.</p>
+    <p>In that chaos, the weak consciousness followed its ancient instincts.[\s]</p>
+    <p>Blindly but firmly it awakened and started growing.</p>
   </mono>
   <delay t="0.2"></delay>
   <mono pageend="true">
@@ -100,7 +105,7 @@
     <p>Her body wouldn't die even after thousands of years,[\s]</p>
     <p>neither would her soul, even after tens of thousands of years.[\s]</p>
     <p></p>
-    <p>She completely overthrew the laws of nature,</p>
+    <p>She completely overthrew the laws of nature,[\s]</p>
     <p>she was the one and only Celestial of Shenzhou.</p>
   </mono>
   <mono pageend="true">
@@ -117,7 +122,7 @@
   <event action="show_ui"></event>
   <mono pageend="true">
     <p></p>
-    <p>starting from each braincell,</p>
+    <p>starting from each braincell,[\s]</p>
     <p>the Celestial's mind and body began a long period of repair and reconstruction.</p>
   </mono>
   <event action="show_ui"></event>
@@ -178,16 +183,22 @@
   <mono>She saw the line of light and shadow going from east to west and from west to east through the little window of the chamber.</mono>
   <letterbox action="show_letterbox" height="300" duration="1"></letterbox>
   <bg img="BGSky01"></bg>
-  <mono>She could smell the odor of the withering plants mixing with rotting insects.</mono>
+  <mono>
+    <p></p>
+    <p>She could smell the odor of the withering plants mixing with rotting insects.>/p>
+  </mono>
   <letterbox action="show_letterbox" height="200" duration="1"></letterbox>
   <bg img="BGSky02"></bg>
-  <mono>She heard the sound of falling leaves, welcoming the autumn, and the snow-covered branches swaying.</mono>
+  <mono>
+    <p></p>
+    <p>She heard the sound of falling leaves, welcoming the autumn, and the snow-covered branches swaying.</p>
+  </mono>
   <letterbox action="show_letterbox" duration="1" height="100"></letterbox>
   <bg img="BGSky04"></bg>
   <mono pageend="true">
     <p></p>
-    <p>Then, she felt pain, numbness, swelling, itching...</p>
-    <p>Every part of her body was screaming.</p>
+    <p>Then, she felt pain,[\s] numbness,[\s] swelling,[\s] itching...[\s]</p>
+    <p>Every part of her body was screaming.[\s]</p>
     <p>An endless torment took her over...</p>
   </mono>
   <se id="01-03野外小屋loop" looptimes="0"></se>
@@ -195,7 +206,7 @@
   <bg img="PureBlack" duration="3"></bg>
   <mono>
     <p></p>
-    <p>...an endless recovery, an endless pain.</p>
+    <p>...an endless recovery,[\s] an endless pain.</p>
   </mono>
   <mono pageend="true">
     <p></p>
@@ -212,7 +223,8 @@
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>Her mind is still confused, she remembers some things but forgets more and more.</p>
+    <p>Her mind is still confused. [\s]</p>
+    <p>She remembers some things but forgets more and more.</p>
   </mono>
   <mono chara="000" pageend="true">
     <p></p>
@@ -241,7 +253,8 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>Suddely, thinking of that made long abandoned emotions swell up in her chest.</p>
+    <p>Suddenly[\s]</p>
+    <p>thinking of that made long abandoned emotions swell up in her chest.</p>
   </mono>
   <se id="01-09心跳loop" looptimes="-1"></se>
   <event action="hide_ui" duration="0.5"></event>
@@ -256,11 +269,15 @@
     <p></p>
     <p>The Seven people closest to her.</p>
   </mono>
-  <mono>The Seven Swords that stayed by her side for the longest time.</mono>
+  <mono>
+    <p></p>
+    <p>The Seven Swords that stayed by her side for the longest time.</p>
+  </mono>
   <motion chara="-4" action="shake" duration="0.1" range="30" direction="default" looptimes="1"></motion>
   <mono pageend="true" inline="true">
     <p></p>
     <p>Seven people that conspired, lured her to doom.[\s]</p>
+    <p></p>
     <p>Seven Swords that trapped her and killed her.</p>
   </mono>
   <se id="01-09心跳loop" looptimes="0"></se>
@@ -279,10 +296,15 @@
   <cg img="CG_第一折_赤鸢沉睡end"></cg>
   <mono pageend="true" inline="true">
     <p>Many emotions swelled up endlessly:[\s]</p>
+    <p></p>
     <p>anger,[\s]</p>
+    <p></p>
     <p>doubt,[\s]</p>
+    <p></p>
     <p>resentment,[\s]</p>
+    <p></p>
     <p>fury,[\s]</p>
+    <p></p>
     <p>and sadness, at the end.</p>
   </mono>
   <mono chara="000">
@@ -311,7 +333,8 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>She has protected this land for countless years. Time doesn't matter for her anymore.</p>
+    <p>She has protected this land for countless years.[\s]</p>
+    <p>Time doesn't matter for her anymore.</p>
   </mono>
   <mono pageend="true" inline="true">
     <p></p>
@@ -319,19 +342,20 @@
     <p></p>
     <p>She will keep waiting until her body and mind are fully healed,[\s]</p>
     <p></p>
-    <p>then she will find those Seven and ask them why they killed her.</p>
+    <p>then she will find those Seven[\s]</p>
+    <p></p>
+    <p>and ask them why they killed her.</p>
   </mono>
   <mono>
     <p></p>
+    <p>A strong desire was branded deep into her consciousness,[\s]</p>
     <p></p>
+    <p>urging her,[\s]</p>
+    <p>pushing her,[\s]</p>
+    <p>changing her.[\s]</p>
     <p></p>
-    <p>A strong desire was branded deep into her consciousness,</p>
-    <p></p>
-    <p>urging her,</p>
-    <p>pushing her,</p>
-    <p>changing her.</p>
-    <p></p>
-    <p>The wait becomes a habit and the pain becomes natural.</p>
+    <p>The wait becomes a habit[\s]</p>
+    <p>and the pain becomes natural.</p>
   </mono>
   <mono pageend="true">
     <p></p>
@@ -341,10 +365,13 @@
   <transition mode="fade" in="0" stop="0" out="2" color="#000000"></transition>
   <cg></cg>
   <mono>
-    <p>Pain</p>
-    <p>pain</p>
-    <p>pain</p>
-    <p>pain</p>
+    <p>Pain[\s]</p>
+    <p></p>
+    <p>pain[\s]</p>
+    <p></p>
+    <p>pain[\s]</p>
+    <p></p>
+    <p>pain[\s]</p>
   </mono>
   <mono>
     <p></p>
@@ -361,6 +388,7 @@
     <p></p>
     <p></p>
     <p>She has endured for a long time,</p>
+    <p></p>
   </mono>
   <mono pageend="true">she can still endure it.</mono>
   <bgm looptimes="0"></bgm>
