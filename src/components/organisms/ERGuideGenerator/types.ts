@@ -17,9 +17,11 @@ export type SigilSet = {
   sigilIds: [string, string]
 }
 
+export type Difficulty = 'abstinence' | 'corruption' | 'inferno'
+
 export type Data = {
   battlesuitId: string
-  difficulty: 'abstinence' | 'corruption' | 'inferno'
+  difficulty: Difficulty
   exSignets: ExSignet[]
   supportSets: SupportSet[]
   sigilSets: SigilSet[]

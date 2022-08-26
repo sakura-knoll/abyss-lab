@@ -25,6 +25,8 @@ import {
 import { CSS } from '@dnd-kit/utilities'
 import { useMemo } from 'react'
 import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
+import DifficultySelect from './DifficultySelect'
+import { getExSignetLabel } from './utils'
 
 interface DataFormProps {
   updateData: DataUpdater
@@ -89,42 +91,33 @@ const DataForm = ({
     <Box>
       <Box>
         <Label>난이도</Label>
-        <Select
-          onChange={(event) => {
-            switch (event.target.value) {
-              case 'abstinence':
-              case 'corruption':
-              case 'inferno':
-                updateData('difficulty', event.target.value)
-                break
-            }
-          }}
+        <DifficultySelect
+          onChange={(newValue) => updateData('difficulty', newValue)}
           value={data.difficulty}
-        >
-          <option value='corruption'>침식</option>
-          <option value='abstinence'>제약</option>
-          <option value='inferno'>겁화</option>
-        </Select>
+        />
       </Box>
       <Box>
         <Label>발키리</Label>
         <ReactSelect
           instanceId={'battlesuit-select'}
           defaultValue={battlesuitOptions[0]}
-          onChange={(data) => {
-            if (data == null) {
+          onChange={(option) => {
+            if (option == null) {
               return
             }
-            updateData('battlesuitId', data.value)
+            updateData('battlesuitId', option.value)
             const exSignetSet = exSignetGroup.sets.find((signetSet) => {
-              return signetSet.id === `elysia-${data.value}`
+              return signetSet.id === `elysia-${option.value}`
             })
             if (exSignetSet != null) {
               updateData(
                 'exSignets',
-                exSignetSet.signets.map((signet) => {
+                exSignetSet.signets.map((signet, index) => {
                   return {
-                    type: '1st',
+                    type:
+                      data.exSignets[index] != null
+                        ? data.exSignets[index].type
+                        : 'na',
                     name: signet.name,
                   }
                 })
@@ -186,7 +179,7 @@ const DataForm = ({
               )
             })}
           </Box>
-          <Box>
+          <Box sx={{ flex: 1 }}>
             <DndContext
               sensors={sensors}
               collisionDetection={closestCenter}
@@ -344,9 +337,14 @@ export function SortableItem(props: { name: string }) {
   return (
     <div ref={setNodeRef} style={style} {...attributes} {...listeners}>
       <Flex
-        sx={{ height: 35, cursor: 'ns-resize', alignItems: 'center', p: 1 }}
+        sx={{
+          height: 35,
+          cursor: 'ns-resize',
+          alignItems: 'center',
+          p: 1,
+        }}
       >
-        {props.name}
+        {getExSignetLabel(props.name)}
       </Flex>
     </div>
   )
