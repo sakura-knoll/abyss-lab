@@ -120,7 +120,6 @@ const ValkExSignetBox = ({
           alignItems: 'center',
           justifyContent: 'center',
           fontSize: label.length > 3 ? 14 : label.length > 2 ? 16 : 20,
-          fontFamily: `'Jua', sans-serif`,
           width: 50,
           height: 50,
           lineHeight: 1,

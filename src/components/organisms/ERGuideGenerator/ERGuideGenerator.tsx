@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-page-custom-font */
-import { useCallback, useState } from 'react'
-import { Box } from 'theme-ui'
+import { useCallback, useRef, useState } from 'react'
+import { Box, Button } from 'theme-ui'
 import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
 import DifficultyBox from './DifficultyBox'
@@ -18,6 +18,8 @@ import DataForm from './DataForm'
 import EquipmentBox from './EquipmentBox'
 import { Data, DataUpdater, ExSignetType } from './types'
 import { StigmataData } from '../../../lib/honkai3rd/stigmata'
+import { saveAs } from 'file-saver'
+import { toBlob } from 'html-to-image'
 
 interface ERGuideGeneratorProps {
   weapons: WeaponData[]
@@ -87,13 +89,15 @@ const ERGuideGenerator = ({
         type: 'core',
         group: 'vill-v',
         nexus: 2,
-        description: '',
+        description:
+          '테스트 텍스트 테스트 텍스트 테스트 텍스트 테스트 텍스트 테스트 텍스트 테스트 텍스트 테스트 텍스트',
       },
       {
         type: 'core',
         group: 'vill-v',
         nexus: 2,
-        description: '',
+        description:
+          '테스트 텍스트 테스트 텍스트 테스트 텍스트 테스트 텍스트 테스트 텍스트 테스트 텍스트 테스트 텍스트',
       },
       {
         type: 'sub',
@@ -115,6 +119,7 @@ const ERGuideGenerator = ({
       },
     ],
   })
+  const guideRef = useRef(null)
 
   const updateData = useCallback<DataUpdater>(
     (key, value) => {
@@ -135,6 +140,7 @@ const ERGuideGenerator = ({
       <FontHead />
       <Box sx={{ width: 960 }}>
         <Box
+          ref={guideRef}
           sx={{
             width: 960,
             height: 640,
@@ -156,6 +162,25 @@ const ERGuideGenerator = ({
           <SigilBox sigilSets={data.sigilSets} />
           <EquipmentBox equipmentSets={data.equipmentSets} />
         </Box>
+      </Box>
+
+      <Box>
+        <Button
+          onClick={async () => {
+            if (guideRef.current == null) {
+              return
+            }
+
+            const blob = await toBlob(guideRef.current)
+
+            if (blob == null) {
+              return
+            }
+            saveAs(blob, 'guide.png')
+          }}
+        >
+          Download
+        </Button>
       </Box>
 
       <DataForm
