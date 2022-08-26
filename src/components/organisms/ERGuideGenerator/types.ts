@@ -5,7 +5,10 @@ export interface ExSignet {
   name: string
 }
 
-export type DataUpdater = <T extends keyof Data>(key: T, value: Data[T]) => void
+export type DataUpdater = <T extends keyof Data>(
+  key: T,
+  value: Data[T] | ((previousData: Data[T]) => Data[T])
+) => void
 
 export interface SupportSet {
   type: 'util' | 'dps'

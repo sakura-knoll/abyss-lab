@@ -1,3 +1,4 @@
+import { memo } from 'react'
 import { Box, Flex, Image } from 'theme-ui'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
 import { SigilSet } from './types'
@@ -86,4 +87,4 @@ const SigilBox = ({ sigilSets }: SigilBoxProps) => {
   )
 }
 
-export default SigilBox
+export default memo(SigilBox)

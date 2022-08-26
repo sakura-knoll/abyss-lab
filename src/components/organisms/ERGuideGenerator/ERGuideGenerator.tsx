@@ -121,7 +121,7 @@ const ERGuideGenerator = ({
       setData((previousData) => {
         const newData = {
           ...previousData,
-          [key]: value,
+          [key]: typeof value === 'function' ? value(previousData[key]) : value,
         }
 
         return newData

@@ -1,6 +1,6 @@
 import ReactSelect, { components } from 'react-select'
 import { Flex, Image } from 'theme-ui'
-import { useMemo } from 'react'
+import { memo, useMemo } from 'react'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
 import { StigmataData } from '../../../lib/honkai3rd/stigmata'
 
@@ -105,4 +105,4 @@ const StigmaSelect = ({
   )
 }
 
-export default StigmaSelect
+export default memo(StigmaSelect)

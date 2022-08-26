@@ -1,6 +1,6 @@
 import ReactSelect, { components } from 'react-select'
 import { Flex, Image } from 'theme-ui'
-import { useMemo } from 'react'
+import { memo, useMemo } from 'react'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
 
@@ -37,25 +37,22 @@ const WeaponSelect = ({
     })
   }, [optionIds, weapons])
 
-  const weapon = useMemo(
-    () =>
-      weapons.find((aWeapon) => {
-        return aWeapon.id === value
-      }),
-    [value, weapons]
-  )
+  const weaponValue = useMemo(() => {
+    const weapon = weapons.find((aWeapon) => {
+      return aWeapon.id === value
+    })
+    return weapon != null
+      ? {
+          label: weapon.name,
+          value: weapon.id,
+        }
+      : null
+  }, [value, weapons])
 
   return (
     <ReactSelect
       instanceId={instanceId}
-      value={
-        weapon != null
-          ? {
-              label: weapon.name,
-              value: weapon.id,
-            }
-          : null
-      }
+      value={weaponValue}
       onChange={(option) => {
         if (option == null) {
           return
@@ -105,4 +102,4 @@ const WeaponSelect = ({
   )
 }
 
-export default WeaponSelect
+export default memo(WeaponSelect)

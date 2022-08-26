@@ -30,11 +30,10 @@ import DifficultySelect from './DifficultySelect'
 import { getExSignetLabel } from './utils'
 import BattlesuitSelect from './BattlesuitSelect'
 import SigilSelect from './SigilSelect'
-import WeaponSelect from './WeaponSelect'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
-import StigmaSelect from './StigmaSelect'
 import { StigmataData } from '../../../lib/honkai3rd/stigmata'
 import { useMemo } from 'react'
+import EquipmentSetControl from './EquipmentSetControl'
 
 interface DataFormProps {
   updateData: DataUpdater
@@ -388,93 +387,17 @@ const DataForm = ({
           <Label>장비</Label>
           {data.equipmentSets.map((equipmentSet, index) => {
             return (
-              <Box key={index}>
-                <Box>{equipmentSet.type === 'best' ? '베스트' : '대체'}</Box>
-                <Flex sx={{ alignItems: 'center' }}>
-                  <Box sx={{ mr: 2 }}>
-                    <Label>무기</Label>
-                  </Box>
-                  <Box sx={{ flexShrink: 0, flex: 1 }}>
-                    <WeaponSelect
-                      instanceId={`equipment-${index}-weapon`}
-                      value={equipmentSet.weapon}
-                      onChange={(newValue) => {
-                        const newEquipmentSets = data.equipmentSets.slice()
-                        newEquipmentSets[index] = {
-                          ...newEquipmentSets[index],
-                          weapon: newValue,
-                        }
-                        updateData('equipmentSets', newEquipmentSets)
-                      }}
-                      weapons={weapons}
-                      optionIds={weapons.map((weapon) => weapon.id)}
-                    />
-                  </Box>
-                </Flex>
-                <Flex sx={{ alignItems: 'center' }}>
-                  <Box sx={{ mr: 2 }}>
-                    <Label>상단</Label>
-                  </Box>
-                  <Box sx={{ flexShrink: 0, flex: 1 }}>
-                    <StigmaSelect
-                      instanceId={`equipment-${index}-top`}
-                      value={equipmentSet.top}
-                      onChange={(newValue) => {
-                        const newEquipmentSets = data.equipmentSets.slice()
-                        newEquipmentSets[index] = {
-                          ...newEquipmentSets[index],
-                          top: newValue,
-                        }
-                        updateData('equipmentSets', newEquipmentSets)
-                      }}
-                      stigmata={stigmata}
-                      optionIds={topStigmaIds}
-                    />
-                  </Box>
-                </Flex>
-                <Flex sx={{ alignItems: 'center' }}>
-                  <Box sx={{ mr: 2 }}>
-                    <Label>중단</Label>
-                  </Box>
-                  <Box sx={{ flexShrink: 0, flex: 1 }}>
-                    <StigmaSelect
-                      instanceId={`equipment-${index}-mid`}
-                      value={equipmentSet.mid}
-                      onChange={(newValue) => {
-                        const newEquipmentSets = data.equipmentSets.slice()
-                        newEquipmentSets[index] = {
-                          ...newEquipmentSets[index],
-                          mid: newValue,
-                        }
-                        updateData('equipmentSets', newEquipmentSets)
-                      }}
-                      stigmata={stigmata}
-                      optionIds={midStigmaIds}
-                    />
-                  </Box>
-                </Flex>
-                <Flex sx={{ alignItems: 'center' }}>
-                  <Box sx={{ mr: 2 }}>
-                    <Label>하단</Label>
-                  </Box>
-                  <Box sx={{ flexShrink: 0, flex: 1 }}>
-                    <StigmaSelect
-                      instanceId={`equipment-${index}-bot`}
-                      value={equipmentSet.bot}
-                      onChange={(newValue) => {
-                        const newEquipmentSets = data.equipmentSets.slice()
-                        newEquipmentSets[index] = {
-                          ...newEquipmentSets[index],
-                          bot: newValue,
-                        }
-                        updateData('equipmentSets', newEquipmentSets)
-                      }}
-                      stigmata={stigmata}
-                      optionIds={botStigmaIds}
-                    />
-                  </Box>
-                </Flex>
-              </Box>
+              <EquipmentSetControl
+                key={index}
+                equipmentSet={equipmentSet}
+                weapons={weapons}
+                stigmata={stigmata}
+                topStigmaIds={topStigmaIds}
+                midStigmaIds={midStigmaIds}
+                botStigmaIds={botStigmaIds}
+                index={index}
+                updateData={updateData}
+              />
             )
           })}
         </Box>

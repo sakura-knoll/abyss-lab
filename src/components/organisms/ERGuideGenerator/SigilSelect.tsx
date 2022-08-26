@@ -1,7 +1,7 @@
 import { RemembranceSigil } from '../../../lib/honkai3rd/elysianRealm'
 import ReactSelect, { components } from 'react-select'
 import { Flex, Image } from 'theme-ui'
-import { useMemo } from 'react'
+import { memo, useMemo } from 'react'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
 
 interface SigilSelectProps {
@@ -37,9 +37,14 @@ const SigilSelect = ({
     })
   }, [optionIds, sigils])
 
-  const sigil = sigils.find((sigil) => {
-    return sigil.id === value
-  })
+  const sigil = useMemo(
+    () =>
+      sigils.find((sigil) => {
+        return sigil.id === value
+      }),
+    [sigils, value]
+  )
+
   return (
     <ReactSelect
       instanceId={instanceId}
@@ -100,4 +105,4 @@ const SigilSelect = ({
   )
 }
 
-export default SigilSelect
+export default memo(SigilSelect)
