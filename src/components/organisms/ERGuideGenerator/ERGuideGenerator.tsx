@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import { useCallback, useState } from 'react'
-import { Box, Flex } from 'theme-ui'
+import { Box } from 'theme-ui'
 import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
 import DifficultyBox from './DifficultyBox'
@@ -82,42 +82,38 @@ const ERGuideGenerator = ({
   return (
     <Box>
       <FontHead />
-      <Flex>
-        <Box sx={{ width: 960 }}>
-          <Box
-            sx={{
-              width: 960,
-              height: 640,
-              position: 'relative',
-              backgroundColor: colors.backgroundColor,
-              color: '#FFF',
-            }}
-          >
-            <SignetBox />
-            <DifficultyBox difficulty={data.difficulty} />
-            <ValkBox
-              battlesuitId={data.battlesuitId}
-              exSignets={data.exSignets}
-            />
-            <SupportBox
-              battlesuits={battlesuits}
-              supportSets={data.supportSets}
-            />
-            <SigilBox sigilSets={data.sigilSets} />
-            <EquipmentBox />
-          </Box>
-        </Box>
-
-        <Box sx={{ flexGrow: 1, p: 2 }}>
-          <DataForm
-            exSignetGroup={exSignetGroup}
-            battlesuits={battlesuits}
-            updateData={updateData}
-            data={data}
-            sigils={sigils}
+      <Box sx={{ width: 960 }}>
+        <Box
+          sx={{
+            width: 960,
+            height: 640,
+            position: 'relative',
+            backgroundColor: colors.backgroundColor,
+            color: '#FFF',
+          }}
+        >
+          <SignetBox />
+          <DifficultyBox difficulty={data.difficulty} />
+          <ValkBox
+            battlesuitId={data.battlesuitId}
+            exSignets={data.exSignets}
           />
+          <SupportBox
+            battlesuits={battlesuits}
+            supportSets={data.supportSets}
+          />
+          <SigilBox sigilSets={data.sigilSets} />
+          <EquipmentBox />
         </Box>
-      </Flex>
+      </Box>
+
+      <DataForm
+        exSignetGroup={exSignetGroup}
+        battlesuits={battlesuits}
+        updateData={updateData}
+        data={data}
+        sigils={sigils}
+      />
     </Box>
   )
 }
