@@ -59,6 +59,24 @@ const SigilSelect = ({
       }}
       options={sigilOptions}
       components={{
+        SingleValue: (props) => {
+          return (
+            <>
+              <components.SingleValue {...props}>
+                <Flex sx={{ alignItems: 'center', color: 'black' }}>
+                  <Image
+                    width={20}
+                    height={20}
+                    alt={props.data.label}
+                    src={`${assetsBucketBaseUrl}/honkai3rd/elysian-realm/remembrance-sigils/${props.data.value}.png`}
+                    mr={2}
+                  />
+                  {props.children}
+                </Flex>
+              </components.SingleValue>
+            </>
+          )
+        },
         Option: (props) => {
           return (
             <>
