@@ -217,7 +217,17 @@ const DataForm = ({
                   <Label>{index + 1} 번째 각인</Label>
                   <Flex sx={{ alignItems: 'center', p: 1 }}>
                     <Box sx={{ flex: 1, flexShrink: 0, mr: 1 }}>
-                      <Select value={signet.group}>
+                      <Select
+                        value={signet.group}
+                        onChange={(event) => {
+                          const newSignets = data.signets.slice()
+                          newSignets[index] = {
+                            ...signet,
+                            group: event.target.value as any,
+                          }
+                          updateData('signets', newSignets)
+                        }}
+                      >
                         {signetGroups.slice(1).map((signetGroup) => {
                           return (
                             <option key={signetGroup.id} value={signetGroup.id}>
@@ -244,7 +254,17 @@ const DataForm = ({
                     </Box>
 
                     <Box sx={{ width: 60 }}>
-                      <Select value={signet.type}>
+                      <Select
+                        value={signet.type}
+                        onChange={(event) => {
+                          const newSignets = data.signets.slice()
+                          newSignets[index] = {
+                            ...signet,
+                            type: event.target.value as any,
+                          }
+                          updateData('signets', newSignets)
+                        }}
+                      >
                         <option value='start'>과도</option>
                         <option value='core'>핵심</option>
                         <option value='sub'>보조</option>
