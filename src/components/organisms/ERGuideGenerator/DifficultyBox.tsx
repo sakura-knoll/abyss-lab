@@ -53,7 +53,7 @@ const DifficultyBox = ({ difficulty }: DifficultyBoxProps) => {
         {difficulty === 'corruption'
           ? '침식'
           : difficulty === 'abstinence'
-          ? '절제'
+          ? '제약'
           : '겁화'}
       </Box>
       <Box
