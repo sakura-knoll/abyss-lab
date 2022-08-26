@@ -1,4 +1,4 @@
-import { Box, Flex, Label, Select } from 'theme-ui'
+import { Box, Button, Flex, Label, Select, Textarea } from 'theme-ui'
 import { Data, DataUpdater, ExSignetType } from './types'
 import {
   erVersions,
@@ -6,6 +6,7 @@ import {
   PopulatedSignetGroup,
   RemembranceSigil,
   remembranceSigilIds,
+  signetGroups,
   supportBattlesuitIds,
 } from '../../../lib/honkai3rd/elysianRealm'
 import {
@@ -208,6 +209,67 @@ const DataForm = ({
                 </DndContext>
               </Box>
             </Flex>
+          </Box>
+          <Box>
+            <Label>각인</Label>
+            {data.signets.map((signet, index) => {
+              return (
+                <Box key={index}>
+                  <Label>{index + 1} 번째 각인</Label>
+                  <Flex sx={{ alignItems: 'center', p: 1 }}>
+                    <Box sx={{ flex: 1, flexShrink: 0, mr: 1 }}>
+                      <Select value={signet.group}>
+                        {signetGroups.slice(1).map((signetGroup) => {
+                          return (
+                            <option key={signetGroup.id} value={signetGroup.id}>
+                              {signetGroup.krAltName}
+                            </option>
+                          )
+                        })}
+                      </Select>
+                    </Box>
+                    <Box>
+                      <Button
+                        onClick={() => {
+                          const newSignets = data.signets.slice()
+                          newSignets[index] = {
+                            ...signet,
+                            nexus: signet.nexus === 1 ? 2 : 1,
+                          }
+                          updateData('signets', newSignets)
+                        }}
+                        sx={{ mr: 1, width: 40 }}
+                      >
+                        {signet.nexus === 1 ? 'I' : 'II'}
+                      </Button>
+                    </Box>
+
+                    <Box sx={{ width: 60 }}>
+                      <Select value={signet.type}>
+                        <option value='start'>과도</option>
+                        <option value='core'>핵심</option>
+                        <option value='sub'>보조</option>
+                      </Select>
+                    </Box>
+                  </Flex>
+                  <Box sx={{ p: 1 }}>
+                    <Textarea
+                      value={signet.description}
+                      onChange={(event) => {
+                        const newSignets = data.signets.slice()
+                        newSignets[index] = {
+                          ...signet,
+                          description: event.target.value,
+                        }
+                        updateData('signets', newSignets)
+                      }}
+                      placeholder='각인 설명...'
+                      sx={{ resize: 'vertical' }}
+                    />
+                  </Box>
+                </Box>
+              )
+            })}
           </Box>
         </Box>
         <Box sx={{ width: '50%', p: 2 }}>
