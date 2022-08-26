@@ -5,10 +5,16 @@ import { pick } from 'ramda'
 import { Box, Button, Flex, Heading } from 'theme-ui'
 import ERGuideGenerator from '../../../../components/organisms/ERGuideGenerator/ERGuideGenerator'
 import { BattlesuitData } from '../../../../lib/honkai3rd/battlesuits'
-import { PopulatedSignetGroup } from '../../../../lib/honkai3rd/elysianRealm'
+import {
+  PopulatedSignetGroup,
+  RemembranceSigil,
+} from '../../../../lib/honkai3rd/elysianRealm'
 import { WeaponData } from '../../../../lib/honkai3rd/weapons'
 import { listBattlesuits } from '../../../../server/data/honkai3rd/battlesuits'
-import { getSignetGroupById } from '../../../../server/data/honkai3rd/elysianRealm'
+import {
+  getRemembranceSigils,
+  getSignetGroupById,
+} from '../../../../server/data/honkai3rd/elysianRealm'
 import { listWeapons } from '../../../../server/data/honkai3rd/weapons'
 import { getI18NProps } from '../../../../server/i18n'
 
@@ -16,12 +22,14 @@ interface GenerateGuidePageProps {
   weapons: WeaponData[]
   battlesuits: BattlesuitData[]
   exSignetGroup: PopulatedSignetGroup
+  sigils: RemembranceSigil[]
 }
 
 const GenerateGuidePage = ({
   weapons,
   battlesuits,
   exSignetGroup,
+  sigils,
 }: GenerateGuidePageProps) => {
   const router = useRouter()
 
@@ -42,6 +50,7 @@ const GenerateGuidePage = ({
         weapons={weapons}
         battlesuits={battlesuits}
         exSignetGroup={exSignetGroup}
+        sigils={sigils}
       />
     </Box>
   )
@@ -64,6 +73,7 @@ export async function getStaticProps({ locale }: NextPageContext) {
         }
       }),
       exSignetGroup: getSignetGroupById('elysia', 'ko-KR'),
+      sigils: getRemembranceSigils('ko-KR'),
       ...(await getI18NProps('ko-KR')),
     },
   }

@@ -2,7 +2,10 @@ import { Box, Flex, Label, Select } from 'theme-ui'
 import { Data, DataUpdater, ExSignetType } from './types'
 import {
   erVersions,
+  isGeneralSigil,
   PopulatedSignetGroup,
+  RemembranceSigil,
+  remembranceSigilIds,
   supportBattlesuitIds,
 } from '../../../lib/honkai3rd/elysianRealm'
 import {
@@ -25,12 +28,14 @@ import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
 import DifficultySelect from './DifficultySelect'
 import { getExSignetLabel } from './utils'
 import BattlesuitSelect from './BattlesuitSelect'
+import SigilSelect from './SigilSelect'
 
 interface DataFormProps {
   updateData: DataUpdater
   data: Data
   battlesuits: BattlesuitData[]
   exSignetGroup: PopulatedSignetGroup
+  sigils: RemembranceSigil[]
 }
 
 const DataForm = ({
@@ -38,6 +43,7 @@ const DataForm = ({
   data,
   battlesuits,
   exSignetGroup,
+  sigils,
 }: DataFormProps) => {
   const sensors = useSensors(
     useSensor(PointerSensor),
@@ -211,6 +217,52 @@ const DataForm = ({
                   />
                 </Box>
               </Box>
+            </Box>
+          )
+        })}
+      </Box>
+      <Box>
+        <Label>증명</Label>
+        {data.sigilSets.map((sigilSet, index) => {
+          return (
+            <Box key={index}>
+              <Box>
+                {sigilSet.type === 'start'
+                  ? '초반'
+                  : sigilSet.type === 'mid'
+                  ? '중반'
+                  : '후반'}
+              </Box>
+              <SigilSelect
+                instanceId={`sigil-select-${index}-general`}
+                value={sigilSet.sigilIds[0]}
+                optionIds={remembranceSigilIds.filter(isGeneralSigil)}
+                sigils={sigils}
+                onChange={(newValue) => {
+                  const newSigilSets = data.sigilSets.slice()
+                  newSigilSets[index] = {
+                    ...newSigilSets[index],
+                    sigilIds: [newValue, newSigilSets[index].sigilIds[1]],
+                  }
+                  updateData('sigilSets', newSigilSets)
+                }}
+              />
+              <SigilSelect
+                instanceId={`sigil-select-${index}-support`}
+                value={sigilSet.sigilIds[1]}
+                optionIds={remembranceSigilIds.filter(
+                  (sigilId) => !isGeneralSigil(sigilId)
+                )}
+                sigils={sigils}
+                onChange={(newValue) => {
+                  const newSigilSets = data.sigilSets.slice()
+                  newSigilSets[index] = {
+                    ...newSigilSets[index],
+                    sigilIds: [newSigilSets[index].sigilIds[0], newValue],
+                  }
+                  updateData('sigilSets', newSigilSets)
+                }}
+              />
             </Box>
           )
         })}

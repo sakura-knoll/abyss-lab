@@ -8,7 +8,10 @@ import FontHead from './FontHead'
 import SignetBox from './SignetBox'
 import { colors } from './styles'
 import ValkBox from './ValkBox'
-import { PopulatedSignetGroup } from '../../../lib/honkai3rd/elysianRealm'
+import {
+  PopulatedSignetGroup,
+  RemembranceSigil,
+} from '../../../lib/honkai3rd/elysianRealm'
 import SigilBox from './SigilBox'
 import SupportBox from './SupportBox'
 import DataForm from './DataForm'
@@ -19,12 +22,14 @@ interface ERGuideGeneratorProps {
   weapons: WeaponData[]
   battlesuits: BattlesuitData[]
   exSignetGroup: PopulatedSignetGroup
+  sigils: RemembranceSigil[]
 }
 
 const ERGuideGenerator = ({
   weapons,
   battlesuits,
   exSignetGroup,
+  sigils,
 }: ERGuideGeneratorProps) => {
   const [data, setData] = useState<Data>({
     battlesuitId: 'vill-v',
@@ -34,7 +39,20 @@ const ERGuideGenerator = ({
       { type: 'util', battlesuitIds: ['le', 'ae'] },
       { type: 'dps', battlesuitIds: ['br', 'ae'] },
     ],
-    sigilSets: [],
+    sigilSets: [
+      {
+        type: 'start',
+        sigilIds: ['burden', 'it-will-be-written'],
+      },
+      {
+        type: 'mid',
+        sigilIds: ['burden', 'it-will-be-written'],
+      },
+      {
+        type: 'end',
+        sigilIds: ['burden', 'it-will-be-written'],
+      },
+    ],
   })
 
   const updateData = useCallback<DataUpdater>(
@@ -75,7 +93,7 @@ const ERGuideGenerator = ({
               battlesuits={battlesuits}
               supportSets={data.supportSets}
             />
-            <SigilBox />
+            <SigilBox sigilSets={data.sigilSets} />
             <EquipmentBox />
           </Box>
         </Box>
@@ -86,6 +104,7 @@ const ERGuideGenerator = ({
             battlesuits={battlesuits}
             updateData={updateData}
             data={data}
+            sigils={sigils}
           />
         </Box>
       </Flex>
