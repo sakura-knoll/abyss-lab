@@ -4,7 +4,6 @@ import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import { getBattlesuitMapByIds } from '../../../server/data/honkai3rd/battlesuits'
 import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
 import BattlesuitCard from '../../../components/molecules/BattlesuitCard'
-
 import { NextPageContext } from 'next'
 import { getI18NProps } from '../../../server/i18n'
 import { useTranslation } from '../../../lib/i18n'
@@ -180,6 +179,7 @@ export async function getStaticProps({ locale }: NextPageContext) {
       name,
     }
   })
+
   return {
     props: {
       battlesuitMap: getBattlesuitMapByIds(erBattlesuitIds, locale),

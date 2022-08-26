@@ -17,9 +17,11 @@ import SupportBox from './SupportBox'
 import DataForm from './DataForm'
 import EquipmentBox from './EquipmentBox'
 import { Data, DataUpdater, ExSignetType } from './types'
+import { StigmataData } from '../../../lib/honkai3rd/stigmata'
 
 interface ERGuideGeneratorProps {
   weapons: WeaponData[]
+  stigmata: StigmataData[]
   battlesuits: BattlesuitData[]
   exSignetGroup: PopulatedSignetGroup
   sigils: RemembranceSigil[]
@@ -29,6 +31,7 @@ const exSignetTypes: ExSignetType[] = ['start', '1st', '2nd', 'backup', 'na']
 
 const ERGuideGenerator = ({
   weapons,
+  stigmata,
   battlesuits,
   exSignetGroup,
   sigils,
@@ -61,6 +64,22 @@ const ERGuideGenerator = ({
       {
         type: 'end',
         sigilIds: ['burden', 'it-will-be-written'],
+      },
+    ],
+    equipmentSets: [
+      {
+        type: 'best',
+        weapon: 'vill-v-pri-weapon',
+        top: 'carlo-collodi-top',
+        mid: 'carlo-collodi-mid',
+        bot: 'carlo-collodi-bot',
+      },
+      {
+        type: 'alt',
+        weapon: 'vill-v-pri-weapon',
+        top: 'carlo-collodi-top',
+        mid: 'carlo-collodi-mid',
+        bot: 'carlo-collodi-bot',
       },
     ],
   })
@@ -103,7 +122,7 @@ const ERGuideGenerator = ({
             supportSets={data.supportSets}
           />
           <SigilBox sigilSets={data.sigilSets} />
-          <EquipmentBox />
+          <EquipmentBox equipmentSets={data.equipmentSets} />
         </Box>
       </Box>
 
@@ -113,6 +132,8 @@ const ERGuideGenerator = ({
         updateData={updateData}
         data={data}
         sigils={sigils}
+        weapons={weapons}
+        stigmata={stigmata}
       />
     </Box>
   )

@@ -10,16 +10,19 @@ import {
   RemembranceSigil,
 } from '../../../../lib/honkai3rd/elysianRealm'
 import { WeaponData } from '../../../../lib/honkai3rd/weapons'
+import { StigmataData } from '../../../../lib/honkai3rd/stigmata'
 import { listBattlesuits } from '../../../../server/data/honkai3rd/battlesuits'
 import {
   getRemembranceSigils,
   getSignetGroupById,
 } from '../../../../server/data/honkai3rd/elysianRealm'
+import { listStigmata } from '../../../../server/data/honkai3rd/stigmata'
 import { listWeapons } from '../../../../server/data/honkai3rd/weapons'
 import { getI18NProps } from '../../../../server/i18n'
 
 interface GenerateGuidePageProps {
   weapons: WeaponData[]
+  stigmata: StigmataData[]
   battlesuits: BattlesuitData[]
   exSignetGroup: PopulatedSignetGroup
   sigils: RemembranceSigil[]
@@ -27,6 +30,7 @@ interface GenerateGuidePageProps {
 
 const GenerateGuidePage = ({
   weapons,
+  stigmata,
   battlesuits,
   exSignetGroup,
   sigils,
@@ -48,6 +52,7 @@ const GenerateGuidePage = ({
       </Flex>
       <ERGuideGenerator
         weapons={weapons}
+        stigmata={stigmata}
         battlesuits={battlesuits}
         exSignetGroup={exSignetGroup}
         sigils={sigils}
@@ -63,6 +68,9 @@ export async function getStaticProps({ locale }: NextPageContext) {
     props: {
       weapons: listWeapons('ko-KR').map((weapon) => {
         return pick(['name', 'id', 'rarity', 'category'], weapon)
+      }),
+      stigmata: listStigmata('ko-KR').map((stigmata) => {
+        return pick(['name', 'id', 'type'], stigmata)
       }),
       battlesuits: listBattlesuits('ko-KR').map((battlesuit) => {
         return {

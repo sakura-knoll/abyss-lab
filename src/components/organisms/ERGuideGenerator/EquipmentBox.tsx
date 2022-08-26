@@ -1,7 +1,12 @@
 import { Box, Flex, Image } from 'theme-ui'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
+import { EquipmentSet } from './types'
 
-const EquipmentBox = () => {
+interface EquipmentBoxProps {
+  equipmentSets: EquipmentSet[]
+}
+
+const EquipmentBox = ({ equipmentSets }: EquipmentBoxProps) => {
   return (
     <Box
       sx={{
@@ -26,114 +31,66 @@ const EquipmentBox = () => {
         >
           <Box>장비</Box>
         </Box>
-        <Box
-          sx={{
-            backgroundColor: '#615559',
-            p: '15px 5px 5px',
-            borderRadius: '5px',
-            position: 'relative',
-            mr: '5px',
-          }}
-        >
-          <Box
-            sx={{
-              position: 'absolute',
-              top: 0,
-              left: 0,
-              backgroundColor: '#356D7E',
-              borderTopLeftRadius: '5px',
-              borderBottomRightRadius: '5px',
-              p: '0 7px',
-              fontSize: 12,
-            }}
-          >
-            최선
-          </Box>
-          <Box sx={{ height: 60 }}>
-            <Image
-              alt=''
-              src={`${assetsBucketBaseUrl}/honkai3rd/weapons/basilisk-s-image-deathshroud.png`}
-              width={40}
-              height={40}
-              sx={{ mr: '5px' }}
-            />
-            <Image
-              alt=''
-              src={`${assetsBucketBaseUrl}/honkai3rd/stigmata/icon-linnaeus-top.png`}
-              width={40}
-              height={40}
-              sx={{ mr: '5px' }}
-            />
-            <Image
-              alt=''
-              src={`${assetsBucketBaseUrl}/honkai3rd/stigmata/icon-linnaeus-top.png`}
-              width={40}
-              height={40}
-              sx={{ mr: '5px' }}
-            />
-            <Image
-              alt=''
-              src={`${assetsBucketBaseUrl}/honkai3rd/stigmata/icon-linnaeus-top.png`}
-              width={40}
-              height={40}
-              sx={{ mr: '5px' }}
-            />
-          </Box>
-        </Box>
-        <Box
-          sx={{
-            backgroundColor: '#615559',
-            p: '15px 5px 5px',
-            borderRadius: '5px',
-            position: 'relative',
-            mr: '5px',
-          }}
-        >
-          <Box
-            sx={{
-              position: 'absolute',
-              top: 0,
-              left: 0,
-              backgroundColor: '#356D7E',
-              borderTopLeftRadius: '5px',
-              borderBottomRightRadius: '5px',
-              p: '0 7px',
-              fontSize: 12,
-            }}
-          >
-            차선
-          </Box>
-          <Box sx={{ height: 60 }}>
-            <Image
-              alt=''
-              src={`${assetsBucketBaseUrl}/honkai3rd/weapons/basilisk-s-image-deathshroud.png`}
-              width={40}
-              height={40}
-              sx={{ mr: '5px' }}
-            />
-            <Image
-              alt=''
-              src={`${assetsBucketBaseUrl}/honkai3rd/stigmata/icon-linnaeus-top.png`}
-              width={40}
-              height={40}
-              sx={{ mr: '5px' }}
-            />
-            <Image
-              alt=''
-              src={`${assetsBucketBaseUrl}/honkai3rd/stigmata/icon-linnaeus-top.png`}
-              width={40}
-              height={40}
-              sx={{ mr: '5px' }}
-            />
-            <Image
-              alt=''
-              src={`${assetsBucketBaseUrl}/honkai3rd/stigmata/icon-linnaeus-top.png`}
-              width={40}
-              height={40}
-              sx={{ mr: '5px' }}
-            />
-          </Box>
-        </Box>
+        {equipmentSets.map((equipmentSet, index) => {
+          return (
+            <Box
+              key={index}
+              sx={{
+                backgroundColor: '#615559',
+                p: '15px 5px 5px',
+                borderRadius: '5px',
+                position: 'relative',
+                mr: '5px',
+              }}
+            >
+              <Box
+                sx={{
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  backgroundColor:
+                    equipmentSet.type === 'best' ? '#EE4E2C' : '#9DA3D3',
+                  borderTopLeftRadius: '5px',
+                  borderBottomRightRadius: '5px',
+                  p: '0 7px',
+                  fontSize: 12,
+                }}
+              >
+                {equipmentSet.type === 'best' ? '베스트' : '대체'}
+              </Box>
+              <Box sx={{ height: 60 }}>
+                <Image
+                  alt=''
+                  src={`${assetsBucketBaseUrl}/honkai3rd/weapons/${equipmentSet.weapon}.png`}
+                  width={40}
+                  height={40}
+                  sx={{ borderRadius: '5px', mr: '5px' }}
+                />
+                <Image
+                  alt=''
+                  src={`${assetsBucketBaseUrl}/honkai3rd/stigmata/icon-${equipmentSet.top}.png`}
+                  width={40}
+                  height={40}
+                  sx={{ borderRadius: '5px', mr: '5px' }}
+                />
+                <Image
+                  alt=''
+                  src={`${assetsBucketBaseUrl}/honkai3rd/stigmata/icon-${equipmentSet.mid}.png`}
+                  width={40}
+                  height={40}
+                  sx={{ borderRadius: '5px', mr: '5px' }}
+                />
+                <Image
+                  alt=''
+                  src={`${assetsBucketBaseUrl}/honkai3rd/stigmata/icon-${equipmentSet.bot}.png`}
+                  width={40}
+                  height={40}
+                  sx={{ borderRadius: '5px' }}
+                />
+              </Box>
+            </Box>
+          )
+        })}
       </Flex>
     </Box>
   )

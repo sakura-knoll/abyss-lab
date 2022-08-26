@@ -7,17 +7,25 @@ export interface ExSignet {
 
 export type DataUpdater = <T extends keyof Data>(key: T, value: Data[T]) => void
 
-export type SupportSet = {
+export interface SupportSet {
   type: 'util' | 'dps'
   battlesuitIds: [string, string]
 }
 
-export type SigilSet = {
+export interface SigilSet {
   type: 'start' | 'mid' | 'end'
   sigilIds: [string, string]
 }
 
 export type Difficulty = 'abstinence' | 'corruption' | 'inferno'
+
+export interface EquipmentSet {
+  type: 'best' | 'alt'
+  weapon: string
+  top: string
+  mid: string
+  bot: string
+}
 
 export type Data = {
   battlesuitId: string
@@ -25,4 +33,5 @@ export type Data = {
   exSignets: ExSignet[]
   supportSets: SupportSet[]
   sigilSets: SigilSet[]
+  equipmentSets: EquipmentSet[]
 }
