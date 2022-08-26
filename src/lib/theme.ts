@@ -144,6 +144,9 @@ export const theme: Theme = {
       '&.hidden': {
         display: 'none',
       },
+      '&:disabled': {
+        opacity: 0.5,
+      },
     },
     secondary: {
       color: 'background',

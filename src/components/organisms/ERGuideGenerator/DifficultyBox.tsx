@@ -1,0 +1,81 @@
+import { Box } from 'theme-ui'
+import { colors } from './styles'
+
+interface DifficultyBoxProps {
+  difficulty: 'abstinence' | 'corruption' | 'inferno'
+}
+
+const DifficultyBox = ({ difficulty }: DifficultyBoxProps) => {
+  return (
+    <Box
+      sx={{
+        position: 'absolute',
+        left: 15,
+        width: 60,
+        height: 105,
+        backgroundColor:
+          difficulty === 'corruption'
+            ? colors.corruptionDifficultyColor
+            : difficulty === 'abstinence'
+            ? colors.abstinenceDifficultyColor
+            : colors.infernoDifficultyColor,
+        padding: '5px',
+        borderBottomLeftRadius: 10,
+        borderBottomRightRadius: 10,
+      }}
+    >
+      <Box
+        sx={{
+          color: colors.backgroundColor,
+          fontWeight: 'bold',
+          textAlign: 'center',
+          fontSize: 18,
+        }}
+      >
+        난이도
+      </Box>
+      <Box
+        sx={{
+          borderColor: colors.backgroundColor,
+          borderWidth: '0 0 4',
+          borderStyle: 'dashed',
+          width: '100%',
+        }}
+      />
+      <Box
+        sx={{
+          color: colors.backgroundColor,
+          fontWeight: 'bold',
+          fontSize: 24,
+          textAlign: 'center',
+        }}
+      >
+        {difficulty === 'corruption'
+          ? '침식'
+          : difficulty === 'abstinence'
+          ? '절제'
+          : '겁화'}
+      </Box>
+      <Box
+        sx={{
+          borderColor: colors.backgroundColor,
+          borderWidth: '0 0 4',
+          borderStyle: 'dashed',
+          width: '100%',
+        }}
+      />
+      <Box
+        sx={{
+          color: colors.backgroundColor,
+          fontWeight: 'bold',
+          textAlign: 'center',
+          fontSize: 18,
+        }}
+      >
+        추천
+      </Box>
+    </Box>
+  )
+}
+
+export default DifficultyBox
