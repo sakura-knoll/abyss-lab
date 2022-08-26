@@ -82,6 +82,38 @@ const ERGuideGenerator = ({
         bot: 'carlo-collodi-bot',
       },
     ],
+    signets: [
+      {
+        type: 'core',
+        group: 'vill-v',
+        nexus: 2,
+        description: '',
+      },
+      {
+        type: 'core',
+        group: 'vill-v',
+        nexus: 2,
+        description: '',
+      },
+      {
+        type: 'sub',
+        group: 'vill-v',
+        nexus: 2,
+        description: '',
+      },
+      {
+        type: 'sub',
+        group: 'vill-v',
+        nexus: 2,
+        description: '',
+      },
+      {
+        type: 'sub',
+        group: 'vill-v',
+        nexus: 2,
+        description: '',
+      },
+    ],
   })
 
   const updateData = useCallback<DataUpdater>(
@@ -111,7 +143,7 @@ const ERGuideGenerator = ({
             color: '#FFF',
           }}
         >
-          <SignetBox />
+          <SignetBox signets={data.signets} />
           <DifficultyBox difficulty={data.difficulty} />
           <ValkBox
             battlesuitId={data.battlesuitId}

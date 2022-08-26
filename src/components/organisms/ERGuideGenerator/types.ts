@@ -27,6 +27,13 @@ export interface EquipmentSet {
   bot: string
 }
 
+export interface ERGGSignet {
+  group: string
+  type: 'core' | 'start' | 'sub'
+  nexus: 1 | 2
+  description: string
+}
+
 export type Data = {
   battlesuitId: string
   difficulty: Difficulty
@@ -34,4 +41,5 @@ export type Data = {
   supportSets: SupportSet[]
   sigilSets: SigilSet[]
   equipmentSets: EquipmentSet[]
+  signets: ERGGSignet[]
 }
