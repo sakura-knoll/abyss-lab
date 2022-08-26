@@ -16,7 +16,7 @@ import SigilBox from './SigilBox'
 import SupportBox from './SupportBox'
 import DataForm from './DataForm'
 import EquipmentBox from './EquipmentBox'
-import { Data, DataUpdater } from './types'
+import { Data, DataUpdater, ExSignetType } from './types'
 
 interface ERGuideGeneratorProps {
   weapons: WeaponData[]
@@ -24,6 +24,8 @@ interface ERGuideGeneratorProps {
   exSignetGroup: PopulatedSignetGroup
   sigils: RemembranceSigil[]
 }
+
+const exSignetTypes: ExSignetType[] = ['start', '1st', '2nd', 'backup', 'na']
 
 const ERGuideGenerator = ({
   weapons,
@@ -34,7 +36,15 @@ const ERGuideGenerator = ({
   const [data, setData] = useState<Data>({
     battlesuitId: 'vill-v',
     difficulty: 'corruption',
-    exSignets: [],
+    exSignets:
+      exSignetGroup.sets
+        .find((set) => set.id === 'elysia-vill-v')
+        ?.signets.map((signet, index) => {
+          return {
+            type: exSignetTypes[index],
+            name: signet.name,
+          }
+        }) || [],
     supportSets: [
       { type: 'util', battlesuitIds: ['le', 'ae'] },
       { type: 'dps', battlesuitIds: ['br', 'ae'] },
