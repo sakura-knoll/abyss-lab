@@ -27,6 +27,7 @@ import { useMemo } from 'react'
 import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
 import DifficultySelect from './DifficultySelect'
 import { getExSignetLabel } from './utils'
+import BattlesuitSelect from './BattlesuitSelect'
 
 interface DataFormProps {
   updateData: DataUpdater
@@ -41,34 +42,12 @@ const DataForm = ({
   battlesuits,
   exSignetGroup,
 }: DataFormProps) => {
-  const battlesuitOptions = useMemo(() => {
-    return erVersions
-      .reduce<string[]>((battlesuitIds, version) => {
-        return [...battlesuitIds, ...version.battlesuits]
-      }, [])
-      .map((battlesuitId) => {
-        const battlesuit = battlesuits.find((aBattlesuit) => {
-          return aBattlesuit.id === battlesuitId
-        })
-        if (battlesuit == null) {
-          return {
-            value: 'unknown',
-            label: 'unknown',
-          }
-        }
-        return {
-          value: battlesuit.id,
-          label: battlesuit.name,
-        }
-      })
-  }, [battlesuits])
   const sensors = useSensors(
     useSensor(PointerSensor),
     useSensor(KeyboardSensor, {
       coordinateGetter: sortableKeyboardCoordinates,
     })
   )
-
   const supportBattlesuitOptions = useMemo(() => {
     return supportBattlesuitIds.map((battlesuitId) => {
       const battlesuit = battlesuits.find((aBattlesuit) => {
@@ -98,16 +77,17 @@ const DataForm = ({
       </Box>
       <Box>
         <Label>발키리</Label>
-        <ReactSelect
-          instanceId={'battlesuit-select'}
-          defaultValue={battlesuitOptions[0]}
-          onChange={(option) => {
-            if (option == null) {
-              return
-            }
-            updateData('battlesuitId', option.value)
+        <BattlesuitSelect
+          instanceId='battlesuit-select'
+          battlesuits={battlesuits}
+          optionIds={erVersions.reduce<string[]>((battlesuitIds, version) => {
+            return [...battlesuitIds, ...version.battlesuits]
+          }, [])}
+          value={data.battlesuitId}
+          onChange={(newValue) => {
+            updateData('battlesuitId', newValue)
             const exSignetSet = exSignetGroup.sets.find((signetSet) => {
-              return signetSet.id === `elysia-${option.value}`
+              return signetSet.id === `elysia-${newValue}`
             })
             if (exSignetSet != null) {
               updateData(
@@ -123,27 +103,6 @@ const DataForm = ({
                 })
               )
             }
-          }}
-          options={battlesuitOptions}
-          components={{
-            Option: (props) => {
-              return (
-                <>
-                  <components.Option {...props}>
-                    <Flex sx={{ alignItems: 'center', color: 'black' }}>
-                      <Image
-                        width={20}
-                        height={20}
-                        alt={props.data.label}
-                        src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/portrait-${props.data.value}.png`}
-                        mr={2}
-                      />
-                      {props.children}
-                    </Flex>
-                  </components.Option>
-                </>
-              )
-            },
           }}
         />
       </Box>
