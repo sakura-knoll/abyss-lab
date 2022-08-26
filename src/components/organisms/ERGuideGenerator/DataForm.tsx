@@ -1,6 +1,4 @@
-import { Box, Flex, Image, Label, Select } from 'theme-ui'
-import ReactSelect, { components } from 'react-select'
-import { assetsBucketBaseUrl } from '../../../lib/consts'
+import { Box, Flex, Label, Select } from 'theme-ui'
 import { Data, DataUpdater, ExSignetType } from './types'
 import {
   erVersions,
@@ -23,7 +21,6 @@ import {
   verticalListSortingStrategy,
 } from '@dnd-kit/sortable'
 import { CSS } from '@dnd-kit/utilities'
-import { useMemo } from 'react'
 import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
 import DifficultySelect from './DifficultySelect'
 import { getExSignetLabel } from './utils'
@@ -48,23 +45,6 @@ const DataForm = ({
       coordinateGetter: sortableKeyboardCoordinates,
     })
   )
-  const supportBattlesuitOptions = useMemo(() => {
-    return supportBattlesuitIds.map((battlesuitId) => {
-      const battlesuit = battlesuits.find((aBattlesuit) => {
-        return aBattlesuit.id === battlesuitId
-      })
-      if (battlesuit == null) {
-        return {
-          value: 'unknown',
-          label: 'unknown',
-        }
-      }
-      return {
-        value: battlesuit.id,
-        label: battlesuit.name,
-      }
-    })
-  }, [battlesuits])
 
   return (
     <Box>
@@ -180,96 +160,33 @@ const DataForm = ({
       <Box>
         <Label>서포트 발키리</Label>
         {data.supportSets.map((supportSet, index) => {
-          const support1 = battlesuits.find((battlesuit) => {
-            return battlesuit.id === supportSet.battlesuitIds[0]
-          })
-          const support2 = battlesuits.find((battlesuit) => {
-            return battlesuit.id === supportSet.battlesuitIds[1]
-          })
-
           return (
             <Box key={index}>
               <Box>{supportSet.type === 'util' ? '유틸' : '딜링'}</Box>
               <Box>
                 <Box sx={{ mb: 1 }}>
-                  <ReactSelect
+                  <BattlesuitSelect
                     instanceId={`battlesuit-support-select-${index}-1`}
-                    value={
-                      support1 != null
-                        ? { label: support1.name, value: support1.id }
-                        : null
-                    }
-                    onChange={(option) => {
-                      if (option == null) {
-                        return
-                      }
+                    value={supportSet.battlesuitIds[0]}
+                    optionIds={supportBattlesuitIds}
+                    battlesuits={battlesuits}
+                    onChange={(newValue) => {
                       const newSupportSets = data.supportSets.slice()
-                      newSupportSets[index].battlesuitIds[0] = option.value
+                      newSupportSets[index].battlesuitIds[0] = newValue
                       updateData('supportSets', newSupportSets)
-                    }}
-                    options={supportBattlesuitOptions}
-                    components={{
-                      Option: (props) => {
-                        return (
-                          <>
-                            <components.Option {...props}>
-                              <Flex
-                                sx={{ alignItems: 'center', color: 'black' }}
-                              >
-                                <Image
-                                  width={20}
-                                  height={20}
-                                  alt={props.data.label}
-                                  src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/portrait-${props.data.value}.png`}
-                                  mr={2}
-                                />
-                                {props.children}
-                              </Flex>
-                            </components.Option>
-                          </>
-                        )
-                      },
                     }}
                   />
                 </Box>
                 <Box sx={{ mb: 1 }}>
-                  <ReactSelect
+                  <BattlesuitSelect
                     instanceId={`battlesuit-support-select-${index}-2`}
-                    value={
-                      support2 != null
-                        ? { label: support2.name, value: support2.id }
-                        : null
-                    }
-                    onChange={(option) => {
-                      if (option == null) {
-                        return
-                      }
+                    value={supportSet.battlesuitIds[1]}
+                    optionIds={supportBattlesuitIds}
+                    battlesuits={battlesuits}
+                    onChange={(newValue) => {
                       const newSupportSets = data.supportSets.slice()
-                      newSupportSets[index].battlesuitIds[1] = option.value
+                      newSupportSets[index].battlesuitIds[1] = newValue
                       updateData('supportSets', newSupportSets)
-                    }}
-                    options={supportBattlesuitOptions}
-                    components={{
-                      Option: (props) => {
-                        return (
-                          <>
-                            <components.Option {...props}>
-                              <Flex
-                                sx={{ alignItems: 'center', color: 'black' }}
-                              >
-                                <Image
-                                  width={20}
-                                  height={20}
-                                  alt={props.data.label}
-                                  src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/portrait-${props.data.value}.png`}
-                                  mr={2}
-                                />
-                                {props.children}
-                              </Flex>
-                            </components.Option>
-                          </>
-                        )
-                      },
                     }}
                   />
                 </Box>
