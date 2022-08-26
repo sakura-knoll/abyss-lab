@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-page-custom-font */
-import { useCallback, useMemo, useState } from 'react'
+import { useCallback, useState } from 'react'
 import { Box, Flex } from 'theme-ui'
 import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
@@ -8,10 +8,7 @@ import FontHead from './FontHead'
 import SignetBox from './SignetBox'
 import { colors } from './styles'
 import ValkBox from './ValkBox'
-import {
-  erVersions,
-  PopulatedSignetGroup,
-} from '../../../lib/honkai3rd/elysianRealm'
+import { PopulatedSignetGroup } from '../../../lib/honkai3rd/elysianRealm'
 import SigilBox from './SigilBox'
 import SupportBox from './SupportBox'
 import DataForm from './DataForm'
@@ -29,32 +26,15 @@ const ERGuideGenerator = ({
   battlesuits,
   exSignetGroup,
 }: ERGuideGeneratorProps) => {
-  const battlesuitOptions = useMemo(() => {
-    return erVersions
-      .reduce<string[]>((battlesuitIds, version) => {
-        return [...battlesuitIds, ...version.battlesuits]
-      }, [])
-      .map((battlesuitId) => {
-        const battlesuit = battlesuits.find((aBattlesuit) => {
-          return aBattlesuit.id === battlesuitId
-        })
-        if (battlesuit == null) {
-          return {
-            value: 'unknown',
-            label: 'unknown',
-          }
-        }
-        return {
-          value: battlesuit.id,
-          label: battlesuit.name,
-        }
-      })
-  }, [battlesuits])
-
   const [data, setData] = useState<Data>({
-    battlesuitId: battlesuitOptions[0].value,
+    battlesuitId: 'vill-v',
     difficulty: 'corruption',
     exSignets: [],
+    supportSets: [
+      { type: 'util', battlesuitIds: ['le', 'ae'] },
+      { type: 'dps', battlesuitIds: ['br', 'ae'] },
+    ],
+    sigilSets: [],
   })
 
   const updateData = useCallback<DataUpdater>(
@@ -75,30 +55,35 @@ const ERGuideGenerator = ({
     <Box>
       <FontHead />
       <Flex>
-        <Box
-          sx={{
-            width: 960,
-            height: 640,
-            position: 'relative',
-            backgroundColor: colors.backgroundColor,
-            color: '#FFF',
-          }}
-        >
-          <SignetBox />
-          <DifficultyBox difficulty={data.difficulty} />
-          <ValkBox
-            battlesuitId={data.battlesuitId}
-            exSignets={data.exSignets}
-          />
-          <SupportBox />
-          <SigilBox />
-          <EquipmentBox />
+        <Box sx={{ width: 960 }}>
+          <Box
+            sx={{
+              width: 960,
+              height: 640,
+              position: 'relative',
+              backgroundColor: colors.backgroundColor,
+              color: '#FFF',
+            }}
+          >
+            <SignetBox />
+            <DifficultyBox difficulty={data.difficulty} />
+            <ValkBox
+              battlesuitId={data.battlesuitId}
+              exSignets={data.exSignets}
+            />
+            <SupportBox
+              battlesuits={battlesuits}
+              supportSets={data.supportSets}
+            />
+            <SigilBox />
+            <EquipmentBox />
+          </Box>
         </Box>
 
         <Box sx={{ flexGrow: 1, p: 2 }}>
           <DataForm
             exSignetGroup={exSignetGroup}
-            battlesuitOptions={battlesuitOptions}
+            battlesuits={battlesuits}
             updateData={updateData}
             data={data}
           />
