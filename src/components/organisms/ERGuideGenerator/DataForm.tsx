@@ -172,7 +172,17 @@ const DataForm = ({
                     battlesuits={battlesuits}
                     onChange={(newValue) => {
                       const newSupportSets = data.supportSets.slice()
+                      newSupportSets[index] = {
+                        ...newSupportSets[index],
+                        battlesuitIds: [...newSupportSets[index].battlesuitIds],
+                      }
                       newSupportSets[index].battlesuitIds[0] = newValue
+                      if (
+                        data.supportSets[index].battlesuitIds[1] === newValue
+                      ) {
+                        newSupportSets[index].battlesuitIds[1] =
+                          data.supportSets[index].battlesuitIds[0]
+                      }
                       updateData('supportSets', newSupportSets)
                     }}
                   />
@@ -185,7 +195,17 @@ const DataForm = ({
                     battlesuits={battlesuits}
                     onChange={(newValue) => {
                       const newSupportSets = data.supportSets.slice()
+                      newSupportSets[index] = {
+                        ...newSupportSets[index],
+                        battlesuitIds: [...newSupportSets[index].battlesuitIds],
+                      }
                       newSupportSets[index].battlesuitIds[1] = newValue
+                      if (
+                        data.supportSets[index].battlesuitIds[0] === newValue
+                      ) {
+                        newSupportSets[index].battlesuitIds[0] =
+                          data.supportSets[index].battlesuitIds[1]
+                      }
                       updateData('supportSets', newSupportSets)
                     }}
                   />
