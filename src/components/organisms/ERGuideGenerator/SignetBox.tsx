@@ -1,3 +1,4 @@
+import React from 'react'
 import { Box, Flex, Image, Paragraph } from 'theme-ui'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
 import { ERGGSignet } from './types'
@@ -21,9 +22,8 @@ const SignetBox = ({ signets }: SignetBoxProps) => {
 
         const signetRadius = 40
         return (
-          <>
+          <React.Fragment key={index}>
             <Flex
-              key={index}
               sx={{
                 position: 'absolute',
                 zIndex: 1,
@@ -105,7 +105,7 @@ const SignetBox = ({ signets }: SignetBoxProps) => {
               </Flex>
               <Paragraph>{signet.description}</Paragraph>
             </Flex>
-          </>
+          </React.Fragment>
         )
       })}
     </>
