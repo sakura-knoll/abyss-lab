@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-page-custom-font */
-import { useCallback, useRef, useState } from 'react'
-import { Box, Button } from 'theme-ui'
+import { useCallback, useEffect, useRef, useState } from 'react'
+import { Box, Button, Label, Textarea } from 'theme-ui'
 import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
 import DifficultyBox from './DifficultyBox'
@@ -134,6 +134,17 @@ const ERGuideGenerator = ({
     [setData]
   )
 
+  const [customStyle, setCustomStyle] = useState('')
+  const loadedRef = useRef(false)
+  useEffect(() => {
+    if (loadedRef.current) {
+      localStorage.setItem('ergg:customStyle', customStyle)
+    } else {
+      setCustomStyle(localStorage.getItem('ergg:customStyle') || '')
+      loadedRef.current = true
+    }
+  }, [customStyle])
+
   return (
     <Box>
       <Box sx={{ width: 960 }}>
@@ -147,6 +158,11 @@ const ERGuideGenerator = ({
             color: '#FFF',
           }}
         >
+          <style
+            dangerouslySetInnerHTML={{
+              __html: customStyle,
+            }}
+          />
           <SignetBox signets={data.signets} />
           <DifficultyBox difficulty={data.difficulty} />
           <ValkBox
@@ -179,6 +195,15 @@ const ERGuideGenerator = ({
         >
           Download
         </Button>
+        <Box>
+          <Label>Custom Style(Don't paste any suspicious scripts!!)</Label>
+          <Textarea
+            value={customStyle}
+            onChange={(event) => {
+              setCustomStyle(event.target.value)
+            }}
+          />
+        </Box>
       </Box>
 
       <DataForm
