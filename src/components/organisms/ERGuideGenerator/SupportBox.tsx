@@ -13,9 +13,6 @@ const SupportBox = ({ supportSets }: SupportBoxProps) => {
     <Box
       sx={{
         padding: '5px',
-        position: 'absolute',
-        bottom: 165,
-        left: 15,
         border: 'solid 1px gray',
       }}
     >
@@ -44,6 +41,9 @@ const SupportBox = ({ supportSets }: SupportBoxProps) => {
                 borderRadius: '5px',
                 position: 'relative',
                 mr: '5px',
+                '&:last-child': {
+                  mr: 0,
+                },
               }}
             >
               <Box

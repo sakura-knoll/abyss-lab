@@ -152,12 +152,26 @@ const ERGuideGenerator = ({
           ref={guideRef}
           sx={{
             width: 960,
-            height: 640,
+            height: 600,
             position: 'relative',
             backgroundColor: colors.backgroundColor,
             color: '#FFF',
           }}
         >
+          <Box
+            sx={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: 960,
+              height: 600,
+              opacity: 0.15,
+              backgroundImage: `url('/assets/erbg.png')`,
+              backgroundSize: 1300,
+              backgroundPositionY: -55,
+              backgroundPositionX: -30,
+            }}
+          ></Box>
           <style
             dangerouslySetInnerHTML={{
               __html: customStyle,
@@ -165,16 +179,41 @@ const ERGuideGenerator = ({
           />
           <SignetBox signets={data.signets} />
           <DifficultyBox difficulty={data.difficulty} />
+
           <ValkBox
             battlesuitId={data.battlesuitId}
             exSignets={data.exSignets}
           />
-          <SupportBox
-            battlesuits={battlesuits}
-            supportSets={data.supportSets}
-          />
-          <SigilBox sigilSets={data.sigilSets} />
-          <EquipmentBox equipmentSets={data.equipmentSets} />
+          <Box
+            sx={{
+              position: 'absolute',
+              bottom: 165,
+              left: 15,
+            }}
+          >
+            <SupportBox
+              battlesuits={battlesuits}
+              supportSets={data.supportSets}
+            />
+          </Box>
+          <Box
+            sx={{
+              position: 'absolute',
+              bottom: 90,
+              left: 15,
+            }}
+          >
+            <SigilBox sigilSets={data.sigilSets} />
+          </Box>
+          <Box
+            sx={{
+              position: 'absolute',
+              bottom: '15px',
+              left: 15,
+            }}
+          >
+            <EquipmentBox equipmentSets={data.equipmentSets} />
+          </Box>
         </Box>
       </Box>
 
@@ -196,7 +235,7 @@ const ERGuideGenerator = ({
           Download
         </Button>
         <Box>
-          <Label>Custom Style(Don't paste any suspicious scripts!!)</Label>
+          <Label>Custom Style(Don&apos;t paste any suspicious scripts!!)</Label>
           <Textarea
             value={customStyle}
             onChange={(event) => {

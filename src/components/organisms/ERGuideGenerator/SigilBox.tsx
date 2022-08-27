@@ -12,9 +12,6 @@ const SigilBox = ({ sigilSets }: SigilBoxProps) => {
     <Box
       sx={{
         padding: '5px',
-        position: 'absolute',
-        bottom: 85,
-        left: 15,
         border: 'solid 1px gray',
       }}
     >
@@ -43,6 +40,9 @@ const SigilBox = ({ sigilSets }: SigilBoxProps) => {
                 borderRadius: '5px',
                 position: 'relative',
                 mr: '5px',
+                '&:last-child': {
+                  mr: 0,
+                },
               }}
             >
               <Box
@@ -76,7 +76,7 @@ const SigilBox = ({ sigilSets }: SigilBoxProps) => {
                   src={`${assetsBucketBaseUrl}/honkai3rd/elysian-realm/remembrance-sigils/${sigilSet.sigilIds[1]}.png`}
                   width={40}
                   height={40}
-                  sx={{ mr: '5px', borderRadius: 5 }}
+                  sx={{ borderRadius: 5 }}
                 />
               </Box>
             </Box>

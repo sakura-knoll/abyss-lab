@@ -91,15 +91,19 @@ const SignetBox = ({ signets }: SignetBoxProps) => {
                   justifyContent: 'center',
                   alignItems: 'center',
                   mr: '5px',
+                  flexShrink: 0,
                 }}
               >
                 <Box sx={{ fontSize: 4, lineHeight: 1.3, fontWeight: 'bold' }}>
                   <Box>
-                    {signet.type === 'core'
-                      ? '핵심'
-                      : signet.type === 'start'
-                      ? '과도'
-                      : '보조'}
+                    <Box>
+                      {signet.type === 'core'
+                        ? '핵심'
+                        : signet.type === 'start'
+                        ? '과도'
+                        : '보조'}
+                    </Box>
+                    <Box>각인</Box>
                   </Box>
                 </Box>
               </Flex>

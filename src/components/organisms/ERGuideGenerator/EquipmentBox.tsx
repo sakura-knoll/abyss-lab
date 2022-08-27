@@ -11,9 +11,6 @@ const EquipmentBox = ({ equipmentSets }: EquipmentBoxProps) => {
     <Box
       sx={{
         padding: '5px',
-        position: 'absolute',
-        bottom: '5px',
-        left: 15,
         border: 'solid 1px gray',
       }}
     >
@@ -29,6 +26,7 @@ const EquipmentBox = ({ equipmentSets }: EquipmentBoxProps) => {
             mr: '5px',
           }}
         >
+          <Box>추천</Box>
           <Box>장비</Box>
         </Box>
         {equipmentSets.map((equipmentSet, index) => {
@@ -41,6 +39,9 @@ const EquipmentBox = ({ equipmentSets }: EquipmentBoxProps) => {
                 borderRadius: '5px',
                 position: 'relative',
                 mr: '5px',
+                '&:last-child': {
+                  mr: 0,
+                },
               }}
             >
               <Box
@@ -64,7 +65,7 @@ const EquipmentBox = ({ equipmentSets }: EquipmentBoxProps) => {
                   src={`${assetsBucketBaseUrl}/honkai3rd/weapons/${equipmentSet.weapon}.png`}
                   width={40}
                   height={40}
-                  sx={{ borderRadius: '5px', mr: '5px' }}
+                  sx={{ borderRadius: '5px' }}
                 />
                 <Image
                   alt=''
