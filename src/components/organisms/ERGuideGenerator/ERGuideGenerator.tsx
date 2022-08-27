@@ -4,7 +4,6 @@ import { Box, Button } from 'theme-ui'
 import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
 import DifficultyBox from './DifficultyBox'
-import FontHead from './FontHead'
 import SignetBox from './SignetBox'
 import { colors } from './styles'
 import ValkBox from './ValkBox'
@@ -137,7 +136,6 @@ const ERGuideGenerator = ({
 
   return (
     <Box>
-      <FontHead />
       <Box sx={{ width: 960 }}>
         <Box
           ref={guideRef}
