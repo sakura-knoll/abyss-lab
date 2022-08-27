@@ -125,6 +125,7 @@ const ValkExSignetBox = ({
           lineHeight: 1,
           textAlign: 'center',
         }}
+        className='exSignetLabel'
       >
         <Text>{label}</Text>
       </Flex>

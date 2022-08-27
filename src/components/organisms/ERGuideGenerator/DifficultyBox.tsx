@@ -23,13 +23,14 @@ const DifficultyBox = ({ difficulty }: DifficultyBoxProps) => {
         borderBottomLeftRadius: 10,
         borderBottomRightRadius: 10,
       }}
+      className='difficultyLabel'
     >
       <Box
         sx={{
           color: colors.backgroundColor,
           fontWeight: 'bold',
           textAlign: 'center',
-          fontSize: 18,
+          fontSize: 16,
         }}
       >
         난이도
@@ -46,7 +47,7 @@ const DifficultyBox = ({ difficulty }: DifficultyBoxProps) => {
         sx={{
           color: colors.backgroundColor,
           fontWeight: 'bold',
-          fontSize: 24,
+          fontSize: 25,
           textAlign: 'center',
         }}
       >
@@ -69,7 +70,7 @@ const DifficultyBox = ({ difficulty }: DifficultyBoxProps) => {
           color: colors.backgroundColor,
           fontWeight: 'bold',
           textAlign: 'center',
-          fontSize: 18,
+          fontSize: 16,
         }}
       >
         추천
