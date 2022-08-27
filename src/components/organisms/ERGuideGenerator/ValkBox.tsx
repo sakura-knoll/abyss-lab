@@ -119,11 +119,19 @@ const ValkExSignetBox = ({
           backgroundColor: colors.backgroundColor,
           alignItems: 'center',
           justifyContent: 'center',
-          fontSize: label.length > 3 ? 14 : label.length > 2 ? 16 : 20,
+          fontSize:
+            label.length > 3
+              ? label.indexOf('\n') >= 0
+                ? '14px'
+                : '11px'
+              : label.length > 2
+              ? 16
+              : 20,
           width: 50,
           height: 50,
-          lineHeight: 1,
+          lineHeight: 1.2,
           textAlign: 'center',
+          whiteSpace: 'pre',
         }}
         className='exSignetLabel'
       >
