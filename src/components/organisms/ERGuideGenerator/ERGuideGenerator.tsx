@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { Box, Button, Label, Textarea } from 'theme-ui'
+import { Box, Button, Heading, Label, Textarea } from 'theme-ui'
 import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
 import DifficultyBox from './DifficultyBox'
@@ -152,19 +152,54 @@ const ERGuideGenerator = ({
           ref={guideRef}
           sx={{
             width: 960,
-            height: 600,
+            height: 630,
             position: 'relative',
             backgroundColor: colors.backgroundColor,
             color: '#FFF',
+            fontFamily: `'NanumSquare', sans-serif`,
           }}
         >
+          <style
+            dangerouslySetInnerHTML={{
+              __html: `@font-face {
+              font-family: 'GyeonggiTitleM';
+              src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiTitleM.woff') format('woff');
+              font-weight: normal;
+              font-style: normal;
+          }
+          @font-face {
+            font-family: 'YdestreetB';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/YdestreetB.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+        @font-face {
+          font-family: 'ghanachoco';
+          src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ghanachoco.woff') format('woff');
+          font-weight: normal;
+          font-style: normal;
+      }
+
+
+      .exSignetLabel {
+        font-family: 'ghanachoco';
+      }
+
+      .difficultyLabel {
+
+        font-family: 'YdestreetB';
+      }
+          `,
+            }}
+          />
           <Box
             sx={{
               position: 'absolute',
               top: 0,
               left: 0,
               width: 960,
-              height: 600,
+              height: 630,
               opacity: 0.15,
               backgroundImage: `url('/assets/erbg.png')`,
               backgroundSize: 1300,
@@ -187,7 +222,7 @@ const ERGuideGenerator = ({
           <Box
             sx={{
               position: 'absolute',
-              bottom: 165,
+              bottom: 175,
               left: 15,
             }}
           >
@@ -199,7 +234,7 @@ const ERGuideGenerator = ({
           <Box
             sx={{
               position: 'absolute',
-              bottom: 90,
+              bottom: 95,
               left: 15,
             }}
           >
@@ -234,15 +269,6 @@ const ERGuideGenerator = ({
         >
           Download
         </Button>
-        <Box>
-          <Label>Custom Style(Don&apos;t paste any suspicious scripts!!)</Label>
-          <Textarea
-            value={customStyle}
-            onChange={(event) => {
-              setCustomStyle(event.target.value)
-            }}
-          />
-        </Box>
       </Box>
 
       <DataForm
@@ -254,6 +280,32 @@ const ERGuideGenerator = ({
         weapons={weapons}
         stigmata={stigmata}
       />
+
+      <Box>
+        <Heading as='h3'>사용된 폰트</Heading>
+        <Box as='ul'>
+          <Box as='li'>
+            Y이드스트릿체 https://www.yspotlight.co.kr/brand/font?tabNo=1
+          </Box>
+          <Box as='li'>나눔스퀘어 https://hangeul.naver.com/2017/nanum</Box>
+          <Box as='li'>
+            경기천년제목
+            https://www.gg.go.kr/contents/contents.do?ciIdx=679&menuId=2457
+          </Box>
+          <Box as='li'>
+            가나초콜릿 hhttps://www.lotteconf.co.kr/prcenter/gana
+          </Box>
+        </Box>
+        <Box>
+          <Label>Custom Style(Don&apos;t paste any suspicious scripts!!)</Label>
+          <Textarea
+            value={customStyle}
+            onChange={(event) => {
+              setCustomStyle(event.target.value)
+            }}
+          />
+        </Box>
+      </Box>
     </Box>
   )
 }
