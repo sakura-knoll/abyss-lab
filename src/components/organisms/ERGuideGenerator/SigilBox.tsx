@@ -13,6 +13,9 @@ const SigilBox = ({ sigilSets }: SigilBoxProps) => {
       sx={{
         padding: '5px',
         border: 'solid 1px gray',
+        boxSizing: 'border-box',
+        backgroundColor: '#181614',
+        boxShadow: '5px 5px 10px rgba(0,0,0,0.5)',
       }}
     >
       <Flex sx={{ height: 60 }}>
@@ -25,6 +28,7 @@ const SigilBox = ({ sigilSets }: SigilBoxProps) => {
             flexDirection: 'column',
             justifyContent: 'center',
             mr: '5px',
+            width: 55,
           }}
         >
           <Box>회상의</Box>

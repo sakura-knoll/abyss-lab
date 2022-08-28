@@ -12,6 +12,9 @@ const EquipmentBox = ({ equipmentSets }: EquipmentBoxProps) => {
       sx={{
         padding: '5px',
         border: 'solid 1px gray',
+        boxSizing: 'border-box',
+        backgroundColor: '#181614',
+        boxShadow: '5px 5px 10px rgba(0,0,0,0.5)',
       }}
     >
       <Flex sx={{ height: 60 }}>
@@ -24,6 +27,7 @@ const EquipmentBox = ({ equipmentSets }: EquipmentBoxProps) => {
             flexDirection: 'column',
             justifyContent: 'center',
             mr: '5px',
+            width: 55,
           }}
         >
           <Box>추천</Box>
@@ -65,7 +69,7 @@ const EquipmentBox = ({ equipmentSets }: EquipmentBoxProps) => {
                   src={`${assetsBucketBaseUrl}/honkai3rd/weapons/${equipmentSet.weapon}.png`}
                   width={40}
                   height={40}
-                  sx={{ borderRadius: '5px' }}
+                  sx={{ borderRadius: '5px', mr: '5px' }}
                 />
                 <Image
                   alt=''

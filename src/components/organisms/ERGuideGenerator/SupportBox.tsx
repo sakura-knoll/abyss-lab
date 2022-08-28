@@ -14,6 +14,9 @@ const SupportBox = ({ supportSets }: SupportBoxProps) => {
       sx={{
         padding: '5px',
         border: 'solid 1px gray',
+        boxSizing: 'border-box',
+        backgroundColor: '#181614',
+        boxShadow: '5px 5px 10px rgba(0,0,0,0.5)',
       }}
     >
       <Flex>
@@ -25,6 +28,7 @@ const SupportBox = ({ supportSets }: SupportBoxProps) => {
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center',
+            width: 55,
             mr: '5px',
           }}
         >
@@ -70,7 +74,11 @@ const SupportBox = ({ supportSets }: SupportBoxProps) => {
                       src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/portrait-${battlesuitId}.png`}
                       width={40}
                       height={40}
-                      sx={{ mr: '5px', '&:last-child': { mr: 0 } }}
+                      sx={{
+                        borderRadius: '5px',
+                        mr: '5px',
+                        '&:last-child': { mr: 0 },
+                      }}
                     />
                   )
                 })}
