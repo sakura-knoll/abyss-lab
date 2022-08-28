@@ -185,10 +185,14 @@ const ERGuideGenerator = ({
       .exSignetLabel {
         font-family: 'ghanachoco';
       }
-
       .difficultyLabel {
-
         font-family: 'YdestreetB';
+      }
+      .signetTypeLabel {
+        font-family: 'YdestreetB';
+      }
+      .signetDescription {
+        font-family: 'GyeonggiTitleM';
       }
           `,
             }}

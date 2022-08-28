@@ -75,8 +75,10 @@ const SignetBox = ({ signets }: SignetBoxProps) => {
               sx={{
                 top: `${descriptionTop - 40}px`,
                 height: 80,
-                border: '2px solid #FBECE5',
-                padding: '5px',
+                border: 'solid 1px gray',
+                boxSizing: 'border-box',
+                backgroundColor: 'rgba(0,0,0,0.5)',
+                boxShadow: '5px 5px 10px rgba(0,0,0,0.5)',
                 width: 330,
                 position: 'absolute',
                 right: 10,
@@ -85,16 +87,29 @@ const SignetBox = ({ signets }: SignetBoxProps) => {
             >
               <Flex
                 sx={{
-                  width: 60,
+                  width: 80,
                   height: 60,
-                  borderRight: '2px solid #FBECE5',
+                  borderRight: 'solid 1px gray',
                   justifyContent: 'center',
                   alignItems: 'center',
                   mr: '5px',
                   flexShrink: 0,
                 }}
               >
-                <Box sx={{ fontSize: 4, lineHeight: 1.3, fontWeight: 'bold' }}>
+                <Box
+                  sx={{
+                    fontSize: 4,
+                    lineHeight: 1.3,
+                    fontWeight: 'bold',
+                    color:
+                      signet.type === 'core'
+                        ? '#E39070'
+                        : signet.type === 'start'
+                        ? '#FEDEC2'
+                        : '#A59A9B',
+                  }}
+                  className='signetTypeLabel'
+                >
                   <Box>
                     <Box>
                       {signet.type === 'core'
@@ -107,7 +122,12 @@ const SignetBox = ({ signets }: SignetBoxProps) => {
                   </Box>
                 </Box>
               </Flex>
-              <Paragraph>{signet.description}</Paragraph>
+              <Paragraph
+                className='signetDescription'
+                sx={{ padding: '5px', whiteSpace: 'pre-wrap' }}
+              >
+                {signet.description}
+              </Paragraph>
             </Flex>
           </React.Fragment>
         )
