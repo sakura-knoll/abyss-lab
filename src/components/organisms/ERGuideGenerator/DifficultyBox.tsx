@@ -39,7 +39,7 @@ const DifficultyBox = ({ difficulty }: DifficultyBoxProps) => {
       <Box
         sx={{
           borderColor: colors.backgroundColor,
-          borderWidth: '0 0 4',
+          borderWidth: '1px 0 1px',
           borderStyle: 'dashed',
           width: '100%',
         }}
@@ -61,7 +61,7 @@ const DifficultyBox = ({ difficulty }: DifficultyBoxProps) => {
       <Box
         sx={{
           borderColor: colors.backgroundColor,
-          borderWidth: '0 0 4',
+          borderWidth: '1px 0 1px',
           borderStyle: 'dashed',
           width: '100%',
         }}
