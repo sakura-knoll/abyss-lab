@@ -1,28 +1,28 @@
-export type ExSignetType = 'start' | '1st' | '2nd' | 'backup' | 'na'
+export type ERGGExSignetType = 'start' | '1st' | '2nd' | 'backup' | 'na'
 
-export interface ExSignet {
-  type: ExSignetType
+export interface ERGGExSignet {
+  type: ERGGExSignetType
   name: string
 }
 
-export type DataUpdater = <T extends keyof Data>(
+export type ERGGDataUpdater = <T extends keyof ERGGData>(
   key: T,
-  value: Data[T] | ((previousData: Data[T]) => Data[T])
+  value: ERGGData[T] | ((previousData: ERGGData[T]) => ERGGData[T])
 ) => void
 
-export interface SupportSet {
+export interface ERGGSupportSet {
   type: 'util' | 'dps'
   battlesuitIds: [string, string]
 }
 
-export interface SigilSet {
+export interface ERGGSigilSet {
   type: 'start' | 'mid' | 'end'
   sigilIds: [string, string]
 }
 
-export type Difficulty = 'abstinence' | 'corruption' | 'inferno'
+export type ERGGDifficulty = 'abstinence' | 'corruption' | 'inferno'
 
-export interface EquipmentSet {
+export interface ERGGEquipmentSet {
   type: 'best' | 'alt'
   weapon: string
   top: string
@@ -37,15 +37,15 @@ export interface ERGGSignet {
   description: string
 }
 
-export type Data = {
+export type ERGGData = {
   rank?: string
   tag: string
   signature: string
   battlesuitId: string
-  difficulty: Difficulty
-  exSignets: ExSignet[]
-  supportSets: SupportSet[]
-  sigilSets: SigilSet[]
-  equipmentSets: EquipmentSet[]
+  difficulty: ERGGDifficulty
+  exSignets: ERGGExSignet[]
+  supportSets: ERGGSupportSet[]
+  sigilSets: ERGGSigilSet[]
+  equipmentSets: ERGGEquipmentSet[]
   signets: ERGGSignet[]
 }

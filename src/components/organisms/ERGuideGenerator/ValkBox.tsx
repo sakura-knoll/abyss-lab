@@ -1,12 +1,12 @@
 import { Box, Flex, Text } from 'theme-ui'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
 import { colors } from './styles'
-import { ExSignet, ExSignetType } from './types'
+import { ERGGExSignet, ERGGExSignetType } from './types'
 import { getExSignetLabel } from './utils'
 
 interface ValkBoxProps {
   battlesuitId: string
-  exSignets: ExSignet[]
+  exSignets: ERGGExSignet[]
 }
 
 const ValkBox = ({ battlesuitId, exSignets }: ValkBoxProps) => {
@@ -59,7 +59,7 @@ const ValkExSignetBox = ({
   name,
 }: {
   index: number
-  type: ExSignetType
+  type: ERGGExSignetType
   name: string
 }) => {
   const label = getExSignetLabel(name)

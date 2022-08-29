@@ -1,5 +1,5 @@
 import { Box, Button, Flex, Input, Label, Select, Textarea } from 'theme-ui'
-import { Data, DataUpdater, ExSignetType } from './types'
+import { ERGGData, ERGGDataUpdater, ERGGExSignetType } from './types'
 import {
   erVersions,
   isGeneralSigil,
@@ -36,8 +36,8 @@ import EquipmentSetControl from './EquipmentSetControl'
 import SignetGroupSelect from './SignetGroupSelect'
 
 interface DataFormProps {
-  updateData: DataUpdater
-  data: Data
+  updateData: ERGGDataUpdater
+  data: ERGGData
   battlesuits: BattlesuitData[]
   exSignetGroup: PopulatedSignetGroup
   sigils: RemembranceSigil[]
@@ -195,7 +195,7 @@ const DataForm = ({
                           const newExSignets = data.exSignets.slice()
                           newExSignets[index] = {
                             ...data.exSignets[index],
-                            type: event.target.value as ExSignetType,
+                            type: event.target.value as ERGGExSignetType,
                           }
                           updateData('exSignets', newExSignets)
                         }}
@@ -476,7 +476,6 @@ const DataForm = ({
           </Box>
         </Box>
       </Flex>
-      <Box>{JSON.stringify(data)}</Box>
     </Box>
   )
 }

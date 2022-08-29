@@ -3,13 +3,13 @@ import { Box, Flex, Label } from 'theme-ui'
 import { StigmataData } from '../../../lib/honkai3rd/stigmata'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
 import StigmaSelect from './StigmaSelect'
-import { DataUpdater, EquipmentSet } from './types'
+import { ERGGDataUpdater, ERGGEquipmentSet } from './types'
 import WeaponSelect from './WeaponSelect'
 
 interface EquipmentSetControlProps {
   index: number
-  equipmentSet: EquipmentSet
-  updateData: DataUpdater
+  equipmentSet: ERGGEquipmentSet
+  updateData: ERGGDataUpdater
   weapons: WeaponData[]
   stigmata: StigmataData[]
   topStigmaIds: string[]

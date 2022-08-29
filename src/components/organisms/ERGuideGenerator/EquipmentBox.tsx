@@ -2,10 +2,10 @@ import { Box, Flex, Image } from 'theme-ui'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
 import { StigmataData } from '../../../lib/honkai3rd/stigmata'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
-import { EquipmentSet } from './types'
+import { ERGGEquipmentSet } from './types'
 
 interface EquipmentBoxProps {
-  equipmentSets: EquipmentSet[]
+  equipmentSets: ERGGEquipmentSet[]
   weapons: WeaponData[]
   stigmata: StigmataData[]
 }

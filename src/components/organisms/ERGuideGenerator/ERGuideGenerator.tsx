@@ -25,7 +25,7 @@ import SigilBox from './SigilBox'
 import SupportBox from './SupportBox'
 import DataForm from './DataForm'
 import EquipmentBox from './EquipmentBox'
-import { Data, DataUpdater, ExSignetType } from './types'
+import { ERGGData, ERGGDataUpdater, ERGGExSignetType } from './types'
 import { StigmataData } from '../../../lib/honkai3rd/stigmata'
 import { saveAs } from 'file-saver'
 import { toBlob } from 'html-to-image'
@@ -39,7 +39,13 @@ interface ERGuideGeneratorProps {
   sigils: RemembranceSigil[]
 }
 
-const exSignetTypes: ExSignetType[] = ['start', '1st', '2nd', 'backup', 'na']
+const exSignetTypes: ERGGExSignetType[] = [
+  'start',
+  '1st',
+  '2nd',
+  'backup',
+  'na',
+]
 
 const ERGuideGenerator = ({
   weapons,
@@ -48,7 +54,7 @@ const ERGuideGenerator = ({
   exSignetGroup,
   sigils,
 }: ERGuideGeneratorProps) => {
-  const [data, setData] = useState<Data>({
+  const [data, setData] = useState<ERGGData>({
     tag: '',
     signature:
       '작성자 : XXX\nAbyss Lab에서 생성됨\nhttps://abyss-lab.app/honkai3rd',
@@ -134,7 +140,7 @@ const ERGuideGenerator = ({
 
   const guideRef = useRef(null)
 
-  const updateData = useCallback<DataUpdater>(
+  const updateData = useCallback<ERGGDataUpdater>(
     (key, value) => {
       setData((previousData) => {
         const newData = {
@@ -405,8 +411,8 @@ const ERGuideGenerator = ({
         weapons={weapons}
         stigmata={stigmata}
       />
-
-      <Box>
+      <hr />
+      <Box sx={{ p: 2 }}>
         <Heading as='h3'>사용된 폰트</Heading>
         <Box as='ul'>
           <Box as='li'>
@@ -421,7 +427,7 @@ const ERGuideGenerator = ({
             가나초콜릿 hhttps://www.lotteconf.co.kr/prcenter/gana
           </Box>
         </Box>
-        <Box>
+        <Box sx={{ display: 'none' }}>
           <Label>Custom Style(Don&apos;t paste any suspicious scripts!!)</Label>
           <Textarea
             value={customStyle}

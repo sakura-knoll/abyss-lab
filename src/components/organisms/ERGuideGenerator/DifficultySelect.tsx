@@ -1,9 +1,9 @@
 import { Select } from 'theme-ui'
-import { Difficulty } from './types'
+import { ERGGDifficulty } from './types'
 
 interface DifficultySelectProps {
-  onChange: (newValue: Difficulty) => void
-  value: Difficulty
+  onChange: (newValue: ERGGDifficulty) => void
+  value: ERGGDifficulty
 }
 
 const DifficultySelect = ({ onChange, value }: DifficultySelectProps) => {

@@ -2,10 +2,10 @@ import { memo } from 'react'
 import { Box, Flex, Image } from 'theme-ui'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
 import { RemembranceSigil } from '../../../lib/honkai3rd/elysianRealm'
-import { SigilSet } from './types'
+import { ERGGSigilSet } from './types'
 
 interface SigilBoxProps {
-  sigilSets: SigilSet[]
+  sigilSets: ERGGSigilSet[]
   sigils: RemembranceSigil[]
 }
 

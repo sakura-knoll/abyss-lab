@@ -1,9 +1,9 @@
 import { Box, Flex, Image } from 'theme-ui'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
-import { SupportSet } from './types'
+import { ERGGSupportSet } from './types'
 
 interface SupportBoxProps {
-  supportSets: SupportSet[]
+  supportSets: ERGGSupportSet[]
 }
 
 const SupportBox = ({ supportSets }: SupportBoxProps) => {
