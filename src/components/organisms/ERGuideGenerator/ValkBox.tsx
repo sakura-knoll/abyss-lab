@@ -63,12 +63,14 @@ const ValkExSignetBox = ({
   name: string
 }) => {
   const label = getExSignetLabel(name)
+  const intervalAngle = 15
+  const angle = -intervalAngle * (index + 1) - 24
   return (
     <Box
       sx={{
         position: 'absolute',
-        top: 230 - 230 * Math.cos(((-20 * (index + 1)) / 180) * Math.PI) - 25,
-        left: 230 + 230 * Math.sin(((-20 * (index + 1)) / 180) * Math.PI) - 25,
+        top: 230 - 230 * Math.cos((angle / 180) * Math.PI) - 25,
+        left: 230 + 230 * Math.sin((angle / 180) * Math.PI) - 25,
         width: 50,
         height: 50,
       }}

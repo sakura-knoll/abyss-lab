@@ -121,6 +121,11 @@ export const theme: Theme = {
       lineHeight: 'heading',
     },
   },
+  forms: {
+    checkbox: {
+      color: 'border',
+    },
+  },
   buttons: {
     primary: {
       color: 'primary',

@@ -1,6 +1,15 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { Box, Button, Heading, Label, Textarea } from 'theme-ui'
+import {
+  Box,
+  Button,
+  Flex,
+  Heading,
+  Image,
+  Label,
+  Text,
+  Textarea,
+} from 'theme-ui'
 import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
 import { WeaponData } from '../../../lib/honkai3rd/weapons'
 import DifficultyBox from './DifficultyBox'
@@ -19,6 +28,7 @@ import { Data, DataUpdater, ExSignetType } from './types'
 import { StigmataData } from '../../../lib/honkai3rd/stigmata'
 import { saveAs } from 'file-saver'
 import { toBlob } from 'html-to-image'
+import { assetsBucketBaseUrl } from '../../../lib/consts'
 
 interface ERGuideGeneratorProps {
   weapons: WeaponData[]
@@ -38,6 +48,9 @@ const ERGuideGenerator = ({
   sigils,
 }: ERGuideGeneratorProps) => {
   const [data, setData] = useState<Data>({
+    tag: '',
+    signature:
+      '작성자 : XXX\nAbyss Lab에서 생성됨\nhttps://abyss-lab.app/honkai3rd',
     battlesuitId: 'vill-v',
     difficulty: 'corruption',
     exSignets:
@@ -197,6 +210,9 @@ const ERGuideGenerator = ({
       .signetGroupLabel {
         font-family: 'YdestreetB';
       }
+      .tagLabel {
+        font-family: 'YdestreetB';
+      }
           `,
             }}
           />
@@ -219,6 +235,54 @@ const ERGuideGenerator = ({
               __html: customStyle,
             }}
           />
+          <Flex
+            sx={{
+              position: 'absolute',
+              top: 15,
+              left: 85,
+            }}
+          >
+            {data.rank && (
+              <Image
+                alt={data.rank}
+                width={40}
+                height={40}
+                src={`${assetsBucketBaseUrl}/honkai3rd/rank-icons/${data.rank}-rank.png`}
+                sx={{ mr: '5px' }}
+              />
+            )}
+            {data.tag && (
+              <Box
+                sx={{
+                  padding: '5px',
+                  border: 'solid 1px gray',
+                  boxSizing: 'border-box',
+                  backgroundColor: '#181614',
+                  boxShadow: '5px 5px 10px rgba(0,0,0,0.5)',
+                }}
+                className='tagLabel'
+              >
+                {data.tag}
+              </Box>
+            )}
+          </Flex>
+          <Flex
+            sx={{
+              position: 'absolute',
+              right: 10,
+              padding: '5px 10px',
+              boxSizing: 'border-box',
+              bottom: 15,
+              maxWidth: 460,
+              alignItems: 'center',
+              whiteSpace: 'pre-wrap',
+              color: '#A59A9B',
+              fontStyle: 'italic',
+              textAlign: 'right',
+            }}
+          >
+            <Text>{data.signature}</Text>
+          </Flex>
           <SignetBox signets={data.signets} />
           <DifficultyBox difficulty={data.difficulty} />
 

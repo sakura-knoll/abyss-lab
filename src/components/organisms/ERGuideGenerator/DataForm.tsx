@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Label, Select, Textarea } from 'theme-ui'
+import { Box, Button, Flex, Input, Label, Select, Textarea } from 'theme-ui'
 import { Data, DataUpdater, ExSignetType } from './types'
 import {
   erVersions,
@@ -86,9 +86,57 @@ const DataForm = ({
   }, [stigmata])
 
   return (
-    <Box>
-      <Flex sx={{ maxWidth: 960 }}>
-        <Box sx={{ width: '50%', p: 2 }}>
+    <Box sx={{ maxWidth: 960 }}>
+      <Flex>
+        <Box sx={{ flex: 1, p: 2 }}>
+          <Box>
+            <Label>서명</Label>
+            <Textarea
+              value={data.signature}
+              placeholder='서명...'
+              onChange={(event) => {
+                updateData('signature', event.target.value)
+              }}
+              sx={{ resize: 'vertical', minHeight: 100 }}
+            />
+          </Box>
+          <Box>
+            <Label>랭크</Label>
+            <Select
+              value={data.rank || 'na'}
+              onChange={(event) => {
+                switch (event.target.value) {
+                  case 'na':
+                    updateData('rank', undefined)
+                    break
+                  default:
+                    updateData('rank', event.target.value)
+                }
+              }}
+            >
+              <option value='na'>N/A</option>
+              <option value='s'>s</option>
+              <option value='s1'>s1</option>
+              <option value='s2'>s2</option>
+              <option value='s3'>s3</option>
+              <option value='ss'>ss</option>
+              <option value='ss1'>ss1</option>
+              <option value='ss2'>ss2</option>
+              <option value='ss3'>ss3</option>
+              <option value='sss'>sss</option>
+              <option value='a'>a</option>
+            </Select>
+          </Box>
+          <Box>
+            <Label>태그</Label>
+            <Input
+              value={data.tag}
+              placeholder='태그...(필살기, 평타)'
+              onChange={(event) => {
+                updateData('tag', event.target.value)
+              }}
+            />
+          </Box>
           <Box>
             <Label>난이도</Label>
             <DifficultySelect
@@ -210,8 +258,9 @@ const DataForm = ({
               </Box>
             </Flex>
           </Box>
+        </Box>
+        <Box sx={{ flex: 1, p: 2 }}>
           <Box>
-            <Label>각인</Label>
             {data.signets.map((signet, index) => {
               return (
                 <Box key={index}>
@@ -292,15 +341,15 @@ const DataForm = ({
             })}
           </Box>
         </Box>
-        <Box sx={{ width: '50%', p: 2 }}>
+        <Box sx={{ flex: 1, p: 2 }}>
           <Box>
             <Label>서포트 발키리</Label>
             {data.supportSets.map((supportSet, index) => {
               return (
                 <Box key={index}>
                   <Box>{supportSet.type === 'util' ? '유틸' : '딜링'}</Box>
-                  <Box>
-                    <Box sx={{ mb: 1 }}>
+                  <Flex>
+                    <Box sx={{ flex: 1, mr: 1 }}>
                       <BattlesuitSelect
                         instanceId={`battlesuit-support-select-${index}-1`}
                         value={supportSet.battlesuitIds[0]}
@@ -326,7 +375,7 @@ const DataForm = ({
                         }}
                       />
                     </Box>
-                    <Box sx={{ mb: 1 }}>
+                    <Box sx={{ flex: 1 }}>
                       <BattlesuitSelect
                         instanceId={`battlesuit-support-select-${index}-2`}
                         value={supportSet.battlesuitIds[1]}
@@ -352,13 +401,12 @@ const DataForm = ({
                         }}
                       />
                     </Box>
-                  </Box>
+                  </Flex>
                 </Box>
               )
             })}
           </Box>
           <Box sx={{ flex: 1 }}>
-            <Label>증명</Label>
             {data.sigilSets.map((sigilSet, index) => {
               return (
                 <Box key={index}>
@@ -367,60 +415,73 @@ const DataForm = ({
                       ? '초반'
                       : sigilSet.type === 'mid'
                       ? '중반'
-                      : '후반'}
+                      : '후반'}{' '}
+                    증명
                   </Box>
-                  <SigilSelect
-                    instanceId={`sigil-select-${index}-general`}
-                    value={sigilSet.sigilIds[0]}
-                    optionIds={remembranceSigilIds.filter(isGeneralSigil)}
-                    sigils={sigils}
-                    onChange={(newValue) => {
-                      const newSigilSets = data.sigilSets.slice()
-                      newSigilSets[index] = {
-                        ...newSigilSets[index],
-                        sigilIds: [newValue, newSigilSets[index].sigilIds[1]],
-                      }
-                      updateData('sigilSets', newSigilSets)
-                    }}
-                  />
-                  <SigilSelect
-                    instanceId={`sigil-select-${index}-support`}
-                    value={sigilSet.sigilIds[1]}
-                    optionIds={remembranceSigilIds.filter(
-                      (sigilId) => !isGeneralSigil(sigilId)
-                    )}
-                    sigils={sigils}
-                    onChange={(newValue) => {
-                      const newSigilSets = data.sigilSets.slice()
-                      newSigilSets[index] = {
-                        ...newSigilSets[index],
-                        sigilIds: [newSigilSets[index].sigilIds[0], newValue],
-                      }
-                      updateData('sigilSets', newSigilSets)
-                    }}
-                  />
+                  <Flex>
+                    <Box sx={{ flex: 1, mr: 1 }}>
+                      <SigilSelect
+                        instanceId={`sigil-select-${index}-general`}
+                        value={sigilSet.sigilIds[0]}
+                        optionIds={remembranceSigilIds.filter(isGeneralSigil)}
+                        sigils={sigils}
+                        onChange={(newValue) => {
+                          const newSigilSets = data.sigilSets.slice()
+                          newSigilSets[index] = {
+                            ...newSigilSets[index],
+                            sigilIds: [
+                              newValue,
+                              newSigilSets[index].sigilIds[1],
+                            ],
+                          }
+                          updateData('sigilSets', newSigilSets)
+                        }}
+                      />
+                    </Box>
+                    <Box>
+                      <SigilSelect
+                        instanceId={`sigil-select-${index}-support`}
+                        value={sigilSet.sigilIds[1]}
+                        optionIds={remembranceSigilIds.filter(
+                          (sigilId) => !isGeneralSigil(sigilId)
+                        )}
+                        sigils={sigils}
+                        onChange={(newValue) => {
+                          const newSigilSets = data.sigilSets.slice()
+                          newSigilSets[index] = {
+                            ...newSigilSets[index],
+                            sigilIds: [
+                              newSigilSets[index].sigilIds[0],
+                              newValue,
+                            ],
+                          }
+                          updateData('sigilSets', newSigilSets)
+                        }}
+                      />
+                    </Box>
+                  </Flex>
                 </Box>
               )
             })}
           </Box>
-        </Box>
-        <Box>
-          <Label>장비</Label>
-          {data.equipmentSets.map((equipmentSet, index) => {
-            return (
-              <EquipmentSetControl
-                key={index}
-                equipmentSet={equipmentSet}
-                weapons={weapons}
-                stigmata={stigmata}
-                topStigmaIds={topStigmaIds}
-                midStigmaIds={midStigmaIds}
-                botStigmaIds={botStigmaIds}
-                index={index}
-                updateData={updateData}
-              />
-            )
-          })}
+          <Box>
+            <Label>장비</Label>
+            {data.equipmentSets.map((equipmentSet, index) => {
+              return (
+                <EquipmentSetControl
+                  key={index}
+                  equipmentSet={equipmentSet}
+                  weapons={weapons}
+                  stigmata={stigmata}
+                  topStigmaIds={topStigmaIds}
+                  midStigmaIds={midStigmaIds}
+                  botStigmaIds={botStigmaIds}
+                  index={index}
+                  updateData={updateData}
+                />
+              )
+            })}
+          </Box>
         </Box>
       </Flex>
       <Box>{JSON.stringify(data)}</Box>

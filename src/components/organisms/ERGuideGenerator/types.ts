@@ -38,6 +38,9 @@ export interface ERGGSignet {
 }
 
 export type Data = {
+  rank?: string
+  tag: string
+  signature: string
   battlesuitId: string
   difficulty: Difficulty
   exSignets: ExSignet[]
