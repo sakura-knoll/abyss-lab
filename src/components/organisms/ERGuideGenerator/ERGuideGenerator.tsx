@@ -152,7 +152,7 @@ const ERGuideGenerator = ({
           ref={guideRef}
           sx={{
             width: 960,
-            height: 630,
+            height: 660,
             position: 'relative',
             backgroundColor: colors.backgroundColor,
             color: '#FFF',
@@ -206,7 +206,7 @@ const ERGuideGenerator = ({
               top: 0,
               left: 0,
               width: 960,
-              height: 630,
+              height: 660,
               opacity: 0.15,
               backgroundImage: `url('/assets/erbg.png')`,
               backgroundSize: 1300,
@@ -229,7 +229,7 @@ const ERGuideGenerator = ({
           <Box
             sx={{
               position: 'absolute',
-              bottom: 175,
+              bottom: 15 + (87 + 10) * 2,
               left: 15,
             }}
           >
@@ -238,7 +238,7 @@ const ERGuideGenerator = ({
           <Box
             sx={{
               position: 'absolute',
-              bottom: 95,
+              bottom: 15 + 87 + 10,
               left: 15,
             }}
           >
@@ -251,7 +251,11 @@ const ERGuideGenerator = ({
               left: 15,
             }}
           >
-            <EquipmentBox equipmentSets={data.equipmentSets} />
+            <EquipmentBox
+              equipmentSets={data.equipmentSets}
+              weapons={weapons}
+              stigmata={stigmata}
+            />
           </Box>
         </Box>
       </Box>

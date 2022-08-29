@@ -1,12 +1,20 @@
 import { Box, Flex, Image } from 'theme-ui'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
+import { StigmataData } from '../../../lib/honkai3rd/stigmata'
+import { WeaponData } from '../../../lib/honkai3rd/weapons'
 import { EquipmentSet } from './types'
 
 interface EquipmentBoxProps {
   equipmentSets: EquipmentSet[]
+  weapons: WeaponData[]
+  stigmata: StigmataData[]
 }
 
-const EquipmentBox = ({ equipmentSets }: EquipmentBoxProps) => {
+const EquipmentBox = ({
+  equipmentSets,
+  weapons,
+  stigmata,
+}: EquipmentBoxProps) => {
   return (
     <Box
       sx={{
@@ -17,7 +25,7 @@ const EquipmentBox = ({ equipmentSets }: EquipmentBoxProps) => {
         boxShadow: '5px 5px 10px rgba(0,0,0,0.5)',
       }}
     >
-      <Flex sx={{ height: 60 }}>
+      <Flex>
         <Box
           sx={{
             backgroundColor: '#8E5B45',
@@ -39,7 +47,7 @@ const EquipmentBox = ({ equipmentSets }: EquipmentBoxProps) => {
               key={index}
               sx={{
                 backgroundColor: '#615559',
-                p: '15px 5px 5px',
+                p: '15px 5px 0',
                 borderRadius: '5px',
                 position: 'relative',
                 mr: '5px',
@@ -63,7 +71,7 @@ const EquipmentBox = ({ equipmentSets }: EquipmentBoxProps) => {
               >
                 {equipmentSet.type === 'best' ? '베스트' : '대체'}
               </Box>
-              <Box sx={{ height: 60 }}>
+              <Box sx={{ height: 40 }}>
                 <Image
                   alt=''
                   src={`${assetsBucketBaseUrl}/honkai3rd/weapons/${equipmentSet.weapon}.png`}
@@ -93,12 +101,36 @@ const EquipmentBox = ({ equipmentSets }: EquipmentBoxProps) => {
                   sx={{ borderRadius: '5px' }}
                 />
               </Box>
+              <Flex
+                sx={{
+                  height: 20,
+                  fontSize: 12,
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                {getWeaponName(equipmentSet.weapon)}+
+                {getStigmataName(equipmentSet.top)}/
+                {getStigmataName(equipmentSet.mid)}/
+                {getStigmataName(equipmentSet.bot)}
+              </Flex>
             </Box>
           )
         })}
       </Flex>
     </Box>
   )
+
+  function getWeaponName(id: string) {
+    return weapons
+      .find((weapon) => weapon.id === id)
+      ?.name.split(' ')[0]
+      .slice(0, 4)
+      .trim()
+  }
+  function getStigmataName(id: string) {
+    return stigmata.find((stigma) => stigma.id === id)?.name.slice(0, 3)
+  }
 }
 
 export default EquipmentBox
