@@ -1,11 +1,9 @@
 import { Box, Flex, Image } from 'theme-ui'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
-import { BattlesuitData } from '../../../lib/honkai3rd/battlesuits'
 import { SupportSet } from './types'
 
 interface SupportBoxProps {
   supportSets: SupportSet[]
-  battlesuits: BattlesuitData[]
 }
 
 const SupportBox = ({ supportSets }: SupportBoxProps) => {
@@ -41,7 +39,7 @@ const SupportBox = ({ supportSets }: SupportBoxProps) => {
               key={index}
               sx={{
                 backgroundColor: '#615559',
-                p: '15px 5px 5px',
+                p: '15px 5px 0',
                 borderRadius: '5px',
                 position: 'relative',
                 mr: '5px',
@@ -83,6 +81,17 @@ const SupportBox = ({ supportSets }: SupportBoxProps) => {
                   )
                 })}
               </Box>
+              <Flex
+                sx={{
+                  height: 20,
+                  fontSize: 12,
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                {getSupportName(supportSet.battlesuitIds[0])}+
+                {getSupportName(supportSet.battlesuitIds[1])}
+              </Flex>
             </Box>
           )
         })}
@@ -92,3 +101,32 @@ const SupportBox = ({ supportSets }: SupportBoxProps) => {
 }
 
 export default SupportBox
+
+function getSupportName(id: string) {
+  switch (id) {
+    case 'le':
+      return '귀메'
+    case 'vc':
+      return '삐로냐'
+    case 'ss':
+      return '빙로냐'
+    case 'sn':
+      return '쩨레'
+    case 'br':
+      return '스메코'
+    case 'ae':
+      return '선인'
+    case 'hb':
+      return '브로니'
+    case 'ma':
+      return '레이븐'
+    case 'dp':
+      return '성녀'
+    case 'bke':
+      return '월백'
+    case 'rc':
+      return '파르도'
+    case 'sa':
+      return '테갈'
+  }
+}

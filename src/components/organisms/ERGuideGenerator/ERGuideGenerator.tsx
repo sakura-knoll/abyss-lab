@@ -233,10 +233,7 @@ const ERGuideGenerator = ({
               left: 15,
             }}
           >
-            <SupportBox
-              battlesuits={battlesuits}
-              supportSets={data.supportSets}
-            />
+            <SupportBox supportSets={data.supportSets} />
           </Box>
           <Box
             sx={{
