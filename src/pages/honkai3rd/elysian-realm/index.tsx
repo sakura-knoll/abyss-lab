@@ -18,6 +18,7 @@ import {
   getRemembranceSigils as getRemembranceSigils,
   getSupportBattlesuits,
 } from '../../../server/data/honkai3rd/elysianRealm'
+import Link from 'next/link'
 
 type BattlesuitListItemData = Pick<
   BattlesuitData,
@@ -150,6 +151,11 @@ const ElysianRealmIndexPage = ({
               )
             })}
           </Flex>
+        </Box>
+        <Box>
+          <Link href='/honkai3rd/elysian-realm/utils/gen-guide'>
+            Guide Generator (KR Only)
+          </Link>
         </Box>
       </Box>
     </Honkai3rdLayout>
