@@ -186,11 +186,11 @@ const DataForm = ({
                   return (
                     <Flex
                       key={index}
-                      sx={{ p: 1, height: 35, alignItems: 'center' }}
+                      sx={{ p: 1, height: 40, alignItems: 'center', mb: 2 }}
                     >
                       <Select
                         value={signet.type}
-                        sx={{ p: 0, width: 60, px: 1 }}
+                        sx={{ height: 40, width: 80, mr: 1, p: 2 }}
                         onChange={(event) => {
                           const newExSignets = data.exSignets.slice()
                           newExSignets[index] = {
@@ -465,7 +465,6 @@ const DataForm = ({
             })}
           </Box>
           <Box>
-            <Label>장비</Label>
             {data.equipmentSets.map((equipmentSet, index) => {
               return (
                 <EquipmentSetControl
@@ -504,7 +503,8 @@ export function SortableItem(props: { name: string }) {
     <div ref={setNodeRef} style={style} {...attributes} {...listeners}>
       <Flex
         sx={{
-          height: 35,
+          height: 40,
+          mb: 2,
           cursor: 'ns-resize',
           alignItems: 'center',
           p: 1,
