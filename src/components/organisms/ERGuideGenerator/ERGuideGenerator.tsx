@@ -242,7 +242,7 @@ const ERGuideGenerator = ({
               left: 15,
             }}
           >
-            <SigilBox sigilSets={data.sigilSets} />
+            <SigilBox sigilSets={data.sigilSets} sigils={sigils} />
           </Box>
           <Box
             sx={{

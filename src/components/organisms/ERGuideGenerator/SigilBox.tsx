@@ -1,13 +1,15 @@
 import { memo } from 'react'
 import { Box, Flex, Image } from 'theme-ui'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
+import { RemembranceSigil } from '../../../lib/honkai3rd/elysianRealm'
 import { SigilSet } from './types'
 
 interface SigilBoxProps {
   sigilSets: SigilSet[]
+  sigils: RemembranceSigil[]
 }
 
-const SigilBox = ({ sigilSets }: SigilBoxProps) => {
+const SigilBox = ({ sigilSets, sigils }: SigilBoxProps) => {
   return (
     <Box
       sx={{
@@ -18,7 +20,7 @@ const SigilBox = ({ sigilSets }: SigilBoxProps) => {
         boxShadow: '5px 5px 10px rgba(0,0,0,0.5)',
       }}
     >
-      <Flex sx={{ height: 60 }}>
+      <Flex>
         <Box
           sx={{
             backgroundColor: '#8E5B45',
@@ -40,7 +42,7 @@ const SigilBox = ({ sigilSets }: SigilBoxProps) => {
               key={index}
               sx={{
                 backgroundColor: '#615559',
-                p: '15px 5px 5px',
+                p: '15px 5px 0',
                 borderRadius: '5px',
                 position: 'relative',
                 mr: '5px',
@@ -83,12 +85,27 @@ const SigilBox = ({ sigilSets }: SigilBoxProps) => {
                   sx={{ borderRadius: 5 }}
                 />
               </Box>
+              <Flex
+                sx={{
+                  height: 20,
+                  fontSize: 12,
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                {getSigilName(sigilSet.sigilIds[0])}+
+                {getSigilName(sigilSet.sigilIds[1])}
+              </Flex>
             </Box>
           )
         })}
       </Flex>
     </Box>
   )
+
+  function getSigilName(id: string) {
+    return sigils.find((sigil) => sigil.id === id)?.name.slice(0, 3)
+  }
 }
 
 export default memo(SigilBox)
