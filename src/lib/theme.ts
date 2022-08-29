@@ -121,6 +121,11 @@ export const theme: Theme = {
       lineHeight: 'heading',
     },
   },
+  forms: {
+    checkbox: {
+      color: 'border',
+    },
+  },
   buttons: {
     primary: {
       color: 'primary',
@@ -143,6 +148,9 @@ export const theme: Theme = {
       },
       '&.hidden': {
         display: 'none',
+      },
+      '&:disabled': {
+        opacity: 0.5,
       },
     },
     secondary: {

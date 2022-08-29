@@ -113,6 +113,26 @@ export const remembranceSigilIds = [
   'key-to-the-deep',
 ]
 
+export function isGeneralSigil(sigilId: string) {
+  switch (sigilId) {
+    case 'it-will-be-written':
+    case 'dreamful-gold':
+    case 'an-old-pal-s-legacy':
+    case 'empty-like-shala':
+    case 'tsukimi-himiko':
+    case 'boundless-logos':
+    case 'hometown':
+    case 'because-of-you':
+    case 'boundless-feeling':
+    case 'falling-in-past-light':
+    case 'out-of-reach':
+    case 'the-lonely-moon':
+    case 'awakening':
+      return false
+  }
+  return true
+}
+
 export interface SignetData {
   id: string
   name: string
@@ -127,6 +147,8 @@ export interface SignetGroup {
   id: string
   name: string
   krName: string
+  altName: string
+  krAltName: string
   setIds: string[]
 }
 
