@@ -62,7 +62,7 @@ const EquipmentBox = ({
                   top: 0,
                   left: 0,
                   backgroundColor:
-                    equipmentSet.type === 'best' ? '#EE4E2C' : '#9DA3D3',
+                    equipmentSet.type === 'best' ? '#EE4E2C' : '#9082BD',
                   borderTopLeftRadius: '5px',
                   borderBottomRightRadius: '5px',
                   p: '0 7px',

@@ -13,7 +13,7 @@ const SupportBox = ({ supportSets }: SupportBoxProps) => {
         padding: '5px',
         border: 'solid 1px gray',
         boxSizing: 'border-box',
-        backgroundColor: '#181614',
+        backgroundColor: 'rgba(0,0,0,0.5)',
         boxShadow: '5px 5px 10px rgba(0,0,0,0.5)',
       }}
     >

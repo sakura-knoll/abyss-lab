@@ -16,7 +16,7 @@ const SigilBox = ({ sigilSets, sigils }: SigilBoxProps) => {
         padding: '5px',
         border: 'solid 1px gray',
         boxSizing: 'border-box',
-        backgroundColor: '#181614',
+        backgroundColor: 'rgba(0,0,0,0.5)',
         boxShadow: '5px 5px 10px rgba(0,0,0,0.5)',
       }}
     >
@@ -56,7 +56,12 @@ const SigilBox = ({ sigilSets, sigils }: SigilBoxProps) => {
                   position: 'absolute',
                   top: 0,
                   left: 0,
-                  backgroundColor: '#666887',
+                  backgroundColor:
+                    sigilSet.type === 'start'
+                      ? '#666480'
+                      : sigilSet.type === 'mid'
+                      ? '#8A6A5C'
+                      : '#C06848',
                   borderTopLeftRadius: '5px',
                   borderBottomRightRadius: '5px',
                   p: '0 7px',
