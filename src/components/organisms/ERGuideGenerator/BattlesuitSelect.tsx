@@ -60,6 +60,24 @@ const BattlesuitSelect = ({
       }}
       options={battlesuitOptions}
       components={{
+        SingleValue: (props) => {
+          return (
+            <>
+              <components.SingleValue {...props}>
+                <Flex sx={{ alignItems: 'center', color: 'black' }}>
+                  <Image
+                    width={20}
+                    height={20}
+                    alt={props.data.label}
+                    src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/portrait-${props.data.value}.png`}
+                    sx={{ flexShrink: 0, mr: 2 }}
+                  />
+                  {props.children}
+                </Flex>
+              </components.SingleValue>
+            </>
+          )
+        },
         Option: (props) => {
           return (
             <>
@@ -70,7 +88,7 @@ const BattlesuitSelect = ({
                     height={20}
                     alt={props.data.label}
                     src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/portrait-${props.data.value}.png`}
-                    mr={2}
+                    sx={{ mr: 2, flexShrink: 0 }}
                   />
                   {props.children}
                 </Flex>
