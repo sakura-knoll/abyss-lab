@@ -147,6 +147,8 @@ export interface SignetGroup {
   id: string
   name: string
   krName: string
+  altName: string
+  krAltName: string
   setIds: string[]
 }
 

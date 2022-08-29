@@ -1,6 +1,7 @@
 import React from 'react'
 import { Box, Flex, Image, Paragraph } from 'theme-ui'
 import { assetsBucketBaseUrl } from '../../../lib/consts'
+import { signetGroupMap } from '../../../lib/honkai3rd/elysianRealm'
 import { ERGGSignet } from './types'
 
 interface SignetBoxProps {
@@ -20,7 +21,7 @@ const SignetBox = ({ signets }: SignetBoxProps) => {
         const angle = Math.asin((radius - (top - 40)) / radius)
         const left = Math.cos(angle) * radius + 100 + radius
 
-        const signetRadius = 40
+        const signetRadius = 45
         return (
           <React.Fragment key={index}>
             <Flex
@@ -29,13 +30,15 @@ const SignetBox = ({ signets }: SignetBoxProps) => {
                 zIndex: 1,
                 top: `${top - signetRadius}px`,
                 left: `${left - signetRadius}px`,
-                backgroundColor: '#091B2D',
+                backgroundColor: '#10131C',
                 height: signetRadius * 2,
                 width: signetRadius * 2,
                 justifyContent: 'center',
                 alignItems: 'center',
                 borderRadius: signetRadius,
-                border: '2px solid #FBECE5',
+                border: '1px solid gray',
+                boxShadow: '5px 5px 10px rgba(0,0,0,0.5)',
+                flexDirection: 'column',
               }}
             >
               <Image
@@ -44,11 +47,14 @@ const SignetBox = ({ signets }: SignetBoxProps) => {
                 width={45}
                 height={45}
               />
+              <Box className='signetGroupLabel'>
+                {getSignetAltName(signet.group)}
+              </Box>
               <Box
                 sx={{
                   backgroundColor: 'black',
 
-                  border: '2px solid #FBECE5',
+                  border: '2px solid gray',
                   width: 30,
                   height: 30,
                   textAlign: 'center',
@@ -64,7 +70,7 @@ const SignetBox = ({ signets }: SignetBoxProps) => {
             <Box
               sx={{
                 position: 'absolute',
-                borderBottom: '2px dashed #FBECE5',
+                borderBottom: '2px dashed gray',
                 height: 0,
                 top: `${top}px`,
                 left: `${left}px`,
@@ -137,3 +143,7 @@ const SignetBox = ({ signets }: SignetBoxProps) => {
 }
 
 export default SignetBox
+
+function getSignetAltName(id: string) {
+  return signetGroupMap.get(id)?.krAltName
+}

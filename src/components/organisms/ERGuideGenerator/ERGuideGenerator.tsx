@@ -194,6 +194,9 @@ const ERGuideGenerator = ({
       .signetDescription {
         font-family: 'GyeonggiTitleM';
       }
+      .signetGroupLabel {
+        font-family: 'YdestreetB';
+      }
           `,
             }}
           />
