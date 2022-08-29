@@ -50,7 +50,7 @@ const SignetBox = ({ signets }: SignetBoxProps) => {
               <Box
                 className='signetGroupLabel'
                 sx={{
-                  transform: 'translateX(-5px)',
+                  transform: 'translateX(-3px)',
                   fontSize: 18,
                 }}
               >
