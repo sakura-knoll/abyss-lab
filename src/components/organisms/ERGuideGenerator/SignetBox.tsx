@@ -47,21 +47,28 @@ const SignetBox = ({ signets }: SignetBoxProps) => {
                 width={45}
                 height={45}
               />
-              <Box className='signetGroupLabel'>
+              <Box
+                className='signetGroupLabel'
+                sx={{
+                  transform: 'translateX(-5px)',
+                  fontSize: 18,
+                }}
+              >
                 {getSignetAltName(signet.group)}
               </Box>
               <Box
                 sx={{
                   backgroundColor: 'black',
-
-                  border: '2px solid gray',
-                  width: 30,
-                  height: 30,
+                  border: '1px solid gray',
+                  width: 20,
+                  height: 20,
                   textAlign: 'center',
-                  borderRadius: 5,
+                  borderRadius: 4,
                   position: 'absolute',
-                  bottom: 0 - 20,
-                  right: `${0 - 10}px`,
+                  bottom: '12px',
+                  fontSize: 16,
+                  lineHeight: '20px',
+                  right: `${5}px`,
                 }}
               >
                 {signet.nexus === 1 ? 'I' : 'II'}
