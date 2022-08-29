@@ -29,13 +29,15 @@ const ValkBox = ({ battlesuitId, exSignets }: ValkBoxProps) => {
       <Box
         sx={{
           borderRadius: '50%',
-          border: 'solid 5px #FBECE5',
+          border: 'solid 1px gray',
+          boxShadow: '5px 5px 10px rgba(0,0,0,0.5)',
           width: 460,
           height: 460,
           backgroundImage: `url('${assetsBucketBaseUrl}/honkai3rd/battlesuits/${battlesuitId}.png')`,
           backgroundSize: 'cover',
           backgroundPosition: getBattlesuitImagePosition(battlesuitId),
           backgroundRepeat: 'no-repeat',
+          backgroundColor: 'rgba(0,0,0,0.2)',
         }}
       ></Box>
     </Box>
@@ -114,9 +116,10 @@ const ValkExSignetBox = ({
         sx={{
           position: 'absolute',
           zIndex: 2,
-          border: 'solid 2px #FBECE5',
+          border: 'solid 1px gray',
           borderRadius: '50%',
           backgroundColor: colors.backgroundColor,
+          boxShadow: '5px 5px 10px rgba(0,0,0,0.5)',
           alignItems: 'center',
           justifyContent: 'center',
           fontSize:
