@@ -6,6 +6,7 @@ import {
   Flex,
   Heading,
   Image,
+  Input,
   Label,
   Text,
   Textarea,
@@ -101,15 +102,13 @@ const ERGuideGenerator = ({
         type: 'core',
         group: 'vill-v',
         nexus: 2,
-        description:
-          '테스트 텍스트 테스트 텍스트 테스트 텍스트 테스트 텍스트 테스트 텍스트 테스트 텍스트 테스트 텍스트',
+        description: '',
       },
       {
         type: 'core',
         group: 'vill-v',
         nexus: 2,
-        description:
-          '테스트 텍스트 테스트 텍스트 테스트 텍스트 테스트 텍스트 테스트 텍스트 테스트 텍스트 테스트 텍스트',
+        description: '',
       },
       {
         type: 'sub',
@@ -131,6 +130,8 @@ const ERGuideGenerator = ({
       },
     ],
   })
+  const [fileName, setFileName] = useState('guide')
+
   const guideRef = useRef(null)
 
   const updateData = useCallback<DataUpdater>(
@@ -159,7 +160,37 @@ const ERGuideGenerator = ({
   }, [customStyle])
 
   return (
-    <Box>
+    <Box
+      onDragOver={(event) => {
+        event.preventDefault()
+      }}
+      onDrop={async (event) => {
+        event.preventDefault()
+
+        const result = await new Promise<string>((resolve, reject) => {
+          const file = event.dataTransfer.files[0]
+          const reader = new FileReader()
+          reader.addEventListener(
+            'load',
+            () => {
+              resolve(reader.result as string)
+            },
+            { once: true }
+          )
+          reader.addEventListener(
+            'error',
+            (error) => {
+              reject(error)
+            },
+            { once: true }
+          )
+          reader.readAsText(file)
+        })
+
+        const parsedResult = JSON.parse(result)
+        setData(parsedResult)
+      }}
+    >
       <Box sx={{ width: 960 }}>
         <Box
           ref={guideRef}
@@ -324,23 +355,45 @@ const ERGuideGenerator = ({
         </Box>
       </Box>
 
-      <Box>
-        <Button
-          onClick={async () => {
-            if (guideRef.current == null) {
-              return
-            }
+      <Box sx={{ m: 2 }}>
+        <Flex sx={{ alignItems: 'center' }}>
+          <Box sx={{ mr: 1 }}>
+            <Label>File Name</Label>
+          </Box>
+          <Box sx={{ mr: 1 }}>
+            <Input
+              value={fileName}
+              onChange={(event) => {
+                setFileName(event.target.value)
+              }}
+            />
+          </Box>
+          <Button
+            sx={{ mr: 1 }}
+            onClick={async () => {
+              if (guideRef.current == null) {
+                return
+              }
 
-            const blob = await toBlob(guideRef.current)
+              const blob = await toBlob(guideRef.current)
 
-            if (blob == null) {
-              return
-            }
-            saveAs(blob, 'guide.png')
-          }}
-        >
-          Download
-        </Button>
+              if (blob == null) {
+                return
+              }
+              saveAs(blob, `${fileName}.png`)
+            }}
+          >
+            Download Image ({fileName}.png)
+          </Button>
+          <Button
+            onClick={() => {
+              console.log(JSON.stringify(data))
+              saveAs(new Blob([JSON.stringify(data)]), `${fileName}.json`)
+            }}
+          >
+            Download JSON Data ({fileName}.json)
+          </Button>
+        </Flex>
       </Box>
 
       <DataForm
