@@ -6,7 +6,6 @@ import {
   PopulatedSignetGroup,
   RemembranceSigil,
   remembranceSigilIds,
-  signetGroups,
   supportBattlesuitIds,
 } from '../../../lib/honkai3rd/elysianRealm'
 import {
@@ -34,6 +33,7 @@ import { WeaponData } from '../../../lib/honkai3rd/weapons'
 import { StigmataData } from '../../../lib/honkai3rd/stigmata'
 import { useMemo } from 'react'
 import EquipmentSetControl from './EquipmentSetControl'
+import SignetGroupSelect from './SignetGroupSelect'
 
 interface DataFormProps {
   updateData: DataUpdater
@@ -267,25 +267,18 @@ const DataForm = ({
                   <Label>{index + 1} 번째 각인</Label>
                   <Flex sx={{ alignItems: 'center', p: 1 }}>
                     <Box sx={{ flex: 1, flexShrink: 0, mr: 1 }}>
-                      <Select
+                      <SignetGroupSelect
                         value={signet.group}
-                        onChange={(event) => {
+                        onChange={(newValue) => {
                           const newSignets = data.signets.slice()
                           newSignets[index] = {
                             ...signet,
-                            group: event.target.value as any,
+                            group: newValue as any,
                           }
                           updateData('signets', newSignets)
                         }}
-                      >
-                        {signetGroups.slice(1).map((signetGroup) => {
-                          return (
-                            <option key={signetGroup.id} value={signetGroup.id}>
-                              {signetGroup.krAltName}
-                            </option>
-                          )
-                        })}
-                      </Select>
+                        instanceId={`signet-select-${index}`}
+                      />
                     </Box>
                     <Box>
                       <Button
