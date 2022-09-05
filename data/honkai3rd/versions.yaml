@@ -22,6 +22,12 @@
       - label: paralyze
         krLabel: 마비
         boss: jk
+    - - label: ice
+        krLabel: 빙결
+        boss: rpc-sss
+      - label: img
+        krLabel: 허수
+        boss: hod
   ma:
     - - label: sss
         boss: hpt-sss
@@ -29,7 +35,46 @@
         boss: tank2-sss
       - label: ss
         boss: hmd
+    - - label: sss
+        boss: qksm
+      - label: sss
+        boss: bke-sss
+      - label: ss
+        boss: kl
   supplyEvents:
+    - name: Mitternachts Waltz Focused Supply B
+      krName: 유야의 왈츠 집중 보급 B
+      duration:
+        - 2022-09-30
+        - 2022-10-07
+      track: 3
+      verified: false
+      featured:
+        - type: weapon
+          id: mitternachts-waltz
+        - type: stigmata-set
+          id: wang-zhenyi
+      others:
+        - type: weapon
+          id: nue-of-the-shadow
+        - type: weapon
+          id: dark-star
+        - type: weapon
+          id: sleeping-beauty
+        - type: weapon
+          id: nebulous-duality
+        - type: weapon
+          id: hler-s-serenity
+        - type: weapon
+          id: path-to-acheron
+        - type: stigmata-set
+          id: jin-shengtan
+        - type: stigmata-set
+          id: welt-yang
+        - type: stigmata-set
+          id: dante
+        - type: stigmata-set
+          id: verne
     - name: Herrscher of Sentience ADV Supply
       krName: 의식의 율자 진급 보급
       duration:
@@ -41,8 +86,8 @@
         - type: battlesuit
           id: hos
       others: []
-    - name: Seven Thunders Schicksal Arsenal
-      krName: 속죄의 칠뢰·명 천명 무기고
+    - name: Seven Thunders / Twins of Eden Schicksal Arsenal
+      krName: 속죄의 칠뢰·명 / 에덴의 두 별 천명 무기고
       duration:
         - 2022-09-23
         - 2022-10-07
@@ -50,30 +95,30 @@
       verified: false
       featured:
         - type: weapon
-          id: twins-of-eden
+          id: seven-thunders
         - type: weapon
-          id: purana-phantasma
+          id: twins-of-eden
         - type: stigmata-set
-          id: bastet
+          id: shattered-swords
       others:
         - type: weapon
-          id: key-of-radiance
+          id: falcon-flare-0019
         - type: weapon
-          id: dark-star
+          id: thunder-kikaku
         - type: weapon
-          id: keys-of-oblivion
+          id: hekate-s-gloom
         - type: weapon
-          id: eos-gloria
+          id: astral-rend-white-dwarf
         - type: weapon
-          id: whisper-of-the-past
+          id: cerulean-flare
         - type: stigmata-set
-          id: allan-poe
+          id: beethoven
         - type: stigmata-set
-          id: turgenev
+          id: ana-schariac
         - type: stigmata-set
-          id: wang-zhenyi
+          id: murata-himeko
         - type: stigmata-set
-          id: aslaug
+          id: linnaeus
     - name: Crusher Bunny 19C Focused Supply B
       krName: 분쇄토끼19C 집중 보급 B
       duration:
@@ -335,20 +380,40 @@
         - 2022-09-02
         - 2022-09-09
       track: 3
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: starlance-prime
         - type: stigmata-set
           id: shakespeare-adrift
-      others: []
+      others:
+        - type: weapon
+          id: ice-epiphyllum
+        - type: weapon
+          id: key-of-reason
+        - type: weapon
+          id: blood-dance
+        - type: weapon
+          id: pledge-of-sakura
+        - type: weapon
+          id: skoll-and-hati
+        - type: weapon
+          id: sanguine-gaze
+        - type: stigmata-set
+          id: fu-hua-margrave
+        - type: stigmata-set
+          id: wang-zhenyi
+        - type: stigmata-set
+          id: ragna
+        - type: stigmata-set
+          id: ana-schariac
     - name: Basilisk's Image Focused Supply A
       krName: 과거의 뱀 그림자 집중 보급 A
       duration:
         - 2022-09-02
         - 2022-09-09
       track: 2
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: basilisk-s-image
@@ -381,7 +446,7 @@
         - 2022-09-02
         - 2022-09-09
       track: 1
-      verified: false
+      verified: true
       featured:
         - type: battlesuit
           id: io
