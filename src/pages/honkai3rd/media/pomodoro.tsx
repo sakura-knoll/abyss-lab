@@ -4,6 +4,7 @@ import PomodoroAppMain from '../../../pomodoro/PomodoroAppMain'
 import { loadTimerEvents } from '../../../pomodoro/data'
 import { TimerEvent } from '../../../pomodoro/interfaces'
 import { theme } from '../../../pomodoro/theme'
+import Head from 'next/head'
 
 const PomodoroAppPage = () => {
   const [initialized, setInitialized] = useState(false)
@@ -18,6 +19,9 @@ const PomodoroAppPage = () => {
   }
   return (
     <Box>
+      <Head>
+        <title>Pomodoro Bronya - Abyss Lab</title>
+      </Head>
       <ThemeProvider theme={theme}>
         <PomodoroAppMain initialTimerEvents={initialTimerEvents} />
       </ThemeProvider>
