@@ -1,5 +1,5 @@
 /** @jsxImportSource theme-ui */
-import { Box, Heading, Paragraph, Link } from '@theme-ui/components'
+import { Box, Heading, Link } from '@theme-ui/components'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import { useTranslation } from '../../../lib/i18n'
 import Head from '../../../components/atoms/Head'
