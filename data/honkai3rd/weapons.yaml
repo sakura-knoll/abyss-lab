@@ -1,3 +1,56 @@
+- id: night-candle-pri
+  version: '6.1'
+  name: 'Night Candle:Passing Time'
+  krName: 밤을 품은 촛불·흘러가는 시간
+  category: gauntlet
+  rarity: 6
+  atk: 0
+  crt: 0
+  battlesuits:
+    - id: jk
+  originalWeapons:
+    - night-candle
+  sources:
+    - type: pri-weapon-foundry
+  skills:
+    - name: Active Skill
+      krName: 액티브 스킬
+      description: |-
+        -
+      krDescription: |-
+        -
+    - name: Passive Skill 1
+      krName: 패시브 스킬 1
+      description: |-
+        -
+      krDescription: |-
+        -
+- id: night-candle
+  version: '6.1'
+  name: Night Candle
+  krName: 밤을 품은 촛불
+  category: gauntlet
+  rarity: 5
+  atk: 0
+  crt: 0
+  battlesuits:
+    - id: jk
+  priWeapon: night-candle-pri
+  sources:
+    - type: focused-supply
+  skills:
+    - name: Active Skill
+      krName: 액티브 스킬
+      description: |-
+        -
+      krDescription: |-
+        -
+    - name: Passive Skill 1
+      krName: 패시브 스킬 1
+      description: |-
+        -
+      krDescription: |-
+        -
 - id: domain-of-ego
   version: '6.0'
   name: Domain of Ego
