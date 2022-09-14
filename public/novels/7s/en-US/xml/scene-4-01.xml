@@ -1,54 +1,54 @@
-<scene id="01" prev="00" title="宿場">
+<scene id="01" prev="00" title="The Stop">
   <transition mode="fade" in="0" stop="0.5" out="3" color="#000000"></transition>
   <bgm id="中原传说"></bgm>
   <bg img="沙漠驿站"></bg>
   <delay t="2"></delay>
   <mono pageend="true">
     <p></p>
-    <p>ここは砂漠の中の小さな宿場。</p>
+    <p>This is a tiny "stop" in the desert.</p>
   </mono>
   <mono inline="true">
     <p></p>
-    <p>1400年前、流浪のテュイク人がここでオアシスを発見した。</p>
+    <p>1400 years ago, wandering Tuik people discovered an oasis here.</p>
   </mono>
   <mono pageend="true">
     <p></p>
     <p></p>
-    <p>彼らは神様の加護に感謝し、思う存分水を飲んだが、止まることはなかった。</p>
+    <p>They gave thanks to the gods for their protection, drank water to their heart’s content, and soon left.</p>
   </mono>
   <mono inline="true">
     <p></p>
-    <p>そこから300年、顔国の隊商がここを通った。</p>
+    <p>300 years later, a caravan from Yan Kingdom passed this place.</p>
   </mono>
   <mono inline="true">
     <p></p>
-    <p>宝石と絹織物を満載した隊商に、一人の外交の使者がいた。</p>
-    <p>その使者の価値は荷物を遥かに超えている。なぜなら彼は西域に出向き、同盟を結ぶ責任を背負っているからだ。</p>
+    <p>The caravan carried jewelry, jade, cotton and silk brocade, accompanied by a diplomatic envoy.</p>
+    <p>The value of this person was worth more than the sum of the caravan’s goods, because he shouldered the important mission of traveling to the Western Regions, communicating, and building alliances.</p>
   </mono>
   <mono pageend="true">
     <p></p>
     <p></p>
-    <p>商人たちはここで足を休め、翌日に出発した。</p>
-    <p>彼らは漠北を出ておらず、誰もその行方を知らない。</p>
+    <p>The merchants rested at this stop, and took off the next day.</p>
+    <p>But they never made it out of the Northern Desert and no one knew their whereabouts.</p>
   </mono>
   <mono inline="true">
     <p></p>
-    <p>740年前、ハンユー族の遊牧民がオアシスの横に拠点を作った。</p>
+    <p>740 years ago, the Banyu nomads set up a camp here.</p>
     <p></p>
-    <p>この水源がある限り、私たちはもう漂泊しないで済むと、首領は民たちにそう告げた。</p>
+    <p>The patriarch told her people: 「 Because of this water source, the Banyu people shall never have to wander again. 」</p>
   </mono>
   <mono pageend="true">
     <p></p>
     <p></p>
-    <p>100年後、匈人は北からやってきた。彼らはハンユーの村を一掃し、老人と男を殺し、女と子供を連れて遠い西域に向かった。</p>
+    <p>100 years later, the Huns came from the north. They swept the Banyu village, killed all the old and middle-aged men, took all the women and young children, and went to the remote Western Regions.</p>
     <p></p>
-    <p>……オアシスは匈人たちによって残され、再び世界に忘れ去られた。</p>
+    <p>…The oasis was left behind by the Huns, forgotten once more by the world.</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>そして時が流れる。[\s]</p>
+    <p>Years passed by unhurried and there was change.[\s]</p>
     <p></p>
-    <p>文明は生まれ、滅亡する。人々は行ったり来たり、やがて歴史という川に消えてなくなる。</p>
+    <p>Civilizations rose and fell; humans came and went, but they all sunk into the endless sands of the long river of history.</p>
   </mono>
   <bgm looptimes="0"></bgm>
   <transition mode="fade" in="2" stop="1" out="2" color="#000000"></transition>
@@ -58,7 +58,7 @@
   <bg img="氛围_第一折_烈阳" duration="3" scale="1.2" origin="80%,20%"></bg>
   <delay t="3.2"></delay>
   <bgm id="神秘东方"></bgm>
-  <text>見上げると、大地を焦がすほどの烈日がある。</text>
+  <text>Looking up, the great sun burns high above, its bright rays illuminating the earth.</text>
   <se id="01-12沙漠环境（无风沙）" looptimes="-1"></se>
   <event action="hide_ui" duration="9"></event>
   <bg img="BGDesert01" duration="3"></bg>
@@ -69,43 +69,43 @@
   <delay t="3"></delay>
   <event action="show_ui"></event>
   <se id="01-12沙漠环境（无风沙）" looptimes="0"></se>
-  <text>周りを見渡すと、立ち上る熱の気流の中、幾重にも重なる砂丘はまるで湧き上がる波のように見える。</text>
+  <text>Looking around in the steaming heat, layers of sand dunes looked like waves rippling endlessly.</text>
   <event action="hide_ui" duration="2"></event>
   <motion chara="095" action="show" pos="right" img="砂匪2-中-普通" duration="2"></motion>
   <delay t="2"></delay>
   <event action="show_ui"></event>
   <se id="01-14男气声哎"></se>
-  <dialog chara="095">「……はぁ。」</dialog>
+  <dialog chara="095">*sigh*</dialog>
   <text>
-    <p>オアシスの来訪者は今、古い壁の陰に隠れながらため息をつく。[\s]</p>
-    <p>この重苦しい烈日と砂の海を、彼は3ヶ月間も見ているのだ。</p>
+    <p>The inhabitant of the oasis now sighed beneath the shadows of the ancient wall.[\s]</p>
+    <p>This dull and sunbathed desert, he had seen the scene for three months now.</p>
   </text>
   <se id="01-13男气声哎"></se>
-  <dialog chara="095">「はぁ…………」</dialog>
+  <dialog chara="095">*sigh*</dialog>
   <text>
-    <p>男はもう一度ため息をつく。</p>
-    <p>砂漠の物寂しさと暑さのせいで気が晴れない。</p>
+    <p>The man sighed again.</p>
+    <p>The desert’s heat and desolation agitates him.</p>
   </text>
   <text>
-    <p>見渡す限り、景色は変わらない——</p>
-    <p>太陽、空、黄砂……何もかもが停滞していて、微動だにしない。</p>
-    <p>空気まで固まっているような気がして、少しの風も感じられないのだ。</p>
+    <p>Looking around, everything in his vision remained the same;</p>
+    <p>the sun, the sky, the yellow sand… are all immobile and motionless.</p>
+    <p>Even the air is stiff, there’s not a breeze around him.</p>
   </text>
   <motion chara="095" action="img_trans" img="砂匪2-中-惊慌"></motion>
-  <dialog chara="095">「栄さん……そっちはどうだ？」</dialog>
+  <dialog chara="095">「 Rong… how’s it going over there? 」</dialog>
   <motion chara="095" action="hide"></motion>
   <transition mode="move" in="0.5" stop="0.5" out="0.5" color="#000000" direction="right" custom="default"></transition>
   <bg img="BGDesert02"></bg>
   <motion chara="094" action="show" pos="left" img="砂匪1-远-普通"></motion>
-  <dialog chara="094">「…………」</dialog>
-  <text>離れた場所にいる男の仲間は返答せず、ただ頭を振っている——状況に変化なし、という意味だ。</text>
+  <dialog chara="094">「 …… 」</dialog>
+  <text>In the distance, his companion responded by simply shaking his head, signaling nothing out of the ordinary was spotted.</text>
   <text>
-    <p>相手は知っているのだ、男は単に退屈を紛らわすためだけに話しかけてきたのだと。</p>
-    <p>しかしこの黄砂に囲まれた蒸籠のような場所では、話すこと自体が贅沢だ。</p>
+    <p>The other man knew very well the man was just starting a conversation to alleviate his boredom.</p>
+    <p>But within this baking desert, talking was a luxury.</p>
   </text>
   <text>
-    <p>口を開くというのは、精神の緩み、水分の流失を意味する。</p>
-    <p>『金砂会』の番人にとってそれはもったいないことだ。</p>
+    <p>Opening his mouth would be a waste of saliva.</p>
+    <p>The guard of the 「 Golden Sand Gang 」 didn’t want to expend the effort.</p>
   </text>
   <motion chara="094" action="hide"></motion>
   <transition mode="move" in="0.5" stop="0.5" out="0.5" color="#000000" direction="left" custom="default"></transition>
@@ -113,15 +113,15 @@
   <motion chara="095" action="show" pos="right" img="砂匪2-中-普通"></motion>
   <remark>
     <p>ㅤ</p>
-    <p>注：</p>
+    <p>NB：</p>
     <p>ㅤ</p>
-    <p>『※』は罵り言葉です。悪影響を避けるため、ここでは米印で表現しています。内容はご想像にお任せします。もしくは、お忘れください。</p>
+    <p>『※』represent swear words. To avoid adverse effects, they are represented here with the U.S. symbol. The contents are left to your imagination. Or please ignore it.</p>
     <p>ㅤ</p>
-    <p>物語の登場人物は、出自、環境、個人の教養などの要素により、罵り言葉を口にすることがあります。しかし、小説内では登場人物の性格を尊重するため、一部非表示となります。予めご了承ください。</p>
+    <p>Characters in the story may utter curse words due to factors such as their origins, environment, and education. However, in order to respect the characters' personalities, some of these words are hidden in the novel. We hope that you understand.</p>
   </remark>
-  <dialog chara="095">「ああ、いいさ……※※、分かったよ。」</dialog>
-  <text>拒否された男は少し苛立って、唇を舐めた。</text>
-  <text>彼はまだ新入りで、『金砂会』に入って数ヶ月しか経っておらず、まだ全てのルールを把握していない。そうでなければ、彼は水の貴重さを知り、首領が帰ってくるまで無口のまま、壁の影に隠れるだろう。</text>
+  <dialog chara="095">「 Fine, okay… ※※, I got it. 」</dialog>
+  <text>He touched the closed door and licked his lips sadly.</text>
+  <text>He is still a newcomer. It’s only been a few months since he joined the 「 Golden Sand Gang 」, he has yet to learn all the rules. If he did, he would’ve known the value of water, would’ve spoken less, and stand still by the shadow of the ancient wall until the Boss comes back.</text>
   <motion chara="095" action="img_trans" img="砂匪2-中-微笑"></motion>
   <remark>
     <p>ㅤ</p>
@@ -131,77 +131,77 @@
     <p>ㅤ</p>
     <p>物語の登場人物は、出自、環境、個人の教養などの要素により、罵り言葉を口にすることがあります。しかし、小説内では登場人物の性格を尊重するため、一部非表示となります。予めご了承ください。</p>
   </remark>
-  <dialog chara="095">「※、あれはでかい商売だぞ。」</dialog>
+  <dialog chara="095">「 ※, it’s supposed to be a big deal. 」</dialog>
   <text>
-    <p>男は鬱憤を晴らすために悪態をつく。</p>
-    <p>声は大きくない。たとえ仲間に聞かれても、内容を聞き取ることはできないだろう。</p>
+    <p>The man swore out of frustration.</p>
+    <p>His voice was so low, his companion couldn’t make out what he said.</p>
   </text>
   <motion chara="095" action="img_trans" img="砂匪2-中-普通"></motion>
   <text>
-    <p>……しかし、男はちゃんと分かっている。首領は新入りの彼を馬鹿になどしていないと。</p>
-    <p>見張りの仕事は当番制、あいにく今日は彼の番になっただけだ。</p>
+    <p>…He knows very well that the Boss didn’t take him lightly just because he’s new.</p>
+    <p>Normally gang members take turns looking after their base, it just so happens today is his turn.</p>
   </text>
-  <text>金砂会の中では、拠点の守りと外での戦い、どちらも功績は同じで、もらえる報酬が少なくなることはない。</text>
+  <text>Even though the Golden Sand Gang will still reward him all the same despite him staying back to protect the base.</text>
   <text>
-    <p>だが、彼は亡命者だ。その手は血に汚れ、足は無数の死体を踏みつけてきた。</p>
-    <p>略奪、強盗、蹂躙、殺戮こそが彼のすべきこと。</p>
-    <p>刀を振り回し、血に染まる刺激こそが彼が得るべき報酬だ。</p>
-  </text>
-  <text>
-    <p>男は自分の価値を信じている。ㅤ[em bold color=#ff0000]戦闘[/em]ㅤとㅤ[em bold color=#ff0000]殺戮[/em]ㅤ。[\s]</p>
-    <p>もし『悪』に真偽があるのなら、男は本物の残酷非道な極悪人だろう。[\s]</p>
-    <p>彼は暴力を恥じることなく、むしろ暴力を自分の強さの証明だと考えている。</p>
+    <p>But- he is a fighter, a real killer.</p>
+    <p>Robbing, looting, kidnapping, murdering… These are what he signed up to do.</p>
+    <p>The clashes of blades and the slicing of flesh… Those are the real rewards he seeks.</p>
   </text>
   <text>
-    <p>そのため、長く計画されてきた『大商売』から外されたことに、</p>
-    <p>彼は屈辱に近い怒りを感じていた。[\s]</p>
-    <p>怒りのせいで焦燥感に駆られ、口が渇き、煩わしく感じる。</p>
+    <p>[em bold color=#ff0000]Battle[/em] and [em bold color=#ff0000]Killing[/em]; these are the things that the man values.[\s]</p>
+    <p>No doubt about it, this man is the evil amongst the evil.[\s]</p>
+    <p>Not only does he bear no shame in this, he prides himself with this as proof of who he really is.</p>
+  </text>
+  <text>
+    <p>As such, being left out of such a 「 Big Fish 」 makes the man feel extremely</p>
+    <p>humiliated and angry[\s]</p>
+    <p>It’s this anger that frustrates him and makes him talkative.</p>
   </text>
   <motion chara="095" action="hide"></motion>
   <transition mode="eye" in="1" stop="0.5" out="1" color="#000000"></transition>
   <bg img="PureBlack"></bg>
   <se id="01-15喝水"></se>
-  <dialog chara="095">「ごくり——」</dialog>
-  <text>気分が最悪な男は水筒を持ち、ガブガブ​飲み始めた。</text>
-  <dialog chara="095">「あれは——」</dialog>
+  <dialog chara="095">「 Gulp- 」</dialog>
+  <text>The frustrated man picked up his water pouch and drank without stopping.</text>
+  <dialog chara="095">「 Hm- 」</dialog>
   <bg img="氛围-1-素裳过曝-1" duration="5"></bg>
   <event action="hide_ui" duration="4"></event>
   <delay t="4"></delay>
   <event action="show_ui"></event>
-  <text>男はぎょっとした。</text>
+  <text>The man blinked.</text>
   <event action="hide_ui" duration="3"></event>
   <bg img="氛围-1-素裳过曝-2" duration="3"></bg>
   <delay t="3"></delay>
   <event action="show_ui"></event>
-  <text>視線の先から、一人の少女が歩いてくる。</text>
+  <text>In front of him, a girl was walking towards them.</text>
   <text>
-    <p>目がかすんでいる訳でも、漠北でよくある「蜃気楼」を見た訳でもない。[\s]</p>
-    <p>あの少女……砂漠の向こうからゆっくりと歩いてくる少女は、本当に存在している。</p>
+    <p>The man wasn’t hallucinating, this isn’t one of those "mirages" that appear in the desert.[\s]</p>
+    <p>The girl…  she’s walking slowly towards them from the other end of the desert.</p>
   </text>
-  <dialog chara="095">「栄さん——！」</dialog>
+  <dialog chara="095">「 R-Rong-! 」</dialog>
   <text>
-    <p>思わず叫んでしまった言葉は、すぐに熱気の中に消えた。</p>
-    <p>気付かぬうちに、男は金砂会の禁忌を犯していた。</p>
-  </text>
-  <text>
-    <p>一つ目、狼狽えること。</p>
-    <p>二つ目、軽率な行動を取ってしまったこと。</p>
-    <p>金砂会の古参なら、彼のように慌てることは決してないのだろう。</p>
+    <p>His whisper quickly dissipated in the heat.</p>
+    <p>Without realizing, he already made several big mistakes.</p>
   </text>
   <text>
-    <p>しかし、男の心には疑問があった。</p>
-    <p>漠北で横行する金砂会を相手に、自らやってくる女は今までいなかった。</p>
+    <p>First: He lost his composure.</p>
+    <p>Second: He moved by himself.</p>
+    <p>If this was the Big Boss, he wouldn’t have made such a big deal out of this.</p>
   </text>
-  <text>「あの女は何者だ？」</text>
-  <text>「頭がおかしいのか？ここは金砂会の縄張りだぞ！」</text>
-  <text>「喧嘩か？この金砂会を相手に？」</text>
-  <text>……たくさんの疑問は稲妻のように脳を駆け巡り、最後に一つの疑問へと収束する。</text>
+  <text>
+    <p>But, the Golden Sand Gang are the feared leaders of the Northern Desert.</p>
+    <p>They have never met a girl that walks up to them like this.</p>
+  </text>
+  <text>「 Who is this girl? 」</text>
+  <text>「 Is she crazy? This place belongs to the Golden Sand Gang! 」</text>
+  <text>「 Who dares look for trouble here? And crosses the Golden Sand Gang? 」</text>
+  <text>…Questions after questions flashed across his mind like lightning.</text>
   <event action="hide_ui" duration="3"></event>
   <se id="01-17女孩沙漠行走loop" looptimes="-1"></se>
   <bg img="氛围-1-素裳过曝-3" duration="3"></bg>
   <delay t="3"></delay>
   <event action="show_ui"></event>
-  <dialog chara="095">「あの女は一体……何者だ？」</dialog>
+  <dialog chara="095">「 This girl… who the hell is she? 」</dialog>
   <bgm looptimes="0"></bgm>
   <transition mode="fade" in="3" stop="2" out="0" color="#000000"></transition>
   <event action="goto" to="02"></event>
