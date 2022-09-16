@@ -1,540 +1,549 @@
 <?xml version="1.0" encoding="utf-8"?>
 <data>
-  <story>
-    <scene id="0" background="bg.jpg">
-    	<bgm src="11_12_mid-lude.mp3" status="start"></bgm>
-    	<cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
-    	<goto goto="10" change="#000000"/>		
-	  </scene>
-	  <scene id="10" background="seaWaveIslandNoName.jpg">
+	<story>
+		<scene id="0" background="bg.jpg">
+			<bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+			<cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+			<goto goto="10" change="#000000" />
+		</scene>
+		<scene id="10" background="seaWaveIslandNoName.jpg">
 			<bgm src="seaAndSky.mp3" status="start"></bgm>
- 			<text>大海には魔力が秘められている。</text>
- 			<text>どんな喧噪であろうとも、ここでは一瞬のうちに消え去る——</text>
- 			<text>それは永遠に変わることなく、ただ波と泡だけが狭間を漂い、一切を孤独の内に呑み込む。</text>
+			<text>바다에는 무언가 마력 같은 힘이 있다.</text>
+			<text>어떤 소란이 일든, 이곳에선 눈 깜짝할 사이에 사라지고——</text>
+			<text>파도와 거품만이 변함없이 떠돌며, 모든 것을 고독으로 삼켜버린다.</text>
 			<text article="1">
-				<p class="article-text">波を切り、突如姿を現した謎の潜水艦は、葦船にいる三人を驚かせた後、今は静かに海面を漂っている。</p>
-				<p class="article-text">青空の下、哀れな怪物「リヴァイアサン」の喚き声だけが響き渡っていた。</p>
-			</text>			
- 			<speak chara="_Rita">ご無事ですか、ビアンカ様？</speak> 			
- 			<speak chara="_Bianka">と、当然でしょ。私だって濡れ鼠になったことくらいありますから、こんなのへっちゃらです。</speak>
- 			<speak chara="_Bianka">——む、タオルありがとうございます。</speak>
- 			<goto goto="15" change="0"/>	
-	  </scene>
-	  <scene id="15" background="seaWaveIslandNoNameRS.jpg"> 			
- 			<bgm src="seaAndSky.mp3" status="continue"></bgm>
- 			<show chara="cervantesShoutClose-up" position="center"/> 	 			
- 			<speak chara="_Miguel">何てことじゃ！こ、これは……</speak> 
- 			<show chara="biancaSeriousClose-up" position="center"/> 		
- 			<speak chara="_Bianka">どうしましたか？まさか、何か知っているのですか？おじいさん。</speak>
- 			<show chara="cervantesSeriousClose-up" position="center"/>	
- 			<speak chara="_Miguel">……いんや、皆目見当もつかんわい。生まれてこの方、こんなもの見たこともない。</speak> 			
- 			<speak chara="_Miguel">全てが金属でできた船……まるで紙を引き裂くかのように「リヴァイアサン」の腹をかっさばくとは。しかも、海の下に潜ることもできるのか——</speak>
- 			<show chara="cervantesShoutClose-up" position="center"/> 		
- 			<speak chara="_Miguel">——400年後の船は、こんなにもすごいものなのか？</speak> 
- 			<show chara="biancaSighClose-up" position="center"/>
- 			<speak chara="_Bianka">……</speak>
- 			<show chara="biancaSneerClose-up" position="center"/> 			
- 			<speak chara="_Bianka">おじいさん、これくらいで驚かないでください。</speak> 			
- 			<speak chara="_Bianka">いいですか——私たちの持つ輸送艦「ヘスティア」でさえ、目の前の潜水艦の一万倍は強いですよ！</speak>
- 			<show chara="rita17SquintClose-up" position="center"/> 			
- 			<speak chara="_Rita">……その戦艦を、この世界に持ってくることはできませんでしたが。</speak>				 					
- 			<goto goto="20" change="0"/>	
-	  </scene>
-	  <scene id="20" background="CG2-1-1.jpg">
- 			<bgm src="seaAndSky.mp3" status="continue"></bgm>
- 			<speak chara="_Bianka">大丈夫ですよ、おじいさん！相手が何者であろうと、私たちがなんとかしてみせますから！</speak>
-	  	<goto goto="30" change="0"/>	
-	  </scene>
-	  <scene id="30" background="CG2-1-2.jpg">
-	  	<bgm src="seaAndSky.mp3" status="continue"></bgm>
- 			<speak chara="_Bianka">（あれ？聖遺物のエネルギーが……少しも回復してない？）</speak>
-	  	<goto goto="40" change="0"/>	
-	  </scene>
-	  <scene id="40" background="seaWaveIslandNoNameRS.jpg">
-	  	<bgm src="noise.mp3" status="start"></bgm>
-	  	<show chara="rita17NormalClose-up" position="center"/>
- 			<speak chara="_Rita">見てください！潜水艦から、誰か出てきました！</speak>
- 			<show chara="cervantesGazeClose-up" position="center"/>
- 			<speak chara="_Miguel">……旗を、上げておるのか？</speak>
- 			<show chara="cervantesShoutClose-up" position="center"/> 	
- 			<speak chara="_Miguel">あ、あれは——</speak> 			
-	  	<goto goto="50" change="0"/>	
-	  </scene>
-	  <scene id="50" background="CG2-2.jpg">
-	  	<bgm src="noise.mp3" status="continue"></bgm>
- 			<speak chara="_Bianka">……海賊旗？</speak>
-	  	<goto goto="60" clockwise="1"/>	
-	  </scene>	
-	  <scene id="60" background="seaWaveIslandNoName.jpg">
-	  	<bgm src="theme.mp3" status="start"></bgm>
- 			<text>海賊旗を掲げた鋼鉄の化け物が、4隻の小船を下ろす。</text>
- 			<text>うち3隻は「リヴァイアサン」の亡骸を囲み、その身を剥ぎ取り始める。</text>
- 			<text>残り1隻は、3人の乗る葦船へと向かってきた。</text>
- 			<text>相手は「普通」の海賊ではないと、そう感じた。なぜなら——</text>
- 			<text>——リーダー格らしき少年が、まるで海賊とは思えないほどビクビクしていたからだ。</text>
- 			<show chara="wattShyClose" position="left"/>
- 			<speak chara="_WattNoName">こ、こんにちは。</speak>
- 			<show chara="wattShyClose" position="left" opacity="0.8"/>
- 			<show chara="biankaProudClose" position="right"/>
- 			<speak chara="_Bianka">……こんにちは。</speak>
- 			<show chara="biankaProudClose" position="right" opacity="0.8"/>
- 			<show chara="wattScaredClose" position="left"/>
- 			<speak chara="_WattNoName">あ、あの……</speak>
- 			<speak chara="_WattNoName">すみません……</speak>
- 			<show chara="wattScaredClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSneerClose" position="right"/>
- 			<speak chara="_Bianka">……はい？</speak>
- 			<show chara="biankaSneerClose" position="right" opacity="0.8"/>
- 			<show chara="wattScaredClose" position="left"/>
- 			<speak chara="_WattNoName">で、ですから……</speak>
- 			<speak chara="_WattNoName">君たちの獲物を取ってしまったようで……</speak> 
- 			<show chara="wattShyClose" position="left"/>			
- 			<speak chara="_WattNoName">……本当にごめんなさい。</speak>
- 			<show chara="wattShyClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSneerClose" position="right"/>
- 			<speak chara="_Bianka">……</speak>
- 			<speak chara="_Bianka">つまり、わざわざ謝りに来たんですか？船長さん？</speak>
- 			<show chara="biankaSneerClose" position="right" opacity="0.8"/>
- 			<show chara="wattScaredClose" position="left"/>
- 			<speak chara="_WattNoName">あっ——いやいや、ボクは船長じゃないよ。</speak>
- 			<show chara="wattSighClose" position="left"/>
- 			<speak chara="_WattNoName">……</speak> 			
- 			<speak chara="_WattNoName">ね、ねぇ……やっぱりレイラ姉さんが説明してよ。</speak>
- 			<show chara="wattSighClose" position="left" opacity="0.8"/>
- 			<show chara="lallaSighClose" position="right"/>
- 			<speak chara="_Lalla">はぁ……</speak>
- 			<speak chara="_Lalla">……あなた、こういうことになると本当にダメダメね。</speak>
+				<p class="article-text">파도 사이를 뚫고, 위로 튀어나온 정체불명의 잠수함은, 쪽배에 탄 3명의 사람을 향해 시원하게 물을 뿌려주고는, 조용히 바다에 떠 있었다.</p>
+				<p class="article-text">그 와중에, 불쌍한 괴물 「레비아탄」은 푸른 하늘 아래 서서히 신음 소리를 내며 죽어가고 있었다.</p>
+			</text>
+			<speak chara="_Rita">괜찮으신가요, 비앙카님?</speak>
+			<speak chara="_Bianka">다, 당연하지. 이런 물에 빠진 생쥐 꼴을 당한 게 한두 번도 아니고, 이쯤이야.</speak>
+			<speak chara="_Bianka">——아, 수건 고마워.</speak>
+			<goto goto="15" change="0" />
+		</scene>
+		<scene id="15" background="seaWaveIslandNoNameRS.jpg">
+			<bgm src="seaAndSky.mp3" status="continue"></bgm>
+			<show chara="cervantesShoutClose-up" position="center" />
+			<speak chara="_Miguel">맙소사! 이, 이건……</speak>
+			<show chara="biancaSeriousClose-up" position="center" />
+			<speak chara="_Bianka">왜 그래요? 뭐 알고 있는 거 있어요, 할아버지?</speak>
+			<show chara="cervantesSeriousClose-up" position="center" />
+			<speak chara="_Miguel">……아니, 전혀 뭔지도 모르겠다네. 내 살면서 이런 건 본적도 없다네.</speak>
+			<speak chara="_Miguel">완전히 쇳덩이로 된 커다란 물체가…… 「레비아탄」의 배를 종이 찢듯이 가르고, 심지어 물 위로 솟아오르기까지 하다니——</speak>
+			<show chara="cervantesShoutClose-up" position="center" />
+			<speak chara="_Miguel">——자네들 세계의 배는 400년 사이 이렇게나 강력해진 건가?</speak>
+			<show chara="biancaSighClose-up" position="center" />
+			<speak chara="_Bianka">……</speak>
+			<show chara="biancaSneerClose-up" position="center" />
+			<speak chara="_Bianka">할아버지, 뭘 이런 걸 가지고 놀라시나요.</speak>
+			<speak chara="_Bianka">알아두세요——저희들의 수송선 「헤스티아」는 눈앞의 깡통 양동이보다 만 배는 더 강하다고요!</speak>
+			<show chara="rita17SquintClose-up" position="center" />
+			<speak chara="_Rita">……물론, 이 세계로 그 전함을 가져올 방법은 없었지만요.</speak>
+			<goto goto="20" change="0" />
+		</scene>
+		<scene id="20" background="CG2-1-1.jpg">
+			<bgm src="seaAndSky.mp3" status="continue"></bgm>
+			<speak chara="_Bianka">상관없어요, 할아버지! 저기에 타고 있는 사람들이 나쁜 사람들이라 한들, 저희들도 대응할 수단을 가지고 있으니까요!</speak>
+			<goto goto="30" change="0" />
+		</scene>
+		<scene id="30" background="CG2-1-2.jpg">
+			<bgm src="seaAndSky.mp3" status="continue"></bgm>
+			<speak chara="_Bianka">(엥? 성유물의 에너지 잔량이……전혀 회복되지 않았잖아?)</speak>
+			<goto goto="40" change="0" />
+		</scene>
+		<scene id="40" background="seaWaveIslandNoNameRS.jpg">
+			<bgm src="noise.mp3" status="start"></bgm>
+			<show chara="rita17NormalClose-up" position="center" />
+			<speak chara="_Rita">보세요! 잠수함에서 누군가 나오고 있어요!</speak>
+			<show chara="cervantesGazeClose-up" position="center" />
+			<speak chara="_Miguel">……깃발을 들었다?</speak>
+			<show chara="cervantesShoutClose-up" position="center" />
+			<speak chara="_Miguel">저, 저건——</speak>
+			<goto goto="50" change="0" />
+		</scene>
+		<scene id="50" background="CG2-2.jpg">
+			<bgm src="noise.mp3" status="continue"></bgm>
+			<speak chara="_Bianka">……해적 깃발?</speak>
+			<goto goto="60" clockwise="1" />
+		</scene>
+		<scene id="60" background="seaWaveIslandNoName.jpg">
+			<bgm src="theme.mp3" status="start"></bgm>
+			<text>해적기를 내건 강철의 괴수가 4척의 작은 배를 내렸다.</text>
+			<text>3척은 「레비아탄」의 근처로 가 절단 작업 비슷한 걸 하고 있었고.</text>
+			<text>남은 한 척은 세 명의 노인과 소녀들이 타고 있는 쪽배로 곧장 다가왔다.</text>
+			<text>그들은 「일반적인」 해적과는 다르게 느껴졌다. 왜냐하면——</text>
+			<text>——그 배의 리더로 보이는 소년이, 오히려 자기가 해적을 만난 것 마냥 긴장하고 있었기 때문이었다.</text>
+			<show chara="wattShyClose" position="left" />
+			<speak chara="_WattNoName">아, 안녕하세요.</speak>
+			<show chara="wattShyClose" position="left" opacity="0.8" />
+			<show chara="biankaProudClose" position="right" />
+			<speak chara="_Bianka">……안녕.</speak>
+			<show chara="biankaProudClose" position="right" opacity="0.8" />
+			<show chara="wattScaredClose" position="left" />
+			<speak chara="_WattNoName">저, 저기……</speak>
+			<speak chara="_WattNoName">죄송해요……</speak>
+			<show chara="wattScaredClose" position="left" opacity="0.8" />
+			<show chara="biankaSneerClose" position="right" />
+			<speak chara="_Bianka">……뭐?</speak>
+			<show chara="biankaSneerClose" position="right" opacity="0.8" />
+			<show chara="wattScaredClose" position="left" />
+			<speak chara="_WattNoName">그, 그러니까……</speak>
+			<speak chara="_WattNoName">당신들의 사냥감을 뺏은 거 같아서……</speak>
+			<show chara="wattShyClose" position="left" />
+			<speak chara="_WattNoName">……정말 죄송합니다.</speak>
+			<show chara="wattShyClose" position="left" opacity="0.8" />
+			<show chara="biankaSneerClose" position="right" />
+			<speak chara="_Bianka">……</speak>
+			<speak chara="_Bianka">그래서, 그냥 사과만 하려고 여기까지 온 거야? 작은 선장님?</speak>
+			<show chara="biankaSneerClose" position="right" opacity="0.8" />
+			<show chara="wattScaredClose" position="left" />
+			<speak chara="_WattNoName">아——아아뇨 아뇨, 전 선장이 아니에요.</speak>
+			<show chara="wattSighClose" position="left" />
+			<speak chara="_WattNoName">……</speak>
+			<speak chara="_WattNoName">진짜……나와서 설명 좀 해줘, 라일라 누나.</speak>
+			<show chara="wattSighClose" position="left" opacity="0.8" />
+			<show chara="lallaSighClose" position="right" />
+			<speak chara="_Lalla">음……</speak>
+			<speak chara="_Lalla">……동생아, 너 이런 쪽으로는 진짜 쓸모가 없구나.</speak>
 			<hide position="left"></hide>
-			<hide position="right"></hide> 		
- 			<show chara="lallaNormalClose" position="center"/>
- 			<speak chara="_Lalla">皆さん、私たちは揚陸艦「カレドニア号」の船員です。</speak> 			
- 			<speak chara="_Lalla">私は甲板長のレイラ、こちらは機関士のジミー——ご覧の通り、私たちは海賊です。</speak>
- 			<show chara="lallaSmileClose" position="center"/>
- 			<speak chara="_Lalla">皆さんの獲物を取ってしまって申し訳ありませんが、そこのデカブツは私たちがいただきます。お詫びに——</speak> 			
- 			<speak chara="_Lalla">うちの船長が皆さんを「カレドニア号」に招待したいと仰っているのですが……</speak>
- 			<speak chara="_Lalla">……いかがでしょうか？</speak>
-	  	<goto goto="70" clockwise="1"/>	
-	  </scene>	
-	  <scene id="70" background="submarinePipe.jpg">
-	  	<bgm src="legion.mp3" status="start"></bgm>
-	  	<text>……</text>
- 			<text>薄暗い白熱電球、色褪せたペンキ、錆びたナット、老朽化しているもののきちんと手入れがされた電源ケーブル。</text>
-	  	<goto goto="80" change="0"/>	
-	  </scene>
-	  <scene id="80" background="submarineEngine.jpg">
+			<hide position="right"></hide>
+			<show chara="lallaNormalClose" position="center" />
+			<speak chara="_Lalla">여러분, 우리는 수륙양용 철갑선 「칼레도니아호」의 선원들입니다.</speak>
+			<speak chara="_Lalla">저는 갑판장 라일라, 여기는 기관사 지미——보시다시피, 해적이죠.</speak>
+			<show chara="lallaSmileClose" position="center" />
+			<speak chara="_Lalla">그렇기에, 당신들의 사냥감을 훔친 건 죄송하지만, 이 큰 녀석은 이제 우리 소유입니다. 그 대신 보상으로——</speak>
+			<speak chara="_Lalla">저희의 선장님께서 당신들을 「칼레도니아호」로 초대하고 싶다는데……</speak>
+			<speak chara="_Lalla">……여러분이 어떻게 생각하실지는 잘 모르겠네요.</speak>
+			<goto goto="70" clockwise="1" />
+		</scene>
+		<scene id="70" background="submarinePipe.jpg">
+			<bgm src="legion.mp3" status="start"></bgm>
+			<text>……</text>
+			<text>누런 백열등, 색 바랜 페인트, 녹슨 너트, 낡았지만 관리가 잘 된 고무 케이블.</text>
+			<goto goto="80" change="0" />
+		</scene>
+		<scene id="80" background="submarineEngine.jpg">
 			<bgm src="legion.mp3" status="continue"></bgm>
-			<text>ビアンカ・アタジナとリタ・ロスヴァイセにとって、「カレドニア号」はまるで巨大なタイムカプセル——</text>
-			<text>——その中にいる彼女たちは、ジュール・ヴェルヌが描く作品のように何もかもが「電気」仕掛けの世界に迷い込んでしまったかのようだ。</text>
-	  	<goto goto="90" change="0"/>	
-	  </scene>
-	  <scene id="90" background="submarineCorridor.jpg">
-	  	<bgm src="legion.mp3" status="continue"></bgm>
-	  	<show chara="biankaSeriousClose" position="left"/>
- 			<speak chara="_Bianka">19世紀末、20世紀初期のデザイン……</speak>
- 			<show chara="biankaSneerClose" position="left"/>
- 			<speak chara="_Bianka">……この「揚陸艦」はどちらから？</speak>
- 			<show chara="biankaSneerClose" position="left" opacity="0.8"/>
- 			<show chara="lallaSighClose" position="right"/>
- 			<speak chara="_Lalla">えっと……私に聞いてるんですか？</speak>
- 			<show chara="lallaSighClose" position="right" opacity="0.8"/>
- 			<show chara="biankaBiteClose" position="left"/>
- 			<speak chara="_Bianka">他に誰がいるんですか。そちらの機関士さんはうまく話せそうにありませんし、聞いても仕方ないでしょう。</speak>
- 			<show chara="biankaBiteClose" position="left" opacity="0.8"/>
- 			<show chara="lallaSmileClose" position="right"/>
- 			<speak chara="_Lalla">フフッ……ジミーはお話し好きですよ——まだ打ち解けていないだけ、そうよね？</speak>
- 			<show chara="wattShyClose" position="right"/>
- 			<speak chara="_Watt">うっ……うん。た、たぶん。</speak>
- 			<show chara="wattShyClose" position="right" opacity="0.8"/>
- 			<show chara="biankaBiteClose" position="left"/>
- 			<speak chara="_Bianka">……それで、この潜水艦はどちらから来たんですか？</speak>
- 			<show chara="biankaShoutClose" position="left"/>
- 			<speak chara="_Bianka">あなたたちの服装は、20世紀の人には見えませんが。</speak>
- 			<show chara="biankaShoutClose" position="left" opacity="0.8"/>
- 			<show chara="lallaNormalClose" position="right"/>	
- 			<speak chara="_Lalla">ええ、違いますわ。</speak>
- 			<show chara="lallaSighClose" position="right"/>		
- 			<speak chara="_Lalla">でも、そう焦らなくて大丈夫——</speak>
- 			<show chara="lallaSmileClose" position="right"/>
- 			<speak chara="_Lalla">これから、船長がその疑問に答えてくれます——それに船長の見せ場を奪うわけにはいきませんから。</speak>
- 			<show chara="lallaSmileClose" position="right" opacity="0.8"/>
- 			<show chara="biankaBiteClose" position="left"/>
- 			<speak chara="_Bianka">……</speak>
- 			<show chara="biankaBiteClose" position="left" opacity="0.8"/>
- 			<show chara="lallaSmileClose" position="right"/>
- 			<speak chara="_Lalla">さあ、船長が艦橋で待っていますよ。</speak>
- 			<bgm src="11_15_shakespeareTheme.mp3" status="start"></bgm>
-	  	<goto goto="100" clockwise="1"/>	
-	  </scene>
-	  <scene id="100" background="CG2-3.jpg">
-	  	<bgm src="11_15_shakespeareTheme.mp3" status="continue"></bgm>
- 			<speak chara="_ShakespeareNoName">20世紀……いや、もしかしたら21世紀の皆さん——</speak>
- 			<speak chara="_ShakespeareNoName">「カレドニア号」へようこそ！</speak>
- 			<speak chara="_ShakespeareNoName">船長の「バルバロッサ」が、船員を代表して歓迎する！</speak>
-	  	<goto goto="110" change="0"/>	
-	  </scene>
-	  <scene id="110" background="submarineCabinBlur.jpg">
-	  	<bgm src="11_15_shakespeareTheme.mp3" status="continue"></bgm>
-	  	<show chara="biankaSighClose" position="left"/>
- 			<speak chara="_Bianka">ハァ、海賊のくせに役者みたいな大仰な口振りで話すのですね。</speak>
- 			<show chara="biankaSighClose" position="left" opacity="0.8"/>
- 			<show chara="shakesSmileClose" position="right"/>
- 			<speak chara="_ShakespeareBarbarossa">「国王一座」をお褒めいただき、感謝する。</speak>
- 			<show chara="shakesSmileClose" position="right" opacity="0.8"/>
- 			<show chara="biankaSeriousClose" position="left"/>
- 			<speak chara="_Bianka">……？</speak>
- 			<show chara="rita17NormalClose" position="left"/>
- 			<speak chara="_Rita">……「国王一座」とは、かのシェイクスピアのでしょうか？</speak>
- 			<show chara="rita17NormalClose" position="left" opacity="0.8"/>
- 			<show chara="shakesConfidentClose" position="right"/>
- 			<speak chara="_ShakespeareBarbarossa">まさに。</speak>
- 			<show chara="shakesSmileClose" position="right"/>
- 			<speak chara="_ShakespeareBarbarossa">そして私は海賊船長「バルバロッサ」役の——</speak> 			
- 			<speak chara="_ShakespeareBarbarossa">——「ウィリアム・シェイクスピア」本人さ。</speak>
- 			<show chara="shakesSmileClose" position="right" opacity="0.8"/>
- 			<show chara="biankaShoutClose" position="left"/>
- 			<speak chara="_Bianka">……！？</speak>
- 			<show chara="biankaShoutClose" position="left" opacity="0.8"/>
- 			<show chara="shakesQuestionClose" position="right"/>
- 			<speak chara="_Shakespeare">ふむ、この設定が気に入らないのなら、「ネモ船長」も演じられるけど。</speak>
- 			<show chara="shakesDisgustedClose" position="right"/>
- 			<speak chara="_Shakespeare">まあ……あの船長のことはよく知らないけどね。偶然、彼が捨てた船を拾っただけだからさ。</speak>
- 			<show chara="shakesDisgustedClose" position="right" opacity="0.8"/>
- 			<show chara="rita17NormalClose" position="left"/>
- 			<speak chara="_Rita">拾った？</speak>
- 			<show chara="rita17NormalClose" position="left" opacity="0.8"/>
- 			<show chara="shakesColdClose" position="right"/>
- 			<speak chara="_Shakespeare">そうさ。</speak>
- 			<show chara="shakesQuestionClose" position="right"/>
- 			<speak chara="_Shakespeare">ある穏やかな朝に、海に向かって発声練習をしていた劇団長は——</speak>
-			<speak chara="_Shakespeare">突如、ドンという音と共に魔の大渦から姿を現した鋼鉄の化け物に気付いたんだ——</speak>
-			<show chara="shakesDisgustedClose" position="right"/>
-			<speak chara="_Shakespeare">その中には誰もおらず、航海日誌も不完全。</speak>
- 			<speak chara="_Shakespeare">……私にとって「ネモ船長」と、その「ノーチラス号」はこんな奇怪な物語さ。</speak>
- 			<show chara="shakesDisgustedClose" position="right" opacity="0.8"/>
- 			<show chara="biankaBiteClose" position="left"/>
- 			<speak chara="_Bianka">……何かの冗談ですか？</speak>
- 			<show chara="biankaBiteClose" position="left" opacity="0.8"/>
- 			<show chara="shakesSmileClose" position="right"/>
- 			<speak chara="_Shakespeare">冗談？</speak>
- 			<show chara="shakesConfidentClose" position="right"/>
- 			<speak chara="_Shakespeare">ああ、そうだ。これは確かに「運命」という名の芝居のちょっとした冗談さ。</speak>
- 			<show chara="shakesSmileClose" position="right"/>
- 			<speak chara="_Shakespeare">しかし、認めざるを得ない——秩序の転覆、運命の改変、天に代わり事を成す——この全てが、面白きに満ち溢れている。</speak>
- 			<show chara="shakesSmileClose" position="right" opacity="0.8"/>
- 			<show chara="biankaSighClose" position="left"/>
- 			<speak chara="_Bianka">……この秩序も何もない異世界が、ですか？</speak>
- 			<show chara="biankaSighClose" position="left" opacity="0.8"/>
- 			<show chara="shakesConfidentClose" position="right"/>
- 			<speak chara="_Shakespeare">おや、秩序を大事にしているんだね、名も知らぬ「騎士」のお嬢さん。</speak>
- 			<show chara="shakesSmileClose" position="right"/>
- 			<speak chara="_Shakespeare">……うん、まずは礼儀に則って、お互い自己紹介をしないかい？</speak>
- 			<show chara="shakesSmileClose" position="right" opacity="0.8"/>
- 			<show chara="biankaShoutClose" position="left"/>
- 			<speak chara="_Bianka">……はい？</speak>
- 			<speak chara="_Bianka">（さっきの話から、どうして急に自己紹介をする流れに？）</speak>
- 			<show chara="biankaShoutClose" position="left" opacity="0.8"/>
- 			<show chara="shakesConfidentClose" position="right"/>
- 			<speak chara="_Shakespeare">私はマリアン・ウィリアム・シェイクスピア、16世紀のイングランドから来た、この「カレドニア号」の船長さ。</speak>
- 			<show chara="shakesSmileClose" position="right"/>
- 			<speak chara="_Shakespeare">「マリアン」という名が嫌なら、「ウィリアム」でも「シェイクスピア」でも好きに呼んでもらって構わないよ。</speak>
- 			<show chara="shakesSmileClose" position="right" opacity="0.8"/>
- 			<show chara="rita17NormalClose" position="left"/>
- 			<speak chara="_Rita">（16世紀、つまりは1500年後……ん？）</speak>
- 			<show chara="lallaSmileClose" position="left" opacity="0.8"/>
- 			<show chara="shakesConfidentClose" position="right"/>
- 			<speak chara="_Shakespeare">こちらが甲板長のレイラ・サジダ・ヘラ、私と同じ時代のモロッコから来た。</speak>
- 			<show chara="wattShyClose" position="left" opacity="0.8"/>
- 			<speak chara="_Shakespeare" remark="next">そして、こちらが機関士のジェームズ・“ジミー”・ワット、18世紀のスコットランド出身だ。「カレドニア号」という名前は彼が付けてくれたんだ——</speak>
+			<text>비앙카·아타지나와 리타·로즈바이세에게, 이 「칼레도니아호」는 거대한 타임캡슐이었다——</text>
+			<text remark="next">——마치 쥘·베른이 쓴 작품 속의 「전기 장치」로 가득한 세계에 온 듯했다.</text>
 			<remark post="U2FsdGVkX1+ddeoBsDMLAmG62QhQ">
-				<p class="article-text-h">注釈：</p>
-				<p class="article-text">カレドニア（Caledonia）は、古代ローマ時代のラテン語でグレートブリテン島の北部を意味する地方の名称、現在のスコットランドにあたる。</p>
-			</remark>	 			
- 			<show chara="biankaAngryClose" position="right"/>
- 			<speak chara="_Bianka">（……ジェームズ・ワット？蒸気機関のあの？私より年下に見えますが？）</speak>
- 			<show chara="shakesConfidentClose" position="right"/>
- 			<speak chara="_Shakespeare">——「ノーチラス号」のままでも悪くなかったけど、このスコットランドから来た少年が艦体を見事修復した功績を称えるべきだと、船員たちから声が上がってね。</speak>
- 			<show chara="shakesConfidentClose" position="right" opacity="0.8"/>
- 			<show chara="wattSighClose" position="left"/>
- 			<speak chara="_Watt">……いや、名前を変えたいと言ったのは、あなただったでしょう？</speak>
- 			<speak chara="_Watt">それに大したことはしてないよ、マニュアル通りにしただけ。</speak>
- 			<show chara="wattSighClose" position="left" opacity="0.8"/>
- 			<show chara="shakesSweatyClose" position="right"/>
- 			<speak chara="_Shakespeare">……</speak>
- 			<show chara="shakesSmileClose" position="right"/>
- 			<speak chara="_Shakespeare">あっ、そうだ。</speak>
- 			<show chara="shakesConfidentClose" position="right"/>
- 			<show chara="ironWhiteClose" position="left" opacity="0.8"/>
- 			<speak chara="_Shakespeare">こちらは「鉄仮面」だ。一等航海士で、私の副官だ。</speak>
- 			<show chara="ironWhiteClose" position="left"/>
- 			<speak chara="_Ironface">……よろしく。</speak>
- 			<show chara="shakesSmileClose" position="right"/>
- 			<show chara="ironWhiteClose" position="left" opacity="0.8"/>
- 			<speak chara="_Shakespeare">正体を晒したくないという本人の希望だ、あんたたちも彼女のプライベートについて余計な詮索はしないように。</speak> 			
- 			<show chara="shakesSmileClose" position="right" opacity="0.8"/>
- 			<show chara="biankaSighClose" position="left"/>
- 			<speak chara="_Bianka">……えぇぇ、怪しくないですか？</speak>
- 			<show chara="biankaSighClose" position="left" opacity="0.8"/>
- 			<show chara="shakesSweatyClose" position="right"/>
- 			<speak chara="_Shakespeare">まぁ、あんたたちよそ者にとってはそうかもしれないけど、この中で一番誠実で頼もしいメンバーだと私は思うよ。</speak>
- 			<show chara="shakesSweatyClose" position="right" opacity="0.8"/>
- 			<show chara="biankaAngryClose" position="left"/>
- 			<speak chara="_Bianka">……</speak>
- 			<show chara="biankaSeriousClose" position="left"/>
- 			<speak chara="_Bianka">わかりました、この「鉄仮面」さんの正体は置いておいて——</speak>
- 			<show chara="biankaConfidentClose" position="left"/>
- 			<speak chara="_Bianka">——船長さんが自己紹介をしてくれましたし、私たちもしないといけませんね。</speak>
- 			<show chara="biankaProudClose" position="left"/>
- 			<show chara="rita17SquintClose" position="right" opacity="0.8"/>
- 			<speak chara="_Bianka">私はビアンカ・アタジナ、こちらが副官のリタ・ロスヴァイセ。私たちは天命の命を受け、この世界を探索しにきた戦乙女です。</speak> 			
- 			<show chara="biankaProudClose" position="left" opacity="0.8"/>
- 			<show chara="wattSurpriseClose" position="right"/>
- 			<speak chara="_Watt">……？</speak>
- 			<show chara="lallaQuestionClose" position="right"/>
- 			<speak chara="_Lalla">……？</speak>
- 			<show chara="ironWhiteClose" position="right"/>
- 			<speak chara="_Ironface">……</speak>
- 			<show chara="shakesDisgustedClose" position="right"/>
- 			<speak chara="_Shakespeare">……「天命」？「戦乙女」？何だい、それは？</speak>
- 			<show chara="shakesDisgustedClose" position="right" opacity="0.8"/>
- 			<show chara="biankaProudClose" position="left"/>
- 			<speak chara="_Bianka">……え？</speak>
- 			<show chara="biankaProudClose" position="left" opacity="0.8"/>
- 			<show chara="shakesLaughClose" position="right"/>
- 			<speak chara="_Shakespeare">アッハハハハハッ！</speak>
- 			<show chara="shakesLaughClose" position="right" opacity="0.8"/>
- 			<show chara="rita17NormalClose" position="left"/>
- 			<speak chara="_Rita">……？</speak>
- 			<show chara="ironWhiteClose" position="left" opacity="0.8"/>
- 			<show chara="shakesSmileClose" position="right"/>
- 			<speak chara="_Shakespeare">やっぱり、あんたの言葉は嘘じゃなかった、我が親愛なる副官、いや“先生”！</speak>
- 			<show chara="shakesLaughClose" position="right"/>
- 			<speak chara="_Shakespeare">ハハハハハッ！</speak>
- 			<show chara="shakesLaughClose" position="right" opacity="0.8"/>
- 			<show chara="ironRedClose" position="left"/>
- 			<speak chara="_Ironface">……劇団長、もう少し節度を。</speak>
- 			<show chara="biankaBiteClose" position="left"/>
- 			<speak chara="_Bianka">ねぇっ！</speak>
- 			<speak chara="_Bianka">いったい何を言っているんですか、この赤いちびっ子は！？天命を知らない？</speak>
- 			<show chara="biankaBiteClose" position="left" opacity="0.8"/>
- 			<show chara="shakesDisgustedClose" position="right"/>
- 			<speak chara="_Shakespeare">おやおや、そんな言い方はよくないよ、お嬢ちゃん。</speak>
- 			<show chara="shakesConfidentClose" position="right"/>
- 			<speak chara="_Shakespeare">ふむ……そうだね。</speak>
- 			<show chara="shakesSmileClose" position="right"/>
- 			<speak chara="_Shakespeare">あんたの言う「天命」がどんな存在なのか全く知らないんだよ、ここにいる連中は。</speak>
- 			<show chara="shakesSmileClose" position="right" opacity="0.8"/>
- 			<show chara="biankaBiteClose" position="left"/>
- 			<speak chara="_Bianka">……なっ！？</speak>
- 			<show chara="biankaBiteClose" position="left" opacity="0.8"/>
- 			<show chara="shakesColdClose" position="right"/>
- 			<speak chara="_Shakespeare">——しかし、この「鉄仮面」が以前教えてくれたから私は知っている。</speak> 			
- 			<speak chara="_Shakespeare">いくつかの異世界の中には、「崩壊」というエネルギーが異常なまでに充満していて——</speak>
- 			<show chara="shakesQuestionClose" position="right"/>
- 			<speak chara="_Shakespeare">あ～……魔法世界みたいな感じなのかな。</speak>
- 			<show chara="shakesColdClose" position="right"/>
- 			<speak chara="_Shakespeare">「崩壊」の影響を受けた世界では魔物が溢れ、様々な厄災に見舞われていると——</speak> 			
- 			<speak chara="_Shakespeare">——そして、身を挺して立ち上がったのが「天命」という組織だとね。</speak> 			
- 			<speak chara="_Shakespeare">その世界では誰もが「天命」を知っている。</speak> 	
- 			<speak chara="_Shakespeare">天命は、少女の中から魔物どもと渡り合える戦士を選び出し、育成して「戦乙女」にする。</speak> 		
- 			<speak chara="_Shakespeare">「戦乙女」たちは「崩壊」の侵食に抵抗でき、崩壊の力を利用して人類のために戦う。</speak>
- 			<show chara="shakesSmileClose" position="right"/>
- 			<speak chara="_Shakespeare">——自称「戦乙女」のお二人さん、これらの噂は、本当にあんたたちの世界の出来事なのかい？</speak>
- 			<show chara="shakesSmileClose" position="right" opacity="0.8"/>
- 			<show chara="biankaAngryClose" position="left"/>
- 			<speak chara="_Bianka">……</speak>
- 			<show chara="rita17NormalClose" position="left"/>
- 			<speak chara="_Rita">……</speak>
- 			<show chara="biankaAngryClose" position="left"/>
- 			<speak chara="_Bianka">かなり妙な言い方ではありますが……</speak>
- 			<show chara="biankaSeriousClose" position="left"/>
- 			<speak chara="_Bianka">そうですね……確かにそれは事実です。</speak>
- 			<show chara="biankaSeriousClose" position="left" opacity="0.8"/>
- 			<show chara="shakesConfidentClose" position="right"/>
- 			<speak chara="_Shakespeare">では、お二人さん——これからあんたたちに与える忠告は、少し意味のあるものになるから心して聞くように。</speak>
- 			<show chara="shakesConfidentClose" position="right" opacity="0.8"/>
- 			<show chara="biankaAngryClose" position="left"/>
- 			<speak chara="_Bianka">……「忠告」ですか？</speak>
- 			<show chara="biankaAngryClose" position="left" opacity="0.8"/>
- 			<show chara="shakesSmileClose" position="right"/>
- 			<speak chara="_Shakespeare">ああ、とても基本的で、重要なことだよ。</speak>
- 			<show chara="shakesConfidentClose" position="right"/>
- 			<speak chara="_Shakespeare">ただ一言——この世界で生きていくなら、弾薬を無駄にしてはいけない。</speak>
- 			<show chara="shakesConfidentClose" position="right" opacity="0.8"/>
- 			<show chara="biankaAngryClose" position="left"/>
- 			<speak chara="_Bianka">……</speak>
- 			<show chara="biankaAngryClose" position="left" opacity="0.8"/>
- 			<show chara="shakesColdClose" position="right"/>
- 			<speak chara="_Shakespeare">なに、エネルギーを得られなくなるわけじゃない、ただその補充速度が数百分の一に遅くなるだけさ。</speak>
- 			<show chara="shakesConfidentClose" position="right"/>
- 			<speak chara="_Shakespeare">この「カレドニア号」のように、たとえ大規模改修を経ても魚雷を6本しか携帯できないのと同じ。</speak>
- 			<show chara="shakesSmileClose" position="right"/>
- 			<speak chara="_Shakespeare">……それとも、幼い頃から受けてきた戦闘訓練は、あんたたちを「崩壊」がないと生きていけない体にしたのかな？</speak>
- 			<show chara="shakesSmileClose" position="right" opacity="0.8"/>
- 			<show chara="biankaShoutClose" position="left"/>
- 			<speak chara="_Bianka">あまり舐めないでほしいですね！</speak>
- 			<show chara="biankaBiteClose" position="left"/>
- 			<speak chara="_Bianka">そこまで言うのなら……あなた、私と手合わせしてみますか？こちらは崩壊エネルギーを使いませんから！</speak>
- 			<show chara="biankaBiteClose" position="left" opacity="0.8"/>
- 			<show chara="shakesLaughClose" position="right"/>
- 			<speak chara="_Shakespeare">ハハハハッ！</speak>
- 			<show chara="shakesSmileClose" position="right"/>
- 			<speak chara="_Shakespeare">何をする気だい？近接格闘の腕でも披露するのかな？</speak>
- 			<show chara="shakesDisgustedClose" position="right"/>
- 			<speak chara="_Shakespeare">そうだ、副官さん、このお嬢さんと手合わせする気はないかい？</speak>
- 			<show chara="shakesDisgustedClose" position="right" opacity="0.8"/>
- 			<show chara="ironWhiteClose" position="left"/>
- 			<speak chara="_Ironface">……断る。</speak> 			
- 			<show chara="biankaSneerClose" position="left"/>
- 			<speak chara="_Bianka">あなた、身内に嫌われてるんですか？</speak>
- 			<show chara="ironBlueClose" position="left"/>
- 			<speak chara="_Ironface">——でも、劇団長が特別手当を出してくれるというなら……考えなくもない。</speak>
- 			<show chara="ironBlueClose" position="left" opacity="0.8"/>
- 			<show chara="biankaShoutClose" position="right"/>
- 			<speak chara="_Bianka">は？この人、お金で動く傭兵なんですか？</speak>
- 			<show chara="shakesLaughClose" position="right"/>
- 			<speak chara="_Shakespeare">アッハハハハッ！</speak>
- 			<show chara="shakesSmileClose" position="right"/>
- 			<speak chara="_Shakespeare">まあいい、給料を支払わない劇団長は、いい船長とは言えないからね！</speak>
- 			<show chara="shakesSmileClose" position="right" opacity="0.8"/>
- 			<show chara="biankaAngryClose" position="left"/>
- 			<speak chara="_Bianka">……</speak>
- 			<show chara="rita17SquintClose" position="left"/>
- 			<speak chara="_Rita">……</speak>
- 			<speak chara="_Rita">それでしたら、こちらからも一つお願いがあります。</speak>
- 			<show chara="rita17SquintClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSeriousClose" position="back"/>
- 			<speak chara="_Bianka">？</speak>
- 			<show chara="biankaSeriousClose" position="back" opacity="0.8"/>
- 			<show chara="rita17NaughtyClose" position="left"/>
- 			<speak chara="_Rita">シェイクスピアさんが、副官さんを手合わせのお相手に出すのでしたら——</speak>
- 			<show chara="rita17SquintClose" position="left"/>
- 			<speak chara="_Rita">——同じ副官として、ビアンカ様の代わりに私がお相手いたします。</speak>
- 			<show chara="rita17NaughtyClose" position="left"/>
- 			<speak chara="_Rita">そちらの方が、筋が通るのではありませんか？</speak>
- 			<show chara="rita17NaughtyClose" position="left" opacity="0.8"/>
- 			<show chara="shakesLaughClose" position="right"/>
- 			<speak chara="_Shakespeare">ハハハッ！面白い！</speak>
- 			<show chara="shakesSmileClose" position="right"/>
- 			<speak chara="_Shakespeare">……では、こうしよう。</speak>
- 			<show chara="shakesConfidentClose" position="right"/>
- 			<speak chara="_Shakespeare">私とビアンカさん、リタさんと「鉄仮面」——</speak>
- 			<speak chara="_Shakespeare">——それぞれで手合わせしようと思うんだけど、異論はないかい？</speak>
-	  	<goto goto="120" clockwise="1"/>	
-	  </scene>
-	  <scene id="120" background="beachIslandNoName.jpg">
-	  	<bgm src="seaAndSky.mp3" status="start"></bgm>
-	  	<show chara="biankaBiteClose" position="left"/>
- 			<speak chara="_Bianka">ハァ……ハァ……ッ！</speak>
- 			<show chara="biankaBiteClose" position="left" opacity="0.8"/>
- 			<show chara="rita17HesitateClose" position="right"/>
- 			<speak chara="_Rita">強い……</speak>
- 			<show chara="shakesConfidentClose" position="right"/>
- 			<speak chara="_Shakespeare">いやいや、二人こそ素晴らしい戦いぶりだったよ。</speak>
- 			<show chara="shakesColdClose" position="right"/>
- 			<speak chara="_Shakespeare">使い慣れた武器と技術が使えないとはいえ、ここまで戦えるのは尊敬に値するよ。</speak>
- 			<show chara="ironBlueClose" position="right"/>
- 			<speak chara="_Ironface">……訓練を積めば、きっと格闘術でも私たちを越えられるはずだ。</speak>
- 			<show chara="shakesSmileClose" position="right"/>
- 			<speak chara="_Shakespeare">ひとまず、運動でストレス発散もできたし——</speak>
- 			<show chara="shakesConfidentClose" position="right"/>
- 			<speak chara="_Shakespeare">——そろそろ本当の情報交換と行こうか。</speak>
- 			<show chara="shakesConfidentClose" position="right" opacity="0.8"/>
- 			<show chara="biankaSeriousClose" position="left"/>
- 			<speak chara="_Bianka">……？</speak>
- 			<show chara="biankaSeriousClose" position="left" opacity="0.8"/>
- 			<show chara="shakesColdClose" position="right"/>
- 			<speak chara="_Shakespeare">“あんたたちの探索の目的は一体なんだい。”</speak>
- 			<show chara="shakesSmileClose" position="right"/>
- 			<speak chara="_Shakespeare">代わりに、この「カレドニア号」が航海をしている理由を教えるよ。</speak>
- 			<show chara="shakesSmileClose" position="right" opacity="0.8"/>
- 			<show chara="biankaAngryClose" position="left"/>
- 			<speak chara="_Bianka">……。</speak>
- 			<show chara="biankaAngryClose" position="left" opacity="0.8"/>
- 			<show chara="shakesDisgustedClose" position="right"/>
- 			<speak chara="_Shakespeare">“ノーコメント”か？</speak>
- 			<show chara="shakesSmileClose" position="right"/>
- 			<speak chara="_Shakespeare">それでは、この「カレドニア号」の乗客になる機会を失ってしまうよ？</speak>
- 			<show chara="shakesSmileClose" position="right" opacity="0.8"/>
- 			<show chara="biankaAngryClose" position="left"/>
- 			<speak chara="_Bianka">……</speak>
- 			<show chara="biankaBiteClose" position="left"/>
- 			<speak chara="_Bianka">はぁ……</speak>
- 			<show chara="biankaBiteClose" position="left" opacity="0.8"/>
- 			<show chara="cervantesSmileClose" position="right"/>
- 			<speak chara="_Miguel">……ふむ、わしに知られたくないことがあるのなら——</speak>
- 			<show chara="cervantesSmileClose" position="right" opacity="0.8"/>
- 			<show chara="biankaShoutClose" position="left"/>
- 			<speak chara="_Bianka">おじいさん、待って！</speak>
- 			<show chara="biankaShoutClose" position="left" opacity="0.8"/>
- 			<show chara="cervantesNormalClose" position="right"/>
- 			<speak chara="_Miguel">……！</speak>
- 			<show chara="cervantesNormalClose" position="right" opacity="0.8"/>
- 			<show chara="biankaAngryClose" position="left"/>
- 			<speak chara="_Bianka">……大丈夫です。</speak>
- 			<speak chara="_Bianka">私たちにとって、おじいさんは恩人です……だから、自分を部外者だと思わないでください。</speak>
- 			<show chara="biankaProudClose" position="left"/>
- 			<speak chara="_Bianka">話を戻します——</speak> 			
- 			<speak chara="_Bianka">リタ、説明を。</speak>
- 			<show chara="biankaConfidentClose" position="left"/>
- 			<speak chara="_Bianka">私たちがここに来た目的が何なのか、皆さんに教えてください。</speak>
- 			<show chara="biankaConfidentClose" position="left" opacity="0.8"/>
- 			<show chara="rita17SmileClose" position="right"/>
- 			<speak chara="_Rita">……かしこまりました、ビアンカ様。</speak>
- 			<show chara="rita17SquintClose" position="right"/>
- 			<bgm src="11_16_themeOtto.mp3" status="start"></bgm>
- 			<speak chara="_Rita">まず——皆様は「量子の海」をご存知でしょうか？</speak>
-	  	<goto goto="130" clockwise="1"/>	
-	  </scene>
-	  <scene id="130" background="11_15_gallery.jpg">
-	  	<bgm src="11_16_themeOtto.mp3" status="continue"></bgm>
- 			<show chara="ottoSuitsKindFar" position="back"/>
- 			<show chara="memoryLoading" position="center" opacity="0.6"/>
- 			<speak chara="_Otto">簡単に言うと、君たちの任務は「量子の海」という異次元に入ってもらい、「エーテルアンカーポイント」という特殊構造を探索してもらうことだ。</speak> 			
- 			<speak chara="_Otto">「量子の海」とは既知の四次元宇宙に属さず、僕たちがいる“ここ”とは平行に存在する「平行次元界」のことだ、数学的に要約すればね。</speak>
- 			<speak chara="_Otto" remark="next">「エーテルアンカーポイント」は、「次元多様体」の間の位相変換であり、その実体は自然のものでも、あるいは人造の機械のものでも、どちらの可能性も含んでいる。</speak>
+				<p class="article-text-h">역자주:</p>
+				<p class="article-text">쥘·베른(Jules Gabriel Verne), 19세기의 공상 과학 소설가. 본 작품에 나오는 잠수함의 모티브가 된 「해저 2만리」등 후대의 공상 과학 소설가들에게 큰 영향을 준 작품들을 많이 썼다.</p>
+			</remark>
+			<goto goto="90" change="0" />
+		</scene>
+		<scene id="90" background="submarineCorridor.jpg">
+			<bgm src="legion.mp3" status="continue"></bgm>
+			<show chara="biankaSeriousClose" position="left" />
+			<speak chara="_Bianka">19세기 말, 20세기 초의 기체 디자인……</speak>
+			<show chara="biankaSneerClose" position="left" />
+			<speak chara="_Bianka">……대체 이 「수륙양용 철갑선」은 어디서 구한 거야?</speak>
+			<show chara="biankaSneerClose" position="left" opacity="0.8" />
+			<show chara="lallaSighClose" position="right" />
+			<speak chara="_Lalla">저한테……물으신 건가요?</speak>
+			<show chara="lallaSighClose" position="right" opacity="0.8" />
+			<show chara="biankaBiteClose" position="left" />
+			<speak chara="_Bianka">그럼 누가 있겠어. 너네 기관사는 제대로 말도 못 하는데, 걔한테 물어봐서 뭐해?</speak>
+			<show chara="biankaBiteClose" position="left" opacity="0.8" />
+			<show chara="lallaSmileClose" position="right" />
+			<speak chara="_Lalla">어……지미는 사실 말이 많은데——그냥 당신과 친하지 않아서 그런 걸 거예요, 그렇지?</speak>
+			<show chara="wattShyClose" position="right" />
+			<speak chara="_Watt">어……네. 아, 아마도요.</speak>
+			<show chara="wattShyClose" position="right" opacity="0.8" />
+			<show chara="biankaBiteClose" position="left" />
+			<speak chara="_Bianka">……그래서 너희 잠수함은 어디서 가져온 거야?</speak>
+			<show chara="biankaShoutClose" position="left" />
+			<speak chara="_Bianka">너희 옷을 보면, 전혀 20세기에서 온 사람들로는 안 보이는데?!</speak>
+			<show chara="biankaShoutClose" position="left" opacity="0.8" />
+			<show chara="lallaNormalClose" position="right" />
+			<speak chara="_Lalla">아니죠.</speak>
+			<show chara="lallaSighClose" position="right" />
+			<speak chara="_Lalla">하지만, 그렇다고 조급해할 필요는 없어요——</speak>
+			<show chara="lallaSmileClose" position="right" />
+			<speak chara="_Lalla">나중에 선장님께서 당신들의 질문에 대답을 해 주실 테니——제가 여기서 주제넘게 나설 필요는 없죠.</speak>
+			<show chara="lallaSmileClose" position="right" opacity="0.8" />
+			<show chara="biankaBiteClose" position="left" />
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaBiteClose" position="left" opacity="0.8" />
+			<show chara="lallaSmileClose" position="right" />
+			<speak chara="_Lalla">자, 선장님이 함교에서 기다리고 있습니다.</speak>
+			<bgm src="11_15_shakespeareTheme.mp3" status="start"></bgm>
+			<goto goto="100" clockwise="1" />
+		</scene>
+		<scene id="100" background="CG2-3.jpg">
+			<bgm src="11_15_shakespeareTheme.mp3" status="continue"></bgm>
+			<speak chara="_ShakespeareNoName">20세기……아니, 아마도 21세기의 여러분——</speak>
+			<speak chara="_ShakespeareNoName">「칼레도니아호」에 잘 오셨소!</speak>
+			<speak chara="_ShakespeareNoName">선장 「바르바로사」가, 이곳의 모든 선원을 대표하여, 여러분을 환영하오!</speak>
+			<goto goto="110" change="0" />
+		</scene>
+		<scene id="110" background="submarineCabinBlur.jpg">
+			<bgm src="11_15_shakespeareTheme.mp3" status="continue"></bgm>
+			<show chara="biankaSighClose" position="left" />
+			<speak chara="_Bianka">쳇. 분명 해적 무리 인건 맞는데, 행동은 무슨 연극하는 거 같네.</speak>
+			<show chara="biankaSighClose" position="left" opacity="0.8" />
+			<show chara="shakesSmileClose" position="right" />
+			<speak chara="_ShakespeareBarbarossa">「국왕 극단」을 칭찬해 주셔서 감사하오.</speak>
+			<show chara="shakesSmileClose" position="right" opacity="0.8" />
+			<show chara="biankaSeriousClose" position="left" />
+			<speak chara="_Bianka">……?</speak>
+			<show chara="rita17NormalClose" position="left" />
+			<speak chara="_Rita">……「국왕 극단」? 셰익스피어의?</speak>
+			<show chara="rita17NormalClose" position="left" opacity="0.8" />
+			<show chara="shakesConfidentClose" position="right" />
+			<speak chara="_ShakespeareBarbarossa">그렇소.</speak>
+			<show chara="shakesSmileClose" position="right" />
+			<speak chara="_ShakespeareBarbarossa">여기, 해적 선장 「바르바로사」의 역을 맡은 건——</speak>
+			<speak chara="_ShakespeareBarbarossa">——「윌리엄·셰익스피어」 본인이오.</speak>
+			<show chara="shakesSmileClose" position="right" opacity="0.8" />
+			<show chara="biankaShoutClose" position="left" />
+			<speak chara="_Bianka">……?!</speak>
+			<show chara="biankaShoutClose" position="left" opacity="0.8" />
+			<show chara="shakesQuestionClose" position="right" />
+			<speak chara="_Shakespeare">뭐. 이 연극이 별로였다면, 내가 「네모 선장」이라도 해줄게.</speak>
+			<show chara="shakesDisgustedClose" position="right" />
+			<speak chara="_Shakespeare">어차피……나도 선장일은 잘 몰라, 그냥 누가 버린 난파선을 주워 온 거라서.</speak>
+			<show chara="shakesDisgustedClose" position="right" opacity="0.8" />
+			<show chara="rita17NormalClose" position="left" />
+			<speak chara="_Rita">주워요?</speak>
+			<show chara="rita17NormalClose" position="left" opacity="0.8" />
+			<show chara="shakesColdClose" position="right" />
+			<speak chara="_Shakespeare">맞아.</speak>
+			<show chara="shakesQuestionClose" position="right" />
+			<speak chara="_Shakespeare">바람이 부는 맑은 아침, 바다 앞에서 발성 연습을 하려는 극단장은——</speak>
+			<speak chara="_Shakespeare">돌연, 이 강철 괴물이 "펑" 하며 심연의 소용돌이에서 튀어나오는 걸 목격했다네——</speak>
+			<show chara="shakesDisgustedClose" position="right" />
+			<speak chara="_Shakespeare">안에는 아무도 없고, 항해일지도 일부만 남아있고</speak>
+			<speak chara="_Shakespeare">……나에게 있어서의, 「네모 선장」과 그의 「노틸러스호」, 이런 밑도 끝도 없는 기묘한 이야기라니.</speak>
+			<show chara="shakesDisgustedClose" position="right" opacity="0.8" />
+			<show chara="biankaBiteClose" position="left" />
+			<speak chara="_Bianka">……너 지금 장난하는 거야?</speak>
+			<show chara="biankaBiteClose" position="left" opacity="0.8" />
+			<show chara="shakesSmileClose" position="right" />
+			<speak chara="_Shakespeare">장난?</speak>
+			<show chara="shakesConfidentClose" position="right" />
+			<speak chara="_Shakespeare">아, 그래, 이건 분명 「운명」이라는 연극의 적당한 장난.</speak>
+			<show chara="shakesSmileClose" position="right" />
+			<speak chara="_Shakespeare">하지만, 인정해야겠네——질서를 뒤엎고, 운명을 바꾸며, 하늘을 대신해 벌을 내리는 것——정말 재밌기는 해.</speak>
+			<show chara="shakesSmileClose" position="right" opacity="0.8" />
+			<show chara="biankaSighClose" position="left" />
+			<speak chara="_Bianka">……이 이세계에 질서가 있다고 보는 거야?</speak>
+			<show chara="biankaSighClose" position="left" opacity="0.8" />
+			<show chara="shakesConfidentClose" position="right" />
+			<speak chara="_Shakespeare">오, 질서를 매우 중요시 하는 것 같군, 이름 모를 「기사」 아가씨.</speak>
+			<show chara="shakesSmileClose" position="right" />
+			<speak chara="_Shakespeare">……그럼 에티켓을 따라, 우선 자기소개를 하는 게 어때?</speak>
+			<show chara="shakesSmileClose" position="right" opacity="0.8" />
+			<show chara="biankaShoutClose" position="left" />
+			<speak chara="_Bianka">……뭐?</speak>
+			<speak chara="_Bianka">(어떻게 질서 얘기에서 갑자기 자기소개로 넘어가버린 거지?)</speak>
+			<show chara="biankaShoutClose" position="left" opacity="0.8" />
+			<show chara="shakesConfidentClose" position="right" />
+			<speak chara="_Shakespeare">나는 마리안·윌리엄·셰익스피어, 「칼레도니아호」의 선장이며, 16세기 잉글랜드에서 왔어.</speak>
+			<show chara="shakesSmileClose" position="right" />
+			<speak chara="_Shakespeare">「마리안」이란 이름이 너무 바보 같다고 생각하면, 그냥 「윌리엄」이나 「셰익스피어」로 불러. 상관없으니까.</speak>
+			<show chara="shakesSmileClose" position="right" opacity="0.8" />
+			<show chara="rita17NormalClose" position="left" />
+			<speak chara="_Rita">(16세기면, 1500년 이후……응?)</speak>
+			<show chara="lallaSmileClose" position="left" opacity="0.8" />
+			<show chara="shakesConfidentClose" position="right" />
+			<speak chara="_Shakespeare">여기는 라일라·수주드·헤라, 갑판장이고, 나랑 같은 시대의 모로코에서 왔어.</speak>
+			<show chara="wattShyClose" position="left" opacity="0.8" />
+			<speak chara="_Shakespeare" remark="next">여기는 제임스·"지미"·와트, 기관사, 18세기의 스코틀랜드에서 왔지. 「칼레도니아호」란 이름은 우릴 도와준 지미를 위해——</speak>
+			<remark post="U2FsdGVkX1+ddeoBsDMLAmG62QhQ">
+				<p class="article-text-h">주:</p>
+				<p class="article-text">칼레도니아(Caledonia)는 로마시대 지명의 이름으로, 오늘날의 스코틀랜드이다.</p>
+			</remark>
+			<show chara="biankaAngryClose" position="right" />
+			<speak chara="_Bianka">(……제임스·와트? 그 증기기관을 만든? 어떻게 나보다 더 어려 보이는 거지?)</speak>
+			<show chara="shakesConfidentClose" position="right" />
+			<speak chara="_Shakespeare">——계속해서 「노틸러스호」라고 부르는 것도 나쁘진 않았지만</speak>
+			<speak chara="_Shakespeare">——배의 모든 것을 고친 스코틀랜드 10대 소년에 경의를 표해야 한다고 많은 선원들이 동의하길래.</speak>
+			<show chara="shakesConfidentClose" position="right" opacity="0.8" />
+			<show chara="wattSighClose" position="left" />
+			<speak chara="_Watt">……분명 그냥 그때 당신 자신이 이름을 바꾸고 싶어서였던 것 같은데, 아닌가요?</speak>
+			<speak chara="_Watt">다시 말하지만, 제가 특별히 잘한 건 없어요. 그냥 설명서대로 한 게 다니까요.</speak>
+			<show chara="wattSighClose" position="left" opacity="0.8" />
+			<show chara="shakesSweatyClose" position="right" />
+			<speak chara="_Shakespeare">……</speak>
+			<show chara="shakesSmileClose" position="right" />
+			<speak chara="_Shakespeare">아, 맞다.</speak>
+			<show chara="shakesConfidentClose" position="right" />
+			<show chara="ironWhiteClose" position="left" opacity="0.8" />
+			<speak chara="_Shakespeare">여기는 「철가면」, 1등 항해사.</speak>
+			<show chara="ironWhiteClose" position="left" />
+			<speak chara="_Ironface">……잘 부탁드립니다.</speak>
+			<show chara="shakesSmileClose" position="right" />
+			<show chara="ironWhiteClose" position="left" opacity="0.8" />
+			<speak chara="_Shakespeare">우리는 익명으로 지내길 바라는 그녀의 의견을 존중해, 그러니까 불필요한 사생활은 묻지 않길 바라.</speak>
+			<show chara="shakesSmileClose" position="right" opacity="0.8" />
+			<show chara="biankaSighClose" position="left" />
+			<speak chara="_Bianka">……야, 너무 수상한 거 아냐?</speak>
+			<show chara="biankaSighClose" position="left" opacity="0.8" />
+			<show chara="shakesSweatyClose" position="right" />
+			<speak chara="_Shakespeare">뭐, 너희 같은 생면부지보다는, 이쪽이 더 솔직하고 믿음직스러운 멤버 같은데.</speak>
+			<show chara="shakesSweatyClose" position="right" opacity="0.8" />
+			<show chara="biankaAngryClose" position="left" />
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaSeriousClose" position="left" />
+			<speak chara="_Bianka">됐어. 「철가면」이든 뭐든——</speak>
+			<show chara="biankaConfidentClose" position="left" />
+			<speak chara="_Bianka">——선장님께서 자신의 배경을 소개해 주셨으니, 우리도 우리의 사정을 알려줘야겠지.</speak>
+			<show chara="biankaProudClose" position="left" />
+			<show chara="rita17SquintClose" position="right" opacity="0.8" />
+			<speak chara="_Bianka">나는 비앙카·아타지나, 이쪽은 부관 리타·로스바이세. 천명의 명령 아래, 이 세계를 탐험하고 있는 발키리야.</speak>
+			<show chara="biankaProudClose" position="left" opacity="0.8" />
+			<show chara="wattSurpriseClose" position="right" />
+			<speak chara="_Watt">……?</speak>
+			<show chara="lallaQuestionClose" position="right" />
+			<speak chara="_Lalla">……?</speak>
+			<show chara="ironWhiteClose" position="right" />
+			<speak chara="_Ironface">……</speak>
+			<show chara="shakesDisgustedClose" position="right" />
+			<speak chara="_Shakespeare">……「천명」? 「발키리」? 그게 뭔데?</speak>
+			<show chara="shakesDisgustedClose" position="right" opacity="0.8" />
+			<show chara="biankaProudClose" position="left" />
+			<speak chara="_Bianka">……뭐?</speak>
+			<show chara="biankaProudClose" position="left" opacity="0.8" />
+			<show chara="shakesLaughClose" position="right" />
+			<speak chara="_Shakespeare">아하하하하하하!</speak>
+			<show chara="shakesLaughClose" position="right" opacity="0.8" />
+			<show chara="rita17NormalClose" position="left" />
+			<speak chara="_Rita">……?</speak>
+			<show chara="ironWhiteClose" position="left" opacity="0.8" />
+			<show chara="shakesSmileClose" position="right" />
+			<speak chara="_Shakespeare">정말로 말한 대로네, 나의 친애하는 1등 항해사, 아니 철가면 “선생”!</speak>
+			<show chara="shakesLaughClose" position="right" />
+			<speak chara="_Shakespeare">아하하하하하하하!</speak>
+			<show chara="shakesLaughClose" position="right" opacity="0.8" />
+			<show chara="ironRedClose" position="left" />
+			<speak chara="_Ironface">……극단장, 실례입니다.</speak>
+			<show chara="biankaBiteClose" position="left" />
+			<speak chara="_Bianka">야!</speak>
+			<speak chara="_Bianka">대체 뭐라 하는 거야, 이 빨강 머리 난쟁이가?!</speak>
+			<show chara="biankaBiteClose" position="left" opacity="0.8" />
+			<show chara="shakesDisgustedClose" position="right" />
+			<speak chara="_Shakespeare">쳇, 남을 욕하면 못써, 작은 아가씨.</speak>
+			<show chara="shakesConfidentClose" position="right" />
+			<speak chara="_Shakespeare">……다시 말할게.</speak>
+			<show chara="shakesSmileClose" position="right" />
+			<speak chara="_Shakespeare">애초에, 난 네가 말하는 「천명」이 뭔지 전혀 몰라.</speak>
+			<show chara="shakesSmileClose" position="right" opacity="0.8" />
+			<show chara="biankaBiteClose" position="left" />
+			<speak chara="_Bianka">……뭐?!</speak>
+			<show chara="biankaBiteClose" position="left" opacity="0.8" />
+			<show chara="shakesColdClose" position="right" />
+			<speak chara="_Shakespeare">——하지만 「철가면」이 말해줬지.</speak>
+			<speak chara="_Shakespeare">그녀가 말하길, 다른 이세계에는, 그 「붕괴」라는 에너지가 비정상적으로 많다고 하더군——</speak>
+			<show chara="shakesQuestionClose" position="right" />
+			<speak chara="_Shakespeare">음……거의 마법 세계의 얘기인 것 같았는데.</speak>
+			<show chara="shakesColdClose" position="right" />
+			<speak chara="_Shakespeare">특히, 「붕괴」의 영향을 받아, 그 세계에는 마물이 넘쳐 온 세상이 깊은 고통을 받고 있고——</speak>
+			<speak chara="_Shakespeare">——그리고 그 고난에 맞서기 위해, 가장 먼저 나선 자, 바로 「천명」이라 불리는 조직.</speak>
+			<speak chara="_Shakespeare">「천명」이 있는 그 세계에선 모르는 사람이 없다고 하더군.</speak>
+			<speak chara="_Shakespeare">그리고 소녀들 중에 그 마물들에 대항할 수 있는 능력을 가진 선택 받은 전사들을, 「발키리」라고 부른다고.</speak>
+			<speak chara="_Shakespeare">그 「발키리」들은 「붕괴」의 침식에 저항하고, 인류를 위한 싸움을 위해 붕괴의 힘을 이용한다.</speak>
+			<show chara="shakesSmileClose" position="right" />
+			<speak chara="_Shakespeare">——스스로를 「발키리」라고 한 거기 둘, 이런 전설 같은 얘기가 너희의 세계에선 실제 일어나는 역사란 말이지?</speak>
+			<show chara="shakesSmileClose" position="right" opacity="0.8" />
+			<show chara="biankaAngryClose" position="left" />
+			<speak chara="_Bianka">……</speak>
+			<show chara="rita17NormalClose" position="left" />
+			<speak chara="_Rita">……</speak>
+			<show chara="biankaAngryClose" position="left" />
+			<speak chara="_Bianka">네가 하는 설명을 들으니까 이상한 느낌이긴 한데……</speak>
+			<show chara="biankaSeriousClose" position="left" />
+			<speak chara="_Bianka">맞아. 네가 말한 것들은……사실이야.</speak>
+			<show chara="biankaSeriousClose" position="left" opacity="0.8" />
+			<show chara="shakesConfidentClose" position="right" />
+			<speak chara="_Shakespeare">그럼 둘에게——내 다음 충고는 좀 가치가 있을지도 모르겠네.</speak>
+			<show chara="shakesConfidentClose" position="right" opacity="0.8" />
+			<show chara="biankaAngryClose" position="left" />
+			<speak chara="_Bianka">……「충고」?</speak>
+			<show chara="biankaAngryClose" position="left" opacity="0.8" />
+			<show chara="shakesSmileClose" position="right" />
+			<speak chara="_Shakespeare">아, 사실은 엄청 기본적인 거야.</speak>
+			<show chara="shakesConfidentClose" position="right" />
+			<speak chara="_Shakespeare">한마디로——이 세계에서 살아남고 싶으면, 미래를 위해 총알을 아껴두라는 거지.</speak>
+			<show chara="shakesConfidentClose" position="right" opacity="0.8" />
+			<show chara="biankaAngryClose" position="left" />
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaAngryClose" position="left" opacity="0.8" />
+			<show chara="shakesColdClose" position="right" />
+			<speak chara="_Shakespeare">별거 아냐. 애초에 붕괴 에너지 보급이 불가능한 건 아니지만, 보충되는 속도가 수백 배는 느려.</speak>
+			<show chara="shakesConfidentClose" position="right" />
+			<speak chara="_Shakespeare">우리 「칼레도니아호」도, 대규모로 개조를 했지만 어뢰 6기로 무장한 게 전부야.</speak>
+			<show chara="shakesSmileClose" position="right" />
+			<speak chara="_Shakespeare">……어쩌면, 너희들이 어릴 때부터 받은 여러 훈련들이, 오히려 「붕괴」의 힘 없이는 살아남기 어렵게 만들었으려나?</speak>
+			<show chara="shakesSmileClose" position="right" opacity="0.8" />
+			<show chara="biankaShoutClose" position="left" />
+			<speak chara="_Bianka">이봐, 사람을 무시하지 말라고!</speak>
+			<show chara="biankaBiteClose" position="left" />
+			<speak chara="_Bianka">그렇게까지 말한다면……너, 나랑 대련해 볼래? 나는 붕괴 에너지를 쓰지 않을 테니까!</speak>
+			<show chara="biankaBiteClose" position="left" opacity="0.8" />
+			<show chara="shakesLaughClose" position="right" />
+			<speak chara="_Shakespeare">하하하하하!</speak>
+			<show chara="shakesSmileClose" position="right" />
+			<speak chara="_Shakespeare">어떻게? 근접 격투로?</speak>
+			<show chara="shakesDisgustedClose" position="right" />
+			<speak chara="_Shakespeare">1등 항해사, 이 말괄량이가 무슨 재주가 있을지 궁금하지 않아?</speak>
+			<show chara="shakesDisgustedClose" position="right" opacity="0.8" />
+			<show chara="ironWhiteClose" position="left" />
+			<speak chara="_Ironface">……거절합니다.</speak>
+			<show chara="biankaSneerClose" position="left" />
+			<speak chara="_Bianka">봤어? 너네 사람들도 너랑 엮이기 싫어하는데?</speak>
+			<show chara="ironBlueClose" position="left" />
+			<speak chara="_Ironface">——하지만, 극단장이 이번 달에 추가 보너스를 준다면……생각해 보겠습니다.</speak>
+			<show chara="ironBlueClose" position="left" opacity="0.8" />
+			<show chara="biankaShoutClose" position="right" />
+			<speak chara="_Bianka">뭐? 이 자식, 용병이었어?</speak>
+			<show chara="shakesLaughClose" position="right" />
+			<speak chara="_Shakespeare">하하하하하!</speak>
+			<show chara="shakesSmileClose" position="right" />
+			<speak chara="_Shakespeare">좋아! 추가 수당을 안 주는 극단장을 좋은 선장이라곤 할 수 없겠지!</speak>
+			<show chara="shakesSmileClose" position="right" opacity="0.8" />
+			<show chara="biankaAngryClose" position="left" />
+			<speak chara="_Bianka">……</speak>
+			<show chara="rita17SquintClose" position="left" />
+			<speak chara="_Rita">……</speak>
+			<speak chara="_Rita">그렇다면, 여기 리타·로스바이세가 하나 부탁드릴게요.</speak>
+			<show chara="rita17SquintClose" position="left" opacity="0.8" />
+			<show chara="biankaSeriousClose" position="back" />
+			<speak chara="_Bianka">?</speak>
+			<show chara="biankaSeriousClose" position="back" opacity="0.8" />
+			<show chara="rita17NaughtyClose" position="left" />
+			<speak chara="_Rita">만약 셰익스피어 선장께서 자신의 부관을 대련에 내보낸다고 하신다면——</speak>
+			<show chara="rita17SquintClose" position="left" />
+			<speak chara="_Rita">——같은 부관으로서, 저는 비앙카님을 대리하길 희망합니다.</speak>
+			<show chara="rita17NaughtyClose" position="left" />
+			<speak chara="_Rita">애초에, 대련에서 중요한 건 적절한 상대니까요, 그렇지 않나요?</speak>
+			<show chara="rita17NaughtyClose" position="left" opacity="0.8" />
+			<show chara="shakesLaughClose" position="right" />
+			<speak chara="_Shakespeare">아하하! 재밌네!</speak>
+			<show chara="shakesSmileClose" position="right" />
+			<speak chara="_Shakespeare">……그럼 이렇게 하자.</speak>
+			<show chara="shakesConfidentClose" position="right" />
+			<speak chara="_Shakespeare">나와 비앙카양, 리타양과 「철가면」——</speak>
+			<speak chara="_Shakespeare">——양측이 서로 한 번씩, 어때?</speak>
+			<goto goto="120" clockwise="1" />
+		</scene>
+		<scene id="120" background="beachIslandNoName.jpg">
+			<bgm src="seaAndSky.mp3" status="start"></bgm>
+			<show chara="biankaBiteClose" position="left" />
+			<speak chara="_Bianka">헉……헉……!</speak>
+			<show chara="biankaBiteClose" position="left" opacity="0.8" />
+			<show chara="rita17HesitateClose" position="right" />
+			<speak chara="_Rita">너무 강해요……</speak>
+			<show chara="shakesConfidentClose" position="right" />
+			<speak chara="_Shakespeare">아냐, 너희들도 정말 대단한 전사들이야.</speak>
+			<show chara="shakesColdClose" position="right" />
+			<speak chara="_Shakespeare">자신들의 익숙한 기술과 무기를 쓰지 못하는 상황인데도, 좋은 모습을 보여주었어. 영광이야.</speak>
+			<show chara="ironBlueClose" position="right" />
+			<speak chara="_Ironface">……훈련을 계속한다면, 분명 격투에서는 우리를 뛰어넘을 수 있을 겁니다.</speak>
+			<show chara="shakesSmileClose" position="right" />
+			<speak chara="_Shakespeare">그럼, 운동으로 기분도 좀 풀었으니까——</speak>
+			<show chara="shakesConfidentClose" position="right" />
+			<speak chara="_Shakespeare">——이제 진짜 정보들을 교환하자고.</speak>
+			<show chara="shakesConfidentClose" position="right" opacity="0.8" />
+			<show chara="biankaSeriousClose" position="left" />
+			<speak chara="_Bianka">……?</speak>
+			<show chara="biankaSeriousClose" position="left" opacity="0.8" />
+			<show chara="shakesColdClose" position="right" />
+			<speak chara="_Shakespeare">“너희 모험의 목표는 대체 무엇인지.”</speak>
+			<show chara="shakesSmileClose" position="right" />
+			<speak chara="_Shakespeare">그 대신, 우리도 「칼레도니아호」의 항해 목적을 네게 알려줄게.</speak>
+			<show chara="shakesSmileClose" position="right" opacity="0.8" />
+			<show chara="biankaAngryClose" position="left" />
+			<speak chara="_Bianka">…….</speak>
+			<show chara="biankaAngryClose" position="left" opacity="0.8" />
+			<show chara="shakesDisgustedClose" position="right" />
+			<speak chara="_Shakespeare">“노 코멘트”라는 거야?</speak>
+			<show chara="shakesSmileClose" position="right" />
+			<speak chara="_Shakespeare">그럼 우리 「칼레도니아호」의 승객이 될 기회를 잃을 텐데도?</speak>
+			<show chara="shakesSmileClose" position="right" opacity="0.8" />
+			<show chara="biankaAngryClose" position="left" />
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaBiteClose" position="left" />
+			<speak chara="_Bianka">쳇……</speak>
+			<show chara="biankaBiteClose" position="left" opacity="0.8" />
+			<show chara="cervantesSmileClose" position="right" />
+			<speak chara="_Miguel">……음. 혹시 내가 알면 안되는 거라면——</speak>
+			<show chara="cervantesSmileClose" position="right" opacity="0.8" />
+			<show chara="biankaShoutClose" position="left" />
+			<speak chara="_Bianka">할아버지는 그냥 계세요!</speak>
+			<show chara="biankaShoutClose" position="left" opacity="0.8" />
+			<show chara="cervantesNormalClose" position="right" />
+			<speak chara="_Miguel">……!</speak>
+			<show chara="cervantesNormalClose" position="right" opacity="0.8" />
+			<show chara="biankaAngryClose" position="left" />
+			<speak chara="_Bianka">……아녜요.</speak>
+			<speak chara="_Bianka">일단, 저희에게 있어 할아버지는 은인이니까요……그러니까, 자신을 제3자라 생각하지 않으셔도 돼요.</speak>
+			<show chara="biankaProudClose" position="left" />
+			<speak chara="_Bianka">그럼 본론으로 돌아가서——</speak>
+			<speak chara="_Bianka">리타, 설명을 부탁해.</speak>
+			<show chara="biankaConfidentClose" position="left" />
+			<speak chara="_Bianka">우리가 이곳에 온 목적이, 무엇인지.</speak>
+			<show chara="biankaConfidentClose" position="left" opacity="0.8" />
+			<show chara="rita17SmileClose" position="right" />
+			<speak chara="_Rita">……좋아요, 비앙카님.</speak>
+			<show chara="rita17SquintClose" position="right" />
+			<bgm src="11_16_themeOtto.mp3" status="start"></bgm>
+			<speak chara="_Rita">우선——여러분들은 「양자의 바다」란 이름을 들어보셨나요?</speak>
+			<goto goto="130" clockwise="1" />
+		</scene>
+		<scene id="130" background="11_15_gallery.jpg">
+			<bgm src="11_16_themeOtto.mp3" status="continue"></bgm>
+			<show chara="ottoSuitsKindFar" position="back" />
+			<show chara="memoryLoading" position="center" opacity="0.6" />
+			<speak chara="_Otto">간단하게, 너희의 임무는 「양자의 바다」라 불리는 다른 차원을 추적해, 「에테르 앵커 포인트」라는 특별한 구조물을 찾는 것이다.</speak>
+			<speak chara="_Otto">수학적으로 말하자면, 「양자의 바다」는 기존의 4차원 우주에 속하지 않는, 우리가 있는 "이곳"과 평행하게 존재하는 「평행차원계」를 말한다.</speak>
+			<speak chara="_Otto" remark="next">그리고 「에테르 앵커 포인트」, 「차원 다양체」 간의 위상 변환의 일종으로, 그 실체는 자연 구조물이거나, 인공적인 기계일 수도 있다.</speak>
 			<remark post="U2FsdGVkX18NMIcI27DMkplacYO6">
-				<p class="article-text-h">注釈：</p>
-				<p class="article-text">多様体（Manifolds）とは、局所的にユークリッド空間と見なせる空間および図形。ユークリッド空間の曲線と曲面の概念を一般化したものである。</p>
-				<p class="article-text">ベルンハルト・リーマン（Bernhard Riemann）は、多様体の概念を取り入れることによりリーマン幾何学を確立させた。なお、“Manifolds”はドイツ語の“Mannigfaltigkeit”から由来している。</p>
-			</remark>	
- 			<speak chara="_Otto">僕たちのいる「古典次元」とは異なり、「量子の海」を大スケールでいうと、それらは「バラバラ」であり——</speak>
- 			<speak chara="_Otto">基本となる物理数値も座標の偏移と共に変化し続け、異なった宇宙たちはまるで泡沫のように安定性の欠片もない——</speak>
- 			<speak chara="_Otto">——しかし、そんなバラバラな世界の狭間に、無数の「エーテルアンカーポイント」で定められた「安定ゾーン」が存在する。</speak>
- 			<speak chara="_Otto">その世界には、僕たちの世界と同じように固定の法則が存在する。</speak>
- 			<speak chara="_Otto">結論から言おう。ここからがとても重要だ。</speak>
- 			<speak chara="_Otto">太陽系の「量子の海」における「投影」は、ある「エーテルアンカーポイント」の「座標」に極めて近い距離にある。</speak>
- 			<speak chara="_Otto">それはつまり、その「投影」により発生した「量子の海」へと転移できれば……</speak>
- 			<speak chara="_Otto">……もしかすると、こことほぼ同じ「地球のクローン」を観測できるかもしれないんだ。</speak>
- 			<speak chara="_Otto">——それは探索する価値のあるものだ。</speak>
- 			<speak chara="_Otto">幸いにして、前文明技術が残した資料を元に、「量子の海」を行き来できる実験装置をいくつか作り出すことができた——</speak>
- 			<speak chara="_Otto">——「ゲニウス」。</speak>
- 			<speak chara="_Otto">理論上、「ゲニウス」を使えばいつでも「投影世界」から帰って来られる、だが——</speak>
- 			<speak chara="_Otto">「現実」側から出発するには、技術的な問題により極めて珍しい「時空の窓」が出現した時のみ使用が可能だ。</speak>
- 			<speak chara="_Otto">次に「窓」が発生するのは、2月29日11時15分から12時15分の間、北東グリーンランド国立公園1054号峡湾付近に出現する。継続時間はおよそ100秒だ。</speak>
- 			<speak chara="_Otto">これは金星の太陽面通過よりも遥かに珍しい——次の「窓」の出現は、もしかすると数世紀後になるかもしれない。</speak>
- 			<speak chara="_Otto">——どうだい？やる気が出てこないかい？</speak>
-	  	<goto goto="140" clockwise="1"/>	
-	  </scene>
-	  <scene id="140" background="beachIslandNoName.jpg">
-	  	<bgm src="seaAndSky.mp3" status="start"></bgm>
- 			<show chara="rita17SquintClose" position="right"/>
- 			<speak chara="_Rita">……簡単に説明しますと、以上のようになります。</speak>
- 			<show chara="rita17SmileClose" position="right"/>
- 			<speak chara="_Rita">私たちの任務は「エーテルアンカーポイント」を探索することです——皆様、心当たりはありませんか？</speak>
- 			<show chara="rita17SmileClose" position="right" opacity="0.8"/>
- 			<show chara="cervantesLaughClose" position="left"/>
- 			<speak chara="_Miguel">ダメだ……わしの頭じゃもう訳が分からんよ、ガハハハッ。</speak>
- 			<show chara="cervantesLaughClose" position="left" opacity="0.8"/>
- 			<show chara="shakesQuestionClose" position="right"/>
- 			<speak chara="_Shakespeare">……鉄仮面、あんたが言ってたこととそう変わらない気がするよ。多重宇宙とかなんとか。</speak>
- 			<show chara="shakesQuestionClose" position="right" opacity="0.8"/>
- 			<show chara="ironWhiteClose" position="left"/>
- 			<speak chara="_Ironface">……そうかもね。</speak>
- 			<show chara="ironBlueClose" position="left"/>
- 			<speak chara="_Ironface">とにかく……彼女たちの「主教」はただ者ではない。</speak>
- 			<show chara="ironWhiteClose" position="left"/>
- 			<speak chara="_Ironface">では……ここからは私が「量子の海」の内側の状況を説明しよう。</speak> 			
-	  	<end post="U2FsdGVkX19isr5qAfmCyerhHwtc"/>
-	  </scene>	  	  	  	  	  	  	      	  
+				<p class="article-text-h">주:</p>
+				<p class="article-text">다양체(Manifolds)란, 국소적으로 유클리드 공간의 위상동형인 위상 공간. 유클리드 공간의 곡선과 곡면의 개념을 일반화한 것이다.</p>
+				<p class="article-text">베른하르트 리만(Bernhard Riemann)은 다양체의 개념을 도입함으로써 리만 기하학을 확립시켰다. 덧붙여 "Manifolds"는 독일어의 "Mannigfaltigkeit"로부터 유래하고 있다.</p>
+			</remark>
+			<speak chara="_Otto">우리가 살고 있는 「고전 차원」과는 달리, 「양자의 바다」는 「산산조각」 난 상태로——</speak>
+			<speak chara="_Otto">기본적인 물리 수치나 좌표의 이탈이 계속되는, 마치 비눗방울처럼 불안정한 세계——</speak>
+			<speak chara="_Otto">——하지만 그런 조각난 차원의 틈에도, 무수한 「에테르 앵커 포인트」로 고정된 「안정적인 지역」이 존재한다.</speak>
+			<speak chara="_Otto">그 세계에서는, 우리와 같은 고정된 법칙이 있다.</speak>
+			<speak chara="_Otto">결론부터 말하지.</speak>
+			<speak chara="_Otto">태양계의 「양자의 바다」에서의 「투영」은, 어느 「에테르 앵커 포인트」의 「좌표」에 지극히 가까운 거리에 있다.</speak>
+			<speak chara="_Otto">요컨대, 그 「투영」에 의해 발생한 「양자의 바다」로의 전이가 가능하다면……</speak>
+			<speak chara="_Otto">……어쩌면 이곳과 거의 비슷한 「지구」를 관측할 수 있다는 것이다.</speak>
+			<speak chara="_Otto">——이건, 탐색의 가치가 매우 높다.</speak>
+			<speak chara="_Otto">다행히, 전 문명 기술이 남긴 자료를 바탕으로, 「양자의 바다」를 오갈 수 있는 실험 장치를 몇 개 만들어 낼 수 있었다——</speak>
+			<speak chara="_Otto">——「게니우스」.</speak>
+			<speak chara="_Otto">이론상, 「게니우스」를 사용하면 언제라도 「투영 세계」로부터 돌아올 수 있다, 하지만——</speak>
+			<speak chara="_Otto">「현실」에서 출발하는 경우, 기술적 한계로 인해, 매우 드물게 나타나는 「시공의 창」이 열려 있을 때에만, 사용이 가능하다.</speak>
+			<speak chara="_Otto">가장 가까운 시기의 「창」은 그린란드 국립공원 1054호, 2월 29일 11시 15분부터 12시 15분 사이에 나타나 약 100초간 지속될 것이다.</speak>
+			<speak chara="_Otto" remark="next">이 현상은 금성의 일면통과 현상보다 드물기에——다음 「창」이 열리려면 아마 몇 세기를 더 기다려야 할 것이다.</speak>
+			<remark post="U2FsdGVkX1+ddeoBsDMLAmG62QhQ">
+				<p class="article-text-h">역자주:</p>
+				<p class="article-text">금성의 일면통과 현상, 금성이 지구와 태양 사이에 위치하여 금성이 태양 위로 지나가는 검은 점처럼 보이는 천문 현상이다. 243년의 큰 주기를 가져, 8년 간격으로 두 번 일면통과가 일어난 후, 121.5년, 105.5년 간격을 두고 발생한다. 21세기 첫 번째 일면통과는 2004년 6월 8일, 두 번째 일면통과는 2012년 6월 6일에 일어났으며, 다음 일면 통과는 121.5년 후인 2117년 12월 10일~11일에 일어나게 된다.</p>
+			</remark>
+			<speak chara="_Otto">——어떤가, 해 볼 마음이 생겼나?</speak>
+			<goto goto="140" clockwise="1" />
+		</scene>
+		<scene id="140" background="beachIslandNoName.jpg">
+			<bgm src="seaAndSky.mp3" status="start"></bgm>
+			<show chara="rita17SquintClose" position="right" />
+			<speak chara="_Rita">……정리하자면, 이렇게 된 거랍니다.</speak>
+			<show chara="rita17SmileClose" position="right" />
+			<speak chara="_Rita">저희의 임무는 「에테르 앵커 포인트」를 찾는 것——이 존재에 대해, 여러분들은 무언가 단서가 될만한 걸 알고 계시나요?</speak>
+			<show chara="rita17SmileClose" position="right" opacity="0.8" />
+			<show chara="cervantesLaughClose" position="left" />
+			<speak chara="_Miguel">난 모르겠구먼……내 늙은 머리론 오리무중이나 다름 없네, 하하하하.</speak>
+			<show chara="cervantesLaughClose" position="left" opacity="0.8" />
+			<show chara="shakesQuestionClose" position="right" />
+			<speak chara="_Shakespeare">……철가면, 네가 말한 거랑 좀 비슷하지 않아? 다중우주인가 뭔가.</speak>
+			<show chara="shakesQuestionClose" position="right" opacity="0.8" />
+			<show chara="ironWhiteClose" position="left" />
+			<speak chara="_Ironface">……그럴지도요.</speak>
+			<show chara="ironBlueClose" position="left" />
+			<speak chara="_Ironface">어쨌든……그들의 「주교」는 확실히 뭔가를 아는 듯합니다.</speak>
+			<show chara="ironWhiteClose" position="left" />
+			<speak chara="_Ironface">그럼……「양자의 바다」 속에서 기본적으로 무슨 일이 일어나고 있는지, 설명해 드리죠.</speak>
+			<end post="U2FsdGVkX19isr5qAfmCyerhHwtc" />
+		</scene>
 	</story>
 </data>
