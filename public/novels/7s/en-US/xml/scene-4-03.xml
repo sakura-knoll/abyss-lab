@@ -2,60 +2,60 @@
   <transition mode="fade" in="0" stop="0.5" out="2" color="#000000"></transition>
   <bgm id="竹林伏兵"></bgm>
   <bg img="BGDesert00"></bg>
-  <text>（一、）</text>
+  <text>'one'</text>
   <se id="01-18男性沙漠疾行_01"></se>
   <event action="hide_ui" duration="2"></event>
   <motion chara="099" action="show" pos="right" img="山贼3号远景" duration="3"></motion>
   <delay t="2"></delay>
   <event action="show_ui"></event>
-  <text>少女は心の中で数字を数える。</text>
-  <text>（二、）</text>
+  <text>The girl counted the numbers silently in her head.</text>
+  <text>'Two'</text>
   <event action="hide_ui" duration="2"></event>
   <se id="01-19男性沙漠疾行_02"></se>
   <motion chara="095" action="show" pos="left" img="砂匪2-远-微笑" duration="3" reversex="true"></motion>
   <delay t="2"></delay>
   <event action="show_ui"></event>
   <text>
-    <p>二人の男が左側から近付いてくる。</p>
-    <p>そのうち一人は、最も早く少女に気付き、声を出した男だ。</p>
+    <p>Two big men approached from the left. </p>
+    <p>One of them was the man who first discovered the girl and gave the warning.</p>
   </text>
   <text>
-    <p>彼は剣を手に、嬉しそうな顔をしている。</p>
-    <p>まるで罠にかかった獲物を見つめる狩人のように、その笑顔は死を語っている。</p>
+    <p>He held a sword in his hand and his face was beaming.</p>
+    <p>Just like a hunter watching it's prey fall into a trap, his smile is like telling death.</p>
   </text>
-  <text>しかし、少女は動じなかった。</text>
+  <text>However, Sushang was unmoved.</text>
   <transition mode="move" in="0.5" stop="0.5" out="0.5" color="#000000" direction="left" custom="thick"></transition>
   <motion chara="099" action="hide"></motion>
   <motion chara="095" action="hide"></motion>
-  <text>彼女は視線をもう片方に向ける。</text>
-  <text>（三、）</text>
+  <text>She cast her gaze to the right.</text>
+  <text>'three'</text>
   <event action="hide_ui" duration="2"></event>
   <se id="01-19男性沙漠疾行_03"></se>
   <motion chara="099" action="show" pos="right" duration="3" img="山贼4号中景"></motion>
   <delay t="2"></delay>
   <event action="show_ui"></event>
   <text>
-    <p>右後ろの男は少女の視界にはいなかったが、</p>
-    <p>先程の男の声を聞いて走ってきたのだ。</p>
+    <p>The big guy on the right side wasn't in the girl’s line of sight at all.</p>
+    <p>He ran over after hearing the warning sound.</p>
   </text>
-  <text>（四。）</text>
+  <text>'four'</text>
   <event action="hide_ui" duration="2"></event>
   <motion chara="094" action="show" pos="-200,0" duration="3" img="砂匪1-近-坏笑" reversex="true"></motion>
   <delay t="2"></delay>
   <event action="show_ui"></event>
-  <text>一番近くにいる男は、少女とは約五歩の距離しか離れていない。</text>
-  <text>相手は刀を持った筋肉質の男だ。四人の中では最年長で、その武術の腕も最も優れている。</text>
+  <text>The nearest bandit was only about five steps away from Sushang.</text>
+  <text>It was a muscular man with a Pudao in his hand. Among the four, he was the oldest and has the most experience in kung fu.</text>
   <motion chara="099" action="hide"></motion>
   <motion chara="094" action="hide"></motion>
   <transition mode="move" in="0.3" stop="0.5" out="0.5" color="#000000" direction="right" custom="default"></transition>
   <bg img="BGDesert01"></bg>
   <motion chara="002" action="show" pos="center" img="素裳-专注-持剑-远景"></motion>
-  <text>……少女は師匠との手合わせしかしたことがなく、実戦経験がない。</text>
-  <text>そうでなければ、武術の達人でも多勢に無勢という状況を避けるべきだと理解しているはずだ。</text>
-  <text>一人で、訓練された四人の盗賊と対峙するなど、まさに死に急ぐ行動である。</text>
+  <text>...the girl has only trained against her master, and has no actual combat experience.</text>
+  <text>If she did, she would've known that no matter how strong martial arts masters are, they should try their best to avoid a situation where there are more than one enemy.</text>
+  <text>And fighting alone against four well-trained sand bandits is no different from cutting one's own throat.</text>
   <motion chara="002" action="img_trans" img="素裳-浅笑-持剑-远景"></motion>
-  <text>しかし、少女はその『常識』を持っておらず、生まれつき感情が希薄な彼女の師匠も同様だった。</text>
-  <text>だから彼女は恐れるどころか、ワクワクしているのだ。</text>
+  <text>It’s a pity that the girl doesn’t know this kind of “common sense”, and her cool master didn’t even know anything about it that day.</text>
+  <text>So she wasn’t afraid, but excited.</text>
   <bgm looptimes="0"></bgm>
   <motion chara="002" action="hide"></motion>
   <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
@@ -63,7 +63,7 @@
   <mono pageend="true">
     <p></p>
     <p></p>
-    <p>——賊と彼女の距離はたったの五歩。</p>
+    <p>------The sand bandits are only five steps away from her.</p>
   </mono>
   <event action="hide_ui" duration="1"></event>
   <transition mode="fade" in="0.1" stop="0.1" out="0.1" color="#FFFFFF"></transition>
@@ -76,7 +76,7 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>少女は包みを開き、逆手で古剣『軒轅』を握る。</p>
+    <p>The girl shook the cloth bag and held the ancient sword “Xuanyuan” with her backhand. </p>
   </mono>
   <motion chara="002" action="hide"></motion>
   <cg scale="2.7" origin="75%,10%" img="CG_通用_李素裳战斗-1"></cg>
@@ -90,7 +90,7 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>剣が手にある感覚は、彼女を安心させる。</p>
+    <p>The feeling of holding a sword in hand always made her feel at ease.</p>
   </mono>
   <delay t="0.1"></delay>
   <event action="hide_ui" duration="1"></event>
@@ -98,9 +98,9 @@
   <delay t="1"></delay>
   <event action="show_ui"></event>
   <mono pageend="true">
-    <p>その後の出来事は、</p>
+    <p>What happened next</p>
     <p></p>
-    <p>きっとこういう展開になる筈だ。</p>
+    <p>was supposed to be like this:</p>
   </mono>
   <transition mode="move" in="0.2" stop="1" out="1" color="#000000" direction="right" custom="default"></transition>
   <cg></cg>
@@ -109,7 +109,7 @@
   <motion chara="-5" action="show" pos="center" img="速度线左右1"></motion>
   <mono pageend="true">
     <p></p>
-    <p>少女は飛び立つ鳥のように軽い動作で飛び上がる。</p>
+    <p>The girl leaped to her feet, her body astonishing graceful.</p>
   </mono>
   <motion chara="-5" action="hide"></motion>
   <delay t="0.1"></delay>
@@ -120,12 +120,12 @@
   <delay t="0.1"></delay>
   <mono>
     <p></p>
-    <p>着地した瞬間、剣の切っ先はすでに男の胸元に刺さっていた。</p>
+    <p>When she landed, jianfeng(剑锋) was already inserted into the man’s chest.</p>
   </mono>
   <mono inline="true">
     <p></p>
     <p></p>
-    <p>剣を戻し、振り返る——噴き出す血より、ずっと速い。</p>
+    <p>She drew out the sword and turned around-the speed was so fast that the blood hadn't gushed out.</p>
   </mono>
   <se id="01-02大剑命中"></se>
   <motion chara="-4" action="shake" duration="0.1" range="60" direction="vertical"></motion>
@@ -134,21 +134,21 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>次の瞬間すぐさま剣で刺し、男の凶悪そうな笑顔を固まらせる。</p>
+    <p>Then she held out the sword and watched the ferocious smile solidify on the man's face.</p>
   </mono>
   <mono pageend="true">
     <p></p>
     <p></p>
-    <p>こうして、四人の敵は二人だけになる——なんの抵抗もなく。</p>
+    <p>In this way, there are only two of the four enemies left-easily.</p>
   </mono>
   <transition mode="dissolve" in="3" stop="0.5" out="0" color="#000000"></transition>
   <bg img="PureBlack"></bg>
   <motion chara="002" action="show" pos="center" img="素裳-标准-持剑-远景"></motion>
   <transition mode="fade" in="0" stop="0.5" out="1" color="#000000"></transition>
-  <text>……少女は一瞬でその筋書きを思いついた。</text>
+  <text>… The girl conceived this script in an instant.</text>
   <text>
-    <p>彼女の武術の造詣と、古剣軒轅があれば——</p>
-    <p>その幻想を現実にすることは、難しいことではない。</p>
+    <p>With her martial arts accomplishments and  the benefits of the ancient sword, Xuanyuan-</p>
+    <p>-it wasn’t difficult to turn this fantasy into reality.</p>
   </text>
   <bgm looptimes="0"></bgm>
   <motion chara="002" action="hide"></motion>
@@ -156,37 +156,37 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>——賊と彼女の距離はあと四歩。</p>
+    <p>----The sand bandits are four steps away from her.</p>
   </mono>
   <motion chara="002" action="show" pos="center" img="素裳-专注-持剑-远景"></motion>
-  <text>しかし、少女は行動に出なかった。</text>
-  <text>……相応しくない。</text>
+  <text>But the girl didn’t act</text>
+  <text>'… not worthy.'</text>
   <motion chara="002" action="hide"></motion>
   <se id="01-21轩辕剑氛围声" looptimes="-1"></se>
   <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
-  <text inline="true">古剣軒轅——それはこういう相手と戦うための武器ではない。</text>
+  <text inline="true">Ancient sword Xuanyuan --it wasn’t a weapon to be used to deal with this kind of opponent.</text>
   <text>
     <p></p>
-    <p>目の前の四人は、宝剣を拝む価値すらないのだ。</p>
+    <p>The four people in front of her didn’t even deserve to see the true face of the sword.</p>
   </text>
   <cg img="氛围_通用_轩辕剑"></cg>
   <text>
-    <p>この剣は遠い昔、仙人たちの時代から受け継がれ、幾千万年の時を見届けてきた。</p>
-    <p>その持ち主は武術界の伝説、唯一の真仙、神州の守護者『精衛真人』である。</p>
+    <p>This sword had been handed down since ancient times when the human and gods crossed the sky, and it has gone through tens of thousands of years.</p>
+    <p>Its owner was the legend of martial arts, the only true immortal, and the guardian of Shenzhou "Immortal Empyrea"</p>
   </text>
-  <text>今から29年前、精衛真人は東海で孤児の娘を七番目の弟子にし、その剣を授けた。太虚第七剣こと、秦素衣と『墨染香』の名は武術界に広く名が知られるようになる。</text>
+  <text>Twenty-nine years ago, True Celestial received an orphan girl as her last disciple in the East Shenzhou Sea, and taught her with this sword.</text>
   <text>
-    <p>精衛真人が天に昇って仙人になった後、秦素衣はしばらく隠居したが、3年後に彼女は再び武術界に名を馳せた。</p>
-    <p>彼女と『川公子』李紳の恋物語は当時、美談​として語られていた。</p>
+    <p> Taixu's seventh sword shakes the rivers and lakes in the name of Qin Suyi and "Xuanyuan".</p>
+    <p>After the real Celestial returned to the  immortal plain, Qin Suyi couldn't retreat, and re-entered the rivers and lakes three years later. The romantic love story between her and Li Shen, "Young Master Chuan", had been passed down for a while.</p>
   </text>
   <text>
-    <p>10年前、引退した母親は『墨染香』を幼い素裳に渡し、[\s]</p>
-    <p>同時に素裳の肩には、「太虚五蘊を悟り、『天下一』になる」という母親の期待がかかり始めた。</p>
+    <p>Ten years ago, mother who had already retired from the Martial arts gave "Xuanyuan" to the young Sushang,</p>
+    <p>delivered them together, realize the Five Aggregates of Taixu and the expectation of becoming "No. 1 in the world".</p>
   </text>
-  <text inline="true">これは他に比べるものがないほどの武器、その切っ先は強者のみを待っている。</text>
+  <text inline="true">This was an unparalleled magic weapon, its blade is only for the strong.</text>
   <text>
     <p></p>
-    <p>目の前にいる平凡な人間たちの血で、この剣の威名を汚すわけにはいけない。</p>
+    <p>How could she let the blood of the mediocre group of people in front of her contaminate the prestige of this sword?</p>
   </text>
   <se looptimes="0" id="01-21轩辕剑氛围声"></se>
   <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
@@ -196,23 +196,23 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>——賊と彼女の距離はあと三歩。</p>
+    <p>----The sand bandits are three steps away from her.</p>
   </mono>
   <bgm id="传奇诞生"></bgm>
   <motion chara="002" action="show" pos="center" img="素裳-专注-持剑-远景"></motion>
-  <text>小さな誇りと満足感が、少女の心に満ち溢れていた。</text>
+  <text>The little pride and contentment filled Sushang's heart.</text>
   <motion chara="002" action="img_trans" img="素裳-算计-持剑-远景"></motion>
-  <text>フン、こんなやつら——</text>
+  <text>'Ha, with these good--'</text>
   <mono pageend="true">
     <p></p>
     <p></p>
     <p></p>
     <p></p>
     <p></p>
-    <p>——あと二歩。</p>
+    <p>--there are two more steps.</p>
   </mono>
   <motion chara="002" action="img_trans" img="素裳-浅笑-持剑-远景"></motion>
-  <text>——剣試しにはまだ足りない！</text>
+  <text>--not worthy for Sushang to try the sword!</text>
   <motion chara="002" action="hide"></motion>
   <event action="goto" to="04"></event>
 </scene>
