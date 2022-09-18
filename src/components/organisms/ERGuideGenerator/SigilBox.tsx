@@ -32,6 +32,7 @@ const SigilBox = ({ sigilSets, sigils }: SigilBoxProps) => {
             mr: '5px',
             width: 55,
           }}
+          className='leftBottomBoxLabel'
         >
           <Box>회상의</Box>
           <Box>증명</Box>

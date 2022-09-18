@@ -29,6 +29,7 @@ const SupportBox = ({ supportSets }: SupportBoxProps) => {
             width: 55,
             mr: '5px',
           }}
+          className='leftBottomBoxLabel'
         >
           <Box>지원</Box>
           <Box>발키리</Box>
