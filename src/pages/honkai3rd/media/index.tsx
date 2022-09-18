@@ -44,7 +44,7 @@ const MediaPage = () => {
             </Box>
             <Box as='li'>
               <Link href={'/honkai3rd/novels/7s'} target='_blank'>
-                🇺🇸 Seven Swords (WIP)
+                🇺🇸 Saga of the Shattered Swords (AKA Seven Swords, WIP)
               </Link>
             </Box>
             <Box as='li'>
