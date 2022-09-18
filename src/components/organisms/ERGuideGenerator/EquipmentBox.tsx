@@ -37,6 +37,7 @@ const EquipmentBox = ({
             mr: '5px',
             width: 55,
           }}
+          className='leftBottomBoxLabel'
         >
           <Box>추천</Box>
           <Box>장비</Box>

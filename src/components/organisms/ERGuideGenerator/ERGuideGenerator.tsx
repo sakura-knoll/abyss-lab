@@ -250,6 +250,10 @@ const ERGuideGenerator = ({
       .tagLabel {
         font-family: 'YdestreetB';
       }
+      .leftBottomBoxLabel {
+        font-family: 'YdestreetB';
+        font-size: 15px;
+      }
           `,
             }}
           />
