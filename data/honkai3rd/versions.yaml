@@ -4,14 +4,14 @@
   krName: '찬란한 염원의 화살'
   duration:
     - 2022-09-15
-    - 2022-10-20
+    - 2022-10-27
   newBattlesuits:
     - hoh
   newWeapons:
     - domain-of-ego
     - key-of-ego
   newStigmataSets:
-    - elysia-flawless
+    - elysia-pristine
   newFoundryStigmataSets:
     - irene-adler
   description: ''
@@ -34,6 +34,12 @@
       - label: freeze
         krLabel: 빙결(상태이상)
         boss: hpt-sss
+    - - label: type
+        krLabel: 상성
+        boss: sk
+      - label: lightning (paralyze)
+        krLabel: 뇌전 (마비)
+        boss: husk
   ma:
     - - label: sss
         boss: hpt-sss
@@ -53,7 +59,78 @@
         boss: pvt-sss
       - label: ss
         boss: dd
+    - - label: sss
+        boss: hpt-sss
+      - label: sss
+        boss: husk-sss
+      - label: ss
+        boss: sk
   supplyEvents:
+    - name: Nebulous Duality Focused Supply B
+      krName: 소매에 얽힌 구름 보급 B
+      duration:
+        - 2022-10-14
+        - 2022-10-21
+      track: 3
+      verified: false
+      featured:
+        - type: weapon
+          id: nebulous-duality
+        - type: stigmata-set
+          id: fu-hua-margrave
+      others: []
+    - name: Hler's Serenity Focused Supply A
+      krName: 영적의 헬러 집중 보급 A
+      duration:
+        - 2022-10-14
+        - 2022-10-21
+      track: 2
+      verified: false
+      featured:
+        - type: weapon
+          id: hler-s-serenity
+        - type: stigmata-set
+          id: dante
+      others:
+        - type: weapon
+          id: nebulous-duality
+        - type: weapon
+          id: keys-of-the-void
+        - type: weapon
+          id: swan-lake
+        - type: weapon
+          id: hekate
+        - type: weapon
+          id: nuada-s-grief
+        - type: weapon
+          id: obscuring-wing
+        - type: stigmata-set
+          id: fu-hua-margrave
+        - type: stigmata-set
+          id: ishikawa-goemon
+        - type: stigmata-set
+          id: turgenev
+        - type: stigmata-set
+          id: elysia
+    - name: 'Bright Knight: Excelsis Battlesuit Expansion Supply'
+      krName: 성휘의 기사·월백 확장 보급
+      duration:
+        - 2022-10-14
+        - 2022-10-21
+      track: 1
+      verified: false
+      featured:
+        - type: battlesuit
+          id: bke
+        - type: battlesuit
+          id: bb
+      others:
+        - type: battlesuit
+          id: vt
+        - type: battlesuit
+          id: sj
+        - type: battlesuit
+          id: vp
     - name: Zither's Lament Focused Supply B
       krName: 금쟁탄 집중 보급 B
       duration:
@@ -235,23 +312,43 @@
         - 2022-09-15
         - 2022-09-23
       track: 3
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: miracle-kissy-pillow
         - type: stigmata-set
           id: paganini
-      others: []
-    - name: Fairy Elysia Elf Supply
+      others:
+        - type: weapon
+          id: keys-of-the-void
+        - type: weapon
+          id: swan-lake
+        - type: weapon
+          id: keys-of-oblivion
+        - type: weapon
+          id: sanguine-gaze
+        - type: weapon
+          id: hler-s-serenity
+        - type: weapon
+          id: obscuring-wing
+        - type: stigmata-set
+          id: holmes
+        - type: stigmata-set
+          id: ragna
+        - type: stigmata-set
+          id: verne
+        - type: stigmata-set
+          id: kafka
+    - name: Elf Elysia Elf Supply
       krName: 요정 엘리 인형 보급
       duration:
         - 2022-09-15
         - 2022-10-07
       track: 4
-      verified: false
+      verified: true
       featured:
         - type: elf
-          id: fe
+          id: ee
       others: []
     - name: Key of Ego Focused Supply A
       krName: 진아의 열쇠 집중 보급 A
@@ -259,12 +356,12 @@
         - 2022-09-15
         - 2022-10-07
       track: 2
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: key-of-ego
         - type: stigmata-set
-          id: elysia-flawless
+          id: elysia-pristine
       others:
         - type: weapon
           id: key-of-radiance
@@ -292,7 +389,7 @@
         - 2022-09-15
         - 2022-10-07
       track: 1
-      verified: false
+      verified: true
       featured:
         - type: battlesuit
           id: hoh
@@ -300,7 +397,7 @@
           id: kriegs
       others:
         - type: battlesuit
-          id: va
+          id: vd
         - type: battlesuit
           id: sd
         - type: battlesuit
