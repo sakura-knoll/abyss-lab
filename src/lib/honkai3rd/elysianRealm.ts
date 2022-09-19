@@ -64,6 +64,7 @@ export const supportBattlesuitIds = [
   'rc',
   'sa',
   'sn',
+  'fr',
 ]
 
 export const remembranceSigilIds = [
@@ -111,6 +112,7 @@ export const remembranceSigilIds = [
   'the-lonely-moon',
   'awakening',
   'key-to-the-deep',
+  'thorny-crown',
 ]
 
 export function isGeneralSigil(sigilId: string) {

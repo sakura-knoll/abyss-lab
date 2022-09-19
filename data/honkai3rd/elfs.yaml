@@ -1,10 +1,132 @@
-- id: fe
+- id: ee
   version: '6.0'
-  name: Fairy Elysia
+  name: Elf Elysia
   krName: 요정 엘리
   baseRank: 2
-  features: []
-  skillRows: []
+  features: [ice-dmg, gather]
+  skillRows:
+    - - name: Beloved Elf
+        krName: 모두가 좋아하는 엘프
+        type: basic
+        description: |-
+          This ELF has two Basic ATKs:
+          Basic ATK 1: Fires 3 consecutive magic projectiles, dealing 3 x 250.0% ATK of ice DMG.
+          Basic ATK 2: Fires 1 large magic projectile resulting in a 3-hit ATK, dealing 3 x 250.0% ATK of Ice DMG.
+          ELF regains 2.5 SP per second in combat.
+
+          ATK Interval: 3.3s
+        krDescription: |-
+          인형은 두 가지 기본 공격을 사용한다:
+          기본 공격 1: 연속으로 마법 탄을 3발 발사해 공격력 3 x 250.0%의 빙결 원소 대미지를 가한다.
+          기본 공격 2: 대형 마법탄을 1발 발사해 3회 공격하고, 공격력 3 x 250.0%의 빙결 원소 대미지를 가한다.
+          전투 진입 후, 인형은 매초 SP를 2.5pt 회복한다.
+
+          공격 빈도: 3.3초
+        requiredRank: 2
+      - name: Miss Me?
+        krName: 나 보고 싶었어?
+        type: passive
+        description: |-
+          Enemies stay frozen 10.0% longer.
+        krDescription: |-
+          파티원 캐릭터가 적에게 가하는 빙결 상태 지속 시간이 10.0% 증가한다.
+        requiredRank: 2
+      - name: Just In Time
+        krName: 나이스 타이밍
+        type: passive
+        description: |-
+          Ultimate's enhanced magic increases Ice DMG taken by enemies by 10.0%.
+        krDescription: |-
+          필살기 강화 마법은 적이 받는 빙결 원소 대미지가 추가로 10.0% 증가한다.
+        requiredRank: 3
+    - - name: La-La Land Magic
+        krName: 엘프 나라의 마법
+        type: ultimate
+        description: |-
+          The ELF uses enhanced magic, increasing Ice DMG taken by enemies by 15.0% for 10.0s (Triggering it again resets the duration). She then transforms, gathering in strength for a powerful magic ATK that draws in surrounding enemies. She finishes with an ATK that deals 3,000.0% ATK of Ice DMG. Her Ultimate reduces switch CD by 8s.
+        krDescription: |-
+          인형이 강화 마법을 발동해 적이 받는 빙결 원소 대미지가 15.0% 증가한다. 지속 시간: 10.0초(중복 발동 시 지속 시간을 갱신한다). 이후 변신하여 주변의 적을 끌어당기고, 강력한 마법 공격을 가해 공격력 3,000.0%의 빙결 원소 대미지를 가한다. 필살기 스킬 발동 시 대기 상태 캐릭터의 교대 재사용 대기 시간이 8초 감소한다.
+        requiredRank: 2
+      - name: Fix-It Spell
+        krName: 복구 마법
+        type: passive
+        description: |-
+          Ice DMG effects last an additional 10.0s.
+        krDescription: |-
+          적이 받는 빙결 원소 대미지 증가 효과가 추가로 10.0초 연장된다.
+        requiredRank: 2
+      - name: Unlocking Spell
+        krName: 자물쇠 열기 마법
+        type: passive
+        description: |-
+          Reduces Ultimate CD by 30.0%.
+        krDescription: |-
+          필살기 재사용 대기시간이 30.0% 감소한다.
+        requiredRank: 3
+      - name: Opening Spell
+        krName: 문 열기 마법
+        type: passive
+        description: |-
+          Ultimate deals an additional 1,200.0% ATK of Ice DMG.
+        krDescription: |-
+          필살기 대미지에 추가로 공격력 1,200.0%의 빙결 원소 대미지가 부여된다.
+        requiredRank: 4
+    - - name: Romantic Fairy Tale
+        krName: 로맨틱한 동화
+        type: team
+        description: |-
+          Launches Combo ATK against frozen enemies on the field, dealing 850.0% ATK of Ice DMG (CD 20.0s).
+        krDescription: |-
+          전장에 빙결된 적이 있을 때, 인형은 연계 공격을 1회 발동해 공격력 850.0%의 빙결 원소 대미지를 가한다(지속 시간: 20.0초).
+        requiredRank: 2
+      - name: On an Adventure
+        krName: 나라를 떠나 모험을 시작해
+        type: passive
+        description: |-
+          Combo ATK CD reduced by 5.0s
+        krDescription: |-
+          연계 공격의 재사용 대기시간이 5.0초 감소한다.
+        requiredRank: 2
+      - name: Guiding Stars
+        krName: 별들과 함께 앞길을 비추자
+        type: passive
+        description: |-
+          Combo ATKs restore 3.0 SP.
+        krDescription: |-
+          연계 공격은 인형의 SP를 추가로 3.0pt 회복한다.
+        requiredRank: 3
+      - name: Paradise Ho!
+        krName: 찾았다! 모두의 낙원!
+        type: passive
+        description: |-
+          Ultimate's Ice DMG increases 45.05%.
+        krDescription: |-
+          필살기의 빙결 원소 대미지가 45.0% 증가한다.
+        requiredRank: 4
+    - - name: Resourceful Admin
+        krName: 재치 있는 관리자
+        type: passive
+        description: |-
+          [Team-triggered] With a team member capable of dealing Ice DMG, the whole team gains 10.0% more Ice DMG and ELF's Total DMG increases 15.0%.
+        krDescription: |-
+          [파티 발동] 파티에 빙결 원소 특성의 캐릭터가 존재할 경우, 파티원의 빙결 원소 대미지가 10.0% 증가하고, 인형의 모든 대미지가 15.0% 증가한다.
+        requiredRank: 2
+      - name: Ready Or Not
+        krName: 숨바꼭질 시간
+        type: passive
+        description: |-
+          ELF's initial SP increases by 50.0.
+        krDescription: |-
+          인형의 초기 SP가 50.0pt 증가한다.
+        requiredRank: 2
+      - name: Gotcha
+        krName: 들켰네
+        type: passive
+        description: |-
+          ELF's Total DMG increases by 40.0%.
+        krDescription: |-
+          인형의 모든 대미지가 40.0% 증가한다.
+        requiredRank: 4
 - id: bd
   version: '5.5'
   name: Blade Durandal

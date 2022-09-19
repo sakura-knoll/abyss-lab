@@ -4,7 +4,27 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/honkai3rd/stigmata/bianka-stage',
+        source: '/honkai3rd/stigmata/elysia-flawless',
+        destination: '/honkai3rd/stigmata/elysia-pristine',
+        permanent: true,
+      },
+      {
+        source: '/honkai3rd/stigmata/elysia-flawless-top',
+        destination: '/honkai3rd/stigmata/elysia-pristine-top',
+        permanent: true,
+      },
+      {
+        source: '/honkai3rd/stigmata/elysia-flawless-mid',
+        destination: '/honkai3rd/stigmata/elysia-pristine-mid',
+        permanent: true,
+      },
+      {
+        source: '/honkai3rd/stigmata/elysia-flawless-bot',
+        destination: '/honkai3rd/stigmata/elysia-pristine-bot',
+        permanent: true,
+      },
+      {
+        source: '/honkai3rd/stigmata/elysia-flawless',
         destination: '/honkai3rd/stigmata/bianka-theatre',
         permanent: true,
       },
