@@ -112,7 +112,8 @@ const ElfShowPage = ({ elf }: ElfShowPageProps) => {
                         {item.name}
                       </Heading>
                       <SecondaryLabel>
-                        {t(`elfs-show.${item.type}`)}
+                        {t(`elfs-show.${item.type}`)}{' '}
+                        {'⭐'.repeat(item.requiredRank)}
                       </SecondaryLabel>
                     </Box>
                     <Paragraph
