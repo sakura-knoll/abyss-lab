@@ -13,8 +13,8 @@
       type: recommended
   leader:
     core:
-      name: Leader Skill (CN Live Data)
-      krName: 리더 스킬 (CN Live Data)
+      name: Leader Skill
+      krName: 리더 스킬
       description: |-
         -
       krDescription: |-
@@ -28,8 +28,8 @@
           -
   passive:
     core:
-      name: Passive Skill (CN Live Data)
-      krName: 패시브 스킬 (CN Live Data)
+      name: Passive Skill
+      krName: 패시브 스킬
       description: |-
         -
       krDescription: |-
@@ -43,8 +43,8 @@
           -
   evasion:
     core:
-      name: Evasion Skill (CN Live Data)
-      krName: 회피 스킬 (CN Live Data)
+      name: Evasion Skill
+      krName: 회피 스킬
       description: |-
         -
       krDescription: |-
@@ -58,8 +58,8 @@
           -
   special:
     core:
-      name: Charged ATK (CN Live Data)
-      krName: 차지 공격 (CN Live Data)
+      name: Charged ATK
+      krName: 차지 공격
       description: |-
         -
       krDescription: |-
@@ -73,8 +73,8 @@
           -
   ultimate:
     core:
-      name: Ultimate Skill (CN Live Data)
-      krName: 필살기 (CN Live Data)
+      name: Ultimate Skill
+      krName: 필살기
       description: |-
         -
       krDescription: |-
@@ -88,8 +88,8 @@
           -
   basic:
     core:
-      name: Normal Attack (CN Live Data)
-      krName: 일반 공격 (CN Live Data)
+      name: Normal Attack
+      krName: 일반 공격
       description: |-
         -
       krDescription: |-
@@ -110,278 +110,273 @@
   features: [ice-dmg, freeze, time-mastery, burst]
   equipment:
     - weapon: domain-of-ego
-      stigmataTop: elysia-flawless-top
-      stigmataMid: elysia-flawless-mid
-      stigmataBot: elysia-flawless-bot
+      stigmataTop: elysia-pristine-top
+      stigmataMid: elysia-pristine-mid
+      stigmataBot: elysia-pristine-bot
       type: recommended
   leader:
     core:
-      name: Leader Skill (CN Live Data)
-      krName: 리더 스킬 (CN Live Data)
+      name: Wandering Dream
+      krName: 꿈처럼 깨어나는 무결한 일생
       description: |-
-        Leader Bonus
-        Leader Skill: Increases initial SP of teammates with Ice DMG tag with 60.0.
-        In Open World, the initial SP bonus takes effect once every 10 mins.
-        Increases Ice DMG by 35.0%. During [Star Ocean of the Past] effect, increases Ice DMG by 20.0% additionally.
+        Leader Bonus:
+        Leader Skill: Increases every Ice DMG battlesuit's initial SP by 60.0pt.
+        In Open World, this effect triggered once every 10 minutes.
+        Increases the team's Ice DMG by 35.0%, and while Stars of the Past is in effect, increases the team's Ice DMG by another 20.0%.
       krDescription: |-
         리더로 배치 시 파티원이 버프를 받는다.
-        리더 스킬: 빙결 대미지 속성을 가진 파티원의 전투 중 초기 SP가 60.0pt 증가한다.
-        오픈월드에서 초기 SP 증가 효과는 10분마다 1회 발동한다.
-        빙결 대미지 35.0% 증가. [과거의 별들] 효과 지속 시, 빙결 대미지가 추가로 20.0% 증가.
+        리더 스킬: 빙결 원소 특성 파티원 캐릭터의 초기 SP가 60.0pt 증가한다.
+        오픈 월드에서 초기 SP 증가 효과는 10분마다 1회 발동한다.
+        파티원 캐릭터의 빙결 원소 대미지가 35.0% 증가하고, [과거의 별바다] 적용 기간, 파티원 캐릭터의 빙결 원소 대미지가 추가로 20.0% 증가한다.
     subskills:
-      - name: '-'
-        krName: '-'
+      - name: Wandering Dream
+        krName: 꿈처럼 깨어나는 무결한 일생
         description: |-
-          Leader Bonus
-          Leader Skill: Increases initial SP of teammates with Ice DMG tag with 60.0.
-          In Open World, the initial SP bonus takes effect once every 10 mins.
-          Increases Ice DMG by 35.0%. During [Star Ocean of the Past] effect, increases Ice DMG by 20.0% additionally.
+          Increases every Ice DMG battlesuit's initial SP by 60.0pt.
+          In Open World, this effect triggered once every 10 minutes.
+          Increases the team's Ice DMG by 35.0%, and while Stars of the Past is in effect, increases the team's Ice DMG by another 20.0%.
         krDescription: |-
-          리더로 배치 시 파티원이 버프를 받는다.
-          리더 스킬: 빙결 대미지 속성을 가진 파티원의 전투 중 초기 SP가 60.0pt 증가한다.
-          오픈월드에서 초기 SP 증가 효과는 10분마다 1회 발동한다.
-          빙결 대미지 35.0% 증가. [과거의 별들] 효과 지속 시, 빙결 대미지가 추가로 20.0% 증가.
+          빙결 원소 특성 파티원 캐릭터의 초기 SP가 60.0pt 증가한다.
+          오픈 월드에서 초기 SP 증가 효과는 10분마다 1회 발동한다.
+          파티원 캐릭터의 빙결 원소 대미지가 35.0% 증가하고, [과거의 별바다] 적용 기간, 파티원 캐릭터의 빙결 원소 대미지가 추가로 20.0% 증가한다.
   passive:
     core:
-      name: Passive Skill (CN Live Data)
-      krName: 패시브 스킬 (CN Live Data)
+      name: Enlightened Salvation
+      krName: 세상을 구원하는 천혜
       description: |-
         Passive bonuses apply automatically.
-        Balanced archer with up to 2 shooting chances (one is restored every 10s if less than 2).
-        Corrected modifier of non-aimed shooting: 100%.
-        Corrected modifier of aimed shooting: 100%.
+        A balanced archer that has 2 shoot attempts.
+        If less than 2 shoot attempts remain, recover 1 attempt every 10s.
+        Base Shooting Multiplier Correction: 100%
+        Aimed Base Shooting Multiplier Correction: 100%
 
-        Herrscher of Human:Ego has two forms, Herrscher of Human and Herrscher of Origin, which can be switched by using Ult.
-        Herrscher of Human:Ego's Charged Attack inflicts [Flawless Seed] to enemies, which lasts 15s, stacks up to 3. At 3 stacks of [Flawless Seed], inflicts [Flawless Blossom] to the enemies for 2.5s. During Herrscher of Origin form, duration of [Flawless Blossom] is increased to 3.5s and the enemies with [Flawless Seed] cannot move.
-        When using Weapon Active Skill against enemies with [Flawless Blossom], triggers Ego Blossom, deals 200% + 120% ATK of Ice DMG. In Herrscher of Origin mode, deals 500% ATK of Ice DMG.
-        When [Flawless Blossom] ends, gain 1 stack of [Flawless Seed].
-        Duration of [Flawless Seed] can be refreshed.
+        Herrscher of Human: Ego has two Herrscher Forms: Herrscher of Human Form and Herrscher of Origin Form. Cast Ultimate to switch between them.
+        Her Charged ATK inflicts Pristine Seed stacks that last 15s and cap at 3. At 3 stacks, enemies enter Pristine Bloomage state for 2.5s. In Herrscher of Origin Form, Pristine Bloomage lasts for 3.5s and immobilizes enemies.
+        Hitting enemies in Pristine Bloomage state with weapon skill or special weapon skill triggers Ego Blossom. In Herrscher of Human Form, it deals 200% + 120% ATK of ICe DMG in an area. In Herrscher of Origin Form, it deals 500% ATK of Ice DMG. When Pristine Bloomage is removed, 1 Pristine Seed stack remains. Inflicting Pristine Seed again refreshes its duration.
       krDescription: |-
         패시브 스킬은 자동으로 발동한다.
-        밸런스형 활 캐릭터로, 사격 기회를 2회 보유하고 있고, 10초마다 1회 회복한다.
+        밸런스형 활 캐릭터로, 사격 기회를 2회 보유한다.
+        2회 미만 시 10초마다 1회 회복한다.
         기본 사격 배율 수정: 100%
         조준 사격 배율 수정: 100%
 
-        진아·인류의 율자는 인류의 율자와 기원의 율자 두 개의 형태를 가지며, 필살기를 통해 전환할 수 있다.
-        진아·인류의 율자의 차지 공격은 15초간 지속되는 [무결의 씨앗]을 적에게 부여하고, 최대 3개까지 중첩시킬 수 있다. 3번 중첩되면 [무결의 꽃뭉치]를 2.5초간 적에게 부여한다. 기원의 율자 형태에서는 [무결의 꽃뭉치]의 지속시간이 3.5초로 늘어나며, [무결의 꽃뭉치]를 가진 적은 이동할 수 없게 된다.
-        [무결의 꽃뭉치]를 가진 적에게 무기 액티브 스킬 사용 시, 진아 개화를 발동시켜 공격력 200% + 120% 빙결 대미지를 가한다. 기원의 율자 형태에서는 공격력 500%의 빙결 대미지를 가한다.
-        [무결의 꽃뭉치]가 사라지면, 1개의 [무결의 씨앗]을 부여한다.
-        [무결의 씨앗]의 지속시간은 갱신 가능.
+        진아·인간의 율자는 인간의 율자 형태와 기원의 율자 형태 두가지 율자 형태를 보유하고 있으며, 필살기 사용 시 두 가지 형태 사이에서 전환할 수 있다.
+        진아·인간의 율자의 차지 공격은 적에게 [무결의 꽃씨]를 부가한다(최대 3스택). 지속 시간: 15초.
+        3스택에 도달하면 적은 2.5초 동안 [무결의 꽃송이] 상태에 진입한다. 기원의 율자 형태에서 [무결의 꽃송이] 지속 시간이 3.5초로 연장된다. [무결의 꽃송이] 상태에서 적은 움직일 수 없다.
+        무기 스킬 또는 특수 무기 스킬이 [무결의 꽃송이] 상태의 적에게 적중하면 진아 개화 효과를 발동해 인간의 율자 형태에서 공격력 200% + 120%의 범위 빙결 원소 대미지를 가하고, 기원의 율자 형태에서 공격력 500%의 빙결 원소 대미지를 가한다.
+        [무결의 꽃송이]가 제거되면 [무결의 꽃씨] 1스택 상태로 돌아가며, [무결의 꽃씨] 중복 부가 시 해당 상태의 지속 시간을 갱신한다.
     subskills:
-      - name: '-'
-        krName: '-'
+      - name: Finale's Glory
+        krName: 광휘, 다가오는 종막처럼
         description: |-
-          Increases Total DMG of Ego Blossom by 20.0%.
-          When Ego Blossom is inflicted in Herrscher of Human form, surrounding enemies with [Flawless Blossom] explode and deal 50% ATK of Ice DMG, which can be triggered 3 times maximum, remove [Flawless Blossom] from the enemies.
+          increases Ego Blossom's Total DMG by 20.0%.
+          WHen Ego Blossom is triggered in Herrscher of Human form, it deals an extra 50.0% ATK of Ice DMG for each nearby enemy that is in Pristine Bloomage state. It registers 3 such enemies at most and cancels their Pristine Bloomage state.
         krDescription: |-
-          진아 개화의 모든 대미지 20.0% 증가.
-          인류의 율자 형태에서 진아 개화가 발동 시, [무결의 꽃뭉치] 효과를 가진 주변 적들에게 폭발을 일으켜, 공격력 50%의 대미지를 최대 3회 가하고, [무결의 꽃뭉치] 효과를 제거한다.
-      - name: '-'
-        krName: '-'
+          진아 개화 효과가 가하는 모든 대미지가 20.0% 증가한다.
+          인간의 율자 형태에서 진아 개화 효과 발동 시, 이번 진아 개화 효과는 주변 [무결의 꽃송이] 상태의 적에게 추가로 공격력 50.0%의 빙결 원소 대미지를 가하고, 해당 적의 [무결의 꽃송이] 상태를 해제한다. 추가 대미지는 최대 3기의 적까지 적용된다.
+      - name: Unrestrained Abstinence
+        krName: 태연, 얽매이지 않는 제약처럼
         description: |-
-          When using Ultimate Evasion Skill in Herrscher of Human form, increases Ice DMG by 50.0% for 5s (CD: 60s). The cooldown can be refreshed when exiting Herrscher of Origin form.
+          After using Ultimate Evasion Skill in Herrscher of Human form, increases Ice DMG by 50.0% for 5s. CD: 60s.
+          Exiting Herrscher of Origin form refreshes the CD.
         krDescription: |-
-          인류의 율자 형태에서 극한 회피 스킬 사용 시, 5초간 빙결 대미지가 50.0% 증가한다 (재사용 대기시간: 60초). 재사용 대기시간은 기원의 율자에서 나올 때 초기화된다.
+          인간의 율자 형태에서 극한 회피 스킬 사용 후, 빙결 원소 대미지가 50.0% 증가한다. 지속 시간: 5초, 재사용 대기시간: 60초. 기원의 율자 형태 종료 시 스킬의 재사용 대기 시간을 갱신한다.
         requiredRank: sss
-      - name: '-'
-        krName: '-'
+      - name: Illusory Haze
+        krName: 몽롱, 눈에 비치는 꿈처럼
         description: |-
-          Enemies with [Flawless Seed] take 50.0% ATK of Ice DMG every second.
+          Enemies carrying Pristine Seed receive 50.0% ATK of Ice DMG every second.
         krDescription: |-
-          [무결의 씨앗]을 가진 적들은 매초 공격력 50.0%의 빙결 대미지를 받는다.
+          [무결의 꽃씨]를 보유한 적은 매초 공격력 50.0%의 빙결 원소 대미지를 받는다.
         requiredRank: s2
   evasion:
     core:
-      name: Evasion Skill (CN Live Data)
-      krName: 회피 스킬 (CN Live Data)
+      name: Rising Starbeams
+      krName: 별을 비추는 새벽의 빛
       description: |-
-        Quickly dodge enemy attacks. Can be performed twice in a row.
+        Quickly dodge enemy attacks up to twice in a row
 
         Ultimate Evasion Skill:
-        Herrscher of Human form: Triggers Global Time Fracture for 3s, enhances the next Charged Attack within 10s, which deals 400% + 2 x 100% ATK of Ice DMG, and inflicts 3 stacks of [Flawless Seed] to the enemy.
-        CD: 18s.
-        Herrscher of Origin form: Creates a vortex which pulls enemies for 5s.
-        CD: 18s.
+        In Herrscher of Human form, causes Global Time Fracture for 3s. Within 10s, the next Charged ATK shoots an enhanced pristine arrow that deals 400% + 2 x 100% ATK of Ice DMG and inflicts 3 Pristine Seed stacks. CD: 18s.
+        In Herrscher of Origin form, creates a starry vortex to pull enemies for 5s. CD: 18s.
       krDescription: |-
-        빠르게 적의 공격을 회피한다. 2번 연속해서 쓸 수 있다.
+        빠르게 적의 공격을 회피한다. 2번 연속 회피할 수 있다.
         극한 회피 스킬:
-        인류의 율자 형태: 전역 시공단열을 3초간 일으키고, 다음 10초내의 차지 공격을 강화하여 공격력 400% + 2 x 100%의 빙결 원소 대미지를 가하고, 3개의 [무결의 씨앗]을 적에게 중첩시킨다.
+        인간의 율자 형태에서 3초 동안 전체 시공 단열을 발동하고, 10초 동안 다음 차지 공격은 강화 [무결의 화살]을 1개 발사해 공격력 400% + 2 x 100%의 빙결 원소 대미지를 가하며, 적중한 적에게 [무결의 꽃씨]를 3스택 부가한다.
         재사용 대기시간: 18초
-        기원의 율자 형태: 5초간 적을 끌어당기는 소용돌이를 만든다.
-        재사용 대기시간: 18초
+        기원의 율자 형태에서 별의 소용돌이를 생성해 5초 동안 적을 끌어당긴다. 재사용 대기시간: 18초
     subskills:
-      - name: '-'
-        krName: '-'
+      - name: Timeless Evocation
+        krName: 의미, 영원한 진리처럼
         description: |-
-          When other teammate consumes 100 SP or more at once, triggers QTE (CD: 15s).
+          When a teammate consumes at least 100 SP in one go, her QTE is triggered. CD: 15s.
         krDescription: |-
-          다른 팀 멤버가 한번에 SP를 100pt 이상 사용 시, QTE를 발동시킨다 (재사용 대기시간: 15초).
-      - name: '-'
-        krName: '-'
+          파티 내 다른 캐릭터가 SP를 한 번에 최소 100pt 소모하면 인간의 율자 QTE를 발동할 수 있다.
+          해당 효과는 15초마다 1회 발동한다.
+      - name: Moonlit Romance
+        krName: 낭만, 밤하늘의 달처럼
         description: |-
-          All evasions can trigger the Ultimate Evasion effect.
+          Non-Ultimate Evasion can also trigger Ultimate Evasion Skill.
         krDescription: |-
-          극한 회피가 아니여도 극한 회피 스킬의 효과를 발동할 수 있다.
-      - name: '-'
-        krName: '-'
+          극한 회피가 아니어도 극한 회피 스킬을 발동할 수 있다.
+      - name: Thunderless Serenity
+        krName: 고요, 멈춰버린 천둥처럼
         description: |-
-          Reduces CD of Ultimate Evasion Skill by 4.0s.
-          In Herrscher of Human form, increases Attack Speed of Charged Attacks by 50%, gains 2 stacks of Crystal Ice Mirror when Ultimate Evasion Skill is triggered.
+          Reduces Ultimate Evasion Skill CD by 4.0s.
+          In Herrscher of Human Form, Charged ATK speed increases by 50.0% and triggering Ultimate Evasion Skill grants 2 Crystal Ice Mirror stacks.
         krDescription: |-
           극한 회피 스킬의 재사용 대기시간이 4.0초 감소한다.
-          인류의 율자 형태에서, 극한 회피 스킬 발동 시, 차지 공격의 공격 속도가 50% 증가하고, 2개의 수정 얼음 거울을 얻는다.
+          인간의 율자 형태에서 차지 공격의 행동 속도가 50.0% 증가하고, 극한 회피 스킬 발동 시 수정 거울을 2스택 획득한다.
   special:
     core:
-      name: Charged ATK (CN Live Data)
-      krName: 차지 공격 (CN Live Data)
+      name: 'Charged ATK: Infinite Helix'
+      krName: 차지-무한을 선회하는 인과의 나선
       description: |-
-        Herrscher of Human form:
-        Hold ATK button to charge a crystal ballista. After the charging is completed, fires a [Flawless Arrow] which piercing through all enemies in its path, dealing 330% + 2 x 100% ATK of Ice DMG, and inflicting a stack of [Flawless Seed] to the enemies.
-        Hold ATK button to perform Charged ATKs continuously. You can move while charging.
-
-        Herrscher of Origin form:
-        When Herrscher energy is fully charged, hold ATK button to consume all of the Herrscher energy to unleash Sprit of Origin to deal 700% ATK of Ice DMG. When hitting enemy, resets cooldown of [Star Ocean Waltz], creates a frost area which inflicts 3 stacks of [Flawless Seed] to enemies in the area. The area lasts for 6s.
+        Use a powerful attack that corresponds to the Herrscher Form.
+        Herrscher of Human Form:
+        Hold [ATK] to create a crystal ballista. Once charging is complete, fire a pristine arrow that penerates every enemy along its trajectory, dealing 330% + 2 x 100% ATK of Ice DMG and inflicting 1 Pristine Seed stack. Hold [ATK] to fire consecutively, during which you can move.
+        Herrscher of Origin Form:
+        When Herrscher Charge is maxed, hold [ATK] to empty Herrscher Charge and summon Sprit of Origin to attack, dealing 700% ATK of Ice DMG. Hitting enemies resets Waltz of the Star's CD. This also creates a frost zone forward, adding 3 Pristine Seed stacks to all enemies in the zone. Frost zone lasts for 6s.
       krDescription: |-
-        인류의 율자 형태:
-        공격 버튼을 길게 눌러 수정 발리스타를 차지한다. 차지가 끝나면 경로 내 모든 적을 관통하는 [무결의 화살]을 쏘아, 공격력 330% + 2 x 100%의 빙결 대미지를 가하며, 1개의 [무결의 씨앗]을 부여한다.
-        공격을 계속 누르고 있으면 연달아 차지 공격을 한다. 차지 중에 이동이 가능하다.
-
+        율자 형태에 따라 강력한 공격을 발동한다.
+        인간의 율자 형태:
+        공격 버튼을 길게 누르면 수정 발리스타를 생성하고 충전을 진행한다. 충전을 완료하면 경로상의 모든 적을 관통하는 무결의 화살을 1개 발사해 공격력 330% + 2 x 100%의 빙결 원소 대미지를 가하고, 무결의 화살에 적중한 적에게 [무결의 꽃씨]를 1스택 부가한다.
+        지속적으로 공격 버튼을 길게 누르면 연속 사격할 수 있으며, 해당 기간 이동이 가능하다.
         기원의 율자 형태:
-        율자 에너지가 가득 찼을 때, 공격 버튼을 길게 눌러 모든 율자 에너지를 소모해 기원의 혼을 내보내 공격력 700%의 빙결 대미지를 가한다. 적에게 명중 시, [별바다의 왈츠]의 재사용 대기시간을 초기화하며, 바닥에 얼음 서리 영역 만들어 그 위의 적에게 3개의 [무결의 씨앗]을 부여한다. 해당 영역은 6초간 지속된다.
+        율자 에너지가 최대치에 도달했을 때 공격 버튼을 길게 누르면 모든 율자 에너지를 소모하고 기원의 혼을 소환해 적에게 공격력 700%의 빙결 원소 대미지를 가한다.
+        또한 적에게 적중 시 [별바다의 왈츠]의 재사용 대기시간을 리셋하고, 전방 지면에 서리 영역을 생성해 해당 구역에 접촉한 적에게 [무결의 꽃씨]를 3스택 부가한다. 서리 영역 지속 시간: 6초
     subskills:
-      - name: '-'
-        krName: '-'
+      - name: Affectionate Gale
+        krName: 자애, 속삭이는 바람처럼
         description: |-
-          In Herrscher of Human form, increases Total DMG of Charged Attacks by 30.0%.
-          In Herrscher of Origin form, increases Total DMG of Charged Attack by 50.0% and Self Total DMG by 10.0%.
+          In Herrscher of Human form, increases Charged ATK's Total DMG by 30.0%.
+          In Herrscher of Origin form, increases Charged ATK's Total DMG by 50.0% and self's Total DMG by 10.0%.
         krDescription: |-
-          인류의 율자 형태에서 차지 공격의 모든 대미지가 30.0% 증가한다.
-          기원의 율자 형태에서 차지 공격의 모든 대미지가 50.0%, 자신의 모든 대미지가 10.0% 증가한다.
+          인간의 율자 형태에서 차지 공격의 모든 대미지가 30.0% 증가한다.
+          기원의 율자 형태에서 차지 공격의 모든 대미지 증가 효과가 50.0%로 변경되고, 자신의 모든 대미지가 10.0% 증가한다.
         requiredRank: ss
-      - name: '-'
-        krName: '-'
+      - name: Gentle Warmth
+        krName: 온화, 녹아내리는 첫눈처럼
         description: |-
           In Herrscher of Human form, increases Elemental Breach by 10.0%.
-          In Herrscher of Origin form, increases Elemental Breach by 18.0% and reduces Total DMG taken by 25.0%.
+          In Herrscher of Origin form, increases Elemental Breach by 18.0% and reduces Total DMG received by 25.0%.
         krDescription: |-
-          인류의 율자 형태에서 원소 관통이 10.0% 증가한다.
-          기원의 율자 형태에서 원소 관통이 18.0% 증가하며, 받는 모든 대미지가 25.0% 감소한다.
-      - name: '-'
-        krName: '-'
+          인간의 율자 형태에서 모든 원소 관통이 10.0% 증가한다.
+          기원의 율자 형태에서 모든 원소 관통이 18.0% 증가하고, 받는 모든 대미지가 25.0% 감소한다.
+      - name: Budding Innocence
+        krName: 순진, 피어나는 순백의 꽃처럼
         description: |-
-          When attacking an enemy with [Flawless Seed], increases Total DMG by 25.0% and restores 1.0 SP (CD: 1s).
-          When an enemy with [Flawless Seed] dies, restores 50 HP. In Herrscher of Human form, gains a stack of Crystal Ice Mirror.
+          On hitting an enemy carrying Pristine Seed, increases Total DMG by 25.0% and restores 1.0 SP. SP recovery CD: 1s. When an enemy carrying Pristine Seed is defeated, restores 50 HP, and grants 1 Crystal Ice Mirror stack in Herrscher of Human form.
         krDescription: |-
-          [무결의 씨앗]을 가진 적에게 공격 시, 모든 대미지가 25.0% 증가하고, SP를 1.0만큼 회복한다 (재사용 대기시간: 1초).
-          [무결의 씨앗]을 가진 적이 죽었을 때, HP를 50pt 회복한다. 인류의 율자 형태에서는 수정 얼음 거울을 1개 획득한다.
+          [무결의 꽃씨]를 보유한 적 적중 시 모든 대미지가 25.0% 증가하고, 자신의 SP를 1.0pt 회복한다. SP 회복 발동 간격: 1초.
+          [무결의 꽃씨]를 보유한 적이 사망하면 자신의 HP를 50 회복한다. 인간의 율자 형태에서 추가로 수정 거울을 1스택 회복한다.
   ultimate:
     core:
-      name: Ultimate Skill (CN Live Data)
-      krName: 필살기 (CN Live Data)
+      name: Radiant Destiny
+      krName: 운명을 정하는 찬란한 영원
       description: |-
-        Switch between two Herrscher forms.
-        When Ult is activated, enters Herrscher of Origin form, activates [Star Ocean of the Past], deals 500% ATK of Ice DMG, inflicts [Flawless Blossom], and accumulates 6 Rime Trauma. During this period, all skill timers and the stage timer are paused.
-        In Herrscher of Origin Form, the character is in Burst mode, and obtains 60 Herrscher energy every second, which maxes at 400. During this form, the character uses a secpter instead of a bow, and weapon skill is replaced with [Star Ocean Waltz], which deals 500% ATK of Ice DMG at the first use and deals 1400% ATK of Ice DMG from the second use and later. Cooldown of [Star Ocean Waltz] is 20s, and cannot be reduced by other cooldown reduction effects.
+        Switch between 2 Herrscher forms.
+        On casting Ultimate, enter Herrscher of Origin form, create Stars of the Past, deal 500% ATK of Ice DMG, and inflict Pristine Bloomage and 6 Rime Trauma. During which, all skill timers and the stage timer is paused.
+        In Herrscher of Origin form, she is also in burst mode and gains Herrscher Charge (Max: 400; Initial: 0). She regains herrscher Charge over time, regaining 80 per second within the first 5s and 60 per second after 5s. During which she fights with a staff instead a bow.
+        Tap [Weapon] to cast Waltz of the Stars, which deals a total of 500% ATK of Ice DMG on the first cast, and 1400% ATK of Ice DMG afterward. Exiting Herrscher of Origin form clears this effect. Waltz of the Stars CD: 20s (unaffected by CD reduction).
+        When on the field in Herrscher of Origin form for over 5s, tap [ULT] again or wait until 17s to cast Finisher, dealing 1100% ATK of Ice DMG. During which, all skill timers and the stage timer is paused. In the meantime, if she is switched out, she will still cast Finisher, only dealing 100% ATK of Ice DMG. Casting Finisher ends Herrrscher of Origin form, activates Herrscher of Human form, and cancels Stars of the past.
+        SP: 125, CD: 10s.
 
-        After 5s from entering Herrscher of Origin form, tap ULT button to unleash Finisher to deal 1100% ATK of Ice DMG. After 17s from entering the form, the Finisher will be unleashed automatically. During the Finisher, all skill timers and the stage timer are paused. Leaving the field also triggers the finisher and deals 100% ATK of Ice DMG.
-        After using the Finisher, the character switches back to Herrscher of Human form and deactivates [Star Ocean of the Past].
-
-        SP Cost: 125, CD: 10s
-
-        While [Star Ocean of the Past] is active, the following effects will be available:
-        Restores 0.5 SP every second for all team members with Ice DMG tag.
-        Inflicts 0.5 Rime Trauma every second to all enemies on the field.
-        Increases Ice DMG of ELF with Ice DMG tag by 50%.
-        Attacks of team members with Ice DMG tag deal additional 5% DMG (reflected by HP loss).
-        When an enemy is frozen, it takes additional 100% ATK of Ice DMG (reflected by HP loss, triggers only once during [Star Ocean of the Past]).
-        In Herrscher of Origin form, the character won't die.
+        While Stars of the Past is in effect, gain the following buffs:
+        Restore 0.5 SP to every Ice DMG dealer every second.
+        Inflict 0.5 Rimte Trauma on very enemy every second.
+        Ice DMG ELF deals 50% more Ice DMG.
+        Ice DMG battlesuit deal an extra 5% DMG (an HP loss effect).
+        Enemy receives an extra 100 x ATK of DMG (HP looss effect) on being frozen. This effect immediately applies to frozen enemies once when Stars of the Past is created.
+        She cannot be defeated in Herrscher of Origin form.
       krDescription: |-
-        두 개의 율자 형태를 전환한다.
-        필살기 발동 시, 기원의 율자 형태가 되며, [과거의 별바다]를 발동시키고, 공격력 500%의 빙결 대미지를 가하며, [무결의 꽃뭉치]를 부여하고, 빙결 게이지를 6pt 축적시킨다. 발동 기간, 모든 타이머가 정지한다.
-        기원의 율자 형태에서, 캐릭터는 폭발 상태가 되며, 매초 60pt의 율자 에너지를 회복한다 (최대 400pt). 이 형태에서 캐릭터는 활 대신 지팡이를 사용하며, 무기 액티브 스킬은 [별바다의 왈츠]로 바뀌어 처음엔 공격력 500%의 빙결 대미지, 이후엔 공격력 1400%의 빙결 대미지를 가한다. [별바다의 왈츠]의 재사용 대기시간은 20초이며, 다른 재사용 대기시간 감소 효과가 적용되지 않는다.
+        두 가지 율자 형태로 전환할 수 있다.
+        필살기 발동 시, 기원의 율자 형태에 진입해 [과거의 별바다]를 생성하고, 공격력 500%의 빙결 원소 대미지를 가하며, 적에게 [무결의 꽃송이]와 6pt의 빙결 게이지를 누적한다. 해당 기간, 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다.
+        기원의 율자 형태에서 캐릭터가 폭발 상태가 되면 율자 에너지를 획득한다(최대: 400pt, 초기: 0pt). 지속적으로 율자 에너지를 회복하며, 처음 5초 동안 매초 율자 에너지를 80pt 회복하고, 5초 후 매초 율자 에너지를 60pt 회복한다. 그 기간, 캐릭터는 지팡이로 활을 대체해 공격하며, 무기 스킬 버튼을 터치하면 [별바다의 왈츠]를 발동할 수 있다. 첫 발동 시 공격력 500%의 빙결 원소 대미지를 가하고, 이후 발동 시 빙결 원소 대미지가 1400%까지 증가한다. 기원의 율자 형태 종료 시 해당 효과는 제거된다. [별바다의 왈츠]의 재사용 대기시간: 20초, 기타 재사용 대기시간 감소 효과의 영향을 받지 않는다.
+        캐릭터가 전장에 있을 때, 기원의 율자 형태를 5초 지속 후 다시 필살기 버튼을 터치하거나 율자 형태 17초 지속 후 자동으로 피니쉬가 발동해 공격력 1100%의 빙결 원소 대미지를 가한다. 해당 기간, 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다. 캐릭터 퇴장으로 발동한 경우에도 피니쉬가 발동해 공격력 100%의 빙결 원소 대미지를 가한다. 피니쉬 발동 종료 후 기원의 율자 형태와 [과거의 별바다]가 해제되고, 인간의 율자 형태에 진입한다.
+        SP 소모: 125pt, 재사용 대기시간: 10초
 
-        기원의 율자 형태에 진입 후 5초 뒤, 필살기 버튼을 누르면 피니쉬를 발동하여 공격력 1100%의 빙결 대미지를 가할 수 있다. 기원의 율자 진입 후 17초 후, 피니쉬는 자동으로 발동한다. 피니쉬 도중, 모든 타이머가 정지한다. 전장에서 벗어날 때도 피니쉬를 발동시키며, 100%의 빙결 원소 대미지를 가한다.
-        피니쉬 사용 후, 캐릭터는 인류의 율자로 돌아가며, [과거의 별바다]를 끝낸다.
-
-        SP 소모: 125, 재사용 대기시간: 10초
-
-        [과거의 별바다]가 발동 중, 다음 효과를 얻는다:
-        얼음 피해 속성을 가진 모든 팀 멤버가 매초 SP를 0.5pt만큼 회복한다.
-        전장의 모든 적에게 매초 빙결 게이지를 0.5pt 누적시킨다.
-        얼음 피해 속성을 가진 인형의 빙결 대미지가 50% 증가한다.
-        얼음 피해 속성을 가진 팀 멤버가 가하는 모든 공격이 추가로 5%의 대미지를 가한다 (HP 감소 효과).
-        적이 빙결 상태에 걸리면 추가로 공격력 100%의 빙결 대미지를 가한다 (HP 감소 효과, [과거의 별바다] 지속시간 중 한 번만 발동 가능).
-        기원의 율자 상테에서 캐릭터는 죽지 않는다.
+        [과거의 별바다] 적용 기간, 아래 버프 효과를 획득한다:
+        매초 빙결 원소 특성 파티원 캐릭터의 SP를 0.5pt 회복한다.
+        매초 전장의 적에게 빙결 게이지를 0.5pt 누적한다.
+        빙결 원소 특성의 인형이 가하는 빙결 원소 대미지가 50% 증가한다.
+        빙결 원소 특성의 파티원 캐릭터가 대미지를 가할 경우 대미지가 추가로 5% 증가한다(HP 감소 효과).
+        적은 빙결 상태에 진입 시 추가로 캐릭터 공격력 x 100%의 대미지를 받는다(HP 감소 효과). [과거의 별바다] 생성 시, 빙결 상태의 적에게 즉시 해당 효과를 1회 발동한다.
+        기원의 율자 형태 기간, 캐릭터는 사망하지 않는다.
     subskills:
-      - name: '-'
-        krName: '-'
+      - name: Original Pristinity
+        krName: 무결, 기원의 인간처럼
         description: |-
-          When attacking an enemy with [Flawless Seed] or [Flawless Blossom], the enemy takes 20% more Total DMG from Herrscher of Human:Ego (independent bonus).
-          Herrscher of Human:Ego gains charging energy based on SP consumption of other teammates, up to 300. When the charging energy is greater than 0, increases Total DMG by 10.0%. When the charging energy is greater than 225, each point over 225 increases Total DMG by 0.4%. When Herrscher of Origin form ends, clear the charging energy.
+          Enemies carrying Pristine Seed or are in Pristine Bloomage state receive 20.0% more Total DMG from Herrscher of Human: Ego (cannot stack). She records teammates' SP consumption to gain 300 charges at most. In Herrscher of Origin Form, with over 0 charge, her Total DMG increases by 20.0%; With over 225 charges, her TOtal DMG increases by 0.4% for every charge over 225 charges. Exiting Herrscher of Origin form clears the charges.
         krDescription: |-
-          [무결의 씨앗] 혹은 [무결의 꽃뭉치]를 가진 적을 공격할 때, 적이 진아·인류의 율자에게 받는 모든 대미지가 20% 증가한다 (독립 효과).
-          진아·인류의 율자는 다른 팀 멤버의 SP 소모량 만큼 차지 에너지를 얻는다 (최대 300). 차지 에너지가 0보다 클 때, 모든 대미지가 10.0% 증가한다. 차지 에너지가 225보다 클 때, 225를 초과하는 포인트당 모든 대미지가 0.4% 증가한다. 기원의 율자 형태가 끝나면, 충전 에너지를 초기화시킨다.
-      - name: '-'
-        krName: '-'
+          [무결의 꽃씨]가 있거나 [무결의 꽃송이] 상태의 적 공격 시 적이 진아·인간의 율자에게 받는 모든 대미지가 20.0% 증가한다(해당 효과는 독립적으로 부여된다). 진아·인간의 율자는 파티원이 소모한 SP를 기록해 충전한다(최대 300pt). 기원의 율자 형태 기간. 충전이 0pt보다 클 경우 모든 대미지가 10.0% 증가하고, 225pt를 초과할 경우 초과분 1pt당 자신이 가하는 모든 대미지가 0.4% 증가한다. 기원의 율자 형태 종료 시 충전은 리셋된다.
+      - name: Truly Elysia
+        krName: 진아, 엘리시아처럼
         description: |-
-          When entering and exiting Herrscher of Origin, inflicts 5.0s and 1.0s Global Time Fracture and refreshes cooldown of Ultimate Evasion Skill.
+          Entering and exiting Herrscher of Origin Form cause Global Time Fracture for 5.0s and 1.0s respectively, and refresh Ultimate Evasion Skill CD once.
         krDescription: |-
-          기원의 율자 상태가 시작하거나 끝날 때, 5.0초, 1.0초의 전역 시공 단열을 발동시키고 극한 회피 스킬의 재사용 대기시간을 초기화한다.
-      - name: '-'
-        krName: '-'
+          기원의 율자 형태 진입/해제 시 각각 전체 시공 단열을 각각 5.0초, 1.0초 발동하고, 극한 회피 스킬의 재사용 대기 시간을 1회 갱신한다.
+      - name: Elysium Eternal
+        krName: 영원, 과거의 낙원처럼
         description: |-
-          In Herrscher of Origin form, Charged Attack inflicts additional 200.0% ATK of Ice DMG and makes the Finisher to deal additional 400% ATK of Ice DMG, which can be stacked up to 2 times.
+          In Herrscher of Origin Form, Charged ATK deals an extra 200.0% ATK of Ice DMG. Every Charged ATK dealt increases Ultimate Finisher's additional ATK by 400.0% ATK of Ice DMG, up to 2 times. Exiting Herrscher of Origin Form clears all buff effects.
         krDescription: |-
-          기원의 율자 형태에서, 차지 공격이 추가로 공격력 200.0%의 빙결 대미지를 가하고, 피니쉬가 추가로 공격력 400%의 빙결 대미지를 가하게 한다 (2회 중첩 가능).
+          기원의 율자 형태에서 차지 공격이 추가로 공격력 200.0%의 빙결 원소 대미지를 가하고, 차지 공격을 1회 발동할 때마다 필살기 피니쉬의 빙결 원소 대미지가 400.0% 증가한다(최대 2회 증가).
+          기원의 율자 형태 해제 시 해당 증가 효과는 제거된다.
   basic:
     core:
-      name: Normal Attack (CN Live Data)
-      krName: 일반 공격 (CN Live Data)
+      name: Shattered Transience
+      krName: 빛을 멸하는 찰나의 낙화
       description: |-
-        In Herrscher of Human form:
+        Attack with a bow or staff.
+
+        Herrscher of Human form: Use a bow to shoot arrows 4 times.
         SEQ 1: Deals 100% ATK of Ice DMG
         SEQ 2: Deals 2 x 60% ATK of Ice DMG
         SEQ 3: Deals 150% ATK of Ice DMG
         SEQ 4: Deals 200% ATK of Ice DMG
 
-        In Herrscher of Origin form:
+        Herrscher of Origin form: Use a staff to cast magic 4 times.
         SEQ 1: Deals 150% ATK of Ice DMG
         SEQ 2: Deals 8 x 40% ATK of Ice DMG
         SEQ 3: Deals 4 x 60% ATK of Ice DMG
-        SEQ 4: Deals 200% + 200% ATK of Ice DMG
+        SEQ 4: Deals 200% ATK of Ice DMG, and then 200% ATK of Ice DMG gradually.
       krDescription: |-
-        인류의 율자 형태:
-        SEQ 1: 공격력 100%의 빙결 대미지를 가한다.
-        SEQ 2: 공격력 2 x 60%의 빙결 대미지를 가한다.
-        SEQ 3: 공격력 150%의 빙결 대미지를 가한다.
-        SEQ 4: 공격력 200%의 빙결 대미지를 가한다.
+        활 또는 지팡이로 공격한다.
+        인간의 율자 형태: 활로 4연속 공격한다.
+        제1격: 공격력 100%의 빙결 대미지를 가한다.
+        제2격: 공격력 2 x 60%의 빙결 대미지를 가한다.
+        제3격: 공격력 150%의 빙결 대미지를 가한다.
+        제4격: 공격력 200%의 빙결 대미지를 가한다.
 
-        기원의 율자 형태:
-        SEQ 1: 공격력 150%의 빙결 대미지를 가한다.
-        SEQ 2: 공격력 8 x 40%의 빙결 대미지를 가한다.
-        SEQ 3: 공격력 4 x 60%의 빙결 대미지를 가한다.
-        SEQ 4: 공격력 200% + 200%의 빙결 대미지를 가한다.
+        기원의 율자 형태: 지팡이로 마법을 사용해 4연속 공격한다.
+        제1격: 공격력 150%의 빙결 대미지를 가한다.
+        제2격: 공격력 8 x 40%의 빙결 대미지를 가한다.
+        제3격: 공격력 4 x 60%의 빙결 대미지를 가한다.
+        제4격: 공격력 200%의 빙결 원소 대미지를 가하고, 이후 지속적으로 공격력 200%의 빙결 대미지를 가한다.
     subskills:
-      - name: '-'
-        krName: '-'
+      - name: Sparkling Hope
+        krName: 희망, 불타는 성화처럼
         description: |-
-          Increases Total DMG against Mecha enemies by 30.0%.
-          In Herrscher of Human form, when a normal attack hits, gains a stack of Crystal Ice Mirror (cannot gain from Charged Attacks), up to 4 stacks. With Crystal Ice Mirror, the character gain super armor. When the character is attacked, the stacks of Crystal Ice Mirror is decreased and the damage is reduced by 50.0%. The character loses all stacks of Crystal Ice Mirror when entering Herrscher of Origin form or getting no new Crystal Ice Mirror within 15s. When a character with Crystal Ice Mirror leaves the field, it will be transferred to the next character entering the field.
+          Deal 30.0% more Total DMG to MECH-type enemies.
+          In Herrscher of Human form, Basic ATK (Charged ATK excluded) grants 1 Crystal Ice Mirror stack on hit, up to a maximum of 4 stacks. Crystal Ice Mirror provides Iron Body, and reduces incoming DMG by 50.0% at the cost of 1 stack. If no stack is gained within 15s or Herrscher of Origin form is activated, lose all Crystal Ice Mirror stacks. A battlesuit carrying Crystal Ice Mirror passes it onto the battlesuit that replace her.
         krDescription: |-
-          기계 속성의 적에게 가하는 모든 대미지가 30.0% 증가한다.
-          인간의 율자 형태에서, 일반 공격 적중시 수정 얼음 거울을 하나 획득한다 (차지 공격으로는 획득 불가, 최대 4중첩). 수정 얼음 거울 보유 중, 슈퍼아머를 얻는다. 피격 시, 수정 얼음 거울을 소모하며, 받는 피해를 50% 줄인다. 15초 이내에 새로운 수정 얼음 거울을 얻지 못하거나, 기원의 율자 형태로 진입 시, 모든 수정 얼음 거울을 잃는다. 수정 얼음 거울을 보유한 캐릭터가 전장을 벗어날 때, 수정 얼음 거울은 그 다음 전장으로 진입하는 캐릭터에게로 옮겨진다.
-      - name: '-'
-        krName: '-'
+          캐릭터가 기계 속성의 적에게 가하는 모든 대미지가 30.0% 증가한다.
+          인간의 율자 형태에서 기본 공격이 적중할 때마다 수정 거울을 1스택 획득한다(차지 공격으로는 획득할 수 없다), 최대 4스택 획득. 수정 거울 보유 시 캐릭터는 슈퍼 아머 상태에 진입하며, 피격될 때마다 수정 거울이 1스택 감소하고 해당 대미지가 50.0% 감소한다. 15초 동안 새로운 수정 거울을 획득하지 못하거나 기원의 율자 형태에 진입하면 모든 수정 거울을 잃는다. 수정 거울을 보유한 캐릭터 퇴장 시 수정 거울 스택은 다음 출전 캐릭터에게 전이된다.
+      - name: Unstoppable Yearning
+        krName: 미련, 끝없는 생각처럼
         description: |-
-          Increases Ice DMG by 15.0%. In Herrscher of Origin form, increases Ice DMG 15.0% additionally and deals 25.0% ATK of bonus Ice DMG when a normal attack hits an enemy.
+          Increases Ice DMG by 15.0%.
+          In Herrscher of Origin form, increases Ice DMG by another 15.0%, and attacks deal additional 25.0% ATK of DMG.
         krDescription: |-
-          얼음 대미지가 15.0% 증가한다. 기원의 율자 형태에서, 추가로 얼음 대미지가 15.0% 증가하고, 일반 공격 적중 시, 공격력 25.0%의 얼음 원소 대미지를 추가로 가한다.
-      - name: '-'
-        krName: '-'
+          빙결 원소 대미지가 15.0% 증가한다.
+          기원의 율자 형태에서 빙결 원소 대미지가 추가로 15.0% 증가하고, 공격이 적에게 적중 시 추가로 공격력 25.0%의 빙결 원소 대미지를 가한다.
+      - name: Golden Splendor
+        krName: QTE-찬란, 반짝이는 황금처럼
         description: |-
-          QTE: In Human Herrscher form, Triggered when an enemy is Time-Slowed or Frozen to inflict [Flawless Blossom] to the enemy, to deal 1000.0% ATK of Ice DMG, and to trigger Ultimate Evasion Skill if it is not in cooldown. After the QTE entry, increases Total DMG by 15.0% for 20s (can be refreshed).
+          QTE: Triggered when in Herrscher of Human form and an enemy is Frozen or Time-Slowed. Inflicts Pristine Bloomage and deal 1,000.0% ATK of Ice DMG. If Ultimate Evasion Skill is not in CD, it is triggered. Within 20s of QTE entry, increases Total DMG by 15.0%. Triggering it again refreshes the duration.
         krDescription: |-
-          QTE: 인간의 율자 형태에서, 적이 시공 감속 또는 빙결 상태일 때 발동한다. [무결의 꽃뭉치]를 적에게 부여하고, 공격력 1000.0%의 빙결 대미지를 가하며, 극한 회피 스킬이 재사용 대기시간이 아니라면 이를 발동시킨다. QTE 진입 후, 20초간 모든 대미지가 15.0% 증가한다 (갱신 가능).
+          QTE: 인간의 율자 형태에서 적이 빙결 또는 시공 감속 상태일 때 발동한다. 적에게 [무결의 꽃송이]를 부가하고, 공격력 1000.0%의 빙결 원소 대미지를 가한다. 극한 회피 스킬이 재사용 대기시간 중이 아니라면 극한 회피 스킬을 발동한다. QTE 출전 후 20초 동안 가하는 모든 대미지가 15.0% 증가한다. 중복 발동 시지속 시간을 갱신한다.
 - id: vill-v
   version: '5.9'
   name: Helical Contraption
@@ -905,25 +900,24 @@
     subskills:
       - name: I Shall Correct Paths
         krName: 나를 따르는 자, 그릇된 길을 걷지 말라
-        description: Entering perdictor's Sentence increases Total DMG by 30.0% for 9.0s.
-        krDescription: '[예견자의 심판] 상태 진입 시, 자신이 가하는 모든 대미지가 30.0% 증가한다. 지속 시간: 9.0초'
+        description: |-
+          Entering perdictor's Sentence increases Total DMG by 30.0% for 9.0s.
+        krDescription: |-
+          [예견자의 심판] 상태 진입 시, 자신이 가하는 모든 대미지가 30.0% 증가한다. 지속 시간: 9.0초
       - name: I Shall Achieve Illumination
         krName: 나를 따르는 자, 깨달음을 얻어라
-        description:
+        description: |-
           Increases Inhibitor's Adjudication's Lightning DMG by 45.0%.
           Exiting Predictor's Sentence restores 15.0 SP.
-        krDescription:
-          '[제약자의 심판]이 가하는 뇌전 원소 대미지가 45.0% 증가한다. [예견자의 심판] 상태 해제 시, SP를
-          15.0pt 회복한다.'
+        krDescription: |-
+          [제약자의 심판]이 가하는 뇌전 원소 대미지가 45.0% 증가한다. [예견자의 심판] 상태 해제 시, SP를 15.0pt 회복한다.
         requiredRank: ss
       - name: I Shall Avert Ruination
         krName: 나를 따르는 자, 역경에서 온전하라
-        description:
-          Triggering Ultimate Evasion Skill makes enemies take 20.0% bonus
-          Lightning DMG from her (cannot stack) for 12.0s.
-        krDescription:
-          '극한 회피 스킬 발동 시, 적이 계율·죄의 심연에게 받는 뇌전 원소 대미지가 20.0% 증가한다(해당 효과는
-          독립적으로 부여된다). 지속 시간: 12.0초'
+        description: |-
+          Triggering Ultimate Evasion Skill makes enemies take 20.0% bonus Lightning DMG from her (cannot stack) for 12.0s.
+        krDescription: |-
+          극한 회피 스킬 발동 시, 적이 계율·죄의 심연에게 받는 뇌전 원소 대미지가 24.0% 증가한다(해당 효과는 독립적으로 부여된다). 지속 시간: 12.0초
   evasion:
     core:
       name: This Soma, Reincarnated
@@ -1084,13 +1078,10 @@
           [속죄] 카운트 회복 시, 자신의 모든 대미지가 30.0% 증가한다. 지속 시간: 10.0초, 중복 발동 시 지속 시간을 갱신한다.
       - name: 'QTE: Sinful Henceforth'
         krName: 'QTE: 이 악념을 받아들이리라'
-        description:
-          'QTE: Triggered when an enemy is Time-Slowed or paralyzed. Causes a
-          3s Global Time Fracture, deals 3 x 100% + 4 x 150% + 900.0% ATK of
-          Lightning DMG to all enemies, and restores 6.0 SP.'
-        krDescription:
-          'QTE: 적이 시공 감속 또는 마비 상태일 때 발동한다. 3초 동안 전체 시공 단열을 발동해 모든 적에게 공격력 3
-          x 100% + 4 x 150% + 900.0%의 뇌전 원소 대미지를 가하고 SP를 6.0pt 회복한다.'
+        description: |-
+          QTE: Triggered when an enemy is Time-Slowed or paralyzed. Causes a 3s Global Time Fracture, deals 3 x 100% + 4 x 150% + 900.0% ATK of Lightning DMG to all enemies, and restores 6.0 SP.
+        krDescription: |-
+          QTE: 적이 시공 감속 또는 마비 상태일 때 발동한다. 3초 동안 전체 시공 단열을 발동해 모든 적에게 공격력 3 x 100% + 4 x 150% + 900.0%의 뇌전 원소 대미지를 가하고 SP를 6.0pt 회복한다.'
 - id: eden
   version: '5.7'
   name: Golden Diva
@@ -5406,12 +5397,10 @@
     subskills:
       - name: α - Shoulder of Orion
         krName: 오리온자리α
-        description:
-          5th sequence of Basic ATK ignites enemies hit, dealing 30% ATK of
-          Fire DMG per 0.5s for 10s and inflicting 6 Ignite Trauma.
-        krDescription:
-          '기본 공격 5번째 공격에 명중한 적은 연소 상태에 빠져 0.5초마다 공격력 30%의 화염 원소 대미지를 받는다.
-          지속시간: 10초. 연소 게이지를 6pt 누적한다.'
+        description: |-
+          Basic ATK SEQ 5 inflicts 6.0 Ignite Trauma.
+        krDescription: |-
+          기본 공격 제 5격에 적중한 적에게 연소 게이지를 6.0pt 누적한다.
       - name: β - Foot of the Hunter
         krName: 오리온자리β
         description:
@@ -11426,17 +11415,14 @@
     core:
       name: Void Unleashed
       krName: 허계 강림
-      description: >-
-        Tears open the space-time fabric to unleash a barrage of raw
-        energy.
-
+      description: |-
+        Tears open the space-time fabric to unleash a barrage of raw energy.
         Deals 9-12 hits in a large AOE in front of the character, each hit dealing 300% ATK of Physical DMG and applies Time Lock to enemies within a large AOE around the character for 3s.
-
-        SP cost: 125
-      krDescription: >-
+        SP cost: 125, CD: 25s.
+      krDescription: |-
         공간을 찢어 에너지를 쏟아붓는다.
-
         전방 넓은 범위의 적에게 9-12회의 공격을 가하여 매번 공격력 300%의 물리 대미지를 입힌다. 공격이 끝나면 자신 주변의 넓은 범위 적을 3초 동안 시공 속박 상태로 만든다.
+        발동 소모 SP: 125pt, 재사용 대기시간: 25초.
     subskills:
       - name: 'QTE: Angel of Destruction'
         krName: QTE-파멸의 사자

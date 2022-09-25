@@ -9,6 +9,11 @@ npm i
 npm run dev
 ```
 
+## Community
+
+- Discord(EN) : https://discord.gg/UnrM9T9PRs
+- Arca Live(KR) : https://arca.live/b/cherryhill
+
 ## Resources
 
 - [Honkai3rd Icon Assets](https://www.figma.com/file/U6OLV1Mlhc3DAXBzBXToO4/AbyssLab-Honkai-icons?node-id=0%3A1)
@@ -30,13 +35,13 @@ npm run dev
 
 #### Durandal (KR)
 
-| Chapters | Translators                 | Progress |
-| -------- | --------------------------- | -------- |
-| 1-?      | Hooo#0313, s4kuraknoll#1717 | WIP      |
+| Chapters | Translators                              | Progress |
+| -------- | ---------------------------------------- | -------- |
+| 1-?      | Hooo#0313, 앙고르#1961, s4kuraknoll#1717 | WIP      |
 
 We need translators!
 
-#### Seven Swords (KR)
+#### Saga of the Shattered Swords (AKA Seven Swords) (KR)
 
 | Chapters | Translators                 | Progress |
 | -------- | --------------------------- | -------- |
@@ -60,14 +65,14 @@ We need translators!
 | 1-20     | Aiatar and zklm                | Complete, but may require further edits |
 | 21-31    | delialala#8801 and Sacron#6623 | Complete, but may require further edits |
 
-#### Seven Swords (EN)
+#### Saga of the Shattered Swords (AKA Seven Swords) (EN)
 
-| Chapters | Translators                                   | Progress     |
-| -------- | --------------------------------------------- | ------------ |
-| 1-3      | Elysianempire, Mz, Italics By Voliyu, Vizulix | Implementing |
+| Chapters | Translators                                    | Progress     |
+| -------- | ---------------------------------------------- | ------------ |
+| 1-3      | Elysianempire, Mz, Italics By Voliyu, Vizulix, | Implementing |
 
-Currently, all scripts of Seven Swords have been translated but have not implemented yet.
-If you're interested in helping the implementation, pleaes check [#100](https://github.com/sakura-knoll/abyss-lab/issues/100).
+Currently, all scripts of Saga of the Shattered Swords have been translated but have not implemented yet.
+If you're interested in helping the implementation, pleaes check [#100](https://github.com/sakura-knoll/abyss-lab/issues/100) and also [join our discord channel](https://discord.gg/UnrM9T9PRs).
 
 Prior works
 

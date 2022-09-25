@@ -1,3 +1,56 @@
+- id: star-of-eden-welt
+  version: '6.1'
+  name: 'Star of Eden: Welt'
+  krName: 에덴의 별·웰트
+  category: cannon
+  rarity: 6
+  atk: 0
+  crt: 0
+  battlesuits:
+    - id: hor
+  originalWeapons:
+    - star-of-eden-anti-entropy
+  sources:
+    - type: pri-weapon-foundry
+  skills:
+    - name: Active Skill
+      krName: 액티브 스킬
+      description: |-
+        -
+      krDescription: |-
+        -
+    - name: Passive Skill 1
+      krName: 패시브 스킬 1
+      description: |-
+        -
+      krDescription: |-
+        -
+- id: star-of-eden-anti-entropy
+  version: '6.1'
+  name: 'Star of Eden: Anti Entropy'
+  krName: 에덴의 별·네겐트로피
+  category: cannon
+  rarity: 5
+  atk: 0
+  crt: 0
+  battlesuits:
+    - id: hor
+  priWeapon: star-of-eden-welt
+  sources:
+    - type: focused-supply
+  skills:
+    - name: Active Skill
+      krName: 액티브 스킬
+      description: |-
+        -
+      krDescription: |-
+        -
+    - name: Passive Skill 1
+      krName: 패시브 스킬 1
+      description: |-
+        -
+      krDescription: |-
+        -
 - id: night-candle-pri
   version: '6.1'
   name: 'Night Candle:Passing Time'
@@ -53,7 +106,7 @@
         -
 - id: domain-of-ego
   version: '6.0'
-  name: Domain of Ego
+  name: 'Domain of: Flawless Return'
   krName: 진아지경·무결의 회귀
   category: bow
   rarity: 6
@@ -66,34 +119,33 @@
   sources:
     - type: pri-weapon-foundry
   skills:
-    - name: Active Skill (CN Live Data)
-      krName: 액티브 스킬 (CN Live Data)
+    - name: Dormant Seeds
+      krName: 깊이 잠든 씨앗
       description: |-
-        [SP Cost: 0][CD: 0] Use the bow to aim and shoot (max aiming duration: 3s), dealing 675.0% ATK of Ice DMG.
-        Herrscher of Human:Ego equip bonus: Inflicts Ego Blossom to the target, which makes the enemy to take 15.0% more Ice DMG for 10s (can be refreshed). In Herrscher of Human form, inflicting Ego Blossom deals 10 x 20.0% ATK of Ice DMG.
-
-        The weapon active's CD and charging time are based on the shooting mode.
+        [SP Cost: 0][CD: 0] Use the bow to aim and shoot at targets (max aiming duration: 3s) to deal 675.0% ATK of Ice DMG to targets.
+        When wielded by Herrscher of Human: Ego, enemies that trigger Ego Blossom take 15.0% more Ice DMG for 10s. Triggering this effect again resets the duration.
+        Deal an additional 10 x 20.0% ATK of Ice DMG when triggered in Herrscher of Human form. The weapon active's CD and charging time are based on the shooting mode.
       krDescription: |-
-        [SP 소모: 0][재사용 대기 시간: 0초] 화살로 적을 조준 사격해(최대 3초 동안 조준), 목표에게 675.0%의 빙결 대미지를 가한다.
-        진아·인류의 율자 장착 보너스: 진아 개화 효과를 목표에 발동시키며, 10초간 적이 받는 빙결 피해 15.0% 증가 (갱신 가능). 인간의 율자 형태에서, 진아 개화 발동 시, 공격력 10 x 20.0%의 빙결 대미지를 가한다.
-
-        무기 액티브 스킬의 재사용 대기시간과 충전 시간은 장착 캐릭터의 사격 유형에 따라 결정된다.
-    - name: Passive Skill 1 (CN Live Data)
-      krName: 패시브 스킬 1 (CN Live Data)
+        [SP 소모: 0][재사용 대기 시간: 0초] 화살로 적을 조준 사격해(최대 3초 동안 조준), 목표에게 675.0%의 빙결 원소 대미지를 가한다.
+        진아·인간의 율자가 사용 시 진아 개화 효과를 발동한 적이 받는 빙결 원소 대미지가 15.0% 증가한다. 지속 시간: 10초, 중복 발동 시 지속 시간을 갱신한다.
+        인간의 율자 형태에서 진아 개화 효과 발동 시 추가로 공격력 10 x 20.0%의 빙결 원소 대미지를 가한다.
+        무기 액티브 스킬의 재사용 대기시간과 충전 시간은 장비한 캐릭터의 사격 유형에 따라 결정된다.
+    - name: Budding Love
+      krName: 자라나는 새싹
       description: |-
-        When using Weapon Active Skill, increases Total DMG by 15.0% for 10s (can be refreshed).
-        Herrscher of Human:Ego equip bonus: Increases max charges of the Weapon Active Skill to 3. When using Weapon Active Skill, increases Total DMG by 15.0% additionally and restores 5.0 SP.
+        When using weapon active, Total DMG increases by 15.0% for 10s. Triggering this effect again resets the duration.
+        When wielded by Herrscher of Human: Ego, shot charge is increased by 15.0% when using weapon skills. Weapon skills restore 5.0 SP upon hitting an enemy that triggered Ego Blossom.
       krDescription: |-
-        무기 액티브 스킬 사용 시, 10초간 모든 대미지 15.0% 증가 (갱신 가능).
-        진아·인류의 율자 장착 보너스: 무기 액티브 스킬의 충전 횟수가 3회로 증가. 무기 액티브 스킬 사용 시, 모든 대미지가 추가로 15.0% 증가하고, SP를 5.0pt 회복.
-    - name: Passive Skill 2 (CN Live Data)
-      krName: 패시브 스킬 2 (CN Live Data)
+        캐릭터가 무기 스킬 사용 시, 자신의 모든 대미지가 15.0% 증가한다. 지속 시간: 10초, 중복 발동 시 지속 시간을 갱신한다.
+        진아·인간의 율자가 사용 시, 무기 스킬의 사격 충전 횟수가 3으로 증가하고, 무기 스킬 사용 시 자신의 모든 대미지가 추가로 15.0% 증가한다. 또한 무기 스킬이 적에게 적중해 진아 개화 효과를 발동할 때마다 자신의 SP를 5.0pt 회복한다.
+    - name: First Bloom
+      krName: 처음 피어나는 꽃
       description: |-
         Increases Ice DMG by 15.0%.
-        Herrscher of Human:Ego equip bonus: When Charged attacks hit an enemy during Herrscher of Origin form, increases Total DMG of Finisher by 20.0%.
+        When wielded by Herrscher of Human: Ego, in Herrscher of Origin form, Finisher's Total DMG increases by 20.0% when Charged ATKs hit enemies. This effect is lost while out of Herrscher of Origin form.
       krDescription: |-
-        빙결 대미지 15.0% 증가.
-        진아·인류의 율자 장착 보너스: 기원의 율자 상태에서 차지 공격이 적에게 명중 시, 피니쉬의 모든 대미지 20.0% 증가.
+        캐릭터 자신의 빙결 원소 대미지가 15.0% 증가한다.
+        진아·인간의 율자가 사용 시, 기원의 율자 형태에서 차지 공격이 적에게 적중하면 피니쉬의 모든 대미지가 추가로 20.0% 증가한다. 기원의 율자 형태 종료 시 해당 효과는 제거된다.
 - id: key-of-ego
   version: '6.0'
   name: Key of Ego
@@ -109,25 +161,24 @@
     - type: focused-supply
   skills:
     - name: Active Skill (CN Live Data)
-      krName: 액티브 스킬 (CN Live Data)
+      krName: 애틋한 마음
       description: |-
-        [SP Cost: 0][CD: 0] Use the bow to aim and shoot (max aiming duration: 3s), dealing 550.0% ATK of Ice DMG.
-        Herrscher of Human:Ego equip bonus: Inflicts Ego Blossom to the target, which makes the enemy to take 12.0% more Ice DMG for 10s (can be refreshed). In Herrscher of Human form, inflicting Ego Blossom deals 10 x 15.0% ATK of Ice DMG.
-
-        The weapon active's CD and charging time are based on the shooting mode.
+        [SP Cost: 0][CD: 0] Use the bow to aim and shoot at targets (max aiming duration: 3s) to deal 550.0% ATK of Ice DMG to targets.
+        When wielded by Herrscher of Human: Ego, enemies that trigger Ego Blossom take 12.0% more Ice DMG for 10s. Triggering this effect again resets the duration.
+        Deal an additional 10 x 15.0% ATK of Ice DMG when triggered in Herrscher of Human form. The weapon active's CD and charging time are based on the shooting mode.
       krDescription: |-
-        [SP 소모: 0][재사용 대기 시간: 0초] 화살로 적을 조준 사격해(최대 3초 동안 조준), 목표에게 555.0%의 빙결 대미지를 가한다.
-        진아·인류의 율자 장착 보너스: 진아 개화 효과를 목표에 발동시키며, 10초간 적이 받는 빙결 피해 12.0% 증가 (갱신 가능). 인간의 율자 형태에서, 진아 개화 발동 시, 공격력 10 x 15.0%의 빙결 대미지를 가한다.
-
-        무기 액티브 스킬의 재사용 대기시간과 충전 시간은 장착 캐릭터의 사격 유형에 따라 결정된다.
-    - name: Passive Skill 1 (CN Live Data)
-      krName: 패시브 스킬 1 (CN Live Data)
+        [SP 소모: 0][재사용 대기 시간: 0초] 화살로 적을 조준 사격해(최대 3초 동안 조준), 목표에게 555.0%의 빙결 원소 대미지를 가한다.
+        진아·인간의 율자가 사용 시 진아 개화 효과를 발동한 적이 받는 빙결 원소 대미지가 12.0% 증가한다. 지속 시간: 10초, 중복 발동 시 지속 시간을 갱신한다.
+        인간의 율자 형태에서 진아 개화 효과 발동 시 추가로 공격력 10 x 15.0%의 빙결 원소 대미지를 가한다.
+        무기 액티브 스킬의 재사용 대기시간과 충전 시간은 장비한 캐릭터의 사격 유형에 따라 결정된다.
+    - name: Passive Skill
+      krName: 유구한 사랑
       description: |-
-        When using Weapon Active Skill, increases Total DMG by 10.0% for 10s (can be refreshed).
-        Herrscher of Human:Ego equip bonus: Increases max charges of the Weapon Active Skill to 3. When using Weapon Active Skill, increases Total DMG by 10.0% additionally and restores 4.0 SP.
+        When using weapon active, Total DMG increases by 10.0% for 10s. Triggering this effect again resets the duration.
+        When wielded by Herrscher of Human: Ego, shot charge is increased by 10.0% when using weapon skills. Weapon skills restore 4.0 SP upon hitting an enemy that triggered Ego Blossom.
       krDescription: |-
-        무기 액티브 스킬 사용 시, 10초간 모든 대미지 10.0% 증가 (갱신 가능).
-        진아·인류의 율자 장착 보너스: 무기 액티브 스킬의 충전 횟수가 3회로 증가. 무기 액티브 스킬 사용 시, 모든 대미지가 추가로 10.0% 증가하고, SP를 4.0pt 회복.
+        캐릭터가 무기 스킬 사용 시, 자신의 모든 대미지가 10.0% 증가한다. 지속 시간: 10초, 중복 발동 시 지속 시간을 갱신한다.
+        진아·인간의 율자가 사용 시, 무기 스킬의 사격 충전 횟수가 3으로 증가하고, 무기 스킬 사용 시 자신의 모든 대미지가 추가로 10.0% 증가한다. 또한 무기 스킬이 적에게 적중해 진아 개화 효과를 발동할 때마다 자신의 SP를 4.0pt 회복한다.
 - id: vill-v-pri-weapon
   version: '5.9'
   name: Tower of the Past·Silk Ladder

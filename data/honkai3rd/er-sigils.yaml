@@ -297,22 +297,22 @@
   description: |-
     Effect: Grants 1 extra level when choosing a Signet of Infinity.
     A special skill that creates an effigy to taunt enemies for 10s is available once Charge reaches 600. The puppet is Soul Linked to enemies so that 30% of the DMG it takes is passed on to all enemies, or 60% if there are more than 2 enemies on the field.
-    Charging: Gain 100 Charge when casting ELF Ultimate or summoning entities. CD: 4s.
+    Charging: Gain 100 Charge when casting ELF Ultimate or summoning entities in combat mode. CD: 4s.
   krDescription: |-
     장신구 효과: [무한]의 각인 선택 시, 초기 레벨이 1레벨 증가한다.
     600pt 충전 시, 스킬을 발동해 적을 조롱하는 꼭두각시 인형 1개를 생성한다. 지속 시간: 10초. 인형은 모든 적에 영혼을 링크해 캐릭터로부터 받은 대미지의 30%를 모든 적에게 전달한다. 전장에 적이 2기보다 많으면 전달 비율이 60%로 증가한다.
-    충전 방식: 소환물을 생성하거나 인형 필살기 발동 시 100pt 충전한다. 발동 간격: 4초
+    충전 방식: 전투 상태 진입 후 소환물을 생성하거나 인형 필살기 발동 시 100pt 충전한다. 발동 간격: 4초
 - id: hometown
   name: Hometown
   krName: '[고향]'
   description: |-
     Effect: Grants 1 extra level when choosing a Signet of Vicissitude.
-    A special skill to become invincible and increase Total DMG by 20% for 8s is available once Charge reaches 600. Invincibility is extended by 2s if HP is below 30%
-    Charging: Gain 20 Charge when entering combat. Unable to recover Charge for 5s after receiving DMG.
+    A special skill to become invincible and increase Total DMG by 20% for 8s is available once Charge reaches 600. Invincibility is extended by 2s if HP is below 30%.
+    Charging: Gain 20 Charge when entering combat mode. Unable to recover Charge for 5s after receiving DMG.
   krDescription: |-
     장신구 효과: [부생]의 각인 선택 시, 초기 레벨이 1레벨 증가한다.
     600pt 충전 시, 스킬을 발동해 무적 상태에 진입하고, 가하는 모든 대미지가 20% 증가한다. 지속 시간: 8초. HP가 최대 HP의 30% 미만일 경우, 무적 상태 지속 시간이 2초 증가한다.
-    충전 방식: 전투 돌입 후 매초 20pt 충전한다. 대미지를 받을 경우, 5초 동안은 충전하지 않는다.
+    충전 방식: 전투 상태 진입 후 매초 20pt 충전한다. 대미지를 받을 경우, 5초 동안은 충전하지 않는다.
 - id: boundless-feeling
   name: Boundless Feeling
   krName: 구속 없는 애증
@@ -368,3 +368,10 @@
     장신구 효과: [환몽]의 각인 선택 시, 초기 레벨이 1레벨 증가한다.
     600pt 충전 시, 비상점 스테이지 종료 후 게임기 1대를 소환한다. 은화 100개를 소모해 레버를 당길 때마다 랜덤 수익을 획득한다. 최고 보상은 반짝이는 은화 999개이며, 게임기는 폭발하면 소환할 수 없다.
     충전 방식: 충전이 필요 없다.
+- id: thorny-crown
+  name: Thorny Crown
+  krName: 가시나무 화관
+  description: |-
+    Can choose another Signet of Ego (ineffective when worn by Flame-Chasers) when a run begins. Portals carrying Signets of Ego will not appear after 1F. Remembrance Sigil and support Valkyries cannot be swapped. The number of options when choosing a Signet is reduced to 2. Every Nexus Signet owned increases Total DMG bonus by 10% and reduces max HP by 1000.
+  krDescription: |-
+    도전을 시작할 때마다 [진아]의 각인을 1개 선택할 수 있다(영웅 장비 시 무효). 단, 1층 이후 [진아]의 각인에 대응하는 워프 포인트가 나오지 않는다. 장착 후에는 회상의 증명 또는 전투 보조 발키리를 변경할 수 없으며, 각인 선택 시의 옵션이 2개로 감소한다. 코어 각인을 1개 보유할 때마다 모든 대미지 보너스가 10% 증가하고, 최대 HP가 1000 감소한다.
