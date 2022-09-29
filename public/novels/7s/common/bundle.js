@@ -2895,7 +2895,7 @@ function getArchiveItemIdByAid(aid) {
   }
 }
 
-const archiveItemsKey = 'archiveItems'
+const archiveItemsKey = '7s:archiveItems'
 function addArchiveItemId(id) {
   const currentItemSet = new Set(getArchiveItemIds())
   currentItemSet.add(id)
