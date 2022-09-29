@@ -2888,8 +2888,8 @@ function getArchiveItemIdByAid(aid) {
       return '1'
     case 'abf384293a81b6c7': // phantom
       return '12'
-    case '2e4bba1abf781c9f': // li shin, N/A in CN version.
-      return null
+    case '2e4bba1abf781c9f': // li shin
+      return '11'
     default:
       return null
   }
