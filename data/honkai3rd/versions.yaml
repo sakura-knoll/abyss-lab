@@ -18,9 +18,54 @@
   newFoundryStigmataSets:
     - liu-qi
   description: ''
-  superstring: []
-  ma: []
+  superstring:
+    - - label: ice
+        krLabel: 빙결
+        boss: bns
+      - label: ranged
+        krLabel: 원거리
+        boss: ask2
+  ma:
+    - - label: sss
+        boss: hd
+      - label: sss
+        boss: jz-sss
+      - label: ss
+        boss: hm
   supplyEvents:
+    - name: 'Whisper of the Past Focused Supply B'
+      krName: 과거의 꽃잎 집중 보급 B
+      duration:
+        - 2022-10-27
+        - 2022-11-11
+      track: 3
+      verified: false
+      featured:
+        - type: weapon
+          id: whisper-of-the-past
+        - type: stigmata-set
+          id: elysia
+      others:
+        - type: weapon
+          id: crusher-bunny-19c
+        - type: weapon
+          id: swan-lake
+        - type: weapon
+          id: image-of-basilisk
+        - type: weapon
+          id: nebulous-duality
+        - type: weapon
+          id: astral-rend-white-dwarf
+        - type: weapon
+          id: hler-s-serenity
+        - type: stigmata-set
+          id: ana-schariac
+        - type: stigmata-set
+          id: zhenyi
+        - type: stigmata-set
+          id: avogadro
+        - type: stigmata-set
+          id: aslaug
     - name: Firepower Supply (~v5.1, recommended equipments for MPE)
       krName: 화력 보급 (~v5.1, 핑크 엘프 요정 추천 장비까지)
       duration:
@@ -830,20 +875,40 @@
         - 2022-10-07
         - 2022-10-14
       track: 3
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: zither-s-lament
         - type: stigmata-set
           id: shuijing
-      others: []
+      others:
+        - type: weapon
+          id: void-blade
+        - type: weapon
+          id: key-of-reason
+        - type: weapon
+          id: skoll-and-hati
+        - type: weapon
+          id: skadi-ondurgud
+        - type: weapon
+          id: eos-gloria
+        - type: weapon
+          id: whisper-of-the-past
+        - type: stigmata-set
+          id: shattered-swords
+        - type: stigmata-set
+          id: bronya-n-ex
+        - type: stigmata-set
+          id: linnaeus
+        - type: stigmata-set
+          id: avogadro
     - name: Key of Castigation Focused Supply A
       krName: 천극의 열쇠 집중 보급 A
       duration:
         - 2022-10-07
         - 2022-10-14
       track: 2
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: key-of-castigation
@@ -876,7 +941,7 @@
         - 2022-10-07
         - 2022-10-14
       track: 1
-      verified: false
+      verified: true
       featured:
         - type: battlesuit
           id: hot
