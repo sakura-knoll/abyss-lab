@@ -25,6 +25,12 @@
       - label: ranged
         krLabel: 원거리
         boss: ask2
+    - - label: ice
+        krLabel: 빙결
+        boss: hov
+      - label: freeze
+        krLabel: 빙결(상태이상)
+        boss: bns
   ma:
     - - label: sss
         boss: hd
@@ -32,11 +38,63 @@
         boss: jz-sss
       - label: ss
         boss: hm
+    - - label: sss
+        boss: tank2-sss
+      - label: sss
+        boss: husk-sss
+      - label: ss
+        boss: kl
   supplyEvents:
     - name: 'Whisper of the Past Focused Supply B'
       krName: 과거의 꽃잎 집중 보급 B
       duration:
-        - 2022-10-27
+        - 2022-11-11
+        - 2022-11-18
+      track: 3
+      verified: false
+      featured:
+        - type: weapon
+          id: whisper-of-the-past
+        - type: stigmata-set
+          id: elysia
+      others: []
+    - name: 'Sanguine Gaze Focused Supply A'
+      krName: 피의 눈동자 집중 보급 A
+      duration:
+        - 2022-11-11
+        - 2022-11-18
+      track: 2
+      verified: false
+      featured:
+        - type: weapon
+          id: sanguine-gaze
+        - type: stigmata-set
+          id: verne
+      others:
+        - type: weapon
+          id: key-of-castigation
+        - type: weapon
+          id: key-of-reason
+        - type: weapon
+          id: sleeping-beauty
+        - type: weapon
+          id: zither-s-lament
+        - type: weapon
+          id: skoll-and-hati
+        - type: weapon
+          id: obscuring-wing
+        - type: stigmata-set
+          id: aslaug
+        - type: stigmata-set
+          id: dante
+        - type: stigmata-set
+          id: shakespeare-adrift
+        - type: stigmata-set
+          id: murata-himeko
+    - name: 'Whisper of the Past Focused Supply B'
+      krName: 과거의 꽃잎 집중 보급 B
+      duration:
+        - 2022-11-04
         - 2022-11-11
       track: 3
       verified: false
@@ -810,20 +868,40 @@
         - 2022-10-14
         - 2022-10-21
       track: 3
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: nebulous-duality
         - type: stigmata-set
           id: fu-hua-margrave
-      others: []
+      others:
+        - type: weapon
+          id: blood-dance
+        - type: weapon
+          id: godslayer-surtr
+        - type: weapon
+          id: basilisk-s-image
+        - type: weapon
+          id: 11th-sacred-relic
+        - type: weapon
+          id: iris-of-the-dreams
+        - type: weapon
+          id: starlance-prime
+        - type: stigmata-set
+          id: ana-schariac
+        - type: stigmata-set
+          id: dickens
+        - type: stigmata-set
+          id: allan-poe
+        - type: stigmata-set
+          id: aslaug
     - name: Hler's Serenity Focused Supply A
       krName: 영적의 헬러 집중 보급 A
       duration:
         - 2022-10-14
         - 2022-10-21
       track: 2
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: hler-s-serenity
@@ -837,7 +915,7 @@
         - type: weapon
           id: swan-lake
         - type: weapon
-          id: hekate
+          id: hekate-s-gloom
         - type: weapon
           id: nuada-s-grief
         - type: weapon
@@ -856,7 +934,7 @@
         - 2022-10-14
         - 2022-10-21
       track: 1
-      verified: false
+      verified: true
       featured:
         - type: battlesuit
           id: bke
