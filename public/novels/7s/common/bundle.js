@@ -368,6 +368,10 @@
           },
         },
         created: function () {
+          this.novelData.achievements = appendExtraAchievements(
+            this.novelData.achievements
+          )
+
           var e = []
           ;(0, i.default)(this.novelData.achievements, function (t) {
             var n = t.desc,
@@ -738,17 +742,12 @@
                 d.closeGal(f)
               },
               onEvent: function (e, t) {
-                return 'end' === e
-                  ? (h.destroy(), d.closeGal(f), !1)
-                  : ('achievement' === e &&
-                      d.novelData.is_login &&
-                      c.default
-                        .postAchievement(t)
-                        .then(function () {
-                          d.needReload = !0
-                        })
-                        .catch(function () {}),
-                    !0)
+                if ('end' === e) {
+                  return h.destroy(), d.closeGal(f), !1
+                }
+                if ('achievement' === e) {
+                  handleAchievement(t)
+                }
               },
             })
           l ? h.continue() : h.start(n, i), (this.gal = h)
@@ -1112,6 +1111,17 @@
               [
                 n('router-link', { attrs: { to: '/chapterList' } }, [
                   e._v(e._s(i18n.chapters)),
+                ]),
+              ],
+              1
+            ),
+            e._v(' '),
+            n(
+              'div',
+              { staticClass: 'main-menu__item' },
+              [
+                n('router-link', { attrs: { to: '/archive' } }, [
+                  e._v(e._s(i18n.archive)),
                 ]),
               ],
               1
@@ -2823,3 +2833,86 @@
     t.default = i.a
   },
 })
+
+/**
+ * Resolve archive item id and save it
+ * @param {string} t aid
+ * @returns
+ */
+function handleAchievement(t) {
+  const archiveItemId = getArchiveItemIdByAid(t)
+  if (archiveItemId == null) {
+    return
+  }
+  addArchiveItemId(archiveItemId)
+}
+
+/**
+ * Extend Achievements list from saved archive item ids
+ * @param {unknown[]} existingList
+ * @returns
+ */
+function appendExtraAchievements(existingList) {
+  const ids = getArchiveItemIds()
+  const extraAchievements = ids.map((id) => {
+    return archiveItems.find((item) => item.id === id)
+  })
+  return [...existingList, ...extraAchievements]
+}
+
+function getArchiveItemIdByAid(aid) {
+  switch (aid) {
+    case 'fdc3d5e2f6d96f8d': // sushang
+      return '2'
+    case 'c6045ef06bed0a3f': // eagle
+      return '13'
+    case 'otto':
+      return '3'
+    case '0587835ecd47f23d': // otto update #1
+      return '20'
+    case '809d736ce396e092': // sumei
+      return '5'
+    case 'fcf2a1388f09b18b': // lin zhaoyu
+      return '4'
+    case 'f264952df7ffa72c': // qin suyi
+      return '10'
+    case 'c6df415ec80024b4': //otto update #2
+      return '19'
+    case 'f2980e56d3697a89': // ma feima
+      return '9'
+    case '0ecde88422bfcefe': // ma update
+      return '21'
+    case 'c6a6ddc0c3d637d9': // lingshuang
+      return '8'
+    case '96d0ac44fb43c563': // jingwei
+      return '1'
+    case 'abf384293a81b6c7': // phantom
+      return '12'
+    case '2e4bba1abf781c9f': // li shin
+      return '11'
+    default:
+      return null
+  }
+}
+
+const archiveItemsKey = '7s:archiveItems'
+function addArchiveItemId(id) {
+  const currentItemSet = new Set(getArchiveItemIds())
+  currentItemSet.add(id)
+  localStorage.setItem(archiveItemsKey, JSON.stringify([...currentItemSet]))
+}
+
+const defaultItemIds = ['18']
+function getArchiveItemIds() {
+  try {
+    const rawData = localStorage.getItem(archiveItemsKey)
+    if (rawData == null) {
+      return defaultItemIds
+    }
+    return JSON.parse(rawData)
+  } catch (error) {
+    console.warn('Cannot parse archive items data:')
+    console.warn(error)
+  }
+  return defaultItemIds
+}

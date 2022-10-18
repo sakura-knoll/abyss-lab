@@ -292,6 +292,12 @@ export const valkyries = [
     krLabel: '빌-브이',
   },
   {
+    value: 'sushang',
+    icon: 'valkyrie-icons/sushang',
+    label: 'Sushang',
+    krLabel: '이소상',
+  },
+  {
     value: 'asuka',
     label: 'Asuka',
     krLabel: '아스카',

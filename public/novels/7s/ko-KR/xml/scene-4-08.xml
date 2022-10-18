@@ -2,122 +2,139 @@
   <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
   <bg img="BGDesert00"></bg>
   <text>
-    <p>故に、あの『羅刹人』に出会った時、</p>
-    <p>「鷹」は思わず、時間が繰り返され、過去の光景が再び目の前に現れたのではないかと錯覚した。</p>
+    <p>그래서, 그 『나찰인』을 만났을 때,</p>
+    <p>「노응」은 시간을 거슬러, 과거의 광경이 다시 재현된 듯한 착각을 느꼈다.</p>
   </text>
   <transition mode="clock" in="1" stop="0.5" out="1" color="#000000"></transition>
   <bg img="PureBlack"></bg>
   <bgm id="神秘东方"></bgm>
   <text>
-    <p>その人間を初めて見た時、背筋が凍った。</p>
-    <p>そいつは『災い』だと、脳が警鐘を鳴らす。</p>
+    <p>그를 처음 봤을 때, 등에서 식은땀이 느껴졌다.</p>
+    <p>직감은 크게 경종을 올리며, 『재앙』이 내려왔다고 알리는 듯했다.</p>
   </text>
   <text>
-    <p>『災い』は隊商の馬車の中にいて、その空間を独り占めしていた。[\s]</p>
-    <p>数十人の隊商の中で、彼だけがその待遇を有している。</p>
+    <p>『재앙』은 상단에서, 좁은 마차 하나를 혼자서 쓰고 있었다.[\s]</p>
+    <p>수십명이나 되는 상단에서, 오직 그만이 이런 비범한 대우를 받고 있었다.</p>
   </text>
   <event action="hide_ui" duration="4"></event>
   <cg img="CG_第一折_奥托出场1" duration="5"></cg>
   <delay t="4"></delay>
-  <text>「鷹」の刀が簾をかき上げた時、『災い』は何かに話しかけていた。</text>
-  <dialog chara="001">「マッハディアカイネゾアゲン。」</dialog>
+  <text>「노응」이 칼로 가림막을 걷어올리자, 『재앙』이 말했다.</text>
+  <remark>
+    <p>ㅤ</p>
+    <p>역자 주:</p>
+    <p>ㅤ</p>
+    <p>「Mach dir keine Sorgen.」: 독일어, "걱정하지 마라."</p>
+  </remark>
+  <dialog chara="001">「Mach dir keine Sorgen.」</dialog>
   <text>
-    <p>男は片膝をつく。[\s]その口調は穏やかで、まるで親しい相手に囁いているかのようだった。[\s]しかし周りを見渡してみても、馬車の中に他の人間はいない。[\s]</p>
-    <p>あるのは、棺だけ。</p>
+    <p>남자는 한쪽 무릎을 꿇고 있었다.[\s] 그의 어투는 평온하고 부드러워, 마치 친한 동료에게 무언가 부탁을 하는 듯 했다,[\s] 그러나 어디를 보아도, 마차 안에 다른 이는 없었고, 오직 관 하나만 있었다.[\s]</p>
+    <p>마차 안에는 나찰인과 관 하나 뿐이었다.</p>
   </text>
-  <text>彼と、棺だけであった。</text>
   <cg img="CG_第一折_奥托出场2"></cg>
-  <dialog chara="001">「イッヒヴェアデレーゼン……」</dialog>
+  <remark>
+    <p>ㅤ</p>
+    <p>역자 주:</p>
+    <p>ㅤ</p>
+    <p>「Ich werde lösen……」: 독일어, "내가 해결하겠다."</p>
+  </remark>
+  <dialog chara="001">「Ich werde lösen……」</dialog>
   <text>
-    <p>相手が話しているのは羅刹語ではない。だから、「鷹」にはその意味がよく分からなかった。</p>
-    <p>しかし、その奇異な光景を見た彼は、既に冷や汗が止まらない状態にある。</p>
+    <p>이 자가 하는 말은 나찰어(러시아 어)가 아니었다. 그래서, 「노응」은 무슨 말을 하는 건지 전혀 알지 못했다.</p>
+    <p>하지만, 이 섬뜩하고 괴이한 장면에 식은땀이 비가 내리듯 흘렀다.</p>
   </text>
-  <text>彼は思わず、棺と会話する変わり者を観察した。</text>
+  <text>그는 이 관과 대화하는 괴인을 계속해서 관찰했다.</text>
   <transition mode="eye" in="1" stop="0.5" out="1" color="#000000"></transition>
   <cg img="CG_第一折_奥托出场2" scale="3" origin="40%,80%"></cg>
   <delay t="0.1"></delay>
   <cg img="CG_第一折_奥托出场2" scale="3" pos="0,500" origin="45%,80%" duration="30"></cg>
   <text>
-    <p>羅刹人の見た目は大体、20歳くらいだろうか。背は高いが、逞しくはない。</p>
-    <p>武術はできるが、達人ではない。</p>
+    <p>나찰인은 대략 이십 세, 키는 크지만 건장해 보이지는 않았다.</p>
+    <p>기본적인 무술을 할 수 있는 듯했지만, 절대 고수는 아니었다.</p>
   </text>
-  <text>一人の武術の腕は、その見た目と体を観察すれば、大体は理解できる。</text>
+  <text>사람의 무공은, 그저 얼굴과 몸을 관찰하는 것만으로도 대충 조금은 알 수 있다.</text>
   <text>
-    <p>筋肉が肥大している人間は、外家拳を主とする武術者。</p>
-    <p>そういう人間たちの肩と腕は力が強く、金属や石を簡単に破壊でき、普通の鈍器を防御することも容易である。</p>
+    <p>팽팽한 근육을 가졌다면, 외공을 수련한 무술가일 것이다.</p>
+    <p>이들은 힘은 팔과 다리 힘이 강해, 주먹과 발길질만으로도 금속이나 바위를 부술 수 있고, 일반적인 둔기를 막아내는 것도 무리가 없다.</p>
   </text>
-  <text>しかし「鷹」にとって、そういう人間たちなど眼中にない。</text>
+  <text>하지만 「노응」에게 있어 이런 이들은 아무런 위협도 안된다.</text>
   <text>
-    <p>優れた外家拳は平衡、つまり、力が全身に渡ることを重んじる。力量のみを求めてしまうと、却って臨機応変に動けなくなるのだ。</p>
-    <p>速度と力量を兼ね備えた者こそ、腕のある人物。</p>
+    <p>뛰어난 외공 무술은 균형, 즉 힘이 전신에 고루 퍼지게 할 수 있는가를 무엇보다 중요히 여긴다. 한 가지 면에서의 강함만 추구한다면 유연성을 잃어버리게 된다.</p>
+    <p>속도와 힘을 겸비한 자는, 중상급 정도의 수준이 된다.</p>
   </text>
-  <text>そして、内家拳の達人には、これとはまた異なったコツがある。</text>
+  <text>그리고 내공의 고수에게는, 또 다른 숨겨진 요소가 있다.</text>
   <text>
-    <p>内家拳は内なる力を、即ち、経脈と『真気』を鍛える。</p>
-    <p>そういう者の形神は控え目でありながらも、存在感がある。眼差しと呼吸を観察すれば、その奥深さが分かる。</p>
+    <p>내공은 몸에 내재된 힘, 즉, 경맥과 『진기』를 연마한다.</p>
+    <p>이런 유형의 사람들은 몸과 정신이 내향적이라 실력을 잘 드러내지는 않지만, 숨길 수 없는 것이 있다. 바로 눈빛과 호흡이 그러하여, 이를 관찰하면 그 사람의 깊이를 아는 게 가능하다.</p>
   </text>
-  <text>言うまでもなく、「鷹」は一目見ただけで、この羅刹人の腕を知った。大したことはない、と。そしてその乱れた呼吸から、相手が上級の内功を習得していないことも察する。</text>
+  <text>
+    <p>더 설명할 필요도 없이, 「노응」의 눈에, 이 나찰인의 외공은 평범해 보였다.</p>
+    <p>게다가 불규칙한 호흡으로부터, 높은 수준의 내공을 익힌 적이 없다는 것을 관찰해낼 수 있었다.</p>
+  </text>
   <transition mode="move" in="0.5" stop="0.5" out="0.5" color="#000000" direction="left" custom="default"></transition>
   <cg></cg>
   <bg img="BGDesert02"></bg>
   <motion chara="015" action="show" pos="center" img="老鹰-专注-拔刀预备-远景"></motion>
-  <dialog chara="015">「出てこい。」</dialog>
-  <text>「鷹」はそう言いながら、刀の柄に手を置いた。</text>
-  <text>彼にとって、羅刹鬼は一番嫌いな相手である。また、昼間に棺を見ることも不吉であった。縁起の悪いものが一気に二つも現れ、「鷹」は相手を血祭りにしたい衝動に駆られた。</text>
+  <dialog chara="015">「나와라.」</dialog>
+  <text>「노응」은 그렇게 말하며, 칼자루에 손을 올렸다.</text>
+  <text>그에게 있어, 나찰귀는 무엇보다도 싫은 존재였다. 게다가 대낮에 관을 본 것 역시 더욱 그를 불길하게 만드는 듯했다.</text>
+  <text>이런 불길한 것들이 갑자기 두 개나 나타난지라, 「노응」은 당장 칼을 꺼내 피로서 씻어내버리고 싶은 충동을 느꼈다.</text>
   <text>
-    <p>彼は何人もの命を奪っている。いまさら、一人増えたって構わない。[\s]</p>
-    <p>しかし……刀は抜かれなかった。</p>
+    <p>그의 손에는 이미 수많은 이들의 피가 묻어있었다. 이제와서 한 사람 더 늘어봐야 뭐가 문제인가?[\s]</p>
+    <p>하지만……그는 칼을 뽑지 않았다.</p>
   </text>
   <transition mode="move" in="1" stop="0.5" out="1" color="#000000" direction="left" custom="default"></transition>
   <motion chara="015" action="hide"></motion>
   <cg img="CG_第一折_奥托出场1" scale="3" origin="40%,10%"></cg>
   <delay t="0.1"></delay>
-  <text inline="true">羅刹人はため息をつき、棺に何か囁いた後、</text>
+  <text inline="true">나찰인은 한숨을 쉬고, 관에다 낮게 속삭인 다음,</text>
   <event action="hide_ui" duration="4"></event>
   <cg img="CG_第一折_奥托出场1" scale="3" origin="40%,10%" duration="4" pos="-205,0"></cg>
   <delay t="4"></delay>
   <text>
     <p></p>
-    <p>ようやく視線を強盗たちの首領に向けた。</p>
+    <p>도적들의 두목을 힐끗 보았다.</p>
   </text>
   <event action="hide_ui" duration="2"></event>
   <cg img="CG_第一折_奥托出场2" scale="3" origin="56%,10%" duration="2"></cg>
   <delay t="1.5"></delay>
-  <text>その両目は翡翠のような緑色をしている。まるで、心を込めて研磨された翠玉のようだ。</text>
+  <text>그의 두 눈은 비취와 같은 녹색이었다. 마치 정성스럽게 다듬어진 에메랄드 구슬처럼 보였다.</text>
   <dialog chara="015">「……」</dialog>
-  <text>どうしてか、「鋭敏」という直感がまた心に警鐘を鳴らす。</text>
+  <text>알게 모르게, 「예리함」이란 직감이 다시 마음속에서 경종을 울렸다.</text>
   <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
+  <notification>전기해금: 「나찰인」</notification>
+  <event action="achievement" aid="otto"></event>
   <cg img="CG_第一折_奥托出场2"></cg>
-  <text>羅刹人は落ち着いた様子で、不自然ではありながらも、はっきりとした神州語でこう聞いた。</text>
-  <dialog chara="001">「到着？」</dialog>
-  <text>その質問は唐突で、訳が分からなかったが、「鷹」は頷いた。</text>
+  <text>나찰인은 태연하게, 서투르지만 또렷한 신주어를 사용해 물었다.</text>
+  <dialog chara="001">「도착?」</dialog>
+  <text>근본도 없는, 뜬금없는 질문, 하지만 「노응」은 고개를 끄덕였다.</text>
   <cg img="CG_第一折_奥托出场1"></cg>
-  <text>羅刹人は地面を指差す。</text>
-  <dialog chara="001">「ここ、君の？」</dialog>
-  <dialog chara="015">「ああ、俺のだ。そしてお前も俺のものだ。[em bold]出てこい[/em]。」</dialog>
+  <text>나찰인은 손가락으로 가리키며 말했다.</text>
+  <dialog chara="001">「이곳, 너의?」</dialog>
+  <dialog chara="015">「이곳은 나의 것, 너 또한 나의 것이다.[em bold] 나와라[/em].」</dialog>
   <cg img="CG_第一折_奥托出场1"></cg>
-  <dialog chara="001">「むっ……」</dialog>
-  <text>羅刹人は何も話さず、ただゆっくりと背伸びをして、苦労したかのように膝や腿に手を当てながら、立ち上がろうとした。</text>
+  <dialog chara="001">「음……」</dialog>
+  <text>나찰인은 말없이, 천천히 허리를 피며, 힘겹게 무릎을 집고 일어나려 했다.</text>
   <text>
-    <p>[em italic]羅刹鬼め、勿体振りやがって。[/em][\s]</p>
-    <p>「鷹」は思わず心の中で罵る。[\s]</p>
-    <p>[em italic]バイホイ人にお前を売ったら、どんな表情を見せるか楽しみだ。[/em]</p>
+    <p>[em italic]건방진 나찰귀 녀석.[/em][\s]</p>
+    <p>「노응」은 자기도 모르게 속으로 욕을 하였다.[\s]</p>
+    <p>[em italic]백회인에게 널 팔아넘길 때, 어떤 표정을 짓는지 한번 두고 보자.[/em]</p>
   </text>
-  <text>彼は突如、過去を懐かしく思った。十年前の彼なら、もう刀を抜いてこの綺麗な首を切り落としていただろう。しかし、今の彼は、大目に見ることにしていた。</text>
+  <text>그는 갑자기 옛날 생각이 났다. 만약 10년 전의 그였다면, 이미 칼을 들어 그 예쁘장한 머리를 베어버렸을 것이다. 하지만, 지금의 그는 이를 가벼이 넘기려 하고 있다.</text>
   <text>
-    <p>死んだ羅刹人は金にならないが、生きている羅刹人は高値で売れる。</p>
-    <p>バイホイの奴隷商人はこういうものが好みで、いい値で買ってくれるのだ。</p>
+    <p>죽어버린 나찰인은 동전 한 푼의 가치도 없지만, 살아있는 나찰인은 오히려 큰돈이 되기 때문이다.</p>
+    <p>백회의 노예상인은 이런 녀석들을 선호한다. 그들은 언제나 좋은 가격을 매겨준다.</p>
   </text>
-  <text>「鷹」は大人しい羅刹人を観察しながら、ふと気になった。</text>
+  <text>「노응」은 말을 잘 듣는 나찰인을 살펴보다, 갑자기 호기심이 들었다.</text>
   <text>
-    <p>彼は何故、あの棺に話しかけていたのだろうか？[\s]</p>
-    <p>馬車を貸切にしていることも、疑わしい……[\s]</p>
-    <p>そうだ、棺の中身を人に知られたくないからだ。</p>
+    <p>왜 관에다 대고 대화했던 거지?[\s]</p>
+    <p>혼자서 마차 하나를 통째로 빌린 것도, 뭔가 매우 이상하다……[\s]</p>
+    <p>그래, 이자는 사람들이 관 속에 무엇이 있는지 알게하고 싶지 않은 것이다.</p>
   </text>
-  <text>では……その中には一体、何が入っているのだろう。</text>
+  <text>그래서…… 저 안에 들어있는 건 대체 뭐지?</text>
   <text>
     <p></p>
-    <p>……何だ？？</p>
+    <p>……뭐가 들어있는 걸까??</p>
   </text>
   <cg></cg>
   <event action="hide_ui" duration="1.1"></event>
@@ -128,73 +145,73 @@
   <motion chara="-5" action="hide" delay="0.3"></motion>
   <motion chara="015" action="img_trans" img="老鹰-狞笑-拔刀-中景" reversex="true"></motion>
   <delay t="0.3"></delay>
-  <text>刀を抜き、羅刹人の首に当てる。「鷹」は目の前の棺に視線を向けて、こう言った。</text>
+  <text>칼이 번쩍이며, 나찰인의 목 위로 떨어졌다. 「노응」은 그의 앞에 있는 관으로 시선을 옮기며 말했다.</text>
   <motion chara="015" action="img_trans" img="老鹰-微笑-单举刀-中景" reversex="true"></motion>
-  <dialog chara="015">「開けろ。」</dialog>
+  <dialog chara="015">「열어.」</dialog>
   <transition mode="move" in="0.5" stop="0.3" out="0.5" color="#000000" direction="left" custom="default"></transition>
   <motion chara="015" action="hide"></motion>
   <cg img="CG_第一折_奥托出场2"></cg>
-  <text>彼は簡単な命令を下し、予想外の返答を得た。</text>
+  <text>그는 간단한 명령을 내렸고, 의외의 대답을 얻었다.</text>
   <event action="hide_ui" duration="2.5"></event>
   <cg img="CG_第一折_奥托出场3" duration="3"></cg>
   <delay t="2.5"></delay>
-  <dialog chara="001">「断る。」</dialog>
-  <text>深い緑色の目が、ゆっくりと彼を見る。</text>
+  <dialog chara="001">「싫다.」</dialog>
+  <text>깊은 녹안이 그를 천천히 바라보았다.</text>
   <dialog chara="015">「——！」</dialog>
   <transition mode="eye" in="1" stop="0.5" out="1" color="#000000"></transition>
   <cg></cg>
   <bg img="PureBlack"></bg>
   <text>
-    <p>「鷹」はたくさんの人間を見てきた。</p>
-    <p>彼が見てきた眼差しも、数え切れぬほどだった。</p>
+    <p>「노응」은 평생 동안 무수히 많은 사람을 마주했고,</p>
+    <p>그가 보아온 눈빛 또한, 셀 수 없을 만큼 많았다.</p>
   </text>
   <text>
-    <p>恐怖、憎しみ、怒り、悔しさ、苦しみ……</p>
-    <p>いや、彼は見ていただけではない。彼自身こそが、そういう感情の原因であったのだ。</p>
+    <p>공포, 고통, 분노, 불만, 원한……</p>
+    <p>그는 이런 정서를 보기만 해온 게 아니라, 그 스스로가 이것들의 원인이 될 때가 더 많았다.</p>
   </text>
   <text>
-    <p>首に当てられる刀は、この世で最も有効的な自白剤だ。</p>
-    <p>人一人の心の奥底を徹底的に暴くことができる。</p>
+    <p>목 위에 놓인 그 검은, 이 세상 그 무엇보다도 효과적인 자백제이다.</p>
+    <p>인간의 가장 깊은 곳에 숨겨진 마음을 철저하게 드러내준다.</p>
   </text>
   <text>
-    <p>「鷹」は死ぬ寸前の眼差しに麻痺していて、</p>
-    <p>瀕死の際の感情に動くことはない。</p>
-    <p>そういうものを、彼はたくさん見てきているからだ。</p>
+    <p>「노응」은 죽어가는 이의 눈빛에 무감각했다,</p>
+    <p>죽기 직전의 감정 따위에 동요하지 않았다.</p>
+    <p>그런 것 따위, 이미 지겨울 정도로 보아왔다.</p>
   </text>
   <cg img="CG_第一折_奥托出场3" scale="4" origin="50%,20%"></cg>
   <delay t="0.1"></delay>
   <cg img="CG_第一折_奥托出场3" scale="4" duration="10" pos="-100,100" origin="50%,20%"></cg>
   <text>
-    <p>しかし、この羅刹人と同じ眼差しは今までなかった。</p>
-    <p>あれは揺るぎない、狂気、残酷、愉悦、憐れみ、そして……</p>
+    <p>하지만, 나찰인의 그 눈빛만큼은 단 한 번도 본 적이 없었다,</p>
+    <p>거기엔 여러가지 감정들이 뒤섞여있었다. 확고함, 광기, 잔혹함, 기쁨, 동정심과, 그리고……</p>
   </text>
-  <text>……[em bold]軽蔑[/em]？</text>
+  <text>…[em bold]경멸[/em]?</text>
   <cg></cg>
   <motion chara="015" action="show" pos="center" img="老鹰-心虚-单举刀-近景"></motion>
   <text>
-    <p>[em italic]そうだ。[/em]</p>
-    <p>「鷹」はハッとして、唾を呑む。</p>
+    <p>[em italic]그렇군.[/em]</p>
+    <p>「노응」은 가슴이 쿵하고 내려앉음을 느끼며, 침을 삼켰다.</p>
   </text>
   <text>
-    <p>この羅刹人は終始、彼のことなど眼中にないのだ。[\s]</p>
-    <p>相手にとって、金砂会首領たる「鷹」ですら、大漠の砂と何の違いもない。[\s]</p>
-    <p>価値はなく、意味もない。</p>
+    <p>애초에 이 나찰인은 그를 안중에 둔 적 조차 없었다.[\s]</p>
+    <p>이 사람의 눈에는, 금사방의 맹주 「노응」 또한 사막의 모래 한 알과 다를 게 없었다.[\s]</p>
+    <p>아무런 가치도, 의미도 없다.</p>
   </text>
   <text>
-    <p>次の瞬間、羅刹人に踏み潰されるような錯覚すらあった。</p>
-    <p>きっと、散歩するかのように簡単なのだろう。</p>
+    <p>심지어 그다음 순간에 이 나찰인이 이 모래알들을 모두 짓밟아버릴 것 같은 착각마저 들었다.</p>
+    <p>마치 산책하듯 자연스럽게.</p>
   </text>
   <event action="hide_ui" duration="1"></event>
   <motion chara="015" action="img_trans" img="老鹰-恐惧-普通NO刀-近景" duration="1"></motion>
-  <text>故に、彼は刀を下ろした。</text>
+  <text>그래서, 그는 칼을 내려놓았다.</text>
   <text>
-    <p>恐怖を感じたからではない。「鷹」は、自身に言い聞かせたのだ。[\s]</p>
-    <p>彼は決して、羅刹鬼を怖がらない。</p>
+    <p>두려워하는 게 아니다, 「노응」은 스스로에게 그렇게 말했다,[\s]</p>
+    <p>그는 결코, 나찰귀를 두려워하지 않는다.</p>
   </text>
-  <text>しかし心の中の感情は恐怖よりも恥ずかしく、彼は、目の前の人間から逃げ出したいとさえ思った。</text>
+  <text>하지만 마음속으로는 수치심보다 두려움이 앞서, 눈앞의 그에게서 도망치고 싶다고 외치고 있었다.</text>
   <motion chara="015" action="img_trans" img="老鹰-普通-普通NO刀-近景"></motion>
-  <dialog chara="015">「……ついてこい、小細工はするな。」</dialog>
-  <text>そう言って、「鷹」は振り向き歩き出す。</text>
+  <dialog chara="015">「……우리랑 함께 간다, 장난은 여기까지다.」</dialog>
+  <text>이 말을 뱉고, 「노응」은 몸을 돌려 자리를 떠났다.</text>
   <bgm looptimes="0"></bgm>
   <motion chara="015" action="hide"></motion>
   <event action="achievement" aid="4ce232f70dd2d920"></event>
@@ -202,8 +219,8 @@
   <bg img="BGDesert_Smoke"></bg>
   <bgm id="竹林伏兵"></bgm>
   <text>
-    <p>遠い先に、一縷の煙がゆっくりと昇る。</p>
-    <p>金砂会の帰路を示す合図である。</p>
+    <p>저 멀리, 한 줄기의 연기가 천천히 피어올랐다.</p>
+    <p>금사방의 귀환을 알리는 신호다.</p>
   </text>
   <event action="hide_ui" duration="5.5"></event>
   <bg img="BGDesert02" duration="2"></bg>
@@ -216,37 +233,37 @@
   <delay t="0.1"></delay>
   <motion chara="095" action="show" pos="right" duration="1" img="砂匪2-远-惊慌"></motion>
   <delay t="1"></delay>
-  <dialog chara="095">「あ——」</dialog>
+  <dialog chara="095">「아——」</dialog>
   <motion chara="095" action="img_trans" img="砂匪2-远-微笑"></motion>
   <delay t="0.1"></delay>
-  <dialog chara="095">「首領！」</dialog>
-  <dialog chara="015">「……ご苦労。」</dialog>
+  <dialog chara="095">「방주님!」</dialog>
+  <dialog chara="015">「……고생했다.」</dialog>
   <motion chara="015" action="move" pos="center" duration="1"></motion>
   <motion chara="015" action="hide" delay="0.5"></motion>
-  <text>考え事に頭を支配されていた「鷹」は、彼らとは多く話さず、真っ直ぐに宿場に入った。</text>
+  <text>근심으로 가득한 「노응」은, 긴말하는 일 없이, 곧바로 역참으로 들어갔다.</text>
   <motion chara="095" action="move" pos="left" duration="1"></motion>
   <delay t="1"></delay>
   <motion chara="095" action="img_trans" reversex="true" img="砂匪2-远-普通"></motion>
   <motion chara="094" action="show" pos="right" img="砂匪1-远-普通"></motion>
-  <text>門番の手下たちは視線を交わし、同時にほっと息をつく。</text>
-  <dialog chara="095">「ふう……」</dialog>
-  <text>しかし息をついた瞬間、威厳のある声が聞こえた。</text>
+  <text>역참을 지키던 도적들은 서로 눈빛을 교환하며, 동시에 한숨을 쉬었다.</text>
+  <dialog chara="095">「휴……」</dialog>
+  <text>그런데 한숨이 목에서 나오기도 전에, 위엄있는 목소리가 귓가를 울렸다.</text>
   <motion chara="094" action="move" pos="-200,0" duration="1"></motion>
   <motion chara="094" action="img_trans" reversex="true"></motion>
   <motion chara="015" action="show" pos="right" img="老鹰-普通-抱胸有刀-远景"></motion>
-  <dialog chara="015">「……俺が出征していた間、」</dialog>
-  <text>金砂会の首領は腕を組む。その目は、鷹のように鋭い。</text>
-  <dialog chara="015">「異常はなかったか？」</dialog>
+  <dialog chara="015">「……내가 출정 중일 때,」</dialog>
+  <text>금사방의 맹주는 팔짱을 꼈다, 눈빛은 매처럼 날카로웠다.</text>
+  <dialog chara="015">「여기 무슨 일이 있었나?」</dialog>
   <motion chara="015" action="img_trans" img="老鹰-悲伤-扭头-远景"></motion>
   <text>
-    <p>彼は目の前の二人を観察し、</p>
-    <p>少し離れた砂場に視線を向け、[\s]</p>
-    <p>また宿場の中へと意味深長な視線を向ける。</p>
+    <p>그는 눈앞의 두 사람을 훑어보고는,</p>
+    <p>멀지 않은 사막을 향해 시선을 옮겼다가,[\s]</p>
+    <p>다시 역참을 향해 의미심장한 눈길을 보냈다.</p>
   </text>
   <event action="hide_ui" duration="1"></event>
   <motion chara="015" action="img_trans" duration="1" img="老鹰-狞笑-扭头-远景"></motion>
-  <text>「鷹」は笑顔を見せたが、その目は笑っていなかった。</text>
-  <dialog chara="015">「……あったみたいだな。」</dialog>
+  <text>「노응」은 유쾌하지 않은 미소를 보였다.</text>
+  <dialog chara="015">「……있었나 보군.」</dialog>
   <transition mode="fade" in="3" stop="0.5" out="0" color="#000000"></transition>
   <event action="goto" to="09"></event>
 </scene>
