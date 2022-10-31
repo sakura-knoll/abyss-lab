@@ -6,234 +6,213 @@
   valkyrie: sushang
   features: [ice-dmg, fast-atk, gather]
   equipment:
-    - weapon: night-candle-pri
-      stigmataTop: remembrance-swords-top
-      stigmataMid: remembrance-swords-mid
-      stigmataBot: remembrance-swords-bot
+    - weapon: nocturnal-stealth-beam
+      stigmataTop: li-sushang-shenzhou-reminiscence-top
+      stigmataMid: li-sushang-shenzhou-reminiscence-mid
+      stigmataBot: li-sushang-shenzhou-reminiscence-bot
       type: recommended
   leader:
     core:
-      name: Leader Skill (CN Live)
-      krName: 리더 스킬 (CN Live)
+      name: Realm of Taixuan
+      krName: 태허지경
       description: |-
         Leader Bonus:
-        Leader Skill: Increases all teammate's Total DMG of Basic Attacks(including Combo ATKs and Charged ATKs) by 14.0%.
-        If all teammates are Ice DMG characters, increases all teammate's Ice DMG by 28.0%.
+        Leader Skill: Basic, Combo, and Charged ATKs deal 14.0% more Total DMG. When every team member is an Ice DMG dealer, they deal 28.0% more Ice DMG.
       krDescription: |-
         리더로 배치 시 파티원이 버프를 받는다.
-        리더 스킬: 팀의 일반 공격(분기 공격과 차지 공격을 포함)의 모든 대미지가 14.0% 증가한다.
-        팀의 모든 캐릭터가 빙결 공격 속성을 가진 경우, 모든 팀원의 빙결 대미지가 28.0% 증가한다.
+        리더 스킬: 파티원의 기본 공격(분기, 차지 포함)이 가하는 모든 대미지가 14.0% 증가한다. 파티원의 모든 캐릭터가 빙결 대미지 특성일 때 파티원이 가하는 빙결 원소 대미지가 28.0% 증가한다.
     subskills:
-      - name: '-'
-        krName: '-'
+      - name: Inner Infinitude
+        krName: 무한승화
         description: |-
-          Increases all teammate's Total DMG of Basic Attacks(including Combo ATKs and Charged ATKs) by 14.0%.
-          If all teammates are Ice DMG characters, increases all teammate's Ice DMG by 28.0%.
+          Basic, Combo, and Charged ATKs deal 14.0% more Total DMG. When every team member is an Ice DMG dealer, they deal 28.0% more Ice DMG.
         krDescription: |-
-          팀의 일반 공격(분기 공격과 차지 공격을 포함)의 모든 대미지가 14.0% 증가한다.
-          팀의 모든 캐릭터가 빙결 공격 속성을 가진 경우, 모든 팀원의 빙결 대미지가 28.0% 증가한다.
+          파티원의 기본 공격(분기, 차지 포함)이 가하는 모든 대미지가 14.0% 증가한다. 파티원의 모든 캐릭터가 빙결 대미지 특성일 때 파티원이 가하는 빙결 원소 대미지가 28.0% 증가한다.
   passive:
     core:
-      name: Passive Skill (CN Live)
-      krName: 패시브 스킬 (CN Live)
+      name: Arming Sanction
+      krName: 뜻이 곧 그릇이니
       description: |-
-        Automatically receive passive skill bonus.
-        Jade Knight can gain Sword Intent up to 200 during the battle.
-        When fully charged, the character can use Combo ATK to enter Sword Array mode.
-        In Sword Array mode, Sword Intent decreases over time. When it reaches 0, Sword Array mode ends. When hitting an enemy with a normal ATK, the character gains 20 Sword Intent. In Sword Array mode, the character consumes 1 Sword Intent every 0.2s.
+        Passive bonuses apply automatically.
+        Jade Knight can gain 200 Blade Sanction at most in combat. With 200 Blade Sanction, using Combo ATK activates Sword Array mode. In Sword Array mode, Blade Sanction decreases over time. When it reaches 0, Sword Array mode ends.
+        She gains 20 Blade Sanction whenever a Basic ATK hits.
+        In Sword Array mode, she consumes 1 Blade 'Sanction every 0.2s.
       krDescription: |-
         패시브 스킬은 자동으로 발동한다.
-        옥기사·월흔는 전투 중 검의를 최대 200pt 획득할 수 있다.
-        최대치에 도달하면 분기 공격을 사용해 검진을 전개할 수 있다.
-        검진 전개 시, 검의는 지속적으로 감소하여 0이 되면 검진을 거둬들인다. 일반 공격이 적에게 명중 시, 검의를 20pt 회복한다. 검진 전개 시, 캐릭터는 검의를 매 0.2초마다 1pt만큼 소모한다.
+        옥기사·월흔이 전투 중 검의를 획득하며(최대 200pt), 최대치에 도달했을 때 분기 공격을 사용하면 검진 상태를 활성화할 수 있다. 검진 상태에서 검의가 점점 감소하고, 0이 되면 검진 상태가 자동으로 종료된다.
+        기본 공격이 적에게 1식 적중할 때마다 검의를 20pt 획득한다.
+        검진 상태에서 0.2초마다 검의 1pt를 소모한다.
     subskills:
-      - name: '-'
-        krName: '-'
+      - name: Forge Blades
+        krName: 만검주조
         description: |-
-          When the character is off the field, Weapon Active skills, Charged ATKs, and Combo ATKs of other teammates trigger [Ten Thousand Blades of Whirlwind]. (CD: 5s) This [Ten Thousand Blades of Whirlwind] won't restore SP of the character.
+          When a team member casts a weapon skill or deals DMG with Combo or Charged ATK, Jade Knight will release Back Wind Slash at the target once; CD: 5.0s. This Back Wind Slash will not restore SP.
         krDescription: |-
-          캐릭터가 대기중에 팀 멤버가 무기 스킬, 차지 공격, 분기 공격 사용 시, [회풍의 만인]를 사용한다. (재사용 대기시간: 5초) 이 [회풍의 만인]은 캐릭터의 SP를 회복시키지 않는다.
-      - name: '-'
-        krName: '-'
+          파티 내 캐릭터가 무기 스킬을 발동하거나 분기 또는 차지 대미지를 가하면, 자신은 대기 상태에서 목표에게 [회풍만검] 발동한다. 재사용 대기시간 5.0초, 해당 [회풍만검]은 자신의 SP를 회복하지 않는다.
+      - name: Sound Arms
+        krName: 병기명향
         description: |-
-          When triggering [Ten Thousand Blades of Whirlwind], create 3 giant swords additionally. Each giant sword deals double damage and restores 5 SP additionally.
+          Back Wind Slash also shoots 3 giant swords, dealing DMG twice as many times and restoring additional 5.0 SP on hit.
         krDescription: |-
-          [회풍의 만인] 발동 시, 추가로 3개의 거대한 검을 만든다. 이 검들은 적에게 적중 시, 2배의 대미지를 가하고, 추가로 SP를 5.0pt 회복시킨다.
+          캐릭터가 [회풍 만검] 발동 시, 추가로 세 자루의 거대한 검을 생성해 가하는 대미지 횟수가 2배가 되며, 적에게 적중 시 추가로 SP를 5.0pt 회복한다.
         requiredRank: ss
-      - name: '-'
-        krName: '-'
+      - name: Subdue Armies
+        krName: 백병굴복
         description: |-
-          [Return of Ten Thousand Swords] deals 2.0 DMG to shields that only take fixed DMG.
+          Heart Piercer's every hit deals an extra 2 DMG to fixed-DMG shields.
         krDescription: |-
-          [만검의 귀심]이 고정된 대미지만 받는 쉴드에 2.0의 대미지를 가한다.
+          [만검귀심] 고정 대미지만 받는 실드에 추가로 2pt의 대미지를 가한다.
         requiredRank: sss
   evasion:
     core:
-      name: Evasion Skill (CN Live)
-      krName: 회피 스킬 (CN Live)
+      name: Guiding Mantra
+      krName: 마음이 곧 길이니
       description: |-
-        Quickly dodge enemy attacks. Can be performed twice in a row.
-        Ultimate Evasion Skill: Restores 200 HP and 60 Sword Intent in non-Sword Array mode. After using Ultimate Evasion, press [ATK] button or [ULT] button to continue SEQ 4 [Releasing: (Thunder Storm / Rock Crusher)]. Can store up to 2 charges. (CD: 10s)
+        Evade enemy attacks. Can be performed twice in a row.
+        Triggering Ultimate Evasion Skill restores 200 HP and, while outside Sword Array mode, 60 Blade Sanction.
+        While outside Sword Array mode, you can connect Ultimate Evasion into Fourth Form, Wrath: Roiling/Ripstone by tapping [ATK] or [ULT].
+        This skill has 2 charges and a 10s CD.
       krDescription: |-
         빠르게 적의 공격을 회피한다. 2회 연속 회피할 수 있다.
-        극한 회피 스킬: 검진이 전개되지 않은 상태에서 HP를 200pt, 검의를 60pt만큼 회복한다. 극한 회피 후, [공격] 버튼 혹은 [필살기] 버튼을 눌러 SEQ 4 [개검·(번개 폭풍/바위 부수기)]를 이어서 발동 시킬 수 있다. 최대 2회 충전. (재사용 대기시간: 10초)
+        극한 회피 스킬 발동 시 자신의 HP를 200 회복하고, 검진 상태가 아닐 때 검의를 60pt 회복한다.
+        검진 상태가 아닐 때 극한 회피 후 공격 버튼 또는 필살기 버튼을 사용하면 태허검법 제4식 [개검(진풍/암파)]를 연계할 수 있다.
+        해당 스킬은 충전 스킬로 최대 2회 충전할 수 있다. 재사용 대기시간: 10초
     subskills:
-      - name: '-'
-        krName: '-'
+      - name: Pacify Flow
+        krName: 정류
         description: |-
-          When attacked by an enemy in Sword Array mode, the Ultimate skill can be triggered to block the attack. The character moves to other sword when the skill is triggered during standing on a sword or performing [Cloud Interceptor].
+          When taking a hit in Sword Array mode, if Ultimate Evasion Skill is available, it will be triggered, blocking this attack and moving her to another sword or casting Cloud Cutter before moving her to another sword.
         krDescription: |-
-          검진이 전개된 상태에서 적에게 공격 받을 때, 회피 충전 횟수가 남아있다면, 극한 회피 스킬을 발동해 적의 공격을 막는다. 검 위에 서있는 상태거나 [구름을 가르는 칼날] 발동 중이라면 다른 검으로 이동한다.
-      - name: '-'
-        krName: '-'
+          검진 상태에서 피격 시, 극한 회피 스킬 사용 횟수가 있을 경우 극한 회피 스킬을 발동해 이번 공격을 막는다. 만약 서 있거나 [절운의 칼]을 발동하면 다른 검 위로 이동한다.
+      - name: Chase Light
+        krName: 추광
         description: |-
-          When Ultimate Evasion is triggered, sends flying swords towards the target to deal 4 x 100.0% ATK of Ice DMG.
+          Ultimate Evasion Skill shoots flying swords, dealing 4 x 100.0% ATK of Ice DMG.
         krDescription: |-
-          극한 회피 스킬 사용 시, 비검을 날려 공격력 4 x 100.0%의 빙결 대미지를 가한다.
-      - name: '-'
-        krName: '-'
+          극한 회피 스킬 발동 시, 목표를 향해 비검을 날려 공격력 100.0% x 4의 빙결 원소 대미지를 가한다.
+      - name: Expand Shadow
+        krName: 탁영
         description: |-
-          If the character's initial SP is lower than 120, increases initial SP to 120.
-          In Open World, this effect triggered once every 10 minutes.
+          When initial SP is below 120.0, it's increased to 120.0 in battle. Can only be triggered once every 10min in Open World.
         krDescription: |-
-          캐릭터의 초기 SP가 120pt 보다 낮을 경우, 120pt까지 회복시킨다.
-          오픈 월드에서 초기 SP 증가 효과는 10분마다 1회 발동한다.
+          전투 중 초기 SP가 120.0pt보다 낮을 경우 120.0pt까지 증가한다. 오픈월드에서 10분마다 1회 발동한다.
   special:
     core:
-      name: Charged ATK (CN Live)
-      krName: 차지 공격 (CN Live)
+      name: 'Combo ATK: Refining Ascension'
+      krName: 분기-혼이 곧 용광로이니
       description: |-
-        Deploy Sword Array to attack enemies with numberless afterimages of swords.
-        When [Sword Intent] is full, hold [ATK] button to unleash [Swords of Nine Fields] to enter Sword Array mode.
-        In Sword Array mode, Jade Knight obtains new skill sets.
-        In Sword Array mode, Jade Knight gains iron body and takes 50% less Total DMG, but cannot use Weapon active skills.
-
-        [Swords of Nine Fields]: Form afterimages of swords to deal 6 x 50% ATK of Ice DMG and to deploy a circular Sword Array. After deploying, enemies are pulled to the center of the array.
-
-        [Cloud Interceptor]: In Sword Array mode, press [ATK] button to form 6 sword afterimages which deal 6 x 20% ATK of Ice DMG.
-
-        [Edge of Thunder]: In Sword Array mode, press [ULT] button to dash towards an enemy with a sword to deal 4 x 30% ATK of Ice DMG. Casting this skill costs 20 Sword Intent.
-
-        [Fluttering Afterimages]: In Sword Array mode, press [Evasion] button to move between swords.
-
-        [Return of Ten Thousand Swords]: In Sword Array mode, hold [ATK] to gather all of the swords and send them towards enemies to deal 14 x 70% ATK of Ice DMG. When activating, inflicts 3s of global Time Fracture and leaves Sword Array mode. During the attack, teammates can be swithched but Jade Knight stays in the field until finishing the attack.
-
-        After using [Return of Ten Thousand Swords] or switching out, consumes all Sword Intent.
-        All of the skills above are considered as Combo ATKs.
+        Create a sword array and attack enemies with countless after images.
+        At full Blade Sanction, hold [ATK] to cast Wild Swords and activate Sword Array mode. In this mode, Jade Knight stands on a flying sword, has a different moveset, gains Iron Body, gains 50% Total DMG Reduction, but can't use certain weapon skills.
+        Wild Swords: Generate dozens of illusory swords that stab into the ground, dealing 6 x 50% ATK of Ice DMG. The swords form a circle that pulls enemies to its center during a cast.
+        Cloud Cutter: In Sword Array mode, tap [ATK] to generate 6 flying swords, dealing 6 x 20% ATK of Ice DMG.
+        Bolt Slash: In Sword Array mode, tap [ULT] to run the sword beneath her feet into enemies, dealing 4 x 30% ATK of Ice DMG. This skill costs 20 Blade Sanction.
+        Airy Shadow: In Sword Array mode, tap [EVA] to blink between sword arrays.
+        Heart Piercer: In Sword Array mode, hold [ATK] to congregate all the swords behind her and then rush them at enemies, dealing 14 x 70% ATK of Ice DMG. Casting this skill causes Global Time Fracture for 3s and ends Sword Array mode. You can switch characters during this skill. Jade Knight will stay on the field until the attack ends.
+        Casting Heart Piercer or switching characters in Sword Array mode exhausts Blade Sanction.
+        DMG from the skills above count as Combo DMG.
       krDescription: |-
-        검진을 생성하여 무수히 많은 검의 잔영으로 적을 공격한다.
-        검의가 가득 찼을 때, 공격 버튼을 길게 눌러 [구야에 흩어진 검]을 발동해 검진을 펼친다.
-        검진이 펼쳐지면 옥기사는 칼위에 서서 새로운 공격 스킬을 가진다.
-        검진이 전개된 동안 캐릭터는 슈퍼 아머 상태에 진입하고 받는 모든 대미지가 50% 감소하지만, 무기 액티브 스킬을 사용할 수 없게 된다.
-
-        [구야에 흩어진 검]: 검의잔영을 필드에 전개해 공격력 6 x 50%의 빙결 대미지를 가하고, 원형의 검진을 만든다. 검진이 전개되면 적을 검진의 중앙으로 끌어당긴다.
-
-        [구름을 가르는 칼날]: 검진이 전개된 상태에서 공격 버튼을 눌러 6개의 검영을 만들어 적에게 날려보내어 공격력 6 x 20%의 빙결 대미지를 가한다.
-
-        [천둥의 예리함]: 검진이 전개된 상태에서, 필살기 버튼을 눌러 발밑의 검을 써서 적에게 돌진하여 공격 4 x 30%의 빙결 대미지를 가한다. 사용 시 검의를 20pt 소모한다.
-
-        [나부끼는 검영]: 검진이 전개된 상태에서 회피 버튼을 눌러 다른 검으로 이동한다.
-
-        [만검의 귀심]: 검진이 전개된 상태에서 공격 버튼을 길게 눌러, 모든 검을 모아 파도처럼 적을 찔러 공격력 14 x 70%의 빙결 대미지를 가한다. 발동 시, 3초의 전역 시공 단열이 발생하고, 검진 상태에서 벗어난다. 도중 캐릭터 교대가 가능하며, 옥기사·월흔은 공격이 끝날 때까지 전장에 남는다.
-
-        [만검의 귀심] 사용 시, 혹은 검진이 전개된 상태에서 캐릭터 교체시 모든 검의를 소모한다.
-        이상 모든 스킬은 분기 공격으로 간주한다.
+        검진을 생성하고, 무수한 검의 잔영으로 공격한다.
+        검의가 가득 찼을 때 공격 버튼을 길게 누르면 [구야의 검]을 발동해 검진 상태가 활성화된다. 검진 상태에서 옥기사·월흔은 검 위에서 적을 상대하고, 새로운 전투 스킬을 보유한다. 검진 상태에서 캐릭터는 슈퍼 아머 상태가 되고, 받는 모든 대미지 50% 감소 효과를 획득하며, 일부 무기 스킬을 발동할 수 없는 상태가 된다.
+        [구야의 검]: 수십 개의 검의 잔영을 생성해 공격력 50% x 6의 빙결 원소 대미지를 가하며, 검영은 지면에 남아 원형 검진을 형성한다. 스킬 발동 시 적을 검진의 중심으로 끌어당긴다.
+        [절운의 칼]: 검진 상태에서 공격 버튼을 눌러 발동, 여섯 개의 검영을 적에게 날려 공격력 20% x 6의 빙결 원소 대미지를 가한다.
+        [천둥의 날]: 검진 상태에서 필살기 버튼을 눌러 발동, 발 아래 검으로 적에게 돌진해 공격력 30% x 4의 빙결 원소 대미지를 가한다. 검의를 20pt 소모한다.
+        [흩날리는 검영]: 검진 상태에서 회피 버튼을 누르면 검진 사이를 빠르게 이동한다.
+        [만검귀심]: 검진 상태에서 공격 버튼을 길게 눌러 발동, 모든 검을 뒤로 모은 후 밀려오는 조수처럼 적을 찔러 공격력 70% x 14의 빙결 원소 대미지를 가한다. 스킬 사용 시 전체 시공 단열을 3초간 발동하고, 검진 상태를 조기 종료한다. 스킬 중 다른 캐릭터로 교대할 수 있으며, 옥기사·월흔은 공격이 끝날 때까지 전장에 남는다.
+        만검귀심 스킬 발동 또는 검진 상태에서 캐릭터 교대 시 모든 검의를 소모한다.
+        위의 스킬들이 가하는 대미지는 전부 분기 대미지로 간주한다.
     subskills:
-      - name: '-'
-        krName: '-'
+      - name: Encompass World
+        krName: 납천지
         description: |-
-          When unleashing [Edge of Thunder], reduces consumption of Sword Intent by 10 and automatically release [Cloud Interceptor] once. (CD of [Cloud Interceptor]: 0.7s)
+          Bolt Slash costs 10.0 less Blade Sanction and auto-releases Cloud Cutter once. The latter has a 0.7s CD.
         krDescription: |-
-          [천둥의 예리함] 사용 시, 검의 소모량을 10pt 줄이고,동시에 [구름을 가르는 칼날]을 한번 발동시킨다. ([구름을 가르는 칼날] 발동 재사용 시간: 0.7초)
+          [천둥의 날] 발동 시 소모하는 검의가 10.0pt 감소하고, [절운의 칼]을 자동으로 1회 발동한다. [절운의 칼] 발동 재사용 대기시간: 0.7초
         requiredRank: s2
-      - name: '-'
-        krName: '-'
+      - name: Hone Oneself
+        krName: 물아연
         description: |-
-          When unleashing [Swords of Nine Fields] and [Return of Ten Thousand Swords], increases all teammate's Total DMG of Ranged ATKs, Normal ATKs(including Charged ATKs and Combo ATKs) and Burst ATKs by 20.0% for 18s. (Can be refreshed)
+          Casting Wild Swords or Heart Piercer increases the Ice DMG of ranged, Basic, Charged, Combo, and burst mode attacks from all team members by 20.0% for 18s. Triggering it again resets the duration.
         krDescription: |-
-          [구야에 흩어진 검]과 [만검의 귀심] 사용 시, 모든 팀원의 원거리 공격, 일반 공격(차지 공격과 분기 공격을 포함), 폭발 상태의 공격의 모든 대미지가 18초간 20.0% 증가한다. (갱신 가능)
+          [구야의 검]과 [만검귀심] 스킬 발동 시, 파티원의 원거리 공격, 기본 공격(차지, 분기 포함) 또는 폭발 상태에서의 빙결 원소 대미지가 20.0% 증가한다. 지속 시간: 18초, 중복 발동 시 지속 시간을 갱신한다.
         requiredRank: ss1
-      - name: '-'
-        krName: '-'
+      - name: Attain Taixuan
+        krName: 성태허
         description: |-
-          In Sword Array mode, every 3 times the character using [Edge of Thunder], you can use [Ten Thousand Blades of Whirlwind], by pressing [ATK] button, which deals 6 x 40.0% ATK of Ice DMG, restores 20 SP, and increases all teammate's Ice DMG of Ranged ATKs of non-Burst mode by 50.0% for 10s. (Can be refreshed)
+          In Sword Array mode, after casting Bolt Slash 3 times, you can tap [ATK] to cast Back Wind Slash once. It deals 6 x 40.0% ATK of Ice DMG (counts as Combo DMG), restores 20 SP on hit, and increases the Ice DMG of ranged attacks in non-burst mode for all team members by 50.0% for 10s. Triggering it again resets the duration.
         krDescription: |-
-          검진이 전개된 상태에서, 캐릭터가 [천둥의 날카로움]를 3번 발동 시킬 때마다, 공격 버튼을 눌러 [회풍의 만인]를 사용하여 공격력 6 x 40.0%의 빙결 대미지를 가한다. (이 공격은 분기 공격으로 간주한다.) 적에게 명중 시, SP를 20pt 회복하며, 모든 팀원의 폭발 상태가 아닌 원거리 공격의 빙결 대미지가 10초간 50.0% 증가한다. (갱신 가능)
+          1회 검진 상태에서 캐릭터가 [천둥의 날]을 3회 발동할 때마다 공격 버튼을 눌러 [회풍만검]을 1회 발동할 수 있으며(분기 대미지로 간주한다), 공격력 40.0% x 6의 빙결 원소 대미지를 가하고, 적에게 적중 시 SP를 20pt 회복한다. 또한 파티원이 폭발 상태가 아닐 때 원거리 공격이 가하는 빙결 원소 대미지가 50.0% 증가한다. 지속 시간: 10초, 중복 발동 시 지속 시간을 갱신한다.
   ultimate:
     core:
-      name: Ultimate Skill (CN Live)
-      krName: 필살기 (CN Live)
+      name: Crowning Eminence
+      krName: 신이 곧 극이니
       description: |-
-        Hold [ULT] to unleash an ultimate move of Edge of Taixuan, which forges a huge sword and makes it falling from the sky, to destroy all enemies in the field which deals 1800% ATK of Ice DMG.
-        During the Ult, the chracter becomes invincible and all skill timers and stage timers are paused.
+        Unleash the ultimate form of Edge of Taixuan.
+        Condense the Qi of Taixuan into a sky-reaching sword, then swing it with the force of splitting the world apart.
+        Hold [ULT] to release it, dealing 1,800% ATK of Ice DMG. During the release, she is invincible, and all skill and stage timers are paused.
 
-        SP Cost: 150, CD: 20s
+        SP cost: 150. CD: 20s.
       krDescription: |-
-        필살기 버튼을 길게 눌러 태허검기를 하나로 모아 거대한 검을 만들어 떨어뜨려 모든 적들에게 피해를 가해 공격력 1800%의 빙결 대미지를 가한다.
-        필살기 발동 중, 캐릭터는 무적 상태가 되며,  캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다.
+        태허검기의 궁극, 태허검신을 발동한다.
+        [태허검신]: 하늘에서 거대한 검이 내려와 천지개벽의 기세로 전장의 모든 적을 파멸시킨다. 필살기 버튼을 길게 눌러 발동, 공격력 1800%의 빙결 원소 대미지를 가한다. 필살기 발동 기간, 캐릭터는 무적 상태가 되며, 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다.
 
-        SP 소모: 150pt, 재사용 대기시간: 20초
+        소모 SP: 150, 재사용 대기시간: 20초
     subskills:
-      - name: '-'
-        krName: '-'
+      - name: Ceaseless
+        krName: 무지
         description: |-
-          When unleashing Ult, all Ice DMG characters enters element peneration state which increases Elemental Penetration of all Ranged ATKs, Normal ATKs (including Charged ATKs and Combo ATKs), and Burst mode ATKs is increased by 17.0% for 18s. (Can be refreshed)
+          Casting Blade Eminence grants Elemental Breach to all Ice DMG dealers, which increases the Elemental Breach of their ranged, Basic, Charged, Combo, and burst mode attacks by 17.0% for 18s. Triggering it again resets the duration.
         krDescription: |-
-          필살기 발동 시, 빙결 공격 속성의 캐릭터가 원소 관통 상태가 되어 모든 원거리 원소 공격, 일반 공격(차지 공격과 분기 공격을 포함), 폭발 상태의 원소 관통이 18초간 17.0% 증가한다. (갱신 가능)
-      - name: '-'
-        krName: '-'
+          [태허검신] 발동 시, 빙결 원소 대미지 특성의 캐릭터가 원소 관통 상태에 진입하고, 원거리 기본 공격(차지, 분기 포함) 또는 폭발 상태에서의 모든 원소 관통이 17.0% 증가한다. 지속 시간: 18초, 중복 발동 시 지속 시간을 갱신한다.
+      - name: Boundless
+        krName: 무애
         description: |-
-          Increases Ult's Ice DMG by 100.0%, Ult's DMG against Shield by 200.0%.
-          After using Ult, increases all teammate's DMG against Shield by 25.0% for 18s. (Can be refreshed)
+          Blade Eminence deals 100.0% more Ice DMG and breaks shields 200.0% easier. Casting Blade Eminence makes all team members break shields 25.0% easier for 18s. Triggering it again resets the a duration.
         krDescription: |-
-          필살기가 가하는 빙결 대미지가 100.0%, 쉴드에 가하는 피해가 200.0% 증가한다.
-          필살기 사용 후, 모든 팀원의 쉴드에 가하는 대미지가 18초간 25.0% 증가한다. (갱신 가능)
+          [태허검신]이 가하는 빙결 원소 대미지가 100.0% 증가하고, 실드에 가하는 대미지가 200.0% 증가한다. [태허검신] 발동 시 파티원이 실드에 가하는 대미지가 25.0% 증가한다. 지속 시간 18초, 중복 발동 시 지속 시간을 갱신한다.
         requiredRank: ss
-      - name: '-'
-        krName: '-'
+      - name: Edgeless
+        krName: 무봉
         description: |-
-          Ult can consumes extra SP up to 25 to deal N x 10.0% ATK of additional Ice DMG and to increase Ice DMG of all team member's Ranged ATKs, Normal ATKs(including Charged ATKs and Combo ATKs), and Burst mode ATKs by N x 1.00% for 18s. (Can be refreshed, N = Extra SP consumed)
+          Casting Blade Eminence costs extra SP, which is capped at 25. It deals additional "extra SP consumed" x 10.0% ATK of Ice DMG, and increases the Ice DMG of ranged, Basic, Charged, Combo, and burst mode attacks for all team members by "extra SP consumed" x 1.00% for 18s. Triggering it again resets the duration.
         krDescription: |-
-          필살기가 SP를 최대 25pt만큼 더 소모하여 공격력 N x 10.0%의 빙결 대미지의 추가 피해를 가하고, 팀의 원거리 공격, 일반 공격(차지 공격과 분기 공격을 포함), 폭발 상태의 공격의 빙결 대미지가 18초간 N x 1.00% 증가한다. (갱신 가능, N = 추가 소모한 SP)
+          [태허검신] 발동 시 추가로 SP를 소모해(최대 25pt 추가 소모) 추가 소모한 SP x 공격력 10.0%의 빙결 원소 대미지를 추가로 가하고, 파티원의 원거리 공격, 기본 공격(차지, 분기 포함) 또는 폭발 상태에서의 빙결 원소 대미지가 추가 소모한 SP x 1.00%만큼 증가한다. 지속 시간: 18초, 중복 발동 시 지속 시간을 갱신한다.
   basic:
     core:
-      name: Normal Attack (CN Live)
-      krName: 일반 공격 (CN Live)
+      name: Cutting Form
+      krName: 형태가 곧 공격이니
       description: |-
-        Edge of Taixuan can be divded into 4 stages, [Opening], [Transforming], [Holding], [Releasing] which can be unleashed by [ATK] button and [ULT] button. Seq 1 [Opening] and Seq 4 [Releasing] release different moves based on the buttons.
-
-        SEQ 1 [Opening: Fading Moon]: Press [ATK] button to unleash to deal 60% ATK of Ice DMG.
-        SEQ 1 [Opening: Tearing Sky]: Press [ULT] button to unleash to deal 3 x 20% ATK of Ice DMG.
-        SEQ 2 [Transforming]: Deals 2 x 120% ATK of Ice DMG.
-        SEQ 3 [Holding]: Deals 4 x 120% ATK of Ice DMG.
-        SEQ 4 [Releasing: Thunder Storm]: Press [ATK] button after SEQ 3 to unleash to deal 400% ATK of Ice DMG. During this attack, the character gains iron body.
-        SEQ 4 [Releasing: Rock Crusher]: Press [ULT] button after SEQ 3 to unleash to deal 400% ATK of Ice DMG. During this attack, the character gains iron body.
-        By pressing [ULT] during SEQ 4 [Releasing: Thunder Storm] or pressing [ATK] during SEQ 4 [Releasing: Rock Crusher], the character can continue Basic ATKs from SEQ 3 [Holding]. During this SEQ 3 [Holding], the character gains iron body.
+        Perform the forms of Edge of Taixuan.
+        It comprises 4 sequences: Opening, Transform, Guard, and Wrath, which can be cast with [ATK] and [ULT]. Opening and Wrath vary based on the button pressed.
+        First Form, Opening: Odious Crescent: Tap [ATK] to deal 60% ATK of Ice DMG.
+        First Form, Opening: Onslaught: Tap [ULT] to deal 3 x 20% ATK of Ice DMG.
+        Second Form: Transforming Blade: Deals 2 x 120% ATK of Ice DMG.
+        Third Form: Guarding Blade: Deals 4 x 120% ATK of Ice DMG.
+        Fourth Form, Wrath: Roiling: Tap [ATK] during Third Form to deal 400% ATK of Ice DMG. During its animation, she gains Iron Body.
+        Fourth Form, Wrath: Ripstone: Tap [ULT] during Guard Form to deal 400% ATK of Ice DMG. During its animation, she gains Iron Body.
+        Tap [ULT] during Fourth Form, Wrath: Roiling, or [ATK] during Fourth Form, Wrath: Ripstone to connect into Third Form: Guarding Blade. During the latter's animation, she gains Iron Body.
       krDescription: |-
-        태허검기는 [계], [화], [수], [개], 4단계로 나뉘어 [공격] 버튼과 [필살기] 버튼을 통해 쓸 수 있다. SEQ 1 [계검]과 SEQ 4 [개검]은 누르는 버튼에 따라 달라진다.
-
-        SEQ 1 [계검·희미한 달]: [공격] 버튼을 눌러 사용, 공격력 60%의 빙결 대미지를 가한다.
-        SEQ 1 [계검·하늘 찢기]: [필살기] 버튼을 눌러 사용, 공격력 3 x 20%의 빙결 대미지를 가한다.
-        SEQ 2 [화검]: 공격력 2 x 120%의 빙결 대미지를 가한다.
-        SEQ 3 [수검]: 공격력 4 x 120%의 빙결 대미지를 가한다.
-        SEQ 4 [개검·번개 폭풍]: SEQ 3 이후 [공격] 버튼을 눌러 사용, 공격력 400%의 빙결 대미지를 가하며 공격 동안 캐릭터는 슈퍼 아머 상태가 된다.
-        SEQ 4 [개검·바위 부수기]: SEQ 3 이후 [필살기] 버튼을 눌러 사용, 공격력 400%의 빙결 대미지를 가하며 공격 동안 캐릭터는 슈퍼 아머 상태가 된다.
-        SEQ 4 [개검·번개 폭풍] 중 [필살기] 버튼을 누르거나 SEQ 4 [개검·바위 부수기] 중 [공격] 버튼을 누르면 SEQ 3 [수검]으로 이어갈 수 있다. 이떄의 [수검] 사용 시, 캐릭터는 슈퍼 아머 상태가 된다.
+        태허검기의 형온을 발동한다.
+        총 [계] [화] [수] [개] 4단 공격하며, 공격 버튼과 필살기 버튼으로 발동할 수 있다. 그중 제1식 [계검]과 제4식 [개검]은 버튼에 따라 다른 초식을 발동한다
+        제1식[계검·잔월]: 공격 버튼을 눌러 발동, 공격력 60%의 빙결 원소 대미지를 가한다.
+        제1식 [계검·열공]: 필살기 버튼을 눌러 발동, 공격력 20% x 3의 빙결 원소 대미지를 가한다.
+        제2식 [화검]: 공격력 120% x 2의 빙결 원소 대미지를 가한다.
+        제3식 [수검]: 공격력 120% x 4의 빙결 원소 대미지를 가한다.
+        제4식 [개검·진풍]: 제3식 중 공격 버튼을 눌러 발동, 공격력 400%의 빙결 원소 대미지를 가하고, 동작 기간 캐릭터는 슈퍼아머 상태가 된다.
+        제4식 [개검·암파]: 제3식 중 필살기 버튼을 눌러 발동, 공격력 400%의 빙결 원소 대미지를 가하고, 동작 기간 캐릭터는 슈퍼아머 상태가 된다.
+        제4식 [개검·진풍] 중 필살기 버튼 또는 제4식 [개검·암파] 중 공격 버튼 사용 시 제3식 [수검]을 연계할 수 있으며, 해당 [수검] 동작 기간 캐릭터는 슈퍼아머 상태가 된다.
     subskills:
-      - name: '-'
-        krName: '-'
+      - name: Resolve Force with Form
+        krName: 형태에서 기세
         description: |-
-          When using SEQ 4 [Releasing: (Thunder Storm / Rock Crusher)], reduces Total DMG taken by 50%. When the attack hits, restores 40 Sword Intent.
+          During Fourth Form, Wrath, Roiling/Ripstone's animation, gain 50.0% Total DMG Reduction. It also restores an extra 40 Blade Sanction on hit.
         krDescription: |-
-          SEQ 4 [개검·(번개 폭풍/바위 부수기)]사용 시, 받는 모든 대미지가 50% 감소하며, 적에게 적중 시, 검의를 40pt만큼 회복한다.
-      - name: '-'
-        krName: '-'
+          제4식 [개검(진풍/암파)] 동작 기간, 받는 모든 대미지 50.0% 감소 효과를 획득한다. 적 적중 시, 추가로 자신의 검의를 40pt 회복한다.
+      - name: 'QTE: Its Force Formless'
+        krName: QTE-기세에서 무형
         description: |-
-          QTE: Triggered by Combo ATKs, Chraged ATKs and Ult by other teammates. When entering the field, triggers [Swords of Nine Fields], restores Sword Intent completely, enters Sword Array mode, deals 6 x 150% ATK of Ice DMG and reduces switch CD to 4s.
-          When QTE entry, [Swords of Nine Fields] inflicts 3s of Time Fracture and increases its Ice DMG by 60.0%.
+          QTE: Triggered when an enemy is damaged by a teammate's Combo or Charged ATK or a teammate casts Ultimate. Jade Knight enters by using Wild Swords, with Blade Sanction fully recovered and Sword Array mode activated, dealing 6 x 150% ATK of Ice DMG. The switched-out character's switch CD is shortened to 4s. On QTE entry, Wild Swords causes Time Fracture for 3s and deals 60.0% more Ice DMG.
         krDescription: |-
-          QTE: 다른 팀원이 분기/차지 공격 혹은 필살기 사용 시 발동. 전장에 돌입과 동시에 [구야에 흩어진 검]을 사용하고, 검의를 완전히 회복하며, 검진을 전개, 공격력 6 x 150%의 빙결 대미지를 가하고, 교대된 캐릭터의 교대 시간이 4초로 감소한다.
-          QTE 진입 시, [구야에 흩어진 검]은 3초의 시공 단열을 일으키며 가하는 빙결 대미지가 60.0% 증가한다.
+          QTE: 적이 다른 파티원의 분기/차지 대미지를 받거나 파티원이 필살기 사용 시 발동한다. 캐릭터는 [구야의 검] 스킬을 사용해 출전하고, 검의를 전부 회복하며, 검진 상태를 활성화한다. 또한, 공격력 6 x 150%의 빙결 원소 대미지를 가한다. 교대된 캐릭터의 교대 재사용 대기시간이 4초로 감소한다. QTE 출전 시, [구야의 검]은 3초간 전체 시공 단열을 발동하며, 가하는 빙결 원소 대미지가 60.0% 증가한다.
 - id: hoh
   version: '6.0'
   name: 'Herrscher of Human: Ego'
@@ -534,22 +513,22 @@
       krName: 나선, 변화무쌍한 속임수
       description: |-
         Leader Bonus:
-        Leader Skill: Increases team's Total DMG by 20.0%. Increases team's Fire DMG by 20.0%.
-        Increases Fire DMG by an additional 5% for every other Fire DMG Valkyrie in the team.
+        Team members deal 20.0% more Total DMG 20.0% more Fire DMG.
+        For every Fire DMG dealer on the team, they deal 5% more Fire DMG atop that.
       krDescription: |-
         리더로 배치 시 파티원이 버프를 받는다.
-        리더 스킬: 파티원의 모든 대미지가 20.0% 증가하고, 파티원의 화염 원소 대미지가 20.0% 증가한다.
-        파티원 중 다른 화염 원소 특성의 발키리가 1명 있을 때마다 화염 원소 대미지가 추가로 5% 증가한다.
+        리더 스킬: 파티원의 모든 대미지가 20.0% 증가하고, 화염 원소 대미지가 20.0% 증가한다.
+        파티원 중 다른 화염 원소 대미지 특성의 발키리가 1명 있을 때마다 화염 원소 대미지가 추가로 5% 증가한다.
     subskills:
       - name: |-
           The Helix, Farcical
         krName: 나선, 변화무쌍한 속임수
         description: |-
-          Leader Skill: Increases team's Total DMG by 20.0%. Increases team's Fire DMG by 20.0%.
-          Increases Fire DMG by an additional 5% for every other Fire DMG Valkyrie in the team.
+          Team members deal 20.0% more Total DMG 20.0% more Fire DMG.
+          For every Fire DMG dealer on the team, they deal 5% more Fire DMG atop that.
         krDescription: |-
-          파티원의 모든 대미지가 20.0% 증가하고, 파티원의 화염 원소 대미지가 20.0% 증가한다.
-          파티원 중 다른 화염 원소 특성의 발키리가 1명 있을 때마다 화염 원소 대미지가 추가로 5% 증가한다.
+          파티원의 모든 대미지가 20.0% 증가하고, 화염 원소 대미지가 20.0% 증가한다.
+          파티원 중 다른 화염 원소 대미지 특성의 발키리가 1명 있을 때마다 화염 원소 대미지가 추가로 5% 증가한다.
   passive:
     core:
       name: Overturning Assemblage
@@ -2867,7 +2846,7 @@
       description: >-
         Evade enemy attacks up to twice in a row.
 
-        Successful Ultimate Evasion triggers 2.5s Global Time Fracture (CD: 10s) and induces submerged mode. Tap [ATK] in this mode to unleash a Surging ATK that deals 110% × 5 ATK of Lightning DMG and restores 1 [Genesis Seed] on hit. Submerged mode lasts for a max of 2.5s.
+        Successful Ultimate Evasion triggers 2.5s Global Time Fracture (CD: 10s) and induces submerged mode. Tap [ATK] in this mode to unleash a Surging ATK that deals 110% x 5 ATK of Lightning DMG and restores 1 [Genesis Seed] on hit. Submerged mode lasts for a max of 2.5s.
       krDescription: >-
         빠르게 공격을 회피한다. 2회 연속 회피할 수 있다.
 
@@ -2969,7 +2948,7 @@
         Activation cost: 100 SP. CD: 20s.
 
 
-        Transform into Ouroboros and release lightning over a large area, dealing 420% × 5 + 50% × 3 ATK of Lightning DMG and restoring the max number of [Genesis Seeds]. Expand Umbra of Ouroboros for 12s. While Umbra of Ouroboros is present, Lightning DMG is boosted by 25%, and Enhanced Basic ATKs connected to Combo ATKs become Surging ATKs that deal 110% × 5 AKT of Lightning DMG and restore 1 [Genesis Seed] on hit.
+        Transform into Ouroboros and release lightning over a large area, dealing 420% x 5 + 50% x 3 ATK of Lightning DMG and restoring the max number of [Genesis Seeds]. Expand Umbra of Ouroboros for 12s. While Umbra of Ouroboros is present, Lightning DMG is boosted by 25%, and Enhanced Basic ATKs connected to Combo ATKs become Surging ATKs that deal 110% x 5 AKT of Lightning DMG and restore 1 [Genesis Seed] on hit.
 
 
         When Ultimate is cast, all skill timers of Valkyries and enemies as well as the stage timer are paused.
@@ -3000,7 +2979,7 @@
         krName: 망자의 고집
         description:
           While [Umbra of Ouroboros] is active, Enhanced Basic ATKs connected
-          to Combo ATKs, as well as Surging ATKs have 50.0% × 5 higher Lightning
+          to Combo ATKs, as well as Surging ATKs have 50.0% x 5 higher Lightning
           DMG multipliers.
         krDescription:
           '[탐식자의 영역] 지속 기간, 분기 공격과 연계되는 강화 기본 공격 및 분출 공격의 뇌전 원소 대미지 배율이
@@ -3021,7 +3000,7 @@
 
         Basic ATK:1st Sequence: Deals 80% ATK of Lightning DMG.
 
-        2nd Sequence: Deals 40% × 3 ATK of Lighting DMG.
+        2nd Sequence: Deals 40% x 3 ATK of Lighting DMG.
 
         3rd Sequence: Deals 100% ATK of Lightning DMG.
 
@@ -3047,7 +3026,7 @@
         krName: QTE-세계를 포식하는 이빨
         description:
           'QTE: Triggered when enemies are Time Slowed or take 15 hits within
-          3s Deals 2 × (400.0% + 10.0% × 15) Lighting DMG while restoring 1
+          3s Deals 2 x (400.0% + 10.0% x 15) Lighting DMG while restoring 1
           [Genesis Seed] and creating an Object X. On hit, QTE boosts her
           Lighting DMG by 45.0%, as well as making enemies 16% more susceptible
           to her Lighting DMG (effects stack independently). Lasts for 16s.
@@ -3253,7 +3232,7 @@
       description: >-
         Fire a powerful shot at enemies after unleashing a multi-sequence
         ATK.Midnight Absinthe hides in the flock of crows, and quickly launches
-        an assault that deals 6 × 150% ATK of Fire DMG to enemies. Then shoots
+        an assault that deals 6 x 150% ATK of Fire DMG to enemies. Then shoots
         an arrow at the ground that deals 300% ATK of Fire DMG to the target and
         then explodes dealing 700% ATK of Fire DMG to surrounding enemies.
         Clears all [Night Roamer] stacks, and simultaneously creates a cloud of
@@ -8632,10 +8611,10 @@
     - time-mastery
     - freeze
   equipment:
-    - weapon: domain-of-revelation
-      stigmataTop: welt-yang-top
-      stigmataMid: welt-yang-mid
-      stigmataBot: welt-yang-bot
+    - weapon: star-of-eden-world
+      stigmataTop: willows-top
+      stigmataMid: willows-mid
+      stigmataBot: willows-bot
       type: recommended
   leader:
     core:
