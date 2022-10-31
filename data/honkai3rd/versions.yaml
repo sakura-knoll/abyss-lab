@@ -37,6 +37,12 @@
       - label: fire
         krLabel: 화염
         boss: tank2
+    - - label: paralyze
+        krLabel: 마비
+        boss: jk
+      - label: qua
+        krLabel: 양자
+        boss: qp
   ma:
     - - label: sss
         boss: hd
@@ -56,7 +62,89 @@
         boss: qksm
       - label: ss
         boss: dd
+    - - label: sss
+        boss: hd
+      - label: sss
+        boss: wolf-sss
+      - label: ss
+        boss: bns
   supplyEvents:
+    - name: 'Silverwing:N-EX Battlesuit Expansion Supply'
+      krName: 차생의 은익 확장 보급
+      duration:
+        - 2022-11-25
+        - 2022-12-02
+      track: 1
+      verified: false
+      featured:
+        - type: battlesuit
+          id: sw
+        - type: battlesuit
+          id: ma
+      others:
+        - type: battlesuit
+          id: wd
+        - type: battlesuit
+          id: sd
+        - type: battlesuit
+          id: lk
+    - name: 'Falcon Flare 0019 Focused Supply A'
+      krName: 은빛날개 0019 집중 보급 A
+      duration:
+        - 2022-11-25
+        - 2022-12-02
+      track: 2
+      verified: false
+      featured:
+        - type: weapon
+          id: falcon-flare-0019
+        - type: stigmata-set
+          id: bronya-n-ex
+      others:
+        - type: weapon
+          id: starlance-prime
+        - type: weapon
+          id: key-of-radiance
+        - type: weapon
+          id: godslayer-surtr
+        - type: weapon
+          id: basilisk-s-image
+        - type: weapon
+          id: nuada-s-grief
+        - type: weapon
+          id: whisper-of-the-past
+        - type: stigmata-set
+          id: shakespeare-adrift
+        - type: stigmata-set
+          id: welt-yang
+        - type: stigmata-set
+          id: shuijing
+        - type: stigmata-set
+          id: benares-awakening
+    - name: 'Starlance Prime Focused Supply B'
+      krName: 스타 랜스 주계열성 집중 보급 B
+      duration:
+        - 2022-11-25
+        - 2022-12-02
+      track: 3
+      verified: false
+      featured:
+        - type: weapon
+          id: starlance-prime
+        - type: stigmata-set
+          id: shakespeare-adrift
+      others: []
+    - name: Dea Anchora ADV Supply
+      krName: 데아 앵커 진급 보급
+      duration:
+        - 2022-11-25
+        - 2022-12-02
+      track: 9
+      verified: false
+      featured:
+        - type: battlesuit
+          id: da
+      others: []
     - name: 'Crusher Bunny 19C Focused Supply B'
       krName: 분쇄토끼19C 집중 보급 B
       duration:
@@ -182,13 +270,34 @@
           id: avogadro
         - type: stigmata-set
           id: aslaug
+    - name: Nibelungen Traumlied Outfit Supply
+      krName: 니벨룽겐의 꿈노래 코스튬 보급
+      duration:
+        - 2022-10-30
+        - 2022-11-13
+      track: 12
+      verified: true
+      featured:
+        - type: outfit
+          id: pe-nibelungen-traumlied
+      others: []
+    - name: Water's Edge Elf Elf Supply (GLB only)
+      krName: 약수 인형 보급 (GLB only)
+      duration:
+        - 2022-10-27
+        - 2022-11-11
+      track: 10
+      verified: true
+      featured:
+        - type: elf
+          id: we
     - name: Firepower Supply (~v5.1, recommended equipments for MPE)
       krName: 화력 보급 (~v5.1, 핑크 엘프 요정 추천 장비까지)
       duration:
         - 2022-10-27
         - 2022-11-25
-      track: 10
-      verified: false
+      track: 11
+      verified: true
       featured:
         - type: weapon
           id: might-of-an-utu
@@ -331,7 +440,7 @@
         - 2022-10-27
         - 2022-11-11
       track: 7
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: star-of-eden-anti-entropy
@@ -362,7 +471,7 @@
         - 2022-10-27
         - 2022-11-11
       track: 1
-      verified: false
+      verified: true
       featured:
         - type: battlesuit
           id: jk
@@ -381,7 +490,7 @@
         - 2022-10-27
         - 2022-11-11
       track: 2
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: nocturnal-stealth
@@ -414,20 +523,40 @@
         - 2022-10-27
         - 2022-11-11
       track: 3
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: nue-of-the-shadow
         - type: stigmata-set
           id: columbus
-      others: []
+      others:
+        - type: weapon
+          id: hyper-railguns
+        - type: weapon
+          id: godslayer-surtr
+        - type: weapon
+          id: keys-of-oblivion
+        - type: weapon
+          id: nuada-s-grief
+        - type: weapon
+          id: iris-of-the-dreams
+        - type: weapon
+          id: whisper-of-the-past
+        - type: stigmata-set
+          id: fu-hua-margrave
+        - type: stigmata-set
+          id: carlo-collodi
+        - type: stigmata-set
+          id: shakespeare-adrift
+        - type: stigmata-set
+          id: holmes
     - name: 'Star of Eden: Anti-Entropy / Abyss Flower Schicksal Arsenal'
       krName: 에덴의 별·네겐트로피 / 백화흑연 천명 무기고
       duration:
         - 2022-10-27
         - 2022-11-11
       track: 7
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: star-of-eden-anti-entropy
@@ -441,7 +570,7 @@
         - type: weapon
           id: blood-dance
         - type: weapon
-          id: image-of-basilisk
+          id: basilisk-s-image
         - type: weapon
           id: miracle-kissy-pillow
         - type: weapon
@@ -454,46 +583,79 @@
           id: wang-zhenyi
         - type: stigmata-set
           id: murata-himeko
-    - name: Blade Durandal Elf Supply
-      krName: 성검 듀란달 인형 보급
+    - name: Blade Durandal Elf Supply (KR, SEA only)
+      krName: 성검 듀란달 인형 보급 (KR, SEA only)
       duration:
-        - 2022-11-02
-        - 2022-11-04
+        - 2022-11-11
+        - 2022-11-13
       track: 6
-      verified: false
+      verified: true
       featured:
         - type: elf
           id: bd
       others: []
-    - name: Sirin Elf Supply
-      krName: 시린 인형 보급
+    - name: Sirin Elf Supply (KR, SEA only)
+      krName: 시린 인형 보급 (KR, SEA only)
       duration:
-        - 2022-10-31
-        - 2022-11-02
+        - 2022-11-09
+        - 2022-11-11
       track: 6
-      verified: false
+      verified: true
       featured:
         - type: elf
           id: sr
       others: []
-    - name: Klein Elf Elf Supply
-      krName: 클레인 인형 보급
+    - name: Klein Elf Elf Supply (KR, SEA only)
+      krName: 클레인 인형 보급 (KR, SEA only)
       duration:
-        - 2022-10-28
-        - 2022-10-31
+        - 2022-11-06
+        - 2022-11-09
       track: 6
-      verified: false
+      verified: true
       featured:
         - type: elf
           id: kl
       others: []
-    - name: EXPA Select Supply 3 (PE, SW, HOS)
-      krName: 확장 선택 보급 3 (천원기사, 차생의 은익, 의식의 율자)
+    - name: Blade Durandal Elf Supply (KR, SEA only)
+      krName: 성검 듀란달 인형 보급 (KR, SEA only)
+      duration:
+        - 2022-11-04
+        - 2022-11-06
+      track: 6
+      verified: true
+      featured:
+        - type: elf
+          id: bd
+      others: []
+    - name: Sirin Elf Supply (KR, SEA only)
+      krName: 시린 인형 보급 (KR, SEA only)
       duration:
         - 2022-11-02
         - 2022-11-04
+      track: 6
+      verified: true
+      featured:
+        - type: elf
+          id: sr
+      others: []
+    - name: Klein Elf Elf Supply (KR, SEA only)
+      krName: 클레인 인형 보급 (KR, SEA only)
+      duration:
+        - 2022-10-30
+        - 2022-11-02
+      track: 6
+      verified: true
+      featured:
+        - type: elf
+          id: kl
+      others: []
+    - name: EXPA Select Supply 3 (KR, SEA only / PE, SW, HOS)
+      krName: 확장 선택 보급 3 (KR, SEA only / 천원기사, 차생의 은익, 의식의 율자)
+      duration:
+        - 2022-11-11
+        - 2022-11-13
       track: 4
-      verified: false
+      verified: true
       featured:
         - type: battlesuit
           id: pe
@@ -502,13 +664,13 @@
         - type: battlesuit
           id: hos
       others: []
-    - name: FOCA Select Supply 3 (for PE, SW, HOS, HB, DK)
-      krName: 집중 선택 보급 3 (천원기사, 차생의 은익, 의식의 율자, 핵서버니, 혜성 구동 추천 장비)
+    - name: FOCA Select Supply 3 (KR, SEA only / for PE, SW, HOS, HB, DK)
+      krName: 집중 선택 보급 3 (KR, SEA only / 천원기사, 차생의 은익, 의식의 율자, 핵서버니, 혜성 구동 추천 장비)
       duration:
-        - 2022-11-02
-        - 2022-11-04
+        - 2022-11-11
+        - 2022-11-13
       track: 5
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: midnight-eclipse
@@ -531,13 +693,13 @@
         - type: stigmata-set
           id: holmes
       others: []
-    - name: EXPA Select Supply 2 (Vill-V, IO, SPA)
-      krName: 확장 선택 보급 2 (빌브이, 뫼비우스, 별리타)
+    - name: EXPA Select Supply 2 (KR, SEA only / Vill-V, IO, SPA)
+      krName: 확장 선택 보급 2 (KR, SEA only / 빌브이, 뫼비우스, 별리타)
       duration:
-        - 2022-10-31
-        - 2022-11-02
+        - 2022-11-09
+        - 2022-11-11
       track: 4
-      verified: false
+      verified: true
       featured:
         - type: battlesuit
           id: vill-v
@@ -546,13 +708,13 @@
         - type: battlesuit
           id: spa
       others: []
-    - name: FOCA Select Supply 2 (for Vill-V, IO, SPA, Fischl, DA)
-      krName: 집중 선택 보급 2 (빌브이, 뫼비우스, 성극요란, 피슬, 데아 앵커 추천 장비)
+    - name: FOCA Select Supply 2 (KR, SEA only / for Vill-V, IO, SPA, Fischl, DA)
+      krName: 집중 선택 보급 2 (KR, SEA only / 빌브이, 뫼비우스, 성극요란, 피슬, 데아 앵커 추천 장비)
       duration:
-        - 2022-10-31
-        - 2022-11-02
+        - 2022-11-09
+        - 2022-11-11
       track: 5
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: vill-v-weapon
@@ -575,13 +737,13 @@
         - type: stigmata-set
           id: shakespeare-adrift
       others: []
-    - name: EXPA Select Supply 1 (Aponia, HFS, MPE)
-      krName: 확장 선택 보급 1 (아포니아, 신염, 엘리시아)
+    - name: EXPA Select Supply 1 (KR, SEA only / Aponia, HFS, MPE)
+      krName: 확장 선택 보급 1 (KR, SEA only / 아포니아, 신염, 엘리시아)
       duration:
-        - 2022-10-28
-        - 2022-10-31
+        - 2022-11-06
+        - 2022-11-09
       track: 4
-      verified: false
+      verified: true
       featured:
         - type: battlesuit
           id: aponia
@@ -590,13 +752,13 @@
         - type: battlesuit
           id: mpe
       others: []
-    - name: FOCA Select Supply 1 (for Aponia, HFS, MPE, SNS, MA)
-      krName: 집중 선택 보급 1 (아포니아, 신염, 엘리시아, 캐롤, 레이븐 추천 장비)
+    - name: FOCA Select Supply 1 (KR, SEA only / for Aponia, HFS, MPE, SNS, MA)
+      krName: 집중 선택 보급 1 (KR, SEA only / 아포니아, 신염, 엘리시아, 캐롤, 레이븐 추천 장비)
       duration:
-        - 2022-10-28
-        - 2022-10-31
+        - 2022-11-06
+        - 2022-11-09
       track: 5
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: lost-conviction
@@ -619,24 +781,13 @@
         - type: stigmata-set
           id: aslaug
       others: []
-    - name: Blade Durandal Elf Supply
-      krName: 성검 듀란달 인형 보급
+    - name: EXPA Select Supply 3 (KR, SEA only / PE, SW, HOS)
+      krName: 확장 선택 보급 3 (KR, SEA only / 천원기사, 차생의 은익, 의식의 율자)
       duration:
-        - 2022-10-26
-        - 2022-10-28
-      track: 6
-      verified: false
-      featured:
-        - type: elf
-          id: bd
-      others: []
-    - name: EXPA Select Supply 3 (PE, SW, HOS)
-      krName: 확장 선택 보급 3 (천원기사, 차생의 은익, 의식의 율자)
-      duration:
-        - 2022-10-26
-        - 2022-10-28
+        - 2022-11-04
+        - 2022-11-06
       track: 4
-      verified: false
+      verified: true
       featured:
         - type: battlesuit
           id: pe
@@ -645,13 +796,13 @@
         - type: battlesuit
           id: hos
       others: []
-    - name: FOCA Select Supply 3 (for PE, SW, HOS, HB, DK)
-      krName: 집중 선택 보급 3 (천원기사, 차생의 은익, 의식의 율자, 핵서버니, 혜성 구동 추천 장비)
+    - name: FOCA Select Supply 3 (KR, SEA only / for PE, SW, HOS, HB, DK)
+      krName: 집중 선택 보급 3 (KR, SEA only / 천원기사, 차생의 은익, 의식의 율자, 핵서버니, 혜성 구동 추천 장비)
       duration:
-        - 2022-10-26
-        - 2022-10-28
+        - 2022-11-04
+        - 2022-11-06
       track: 5
-      verified: false
+      verified: true
       featured:
         - type: weapon
           id: midnight-eclipse
@@ -673,6 +824,94 @@
           id: dark-star
         - type: stigmata-set
           id: holmes
+      others: []
+    - name: EXPA Select Supply 2 (KR, SEA only / Vill-V, IO, SPA)
+      krName: 확장 선택 보급 2 (KR, SEA only / 빌브이, 뫼비우스, 별리타)
+      duration:
+        - 2022-11-02
+        - 2022-11-04
+      track: 4
+      verified: true
+      featured:
+        - type: battlesuit
+          id: vill-v
+        - type: battlesuit
+          id: io
+        - type: battlesuit
+          id: spa
+      others: []
+    - name: FOCA Select Supply 2 (KR, SEA only / for Vill-V, IO, SPA, Fischl, DA)
+      krName: 집중 선택 보급 2 (KR, SEA only / 빌브이, 뫼비우스, 성극요란, 피슬, 데아 앵커 추천 장비)
+      duration:
+        - 2022-11-02
+        - 2022-11-04
+      track: 5
+      verified: true
+      featured:
+        - type: weapon
+          id: vill-v-weapon
+        - type: stigmata-set
+          id: carlo-collodi
+        - type: weapon
+          id: basilisk-s-image
+        - type: stigmata-set
+          id: linnaeus
+        - type: weapon
+          id: astral-rend-white-dwarf
+        - type: stigmata-set
+          id: ragna
+        - type: weapon
+          id: mitternachts-waltz
+        - type: stigmata-set
+          id: wang-zhenyi
+        - type: weapon
+          id: starlance-prime
+        - type: stigmata-set
+          id: shakespeare-adrift
+      others: []
+    - name: EXPA Select Supply 1 (KR, SEA only / Aponia, HFS, MPE)
+      krName: 확장 선택 보급 1 (KR, SEA only / 아포니아, 신염, 엘리시아)
+      duration:
+        - 2022-10-30
+        - 2022-11-02
+      track: 4
+      verified: true
+      featured:
+        - type: battlesuit
+          id: aponia
+        - type: battlesuit
+          id: hfs
+        - type: battlesuit
+          id: mpe
+      others: []
+    - name: FOCA Select Supply 1 (KR, SEA only / for Aponia, HFS, MPE, SNS, MA)
+      krName: 집중 선택 보급 1 (KR, SEA only / 아포니아, 신염, 엘리시아, 캐롤, 레이븐 추천 장비)
+      duration:
+        - 2022-10-30
+        - 2022-11-02
+      track: 5
+      verified: true
+      featured:
+        - type: weapon
+          id: lost-conviction
+        - type: stigmata-set
+          id: zeno
+        - type: weapon
+          id: key-of-radiance
+        - type: stigmata-set
+          id: murata-himeko
+        - type: weapon
+          id: whisper-of-the-past
+        - type: stigmata-set
+          id: elysia
+        - type: weapon
+          id: miracle-kissy-pillow
+        - type: stigmata-set
+          id: paganini
+        - type: weapon
+          id: obscuring-wing
+        - type: stigmata-set
+          id: aslaug
       others: []
 - previousVersion: '5.9'
   nextVersion: '6.1'
