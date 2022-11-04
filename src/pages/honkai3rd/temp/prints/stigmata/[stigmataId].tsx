@@ -1,21 +1,21 @@
 /** @jsxImportSource theme-ui */
 import { NextPageContext } from 'next'
 import React from 'react'
-import PageLink from '../../../../components/atoms/PageLink'
-import { StigmataSetProps } from '../../../../components/pages/StigmataSetPage'
-import { generateI18NPaths, getI18NProps } from '../../../../server/i18n'
+import PageLink from '../../../../../components/atoms/PageLink'
+import { StigmataSetProps } from '../../../../../components/pages/StigmataSetPage'
+import { generateI18NPaths, getI18NProps } from '../../../../../server/i18n'
 import {
   listStigmata,
   getStigmataListBySetId,
   getStigmataSetBySetId,
   listStigmataSet,
   getStigmaById,
-} from '../../../../server/data/honkai3rd/stigmata'
+} from '../../../../../server/data/honkai3rd/stigmata'
 import { Box, Card, Flex, Heading, Paragraph } from 'theme-ui'
-import SecondaryLabel from '../../../../components/atoms/SecondaryLabel'
-import StigmataCard from '../../../../components/molecules/StigmataCard'
-import { useTranslation } from '../../../../lib/i18n'
-import { SingleStigmataPageProps } from '../../../../components/pages/SingleStigmataPage'
+import SecondaryLabel from '../../../../../components/atoms/SecondaryLabel'
+import StigmataCard from '../../../../../components/molecules/StigmataCard'
+import { useTranslation } from '../../../../../lib/i18n'
+import { SingleStigmataPageProps } from '../../../../../components/pages/SingleStigmataPage'
 
 type StigmataShowPageProps = StigmataSetProps | SingleStigmataPageProps
 

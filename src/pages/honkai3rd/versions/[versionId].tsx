@@ -65,6 +65,7 @@ const VersionShowPage = ({
             return weapon.name
           })
           .join(',')}`}
+        canonicalHref={`/honkai3rd/versions/${versionData.version}`}
       />
 
       <Box p={3}>

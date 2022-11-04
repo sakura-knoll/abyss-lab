@@ -49,6 +49,7 @@ const WeaponShowPage = ({
         )} / ${'⭐'.repeat(weapon.rarity)} / ${weaponCategoryName} / ATK : ${
           weapon.atk
         } / CRT : ${weapon.crt}`}
+        canonicalHref={`/honkai3rd/weapons/${weapon.id}`}
       />
 
       <Box p={3}>

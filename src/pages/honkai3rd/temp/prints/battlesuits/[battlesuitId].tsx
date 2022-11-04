@@ -10,29 +10,29 @@ import {
 } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import React from 'react'
-import BattlesuitFeatureLabel from '../../../../components/atoms/BattlesuitFeatureLabel'
-import BattlesuitRankIcon from '../../../../components/atoms/BattlesuitRankIcon'
-import PageLink from '../../../../components/atoms/PageLink'
-import SecondaryLabel from '../../../../components/atoms/SecondaryLabel'
-import TypeLabel from '../../../../components/atoms/TypeLabel'
-import ValkyrieLabel from '../../../../components/atoms/ValkyrieLabel'
+import BattlesuitFeatureLabel from '../../../../../components/atoms/BattlesuitFeatureLabel'
+import BattlesuitRankIcon from '../../../../../components/atoms/BattlesuitRankIcon'
+import PageLink from '../../../../../components/atoms/PageLink'
+import SecondaryLabel from '../../../../../components/atoms/SecondaryLabel'
+import TypeLabel from '../../../../../components/atoms/TypeLabel'
+import ValkyrieLabel from '../../../../../components/atoms/ValkyrieLabel'
 import {
   BattlesuitData,
   BattlesuitSkillGroup,
-} from '../../../../lib/honkai3rd/battlesuits'
-import { generateI18NPaths, getI18NProps } from '../../../../server/i18n'
+} from '../../../../../lib/honkai3rd/battlesuits'
+import { generateI18NPaths, getI18NProps } from '../../../../../server/i18n'
 import {
   getBattlesuitById,
   listBattlesuits,
-} from '../../../../server/data/honkai3rd/battlesuits'
-import { useTranslation } from '../../../../lib/i18n'
-import { assetsBucketBaseUrl } from '../../../../lib/consts'
-import { WeaponData } from '../../../../lib/honkai3rd/weapons'
-import { getWeaponMapByIds } from '../../../../server/data/honkai3rd/weapons'
-import { StigmataData } from '../../../../lib/honkai3rd/stigmata'
-import WeaponCard from '../../../../components/molecules/WeaponCard'
-import StigmataCard from '../../../../components/molecules/StigmataCard'
-import { getStigmataMapByIds } from '../../../../server/data/honkai3rd/stigmata'
+} from '../../../../../server/data/honkai3rd/battlesuits'
+import { useTranslation } from '../../../../../lib/i18n'
+import { assetsBucketBaseUrl } from '../../../../../lib/consts'
+import { WeaponData } from '../../../../../lib/honkai3rd/weapons'
+import { getWeaponMapByIds } from '../../../../../server/data/honkai3rd/weapons'
+import { StigmataData } from '../../../../../lib/honkai3rd/stigmata'
+import WeaponCard from '../../../../../components/molecules/WeaponCard'
+import StigmataCard from '../../../../../components/molecules/StigmataCard'
+import { getStigmataMapByIds } from '../../../../../server/data/honkai3rd/stigmata'
 
 type WeaponObjectMap = { [key: string]: WeaponData }
 type StigmataObjectMap = { [key: string]: StigmataData }

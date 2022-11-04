@@ -45,6 +45,7 @@ const ElysianRealmIndexPage = ({
           'common.abyss-lab'
         )}`}
         description={t('common.elysian-realm')}
+        canonicalHref={`/honkai3rd/elysian-realm`}
       />
 
       <Box p={3}>

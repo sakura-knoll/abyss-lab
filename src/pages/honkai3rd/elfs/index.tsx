@@ -25,6 +25,7 @@ const ElfListPage = ({ elfs }: ElfListPageProps) => {
           'common.abyss-lab'
         )}`}
         description={t('elfs-list.description')}
+        canonicalHref={`/honkai3rd/elfs`}
       />
       <Box p={3}>
         <Breadcrumb

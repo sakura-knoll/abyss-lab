@@ -52,6 +52,7 @@ const ElfShowPage = ({ elf }: ElfShowPageProps) => {
             return translate(locale, { 'ko-KR': krLabel }, label)
           })
           .join(', ')}`}
+        canonicalHref={`/honkai3rd/elfs/${elf.id}`}
       />
 
       <Box p={3}>

@@ -99,6 +99,7 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
           'common.abyss-lab'
         )}`}
         description={t('battlesuits-list.description')}
+        canonicalHref={`/honkai3rd/battlesuits`}
       />
 
       <Box p={3}>

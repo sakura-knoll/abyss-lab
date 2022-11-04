@@ -35,6 +35,7 @@ const SignetShowPage = ({ signetId, signetGroup }: SignetShowPageProps) => {
         description={`${t('common.honkai-3rd')} ${signetGroup.name} ${t(
           'elysian-realm.signets'
         )}`}
+        canonicalHref={`/honkai3rd/elysian-realm/signets/${signetId}`}
       />
 
       <Box p={3}>

@@ -43,6 +43,7 @@ const SingleStigmataPage = ({
         )} / HP : ${stigmataData.hp} / ATK : ${stigmataData.atk} / DEF : ${
           stigmataData.def
         } / CRT : ${stigmataData.crt}`}
+        canonicalHref={`/honkai3rd/stigmata/${stigmataData.id}`}
       />
       <Box p={3}>
         <Breadcrumb

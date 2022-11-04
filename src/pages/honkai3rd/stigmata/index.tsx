@@ -44,6 +44,7 @@ const StigmataListPage = ({
           'common.abyss-lab'
         )}`}
         description={t('stigmata-list.description')}
+        canonicalHref={`/honkai3rd/stigmata`}
       />
 
       <Box p={3}>

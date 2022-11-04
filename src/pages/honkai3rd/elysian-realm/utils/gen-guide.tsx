@@ -19,6 +19,8 @@ import {
 import { listStigmata } from '../../../../server/data/honkai3rd/stigmata'
 import { listWeapons } from '../../../../server/data/honkai3rd/weapons'
 import { getI18NProps } from '../../../../server/i18n'
+import Head from '../../../../components/atoms/Head'
+import { useTranslation } from 'next-i18next'
 
 interface GenerateGuidePageProps {
   weapons: WeaponData[]
@@ -36,9 +38,16 @@ const GenerateGuidePage = ({
   sigils,
 }: GenerateGuidePageProps) => {
   const router = useRouter()
+  const { t } = useTranslation()
 
   return (
     <Box>
+      <Head
+        title={`ER Guide Generator- ${t('common.honkai-3rd')} - ${t(
+          'common.abyss-lab'
+        )}`}
+        canonicalHref={`/honkai3rd/elysian-realm/utils/gen-guide`}
+      />
       <Flex m={2} sx={{ alignItems: 'center' }}>
         <Button
           onClick={() => {

@@ -57,6 +57,7 @@ const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
             'common.abyss-lab'
           )}`}
           description={t('weapons-list.description')}
+          canonicalHref={`/honkai3rd/weapons`}
         />
 
         <Box p={3}>

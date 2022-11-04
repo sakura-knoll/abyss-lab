@@ -37,6 +37,7 @@ const ElysianRealmIndexPage = ({
         description={`${t('common.elysian-realm')} ${t(
           'elysian-realm.supports'
         )}`}
+        canonicalHref={`/honkai3rd/elysian-realm/support-battlesuits`}
       />
 
       <Box p={3}>

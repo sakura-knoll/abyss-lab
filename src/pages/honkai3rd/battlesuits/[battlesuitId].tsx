@@ -98,6 +98,7 @@ const BattlesuitShowPage = ({
             return translate(locale, { 'ko-KR': krLabel }, label)
           })
           .join(', ')}`}
+        canonicalHref={`/honkai3rd/battlesuits/${battlesuit.id}`}
       />
 
       <Box p={3}>

@@ -32,6 +32,7 @@ const VersionIndexPage = ({ versionDataList }: VersionIndexPageProps) => {
           'common.abyss-lab'
         )}`}
         description={t('versions.list-page-description')}
+        canonicalHref={`/honkai3rd/versions`}
       />
 
       <Box p={3}>

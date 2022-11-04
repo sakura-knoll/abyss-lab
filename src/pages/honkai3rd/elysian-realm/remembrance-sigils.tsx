@@ -30,6 +30,7 @@ const ElysianRealmIndexPage = ({
         description={`${t('common.elysian-realm')} ${t(
           'elysian-realm.supports'
         )}`}
+        canonicalHref={`/honkai3rd/elysian-realm/remembrance-sigils`}
       />
 
       <Box p={3}>

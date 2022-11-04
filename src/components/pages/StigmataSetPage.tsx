@@ -31,6 +31,7 @@ const StigmataSetPage = ({
         description={`${t('common.honkai-3rd')} ${t(
           'stigmata-show.stigmata-set'
         )} / ${'⭐'.repeat(stigmataSet.rarity)} / ${stigmataSet.altName}`}
+        canonicalHref={`/honkai3rd/stigmata/${stigmataSet.id}-set`}
       />
 
       <Box p={3}>

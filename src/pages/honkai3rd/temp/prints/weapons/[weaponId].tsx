@@ -1,21 +1,24 @@
 /** @jsxImportSource theme-ui */
 import { Flex, Box, Card, Heading, Paragraph } from '@theme-ui/components'
 import { NextPageContext } from 'next'
-import SquareImageBox from '../../../../components/atoms/SquareImageBox'
-import { weaponCategories, WeaponData } from '../../../../lib/honkai3rd/weapons'
-import { generateI18NPaths, getI18NProps } from '../../../../server/i18n'
+import SquareImageBox from '../../../../../components/atoms/SquareImageBox'
+import {
+  weaponCategories,
+  WeaponData,
+} from '../../../../../lib/honkai3rd/weapons'
+import { generateI18NPaths, getI18NProps } from '../../../../../server/i18n'
 import {
   getWeaponById,
   getWeaponMapByIds,
   listWeapons,
-} from '../../../../server/data/honkai3rd/weapons'
-import { useTranslation } from '../../../../lib/i18n'
-import PageLink from '../../../../components/atoms/PageLink'
-import { assetsBucketBaseUrl } from '../../../../lib/consts'
-import { getBattlesuitMapByIds } from '../../../../server/data/honkai3rd/battlesuits'
-import { BattlesuitData } from '../../../../lib/honkai3rd/battlesuits'
-import BattlesuitCard from '../../../../components/molecules/BattlesuitCard'
-import WeaponCard from '../../../../components/molecules/WeaponCard'
+} from '../../../../../server/data/honkai3rd/weapons'
+import { useTranslation } from '../../../../../lib/i18n'
+import PageLink from '../../../../../components/atoms/PageLink'
+import { assetsBucketBaseUrl } from '../../../../../lib/consts'
+import { getBattlesuitMapByIds } from '../../../../../server/data/honkai3rd/battlesuits'
+import { BattlesuitData } from '../../../../../lib/honkai3rd/battlesuits'
+import BattlesuitCard from '../../../../../components/molecules/BattlesuitCard'
+import WeaponCard from '../../../../../components/molecules/WeaponCard'
 
 interface WeaponShowPageProps {
   weapon: WeaponData

@@ -46,6 +46,7 @@ const BattlesuitShowPage = ({
         description={`${t('common.honkai-3rd')} ${t(
           'common.elysian-realm'
         )} ${t('battlesuit-show.battlesuit')}`}
+        canonicalHref={`/honkai3rd/elysian-realm/battlesuits/${battlesuit.id}`}
       />
 
       <Box p={3}>
