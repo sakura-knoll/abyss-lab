@@ -43,6 +43,12 @@
       - label: qua
         krLabel: 양자
         boss: qp
+    - - label: type
+        krLabel: 상성
+        boss: ksm
+      - label: ice
+        krLabel: 빙결
+        boss: hd
   ma:
     - - label: sss
         boss: hd
@@ -68,7 +74,78 @@
         boss: wolf-sss
       - label: ss
         boss: bns
+    - - label: sss
+        boss: tank2-sss
+      - label: sss
+        boss: bke-sss
+      - label: ss
+        boss: ksm
   supplyEvents:
+    - name: 'Dark Star Focused Supply B'
+      krName: 검은 별 집중 보급 B
+      duration:
+        - 2022-12-02
+        - 2022-12-08
+      track: 3
+      verified: false
+      featured:
+        - type: weapon
+          id: dark-star
+        - type: stigmata-set
+          id: holmes
+      others: []
+    - name: 'Iris of the Dreams Focused Supply A'
+      krName: 안식의 아이리스 집중 보급 A
+      duration:
+        - 2022-12-02
+        - 2022-12-08
+      track: 2
+      verified: false
+      featured:
+        - type: weapon
+          id: iris-of-the-dreams
+        - type: stigmata-set
+          id: irene-adler
+      others:
+        - type: weapon
+          id: key-of-castigation
+        - type: weapon
+          id: eye-of-the-collapse
+        - type: weapon
+          id: dark-star
+        - type: weapon
+          id: blood-dance
+        - type: weapon
+          id: hekate-s-gloom
+        - type: weapon
+          id: hler-s-serenity
+        - type: stigmata-set
+          id: holmes
+        - type: stigmata-set
+          id: ana-schariac
+        - type: stigmata-set
+          id: avogadro
+        - type: stigmata-set
+          id: verne
+    - name: 'Fallen Rosemary Battlesuit Expansion Supply'
+      krName: 로스트 로즈마리 확장 보급
+      duration:
+        - 2022-12-02
+        - 2022-12-08
+      track: 1
+      verified: false
+      featured:
+        - type: battlesuit
+          id: fr
+        - type: battlesuit
+          id: va
+      others:
+        - type: battlesuit
+          id: kriegs
+        - type: battlesuit
+          id: sf
+        - type: battlesuit
+          id: fs
     - name: 'Silverwing:N-EX Battlesuit Expansion Supply'
       krName: 차생의 은익 확장 보급
       duration:
@@ -138,7 +215,7 @@
       krName: 데아 앵커 진급 보급
       duration:
         - 2022-11-25
-        - 2022-12-02
+        - 2022-12-08
       track: 9
       verified: false
       featured:
@@ -191,8 +268,8 @@
           id: linnaeus
         - type: stigmata-set
           id: ragna
-    - name: 'Whisper of the Past Focused Supply B'
-      krName: 과거의 꽃잎 집중 보급 B
+    - name: 'Obscuring Wing Focused Supply B'
+      krName: 영야의 깃털 집중 보급 B
       duration:
         - 2022-11-11
         - 2022-11-18
@@ -200,9 +277,9 @@
       verified: false
       featured:
         - type: weapon
-          id: whisper-of-the-past
+          id: obscuring-wing
         - type: stigmata-set
-          id: elysia
+          id: aslaug
       others: []
     - name: 'Sanguine Gaze Focused Supply A'
       krName: 피의 눈동자 집중 보급 A
@@ -237,39 +314,6 @@
           id: shakespeare-adrift
         - type: stigmata-set
           id: murata-himeko
-    - name: 'Whisper of the Past Focused Supply B'
-      krName: 과거의 꽃잎 집중 보급 B
-      duration:
-        - 2022-11-04
-        - 2022-11-11
-      track: 3
-      verified: false
-      featured:
-        - type: weapon
-          id: whisper-of-the-past
-        - type: stigmata-set
-          id: elysia
-      others:
-        - type: weapon
-          id: crusher-bunny-19c
-        - type: weapon
-          id: swan-lake
-        - type: weapon
-          id: image-of-basilisk
-        - type: weapon
-          id: nebulous-duality
-        - type: weapon
-          id: astral-rend-white-dwarf
-        - type: weapon
-          id: hler-s-serenity
-        - type: stigmata-set
-          id: ana-schariac
-        - type: stigmata-set
-          id: zhenyi
-        - type: stigmata-set
-          id: avogadro
-        - type: stigmata-set
-          id: aslaug
     - name: Nibelungen Traumlied Outfit Supply
       krName: 니벨룽겐의 꿈노래 코스튬 보급
       duration:
@@ -434,6 +478,39 @@
         - type: stigmata-set
           id: handel
       others: []
+    - name: 'Whisper of the Past Focused Supply B'
+      krName: 과거의 꽃잎 집중 보급 B
+      duration:
+        - 2022-11-04
+        - 2022-11-11
+      track: 3
+      verified: true
+      featured:
+        - type: weapon
+          id: whisper-of-the-past
+        - type: stigmata-set
+          id: elysia
+      others:
+        - type: weapon
+          id: crusher-bunny-19c
+        - type: weapon
+          id: swan-lake
+        - type: weapon
+          id: basilisk-s-image
+        - type: weapon
+          id: nebulous-duality
+        - type: weapon
+          id: astral-rend-white-dwarf
+        - type: weapon
+          id: hler-s-serenity
+        - type: stigmata-set
+          id: ana-schariac
+        - type: stigmata-set
+          id: aslaug
+        - type: stigmata-set
+          id: avogadro
+        - type: stigmata-set
+          id: wang-zhenyi
     - name: 'Star of Eden: Anti-Entropy Schicksal Arsenal'
       krName: 에덴의 별·네겐트로피 천명 무기고
       duration:
@@ -521,7 +598,7 @@
       krName: 영야 집중 보급 B
       duration:
         - 2022-10-27
-        - 2022-11-11
+        - 2022-11-04
       track: 3
       verified: true
       featured:
