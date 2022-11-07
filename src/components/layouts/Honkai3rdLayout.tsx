@@ -1,10 +1,10 @@
 /** @jsxImportSource theme-ui */
-
-import { mdiArrowUp, mdiMenu } from '@mdi/js'
+import { mdiArrowUp, mdiDiscord, mdiGithub, mdiLink, mdiMenu } from '@mdi/js'
 import Icon from '@mdi/react'
 import React, { useCallback, useRef, useState } from 'react'
-import { Box, Flex, IconButton } from 'theme-ui'
+import { Box, Flex, IconButton, Link, Text } from 'theme-ui'
 import Honkai3rdNavigator from '../organisms/Honkai3rdNavigator'
+import NextLink from 'next/link'
 
 const Honkai3rdLayout: React.FC = ({ children }) => {
   const [hiddenMobileNav, setHiddenMobileNav] = useState(true)
@@ -102,6 +102,71 @@ const Honkai3rdLayout: React.FC = ({ children }) => {
         </Flex>
 
         {children}
+
+        <Box py={3}>
+          <Flex
+            sx={{
+              justifyContent: 'center',
+              alignItems: 'center',
+              flexDirection: ['column', 'column', 'column', 'row'],
+            }}
+          >
+            <NextLink href='/honkai3rd/about' passHref>
+              <Link
+                sx={{
+                  mb: 2,
+                }}
+              >
+                About Abyss Lab
+              </Link>
+            </NextLink>
+            <Text sx={{ mx: 2, display: ['none', 'none', 'none', 'block'] }}>
+              /
+            </Text>
+            <Link
+              href='https://github.com/sakura-knoll/abyss-lab'
+              target='_blank'
+              sx={{
+                mb: 2,
+                display: 'flex',
+                alignItems: 'center',
+              }}
+            >
+              <Icon path={mdiGithub} size='20px' />
+              <Text sx={{ ml: 1 }}>GitHub(Source Code)</Text>
+            </Link>
+            <Text sx={{ mx: 2, display: ['none', 'none', 'none', 'block'] }}>
+              /
+            </Text>
+            <Link
+              href='https://discord.gg/UnrM9T9PRs'
+              target='_blank'
+              sx={{
+                mb: 2,
+                display: 'flex',
+                alignItems: 'center',
+              }}
+            >
+              <Icon path={mdiDiscord} size='20px' />
+              <Text sx={{ ml: 1 }}>Discord (EN)</Text>
+            </Link>
+            <Text sx={{ mx: 2, display: ['none', 'none', 'none', 'block'] }}>
+              /
+            </Text>
+            <Link
+              href='https://arca.live/b/cherryhill'
+              target='_blank'
+              sx={{
+                mb: 2,
+                display: 'flex',
+                alignItems: 'center',
+              }}
+            >
+              <Icon path={mdiLink} size='20px' />
+              <Text sx={{ ml: 1 }}>arca.live (KR)</Text>
+            </Link>
+          </Flex>
+        </Box>
       </Box>
     </Flex>
   )

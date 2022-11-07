@@ -9,6 +9,7 @@ import {
   Flex,
   IconButton,
   Switch,
+  Label,
 } from '@theme-ui/components'
 import NextLink from 'next/link'
 import { useRouter } from 'next/router'
@@ -86,23 +87,34 @@ const Honkai3rdNavigator = ({ close }: Honkai3rdNavigatorProps) => {
           <Icon path={mdiMenuSwap} size='20px' />
         </NavLink>
       </NextLink>
-
       <Box>
-        <Switch
-          checked={colorMode === 'dark'}
-          onChange={(event) => {
-            setColorMode(event.target.checked ? 'dark' : 'default')
-          }}
+        <Flex
           sx={{
-            'input ~ &': {
-              backgroundColor: 'muted',
-            },
-            'input:checked ~ &': {
-              backgroundColor: 'primary',
-            },
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'left',
+            mb: 2,
           }}
-          label={colorMode === 'default' ? '☀️' : '🌙'}
-        />
+        >
+          <Box>
+            <Switch
+              checked={colorMode === 'dark'}
+              onChange={(event) => {
+                setColorMode(event.target.checked ? 'dark' : 'default')
+              }}
+              sx={{
+                width: 50,
+                'input ~ &': {
+                  backgroundColor: 'muted',
+                },
+                'input:checked ~ &': {
+                  backgroundColor: 'primary',
+                },
+              }}
+            />
+          </Box>
+          <Label>{colorMode === 'default' ? '☀️' : '🌙'}</Label>
+        </Flex>
       </Box>
     </Box>
   )

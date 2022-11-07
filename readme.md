@@ -79,14 +79,14 @@ Prior works
 - [Seven Swords EN Translation Google Docs](https://docs.google.com/document/d/1vCSIOWXYogEPSYYsVzQCrpgOadw6-udABBgd5eAvoZ8/edit#)
 - [Seven Swords EN Translation Game Play Video](https://www.youtube.com/channel/UCyeHz1CGgJkXJd-c7lw_RiQ/playlists)
 
-## License
+## Copyright / License
 
 ### Game Data
 
-There is no license. All images and data under `/public/data` and `/public/assets/honkai3rd` belong to miHoYo Co., Ltd.
+All game images and game data belong to miHoYo Co., Ltd. There is no license I can provide.
 
 I'm using their assets for educational and research purpose without any permissions from them.
 
 ### Other source code
 
-MIT / Copyright 2021 Sakura Knoll
+Copyright 2021-2022 Sakura Knoll, Published under MIT License.
