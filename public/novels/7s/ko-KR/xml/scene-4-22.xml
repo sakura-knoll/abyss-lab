@@ -5,7 +5,7 @@
   <mono pageend="true">
     <p></p>
     <p></p>
-    <p>天穹峰、入雲階。</p>
+    <p>천궁봉(天穹峰), 입운계(入雲階).</p>
   </mono>
   <event action="hide_ui" duration="10"></event>
   <bg img="入云阶" duration="10" pos="0,0"></bg>
@@ -13,9 +13,9 @@
   <mono pageend="true">
     <p></p>
     <p></p>
-    <p>不思議な形の峰が天に向かって伸び、山の階段が延々と続いている。</p>
+    <p>기이한 봉우리는 하늘 높이 솟아있고, 산으로 계단이 천 척(尺)이나 이어져 있다.</p>
     <p></p>
-    <p>見上げても、石段の先は見えず、山の中腹にかかっている雲や霧しか見えなかった。</p>
+    <p>고개를 들어봐도, 돌계단은 끝이 보이지 않고, 계단의 허리를 감싸고 있는 안개처럼 내려앉은 구름만이 보인다.</p>
   </mono>
   <event action="hide_ui" duration="5"></event>
   <bg img="天穹峰顶-外景" duration="5" scale="2" origin="80%,50%"></bg>
@@ -24,73 +24,74 @@
   <mono pageend="true">
     <p></p>
     <p></p>
-    <p>山は高く、その山の頂にいる人物も達人だった。</p>
+    <p>산은 높았으며, 꼭대기에 있는 이도 그 산의 높이와 견줄 정도로 높은 사람이었다.</p>
   </mono>
   <mono>
     <p></p>
     <p></p>
-    <p>数千段の石段を登ると、峰の頂に「拂雲」という名の小さな道観が見えた。</p>
+    <p>수천 개의 청석 계단을 오르면, 봉우리 끝에 「불운(拂雲)」이라는 이름의 작은 사원이 나타난다.</p>
   </mono>
   <event action="hide_ui" duration="6"></event>
   <bg img="拂云观-侧面" duration="10"></bg>
   <delay t="6"></delay>
   <mono pageend="true">
     <p></p>
-    <p>名前、構造、屋内の調度品、</p>
-    <p>拂雲観のどれもが、かつての太虚山、精衛真人の旧居とまったく同じであった。</p>
+    <p>이름, 외형, 내부의 진열까지,</p>
+    <p>이 불운관의 모든 것은 태허산의 옛 정위선인의 집과 똑같이 되어있었다.</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>この道観の主こそ、</p>
-    <p>まさに現在の神州六大派の一つ「太虚剣派」の当主だった。</p>
-    <p>精衛の一番弟子、「軽塵剣」の林朝雨。</p>
+    <p>이 사원의 주인은,</p>
+    <p>바로 신주 6대 종문 중 하나인 「태허검파(太虛劍派)」의 수장.</p>
+    <p>정위의 수제자, 「경진검(輕塵劍)」 임조우(林朝雨).
+</p>
   </mono>
   <mono pageend="true">
     <p></p>
     <p></p>
     <p></p>
     <p></p>
-    <p>……当主の寡黙な性格に加え、困難で長い道のりが待ち受けている。</p>
-    <p>そのため、太虚門の門弟はよほど重要な用事でもない限り、この入雲階を登ってくることはない。</p>
+    <p>……당문의 과묵한 성격에 더불어, 오는 길 역시 멀고 험하니,</p>
+    <p>태허문하의 제자라도 용무가 없으면, 결코 입운계를 오르지 않는다.</p>
     <p></p>
-    <p>そのため、この日もいつもと変わらず、穏やかで平凡な一日になるはずだった。</p>
+    <p>그렇기에, 이 날도 여느 때와 같이, 평온하고 평범한 날이었다.</p>
   </mono>
   <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
   <bg img="PureBlack"></bg>
   <se id="01-70敲门声" looptimes="3"></se>
-  <text>[em delay=1]コン、[/em][em delay=1] コン、[/em][em delay=0.5] コン。[/em]</text>
-  <text>しかし、今は招かれざる客がニコニコしながら拂雲観の門を叩いている。</text>
+  <text>[em delay=1]똑,[/em][em delay=1] 똑,[/em][em delay=0.5] 똑.[/em]</text>
+  <text>하지만 지금 한 명의 불청객이, 조용히 웃으며 불운관의 문을 두드리고 있었다.</text>
   <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
   <event action="hide_ui" duration="1"></event>
   <motion chara="004" action="show" pos="center" img="苏湄-自信-标准-中景（带武器）" duration="1"></motion>
   <delay t="1"></delay>
-  <text>その者は颯爽とした装いで、双剣を背負い、髪は生まれながらにして赤く、とても美しい顔立ちをしていた。</text>
+  <text>그 불청객은 당당한 옷차림에, 등에는 쌍검 두 자루를 매고, 붉은 머리카락과 옥과 같은 눈동자를 가진 아름다운 용모를 하고 있었다.</text>
   <text>
-    <p>武術界に現れることは滅多になく、その門弟たちも目立たないように行動している。[\s]</p>
-    <p>しかし、この者の名前は、六大派の当主や長老に劣らないほど有名だった。</p>
+    <p>그녀가 강호 밖으로 나오는 일은 드물었고, 그녀의 문하제자 역시 매우 조용히 행동했다.[\s]</p>
+    <p>하지만 이 자의 명성은, 6대종의 당주와 장로에 비교해도 전혀 밀리지 않았다.</p>
   </text>
-  <notification>伝記解放：「蘇湄」</notification>
+  <notification>전기 해금: 「소미」</notification>
   <event action="achievement" aid="809d736ce396e092"></event>
   <text>
-    <p>彼女こそ精衛の二番弟子、現在の「無双門」の主、[\s]</p>
-    <p>「無双仙人」——蘇湄だった。</p>
+    <p>그녀는 정위의 두 번째 제자, 현재는 「무쌍문(無雙門)」의 문주.[\s]</p>
+    <p>「무쌍선자」——소미(蘇湄).</p>
   </text>
   <motion chara="004" action="hide"></motion>
   <bg img="拂云观-侧面" scale="1.5" origin="0%,50%" duration="3"></bg>
   <se id="01-70敲门声"></se>
-  <text>コン。</text>
+  <text>똑.</text>
   <bg img="拂云观-侧面" duration="1" origin="0%,50%"></bg>
-  <text>指の関節で木の門を軽く叩く。不愉快な音ではなく、乾いて心地よい音が響いた。</text>
+  <text>손가락 마디로 나무 문을 두드린다. 그 소리엔 탁함이 없고, 오히려 청아하여 듣기 좋았다.</text>
   <motion chara="004" action="show" pos="right" img="苏湄-标准-标准-远景（带武器）"></motion>
-  <text>中からは返答がない。赤髪の女性も腹を立てることなく、終始、顔に穏やかな笑みを浮かべている。</text>
+  <text>안에선 아무런 반응도 없었지만, 붉은 머리의 여자는 화내는 일 없이, 시종일관 침착하게 미소를 유지하고 있었다.</text>
   <se id="01-70敲门声2"></se>
-  <text>コン、コン。</text>
+  <text>똑, 똑.</text>
   <motion chara="004" action="hide" duration="0"></motion>
   <event action="hide_ui" duration="3"></event>
   <se id="01-71开门声"></se>
   <bg img="拂云观-侧面（开门）" duration="3"></bg>
   <delay t="3"></delay>
-  <text>ついに門が静かに開く。</text>
+  <text>마침내, 문이 살짝 열렸다.</text>
   <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
   <event action="hide_ui" duration="4"></event>
   <bg img="拂云观-亮" duration="1"></bg>
@@ -98,8 +99,8 @@
   <motion chara="003" action="show" pos="center" duration="3" img="林朝雨-不悦-标准-中景"></motion>
   <delay t="3"></delay>
   <text>
-    <p>門を叩く者がずっと待っていたことに気付いていないかのようだった。</p>
-    <p>「軽塵剣」こと林朝雨は、ゆっくりと中から出てくると、かつての二番目の妹弟子を冷たい目で見た。</p>
+    <p>방문한 사람의 긴 기다림에도 아랑곳하지 않는다는 듯,</p>
+    <p>「경진검」 임조우가 천천히 밖으로 나와, 두 번째 사매(師妹)를 차가운 눈길로 바라보았다.</p>
   </text>
   <motion chara="003" action="hide"></motion>
   <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
@@ -107,231 +108,231 @@
   <bg img="拂云观-侧面（开门）" duration="1"></bg>
   <motion chara="003" action="show" pos="left" img="林朝雨-标准-标准-远景"></motion>
   <motion chara="004" action="show" pos="right" img="苏湄-甜笑-标准-远景（带武器）"></motion>
-  <notification>伝記解放：「林朝雨」</notification>
+  <notification>전기 해금: 「임조우」</notification>
   <event action="achievement" aid="fcf2a1388f09b18b"></event>
-  <dialog chara="004">「朝雨姉さん、お久しぶりね。」</dialog>
-  <text>蘇湄が軽やかな笑顔を見せる。まるで長年の友人と久しぶりに再会したかのようだった。[\s]この世には無数の笑顔があるが、林朝雨もこの種の笑顔だけはどう反応していいのか分からなかった。</text>
+  <dialog chara="004">「사저(師姐), 얼마 만인지요.」</dialog>
+  <text>소미가 마치 오랜 친구를 다시 만난 것처럼 경쾌한 웃음을 지었다.[\s] 세상엔 수만가지의 웃는 얼굴이 있지만, 임조우는 이런 웃음만큼은 어찌 대해야 할지 알지 못하였다.</text>
   <motion chara="003" action="img_trans" img="林朝雨-认真-标准-远景"></motion>
   <motion chara="004" action="img_trans" img="苏湄-平静-标准-远景（带武器）"></motion>
-  <dialog chara="003">「……二十年ね。」</dialog>
-  <dialog chara="004">「二十年？」</dialog>
+  <dialog chara="003">「……20년이다.」</dialog>
+  <dialog chara="004">「20년?」</dialog>
   <motion chara="004" action="img_trans" img="苏湄-标准-标准-远景（带武器）"></motion>
-  <text>「無双」の蘇湄は少し考えて、まったく気にすることなく笑いながら言う。</text>
-  <dialog chara="004">「そんなに久しぶりかしら？」</dialog>
+  <text>「무쌍」 소미는 잠깐 생각하더니, 곧 개의치 않고 웃으며 말했다.</text>
+  <dialog chara="004">「그리 오래되었습니까?」</dialog>
   <text>
-    <p>その声が林朝雨の耳の中へと入り、細い尖った針のように彼女の心を刺した。</p>
-    <p>彼女は思わず目の前の女性を一瞥する。</p>
+    <p>그녀의 목소리는 임조우의 귓가로 흘러들어가, 마치 바늘처럼 가슴을 찔러댔다.</p>
+    <p>그녀는 참지 못하고 눈앞의 여인을 쳐다보았다.</p>
   </text>
   <motion chara="003" action="hide"></motion>
   <motion chara="004" action="hide"></motion>
   <transition mode="dissolve" in="1" stop="0.5" out="1" color="#000000"></transition>
   <bg img="PureBlack"></bg>
   <motion chara="004" action="show" pos="center" img="苏湄-标准-标准-近景"></motion>
-  <text>十年以上もの歳月が流れているのに、蘇湄はまったく変わっていない。まるで、彼女の世界では時の流れが止まっているかのようだ。</text>
-  <text inline="true">彼女の髪はまだ赤いままでツヤがある。</text>
+  <text>십몇 년이 지났지만, 수미는 변한 게 조금도 없어 보였다. 마치 그녀의 세계는 시간이 멈춰버린 듯하였다.</text>
+  <text inline="true">그녀의 붉은 머리칼은 아직도 윤기가 흘렀으며,</text>
   <text>
     <p></p>
-    <p>美しい顔には潤いとハリがあり、触れれば破けてしまいそうだ。</p>
+    <p>수려한 얼굴은 희고 매끄러워, 불기만 해도 깨질 것 같았다.</p>
   </text>
   <text>
-    <p>彼女の目は……相変わらず大きく、人を魅了する……</p>
-    <p>彼女の唇は朱く、色っぽいと思えるほどだった……この女狐は、一体どれだけの紅を使ったのだろう？</p>
+    <p>그녀의 눈은…… 눈은 여전히 크고, 사람들이 빠져들게 만든다……</p>
+    <p>그리고 그녀의 입술은 붉은색, 요염한 붉은색이다…… 이 요염함을 위해, 연지를 얼마나 발랐을까?</p>
   </text>
-  <text>[em color=#FAFAD2 italic]……どうして彼女が？どうして私ではないの？[/em]</text>
+  <text>[em color=#FAFAD2 italic]……왜 그녀일까? 왜 내가 아닐까?[/em]</text>
   <motion chara="004" action="hide"></motion>
   <transition mode="eye" in="1" stop="0.5" out="1" color="#000000"></transition>
   <bg img="拂云观-侧面（开门）"></bg>
   <motion chara="003" action="show" pos="left" img="林朝雨-愤恨-标准-远景"></motion>
   <motion chara="004" action="show" pos="right" img="苏湄-标准-标准-远景（带武器）"></motion>
-  <text>一瞬にして林朝雨の心が嫉妬でいっぱいになった。それは急激に沸騰し、凍りつく。氷のように熱く、火のように冷たかった。</text>
-  <text>蘇湄は彼女の気持ちを見透かしたかのように、絶妙な間合いでため息をついた。</text>
+  <text>질투심이 순식간에 임조우의 가슴속을 가득 채우고, 빠르게 끓어오르더니, 이내 얼어붙었다. 그것은 마치 얼음처럼 뜨겁고, 불처럼 차가웠다.</text>
+  <text>소미는 마치 그녀의 생각을 꿰뚫어 본 듯, 절묘한 순간에 한탄하기 시작했다.</text>
   <motion chara="004" action="img_trans" img="苏湄-闭目-标准-远景（带武器）"></motion>
   <motion chara="003" action="img_trans" img="林朝雨-标准-标准-远景"></motion>
-  <dialog chara="004">「はぁ、二十年ぶりなのね。私も年を取ったわ。」</dialog>
-  <dialog chara="003">「……そうかしら。」</dialog>
-  <text>太虚剣派の当主は淡々と答えた。</text>
+  <dialog chara="004">「아, 20년입니까, 저도 늙었군요.」</dialog>
+  <dialog chara="003">「……그렇군.」</dialog>
+  <text>태허검파 당주가 담담하게 대답했다.</text>
   <motion chara="003" action="img_trans" img="林朝雨-认真-标准-远景"></motion>
-  <dialog chara="003">「思い出話はよしましょう。あなたも私も世間話をする必要なんてないでしょう。用があるなら話してちょうだい。」</dialog>
+  <dialog chara="003">「옛일은 말할 필요 없고, 서로 잡담해 봐야 아무런 의미도 없으니, 그냥 용무나 말하시게.」</dialog>
   <motion chara="004" action="img_trans" img="苏湄-瞥视-标准-远景（带武器）"></motion>
-  <dialog chara="004">「ええ、それもそうね。」</dialog>
+  <dialog chara="004">「네, 그럼.」</dialog>
   <motion chara="004" action="img_trans" img="苏湄-平静-标准-远景（带武器）"></motion>
-  <text>蘇湄の目にはかすかな陰りが浮かんだようだったが、すぐに消える。林朝雨が自分の目を疑うほどの早さだった。</text>
-  <dialog chara="004">「……朝雨姉さんを訪ねたのは、彦ちゃんが情報を掴んだからなの。」</dialog>
+  <text>순간 소미의 눈동자에 희미한 흐려짐이 보인듯 하더니, 금새 사라진다. 이는 임조우가 자신의 눈을 의심하게 만들었다.</text>
+  <dialog chara="004">「……사저를 예방한 것은, 망아지에 대한 소식을 들었기 때문입니다.」</dialog>
   <motion chara="003" action="img_trans" img="林朝雨-惊讶-标准-远景"></motion>
-  <dialog chara="003">「彦卿が？」</dialog>
-  <text>林朝雨は急に顔色を変え、厳しい口調で言った。</text>
+  <dialog chara="003">「언경(彦卿)에 대한?」</dialog>
+  <text>임조우의 표정이 급변하며, 목소리 역시 날카로워진다.</text>
   <motion chara="003" action="img_trans" img="林朝雨-愤怒-标准-远景"></motion>
-  <dialog chara="003">「彦卿はどこにいるの？」</dialog>
+  <dialog chara="003">「그는 어디 있지?」</dialog>
   <mono pageend="true">
     <p></p>
-    <p>蘇湄の言った彦ちゃんとは、二人の弟弟子「百里逐駒」こと、馬彦卿のことだ。[\s]</p>
+    <p>소미가 말한 망아지는, 두 사람의 사제(師弟)이자, 「백리축구(百里逐駒)」 마언경(馬彦卿)을 가리킨다.[\s]</p>
     <p></p>
-    <p>この太虚剣派の六番弟子は傲慢な性格で、常に世間に縛られずに生きている。</p>
+    <p>태허 제6검인 그는 성정이 광포하고, 세속에 구애받는 일 없이 살아오고 있었다.</p>
     <p></p>
-    <p>馬彦卿と「無双」蘇湄は親密な関係で、武術界の誰もが羨む武術家の男女だった。</p>
+    <p>그와 「무쌍」 소미는 상당히 가까운 관계로, 모든 무림인들의 부러움을 받던 한 쌍이었다.</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>しかし彼は突然、二十歳以上も年の離れた一番上の姉弟子と結婚すると宣言し、武術界に衝撃を与えた。</p>
+    <p>하지만, 그는 돌연 20세나 차이나는 대사저를 아내로 맞겠다고 공표해, 강호가 일시에 놀랐다.</p>
     <p></p>
-    <p>婚礼の当日、今度は酒に酔った勢いでくだらない話をし、自分の昔の名前を恥じて捨てたと言い、居合わせた招待客たちに気まずい思いをさせた。</p>
+    <p>혼례식 당일, 그는 또 술에 취해 헛소리를 지껄이며, 자기 이름이 부끄러우니 버리겠다는 등, 혼례식에 찾아온 손님들을 난처하게 만들었다.</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>結婚後も、この太虚剣派の副当主が腰を落ち着けることはほとんどなかった。</p>
+    <p>심지어 혼례 이후에도, 이 태허검파의 부당주는 얌전하게 있지를 못했다.</p>
     <p></p>
-    <p>1年のほとんどを、自分の愛馬「夜血」と共に各地を旅して過ごしている。彼の行いは良く言えば「義侠心がある」、悪く言えば「悪事を働いている」ということになるだろう。</p>
+    <p>일 년의 대부분을, 그의 애마 「야혈(夜血)」과  함께 사방을 떠돌아다녔다. 그의 행실은 좋게 말하면 「의협심」으로 충만하다고 할 수 있겠지만, 나쁘게 말하면 「제멋대로」 사는 것과 다를 바 없었다.</p>
   </mono>
   <mono>
     <p></p>
-    <p>上は権力者や金持ち、下は悪党や盗賊に至るまで……馬非馬は相手が誰であろうと構うことなく手を出し、喧嘩を売っていた。この「狂人」は十年ほどの間、確かに各地の武術界で名を馳せていた。</p>
+    <p>위로는 권세가나 부자부터, 밑으로는 건달이나 도적들까지…… 마비마(馬非馬)는 누구에게든 덤벼들고, 모두에게 싸움을 걸어왔다. 이른바 「광인」, 그는 지난 10년간 무림에서 그 누구보다도 유명했다.</p>
   </mono>
   <dialog chara="004">
-    <p>「彦卿……彦ちゃんはその名前を嫌っているわ。</p>
-    <p>朝雨姉さんは今でも呼び方を変えないんだから……もう、私たちの中では朝雨姉さんが一番昔を恋しがっているのね。」</p>
+    <p>「언경…… 망아지는 그 이름을 싫어했는데,</p>
+    <p>사저는 여전히 그대로 부르시는군요…… 아, 우리 중에선 사저가 그 누구보다도 과거를 그리워하고 계시니.」</p>
   </dialog>
   <motion chara="003" action="img_trans" img="林朝雨-愤恨-标准-远景"></motion>
   <text>
-    <p>[em color=#FAFAD2 italic]いえ……[/em]</p>
-    <p>林朝雨は心の中で思った。</p>
-    <p>[em color=#FAFAD2 italic]彼が嫌っているのは過去、まさに、あなたが作り出した過去よ。[/em]</p>
+    <p>[em color=#FAFAD2 italic]아니…… [/em]</p>
+    <p>임조우는 속으로 생각했다.</p>
+    <p>[em color=#FAFAD2 italic]그가 증오하는 그 과거는, 바로 네가 만들어낸 과거니까.[/em]</p>
   </text>
   <text>
-    <p>その思いは胸にしまい、それきりにした。</p>
-    <p>それを言葉にすることもしなかった。</p>
+    <p>생각은 더 이상 소리내는 일 없이 그대로 마음속으로 가라앉았다.</p>
+    <p>그녀도 굳이 그걸 말로 표현하려 하진 않았다.</p>
   </text>
   <motion chara="003" action="img_trans" img="林朝雨-不悦-标准-远景"></motion>
   <motion chara="004" action="img_trans" img="苏湄-闭目-标准-远景（带武器）"></motion>
-  <dialog chara="003">「彦卿はどこにいるの？」</dialog>
+  <dialog chara="003">「그는 어디 있지?」</dialog>
   <text>
-    <p>林朝雨は再び聞いた。[\s]</p>
-    <p>蘇湄は彼女に向けていた視線をすぐに逸らし、ため息をつきながら言う。</p>
+    <p>임조우가 재차 물었다.[\s]</p>
+    <p>소미는 시선을 빠르게 피하며, 한숨을 쉬었다.</p>
   </text>
   <motion chara="004" action="img_trans" img="苏湄-瞥视-标准-远景（带武器）"></motion>
-  <dialog chara="004">「彦ちゃんの性格は知っているでしょう……夜を徹して漠北に向かったわ。」</dialog>
-  <dialog chara="003">「塞外に？……そんなところで何をするつもりなの？」</dialog>
-  <dialog chara="004">「凌霜を探しに行ったの。」</dialog>
+  <dialog chara="004">「망아지의 성정은 잘 알고 계시지 않습니까…… 그는 이미 밤사이에 막북으로 달려나갔습니다.」</dialog>
+  <dialog chara="003">「국경 너머? 그는 거기서 뭘 할 생각인가?」</dialog>
+  <dialog chara="004">「다섯 번째 사매를 찾고 있습니다.」</dialog>
   <bgm looptimes="0"></bgm>
   <motion chara="003" action="img_trans" img="林朝雨-愤恨-标准-远景"></motion>
   <motion chara="004" action="img_trans" img="苏湄-标准-标准-远景（带武器）"></motion>
-  <dialog chara="003">「——！！！」</dialog>
+  <dialog chara="003">「——!!!」</dialog>
   <event action="hide_ui" duration="1"></event>
   <motion chara="003" action="img_trans" img="林朝雨-愤恨-持剑-远景" duration="1"></motion>
   <delay t="1"></delay>
   <motion chara="004" action="img_trans" img="苏湄-瞥视-标准-远景（带武器）"></motion>
   <text>
-    <p>突如、怒りの炎が硬い氷を融かした。</p>
-    <p>林朝雨は大きく前に一歩進むと、銀色の長剣を音もなく左手に握る。</p>
+    <p>순간, 타오르는 분노가 그 단단한 얼음을 녹여버리고 말았다.</p>
+    <p>임조우는 앞으로 크게 한 발을 내딛으며, 은색의 장검을 소리 없이 왼손으로 쥐었다.</p>
   </text>
   <motion chara="003" action="img_trans" img="林朝雨-冷笑-持剑-远景"></motion>
   <dialog chara="003">
-    <p>「蘇湄……今度は一体、何を企んでいるの？</p>
-    <p>二十年経っても、まだ私たちがあなたに騙されるとでも思っているの！？」</p>
+    <p>「소미…… 대체 무슨 짓을 꾸미는 거지?</p>
+    <p>이미 20년이나 지났다, 여전히 우리가 네게 속을 거라 생각하는가?!」</p>
   </dialog>
   <motion chara="003" action="img_trans" img="林朝雨-愤恨-持剑-远景"></motion>
   <dialog chara="003">
-    <p>「凌霜がどこで隠居暮らしをしているか、私と彦卿が知らないとでも？</p>
-    <p>凌霜が剣一本だけで各地を回り、名を馳せて災いに巻き込まれた時、誰が凌霜を湘南から逃がしたと？」</p>
+    <p>「능상(凌霜)이 은거하는 곳을, 너는 나와 언경이 몰랐을 거라 생각했나?</p>
+    <p>능상이 검 한 자루만 가지고 중원을 돌아다니다, 갑자기 세상 물정 모르고 큰일을 당하게 되었을 때, 너는 누가 그녀를 상남(湘南)에서 벗어날 수 있도록 도왔다고 생각하는가?」</p>
   </dialog>
-  <dialog chara="003">「密かに凌霜を漠北まで護衛して、身の回りの世話をしたのは誰だと思っているの？」</dialog>
+  <dialog chara="003">「그리고, 능상이 은밀하게 막북에 이를 수 있도록 호위해 주고, 그 신변을 돌봐온 건 누구라고 생각하는가?」</dialog>
   <dialog chara="003">
-    <p>「彦卿の性格……ふふっ、彦卿の性格も凌霜の性格も分かっているわ。</p>
-    <p>たとえ明日、天が崩れるようなことがあっても、彦卿は凌霜を邪魔をしないし、彼女の静かな修行を妨げもしないでしょう。」</p>
+    <p>「언경의 성정…… 허, 난 언경의 성격도 잘 알지만, 능상의 성격도 잘 안다.</p>
+    <p>당장 내일 하늘이 무너지더라도, 그는 그렇게 사소한 일 따위로 능상을, 그녀의 수행을 방해하진 않을 것이다.」</p>
   </dialog>
-  <dialog chara="003">「それで？彦卿が私に知らせる暇すらなかった知らせとはどんなものなの？言ってみてちょうだい。」</dialog>
+  <dialog chara="003">「그래서? 네가 말할 소식이 무엇이길래, 언경이 내게 직접 알려 줄 시간조차 내지 못한 거지?」</dialog>
   <dialog chara="004">「……」</dialog>
   <motion chara="003" action="img_trans" img="林朝雨-冷笑-持剑-远景"></motion>
-  <dialog chara="003">「……またこんなやり方なのね。蘇湄、変わらないわね。彦卿はあなたの話なら喜んで聞き入れる。『彦ちゃん』……ふふ。」</dialog>
-  <dialog chara="003">「あなたは？あなたは彦卿を思い通りに使って、東へ行け、西へ行けと指図するだけ……私の夫を何だと思っているの？私を何だと思っているの？」</dialog>
+  <dialog chara="003">「……아직도 이런 방법인가, 소미, 달라진 게 없군. 네가 언경을 「망아지」라고 불러주면 그는 뭐든지 들어주겠지…… 후후.」</dialog>
+  <dialog chara="003">「넌 대체 뭐냐? 그를 마음대로 부리려고 하지 않나, 동쪽으로 가라, 서쪽으로 가라…… 너는 대체 내 부군이 뭐라고 생각하는 거냐? 그리고 나는 뭐라고 생각하는 거냐?」</dialog>
   <motion chara="003" action="img_trans" img="林朝雨-愤怒-持剑-远景"></motion>
   <dialog chara="003">
-    <p>「蘇湄、今日こそはっきり言いましょう。</p>
-    <p>あなたの心に同門の誼がないのなら、</p>
-    <p>私は『無双』と戦うことも厭わないわ！」</p>
+    <p>「소미, 오늘 똑똑히 알려주마.</p>
+    <p>네 마음속에 동문의 정이 없다면,</p>
+    <p>나도 「무쌍」과 일전을 벌이는 것을 주저하지 않겠다!」</p>
   </dialog>
   <dialog chara="004">「……」</dialog>
   <motion chara="003" action="img_trans" img="林朝雨-愤恨-持剑-远景"></motion>
   <text>
-    <p>長年溜め込んでいた言葉を痛烈に吐き出したが、決して気分は良くなかった。</p>
-    <p>林朝雨は相手の沈黙に満足したが、その沈黙を訝しんでもいた。</p>
+    <p>다년간 억눌려 온 호통을 토해냈지만, 기분이 후련하지는 않았다.</p>
+    <p>임조우는 상대의 침묵의 만족하면서도, 상대의 무언에 의아해했다.</p>
   </text>
   <text>
-    <p>風が吹き荒び、天穹峰の頂には骨に突き刺さるような寒さが漂っている。</p>
-    <p>このような天気は怒りをかき立てるが、怒りの炎をかき消して意気消沈させることもある。</p>
+    <p>바람 소리가 울리고, 뼈를 파고드는 서늘함이 천궁봉 정상을 맴돌고 있다.</p>
+    <p>이런 날씨는 화를 돋우기도 하지만, 거꾸로 활활 타오르는 불길을 꺼트려, 의기소침하게 만들기도 한다.</p>
   </text>
-  <text>林朝雨は鼓動を17回数えた。我慢の限界が訪れようとした時、蘇湄が口を開いた。</text>
+  <text>심박소리를 열일곱 번이나 세고, 그녀의 인내가 한계에 도달할 무렵, 소미가 입을 열었다.</text>
   <bgm id="千年之羽"></bgm>
   <motion chara="004" action="img_trans" img="苏湄-闭目-标准-远景（带武器）"></motion>
-  <dialog chara="004">「『軽塵柳』……」</dialog>
+  <dialog chara="004">「『경진류(輕塵柳)』……」</dialog>
   <motion chara="003" action="img_trans" img="林朝雨-惊讶-持剑-远景"></motion>
-  <text>蘇湄は林朝雨を見ることもなく、彼女が持つ軟剣をじっと見つめていた。</text>
+  <text>소미는 임조우를 바라보지 않고, 그녀의 손에 있는 연검만을 응시하고 있었다.</text>
   <dialog chara="004">
-    <p>「本当に懐かしいわ……</p>
-    <p>それのおかげで、婉如は命拾いしたし、凌霜は剣を突き刺せたのよ。」</p>
+    <p>「정말 그립습니다……</p>
+    <p>이것 덕분에, 완여는 목숨을 보전했고, 다섯 번째 사매에게 검으로 찌를 기회를 주었죠.」</p>
   </dialog>
   <motion chara="004" action="img_trans" img="苏湄-自信-标准-远景（带武器）"></motion>
-  <text>蘇湄は顔を上げ、林朝雨の視線を受け止めた。顔に浮かんでいた笑みはあっという間に消える。</text>
-  <dialog chara="004">「よかった、まだ持っていたのね。」</dialog>
+  <text>그녀가 고개를 들어 임조우의 눈을 보았다, 누군가를 조롱하는 듯한 표정은 어느샌가 사라져있었다.</text>
+  <dialog chara="004">「다행입니다, 아직 사저의 손에 있군요.」</dialog>
   <motion chara="003" action="img_trans" img="林朝雨-惊恐-持剑-远景"></motion>
-  <dialog chara="003">「あなた——」</dialog>
+  <dialog chara="003">「넌——」</dialog>
   <text>
-    <p>二十年前のあの日の話題になり、林朝雨は無意識に一歩後ずさりした。[\s]</p>
-    <p>冷たい空気が背筋で凝結して水滴となり、氷のような汗となって服の背中を滑り落ちていく。</p>
+    <p>20년 전의 그날을 떠올리며, 임조우는 무의식적으로 한걸음 물러났다.[\s]</p>
+    <p>한기가 등에 맺혀 이슬이 되고, 식은땀이 되어 등을 타고 흘러내렸다.</p>
   </text>
   <motion chara="003" action="img_trans" img="林朝雨-怅然-持剑-远景"></motion>
   <text>
-    <p>何年もの間、あの時の光景は骨の髄にまで入り込み、彼女を苦しめ続けていた。</p>
-    <p>彼女は過去を振り払ったつもりでいた。</p>
-    <p>しかし今日、蘇湄が訪れたことで、古傷に再び触れることとなった。</p>
+    <p>수년간, 당시의 모습은 뼛속까지 사무쳐 그녀를 계속해서 괴롭혀왔었다.</p>
+    <p>이젠 그 지난 일을 묻어버려 완전히 벗어났다고 생각했건만,</p>
+    <p>오늘 두 번째 사매의 방문이, 옛 상처를 건드리고 말았다.</p>
   </text>
-  <dialog chara="003">「昔の話はしない約束だったでしょう——」</dialog>
+  <dialog chara="003">「우리 옛일은 말하지 않기로——」</dialog>
   <motion chara="004" action="img_trans" img="苏湄-闭目-标准-远景（带武器）"></motion>
-  <dialog chara="004">「ええ。昔のことはね。だって過去のことだし、覚えていても意味はないから。」</dialog>
+  <dialog chara="004">「네. 옛일은 집어치우죠, 그 일은 이미 끝났고, 다시 떠올려봐야 아무런 의미도 없으니까요.」</dialog>
   <motion chara="004" action="img_trans" img="苏湄-平静-标准-远景（带武器）"></motion>
-  <dialog chara="004">「だから、私は新しいことを話しているのよ。」</dialog>
+  <dialog chara="004">「그래서, 제가 얘기하려는 건 새로운 소식입니다.」</dialog>
   <motion chara="003" action="img_trans" img="林朝雨-惊恐-持剑-远景"></motion>
-  <dialog chara="003">「……えっ！？」</dialog>
-  <text>林朝雨は驚いたが、すぐに妹弟子の言葉の意味を悟った。</text>
-  <dialog chara="003">「まさか……師匠のこと？」</dialog>
-  <dialog chara="004">「ええ。」</dialog>
+  <dialog chara="003">「……뭐!?」</dialog>
+  <text>임조우는 순간, 사매의 말에 담긴 의미를 깨달았다.</text>
+  <dialog chara="003">「네…… 말은, 사부가?」</dialog>
+  <dialog chara="004">「예.」</dialog>
   <event action="hide_ui" duration="1"></event>
   <motion chara="004" action="img_trans" img="苏湄-微笑-别过-远景（带武器）" duration="0.5"></motion>
   <delay t="1"></delay>
-  <text>蘇湄は空を見上げた。まるで何か面白いものでも見たかのように、口元にかすかな笑みを浮かべる。</text>
-  <dialog chara="004">「私たちの軒轅剣がまた抜かれようとしている。だけど、私の考えが正しければ——朝雨姉さんよりも私が先になるでしょうね。」</dialog>
-  <dialog chara="003">「そんな……あなた、そんなこと……ありえないわ……」</dialog>
-  <text>太虚剣派の女当主がここまで慌てた表情を見せるなど、この二十年の間で初めてだった。</text>
+  <text>소미가 하늘을 보다, 공중에서 흥미로운 것을 발견한 듯, 입가에 작은 미소를 떠올렸다.</text>
+  <dialog chara="004">「우리의 헌원검이 또다시 검집을 빠져나오려 합니다. 아마 제 짐작이 맞다면—— 제가 먼저겠군요.」</dialog>
+  <dialog chara="003">「이…… 넌, 그럴 리가…… 그……」</dialog>
+  <text>태허검파의 여당주가, 20년 만에 처음으로 당황한 기색을 보였다.</text>
   <motion chara="003" action="img_trans" img="林朝雨-怅然-持剑-远景"></motion>
-  <dialog chara="003">「……師匠は亡くなったのよ。」</dialog>
+  <dialog chara="003">「……사부는 돌아가셨다.」</dialog>
   <dialog chara="004">
-    <p>「ええ。でも、仙人が死ぬってどういうことかしら？私を信じて。師匠は戻ってくるわ。</p>
-    <p>朝雨姉さん、私、彦ちゃん……私たち七人は誰も無関係ではいられないのよ。」</p>
+    <p>「맞습니다, 하지만 선인이 어찌 죽겠습니까? 믿어주십시오, 사부께서 돌아오셨습니다.</p>
+    <p>저, 사저, 망아지…… 우리 일곱중 어느 누구도 여기서 벗어날 수 없습니다.」</p>
   </dialog>
   <motion chara="003" action="img_trans" img="林朝雨-惊恐-持剑-远景"></motion>
-  <dialog chara="003">「……いえ……」</dialog>
-  <text>林朝雨は下を向いてぼんやりとしている。まるで、蘇湄の話が返事に値しない、荒唐無稽な内容であるかのようだった。</text>
-  <dialog chara="003">「でも……もし……」</dialog>
-  <text>呟く声がますます小さくなっていく。</text>
-  <text>
-    <p>再び顔を上げて蘇湄を見た時、林朝雨の顔にはかすかな笑みが浮かんでいた。</p>
-    <p>それは、怒りと疲労が限界を超えたことによる笑みだった。</p>
-  </text>
+  <dialog chara="003">「……아냐……」</dialog>
+  <text>임조우는 상대방이 터무니없는 말들을 해 대답할 가치가 없다는 듯 머리를 숙였다.</text>
+  <dialog chara="003">「하지만…… 만약……」</dialog>
+  <text>중얼거리는 소리는 점점 작아졌다.</text>
   <motion chara="003" action="img_trans" img="林朝雨-怒笑-持剑-远景"></motion>
-  <dialog chara="003">「師匠が昔のことで決着をつけに来るのであれば、はじめはあなたに会いに行くはずよ。蘇湄。」</dialog>
-  <text>太虚剣派の女当主は優しい声で言った。</text>
+  <text>
+    <p>소미의 얼굴을 다시 보았을 때, 임조우의 얼굴에 희미한 미소가 떠오르기 시작했다.</p>
+    <p>그것은 분노의 극에 달한 미소였으며, 지칠 대로 지쳐버린 다음의 미소였다.</p>
+  </text>
+  <dialog chara="003">「사부께서 그해의 일을 청산하러 오신다면, 널 처음으로 찾겠구나, 소미.」</dialog>
+  <text>태허검파의 여당주가 부드럽게 말했다.</text>
   <motion chara="004" action="img_trans" img="苏湄-痛苦-别过-远景（带武器）"></motion>
-  <dialog chara="004">「違うわ、違うわよ。師匠は誰が中心人物か知らないもの。予想では私は2番目のはずよ。でも、順番なんてどうでもいいの。私が朝雨姉さんに会いに来たのはそのためなのよ。」</dialog>
+  <dialog chara="004">「아뇨, 아뇨, 사부는 주동자가 누군지 모르십니다. 추정하기에, 저는 두 번째 일 겁니다~ 하지만, 순서는 중요하지 않습니다, 그래서 제가 사저를 찾아온 것입니다.」</dialog>
   <motion chara="004" action="img_trans" img="苏湄-平静-标准-远景（带武器）"></motion>
   <motion chara="003" action="img_trans" img="林朝雨-心头一震-持剑-远景"></motion>
-  <text>蘇湄は目線をゆったりとした白い雲から、林朝雨の顔へと向ける。</text>
+  <text>유유히 떠다니는 흰 구름을 바라보던 눈빛이 다시 임조우를 향했다.</text>
   <text>
-    <p>林朝雨はドキッとした。[\s]</p>
-    <p>それは彼女がよく知っている蘇湄の目だった。</p>
+    <p>임조우는 순간 심장이 멎은 듯하였다.[\s]</p>
+    <p>그것은 그녀가 잘 알고 있는, 두 번째 사매의 눈빛이었다.</p>
   </text>
   <event action="hide_ui" duration="1"></event>
   <motion chara="004" action="img_trans" img="苏湄-标准-标准-远景（带武器）"></motion>
   <delay t="1"></delay>
-  <text>蘇湄は怖がることも慌てることもなく、落ち着き払って林朝雨を見た。</text>
-  <dialog chara="004">「師匠は既に一人殺しているの。」</dialog>
+  <text>소미는 담담하게 그녀를 바라보았다. 그녀에게 두려움이나 당황감은 전혀 보이지 않았다.</text>
+  <dialog chara="004">「사부께선 이미 한 명을 죽였습니다.」</dialog>
   <transition mode="fade" in="5" stop="0.5" out="0" color="#000000"></transition>
 </scene>
