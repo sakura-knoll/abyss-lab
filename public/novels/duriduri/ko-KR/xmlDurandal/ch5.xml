@@ -1,846 +1,867 @@
 <?xml version="1.0" encoding="utf-8"?>
 <data>
-  <story>
-    <scene id="0" background="bg.jpg">
-    	<bgm src="11_12_mid-lude.mp3" status="start"></bgm>
-    	<cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
-    	<goto goto="10" change="#000000"/>		
-	  </scene>
-	  <scene id="10" background="deepWater.jpg">
-	  	<bgm src="12_14_moonLight.mp3" status="start"></bgm>
- 			<text>夢を見た。ロシアの孤児院にいた頃の夢を。</text>
- 			<text>都市の名前はソチ。気候はあたたかく、山に囲まれた港町。</text>
- 			<text>狭い路地のアスファルトを踏みしめ、新鮮な空気を肺いっぱい吸い込んで、ゆっくりと吐き出す。胸のうちにあった陰鬱としたものも一緒に吐き出せた気がした。</text>
- 			<text>6月の麗らかな日差し。道端に生えた雑草の中、ノアザミの花が咲いている。</text>
- 			<text>紫色の刺々しい、気高く強い花だ。どんな厳しい環境でも生きられるほどに。</text>
- 			<text>まるで、貧しくも勤勉な人々に似ている。</text>
- 			<text>ミツバチが花の間を行き交う。懐郷的な匂いが鼻をくすぐる。</text>
- 			<text>ここがいつ、どこなのかもわからない。ただの幻なのかもしれない。</text>
- 			<text>だが確かに感じる。今となっては失くしても平気な、だけど失意のような何かを感じさせるものが、この地に眠っていると。</text>
- 			<text>温泉の湯気を越え、深い青を湛える黒海の岸辺に立つ。</text>
- 			<text remark="next">アルゴー号の船乗りや、失明したオストロフスキー。無数の著名な、無名の英雄たちが、この地に立ち、波の音を聞いてきたのだろう。</text>
+	<story>
+		<scene id="0" background="bg.jpg">
+			<bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+			<cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+			<goto goto="10" change="#000000" />
+		</scene>
+		<scene id="10" background="deepWater.jpg">
+			<bgm src="12_14_moonLight.mp3" status="start"></bgm>
+			<text>꿈을 꾸곤 한다. 러시아 요양원에 있었을 적의 꿈.</text>
+			<text>요양원이 있던 도시는 소치라고 불렸다. 3면은 산으로, 나머지 한 면은 바다와 닿아있고, 계절은 항상 봄 같은 곳이었다.</text>
+			<text>좁은 아스팔트 골목 사이를 자유롭게 돌아다니며, 신선한 공기를 들이켰다가 마음속의 모든 응어리들과 함께 내뱉는다.</text>
+			<text>6월이면, 닳고 닳은 길가엔, 야생 엉겅퀴들이 삼삼오오 잡초들 사이에서 머리를 내민다.</text>
+			<text>붉은 보라색에, 가시를 가진, 당당하고 꿋꿋하게 자라나는 꽃들은, 그 무엇보다도 척박한 이 땅에서 자유롭게 자라난다.</text>
+			<text>형편은 나쁘지만 열심히 노력하는 사람들처럼.</text>
+			<text>벌이 바쁘게 꽃 사이를 날고 있다. 엄마의 향기가 난다.</text>
+			<text>이걸 언제 보았는지, 어디서 보았는지는 모른다. 어쩌면 그냥 이상한 환영에 불과할지도.</text>
+			<text>다만, 지금 이 꿈속에서는, 이런 것들을 모두 잃게 되더라도 상관없을 거란 확신이 든다. 실의를 느끼게 하는 것들은, 타임캡슐에 담겨, 이 땅 위에 잠들어있는 듯하다.</text>
+			<text>온천이 만든 옅은 안개를 넘어, 짙푸르고 깊은 흑해의 연안 위에 서있다.</text>
+			<text remark="next">아르고호의 선원, 양쪽 눈을 잃은 오스트롭스키에 따르면, 유명하거나, 이름 없는 수많은 영웅이 이곳에서 파도 소리를 들었다고 한다.</text>
 			<remark post="U2FsdGVkX18Hb7L85UTiSUAt87Ml">
-				<p class="article-text-h">注釈：</p>
-				<p class="article-text">ニコライ・アレクセーエヴィチ・オストロフスキー（Николай Алексеевич Островский, 1904 - 1936）、ソビエト連邦の作家。15歳で赤軍に志願。16歳の時、戦闘中に頭部を負傷し、右目が失明。23歳で全身不随、両目が失明するも、口述によって29歳の時、小説『鋼鉄はいかに鍛えられたか』を完成させた。信念と根気、自己肯定を語った自伝小説である。</p>
-			</remark>	
- 			<text>海燕が自由に空を翔ける。だが確かに懐かしい匂いがした。</text>
- 			<text>ここがいつ、どこなのかもわからない。ただの幻なのかもしれない。</text>
- 			<goto goto="20" change="#000000"/>
-	  </scene>
-	  <scene id="20" background="submarineCabinBlurDeep.jpg">
-	  	<bgm src="peerGynt.mp3" status="start"></bgm>
- 			<show chara="shakesSmileClose" position="left"/>
- 			<speak chara="_Shakespeare">や、おはよう。</speak>
- 			<show chara="shakesLaughClose" position="left"/>
- 			<speak chara="_Shakespeare">外界と遮断されたこの船倉の中では、早寝早起きは存外難しいものだな。</speak>
- 			<show chara="shakesLaughClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSighClose" position="right"/>
- 			<speak chara="_Bianka">まあ、10個目の目覚ましでようやく起きた船長には、確かにそうかもしれませんね。</speak>
- 			<show chara="biankaProudClose" position="right"/>
- 			<speak chara="_Bianka">戦乙女たるもの、生活リズムの乱れで仲間に迷惑はかけませんが！</speak>
- 			<show chara="biankaProudClose" position="right" opacity="0.8"/> 			
- 			<show chara="shakesSmileClose" position="left"/>
- 			<speak chara="_Shakespeare">なるほど、リタさんから聞いたのと、少々違うようだね？</speak>
- 			<show chara="shakesSmileClose" position="left" opacity="0.8"/>
- 			<show chara="biankaProudClose" position="right"/>
- 			<speak chara="_Bianka">……</speak>
- 			<speak chara="_Bianka">…………</speak>
- 			<show chara="biancaShyClose" position="right"/>
- 			<speak chara="_Bianka">……待って。な、何を聞いたんです？</speak>
- 			<show chara="biancaShyClose" position="right" opacity="0.8"/>
- 			<show chara="shakesLaughClose" position="left"/>
- 			<speak chara="_Shakespeare">なに大したことじゃない。ただ……</speak> 			
- 			<show chara="shakesBagaLeftClose" position="left"/>
- 			<speak chara="_Shakespeare">寝てる間に頭が枕の下に潜り込んでたり——</speak>
- 			<show chara="shakesBagaRightClose" position="left"/>
- 			<speak chara="_Shakespeare">布団が5回もベッドの下に落ちたり——</speak>
- 			<show chara="shakesBagaLeftClose" position="left"/>
- 			<speak chara="_Shakespeare">大人しくなったかと思いきや、ヨダレでシーツまでびしょびしょになってたり——</speak>
- 			<show chara="shakesBagaLeftClose" position="left" opacity="0.8"/>
- 			<show chara="biankaBiteClose" position="right"/>
- 			<shake position="right" time="250"></shake>	
- 			<speak chara="_Bianka">ストップ！ストーップ！！</speak>
- 			<show chara="biankaChayaoClose" position="right"/>
- 			<speak chara="_Bianka">何でそこまで教えた——じゃなくて、何でそんな嘘を教えたんですか、あの人は！</speak>
- 			<show chara="biankaChayaoClose" position="right" opacity="0.8"/>
- 			<show chara="shakesLaughClose" position="left"/>
- 			<speak chara="_Shakespeare">アハハハ！本人に聞いてみれば?</speak>
- 			<show chara="shakesLaughClose" position="left" opacity="0.8"/>
- 			<show chara="biankaAngryClose" position="right"/>
- 			<speak chara="_Bianka">うむむむむ……</speak>
- 			<show chara="biankaAngryClose" position="right" opacity="0.8"/>
- 			<show chara="rita17SquintClose" position="left"/>
- 			<speak chara="_Rita">ビアンカ様、シェイクスピアさん、お話中失礼致します。</speak>
- 			<show chara="rita17SmileClose" position="left"/>
- 			<speak chara="_Rita">本日の朝食は、鯨の脂を使った揚げパンに、ベーコンエッグ、えびとアスパラの炒め、りんごサラダ、きのこのクリームスープでございます——</speak>
- 			<show chara="rita17SquintClose" position="left"/>
- 			<speak chara="_Rita">——ごゆっくりどうぞ。</speak>
- 			<show chara="rita17SquintClose" position="left" opacity="0.8"/>
- 			<show chara="biankaHesitateClose" position="right"/>
- 			<speak chara="_Bianka">（ぐぬぬ、完璧に話が逸れた！でも……）</speak>
- 			<show chara="biancaShyClose" position="right"/>
- 			<speak chara="_Bianka">……美味しそう！</speak>
- 			<show chara="biankaConfidentClose" position="right"/>
- 			<speak chara="_Bianka">（もぐもぐ）</speak>
- 			<show chara="biankaChayaoClose" position="right"/>
- 			<shake position="right" time="250"></shake>	
- 			<speak chara="_Bianka">こ、この揚げパン、すごく美味しい！！</speak>
- 			<show chara="biankaProudClose" position="right"/>
- 			<shake position="right" time="250"></shake>
- 			<speak chara="_Bianka">リタ、有能すぎませんか！？</speak>
- 			<show chara="biankaProudClose" position="right" opacity="0.8"/>
- 			<show chara="rita17SmileClose" position="left"/>
- 			<speak chara="_Rita">ビアンカ様にお褒め頂き、大変光栄でございます。</speak>
- 			<show chara="rita17SmileClose" position="left" opacity="0.8"/>
- 			<show chara="biancaShyClose" position="right"/>
- 			<speak chara="_Bianka">……こ、これで、ゆ、許されたと思わないでくださいね。</speak>
- 			<show chara="biankaBiteClose" position="right"/>
- 			<shake position="right" time="250"></shake>
- 			<speak chara="_Bianka">た、隊長の私生活をベラベラと他人に話さないこと！いいですね、副官殿？</speak>
- 			<show chara="biankaBiteClose" position="right" opacity="0.8"/>
- 			<show chara="rita17SquintClose" position="left"/>
- 			<speak chara="_Rita">クスッ。はい、肝に銘じておきます。</speak>
- 			<show chara="rita17SquintClose" position="left" opacity="0.8"/>
- 			<show chara="biankaShoutClose" position="right"/>
- 			<shake position="right" time="250"></shake>
- 			<speak chara="_Bianka">……もうっ！従う気ゼロでしょ！</speak>
- 			<goto goto="30" clockwise="1"/>	
-	  </scene>
-	  <scene id="30" background="submarineCabinBlurSunset.jpg">
-	  	<bgm src="11_29_lab.mp3" status="start"></bgm>
- 			<text>世界のどこかで語り継がれてきた話がある——</text>
- 			<text>「誰かの心を掴みたくば、まず胃袋を掴め」と。</text>
- 			<text>朝食でお腹いっぱいになりながら、何故かそんな根拠もない話が脳裏に浮かんだ。</text>
- 			<show chara="shakesConfidentClose" position="center"/>
- 			<speak chara="_Shakespeare">皆、朝食は済んだようだな。「カレドニア号」も浮上完了、まもなく入港する。</speak>
- 			<show chara="shakesSmileClose" position="center"/>
- 			<speak chara="_Shakespeare">今日という良き日に、一つワガママな決定事項を伝える。それは——</speak>
- 			<show chara="shakesLaughClose" position="center"/>
- 			<speak chara="_Shakespeare">——総員、24時間の休暇を言い渡す！！</speak>
- 			<hide position="center"></hide>
- 			<show chara="pirateGirlClose" position="left"/>			
- 			<speak chara="_pirateFollower">おおーッ！</speak>
- 			<show chara="pirateGirlClose" position="left" opacity="0.8"/>
- 			<show chara="pirateBoyClose" position="right"/> 
- 			<speak chara="_pirateFollower">やったぜ！！！</speak>
+				<p class="article-text-h">주:</p>
+				<p class="article-text">니콜라이·알렉세예비치·오스트롭스키(Николай Алексеевич Островский, 1904 - 1936), 소비에트 연방의 작가. 15세에 군에 입대하였고, 16세 때 전투 중 머리를 다쳐 오른쪽 눈이 실명하고 만다. 이후 23세엔 전신불수에 두 눈을 잃게 되지만, 그런 상황에 구술을 이어가(아내가 옮김) 29세에 신념과 끈기, 자기 긍정을 다룬 『강철은 어떻게 단련되었는가』를 완성했다.</p>
+			</remark>
+			<text>바다제비가 자유롭게 하늘과 땅을 노닌다. 분명 엄마의 향기가 나는 게 느껴진다.</text>
+			<text>이걸 언제 보았는지, 어디서 보았는지는 모른다. 어쩌면 그냥 이상한 환영에 불과할지도.</text>
+			<goto goto="20" change="#000000" />
+		</scene>
+		<scene id="20" background="submarineCabinBlurDeep.jpg">
+			<bgm src="peerGynt.mp3" status="start"></bgm>
+			<show chara="shakesSmileClose" position="left" />
+			<speak chara="_Shakespeare">여어, 좋은 아침.</speak>
+			<show chara="shakesLaughClose" position="left" />
+			<speak chara="_Shakespeare">아무래도 여긴 바깥과 차단된 선실이니, 일찍 자고 일찍 일어나는 건 좀 어려울 거야.</speak>
+			<show chara="shakesLaughClose" position="left" opacity="0.8" />
+			<show chara="biankaSighClose" position="right" />
+			<speak chara="_Bianka">뭐, 알람이 10번이나 울려도 못 일어난 선장에겐 분명 그렇긴 하겠네.</speak>
+			<show chara="biankaProudClose" position="right" />
+			<speak chara="_Bianka">물론, 자질을 갖춘 발키리는, 일할 때나 쉴 때나 동료에게 폐를 끼치는 일 따윈 결코 만들지 않지!</speak>
+			<show chara="biankaProudClose" position="right" opacity="0.8" />
+			<show chara="shakesSmileClose" position="left" />
+			<speak chara="_Shakespeare">하지만, 내가 리타 씨에게 들은 거랑은 조금 다른 거 같은데?</speak>
+			<show chara="shakesSmileClose" position="left" opacity="0.8" />
+			<show chara="biankaProudClose" position="right" />
+			<speak chara="_Bianka">……</speak>
+			<speak chara="_Bianka">…………</speak>
+			<show chara="biancaShyClose" position="right" />
+			<speak chara="_Bianka">……야아, 뭐, 뭐라고 말했는데?</speak>
+			<show chara="biancaShyClose" position="right" opacity="0.8" />
+			<show chara="shakesLaughClose" position="left" />
+			<speak chara="_Shakespeare">리타가 뭐라 했냐고? 그냥……</speak>
+			<show chara="shakesBagaLeftClose" position="left" />
+			<speak chara="_Shakespeare">「머리를 베개 밑으로 파묻은 채 자고 있다」거나——</speak>
+			<show chara="shakesBagaRightClose" position="left" />
+			<speak chara="_Shakespeare">「하룻밤 사이에 이불을 다섯 번씩이나 걷어찬다」거나——</speak>
+			<show chara="shakesBagaLeftClose" position="left" />
+			<speak chara="_Shakespeare">「드디어 얌전해졌나 싶더니, 아침에 일어날 때쯤엔 침대 시트가 침으로 흠뻑 하다」거나——</speak>
+			<show chara="shakesBagaLeftClose" position="left" opacity="0.8" />
+			<show chara="biankaBiteClose" position="right" />
+			<shake position="right" time="250"></shake>
+			<speak chara="_Bianka">그만! 그만! 그마안!!</speak>
+			<show chara="biankaChayaoClose" position="right" />
+			<speak chara="_Bianka">왜 너한테 그런 사실——아니, 왜 너한테 그런 말도 안 되는 소문을 퍼뜨리는 거야!</speak>
+			<show chara="biankaChayaoClose" position="right" opacity="0.8" />
+			<show chara="shakesLaughClose" position="left" />
+			<speak chara="_Shakespeare">하하하하! 그건 네가 본인에게 가서 물어보지 그래?</speak>
+			<show chara="shakesLaughClose" position="left" opacity="0.8" />
+			<show chara="biankaAngryClose" position="right" />
+			<speak chara="_Bianka">으으으으으으……</speak>
+			<show chara="biankaAngryClose" position="right" opacity="0.8" />
+			<show chara="rita17SquintClose" position="left" />
+			<speak chara="_Rita">비앙카 님, 셰익스피어 선장님, 방해해서 죄송합니다.</speak>
+			<show chara="rita17SmileClose" position="left" />
+			<speak chara="_Rita">여기 오늘의 아침입니다. 메인은 고래기름으로 튀긴 빵, 사이드는 베이컨 오믈렛, 절인 아스파라거스를 첨가한 새우튀김, 사과 샐러드, 수프는 버섯 크림 수프입니다——</speak>
+			<show chara="rita17SquintClose" position="left" />
+			<speak chara="_Rita">——부디, 즐겨주시길.</speak>
+			<show chara="rita17SquintClose" position="left" opacity="0.8" />
+			<show chara="biankaHesitateClose" position="right" />
+			<speak chara="_Bianka">(젠장, 화제가 완전히 바뀌었잖아! 근데……)</speak>
+			<show chara="biancaShyClose" position="right" />
+			<speak chara="_Bianka">……냄새, 너무 좋네!</speak>
+			<show chara="biankaConfidentClose" position="right" />
+			<speak chara="_Bianka">(우걱우걱)</speak>
+			<show chara="biankaChayaoClose" position="right" />
+			<shake position="right" time="250"></shake>
+			<speak chara="_Bianka">이, 이 튀긴 빵 엄청 맛있잖아?!!</speak>
+			<show chara="biankaProudClose" position="right" />
+			<shake position="right" time="250"></shake>
+			<speak chara="_Bianka">리타, 어떻게 이렇게 잘하는 거야?</speak>
+			<show chara="biankaProudClose" position="right" opacity="0.8" />
+			<show chara="rita17SmileClose" position="left" />
+			<speak chara="_Rita">비앙카 님께 칭찬을 받게 되어, 정말 영광입니다.</speak>
+			<show chara="rita17SmileClose" position="left" opacity="0.8" />
+			<show chara="biancaShyClose" position="right" />
+			<speak chara="_Bianka">……나, 난 뇌물 같은 건 받지 않아, 내, 내가 이걸로 넘어갈 거 같아?</speak>
+			<show chara="biankaBiteClose" position="right" />
+			<shake position="right" time="250"></shake>
+			<speak chara="_Bianka">사, 상관의 사생활을 남에게 마음대로 얘기하는 건 좋지 않아! 알겠어, 부관?!</speak>
+			<show chara="biankaBiteClose" position="right" opacity="0.8" />
+			<show chara="rita17SquintClose" position="left" />
+			<speak chara="_Rita">후훗, 리타는 가슴 깊이 새겨두겠습니다.</speak>
+			<show chara="rita17SquintClose" position="left" opacity="0.8" />
+			<show chara="biankaShoutClose" position="right" />
+			<shake position="right" time="250"></shake>
+			<speak chara="_Bianka">……전혀 그럴 맘 없어 보이잖아?!</speak>
+			<goto goto="30" clockwise="1" />
+		</scene>
+		<scene id="30" background="submarineCabinBlurSunset.jpg">
+			<bgm src="11_29_lab.mp3" status="start"></bgm>
+			<text>어떤 나라의 남자들 사이에선 이런 속담이 있다고 한다——</text>
+			<text>「여자의 마음을 잡고 싶다면, 여자의 배를 먼저 잡아라.」 라고.</text>
+			<text>아침을 배부르게 먹고 나니, 뜬금없이 이런 말도 안되는 속담이 떠올랐다.</text>
+			<show chara="shakesConfidentClose" position="center" />
+			<speak chara="_Shakespeare">음, 모두 아침 식사를 마친 것 같네. 「칼레도니아호」의 부상도 완료, 이제 곧 입항합니다.</speak>
+			<show chara="shakesSmileClose" position="center" />
+			<speak chara="_Shakespeare">오늘은 신의 도움 아래, 그대들이 저의 「과감한」 결정을 받아들이길 희망합니다——</speak>
+			<show chara="shakesLaughClose" position="center" />
+			<speak chara="_Shakespeare">——전원, 24시간, 휴가를 즐기도록!!</speak>
+			<hide position="center"></hide>
+			<show chara="pirateGirlClose" position="left" />
+			<speak chara="_pirateFollower">와아!!</speak>
+			<show chara="pirateGirlClose" position="left" opacity="0.8" />
+			<show chara="pirateBoyClose" position="right" />
+			<speak chara="_pirateFollower">최고다!!!</speak>
 			<hide position="left"></hide>
 			<hide position="right"></hide>
- 			<show chara="shakesSmileClose" position="center"/>
- 			<speak chara="_Shakespeare">ついでにアレクサンドリアに移住したい者は、この船長自ら手続きをしてやろう。</speak>
- 			<show chara="shakesLaughClose" position="center"/>
- 			<speak chara="_Shakespeare">この不夜城で思いっきり羽根を伸ばしてこい！ギャンブル以外はすべて経費で落とす！</speak>
- 			<hide position="center"></hide>
- 			<show chara="pirateGirlClose" position="left"/>
- 			<speak chara="_pirateFollower">船長万歳！！</speak>
- 			<show chara="pirateGirlClose" position="left" opacity="0.8"/>
- 			<show chara="pirateBoyClose" position="right"/> 
- 			<speak chara="_pirateFollower">休み万歳！！！</speak>
+			<show chara="shakesSmileClose" position="center" />
+			<speak chara="_Shakespeare">알렉산드리아에 정착을 원하는 「히치하이커」 분들은, 본 선장을 찾으시면 절차에 대한 도움을 드리겠습니다.</speak>
+			<show chara="shakesLaughClose" position="center" />
+			<speak chara="_Shakespeare">그럼 자리에 계신 여러분, 이 잠들지 않는 도시를 마음껏 즐겨주시길——먹고, 마시고, 놀러 다니세요! 도박만 아니면, 비용은 전부 제가 부담합니다!</speak>
+			<hide position="center"></hide>
+			<show chara="pirateGirlClose" position="left" />
+			<speak chara="_pirateFollower">선장 만세!!!</speak>
+			<show chara="pirateGirlClose" position="left" opacity="0.8" />
+			<show chara="pirateBoyClose" position="right" />
+			<speak chara="_pirateFollower">휴가 만세!!!</speak>
 			<hide position="left"></hide>
 			<hide position="right"></hide>
- 			<show chara="shakesConfidentClose" position="center"/>
- 			<speak chara="_Shakespeare">ゴホン。長年、私についてきた古株の者たちはここ「地元」に詳しいだろうが、何名か最近乗船してきた仲間もいる。</speak>
- 			<show chara="shakesSmileClose" position="center"/>
- 			<speak chara="_Shakespeare">ついては、最も重要な命令を下す——</speak>
- 			<show chara="shakesLaughClose" position="center"/>
- 			<speak chara="_Shakespeare">それは、新旧船員がくじでペアを組み、行動をともにしてもらうことだ！三人以上で組むのは許さん。ちゃんと二人一組だぞ！デートみたいに！</speak>
- 			<hide position="center"></hide>
- 			<show chara="lallaSmileClose" position="right"/>
- 			<speak chara="_Lalla">くすっ。</speak>
- 			<show chara="lallaSmileClose" position="right" opacity="0.8"/>
- 			<show chara="biankaSurpriseClose" position="left"/>
- 			<speak chara="_Bianka">え？</speak>
- 			<show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
- 			<show chara="wattScaredClose" position="right"/>
- 			<speak chara="_Watt">え……</speak>
- 			<show chara="wattScaredClose" position="right" opacity="0.8"/>
- 			<show chara="ironWhiteClose" position="left"/>
- 			<speak chara="_Ironface">……</speak>
+			<show chara="shakesConfidentClose" position="center" />
+			<speak chara="_Shakespeare">흠흠. 절 따라 오랜 기간 함께하신 분들께는, 이곳이 「고향」처럼 익숙하겠지만, 지금은 승선한 지 얼마 안 된 친구들도 있으니.</speak>
+			<show chara="shakesSmileClose" position="center" />
+			<speak chara="_Shakespeare">그렇기에, 선장으로서, 곧 도착을 앞둔 이 순간, 저는 오늘 하루 가장 중요한 명령을 여러분께 내릴까 합니다——</speak>
+			<show chara="shakesLaughClose" position="center" />
+			<speak chara="_Shakespeare">신입 선원과 기존 선원, 추첨을 할 테니 짝을 지어 함께하세요! 다 같이 몰려다니지는 말고, 딱 두 사람씩! 데이트처럼!</speak>
+			<hide position="center"></hide>
+			<show chara="lallaSmileClose" position="right" />
+			<speak chara="_Lalla">풉.</speak>
+			<show chara="lallaSmileClose" position="right" opacity="0.8" />
+			<show chara="biankaSurpriseClose" position="left" />
+			<speak chara="_Bianka">어?</speak>
+			<show chara="biankaSurpriseClose" position="left" opacity="0.8" />
+			<show chara="wattScaredClose" position="right" />
+			<speak chara="_Watt">음……</speak>
+			<show chara="wattScaredClose" position="right" opacity="0.8" />
+			<show chara="ironWhiteClose" position="left" />
+			<speak chara="_Ironface">……</speak>
 			<hide position="left"></hide>
 			<hide position="right"></hide>
- 			<show chara="shakesSweatyClose" position="center"/>
- 			<speak chara="_Shakespeare">ほらほら、くじも用意してやったぞ？</speak>
- 			<show chara="shakesSmileClose" position="center"/>
- 			<speak chara="_Shakespeare">自らの手で運命を引くか——それとも、この船長様が代わりに引いてやるか。</speak>
- 			<show chara="shakesBagaLeftClose" position="center"/>
- 			<speak chara="_Shakespeare">後者は、裏で操作されても文句言わないでくれよ。</speak>
- 			<hide position="center"></hide>
- 			<show chara="biankaBiteClose" position="left"/>
- 			<speak chara="_Bianka">ちっ……「劇団長」というのは、大人しくできないものなんですか？</speak>
- 			<show chara="biankaBiteClose" position="left" opacity="0.8"/>
- 			<show chara="cervantesLaughClose" position="right"/>
- 			<speak chara="_Miguel">ハハハ、いいじゃないか。</speak>
- 			<show chara="cervantesSmileClose" position="right"/>
- 			<speak chara="_Miguel">遠慮しているなら、このじじいが先に引かせてもらうぞ。</speak>
- 			<show chara="cervantesGazeClose" position="right"/>
- 			<speak chara="_Miguel">（ガサ、ゴソ——）</speak>
- 			<show chara="cervantesShoutClose" position="right"/>
- 			<speak chara="_Miguel">よし、こいつじゃ！！</speak>
- 			<show chara="cervantesLaughClose" position="right"/>
- 			<speak chara="_Miguel">ほほぅ!「S」とは、船長のことかのう？</speak>
- 			<show chara="cervantesLaughClose" position="right" opacity="0.8"/>
- 			<show chara="shakesLaughClose" position="left"/>
- 			<speak chara="_Shakespeare">ハハハッ、そうだ！じいさん、あんたの仲間のペアが全部決まるまで、もう少し待っていてもらわないといけないがね。</speak>
- 			<show chara="shakesLaughClose" position="left" opacity="0.8"/>
- 			<show chara="cervantesLaughClose" position="right"/>
- 			<speak chara="_Miguel">そりゃ別に構わん！ずっと世話になっておる身じゃしな。</speak>
- 			<show chara="cervantesSmileClose" position="right"/>
- 			<speak chara="_Miguel">さて……次は誰じゃ？</speak>
- 			<show chara="cervantesSmileClose" position="right" opacity="0.8"/>
- 			<show chara="manfredSmileClose" position="left"/>
- 			<speak chara="_Manfred">……昨日は、迷惑をかけてすまなかった。</speak>
- 			<show chara="manfredColdClose" position="left"/>
- 			<speak chara="_Manfred">（ガサ、ゴソ——）</speak>
- 			<show chara="manfredQuestionClose" position="left"/>
- 			<speak chara="_Manfred">「I」...？</speak>
- 			<show chara="manfredQuestionClose" position="left" opacity="0.8"/>
- 			<show chara="ironWhiteClose" position="right"/>
- 			<speak chara="_Ironface">私たちがペアのようだ。</speak>
- 			<show chara="ironBlueClose" position="right"/>
- 			<speak chara="_Ironface">軍人は好きじゃないが——母国語が同じよしみだ。ガイドぐらいはしてあげよう。</speak>
- 			<show chara="ironBlueClose" position="right" opacity="0.8"/>
- 			<show chara="manfredSmileClose" position="left"/>
- 			<speak chara="_Manfred">……よろしく頼む。</speak>
- 			<show chara="manfredSmileClose" position="left" opacity="0.8"/>
- 			<show chara="biankaAngryClose" position="right"/>
- 			<speak chara="_Bianka">……</speak>
- 			<show chara="biankaHesitateClose" position="right"/>
- 			<speak chara="_Bianka">（ガサ、ゴソ——）</speak>
- 			<show chara="biankaSighClose" position="right"/>
- 			<speak chara="_Bianka">「W」。</speak>
- 			<show chara="biankaSighClose" position="right" opacity="0.8"/>
- 			<show chara="wattInspiredClose" position="left"/>
- 			<speak chara="_Watt">あはは……ボクだね。</speak>
- 			<show chara="wattInspiredClose" position="left" opacity="0.8"/>
- 			<show chara="biankaHesitateClose" position="right"/>
- 			<speak chara="_Bianka">……ふう。</speak>
- 			<show chara="biankaSneerClose" position="right"/>
- 			<speak chara="_Bianka">まあ、いいでしょう。面倒そうなやつだけど、本当に面倒事を起こすようには見えませんし。</speak>
- 			<show chara="biankaProudClose" position="right"/>
- 			<speak chara="_Bianka">それでは、よろしくおねがいしますね？</speak>
- 			<show chara="biankaProudClose" position="right" opacity="0.8"/>
- 			<show chara="wattScaredClose" position="left"/>
- 			<speak chara="_Watt">えっと、ありがとうございます？褒められたんだよね……？</speak>
- 			<show chara="wattScaredClose" position="left" opacity="0.8"/>
- 			<show chara="shakesSweatyClose" position="right"/>
- 			<speak chara="_Shakespeare">はぁ……技師くん、お人よし過ぎ。</speak>
- 			<show chara="shakesSweatyClose" position="right" opacity="0.8"/>
- 			<show chara="lallaSmileClose" position="left"/>
- 			<speak chara="_Lalla">……では、残りは私とリタさんですわね。</speak>
- 			<show chara="lallaSmileClose" position="left" opacity="0.8"/>
- 			<show chara="rita17SquintClose" position="right"/>
- 			<speak chara="_Rita">そうですね。何かおすすめのお土産はありますか？</speak>
- 			<show chara="lallaSighClose" position="left"/>
- 			<speak chara="_Lalla">う～ん……お土産か……困りましたね。</speak>
- 			<show chara="lallaSmileClose" position="left"/>
- 			<speak chara="_Lalla">多すぎて選べないと思いますよ？</speak>
- 			<goto goto="40" clockwise="1"/>	
-	  </scene>
-	  <scene id="40" background="alexandriaHarbor.jpg">
-	  	<bgm src="12_29_busyHarbor.mp3" status="start"></bgm>
- 			<show chara="biankaSurpriseClose" position="right"/>
- 			<speak chara="_Bianka">……</speak>
- 			<show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
- 			<show chara="shakesSmileClose" position="left"/>
- 			<speak chara="_Shakespeare">どうだい？世界一大きい都市を眺めてみて、何か感想は？</speak>
- 			<show chara="shakesSmileClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSneerClose" position="right"/>
- 			<speak chara="_Bianka">ふん。大都市というには、レトロな街並みですね。アデンか、コルカタみたい。</speak>
- 			<show chara="biankaSneerClose" position="right" opacity="0.8"/>
- 			<show chara="shakesSweatyClose" position="left"/>
- 			<speak chara="_Shakespeare">おや、行ったことのない場所ばかりだね——どの世界でも。</speak>
- 			<show chara="shakesSweatyClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSneerClose" position="right"/>
- 			<speak chara="_Bianka">それでは……フィレンツェかイスタンブールは？</speak>
- 			<show chara="biankaSneerClose" position="right" opacity="0.8"/>
- 			<show chara="shakesSweatyClose" position="left"/>
- 			<speak chara="_Shakespeare">……どれも行ったことないけど、言いたいことは大体わかった。</speak>
- 			<show chara="shakesLaughClose" position="left"/>
- 			<shake position="left" time="250"></shake>
- 			<speak chara="_Shakespeare">ああっ——21世紀の情報社会はきっと素晴らしいのだろう。過去の文明がすべて美しい歴史になっている！</speak>
- 			<show chara="shakesSmileClose" position="left"/>
- 			<speak chara="_Shakespeare">羨ましいものだね！いつか連れて行ってくれないか？</speak>
- 			<show chara="shakesSmileClose" position="left" opacity="0.8"/>
- 			<show chara="biancaShyClose" position="right"/>
- 			<speak chara="_Bianka">えっと、それは……</speak>
- 			<show chara="biancaShyClose" position="right" opacity="0.8"/>
- 			<show chara="shakesLaughClose" position="left"/>
- 			<speak chara="_Shakespeare">ハハハッ、真に受けるな！古代人に羨ましがられていればいい！</speak>
- 			<show chara="shakesSmileClose" position="left"/>
- 			<speak chara="_Shakespeare">それより——今日はせっかくのフルの休みだぞ？</speak>
- 			<show chara="shakesLaughClose" position="left"/>
- 			<speak chara="_Shakespeare">解散解散ッ！ほら、散った！ハハハハ！</speak>
+			<show chara="shakesSweatyClose" position="center" />
+			<speak chara="_Shakespeare">자자, 내가 제비뽑기도 이미 준비했다고?</speak>
+			<show chara="shakesSmileClose" position="center" />
+			<speak chara="_Shakespeare">여러분들은 자신의 운명을 스스로 정하고 싶습니까——아니면, 선장이 정해주길 바라려나?</speak>
+			<show chara="shakesBagaLeftClose" position="center" />
+			<speak chara="_Shakespeare">후자의 경우, 부정행위가 없을 거란 보장은 하지 않습니다!</speak>
+			<hide position="center"></hide>
+			<show chara="biankaBiteClose" position="left" />
+			<speak chara="_Bianka">쳇…… 소위 「극단장」이라면, 언제나 이렇게 자기 희화화를 계속해야 하는 건가?</speak>
+			<show chara="biankaBiteClose" position="left" opacity="0.8" />
+			<show chara="cervantesLaughClose" position="right" />
+			<speak chara="_Miguel">하하하하, 뭐, 좋지 않은가.</speak>
+			<show chara="cervantesSmileClose" position="right" />
+			<speak chara="_Miguel">모두들 부끄러워 하는 것 같으니, 이 늙은이가 먼저 「제비」를 뽑도록 하지!</speak>
+			<show chara="cervantesGazeClose" position="right" />
+			<speak chara="_Miguel">(뒤적뒤적)</speak>
+			<show chara="cervantesShoutClose" position="right" />
+			<speak chara="_Miguel">좋아, 이거다! 하압!!</speak>
+			<show chara="cervantesLaughClose" position="right" />
+			<speak chara="_Miguel">오오! 「S」! 이건 본인이신가, 선장 아가씨?</speak>
+			<show chara="cervantesLaughClose" position="right" opacity="0.8" />
+			<show chara="shakesLaughClose" position="left" />
+			<speak chara="_Shakespeare">하하하하, 맞아요, 할아버지! 당신의 동포들을 정착시키는 데에 저와 함께해 주셔야겠어요. 헤헤.</speak>
+			<show chara="shakesLaughClose" position="left" opacity="0.8" />
+			<show chara="cervantesLaughClose" position="right" />
+			<speak chara="_Miguel">문제없네! 그들이 요 수년간이나 나를 돌봐줬으니, 나도 응당 책임을 다해야겠지.</speak>
+			<show chara="cervantesSmileClose" position="right" />
+			<speak chara="_Miguel">좋아…… 그럼 다음은 누군가?</speak>
+			<show chara="cervantesSmileClose" position="right" opacity="0.8" />
+			<show chara="manfredSmileClose" position="left" />
+			<speak chara="_Manfred">……어제는 모두에게 심려를 끼쳤다.</speak>
+			<show chara="manfredColdClose" position="left" />
+			<speak chara="_Manfred">(뒤적뒤적)</speak>
+			<show chara="manfredQuestionClose" position="left" />
+			<speak chara="_Manfred">「I」……?</speak>
+			<show chara="manfredQuestionClose" position="left" opacity="0.8" />
+			<show chara="ironWhiteClose" position="right" />
+			<speak chara="_Ironface">저와 짝이신 것 같군요.</speak>
+			<show chara="ironBlueClose" position="right" />
+			<speak chara="_Ironface">군인에 대해 그다지 좋은 감정은 없지만——모국어가 같으니, 당신을 가이드 하는 데는 문제없을 겁니다.</speak>
+			<show chara="ironBlueClose" position="right" opacity="0.8" />
+			<show chara="manfredSmileClose" position="left" />
+			<speak chara="_Manfred">……잘 부탁한다.</speak>
+			<show chara="manfredSmileClose" position="left" opacity="0.8" />
+			<show chara="biankaAngryClose" position="right" />
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaHesitateClose" position="right" />
+			<speak chara="_Bianka">(뒤적뒤적)</speak>
+			<show chara="biankaSighClose" position="right" />
+			<speak chara="_Bianka">「W」.</speak>
+			<show chara="biankaSighClose" position="right" opacity="0.8" />
+			<show chara="wattInspiredClose" position="left" />
+			<speak chara="_Watt">아하하…… 그건 저 같네요.</speak>
+			<show chara="wattInspiredClose" position="left" opacity="0.8" />
+			<show chara="biankaHesitateClose" position="right" />
+			<speak chara="_Bianka">……후우.</speak>
+			<show chara="biankaSneerClose" position="right" />
+			<speak chara="_Bianka">좋아. 너, 조금 걱정되긴 하지만, 딱히 문제를 일으킬 것 같지는 않으니.</speak>
+			<show chara="biankaProudClose" position="right" />
+			<speak chara="_Bianka">그럼 잘 부탁한다?</speak>
+			<show chara="biankaProudClose" position="right" opacity="0.8" />
+			<show chara="wattScaredClose" position="left" />
+			<speak chara="_Watt">음…… 감사합니다? 그, 그게 정말 칭찬인지는 잘 모르겠지만요……</speak>
+			<show chara="wattScaredClose" position="left" opacity="0.8" />
+			<show chara="shakesSweatyClose" position="right" />
+			<speak chara="_Shakespeare">하아…… 공돌이 녀석, 성격은 진짜 좋다니까.</speak>
+			<show chara="shakesSweatyClose" position="right" opacity="0.8" />
+			<show chara="lallaSmileClose" position="left" />
+			<speak chara="_Lalla">……보아하니, 남은 건 저와 리타 양인 것 같네요?</speak>
+			<show chara="lallaSmileClose" position="left" opacity="0.8" />
+			<show chara="rita17SquintClose" position="right" />
+			<speak chara="_Rita">그렇네요. 여기서 나는 특산물을 사고 싶은데, 도와주실 수 있으신가요?</speak>
+			<show chara="lallaSighClose" position="left" />
+			<speak chara="_Lalla">음…… 「특산물」이라…… 조금 머리가 아프네요.</speak>
+			<show chara="lallaSmileClose" position="left" />
+			<speak chara="_Lalla">왜냐하면, 그 선택의 범위가 정말 넓다고 해야 할까요?</speak>
+			<goto goto="40" clockwise="1" />
+		</scene>
+		<scene id="40" background="alexandriaHarbor.jpg">
+			<bgm src="12_29_busyHarbor.mp3" status="start"></bgm>
+			<show chara="biankaSurpriseClose" position="right" />
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaSurpriseClose" position="right" opacity="0.8" />
+			<show chara="shakesSmileClose" position="left" />
+			<speak chara="_Shakespeare">어때? 「세계에서 가장 큰 도시」의 지평선을 본 소감은?
+</speak>
+			<show chara="shakesSmileClose" position="left" opacity="0.8" />
+			<show chara="biankaSneerClose" position="right" />
+			<speak chara="_Bianka">흠. 딱히 엄청나게 「번영」하고 있다기보다, 「레트로」한 느낌이  강하달까? 아덴 만이나 콜카타처럼?</speak>
+			<show chara="biankaSneerClose" position="right" opacity="0.8" />
+			<show chara="shakesSweatyClose" position="left" />
+			<speak chara="_Shakespeare">어라. 거기 전부——어느 세계에서든 내가 전혀 가보지 못한 곳들이라.</speak>
+			<show chara="shakesSweatyClose" position="left" opacity="0.8" />
+			<show chara="biankaSneerClose" position="right" />
+			<speak chara="_Bianka">그럼…… 피렌체나 이스탄불은? 좀 느낌이 와?</speak>
+			<show chara="biankaSneerClose" position="right" opacity="0.8" />
+			<show chara="shakesSweatyClose" position="left" />
+			<speak chara="_Shakespeare">……비록 내가 가본 적은 없지만, 대충 무슨 말인진 알겠어.</speak>
+			<show chara="shakesLaughClose" position="left" />
+			<shake position="left" time="250"></shake>
+			<speak chara="_Shakespeare">아——21세기, 정보화시대, 이 얼마나 굉장한가? 모든 과거 문명들이 아름다운 역사로 길이 남을 것이니!</speak>
+			<show chara="shakesSmileClose" position="left" />
+			<speak chara="_Shakespeare">정말 부러워! 난 언제 데려가 줄꺼야?
+</speak>
+			<show chara="shakesSmileClose" position="left" opacity="0.8" />
+			<show chara="biancaShyClose" position="right" />
+			<speak chara="_Bianka">음…… 그건 조금……</speak>
+			<show chara="biancaShyClose" position="right" opacity="0.8" />
+			<show chara="shakesLaughClose" position="left" />
+			<speak chara="_Shakespeare">하하하하, 너무 진지하게 생각하진 말아! 나 같은 고대인이 질투 좀 할 수도 있지!</speak>
+			<show chara="shakesSmileClose" position="left" />
+			<speak chara="_Shakespeare">좋아—— 어쨌든, 오늘은 모처럼 완전한 휴일이다?</speak>
+			<show chara="shakesLaughClose" position="left" />
+			<speak chara="_Shakespeare">해산, 해산! 모두 자리를 떠나! 하하하하!</speak>
 			<hide position="left"></hide>
-			<hide position="right"></hide> 
- 			<text>カレドニア号の船長は高笑いをして、客人と部下を小舟に押し込んだ。</text>
- 			<speak chara="_Shakespeare">各ペア、必ず二人組で行動するんだぞ！「強制デート」しないと、船長の「特製お仕置き」を受けてもらうからな！ハハハハッ！</speak>
- 			<goto goto="60" clockwise="1"/>
-	  </scene>
-	  <scene id="60" background="alexandriaLighthouse.jpg">
-	  	<bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
- 			<show chara="biankaSneerClose" position="right"/>
- 			<speak chara="_Bianka">やっと陸に着きました。この町の管理はずさんですね、税関も置いてないなんて。</speak>
- 			<show chara="biankaSneerClose" position="right" opacity="0.8"/>
- 			<show chara="wattSighClose" position="left"/>
- 			<speak chara="_Watt">えっと、そ、その……この都市の管理はね——</speak>
- 			<show chara="wattSurpriseClose" position="left"/>
- 			<speak chara="_Watt">——あっ、もう来た。</speak>
- 			<show chara="wattSurpriseClose" position="left" opacity="0.8"/>
- 			<show chara="biankaAngryClose" position="right"/>
- 			<speak chara="_Bianka">何が来たって言うんですか？はっきり言ってくださ——</speak>
- 			<show chara="biankaAngryClose" position="right" opacity="0.8"/>
- 			<show chara="mailboxFar" position="left"/>
- 			<speak chara="_mechineRed">ジェームズ・ワットさんと名も知らぬお嬢様——アレクサンドリアへようこそ。</speak>
- 			<show chara="mailboxFar" position="left" opacity="0.8"/>
- 			<show chara="biankaSurpriseClose" position="right"/>
- 			<speak chara="_Bianka">……</speak>
- 			<show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
- 			<show chara="mailboxClose" position="left"/>
- 			<speak chara="_mechineRed">お嬢様、本機はこの都市の警察です。はじめての訪問につき、いくつかの基本情報を入力してください。</speak>
- 			<show chara="mailboxClose" position="left" opacity="0.8"/>
- 			<show chara="biankaProudClose" position="right"/>
- 			<speak chara="_Bianka">へぇ、これがさっき言いかけたこの都市の管理ってやつですね、ジミー。</speak>
- 			<show chara="biankaProudClose" position="right" opacity="0.8"/>
- 			<show chara="wattRelievedClose" position="left"/>
- 			<speak chara="_Watt">う、うん！すごいでしょ！！</speak>
- 			<show chara="mailboxClose" position="left"/>
- 			<speak chara="_policeRed">情報を入力してください。</speak>
- 			<show chara="mailboxClose" position="left" opacity="0.8"/>
- 			<show chara="biankaConfidentClose" position="right"/>
- 			<speak chara="_Bianka">名前：ビアンカ・アタジナ</speak>
- 			<speak chara="_Bianka">性別：女</speak>
- 			<speak chara="_Bianka">年齢：12</speak>
- 			<speak chara="_Bianka">誕生日：1月1日。……ここの暦はわからないけど。</speak>
- 			<speak chara="_Bianka">最後に指紋採取っと——これでいい？</speak>
- 			<show chara="biankaConfidentClose" position="right" opacity="0.8"/>
- 			<show chara="mailboxClose" position="left"/>
- 			<speak chara="_policeRed">はい。ご協力感謝します。それでは良い旅を！</speak>
- 			<show chara="wattSurpriseClose" position="left"/>
- 			<speak chara="_Watt">一年が365日しかないとはいえ……ボク、誕生日が元旦の人をはじめて見たよ……</speak>
- 			<show chara="wattSurpriseClose" position="left" opacity="0.8"/>
- 			<show chara="biankaBiteClose" position="right"/>
- 			<speak chara="_Bianka">もう、人の個人情報を盗み見るなんて、紳士のすることじゃないですよ！</speak>
- 			<show chara="biankaBiteClose" position="right" opacity="0.8"/>
- 			<show chara="wattScaredClose" position="left"/>
- 			<speak chara="_Watt">ご、ごごごごごめんなさい！わ、わざとじゃないんだ。</speak>
- 			<show chara="wattScaredClose" position="left" opacity="0.8"/>
- 			<show chara="biankaHesitateClose" position="right"/>
- 			<speak chara="_Bianka">はぁ……</speak>
- 			<show chara="biankaSneerClose" position="right"/>
- 			<speak chara="_Bianka">まあ、大したことじゃありません。慌てすぎですよ。</speak>
- 			<show chara="biankaConfidentClose" position="right"/>
- 			<speak chara="_Bianka">それに、本当の誕生日でもないし……孤児院の先生が勝手に書いたものです。</speak>
- 			<show chara="biankaConfidentClose" position="right" opacity="0.8"/>
- 			<show chara="wattScaredClose" position="left"/>
- 			<speak chara="_Watt">か、勝手に書いた？誕生日を？</speak>
- 			<show chara="wattScaredClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSneerClose" position="right"/>
- 			<speak chara="_Bianka">はい。何日生まれかわからなかったので——それに元旦のが覚えやすいですし、でしょ？</speak>
-			<show chara="biankaSneerClose" position="right" opacity="0.8"/>
- 			<show chara="wattSighClose" position="left"/>
- 			<speak chara="_Watt">……い、一理あるね。</speak>
- 			<show chara="wattSighClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSneerClose" position="right"/>
- 			<speak chara="_Bianka">それで？これからどこへ、何しに行くんです？</speak>
- 			<show chara="biankaSneerClose" position="right" opacity="0.8"/>
- 			<show chara="wattShyClose" position="left"/>
- 			<speak chara="_Watt">うーん。</speak>
- 			<show chara="wattInspiredClose" position="left"/>
- 			<speak chara="_Watt">あ、そうだ！</speak> 			
- 			<show chara="wattRelievedClose" position="left"/>
- 			<speak chara="_Watt">あ、あの、ガイドロボットを借りてみようか？経費は出すって船長も言ってたし。</speak>
- 			<show chara="wattRelievedClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSurpriseClose" position="right"/>
- 			<speak chara="_Bianka">待ってください。警察だけでなく、ガイドもロボットなんですか？</speak>
- 			<show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
- 			<show chara="wattInspiredClose" position="left"/>
- 			<speak chara="_Watt">う、うん、そうだよ。すごいでしょ、この都市。</speak>
- 			<show chara="wattInspiredClose" position="left" opacity="0.8"/>
- 			<show chara="biankaHesitateClose" position="right"/>
- 			<speak chara="_Bianka">ふむ……そのロボットたちを誰が管理しているのか気になりますね。もしも……</speak>
- 			<show chara="biankaHesitateClose" position="right" opacity="0.8"/>
- 			<show chara="wattSmileClose" position="left"/>
- 			<speak chara="_Watt">「都市管理協会」っていう機関が管理してて——所在地から「市政庁」とも呼ばれてるんだ——ロボットを使って、治安維持と課税を行ってる場所だよ。</speak>
- 			<show chara="wattSmileClose" position="left" opacity="0.8"/>
- 			<show chara="biankaHesitateClose" position="right"/>
- 			<speak chara="_Bianka">……その機関のメンバーは？</speak>
- 			<show chara="biankaHesitateClose" position="right" opacity="0.8"/>
- 			<show chara="wattInspiredClose" position="left"/>
- 			<speak chara="_Watt">市民の中から選出されるんだ。年一回の選挙でね。</speak>
- 			<show chara="wattRelievedClose" position="left"/>
- 			<speak chara="_Watt">実は、システム自体は自己メンテナンスができるから、どんな人間でも務まるんだ。仕事は、イギリス法廷の陪審員みたいなものかな。</speak>
- 			<show chara="wattRelievedClose" position="left" opacity="0.8"/>
- 			<show chara="biancaShyClose" position="right"/>
- 			<speak chara="_Bianka">そ、そうですか。意外と進んでますね。</speak>
- 			<show chara="biankaSneerClose" position="right"/>
- 			<speak chara="_Bianka">そういえば、長い話だとどもらないんですね？</speak>
- 			<show chara="biankaSneerClose" position="right" opacity="0.8"/>
- 			<show chara="wattSighClose" position="left"/>
- 			<speak chara="_Watt">そ、そう？</speak>
- 			<show chara="wattShyClose" position="left"/>
- 			<speak chara="_Watt">じ、自分じゃよくわからなくて……</speak> 			
- 			<show chara="wattInspiredClose" position="left"/>
- 			<speak chara="_Watt">あ、ほら！あ、あれがガイドロボットだよ！</speak>
- 			<goto goto="70" change="#ffffff"/>	
-	  </scene>
-	  <scene id="70" background="alexandriaStreetCenter.jpg">
-	  	<bgm src="12_29_busyHarbor.mp3" status="continue"></bgm> 			
- 			<show chara="beaconFar" position="center"/>
- 			<speak chara="_guideLighthouse">アレクサンドリアへようこそ。</speak>
- 			<show chara="beaconFar" position="center"/>
- 			<speak chara="_guideLighthouse">基本的な市政の案内は無料です。ガイドが必要な方はドラクマ3枚を投入し、身分証明のご提示をお願いします。</speak>
- 			<hide position="center"></hide>
- 			<show chara="biankaSneerClose" position="right"/>
- 			<speak chara="_Bianka">ドラクマ？何です、それ？</speak>
- 			<show chara="biankaSneerClose" position="right" opacity="0.8"/>
- 			<show chara="wattSighClose" position="left"/>
- 			<speak chara="_Watt">お、お金だよ。こ、ここの貨幣は「ドラクマ」って言うんだ。ギリシャ語だよ。</speak>
- 			<show chara="wattInspiredClose" position="left"/>
- 			<speak chara="_Watt">見た目は地味だけど、1ドラクマは10グレーンの金に相当してね——意外と高いでしょ。</speak>
- 			<show chara="wattInspiredClose" position="left" opacity="0.8"/>
-  		<show chara="biankaBiteClose" position="right"/>
- 			<speak chara="_Bianka">で、その「10グレーン」ってなんですか？</speak>
- 			<show chara="biankaBiteClose" position="right" opacity="0.8"/>			
- 			<show chara="thalesProudClose" position="left"/>
- 			<speak chara="_ThalesNoName">「グレーン」とは、平均的な「小麦一粒」の重さじゃ。金は貴重だからの、細かい単位を使うんじゃ。</speak>
- 			<show chara="thalesLaughClose" position="left"/>
- 			<speak chara="_ThalesNoName">そして今……その貴重なお金を節約できるチャンスがお主らの前に現れたっ！</speak>
- 			<show chara="thalesLaughClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSneerClose" position="right"/>
- 			<speak chara="_Bianka">……どういう意味です？というか、どちら様？</speak>
- 			<show chara="biankaSneerClose" position="right" opacity="0.8"/>
- 			<show chara="thalesLaughClose" position="left"/>
- 			<speak chara="_ThalesNoName">我か？我はこのロボットどもよりもっと詳しい案内ができる存在じゃ——しかも代金はたったのドラクマ2枚！</speak>
- 			<show chara="thalesLaughClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSighClose" position="right"/>
- 			<speak chara="_Bianka">……つまり、あなたもガイドですか？</speak>
- 			<show chara="biankaSighClose" position="right" opacity="0.8"/>
- 			<show chara="thalesSeriousClose" position="left"/>
- 			<speak chara="_ThalesNoName">ガイド？いやいや、そんな重労働なんてするわけないじゃろ。</speak>
- 			<show chara="thalesProudClose" position="left"/>
- 			<speak chara="_ThalesNoName">我の案内はロボットのとは本質的に違う。何故なら、我の思考パターンとロボットの思考パターンは本質的に違うからの。</speak>
- 			<show chara="thalesStoneClose" position="left"/>
- 			<speak chara="_ThalesNoName">要約すると、我は哲学者で、奴らとは違うということじゃ。</speak>
- 			<show chara="thalesStoneClose" position="left" opacity="0.8"/> 			
- 			<show chara="biankaSighClose" position="right"/>
- 			<speak chara="_Bianka">えっと……何を仰っているのですか？</speak>
- 			<show chara="biankaSighClose" position="right" opacity="0.8"/>
- 			<show chara="thalesSeriousClose" position="left"/>
- 			<speak chara="_ThalesNoName">ふむ、我々の認識には著しい差異が生じているようじゃ——</speak>
- 			<show chara="thalesProudClose" position="left"/>
- 			<speak chara="_ThalesNoName">我のことを知ってもらわねば、我の価値を示せぬということか！</speak>
- 			<show chara="thalesProudClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSneerClose" position="right"/>
- 			<speak chara="_Bianka">だから……何て呼べばいいかわかりませんが——まず、その難解な言葉遣いを何とかできませんか！？</speak>
- 			<show chara="biankaSneerClose" position="right" opacity="0.8"/>
- 			<show chara="thalesLaughClose" position="left"/>
- 			<speak chara="_ThalesNoName">あいわかった！じゃが、無理じゃな！</speak>
- 			<show chara="thalesProudClose" position="left"/>
- 			<speak chara="_ThalesNoName">我はタレス・ホ・ミレトス。職業は大図書館の形而上学研究所、その三軍を統率する所長——つまり、正真正銘の哲学者じゃ。</speak>
- 			<show chara="thalesSmileClose" position="left"/>
- 			<speak chara="_Thales">ほい、これ名刺。</speak>
- 			<show chara="thalesSmileClose" position="left" opacity="0.8"/>
- 			<show chara="wattSurpriseClose" position="right"/>
- 			<speak chara="_Watt">……うわ、本当にあの「大図書館」の人なんだ！すごい！</speak>
- 			<show chara="wattSurpriseClose" position="right" opacity="0.8"/>
- 			<show chara="biankaSurpriseClose" position="left"/>
- 			<speak chara="_Bianka" remark="next">……大図書館？歴史上、何回か焼かれたという——</speak>
+			<hide position="right"></hide>
+			<text>칼레도니아 호의 선장은 하늘을 보며 수차례 웃더니, 자신의 승객과 부하들을 작은 배로 밀어 내기 시작했다.</text>
+			<speak chara="_Shakespeare">각 그룹은 자신의 짝과 함께 행동할 것! 이 「강제 데이트」가 싫다면, 선장의 「특별 형벌」을 받을 준비를 하도록! 하하하하!</speak>
+			<goto goto="60" clockwise="1" />
+		</scene>
+		<scene id="60" background="alexandriaLighthouse.jpg">
+			<bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
+			<show chara="biankaSneerClose" position="right" />
+			<speak chara="_Bianka">좋아, 해안가인가. 도시 관리가 정말 설렁설렁인걸, 세관도 안 보이잖아.</speak>
+			<show chara="biankaSneerClose" position="right" opacity="0.8" />
+			<show chara="wattSighClose" position="left" />
+			<speak chara="_Watt">음…… 그, 그게…… 이 도시의 관리 방식이라면……</speak>
+			<show chara="wattSurpriseClose" position="left" />
+			<speak chara="_Watt">——아, 이미 와있었네요.
+</speak>
+			<show chara="wattSurpriseClose" position="left" opacity="0.8" />
+			<show chara="biankaAngryClose" position="right" />
+			<speak chara="_Bianka">뭐가 왔다고? 좀 제대로 설명을——</speak>
+			<show chara="biankaAngryClose" position="right" opacity="0.8" />
+			<show chara="mailboxFar" position="left" />
+			<speak chara="_mechineRed">미스터 제임스·와트, 그리고 이름 모를 아가씨——알렉산드리아에 오신 걸 환영합니다.
+</speak>
+			<show chara="mailboxFar" position="left" opacity="0.8" />
+			<show chara="biankaSurpriseClose" position="right" />
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaSurpriseClose" position="right" opacity="0.8" />
+			<show chara="mailboxClose" position="left" />
+			<speak chara="_mechineRed">이름 모를 아가씨, 본 기계는 도시의 경찰입니다. 이 도시에 처음 오셨으니, 몇 가지 기본 정보를 기입해 주시길 부탁드립니다.</speak>
+			<show chara="mailboxClose" position="left" opacity="0.8" />
+			<show chara="biankaProudClose" position="right" />
+			<speak chara="_Bianka">하. 이게 네가 말한 「관리방식」인 거지, 지미?</speak>
+			<show chara="biankaProudClose" position="right" opacity="0.8" />
+			<show chara="wattRelievedClose" position="left" />
+			<speak chara="_Watt">그, 그럼요! 정말 대단하죠!!</speak>
+			<show chara="mailboxClose" position="left" />
+			<speak chara="_policeRed">기본 정보를 기입해 주세요.</speak>
+			<show chara="mailboxClose" position="left" opacity="0.8" />
+			<show chara="biankaConfidentClose" position="right" />
+			<speak chara="_Bianka">이름: 비앙카·아타지나……</speak>
+			<speak chara="_Bianka">성별: 여……</speak>
+			<speak chara="_Bianka">나이: 12……</speak>
+			<speak chara="_Bianka">생일: 1월 1일…… 너희들 달력으로는 어떻게 세는지 모르겠지만……</speak>
+			<speak chara="_Bianka">그리고, 마무리로 지문을 찍으면—— 이걸로 된 거지?</speak>
+			<show chara="biankaConfidentClose" position="right" opacity="0.8" />
+			<show chara="mailboxClose" position="left" />
+			<speak chara="_policeRed">그렇습니다. 협조에 감사드립니다. 그럼, 즐거운 여행이 되시길!</speak>
+			<show chara="wattSurpriseClose" position="left" />
+			<speak chara="_Watt">이, 일단 1년은 365일이에요…… 새, 새해가 생일인 건 처음 봤어요……</speak>
+			<show chara="wattSurpriseClose" position="left" opacity="0.8" />
+			<show chara="biankaBiteClose" position="right" />
+			<speak chara="_Bianka">쳇, 남의 프라이버시를 엿보는 건 신사적인 행동이 아니라고, 꼬맹아!</speak>
+			<show chara="biankaBiteClose" position="right" opacity="0.8" />
+			<show chara="wattScaredClose" position="left" />
+			<speak chara="_Watt">으아아아아, 죄송해요! 이, 일부러 그런 건 아니고……</speak>
+			<show chara="wattScaredClose" position="left" opacity="0.8" />
+			<show chara="biankaHesitateClose" position="right" />
+			<speak chara="_Bianka">으……</speak>
+			<show chara="biankaSneerClose" position="right" />
+			<speak chara="_Bianka">됐어, 됐어, 뭐 그리 대단한 것도 아니고. 그렇게 당황할 것 까지야.</speak>
+			<show chara="biankaConfidentClose" position="right" />
+			<speak chara="_Bianka">그리고, 이건 내 진짜 생일도 아냐…… 요양원의 의사 선생님이 멋대로 고른 거니까.</speak>
+			<show chara="biankaConfidentClose" position="right" opacity="0.8" />
+			<show chara="wattScaredClose" position="left" />
+			<speak chara="_Watt">머, 멋대로 골라요? 새, 생일을요?</speak>
+			<show chara="wattScaredClose" position="left" opacity="0.8" />
+			<show chara="biankaSneerClose" position="right" />
+			<speak chara="_Bianka">응. 어차피 내가 언제 태어났는지도 모르는데——그리고, 새해가 생일이면 이래저래 외우기도 편하니까. 안 그래?
+</speak>
+			<show chara="biankaSneerClose" position="right" opacity="0.8" />
+			<show chara="wattSighClose" position="left" />
+			<speak chara="_Watt">……이, 일리가 있긴 하네요</speak>
+			<show chara="wattSighClose" position="left" opacity="0.8" />
+			<show chara="biankaSneerClose" position="right" />
+			<speak chara="_Bianka">그래서? 우리 이제 뭐해? 어디로 갈까?
+</speak>
+			<show chara="biankaSneerClose" position="right" opacity="0.8" />
+			<show chara="wattShyClose" position="left" />
+			<speak chara="_Watt">어…… 음……
+</speak>
+			<show chara="wattInspiredClose" position="left" />
+			<speak chara="_Watt">아, 맞다!
+</speak>
+			<show chara="wattRelievedClose" position="left" />
+			<speak chara="_Watt">저, 저기, 가이드 로봇을 하나 고용하는 게 어떨까요? 어차피 경비는 선장님이 내주시니까요.</speak>
+			<show chara="wattRelievedClose" position="left" opacity="0.8" />
+			<show chara="biankaSurpriseClose" position="right" />
+			<speak chara="_Bianka">잠깐. 경찰말고도, 가이드도 로봇이란 말이야?
+</speak>
+			<show chara="biankaSurpriseClose" position="right" opacity="0.8" />
+			<show chara="wattInspiredClose" position="left" />
+			<speak chara="_Watt">그, 그럼요. 그래서 제가 엄청 대단한 도시라고 그랬잖아요.
+</speak>
+			<show chara="wattInspiredClose" position="left" opacity="0.8" />
+			<show chara="biankaHesitateClose" position="right" />
+			<speak chara="_Bianka">음…… 이 로봇들의 책임자가 누군지 좀 신경 쓰이는데…… 혹시……</speak>
+			<show chara="biankaHesitateClose" position="right" opacity="0.8" />
+			<show chara="wattSmileClose" position="left" />
+			<speak chara="_Watt">그건 「도시관리협회」라는 기관이 책임지고 있어서——사무실의 위치 때문에 「시청」으로 불리기도 하고——이들이 로봇을 이용해, 치안도 관리하고 세금도 징수하고 있어요.</speak>
+			<show chara="wattSmileClose" position="left" opacity="0.8" />
+			<show chara="biankaHesitateClose" position="right" />
+			<speak chara="_Bianka">……그 기관의 멤버는 어떤 방식으로 선출해?</speak>
+			<show chara="biankaHesitateClose" position="right" opacity="0.8" />
+			<show chara="wattInspiredClose" position="left" />
+			<speak chara="_Watt">시민들을 통해 직접 선출되고, 해마다 전부 교체되요.</speak>
+			<show chara="wattRelievedClose" position="left" />
+			<speak chara="_Watt">사실, 이 로봇 시스템은 충분히 자가 유지를 할 수 있어서, 거의 누구나 이 기관에서 일할 수 있어요——실제로 그들을 필요로 하는 일은 영미법의 배심원과 거의 비슷하니까요.</speak>
+			<show chara="wattRelievedClose" position="left" opacity="0.8" />
+			<show chara="biancaShyClose" position="right" />
+			<speak chara="_Bianka">어…… 이, 이거…… 의외로 선진적이네.</speak>
+			<show chara="biankaSneerClose" position="right" />
+			<speak chara="_Bianka">그러고 보니, 이렇게 길게 말하니까, 오히려 말을 안 더듬네?</speak>
+			<show chara="biankaSneerClose" position="right" opacity="0.8" />
+			<show chara="wattSighClose" position="left" />
+			<speak chara="_Watt">그, 그런가요?
+</speak>
+			<show chara="wattShyClose" position="left" />
+			<speak chara="_Watt">저, 전 잘 모르겠어요……</speak>
+			<show chara="wattInspiredClose" position="left" />
+			<speak chara="_Watt">아, 저기 보세요! 저, 저게 바로 가이드 로봇이에요!
+</speak>
+			<goto goto="70" change="#ffffff" />
+		</scene>
+		<scene id="70" background="alexandriaStreetCenter.jpg">
+			<bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
+			<show chara="beaconFar" position="center" />
+			<speak chara="_guideLighthouse">알렉산드리아에 오신 걸 환영합니다.
+</speak>
+			<show chara="beaconFar" position="center" />
+			<speak chara="_guideLighthouse">본 기계는 기본적인 시정 가이드를 무료로 제공합니다. 만약 더 많은 가이드를 원하신다면, 3 드라크마를 넣어주시고, 신분을 인증해주시길 바랍니다.</speak>
+			<hide position="center"></hide>
+			<show chara="biankaSneerClose" position="right" />
+			<speak chara="_Bianka">드라크마? 그게 뭔데?
+</speak>
+			<show chara="biankaSneerClose" position="right" opacity="0.8" />
+			<show chara="wattSighClose" position="left" />
+			<speak chara="_Watt">그, 그냥 돈이에요. 여, 여기서 발행되는 화폐는 「드라크마」로 불려요. 그리스어예요.</speak>
+			<show chara="wattInspiredClose" position="left" />
+			<speak chara="_Watt">생긴 건 그렇게 화려하진 않아도, 1 드라크마는 사실상 금 10 그램에 맞먹는 가치를 가져요——화폐 자체의 금 함유량도 꽤 높고요.</speak>
+			<show chara="wattInspiredClose" position="left" opacity="0.8" />
+			<show chara="biankaBiteClose" position="right" />
+			<speak chara="_Bianka">흥. 그럼, 「10 그램」은 얼마나 하는 거야?</speak>
+			<show chara="biankaBiteClose" position="right" opacity="0.8" />
+			<show chara="thalesProudClose" position="left" />
+			<speak chara="_ThalesNoName">「그램」, 의 일반적인 의미는 「밀알 하나」의 무게이니라. 황금은 매우 비싸기에, 사람들은 그런 세밀한 단위가 필요했던 게지. 이른바, 「한두 푼의 가치도 소중하다」라는 것일세.</speak>
+			<show chara="thalesLaughClose" position="left" />
+			<speak chara="_ThalesNoName">그리고 그 한두 푼의 가치에 대해 말하자면…… 지금이야말로 자네들이 돈을 아낄 수 있는 기회라네!</speak>
+			<show chara="thalesLaughClose" position="left" opacity="0.8" />
+			<show chara="biankaSneerClose" position="right" />
+			<speak chara="_Bianka">……무슨 소리예요? 아니, 애초에, 누구세요?</speak>
+			<show chara="biankaSneerClose" position="right" opacity="0.8" />
+			<show chara="thalesLaughClose" position="left" />
+			<speak chara="_ThalesNoName">나? 나는 자네들에게 있어 더 나은 가이드로——이 기계들이 말하지 못하는 것까지 전부 알려줄 수 있다네, 단돈 2 드라크마에!</speak>
+			<show chara="thalesLaughClose" position="left" opacity="0.8" />
+			<show chara="biankaSighClose" position="right" />
+			<speak chara="_Bianka">……그러니까, 당신도 「관광 가이드」라고요?</speak>
+			<show chara="biankaSighClose" position="right" opacity="0.8" />
+			<show chara="thalesSeriousClose" position="left" />
+			<speak chara="_ThalesNoName">관광 가이드? 아닐세, 난 이런 반복적인 일은 오래 하고 싶지 않다네.</speak>
+			<show chara="thalesProudClose" position="left" />
+			<speak chara="_ThalesNoName">내가 할 수 있는 설명과 기계가 할 수 있는 설명이 근본적으로 다른 이유는 내가 생각하는 방식과 기계가 생각하는 방식에 근본적인 차이가 있기 때문이네.</speak>
+			<show chara="thalesStoneClose" position="left" />
+			<speak chara="_ThalesNoName">달리 말하자면, 나는 철학자고, 그것들은 아니니까.</speak>
+			<show chara="thalesStoneClose" position="left" opacity="0.8" />
+			<show chara="biankaSighClose" position="right" />
+			<speak chara="_Bianka">으…… 도대체 무슨 말을 하시는 거예요?</speak>
+			<show chara="biankaSighClose" position="right" opacity="0.8" />
+			<show chara="thalesSeriousClose" position="left" />
+			<speak chara="_ThalesNoName">좋아, 보아하니 우리 사이에 큰 전제의 불일치가 존재하는구나——</speak>
+			<show chara="thalesProudClose" position="left" />
+			<speak chara="_ThalesNoName">그렇기에, 나는 자네들이 나를 더 잘 알 수 있도록 해야겠군, 그래야만이 내가 하는 가이드의 높은 퀄리티와 저렴한 가격을 잘 내보일 수 있을 테니!</speak>
+			<show chara="thalesProudClose" position="left" opacity="0.8" />
+			<show chara="biankaSneerClose" position="right" />
+			<speak chara="_Bianka">상관없고요…… 이 아가씨를 어떻게 불러야 할지도 모르겠네——일단 그런 이해 불가능한 말투 좀 그만두시면 안 될까요?!</speak>
+			<show chara="biankaSneerClose" position="right" opacity="0.8" />
+			<show chara="thalesLaughClose" position="left" />
+			<speak chara="_ThalesNoName">문제없네! 사실 불가능한 부탁이지만!</speak>
+			<show chara="thalesProudClose" position="left" />
+			<speak chara="_ThalesNoName">안녕하신가, 내 이름은 탈레스·밀레토스, 직업으로 대도서관 형이상학연구소의 3군을 통솔하는 연구소장을 맡고 있다네——한마디로, 거짓없이, 틀림없는  「철학자」라네.</speak>
+			<show chara="thalesSmileClose" position="left" />
+			<speak chara="_Thales">자, 여기 명함, 받아주게나.</speak>
+			<show chara="thalesSmileClose" position="left" opacity="0.8" />
+			<show chara="wattSurpriseClose" position="right" />
+			<speak chara="_Watt">……와! 진짜 「대도서관」의 직원이네요! 대단해요!</speak>
+			<show chara="wattSurpriseClose" position="right" opacity="0.8" />
+			<show chara="biankaSurpriseClose" position="left" />
+			<speak chara="_Bianka" remark="next">……대도서관? 역사상, 몇 번인가 불타버린 그건가——</speak>
 			<remark post="U2FsdGVkX19gYEf0Fz9CByG4C5ci">
-				<p class="article-text-h">注釈：</p>
-				<p class="article-text">大図書館は歴史上、壊滅的な被害に二度遭った。紀元前48年、カエサルがエジプトを征服した際と、西暦3世紀末の内戦時である。エドワード・ギボン(Edward Gibbon) によれば、西暦391年、セラペウム神殿にある分館がキリスト教徒によって破壊され、蔵書と建築物がどちらも残らなかったという。</p>
-			</remark>	
- 			<show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
- 			<show chara="wattSchemingClose" position="right"/>
- 			<speak chara="_Watt">ううん、全然違うよ！ここの「大図書館」は世界最高の研究機関なんだ！二千年の歴史があるらしいよ！</speak>
- 			<show chara="wattJihuatongClose" position="right"/>
- 			<speak chara="_Watt">それに、この都市にあるロボットも、皆「大図書館」が設計、製造しているんだ！</speak>
- 			<show chara="wattJihuatongClose" position="right" opacity="0.8"/>
- 			<show chara="thalesProudClose" position="left"/>
- 			<speak chara="_Thales">おやおや、これまた大層な噂が広まっとるの。</speak>
- 			<show chara="thalesSmileClose" position="left"/>
- 			<speak chara="_Thales">「大図書館」の研究機関は200年未満の歴史しかないぞ——坊主。</speak>
- 			<show chara="thalesSmileClose" position="left" opacity="0.8"/>
- 			<show chara="wattScaredClose" position="right"/>
- 			<speak chara="_Watt">そ、それでも、だ、大図書館で形而上学を研究してるなんて、す、すごい！</speak>
- 			<show chara="wattScaredClose" position="right" opacity="0.8"/>
- 			<show chara="biankaHesitateClose" position="left"/>
- 			<speak chara="_Bianka">……ところで、その「形而上学」って何？そこまで拝むほどのものなんです？</speak>
- 			<show chara="biankaHesitateClose" position="left" opacity="0.8"/>
- 			<show chara="wattSmileClose" position="right"/>
- 			<speak chara="_Watt">えっと、ボクが研究している工学が「有限の材料を処理する」学問なら……</speak>
- 			<show chara="wattInspiredClose" position="right"/>
- 			<speak chara="_Watt">……「形而上学」は「無限の何かを論じる」学問なんだ。哲学の中の哲学だよ！</speak>
- 			<show chara="wattInspiredClose" position="right" opacity="0.8"/>
- 			<show chara="biankaAngryClose" position="left"/>
- 			<speak chara="_Bianka">……さっぱりわかりません。</speak>
- 			<show chara="thalesSmileClose" position="left"/>
- 			<speak chara="_Thales">一般的な学問は現実世界にある物事や行為を対象とする研究に対して、「形而上学」は抽象的概念とそれらの関係性を研究する、ということじゃ。</speak>
- 			<speak chara="_Thales">現実は有限だが、抽象的概念は潜在的に無限であるため、そのような表現を使ったんじゃろう。</speak>
- 			<show chara="thalesStoneClose" position="left"/>
- 			<speak chara="_Thales">ちなみに、我は「形而上学」を「哲学の中の哲学」だなどと思っておらん。</speak>
- 			<speak chara="_Thales">学科の程度が低すぎる前時代の人々の偏見じゃ。哲学の中に、哲学でないものを混入させたせいじゃな。</speak>
- 			<show chara="thalesProudClose" position="left"/>
- 			<speak chara="_Thales">我からすれば、「哲学は形而上学の中の形式論理で論証できない部分」となる。</speak>
- 			<speak chara="_Thales">包含関係では、彼の言っていることと逆になるのう。</speak>
- 			<show chara="thalesStoneClose" position="left"/>
- 			<speak chara="_Thales">科学が発展すればするほど、「哲学」の「陣地」が縮む。それは科学自身の発展であり、人類の進歩でもあると言えるじゃろう。</speak>
- 			<show chara="thalesStoneClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSighClose" position="right"/>
- 			<speak chara="_Bianka">……</speak>
- 			<show chara="biankaBiteClose" position="right"/>
- 			<speak chara="_Bianka">説明されればされるほど、わけがわかりません！</speak>
- 			<show chara="biankaSneerClose" position="right"/>
- 			<speak chara="_Bianka">それより、さっき言ってたことで気になったんですが——「三軍を統率する」とはどういう意味でしょう？「哲学者」なのに、軍職についているんですか？</speak>
- 			<show chara="biankaSneerClose" position="right" opacity="0.8"/>
- 			<show chara="thalesSmileClose" position="left"/>
- 			<speak chara="_Thales">あ、それはの。冗談じゃ。</speak>
- 			<show chara="thalesEmbarrassedClose" position="left"/>
- 			<speak chara="_Thales">「形而上学研究所」の正式所員は我を入れて三名じゃからな、「三軍を統率している」と言ったんじゃ。</speak>
- 			<show chara="thalesLaughClose" position="left"/>
- 			<speak chara="_Thales">そう言っておけば、偉そうじゃろう！かっかっかっ！</speak>
- 			<show chara="thalesLaughClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSighClose" position="right"/>
- 			<speak chara="_Bianka">……</speak>
- 			<show chara="biankaSneerClose" position="right"/>
- 			<speak chara="_Bianka">でも、たった「三人しかいない」なんて——大変ですね。だから、ガイドまがいなことをやってお金を工面しているんですか？</speak>
- 			<show chara="biankaSneerClose" position="right" opacity="0.8"/>
- 			<show chara="thalesStoneClose" position="left"/>
- 			<speak chara="_Thales">……</speak>
- 			<show chara="thalesProudClose" position="left"/>
- 			<speak chara="_Thales">坊主、お主の方がこの町に詳しいじゃろう——</speak>
- 			<show chara="thalesSmileClose" position="left"/>
- 			<speak chara="_Thales">——100ドラクマで何が買えるか教えてやれ。</speak>
- 			<show chara="wattSurpriseClose" position="left"/>
- 			<speak chara="_Watt">えっと、ひ、100ドラクマなら……</speak>
- 			<show chara="wattInspiredClose" position="left"/>
- 			<speak chara="_Watt">た、たぶん機関用の潤滑油が1ドラム買えるかな！筋骨隆々な船乗りが二人でやっと運べるぐらいの！</speak> 
- 			<show chara="wattInspiredClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSighClose" position="right"/>
- 			<speak chara="_Bianka">わ、わかりにくいですね……</speak>
- 			<show chara="biankaSighClose" position="right" opacity="0.8"/>
- 			<show chara="wattSighClose" position="left"/>
- 			<speak chara="_Watt">えっと、えっと……じ、じゃあ食料で換算すると……</speak>
- 			<show chara="wattRelievedClose" position="left"/>
- 			<speak chara="_Watt">た、たぶん牛半頭ぐらい……かな？もしくは、豚一頭？</speak>
- 			<show chara="wattRelievedClose" position="left" opacity="0.8"/>
- 			<show chara="biankaHesitateClose" position="right"/>
- 			<speak chara="_Bianka">（なら、2000ユーロぐらい？もうちょっと少ないかな？）</speak>
- 			<show chara="biankaSneerClose" position="right"/>
- 			<speak chara="_Bianka">それは確かに「大金」ですね。で、一週間でその「100ドラクマ」を稼げると？</speak>
- 			<show chara="biankaSneerClose" position="right" opacity="0.8"/>
- 			<show chara="thalesStoneClose" position="left"/>
- 			<speak chara="_Thales">一週間？</speak>
- 			<show chara="thalesSmileClose" position="left"/>
- 			<speak chara="_Thales">大図書館では半日で100ドラクマがもらえるぞ。</speak>
- 			<show chara="thalesSmileClose" position="left" opacity="0.8"/>
- 			<show chara="biankaHesitateClose" position="right"/>
- 			<speak chara="_Bianka">……？</speak>
- 			<show chara="biankaSurpriseClose" position="right"/>
- 			<speak chara="_Bianka">半日で100ドラクマだから、日給200ドラクマ、約4000ユーロ……</speak>
- 			<speak chara="_Bianka">月給は12万ユーロで、年収は……</speak>
- 			<show chara="biankaShoutClose" position="right"/>
- 			<shake position="right" time="250"></shake>
- 			<speak chara="_Bianka">144万ユーロ！？ええっ、A級戦乙女よりもらっているじゃないですか！？</speak>
- 			<show chara="biankaShoutClose" position="right" opacity="0.8"/>
- 			<show chara="wattSurpriseClose" position="left"/>
- 			<speak chara="_Watt">え、A級戦乙女？「戦乙女」ってランクがあるの？</speak>
- 			<show chara="wattSurpriseClose" position="left" opacity="0.8"/>
- 			<show chara="biancaShyClose" position="right"/>
- 			<speak chara="_Bianka">し、失礼、取り乱しました。ランクのことは忘れてください。</speak>
- 			<show chara="biankaSneerClose" position="right"/>
- 			<speak chara="_Bianka">こほん。とにかく、タレスさん、お金のために私たちに声をかけたわけではないと主張したいのですね。</speak>
- 			<show chara="biankaSneerClose" position="right" opacity="0.8"/>
- 			<show chara="thalesLaughClose" position="left"/>
- 			<speak chara="_Thales">無論じゃ！お主たちが面白そうじゃったから、話をしてみたかっただけじゃ！</speak>
- 			<show chara="thalesProudClose" position="left"/>
- 			<speak chara="_Thales">どうじゃ？「哲学者」と一緒に町を歩く機会なんてめったにないぞ？</speak>
- 			<show chara="thalesProudClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSneerClose" position="right"/>
- 			<speak chara="_Bianka">それは確かに悪くありませんけど——</speak>
- 			<show chara="biankaProudClose" position="right"/>
- 			<speak chara="_Bianka">——そんなにお金持ちなら、サービスしてくれてもいいんじゃないですか？</speak>
- 			<show chara="biankaProudClose" position="right" opacity="0.8"/>
- 			<show chara="thalesStoneClose" position="left"/>
- 			<speak chara="_Thales">……</speak> 			
- 			<show chara="thalesLaughClose" position="left"/>
- 			<shake position="left" time="250"></shake>
- 			<speak chara="_Thales">かっかっか！お主、思ったより面白いやつじゃのう！</speak>
- 			<goto goto="80" change="#ffffff"/>	
-	  </scene>
-	  <scene id="80" background="CG5-1.jpg">
-	  	<bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
- 			<speak chara="_guideLighthouse">指紋を確認しました。</speak>
- 			<speak chara="_guideLighthouse">大図書館特級研究員タレス様、「ライトハウス」ガイドシステムをご利用頂きありがとうございます。</speak>
- 			<speak chara="_Thales">面白き子らよ——</speak>
- 			<speak chara="_Thales">——お主たちの都市見学は、我が担おう。</speak>
- 			<goto goto="90" change="#ffffff"/>	
-	  </scene>
-	  <scene id="90" background="alexandriaStreetCenter.jpg">
-	  	<bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
- 			<show chara="biankaSurpriseClose" position="right"/>
- 			<speak chara="_Bianka">えっ……？ロボットの費用を払ってくれたんですか？</speak>
- 			<show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
- 			<show chara="thalesProudClose" position="left"/>
- 			<speak chara="_Thales" remark="next">「思考のみが自己否定し、自己矛盾するのである」</speak>
+				<p class="article-text-h">주:</p>
+				<p class="article-text">대도서관은 역사상 두 번의 치명적인 화제를 겪었습니다. 카이사르가 이집트를 정복하던 BC47과 3세기 후반의 내전에서. 에드워드 깁슨(Edward Gibbson)에 따르면, AD391년, 세라피스 신전에 있던 대도서관의 별관까지 기독교도들에게 파괴당해, 그곳의 책과 건물들은 어느 하나도 남아있지 못하게 되었습니다.</p>
+			</remark>
+			<show chara="biankaSurpriseClose" position="left" opacity="0.8" />
+			<show chara="wattSchemingClose" position="right" />
+			<speak chara="_Watt">아, 아니에요! 이곳의 「대도서관」은, 전 세계에서 가장 뛰어난 연구기관이라고요! 그 역사가 이천 년이 넘게 이어져 왔다고 해요!</speak>
+			<show chara="wattJihuatongClose" position="right" />
+			<speak chara="_Watt">게다가, 이 도시의 모든 종류의 로봇들도, 이 「대도서관」에서 설계되고 생산되었다고요!</speak>
+			<show chara="wattJihuatongClose" position="right" opacity="0.8" />
+			<show chara="thalesProudClose" position="left" />
+			<speak chara="_Thales">으흠으흠, 지금은 그런 소문이 돌고 있는 모양이군.</speak>
+			<show chara="thalesSmileClose" position="left" />
+			<speak chara="_Thales">「대도서관」의 연구 부문의 역사는 사실 200년이 채 안 된다네——그러니 너무 부러워하진 마시게, 소년.</speak>
+			ㅓㅓㅓㅓ
+			<show chara="thalesSmileClose" position="left" opacity="0.8" />
+			<show chara="wattScaredClose" position="right" />
+			<speak chara="_Watt">그, 그렇다고 해도요, 여, 여전히, 그 대도서관에서 「형이상학」을 연구하는, 다, 당신은 엄청 대단하다고요!
+</speak>
+			<show chara="wattScaredClose" position="right" opacity="0.8" />
+			<show chara="biankaHesitateClose" position="left" />
+			<speak chara="_Bianka">……그래서, 대체 그 「형이상학」이 뭔데? 뭐길래 네가 그렇게까지 숭배할 정도야?</speak>
+			<show chara="biankaHesitateClose" position="left" opacity="0.8" />
+			<show chara="wattSmileClose" position="right" />
+			<speak chara="_Watt">음…… 제가 배운 공학기술이 「유한한 재료를 다루는 법」에 대한 것이라면……</speak>
+			<show chara="wattInspiredClose" position="right" />
+			<speak chara="_Watt">……「형이상학」은 「무한한 대상」을 탐구하는 학문이에요! 바로 철학 중의 철학이라고 할 수 있죠!</speak>
+			<show chara="wattInspiredClose" position="right" opacity="0.8" />
+			<show chara="biankaAngryClose" position="left" />
+			<speak chara="_Bianka">……무슨 말을 하는지 전혀 모르겠어.</speak>
+			<show chara="thalesSmileClose" position="left" />
+			<speak chara="_Thales">그가 말한 건, 일반적인 학문은 현실 세계의 사물과 작용에 대해 배우는 것이고, 「형이상학」은 추상적인 개념들과 그것들 간의 관계들을 연구하는 것이라고 한 거네.</speak>
+			<speak chara="_Thales">현실은 결국 극도로 제한되어 있지만, 추상이 가지는 잠재적인 범위는 무한정하기에, 방금 그런 비유를 들어준 거라네.</speak>
+			<show chara="thalesStoneClose" position="left" />
+			<speak chara="_Thales">그런데, 「형이상학」이 「철학 중의 철학」이라는 말은 인정할 수 없군.</speak>
+			<speak chara="_Thales">그건 그저 학문적 발전도가 낮았던 선조들 때문에 만들어진 편견일 뿐이네. 애초에 철학적이지도 않은 것들을 너무 많이 섞어버렸기에.</speak>
+			<show chara="thalesProudClose" position="left" />
+			<speak chara="_Thales">「철학이란 뚜렷한 공식으로는 논의할 수 없는 형이상학의 일부」——라는 게 내 지론일세.</speak>
+			<speak chara="_Thales">서로 포함하는 관계를 보면, 방금 소년이 한 말과는 정반대로군.</speak>
+			<show chara="thalesStoneClose" position="left" />
+			<speak chara="_Thales">과학이 발전해나갈수록, 「철학」의 「입지」는 줄어들지. 이것은 과학 자체의 발전에 대한 법칙이자, 인류의 진보이기도 하다네.</speak>
+			<show chara="thalesStoneClose" position="left" opacity="0.8" />
+			<show chara="biankaSighClose" position="right" />
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaBiteClose" position="right" />
+			<speak chara="_Bianka">「해설」하는 게 안하느니만 못하겠어요! 오히려 더 헷갈리게 만든다고요!</speak>
+			<show chara="biankaSneerClose" position="right" />
+			<speak chara="_Bianka">그리고, 아까부터 궁금했는데——그 「3군을 통솔한다」라는 건 무슨 의미이죠? 「철학자」면서 군인이라는 건가요?</speak>
+			<show chara="biankaSneerClose" position="right" opacity="0.8" />
+			<show chara="thalesSmileClose" position="left" />
+			<speak chara="_Thales">아, 그거. 장난 좀 쳐본 거네.</speak>
+			<show chara="thalesEmbarrassedClose" position="left" />
+			<speak chara="_Thales">「형이상학연구소」의 정식 직원이, 날 포함해 3명뿐이라서 「3군」이란 거지.</speak>
+			<show chara="thalesLaughClose" position="left" />
+			<speak chara="_Thales">「알고보니 별거 없네」 속성인 거라네! 흐흐!</speak>
+			<show chara="thalesLaughClose" position="left" opacity="0.8" />
+			<show chara="biankaSighClose" position="right" />
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaSneerClose" position="right" />
+			<speak chara="_Bianka">겨우 「세 명뿐」——이건 좀 비참하네요. 그래서 가이드로 부수입을 만들어야 하는 건가요?</speak>
+			<show chara="biankaSneerClose" position="right" opacity="0.8" />
+			<show chara="thalesStoneClose" position="left" />
+			<speak chara="_Thales">……</speak>
+			<show chara="thalesProudClose" position="left" />
+			<speak chara="_Thales">소년, 그대는 소녀보다 이 도시에 대해 더 잘 아는 것 같으니——</speak>
+			<show chara="thalesSmileClose" position="left" />
+			<speak chara="_Thales">——그녀에게 100 드라크마로 얼마나 많은 걸 살 수 있는지 말해주게나.</speak>
+			<show chara="wattSurpriseClose" position="left" />
+			<speak chara="_Watt">어…… 배, 백 드라크마면……</speak>
+			<show chara="wattInspiredClose" position="left" />
+			<speak chara="_Watt">아, 아마 엔진오일 1배럴을 살 수 있을 거예요! 옮기려면 최소 튼튼한 선원 두 명은 필요하겠네요!</speak>
+			<show chara="wattInspiredClose" position="left" opacity="0.8" />
+			<show chara="biankaSighClose" position="right" />
+			<speak chara="_Bianka">그, 그렇게 비유해 봐야……</speak>
+			<show chara="biankaSighClose" position="right" opacity="0.8" />
+			<show chara="wattSighClose" position="left" />
+			<speak chara="_Watt">아, 음…… 그, 식료품 가격으로 바꿔보면……</speak>
+			<show chara="wattRelievedClose" position="left" />
+			<speak chara="_Watt">아, 아마 소 반 마리? 아니면, 돼지 한 마리?</speak>
+			<show chara="wattRelievedClose" position="left" opacity="0.8" />
+			<show chara="biankaHesitateClose" position="right" />
+			<speak chara="_Bianka">(그럼 대충…… 2000 유로? 좀 더 적으려나?)</speak>
+			<show chara="biankaSneerClose" position="right" />
+			<speak chara="_Bianka">아, 그렇게 작지는 않네요, 주급이 「100 드라크마」라고 말하고 싶으신 거예요?</speak>
+			<show chara="biankaSneerClose" position="right" opacity="0.8" />
+			<show chara="thalesStoneClose" position="left" />
+			<speak chara="_Thales">주급?
+</speak>
+			<show chara="thalesSmileClose" position="left" />
+			<speak chara="_Thales">나는 반나절이면 100 드라크마를 벌 수 있다네.</speak>
+			<show chara="thalesSmileClose" position="left" opacity="0.8" />
+			<show chara="biankaHesitateClose" position="right" />
+			<speak chara="_Bianka">……?</speak>
+			<show chara="biankaSurpriseClose" position="right" />
+			<speak chara="_Bianka">반나절에 100 드라크마, 하루에 200 드라크마, 거의 4000 유로……</speak>
+			<speak chara="_Bianka">그럼 한달에 12만 유로…… 1년이면……</speak>
+			<show chara="biankaShoutClose" position="right" />
+			<shake position="right" time="250"></shake>
+			<speak chara="_Bianka">144만 유로?? A급 발키리보다 더 많이 벌잖아?!</speak>
+			<show chara="biankaShoutClose" position="right" opacity="0.8" />
+			<show chara="wattSurpriseClose" position="left" />
+			<speak chara="_Watt">A, A급 발키리? 「발키리」도 등급이 있어요?</speak>
+			<show chara="wattSurpriseClose" position="left" opacity="0.8" />
+			<show chara="biancaShyClose" position="right" />
+			<speak chara="_Bianka">아…… 미안, 실례. 딱히 등급이 중요한 건 아냐.</speak>
+			<show chara="biankaSneerClose" position="right" />
+			<speak chara="_Bianka">흠흠. 그래서, 탈레스 씨, 돈 때문에 저희에게 말을 거신 건 아니라는 건가요?</speak>
+			<show chara="biankaSneerClose" position="right" opacity="0.8" />
+			<show chara="thalesLaughClose" position="left" />
+			<speak chara="_Thales">물론이지! 자네들이 재밌어 보이길래, 자네들과 이야기하며, 이 도시에 대해 말해주려 한 거였네!</speak>
+			<show chara="thalesProudClose" position="left" />
+			<speak chara="_Thales">어떤가? 「철학자」와 함께하며 거리를 돌아다닐 기회는 매일 오지 않는다네?</speak>
+			<show chara="thalesProudClose" position="left" opacity="0.8" />
+			<show chara="biankaSneerClose" position="right" />
+			<speak chara="_Bianka">나쁘지 않긴 하네요——</speak>
+			<show chara="biankaProudClose" position="right" />
+			<speak chara="_Bianka">——그런데 그렇게 돈도 많으시면서, 왜 그냥 공짜로 해주시진 않나요?</speak>
+			<show chara="biankaProudClose" position="right" opacity="0.8" />
+			<show chara="thalesStoneClose" position="left" />
+			<speak chara="_Thales">……</speak>
+			<show chara="thalesLaughClose" position="left" />
+			<shake position="left" time="250"></shake>
+			<speak chara="_Thales">하하하하! 네 녀석, 생각보다 더 재밌는 녀석이구나!</speak>
+			<goto goto="80" change="#ffffff" />
+		</scene>
+		<scene id="80" background="CG5-1.jpg">
+			<bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
+			<speak chara="_guideLighthouse">지문인식 완료.</speak>
+			<speak chara="_guideLighthouse">대도서관 수석 연구원 탈레스씨, 「라이트하우스」 가이드 시스템 사용을 환영합니다.</speak>
+			<speak chara="_Thales">재밌는 녀석들——</speak>
+			<speak chara="_Thales">——너희들의 도시 관광에, 내가 현지인으로서 성의를 보여주마.</speak>
+			<goto goto="90" change="#ffffff" />
+		</scene>
+		<scene id="90" background="alexandriaStreetCenter.jpg">
+			<bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
+			<show chara="biankaSurpriseClose" position="right" />
+			<speak chara="_Bianka">어? 로봇에…… 대신 돈을 내셨어요?</speak>
+			<show chara="biankaSurpriseClose" position="right" opacity="0.8" />
+			<show chara="thalesProudClose" position="left" />
+			<speak chara="_Thales" remark="next">「이지적인 사고는 필연적으로 모순에 부딪히고, 이는 반드시 그 자체의 자기부정으로 이끈다.」</speak>
 			<remark post="U2FsdGVkX1+1SGRcprmKJPs15qgC">
 				<p class="article-text-h">注釈：</p>
-				<p class="article-text">ヘーゲル (G. W. F. Hegel)の『哲学全書』の『論理学』より。著者が同名の本をもう一冊出版しているため、こちらは『小論理学』と呼ばれる。</p>
-			</remark>	
- 			<show chara="thalesSmileClose" position="left"/>
- 			<speak chara="_Thales">行き詰まった時は思考を逆転させ、双方が真に求めているものを見極めるべきじゃ。</speak>
- 			<show chara="thalesStoneClose" position="left"/>
- 			<speak chara="_Thales">今の状況に当てはめると——お主たちはガイドがほしいが、騙されたくない。我はお主たちと話がしたいが、お主たちは我をよく知らない。</speak>
- 			<speak chara="_Thales">本質的に見て、お主たちが我を雇っても雇わなくとも関係がないなら、我が自ら矛盾から脱すべきじゃろう。</speak>
- 			<show chara="thalesLaughClose" position="left"/>
- 			<speak chara="_Thales">つまり、「お金をもらう」という思考を逆転し、「お金を払う」という策を取る。そうすれば、お互いの望みが叶うわけじゃ！</speak>
- 			<show chara="thalesLaughClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSneerClose" position="right"/>
- 			<speak chara="_Bianka">……お金を払ってくれる限り、私たちは友達です。</speak>
- 			<show chara="biankaSneerClose" position="right" opacity="0.8"/>
- 			<show chara="thalesEmbarrassedClose" position="left"/>
- 			<speak chara="_Thales">ほう、「頑固」そうに見えて、冗談も言えるんじゃのう。</speak>
- 			<show chara="thalesEmbarrassedClose" position="left" opacity="0.8"/>
- 			<show chara="biankaShoutClose" position="right"/>
- 			<speak chara="_Bianka">……ちょっと！今すごく失礼なこと言いませんでした？</speak>
- 			<show chara="biankaShoutClose" position="right" opacity="0.8"/> 			
- 			<show chara="thalesProudClose" position="left"/>
- 			<speak chara="_Thales">とにかく、「形而上学」は思考自体を考察する学問じゃ。思考が「真実」を把握できる能力と限度を考察する。詳しく解説すると一学期分の授業が必要じゃから、割愛するとしよう。</speak>
- 			<show chara="thalesSmileClose" position="left"/>
- 			<speak chara="_Thales">（ロボットに指令を入力する）</speak>
- 			<hide position="left"></hide>
- 			<hide position="right"></hide>
- 			<show chara="beaconClose" position="center"/>
- 			<speak chara="_guideLighthouse">指令の入力を確認しました。ガイドをはじめます。</speak> 			
- 			<show chara="beaconFar" position="center"/>
- 			<speak chara="_guideLighthouse">ここは港区の中央広場です。旅行中の皆様には、お土産を選ぶのにうってつけな場所です。</speak>
- 			<speak chara="_guideLighthouse">港区では様々な店が開いており、法定の免税エリアでもあります。お手頃な値段で良い品物が手に入るでしょう。</speak>
- 			<speak chara="_guideLighthouse">本日のおすすめ商品は「ナイル川果樹園」の米粉シフォンケーキ、「ニコシアの思い出」のうに缶、「コペンハーゲンの人魚」のガラス工芸品です。</speak>
- 			<hide position="center"></hide>
- 			<show chara="biankaAngryClose" position="right"/>
- 			<speak chara="_Bianka">その……セールスみたいですね。</speak>
- 			<show chara="biankaAngryClose" position="right" opacity="0.8"/>
- 			<show chara="thalesEmbarrassedClose" position="left"/>
- 			<speak chara="_Thales">まあまあ、商業都市だからの、大目に見てやってくれ。</speak>
- 			<show chara="thalesProudClose" position="left"/>
- 			<speak chara="_Thales">ちなみに補足すると——食べ物、服飾、建築物の間に、何か審美的な区別があるんじゃが、わかるか？</speak>
- 			<show chara="thalesProudClose" position="left" opacity="0.8"/>
- 			<show chara="wattSurpriseClose" position="right"/>
- 			<speak chara="_Watt">……わ、わかりません。</speak>
- 			<show chara="biankaSneerClose" position="right"/>
- 			<speak chara="_Bianka">ねぇ——私の知っている「主教」といい、あなたといい、「哲学者」というのは語る前に設問したくなる人種なんですか？</speak>
- 			<show chara="biankaSneerClose" position="right" opacity="0.8"/>
- 			<show chara="thalesLaughClose" position="left"/>
- 			<speak chara="_Thales">かかっ、面白い発想の子じゃ。良き良き。</speak>
- 			<show chara="thalesLaughClose" position="left" opacity="0.8"/>
- 			<show chara="biankaShoutClose" position="right"/>
- 			<speak chara="_Bianka">こ、子供扱いしないでください！これでも立派な戦乙女なんですからっ！</speak>
- 			<show chara="biankaChayaoClose" position="right"/>
- 			<speak chara="_Bianka">そ、それに、あなたこそ成人しているようには見えませんけど、ちび所長さん？</speak> 			
- 			<show chara="biankaChayaoClose" position="right" opacity="0.8"/>
- 			<show chara="thalesEmbarrassedClose" position="left"/>
- 			<speak chara="_Thales">はいはい、わかったわかった——</speak>
- 			<show chara="thalesProudClose" position="left"/>
- 			<speak chara="_Thales">——さて、話を戻すとしよう。食べ物、服飾、建築物の違い、それを教えてやろう。</speak>
- 			<show chara="thalesSmileClose" position="left"/>
- 			<speak chara="_Thales">こほん。核心となるのは簡単なこと、「消費期限」じゃ。</speak>
- 			<show chara="thalesSmileClose" position="left" opacity="0.8"/>
- 			<show chara="wattSurpriseClose" position="right"/>
- 			<speak chara="_Watt">……し、消費期限？</speak>
- 			<show chara="wattSurpriseClose" position="right" opacity="0.8"/>
- 			<show chara="thalesProudClose" position="left"/>
- 			<speak chara="_Thales">ああ。食べ物の消費期限が一番短い。長期の保存に向かないし、食べたらなくなる。</speak>
- 			<speak chara="_Thales">服飾の消費期限はほかの両者の間にある。数年から十数年に渡り使える。使用頻度の低い礼装は、代々伝わっていくものもあるのう。</speak>
- 			<speak chara="_Thales">建築物の消費期限はもちろん一番長い。コストは高いが、一度建てたら、数世紀は使えるぞ。</speak>
- 			<show chara="thalesEmbarrassedClose" position="left"/>
- 			<speak chara="_Thales">言い換えれば、三食違う食べ物を食べることができる。毎日違う服を着ることができる。だが、住む建物が古臭いと「我慢」するしかない。</speak>
- 			<show chara="thalesProudClose" position="left"/>
- 			<speak chara="_Thales">美食やファッションの流行が短期間で移ろいだり、螺旋状に進化するのと違って、</speak>
- 			<speak chara="_Thales">建築物は、歴史の流れの中で審美眼の変遷を表すだけ。「革命的」な「変化」は過去の歴史を徹底的に破壊することを代償にしてきた。</speak>
- 			<show chara="thalesSmileClose" position="left"/>
- 			<speak chara="_Thales">それを知る人間は、あの手この手で建物の内部機能を更新し、歴史的建築の外観的、構造的価値を保ってきた。</speak>
- 			<show chara="thalesStoneClose" position="left"/>
- 			<speak chara="_Thales">例えばこの中央広場——200年前までは「免税エリア」なんて楽しい場所ではなく、「奴隷市場」だったんじゃ。</speak>
- 			<show chara="thalesStoneClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSurpriseClose" position="right"/>
- 			<speak chara="_Bianka">……奴隷市場！？</speak>
- 			<show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
- 			<show chara="thalesEmbarrassedClose" position="left"/>
- 			<speak chara="_Thales">ああ、生きた人間を売買する場所じゃ。</speak>
- 			<show chara="thalesSeriousClose" position="left"/>
- 			<speak chara="_Thales">知らぬだろうが、この都市は未だに債務上の関係で、ある程度の奴隷制度を残しておる。</speak>
- 			<show chara="thalesSeriousClose" position="left" opacity="0.8"/>
- 			<show chara="biankaShoutClose" position="right"/>
- 			<speak chara="_Bianka">……なんですって？</speak>
- 			<show chara="biankaShoutClose" position="right" opacity="0.8"/>
- 			<show chara="wattScaredClose" position="right"/>
- 			<speak chara="_Watt">ほ、本当だよ。アレクサンドリアで破産すると、市政庁の「公共契約奴隷」に登録されるんだ。</speak>
- 			<show chara="wattScaredClose" position="right" opacity="0.8"/>
- 			<show chara="thalesStoneClose" position="left"/>
- 			<speak chara="_Thales">まあ、人身自由のある囚人ってところじゃ——破産にあたり、市政庁が代わりに支払った金額を利息も含めて全部返済するまでのな。</speak>
- 			<speak chara="_Thales">——契約期間中の給料を返済に充てる、または他人が変わりに返済しても構わん。</speak>
- 			<show chara="thalesSmileClose" position="left"/>
- 			<speak chara="_Thales">親が一生かけて払えないなら子が引き継ぐ。それに、7.5%の利息は低くない。</speak> 			
- 			<show chara="thalesSmileClose" position="left" opacity="0.8"/> 			
- 			<show chara="biankaBiteClose" position="right"/>
- 			<speak chara="_Bianka">……横暴すぎやしませんか？</speak>
- 			<show chara="biankaBiteClose" position="right" opacity="0.8"/>
- 			<show chara="thalesEmbarrassedClose" position="left"/>
- 			<speak chara="_Thales">横暴、か。お主からすれば、確かにそうかも知れぬの。</speak>
- 			<show chara="thalesSmileClose" position="left"/>
- 			<speak chara="_Thales">この町は実質上、監獄や死刑といった類のものがない。「財産の没収」と「隔離追放」しかないんじゃ。</speak>
- 			<show chara="thalesSeriousClose" position="left"/>
- 			<speak chara="_Thales">だがここの歴史を見ると、奴隷制度には必然性がある。今の「公共契約奴隷」まで制限されるようになったのは、大きな進歩と言えるじゃろう。</speak>
- 			<show chara="thalesSeriousClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSeriousClose" position="right"/>
- 			<speak chara="_Bianka">……よくわかりません。奴隷制度も、連帯責任も、受け入れられない野蛮な法律だと教えられてきました。</speak>
- 			<show chara="biankaSeriousClose" position="right" opacity="0.8"/>
- 			<show chara="thalesSmileClose" position="left"/>
- 			<speak chara="_Thales">ああ。先進的な時代からきた人なら、誰も受け入れられぬじゃろう。</speak>
- 			<show chara="thalesLaughClose" position="left"/>
- 			<speak chara="_Thales">だが、今日の目的は観光じゃろ？今は気にしなくともよい！</speak>
- 			<show chara="thalesStoneClose" position="left"/>
- 			<speak chara="_Thales">——この町の全体図を知った後に、判断しても遅くはない。</speak>
- 			<goto goto="100" clockwise="1"/>	
-	  </scene>
-	  <scene id="100" background="alexandriaCityHall.jpg">
-	  	<bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
- 			<show chara="thalesSmileClose" position="right"/>
- 			<speak chara="_Thales">ここがさっき言った「市政庁」じゃ。ロボットの紹介を聞こう。</speak>
- 			<show chara="thalesSmileClose" position="right" opacity="0.8"/>
- 			<show chara="beaconFar" position="left"/>
- 			<speak chara="_guideLighthouse">アレクサンドリアの市政庁は165年前の共和暦元年に、革命者が没収した僭主の財産を使って設立されました。その後、立法機関である「公決会議」、行政機関「都市管理協会」の執務場所として機能しています。</speak>
- 			<speak chara="_guideLighthouse">市政庁はギリシャ風の設計で、アーチの両側には外部世界の偉人の彫像が設置されております。アリストテレス、アレクサンドロス3世、ソロン、ペリクレス、レオニダス1世、スパルタカス、グラックス、カエサル、キケロ、アウグストゥスになります。</speak>
- 			<speak chara="_guideLighthouse">より詳しい解説をご希望の方は、彫像の下に記されている番号を本機に入力してください。</speak>
- 			<show chara="beaconFar" position="left" opacity="0.8"/>
- 			<show chara="biankaHesitateClose" position="right"/>
- 			<speak chara="_Bianka">偉人よりも「公決会議」っていうのが気になります。変わった名前ですね。</speak>
- 			<show chara="biankaHesitateClose" position="right" opacity="0.8"/>
- 			<show chara="thalesStoneClose" position="left"/>
- 			<speak chara="_Thales">簡単に言うと、全公民に投票してもらい、法律の改定や制定をする機関のことじゃ。</speak>
- 			<show chara="thalesEmbarrassedClose" position="left"/>
- 			<speak chara="_Thales">念のため言っておくが、「奴隷」と「よそ者」には市民権がないからの、投票には参加できぬ。</speak>
- 			<show chara="thalesEmbarrassedClose" position="left" opacity="0.8"/>
- 			<show chara="biankaHesitateClose" position="right"/>
- 			<speak chara="_Bianka">……</speak>
- 			<show chara="biankaHesitateClose" position="right" opacity="0.8"/>
- 			<show chara="thalesSmileClose" position="left"/>
- 			<speak chara="_Thales">100年前におった「僭主」とは、当時この都市を牛耳っとった海賊の軍閥集団じゃ。</speak>
- 			<show chara="thalesSeriousClose" position="left"/>
- 			<speak chara="_Thales">だが、革命を起こした者たちもまた海賊じゃった。「平民海賊」と「貴族海賊」の戦争ってとこかの。</speak>
- 			<show chara="thalesSeriousClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSurpriseClose" position="right"/>
- 			<speak chara="_Bianka">それは……</speak>
- 			<show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
- 			<show chara="thalesProudClose" position="left"/>
- 			<speak chara="_Thales">この都市は北に深い海溝、南にオアシスの湖、東から西へナイル川の支流が流れておる——守りやすい地形であるがゆえに、様々な輩が虎視眈々としていたんじゃ。</speak>
- 			<show chara="thalesProudClose" position="left" opacity="0.8"/>
- 			<show chara="wattSurpriseClose" position="right"/>
- 			<speak chara="_Watt">な、なら、どうして軍事要塞ではなく、商業都市に？</speak>
- 			<show chara="wattSurpriseClose" position="right" opacity="0.8"/>
- 			<show chara="thalesLaughClose" position="left"/>
- 			<speak chara="_Thales">かかっ、それはもちろん、ここの立地が商業拠点にうってつけじゃったからよ。商人は海賊を怖がらん——相手がお金を受け取ってくれるならの！</speak>
-			<show chara="thalesProudClose" position="left"/>
- 			<speak chara="_Thales">結局のところ、「政府」といい、「国家」といい、「とある階級がほかの階級を搾取する道具」なんじゃ。</speak>
- 			<show chara="thalesStoneClose" position="left"/>
- 			<speak chara="_Thales">「野蛮な社会」が自発的に「平和化」するのは、社会的自己回帰であり、良い傾向である。しかし風習的に、そういう歴史が都市文化に良くない残滓を残す。</speak>
- 			<show chara="thalesStoneClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSeriousClose" position="right"/>
- 			<speak chara="_Bianka">……奴隷制度のことですね。</speak>
- 			<show chara="biankaSeriousClose" position="right" opacity="0.8"/>
- 			<show chara="thalesProudClose" position="left"/>
- 			<speak chara="_Thales">そうじゃ。だが皮肉なことに、この都市の発展水準は高くての——たとえ奴隷であっても、外部のどこよりも良い生活ができておる。</speak>
- 			<show chara="thalesSmileClose" position="left"/>
- 			<speak chara="_Thales">公共浴場、水洗トイレ、基本医療保険、良好な治安。それらはよそでは中々得られぬものじゃ。</speak>
- 			<show chara="thalesSmileClose" position="left" opacity="0.8"/>
- 			<show chara="biankaHesitateClose" position="right"/>
- 			<speak chara="_Bianka">……</speak>
- 			<show chara="biankaHesitateClose" position="right" opacity="0.8"/>
- 			<show chara="thalesLaughClose" position="left"/>
- 			<speak chara="_Thales">おっ、そういえば、ここの斜め向かいが我の仕事場じゃ！見学してみぬか？大図書館を。</speak>
- 			<goto goto="110" clockwise="1"/>	
-	  </scene>
-	  <scene id="110" background="alexandriaLibraryYard.jpg">
-	  	<bgm src="12_29_street.mp3" status="start"></bgm>
- 			<show chara="beaconClose" position="center"/>
- 			<speak chara="_guideLighthouse">「大図書館」は僭主の個人博物館でした。歴史上、荒廃期の神殿まで遡ることができます。共和暦2年、科学研究と普及のための機関として改築されました。</speak>
- 			<speak chara="_guideLighthouse">アレクサンドリア市民は科学をとても重要視しています。「大図書館」は「公決会議」、「都市管理協会」と同等の地位を与えられています。ロボット公務員が普及後、「大図書館」は「法廷」の職能を合併し、都市権力において非常に重要な一角となりました。</speak>
- 			<speak chara="_guideLighthouse">大図書館の外観はアジア要素が強いですが、内装は市政庁と同じ、共和暦早期のギリシャ風です。</speak>
- 			<speak chara="_guideLighthouse">同じ建物の内外でそれぞれ違う流派の設計を用いていますが、両者が自然とマッチしており、改築においては非常に優秀な事例となりました。</speak>
- 			<speak chara="_guideLighthouse">大図書館は本市に籍を置いている者に無料開放されております。外部の方は市民の保証か、預り金の支払いが必要です。</speak>
- 			<hide position="center"></hide>
- 			<show chara="thalesProudClose" position="left"/>
- 			<speak chara="_Thales">——ロボットが最後にした説明の意味、わかったか？</speak>
- 			<show chara="thalesProudClose" position="left" opacity="0.8"/>
- 			<show chara="wattSurpriseClose" position="right"/>
- 			<speak chara="_Watt">ほ、「本市に籍を置いている者」と「市民」の違いのこと？</speak>
- 			<show chara="wattSurpriseClose" position="right" opacity="0.8"/>
- 			<show chara="thalesEmbarrassedClose" position="left"/>
- 			<speak chara="_Thales">そうじゃ。前者は市民権を持たない奴隷も含まれておるが、後者は市民権を持つ市民のみとなる。</speak>
- 			<show chara="thalesLaughClose" position="left"/>
- 			<speak chara="_Thales">だが、知識の殿堂に面倒な社会問題なぞ考えなくともよい！早く中へ入ろうぞ！</speak>
- 			<goto goto="120" clockwise="1"/>	
-	  </scene>
-	  <scene id="120" background="alexandriaLibraryInside.jpg">
-	  	<bgm src="12_29_street.mp3" status="continue"></bgm>
- 			<show chara="wattSmileClose" position="left"/>
- 			<speak chara="_Watt">う、うわぁぁぁぁ……</speak>
- 			<show chara="wattSmileClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSurpriseClose" position="right"/>
- 			<speak chara="_Bianka">こ、これすごい……地下十層ぐらいはあるんじゃないですか？</speak>
- 			<show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
- 			<show chara="thalesStoneClose" position="left"/>
- 			<speak chara="_Thales">地下の部分は近年できた新館じゃ、地上部分は過去の僭主たちの個人蔵書——当時はただのコレクションでしかなかったがの。</speak>
- 			<show chara="thalesSmileClose" position="left"/>
- 			<speak chara="_Thales">とはいえ、彼らによって、この世から消えなかった作品もある。たとえば『ギリシャ諸邦政制』、『アリストパネスの喜劇全集』などじゃな。</speak>
- 			<show chara="thalesProudClose" position="left"/>
- 			<speak chara="_Thales">無論、『ホム大冒険』や『ホム三国志』の小説版なんかもあるぞ。</speak>
- 			<show chara="thalesProudClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSneerClose" position="right"/>
- 			<speak chara="_Bianka">……なんですって、「ホム」まで所蔵しているんですか！？</speak>
- 			<show chara="biankaAngryClose" position="right"/>
- 			<speak chara="_Bianka">——って、「小説版」！？</speak>
- 			<show chara="biankaAngryClose" position="right" opacity="0.8"/>
- 			<show chara="thalesEmbarrassedClose" position="left"/>
- 			<speak chara="_Thales">それらは「よそ者」の記憶と口述によって再現されたものじゃ。ここに所蔵されている異世界作品のほとんどは「回顧録」であり、「原本」ではない。</speak>
- 			<show chara="thalesLaughClose" position="left"/>
- 			<speak chara="_Thales">もし、その本の中にお主たちの認識と違った箇所があれば、ぜひ指摘してくれ！運が良ければ、報奨金ももらえるぞ！</speak>
- 			<show chara="thalesLaughClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSneerClose" position="right"/>
- 			<speak chara="_Bianka">えーと……うちの船には自称シェイクスピアとセルバンテスという文豪がいましたよね——今度ここへ呼んでみようかな。</speak>
- 			<goto goto="130" clockwise="1"/>	
-	  </scene>
-	  <scene id="130" background="alexandriaCityLandscape.jpg">
-	  	<bgm src="peerGynt.mp3" status="start"></bgm>
- 			<show chara="biankaConfidentClose" position="right"/>
- 			<speak chara="_Bianka">あっ、裏口からの景色がすごく綺麗。</speak>
- 			<show chara="biankaConfidentClose" position="right" opacity="0.8"/>
- 			<show chara="thalesProudClose" position="left"/>
- 			<speak chara="_Thales">かかっ、頭と目をリラックスさせるには良い場所じゃろう。</speak>
- 			<show chara="thalesSmileClose" position="left"/>
- 			<speak chara="_Thales">どうじゃ、「文明」の美しさを少しは感じてくれたか？</speak>
- 			<show chara="thalesSmileClose" position="left" opacity="0.8"/>
- 			<show chara="biankaProudClose" position="right"/>
- 			<speak chara="_Bianka">……「建築芸術」のですか？</speak>
- 			<show chara="biankaProudClose" position="right" opacity="0.8"/>
- 			<show chara="thalesProudClose" position="left"/>
- 			<speak chara="_Thales">……いんや、それだけではない。</speak>
- 			<show chara="thalesSmileClose" position="left"/>
- 			<speak chara="_Thales">人類が絶え間なく「生活」していなければ、ピラミッドもパルテノン神殿も、ただの無意味な幾何学体にすぎぬ。</speak>
- 			<show chara="thalesProudClose" position="left"/>
- 			<speak chara="_Thales">更にいうと、審美とは、自由意志が感覚によって自己昇華する過程じゃ。</speak>
- 			<show chara="thalesSmileClose" position="left"/>
- 			<speak chara="_Thales">あらゆる外部情報が触れ合う心の奥深く、時空を越え、特定の「精神波長」とシンクロし、それにより感動を享受する。</speak>
- 			<show chara="thalesProudClose" position="left"/>
- 			<speak chara="_Thales">「文明」の美しさとは、それら無数の感動がさらに大きく複雑な一枚の絵を織りなすことじゃ。それぞれの自由意志は、その絵の一本の線、一点の色のこと。</speak>
- 			<show chara="thalesStoneClose" position="left"/>
- 			<speak chara="_Thales">一部を切り取ると醜いかもしれぬが、全体なら美しいこともある。</speak>
- 			<show chara="thalesStoneClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSneerClose" position="right"/>
- 			<speak chara="_Bianka">……はいはい、また小難しい話ですね。ジミー、そろそろ——</speak>
- 			<bgm src="noise.mp3" status="start"></bgm>
- 			<show chara="biankaShoutClose" position="right"/>
- 			<shake position="right" time="250"></shake>	
- 			<speak chara="_Bianka">——って、いない！ジミー、どこ行ったの！？</speak>
- 			<end post="U2FsdGVkX1+HS4JRVLrlm+kkEYhn"/>	
-	  </scene>
+				<p class="article-text">
+					헤겔(G.W.F Hegel)의 『철학전서』의 『논리학』에서 나온 내용 중 일부이다. 작가는 앞서 같은 이름으로 책을 냈기에, 이 책은 보통 『소논리학』으로 불러진다.</p>
+			</remark>
+			<show chara="thalesSmileClose" position="left" />
+			<speak chara="_Thales">언제든 곤란한 상황에 처해있다면, 생각을 뒤집어보며, 각자 모두가 진정으로 필요한 게 뭔지 다시 한번 생각해 볼 필요가 있다네.</speak>
+			<show chara="thalesStoneClose" position="left" />
+			<speak chara="_Thales">구체적으로 얘기하자면 자네는 가이드를 필요로 하지만,  모르는 사람에게 바가지가 씌워지고 싶진 않지, 난 자네와 대화를 하고 싶지만, 나와 자네는 친하지 않네.</speak>
+			<speak chara="_Thales">이 모든 일이 자네들이 날 고용하는 것과는 필연적인 관계가 없기에, 나는 이 모순을 주체적으로 뛰어넘을 필요가 있었다네.</speak>
+			<show chara="thalesLaughClose" position="left" />
+			<speak chara="_Thales">즉, 난 수동적으로 「돈을 받는다」라는 걸, 능동적인 「돈을 낸다」라는 전략으로 바꿀 필요가 있었다네. 이렇게 하면 상호 간의 목표를 모두 실현시킬 수 있으니까!</speak>
+			<show chara="thalesLaughClose" position="left" opacity="0.8" />
+			<show chara="biankaSneerClose" position="right" />
+			<speak chara="_Bianka">……돈을 절약하게만 도와주신다면, 최고의 친구죠.</speak>
+			<show chara="biankaSneerClose" position="right" opacity="0.8" />
+			<show chara="thalesEmbarrassedClose" position="left" />
+			<speak chara="_Thales">훗, 이렇게나 「솔직」한 녀석일 줄은 몰랐구나, 농담도 겨우 할 줄 알고.</speak>
+			<show chara="thalesEmbarrassedClose" position="left" opacity="0.8" />
+			<show chara="biankaShoutClose" position="right" />
+			<speak chara="_Bianka">……저기요! 방금 저한테 욕하신 거죠?</speak>
+			<show chara="biankaShoutClose" position="right" opacity="0.8" />
+			<show chara="thalesProudClose" position="left" />
+			<speak chara="_Thales">어차피, 「형이상학」의 의무란, 사고 자체에 대한 고찰을 하는 것, 또 「진실」의 능력과 한계에 대한 파악을 고찰을 하는 것일세. 여기서 더 설명하려면, 자네들은 한 학기 정도 내 수업을 들어야겠지——그러니 지금은 여기까지만 얘기하겠네.</speak>
+			<show chara="thalesSmileClose" position="left" />
+			<speak chara="_Thales">(기계에 커맨드를 입력한다)</speak>
+			<hide position="left"></hide>
+			<hide position="right"></hide>
+			<show chara="beaconClose" position="center" />
+			<speak chara="_guideLighthouse">입력되었습니다. 가이드를 시작합니다.</speak>
+			<show chara="beaconFar" position="center" />
+			<speak chara="_guideLighthouse">현재 위치는 항만 구역 거리의 중심입니다. 여행을 오신 분들에게, 이곳은 기념품을 사기 좋은 곳입니다.</speak>
+			<speak chara="_guideLighthouse">항만 구역에는 다양한 상점들뿐 아니라, 법정 면세점 역시 위치하기에, 좋은 품질에 저렴한 가격을 가진 고급 상품을 안심하고 구매하실 수 있습니다.</speak>
+			<speak chara="_guideLighthouse">오늘의 추천 상품은 「나일강 과수원」의 카스텔라 케이크, 「니코시아의 추억」의 성게 통조림, 그리고 「코펜하겐의 인어들」의 유리 공예품입니다!</speak>
+			<hide position="center"></hide>
+			<show chara="biankaAngryClose" position="right" />
+			<speak chara="_Bianka">이거…… 완전 세일즈맨 말투인데……</speak>
+			<show chara="biankaAngryClose" position="right" opacity="0.8" />
+			<show chara="thalesEmbarrassedClose" position="left" />
+			<speak chara="_Thales">흠흠, 애초에 상업 도시 아닌가. 대충 넘어가 주시게.</speak>
+			<show chara="thalesProudClose" position="left" />
+			<speak chara="_Thales">근데, 여기서 내가 좀 덧붙이자면——자네들은 음식, 의복 그리고 건물들에 대한 아름다움의 기준이 어떻게 다른지 아는가?</speak>
+			<show chara="thalesProudClose" position="left" opacity="0.8" />
+			<show chara="wattSurpriseClose" position="right" />
+			<speak chara="_Watt">……모, 모르겠어요.</speak>
+			<show chara="biankaSneerClose" position="right" />
+			<speak chara="_Bianka">음——제가 아는 「주교」나, 당신 같은 「철학자」들은 얘기에 앞서, 「질문」부터 하는 걸 좋아하나 봐요?</speak>
+			<show chara="biankaSneerClose" position="right" opacity="0.8" />
+			<show chara="thalesLaughClose" position="left" />
+			<speak chara="_Thales">훗, 정말 생각이 남다른 아이로구나. 좋다, 좋아!</speak>
+			<show chara="thalesLaughClose" position="left" opacity="0.8" />
+			<show chara="biankaShoutClose" position="right" />
+			<speak chara="_Bianka">누, 누가 애예요! 저, 전 현역 발키리라고요, 알겠어요?</speak>
+			<show chara="biankaChayaoClose" position="right" />
+			<speak chara="_Bianka">게, 게다가, 본인은 스스로부터 어른처럼 보인다고 생각하시나요? 조그만 연구소장님?!</speak>
+			<show chara="biankaChayaoClose" position="right" opacity="0.8" />
+			<show chara="thalesEmbarrassedClose" position="left" />
+			<speak chara="_Thales">아, 아, 알겠네, 알겠어——</speak>
+			<show chara="thalesProudClose" position="left" />
+			<speak chara="_Thales">——그럼 다시 주제로 돌아가, 음식, 의복, 그리고 건물들에 대해 이야기해 보지.</speak>
+			<show chara="thalesSmileClose" position="left" />
+			<speak chara="_Thales">크흠, 핵심은 매우 간단하다네. 내가 강조하고 싶은 건, 「유효 기간」이라네.</speak>
+			<show chara="thalesSmileClose" position="left" opacity="0.8" />
+			<show chara="wattSurpriseClose" position="right" />
+			<speak chara="_Watt">……유, 유효 기간이요?</speak>
+			<show chara="wattSurpriseClose" position="right" opacity="0.8" />
+			<show chara="thalesProudClose" position="left" />
+			<speak chara="_Thales">그렇다네. 음식의 유효 기간은 최악이지. 오랫동안 보존할 수도 없고, 먹고 나면 없어져 버리니까.</speak>
+			<speak chara="_Thales">의복의 유효 기간은 중간 정도라네. 몇 년 혹은 십수 년을 입을 수 있고, 자주 입는 것만 아니라면, 웨딩드레스처럼 할머니로부터 손녀에게까지 물려질 수도 있겠지.</speak>
+			<speak chara="_Thales">건물의 유효 기간은 당연 제일이지, 짓는 비용이 크긴 하지만, 한번 짓고 나면 수 세기 동안 사용할 수 있으니까.</speak>
+			<show chara="thalesEmbarrassedClose" position="left" />
+			<speak chara="_Thales">이걸 다르게 말하면, 음식은 하루에 서로 다른 세 가지를, 옷은 날마다 다르게 입을 수 있지만, 자신이 살고 있는 건물 외관의 모자람은 「참아야」 할 수밖에 없다는 거네.</speak>
+			<show chara="thalesProudClose" position="left" />
+			<speak chara="_Thales">시시각각 바뀌는 음식이나 옷의 유행은, 상대적으로 짧은 시간 안에 돌아오지만, 거시적으로 보면 나선의 형태로 발전하고 있지.</speak>
+			<speak chara="_Thales">건축물은 기나긴 역사 속에서 천천히 변할 수밖에 없다네, 어떤 식으로든 「혁명적인」 「변화」는 이전 역사를 완전히 파괴하고 마는 대가를 치뤄야 하니까.</speak>
+			<show chara="thalesSmileClose" position="left" />
+			<speak chara="_Thales">이 점을 알아두시게, 역사 속에 살아가는 사람들은, 내부적인 기능의 혁신을 통해, 역사적인 건물의 외양과 구조적 가치를 보존할 방법을 찾아야만 한다는 것을.</speak>
+			<show chara="thalesStoneClose" position="left" />
+			<speak chara="_Thales">예를 들어, 이 광장은——200년 전, 「면세 구역」이 아닌, 「노예 시장」 이었지.</speak>
+			<show chara="thalesStoneClose" position="left" opacity="0.8" />
+			<show chara="biankaSurpriseClose" position="right" />
+			<speak chara="_Bianka">……노예시장!?</speak>
+			<show chara="biankaSurpriseClose" position="right" opacity="0.8" />
+			<show chara="thalesEmbarrassedClose" position="left" />
+			<speak chara="_Thales">그래. 살아있는 사람을 사고파는 장터였네.</speak>
+			<show chara="thalesSeriousClose" position="left" />
+			<speak chara="_Thales">그리고, 이건 몰랐겠지만, 이 도시는, 여전히 채무라는 의미로, 일종의 노예제를 유지하고 있지.</speak>
+			<show chara="thalesSeriousClose" position="left" opacity="0.8" />
+			<show chara="biankaShoutClose" position="right" />
+			<speak chara="_Bianka">……뭐라고요?</speak>
+			<show chara="biankaShoutClose" position="right" opacity="0.8" />
+			<show chara="wattScaredClose" position="right" />
+			<speak chara="_Watt">사, 사실이에요—— 알렉산드리아에서 파산한 사람은, 시청에서 「공공계약노예」로 분류돼요.</speak>
+			<show chara="wattScaredClose" position="right" opacity="0.8" />
+			<show chara="thalesStoneClose" position="left" />
+			<speak chara="_Thales">뭐, 개인의 자유가 있는 죄수 같은 거라네——시청이 파산 시 대신 내준 공적 비용을 이자와 함께 다 갚을 때까지는 말이지.</speak>
+			<speak chara="_Thales">——계약 기간 동안 받는 급여는 변제에 쓰이고, 누군가가 대신 갚아주는 것도 가능하다네.</speak>
+			<show chara="thalesSmileClose" position="left" />
+			<speak chara="_Thales">1대에서 안될 거 같다면, 2대까지. 2대가 못하면 3대. 결국 빚은 계속 상속되고, 7.5%라는 이율은 결코 낮은 게 아니지.</speak>
+			<show chara="thalesSmileClose" position="left" opacity="0.8" />
+			<show chara="biankaBiteClose" position="right" />
+			<speak chara="_Bianka">……너무 야만적인 거 아니에요?</speak>
+			<show chara="biankaBiteClose" position="right" opacity="0.8" />
+			<show chara="thalesEmbarrassedClose" position="left" />
+			<speak chara="_Thales">야만……이라. 자네 말대로, 어쩌면 그렇다고 할 수도 있지.
+</speak>
+			<show chara="thalesSmileClose" position="left" />
+			<speak chara="_Thales">이 도시는 감옥도, 사형도 없네, 「재산 몰수」와 「도시 추방」만이 있을 뿐이지.</speak>
+			<show chara="thalesSeriousClose" position="left" />
+			<speak chara="_Thales">어찌 되었든, 도시의 역사를 보았을 때, 노예제는 필연이었네一지금의 「공공계약노예」 한 종류로 제한시킬 수 있게 된 것만 해도, 이미 크나큰 발전이지.</speak>
+			<show chara="thalesSeriousClose" position="left" opacity="0.8" />
+			<show chara="biankaSeriousClose" position="right" />
+			<speak chara="_Bianka">……이해가 안 돼요. 제가 보기엔 노예제나, 연좌제나, 모두 받아들이기 어려운 야만스러운 법들이에요.</speak>
+			<show chara="biankaSeriousClose" position="right" opacity="0.8" />
+			<show chara="thalesSmileClose" position="left" />
+			<speak chara="_Thales">음, 아무래도 더 발전한 시대에서 온 사람들에겐 받아들이기 어려울 수도 있겠지.</speak>
+			<show chara="thalesLaughClose" position="left" />
+			<speak chara="_Thales">하지만, 오늘 네 주목적은 관광이 아니더냐? 그런 건 머릿속에서 잊어버리자꾸나!</speak>
+			<show chara="thalesStoneClose" position="left" />
+			<speak chara="_Thales">——우선 이 도시의 체계를 이해하고 나서, 이게 옳은지 아닌지를 판단해도 늦지 않을 거니.</speak>
+			<goto goto="100" clockwise="1" />
+		</scene>
+		<scene id="100" background="alexandriaCityHall.jpg">
+			<bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
+			<show chara="thalesSmileClose" position="right" />
+			<speak chara="_Thales">이곳이 바로 방금 전 얘기했던 「시청」이라네. 여기서 기계의 안내를 들어보는 건 어떤가?</speak>
+			<show chara="thalesSmileClose" position="right" opacity="0.8" />
+			<show chara="beaconFar" position="left" />
+			<speak chara="_guideLighthouse">알렉산드리아 시청은 공화력 원년인 165년 전에 건립되었습니다. 혁명가들이 군주에게서 몰수한 재산으로 완성하였고, 이후 입법기관인 「공결회의」와 행정기관인 「도시관리협회」의 사무실을 겸하고 있습니다.</speak>
+			<speak chara="_guideLighthouse">시청은 그리스식 디자인으로, 아치형 다리 양쪽에는 아리스토텔레스, 알렉산더 대왕, 솔론, 페리클레스, 레오니다스 1세, 스파르타쿠스, 그라쿠스, 시저, 시세로, 아우구스투스 등 바깥 세계 위인의 조각상들이 세워져 있습니다.</speak>
+			<speak chara="_guideLighthouse">만약 그들에 대해 더 많이 알고 싶으시다면, 조각상 밑의 번호를 입력해 주세요. 그럼 본 기계가 상세한 설명을 제공할 것입니다.</speak>
+			<show chara="beaconFar" position="left" opacity="0.8" />
+			<show chara="biankaHesitateClose" position="right" />
+			<speak chara="_Bianka">고대인들에 대한 얘기보다, 난 그 「공결회의」에 대해 알고 싶은데——너무 이상한 이름이야.</speak>
+			<show chara="biankaHesitateClose" position="right" opacity="0.8" />
+			<show chara="thalesStoneClose" position="left" />
+			<speak chara="_Thales">간단하게 말해, 시민 투표라네, 이런 방식을 통해 법이 제정되거나 개정되고 있지.</speak>
+			<show chara="thalesEmbarrassedClose" position="left" />
+			<speak chara="_Thales">그리고, 내가 미리 말해두자면, 「노예」와 「외지인」은 시민권이 없다네. 그들은 어떤 투표에도 참여할 수 없지.</speak>
+			<show chara="thalesEmbarrassedClose" position="left" opacity="0.8" />
+			<show chara="biankaHesitateClose" position="right" />
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaHesitateClose" position="right" opacity="0.8" />
+			<show chara="thalesSmileClose" position="left" />
+			<speak chara="_Thales">가이드 로봇이 언급한, 백 년도 전에 쫓겨난, 「군주」는 당시 이 도시 전부를 지배하던 해적 군벌 집단의 우두머리였다네.</speak>
+			<show chara="thalesSeriousClose" position="left" />
+			<speak chara="_Thales">하지만 알아야 할게, 그때 들고일어난 사람들도, 실은 그와 마찬가지로 해적이었다는 거네. 「해적 평민」과 「해적 귀족」 간의 투쟁이었던 거지.</speak>
+			<show chara="thalesSeriousClose" position="left" opacity="0.8" />
+			<show chara="biankaSurpriseClose" position="right" />
+			<speak chara="_Bianka">그런……</speak>
+			<show chara="biankaSurpriseClose" position="right" opacity="0.8" />
+			<show chara="thalesProudClose" position="left" />
+			<speak chara="_Thales">이 도시의 북쪽은 깊은 해안, 남쪽으로는 오아시스가 있고, 나일강의 지류가 동에서 서로 가로지르기에——수비하긴 쉽지만, 공격하긴 어렵지. 자연히 온갖 불법을 일삼는 무리들이 자신의 거점으로 삼으려 했다네.</speak>
+			<show chara="thalesProudClose" position="left" opacity="0.8" />
+			<show chara="wattSurpriseClose" position="right" />
+			<speak chara="_Watt">그, 그런 거면, 어떻게 상업 도시로 발전한 거죠? 군사 요새가 되어야 하는 거 아닌가요?</speak>
+			<show chara="wattSurpriseClose" position="right" opacity="0.8" />
+			<show chara="thalesLaughClose" position="left" />
+			<speak chara="_Thales">아, 그거야 물론 이곳이야말로 지리상 상업적인 요충지이기도 하니까, 상업 허브를 두기엔 이만한 곳이 없기 때문이지! 상인들은 해적을 두려워하지 않는다네——보호비를 내면 그만이니까!</speak>
+			<show chara="thalesProudClose" position="left" />
+			<speak chara="_Thales">애시당초, 「정부」니, 「국가」니 하는 건, 그저 「한 계급이 다른 계급을 억누르기 위한 폭력적인 장치」에 불과하지 않은가?</speak>
+			<show chara="thalesStoneClose" position="left" />
+			<speak chara="_Thales">보통, 「야만사회」의 자발적인 「평화」는 결국 사회로 환원되기 때문에, 좋은 일이긴 하다네. 허나 관습의 변화라는 점에서 보면, 이러한 역사는 그 건전하지 못한 부분 또한 도시 문화에 남기고 말지.</speak>
+			<show chara="thalesStoneClose" position="left" opacity="0.8" />
+			<show chara="biankaSeriousClose" position="right" />
+			<speak chara="_Bianka">……그게 「노예제도」군요.</speak>
+			<show chara="biankaSeriousClose" position="right" opacity="0.8" />
+			<show chara="thalesProudClose" position="left" />
+			<speak chara="_Thales">물론, 아이러니하게도, 이 도시의 발전 수준이 너무나도 높기에——이곳의 「노예」 마저도, 다른 지역의 개개인보다 훨씬 높은 삶의 질을 누리고 있다네.</speak>
+			<show chara="thalesSmileClose" position="left" />
+			<speak chara="_Thales">공공 목욕탕, 수세식 화장실, 기본적인 의료보험, 안정적인 치안, 이런 것들은 다른 지역에선 누리기 어렵지.</speak>
+			<show chara="thalesSmileClose" position="left" opacity="0.8" />
+			<show chara="biankaHesitateClose" position="right" />
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaHesitateClose" position="right" opacity="0.8" />
+			<show chara="thalesLaughClose" position="left" />
+			<speak chara="_Thales">아. 말이 나온 김에, 여기서 대각선으로 맞은편 쪽 거리로 가면 내가 평소에 일하는 곳이라네! 가보고 싶지 않은가? 대도서관에!
+</speak>
+			<goto goto="110" clockwise="1" />
+		</scene>
+		<scene id="110" background="alexandriaLibraryYard.jpg">
+			<bgm src="12_29_street.mp3" status="start"></bgm>
+			<show chara="beaconClose" position="center" />
+			<speak chara="_guideLighthouse">「대도서관」은 군주의 개인 박물관이었던 곳으로, 초창기 미개척 시대에는 신전으로 쓰였습니다. 공화력 2년, 과학 연구와 이를 보급하기 위한 기관으로 개편되었습니다.</speak>
+			<speak chara="_guideLighthouse">알렉산드리아 시민들은 과학 혁신을 통한 사회 발전을 중요시 여겨, 이곳 「대도서관」에 「공결회의」, 「도시관리협회」와 같은 지위를 주기로 하였습니다. 로봇 공무원이 보급된 이후, 「대도서관」은 「법원」을 흡수해, 도시 권력 구조에 있어 극도로 중요한 하나의 축이 되었습니다.</speak>
+			<speak chara="_guideLighthouse">대도서관의 건물 외형은 아시아적인 요소가 많이 포함되어 있지만, 내부 구조와 장식은 시청과 비슷한데, 이는 공화력 초기 계획에서 그리스식으로 확정되어 있었기 때문입니다.</speak>
+			<speak chara="_guideLighthouse">비록 상당히 다른 스타일이 안쪽과 바깥쪽에 각각 사용되었지만, 놀랍게도, 이 두 스타일은 매우 자연스러운 조화를 이루고 있어, 건축물 개보수라는 측면에서도 몇 안 되는 매우 훌륭한 표본입니다.</speak>
+			<speak chara="_guideLighthouse">대도서관은 도시의 신분증을 가진 사람들에게 무료로 개방되어 있습니다. 외지인들은 시민의 보증을 받거나 보증금을 내면 입장하실 수 있습니다.</speak>
+			<hide position="center"></hide>
+			<show chara="thalesProudClose" position="left" />
+			<speak chara="_Thales">——기계의 마지막 문장, 뭔가 특이하다고 느낀 점 없나?</speak>
+			<show chara="thalesProudClose" position="left" opacity="0.8" />
+			<show chara="wattSurpriseClose" position="right" />
+			<speak chara="_Watt">그, 그 말은 즉, 「도시 신분증을 가진 사람」 과 「도시 시민」이 다른 의미를 가진다는 건가요?</speak>
+			<show chara="wattSurpriseClose" position="right" opacity="0.8" />
+			<show chara="thalesEmbarrassedClose" position="left" />
+			<speak chara="_Thales">그렇다네. 전자는 시민권이 없는 노예를 포함하는 것이고, 후자는 시민권을 가진 「시민」을 말하는 것이지.</speak>
+			<show chara="thalesLaughClose" position="left" />
+			<speak chara="_Thales">하지만, 이 지식의 전당에서 그런 복잡한 사회 문제들을 생각할 필요는 없다네! 자 다들 앞으로 나아가서 두 눈을 크게 뜨고 보시게!</speak>
+			<goto goto="120" clockwise="1" />
+		</scene>
+		<scene id="120" background="alexandriaLibraryInside.jpg">
+			<bgm src="12_29_street.mp3" status="continue"></bgm>
+			<show chara="wattSmileClose" position="left" />
+			<speak chara="_Watt">우, 우와……</speak>
+			<show chara="wattSmileClose" position="left" opacity="0.8" />
+			<show chara="biankaSurpriseClose" position="right" />
+			<speak chara="_Bianka">이 ,이거 크기가 정말 엄청난데…… 지하로도 10층까지 내려가잖아?</speak>
+			<show chara="biankaSurpriseClose" position="right" opacity="0.8" />
+			<show chara="thalesStoneClose" position="left" />
+			<speak chara="_Thales">밑으로 내려가는 부분은 요 몇 년 사이에 새로 지었다네. 이전엔 군주의 개인 서재가 있었지만——그저 겉치레에 불과했지.</speak>
+			<show chara="thalesSmileClose" position="left" />
+			<speak chara="_Thales">
+				물론 겉치레라 해도, 완전히 소실될 뻔한 작품들도 많이 보관해 왔네. 『그리스의 정치 제도들』 이나 『아리스토파네스 희곡전집』 같은 걸 말일세.</speak>
+			<show chara="thalesProudClose" position="left" />
+			<speak chara="_Thales">물론, 『호무대모험』이나 『호무삼국지』의 소설판을 보고 싶다면——이 역시 여기서 찾을 수 있을 걸세.</speak>
+			<show chara="thalesProudClose" position="left" opacity="0.8" />
+			<show chara="biankaSneerClose" position="right" />
+			<speak chara="_Bianka">……무슨, 여기도 「호무」가 있어요?!</speak>
+			<show chara="biankaAngryClose" position="right" />
+			<speak chara="_Bianka">——잠깐, 「소설판」??</speak>
+			<show chara="biankaAngryClose" position="right" opacity="0.8" />
+			<show chara="thalesEmbarrassedClose" position="left" />
+			<speak chara="_Thales">「외지인」의 기억으로 다시 쓰인 내용들이라 그러네. 사실, 이곳에 있는 다른 세계의 작품들, 대다수가 「기억을 통해 쓰인 사본」일 뿐, 「원본」은 아니라네.</speak>
+			<show chara="thalesLaughClose" position="left" />
+			<speak chara="_Thales">만약 이 책들 중에 자네의 지식과 다른 부분을 찾았다면, 표시를 부탁해도 되겠나? 운이 좋다면, 상금을 받을 수도 있다네!</speak>
+			<show chara="thalesLaughClose" position="left" opacity="0.8" />
+			<show chara="biankaSneerClose" position="right" />
+			<speak chara="_Bianka">저기…… 저희 배에 자신을 셰익스피어랑 세르반테스라고 주장하는 사람들이 있는데——나중에 데려와도 되겠죠?</speak>
+			<goto goto="130" clockwise="1" />
+		</scene>
+		<scene id="130" background="alexandriaCityLandscape.jpg">
+			<bgm src="peerGynt.mp3" status="start"></bgm>
+			<show chara="biankaConfidentClose" position="right" />
+			<speak chara="_Bianka">우와, 후문 쪽 경치도 대단하네.</speak>
+			<show chara="biankaConfidentClose" position="right" opacity="0.8" />
+			<show chara="thalesProudClose" position="left" />
+			<speak chara="_Thales">하하, 이곳은 눈과 머리를 쉬게 해주는 몇 없는 「풍수지리적인 명당」이라네.</speak>
+			<show chara="thalesSmileClose" position="left" />
+			<speak chara="_Thales">그래서, 「문명」의 아름다움이 조금은 느껴지긴 했나?</speak>
+			<show chara="thalesSmileClose" position="left" opacity="0.8" />
+			<show chara="biankaProudClose" position="right" />
+			<speak chara="_Bianka">……「건축양식」을 말하시는 거죠?</speak>
+			<show chara="biankaProudClose" position="right" opacity="0.8" />
+			<show chara="thalesProudClose" position="left" />
+			<speak chara="_Thales">……아니, 그것뿐만이 아니라네.</speak>
+			<show chara="thalesSmileClose" position="left" />
+			<speak chara="_Thales">만일 끊임없이 「삶」을 살아가는 인류가 이 세상에 존재하지 않게 된다면, 저 피라미드나 파르테논 신전 같은 것도 그저 무의미한 기하학적인 형체에 불과하겠지.</speak>
+			<show chara="thalesProudClose" position="left" />
+			<speak chara="_Thales">그렇기에, 심미란, 자유 의지가 감각을 통해 자신을 더 높은 곳으로 승화시키는 과정이라네.</speak>
+			<show chara="thalesSmileClose" position="left" />
+			<speak chara="_Thales">모든 외부 정보가 통합되고, 연결되어가는 마음속 깊은 곳에서, 시공을 넘나들며 「영적인 파장」이 맞는 곳을 찾았을 때, 비로소 그 감격을 누릴 수 있다네.</speak>
+			<show chara="thalesProudClose" position="left" />
+			<speak chara="_Thales">그리고 「문명」의 아름다움에는 수많은 감정들이 존재하지, 이들은 함께 엮여 거대하고 복잡한 한 폭의 그림을 만들어 낸다네——각각의 자유 의지가 한 가닥의 선과 색으로 그 그림을 채워나가는 거지.</speak>
+			<show chara="thalesStoneClose" position="left" />
+			<speak chara="_Thales">부분적으로는 보잘것없지만, 전체로 보면 눈부시게 아름답다네.</speak>
+			<show chara="thalesStoneClose" position="left" opacity="0.8" />
+			<show chara="biankaSneerClose" position="right" />
+			<speak chara="_Bianka">……네, 또 뭔가 어려운 말씀을 하셨다는 건 알겠네요. 지미, 우리——</speak>
+			<bgm src="noise.mp3" status="start"></bgm>
+			<show chara="biankaShoutClose" position="right" />
+			<shake position="right" time="250"></shake>
+			<speak chara="_Bianka">——잠깐, 어딨어?! 그 꼬마 녀석, 어디로 사라진 거야!?</speak>
+			<end post="U2FsdGVkX1+HS4JRVLrlm+kkEYhn" />
+		</scene>
 	</story>
 </data>
