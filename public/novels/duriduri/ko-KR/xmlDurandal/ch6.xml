@@ -1,514 +1,515 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
-  <story>
-    <scene id="0" background="bg.jpg">
-    	<bgm src="11_12_mid-lude.mp3" status="start"></bgm>
-    	<cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
-    	<goto goto="10" change="#000000"/>		
-	  </scene>
-	  <scene id="10" background="libraryBasement.jpg">
+	<story>
+		<scene id="0" background="bg.jpg">
+			<bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+			<cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+			<goto goto="10" change="#000000" />
+		</scene>
+		<scene id="10" background="libraryBasement.jpg">
 			<bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
- 			<text>図書館。</text>
- 			<text>ある程度の教養が備わっていない人間にとって、並べられた本棚はつまらない文字が羅列された文化の墓場だ。</text>
- 			<text>だが、それらを理解できる人間にとって、図書館は喧騒のヴァルハラ——時空を越えて知識の交流をする神殿である。</text>
+			<text>도서관.</text>
+			<text>지식의 기반을 갖추지 못한 이들에게, 나열된 책장은 그저 지루한 글자들로 가득한 문화의 묘지에 불과하다.</text>
+			<text>하지만, 이해할 수 있는 사람들에게, 도서관은 떠들썩한 발할라, 시공을 넘어 지혜를 나누는 영웅의 전당이다.</text>
 			<text article="1">
-				<p class="article-text">「次のような問いについて考えてみよう。“機械は考えることができるだろうか?”」</p>
-				<p class="article-text">「まず始めに“機械”とか、“考える”という用語の定義をしなければいけない。その際、これらの定義はなるべくその言葉の日常的な使い方に当てはまるよう設定されるだろう——しかし、こういった考え方は間違いである。」</p>
+				<p class="article-text">「문제를 하나 내겠다, “기계는 사고를 하는가?”」</p>
+				<p class="article-text">「이에 대한 답은 우선 “기계”와 “사고”란 용어를 정의하는 것 부터 시작해야 한다. 이 용어들은 우리의 일상적인 용법에 맞추어 정의될 수도 있겠지만——이런 방식은 잘못을 초래하고 만다.」</p>
 			</text>
 			<text article="1">
-				<p class="article-text">「もし“機械”や“考える”という単語の意味がそれらの一般的な用法を調べて明らかになるのなら、次のような結論に至ってしまうからだ。つまり、“機械は考えることができるのか”という問いの意味とそれに対する答えは、ギャラップ社の世論調査のような統計によって求められるべきだ、となってしまう。」</p>
-				<p class="article-text">「そんなのはバカらしい。」</p>
+				<p class="article-text">「만약 “기계”와 “사고”에 대한 정의를 일상에서의 용법에 기초하게 내버려 두면, “기계는 사고를 하는가”라는 문제에 대한 답은 흔하디흔한 “여론 조사” 마냥 이미 정해진 답에서 벗어나기 어려워진다.」</p>
+				<p class="article-text">「웃긴 일이다.」</p>
 			</text>
 			<text article="1">
-				<p class="article-text">「ここで私はこんな定義をするかわりに、この問いを別の、これとかなり似てはいるがそれほど曖昧でない言葉に言いかえてみよう。」</p>
-				<p class="article-text">「この問いの新しい形式はこう表わされる——」</p>
+				<p class="article-text">「고로, 난 이 용어들에 대한 정의를 시도하기 보다, 문제 자체를——좀 더 핵심에 가깝고, 더 명확한 답을 얻을 수 있는 형식으로——대체하기로 했다.」</p>
+				<p class="article-text">「이 새로운 형식으로 문제를 묘사하는 게임을——」</p>
 			</text>
- 			<text remark="next">「——“模倣ゲーム”と。」</text>
+			<text remark="next">「——우리는 “이미테이션 게임(튜링 테스트)”이라 부르기로 한다.」</text>
 			<remark post="U2FsdGVkX18PHNWizGemutQ7hqod">
-				<p class="article-text-h">注釈：</p>
-				<p class="article-text">アラン・チューリング（Alan Mathison Turing）が1950年に発表した論文『計算する機械と知性』（Computing Machinery and Intelligence）より。</p>
-				<p class="article-text">この「模倣ゲーム」（後に「チューリング・テスト」と呼ばれる）は、人間の判定者が、一人の（別の）人間と一機の機械が通常の言語で会話する様子を観察する。このとき人間も機械も人間らしく見えるように対応するのである。これらの参加者はそれぞれ隔離されている。判定者が、機械と人間との確実な区別ができなかった時、この機械はゲームに勝った（テストに合格した）ことになる。</p>
-				<p class="article-text">チューリング・テストの価値は、ある機械が「人間的」かどうかを判定するための基準が明確で、実行可能な点だ。もし機械が「模倣ゲーム」に勝利すれば、この機械の「頭脳」は「人」と遜色ないこととなる。</p>
+				<p class="article-text-h">주:</p>
+				<p class="article-text">이 문장은 앨런 매시선·튜링(Alan Mathison Turing)이 1950년에 발표한 논문 『계산 기계와 지능』을 번역한 것이다(Computing Machinery and Intelligence).</p>
+				<p class="article-text">
+					이 「이미테이션 게임」(이후에 「튜링 테스트」로 알려집니다)은 사람 한 명(C)이 언어를 사용하여 자신이 직접적으로 만나 볼 수 없는 두 대상(기계 하나, 코드A; 사람 한 명, 코드B)에게 연속하여 질문을 던진다——충분한 시간 동안 문답을 하여도 C가 A와 B중 누가 기계이고, 사람인지 구분하지 못한다면, 기계가 승리하게 된다(즉, 「튜링 테스트 통과」를 의미한다).</p>
+				<p class="article-text">튜링테스트의 이론적 가치는 실제로 실현 가능하다는 점에 있다. 만약 어떤 기계가 기복없이 「이미테이션 게임」에서 계속 이겨나갈 수 있다면, 그 기계는 「정신적인 능력」이란 면에서 객관적으로 사람과 다를 바 없다는 것을 의미한다.</p>
 			</remark>
- 			<text>アラン・チューリングの論文に没頭している間に、二人の同行者がこの区画からいなくなっていた。</text>
- 			<text>はぐれたのは、どちらかというと——話に夢中になっていた二人のせいだと思う。はたから見たら、自分がその連れだとは見えなかっただろう。</text>
- 			<text>チューリングの論文が難しかったのか、眠気が襲ってくる。</text>
- 			<text>だめだ。ここで読むのをやめたら理解しかかっていた内容が飛ぶ。この章を読み終えるまでは……</text>
- 			<text>あれ？何か……大事なことを忘れているような……</text>
- 			<text>だめだ、まぶたが重すぎる……</text>
- 			<text>ねむ……い……</text>
- 			<text>……</text>
- 			<text>意識を失う寸前、香水のような匂いがした。</text>
- 			<goto goto="20" clockwise="1"/>	
-	  </scene>
-	  <scene id="20" background="libraryCenter.jpg">
-	  	<bgm src="noise.mp3" status="start"></bgm>
- 			<show chara="biankaShoutClose" position="left"/>
- 			<shake position="left" time="250"></shake>
- 			<speak chara="_Bianka">どういうことです！？</speak>
- 			<show chara="biankaBiteClose" position="left"/>
- 			<shake position="left" time="250"></shake>
- 			<speak chara="_Bianka">この「後現代科学資料館」のどこかにいるはずじゃ！</speak>
- 			<show chara="biankaShoutClose" position="left"/>
- 			<shake position="left" time="250"></shake>
- 			<speak chara="_Bianka">トイレまで探したのに、全然見当たりません！</speak>
- 			<show chara="biankaShoutClose" position="left" opacity="0.8"/>
- 			<show chara="thalesSeriousClose" position="right"/>
- 			<speak chara="_Thales">おかしいのう、あのガリ勉坊主、そう遠くへは行っておらんと思うのじゃが……</speak>
- 			<speak chara="_Thales">ロビーに沿ってここまで来て……お主ら二人に「後現代科学」——つまり、我々がまだ把握できていない外部世界の知識のことを説明した。</speak>
- 			<speak chara="_Thales">その後、階段を登って、裏口から建物を出て、景色を見て……</speak>
- 			<speak chara="_Thales">もし、はぐれるとしたら、「ここで本を読むのに没頭していた」可能性が一番高いのじゃが……</speak>
- 			<show chara="thalesSeriousClose" position="right" opacity="0.8"/>
- 			<show chara="biankaBiteClose" position="left"/>
- 			<speak chara="_Bianka">のんきに分析をしている場合ではありません！</speak>
- 			<show chara="biankaShoutClose" position="left"/>
- 			<speak chara="_Bianka">館内放送！扉の封鎖！この中を隅から隅まで捜索しましょう！</speak>
- 			<show chara="biankaBiteClose" position="left"/>
- 			<speak chara="_Bianka">この街は昔、奴隷として人身売買が行れていたんです。あんな気弱な人間が、勝手にどこか行くわけありません！</speak>
- 			<show chara="biankaShoutClose" position="left"/>
- 			<speak chara="_Bianka">はぐれたんじゃない——きっと誘拐か何かです！</speak>
- 			<show chara="biankaShoutClose" position="left" opacity="0.8"/>
- 			<show chara="thalesSeriousClose" position="right"/>
- 			<speak chara="_Thales">……</speak>
- 			<speak chara="_Thales">…………</speak>
- 			<speak chara="_Thales">その「最悪の状況」はなくもない。それは認めよう。</speak>
- 			<show chara="thalesEmbarrassedClose" position="right"/>
- 			<speak chara="_Thales">館内放送はすぐ手配する。じゃが、残りの2つは館内の秩序を乱す行為じゃ。館長の許可がいる。</speak>
- 			<show chara="thalesEmbarrassedClose" position="right" opacity="0.8"/>
- 			<show chara="biankaBiteClose" position="left"/>
- 			<speak chara="_Bianka">——では、その館長のところへ行きましょう！今すぐに！</speak>
- 			<show chara="biankaShoutClose" position="left"/> 			
- 			<speak chara="_Bianka">もし彼が戻って来なかったら——</speak>
- 			<shake position="left" time="250"></shake>
- 			<speak chara="_Bianka">ここにいる全員を、徹底的に調べ上げますッ！</speak>
- 			<show chara="biankaShoutClose" position="left" opacity="0.8"/>
- 			<show chara="thalesAngryClose" position="right"/>
- 			<shake position="right" time="250"></shake>
- 			<speak chara="_Thales">落ち着け！</speak>
- 			<show chara="thalesSeriousClose" position="right"/>
- 			<speak chara="_Thales">館長は話の分かる方じゃ。だが、今のお主ではまるで喧嘩を売っていると思われる。</speak>
- 			<show chara="thalesSeriousClose" position="right" opacity="0.8"/>
- 			<show chara="biankaShoutClose" position="left"/>
- 			<speak chara="_Bianka">な……何ですって！？</speak>
- 			<show chara="biankaShoutClose" position="left" opacity="0.8"/>
- 			<show chara="thalesSeriousClose" position="right"/>
- 			<speak chara="_Thales">連れが見つからなくて焦る気持ちはよくわかる。じゃが、物事には順序が大切じゃ。それを飛ばして、ここで本を読む人間に迷惑をかけてはならん。</speak>
- 			<show chara="thalesAngryClose" position="right"/>
- 			<shake position="right" time="250"></shake>
- 			<speak chara="_Thales">規則や制度とは、すべての人間が守ってこそ、効力を発揮するものじゃ！</speak>
- 			<show chara="thalesAngryClose" position="right" opacity="0.8"/>
- 			<show chara="biankaBiteClose" position="left"/>
- 			<speak chara="_Bianka">……</speak>
- 			<show chara="biankaBiteClose" position="left" opacity="0.8"/>
- 			<show chara="thalesSeriousClose" position="right"/>
- 			<speak chara="_Thales">それから……暴力は良くないと理解しておるなら、誘拐かどうかはっきりするまで、その尖った態度を抑えよ。</speak>
- 			<speak chara="_Thales">品位を疑われてしまうぞ。</speak>
- 			<goto goto="30" clockwise="1"/>
-	  </scene>
-	  <scene id="30" background="libraryOfficeDavid.jpg">
-	  	<bgm src="bigTask.mp3" status="start"></bgm>
-	  	<sound src="01_18_knock_door.mp3"/>
- 			<text>トン、トン——</text>
- 			<show chara="micheArrogantClose" position="left"/>
- 			<speak chara="_MichelNoName">どうぞ。</speak>
- 			<show chara="micheArrogantClose" position="left" opacity="0.8"/>
- 			<show chara="thalesEmbarrassedClose" position="right"/>
- 			<speak chara="_Thales">館長。先ほど館内放送で呼び出しをした件——すでに耳に入っておることじゃろう。</speak>
- 			<show chara="thalesSeriousClose" position="right"/>
- 			<speak chara="_Thales">思いつく場所は手あたり次第探したが、手がかり一つありはせぬ。</speak>
- 			<show chara="biankaShoutClose" position="right"/>
- 			<speak chara="_Bianka">生きた人間がはぐれた後、一度も目撃されないなんて到底不可能です！せめて警察に通報させてくださいッ！</speak>
- 			<show chara="biankaShoutClose" position="right" opacity="0.8"/>
- 			<show chara="thalesEmbarrassedClose" position="left"/>
- 			<speak chara="_Thales">通報はもうした。言ったじゃろ、大図書館そのものが法的機関じゃ。</speak>
- 			<show chara="thalesEmbarrassedClose" position="left" opacity="0.8"/>
- 			<show chara="biankaBiteClose" position="right"/>
- 			<speak chara="_Bianka">……</speak>
- 			<show chara="biankaBiteClose" position="right" opacity="0.8"/>
- 			<show chara="micheFocusClose" position="left"/>
- 			<speak chara="_MichelNoName">……タレス。それはつまり、この図書館で人が何の痕跡も残さず——行方不明になったということ？</speak>
- 			<show chara="micheFocusClose" position="left" opacity="0.8"/>
- 			<show chara="thalesSeriousClose" position="right"/>
- 			<speak chara="_Thales">ああ。すべての出入り口の監視カメラを確認したんじゃが、出て行った者の中に、行方不明者と似た体格の者はおらんかった。</speak>
- 			<show chara="thalesSeriousClose" position="right" opacity="0.8"/>
- 			<show chara="biankaSurpriseClose" position="left"/>
- 			<speak chara="_Bianka">監視カメラまであるんですか？いえ、それもそうですね、ロボットがいるんですし——</speak>
- 			<show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
- 			<show chara="thalesEmbarrassedClose" position="right"/>
- 			<speak chara="_Thales">我の話を遮るでない、戦乙女よ。</speak>
- 			<show chara="micheFocusClose" position="left" opacity="0.8"/>
- 			<show chara="thalesSeriousClose" position="right"/>
- 			<speak chara="_Thales">館長、監視映像を見る限り、行方不明者は外に出ておらん。それなのに館内放送に反応がないのは、いささか怪しい。</speak>
- 			<speak chara="_Thales">全館の封鎖と徹底的な捜索を頼めぬか？</speak>
- 			<show chara="thalesSeriousClose" position="right" opacity="0.8"/>
- 			<show chara="micheSeriousClose" position="left"/>
- 			<speak chara="_MichelNoName">そこまでする必要があるの？</speak>
- 			<show chara="micheSeriousClose" position="left" opacity="0.8"/>
- 			<show chara="thalesSeriousClose" position="right"/>
- 			<speak chara="_Thales">……うむ。この件は「外来者の行方不明事件」と関連があると思われる。</speak>
- 			<show chara="thalesSeriousClose" position="right" opacity="0.8"/>
- 			<show chara="micheFocusClose" position="left"/>
- 			<speak chara="_MichelNoName">……！</speak>
- 			<show chara="micheSeriousClose" position="left"/>
- 			<speak chara="_MichelNoName">どうして、そう思うの？</speak>
- 			<show chara="micheSeriousClose" position="left" opacity="0.8"/>
- 			<show chara="thalesEmbarrassedClose" position="right"/>
- 			<speak chara="_Thales">人間一人を「消す」のは難しい。同じ能力を持つ犯人が二組いると仮定するより、同一人物である方が可能性は高いじゃろう。</speak>
- 			<show chara="thalesEmbarrassedClose" position="right" opacity="0.8"/>
- 			<show chara="micheSeriousClose" position="left"/>
- 			<speak chara="_MichelNoName">……</speak>
- 			<speak chara="_MichelNoName">わかった。図書館を2時間閉鎖する。出入りする際はすべて私の許可を必要とします。</speak>
- 			<speak chara="_MichelNoName">その間、全スタッフとロボットが捜索に協力する——これでいいかな、お嬢さん。</speak>
- 			<show chara="micheSeriousClose" position="left" opacity="0.8"/>
- 			<show chara="biankaAngryClose" position="right"/>
- 			<speak chara="_Bianka">ビアンカです。ビアンカ・アタジナ。A級戦乙女です。</speak>
- 			<show chara="biankaAngryClose" position="right" opacity="0.8"/>
- 			<show chara="micheArrogantClose" position="left"/>
- 			<speak chara="_MichelNoName">この図書館の館長を務める、カトリナ・ミケランジェロ・ブオナローティよ。ミケランジェロと呼んでちょうだい。</speak>
- 			<show chara="micheFocusClose" position="left"/>
- 			<speak chara="_Michel">タレス、例の「顧問探偵」をここへ呼んでくれる？この事件、そろそろ決着をつけないと。</speak>
- 			<goto goto="40" clockwise="1"/>
-	  </scene>
-	  <scene id="40" background="libraryCenter.jpg">
-	  	<bgm src="01_18_tango.mp3" status="start"></bgm>
- 			<show chara="micheDrySmileClose" position="left"/>
- 			<speak chara="_Michel">この図書館には閲覧室が227、実験室が39、執務室が86、倉庫が45もあるの。すべて捜索するとなると、時間がかかりすぎる。</speak>
- 			<show chara="micheDrySmileClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSighClose" position="right"/>
- 			<speak chara="_Bianka">一般スタッフやロボットが駆けずり回っているのに——私たちはここでのんびり呆けていていいんですか？</speak>
- 			<show chara="biankaSighClose" position="right" opacity="0.8"/>
- 			<show chara="micheRelaxClose" position="left"/>
- 			<speak chara="_Michel">「呆けて」いるのではなく「待って」いるの。そう、そこで考えている人を。</speak>
- 			<goto goto="50" change="0"/>
-	  </scene>
-	  <scene id="50" background="CG6-1.jpg">
-	  	<bgm src="01_18_tango.mp3" status="continue"></bgm>
- 			<text>館長が指差した方を見ると、椅子に座りながら考え事をしている人物がいた。まるで、ホームズのようなポーズで。</text>
- 			<speak chara="_ThinkerChampollion">皆さん待ちきれないようだ、先に推理をはじめるとしよう。肝心の助手がまだ到着していないがね。</speak>
- 			<speak chara="_Bianka">ちょ、ちょっと待って——どちら様？</speak>
- 			<speak chara="_ThinkerChampollion">あたしは考古学者兼——顧問探偵だ。</speak>
- 			<speak chara="_ThinkerChampollion">……</speak>
- 			<speak chara="_Bianka">……それだけ？</speak>
- 			<speak chara="_ThinkerChampollion">ああ、何か足りなかったかな？</speak>
- 			<speak chara="_Bianka">……</speak>
- 			<speak chara="_Bianka">当たり前です！名前は！？もっとこう、ちゃんと自己紹介しないんですか？</speak>
- 			<speak chara="_ThinkerChampollion">……ふむ、あたしの名前を知ったところで、事態が変わるわけでもないだろうに。</speak>
- 			<speak chara="_ThinkerChampollion">……まあ、いい。シャンポリオンと呼んでくれ。ジャン＝フランソワ・シャンポリオン、考古学博士。</speak>
- 			<goto goto="60" change="0"/>
-	  </scene>
-	  <scene id="60" background="libraryCenter.jpg">
-	  	<bgm src="01_18_tango.mp3" status="continue"></bgm>
- 			<show chara="champoColdClose" position="right"/>
- 			<speak chara="_Champollion">結論から述べよう。君たちの探し人は、この図書館内にはいないだろう。</speak>
- 			<show chara="champoColdClose" position="right" opacity="0.8"/>
- 			<show chara="biankaSurpriseClose" position="left"/>
- 			<speak chara="_Bianka">なんですって？でも……監視カメラには……</speak>
- 			<show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
- 			<show chara="champoNormalClose" position="right"/>
- 			<speak chara="_Champollion">簡単な背理法さ。</speak>
- 			<speak chara="_Champollion">その人が図書館内にいるとして、何故姿を現さないのか？図書館中が大騒ぎしているというのに。</speak>
- 			<show chara="champoNormalClose" position="right" opacity="0.8"/>
- 			<show chara="biankaBiteClose" position="left"/>
- 			<speak chara="_Bianka">そ、それはきっと誰かに閉じ込められているんです！で、ほとぼりが冷めた頃にこっそりと運び出すんです！</speak>
- 			<show chara="biankaBiteClose" position="left" opacity="0.8"/>
- 			<show chara="champoNormalClose" position="right"/>
- 			<speak chara="_Champollion">前半は一理ある……が、後半は理屈が通らない。</speak>
- 			<speak chara="_Champollion">誰にも気付かれず対象を確保したのに、なぜリスクを冒してまで、いつ来るともわからない「ほとぼりが冷める頃」を待つんだい？</speak>
- 			<speak chara="_Champollion">それに慌てて隠したのなら、未だにその痕跡すら見つからないのはおかしい。</speak>
- 			<speak chara="_Champollion">逆に計画的犯行なら、人質を抱えながら息を殺して待つのと、さっさとここから出るの——どちらが最善だと思う？</speak>
- 			<show chara="champoNormalClose" position="right" opacity="0.8"/>
- 			<show chara="biankaAngryClose" position="left"/>
- 			<speak chara="_Bianka">それは……</speak>
- 			<show chara="biankaBiteClose" position="left"/>
- 			<speak chara="_Bianka">でも、監視カメラには確かにジミーの姿が映っていませんでした！体格が近い人間もいなかったんです！</speak>
- 			<show chara="biankaSurpriseClose" position="left"/>
- 			<speak chara="_Bianka">——ま、まさか、ジミーはもう……</speak>
- 			<show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
- 			<show chara="champoColdClose" position="right"/>
- 			<speak chara="_Champollion">おかしな妄想はよせ。恨みを買っているわけでもなく、大金を所持しているわけでもないんだ。そんな相手を暗殺するなど考えにくい。</speak>
- 			<show chara="champoColdClose" position="right" opacity="0.8"/>
- 			<show chara="biankaHesitateClose" position="left"/>
- 			<speak chara="_Bianka">それじゃあ……</speak>
- 			<show chara="biankaHesitateClose" position="left" opacity="0.8"/>
- 			<show chara="champoNormalClose" position="right"/>
- 			<speak chara="_Champollion">簡単なことさ。その人物は何かに入れられ、外に運び出されたんだ。</speak>
- 			<show chara="champoNormalClose" position="right" opacity="0.8"/>
- 			<show chara="thalesEmbarrassedClose" position="left"/>
- 			<speak chara="_Thales">じゃが、仮に本を運ぶ箱の中に人間を隠したとしても、退館の際には厳重なチェックがされる。すぐにバレてしまうぞ。</speak>
- 			<show chara="thalesEmbarrassedClose" position="left" opacity="0.8"/>
- 			<show chara="champoSmileClose" position="right"/>
- 			<speak chara="_Champollion">……タレス所長、あたしは本と一緒にだなんて一言も言っていないが？</speak>
- 			<show chara="champoSmileClose" position="right" opacity="0.8"/>
- 			<show chara="thalesSeriousClose" position="left"/>
- 			<speak chara="_Thales">しかし……今は掃除の時間ではない、ゴミと一緒にとは考えられん。本を運ぶ箱も除外されるとなると、人ひとりが入る物なぞ他にあるじゃろうか。大きな個人荷物は入館前に預かることになっとるし……</speak>
- 			<show chara="thalesSeriousClose" position="left" opacity="0.8"/>
- 			<show chara="champoSmileClose" position="right"/>
- 			<speak chara="_Champollion">ふふっ、灯台下暗しさ。</speak>
- 			<show chara="champoSmileClose" position="right" opacity="0.8"/>
- 			<show chara="thalesSeriousClose" position="left"/>
- 			<speak chara="_Thales">……どういう意味じゃ？</speak>
- 			<show chara="thalesSeriousClose" position="left" opacity="0.8"/>
- 			<show chara="champoSweatyClose" position="right"/>
- 			<speak chara="_Champollion">一番理想的な運搬道具は、君たち図書館が誇る「叡智の結晶」なんだ。</speak>
- 			<show chara="champoSweatyClose" position="right" opacity="0.8"/>
- 			<show chara="thalesSeriousClose" position="left"/>
- 			<speak chara="_Thales">そ——そうか——</speak>
- 			<show chara="thalesSeriousClose" position="left" opacity="0.8"/>
- 			<show chara="champoSmileClose" position="right"/>
- 			<speak chara="_Champollion">ああ。胴体パーツの大きなロボットこそが、人を運ぶのに最適な道具。</speak>
- 			<show chara="champoSmileClose" position="right" opacity="0.8"/>
- 			<show chara="thalesEmbarrassedClose" position="left"/>
- 			<speak chara="_Thales">しかし、ロボットの中は電子ユニットで埋め尽くされておる、何かを入れられるわけでは——</speak>
- 			<show chara="thalesAngryClose" position="left"/>
- 			<speak chara="_Thales">——あっ！</speak>
- 			<show chara="thalesAngryClose" position="left" opacity="0.8"/>
- 			<show chara="champoNormalClose" position="right"/>
- 			<speak chara="_Champollion">気づいたようだね。</speak>
- 			<show chara="champoNormalClose" position="right" opacity="0.8"/>
- 			<show chara="biankaBiteClose" position="left"/>
- 			<speak chara="_Bianka">わ、私にもわかるようにお願いします！</speak>
- 			<show chara="biankaBiteClose" position="left" opacity="0.8"/>
- 			<show chara="thalesSeriousClose" position="right"/>
- 			<speak chara="_Thales">……ロボットから自律ユニットを外して遠隔操作に切り替えれば、人ひとりは入るんじゃ。</speak>
- 			<show chara="thalesSeriousClose" position="right" opacity="0.8"/>
- 			<show chara="micheSeriousClose" position="left"/>
- 			<speak chara="_Michel">……証拠はあるの？</speak>
- 			<show chara="micheSeriousClose" position="left" opacity="0.8"/>
- 			<show chara="champoNormalClose" position="right"/>
- 			<speak chara="_Champollion">ロボットには、一定時間おきに本部へと自動発信する「心拍」システムがあると聞いた。</speak>
- 			<show chara="champoNormalClose" position="right" opacity="0.8"/>
- 			<show chara="micheFocusClose" position="left"/>
- 			<speak chara="_Michel">そうね。ロボットの活動エリアをリアルタイムで把握して、配置エリアを最適化するためのシステムよ。</speak>
- 			<show chara="micheFocusClose" position="left" opacity="0.8"/>
- 			<show chara="champoSmileClose" position="right"/>
- 			<speak chara="_Champollion">もしロボットを使って犯罪を行うのなら、その発信装置は必ず外されるだろう。犯罪に使うための道具の行方が把握されてしまっては、リスクが大きすぎる。</speak>
- 			<show chara="champoNormalClose" position="right"/>
- 			<speak chara="_Champollion">通信システムの担当スタッフに、館内ロボットの「心拍」の記録と監視カメラの映像を照合してもらっている。そろそろ結果が出る頃合いだ。</speak>
- 			<show chara="champoNormalClose" position="right" opacity="0.8"/> 			
- 			<show chara="cowGirlLibrarian" position="left"/>
- 			<speak chara="_Librarian">シャンポリオン博士！</speak>
- 			<speak chara="_Librarian">映像に映っていた館外へ出たロボットの数と、心拍システムの記録にずれがありました。その数3台！</speak>
- 			<show chara="cowGirlLibrarian" position="left" opacity="0.8"/> 					
- 			<show chara="micheColdClose" position="right"/>
- 			<speak chara="_Michel">……3台も？</speak>
- 			<show chara="micheColdClose" position="left" opacity="0.8"/> 			
- 			<show chara="champoColdClose" position="right"/>
- 			<speak chara="_Champollion">ふむ、まだ届け出のない被害者がいるのかもしれない。</speak>
- 			<show chara="champoSweatyClose" position="right"/>
- 			<speak chara="_Champollion">それか犯人自身が同じ手口で逃走した可能性もある。</speak>
- 			<show chara="champoNormalClose" position="right"/>
- 			<speak chara="_Champollion">いずれにせよ、そのロボットが見つかれば、事件解決への大きな一歩となるだろう。</speak>
- 			<show chara="champoNormalClose" position="right" opacity="0.8"/>
- 			<show chara="biankaSneerClose" position="left"/>
- 			<speak chara="_Bianka">……海の底に落とした針を探すようなことなのに、自信ありげですね？</speak>
- 			<show chara="biankaSneerClose" position="left" opacity="0.8"/>
- 			<show chara="champoNormalClose" position="right"/>
- 			<speak chara="_Champollion">有能な助手がいるものでね。</speak>
- 			<show chara="champoSweatyClose" position="right"/>
- 			<speak chara="_Champollion">そろそろ来る頃だと思うのだが——まさか、どっかで道草でも食っているんじゃないだろうな。</speak>
- 			<show chara="champoSweatyClose" position="right" opacity="0.8"/>
- 			<show chara="biankaSighClose" position="left"/>
- 			<speak chara="_Bianka">……本当に大丈夫なんです？その助手。</speak>
- 			<show chara="biankaSighClose" position="left" opacity="0.8"/>
- 			<show chara="champoSweatyClose" position="right"/>
- 			<speak chara="_Champollion">とにかく、一度入口に向かおう。</speak>
- 			<show chara="champoSmileClose" position="right"/>
- 			<speak chara="_Champollion">仮に犯人が図書館内にいたとしても、もう袋のネズミだ。何があっても、館内スタッフで対処できるだろう。</speak>
- 			<goto goto="70" clockwise="1"/>
-	  </scene>
-	  <scene id="70" background="01_18_secretRoom.jpg">
-	  	<bgm src="01_18_horror.mp3" status="start"></bgm>
- 			<text>時を同じくして、同じ都市のどこか——</text>
- 			<speak chara="_ShadowA">気付け薬はもう使った。もうすぐ意識が戻ると思う。でも、この人たち、本当に助けてくれるんだろうか？</speak>
- 			<speak chara="_ShadowB">大丈夫だ。誘拐という手段を使いはしたが、この類のガリ勉はお人好しだ。「4号機」が死んでいくのをただ見ているはずがない。</speak>
- 			<speak chara="_ShadowA">博士があんなことになったりしなければ、こんなことをしなくて済んだのに。</speak>
- 			<speak chara="_ShadowA">一度に同じ分野の研究者を三人も拐ったし、私たちの真の目的がバレるのも時間の問題だろうね。</speak>
- 			<speak chara="_ShadowB">そう心配するな。博士の協力はもう望めないが、彼が残した「富」はこの実験を成功させるのに十分だ。</speak>
- 			<speak chara="_ShadowB">そうすれば、「大図書館」なんて目じゃない。</speak>
- 			<speak chara="_ShadowC">そうです。それに正義は我らにあります。自由を失った人々が我々の助けを待っているんです。</speak>
- 			<speak chara="_ShadowC">都会の灯と自称する「大図書館」、その光が消える時がもうそこまできています。</speak>
- 			<goto goto="80" clockwise="1"/>
-	  </scene>
-	  <scene id="80" background="alexandriaLibraryYard.jpg">
-	  	<bgm src="01_18_tango.mp3" status="start"></bgm>
- 			<show chara="neithLaughClose" position="left"/>
- 			<speak chara="_NeithNoName">よっす、博士！「ナイル川果樹園」のケーキが美味しすぎて、ネイト、思わずもう一つ買っちゃったっす！</speak>
- 			<show chara="neithLaughClose" position="left" opacity="0.8"/>
- 			<show chara="champoSweatyClose" position="right"/>
- 			<speak chara="_Champollion">……ははは、まったく食べることしか頭にないんだな、君は。事件解決に支障をきたしたらどうするつもりだ？</speak>
- 			<show chara="champoSweatyClose" position="right" opacity="0.8"/>
- 			<show chara="neithSmileClose" position="left"/>
- 			<speak chara="_Neith">へへ、間に合ったじゃないっすか……</speak>
- 			<show chara="neithSmileClose" position="left" opacity="0.8"/>
- 			<show chara="biankaAngryClose" position="right"/>
- 			<speak chara="_Bianka">……</speak>
- 			<show chara="champoSweatyClose" position="right" opacity="0.8"/>
- 			<show chara="biankaSneerClose" position="left"/>
- 			<speak chara="_Bianka">この子が、あなたの助手？</speak>
- 			<show chara="biankaSneerClose" position="left" opacity="0.8"/>
- 			<show chara="champoSmileClose" position="right"/>
- 			<speak chara="_Champollion">ああ。名はネイト。頼りなさそうに見えるが、犬よりも鼻が利くんだ。</speak>
- 			<show chara="champoSmileClose" position="right" opacity="0.8"/>
- 			<show chara="neithComplainClose" position="left"/>
- 			<speak chara="_Neith">ネイト、頼りになるっすよ！遅れたのは、美味しそうな匂いをぷんぷんさせていたケーキが悪いんすよ！</speak>
- 			<show chara="neithComplainClose" position="left" opacity="0.8"/>
- 			<show chara="biankaSighClose" position="right"/>
- 			<speak chara="_Bianka">……</speak>
- 			<show chara="champoSmileClose" position="right" opacity="0.8"/>
- 			<show chara="biankaSneerClose" position="left"/>
- 			<speak chara="_Bianka">ということは、この子が……あなたの捜索犬ですか？</speak>
- 			<show chara="biankaSneerClose" position="left" opacity="0.8"/>
- 			<show chara="champoSmileClose" position="right"/>
- 			<speak chara="_Champollion">あながち間違いじゃない。市場で見つけたお宝でね。</speak>
- 			<show chara="champoSmileClose" position="right" opacity="0.8"/>
- 			<show chara="biankaSurpriseClose" position="left"/>
- 			<speak chara="_Bianka">お宝？ま、まさか彼女——</speak>
- 			<show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
- 			<show chara="champoSweatyClose" position="right"/>
- 			<speak chara="_Champollion">さっそくだが、行方不明になった仲間の部屋へ案内してくれたまえ。ジミー君の「匂い」をネイトに覚えてもらう。</speak>
- 			<show chara="champoSweatyClose" position="right" opacity="0.8"/>
- 			<show chara="biankaSighClose" position="left"/>
- 			<speak chara="_Bianka">……強引に話題を変えましたね。あやしい。</speak>
- 			<show chara="biankaSighClose" position="left" opacity="0.8"/>
- 			<show chara="micheArrogantClose" position="right"/>
- 			<speak chara="_Michel">ネイトは以前、家出したアーサーを探し当ててくれたの。その捜索能力は保証できるわ。</speak>
- 			<show chara="micheArrogantClose" position="right" opacity="0.8"/>
- 			<show chara="biankaSeriousClose" position="left"/>
- 			<speak chara="_Bianka">……アーサーって？</speak>
- 			<show chara="biankaSeriousClose" position="left" opacity="0.8"/>
- 			<show chara="thalesEmbarrassedClose" position="right"/>
- 			<speak chara="_Thales">館長が飼っているインコじゃ。あの時は大変な目にあったもんじゃよ。みんなして木を登ったり降りたり……我のシルクのマントもその時に破れての。</speak>
- 			<show chara="thalesEmbarrassedClose" position="right" opacity="0.8"/>
- 			<show chara="biankaSighClose" position="left"/>
- 			<speak chara="_Bianka">……</speak>
- 			<show chara="biankaSighClose" position="left" opacity="0.8"/>
- 			<show chara="micheDrySmileClose" position="right"/>
- 			<speak chara="_Michel">コホン。時間がないのでしょう？さっそく行動に移しましょう。</speak>
- 			<show chara="micheDrySmileClose" position="right" opacity="0.8"/>
- 			<show chara="biankaBiteClose" position="left"/>
- 			<shake position="left" time="250"></shake>
- 			<speak chara="_Bianka">そ、そうでした！ネイトが頼りになるっていうのなら、善は急げです！</speak>
- 			<show chara="biankaShoutClose" position="left"/>
- 			<speak chara="_Bianka">カレドニア号にジミーの自室があります！</speak>
- 			<goto goto="90" clockwise="1"/>
-	  </scene>
-	  <scene id="90" background="alexandriaLighthouse.jpg">
-	  	<bgm src="noise.mp3" status="start"></bgm>
- 			<show chara="rita17NormalClose" position="left"/>
- 			<speak chara="_Rita">あら、ビアンカ様？</speak>
- 			<show chara="rita17NormalClose" position="left" opacity="0.8"/>
- 			<show chara="lallaQuestionClose" position="right"/>
- 			<speak chara="_Lalla">どうしたの？そんなにぞろぞろと引き連れて……</speak>
- 			<show chara="lallaQuestionClose" position="right" opacity="0.8"/>
- 			<show chara="biankaShoutClose" position="left"/>
- 			<speak chara="_Bianka">ジミーがいなくなってしまったんです！今から匂いでその行方を捜します！</speak>
- 			<show chara="biankaShoutClose" position="left" opacity="0.8"/>
- 			<show chara="lallaSeriousClose" position="right"/>
- 			<speak chara="_Lalla">……！？</speak>
- 			<show chara="lallaSeriousClose" position="right" opacity="0.8"/>
- 			<show chara="rita17HesitateClose" position="left"/>
- 			<speak chara="_Rita">……</speak>
- 			<show chara="biankaShoutClose" position="left"/>
- 			<speak chara="_Bianka">レイラさん、船室の管理人も兼任しているんですよね？ジミーの自室の鍵を開けられませんか？</speak>
- 			<show chara="biankaShoutClose" position="left" opacity="0.8"/>
- 			<show chara="lallaSeriousClose" position="right"/>
- 			<speak chara="_Lalla">……ええ、こちらへ。</speak>
- 			<goto goto="100" change="#ffffff"/>
-	  </scene>
-	  <scene id="100" background="alexandriaLighthouse.jpg">
-	  	<bgm src="01_18_horror.mp3" status="start"></bgm>
- 			<show chara="rita17HesitateClose" position="right"/>
- 			<speak chara="_Rita">……ビアンカ様、お待ちを。</speak>
- 			<show chara="rita17HesitateClose" position="right" opacity="0.8"/>
- 			<show chara="biankaSurpriseClose" position="left"/>
- 			<speak chara="_Bianka">——どうしたんですか？リタ。</speak>
- 			<show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
- 			<show chara="rita17HesitateClose" position="right"/>
- 			<speak chara="_Rita">ジミーさんが行方不明になったと仰いましたが……一体何があったのですか？</speak>
- 			<show chara="rita17HesitateClose" position="right" opacity="0.8"/>
- 			<show chara="biankaHesitateClose" position="left"/>
- 			<speak chara="_Bianka">……そうでした、事情を知らないんですよね。</speak>
- 			<show chara="biankaAngryClose" position="left"/>
- 			<speak chara="_Bianka">わかりました。説明します。</speak>
- 			<goto goto="110" clockwise="1"/>
-	  </scene>
-	  <scene id="110" background="alexandriaLighthouse.jpg">
-	  	<bgm src="01_18_horror.mp3" status="continue"></bgm>
- 			<show chara="rita17HesitateClose" position="center"/>
- 			<speak chara="_Rita">……そういうことでしたか。</speak>  
- 			<show chara="rita17NormalClose" position="center"/>
- 			<speak chara="_Rita">ではジミーさんの捜索は、このリタが代わりに致しましょう。ビアンカ様はカレドニア号に残られたほうが良ろしいかと。</speak>
- 			<hide position="center"></hide>
- 			<show chara="rita17NormalClose" position="right" opacity="0.8"/>
- 			<show chara="biankaSeriousClose" position="left"/>
- 			<speak chara="_Bianka">……えっと、それはどうしてですか？</speak>
- 			<show chara="biankaSeriousClose" position="left" opacity="0.8"/>
- 			<show chara="rita17HesitateClose" position="right"/>
- 			<speak chara="_Rita">ビアンカ様がジミーさんを助けたい気持ちはわかります。</speak>
- 			<speak chara="_Rita">ですが、任務の遂行……つまり今回の事件に「私たち」、特に「あなた」がわざわざ出る必要はありません。</speak>
- 			<show chara="rita17HesitateClose" position="right" opacity="0.8"/>
- 			<show chara="biankaBiteClose" position="left"/>
- 			<speak chara="_Bianka">……</speak>
- 			<show chara="biankaShoutClose" position="left"/>
- 			<speak chara="_Bianka">どういう意味です？</speak>
- 			<shake position="left" time="250"></shake>
- 			<speak chara="_Bianka">私が遭遇した問題に、私が関わってはいけないということですか？本気で言ってます！？</speak>
- 			<show chara="biankaShoutClose" position="left" opacity="0.8"/>
- 			<show chara="rita17AngryEmClose" position="right"/>
- 			<speak chara="_Rita">……至って本気です、ビアンカ様。</speak>
- 			<speak chara="_Rita">このような大都市の内部事情に関わると、思わぬリスクを背負うことがございます。</speak>
- 			<speak chara="_Rita">最悪の事態を避けるために、私たちのどちらかが船に残るべきです。</speak>
- 			<show chara="rita17AngryEmClose" position="right" opacity="0.8"/>
- 			<show chara="biankaShoutClose" position="left"/>
- 			<speak chara="_Bianka">……それなら私が捜索に出て、リタが留守番をしていればいいじゃないですか！ジミーとペアを組んだのは私です。私に責任があります！</speak>
- 			<show chara="biankaShoutClose" position="left" opacity="0.8"/>
- 			<show chara="rita17AngryClose" position="right"/>
- 			<speak chara="_Rita">There are five dangerous faults which may affect a general: （故に将に五危あり）</speak>
- 			<speak chara="_Rita">Recklessness, which leads to destruction; （必死は殺され、）</speak>
- 			<speak chara="_Rita">Cowardice, which leads to capture; （必生は虜にされ、）</speak>
- 			<speak chara="_Rita">A hasty temper, which can be provoked by insults; （忿速は侮られ、）</speak>
- 			<speak chara="_Rita">A delicacy of honor which is sensitive to shame; （廉白は辱められ、）</speak>
- 			<speak chara="_Rita">Over-solicitude for his men, which exposes him to worry and trouble. （愛民は煩わさる。）</speak>
- 			<speak chara="_Rita">These are the five besetting sins of a general, ruinous to the conduct of war. （およそこの五つの者は将の過ちなり、用兵の災いなり。）</speak>
- 			<speak chara="_Rita" remark="next">When an army is overthrown and its leader slain, the cause will surely be found among these five dangerous faults. Let them be a subject of meditation. （軍を覆し将を殺すは必ず五危を以てす。察せざるべからざるなり。）</speak>
+			<text>그는 앨런·튜링의 문집에 정신이 팔려, 다른 두 명의 일행이 이미 자리를 떠난 걸 알아채지 못했다.</text>
+			<text>하지만, 이는 그녀들이 계속 자기들끼리만 대화를 한 탓도 있었다——모르는 사람이 보았다면, 저 두 「수다쟁이」와 그가 애초에 일행이란 것도 몰랐을 것이다.</text>
+			<text>그리고 튜링 선생의 논문이 너무 어려웠던 탓인지, 그의 두뇌엔 졸음이 끊임없이 밀려오기 시작했다.</text>
+			<text>안돼, 여기서 그만두면 생각의 흐름이 깨지고 말 거야. 최소한 이 문단은 다 읽고 나서 쉬자……</text>
+			<text>어라? 나…… 뭔가 중요한 걸 잊은 거 같은데……</text>
+			<text>안돼, 눈이 안 떠져……</text>
+			<text>졸……려……</text>
+			<text>……</text>
+			<text>의식을 잃기 직전, 희미한 향수 냄새가 느껴지는 듯했다.</text>
+			<goto goto="20" clockwise="1" />
+		</scene>
+		<scene id="20" background="libraryCenter.jpg">
+			<bgm src="noise.mp3" status="start"></bgm>
+			<show chara="biankaShoutClose" position="left" />
+			<shake position="left" time="250"></shake>
+			<speak chara="_Bianka">어떻게 된 거죠!?</speak>
+			<show chara="biankaBiteClose" position="left" />
+			<shake position="left" time="250"></shake>
+			<speak chara="_Bianka">방금 분명, 「현대 과학 자료관」에 있을 거라고 말했잖아요?!</speak>
+			<show chara="biankaShoutClose" position="left" />
+			<shake position="left" time="250"></shake>
+			<speak chara="_Bianka">그게 이거예요? 심지어 화장실에도 그림자 하나 안 보이는데!!</speak>
+			<show chara="biankaShoutClose" position="left" opacity="0.8" />
+			<show chara="thalesSeriousClose" position="right" />
+			<speak chara="_Thales">이상하군, 그 책벌레가 어디로 갔을런지……</speak>
+			<speak chara="_Thales">그때, 우린 로비 복도를 지나가며…… 나는 자네 둘에게 「현대 과학」이란——우리가 아직 체계적으로 습득하지 못한 외부의 지식이라고 말했었지.</speak>
+			<speak chara="_Thales">그리고, 강당 뒷문으로 가는 계단을 따라 건물에서 걸어 나와, 풍경을 감상했고……</speak>
+			<speak chara="_Thales">그와 우리가 떨어지게 된 가장 큰 가능성은, 분명 「아직 여기서 책을 읽고 있다」였건만……</speak>
+			<show chara="thalesSeriousClose" position="right" opacity="0.8" />
+			<show chara="biankaBiteClose" position="left" />
+			<speak chara="_Bianka">지금 와서 그런 분석은 쓸모없잖아요!</speak>
+			<show chara="biankaShoutClose" position="left" />
+			<speak chara="_Bianka">일단 방송부터 하고! 문도 봉쇄하고! 층마다 샅샅이 찾아봐야죠!</speak>
+			<show chara="biankaBiteClose" position="left" />
+			<speak chara="_Bianka">이 도시는 그 역사부터 사람을 사고파는 악행으로 가득 차 있다고 하셨잖아요? 그 소심한 녀석이, 대체 어딜 혼자 가겠어요?!</speak>
+			<show chara="biankaShoutClose" position="left" />
+			<speak chara="_Bianka">이건 분명 그냥 길을 잃은 게 아니라——유괴, 납치라고요!</speak>
+			<show chara="biankaShoutClose" position="left" opacity="0.8" />
+			<show chara="thalesSeriousClose" position="right" />
+			<speak chara="_Thales">……</speak>
+			<speak chara="_Thales">…………</speak>
+			<speak chara="_Thales">그대가 말한 「최악의 경우」가 불가능하지 않다는 건 인정하겠네.</speak>
+			<show chara="thalesEmbarrassedClose" position="right" />
+			<speak chara="_Thales">사람을 찾는 방송을 하는 데에는 별다른 절차가 필요하진 않지만, 자네가 언급한 다른 두 방법은 도서관에 큰 혼란을 불러올 수 있기에, 도서관장에게서 직접 허가를 받을 필요가 있다네.</speak>
+			<show chara="thalesEmbarrassedClose" position="right" opacity="0.8" />
+			<show chara="biankaBiteClose" position="left" />
+			<speak chara="_Bianka">——그럼 빨리 관장을 찾으러 가자고요! 지금 당장!</speak>
+			<show chara="biankaShoutClose" position="left" />
+			<speak chara="_Bianka">만약 진짜 얘가 이 도서관에서 없어져 버린 거라면——</speak>
+			<shake position="left" time="250"></shake>
+			<speak chara="_Bianka">당신들, 모두, 책임져야 할 거예요!</speak>
+			<show chara="biankaShoutClose" position="left" opacity="0.8" />
+			<show chara="thalesAngryClose" position="right" />
+			<shake position="right" time="250"></shake>
+			<speak chara="_Thales">진정하게!</speak>
+			<show chara="thalesSeriousClose" position="right" />
+			<speak chara="_Thales">우리 도서관장은 이성적인 사람이라네…… 하지만 지금의 자네는 그저 탓할 사람을 찾으려 하는 것 같군.</speak>
+			<show chara="thalesSeriousClose" position="right" opacity="0.8" />
+			<show chara="biankaShoutClose" position="left" />
+			<speak chara="_Bianka">무……무슨 소리예요!?</speak>
+			<show chara="biankaShoutClose" position="left" opacity="0.8" />
+			<show chara="thalesSeriousClose" position="right" />
+			<speak chara="_Thales">일행을 찾느라 마음이 급해진 건 알지만, 모든 일은 순서가 있는 법이네. 필요한 과정을 건너뛴 채, 곧바로 여기서 책을 읽는 모두에게 불편을 초래할 순 없지 않은가.</speak>
+			<show chara="thalesAngryClose" position="right" />
+			<shake position="right" time="250"></shake>
+			<speak chara="_Thales">모두가 규칙을 존중해야, 규칙이 모두를 위해 있을 수 있는 거라네!</speak>
+			<show chara="thalesAngryClose" position="right" opacity="0.8" />
+			<show chara="biankaBiteClose" position="left" />
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaBiteClose" position="left" opacity="0.8" />
+			<show chara="thalesSeriousClose" position="right" />
+			<speak chara="_Thales">게다가…… 폭력적인 위협이 사람들에게 반감을 일으키는 걸 잘 안다면, 적어도 이 사건이 제대로 파악될 때까지는, 그 공격적인 태도를 거둬주었으면 하네.</speak>
+			<speak chara="_Thales">이건 인격 수양의 문제네.</speak>
+			<goto goto="30" clockwise="1" />
+		</scene>
+		<scene id="30" background="libraryOfficeDavid.jpg">
+			<bgm src="bigTask.mp3" status="start"></bgm>
+			<sound src="01_18_knock_door.mp3" />
+			<text>쾅, 쾅——</text>
+			<show chara="micheArrogantClose" position="left" />
+			<speak chara="_MichelNoName">들어오세요.</speak>
+			<show chara="micheArrogantClose" position="left" opacity="0.8" />
+			<show chara="thalesEmbarrassedClose" position="right" />
+			<speak chara="_Thales">도서관장. 방금 내가 방송으로 사람을 찾는다고 한 걸——들었으리라 보네.</speak>
+			<show chara="thalesSeriousClose" position="right" />
+			<speak chara="_Thales">그가 있을 거라 예상되는 모든 곳을 다녀봤지만, 여전히 아무런 흔적도, 단서도 찾지 못했다네.</speak>
+			<show chara="biankaShoutClose" position="right" />
+			<speak chara="_Bianka">사람 하나가 그냥 사라졌는데 목격자 하나 없어요! 여기 경찰은 어떻게 부르죠? 제가 부를게요!</speak>
+			<show chara="biankaShoutClose" position="right" opacity="0.8" />
+			<show chara="thalesEmbarrassedClose" position="left" />
+			<speak chara="_Thales">우린 이미 경찰에 신고를 하는 중이네. 말했듯이, 대도서관 그 자체가 법 집행 기관이니 말일세.</speak>
+			<show chara="thalesEmbarrassedClose" position="left" opacity="0.8" />
+			<show chara="biankaBiteClose" position="right" />
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaBiteClose" position="right" opacity="0.8" />
+			<show chara="micheFocusClose" position="left" />
+			<speak chara="_MichelNoName">……탈레스, 당신이 말한, 우리 도서관에서 사람이 사라졌는데——아무런 흔적도 없다는 건, 대체 무슨 소리죠?</speak>
+			<show chara="micheFocusClose" position="left" opacity="0.8" />
+			<show chara="thalesSeriousClose" position="right" />
+			<speak chara="_Thales">말 그대로라네. 방금까지 모든 출구에 있는 감시 카메라를 빠르게 확인했지만, 나가는 이들 중에 실종된 이와 같은 체구의 사람은 아무도 없었다네.</speak>
+			<show chara="thalesSeriousClose" position="right" opacity="0.8" />
+			<show chara="biankaSurpriseClose" position="left" />
+			<speak chara="_Bianka">여기에 감시 카메라도 있어요? 하긴, 별의별 로봇도 다 있으니——</speak>
+			<show chara="biankaSurpriseClose" position="left" opacity="0.8" />
+			<show chara="thalesEmbarrassedClose" position="right" />
+			<speak chara="_Thales">내 말을 끊지 말아주게나, 발키리양.</speak>
+			<show chara="micheFocusClose" position="left" opacity="0.8" />
+			<show chara="thalesSeriousClose" position="right" />
+			<speak chara="_Thales">관장, 카메라를 관찰한 결과, 실종자는 도서관을 떠나지 않은 것으로 보이지만——방송을 했음에도 아무런 반응이 없다는 건, 매우 수상하다고 느껴지네.</speak>
+			<speak chara="_Thales">내 생각엔 건물 전체를 폐쇄하고, 전면적인 조사를 할 필요가 있다고 보네.</speak>
+			<show chara="thalesSeriousClose" position="right" opacity="0.8" />
+			<show chara="micheSeriousClose" position="left" />
+			<speak chara="_MichelNoName">음? 그렇게까지 할 필요가 있나요?</speak>
+			<show chara="micheSeriousClose" position="left" opacity="0.8" />
+			<show chara="thalesSeriousClose" position="right" />
+			<speak chara="_Thales">……있다네. 난 이 실종이 「외지인 실종 사건」과 관련이 있다고 보네.</speak>
+			<show chara="thalesSeriousClose" position="right" opacity="0.8" />
+			<show chara="micheFocusClose" position="left" />
+			<speak chara="_MichelNoName">……!</speak>
+			<show chara="micheSeriousClose" position="left" />
+			<speak chara="_MichelNoName">왜 그렇게 생각하시는 거죠?</speak>
+			<show chara="micheSeriousClose" position="left" opacity="0.8" />
+			<show chara="thalesEmbarrassedClose" position="right" />
+			<speak chara="_Thales">말해보지. 사람을 「흔적도 없이 사라지게」 하는 건 쉬운 일이 아니라네——그러니 이런 능력을 지닌 집단이 둘이나 있다기보다는, 하나의 집단이 계속해서 저질렀을 가능성이 더 크지 않겠는가?</speak>
+			<show chara="thalesEmbarrassedClose" position="right" opacity="0.8" />
+			<show chara="micheSeriousClose" position="left" />
+			<speak chara="_MichelNoName">……</speak>
+			<speak chara="_MichelNoName">이렇게 하겠습니다. 도서관은 앞으로 2시간 동안 폐쇄——출입하는 모든 인원들은 제 동의를 받아야 합니다.</speak>
+			<speak chara="_MichelNoName">그동안, 관내의 모든 도서관원과 로봇들은 그를 찾는 걸 도울 겁니다——이름 모를 아가씨.</speak>
+			<show chara="micheSeriousClose" position="left" opacity="0.8" />
+			<show chara="biankaAngryClose" position="right" />
+			<speak chara="_Bianka">제 이름은 비앙카. 비앙카·아타지나, A급 발키리예요.</speak>
+			<show chara="biankaAngryClose" position="right" opacity="0.8" />
+			<show chara="micheArrogantClose" position="left" />
+			<speak chara="_MichelNoName">도서관 큐레이터, 카타리나·미켈란젤로·부오나로티입니다. 「미켈란젤로」로 불러주세요.</speak>
+			<show chara="micheFocusClose" position="left" />
+			<speak chara="_Michel">탈레스, 그 「고문 탐정」도 부르세요. 더 이상 이 사건을 미뤄둘 순 없어요. 반드시 해결해야 해요.</speak>
+			<goto goto="40" clockwise="1" />
+		</scene>
+		<scene id="40" background="libraryCenter.jpg">
+			<bgm src="01_18_tango.mp3" status="start"></bgm>
+			<show chara="micheDrySmileClose" position="left" />
+			<speak chara="_Michel">우리 도서관은 크고 작은 열람실이 227개, 실험실이 39개, 86개의 일반 사무실, 그리고 45개의 봉인 창고가 있어요. 전부 수색하는 데는 상당한 시간이 걸릴 겁니다.</speak>
+			<show chara="micheDrySmileClose" position="left" opacity="0.8" />
+			<show chara="biankaSighClose" position="right" />
+			<speak chara="_Bianka">도서관원이랑 로봇들은 저렇게 바쁘게 찾으러 다니는데——우린 여기서 이렇게 멍하니 있어도 되는 거예요? 이건 아니지 않나요?</speak>
+			<show chara="biankaSighClose" position="right" opacity="0.8" />
+			<show chara="micheRelaxClose" position="left" />
+			<speak chara="_Michel">이건 「멍하니 있는 게」가 아니라, 「대기」예요. 그러니까, 저기 생각에 잠긴 사람이 결론을 낼 때까지 대기하는 거죠.</speak>
+			<goto goto="50" change="0" />
+		</scene>
+		<scene id="50" background="CG6-1.jpg">
+			<bgm src="01_18_tango.mp3" status="continue"></bgm>
+			<text>큐레이터의 손가락이 향한 곳에서, 등받이 의자에 몸을 웅크리고 있는——마치 셜록 홈즈 같은 자세로 생각하고 있는 사람이 보였다.</text>
+			<speak chara="_ThinkerChampollion">모두를 기다리게 할 순 없으니, 우선 추리부터 말하도록 하죠. 아직 중요한 조수가 오는 중이지만.</speak>
+			<speak chara="_Bianka">잠깐만요——누구신데요?</speak>
+			<speak chara="_ThinkerChampollion">저는 임시 고문 탐정인 고고학자입니다.</speak>
+			<speak chara="_ThinkerChampollion">……</speak>
+			<speak chara="_Bianka">……그게 끝이에요?</speak>
+			<speak chara="_ThinkerChampollion">끝이죠. 뭐 모자란 거 있나요?</speak>
+			<speak chara="_Bianka">……</speak>
+			<speak chara="_Bianka">저기, 이름은요?! 자기소개할 줄 모르세요??</speak>
+			<speak chara="_ThinkerChampollion">……훗, 당신이 제 이름을 알아도, 딱히 달라지는 일은 없습니다.</speak>
+			<speak chara="_ThinkerChampollion">……「샹폴리옹」입니다. 장·프랑수아·샹폴리옹, 고고학 박사입니다.</speak>
+			<goto goto="60" change="0" />
+		</scene>
+		<scene id="60" background="libraryCenter.jpg">
+			<bgm src="01_18_tango.mp3" status="continue"></bgm>
+			<show chara="champoColdClose" position="right" />
+			<speak chara="_Champollion">우선 결론부터 말하자면, 당신들이 찾는 사람은 아마 더 이상 도서관에 있지 않을 겁니다.</speak>
+			<show chara="champoColdClose" position="right" opacity="0.8" />
+			<show chara="biankaSurpriseClose" position="left" />
+			<speak chara="_Bianka">뭐라고요? 하지만…… 영상 기록은……</speak>
+			<show chara="biankaSurpriseClose" position="left" opacity="0.8" />
+			<show chara="champoNormalClose" position="right" />
+			<speak chara="_Champollion">기본적인 귀류법입니다.</speak>
+			<speak chara="_Champollion">그 사람이 아직 도서관에 있다고 가정해 봅시다. 그럼 그는 왜 아직까지 나타나지 않고 있을까요? 그로 인해 도서관이 엄청난 혼란에 빠졌는데 말이죠.</speak>
+			<show chara="champoNormalClose" position="right" opacity="0.8" />
+			<show chara="biankaBiteClose" position="left" />
+			<speak chara="_Bianka">다, 당연히 잘 숨겨뒀으니 그렇겠죠! 범인은 분명 잠잠해질 때까지 기다리고 있다, 빼내려는 거라고요!</speak>
+			<show chara="biankaBiteClose" position="left" opacity="0.8" />
+			<show chara="champoNormalClose" position="right" />
+			<speak chara="_Champollion">앞의 절반엔 일리가 있지만, 나머지 절반은 아니군요.</speak>
+			<speak chara="_Champollion">범인이 아무도 눈치채지 못한 채 상대를 제압한 건 분명하지만, 왜 이런 압박 속에서, 언제 올지도 모르는 「잠잠해질 때」를 기다립니까?</speak>
+			<speak chara="_Champollion">그리고, 만약 그가 급하게 숨었다면, 어떻게 이렇게 오래도록, 아무런 흔적도 찾지 못할 수 있을까요?</speak>
+			<speak chara="_Champollion">만약 이것이 충분한 시간을 들여 사전에 모의한 것이라면, 인질 하나를 데리고 위험을 감수해야 하는 범인의 입장에서——「가만히 있기」 와 「삼십육계」 중 어느 걸 고를 거라 생각하십니까?</speak>
+			<show chara="champoNormalClose" position="right" opacity="0.8" />
+			<show chara="biankaAngryClose" position="left" />
+			<speak chara="_Bianka">그건……</speak>
+			<show chara="biankaBiteClose" position="left" />
+			<speak chara="_Bianka">하지만 감시 카메라에 지미가 나가는 모습은 보지도 못했다고요! 비슷한 키를 가진 사람도 전혀 없었고요! 이건 어떻게 설명하실 건데요?</speak>
+			<show chara="biankaSurpriseClose" position="left" />
+			<speak chara="_Bianka">——서, 설마, 지미가 이미……</speak>
+			<show chara="biankaSurpriseClose" position="left" opacity="0.8" />
+			<show chara="champoColdClose" position="right" />
+			<speak chara="_Champollion">그런 생각 마시길. 원한도 없고, 수중에 돈이 많았던 것도 아니니, 계획된 암살을 당할만한 목표는 아닙니다.</speak>
+			<show chara="champoColdClose" position="right" opacity="0.8" />
+			<show chara="biankaHesitateClose" position="left" />
+			<speak chara="_Bianka">그럼……</speak>
+			<show chara="biankaHesitateClose" position="left" opacity="0.8" />
+			<show chara="champoNormalClose" position="right" />
+			<speak chara="_Champollion">간단합니다. 그 작은 소년은 어딘가에 실려 빼내어졌을 겁니다.</speak>
+			<show chara="champoNormalClose" position="right" opacity="0.8" />
+			<show chara="thalesEmbarrassedClose" position="left" />
+			<speak chara="_Thales">서적 배송은 엄격한 심사를 거쳐야 한다네. 누군가 책 상자에 사람을 담아 옮기려 한다면, 분명 곧바로 들킬걸세.</speak>
+			<show chara="thalesEmbarrassedClose" position="left" opacity="0.8" />
+			<show chara="champoSmileClose" position="right" />
+			<speak chara="_Champollion">……탈레스 소장, 누가 책 상자를 쓴다고 했죠?</speak>
+			<show chara="champoSmileClose" position="right" opacity="0.8" />
+			<show chara="thalesSeriousClose" position="left" />
+			<speak chara="_Thales">하지만…… 지금은 쓰레기를 비우는 시간도 아니니…… 책 상자를 제외하면, 대체 어디에 사람을 숨기고 옮긴단 말인가? 개인 물건 중 큰 건 전부 따로 보관을 맡겨야 하지 않은가……</speak>
+			<show chara="thalesSeriousClose" position="left" opacity="0.8" />
+			<show chara="champoSmileClose" position="right" />
+			<speak chara="_Champollion">하하. 이게 바로 「등잔 밑이 어둡다」라는 건가요?</speak>
+			<show chara="champoSmileClose" position="right" opacity="0.8" />
+			<show chara="thalesSeriousClose" position="left" />
+			<speak chara="_Thales">……무슨 의미지?</speak>
+			<show chara="thalesSeriousClose" position="left" opacity="0.8" />
+			<show chara="champoSweatyClose" position="right" />
+			<speak chara="_Champollion">왜냐하면 그 사람을 나르는 운송수단으로 가장 적합한 건, 바로 이 도서관이 그 무엇보다 자랑스러워하는 「지혜의 결정체」일 것이니까요.</speak>
+			<show chara="champoSweatyClose" position="right" opacity="0.8" />
+			<show chara="thalesSeriousClose" position="left" />
+			<speak chara="_Thales">그——그 말은——</speak>
+			<show chara="thalesSeriousClose" position="left" opacity="0.8" />
+			<show chara="champoSmileClose" position="right" />
+			<speak chara="_Champollion">그렇지 않나요? 로봇들의 동체는 사람이 들어갈 만큼 충분히 큰데, 분명 사람 하나 옮기기에는 최적이겠죠.</speak>
+			<show chara="champoSmileClose" position="right" opacity="0.8" />
+			<show chara="thalesEmbarrassedClose" position="left" />
+			<speak chara="_Thales">하지만 안쪽에는 전자 부품들로 가득해서, 기본적으론 아무것도 넣을 수가——</speak>
+			<show chara="thalesAngryClose" position="left" />
+			<speak chara="_Thales">——앗!</speak>
+			<show chara="thalesAngryClose" position="left" opacity="0.8" />
+			<show chara="champoNormalClose" position="right" />
+			<speak chara="_Champollion">당신도 이제 이해하신 모양이군요.</speak>
+			<show chara="champoNormalClose" position="right" opacity="0.8" />
+			<show chara="biankaBiteClose" position="left" />
+			<speak chara="_Bianka">저, 전 당신들이 무슨 얘기를 하는지 전혀 모르겠다고요!</speak>
+			<show chara="biankaBiteClose" position="left" opacity="0.8" />
+			<show chara="thalesSeriousClose" position="right" />
+			<speak chara="_Thales">……만약 기계의 자동화 부품을 제거하고, 원격 제어 장치를 넣는다면, 기계의 복부엔 사람을 넣기에 충분한 공간이 생길 걸세.</speak>
+			<show chara="thalesSeriousClose" position="right" opacity="0.8" />
+			<show chara="micheSeriousClose" position="left" />
+			<speak chara="_Michel">……그 추리를 증명할 증거가 있나요?</speak>
+			<show chara="micheSeriousClose" position="left" opacity="0.8" />
+			<show chara="champoNormalClose" position="right" />
+			<speak chara="_Champollion">여러분들의 로봇에는 「심박」 시스템이 있어, 본부에 일정한 간격으로 신호를 보낸다고 들었습니다.</speak>
+			<show chara="champoNormalClose" position="right" opacity="0.8" />
+			<show chara="micheFocusClose" position="left" />
+			<speak chara="_Michel">네, 로봇의 추적과 활동 장소 최적화를 위해서죠.</speak>
+			<show chara="micheFocusClose" position="left" opacity="0.8" />
+			<show chara="champoSmileClose" position="right" />
+			<speak chara="_Champollion">그렇기에, 만약 누군가가 로봇을 사용해서 범죄를 저지르고 싶었다면, 그는 분명 발신기를 떼어버렸을 겁니다. 범행 도구의 행적이 수시로 드러난다는 건, 너무 위험하니까요.</speak>
+			<show chara="champoNormalClose" position="right" />
+			<speak chara="_Champollion">이미 통신 시스템을 담당하는 도서관원에게 도서관 로봇들의 「심박」 기록과 출입 기록을 비교해 달라고 부탁했습니다. 지금쯤이면, 결과가 곧 나올 겁니다.</speak>
+			<show chara="champoNormalClose" position="right" opacity="0.8" />
+			<show chara="cowGirlLibrarian" position="left" />
+			<speak chara="_Librarian">샹폴리옹 박사님!</speak>
+			<speak chara="_Librarian">기록을 보니, 도서관을 출입한 로봇의 수가, 심박 기록에서 계산된 것보다, 각각 3 기씩이나 더 있었습니다!</speak>
+			<show chara="cowGirlLibrarian" position="left" opacity="0.8" />
+			<show chara="micheColdClose" position="right" />
+			<speak chara="_Michel">……셋이나?</speak>
+			<show chara="micheColdClose" position="left" opacity="0.8" />
+			<show chara="champoColdClose" position="right" />
+			<speak chara="_Champollion">흠. 아직 우리에게 보고되지 않은 또 다른 피해자일 수도 있겠네요.</speak>
+			<show chara="champoSweatyClose" position="right" />
+			<speak chara="_Champollion">물론, 범인 역시 로봇을 사용해 탈출했을 가능성도 있겠죠.</speak>
+			<show chara="champoNormalClose" position="right" />
+			<speak chara="_Champollion">어쨌든, 이 로봇들의 행방을 쫓는다면, 사건 해결이 멀지 않겠군요.</speak>
+			<show chara="champoNormalClose" position="right" opacity="0.8" />
+			<show chara="biankaSneerClose" position="left" />
+			<speak chara="_Bianka">……모래사장에서 바늘 찾기 같은 데, 굉장히 자신 있으신 모양이네요?</speak>
+			<show chara="biankaSneerClose" position="left" opacity="0.8" />
+			<show chara="champoNormalClose" position="right" />
+			<speak chara="_Champollion">믿음직한 조수가 있기 때문이죠.</speak>
+			<show chara="champoSweatyClose" position="right" />
+			<speak chara="_Champollion">흠…… 지금쯤이면 왔어야 하는데——또 어디 길바닥에서 이상한 거 주워 먹고 있는 건 아니겠지?</speak>
+			<show chara="champoSweatyClose" position="right" opacity="0.8" />
+			<show chara="biankaSighClose" position="left" />
+			<speak chara="_Bianka">……당신 조수, 정말 괜찮은가요?</speak>
+			<show chara="biankaSighClose" position="left" opacity="0.8" />
+			<show chara="champoSweatyClose" position="right" />
+			<speak chara="_Champollion">일단, 약속했던 장소로 이동합시다.</speak>
+			<show chara="champoSmileClose" position="right" />
+			<speak chara="_Champollion">도서관에 있는 모든 건 독 안에 든 쥐와 같죠. 만약 예상치 못한 반전이 일어나도, 저는 도서관원들이 충분히 대처하리라 믿습니다.</speak>
+			<goto goto="70" clockwise="1" />
+		</scene>
+		<scene id="70" background="01_18_secretRoom.jpg">
+			<bgm src="01_18_horror.mp3" status="start"></bgm>
+			<text>같은 시각, 같은 도시의 어딘가——</text>
+			<speak chara="_ShadowA">각성제를 썼으니, 이제 곧 깨어날 거야. 하지만…… 이 사람들, 정말 우릴 도와줄까?</speak>
+			<speak chara="_ShadowB">문제없다. 납치를 당했다고 한들…… 이런 마음씨 좋은 책벌레들이라면, 분명 「4호기」가 죽는 걸 보고만 있지는 않을 거야.</speak>
+			<speak chara="_ShadowA">……아, 박사님이 사고를 당하지만 않으셨다면, 이렇게 문제를 일으킬 필요도 없었을 텐데.</speak>
+			<speak chara="_ShadowA">같은 분야의 사람을 세 명이나 납치해왔으니…… 우리의 의도가 드러나는 것도, 시간문제일 거야.</speak>
+			<speak chara="_ShadowB">상관없어. 박사님께선 더 이상 우릴 도울 수 없지만…… 그가 남긴 「재산」이라면, 이 실험을 성공시키는 데엔 충분할 거야.</speak>
+			<speak chara="_ShadowB">……그때가 되면, 「대도서관」이 몇 개나 더 있더라도, 우리의 상대가 못 돼.</speak>
+			<speak chara="_ShadowC">그렇다. 게다가, 우리는 정의의 편, 자유를 잃은 수많은 사람들이 우리가 일어나길 기다리고 있다.</speak>
+			<speak chara="_ShadowC">스스로를 도시의 「등대」라 부르는 「대도서관」…… 이제, 사라질 때가 다가오고 있다.</speak>
+			<goto goto="80" clockwise="1" />
+		</scene>
+		<scene id="80" background="alexandriaLibraryYard.jpg">
+			<bgm src="01_18_tango.mp3" status="start"></bgm>
+			<show chara="neithLaughClose" position="left" />
+			<speak chara="_NeithNoName">안녕, 박사! 「나일강 과수원」의 카스텔라 케이크가 엄청 맛있었어! 네이트는 참지도 못하고 하나 더 사버렸어!</speak>
+			<show chara="neithLaughClose" position="left" opacity="0.8" />
+			<show chara="champoSweatyClose" position="right" />
+			<speak chara="_Champollion">……먹고, 먹고, 또 먹고, 먹는 것만 아는구나. 일에 늦으면 어쩌려고?</speak>
+			<show chara="champoSweatyClose" position="right" opacity="0.8" />
+			<show chara="neithSmileClose" position="left" />
+			<speak chara="_Neith">흐흐, 그래서 딱 도착했는데……</speak>
+			<show chara="neithSmileClose" position="left" opacity="0.8" />
+			<show chara="biankaAngryClose" position="right" />
+			<speak chara="_Bianka">……</speak>
+			<show chara="champoSweatyClose" position="right" opacity="0.8" />
+			<show chara="biankaSneerClose" position="left" />
+			<speak chara="_Bianka">그래서, 이게 당신의 「조수」?</speak>
+			<show chara="biankaSneerClose" position="left" opacity="0.8" />
+			<show chara="champoSmileClose" position="right" />
+			<speak chara="_Champollion">그렇습니다. 이 녀석의 이름은 「네이트」. 못 미더워 보이지만, 후각은 개보다 더 뛰어납니다.</speak>
+			<show chara="champoSmileClose" position="right" opacity="0.8" />
+			<show chara="neithComplainClose" position="left" />
+			<speak chara="_Neith">네이트는 못 미덥지 않아! 케이크 냄새가 너무 좋았던 걸 탓해야 한다고!</speak>
+			<show chara="neithComplainClose" position="left" opacity="0.8" />
+			<show chara="biankaSighClose" position="right" />
+			<speak chara="_Bianka">……</speak>
+			<show chara="champoSmileClose" position="right" opacity="0.8" />
+			<show chara="biankaSneerClose" position="left" />
+			<speak chara="_Bianka">그래서, 이 녀석…… 당신의 탐지견 같은 건가요?</speak>
+			<show chara="biankaSneerClose" position="left" opacity="0.8" />
+			<show chara="champoSmileClose" position="right" />
+			<speak chara="_Champollion">하하, 그렇게 말할 수도 있겠네요. 이 아이는 계약 시장에서 얻은 보물이니까요.</speak>
+			<show chara="champoSmileClose" position="right" opacity="0.8" />
+			<show chara="biankaSurpriseClose" position="left" />
+			<speak chara="_Bianka">얻은 보물? 그, 그럼 얘는 당신의——</speak>
+			<show chara="biankaSurpriseClose" position="left" opacity="0.8" />
+			<show chara="champoSweatyClose" position="right" />
+			<speak chara="_Champollion">더 늦기 전에, 당신이 놓친 동료의 방으로 데려다 주시죠. 지미의 「맛」을 네이트가 완전하게 확인할 필요가 있으니까요.</speak>
+			<show chara="champoSweatyClose" position="right" opacity="0.8" />
+			<show chara="biankaSighClose" position="left" />
+			<speak chara="_Bianka">……무지 수상하네, 억지로 주제를 바꿔버리니.</speak>
+			<show chara="biankaSighClose" position="left" opacity="0.8" />
+			<show chara="micheArrogantClose" position="right" />
+			<speak chara="_Michel">네이트는 이전에 가출했던 「아서」를 찾는 데 도움을 준 적이 있었어요——단순히 수색만을 놓고 보면, 그녀는 꽤나 대단하답니다.</speak>
+			<show chara="micheArrogantClose" position="right" opacity="0.8" />
+			<show chara="biankaSeriousClose" position="left" />
+			<speak chara="_Bianka">……「아서」는 누군데요?</speak>
+			<show chara="biankaSeriousClose" position="left" opacity="0.8" />
+			<show chara="thalesEmbarrassedClose" position="right" />
+			<speak chara="_Thales">도서관장이 기르는 앵무새라네. 그 녀석을 찾으려고 정말 많은 사람들이 나무를 오르락내리락했다네. 덕분에 내 비단 망토도 찢어지고 말았지.</speak>
+			<show chara="thalesEmbarrassedClose" position="right" opacity="0.8" />
+			<show chara="biankaSighClose" position="left" />
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaSighClose" position="left" opacity="0.8" />
+			<show chara="micheDrySmileClose" position="right" />
+			<speak chara="_Michel">흠흠, 서둘러 사람을 찾으려면…… 얼른 움직여야 하지 않을까요?</speak>
+			<show chara="micheDrySmileClose" position="right" opacity="0.8" />
+			<show chara="biankaBiteClose" position="left" />
+			<shake position="left" time="250"></shake>
+			<speak chara="_Bianka">그, 그렇죠! 그, 그럼 당신들 모두 이 「네이트」라는 녀석이 믿을만하다고 했으니, 서둘러 절 따라오세요!</speak>
+			<show chara="biankaShoutClose" position="left" />
+			<speak chara="_Bianka">「칼레도니아호」의 지미 녀석의 개인 선실로!</speak>
+			<goto goto="90" clockwise="1" />
+		</scene>
+		<scene id="90" background="alexandriaLighthouse.jpg">
+			<bgm src="noise.mp3" status="start"></bgm>
+			<show chara="rita17NormalClose" position="left" />
+			<speak chara="_Rita">어? 비앙카 님?</speak>
+			<show chara="rita17NormalClose" position="left" opacity="0.8" />
+			<show chara="lallaQuestionClose" position="right" />
+			<speak chara="_Lalla">무슨 일이죠? 이렇게나 많은 사람들이랑, 어딜 급하게……</speak>
+			<show chara="lallaQuestionClose" position="right" opacity="0.8" />
+			<show chara="biankaShoutClose" position="left" />
+			<speak chara="_Bianka">지미가 없어! 지미의 냄새를 이용해서 찾아야 해!</speak>
+			<show chara="biankaShoutClose" position="left" opacity="0.8" />
+			<show chara="lallaSeriousClose" position="right" />
+			<speak chara="_Lalla">……!?</speak>
+			<show chara="lallaSeriousClose" position="right" opacity="0.8" />
+			<show chara="rita17HesitateClose" position="left" />
+			<speak chara="_Rita">……</speak>
+			<show chara="biankaShoutClose" position="left" />
+			<speak chara="_Bianka">라일라 씨! 갑판장 겸 선실의 관리도 맡고 계시죠? 지미의 개인 선실을 열어 주실 수 있어요?</speak>
+			<show chara="biankaShoutClose" position="left" opacity="0.8" />
+			<show chara="lallaSeriousClose" position="right" />
+			<speak chara="_Lalla">……알겠어요. 여러분, 절 따라오세요.</speak>
+			<goto goto="100" change="#ffffff" />
+		</scene>
+		<scene id="100" background="alexandriaLighthouse.jpg">
+			<bgm src="01_18_horror.mp3" status="start"></bgm>
+			<show chara="rita17HesitateClose" position="right" />
+			<speak chara="_Rita">……비앙카님, 기다려주세요.</speak>
+			<show chara="rita17HesitateClose" position="right" opacity="0.8" />
+			<show chara="biankaSurpriseClose" position="left" />
+			<speak chara="_Bianka">——왜 그래, 리타?</speak>
+			<show chara="biankaSurpriseClose" position="left" opacity="0.8" />
+			<show chara="rita17HesitateClose" position="right" />
+			<speak chara="_Rita">방금 지미 씨가 실종이라는 말…… 무슨 일이 일어난 건가요?</speak>
+			<show chara="rita17HesitateClose" position="right" opacity="0.8" />
+			<show chara="biankaHesitateClose" position="left" />
+			<speak chara="_Bianka">……그래, 너희들은 아직 모르는구나.</speak>
+			<show chara="biankaAngryClose" position="left" />
+			<speak chara="_Bianka">어쩔 수 없지, 간단히 설명해 줄게.</speak>
+			<goto goto="110" clockwise="1" />
+		</scene>
+		<scene id="110" background="alexandriaLighthouse.jpg">
+			<bgm src="01_18_horror.mp3" status="continue"></bgm>
+			<show chara="rita17HesitateClose" position="center" />
+			<speak chara="_Rita">……그런 일이 있었군요.</speak>
+			<show chara="rita17NormalClose" position="center" />
+			<speak chara="_Rita">지미를 찾는 일에는, 리타를 보내주시길. 비앙카님은 「칼레도니아호」에 남는 게 더 나아 보입니다.</speak>
+			<hide position="center"></hide>
+			<show chara="rita17NormalClose" position="right" opacity="0.8" />
+			<show chara="biankaSeriousClose" position="left" />
+			<speak chara="_Bianka">……저기. 그거 무슨 의미야?</speak>
+			<show chara="biankaSeriousClose" position="left" opacity="0.8" />
+			<show chara="rita17HesitateClose" position="right" />
+			<speak chara="_Rita">비앙카님의 사람들을 구하고픈 마음은 잘 알고 있어요.</speak>
+			<speak chara="_Rita">하지만, 임무의 목적을 생각하면…… 「우리」가 나서서 해결할 필요는 없다고 봅니다. 특히 「당신」은요.</speak>
+			<show chara="rita17HesitateClose" position="right" opacity="0.8" />
+			<show chara="biankaBiteClose" position="left" />
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaShoutClose" position="left" />
+			<speak chara="_Bianka">무슨 소리야?</speak>
+			<shake position="left" time="250"></shake>
+			<speak chara="_Bianka">내가 엮인 문제인데 나보고 나서지 말라고? 정신 나갔어?!</speak>
+			<show chara="biankaShoutClose" position="left" opacity="0.8" />
+			<show chara="rita17AngryEmClose" position="right" />
+			<speak chara="_Rita">……그럴리가요, 비앙카 님.</speak>
+			<speak chara="_Rita">리타는 주의를 드리고 싶은 거랍니다. 이런 대도시 내부에서 일어난 일에 함부로 끼어드는 건, 예상치 못한 위험을 초래할 수 있다는 것을요.</speak>
+			<speak chara="_Rita">최악의 상황을 대비해, 적어도 하나는 기지에 남아야 합니다.</speak>
+			<show chara="rita17AngryEmClose" position="right" opacity="0.8" />
+			<show chara="biankaShoutClose" position="left" />
+			<speak chara="_Bianka">……그럼 내가 찾으러 가고, 네가 남으면 되잖아? 지미와 난 같은 조였어, 이 실종 사건에는 내 책임도 있다고!</speak>
+			<show chara="biankaShoutClose" position="left" opacity="0.8" />
+			<show chara="rita17AngryClose" position="right" />
+			<speak chara="_Rita">There are five dangerous faults which may affect a general. (장군에게는 다섯의 위기가 있다.)</speak>
+			<speak chara="_Rita">Recklessness, which leads to destruction; (죽음을 각오하면, 파멸을 맞을 것이고,）</speak>
+			<speak chara="_Rita">Cowardice, which leads to capture; (생존을 도모하면, 포로가 될 것이고,)</speak>
+			<speak chara="_Rita">A hasty temper, which can be provoked by insults; (성질을 누르지 못하면, 쉽게 도발당할 것이고,)</speak>
+			<speak chara="_Rita">A delicacy of honor which is sensitive to shame; (청렴과 결백을 추구하면, 모욕을 당할 것이며,)</speak>
+			<speak chara="_Rita">Over-solicitude for his men, which exposes him to worry and trouble. (부하들을 너무 아끼면, 번민에 빠지게 될 것이다.)</speak>
+			<speak chara="_Rita">These are the five besetting sins of a general, ruinous to the conduct of war. (이런 다섯 가지는 장군이 저지르기 쉬운 과오이며, 병사들을 다루는 데에 있어 화를 불러오고 만다.)</speak>
+			<speak chara="_Rita" remark="next">When an army is overthrown and its leader slain, the cause will surely be found among these five dangerous faults. Let them be a subject of meditation. (부대가 전복되고, 장군이 죽음을 맞이하는 건, 필히 이 다섯 가지에서 찾을 수 있으니, 이를 잘 살펴봐야 한다.)</speak>
 			<remark post="U2FsdGVkX1+jgMcjNXOIjAJdTnV6">
-				<p class="article-text-h">注釈：</p>
-				<p class="article-text">『孫子兵法』第八章「九変篇」より。英文はライオネル・ジャイルズ（Lionel Giles）の1910年の翻訳本（ART OF WAR: THE OLDEST MILITARY TREATISE IN THE WORLD）より。</p>
-			</remark>	
- 			<show chara="rita17AngryEmClose" position="right"/>
- 			<speak chara="_Rita">ビアンカ様、兵法の視点から進言致しますと、あなたの性格は今回の捜査に少々不向きかと思われます。</speak>
- 			<speak chara="_Rita">予測不能なリスクがある限り、軽はずみな行動は見過ごせないのです。</speak>
- 			<show chara="rita17AngryEmClose" position="right" opacity="0.8"/>
- 			<show chara="biankaBiteClose" position="left"/>
- 			<speak chara="_Bianka">軽はずみな行動ではありません！私に代わって副官が責任を果たすだなんて、上官としての信用問題に繋がります！</speak>
- 			<show chara="biankaShoutClose" position="left"/>
- 			<speak chara="_Bianka">それに誘拐犯を捕まえに行くだけじゃないですか！どこにリスクがあると？A級戦乙女が、ただの犯罪者に後れを取るはずありません！</speak>
- 			<show chara="biankaBiteClose" position="left" opacity="0.8"/>
- 			<show chara="rita17HesitateClose" position="right"/>
- 			<speak chara="_Rita">……</speak>
- 			<show chara="rita17AngryEmClose" position="right"/>
- 			<speak chara="_Rita">どうしてもと仰るのでしたら、せめてカレドニア号の船員を呼び戻してから——</speak>
- 			<show chara="rita17AngryEmClose" position="right" opacity="0.8"/>
- 			<bgm src="01_18_tango.mp3" status="start"></bgm>
- 			<show chara="neithLaughClose" position="left"/>
- 			<speak chara="_Neith">よぉーーし！ネイトの鼻は準備万端っすよ！</speak>
- 			<show chara="neithSmileClose" position="left"/>
- 			<speak chara="_Neith">犯人の居場所を知りたい人、ネイトについてきて！</speak>
- 			<show chara="neithSmileClose" position="left" opacity="0.8"/>
- 			<show chara="biankaShoutClose" position="right"/>
- 			<speak chara="_Bianka">はい！今行きます！</speak>
- 			<show chara="biankaShoutClose" position="left" opacity="0.8"/>
- 			<show chara="rita17AngryClose" position="right"/>
- 			<speak chara="_Rita">ビアンカ様ッ！</speak>
- 			<show chara="rita17AngryClose" position="right" opacity="0.8"/>
- 			<show chara="champoSmileClose" position="left"/>
- 			<speak chara="_Champollion">そこのメイドさん、ご心配なく。この「意地っ張りな」お嬢様は、あたしがちゃんと見張っておくよ。</speak>
- 			<show chara="champoSmileClose" position="left" opacity="0.8"/>
- 			<show chara="rita17NormalClose" position="right"/>
- 			<speak chara="_Rita">あ、ありがとうございます……</speak> 			
- 			<show chara="rita17AngryEmClose" position="right"/>
- 			<speak chara="_Rita">（まさか……このお方、私たちの話を聞いていた…？）</speak>
- 			<end post="U2FsdGVkX18Eo7yka2bZeNMg03Im"/>
- 		</scene>
+				<p class="article-text-h">주:</p>
+				<p class="article-text">이 문장은 『손자병법』8장 「구변편(九變篇)」의 내용이다. 영문 번역은 Lionel Giles의 1910년 번역본이다. (ART OF WAR: THE OLDEST MILITARY TREATISE IN THE WORLD)에서 발췌.</p>
+			</remark>
+			<show chara="rita17AngryEmClose" position="right" />
+			<speak chara="_Rita">비앙카 님, 군사 이론적 관점에서, 현재 당신의 성격은 당신의 직책에 전혀 도움이 되지 않습니다.</speak>
+			<speak chara="_Rita">저희가 대응할 필요도 없고, 예측도 불가능한 위험 앞에서, 리타는 어떠한 경거망동에도 동의할 수 없습니다.</speak>
+			<show chara="rita17AngryEmClose" position="right" opacity="0.8" />
+			<show chara="biankaBiteClose" position="left" />
+			<speak chara="_Bianka">이건 경거망동이 아냐! 부관에게 책임을 떠넘기다니——내가 이런 행동을 하면, 누가 대장의 말에 믿음을 가지겠어?!</speak>
+			<show chara="biankaShoutClose" position="left" />
+			<speak chara="_Bianka">그리고, 고작 납치범들을 체포하러 가는 건데, 뭐가 위험하다는 거야?! A급 발키리가, 흔한 범죄자 따위에 질 거라 생각해??</speak>
+			<show chara="biankaBiteClose" position="left" opacity="0.8" />
+			<show chara="rita17HesitateClose" position="right" />
+			<speak chara="_Rita">……</speak>
+			<show chara="rita17AngryEmClose" position="right" />
+			<speak chara="_Rita">만약 비앙카 님께서 꼭 가셔야만 한다면, 적어도, 「칼레도니아호」의 사람들을 불러서——</speak>
+			<show chara="rita17AngryEmClose" position="right" opacity="0.8" />
+			<bgm src="01_18_tango.mp3" status="start"></bgm>
+			<show chara="neithLaughClose" position="left" />
+			<speak chara="_Neith">오케이! 네이트 코, 준비 완료!</speak>
+			<show chara="neithSmileClose" position="left" />
+			<speak chara="_Neith">범인들의 소굴을 그 누구보다 먼저 찾고 싶다면, 네이트를 따라오시라!</speak>
+			<show chara="neithSmileClose" position="left" opacity="0.8" />
+			<show chara="biankaShoutClose" position="right" />
+			<speak chara="_Bianka">좋아! 출발하자!</speak>
+			<show chara="biankaShoutClose" position="left" opacity="0.8" />
+			<show chara="rita17AngryClose" position="right" />
+			<speak chara="_Rita">비앙카 님!</speak>
+			<show chara="rita17AngryClose" position="right" opacity="0.8" />
+			<show chara="champoSmileClose" position="left" />
+			<speak chara="_Champollion">걱정 마시죠, 메이드 양. 당신의 「도움이 안 되는 성격으로 가득한」 주인은, 제가 잘 돌보도록 하겠습니다.</speak>
+			<show chara="champoSmileClose" position="left" opacity="0.8" />
+			<show chara="rita17NormalClose" position="right" />
+			<speak chara="_Rita">아, 감사합니다……</speak>
+			<show chara="rita17AngryEmClose" position="right" />
+			<speak chara="_Rita">(수상하네요…… 이 사람…… 어떻게 이걸 엿들을 수 있죠?)</speak>
+			<end post="U2FsdGVkX18Eo7yka2bZeNMg03Im" />
+		</scene>
 	</story>
 </data>
