@@ -1,3 +1,218 @@
+- id: cn
+  version: '6.2'
+  name: Chrono Navi
+  krName: 시간의 인도자
+  type: mecha
+  valkyrie: ai
+  features:
+    - fire-dmg
+    - fast-atk
+    - gather
+    - ignite
+  equipment:
+    - weapon: rudder-in-dream-lambda-i
+      stigmataTop: idol-transformation-top
+      stigmataMid: idol-transformation-mid
+      stigmataBot: idol-transformation-bot
+      type: recommended
+  leader:
+    core:
+      name: 'Chief Administrator'
+      krName: '수석 관리자'
+      description: |-
+        Leader Bonus:
+        All team members deal 30.0% more Fire DMG. They also deal 15.0% more Total DMG to ignited enemies.
+      krDescription: |-
+        리더로 배치 시 파티원이 버프를 받는다.
+        리더 스킬: 파티원의 화염 원소 대미지가 30.0% 증가하고, 연소 상태의 적에게 가하는 파티원의 모든 원소 대미지가 15.0% 증가한다.
+    subskills:
+      - name: 'Friendly Tech Support'
+        krName: '열정적인 기술 지원'
+        description: |-
+          All team members deal 30.0% more Fire DMG, and they also deal 15.0% more Total DMG to ignited enemies.
+        krDescription: |-
+          파티원의 화염 원소 대미지가 30.0% 증가하고, 파티원이 연소 상태의 적에게 가하는 파티원의 모든 원소 대미지가 15.0% 증가한다.
+  passive:
+    core:
+      name: 'Aimer: Reciprocator'
+      krName: '에이머-리피터'
+      description: |-
+        Passive bonuses apply automatically.
+        With a chakram equipped, casting the weapon skill makes her throw an Aimer-α chakram unit that deals Fire DMG and later flies back. When her Basic ATK hits it on its way back, it will be knocked back at enemies. It can be knocked back 3 times.
+        Every knock-back restores 100 Λ Power.
+        Upon throwing out the chakram: Deals 10% ATK of Fire DMG per hit.
+        1st knock-back: Deals 10% ATK of Fire DMG per hit.
+        2nd knock-back: Deals 10% ATK of Fire DMG per hit.
+        3rd knock-back: Deals 10% ATK of Fire DMG per hit.
+      krDescription: |-
+        패시브 스킬은 자동으로 발동한다.
+        차크람 무기 장비 시, 무기 스킬을 발동하면 [에이머-α] 차크람 유닛을 투척한다. 차크람 유닛은 일정 시간 후 되돌아오며, 적중한 적에게 화염 원소 대미지를 가한다. 차크람이 돌아오는 과정에서 아이쨩의 기본 공격이 [에이머-α] 차크람 유닛에 적중하면 적에게 리턴할 수 있으며, 최대 3회 리턴할 수 있다.
+        차크람 유닛을 리턴할 때마다 Λ 에너지를 100pt 회복한다.
+        차크람 첫 투척 시: 공격마다 공격력 10%의 화염 원소 대미지를 가한다.
+        첫 번째 리턴 시: 공격마다 공격력 10%의 화염 원소 대미지를 가한다.
+        두 번째 리턴 시: 공격마다 공격력 10%의 화염 원소 대미지를 가한다.
+        세 번째 리턴 시: 공격마다 공격력 10%의 화염 원소 대미지를 가한다.
+    subskills:
+      - name: Frame Warm-up
+        krName: 기체 예열
+        description: |-
+          When Chrono Navi is on standby and a teammate damages an ignited enemy, Chrono Navi recovers 1 SP. CD: 0.2s. She can recover up to 24.0 SP this way. Switching her in resets this effect.
+        krDescription: |-
+          시간의 인도자가 대기 상태일 때, 파티 내 다른 캐릭터가 연소 상태의 적에게 대미지를 가하면 시간의 인도자가 SP를 1pt 회복한다. 발동 재사용 대기시간: 0.2초. 대기 상태에서 해당 방식으로 SP를 최대 24.0pt 회복한다. 캐릭터 교대 시 해당 효과를 갱신한다.
+      - name: Blazing Cut
+        krName: 작열 커팅
+        description: |-
+          After Charged ATK releases the third Aimer-β chakram unit, all enemies damaged by her within 5s take 35.0% more Fire DMG for 20s. Triggering it again resets the duration.
+        krDescription: |-
+          차지 공격으로 세 번째 [에이머-β] 차크람 유닛을 방출하면 5초 동안 캐릭터가 대미지를 가할 때 목표가 받는 화염 원소 대미지가 35.0% 증가한다. 지속 시간: 20초, 중복 발동 시 지속 시간을 갱신한다.
+  evasion:
+    core:
+      name: Path Calculation
+      krName: '경로 계산'
+      description: |-
+        Evade enemy attacks and fight back. Can be performed twice in a row.
+        Evading forward: Deals 2 x 65% ATK of Fire DMG.
+        Evading backward: Deals 80% ATK of Fire DMG.
+        Ultimate Evasion Skill: Causes Global Time Fracture for 3s. CD: 15s.
+      krDescription: |-
+        빠르게 적의 공격을 회피하며, 2회 연속 회피할 수 있다. 회피하는 동시에 공격한다.
+        전방으로 회피 시: 적중한 적에게 공격력 65% x 2의 화염 원소 대미지를 가한다.
+        후방으로 회피 시: 적중한 적에게 공격력 80%의 화염 원소 대미지를 가한다.
+        극한 회피 스킬: 3초 동안 전체 시공 단열을 발동한다. 재사용 대기시간: 15초
+    subskills:
+      - name: Self-generated Counter Solution
+        krName: 자동 반격 플랜
+        description: |-
+          Evasion attacks can also knock Aimer chakram units back.
+        krDescription: |-
+          회피 시의 공격도 에이머 차크람 유닛을 리턴할 수 있다.
+  special:
+    core:
+      name: 'Charged: Aimer: Full Edges'
+      krName: '차지-에이머-블레이드'
+      description: |-
+        Attack and throw chakrams repeatedly.
+        When Λ Power reaches 300, hold [ATK] to exhaust Λ Power and cast Charged ATK, hitting enemies repeatedly and dealing 6 x 80% ATK of Fire DMG. She then throws Aimer-β chakram units in three directions, which deal 40% ATK of Fire DMG for every hit dealt to enemies along their paths and fly back to her.
+        In a period after casting Charged ATK, she can use weapon skill Counterattack Order. Counterattack Order and Basic ATK can knock Aimer-β chakram units back at enemies to deal 25% ATK of Fire DMG and inflict 2 x 6 Ignite Trauma. Counterattack Order deals 3 x 80% ATK of Fire DMG on direct hit.
+      krDescription: |-
+        연속으로 차크람을 투척해 공격한다.
+        Λ에너지가 300에 도달했을 때 공격 버튼을 길게 누르면 모든 Λ에너지를 소모하고 차지 공격으로 적에게 다단 공격을 발동해 공격력 80% x 6의 화염 원소 대미지를 가한다. 이어서 세 방향을 향해 [에이머-β] 차크람 유닛을 투척하고, 경로상의 적에게 공격마다 공격력 40%의 화염 원소 대미지를 가한다. 차크람 유닛은 날아간 후 다시 돌아온다.
+        차지 공격 발동 후, 일정 시간 내에 무기 스킬 [반격 명령]을 발동할 수 있다. [반격 명령]과 기본 공격은 [에이머-β] 차크람 유닛을 적에게 리턴할 수 있으며, 적에게 25%의 화염 원소 대미지와 2 x 6pt의 연소 게이지를 누적한다.
+        [반격 명령] 공격이 적에게 직접 적중 시 공격력 80% x 3의 화염 원소 대미지를 가한다.
+    subskills:
+      - name: Beat Drive
+        krName: 비트 드라이브
+        description: |-
+          For every Aimer chakram unit she knocks back, her Fire DMG increases by 10.0% for 10s. It can stack 3 times. Triggering it again resets the duration.
+        krDescription: |-
+          에이머 차크람 유닛을 리턴할 때마다 가하는 화염 원소 대미지가 10.0% 증가한다. 지속 시간: 10초, 최대 3스택 중첩, 중복 발동 시 지속 시간을 갱신한다.
+        requiredRank: ss
+  ultimate:
+    core:
+      name: Λ Impact
+      krName: 'Λ 임팩트'
+      description: |-
+        Go all out. Ignite Aimer units and form a burning zone.
+        Launch a powerful attack at the ground which deals 1200% ATK of Fire DMG and sends out flaming ripples, which deals 800% ATK of Fire DMG to enemies within and inflicts 18 Ignite Trauma.
+        If present, Aimer-γ Cutter will be enhanced into Aimer-Λ Domain. It lasts 17s, deals 3 x 25% ATK of Fire DMG per second, inflicts 0.2 Ignite Trauma per hit, and continuously gathers enemies. When it disappears, it inflicts 2 Ignite Trauma on all enemies.
+        SP cost: 100. CD: 20s.
+      krDescription: |-
+        에이머 유닛을 연소시키고 연소 영역을 생성한다.
+        지면에 강력한 공격을 발동해 공격력 1200%의 화염 원소 대미지를 가하고, 주변에 화염 파동을 일으켜 범위 내 적에게 공격력 800%의 화염 원소 대미지를 가하며, 목표에게 연소 게이지를 18pt 누적한다.
+        전장에 [에이머-γ커터]가 존재할 경우 [에이머-Λ영역]으로 강화된다. 지속 시간: 17초. 매초 공격력 25% x 3의 화염 원소 대미지를 가하고, 공격마다 목표에게 연소 게이지를 0.2pt 누적하며, 지속적으로 적을 끌어당긴다. [에이머-Λ영역]은 사라질 때 모든 적에게 연소 게이지를 2pt 누적한다.
+        소모 SP: 100, 재사용 대기시간: 20초
+    subskills:
+      - name: Temporary Limit Adjustment
+        krName: 임시 제한 조정
+        description: |-
+          Aimer-Λ Domain deals 20.0% more Total DMG per hit.
+        krDescription: |-
+          [에이머-Λ영역] 공격마다 가하는 모든 대미지가 20.0% 증가한다.
+        requiredRank: ss
+      - name: High Performance Mode
+        krName: 고성능 모드
+        description: |-
+          After casting Ultimate, all team members deal 10.0% more Total DMG, and melee and ranged attacks deal 25.0% more Total DMG for 20s. Triggering it again resets the duration.
+        krDescription: |-
+          필살기 발동 후 파티원이 가하는 모든 대미지가 10.0% 증가하고, 근거리 원거리 공격으로 가하는 모든 대미지가 25.0% 증가한다. 지속 시간: 20초, 중복 발동 시 지속 시간을 갱신한다.
+        requiredRank: s
+      - name: More Than a Heat Sink
+        krName: 단순 냉각 장치 아님
+        description: |-
+          When she in on standby, Aimer-γ Cutter and Aimer-Λ Domain deal an extra 20.0% ATK of Fire DMG per hit.
+        krDescription: |-
+          캐릭터가 대기 상태일 때, [에이머-γ커터]와 [에이머-Λ영역]이 공격마다 추가로 공격력 20.0%의 화염 원소 대미지를 가한다.
+  basic:
+    core:
+      name: Aimer System
+      krName: '에이머 시스템'
+      description: |-
+        Slashes with the chakram nimbly.
+        SEQ 1: Deals 80% ATK of Fire DMG.
+        SEQ 2: Deals 90% ATK of Fire DMG.
+        SEQ 3: Kicks the chakram outwards to deals 60% + 10% x (3~7) ATK of Fire DMG.
+        SEQ 4: Slash upward repeatedly, dealing 50% + 60% + 70% ATK of Fire DMG.
+        SEQ 5: Slash downward vigorously, dealing 120% ATK of Fire DMG.
+      krDescription: |-
+        유연한 몸놀림으로 차크람을 휘둘러 공격한다.
+        제1격: 공격력 80%의 화염 원소 대미지를 가한다.
+        제2격: 공격력 90%의 화염 원소 대미지를 가한다.
+        제3격: 차크람을 날려 공격력 60% + 10% x (3~7)의 화염 원소 대미지를 가한다.
+        제4격: 연속 공격해 공격력 50% + 60% + 70%의 화염 원소 대미지를 가한다.
+        제5격: 전력을 담아 공격해 공격력 120%의 화염 원소 대미지를 가한다.
+    subskills:
+      - name: 'QTE: Immediate Intervention'
+        krName: 'QTE-긴급 개입'
+        description: |-
+          QTE: Triggered when an enemy is Time-Slowed or ignited. Triggers 3s of Global Time Fracture, restores 300 Λ Power, and reduces switch CD to 4s. She deals 8 x 120% ATK of Fire DMG and triggers the Aimer-β chakram units throwing effect from Charged ATK at the cost of all Λ Power.
+        krDescription: |-
+          QTE: 적이 시공 감속 또는 연소 상태일 때 발동한다. 3초 동안 전체 시공 단열을 발동하고 Λ에너지를 300pt 회복한다. 차크람을 휘둘러 공격력 120% x 8의 화염 원소 대미지를 가하고, 차지 공격을 발동해 연속으로 [에이머-β] 차크람 유닛을 투척하며 모든 Λ 에너지를 소모한다. 교대된 캐릭터의 교대 대기시간이 4초로 감소한다.
+      - name: Self-Made Materials
+        krName: 독자 제작 재료
+        description: |-
+          Igniting attacks deal 25.0% bonus Fire DMG.
+        krDescription: |-
+          연소 대미지의 화염 원소 대미지가 25.0% 증가한다.
+        requiredRank: ss
+      - name: System Filling
+        krName: 시스템 충전
+        description: |-
+          When the knocked-back middle Aimer-β chakram unit or Aimer-γ Cutter becomes Aimer-Λ Domain during Ultimate, her igniting attacks deal 20.0% bonus Total DMG for 17s. Triggering it again resets the duration.
+        krDescription: |-
+          중앙의 [에이머-β] 차크람 유닛을 리턴하거나 필살기로 [에이머-γ커터]를 [에이머-Λ영역]으로 강화하면 연소 대미지의 모든 대미지가 20.0% 증가한다. 지속 시간: 17초, 중복 발동 시 지속 시간을 갱신한다.
+        requiredRank: s
+  sp:
+    core:
+      name: Intelligent Cutter
+      krName: '스마트 커터'
+      description: |-
+        The middle Aimer-β chakram unit thrown by Charged ATK becomes Aimer-γ Cutter once knocked back.
+        On hit, Aimer-γ Cutter stays in place to attack continuously for 12s, dealing 3 x 15% ATK of Fire DMG per second and gathering enemies.
+      krDescription: |-
+        차지 공격으로 중앙에 투척한 [에이머-β] 차크람 유닛을 리턴하면 [에이머-γ커터]로 강화된다.
+        [에이머-γ커터]는 적에게 적중 시 제자리에서 12초 동안 지속적으로 공격한다. 매초 공격력 15% x 3의 화염 원소 대미지를 가하고 지속적으로 적을 끌어당긴다.
+    subskills:
+      - name: Continuous Supply
+        krName: 지속 공급
+        description: |-
+          For every Aimer chakram unit she knocks back, she recovers 200.0 HP and 4.0 SP.
+        krDescription: |-
+          에이머 차크람 유닛을 리턴할 때마다 HP를 200.0pt, SP를 4.0pt 회복한다.
+        requiredRank: s
+      - name: Micro Generator
+        krName: 마이크로 발전기
+        description: |-
+          Knocking back the middle Aimer-β chakram unit restores 12.0 SP for all team members. CD: 15s. When the knocked-back middle Aimer-β chakram unit or Aimer-γ Cutter becomes Aimer-Λ Domain during Ultimate, all team members deal 40.0% more Fire DMG for 20s. Triggering it again resets the duration.
+        krDescription: |-
+          중앙의 [에이머-β] 차크람 유닛 리턴 시, 파티원이 SP를 12.0pt 회복한다. 재사용 대기시간: 15초. 중앙의 [에이머-β] 차크람 유닛을 리턴하거나 필살기로 [에이머-γ커터]를 [에이머-Λ영역]으로 강화하면 파티원의 화염 원소 대미지가 40.0% 증가한다. 지속 기간: 20초, 중복 발동 시 지속 시간을 갱신한다.
+        requiredRank: ss
+      - name: Saturated Energy
+        krName: 에너지 최대 출력
+        description: |-
+          Knocking back the middle Aimer-β chakram unit boosts her Total DMG by 20.0% for 20s. Triggering it again resets the duration.
+        krDescription: |-
+          중앙의 [에이머-β] 차크람 유닛 리턴 시, 캐릭터의 모든 대미지가 20.0% 증가한다. 지속 시간: 20초, 중복 발동 시 지속 시간을 갱신한다.
+        requiredRank: sss
 - id: jk
   version: '6.1'
   name: 'Jade Knight'
@@ -219,7 +434,7 @@
   krName: 진아·인간의 율자
   type: psychic
   valkyrie: elysia
-  features: [ice-dmg, freeze, time-mastery, burst]
+  features: [ice-dmg, freeze, time-mastery, burst, gather]
   equipment:
     - weapon: domain-of-ego
       stigmataTop: elysia-pristine-top
@@ -321,9 +536,9 @@
       - name: Timeless Evocation
         krName: 의미, 영원한 진리처럼
         description: |-
-          When a teammate consumes at least 100 SP in one go, her QTE is triggered. CD: 15s.
+          When Herrscher of Human: Ego is off switch CD and a teammate consumes at least 100 SP in one go, her QTE is triggered. CD: 15s.
         krDescription: |-
-          파티 내 다른 캐릭터가 SP를 한 번에 최소 100pt 소모하면 인간의 율자 QTE를 발동할 수 있다.
+          진아·인간의 율자의 교대 대기 시간이 종료됐을 때, 파티 내 다른 캐릭터가 SP를 한 번에 최소 100pt 소모하면 인간의 율자 QTE를 발동할 수 있다.
           해당 효과는 15초마다 1회 발동한다.
       - name: Moonlit Romance
         krName: 낭만, 밤하늘의 달처럼
@@ -1257,8 +1472,9 @@
         requiredRank: ss
       - name: '3rd Movment: An Epoch'
         krName: '제3악장: 시대'
-        description: Enemies paralyzed by the team take 20.0% more Total DMG by 10s.
-        krDescription: '파티원이 적을 마비시키면 해당 적이 받는 모든 대미지가 20.0% 증가한다. 지속 시간: 10초'
+        description: Enemies paralyzed by any team member take 20.0% more Total DMG for 10s. Triggering it again refreshes its duration.
+        krDescription: |-
+          파티원이 적을 마비시키면 해당 적이 받는 모든 대미지가 20.0% 증가한다. 지속 시간: 10초, 중복 발동 시 갱신
         requiredRank: sss
   evasion:
     core:
@@ -6988,44 +7204,26 @@
     core:
       name: Sceptum Regalis
       krName: 왕권의 광휘
-      description: >-
-        Enter Burst mode and unlock the true potential of Bright Knight:
-        Excelsis.
-
+      description: |-
+        Enter Burst mode and unlock the true potential of Bright Knight: Excelsis.
         1st sequence: 150% ATK of Physical DMG.
-
         2nd sequence: 180% + 200% ATK of Physical DMG.
-
         3rd sequence: 280% ATK of Physical DMG.
-
         4th sequence: 6 x 70% ATK of Physical DMG.
-
         5th sequence: 450% ATK of Physical DMG.
-
         Evade forward to deal 100% ATK of Physical DMG and enter Turbojet state, enabling Turbojet Assault, which deals 200% + 250% ATK of Physical DMG. The 3rd sequence of Basic ATK can be performed right after Turbojet Assault.
-
-        When Focus EX in not in cooldown, hit an enemy upon entering Turbojet (forward evasion) to trigger Focus EX.
-
+        When Focus EX in not in cooldown, hit an enemy upon entering Turbojet (forward evasion) to trigger Retaliation and Focus EX.
         Burst mode lasts 23s and costs 100SP to activate, during which Durandal gains Iron Body. CD: 25s.Switching out will end Burst mode.
-      krDescription: >-
+      krDescription: |-
         폭발 상태에 진입해 성휘의 기사·월백의 모든 기능을 해방한다.
-
         1격: 공격력 150%의 물리 대미지
-
         2격: 공격력 180%+200%의 물리 대미지
-
         3격: 공격력 280%의 물리 대미지
-
         4격: 공격력 6*70%의 물리 대미지
-
         5격: 공격력 450%의 물리 대미지
-
         앞 회피는 공격력 100%의 물리 대미지를 입히고 분사 이동 상태에 진입한다. 분사 이동 상태는 이어서 [분사 급습]을 발동해 공격력 200%+250%의 물리 대미지를 가하고, [분사 급습] 후 이어서 기본 공격 3격을 사용할 수 있다.
-
-        [극한 집중] 재사용 대기시간이 완료됐을 때 분사 순간(앞 회피)에 적을 공격하면 [극한 집중]을 발동할 수 있다.
-
+        [극한 집중] 재사용 대기시간이 완료됐을 때 분사 순간(앞 회피)에 적을 공격하면 [방어 반격]과 [극한 집중]을 발동할 수 있다.
         폭발 상태 지속시간: 23초, 재사용 대기시간: 25초, 소모 SP: 100. 폭발 상태에서 듀란달은 슈퍼 아머 상태가 된다.
-
         캐릭터가 대기 상태일 때 폭발 상태는 취소된다.
     subskills:
       - name: Benoni's Breaker

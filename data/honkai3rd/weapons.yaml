@@ -1,3 +1,69 @@
+- id: rudder-in-dream-lambda-i
+  version: '6.2'
+  name: 'Rudder in Dream Λ-I'
+  krName: 드림 러더Λ-I
+  category: chakram
+  rarity: 6
+  atk: 436
+  crt: 15
+  battlesuits:
+    - id: cn
+  originalWeapons:
+    - rudder-in-dream
+  sources:
+    - type: pri-weapon-foundry
+  skills:
+    - name: 'Aimer: Pyrolyzer'
+      krName: '에이머 버스터'
+      description: |-
+        [SP: 0][CD: 0s] Weapon active's CD, max charges, and effects are based on the wielder.
+        When using the weapon active, the weapon enters Overclocked mode and boosts the user's Total 12.0% for 20s. Triggering it again resets the duration. In Overclocked mode, the weapon active releases a Pulse on hit dealing 15.0% ATK of AoE Fire DMG. CD: 0.5s.
+      krDescription: |-
+        [SP 소모: 0][재사용 대기시간: 0초] 무기 액티브 스킬의 재사용 대기시간, 충전 횟수, 스킬 효과는 장비한 캐릭터의 유형에 따라 결정된다.
+        무기 스킬 사용 시, 차크람 무기는 [오버클럭] 모드에 진입해 캐릭터의 모든 대미지가 12.0% 증가한다. 지속 시간: 20초, 중복 발동 시 지속 시간을 갱신한다. 그 기간, 무기 스킬이 적에게 적중 시 목표 위치에 [펄스]를 방출해 범위 내 적에게 공격력 15.0%의 화염 원소 대미지를 가한다. 재사용 대기시간: 0.5초
+    - name: 'Source Code: Temporal Dream'
+      krName: '소스 코드: 꿈'
+      description: |-
+        Increases all team members' Total DMG by 12.0% (cannot stack).
+        Chrono Navi equip bonus: If she knocks back an Aimer-ß chakram unit in Overclocked mode, the weapon will enter a special Overclocked mode, which makes her deal 20.0% more Fire DMG to ignited enemies for 20s.
+      krDescription: |-
+        파티원의 모든 대미지가 12.0% 증가한다(하나만 적용).
+        시간의 인도자가 사용 시, [오버클럭] 모드에서 [에이머-ß] 차크람 유닛을 리턴하면 무기가 특수 [오버클럭] 모드에 진입해 연소 상태의 적에게 가하는 화염 대미지가 20.0% 증가한다. 지속 시간: 20초
+    - name: 'Plasma Flames'
+      krName: 플라즈마 파이어
+      description: |-
+        Increases Fire DMG by 15.0%. Enemies hit by Pulse receive 8.0% more Fire DMG for 15s, but if they are ignited, they receive 15.0% more Fire DMG instead. Triggering it again refreshes its duration.
+      krDescription: |-
+        자신의 화염 원소 대미지가 15.0% 증가하고, [펄스]에 적중한 적이 받는 화염 원소 대미지가 8.0% 증가한다. 목표가 연소 상태일 경우, 받는 화염 대미지가 15.0%까지 증가한다. 지속 시간: 15초, 중복 발동 시 지속 시간을 갱신한다.
+- id: rudder-in-dream
+  version: '6.2'
+  name: 'Rudder in Dream'
+  krName: 드림 러더
+  category: chakram
+  rarity: 5
+  atk: 283
+  crt: 13
+  battlesuits:
+    - id: cn
+  priWeapon: rudder-in-dream-lambda-i
+  sources:
+    - type: focused-supply
+  skills:
+    - name: 'Aimer: Binary'
+      krName: '에이머-더블'
+      description: |-
+        [SP: 0][CD: 0s] Weapon active's CD, max charges, and effects are based on the wielder.
+        When using the weapon active, the weapon enters Overclocked mode and boosts the user's Total DMG by 10.0% for 15s. Triggering it again resets the duration. In Overclocked mode, the weapon active releases a Pulse on hit dealing 10.0% ATK of AoE Fire DMG. CD: 0.5s.
+      krDescription: |-
+        [SP 소모: 0][재사용 대기시간: 0초] 무기 액티브 스킬의 재사용 대기시간, 충전 횟수, 스킬 효과는 장비한 캐릭터의 유형에 따라 결정된다.
+        무기 스킬 사용 시, 차크람 무기는 [오버클럭] 모드에 진입해 캐릭터의 모든 대미지가 10.0% 증가한다. 지속 시간: 15초, 중복 발동 시 지속 시간을 갱신한다. 그 기간, 무기 스킬이 적에게 적중 시 목표 위치에 [펄스]를 방출해 범위 내 적에게 공격력 10.0%의 화염 원소 대미지를 가한다. 재사용 대기시간: 0.5초
+    - name: 'Source Code: Navigation'
+      krName: '소스 코드: 인도'
+      description: |-
+        Increases all team members' Total DMG by 10.0% (cannot stack).
+        Chrono Navi equip bonus: If she knocks back an Aimer-ß chakram unit in Overclocked mode, the weapon will enter a special Overclocked mode, which makes her deal 12.0% more Fire DMG to ignited enemies for 20s.
+      krDescription: |-
+        파티원의 모든 대미지가 10.0% 증가한다(하나만 적용). 시간의 인도자가 사용 시, [오버클럭] 모드에서 [에이머-ß] 차크람 유닛을 리턴하면 무기가 특수 [오버클럭] 모드에 진입해 연소 상태의 적에게 가하는 화염 대미지가 12.0% 증가한다. 지속 시간: 20초
 - id: star-of-eden-world
   version: '6.1'
   name: 'Star of Eden: World'
