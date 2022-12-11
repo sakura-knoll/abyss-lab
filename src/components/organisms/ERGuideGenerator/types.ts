@@ -32,7 +32,7 @@ export interface ERGGEquipmentSet {
 
 export interface ERGGSignet {
   group: string
-  type: 'core' | 'start' | 'sub'
+  type: 'core' | 'sub' | 'optional'
   nexus: 1 | 2
   description: string
 }

@@ -116,10 +116,10 @@ const SignetBox = ({ signets }: SignetBoxProps) => {
                     fontWeight: 'bold',
                     color:
                       signet.type === 'core'
-                        ? '#E39070'
-                        : signet.type === 'start'
-                        ? '#FEDEC2'
-                        : '#A59A9B',
+                        ? '#F87360'
+                        : signet.type === 'sub'
+                        ? '#F5C1B7'
+                        : '#A3928A',
                   }}
                   className='signetTypeLabel'
                 >
@@ -127,9 +127,9 @@ const SignetBox = ({ signets }: SignetBoxProps) => {
                     <Box>
                       {signet.type === 'core'
                         ? '핵심'
-                        : signet.type === 'start'
-                        ? '과도'
-                        : '보조'}
+                        : signet.type === 'sub'
+                        ? '차선'
+                        : '선택'}
                     </Box>
                     <Box>각인</Box>
                   </Box>

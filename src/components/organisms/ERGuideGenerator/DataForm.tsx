@@ -308,9 +308,9 @@ const DataForm = ({
                           updateData('signets', newSignets)
                         }}
                       >
-                        <option value='start'>과도</option>
                         <option value='core'>핵심</option>
-                        <option value='sub'>보조</option>
+                        <option value='sub'>차선</option>
+                        <option value='optional'>선택</option>
                       </Select>
                     </Box>
                   </Flex>
