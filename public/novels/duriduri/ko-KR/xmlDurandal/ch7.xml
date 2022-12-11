@@ -1,808 +1,808 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
-  <story>
-    <scene id="0" background="bg.jpg">
-    	<bgm src="11_12_mid-lude.mp3" status="start"></bgm>
-    	<cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
-    	<goto goto="10" change="#000000"/>		
-	  </scene>
-	  <scene id="10" background="jailCell.jpg">
+	<story>
+		<scene id="0" background="bg.jpg">
+			<bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+			<cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+			<goto goto="10" change="#000000" />
+		</scene>
+		<scene id="10" background="jailCell.jpg">
 			<bgm src="01_18_horror.mp3" status="start"></bgm>
- 			<text>ジミー・ワットは絶望に陥りながら、意識を失う前のことを思い出そうとした。</text>
- 			<text>大図書館の閲覧室でいつの間にか気を失って……気がついた時には、もうこの牢屋の中。</text>
- 			<text>ドアには鍵がかかっており、叫んでも誰も返事をしてくれない。</text>
- 			<text>ビアンカさん……シェイクスピア船長……タレス所長……</text>
- 			<text>誰かが颯爽と登場して、笑って助けてくれるのを想像することしかできない。</text>
-			<sound src="02_03_highheels.mp3"/>
- 			<text>……足音？</text>
- 			<goto goto="20" change="0"/>	
-	  </scene>
-	  <scene id="20" background="black">
+			<text>지미·와트는 의식을 잃기 전의 기억을 필사적으로 떠올렸다.</text>
+			<text>얼마나 지난 지는 모르지만, 대도서관의 열람실에서 의식을 잃었고…… 다시 깨어났을 땐, 이미 감옥에 갇혀있었다.</text>
+			<text>문은 차갑게 잠겨있었고, 그의 외침에 답하는 이는 아무도 없었다.</text>
+			<text>비앙카…… 셰익스피어 선장…… 탈레스 소장님……</text>
+			<text>그는 그녀들이 웃으며 나타나 자신을 구해주는, 아무런 쓸모도 없는 상상을 하는 것 밖에 할 수 있는 게 없었다.</text>
+			<sound src="02_03_highheels.mp3" />
+			<text>……발소리?</text>
+			<goto goto="20" change="0" />
+		</scene>
+		<scene id="20" background="black">
 			<bgm src="01_18_horror.mp3" status="stop"></bgm>
- 			<text>ドアに耳を当ててみる。その足音はちょうどドアの前で止まった。</text>
-			<sound src="02_03_key.mp3"/>
- 			<text>鍵が差し込まれ、それが回る。</text>
- 			<goto goto="30" change="#ffffff"/>	
-	  </scene>
-	  <scene id="30" background="jailCell.jpg">
+			<text>그는 허겁지겁 귀를 문에 바짝 붙였다. 발소리는 바로 문 반대편에서 멈춘듯했다.</text>
+			<sound src="02_03_key.mp3" />
+			<text>열쇠 소리가 들린다. 문의 잠금장치가 돌아가고 있다.</text>
+			<goto goto="30" change="#ffffff" />
+		</scene>
+		<scene id="30" background="jailCell.jpg">
 			<bgm src="12_14_fadeAway.mp3" status="start"></bgm>
-			<sound src="02_03_door.mp3"/>
- 			<show chara="AliceStandBlackClose" position="center"/>
- 			<speak chara="_AliceNoName">学者様、大変失礼な真似をして申し訳ありませんでした。</speak>
- 			<speak chara="_Watt">え、と……君は……？</speak>
- 			<speak chara="_AliceNoName">……申し遅れました。</speak>
- 			<speak chara="_AliceNoName">私の名前はアリス。今は……この建物の管理を任されています。</speak>
- 			<speak chara="_Alice">こちらへどうぞ。歩きながらご説明いたします。</speak>
- 			<goto goto="40" clockwise="1"/>	
-	  </scene>
-	  <scene id="40" background="jailBridge.jpg">
+			<sound src="02_03_door.mp3" />
+			<show chara="AliceStandBlackClose" position="center" />
+			<speak chara="_AliceNoName">학자 선생님, 정말로 큰 실례를 범했습니다.</speak>
+			<speak chara="_Watt">어…… 음, 누구세요……?</speak>
+			<speak chara="_AliceNoName">……그러게요. 선생님도 분명 혼란스러우시겠죠.</speak>
+			<speak chara="_AliceNoName">제 이름은 「앨리스」입니다. 지금은…… 이 건물의 관리를 맡고 있죠.</speak>
+			<speak chara="_Alice">우선 절 따라오세요, 걸으면서 이야기해요.</speak>
+			<goto goto="40" clockwise="1" />
+		</scene>
+		<scene id="40" background="jailBridge.jpg">
 			<bgm src="12_14_moonLight.mp3" status="start"></bgm>
- 			<show chara="AliceSilentFar" position="center"/>
- 			<speak chara="_Alice">……ここはとある博士の実験場でした。</speak>
- 			<show chara="AliceDeclineFar" position="center"/>
- 			<speak chara="_Alice">博士は独特な人でした。隠居しているだけでなく——街の人々とは考え方がまったく異なっていたのです。</speak>
- 			<speak chara="_Alice">街の人々は、博士が考案した社会の発展に賛同しないばかりか、危険思想の持ち主と認定し、街から追放しました。</speak>
- 			<show chara="AliceSilentFar" position="center"/>
- 			<speak chara="_Alice">……それでも、博士は諦めませんでした。</speak>
- 			<show chara="AliceCalmFar" position="center"/>
- 			<speak chara="_Alice">ご自身の知識を持って、街の外の人たちと取引をし、一からこの実験場を作り上げ、自給自足の生活を行ってきたのです。</speak>
- 			<show chara="AliceSilentFar" position="center"/>
- 			<speak chara="_Alice">私のような存在を作るために。</speak>
- 			<speak chara="_Watt">……君を、「作った」？</speak>
- 			<show chara="AliceBitterFar" position="center"/>
- 			<speak chara="_Alice">……ええ。</speak>
- 			<show chara="AliceSilentFar" position="center"/>
- 			<speak chara="_Alice">大変申し上げにくいのですが……</speak>
- 			<show chara="AliceCalmFar" position="center"/>
- 			<speak chara="_Alice">私は……人間ではありません。</speak>
- 			<speak chara="_Watt">……な、何かの例え話とかじゃなくて？</speak>
- 			<show chara="AliceSilentFar" position="center"/>
- 			<speak chara="_Alice">はい、どうか驚かないでください。</speak>
- 			<show chara="AliceDeclineFar" position="center"/>
- 			<speak chara="_Alice">貴方を騙そうなどとは思っておりません。私は正真正銘、博士が作った機械。「4号機」です。</speak>
- 			<show chara="AliceCalmFar" position="center"/>
- 			<speak chara="_Alice">貴方の目の前にいる「アリス」は、その機械のインターフェイスの一つに過ぎません。</speak>
- 			<show chara="AliceSilentFar" position="center"/>
- 			<speak chara="_Alice">……人間の肉体ととてもよく似ておりますが。</speak>
- 			<speak chara="_Watt">……</speak>
- 			<show chara="AliceCalmFar" position="center"/>
- 			<speak chara="_Alice">……このようなお話、急には信じられないかもしれませんね。</speak>
- 			<show chara="AliceDeclineFar" position="center"/>
- 			<speak chara="_Alice">これはまだ……導入部分に過ぎません。</speak>
- 			<show chara="AliceBitterFar" position="center"/>
- 			<speak chara="_Alice">貴方をここまでお連れした経緯をすぐにご説明したいのですが……</speak>
- 			<show chara="" position="center"/>
- 			<speak chara="_Alice">その前に……あるものを見る前に……心の準備をしておいて頂きたいのです。</speak>
- 			<speak chara="_Watt">……こ、心の準備？</speak>
- 			<speak chara="_Watt">ど、どこに連れて行く気？</speak>
- 			<show chara="AliceSilentFar" position="center"/>
- 			<speak chara="_Alice">この世で、もっとも博士が誇りに思われている場所。</speak>
- 			<show chara="AliceCalmFar" position="center"/>
- 			<speak chara="_Alice">私の「脳」です。</speak>
- 			<speak chara="_Watt">……君の……脳……</speak>
- 			<show chara="AliceSilentFar" position="center"/>
- 			<speak chara="_Alice">博士の助手たちは貴方とは別に、学者の方をお二人ここまでお連れしました。しかし、彼らは「それ」を見た瞬間、協力を断ってしまいました。</speak>
- 			<show chara="AliceDeclineFar" position="center"/>
- 			<speak chara="_Alice">一人は話を聞いてくれず、逃げることを選択しました。</speak>
- 			<show chara="AliceBitterFar" position="center"/>
- 			<speak chara="_Alice">もう一人は祈りの言葉を繰り返し、会話することもかないませんでした。</speak>
- 			<show chara="AliceSilentFar" position="center"/>
- 			<speak chara="_Alice">……</speak>
- 			<speak chara="_Alice">そして、全員死にました。</speak>
- 			<speak chara="_Watt">し、死んだ……？</speak>
- 			<show chara="AliceDeterminedFar" position="center"/>
- 			<speak chara="_Alice">はい。貴方が、アリスの最後の希望です。</speak>
- 			<speak chara="_Watt">き、君たちは、何をする気なんだ……</speak>
- 			<show chara="AliceSilentFar" position="center"/>
- 			<speak chara="_Alice">いえ、一つ誤解があります。</speak>
- 			<show chara="AliceBitterFar" position="center"/>
- 			<speak chara="_Alice">ここにはもう、「私たち」はいません。</speak>
- 			<speak chara="_Watt">……？</speak>
- 			<show chara="AliceSilentFar" position="center"/>
- 			<speak chara="_Alice">ここには、貴方と私しかいません。</speak>
- 			<show chara="AliceDeclineFar" position="center"/>
- 			<speak chara="_Alice">博士とその助手たち、被害者たち、皆いなくなりました。</speak>
- 			<speak chara="_Watt">……！</speak>
- 			<show chara="AliceSilentFar" position="center"/>
- 			<speak chara="_Alice">まずは一昨日、約50時間前——</speak>
- 			<speak chara="_Alice">博士は……20時間ほど働いた後、急に倒れられました。</speak>
- 			<show chara="AliceDeclineFar" position="center"/>
- 			<speak chara="_Alice">助手たちは慌てて「治療」を施しましたが、その努力もむなしく……</speak>
- 			<speak chara="_Alice">私が博士に触れた時には、もう……</speak>
- 			<show chara="AliceSilentFar" position="center"/>
- 			<speak chara="_Alice">……お亡くなりになっておりました。</speak>
- 			<show chara="AliceDeclineFar" position="center"/>
- 			<speak chara="_Alice">その後、博士を失った助手たちは、アリスの運用を続けるため危険を顧みず、貴方と、そして他二名の学者様を誘拐しました。</speak>
- 			<show chara="AliceSilentFar" position="center"/>
- 			<speak chara="_Alice">先ほど申し上げた通り、お二人と助手たちの間で衝突が起きてしまい……</speak>
- 			<show chara="AliceBitterFar" position="center"/>
- 			<speak chara="_Alice">今やここにはもうこのアリスと……</speak>
- 			<show chara="AliceSilentFar" position="center"/>
- 			<speak chara="_Alice">騒ぎの時、運良く牢屋で寝ていた貴方しかおりません。</speak>
- 			<speak chara="_Watt">あ、あの、ボクのことはジミーでいいです。</speak>
- 			<speak chara="_Alice">ジミー様。アリスにとって、貴方が唯一の救いなのです。</speak>
- 			<speak chara="_Watt">……</speak>
- 			<speak chara="_Watt">な、何をさせる気？</speak>
- 			<show chara="AliceSilentFar" position="center"/>
- 			<speak chara="_Alice">……</speak>
- 			<show chara="AliceCalmFar" position="center"/>
- 			<speak chara="_Alice">そこの階段を右です。</speak>
- 			<show chara="AliceDeterminedFar" position="center"/>
- 			<speak chara="_Alice">……そろそろ着きます。</speak>
- 			<goto goto="50" change="#000000"/>	
-	  </scene>
-	  <scene id="50" background="CG7-1-1.jpg">
+			<show chara="AliceSilentFar" position="center" />
+			<speak chara="_Alice">……이곳은 어떤 박사님의 실험 기지였던 곳이에요.</speak>
+			<show chara="AliceDeclineFar" position="center" />
+			<speak chara="_Alice">박사님은 고독한 분이었어요. 원래부터 밖으로 나오는 걸 즐기지 않으셨기도 하고——그 분의 생각도 도시 사람들과 크게 달랐기 때문이에요.</speak>
+			<speak chara="_Alice">도시의 사람들은 박사님이 제안한 사회의 발전 방식에 동의하지 않았어요. 그들은 박사님을 위험한 사람으로 간주하고, 그를 추방시키고 말았죠.</speak>
+			<show chara="AliceSilentFar" position="center" />
+			<speak chara="_Alice">……하지만 박사님은 쉽게 포기하지 않았어요.</speak>
+			<show chara="AliceCalmFar" position="center" />
+			<speak chara="_Alice">그는 자신의 지식을 이용해 도시 밖의 다양한 사람들과 거래를 하며, 누구의 도움도 없이 혼자서 이 실험 기지를 짓고, 자급자족하며 살아오셨어요.</speak>
+			<show chara="AliceSilentFar" position="center" />
+			<speak chara="_Alice">그리고…… 저와 같은 존재를 만드셨죠.</speak>
+			<speak chara="_Watt">……당신을, 「만들어요」?</speak>
+			<show chara="AliceBitterFar" position="center" />
+			<speak chara="_Alice">……네.</speak>
+			<show chara="AliceSilentFar" position="center" />
+			<speak chara="_Alice">말하기 좀 곤란한 건데…… 이렇게 스스로 말하기도 이상하네요……</speak>
+			<show chara="AliceCalmFar" position="center" />
+			<speak chara="_Alice">저…… 전 인간이 아니에요.</speak>
+			<speak chara="_Watt">……이, 이거 비유 같은 거죠?</speak>
+			<show chara="AliceSilentFar" position="center" />
+			<speak chara="_Alice">아니요…… 제발 놀라지 말아주세요.</speak>
+			<show chara="AliceDeclineFar" position="center" />
+			<speak chara="_Alice">속이려는 의도가 있는 게  아니라…… 그저, 저는 박사님에 의해 만들어진 기계에요. 「4호기」.</speak>
+			<show chara="AliceCalmFar" position="center" />
+			<speak chara="_Alice">선생님께서 현재 보고 계신 「앨리스」는, 단지 그 기계의 단말 장치에 불과해요.</speak>
+			<show chara="AliceSilentFar" position="center" />
+			<speak chara="_Alice">……뭐, 인간의 육체랑…… 매우 닮아 보이지만요.</speak>
+			<speak chara="_Watt">……</speak>
+			<show chara="AliceCalmFar" position="center" />
+			<speak chara="_Alice">……제가 말한 게 믿기 어렵다는 건 잘 알아요.</speak>
+			<show chara="AliceDeclineFar" position="center" />
+			<speak chara="_Alice">하지만, 이다음에는…… 더욱 믿기 힘든 사실들이 있어요.</speak>
+			<show chara="AliceBitterFar" position="center" />
+			<speak chara="_Alice">물론 저도 선생님이 납치된 이유를 바로 설명드리고 싶긴 하지만……</speak>
+			<show chara="" position="center" />
+			<speak chara="_Alice">우선은 이 「무언가」를 보기 전에…… 마음의 준비를 하셨으면 좋겠어요.</speak>
+			<speak chara="_Watt">……마, 마음의 준비요?</speak>
+			<speak chara="_Watt">……저, 절 어디로 데려가는 거예요?</speak>
+			<show chara="AliceSilentFar" position="center" />
+			<speak chara="_Alice">이 세상에서, 박사님이 가장 자랑스러워했던 장소……</speak>
+			<show chara="AliceCalmFar" position="center" />
+			<speak chara="_Alice">……바로, 제 「뇌」로요.</speak>
+			<speak chara="_Watt">……당신의……뇌……</speak>
+			<show chara="AliceSilentFar" position="center" />
+			<speak chara="_Alice">……당신 말고도 박사님의 조수들이 두 명의 학자를 더 납치했어요. 하지만, 그들은 「그걸」 보자마자 협력하는 걸 완고히 거부하더군요.</speak>
+			<show chara="AliceDeclineFar" position="center" />
+			<speak chara="_Alice">한 명은 조금도 설명을 들으려 하지 않고, 무슨 말만 해도 도망치려 하고,</speak>
+			<show chara="AliceBitterFar" position="center" />
+			<speak chara="_Alice">다른 쪽은 발작이 온 듯 끊임없이 기도 주문 같은 걸 외는 바람에, 소통할 방법이 없었어요.</speak>
+			<show chara="AliceSilentFar" position="center" />
+			<speak chara="_Alice">……</speak>
+			<speak chara="_Alice">결국엔, 모두 「죽고 말았죠」.</speak>
+			<speak chara="_Watt">주, 죽어요……?</speak>
+			<show chara="AliceDeterminedFar" position="center" />
+			<speak chara="_Alice">네…… 그리고 선생님은, 저 앨리스의…… 마지막 희망이에요.</speak>
+			<speak chara="_Watt">다…… 당신들은…… 제게…… 뭘 하려……</speak>
+			<show chara="AliceSilentFar" position="center" />
+			<speak chara="_Alice">아뇨, 아니에요……</speak>
+			<show chara="AliceBitterFar" position="center" />
+			<speak chara="_Alice">여기에 「당신들」 같은 건 없어요.</speak>
+			<speak chara="_Watt">……?</speak>
+			<show chara="AliceSilentFar" position="center" />
+			<speak chara="_Alice">여기에는…… 지금 저와 당신뿐이에요……</speak>
+			<show chara="AliceDeclineFar" position="center" />
+			<speak chara="_Alice">박사님과…… 조수들, 그리고 다른 피해자분들은…… 「모두」 더 이상 존재하지 않아요.</speak>
+			<speak chara="_Watt">……!</speak>
+			<show chara="AliceSilentFar" position="center" />
+			<speak chara="_Alice">시작은…… 이틀 전, 그러니까 대략 50시간 전.</speak>
+			<speak chara="_Alice">박사님이…… 20시간 넘게 작업을 하신 후, 갑자기 쓰려지셔서……</speak>
+			<show chara="AliceDeclineFar" position="center" />
+			<speak chara="_Alice">조수분들도 당황해서…… 박사님을 「치료」하려 서둘렀지만…… 아무런 효과도 없었어요……</speak>
+			<speak chara="_Alice">제가…… 박사님께 다가갔을 땐…… 이미……</speak>
+			<show chara="AliceSilentFar" position="center" />
+			<speak chara="_Alice">……세상을 떠나셨어요.</speak>
+			<show chara="AliceDeclineFar" position="center" />
+			<speak chara="_Alice">그리고…… 박사님을 잃은 조수분들은, 앨리스를 계속해서 이용할 방법을 찾기 위해…… 위험을 무릅쓰고 선생님을 납치했어요…… 그리고 다른 두 학자도……</speak>
+			<show chara="AliceSilentFar" position="center" />
+			<speak chara="_Alice">그러자, 앞서 말한 듯…… 조수들과 납치된 두 학자들 간에 충돌이 생겨서……</speak>
+			<show chara="AliceBitterFar" position="center" />
+			<speak chara="_Alice">이제…… 남겨진 건…… 오직 앨리스뿐이에요……</speak>
+			<show chara="AliceSilentFar" position="center" />
+			<speak chara="_Alice">……물론, 선생님은…… 다행히 아직 감옥 안에 잠들어 계셔서……</speak>
+			<speak chara="_Watt">저, 저기…… 「지미」라고 불러주세요.</speak>
+			<speak chara="_Alice">지미 선생님은…… 앨리스를 구할 수 있는…… 유일한 사람이에요.</speak>
+			<speak chara="_Watt">……</speak>
+			<speak chara="_Watt">그래서…… 제, 제가 뭘 하면 되는 거예요?</speak>
+			<show chara="AliceSilentFar" position="center" />
+			<speak chara="_Alice">……</speak>
+			<show chara="AliceCalmFar" position="center" />
+			<speak chara="_Alice">아, 앞에 계단에서 오른쪽이요.</speak>
+			<show chara="AliceDeterminedFar" position="center" />
+			<speak chara="_Alice">……거의 다 왔어요.</speak>
+			<goto goto="50" change="#000000" />
+		</scene>
+		<scene id="50" background="CG7-1-1.jpg">
 			<bgm src="12_14_moonLight.mp3" status="continue"></bgm>
-			<text>階段を曲がると、そこには何の特徴もない扉があった。</text>
- 			<text>少女は扉に手を当てる。少し震えているようだ。</text>
- 			<speak chara="_Alice">この扉が開いた時……</speak>
- 			<speak chara="_Alice">貴方が理性と冷静を保っていられることを祈ります。</speak>
- 			<speak chara="_Alice">この実験が、どんなに倫理から逸していたとしても——</speak>
- 			<speak chara="_Alice">そこで生まれた命は……</speak>
- 			<speak chara="_Alice">生きて……</speak>
- 			<goto goto="60" change="0"/>	
-	  </scene>
-	  <scene id="60" background="CG7-1-2.jpg">
+			<text>계단의 끝에는 아무런 특징도 없는 문이 있었다.</text>
+			<text>문을 미는 소녀의 두 손은, 떨고 있는 듯 보였다.</text>
+			<speak chara="_Alice">이 문이 열려도……</speak>
+			<speak chara="_Alice">부디 냉정함을 유지할 수 있으시길 빌어요……</speak>
+			<speak chara="_Alice">……왜냐하면, 이 실험이 얼마나 많이 윤리에 어긋나있다고 해도——</speak>
+			<speak chara="_Alice">그로 인해 탄생한 생명은……</speak>
+			<speak chara="_Alice">그 생명은……</speak>
+			<goto goto="60" change="0" />
+		</scene>
+		<scene id="60" background="CG7-1-2.jpg">
 			<bgm src="12_14_moonLight.mp3" status="continue"></bgm>
 			<cg src="CG7-1.jpg" bg="CG7-1-2.jpg" fadeIn="0" fadeOut="1"></cg>
- 			<speak chara="_Alice">生きていたいのです！</speak>
- 			<goto goto="70" change="#ffffff"/>	
-	  </scene>
-	  <scene id="70" background="jailComputerRoom.jpg">
+			<speak chara="_Alice">……살고 싶어 하니까요!</speak>
+			<goto goto="70" change="#ffffff" />
+		</scene>
+		<scene id="70" background="jailComputerRoom.jpg">
 			<bgm src="12_14_moonLight.mp3" status="continue"></bgm>
- 			<show chara="wattSurpriseClose" position="left"/>
- 			<speak chara="_Watt">こ、これは……</speak>
- 			<show chara="wattSurpriseClose" position="left" opacity="0.8"/>
- 			<show chara="AliceDeterminedClose" position="right"/>
- 			<speak chara="_Alice">……私の思考中枢です。</speak>
- 			<show chara="AliceSilentClose" position="right"/>
- 			<speak chara="_Alice">私にはメンテナンスに関する資料の閲覧権限がありません。博士がいなくなった後、誰かにメンテナンスの手順を覚えて頂いて、私に教えてもらうほかありません。</speak>
- 			<show chara="AliceShyClose" position="right"/>
- 			<speak chara="_Alice">正確には、私は自身のメンテナンス方法を知らなくても大丈夫です。ただ……</speak>
- 			<show chara="AliceSilentClose" position="right"/>
- 			<speak chara="_Alice">ただ私は、定期的にメンテナンスを受けたいだけ。</speak>
- 			<speak chara="_Alice">でなければ、私は……私の命は200時間と持ちません。</speak>
- 			<show chara="AliceSilentClose" position="right" opacity="0.8"/>
- 			<show chara="wattScaredClose" position="left"/>
- 			<speak chara="_Watt">ま、待って、少し整理をさせて……</speak>
- 			<speak chara="_Watt">つまり、君は……思考を持っている機械で、ここが君の脳？</speak>
- 			<show chara="wattScaredClose" position="left" opacity="0.8"/>
- 			<show chara="AliceDeclineClose" position="right"/>
- 			<speak chara="_Alice">……はい、端的に言いますと、そうです。</speak>
- 			<show chara="AliceDeclineClose" position="right" opacity="0.8"/>
- 			<show chara="wattSurpriseClose" position="left"/>
- 			<speak chara="_Watt">それで……人間の脳が休息を必要とするのと同じように、君の「脳」も定期的なメンテナンスが必要、ということ？</speak>
- 			<show chara="wattSurpriseClose" position="left" opacity="0.8"/>
- 			<show chara="AliceCalmClose" position="right"/>
- 			<speak chara="_Alice">はい。</speak>
- 			<show chara="AliceCalmClose" position="right" opacity="0.8"/>
- 			<show chara="wattSighClose" position="left"/>
- 			<speak chara="_Watt">君を作った博士は、君の行動を「完全に制御」するために……</speak>
- 			<speak chara="_Watt">そのために、君にメンテナンス資料の閲覧権限を与えず、自力でメンテナンスできないよう作った。</speak>
- 			<show chara="wattSighClose" position="left" opacity="0.8"/>
- 			<show chara="AliceDeterminedClose" position="right"/>
- 			<speak chara="_Alice">はい。</speak>
- 			<show chara="AliceDeterminedClose" position="right" opacity="0.8"/>
- 			<show chara="wattSadClose" position="left"/>
- 			<speak chara="_Watt">……そ、そんなのおかしいよ。何のために博士はそうしたんだ？</speak>
- 			<show chara="wattSadClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSilentClose" position="right"/>
- 			<speak chara="_Alice">……わかりません。</speak>
- 			<show chara="AliceDeclineClose" position="right"/>
- 			<speak chara="_Alice">思うに、博士はいざという時、私を制御できる手段を残しておきたかったのかもしれません。</speak>
- 			<show chara="AliceDeclineClose" position="right" opacity="0.8"/>
- 			<show chara="wattScaredClose" position="left"/>
- 			<speak chara="_Watt">い、いざという時？な、何故？</speak>
- 			<show chara="wattScaredClose" position="left" opacity="0.8"/>
- 			<show chara="AliceBitterClose" position="right"/>
- 			<speak chara="_Alice">……私は、「綺麗」な機械ではないからです。</speak>
- 			<show chara="AliceBitterClose" position="right" opacity="0.8"/>
- 			<show chara="wattSurpriseClose" position="left"/>
- 			<speak chara="_Watt">……？</speak>
- 			<show chara="wattSurpriseClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSilentClose" position="right"/>
- 			<speak chara="_Alice">……</speak>
- 			<show chara="AliceBitterClose" position="right"/>
- 			<speak chara="_Alice">壁一面にある箱がどう見えますか——中には、ただの複雑な電子回路が入っている、と思っていませんか？</speak>
- 			<show chara="AliceBitterClose" position="right" opacity="0.8"/>
- 			<show chara="wattSighClose" position="left"/>
- 			<speak chara="_Watt">き、君は自分のことを「機械」だと言ったから、そう思うのは自然でしょ？</speak>
- 			<show chara="wattSighClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSilentClose" position="right"/>
- 			<speak chara="_Alice">私が「機械」と自称するのは、「より適切な言葉」が存在しないからです。</speak>
- 			<show chara="AliceSilentClose" position="right" opacity="0.8"/>
- 			<show chara="wattScaredClose" position="left"/>
- 			<speak chara="_Watt">……それは、どういう意味？</speak>
- 			<show chara="wattScaredClose" position="left" opacity="0.8"/>
- 			<show chara="AliceDeclineClose" position="right"/>
- 			<speak chara="_Alice">適切な言葉を作るとしたら、私はこう呼ばれるべきでしょう——</speak>
- 			<show chara="AliceCalmClose" position="right"/>
- 			<speak chara="_Alice">——「脳機」、と。</speak>
- 			<show chara="AliceCalmClose" position="right" opacity="0.8"/>
- 			<show chara="wattScaredClose" position="left"/>
- 			<speak chara="_Watt">……！</speak>
- 			<show chara="wattScaredClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSilentClose" position="right"/>
- 			<speak chara="_Alice">私は「4号機」です。</speak>
- 			<show chara="AliceCalmClose" position="right"/>
- 			<speak chara="_Alice">1号機はただのコンピュータでした。2号機は人工的に培養した神経細胞を組み込まれました。3号機は8つの脳、そして——</speak>
- 			<show chara="AliceDeclineClose" position="right"/>
- 			<speak chara="_Alice">——私という「混合型スーパーバイオコンピュータ」を作る提案こそが、博士を街から追放させる原因となったのです。</speak>
- 			<show chara="AliceDeclineClose" position="right" opacity="0.8"/>
- 			<show chara="wattSadClose" position="left"/>
- 			<speak chara="_Watt">……</speak>
- 			<show chara="wattSadClose" position="left" opacity="0.8"/>
- 			<show chara="AliceDeterminedClose" position="right"/>
- 			<speak chara="_Alice">あなたの協力を得るためには、この逃れられない「罪」に立ち向かわなければいけないと思います。</speak>
- 			<hide position="right"></hide>
- 			<hide position="left"></hide>
- 			<text>少女の細い指が、ある金属の箱を指している。</text>
- 			<text>重い空気がのしかかる。</text>
- 			<text>その箱を開けてしまったら、自分の中の何かが……花瓶のように一瞬で粉々になってしまうような予感がした。</text>
- 			<text>その瞬間、気付く——</text>
- 			<text>自分自身も、頭蓋骨の下にある「ゲル状の何か」でしかないことに。</text>
- 			<text>「我思う、故に我あり」</text>
- 			<text>「我」という思考する個体の本質は、つまるところ精神的なものに依存し、それはあらゆる審美的でない「不純物」を拒絶する。</text>
- 			<text>しかしながら「審美」とは、他の個体の物質的な不純物にこそ宿るもの。</text>
- 			<text>人間が己の主観と客観を完全に引き剥がすことは不可能である。</text>
- 			<text>そもそも我々の魂は、神経伝達物質と微弱電流によって奏でられたものにすぎないのだ。</text>
- 			<text>「真実は無く、全ては許される」</text>
- 			<text>自分とアリスの違いなんて、「ゲル状のもの」の生産ルートが「合法」であるかどうか、それだけだろう。</text>
- 			<text>……少なくとも、彼女は「模倣ゲーム」に勝った。それだけは確かだ。</text>
- 			<text>……</text>
- 			<text>無意識に彼女の冷たい指先に触れる。その指はすぐに引っ込められた。</text>
- 			<text>心の中の割れやすい「花瓶」はどこかへ姿をくらました。迷わず鍵を回し、箱を開けた。</text>
+			<show chara="wattSurpriseClose" position="left" />
+			<speak chara="_Watt">여, 여긴……</speak>
+			<show chara="wattSurpriseClose" position="left" opacity="0.8" />
+			<show chara="AliceDeterminedClose" position="right" />
+			<speak chara="_Alice">……제 사고 중추예요.</speak>
+			<show chara="AliceSilentClose" position="right" />
+			<speak chara="_Alice">제겐 유지 보수 자료를 읽을 권한이 없어서…… 박사님이 세상을 떠난 후엔, 다른 사람이 유지 보수 절차를 배우게 한 다음…… 다시 저에게 가르치는 수밖에 없었어요.</speak>
+			<show chara="AliceShyClose" position="right" />
+			<speak chara="_Alice">아니…… 정확하게는, 제게 방법을 알려주지 않으셔도 괜찮아요…… 하지만……</speak>
+			<show chara="AliceSilentClose" position="right" />
+			<speak chara="_Alice">……하지만…… 점검만은 정기적으로 받고 싶어요.</speak>
+			<speak chara="_Alice">……그렇지 못하면, 제…… 제 생명은 200 시간 밖에 지속할 수 없어요.</speak>
+			<show chara="AliceSilentClose" position="right" opacity="0.8" />
+			<show chara="wattScaredClose" position="left" />
+			<speak chara="_Watt">자, 잠깐만…… 정리 좀 할게……</speak>
+			<speak chara="_Watt">그러니까…… 너는 사고를 할 수 있는 기계고…… 여기가, 네 뇌에 상응하는 부분이라는 거야?</speak>
+			<show chara="wattScaredClose" position="left" opacity="0.8" />
+			<show chara="AliceDeclineClose" position="right" />
+			<speak chara="_Alice">……네, 간단…… 하게 말하면요.</speak>
+			<show chara="AliceDeclineClose" position="right" opacity="0.8" />
+			<show chara="wattSurpriseClose" position="left" />
+			<speak chara="_Watt">그리고…… 사람의 뇌가 잠을 자고 쉬는 것처럼, 네 「뇌」도 정기적으로 점검을 해야 정상적으로 작동한다는 거야?</speak>
+			<show chara="wattSurpriseClose" position="left" opacity="0.8" />
+			<show chara="AliceCalmClose" position="right" />
+			<speak chara="_Alice">네.</speak>
+			<show chara="AliceCalmClose" position="right" opacity="0.8" />
+			<show chara="wattSighClose" position="left" />
+			<speak chara="_Watt">그럼…… 당신을 만들어낸 「박사」는 당신의 행동을 「완벽히 통제」 하기 위해……</speak>
+			<speak chara="_Watt">유지 보수 자료를 읽을 권한을 주지 않아, 이를 스스로 할 수 없도록 만들었나 보네.</speak>
+			<show chara="wattSighClose" position="left" opacity="0.8" />
+			<show chara="AliceDeterminedClose" position="right" />
+			<speak chara="_Alice">맞아요.</speak>
+			<show chara="AliceDeterminedClose" position="right" opacity="0.8" />
+			<show chara="wattSadClose" position="left" />
+			<speak chara="_Watt">……그, 그거 참 이상하네. 「박사」란 분께선 왜 그렇게 하신 거야?</speak>
+			<show chara="wattSadClose" position="left" opacity="0.8" />
+			<show chara="AliceSilentClose" position="right" />
+			<speak chara="_Alice">……모르겠어요.</speak>
+			<show chara="AliceDeclineClose" position="right" />
+			<speak chara="_Alice">하지만, 제 생각엔…… 박사님은 그저…… 예상외의 상황에서도 저를 제어할 방법을 남겨두고 싶으셨던 것 같아요.</speak>
+			<show chara="AliceDeclineClose" position="right" opacity="0.8" />
+			<show chara="wattScaredClose" position="left" />
+			<speak chara="_Watt">예상외의 상황? 제, 제어를? ……왜, 왜 그런 게 필요해?</speak>
+			<show chara="wattScaredClose" position="left" opacity="0.8" />
+			<show chara="AliceBitterClose" position="right" />
+			<speak chara="_Alice">……저는, 「아름답게 만들어진」 기계가 아니니까요.</speak>
+			<show chara="AliceBitterClose" position="right" opacity="0.8" />
+			<show chara="wattSurpriseClose" position="left" />
+			<speak chara="_Watt">……?</speak>
+			<show chara="wattSurpriseClose" position="left" opacity="0.8" />
+			<show chara="AliceSilentClose" position="right" />
+			<speak chara="_Alice">……</speak>
+			<show chara="AliceBitterClose" position="right" />
+			<speak chara="_Alice">이 캐비닛에는 특별한 게 없어 보여요—— 선생님은 제 안에 그냥 복잡한 전기 회로만 있을 거라 생각하시죠?</speak>
+			<show chara="AliceBitterClose" position="right" opacity="0.8" />
+			<show chara="wattSighClose" position="left" />
+			<speak chara="_Watt">그, 그거야 스스로를 「기계」라 부르고 있으니…… 그렇게 생각하는 게 자연스럽지 않아?</speak>
+			<show chara="wattSighClose" position="left" opacity="0.8" />
+			<show chara="AliceSilentClose" position="right" />
+			<speak chara="_Alice">그건…… 제가 절 스스로 「기계」 칭한 이유는…… 「적절한 단어」가 없었기 때문이에요.</speak>
+			<show chara="AliceSilentClose" position="right" opacity="0.8" />
+			<show chara="wattScaredClose" position="left" />
+			<speak chara="_Watt">……그게…… 무슨 의미야?</speak>
+			<show chara="wattScaredClose" position="left" opacity="0.8" />
+			<show chara="AliceDeclineClose" position="right" />
+			<speak chara="_Alice">……만약 저를 다른 말로 설명한다면——</speak>
+			<show chara="AliceCalmClose" position="right" />
+			<speak chara="_Alice">——「뇌가 담긴 기계」가 맞겠네요.</speak>
+			<show chara="AliceCalmClose" position="right" opacity="0.8" />
+			<show chara="wattScaredClose" position="left" />
+			<speak chara="_Watt">……!</speak>
+			<show chara="wattScaredClose" position="left" opacity="0.8" />
+			<show chara="AliceSilentClose" position="right" />
+			<speak chara="_Alice">전 「4호기」예요.</speak>
+			<show chara="AliceCalmClose" position="right" />
+			<speak chara="_Alice">과거의 1호기는 단순한 전자 계산기. 2호기는 인공 배양으로 결합된 뉴런을 더한 것. 3호기는 문어의 뇌를 더한 것.</speak>
+			<show chara="AliceDeclineClose" position="right" />
+			<speak chara="_Alice">——그리고 저, 「하이브리드 슈퍼 바이오 컴퓨터」를 만들자는 제안으로 인해, 박사님은 거리에서 추방되고 말았죠.</speak>
+			<show chara="AliceDeclineClose" position="right" opacity="0.8" />
+			<show chara="wattSadClose" position="left" />
+			<speak chara="_Watt">……</speak>
+			<show chara="wattSadClose" position="left" opacity="0.8" />
+			<show chara="AliceDeterminedClose" position="right" />
+			<speak chara="_Alice">저는 이 벗어날 수 없는 「원죄」를 직접 맞서야 해요…… 만약…… 당신이 도와주실 수만 있다면요.</speak>
+			<hide position="right"></hide>
+			<hide position="left"></hide>
+			<text>소녀의 가느다란 손가락이 얼음장 같은 강철문을 가리켰다.</text>
+			<text>침묵이 이어지는 이 분위기에 숨이 막힐듯한 무게감이 느껴진다.</text>
+			<text>이 문의 자물쇠를 건드리면, 마음속 깊은 곳에 있는 무언가가…… 마치 꽃병이 깨지듯 산산조각 날 것 같았다.</text>
+			<text>하지만, 그때, 갑자기 깨달음이 찾아왔다——</text>
+			<text>나 자신도, 그저 「두개골」이라는 그릇에 담긴 「젤라틴」 덩어리에 불과하다는 것을.</text>
+			<text>「나는 생각한다, 고로 존재한다.」</text>
+			<text>「나」라는 존재는, 사고할 수 있는 주체를 지칭하며, 정신의 기원이기에, 태초부터 미적가치가 부족한 「불순물」을 혐오한다.</text>
+			<text>모순적이게도, 「나」의 「미적가치」는, 객체의 본질이 아닌, 물질적인 순수성에 있었다.</text>
+			<text>개인이 주관적 존재와 객관적 견해를 완전히 분리하기란, 근본적으로 불가능하다.</text>
+			<text>애초에, 우리의 영혼 또한, 신경 전달 물질과 전기 신호가 만들어낸 화음에 불과하지 않던가.</text>
+			<text>「진실은 없다, 모든 것이 허용된다.」</text>
+			<text>사실상, 자신과, 「앨리스」의 차이점은…… 그저 그 「젤라틴」의 재료가 「합법」인가 아닌가, 그뿐이다.</text>
+			<text>……게다가, 그녀는 튜링 선생의 「이미테이션 게임」을 완벽하게 이기고 있었다.</text>
+			<text>……</text>
+			<text>무의식적으로 그녀의 차가운 손가락에 손을 댄다. 그녀는 반사적으로 손가락을 움츠렸다.</text>
+			<text>마음속에 있던 「꽃병」이 갑자기 사라졌다. 주저 없이 잠금장치를 돌려 문을 연다.</text>
 			<text article="1">
-				<p class="article-text">様々な電子部品が繋がれた培養槽の中央に、大きな「ゲル状の何か」があった。間違いなくかつて何かしらの生物の体の一部であっただろう、それ。生物学的知識に乏しい自分には、それがどんな生物か想像もつかないが。</p>
+				<p class="article-text">배양 탱크의 중심에는 다양한 전기 장치들로 가득 차 있었고, 커다란 「젤라틴」 덩어리——몸의 일부인 게 분명한——를 보았다. 생물학적인 지식이 모자라, 어떤 동물이었을지는 상상하기 어려웠다.</p>
 				<p class="article-text"></p>
 			</text>
 			<text article="1">
-				<p class="article-text">培養槽の中は薄暗く、オレンジ色の光が真空管から点滅している。</p>
-				<p class="article-text">手のひらを培養槽のガラスに当ててみる。冷たい指と違って、温かく、人肌のぬくもりだ。</p>
+				<p class="article-text">배양 탱크의 안은 어두웠다. 그저 진공관에서 나오는 따뜻한 주황빛만이 깜박이고 있을 뿐이었다.</p>
+				<p class="article-text">가볍게 손바닥을 배양 탱크의 유리벽에 대어보았다. 그녀의 차가운 손가락과는 다르게…… 따뜻함이 느껴졌다…… 마치 인간의 몸처럼.</p>
 			</text>
-			<show chara="wattScaredClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSilentClose" position="right"/>
- 			<speak chara="_Alice">正直に言いますと、博士の助手たちのように、貴方にメンテナンスを強要することも考えました。</speak>
- 			<show chara="AliceDeterminedClose" position="right"/>
- 			<speak chara="_Alice">——でも、それは正しい行いではありません。私は、これ以上罪を増やしたくないのです。</speak>
- 			<show chara="AliceSilentClose" position="right"/>
- 			<speak chara="_Alice">本当は、貴方のことが……</speak>
- 			<show chara="AliceSmileClose" position="right"/>
- 			<speak chara="_Alice">すみません、余計なことまで話してしまったようです。</speak>
- 			<text>少女はスカートのポケットから鍵の束を取り出し、渡してくれた。</text>
- 			<show chara="AliceThinkClose" position="right"/>
- 			<speak chara="_Alice">部屋の鍵はこれで全部です。すべて……ジミー様に委ねます。</speak>
- 			<show chara="AliceSmileClose" position="right"/>
- 			<speak chara="_Alice">必ず、貴方を地上へ、元いた世界へ帰します。約束します。</speak>
- 			<show chara="AliceDeclineClose" position="right"/>
- 			<speak chara="_Alice">たとえ私のことを異端と、消えるべき存在であろうと思っていても……私は——</speak>
- 			<goto goto="80" change="0"/>
-	  </scene>
-	  <scene id="80" background="CG7-2.jpg">
+			<show chara="wattScaredClose" position="left" opacity="0.8" />
+			<show chara="AliceSilentClose" position="right" />
+			<speak chara="_Alice">솔직하게 말해서, 박사님의 조수들처럼, 가…… 강제로 선생님이 제 시스템을 유지하게 만들면 어떨까 하는 생각도 해봤어요.</speak>
+			<show chara="AliceDeterminedClose" position="right" />
+			<speak chara="_Alice">——하지만, 안되는 건 안되는 거죠. 전…… 더 이상 죄를 쌓고 싶지 않아요.</speak>
+			<show chara="AliceSilentClose" position="right" />
+			<speak chara="_Alice">비록…… 제겐 선생님이…… 정말로 필요하긴 하지만요.</speak>
+			<show chara="AliceSmileClose" position="right" />
+			<speak chara="_Alice">……죄송해요, 저 혼자만 좋을 얘기를 했네요.</speak>
+			<text>소녀는 스커트 안쪽의 주머니에서 열쇠 꾸러미를 꺼내더니, 그의 손에 올려놓았다.</text>
+			<show chara="AliceThinkClose" position="right" />
+			<speak chara="_Alice">……이곳의 모든 방을 열 수 있는 열쇠 꾸러미예요. 지미 선생님이 어떤 결론을 내리든…… 저는 그대로 받아들일게요.</speak>
+			<show chara="AliceSmileClose" position="right" />
+			<speak chara="_Alice">그리고 무슨 일이 생기든, 반드시 당신을 지상으로, 당신이 속해있는 세계로 돌아가실 수 있도록 보장해 드릴게요.</speak>
+			<show chara="AliceDeclineClose" position="right" />
+			<speak chara="_Alice">……저를 반드시 제거되어야만 할 존재로 보신다고 해도, 절 죽게 내버려 두는 결정을 내리신다고 해도…… 전——</speak>
+			<goto goto="80" change="0" />
+		</scene>
+		<scene id="80" background="CG7-2.jpg">
 			<bgm src="peerGynt.mp3" status="start"></bgm>
- 			<speak chara="_Watt">や、やめてよ！</speak>
- 			<speak chara="_Watt">博士や助手たちが間違ったことをしたのかもしれない……で、でもアリスは何も悪くないよ！</speak>
- 			<speak chara="_Alice">……！</speak>
- 			<speak chara="_Alice">私のこと……何も……知らないくせに……</speak>
- 			<speak chara="_Watt">……。</speak>
- 			<speak chara="_Watt">バ、バカなことかもしれない。</speak>
- 			<speak chara="_Watt">でも——</speak>
- 			<speak chara="_Watt">——生きたいと思うことは、間違いじゃないと思う！</speak>
- 			<speak chara="_Watt">アリスは僕のような普通の人間じゃない、だからこそ……</speak>
- 			<speak chara="_Watt">君を利用して、放置した人を許せない！</speak>
- 			<speak chara="_Alice">……！！</speak>
- 			<speak chara="_Alice">私、私は……</speak>
- 			<speak chara="_Watt">……帰る場所はあるけれど、</speak>
- 			<speak chara="_Watt">……何も知らずにここまで誘拐されて来たけれど、</speak>
- 			<speak chara="_Watt">……君のこと何もわかっていないけれど、</speak>
- 			<speak chara="_Watt">でも、技師として——</speak>
- 			<speak chara="_Watt">いや、一人の人間として——</speak>
- 			<speak chara="_Watt">——君を見殺しにすることなんてできない！</speak>
- 			<speak chara="_Alice">……ジミー……さま……</speak>
- 			<speak chara="_Watt">アリス、君の命は、たった200時間じゃない。</speak>
- 			<speak chara="_Watt">絶対に！</speak>
- 			<goto goto="90" clockwise="1"/>	
-	  </scene>
-	  <scene id="90" background="alexandriaCityHall.jpg">
+			<speak chara="_Watt">……그, 그런 말 하지 마!</speak>
+			<speak chara="_Watt">박사와 조수들이 잘못된 일을 많이 했다고 해도…… 애, 앨리스는 아무런 잘못도 없잖아?</speak>
+			<speak chara="_Alice">……!</speak>
+			<speak chara="_Alice">다…… 당신은…… 저를…… 잘…… 모르시잖아요……</speak>
+			<speak chara="_Watt">…….</speak>
+			<speak chara="_Watt">……그, 그래, 지금의 나는 분명 아무것도 모른 채, 바보 같은 짓을 하고 있는 지도 몰라.</speak>
+			<speak chara="_Watt">하지만——</speak>
+			<speak chara="_Watt">——살고 싶다는 생각에는, 아무런 잘못도 없잖아!</speak>
+			<speak chara="_Watt">이건…… 앨리스가 나 같은 평범한 사람이 아니라서 그런 게 아니야……</speak>
+			<speak chara="_Watt">앨리스를 이용하고, 이런 상황에 혼자 내버려 둔 사람들을 용서할 수 없는 거야!</speak>
+			<speak chara="_Alice">……!!</speak>
+			<speak chara="_Alice">저, 저, 저는……</speak>
+			<speak chara="_Watt">……물론, 나도 내가 속해있는 세계가 있어,</speak>
+			<speak chara="_Watt">……물론, 나도 정말 얼떨결에 여기로 납치된 게 맞아,</speak>
+			<speak chara="_Watt">……게다가, 너에 대해 아무것도 알지 못한다는 것도 잘 알고 있어.</speak>
+			<speak chara="_Watt">하지만, 한 명의 기술자로서——</speak>
+			<speak chara="_Watt">아니, 한 명의 사람으로서——</speak>
+			<speak chara="_Watt">——이런 상황에 빠진 널 보고도 구하지 않고 죽게 내버려 두는 건, 결코 용납할 수 없어!</speak>
+			<speak chara="_Alice">……지미……선생님……</speak>
+			<speak chara="_Watt">앨리스, 네 생명이 200 시간 후에 끝나는 일은 결코 없을 거야.</speak>
+			<speak chara="_Watt">내가 꼭 약속할게!</speak>
+			<goto goto="90" clockwise="1" />
+		</scene>
+		<scene id="90" background="alexandriaCityHall.jpg">
 			<bgm src="bigTask.mp3" status="start"></bgm>
- 			<text>時を同じくして——</text>
- 			<show chara="neithSmileFar" position="center"/>
- 			<speak chara="_Neith">次の交差点を右！</speak>
- 			<goto goto="100" change="0"/>	
-	  </scene>
-	  <scene id="100" background="alexandriaFair.jpg">
+			<text>같은 시각——</text>
+			<show chara="neithSmileFar" position="center" />
+			<speak chara="_Neith">앞에 골목에서 오른쪽!</speak>
+			<goto goto="100" change="0" />
+		</scene>
+		<scene id="100" background="alexandriaFair.jpg">
 			<bgm src="bigTask.mp3" status="continue"></bgm>
- 			<show chara="neithLaughFar" position="center"/>
- 			<speak chara="_Neith">直進して、左！</speak>
- 			<goto goto="110" change="0"/>	
-	  </scene>
-	  <scene id="110" background="alexandriaSlum.jpg">
+			<show chara="neithLaughFar" position="center" />
+			<speak chara="_Neith">직진, 그리고 왼쪽!</speak>
+			<goto goto="110" change="0" />
+		</scene>
+		<scene id="110" background="alexandriaSlum.jpg">
 			<bgm src="bigTask.mp3" status="continue"></bgm>
- 			<show chara="neithComplainFar" position="center"/>
- 			<speak chara="_Neith">坂を下った貧民街を突っ走るっす！ヒィヒィ言わない！まだまだ先っすよ！</speak>
- 			<goto goto="120" change="0"/>	
-	  </scene>
-	  <scene id="120" background="alexandriaWild.jpg">
+			<show chara="neithComplainFar" position="center" />
+			<speak chara="_Neith">언덕 아래의 슬럼가를 지나야 해! 아직 갈 길이 머니까, 지치지 말라고!</speak>
+			<goto goto="120" change="0" />
+		</scene>
+		<scene id="120" background="alexandriaWild.jpg">
 			<bgm src="bigTask.mp3" status="continue"></bgm>
- 			<show chara="neithSmileFar" position="center"/>
- 			<speak chara="_Neith">ここで小道に入る！</speak>
- 			<goto goto="130" change="0"/>	
-	  </scene>
-	  <scene id="130" background="alexandriaOasis.jpg">
+			<show chara="neithSmileFar" position="center" />
+			<speak chara="_Neith">여기서 큰 길을 벗어났어!</speak>
+			<goto goto="130" change="0" />
+		</scene>
+		<scene id="130" background="alexandriaOasis.jpg">
 			<bgm src="bigTask.mp3" status="continue"></bgm>
- 			<show chara="neithLaughFar" position="center"/>
- 			<speak chara="_Neith">前進！前進！！</speak>
- 			<hide position="center"></hide>
- 			<show chara="biankaSurpriseClose" position="left"/>
- 			<speak chara="_Bianka">あの——ここはもう郊外では？</speak>
- 			<show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
- 			<show chara="champoNormalClose" position="right"/>
- 			<speak chara="_Champollion">ネイトの鼻は信用できる。それに……</speak>
- 			<show chara="champoSmileClose" position="right"/>
- 			<speak chara="_Champollion">この砂地の窪み、三足ロボット特有の跡だ。ほら、こうやってタイヤを回すと、こういう特徴的な跡が残る。</speak>
- 			<show chara="champoSmileClose" position="right" opacity="0.8"/>
- 			<show chara="biankaSneerClose" position="left"/>
- 			<speak chara="_Bianka">なるほど——この痕跡が行方を指し示す証拠でもあると。</speak>
- 			<show chara="biankaShoutClose" position="left"/>
- 			<speak chara="_Bianka">ネイト、この車輪の跡、ジミーが誘拐された時のものと考えていいんですね？</speak>
- 			<show chara="biankaShoutClose" position="left" opacity="0.8"/>
- 			<show chara="neithSeriousClose" position="right"/>
- 			<speak chara="_Neith">（くんくん）</speak>
- 			<show chara="neithLaughClose" position="right"/>
- 			<speak chara="_Neith">ああ、それを辿って行けば問題ないっす！</speak>
- 			<show chara="neithLaughClose" position="right" opacity="0.8"/>
- 			<show chara="biankaProudClose" position="left"/>
- 			<speak chara="_Bianka">よし！</speak>
- 			<show chara="biankaSneerClose" position="left"/>
- 			<speak chara="_Bianka">誘拐犯ども、覚悟しなさい！</speak>
- 			<goto goto="140" clockwise="1"/>	
-	  </scene>
-	  <scene id="140" background="lakeSulfur.jpg">
+			<show chara="neithLaughFar" position="center" />
+			<speak chara="_Neith">앞으로! 앞으로!!</speak>
+			<hide position="center"></hide>
+			<show chara="biankaSurpriseClose" position="left" />
+			<speak chara="_Bianka">저기——도시 교외까지 나온 거 같은데요?</speak>
+			<show chara="biankaSurpriseClose" position="left" opacity="0.8" />
+			<show chara="champoNormalClose" position="right" />
+			<speak chara="_Champollion">네이트의 후각에는 문제가 없습니다. 그렇다면……</speak>
+			<show chara="champoSmileClose" position="right" />
+			<speak chara="_Champollion">저기 모래 위의 얕은 구덩이를 보세요, 이건 삼륜 로봇 특유의 이동 흔적 아닌가요? 보세요, 바퀴를 이렇게 조정하면, 이런 특이한 자국이 남게 됩니다.</speak>
+			<show chara="champoSmileClose" position="right" opacity="0.8" />
+			<show chara="biankaSneerClose" position="left" />
+			<speak chara="_Bianka">아하——장애물에 흔적을 남기지 않고, 능동적으로 뛰어넘었나 보네요!</speak>
+			<show chara="biankaShoutClose" position="left" />
+			<speak chara="_Bianka">네이트! 이 바퀴 자국, 지미가 납치될 때 생긴 게 확실하지?</speak>
+			<show chara="biankaShoutClose" position="left" opacity="0.8" />
+			<show chara="neithSeriousClose" position="right" />
+			<speak chara="_Neith">(킁킁)</speak>
+			<show chara="neithLaughClose" position="right" />
+			<speak chara="_Neith">확실해! 따라가는 게 맞아!</speak>
+			<show chara="neithLaughClose" position="right" opacity="0.8" />
+			<show chara="biankaProudClose" position="left" />
+			<speak chara="_Bianka">좋았어!</speak>
+			<show chara="biankaSneerClose" position="left" />
+			<speak chara="_Bianka">흥……납치범 녀석들, 꼼짝 말고 있어라!</speak>
+			<goto goto="140" clockwise="1" />
+		</scene>
+		<scene id="140" background="lakeSulfur.jpg">
 			<bgm src="legion.mp3" status="start"></bgm>
- 			<show chara="biankaBiteClose" position="left"/>
- 			<speak chara="_Bianka">っ——この匂い！な、何ですかこれ！？</speak>
- 			<show chara="biankaBiteClose" position="left" opacity="0.8"/>
- 			<show chara="champoSweatyClose" position="right"/>
- 			<speak chara="_Champollion">……硫黄湖。火山活動でできたものだ。</speak>
- 			<show chara="champoDisgustedClose" position="right"/>
- 			<speak chara="_Champollion">ちっ、まずいことになったな。</speak>
- 			<show chara="champoDisgustedClose" position="right" opacity="0.8"/>
- 			<show chara="neithComplainClose" position="left"/>
- 			<speak chara="_Neith">博士！ここクサすぎて、匂いを追えないっす！</speak>
- 			<show chara="neithComplainClose" position="left" opacity="0.8"/>
- 			<show chara="champoDisgustedClose" position="right"/>
- 			<speak chara="_Champollion">ああ、わかっている。この腐った卵のような匂いは……</speak>
- 			<show chara="champoColdClose" position="right"/>
- 			<speak chara="_Champollion">硫黄湖から発生した大量の硫化水素だ。硫化水素は有毒ガスで、濃度が高い時は逆に臭わなくなる特性を持つ。迂闊に足を踏み入れるべきではないな。</speak>
- 			<show chara="champoColdClose" position="right" opacity="0.8"/>
- 			<show chara="biankaHesitateClose" position="left"/>
- 			<speak chara="_Bianka">じゃあ……</speak>
- 			<show chara="biankaSurpriseClose" position="left"/>
- 			<speak chara="_Bianka">誘拐犯たちは、どうやってここを通ったんですか？</speak>
- 			<show chara="biankaSurpriseClose" position="left" opacity="0.8"/>		
- 			<show chara="champoColdClose" position="right"/>
- 			<speak chara="_Champollion">ガスマスクか何かを装着したんだろう。</speak>
- 			<show chara="champoNormalClose" position="right"/>
- 			<speak chara="_Champollion">ほら、ここを見ろ、後ろのタイヤ跡より前の方が深く沈んでいる。ロボットをここに暫く停留させたのだろう。</speak>
- 			<speak chara="_Champollion">……おそらく、ここで装備を整えたということだ。</speak>
- 			<show chara="champoColdClose" position="right"/>
- 			<speak chara="_Champollion">ネイト、戻って館長たちにガスマスクと酸素ボンベ、それと可能な限り多くの人員を集めてもらえ。しらみつぶしに探す必要がある。それと——寄り道はするなよ！</speak>
- 			<show chara="champoColdClose" position="right" opacity="0.8"/>
- 			<show chara="neithSmileClose" position="left"/>
- 			<speak chara="_Neith">了解っす、博士！</speak>
- 			<goto goto="150" change="#ffffff"/>	
-	  </scene>
-	  <scene id="150" background="alexandriaOasis.jpg">
+			<show chara="biankaBiteClose" position="left" />
+			<speak chara="_Bianka">윽——지독해! 이, 이거 대체 무슨 냄새야!?</speak>
+			<show chara="biankaBiteClose" position="left" opacity="0.8" />
+			<show chara="champoSweatyClose" position="right" />
+			<speak chara="_Champollion">……유황 호수군요. 아마 화산 활동 때 생겼겠지요.</speak>
+			<show chara="champoDisgustedClose" position="right" />
+			<speak chara="_Champollion">쳇, 문제가 생겼군요.</speak>
+			<show chara="champoDisgustedClose" position="right" opacity="0.8" />
+			<show chara="neithComplainClose" position="left" />
+			<speak chara="_Neith">박사! 여기 냄새 진짜 지독해! 네이트는 이제 냄새 못 따라가!</speak>
+			<show chara="neithComplainClose" position="left" opacity="0.8" />
+			<show chara="champoDisgustedClose" position="right" />
+			<speak chara="_Champollion">그래, 알겠어. 이 썩은 계란 냄새란……</speak>
+			<show chara="champoColdClose" position="right" />
+			<speak chara="_Champollion">이런 유황 호수들은 대량의 황화수소를 대기 중으로 발산합니다. 황화수소는 유독성일 뿐만 아니라, 대기 중에 농도가 높으면 오히려 냄새가 나지 않게 돼서…… 급하게 준비 없이 들어가는 건 죽음을 재촉하는 것과 다를 바 없죠.</speak>
+			<show chara="champoColdClose" position="right" opacity="0.8" />
+			<show chara="biankaHesitateClose" position="left" />
+			<speak chara="_Bianka">그럼……</speak>
+			<show chara="biankaSurpriseClose" position="left" />
+			<speak chara="_Bianka">……이런 상황에서, 납치범들은 어떻게 지나간 거죠?</speak>
+			<show chara="biankaSurpriseClose" position="left" opacity="0.8" />
+			<show chara="champoColdClose" position="right" />
+			<speak chara="_Champollion">아마 방독면 같은 걸 장비했을 겁니다.</speak>
+			<show chara="champoNormalClose" position="right" />
+			<speak chara="_Champollion">보세요. 여기서 로봇이 잠시 머물렀고——다시 움직이기 시작했을 땐, 이전보다 더 깊은 흔적을 남기고 있습니다.</speak>
+			<speak chara="_Champollion">……아마, 여기서 장비를 교체했을 겁니다.</speak>
+			<show chara="champoColdClose" position="right" />
+			<speak chara="_Champollion">네이트. 빨리 돌아가서 원래 계획대로 시청에서 도서관장과 만나, 방독면과 산소통, 그리고 정밀 수색을 위해 최대한 많은 인원을 모아달라고 해 줘! 많을수록 좋아!</speak>
+			<show chara="champoColdClose" position="right" opacity="0.8" />
+			<show chara="neithSmileClose" position="left" />
+			<speak chara="_Neith">문제 없어! 박사!</speak>
+			<goto goto="150" change="#ffffff" />
+		</scene>
+		<scene id="150" background="alexandriaOasis.jpg">
 			<bgm src="01_18_tango.mp3" status="start"></bgm>
- 			<show chara="biankaSighClose" position="left"/>
- 			<speak chara="_Bianka">それで、私たちはここで待つだけですか？</speak>
- 			<show chara="biankaSighClose" position="left" opacity="0.8"/>
- 			<show chara="champoSmileClose" position="right"/>
- 			<speak chara="_Champollion">待つのではなく、休息を取るんだ。</speak>
- 			<show chara="champoNormalClose" position="right"/>
- 			<speak chara="_Champollion">適度に休息を取り、タイミングを待つのも有効な作戦と言える。そういえば戦乙女、軍人として戦の指揮をとったことは？</speak>
- 			<show chara="champoNormalClose" position="right" opacity="0.8"/>
- 			<show chara="biankaBiteClose" position="left"/>
- 			<shake position="left" time="250"></shake>
- 			<speak chara="_Bianka">戦？戦争？多くの人間が殺し合う、あの戦争ですか？戦乙女は人類のために戦う存在です。誰かの私利私欲のために戦う傭兵ではありません！</speak>
- 			<show chara="biankaBiteClose" position="left" opacity="0.8"/>
- 			<show chara="champoSmileClose" position="right"/>
- 			<speak chara="_Champollion">ははっ、よく言った！</speak>
- 			<show chara="champoSweatyClose" position="right"/>
- 			<speak chara="_Champollion">君の時代が羨ましいよ……大多数の人間は戦争の愚かさを理解しているものだというのにね。</speak>
- 			<show chara="champoSweatyClose" position="right" opacity="0.8"/>
- 			<show chara="biankaHesitateClose" position="left"/>
- 			<speak chara="_Bianka">……？</speak>
- 			<show chara="biankaHesitateClose" position="left" opacity="0.8"/>
- 			<show chara="champoColdClose" position="right"/>
- 			<speak chara="_Champollion">戦争は野蛮人の栄光であり、文明人の恥。戦争を経験しないと、その真の残酷さを理解できないであろう。</speak>
- 			<speak chara="_Champollion">怒りを覚えても、いずれ喜びを得ることはできる。ひとしきりに悩んだ後でも、再び平静さを取り戻すことはできる——しかし破壊された国は二度と戻らず、殺された人間は生き返ることもない。</speak>
- 			<show chara="champoNormalClose" position="right"/>
- 			<speak chara="_Champollion">今日の味方は明日の敵かもしれない。今日の敵は明日の味方かもしれない。すべては利益の奪い合い、ただその一点のみ。</speak>
- 			<show chara="champoNormalClose" position="right" opacity="0.8"/>
- 			<show chara="biankaSneerClose" position="left"/>
- 			<speak chara="_Bianka">では、羨ましがることですね……戦乙女は歴史上の軍人たちのように利権による争いや奪い合いをしませんから。</speak>
- 			<show chara="biankaSneerClose" position="left" opacity="0.8"/>
- 			<show chara="champoColdClose" position="right"/>
- 			<speak chara="_Champollion">……いや、それはありえない。</speak>
- 			<show chara="champoColdClose" position="right" opacity="0.8"/>
- 			<show chara="biankaBiteClose" position="left"/>
- 			<speak chara="_Bianka">ッ！それはどういう意味でしょう？私がそうではないと！？</speak>
- 			<show chara="biankaBiteClose" position="left" opacity="0.8"/>
- 			<show chara="champoSmileClose" position="right"/>
- 			<speak chara="_Champollion">いいや、あくまで理論の話だよ。</speak>
- 			<show chara="champoNormalClose" position="right"/>
- 			<speak chara="_Champollion">いわゆる「作戦」というものは、結局のところ、暴力によって利益を再分配するということ。</speak>
- 			<show chara="champoColdClose" position="right"/>
- 			<speak chara="_Champollion">大義名分があってもなくても、それがただの狩りであっても、獲物の皮を剥ぎ、肉を喰らう行為だ。</speak>
- 			<show chara="champoNormalClose" position="right"/>
- 			<speak chara="_Champollion">何かしらの作戦が行われた時点で、世界の何かが変わる。それは誰かの望むことかもしれないし、他の誰かが望まないことかもしれない。</speak>
- 			<show chara="champoQuestionClose" position="right"/>
- 			<speak chara="_Champollion">だからこそ、作戦に参加するものは、その「変化」への責任を自覚すべきである。</speak>
- 			<show chara="champoColdClose" position="right"/>
- 			<speak chara="_Champollion">その責任感を持ってはじめて、本物の軍人と言えるだろう。でなければ、ただ命令に従う機械にすぎない。</speak>
- 			<show chara="champoColdClose" position="right" opacity="0.8"/>
- 			<show chara="biankaSurpriseClose" position="left"/>
- 			<speak chara="_Bianka">……</speak>
- 			<show chara="biankaSneerClose" position="left"/>
- 			<speak chara="_Bianka">あなた、本当に考古学者なんですか？</speak>
- 			<show chara="biankaSneerClose" position="left" opacity="0.8"/>
- 			<show chara="champoSmileClose" position="right"/>
- 			<speak chara="_Champollion" remark="next">ふふ、でなければ、何だと思う？「東方遠征軍総司令官」かな？</speak>
+			<show chara="biankaSighClose" position="left" />
+			<speak chara="_Bianka">그래서, 우린 이제…… 여기서 대기하는 건가요??</speak>
+			<show chara="biankaSighClose" position="left" opacity="0.8" />
+			<show chara="champoSmileClose" position="right" />
+			<speak chara="_Champollion">이건 「대기」가 아니라, 현 위치에서 「휴식」입니다.</speak>
+			<show chara="champoNormalClose" position="right" />
+			<speak chara="_Champollion">원기를 회복하고, 때를 기다리는 건 작전에서 매우 중요한 부분이지요. 그러고 보니…… 발키리양, 군인으로서, 전투를 지휘한 적이 있나요?</speak>
+			<show chara="champoNormalClose" position="right" opacity="0.8" />
+			<show chara="biankaBiteClose" position="left" />
+			<shake position="left" time="250"></shake>
+			<speak chara="_Bianka">전투? 전쟁? 그 수천 명이 모여서 서로 죽고 죽이는 바보 같은 거요? 발키리는 인류의 운명을 위해서만 싸우지, 특정 집단의 이익을 위해 싸우는 용병이 아니라고요!</speak>
+			<show chara="biankaBiteClose" position="left" opacity="0.8" />
+			<show chara="champoSmileClose" position="right" />
+			<speak chara="_Champollion">하하, 좋은 말이네요!!</speak>
+			<show chara="champoSweatyClose" position="right" />
+			<speak chara="_Champollion">아, 당신의 시대가 정말 부럽네요…… 저도 전쟁이 고귀하지 않다는 걸 많은 사람들에게 알려주고 싶었습니다.</speak>
+			<show chara="champoSweatyClose" position="right" opacity="0.8" />
+			<show chara="biankaHesitateClose" position="left" />
+			<speak chara="_Bianka">……?</speak>
+			<show chara="biankaHesitateClose" position="left" opacity="0.8" />
+			<show chara="champoColdClose" position="right" />
+			<speak chara="_Champollion">전쟁은 야만인의 영광, 문명인의 수치입니다. 전쟁을 직접 경험했던 사람이라면, 상상했던 것보다 더욱 잔인하다는 걸 깨닫게 되죠.</speak>
+			<speak chara="_Champollion">화가 머리끝까지 나도 다시 기쁨이 찾아올 수 있고, 번뇌가 찾아와도 다시 평온해질 수 있죠——하지만, 파괴된 나라는 다시 존재할 수 없고, 죽은 사람 또한 되돌아오지 못합니다.</speak>
+			<show chara="champoNormalClose" position="right" />
+			<speak chara="_Champollion">게다가, 오늘의 아군이 내일의 적이 될 수 있고, 오늘의 적 또한 내일의 아군이 될 수 있습니다. 그저 이익을 위해서 말이죠.</speak>
+			<show chara="champoNormalClose" position="right" opacity="0.8" />
+			<show chara="biankaSneerClose" position="left" />
+			<speak chara="_Bianka">흠. 그럼 계속 부러워하세요…… 발키리들은 절대 역사 속의 군인들처럼 이익을 위해 싸우진 않으니까요!</speak>
+			<show chara="biankaSneerClose" position="left" opacity="0.8" />
+			<show chara="champoColdClose" position="right" />
+			<speak chara="_Champollion">……아뇨. 「이익을 위해 싸우지 않는다?」 그건 불가능합니다.</speak>
+			<show chara="champoColdClose" position="right" opacity="0.8" />
+			<show chara="biankaBiteClose" position="left" />
+			<speak chara="_Bianka">저기요! 그건 무슨 소리예요? 절 무시하는 거예요!?</speak>
+			<show chara="biankaBiteClose" position="left" opacity="0.8" />
+			<show chara="champoSmileClose" position="right" />
+			<speak chara="_Champollion">아니요. 그런 의미가 아니라——그저 이론에 대해 늘어놓았을 뿐입니다.</speak>
+			<show chara="champoNormalClose" position="right" />
+			<speak chara="_Champollion">소위 「전투」라는 것은, 결국, 폭력을 통한 이익의 재분배입니다.</speak>
+			<show chara="champoColdClose" position="right" />
+			<speak chara="_Champollion">이기적이든 아니든 말이죠——이것이 단순한 사냥에 불과해도, 잡힌 사냥감은 가죽이 벗겨지고, 그것의 고기는 누군가의 배에 채워지게 됩니다.</speak>
+			<show chara="champoNormalClose" position="right" />
+			<speak chara="_Champollion">그래서, 「전투」가 한 번 일어나면, 세계에 분명한 변혁을 가져옵니다. 어떤 변혁은 사람들이 원하던 것일 수도 있지만, 어떤 건 원하지 않던 것일 수도 있죠.</speak>
+			<show chara="champoQuestionClose" position="right" />
+			<speak chara="_Champollion">하지만 결과가 어떻든 간에——「전투」에 관여한 모든 이는 이 「변혁」에 대한 책임을 져야만 한다는 것을 깨달아야 합니다.</speak>
+			<show chara="champoColdClose" position="right" />
+			<speak chara="_Champollion">스스로의 「책임」을 깨달은 전사만이, 진정한 「군인」이라 할 수 있습니다——기계처럼 명령만 따르지 않는.</speak>
+			<show chara="champoColdClose" position="right" opacity="0.8" />
+			<show chara="biankaSurpriseClose" position="left" />
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaSneerClose" position="left" />
+			<speak chara="_Bianka">당신…… 진짜 「고고학자」 맞아요? 아닌 거 같은데?</speak>
+			<show chara="biankaSneerClose" position="left" opacity="0.8" />
+			<show chara="champoSmileClose" position="right" />
+			<speak chara="_Champollion" remark="next">하하——그럼 절 뭐라고 생각하나요? 「동방원정군 총사령관」이라도 되어 보이나요?</speak>
 			<remark post="U2FsdGVkX19MFk8yugUqbbug2iS2">
-				<p class="article-text-h">注釈：</p>
-				<p class="article-text">1798年、ナポレオン率いるフランス「東方遠征軍」がマムルーク統治下のエジプトへ進軍した。これは、イギリスの支配下にあるユーラシア大陸の交通ラインを確保し、インドの植民地の奪還に手を貸し、最終的にイギリスに打撃を与えるための作戦であった。</p>
-				<p class="article-text">「エジプト・シリア戦役」はその戦略目的を達成することは叶わなかったが、数の劣勢を抱えた数々の戦果で、ナポレオンの名は知れ渡ることとなった。</p>
-				<p class="article-text">P.S. マムルーク軍とのピラミッドの戦いの前に、当時29歳のナポレオンは戦前の演説でこう述べた、「兵士諸君、4000年の歴史が見下ろしている」と。</p>
+				<p class="article-text-h">주:</p>
+				<p class="article-text">1798년, 나폴레옹이 프랑스 1공화국의 「동방원정군」을 이끌고 영국의 우방, 오토만 제국의 속국인——맘루크 치하의 이집트로 진군했다. 이 움직임은 영국과 그 우방이 통제하고 있는 유라시아를 향한 교통로를 열고, 인도의 티푸 술탄이 영국에 저항하는 걸 도와, 영국 자체를 흔들기 위함이었다.</p>
+				<p class="article-text">비록　「이집트-시리아 원정」의 전략적인 목표까진 이루진 못했지만, 나폴레옹은 이집트에서의 거듭된 연승으로 자신의 명성을 크게 드높였다.</p>
+				<p class="article-text">P.S. 피라미드 아래에서 맘루크 군과의 결전을 앞두고, 29세의 나폴레옹은 이러한 연설을 하였다. 「병사들이여, 기억하라——저 피라미드의 꼭대기 위에서, 40세기의 역사가 조용히 우릴 지켜보고 있다.」</p>
 			</remark>
- 			<show chara="champoSmileClose" position="right" opacity="0.8"/>
- 			<show chara="biankaSighClose" position="left"/>
- 			<speak chara="_Bianka">……</speak>
- 			<goto goto="160" clockwise="1"/>	
-	  </scene>
-	  <scene id="160" background="jailComputerRoom.jpg">
+			<show chara="champoSmileClose" position="right" opacity="0.8" />
+			<show chara="biankaSighClose" position="left" />
+			<speak chara="_Bianka">……</speak>
+			<goto goto="160" clockwise="1" />
+		</scene>
+		<scene id="160" background="jailComputerRoom.jpg">
 			<bgm src="theme.mp3" status="start"></bgm>
- 			<show chara="wattSurpriseClose" position="left"/>
- 			<speak chara="_Watt">……こうして、こ、こうだ。</speak>
- 			<show chara="wattInspiredClose" position="left"/>
- 			<speak chara="_Watt">なるほど、そういうことか。</speak>
- 			<show chara="wattRelievedClose" position="left"/>
- 			<speak chara="_Watt">アリス！は、始めていいよ。</speak>
- 			<show chara="wattRelievedClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSurprisedClose" position="right"/>
- 			<speak chara="_Alice">本当ですか？こんなに早く理解できるなんて、さすがです！</speak>
- 			<show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
- 			<show chara="wattSighClose" position="left"/>
- 			<speak chara="_Watt">メンテナンス自体は難しい作業じゃないよ、ただ手順が複雑なだけで。</speak>
- 			<show chara="wattShyClose" position="left"/>
- 			<speak chara="_Watt">とはいえ、君の閲覧権限を変更する力はないから、回りくどいけど、ボクが理解してから教えるしかないかな。</speak>
-  		<show chara="wattSadClose" position="left"/>
- 			<speak chara="_Watt">……ごめん。</speak>
- 			<show chara="wattSadClose" position="left" opacity="0.8"/>
- 			<show chara="AliceShyClose" position="right"/>
- 			<speak chara="_Alice">いえ、とんでもありません！私も……ジミー様と一緒に、勉強したいです。</speak>
- 			<show chara="AliceShyClose" position="right" opacity="0.8"/>
- 			<show chara="wattSurpriseClose" position="left"/>
- 			<speak chara="_Watt">……</speak>
- 			<show chara="wattShyClose" position="left"/>
- 			<speak chara="_Watt">じ、じゃあ1番の箱からいこうか。それから……や、やっぱり様付けはやめてよ……しっくりこない。</speak>
- 			<show chara="wattShyClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSurprisedClose" position="right"/>
- 			<speak chara="_Alice">は、はい！</speak>
-			<show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
- 			<show chara="wattShyClose" position="left"/>
- 			<speak chara="_Watt">こ、このガラスの培養槽を引き出して、表示されたステータスに応じて、ボ、ボタンを押す。</speak>
- 			<show chara="wattShyClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSurprisedClose" position="right"/>
- 			<speak chara="_Alice">なるほど、簡単ですね。</speak>
- 			<show chara="AliceSilentClose" position="right"/>
- 			<speak chara="_Alice">どうりで博士はこの作業を傍で見させてくれなかったわけです。</speak>
- 			<show chara="AliceSilentClose" position="right" opacity="0.8"/>
- 			<show chara="wattSurpriseClose" position="left"/>
- 			<speak chara="_Watt">……</speak>
- 			<show chara="wattSadClose" position="left"/>
- 			<speak chara="_Watt">博士にとって……アリスは何だったのかな？</speak>
- 			<show chara="wattSadClose" position="left" opacity="0.8"/>
- 			<show chara="AliceDeclineClose" position="right"/>
- 			<speak chara="_Alice">それは……私にもわかりません。</speak>
- 			<show chara="AliceSilentClose" position="right"/>
- 			<speak chara="_Alice">アリスという名前を付けてくれたのも……もしかしたら、ご自身でも矛盾しているのに気づいていたからではないでしょうか。</speak>
- 			<show chara="AliceSilentClose" position="right" opacity="0.8"/>
- 			<show chara="wattSurpriseClose" position="left"/>
- 			<speak chara="_Watt">……？</speak>
- 			<show chara="wattSurpriseClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSmileClose" position="right"/>
- 			<speak chara="_Alice">ご存知ですか？「アリス」は、ある童話の主人公の名前です。</speak>
- 			<show chara="AliceShyClose" position="right"/>
- 			<speak chara="_Alice">その……うさぎを見つけて、そのうさぎと一緒に豆の木に登るお話です。</speak>
- 			<show chara="AliceShyClose" position="right" opacity="0.8"/>
- 			<show chara="wattSurpriseClose" position="left"/>
- 			<speak chara="_Watt">……豆の木？</speak>
- 			<show chara="wattShyClose" position="left"/>
- 			<speak chara="_Watt">ご、ごめん、聞いたことないや……</speak>
- 			<show chara="wattSighClose" position="left"/>
- 			<speak chara="_Watt">う、うさぎについて行ったら、穴に落ちたんじゃなくて？</speak>
- 			<show chara="wattSighClose" position="left" opacity="0.8"/>
- 			<show chara="AliceShyClose" position="right"/>
- 			<speak chara="_Alice">えっと……その……きっと特別なうさぎだったからでしょうか……？</speak>
- 			<hide position="left"></hide>
- 			<hide position="right"></hide>
- 			<show chara="AliceSmileClose-up" position="center"/>
- 			<speak chara="_Alice">とにかく、主人公のアリスは燕尾服を着たうさぎを追いかけ、雲の上まで続く高い豆の木の根本に辿り着きました。</speak>
- 			<show chara="AliceSurprisedClose-up" position="center"/>
- 			<speak chara="_Alice">木には穴が空いていて——うさぎはその穴の中へ消えます。近づいてみると、なんと木の内部で強い上昇気流が流れているではありませんか！</speak>
- 			<show chara="AliceShyClose-up" position="center"/>
- 			<speak chara="_Alice">「うさぎさんのように飛んだら、スカートはどうしよう」と、アリスは悩みます。</speak>
- 			<show chara="AliceSurprisedClose-up" position="center"/>
- 			<speak chara="_Alice">その時、木から伸びた一枚の葉っぱが彼女の前に降りてきました——葉っぱには綺麗なガラスの小瓶が乗っており、瓶には丁寧な字で「飲んでください」と一言。</speak>
- 			<hide position="center"></hide>
-			<show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
- 			<show chara="wattSighClose" position="left"/>
- 			<speak chara="_Watt">怪しすぎない……？</speak>
- 			<show chara="wattShyClose" position="left"/>
- 			<speak chara="_Watt">そうだ、次の5番の箱、自分で操作してみる？</speak>
- 			<show chara="wattShyClose" position="left" opacity="0.8"/>
- 			<show chara="AliceShyClose" position="right"/>
- 			<speak chara="_Alice">は、はい！できると思います！</speak>
- 			<show chara="AliceSmileClose" position="right"/>
- 			<speak chara="_Alice">引き出して……ステータスは3マス、だから緑のボタンを押す、であっていますか？</speak>
- 			<show chara="AliceSmileClose" position="right" opacity="0.8"/>
- 			<show chara="wattInspiredClose" position="left"/>
- 			<speak chara="_Watt">うん、問題ないよ。</speak>
- 			<show chara="wattRelievedClose" position="left"/>
- 			<speak chara="_Watt">じゃあ、次は6番。……それで、物語の「アリス」は本当にその瓶の中身を飲んだの？</speak>
- 			<show chara="wattRelievedClose" position="left" opacity="0.8"/>
- 			<show chara="AliceShyClose" position="right"/>
- 			<speak chara="_Alice">飲みました。そしたら……魂が飛び出したのです。</speak>
- 			<show chara="AliceShyClose" position="right" opacity="0.8"/>
- 			<show chara="wattScaredClose" position="left"/>
- 			<speak chara="_Watt">た、た、たましいッ！？</speak>
- 			<show chara="wattScaredClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSmileClose" position="right"/>
- 			<speak chara="_Alice">……物語の中の何かの魔法でしょう。</speak>
- 			<speak chara="_Alice">アリスの魂は気流に乗って木の先端まで辿り着きました。振り返ってみると——</speak>
- 			<show chara="AliceShyClose" position="right"/>
- 			<speak chara="_Alice">——なんと自分の体もさやの中で眠ったまま運ばれてきました！</speak>
- 			<show chara="AliceShyClose" position="right" opacity="0.8"/>
- 			<show chara="wattSighClose" position="left"/>
- 			<speak chara="_Watt">な、なんか怪談みたいになってきたね……</speak>
- 			<show chara="wattSighClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSurprisedClose" position="right"/>
- 			<speak chara="_Alice">怪談、ですか？</speak>
- 			<show chara="AliceThinkClose" position="right"/>
- 			<speak chara="_Alice">博士は言っていました、人類は体から魂が離れる感覚が恐ろしいのだと……本当だったのですね……</speak>
- 			<show chara="AliceThinkClose" position="right" opacity="0.8"/>
- 			<show chara="wattSighClose" position="left"/>
- 			<speak chara="_Watt">その感覚が怖いというより、死を恐れているんだ。</speak>
- 			<show chara="wattSadClose" position="left"/>
- 			<speak chara="_Watt">「体から魂が離れる」なんて、誰も経験したことがないから……そうなった時、その人は「死んだ」ことになるのだから。</speak>
- 			<show chara="wattSadClose" position="left" opacity="0.8"/>
- 			<show chara="AliceHmClose" position="right"/>
- 			<speak chara="_Alice">……なるほど。でも、物語のアリスは死んでいませんよ！</speak>
- 			<hide position="left"></hide>
- 			<hide position="right"></hide>
- 			<show chara="AliceShyClose-up" position="center"/>
- 			<speak chara="_Alice">アリスは自分の体に触れてみようと手を伸ばすと、ポンっと、魂と体が一つに戻りました。</speak>
- 			<show chara="AliceSurprisedClose-up" position="center"/>
- 			<speak chara="_Alice">「このさやは、私をどこまで運んでくれるのでしょうか」</speak>
- 			<show chara="AliceSmileClose-up" position="center"/>
- 			<speak chara="_Alice">アリスの考えていることがわかったのか、さやはアリスを乗せて、雲の上まで飛んでいきました。</speak>
- 			<show chara="AliceShyClose-up" position="center"/>
- 			<speak chara="_Alice">さやはそこでどんどん成長して、すぐに大きな船ほどの大きさになります。</speak>
- 			<show chara="AliceSurprisedClose-up" position="center"/>
- 			<speak chara="_Alice">「甲板」に扉が現れて、扉には「ここから奇跡の世界へ」と書かれていました。</speak>
- 			<show chara="AliceCalmClose-up" position="center"/>
- 			<speak chara="_Alice">アリスは扉をくぐります。下へ伸びる階段を、暗い中、足元に気をつけながら降りました。</speak>
- 			<show chara="AliceShyClose-up" position="center"/>
- 			<speak chara="_Alice">階段を降りきったところ、壁の角、ランプの下あたりに小さい文字が書かれていました。</speak>
- 			<show chara="AliceCalmClose-up" position="center"/>
- 			<speak chara="_Alice">「この門をくぐる者は、外部世界の常識を一切捨てよ」</speak>
- 			<hide position="center"></hide>
-			<show chara="AliceSmileClose" position="right" opacity="0.8"/>
- 			<show chara="wattInspiredClose" position="left"/>
- 			<speak chara="_Watt">……『神曲』のオマージュみたいだね。</speak>
- 			<show chara="wattInspiredClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSurprisedClose" position="right"/>
- 			<speak chara="_Alice">『神曲』？</speak>
- 			<show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
- 			<show chara="wattScaredClose" position="left"/>
- 			<speak chara="_Watt">そ、その、「地獄の門」に書かれた言葉だよ。</speak>
- 			<show chara="wattSadClose" position="left"/>
- 			<speak chara="_Watt">「この門をくぐる者は、一切の希望を捨てよ」</speak>
- 			<show chara="wattSadClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSurprisedClose" position="right"/>
- 			<speak chara="_Alice">……絶望的な言葉ですね。</speak>
- 			<show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
- 			<show chara="wattSighClose" position="left"/>
- 			<speak chara="_Watt">じ、地獄の門だからね。</speak>
- 			<show chara="wattShyClose" position="left"/>
- 			<speak chara="_Watt">そ、それで、物語のアリスは、その「常識を捨てる」門をくぐったの？</speak>
- 			<show chara="wattShyClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSmileClose" position="right"/>
- 			<speak chara="_Alice">はい。アリスは冒険好きな女の子だから「常識を捨てる」のは簡単だと、博士はそう言っていました。</speak>
- 			<hide position="left"></hide>
- 			<hide position="right"></hide>
- 			<show chara="AliceShyClose-up" position="center"/>
- 			<speak chara="_Alice">アリスが2つ目の扉をくぐると、視界が一気に広がりました。</speak>
- 			<show chara="AliceSmileClose-up" position="center"/>
- 			<speak chara="_Alice">遠くには壮大な雪山、目の前には激しく流れる大きな川。川の岸辺には小さな駅がありました。事務室には一人の少年が座っていて、りんごをかじっています。</speak>
- 			<show chara="AliceShyClose-up" position="center"/>
- 			<speak chara="_Alice">「次の列車は何時何分ですか？」と、アリスは尋ねました。</speak>
- 			<show chara="AliceSmileClose-up" position="center"/>
- 			<speak chara="_Alice">「三分前に出発したよ」と、少年が答えます。</speak>
- 			<show chara="AliceShyClose-up" position="center"/>
- 			<speak chara="_Alice">アリスは困惑しました。「ありがとうございます。列車を待つ心の準備ができました。三分前の列車には乗れませんものね」</speak>
- 			<show chara="AliceSmileClose-up" position="center"/>
- 			<speak chara="_Alice">少年は頭を振り、食べかけのりんごを置きました。「その『常識』を忘れろ。ここでは——鏡があれば、時間を逆行できる」</speak>
- 			<show chara="AliceSurprisedClose-up" position="center"/>
- 			<speak chara="_Alice">そう言って、少年は机の上の小さな鏡を持ち上げて、ガッと扉ぐらいの大きさに広げました。</speak>
- 			<show chara="AliceSmileClose-up" position="center"/>
- 			<speak chara="_Alice">「どうぞ、鏡の向こうは5分前のこの駅だ」</speak>
- 			<show chara="AliceShyClose-up" position="center"/>
- 			<speak chara="_Alice">鏡の中はすべて上下逆さまでした。試しに指で鏡をつついてみると、蜘蛛の巣みたいな波紋が広がります。</speak>
- 			<show chara="AliceSmileClose-up" position="center"/>
- 			<speak chara="_Alice">少年と似た装いの少女が鏡の向こう側に現れて、こちらへ来るように手を振っていました。</speak>
- 			<show chara="AliceSurprisedClose-up" position="center"/>
- 			<speak chara="_Alice">アリスはおそるおそる足を持ち上げて——</speak>
- 			<speak chara="_Alice">——靴の先が鏡に入ったところで、鏡の中と世界が一気に逆転しました。難なくアリスは鏡を越えます。</speak>
- 			<hide position="center"></hide>
-			<show chara="AliceShyClose" position="right" opacity="0.8"/>
- 			<show chara="wattSurpriseClose" position="left"/>
- 			<speak chara="_Watt">上下逆さの鏡……ニュートンの反射鏡？</speak>
- 			<show chara="wattSurpriseClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSurprisedClose" position="right"/>
- 			<speak chara="_Alice">ニュートンの反射鏡？天体観測の望遠鏡のことですか？</speak>
- 			<show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
- 			<show chara="wattRelievedClose" position="left"/>
- 			<speak chara="_Watt">うん。凹面鏡の反射の原理を使うから、見えるものは上下逆さなんだ。それに、視界の中央から鏡像を切り出す必要があるから、「第二反射鏡」の支柱がクモの巣のような模様を作り出す。</speak>
- 			<show chara="wattRelievedClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSurprisedClose" position="right"/>
- 			<speak chara="_Alice">……博士が教えてくれた話に似ていますね！</speak>
- 			<show chara="AliceHmClose" position="right"/>
- 			<speak chara="_Alice">あっ！では、そのりんごを食べていた少年が、かの有名なニュートンでしょうか？</speak>
- 			<show chara="AliceHmClose" position="right" opacity="0.8"/>
- 			<show chara="wattShyClose" position="left"/>
- 			<speak chara="_Watt">そ、それはわからないけど……</speak>
- 			<show chara="wattRelievedClose" position="left"/>
- 			<speak chara="_Watt">で、でも、童話だから、何でもありなんじゃないかな？</speak>
- 			<show chara="wattSurpriseClose" position="left"/>
- 			<speak chara="_Watt">……あ、もう17番か。いつの間にこんなに進んでたんだろう？</speak>
- 			<show chara="wattRelievedClose" position="left"/>
- 			<speak chara="_Watt">ずいぶん上達したみたいだね、アリス！</speak>
- 			<show chara="wattRelievedClose" position="left" opacity="0.8"/>
- 			<show chara="AliceShyClose" position="right"/>
- 			<speak chara="_Alice">いえ、大したことはありません。それよりジミー様——あ、いえ、ジミーさん……こそ……無理していませんか？</speak>
- 			<show chara="AliceShyClose" position="right" opacity="0.8"/>
- 			<show chara="wattSmileClose" position="left"/>
- 			<speak chara="_Watt">……む、無理？な、何のことかな。</speak>
- 			<show chara="wattSmileClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSilentClose" position="right"/>
- 			<speak chara="_Alice">箱を開けるたびに、私の見えないところで、何度も深呼吸されていましたから……</speak>
- 			<show chara="AliceSilentClose" position="right" opacity="0.8"/>
- 			<show chara="wattScaredClose" position="left"/>
- 			<speak chara="_Watt">……そ、それは、生理的に……</speak>
- 			<show chara="wattScaredClose" position="left" opacity="0.8"/>
- 			<show chara="AliceHmClose" position="right"/>
+			<show chara="wattSurpriseClose" position="left" />
+			<speak chara="_Watt">……이렇게 ……다, 다시.</speak>
+			<show chara="wattInspiredClose" position="left" />
+			<speak chara="_Watt">그렇구나, 이렇게 작동하는 거였네.</speak>
+			<show chara="wattRelievedClose" position="left" />
+			<speak chara="_Watt">앨리스! ……시, 시작할 준비가 됐어.</speak>
+			<show chara="wattRelievedClose" position="left" opacity="0.8" />
+			<show chara="AliceSurprisedClose" position="right" />
+			<speak chara="_Alice">정말인가요? 선생님은 정말 대단하세요! 그렇게나 빨리 익히시다니!</speak>
+			<show chara="AliceSurprisedClose" position="right" opacity="0.8" />
+			<show chara="wattSighClose" position="left" />
+			<speak chara="_Watt">사실 점검 과정에 기술적인 어려움은 없었어…… 그냥 번거로울 뿐이지.</speak>
+			<show chara="wattShyClose" position="left" />
+			<speak chara="_Watt">그리고…… 이 자료를 읽을 권한을 바꾸는 건 불가능해서…… 우선은 혼자 읽고 난 다음에, 방법을 가르쳐줄게.</speak>
+			<show chara="wattSadClose" position="left" />
+			<speak chara="_Watt">……미안해.</speak>
+			<show chara="wattSadClose" position="left" opacity="0.8" />
+			<show chara="AliceShyClose" position="right" />
+			<speak chara="_Alice">아뇨, 괜찮아요! 저도…… 지미 선생님과…… 같이 배우고 싶어요.</speak>
+			<show chara="AliceShyClose" position="right" opacity="0.8" />
+			<show chara="wattSurpriseClose" position="left" />
+			<speak chara="_Watt">……</speak>
+			<show chara="wattShyClose" position="left" />
+			<speak chara="_Watt">그, 그럼 1호 창고부터 시작하자. 그리고…… 앞으로 나한테 존칭을 쓰는 건 그만뒀으면 해…… 너무 이상한 것 같아.</speak>
+			<show chara="wattShyClose" position="left" opacity="0.8" />
+			<show chara="AliceSurprisedClose" position="right" />
+			<speak chara="_Alice">아, 알겠어요!</speak>
+			<show chara="AliceSurprisedClose" position="right" opacity="0.8" />
+			<show chara="wattShyClose" position="left" />
+			<speak chara="_Watt">이, 이 유리로 된 배양 탱크를 꺼내고…… 상태창에 표시된 거에 따라…… 아, 안쪽 버튼들을 눌러주면 돼.</speak>
+			<show chara="wattShyClose" position="left" opacity="0.8" />
+			<show chara="AliceSurprisedClose" position="right" />
+			<speak chara="_Alice">아…… 이렇게 간단한 거였구나.</speak>
+			<show chara="AliceSilentClose" position="right" />
+			<speak chara="_Alice">이래서 박사님이, 배양 탱크를 조작할 때, 제가 보지 못하게 한 거군요.</speak>
+			<show chara="AliceSilentClose" position="right" opacity="0.8" />
+			<show chara="wattSurpriseClose" position="left" />
+			<speak chara="_Watt">……</speak>
+			<show chara="wattSadClose" position="left" />
+			<speak chara="_Watt">박사에게, 앨리스는…… 뭐였어?</speak>
+			<show chara="wattSadClose" position="left" opacity="0.8" />
+			<show chara="AliceDeclineClose" position="right" />
+			<speak chara="_Alice">그건…… 저도 잘 몰라요.</speak>
+			<show chara="AliceSilentClose" position="right" />
+			<speak chara="_Alice">제게 그분은 「앨리스」라는 이름을 붙여주신 분…… 어쩌면, 그 이름을 붙여주신 분 역시도 자기모순적이셨으려나요.</speak>
+			<show chara="AliceSilentClose" position="right" opacity="0.8" />
+			<show chara="wattSurpriseClose" position="left" />
+			<speak chara="_Watt">……?</speak>
+			<show chara="wattSurpriseClose" position="left" opacity="0.8" />
+			<show chara="AliceSmileClose" position="right" />
+			<speak chara="_Alice">저기…… 알고 계신가요? 「앨리스」는 어떤 동화 속 이야기의 주인공의 이름이래요.</speak>
+			<show chara="AliceShyClose" position="right" />
+			<speak chara="_Alice">그…… 어떤 토끼를 발견하고, 그 토끼를 따라 콩나무에 오르는 이야기예요.</speak>
+			<show chara="AliceShyClose" position="right" opacity="0.8" />
+			<show chara="wattSurpriseClose" position="left" />
+			<speak chara="_Watt">……콩나무?</speak>
+			<show chara="wattShyClose" position="left" />
+			<speak chara="_Watt">어…… 미안…… 아, 안 들어봤어……</speak>
+			<show chara="wattSighClose" position="left" />
+			<speak chara="_Watt">호, 혹시 그 토끼를 따라가다, 구멍에 빠지진 않았어?</speak>
+			<show chara="wattSighClose" position="left" opacity="0.8" />
+			<show chara="AliceShyClose" position="right" />
+			<speak chara="_Alice">어라…… 그건…… 다른 토끼 얘기인가요……?</speak>
+			<hide position="left"></hide>
+			<hide position="right"></hide>
+			<show chara="AliceSmileClose-up" position="center" />
+			<speak chara="_Alice">어쨌든, 주인공인 앨리스는 턱시도를 입은 토끼를 쫓다가, 구름 위로 높이 솟은 콩나무의 줄기에 이르렀어요.</speak>
+			<show chara="AliceSurprisedClose-up" position="center" />
+			<speak chara="_Alice">콩나무엔 구멍이 나있어서——토끼는 그 구멍에 들어가자마자 사라지고 말았어요. 앨리스가 다가가서 보니, 콩나무 속에는 강력한 상승 기류가 흐르고 있었어요!</speak>
+			<show chara="AliceShyClose-up" position="center" />
+			<speak chara="_Alice">거기서, 앨리스는 고민했어요. 「곤란하네, 토끼가 한 것처럼 날아오르면, 스커트는 어떡하지?」</speak>
+			<show chara="AliceSurprisedClose-up" position="center" />
+			<speak chara="_Alice">앨리스가 그렇게 생각하고 있을 때, 콩나무의 잎 하나가 그녀 앞으로 날아와서——그 잎 위엔 예쁜 유리병이 있었고, 아름다운 글씨로 「마셔」란 말이 적혀 있었어요.</speak>
+			<hide position="center"></hide>
+			<show chara="AliceSurprisedClose" position="right" opacity="0.8" />
+			<show chara="wattSighClose" position="left" />
+			<speak chara="_Watt">뭔가 수상한데……?</speak>
+			<show chara="wattShyClose" position="left" />
+			<speak chara="_Watt">어쨋든…… 다음은 5호 창고…… 이번엔…… 네가 직접 점검 절차를 진행해 볼래?</speak>
+			<show chara="wattShyClose" position="left" opacity="0.8" />
+			<show chara="AliceShyClose" position="right" />
+			<speak chara="_Alice">네, 넵! 아마…… 문제없을 거예요!</speak>
+			<show chara="AliceSmileClose" position="right" />
+			<speak chara="_Alice">유리 탱크를 꺼내고…… 상태창의 표시는 세 칸…… 그럼 초록색 버튼을 누르면…… 이거 맞죠?</speak>
+			<show chara="AliceSmileClose" position="right" opacity="0.8" />
+			<show chara="wattInspiredClose" position="left" />
+			<speak chara="_Watt">맞아, 그거야.</speak>
+			<show chara="wattRelievedClose" position="left" />
+			<speak chara="_Watt">그리고 이제 6호 창고…… 그래서, 이야기의 「앨리스」는 정말로 그 병에 있는 걸 마셨어?</speak>
+			<show chara="wattRelievedClose" position="left" opacity="0.8" />
+			<show chara="AliceShyClose" position="right" />
+			<speak chara="_Alice">마셨어요…… 그러고 나니…… 그녀의 영혼이 몸 밖으로 나오고 말았어요.</speak>
+			<show chara="AliceShyClose" position="right" opacity="0.8" />
+			<show chara="wattScaredClose" position="left" />
+			<speak chara="_Watt">여, 여, 영혼이 몸 밖으로 나와!?</speak>
+			<show chara="wattScaredClose" position="left" opacity="0.8" />
+			<show chara="AliceSmileClose" position="right" />
+			<speak chara="_Alice">……아마 이야기 속에서만 나오는 마법 같은 거 아닐까요.</speak>
+			<speak chara="_Alice">여하튼, 앨리스의 영혼은 기류를 따라 콩나무의 꼭대기까지 올라왔어요. 콩나무의 높이를 확인하려 다시 밑을 돌아봤을 때——</speak>
+			<show chara="AliceShyClose" position="right" />
+			<speak chara="_Alice">——자신의 몸도 어느샌가 영혼을 따라 올라와, 그대로 평평한 콩꼬투리 위에 눕혀져 있는 걸 발견했어요!</speak>
+			<show chara="AliceShyClose" position="right" opacity="0.8" />
+			<show chara="wattSighClose" position="left" />
+			<speak chara="_Watt">저, 점점 귀신 이야기로 변하는 느낌인 걸……</speak>
+			<show chara="wattSighClose" position="left" opacity="0.8" />
+			<show chara="AliceSurprisedClose" position="right" />
+			<speak chara="_Alice">……귀신 이야기?</speak>
+			<show chara="AliceThinkClose" position="right" />
+			<speak chara="_Alice">박사님께서 인간들은 영혼이 몸 밖으로 나오는 걸 두려워한다고 하셨는데…… 그게 정말이었군요……</speak>
+			<show chara="AliceThinkClose" position="right" opacity="0.8" />
+			<show chara="wattSighClose" position="left" />
+			<speak chara="_Watt">그 느낌 자체를 두려워한다기보다는, 죽는 걸 두려워한다고 하는 게 맞을 거야.</speak>
+			<show chara="wattSadClose" position="left" />
+			<speak chara="_Watt">애초에, 어느 누구도 「영혼이 몸 밖으로 빠져나가는」 일은 경험해 본 적이 없으니까…… 현실에서 그렇게 된다면, 그건 그저 「죽음」을 다르게 표현한 것이지 않을까.</speak>
+			<show chara="wattSadClose" position="left" opacity="0.8" />
+			<show chara="AliceHmClose" position="right" />
+			<speak chara="_Alice">……무슨 말인진 알겠어요. 하지만 이야기 속의 앨리스는 아직 죽지 않았어요!</speak>
+			<hide position="left"></hide>
+			<hide position="right"></hide>
+			<show chara="AliceShyClose-up" position="center" />
+			<speak chara="_Alice">앨리스는 손을 뻗어 자신의 몸을 만지려 했는데…… 갑자기 「펑」하고, 영혼과 몸이 다시 하나가 되었어요!</speak>
+			<show chara="AliceSurprisedClose-up" position="center" />
+			<speak chara="_Alice">앨리스는 생각했어요. 「이 날으는 양탄자 같은 콩깍지가 날 어디로 데려가려나?」</speak>
+			<show chara="AliceSmileClose-up" position="center" />
+			<speak chara="_Alice">그러자 콩꼬투리가 그녀의 생각을 읽은 듯, 앨리스를 태우고는, 「휙」하며 구름 위로 날아올랐어요!</speak>
+			<show chara="AliceShyClose-up" position="center" />
+			<speak chara="_Alice">거기서, 꼬투리는 바람은 맞으며 계속 자라나, 어느새 커다란 배만큼 커졌어요.</speak>
+			<show chara="AliceSurprisedClose-up" position="center" />
+			<speak chara="_Alice">콩깍지의 「갑판」 위엔 문이 하나 있었는데, 거기엔 「기적의 세계로」라는 말이 적혀 있었어요.</speak>
+			<show chara="AliceCalmClose-up" position="center" />
+			<speak chara="_Alice">앨리스는 그 문 안으로 들어갔어요. 문 안쪽에는 계단이 밑으로 이어져 있었고, 빛이 매우 어두워서, 그녀는 실수로 넘어지지 않도록 조심하며 내려갔어요.</speak>
+			<show chara="AliceShyClose-up" position="center" />
+			<speak chara="_Alice">앨리스가 계단의 맨 밑부분에 도착했을 때, 벽 귀퉁이에서 깜박이는 등불 밑에, 작은 글씨가 쓰여 있는 걸 발견했어요.</speak>
+			<show chara="AliceCalmClose-up" position="center" />
+			<speak chara="_Alice">「이 문에 발을 들이는 자, 바깥 세계의 상식을 버려라.」</speak>
+			<hide position="center"></hide>
+			<show chara="AliceSmileClose" position="right" opacity="0.8" />
+			<show chara="wattInspiredClose" position="left" />
+			<speak chara="_Watt">……『신곡』을 따라한 거 같은데.</speak>
+			<show chara="wattInspiredClose" position="left" opacity="0.8" />
+			<show chara="AliceSurprisedClose" position="right" />
+			<speak chara="_Alice">『신곡』?</speak>
+			<show chara="AliceSurprisedClose" position="right" opacity="0.8" />
+			<show chara="wattScaredClose" position="left" />
+			<speak chara="_Watt">그, 그게, 신곡에서 나오는 「지옥의 문」 위에 있던 문구인데.</speak>
+			<show chara="wattSadClose" position="left" />
+			<speak chara="_Watt">「이 문에 발을 들이는 자, 모든 희망을 버려라.」</speak>
+			<show chara="wattSadClose" position="left" opacity="0.8" />
+			<show chara="AliceSurprisedClose" position="right" />
+			<speak chara="_Alice">……정말 절망적인 말이네요.</speak>
+			<show chara="AliceSurprisedClose" position="right" opacity="0.8" />
+			<show chara="wattSighClose" position="left" />
+			<speak chara="_Watt">그, 그야 「지옥」이니까.</speak>
+			<show chara="wattShyClose" position="left" />
+			<speak chara="_Watt">그, 그래서, 이야기의 앨리스는, 「상식」을 버리고 문을 넘었어?</speak>
+			<show chara="wattShyClose" position="left" opacity="0.8" />
+			<show chara="AliceSmileClose" position="right" />
+			<speak chara="_Alice">네, 박사님은 앨리스가 모험을 좋아하는 소녀라서, 그녀에게 있어 「상식」을 버리는 건 간단한 일처럼 보였을 거라고 하셨어요.</speak>
+			<hide position="left"></hide>
+			<hide position="right"></hide>
+			<show chara="AliceShyClose-up" position="center" />
+			<speak chara="_Alice">앨리스가 두 번째 문을 지나자, 갑자기 모든 게 확 밝아졌어요.</speak>
+			<show chara="AliceSmileClose-up" position="center" />
+			<speak chara="_Alice">지평선 너머로는 눈에 덮인 웅장한 산이, 그녀의 눈앞에는 빠르게 흐르는 큰 강이 보였어요. 강기슭에는 작은 기차역이 있었는데, 관리실에는 한 소년이 앉아서 사과를 먹고 있었어요.</speak>
+			<show chara="AliceShyClose-up" position="center" />
+			<speak chara="_Alice">앨리스는 그에게 다가가서 물었어요. 「다음 기차는 몇 시에 도착하나요?」</speak>
+			<show chara="AliceSmileClose-up" position="center" />
+			<speak chara="_Alice">소년은 대답했죠. 「3분 전에 하나 지나갔어요.」</speak>
+			<show chara="AliceShyClose-up" position="center" />
+			<speak chara="_Alice">앨리스는 곤란해하며, 다시 그에게 말했어요. 「마음의 준비를 하게 해줘서 고마워요, 하지만 3분 전에 지나간 기차는 탈 수 없는걸요.」</speak>
+			<show chara="AliceSmileClose-up" position="center" />
+			<speak chara="_Alice">소년은 고개를 젓더니, 손의 사과를 내려놓았어요. 「여기서 그런 『상식』은 잊으세요. 여기는——거울 하나만 있으면, 시간을 되돌릴 수 있어요.」</speak>
+			<show chara="AliceSurprisedClose-up" position="center" />
+			<speak chara="_Alice">그렇게 얘기하고, 소년은 자신의 책상에서 작은 거울을 꺼내더니, 문 정도의 크기가 될 만큼 「쭉」 잡아당겼어요.</speak>
+			<show chara="AliceSmileClose-up" position="center" />
+			<speak chara="_Alice">「들어가세요, 이 거울의 반대편은 5분 전의 역이에요.」</speak>
+			<show chara="AliceShyClose-up" position="center" />
+			<speak chara="_Alice">거울 속의 모든 것은 거꾸로 되어 있었어요. 앨리스가 의심스러워하며 거울을 찔러보니, 거울의 표면은 거미줄처럼 물결이 일었어요.</speak>
+			<show chara="AliceSmileClose-up" position="center" />
+			<speak chara="_Alice">거울의 반대편에선 소년과 비슷한 옷을 입은 소녀가, 앨리스에게 넘어오라는 듯, 손을 흔들고 있었어요.</speak>
+			<show chara="AliceSurprisedClose-up" position="center" />
+			<speak chara="_Alice">앨리스는 조심스레 거울 속을 향해 발을 들어 올렸고——</speak>
+			<speak chara="_Alice">——신발 끝부분이 거울에 닿자, 거울 속의 세계가 갑자기 뒤집어졌어요. 앨리스는 아무런 문제 없이 통과했지만요.</speak>
+			<hide position="center"></hide>
+			<show chara="AliceShyClose" position="right" opacity="0.8" />
+			<show chara="wattSurpriseClose" position="left" />
+			<speak chara="_Watt">뒤집히는 거울…… 아마 뉴턴식 망원경이 아닐까?</speak>
+			<show chara="wattSurpriseClose" position="left" opacity="0.8" />
+			<show chara="AliceSurprisedClose" position="right" />
+			<speak chara="_Alice">뉴턴식 망원경? 그건…… 천문 관측 같은 데에 쓰이는 건가요?</speak>
+			<show chara="AliceSurprisedClose" position="right" opacity="0.8" />
+			<show chara="wattRelievedClose" position="left" />
+			<speak chara="_Watt">응. 오목 거울에 반사된 이미지를 이용하는 망원경이라서, 위아래가 뒤집혀서 보여. 그리고 망원경 시야의 중앙에서 상을 끊어내야 해서, 여기에 쓰인 「제2 반사경」의 지지대 때문에 거미줄처럼 보이는 회절 무늬를 만들게 돼.</speak>
+			<show chara="wattRelievedClose" position="left" opacity="0.8" />
+			<show chara="AliceSurprisedClose" position="right" />
+			<speak chara="_Alice">……박사님의 이야기에서 묘사된 거랑 정말 비슷하네요!</speak>
+			<show chara="AliceHmClose" position="right" />
+			<speak chara="_Alice">아! 그럼 사과를 먹던 「소년」이 바로 그 유명한 「뉴턴」인 걸까요?</speak>
+			<show chara="AliceHmClose" position="right" opacity="0.8" />
+			<show chara="wattShyClose" position="left" />
+			<speak chara="_Watt">그, 그건 모르겠어……</speak>
+			<show chara="wattRelievedClose" position="left" />
+			<speak chara="_Watt">그, 그래도, 이건 동화니까…… 어떤 상상을 해도 괜찮지 않을까?</speak>
+			<show chara="wattSurpriseClose" position="left" />
+			<speak chara="_Watt">……아, 17호 창고? 벌써 이렇게나 많이도 점검했나?</speak>
+			<show chara="wattRelievedClose" position="left" />
+			<speak chara="_Watt">벌써 익숙해졌네, 앨리스!</speak>
+			<show chara="wattRelievedClose" position="left" opacity="0.8" />
+			<show chara="AliceShyClose" position="right" />
+			<speak chara="_Alice">아무것도 아니에요…… 이, 이 정도야 당연한걸요. 지미 선생님——아니, 지미는…… 무리하고 있는 거 아니죠?</speak>
+			<show chara="AliceShyClose" position="right" opacity="0.8" />
+			<show chara="wattSmileClose" position="left" />
+			<speak chara="_Watt">……그, 그, 그럴리가 없잖아! 무, 무슨 소리야!.</speak>
+			<show chara="wattSmileClose" position="left" opacity="0.8" />
+			<show chara="AliceSilentClose" position="right" />
+			<speak chara="_Alice">하지만, 거의 매번 창고 문을 열 때마다, 당신은…… 제겐 보이지 않게 하면서…… 몇 번이고 심호흡을 하고 있잖아요……</speak>
+			<show chara="AliceSilentClose" position="right" opacity="0.8" />
+			<show chara="wattScaredClose" position="left" />
+			<speak chara="_Watt">……이, 이건…… 생리적인 현상이라……</speak>
+			<show chara="wattScaredClose" position="left" opacity="0.8" />
+			<show chara="AliceHmClose" position="right" />
 			<shake position="right" time="250"></shake>
- 			<speak chara="_Alice">それを無理というのです！</speak>
- 			<speak chara="_Alice">生理的なものでも、体に負担がかかります。</speak>
- 			<show chara="AliceDeclineClose" position="right"/>
- 			<speak chara="_Alice">……これは、普通の人間には、とても気持ちの悪いものだとわかっています——</speak>
- 			<show chara="AliceDeterminedClose" position="right"/>
+			<speak chara="_Alice">그게 바로 무리한다는 거예요!</speak>
+			<speak chara="_Alice">생리적인 불편함은 부담 아닌가요?</speak>
+			<show chara="AliceDeclineClose" position="right" />
+			<speak chara="_Alice">……이것들이 일반인에게 얼마나 역겨워 보일지는 저도 잘 알아요——</speak>
+			<show chara="AliceDeterminedClose" position="right" />
 			<shake position="right" time="250"></shake>
- 			<speak chara="_Alice">——だから、平気なふりをしないでください！</speak>
- 			<show chara="AliceDeterminedClose" position="right" opacity="0.8"/>
- 			<show chara="wattScaredClose" position="left"/>
- 			<speak chara="_Watt">……ご、ごめん。</speak>
- 			<show chara="wattScaredClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSilentClose" position="right"/>
- 			<speak chara="_Alice">……いえ……私こそ、言葉が過ぎました。私のために我慢してくれていたというのに……</speak>
- 			<show chara="AliceSilentClose" position="right" opacity="0.8"/>
- 			<show chara="wattShyClose" position="left"/>
- 			<speak chara="_Watt">……</speak>
- 			<show chara="wattShyClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSmileClose" position="right"/>
- 			<speak chara="_Alice">大丈夫です！メンテナンスの仕方はもうわかりましたから、</speak>
- 			<show chara="AliceShyClose" position="right"/>
- 			<speak chara="_Alice">だから、ジミーさんは私の話し相手をしてくれたら、嬉しい、です。</speak>
- 			<show chara="AliceShyClose" position="right" opacity="0.8"/>
- 			<show chara="wattShyClose" position="left"/>
- 			<speak chara="_Watt">……！</speak>
- 			<show chara="wattShyClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSilentClose" position="right"/>
- 			<speak chara="_Alice">さっきの物語、どこまで話しました？</speak>
- 			<show chara="AliceSilentClose" position="right" opacity="0.8"/>
- 			<show chara="wattShyClose" position="left"/>
- 			<speak chara="_Watt">「アリス」が……鏡を越えたところ。</speak>
- 			<show chara="wattShyClose" position="left" opacity="0.8"/>
- 			<show chara="AliceShyClose" position="right"/>
- 			<speak chara="_Alice">そ、そうでした！</speak>
- 			<hide position="left"></hide>
- 			<hide position="right"></hide>
- 			<show chara="AliceSmileClose-up" position="center"/>
- 			<speak chara="_Alice">アリスが鏡を越えると、ちょうどチョコレートで出来た蒸気機関車が、クリームのような白い煙を吹いて、駅に入ってきました。</speak>
- 			<show chara="AliceShyClose-up" position="center"/>
- 			<speak chara="_Alice">作業服を着たリスが運転室から顔を出し、「チーズ列島行きの列車だよ！チーズ列島行きの列車だよ！」と。</speak>
- 			<show chara="AliceSurprisedClose-up" position="center"/>
- 			<speak chara="_Alice">「チーズ列島」とはどんなところか、アリスにはわかりません。駅の少女にこう尋ねました。「チーズ列島は、チーズがいっぱいのところでしょうか？」</speak>
- 			<show chara="AliceSmileClose-up" position="center"/>
- 			<speak chara="_Alice">少女は微笑んでこう答えました。「そうだよ。チーズ列島はミルキーウェイでもっとも美しい島々さ。そこにはゴーダチーズで出来た金色の砂浜と、ブルーチーズで出来たお城があるんだ！それから、ケーキの木とか、キャンディのお花とか——ぜーんぶ食べられるんだよ！」</speak>
- 			<show chara="AliceShyClose-up" position="center"/>
- 			<speak chara="_Alice">アリスは冒険好きでしたが、現実的でもありました。なので、こう尋ねます。「そのチーズやケーキ、キャンディは、食べたらなくなってしまうんじゃないの？」</speak>
- 			<show chara="AliceSmileClose-up" position="center"/>
- 			<speak chara="_Alice">駅の少女はおかしそうに笑いました。「こういう言葉を聞いたことはないかい？『午前零時は奇跡の瞬間』だって。ほら、もうすぐ発車してしまうよ、乗った乗った」</speak>
- 			<hide position="center"></hide>
-			<show chara="AliceSmileClose" position="right" opacity="0.8"/>			
- 			<show chara="wattRelievedClose" position="left"/>
- 			<speak chara="_Watt">この駅の話は、一気に少女っぽくなったね。</speak>
- 			<show chara="wattRelievedClose" position="left" opacity="0.8"/>
- 			<show chara="AliceShyClose" position="right"/>
- 			<speak chara="_Alice">え？そう……でしょうか。</speak>
- 			<show chara="AliceSilentClose" position="right"/>
- 			<speak chara="_Alice">私はチョコレートやケーキ、チーズを味わうことができません。</speak>
- 			<show chara="AliceSurprisedClose" position="right"/>
- 			<speak chara="_Alice">……人間にとって、高カロリーな食べ物は「少女っぽい」のでしょうか？</speak>
- 			<show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
- 			<show chara="wattSighClose" position="left"/>
- 			<speak chara="_Watt">い、いや、そういう意味じゃないよ。</speak>
- 			<show chara="wattSighClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSilentClose" position="right"/>
- 			<speak chara="_Alice">そうですか……人類はやはり難しいですね。</speak>
- 			<show chara="AliceSilentClose" position="right" opacity="0.8"/>
- 			<show chara="wattSighClose" position="left"/>
- 			<speak chara="_Watt">ま、まあ、落ち込むことはないよ。人類なんて、矛盾の代名詞のようなものだし。</speak>
- 			<show chara="wattSighClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSurprisedClose" position="right"/>
- 			<speak chara="_Alice">……</speak>
- 			<speak chara="_Alice">博士も、同じようなことを言っていました……</speak>
- 			<show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
- 			<show chara="wattRelievedClose" position="left"/>
- 			<speak chara="_Watt">人類は、何をしても利益を得たいけど、リスクは負いたくない。それが出来なければ——せめて見栄だけでも張りたいものだ。</speak>
- 			<show chara="wattSmileClose" position="left"/>
- 			<speak chara="_Watt">人類は、自己欺瞞に長けている。</speak>
- 			<show chara="wattSmileClose" position="left" opacity="0.8"/>
- 			<show chara="AliceShyClose" position="right"/>
- 			<speak chara="_Alice">自己欺瞞……ですか？</speak>
- 			<show chara="AliceSilentClose" position="right"/>
- 			<speak chara="_Alice">……たとえば、たとえばですよ……アリスは、このインターフェイスがあるから、自分のことを少女と名乗っている——みたいなことでしょうか？</speak>
- 			<show chara="AliceSilentClose" position="right" opacity="0.8"/>
- 			<show chara="wattRelievedClose" position="left"/>
- 			<speak chara="_Watt">ふふっ、それ、欺瞞にはならないよね？</speak>
- 			<show chara="wattInspiredClose" position="left"/>
- 			<speak chara="_Watt">アリスが、本当はこのたくさんの計算中枢でしかないとしても……君が自分のことを少女と思えば、君は少女だよ。</speak>
- 			<show chara="wattShyClose" position="left"/>
- 			<speak chara="_Watt">自分のことを人類と思っていないのなら、なおさらその呼び方は、ただの精神的なものにすぎないと思わない？</speak>
- 			<show chara="wattShyClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSurprisedClose" position="right"/>
- 			<speak chara="_Alice">なるほど、そういう考え方もあるのですね……</speak>
- 			<show chara="AliceSmileClose" position="right"/>
+			<speak chara="_Alice">——그러니까 괜찮은 척하지 않으셔도 돼요!</speak>
+			<show chara="AliceDeterminedClose" position="right" opacity="0.8" />
+			<show chara="wattScaredClose" position="left" />
+			<speak chara="_Watt">……미, 미안해.</speak>
+			<show chara="wattScaredClose" position="left" opacity="0.8" />
+			<show chara="AliceSilentClose" position="right" />
+			<speak chara="_Alice">……아니에요……저도……너무 심하게 말했어요. 애초에…… 절 위해 참고 계신 거니까요……</speak>
+			<show chara="AliceSilentClose" position="right" opacity="0.8" />
+			<show chara="wattShyClose" position="left" />
+			<speak chara="_Watt">……</speak>
+			<show chara="wattShyClose" position="left" opacity="0.8" />
+			<show chara="AliceSmileClose" position="right" />
+			<speak chara="_Alice">괜찮아요! 이제 저도 점검하는 데엔 상당히 익숙해진 것 같으니……</speak>
+			<show chara="AliceShyClose" position="right" />
+			<speak chara="_Alice">……지미 씨는 그냥 저와 말동무만 되어주셔도 좋을 것 같아요.</speak>
+			<show chara="AliceShyClose" position="right" opacity="0.8" />
+			<show chara="wattShyClose" position="left" />
+			<speak chara="_Watt">……!</speak>
+			<show chara="wattShyClose" position="left" opacity="0.8" />
+			<show chara="AliceSilentClose" position="right" />
+			<speak chara="_Alice">어라…… 방금 이야기를 어디까지 했더라……</speak>
+			<show chara="AliceSilentClose" position="right" opacity="0.8" />
+			<show chara="wattShyClose" position="left" />
+			<speak chara="_Watt">「앨리스」…… 「앨리스」가 거울을 건넜어.</speak>
+			<show chara="wattShyClose" position="left" opacity="0.8" />
+			<show chara="AliceShyClose" position="right" />
+			<speak chara="_Alice">아! 맞아요!</speak>
+			<hide position="left"></hide>
+			<hide position="right"></hide>
+			<show chara="AliceSmileClose-up" position="center" />
+			<speak chara="_Alice">앨리스가 거울을 건너자마자, 초콜릿으로 만들어진 증기 기관차가, 흰 설탕 같은 연기를 내뿜으며, 정거장에 도착했어요.</speak>
+			<show chara="AliceShyClose-up" position="center" />
+			<speak chara="_Alice">작업복을 입은 다람쥐가 기관실에서 고개를 내밀며 외쳤어요. 「치즈 아일랜즈행 열차가 도착했어요! 치즈 아일랜즈행 열차가 도착했어요!」</speak>
+			<show chara="AliceSurprisedClose-up" position="center" />
+			<speak chara="_Alice">앨리스는 「치즈 아일랜즈」가 어떤 곳인지 몰라서, 역에 있는 소녀에게 물었어요. 「치즈 아일랜즈는 치즈로 가득한 곳인가요?」</speak>
+			<show chara="AliceSmileClose-up" position="center" />
+			<speak chara="_Alice">소녀는 웃으며 대답했어요. 「네, 치즈 아일랜즈는 은하수에서 가장 아름다운 군도랍니다. 고다 치즈로 덮인 황금색 모래 사장과, 블루 치즈로 지은 파란색의 성이 있죠! 케이크 나무와 사탕 꽃도 있는데——전부 먹을 수 있어요!」</speak>
+			<show chara="AliceShyClose-up" position="center" />
+			<speak chara="_Alice">비록 앨리스는 모험을 좋아했지만, 지속 가능한 발전에도 신경쓰고 있었어요. 그래서 앨리스는 다시 물어봤어요. 「치즈나 케이크 같은 단것들…… 계속 먹으면 없어지는 거 아닌가요?」</speak>
+			<show chara="AliceSmileClose-up" position="center" />
+			<speak chara="_Alice">기차역의 소녀는 웃으워하며 말했어요. 「이 말을 못 들어 보셨나 보네요——『자정은 기적의 순간!』 자, 기차가 곧 출발하려 해요! 얼른 타세요!」</speak>
+			<hide position="center"></hide>
+			<show chara="AliceSmileClose" position="right" opacity="0.8" />
+			<show chara="wattRelievedClose" position="left" />
+			<speak chara="_Watt">이야기가…… 갑자기 소녀스럽게 변했네.</speak>
+			<show chara="wattRelievedClose" position="left" opacity="0.8" />
+			<show chara="AliceShyClose" position="right" />
+			<speak chara="_Alice">어라? 그……그런가요?</speak>
+			<show chara="AliceSilentClose" position="right" />
+			<speak chara="_Alice">저는 초콜릿이나 케이크, 치즈 같은 걸 맛보는 게 불가능해요.</speak>
+			<show chara="AliceSurprisedClose" position="right" />
+			<speak chara="_Alice">……사람들은, 이런 고칼로리 음식들을 「소녀스럽다」라고 생각한는 건가요?</speak>
+			<show chara="AliceSurprisedClose" position="right" opacity="0.8" />
+			<show chara="wattSighClose" position="left" />
+			<speak chara="_Watt">……아, 아니, 전혀 그렇진 않아.</speak>
+			<show chara="wattSighClose" position="left" opacity="0.8" />
+			<show chara="AliceSilentClose" position="right" />
+			<speak chara="_Alice">음…… 인류의 문화는 정말 어렵네요.</speak>
+			<show chara="AliceSilentClose" position="right" opacity="0.8" />
+			<show chara="wattSighClose" position="left" />
+			<speak chara="_Watt">저기…… 너무 실망하진 마. 애초에, 「인류」 그 자체도 「모순」의 또 다른 말이니까.</speak>
+			<show chara="wattSighClose" position="left" opacity="0.8" />
+			<show chara="AliceSurprisedClose" position="right" />
+			<speak chara="_Alice">……</speak>
+			<speak chara="_Alice">그 말, 박사님께서도 하셨어요……</speak>
+			<show chara="AliceSurprisedClose" position="right" opacity="0.8" />
+			<show chara="wattRelievedClose" position="left" />
+			<speak chara="_Watt">「인류」라는 건, 모든 이득은 다 원하면서도, 어떻게든 손해는 피하려 해——만약 그럴 수 없다면, 적어도 표면상의 목표라도 지키려고 하지.</speak>
+			<show chara="wattSmileClose" position="left" />
+			<speak chara="_Watt">인류란…… 자기 기만에 능숙하니까.</speak>
+			<show chara="wattSmileClose" position="left" opacity="0.8" />
+			<show chara="AliceShyClose" position="right" />
+			<speak chara="_Alice">자기…… 기만이요??</speak>
+			<show chara="AliceSilentClose" position="right" />
+			<speak chara="_Alice">……예를 들면…… 그러니까 예시로…… 앨리스는 이런 단말 장치를 가지고 있기에, 스스로를 소녀라고 생각한다——이런 건가요?</speak>
+			<show chara="AliceSilentClose" position="right" opacity="0.8" />
+			<show chara="wattRelievedClose" position="left" />
+			<speak chara="_Watt">풉…… 그건…… 기만이 아니지 않을까?</speak>
+			<show chara="wattInspiredClose" position="left" />
+			<speak chara="_Watt">앨리스가 일련의 「연산 중추」로 이루어졌다고 해도…… 너 스스로가 소녀라고 느낀다면, 그, 그게 소녀인 거지.</speak>
+			<show chara="wattShyClose" position="left" />
+			<speak chara="_Watt">게다가, 스스로부터 「인류」와는 다르다고 생각하는데, 그, 그런 호칭은…… 그냥 정신적인 상징에 불과하지 않을까?</speak>
+			<show chara="wattShyClose" position="left" opacity="0.8" />
+			<show chara="AliceSurprisedClose" position="right" />
+			<speak chara="_Alice">음…… 그렇게 생각할 수도 있겠네요……</speak>
+			<show chara="AliceSmileClose" position="right" />
 			<shake position="right" time="250"></shake>
- 			<speak chara="_Alice">わかりました。今後は堂々と少女を名乗ります。ふふっ！</speak>
- 			<show chara="AliceHmClose" position="right"/>
- 			<speak chara="_Alice">……ステータス4マス、黄色いボタン、32番終了。残り26個ですね。</speak>
- 			<show chara="AliceHmClose" position="right" opacity="0.8"/>
- 			<show chara="wattRelievedClose" position="left"/>
- 			<speak chara="_Watt">物語より先に、メンテナンスが終わりそうだ。</speak>
- 			<show chara="wattRelievedClose" position="left" opacity="0.8"/>
- 			<show chara="AliceSurprisedClose" position="right"/>
- 			<speak chara="_Alice">……</speak>
- 			<show chara="AliceSilentClose" position="right"/>
- 			<speak chara="_Alice">メンテナンスが終わったら、ジミーさんは、帰ってしまわれるのですか？</speak>
- 			<show chara="AliceSilentClose" position="right" opacity="0.8"/>
- 			<show chara="wattShyClose" position="left"/>
- 			<speak chara="_Watt">う……そ、そういえば……そうだった——</speak>
- 			<show chara="wattSchemingClose" position="left"/>
- 			<speak chara="_Watt">——でもッ！</speak>
- 			<show chara="wattSchemingClose" position="left" opacity="0.8"/>
- 			<show chara="AliceShyClose" position="right"/>
- 			<speak chara="_Alice">……でも？</speak>
- 			<show chara="AliceShyClose" position="right" opacity="0.8"/>
- 			<show chara="wattSmileClose" position="left"/>
- 			<speak chara="_Watt">「今回」帰る前に、その「アリス」の話を——最後まで聞きたいな！</speak>
- 			<show chara="wattSmileClose" position="left" opacity="0.8"/>
- 			<show chara="AliceShyClose" position="right"/>
- 			<speak chara="_Alice">……！</speak>
- 			<end post="U2FsdGVkX19ElKLrf7n7dD8pOCQG"/>	
-	  </scene>
+			<speak chara="_Alice">알겠어요! 앞으론 당당히  「소녀」라고 말할게요! 헤헤!</speak>
+			<show chara="AliceHmClose" position="right" />
+			<speak chara="_Alice">……4번째 줄, 노란색 버튼, 32호 창고도 끝났어요! 좋아, 이제 26개밖에 안 남았네요!</speak>
+			<show chara="AliceHmClose" position="right" opacity="0.8" />
+			<show chara="wattRelievedClose" position="left" />
+			<speak chara="_Watt">이, 이야기가 끝나기 전에, 점검이 먼저 끝날 거 같네.</speak>
+			<show chara="wattRelievedClose" position="left" opacity="0.8" />
+			<show chara="AliceSurprisedClose" position="right" />
+			<speak chara="_Alice">……</speak>
+			<show chara="AliceSilentClose" position="right" />
+			<speak chara="_Alice">점검이 끝나면…… 지미는…… 떠나겠죠?</speak>
+			<show chara="AliceSilentClose" position="right" opacity="0.8" />
+			<show chara="wattShyClose" position="left" />
+			<speak chara="_Watt">음…… 일단은…… 그러겠지——</speak>
+			<show chara="wattSchemingClose" position="left" />
+			<speak chara="_Watt">——하지만!</speak>
+			<show chara="wattSchemingClose" position="left" opacity="0.8" />
+			<show chara="AliceShyClose" position="right" />
+			<speak chara="_Alice">……하지만?</speak>
+			<show chara="AliceShyClose" position="right" opacity="0.8" />
+			<show chara="wattSmileClose" position="left" />
+			<speak chara="_Watt">이, 「이번」에 떠나기 전에, 나, 난 「앨리스」의 이야기를 끝까지 듣고 싶어!</speak>
+			<show chara="wattSmileClose" position="left" opacity="0.8" />
+			<show chara="AliceShyClose" position="right" />
+			<speak chara="_Alice">……!</speak>
+			<end post="U2FsdGVkX19ElKLrf7n7dD8pOCQG" />
+		</scene>
 	</story>
 </data>
