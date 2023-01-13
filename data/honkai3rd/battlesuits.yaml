@@ -1,3 +1,234 @@
+- id: hotr
+  version: '6.3'
+  name: 'Herrscher of Truth'
+  krName: 진리의 율자
+  type: imaginary
+  valkyrie: bronya
+  features: [ice-dmg, time-mastery, fast-atk, gather, aerial]
+  equipment:
+    - weapon: domain-of-ascension-truth-continuity
+      stigmataTop: bronya-zaychik-top
+      stigmataMid: bronya-zaychik-mid
+      stigmataBot: bronya-zaychik-bot
+      type: recommended
+  leader:
+    core:
+      name: 'Name of the Day: World'
+      krName: 세계, 오늘의 이름
+      description: |-
+        Leader Bonus:
+        All team members deal 35.0% more Elemental DMG. For every non-Bronya battlesuit on the team, enemies receive 10.0% more Ice DMG from Herrscher of Truth in Continuation form (independent effect).
+      krDescription: |-
+        리더로 배치 시 파티원이 버프를 받는다.
+        리더 스킬: 파티원의 모든 원소 대미지가 35.0% 증가한다. 파티에 브로냐가 아닌 캐릭터가 1명 있을 때마다 연속 형태에서 적이 진리의 율자에게 받는 빙결 원소 대미지가 10.0% 증가한다(해당 효과는 독립적으로 부여된다).
+    subskills:
+      - name: Concept of Civilization
+        krName: 무한승화
+        description: |-
+          All team members deal 35.0% more Elemental DMG. For every non-Bronya battlesuit on the team, enemies receive 10.0% more Ice DMG from Herrscher of Truth in Continuation form (independent effect).
+        krDescription: |-
+          파티원의 모든 원소 대미지가 35.0% 증가한다. 파티에 브로냐가 아닌 캐릭터가 1명 있을 때마다 연속 형태에서 적이 진리의 율자에게 받는 빙결 원소 대미지가 10.0% 증가한다(해당 효과는 독립적으로 부여된다).
+  passive:
+    core:
+      name: Dimensional Resonance Drive
+      krName: 차원 교향의 돌파
+      description: |-
+        Passive bonuses apply automatically.
+        Herrscher of Truth will battle together with Project Bunny (summoned entity). Project Bunny will fire a machine gun initially, dealing 6 × 18% ATK of Ice DMG.
+        In Extremum form, Herrscher of Truth can unlock missiles, lasers, and hover guns in order. After unlocking missiles, Project Bunny's attacks will be accompanied by missiles that deal 4 × 15% ATK of Ice DMG. After unlocking lasers, machine gun bullets will be replaced by lasers that deal 3 × 40% ATK of Ice DMG. After unlocking hover guns, lasers will be upgraded into power lasers that deal 3 × 45% ATK of Ice DMG.
+        Continuation form lasts 20s, during which Herrscher of Truth has higher Ignore Interrupt and faster Move Speed, and receives 80% less Total DMG. She also gains different buffs according to what weapons are unlocked. She has a Mech Propulsion meter that maxes out at 100.
+        Extremum form and Continuation form are both Herrscher forms.
+
+        Equip a heavy weapon to use this weapon active in Extremum form:
+        Tap [Weapon] to deal 850% ATK of Ice DMG to locked-on enemies. CD: 14s.
+        Equip a heavy weapon to use this weapon active in Continuation form:
+        Hold [Weapon] to fire continuous lasers that each deal 35% ATK of Ice DMG. CD: 16s. After unlocking lasers, holding [Weapon] will fire 2 extra lasers that each deal 20% ATK of Ice DMG for each laser fired originally. Upon finishing, an explosion occurs to deal 150% ATK of Ice DMG to nearby enemies. After unlocking Hover Gun, with Hover Gun summoned, Hover Gun will fire lasers alongside Weapon Active. Each laser deals 15% ATK of Ice DMG.
+
+        When Herrscher of Truth exits battle or Continuation form ends, the mecha will ram into enemies and generate a black hole that pulls enemies temporarily and deals 100% ATK of Ice DMG. Project Bunny will reappear from the black hole and reset mecha weapon unlocks.
+      krDescription: |-
+        패시브 스킬은 자동으로 발동한다.
+        진리의 율자가 [소환물] 중장 토끼와 함께 전투한다. 중장 토끼가 초기에 기관총 공격을 가해 공격마다 공격력 6 x 18%의 빙결 원소 대미지를 가한다.
+        극값 형태에서 진리의 율자는 조작을 통해 연속 형태에서의 탑재 무장 미사일/레이저/부유포를 순서대로 개방한다. 동시에 미사일 개방 시 중장 토끼의 공격마다 추가로 미사일을 발사해 공격해 4 x 15%의 빙결 원소 대미지를 가한다. 레이저 개방 시 기관총 공격이 레이저 공격으로 변경되어 공격마다 공격력 3 x 40%의 빙결 원소 대미지를 가한다. 부유포 개방 시 레이저 공격이 강화 레이저 공격으로 변경되어 공격마다 공격력 3 x 45%의 빙결 원소 대미지를 가한다.
+        연속 형태는 20초간 지속되며, 경직 저항력 및 이동 속도가 증가하고, 받는 모든 대미지가 80% 감소한다. 또한 개방한 탑재 무장에 따라 버프를 획득하고, 캐릭터가 기체 KP를 보유한다(최대 100pt).
+        극값 형태와 연속 형태는 모두 율자 형태이다.
+        대포 무기 장착 시, 극값 형태 무기 액티브 스킬을 획득한다:
+        무기 버튼 터치 시 고정한 적에게 공격력 850%의 빙결 원소 대미지를 가한다. 재사용 대기시간: 14초
+        연속 형태 무기 액티브 스킬을 획득한다:
+        무기 버튼 터치 시, 지속적으로 레이저를 발사해 레이저마다 전방의 적에게 공격력 35%의 빙결 원소 대미지를 가한다. 재사용 대기시간: 16초. 탑재 무장 레이저 개방 시 연속 형태 무기 액티브 스킬의 레이저마다 추가로 레이저를 2개 발동해 각각 공격력 20%의 빙결 원소 대미지를 가하고, 종료 시 주변 적에게 공격력 150%의 빙결 원소 대미지를 가하는 폭발을 일으킨다. 탑재 무장 부유포 개방 및 부유포 소환 시, 부유포가 무기 액티브 스킬과 동시에 레이저를 발사해 레이저마다 공격력 15%의 빙결 원소 대미지를 가한다.
+        연속 형태의 지속 시간이 종료되거나 진리의 율자 퇴장 시 기갑이 적에게 돌진 후 블랙홀을 생성해 짧은 시간 적을 끌어당기고, 공격력 100%의 빙결 원소 대미지를 가한다. 이후 중장 토끼가 다시 진리의 율자 주변에 생성되며 탑재 무장의 개방 상태가 초기화된다.
+    subskills:
+      - name: Proxy Protocol
+        krName: 프록시 중장 프로토콜
+        description: |-
+          Casting weapon active increases Ice DMG by 30.0% for 18s. Triggering it again refreshes its duration. In Extremum form, it restores an extra 8.0 SP.
+        krDescription: |-
+          무기 액티브 스킬 사용 시, 진리의 율자가 가하는 빙결 원소 대미지가 30.0% 증가한다. 지속 시간: 18초, 중복 발동 시 지속 시간을 갱신한다. 극값 형태에서 추가로 자신의 SP를 4.0pt 회복한다.
+        requiredRank: s2
+      - name: Cyberangel Engine
+        krName: 사이버 엔젤 엔진
+        description: |-
+          For unlocking a mecha weapon, Herrscher of Truth recovers 4 SP. With 1/2/3 mecha weapon(s) unlocked, Continuation form deals 10.0%/20.0%/45.0% more Total DMG and exiting in this form restores 4/10/18 SP to all team members.
+        krDescription: |-
+          탑재 무장을 개방할 때마다 진리의 율자가 SP를 4pt 회복한다. 탑재 무장 1/2/3개 개방 시 연속 형태에서 가하는 모든 대미지가 10.0%/20.0%/45.0% 증가하고, 연속 형태 해제 후 파티원의 SP를 4/10/18pt 회복한다.
+      - name: Creation of the Unknown
+        krName: 미지 기체 창조
+        description: |-
+          When Project Bunny and Project Bunny Mecha are present, Herrscher of Truth recovers 0.5 SP per second, and Valkyries on the field enjoy [Name of the Truth], which increases their Elemental DMG by 10.0% and Basic ATK (including Combo and Charged) DMG by an additional 18.0%.
+        krDescription: |-
+          중장 토끼 또는 중장 토끼 변형 기갑이 전장에 존재할 경우, 진리의 율자가 매초 SP를 0.5pt 회복한다. 또한 전장의 캐릭터가 [진리의 이름]을 획득해 가하는 모든 원소 대미지가 10.0% 증가하고, 기본 공격(분기 및 차지 공격)이 가하는 모든 원소 대미지가 추가로 18.0% 증가한다.
+  evasion:
+    core:
+      name: Snowy Bunny's Exploits
+      krName: 설원 토끼의 모험
+      description: |-
+        Quickly dodge attacks. Can be performed twice in a row.
+        After triggering Ultimate Evasion in Extremum form, tap [ATK] to connect into Basic ATK SEQ 4. After which, hold [ATK] to cast Combo ATK. Extremum form Evasion skill: Tap [ATK] to cast Vector Calculus that deals 500% ATK of Ice DMG, unlocks a mecha weapon on hit, induces global Time Fracture for 3s, and increases Ignore Interrupt for 5s. CD: 12s.
+        In Continuation form with missiles unlocked, tapping [EVA] will also fire 8 missiles that each deal 10% ATK of Ice DMG. Continuation form Evasion skill: Restores 20 Mech Propulsion and fires 8 missiles. If missiles are unlocked, fire 28 missiles instead. CD: 18s.
+      krDescription: |-
+        빠르게 적의 공격을 회피한다. 2회 연속 회피할 수 있다.
+        극값 형태 극한 회피 발동 후 공격 버튼을 터치하면 기본 공격 제4격을 발동한다. 해당 공격 후 공격 버튼을 길게 누르면 분기 공격을 발동한다. 극값 형태 극한 회피 스킬: 공격 버튼 터치 시 [벡터 해석]을 1회 발동해 공격력 500%의 빙결 원소 대미지를 가한다. 적에게 적중 시 탑재 무장을 하나 개방하며, 3초간 전체 시공 단열을 발동하고, 캐릭터의 경직 저항력이 증가한다. 지속 시간: 5초, 재사용 대기시간: 12초
+        연속 형태에서 회피 버튼을 터치했을 때 탑재 무장 미사일이 경우, 미사일을 8개 발사해 목표에게 빙결 원소 대미지를 가한다. 미사일마다 공격력 10%의 빙결 원소 대미지를 가한다. 연속 형태 극한 회피 스킬: 기체 KP를 20pt 회복하고, 목표를 향해 미사일을 8개 발사한다. 탑재 무장 미사일 개방 시, 발사 미사일 수량이 28개로 증가한다. 재사용 대기시간: 18초
+    subskills:
+      - name: Righteous Steel
+        krName: 법칙 초월의 정예
+        description: |-
+          In Continuation form, the missile launch triggered by Ultimate Evasion Skill deals additional 15.0% ATK of Ice DMG, and each missile deals 40.0% more Total DMG.
+        krDescription: |-
+          연속 형태에서 극한 회피 스킬이 발동하는 미사일 공격이 추가로 공격력 15.0%의 빙결 원소 대미지를 가하고, 미사일마다 가하는 모든 대미지가 40.0% 증가한다.
+      - name: Astral Singularity
+        krName: 추광
+        description: |-
+          In Continuation form, non-Ultimate Evasion can also trigger Ultimate Evasion Skill. Triggering Ultimate Evasion restores 400.0 HP to all team members.
+        krDescription: |-
+          연속 형태에서 극한 회피가 아니어도 극한 회피 스킬의 효과를 방동할 수 있다. 극한 회피 스킬 발동 시 파티원의 HP를 400.0 회복한다.
+      - name: Legacy of Sacrifice
+        krName: 전승 계승의 헌신
+        description: |-
+          For every Fire DMG dealer on the team, Herrscher of Truth's initial SP increases by 20.0. Can stack twice. In Open World, can be triggered every 10min.
+        krDescription: |-
+          파티에 화염 원소 대미지 캐릭터가 1명 있을 때마다, 전투 중 진리의 율자 초기 SP가 20.0pt 증가한다. 최대 2회 중첩, 오픈월드에서 초기 SP 증가 효과는 10분마다 1회 발동한다.
+  special:
+    core:
+      name: 'Combo: Chariot of Nizhny Tagil'
+      krName: 분기-니즈니타길의 채리엇
+      description: |-
+        Use a powerful attack that corresponds to the Herrscher Form.
+        Extremum form: After Basic ATK SEQ 4, holding [ATK] after QTE, or Vector Calculus, press [ATK] to pull back and deal 4 × 40% ATK of Ice DMG. Project Bunny will attack in unison to deal 3 × 80% ATK of Ice DMG, then pull enemies and deal 2 × 280% ATK of Ice DMG. This attack unlocks a mecha weapon on hit. You can switch characters during Combo ATK and Herrscher of Truth will stay on the field until it ends.
+        Continuation form: Consume 100 Mech Propulsion to fire a rifle that deals 400% ATK of Ice DMG, along with 2 lasers dealing 50% ATK of Ice DMG, induce global Time Fracture for 2s, lock onto 10 enemies at most, and fire 2 missiles and 1 laser at each enemy. Each missile deals 100% ATK of Ice DMG and each laser deals 40% ATK of Ice DMG, totaling 240% ATK of Ice DMG. If fewer than 4 enemies are present, lock onto each enemy 1 more time. Combo ATK ends with a large explosion that deals 600% ATK of Ice DMG.
+
+        In Continuation form, casting Combo ATK grants her [Echo of the World], which increases Ice DMG by 30% for 18s. Triggering it again refreshes its duration.
+        In Continuation form with hover guns unlocked, casting Combo ATK will summon 4 hover guns (summoned entity) that deal 18% ATK of Ice DMG per attack.
+      krDescription: |-
+        율자 형태에 따라 강력한 공격을 발동한다.
+        극값 형태: 기본 공격 제4격, QTE 후 공격 버튼을 길게 누르거나 [벡터 해석] 후에 공격 버튼을 터치하면 뒤로 일정 거리 물러나 공격력 4 x 40%의 빙결 원소 대미지를 가하고, 중장 토끼가 협동 공격을 발동해 공격력 3 x 80%의 빙결 원소 대미지를 가한다. 이어서 적을 끌어당겨 공격력 2 x 280%의 빙결 원소 대미지를가하고, 적에게 적중 시 탑재 무장을 하나 개방한다. 분기 공격 중 캐릭터를 교대할 수 있으며, 진리의 율자는 공격이 종료될 때까지 전장에 남는다.
+        연속 형태: 기체 KP를 100pt 소모한 후 목표에게 라이플 사격을 가해 공격력 400%의 빙결 원소 대미지를 가한다. 공격마다 공격력 50%의 빙결 원소 대미지를 가하는 레이저를 2회 발사하고, 2초간 전체 시공 단열을 발동하며, 공격이 가능한 적(최대 10기)을 고정해 각각 두 발의 미사일과 한 개의 레이저를 발사한다. 미사일은 각각 공격력 100%의 빙결 원소 대미지를 가하고, 레이저는 각각 공격력 40%의 빙결 원소 대미지를 가해, 총 공격력 240%의 빙결 원소 대미지를 가한다. 전장의 적이 4기 미만일 경우, 전체 적을 각각 추가로 1회 고정한다. 분기 공격 발동 종료 시, 강력한 폭발을 일으켜 범위 내 적에게 공격력 600%의 빙결 원소 대미지를 가한다.
+        연속 형태 분기 공격 발동 시, [세계의 울림]을 획득해 자신이 가하는 빙결 원소 대미지가 30% 증가한다. 지속 시간: 18초, 중복 발동 시 지속 시간을 갱신한다.
+        탑재 무장 부유포 개방 시 연속 형태 분기 공격을 발동하면 부유포 [소환물]을 4개 소환한다. 부유포는 매회 공격력 18%의 빙결 원소 대미지를 가한다.
+    subskills:
+      - name: Forsaken Inscription
+        krName: 신이 버린 땅의 비명
+        description: |-
+          Switching out Herrscher of Truth will consume [Echo of the World] to make all team members deal 30.0% more Fire and Lightning DMG and all enemies receive 30.0% more Fire and Lightning DMG for 18s. Triggering it again refreshes its duration.
+        krDescription: |-
+          진리의 율자 퇴장 시 [세계의 울림]을 소모해 파티원이 가하는 뇌전 및 화염 원소 대미지를 30.0%, 전장의 적이 받는 뇌전 및 화염 원소 대미지를 30.0% 증가시킨다. 지속 시간: 18초, 중복 발동 시 지속 시간을 갱신한다.
+      - name: Icy Crosshair
+        krName: 설원 척살의 저격
+        description: |-
+          In Continuation form, if Combo ATK hits an IMG-type Nihilus Seed whose current phase has below 20% HP, this phase is insta-killed.
+        krDescription: |-
+          연속 형태 분기 공격이 허수 속성 적의 [허무의 씨앗]에 적중했을 때, 현재 [허무의 씨앗] HP가 20% 미만일 경우, 현재 단계의 HP가 즉시 소멸한다.
+      - name: Blue Invitation
+        krName: 감해 끝의 약속
+        description: |-
+          In Continuation form, after consuming Mech Propulsion 1 time, each Ultimate sequence will deal additional 50.0% ATK of Ice DMG. Stacks up to two times, resets after exiting Continuation form.
+        krDescription: |-
+          연속 형태에서 기체 KP를 소모하면 필살기 단계마다 추가로 공격력 50.0%의 빙결 원소 대미지를 가한다. 최대 2회 중첩, 연속 형태 해제 시 초기화된다.
+  ultimate:
+    core:
+      name: Narrative of Infinite Truth
+      krName: 무한 진리의 서사
+      description: |-
+        Uses the primary cannon to bombard enemies.
+        In Extremum form, tap [ULT] to cast Salvo and transform into Continuation form. Deals 800% ATK of Ice DMG to nearby enemies, which restores 20 SP on hit, induces global Time Fracture for 2s (registered as Continuation form Combo ATK). CD: 15s (unaffected by CD reduction). Salvo only happens once as she will enter Continuation form by Return Brake afterward. Deals 350% ATK of Ice DMG to nearby enemies. CD: 15s (unaffected by CD reduction).
+        In Continuation form, tap [ULT] to cast Ultimate that deals 10 × 100% ÄTK of Ice DMG to all enemies. During which, all skill and stage timers are paused.
+
+        SP: 125. CD: 30s. Entering Continuation form refreshes Ultimate CD.
+      krDescription: |-
+        주포로 적을 포격한다.
+        극값 형태에서 필살기 버튼 터치 시 [화력 연계]를 발동해 연속 형태에 진입하고, 주변 적에게 공격력 800%의 빙결 원소 대미지를 가한다. 적에게 적중 시 SP를 20pt 회복하고, 2초간 전체 시공 단열을 발동한다. 해당 효과는 연속 형태 분기 공격으로 간주되어 15초의 재사용 대기시간(재사용 대기시간 감소의 효과를 받지 않는다)을 갖는다. [화력 연계]는 전투 중 한 번만 발동하며, 이후 [귀환 브레이크]로 연속 형태에 진입해 주변 적에게 공격력 350%의 빙결 원소 대미지를 가한다. 15초의 재사용 대기시간(재사용 대기시간감소의 효과를 받지 않는다)을 갖는다.
+        연속 형태에서 필살기 버튼을 터치해 필살기 발동: 전장의 적에게 공격력 10 x 100%의 빙결 원소 대미지를 가하고, 그 기간 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다.
+        발동 소모 SP: 125pt, 재사용 대기시간: 30초.
+        연속 형태 진입 시 필살기의 재사용 대기시간이 초기화된다.
+    subskills:
+      - name: Call of Fading Echoes
+        krName: 세계라는 이름의 잔향
+        description: |-
+          In Continuation form, gain 18.0% Elemental Breach.
+        krDescription: |-
+          연속 형태에서 진리의 율자의 원소 관통이 18.0% 증가한다.
+      - name: The Interpretation of Freedom
+        krName: 자유로 향하는 길의 통역
+        description: |-
+          When Salvo hits, recover an extra 40.0 SP.
+        krDescription: |-
+          [화력 연계]가 적에게 적중할 때마다 진리의 율자가 추가로 SP를 40.0pt 회복한다.
+        requiredRank: sss
+      - name: Devouring Vision
+        krName: 폭군 탐식의 주목
+        description: |-
+          After casting Ultimate, all Fire and Lightning DMG dealers on the team gain 17.0% Elemental Breach for 16.0s.
+        krDescription: |-
+          필살기 발동 시, 화염 및 뇌전 원소 특성 캐릭터가 원소 관통 상태에 진입해 모든 원소 관통이 17.0% 증가한다. 지속 시간: 16.0초
+  basic:
+    core:
+      name: Silver Wolf's Echoes
+      krName: 은랑 비화의 메아리
+      description: |-
+        Use a double-headed spear or a multitude of firearms.
+        Extremum form: A a-sequence combo.
+        SEQ 1: Deals 100% ATK of Ice DMG.
+        SEQ 2: Deals 3 × 120% ATK of Ice DMG.
+        SEQ 3: Deals 180% ATK of Ice DMG. Project Bunny attacks in unison to deal 50% ATK of Ice DMG.
+        SEQ 4: Deals 350% ATK of Ice DMG. Bunny attacks in unison to deal 3 × 50% ATK of Ice DMG. Unlocks a mecha weapon on hit.
+
+        Continuation form: Press or hold [ATK] to launch a 3-sequence combo.
+        SEQ 1: Deals 2 × 20% ATK of Ice DMG.
+        SEQ 2: Deals 50% ATK of Ice DMG.
+        SEQ 3: Deals 3 × 50% ATK of Ice DMG.
+        In this form, Basic ATK restores 5 Mech Propulsion and 1.6 SP on hit. After lasers are unlocked, Basic ATK SEQ 2 will fire 2 lasers and Basic ATK SEQ 3 will fire 4 lasers, each
+        laser dealing 15% ATK of Ice DMG.
+      krDescription: |-
+        창 또는 여러 종류의 무장으로 공격한다.
+        극값 형태: 4연격을 가한다.
+        제1격: 공격력 100%의 빙결 원소 대미지를 가한다.
+        제2격: 공격력 3 x 120%의 빙결 원소 대미지를 가한다.
+        제3격: 공격력 180%의 빙결 원소 대미지를 가하고, 중장 토끼가 협동 공격을 발동해 공격력 50%의 빙결 원소 대미지를 가한다.
+        제4격: 공격력 350%의 빙결 원소 대미지를 가하고, 중장 토끼가 협동 공격을 발동해 공격력 3 x 50%의 빙결 원소 대미지를 가한다. 제4격 적중 시 탑재 무장을 하나 개방한다.
+        연속 형태: 공격 버튼을 길게 누르거나 터치하면 3연격을 가한다.
+        제1격: 공격력 2 x 20%의 빙결 원소 대미지를 가한다.
+        제2격: 공격력 50%의 빙결 원소 대미지를 가한다.
+        제3격: 공격력 3 x 50%의 빙결 원소 대미지를 가한다.
+        연속 형태에서 기본 공격이 적에게 적중할 때마다 기체 KP를 5pt, SP를 1.6pt 회복한다. 탑재 무장 레이저 개방 시 기본 공격 제2격이 추가로 레이저 공격을 2회, 제3격이 추가로 레이저 공격을 4회 가한다. 레이저 공격마다 공격력 15%의 빙결 원소 대미지를 가한다.
+    subskills:
+      - name: 'QTE: The Drive to Destruct Stars'
+        krName: QTE-혜성 파괴의 구동
+        description: |-
+          QTE: Triggered when an enemy is Time-Slowed, frozen, or a teammate casts Weapon Active. Deals 5 × 200.0% ATK of Ice DMG and unlocks a mecha weapon.
+        krDescription: |-
+          QTE: 적이 시공 감속, 빙결 또는 파티원이 무기 액티브 스킬 사용 시 발동해 공격력 5 x 200.0%의 빙결 원소 대미지를 가하고, 탑재 무장을 하나 개방한다.
+      - name: 'Corrupted Barrage'
+        krName: 이도 침식의 압살
+        description: |-
+          Triggers 3.0s global Time Fracture when casting Weapon Active in Continuation form.
+        krDescription: |-
+          연속 형태에서 무기 액티브 스킬 사용 시 3.0초간 전체 시공 단열을 발동한다.
+        requiredRank: sss
+      - name: 'Silverwing: Beyond Eras'
+        krName: 문명 피안의 은익
+        description: |-
+          Project Bunny will help attack when on the field.
+        krDescription: |-
+          중장 토끼가 전장에 존재할 경우, 캐릭터와 협동 공격을 한다.
 - id: cn
   version: '6.2'
   name: Chrono Navi
@@ -1294,7 +1525,7 @@
       krDescription: >-
         [단죄] 기간, 전장의 파티원이 강화를 획득하고 공격에 계율·죄의 심연의 대미지가 추가된다.
 
-        [단죄] 상태에서 계율·죄의 심연은 전장의 캐릭터를 축복한다. 그 기간, 전장의 뇌전 원소 대미지 특성의 캐릭터가 대미지를 가할 경우, 전장의 모든 적에게 추가로 계율·죄의 심연 공격력 135%의 뇌전 원소 대미지를 가한다. 0.4초마다 1회만 발동한다.
+        [단죄] 상태에서 계율·죄의 심연은 전장의 캐릭터를 축복한다. 그 기간, 파티원 중 뇌전 원소 대미지 특성의 캐릭터가 대미지를 가할 경우, 전장의 모든 적에게 추가로 계율·죄의 심연 공격력 135%의 뇌전 원소 대미지를 가한다. 0.4초마다 1회만 발동한다.
 
         [속죄] 카운트가 가득 찼을 때, 공격 버튼을 길게 누르면 계율·죄의 심연이 [예견자의 심판] 상태에 진입해 받는 모든 대미지가 80% 감소하고, 주변의 적에게 지속적으로 뇌폭을 내려 총 공격력 16 x 125%의 뇌전 원소 대미지를 가한다. [속죄] 카운트가 0이 되면, 계율·죄의 심연은 모든 적에게 [제약자의 심판]을 발동해 공격력 1850%의 뇌전 원소 대미지를 가하고, [예견자의 심판] 상태가 해제된다.
     subskills:

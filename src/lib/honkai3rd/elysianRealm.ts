@@ -51,6 +51,10 @@ export const erVersions = [
     version: '6.2',
     battlesuits: ['cn', 'vke'],
   },
+  {
+    version: '6.3',
+    battlesuits: ['hotr', '6s'],
+  },
 ].reverse()
 
 export const erBattlesuits = erVersions.reduce<string[]>((list, version) => {

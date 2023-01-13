@@ -121,20 +121,21 @@ const WeaponShowPage = ({
               <WeaponCard size='sm' weapon={weaponMap[weapon.priWeapon]} />
             </Box>
           )}
-          {weapon.originalWeapons != null && weapon.originalWeapons.length > 0 && (
-            <Box sx={{ p: 2, borderTop: 'default' }}>
-              <Heading as='h4'>{t('weapons-show.original-weapon')}</Heading>
-              {weapon.originalWeapons.map((originalWeaponId) => {
-                return (
-                  <WeaponCard
-                    key={originalWeaponId}
-                    size='sm'
-                    weapon={weaponMap[originalWeaponId]}
-                  />
-                )
-              })}
-            </Box>
-          )}
+          {weapon.originalWeapons != null &&
+            weapon.originalWeapons.length > 0 && (
+              <Box sx={{ p: 2, borderTop: 'default' }}>
+                <Heading as='h4'>{t('weapons-show.original-weapon')}</Heading>
+                {weapon.originalWeapons.map((originalWeaponId) => {
+                  return (
+                    <WeaponCard
+                      key={originalWeaponId}
+                      size='sm'
+                      weapon={weaponMap[originalWeaponId]}
+                    />
+                  )
+                })}
+              </Box>
+            )}
           {/* {weapon.sources != null && (
             <Box sx={{ p: 2, borderTop: 'default' }}>
               <Heading as='h4'>{t('weapons-show.sources')}</Heading>

@@ -1,3 +1,146 @@
+- id: domain-of-ascension-truth-continuity
+  version: '6.3'
+  name: 'Domain of Ascension: Truth Continuity'
+  krName: '승천지경: 이치'
+  category: cannon
+  rarity: 6
+  atk: 436
+  crt: 15
+  battlesuits:
+    - id: hotr
+  originalWeapons:
+    - key-of-ascension
+  sources:
+    - type: pri-weapon-foundry
+  skills:
+    - name: Countable Infinity
+      krName: 가산 무한
+      description: |-
+        Rapid-firing weapon that deals continuous DMG in a straight line. Overheats from extended use. Closer enemies receive more DMG, and those within 10m receive the most DMG.
+        Grants the following buffs based on the number of Elemental DMG dealers on the team:
+        For every Ice DMG dealer, the wielder deals 12.0% more Total DMG.
+        For every Fire DMG dealer, all enemies receive 7.0% more Fire DMG.
+        For every Lightning DMG dealer, Weapon Active restores team SP by 301.0%; CD: 8s.
+        The above buffs can only stack once. Herrscher of Truth equip bonus: The above buffs can stack 3 times (cannot stack with that of the same
+        weapon).
+      krDescription: |-
+        레이저 계열 무기, 직선상의 목표에게 지속적인 대미지를 가하고, 일정 시간 후 오버히트 상태가 된다. 목표가 가까울수록 대미지가 증가하고 10m 이내의 적에게 최대 대미지를 준다.
+        파티 내 원소 대미지 특성 캐릭터 수에 따라 다음 효과가 적용된다:
+        빙결 원소 대미지 특성 캐릭터 1명당 자신이 가하는 모든 대미지가 12.0% 증가한다.
+        화염 원소 대미지 특성 캐릭터 1명당 전장의 적이 받는 화염 원소 대미지가 7.0% 증가한다.
+        뇌전 원소 대미지 특성 캐릭터 1명당 무기 액티브 스킬 사용 시 파티원의 SP를 3.0pt 회복한다. 재사용 대기시간: 8초
+        이상 효과들은 최대 1회만 중첩되며, 진리의 율자가 사용 시 최대 3회까지 중첩된다(하나만 적용).
+    - name: Continuum Hypothesis
+      krName: 연속체 가설
+      description: |-
+        [SP: 0][CD: 18s] Fires a piercing laser that deals 16 x 50.0% ATK of Ice DMG to enemies in its path, and ends with an explosion that deals 200.0% ATK of Ice DMG. Herrscher of Truth equip bonus: In Extremum form, casting weapon active triggers Ultimate Evasion Skill and unlocks a mecha weapon. In Continuation form, casting weapon active restores 50 Mech Propulsion. Basic ATK returns 5 Mech Propulsion upon hit.
+      krDescription: |-
+        [SP 소모: 0][재사용 대기시간: 18초] 레이저로 전방을 관통하고 직선상의 적에게 공격력 16 x 50.0%의 빙결 원소 대미지를 가한다. 종료 시 목표 지점에 큰 범위의 폭발을 일으켜 공격력 200.0%의 빙결 원소 대미지를 가한다.
+        진리의 율자가 사용 시, 극값 형태에서 무기 액티브 스킬을 사용하면 즉시 극한 회피 스킬을 발동하고, 탑재 무장을 하나 개방한다. 연속 형태에서 무기 액티브 스킬 사용 시 기체 KP를 50pt 회복하고, 기본 공격이 적에게 적중 시 추가로 기체 KP를 5pt 회복한다.
+    - name: Beyond Infinity
+      krName: 무한 초월
+      description: |-
+        All team members' Elemental DMG increases by 10.0% (unique effect). After casting Ultimate, this bonus increases to 15.0% for 18s. Triggering it again refreshes its duration. After casting weapon active, the user's Ice DMG increases by 30.0% for 18s. Triggering it again refreshes its duration.
+      krDescription: |-
+        파티원의 모든 원소 대미지가 10.0% 증가한다(하나만 적용). 필살기 사용 시, 해당 효과가 15.0%까지 증가한다. 지속 시간: 18초, 중복 발동 시 지속 시간을 갱신한다. 무기 액티브 스킬 사용 시, 자신이 가하는 빙결 원소 대미지가 30.0% 증가한다. 지속 시간: 18초, 중복 발동 시 지속 시간을 갱신한다.
+- id: key-of-ascension
+  version: '6.3'
+  name: 'Key of Ascension'
+  krName: 승천의 열쇠
+  category: cannon
+  rarity: 5
+  atk: 283
+  crt: 13
+  battlesuits:
+    - id: hotr
+  priWeapon: domain-of-ascension-truth-continuity
+  sources:
+    - type: focused-supply
+  skills:
+    - name: 'ε-δ'
+      krName: 'ε-δ'
+      description: |-
+        Rapid-firing weapon that deals continuous DMG in a straight line. Overheats from extended use. Closer enemies receive more DMG, and those within 10m receive the most DMG.
+        Grants the following buffs based on the number of Elemental DMG dealers on the team:
+        For every Ice DMG dealer, the wielder deals 8.0% more Total DMG.
+        For every Fire DMG dealer, all enemies receive 5.0% more Fire DMG.
+        For every Lightning DMG dealer, Weapon Active restores team SP by 150.0%; CD: 8s.
+        The above buffs can only stack once. Herrscher of Truth equip bonus: The above buffs can stack 3 times (cannot stack with that of the same weapon).
+      krDescription: |-
+        레이저 계열 무기, 직선상의 목표에게 지속적인 대미지를 가하고, 일정 시간 후 오버히트 상태가 된다. 목표가 가까울수록 대미지가 증가하고 10m 이내의 적에게 최대 대미지를 준다.
+        파티 내 원소 대미지 특성 캐릭터 수에 따라 다음 효과가 적용된다:
+        빙결 원소 대미지 특성 캐릭터 1명당 자신이 가하는 모든 대미지가 8.0% 증가한다.
+        화염 원소 대미지 특성 캐릭터 1명당 전장의 적이 받는 화염 원소 대미지가 5.0% 증가한다.
+        뇌전 원소 대미지 특성 캐릭터 1명당 무기 액티브 스킬 사용 시 파티원의 SP를 1.5pt 회복한다. 재사용 대기시간: 8초
+        이상 효과들은 최대 1회만 중첩되며, 진리의 율자가 사용 시 최대 3회까지 중첩된다(하나만 적용).
+    - name: 'Infinite Division'
+      krName: '무한 분할'
+      description: |-
+        [SP: 0][CD: 18s] Fires a piercing laser that deals 16 × 30.0% ATK of Ice DMG to enemies in its path, and ends with an explosion that deals 100.0% ATK of Ice DMG. Herrscher of Truth equip bonus: In Extremum form, casting weapon active triggers Ultimate Evasion Skill and unlocks a mecha weapon. In Continuation form, casting weapon active restores 50 Mech Propulsion. Basic ATK returns 5 Mech Propulsion upon hit.
+      krDescription: |-
+        [SP 소모: 0][재사용 대기시간: 18초] 레이저로 전방을 관통하고 직선상의 적에게 공격력 16 x 30.0%의 빙결 원소 대미지를 가한다. 종료 시 목표 지점에 큰 범위의 폭발을 일으켜 공격력 100.0%의 빙결 원소 대미지를 가한다.
+        진리의 율자가 사용 시, 극값 형태에서 무기 액티브 스킬을 사용하면 즉시 극한 회피 스킬을 발동하고, 탑재 무장을 하나 개방한다. 연속 형태에서 무기 액티브 스킬 사용 시 기체 KP를 50pt 회복하고, 기본 공격이 적에게 적중 시 추가로 기체 KP를 5pt 회복한다.
+- id: echo-of-paradise-time-ruins
+  version: '6.3'
+  name: 'Echo of Paradise: Time Ruins'
+  krName: 과거의 악장·시간의 흔적
+  category: pistol
+  rarity: 6
+  atk: 433
+  crt: 25
+  battlesuits:
+    - id: eden
+  originalWeapons:
+    - echo-of-paradise
+  sources:
+    - type: pri-weapon-foundry
+  skills:
+    - name: 'Domain Break'
+      krName: '장이론 구분점'
+      description: |-
+        [SP: 0][CD: 17s] Unleashes a sound wave to deal 7 × 150.0% ATK of Lightning DMG, inflict 7 × 1 Paralyze Trauma, and increase the team's Lightning DMG by 15% for 20s (unique effect; triggering it again resets the duration.).
+        Golden Diva equip bonus: QTE entry auto-casts the skill.
+        Golden Diva equip bonus: Casting it activates Performance, or Fascination if Performance is already in effect.
+      krDescription: |-
+        [SP 소모: 0][재사용 대기시간: 17초] 음파 충격파를 방출해 공격력 7 x 150.0%의 뇌전 원소 대미지를 가한다. 적에게 마비 게이지를 7 x 1pt 누적하고, 파티원의 뇌전 원소 대미지가 15% 증가한다(하나만 적용). 지속 시간: 20초, 중복 발동 시 지속 시간을 갱신한다.
+        황금·찬란한 노래가 사용 시, QTE 출전하면 자동으로 해당 스킬을 발동한다.
+        황금·찬란한 노래가 사용 시, [연주] 상태를 즉시 활성화한다. [연주] 상태가 이미 활성화되어있다면, [심취] 상태를 활성화한다.
+    - name: 'Peerless Aria'
+      krName: '절세의 노래'
+      description: |-
+        All team members' Total DMG increases by 15.0% (cannot stack). After casting Ultimate, all team members' Total DMG increases by 10.0% for 20s (cannot stack). Triggering it again refreshes its duration.
+      krDescription: |-
+        파티원의 모든 대미지가 15.0% 증가한다(하나만 적용). 필살기 발동 시, 파티원 캐릭터의 모든 대미지가 10.0% 증가한다(하나만 적용된다). 지속 시간: 20초, 중복 발동 시 지속 시간을 갱신한다.
+    - name: 'Floral Harmony'
+      krName: 비화의 멜로디
+      description: |-
+        Lightning DMG increases by 20.0%.
+        Golden Diva equip bonus: After all team members cast weapon active, shoot a note at the target or the nearest enemy per 0.4s for 4s. Enemies hit by it receive 100.0% Golden Diva's ATK of Lightning DMG. CD: 18s. The effect is canceled by exiting.
+      krDescription: |-
+        자신이 가하는 뇌전 원소 대미지가 20.0% 증가한다. 황금·찬란한 노래가 장비 시, 0.4초마다 현재 공격 목표 또는 가장 근접한 적에게 음표를 발사한다. 음표에 적중된 적은 황금·찬란한 노래 공격력 100.0%의 뇌전 원소 대미지를 받는다. 지속 시간: 4초, 재사용 대기시간: 18초 (퇴장 후 효과가 사라진다)
+- id: final-form-destiny
+  version: '6.3'
+  name: 'Final Form: Destiny'
+  krName: 최종형·운명
+  category: gauntlet
+  rarity: 5
+  atk: 294
+  crt: 16
+  battlesuits:
+    - id: hos
+  skills:
+    - name: 'Astral Flow'
+      krName: '별의 흐름'
+      description: |-
+        [SP: 0][CD: 18s] All team members deal ? (35.0% at 5★) more Physical DMG to IMG-type enemies for 15s (unique effect).
+      krDescription: |-
+        [SP 소모: 0][재사용 대기시간: 18초] 파티원이 허수 적에게 가하는 물리 대미지가 35.0% 증가한다(하나만 적용). 지속 시간: 15초
+    - name: 'Karmic Loop'
+      krName: '소스 코드: 인도'
+      description: |-
+        Within 5s of casting Ultimate, all Bleeding enemies' Nihilus Shell receive ? (30.0% at 5★) more Physical DMG (unique effect). CD: 15s.
+      krDescription: |-
+        필살기 사용 시, 전장에 존재하는 출혈 상태의 적 [허무의 껍데기]가 받는 물리 대미지가 30.0% 증가한다(하나만 적용). 지속 시간: 5초, 발동 재사용 대기시간: 15초
 - id: rudder-in-dream-lambda-i
   version: '6.2'
   name: 'Rudder in Dream Λ-I'
@@ -579,6 +722,7 @@
   crt: 13
   battlesuits:
     - id: eden
+  priWeapon: echo-of-paradise-time-ruins
   sources:
     - type: focused-supply
   skills:

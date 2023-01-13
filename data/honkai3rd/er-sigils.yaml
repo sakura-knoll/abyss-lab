@@ -21,8 +21,8 @@
 - id: ruined-legacy
   name: Ruined Legacy
   krName: 잃어버린 시대
-  description: Grants 30 bonus initial SP but consumes 10% current HP after battle.
-  krDescription: 초기 SP가 30pt 증가한다. 전투 종료 후 현재 HP가 10% 감소한다.
+  description: Grants 30 bonus initial SP and restores 5% max HP after the battle.
+  krDescription: 초기 SP가 30pt 증가한다. 전투 종료 후 현재 HP를 5% 회복한다.
 - id: burden
   name: Burden
   krName: 짊어진 것
@@ -236,11 +236,12 @@
   krName: 《너로 인한 이야기》
   description: |-
     Effect: Reset all portals on field once Charge reaches 600.
-    If there are less than 4 Signets of ■■, one of the portals will become an Exclusive Signet Portal.
+    If there are less than 4 Signets of ■■, one of the portals will become an Exclusive Signet Portal (losses effect if Thorny Crown is equipped).
     Charging: Gain 100 Charge for every floor cleared.
+    (unavailable in Flame-Chasers' Trials).
   krDescription: |-
     장신구 효과: 600pt 충전 시, 전장의 모든 포탈을 리셋한다.
-    [■■] 각인 보유 수량이 4개 미만인 경우, 그중 하나는 전용 각인 포탈이 된다.
+    [■■] 각인 보유 수량이 4개 미만인 경우, 그중 하나는 전용 각인 포탈이 된다 (가시 화관 착용 시 무효).
     충전 방식: 스테이지 1층을 클리어할 때마다 100pt 충전한다(영웅 시련 모드에서 사용 불가)
 - id: it-will-be-written
   name: It Will Be Written
