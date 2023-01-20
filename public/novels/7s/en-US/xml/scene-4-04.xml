@@ -6,28 +6,28 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>一歩！</p>
+    <p>﻿One step!</p>
   </mono>
   <transition mode="move" in="1" stop="0.5" out="1" color="#000000" direction="left" custom="default"></transition>
-  <mono pageend="true">武者にとって、一歩はすでに命を賭けるべき距離である。</mono>
+  <mono pageend="true">For a warrior: within a single step is the distance to fight for one’s life. </mono>
   <event action="hide_ui" duration="2.5"></event>
   <motion chara="-5" action="show" pos="center" img="男子举刀"></motion>
   <motion chara="-5" action="hide" delay="2.3"></motion>
   <delay t="2.5"></delay>
   <event action="show_ui"></event>
   <bg img="男子举刀2"></bg>
-  <mono pageend="true">男は刀を振るい、少女の首を取ろうとしたが、青い影にしか当たらなかった。</mono>
+  <mono pageend="true">The brute swung his greatsword and was about to chop off the little girl’s head, but he saw a flash of a shadow. </mono>
   <se id="01-22女孩轻功whoosh_01"></se>
   <transition mode="move" in="0.1" stop="0.1" out="0.1" color="#FFFFFF" direction="left" custom="default"></transition>
   <bg img="PureBlack"></bg>
   <motion chara="-4" action="shake" duration="0.1" range="50" direction="horizontal" looptimes="1"></motion>
-  <mono pageend="true">……少女は消えた。</mono>
+  <mono pageend="true">……The girl disappeared. </mono>
   <motion action="show" pos="center" chara="094" img="砂匪-大叫-远景"></motion>
-  <dialog chara="094">「——何だ！？」</dialog>
+  <dialog chara="094">「-What?!」</dialog>
   <mono pageend="true">
-    <p>彼は本能的に下を見る。</p>
+    <p>He instinctively looked down,</p>
     <p></p>
-    <p>その瞬間、足が痛み出した。</p>
+    <p>only to suddenly feel pain on his left calf;</p>
   </mono>
   <bgm looptimes="0"></bgm>
   <motion chara="094" action="hide" duration="0"></motion>
@@ -45,16 +45,16 @@
   <bg img="氛围_第一折_烈阳2"></bg>
   <mono>
     <p></p>
-    <p>男は地面を見ようとしたが、なぜか目に映ったのは太陽だった。</p>
+    <p>The brute was just looking down at the ground, but he saw the sun instead of the ground. </p>
   </mono>
   <se id="01-24-2男空中旋转衣服"></se>
   <mono chara="094" pageend="true">
     <p></p>
-    <p>（どういう……）</p>
+    <p>(How did…)</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>彼はまだ自分が蹴飛ばされたことに気付いておらず、何か冷たいものがこめかみに触れたと感じただけだった。</p>
+    <p>He hadn't realized that he was kicked into the air, and that something cool poked him on his temple.</p>
   </mono>
   <se id="01-24-1男空中旋转" looptimes="0"></se>
   <se id="01-31颈部命中"></se>
@@ -62,33 +62,30 @@
   <bg img="PureBlack"></bg>
   <mono pageend="true">
     <p></p>
-    <p>——太陽は暗闇に呑み込まれた。</p>
+    <p>——The sun was swallowed by darkness.</p>
   </mono>
   <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
   <bgm id="竹林伏兵"></bgm>
   <bg img="BGDesert02"></bg>
-  <mono>男の体が地に落ちるよりも先に、彼は気絶していた。</mono>
+  <mono>When he was in the air, the brute had fainted.</mono>
   <mono pageend="true">
     <p></p>
-    <p>体を屈めて攻撃を回避し、その勢いのまま男を蹴り、そして指一つで彼を気絶させる——少女はあっという間にそれをこなしてみせた。</p>
+    <p>From the flashing of the greatsword, to kicking the brute with surprising strength, and then knocking him out with a finger. It only took Sushang less than a blink of an eye.</p>
   </mono>
   <event action="hide_ui" duration="0.1"></event>
   <cg img="CG_通用_李素裳战斗-1"></cg>
   <delay t="0.1"></delay>
   <event action="show_ui"></event>
   <mono>
+    <p>Her spirit has been focused like never before.</p>
     <p></p>
-    <p></p>
-    <p></p>
-    <p>彼女の精神は今までにないほど集中している。[\s]</p>
-    <p></p>
-    <p>目の前の敵を倒す以外、少女は何も考えていない。</p>
+    <p>In addition to knocking down the enemy in front of her, there was no more thought in Sushang's mind.</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>それこそが、太虚剣気五蘊の「心蘊」。</p>
+    <p>It was the「Blade Mantra」of the Five Essences of Edge of Taixuan.</p>
     <p></p>
-    <p>入門の一蘊でありながら、最も難しい一蘊でもある。</p>
+    <p>The foundational Essence, yet it was also the most difficult Essence to master. </p>
   </mono>
   <bg img="PureBlack"></bg>
   <cg></cg>
@@ -97,23 +94,23 @@
     <p></p>
     <p></p>
     <p></p>
-    <p>『剣心 - 止水』！</p>
+    <p>『Blade Mantra - Still Water』!</p>
   </mono>
   <transition mode="move" in="0.5" stop="0.5" out="0.5" color="#000000" direction="left" custom="default"></transition>
   <bgm id="竹林伏兵"></bgm>
   <bg img="BGDesert02"></bg>
   <motion chara="095" action="show" pos="left" img="砂匪2-中-普通" reversex="true"></motion>
-  <dialog chara="095">「※！」</dialog>
-  <text>一歩踏み遅れた男は、彼が栄さんと呼んだ男に阻まれ、幸運にも少女と距離を取ることができた。</text>
+  <dialog chara="095">「※!」 </dialog>
+  <text>The man took a step late, but Rong’s body blocked and luckily separated him from the girl. </text>
   <motion chara="094" action="show" pos="right" img="山贼4号近景"></motion>
   <motion chara="099" action="show" pos="center" img="山贼3号中景"></motion>
-  <text>残った三人は合流し、速やかに態勢を整える。</text>
+  <text>The three remaining people quickly readjusted their formation. </text>
   <motion chara="095" action="img_trans" img="砂匪2-中-微笑" reversex="true"></motion>
-  <dialog chara="095">「この女、只者じゃねえ！」</dialog>
-  <text>両隣りの男は返答しない。</text>
+  <dialog chara="095">「This girl is a trained fighter!」</dialog>
+  <text>The other two remained silent.</text>
   <text>
-    <p>しかし、金砂会の古参たちは少しも気にしていない。</p>
-    <p>なぜなら少女は彼らにとって、既に死人に見えていたからだ。</p>
+    <p>There was no answer from either side.</p>
+    <p>The experienced Sand bandits didn’t care about this, because in their eyes, the girl was already a dying person.</p>
   </text>
   <motion chara="099" action="hide" duration="1"></motion>
   <motion chara="094" action="hide" duration="1"></motion>
@@ -121,41 +118,41 @@
   <delay t="1"></delay>
   <transition mode="move" in="0.5" stop="0.5" out="0.5" color="#000000" direction="right" custom="default"></transition>
   <bg img="PureBlack"></bg>
-  <mono inline="true">一方、砂の上にいる少女は突如跳び上がって、</mono>
+  <mono inline="true">At the other end, Sushang laid on the sand, suddenly jumped in a split second, </mono>
   <se id="01-25沙子飞溅"></se>
   <motion chara="-5" action="show" pos="center" img="砂石如瀑"></motion>
   <motion chara="-5" action="hide" delay="0.8"></motion>
   <bg img="飞沙走石2"></bg>
-  <mono>左足で地を蹴り、砂を巻き上げる。</mono>
+  <mono>her left foot kicked the sand towards the men, arousing the sand and rocks like a waterfall.</mono>
   <mono>
     <p></p>
-    <p>砂埃を利用し敵の視線を遮ることで、時間の優勢を手に入れる。</p>
+    <p>Use sand to cover the enemy’s sight in exchange for a valuable time advantage.</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>環境を最大限利用できれば、勝利の可能性を最大限に引き上げられる。</p>
+    <p>Use every point of the venue factor to maximize the possibility of winning.</p>
     <p></p>
-    <p>それが少女の考えだ。</p>
+    <p>This was Sushang's way of thinking. </p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>しかし、それも敵たちに読まれている。</p>
-  </mono>
-  <mono>
-    <p></p>
-    <p>広い砂漠で何年も生きてきた盗賊たちは、そういう戦い方をとっくに身につけていたからだ。</p>
-  </mono>
-  <mono pageend="true">
-    <p></p>
-    <p>少女よりも、彼らのほうが詳しいとも言える。</p>
+    <p>But this was also what the enemy expected.</p>
   </mono>
   <mono>
     <p></p>
-    <p>少女が砂を蹴り上げることは別に変わったことではない。過去に対峙した敵もそうしたからだ。</p>
+    <p>Due to many years in the Northern Desert, the bandits have long been familiar with this style of tricks. </p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>しかしそれで慌てると思ったら、それこそ金砂会を甘く見過ぎている。</p>
+    <p>It’s better to say that they were the most proficient in these same tactics.</p>
+  </mono>
+  <mono>
+    <p></p>
+    <p>Girl kicked up the sand, which was not surprise, as the enemies they faced in the past always did the same.</p>
+  </mono>
+  <mono pageend="true">
+    <p></p>
+    <p>But if she thought they would be in a hurry because of this, then she was underestimating the Sand bandits.</p>
   </mono>
   <transition mode="fade" in="1" stop="0.5" out="3" color="#000000"></transition>
   <cg img="氛围_第一折_金沙帮众"></cg>
@@ -163,16 +160,16 @@
   <mono>
     <p></p>
     <p></p>
-    <p>——漠北強盗団「金砂会」はここ6年間、神州とインユウの辺境で活躍している組織だ。</p>
+    <p>——The「Golden Sand Gang」of the Northern Desert has been operating on Shenzhou, Ingush, and Bahai’s border for over six years. </p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>彼らのすることはまさに流賊——諸国の隊商を相手に貴重な品物を奪い、男と老人を殺し、女と子供を奴隷に売る。</p>
+    <p>What they did was the work of bandits: robbing caravans that went to and from countries, snatching precious goods, killing men and old people, and selling women and children into slavery.</p>
   </mono>
   <mono pageend="true">
     <p></p>
     <p></p>
-    <p>しかし普通の流賊と比べ、金砂会は規律を重んじる。</p>
+    <p>But compared to other bandits, the Sand bandits were more disciplined.</p>
   </mono>
   <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
   <bgm looptimes="0"></bgm>
@@ -181,33 +178,35 @@
   <delay t="1"></delay>
   <bgm id="传奇诞生"></bgm>
   <text>
-    <p>話によると、金砂会の首領「鷹」はもともと軍隊出身だった。[\s]</p>
-    <p>冤罪に遭い、左遷され、一族はその影響を受けた。</p>
+    <p>Legend has it that the leader of the Golden Sand Gang,「Eagle」, was of military background.</p>
+    <p>However, he was relegated for unjust crimes, and the whole clan was implicated.</p>
   </text>
   <bg img="PureBlack"></bg>
   <motion chara="015" action="show" pos="center" img="老鹰-悲伤-扭头-远景"></motion>
-  <text>怒りに満ちた「鷹」は漠北にやってきて、金砂会に加入した。</text>
-  <text>彼は刀一本と生首一つだけで、たった一日で首領の座に上り詰めた。</text>
+  <text>「Eagle」came to the Northern Desert and out of rage, became a bandit, and joined the gang. </text>
+  <text>It only took him a day, a knife and an intelligent mind to ascend the position of the leader.</text>
   <motion chara="015" action="img_trans" img="老鹰-狞笑-扭头-远景"></motion>
-  <text>そして前首領の名前は、二度と語られなくなった。</text>
-  <notification>伝記解放：「鷹」</notification>
+  <text>No one dared to mention the name of the previous bandit leader since then.</text>
+  <notification>Biography unlocked：「Eagle」</notification>
   <event action="achievement" aid="c6045ef06bed0a3f"></event>
   <text>
-    <p>構成員が「鷹」を恐れているのは、彼が悪辣非道だからだ。[\s]</p>
-    <p>構成員が「鷹」を敬服しているのは、彼が常に無敗だからだ。</p>
+    <p>The gang feared「Eagle」because he was ruthless; </p>
+    <p>The gang respected「Eagle」, because he always won and was undefeated.</p>
   </text>
   <text>
-    <p>この男の出現は、金砂会に激しい変化をもたらした。[\s]</p>
-    <p>かつての流賊は規律を守る小さな勢力になり、漠北一帯の支配者となった。</p>
+    <p>After becoming the new boss, he brought about earth-shaking changes to the Golden Sand Gang. </p>
+  </text>
+  <text>
+	<p>The gang went from former bandits to becoming a small disciplined group, the overlord of the land along the border of the Northern Desert.</p>
   </text>
   <motion chara="015" action="hide" img="老鹰-普通-玩玉-远景"></motion>
   <text>
-    <p>構成員たちは朝晩、武術の稽古をしなければならない。[\s]</p>
-    <p>稽古が終わった後は、軍隊のような訓練が始まる。</p>
+    <p>The bandits must have practiced martial arts at one point or another, and practiced diligently. </p>
+    <p>After martial arts training was completed, they were trained in military arts.</p>
   </text>
   <text>
-    <p>「鷹」は飽きもせず、彼らに陣形、変化、団結、それから様々な合図や命令を教えた。[\s]</p>
-    <p>彼が欲していたのはまとまりのない盗賊団ではなく、軍隊そのものであった。</p>
+    <p>「Eagle」tirelessly taught formation, changes, coordination, and various signals and commands. </p>
+    <p>What「Eagle」wanted was not a sloppy bandit group, but an army.</p>
   </text>
   <bgm looptimes="0"></bgm>
   <event action="goto" to="05"></event>
