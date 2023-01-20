@@ -1,242 +1,241 @@
 <scene id="09" prev="08" title="地下牢">
   <transition mode="fade" in="0" stop="0.5" out="1" color="#000000"></transition>
   <bg img="PureBlack"></bg>
-  <text>李素裳は元々、深夜まで大人しく待とうとしていた。そして、決して音を出さないと決めていた。</text>
+  <text>Li Sushang had originally made up her mind to stay until late at night without making any noise. </text>
   <event action="hide_ui" duration="1.5"></event>
   <motion chara="002" action="show" pos="center" img="素裳-欸真的吗-普通-近景" duration="2"></motion>
   <delay t="1.5"></delay>
-  <dialog chara="002">「……うまく行くのかな？」</dialog>
-  <text>しかし30分も経たないうちに綺麗に約束を破り、彼女は独り言を呟き始める。</text>
+  <dialog chara="002">Li Sushang:「……Will the plan go smoothly?」</dialog>
+  <text>Before a single incense of time has run out, she couldn’t help murmuring to herself, breaking the previous deal cleanly. </text>
   <bgm id="佛心禅悟"></bgm>
   <motion chara="002" action="hide"></motion>
   <transition mode="clock" in="1" stop="0.5" out="1" color="#000000"></transition>
-  <text>よく考えてみれば、その約束というのも、彼女がとっさに思いついたものに過ぎない。</text>
+  <text>Thinking back, this whole deal was just a spur of the moment thing. </text>
   <cg img="CG_第一折_李素裳1"></cg>
-  <text>2時間前のことだ。李素裳は金砂会の4人の門番を倒し、彼らから情報を聞き出した。</text>
-  <dialog chara="002" inline="true">「……113人？今夜戻る？</dialog>
+  <text>An hour ago, Li Sushang defeated the four guards of the Golden Sand Gang and interrogated them. </text>
+  <dialog chara="002" inline="true">Li Sushang:「……A hundred and thirteen people? Coming back tonight? </dialog>
   <dialog chara="002">
     <p></p>
-    <p>思ったよりずっと多い。まずいな……」</p>
+    <p>It’s more than I expected, really hard to handle…」</p>
   </dialog>
   <cg img="CG_第一折_李素裳2"></cg>
   <dialog chara="002">
-    <p>「ねえ、アタシよりも『鷹』に詳しいんだよね……</p>
-    <p>もし、一対一で勝負したいって言ったら、彼は受け入れてくれると思う？」</p>
+    <p>Li Sushang:「Hey, you know 「Eagle」 better than me…</p>
+    <p>say, if I want to fight him one on one, would he accept it?」</p>
   </dialog>
-  <dialog chara="095">「お、お前、一体何者だ！？」</dialog>
-  <text>男は見当違いな答えを口にする。</text>
+  <dialog chara="095">Man:「Who, what kind of person are you?!?」</dialog>
+  <text>He didn’t answer her question. </text>
   <cg img="CG_第一折_李素裳1"></cg>
   <dialog chara="002" inline="true">
-    <p>「はぁ……[\s]</p>
-    <p>アタシは李素裳、『自在門』の一番弟子。</p>
+    <p>Li Sushang: 「Aye… </p>
+    <p>I’m Li Sushang, Eldest Disciple of『Wanderer’s House』.」</p>
   </dialog>
   <dialog chara="002">
     <p></p>
-    <p>話を逸らさないで、まだ答えをもらってないよ。」</p>
+    <p>Don’t change the subject, you haven’t answered me yet.」</p>
   </dialog>
   <dialog chara="095">
-    <p>「何を言って……自在門……</p>
-    <p>……誰だ！？……」</p>
+    <p>Man:「What are you saying… Wanderer’s House… </p>
+    <p>Who the hell are you?!…」</p>
   </dialog>
   <text>
-    <p>男は、少女の話をデタラメだと思っているようだ。</p>
-    <p>李素裳は相手とは意思疎通できないと判断し、無視することにした。</p>
+    <p>The man thought what the girl said was a bunch of crazy talk.</p>
+    <p>Li Sushang felt that she couldn’t communicate with this person at all, and simply ignored him.  </p>
   </text>
   <cg></cg>
   <bg img="BGDesert01" duration="1"></bg>
   <motion chara="002" action="show" pos="center" img="素裳-专注-抱手-近景" duration="1"></motion>
   <dialog chara="002">
-    <p>（100人以上もいて、規律に従う？……そんなの面倒過ぎる。</p>
-    <p>今回の目的は「鷹」との勝負、それだけなのに。）</p>
+    <p>Li Sushang: (Over a hundred people, should I do it by the rules? …Too troublesome.</p>
+    <p>The purpose of the trip was just to fight 「Eagle」.)</p>
   </dialog>
   <text>
-    <p>師匠の、[em color=#FAFAD2]「金砂会を知っている？彼らの頭を倒してきて。」[/em]という言葉は、</p>
-    <p>簡単そうに聞こえるが、そのせいで正直者の弟子はかなり困っていた。</p>
+    <p>Master said casually [em color=#FAFAD2]「You know the Golden Sand Gang? Go beat their boss and come back.」[/em]</p>
+    <p>It was easy to say, but it gave this honest disciple a headache. </p>
   </text>
   <motion chara="002" action="img_trans" img="素裳-悲伤目下-普通-近景"></motion>
-  <text>少女はため息をつき、他に方法はないかと考え始めた。</text>
-  <dialog chara="002">「む……」</dialog>
-  <text>彼女の人生経験はまだ浅く、参考にできるのは父親、乳母、それから村の語り部から聞いた話だけ。</text>
-  <text>「真仙」こと、精衛真人……[\s]「軽塵剣」こと、林朝雨……[\s]「百里逐駒」こと、馬非馬……</text>
+  <text>The girl sighed and tried to come up with a plan.</text>
+  <dialog chara="002">Li Sushang:「Hmmm…」</dialog>
+  <text>She has very little experience, and the only things she could learn from were stories she had heard from her father, mother, and the storyteller in the village. </text>
+  <text>「True Celestial」 Empyrea Phoenix……[\s] 「Willowfoil」 Lin Zhaoyu……[\s] 「Tireless Courser」 Ma Feima…… </text>
   <text>
-    <p>武術界で有名な名前が次から次へと現れ、また次から次へと少女に否定されていく。</p>
-    <p>それらは名の知れた達人だ。自分のような境遇に陥ることなどある筈がない。</p>
+    <p>The names that sounded thunderous in the Jianghu Society appeared one by one, and then she eliminated them one by one. </p>
+    <p>These were all well-known experts, and they have never landed themselves in a predicament like her. </p>
   </text>
-  <dialog chara="002">「何かいい案はないのかな……」</dialog>
+  <dialog chara="002">Li Sushang:「What’s my trick…」</dialog>
   <text>
-    <p>[em italic]閻世羅……[/em][\s]</p>
-    <p>不思議な力に導かれたかのように、40年前に存在した武術の怪傑の名が少女の頭に浮かんだ。</p>
+    <p>[em italic]Yan Shiluo……[/em][\s]</p>
+    <p>Like a ghost, the strange Martial Arts hero from 40 years ago appeared in the girl’s mind. </p>
   </text>
-  <text>彼女は一度だけ、語り部からその話を聞いたが、はっきりと覚えている。</text>
-  <text>『武術界の豪傑たちが蓮花大会に集い、魔教討伐について話し合っていた。そこに変装した聖火教聖主、閻世羅が潜入しているとも知らずに。』</text>
-  <text>『閻世羅は大会当日、少、蓮、華の三派の門主に勝ち、玉蓮台に火を放ち笑いながら去った。』</text>
-  <text>[em italic]変装して潜入……[/em]</text>
+  <text>She had only heard the story once, but she remembered it unexpectedly and firmly: </text>
+  <text>『All the heroes of the Jianghu Society gathered at the Lotus Conference to discuss a plan to attack the Fire Cult.』</text>
+  <text>『Unexpectedly Angra Atar’s Ahura Yan Shiluo was lurking in disguise, and on the day of the conference he defeated the heads of three gathering sects Shao, Lian, and Hua, set fire to the Lotus Terrace, and went away laughing.』</text>
+  <text>Lurking in disguise…</text>
   <motion chara="002" action="img_trans" img="素裳-小恶魔-普通-近景"></motion>
-  <dialog chara="002">（あった！）</dialog>
-  <text>少女はようやく参考になる方法を思いついた。</text>
+  <dialog chara="002">Li Sushang: (Got it!)</dialog>
+  <text>The girl finally concocted a worthy plan.</text>
   <motion chara="002" action="hide"></motion>
   <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
   <cg img="CG_第一折_李素裳1"></cg>
-  <text>李素裳は男の頭に指を当てる。力は入っていなかったが、男は息を呑んだ。</text>
-  <dialog chara="002">「ちょっと、動かないで。あんたを殺していないのは、話し合いがしたいからだよ。」</dialog>
-  <dialog chara="095">「頭のおかしい奴め……な、何がしたいんだ？」</dialog>
-  <dialog chara="002">「首領が戻ってきて、あんたたちがアタシにボコボコにされたって知ったらきっと怒るよね。そして、あんたたちにお仕置きする。違う？」</dialog>
-  <text>男は返答しなかったが、図星だと察した少女は上機嫌で話を続けた。</text>
+  <text>Li Sushang's finger pressed lightly against the back of the man's head, with extremely soft force, but the person under her took a nervous breath.</text>
+  <dialog chara="002">Li Sushang:「Hey, don't move, I won't kill you. I just want to make a deal with you.」</dialog>
+  <dialog chara="095">Man: [You crazy girl… you, what do you want to do?」</dialog>
+  <dialog chara="002">Li Sushang:「Your leader will be back soon. If you let him know that you were beaten like this by me, he will be furious and punish you severely, right?」</dialog>
+  <text>The man didn't speak, and Sushang took this as true, and went on happily.</text>
   <cg img="CG_第一折_李素裳2"></cg>
   <dialog chara="002">
-    <p>「一つ提案がある。アタシの計画通りにしてくれれば、彼にバレないと思うんだ。</p>
-    <p>仲間を呼んできて。話し合いをしよう……」</p>
+    <p>Li Sushang:「I have a suggestion. Follow my plan and make sure he doesn't know anything.</p>
+    <p>Go and call your companions. Let's make an agreement first…」</p>
   </dialog>
   <transition mode="shutter" in="1" stop="0.5" out="1" color="#000000"></transition>
   <cg></cg>
   <bg img="牢房-暗"></bg>
-  <text>こうして、少女は「自発的に」地下牢に入った。</text>
-  <text>『地下牢』は元々、宿場の穴蔵だ。金砂会がこの場所を占領した後、機能自体は変わらなかったが、蓄えるものが食料品から生きている人間になった。</text>
-  <text>強盗たちが略奪した「品物」はここに入れられる。バイホイの奴隷商人が月一で訪れ、地下牢を綺麗にし、相当の金銭を残していく。ここ数年間、この「宿場」の運営は非常に順調であった。</text>
+  <text>So, the girl「voluntarily」squatted in the Dark Dungeon.</text>
+  <text>『The Dark Dungeon』was originally the cellar of this Stop. Since the Golden Sand Gang took over this place, its function hadn’t changed, except the stored items were replaced by living people instead of food. </text>
+  <text>The bandits’ looted「goods」were thrown into here, and hundreds of slave merchants visited clean the dungeon and leave the equivalent worth of gold and silver. For several years, the operation of this「Stop」has been very smooth.</text>
   <text>
-    <p>しかし自らやってきて、「品物」の振りをしてこっそり地下牢に入ってきた人間は、</p>
-    <p>金砂会が占領して以来、おそらく李素裳が初めてかもしれない。</p>
+    <p>But to snuck into the dungeon and pretended to be「goods」uninvited,</p>
+    <p>Li Sushang was probably the first one who did it.</p>
   </text>
   <transition mode="clock" in="1" stop="0.5" out="1" color="#000000"></transition>
   <bg img="牢房-暗"></bg>
   <motion chara="002" action="show" pos="center" img="素裳-标准-抱手-近景"></motion>
-  <text>地下牢は暗くて、湿っぽい。臭い匂いがする。時々すすり泣く声が聞こえるが、しばらくして、また静かになる。</text>
+  <text>The dungeon was dark and damp, filled with a foul scent, occasionally there were low sobbing sounds from unknown cells, sometimes there were moments of silence. </text>
   <text>
-    <p>素裳は枯草を整え、その上に大人しく座り、</p>
-    <p>『剣心訣』の黙読で時間を潰そうとした。</p>
+    <p>Sushang spread out a makeshift mat with only a few withered weeds,</p>
+    <p>sat down properly, and recited the『Blade Mantra Swara』to pass time.</p>
   </text>
   <motion chara="002" action="hide"></motion>
   <bg img="PureBlack" duration="2"></bg>
   <mono pageend="true">
     <p></p>
-    <p>剣心訣は『太虚剣気』の入門となる内功、</p>
-    <p>武術界の誰もが求める奇術である。[\s]</p>
+    <p>The Blade Mantra Swara is the introductory mental method of『Edge of Taixuan』, </p>
+    <p>It was a unique skill highly coveted by everyone in the Jianghu Society.</p>
     <p></p>
-    <p>しかし剣心訣の正体が、奇妙で不可解な音節であることを、ほとんどのものが知らない。</p>
+    <p>But unbeknownst to most, the true body of the Blade Mantra Swara were just strange and inexplicable syllables. </p>
   </mono>
   <mono pageend="true" inline="true">
     <p></p>
-    <p>その音節には形式がなく、文字で表現することもできない。</p>
-    <p>気の流れを教えるわけではなく、体の鍛え方を教えるわけでもない。</p>
-    <p>『口訣』とはいうものの、実際何の意味もない。</p>
+    <p>The syllables are formless, they are indescribable by words;</p>
+    <p>It teaches neither Ki movement, nor does it guide body training;</p>
+    <p>The so-called『Blade Mantra Swara』, was absolutely meaningless.</p>
   </mono>
   <mono>
     <p></p>
-    <p>何も知らない状況で剣心訣を聞いたとしても、うわ言としか思えず、</p>
-    <p>それが神州の武術界の頂点に立つ、無双の神業だとは誰も考えないだろう。[\s]</p>
+    <p>If you listened to the Blade Mantra Swara, you would treat it as the babble of an idiot in a dream. </p>
+    <p>It was impossible to think that this was the magnificent technique that reigned on top of the martial arts in Shenzhou for thousands of years.  </p>
     <p></p>
-    <p>実は、その奥深さはここにあるのだ。</p>
+    <p>As everyone knows, the mystery lies in this:</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>暗唱、黙読、そして、聞くこと。それが心の鍛錬となる。</p>
+    <p>Recitation, meditation, and listening were training of the mind.</p>
   </mono>
   <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
-  <dialog chara="002">「……モー……タラリ……モー……ラクラ……」</dialog>
+  <dialog chara="002">Li Sushang:「…Mu… talali… mu… nokulo…」</dialog>
   <text>
-    <p>言葉には力がある。[\s]</p>
-    <p>素裳にはその中身を理解できないが、確実に『心』の変化を感じ取れた。</p>
+    <p>The words have power. </p>
+    <p>Sushang may not understand it, but she did feel the transformation of her『Heart』. </p>
   </text>
-  <text>言葉の響き、韻律の起伏と共に、剣心訣はまるで血液に溶けるかのように、体の奇経を巡る。</text>
-  <dialog chara="002">「モー、マリ。」</dialog>
+  <text>With the reverberation of the words, the ups and downs of the rhythm, the Blade Mantra Swara seemed to seep through the blood, wandering in the eight strange channels of the meridian. </text>
+  <dialog chara="002">Li Sushang:「Mu, mali.」</dialog>
   <bg img="心湖（1）止水" duration="10"></bg>
   <text>
-    <p>体はますます軽くなり、頭の中も澄んでいく。</p>
-    <p>五感が一箇所に集い、心の湖に溶ける。</p>
+    <p>The body became lighter and lighter, the mind no longer stirred.</p>
+    <p>The five senses converged into a single place, in a single Heart Lake.</p>
   </text>
-  <dialog chara="002">「モー、ウールト。」</dialog>
-  <text>湖は透き通っていて、憂慮が古い葉のように湖面に落ちても、さざ波にすらならない。</text>
-  <dialog chara="002">「モー、カバイスル。」</dialog>
-  <text>波が落ち着き、水が止まる。平静は「李素裳」という存在に満ちている。</text>
+  <dialog chara="002">Li Sushang:「Mu, Wuliute.」</dialog>
+  <text>The lake was clear and transparent, a few melancholy leaves fell on the lake surface, yet they didn’t make a ripple. </text>
+  <dialog chara="002">Li Sushang:「Mu, kabayisiliu.」</dialog>
+  <text>The waves are calm, the water silent. It calmly reflected the existence of [Li Sushang]. </text>
   <text>
-    <p>それが、剣心四境の一つ。</p>
-    <p>——『止水』。</p>
+    <p>This is the first out of the four stages of the Blade Mantra</p>
+    <p>-『Still Water』. </p>
   </text>
-  <dialog chara="002">（続けよう……）</dialog>
+  <dialog chara="002">Li Sushang: (Continue…)</dialog>
   <text>
-    <p>素裳は雑念を捨て、剣心に集中する。</p>
-    <p>次の境界へと入る——</p>
+    <p>Sushang rid herself of trivial thoughts, transforming the Blade Mantra further.</p>
+    <p>Climbing the next level——</p>
   </text>
   <event action="hide_ui" duration="5"></event>
   <bg img="心湖（2）无尘" duration="5"></bg>
   <delay t="4.5"></delay>
   <text>
-    <p>心の湖が氷となり、</p>
-    <p>些細な考えを払い、少しの痕跡をも残さない。</p>
+    <p>The Heart Lake condensed to ice,</p>
+    <p>Brushing away all irrelevant thoughts, without leaving a single trace. </p>
   </text>
-  <text>第二境——『無塵』</text>
-  <dialog chara="002">（もっと……）</dialog>
+  <text>Second Stage -『Dustless』. </text>
+  <dialog chara="002">Li Sushang (Again…)</dialog>
   <event action="hide_ui" duration="5"></event>
   <bg img="心湖（3）明镜" duration="5"></bg>
   <delay t="4.5"></delay>
   <text>
-    <p>硬い氷のひびは消えてなくなる。</p>
-    <p>心の湖は限りなく透明に近く、万物を照らす。</p>
+    <p>The cracks of the hard ice disappear without a trace,</p>
+    <p>and the Heart Lake becomes almost infinitely transparent, its light illuminating all creations. </p>
   </text>
-  <text>第三境——『明鏡』</text>
-  <text>それは十数年の修行を経て、李素裳が悟った『剣心』の在処でもある。</text>
+  <text>Third Stage -『Clear Mirror』</text>
+  <text>After ten years of training, this is the stage of the [Blade Mantra] that Li Sushang has cultivated. </text>
   <text>
-    <p>しかしその上には剣心の最高境界……</p>
-    <p>この世で師匠だけが到達した第四境がある……それは……</p>
+    <p>But above this, there is the Blade Mantra’s highest stage…</p>
+    <p>Only her Master had reached the fourth stage in the world… that is…</p>
   </text>
   <event action="hide_ui" duration="5"></event>
   <bg img="心湖（4）太虚" duration="5"></bg>
   <delay t="5"></delay>
-  <text>…………『太虚』…………</text>
+  <text>…………『Taixuan』…………</text>
   <bg img="PureBlack" duration="0"></bg>
   <motion chara="-4" action="shake" duration="0.2" range="40" direction="default"></motion>
-  <dialog chara="002">「あっ——」</dialog>
+  <dialog chara="002">Li Sushang:「Ah——」</dialog>
   <bgm looptimes="0"></bgm>
   <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
   <bg img="牢房-暗"></bg>
   <motion chara="002" action="show" pos="center" img="素裳-疲惫无神-抱手-近景"></motion>
   <text>
-    <p>氷面が急に割れ、心の湖が流れ、剣心訣も頭の中から消散する。[\s]</p>
-    <p>李素裳はその場に座ったまま、激しい頭痛に襲われた。知らぬ間に、背中は冷や汗で濡れている。</p>
+    <p>The ice surface suddenly shattered, the Heart Lake dispersed, Blade Mantra had also withdrawn from her mind. </p>
+    <p>Li Sushang sat there blankly, with a splitting headache, and realized her back was drenched with cold sweat. </p>
   </text>
   <motion chara="002" action="img_trans" img="素裳-绝望张嘴-抱手-近景"></motion>
-  <dialog chara="002">「また……失敗しちゃった。」</dialog>
-  <text>『明鏡』に到達した後、素裳の剣心は止まっていた。</text>
-  <dialog chara="002">「……どうしてかな？」</dialog>
-  <text>師匠は2歳で弟子入りしている。入門した年齢が最も早いから、剣心の境界も弟子の中で最も高いのだと、母親は言っていた。</text>
+  <dialog chara="002">Li Sushang: [Failed again…」</dialog>
+  <text>Ever since she reached『Clear Mirror』, Sushang couldn’t make further progress with her Blade Mantra. </text>
+  <dialog chara="002">Li Sushang: […Why?」</dialog>
+  <text>Mother said that Master had been a teacher since she was two, she was the earliest one to get started, so her Blade Mantra stage was the highest. </text>
   <text>
-    <p>しかし自分は、生まれた時から母親が暗唱した剣心訣を聞いて育っている。</p>
-    <p>師匠よりも早く進展するはずなのでは？</p>
+    <p>But ever since I was born, I have been hearing Mother chanting the Blade Mantra Swara day and night,</p>
+    <p>so shouldn’t I progress faster than Master?</p>
   </text>
   <motion chara="002" action="img_trans" img="素裳-悲伤目前-普通-近景"></motion>
   <text>
-    <p>師匠は13歳の時に『太虚』に到達し、</p>
-    <p>15歳の若さで無上『剣神』となった。</p>
+    <p>Master realized『Taixuan』when she was only thirteen,</p>
+    <p>and achieved『Eminence』at only fifteen. </p>
   </text>
   <motion chara="002" action="img_trans" img="素裳-悲伤目下-普通-近景"></motion>
   <text>
-    <p>自分はどうだろう？同じ15歳になったというのに……[\s]</p>
-    <p>『剣心』が円満になっていないだけではなく、</p>
-    <p>『剣意』もままならない。</p>
+    <p>What about me? I’m also fifteen now…</p>
+    <p>I haven’t fully cultivated『Blade Mantra』yet,</p>
+    <p>And I have no clue where I should start with『Blade Sanction』. </p>
   </text>
   <text>
-    <p>この二つの難題を克服したとしても、</p>
-    <p>その先には「神」蘊が立ちはだかっている。まるで雲霧の中にいるかのように、よく見えないのだ。</p>
+    <p>Even after overcoming these two peaks, </p>
+    <p>There is still the essence of「Eminence」standing above them, shrouded by clouds, and wasn’t visibly real. </p>
   </text>
-  <dialog chara="002">「……」</dialog>
-  <dialog chara="002">「あちゃー。」</dialog>
-  <text>李素裳はボーっとして、それから、ふと笑った。</text>
+  <dialog chara="002">Li Sushang:「…」</dialog>
+  <dialog chara="002">Li Sushang:「Aiya.」</dialog>
+  <text>Li Sushang froze, then suddenly smiled. </text>
   <motion chara="002" action="img_trans" img="素裳-大笑-抱手-近景"></motion>
-  <dialog chara="002">「師匠はすごい！」</dialog>
+  <dialog chara="002">Li Sushang:「Master is so amazing!」</dialog>
   <text>
-    <p>『情』は『心』蘊の敵である。</p>
-    <p>もし心の海に現れた感情を放っておいた場合、剣心が破損する恐れがあるのだ。</p>
-    <p>明鏡の心を有する素裳はよく知っている。</p>
+    <p>『Emotions』are the enemy of the『heart』. </p>
+    <p>If emotions are allowed to create waves in the Heart Lake, Blade Mantra may be damaged. </p>
+    <p>Sushang knew this since she has a Clear Mirror heart. </p>
   </text>
   <motion chara="002" action="img_trans" img="素裳-笑-普通-近景"></motion>
   <dialog chara="002">
-    <p>「平気、ただの挫折でしょ。大したことない。</p>
-    <p>今の最優先事項はやっぱり試剣のことだよ！」</p>
+    <p>Li Sushang:「Don’t worry, setbacks~ they are always there.</p>
+    <p>The top priority is to prepare for the sword trial!」 </p>
   </dialog>
   <text>
-    <p>素裳は横に置いていた包みを手にする。</p>
-    <p>計画通りにいけば、今夜こそ、剣が鞘から抜かれる時なのだ。</p>
+    <p>Li Sushang took out her cloth bag from the side. </p>
+    <p>According to the plan, tonight is when the sword will be unsheathed. </p>
   </text>
   <event action="goto" to="10"></event>
 </scene>
-scripts>
