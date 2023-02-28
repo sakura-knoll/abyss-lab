@@ -1,3 +1,130 @@
+- id: kiana-evening-invite-bot
+  version: '6.4'
+  name: 'Kiana: Evening Invite (B)'
+  krName: '키아나·- (하)'
+  type: top
+  rarity: 4
+  hp: 276
+  atk: 33
+  def: 27
+  crt: 0
+  set: kiana-kaslana
+  skill:
+    name: Advent of Moon
+    krName:
+    description: |-
+      Increases Fire DMG by 20.0%. On entry, Ultimate deals 10.0% more DMG for 5s. On exit, recover 150 HP, CD: 10s.
+    krDescription: |-
+      -
+- id: kiana-kaslana-top
+  version: '6.4'
+  name: 'Kiana Kaslana (T)'
+  krName: '키아나·카스라나 (상)'
+  type: top
+  rarity: 5
+  hp: 369
+  atk: 112
+  def: 88
+  crt: 0
+  set: kiana-kaslana
+  skill:
+    name: When Finality Emerges from Cocoon
+    krName: 종언이 고치를 찢을 때
+    description: |-
+      Increases Fire DMG by 30%. Casting weapon active boosts Total DMG by 16.0% for 8s, while by 16.0% in Herrscher form. Triggering it again refreshes its duration.
+    krDescription: |-
+      화염 원소 대미지가 30.0% 증가한다. 무기 액티브 스킬 사용 시 가하는 모든 대미지가 16.0% 증가하고, 율자 형태에서의 모든 대미지가 추가로 16.0% 증가한다. 지속 시간: 8초, 중복 발동 시 지속 시간을 갱신한다.
+- id: kiana-kaslana-mid
+  version: '6.4'
+  name: 'Kiana Kaslana (M)'
+  krName: '키아나·카스라나 (중)'
+  type: mid
+  rarity: 5
+  hp: 422
+  atk: 0
+  def: 232
+  crt: 10
+  set: kiana-kaslana
+  skill:
+    name: Fire That Illuminates Night
+    krName: 어둠을 비추는 화염
+    description: |-
+      After QTE or weapon active hits, all enemies take 20.00% more Fire DMG from the character for 8s (independent; retriggering refreshes duration). After entry by Joint Bursting, all enemies take 3.00% more Fire DMG from the character for 8s (independent; retriggering refreshes duration).
+    krDescription: |-
+      QTE 또는 무기 스킬 적중 시 전장의 모든 적이 해당 캐릭터에게 받는 화염 원소 대미지가 20.00% 증가한다. 지속 시간: 8초, (해당 효과는 독립적으로 부여되며, 중복 발동 시 지속 시간을 갱신한다). 폭발 연계로 출전 시 전장의 모든 적이 해당 캐릭터에게 받는 화염 원소 대미지가 3.00% 증가한다. 지속 시간 8초 (해당 효과는 독립적으로 부여되며, 중복 발동 시 지속 시간을 갱신한다)
+- id: kiana-kaslana-bot
+  version: '6.4'
+  name: 'Kiana Kaslana (B)'
+  krName: '키아나·카스라나 (하)'
+  type: bot
+  rarity: 5
+  hp: 362
+  atk: 72
+  def: 84
+  crt: 8
+  set: kiana-kaslana
+  skill:
+    name: Name of Kaslana
+    krName: 카스라나의 이름
+    description: |-
+      In Herrscher form, weapon active and Combo ATK deal 40.0% more Fire DMG, and casting weapon active restores 1.0 SP per second for 8s; can stack 2 times. During Absolute Time Fracture, the character deals 50.0% more Fire DMG.
+    krDescription: |-
+      율자 형태에서 무기 스킬 및 분기 공격이 가하는 화염 원소 대미지가 40.0% 증가하고, 무기 스킬 발동 시 매초 SP를 1.0pt 회복한다. 지속 시간: 8초, 최대 2회 중첩.
+      절대 시공 단열 기간 자신이 가하는 화염 원소 대미지가 50.0% 증가한다.
+- id: raiden-mei-top
+  version: '6.3'
+  name: 'Raiden Mei (T)'
+  krName: '라이덴·메이 (상)'
+  type: top
+  rarity: 5
+  hp: 393
+  atk: 114
+  def: 50
+  crt: 0
+  set: raiden-mei
+  skill:
+    name: Aspiration Lauded by Stars
+    krName: 명의, 별들의 축복
+    description: |-
+      Total DMG increases by 16.0%. Lightning DMG from Basic/Combo/Charged ATKs increases by 50.0% 0%. Ultimate Evasion Skill CD shortened by 20.0%.
+    krDescription: |-
+      모든 대미지가 16.0% 증가하고, 기본 공격(분기와 차지 포함)이 가하는 뇌전 원소 대미지가 50.0% 증가한다. 극한 회피 스킬 재사용 대기시간이 20.0% 감소한다.
+- id: raiden-mei-mid
+  version: '6.3'
+  name: 'Raiden Mei (M)'
+  krName: '라이덴·메이 (중)'
+  type: mid
+  rarity: 5
+  hp: 490
+  atk: 0
+  def: 199
+  crt: 7
+  set: raiden-mei
+  skill:
+    name: Walk Alone Among Thorns
+    krName: 고독, 형극의 족생
+    description: |-
+      In Herrscher form, after Combo ATK hits, deal 30.0% more Lightning DMG for 10s; retriggering refreshes duration. In Herrscher form, take 20.0% less DMG. After casting weapon active, reduces weapon active CD by 40.0% 0%; CD: 15s.
+    krDescription: |-
+      율자 형태에서 분기 공격이 적에게 적중 시 자신의 뇌전 원소 대미지가 30.0% 증가한다. 지속 시간: 10초, 중복 발동 시 갱신. 율자 형태에서 받는 대미지가 20.0% 감소한다. 무기 스킬 사용 시 무기 스킬 재사용 대기시간이 40.0% 감소한다. 발동 간격: 15초
+- id: raiden-mei-bot
+  version: '6.3'
+  name: 'Raiden Mei (B)'
+  krName: '라이덴·메이 (하)'
+  type: bot
+  rarity: 5
+  hp: 434
+  atk: 61
+  def: 66
+  crt: 9
+  set: raiden-mei
+  skill:
+    name: Look Back to Yesterday
+    krName: 추억, 어제의 재현
+    description: |-
+      Deal 12.0% more Total DMG. Triggering Time-frozen Domain restores 3.0 SP, CD: 3s, and makes all enemies take 8.0% more Total DMG for 7s, can stack 3 times. Triggering it again refreshes its duration.
+    krDescription: |-
+      모든 대미지가 12.0% 증가하고, 자신이 정체 영역 효과 발동 시 SP를 3.0pt 회복한다. 발동 간격: 3초. 또한, 전장의 적이 해당 캐릭터에게 받는 기본 공격의 모든 대미지가 8.0% 증가한다. 지속 시간: 7초, 최대 3스택 중첩, 중복 발동 시 지속 시간을 갱신한다.
 - id: bronya-zaychik-top
   version: '6.3'
   name: 'Bronya Zaychik (T)'

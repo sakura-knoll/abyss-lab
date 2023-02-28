@@ -5,6 +5,154 @@ elysia:
   altName: ■■
   krAltName: ■■
   sets:
+    - id: elysia-hof
+      name: Herrscher of Finality Signets
+      krName: 종언의 율자 전용 각인
+      signets:
+        - id: elysia-hof-01
+          name: Blessing of High Flames enhanced
+          krName: '[결염]의 축복'
+          description: |-
+            In Time Flint stance, enemies hit by Combo ATK take 25% more Total DMG for 10s. Triggering it again refreshes its duration. In Moon Blade stance, Combo ATK performs an extra AoE slash dealing 1300% ATK of Fire DMG.
+          krDescription: |-
+            [시간의 자세]에서 분기 공격에 적중한 적이 받는 모든 대미지가 25% 증가한다. 지속 시간: 10초, 중복 발동 시 지속 시간을 갱신한다. [월검의 자세]에서 분기 공격은 추가로 넓은 범위의 참격을 1회 발동해 공격력 1300%의 화염 원소 대미지를 가한다. 해당 공격은 분기 공격으로 간주한다.
+          upgrades:
+            - name: Blessing of High Flames enhanced +
+              krName: '[결염]의 축복 +'
+              description: |-
+                In Time Flint stance, enemies hit by Combo ATK take 35% more Total DMG for 10s. Triggering it again refreshes its duration. In Moon Blade stance, Combo ATK performs an extra AoE slash dealing 1600% ATK of Fire DMG.
+              krDescription: |-
+                [시간의 자세]에서 분기 공격에 적중한 적이 받는 모든 대미지가 35% 증가한다. 지속 시간: 10초, 중복 발동 시 지속 시간을 갱신한다. [월검의 자세]에서 분기 공격은 추가로 넓은 범위의 참격을 1회 발동해 공격력 1600%의 화염 원소 대미지를 가한다. 해당 공격은 분기 공격으로 간주한다.
+        - id: elysia-hof-02
+          name: Blessing of Rift
+          krName: '[시극]의 축복'
+          description: |-
+            Casting weapon active or Basic ATK reduces Ultimate CD by 1.2s and grants 1 stack of Perpetual Rift(disabled in Absolute Time Fracture), each stack boosting Ultimate Fire DMG by 20%. 12 stacks max. With Perpetual Rift stacks, character restores 2 SP per second. All stacks are removed when Ultimate ends.
+          krDescription: |-
+            무기 액티브 스킬 또는 기본 공격 발동 시 필살기 재사용 대기시간이 1.2초 감소하고, [영원한 시간의 틈]을 1스택 획득한다(절대 시공 단열 기간 효과가 적용되지 않는다). [영원한 시간의 틈] 스택마다 필살기의 화염 원소 대미지가 20% 증가한다(최대 12스택). [영원한 시간의 틈] 존재 기간 매초 SP를 2pt 회복한다. 필살기 종료 후 모든 [영원한 시간의 틈]이 제거된다.
+          upgrades:
+            - name: Blessing of Rift +
+              krName: '[시극]의 축복 +'
+              description: |-
+                Casting weapon active or Basic ATK reduces Ultimate CD by 1.2s and grants 1 stack of Perpetual Rift(disabled in Absolute Time Fracture), each stack boosting Ultimate Fire DMG by 25%. 12 stacks max. With Perpetual Rift stacks, character restores 2.5 SP per second. All stacks are removed when Ultimate ends.
+              krDescription: |-
+                무기 액티브 스킬 또는 기본 공격 발동 시 필살기 재사용 대기시간이 1.2초 감소하고, [영원한 시간의 틈]을 1스택 획득한다(절대 시공 단열 기간 효과가 적용되지 않는다). [영원한 시간의 틈] 스택마다 필살기의 화염 원소 대미지가 25% 증가한다(최대 12스택). [영원한 시간의 틈] 존재 기간 매초 SP를 2.5pt 회복한다. 필살기 종료 후 모든 [영원한 시간의 틈]이 제거된다.
+        - id: elysia-hof-03
+          name: Blessing of Clarity
+          krName: '[공명]의 축복'
+          description: |-
+            In Finale stance, Combo ATK triggers Ultimate Evasion Skill. Absolute Time Fracture boosts character's Fire DMG by 15% and make enemies take 25% bonus Total DMG for 30s. Triggering it again resets the duration.
+          krDescription: |-
+            [종말의 자세]에서 분기 공격 발동 시 극한 회피 스킬을 발동할 수 있다. [절대 시공 단열] 발동 시 캐릭터가 가하는 화염 원소 대미지가 15% 증가하고, 적이 받는 모든 대미지가 25% 증가한다. 지속 시간: 30초, 중복 발동 시 지속 시간을 갱신한다.
+          upgrades:
+            - name: Blessing of Clarity +
+              krName: '[공명]의 축복 +'
+              description: |-
+                In Finale stance, Combo ATK triggers Ultimate Evasion Skill. Absolute Time Fracture boosts character's Fire DMG by 15% and make enemies take 30% bonus Total DMG for 40s. Triggering it again resets the duration.
+              krDescription: |-
+                [종말의 자세]에서 분기 공격 발동 시 극한 회피 스킬을 발동할 수 있다. [절대 시공 단열] 발동 시 캐릭터가 가하는 화염 원소 대미지가 15% 증가하고, 적이 받는 모든 대미지가 30% 증가한다. 지속 시간: 40초, 중복 발동 시 지속 시간을 갱신한다.
+        - id: elysia-hof-04
+          name: Blessing of Condescension
+          krName: '[공림]의 축복'
+          description: |-
+            After triggering Absolute Time Fracture, Combo ATK deals 30% bonus Fire DMG for 30s, and each cast restores 5 Descent (7 times max). Triggering it again resets the duration and the count. Absolute Time Fracture has 50% reduced CD. Enemies take 450% bonus Fire DMG from Combo ATK in Finale stance (cannot stack).
+          krDescription: |-
+            [절대 시공 단열] 발동 시 분기 공격이 가하는 화염 대미지가 30% 증가한다. 지속 시간: 30초, 분기 공격을 발동할 때마다 [강림]을 5pt 회복한다. 최대 7회 발동, 중복 발동 시 지속 시간을 갱신하고, 지속 시간 갱신 시 횟수를 초기화한다. [절대 시공 단열]의 재사용 대기시간이 50% 감소하고, 적이 받는 [종말의 자세] 분기 공격의 화염 원소 대미지가 450% 증가한다(해당 효과는 독립적으로 부여된다).
+          upgrades:
+            - name: Blessing of Condescension +
+              krName: '[공림]의 축복 +'
+              description: |-
+                After triggering Absolute Time Fracture, Combo ATK deals 35% bonus Fire DMG for 30s, and each cast restores 5 Descent (7 times max). Triggering it again resets the duration and the count. Absolute Time Fracture has 50% reduced CD. Enemies take 600% bonus Fire DMG from Combo ATK in Finale stance (cannot stack).
+              krDescription: |-
+                [절대 시공 단열] 발동 시 분기 공격이 가하는 화염 대미지가 35% 증가한다. 지속 시간: 30초, 분기 공격을 발동할 때마다 [강림]을 5pt 회복한다. 최대 7회 발동, 중복 발동 시 지속 시간을 갱신하고, 지속 시간 갱신 시 횟수를 초기화한다. [절대 시공 단열]의 재사용 대기시간이 50% 감소하고, 적이 받는 [종말의 자세] 분기 공격의 화염 원소 대미지가 600% 증가한다(해당 효과는 독립적으로 부여된다).
+        - id: elysia-hof-05
+          name: Blessing of Final Moon
+          krName: '[종월]의 축복'
+          description: |-
+            Character deals 40% bonus Total DMG. Ultimate unleashes an extra shockwave dealing 6000% ATK of Fire DMG as Ultimate DMG. After using support skills, tapping [ATK] triggers character's QTE.
+          krDescription: |-
+            자신이 가하는 모든 대미지가 40% 증가하고, 필살기가 추가로 충격 1회 발동해 공격력 6000%의 화염 원소 대미지를 가한다. 해당 공격은 필살기 공격으로 간주한다. 전투 보조 스킬 사용 후 공격 버튼을 터치해 캐릭터의 QTE 스킬을 발동할 수 있다.
+          upgrades:
+            - name: Blessing of Final Moon +
+              krName: '[종월]의 축복 +'
+              description: |-
+                Character deals 50% bonus Total DMG. Ultimate unleashes an extra shockwave dealing 7500% ATK of Fire DMG as Ultimate DMG. After using support skills, tapping [ATK] triggers character's QTE.
+              krDescription: |-
+                자신이 가하는 모든 대미지가 50% 증가하고, 필살기가 추가로 충격 1회 발동해 공격력 7500%의 화염 원소 대미지를 가한다. 해당 공격은 필살기 공격으로 간주한다. 전투 보조 스킬 사용 후 공격 버튼을 터치해 캐릭터의 QTE 스킬을 발동할 수 있다.
+    - id: elysia-hoo
+      name: Herrscher of Origin Signets
+      krName: 기원의 율자 전용 각인
+      signets:
+        - id: elysia-hoo-01
+          name: Blessing of Lethal Smite
+          krName: '[뇌극]의 축복'
+          description: |-
+            Stacking Twisted Origin grants 1 charge. At 2 charges, Malice Expunged consumes all charges to deal 800% ATK of bonus Lightning DMG, gather enemies in a large area, and make enemies hit take 20% bonus Lightning DMG for 10s. Triggering it again resets the duration.
+          krDescription: |-
+            [기원요전] 충전 시 충전을 1pt 획득한다. 2pt 충전 시 [화심단멸]은 충전을 소모해 공격력 800% 의 뇌전 원소 대미지를 가하고, 넓은 범위의 끌어당기기 효과를 발동한다. 적중한 적은 10초 동안 받는 뇌전 원소 대미지가 20% 증가한다. 중복 발동 시 지속 시간을 갱신한다.
+          upgrades:
+            - name: Blessing of Lethal Smite +
+              krName: '[뇌극]의 축복 +'
+              description: |-
+                Stacking Twisted Origin grants 1 charge. At 2 charges, Malice Expunged consumes all charges to deal 1000% ATK of bonus Lightning DMG, gather enemies in a large area, and make enemies hit take 30% bonus Lightning DMG for 10s. Triggering it again resets the duration.
+              krDescription: |-
+                [기원요전] 충전 시 충전을 1pt 획득한다. 2pt 충전 시 [화심단멸]은 충전을 소모해 공격력 1000% 의 뇌전 원소 대미지를 가하고, 넓은 범위의 끌어당기기 효과를 발동한다. 적중한 적은 10초 동안 받는 뇌전 원소 대미지가 30% 증가한다. 중복 발동 시 지속 시간을 갱신한다.
+        - id: elysia-hoo-02
+          name: Blessing of Expungement
+          krName: '[단멸]의 축복'
+          description: |-
+            Malice Expunged deals 15 x 150% ATK of bonus Lightning DMG. When triggered, it reduces weapon active CD by 2s and increases Valkyrie's Total DMG by 30% for 10s. Triggering it again resets the duration.
+          krDescription: |-
+            [화심단멸]이 추가로 공격력 150% x 15의 뇌전 원소 대미지를 가한다. 발동 시 무기 스킬의 재사용 대기시간이 2초 감소하고, 자신의 모든 대미지가 30% 증가한다. 지속 시간: 10초, 중복 발동 시 지속 시간을 갱신한다.
+          upgrades:
+            - name: Blessing of Expungement +
+              krName: '[단멸]의 축복 +'
+              description: |-
+                Malice Expunged deals 15 x 200% ATK of bonus Lightning DMG. When triggered, it reduces weapon active CD by 2s and increases Valkyrie's Total DMG by 40% for 10s. Triggering it again resets the duration.
+              krDescription: |-
+                [화심단멸]이 추가로 공격력 200% x 15의 뇌전 원소 대미지를 가한다. 발동 시 무기 스킬의 재사용 대기시간이 2초 감소하고, 자신의 모든 대미지가 40% 증가한다. 지속 시간: 10초, 중복 발동 시 지속 시간을 갱신한다.
+        - id: elysia-hoo-03
+          name: Blessing of Inscription
+          krName: '[명각]의 축복'
+          description: |-
+            Ultimate's CD reduces by 20% and it deals 80% bonus Total DMG. If it kills an enemy, Valkyrie recovers 5 SP per second for 7s. Triggering it again refreshes its duration.
+          krDescription: |-
+            필살기의 재사용 대기시간이 20% 감소하고, 모든 대미지가 80% 증가한다. 필살기 과정 중 적 처치 시 7초 동안 매초 SP를 5pt 회복한다. 중복 발동 시 지속 시간을 갱신한다.
+          upgrades:
+            - name: Blessing of Inscription +
+              krName: '[명각]의 축복 +'
+              description: |-
+                Ultimate's CD reduces by 30% and it deals 100% bonus Total DMG. If it kills an enemy, Valkyrie recovers 5 SP per second for 7s. Triggering it again refreshes its duration.
+              krDescription: |-
+                필살기의 재사용 대기시간이 30% 감소하고, 모든 대미지가 100% 증가한다. 필살기 과정 중 적 처치 시 7초 동안 매초 SP를 5pt 회복한다. 중복 발동 시 지속 시간을 갱신한다.
+        - id: elysia-hoo-04
+          name: Blessing of Ultra
+          krName: '[극의]의 축복'
+          description: |-
+            Ultimate can slash up to 8 more times and deal an extra 400% ATK of Lightning DMG.
+          krDescription: |-
+            필살기의 최대 참격 횟수가 8회 증가하고, 추가로 공격력 400%의 뇌전 원소 대미지를 가한다.
+          upgrades:
+            - name: Blessing of Ultra +
+              krName: '[극의]의 축복 +'
+              description: |-
+                Ultimate can slash up to 8 more times and deal an extra 500% ATK of Lightning DMG.
+              krDescription: |-
+                필살기의 최대 참격 횟수가 8회 증가하고, 추가로 공격력 500%의 뇌전 원소 대미지를 가한다.
+        - id: elysia-hoo-05
+          name: Blessing of Nature
+          krName: '[본연]의 축복'
+          description: |-
+            Stacking Twisted Origin boosts Total DMG from Basic ATK and Combo ATK by 20% for 8s (5 stacks max), reduces weapon active CD by 3s, and grants 3s of Iron Body plus 80% DMG reduction.
+          krDescription: |-
+            [기원요전]을 충전할 때마다 8초 동안 기본 공격과 분기 공격의 모든 대미지가 20% 증가하고(최대 5회 중첩), 무기 스킬의 재사용 대기시간이 3초 감소한다. 동시에 3초 동안 슈퍼 아머와 받는 대미지 80% 감소 효과를 획득한다.
+          upgrades:
+            - name: Blessing of Nature +
+              krName: '[본연]의 축복 +'
+              description: |-
+                Stacking Twisted Origin boosts Total DMG from Basic ATK and Combo ATK by 25% for 8s (5 stacks max), reduces weapon active CD by 3s, and grants 3s of Iron Body plus 80% DMG reduction.
+              krDescription: |-
+                [기원요전]을 충전할 때마다 8초 동안 기본 공격과 분기 공격의 모든 대미지가 25% 증가하고(최대 5회 중첩), 무기 스킬의 재사용 대기시간이 3초 감소한다. 동시에 3초 동안 슈퍼 아머와 받는 대미지 80% 감소 효과를 획득한다.
     - id: elysia-hotr
       name: Herrscher of Truth Signets
       krName: 진리의 율자 전용 각인

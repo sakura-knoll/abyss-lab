@@ -1,3 +1,134 @@
+- id: domain-of-genesis
+  version: '6.4'
+  name: 'Domain of Genesis'
+  krName: '무명지경: 만물의 시작'
+  category: pistol
+  rarity: 6
+  atk: 440
+  crt: 20
+  battlesuits:
+    - id: hof
+  originalWeapons:
+    - key-of-anonymity
+  sources:
+    - type: pri-weapon-foundry
+  skills:
+    - name: Samsara Overflow
+      krName: 윤회역단
+      description: |-
+        [SP: 0][CD: 12s] Fires a mighty shot forward, dealing 650.0% ATK of Fire DMG. When Herrscher of Finality casts weapon active, she gains 3 Descent points. Weapon active differs in Time Flint stance and Moon Blade stance: In Time Flint stance, she throws a spinning blade forward and kicks it out to pierce enemies ahead, dealing 100% + 4 x 25% + 650.0% ATK of Fire DMG; In Moon Blade stance, she fires multiple projectiles ahead, dealing 5% + 7 x 120.0% ATK of Fire DMG.
+        Weapon Active sends enemies it hits into Withered state, which makes them take 55.0% ATK of Fire DMG per second for 6s. Triggering it again refreshes its duration.
+      krDescription: |-
+        [SP 소모: 0][재사용 대기시간: 12초] 전방의 적에게 강력한 일격을 날려 공격력 650.0%의 화염 원소 대미지를 가한다. 종언의 율자가 무기 액티브 스킬 발동 시 [강림] 카운트를 3pt 획득하며, 무기 액티브 스킬이 [시간의 자세]와 [월검의 자세]에서 달라진다.
+        [시간의 자세]: 전방에 회전하는 검을 던진 후 검을 걷어차 전방의 적을 관통하고 공격력 100% + 4 x 25% + 650.0%의 화염 원소 대미지를 가한다.
+        [월검의 자세]: 전방의 적에게 다단 공격을 가해 공격력 5% + 7 x 120.0%의 화염 원소 대미지를 가한다.
+        무기 액티브 스킬이 적에게 적중 시 적이 [감쇠] 상태에 진입해 매초 공격력 55.0%의 화염 원소 대미지를 받는다.
+    - name: Cyclic Axis
+      krName: 종시회극
+      description: |-
+        Deals 30.0% more Total DMG to enemies in Withered state. Herrscher of Finality equip bonus: Combo ATK deals 40.0% more Fire DMG, and resets Weapon Active CD when it switches between Time Flint and Moon Blade stances. Switching to Finale stance reduces Weapon Active CD by 40.0%.
+      krDescription: |-
+        자신이 [감쇠] 목표에게 가하는 모든 대미지가 30.0% 증가한다. 종언의 율자가 장비 시 분기 공격이 가하는 화염 원소 대미지가 40.0% 증가하고, 분기 공격으로 [시간의 자세]와 [월검의 자세] 전환 시 무기 액티브 스킬 재사용 대기시간을 리셋할 수 있다. [종말의 자세] 사용 시 무기 액티브 스킬의 재사용 대기시간이 40.0% 감소한다.
+    - name: Anonymous Divinity
+      krName: 무명신리
+      description: |-
+        Deal 45.0% more Fire DMG. Herrscher of Finality equip bonus: During Absolute Time Fracture, enemies in Withered state take 15.0% more Total DMG.
+      krDescription: |-
+        화염 원소 대미지가 45.0% 증가한다. 종언의 율자가 장비 시 절대 시공 단열 기간 [감쇠] 상태의 적이 받는 모든 대미지가 15.0% 증가한다.
+- id: key-of-anonymity
+  version: '6.4'
+  name: 'Key of Anonymity'
+  krName: 무명의 열쇠
+  category: pistol
+  rarity: 5
+  atk: 295
+  crt: 13
+  battlesuits:
+    - id: hof
+  priWeapon: domain-of-genesis
+  sources:
+    - type: focused-supply
+  skills:
+    - name: 'Hadean Initialized'
+      krName: '만고의 변화'
+      description: |-
+        [SP: 5][CD: 16s] Fires a mighty shot forward, dealing 500.0% ATK of Fire DMG. When Herrscher of Finality casts weapon active, she gains 3 Descent points. Weapon active differs in Time Flint stance and Moon Blade stance: In Time Flint stance, she throws a spinning blade forward and kicks it out to pierce enemies ahead, dealing 100% + 4 x 25% + 500.0% ATK of Fire DMG; In Moon Blade stance, she fires multiple projectiles ahead, dealing 5% + 7 x 80.0% ATK of Fire DMG.
+        Weapon Active sends enemies it hits into Withered state, which makes them take 20.0% ATK of Fire DMG per second for 6s. Triggering it again refreshes its duration.
+      krDescription: |-
+        [SP 소모: 5][재사용 대기시간: 16초] 전방의 적에게 강력한 일격을 날려 공격력 500.0%의 화염 원소 대미지를 가한다. 종언의 율자가 무기 액티브 스킬 발동 시 [강림] 카운트를 3pt 획득하며, 무기 액티브 스킬이 [시간의 자세]와 [월검의 자세]에서 달라진다.
+        [시간의 자세]: 전방에 회전하는 검을 던진 후 검을 걷어차 전방의 적을 관통하고 공격력 100% + 4 x 25% + 500.0%의 화염 원소 대미지를 가한다.
+        [월검의 자세]: 전방의 적에게 다단 공격을 가해 공격력 5% + 7 x 80.0%의 화염 원소 대미지를 가한다.
+        무기 액티브 스킬이 적에게 적중 시 적이 [감쇠] 상태에 진입해 매초 공격력 20.0%의 화염 원소 대미지를 받는다.
+    - name: 'Evergreen'
+      krName: '기원현생'
+      description: |-
+        Deals 12.0% more Total DMG to enemies in Withered state. Herrscher of Finality equip bonus: Combo ATK deals 18.0% more Fire DMG, and resets Weapon Active CD when it switches between Time Flint and Moon Blade stances. Switching to Finale stance reduces Weapon Active CD by 20.0%
+      krDescription: |-
+        자신이 [감쇠] 목표에게 가하는 모든 대미지가 12.0% 증가한다. 종언의 율자가 장비 시 분기 공격이 가하는 화염 원소 대미지가 18.0% 증가하고, 분기 공격으로 [시간의 자세]와 [월검의 자세] 전환 시 무기 액티브 스킬 재사용 대기시간을 리셋할 수 있다. [종말의 자세] 사용 시 무기 액티브 스킬의 재사용 대기시간이 20.0% 감소한다.
+- id: domain-of-unity
+  version: '6.4'
+  name: 'Domain of Unity'
+  krName: '순수지경: 자아의 무결'
+  category: katana
+  rarity: 6
+  atk: 438
+  crt: 22
+  battlesuits:
+    - id: hoo
+  originalWeapons:
+    - key-of-limpidity
+  sources:
+    - type: pri-weapon-foundry
+  skills:
+    - name: Conceptual Metaphor
+      krName: 염상단절
+      description: |-
+        [SP: 0][CD: 10s] Slashes once, dealing 1 x 400.0% ATK of Lightning DMG. Can block incoming attacks while the attack animation plays. A successful block produces an AoE lightning shock, dealing 9 x 45% ATK of Lightning DMG and increasing the character's Lightning DMG by 30.0% for 8s. Triggering it again refreshes its duration. Herrscher of Origin equip bonus: Slashes twice, dealing 250% ATK of Lightning DMG. Can block incoming attacks while the attack animation plays. A successful block triggers Time-frozen Domain that pauses all skill timers and the stage timer, and connects into Chain Slash that deals 1 x 50% + 50% + 500.0% ATK of Lightning DMG. This ATK is registered as Basic ATK, charges 1 stack of Twisted Origin for Wing Blades, and, when its last slash hits, releases an extra Sin of Killing. Chain Slash has a CD of 5s.
+      krDescription: |-
+        [SP 소모: 0][재사용 대기시간: 10초] 참격을 1회 발동해 400.0% x 1의 뇌전 원소 대미지를 가한다. 발동 과정에서 적의 공격을 막을 수 있으며, 막기 성공 시 주변에 번개 충격을 가해 45% x 9의 뇌전 원소 대미지를 가하고, 자신의 뇌전 원소 대미지가 30.0% 증가한다. 지속 시간: 8초, 중복 발동 시 지속 시간을 갱신한다. 기원의 율자가 사용 시 참격을 발동해 총 250%의 뇌전 원소 대미지를 가한다. 동작 과정에서 적의 공격을 막을 수 있으며, 막기 성공 시 캐릭터가 정체 영역 효과를 발동해 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지하고, 연속 참격을 파생해 총 50% + 50% + 500.0% x 1의 뇌전 원소 대미지를 가한다. 해당 공격은 동시에 기본 공격으로 간주하며, [칼날의 날개]가 [기원요전]을 1스택 충전한다. 또한, 연속 참격의 마지막 일격이 적에게 적중 시 추가로 [의업주살]을 1회 발동한다. 연속 참격 최단 발동 간격: 5초
+    - name: Unthinkable
+      krName: 심행소멸
+      description: |-
+        Deal 30.0% more Lightning DMG. Triggering Time-frozen Domain grants 1 stack of Inner Foresight, up to 3 stacks. Each stack increases Total DMG from Basic/Combo/Charged ATKs by 10.0% for 7s. Triggering it again refreshes its duration. When weapon active blocks successfully, recover 3 SP.
+        Herrscher of Origin equip bonus: If weapon active does not block an attack when it is being cast, it fully restores Mind Body Insight when it ends. Additionally, tap [ATK] when sheathing the blade to connect into Combo ATK.
+
+      krDescription: |-
+        자신의 원소 대미지가 30.0% 증가한다. 정체 영역 발동 시 [선각] 효과를 1스택 획득하며, [선각] 효과 스택마다 자신의 기본 공격(분기와 차지 포함)의 모든 대미지가 10.0% 증가한다. 지속 시간: 7초, 최대 3스택 중첩, 중복 발동 시 지속 시간을 갱신한다. 무기 스킬로 막기 성공 시 SP를 3pt 회복한다.
+        기원의 율자가 장비 시, 무기 스킬 발동 기간 공격을 막지 않았다면 무기 스킬 종료 후 심신 일체를 가득 충전하며, 검 회수 시 공격 버튼을 누르면 분기 공격을 연계할 수 있다.
+    - name: Enlightened Origin
+      krName: 진원각성
+      description: |-
+        Basic/Combo/Charged ATKs deal 40.0% more Lightning DMG. Herrscher of Origin equip bonus: Enemies hit by her Combo ATK will take 15.0% more Elemental DMG for 10s. This effect is exclusive and triggering it again refreshes its duration.
+      krDescription: |-
+        기본 공격(분기와 차지 포함)이 가하는 뇌전 원소 대미지가 40.0% 증가한다. 기원의 율자가 장비 시 분기 공격이 적에게 적중하면 적이 받는 모든 원소 대미지가 15.0% 증가한다. 지속 시간 10초, 하나만 적용, 중복 발동 시 지속 시간을 갱신한다.
+- id: key-of-limpidity
+  version: '6.4'
+  name: 'Key of Limpidity'
+  krName: 순수의 열쇠
+  category: katana
+  rarity: 5
+  atk: 291
+  crt: 17
+  battlesuits:
+    - id: hoo
+  priWeapon: domain-of-unity
+  sources:
+    - type: focused-supply
+  skills:
+    - name: 'Sword Enlightenment'
+      krName: '검체각성'
+      description: |-
+        [SP: 4][CD: 12s] Slashes once, dealing 1 x 200.0% ATK of Lightning DMG. Can block incoming attacks while the attack animation plays. A successful block produces an AoE lightning shock, dealing 9 x 35% ATK of Lightning DMG and increasing the character's Lightning DMG by 20.0% for 8s. Triggering it again refreshes its duration. Herrscher of Origin equip bonus: Slashes twice, dealing 250% ATK of Lightning DMG. Can block incoming attacks while the attack animation plays. A successful block triggers Time-frozen Domain that pauses all skill timers and the stage timer, and connects into Chain Slash that deals 1 x 50% + 50% + 250.0% ATK of Lightning DMG. This ATK is registered as Basic ATK, charges 1 stack of Twisted Origin for Wing Blades, and, when its last slash hits, releases an extra Sin of Killing. Chain Slash has a CD of 5s.
+      krDescription: |-
+        [SP 소모: 4][재사용 대기시간: 12초] 참격을 1회 발동해 200.0% x 1의 뇌전 원소 대미지를 가한다. 발동 과정에서 적의 공격을 막을 수 있으며, 막기 성공 시 주변에 번개 충격을 가해 35% x 9의 뇌전 원소 대미지를 가하고, 자신의 뇌전 원소 대미지가 20.0% 증가한다. 지속 시간: 8초, 중복 발동 시 지속 시간을 갱신한다. 기원의 율자가 사용 시 참격을 발동해 총 250%의 뇌전 원소 대미지를 가한다. 동작 과정에서 적의 공격을 막을 수 있으며, 막기 성공 시 캐릭터가 정체 영역 효과를 발동해 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지하고, 연속 참격을 파생해 총 50% + 50% + 250.0% x 1의 뇌전 원소 대미지를 가한다. 해당 공격은 동시에 기본 공격으로 간주하며, [칼날의 날개]가 [기원요전]을 1스택 충전한다. 또한, 연속 참격의 마지막 일격이 적에게 적중 시 추가로 [의업주살]을 1회 발동한다. 연속 참격 최단 발동 간격: 5초
+    - name: 'True Self'
+      krName: '명심견성'
+      description: |-
+        Deal 20.0% more Lightning DMG. Triggering Time-frozen Domain grants 1 stack of Inner Foresight, up to 3 stacks. Each stack increases Total DMG from Basic/Combo/Charged ATKs by 5.0% for 7s. Triggering it again refreshes its duration. When weapon active blocks successfully, recover 2 SP.
+        Herrscher of Origin equip bonus: If weapon active does not block an attack when it is being cast, it fully restores Mind Body Insight when it ends. Additionally, tap [ATK] when sheathing the blade to connect into Combo ATK.
+      krDescription: |-
+        자신의 원소 대미지가 20.0% 증가한다. 정체 영역 발동 시 [선각] 효과를 1스택 획득하며, [선각] 효과 스택마다 자신의 기본 공격(분기와 차지 포함)의 모든 대미지가 5.0% 증가한다. 지속 시간: 7초, 최대 3스택 중첩, 중복 발동 시 지속 시간을 갱신한다. 무기 스킬로 막기 성공 시 SP를 2pt 회복한다.
+        기원의 율자가 장비 시, 무기 스킬 발동 기간 공격을 막지 않았다면 무기 스킬 종료 후 심신 일체를 가득 충전하며, 검 회수 시 공격 버튼을 누르면 분기 공격을 연계할 수 있다.
 - id: domain-of-ascension-truth-continuity
   version: '6.3'
   name: 'Domain of Ascension: Truth Continuity'

@@ -1,3 +1,422 @@
+- id: hof
+  version: '6.4'
+  name: 'Herrscher of Finality'
+  krName: 종언의 율자
+  type: imaginary
+  valkyrie: kiana
+  features: [fire-dmg, aerial, time-mastery]
+  equipment:
+    - weapon: domain-of-genesis
+      stigmataTop: kiana-kaslana-top
+      stigmataMid: kiana-kaslana-mid
+      stigmataBot: kiana-kaslana-bot
+      type: recommended
+  leader:
+    core:
+      name: 'Lightwing of Comet'
+      krName: 달빛의 백련, 하늘을 뒤덮는 광익
+      description: |-
+        Leader Skill: Team deals 45.0% more Elemental DMG. With Mei present, Mei and Herrscher of Finality deal 45.0% more Elemental DMG.
+      krDescription: |-
+        리더 스킬: 파티원이 가하는 모든 원소 대미지가 45.0% 증가한다. 파티 내 메이 캐릭터가 존재할 경우, 메이와 종언의 율자가 가하는 모든 원소 대미지가 추가로 45.0% 증가한다.
+    subskills:
+      - name: May Flames Burn Ever Bright
+        krName: 신염이 영원히 타오르길
+        description: |-
+          Team deals 45.0% more Elemental DMG. With Mei present, Mei and Herrscher of Finality deal 45.0% more Elemental DMG.
+        krDescription: |-
+          파티원이 가하는 모든 원소 대미지가 45.0% 증가한다. 파티 내 메이 캐릭터가 존재할 경우, 메이와 종언의 율자가 가하는 모든 원소 대미지가 추가로 45.0% 증가한다.
+  passive:
+    core:
+      name: Imaginary Ascension, Decreed
+      krName: 허계승화의 율령
+      description: |-
+        Descent: Herrscher of Finality stays in Herrscher form. Basic ATK, Upward ATK, Dive ATK, and QTE grant Descent stacks on hit. 8 stacks max. Combo ATK or exit resets Descent.
+        Time Wave: In Time Flint stance and Moon Blade stance, Combo ATK grants 1 stack of Time Wave on the first hit (up to 2 stacks). Exiting resets Time Wave.
+        Herrscher of Finality dive-attack enemies nearby when exiting.
+        Joint Bursting: When Herrscher of Finality enters upon Joint Bursting from Herrscher of Origin/Herrscher of Truth, she deals 600% ATK of Fire DMG, stacks 5 Descent. Entry upon Herrscher of Truth's Joint Bursting can be connected into ground Basic ATK SEQ 3.
+      krDescription: |-
+        강림: 종언의 율자가 율자 형태를 유지한다. 기본 공격, 올려치기, 격추 공격, QTE 적중 시 [강림]을 획득한다. 최대 8pt 획득할 수 있으며, 분기 공격을 발동하거나 캐릭터 퇴장 시 [강림]이 초기화된다.
+        윤회의 시간: [시간의 자세]와 [월검의 자세]에서 분기 공격 첫 적중 시 [윤회의 시간]을 1스택 획득한다(최대 2스택). 캐릭터 퇴장 시 [윤회의 시간]이 초기화된다.
+        종언의 율자 퇴장 시 주변 적을 격추시킨다.
+        폭발 연계: 종언의 율자가 기원의 율자/진리의 율자의 [폭발 연계]로 출전 시, 적에게 총 공격력 600%의 화염 원소 대미지/공격력 600%의 화염 원소 대미지를 가하고, 동시에 [강림]을 5pt 획득한다. 진리의 율자 [폭발 연계]로 출전 시, 지상 기본 공격 제3격을 연계할 수 있다.
+    subskills:
+      - name: Celestial Memory, Featherized
+        krName: 선인의 기억이 날개가 되어
+        description: |-
+          Enemies receive 20.0% more Fire DMG from Herrscher of Finality (cannot stack).
+        krDescription: |-
+          적이 종언의 율자에게 받는 화염 원소 대미지가 20.0% 증가한다(해당 효과는 독립적으로 부여된다).
+      - name: Legion of Sentience, Assembled
+        krName: 의식이 병사가 되어
+        description: |-
+          Total DMG increases by 10.0%, and all enemies take 5.2% more Total DMG from Mei and Herrscher of Finality.
+        krDescription: |-
+          모든 대미지가 10.0% 증가하고, 전장의 적이 메이 캐릭터와 종언의 율자에게 받는 모든 대미지가 5.2% 증가한다.
+        requiredRank: sss
+      - name: Jaded Crescent, Sharpened
+        krName: 달의 흔적이 검이 되어
+        description: |-
+          Gaining Descent increases Elemental Breach by 1.95% for 20s up to 8 times. Triggering it again refreshes its duration.
+        krDescription: |-
+          캐릭터가 [강림] 획득 시 모든 원소 관통이 1.95% 증가한다. 최대 8회 중첩, 지속 시간: 20초, 중복 발동 시 지속 시간을 갱신한다.
+  evasion:
+    core:
+      name: Embarking Saintess, Divine
+      krName: 계시를 행하는 성녀의 기도
+      description: |-
+        Evade enemy attacks. Can be performed twice in a row.
+
+        The character can perform aerial evasion up to twice in a row, with the count reset when landing.
+        Ultimate Evasion: Triggers a global Time Fracture for 1.5s and gains 1 stack of Descent. CD: 20s.
+        Absolute Time Fracture: Triggered by holding [EVA] at 2 stacks of Time Wave and deal 55% ATK of Fire DMG after getting 5 stacks of Descent. During Absolute Time Fracture, the character is invincible and all skill timers plus the stage timer are paused. Absolute Time Fracture lasts up to 30s, during which attacks cost Descent. Casting Ultimate or switching character ends Absolute Time Fracture.
+        At the end of the duration or when Descent drops to zero, character casts Combo ATK and exit Absolute Time Fracture. CD: 25s. Time Wave cannot be stacked during the cooldown.
+        During Absolute Time Fracture, character's attacks deal DMG.
+        Ground:
+        SEQ 1: Deals 60% ATK of Fire DMG.
+        SEQ 2: Deals 20% + 20% x 2 ATK of Fire DMG.
+        SEQ 3: Deals 30% + 30% ATK of Fire DMG.
+        SEQ 4: Deals 10% x 6 ATK of Fire DMG.
+        SEQ 5: Deals 8% + 6.5% x 8 ATK of Fire DMG.
+        Aerial:
+        SEQ 1: Deals 60% ATK of Fire DMG.
+        SEQ 2: Deals 15% x 3 + 15% ATK of Fire DMG and knocks enemies down. If the target hits the ground, it deals an additional 10% ATK of Fire DMG and knocks nearby enemies airborne.
+        SEQ 3: Deals 60% ATK of Fire DMG.
+        SEQ 4: Deals 15% x 4 ATK of Fire DMG.
+        SEQ 5: Deals 60% ATK of Fire DMG.
+        Upward ATK: Deals 40% ATK of Fire DMG.
+        Dive ATK: Deals 40% ATK of Fire DMG.
+      krDescription: |-
+        빠르게 적의 공격을 회피한다. 2회 연속 회피할 수 있다.
+
+        공중에서 최대 2회 회피할 수 있으며, 착지 시 회복한다.
+        극한 회피 스킬: 전체 시공 단열을 1.5초간 발동하고 [강림]을 1pt 획득한다. 재사용 대기시간: 20초
+        절대 시공 단열: [윤회의 시간]이 2스택일 때 회피 버튼을 길게 눌러 [절대 시공 단열]을 발동할 수 있다. [강림] 최대 5pt 획득 시 주변 적에게 공격력 55%의 화염 원소 대미지를 가한다. [절대 시공 단열] 기간, 캐릭터는 무적 상태가 되며 정체 영역 효과를 발동해 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다. [절대 시공 단열]은 최대 30초간 지속되며, 해당 기간의 공격은 [강림]을 소모한다. 필살기를 사용하거나 캐릭터를 교대하면 [절대 시공 단열] 상태가 종료된다.
+        지속 시간이 종료되거나 [강림]이 0이 되면 분기 공격을 발동하고 [절대 시공 단열]이 해제된다.
+        재사용 대기시간: 25초, 재사용 대기 기간 [윤회의 시간]을 획득할 수 없다.
+        [절대 시공 단열]에서 캐릭터의 공격은 대미지를 가한다.
+        지상:
+        제1격: 공격력 60%의 화염 원소 대미지를 가한다.
+        제2격: 공격력 20% + 20% x 2의 화염 원소 대미지를 가한다.
+        제3격: 공격력 30% + 30%의 화염 원소 대미지를 가한다.
+        제4격: 공격력 10% x 6의 화염 원소 대미지를 가한다.
+        제5격: 공격력 8% + 6.5% x 8의 화염 원소 대미지를 가한다.
+        공중:
+        제1격: 공격력 60%의 화염 원소 대미지를 가한다.
+        제2격: 공격력 15% x 3 + 15%의 화염 원소 대미지를 가하고 적을 격추시킨다. 목표가 지면에 충돌 시 추가로 공격력 10%의 화염 원소 대미지를 가하고, 주변 적을 넉백시킨다.
+        제3격: 공격력 60%의 화염 원소 대미지를 가한다.
+        제4격: 공격력 15% x 4의 화염 원소 대미지를 가한다.
+        제5격: 공격력 60%의 화염 원소 대미지를 가한다.
+        올려치기: 공격력 40%의 화염 원소 대미지를 가한다.
+        격추 공격: 공격력 40%의 화염 원소 대미지를 가한다.
+    subskills:
+      - name: Stygian Phantasm, Bestowed
+        krName: 피안의 꿈을 바쳐
+        description: |-
+          Deal 40.0% more Fire DMG, and 40.0% more Fire DMG additionally during Absolute Time Fracture.
+        krDescription: |-
+          캐릭터가 가하는 화염 원소 대미지가 40.0% 증가하고, [절대 시공 단열]에서 캐릭터가 가하는 화염 원소 대미지가 추가로 40.0% 증가한다.
+  special:
+    core:
+      name: 'Combo: Searching Drifter, Answered'
+      krName: 분기-여정의 끝에 선 레인저의 해답
+      description: |-
+        Consume Descent to perform Combo ATK and switch between Time Flint stance and Moon Blade stance.
+        At max Descent, hold [ATK] to launch Combo ATK and switch between Time Flint stance and Moon Blade stance. Character enters in Time Flint stance.
+        Time Flint stance Combo ATK: Deals 110% x 4 + 400% + 190% x 4 ATK of Fire DMG.
+        Moon Blade stance Combo ATK: Deals 600% + 1000% ATK of Fire DMG. With Herrscher of Truth and Herrscher of Origin on the team, Time Flint stance Combo ATK deals 200% ATK of bonus Fire DMG and 400% ATK of Ice DMG while Moon Blade stance Combo ATK deals 200% ATK of bonus Fire DMG and 400% ATK of Lightning DMG.
+        In Absolute Time Fracture, character enters Finale stance, where Combo ATK consumes no Descent and deals 220% ATK of Fire DMG.
+      krDescription: |-
+        [강림]을 소모해 분기 공격을 발동하고 [시간의 자세]와 [월검의 자세] 사이에서 전환한다.
+        [강림]이 최대치에 도달했을 때 공격 버튼을 길게 눌러 분기 공격을 발동한다. 분기 공격 발동 시 종언의 율자가 [시간의 자세]와 [월검의 자세] 사이에서 전환한다. 캐릭터 출전 시 [시간의 자세]로 출전한다.
+        시간의 자세 분기 공격: 공격력 110% x 4 + 400% + 190% x 4의 화염 원소 대미지를 가한다.
+        월검의 자세 분기 공격: 공격력 600% + 1000%의 화염 원소 대미지를 가한다. 파티 내 진리의 율자와 기원의 율자가 존재할 경우, [시간의 자세]에서 발동하는 분기 공격이 추가로 공격력 200%의 화염 원소 대미지와 공격력 400%의 뇌전 원소 대미지를 가한다.
+        [절대 시공 단열]에서 캐릭터가 [종말의 자세]로 전환한다. 분기 공격은 더 이상 [강림]을 소모하지 않으며, 적에게 공격력 220%의 화염 원소 대미지를 가한다.
+    subskills:
+      - name: Equinox Sigil, Bestowed
+        krName: 천원의 영광을 바쳐
+        description: |-
+          When Combo ATK hits in Time Flint stance, enemies take 35.0% more Fire DMG from Herrscher of Finality for 15s. Triggering it again refreshes its duration. When Combo ATK hits in Moon Blade stance, recover 16.0 SP.
+        krDescription: |-
+          [시간의 자세]에서 분기 공격 적중 시 적이 종언의 율자에게 받는 화염 원소 대미지가 35.0% 증가한다. 지속 시간: 15초, 중복 발동 시 지속 시간을 갱신한다. [월검의 자세]에서 분기 공격 적중 시 자신의 SP를 16.0pt 회복한다.
+      - name: Astera Petals, Bestowed
+        krName: 성극의 산화를 바쳐
+        description: |-
+          Always switches to Time Flint stance upon entry via Herrscher of Truth's Joint Bursting; On hit, Combo ATK makes enemies take 8.0% more Total DMG additionally for 15s; Triggering it again refreshes its duration. Always switches to Moon Blade stance upon entry via Herrscher of Origin's Joint Bursting; On hit, Combo ATK restores 16.0 SP additionally; After entry via Joint Bursting, deal 15.0% more Total DMG for 10s; Triggering it again refreshes its duration.
+        krDescription: |-
+          진리의 율자의 [폭발 연계]로 출전 시 [시간의 자세]로 전환되며, 분기 공격 적중 시 추가로 적이 받는 모든 대미지가 8.0% 증가한다. 지속 시간 15초, 중복 발동 시 지속 시간을 갱신한다. 기원의 율자의 [폭발 연계]로 출전 시 [월검의 자세]로 전환되며, 분기 공격 적중 시 추가로 자신의 SP를 16.0pt 회복한다. [폭발 연계]로 출전 시 자신이 가하는 모든 대미지가 15.0% 증가한다. 지속 시간 10초, 중복 발동 시 지속 시간을 갱신한다.
+      - name: Celestial Hymn, Bestowed
+        krName: 신은의 기도를 바쳐
+        description: |-
+          Basic ATK and Combo ATK deal 20.0% more Total DMG. The character takes 30.0% less Total DMG.
+        krDescription: |-
+          기본 공격 및 분기 공격이 가하는 모든 대미지가 20.0% 증가하고, 캐릭터가 받는 모든 대미지가 30.0% 감소한다.
+        requiredRank: ss
+  ultimate:
+    core:
+      name: Deadly Finality, Surmounted
+      krName: 종언 초월의 대결
+      description: |-
+        SP Cost: 100. CD: 20s.
+        Herrscher of Finality leaps high in the air and dive down in the cold moonlight to launch fatal attacks and deal 1900% ATK of Fire DMG, during which Time-frozen Domain is triggered to pause all skill timers and the stage timer.
+
+        With both Herrscher of Origin and Herrscher of Truth on the team, exiting won't reset Time Wave and Ultimate is replaced by Joint Ultimate.
+        When Joint Ultimate is cast, Kiana, Mei, and Bronya strike in unison to deal 2000% ATK of Fire DMG, 650% ATK of Ice DMG, and 650% ATK of Lightning DMG.
+        Joint Ultimate's SP cost: 125. CD: 20s.
+      krDescription: |-
+        발동 소모 SP: 100, 재사용 대기시간: 20초
+        종언의 율자가 공중으로 도약하고 달빛 아래에서 빠르게 낙하해 총 공격력 1900%의 화염 원소 대미지를 가한다. 그 기간, 캐릭터가 정체 영역 효과를 발동해 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다.
+
+        파티 내 기원의 율자와 진리의 율자가 동시에 존재할 경우, 퇴장 시 [윤회의 시간]이 초기화되지 않으며, 필살기가 [연계 필살]로 변경된다. [연계 필살] 발동 시 키아나, 메이, 브로냐가 합동 공격해 적에게 공격력 2000%의 화염 원소 대미지, 공격력 650%의 빙결 원소 대미지, 공격력 650%의 뇌전 원소 대미지를 가한다.
+        [연계 필살] 발동 소모 SP: 125, 재사용 대기시간: 20초
+    subskills:
+      - name: Edge of Origin's Return, Gripped
+        krName: 기원의 진리를 받은 검
+        description: |-
+          If Ultimate hits IMG-type enemies, 100.0% of the DMG a Nihilus Shell takes will be transferred to its Nihilus Seed (reflected by HP loss).
+        krDescription: |-
+          필살기가 허수 속성 적에게 적중 시, [허무의 껍데기]가 받은 대미지가 100.0%의 비율로 [허무의 씨앗]에 전이된다(HP 감소 효과).
+      - name: Ring of Truth's Circle, Donned
+        krName: 진리의 순환을 더한 신관
+        description: |-
+          When Herrscher of Origin and Herrscher of Truth are on the team, the team deals 15.0% more Elemental DMG.
+        krDescription: |-
+          파티 내 기원의 율자와 진리의 율자가 동시에 존재할 경우, 파티원이 가하는 모든 원소 대미지가 15.0% 증가한다.
+  basic:
+    core:
+      name: Supreme Blade, Reforged
+      krName: 밤을 불태우는 왕검의 화염
+      description: |-
+        Ground:
+        SEQ 1: Deals 50% ATK of Fire DMG.
+        SEQ 2: Deals 40% + 50% x 2 ATK of Fire DMG.
+        SEQ 3: Deals 50% + 60% ATK of Fire DMG.
+        SEQ a: Deals 35% x 6 ATK of Fire DMG.
+        SEQ 5: Deals 150% + 60% x 8 ATK of Fire DMG.
+        Aerial:
+        SEQ 1: Deals 60% ATK of Fire DMG.
+        SEQ 2: Deals 55% x 3 + 80% ATK of Fire DMG and downs enemies. If the target hits the ground, deals an additional 10% ATK of Fire DMG and knocks nearby enemies airborne.
+        SEQ 3: Deals 210% ATK of Fire DMG.
+        SEQ 4: Deals 300% + 135% x 3 ATK of Fire DMG.
+        SEQ 5: Deals 150% ATK of Fire DMG.
+        Leap: Tap [ULT] during a non-attack action to leap up twice at most. Leaps count as evasion and can trigger Ultimate Evasion Skill.
+        Upward ATK: Triggered by tapping [ULT] after ground Basic ATK to deal 60% ATK of Fire DMG and can be connected into aerial Basic ATK SEQ 2.
+        Dive ATK: Triggered by tapping [ULT] after aerial Basic ATK to deal 10% + 50% ATK of Fire DMG. Can be connected into ground Basic ATK SEQ 3.
+      krDescription: |-
+        지상:
+        제1격: 공격력 50%의 화염 원소 대미지를 가한다.
+        제2격: 공격력 40% + 50% x 2의 화염 원소 대미지를 가한다.
+        제3격: 공격력 50% + 60%의 화염 원소 대미지를 가한다.
+        제a격: 공격력 35% x 6의 화염 원소 대미지를 가한다.
+        제5격: 공격력 150% + 60% x 8의 화염 원소 대미지를 가한다.
+        공중:
+        제1격: 공격력 60%의 화염 원소 대미지를 가한다.
+        제2격: 공격력 55% x 3 + 80%의 화염 원소 대미지를 가하고 적을 격추시킨다. 목표가 지면에 충돌 시 추가로 공격력 10%의 화염 원소 대미지를 가하고, 주변 적을 넉백시킨다.
+        제3격: 공격력 210%의 화염 원소 대미지를 가한다.
+        제4격: 공격력 300% + 135% x 3의 화염 원소 대미지를 가한다.
+        제5격: 공격력 150%의 화염 원소 대미지를 가한다.
+        도약: 비공격 기간, 필살기 버튼을 터치하면 최대 2회의 도약을 할 수 있다. 도약 동작은 캐릭터의 회피로 간주되어 극한 회피 스킬을 발동시킬 수 있다.
+        올려치기: 지상 기본 공격 후 필살기 버튼을 터치해 발동한다. 공격력 60%의 화염 원소 대미지를 가하며, 올려치기는 공중 기본 공격 제2격을 연계할 수 있다.
+        격추 공격: 공중 기본 공격 후 필살기 버튼을 터치해 발동한다. 공격력 10% + 50%의 화염 원소 대미지를 가한다. 격추 공격은 지상 기본 공격 제3격을 연계할 수 있다.
+    subskills:
+      - name: 'QTE: Eternal Blossom, Blessed'
+        krName: QTE-백화의 가호가 있길
+        description: |-
+          QTE: Triggered when an enemy is Time-Slowed, ignited, knocked airborne, or hit by Mei's Combo ATK. Induces global Time Fracture for 2s and deals 100% x 2 + 900.0% ATK of Fire DMG. Enemies on the ground will be knocked airborne. QTE can be connected into aerial Basic ATK SEQ 3.
+        krDescription: |-
+          QTE: 적이 시공 감속, 연소, 에어본 또는 메이 캐릭터의 분기 공격에 적중 시 2초간 전체 시공 단열을 발동하고, 공격력 100% x 2 + 900.0%의 화염 원소 대미지를 가하며, 적이 지상에 있을 경우 공중에 띄워진다. QTE는 공중 기본 공격 제3격을 연계할 수 있다.
+      - name: 'Path Guarded by Shamash, Initiated'
+        krName: 천화의 보우가 있길
+        description: |-
+          Basic ATK and Combo ATK inflict 4.0 Ignite Trauma; CD: 6.0s. Basic ATK and Combo ATK deal 30.0% more Fire DMG.
+        krDescription: |-
+          기본 공격 또는 분기 공격이 적에게 연소 게이지를 4.0pt 누적한다. 발동 간격: 6.0초. 기본 공격과 분기 공격이 가하는 화염 원소 대미지가 30.0% 증가한다.
+- id: hoo
+  version: '6.4'
+  name: 'Herrscher of Origin'
+  krName: 기원의 율자
+  type: imaginary
+  valkyrie: mei
+  features: [lightning-dmg, time-mastery]
+  equipment:
+    - weapon: domain-of-unity
+      stigmataTop: raiden-mei-top
+      stigmataMid: raiden-mei-mid
+      stigmataBot: raiden-mei-bot
+      type: recommended
+  leader:
+    core:
+      name: 'Epiphany of Origin'
+      krName: 나로 시작해, 본래를 관통하는 진아
+      description: |-
+        Leader Skill: The team deals 30.0% more Elemental DMG and has 45.0 more initial SP. When Kiana is on the team, Kiana and the character have 45.0 more initial SP. In Open World, the increase to initial SP is triggered every 10 min.
+      krDescription: |-
+        리더로 배치 시 파티원의 대미지와 초기 SP가 증가한다.
+        리더 스킬: 파티원이 가하는 모든 원소 대미지가 30.0% 증가하고, 전투 중 파티원의 초기 SP가 45.0pt 증가한다. 파티 내 키아나 캐릭터가 존재할 경우, 키아나와 자신의 전투 중 초기 SP가 45.0pt 증가한다. 오픈월드에서 초기 SP 증가 효과는 10분마다 1회 발동한다.
+    subskills:
+      - name: Synopsis of Pristine Love
+        krName: 영원무결한 사랑의 시종
+        description: |-
+          The team deals 30.0% more Elemental DMG and has 45.0 more initial SP. When Kiana is on the team, Kiana and the character have 45.0 more initial SP. In Open World, the increase to initial SP is triggered every 10 min.
+        krDescription: |-
+          파티원이 가하는 모든 원소 대미지가 30.0% 증가하고, 전투 중 파티원의 초기 SP가 45.0pt 증가한다. 파티 내 키아나 캐릭터가 존재할 경우, 키아나와 자신의 전투 중 초기 SP가 45.0pt 증가한다. 오픈월드에서 초기 SP 증가 효과는 10분마다 1회 발동한다.
+  passive:
+    core:
+      name: Temperance of Empress
+      krName: 귀신갑주의 파멸, 자제의 극치
+      description: |-
+        Combo ATK deals DMG to both self and enemies.
+        Triggering Regressive Origin or Regressive Origin: Moment also triggers Sin of Killing dealing 5% ATK of Lightning DMG to both self and enemies. Triggering Ultimate Evasion, weapon skill, or switching character ends Sin of Killing instantly.
+        Herrscher of Origin stays in Herrscher Form.
+      krDescription: |-
+        분기 공격 시 적과 자신에게 동시에 대미지를 가한다.
+        [기행역행]과 [기원역행·순] 발동 시 추가로 [의업주살]을 1회 발동해 짧은 시간 자신과 적에게 공격력 5%의 뇌전 원소 대미지를 가한다. 극한 회피, 무기 스킬 발동 또는 캐릭터 교대 시 [의업주살]이 즉시 종료된다.
+        기원의 율자가 율자 형태를 유지한다.
+    subskills:
+      - name: Essence of Kirikaeshi
+        krName: 절반 불허의 극의
+        description: |-
+          Enemies affected by Herrscher of Origin's Time-frozen Domain are inflicted with Vulnerability, which makes them take 33.0% more Lightning DMG from Herrscher of Origin.
+        krDescription: |-
+          적이 기원의 율자의 정체 영역 효과에 영향을 받을 경우, 피해 심화 효과를 획득해 기원의 율자에게 받는 뇌전 원소 대미지가 33.0% 증가한다.
+      - name: Realization of Blade and Body
+        krName: 하나된 검체의 증명
+        description: |-
+          Total DMG increases by 10.0%. All enemies take 5.20% more Total DMG from Kiana and Herrscher of Origin.
+        krDescription: |-
+          모든 대미지가 10.0% 증가하고, 전장의 적이 키아나 캐릭터와 기원의 율자에게 받는 모든 대미지가 5.20% 증가한다.
+        requiredRank: sss
+  evasion:
+    core:
+      name: Introspection of Crimson
+      krName: 반역의 비홍, 이치를 찾는 소망
+      description: |-
+        Quickly dodge enemy attacks and perform powerful slashes after successful evasions.
+        At full Mind Body Insight, tap [ATK] after evasion to perform Combo ATK.
+        Tap [ATK] after triggering Ultimate Evasion Skill to trigger Regressive Origin: Moment, dealing 100% + 200% + 350% ATK of Lightning DMG and granting 1 stack of Twisted Origin. Ultimate Evasion Skill CD: 16s. Regressive Origin: Moment CD: 5s.
+        Regressive Origin: Moment is co nsidered Basic ATK and triggers Time-frozen Domain.
+      krDescription: |-
+        빠르게 적의 공격을 회피한다. 회피 성공 시 강력한 참격을 발동한다.
+        [심신일체]가 가득 찼을 때, 회피 후 공격 버튼을 눌러 분기 공격을 발동할 수 있다.
+        극한 회피 스킬 발동 후 공격 버튼을 터치하면 [기원역행·순]을 발동한다. [기원역행·순]은 공격력 100% + 200% + 350%의 뇌전 원소 대미지를 가하고 [칼날의 날개]에 [기원요전] 1스택을 충전한다. 극한 회피 재사용 대기시간: 16초, [기원역행·순] 최단 발동 간격: 5초 [기원역행·순]은 기본 공격으로 간주하며, 해당 기간 정체 영역 효과를 발동한다.
+    subskills:
+      - name: Solitude of Feathers Lost
+        krName: 떨어지는 천우의 고독
+        description: |-
+          Ultimate Evasion Skill CD is reduced by 1.0s. Attacks triggered by Ultimate Evasion Skill deal an additional 100.0% ATK of Lightning DMG in total. After casting Malice Expunged 2 times, gain 1 stack of Origin's Shadow. The next Ultimate Evasion Skill will consume Origin's Shadow to reduce CD by another 2.5s. The character gains 1 stack of Origin's Shadow on entry.
+        krDescription: |-
+          극한 회피 스킬의 재사용 대기시간이 2.5초 감소하고, 극한 회피 스킬이 발동한 공격이 추가로 총 공격력 200.0%의 뇌전 원소 대미지를 가한다. [화심단멸] 누적 2회 발동 시 [신원의 그림자]를 1스택 획득하고, 다음 극한 회피 스킬은 [신원의 그림자]를 소모해 재사용 대기시간이 추가로 5.0초 감소한다. 캐릭터 첫 출전 시 [신원의 그림자]를 1스택 획득한다.
+        requiredRank: s2
+  special:
+    core:
+      name: 'Combo: Phantasm of Danzai'
+      krName: 분기-숨결의 그림자, 길을 비추는 단죄
+      description: |-
+        Harnesses the power of lightning to sunder time and channel energy to destroy enemies.
+
+        Tap [ATK] after Basic ATK SEQ 4 or Basic ATK sheathing to cast Combo ATK and deal 120% ATK of Lightning DMG. At full Mind Body Insight, hits consume all Mind Body Insight to trigger Regressive Origin and activate Time-frozen Domain, during which all skill timers and the stage timer is paused. Tap [ATK] after Regressive Origin to perform a 2-sequence attack dealing 30% + 10% + 240% ATK of Lightning DMG.
+
+        Triggering Regressive Origin grants 1 stack of Twisted Origin. At 3 stacks, hold [ATK] to trigger Malice Expunged dealing 200% + 200% + 700% + 70% x 5 ATK of Lightning DMG.
+      krDescription: |-
+        뇌전의 힘으로 시간을 끊어내고, 에너지를 모아 적을 소멸한다.
+        기본 공격 제4격 후, 또는 기본 검 회수 동작 중 공격 버튼 터치 시 분기 공격을 발동해 공격력 120%의 뇌전 원소 대미지를 가한다.
+        [심신일체]가 가득 찼을 때 적 공격 시 [심신일체]를 전부 소모해 추가로 [기원역행]을 발동한다. 발동 시 정체 영역 효과가 발동해 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다.
+        [기원역행] 발동 후 공겨 버튼을 터치하면 2단 공격을 발동해 총 공격력 30% + 10% + 240%의 뇌전 원소 대미지를 가한다.
+
+        [기원역행] 발동 시 [칼날의 날개]에 [기원요전]을 1스택 충전한다. [기원요전]이 3스택에 도달했을 때 공격 버튼을 길게 눌러 [화심단멸] 발동 시 총 공격력 200% + 200% + 700% + 70% x 5의 뇌전 원소 대미지를 가한다.
+    subskills:
+      - name: Proof of Rime's Thawing
+        krName: 녹아내리는 얼음의 약속
+        description: |-
+          On hit, Malice Expunged restores 5.0 SP to Herrscher of Origin, makes her deal 35.0% more Total DMG and take 30.0% less Total DMG, and increases her Ignore Interrupt by 1 level for 10s. Triggering it again refreshes its duration.
+        krDescription: |-
+          [화심단멸]이 적에게 적중 시 기원의 율자가 SP를 5.0pt 회복하고, 캐릭터의 모든 대미지가 35.0% 증가한다. 또한, 받는 모든 대미지가 30.0% 감소하며, 경직 저항력이 1레벨 증가한다. 지속 시간: 10초, 중복 발동 시 지속 시간을 갱신한다.
+      - name: Raven Pinions of Evil Purging
+        krName: 천악 구원의 깃털
+        description: |-
+          Combo ATK and Ultimate gain 20.0% Elemental Breach.
+        krDescription: |-
+          분기 공격과 필살기 공격의 모든 원소 관통이 20.0% 증가한다.
+      - name: Inscription of Bygone Heroes
+        krName: 흩어지는 영웅의 각인
+        description: |-
+          Lightning DMG increases by 40.0%, and Lightning DMG from Combo ATK and Ultimate increases by 60.0% additionally.
+        krDescription: |-
+          뇌전 원소 대미지가 40.0% 증가하고, 분기 공격과 필살기가 가하는 뇌전 원소 대미지가 추가로 60.0% 증가한다.
+  ultimate:
+    core:
+      name: Thunder of Redemption
+      krName: 차가운 뇌명, 죄의 연심
+      description: |-
+        Perform successive slashes to sunder enemies and even time.
+        Casting Ultimate deals 200% ATK of Lightning DMG, during which you can swipe the screen, tap [ATK], tap directions, or move the joystick to slash repeatedly and deal 85% ATK of Lightning DMG per hit. After 12 slashes or 20 seconds, the final slash is triggered to deal 500% + 30% x 5 ATK of Lightning DMG and trigger Time-frozen Domain which pauses all skill timers and the stage timer.
+        SP cost: 75. CD: 18s.
+
+        With Herrscher of Finality and Herrscher of Truth on the team, Ultimate is replaced by Joint Bursting.
+        Joint Bursting deals 450% ATK of Lightning DMG, removes Herrscher of Finality's switch CD, and triggers Herrscher of Finality's special QTE ATK.
+        Joint Bursting's SP cost: 50. CD: 15 (unaffected by CD reduction).
+      krDescription: |-
+        연속 참격으로 적과 공간을 벤다.
+        필살기를 발동해 공격력 200%의 뇌전 원소 대미지를 가한다. 필살기 기간 화면을 슬라이드하거나 공격 버튼, 방향키 터치, 패드 조작으로 연속 참격을 발동할 수 있다. 각 공격은 공격력 85%의 뇌전 원소 대미지를 가한다.
+        참격을 12회 진행하거나 20초 후에 마지막 참격을 발동하면 공격력 500% + 30% x 5의 뇌전 원소 대미지를 가하고, 그 기간 정체 영역 효과를 발동해 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다.
+        발동 소모 SP: 75, 재사용 대기시간: 18초
+
+        파티 내 종언의 율자와 진리의 율자가 동시에 존재할 경우, 필살기가 [폭발 연계]로 변경된다.
+        [폭발 연계]: 공격력 450%의 뇌전 원소 대미지를 가하고, 종언의 율자 캐릭터 교대 재사용 대기시간을 리셋하며, 종언의 율자 특수 QTE 공격을 발동한다.
+        [폭발 연계] 발동 소모 SP: 50, 재사용 대기시간: 15초(재사용 대기시간 감소 효과를 받지 않는다)
+    subskills:
+      - name: Manifestation of Divided Fate
+        krName: 갈라지는 운명의 조짐
+        description: |-
+          Ultimate deals 80.0% more Lightning DMG. Final slash deals an additional 200.0% Lightning DMG.
+        krDescription: |-
+          필살기가 가하는 뇌전 원소 대미지가 80.0% 증가하고, 마지막 참격이 추가로 공격력 200.0%의 뇌전 원소 대미지를 가한다.
+        requiredRank: ss
+      - name: Lament of the Fallen's Farewell
+        krName: 떠나는 죄인의 만가
+        description: |-
+          If Ultimate hits IMG-type enemies, 100.0% of the DMG a Nihilus Shell takes will be transferred to its Nihilus Seed (reflected by HP loss).
+        krDescription: |-
+          필살기가 허수 속성 적에게 적중 시, [허무의 껍데기]가 받는 대미지가 100.0%의 비율로 [허무의 씨앗]에 전이된다(HP 감소 효과).
+      - name: Renouncement of Selfless Sacrifice
+        krName: 불태우는 희생의 단멸
+        description: |-
+          Joint Bursting makes all enemies take 10.0% more Total DMG for 10s.
+          When Herrscher of Finality and Herrscher of Truth are on the team, casting Malice Expunged makes the team deal 10.0% more Total DMG for 10s. Triggering it again refreshes its duration.
+        krDescription: |-
+          [폭발 연계]가 전장의 적이 받는 모든 대미지를 10.0% 증가시킨다. 지속 시간: 10초
+          파티 내 종언의 율자가 진리의 율자가 동시에 존재할 경우, [화심단멸] 발동 시 파티원의 모든 대미지가 10.0% 증가한다. 지속 시간: 10초, 중복 발동 시 지속 시간을 갱신한다.
+  basic:
+    core:
+      name: Strike of Fulminata
+      krName: 스트라이커, 빛을 쫓는 새벽
+      description: |-
+        Wields a katana to continuously attack enemies.
+        SEQ 1: Deals 90% ATK of Lightning DMG.
+        SEQ 2: Deals 70% x 2 + 90% ATK of Lightning DMG.
+        SEQ 3: Deals 75% x 3 ATK of Lightning DMG.
+        SEQ 4: Deals 30% x 10 ATK of Lightning DMG and grants Mind Body Insight, during which character is in Iron Body state and has 40% DMG Reduction. After the sheathing animation of SEQ 4, the attack will be completed even if interrupted.
+        Evasion and weapon skills will not reset Basic ATK combo hits. Basic ATK inflicts minor Paralyze Trauma.
+      krDescription: |-
+        태도를 사용해 연속으로 적을 공격한다.
+        제1격: 공격력 90%의 뇌전 원소 대미지를 가한다.
+        제2격: 공격력 70% x 2 + 90%의 뇌전 원소 대미지를 가한다.
+        제3격: 공격력 75% x 3의 뇌전 원소 대미지를 가한다.
+        제4격: 공격력 30% x 10의 뇌전 원소 대미지를 가하고 [심신일체]가 대폭 증가한다. 공격 기간 슈퍼 아머 상태에 진입해 받는 대미지가 40% 감소한다. 제4격 검 회수 동작 시 경직되어도 공격을 완료할 수 있다.
+        회피, 극한 회피 스킬, 무기 스킬은 기본 공격의 콤보 단계를 초기화하지 않으며, 기본 공격은 마비 게이지를 소량 누적한다.
+    subskills:
+      - name: 'QTE: Quest without Return'
+        krName: QTE-귀로 없는 길의 탐구
+        description: |-
+          QTE: Triggered when an enemy is Time-Slowed, paralyzed or hit by Kiana's Combo ATK. Deals 300% + 800.0% ATK of Lightning DMG and generates Sin of Killing once; if Wing Blades are not loaded with Twisted Origin, load them with 1 stack of Twisted Origin. When Herrscher of Finality and Herrscher of Truth are on the team, deal 50% more Total DMG within 10s of QTE entry; triggering it again refreshes its duration.
+        krDescription: |-
+          QTE: 적이 시공 감속, 마비 상태 또는 키아나 캐릭터의 분기 공격 적중 시 발동해 공격력 300% + 800.0%의 뇌전 원소 대미지를 가하고, [의업주살]을 1회 생성한다. [칼날의 날개]에 [기원요전]이 충전디지 않은 경우, [기원요전]을 1스택 충전한다. 파티 내 종언의 율자와 진리의 율자가 동시에 존재할 경우, QTE 출전 시 10초 동안 가하는 모든 대미지가 50% 증가한다. 중복 발동 시 지속 시간을 갱신한다.
+      - name: Deviation of Serpent's Return
+        krName: 뱀 그림자 회귀의 미로
+        description: |-
+          An enemy hit by QTE or Basic ATK SEQ 4 takes 20.0% more Lightning DMG from Herrscher of Origin for 8s (cannot stack). Triggering it again refreshes its duration.
+        krDescription: |-
+          QTE 또는 기본 공격 제4격 적중 시 적이 기원의 율자에게 받는 뇌전 원소 대미지가 20.0% 증가한다(해당 효과는 독립적으로 부여된다). 지속 시간: 8초, 중복 발동 시 지속 시간을 갱신한다.
 - id: hotr
   version: '6.3'
   name: 'Herrscher of Truth'
@@ -28,6 +447,12 @@
           All team members deal 35.0% more Elemental DMG. For every non-Bronya battlesuit on the team, enemies receive 10.0% more Ice DMG from Herrscher of Truth in Continuation form (independent effect).
         krDescription: |-
           파티원의 모든 원소 대미지가 35.0% 증가한다. 파티에 브로냐가 아닌 캐릭터가 1명 있을 때마다 연속 형태에서 적이 진리의 율자에게 받는 빙결 원소 대미지가 10.0% 증가한다(해당 효과는 독립적으로 부여된다).
+      - name: Cluster of Brilliance
+        krName: 전기, 군중의 빛
+        description: |-
+          When the character triggers Joint Bursting with Devouring Vision unlocked, it will be triggered simultaneously, making all enemies take 8.0% more Elemental DMG for 16s.
+        krDescription: |-
+          자신이 [폭발 연계] 발동 시 캐릭터가 [폭군 탐신의 주목] 스킬을 개방한 상태라면 해당 효과를 함께 발동하고, 전장의 적이 받는 모든 원소 대미지가 8.0% 증가한다. 지속 시간: 16초
   passive:
     core:
       name: Dimensional Resonance Drive
@@ -150,15 +575,20 @@
       description: |-
         Uses the primary cannon to bombard enemies.
         In Extremum form, tap [ULT] to cast Salvo and transform into Continuation form. Deals 800% ATK of Ice DMG to nearby enemies, which restores 20 SP on hit, induces global Time Fracture for 2s (registered as Continuation form Combo ATK). CD: 15s (unaffected by CD reduction). Salvo only happens once as she will enter Continuation form by Return Brake afterward. Deals 350% ATK of Ice DMG to nearby enemies. CD: 15s (unaffected by CD reduction).
-        In Continuation form, tap [ULT] to cast Ultimate that deals 10 × 100% ÄTK of Ice DMG to all enemies. During which, all skill and stage timers are paused.
-
+        In Continuation form, tap [ULT] to cast Ultimate that deals 10 × 100% ÄTK of Ice DMG to all enemies, during which Time-frozen Domain is triggered to pause all skill timers and the stage timer.
         SP: 125. CD: 30s. Entering Continuation form refreshes Ultimate CD.
+        With Herrscher of Finality and Herrscher of Origin on the same team, Ultimate is replaced with Joint Bursting.
+        Joint Bursting deals 400% ATK of Ice DMG, removes the switch CD of Herrscher of Finality, and triggers Herrscher of Finality's special QTE ATK.
+        Joint Bursting's SP cost: 75. CD: 15(unaffected by CDR).
       krDescription: |-
         주포로 적을 포격한다.
         극값 형태에서 필살기 버튼 터치 시 [화력 연계]를 발동해 연속 형태에 진입하고, 주변 적에게 공격력 800%의 빙결 원소 대미지를 가한다. 적에게 적중 시 SP를 20pt 회복하고, 2초간 전체 시공 단열을 발동한다. 해당 효과는 연속 형태 분기 공격으로 간주되어 15초의 재사용 대기시간(재사용 대기시간 감소의 효과를 받지 않는다)을 갖는다. [화력 연계]는 전투 중 한 번만 발동하며, 이후 [귀환 브레이크]로 연속 형태에 진입해 주변 적에게 공격력 350%의 빙결 원소 대미지를 가한다. 15초의 재사용 대기시간(재사용 대기시간감소의 효과를 받지 않는다)을 갖는다.
         연속 형태에서 필살기 버튼을 터치해 필살기 발동: 전장의 적에게 공격력 10 x 100%의 빙결 원소 대미지를 가하고, 그 기간 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다.
         발동 소모 SP: 125pt, 재사용 대기시간: 30초.
         연속 형태 진입 시 필살기의 재사용 대기시간이 초기화된다.
+        파티 내 종언의 율자와 기원의 율자가 동시에 존재할 경우, 필살기가 [폭발 연계]로 변경된다.
+        [폭발 연계]: 공격력 400%의 빙결 원소 대미지를 가하고, 종언의 율자의 캐릭터 교대 재사용 대기시간이 초기화되며, 종언의 율자의 특수 QTE 공격을 발동한다.
+        [폭발 연계] 발동 소모 SP: 75pt, 재사용 대기시간: 15초(재사용 대기시간 감소 효과를 받지 않는다)
     subskills:
       - name: Call of Fading Echoes
         krName: 세계라는 이름의 잔향
@@ -2341,29 +2771,20 @@
       name: Equinox March
       krName: 천원행진곡
       description: |-
-        Mount the war horse and reach max speed to deal massive Physical
-        DMG.
-        Tap:
-        Switch between Knight Form and Guardian Form. Knight to Guardian triggers Shield Ram. Guardian to Knight enables active Ultimate Evasion Skill.
-
-        Hold:
-        Perform a mighty blow to deal 2000% ATK of Physical DMG in a large area and suspend all skill timers as well as the stage timer.
-
+        Mount the war horse and reach max speed to deal massive Physical DMG.
+        Tap: Switch between Knight Form and Guardian Form. Knight to Guardian triggers Shield Ram. Guardian to Knight enables active Ultimate Evasion Skill.
+        Hold: Perform a mighty blow to deal 2000% ATK of Physical DMG in a large area and trigger Time-frozen Domain which suspends all skill timers as well as the stage timer.
         SP cost: 100. CD: 20s.
       krDescription: |-
         전투마에 올라탄 후 속도를 극한까지 끌어올려 목표에게 대량의 대미지를 가하는 필살기이다.
         짧게 누르기: 형태를 전환한다. 기사 형태에서 위병 형태로 전환 시 [방패 돌격] 효과를 획득하고, 위병 형태에서 기사 형태 전환 시 [극한 회피 스킬] 직접 발동 효과를 획득한다.
-        길게 누르기:
-        이율배반 성흔의 힘을 하나로 모은 후 모순의 나선 저편에서 천지를 뒤바꾸는 일격을 날려 넓은 범위의 적에게 공격력 2000%의 물리 대미지를 가한다. 그 기간, 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다.
-
+        길게 누르기: 이율배반 성흔의 힘을 하나로 모은 후 모순의 나선 저편에서 천지를 뒤바꾸는 일격을 날려 넓은 범위의 적에게 공격력 2000%의 물리 대미지를 가한다. 그 기간, 캐릭터가 정체 영역 효과를 발동해 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다.
         소모 SP: 100, 재사용 대기시간: 20초
     subskills:
       - name: Herrscher Killer
         krName: 율자 킬러
-        description:
-          If Ultimate hits IMG enemies, 150.0% of the DMG a Nihilus Shell
-          takes will be transferred to the corresponding Nihilus Seed (reflected
-          by HP loss).
+        description: |-
+          If Ultimate hits IMG enemies, 150.0% of the DMG a Nihilus Shell takes will be transferred to the corresponding Nihilus Seed (reflected by HP loss).
         krDescription:
           필살기가 허수 속성 적에게 적중 시, 허무의 껍데기가 받은 대미지가 150.0%의 비율로 허무의 씨앗에 전이된다(HP
           감소 효과).
@@ -2865,35 +3286,22 @@
     core:
       name: Razing Chrome
       krName: 은익의 포효
-      description: >-
+      description: |-
         Launches a powerful laser through a regulator for massive AoE DMG.
-
         When tapped:
-
         If grounded, get airborne dealing 100% Ice DMG. Tap ATK afterwards to follow with the second blow of a Basic ATK.
-
         Aerial: Return to the ground dealing 100% Ice DMG. Tap ATK afterards to follow with the third blow of a Basic ATK.
-
         Getting airborne or grounded moves scatter barrier between you and the enemy hit last.
-
-        If held: Perform Ultimate for 2500% Ice DMG. During Ultimate, user and enemy skill timers and stage timer are paused. Destroys barriers present on field. A scatter barrier is redployed 10s after use.
-
+        If held: Perform Ultimate for 2500% Ice DMG. During Ultimate, Time-frozen Domain is triggered to pause all skill timers and the stage timer.Destroys barriers present on field. A scatter barrier is redployed 10s after use.
         CD: 15s, SP cost: 75
-      krDescription: >-
+      krDescription: |-
         증폭기를 통과하는 강력한 레이저를 발사해 광범위 공격을 가한다.
-
         짧은 터치:
-
         지상: 공중으로 이동해 공격력 100%의 빙결 원소 대미지를 가한다. 그 후, 공격 버튼을 누르면 이어서 기본 공격 제2격을 발동한다.
-
         공중: 지상으로 돌아가 공격력 100%의 빙결 원소 대미지를 가한다. 그 후, 공격 버튼을 누르면 이어서 기본 공격 제3격을 발동한다.
-
         공중 또는 지상으로 이동 시 분열 배리어의 위치를 자신과 마지막으로 공격한 적 사이로 조정한다.
-
         긴 터치:
-
-        필살기를 발동해 공격력 2500%의 빙결 원소 대미지를 가한다. 필살기 발동 기간, 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다. 시전 시 전장에 존재하는 배리어를 강제로 파괴하며, 필살기 발동 종료 후 10초간 지속되는 분열 배리어를 전개한다.
-
+        필살기를 발동해 공격력 2500%의 빙결 원소 대미지를 가한다. 필살기 발동 기간, 캐릭터가 정체 영역 효과를 발동해 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다. 시전 시 전장에 존재하는 배리어를 강제로 파괴하며, 필살기 발동 종료 후 10초간 지속되는 분열 배리어를 전개한다.
         재사용 대기시간: 15초, SP 소모: 75pt
     subskills:
       - name: Vigilant Procession

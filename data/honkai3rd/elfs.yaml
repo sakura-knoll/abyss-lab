@@ -1,3 +1,149 @@
+- id: kk
+  version: '6.4'
+  name: Kiana Kaslana
+  krName: 키아나 카스라나
+  baseRank: 2
+  features: [fire-dmg, lightning-dmg, gather]
+  skillRows:
+    - - name: Kiana, Go!
+        krName: 키아나, 출격!
+        type: basic
+        description: |-
+          ELF has two Basic ATKs:
+          Basic ATK 1: Fires 3 bullets, dealing 3 x 250.0% ATK of Fire DMG.
+          Basic ATK 2: Swings the bat, dealing 3 x 850.0% ATK of Fire DMG.
+          ELF recovers 1.5 SP per second in combat.
+
+          ATK Interval: 3.3s
+        krDescription: |-
+          인형은 두 가지 기본 공격을 사용한다:
+          기본 공격 1: 권총으로 탄을 3발 발사해 공격력 250.0% x 3의 화염 원소 대미지를 가한다.
+          기본 공격 2: 야구 배트를 던져 공격력 850.0%의 화염 원소 대미지를 가한다.
+          전투 진입 후, 인형은 매초 SP를 1.5pt 회복한다.
+
+          공격 빈도: 3.3초
+        requiredRank: 2
+      - name: A Little Homesick
+        krName: 집이 그리워
+        type: passive
+        description: |-
+          ELF's Basic ATK deals 30.0% more Total DMG and has 50.0 more initial SP.
+        krDescription: |-
+          인형의 기본 공격이 가하는 모든 대미지가 30.0% 증가하고, 초기 SP가 50.0pt 증가한다.
+        requiredRank: 2
+      - name: Wanna Eat Pizza Toast
+        krName: 피자 토스트가 먹고 싶어
+        type: passive
+        description: |-
+          Unleashes the Ultimate and makes enemies take 8.0% more Fire and Lightning DMG for 20s.
+        krDescription: |-
+          필살기 발동 시 적이 받는 화염, 뇌전 원소 대미지가 추가로 8.0% 증가한자. 지속 시간: 20초
+        requiredRank: 3
+      - name: Backpack's Getting Heavier
+        krName: 가방이 무거워
+        type: ultimate
+        description: |-
+          When ELF's Basic ATK hits an inflammable or conductive enemy, it restores extra 5.0 SP. CD: 2s.
+        krDescription: |-
+          인형의 기본 공격이 [가연]/[약뢰] 상태의 적에게 적중 시 추가로 SP를 5.0pt 회복한다. 재사용 대기시간: 2초
+        requiredRank: 3
+    - - name: Baffling Luck
+        krName: 비범한 행운
+        type: ultimate
+        description: |-
+          ELF hits a home run and the baseball explodes, dealing 2 x 900.0% ATK of Fire DMG, pulling nearby enemies and creating an area. The baseball explodes again in 7s, dealing 1,200.0% ATK of Fire DMG and pulling nearby enemies.
+          Ultimate reduces switch CD for the Valkyries on standby by 8s and makes enemies receive 12.0% more Elemental DMG for 20s.
+
+          CD: 45s
+          SP cost: 75
+        krDescription: |-
+          인형이 홈런을 날려 야구공 폭탄으로 공격력 900.0% x 2의 화염 대미지를 가하고, 주변 적을 끌어당기며, 영역 하나를 생성한다. 7초 후, 야구공이 2차 폭발해 공격력 1,200.0% 의 화염 원소 대미지를 가하고, 주변 적을 끌어당긴다. 필살기 발동 시 대기 상태 캐릭터의 교대 재사용 대기시간이 8초 감소하고, 전장의 적이 받는 모든 원소 대미지가 12.0% 증가한다. 지속 시간: 20초
+
+          스킬 CD: 45초
+          SP 소모: 75
+        requiredRank: 2
+      - name: Found a Big Umbrella
+        krName: 비오는 날엔 우산이지
+        type: passive
+        description: |-
+          [Team-triggered] When the leader is Fire DMG dealer, ELF's Ultimate inflicts inflammable status over an area. When the leader is a Lightning DMG dealer, ELF's Ultimate deals Lightning DMG instead and inflicts conductive status over an area. If inflammable or conductive enemies take Lightning or Fire DMG respectively, they will detonate the Ultimate area prematurely, dealing 1,500.0% ATK of Fire DMG + 1,500.0% ATK of Lightning DMG and inflicting inflammable & conductive statuses for 20s.
+        krDescription: |-
+          [파티 발동] 리더가 화염 원소 대미지 특성의 발키리일 경우, 인형이 필살기 구역 내 적에게 [가연] 상태를 부가한다. 리더가 뇌전 원소 대미지 특성의 발키리일 경우, 인형의 필살기 대미지가 뇌전 원소로 변경되고, 해당 구역의 적에게 [약뢰] 상태를 부가한다. [가연]/[약뢰] 상태의 적이 발키리의 뇌전/화염 원소 대미지를 받을 경우, 필살기 구역이 즉시 폭발해 공격력 1,500.0%의 화염 원소 대미지 + 공격력 1,500.0%의 뇌전 원소 대미지를 가하고, 동시에 20초 동안 적에게 [가연], [약뢰] 상태를 부가한다.
+        requiredRank: 2
+      - name: More Yummies in My Bag
+        krName: 맛있는 음식이 잔뜩
+        type: passive
+        description: |-
+          ELF's Ultimate and Ultimate's second explosion increase all team members' Elemental DMG by 10.0% for 12s.
+          Triggering it again refreshes its duration.
+        krDescription: |-
+          인형 필살기 및 필살기의 2차 폭발은 파티 내 캐릭터에게 12초 동안 10.0%의 모든 원소 대미지 증가 효과를 부여한다. 중복 발동 시 지속 시간을 누적한다.
+        requiredRank: 2
+      - name: Gold on the Floor
+        krName: 동전이 떨어졌어
+        type: passive
+        description: |-
+          ELF deals 65.0% more Elemental DMG to inflammable and conductive enemies.
+          ELF's Ultimate's premature denotation deals 45.0% more Total DMG.
+        krDescription: |-
+          인형이 [가연]/[약뢰] 상태의 적에게 가하는 모든 원소 대미지가 추가로 65.0% 증가하고, 인형의 필살기 사전 폭발이 가하는 모든 대미지가 45.0% 증가한다.
+        requiredRank: 4
+    - - name: Big Courage
+        krName: 큰 용기
+        type: passive
+        description: |-
+          [Team-triggered] When the leader is a Fire DMG dealer, ELF deals 30.0% more Fire DMG. When the leader is a Lightning DMG dealer, ELF deals 30.0% more Lightning DMG.
+        krDescription: |-
+          [파티 발동] 리더가 화염 원소 대미지 특성의 발키리일 경우, 인형의 화염 원소 대미지가 30.0% 증가한다. 리더가 뇌전 원소 대미지 특성의 발키리일 경우, 인형의 뇌전 원소 대미지가 30.0% 증가한다.
+        requiredRank: 2
+      - name: Of Course I Can
+        krName: 난 할 수 있어!
+        type: passive
+        description: |-
+          [Team-triggered] When the leader is a Lightning DMG dealer, ELF's Basic ATK and Joint ATK deal Lightning DMG instead.
+        krDescription: |-
+          [파티 발동] 리더가 뇌전 원소 대미지 특성의 발키리일 경우, 인형의 기본 공격과 연계 공격이 뇌전 원소 대미지로 변경된다.
+        requiredRank: 2
+      - name: I'll Keep it Up
+        krName: 계속 힘내자
+        type: passive
+        description: |-
+          Shortens ELF's Ultimate CD by 30.0%.
+        krDescription: |-
+          인형의 필살기 재사용 대기시간이 30.0% 감소한다.
+        requiredRank: 3
+      - name: I Won't Give Up
+        krName: 포기하면 안 돼
+        type: passive
+        description: |-
+          [Team-triggered] When team members are of two or more elements, ELF and Valkyries deal 8.0% more Total DMG.
+        krDescription: |-
+          [파티 발동] 파티 내 두가지 이상의 다른 원소 속성의 발키리가 있을 경우, 인형과 발키리가 가하는 모든 대미지가 8.0% 증가한다.
+        requiredRank: 4
+    - - name: Small Wish
+        krName: 작은 소원
+        type: team
+        description: |-
+          When a Valkyrie's Weapon Active deals DMG, ELF launches a Joint ATK, firing a charged-shot that deals 900.0% ATK of FIre DMG, pulls nearby enemies. Joint ATK CD: 10s
+        krDescription: |-
+          파티 내 캐릭터가 무기 스킬 대미지를 가할 경우, 인형은 동시에 연계 공격으로 적에게 에너지 차지탄을 1발 발사해 공격력 900.0%의 화염 원소 대미지를 가하고, 주변 적을 끌어당긴다. 연계 공격 재사용 대기시간: 10초
+        requiredRank: 2
+      - name: Wanna Make Friends
+        krName: 새로운 친구를 많이 사귀자
+        type: passive
+        description: |-
+          [Team-triggered] When the leader is a Fire or Lightning DMG dealer, Joint ATK inflicts inflammable or conductive status.
+        krDescription: |-
+          [파티 발동] 리더가 화염/뇌전 원소 대미지 특성의 발키리일 경우, 연계 공격이 적에게 [가연]/[약뢰] 상태를 부가한다.
+        requiredRank: 2
+      - name: Gotta Find Pops
+        krName: 바보 아빠를 꼭 찾겠어
+        type: passive
+        description: |-
+          Valkyries deal 15.0% more Fire or Lightning DMG to inflammable or conductive enemies.
+        krDescription: |-
+          발키리가 [가연]/[약뢰] 상태의 적 공격 시 가하는 화염/뇌전 원소 대미지가 15.0% 증가한다.
+        requiredRank: 3
 - id: ee
   version: '6.0'
   name: Elf Elysia
@@ -43,9 +189,15 @@
         krName: 엘프 나라의 마법
         type: ultimate
         description: |-
-          The ELF uses enhanced magic, increasing Ice DMG taken by enemies by 15.0% for 10.0s (Triggering it again resets the duration). She then transforms, gathering in strength for a powerful magic ATK that draws in surrounding enemies. She finishes with an ATK that deals 3,000.0% ATK of Ice DMG. Her Ultimate reduces switch CD by 8s.
+          The ELF uses enhanced magic, making enemies receive 15.0% more Ice DMG for 10.0s (Triggering it again resets the duration). She then transforms, gathering in strength for a powerful magic ATK that draws in surrounding enemies. She finishes with an ATK that deals 3,000.0% ATK of Ice DMG. Her Ultimate reduces switch CD by 8s.
+
+          CD: 45s
+          SP cost: 75
         krDescription: |-
-          인형이 강화 마법을 발동해 적이 받는 빙결 원소 대미지가 15.0% 증가한다. 지속 시간: 10.0초(중복 발동 시 지속 시간을 갱신한다). 이후 변신하여 주변의 적을 끌어당기고, 강력한 마법 공격을 가해 공격력 3,000.0%의 빙결 원소 대미지를 가한다. 필살기 스킬 발동 시 대기 상태 캐릭터의 교대 재사용 대기 시간이 8초 감소한다.
+          인형이 강화 마법을 발동해 전장의 적이 받는 빙결 원소 대미지가 15% 증가한다. 지속 시간: 10.0초(중복 발동 시 지속 시간을 갱신한다). 이후 변신하여 주변의 적을 끌어당기고, 강력한 마법 공격을 가해 공격력 3,000.0%의 빙결 원소 대미지를 가한다. 필살기 스킬 발동 시 대기 상태 캐릭터의 교대 재사용 대기 시간이 8초 감소한다.
+
+          스킬 CD: 45초
+          SP 소모: 75
         requiredRank: 2
       - name: Fix-It Spell
         krName: 복구 마법
@@ -179,24 +331,16 @@
     - - name: Immortal Blades!!
         krName: 불멸의 칼날!!
         type: ultimate
-        description: >-
-          Blink to the target location, pull in enemies, and unleash AoE
-          attacks dealing 600% x 8 ATK of Physical DMG. Afterwards, pull in
-          enemies again and deal 1800% ATK of Physical DMG. Enemies hit are
-          inflicted with Dissociated stacks (lasting 5s) and each stack makes
-          them take 1.0% bonus Physical DMG. 5 stacks max. Ultimate also reduces
-          switch CD.
-
+        description: |-
+          Blink to the target location, pull in enemies, and unleash AoE attacks dealing 600% x 8 ATK of Physical DMG. Afterwards, pull in enemies again and deal 1800% ATK of Physical DMG. Enemies hit are inflicted with Dissociated stacks (lasting 5s) and each stack makes them take 1.0% bonus Physical DMG. 5 stacks max. Ultimate also reduces switch CD.
 
           CD: 45s
-
           SP: 75
-        krDescription: >-
-          인형이 지정 목표 위치에 나타나 적을 모으고, 범위 내 적에게 다단 공격을 발동해 공격력 600%*8의 물리 대미지를
-          가한다. 다단 공격 종료 후, 다시 적을 모아 폭발을 일으켜 1800%의 물리 대미지를 가한다. 공격할 때마다 피격된 적은
-          [해리] 효과가 중첩되며, 적은 스택마다 받는 물리 대미지가 1.0% 증가한다. 최대 5스택 중첩, 지속 시간: 5초.
+        krDescription: |-
+          인형이 지정 목표 위치에 나타나 적을 모으고, 범위 내 적에게 다단 공격을 발동해 공격력 600%*8의 물리 대미지를 가한다. 다단 공격 종료 후, 다시 적을 모아 폭발을 일으켜 1800%의 물리 대미지를 가한다. 공격할 때마다 피격된 적은 [해리] 효과가 중첩되며, 적은 스택마다 받는 물리 대미지가 1.0% 증가한다. 최대 5스택 중첩, 지속 시간: 5초. 필살기 발동 시 대기 상태 캐릭터의 교대 재사용 대기시간이 8초 감소한다.
 
-          필살기 발동 시 대기 상태 캐릭터의 교대 재사용 대기시간이 8초 감소한다.
+          스킬 CD: 45초
+          SP 소모: 75
         requiredRank: 2
       - name: Perpetual Motion Machine, Fake
         krName: 가짜 영구 기관
@@ -1297,13 +1441,9 @@
           CD: 30s
 
           SP: 75
-        krDescription: >-
-          목표에게 달려들어 도끼를 휘두르고 주위의 적에게 공격력 360%*3의 물리 대미지를 주고 도끼를 하늘로 날려버린다.
-          도끼가 목표를 내리찍으면 주위의 공격력 2900%의 물리 대미지를 입힌다. 피의 단두대는 실드에 대한 대미지가 100%
-          증가하고, 실드에 3,000의 추가 대미지를 입힌다.
-
+        krDescription: |-
+          목표에게 달려들어 도끼를 휘두르고 주위의 적에게 공격력 360%*3의 물리 대미지를 주고 도끼를 하늘로 날려버린다. 도끼가 목표를 내리찍으면 주위의 공격력 2900%의 물리 대미지를 입힌다. 혈의 심판이 실드에 가하는 대미지가 100% 증가하고, 실드에 3,000의 추가 대미지를 입힌다.
           스킬 CD: 30초
-
           SP 소모: 75
         requiredRank: 1
       - name: Final Judgment
