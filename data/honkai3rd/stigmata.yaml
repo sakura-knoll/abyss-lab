@@ -1,3 +1,57 @@
+- id: aladdin-top
+  version: '6.5'
+  name: 'Aladdin (T)'
+  krName: '알라딘 (상)'
+  type: top
+  rarity: 5
+  hp: 393
+  atk: 114
+  def: 50
+  crt: 0
+  set: aladdin
+  skill:
+    name: Street Rogue
+    krName: 거리의 도적
+    description: |-
+      Ultimate deals 20.0% more Physical DMG. When Ultimate deals Bleed DMG, it deals 60.0% more Total DMG.
+    krDescription: |-
+      물리 대미지가 20.0% 증가한다. 필살기가 출혈 대미지를 가할 시 가하는 모든 대미지가 60.0% 증가한다.
+- id: aladdin-mid
+  version: '6.5'
+  name: 'Aladdin (M)'
+  krName: '알라딘 (중)'
+  type: mid
+  rarity: 5
+  hp: 490
+  atk: 0
+  def: 239
+  crt: 7
+  set: aladdin
+  skill:
+    name: Wishing Lamp
+    krName: 요술램프
+    description: |-
+      The team deals 20.0% more Physical DMG to bleeding enemies. The host's attacks inflict 25.0% more Bleed Trauma.
+    krDescription: |-
+      파티원이 출혈 상태의 적에게 가하는 물리 대미지가 20.0% 증가하고, 캐릭터의 공격이 누적하는 출혈 게이지가 25.0% 증가한다.
+- id: aladdin-bot
+  version: '6.5'
+  name: 'Aladdin (B)'
+  krName: '알라딘 (하)'
+  type: bot
+  rarity: 5
+  hp: 434
+  atk: 61
+  def: 66
+  crt: 9
+  set: aladdin
+  skill:
+    name: Magic Carpet Ride
+    krName: 마법의 양탄자
+    description: |-
+      Increases Total DMG by 15.0%. All enemies take 20.0% more Bleed DMG.
+    krDescription: |-
+      모든 대미지가 15.0% 증가하고, 모든 적이 받는 출혈 대미지가 20.0% 증가한다.
 - id: kiana-evening-invite-bot
   version: '6.4'
   name: 'Kiana: Evening Invite (B)'
@@ -732,11 +786,11 @@
     krName: 왕자의 복수
     description:
       Total DMG increases by 20.0%. Triggering Ultimate Evasion Skill or
-      Retaliation Skill enhances host and boosts Total DMG by 20.0% for 15s.
+      Retaliation Skill increases Total DMG by 20.0% for 15s.
       Triggering it again resets the duration.
-    krDescription:
-      '모든 대미지가 20.0% 증가한다. 극한 회피 또는 방어 반격 스킬 발동 시, 캐릭터는 강화를 획득해 모든 대미지가
-      추가로 20.0% 증가한다. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.'
+    krDescription: |-
+      모든 대미지가 20.0% 증가한다. 극한 회피 스킬 또는 방어 반격 스킬 발동 시, 캐릭터는 강화를 획득해 모든 대미지가
+      추가로 20.0% 증가한다. 지속 시간: 15초, 중복 발동 시 지속 시간을 갱신한다.
 - id: bianka-theatre-bot
   version: '5.5'
   name: 'Bianka: Theatre (B)'

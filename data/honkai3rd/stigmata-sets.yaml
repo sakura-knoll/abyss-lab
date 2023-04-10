@@ -1,3 +1,26 @@
+- id: aladdin
+  version: '6.5'
+  name: Aladdin
+  krName: 알라딘
+  altName: Exotic Lamp
+  krAltName: 이국의 램프
+  rarity: 5
+  twoSetSkill:
+    name: Wish for Contentment with Life 2 Pieces
+    krName: 만족하는 기쁨의 소원 2세트
+    description: |-
+      The team deals 20.0% more Bleed DMG.
+      Valkyrie Quicksand equip bonus: Her weapon active and Ultimate deal 80.0% more Total DMG.
+    krDescription: |-
+      파티원의 출혈 대미지가 20.0% 증가한다.
+      발키리·열정의 사막이 장비 시, 캐릭터 무기 스킬과 필살기의 모든 대미지가 80.0% 증가한다.
+  threeSetSkill:
+    name: Tale of Fate's Betrayal 3 Pieces
+    krName: 이율배반의 기담 3세트
+    description: |-
+      Increases Physical DMG by 18.0%, and Combo ATK's Total DMG by 30.0%. When the host is on the field, dealing Bleed DMG restores 1 SP; CD: 1s.
+    krDescription: |-
+      물리 대미지가 18.0% 증가하고, 분기 공격의 모든 대미지가 30.0% 증가한다. 캐릭터가 전장에 있을 때 출혈 대미지를 가하면 SP를 1pt 회복한다. 발동 간격: 1초
 - id: kiana-kaslana
   version: '6.4'
   name: Kiana Kaslana
@@ -217,8 +240,7 @@
       stack). Upon spending at least 60/120 SP in one go, all enemies take
       10.0%/35.0% bonus Lightning DMG for 20s (can be refreshed but cannot
       stack).
-    krDescription:
-      '파티원의 모든 대미지가 20.0% 증가한다(하나만 적용). 한 번에 SP를 60/120pt 이상 소모 시, 모든
+    krDescription: '파티원의 모든 대미지가 20.0% 증가한다(하나만 적용). 한 번에 SP를 60/120pt 이상 소모 시, 모든
       적이 받는 뇌전 원소 대미지가 10.0%/35.0% 증가한다. 지속 시간: 20초. 중복 발동 시 갱신 가능(하나만 적용)'
 - id: zeno
   version: '5.7'
@@ -241,13 +263,11 @@
   threeSetSkill:
     name: Forever Unreachable Finish 3 Pieces
     krName: 영원히 닿을 수 없는 종점 3 세트
-    description:
-      Butterfly Mark's explosion restores 2 SP additionally. Triggering
+    description: Butterfly Mark's explosion restores 2 SP additionally. Triggering
       Ultimate Evasion Skill increases Lightning DMG against enemies with
       Butterfly Mark by 60.0% for 15s (triggering it again refreshes the
       duration).
-    krDescription:
-      '[나비] 인장 폭발 시, 추가로 캐릭터의 SP를 2pt 회복한다. 극한 회피 스킬 발동 후, [나비] 인장이 부여된
+    krDescription: '[나비] 인장 폭발 시, 추가로 캐릭터의 SP를 2pt 회복한다. 극한 회피 스킬 발동 후, [나비] 인장이 부여된
       적에게 가하는 뇌전 원소 대미지가 60.0% 증가한다. 지속 시간: 15초. 중복 발동 시 지속 시간을 갱신한다.'
 - id: bastet
   version: '5.6'
@@ -259,17 +279,14 @@
   twoSetSkill:
     name: Eye of Ra 2 Pieces
     krName: 라의 눈 2 세트
-    description:
-      Freezing enemies boosts team Total DMG by 50.0%(cannot stack) for
+    description: Freezing enemies boosts team Total DMG by 50.0%(cannot stack) for
       15s. Triggering it again resets the duration.
-    krDescription:
-      '캐릭터가 빙결 상태를 부여하면, 파티원의 모든 대미지가 50.0% 증가한다(하나만 적용). 지속 시간: 15초.
+    krDescription: '캐릭터가 빙결 상태를 부여하면, 파티원의 모든 대미지가 50.0% 증가한다(하나만 적용). 지속 시간: 15초.
       중복 발동 시 지속 시간이 갱신된다.'
   threeSetSkill:
     name: Enemy of Chaos 3 Pieces
     krName: 혼돈의 숙적 3 세트
-    description:
-      Total DMG increases by 30.0%. The Freeze effect inflicted by team
+    description: Total DMG increases by 30.0%. The Freeze effect inflicted by team
       members lasts 20.0% longer (cannot stack).
     krDescription: 모든 대미지가 30.0% 증가한다. 파티원 캐릭터가 적에게 부여하는 빙결 상태 지속 시간이 20.0% 증가한다(하나만 적용).
 - id: bianka-theatre
@@ -291,8 +308,7 @@
   threeSetSkill:
     name: All Merely Players 3 pieces
     krName: 사람들은 배우일 뿐 3세트
-    description:
-      Physical DMG increases by 30.0%. Triggering World's a Stage boosts
+    description: Physical DMG increases by 30.0%. Triggering World's a Stage boosts
       Physical DMG dealt by host's next Ultimate by 80.0% and makes it restore
       200.0 HP.
     krDescription:
@@ -311,14 +327,12 @@
     description: 'On hit, Charged ATK boosts Move Speed by 40.0% and Fire DMG by
       30.0% for 10s. Triggering it again resets the duration. Rita equip bonus:
       20.0% bonus Total DMG.'
-    krDescription:
-      차지 공격 적중 시, 자신의 이동 속도가 40.0% 증가하고, 화염 원소 대미지가 30.0% 증가한다. 리타가 장비
+    krDescription: 차지 공격 적중 시, 자신의 이동 속도가 40.0% 증가하고, 화염 원소 대미지가 30.0% 증가한다. 리타가 장비
       시, 추가로 모든 대미지가 20% 증가한다.
   threeSetSkill:
     name: Legacy 3 pieces
     krName: 계승 3 세트
-    description:
-      'Charged ATK deals 30.0% bonus Total DMG. Rita equip bonus: Charged
+    description: 'Charged ATK deals 30.0% bonus Total DMG. Rita equip bonus: Charged
       ATK deals 50.0% bonus Fire DMG.'
     krDescription: 차지 공격의 모든 대미지가 30.0% 증가한다. 리타가 장비 시 차지 공격의 화염 원소 대미지가 추가로 50.0% 증가한다.
 - id: bronya-n-ex
@@ -331,8 +345,7 @@
   twoSetSkill:
     name: Dearmament 2 pieces
     krName: 무장 해석 2 세트
-    description:
-      'Gain 1 [Falconwings] stack when performing an Ultimate or Combo
+    description: 'Gain 1 [Falconwings] stack when performing an Ultimate or Combo
       ATK with this equipped. CD: 3s, CD calculated separately each time. Max
       stacked [Falconwings] increases Total DMG by 20.0%. Used with QTE, When
       QTE and [Falconwings] add together, if there are 3 [Falconwings] stacks,
@@ -347,8 +360,7 @@
   threeSetSkill:
     name: Special Plot 3 pieces
     krName: 특별 기획 3 세트
-    description:
-      Basic ATKs (including Charged and Combos) deal an additional 25.0%
+    description: Basic ATKs (including Charged and Combos) deal an additional 25.0%
       Ice DMG upon impact. CD 0.3s per target. Max stacked [Falconwings] restore
       30.0 HP per second.
     krDescription:
@@ -405,18 +417,15 @@
   twoSetSkill:
     name: Twisted Fate 2 Pieces
     krName: 기구한 운명 2세트
-    description:
-      Total DMG increases by 15.0%. Enemies in Feathered state take 30.0%
+    description: Total DMG increases by 15.0%. Enemies in Feathered state take 30.0%
       bonus Elemental DMG instead. Team deals 12.0% bonus Total DMG. Skill
       effects cannot stack.
-    krDescription:
-      모든 대미지가 15.0% 증가하고, [까마귀 깃털] 상태의 적이 받는 모든 원소 대미지가 30.0%까지 증가한다.
+    krDescription: 모든 대미지가 15.0% 증가하고, [까마귀 깃털] 상태의 적이 받는 모든 원소 대미지가 30.0%까지 증가한다.
       파티원 캐릭터의 모든 대미지가 12.0% 증가한다. 해당 스킬은 하나만 적용되며 중첩할 수 없다.
   threeSetSkill:
     name: Kráka 3 Pieces
     krName: 까마귀 여왕 3세트
-    description:
-      Charged ATKs boost Total DMG by 20.0% on hit for 15s. Triggering it
+    description: Charged ATKs boost Total DMG by 20.0% on hit for 15s. Triggering it
       again resets the duration. With host on standby, team deals 30.0% bonus
       Fire DMG. Skill effects cannot stack.
     krDescription:
@@ -442,8 +451,7 @@
   threeSetSkill:
     name: Taxonomy 3 Pieces
     krName: 강목속종 3 세트
-    description:
-      Ranged ATKs deal 40.0% bonus Total DMG. For every summoned entity,
+    description: Ranged ATKs deal 40.0% bonus Total DMG. For every summoned entity,
       ELF, or Support Valkyrie present, they and host deal 6.0% bonus Total DMG
       (5 stacks max).
     krDescription:
@@ -463,20 +471,17 @@
       attack in the next 5s deal 20.0% ATK of Physical DMG (can only be
       triggered once every 0.3s on each target). Host takes 20.0% less Total DMG
       from enemies within 5 meters.
-    krDescription:
-      '모든 대미지가 25.0% 증가한다. 차지 공격으로 적 적중 시, 5초 동안 공격마다 공격력 20.0%의 물리
+    krDescription: '모든 대미지가 25.0% 증가한다. 차지 공격으로 적 적중 시, 5초 동안 공격마다 공격력 20.0%의 물리
       대미지를 추가로 가한다. 목표당 발동 간격: 0.3초. 5m이내 적에게 받는 모든 대미지가 20.0% 감소한다.'
   threeSetSkill:
     name: Blessed Realm 3 Pieces
     krName: 신이 보우하는 낙원 3세트
-    description:
-      'Crit DMG from ranged attacks increases by 30.0%. Casting Ultimate
+    description: 'Crit DMG from ranged attacks increases by 30.0%. Casting Ultimate
       makes ranged attacks deal 20.0% ATK of bonus Physical DMG (can only be
       triggered once every 0.3s on each target) for 10.0s (hitting enemies with
       Charged ATKs extends the duration by 1s for up to 10s of extension).
       Charged ATKs restore 200 HP on hit. CD: 5s.'
-    krDescription:
-      '원거리 공격의 크리티컬 대미지가 30.0% 증가한다. 필살기 발동 후, 캐릭터의 원거리 공격은 공격력 20.%의
+    krDescription: '원거리 공격의 크리티컬 대미지가 30.0% 증가한다. 필살기 발동 후, 캐릭터의 원거리 공격은 공격력 20.%의
       물리 대미지를 추가로 가한다. 목표당 발동 간경: 0.3초, 지속 시간: 10.0초. 차지 공격으로 적을 적중할 때마다 해당 효과가
       1초 연장된다. 최대 연장: 10초. 차지 공격이 적에게 적중 시 HP를 200 회복한다. 재사용 대기시간: 5초'
 - id: murata-himeko
@@ -489,8 +494,7 @@
   twoSetSkill:
     name: Rebellious Fire 2 Pieces
     krName: 투쟁의 화염 2 세트
-    description:
-      In Herrscher form, a stack granted by the B-pc of this set provides
+    description: In Herrscher form, a stack granted by the B-pc of this set provides
       another 15.0% bonus Fire DMG. The host takes 45.0% less Indirect DMG at
       below 60% HP.
     krDescription:
@@ -499,13 +503,11 @@
   threeSetSkill:
     name: Everlasting Flames 3 Pieces
     krName: 영원한 신염 3 세트
-    description:
-      'Boosts Total DMG by 20.0%. When the host loses HP, her next attack
+    description: 'Boosts Total DMG by 20.0%. When the host loses HP, her next attack
       will deal 100% ATK of Fire DMG to surrounding enemies, which on hit boosts
       her Total DMG by 10.0% for 10s (CD: 2s; triggering it again resets the
       duration).'
-    krDescription:
-      '모든 대미지가 20.0% 증가한다. 캐릭터 HP가 감소하면 다음 공격 시 주변 적에게 공격력 100.0%의 화염
+    krDescription: '모든 대미지가 20.0% 증가한다. 캐릭터 HP가 감소하면 다음 공격 시 주변 적에게 공격력 100.0%의 화염
       원소 대미지를 가하고, 적중 시 가하는 모든 대미지가 10.0% 증가한다. 지속 시간: 10초, 중복 발동 시 지속 기간 갱신,
       재사용 대기 시간: 2초'
 - id: wang-zhenyi
@@ -518,20 +520,17 @@
   twoSetSkill:
     name: Astronomer 2 Pieces
     krName: 천문력 2 세트
-    description:
-      Total DMG increases by 25.0%. Host deals 30.0% bonus Lightning DMG
+    description: Total DMG increases by 25.0%. Host deals 30.0% bonus Lightning DMG
       within 12.0s after her entry.
     krDescription: 모든 대미지가 25.0% 증가한다. 캐릭터 등장 후 12.0초 동안 적에게 가하는 뇌전 원소 대미지가 추가로 30.0% 증가한다.
   threeSetSkill:
     name: Female Pioneer 3 Pieces
     krName: 여걸학자 3 세트
-    description:
-      'Weapon skills and Ultimate deal 25.0% bonus Lightning DMG. Fischl
+    description: 'Weapon skills and Ultimate deal 25.0% bonus Lightning DMG. Fischl
       equip bonus: Casting QTE during Mitternacht boosts Total DMG dealt by team
       members and summoned entities by 45.0% for 20.0s. Triggering it again
       resets the duration.'
-    krDescription:
-      무기 스킬 및 필살기의 뇌전 원소 대미지가 25.0% 증가한다. 피슬이 장비 시, [유야] 상태에서 QTE를 사용할
+    krDescription: 무기 스킬 및 필살기의 뇌전 원소 대미지가 25.0% 증가한다. 피슬이 장비 시, [유야] 상태에서 QTE를 사용할
       경우 파티원 캐릭터 및 소환물의 모든 대미지 45.0% 증가한다. 지속 시간 20.0초, 중복 발동 시 지속 시간을 갱신한다.
 - id: verne
   version: '4.8'
@@ -547,8 +546,7 @@
       30.0% for 12s. Can be refreshed. In Burst mode, Charged ATKs boost Ice DMG
       by 15.0% on hit (CD: 0.3s) until Burst mode ends. 4 stacks max. Reaching 4
       stacks deals 900.0% ATK of Ice DMG to enemies nearby. CD: 20s.'
-    krDescription:
-      '폭발 상태에서 극한 회피 스킬 발동 시 모든 대미지가 30.0% 증가한다. 지속 시간: 12초, 갱신 가능. 폭발
+    krDescription: '폭발 상태에서 극한 회피 스킬 발동 시 모든 대미지가 30.0% 증가한다. 지속 시간: 12초, 갱신 가능. 폭발
       상태에서 차지 공격이 목표에게 적중 시 빙결 원소 대미지가 15.0% 증가하며(재사용 대기시간: 0.3초), 폭발 상태가 해제될
       때까지 지속되고, 최대 4스택 중첩 시 주변의 적에게 공격력 900.0%의 빙결 원소 대미지를 가한다. 재사용 대기시간: 20초'
   threeSetSkill:
@@ -557,8 +555,7 @@
     description: "Charged ATKs restore 2 bonus SP on hit (CD: 2s). When it's
       equipped by Seele and she is deployed, all enemies take 20.0% bonus Ice
       DMG."
-    krDescription:
-      '차지 공격이 목표에게 적중 시 추가로 SP를 2pt 회복한다(재사용 대기시간: 2초). 제레 캐릭터가 사용 시,
+    krDescription: '차지 공격이 목표에게 적중 시 추가로 SP를 2pt 회복한다(재사용 대기시간: 2초). 제레 캐릭터가 사용 시,
       전장의 적이 받는 빙결 원소 대미지가 20.0% 증가한다.'
 - id: avogadro
   version: '4.7'
@@ -576,13 +573,11 @@
   threeSetSkill:
     name: Avogadro's Law 3 Pieces
     krName: 아보가드로 법칙 3 세트
-    description:
-      'The host gains 15.0% Total DMG. Her weapon active inflicts a mark
+    description: 'The host gains 15.0% Total DMG. Her weapon active inflicts a mark
       on the target (CD: 20s), which explodes after 10s and deals 400.0% ATK of
       large-AOE Physical DMG. The host additionally deals 15.0% more Total DMG
       against marked enemies.'
-    krDescription:
-      '모든 대미지가 15.0% 증가한다. 무기 스킬로 적 명중 시, 적이 [인장]을 획득하고(재사용 대기시간: 20초),
+    krDescription: '모든 대미지가 15.0% 증가한다. 무기 스킬로 적 명중 시, 적이 [인장]을 획득하고(재사용 대기시간: 20초),
       10초 후 표식이 폭발해 공격력 400.0%의 광범위 물리 대미지를 가하며, 표식 목표에 가하는 대미지가 추가로 15.0%
       증가한다.'
 - id: turgenev
@@ -595,20 +590,17 @@
   twoSetSkill:
     name: The Rebellious Hunter 2 Pieces
     krName: 반역의 사냥꾼 2 세트
-    description:
-      'Every 6 hits from the host or her summoned entities prolongs the
+    description: 'Every 6 hits from the host or her summoned entities prolongs the
       Hunter Mark effect for 2s. Hunter Mark max duration: 12s. Combo counter
       resets when Hunter Mark disappears. Hunter Marked enemies receive 21.0%
       All Elemental DMG (cannot stack).'
-    krDescription:
-      '[사냥꾼 표식]의 적이 캐릭터나 캐릭터 소환물의 공격을 6회 받을 때마다 [사냥꾼 표식]의 지속 시간이 2초
+    krDescription: '[사냥꾼 표식]의 적이 캐릭터나 캐릭터 소환물의 공격을 6회 받을 때마다 [사냥꾼 표식]의 지속 시간이 2초
       연장된다 (표식은 최대 12초까지 연장되며, 표식 종료 후 공격 카운트가 리셋된다). [사냥꾼 표식]이 있는 적이 받는 모든 원소
       대미지가 21.0% 증가한다. (1개만 적용)'
   threeSetSkill:
     name: Before the Gunshot 3 Pieces
     krName: 총성의 전야 3 세트
-    description:
-      The host's Ultimate and her summoned entities deal 25.0% more Total
+    description: The host's Ultimate and her summoned entities deal 25.0% more Total
       DMG. When there are the host's summoned entities on the field, team deals
       25.0% more Ice DMG against Hunter Marked enemies. This effect cannot
       stack.
@@ -625,8 +617,7 @@
   twoSetSkill:
     name: Blade Mantra 2 Pieces
     krName: 검심 2 세트
-    description:
-      "In Herrscher form, team deals 30.0% bonus Crit DMG (cannot stack)
+    description: "In Herrscher form, team deals 30.0% bonus Crit DMG (cannot stack)
       and host's attacks mark enemies. The mark explodes at 15 stacks dealing
       300.0% ATK of Physical DMG to enemies nearby and removing marks on all
       enemies. CD: 5s."
@@ -637,8 +628,7 @@
   threeSetSkill:
     name: Blade Sanction 3 Pieces
     krName: 검의 3 세트
-    description:
-      'Team gains 10.0% Crit Rate for 12s upon entry. When the host is in
+    description: 'Team gains 10.0% Crit Rate for 12s upon entry. When the host is in
       Herrscher form and hits an enemy, team gains 3.5% Total DMG for 12s (CD:
       0.4s; 10 stacks max; if equipped by more than 1 Valkyrie, only one piece
       will take effect). Triggering it again resets the duration.'
@@ -676,8 +666,7 @@
   twoSetSkill:
     name: Shakespeare's Globe 2 Pieces
     krName: 세계 극장 2 세트
-    description:
-      'Boosts Fire DMG by 20.0%. Landing an Ultimate within 4s after its
+    description: 'Boosts Fire DMG by 20.0%. Landing an Ultimate within 4s after its
       cast raises Alignment by 1 (4 levels in total: Jove/Venus/Luna/Sol).
       Alignment drops by 1 every 10s and can be refreshed at level 4. Alignment
       4 (Sol) makes enemies take 20.0% bonus Fire DMG from host (independent
@@ -693,8 +682,7 @@
     description: "Boosts Ultimate's Total DMG by 30.0%. Raising or refreshing
       Alignment restores 30.0 HP. Durandal equip bonus: Ultimates deal 15.0%
       bonus Total DMG. Landing a Throw or QTE raises Alignment by 1."
-    krDescription:
-      필살기의 모든 대미지가 30.0% 증가한다. 별자리 증가 또는 리셋 시 캐릭터는 HP를 30.0pt 회복한다.
+    krDescription: 필살기의 모든 대미지가 30.0% 증가한다. 별자리 증가 또는 리셋 시 캐릭터는 HP를 30.0pt 회복한다.
       듀란달이 장비 시 필살기의 모든 대미지가 추가로 15.0% 증가하고, 던지기 혹은 QTE 공격이 적에게 적중 시 별자리가 1레벨
       증가한다.
 - id: dickens
@@ -707,8 +695,7 @@
   twoSetSkill:
     name: Foe of Industrialists 2 Pieces
     krName: 속세의 괴로움 2 세트
-    description:
-      Basic, Combo, and Charged ATKs deal 20.0% bonus Physical DMG and an
+    description: Basic, Combo, and Charged ATKs deal 20.0% bonus Physical DMG and an
       additional 15.0% bonus Physical DMG against MECH enemies. Casting Ultimate
       boosts Total DMG of Basic, Combo, and Charged ATKs by 20.0% for 8s. Can be
       refreshed
@@ -735,8 +722,7 @@
   twoSetSkill:
     name: Might of Solid Rime 2 Pieces
     krName: 빙결의 힘 2 세트
-    description:
-      "Boosts Ice DMG by 25.0%. Combo and Charged ATKs summon Ice Pillars
+    description: "Boosts Ice DMG by 25.0%. Combo and Charged ATKs summon Ice Pillars
       around enemies on hit to deal 400.0% ATK of Ice DMG to enemies nearby and
       boost host's Ignore Interrupt for 3s. CD: 10s."
     krDescription:
@@ -746,8 +732,7 @@
   threeSetSkill:
     name: Heart of Bitter Ice 3 Pieces
     krName: 얼어붙은 마음 3 세트
-    description:
-      Combo and Charged ATKs deal 50.0% bonus Total DMG. Host deals 10.0%
+    description: Combo and Charged ATKs deal 50.0% bonus Total DMG. Host deals 10.0%
       bonus Ice DMG to enemies within 5 meters.
     krDescription:
       차지/분기 공격이 가하는 모든 대미지가 50.0% 증가하고, 캐릭터 주변 5m 내의 적이 해당 캐릭터에게 받는 얼음
@@ -768,12 +753,10 @@
   threeSetSkill:
     name: The Woman 3 Pieces
     krName: 그 여인 3 세트
-    description:
-      Charged and QTE ATKs boost team Lightning DMG by 10.0% on hit for
+    description: Charged and QTE ATKs boost team Lightning DMG by 10.0% on hit for
       20s (subsequent procs reset the duration). When equipped by Rita, her
       Total DMG is boosted by 25.0%.
-    krDescription:
-      '매회 차지 공격 또는 QTE 공격이 목표에게 적중 시, 모든 팀원의 뇌전 원소 대미지가 10.0% 증가한다. 지속
+    krDescription: '매회 차지 공격 또는 QTE 공격이 목표에게 적중 시, 모든 팀원의 뇌전 원소 대미지가 10.0% 증가한다. 지속
       시간: 20초, 중복 발동 시 지속 시간이 초기화된다. 리타가 장비 시, 자신의 모든 대미지가 25.0% 증가한다.'
 - id: benares-awakening
   version: '4.1'
@@ -798,8 +781,7 @@
     krName: 심판의 용 3 세트
     description: Boosts Lightning DMG by 20.0%. Host takes 15.0% less Total DMG.
       Enemies in Thunderblitz take 15.0% bonus Lightning DMG.
-    krDescription:
-      뇌전 원소 대미지 20.0% 증가, 캐릭터가 받는 모든 대미지가 15.0% 감소하고, 뇌인 상태의 적이 받는 뇌전
+    krDescription: 뇌전 원소 대미지 20.0% 증가, 캐릭터가 받는 모든 대미지가 15.0% 감소하고, 뇌인 상태의 적이 받는 뇌전
       원소 대미지가 15.0% 증가한다.
 - id: shuijing
   version: '4.0'
@@ -819,8 +801,7 @@
     description: Ultimate activation boosts Total DMG dealt by the host and the
       teammate on field by 20.0% for 18s (effect cannot stack). When equipped by
       Starlit Astrologos, she additionally gains 40.0% Crit DMG.
-    krDescription:
-      필살기 발동 시 자신 및 스테이지에 있는 파티원이 18초 동안 강화되어, 모든 대미지가 20.0% 증가한다(해당
+    krDescription: 필살기 발동 시 자신 및 스테이지에 있는 파티원이 18초 동안 강화되어, 모든 대미지가 20.0% 증가한다(해당
       효과는 하나만 발동할 수 있다). 삭야관성 사용 시, 크리티컬 대미지가 40.0% 증가한다.
 - id: dante
   version: '3.8'
@@ -832,8 +813,7 @@
   twoSetSkill:
     name: La Vita Nuova 2 Pieces
     krName: 신생 2 세트
-    description:
-      'The host gains 20.0% Crit DMG. The host gains 30.0% Physical DMG
+    description: 'The host gains 20.0% Crit DMG. The host gains 30.0% Physical DMG
       for 10s upon entering Burst mode or hitting an enemy with Charged ATK in
       Burst mode; triggering this effect again resets the duration. Durandal
       equip bonus: CD of Ultimate Evasion / Retaliation shortens by 20%.'
@@ -844,8 +824,7 @@
   threeSetSkill:
     name: Divine Comedy 3 Pieces
     krName: 신곡 3 세트
-    description:
-      'In Burst mode, the host deals 30.0% more DMG against shields, and
+    description: 'In Burst mode, the host deals 30.0% more DMG against shields, and
       her Charged ATKs can impair unimpaired enemies, reducing their DEF by
       40.0% for 8s. Durandal equip bonus: The impairing debuff reduces enemy DEF
       by 60.0% instead.'
@@ -866,8 +845,7 @@
     description: Deals 30.0% more Fire DMG; after spending no less than 25 SP in
       once action, the team gains Fyreheart for 18s (triggering this again
       resets the duration).
-    krDescription:
-      화염 원소 대미지가 30.0% 증가한다. 한 번에 SP를 25pt 이상 소모할 경우, 파티원은 소혼 상태를 획득한다.
+    krDescription: 화염 원소 대미지가 30.0% 증가한다. 한 번에 SP를 25pt 이상 소모할 경우, 파티원은 소혼 상태를 획득한다.
       지속 시간은 18초, 중복 발동 시 현재 소혼 상태를 대체한다.
   threeSetSkill:
     name: Feared Champion 3 Pieces
@@ -895,21 +873,17 @@
   twoSetSkill:
     name: Kenbu Stance 2 Pieces
     krName: 최초의 댄서 2 세트
-    description:
-      'The host enters Kenbu mode when hitting an enemy with Combo ATKs,
+    description: 'The host enters Kenbu mode when hitting an enemy with Combo ATKs,
       under which her Total DMG increases by 30.00% for 7s. CD: 10s.'
-    krDescription:
-      '분기 공격이 적을 명중 후 검무 상태에 진입한다. 모든 대미지가 30.00% 증가한다. 지속 시간: 7초. 재사용
+    krDescription: '분기 공격이 적을 명중 후 검무 상태에 진입한다. 모든 대미지가 30.00% 증가한다. 지속 시간: 7초. 재사용
       대기시간: 10초.'
   threeSetSkill:
     name: Indomitable Outlaw 3 Pieces
     krName: 밤의 의적 3 세트
-    description:
-      'The host gains 30.0% Total DMG Reduction and Interrupt Immunity
+    description: 'The host gains 30.0% Total DMG Reduction and Interrupt Immunity
       when attacked. CD: 15s. The host restores 400 HP every 20s at below 50%
       HP.'
-    krDescription:
-      '피격 시 받는 모든 대미지가 30.0% 감소하고 경직되지 않는다. 재사용 대기시간: 15초. HP가 50% 미만일
+    krDescription: '피격 시 받는 모든 대미지가 30.0% 감소하고 경직되지 않는다. 재사용 대기시간: 15초. HP가 50% 미만일
       때 20초마다 400의 HP를 회복한다.'
 - id: allan-poe
   version: '3.5'
@@ -921,8 +895,7 @@
   twoSetSkill:
     name: Sculptor of Terror 2 Pieces
     krName: 공포를 조각하다 2 세트
-    description:
-      'Gain 20.0% Total DMG Multiplier. Total DMG of Charged ATK and any
+    description: 'Gain 20.0% Total DMG Multiplier. Total DMG of Charged ATK and any
       follow-up hits unleashed within the following 1s increases by 40.0%. Seele
       equip bonus: Total DMG increases by an additional 40.0%. CD: 3s.'
     krDescription:
@@ -931,8 +904,7 @@
   threeSetSkill:
     name: Weaver of Death 3 Pieces
     krName: 죽음을 짜다 3 세트
-    description:
-      'Once attacked, ignore the damage from the attack and greatly gain
+    description: 'Once attacked, ignore the damage from the attack and greatly gain
       Ignore Interrupt for 3s. CD: 20.0s. During CD, the host restores 650 HP
       upon hitting enemies with Charged ATK (applies once during each CD). Seele
       equip bonus: Total DMG increases by 25.0%.'
@@ -949,8 +921,7 @@
   twoSetSkill:
     name: Khan's Envoy 2 Pieces
     krName: 연합의 사자 2 세트
-    description:
-      'When Combo Hit exceeds 25, Combo or Charged ATKs deal 250% ATK of
+    description: 'When Combo Hit exceeds 25, Combo or Charged ATKs deal 250% ATK of
       bonus Physical DMG on hit. CD: 5s.'
     krDescription: '콤보 수가 25 초과 시 분기 혹은 차지 공격이 적에게 명중 시 추가로 250%의 물리 대미지를 입힌다. 재사용 대기시간: 5초.'
   threeSetSkill:
@@ -968,15 +939,13 @@
   twoSetSkill:
     name: K's Processing 2 Pieces
     krName: K 2 세트
-    description:
-      'Charged ATKs directly trigger max-stacks effects of a stigma and
+    description: 'Charged ATKs directly trigger max-stacks effects of a stigma and
       gives the host a 45% Total DMG Multiplier buff for 12s. CD: 20s.'
     krDescription: '차지 공격은 단일 성흔의 중첩 효과를 최대치로 만들고 12초간 자신의 모든 대미지가 45% 증가한다. 재사용 대기시간: 20초'
   threeSetSkill:
     name: Surreal Milieu 3 Pieces
     krName: 환영의 막 3 세트
-    description:
-      'Gain 35% Total DMG Reduction against hits taken. Within 12s after
+    description: 'Gain 35% Total DMG Reduction against hits taken. Within 12s after
       unleashing a Charged ATK, each attack has a 60% chance to trigger a bonus
       strike that deals 15% ATK of Physical DMG, has 100% higher Crit Rate, and
       is added to the Combo Hit counter. Triggers 30 times only. CD: 20s.'
@@ -994,8 +963,7 @@
   twoSetSkill:
     name: Tenacity 2 Pieces
     krName: 불굴 2 세트
-    description:
-      'Each 15 non-Charged ATK gives a Charged ATK buff: Next Charged ATK
+    description: 'Each 15 non-Charged ATK gives a Charged ATK buff: Next Charged ATK
       and following Charged ATK for 5s gain 60% Total DMG Multiplier. Count ends
       after the buff ends. Host directly gains Charged ATK buff when entering
       battle (triggers 1 time per battle).'
@@ -1006,8 +974,7 @@
   threeSetSkill:
     name: Anti-Entropy 3 Pieces
     krName: 네겐트로피 3 세트
-    description:
-      'Gain 40% Ice DMG. For 16s after casting the Ultimate, Charged ATKs
+    description: 'Gain 40% Ice DMG. For 16s after casting the Ultimate, Charged ATKs
       will generate a 3s Gravity Vortex that pulls-in nearby enemies. CD: 4s.'
     krDescription:
       '빙결 원소 대미지가 40% 증가한다. 필살기 발동 후 16초 동안 차지 공격은 3초간 지속하는 인력의 소용돌이를
@@ -1022,8 +989,7 @@
   twoSetSkill:
     name: 2nd Quantization 2 Pieces
     krName: 정준 양자화 2 세트
-    description:
-      If any 2 stigmata effects are active, gain 35.0% Physical DMG. When
+    description: If any 2 stigmata effects are active, gain 35.0% Physical DMG. When
       this effect is triggered, the durations of both stigmata effects are reset
       and extended to 14s.
     krDescription:
@@ -1032,8 +998,7 @@
   threeSetSkill:
     name: Dirac Equation 3 Pieces
     krName: 디랙 방정식 3 세트
-    description:
-      If all 3 stigmata effects are active, Ultimate/Burst mode ATKs also
+    description: If all 3 stigmata effects are active, Ultimate/Burst mode ATKs also
       apply Impair to non-impaired enemies on hit, lowering their DEF by 50.0%
       for 3s. When this effect is triggered, the durations of all 3 stigmata
       effects are reset and extended to 18s.
@@ -1050,22 +1015,18 @@
   twoSetSkill:
     name: Dynamite 2 Pieces
     krName: Dynamite 2 세트
-    description:
-      'When Charged ATKs hit the enemy, generate an explosion centered on
+    description: 'When Charged ATKs hit the enemy, generate an explosion centered on
       host that deals 180.0% of Physical DMG to nearby enemies. CD: 1s.'
-    krDescription:
-      'When Charged ATKs hit the enemy, generate an explosion centered
+    krDescription: 'When Charged ATKs hit the enemy, generate an explosion centered
       on host that deals 180.0% of Physical DMG to nearby enemies. CD: 1s.'
   threeSetSkill:
     name: Igniter 3 Pieces
     krName: Igniter 3 세트
-    description:
-      After each entry, the first 2 hits taken by the host will suffer
+    description: After each entry, the first 2 hits taken by the host will suffer
       40.0% Total DMG Reduction and not interrupt her. Crit DMG of Charges ATKs
       increases by 30.0%. Explosion DMG of Dynamite increases to 200.0% ATK of
       Physical DMG.
-    krDescription:
-      After each entry, the first 2 hits taken by the host will suffer
+    krDescription: After each entry, the first 2 hits taken by the host will suffer
       40.0% Total DMG Reduction and not interrupt her. Crit DMG of Charges ATKs
       increases by 30.0%. Explosion DMG of Dynamite increases to 200.0% ATK of
       Physical DMG.
@@ -1079,8 +1040,7 @@
   twoSetSkill:
     name: Schicksalsinfonie 2 Pieces
     krName: 낙원의 딸 2 세트
-    description:
-      'After casting the Ultimate, next team member switching in gains a
+    description: 'After casting the Ultimate, next team member switching in gains a
       40% Melee Physical DMG buff (does not stack) for 10s. CD: 20s.'
     krDescription:
       필살기를 발동 후 다음 순서에 교대되는 파티원이 가하는 근접 물리 대미지가 10초 동안 40% 증가한다. 해당 효과는
@@ -1088,8 +1048,7 @@
   threeSetSkill:
     name: First Viennese School 3 Pieces
     krName: 빈 악파 3 세트
-    description:
-      "After casting the Ultimate, next team member switching in takes
+    description: "After casting the Ultimate, next team member switching in takes
       30% less Total DMG (effect does not stack) for 10s and restores HP equal
       to 20% of the host's Max HP. CD: 20s."
     krDescription:
@@ -1105,19 +1064,16 @@
   twoSetSkill:
     name: Suzerain of Ice 2 Pieces
     krName: 얼음의 영주 2 세트
-    description:
-      "When attacked, said attack suffers 25% Total DMG Reduction. The
+    description: "When attacked, said attack suffers 25% Total DMG Reduction. The
       attacker is also frozen for 5.0s. Said effect works only 1 time for each
       enemy. After entry, the host's first attack directly adds 20 to the Combo
       Hit counter. CD: 15s."
-    krDescription:
-      '피격시 이번 공격의 모든 대미지가 25% 감소하고 공격한 적을 5.0초 동안 빙결 상태로 만든다. 해당 효과는
+    krDescription: '피격시 이번 공격의 모든 대미지가 25% 감소하고 공격한 적을 5.0초 동안 빙결 상태로 만든다. 해당 효과는
       적마다 1회만 발동한다. 캐릭터 출전 후 적을 처음 명중 시 콤보수를 20을 즉시 획득한다. 재사용 대기시간: 15초.'
   threeSetSkill:
     name: Polar Expedition 3 Pieces
     krName: 극지 출정 3 세트
-    description:
-      'The host gains 20% faster ATK Speed and 25% Total DMG Multiplier,
+    description: 'The host gains 20% faster ATK Speed and 25% Total DMG Multiplier,
       and receives an Energy Charge for 15s that ignores combo interruption 1
       time (Max stacks: 2).'
     krDescription:
@@ -1184,8 +1140,7 @@
   twoSetSkill:
     name: Broken Lead Heart 2 Pieces
     krName: 부서진 냉철한 마음 2 세트
-    description:
-      'If the host takes DMG exceeding 15% Max HP within a short time,
+    description: 'If the host takes DMG exceeding 15% Max HP within a short time,
       then enter Potential Mode to gain 30% Total DMG Multiplier for 5s. CD:
       12s.'
     krDescription:
@@ -1213,8 +1168,7 @@
       Unleash a Lightning Shockwave when going on the field for the first time.
       After Ultimate Evasion, Combo / Charged ATKs gain 20% Total DMG Multiplier
       for 5s. Triggering the effect again resets the duration.
-    krDescription:
-      Gain 1 charge for every 10s on the field. When there are nearby
+    krDescription: Gain 1 charge for every 10s on the field. When there are nearby
       enemies deal 100% ATK of Lightning DMG to a random nearby enemy and stun
       them for 0.5s. The host also enters Destreza mode. Any evasion will
       trigger Ultimate Evasion effects (Destreza ends upon Ultimate Evasion).
@@ -1224,12 +1178,10 @@
   threeSetSkill:
     name: Z Chop 3 Pieces
     krName: Z Chop 3 세트
-    description:
-      'After Ultimate Evasion, the next attack unleashes a Z-slash (CD:
+    description: 'After Ultimate Evasion, the next attack unleashes a Z-slash (CD:
       10s). The Z-slash deals 300% ATK of Physical DMG to enemies within a small
       AOE. Also applies impair, lowering enemy DEF by 50% for 5s.'
-    krDescription:
-      'After Ultimate Evasion, the next attack unleashes a Z-slash (CD:
+    krDescription: 'After Ultimate Evasion, the next attack unleashes a Z-slash (CD:
       10s). The Z-slash deals 300% ATK of Physical DMG to enemies within a small
       AOE. Also applies impair, lowering enemy DEF by 50% for 5s.'
 - id: sirin-ascendant
@@ -1242,8 +1194,7 @@
   twoSetSkill:
     name: Royal Guard 2 Pieces
     krName: 금위군 2 세트
-    description:
-      For every friendly summoned entity, the host gains 12% Total DMG
+    description: For every friendly summoned entity, the host gains 12% Total DMG
       Multiplier for 10.0s. Stacks up to 3 times. Triggering this again at max
       stacks resets the duration of the stack with the least remaining time.
     krDescription:
@@ -1264,8 +1215,7 @@
   twoSetSkill:
     name: Blood Curse 2 Pieces
     krName: 선혈의 저주 2 세트
-    description:
-      Upon using weapon active skill (CD:16s), apply a 8s Hematic Curse
+    description: Upon using weapon active skill (CD:16s), apply a 8s Hematic Curse
       to enemies within a 6-meter AOE center on self. Enemies affected by
       Hematic Curse take 10% more Physical DMG.
     krDescription:
@@ -1274,8 +1224,7 @@
   threeSetSkill:
     name: Soul Shield 3 Pieces
     krName: 영혼의 가호 3 세트
-    description:
-      Character takes 50% less indirect DMG. Hematic Curse duration is
+    description: Character takes 50% less indirect DMG. Hematic Curse duration is
       extended by 2s.
     krDescription: 받는 간접 대미지가 50% 감소하고 혈혼 저주의 지속 시간 2초 연장된다.
 - id: jin-shengtan
@@ -1298,8 +1247,7 @@
   threeSetSkill:
     name: Cathartic Aura 3 Pieces
     krName: 결계 촉진 3 세트
-    description:
-      Extends the duration of Blue Phoenix Aura by 3s. Allies in the Aura
+    description: Extends the duration of Blue Phoenix Aura by 3s. Allies in the Aura
       receive Ice Protection. While DMG received is less than 10 x Valkyrie's
       Level, the character will only take DMG and will not get interrupted.
     krDescription:
@@ -1315,8 +1263,7 @@
   twoSetSkill:
     name: Nymphéas 2 Pieces
     krName: 수련 2 세트
-    description:
-      Receive a Lightning Shield. When the shield is active, the host's
+    description: Receive a Lightning Shield. When the shield is active, the host's
       attacks gain 30% Lightning DMG. When hit by enemies, the shield will
       negate direct Physical DMG from the enemy and disappear after 0.3s. Shield
       reappears after 15s.
@@ -1326,8 +1273,7 @@
   threeSetSkill:
     name: Soleil Levant 3 Pieces
     krName: 일출 3 세트
-    description:
-      After triggering the Move Slow debuff of stigma (B) of this set,
+    description: After triggering the Move Slow debuff of stigma (B) of this set,
       enemies within a 3.0-meter radius of the target suffer 30% Move Slow for
       10s. Host also heals for 8% HP.
     krDescription:
@@ -1352,11 +1298,9 @@
   threeSetSkill:
     name: Doll Control 3 Pieces
     krName: Doll Control 3 세트
-    description:
-      Shortens duration of debuffs on the host by 30%. Attacks against
+    description: Shortens duration of debuffs on the host by 30%. Attacks against
       debuffed enemies also gain 30% Total DMG Multiplier.
-    krDescription:
-      Shortens duration of debuffs on the host by 30%. Attacks against
+    krDescription: Shortens duration of debuffs on the host by 30%. Attacks against
       debuffed enemies also gain 30% Total DMG Multiplier.
 - id: kallen-hymn
   version: '2.3'
@@ -1368,22 +1312,18 @@
   twoSetSkill:
     name: Grace Judgment 2 Pieces
     krName: Grace Judgment 2 세트
-    description:
-      Spend at least 15, 70, and 125 SP at once to gain 8%, 15%, and 22%
+    description: Spend at least 15, 70, and 125 SP at once to gain 8%, 15%, and 22%
       Total DMG Multiplier respectively for the entire team. Lasts 7s. Effect
       cannot stack.
-    krDescription:
-      Spend at least 15, 70, and 125 SP at once to gain 8%, 15%, and
+    krDescription: Spend at least 15, 70, and 125 SP at once to gain 8%, 15%, and
       22% Total DMG Multiplier respectively for the entire team. Lasts 7s.
       Effect cannot stack.
   threeSetSkill:
     name: Holy Mending 3 Pieces
     krName: Holy Mending 3 세트
-    description:
-      'When hitting an impaired enemy, the host heals 8% HP and gains 5%
+    description: 'When hitting an impaired enemy, the host heals 8% HP and gains 5%
       SP. CD: 8s.'
-    krDescription:
-      'When hitting an impaired enemy, the host heals 8% HP and gains
+    krDescription: 'When hitting an impaired enemy, the host heals 8% HP and gains
       5% SP. CD: 8s.'
 - id: schrodinger-band
   version: '2.3'
@@ -1395,8 +1335,7 @@
   twoSetSkill:
     name: Best Drummer 2 Pieces
     krName: ''
-    description:
-      Extends the duration of Elated Mode provided by this stigmata set
+    description: Extends the duration of Elated Mode provided by this stigmata set
       by another 2s. Each attack buffs the effects by another 1%. After entering
       Elated Mode, gain 50% Physical DMG for the next Combo ATK and a short
       duration afterwards.
@@ -1417,8 +1356,7 @@
   twoSetSkill:
     name: Creation 2 Pieces
     krName: 창세기 2 세트
-    description:
-      "The host's attacks gain 15% Total DMG Multiplier. Upon entering
+    description: "The host's attacks gain 15% Total DMG Multiplier. Upon entering
       the battlefield, further gain 15% Total DMG Multiplier for 15s. CD: 30s."
     krDescription: 모든 대미지 15% 증가, 출전 시 15초 동안 자신의 모든 대미지가 추가로 15% 증가한다, 재사용 대기시간 30초.
   threeSetSkill:
@@ -1428,8 +1366,7 @@
       Unleash a Judgement Attack to all enemies on the battlefield, dealing 300%
       ATK of Physical DMG, and an additional 300% ATK of Physical DMG to enemies
       with less than 10% HP. CD: 30s.'
-    krDescription:
-      퇴장 시 10초 동안 초당 자신의 HP 최대치의 2.0%를 회복한다. 또한 스테이지의 모든 적에게 심판을 내려
+    krDescription: 퇴장 시 10초 동안 초당 자신의 HP 최대치의 2.0%를 회복한다. 또한 스테이지의 모든 적에게 심판을 내려
       공격력의 300% 물리 대미지를 입히고 HP가 10% 미만인 적에게 추가로 공격력의 300% 물리 대미지를 입힌다, 재사용 대기시간
       30초.
 - id: tesla-band
@@ -1442,8 +1379,7 @@
   twoSetSkill:
     name: Lightning Chord 2 Pieces
     krName: 라이트닝 코드 2 세트
-    description:
-      'Every Basic ATK (including Charged and Combo ATKs) grants 1 Accord
+    description: 'Every Basic ATK (including Charged and Combo ATKs) grants 1 Accord
       Charge stack (CD: 1s). After gaining 4 Accord Charge stacks, reset stacks
       to zero and unleash Chain Lightning that attacks 4 random targets,
       paralyzing them for 5 sec and dealing 600% ATK of Lightning DMG to the
@@ -1459,8 +1395,7 @@
     krName: 어드밴스 코드 3 세트
     description: Gain 20% Max HP and 40% Lightning DMG in battle. Lightning DMG
       dealt by Chain Lightning no longer decays with each leap.
-    krDescription:
-      전투 중 HP 최대치가 20%, 뇌전 원소 대미지가 40% 증가한다. 체인 라이트닝으로 가하는 뇌전 원소 대미지가
+    krDescription: 전투 중 HP 최대치가 20%, 뇌전 원소 대미지가 40% 증가한다. 체인 라이트닝으로 가하는 뇌전 원소 대미지가
       더는 감소하지 않는다.
 - id: sin-mal
   version: '2.1'
@@ -1472,8 +1407,7 @@
   twoSetSkill:
     name: Imaginary Space 2 Pieces
     krName: Imaginary Space 2 세트
-    description:
-      Receives a Charge upon becoming invisible. When invisibility ends,
+    description: Receives a Charge upon becoming invisible. When invisibility ends,
       deal 200% ATK of Physical DMG to all enemies. Enemies hit by the next
       Basic ATK (including Charged and Combo ATKs) and during a short period
       afterwards will be immobilized for 3s.
@@ -1508,8 +1442,7 @@
     description: When character is deployed and above 60% HP, enemy suffers 15%
       Total DMG Reduction to their attack and 10% more Total DMG Multiplier in
       damage taken. Effect cannot stack.
-    krDescription:
-      When character is deployed and above 60% HP, enemy suffers 15%
+    krDescription: When character is deployed and above 60% HP, enemy suffers 15%
       Total DMG Reduction to their attack and 10% more Total DMG Multiplier in
       damage taken. Effect cannot stack.
 - id: dracula
@@ -1534,14 +1467,12 @@
   threeSetSkill:
     name: Resurrection 3 Pieces
     krName: 소생 3 세트
-    description:
-      'When HP is below 1%, activate Revival Mode that lasts 5s, during
+    description: 'When HP is below 1%, activate Revival Mode that lasts 5s, during
       which the host cannot attack nor move but is invincible and heals 20% of
       HP per second. When Revival Mode ends, knock surrounding enemies airborne
       and bleed them for 5s, dealing 20% ATK of Physical DMG per second. CD:
       300s.'
-    krDescription:
-      현재 HP가 1% 미만일 때 5초 동안 소생 상태에 진입하여 무적 상태가 되며 공격과 이동을 할 수 없다. 초당
+    krDescription: 현재 HP가 1% 미만일 때 5초 동안 소생 상태에 진입하여 무적 상태가 되며 공격과 이동을 할 수 없다. 초당
       자신의 HP를 20%씩 회복하며 소생 상태 종료 시 주변의 적을 넉백시키고 5초 동안 출혈 상태로 만들어 초당 공격력의 20% 물리
       대미지를 입힌다, 재사용 대기시간 300초.
 - id: einstein-band
@@ -1554,20 +1485,16 @@
   twoSetSkill:
     name: Stage Lights 2 Pieces
     krName: Stage Lights 2 세트
-    description:
-      Robot assistant's Flash Bomb, Shockwave, and Laser attacks have a
+    description: Robot assistant's Flash Bomb, Shockwave, and Laser attacks have a
       30% chance of dealing DMG 2 times.
-    krDescription:
-      Robot assistant's Flash Bomb, Shockwave, and Laser attacks have a
+    krDescription: Robot assistant's Flash Bomb, Shockwave, and Laser attacks have a
       30% chance of dealing DMG 2 times.
   threeSetSkill:
     name: Solo Dance 3 Pieces
     krName: Solo Dance 3 세트
-    description:
-      Removes the enemy number restrictions from all stigmata skills in
+    description: Removes the enemy number restrictions from all stigmata skills in
       this stigmata set. The host's attacks gain 15% Total DMG Multiplier.
-    krDescription:
-      Removes the enemy number restrictions from all stigmata skills in
+    krDescription: Removes the enemy number restrictions from all stigmata skills in
       this stigmata set. The host's attacks gain 15% Total DMG Multiplier.
 - id: anniversary-ball
   name: Anniversary Ball
@@ -1578,8 +1505,7 @@
   twoSetSkill:
     name: Flower Dance 2 Pieces
     krName: 꽃들의 춤 2 세트
-    description:
-      'When the host is on the field, gain 1 Dance Level for every 5s on
+    description: 'When the host is on the field, gain 1 Dance Level for every 5s on
       the battlefield (Max Dance Level: 3). The 3 Dance Levels buff Total DMG
       Multiplier by 15%, 20%, and 25% respectively. The Dance Level is reset to
       0 when the host exits the field.'
@@ -1591,8 +1517,7 @@
   threeSetSkill:
     name: Dance of Passion 3 Pieces
     krName: 열정의 춤 3 세트
-    description:
-      'When the Dance Level reaches 3, attacks will cause an explosion,
+    description: 'When the Dance Level reaches 3, attacks will cause an explosion,
       dealing 300% ATK of Physical DMG to surrounding enemies. CD: 6s.'
     krDescription: 캐릭터 댄스 레벨이 3일 경우 공격 시 폭발이 일어나 범위 내 적에게 공격력의 300% 물리 대미지를 입힌다. 재사용 대기시간 6초.
 - id: anniversary-festival
@@ -1604,8 +1529,7 @@
   twoSetSkill:
     name: Anniversary Performance 2 Pieces
     krName: 반주년 쇼 2 세트
-    description:
-      Show time shares a common CD of 10s.Ultimate Evasion starts Kiana's
+    description: Show time shares a common CD of 10s.Ultimate Evasion starts Kiana's
       Taijutsu, gaining 45% Physical DMG for 5s.Combo ATKs start Mei's Chado
       Ceremony, healing the host for 30 HP/s for 5s.Being hit by an enemy attack
       starts Bronya's Shooting Show, with said attack suffering 30% Total DMG
@@ -1629,17 +1553,14 @@
   twoSetSkill:
     name: Chaos Party 2 Pieces
     krName: 무질서한 파티 2 세트
-    description:
-      'Attacks have a 12% chance of summoning a HOMU King who knocks down
+    description: 'Attacks have a 12% chance of summoning a HOMU King who knocks down
       surrounding enemies to deal 450% ATK of Physical DMG. CD: 16s.'
-    krDescription:
-      공격 시 12% 확률로 호무왕[소환물]이 나타나 공격력 450%의 물리 대미지를 가하고 주변의 적을
+    krDescription: 공격 시 12% 확률로 호무왕[소환물]이 나타나 공격력 450%의 물리 대미지를 가하고 주변의 적을
       넘어뜨린다(대미지는 사용자를 기준으로 한다), 재사용 대기시간 16초.
   threeSetSkill:
     name: Zeal 3 Pieces
     krName: 정열 3 세트
-    description:
-      All allies (including illusions) receive a Flame Wreath when HOMU
+    description: All allies (including illusions) receive a Flame Wreath when HOMU
       King appears, dealing 893 Fire DMG every 0.5s to surrounding enemies.
       Flame wreath lasts 6s.
     krDescription:
@@ -1654,8 +1575,7 @@
   twoSetSkill:
     name: Overclock 2 Pieces
     krName: ''
-    description:
-      After a charged attack using cannon or missile launchers, the next
+    description: After a charged attack using cannon or missile launchers, the next
       charged attack made after an interval of greater than 1 but less than 4s
       gains 15% Total DMG Multiplier. This DMG bonus stacks up to 3 times.
       Adding a stack resets the duration.
@@ -1684,8 +1604,7 @@
   threeSetSkill:
     name: Twin Stars 3 Pieces
     krName: ''
-    description:
-      When deployed, every time the two stars switch, character gains 12%
+    description: When deployed, every time the two stars switch, character gains 12%
       Total DMG Multiplier. Stacks up to 3 times. Stacks are cleared once the
       character exits the battle.
     krDescription: ''
@@ -1719,8 +1638,7 @@
   twoSetSkill:
     name: Charging Shield 2 Pieces
     krName: 충전 방어 2 세트
-    description:
-      'Receives a shield when an entity summoned by the host is attacked.
+    description: 'Receives a shield when an entity summoned by the host is attacked.
       When active, the shield provides 50% Total DMG Reduction against incoming
       attacks and lasts 7s. CD: 21s.'
     krDescription: '자신의 소환물이 적에게 피격 시 일정 시간 동안 받는 모든 대미지가 7초간 50% 감소한다. 재사용 대기시간: 21초.'
@@ -1740,8 +1658,7 @@
   twoSetSkill:
     name: Combat Sync 2 Pieces
     krName: 전술 싱크 2 세트
-    description:
-      When Charged ATKs hit, if there is no more than one enemy within
+    description: When Charged ATKs hit, if there is no more than one enemy within
       8m, host deals 45.0% bonus Total DMG for 6s.
     krDescription:
       '차지 공격이 목표에게 명중 시, 캐릭터를 중심으로 8m 이내에 목표가 1명을 초과하지 않았을 경우 캐릭터 자신의
@@ -1749,8 +1666,7 @@
   threeSetSkill:
     name: Battle-tested 3 Pieces
     krName: 백전연마 3 세트
-    description:
-      'Charged ATKs deal 200.0% ATK of bonus Physical DMG. CD: 6s. Asuka
+    description: 'Charged ATKs deal 200.0% ATK of bonus Physical DMG. CD: 6s. Asuka
       equip bonus: Charged ATKs deal 40.0% bonus Physical DMG and in enhanced
       form, the CD drops to 3s.'
     krDescription:
@@ -1796,8 +1712,7 @@
   threeSetSkill:
     name: Wings of Life 3 Pieces
     krName: 생명의 날개 3 세트
-    description:
-      Gain 20% Lightning DMG and 20% faster Move Speed. The shield of the
+    description: Gain 20% Lightning DMG and 20% faster Move Speed. The shield of the
       Origin of Shields disappears after taking 2 hits.
     krDescription: 뇌전 원소 대미지가 20% 증가하고, 이동 속도가 20% 증가한다. 초기 실드는 2회 피격 시 사라진다.
 - id: edwin-hubble
@@ -1809,15 +1724,13 @@
   twoSetSkill:
     name: Observation 2 Pieces
     krName: 관측 2 세트
-    description:
-      When attacking slowed enemies, the host gains a 15% Attack Speed
+    description: When attacking slowed enemies, the host gains a 15% Attack Speed
       buff for 4s. Triggering this again resets the duration.
     krDescription: 감속 상태의 적을 공격 시 4초 동안 자신의 공격 속도가 15% 증가한다. 중복 발동 시 지속 시간을 초기화한다.
   threeSetSkill:
     name: Absolute Zero 3 Pieces
     krName: 절대영도 3 세트
-    description:
-      Gain 30% Ice DMG. Combo/charged attacks further gain 10% Total DMG
+    description: Gain 30% Ice DMG. Combo/charged attacks further gain 10% Total DMG
       Multiplier.
     krDescription: 빙결 원소 대미지가 30% 증가하고, 분기/차지 공격으로 가하는 모든 대미지가 추가로 10% 증가한다.
 - id: einstein
@@ -1829,15 +1742,13 @@
   twoSetSkill:
     name: Special Relativity 2 Pieces
     krName: 특수 상대성 이론 2 세트
-    description:
-      Gain 5% Total DMG Multiplier for every meter of distance from the
+    description: Gain 5% Total DMG Multiplier for every meter of distance from the
       enemy. Bonus stacks up to 5 times.
     krDescription: 적과의 거리가 1m씩 멀어질 때마다 가하는 모든 대미지가 5% 증가한다, 최대 5회 중첩 가능.
   threeSetSkill:
     name: General Relativity 3 Pieces
     krName: 상대성 이론 3 세트
-    description:
-      Get Total DMG Reduction when closer to the enemy, up to a max of
+    description: Get Total DMG Reduction when closer to the enemy, up to a max of
       40% DMG Reduction.
     krDescription: 적과의 거리가 가까울수록 최대 40%까지 받는 대미지가 감소한다.
 - id: ekaterina
@@ -1849,8 +1760,7 @@
   twoSetSkill:
     name: MECH Power 2 Pieces
     krName: 기계의 힘 2 세트
-    description:
-      'Gain 15% CRT in battle. MECH-type battlesuit equip bonus: Gain 15%
+    description: 'Gain 15% CRT in battle. MECH-type battlesuit equip bonus: Gain 15%
       Max SP in battle.'
     krDescription: 전투 중 회심치가 15% 증가한다. 기계 속성의 캐릭터가 사용 시 전투 중 SP 최대치가 추가로 15% 증가한다.
   threeSetSkill:
@@ -1867,8 +1777,7 @@
   twoSetSkill:
     name: Thunder Guide 2 Pieces
     krName: ''
-    description:
-      For 10s after exit, team gains 10% bonus total DMG, and host deals
+    description: For 10s after exit, team gains 10% bonus total DMG, and host deals
       5% bonus total DMG additionally. This effect cannot stack.
     krDescription: ''
   threeSetSkill:
@@ -1885,15 +1794,13 @@
   twoSetSkill:
     name: Heavenly Three 2 Pieces
     krName: ''
-    description:
-      Gain 15% to Max HP and shortens CDs of host's Ultimate and Evasion
+    description: Gain 15% to Max HP and shortens CDs of host's Ultimate and Evasion
       skills by 20% in battle.
     krDescription: ''
   threeSetSkill:
     name: Earthly Six 3 Pieces
     krName: ''
-    description:
-      When there are 3 or more enemies on the battlefield, take 50% less
+    description: When there are 3 or more enemies on the battlefield, take 50% less
       Elemental DMG and attacks gain 60% Elemental DMG.
     krDescription: ''
 - id: heartfelt-memories
@@ -1921,11 +1828,9 @@
   twoSetSkill:
     name: Fox Flame 2 Pieces
     krName: Fox Flame 2 세트
-    description:
-      For every Combo Hit Count, Higokumaru's attacks gain 1% Fire DMG.
+    description: For every Combo Hit Count, Higokumaru's attacks gain 1% Fire DMG.
       Stacks up to 40 times. Host also gains the same fire damage bonus.
-    krDescription:
-      For every Combo Hit Count, Higokumaru's attacks gain 1% Fire DMG.
+    krDescription: For every Combo Hit Count, Higokumaru's attacks gain 1% Fire DMG.
       Stacks up to 40 times. Host also gains the same fire damage bonus.
   threeSetSkill:
     name: Fox Shadow 3 Pieces
@@ -1933,8 +1838,7 @@
     description: 'Upon entering the battle, if Combo Hit Count is less than 50,
       instantly increase the count to 50. CD: 30s. Fox Flame can gain 40 more
       stacks.'
-    krDescription:
-      'Upon entering the battle, if Combo Hit Count is less than 50,
+    krDescription: 'Upon entering the battle, if Combo Hit Count is less than 50,
       instantly increase the count to 50. CD: 30s. Fox Flame can gain 40 more
       stacks.'
 - id: homecoming-theater
@@ -1946,8 +1850,7 @@
   twoSetSkill:
     name: Dark Night 2 Pieces
     krName: Dark Night 2 세트
-    description:
-      'Upon killing an enemy, summon a Kindred. Trigger CD: 5s. For every
+    description: 'Upon killing an enemy, summon a Kindred. Trigger CD: 5s. For every
       Kindred present, character gains 10% Total DMG Multiplier. Max Kindred: 3.
       With 3 Kindreds, character gains Physical Immunity. Taking an enemy hit
       dispels the immunity and unsummons all Kindreds. No more Kindreds can be
@@ -1963,8 +1866,7 @@
     description: With 3 Kindreds, character gains a one-time 20% empowerment to
       Total DMG Multiplier for 10s. When all Kindreds disappear, character gains
       immediate healing of 2% Max HP/s for 10s.
-    krDescription:
-      With 3 Kindreds, character gains a one-time 20% empowerment to
+    krDescription: With 3 Kindreds, character gains a one-time 20% empowerment to
       Total DMG Multiplier for 10s. When all Kindreds disappear, character gains
       immediate healing of 2% Max HP/s for 10s.
 - id: isaac-newton
@@ -1976,8 +1878,7 @@
   twoSetSkill:
     name: Spectral Jet 2 Pieces
     krName: 반사 스펙트럼 2 세트
-    description:
-      'Basic ATKs (including Combo and Charged ATKs) have a 10% chance to
+    description: 'Basic ATKs (including Combo and Charged ATKs) have a 10% chance to
       inflict one the following debuffs: Paralyze (with 3 Paralyze Trauma),
       Freeze (with 3 Rime Trauma), Stun (with 3 Stun Trauma), Slow, Ignite(with
       3 Ignite Trauma), Impair, and Weaken. Slow, Ignite, Impair, and Weaken
@@ -1991,8 +1892,7 @@
   threeSetSkill:
     name: Deadly Acceleration 3 Pieces
     krName: 치명적인 가속 3 세트
-    description:
-      For every 1.0s, Basic ATK (including Combo and Charged ATKs) gains
+    description: For every 1.0s, Basic ATK (including Combo and Charged ATKs) gains
       20% Total DMG Multiplier. Stacks up to 5 times. Attacking resets the buff
       and initiates a 7s CD.
     krDescription:
@@ -2009,17 +1909,14 @@
     krName: Eternal Struggle 2 세트
     description: For every ignited or firebranded enemy, gain 10% Attack Speed.
       Stacks up to 5 times.
-    krDescription:
-      For every ignited or firebranded enemy, gain 10% Attack Speed.
+    krDescription: For every ignited or firebranded enemy, gain 10% Attack Speed.
       Stacks up to 5 times.
   threeSetSkill:
     name: Sea Filler 3 Pieces
     krName: Sea Filler 3 세트
-    description:
-      When having a target, all enemies except for the target deal 70%
+    description: When having a target, all enemies except for the target deal 70%
       less DMG to the host.
-    krDescription:
-      When having a target, all enemies except for the target deal 70%
+    krDescription: When having a target, all enemies except for the target deal 70%
       less DMG to the host.
 - id: jixuanyuan
   name: Jixuanyuan
@@ -2052,8 +1949,7 @@
   twoSetSkill:
     name: Oath of Judah 2 Pieces
     krName: ''
-    description:
-      For every Elite enemy on the battlefield, the host gains 8% Crit
+    description: For every Elite enemy on the battlefield, the host gains 8% Crit
       Rate. Stacks up to 4 times.
     krDescription: ''
   threeSetSkill:
@@ -2077,8 +1973,7 @@
   threeSetSkill:
     name: Heavenly Verdict 3 Pieces
     krName: Heavenly Verdict 3 세트
-    description:
-      'Critical strikes mark non-Boss enemies for Judgment. These enemies
+    description: 'Critical strikes mark non-Boss enemies for Judgment. These enemies
       then take 15% ATK of Physical DMG per second for 30s. CD: 5s. For every
       enemy marked for Judgment, gain 6% Crit Rate. Stacks up to 5 times.'
     krDescription: 'Critical strikes mark non-Boss enemies for Judgment. These
@@ -2142,19 +2037,16 @@
   twoSetSkill:
     name: Shortened Reach 2 Pieces
     krName: Shortened Reach 2 세트
-    description:
-      When hit by enemy, take 25% less Physical DMG and 70% less Indirect
+    description: When hit by enemy, take 25% less Physical DMG and 70% less Indirect
       Physical DMG (such as Bleeding).
     krDescription: When hit by enemy, take 25% less Physical DMG and 70% less
       Indirect Physical DMG (such as Bleeding).
   threeSetSkill:
     name: Sword Soul 3 Pieces
     krName: Sword Soul 3 세트
-    description:
-      'Triggered when HP is 5% or less. Gain 80% Crit Rate and Crit DMG
+    description: 'Triggered when HP is 5% or less. Gain 80% Crit Rate and Crit DMG
       and death immunity for 6s. CD: 60s.'
-    krDescription:
-      'Triggered when HP is 5% or less. Gain 80% Crit Rate and Crit DMG
+    krDescription: 'Triggered when HP is 5% or less. Gain 80% Crit Rate and Crit DMG
       and death immunity for 6s. CD: 60s.'
 - id: mary-shelley
   name: Mary Shelley
@@ -2168,8 +2060,7 @@
     description: When enemies are nearby, release an electro discharge every 4s,
       dealing 40% max HP of Lightning DMG to enemies in the AOE (at 15000 or
       higher max HP, treat HP as 15000) and store an Energy Mark.
-    krDescription:
-      When enemies are nearby, release an electro discharge every 4s,
+    krDescription: When enemies are nearby, release an electro discharge every 4s,
       dealing 40% max HP of Lightning DMG to enemies in the AOE (at 15000 or
       higher max HP, treat HP as 15000) and store an Energy Mark.
   threeSetSkill:
@@ -2194,22 +2085,18 @@
   twoSetSkill:
     name: Periodic Law 2 Pieces
     krName: Periodic Law 2 세트
-    description:
-      'When Combo/Charged ATKs hit the enemy, deal another 100.0% ATK of
+    description: 'When Combo/Charged ATKs hit the enemy, deal another 100.0% ATK of
       Physical DMG. CD: 1s.'
-    krDescription:
-      'When Combo/Charged ATKs hit the enemy, deal another 100.0% ATK
+    krDescription: 'When Combo/Charged ATKs hit the enemy, deal another 100.0% ATK
       of Physical DMG. CD: 1s.'
   threeSetSkill:
     name: Element Prediction 3 Pieces
     krName: Element Prediction 3 세트
-    description:
-      'When Basic ATKs hit the enemy, enter Discovery State. Discovery
+    description: 'When Basic ATKs hit the enemy, enter Discovery State. Discovery
       State: Host gains Ignore Interrupt and deals 20.0% more Physical DMG.
       Discovery State ends and enters a 15s CD when Combo Hit chain is
       disrupted.'
-    krDescription:
-      'When Basic ATKs hit the enemy, enter Discovery State. Discovery
+    krDescription: 'When Basic ATKs hit the enemy, enter Discovery State. Discovery
       State: Host gains Ignore Interrupt and deals 20.0% more Physical DMG.
       Discovery State ends and enters a 15s CD when Combo Hit chain is
       disrupted.'
@@ -2225,19 +2112,16 @@
     description: Enemies that stay in the field for more than 5s suffer 20% Move
       Slow and Attack Slow for 4s (duration resets when the slow effect ends).
       The duration resets if an enemy leaves the force field for 2s.
-    krDescription:
-      Enemies that stay in the field for more than 5s suffer 20% Move
+    krDescription: Enemies that stay in the field for more than 5s suffer 20% Move
       Slow and Attack Slow for 4s (duration resets when the slow effect ends).
       The duration resets if an enemy leaves the force field for 2s.
   threeSetSkill:
     name: Enhanced Force Field 3 Pieces
     krName: Enhanced Force Field 3 세트
-    description:
-      Enemies that stay in the field for more than 5s will be frozen for
+    description: Enemies that stay in the field for more than 5s will be frozen for
       2s (duration resets when the freezing period ends). The duration resets if
       an enemy leaves the force field for 2s.
-    krDescription:
-      Enemies that stay in the field for more than 5s will be frozen
+    krDescription: Enemies that stay in the field for more than 5s will be frozen
       for 2s (duration resets when the freezing period ends). The duration
       resets if an enemy leaves the force field for 2s.
 - id: new-year
@@ -2252,15 +2136,13 @@
     description: Fireworks explosions ignite enemies, dealing 100 Fire DMG every
       0.5s for 5s. Attacks against ignited enemies gain 15% Fire DMG. This
       effect cannot stack.
-    krDescription:
-      Fireworks explosions ignite enemies, dealing 100 Fire DMG every
+    krDescription: Fireworks explosions ignite enemies, dealing 100 Fire DMG every
       0.5s for 5s. Attacks against ignited enemies gain 15% Fire DMG. This
       effect cannot stack.
   threeSetSkill:
     name: Powderful 3 Pieces
     krName: Powderful 3 세트
-    description:
-      Fireworks Launcher deals an additional 20% Fire DMG. Launcher also
+    description: Fireworks Launcher deals an additional 20% Fire DMG. Launcher also
       unleashes a powerful explosion when it disappears, dealing 300% ATK of
       Fire DMG to enemies in a large AOE and stunning them for 4s.
     krDescription: Fireworks Launcher deals an additional 20% Fire DMG. Launcher
@@ -2275,11 +2157,9 @@
   twoSetSkill:
     name: Snow Bloom 2 Pieces
     krName: Snow Bloom 2 세트
-    description:
-      Nearby enemies suffer 60% ATK of Ice DMG per second. 30% chance of
+    description: Nearby enemies suffer 60% ATK of Ice DMG per second. 30% chance of
       inflict Move Slow on the enemy for 4s.
-    krDescription:
-      Nearby enemies suffer 60% ATK of Ice DMG per second. 30% chance
+    krDescription: Nearby enemies suffer 60% ATK of Ice DMG per second. 30% chance
       of inflict Move Slow on the enemy for 4s.
   threeSetSkill:
     name: Ice Crown 3 Pieces
@@ -2300,11 +2180,9 @@
   threeSetSkill:
     name: Circle of Life 3 Pieces
     krName: Circle of Life 3 세트
-    description:
-      For every summoned unit (including supporting friends), gain 20%
+    description: For every summoned unit (including supporting friends), gain 20%
       Total DMG Multiplier. Stacks up to 5 times.
-    krDescription:
-      For every summoned unit (including supporting friends), gain 20%
+    krDescription: For every summoned unit (including supporting friends), gain 20%
       Total DMG Multiplier. Stacks up to 5 times.
 - id: otto-apocalypse
   name: Otto Apocalypse
@@ -2315,14 +2193,12 @@
   twoSetSkill:
     name: Spear of Punishment 2 Pieces
     krName: Spear of Punishment 2 세트
-    description:
-      'Every Basic ATK grants 1 Charge stack (CD: 0.8s). After gaining 3
+    description: 'Every Basic ATK grants 1 Charge stack (CD: 0.8s). After gaining 3
       Charge stacks, the next charged attack hitting an enemy generates a
       Punishment Field with a 3-meter radius that lasts 4.0s. Enemies inside the
       field become conductive and take 40% more Lightning DMG. This effect
       cannot stack.'
-    krDescription:
-      'Every Basic ATK grants 1 Charge stack (CD: 0.8s). After gaining
+    krDescription: 'Every Basic ATK grants 1 Charge stack (CD: 0.8s). After gaining
       3 Charge stacks, the next charged attack hitting an enemy generates a
       Punishment Field with a 3-meter radius that lasts 4.0s. Enemies inside the
       field become conductive and take 40% more Lightning DMG. This effect
@@ -2330,12 +2206,10 @@
   threeSetSkill:
     name: Spear of Sky 3 Pieces
     krName: Spear of Sky 3 세트
-    description:
-      Charges once every 5s. The next charged attack adds a Sky Brand to
+    description: Charges once every 5s. The next charged attack adds a Sky Brand to
       the target. The Sky Brand explodes after a 0.5s delay, dealing 80% ATK of
       Lightning DMG to nearby enemies.
-    krDescription:
-      Charges once every 5s. The next charged attack adds a Sky Brand
+    krDescription: Charges once every 5s. The next charged attack adds a Sky Brand
       to the target. The Sky Brand explodes after a 0.5s delay, dealing 80% ATK
       of Lightning DMG to nearby enemies.
 - id: picasso
@@ -2385,24 +2259,20 @@
   twoSetSkill:
     name: Planck Constant 2 Pieces
     krName: Planck Constant 2 세트
-    description:
-      When attacked and when DMG taken is less than the product of 15 x
+    description: When attacked and when DMG taken is less than the product of 15 x
       Valkyrie's level, the host will not be interrupted (but takes DMG as
       usual). When equipped on Bronya, ranged attacks gain 15% Total DMG
       Multiplier.
-    krDescription:
-      When attacked and when DMG taken is less than the product of 15 x
+    krDescription: When attacked and when DMG taken is less than the product of 15 x
       Valkyrie's level, the host will not be interrupted (but takes DMG as
       usual). When equipped on Bronya, ranged attacks gain 15% Total DMG
       Multiplier.
   threeSetSkill:
     name: Quantum Entanglement 3 Pieces
     krName: Quantum Entanglement 3 세트
-    description:
-      'Hitting an enemy heals 5% HP. CD: 5.0s. When equipped on Bronya,
+    description: 'Hitting an enemy heals 5% HP. CD: 5.0s. When equipped on Bronya,
       gain 30% SP recovery rate.'
-    krDescription:
-      'Hitting an enemy heals 5% HP. CD: 5.0s. When equipped on Bronya,
+    krDescription: 'Hitting an enemy heals 5% HP. CD: 5.0s. When equipped on Bronya,
       gain 30% SP recovery rate.'
 - id: rasputin
   name: Rasputin
@@ -2413,11 +2283,9 @@
   twoSetSkill:
     name: Final Prophecy 2 Pieces
     krName: Final Prophecy 2 세트
-    description:
-      'Basic ATK (including Combo and Charged) has a 15% chance to deal
+    description: 'Basic ATK (including Combo and Charged) has a 15% chance to deal
       450% Ice DMG against the target and freeze the target for 3.5s. CD: 8s.'
-    krDescription:
-      'Basic ATK (including Combo and Charged) has a 15% chance to deal
+    krDescription: 'Basic ATK (including Combo and Charged) has a 15% chance to deal
       450% Ice DMG against the target and freeze the target for 3.5s. CD: 8s.'
   threeSetSkill:
     name: Death of a Dynasty 3 Pieces
@@ -2433,19 +2301,16 @@
   twoSetSkill:
     name: Shadow Dancer 2 Pieces
     krName: Shadow Dancer 2 세트
-    description:
-      'When a single hit taken deals more than 20% HP in DMG, ignore the
+    description: 'When a single hit taken deals more than 20% HP in DMG, ignore the
       DMG dealt by said hit. CD: 25s.'
-    krDescription:
-      'When a single hit taken deals more than 20% HP in DMG, ignore
+    krDescription: 'When a single hit taken deals more than 20% HP in DMG, ignore
       the DMG dealt by said hit. CD: 25s.'
   threeSetSkill:
     name: Ten Braves 3 Pieces
     krName: Ten Braves 3 세트
     description: 'Buffs provided by each stigmata of the stigmata set gain a 15%
       bonus. Mei or Yae Sakura equip bonus: Gain 20% Max HP in battle.'
-    krDescription:
-      'Buffs provided by each stigmata of the stigmata set gain a 15%
+    krDescription: 'Buffs provided by each stigmata of the stigmata set gain a 15%
       bonus. Mei or Yae Sakura equip bonus: Gain 20% Max HP in battle.'
 - id: schrodinger
   name: Schrodinger
@@ -2456,8 +2321,7 @@
   twoSetSkill:
     name: Schrodinger's Cat 2 Pieces
     krName: ''
-    description:
-      When attacked, there is a 50% chance that said attack suffers 70%
+    description: When attacked, there is a 50% chance that said attack suffers 70%
       Total DMG Reduction. Otherwise, said attack gains 40% Total DMG Multiplier
     krDescription: ''
   threeSetSkill:
@@ -2475,15 +2339,13 @@
   twoSetSkill:
     name: Particle Form 2 Pieces
     krName: ''
-    description:
-      'Gain 30% Move Speed. Teleports to a random nearby area when hit by
+    description: 'Gain 30% Move Speed. Teleports to a random nearby area when hit by
       an enemy. CD: 10.0s.'
     krDescription: ''
   threeSetSkill:
     name: Honkai Overload 3 Pieces
     krName: ''
-    description:
-      For a 3s period after using Ultimate or weapon skill with Direct
+    description: For a 3s period after using Ultimate or weapon skill with Direct
       DMG abilities, empower Skill DMG based on remaining SP percentage, gaining
       15% Total DMG Multiplier for every remaining 20% of SP.
     krDescription: ''
@@ -2520,11 +2382,9 @@
   twoSetSkill:
     name: Floral Bounties 2 Pieces
     krName: Floral Bounties 2 세트
-    description:
-      'When attacked by weakened enemies, there is a 40% chance that the
+    description: 'When attacked by weakened enemies, there is a 40% chance that the
       Valkyrie takes zero DMG (does not protect against Elemental DMG). CD: 3s.'
-    krDescription:
-      'When attacked by weakened enemies, there is a 40% chance that
+    krDescription: 'When attacked by weakened enemies, there is a 40% chance that
       the Valkyrie takes zero DMG (does not protect against Elemental DMG). CD:
       3s.'
   threeSetSkill:
@@ -2541,23 +2401,19 @@
   twoSetSkill:
     name: Battle Rhythm 2 Pieces
     krName: Battle Rhythm 2 세트
-    description:
-      Within a 10s interval after using any active weapon skill, the next
+    description: Within a 10s interval after using any active weapon skill, the next
       weapon active skill gains 20% Total DMG Multiplier. DMG boost stacks up to
       5 times. Adding a stack resets the effect's duration.
-    krDescription:
-      Within a 10s interval after using any active weapon skill, the
+    krDescription: Within a 10s interval after using any active weapon skill, the
       next weapon active skill gains 20% Total DMG Multiplier. DMG boost stacks
       up to 5 times. Adding a stack resets the effect's duration.
   threeSetSkill:
     name: Hero Mode 3 Pieces
     krName: Hero Mode 3 세트
-    description:
-      'After using 6 weapon skills, enter Hero Mode that lasts 20s (CD:
+    description: 'After using 6 weapon skills, enter Hero Mode that lasts 20s (CD:
       60s), gaining 70% Physical DMG, 25% Attack Speed and Move Speed, and
       immunity to most debuffs.'
-    krDescription:
-      'After using 6 weapon skills, enter Hero Mode that lasts 20s (CD:
+    krDescription: 'After using 6 weapon skills, enter Hero Mode that lasts 20s (CD:
       60s), gaining 70% Physical DMG, 25% Attack Speed and Move Speed, and
       immunity to most debuffs.'
 - id: yae-sakura
@@ -2569,8 +2425,7 @@
   twoSetSkill:
     name: Florid Sakura 2 Pieces
     krName: ''
-    description:
-      Gain 20% Max HP in battle. Attacks against enemies marked by Sakura
+    description: Gain 20% Max HP in battle. Attacks against enemies marked by Sakura
       Brand deal 30% more Physical DMG.
     krDescription: ''
   threeSetSkill:
@@ -2587,12 +2442,10 @@
   twoSetSkill:
     name: Earthquake 2 Pieces
     krName: Earthquake 2 세트
-    description:
-      When there are enemies nearby, emit a seismic wave with a 3-meter
+    description: When there are enemies nearby, emit a seismic wave with a 3-meter
       radius from the host every 5s. For every 3 seismic waves, the first 2 will
       knock down non-boss enemies and the 3rd will stun non-boss enemies for 3s.
-    krDescription:
-      When there are enemies nearby, emit a seismic wave with a 3-meter
+    krDescription: When there are enemies nearby, emit a seismic wave with a 3-meter
       radius from the host every 5s. For every 3 seismic waves, the first 2 will
       knock down non-boss enemies and the 3rd will stun non-boss enemies for 3s.
   threeSetSkill:
@@ -2600,8 +2453,7 @@
     krName: Planetary Orbits 3 세트
     description: When there are 3 or more enemies on the battlefield, all allies
       gain 15% Physical DMG and 25% Crit DMG. This effect cannot stack.
-    krDescription:
-      When there are 3 or more enemies on the battlefield, all allies
+    krDescription: When there are 3 or more enemies on the battlefield, all allies
       gain 15% Physical DMG and 25% Crit DMG. This effect cannot stack.
 - id: zhuge-kongming
   name: Zhuge Kongming
@@ -2627,8 +2479,7 @@
     krName: Eight Formations 3 세트
     description: 'When attacked by enemies, there is a 20% chance to knock back
       enemies within a 3-meter radius. CD: 6s.'
-    krDescription:
-      'When attacked by enemies, there is a 20% chance to knock back
+    krDescription: 'When attacked by enemies, there is a 20% chance to knock back
       enemies within a 3-meter radius. CD: 6s.'
 - id: anti-entropy-xmas
   name: Anti-Entropy XMas
@@ -2657,8 +2508,7 @@
   twoSetSkill:
     name: MECH Master 2 Pieces
     krName: 기계 마스터리 2 세트
-    description:
-      'Gain 30% Crit DMG. MECH-type battlesuit equip bonus: Gain 10% Max
+    description: 'Gain 30% Crit DMG. MECH-type battlesuit equip bonus: Gain 10% Max
       SP in battle.'
     krDescription: |-
       크리티컬 대미지가 30% 증가한다.
@@ -2754,8 +2604,7 @@
   threeSetSkill:
     name: Feedback 3 Pieces
     krName: 피드백 3 세트
-    description:
-      'Host gains 15% faster ATK Speed. Hits have a 10% chance to heal 3%
+    description: 'Host gains 15% faster ATK Speed. Hits have a 10% chance to heal 3%
       HP. CD: 2s.'
     krDescription: '공격 속도가 15% 증가하고, 명중하면 10% 확률로 HP를 3% 회복한다. 재사용 대기시간: 2초'
 - id: galileo
@@ -2800,8 +2649,7 @@
   twoSetSkill:
     name: Explosive HOMU 2 Pieces
     krName: 자폭 호무 2 세트
-    description:
-      After picking up 1 HOMU Coins consecutively, generate a BOOM HOMU
+    description: After picking up 1 HOMU Coins consecutively, generate a BOOM HOMU
       on the spot that explodes after a delay, dealing 400% ATK of Physical DMG
       to enemies within a 4-meter radius.
     krDescription:
@@ -2810,8 +2658,7 @@
   threeSetSkill:
     name: King HOMU's Treasure 3 Pieces
     krName: 호무왕의 보물 3 세트
-    description:
-      After picking up 3 HOMU Coins consecutively, the host heals 10% HP
+    description: After picking up 3 HOMU Coins consecutively, the host heals 10% HP
       and gains 10% SP.
     krDescription: 연속으로 3개의 호무 코인을 주으면, 자신의 HP를 10%, SP를 10% 회복한다.
 - id: kitten-fun
@@ -2828,8 +2675,7 @@
   threeSetSkill:
     name: Stoic Warrior 3 Pieces
     krName: 강자 3 세트
-    description:
-      Grants 15.0% Total DMG Reduction and an additional 15.0% Total DMG
+    description: Grants 15.0% Total DMG Reduction and an additional 15.0% Total DMG
       Reduction to Rita & Durandal battlesuits.
     krDescription: 피격 시 받는 모든 대미지 15.0% 감소. 리타 혹은 듀란달 사용 시 받는 모든 대미지 추가로 15.0% 감소
 - id: naoe-kanetsugu
@@ -2850,8 +2696,7 @@
   threeSetSkill:
     name: Vidyaraja 3 Pieces
     krName: 명왕 3 세트
-    description:
-      'Upon entering battle, acquire Might of the Vidyaraja, gaining 40%
+    description: 'Upon entering battle, acquire Might of the Vidyaraja, gaining 40%
       Physical DMG and 60% DEF for 20s. CD: 60s.'
     krDescription: 전투 상태 진입 시 명왕의 힘을 얻어 20초 동안 물리 대미지가 40%, 방어력이 60% 증가한다. 재사용 대기시간 60초,
 - id: nikola-tesla
@@ -2903,8 +2748,7 @@
   threeSetSkill:
     name: Keep 'Em Comin' 3 Pieces
     krName: 용맹 3 세트
-    description:
-      Upon enemy kill, gain 50% Crit DMG for 6s. Duration is reset every
+    description: Upon enemy kill, gain 50% Crit DMG for 6s. Duration is reset every
       time this effect is triggered.
     krDescription: 적 처치 시 6초 동안 크리티컬 대미지가 50% 증가한다. 중복 발동 시 지속 시간을 초기화한다.
 - id: roald-amundsen
@@ -2955,13 +2799,11 @@
   twoSetSkill:
     name: Shadow Shield 2 Pieces
     krName: 그림자 실드 2 세트
-    description:
-      "Receive a shield upon entering the battlefield that can absorb all
+    description: "Receive a shield upon entering the battlefield that can absorb all
       DMG equal to 15% of the host's Max HP (max: 1800 HP). While the shield is
       in effect, the host gains 40% Crit DMG. When broken, the shield reappears
       after 15s."
-    krDescription:
-      입장 시 실드를 획득해 자신의 최대 HP의 15%만큼 모든 대미지를 흡수한다(최대 1800). 실드가 존재할 때
+    krDescription: 입장 시 실드를 획득해 자신의 최대 HP의 15%만큼 모든 대미지를 흡수한다(최대 1800). 실드가 존재할 때
       자신의 크리티컬 대미지가 40% 증가하며, 실드 파괴 시 15초 후 다시 생성된다.
   threeSetSkill:
     name: Shadow Blade 3 Pieces
@@ -3058,8 +2900,7 @@
   twoSetSkill:
     name: Pateticheskaya 2 Pieces
     krName: 비창 교항곡 2 세트
-    description:
-      'After casting the Ultimate, next team member switching in gains a
+    description: 'After casting the Ultimate, next team member switching in gains a
       10% Total DMG Multiplier buff (does not stack) for 10s. CD: 30s.'
     krDescription:
       필살기를 발동 후 다음 순서에 교대되는 파티원이 가하는 모든 대미지가 10초 동안 10% 증가한다. 해당 효과는
@@ -3067,8 +2908,7 @@
   threeSetSkill:
     name: Zimniye Gryozy 3 Pieces
     krName: 겨울의 꿈 3 세트
-    description:
-      "After casting the Ultimate, next team member switching in takes
+    description: "After casting the Ultimate, next team member switching in takes
       30% less Total DMG (effect does not stack) for 10s and restores HP equal
       to 10% of the host's Max HP. CD: 30s."
     krDescription: >-
@@ -3091,8 +2931,7 @@
   threeSetSkill:
     name: Blade of Faith 3 Pieces
     krName: 신념의 칼날 3세트
-    description:
-      'Basic ATKs (including Charged and Combo ATKs) of allies gain 15%
+    description: 'Basic ATKs (including Charged and Combo ATKs) of allies gain 15%
       Physical DMG. Effect does not stack. Theresa equip bonus: Basic ATKs
       (including Charged and Combo ATKs) further gain 15% Physical DMG.'
     krDescription: |-
@@ -3107,11 +2946,9 @@
   twoSetSkill:
     name: Cloud of Ashes 2 Pieces
     krName: 노을 2 세트
-    description:
-      'Gain 15.0% Fire DMG. When attacking, deal 300% ATK of Fire DMG to
+    description: 'Gain 15.0% Fire DMG. When attacking, deal 300% ATK of Fire DMG to
       nearby enemies. CD: 15s.'
-    krDescription:
-      '화염 원소 대미지가 15.0% 증가한다. 공격 시 주변의 적에게 공격력 300%의 화염 원소 대미지를 입힌다.
+    krDescription: '화염 원소 대미지가 15.0% 증가한다. 공격 시 주변의 적에게 공격력 300%의 화염 원소 대미지를 입힌다.
       재사용 대기시간: 15초'
   threeSetSkill:
     name: Fallen Cormorant 3 Pieces
@@ -3142,8 +2979,7 @@
   threeSetSkill:
     name: Summer Wave 3 Pieces
     krName: 여름 전선 3 세트
-    description:
-      Flame Wreath has a radius larger by 2 meters and deals 200% ATK of
+    description: Flame Wreath has a radius larger by 2 meters and deals 200% ATK of
       bonus Fire DMG. Each Flame Wreath inflicts 3 Ignite Trauma.
     krDescription: 화염 화한의 반경이 2m 증가하고, 추가로 공격력 200%의 화염 원소 대미지를 가한다. 화환마다 연소 게이지를 3pt 누적한다.
 - id: hannah
@@ -3155,8 +2991,7 @@
   twoSetSkill:
     name: Dual Guns Master 2 Pieces
     krName: 쌍권총 마스터리 2 세트
-    description:
-      'Gain 15% Melee Physical DMG. Kiana or Kallen equip bonus: Gain 5%
+    description: 'Gain 15% Melee Physical DMG. Kiana or Kallen equip bonus: Gain 5%
       Max HP in battle.'
     krDescription: |-
       근접 물리 대미지 15% 증가
@@ -3175,8 +3010,7 @@
   twoSetSkill:
     name: Cannon Master 2 Pieces
     krName: 중포 마스터리 2 세트
-    description:
-      'Gain 15% Ranged Physical DMG. Bronya equip bonus: Gain 5% Max HP
+    description: 'Gain 15% Ranged Physical DMG. Bronya equip bonus: Gain 5% Max HP
       in battle.'
     krDescription: |-
       원거리 물리 대미지 15% 증가
@@ -3213,8 +3047,7 @@
   twoSetSkill:
     name: Firm Will 2 Pieces
     krName: 초지관철 2 세트
-    description:
-      'Upon killing an enemy, gain 50% chance to recover 10 SP. Himeko
+    description: 'Upon killing an enemy, gain 50% chance to recover 10 SP. Himeko
       equip bonus: Gain 8% Max HP in battle.'
     krDescription: 적을 처치 시 50%의 확률로 SP 10 회복한다. 히메코가 사용 시 전투 중 HP 최대치가 추가로 8% 증가한다.
   threeSetSkill:
