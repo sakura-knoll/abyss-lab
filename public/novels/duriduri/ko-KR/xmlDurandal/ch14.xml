@@ -2,548 +2,556 @@
 <data>
   <story>
     <scene id="0" background="bg.jpg">
-    	<bgm src="11_12_mid-lude.mp3" status="start"></bgm>
-    	<cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
-    	<goto goto="10" change="#000000"/>		
-	  </scene>
-	  <scene id="10" background="CG13-6.jpg">
-	  	<bgm src="noise.mp3" status="start"></bgm>
-    <text>戦乙女の頭はこの時、真っ白になった。</text>
-    <text>怒りや、驚きなどに支配されたのではなく——</text>
-    <text>訓練された脳が思考を排除し、目の前の命を救うためにのみリソースを割いているからだ。</text>
-    <text>まだ微かに脈が感じ取れる。</text>
-    <text>まだ、助かるかもしれない。</text>
-    <text>携帯していた酸素と麻酔薬が役に立った。</text>
-    <text>あとは輸血。心臓に外科的処置を施す前に、彼女の血液型を検査しなければいけない。</text>
-	  	<goto goto="20" change="0"/>
-	  </scene>	  
-	  <scene id="20" background="starNight.jpg">
-	  	<bgm src="noise.mp3" status="continue"></bgm>
-    <text>——脇目も振らず、戦乙女は夜空の下をひた走った。</text>
-    <speak chara="_Bianka">（血液型！早く検査結果を出してください、試験紙！）</speak>
-    <speak chara="_Bianka">（私かリタ、どちらでもいいから、輸血できるかどうかを教えてください！）</speak>
-    <speak chara="_Bianka">（心臓手術の輸血量に耐えれる人は、私たち二人以外にいません。）</speak>
-    <speak chara="_Bianka">（お願い、早く！たとえ万に一つでも、助かる見込みがあるのか教えてください！）</speak>
-    <speak chara="_Bianka">（お願い、試験紙——青緑色になって！）</speak>
-	  	<goto goto="30" change="#ffffff"/>
-	  </scene>	  
-	  <scene id="30" background="submarinePipe.jpg">
-	  	<bgm src="12_14_fadeAway.mp3" status="start"></bgm>
-    <text>……</text>
-    <text>戦乙女は荒い息を吐きながら、潜水艦の甲板にがくりと膝を打ち付けた。</text>
-    <text>血液型の試験紙は、その二枠とも赤褐色の状態になっている。</text>
-    <text>採血から3分。試験紙の反応時間の6倍が経過していた、結果は揺らぎようもなく——</text>
-    <text>——O型。</text>
-    <text>A型ともB型とも凝集反応を起こしてしまう血液型だ。</text>
-    <text>血液がO型の人間は、同じくO型の血液しか受け付けない。</text>
-    <text>……しかし不幸なことに、自分もリタもその十人に三、四人はいる血液型ではない。</text>
-    <text>小さな試験紙が、あらゆる外科的処置を不可能だと示していた。</text>
-    <text>戦乙女は悟る、遥か彼方の天命本部にある神の鍵、黒淵白花以外に——</text>
-    <text>——少女の命を救うすべはない、船員の誰もが手に負えないと。</text>
-    <text>戦乙女に唯一できるのは、ただ少女のために……葬儀を進めることだけだった。</text>
-	  	<goto goto="40" clockwise="1"/>
-	  </scene>	  
-	  <scene id="40" background="starNight.jpg">
-	  	<bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
-    <speak chara="_Rita">……それでは、タソマール様のご依頼により、イカナール様が残した「最後の御神託」を読み上げます。</speak>
-	  	<goto goto="50" change="0"/>
-	  </scene> 
-	  <scene id="50" background="CG14-1.jpg">
-	  	<bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
-    <speak chara="_Rita">「神は言った、13番目のバクトゥンは新しい紀元の始まりであると。」</speak>
-    <speak chara="_Rita">「12番目のバクトゥンの最後の日、神の世界は人の世界と完全に隔たれる。」</speak>
-    <speak chara="_Rita">「神は二度と我々に祝福を与えないだろう。二度と我々に呪いをかけないだろう。未来のすべてが、自然な輪廻となる。」</speak>
-    <speak chara="_Rita">「その前に、神は真に純粋で、神の世界においても生きられる化身を、かの世界に望んだ。」</speak>
-    <speak chara="_Rita">「皆、心より愛するすべての者よ、怒りも、嫉妬も、悲しみもいらない——」</speak>
-    <speak chara="_Rita">「イス・タブ様は告げているのだ。天界と人界が隔たれることで、人界もいつか神々の天界のごとく輝かしい世界になれると。」</speak>
-    <speak chara="_Rita">「来る新時代に、凡人も努力を持って、神にも劣らぬ奇跡を作り出せるだろう。」</speak>
-	  	<goto goto="60" clockwise="1"/>
-	  </scene>
-	  <scene id="60" background="mayanBeachMorning.jpg">
-	  	<bgm src="morning.mp3" status="start"></bgm>
-    <show chara="shakesCasualMercyClose" position="center"/>
-    <speak chara="_Shakespeare">……</speak>
-    <show chara="shakesCasualSeriousClose" position="center"/>
-    <speak chara="_Shakespeare">神の最も純粋な化身は彼岸に辿り着いた。みんな、行こう。</speak>
-    <hide position="center"></hide>
-    <show chara="champoSweatyClose" position="left"/>
-    <speak chara="_Champollion">これはちょっと……してやられた。</speak>
-    <show chara="champoSweatyClose" position="left" opacity="0.8"/>
-    <show chara="cervantesSailorUnhappyClose" position="right"/>
-    <speak chara="_Miguel">……この際、我々の感情などどうでも良いじゃろう。</speak>
-    <show chara="cervantesSailorUnhappyClose" position="right" opacity="0.8"/>
-    <show chara="schroMemoryClose" position="left"/>
-    <speak chara="_Schrodinger">……少なくともあの村人たちは、彼女の残した「御神託」に敬虔な心で従うはずなのです。</speak>
-    <show chara="schroMemoryClose" position="left" opacity="0.8"/>
-    <show chara="lallaSeriousClose" position="right"/>
-    <speak chara="_Lalla">もっと良い方法があったかもしれない……でも、時を戻すことはできませんわ。</speak>
-    <show chara="lallaSeriousClose" position="right" opacity="0.8"/>
-    <show chara="ritaVestHesitateClose" position="left"/>
-    <speak chara="_Rita">……</speak>
-    <show chara="ritaVestHesitateClose" position="left" opacity="0.8"/>
-    <show chara="biankaDressNormalClose" position="right"/>
-    <speak chara="_Bianka">そうですね。だから、行きましょう。</speak>
-    <show chara="biankaDressHateClose" position="right"/>
-    <speak chara="_Bianka">南へ、「連邦」の地へ。</speak>
-    <show chara="biankaDressBiteClose" position="right"/>
-    <speak chara="_Bianka">……私たちはあの子のために、この村のために、何かできることがあるはずです。</speak>
-	  	<goto goto="70" clockwise="1"/>
-	  </scene>	  
-	  <scene id="70" background="yamTuluum.jpg">
-	  	<bgm src="06_01_Tuluum.mp3" status="start"></bgm>
-    <show chara="Warrior2PClose" position="left"/>
-    <speak chara="_Warrior2PNoNameShort">……ナ、「ナコム」様がいらっしゃったぞ！！</speak>
-    <show chara="Warrior2PClose" position="left" opacity="0.8"/>
-    <show chara="Warrior3PClose" position="right"/>
-    <speak chara="_Warrior3PNoNameShort">コーアク様に報告しろ！「ナコム」様がいらっしゃったと！</speak>
-    <hide position="left"></hide>
-    <hide position="right"></hide>
-    <show chara="biankaDressShockClose" position="left"/>
-    <speak chara="_Bianka">……どうしたのでしょう？ここは連邦軍の駐屯地ですよね？なぜみんな逃げるのでしょうか？</speak>
-    <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
-    <show chara="shakesCasualSeriousClose" position="right"/>
-    <speak chara="_Shakespeare">……昨日のことで度肝を抜かれてるんだろう。</speak>
-    <show chara="shakesCasualNormalClose" position="right"/>
-    <speak chara="_Shakespeare">まあ、こちらには好都合だ。</speak>
-    <show chara="shakesCasualSeriousClose" position="right"/>
-    <speak chara="_Shakespeare">兵士たちの挙動に恐れこそあれ、抵抗する意志は感じられない。</speak>
-    <show chara="shakesCasualConfidentClose" position="right"/>
-    <speak chara="_Shakespeare">ここは海賊を演じてもらおうじゃないか、戦乙女さん。</speak>
-    <show chara="shakesCasualConfidentClose" position="right" opacity="0.8"/>
-    <show chara="biankaDressSighClose" position="left"/>
-    <speak chara="_Bianka">……？</speak>
-    <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
-    <show chara="shakesCasualNormalClose" position="right"/>
-    <speak chara="_Shakespeare">大丈夫、彼らの恐怖心に便乗するだけでいいんだ、簡単なもんだろう？</speak>
-    <show chara="shakesCasualConfidentClose" position="right"/>
-    <speak chara="_Shakespeare">あの怯えようだ、「ありのまま話せば」事足りるはずさ。</speak>
-	  	<goto goto="80" clockwise="1"/>
-	  </scene>
-	  <scene id="80" background="yamTuluum.jpg">
-	  	<bgm src="06_01_Tuluum.mp3" status="continue"></bgm>
-    <show chara="Officer2PClose" position="right"/>
-    <speak chara="_Officer2PNoNameShort">お待たせしました、「ナコム」様。ここはトゥルム要塞。私はここを任されているコーアクと申します。</speak>
-    <show chara="Officer2PClose" position="right"/>
-    <speak chara="_Officer2P">先日は我々「連邦」の者が失礼を働きました。深くお詫びいたします。</speak>
-    <show chara="Officer2PClose" position="right" opacity="0.8"/>
-    <show chara="biankaDressBiteClose" position="left"/>
-    <speak chara="_Bianka">えっと？今、なんて？すみません、予想外の言葉が聞こえた気がしたのですが……もう一度言ってくれます？</speak>
-    <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
-    <show chara="Officer2PClose" position="right"/>
-    <speak chara="_Officer2P">先日、我々「連邦」の者が失礼を働きました。深くお詫びいたします。</speak>
-    <show chara="Officer2PClose" position="right" opacity="0.8"/>
-    <show chara="biankaDressSighClose" position="left"/>
-    <speak chara="_Bianka">……</speak>
-    <show chara="biankaDressSneerClose" position="left"/>
-    <speak chara="_Bianka">変わり身が早すぎません？「エル・レイ」ではあんなに偉そうだったのに。</speak>
-    <show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
-    <show chara="Officer2PClose" position="right"/>
-    <speak chara="_Officer2P">お許しください。あなたは「ナコム」様です。連邦の軍人は、何人たりとも「ナコム」様に無礼な真似をいたしません。</speak>
-    <show chara="Officer2PClose" position="right" opacity="0.8"/>
-    <show chara="biankaDressShoutClose" position="left"/>
-    <speak chara="_Bianka">……その「ナコム」って何なんですか？何で私が「ナコム」とやらになってるんです？</speak>
-    <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
-    <show chara="Officer2PClose" position="right"/>
-    <speak chara="_Officer2P">「ナコム」は「超人」という意味です。凡人を凌駕し、天におわす神ではなく、大地に忠誠を示す英雄。</speak>
-    <show chara="Officer2PClose" position="right"/>
-    <speak chara="_Officer2P">「超人への道は全ての人が辿れるもの。しかし超人になるまで、本物の超人には最大限の敬意を払いなさい。」</speak>
-    <show chara="Officer2PClose" position="right"/>
-    <speak chara="_Officer2P">「彼らは大海であり、君らは砂粒である。砂粒がどれほど足掻こうと、彼らの足元に埋もれるのみ。」</speak>
-    <show chara="Officer2PClose" position="right"/>
-    <speak chara="_Officer2P">我々はこの大司祭の教えを従っているにすぎず、あなた様だけを敬っているわけではありません。気を悪くさせてしまいましたら申し訳ありません。</speak>
-    <show chara="Officer2PClose" position="right" opacity="0.8"/>
-    <show chara="biankaDressSighClose" position="left"/>
-    <speak chara="_Bianka">……</speak>
-    <show chara="biankaDressHateClose" position="left"/>
-    <speak chara="_Bianka">じゃあ、「エル・レイ」を諦めろと言ったら、そうしてくれるんですか？</speak>
-    <show chara="biankaDressHateClose" position="left" opacity="0.8"/>
-    <show chara="Officer2PClose" position="right"/>
-    <speak chara="_Officer2P">はい。大司祭様が反対なさらない限り、我々はあなたの言葉を法律のように遵守します。</speak>
-    <show chara="Officer2PClose" position="right"/>
-    <speak chara="_Officer2P">あなたが望めば、「エル・レイ」を独立国家として扱いましょう。</speak>
-    <show chara="Officer2PClose" position="right" opacity="0.8"/>
-    <show chara="biankaDressSighClose" position="left"/>
-    <speak chara="_Bianka">……</speak>
-    <show chara="biankaDressAngryClose" position="left"/>
-    <speak chara="_Bianka">わかりました。なら、私は「ナコム」で構いません。</speak>
-    <show chara="biankaDressHateClose" position="left"/>
-    <speak chara="_Bianka">私の仲間と船長も「ナコム」でいいですよね？</speak>
-    <show chara="biankaDressHateClose" position="left" opacity="0.8"/>
-    <show chara="Officer2PClose" position="right"/>
-    <speak chara="_Officer2P">はい。皆様、類稀なる戦闘能力と品格の持ち主であることは明白です。</speak>
-    <show chara="Officer2PClose" position="right" opacity="0.8"/>
-    <show chara="biankaDressSmileClose" position="left"/>
-    <speak chara="_Bianka">それなら話は早いですね。</speak>
-    <show chara="biankaDressSneerClose" position="left"/>
-    <speak chara="_Bianka">「ナコム」は面会を望んでいます——私と私の仲間と、あなたたちの「大司祭」との面会です。</speak>
-    <show chara="biankaDressHateClose" position="left"/>
-    <speak chara="_Bianka">できますか？</speak>
-    <show chara="biankaDressHateClose" position="left" opacity="0.8"/>
-    <show chara="Officer2PClose" position="right"/>
-    <speak chara="_Officer2P">もちろんでございます。すぐにキキンイーサ城に使いを送りましょう。</speak>
-    <show chara="Officer2PClose" position="right" opacity="0.8"/>
-    <show chara="shakesCasualSeriousClose" position="left"/>
-    <speak chara="_Shakespeare">その使いは、お城までどれぐらいかかるのかな？</speak>
-    <show chara="shakesCasualSeriousClose" position="left" opacity="0.8"/>
-    <show chara="Officer2PClose" position="right"/>
-    <speak chara="_Officer2P">中継点で交代し、リレーのように走っていきます。城に到着するまで約一日半かかります。</speak>
-    <show chara="Officer2PClose" position="right" opacity="0.8"/>
-    <show chara="shakesCasualDislikeClose" position="left"/>
-    <speak chara="_Shakespeare">走って？原始的だね。</speak>
-    <show chara="shakesCasualQuestionClose" position="left"/>
-    <speak chara="_Shakespeare">中継点とルートがあるってことは、道路整備はされているんだよね？</speak>
-    <show chara="shakesCasualQuestionClose" position="left" opacity="0.8"/>
-    <show chara="Officer2PClose" position="right"/>
-    <speak chara="_Officer2P">連邦の軍人が毎年整備しています。</speak>
-    <show chara="Officer2PClose" position="right" opacity="0.8"/>
-    <show chara="shakesCasualConfidentClose" position="left"/>
-    <speak chara="_Shakespeare">それはよかった。ならこうしよう。飲み込みの良さそうなガイドを用意してくれ。走るよりもっと速く、楽な方法を教えてやろう。</speak>
-    <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
-    <show chara="biankaDressHesitateClose" position="right"/>
-    <speak chara="_Bianka">（……？）</speak>
-	  	<goto goto="90" clockwise="1"/>
-	  </scene>
-	  <scene id="90" background="mayanRoad.jpg">
-	  	<bgm src="bigTask.mp3" status="start"></bgm>
-    <show chara="speedLine" position="back"/>
-    <show chara="vilagerManSmileClose-up" position="center"/>
-    <speak chara="_vilagerGuide">うわぁ！すごい！爽快だ！ナコム様万歳！</speak>
-    <hide position="center"></hide>
-    <show chara="biankaDressSighClose-up" position="left"/>
-    <speak chara="_Bianka">……ねえ、リタ。</speak>
-    <show chara="biankaDressHesitateClose-up" position="left"/>
-    <speak chara="_Bianka">自転車って、そんなはしゃぐようなものなんですか？</speak>
-    <show chara="biankaDressHesitateClose-up" position="left" opacity="0.8"/>
-    <show chara="ritaVestNormalClose-up" position="right"/>
-    <speak chara="_Rita">ええ、もちろんですよ、ビアンカ様。</speak>
-    <show chara="ritaVestSquintClose-up" position="right"/>
-    <speak chara="_Rita">こちらのガイドさんは、生まれてはじめて自分の足で走るより速いスピードを体感しているのですから。</speak>
-    <show chara="ritaVestSquintClose-up" position="right" opacity="0.8"/>
-    <show chara="biankaDressShockClose-up" position="left"/>
-    <speak chara="_Bianka">……そっか、ここって馬がなかったんでしたっけ。</speak>
-    <show chara="biankaDressShockClose-up" position="left" opacity="0.8"/>
-    <show chara="ritaVestSmileClose-up" position="right"/>
-    <speak chara="_Rita">ですから、今のあの方は深夜にエンジンを吹かす暴走族と同じぐらい興奮されているのでしょう。</speak>
-    <show chara="ritaVestSmileClose-up" position="right" opacity="0.8"/>
-    <show chara="biankaDressHesitateClose-up" position="left"/>
-    <speak chara="_Bianka">……暴走族？何ですかそれ？</speak>
-    <show chara="biankaDressHesitateClose-up" position="left" opacity="0.8"/>
-    <show chara="ritaVestNaughtyClose-up" position="right"/>
-    <speak chara="_Rita">すごく速くバイクを走らせる子たちのことですよ。</speak>
-    <show chara="ritaVestNaughtyClose-up" position="right" opacity="0.8"/>
-    <show chara="biankaDressSighClose-up" position="left"/>
-    <speak chara="_Bianka">……ああ、不良のことですか。</speak>
-    <show chara="biankaDressSighClose-up" position="left" opacity="0.8"/>
-    <show chara="ritaVestSmileClose-up" position="right"/>
-    <speak chara="_Rita">ふふ。ビアンカ様、確かに不良には爆走したがる者も多いですが、バイクに夢中な人が全員不良とは限りませんよ。</speak>
-    <show chara="ritaVestSquintClose-up" position="right"/>
-    <speak chara="_Rita">機会がありましたら、深夜のナポリをドライブしながらご案内いたしましょう。</speak>
-    <show chara="ritaVestSquintClose-up" position="right" opacity="0.8"/>
-    <show chara="biankaDressHesitateClose-up" position="left"/>
-    <speak chara="_Bianka">えっと……機会がありましたら……</speak>
-    <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
-    <show chara="biankaDressSorrowClose-up" position="left"/>
-    <speak chara="_Bianka">すみません、今はそんな気分になれません。</speak>
-    <show chara="biankaDressSorrowClose-up" position="left" opacity="0.8"/>
-    <show chara="ritaVestHesitateClose-up" position="right"/>
-    <speak chara="_Rita">……</speak>
-    <show chara="ritaVestHesitateClose-up" position="right" opacity="0.8"/>
-    <show chara="biankaDressAngryClose-up" position="left"/>
-    <speak chara="_Bianka">私たち……本当に役に立ちませんね。</speak>
-    <show chara="biankaDressAngryClose-up" position="left"/>
-    <speak chara="_Bianka">あの子を傷つけさせてしまいました。</speak>
-    <show chara="biankaDressNormalClose-up" position="left"/>
-    <speak chara="_Bianka">失血でただ死んでいく姿を、見ていることしかできませんでした。</speak>
-    <show chara="biankaDressSorrowClose-up" position="left"/>
-    <speak chara="_Bianka">あんなこと……絶対に……もっと良い方法があったはずなのに……</speak>
-    <show chara="biankaDressSorrowClose-up" position="left" opacity="0.8"/>
-    <show chara="ritaVestHesitateClose-up" position="right"/>
-    <speak chara="_Rita">……</speak>
-    <show chara="ritaVestHesitateClose-up" position="right"/>
-    <speak chara="_Rita">それが……人生なのかもしれません、ビアンカ様。</speak>
-    <show chara="ritaVestNormalClose-up" position="right"/>
-    <speak chara="_Rita">ご存知かもしれませんが、ナポリの近郊には厚い火山灰に埋もれたことにより、西暦79年から永遠に時が止まった遺跡——ポンペイがあります。</speak>
-    <show chara="ritaVestHesitateClose-up" position="right"/>
-    <speak chara="_Rita">ポンペイの犠牲者たちは、火山が噴火しはじめた時に逃げるチャンスがありました。</speak>
-    <speak chara="_Rita">ですが、最初の地震が収まった後、火山灰が迫っていることに気付かず、家に戻って家財を守ることを選んでしまったのです。</speak>
-    <show chara="ritaVestAngryClose-up" position="right"/>
-    <speak chara="_Rita">彼らの大多数は、混乱に乗じて他人の財産を奪おうなど考えていませんでした。</speak>
-    <speak chara="_Rita">ただ倒れた家を一刻も早く修復し、まだ壊れていない物資を安全な場所に移したい、それだけでした。</speak>
-    <show chara="ritaVestAngryClose-up" position="right"/>
-    <speak chara="_Rita">無情にも、そんな努力のために時間は流れていき、数百度にも及ぶ高温の火山灰が瞬く間に降り注いだのです。不幸な人々はその灰に深く埋まり……二度と財産を使う機会は訪れませんでした。</speak>
-    <show chara="ritaVestHesitateClose-up" position="right"/>
-    <speak chara="_Rita">——彼らは間違っていたのでしょうか。</speak>
-    <show chara="ritaVestAngryClose-up" position="right"/>
-    <speak chara="_Rita">あの時代、火山活動について知り、逃げる方法を見出すことができたでしょうか。</speak>
-    <show chara="ritaVestAngryClose-up" position="right"/>
-    <speak chara="_Rita">……もちろん、できないでしょう。全知全能な人間なんていません。</speak>
-    <show chara="ritaVestHesitateClose-up" position="right"/>
-    <speak chara="_Rita">今を持って過去を批判することは誰にでもできますが、今に立って未来を予測することは、誰にとっても難しいことです。</speak>
-    <show chara="ritaVestHesitateClose-up" position="right" opacity="0.8"/>
-    <show chara="biankaDressShockClose-up" position="left"/>
-    <speak chara="_Bianka">……</speak>
-    <show chara="biankaDressSorrowClose-up" position="left"/>
-    <speak chara="_Bianka">言いたいことは……わかります。でも……私……わたしは……</speak>
-    <show chara="biankaDressSorrowClose-up" position="left" opacity="0.8"/>
-    <show chara="ritaVestTearClose-up" position="right"/>
-    <speak chara="_Rita">ええ、何も言わなくても良いのです、ビアンカ様。全部わかっています。</speak>
-    <show chara="ritaVestTearClose-up" position="right"/>
-    <speak chara="_Rita">あなたは……純粋でやさしい心を持っているのですから。</speak>
-    <show chara="ritaVestTearClose-up" position="right" opacity="0.8"/>
-    <show chara="biankaDressScreamClose-up" position="left"/>
-    <speak chara="_Bianka">……</speak>
-    <show chara="biankaDressBiteClose-up" position="left"/>
-    <speak chara="_Bianka">と、突然どうしたんですか！！！早く涙を拭いてください！このバカ！</speak>
-    <show chara="biankaDressBiteClose-up" position="left" opacity="0.8"/>
-    <show chara="ritaVestSquintClose-up" position="right"/>
-    <speak chara="_Rita">ふふ。やっぱりビアンカ様はかわいらしいですね。</speak>
-    <show chara="ritaVestSquintClose-up" position="right" opacity="0.8"/>
-    <show chara="biankaDressScreamClose-up" position="left"/>
-    <speak chara="_Bianka">ちょ、気持ち悪いんですが！？</speak>
-	  	<goto goto="100" clockwise="1"/>
-	  </scene>
-	  <scene id="100" background="mayanRoad.jpg">
-	  	<bgm src="peerGynt.mp3" status="start"></bgm>
-    <show chara="vilagerManSmileClose-up" position="left"/>
-    <speak chara="_vilagerGuide">皆様、ただいまスカラクプ駅を通過しました。目の前の林を抜ければキキンイーサ城です。</speak>
-    <show chara="vilagerManSmileClose-up" position="left" opacity="0.8"/>
-    <show chara="shakesCasualNormalClose-up" position="right"/>
-    <speak chara="_Shakespeare">大きな街なのか？</speak>
-    <show chara="shakesCasualNormalClose-up" position="right" opacity="0.8"/>
-    <show chara="vilagerManSmileClose-up" position="left"/>
-    <speak chara="_vilagerGuide">皆様が言うような「大都市」と比べれば、かなり小さいと思います。端から端まで約三千歩ほどです。</speak>
-    <show chara="vilagerManSmileClose-up" position="left" opacity="0.8"/>
-    <show chara="champoSmileClose-up" position="right"/>
-    <speak chara="_Champollion">ふむ、アジャクシオ（AJACCIO）と同じぐらいだろうか。</speak>
-    <show chara="champoSmileClose-up" position="right" opacity="0.8"/>
-    <show chara="shakesCasualConfidentClose-up" position="left"/>
-    <speak chara="_Shakespeare">ははっ、考古学者、その例えは誰もわからないと思うぞ。AJACCIO？イタリアの田舎町か何かかい？</speak>
-    <show chara="shakesCasualConfidentClose-up" position="left" opacity="0.8"/>
-    <show chara="champoSweatyClose-up" position="right"/>
-    <speak chara="_Champollion">いいや、コルスの首都、フランス領だ。</speak>
-    <show chara="champoSweatyClose-up" position="right" opacity="0.8"/>
-    <show chara="shakesCasualEmbarrassedClose-up" position="left"/>
-    <speak chara="_Shakespeare">へえ、そうか。コルスがフランス領ね。歴史の流れとは面白いもんだ。</speak>
-    <show chara="shakesCasualEmbarrassedClose-up" position="left" opacity="0.8"/>
-    <show chara="biankaDressHesitateClose-up" position="right"/>
-    <speak chara="_Bianka">船長にとって未来の話ですよね？</speak>
-    <show chara="biankaDressHesitateClose-up" position="right" opacity="0.8"/>
-    <show chara="shakesCasualLaughClose-up" position="left"/>
-    <speak chara="_Shakespeare">あっはははっ、そうかも知れないが、未来を知ってしまったら何が何でもそれを変えたくなってしまう。</speak>
-    <show chara="shakesCasualLaughClose-up" position="left" opacity="0.8"/>
-    <show chara="biankaDressNormalClose-up" position="right"/>
-    <speak chara="_Bianka">……「運命論」が嫌いなんですか？</speak>
-    <show chara="biankaDressNormalClose-up" position="right" opacity="0.8"/>
-    <show chara="shakesCasualConfidentClose-up" position="left"/>
-    <speak chara="_Shakespeare">まあ、それもある。でも一番重要なのは期待値だ。</speak>
-    <show chara="shakesCasualEmbarrassedClose-up" position="left"/>
-    <speak chara="_Shakespeare">例えば……水洗トイレを知ってしまった人間は、毎日それ以外のトイレを使うのに我慢できなくなるのは道理だろう？</speak>
-    <show chara="shakesCasualEmbarrassedClose-up" position="left" opacity="0.8"/>
-    <show chara="biankaDressAngryClose-up" position="right"/>
-    <speak chara="_Bianka">もっとマシな例えはなかったんですか……</speak>
-    <show chara="biankaDressAngryClose-up" position="right" opacity="0.8"/>
-    <show chara="shakesCasualLaughClose-up" position="left"/>
-    <speak chara="_Shakespeare">はははっ、今の反応も「先進世界」の特徴の一つだ。「非先進世界」からすれば、全員「潔癖症」に見える。</speak>
-    <show chara="shakesCasualDislikeClose-up" position="left"/>
-    <speak chara="_Shakespeare">西暦十三、十四世紀頃のヨーロッパでは、貴族ですらめったに風呂に入らないものだ。想像もつかないだろう。私が生きた時代も、医者は手術する時、自分と患者を消毒すべきだってことを知らなかった。</speak>
-    <show chara="shakesCasualQuestionClose-up" position="left"/>
-    <speak chara="_Shakespeare">あの時代は人文的だって？くだらない。あの頃の世界中の書籍を集めても、今の大図書館の一角も埋まらないだろう。</speak>
-    <show chara="shakesCasualConfidentClose-up" position="left"/>
-    <speak chara="_Shakespeare">さらに付け加えれば、ここで未来に「偶然出会って」いなければ、モーツァルトやベートーベンの美しい楽曲は聴けていなかっただろうね。</speak>
-    <show chara="shakesCasualNormalClose-up" position="left"/>
-    <speak chara="_Shakespeare">人類は本質的に貪欲な生き物だ。その欲望に正直になることこそ、良い人生を送るコツなんだ。</speak>
-    <show chara="shakesCasualLaughClose-up" position="left"/>
-    <speak chara="_Shakespeare">——そうだろ、そこのガイドさん？身近な材料を使って自転車もどきを作るのに、恐らく何年もかかるはずだ。それでも努力を惜しまないんじゃないかな？</speak>
-    <show chara="shakesCasualLaughClose-up" position="left" opacity="0.8"/>
-    <show chara="vilagerManSmileClose-up" position="right"/>
-    <speak chara="_vilagerGuide">……はい、何でしょうか？</speak>
-    <show chara="vilagerManSmileClose-up" position="right" opacity="0.8"/>
-    <show chara="shakesCasualEmbarrassedClose-up" position="left"/>
-    <speak chara="_Shakespeare">おっと、通訳をしないと、我々のおしゃべりは彼に届かないんだった。</speak>
-	  	<goto goto="110" clockwise="1"/>
-	  </scene>
-	  <scene id="110" background="highTempleChichenItza.jpg">
-	  	<bgm src="06_01_ChichenItza.mp3" status="start"></bgm>
-    <show chara="biankaDressShockClose" position="left"/>
-    <speak chara="_Bianka">うわ！大きい神殿ですね！</speak>
-    <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
-    <show chara="ritaVestSmileClose" position="right"/>
-    <speak chara="_Rita">歴史のあるものでしょうか、ガイドさん。</speak>
-    <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
-    <show chara="vilagerSmileClose" position="left"/>
-    <speak chara="_vilagerGuide">はい、千年ほど前の建物らしいです。</speak>
-    <show chara="vilagerSmileClose" position="left" opacity="0.8"/>
-    <show chara="biankaDressShoutClose" position="right"/>
-    <speak chara="_Bianka">せ、千年？</speak>
-    <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
-    <show chara="vilagerSmileClose" position="left"/>
-    <speak chara="_vilagerGuide">はい、ナコム様。大司祭様は歴史的な建造物などの保全に力を尽くすようにと仰っています。</speak>
-    <show chara="vilagerSmileClose" position="left"/>
-    <speak chara="_vilagerGuide">これらの古代神殿を守り、さらに建物として機能できるように、内部は色々と手が加えられているのです。</speak>
-    <show chara="vilagerSmileClose" position="left"/>
-    <speak chara="_vilagerGuide">中に入ることがあれば、おわかり頂けるかと。</speak>
-	  	<goto goto="120" change="#ffffff"/>
-	  </scene>
-	  <scene id="120" background="castilloChichenItza.jpg">
-	  	<bgm src="06_01_ChichenItza.mp3" status="continue"></bgm>
-    <show chara="vilagerSmileClose" position="left"/>
-    <speak chara="_vilagerGuide">……そして、キキンイーサで最も壮大な建築物が、このククルカン神殿です！</speak>
-    <show chara="vilagerSmileClose" position="left"/>
-    <speak chara="_vilagerGuide">ククルカンは古い神の名で、「羽を持つ蛇」という意味で——</speak>
-    <hide position="left"></hide>
-    <hide position="right"></hide>
-    <speak chara="_Shakespeare">はいはい、すごい神殿だってことはわかったよ。で、神殿の後ろにあるあれはなんだい？大きな鉄の塊のようだけど？</speak>
-    <show chara="vilagerSeriousClose" position="left"/>
-    <speak chara="_vilagerGuide">……「大きな鉄の塊」？</speak>
-    <show chara="vilagerSmileClose" position="left"/>
-    <speak chara="_vilagerGuide">ああ！「ククルカンの心臓」のことですね！あの遠くにあるのは隕石です。</speak>
-    <show chara="vilagerSmileClose" position="left" opacity="0.8"/>
-    <show chara="shakesCasualConfidentClose" position="right"/>
-    <speak chara="_Shakespeare">ほう？隕石？</speak>
-    <show chara="shakesCasualConfidentClose" position="right" opacity="0.8"/>
-    <show chara="biankaDressHesitateClose" position="left"/>
-    <speak chara="_Bianka">オーストラリアのエアーズロックに似ていますね……</speak>
-    <hide position="left"></hide>
-    <hide position="right"></hide>
-    <speak chara="_ZarathustraDaughterNoNameZero" remark="next">ふふ、遥々お越しくださった方々、あれはわざわざチクシュルーブから掘り出した星のコア、本物の空からの落とし物だよ。</speak>
-			<remark post="U2FsdGVkX18+S4v9CKiWAD46NKkM">
-				<p class="article-text-h">注釈：</p>
-				<p class="article-text">チクシュルーブ（Chicxulub、マヤ語で「悪魔の尻尾」という意味）は、ユカタン半島北部にある地表の下に埋もれた直径150～180キロのクレーターである。地球上で最も大きい隕石衝突跡の一つ。</p>
-				<p class="article-text">2010年3月5日、『サイエンス』に掲載された説では、6500万年前、チクシュルーブ・クレーターが形成された原因である小惑星衝突は、恐竜の絶滅の最大要因とされている。</p>
-				<p class="article-text">p.s.この隕石衝突時のエネルギーは広島型原爆の約100万倍である。直径10キロ以上の小惑星は衝突した瞬間、完全に気化した。</p>
-			</remark>
-    <speak chara="_vilagerGuide">大司祭様！失礼いたしました！</speak>
-	  	<goto goto="140" change="0"/>
-	  </scene>
-	  <scene id="140" background="CG14-2.jpg">
-	  	<bgm src="06_01_ChichenItza.mp3" status="continue"></bgm>
-    <speak chara="_ZarathustraDaughterNoName">よい、楽にしなさい。</speak>
-    <speak chara="_ZarathustraDaughterNoName">遠い国の客人よ——星と鳥よりあなた方の到来は告げられていた。</speak>
-    <speak chara="_ZarathustraDaughterNoName">私が「半島連邦」の大司祭、エステル・ツァラトゥストラだ。エステルと呼んでくれて構わない。</speak>
-    <speak chara="_ZarathustraDaughter">客人たちは、既に我々連邦のことをある程度把握されていると思う。</speak>
-    <speak chara="_ZarathustraDaughter">だが、あらためて紹介させていただきたい、私が作り上げたこの国を。</speak>
-	  	<goto goto="150" change="0"/>
-	  </scene>
-	  <scene id="150" background="castilloChichenItza.jpg">
-	  	<bgm src="06_01_ChichenItza.mp3" status="continue"></bgm>
-    <show chara="ZarathustraSmileClose" position="center"/>
-    <speak chara="_ZarathustraDaughter">ユカタン半島の長期暦は13番目のバクトゥンに入る。</speak>
-    <show chara="ZarathustraNormalClose" position="center"/>
-    <speak chara="_ZarathustraDaughter">その「長期暦」がある特別な日に作られたのであれば、マヤ文明はこの土地に五千年近く存在していたことになる。</speak>
-    <show chara="ZarathustraSorrowClose" position="center"/>
-    <speak chara="_ZarathustraDaughter">しかしご覧の通り、彼らの道具は未だに原始的で、畑を耕す家畜すらいない有様だ。</speak>
-    <show chara="ZarathustraThinkClose" position="center"/>
-    <speak chara="_ZarathustraDaughter">私がここに来たばかりの頃は、多くの「漂流者」同様、このように歪んだ文明の存在を信じられなかった。</speak>
-    <show chara="ZarathustraNormalClose" position="center"/>
-    <speak chara="_ZarathustraDaughter">今ならはっきり言える、これは「人間」が問題なのではない。このユカタン半島が地理的に貧しいのだ。</speak>
-    <show chara="ZarathustraAngerClose" position="center"/>
-    <speak chara="_ZarathustraDaughter">家畜にできる動物がなく、鉱石も産出されない。一番近い鉱脈でも遥かメキシコ高原の奥地にある。</speak>
-    <show chara="ZarathustraSorrowClose" position="center"/>
-    <speak chara="_ZarathustraDaughter">人々はこの土地を勤労に耕してきたが、生活は一向に改善されない。ここの紀元を知らなければ、自分が太古の昔に逆行したのではないかと錯覚してしまうほどだ。</speak>
-    <show chara="ZarathustraSmileClose" position="center"/>
-    <speak chara="_ZarathustraDaughter">私はキュロス2世の時代を生きていた――他の漂流者によれば、今から二千五百年も前の、それこそ「太古の時代」だった。</speak>
-    <hide position="center"></hide>
-    <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
-    <show chara="biankaDressShockClose" position="left"/>
-    <speak chara="_Bianka">……え？</speak>
-    <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
-    <show chara="ZarathustraSmileClose" position="right"/>
-    <speak chara="_ZarathustraDaughter">そんなに驚くことかね、お嬢さん。</speak>
-    <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
-    <show chara="biankaDressBiteClose" position="left"/>
-    <speak chara="_Bianka">だって、あなた、スペイン語がとても流暢じゃないですか？</speak>
-    <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
-    <show chara="ZarathustraNormalClose" position="right"/>
-    <speak chara="_ZarathustraDaughter">郷に入っては郷に従え。多くの漂流者が同じ言語を使用しているのに、あえて誰もわからない母国語を話す必要もないだろう。</speak>
-    <show chara="ZarathustraNormalClose" position="right" opacity="0.8"/>
-    <show chara="biankaDressBiteClose" position="left"/>
-    <speak chara="_Bianka">で、でも、ここの原住民は象形文字を使っていますよね？そこは郷に従わないんです？</speak>
-    <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
-    <show chara="ZarathustraSorrowClose" position="right"/>
-    <speak chara="_ZarathustraDaughter">ここの言語は先進的な技術を表現するのに語彙が足りなすぎる。漂流者が通訳に苦しむより、ここの人間にスペイン語を教えた方が早い。</speak>
-    <show chara="ZarathustraSorrowClose" position="right" opacity="0.8"/>
-    <show chara="biankaDressShoutClose" position="left"/>
-    <speak chara="_Bianka">……そ、そんな理由で？</speak>
-    <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
-    <show chara="ZarathustraAngerClose" position="right"/>
-    <speak chara="_ZarathustraDaughter">おかしいかい？価値のないものは淘汰される。私が十歳の時、父に学んだことだ。</speak>
-    <show chara="ZarathustraAngerClose" position="right" opacity="0.8"/>
-    <show chara="ritaVestNormalClose" position="left"/>
-    <speak chara="_Rita">「ツァラトゥストラ」……</speak>
-    <show chara="ritaVestNormalClose" position="left" opacity="0.8"/>
-    <show chara="ZarathustraSmileClose" position="right"/>
-    <speak chara="_ZarathustraDaughter">ああ、父の名だ。私が手を尽くして作ったこの「連邦」も、父の理想を元に運営している。</speak>
-    <show chara="ZarathustraSmileClose" position="right"/>
-    <speak chara="_ZarathustraDaughter">……ここからは、あの「ククルカンの心臓」の中で、ゆっくり話をしましょう。</speak>
-    <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
-    <show chara="biankaDressShockClose" position="left"/>
-    <speak chara="_Bianka">……隕石の中で？</speak>
-	  	<goto goto="160" clockwise="1"/>
-	  </scene>
-	  <scene id="160" background="hallOfPriestChichenItza.jpg">
-	  	<bgm src="06_01_Tuluum.mp3" status="start"></bgm>
-    <show chara="biankaDressHesitateClose" position="left"/>
-    <speak chara="_Bianka">その、何で隕石の中にこんな派手な建物を作ったんですか？</speak>
-    <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
-    <show chara="ZarathustraSmileClose" position="right"/>
-    <speak chara="_ZarathustraDaughter">なに、使わなくなった採掘用の通路を利用したまでだ。</speak>
-    <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
-    <show chara="ritaVestSquintClose" position="left"/>
-    <speak chara="_Rita">神秘的で、エステル様の居所として相応しい場所ですね。</speak>
-    <show chara="ritaVestSquintClose" position="left" opacity="0.8"/>
-    <show chara="ZarathustraSmileClose" position="right"/>
-    <speak chara="_ZarathustraDaughter">ありがとう。でもここは「大司祭の居所」というより、「大司祭の実験室」に近い。</speak>
-    <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
-    <show chara="champoSmileClose" position="left"/>
-    <speak chara="_Champollion">ほう？大司祭様はどのような実験を？</speak>
-    <show chara="champoSmileClose" position="left" opacity="0.8"/>
-    <show chara="ZarathustraThinkClose" position="right"/>
-    <speak chara="_ZarathustraDaughter">それを説明する前に、客人たち、まず一つ質問に答えて頂きたい。</speak>
-    <show chara="ZarathustraNormalClose" position="right"/>
-    <speak chara="_ZarathustraDaughter">私の父のことはご存知か。</speak>
-    <show chara="ZarathustraNormalClose" position="right" opacity="0.8"/>
-    <show chara="shakesCasualEmbarrassedClose" position="left"/>
-    <speak chara="_Shakespeare">「ツァラトゥストラ」？ギリシャ人が「ザラスシュトラ」と呼んだペルシアの神官かい？</speak>
-    <show chara="shakesCasualEmbarrassedClose" position="left" opacity="0.8"/>
-    <show chara="ZarathustraNormalClose" position="right"/>
-    <speak chara="_ZarathustraDaughter">ああ、父も大司祭だった。</speak>
-    <show chara="ZarathustraAngerClose" position="right"/>
-    <speak chara="_ZarathustraDaughter">一つ訂正させていただきたい。「ペルシア」はギリシャ人が使う蔑称、正しい名称は「イラン」だ。</speak>
-    <show chara="ZarathustraAngerClose" position="right" opacity="0.8"/>
-    <show chara="champoNormalClose" position="left"/>
-    <speak chara="_Champollion">その父上がゾロアスター教を成立し、イランの多民族の価値観を統一したことは後世で讃えられている。</speak>
-    <show chara="champoNormalClose" position="left" opacity="0.8"/>
-    <show chara="ZarathustraSorrowClose" position="right"/>
-    <speak chara="_ZarathustraDaughter">……漂流者の中にもそう評価した人はいた。それについて、様々な誤解もあるようだが。</speak>
-    <show chara="ZarathustraSmileClose" position="right"/>
-    <speak chara="_ZarathustraDaughter">——他には何か知っていないか？</speak>
-    <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
-    <show chara="cervantesSailorSmileClose" position="left"/>
-    <speak chara="_Miguel">『アヴェスター』は、神秘文学において啓発的だということくらいかのう……</speak>
-    <show chara="cervantesSailorNormalClose" position="left"/>
-    <speak chara="_Miguel">残念なことに、後に三分の二の内容がアレクサンドロス大王に焼かれておるが。</speak>
-    <show chara="cervantesSailorNormalClose" position="left" opacity="0.8"/>
-    <show chara="ZarathustraSmileClose" position="right"/>
-    <speak chara="_ZarathustraDaughter">父からすれば、それは痛くも痒くもなかっただろうな。</speak>
-    <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
-    <show chara="cervantesSailorUnhappyClose" position="left"/>
-    <speak chara="_Miguel">……なに？</speak>
-    <show chara="cervantesSailorUnhappyClose" position="left" opacity="0.8"/>
-    <show chara="ZarathustraNormalClose" position="right"/>
-    <speak chara="_ZarathustraDaughter">何故なら、父はそんな聖典を作ってなどいなかったからだ。</speak>
-    <show chara="ZarathustraSmileClose" position="right"/>
-    <speak chara="_ZarathustraDaughter">それに、私が聞いた話によれば、「ゾロアスター教」というのも、原型をとどめないほど変えられている。</speak>
-    <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
-    <show chara="shakesCasualSeriousClose" position="left"/>
-    <speak chara="_Shakespeare">……それが、先ほどの「実験」と関係あるのかな？</speak>
-    <show chara="shakesCasualSeriousClose" position="left" opacity="0.8"/>
-    <show chara="ZarathustraSmileClose" position="right"/>
-    <speak chara="_ZarathustraDaughter">その通りだ、船長さん。</speak>
-    <show chara="ZarathustraNormalClose" position="right"/>
-    <speak chara="_ZarathustraDaughter">そして、あの伝説の「蛇王」とも切っても切れない関係がある。</speak>
-    <show chara="ZarathustraSmileClose" position="right"/>
-    <speak chara="_ZarathustraDaughter">さあ、座って。ゆっくり話そうか。</speak>
-	  	<end post="U2FsdGVkX1+unOFloVQ674ElPqfG"/>
-	  </scene>	  
-	</story>
+      <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+      <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+      <goto goto="10" change="#000000"/>
+    </scene>
+    <scene id="10" background="CG13-6.jpg">
+      <bgm src="noise.mp3" status="start"></bgm>
+      <text>그 순간, 발키리의 머릿속은 새하얘졌다.</text>
+      <text>분노와 충격 같은 감정에 지배되어서가 아닌——</text>
+      <text>과거의 훈련을 통해 만들어진 무의식이, 그녀의 손을 이끌며, 눈앞에 있는 생명을 살리기 위해 최대한 시간을 벌려 했기 때문이다.</text>
+      <text>약하지만 맥박이 있다.
+      </text>
+      <text>구할 수 있을지도 모른다.
+      </text>
+      <text>전술용 산소통과 마취제는 제 역할을 해주었다.</text>
+      <text>다음은 수혈을 할 차례, 수술을 위해 상처를 개방하기 전에, 혈액형을 확인해야 한다.</text>
+      <goto goto="20" change="0"/>
+    </scene>
+    <scene id="20" background="starNight.jpg">
+      <bgm src="noise.mp3" status="continue"></bgm>
+      <text>——주변의 어느 것도 신경 쓸 여유 없이, 발키리는 미친 듯이 밤하늘 아래로 달려갔다.</text>
+      <speak chara="_Bianka">(빨리 결과를 보여줘, 혈액형 시험지!)</speak>
+      <speak chara="_Bianka">(빨리 나나 리타가 수혈을 할 수 있다고 알려줘!)</speak>
+      <speak chara="_Bianka">(우리 말고는, 심장수술의 수혈량을 감당할 수 있는 사람이 없단 말이야——)</speak>
+      <speak chara="_Bianka">(부탁해, 시험지! 아직 구할 방법이 있다고 말해줘! 0.01%의 확률이라도 좋으니까!)</speak>
+      <speak chara="_Bianka">(제발, 최소한 파란색이라도 보여줘!)</speak>
+      <goto goto="30" change="#ffffff"/>
+    </scene>
+    <scene id="30" background="submarinePipe.jpg">
+      <bgm src="12_14_fadeAway.mp3" status="start"></bgm>
+      <text>……</text>
+      <text>발키리는 거친 숨을 쉬며, 잠수함의 안쪽 갑판에 주저앉고 말았다.</text>
+      <text>두 개의 시험지 모두, 예외 없이 적갈색을 보였다.</text>
+      <text>그땐, 이미 샘플링 후 3분, 시험지의 반응 시간의 6배이 넘는 시간이 지난 후였다. 결과는 의심할 바 없이——</text>
+      <text>——O형.</text>
+      <text>이 혈액의 혈청은 A형과 B형의 적혈구를 모두 응집시킨다.</text>
+      <text>즉, O형인 사람은 오직 다른 O형의 피만 수혈받을 수 있다.</text>
+      <text>……안타깝게도, 그녀나 리타 모두, 열 명중 세, 네 명이나 있는 O형이 아니었다.</text>
+      <text>한마디로, 이 작은 시험지는, 모든 외과 수술에 대한 가능성에 빨간불을 보이고 있었다.</text>
+      <text>저 멀리 잠들어있는 천명 본부의 신의 열쇠, 백화흑연이 아니고서는——</text>
+      <text>——그녀나 다른 선원들이 무슨 수를 쓰더라도 소녀의 생명을 살릴 수 없다는 것을, 발키리는 깨달았다.</text>
+      <text>그 발키리가 할 수 있는 유일한 건, 그 소녀의…… 장례식을 준비하는 것뿐.</text>
+      <goto goto="40" clockwise="1"/>
+    </scene>
+    <scene id="40" background="starNight.jpg">
+      <bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
+      <speak chara="_Rita">……다음으로, 타수마 님의 부탁에 따라, 이코넬 님께서 남기신 「마지막 신탁」을 읽어드리도록 하겠습니다.</speak>
+      <goto goto="50" change="0"/>
+    </scene>
+    <scene id="50" background="CG14-1.jpg">
+      <bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
+      <speak chara="_Rita">「신께서 말씀하셨습니다, 13번째 박툰은 새 시대의 시작이라고.」</speak>
+      <speak chara="_Rita">「12번째 박툰의 마지막 날, 신의 세계와 인간의 세계는 완전히 분리될 것입니다.」</speak>
+      <speak chara="_Rita">「신은 더 이상 우리들을 축복하지도, 저주하지도 않을 것입니다. 미래의 모든 것은, 진실되며, 자연스러운 윤회를 거듭할 것입니다.」</speak>
+      <speak chara="_Rita">「그리고 떠나시기 전에, 신께서는 진실되고, 순수하며, 이곳과는 완전히 다른 신의 세계에 함께할 수 있는, 화신을 함께 데려가길 바라셨습니다.」</speak>
+      <speak chara="_Rita">「여러분, 저는 모두의 사랑에서 왔으니, 분노할 필요도, 슬퍼할 필요도, 질투할 필요도 없습니다——」</speak>
+      <speak chara="_Rita">「익스·타브님께서 제게 천계와 인계가 분리되면, 우리 인간세계도, 신들의 세계처럼 빛날 수 있다고 말씀해 주셨으니까요.」</speak>
+      <speak chara="_Rita">「그렇게 새 시대가 오면, 범인들도 자신의 두 손으로 노력해, 신께서 내리시는 것과 비견될만한 기적을 스스로 만들어낼 수 있다고 하셨습니다.」</speak>
+      <goto goto="60" clockwise="1"/>
+    </scene>
+    <scene id="60" background="mayanBeachMorning.jpg">
+      <bgm src="morning.mp3" status="start"></bgm>
+      <show chara="shakesCasualMercyClose" position="center"/>
+      <speak chara="_Shakespeare">……</speak>
+      <show chara="shakesCasualSeriousClose" position="center"/>
+      <speak chara="_Shakespeare">신의 가장 순수한 화신은 이렇게 세상을 떠났군. 모두들, 이만 떠나도록 하자.</speak>
+      <hide position="center"></hide>
+      <show chara="champoSweatyClose" position="left"/>
+      <speak chara="_Champollion">조금…… 당황스럽군요.</speak>
+      <show chara="champoSweatyClose" position="left" opacity="0.8"/>
+      <show chara="cervantesSailorUnhappyClose" position="right"/>
+      <speak chara="_Miguel">……우리가 당황하고 말고는 딱히 중요하지 않다네.</speak>
+      <show chara="cervantesSailorUnhappyClose" position="right" opacity="0.8"/>
+      <show chara="schroMemoryClose" position="left"/>
+      <speak chara="_Schrodinger">……어찌 되었든, 적어도 그 마을 사람들은 그녀가 남긴 「신탁」을 맹목적으로 따르게 될 거라는 것이에요.</speak>
+      <show chara="schroMemoryClose" position="left" opacity="0.8"/>
+      <show chara="lallaSeriousClose" position="right"/>
+      <speak chara="_Lalla">더 나은 방법이 있었을지도 모르겠지만…… 시간을 되돌릴 순 없으니.</speak>
+      <show chara="lallaSeriousClose" position="right" opacity="0.8"/>
+      <show chara="ritaVestHesitateClose" position="left"/>
+      <speak chara="_Rita">……</speak>
+      <show chara="ritaVestHesitateClose" position="left" opacity="0.8"/>
+      <show chara="biankaDressNormalClose" position="right"/>
+      <speak chara="_Bianka">네, 이만 떠나도록 하죠.</speak>
+      <show chara="biankaDressHateClose" position="right"/>
+      <speak chara="_Bianka">남쪽으로, 그 「연방」의 영토로.</speak>
+      <show chara="biankaDressBiteClose" position="right"/>
+      <speak chara="_Bianka">……그녀를 위해서, 그 마을 사람들을 위해서라도, 뭐라든 해야겠어요.</speak>
+      <goto goto="70" clockwise="1"/>
+    </scene>
+    <scene id="70" background="yamTuluum.jpg">
+      <bgm src="06_01_Tuluum.mp3" status="start"></bgm>
+      <show chara="Warrior2PClose" position="left"/>
+      <speak chara="_Warrior2PNoNameShort">……나, 「나콤」님께서 오십니다!!</speak>
+      <show chara="Warrior2PClose" position="left" opacity="0.8"/>
+      <show chara="Warrior3PClose" position="right"/>
+      <speak chara="_Warrior3PNoNameShort" remark="next">어, 얼른 가서 촉(Chʼok)님께 보고하라, 「나콤」님이 오셨다고!</speak>
+
+      <remark post="U2FsdGVkX18+S4v9CKiWAD46NKkM">
+        <p class="article-text-h">역주:</p>
+        <p class="article-text">촉(Chʼok): 마야 문명의 귀족, 원래는 왕세자를 제외한 왕자를 의미했지만, 후에 귀족 전부로 그 의미가 넓어졌다.</p>
+        <p class="article-text">나콤(Nacom): 마야 문명의 사제 중 하나로, 직접 인신공양을 하곤 하였다.</p>
+      </remark>
+      <hide position="left"></hide>
+      <hide position="right"></hide>
+      <show chara="biankaDressShockClose" position="left"/>
+      <speak chara="_Bianka">……어떻게 된 거야? 여기, 얘네들 주둔지 아냐? 왜 다들 도망가 버린 거지?</speak>
+      <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+      <show chara="shakesCasualSeriousClose" position="right"/>
+      <speak chara="_Shakespeare">……아마 어제의 일로 두려워 달아났을지도.</speak>
+      <show chara="shakesCasualNormalClose" position="right"/>
+      <speak chara="_Shakespeare">어쨌든, 좋은 기회이긴 하네.</speak>
+      <show chara="shakesCasualSeriousClose" position="right"/>
+      <speak chara="_Shakespeare">저 병사들의 행동거지를 보니, 두려워할 뿐만 아니라, 아예 싸울 의지조차 없는 것 같아.</speak>
+      <show chara="shakesCasualConfidentClose" position="right"/>
+      <speak chara="_Shakespeare">어쩌면, 지금이야말로 진짜 해적을 연기해야 할 것 같은데, 발키리 아가씨.</speak>
+      <show chara="shakesCasualConfidentClose" position="right" opacity="0.8"/>
+      <show chara="biankaDressSighClose" position="left"/>
+      <speak chara="_Bianka">……?</speak>
+      <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+      <show chara="shakesCasualNormalClose" position="right"/>
+      <speak chara="_Shakespeare">걱정 마, 그냥 저들의 태도를 이용하는 게 다니까, 무지 쉬울 거야.</speak>
+      <show chara="shakesCasualConfidentClose" position="right"/>
+      <speak chara="_Shakespeare">게다가, 지금 저렇게나 널 두려워하니, 어쩌면 그냥 「몇 마디 말」만 하는 걸로 모든 문제가 해결될지도.</speak>
+      <goto goto="80" clockwise="1"/>
+    </scene>
+    <scene id="80" background="yamTuluum.jpg">
+      <bgm src="06_01_Tuluum.mp3" status="continue"></bgm>
+      <show chara="Officer2PClose" position="right"/>
+      <speak chara="_Officer2PNoNameShort">오래 기다리셨습니다, 「나콤」님. 이곳은 툴룸 요새로, 소인은 이곳의 방어를 책임지고 있는, 카오악이라 합니다.</speak>
+      <show chara="Officer2PClose" position="right"/>
+      <speak chara="_Officer2P">어제 당신을 알아보지 못하고 무례를 저지른 「연방」의 군인들을 대기시켰습니다, 부디 용서를.</speak>
+      <show chara="Officer2PClose" position="right" opacity="0.8"/>
+      <show chara="biankaDressBiteClose" position="left"/>
+      <speak chara="_Bianka">자, 잠깐만. 네가 한 말…… 다시 한번 말해줘, 무슨 말인지 이해를 못 하겠어.</speak>
+      <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+      <show chara="Officer2PClose" position="right"/>
+      <speak chara="_Officer2P">어제 당신을 알아보지 못하고 무례를 저지른 「연방」의 군인들을 대기시켰습니다, 부디 용서를.</speak>
+      <show chara="Officer2PClose" position="right" opacity="0.8"/>
+      <show chara="biankaDressSighClose" position="left"/>
+      <speak chara="_Bianka">……</speak>
+      <show chara="biankaDressSneerClose" position="left"/>
+      <speak chara="_Bianka">너희들, 태도가 너무 빨리 바뀌는 거 아냐? 전에 「엘·레이」에서 보였던 오만한 태도는 어디로 간 거야?</speak>
+      <show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
+      <show chara="Officer2PClose" position="right"/>
+      <speak chara="_Officer2P">부디 용서해 주시길. 당신은 「나콤」이기에, 연방의 모든 군인들은 「나콤」님에게 무례를 범해서는 안됩니다.</speak>
+      <show chara="Officer2PClose" position="right" opacity="0.8"/>
+      <show chara="biankaDressShoutClose" position="left"/>
+      <speak chara="_Bianka">……「나콤」이 뭔데? 왜 나를 갑자기 「나콤」으로 여기는 거야?</speak>
+      <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+      <show chara="Officer2PClose" position="right"/>
+      <speak chara="_Officer2P">「나콤」은 「초월자」입니다. 모든 사람을 초월하여, 신이 아닌 대지에 충성하는 영웅입니다.</speak>
+      <show chara="Officer2PClose" position="right"/>
+      <speak chara="_Officer2P">대사제께서 가르쳐 주시길, 「나는 너희 모두가 초월자가 되도록 가르쳤다. 그럼에도 너희 스스로가 초월자가 되지 못한다면, 진정한 초월자에게 최고의 경의를 표하거라.」</speak>
+      <show chara="Officer2PClose" position="right"/>
+      <speak chara="_Officer2P">「그들이 커다란 바다라면, 너희는 바다 사장의 모래알에 불과하다. 너희가 아무리 몸부림쳐도, 그저 그들의 발밑에 가라앉을 뿐이다.」</speak>
+      <show chara="Officer2PClose" position="right"/>
+      <speak chara="_Officer2P">부디 이해해 주시길, 저희와 같은 소인들은 그저 대사제의 가르침을 따를 뿐, 갑자기 당신에게 잘 보이려 그러는 게 아닙니다. 물론, 이런 행동이 당신을 난처하게 했다면 부디 용서해 주십시오.</speak>
+      <show chara="Officer2PClose" position="right" opacity="0.8"/>
+      <show chara="biankaDressSighClose" position="left"/>
+      <speak chara="_Bianka">……</speak>
+      <show chara="biankaDressHateClose" position="left"/>
+      <speak chara="_Bianka">그럼 내가 「엘·레이」에 대한 주권을 주장하는 걸 금지시킨다면, 너희들은 그 마을을 내버려 둘 수 있어?</speak>
+      <show chara="biankaDressHateClose" position="left" opacity="0.8"/>
+      <show chara="Officer2PClose" position="right"/>
+      <speak chara="_Officer2P">그렇습니다. 대사제님께서 당신의 주장을 뒤집지 않는 한, 소인과 다른 이들은 이를 법률처럼 따를 것입니다.</speak>
+      <show chara="Officer2PClose" position="right"/>
+      <speak chara="_Officer2P">당신이 바라신다면——「엘·레이」를 독립되고 간섭할 필요가 없는 국가로 대하도록 하겠습니다.</speak>
+      <show chara="Officer2PClose" position="right" opacity="0.8"/>
+      <show chara="biankaDressSighClose" position="left"/>
+      <speak chara="_Bianka">……</speak>
+      <show chara="biankaDressAngryClose" position="left"/>
+      <speak chara="_Bianka">좋아, 그럼 내가 「나콤」이라 하자.</speak>
+      <show chara="biankaDressHateClose" position="left"/>
+      <speak chara="_Bianka">그리고, 내 동료랑 선장, 그들을 「나콤」이라 여기는 것도 별문제없겠지?</speak>
+      <show chara="biankaDressHateClose" position="left" opacity="0.8"/>
+      <show chara="Officer2PClose" position="right"/>
+      <speak chara="_Officer2P">그렇습니다. 소인이 보기에도 그들 모두 강한 전투력과 정신력을 지닌 것 같습니다.</speak>
+      <show chara="Officer2PClose" position="right" opacity="0.8"/>
+      <show chara="biankaDressSmileClose" position="left"/>
+      <speak chara="_Bianka">그럼 됐어.</speak>
+      <show chara="biankaDressSneerClose" position="left"/>
+      <speak chara="_Bianka">나, 「나콤」은 너희가 만남을 주선해 줄 수 있길 바라——나와 내 동료가 너희의 「대사제」와 만날 수 있도록.</speak>
+      <show chara="biankaDressHateClose" position="left"/>
+      <speak chara="_Bianka">가능해?</speak>
+      <show chara="biankaDressHateClose" position="left" opacity="0.8"/>
+      <show chara="Officer2PClose" position="right"/>
+      <speak chara="_Officer2P">알겠습니다. 소인이 즉시 치첸이트사 시에 사람을 보내, 대사제님을 뵐 수 있도록 부탁하겠습니다.</speak>
+      <show chara="Officer2PClose" position="right" opacity="0.8"/>
+      <show chara="shakesCasualSeriousClose" position="left"/>
+      <speak chara="_Shakespeare">그 사신이 다녀오려면 시간은 얼마나 걸려?</speak>
+      <show chara="shakesCasualSeriousClose" position="left" opacity="0.8"/>
+      <show chara="Officer2PClose" position="right"/>
+      <speak chara="_Officer2P">역들을 따라 달리면, 대략 하루하고 반나절의 시간이 걸립니다.</speak>
+      <show chara="Officer2PClose" position="right" opacity="0.8"/>
+      <show chara="shakesCasualDislikeClose" position="left"/>
+      <speak chara="_Shakespeare">달려서 간다고? 진짜 원시적이네.</speak>
+      <show chara="shakesCasualQuestionClose" position="left"/>
+      <speak chara="_Shakespeare">그래도 역이 있으니…… 도로 상태는 괜찮겠지?</speak>
+      <show chara="shakesCasualQuestionClose" position="left" opacity="0.8"/>
+      <show chara="Officer2PClose" position="right"/>
+      <speak chara="_Officer2P">연방의 군인들이 매년 따로 시간을 내어 길을 정비하고 있습니다.</speak>
+      <show chara="Officer2PClose" position="right" opacity="0.8"/>
+      <show chara="shakesCasualConfidentClose" position="left"/>
+      <speak chara="_Shakespeare">좋아. 그럼, 넌 똑똑한 안내자나 하나 골라줘. 우리가 달리는 것보다 더 빠르고 편한 방법을 알려줄 테니까.</speak>
+      <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+      <show chara="biankaDressHesitateClose" position="right"/>
+      <speak chara="_Bianka">(……?)</speak>
+      <goto goto="90" clockwise="1"/>
+    </scene>
+    <scene id="90" background="mayanRoad.jpg">
+      <bgm src="bigTask.mp3" status="start"></bgm>
+      <show chara="speedLine" position="back"/>
+      <show chara="vilagerManSmileClose-up" position="center"/>
+      <speak chara="_vilagerGuide">와! 신난다! 정말 빨라요! 나콤님 만세!</speak>
+      <hide position="center"></hide>
+      <show chara="biankaDressSighClose-up" position="left"/>
+      <speak chara="_Bianka">……저기, 리타.</speak>
+      <show chara="biankaDressHesitateClose-up" position="left"/>
+      <speak chara="_Bianka">자전거 타는 게 저렇게 재밌어할 일인가?</speak>
+      <show chara="biankaDressHesitateClose-up" position="left" opacity="0.8"/>
+      <show chara="ritaVestNormalClose-up" position="right"/>
+      <speak chara="_Rita">그럼요, 비앙카 님.</speak>
+      <show chara="ritaVestSquintClose-up" position="right"/>
+      <speak chara="_Rita">이 가이드씨는, 생애 처음으로, 달리는 것보다 빠른 속도를 경험하고 있으니까요.</speak>
+      <show chara="ritaVestSquintClose-up" position="right" opacity="0.8"/>
+      <show chara="biankaDressShockClose-up" position="left"/>
+      <speak chara="_Bianka">……아, 그러게, 여긴 말이 없지.</speak>
+      <show chara="biankaDressShockClose-up" position="left" opacity="0.8"/>
+      <show chara="ritaVestSmileClose-up" position="right"/>
+      <speak chara="_Rita">그러니 저분에게 지금 이 순간은 마치 한밤중에 엔진 소리를 크게 내며 달리는 폭주족처럼 들떠있을 거예요.</speak>
+      <show chara="ritaVestSmileClose-up" position="right" opacity="0.8"/>
+      <show chara="biankaDressHesitateClose-up" position="left"/>
+      <speak chara="_Bianka">……폭주족? 그게 뭐야?</speak>
+      <show chara="biankaDressHesitateClose-up" position="left" opacity="0.8"/>
+      <show chara="ritaVestNaughtyClose-up" position="right"/>
+      <speak chara="_Rita">속도를 내며 오토바이 타는 걸 즐기는 사람들을 말해요. 주로 남자들이 많지만, 가끔 여자들도 있죠.</speak>
+      <show chara="ritaVestNaughtyClose-up" position="right" opacity="0.8"/>
+      <show chara="biankaDressSighClose-up" position="left"/>
+      <speak chara="_Bianka">……아, 그 양아치 같은 녀석들?</speak>
+      <show chara="biankaDressSighClose-up" position="left" opacity="0.8"/>
+      <show chara="ritaVestSmileClose-up" position="right"/>
+      <speak chara="_Rita">훗, 비앙카님, 물론 그런 불량한 사람들도 있지만, 드라이브를 좋아하는 모두가 그런 건 아니랍니다.</speak>
+      <show chara="ritaVestSquintClose-up" position="right"/>
+      <speak chara="_Rita">다음에 기회가 된다면, 함께 늦은 밤 나폴리에서의 드라이브는 어떠신가요?</speak>
+      <show chara="ritaVestSquintClose-up" position="right" opacity="0.8"/>
+      <show chara="biankaDressHesitateClose-up" position="left"/>
+      <speak chara="_Bianka">음…… 기회가 된다면야……</speak>
+      <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+      <show chara="biankaDressSorrowClose-up" position="left"/>
+      <speak chara="_Bianka">미안, 내가 오늘은 좀 기운이 없네.</speak>
+      <show chara="biankaDressSorrowClose-up" position="left" opacity="0.8"/>
+      <show chara="ritaVestHesitateClose-up" position="right"/>
+      <speak chara="_Rita">……</speak>
+      <show chara="ritaVestHesitateClose-up" position="right" opacity="0.8"/>
+      <show chara="biankaDressAngryClose-up" position="left"/>
+      <speak chara="_Bianka">우린…… 정말 아무런 도움도 안 됐어.</speak>
+      <show chara="biankaDressAngryClose-up" position="left"/>
+      <speak chara="_Bianka">그녀가 극단적인 선택을 하도록 내버려 두다니.</speak>
+      <show chara="biankaDressNormalClose-up" position="left"/>
+      <speak chara="_Bianka">결국, 우리가 할 수 있던 건, 그녀가 과다출혈로 죽어가는 걸 지켜보는 게 다였어.</speak>
+      <show chara="biankaDressSorrowClose-up" position="left"/>
+      <speak chara="_Bianka">이번 일…… 분명 있었을 거야…… 더 나은 방법이……</speak>
+      <show chara="biankaDressSorrowClose-up" position="left" opacity="0.8"/>
+      <show chara="ritaVestHesitateClose-up" position="right"/>
+      <speak chara="_Rita">……</speak>
+      <show chara="ritaVestHesitateClose-up" position="right"/>
+      <speak chara="_Rita">어쩌면…… 이런 게 인생이지 않을까요, 비앙카님?</speak>
+      <show chara="ritaVestNormalClose-up" position="right"/>
+      <speak chara="_Rita">아마 들어보셨겠지만, 나폴리 교외에는 화산재에 묻혀 영원히 「서기 79년」에 멈춰있는 유적——폼페이라는 곳이 있어요.</speak>
+      <show chara="ritaVestHesitateClose-up" position="right"/>
+      <speak chara="_Rita">실은 폼페이에서 희생된 사람들은, 화산이 분출을 시작한 당시, 충분히 탈출할 기회가 있었어요.</speak>
+      <speak chara="_Rita">하지만 최초의 지진이 멈춘 후, 화산재가 날아오고 있다는 사실을 모른 채, 그저 자신의 살림을 지키기 위해 다시 집으로 돌아갔죠.</speak>
+      <show chara="ritaVestAngryClose-up" position="right"/>
+      <speak chara="_Rita">——네, 이 혼란을 틈타 남의 금은보화를 훔치려 하는 사람은 거의 없었어요.</speak>
+      <speak chara="_Rita">다들 그저 빨리 집을 고치고, 아직 망가지지 않은 물건을 다른 데로 옮길 생각뿐이었죠.</speak>
+      <show chara="ritaVestAngryClose-up" position="right"/>
+      <speak chara="_Rita">하지만, 무정한 시간은 그들을 기다려주지 않았어요. 불행하게도 이들은 수백 도의 밀려오는 화산재에 완전히 묻혀버리고 말았죠…… 결국에 그들이 지키려 한 살림들은 죽어버린 그들에게 있어 영원히 아무런 의미도 없게 되었어요.</speak>
+      <show chara="ritaVestHesitateClose-up" position="right"/>
+      <speak chara="_Rita">——하지만, 그들이 무엇을 잘못했나요?</speak>
+      <show chara="ritaVestAngryClose-up" position="right"/>
+      <speak chara="_Rita">그 시절, 그들에게, 화산 활동을 이해하고 이에 대한 탈출 계획을 세울 기회가 과연 있긴 했을까요?</speak>
+      <show chara="ritaVestAngryClose-up" position="right"/>
+      <speak chara="_Rita">……당연히, 있을 리가 없겠죠. 사람은 전지전능하지 않으니까요.</speak>
+      <show chara="ritaVestHesitateClose-up" position="right"/>
+      <speak chara="_Rita">과거를 비판하는 건, 누구라도 할 수 있어요, 하지만 현재에서 미래를 예측하는 건, 정말 어려운 일이에요.</speak>
+      <show chara="ritaVestHesitateClose-up" position="right" opacity="0.8"/>
+      <show chara="biankaDressShockClose-up" position="left"/>
+      <speak chara="_Bianka">……</speak>
+      <show chara="biankaDressSorrowClose-up" position="left"/>
+      <speak chara="_Bianka">네 말이…… 맞아. 하지만…… 난…… 정말……</speak>
+      <show chara="biankaDressSorrowClose-up" position="left" opacity="0.8"/>
+      <show chara="ritaVestTearClose-up" position="right"/>
+      <speak chara="_Rita">더 이상 얘기하지 않으셔도 괜찮아요. 비앙카님의 마음, 저도 잘 이해하고 있어요.</speak>
+      <show chara="ritaVestTearClose-up" position="right"/>
+      <speak chara="_Rita">왜냐하면, 당신은…… 순수하고 선량한 마음씨를 가지고 있으니까요.</speak>
+      <show chara="ritaVestTearClose-up" position="right" opacity="0.8"/>
+      <show chara="biankaDressScreamClose-up" position="left"/>
+      <speak chara="_Bianka">……</speak>
+      <show chara="biankaDressBiteClose-up" position="left"/>
+      <speak chara="_Bianka">야!!! 무슨 소리를 하는 거야! 흘러내리는 눈물부터 닦아, 이 바보야!!</speak>
+      <show chara="biankaDressBiteClose-up" position="left" opacity="0.8"/>
+      <show chara="ritaVestSquintClose-up" position="right"/>
+      <speak chara="_Rita">후훗. 역시 비앙카님은, 정말 귀엽다니까요.</speak>
+      <show chara="ritaVestSquintClose-up" position="right" opacity="0.8"/>
+      <show chara="biankaDressScreamClose-up" position="left"/>
+      <speak chara="_Bianka">야!!! 너 자꾸 징그럽게 굴래!?</speak>
+      <goto goto="100" clockwise="1"/>
+    </scene>
+    <scene id="100" background="mayanRoad.jpg">
+      <bgm src="peerGynt.mp3" status="start"></bgm>
+      <show chara="vilagerManSmileClose-up" position="left"/>
+      <speak chara="_vilagerGuide">여러분들 우리는 방금 스칼라쿠푸 역을 지났어요, 이 정글만 지나면 이제 치첸이트사 시가 나올 거예요.</speak>
+      <show chara="vilagerManSmileClose-up" position="left" opacity="0.8"/>
+      <show chara="shakesCasualNormalClose-up" position="right"/>
+      <speak chara="_Shakespeare">거기는 대도시야?</speak>
+      <show chara="shakesCasualNormalClose-up" position="right" opacity="0.8"/>
+      <show chara="vilagerManSmileClose-up" position="left"/>
+      <speak chara="_vilagerGuide">앞서 여러분들이 말씀하신 「대도시」에 비하면 치첸이트사는 「작은 편」이에요. 한쪽 끝에서 다른 쪽 끝까지 3천보 정도 되니까요.</speak>
+      <show chara="vilagerManSmileClose-up" position="left" opacity="0.8"/>
+      <show chara="champoSmileClose-up" position="right"/>
+      <speak chara="_Champollion">음, 그 정도면 아마 아작시오(Ajaccio)랑 비슷한 크기겠네요.</speak>
+      <show chara="champoSmileClose-up" position="right" opacity="0.8"/>
+      <show chara="shakesCasualConfidentClose-up" position="left"/>
+      <speak chara="_Shakespeare">하하, 고고학 박사, 혼자만 아는 말을 하면 어떡해? Ajaccio? 어디 이탈리아의 작은 도시 이름인가?</speak>
+      <show chara="shakesCasualConfidentClose-up" position="left" opacity="0.8"/>
+      <show chara="champoSweatyClose-up" position="right"/>
+      <speak chara="_Champollion">아뇨, 코르시카의 수도입니다. 프랑스령이죠.</speak>
+      <show chara="champoSweatyClose-up" position="right" opacity="0.8"/>
+      <show chara="shakesCasualEmbarrassedClose-up" position="left"/>
+      <speak chara="_Shakespeare">아, 그렇구나. 코르시카가 프랑스령? 역사는 참 신기해.</speak>
+      <show chara="shakesCasualEmbarrassedClose-up" position="left" opacity="0.8"/>
+      <show chara="biankaDressHesitateClose-up" position="right"/>
+      <speak chara="_Bianka">그거, 선장한테는, 진짜 「미래」 아냐?</speak>
+      <show chara="biankaDressHesitateClose-up" position="right" opacity="0.8"/>
+      <show chara="shakesCasualLaughClose-up" position="left"/>
+      <speak chara="_Shakespeare">하하, 만약 미래가 어떻게 될지 안다면, 그걸 뛰어넘을 방법을 찾아야겠지!</speak>
+      <show chara="shakesCasualLaughClose-up" position="left" opacity="0.8"/>
+      <show chara="biankaDressNormalClose-up" position="right"/>
+      <speak chara="_Bianka">……「숙명론」을 싫어해서 그래?</speak>
+      <show chara="biankaDressNormalClose-up" position="right" opacity="0.8"/>
+      <show chara="shakesCasualConfidentClose-up" position="left"/>
+      <speak chara="_Shakespeare">음, 그런 면도 있지만. 가장 중요한 건 「미래에 대한 기대치」가 바뀌었다는 거니까!</speak>
+      <show chara="shakesCasualEmbarrassedClose-up" position="left"/>
+      <speak chara="_Shakespeare">예를 들어 수세식 화장실에 익숙해진 사람에게, 푸세식 똥통에 쪼그려앉아 일을 보게 하는 건 무지 곤란할 테니까——대충 이런 이유랄까?</speak>
+      <show chara="shakesCasualEmbarrassedClose-up" position="left" opacity="0.8"/>
+      <show chara="biankaDressAngryClose-up" position="right"/>
+      <speak chara="_Bianka">저기, 예시를 좀 바꿨으면 하는데…… 너무 지저분하니까.</speak>
+      <show chara="biankaDressAngryClose-up" position="right" opacity="0.8"/>
+      <show chara="shakesCasualLaughClose-up" position="left"/>
+      <speak chara="_Shakespeare">하하, 네가 방금 한 말에도, 「발전된 세계」의 상징이 있지, 그렇지 않아? 「발전이 덜 된 세계」의 시점에선, 모두가 「결벽증」 환자처럼 보일 테니까.</speak>
+      <show chara="shakesCasualDislikeClose-up" position="left"/>
+      <speak chara="_Shakespeare">상상이 돼? 13, 14세기 유럽에선 심지어 귀족들도 목욕을 거의 하지 않았어. 내가 살던 시대도, 의사들조차 수술 전에 손을 소독할 필요가 있다는 걸 몰랐었지.</speak>
+      <show chara="shakesCasualQuestionClose-up" position="left"/>
+      <speak chara="_Shakespeare">누구는 그 시대를 인문학의 시대라 부르더라? 정말 어이없어. 그 시절 존재하는 책을 전부 모은다 한들 지금있는 대도서관의 한구석도 못 채울 거야.</speak>
+      <show chara="shakesCasualConfidentClose-up" position="left"/>
+      <speak chara="_Shakespeare">게다가, 내가 이런 미래와 「조우」하지 않았다면, 모차르트와 베토벤의 아름다운 선율을 즐길 기회도 없었겠지?</speak>
+      <show chara="shakesCasualNormalClose-up" position="left"/>
+      <speak chara="_Shakespeare">인류의 본질은 결코 만족할 수 없는 동물이야. 솔직하게 욕망을 받아들임으로써 더 나은 내일로 나아가는 거지.</speak>
+      <show chara="shakesCasualLaughClose-up" position="left"/>
+      <speak chara="_Shakespeare">——안 그래요, 거기 가이드 씨? 자전거를 베껴 「자체 생산」하는 데 몇 년이 걸릴지는 모르겠지만, 그래도 충분히 노력해 보고 싶을 거예요, 그렇죠?</speak>
+      <show chara="shakesCasualLaughClose-up" position="left" opacity="0.8"/>
+      <show chara="vilagerManSmileClose-up" position="right"/>
+      <speak chara="_vilagerGuide">……어르신, 뭔가 분부가 있으신가요?</speak>
+      <show chara="vilagerManSmileClose-up" position="right" opacity="0.8"/>
+      <show chara="shakesCasualEmbarrassedClose-up" position="left"/>
+      <speak chara="_Shakespeare">아. 통역이 있어야 우리 말을 이해한다는 걸 깜빡했네.</speak>
+      <goto goto="110" clockwise="1"/>
+    </scene>
+    <scene id="110" background="highTempleChichenItza.jpg">
+      <bgm src="06_01_ChichenItza.mp3" status="start"></bgm>
+      <show chara="biankaDressShockClose" position="left"/>
+      <speak chara="_Bianka">우와! 정말 큰 신전이네!</speak>
+      <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+      <show chara="ritaVestSmileClose" position="right"/>
+      <speak chara="_Rita">엄청난 역사를 가졌나 봐요, 가이드 씨.</speak>
+      <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
+      <show chara="vilagerSmileClose" position="left"/>
+      <speak chara="_vilagerGuide">네, 여긴 대략 천년쯤 전에 지어졌다고 하니까요.</speak>
+      <show chara="vilagerSmileClose" position="left" opacity="0.8"/>
+      <show chara="biankaDressShoutClose" position="right"/>
+      <speak chara="_Bianka">처, 천년이나요?</speak>
+      <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+      <show chara="vilagerSmileClose" position="left"/>
+      <speak chara="_vilagerGuide">네, 나콤 님. 대사제님께서는 저희에게 최선을 다해 역사의 흔적을 지켜야 한다고 말씀하셨습니다.</speak>
+      <show chara="vilagerSmileClose" position="left"/>
+      <speak chara="_vilagerGuide">이러한 고대 신전들을 보호하기 위해, 그리고 건물로서의 기능을 유지하기 위해, 대사제님께서는 수많은 개보수 계획을 준비해두고 계시죠.</speak>
+      <show chara="vilagerSmileClose" position="left"/>
+      <speak chara="_vilagerGuide">그분을 뵈고 나면, 아마 금방 이해하실 수 있을 거예요.</speak>
+      <goto goto="120" change="#ffffff"/>
+    </scene>
+    <scene id="120" background="castilloChichenItza.jpg">
+      <bgm src="06_01_ChichenItza.mp3" status="continue"></bgm>
+      <show chara="vilagerSmileClose" position="left"/>
+      <speak chara="_vilagerGuide">……그리고 치첸이트사에서 무엇보다도 장관인 건축물에 대해 말씀드리자면, 바로 이 쿠쿨칸 신전이 되겠습니다!</speak>
+      <show chara="vilagerSmileClose" position="left"/>
+      <speak chara="_vilagerGuide">쿠쿨칸은 고대신의 이름으로, 「날개달린 뱀」을 의미하며——</speak>
+      <hide position="left"></hide>
+      <hide position="right"></hide>
+      <speak chara="_Shakespeare">좋아, 좋아, 이 신전이 대단하단 건 알겠어. 근데 저기…… 신전 뒤에 있는 건 뭐야? 쇠로 된 바윗덩이?</speak>
+      <show chara="vilagerSeriousClose" position="left"/>
+      <speak chara="_vilagerGuide">……「쇠로 된 바윗덩이」?</speak>
+      <show chara="vilagerSmileClose" position="left"/>
+      <speak chara="_vilagerGuide">아! 어르신, 「쿠쿨칸의 심장」을 가리키시는군요! 저기 멀리 보이는 운석을 말씀하시는 거죠?</speak>
+      <show chara="vilagerSmileClose" position="left" opacity="0.8"/>
+      <show chara="shakesCasualConfidentClose" position="right"/>
+      <speak chara="_Shakespeare">뭐? 저게 정말 운석이라고?</speak>
+      <show chara="shakesCasualConfidentClose" position="right" opacity="0.8"/>
+      <show chara="biankaDressHesitateClose" position="left"/>
+      <speak chara="_Bianka">언뜻 봐서는 호주의 울루루 바위랑 비슷해 보이는데……</speak>
+      <hide position="left"></hide>
+      <hide position="right"></hide>
+      <speak chara="_ZarathustraDaughterNoNameZero" remark="next">하하, 멀리서 온 방문자여, 저건 칙술루브에서 발견한 별의 핵입니다. 틀림없이 하늘로부터 떨어졌죠.</speak>
+      <remark post="U2FsdGVkX18+S4v9CKiWAD46NKkM">
+        <p class="article-text-h">주:</p>
+        <p class="article-text">칙술루브(Chicxulub, 마야어로 「악마의 꼬리」를 의미한다) 크레이터는 유카탄반도 북서쪽에 위치하며, 직경 150km~180km의 운석이 충돌하여 생긴 크레이터이다. 또한 운석 충돌로 인해 생긴 지형 중 손에 꼽을 정도로 크다.</p>
+        <p class="article-text">2010년 3월 5일, 사이언스지에서 발표된 한 연구보고서에서는 6500만 년 전 이 분화구를 만들어낸 소행성 충돌이 공룡 대멸종을 일으킨 주원인으로 여기고 있다.</p>
+        <p class="article-text">p.s. 이 운석 충돌은 인류 역사상 가장 강력한 폭탄——「차르 봄바」의 수백만 배에 달하는 폭발을 일으켰다. 이에 충돌 반경 10km 이내의 모든 것은 순식간에 기화되어버렸을 것이다.</p>
+      </remark>
+      <speak chara="_vilagerGuide">앗! 대사제 폐하! 소인을 용서하소서!</speak>
+      <goto goto="140" change="0"/>
+    </scene>
+    <scene id="140" background="CG14-2.jpg">
+      <bgm src="06_01_ChichenItza.mp3" status="continue"></bgm>
+      <speak chara="_ZarathustraDaughterNoName">괜찮습니다, 이만 몸을 일으키세요.</speak>
+      <speak chara="_ZarathustraDaughterNoName">먼 곳에서 오신 손님——하늘의 별과 새들이 여러분의 방문을 예고해 주었습니다.</speak>
+      <speak chara="_ZarathustraDaughterNoName">저는 「반도 연방」의 대사제, 에스텔·차라투스트라입니다. 여러분이 절 부를 땐 「에스텔」이라 불러주시길.</speak>
+      <speak chara="_ZarathustraDaughter">손님 여러분, 아마 여러분들께선 여러가지 경로를 통해 우리 연방에 대한 정보를 습득해오셨을 겁니다.</speak>
+      <speak chara="_ZarathustraDaughter">하지만, 다시 한번 정식으로, 제가 세운 이 나라에 대한 소개를 간단히 해드리고 싶군요.</speak>
+      <goto goto="150" change="0"/>
+    </scene>
+    <scene id="150" background="castilloChichenItza.jpg">
+      <bgm src="06_01_ChichenItza.mp3" status="continue"></bgm>
+      <show chara="ZarathustraSmileClose" position="center"/>
+      <speak chara="_ZarathustraDaughter">여러분들은 이미 알고 계실 겁니다, 유카탄 반도의 장기력이 이제 곧 13번째 「박툰」을 맞이한다는 것을.</speak>
+      <show chara="ZarathustraNormalClose" position="center"/>
+      <speak chara="_ZarathustraDaughter">이러한 「장기력」이 특별한 날을 기념하기 위해 만들어졌다는 것을 생각하면, 마야의 문명사회는 적어도 거의 5천 년간이나 존재해왔었겠죠.</speak>
+      <show chara="ZarathustraSorrowClose" position="center"/>
+      <speak chara="_ZarathustraDaughter">하지만, 여러분도 보다시피, 이곳의 도구들은 너무나도 원시적입니다. 밭을 갈 가축도 없죠.</speak>
+      <show chara="ZarathustraThinkClose" position="center"/>
+      <speak chara="_ZarathustraDaughter">다른 「표류자」처럼 제가 여기에 처음 이르렀을 땐, 어떻게 이렇게 도태된 문명이 존재할 수 있는지 정말 이해하기 어려웠습니다.</speak>
+      <show chara="ZarathustraNormalClose" position="center"/>
+      <speak chara="_ZarathustraDaughter">하지만, 분명히 말씀드리자면, 이건 「사람」의 문제가 아닙니다. 지리학적으로 보면, 여기 유카탄 반도는 애초부터 매우 「척박한 땅」이니까요.</speak>
+      <show chara="ZarathustraAngerClose" position="center"/>
+      <speak chara="_ZarathustraDaughter">밭을 갈 가축이 없다? 그건 가축화가 가능한 동물이 없기 때문입니다. 금속을 다루는 기술이 없다? 그건 바로 이 반도에 쓸만한 광산이 전혀 없고, 가장 가까운 광맥은 멀리 떨어진 멕시코 고원 깊숙한 곳에 위치하기 때문이죠.</speak>
+      <show chara="ZarathustraSorrowClose" position="center"/>
+      <speak chara="_ZarathustraDaughter">사람들은 세대를 거치며 이 땅에서 열심히 살아왔지만, 그들의 삶은 조금도 나아지지 않았습니다. 만약 이곳의 역사가 이렇게 긴지 몰랐다면, 저는 분명 고대 「이전」으로 떠내려왔다고 생각했을 겁니다.</speak>
+      <show chara="ZarathustraSmileClose" position="center"/>
+      <speak chara="_ZarathustraDaughter">손님 여러분, 저는 원래 「만왕의 왕」 키루스 대제의 시대에서 살고 있었습니다——다른 표류자들은 이를 2500년이나 지난 「고대 시기」라 하더군요.</speak>
+      <hide position="center"></hide>
+      <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+      <show chara="biankaDressShockClose" position="left"/>
+      <speak chara="_Bianka">……네?</speak>
+      <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+      <show chara="ZarathustraSmileClose" position="right"/>
+      <speak chara="_ZarathustraDaughter">왜 그리 놀라시나요, 아가씨.</speak>
+      <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+      <show chara="biankaDressBiteClose" position="left"/>
+      <speak chara="_Bianka">당연하죠! 대체 어, 어떻게 스페인어를 그렇게 유창하게 하는 거예요?</speak>
+      <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+      <show chara="ZarathustraNormalClose" position="right"/>
+      <speak chara="_ZarathustraDaughter">로마에 가면 로마법을 따르라는 말처럼, 언어는 당연히 그 시대와 장소에 맞는 걸 써야 하는 거 아닌가요? 이곳 대부분의 표류자들이 같은 언어를 구사할 때, 아무도 이해하지 못할 제 언어를 고집할 필요는 없겠죠.</speak>
+      <show chara="ZarathustraNormalClose" position="right" opacity="0.8"/>
+      <show chara="biankaDressBiteClose" position="left"/>
+      <speak chara="_Bianka">하, 하지만 여기 현지인들은 상형문자 같은 걸 쓰지 않았나요? 얘기가 좀 이상한 것 같은데요?</speak>
+      <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+      <show chara="ZarathustraSorrowClose" position="right"/>
+      <speak chara="_ZarathustraDaughter">그건 선진 기술을 묘사하기에 어휘가 너무나도 부족했기 때문입니다. 매번 억지로 통역하는 것보다는, 스페인어를 가르치는 게 더 나은 방법이었기 때문이죠.</speak>
+      <show chara="ZarathustraSorrowClose" position="right" opacity="0.8"/>
+      <show chara="biankaDressShoutClose" position="left"/>
+      <speak chara="_Bianka">……저, 정말 그게 이유에요?</speak>
+      <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+      <show chara="ZarathustraAngerClose" position="right"/>
+      <speak chara="_ZarathustraDaughter">이상하게 들리시나요? 가치가 낮은 건 마땅히 도태되어야 한다, 이건 제가 10살 때 제 아버님으로부터 배운 것입니다.</speak>
+      <show chara="ZarathustraAngerClose" position="right" opacity="0.8"/>
+      <show chara="ritaVestNormalClose" position="left"/>
+      <speak chara="_Rita">「차라투스트라」……</speak>
+      <show chara="ritaVestNormalClose" position="left" opacity="0.8"/>
+      <show chara="ZarathustraSmileClose" position="right"/>
+      <speak chara="_ZarathustraDaughter">네, 그게 제 아버님의 성함입니다. 그리고 그분의 이상에 따라 지금의 「연방」을 세워 다스려 오고 있습니다.</speak>
+      <show chara="ZarathustraSmileClose" position="right"/>
+      <speak chara="_ZarathustraDaughter">……이럼 어떨까요, 여러분들의 의구심을 해소시켜드리기 위해, 「쿠쿨칸의 심장」으로 자리를 옮겨 천천히 얘기하는 건?</speak>
+      <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+      <show chara="biankaDressShockClose" position="left"/>
+      <speak chara="_Bianka">……네? 그 운석이 있는 곳에서요?</speak>
+      <goto goto="160" clockwise="1"/>
+    </scene>
+    <scene id="160" background="hallOfPriestChichenItza.jpg">
+      <bgm src="06_01_Tuluum.mp3" status="start"></bgm>
+      <show chara="biankaDressHesitateClose" position="left"/>
+      <speak chara="_Bianka">이거…… 왜 운석 안이 이렇게나 호화로운 거예요?</speak>
+      <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+      <show chara="ZarathustraSmileClose" position="right"/>
+      <speak chara="_ZarathustraDaughter">하하, 이건 그저 버려진 탄광 통로를 재활용 한 것이랍니다.</speak>
+      <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+      <show chara="ritaVestSquintClose" position="left"/>
+      <speak chara="_Rita">정말 신비롭네요, 에스텔 님의 관저에 정말 잘 어울리는 것 같아요.</speak>
+      <show chara="ritaVestSquintClose" position="left" opacity="0.8"/>
+      <show chara="ZarathustraSmileClose" position="right"/>
+      <speak chara="_ZarathustraDaughter">감사합니다. 하지만 여긴 「대사제의 관저」라기보다는 「대사제의 연구실」이라 부르는 게 더 적합할 겁니다.</speak>
+      <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+      <show chara="champoSmileClose" position="left"/>
+      <speak chara="_Champollion">그래요? 대사제 폐하께선 어떤 종류의 실험에 관심이 있으신 건가요?</speak>
+      <show chara="champoSmileClose" position="left" opacity="0.8"/>
+      <show chara="ZarathustraThinkClose" position="right"/>
+      <speak chara="_ZarathustraDaughter">그걸 설명하기 전에…… 먼저 손님 여러분께 질문을 하나 드리도록 하죠.</speak>
+      <show chara="ZarathustraNormalClose" position="right"/>
+      <speak chara="_ZarathustraDaughter">제 아버님에 대해 얼마나 들어보셨습니까?</speak>
+      <show chara="ZarathustraNormalClose" position="right" opacity="0.8"/>
+      <show chara="shakesCasualEmbarrassedClose" position="left"/>
+      <speak chara="_Shakespeare">「차라투스트라」요? 그리스어로 「조로아스터」라 불리는 페르시아인 예언자 아닌가요?</speak>
+      <show chara="shakesCasualEmbarrassedClose" position="left" opacity="0.8"/>
+      <show chara="ZarathustraNormalClose" position="right"/>
+      <speak chara="_ZarathustraDaughter">네, 그분 또한 대사제셨죠.</speak>
+      <show chara="ZarathustraAngerClose" position="right"/>
+      <speak chara="_ZarathustraDaughter">그리고, 정정하자면——「페르시아」는 그리스인들이 저흴 부를 때 쓰는 이름으로, 정확한 이름은 「이란」입니다.</speak>
+      <show chara="ZarathustraAngerClose" position="right" opacity="0.8"/>
+      <show chara="champoNormalClose" position="left"/>
+      <speak chara="_Champollion">음, 하여튼 당신의 아버님께선 조로아스터교를 세워, 이란의 다양한 민족들이 통일된 가치관을 가지도록 도운 걸로 알고 있습니다. 덕분에, 훗날 역사 속의 많은 이들이 그를 숭배하게 되었죠.</speak>
+      <show chara="champoNormalClose" position="left" opacity="0.8"/>
+      <show chara="ZarathustraSorrowClose" position="right"/>
+      <speak chara="_ZarathustraDaughter">……그것이 그에 대한 표류자의 평가군요. 여러 오해가 담기긴 했지만.</speak>
+      <show chara="ZarathustraSmileClose" position="right"/>
+      <speak chara="_ZarathustraDaughter">——이외에 더 아는 게 있으십니까?</speak>
+      <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+      <show chara="cervantesSailorSmileClose" position="left"/>
+      <speak chara="_Miguel">내가 아는 건, 그가 남긴 「아베스타」가 신비 문학에 큰 영향을 끼쳤다고 하던데……</speak>
+      <show chara="cervantesSailorNormalClose" position="left"/>
+      <speak chara="_Miguel">안타깝게도 그 3분의 2가 알렉산더 대왕에 의해 불타버렸지만.</speak>
+      <show chara="cervantesSailorNormalClose" position="left" opacity="0.8"/>
+      <show chara="ZarathustraSmileClose" position="right"/>
+      <speak chara="_ZarathustraDaughter">하하, 아버지의 관점에서 보면, 그건 딱히 안타까운 일이 아닐 겁니다.</speak>
+      <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+      <show chara="cervantesSailorUnhappyClose" position="left"/>
+      <speak chara="_Miguel">……뭐?</speak>
+      <show chara="cervantesSailorUnhappyClose" position="left" opacity="0.8"/>
+      <show chara="ZarathustraNormalClose" position="right"/>
+      <speak chara="_ZarathustraDaughter">간단합니다. 아버님께선 살아생전 결코 그러한 경전을 집필한 적이 없으시기 때문이죠.</speak>
+      <show chara="ZarathustraSmileClose" position="right"/>
+      <speak chara="_ZarathustraDaughter">게다가, 제가 들은 것에 따르면——「조로아스터교」는 이미 후대에 의해 원래의 의미가 알아보기 힘들 정도로 변질된 상태였습니다.</speak>
+      <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+      <show chara="shakesCasualSeriousClose" position="left"/>
+      <speak chara="_Shakespeare">……그럼, 당신이 방금 설명을 피한 그 「실험」이라는 것은, 이런 역사에 관련되어 있다는 것인가요?</speak>
+      <show chara="shakesCasualSeriousClose" position="left" opacity="0.8"/>
+      <show chara="ZarathustraSmileClose" position="right"/>
+      <speak chara="_ZarathustraDaughter">물론입니다, 선장 아가씨.</speak>
+      <show chara="ZarathustraNormalClose" position="right"/>
+      <speak chara="_ZarathustraDaughter">모든 것은…… 전설 속의 「뱀의 왕」과 매우 밀접하게 얽혀있으니까요.</speak>
+      <show chara="ZarathustraSmileClose" position="right"/>
+      <speak chara="_ZarathustraDaughter">이리 와서 앉으시죠. 제가 천천히 얘기해 드리겠습니다.</speak>
+      <end post="U2FsdGVkX1+unOFloVQ674ElPqfG"/>
+    </scene>
+  </story>
 </data>

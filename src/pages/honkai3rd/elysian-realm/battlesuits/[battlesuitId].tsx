@@ -14,10 +14,7 @@ import { getWeaponMapByIds } from '../../../../server/data/honkai3rd/weapons'
 import { StigmataData } from '../../../../lib/honkai3rd/stigmata'
 import { getStigmataMapByIds } from '../../../../server/data/honkai3rd/stigmata'
 import { getSignetGroupById } from '../../../../server/data/honkai3rd/elysianRealm'
-import {
-  erBattlesuits,
-  SignetSet,
-} from '../../../../lib/honkai3rd/elysianRealm'
+import { erBattlesuits, SignetSet } from '../../../../lib/honkai3rd/elysianRealm'
 import SignetCard from '../../../../components/molecules/SignetCard'
 
 type WeaponObjectMap = { [key: string]: WeaponData }
@@ -30,22 +27,15 @@ interface BattlesuitShowPageProps {
   signetSet: SignetSet
 }
 
-const BattlesuitShowPage = ({
-  battlesuit,
-  weaponMap,
-  stigmataMap,
-  signetSet,
-}: BattlesuitShowPageProps) => {
+const BattlesuitShowPage = ({ battlesuit, weaponMap, stigmataMap, signetSet }: BattlesuitShowPageProps) => {
   const { t } = useTranslation()
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${battlesuit.name} (${t('common.elysian-realm')}) - ${t(
-          'common.honkai-3rd'
-        )} - ${t('common.abyss-lab')}`}
-        description={`${t('common.honkai-3rd')} ${t(
-          'common.elysian-realm'
-        )} ${t('battlesuit-show.battlesuit')}`}
+        title={`${battlesuit.name} (${t('common.elysian-realm')}) - ${t('common.honkai-3rd')} - ${t(
+          'common.abyss-lab'
+        )}`}
+        description={`${t('common.honkai-3rd')} ${t('common.elysian-realm')} ${t('battlesuit-show.battlesuit')}`}
         canonicalHref={`/honkai3rd/elysian-realm/battlesuits/${battlesuit.id}`}
       />
 
@@ -55,16 +45,16 @@ const BattlesuitShowPage = ({
             { href: '/honkai3rd', label: t('common.honkai-3rd') },
             {
               href: '/honkai3rd/elysian-realm',
-              label: t('common.elysian-realm'),
+              label: t('common.elysian-realm')
             },
             {
               href: `/honkai3rd/elysian-realm/battlesuits/${battlesuit.id}`,
-              label: battlesuit.name,
-            },
+              label: battlesuit.name
+            }
           ]}
         />
 
-        <Heading as='h1'>{battlesuit.name}</Heading>
+        <Heading as="h1">{battlesuit.name}</Heading>
 
         <Box mb={3}>
           <Box
@@ -72,7 +62,7 @@ const BattlesuitShowPage = ({
               position: 'relative',
               overflow: 'hidden',
               width: '100%',
-              maxWidth: [300, 400],
+              maxWidth: [300, 400]
             }}
           >
             <Image
@@ -84,10 +74,10 @@ const BattlesuitShowPage = ({
           </Box>
         </Box>
 
-        <Heading as='h2'>{t('elysian-realm.exclusive-signets')}</Heading>
+        <Heading as="h2">{t('elysian-realm.exclusive-signets')}</Heading>
 
         <Box>
-          {signetSet.signets.map((signet) => {
+          {signetSet.signets.map(signet => {
             return <SignetCard key={signet.id} signet={signet} />
           })}
         </Box>
@@ -98,10 +88,7 @@ const BattlesuitShowPage = ({
 
 export default BattlesuitShowPage
 
-export async function getStaticProps({
-  params,
-  locale,
-}: NextPageContext & { params: { battlesuitId: string } }) {
+export async function getStaticProps({ params, locale }: NextPageContext & { params: { battlesuitId: string } }) {
   try {
     const battlesuit = getBattlesuitById(params.battlesuitId, locale)!
     const { weaponIds, stigmataIds } = (battlesuit.equipment || []).reduce<{
@@ -110,11 +97,7 @@ export async function getStaticProps({
     }>(
       (acc, equipmentItem) => {
         acc.weaponIds.push(equipmentItem.weapon)
-        acc.stigmataIds.push(
-          equipmentItem.stigmataTop,
-          equipmentItem.stigmataMid,
-          equipmentItem.stigmataBot
-        )
+        acc.stigmataIds.push(equipmentItem.stigmataTop, equipmentItem.stigmataMid, equipmentItem.stigmataBot)
         return acc
       },
       { weaponIds: [], stigmataIds: [] }
@@ -124,7 +107,7 @@ export async function getStaticProps({
     const stigmataMap = getStigmataMapByIds(stigmataIds)
 
     const signetGroup = getSignetGroupById('elysia', locale)
-    const signetSet = signetGroup.sets.find((set) => {
+    const signetSet = signetGroup.sets.find(set => {
       return set.id === `elysia-${params.battlesuitId}`
     })
 
@@ -134,8 +117,8 @@ export async function getStaticProps({
         weaponMap,
         stigmataMap,
         signetSet,
-        ...(await getI18NProps(locale)),
-      },
+        ...(await getI18NProps(locale))
+      }
     }
   } catch (error) {
     console.log(error)
@@ -145,12 +128,12 @@ export async function getStaticProps({
 export async function getStaticPaths() {
   return {
     paths: generateI18NPaths(
-      erBattlesuits.map((battlesuitId) => {
+      erBattlesuits.map(battlesuitId => {
         return {
-          params: { battlesuitId: battlesuitId },
+          params: { battlesuitId: battlesuitId }
         }
       })
     ),
-    fallback: false,
+    fallback: false
   }
 }
