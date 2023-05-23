@@ -1,3 +1,130 @@
+- id: prophetic-dreams-self-fulfilling
+  version: '6.6'
+  name: 'Prophetic Dreams: Self-Fulfilling'
+  krName: 진념의 몽조·자가제상
+  category: javelin
+  rarity: 6
+  atk: 439
+  crt: 21
+  battlesuits:
+    - id: dw
+  originalWeapons:
+    - prophetic-dreams
+  sources:
+    - type: focused-supply
+  skills:
+    - name: 'Hundred Forms Entwined'
+      krName: 백상의 회전
+      description: |-
+        [SP: 0][CD: 0s] The weapon active's CD, max charges, and effects are decided by the wielder. In Cosmic Dominance state, the weapon gains additional buffs.
+        Using weapon active increases Physical DMG by 12.0% for 5s (triggering it again resets the duration).
+        Dreamweaver equip bonus: Physical body's using weapon active restores 5.0 SP (CD: 5s). Astral body's using weapon active increases Charged ATK's Crit DMG by 25.0% for 5s (triggering it again resets the duration).
+      krDescription: |-
+        [SP 소모: 0] [재사용 대기시간: 0초] 무기 액티브 스킬의 재사용 대기시간, 충전 횟수, 스킬 효과는 장비한 캐릭터 유형에 따라 결정된다. [육합통솔] 상태에서 무기가 추가 강화 효과를 획득한다.
+        무기 액티브 스킬 사용 시 캐릭터 자신의 물리 대미지가 12.0% 증가한다. 지속 시간: 5초, 중복 발동 시 지속 시간을 갱신한다.
+        드림위버가 장비 시, [본체가 무기 액티브 스킬 사용-SP를 5.0pt 회복한다. 최단 발동 간격: 5초]. [정신체가 무기 액티브 스킬 사용-차지 공격이 가하는 크리티컬 대미지가 25.0% 증가한다. 지속 시간: 5초], 중복 발동 시 지속 시간을 갱신한다.
+    - name: 'Empty Beginning'
+      krName: '시작의 공무'
+      description: |-
+        Basic/Combo/Charged ATKs deal 12.0% more Physical DMG. In Cosmic Dominance state, the above bonus increases to 35.0% and Basic/Combo/Charged ATKs deal 25.0% more Crit DMG.
+      krDescription: |-
+        기본 공격(분기와 차지 포함)이 가하는 물리 대미지가 12.0% 증가한다. [육합통솔] 상태에서 위 물리 대미지 증가 효과가 35.0%로 변경되고, 기본 공격(분기와 차지 포함)이 가하는 크리티컬 대미지가 25.0% 증가한다.
+    - name: 'Being-In-Itself'
+      krName: '자유 정의'
+      description: |-
+        Deal 20.0% more Total DMG. The presence of a user-summoned entity restores 300 HP per 10s.
+      krDescription: |-
+        캐릭터가 가하는 모든 대미지가 20.0% 증가하고, 전장에 자신의 소환물을 생성한 후 HP를 300 회복한다. 10초마다 1회 발동한다.
+- id: prophetic-dreams
+  version: '6.6'
+  name: Prophetic Dreams
+  krName: 진념의 몽조
+  category: javelin
+  rarity: 5
+  atk: 301
+  crt: 10
+  battlesuits:
+    - id: dw
+  priWeapon: prophetic-dreams-self-fulfilling
+  sources:
+    - type: focused-supply
+  skills:
+    - name: 'Stray Thoughts Weave Dreams'
+      krName: '엇갈린 꿈'
+      description: |-
+        [SP: 0][CD: 0s] The weapon active's CD, max charges, and effects are decided by the wielder. In Cosmic Dominance state, the weapon gains additional buffs.
+        Using weapon active increases Physical DMG by 10.0% for 5s (triggering it again resets the duration).
+        Dreamweaver equip bonus: Physical body's using weapon active restores 2.0 SP (CD: 5s). Astral body's using weapon active increases Charged ATK's Crit DMG by 18.0% for 5s (triggering it again resets the duration).
+      krDescription: |-
+        [SP 소모: 0] [재사용 대기시간: 0초] 무기 액티브 스킬의 재사용 대기시간, 충전 횟수, 스킬 효과는 장비한 캐릭터 유형에 따라 결정된다. [육합통솔] 상태에서 무기가 추가 강화 효과를 획득한다.
+        무기 액티브 스킬 사용 시 캐릭터 자신의 물리 대미지가 10.0% 증가한다. 지속 시간: 5초, 중복 발동 시 지속 시간을 갱신한다. 드림위버가 장비 시, [본체가 무기 액티브 스킬 사용-SP를 2.0pt 회복한다. 최단 발동 간격: 5초]. [정신체가 무기 액티브 스킬 사용-차지 공격이 가하는 크리티컬 대미지가 18.0% 증가한다. 지속 시간: 5초], 중복 발동 시 지속 시간을 갱신한다.
+    - name: 'Perpetual Cycle'
+      krName: '인과의 영속'
+      description: |-
+        Basic/Combo/Charged ATKs deal 8.0% more Physical DMG. In Cosmic Dominance state, the above bonus increases to 25.0% and Basic/Combo/Charged ATKs deal 20.0% more Crit DMG.
+      krDescription: |-
+        기본 공격(분기와 차지 포함)이 가하는 물리 대미지가 8.0% 증가한다. [육합통솔] 상태에서 위 물리 대미지 증가 효과가 25.0%로 변경되고, 기본 공격(분기와 차지 포함)이 가하는 크리티컬 대미지가 20.0% 증가한다.
+- id: mirage-spearhead
+  version: '6.6'
+  name: Mirage Spearhead
+  krName: 허경의 선봉
+  category: javelin
+  rarity: 5
+  atk: 264
+  crt: 26
+  skills:
+    - name: 'Undefined State'
+      krName: '허실기정'
+      description: |-
+        [SP: 0][CD: 0s] The weapon active's CD, max charges, and effects are decided by the wielder. In Cosmic Dominance state, the weapon gains additional buffs.
+      krDescription: |-
+        [SP 소모: 0] [재사용 대기시간: 0초] 무기 액티브 스킬의 재사용 대기시간, 충전 횟수, 스킬 효과는 장비한 캐릭터 유형에 따라 결정된다. [육합통솔] 상태에서 무기가 추가 강화 효과를 획득한다.
+    - name: 'Majestic Deviation'
+      krName: '이상의 위세'
+      description: |-
+        Increases Total DMG by 8.0%. In Cosmic Dominance state, the above bonus increases to 15.0%.
+      krDescription: |-
+        모든 대미지가 8.0% 증가하고, [육합통솔] 상태에서 위 모든 대미지 증가 효과가 15.0%로 변경된다.
+- id: precise-javelin
+  version: '6.6'
+  name: Precise Javelin
+  krName: 정련 재블린
+  category: javelin
+  rarity: 5
+  atk: 119
+  crt: 9
+  skills:
+    - name: 'Throw'
+      krName: '투척'
+      description: |-
+        [SP: 0][CD: 0s] The weapon active's CD, max charges, and effects are decided by the wielder.
+      krDescription: |-
+        [SP 소모: 0][재사용 대기시간: 0초] 무기 액티브 스킬의 재사용 대기시간, 충전 횟수, 스킬 효과는 장비한 캐릭터 유형에 따라 결정된다.
+- id: pandora-s-box-18th
+  version: '6.6'
+  name: Pandora's Box 18th
+  krName: 판도라의 상자 18th
+  category: gauntlet
+  rarity: 5
+  atk: 294
+  crt: 16
+  battlesuits:
+    - id: ta
+  sources:
+    - type: focused-supply
+  skills:
+    - name: 'Challenged Hope'
+      krName: '작은 희망'
+      description: |-
+        [SP: 0][CD: 18s] Fists gain Anticipant state for 15s. During which, she deals 20.0% more Total DMG and has higher Ignore Interrupt. When Ultimate hits, she deals 15.0% more Physical DMG until Anticipant state ends (triggering it again resets the duration). Terminal Aide 0017 equip bonus: Regen: Superpartner deals an additional 400.0% ATK of Physical DMG. Using Existence: Configuration Manifold and Regen: Superpartner triggers weapon active and restores 1000 Dense Neutron Shield.
+      krDescription: |-
+        [SP 소모: 0] [재사용 대기시간: 18초] 건틀릿이 15초 동안 [절원] 상태를 획득한다. [절원] 상태 기간, 모든 대미지가 20.0% 증가하고, 경직 저항력이 증가한다. 필살기 대미지가 적에게 적중 시 [절원] 상태가 종료될 때까지 자신의 물리 대미지가 15.0% 증가한다. 중복 발동 시 충전 시간을 갱신한다. 터미널 에이드 0017이 사용 시, [재생-초대칭성 입자]의 공격이 추가로 공격력 500.0%의 물리 대미지를 가한다. [존재-배위 공간]과 [재생-초대칭성 입자] 사용 시 무기 액티브 스킬을 발동하고, [고밀도 중성자 실드]의 실드치를 1000pt 회복한다.
+    - name: 'Ambiguous Future'
+      krName: '이어지는 미래'
+      description: |-
+        Team Physical DMG increases by 18.0% (exclusive). Terminal Aide 0017 equip bonus: In Anticipant state, when Regen: Superpartner hits, the target takes 12.0% more Physical DMG for 20s (triggering it again resets the duration).
+      krDescription: |-
+        파티원의 물리 대미지가 18.0% 증가한다(동일 효과 동시 발동 불가). 터미널 에이드 0017이 사용 시, [절원] 상태 기간 [재생-초대칭성 입자]가 적에게 적중하면 전장의 적이 받는 물리 대미지가 12.0% 증가한다. 지속 시간: 20초, 중복 발동 시 지속 시간을 갱신한다(동일 효과 동시 발동 불가).
 - id: twirling-glaze-lustrous-bloom
   version: '6.5'
   name: 'Twirling Glaze: Lustrous Bloom'
@@ -1892,9 +2019,9 @@
       krName: 하늘을 찬란히 불태워
       description: >-
         [SP: 0][CD: 18s] Hurl the pistols into the air to attack enemies
-        automatically dealing 20,0% ATK of Fire DMG per 0.1s to enemies nearby
+        automatically dealing 20.0% ATK of Fire DMG per 0.1s to enemies nearby
         (24 hits in total) and restoring 4 SP, after which the pistols explode
-        dealing 750,0% ATK of Fire DMG.
+        dealing 750.0% ATK of Fire DMG.
 
         Herrscher of Flamescion equip bonus: Pistol hurling restores 5.0 bonus SP and the explosion DMG detonates Ember Brands.
       krDescription: '[SP 소모: 0][재사용 대기 시간: 18초] 권총을 던져 공중에서 자동으로 공격하며, 0.1초마다 주변 적에게
@@ -1903,12 +2030,12 @@
         회복하고, 폭발 시의 대미지가 주변 적의 불꽃 표식을 폭발시킨다.'
     - name: I Am the Torch
       krName: 횃불로서
-      description: Fire DMG increases by 30,0%. Combo ATK and Ultimate deal 35,0%
+      description: Fire DMG increases by 30.0%. Combo ATK and Ultimate deal 35.0%
         bonus Total DMG.
       krDescription: 화염 원소 대미지가 30.0% 증가하고, 분기 공격과 필살기의 모든 대미지가 35.0% 증가한다.
     - name: The Fire Never Dies
       krName: 영원한 불꽃이 되겠노라
-      description: 'Enemies impacted by the weapon active explosion take 15,0% bonus
+      description: 'Enemies impacted by the weapon active explosion take 15.0% bonus
         Fire DMG for 8.0s. Cannot stack but can be refreshed. Herrscher of
         Flamescion equip bonus: Detonating Ember Brands triggers the same
         effect.'
@@ -4669,7 +4796,7 @@
 
         Fire: Charged attacks launch fire balls that ignite enemies upon hit, dealing 400 Fire DMG every 0.5s for 6s.
 
-        Lightning: Charged attacks launch a homing explosive lightning orb. Hits have a 15,0% chance of dealing additional 150% ATK of Lightning DMG and impairing the enemy, reducing their DEF by 60% for 3s.
+        Lightning: Charged attacks launch a homing explosive lightning orb. Hits have a 15.0% chance of dealing additional 150% ATK of Lightning DMG and impairing the enemy, reducing their DEF by 60% for 3s.
 
         Ice: Launches a continuous ice fog. Hits will slow the Move Speed and Attack Speed of the enemy by 50% for 3s, and have a 2.0% chance to freeze the enemy for 3s.
       krDescription: >-

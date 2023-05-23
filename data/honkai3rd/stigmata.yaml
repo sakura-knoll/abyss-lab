@@ -1,3 +1,128 @@
+- id: susannah-overtime
+  version: '6.6'
+  name: 'Susannah: Overtime (T)'
+  krName: '수잔나·야근 (상)'
+  type: top
+  rarity: 5
+  hp: 369
+  atk: 116
+  def: 61
+  crt: 0
+  skill:
+    name: To Be Saved
+    krName: 미저장 파일
+    description: |-
+      Increases self Physical DMG by 20.0% and team Physical DMG by 10.0%. If it's bleeding DMG, increases team Physical DMG by another 10.0% (exclusive). Using Ultimate inflicts 2 Bleed Trauma on all enemies (CD: 16s).
+    krDescription: |-
+      물리 대미지가 20.0% 증가하고, 파티원의 물리 대미지가 10.0% 증가하며, 출혈 대미지가 추가로 10.0% 증가한다(동일 효과 동시 발동 불가). 필살기 발동 시 모든 적에게 출혈 게이지를 2pt 누적한다. 발동 재사용 대기시간: 16초
+- id: alexandra-top
+  version: '6.6'
+  name: 'Alexandra (T)'
+  krName: '알렉산드라 (상)'
+  type: top
+  rarity: 5
+  hp: 369
+  atk: 116
+  def: 61
+  crt: 0
+  set: alexandra
+  skill:
+    name: May I Pick Scented Grass in Four Seasons
+    krName: 소망하는 사계절의 향초
+    description: |-
+      Deal 20.0% more Physical DMG. The presence of a user-summoned entity increases Physical DMG by 20.0%.
+    krDescription: |-
+      캐릭터가 가하는 물리 대미지가 20.0% 증가하고, 전장에 자신의 소환물이 존재할 경우, 해당 캐릭터가 가하는 물리 대미지가 20.0% 증가한다.
+- id: alexandra-mid
+  version: '6.6'
+  name: 'Alexandra (M)'
+  krName: '알렉산드라 (중)'
+  type: mid
+  rarity: 5
+  hp: 470
+  atk: 0
+  def: 190
+  crt: 10
+  set: alexandra
+  skill:
+    name: May It be as Lavish as a Banquet
+    krName: 소망하는 연회의 진미
+    description: |-
+      Deal 30.0% more Total DMG, and 20.0% more Crit DMG to Dreaming enemies.
+    krDescription: |-
+      모든 대미지가 30.0% 증가하고, 캐릭터가 [감몽]을 보유한 적에게 가하는 크리티컬 대미지가 20.0% 증가한다.
+- id: alexandra-bot
+  version: '6.6'
+  name: 'Alexandra (B)'
+  krName: '알렉산드라 (하)'
+  type: bot
+  rarity: 5
+  hp: 405
+  atk: 61
+  def: 77
+  crt: 11
+  set: alexandra
+  skill:
+    name: May We Embrace Till the Night Ends
+    krName: 소망하는 장야의 포옹
+    description: |-
+      Hitting enemies inflict Dreaming state for 3.0s (exclusive). Dreaming enemies take 5.0% more Total DMG from self and 10.0% more Total DMG from user-summoned entities. Triggering it again resets the duration.
+    krDescription: |-
+      캐릭터의 공격이 적에게 적중 시 목표에게 [감몽]을 부가한다(동일 효과 동시 발동 불가). 지속 시간: 3.0초. [감몽]을 보유한 적이 해당 캐릭터에게 받는 모든 대미지가 5.0% 증가하고, 자신의 소환물에게 받는 모든 대미지가 10.0% 증가한다. 중복 발동 시 지속 시간을 갱신한다.
+- id: mei-top
+  version: '6.6'
+  name: 'MEI (T)'
+  krName: 'MEI (상)'
+  type: top
+  rarity: 5
+  hp: 393
+  atk: 114
+  def: 50
+  crt: 0
+  set: mei
+  skill:
+    name: Noisy Morning
+    krName: 떠들썩한 아침
+    description: |-
+      Increases Total DMG by 20.0%. Landing QTE increases Physical DMG by 20.0% for 5s (triggering it again resets the duration).
+    krDescription: |-
+      자신의 모든 대미지가 20.0% 증가하고, QTE 스킬이 적에게 적중 시 자신의 물리 대미지가 20.0% 증가한다. 지속 시간: 5초, 중복 발동 시 지속 시간을 갱신한다.
+- id: mei-mid
+  version: '6.6'
+  name: 'MEI (M)'
+  krName: 'MEI (중)'
+  type: mid
+  rarity: 5
+  hp: 490
+  atk: 0
+  def: 199
+  crt: 7
+  set: mei
+  skill:
+    name: Busy Afternoon
+    krName: 정신없는 오후
+    description: |-
+      Deal 20.0% more Physical DMG. When Ultimate hits, team members break shields 40.0% easier for 20s (triggering it again resets the duration; exclusive).
+    krDescription: |-
+      자신의 물리 대미지가 20.0% 증가하고, 필살기 대미지가 적에게 적중 시 파티원의 실드 파괴력이 40.0% 증가한다. 지속 시간: 20초, 중복 발동 시 지속 시간을 갱신한다(동일 효과 동시 발동 불가).
+- id: mei-bot
+  version: '6.6'
+  name: 'MEI (B)'
+  krName: '메이 (하)'
+  type: bot
+  rarity: 5
+  hp: 434
+  atk: 61
+  def: 66
+  crt: 9
+  set: mei
+  skill:
+    name: Stressful Midnight
+    krName: 한숨 돌리는 밤
+    description: |-
+      Increases team Total DMG by 15.0%. When Ultimate hits a shielded or shield-broken enemy, gain Navigator state, which increases team Physical DMG by 13.0% for 20s (triggering it again resets the duration; exclusive).
+    krDescription: |-
+      캐릭터의 모든 대미지가 15.0% 증가한다. 필살기 대미지가 실드가 있거나 실드가 파괴된 적에게 적중 시 [인도] 상태를 획득하고, 파티원의 물리 대미지가 13.0% 증가한다. 지속 시간: 20초, 중복 발동 시 갱신(동일 효과 동시 발동 불가)
 - id: aladdin-top
   version: '6.5'
   name: 'Aladdin (T)'

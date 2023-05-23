@@ -14,19 +14,13 @@ import { useTranslation, translate } from '../../../lib/i18n'
 import Head from '../../../components/atoms/Head'
 import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 
-type WeaponListItemData = Pick<
-  WeaponData,
-  'id' | 'name' | 'rarity' | 'category'
->
+type WeaponListItemData = Pick<WeaponData, 'id' | 'name' | 'rarity' | 'category'>
 
 interface WeaponListPageProps {
   weaponDataList: WeaponListItemData[]
 }
 
-const weaponFilterOptions = [
-  { value: 'all', label: 'All', krLabel: '전체', icon: undefined },
-  ...weaponCategories,
-]
+const weaponFilterOptions = [{ value: 'all', label: 'All', krLabel: '전체', icon: undefined }, ...weaponCategories]
 
 const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
   const { query, locale } = useRouter()
@@ -37,13 +31,11 @@ const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
       return 'all'
     }
 
-    return typeof query.category === 'string'
-      ? query.category
-      : query.category[0]
+    return typeof query.category === 'string' ? query.category : query.category[0]
   }, [query])
 
   const weaponList = useMemo(() => {
-    return weaponDataList.map((weapon) => {
+    return weaponDataList.map(weapon => {
       const hidden = isWeaponHidden(weapon, categoryFilter)
       return <WeaponCard key={weapon.id} weapon={weapon} hidden={hidden} />
     })
@@ -53,9 +45,7 @@ const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
     <Honkai3rdLayout>
       <Box>
         <Head
-          title={`${t('common.weapons')} - ${t('common.honkai-3rd')} - ${t(
-            'common.abyss-lab'
-          )}`}
+          title={`${t('common.weapons')} - ${t('common.honkai-3rd')} - ${t('common.abyss-lab')}`}
           description={t('weapons-list.description')}
           canonicalHref={`/honkai3rd/weapons`}
         />
@@ -64,13 +54,13 @@ const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
           <Breadcrumb
             items={[
               { href: '/honkai3rd', label: t('common.honkai-3rd') },
-              { href: '/honkai3rd/weapons', label: t('common.weapons') },
+              { href: '/honkai3rd/weapons', label: t('common.weapons') }
             ]}
           />
 
-          <Heading as='h1'>{t('weapons-list.weapons')}</Heading>
+          <Heading as="h1">{t('weapons-list.weapons')}</Heading>
           <Box>
-            <Heading as='h3'>{t('weapons-list.filter-by-category')}</Heading>
+            <Heading as="h3">{t('weapons-list.filter-by-category')}</Heading>
             <Flex mb={2} sx={{ flexWrap: 'wrap' }}>
               {weaponFilterOptions.map(({ value, label, krLabel, icon }) => {
                 return (
@@ -89,7 +79,7 @@ const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
           <Flex
             sx={{
               flexWrap: 'wrap',
-              justifyContent: 'space-around',
+              justifyContent: 'space-around'
             }}
           >
             {weaponList}
@@ -105,11 +95,11 @@ export default WeaponListPage
 export async function getStaticProps({ locale }: NextPageContext) {
   return {
     props: {
-      weaponDataList: listWeapons(locale).map((weapon) => {
+      weaponDataList: listWeapons(locale).map(weapon => {
         return pick(['name', 'id', 'rarity', 'category'], weapon)
       }),
-      ...(await getI18NProps(locale)),
-    },
+      ...(await getI18NProps(locale))
+    }
   }
 }
 
@@ -125,6 +115,7 @@ function isWeaponHidden(weapon: WeaponListItemData, filter: string): boolean {
     case 'lance':
     case 'bow':
     case 'chakram':
+    case 'javelin':
       return weapon.category !== filter
     default:
     case 'all':

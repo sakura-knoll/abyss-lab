@@ -4,12 +4,7 @@ import { useCallback, useMemo, useState } from 'react'
 import FilterButton from '../../../components/atoms/FilterButton'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import { listBattlesuits } from '../../../server/data/honkai3rd/battlesuits'
-import {
-  BattlesuitData,
-  battlesuitFeatures,
-  battlesuitTypes,
-  valkyries,
-} from '../../../lib/honkai3rd/battlesuits'
+import { BattlesuitData, battlesuitFeatures, battlesuitTypes, valkyries } from '../../../lib/honkai3rd/battlesuits'
 import BattlesuitCard from '../../../components/molecules/BattlesuitCard'
 import { useRouter } from 'next/router'
 import { NextPageContext } from 'next'
@@ -18,10 +13,7 @@ import { translate, useTranslation } from '../../../lib/i18n'
 import Head from '../../../components/atoms/Head'
 import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 
-type BattlesuitListItemData = Pick<
-  BattlesuitData,
-  'id' | 'name' | 'features' | 'type' | 'valkyrie'
->
+type BattlesuitListItemData = Pick<BattlesuitData, 'id' | 'name' | 'features' | 'type' | 'valkyrie'>
 
 interface BattlesuitListPageProps {
   battlesuits: BattlesuitListItemData[]
@@ -39,11 +31,7 @@ const valkyrieFilterOptions: {
   label: string
   icon?: string
   krLabel?: string
-}[] = [
-  { value: 'all', label: 'All', krLabel: '전체' },
-  ...battlesuitTypes,
-  ...valkyries,
-]
+}[] = [{ value: 'all', label: 'All', krLabel: '전체' }, ...battlesuitTypes, ...valkyries]
 
 const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
   const { query, locale } = useRouter()
@@ -59,9 +47,7 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
       return 'all'
     }
 
-    return typeof query.valkyrie === 'string'
-      ? query.valkyrie
-      : query.valkyrie[0]
+    return typeof query.valkyrie === 'string' ? query.valkyrie : query.valkyrie[0]
   }, [query])
 
   const featureFilter = useMemo(() => {
@@ -73,31 +59,22 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
   }, [query])
 
   const battlesuitsFiteredByValkyrie = useMemo(() => {
-    return battlesuits.filter((battlesuit) =>
-      isValkyrieFilterMatching(battlesuit, valkyrieFilter)
-    )
+    return battlesuits.filter(battlesuit => isValkyrieFilterMatching(battlesuit, valkyrieFilter))
   }, [battlesuits, valkyrieFilter])
 
-  const availableFeatureSet = battlesuitsFiteredByValkyrie.reduce(
-    (set, battlesuit) => {
-      battlesuit.features.forEach((feature) => set.add(feature))
-      return set
-    },
-    new Set()
-  )
+  const availableFeatureSet = battlesuitsFiteredByValkyrie.reduce((set, battlesuit) => {
+    battlesuit.features.forEach(feature => set.add(feature))
+    return set
+  }, new Set())
 
   const battlesuitsFilteredByFeature = useMemo(() => {
-    return battlesuitsFiteredByValkyrie.filter((battlesuit) =>
-      isFeatureFilterMatching(battlesuit, featureFilter)
-    )
+    return battlesuitsFiteredByValkyrie.filter(battlesuit => isFeatureFilterMatching(battlesuit, featureFilter))
   }, [battlesuitsFiteredByValkyrie, featureFilter])
 
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${t('common.battlesuits')} - ${t('common.honkai-3rd')} - ${t(
-          'common.abyss-lab'
-        )}`}
+        title={`${t('common.battlesuits')} - ${t('common.honkai-3rd')} - ${t('common.abyss-lab')}`}
         description={t('battlesuits-list.description')}
         canonicalHref={`/honkai3rd/battlesuits`}
       />
@@ -108,19 +85,19 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
             { href: '/honkai3rd', label: t('common.honkai-3rd') },
             {
               href: '/honkai3rd/battlesuits',
-              label: t('common.battlesuits'),
-            },
+              label: t('common.battlesuits')
+            }
           ]}
         />
 
-        <Heading as='h1'>{t('battlesuits-list.heading')}</Heading>
+        <Heading as="h1">{t('battlesuits-list.heading')}</Heading>
 
         <Box sx={{ display: ['block', 'none'], mb: 2 }}>
           <Button
             className={hiddenFilters ? '' : 'active'}
             sx={{ px: 2, py: 1 }}
             onClick={() => {
-              setHiddenFilters((previousValue) => !previousValue)
+              setHiddenFilters(previousValue => !previousValue)
             }}
           >
             {t('battlesuits-list.filters')}
@@ -131,11 +108,11 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
           sx={{
             display: 'block',
             '&.hidden': {
-              display: ['none', 'block'],
-            },
+              display: ['none', 'block']
+            }
           }}
         >
-          <Heading as='h3'>{t('battlesuits-list.filter-by-valkyries')}</Heading>
+          <Heading as="h3">{t('battlesuits-list.filter-by-valkyries')}</Heading>
           <Flex mb={2} sx={{ flexWrap: 'wrap' }}>
             {valkyrieFilterOptions.map(({ value, label, icon, krLabel }) => {
               return (
@@ -151,10 +128,10 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
               )
             })}
           </Flex>
-          <Heading as='h3'>{t('battlesuits-list.filter-by-features')}</Heading>
+          <Heading as="h3">{t('battlesuits-list.filter-by-features')}</Heading>
           <Flex mb={2} sx={{ flexWrap: 'wrap' }}>
             {featureFilterOptions
-              .filter((filterOption) => {
+              .filter(filterOption => {
                 if (filterOption.value === 'all') {
                   return true
                 }
@@ -179,13 +156,11 @@ const BattlesuitListPage = ({ battlesuits }: BattlesuitListPageProps) => {
         <Flex
           sx={{
             flexWrap: 'wrap',
-            justifyContent: 'space-around',
+            justifyContent: 'space-around'
           }}
         >
-          {battlesuitsFilteredByFeature.map((battlesuit) => {
-            return (
-              <BattlesuitCard key={battlesuit.id} battlesuit={battlesuit} />
-            )
+          {battlesuitsFilteredByFeature.map(battlesuit => {
+            return <BattlesuitCard key={battlesuit.id} battlesuit={battlesuit} />
           })}
         </Flex>
       </Box>
@@ -198,24 +173,21 @@ export default BattlesuitListPage
 export async function getStaticProps({ locale }: NextPageContext) {
   return {
     props: {
-      battlesuits: listBattlesuits(locale).map((battlesuit) => {
+      battlesuits: listBattlesuits(locale).map(battlesuit => {
         return {
           id: battlesuit.id,
           name: battlesuit.name,
           features: battlesuit.features,
           type: battlesuit.type,
-          valkyrie: battlesuit.valkyrie,
+          valkyrie: battlesuit.valkyrie
         }
       }),
-      ...(await getI18NProps(locale)),
-    },
+      ...(await getI18NProps(locale))
+    }
   }
 }
 
-function isValkyrieFilterMatching(
-  battlesuit: BattlesuitListItemData,
-  valkyrieFilter: string
-) {
+function isValkyrieFilterMatching(battlesuit: BattlesuitListItemData, valkyrieFilter: string) {
   switch (valkyrieFilter) {
     case 'mecha':
     case 'biologic':
@@ -245,7 +217,11 @@ function isValkyrieFilterMatching(
     case 'aponia':
     case 'eden':
     case 'griseo':
-    case 'vill-v':
+    case 'sushang':
+    case 'ai':
+    case 'susannah':
+    case 'misteln':
+    case 'prometheus':
       return battlesuit.valkyrie === valkyrieFilter
     default:
     case 'all':
@@ -253,12 +229,9 @@ function isValkyrieFilterMatching(
   }
 }
 
-function isFeatureFilterMatching(
-  battlesuit: BattlesuitListItemData,
-  featureFilter: string
-) {
+function isFeatureFilterMatching(battlesuit: BattlesuitListItemData, featureFilter: string) {
   if (featureFilter === 'all') {
     return true
   }
-  return battlesuit.features.some((feature) => feature === featureFilter)
+  return battlesuit.features.some(feature => feature === featureFilter)
 }

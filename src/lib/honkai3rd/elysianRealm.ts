@@ -60,8 +60,12 @@ export const erVersions = [
     battlesuits: ['hof', 'hoo']
   },
   {
-    version: '6.4',
+    version: '6.5',
     battlesuits: ['vq', 'sk']
+  },
+  {
+    version: '6.6',
+    battlesuits: ['dw', 'ta']
   }
 ].reverse()
 

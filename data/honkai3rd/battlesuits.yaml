@@ -1,9 +1,455 @@
+- id: dw
+  version: '6.6'
+  name: Dreamweaver
+  krName: 드림위버
+  type: mecha
+  valkyrie: misteln
+  features:
+    - physical
+    - gather
+    - time-mastery
+  equipment:
+    - weapon: prophetic-dreams-self-fulfilling
+      stigmataTop: alexandra-top
+      stigmataMid: alexandra-mid
+      stigmataBot: alexandra-bot
+      type: recommended
+  leader:
+    core:
+      name: 'Changing Appearances, Unchanging Light'
+      krName: '저물지 않는 빛'
+      description: |-
+        Leader Bonus: Team deals 26.0% more Crit DMG. Dreamweaver-summoned entities deal 10.0% more Physical DMG for every Physical DMG dealer on the team.
+      krDescription: |-
+        리더로 배치 시 파티원이 버프를 받는다.
+        리더 스킬: 파티원의 크리티컬 대미지가 26.0% 증가하고, 파티 내 물리 대미지 특성의 캐릭터가 존재할 때마다 드림위버의 소환물이 가하는 물리 대미지가 10.0% 증가한다.
+    subskills:
+      - name: 'Voice of Changing Ideas'
+        krName: '이데아 순환의 소리'
+        description: |-
+          Team deals 26.0% more Crit DMG. For every Physical DMG dealer on the team, Dreamweaver-summoned entities deal 10.0% more Physical DMG.
+        krDescription: |-
+          파티원의 크리티컬 대미지가 26.0% 증가한다. 파티에 물리 대미지 특성의 캐릭터가 존재할 때마다 드림위버의 소환물이 가하는 물리 대미지가 10.0% 증가한다.
+  passive:
+    core:
+      name: Separation of Images
+      krName: 진실과 꿈의 경계
+      description: |-
+        Passive bonuses apply automatically.
+        Dreamweaver's physical body and astral body have different weapon skills. Damage dealt by Dreamweaver-summoned entities is decided by Dreamweaver's stats and benefits from summoned entity buffs. Effects that simultaneously affect her and summoned entities cannot stack.
+
+        Physical body: Dreamweaver casts Assemblage of Ideas to summon Seeds of Ideas that follow her commands. All Seeds of Ideas count as a single summoned entity. With Seeds of Ideas present, Dreamweaver is in Special state: Cosmic Dominance and takes 50% less Total DMG. Seeds of Ideas leave when Dreamweaver releases Ultimate or is switched out.
+        Assemblage of Ideas: Summons Seeds of Ideas to dive-bomb, dealing 100% x 4 ATK of Physical DMG. When [Weapon] is flashing from using Seed of Idea's other attacks, tap [Weapon] to cast Assemblage of Ideas again. With Seeds of Ideas already present, Assemblage of Ideas deals 200% x 4 ATK of Physical DMG.
+        Protective Appearance: With Seeds of Idea present, tap [Weapon] to release it. Dreamweaver commands Seeds of Ideas to gather in front of her for defense, dealing 500% ATK of Physical DMG to nearby enemies. Seeds of Ideas launch a defensive attack 1.5s later, charging forward to deal 750% ATK of Physical DMG. The defensive attack is launched early if Seeds of Ideas hit an enemy while gathering or take an attack while defending, or by tapping [ATK] while defending. CD: 6s.
+
+        In Dream World, Dreamweaver possesses an astral body, which counts as a summoned entity. Astral body has 4 short spears, and each charges the Javelin Meter when thrown. Dreamweaver enters Special state when all 4 of them are thrown. In this state, Dreamweaver can cast Kaleidoscope. Astral body has the weapon skill Residual Dream, allowing her to throw 4 short spears at once.
+        Residual Dream: Tap [Weapon] to release. Astral body throws all short spears at once, dealing 180% x 4 ATK of Physical DMG. CD: 12s.
+
+      krDescription: |-
+        패시브 스킬은 자동으로 발동한다.
+        드림위버의 본체와 정신체는 서로 다른 무기 스킬을 보유한다. 드림위버의 소환물이 가하는 대미지는 드림위버를 기준으로 하며, 소환물 보너스의 영향을 받는다. 또한 [소환물]과 캐릭터에게 적용되는 효과는 중첩할 수 없다.
+
+        본체 드림위버가 무기 스킬 [이념의 군체]를 발동해 이데아의 씨앗을 소환하고 지휘한다. 이데아의 씨앗마다 소환물 1개로 간주한다. 이데아의 씨앗이 전장에 존재할 경우, 드림위버는 육합통솔 [자재] 상태를 개방해 자신이 받는 모든 대미지가 50% 감소한다. 드림위버가 필살기를 발동하거나 캐릭터를 교대하면 이데아의 씨앗은 퇴장한다.
+        이념의 군체: 적 위치에 이데아의 씨앗을 소환한 후 공격해 공격력 100%*4의 물리 대미지를 가한다. 이데아의 씨앗의 기타 공격 발동 시 무기 버튼이 빛나며, 터치 시 [이념의 군체]를 다시 발동할 수 있다. 전장에 이데아의 씨앗이 존재할 경우, [이념의 군체]는 공격력 200%*4의 물리 대미지를 가한다.
+        형상의 비호: 전장에 이데아의 씨앗 존재 시 무기 버튼을 터치해 발동하며, 드림위버가 이데아의 씨앗을 전방에 집결시켜 공격을 방어한다. 집결 시 주변 적에게 공격력 500%의 물리 대미지를 가한다. 1.5초 후 이데아의 씨앗이 방어 공격을 발동해 전방으로 돌진하고 공격력 750%의 물리 대미지를 가한다. 이데아의 씨앗이 집결했을 때 적에게 적중하거나 방어 기간 적에게 피격될 경우, 일찍 발동한다. 방어 기간, 무기 버튼을 터치해 일찍 발동할 수도 있다. 스킬 재사용 대기시간: 6초
+
+        꿈 세계 상태에서 드림위버는 정신체에 빙의해 전투하며, 정신체는 소환물로 간주한다. 정신체는 단창 4개를 보유하고, 단창 투척 시 재블린을 충전한다. 4회 충전 시 캐릭터는 육합통솔 [자재] 상태를 발동한다. [자재] 상태에서 [백상귀결]을 발동할 수 있다. 정신체는 무기 스킬 [영원한 악몽]을 보유하며, 한 번에 단창 4개를 투척할 수 있다.
+        영원한 악몽: 무기 스킬을 터치해 발동하며, 정신체로 한 번에 단창 4개를 투척해 공격력 180%*4의 물리 대미지를 가한다. 재사용 대기시간: 12초
+    subskills:
+      - name: Created from Thoughts
+        krName: 개념에서 탄생한 생명
+        description: |-
+          Assemblage of Ideas restores 8.0 SP upon hitting enemies. Assemblage of Ideas deals an extra 220.0% x 4 ATK of Physical DMG.
+        krDescription: |-
+          [이념의 군체]가 적에게 적중 시 SP를 8.0pt 회복하고, [이념의 군체]가 추가로 공격력 220.0*4의 물리 대미지를 가한다.
+      - name: Mortal Dreams
+        krName: 생각을 떠나는 꿈
+        description: |-
+          Dreamweaver-summoned entities gain 15.0% Crit Rate. Entities summoned by her physical body gain 24.0% more Crit Rate atop of that.
+        krDescription: |-
+          드림위버 소환물의 크리티컬률이 15.0% 증가하고, 본체 소환물의 크리티컬률이 추가로 24.0% 증가한다.
+      - name: 'Remains of a Dream'
+        krName: 꿈이 떠난 몸
+        description: |-
+          Whenever Dreamweaver enters or switches from physical body to astral body, her Crit Rate increases by 15.0% and her Physical DMG increases by 5.0% for 15.0s. Triggering it again resets the duration.
+        krDescription: |-
+          드림위버가 출전 또는 본체에서 정신체로 변경할 때마다 크리티컬률이 15.0% 증가하고, 물리 대미지가 5.0% 증가한다. 지속 시간: 15.0초, 중복 발동 시 지속 시간을 갱신한다.
+  evasion:
+    core:
+      name: Vestige of Illusions
+      krName: 공허한 영혼
+      description: |-
+        Evade enemy attacks up to twice in a row.
+        A successful Ultimate Evasion triggers Ultimate Evasion Skill, which causes global Time Fracture for 3s. CD: 15s.
+        Physical body: Triggering Ultimate Evasion Skill restores 6 more SP.
+        Astral body: Attacks and evades simultaneously. Evading forward deals 90% ATK of Physical DMG. Evading backward deals 30% x 3 ATK of Physical DMG. Evasion can be connected into Basic ATK SEQ 2.
+      krDescription: |-
+        빠르게 적의 공격을 회피한다. 2회 연속 회피할 수 있다.
+        극한 회피 성공 시 극한 회피 스킬을 발동하고, 3초 동안 전체 시공 단열을 발동한다. 재사용 대기시간: 15초
+        본체: 극한 회피 스킬 발동 시 추가로 SP를 5pt 회복한다.
+        정신체: 회피와 동시에 공격을 발동한다. 전방 회피는 적중한 적에게 공격력 90%의 물리 대미지를 가하고, 후방 회피는 적중한 적에게 공격력 30%*3의 물리 대미지를 가한다. 회피는 기본 공격 제2단을 연계할 수 있다.
+    subskills:
+      - name: Shape of Prudent Wisdom
+        krName: 지식 이성의 형태
+        description: |-
+          The astral body's Ultimate Evasion Skill regains additional 8.0 SP. Hitting enemies with evasion skill can also trigger Ultimate Evasion Skill, which can be connected into Basic ATK SEQ 4 by tapping [ATK]. Unleashing Basic ATK SEQ 4 through this method will allow Dreamweaver to enter Weaving state. Weaving state lasts for 15s. Triggering it again resets the duration.
+        krDescription: |-
+          정신체의 극한 회피 스킬이 추가로 SP를 8.0pt 회복한다. 회피 공격이 적에게 적중 시 극한 회피 스킬을 발동할 수 있으며, 극한 회피 스킬 발동 후 공격 버튼을 눌러 기본 공격 제4단을 연계할 수 있다. 해당 방식으로 기본 공격 제4단 발동 시 드림위버는 [위빙] 상태에 진입한다. [위빙] 상태 지속 시간: 15초, 중복 발동 시 지속 시간을 갱신한다.
+      - name: Emblem of Emerging Courage
+        krName: 빛나는 용기의 징표
+        description: |-
+          Dreamweaver gains 1 stack of Transcription for every enemy she kills. Each stack lets her deal 5.0% bonus DMG (manifests as HP loss). Each stack lasts 60s and is timed separately. 3 stacks max.
+        krDescription: |-
+          드림위버가 적을 처치할 때마다 [복사] 효과를 1스택 획득한다. 드림위버가 적 공격 시 [복사] 효과 스택마다 5.0%의 추가 대미지를 가한다(HP 감소 효과). 스택당 지속 시간: 60초, 지속 시간은 독립적으로 계산된다(최대 3스택 중첩).
+      - name: Banner of Eternal Justice
+        krName: 공리불멸의 깃발
+        description: |-
+          Being hit while Protective Appearance lasts or landing a hit while Protective Appearance is assembling triggers Ultimate Evasion Skill, and Dreamweaver enters Weaving state for 15s. Triggering it again resets the duration. Casting Ultimate SEQ 1 resets Ultimate Evasion Skill's CD. In Weaving state, Ultimate SEQ 2 deals an additional 500.0% ATK of Physical DMG before exiting Weaving state.
+        krDescription: |-
+          [형상의 비호] 지속 기간 피격되거나 [형상의 비호] 집결 시 공격이 적에게 적중하면 극한 회피 스킬을 발동하고, 드림위버가 [위빙] 상태에 진입한다. [위빙] 상태 지속 시간: 15초, 중복 발동 시 지속 시간을 갱신한다. 필살기 제1단 발동 시 극한 회피 재사용 대기시간이 초기화된다. [위빙] 상태에서 필살기 제2단은 추가로 공격력 500.0%의 물리 대미지를 가하며, [위빙] 상태를 해제한다.
+        requiredRank: s2
+  special:
+    core:
+      name: 'Charged ATK: Anguish of Eradication'
+      krName: 차지-무언의 단멸
+      description: |-
+        Gather giant rocks and sweep with the javelin.
+        Only available while controlling the astral body. Hold [ATK] to make the astral body step back and throw short spears. Tap [ATK] repeatedly to throw all short spears one by one, each dealing 130% ATK of Physical DMG. Gains Iron Body while throwing javelins.
+        Kaleidoscope: Hold [ATK] when the Javelin Meter is full to cast. The astral body gathers rocks to pull and trap nearby enemies, then swings the long spear to smash the rocks, dealing 130% x 4 + 1080% ATK of Physical DMG and replenishing all short spears.
+        Increases Crit Rate of Kaleidoscope by 15%.
+      krDescription: |-
+        정신체 조작 기간에만 발동할 수 있다. 공격 버튼을 길게 누르면 정신체가 뒤로 물러나 단창을 투척하기 시작한다. 이후 공격 버튼을 터치하면 모든 단창을 순차적으로 투척한다. 창을 투척할 때마다 공격력 130%의 물리 대미지를 가하며, 투척 기간 캐릭터는 슈퍼 아머 상태에 진입한다.
+        백상귀결: 재블린 충전이 가득 찼을 때 공격 버튼을 길게 눌러 발동하며, 정신체가 암석을 모아 주변 구역의 적을 끌어당기고 속박한다. 이후 장창으로 암석을 파괴해 공격력 130%*4+1080%의 물리 대미지를 가하고, 모든 단창을 보충한다.
+        백상귀결의 크리티컬률이 15% 증가한다.
+    subskills:
+      - name: Unfathomable Cycle
+        krName: 끝없는 순환
+        description: |-
+          Enemies take 5.0% more Total DMG when Dreamweaver's summoned entity is on the field.
+        krDescription: |-
+          전장에 드림위버의 소환물이 존재할 경우, 전장의 적이 받는 모든 대미지가 5.0% 증가한다.
+        requiredRank: sss
+      - name: Protection of the Everlasting
+        krName: 유구의 수호
+        description: |-
+          Kaleidoscope deals 30.0% more Physical DMG.
+        krDescription: |-
+          백상귀결이 가하는 물리 대미지가 30.0% 증가한다.
+      - name: Weaving a Pure Dream
+        krName: 짜여진 순수한 꿈
+        description: |-
+          Enemies take 20.0% bonus Physical DMG from Dreamweaver (independent).
+        krDescription: |-
+          적이 드림위버에게 받는 물리 대미지가 20.0% 증가한다(해당 효과는 독립적으로 계산된다).
+  ultimate:
+    core:
+      name: Transience of Dream
+      krName: 흩어지는 꿈
+      description: |-
+        Open the dream and possess an astral body.
+        SEQ 1: Pulls everything on the battlefield into a dream and summons her astral body to fight in her stead, dealing 650% ATK of Physical DMG.
+        SEQ 2: The astral body lasts 20s. Tap [ULT] 5s after casting Ultimate SEQ 1 to release Ultimate SEQ 2. Astral body throws a javelin to end the dream and switches back to the physical body, dealing 1200% ATK of Physical DMG. While casting Ultimate SEQ 2, she is invincible and triggers Time-frozen Domain, which pauses all skill timers and the stage timer.
+
+        SP cost: 50. CD: 11s (unaffected by CD reduction).
+      krDescription: |-
+        꿈 세계를 창조한 후 정신체에 빙의해 전투한다.
+        제1단: 드림위버가 전장을 꿈 세계로 감싸고 정신체를 소환해 자신을 대체하며, 공격력 650%의 물리 대미지를 가한다.
+        제2단: 정신체 지속 시간: 20초. 제1단 필살기 5초 후 필살기 버튼을 누르면 필살기 제2단을 발동할 수 있으며, 정신체는 장창을 투척해 꿈 세계를 종료하고, 본체로 교대해 공격력 1200%의 물리 대미지를 가한다. 필살기 제2단 발동 기간, 캐릭터는 무적 상태에 진입하고 정체 영역 효과를 발동해 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다.
+
+        발동 소모 SP: 50, 재사용 대기시간: 11초(재사용 대기시간 감소 효과를 받지 않는다)
+    subskills:
+      - name: Perpetual Dream
+        krName: 삶과 죽음의 꿈
+        description: |-
+          Ultimate SEQ 1 consumes more SP, up to 50 SP, to grant extra SP consumed x 0.70% ATK of Physical DMG and extra SP consumed x 0.50% Crit Rate. This effect lasts until Ultimate SEQ 2 ends, the character faints, or she exits.
+        krDescription: |-
+          필살기 제1단이 추가로 SP를 소모해 물리 대미지가 추가 소모 SP*0.70%만큼 증가하고, 크리티컬률이 추가 소모 SP*0.50%만큼 증가한다(최대 추가 소모 SP: 50pt). 해당 효과는 제2단 필살기가 종료될 때까지 지속되며, 캐릭터가 사망하거나 퇴장 시 해제된다.
+      - name: Remnant Dreams of Life and Death
+        krName: 탄생과 소멸의 꿈
+        description: |-
+          Ultimate SEQ 2 gains 100% more Crit Rate and 30.0% more Crit DMG.
+        krDescription: |-
+          필살기 제2단의 크리티컬률이 100% 증가하고, 크리티컬 대미지가 30.0% 증가한다.
+        requiredRank: s
+      - name: Ultimate Prophesy
+        krName: 시작과 끝의 꿈
+        description: |-
+          Ultimate SEQ 2 deals an extra 350.0% ATK of Physical DMG
+        krDescription: |-
+          필살기 제2단이 추가로 공격력 350.0%의 물리 대미지를 가한다.
+        requiredRank: ss
+  basic:
+    core:
+      name: Adaptability of Life
+      krName: 허무의 세상
+      description: |-
+        Physical body: Uses the banner to cast spells. Has 4 sequences. The 4th sequence is only available when Seeds of Idea are present.
+        SEQ 1: Deals 180% x 2 ATK of Physical DMG.
+        SEQ 2: Deals 240% ATK of Physical DMG.
+        SEQ 3: Generates a black hole at the target location to pull nearby enemies and deal 150% x 4 ATK of Physical DMG.
+        SEQ 4: Available when Seeds of Idea are present. Commands them to throw spears at the target, dealing 150% x 4 ATK of Physical DMG. Gains Iron Body while throwing them.
+
+        Astral body: Attacks with a javelin. Has 4 sequences.
+        SEQ 1: Deals 250% ATK of Physical DMG.
+        SEQ 2: Deals 120% + 320% ATK of Physical DMG.
+        SEQ 3: Deals 300% ATK of Physical DMG.
+        SEQ 4: Deals 350% + 650% ATK of Physical DMG. Throws up to 4 short spears, each dealing 100% ATK of Physical DMG, and fills up the Javelin Meter. Grants Iron Body when casting.
+      krDescription: |-
+        깃발 또는 재블린으로 공격한다.
+        본체: 깃발로 4단 공격한다. 그중 제3단은 전장에 이데아의 씨앗이 존재할 때에만 발동할 수 있다.
+        제1단: 공격력 180%*2의 물리 대미지를 가한다.
+        제2단: 공격력 240%의 물리 대미지를 가한다.
+        제3단: 목표 위치에 블랙홀을 생성해 적을 끌어당기고, 공격력 150%*4의 대미지를 가한다.
+        제4단: 전장에 이데아의 씨앗이 존재할 때에만 발동할 수 있다. 이데아의 씨앗을 지휘해 목표를 향해 장창을 투척하고 공격력 150%*4의 물리 대미지를 가한다. 발동 기간, 캐릭터는 슈퍼 아머 상태에 진입한다.
+        정신체: 재블린으로 4단 공격한다.
+        제1단: 공격력 250%의 물리 대미지를 가한다.
+        제2단: 공격력 120%+320%의 물리 대미지를 가한다.
+        제3단: 공격력 300%의 물리 대미지를 가한다.
+        제4단: 공격력 350%+650%의 물리 대미지를 가한다. 그 기간, 단창을 최대 4개 투척해 단창마다 공격력 100%의 물리 대미지를 가하고, 재블린을 가득 충전한다. 발동 기간, 캐릭터는 슈퍼 아머 상태에 진입한다.
+    subskills:
+      - name: 'QTE: Burden of Incarnations'
+        krName: QTE-민중의 무게
+        description: |-
+          QTE: Triggered when an enemy is in Time Fracture or impaired. Dreamweaver enters via QTE and creates a gravitational field to suppress all enemies, dealing 1,000.0% ATK of Physical DMG and directly summoning Seed of Idea. On release, QTE restores 10.0 more SP. Enemies hit by it deal 30.0% less Total DMG for 10s. Triggering it again resets the duration.
+        krDescription: |-
+          QTE: 적이 시공 단열 또는 취약 상태일 시 발동된다. 드림위버는 QTE 출전 후 중력장으로 모든 적을 제압해 공격력 1,000.0%의 물리 대미지를 가하고, 이데아의 씨앗을 소환해 출전시킨다. 발동 시 추가로 SP를 10.0pt 회복하고, 적중된 적이 가하는 모든 대미지가 30.0% 감소한다. 지속 시간: 10초, 중복 발동 시 지속 시간을 갱신한다.
+      - name: Eternal Name of Glory
+        krName: 불후의 영웅
+        description: |-
+          Astral body's Basic ATK SEQ 4 deals an extra 300.0% ATK of Physical DMG. After astral body uses Charged ATK to fully charge the Javelin Meter, tap [ATK] to connect into Basic ATK SEQ 4.
+
+        krDescription: |-
+          정신체의 기본 공격 제4격이 추가로 공격력 300.0% 의 물리 대미지를 가한다. 정신체가 차지 공격 단창 투척을 발동해 재블린 충전을 가득 채우면 공격 버튼을 터치해 기본 공격 제4단으로 연계할 수 있다.
+      - name: Poem of Ever-changing History
+        krName: 영원한 서사시
+        description: |-
+          Gain 40.0 initial SP in battle. This effect triggers once every 10mins in Open World.
+        krDescription: |-
+          전투 중 초기 SP가 40.0pt 증가하며, 오픈월드에서 10분마다 1회 발동한다.
+        requiredRank: s2
+- id: ta
+  version: '6.5'
+  name: Terminal Aide 0017
+  krName: 터미널 에이드 0017
+  type: imaginary
+  valkyrie: prometheus
+  features:
+    - physical
+    - impair
+    - time-mastery
+    - stun
+    - gather
+  equipment:
+    - weapon: pandora-s-box-18th
+      stigmataTop: mei-top
+      stigmataMid: mei-mid
+      stigmataBot: mei-bot
+      type: recommended
+  leader:
+    core:
+      name: 'Absolute Rationality'
+      krName: '불후-절대 이성'
+      description: |-
+        Leader Bonus: Team deals 24.0% more Physical DMG and has 25.0 more initial SP. Initial SP increases by another 25.0 if there are other IMG-type characters on the team (can be triggered once every 10mins in Open World).
+      krDescription: |-
+        리더로 배치 시 파티원이 버프를 받는다.
+        리더 스킬: 파티원의 물리 대미지가 24.0% 증가하고, 파티원의 초기 SP가 25.0pt 증가한다. 파티 내 다른 허수 캐릭터가 있을 경우, 파티원의 초기 SP가 추가로 25.0pt 증가한다(해당 효과는 오픈월드에서 10분마다 1회 발동한다).
+    subskills:
+      - name: 'Romantic Proof'
+        krName: '낭만의 증명'
+        description: |-
+          Increases the team's Physical DMG by 24.0% and initial SP by 25.0. When there are other IMG-type characters in the team, initial SP is increased by another 25.0 (can be triggered once every 10mins in Open World).
+        krDescription: |-
+          파티원의 물리 대미지가 24.0% 증가하고, 초기 SP가 25.0pt 증가한다. 파티 내 다른 허수 캐릭터가 존재할 경우, 파티원의 초기 SP가 추가로 25.0pt 증가한다(해당 효과는 오픈월드에서 10분마다 1회 발동한다).
+  passive:
+    core:
+      name: 'Journey: Wave-Particle Duality'
+      krName: 여정-파동 입자
+      description: |-
+        Passive bonuses apply automatically.
+        Unshielded team members gain Dense Neutron Shield. Its value starts at 2000 and caps at 3000. While active, it reduces DMG taken by 50%. When its value falls to 0, it's temporarily disabled, but can be restored through Combo ATK [Simulation: Neural Network], Ultimate [Existence: Configuration Manifold], Retaliation [Reversal Field], and Defensive Status.
+      krDescription: |-
+        패시브 스킬은 자동으로 발동한다.
+        실드 스킬의 영향을 받지 않은 캐릭터는 [고밀도 중성자 실드]를 획득한다. [고밀도 중성자 실드] 초기 실드치: 2000(최대: 3000). 실드 존재 시 캐릭터가 받은 대미지 50%만큼의 대미지를 막는다. [고밀도 중성자 실드]의 실드치가 0이 되면 일시적으로 효과가 사라지며, 분기 공격 [의사-신경망], 필살기 [존재-배위 공간], 방어 반격 [리버스 필드], [방어 상태]를 통해 회복할 수 있다.
+    subskills:
+      - name: Memories and Personality
+        krName: 기억과 성격
+        description: |-
+          Characters with Dense Neutron Shield have 60.0% more shield-breaking power for the first 15s they enter the field.
+        krDescription: |-
+          [고밀도 중성자 실드]를 보유한 캐릭터는 출전 후 15초 동안 실드 파괴력이 60.0% 증가한다.
+        requiredRank: s
+      - name: Life and Creation
+        krName: 생명과 창조물
+        description: |-
+          Characters with Dense Neutron Shield break shields 20.0% easier and have slightly improved Ignore Interrupt. Additionally, all enemies take 23.0% more Total DMG.
+        krDescription: |-
+          [고밀도 중성자 실드]를 보유한 캐릭터의 실드 파괴력이 20.0% 증가하고, 경직 저항력이 소폭 증가하며, 전장의 적이 받는 모든 대미지가 23.0% 증가한다.
+      - name: Past and Future
+        krName: 과거와 미래
+        description: |-
+          When enemies are hit by Regen: Superpartner, the team deals 35.0% more melee Physical DMG for 20s. Triggering it again resets the duration.
+        krDescription: |-
+          [재생-초대칭성 입자]가 적에게 적중 시 파티원의 근접 물리 대미지가 35.0% 증가한다. 지속 시간: 20초, 중복 발동 시 갱신
+  evasion:
+    core:
+      name: 'Destiny: Renormalization Group'
+      krName: 운명-재규격화 그룹
+      description: |-
+        PROMETHEUS's fists become a shield to defend against frontal attacks. A successful block negates the incoming attack and deals counter-attack damage.
+        Hold [EVA] to raise a shield and enter Defensive Status, negating all frontal attacks. In Defensive Status, recover 70 Enthalpy per second. Release [EVA] at the moment of being hit to achieve Absolute Defense, dealing 100% ATK of Physical DMG and inflicting 3 Stun Trauma.
+        Absolute Defense and Ultimate Evasion both restore 200 Enthalpy and trigger Ultimate Evasion Skill.
+        Ultimate Evasion Skill: [CD: 10s] Triggers global Time Fracture for 1s. In addition, when triggered by Absolute Defense, Reversal Field is unleashed.
+        Reversal Field: Fists turn into a Drill to deal 280% + 50% x 6 ATK of Physical DMG and restore 200 more Enthalpy.
+      krDescription: |-
+        프로메테우스의 건틀릿이 방패로 변해 적의 정면 공격을 방어한다. 방어 성공 시 적의 공격을 무효화하고, 반격 대미지를 가한다.
+        회피 버튼을 길게 누르면 방패를 들어올리고 [방어 상태]에 진입해 전방 적의 공격을 무효화한다. [방어 상태] 기간, 매초 [반응 에너지]를 70pt 회복하고, 피격된 순간에 회피 버튼을 떼면 [절대 방어]가 발동해 적에게 공격력 100%의 물리 대미지를 가하고, 기절 게이지를 3pt 누적한다.
+        [절대 방어]와 [극한 회피] 시 [반응 에너지]를 200pt 회복하고, 극한 회피 스킬을 발동한다.
+        극한 회피 스킬: [재사용 대기시간 10초] 1초 동안 전체 시공 단열을 발동하고, [절대 방어]를 통해 발동 시 추가로 [리버스 필드]를 발동한다.
+        [리버스 필드]에서 건틀릿은 드릴로 변해 적에게 공격력 280%+50%*6의 물리 대미지를 가하고, 추가로 [반응 에너지]를 200pt 회복한다.
+    subskills:
+      - name: Selfless Prometheus
+        krName: 자신을 잊은 불을 훔친 자
+        description: |-
+          Increases Dense Neutron Shield's maximum value to 4,000.0. Triggering Reversal Field adds 500.0 Dense Neutron Shield.
+        krDescription: |-
+          [고밀도 중성자 실드]의 실드 최대치가 4,000.0pt 증가하고, [리버스 필드] 발동 시 [고밀도 중성자 실드]의 실드치를 500.0pt 회복한다.
+        requiredRank: s
+      - name: Terminal Guardian
+        krName: 종말의 수호자
+        description: |-
+          In combat, Defensive Status adds 400.0 Dense Neutron Shield per second, and extends global Time Fracture caused by Absolute Defense to 3s.
+        krDescription: |-
+          전투 중 [방어 상태] 진입 시 매초 [고밀도 중성자 실드]의 실드치를 400.0pt 회복하고, [절대 방어]가 생성한 전체 시공 단열이 3초까지 연장된다.
+  special:
+    core:
+      name: 'Combo: Simulation: Neural Network'
+      krName: 분기-의사-신경망
+      description: |-
+        Flip the floor so enemies can't gain a foothold.
+        Enthalpy starts at 400 and caps at 400. Consume full Enthalpy to unleash Simulation: Neural Network, dealing 100% + 700% ATK of Physical DMG and inflicting 6 Stun Trauma, during which she takes 80% less Total DMG.
+        Every 100 Enthalpy consumed adds 250 Dense Neutron Shield to all team members. Simulation: Neural Network inflicts 6 Stun Trauma.
+      krDescription: |-
+        적이 서 있지 못하도록 바닥을 뒤집는다.
+        [반응 에너지] 최대치: 400pt, 초기치: 400pt, 반응 에너지가 가득 찼을 때 모든 [반응 에너지]를 소모한 후 [의사-신경망]을 발동해 적에게 공격력 100%+700%의 물리 대미지를 가하고, 기절 게이지를 6pt 누적한다. 그 기간, 캐릭터가 받는 모든 대미지가 80% 감소한다.
+        [반응 에너지]를 100pt 소모할 때마다 파티원이 [고밀도 중성자 실드]의 실드치를 250pt 획득한다.
+    subskills:
+      - name: Backpropagation
+        krName: 오차 역전파
+        description: |-
+          Every attack from teammates with Dense Neutron Shield restores 3.50 SP to Terminal Aide 0017. CD: 1.0s. CD is shared across the team.
+        krDescription: |-
+          [고밀도 중성자 실드]를 보유한 다른 아군 캐릭터가 적을 공격할 때마다 터미널 에이드 0017의 SP를 3.50pt 회복한다. 재사용 대기시간: 1.0초, 파티원이 해당 재사용 대기시간을 공유한다.
+      - name: Convolution
+        krName: 컨벌루션
+        description: |-
+          For every 100 Enthalpy that Ultimate [Existence: Configuration Manifold] and Combo ATK [Simulation: Neural Network] consumes, it increases her own shield-breaking power by 120.0%, Physical DMG by 19.0%, and Crit Rate by 21.0% for 5s. Can stack up to 4 stacks. Triggering it again resets the duration. If 400 Enthalpy is consumed at once, enemies hit will also be inflicted with Impair, lowering their defence by 70% for 5s. Convolution's CD is 12s. Unleashing Basic ATK [Assertion: Transfinite Cardinal Number] SEQ 4 can remove this CD.
+        krDescription: |-
+          필살기 [존재-배위 공간]과 분기 공격 [의사-신경망]이 [반응 에너지]를 100pt 소모할 때마다 자신의 실드 파괴력이 120.0%, 물리 대미지가 19.0%, 크리티컬률이 21.0% 증가한다(최대 4스택 중첩). 지속 시간: 5초, 중복 발동 시 갱신. 한 번에 [반응 에너지]를 400pt 소모하면 적중한 적에게 추가로 취약 효과를 부가하고, 5초 동안 방어력을 70% 감소시킨다. [컨벌루션] 재사용 대기시간: 12초, 기본 공격 [단언-초한기수] 제4격 발동 시 해당 재사용 대기시간이 삭제된다.
+  ultimate:
+    core:
+      name: 'Existence: Configuration Manifold'
+      krName: 존재-배위 공간
+      description: |-
+        A dazzling tambourine dance.
+        After casting Ultimate, Valkyrie Quicksand will enter Dancing state and begin dancing, dealing 500% ATK of Physical DMG to all enemies and inflicting Collapse on QUA enemies once.
+
+        Then button prompts will appear 5 times to the beat:
+        Perfect judgment: Deals 500% ATK of Physical DMG to nearby enemies.
+        Good judgment: Deals 450% ATK of Physical DMG to nearby enemies.
+
+        SP: 125. CD: 20s.
+      krDescription: |-
+        바닥에서 뚫고 올라온 거대한 건틀릿이 적을 단단히 움켜잡는다.
+        발동 소모 SP: 90, 재사용 대기시간: 20초. 프로메테우스가 블랙홀을 생성해 적을 모으고, 지면 아래에서 거대화한 건틀릿을 뻗어 적을 움켜잡아 공격력 1200%의 물리 대미지를 가하고, 기절 게이지를 18pt 누적한다. 필살기는 현재 있는 [반응 에너지]를 전부 소모한다.
+    subskills:
+      - name: Intersection of Past and Present
+        krName: 교차하는 현재와 과거
+        description: |-
+          Casting Ultimate [Existence: Configuration Manifold] increases the team's Crit DMG by 25.0% for 22s. Triggering it again resets the duration.
+        krDescription: |-
+          필살기 [존재-배위 공간] 발동 시 파티원의 크리티컬 대미지가 25.0% 증가한다. 지속 시간: 22초, 중복 발동 시 갱신
+        requiredRank: s
+      - name: Antithetical World
+        krName: 나뭇가지를 문 비둘기
+        description: |-
+          Increases the Crit DMG dealt by Ultimate [Existence: Configuration Manifold] and Combo ATK [Simulation: Neural Network] by 100.0%.
+        krDescription: |-
+          필살기 [존재-배위 공간]과 분기 공격 [의사-신경망]이 가하는 크리티컬 대미지가 100.0% 증가한다.
+  basic:
+    core:
+      name: 'Assertion: Transfinite Cardinal Number'
+      krName: 단언-초한기수
+      description: |-
+        Attack with shapeshifting fists.
+        SEQ 1: Deals 150% ATK of Physical DMG and restores 15 Enthalpy.
+        SEQ 2: Deals 180% ATK of Physical DMG and restores 15 Enthalpy.
+        SEQ 3: Deals 70% x 6 ATK of Physical DMG and restores 30 Enthalpy.
+        SEQ 4: Deals 180% + 40% x 3 ATK of Physical DMG, inflicts 3 Stun Trauma, and restores 45 Enthalpy.
+      krDescription: |-
+        춤을 추며 차크람을 휘둘러 참격을 발동한다.
+        제1격: 공격력 120%의 물리 대미지를 가하고, 자신감을 50pt 회복한다.
+        제2격: 공격력 50% + 120%의 물리 대미지를 가하고, 자신감을 50pt 회복한다.
+        제3격: 공격력 200%의 물리 대미지를 가하고, 자신감을 50pt 회복한다.
+        제4격: 공격력 100% x 3의 물리 대미지를 가하고, 자신감을 50pt 회복하며, 적중한 적에게 출혈 게이지를 4pt 누적한다.
+    subskills:
+      - name: 'QTE: Axiom of Choice'
+        krName: QTE-선택공리
+        description: |-
+          QTE: Triggered when an enemy is Time-Slowed or hit by a teammate's Charged/Combo ATK. Deals 600.0% ATK of Physical DMG, fully restores Enthalpy, and reduces switch CD by 4s.
+        krDescription: |-
+          QTE: 적이 시공 감속 또는 아군 캐릭터의 차지 공격/분기 공격에 적중 시 발동한다: 공격력 600.0%의 물리 대미지를 가하고, [반응 에너지]를 전부 회복하며, 교대된 캐릭터의 교대 시간이 4초 감소한다.
+      - name: Incompleteness Theorem
+        krName: 불완전성 정리
+        description: |-
+          On hit, Axiom of Choice restores 5.0 SP to team and another 5.0 SP to self, and increases self Total DMG by 65.0% for 6s. CD: 12s.
+        krDescription: |-
+          [선택공리] 발동 후, 파티원의 SP를 5.0pt 회복하고, 추가로 자신의 SP를 #3[f1]pt 회복한다. 6초 동안 자신의 모든 대미지가 65.0% 증가한다. 재사용 대기시간: 12초
+      - name: Set Paradox
+        krName: 패러독스
+        description: |-
+          Within 2s of landing Basic ATK, Assertion: Transfinite Cardinal Number SEQ 4, Defensive Status restores 85.0 more Enthalpy per second.
+        krDescription: |-
+          기본 공격 [단언-초한기수] 제4격이 적에게 적중 시 2초 동안 [방어 태세]에 진입하고, 매초 추가로 [반응 에너지]를 85.0pt 회복한다.
+        requiredRank: s
+  sp:
+    core:
+      name: 'Regen: Superpartner'
+      krName: 재생-초대칭성 입자
+      description: |-
+        Colossal palm flattens enemies from above.
+        When PROMETHEUS' Combo ATK Simulation: Neural Network or Ultimate Existence: Configuration Manifold hits, if this attack has consumed 400 Enthalpy, it will trigger Regen: Superpartner to deal 800% ATK of Physical DMG that is regarded as Ultimate DMG, during which she takes 80% less Total DMG and triggers 2s of global Time Fracture. If Regen: Superpartner hits a Nihilus Seed whose current HP is under 20%, it instantly destroys its current phase.
+      krDescription: |-
+        거대한 손바닥이 하늘에서 떨어진다.
+        프로메테우스가 분기 공격 [의사-신경망]과 필살기 [존재-배위 공간]으로 적을 공격했을 때 해당 공격이 [반응 에너지]를 400pt 소모했을 경우 [재생-초대칭성 입자] 공격을 발동해 공격력 800%의 물리 대미지를 가한다(필살기 대미지로 간주). 그 기간, 캐릭터가 받는 모든 대미지가 80% 감소하고, 2초 동안 전체 시공 단열을 발동한다. [재생-초대칭성 입자]가 [허무의 씨앗]에 적중했을 때 현재 단계의 [허무의 씨앗] HP가 20% 미만일 경우, 현재 단계의 HP가 즉시 소멸한다.
+    subskills:
+      - name: Recollections
+        krName: 추억
+        description: |-
+          When hit by Regen: Superpartner, IMG enemies drop an SP pack. CD: 20s. They also take 27.0% more Total DMG from Physical DMG characters for 20s. Triggering it again resets the duration.
+        krDescription: |-
+          [재생-초대칭성 입자]가 허수 적에게 적중 시 SP 팩이 1개 드랍된다. 재사용 대기시간: 20초. 현재 전장의 허수 적이 물리 특성의 캐릭터에게 받는 모든 대미지가 27.0% 증가한다. 지속 시간: 20초, 중복 발동 시 갱신
+        requiredRank: s
+      - name: Continuation
+        krName: 계승
+        description: |-
+          If Regen: Superpartner hits enemies with broken shield, or if their shields are broken within 10s, shield recovery time will be frozen for 5.0s. The shield recovery time of these enemies cannot be frozen again thereafter, until the next time they have fully recovered their shields.
+        krDescription: |-
+          [재생-초대칭성 입자]에 적중한 적의 실드가 파괴된 상태거나 실드가 10초 이내에 파괴되면 실드의 회복 시간이 동결된다. 지속 시간: 5.0초. 해당 적은 실드를 전부 회복하기 전까지 해당 스킬에 실드 회복 시간이 동결되지 않는다.
+        requiredRank: ss
+      - name: New Life
+        krName: 신생
+        description: |-
+          Regen: Superpartner deals 120.0% more Crit DMG.
+        krDescription: |-
+          [재생-초대칭성 입자]가 가하는 크리티컬 대미지가 120.0% 증가한다.
+        requiredRank: sss
 - id: vq
   version: '6.5'
   name: Valkyrie Quicksand
   krName: 발키리·열정의 사막
   type: quantum
-  valkyrie: Susannah
+  valkyrie: susannah
   features:
     - physical
     - bleed

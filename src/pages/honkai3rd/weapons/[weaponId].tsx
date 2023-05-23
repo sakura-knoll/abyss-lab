@@ -5,11 +5,7 @@ import SquareImageBox from '../../../components/atoms/SquareImageBox'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import { weaponCategories, WeaponData } from '../../../lib/honkai3rd/weapons'
 import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
-import {
-  getWeaponById,
-  getWeaponMapByIds,
-  listWeapons,
-} from '../../../server/data/honkai3rd/weapons'
+import { getWeaponById, getWeaponMapByIds, listWeapons } from '../../../server/data/honkai3rd/weapons'
 import { useTranslation } from '../../../lib/i18n'
 import Head from '../../../components/atoms/Head'
 import PageLink from '../../../components/atoms/PageLink'
@@ -26,29 +22,19 @@ interface WeaponShowPageProps {
   weaponMap: { [key: string]: WeaponData }
 }
 
-const WeaponShowPage = ({
-  weapon,
-  battlesuitMap,
-  weaponMap,
-}: WeaponShowPageProps) => {
+const WeaponShowPage = ({ weapon, battlesuitMap, weaponMap }: WeaponShowPageProps) => {
   const { t } = useTranslation()
 
   const weaponCategoryName = t(`weapons-show.${weapon.category}`)
-  const weaponCategory = weaponCategories.find(
-    (category) => category.value === weapon.category
-  )
+  const weaponCategory = weaponCategories.find(category => category.value === weapon.category)
 
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${weapon.name} - ${t('common.honkai-3rd')} - ${t(
-          'common.abyss-lab'
-        )}`}
-        description={`${t('common.honkai-3rd')} ${t(
-          'weapons-show.weapon'
-        )} / ${'⭐'.repeat(weapon.rarity)} / ${weaponCategoryName} / ATK : ${
-          weapon.atk
-        } / CRT : ${weapon.crt}`}
+        title={`${weapon.name} - ${t('common.honkai-3rd')} - ${t('common.abyss-lab')}`}
+        description={`${t('common.honkai-3rd')} ${t('weapons-show.weapon')} / ${'⭐'.repeat(
+          weapon.rarity
+        )} / ${weaponCategoryName} / ATK : ${weapon.atk} / CRT : ${weapon.crt}`}
         canonicalHref={`/honkai3rd/weapons/${weapon.id}`}
       />
 
@@ -59,12 +45,12 @@ const WeaponShowPage = ({
             { href: '/honkai3rd/weapons', label: t('common.weapons') },
             {
               href: `/honkai3rd/weapons/${weapon.id}`,
-              label: weapon.name,
-            },
+              label: weapon.name
+            }
           ]}
         />
 
-        <Heading as='h1'>{weapon.name}</Heading>
+        <Heading as="h1">{weapon.name}</Heading>
 
         <Box mb={3}>
           <SquareImageBox
@@ -79,7 +65,7 @@ const WeaponShowPage = ({
             <PageLink
               href={{
                 pathname: '/honkai3rd/weapons',
-                query: { category: weapon.category },
+                query: { category: weapon.category }
               }}
             >
               <Flex>
@@ -103,39 +89,26 @@ const WeaponShowPage = ({
           </Box>
           {weapon.battlesuits != null && weapon.battlesuits.length > 0 && (
             <Box sx={{ p: 2, borderTop: 'default' }}>
-              <Heading as='h4'>{t('weapons-show.best-on')}</Heading>
+              <Heading as="h4">{t('weapons-show.best-on')}</Heading>
               {weapon.battlesuits.map(({ id: battlesuitId }) => {
-                return (
-                  <BattlesuitCard
-                    key={battlesuitId}
-                    size='sm'
-                    battlesuit={battlesuitMap[battlesuitId]}
-                  />
-                )
+                return <BattlesuitCard key={battlesuitId} size="sm" battlesuit={battlesuitMap[battlesuitId]} />
               })}
             </Box>
           )}
           {weapon.priWeapon != null && (
             <Box sx={{ p: 2, borderTop: 'default' }}>
-              <Heading as='h4'>{t('weapons-show.pri-weapon')}</Heading>
-              <WeaponCard size='sm' weapon={weaponMap[weapon.priWeapon]} />
+              <Heading as="h4">{t('weapons-show.pri-weapon')}</Heading>
+              <WeaponCard size="sm" weapon={weaponMap[weapon.priWeapon]} />
             </Box>
           )}
-          {weapon.originalWeapons != null &&
-            weapon.originalWeapons.length > 0 && (
-              <Box sx={{ p: 2, borderTop: 'default' }}>
-                <Heading as='h4'>{t('weapons-show.original-weapon')}</Heading>
-                {weapon.originalWeapons.map((originalWeaponId) => {
-                  return (
-                    <WeaponCard
-                      key={originalWeaponId}
-                      size='sm'
-                      weapon={weaponMap[originalWeaponId]}
-                    />
-                  )
-                })}
-              </Box>
-            )}
+          {weapon.originalWeapons != null && weapon.originalWeapons.length > 0 && (
+            <Box sx={{ p: 2, borderTop: 'default' }}>
+              <Heading as="h4">{t('weapons-show.original-weapon')}</Heading>
+              {weapon.originalWeapons.map(originalWeaponId => {
+                return <WeaponCard key={originalWeaponId} size="sm" weapon={weaponMap[originalWeaponId]} />
+              })}
+            </Box>
+          )}
           {/* {weapon.sources != null && (
             <Box sx={{ p: 2, borderTop: 'default' }}>
               <Heading as='h4'>{t('weapons-show.sources')}</Heading>
@@ -149,16 +122,16 @@ const WeaponShowPage = ({
         </Card>
 
         <Box>
-          {weapon.skills.map((skill) => {
+          {weapon.skills.map(skill => {
             return (
               <Card key={skill.name} mb={3}>
-                <Heading as='h3' p={2} m={0} sx={{ borderBottom: 'default' }}>
+                <Heading as="h3" p={2} m={0} sx={{ borderBottom: 'default' }}>
                   {skill.name}
                 </Heading>
                 <Paragraph
                   p={2}
                   sx={{
-                    whiteSpace: 'pre-wrap',
+                    whiteSpace: 'pre-wrap'
                   }}
                 >
                   {skill.description}
@@ -174,15 +147,10 @@ const WeaponShowPage = ({
 
 export default WeaponShowPage
 
-export async function getStaticProps({
-  params,
-  locale,
-}: NextPageContext & { params: { weaponId: string } }) {
+export async function getStaticProps({ params, locale }: NextPageContext & { params: { weaponId: string } }) {
   const weapon = getWeaponById(params.weaponId, locale)
   const battlesuitMap = getBattlesuitMapByIds(
-    weapon != null && weapon.battlesuits != null
-      ? weapon.battlesuits.map(({ id }) => id)
-      : [],
+    weapon != null && weapon.battlesuits != null ? weapon.battlesuits.map(({ id }) => id) : [],
     locale
   )
 
@@ -202,20 +170,20 @@ export async function getStaticProps({
       weapon,
       battlesuitMap,
       weaponMap,
-      ...(await getI18NProps(locale)),
-    },
+      ...(await getI18NProps(locale))
+    }
   }
 }
 
 export async function getStaticPaths() {
   return {
     paths: generateI18NPaths(
-      listWeapons().map((weapon) => {
+      listWeapons().map(weapon => {
         return {
-          params: { weaponId: weapon.id },
+          params: { weaponId: weapon.id }
         }
       })
     ),
-    fallback: false,
+    fallback: false
   }
 }
