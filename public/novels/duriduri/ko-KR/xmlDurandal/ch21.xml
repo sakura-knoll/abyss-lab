@@ -1,521 +1,522 @@
 <?xml version="1.0" encoding="utf-8"?>
 <data>
-  <story>
-    <scene id="0" background="bg.jpg">
-	    <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
-	    <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
-	    <goto goto="10" change="#000000"/>
-    </scene>
-    <scene id="10" background="CG20-2.jpg">
-	    <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
-	    <speak chara="_Roland">共和国の慰霊碑だ。</speak>
-	    <speak chara="_Roland">裏に名が刻まれている。遺体を回収できなかった戦士の名と……</speak>
-	    <speak chara="_Roland">……遺体を残せない星語者の名だ。</speak>
-	    <goto goto="20" change="0"/>
-    </scene>
-    <scene id="20" background="chileRiverMountain.jpg">
-	    <bgm src="12_14_Sonnet_18.mp3" status="continue"></bgm>
-	    <show chara="biankaDressBiteClose" position="left"/>
-	    <speak chara="_Bianka">……遺体を残せない？そ、それは言葉のままの意味ですか？</speak>
-	    <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
-	    <show chara="rolandNormalClose" position="right"/>
-	    <speak chara="_Roland">ああ。星語者が致命傷を受けると、体を構築する物質が急激に崩壊し……砂のように消えてしまう。</speak>
-	    <show chara="rolandNormalClose" position="right" opacity="0.8"/>
-	    <show chara="ritaVestHesitateClose" position="left"/>
-	    <speak chara="_Rita">……</speak>
-	    <show chara="ritaVestHesitateClose" position="left" opacity="0.8"/>
-	    <show chara="rolandEmbarrassClose" position="right"/>
-	    <speak chara="_Roland">あはは……恐ろしい事実を言ってしまったようだ……</speak>
-	    <show chara="rolandLaughClose" position="right"/>
-	    <speak chara="_Roland">どうにもならないことを気にしてもしかたがない！むしろ、体を残しては手間をかけさせてしまうだろう？ははは……</speak>
-	    <show chara="rolandLaughClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressShockClose" position="left"/>
-	    <speak chara="_Bianka">……</speak>
-	    <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
-	    <show chara="rolandSmileClose" position="right"/>
-	    <speak chara="_Roland">そうだ——私が先ほど肩に飾ったこれに気がついたか？</speak>
-	    <show chara="rolandSmileClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressNormalClose" position="left"/>
-	    <speak chara="_Bianka">それは……階級章ですか？</speak>
-	    <show chara="biankaDressNormalClose" position="left" opacity="0.8"/>
-	    <show chara="rolandLaughClose" position="right"/>
-	    <speak chara="_Roland">そうだ、「副軍級指揮官」の階級章だ。要塞に入る時はつける規則になっている。</speak>
-	    <show chara="rolandEmbarrassClose" position="right"/>
-	    <speak chara="_Roland">だが、こんな硬い物を動力装甲の中でつけていると、少しの間ならまだしも……長時間はきついのだ。</speak>
-	    <show chara="rolandSmileClose" position="right"/>
-	    <speak chara="_Roland">だから、私と兵はいつも外している。ははは。</speak>
-	    <show chara="rolandSmileClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressHesitateClose" position="left"/>
-	    <speak chara="_Bianka">あの……</speak>
-	    <show chara="biankaDressNormalClose" position="left"/>
-	    <speak chara="_Bianka">動力装甲といえば、ずっと疑問に思っていたのですが……</speak>
-	    <show chara="biankaDressHesitateClose" position="left"/>
-	    <speak chara="_Bianka">ローランドさん自身、崩壊エネルギーに対抗できる力があるのなら——あんな重い防具を装備しなくても平気なんじゃないですか？</speak>
-	    <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
-	    <show chara="rolandSmileClose" position="right"/>
-	    <speak chara="_Roland">ああ……単純に機動面から言えばそうなるだろう……</speak>
-	    <show chara="rolandNormalClose" position="right"/>
-	    <speak chara="_Roland">でも、私は思うのだ——兵士たちが毎日こんな重い機械をまとわなければならないのなら、私だけ特別であってはならないと。</speak>
-	    <show chara="rolandSeriousClose" position="right"/>
-	    <speak chara="_Roland">兵士たちと同じ立場になることで、戦場で的確かつ柔軟な指令を出せる。</speak>
-	    <show chara="rolandNormalClose" position="right"/>
-	    <speak chara="_Roland">……軍の指揮を執るということは、たくさんの人間の命を握っているのと等しいのだからな。</speak>
-	    <show chara="rolandSeriousClose" position="right"/>
-	    <speak chara="_Roland">常日頃から気を引き締めなければならない。</speak>
-	    <show chara="rolandSeriousClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressShockClose" position="left"/>
-	    <speak chara="_Bianka">……</speak>
-	    <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
-	    <show chara="rolandEmbarrassClose" position="right"/>
-	    <speak chara="_Roland">ああ……私としたことがまた重い話をしてしまった。</speak>
-	    <show chara="rolandLaughClose" position="right"/>
-	    <speak chara="_Roland">行こう、谷の向こうの——トンネルと要塞へ！</speak>
-	    <goto goto="30" change="#ffffff"/>
-    </scene>
-    <scene id="30" background="railwayChileValley.jpg">
-	    <bgm src="12_29_busyHarbor.mp3" status="start"></bgm>
-	    <show chara="biankaDressSmileAhClose" position="left"/>
-	    <speak chara="_Bianka">これは……線路？列車が通っているんですか？</speak>
-	    <show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
-	    <show chara="rolandArmorSmileClose" position="right"/>
-	    <speak chara="_Roland">ああ、兵も物資も、急を要さないものは鉄道で運ぶんだ。</speak>
-	    <show chara="rolandArmorLaughClose" position="right"/>
-	    <speak chara="_Roland">こっちがトンネルのメイン入り口で、帯域幅が広くなっている。</speak>
-	    <show chara="rolandArmorLaughClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressShockClose" position="left"/>
-	    <speak chara="_Bianka">……帯域幅？インターネットの？</speak>
-	    <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
-	    <show chara="rolandArmorSmileClose" position="right"/>
-	    <speak chara="_Roland">そうだが？データ通信の通信規格は帯域幅というのだろう？</speak>
-	    <show chara="rolandArmorEmbarrassClose" position="right"/>
-	    <speak chara="_Roland">……ん？言ってなかったか？「ワカートンネル」が地表の異なる場所へと繋げられるのは、物質をデータ化した後、そのデータを物質化できるからだ。</speak>
-	    <show chara="rolandArmorEmbarrassClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressShoutClose" position="left"/>
-	    <speak chara="_Bianka">そ、それってゲニウスの原理と同じじゃありませんか！</speak>
-	    <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
-	    <show chara="rolandArmorLaughClose" position="right"/>
-	    <speak chara="_Roland">あなたたちを送ってきた技術も似たようなものだったのか？ふふ、なら今から体験するものはきっと既視感を覚えるだろう。</speak>
-	    <goto goto="40" clockwise="1"/>
-    </scene>
-    <scene id="40" background="railwayStationSaksaqWaman.jpg">
-	    <bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
-	    <show chara="shakesCasualLaughClose" position="left"/>
-	    <speak chara="_Shakespeare">おや、時代を感じる駅だね！</speak>
-	    <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
-	    <show chara="rolandArmorEmbarrassClose" position="right"/>
-	    <speak chara="_Roland">それは……ここが本物の遺跡だからだ。</speak>
-	    <show chara="rolandArmorSmileClose" position="right"/>
-	    <speak chara="_Roland">昔の人たちは自然を崇拝し、ここに神廟を立てた——数千年も存在したこの石の壁がその信仰心の証だ。</speak>
-	    <show chara="rolandArmorLaughClose" position="right"/>
-	    <speak chara="_Roland">輸送車に乗ってきた兵士はここで降り、地下でトンネル内部への専用列車に乗り換える。</speak>
-	    <show chara="rolandArmorSmileClose" position="right"/>
-	    <speak chara="_Roland">手続きをしてくる、皆さんはホームで少々待っていてくれ。</speak>
-	    <show chara="rolandArmorSmileClose" position="right" opacity="0.8"/>
-	    <show chara="shakesCasualConfidentClose" position="left"/>
-	    <speak chara="_Shakespeare">ああ、頼んだよ！</speak>
-	    <hide position="left"></hide>
-	    <hide position="right"></hide>
-	    <text>重い動力装甲のまま走り、騎士は番所らしき建物に入っていった。すると、遠くから懐かしさを呼び起こす汽笛の音が聞こえてくる。</text>
-	    <text>高緯度地域の涼しい秋風が髪を撫で、ビアンカはアルハンゲリスク洲にいた数日を思い出した。</text>
-	    <text article="1">
-<p class="article-text">Архангельск——ローマ字で書くとArkh-angel-sk、「大天使の町」。極北支部のこの町の責任者は「ミシャ」という名のD級戦乙女。事務職でありながら、一人で州全体を上手くまとめていた。</p>
-</text>
-	    <text article="1">
-<p class="article-text">ミシャはかつて、天命のすべての機関がここのように暇で、戦乙女が任務を受けて崩壊獣をただ始末するだけの単純なものであったなら——世界はきっと美しいだろうなと言った。ここに住むすべての人が平和な日々を送っていたからこその言葉である。</p>
-</text>
-	    <text>汽笛が徐々に近づいてくる。要塞へ新しい物資や兵士を届けにきたのだろう。</text>
-	    <text>番所から出てきたローランドは、手に持つ通行証らしきものをひらひらと振ってみせた。</text>
-	    <text>動力装甲は預けたようだ——ミシャのように小さくてかわいらしい。</text>
-	    <text>ビアンカは手の振る方へと走り出した——</text>
-	    <text>——心の内で、世界の平和を祈りながら。</text>
-	    <goto goto="50" clockwise="1"/>
-    </scene>
-    <scene id="50" background="railwayStationTunnel.jpg">
-	    <bgm src="11_29_lab.mp3" status="start"></bgm>
-	    <show chara="shakesCasualQuestionClose" position="left"/>
-	    <speak chara="_Shakespeare">ふう……長い階段はヒザにくるねぇ。</speak>
-	    <show chara="shakesCasualNormalClose" position="left"/>
-	    <speak chara="_Shakespeare">しかし、まあ——今からこれに乗るのかい？何というか……かわいいね？</speak>
-	    <show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
-	    <show chara="rolandEmbarrassClose" position="right"/>
-	    <speak chara="_Roland">あははっ、これは従来の軽量型トロッコを改造したものなんだ。</speak>
-	    <speak chara="_Roland">「ワカートンネル」は内部の掘削にかかるコストが高い、だから最も負担の少ない設計案を選ぶことになったんだよ。</speak>
-	    <show chara="rolandEmbarrassClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressSmileAhClose" position="left"/>
-	    <speak chara="_Bianka">まあ、女の子だけでしたらちょうど良さそうですね？そこのおじいさんは大変かもしれませんが。</speak>
-	    <show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
-	    <show chara="cervantesSmileClose" position="right"/>
-	    <speak chara="_Miguel">いやいや、そこの兵士を見てみい、動力装甲のまま乗っておるぞ。それに比べたら、少し屈むくらいどうってことないじゃろう？</speak>
-	    <show chara="champoSweatyClose" position="right"/>
-	    <speak chara="_Champollion">「女の子だけなら」ってなんだい。身長なら私が一番高いはずだろう？……は、はっ……くしゅん！</speak>
-	    <show chara="champoSweatyClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressSmileClose" position="left"/>
-	    <speak chara="_Bianka">あなたは若いじゃないですか。それともデスクワークのしすぎで腰がおじいちゃんなんですか？</speak>
-	    <show chara="biankaDressSighClose" position="left"/>
-	    <speak chara="_Bianka">どうりで、一人だけ風邪を引いてるわけです。</speak>
-	    <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
-	    <show chara="cervantesSmileClose" position="right"/>
-	    <speak chara="_Miguel">まあ、せっかくじゃし早速乗ってみるとしよう！</speak>
-	    <show chara="cervantesLaughClose" position="right"/>
-	    <speak chara="_Miguel">ガレアス船のオールを漕いだ日々を思い出すのう——今回は肉体を使わずに済むようじゃが、ハハハハッ！</speak>
-	    <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
-	    <show chara="shakesCasualConfidentClose" position="left"/>
-	    <speak chara="_Shakespeare">わお、オールを漕いだ日々だって！？男性ホルモンが臭う場所だね、演劇にメリハリを与えてくれる！</speak>
-	    <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
-	    <show chara="cervantesSmileClose" position="right"/>
-	    <speak chara="_Miguel">何のことだかさっぱりじゃが——大いに同意する。汗水はこの世で最も醜く、最も美しいものの一つじゃからな！</speak>
-	    <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressSighClose" position="left"/>
-	    <speak chara="_Bianka">……文豪の趣味はよくわかりません。</speak>
-	    <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
-	    <show chara="ritaVestSquintClose" position="right"/>
-	    <speak chara="_Rita">芸術家の考えていることがわかりやすかったら、芸術も深みがなくなってしまいますから。</speak>
-	    <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressHesitateClose" position="left"/>
-	    <speak chara="_Bianka" remark="next">はぁ……そうやって甘やかすから、トイレを逆さにしただけで芸術品だとのたまう人間が出てくるんです。</speak>
+	<story>
+		<scene id="0" background="bg.jpg">
+			<bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+			<cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+			<goto goto="10" change="#000000"/>
+		</scene>
+		<scene id="10" background="CG20-2.jpg">
+			<bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+			<speak chara="_Roland">앞에 있는 건, 공화국의 위령비에요.</speak>
+			<speak chara="_Roland">뒤로는 유해를 회수할 수 없었던 전사들의 이름이 새겨져있죠……</speak>
+			<speak chara="_Roland">……「별을 이야기하는 자」들은 유해를 남기지 않으니까요.</speak>
+			<goto goto="20" change="0"/>
+		</scene>
+		<scene id="20" background="chileRiverMountain.jpg">
+			<bgm src="12_14_Sonnet_18.mp3" status="continue"></bgm>
+			<show chara="biankaDressBiteClose" position="left"/>
+			<speak chara="_Bianka">……유해를 남기지 않는다고요? 그, 그게 무슨 소리인가요?</speak>
+			<show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+			<show chara="rolandNormalClose" position="right"/>
+			<speak chara="_Roland">네, 별을 이야기하는 자가 치명상을 입으면, 신체를 구성하는 물질이 빠르게 무너져내리기 시작하죠…… 모래가 되듯 사라져버려요.</speak>
+			<show chara="rolandNormalClose" position="right" opacity="0.8"/>
+			<show chara="ritaVestHesitateClose" position="left"/>
+			<speak chara="_Rita">……</speak>
+			<show chara="ritaVestHesitateClose" position="left" opacity="0.8"/>
+			<show chara="rolandEmbarrassClose" position="right"/>
+			<speak chara="_Roland">아하하…… 끔찍한 얘기를 별생각 없이 내뱉은 것 같네요……</speak>
+			<show chara="rolandLaughClose" position="right"/>
+			<speak chara="_Roland">그래도 저희가 신경 쓴다고 딱히 달라질 건 없으니 너무 걱정하진 마세요! 적어도 「유해 수습」을 위해 수고를 들일 필요는 없으니까요……</speak>
+			<show chara="rolandLaughClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="left"/>
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+			<show chara="rolandSmileClose" position="right"/>
+			<speak chara="_Roland">아, 그렇지——다들 제 어깨에 있는 장식이 신경 쓰이시나 봐요?</speak>
+			<show chara="rolandSmileClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressNormalClose" position="left"/>
+			<speak chara="_Bianka">그거…… 계급장 같은 건가요?</speak>
+			<show chara="biankaDressNormalClose" position="left" opacity="0.8"/>
+			<show chara="rolandLaughClose" position="right"/>
+			<speak chara="_Roland">맞아요. 「부 지휘관」을 의미해요. 규정상 요새에 들어갈 때 꼭 착용해야만 하죠.</speak>
+			<show chara="rolandEmbarrassClose" position="right"/>
+			<speak chara="_Roland">하지만, 갑옷을 입을 때 이런 딱딱한 걸 차고 있으면…… 잠깐은 괜찮더라도, 나중엔 정말 불편해져요.</speak>
+			<show chara="rolandSmileClose" position="right"/>
+			<speak chara="_Roland">그래서 저랑 병사들은 평소엔 떼어두고 다니죠! 하하하하.</speak>
+			<show chara="rolandSmileClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressHesitateClose" position="left"/>
+			<speak chara="_Bianka">그……</speak>
+			<show chara="biankaDressNormalClose" position="left"/>
+			<speak chara="_Bianka">실은…… 그 갑옷에 대해, 하나 궁금한 게 있는데요……</speak>
+			<show chara="biankaDressHesitateClose" position="left"/>
+			<speak chara="_Bianka">롤랑 씨는 이미 붕괴능에 저항력이 있는데——그런 무거운 방호구는 필요 없지 않나요?</speak>
+			<show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+			<show chara="rolandSmileClose" position="right"/>
+			<speak chara="_Roland">흠…… 단순히 기동성만 생각하면 그렇기는 한데……</speak>
+			<show chara="rolandNormalClose" position="right"/>
+			<speak chara="_Roland">제 개인적인 생각이긴 한데——병사들은 매일 이 무거운 장비를 조작해야 하는데, 저만 특별한 대접을 받는 건 좀 그렇달까요?</speak>
+			<show chara="rolandSeriousClose" position="right"/>
+			<speak chara="_Roland">평소에 병사들이 어떤 고충을 겪는지 이해하지 못하면, 신속함과 유연함이 필요한 전장에 제대로 된 명령을 내리는 건 불가능에 가깝겠죠.</speak>
+			<show chara="rolandNormalClose" position="right"/>
+			<speak chara="_Roland">……지휘관이 되면, 매 순간 내리는 명령들이——수많은 사람들의 생사를 결정짓게 되니까요.</speak>
+			<show chara="rolandSeriousClose" position="right"/>
+			<speak chara="_Roland">그러니 군인이라면 누구나 꼭 명심해야해요. 자신의 선택에 누군가의 목숨이 걸려있다는 것을.</speak>
+			<show chara="rolandSeriousClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="left"/>
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+			<show chara="rolandEmbarrassClose" position="right"/>
+			<speak chara="_Roland">아…… 정말, 제가 또 무거운 주제로 돌려버리고 말았네요.</speak>
+			<show chara="rolandLaughClose" position="right"/>
+			<speak chara="_Roland">어서 가요! 계곡을 지나——요새로 향하는 터널로!</speak>
+			<goto goto="30" change="#ffffff"/>
+		</scene>
+		<scene id="30" background="railwayChileValley.jpg">
+			<bgm src="12_29_busyHarbor.mp3" status="start"></bgm>
+			<show chara="biankaDressSmileAhClose" position="left"/>
+			<speak chara="_Bianka">이거…… 철로 아냐? 여기 기차 같은 거라도 다니는 거예요?</speak>
+			<show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
+			<show chara="rolandArmorSmileClose" position="right"/>
+			<speak chara="_Roland">네! 병력이나 물자나, 딱히 서두를 게 없다면, 언제나 기차를 이용해요.</speak>
+			<show chara="rolandArmorLaughClose" position="right"/>
+			<speak chara="_Roland">여긴 터널의 주요 통로다 보니, 대역이 비교적 크거든요.</speak>
+			<show chara="rolandArmorLaughClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="left"/>
+			<speak chara="_Bianka">……대역요? 인터넷 속도 같은데 쓰는 말 아니에요?</speak>
+			<show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+			<show chara="rolandArmorSmileClose" position="right"/>
+			<speak chara="_Roland">무슨 문제라도 있나요? 정보 채널로 얼마나 많은 데이터를 옮길 수 있느냐를 의미하니, 「대역」이라 표현하는 건데.</speak>
+			<show chara="rolandArmorEmbarrassClose" position="right"/>
+			<speak chara="_Roland">……어라, 제가 말씀 안 드렸나요? 「와카 터널」이 지표면의 다른 장소를 연결시킬 수 있는 건, 바로 이 터널이 물질을 데이터화시키고, 다시 데이터를 물질화시킬 수 있기 때문이에요.</speak>
+			<show chara="rolandArmorEmbarrassClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressShoutClose" position="left"/>
+			<speak chara="_Bianka">이…… 이거 게니우스랑 같은 원리인데!</speak>
+			<show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+			<show chara="rolandArmorLaughClose" position="right"/>
+			<speak chara="_Roland">아, 당신들도 이 세계에 올 때도 비슷한 기술을 썼나 봐요? 그럼 곧 하게 될 경험도 데자뷰처럼 느껴지겠네요!</speak>
+			<goto goto="40" clockwise="1"/>
+		</scene>
+		<scene id="40" background="railwayStationSaksaqWaman.jpg">
+			<bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
+			<show chara="shakesCasualLaughClose" position="left"/>
+			<speak chara="_Shakespeare">우와! 기차역이 완전 복고풍이네!</speak>
+			<show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+			<show chara="rolandArmorEmbarrassClose" position="right"/>
+			<speak chara="_Roland">그야…… 이 벽은 유적 그 자체니까요.</speak>
+			<show chara="rolandArmorSmileClose" position="right"/>
+			<speak chara="_Roland">고대인들이 자연을 숭배하기 위해, 여기에 신전을 지었어요——수천년이 지나도 우뚝 서있는 벽은 그들의 경건한 마음을 증명하고 있죠.</speak>
+			<show chara="rolandArmorLaughClose" position="right"/>
+			<speak chara="_Roland">병력 수송 차량으로 온 인원들은 전부 여기에 내려서, 터널 내부 전용 노선으로 갈아타야 해요.</speak>
+			<show chara="rolandArmorSmileClose" position="right"/>
+			<speak chara="_Roland">다들 플랫폼에서 잠깐 기다리고 계셔요. 제가 이런저런 수속들을 처리하고 올테니.</speak>
+			<show chara="rolandArmorSmileClose" position="right" opacity="0.8"/>
+			<show chara="shakesCasualConfidentClose" position="left"/>
+			<speak chara="_Shakespeare">아, 수고하세요!</speak>
+			<hide position="left"></hide>
+			<hide position="right"></hide>
+			<text>기사는 육중한 동력 장갑에 탄 채, 검문소처럼 보이는 초소를 향해 달려갔다. 멀리서 추억 속에서나 들어봤을 만한 기적소리가 들려왔다.</text>
+			<text>고위도의 시원한 가을바람이 흐트러진 머리칼을 스쳐 지나감에, 비앙카는 아르한겔스크에서 보낸 며칠간의 시간을 떠올렸다.</text>
+			<text article="1">
+				<p class="article-text">Архангельск——라틴어로 Arkh-angel-sk, 「대천사의 도시」를 의미한다. 북극 지부의 책임자로 「미샤」라는 D급 발키리가 배치되었는데, 사무직이긴 하지만 혼자서 지역 전체의 일을 원활히 처리했다.</p>
+			</text>
+			<text article="1">
+				<p class="article-text">미샤가 말하길, 천명 기관이 그녀가 맡은 곳처럼 한가하다면, 만약 천명의 모든 발키리들이 그녀의 사무 작업처럼 붕괴수를 간단하게 처리할 수 있다면——세상은 분명 아름다울 거라고 하였다. 이는 모두가 평화로운 나날을 보낸다는 의미이니.</p>
+			</text>
+			<text>기차의 기적 소리가 점점 더 가까워졌다. 새 병력과 물자들이 요새로 보내지는 듯하였다.</text>
+			<text>롤랑은 초소 밖으로 나와, 임시 신분증처럼 생긴 걸 손에 들고 흔들었다.</text>
+			<text>자신의 육중한 파워아머를 부친 것인지ㅡ 그녀의 모습이 미샤처럼 귀여워졌다.</text>
+			<text>비앙카는 그녀가 부르는 방향으로 달려갔다——</text>
+			<text>——마음속으론 이 세상이 평화로워지길 기도하며.</text>
+			<goto goto="50" clockwise="1"/>
+		</scene>
+		<scene id="50" background="railwayStationTunnel.jpg">
+			<bgm src="11_29_lab.mp3" status="start"></bgm>
+			<show chara="shakesCasualQuestionClose" position="left"/>
+			<speak chara="_Shakespeare">후우…… 계단을 너무 많이 내려와서 그런가, 무릎이 벌써 안 좋아질 것 같네.</speak>
+			<show chara="shakesCasualNormalClose" position="left"/>
+			<speak chara="_Shakespeare">근데——이게 우리가 다음에 탈 기차야? 뭐라 해야 하지…… 크기가 너무 귀여운데?</speak>
+			<show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
+			<show chara="rolandEmbarrassClose" position="right"/>
+			<speak chara="_Roland">아하하, 실은 평범한 경량 채광용 차량을 개조해서 만든 거예요.</speak>
+			<speak chara="_Roland">「와카 터널」 내부의 굴착에 드는 비용이 워낙에 커서, 이 노선은 최경량으로 설계할 수밖에 없었어요.</speak>
+			<show chara="rolandEmbarrassClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressSmileAhClose" position="left"/>
+			<speak chara="_Bianka">뭐, 여자한텐 딱 맞는 크기인 거 같은데, 아닌가? 할아버지는 좀 불편하시겠네요!</speak>
+			<show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
+			<show chara="cervantesSmileClose" position="right"/>
+			<speak chara="_Miguel">하하하, 저기 병사들을 보시게, 동력 장갑을 입고 그대로 타고 있지 않은가! 그들과 비교하면 난 그냥 고개만 좀 숙이면 되니.</speak>
+			<show chara="champoSweatyClose" position="right"/>
+			<speak chara="_Champollion">근데 「여자한테 딱 맞는 크기」라는 건 무슨 의미인가요…… 여기서 키가 제일 큰 건 저인데? 에취!</speak>
+			<show chara="champoSweatyClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressSmileClose" position="left"/>
+			<speak chara="_Bianka">당신은 젊잖아요! 설마 매일 탐정 사무실에 앉아있느라, 허리가 할아버지처럼 됐나요?</speak>
+			<show chara="biankaDressSighClose" position="left"/>
+			<speak chara="_Bianka">왜 혼자만 감기에 걸렸는지 알겠네요.</speak>
+			<show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+			<show chara="cervantesSmileClose" position="right"/>
+			<speak chara="_Miguel">자, 이런 기회는 흔하지 않으니, 얼른 앉고 출발하세!</speak>
+			<show chara="cervantesLaughClose" position="right"/>
+			<speak chara="_Miguel">갈레세 전함에서 노를 젓던 기억이 떠오르는구나——이번엔 몸을 쓸 필요가 없지만, 하하하하!</speak>
+			<show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+			<show chara="shakesCasualConfidentClose" position="left"/>
+			<speak chara="_Shakespeare">오, 배에서 노를 저으셨다고요? 정말 남성 호르몬으로 가득한 곳이었겠네요! 극적인 긴장감이 넘칠 것 같은데, 정말 좋군요!</speak>
+			<show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+			<show chara="cervantesSmileClose" position="right"/>
+			<speak chara="_Miguel">하하, 자네의 말을 다 이해하긴 어렵지만——그래도 동의한다네! 땀이야말로 이 세상에서 가장 더러우면서도 아름다운 것이니까!</speak>
+			<show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressSighClose" position="left"/>
+			<speak chara="_Bianka">……문호의 취향은 도저히 종잡을 수가 없네.</speak>
+			<show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+			<show chara="ritaVestSquintClose" position="right"/>
+			<speak chara="_Rita">예술가의 생각이 이해하기 쉽다면, 예술의 깊이도 없어지지 않을까요?</speak>
+			<show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressHesitateClose" position="left"/>
+			<speak chara="_Bianka" remark="next">흥…… 그렇게 봐주니까, 그냥 소변기 하나 뒤집어두고 작품이라 우기는 거 아니겠어?</speak>
 			<remark post="U2FsdGVkX1+TtcIcw6vru39zAYww">
-				<p class="article-text-h">注釈：</p>
-				<p class="article-text">『泉』（Fountain）はフランス系アメリカ人でダダイズムの巨匠であるマルセル・デュシャン（Henri-Robert-Marcel Duchamp，1887－1968）が1917年に創った作品。デュシャンは既製品の陶器製小便器を購入し、逆さにして「泉」と命名、「R.Mutt 1917」と署名した。</p>
+				<p class="article-text-h">주역:</p>
+				<p class="article-text">『샘』(Fountain), 미국-프랑스 예술가로, 다다이즘의 대가인 앙리·로베르·마르셀·뒤샹(Henri-Robert-Marcel-Duchamp, 1887-1968)이 만든 작품이다. 그는 이 『샘』에 사용된 변기를 뉴욕의 118도로 5번 거리  J·L· Mott 공방 철물점에서 구매해, 「샘」이란 이름을 붙이고, 「R.Mutt 1917」이라 서명하였다.</p>
 			</remark>
-	    <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
-	    <show chara="shakesCasualLaughClose" position="right"/>
-	    <speak chara="_Shakespeare">なんだって、そっちにはそんな前衛的な作品があるのかい？『ゴドーを待ちながら』が頂点かと思っていたのに！</speak>
-	    <show chara="shakesCasualLaughClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressSneerClose" position="left"/>
-	    <speak chara="_Bianka">ふん、そういう人間が絶えないから、私たちの世界には「崩壊エネルギー」が多いのかもしれませんよ？</speak>
-	    <show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
-	    <show chara="shakesCasualConfidentClose" position="right"/>
-	    <speak chara="_Shakespeare">それはちょっとばかし心が狭いんじゃないかな？人類社会は多様性があるからこそ意味があるのさ！</speak>
-	    <show chara="shakesCasualLaughClose" position="right"/>
-	    <speak chara="_Shakespeare">地球の反対側にいる連中もこれくらいの審美眼があれば、エネルギーの壁の脅威なんて問題もなかっただろうに！</speak>
-	    <hide position="left"></hide>
-	    <hide position="right"></hide>
-	    <text>タイミングが良いのか悪いのか、ビアンカがカルチャーショックを受けているさなか、「チリンチリン」と列車のベルが鳴った。</text>
-	    <text>一行はローランドの案内で素早く乗り込むと——すぐにエンジンの音が全員の声を遮る。</text>
-	    <text>車窓の外のコンクリート壁が急速に後退していき、列車は暗闇に呑まれていった。</text>
-	    <text>ビアンカが「こんなものか」と思った瞬間——</text>
-	    <goto goto="60" change="0"/>
-    </scene>
-    <scene id="60" background="trainWindowStrangeLight.jpg">
-	    <bgm src="09_13_Sine.mp3" status="start"></bgm>
-	    <text>——窓の外に奇妙な光がまばゆき、初めて訪れた者たちの目を惹いた。</text>
-	    <goto goto="70" change="0"/>
-    </scene>
-    <scene id="70" background="CG21-1.jpg">
-	    <bgm src="09_13_Sine.mp3" status="continue"></bgm>
-	    <speak chara="_Shakespeare">わお！これが世界の「本の背」か。</speak>
-	    <speak chara="_Bianka">綺麗……</speak>
-	    <speak chara="_Roland">そうだろう？銀河鉄道がまるで現実になったみたいだ！</speak>
-	    <speak chara="_Roland" remark="next">あっ……『銀河鉄道の夜』は知っているか？元の世界でも完結しなかった童話なのだが……</speak>
+			<show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+			<show chara="shakesCasualLaughClose" position="right"/>
+			<speak chara="_Shakespeare">뭐라고? 그런 아방가르드한 작품이 거기에도 있었어? 난 「고도를 기다리며」가 최고로 황당한 작품이라 생각했는데!</speak>
+			<show chara="shakesCasualLaughClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressSneerClose" position="left"/>
+			<speak chara="_Bianka">흐으…… 세상이 이런 사람들로 가득하니, 붕괴능도 넘쳐나는 거 아냐?</speak>
+			<show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
+			<show chara="shakesCasualConfidentClose" position="right"/>
+			<speak chara="_Shakespeare">에이, 그냥 농담이야. 너무 소심해하진 말라고, 아가씨. 인류 사회는 다양성이 있기에 의미 있는 거니까!</speak>
+			<show chara="shakesCasualLaughClose" position="right"/>
+			<speak chara="_Shakespeare">만약 지구 반대편의 사람들도 이런 심미안이 있었다면, 우리가 에너지 장벽 문제로 나설 필요도 없었겠지!</speak>
+			<hide position="left"></hide>
+			<hide position="right"></hide>
+			<text>비앙카가 컬처 쇼크에 빠져 있는, 좋을 수도 나쁠 수도 있는 타이밍에, 기차의 종소리가 「댕댕댕」하며 울렸다.</text>
+			<text>일행은 롤랑의 안내를 따라 서둘러 줄지어 들어갔다——곧이어 울리는 엔진의 굉음에 사람들의 얘기 소리는 완전히 묻혀버렸다.</text>
+			<text>창밖으로 시멘트 벽이 빠르게 지나가며, 기차는 더욱 어두운 곳으로 나아간다.</text>
+			<text>비앙카가 「별로 다를 게 없네」라고 생각한 순간——</text>
+			<goto goto="60" change="0"/>
+		</scene>
+		<scene id="60" background="trainWindowStrangeLight.jpg">
+			<bgm src="09_13_Sine.mp3" status="start"></bgm>
+			<text>——창밖의 기묘한 광선이 이 기차에 처음 탄 사람들의 시선을 뺴앗았다.</text>
+			<goto goto="70" change="0"/>
+		</scene>
+		<scene id="70" background="CG21-1.jpg">
+			<bgm src="09_13_Sine.mp3" status="continue"></bgm>
+			<speak chara="_Shakespeare">우와! 저게 바로 세상의 「책등」인 거야?</speak>
+			<speak chara="_Bianka">예쁘다……</speak>
+			<speak chara="_Roland">그쵸? 완전 은하 철도의 밤의 현실 버전이라고요!</speak>
+			<speak chara="_Roland" remark="next">아…… 『은하 철도의 밤』이란 책 모르시나요? 원래 세계에서는 완성된 적이 없다던데……</speak>
 			<remark post="U2FsdGVkX182b3s6B7lBgLF40mWY">
-				<p class="article-text-h">注釈：</p>
-				<p class="article-text">『銀河鉄道の夜』、宮沢賢治（1896－1933）が1934年に出版した童話作品。作者が亡くなった時、まだ草稿のままだったため、現在大きく異なる4つのバージョンが存在している。耽美主義の奇妙な思想が込められており、多くの読者を魅了した——宮沢賢治本人が亡くなった後、彼は日本の「国民的」作家とされた。</p>
+				<p class="article-text-h">주역:</p>
+				<p class="article-text">『은하 철도의 밤』은 일본 작가 미야자와 겐지(1896-1933)가 써 1934년에 출판된 동화이다. 초고 단계일 때 작가가 죽었기에, 작품은 4가지 버전이 존재하며, 각각 상당히 다르다. 그럼에도 불구하고, 이 책은 탐미주의적인 기묘한 아이디어가 담겨있어, 수많은 독자들을 매료시켰다——미야자와 겐지가 죽은 후, 그는 일본의 「국민 작가」로 추앙되어지고 있다.</p>
 			</remark>
-	    <speak chara="_Bianka">うーん、知っているような、知らないような……</speak>
-	    <speak chara="_Bianka">リタは知っていますか？</speak>
-	    <speak chara="_Rita">ええ。銀河鉄道は地上と天国を繋ぐ魂の列車。夢の中で一番の友だちと一緒にその列車に乗って星空を旅するお話です。</speak>
-	    <speak chara="_Bianka">……悲しい物語なんですね。</speak>
-	    <speak chara="_Rita">童話というのは、悲しさと温かさの間のバランスを探すものですから。</speak>
-	    <speak chara="_Rita">それに……この物語を書き始めた頃、作者は妹を亡くしたばかりだと言われています。</speak>
-	    <speak chara="_Bianka">え……</speak>
-	    <speak chara="_Bianka">すみません、勇気ある作品を「悲しい」だなんて言ってしまって。</speak>
-	    <speak chara="_Shakespeare">ハハハハ、暗すぎるぞ戦乙女たち。人生はやり直せないからこそ、「一期一会」を大切にするべきなんだ！</speak>
-	    <speak chara="_Bianka">「一期一会」？</speak>
-	    <speak chara="_Rita">「一生に一度だけ」という意味です。</speak>
-	    <speak chara="_Miguel">時が経って再会できたとしても、相手も自分も当時とは違うからのう。</speak>
-	    <speak chara="_Shakespeare">無論、悪いことばかりじゃないぞ？「ロマン」というのは、再現できないから人を引きつけるのだからね！</speak>
-	    <speak chara="_Shakespeare">「ああ、ロミオ。あなたはどうしてロミオなの？」</speak>
-	    <speak chara="_Shakespeare">——私の劇を知らなければ、このセリフに切なさを感じることもないだろ？</speak>
-	    <goto goto="80" change="0"/>
-    </scene>
-    <scene id="80" background="CG21-1-2.jpg">
-	    <bgm src="09_13_Sine.mp3" status="continue"></bgm>
-	    <speak chara="_Bianka">……何を言っているかよくわかりません。</speak>
-	    <speak chara="_Rita">ご安心ください、ビアンカ様。私の名前がブリュンヒルデでもオルトリンデでも、リタはあなたの忠実なる下僕です。</speak>
-	    <speak chara="_Bianka">もう……！上官をからかわないでください！</speak>
-	    <goto goto="90" clockwise="1"/>
-    </scene>
-    <scene id="90" background="commandCenterHuaca.jpg">
-	    <bgm src="theme.mp3" status="start"></bgm>
-	    <show chara="DarwinFunnyClose" position="center"/>
-	    <speak chara="_DarwinNoName">あら、ローランド、戦乙女たちと仲良くしているみたいね。</speak>
-	    <show chara="DarwinSmileClose" position="center"/>
-	    <speak chara="_DarwinNoName">自己紹介するわ。私は共和国国防部長であり、この要塞の司令——アンナ・チャールズ・ダーウィンよ。</speak>
-	    <show chara="DarwinFunnyClose" position="center"/>
-	    <speak chara="_Darwin" remark="next">ご一緒にマテ茶でもどうかしら。</speak>
+			<speak chara="_Bianka">음…… 들어본 것 같기도 하고…… 아닌 것 같기도 하고……</speak>
+			<speak chara="_Bianka">리타는 들어본 적 있어?</speak>
+			<speak chara="_Rita">네, 은하 철도는 땅과 하늘을 이어주는 영혼의 열차로…… 꿈속에서 친한 친구들과 함께 그 열차를 타고 별하늘로 여행을 떠나는 이야기예요.</speak>
+			<speak chara="_Bianka">……무지 슬픈 얘기인 것 같네.</speak>
+			<speak chara="_Rita">동화는 언제나 슬픔의 무력감과 따뜻한 마음 사이를 섬세하게 저울질하는 게 중요하니까요.</speak>
+			<speak chara="_Rita">그리고…… 이야기가 처음 쓰였을 때, 막 작가의 여동생이 세상을 떠났다고 해요.</speak>
+			<speak chara="_Bianka">이런……</speak>
+			<speak chara="_Bianka">갑자기 미안해지네. 그런 용기를 가지고 쓴 작품을 함부로 「슬픈 얘기」라 표현해선 안됐는데.</speak>
+			<speak chara="_Shakespeare">하하하하, 너희 발키리들은 너무 진지하게 사네. 원래 인생에 두 번 다시 찾아오는 여정은 없어. 그러니, 「일기일회」를 소중히 하는 거야말로 소중한 낭만이지!</speak>
+			<speak chara="_Bianka">「일기일회」?</speak>
+			<speak chara="_Rita">「일생에 단 한 번」이라는 의미예요.</speak>
+			<speak chara="_Miguel">우리가 수년 후에 다시 만나게 되더라도, 그땐 나나 상대방이 느낄 심경은 지금과는 많이 달라져있겠지.</speak>
+			<speak chara="_Shakespeare">하지만 딱히 이게 나쁜 건 아니야. 「낭만」이라는 단어의 가치는, 두 번 다시 경험하기 어렵다는 점에서 오니까!</speak>
+			<speak chara="_Shakespeare">「오, 로미오, 로미오! 왜 그대는 로미오인가요?」</speak>
+			<speak chara="_Shakespeare">——내 연극을 보지 않은 이에겐, 이 대사의 절박함이 전혀 느껴지지 않을 거니.</speak>
+			<goto goto="80" change="0"/>
+		</scene>
+		<scene id="80" background="CG21-1-2.jpg">
+			<bgm src="09_13_Sine.mp3" status="continue"></bgm>
+			<speak chara="_Bianka">……무슨 말인지 완전 모르겠어.</speak>
+			<speak chara="_Rita">너무 걱정하진 마세요, 비앙카 님, 제 이름이 브린힐데나 오르트린데가 돼도, 저 리타는 언제나 비앙카 님의 충실한 메이드로 남아있을 테니까요.</speak>
+			<speak chara="_Bianka">야……! 다들 보는데 상관을 놀리면 어떡해?!</speak>
+			<goto goto="90" clockwise="1"/>
+		</scene>
+		<scene id="90" background="commandCenterHuaca.jpg">
+			<bgm src="theme.mp3" status="start"></bgm>
+			<show chara="DarwinFunnyClose" position="center"/>
+			<speak chara="_DarwinNoName">어머, 롤랑, 발키리들이랑 벌써 많이 친해진 것 같네요.</speak>
+			<show chara="DarwinSmileClose" position="center"/>
+			<speak chara="_DarwinNoName">제 소개를 하죠. 저는 안나・찰스・다윈, 공화국 국방부 장관이자 이 요새의 지휘관을 맡고 있습니다.</speak>
+			<show chara="DarwinFunnyClose" position="center"/>
+			<speak chara="_Darwin" remark="next">모두 자리에 앉아 마테차를 즐겨주시길.</speak>
 			<remark post="U2FsdGVkX18o9bCa4l1P1Um8gxrF">
-				<p class="article-text-h">注釈：</p>
-				<p class="article-text">マテ茶（yerba mate）、南アメリカのハーブティー、カフェインに富んでいる。イェルバ・マテの葉や小枝を乾燥させたもの。アルゼンチンの「国茶」。</p>
+				<p class="article-text-h">주역:</p>
+				<p class="article-text">마테차(yerba mate)카페인이 풍부한 남아메리카의 전통적인 허브차로, 예르바 마테 잎을 말린 걸로 만든다. 아르헨티나의 「국민차」로 유명하다.</p>
 			</remark>
-	    <hide position="center"></hide>
-	    <text article="1">
-<p class="article-text">——「指揮センター」駅で下車し、門番のいる大きな門をいくつかくぐり、ビアンカ一行は彼女らを待ち構えていた国防部長のダーウィンと会った。</p>
-<br />
-<p class="article-text">簡単に自己紹介してもらった後、ローランドもビアンカたちの素性について説明する。</p>
-</text>
-	    <text>格式張った挨拶が終わるまで、ビアンカはじっと我慢した。</text>
-	    <show chara="biankaDressSighClose" position="left"/>
-	    <speak chara="_Bianka">あの……質問しても良いですか？</speak>
-	    <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
-	    <show chara="DarwinSmileClose" position="right"/>
-	    <speak chara="_Darwin">どうぞ。何かしら。</speak>
-	    <show chara="DarwinSmileClose" position="right" opacity="0.8"/>	    
-	    <show chara="biankaDressHesitateClose" position="left"/>
-	    <speak chara="_Bianka">今、「ダーウィン」と名乗りましたよね？も、もしかして『種の起源』のあの……</speak>
-	    <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
-	    <show chara="DarwinFunnyClose" position="right"/>
-	    <speak chara="_Darwin">ああ、父のこと？あの世界を去る前に、確かにそのような本を書いていたわね。</speak>
-	    <show chara="DarwinSmileClose" position="right"/>
-	    <speak chara="_Darwin">あの本は百年余りの間、多くの人の世界への考え方を変えたと聞いたわ。</speak>
-	    <show chara="DarwinSmileClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressSmileAhClose" position="left"/>
-	    <speak chara="_Bianka">えっと……「娘」さんだったんですか。</speak>
-	    <show chara="biankaDressShockClose" position="left"/>
-	    <speak chara="_Bianka">それなら、あなたが読んだ『種の起源』は、違う世界のチャールズ先生が残した著作なのでは？</speak>
-	    <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
-	    <show chara="DarwinEmbarrassedClose" position="right"/>
-	    <speak chara="_Darwin">いいえ。私の知る限り、『種の起源』を出版でき、かつ結婚し子を成した男性のダーウィンは——既知の世界の中でも父一人しかいないわ。</speak>
-	    <show chara="DarwinEmbarrassedClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressScreamClose" position="left"/>
-	    <speak chara="_Bianka">……え？</speak>
-	    <show chara="biankaDressShoutClose" position="left"/>
-	    <speak chara="_Bianka">そ、それじゃあ、あなたもユカタンの「大司祭」のように、量子の海で長い間データ状態でいたから、結果的に未来へと跳んできたのでしょうか？</speak>
-	    <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
-	    <show chara="DarwinFunnyClose" position="right"/>
-	    <speak chara="_Darwin">……たぶん、本質的には違うと思う。</speak>
-	    <show chara="DarwinFunnyClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressBiteClose" position="left"/>
-	    <speak chara="_Bianka">でも……今の話だと、「世界の泡は、それぞれの間で時間の始点や速さが違う」と解釈できませんよね？</speak>
-	    <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
-	    <show chara="DarwinEmbarrassedClose" position="right"/>
-	    <speak chara="_Darwin">ええ、その通り。それに貴方たちが会った「蛇」のように不老不死でもない。</speak>
-	    <show chara="DarwinNormalClose" position="right"/>
-	    <speak chara="_Darwin">今の話で時間の矛盾があったのは——</speak>
-	    <show chara="DarwinSeriousClose" position="right"/>
-	    <speak chara="_Darwin">——私が死から誕生した星語者、レプリカだから。</speak>
-	    <show chara="DarwinSeriousClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressShockClose" position="left"/>
-	    <speak chara="_Bianka">……「死から誕生」？「レプリカ」？な、何を言ってるんですか？</speak>
-	    <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
-	    <show chara="DarwinNormalClose" position="right"/>
-	    <speak chara="_Darwin">本物のアンナ・チャールズ・ダーウィンは10歳の時、病気で死んだわ。</speak>
-	    <speak chara="_Darwin">貴方たちの目の前にいるのは——量子の海の残像を引き継いだ者よ。</speak>
-	    <show chara="DarwinNormalClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressShockClose" position="left"/>
-	    <speak chara="_Bianka">……！？</speak>
-	    <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
-	    <show chara="DarwinSmileClose" position="right"/>
-	    <speak chara="_Darwin">誤解しないで欲しいのだけど、私は魂や幽霊といった類のものではないわ。エーテルアンカーの「世界をコピーする」能力を「人」に使った結果の産物よ。</speak>
-	    <show chara="DarwinNormalClose" position="right"/>
-	    <speak chara="_Darwin">文明の成果も知的生命も、「負のエントロピー」の象徴。「エーテルアンカー」は「固着した」負のエントロピーの「培養基」のようなもの……</speak>
-	    <show chara="DarwinNormalClose" position="right" opacity="0.8"/>
-	    <show chara="schroMemoryClose" position="left"/>
-	    <speak chara="_Schrodinger">……そして、負のエントロピーと虚数内エネルギー――つまり崩壊エネルギー――は影響し合うなのです。</speak>
-	    <show chara="schroTalkClose" position="left"/>
-	    <speak chara="_Schrodinger">理論上、確かに崩壊エネルギーから制御可能な新しい「負のエントロピー」を作り出すことは可能なのです。</speak>
-	    <show chara="schroMemoryClose" position="left"/>
-	    <speak chara="_Schrodinger">——それが、「ムーンライトスローン」の根本的な原理なのですから。</speak>
-	    <show chara="schroMemoryClose" position="left" opacity="0.8"/>
-	    <show chara="DarwinSmileClose" position="right"/>
-	    <speak chara="_Darwin">ふふ。さすが「負のエントロピー」という概念を生み出したシュレーディンガー博士——どうやら事態を飲み込めたようね。</speak>
-	    <show chara="DarwinSmileClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressHesitateClose" position="left"/>
-	    <speak chara="_Bianka">えーと、何を言っているんですか？</speak>
-	    <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
-	    <show chara="schroMemoryClose" position="right"/>
-	    <speak chara="_Schrodinger">……</speak>
-	    <show chara="schroTalkClose" position="right"/>
-	    <speak chara="_Schrodinger">戦乙女のお二人に聞きたいなのです、「第一律者」の能力をご存知でしょうか？</speak>
-	    <show chara="schroTalkClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressShockClose" position="left"/>
-	    <speak chara="_Bianka">ネゲントロピーの「盟主」のことですか？何もないところから色んな機械装置、聖遺物、神の鍵ですらもコピーして作り出すんですよね？</speak>
-	    <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
-	    <show chara="schroSmileClose" position="right"/>
-	    <speak chara="_Schrodinger">そうなのです。ただ一点、勘違いがあるようなのです。彼は「何もないところ」からコピーをしたわけではないのです。</speak>
-	    <show chara="schroTalkClose" position="right"/>
-	    <speak chara="_Schrodinger">体内に蓄積された崩壊エネルギーを操り、逆に秩序を構築して「負のエントロピー」に等しい物を作り出しているなのです。</speak>
-	    <show chara="schroSmileClose" position="right"/>
-	    <speak chara="_Schrodinger">一般的に、崩壊エネルギーはコントロールできないもの——ですが、あの人は律者であり、常識では測れない能力者なのです。</speak>
-	    <show chara="schroTalkClose" position="right"/>
-	    <speak chara="_Schrodinger">ダーウィンさん……あなたたちの「エーテルアンカー」も似たような力を持っていますが思うように操れていない……そうじゃありませんか？</speak>
-	    <show chara="schroTalkClose" position="right" opacity="0.8"/>
-	    <show chara="DarwinEmbarrassedClose" position="left"/>
-	    <speak chara="_Darwin">……より正確に言うと、「エーテルアンカー」は元々意のままに操れるような能力が備わっていないのよ。</speak>
-	    <show chara="DarwinNormalClose" position="left"/>
-	    <speak chara="_Darwin">量子の海——つまり、データの海から——自身を復元可能な些細な情報を「サルベージ」しているだけ。</speak>
-	    <show chara="DarwinSmileClose" position="left"/>
-	    <speak chara="_Darwin">ここに来た戦乙女のお二人は自身の肉体がデータ化され、その後再び物質化される過程を経験したでしょう。</speak>
-	    <show chara="DarwinNormalClose" position="left"/>
-	    <speak chara="_Darwin">——それが特殊な指向性のある「サルベージ」よ。</speak>
-	    <show chara="DarwinFunnyClose" position="left"/>
-	    <speak chara="_Darwin">この「サルベージ」は常に「現在進行形」であり、お二人の精神と意志は連続的なものなの——だから、世界を越えても二人は自分自身のまま。</speak>
-	    <show chara="DarwinNormalClose" position="left"/>
-	    <speak chara="_Darwin">けど、「アンナ・チャールズ・ダーウィン」のデータは「過去完了形」、エーテルアンカーは偶然量子の海からその消えゆくデータを読み取り、再現したに過ぎないわ。</speak>
-	    <show chara="DarwinSmileClose" position="left"/>
-	    <speak chara="_Darwin">……これが、自分がとある過去の人物のレプリカであることを知っている理由よ。</speak>
-	    <show chara="DarwinNormalClose" position="left"/>
-	    <speak chara="_Darwin">もしかしたら、もっと複雑なプログラムで本当に死者を復活させる仕組みがどこかにあるかもしれない——けど、この世界の「アンカー」にはそのような能力はないわ。</speak>
-	    <show chara="DarwinNormalClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressSorrowClose" position="right"/>
-	    <speak chara="_Bianka">……</speak>
-	    <show chara="shakesCasualConfidentClose" position="right"/>
-	    <speak chara="_Shakespeare">正直に話してくれてありがとう、ダーウィンさん。</speak>
-	    <show chara="shakesCasualLaughClose" position="right"/>
-	    <speak chara="_Shakespeare">そんな重要な機密を教えてくれたってことは、「共和国」は我々「カレドニア号」の助力を切実に求めている、ということだろう？</speak>
-	    <show chara="shakesCasualLaughClose" position="right" opacity="0.8"/>
-	    <show chara="DraculaLaughClose" position="left"/>
-	    <speak chara="_DraculaNoName">ハハハハッ！さすがは七つの海を渡る赤毛の船長、痛いところを突く！余は一目惚れしてしまいそうだ！</speak>
-	    <show chara="DraculaLaughClose" position="left" opacity="0.8"/>
-	    <show chara="DarwinEmbarrassedClose" position="right"/>
-	    <speak chara="_Darwin">こら、イローナ、いきなり入ってきて客人をからかうんじゃないの！</speak>
-	    <show chara="DarwinEmbarrassedClose" position="right" opacity="0.8"/>
-	    <show chara="DraculaFunnyClose" position="left"/>
-	    <speak chara="_DraculaNoName">ふん、アンナは国防部長になっても、相変わらず頭が固い。</speak>
-	    <show chara="DraculaSmileClose" position="left"/>
-	    <speak chara="_DraculaNoName">余はイローナ・ドラクレスト、第一近衛兵団司令——「ドラキュラ」と呼んでくれてもいい。</speak>
-	    <show chara="DraculaNormalClose" position="left"/>
-	    <speak chara="_Dracula">そこの「頭の固い」美少女と違って、「エーテルアンカー」なしで存在できる星語者だ——</speak>
-	    <show chara="DraculaSmileClose" position="left"/>
-	    <speak chara="_Dracula">——つまり、五百年前から今まで生きているのだよ！どうだ、「吸血鬼」とはすごいだろう？</speak>
-	    <show chara="DraculaSmileClose" position="left" opacity="0.8"/>
-	    <show chara="DarwinFunnyClose" position="right"/>
-	    <speak chara="_Darwin">はぁ、通訳すると、「量子の海で五百年漂流して、もはや自分が人間か怪物かなんてどうでも良くなったから貴方たちも気にしないでね？」ってことよ。</speak>
-	    <show chara="DarwinSmileClose" position="right"/>
-	    <speak chara="_Darwin">あっているわね、イローナ？</speak>
-	    <show chara="DarwinSmileClose" position="right" opacity="0.8"/>
-	    <show chara="DraculaFunnyClose" position="left"/>
-	    <speak chara="_Dracula">……わかっていた。そなたはいつもいつも余の完璧なイメージを壊してくれる。</speak>
-	    <show chara="DraculaLaughClose" position="left"/>
-	    <speak chara="_Dracula">ローランドの友人よ、このダーウィンとは会話がしづらくてしょうがないだろう？</speak>
-	    <show chara="DraculaLaughClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressSighClose" position="right"/>
-	    <speak chara="_Bianka">えっと……むしろ、私は率直に物を言ってくれるので話しやすいですよ。いっつも含みのある言い方をするうちの主教よりはましかと。</speak>
-	    <show chara="biankaDressSneerClose" position="right"/>
-	    <speak chara="_Bianka">……あの人は命の恩人だから、あまり悪口は言いたくありませんが。</speak>
-	    <show chara="schroSeriousClose" position="right"/>
-	    <speak chara="_Schrodinger">……別世界の話は置いておくなのです。</speak>
-	    <show chara="schroCalmClose" position="right"/>
-	    <speak chara="_Schrodinger">「インカ共和国」の皆さん——あなたたちの最重要軍事目標は地球の反対側の帝国を壊すこと、でいいのですね？</speak>
-	    <show chara="schroCalmClose" position="right" opacity="0.8"/>
-	    <show chara="DraculaFunnyClose" position="left"/>
-	    <speak chara="_Dracula">おお、こちらがかの有名なシュレーディンガー博士か？</speak>
-	    <show chara="DraculaSeriousClose" position="left"/>
-	    <speak chara="_Dracula">その通り、共和国そのものの存在意義こそが、あの「自然災害」に対抗することだ。</speak>
-	    <show chara="DraculaFunnyClose" position="left"/>
-	    <speak chara="_Dracula">……最近は色々ままならないのだが。</speak>
-	    <show chara="DraculaSmileClose" position="left"/>
-	    <speak chara="_Dracula">それで、わざわざ話を戻したのは——「目標を達成する」方法があるからなのだろう？</speak>
-	    <show chara="DraculaSmileClose" position="left" opacity="0.8"/>
-	    <show chara="schroSmileClose" position="right"/>
-	    <speak chara="_Schrodinger">ふふ、そう思ってもらって構わないなのです。ただ、その前に質問をさせてほしいなのです、関係がなさそうに聞こえるかもしれませんが——</speak>
-	    <show chara="schroTalkClose" position="right"/>
-	    <speak chara="_Schrodinger">共和国に「アイドル」は？</speak>
-	    <show chara="schroTalkClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressShoutClose" position="left"/>
-	    <speak chara="_Bianka">……は？</speak>
-	    <show chara="biankaDressShoutClose" position="left"/>
-	    <speak chara="_Bianka">急に何を——</speak>
-	    <show chara="biankaDressNormalClose" position="left"/>
-	    <speak chara="_Bianka">——あ。</speak>
-	    <show chara="biankaDressNormalClose" position="left" opacity="0.8"/>
-	    <show chara="DraculaFunnyClose" position="right"/>
-	    <speak chara="_Dracula">……どういうことだ？「アイドル」が何か関係あるというのか？</speak>
-	    <show chara="DraculaFunnyClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressNormalClose" position="left"/>
-	    <speak chara="_Bianka">簡単に説明すると、私たちは大昔に失われた強力な武器を復活させようとしているんです。</speak>
-	    <show chara="biankaDressSighClose" position="left"/>
-	    <speak chara="_Bianka">——その武器に必要なパーツを「アイドル」が持っているかもしれなくって。</speak>
-	    <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
-	    <show chara="DraculaLaughClose" position="right"/>
-	    <speak chara="_Dracula">ハハハハッ、それは冗談か？それとも本気か？</speak>
-	    <show chara="DarwinSeriousClose" position="right"/>
-	    <speak chara="_Darwin">ビアンカさん、それは聖剣「デュランダル」の力を持つ宝石のこと？</speak>
-	    <show chara="DarwinSeriousClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressHesitateClose" position="left"/>
-	    <speak chara="_Bianka">そうです。デュラはその宝石たちとの繋がりから、手がかりを映像にして見せてくれたんです——</speak>
-	    <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
-	    <show chara="durandalOutstretchOpen" position="right"/>
-	    <speak chara="_SwordDurandalQ">——来た！ビアンカ様、来たっしょ！</speak>
-	    <show chara="durandalOutstretchOpen" position="right" opacity="0.8"/>
-	    <show chara="biankaDressShoutClose" position="left"/>
-	    <speak chara="_Bianka">もう！話の腰を折らないでください、このバカ！何が「来た」っていうですか？</speak>
-	    <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
-	    <show chara="durandalOpen" position="right"/>
-	    <speak chara="_SwordDurandalQ">金色の「博愛の宝石」っしょ！</speak>
-	    <show chara="durandalOutstretchOpen" position="right"/>
-	    <speak chara="_SwordDurandalQ">この近くの空間に急に現れたっしょ！時空を跳躍したみたいに！</speak>
-	    <show chara="durandalOutstretchOpen" position="right" opacity="0.8"/>
-	    <show chara="biankaDressSighClose" position="left"/>
-	    <speak chara="_Bianka">はあ？</speak>
-	    <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
-	    <show chara="champoQuestionClose" position="right"/>
-	    <speak chara="_Champollion">……なるほど。</speak>
-	    <show chara="champoNormalClose" position="right"/>
-	    <speak chara="_Champollion">宝石を持っている者が「ワカートンネル」を使ったのかもしれない。あれの原理は「超空間リンク」に似ているのだろう？</speak>
-	    <show chara="champoSmileClose" position="right"/>
-	    <speak chara="_Champollion">——ダーウィンさん、今日要塞で何か特別な行事でも？</speak>
-	    <show chara="champoSmileClose" position="right" opacity="0.8"/>
-	    <show chara="DarwinNormalClose" position="left"/>
-	    <speak chara="_Darwin">今日だったら、一時間後に慰問ライブが——</speak>
-	    <show chara="DarwinEmbarrassedClose" position="left"/>
-	    <speak chara="_Darwin">——待って、まさか「あの」スターが貴方たちの探している「宝石を持つアイドル」！？</speak>
-	    <show chara="DarwinSeriousClose" position="left"/>
-	    <speak chara="_Darwin">この時間だと……確かにそろそろ要塞に着く頃ね！</speak>
-	    <show chara="DarwinSeriousClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressShockClose" position="right"/>
-	    <speak chara="_Bianka">「スター」？</speak>
-	    <show chara="biankaDressScreamClose" position="right"/>
-	    <speak chara="_Bianka">……もしかして、水色の長いポニーテールをした、元気な子ですか？</speak>
-	    <show chara="biankaDressScreamClose" position="right" opacity="0.8"/>
-	    <show chara="DraculaFunnyClose" position="left"/>
-	    <speak chara="_Dracula">おや、知っているのか？</speak>
-	    <show chara="DraculaFunnyClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressShyClose" position="right"/>
-	    <speak chara="_Bianka">あ……いえ、何というか——</speak>
-	    <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
-	    <show chara="DraculaLaughClose" position="left"/>
-	    <speak chara="_Dracula">うむ、そうと分かればグズグズするな、早く会場へ行こう！</speak>
-	    <show chara="DraculaSmileClose" position="left"/>
-	    <speak chara="_Dracula">ライブ前に話したいだろう？計画のことなど後でもゆっくり話せる！</speak>
-	    <show chara="DraculaSmileClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressScreamClose" position="right"/>
-	    <speak chara="_Bianka">あっ——ちょ、押さないでください！自分で歩けますから！</speak>
-	    <goto goto="95" clockwise="1"/>
-    </scene>
-    <scene id="95" background="stageHuaca.jpg">
-	    <bgm src="09_13_dannyBoy.mp3" status="start"></bgm>
-	    <text>観客の入場前だからか、要塞のホールは予想よりも静かだった。</text>
-	    <text>ビアンカが控え室に直行しようとしたその時——</text>
-	    <text>——伴奏がはじまり、愛くるしい衣装を身にまとった女の子がステージに現れ、リハーサルをはじめる。</text>
-	    <goto goto="100" change="0"/>
-    </scene>
-    <scene id="100" background="stageHuacaCloseUp.jpg">
-	    <bgm src="09_13_dannyBoy.mp3" status="continue"></bgm>	    
-	    <show chara="ShigureKiraSingingCloseEyeFar" position="center"/>
-	    <speak chara="_ShigureKiraNoName">私の声♬ 届いてるかな♪</speak>
-	    <show chara="ShigureKiraSingingLyricalFar" position="center"/>
-	    <speak chara="_ShigureKiraNoName">あなたの微笑み♬ 雨上がりの太陽♪</speak>
-	    <show chara="ShigureKiraSingingPassionFar" position="center"/>
-	    <speak chara="_ShigureKiraNoName">天使が舞い降りて♪</speak>
-	    <show chara="ShigureKiraSingingPassionFar" position="center"/>
-	    <speak chara="_ShigureKiraNoName">虹が雲間に踊る♪</speak>
-	    <show chara="ShigureKiraSingingCloseEyeFar" position="center"/>
-	    <speak chara="_ShigureKiraNoName">やさしい獣が走り回り♬</speak>
-	    <show chara="ShigureKiraSingingCloseEyeFar" position="center"/>
-	    <speak chara="_ShigureKiraNoName">毒のあるバラが芽吹く♬</speak>
-	    <show chara="ShigureKiraSingingPassionFar" position="center"/>
-	    <speak chara="_ShigureKiraNoName">あなたがいたから♪ 私は運命を大切にするようになった♬</speak>
-	    <show chara="ShigureKiraSingingPassionFar" position="center"/>
-	    <speak chara="_ShigureKiraNoName">あなたがいたから♪ 私は勇気を持つようになった♬</speak>
-	    <show chara="ShigureKiraSingingLyricalFar" position="center"/>
-	    <speak chara="_ShigureKiraNoName">魂が交わり♬</speak>
-	    <show chara="ShigureKiraSingingPassionFar" position="center"/>
-	    <speak chara="_ShigureKiraNoName">二度と離れ離れにはならない♪</speak>
-	    <show chara="ShigureKiraSingingCloseEyeFar" position="center"/>
-	    <speak chara="_ShigureKiraNoName">指先が触れる♬</speak>
-	    <show chara="ShigureKiraSingingLyricalFar" position="center"/>
-	    <speak chara="_ShigureKiraNoName">思い出よ どうか鮮やかなままに♪</speak>
-	    <end post="U2FsdGVkX18nlZmHoGxgv3pMXtlH"/>
-    </scene>
-  </story>
+			<hide position="center"></hide>
+			<text article="1">
+				<p class="article-text">——「지휘 센터」에 하차 후, 경비병들이 지키는 문을 몇 개 지나자, 비앙카 일행은 그들을 기다리던 국방장관, 다윈을 만날 수 있었다.</p>
+				<br/>
+				<p class="article-text">상대가 먼저 가볍게 소개를 마치자, 롤랑도 비앙카 일행의 신분을 하나하나 소개했다.</p>
+			</text>
+			<text>이런 관례적인 인사는, 질문하고 싶어 안달이 난 비앙카를 괴롭게 했다.</text>
+			<show chara="biankaDressSighClose" position="left"/>
+			<speak chara="_Bianka">저기…… 지금 질문이 하고 싶어요.</speak>
+			<show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+			<show chara="DarwinSmileClose" position="right"/>
+			<speak chara="_Darwin">언제든 가능해요. 어떤 질문인가요?</speak>
+			<show chara="DarwinSmileClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressHesitateClose" position="left"/>
+			<speak chara="_Bianka">방금…… 성이 「다윈」이라 하셨죠? 그, 그 『종의 기원』을 쓴……</speak>
+			<show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+			<show chara="DarwinFunnyClose" position="right"/>
+			<speak chara="_Darwin">아하하, 제 아버지 얘기를 하시는 건가요? 제가 원래 세계를 떠날 때, 그 세상을 뒤집을 저서를 준비하고 계시긴 하셨죠.</speak>
+			<show chara="DarwinSmileClose" position="right"/>
+			<speak chara="_Darwin">기쁘네요. 그 책이 100년이 넘도록 수많은 사람들의 세계관에 변화를 줬다니.</speak>
+			<show chara="DarwinSmileClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressSmileAhClose" position="left"/>
+			<speak chara="_Bianka">아…… 「따님」이시라고요?</speak>
+			<show chara="biankaDressShockClose" position="left"/>
+			<speak chara="_Bianka">그럼 당신이 읽은 『종의 기원』은, 다른 세계의 찰스 선생님이 쓰신 건가요?</speak>
+			<show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+			<show chara="DarwinEmbarrassedClose" position="right"/>
+			<speak chara="_Darwin">아니에요. 제가 아는 한, 『종의 기원』을 성공적으로 출판하고, 결혼을 해 아이까지 가진 자는, 알려진 모든 세계 속에선 딱 한 명뿐이니까요.</speak>
+			<show chara="DarwinEmbarrassedClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressScreamClose" position="left"/>
+			<speak chara="_Bianka">……어라?</speak>
+			<show chara="biankaDressShoutClose" position="left"/>
+			<speak chara="_Bianka">그, 그럼 당신도 유카탄의 「대사제」처럼, 양자의 바다에 정보 상태로 오랜 기간 떠돌다, 결과적으로 지금의 미래에 이르게 된 경우인가요?</speak>
+			<show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+			<show chara="DarwinFunnyClose" position="right"/>
+			<speak chara="_Darwin">……제 생각엔, 본질적으로 보면 좀 다른 것 같은데.</speak>
+			<show chara="DarwinFunnyClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressBiteClose" position="left"/>
+			<speak chara="_Bianka">그럼…… 당신의 상황은 「세계마다 시간의 시점과 속도가 다르다」가 아니면 설명이 불가능하지 않나요?</speak>
+			<show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+			<show chara="DarwinEmbarrassedClose" position="right"/>
+			<speak chara="_Darwin">그런 건 아닌데. 제가 당신들이 만난 「뱀」처럼 불로불사가 된 건 아니니까요.</speak>
+			<show chara="DarwinNormalClose" position="right"/>
+			<speak chara="_Darwin">제 말이 모순되는 것처럼 들리는 이유는 바로——</speak>
+			<show chara="DarwinSeriousClose" position="right"/>
+			<speak chara="_Darwin">——저는 누군가의 죽음에서 태어난 별을 얘기하는 자이니까요. 다른 사람의 복제품이라 해도 되겠죠.</speak>
+			<show chara="DarwinSeriousClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="left"/>
+			<speak chara="_Bianka">……「죽음에서 태어난」? 「복제품」? 대체 무슨 얘기를 하시는 거예요?</speak>
+			<show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+			<show chara="DarwinNormalClose" position="right"/>
+			<speak chara="_Darwin">진짜 「안나・찰스・다윈」은 병으로 10살의 어린 나이에 세상을 떠났어요.</speak>
+			<speak chara="_Darwin">여러분 앞에 서 있는 전——그저 그녀가 양자의 바다에 남긴 잔상이죠.</speak>
+			<show chara="DarwinNormalClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="left"/>
+			<speak chara="_Bianka">……!?</speak>
+			<show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+			<show chara="DarwinSmileClose" position="right"/>
+			<speak chara="_Darwin">오해하진 말아주세요, 제가 귀신이나 영체 같은 거라는 얘기는 아니니까요. 이건 그저 에테르 앵커의 「세계 복제」 능력이 「사람」에게 쓰여졌을 때 일어나는 일이니까요.</speak>
+			<show chara="DarwinNormalClose" position="right"/>
+			<speak chara="_Darwin">문명의 업적이나 지적 생명체의 존재나, 이들 모두 「네겐트로피」의 존재를 직접적으로 나타내는 상징이죠. 「에테르 앵커」는 이런 「네겐트로피」를 「고정」하여 성장시키는 「배양기」라 생각하시면……</speak>
+			<show chara="DarwinNormalClose" position="right" opacity="0.8"/>
+			<show chara="schroMemoryClose" position="left"/>
+			<speak chara="_Schrodinger">……그리고 네겐트로피와 허수 내부 에너지는——즉 붕괴에너지는——서로 상반상생 관계에 있다는 것이에요.</speak>
+			<show chara="schroTalkClose" position="left"/>
+			<speak chara="_Schrodinger">이론상, 분명 역으로 붕괴 에너지를 통해 새로운 「네겐트로피」를 제어 가능한 방식으로 만드는 것도 가능하다는 것이에요.</speak>
+			<show chara="schroMemoryClose" position="left"/>
+			<speak chara="_Schrodinger">——이게 바로 「월광왕좌」의 기본 원리라는 것이에요.</speak>
+			<show chara="schroMemoryClose" position="left" opacity="0.8"/>
+			<show chara="DarwinSmileClose" position="right"/>
+			<speak chara="_Darwin">훗, 역시 「네겐트로피」의 개념을 제안하신 슈뢰딩거 박사님이에요——전후 관계를 잘 이해하고 있으시네요.</speak>
+			<show chara="DarwinSmileClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressHesitateClose" position="left"/>
+			<speak chara="_Bianka">음... 무슨 얘기들을 하시는 거에요?</speak>
+			<show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+			<show chara="schroMemoryClose" position="right"/>
+			<speak chara="_Schrodinger">……</speak>
+			<show chara="schroTalkClose" position="right"/>
+			<speak chara="_Schrodinger">발키리 여러분, 여러분은 "제1율자"의 능력을 알고 있습니까?</speak>
+			<show chara="schroTalkClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="left"/>
+			<speak chara="_Bianka">네겐트로피의 "맹주" 말인가요? 그는 허공에 온갖 기계장치, 성유물, 심지어는 신의 열쇠까지 복제할 수 있아요, 맞죠?</speak>
+			<show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+			<show chara="schroSmileClose" position="right"/>
+			<speak chara="_Schrodinger">네, 좋은 요약입니다. 하지만... 좀만 따져보자면, 그는 "허공"에서 그런걸 복제하는게 아닙니다.</speak>
+			<show chara="schroTalkClose" position="right"/>
+			<speak chara="_Schrodinger">그는 신체에 충만한 붕괴능을 제어해, 구조를 역으로 분석해 동량의 "네겐트로피"만큼 제조하는겁니다.</speak>
+			<show chara="schroSmileClose" position="right"/>
+			<speak chara="_Schrodinger">보통 붕괴능이란 날뛰는 야생마처럼 제어하기 어렵지만ㅡ 그 사람은 율자이기에, 어느 방면에서는 일반상식을 벗어난 초능력자같은 패를 낼 수 있는겁니다.</speak>
+			<show chara="schroTalkClose" position="right"/>
+			<speak chara="_Schrodinger">다윈양... 당신의 "에테르 앵커"또한 비슷한 힘을 가지고 있지만... 당신이 원하는대로 무언가를 복제할 수는 없어요... 맞습니까?</speak>
+			<show chara="schroTalkClose" position="right" opacity="0.8"/>
+			<show chara="DarwinEmbarrassedClose" position="left"/>
+			<speak chara="_Darwin">……음... 정확히 말하자면, "에테르 앵커" 자체는 그런 초능력같은 힘을 가지고 있지 않아요.</speak>
+			<show chara="DarwinNormalClose" position="left"/>
+			<speak chara="_Darwin">그 양자의 바다ㅡ 정보의 대양 속에서ㅡ "낚을수" 있었던건 자가회복이 가능한 약간의 정보였을 뿐이었어요.</speak>
+			<show chara="DarwinSmileClose" position="left"/>
+			<speak chara="_Darwin">이곳에 오신 두 발키리분도 자신의 물질이 정보화되고, 다시 정보에서 물질화 하는 과정을 경험하셨을거에요.</speak>
+			<show chara="DarwinNormalClose" position="left"/>
+			<speak chara="_Darwin">——그게 바로 특별한, 지정된 "인양"이에요.</speak>
+			<show chara="DarwinFunnyClose" position="left"/>
+			<speak chara="_Darwin">이런 "인양"은 항상 "현재"를 유지하기에, 두 정신과 의지는 모두 지속해요ㅡ 따라서 세계를 뛰어넘는다 하더라도, 그 두개는 여전히 그 두개인 셈이죠.</speak>
+			<show chara="DarwinNormalClose" position="left"/>
+			<speak chara="_Darwin">그리고 "안나·찰스·다윈"의 모든 정보는 이미 "과거에 완성"되었지만, 에테르 앵커이 실수로 양자의 바다에서 사라질 정보를 읽고, 그걸 다시 인쇄한거에요.</speak>
+			<show chara="DarwinSmileClose" position="left"/>
+			<speak chara="_Darwin">……그래서 제가 스스로를 역사인물의 복제라고 알고 있는 겁니다.</speak>
+			<show chara="DarwinNormalClose" position="left"/>
+			<speak chara="_Darwin">이것과 다른, 그리고 더 복잡한 기제가 있어야 진정으로 죽은 사람을 부활시킬 수 있을거에요ㅡ 그리고 이 "닻"에 그런 능력이 없다는 것도 명확한 사실이고요.</speak>
+			<show chara="DarwinNormalClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressSorrowClose" position="right"/>
+			<speak chara="_Bianka">……</speak>
+			<show chara="shakesCasualConfidentClose" position="right"/>
+			<speak chara="_Shakespeare">솔직함에 감사드립니다, 다윈양.</speak>
+			<show chara="shakesCasualLaughClose" position="right"/>
+			<speak chara="_Shakespeare">당신이 기다려 직접 문을 열고 우리에게 이런 기밀을 말해준다는 건ㅡ 당신들의 "공화국"이 우리 "칼레도니아호"의 도움이 절실히 필요하다는 거겠죠?</speak>
+			<show chara="shakesCasualLaughClose" position="right" opacity="0.8"/>
+			<show chara="DraculaLaughClose" position="left"/>
+			<speak chara="_DraculaNoName">하하하핫! 역시 어지러운 바다의 붉은 선장, 핵심을 찌르는군! 아주 첫눈에 반할 뻔했는걸?</speak>
+			<show chara="DraculaLaughClose" position="left" opacity="0.8"/>
+			<show chara="DarwinEmbarrassedClose" position="right"/>
+			<speak chara="_Darwin">앗, 일로나, 갑자기 들어와서 손님들에게 장난치면 안돼!</speak>
+			<show chara="DarwinEmbarrassedClose" position="right" opacity="0.8"/>
+			<show chara="DraculaFunnyClose" position="left"/>
+			<speak chara="_DraculaNoName">후후, 안나 넌 국방장관이 되서도, 쪼잔하다니까.</speak>
+			<show chara="DraculaSmileClose" position="left"/>
+			<speak chara="_DraculaNoName">난 일로나·드라큘리스트, 1근위대의 지휘관ㅡ 날 "드라큘라"라는 별명으로 불러도 좋아.</speak>
+			<show chara="DraculaNormalClose" position="left"/>
+			<speak chara="_Dracula">난 이 "쪼잔"한 미소녀하고는 달리, "에테르 앵커"이 없어도 존재할 수 있는 스타스피커——</speak>
+			<show chara="DraculaSmileClose" position="left"/>
+			<speak chara="_Dracula">——즉, 난 오백년 전부터 오늘까지 살아왔다는 거지! 어때, "흡혈귀"는 대단하지?</speak>
+			<show chara="DraculaSmileClose" position="left" opacity="0.8"/>
+			<show chara="DarwinFunnyClose" position="right"/>
+			<speak chara="_Darwin">풋, 제가 해석해드리자면: "난 양자의 바다에서 오백년동안 떠다니면서, 내가 인간인지 괴물인지에 대한건 무시해왔어. 너희들도 그런건 신경끄지 그래?"에요</speak>
+			<show chara="DarwinSmileClose" position="right"/>
+			<speak chara="_Darwin">일로나, 이 뜻이 맞아?</speak>
+			<show chara="DarwinSmileClose" position="right" opacity="0.8"/>
+			<show chara="DraculaFunnyClose" position="left"/>
+			<speak chara="_Dracula">……음, 이 악독한 녀석이 매번 내 완벽한 이미지를 망치고 있었다는걸 일찍 깨달았어야 했는데.</speak>
+			<show chara="DraculaLaughClose" position="left"/>
+			<speak chara="_Dracula">롤랑의 친구들, 너희들도 다윈이 말을 못해서, 남들이 말 걸기 어려워 하는거라고 생각해?</speak>
+			<show chara="DraculaLaughClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressSighClose" position="right"/>
+			<speak chara="_Bianka">음... 제가 이런 대화 스타일을 좋아하냐는 거죠? 최소한 우리 신비주의자 주교보다는 훨씬 나은데요 뭘.</speak>
+			<show chara="biankaDressSneerClose" position="right"/>
+			<speak chara="_Bianka">……...그 사람은 제 생명의 은인이기도 한데, 나쁘게 말하는것도 이상하긴 하지만요.</speak>
+			<show chara="schroSeriousClose" position="right"/>
+			<speak chara="_Schrodinger">……다른세계의 일은 꺼내지 않도록 하죠.</speak>
+			<show chara="schroCalmClose" position="right"/>
+			<speak chara="_Schrodinger">"잉카공화국" 여러분ㅡ 당신들의 중요한 군사적 목표는 지구 반대편에 있는 제국을 무너트리는겁니다ㅡ 제가 이렇게 요약해도 무방합니까?</speak>
+			<show chara="schroCalmClose" position="right" opacity="0.8"/>
+			<show chara="DraculaFunnyClose" position="left"/>
+			<speak chara="_Dracula">어머, 이쪽은 그 유명한 슈뢰딩거 박사잖아?</speak>
+			<show chara="DraculaSeriousClose" position="left"/>
+			<speak chara="_Dracula">당신 말이 맞아. 이 공화국의 존재의의는, 바로 그런 "자연재해"에 맞서는 것.</speak>
+			<show chara="DraculaFunnyClose" position="left"/>
+			<speak chara="_Dracula">……요즘들어서 좀 힘들어지고는 있지만.</speak>
+			<show chara="DraculaSmileClose" position="left"/>
+			<speak chara="_Dracula">그래서, 우리의 주제를 가장 기초적인 현실로 돌린건ㅡ "목표달성"을 위한 방법이 있어서겠지?</speak>
+			<show chara="DraculaSmileClose" position="left" opacity="0.8"/>
+			<show chara="schroSmileClose" position="right"/>
+			<speak chara="_Schrodinger">아, 그렇게 생각할 수도 있겠군요. 하지만 우선 이상하게 들릴만한 질문을 하나 하겠습니다——</speak>
+			<show chara="schroTalkClose" position="right"/>
+			<speak chara="_Schrodinger">이 공화국에, "아이돌" 같은 직업이 있습니까?</speak>
+			<show chara="schroTalkClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressShoutClose" position="left"/>
+			<speak chara="_Bianka">……뭐요?</speak>
+			<show chara="biankaDressShoutClose" position="left"/>
+			<speak chara="_Bianka">갑자기 그런 질문을——</speak>
+			<show chara="biankaDressNormalClose" position="left"/>
+			<speak chara="_Bianka">——아。</speak>
+			<show chara="biankaDressNormalClose" position="left" opacity="0.8"/>
+			<show chara="DraculaFunnyClose" position="right"/>
+			<speak chara="_Dracula">……왜 그래? "아이돌"과 너희들 사이에 특별한 관계라도 있는거야?</speak>
+			<show chara="DraculaFunnyClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressNormalClose" position="left"/>
+			<speak chara="_Bianka">간단히 말해서, 우리는 지금 잃어버린 강력한 병기를 하나로 모으고 있어요.</speak>
+			<show chara="biankaDressSighClose" position="left"/>
+			<speak chara="_Bianka">——그리고 그 병기의 부품중 하나가 "아이돌"의 몸에 있을 가능성이 있거든요.
+			</speak>
+			<show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+			<show chara="DraculaLaughClose" position="right"/>
+			<speak chara="_Dracula">하하하핫, 그거 진짜야, 장난이야?</speak>
+			<show chara="DarwinSeriousClose" position="right"/>
+			<speak chara="_Darwin">비앙카양, 성검 "듀란달"의 힘을 가진 보석들을 회수하는 것 말인가요?</speak>
+			<show chara="DarwinSeriousClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressHesitateClose" position="left"/>
+			<speak chara="_Bianka">맞아요. 미니듀가 그 보석들이랑 연결되어 있어서, 우리에게 단서가 될만한 이미지를 제공해줬는데——</speak>
+			<show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+			<show chara="durandalOutstretchOpen" position="right"/>
+			<speak chara="_SwordDurandalQ">——왔다! 비앙카님, 왔다구!</speak>
+			<show chara="durandalOutstretchOpen" position="right" opacity="0.8"/>
+			<show chara="biankaDressShoutClose" position="left"/>
+			<speak chara="_Bianka">야! 말하는데 갑자기 끼어들지마 이 멍청아! 뭐가 "왔다"야?</speak>
+			<show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+			<show chara="durandalOpen" position="right"/>
+			<speak chara="_SwordDurandalQ">당연히 골든 "사랑의 보석"이지!</speak>
+			<show chara="durandalOutstretchOpen" position="right"/>
+			<speak chara="_SwordDurandalQ">근처 공간에서 갑자기 나타난걸 느꼈어! 마치 시공을 초월한 것처럼!</speak>
+			<show chara="durandalOutstretchOpen" position="right" opacity="0.8"/>
+			<show chara="biankaDressSighClose" position="left"/>
+			<speak chara="_Bianka">뭐?</speak>
+			<show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+			<show chara="champoQuestionClose" position="right"/>
+			<speak chara="_Champollion">……なるほど。</speak>
+			<show chara="champoNormalClose" position="right"/>
+			<speak chara="_Champollion">아마 보석을 소유한 자가 "와카터널"을 사용했을수도요. 그 원리가 "초공간도약"과 비슷하다 하지 않았나요?</speak>
+			<show chara="champoSmileClose" position="right"/>
+			<speak chara="_Champollion">——다윈양, 오늘 요새에 특별한 일정이 있습니까?</speak>
+			<show chara="champoSmileClose" position="right" opacity="0.8"/>
+			<show chara="DarwinNormalClose" position="left"/>
+			<speak chara="_Darwin">지금 시간이요? 1시간 후에 위문공연이——</speak>
+			<show chara="DarwinEmbarrassedClose" position="left"/>
+			<speak chara="_Darwin">——잠깐, 혹시 [그] 스타 아가씨가 여러분이 찾고 있던 "보석을 가진 아이돌"이에요?!</speak>
+			<show chara="DarwinSeriousClose" position="left"/>
+			<speak chara="_Darwin">이 시간이면... 요새에 막 도착했을거에요!</speak>
+			<show chara="DarwinSeriousClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="right"/>
+			<speak chara="_Bianka">「스타」?</speak>
+			<show chara="biankaDressScreamClose" position="right"/>
+			<speak chara="_Bianka">……혹시 그 사람, 하늘색 머리에 긴 포니테일인가요? 목소리는 활기차고요, 그렇죠?</speak>
+			<show chara="biankaDressScreamClose" position="right" opacity="0.8"/>
+			<show chara="DraculaFunnyClose" position="left"/>
+			<speak chara="_Dracula">어머, 너희들 정말 아는 사이구나?</speak>
+			<show chara="DraculaFunnyClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressShyClose" position="right"/>
+			<speak chara="_Bianka">음... 아뇨, 어떻게 된거냐면——</speak>
+			<show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+			<show chara="DraculaLaughClose" position="left"/>
+			<speak chara="_Dracula">알았어, 왜 여기서 우물쭈물 거리고 있어? 바로 현장으로 가자고!</speak>
+			<show chara="DraculaSmileClose" position="left"/>
+			<speak chara="_Dracula">공연하기 전에 물어봐야 하지 않아? 빨리빨리! 작전에 대한건, 기다렸다가 천천히 얘기할 수 있을테니까!</speak>
+			<show chara="DraculaSmileClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressScreamClose" position="right"/>
+			<speak chara="_Bianka">아ㅡ 미, 밀지마요! 알아서 갈거라고요!</speak>
+			<goto goto="95" clockwise="1"/>
+		</scene>
+		<scene id="95" background="stageHuaca.jpg">
+			<bgm src="09_13_dannyBoy.mp3" status="start"></bgm>
+			<text>아직 관객들이 입장하지 않아서 그런지, 요새의 강당은 생각보다 더 조용했다.</text>
+			<text>비앙카는 곧바로 무대 뒷편으로 가려 했으나——</text>
+			<text>——갑자기, 가벼운 반주와 함께, 연예인처럼 단장한 귀여운 소녀가 무대에 올라 리허설을 시작했다</text>
+			<goto goto="100" change="0"/>
+		</scene>
+		<scene id="100" background="stageHuacaCloseUp.jpg">
+			<bgm src="09_13_dannyBoy.mp3" status="continue"></bgm>
+			<show chara="ShigureKiraSingingCloseEyeFar" position="center"/>
+			<speak chara="_ShigureKiraNoName">나의 목소리♬ 듣고 있나요♪</speak>
+			<show chara="ShigureKiraSingingLyricalFar" position="center"/>
+			<speak chara="_ShigureKiraNoName">당신의 미소는♬ 비 온 뒤의 태양 같아요♪</speak>
+			<show chara="ShigureKiraSingingPassionFar" position="center"/>
+			<speak chara="_ShigureKiraNoName">천사가 내려오는 때♪</speak>
+			<show chara="ShigureKiraSingingPassionFar" position="center"/>
+			<speak chara="_ShigureKiraNoName">무지개가 구름에 비쳐요♪</speak>
+			<show chara="ShigureKiraSingingCloseEyeFar" position="center"/>
+			<speak chara="_ShigureKiraNoName">부드러운 야수가 이곳저곳♬</speak>
+			<show chara="ShigureKiraSingingCloseEyeFar" position="center"/>
+			<speak chara="_ShigureKiraNoName">독장미는 거칠게 자라나죠♬</speak>
+			<show chara="ShigureKiraSingingPassionFar" position="center"/>
+			<speak chara="_ShigureKiraNoName">당신 때문에♪ 난 운명을 소중히 여겨요♬</speak>
+			<show chara="ShigureKiraSingingPassionFar" position="center"/>
+			<speak chara="_ShigureKiraNoName">당신 때문에♪ 난 용감해지려 노력해요♬</speak>
+			<show chara="ShigureKiraSingingLyricalFar" position="center"/>
+			<speak chara="_ShigureKiraNoName">이미 하나된 마음♬</speak>
+			<show chara="ShigureKiraSingingPassionFar" position="center"/>
+			<speak chara="_ShigureKiraNoName">난 떨어지지 않기를 빌어요♪</speak>
+			<show chara="ShigureKiraSingingCloseEyeFar" position="center"/>
+			<speak chara="_ShigureKiraNoName">손 끝에 닿았었던♬</speak>
+			<show chara="ShigureKiraSingingLyricalFar" position="center"/>
+			<speak chara="_ShigureKiraNoName">화려했던 추억을 기억하고 싶어요♪</speak>
+			<end post="U2FsdGVkX18nlZmHoGxgv3pMXtlH"/>
+		</scene>
+	</story>
 </data>
