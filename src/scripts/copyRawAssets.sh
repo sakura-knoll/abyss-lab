@@ -1,0 +1,29 @@
+cp -R \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/avatarcardfigures \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/avatarcardicons \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/avatarchibiicons \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/avatarfragmentfigures \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/avataricon \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/avatariconside \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/avatarstar \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/avatarstarskill \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/avatartachie \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/avatarattricons \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/skillicons \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/subskillicons \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/stateicon/newstateicon \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/stigmatafigures \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/stigmataicons \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/stigmatasmallicon \
+dump/sprite2-dump-67/assets/originalresrepos/art/ui/stigmatatype \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/elfcardfigures \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/elfcardicons \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/elffragmentfigures \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/elftalentbg \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/rogue/materialfigures \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/rogue/supportbufficon \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/rogue/godcloseup \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/weaponicons \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/weapontypeicons \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/materialfigures \
+assets/raw
