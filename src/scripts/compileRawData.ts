@@ -1,4 +1,3 @@
-import { buildBattlesuitList } from '../lib/v2-pre/server/buildData'
 import path from 'path'
 import { createDirIfNotExist } from '../lib/v2-pre/server/fsUtils'
 import fs from 'fs'
@@ -6,6 +5,7 @@ import YAML from 'yaml'
 import { runScript } from './lib/utils'
 import { battlesuitCatalogPath, battlesuitsDir, dataDir } from '../lib/v2-pre/server/loadData'
 import { BattlesuitCatalogItem } from '../lib/v2-pre/data/types'
+import { compileBattlesuitData } from '../lib/v2-pre/server/migration/compileBattlesuitData'
 
 runScript(async () => {
   createDirIfNotExist(dataDir)
@@ -13,7 +13,7 @@ runScript(async () => {
 })
 
 function writeBattlesuitData() {
-  const battlesuitList = buildBattlesuitList()
+  const battlesuitList = compileBattlesuitData()
 
   const simplifiedList: BattlesuitCatalogItem[] = battlesuitList.map(battlesuit => {
     return {

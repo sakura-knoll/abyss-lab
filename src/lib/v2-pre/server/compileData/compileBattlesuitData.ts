@@ -8,19 +8,19 @@ import {
   SkillType,
   TagType,
   WeaponType
-} from '../data/types'
-import { getRawAvatarDataMap } from './raw/avatarData'
-import { getRawAvatarSkillDataMap } from './raw/avatarSkillData'
-import { getRawAvatarSubSkillDataMap } from './raw/avatarSubSkillData'
-import { getRawAvatarTagUnLockDataMap } from './raw/avatarTagUnLockData'
-import { getRawTextMap } from './raw/textMap'
+} from '../../data/types'
+import { getRawAvatarDataMap } from '../raw/avatarData'
+import { getRawAvatarSkillDataMap } from '../raw/avatarSkillData'
+import { getRawAvatarSubSkillDataMap } from '../raw/avatarSubSkillData'
+import { getRawAvatarTagUnLockDataMap } from '../raw/avatarTagUnLockData'
+import { getRawTextMap } from '../raw/textMap'
 
 export function getText(id: string | number) {
   const rawTextMap = getRawTextMap()
   return rawTextMap[id]?.Text || null
 }
 
-export function buildBattlesuitList(): Battlesuit[] {
+export function compileBattlesuitData(): Battlesuit[] {
   const rawAvatarDataMap = getRawAvatarDataMap()
   const rawSkillDataMap = getRawAvatarSkillDataMap()
   const rawSubSkillDataMap = getRawAvatarSubSkillDataMap()
