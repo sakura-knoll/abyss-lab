@@ -142,3 +142,53 @@ export interface BattlesuitSubSkill {
   unlockStar: StarRank
   toggle: boolean
 }
+
+export interface WeaponCatalogItem {
+  id: string
+  name: string
+  type: WeaponType
+  maxRarity: 1 | 2 | 3 | 4 | 5
+}
+
+export interface WeaponData {
+  id: string
+  weapons: {
+    id: string
+    rarity: number
+    maxLv: number
+    type: WeaponType
+    title: string
+    description: string
+    icon: string
+    hpBase: number
+    hpAdd: number
+    spBase: number
+    spAdd: number
+    attackBase: number
+    attackAdd: number
+    defenceBase: number
+    defenceAdd: number
+    criticalBase: number
+    criticalAdd: number
+    resistanceBase: number
+    resistanceAdd: number
+    skills: WeaponSkill[]
+    rankUpMaterials: {
+      id: string
+      amount: number
+    }[]
+  }
+}
+export interface WeaponSkill {
+  id: string
+  name: string
+  info: string
+  icon?: string
+  skillCd: number
+  skillSpCost: number
+  skillSpNeed: number
+  tags: {
+    type: TagType
+    comment: string
+  }[]
+}
