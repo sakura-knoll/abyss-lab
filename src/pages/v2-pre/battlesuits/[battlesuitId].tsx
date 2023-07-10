@@ -139,7 +139,7 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
           </Card>
         )
       })}
-      <pre>{JSON.stringify(battlesuit, null, 2)}</pre>
+      {/* <pre>{JSON.stringify(battlesuit, null, 2)}</pre> */}
     </Box>
   )
 }

@@ -11,6 +11,9 @@ export const battlesuitCatalogPath = path.join(dataDir, 'battlesuit-catalog.yaml
 export const weaponsDir = path.join(dataDir, 'weapons')
 export const weaopnCatalogPath = path.join(dataDir, 'weapon-catalog.yaml')
 
+export const stigmataDir = path.join(dataDir, 'stigmata')
+export const stigmataCatalogPath = path.join(dataDir, 'stigmata-catalog.yaml')
+
 export function loadBattlesuitCatalog(): BattlesuitCatalogItem[] {
   return readYamlFile(battlesuitCatalogPath)
 }
@@ -27,6 +30,15 @@ export function loadWeaponCatalog(): WeaponCatalogItem[] {
 export function loadWeaponData(id: string) {
   const weaponDataPath = path.join(weaponsDir, `${id}.yaml`)
   return readYamlFile(weaponDataPath)
+}
+
+export function loadStigmataCatalog(): WeaponCatalogItem[] {
+  return readYamlFile(stigmataCatalogPath)
+}
+
+export function loadStigmaData(id: string) {
+  const stigmaDataPath = path.join(stigmataDir, `${id}.yaml`)
+  return readYamlFile(stigmaDataPath)
 }
 
 function readYamlFile(pathname: string) {

@@ -7,17 +7,21 @@ import {
   battlesuitCatalogPath,
   battlesuitsDir,
   dataDir,
+  stigmataCatalogPath,
+  stigmataDir,
   weaopnCatalogPath,
   weaponsDir
 } from '../lib/v2-pre/server/loadData'
-import { BattlesuitCatalogItem, WeaponCatalogItem } from '../lib/v2-pre/data/types'
+import { BattlesuitCatalogItem, StigmataCatalogItem, WeaponCatalogItem } from '../lib/v2-pre/data/types'
 import { compileBattlesuitData } from '../lib/v2-pre/server/compileData/compileBattlesuitData'
 import { compileWeaponData } from '../lib/v2-pre/server/compileData/compileWeaponData'
+import { compileStigmataData } from '../lib/v2-pre/server/compileData/compileStigmataData'
 
 runScript(async () => {
   createDirIfNotExist(dataDir)
-  writeBattlesuitData()
-  writeWeaponData()
+  // writeBattlesuitData()
+  // writeWeaponData()
+  writeStigmataData()
 })
 
 function writeBattlesuitData() {
@@ -47,10 +51,10 @@ function writeBattlesuitData() {
 function writeWeaponData() {
   const weaponDataList = compileWeaponData()
 
-  const catalogList: WeaponCatalogItem[] = weaponDataList.map(weapon => {
-    const maxedWeapon = weapon.weapons[weapon.weapons.length - 1]
+  const catalogList: WeaponCatalogItem[] = weaponDataList.map(rootWeapon => {
+    const maxedWeapon = rootWeapon.weapons[rootWeapon.weapons.length - 1]
     return {
-      id: weapon.id,
+      id: rootWeapon.id,
       name: maxedWeapon.name,
       icon: maxedWeapon.icon,
       type: maxedWeapon.type,
@@ -65,5 +69,29 @@ function writeWeaponData() {
   for (const weaponData of weaponDataList) {
     const weaponDataPath = path.join(weaponsDir, `${weaponData.id}.yaml`)
     fs.writeFileSync(weaponDataPath, YAML.stringify(weaponData))
+  }
+}
+
+function writeStigmataData() {
+  const stigmataDataList = compileStigmataData()
+
+  const catalogList: StigmataCatalogItem[] = stigmataDataList.map(rootStigma => {
+    const maxedStigma = rootStigma.stigmata[rootStigma.stigmata.length - 1]
+    return {
+      id: rootStigma.id,
+      name: maxedStigma.name,
+      icon: maxedStigma.icon,
+      type: maxedStigma.type,
+      maxRarity: maxedStigma.maxRarity
+    }
+  })
+
+  fs.writeFileSync(stigmataCatalogPath, YAML.stringify(catalogList))
+
+  createDirIfNotExist(stigmataDir)
+
+  for (const stigmataData of stigmataDataList) {
+    const stigmaDataPath = path.join(stigmataDir, `${stigmataData.id}.yaml`)
+    fs.writeFileSync(stigmaDataPath, YAML.stringify(stigmataData))
   }
 }

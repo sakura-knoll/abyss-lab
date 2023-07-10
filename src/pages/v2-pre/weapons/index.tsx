@@ -6,11 +6,11 @@ import { loadWeaponCatalog } from '../../../lib/v2-pre/server/loadData'
 import { WeaponCatalogItem } from '../../../lib/v2-pre/data/types'
 import WeaponIcon from '../../../components/v2-pre/WeaponIcon'
 
-interface BattlesuitListPageProps {
+interface WeaponListPageProps {
   weaponCatalog: WeaponCatalogItem[]
 }
 
-const BattlesuitListPage = ({ weaponCatalog }: BattlesuitListPageProps) => {
+const WeaponListPage = ({ weaponCatalog }: WeaponListPageProps) => {
   return (
     <Box>
       <h1>Weapons</h1>
@@ -49,7 +49,7 @@ const BattlesuitListPage = ({ weaponCatalog }: BattlesuitListPageProps) => {
   )
 }
 
-export default BattlesuitListPage
+export default WeaponListPage
 
 export async function getStaticProps({ locale }: NextPageContext) {
   const weaponCatalog = loadWeaponCatalog()

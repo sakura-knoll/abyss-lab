@@ -176,7 +176,7 @@ export interface WeaponData {
   criticalAdd: number
   resistanceBase: number
   resistanceAdd: number
-  skills: WeaponSkill[]
+  skills: EquipmentSkill[]
   rankUpMaterials: {
     id: string
     amount: number
@@ -184,7 +184,7 @@ export interface WeaponData {
   powerType: number
 }
 
-export interface WeaponSkill {
+export interface EquipmentSkill {
   id: string
   name: string
   info: string
@@ -202,4 +202,47 @@ export interface WeaponSkill {
   param2Add: number
   param3: number
   param3Add: number
+}
+
+export type StigmaType = 'top' | 'mid' | 'bot'
+
+export interface Stigma {
+  id: string
+  rarity: 1 | 2 | 3 | 4 | 5
+  maxRarity: 1 | 2 | 3 | 4 | 5
+  maxLv: number
+  type: StigmaType
+  hpBase: number
+  hpAdd: number
+  attackBase: number
+  attackAdd: number
+  defenceBase: number
+  defenceAdd: number
+  criticalBase: number
+  criticalAdd: number
+  icon: string
+  image: string
+  smallIcon: string
+  name: string
+  description: string
+  shortName: string
+  mainId: string
+  skills: EquipmentSkill[]
+  rankUpMaterials: {
+    id: string
+    amount: number
+  }[]
+}
+
+export interface RootStigma {
+  id: string
+  stigmata: Stigma[]
+}
+
+export interface StigmataCatalogItem {
+  id: string
+  name: string
+  icon: string
+  type: StigmaType
+  maxRarity: 1 | 2 | 3 | 4 | 5
 }

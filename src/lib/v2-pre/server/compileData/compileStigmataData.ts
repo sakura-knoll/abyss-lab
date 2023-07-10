@@ -1,19 +1,25 @@
-import { RootWeaponData, WeaponData } from '../../data/types'
+import { RootStigma, StigmaType } from '../../data/types'
 import { getRawEquipmentSkillDataMap } from '../raw/equipmentSkillData'
-import { getRawWeaponDataMap } from '../raw/weaponData'
-import { convertEquipmentSkill, convertWeaponType, getText } from './utils'
+import { getRawStigmataDataMap } from '../raw/stigmataData'
+import { convertEquipmentSkill, getText } from './utils'
 
-export function compileWeaponData(): RootWeaponData[] {
-  const rawWeaponDataMap = getRawWeaponDataMap()
+export function compileStigmataData() {
+  const rawStigmataDataMap = getRawStigmataDataMap()
+  const rawStigmataDataMapEntries = Object.entries(rawStigmataDataMap)
   const rawEquipmentSkillDataMap = getRawEquipmentSkillDataMap()
 
-  const rawWeaponMainIdWeaponDataMap = Object.entries(rawWeaponDataMap).reduce((map, [id, rawData]) => {
-    const rawWeaponMainId = rawData.WeaponMainID.toString()
-    let weaponList = map.get(rawWeaponMainId)
-    if (weaponList == null) {
-      weaponList = []
-      map.set(rawWeaponMainId, weaponList)
+  const stigmataMainIdStigmataMap = rawStigmataDataMapEntries.reduce((map, [id, rawData]) => {
+    const mainId = rawData.StigmataMainID.toString()
+    let rootStigma = map.get(mainId)
+    if (rootStigma == null) {
+      rootStigma = {
+        id: mainId,
+        stigmata: []
+      }
+      map.set(mainId, rootStigma)
     }
+    const [, , icon] = rawData.IconPath.split('/')
+    const [, , smallIcon] = rawData.SmallIcon.split('/')
 
     const skills = []
     if (rawData.Prop1ID !== 0) {
@@ -58,46 +64,52 @@ export function compileWeaponData(): RootWeaponData[] {
         param3Add: rawData.Prop3Param3Add
       })
     }
-    const icon = rawData.IconPath.split('/').pop()!
-    weaponList.push({
+
+    rootStigma.stigmata.push({
       id,
       rarity: rawData.Rarity,
+      maxRarity: rawData.MaxRarity,
       maxLv: rawData.MaxLv,
-      type: convertWeaponType(rawData.BaseType),
-      name: getText(rawData.DisplayTitle),
-      description: getText(rawData.DisplayDescription),
-      icon,
+      type: convertStigmataType(rawData.BaseType),
       hpBase: rawData.HPBase,
       hpAdd: rawData.HPAdd,
-      spBase: rawData.SPBase,
-      spAdd: rawData.SPAdd,
       attackBase: rawData.AttackBase,
       attackAdd: rawData.AttackAdd,
       defenceBase: rawData.DefenceBase,
       defenceAdd: rawData.DefenceAdd,
       criticalBase: rawData.CriticalBase,
       criticalAdd: rawData.CriticalAdd,
-      resistanceBase: rawData.ResistanceBase,
-      resistanceAdd: rawData.ResistanceAdd,
+      icon,
+      image: rawData.ImagePath,
+      smallIcon,
+      name: getText(rawData.DisplayTitle),
+      description: getText(rawData.DisplayDescription),
+      shortName: getText(rawData.ShortName),
       skills,
-
-      rankUpMaterials: rawData.EvoMaterial.map(rawMaterial => {
+      rankUpMaterials: rawData.EvoMaterial.map(({ ID, Num }) => {
         return {
-          id: rawMaterial.ID.toString(),
-          amount: rawMaterial.Num
+          id: ID.toString(),
+          amount: Num
         }
       }),
-      powerType: rawData.PowerType
+      mainId
     })
+
     return map
-  }, new Map<string, WeaponData[]>())
+  }, new Map<string, RootStigma>())
 
-  const weaponIdList = [...rawWeaponMainIdWeaponDataMap.keys()]
+  return [...stigmataMainIdStigmataMap.values()]
+}
 
-  return weaponIdList.map(weaponId => {
-    return {
-      id: weaponId,
-      weapons: rawWeaponMainIdWeaponDataMap.get(weaponId) || []
-    }
-  })
+function convertStigmataType(rawType: number): StigmaType {
+  switch (rawType) {
+    case 1:
+      return 'top'
+    case 2:
+      return 'mid'
+    case 3:
+      return 'bot'
+    default:
+      throw new Error(`Unknown Raw Stigmata Base Type (${rawType})`)
+  }
 }

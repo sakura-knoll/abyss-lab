@@ -1,4 +1,4 @@
-import { AttributeType, CharacterType, SkillType, TagType, WeaponType } from './types'
+import { AttributeType, CharacterType, SkillType, StigmaType, TagType, WeaponType } from './types'
 
 export function getAttributeLabel(type: AttributeType) {
   switch (type) {
@@ -45,6 +45,19 @@ export function getWeaponTypeLabel(type: WeaponType) {
       return '재블린'
     default:
       return `Unknown Weapon Type (${type})`
+  }
+}
+
+export function getStigmaTypeLabel(type: StigmaType) {
+  switch (type) {
+    case 'top':
+      return '상단'
+    case 'mid':
+      return '중단'
+    case 'bot':
+      return '하단'
+    default:
+      return `Unknown Stigma Type (${type})`
   }
 }
 
