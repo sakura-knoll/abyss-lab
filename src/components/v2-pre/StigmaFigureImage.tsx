@@ -51,18 +51,6 @@ const StigmaFigureImage = ({ size = 720, stigma }: StigmaFigureImageProps) => {
       </Box>
     </Box>
   )
-  return (
-    <Box
-      sx={{
-        transform: 'scale(1)',
-        width: 720,
-        height: 720,
-        background: `no-repeat 50% url(${getStigmaFigureImageSrc(
-          stigma.image
-        )}), no-repeat 50% url(${getStigmaFigureTattooImageSrc(stigma.image)})`
-      }}
-    />
-  )
 }
 
 export default StigmaFigureImage
@@ -74,5 +62,5 @@ function getStigmaFigureImageSrc(image: string) {
 
 function getStigmaFigureTattooImageSrc(image: string) {
   const [set] = image.split('_')
-  return `${assetsBucketBaseUrl}/raw/stigmatafigures/${set}_Tattoo.png`
+  return `${assetsBucketBaseUrl}/raw/stigmatafigures/${set}_tattoo.png`
 }
