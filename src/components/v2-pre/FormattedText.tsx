@@ -6,6 +6,9 @@ interface FormattedTextProps {
 }
 
 const FormattedText = ({ children }: FormattedTextProps) => {
+  if (children == null) {
+    children = ''
+  }
   const tokens = tokenize(children)
 
   return <>{renderTokens(tokens)}</>

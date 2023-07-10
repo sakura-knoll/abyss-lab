@@ -64,7 +64,10 @@ export function formatSubSkillInfo({
   )
 }
 
-export function replaceNewLine(value: string = '') {
+export function replaceNewLine(value: string) {
+  if (value == null) {
+    value = ''
+  }
   return value.replace(/\\n/g, '\n')
 }
 
