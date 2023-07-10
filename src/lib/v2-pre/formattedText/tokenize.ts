@@ -18,7 +18,7 @@ export function tokenize(value: string) {
   let currentValue = value.replace(/{{/g, '').replace(/}}/g, '')
 
   while (currentValue.length > 0) {
-    const openingBracketStartIndex = currentValue.indexOf('<')
+    const openingBracketStartIndex = currentValue.indexOf('<color')
     if (openingBracketStartIndex < 0) {
       tokens.push({ type: 'text', text: currentValue })
       eat(openingBracketStartIndex)
@@ -53,7 +53,11 @@ export function tokenize(value: string) {
       children
     })
     const nextClosingBracketEndIndex = currentValue.indexOf('>', nextClosingBracketStartIndex)
-    eat(nextClosingBracketEndIndex + 1)
+    if (nextClosingBracketEndIndex < 0) {
+      eat(currentValue.length)
+    } else {
+      eat(nextClosingBracketEndIndex + 1)
+    }
   }
 
   return tokens
