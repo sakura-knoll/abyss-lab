@@ -19,8 +19,8 @@ import { compileStigmataData } from '../lib/v2-pre/server/compileData/compileSti
 
 runScript(async () => {
   createDirIfNotExist(dataDir)
-  // writeBattlesuitData()
-  // writeWeaponData()
+  writeBattlesuitData()
+  writeWeaponData()
   writeStigmataData()
 })
 
