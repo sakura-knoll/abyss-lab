@@ -52,6 +52,7 @@ function writeWeaponData() {
     return {
       id: weapon.id,
       name: maxedWeapon.name,
+      icon: maxedWeapon.icon,
       type: maxedWeapon.type,
       maxRarity: maxedWeapon.rarity
     }

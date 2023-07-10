@@ -34,7 +34,7 @@ function adjustColor(color: unknown): string | undefined {
   const normalizedColor = color.toUpperCase()
 
   if (normalizedColor.startsWith('#FEDF4C')) {
-    return '#e6c010'
+    return '#d1af15'
   }
 
   if (normalizedColor.startsWith('#FFC741')) {

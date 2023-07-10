@@ -9,7 +9,7 @@ export type RawWeaponDataMap = {
 }
 
 export interface RawWeaponData {
-  Rarity: number
+  Rarity: 1 | 2 | 3 | 4 | 5 | 6
   MaxRarity: number
   SubRarity: number
   SubMaxRarity: number

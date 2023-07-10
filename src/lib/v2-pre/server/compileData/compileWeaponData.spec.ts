@@ -15,7 +15,7 @@ describe('compileWeaponData', () => {
       ])
     })
 
-    expect(targetItem!.weapons[3]).toMatchObject({
+    expect(targetItem?.weapons[3]).toMatchObject({
       skills: [
         {
           id: '1221'

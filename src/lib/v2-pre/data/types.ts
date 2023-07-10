@@ -146,39 +146,44 @@ export interface BattlesuitSubSkill {
 export interface WeaponCatalogItem {
   id: string
   name: string
+  icon: string
   type: WeaponType
-  maxRarity: 1 | 2 | 3 | 4 | 5
+  maxRarity: 1 | 2 | 3 | 4 | 5 | 6
+}
+
+export interface RootWeaponData {
+  id: string
+  weapons: WeaponData[]
 }
 
 export interface WeaponData {
   id: string
-  weapons: {
+  rarity: 1 | 2 | 3 | 4 | 5 | 6
+  maxLv: number
+  type: WeaponType
+  name: string
+  description: string
+  icon: string
+  hpBase: number
+  hpAdd: number
+  spBase: number
+  spAdd: number
+  attackBase: number
+  attackAdd: number
+  defenceBase: number
+  defenceAdd: number
+  criticalBase: number
+  criticalAdd: number
+  resistanceBase: number
+  resistanceAdd: number
+  skills: WeaponSkill[]
+  rankUpMaterials: {
     id: string
-    rarity: number
-    maxLv: number
-    type: WeaponType
-    title: string
-    description: string
-    icon: string
-    hpBase: number
-    hpAdd: number
-    spBase: number
-    spAdd: number
-    attackBase: number
-    attackAdd: number
-    defenceBase: number
-    defenceAdd: number
-    criticalBase: number
-    criticalAdd: number
-    resistanceBase: number
-    resistanceAdd: number
-    skills: WeaponSkill[]
-    rankUpMaterials: {
-      id: string
-      amount: number
-    }[]
-  }
+    amount: number
+  }[]
+  powerType: number
 }
+
 export interface WeaponSkill {
   id: string
   name: string
@@ -191,4 +196,10 @@ export interface WeaponSkill {
     type: TagType
     comment: string
   }[]
+  param1: number
+  param1Add: number
+  param2: number
+  param2Add: number
+  param3: number
+  param3Add: number
 }

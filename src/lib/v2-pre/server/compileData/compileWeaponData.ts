@@ -1,8 +1,9 @@
+import { RootWeaponData, WeaponData } from '../../data/types'
 import { getRawEquipmentSkillDataMap, RawEquipmentSkillData } from '../raw/equipmentSkillData'
 import { getRawWeaponDataMap } from '../raw/weaponData'
 import { convertTagType, convertWeaponType, getText } from './utils'
 
-export function compileWeaponData() {
+export function compileWeaponData(): RootWeaponData[] {
   const rawWeaponDataMap = getRawWeaponDataMap()
   const rawEquipmentSkillDataMap = getRawEquipmentSkillDataMap()
 
@@ -20,7 +21,13 @@ export function compileWeaponData() {
       const rawSkill = rawEquipmentSkillDataMap[skillId]
       skills.push({
         id: skillId,
-        ...convertWeaponSkill(rawSkill)
+        ...convertWeaponSkill(rawSkill),
+        param1: rawData.Prop1Param1,
+        param1Add: rawData.Prop1Param1Add,
+        param2: rawData.Prop1Param2,
+        param2Add: rawData.Prop1Param2Add,
+        param3: rawData.Prop1Param3,
+        param3Add: rawData.Prop1Param3Add
       })
     }
     if (rawData.Prop2ID !== 0) {
@@ -28,7 +35,13 @@ export function compileWeaponData() {
       const rawSkill = rawEquipmentSkillDataMap[skillId]
       skills.push({
         id: skillId,
-        ...convertWeaponSkill(rawSkill)
+        ...convertWeaponSkill(rawSkill),
+        param1: rawData.Prop2Param1,
+        param1Add: rawData.Prop2Param1Add,
+        param2: rawData.Prop2Param2,
+        param2Add: rawData.Prop2Param2Add,
+        param3: rawData.Prop2Param3,
+        param3Add: rawData.Prop2Param3Add
       })
     }
     if (rawData.Prop3ID !== 0) {
@@ -36,16 +49,22 @@ export function compileWeaponData() {
       const rawSkill = rawEquipmentSkillDataMap[skillId]
       skills.push({
         id: skillId,
-        ...convertWeaponSkill(rawSkill)
+        ...convertWeaponSkill(rawSkill),
+        param1: rawData.Prop3Param1,
+        param1Add: rawData.Prop3Param1Add,
+        param2: rawData.Prop3Param2,
+        param2Add: rawData.Prop3Param2Add,
+        param3: rawData.Prop3Param3,
+        param3Add: rawData.Prop3Param3Add
       })
     }
-    const icon = rawData.IconPath.split('/').pop()
+    const icon = rawData.IconPath.split('/').pop()!
     weaponList.push({
       id,
       rarity: rawData.Rarity,
       maxLv: rawData.MaxLv,
       type: convertWeaponType(rawData.BaseType),
-      title: getText(rawData.DisplayTitle),
+      name: getText(rawData.DisplayTitle),
       description: getText(rawData.DisplayDescription),
       icon,
       hpBase: rawData.HPBase,
@@ -71,14 +90,14 @@ export function compileWeaponData() {
       powerType: rawData.PowerType
     })
     return map
-  }, new Map())
+  }, new Map<string, WeaponData[]>())
 
   const weaponIdList = [...rawWeaponMainIdWeaponDataMap.keys()]
 
   return weaponIdList.map(weaponId => {
     return {
       id: weaponId,
-      weapons: rawWeaponMainIdWeaponDataMap.get(weaponId)
+      weapons: rawWeaponMainIdWeaponDataMap.get(weaponId) || []
     }
   })
 
