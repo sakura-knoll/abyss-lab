@@ -1,0 +1,332 @@
+id: "204"
+fullName: 뇌전 여왕의 귀신 갑주
+shortName: 뇌전 여왕의 귀신 갑주
+desc: <color=white>특징:</color> <color=#FF66CCFF>이능 속성</color>의 근거리 전투형 캐릭터. 뇌전의
+  힘을 다루며, 뇌속성의 공격으로 적을 마비 시킬 수 있다.
+firstName: 메이
+lastName: 라이덴
+enFirstName: Mei
+enLastName: Raiden
+attributeType: psy
+isEasterner: true
+weapon: katana
+character: mei
+initialStar: s
+tags:
+  - lightning-dmg
+  - paralyze
+skills:
+  - id: "81"
+    name: 오혼참
+    info: "빠른 속도로 5연속 베기를 발동해 2% 확률로 적을 5초간 마비시키고, 마비 게이지를 10pt
+      누적한다.\\n<color=#23B2E2FF>1격: 공격력 100%의 물리 대미지\\n2격: 공격력 120%의 물리 대미지\\n3격:
+      공격력 75%의 물리 대미지\\n4격: 공격력 80%의 물리 대미지\\n5격: 주변 범위에 공격력 250%의 물리
+      대미지</color>"
+    icon: Skill_Mei_CK_001
+    skillType: basic
+    tags:
+      - type: paralyze
+        strength: 2
+        comment: "마비 이상 게이지 누적 가능, 누적 능력: 보통"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "801"
+        name: 단혼참
+        info: "기본 공격 시 #1[f1]%의 확률로 적을 #3[f1]초 동안 감전 상태로 만든다. 감전 상태의 적은 받는 뇌전 원소 대미지가
+          #2[f1]% 증가한다. 기본 공격 5식의 공격을 받았지만 단혼참 스킬의 영향을 받지 않은 첫 번째 적은 반드시 감전 상태가
+          된다."
+        brief: 기본 공격 시 일정 확률로 적을 감전시켜 그가 받는 뇌전 원소 대미지를 대폭 증가시킨다
+        icon: Skill_Nagative_Control01
+        maxLv: 65
+        paramBase1: 0.2
+        paramBase2: 0.4
+        paramBase3: 4
+        paramAdd1: 0.00313
+        paramAdd2: 0.00469
+        paramAdd3: 0.03125
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "802"
+        name: 뇌신의 칼날
+        info: "기본 공격의 각 단계마다 추가로 공격력 #2[f1]%의 뇌전 원소 대미지를 입힌다"
+        brief: 기본 공격으로 적을 감전 상태로 만든다
+        icon: Skill_Nagative_Damage02
+        maxLv: 75
+        paramBase1: 0.2
+        paramBase2: 0.25
+        paramBase3: 0
+        paramAdd1: 0.0027
+        paramAdd2: 0.00203
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "814"
+        name: 연속 베기 - 극
+        info: "콤보 수가 30 이상일 때, 공격 속도 #1[f1]% 증가"
+        brief: 콤보 수가 30을 초과하면 공격 속도가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 28
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0037
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "82"
+    name: 천명참
+    info: "번개를 담은 칼날로 공격한다.\\n<color=#23B2E2FF>뇌전참: 공격력 80%*4의 뇌전 원소 대미지를
+      입힌다</color>"
+    icon: Skill_Mei_LD_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "803"
+        name: <color=#FFC741FF>교대기</color> - 낙뢰참
+        info: "교대 시 낙뢰를 떨어뜨려 주변 적에게 공격력의 #1[f1]% 뇌전 원소 대미지를 입힌다."
+        brief: 출전 시 낙뢰를 떨어트려 주변의 적에게 뇌전 원소 대미지를 입힌다
+        icon: Skill_Nagative_StartUp02
+        maxLv: 70
+        paramBase1: 0.8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02464
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "804"
+        name: 뇌격 쌍참
+        info: "극한 회피 후 공격 버튼을 누르면 천명참을 발동한다. 천명참을 한번 더 발동하여 공격력의 #1[f1]%*4 뇌전 원소 대미지를
+          입힌다."
+        brief: 극한 회피 후 바로 천명참을 발동할 수 있고 천명참을 1회 추가 발동할 수 있다
+        icon: Skill_Nagative_Damage01
+        maxLv: 25
+        paramBase1: 0.4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "805"
+        name: 뇌격 폭참
+        info: "천명참을 추가로 한번 더 발동하여 공격력의 #1[f1]%*4 뇌전 원소 대미지를 입힌다.(뇌격 쌍참 습득 필요)"
+        brief: 천명참을 1회 추가 발동할 수 있다
+        icon: Skill_Nagative_Damage03
+        maxLv: 40
+        paramBase1: 0.4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01026
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "83"
+    name: 번개의 칼날
+    info: "빠르게 적의 공격을 회피한다. 2회 연속 회피할 수 있다.\\n<color=#23B2E2FF>뇌둔: 5초 동안 경직 저항력이 대폭
+      증가하고, 받는 물리 대미지가 15% 감소한다.\\n카미나리: 극한 회피 시 발동,</color> <color=#FEDF4CFF>마비
+      게이지를 3pt 누적하며</color> <color=#23B2E2FF>5초 동안 캐릭터가 받는 물리 대미지가 15%, 받는 뇌전 원소
+      대미지가 80% 감소한다. 재사용 대기시간: 10초</color>"
+    icon: Skill_Mei_LD_003
+    skillType: evasion
+    tags:
+      - type: paralyze
+        strength: 1
+        comment: "마비 이상 게이지 누적 가능, 누적 능력: 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "806"
+        name: 뇌명
+        info: "극한 회피 성공 시 범위 내 전기장을 발동하고 0.5초마다 범위 내 적에게 공격력의 #1[f1]% 뇌전 원소 대미지를 입히고,
+          #2[f1]초간 지속된다"
+        brief: 극한 회피 시 일렉트릭 역장을 발동하여 구역 내의 적에게 지속 피해를 입힐 수 있다
+        icon: Skill_Nagative_Damage01
+        maxLv: 30
+        paramBase1: 0.5
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.01207
+        paramAdd2: 0.06897
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "807"
+        name: 번뜩이는 검
+        info: "극한 회피로 누적하는 마비 게이지가 추가로 #1[f1]pt 증가한다."
+        brief: 극한 회피가 누적하는 마비 게이지가 증가한다.
+        icon: Skill_Nagative_Control02
+        maxLv: 20
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.15789
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "84"
+    name: 뇌룡의 표효
+    info: "뇌신의 힘을 발동해 큰 범위의 적을 도륙한다.\\n<color=#23B2E2FF>뇌신패참: 넓은 범위의 적에게 공격력 900%의
+      물리 대미지와, 공격력 900%의 뇌전 원소 대미지를 입힌다.\\n발동 시 소모 SP: 125</color>"
+    icon: Skill_Mei_LD_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "808"
+        name: 진·벚꽃 산란
+        info: "필살기의 마지막 일격이 콤보 수 1당 #1[i]의 뇌전 원소 대미지를 추가로 입힌다. 최대 유효 콤보 수: #2[i]회"
+        brief: 필살기의 마지막 일격은 콤보수에 따라 대량의 뇌전 원소 대미지를 입힐 수 있다
+        icon: Skill_Nagative_Damage02
+        maxLv: 50
+        paramBase1: 24
+        paramBase2: 40
+        paramBase3: 0
+        paramAdd1: 1.95918
+        paramAdd2: 1.22449
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "809"
+        name: I'm Mei
+        info: "마지막 일격 적중 시, 모든 적에게 <color=#FEDF4CFF>마비 게이지를 5pt 누적하고,</color> 캐릭터 공격 시
+          가하는 뇌전 원소 대미지가 #1[f2]% 증가한다. 지속 시간: 7초"
+        brief: 필살기의 마지막 일격 적중 시 모든 적에게 마비 게이지를 누적하고, 짧은 시간 캐릭터가 가하는 뇌전 원소 대미지가 대폭 증가한다.
+        icon: Skill_Nagative_Control01
+        maxLv: 20
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01053
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 1
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: sss
+      - id: "813"
+        name: <color=#FFC741FF>QTE</color> - 벚꽃 소용돌이
+        info: "QTE: 적이 띄워졌을 때 발동. 넓은 범위의 적에게 공격력 #1[f1]%*6의 물리 대미지, 공격력 #1[f1]%*6의 뇌전 원소
+          대미지를 입히고, 10 SP를 회복한다"
+        brief: "QTE: 적이 공중에 띄워졌을 때 QTE 출전, 넓은 범위의 적에게 물리 대미지를 가한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 30
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00862
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "85"
+    name: 백귀야행
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>백귀야행: {{모든 파티원의 초기 SP #1[i]
+      증가. 3명의 캐릭터를 '이능' 속성으로  통일하고 공격하면 모든 대미지 #2[i]% 증가. 오픈 월드 - 초기 SP 증가 효과
+      10분마다 한 번씩 발동, 모든 파티원의 공격 시 모든 대미지가 10% 증가.}}</color>"
+    icon: Skill_Mei_CK_005
+    skillType: leader
+    tags: []
+    paramSubId1: 810
+    paramSubId2: 810
+    paramSubId3: 0
+    subSkills:
+      - id: "810"
+        name: 백귀야행
+        info: "모든 파티원의 전투 중 기본 SP #1[i] 증가. 캐릭터 속성이 모두 이능일 경우 모든 대미지가 #2[i]% 증가한다. 오픈
+          월드에서는 적용된 효과가 10분마다 한번씩 발동할 수 있고, 파티원 전원의 모든 대미지가 10% 증가한다"
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Survive02
+        maxLv: 2
+        paramBase1: 60
+        paramBase2: 0.23
+        paramBase3: 0
+        paramAdd1: 10
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "86"
+    name: 패시브 스킬
+    info: 패시브 스킬은 자동으로 발동한다.\n<color=#23B2E2FF></color>
+    icon: Skill_Mei_CK_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "811"
+        name: 청룡의 결계
+        info: "빙결, 이동 속도 저하 상태의 적을 공격 시 모든 대미지 #1[f1]% 증가"
+        brief: 빙결 혹은 이동 속도가 감소된 적을 공격 시 자신의 모든 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 60
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00847
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "812"
+        name: 뇌운참
+        info: "피격 시 #1[f1]%의 확률로 공격자와 주변 적에게 <color=#FEDF4CFF>마비 게이지를 3pt 누적한다.</color>"
+        brief: 적중 시 일정 확률로 공격자와 주변 적에게 마비 게이지를 누적한다.
+        icon: Skill_Nagative_Control01
+        maxLv: 15
+        paramBase1: 0.1
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: 0.00714
+        paramAdd2: 0.10714
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 1
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: ss
+      - id: "815"
+        name: 분노의 멍에
+        info: "분기 공격 시 #1[f2]%의 확률로 적에게 단혼참 스킬의 감전 효과를 추가한다"
+        brief: 분기 공격은 일정 확률로 적을 감전 상태로 만든다
+        icon: Skill_Nagative_Damage03
+        maxLv: 15
+        paramBase1: 0.04
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00286
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss

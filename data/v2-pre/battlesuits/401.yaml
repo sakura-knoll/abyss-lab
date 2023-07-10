@@ -1,0 +1,296 @@
+id: "401"
+fullName: 발키리·개선
+shortName: 발키리·개선
+desc: <color=white>특징:</color> <color=#FFAF2CFF>생물 속성</color>의 근거리 전투형 캐릭터. 다양한
+  CC기를 보유하고 있으며, 서포트에 특화되어있다.
+firstName: 히메코
+lastName: 무라타
+enFirstName: Himeko
+enLastName: Murata
+attributeType: bio
+isEasterner: true
+weapon: 2-handed
+character: himeko
+initialStar: a
+tags:
+  - physical-dmg
+  - heavy-atk
+  - time-mastery
+  - stun
+  - heal
+skills:
+  - id: "131"
+    name: <color=#FFC741FF>차지</color> - 대검
+    info: "기본 공격: 3연속 검격, 검격마다 차지를 통해 강화할 수 있다.\\n<color=#23B2E2FF>1격: 공격력 150%의 물리
+      대미지\\n2격: 공격력 180%의 물리 대미지\\n3격: 공격력 250%의 물리 대미지\\n차지 1격: 공격력 200%+300%의
+      물리 대미지\\n차지 2격: 공격력 250%+400%의 물리 대미지\\n차지 3격: 공격력 320%+440%의 물리
+      대미지</color>"
+    icon: Skill_Himeko_NX_001
+    skillType: basic
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "차지 공격의 3격은 강격이다. 축적 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1301"
+        name: 폭발 참격
+        info: "차지 공격의 크리티컬률 #1[f1]% 증가하고 실드가 없는 적에게 가하는 물리 대미지가 #2[f1]% 증가한다."
+        brief: 차지 공격의 크리티컬률이 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 20
+        paramBase1: 0.1
+        paramBase2: 0.16
+        paramBase3: 0
+        paramAdd1: 0.00579
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1302"
+        name: 강인함
+        info: "차지 공격 동안 경직 저항력이 증가하고, 받는 물리 대미지가 #1[f1]% 감소한다."
+        brief: 차지 공격 중 경직 저항력이 증가하고 받는 물리 대미지가 감소한다
+        icon: Skill_Nagative_Survive02
+        maxLv: 20
+        paramBase1: 0.45
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "132"
+    name: 발키리 돌격
+    info: 돌진 중 내려찍기를 발동한다.\n<color=#23B2E2FF>돌진 중 공격 버튼을 누르면 뛰어올라 내려찍어 공격력의 450% 물리
+      대미지를 입힌다.</color>
+    icon: Skill_Himeko_VV_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "돌진 공격은 강격이다. 축적 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1303"
+        name: 파공참
+        info: "교대기: 교대 시 횡베기를 발동하여 공격력의 #1[i]% 물리 대미지를 입힌다."
+        brief: 출전 시 횡베기를 발동하여 물리 대미지를 입힌다
+        icon: Skill_Nagative_StartUp02
+        maxLv: 35
+        paramBase1: 2.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.06765
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1304"
+        name: <color=#FFC741FF>QTE</color> - 무쌍파공참
+        info: "QTE: 적이 빙결 상태일 때 발동. 강력한 횡베기를 발동하여 공격력 #1[i]%의 물리 대미지를 입힌다"
+        brief: "QTE: 적이 빙결 상태일 때 QTE 출전, 강력한 가로 베기를 발동해 물리 대미지를 가한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 57
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05357
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "133"
+    name: 진동 변화
+    info: "적의 공격을 측면으로 회피한다. 2회 연속 회피할 수 있다.\\n<color=#23B2E2FF>에너지 충전: 극한 회피 후 곧바로
+      차지 1단을 발동할 수 있다.\\n충격파: 극한 회피 후 원래 위치에 충격파를 발생시켜 범위 내의 적에게</color>
+      <color=#FEDF4CFF>기절 게이지를 3pt 누적한다.</color> <color=#23B2E2FF>충격파 지속 시간: 2초,
+      재사용 대기시간: 20초</color>"
+    icon: Skill_Himeko_BZ_003
+    skillType: evasion
+    tags:
+      - type: stun
+        strength: 1
+        comment: "기절 이상 게이지 누적 가능, 누적 능력: 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1305"
+        name: 급속 냉각
+        info: "충격파의 재사용 대기시간 #1[f1]초 감소"
+        brief: 충격파의 재사용 대기시간 감소
+        icon: Skill_Nagative_Survive01
+        maxLv: 24
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.13043
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1306"
+        name: 파동 강화
+        info: "충격파의 지속 시간 #1[f1]초 증가"
+        brief: 충격파의 지속 시간 증가
+        icon: Skill_Nagative_Control02
+        maxLv: 28
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05556
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1307"
+        name: 진동파 방어
+        info: "충격파 발동 시 자신의 경직 저항력을 증가시키고, #2[f1]초 동안 받는 모든 대미지를 #1[f1]% 감소시킨다."
+        brief: 충격파 발동 시 짧은 시간 동안 자신의 경직 저항력이 증가하고 받는 모든 대미지가 감소한다
+        icon: Skill_Nagative_Survive02
+        maxLv: 25
+        paramBase1: 0.25
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.01042
+        paramAdd2: 0.125
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "134"
+    name: 검의 결계
+    info: "무수한 검이 펼쳐진 결계를 펼친다.\\n<color=#23B2E2FF>시공의 결계: 결계 내부에 있는 적은 8초 동안 강력한 시공
+      감속의 영향을 받는다.\\n결계 분쇄: 결계를 폭발시켜 공격력의 800% 물리 대미지를 입힌다.\\n발동 시 소모 SP:
+      125</color>"
+    icon: Skill_Himeko_VV_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1308"
+        name: 파갑 결계
+        info: "결계 내부의 적이 받는 물리 대미지 #1[f1]% 증가"
+        brief: 결계 내에서 적이 받는 물리 대미지가 증가한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 65
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00469
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1309"
+        name: 회복 결계
+        info: "결계 내부의 적 1기마다, 모든 파티원의 HP를 0.5초마다 #1[f1]씩 회복시킨다.(최대 #2[i]번 중첩)"
+        brief: 결계 내의 적의 수량에 따라 모든 파티원이 HP를 회복한다
+        icon: Skill_Nagative_Survive03
+        maxLv: 25
+        paramBase1: 10
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.84167
+        paramAdd2: 0.08375
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1310"
+        name: 결계 폭파
+        info: "결계 분쇄가 공격력의 #1[i]% 물리 대미지를 추가로 입힌다."
+        brief: 결계 분쇄 시 추가 물리 대미지를 입힌다
+        icon: Skill_Nagative_Damage02
+        maxLv: 21
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.15
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "135"
+    name: 개선
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>개선: {{모든 파티원의 HP 비율이 80%보다
+      높을 때 물리 대미지가 #1[i]% 증가한다. 생물 속성 캐릭터의 방어력이 #2[i]% 증가한다.}}</color>"
+    icon: Skill_Himeko_VV_005
+    skillType: leader
+    tags: []
+    paramSubId1: 1311
+    paramSubId2: 1311
+    paramSubId3: 0
+    subSkills:
+      - id: "1311"
+        name: 개선
+        info: "모든 파티원의 HP가 80%를 초과했을 때 물리 대미지가 #1[i]% 증가한다. 생물 속성 캐릭터의 방어력이 #2[i]%
+          증가한다."
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Skill03
+        maxLv: 3
+        paramBase1: 0.2
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.05
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "136"
+    name: 패시브 스킬
+    info: 패시브 스킬은 자동으로 발동한다.\n<color=#23B2E2FF></color>
+    icon: Skill_Himeko_VV_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1312"
+        name: 철벽
+        info: "대기 상태일 때 모든 파티원의 경직 저항력이 증가하고 #2[f1]초 동안 방어력이 #1[f1]% 증가한다."
+        brief: 스테이지를 떠나면 짧은 시간 동안 모든 파티원의 경직 저항력과 방어력이 증가한다
+        icon: Skill_Nagative_Survive01
+        maxLv: 40
+        paramBase1: 0.3
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.01026
+        paramAdd2: 0.02564
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "1313"
+        name: 기세 몰이
+        info: "빙결과 기절 상태의 적을 공격 시 크리티컬 대미지가 #1[f1]% 증가한다."
+        brief: 빙결과 기절 상태의 적을 공격 시 크리티컬 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01034
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a

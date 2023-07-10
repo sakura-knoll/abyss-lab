@@ -1,0 +1,132 @@
+id: "21003"
+weapons:
+  - id: "28105"
+    rarity: 4
+    maxLv: 40
+    type: cannon
+    name: 헤카톤케일·프로토타입 진영
+    description: 미코얀 중앙 설계국에서 설계 및 제조한 붕괴 에너지 중포로 북유럽 신화에서 소멸한 애시르 신족의 이름을 따왔다.
+      “요르문간드”가 소멸시키고자 하는 “신”...그것은...
+    icon: Weapon_Cannon_B5_47_4
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 62.20703
+    attackAdd: 3.110352
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 0.922994
+    criticalAdd: 0.057687
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "2042"
+        name: 거대한 팔·다중 유도 미사일
+        info: "다수의 목표 조준해 미사일을 발사한다. 차지가 비교적 길며 타길에 여러 발 명중 시 위력이 조금 줄어든다. 차지 1단: 3발,
+          2단: 7발, 3단: 15발. 미사일 명중 시 #1[i]%의 확률로 <color=#FEDF4CFF>기절/마비/빙결 게이지를
+          3pt</color> 누적하고, 추가로 화염/뇌전/빙결 원소 대미지를 #3[i] 가한다."
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: stun
+            comment: "기절 이상 게이지 누적 가능, 누적 능력: 약함"
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 약함"
+          - type: freeze
+            comment: "빙결 이상 게이지 누적 가능, 누적 능력: 약함"
+        param1: 0.03
+        param1Add: 0.000225
+        param2: 0.9
+        param2Add: 0.006742
+        param3: 350
+        param3Add: 3.932584
+      - id: "148"
+        name: 시공 트랩
+        info: "<color=#FEDF4CFF>[SP 소모: 18][재사용 대기시간: 24초]</color> 전방 구역에 시공 트랩을 작렬시켜,
+          #2[f2]초 동안 구역 내의 적에게 시공 감속과 취약 상태를 지속적으로 가한다(방어력 #1[i]% 감소)"
+        icon: Skill_Bronya_Weapon_08
+        skillCd: 24
+        skillSpCost: 18
+        skillSpNeed: 18
+        tags:
+          - type: impair
+            comment: 적에게 취약 효과 부여
+          - type: time-mastery
+            comment: 적에게 시공 감속 효과 부여
+        param1: 0.15
+        param1Add: 0.001685
+        param2: 3
+        param2Add: 0.011236
+        param3: 0
+        param3Add: 0
+    rankUpMaterials:
+      - id: "1301"
+        amount: 1
+    powerType: 4
+  - id: "28106"
+    rarity: 5
+    maxLv: 50
+    type: cannon
+    name: 헤카톤케일·프로토타입 진영
+    description: 미코얀 중앙 설계국에서 설계 및 제조한 붕괴 에너지 중포로 북유럽 신화에서 소멸한 애시르 신족의 이름을 따왔다.
+      “요르문간드”가 소멸시키고자 하는 “신”...그것은...
+    icon: Weapon_Cannon_B5_47_5
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 71.09375
+    attackAdd: 3.554688
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 1.05485
+    criticalAdd: 0.065928
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "2042"
+        name: 거대한 팔·다중 유도 미사일
+        info: "다수의 목표 조준해 미사일을 발사한다. 차지가 비교적 길며 타길에 여러 발 명중 시 위력이 조금 줄어든다. 차지 1단: 3발,
+          2단: 7발, 3단: 15발. 미사일 명중 시 #1[i]%의 확률로 <color=#FEDF4CFF>기절/마비/빙결 게이지를
+          3pt</color> 누적하고, 추가로 화염/뇌전/빙결 원소 대미지를 #3[i] 가한다."
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: stun
+            comment: "기절 이상 게이지 누적 가능, 누적 능력: 약함"
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 약함"
+          - type: freeze
+            comment: "빙결 이상 게이지 누적 가능, 누적 능력: 약함"
+        param1: 0.038989
+        param1Add: 0.000225
+        param2: 1.169663
+        param2Add: 0.006742
+        param3: 507.30338
+        param3Add: 3.932584
+      - id: "148"
+        name: 시공 트랩
+        info: "<color=#FEDF4CFF>[SP 소모: 18][재사용 대기시간: 24초]</color> 전방 구역에 시공 트랩을 작렬시켜,
+          #2[f2]초 동안 구역 내의 적에게 시공 감속과 취약 상태를 지속적으로 가한다(방어력 #1[i]% 감소)"
+        icon: Skill_Bronya_Weapon_08
+        skillCd: 24
+        skillSpCost: 18
+        skillSpNeed: 18
+        tags:
+          - type: impair
+            comment: 적에게 취약 효과 부여
+          - type: time-mastery
+            comment: 적에게 시공 감속 효과 부여
+        param1: 0.217416
+        param1Add: 0.001685
+        param2: 3.449438
+        param2Add: 0.011236
+        param3: 0
+        param3Add: 0
+    rankUpMaterials:
+      - id: "0"
+        amount: 0
+    powerType: 4

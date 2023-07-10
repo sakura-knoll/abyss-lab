@@ -1,0 +1,336 @@
+id: "311"
+fullName: 은랑의 여명
+shortName: 은랑의 여명
+desc: <color=white>특징:</color> <color=#FF66CCFF>이능 속성</color>의
+  <color=#FF66CCFF>영혼 각성</color> 원거리 전투형 캐릭터, 중장 토끼가 자유롭게 공격하며 캐릭터를 지원한다.
+firstName: 브로냐
+lastName: 자이칙
+enFirstName: Bronya
+enLastName: Zaychik
+attributeType: psy
+isEasterner: false
+weapon: cannon
+character: bronya
+initialStar: a
+tags:
+  - physical-dmg
+  - stun
+  - weaken
+  - time-mastery
+skills:
+  - id: "231"
+    name: <color=#FFC741FF>차지</color> - 중입자포
+    info: "차지할수록 강력해지는 포격\\n<color=#23B2E2FF>암 스위치: 장비한 무기에 따라 차지 공격이 바뀐다.\\n차지하지 않은
+      기본 공격에 맞은 적은 중장 토끼의 특수 공격 목표가 된다.</color>"
+    icon: Skill_Bronya_ZP_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2301"
+        name: 기갑 억제
+        info: "차지하지 않고 공격하는 경우 목표와 그 주변을 허약 상태로 만들어 #2[f2]초 동안 적의 공격력을 #1[f1]% 감소시킨다"
+        brief: 점사로 범위 허약 효과를 발동할 수 있다
+        icon: Skill_Nagative_Survive02
+        maxLv: 35
+        paramBase1: 0.2
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 0.00882
+        paramAdd2: 0.11765
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "2302"
+        name: 핀포인트 조준
+        info: "중장 토끼가 허약 상태의 적에게 가하는 물리 대미지가 #1[f1]% 증가한다."
+        brief: 토끼가 허약 상태의 적을 공격 시 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 8
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.06429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "232"
+    name: <color=#FFC741FF>출격</color>-강력 충돌
+    info: "교대 시 실드 어택을 발동한다.\\n<color=#23B2E2FF>실드 어택: 적에게 공격력 250%의 물리 대미지를
+      입힌다.\\n스스로 전투하는 중장 토끼[소환물]가 소환되고 캐릭터 교대 당시의 공격력을 40%, 방어력을 100%, HP를 400%,
+      원소 방어력을 50% 이어받으며 대부분의 상태 이상에 면역된다. 이로 인해 캐릭터의 공격력은 20% 감소한다</color>"
+    icon: Skill_Bronya_ZP_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "QTE는 강격이다. 축적 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2303"
+        name: 폭렬 돌격
+        info: "실드 어택은 공격력 #1[f1]%만큼 물리 대미지가 증가한다. 토끼: 캐릭터 공격력 #2[f1]%를 추가 복제한다"
+        brief: 출전 시 실드 어택을 바로 발동할 수 있고 중장 토끼의 공격력이 증가한다
+        icon: Skill_Nagative_StartUp01
+        maxLv: 35
+        paramBase1: 1
+        paramBase2: 0.03
+        paramBase3: 0
+        paramAdd1: 0.02059
+        paramAdd2: 0.005
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2304"
+        name: <color=#FFC741FF>QTE</color> - 체공 에너지
+        info: "QTE: 적이 시공 감속 상태일 때 조합 스킬을 발동한다. 중장 토끼: 폭렬 돌격. 캐릭터: 공격력 #1[i]%의 물리 대미지를
+          가하고, <color=#FEDF4CFF>기절 게이지를 6pt 누적한다.</color>"
+        brief: "QTE: 적이 시공 감속일 때 QTE 출전, 조합 스킬을 발동해 적을 공격하고 기절 게이지를 누적한다."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 30
+        paramBase1: 4.5
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.10345
+        paramAdd2: 0.06897
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 2
+            comment: "기절 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: true
+        unlockStar: a
+      - id: "2315"
+        name: 원격 제어
+        info: "캐릭터가 필드를 떠나도 중장 토끼는 #1[f1]초 동안 필드에 남아있는다"
+        brief: 은랑이 스테이지를 떠나도 중장토끼는 스테이지에 잠깐 남아 전투할 수 있다
+        icon: Skill_Nagative_StartUp03
+        maxLv: 10
+        paramBase1: 7.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "233"
+    name: 허수 시공의 반짝임
+    info: "짧은 시간 이차원에 진입해 상대의 공격을 회피한다.\\n<color=#23B2E2FF>허수 시공의 반짝임: 극한 회피 시, 중장
+      토끼를 소환해 적을 공격하고, 토끼 공격력 350%의 물리 대미지를 가한다. 중장 토끼가 적에게 적중 시, 3초간 시공 단열이
+      발동한다. 재사용 대기시간: 15초\\n중장 토끼가 기능 마비 상태일 때 극한 회피 시 중장 토끼의 HP를 50%를
+      회복한다.</color>"
+    icon: Skill_Bronya_ZP_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2305"
+        name: 대응 모듈
+        info: "허수 시공의 반짝임 발동 시, 중장 토끼의 HP를 #1[f1]% 회복하고, 10초 동안 중장 토끼의 물리 대미지가 #2[f1]%
+          증가한다"
+        brief: 허수 시공의 반짝임이 발동 시 중장 토끼의 일부 Hp를 회복하고 물리 대미지가 증가한다
+        icon: Skill_Nagative_Skill01
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0.02778
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2306"
+        name: 카운터 회로
+        info: "허수 시공의 반짝임의 재사용 대기시간이 #1[f2]초 감소한다."
+        brief: 허수 시공의 반짝임 재사용 대기시간이 감소한다
+        icon: Skill_Nagative_Skill02
+        maxLv: 10
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.22233
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2307"
+        name: 무장 속행
+        info: "극한 회피 시 추가로 모든 파티원의 SP를 #1[f1] 회복한다."
+        brief: 극한 회피 시 모든 파티원의 SP를 회복한다
+        icon: Skill_Nagative_Skill03
+        maxLv: 20
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.15789
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "234"
+    name: 우레의 일격
+    info: "강렬한 공명을 통해 중장 토끼가 강력한 공격을 시전한다.\\n<color=#23B2E2FF>공명: 중장 토끼가 지면을 3번 강력하게
+      내려찍어 주변 작은 범위의 적에게 대미지를 가하고 </color><color=#FEDF4CFF>기절 게이지를 6pt
+      누적한다.</color> <color=#23B2E2FF>허약 상태인 적은 5초 동안 시공 속박 상태가 된다.\\n첫 번째: 중장 토끼
+      공격력 275%의 물리 대미지\\n두 번째: 중장 토끼 공격력 425%의 물리 대미지\\n세 번째: 중장 토끼 공격력 575%의 물리
+      대미지\\n소모 SP: 55</color>"
+    icon: Skill_Bronya_XT_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "필살기는 강격이다. 다단 축적 가능, 축적 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2308"
+        name: 인력 견제
+        info: "지면을 찌르는 순간, 토끼 주변 넓은 범위 내 적에게 토끼를 밀어 공격력의 #1[f1]% 물리 대미지를 추가로 입힌다"
+        brief: 지면을 찌르는 순간 토끼 주변 넓은 범위 내의 적을 토끼 방향으로 끌어당겨 물리 대미지를 입힌다
+        icon: Skill_Nagative_Skill01
+        maxLv: 4
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.33333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "2309"
+        name: 폭주 동기화
+        info: "필살기 사용 후, 중장 토끼의 HP가 #1[f1]% 회복되고, 캐릭터와 중장 토끼의 물리 대미지가 #3[f1]초 동안 #2[f1]%
+          증가한다"
+        brief: 필살기 발동 후 중장 토끼의 체력이 회복되고 캐릭터와 중장 토끼의 대미지가 잠시 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 0.25
+        paramBase2: 0.1
+        paramBase3: 5
+        paramAdd1: 0.03889
+        paramAdd2: 0.02222
+        paramAdd3: 0.55556
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2310"
+        name: 자기장 제어
+        info: "땅을 찍어 적의 실드에 #3[i]의 고정 대미지를 준다. 필살기 사용 기간, 중장 토끼가 적의 실드에 가하는 대미지가 #1[f1]%
+          증가한다. 허약 상태의 적에게 주는 물리 대미지가 추가로 #2[f1]% 증가한다"
+        brief: 우레의 일격의 타격마다 실드에 고정 대미지를 입힌다. 필살기가 지속되는 동안 중장 토끼가 실드에 가하는 대미지가 대폭 증가한다.
+          허약 상태의 적을 공격 시 대미지가 대폭 증가한다
+        icon: Skill_Nagative_Skill03
+        maxLv: 10
+        paramBase1: 0.6
+        paramBase2: 0.5
+        paramBase3: 2000
+        paramAdd1: 0.04444
+        paramAdd2: 0.14444
+        paramAdd3: 666.6667
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "235"
+    name: 싱크로
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>싱크로: {{콤보 수가 30을 초과하면 모든
+      파티원의 크리티컬률이 #1[i]% 증가한다. 이능 속성의 캐릭터는 크리티컬 대미지가 #2[i]% 증가한다.}}</color>"
+    icon: Skill_Bronya_ZP_005
+    skillType: leader
+    tags: []
+    paramSubId1: 2311
+    paramSubId2: 2311
+    paramSubId3: 0
+    subSkills:
+      - id: "2311"
+        name: 싱크로
+        info: "콤보 수가 30을 초과하면 모든 파티원의 크리티컬률이 #1[i]% 증가한다. 이능 속성의 캐릭터는 크리티컬 대미지가 #2[i]%
+          증가한다."
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.22
+        paramBase2: 0.23
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "236"
+    name: 패시브 스킬
+    info: "캐릭터의 패시브 스킬 버프가 자동 적용된다\\n<color=#23B2E2FF>토끼의 HP가 소진되면 마비 상태가 되며, 1초마다
+      5%의 HP를 회복한다 캐릭터는 토끼 주변에 가서 구조할 수 있고, 1초마다 30%의 HP를 추가로 회복, 모든 HP를 회복하면 다시
+      전투에 참여한다\\n중장 토끼: 부활 시 주변 적을 넉백시킨다 은랑이 주변에 있을 경우 토끼의 물리 대미지가 10초간 60%
+      상승한다</color>"
+    icon: Skill_Bronya_ZP_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2312"
+        name: 생물 수호
+        info: "캐릭터: 파티원은 원소 대미지를 흡수하는 입자 실드를 획득한다. 입자 실드는 #1[i] HP를 보유하며, #2[f1]초 동안
+          공격당하지 않을 시 HP를 완전히 회복한다."
+        brief: 파티원은 원소 대미지를 흡수할 수 있는 실드를 획득한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 70
+        paramBase1: 172
+        paramBase2: 7
+        paramBase3: 0
+        paramAdd1: 12
+        paramAdd2: -0.01449
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2313"
+        name: 양자 복귀
+        info: "입자 실드가 존재할 경우 #1[f1]%의 확률로 이상 상태에 면역된다. 중장 토끼: 캐릭터 방어력의 100% 추가 복제한다."
+        brief: 입자 실드가 존재할 경우 일정 확률로 상태 이상에 면역되고 중장 토끼의 방어력이 증가한다.
+        icon: Skill_Nagative_Survive02
+        maxLv: 8
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03571
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2314"
+        name: 프리즘 리플렉션
+        info: "입자 실드가 존재할 경우 캐릭터가 가하는 모든 원소 대미지가 #1[f1]% 증가한다. 중장 토끼: 캐릭터 공격력의 5%를 추가
+          복제한다."
+        brief: 입자 실드가 존재할 경우 원소 대미지가 증가하고, 중장 토끼의 공격력이 증가한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss

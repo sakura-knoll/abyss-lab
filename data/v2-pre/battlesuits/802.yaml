@@ -1,0 +1,356 @@
+id: "802"
+fullName: 성휘의 기사·월백
+shortName: 성휘의 기사·월백
+desc: <color=white>특징:</color> <color=#2CE3FFFF>기계 속성</color>의 근접 캐릭터로 자신의 전투를
+  돕는 자가 기동 환령을 발동할 수 있다. 또한 극강의 방어 능력을 보유하고 있으며, 적의 공격을 막고 반격 대미지를 입힌다
+firstName: 듀란달
+lastName: null
+enFirstName: Durandal
+enLastName: null
+attributeType: mech
+isEasterner: true
+weapon: lance
+character: durandal
+initialStar: s
+tags:
+  - physical-dmg
+  - heavy-atk
+  - time-mastery
+  - burst
+skills:
+  - id: "541"
+    name: 폰 소드
+    info: "랜스로 5연격을 펼친다\\n<color=#23B2E2FF>1격: 공격력 100%의 물리 대미지\\n2격: 공격력 120%의 물리
+      대미지\\n3격: 공격력 200%의 물리 대미지\\n4격: 공격력 4*100%의 물리 대미지\\n5격: 공격력 150+250%의 물리
+      대미지</color>"
+    icon: Skill_Durandal_C2_GD_541
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5401"
+        name: 중심 진군
+        info: "일반 상태의 네 번째, 다섯 번째 공격은 경직 저항력이 증가하고 받는 모든 대미지가 #1[f1]% 감소한다"
+        brief: 일반 상태의 네 번째, 다섯 번째 공격은 경직 저항력이 증가하고 받는 모든 대미지가 감소한다
+        icon: Skill_Nagative_Survive01
+        maxLv: 11
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5402"
+        name: 킹즈 갬빗
+        info: "일반 상태의 기본 네 번째 공격이 적에게 적중할 때마다 추가로 자신의 SP를 #1[f1] 회복한다"
+        brief: 일반 상태의 기본 공격 다섯 번째 공격이 적에게 명중하면, 추가로 자신의 SP를 회복한다
+        icon: Skill_Nagative_Skill01
+        maxLv: 21
+        paramBase1: 0.8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.045
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5403"
+        name: <color=#FFC741FF>QTE</color>-포크빌 카운터
+        info: "QTE: 적이 시공 감속 상태일 때 QTE 출전, 공격력 5*40%+#1[i]%의 물리 대미지를 가하고, [영령]을 2스택
+          획득한다."
+        brief: "QTE: 적이 시공 감속 상태일 때 QTE 출전, 대량의 물리 대미지를 가하고, [영령]을 2스택 획득한다. QTE 출전 후 공격
+          버튼을 길게 누르면 [차지 투창]을 시전한다."
+        icon: Skill_Nagative_Skill02
+        maxLv: 10
+        paramBase1: 4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.44444
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "542"
+    name: 나이트 랜스
+    info: 특수 초식 후, 공격 버튼을 누르거나 공격 버튼을 길게 눌러 차지 공격을 발동한다.\n<color=#23B2E2FF>일반 상태의 기본
+      5연격 도중 공격 버튼을 길게 누르거나 방어 반격 성공 후 공격 버튼을 누르면 [차지 투창] 혹은 [강화 투창]을 이어서 사용한다.
+      [차지 투창]은 공격력 4*100%의 물리 대미지를, [강화 투창]은 공격력 4*260%의 물리 대미지를 입힌다. 또한 랜스가 떨어진
+      위치를 중심으로 3초간 주변의 적을 끌어당긴다.\n[차지 투창], [강화 투창] 후, 이어서 기본 공격 4격을 사용할 수
+      있다.\n폭발 상태에서 방어 반격 성공 후 공격 버튼을 누르면 [환령참] 혹은 [강화 환령참]을 이어서 사용한다. [환령참]은 공격력
+      650%의 물리 대미지를 입히고, [강화 환령참] 1단은 순식간에 주변의 적을 근처로 끌어당기며 총 공격력 1550%의 물리 대미지를
+      입힌다.\n[강화 투창]과 [강화 환령참]은 [극한 집중] 상태에서 발동한다</color>
+    icon: Skill_Durandal_C2_GD_542
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "강화 투창, 환령참은 강격이다. 중첩 능력: 약 / 강화 환령참은 강격이다. 중첩 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5404"
+        name: 쌍기사 열진
+        info: "[차지 투창]과 [강화 투창]이 실드에 가하는 대미지가 #1[f1]% 증가한다. [차지 투창]의 1격마다 추가로 SP를 #2[f1]
+          회복하고, [강화 투창]의 1격마다 추가로 SP를 #3[f1] 회복한다"
+        brief: "[차지 투창]과 [강화 투창]이 실드에 가하는 대미지가 증가한다. [차지 투창]과 [강화 투창]의 1격마다 추가로 SP를
+          회복한다"
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0.7
+        paramBase3: 1
+        paramAdd1: 0.01
+        paramAdd2: 0.07
+        paramAdd3: 0.1
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5405"
+        name: 할로윈 갬빗
+        info: "[강화 환령참]이 추가로 공격력 #1[f1]%의 물리 대미지를 입힌다"
+        brief: "[강화 환령참]이 추가로 물리 대미지를 입힌다"
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.7
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.08
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "543"
+    name: 성령의 방패
+    info: "듀란달이 방어를 발동하여, 성공 시 적의 공격을 무효화하고 반격 대미지를 입힌다.\\n<color=#23B2E2FF>회피 버튼을
+      누르면(방향키 입력x) 짧은 시간 [방어]한다, 방어 중 공격을 받으면 [방어 반격]이 발동해 적의 공격을 무효화하고 공격력 50%의
+      물리 반격 대미지를 입힌다.\\n[방어 반격] 혹은 [극한 회피] 모두 [극한 집중]을 발동할 수 있다.\\n[극한 집중]: 짧은
+      시간 시공 감속을 발동하고 이어서 [강화 투창] 혹은 [강화 환령참]을 발동할 수 있다. 재사용 대기시간: 10초. [극한 집중]의
+      재사용 대기시간은 최소 8초까지 감소</color>"
+    icon: Skill_Durandal_C2_GD_543
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5407"
+        name: 쥬오코 피아노
+        info: "[방어 반격] 성공 시, 최대 HP의 #1[f1]%를 회복한다. 또한 자신의 물리 대미지가 #2[f1]% 증가하고, 받는 모든
+          대미지가 #3[f1]% 감소한다. 지속 시간: 8초"
+        brief: "[방어 반격] 성공 시, HP를 회복한다. 또한 자신의 물리 대미지가 증가하고, 받는 모든 대미지가 감소한다"
+        icon: Skill_Nagative_Survive02
+        maxLv: 15
+        paramBase1: 0.05
+        paramBase2: 0.25
+        paramBase3: 0.15
+        paramAdd1: 0.00357
+        paramAdd2: 0.01786
+        paramAdd3: 0.01071
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5408"
+        name: 에반스 갬빗
+        info: "[방어 반격]에 적중한 적은 물리 취약 상태에 빠져 받는 물리 대미지가 #1[f1]% 증가한다. 지속 시간: 10초"
+        brief: "[방어 반격]에 적중한 적은 물리 취약 상태에 빠져 받는 물리 대미지가 증가한다"
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.005
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "544"
+    name: 왕권의 광휘
+    info: "폭발 상태에 진입해 성휘의 기사·월백의 모든 기능을 해방한다.\\n<color=#23B2E2FF>1격: 공격력 150%의 물리
+      대미지\\n2격: 공격력 180%+200%의 물리 대미지\\n3격: 공격력 280%의 물리 대미지\\n4격: 공격력 6*70%의 물리
+      대미지\\n5격: 공격력 450%의 물리 대미지\\n앞 회피는 공격력 100%의 물리 대미지를 가하고 분사 이동 상태에 진입한다.
+      분사 이동 상태는 이어서 [분사 급습]을 발동해 공격력 200%+250%의 물리 대미지를 가하고, [분사 급습] 후 이어서 기본 공격
+      3격을 사용할 수 있다.\\n[극한 집중] 재사용 대기시간이 완료됐을 때 분사 순간(앞 회피)에 적을 공격하면 [방어 반격]과 [극한
+      집중]을 발동할 수 있다.\\n폭발 상태 지속 시간: 23초, 재사용 대기시간: 25초, 소모 SP: 100. 폭발 상태에서 듀란달은
+      슈퍼 아머 상태가 된다.\\n캐릭터가 대기 상태일 때 폭발 상태는 취소된다.</color>"
+    icon: Skill_Durandal_C2_GD_544
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 1
+        comment: "폭발 상태의 기본 공격 제3격, 제5격은 강격이다. 중첩 능력: 약"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5410"
+        name: 볼레리오 충돌
+        info: "폭발 상태에서의 실드에게 가하는 대미지가 #1[f1]% 증가하고, 실드가 없는 적에게 가하는 물리 대미지가 #2[f1]% 증가한다"
+        brief: 폭발 상태에서의 실드에게 가하는 대미지가 증가하고, 실드가 없는 적에게 가하는 물리 대미지가 증가한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 31
+        paramBase1: 0.1
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.00333
+        paramAdd2: 0.005
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5411"
+        name: 카로-칸 디펜스
+        info: "폭발 상태가 끝나면 SP를 #1[i] 회복한다"
+        brief: 폭발 상태 종료 시 SP를 회복한다
+        icon: Skill_Nagative_Skill03
+        maxLv: 11
+        paramBase1: 7
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.8
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "5412"
+        name: 시칠리아 기행
+        info: "폭발 상태에서 모든 대미지가 #1[f1]% 증가한다"
+        brief: 폭발 상태에서 모든 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 21
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0125
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "545"
+    name: 신성의 호각
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>리더 스킬: {{모든 파티원의 물리 대미지가
+      #1[f1]%, 크리티컬 대미지가 #2[f1]% 증가한다}}</color>"
+    icon: Skill_Durandal_C2_GD_545
+    skillType: leader
+    tags: []
+    paramSubId1: 5413
+    paramSubId2: 5413
+    paramSubId3: 0
+    subSkills:
+      - id: "5413"
+        name: 신성의 호각
+        info: "파티원의 물리 대미지가 #1[f1]% 증가하고, 크리티컬 대미지가 #2[f1]% 증가한다"
+        brief: 파티원의 물리 대미지, 크리티컬 대미지 증가
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.22
+        paramBase2: 0.22
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0.015
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+      - id: "5417"
+        name: 깃발을 휘날리며
+        info: "극한 회피 스킬 발동 시 SP를 #1[i]pt 회복하고, 크리티컬률이 추가로 #2[f1]% 증가한다. 지속 시간: 8초"
+        brief: 회피 스킬 발동 시 SP를 회복하고 크리티컬률이 증가한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 2
+        paramBase1: 4
+        paramBase2: 0.07
+        paramBase3: 0
+        paramAdd1: 2
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+      - id: "5418"
+        name: 별이 빛나는 순간
+        info: 매회 방어 반격 시 [영령]을 추가로 1스택 획득한다.
+        brief: 방어 반격 시 [영령]을 추가로 획득한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 1
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss2
+  - id: "546"
+    name: 패시브 스킬
+    info: "패시브 스킬은 자동으로 발동한다.\\n<color=#23B2E2FF>[영령]: 듀란달이 공격을 받으면 [영령]을 획득하고,
+      [영령]을 중첩할 때마다 자신을 강화한다. [영령]은 최대 10까지 중첩할 수 있다</color>"
+    icon: Skill_Durandal_C2_GD_546
+    skillType: passive
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "돌진 공격은 강격이다. 중첩 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5414"
+        name: 캐슬링
+        info: "[영령] 중첩마다 듀란달이 받는 모든 대미지가 #1[f1]% 감소한다"
+        brief: "[영령] 중첩마다 듀란달이 받는 모든 대미지가 감소한다"
+        icon: Skill_Nagative_Survive02
+        maxLv: 11
+        paramBase1: 0.015
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0015
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5415"
+        name: 체크메이트
+        info: "[영령]이 10 중첩일 시, 자신의 모든 대미지가 #1[f1]% 증가한다"
+        brief: "[영령]이 10 중첩일 시, 자신의 모든 대미지가 증가한다"
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.08
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.012
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5416"
+        name: 프로모션
+        info: "듀란달이 공격 받을 때마다 [영령]이 1씩 중첩되어, [영령] 1 중첩마다 자신의 모든 대미지가 #1[f1]% 증가한다. 최대 중첩
+          횟수: 10. 지속 시간: 40초. [방어 반격]은 추가로 2의 [영령]이 중첩된다"
+        brief: "듀란달이 공격 받을 때마다 [영령]이 1씩 중첩되어, [영령] 1 중첩마다 자신의 모든 대미지가 증가한다. 최대 중첩 횟수:
+          10. 지속 시간: 40초. [방어 반격]은 추가로 2의 [영령]이 중첩된다"
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.02
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.002
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

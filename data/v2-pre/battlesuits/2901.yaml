@@ -1,0 +1,373 @@
+id: "2901"
+fullName: 번성·세상을 그리는 별
+shortName: 번성·세상을 그리는 별
+desc: <color=white>특징:</color> <color=#FF66CCFF>이능 속성</color>의 근접 캐릭터, 십자가로 적을 공격한다.
+firstName: 그리세오
+lastName: null
+enFirstName: Griseo
+enLastName: null
+attributeType: psy
+isEasterner: true
+weapon: cross
+character: griseo
+initialStar: a
+tags:
+  - physical-dmg
+  - bleed
+  - time-mastery
+skills:
+  - id: "781"
+    name: 《화가와 기사》
+    info: "기사님과 함께 붓으로 전투한다.\\n<color=#23B2E3FF>제1격: 공격력 80%의 물리 대미지\\n제2격: 공격력
+      100%의 물리 대미지\\n제3격: 공격력 120%의 물리 대미지\\n제4격: 공격력 80%+80%의 물리 대미지\\n제5격: 공격력
+      180%의 물리 대미지</color>"
+    icon: Skill_Griseo_C1_HJ_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7801"
+        name: <color=#FFC741FF>QTE</color>-풍차, 방앗간
+        info: "QTE: 적이 시공 감속 또는 출혈 상태일 때(갱신 포함) 발동한다. 공격력 #1[f1]%*7의 물리 대미지를 가하고, 파티원의
+          SP를 #2[f1]pt 회복한다. 동시에 각기 다른 세 가지 색깔의 물감을 획득하며, 교대된 캐릭터의 교대 시간이 4초
+          감소한다."
+        brief: "QTE: 적이 시공 감속 또는 출혈 상태일 때(갱신 포함) 발동한다. 물리 대미지를 가하고, 파티원의 SP를 회복한다. 동시에
+          각기 다른 세 가지 색깔의 물감을 획득한다."
+        icon: Skill_Nagative_Damage01
+        maxLv: 6
+        paramBase1: 0.7
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.14
+        paramAdd2: 0.6
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+      - id: "7802"
+        name: 나비, 푸른 풀
+        info: "기본 공격 제3격, 제5격이 적에게 적중 시 자신의 물리 대미지가 #2[f1]% 증가한다. 지속 시간: #1[f1]초, 중복 발동
+          시 지속 시간을 갱신한다."
+        brief: 기본 공격 제3격, 제5격이 적에게 적중 시 자신의 물리 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 4
+        paramBase1: 3
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0.05
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "782"
+    name: <color=#FFC741FF>분기</color>-<거품 부는 기사>
+    info: "기사님과 함께 공격한다.\\n<color=#23B2E4FF>소모한 색깔의 종류 수량과 현재 획득할 수 있는 물감 수량의 최대치 도달
+      여부에 따라 다양한 분기 공격을 발동한다.\\n현재 획득할 수 있는 물감의 수량이 가득 차지 않았거나 3가지 색깔 미만일 경우, 모든
+      물감을 소모하며, 기사님이 중검으로 적을 띄우고 공격력 400%의 물리 대미지를 가한다.\\n현재 획득할 수 있는 물감의 수량이 가득
+      찼고, 3가지 색깔을 보유했을 경우, 모든 물감을 소모하며, 기사님이 중검으로 적을 내려찍고 공격력 650%의 물리 대미지를
+      가한다.\\n분기 공격 발동 시 [무지개 비눗방울] 효과를 획득한다. 지속 시간: 10초\\n[무지개 비눗방울]: 피격 시 대미지를
+      1회 막는다. 대미지를 막은 후 또는 지속 시간 종료 또는 중복 발동 시 주변 적에게 공격력 100%의 물리 범위 대미지를 1회
+      가한다.</color>"
+    icon: Skill_Griseo_C1_HJ_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7803"
+        name: 밀밭, 황금빛 찬란해
+        info: "분기 공격 사용 시, 분기 공격이 소모한 물감의 색깔 종류에 따라 추가로 SP를 회복한다. 1/2/3가지 색깔의 물감을 소모할
+          때마다 추가로 SP를 #1[f1]/#2[f1]/#3[f1]pt 회복한다."
+        brief: 분기 공격 사용 시, 분기 공격이 소모한 물감의 색깔 종류에 따라 추가로 SP를 회복한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 2
+        paramBase2: 4
+        paramBase3: 8
+        paramAdd1: 0.2
+        paramAdd2: 0.4
+        paramAdd3: 0.8
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7804"
+        name: 수련, 하늘하늘해
+        info: "[무지개 비눗방울]은 2스택까지 누적할 수 있다. [무지개 비눗방울] 발동 후 10초 동안 캐릭터의 경직 저항력이 증가하고, 받는
+          모든 대미지가 30% 감소한다."
+        brief: "[무지개 비눗방울]은 2스택까지 누적할 수 있다. [무지개 비눗방울] 발동 후, 캐릭터의 경직 저항력이 증가한다."
+        icon: Skill_Nagative_Control02
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "7805"
+        name: 까마귀, 어두컴컴해
+        info: 캐릭터 첫 입장 시, 세 가지 색깔의 물감을 획득한다.
+        brief: 캐릭터 첫 입장 시, 세 가지 색깔의 물감을 획득한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "783"
+    name: 《세상을 그리는 자의 탄생》
+    info: "빠르게 적의 공격을 회피한다. 2회 연속 회피할 수 있다.\\n<color=#23B2E5FF>극한 회피: 2초 동안 전체 시공
+      단열을 발동한다. 재사용 대기시간: 15초</color>"
+    icon: Skill_Griseo_C1_HJ_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7806"
+        name: 회색 깃 머리 장식을 한 소녀
+        info: 극한 회피 스킬 발동 시 [무지개 비눗방울] 효과를 획득하고, 기본 공격 제3격을 연계할 수 있다.
+        brief: 극한 회피 스킬 발동 시 [무지개 비눗방울] 효과를 획득하고, 기본 공격 제3격을 연계할 수 있다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "784"
+    name: "《창세: 몽경화》"
+    info: "자동으로 완성되는 그림을 전개하고, 그림이 완성되면 적에게 실체화 공격을 가한다.\\n<color=#23B2E6FF>필살기 발동 후
+      2초 동안 전체 시공 단열을 발동한다. 파티 내 다른 캐릭터가 전장에서 공격 시 <color=#FEDF4CFF>출혈 게이지를
+      2pt</color> 부가한다. 발동 간격: 2초, 필살기 지속 시간: 18초. 획득할 수 있는 물감의 최대 수량이 5개로 변경되며,
+      필살기의 지속 시간이 8초 남았을 때 공격력 500%의 범위 물리 대미지를 1회 가한다.\\n필살기 지속 기간, 캐릭터 교대 시
+      [조화] 효과의 지속 시간을 갱신하고, 파티원이 동일한 [조화] 효과를 획득한다. 1회 필살기 기간 1회만 발동한다.\\n소모 SP:
+      75, 재사용 대기시간: 20초</color>"
+    icon: Skill_Griseo_C1_HJ_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7807"
+        name: 강에 비친 달
+        info: "필살기의 넓은 범위 대미지가 출혈 상태의 적에게 공격력 #1[f1]%의 물리 대미지를 가하고, 출혈 상태 스택마다 해당 대미지의
+          배율이 #2[f1]%, 최대 #3[f1]%까지 증가한다. 해당 대미지는 출혈 대미지로 간주한다."
+        brief: 필살기의 넓은 범위 대미지가 출혈 상태의 적에게 물리 대미지를 가하고, 출혈 상태 스택마다 해당 대미지의 배율이 증가한다(최대치
+          존재). 해당 대미지는 출혈 대미지로 간주한다.
+        icon: Skill_Nagative_Survive02
+        maxLv: 4
+        paramBase1: 3
+        paramBase2: 1.5
+        paramBase3: 10.5
+        paramAdd1: 0.66667
+        paramAdd2: 0.5
+        paramAdd3: 3.16667
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7808"
+        name: 꿈속의 소녀
+        info: "필살기 기간, 파티원은 [묘사] 상태를 획득하고 누적할 수 있는 출혈 스택이 추가로 4스택 증가한다. 출혈 효과는 매스택
+          0.5초마다 공격력 15%의 물리 대미지를 추가로 가하고, 필살기 발동 시 전장의 적에게 <color=#FEDF4CFF>출혈
+          게이지를 #1[f1]pt</color> 부가한다."
+        brief: 필살기 기간, 파티원은 [묘사] 상태를 획득하고 누적할 수 있는 출혈 스택이 추가로 증가한다. 스택마다 출혈 효과가 추가로 물리
+          대미지를 가하고, 필살기 발동 시 전장의 적에게 출혈 게이지를 부가한다.
+        icon: Skill_Nagative_Survive03
+        maxLv: 11
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.4
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "출혈 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: a
+      - id: "7809"
+        name: 나뭇가지를 문 비둘기
+        info: "필살기 기간, 자신이 가하는 출혈 대미지의 모든 대미지가 #1[f1]% 증가한다."
+        brief: 필살기 기간, 자신이 가하는 출혈 상태의 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 0.35
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00517
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "785"
+    name: "《자화상: 번성》"
+    info: "리더로 배치 시 파티원이 버프를 받는다.\\n<color=#23B2E7FF>리더 스킬: {{파티원이 출혈 상태의 적에게 가하는 물리
+      대미지가 #1[f1]% 증가하고, 전투 중 초기 SP가 #2[f1]pt 증가한다. 오픈월드에서 초기 SP 증가 효과는 10분마다 1회
+      발동한다.}}</color>"
+    icon: Skill_Griseo_C1_HJ_005
+    skillType: leader
+    tags: []
+    paramSubId1: 7810
+    paramSubId2: 7810
+    paramSubId3: 0
+    subSkills:
+      - id: "7810"
+        name: "《자화상: 번성》"
+        info: "파티원이 출혈 상태의 적에게 가하는 물리 대미지가 #1[f1]% 증가한다. 전투 중 초기 SP가 #2[f1]pt 증가한다.
+          오픈월드에서 초기 SP 증가 효과는 10분마다 1회 발동한다."
+        brief: 파티원이 출혈 상태의 적에게 가하는 물리 대미지가 증가하고, 초기 SP가 증가한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.19
+        paramBase2: 45
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 5
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "786"
+    name: 《별하늘·인상》
+    info: "패시브 스킬은 자동으로 발동한다.\\n<color=#23B2E8FF>전투 중 물감을 획득할 수 있다. 물감은 총 세 가지로, 출전
+      시 초기 획득 물감은 빨간색 물감이다. 공격 버튼을 눌러 적을 공격하면 현재 색깔의 물감을 획득하고, 필살기를 눌러 물감을 변경하며,
+      적에게 적중 시 변경한 색깔의 물감을 획득한다. 물감을 획득하는 동시에 해당 색깔의 [조화] 효과를 획득한다. 지속 시간: 20초,
+      중복 발동 시 지속 시간을 갱신한다.\\n[조화: 빨간색]: 실드가 파괴됐거나 실드의 보호를 받지 않는 적 공격 시, 모든 대미지가
+      20% 증가한다.\\n[조화: 노란색]: 자신이 받는 모든 대미지가 15% 감소한다.\\n[조화: 파란색]: 캐릭터가 가하는 출혈
+      대미지의 물리 대미지가 35% 증가한다.\\n현재 획득할 수 있는 물감의 수량이 가득 찼을 경우, 새로운 물감과 물감에 대응하는
+      [조화] 효과를 획득할 수 없다.</color>"
+    icon: Skill_Griseo_C1_HJ_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7811"
+        name: 엘프 언니는 웃고 있어
+        info: "동일한 색깔을 여러 개 획득한 후 분기 공격 사용 시, 분기 공격은 자신의 공격력을 기반으로 물리 대미지를 가한다. 동일한 색깔의
+          수가 가장 많은(1개 이상) 물감에 따라, 동일한 색깔의 물감마다 추가로 공격력 #1[f1]%의 물리 대미지를 가한다. 해당
+          대미지는 출혈 대미지로 간주한다."
+        brief: 동일한 색상의 물감을 여러 개 획득한 후 분기 공격 사용 시, 분기 공격은 자신의 공격력을 기반으로 추가 물리 대미지를 가한다.
+          해당 대미지는 출혈 대미지로 간주한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 10
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.11111
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7812"
+        name: 기사님은 산을 오르고 있어
+        info: "생물 속성의 적 공격 시, 가하는 모든 대미지가 #2[f1]% 증가하고, 출혈 대미지가 #1[f1]% 증가한다. 파티원이 생물
+          속성의 적 공격 시, 적이 받는 모든 대미지가 #3[f1]% 증가한다."
+        brief: 생물 속성의 적 공격 시, 가하는 모든 대미지가 증가하고, 출혈 대미지가 증가한다. 피격된 생물 속성의 적은 받는 모든 대미지가
+          증가한다.
+        icon: Skill_Nagative_Skill01
+        maxLv: 8
+        paramBase1: 0.2
+        paramBase2: 0.2
+        paramBase3: 0.05
+        paramAdd1: 0.02857
+        paramAdd2: 0.02857
+        paramAdd3: 0.00714
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "7813"
+        name: 달 아가씨는 자고 있어
+        info: "전투 진입 시, 초기 SP가 #1[f1]pt 증가한다. 오픈월드에서 10분마다 1회 발동한다."
+        brief: 전투 진입 시, 초기 SP가 증가한다. 오픈월드에서 10분마다 1회 발동한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 20
+        paramBase1: 20
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1.05316
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "787"
+    name: 《별이 빛나는 밤》
+    info: 기사님의 공격에 출혈이 추가된다.\n<color=#23B2E9FF>기사님의 공격이 적에게 <color=#FEDF4CFF>출혈
+      게이지</color>를 부가한다. 필살기 기간, 전장의 적에게 [침염] 상태를 부여하며 [침염] 상태의 적이 출혈 게이지를 통해 받는
+      출혈 대미지는 마지막으로 적에게 [침염] 상태를 부여한 시전자의 대미지로 간주한다.</color>
+    icon: Skill_Griseo_C1_HJ_007
+    skillType: sp
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7814"
+        name: 깊이 잠든 백모란
+        info: "실드가 파괴됐거나 실드의 보호를 받지 않는 적은 출혈 상태일 때 받는 물리 대미지가 #1[f1]% 증가한다."
+        brief: 실드가 파괴됐거나 실드의 보호를 받지 않는 적은 출혈 상태일 때 받는 물리 대미지가 증가한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.04
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7815"
+        name: 속삭이는 아이리스꽃
+        info: "자신이 출혈 대미지를 가할 시 고정 대미지만 받는 실드에 #1[f1]의 대미지를 가한다."
+        brief: 출혈이 대미지를 가하는 동시에 고정 대미지만 받는 실드에 대미지를 가한다.
+        icon: Skill_Nagative_Skill01
+        maxLv: 5
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1.25
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "7816"
+        name: 만개한 해바라기
+        info: "파티원이 출혈 상태의 적 공격 시, 출혈 상태 스택마다 크리티컬률이 #1[f1]% 증가하고, 캐릭터 자신의 물리 대미지가
+          #2[f1]% 증가한다."
+        brief: 파티원이 출혈 상태의 적 공격 시, 출혈 상태 스택마다 크리티컬률이 증가하고, 캐릭터 자신의 물리 대미지가 증가한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 7
+        paramBase1: 0.01
+        paramBase2: 0.01
+        paramBase3: 0
+        paramAdd1: 0.00333
+        paramAdd2: 0.00333
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

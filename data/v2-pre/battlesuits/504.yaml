@@ -1,0 +1,349 @@
+id: "504"
+fullName: 신은송가
+shortName: 신은송가
+desc: <color=white>특징:</color> <color=#FFAF2CFF>생물 속성</color>의 중거리 전투형 캐릭터. 공격형
+  유틸 캐릭터이다.
+firstName: 테레사
+lastName: 아포칼립스
+enFirstName: Theresa
+enLastName: Apocalypse
+attributeType: bio
+isEasterner: false
+weapon: cross
+character: theresa
+initialStar: s
+tags:
+  - physical-dmg
+  - gather
+  - impair
+  - fast-atk
+skills:
+  - id: "221"
+    name: 신역 비도
+    info: "기본 공격: 영체로 된 검으로 중거리 5연격\\n<color=#23B2E2FF>1격: 공격력 40%*3 물리 대미지\\n2격:
+      공격력 40%*3 물리 대미지\\n3격: 공격력 150%의 물리 대미지\\n4격: 두자루의 검 한 자루당 공격력 40%*3 물리
+      대미지\\n5격: 공격력 45%*4 물리 대미지</color>"
+    icon: Skill_Theresa_JX_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2201"
+        name: 빛의 수호
+        info: "기본 공격의 크리티컬률 #1[f1]% 증가"
+        brief: 기본 공격의 크리티컬률이 증가한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 75
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00203
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2202"
+        name: 성스러운 빛의 세례
+        info: "콤보수가 45를 초과하면, 기본 공격의 5연격이 적에게 적중 시 #1[f2]% 확률로 모든 파티원의 SP를 #2[f2] 회복시킨다.
+          재사용 대기시간 1초"
+        brief: 콤보수가 45이상일 때 기본 공격이 적에게 명중하면 일정 확률로 모든 파티원의 SP를 회복한다
+        icon: Skill_Nagative_Skill02
+        maxLv: 25
+        paramBase1: 0.2
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: 0.00834
+        paramAdd2: 0.04171
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "222"
+    name: 빛의 징벌
+    info: 5연격 시 차지하여 회전도검을 사용한다.\n<color=#23B2E2FF>기본 공격 5연격 도중 공격 버튼을 누르고 있으면 차지할 수
+      있다. 단기간 내에 풀차지하여 회전도검으로 타깃과 주변 범위의 적에게 공격력의 20%*4 물리 대미지를 입히며 취약 상태로 만들어
+      3초 동안 방어력을 50% 감소시킨다.</color>
+    icon: Skill_Theresa_JX_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2203"
+        name: 여명의 성스러운 일격
+        info: "교대기: 교차하는 검진으로 공격력의 #1[f1]%*4 물리 대미지를 입힌다."
+        brief: 출전 시 교차되는 검을 날려 전방 중거리의 적에게 대미지를 입힌다
+        icon: Skill_Nagative_StartUp01
+        maxLv: 20
+        paramBase1: 0.4
+        paramBase2: 48
+        paramBase3: 0
+        paramAdd1: 0.01842
+        paramAdd2: 5.89474
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2204"
+        name: 은혜를 만나다
+        info: "차지 공격의 취약 상태를 #1[f2]초 연장시킨다."
+        brief: 차지 공격으로 가하는 취약 시간이 연장된다
+        icon: Skill_Nagative_Skill02
+        maxLv: 35
+        paramBase1: 2.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04412
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2205"
+        name: <color=#FFC741FF>QTE</color>-섬광의 파동
+        info: "QTE: 적이 시공 감속 상태일 때 발동\\n공격력의 #1[f1]%*5 물리 대미지를 입히고, 맞은 적을 취약 상태로 만들어
+          방어력을 #2[f2]초 동안 50% 감소시킨다."
+        brief: "QTE: 적이 시공 감속일 때 QTE 출전, 주위에 검진을 떨어트려 공격하고, 적을 취약 상태로 만든다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 27
+        paramBase1: 1.5
+        paramBase2: 4
+        paramBase3: 0
+        paramAdd1: 0.03846
+        paramAdd2: 0.11538
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "223"
+    name: 구제의 복음
+    info: "연속으로 2회까지 빠르게 회전하여 회피한다.\\n<color=#23B2E2FF>극한 회피 후 공격 버튼을 바로 누르면 차지 공격을
+      사용할 수 있다.\\n검의 방패: 모든 파티원을 검의 방패로 무장시켜, 경직 저항력을 대폭 증가시키고 5초 동안 적에게 0.4초마다
+      검의 방패 버프를 받은 캐릭터 공격력의 30% 물리 대미지를 입힌다. 재사용 대기시간 20초.</color>"
+    icon: Skill_Theresa_JX_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2206"
+        name: 하늘이 내린 가호
+        info: "필드에서 떠날 때 회피 횟수를 소모하여 모든 파티원을 검의 방패로 무장시킨다. 검의 방패는 피격 시의 모든 대미지를 #1[f1]%
+          감소시킨다"
+        brief: 스테이지에서 떠날 때 극한 회피의 횟수를 소모하여 모든 파티원을 검의 방패로 무장한다. 검의 방패는 자신이 받는 피해를 감소시킨다
+        icon: Skill_Nagative_Damage02
+        maxLv: 45
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00682
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "2207"
+        name: 하늘이 내린 지혜
+        info: "검의 방패의 재사용 대기시간이 #1[f2]초 감소한다."
+        brief: 검의 방패의 재사용 대기시간 감소
+        icon: Skill_Nagative_Survive01
+        maxLv: 35
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05882
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2208"
+        name: 하늘이 내린 징벌
+        info: "검의 방패의 타격마다 무장된 캐릭터 공격력 #1[f1]%만큼 물리 대미지가 증가한다"
+        brief: 검의 방패 타격마다 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 30
+        paramBase1: 0.15
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.00866
+        paramAdd2: 0.10345
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s1
+  - id: "224"
+    name: 천국의 심판
+    info: "궁극의 검진을 소환하여 적을 끌어들여 검으로 벤다.\\n<color=#23B2E2FF>발동 시 3초 동안 지속되는 강력한 블랙홀을
+      생성하여 적을 가운데로 끌어들인 후 도검으로 공격력의 40%*50 물리 대미지를 입힌다.\\n발동 시 소모 SP:
+      125</color>"
+    icon: Skill_Theresa_JX_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2209"
+        name: 정의의 찬트
+        info: "필살기 블랙홀이 끝날 때 영향을 받은 적들이 취약 상태가 되고, #2[f2]초 동안 방어력이 #1[f1]% 감소한다."
+        brief: 필살기 종료 후 적을 취약 상태로 만든다
+        icon: Skill_Nagative_Skill02
+        maxLv: 18
+        paramBase1: 0.5
+        paramBase2: 5
+        paramBase3: 0
+        paramAdd1: 0.01471
+        paramAdd2: 0.29418
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2210"
+        name: 교차조율
+        info: "필살기와 QTE를 강화한다. 필살기의 도검 대미지를 강화하여 매 타격마다 물리 대미지가 #1[f1]% 증가하고 QTE가 실드에
+          가하는 대미지가 #2[i]% 증가한다"
+        brief: 필살기의 대미지가 증가하고 QTE로 실드에 가하는 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 20
+        paramBase1: 0.05
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.01316
+        paramAdd2: 0.01579
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "2211"
+        name: 절대신의 심판
+        info: "필살기 블랙홀의 영향을 받은 적은 공격 속도가 #1[f1]% 감소하고, 0.4초마다 #2[i]의 빙결 원소 대미지를 입는다."
+        brief: 끌려온 적은 공격 속도가 감소하고 지속해서 빙결 원소 대미지를 받는다
+        icon: Skill_Nagative_Control03
+        maxLv: 15
+        paramBase1: 0.4
+        paramBase2: 400
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 42.92857
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "225"
+    name: 성역의 노래
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>개벽: {{모든 파티원의 전투 중 SP 최대치
+      #1[f1]% 증가. 3명의 캐릭터를 '생물' 속성으로  통일 시 물리 대미지 #2[f1]% 증가}}</color>"
+    icon: Skill_Theresa_YD_005
+    skillType: leader
+    tags: []
+    paramSubId1: 2212
+    paramSubId2: 2212
+    paramSubId3: 0
+    subSkills:
+      - id: "2212"
+        name: 천계
+        info: "모든 파티원의 전투 중 SP 최대치가 #1[f1]% 증가한다. 3명의 캐릭터를 '생물' 속성으로 통일 시 물리 대미지가
+          #2[f1]% 증가한다"
+        brief: 전투 중 SP 최대치가 증가하고 모든 파티원이 생물 속성일 때 대미지가 증가한다
+        icon: Skill_Nagative_Skill03
+        maxLv: 2
+        paramBase1: 0.16
+        paramBase2: 0.24
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0.04
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+      - id: "2216"
+        name: 성가의 가호
+        info: "캐릭터 필살기와 QTE의 모든 대미지가 #1[f1]% 증가한다."
+        brief: 필살기와 QTE의 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 2
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+      - id: "2217"
+        name: 하늘의 심판
+        info: "QTE가 실드에 가하는 대미지가 추가로 #1[f1]% 증가한다."
+        brief: QTE가 실드에 가하는 대미지가 증가한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 1
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss2
+  - id: "226"
+    name: 패시브 스킬
+    info: 패시브 스킬은 자동으로 발동한다.\n<color=#23B2E2FF></color>
+    icon: Skill_Theresa_YD_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2213"
+        name: 세상에서 제일 귀여워!
+        info: "전투 중 초기 SP #1[f1] 증가\\n오픈 월드에서는 10분에 한 번씩 발동 가능"
+        brief: 전투 중 초기 SP가 증가하고 오픈월드에서는 10분에 한 번씩 발동한다
+        icon: Skill_Nagative_Survive02
+        maxLv: 31
+        paramBase1: 15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.70033
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2214"
+        name: 성녀의 장송곡
+        info: "취약 상태의 적 공격 시 모든 파티원의 크리티컬 대미지가 #1[f1]% 증가"
+        brief: 모든 파티원이 취약 상태의 적을 공격할 때 크리티컬 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 18
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00882
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2215"
+        name: 생명의 시
+        info: "십자가를 전개 후, 모든 파티원의 물리 대미지가 #2[f2]초 동안 #1[f1]% 증가"
+        brief: 십자가를 전개 후 짧은 시간 동안 모든 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 20
+        paramBase1: 0.12
+        paramBase2: 4
+        paramBase3: 0
+        paramAdd1: 0.00685
+        paramAdd2: 0.18421
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

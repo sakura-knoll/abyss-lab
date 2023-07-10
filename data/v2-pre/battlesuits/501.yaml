@@ -1,0 +1,320 @@
+id: "501"
+fullName: 발키리·서약
+shortName: 발키리·서약
+desc: <color=white>특징:</color> <color=#FF66CCFF>이능 속성</color>의 중거리 전투형 캐릭터. 다양한
+  영체 무기의 스킬을 활용하고, 적을 속박 상태로 만들어 피해를 입힌다.
+firstName: 테레사
+lastName: 아포칼립스
+enFirstName: Theresa
+enLastName: Apocalypse
+attributeType: psy
+isEasterner: false
+weapon: cross
+character: theresa
+initialStar: a
+tags:
+  - lightning-dmg
+  - paralyze
+  - time-mastery
+  - fast-atk
+skills:
+  - id: "191"
+    name: 신성한 창
+    info: "기본 공격: 영체로 된 빛의 창으로 중거리 4연격\\n<color=#23B2E2FF>1격: 공격력 30%*3 물리 대미지\\n2격:
+      공격력 30%*3 물리 대미지\\n3격: 공격력 45%*4 물리 대미지\\n4격: 넓은 범위에 공격력 75%*3 물리
+      대미지</color>"
+    icon: Skill_Theresa_YD_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1901"
+        name: 번개의 창
+        info: "기본 공격(차지 공격 포함)이 적중하면 #1[f1]%의 확률로 교차되는 빛의 창으로 적을 꿰뚫어 #2[i]의 뇌전 원소 대미지를
+          입힌다. 재사용 대기시간 3초"
+        brief: 기본 공격 시 일정 확률로 교차되는 빛의 창으로 적을 꿰뚫어 뇌전 원소 대미지를 입힌다
+        icon: Skill_Nagative_Damage01
+        maxLv: 75
+        paramBase1: 0.05
+        paramBase2: 800
+        paramBase3: 0
+        paramAdd1: 0.00041
+        paramAdd2: 21.62162
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1902"
+        name: 속박의 창
+        info: "교차되는 빛의 창은 적을 #1[f2]초 동안 속박 상태로 만든다."
+        brief: 교차되는 빛의 창은 적을 일정 확률로 속박 상태로 만든다
+        icon: Skill_Nagative_Control02
+        maxLv: 18
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.08824
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1903"
+        name: 번개의 축복
+        info: "콤보수 30 초과 시, 기본 공격이 공격마다 공격력 #1[f1]%의 뇌전 원소 대미지를 가하고, 소량의 마비 게이지를 누적한다."
+        brief: 콤보수가 30 이상이면 기본 공격에 뇌전 원소 대미지가 추가된다
+        icon: Skill_Nagative_Damage03
+        maxLv: 25
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00625
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "192"
+    name: <color=#FFC741FF>차지</color> - 세인트 피어싱
+    info: "4연격 중 차지 시, 관통 공격한다.\\n<color=#23B2E2FF>차지 관통: 기본 공격 4타 도중 공격 버튼 입력을 유지하여
+      차지 할 수 있다. 짧은 시간 내에 차지를 완료한 뒤 즉시 사용하여 공격력의 3*135% 물리 대미지를 입힌다.</color>"
+    icon: Skill_Theresa_YD_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1904"
+        name: 차지 관통
+        info: "세인트 피어싱의 각 단계가 적중할 때마다 #1[f1]%의 확률로 공격력 #2[i]%의 뇌전 원소 대미지를 가하고, 적에게
+          <color=#FEDF4CFF>마비 게이지를 5pt 누적한다.</color>"
+        brief: 세인트 피어싱이 일정 확률로 적에게 뇌전 대미지를 가하고, 마비 게이지를 누적한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 35
+        paramBase1: 0.07
+        paramBase2: 1.5
+        paramBase3: 0
+        paramAdd1: 0.00188
+        paramAdd2: 0.02206
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 1
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: a
+      - id: "1905"
+        name: <color=#FFC741FF>교대기</color> - 성스러운 창
+        info: "교대기: 세인트 피어싱을 발동하여 적에게 공격력의 #1[i]%*3 물리 대미지를 입힌다."
+        brief: 출전 시 바로 세인트 피어싱을 날려 물리 대미지를 입힌다
+        icon: Skill_Nagative_StartUp02
+        maxLv: 32
+        paramBase1: 1.45
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02129
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1906"
+        name: <color=#FFC741FF>QTE</color> - 삼연속 성스러운 창
+        info: "QTE: 적이 적 빙결 상태일 때 발동. 순서대로 3자루의 세인트 피어싱을 날려 매 타격마다 공격력 #1[i]%*3의 물리 대미지를
+          입힌다"
+        brief: "QTE: 적이 빙결 상태일 때 QTE 출전, 3개의 세인트 피어싱을 날려 물리 대미지를 가한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 17
+        paramBase1: 1.35
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03444
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "193"
+    name: 시공의 가호
+    info: "연속으로 2회까지 빠르게 회전하여 회피한다.\\n<color=#23B2E2FF>극한 회피 후 3초 동안 이동 속도 40%
+      증가\\n시공 단열: 극한 회피 시 3초 동안 전체 시공 단열을 발동해 모든 적의 행동이 느려지게 한다. 재사용 대기시간
+      15초</color>"
+    icon: Skill_Theresa_YD_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1907"
+        name: 강화의 가호
+        info: "시공 단열 지속 시간 #1[f2]초 증가"
+        brief: 시공단열 지속 시간 증가
+        icon: Skill_Nagative_Survive01
+        maxLv: 35
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04412
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1908"
+        name: 시공의 반짝임
+        info: "극한 회피 재사용 대기시간 #1[f2]초 감소"
+        brief: 극한 회피 재사용 대기시간 감소
+        icon: Skill_Nagative_Survive02
+        maxLv: 20
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.10526
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1909"
+        name: 신의 은총
+        info: "극한 회피로 발동된 시공단열에서 처음 전개된 십자가의 모든 대미지 #1[f1]% 증가"
+        brief: 극한 회피 시 시공단열에 진입 후의 첫 번째 십자가로 가하는 모든 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 15
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01786
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "194"
+    name: 성뢰 투창
+    info: "공중에 던진 영체로 된 빛의 창이 빛의 비가 되어 적을 향해 쏟아진다.\\n<color=#23B2E2FF>성뢰투창: 최대
+      25*75%의 물리 대미지를 입힌다.\\n발동 시 소모 SP: 75</color>"
+    icon: Skill_Theresa_YD_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1910"
+        name: 침식의 번개
+        info: "필살기의 각 공격이 명중할 시 #1[f2]%의 확률로 적에게 쇠약을 걸어 경직 저항력을 감소시키고, 방어력을 #2[f1]%
+          소시킨다. 지속 시간: 3.5초"
+        brief: 필살기 사용 시 일정 확률로 적을 취약 상태로 만든다
+        icon: Skill_Nagative_Damage02
+        maxLv: 15
+        paramBase1: 0.1
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0.00572
+        paramAdd2: 0.02857
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1911"
+        name: 심판의 번개
+        info: "필살기의 각 공격이 명중할 시 #1[f1]%의 뇌전 원소 대미지를 입힌다"
+        brief: 필살기의 매 타격에 뇌전 원소 대미지가 추가된다
+        icon: Skill_Nagative_Damage03
+        maxLv: 24
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00652
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "195"
+    name: 우리의 서약
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>우리의 서약: {{모든 파티원의 대부분 상태 이상
+      지속 시간이 #1[i]% 감소한다. 이능 속성 캐릭터의 원소 대미지가 #2[i]% 증가한다.}}</color>"
+    icon: Skill_Theresa_YD_005
+    skillType: leader
+    tags: []
+    paramSubId1: 1912
+    paramSubId2: 1912
+    paramSubId3: 0
+    subSkills:
+      - id: "1912"
+        name: 우리의 서약
+        info: "모든 파티원의 대부분 상태 이상 지속 시간이 #1[i]% 감소한다. 이능 속성 캐릭터의 원소 대미지가 #2[i]% 증가한다."
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.3
+        paramBase2: 0.18
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "196"
+    name: 패시브 스킬
+    info: 패시브 스킬은 자동으로 발동한다.\n<color=#23B2E2FF></color>
+    icon: Skill_Theresa_YD_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1913"
+        name: 진지하게 간다!
+        info: "십자가를 전개하고 있는 동안, 자신의 공격 속도 #1[f1]% 증가"
+        brief: 십자가가 전개되는 동안 자신의 공격 속도가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 13
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02083
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1914"
+        name: 세상에서 제일 귀여워!
+        info: "전투 중 초기 SP #1[f1] 증가\\n오픈 월드에서는 10분에 한 번씩 발동 가능"
+        brief: 전투 중 초기 SP가 증가하고 오픈월드에서는 10분에 한 번씩 발동한다
+        icon: Skill_Nagative_Survive02
+        maxLv: 32
+        paramBase1: 12
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.58097
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1915"
+        name: 뇌정 파격
+        info: "콤보 수가 50 이상일 때, 다음 차지 공격의 타격마다 현재 콤보 수*#1[i]의 뇌전 원소 대미지를 추가로 입히고 적을 다운시키며
+          콤보를 초기화한다. 최대 적용 콤보 수: #2[i] 콤보"
+        brief: 콤보수를 소진하고 강력한 세인트 피어싱을 날린다
+        icon: Skill_Nagative_Damage03
+        maxLv: 18
+        paramBase1: 25
+        paramBase2: 75
+        paramBase3: 0
+        paramAdd1: 1.82353
+        paramAdd2: 3
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: ss

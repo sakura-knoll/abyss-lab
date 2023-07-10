@@ -1,0 +1,414 @@
+id: "317"
+fullName: 진리의 율자
+shortName: 진리의 율자
+desc: "<color=white>특징: </color><color=#F3DFAEFF>허수 속성</color>의 원거리 캐릭터, 두 가지
+  형태로 변환할 수 있으며, 폭발적인 딜링 및 원소 서포트를 제공한다."
+firstName: 브로냐
+lastName: 자이칙
+enFirstName: Bronya
+enLastName: Zaychik
+attributeType: img
+isEasterner: false
+weapon: cannon
+character: bronya
+initialStar: s
+tags:
+  - ice-dmg
+  - time-mastery
+  - fast-atk
+  - gather
+  - aerial
+skills:
+  - id: "831"
+    name: 은랑 비화의 메아리
+    info: "창 또는 여러 종류의 무장으로 공격한다.\\n<color=#23B2E3FF>극값 형태: 4연격을 가한다. 제1격: 공격력 100%의
+      빙결 원소 대미지를 가한다.\\n제2격: 공격력 3*120%의 빙결 원소 대미지를 가한다.\\n제3격: 공격력 180%의 빙결 원소
+      대미지를 가하고, 중장 토끼가 협동 공격을 발동해 공격력 50%의 빙결 원소 대미지를 가한다.\\n제4격: 공격력 350%의 빙결
+      원소 대미지를 가하고, 중장 토끼가 협동 공격을 발동해 공격력 3*50%의 빙결 원소 대미지를 가한다. 제4격 적중 시 탑재 무장을
+      하나 개방한다.\\n연속 형태: 공격 버튼을 길게 누르거나 터치하면 3연격을 가한다. 제1격: 공격력 2*20%의 빙결 원소 대미지를
+      가한다.\\n제2격: 공격력 50%의 빙결 원소 대미지를 가한다.\\n제3격: 공격력 3*50%의 빙결 원소 대미지를
+      가한다.\\n연속 형태에서 기본 공격이 적에게 적중할 때마다 기체 KP를 5pt, SP를 1.6pt 회복한다. 탑재 무장 레이저 개방
+      시 기본 공격 제2격이 추가로 레이저 공격을 2회, 제3격이 추가로 레이저 공격을 4회 가한다. 레이저 공격마다 공격력 15%의 빙결
+      원소 대미지를 가한다.</color>"
+    icon: Skill_Bronya_C12_GB_831
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8301"
+        name: <color=#FFC741FF>QTE</color>-혜성 파괴의 구동
+        info: "QTE: 적이 시공 감속, 빙결 또는 파티원이 무기 액티브 스킬 사용 시 발동해 공격력 5*#1[f1]%의 빙결 원소 대미지를
+          가하고, 탑재 무장을 하나 개방한다."
+        brief: "QTE: 적이 시공 감속, 빙결 또는 파티원이 무기 액티브 스킬 사용 시 발동해 빙결 원소 대미지를 가하고, 탑재 무장을 하나
+          개방한다."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "8302"
+        name: 이도 침식의 압살
+        info: "연속 형태에서 무기 액티브 스킬 사용 시 #1[f1]초간 전체 시공 단열을 발동한다."
+        brief: 연속 형태에서 무기 액티브 스킬 사용 시 전체 시공 단열을 발동한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: sss
+      - id: "8303"
+        name: 문명 피안의 은익
+        info: 중장 토끼가 전장에 존재할 경우, 캐릭터와 협동 공격을 한다.
+        brief: 중장 토끼가 전장에 존재할 경우, 캐릭터와 협동 공격을 한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "832"
+    name: <color=#FFC741FF>분기</color>-니즈니타길의 채리엇
+    info: "율자 형태에 따라 강력한 공격을 발동한다.\\n<color=#23B2E4FF>극값 형태: 기본 공격 제4격, QTE 후 공격 버튼을
+      길게 누르거나 [벡터 해석] 후에 공격 버튼을 터치하면 뒤로 일정 거리 물러나 공격력 4*40%의 빙결 원소 대미지를 가하고, 중장
+      토끼가 협동 공격을 발동해 공격력 3*80%의 빙결 원소 대미지를 가한다. 이어서 적을 끌어당겨 공격력 2*280%의 빙결 원소
+      대미지를 가하고, 적에게 적중 시 탑재 무장을 하나 개방한다. 분기 공격 중 캐릭터를 교대할 수 있으며, 진리의 율자는 공격이 종료될
+      때까지 전장에 남는다.\\n연속 형태: 기체 KP를 100pt 소모한 후 목표에게 라이플 사격을 가해 공격력 400%의 빙결 원소
+      대미지를 가한다. 공격마다 공격력 50%의 빙결 원소 대미지를 가하는 레이저를 2회 발사하고, 2초간 전체 시공 단열을 발동하며,
+      공격이 가능한 적(최대 10기)을 고정해 각각 두 발의 미사일과 한 개의 레이저를 발사한다. 미사일은 각각 공격력 100%의 빙결
+      원소 대미지를 가하고, 레이저는 각각 공격력 40%의 빙결 원소 대미지를 가해, 총 공격력 240%의 빙결 원소 대미지를 가한다.
+      전장의 적이 4기 미만일 경우, 전체 적을 각각 추가로 1회 고정한다. 분기 공격 발동 종료 시, 강력한 폭발을 일으켜 범위 내
+      적에게 공격력 600%의 빙결 원소 대미지를 가한다.\\n연속 형태 분기 공격 발동 시, [세계의 울림]을 획득해 자신이 가하는 빙결
+      원소 대미지가 30% 증가한다. 지속 시간: 18초, 중복 발동 시 지속 시간을 갱신한다.\\n탑재 무장 부유포 개방 시 연속 형태
+      분기 공격을 발동하면 부유포 [소환물]을 4개 소환한다. 부유포는 매회 공격력 18%의 빙결 원소 대미지를 가한다.</color>"
+    icon: Skill_Bronya_C12_GB_832
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8304"
+        name: 신이 버린 땅의 비명
+        info: "진리의 율자 퇴장 시 [세계의 울림]을 소모해 파티원이 가하는 뇌전 및 화염 원소 대미지를 #1[f1]%, 전장의 적이 받는 뇌전
+          및 화염 원소 대미지를 #2[f1]% 증가시킨다. 지속 시간: 18초, 중복 발동 시 지속 시간을 갱신한다."
+        brief: 진리의 율자 퇴장 시 [세계의 울림]을 소모해 파티원이 가하는 뇌전 및 화염 원소 대미지와 전장의 적이 받는 뇌전 및 화염 원소
+          대미지를 증가시킨다. 중복 발동 시 지속 시간을 갱신한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8305"
+        name: 설원 척살의 저격
+        info: 연속 형태 분기 공격이 허수 속성 적의 [허무의 씨앗]에 적중했을 때, 현재 [허무의 씨앗] HP가 20% 미만일 경우, 현재 단계의
+          HP가 즉시 소멸한다.
+        brief: 연속 형태 분기 공격이 허수 속성 적의 [허무의 씨앗]에 적중했을 때, 현재 [허무의 씨앗] HP가 20% 미만일 경우, 현재
+          단계의 HP가 즉시 소멸한다.
+        icon: Skill_Nagative_Skill01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8306"
+        name: 감해 끝의 약속
+        info: "연속 형태에서 기체 KP를 소모하면 필살기 단계마다 추가로 공격력 #1[f1]%의 빙결 원소 대미지를 가한다. 최대 2회 중첩,
+          연속 형태 해제 시 초기화된다."
+        brief: 연속 형태에서 기체 KP를 소모하면 필살기 단계마다 추가로 빙결 원소 대미지를 가한다. 최대 2회 중첩, 연속 형태 해제 시
+          초기화된다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "833"
+    name: 설원 토끼의 모험
+    info: "빠르게 공격을 회피한다. 2회 연속 회피할 수 있다.\\n<color=#23B2E5FF>극값 형태 극한 회피 발동 후 공격 버튼을
+      터치하면 기본 공격 제4격을 발동한다. 해당 공격 후 공격 버튼을 길게 누르면 분기 공격을 발동한다. 극값 형태 극한 회피 스킬:
+      공격 버튼 터치 시 [벡터 해석]을 1회 발동해 공격력 500%의 빙결 원소 대미지를 가한다. 적에게 적중 시 탑재 무장을 하나
+      개방하며, 3초간 전체 시공 단열을 발동하고, 캐릭터의 경직 저항력이 증가한다. 지속 시간: 5초, 재사용 대기시간: 12초\\n연속
+      형태에서 회피 버튼 터치했을 때 탑재 무장 미사일이 개방된 경우, 미사일을 8개 발사해 목표에게 빙결 원소 대미지를 가한다.
+      미사일마다 공격력 10%의 빙결 원소 대미지를 가한다. 연속 형태 극한 회피 스킬: 기체 KP를 20pt 회복하고, 목표를 향해
+      미사일을 8개 발사한다. 탑재 무장 미사일 개방 시, 발사 미사일 수량이 28개로 증가한다. 재사용 대기시간: 18초</color>"
+    icon: Skill_Bronya_C12_GB_833
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8307"
+        name: 법칙 초월의 정예
+        info: "연속 형태에서 극한 회피 스킬이 발동하는 미사일 공격이 추가로 공격력 #1[f1]%의 빙결 원소 대미지를 가하고, 미사일마다 가하는
+          모든 대미지가 #2[f1]% 증가한다."
+        brief: 연속 형태에서 극한 회피 스킬이 발동하는 미사일 공격이 추가로 빙결 원소 대미지를 가하고, 미사일마다 가하는 모든 대미지가
+          증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.01
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.014
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8308"
+        name: 천체 소거의 특이점
+        info: "연속 형태에서 극한 회피가 아니어도 극한 회피 스킬의 효과를 발동할 수 있다. 극한 회피 스킬 발동 시 파티원의 HP를 #1[f1]
+          회복한다."
+        brief: 연속 형태에서 극한 회피가 아니어도 극한 회피 스킬의 효과를 발동할 수 있다. 극한 회피 스킬 발동 시 파티원의 HP를 회복한다.
+        icon: Skill_Nagative_Survive02
+        maxLv: 11
+        paramBase1: 200
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 20
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8309"
+        name: 전승 계승의 헌신
+        info: "파티에 화염 원소 대미지 캐릭터가 1명 있을 때마다, 전투 중 진리의 율자 초기 SP가 #1[f1]pt 증가한다. 최대 2회 중첩,
+          오픈월드에서 초기 SP 증가 효과는 10분마다 1회 발동한다."
+        brief: 파티에 화염 원소 대미지 캐릭터가 1명 있을 때마다, 전투 중 진리의 율자 초기 SP가 증가한다. 최대 2회 중첩, 오픈월드에서
+          초기 SP 증가 효과는 10분마다 1회 발동한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 10
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "834"
+    name: 무한 진리의 서사
+    info: "주포로 적을 포격한다.\\n<color=#23B2E6FF>극값 형태에서 필살기 버튼 터치 시 [화력 연계]를 발동해 연속 형태에
+      진입하고, 주변 적에게 공격력 800%의 빙결 원소 대미지를 가한다. 적에게 적중 시 SP를 20pt 회복하고, 2초간 전체 시공
+      단열을 발동한다. 해당 효과는 연속 형태 분기 공격으로 간주되어 15초의 재사용 대기시간(재사용 대기시간 감소 효과를 받지 않는다)을
+      갖는다. [화력 연계]는 전투 중 한 번만 발동하며, 이후 [귀환 브레이크]로 연속 형태에 진입해 주변 적에게 공격력 350%의 빙결
+      원소 대미지를 가한다. 15초의 재사용 대기시간(재사용 대기시간 감소 효과를 받지 않는다)을 갖는다.\\n연속 형태에서 필살기 버튼을
+      터치해 필살기 발동: 전장의 적에게 공격력 10*100%의 빙결 원소 대미지를 가하고, 그 기간 캐릭터가 정체 영역 효과를 발동해
+      캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다.\\n발동 소모 SP: 125, 재사용 대기시간: 30초. 연속 형태 진입
+      시 필살기의 재사용 대기시간이 초기화된다.\\n파티 내 종언의 율자와 기원의 율자가 동시에 존재할 경우, 필살기가 [폭발 연계]로
+      변경된다.\\n[폭발 연계]: 공격력 400%의 빙결 원소 대미지를 가하고, 종언의 율자의 캐릭터 교대 재사용 대기시간이 초기화되며,
+      종언의 율자의 특수 QTE 공격을 발동한다.\\n[폭발 연계] 발동 소모 SP: 75, 재사용 대기시간: 15초(재사용 대기시간 감소
+      효과를 받지 않는다)</color>"
+    icon: Skill_Bronya_C12_GB_834
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8310"
+        name: 세계라는 이름의 잔향
+        info: "연속 형태에서 진리의 율자의 원소 관통이 #1[f1]% 증가한다."
+        brief: 연속 형태에서 진리의 율자의 원소 관통이 증가한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.08
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8311"
+        name: 자유로 향하는 길의 통역
+        info: "[화력 연계]가 적에게 적중할 때마다 진리의 율자가 추가로 SP를 #1[f1]pt 회복한다."
+        brief: "[화력 연계]가 적에게 적중할 때마다 진리의 율자가 추가로 SP를 회복한다."
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 20
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "8312"
+        name: 폭군 탐식의 주목
+        info: "필살기 발동 시, 화염 및 뇌전 원소 특성 캐릭터가 원소 관통 상태에 진입해 모든 원소 관통이 #1[f1]% 증가한다. 지속 시간:
+          #2[f1]초"
+        brief: 필살기 발동 시, 화염 및 뇌전 원소 특성 캐릭터가 원소 관통 상태에 진입해 모든 원소 관통이 증가한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 11
+        paramBase1: 0.07
+        paramBase2: 16
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "835"
+    name: 세계, 오늘의 이름
+    info: "리더로 배치 시 파티원이 버프를 받는다.\\n<color=#23B2E7FF>리더 스킬: {{파티원의 모든 원소 대미지가
+      #1[f1]% 증가한다. 파티에 브로냐가 아닌 캐릭터가 1명 있을 때마다 연속 형태에서 적이 진리의 율자에게 받는 빙결 원소 대미지가
+      #2[f1]% 증가한다(해당 효과는 독립적으로 부여된다).}}</color>"
+    icon: Skill_Bronya_C12_GB_835
+    skillType: leader
+    tags: []
+    paramSubId1: 8313
+    paramSubId2: 8313
+    paramSubId3: 0
+    subSkills:
+      - id: "8313"
+        name: 문명, 이념의 징표
+        info: "파티원의 모든 원소 대미지가 #1[f1]% 증가한다. 파티에 브로냐가 아닌 캐릭터가 1명 있을 때마다 연속 형태에서 적이 진리의
+          율자에게 받는 빙결 원소 대미지가 #2[f1]% 증가한다(해당 효과는 독립적으로 부여된다)."
+        brief: 파티원의 모든 원소 대미지가 증가한다. 파티에 브로냐가 아닌 캐릭터가 1명 있을 때마다 연속 형태에서 적이 진리의 율자에게 받는
+          빙결 원소 대미지가 증가한다(해당 효과는 독립적으로 부여된다).
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.3
+        paramBase2: 0.06
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8314"
+        name: 전기, 군중의 빛
+        info: "자신이 [폭발 연계] 발동 시 캐릭터가 [폭군 탐식의 주목] 스킬을 개방한 상태라면 해당 효과를 함께 발동하고, 전장의 적이 받는
+          모든 원소 대미지가 #1[f1]% 증가한다. 지속 시간: 16초"
+        brief: 자신이 [폭발 연계] 발동 시 적장의 적이 받는 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 3
+        paramBase1: 0.04
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "836"
+    name: 차원 교향의 돌파
+    info: "패시브 스킬은 자동으로 발동한다.\\n<color=#23B2E8FF>진리의 율자가 [소환물] 중장 토끼와 함께 전투한다. 중장
+      토끼가 초기에 기관총 공격을 가해 공격마다 공격력 6*18%의 빙결 원소 대미지를 가한다.\\n극값 형태에서 진리의 율자는 조작을
+      통해 연속 형태에서의 탑재 무장 미사일/레이저/부유포를 순서대로 개방한다. 동시에 미사일 개방 시 중장 토끼의 공격마다 추가로
+      미사일을 발사해 공격력 4*15%의 빙결 원소 대미지를 가한다. 레이저 개방 시 기관총 공격이 레이저 공격으로 변경되어 공격마다
+      공격력 3*40%의 빙결 원소 대미지를 가한다. 부유포 개방 시 레이저 공격이 강화 레이저 공격으로 변경되어 공격마다 공격력
+      3*45%의 빙결 원소 대미지를 가한다.\\n연속 형태는 20초간 지속되며, 경직 저항력 및 이동 속도가 증가하고, 받는 모든
+      대미지가 80% 감소한다. 또한 개방한 탑재 무장에 따라 버프를 획득하고, 캐릭터가 기체 KP를 보유한다(최대 100pt).\\n극값
+      형태와 연속 형태는 모두 율자 형태이다.\\n대포 무기 장착 시, 극값 형태 무기 액티브 스킬을 획득한다:\\n무기 버튼 터치 시
+      고정한 적에게 공격력 850%의 빙결 원소 대미지를 가한다. 재사용 대기시간: 14초\\n연속 형태 무기 액티브 스킬을
+      획득한다:\\n무기 버튼 터치 시, 지속적으로 레이저를 발사해 레이저마다 전방의 적에게 공격력 35%의 빙결 원소 대미지를 가한다.
+      재사용 대기시간: 16초. 탑재 무장 레이저 개방 시 연속 형태 무기 액티브 스킬의 레이저마다 추가로 레이저를 2개 발동해 각각
+      공격력 20%의 빙결 원소 대미지를 가하고, 종료 시 주변 적에게 공격력 150%의 빙결 원소 대미지를 가하는 폭발을 일으킨다. 탑재
+      무장 부유포 개방 및 부유포 소환 시, 부유포가 무기 액티브 스킬과 동시에 레이저를 발사해 레이저마다 공격력 15%의 빙결 원소
+      대미지를 가한다.\\n연속 형태의 지속 시간이 종료되거나 진리의 율자 퇴장 시 기갑이 적에게 돌진 후 블랙홀을 생성해 짧은 시간 적을
+      끌어당기고, 공격력 100%의 빙결 원소 대미지를 가한다. 이후 중장 토끼가 다시 진리의 율자 주변에 생성되며 탑재 무장의 개방
+      상태가 초기화된다.</color>"
+    icon: Skill_Bronya_C12_GB_836
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8316"
+        name: 프록시 중장 프로토콜
+        info: "무기 액티브 스킬 사용 시, 진리의 율자가 가하는 빙결 원소 대미지가 #1[f1]% 증가한다. 지속 시간: 18초, 중복 발동 시
+          지속 시간을 갱신한다. 극값 형태에서 추가로 자신의 SP를 #2[f1]pt 회복한다."
+        brief: 무기 액티브 스킬 사용 시, 자신이 가하는 빙결 원소 대미지가 증가한다. 일정 시간 지속되며, 중복 발동 시 지속 시간을 갱신한다.
+          극값 형태에서 추가로 자신의 SP를 회복한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.15
+        paramBase2: 4
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0.4
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+      - id: "8317"
+        name: 사이버 엔젤 엔진
+        info: "탑재 무장을 개방할 때마다 진리의 율자가 SP를 4pt 회복한다. 탑재 무장 1/2/3개 개방 시 연속 형태에서 가하는 모든
+          대미지가 #1[f1]%/#2[f1]%/#3[f1]% 증가하고, 연속 형태 해제 후 파티원의 SP를 4/10/18pt
+          회복한다."
+        brief: 탑재 무장을 개방할 때마다 진리의 율자가 SP를 회복한다. 탑재 무장 1/2/3개 개방 시 연속 형태에서 가하는 모든 대미지가
+          증가하고, 연속 형태 해제 후 파티원의 SP를 회복한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 0.05
+        paramBase2: 0.1
+        paramBase3: 0.2
+        paramAdd1: 0.005
+        paramAdd2: 0.01
+        paramAdd3: 0.025
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8318"
+        name: 미지 기체 창조
+        info: "중장 토끼 또는 중장 토끼 변형 기갑이 전장에 존재할 경우, 진리의 율자가 매초 SP를 0.5pt 회복한다. 또한 전장의 캐릭터가
+          [진리의 이름]을 획득해 가하는 모든 원소 대미지가 #1[f1]% 증가하고, 기본 공격(분기 및 차지 공격)이 가하는 모든
+          원소 대미지가 추가로 #2[f1]% 증가한다."
+        brief: 중장 토끼 또는 중장 토끼 변형 기갑이 전장에 존재할 경우, 진리의 율자가 매초 SP를 회복한다. 또한 전장의 캐릭터가 [진리의
+          이름]을 획득해 가하는 모든 원소 대미지가 증가하고, 기본 공격(분기 및 차지 공격)이 가하는 모든 원소 대미지가 추가로
+          증가한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 0.05
+        paramBase2: 0.09
+        paramBase3: 0
+        paramAdd1: 0.005
+        paramAdd2: 0.009
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

@@ -1,0 +1,335 @@
+id: "702"
+fullName: 헌트 슈트·팬텀 아이언
+shortName: 헌트 슈트·팬텀 아이언
+desc: <color=white>특징:</color> <color=#2CE3FFFF>기계 속성</color>의 근거리 전투형 캐릭터. 자율
+  추척 병기와 함께 작전한다.
+firstName: 리타
+lastName: 로스바이세
+enFirstName: Rita
+enLastName: Rossweisse
+attributeType: mech
+isEasterner: false
+weapon: scythe
+character: rita
+initialStar: a
+tags:
+  - lightning-dmg
+  - paralyze
+skills:
+  - id: "381"
+    name: 아이언 스톰
+    info: "낫을 휘둘러 적을 5회 공격한다\\n<color=#23B2E2FF>1격: 공격력 80%의 물리 대미지\\n2격: 공격력
+      40%+100%의 물리 대미지\\n3격: 공격력 40%+100%의 물리 대미지\\n4격: 50%+120%+150%의 물리
+      대미지\\n5격: 공격력 4*40%+200%의 물리 대미지</color>"
+    icon: Skill_Rita_LG_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3801"
+        name: 살육의 욕망
+        info: "슈퍼차지 상태에서 기본 공격 5연격은 판정마다 공격력 #1[f1]%의 뇌전 원소 대미지를 추가하고, 공격마다 소량의 마비 게이지를
+          추가하며 경직 저항력이 증가한다. 또한 받는 물리 대미지와 원소 대미지가 #2[f1]% 감소한다"
+        brief: 슈퍼차지 상태에서 기본 공격의 뇌전 원소 대미지가 증가하고 경직 저항력이 증가한다. 피격 시 받는 물리 대미지와 받는 원소 대미지가
+          감소한다
+        icon: Skill_Nagative_Skill02
+        maxLv: 30
+        paramBase1: 0.1
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.01724
+        paramAdd2: 0.0069
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 1
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+        toggle: false
+        unlockStar: sss
+      - id: "3802"
+        name: 스파크 디스차지
+        info: "기본 공격 시 #1[f1]%의 확률로 추가로 #2[f1]% 뇌전 원소 피해를 준다."
+        brief: 기본 공격 5연격이 적에게 적중 시 일정 확률로 추가 뇌전 원소 대미지를 입힌다
+        icon: Skill_Nagative_Damage02
+        maxLv: 70
+        paramBase1: 0.05
+        paramBase2: 0.25
+        paramBase3: 0
+        paramAdd1: 0.00072
+        paramAdd2: 0.00507
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "382"
+    name: <color=#FFC741FF>차지</color> - 라이트닝 팬텀
+    info: 기본 공격 도중 차지하여 적을 꿰뚫고 활성화 상태에 진입한다.\n<color=#23B2E2FF>부하(負荷)가 0일 때, 기본 공격
+      도중 버튼을 눌러 차지 공격을 발동할 수 있다. 적을 꿰뚫어 공격력 4*150%의 뇌전 원소 대미지를 입히고 슈퍼차지 상태에
+      진입한다. 슈퍼차지 상태에서 기본 공격의 물리 대미지는 뇌전 원소 대미지로 변하고 배율은 변하지 않는다.</color>
+    icon: Skill_Rita_LG_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3803"
+        name: 초직감
+        info: "슈퍼차지 상태에서 적을 처치할 때마다 부하(負荷)가 #1[i]pt 감소한다."
+        brief: 슈퍼차지 상태에서 적을 처치하면 부하가 감소한다
+        icon: Skill_Nagative_Skill03
+        maxLv: 73
+        paramBase1: 60
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.83333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3804"
+        name: <color=#FFC741FF>QTE</color>-멘탈 토렌트
+        info: "QTE: 적이 시공 감속 상태 진입 시 발동, 넓은 범위에 공격력 60%+240%의 물리 대미지+공격력 2*#1[f1]%의 뇌전
+          원소 대미지를 가하고 적을 공중에 띄운 후 기본 공격 제5격을 연계한다. QTE가 적에게 적중 시,
+          <color=#FEDF4CFF>마비 게이지를 10pt 누적한다.</color> 재사용 대기시간: 10초"
+        brief: "QTE: 시공 감속 상태일 때 QTE 출전, 넓은 범위의 물리, 뇌전 원소 대미지를 가하고, 적을 공중에 띄우며, 마비 게이지를
+          누적한다. 이어서 기본 공격 제5격을 연계할 수 있다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 24
+        paramBase1: 1.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.07826
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 2
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: true
+        unlockStar: a
+      - id: "3805"
+        name: 초전도 현상
+        info: "슈퍼차지 상태 동안 자신이 가하는 뇌전 원소 대미지가 #1[f1]% 증가한다."
+        brief: 슈퍼차지 상태에서 자신이 가하는 뇌전 원소 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 16
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "383"
+    name: 라이트닝 리플렉스
+    info: "적의 공격을 빠르게 회피한다. 2회 연속 회피할 수 있다.\\n<color=#23B2E2FF>극한 회피 시 자신의 부하를 30
+      사용해 3초간 이동 속도를 40% 증가시킨다.\\n라이트닝 리플렉스: 극한 회피 시 목표 및 주변의 적에게 공격력 300%의 뇌전
+      원소 대미지를 가하고</color> <color=#FEDF4CFF>마비 게이지를 5pt 누적한다.</color>
+      <color=#23B2E2FF>부하 감소량이 80으로 증가하고, 짧은 시간 내에 공격 버튼을 누르면 기본 공격의 4번째 공격을 바로
+      시전할 수 있다. 재사용 대기시간: 15초</color>"
+    icon: Skill_Rita_LG_003
+    skillType: evasion
+    tags:
+      - type: paralyze
+        strength: 1
+        comment: "마비 이상 게이지 누적 가능, 누적 능력: 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3810"
+        name: EM 망토
+        info: "라이트닝 리플렉스의 재사용 대기시간이 #1[f1]초 감소한다."
+        brief: 라이트닝 리플렉스 재사용 대기시간 감소, 가하는 마비 상태 지속 시간 증가
+        icon: Skill_Nagative_Survive02
+        maxLv: 25
+        paramBase1: 1
+        paramBase2: 2.5
+        paramBase3: 0
+        paramAdd1: 0.125
+        paramAdd2: 0.04583
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "3811"
+        name: EMP 블라스트
+        info: "라이트닝 리플렉스로 가하는 범위 뇌전 원소 대미지가 공격력의 #1[f1]%로 증가된다."
+        brief: 라이트닝 리플렉스로 가하는 뇌전 원소 대미지 증가
+        icon: Skill_Nagative_Damage01
+        maxLv: 27
+        paramBase1: 3.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.09615
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3812"
+        name: 리플렉스 아크 어그먼츠
+        info: "라이트닝 리플렉스로 감소되는 부하(負荷)가 #1[f1]pt로 증가"
+        brief: 라이트닝 리플렉스로 더 많은 부하를 감소할 수 있다
+        icon: Skill_Nagative_Skill02
+        maxLv: 33
+        paramBase1: 100
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1.5625
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "384"
+    name: 수렵자 카본
+    info: "\\n<color=#23B2E2FF>최대 24초 지속되는 자율 추적 병기 ‘수렵자 카본[소환물]'을 불러내며, 지속 시간 동안 중복
+      시전할 수 없다.\\n특정 공격으로 신경독소를 방출해 자신 이외의 팀원 혹은 적이 신경독소 내에 들어오면 광분 상태에 진입한다.
+      광분은 팀원과 적에게 주는 영향이 다르다.\\n적: 가하는 원소 대미지 10% 증가. 피격 시 받는 대미지 10% 증가, 경직 저항력
+      감소\\n팀원: 가하는 원소 대미지 15% 증가, 피격 시 받는 모든 대미지 15% 증가, 경직 저항력 증가\\n재사용 대기시간:
+      18초, 최소 발동 소모 SP: 35, 발동 중 공격으로 획득하는 SP 50% 감소, 발동 기간, 공격으로 획득하는 SP가 50%
+      감소하고 SP는 점차 감소하며 시간이 흐를수록 소모 속도가 점점 빨라진다. SP가 0이 돼도 ‘수렵자 카본’은 최대 3초 동안
+      스테이지에 남아있는다</color>"
+    icon: Skill_Rita_LG_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3806"
+        name: "지령: 사냥"
+        info: "수렵자 카본의 뇌전 원소 대미지 + #1[f1]%"
+        brief: 수렵자 카본의 뇌전 원소 대미지가 증가한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 18
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01765
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3807"
+        name: "지령: 광란"
+        info: "광분 상태의 팀원이 가하는 원소 대미지가 #1[f1]%로 증가. 피격 시 받는 모든 대미지가 #2[f1]%로 증가"
+        brief: 광분 상태에서 파티원이 가하는 대미지와 받는 피해가 증가한다
+        icon: Skill_Nagative_Skill03
+        maxLv: 15
+        paramBase1: 0.16
+        paramBase2: 0.16
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "3808"
+        name: "지령: 동기화"
+        info: "수렵자 카본이 스테이지에 존재하는 동안 캐릭터 자신의 모든 대미지 + #1[f1]%"
+        brief: 수렵자 카본이 스테이지에 존재하는 동안 캐릭터 자신의 모든 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 20
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01579
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "385"
+    name: 데우스 엑스 마키나
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다\\n<color=#23B2E2FF>데우스 엑스 마키나: {{모든 파티원이 받는 원소
+      대미지가 #1[f1]% 감소하고 기계 속성 캐릭터의 기본 공격의 모든 대미지가 #2[f1]% 증가한다.}}</color>"
+    icon: Skill_Rita_LG_005
+    skillType: leader
+    tags: []
+    paramSubId1: 3809
+    paramSubId2: 3809
+    paramSubId3: 0
+    subSkills:
+      - id: "3809"
+        name: 데우스 엑스 마키나
+        info: "모든 파티원이 받는 원소 대미지가 #1[f1]% 감소하고, 기계 속성 캐릭터의 기본 공격(차지와 분기 포함)의 모든 대미지가
+          #2[f1]% 증가한다"
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Skill03
+        maxLv: 2
+        paramBase1: 0.2
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0.06
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "386"
+    name: 슈퍼 디스차지
+    info: "패시브 스킬은 자동으로 발동된다.\\n<color=#23B2E2FF>부하(負荷): 전투 중 초기 수치 0pt, 최대치 200pt,
+      슈퍼차지 상태에서는 초당 25pt씩 증가하고 이동 속도가 30% 증가한다. 풀 차지되면 피로 상태가 되어 이동 속도가 20%
+      감소한다. 피로 상태가 되면 0이 될 때까지 초당 15씩 감소한다.</color>"
+    icon: Skill_Rita_LG_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3813"
+        name: 무차별 섬멸
+        info: "마비 혹은 연소 상태의 적을 공격 시 모든 대미지가 #1[f1]% 증가한다."
+        brief: 마비, 연소 상태의 적을 공격 시 모든 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "3814"
+        name: 패턴 인식
+        info: "모든 파티원이 실드의 보호를 받고 있는 적을 공격 시 원소 대미지가 #1[f1]% 증가한다."
+        brief: 모든 파티원이 실드의 보호를 받고 있는 적을 공격 시 원소 대미지가 증가한다
+        icon: Skill_Nagative_Survive03
+        maxLv: 10
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01111
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3815"
+        name: 호스틸 EWS
+        info: "피로 상태 동안 주변에 적이 있으면 부하(負荷)가 추가로 초당 #1[f1]pt씩 감소한다."
+        brief: 피로 상태일 때 주변에 적이 있으면 부하를 추가로 감소시킬 수 있다
+        icon: Skill_Nagative_Skill03
+        maxLv: 10
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.55556
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a

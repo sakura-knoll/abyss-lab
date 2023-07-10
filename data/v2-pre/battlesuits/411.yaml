@@ -1,0 +1,337 @@
+id: "411"
+fullName: 극지전인
+shortName: 극지전인
+desc: <color=white>특징:</color> <color=#FF66CCFF>이능속성</color>의
+  <color=#FF66CCFF>영혼 각성</color> 근거리 전투형 캐릭터, 임계 상태를 운용해 빙결 원소 대미지를 가한다.
+firstName: 히메코
+lastName: 무라타
+enFirstName: Himeko
+enLastName: Murata
+attributeType: psy
+isEasterner: true
+weapon: 2-handed
+character: himeko
+initialStar: a
+tags:
+  - ice-dmg
+  - freeze
+skills:
+  - id: "331"
+    name: 영도 대검
+    info: "기본 공격: 근접 전 4연격\\n<color=#23B2E2FF>1격: 공격력 200%의 물리 대미지\\n2격: 공격력 200%의
+      물리 대미지\\n3격: 공격력 150%+50%의 물리 대미지\\n4격: 공격력 250%의 물리 대미지\\n4연격 도중 차지 단계에
+      진입할 수 없다.\\n돌진 공격: 돌진 시 공격 버튼을 누르면 광범위 가로베기 발동하여 공격력 450%의 물리 대미지를
+      입힌다.\\n기본 공격 4연격 및 돌진 공격이 적에게 적중 시 타격마다 임계치 30pt 회복한다</color>"
+    icon: Skill_Himeko_NQ_001
+    skillType: basic
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "기본 공격의 3격과 돌진 공격은 강격이다. 축적 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3302"
+        name: 냉혈의 검
+        info: "임계 상태는 기절, 마비, 빙결에 면역되며, 받는 모든 대미지가 #1[f1]% 감소한다. 임계 검기로 인한 공격 속도 감소 상태의
+          지속 시간이 #2[f2]초로 연장된다. 기본 공격 제3격의 임계 검기는 적에게 <color=#FEDF4CFF>빙결 게이지를
+          10pt 누적한다.</color> 재사용 대기시간: 8초"
+        brief: 임계 상태에서 기절, 마비, 빙결 상태의 영향을 받지 않고 받는 모든 대미지가 감소한다. 또 검기 공격으로 인한 감속 시간이
+          늘어난다
+        icon: Skill_Nagative_Survive03
+        maxLv: 30
+        paramBase1: 0.1
+        paramBase2: 3.5
+        paramBase3: 0
+        paramAdd1: 0.01034
+        paramAdd2: 0.08621
+        paramAdd3: 0
+        tags:
+          - type: freeze
+            strength: 2
+            comment: "빙결 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: false
+        unlockStar: b
+      - id: "3303"
+        name: 서리
+        info: "기본 공격 4연격과 돌진 공격으로 획득하는 임계치가 타격마다 #1[f1]pt로 증가된다. 임계 상태에서의 임계 검기의 빙결 원소
+          대미지가 타격마다 추가로 #2[i]% 증가한다"
+        brief: 기본 공격 4연격과 돌진 공격으로 임계치를 쌓을 수 있다. 임계 상태에서 검기로 가하는 빙결 원소 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 40
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 2.85714
+        paramAdd2: 0.08571
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3314"
+        name: 저온 작전
+        info: "4연격이 적에게 적중 시 타격마다 추가로 공격력 #1[i]%의 빙결 원소 대미지를 입힌다"
+        brief: 4연격은 적에게 추가로 빙결 원소 대미지를 입힌다
+        icon: Skill_Nagative_Survive01
+        maxLv: 60
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01186
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "332"
+    name: <color=#FFC741FF>차지</color>-생존 투쟁
+    info: 꾸욱 눌러 차지할 수 있다. 차지 올려베기를 시전하여 공격력의 100% 물리 대미지를 입힌다.풀차지 시 공격력의 200% 물리
+      대미지를 입힌다.\n<color=#23B2E2FF>임계치가 200pt 이상일 때 차지 공격 순간 임계치 50pt를 소비하고 임계
+      상태에 진입한다.\n임계 상태에서는 0.5초마다 20pt의 임계치를 소모하고 임계치를 소진하거나 4연격 사이클을 중지할 시 자동으로
+      임계 상태에서 벗어난다.\n임계 상태에서는 공격마다 3개의 검기를 방출하며 타격마다 공격력의 50% 빙결 원소 대미지를 입히고 적의
+      공격 속도를 3초 동안 40% 감소시킨다.</color>
+    icon: Skill_Himeko_NQ_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "교대기와 QTE는 강격이다. 축적 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3301"
+        name: 아드레날린
+        info: "임계 상태에 진입 후 2초 지나면 자신이 가하는 빙결 원소 대미지가 #1[f1]% 증가한다. 이번 임계 상태 종료 후 4초 후까지
+          지속된다."
+        brief: 임계 상태에 진입 후 2초부터 종료 후 4초까지 자신의 빙결 원소 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 10
+        paramBase1: 0.23
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3304"
+        name: <color=#FFC741FF>교대기</color>-파빙참
+        info: "출전 시 내려찍기를 발동한다. 범위 내의 적을 다운시켜 공격력의 #1[i]%+100% 물리 대미지를 입힌다."
+        brief: 출전 시 범위 내의 적을 다운시키고 물리 대미지를 입힌다
+        icon: Skill_Nagative_StartUp01
+        maxLv: 22
+        paramBase1: 1.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0619
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "3305"
+        name: <color=#FFC741FF>QTE</color>-눈사태
+        info: "QTE: 적이 연소 상태일 때 발동한다. 총 공격력 225%의 물리 대미지와 공격력 200%+#1[i]%의 빙결 원소 대미지를
+          가하고, 적에게 <color=#FEDF4CFF>빙결 게이지를 10pt 누적한다.</color> 동시에 자신의 임계치를
+          200pt 회복한다."
+        brief: "QTE: 적이 연소 상태일 때 QTE 출전, 적에게 빙결 대미지를 가하고, 빙결 게이지를 누적하며 동시에 임계치를 회복한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 25
+        paramBase1: 1
+        paramBase2: 2.5
+        paramBase3: 0
+        paramAdd1: 0.0625
+        paramAdd2: 0.10417
+        paramAdd3: 0
+        tags:
+          - type: freeze
+            strength: 2
+            comment: "빙결 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: true
+        unlockStar: a
+  - id: "333"
+    name: 얼어붙은 손길
+    info: "적의 공격을 굴러서 회피한다. 2회 연속 회피할 수 있다.\\n<color=#23B2E2FF>극한 회피 시 적을 중심으로 공격력
+      4*25%의 범위 빙결 원소 대미지를 가하고 임계치 50pt 회복한다.\\n얼어붙은 손길: 극한 회피 시 발동한다. 추가로 임계치
+      100pt 회복하고 극한 회피 후 공격 버튼을 누르면 내려찍기로 공격력 50%+100%의 빙결 원소 대미지를 가하며</color>
+      <color=#FEDF4CFF>빙결 게이지를 5pt 누적한다.</color> <color=#23B2E2FF>재사용 대기시간:
+      15초</color>"
+    icon: Skill_Himeko_NQ_003
+    skillType: evasion
+    tags:
+      - type: freeze
+        strength: 1
+        comment: "빙결 이상 게이지 누적 가능, 누적 능력: 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3306"
+        name: 얼음 먼지
+        info: "극한 회피로 얼어붙은 손길 발동 후 내려찍기의 빙결 원소 범위 대미지가 #1[i]% 증가한다."
+        brief: 얼어붙은 손길을 발동 후 내려찍기의 빙결 원소 대미지가 증가한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 8
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.14286
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3307"
+        name: 극지 빙하류
+        info: "얼어붙은 손길 재사용 대기시간이 #1[f1]초 감소한다. 매 회피 베기의 빙결 원소 대미지가 #2[i]% 증가한다"
+        brief: 얼어붙은 손길 재사용 대기시간 감소, 회피 베기의 빙결 원소 대미지가 증가한다
+        icon: Skill_Nagative_Survive03
+        maxLv: 8
+        paramBase1: 1.5
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.92857
+        paramAdd2: 0.02857
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "334"
+    name: 아이스 스톰 토네이도
+    info: "빙결 에너지를 휘둘러 적에게 대량의 빙결 원소 대미지를 가한다.\\n<color=#23B2E2FF>제자리에서 적에게 3개의 원거리
+      얼음 검기를 날려 공격력 3*200%의 빙결 원소 대미지를 가한 후 적에게 돌진하여 검으로 3단 베기를 시전해 타격마다 공격력
+      150%의 물리 대미지와 50%의 빙결 원소 대미지를 가한다. 그리고 내려찍기로 빙결 에너지를 방출해 공격력 300%+200%의 물리
+      대미지와 공격력 150%+300%의 빙결 원소 대미지를 가하고, 넓은 범위의 적에게</color> <color=#FEDF4CFF>빙결
+      게이지를 5pt 누적한다.</color><color=#23B2E2FF>\\n최후의 일격을 가하는 순간 임계치 200pt를
+      회복한다.\\n발동 소모 SP: 100</color>"
+    icon: Skill_Himeko_NQ_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 1
+        comment: "필살기의 마지막 일격은 강격이다. 축적 능력: 중"
+      - type: freeze
+        strength: 2
+        comment: "빙결 이상 게이지 누적 가능, 누적 능력: 보통"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3308"
+        name: 극한의 마음
+        info: "필살기의 마지막 일격을 가하는 순간 자신의 임계치를 #1[f1]pt 회복한다"
+        brief: 필살기의 마지막 일격으로 자신의 임계치를 회복할 수 있다
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 250
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 70
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "3309"
+        name: 동상
+        info: "필살기의 빙결 원소 대미지가 타격마다 추가로 #1[i]% 증가한다"
+        brief: 필살기로 가하는 빙결 원소 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 70
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00725
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3310"
+        name: 폭풍설
+        info: "필살기가 추가로 <color=#FEDF4CFF>빙결 게이지를 5pt 누적하고,</color> 종료 후 #2[f2]초의 공격 속도
+          감소 상태를 부여해 공격 속도를 40% 감소시킨다."
+        brief: 필살기가 추가로 빙결 게이지를 누적하고, 종료 후 공격 속도 감소 상태를 부여한다.
+        icon: Skill_Nagative_Control03
+        maxLv: 4
+        paramBase1: 3.5
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.83333
+        paramAdd2: 1
+        paramAdd3: 0
+        tags:
+          - type: freeze
+            strength: 2
+            comment: "빙결 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: false
+        unlockStar: sss
+  - id: "335"
+    name: 북풍의 수호
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>북풍의 수호: {{모든 파티원이 받는 근접 물리
+      대미지 #1[i]% 감소, 이능 속성 발키리는 모든 대미지 #2[i]% 증가}}</color>"
+    icon: Skill_Himeko_NQ_005
+    skillType: leader
+    tags: []
+    paramSubId1: 3311
+    paramSubId2: 3311
+    paramSubId3: 0
+    subSkills:
+      - id: "3311"
+        name: 북풍의 수호
+        info: "모든 파티원이 받는 근접 물리 대미지 #1[i]% 감소하고, 이능 속성 발키리는 모든 대미지 #2[i]% 증가한다"
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Survive01
+        maxLv: 4
+        paramBase1: 0.14
+        paramBase2: 0.08
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "336"
+    name: 패시브 스킬
+    info: "패시브 스킬은 자동으로 발동된다.\\n<color=#23B2E2FF>임계치: 최대 600pt, 초기 임계치 200pt</color>"
+    icon: Skill_Himeko_NQ_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3312"
+        name: 무자비한 추격
+        info: "모든 파티원이 이동 속도 감소/공격 속도 감소/빙결 상태의 적을 공격 시 빙결 원소 대미지가 #1[f1]% 증가한다."
+        brief: 모든 파티원이 이동 속도, 공격 속도 감소, 그리고 빙결 상태의 적에게 가하는 빙결 원소 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02857
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3313"
+        name: 백열
+        info: "콤보수 20 초과 시 자신이 가하는 모든 대미지 #1[f1]% 증가"
+        brief: 콤보수가 20을 넘으면 자신이 가하는 모든 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss

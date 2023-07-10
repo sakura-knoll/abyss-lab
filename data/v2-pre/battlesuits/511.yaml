@@ -1,0 +1,336 @@
+id: "511"
+fullName: 월하초옹
+shortName: 월하초옹
+desc: <color=white>특징:</color> <color=#FFAF2CFF>생물 속성</color>의
+  <color=#FFAF2CFF>영혼 각성</color> 근거리 전투형 캐릭터, 자유롭게 전투방식을 전환하며 출혈 상태를 이용한다.
+firstName: 테레사
+lastName: 아포칼립스
+enFirstName: Theresa
+enLastName: Apocalypse
+attributeType: bio
+isEasterner: false
+weapon: cross
+character: theresa
+initialStar: a
+tags:
+  - physical-dmg
+  - heavy-atk
+  - bleed
+  - time-mastery
+skills:
+  - id: "321"
+    name: 불결한 쌍검
+    info: "기본 공격: 근거리 4격 쌍검 공격\\n<color=#23B2E2FF>1격： 공격력 2*50%의 물리 대미지\\n2격： 공격력
+      2*50%의 물리 대미지\\n3격： 공격력2*60%+70%의 물리 대미지\\n4격： 공격력 2*50%+2*70%의 물리
+      대미지</color>"
+    icon: Skill_Theresa_GM_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3201"
+        name: 빈혈 효과
+        info: "기본 공격(차지 포함) 적중 시, #1[f1]%의 확률로 적을 2초 동안 허약 상태로 만들어 공격력을 50% 감소시킨다. 허약
+          상태가 끝난 후 적에게 공격력 #2[f1]%의 추가 물리 대미지를 입힌다. 최소 발동 간격: 2초"
+        brief: 기본 공격이 적중 시 일정 확률로 적을 2초 동안 허약 상태로 만들고 추가 물리 대미지를 입힐 수 있다
+        icon: Skill_Nagative_Damage01
+        maxLv: 75
+        paramBase1: 0.052
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0.002
+        paramAdd2: 0.00541
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3202"
+        name: 흡혼귀
+        info: "기본 공격의 매 단계 공격이 출혈 상태의 적에게 대미지를 입힐 경우, HP를 #1[f1], 피의 인장를 #2[f2] 회복한다. 피의
+          인장이 50 미만일 때 출혈 상태가 아닌 적에게도 이 효과를 1회 발동할 수 있다"
+        brief: 기본 공격으로 출혈 상태의 적을 공격 시 Hp와 피의 인장을 회복한다. 피의 인장 수치가 낮을 때 출혈 상태가 아닌 적에게도 효과를
+          발동할 수 있다
+        icon: Skill_Nagative_Control02
+        maxLv: 8
+        paramBase1: 6
+        paramBase2: 13
+        paramBase3: 0
+        paramAdd1: 3
+        paramAdd2: 1
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3203"
+        name: 피의 주문
+        info: "콤보수가 30을 초과하면, 기본 공격 4연격의 매 타격마다 공격력 #1[f1]%의 물리 대미지를 추가한다"
+        brief: 콤보수가 30을 넘으면 기본 공격 4연격의 타격마다 추가 물리 대미지를 입힐 수 있다
+        icon: Skill_Nagative_Damage03
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "322"
+    name: <color=#FFC741FF>차지</color> - 타락한 도끼
+    info: "4연격 시 차지하여 거대한 도끼로 공격한다.\\n<color=#23B2E2FF>기본 공격 4연격 중 매 공격 직후 공격 버튼을 꾸욱
+      눌러 타락한 도끼를 휘두를 수 있다.\\n차지 후, 공격 버튼을 누르면 타락한 도끼를 연속으로 휘두를 수 있으며, 다른 조작은 모두
+      타락한 도끼 사용을 취소시킨다.\\n피의 인장이 50 이상일 때:\\n공격 시 피의 인장 50을 소모한다.\\n제1격: 공격력
+      150%+250%의 물리 대미지.\\n제2격: 공격력 150%+250%의 물리 대미지.\\n피의 인장이 50 미만 일 때: 타격마다
+      공격력 100%+200%의 물리 대미지.\\n전투 중 피의 인장 최대치: 200.\\n피의 인장이 가득 찰 때까지 초당 5 회복하며,
+      차지 사용 후 피의 인장은 1.5초 동안 회복하지 않는다.\\n</color>"
+    icon: Skill_Theresa_GM_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "차지 공격과 교대기, 그리고 QTE는 강격이다. 축적 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3204"
+        name: 장미 혈흔
+        info: "피의 인장을 소모한 차지 공격은 적중한 적에게 <color=#FEDF4CFF>출혈 게이지를 #1[f1]pt
+          누적한다.</color>"
+        brief: 피의 인장을 소모한 차지 공격은 적중한 적에게 출혈 게이지를 누적한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 2
+        paramBase2: 3.8
+        paramBase3: 0
+        paramAdd1: 0.33333
+        paramAdd2: 0.3
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "출혈 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: a
+      - id: "3205"
+        name: <color=#FFC741FF>교대기</color> - 매장
+        info: "교대기 개방, 적에게 공격력의 #1[f1]% 물리 대미지를 입힌다."
+        brief: 교대기 해금, 적에게 물리 대미지를 입힌다
+        icon: Skill_Nagative_StartUp02
+        maxLv: 10
+        paramBase1: 1.4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3206"
+        name: <color=#FFC741FF>QTE</color> - 붉은 달의 키스
+        info: "QTE: 적이 마비 상태일 때 발동한다. 공격력 #1[f1]%의 물리 대미지를 가하고, 적에게 <color=#FEDF4CFF>출혈
+          게이지를 5pt 누적한다.</color>"
+        brief: "QTE: 적이 마비 상태일 때 QTE 출전, 물리 대미지를 가하고 적에게 출혈 게이지를 누적한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 8
+        paramBase1: 3.5
+        paramBase2: 60
+        paramBase3: 3.8
+        paramAdd1: 0.5
+        paramAdd2: 25.71429
+        paramAdd3: 0.38571
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "출혈 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: true
+        unlockStar: s
+  - id: "323"
+    name: 무형의 악몽
+    info: "연속으로 2회까지 빠르게 회전하여 회피한다.\\n<color=#23B2E2FF>극한 회피 후 3초 동안 이동 속도 40%
+      증가\\n시공 단열: 극한 회피 시 3초 동안 전체 시공 단열을 발동해 모든 적의 행동이 느려지게 한다. 재사용 대기시간
+      15초</color>"
+    icon: Skill_Theresa_GM_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3207"
+        name: 방황의 밤
+        info: "시공 단열 지속 시간 #1[f2]초 증가"
+        brief: 시공단열의 지속 시간이 증가한다
+        icon: Skill_Nagative_Survive01
+        maxLv: 35
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02941
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3208"
+        name: 안개가 되어버린 몸
+        info: "극한 회피 스킬 재사용 대기시간 #1[f2]초 감소"
+        brief: 극한 회피 스킬 재사용 대기시간 감소
+        icon: Skill_Nagative_Survive02
+        maxLv: 20
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.10526
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3209"
+        name: 신성모독
+        info: "차지 공격의 크리티컬률 #1[f1]% 증가"
+        brief: 차지 공격의 크리티컬률이 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 4
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.08333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "324"
+    name: 망자의 성연
+    info: "공중에서 거대 도끼를 던져 큰 범위에 대미지를 입힌다.\\n<color=#23B2E2FF>거대 도끼 던지기: 공격력
+      2*300%+600%의 물리 대미지\\n발동 소모 SP: 75</color>"
+    icon: Skill_Theresa_GM_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 3
+        comment: "필살기의 마지막 단계는 강격이다. 축적 능력: 강"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3210"
+        name: 생자의 무덤
+        info: "필살기의 마지막 공격이 추가로 공격력의 #2[i]% 물리 대미지를 입힌다. 명중 시 #1[f1]초 동안 전체 시공 단열을 발동한다"
+        brief: 필살기의 마지막 일격이 적에게 추가로 물리 대미지를 입히고 적중 시 시공단열이 발동된다
+        icon: Skill_Nagative_Damage02
+        maxLv: 6
+        paramBase1: 2
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: 0.6
+        paramAdd2: 0.4
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "3211"
+        name: 광혈증
+        info: "필살기로 대미지를 준 후 피의 인장을 100pt 회복한다. #1[f1]초 이내에 초당 피의 인장을 12pt씩 회복하고 차지 공격으로
+          가하는 모든 대미지가 #2[f1]% 증가한다."
+        brief: 필살기로 대미지를 입힌 후 대량의 피의 인장을 회복하고 짧은 시간 동안 차지 공격의 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 10
+        paramBase1: 5.3
+        paramBase2: 0.22
+        paramBase3: 0
+        paramAdd1: 0.3
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "325"
+    name: 사라져야 할 인장
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>사라져야 할 인장: {{모든 파티원의 대부분 상태
+      이상 지속 시간이 #1[i]% 감소한다. 생물 속성 캐릭터의 물리 대미지가 #2[i]% 증가한다.}}</color>"
+    icon: Skill_Theresa_YD_005
+    skillType: leader
+    tags: []
+    paramSubId1: 3212
+    paramSubId2: 3212
+    paramSubId3: 0
+    subSkills:
+      - id: "3212"
+        name: 사라져야 할 인장
+        info: "모든 파티원의 대부분 상태 이상 지속 시간이 #1[i]% 감소한다. 생물 속성 캐릭터의 물리 대미지가 #2[i]% 증가한다."
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.3
+        paramBase2: 0.18
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "326"
+    name: 패시브 스킬
+    info: 패시브 스킬은 자동으로 발동된다.\n<color=#23B2E2FF>차지 공격을 발동할 때마다 모든 대미지가 10% 증가한다. 최대
+      10스택 중첩, 해당 효과는 캐릭터 퇴장 시 제거된다.</color>
+    icon: Skill_Theresa_YD_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3213"
+        name: 불결한 가시
+        info: "십자가를 전개 후 #2[f1]초 동안, 자신의 공격 속도가 #1[f1]% 증가한다"
+        brief: 십자가가 전개되는 동안 자신의 공격 속도가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 13
+        paramBase1: 0.25
+        paramBase2: 3.6
+        paramBase3: 0
+        paramAdd1: 0.02083
+        paramAdd2: 0.2
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3214"
+        name: 신성한 해골
+        info: "전투 중 초기 SP #1[f1] 증가\\n오픈 월드에서는 10분에 한 번씩 발동 가능"
+        brief: 전투 중 초기 SP가 증가하고 오픈월드에서는 10분에 한 번씩 발동한다
+        icon: Skill_Nagative_Survive02
+        maxLv: 32
+        paramBase1: 12
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.58097
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3215"
+        name: 혈족 계약
+        info: "출혈 상태의 적을 공격 시 물리 대미지가 #1[f1]% 증가하고 출혈 상태의 적에게 피격 시 받는 모든 대미지가 #2[f1]%
+          감소한다"
+        brief: 출혈 상태의 적을 공격 시 대미지가 증가하고 출혈 상태의 적에게 피격 시 받는 피해가 감소한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 8
+        paramBase1: 0.25
+        paramBase2: 0.11
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

@@ -1,0 +1,353 @@
+id: "2201"
+fullName: 핑크 엘프양♪
+shortName: 핑크 엘프양♪
+desc: <color=white>특징:</color> <color=#FF66CCFF>이능 속성</color>의 원거리 캐릭터로, 활로 적을 공격한다.
+firstName: 엘리시아
+lastName: null
+enFirstName: Elysia
+enLastName: null
+attributeType: psy
+isEasterner: true
+weapon: bow
+character: elysia
+initialStar: s
+tags:
+  - physical-dmg
+  - fast-atk
+  - time-mastery
+  - aerial
+skills:
+  - id: "691"
+    name: 꽃과 새의 화살
+    info: "활로 사격한다.\\n<color=#23B2E2FF>제1격: 공격력 100%의 물리 대미지를 가한다.\\n제2격: 공격력
+      60%+60%의 물리 대미지를 가한다.\\n제3격: 공격력 150%의 물리 대미지를 가한다.\\n제4격: 공격력 200%의 물리
+      대미지를 가한다.\\n기본 공격마다 목표에게 [수정 꽃씨] 1개를 부여한다, 최대 4개 중첩. [수정 꽃씨] 효과는 계속
+      존재한다.</color>"
+    icon: Skill_Elysia_GS_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6901"
+        name: 갓 피어난 꽃과 같은 화려함
+        info: "캐릭터가 기계 속성 적에게 가하는 물리 대미지가 #1[f1]%, [수정 꽃씨] 폭발 시 가하는 물리 대미지가 #2[f1]%
+          증가한다."
+        brief: 기계 적에게 가하는 물리 대미지와 [수정 꽃씨] 폭발 시 가하는 물리 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0.08
+        paramBase3: 0
+        paramAdd1: 0.01111
+        paramAdd2: 0.00778
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6902"
+        name: 새로 돋아난 새싹과 같은 청춘
+        info: "적에게 [수정 꽃씨] 존재 시 개당 [핑크 엘프양♪]으로부터 받는 물리 대미지가 #1[f1]% 증가한다(해당 효과는 독립적으로
+          부여된다). 4개 전부 보유 시 캐릭터로부터 받는 물리 대미지가 #2[f1]% 추가 증가한다(해당 효과는 독립적으로
+          부여된다)."
+        brief: 적에게 [수정 꽃씨] 존재 시 [핑크 엘프양♪]으로부터 받는 물리 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.015
+        paramBase2: 0.02
+        paramBase3: 0
+        paramAdd1: 0.0015
+        paramAdd2: 0.002
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+      - id: "6903"
+        name: <color=#FFC741FF>QTE</color>-흰 새의 춤과 같은 성결함
+        info: "적이 시공 감속 상태일 때 발동한다. 공중에서 적에게 치명적 일격을 날려 공격력 #1[f1]%의 물리 대미지를 가하고, 명중한
+          목표에게 [수정 꽃씨] 4개를 부여한다."
+        brief: 적이 시공 감속 상태일 때 QTE가 발동한다.
+        icon: Skill_Nagative_Skill01
+        maxLv: 8
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.71429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "692"
+    name: <color=#FFC741FF>차지</color>-바람과 달의 맹세
+    info: "공격 버튼을 길게 눌러 차지 공격 [사랑의 화살] 발동 후 공격 버튼을 연속 터치하면 다단 공격을 발동할 수
+      있다.\\n<color=#23B2E2FF>기본 상태에서 [사랑의 화살]은 최대 2격을 발동하고, [무결의 돔] 생성 기간, 제3격을
+      발동한다.\\n제1격: 공격력 200%의 물리 대미지를 가한다.\\n제2격: 공격력 210%의 물리 대미지를 가한다.\\n제3격:
+      공격력 500%의 물리 대미지를 가한다.\\n[사랑의 화살]을 발동할 때마다 [사랑]을 100 소모한다.\\n[사랑의 화살]은 목표가
+      보유한 [수정 꽃씨]를 폭발시켜 명중한 목표의 4m 범위 내에 있는 주변 적에게 공격력 100%의 물리 대미지를 가한다. [수정
+      꽃씨]가 폭발하면 주변 목표가 보유한 [수정 꽃씨]도 같이 폭발하며, 폭발 시 목표가 보유한 [수정 꽃씨]는 소모되지 않는다. 폭발
+      재사용 대기시간: 1초</color>"
+    icon: Skill_Elysia_GS_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6904"
+        name: 구름이 달을 가린 듯한 그윽함
+        info: "캐릭터 HP가 50% 미만일 시 받는 모든 대미지가 #1[f1]% 감소한다. 차지 공격 기간 받는 모든 대미지가 #2[f1]%
+          감소하고, 기본 상태에서 차지 공격마다 SP를 #3[f1]pt 회복한다."
+        brief: HP가 50% 미만일 시 받는 모든 대미지가 감소한다. 차지 공격 기간 받는 모든 대미지가 감소하고, 기본 상태에서 차지 공격마다
+          SP를 회복한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 5
+        paramBase1: 0.1
+        paramBase2: 0.15
+        paramBase3: 1.5
+        paramAdd1: 0.025
+        paramAdd2: 0.0375
+        paramAdd3: 0.375
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6905"
+        name: 밤 이슬의 미광과 같은 고요함
+        info: "차지 공격이 가하는 크리티컬 대미지가 #1[f1]% 증가한다. [수정 꽃씨] 폭발 시 [수정 꽃씨]에 다른 [수정 꽃씨]가
+          폭발하면, 해당 [수정 꽃씨]가 가하는 모든 대미지가 추가로 #2[f1]% 증가한다."
+        brief: 차지 공격의 크리티컬 대미지가 증가한다. [수정 꽃씨] 폭발 시 [수정 꽃씨]에 다른 [수정 꽃씨]가 폭발하면, 해당 [수정
+          꽃씨]가 가하는 모든 대미지가 추가로 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.08
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.00778
+        paramAdd2: 0.01111
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "6913"
+        name: 눈을 감싸는 바람과 같은 애틋함
+        info: "차지 공격이 적 적중 시 물리 대미지가 #1[f1]% 증가한다. 지속 시간: 8초, 갱신 가능"
+        brief: 차지 공격이 적 적중 시 물리 대미지가 증가한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "693"
+    name: 하늘과 땅의 은혜
+    info: "빠르게 공격을 회피하며, 연속 2회 회피할 수 있다.\\n<color=#23B2E2FF>극한 회피에 성공하면 극한 회피 스킬
+      [하늘과 땅의 은혜]가 발동해 3초간 전체 시공 단열이 발동하고 [사랑]을 50 회복한다. 재사용 대기시간: 18초\\n기본 공격
+      기간 회피 후 기본 공격의 다음 일격을 이어서 사용할 수 있다.</color>"
+    icon: Skill_Elysia_GS_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6908"
+        name: 샘물에 꽃이 지는 듯한 맑음
+        info: "[핑크 엘프양♪] 크리티컬률이 #1[f1]% 증가하고, 회피 및 무기 스킬 발동 후 5초 동안 차지 사격 및 차지 공격이 생성한
+          튕기는 화살의 크리티컬률이 #2[f1]% 증가한다."
+        brief: 크리티컬률이 증가하고, 회피 및 무기 스킬 발동 후 차지 사격 및 차지 공격이 생성한 튕기는 화살의 크리티컬률이 증가한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 0.12
+        paramBase2: 0.06
+        paramBase3: 0
+        paramAdd1: 0.016
+        paramAdd2: 0.008
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6909"
+        name: 뒤돌아보는 소녀와 같은 싱그러움
+        info: "극한 회피 스킬 [하늘과 땅의 은혜] 발동 시 [핑크 엘프양♪]이 추가로 [사랑]을 #1[f1] 회복한다."
+        brief: 극한 회피 스킬 발동 시 [사랑]을 회복한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6916"
+        name: 촛불의 향기와 같은 도취
+        info: "[핑크 엘프양♪]이 치명적 대미지를 입으면(HP 0), 무결의 수정을 생성해 자신을 보호하고, HP를 #1[f1]% 회복한 후
+          부활한다. 재사용 대기시간: 180초"
+        brief: "[핑크 엘프양♪]이 치명적 대미지를 입으면 무결의 수정을 생성해 자신을 보호하고, 일정 HP를 회복한 후 부활한다."
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05556
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "694"
+    name: 너와 나의 시작
+    info: "[무결의 돔]을 생성해 [핑크 엘프양♪]의 능력을 강화한다.\\n<color=#23B2E2FF>신비한 힘을 지닌 화살을 발사해
+      12초간 [무결의 돔]을 생성한다.\\n[무결의 돔] 생성 기간 캐릭터는 다음의 강화 효과를 획득한다:\\n물리 대미지가 15%,
+      크리티컬률이 10% 증가한다.\\n[사랑] 최대치가 600으로 증가하고, 필살기 발동 시 [사랑]을 즉시 600 회복한다.\\n차지
+      공격 [사랑의 화살]은 제3격을 발동하고, 타격마다 [튕기는 화살]이 발동한다. [사랑의 화살] 제1/2/3격이 발동한 [튕기는
+      화살]은 적에게 각각 공격력 200%/200%/200%+200%의 물리 대미지를 가한다(무결의 돔 내에서만
+      발동한다).\\n\\n필살기 발동 시 캐릭터가 정체 영역 효과를 발동해 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가
+      정지한다.\\n발동 소모 SP: 100, 재사용 대기시간: 20초</color>"
+    icon: Skill_Elysia_GS_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6906"
+        name: 신이 보우하는 낙원과 같은 무결함
+        info: "[무결의 돔] 존재 기간 [핑크 엘프양♪]은 0.1초마다 [사랑]을 추가로 #1[f1] 회복한다."
+        brief: "[무결의 돔] 기간 추가로 [사랑]을 회복한다."
+        icon: Skill_Nagative_Damage02
+        maxLv: 1
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6907"
+        name: 엘리시아와 같은 아름다움
+        info: "[무결의 돔] 존재 기간 차지 공격으로 발동한 튕기는 화살이 가하는 모든 대미지가 #1[f1]% 증가한다."
+        brief: "[무결의 돔] 존재 기간 차지 공격으로 발동한 튕기는 화살이 가하는 모든 대미지가 증가한다."
+        icon: Skill_Nagative_Survive02
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01111
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "6914"
+        name: 과거를 꺾는 듯한 영원함
+        info: "무기 스킬 또는 필살기 발동 시 모든 대미지가 #1[f1]% 증가한다. 지속 시간: 15초, 갱신 가능"
+        brief: 무기 스킬 또는 필살기 발동 시 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 0.08
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00778
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "695"
+    name: 사랑과 연민의 시
+    info: "리더로 배치 시 파티원이 버프를 받는다.\\n<color=#23B2E2FF>리더 스킬: {{파티원이 실드에 가하는 대미지가
+      #1[f1]% 증가하고, 파티원의 분기 및 차지 공격 크리티컬률이 #2[f1]% 증가한다}}</color>"
+    icon: Skill_Elysia_GS_005
+    skillType: leader
+    tags: []
+    paramSubId1: 6910
+    paramSubId2: 6910
+    paramSubId3: 0
+    subSkills:
+      - id: "6910"
+        name: 사랑과 연민의 시
+        info: "파티원이 실드에 가하는 대미지가 #1[f1]% 증가하고, 파티원의 분기 및 차지 공격 크리티컬률이 #2[f1]% 증가한다."
+        brief: 파티원의 캐릭터가 실드에 가하는 대미지가 증가하고, 파티원의 분기 및 차지 공격 크리티컬률이 증가한다.
+        icon: Skill_Nagative_Survive01
+        maxLv: 3
+        paramBase1: 0.2
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0.025
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+  - id: "696"
+    name: 시작과 끝의 역사
+    info: "패시브 스킬은 자동으로 발동한다.\\n<color=#23B2E2FF>[사랑]의 최대치는 400이며, 초당 30을
+      회복한다.\\n밸런스형 활 캐릭터로, 사격 기회를 2회 보유하고 있고, 10초마다 1회 회복한다.\\n필살기 재사용 대기시간 종료
+      시, 무기 스킬 발동 후 5초 이내 필살기를 발동하면 발동에 필요한 SP가 30% 감소하고, [사랑]을 100 회복하며([무결의 돔]
+      존재 기간 200을 회복한다), 공격 버튼을 터치해 차지 공격 [사랑의 화살]을 이어서 사용할 수 있다.\\n기본 사격 배율 수정:
+      100%\\n조준 사격 배율 수정: 100%</color>"
+    icon: Skill_Elysia_GS_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6911"
+        name: 막 떠오른 아침해와 같은 광휘
+        info: "무기 스킬의 크리티컬률이 #1[f1]% 증가하고, 적의 약점 명중 시 이번 공격의 크리티컬률이 추가로 #2[f1]% 증가한다."
+        brief: 무기 스킬 크리티컬률이 증가하고, 적의 약점 명중 시 이번 공격의 크리티컬률이 증가한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.06
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6912"
+        name: 추락하는 별과 같은 반짝임
+        info: "캐릭터 출전 시 [사랑]을 #1[f1] 획득한다."
+        brief: 캐릭터 출전 시 [사랑]을 획득한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 1
+        paramBase1: 400
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+      - id: "6915"
+        name: 울려 퍼지는 목가와 같은 심오함
+        info: "[핑크 엘프양♪]이 [수정 꽃씨]가 있는 적에게 가하는 모든 대미지가 #1[f1]% 증가한다. 파티원의 다른 캐릭터가 [수정
+          꽃씨]가 있는 적 공격 시 [핑크 엘프양♪]은 SP를 #2[f1]pt 회복한다. 재사용 대기시간: 1초"
+        brief: "[핑크 엘프양♪]이 [수정 꽃씨]가 있는 적에게 가하는 모든 대미지가 증가한다. 파티원의 다른 캐릭터가 [수정 꽃시]가 있는 적
+          공격 시 [핑크 엘프양♪]은 SP를 회복한다."
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 0.08
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.00778
+        paramAdd2: 0.03333
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss

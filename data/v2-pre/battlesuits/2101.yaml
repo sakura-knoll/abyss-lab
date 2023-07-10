@@ -1,0 +1,345 @@
+id: "2101"
+fullName: 단죄의 황녀!!
+shortName: 단죄의 황녀!!
+desc: <color=white>특징:</color> <color=#FFAF2CFF>생물 속성</color>의 원거리 캐릭터로, 활로 적을
+  공격하고, 권속을 소환해 싸운다.
+firstName: 피슬
+lastName: null
+enFirstName: Fischl
+enLastName: null
+attributeType: bio
+isEasterner: true
+weapon: bow
+character: fischl
+initialStar: a
+tags:
+  - lightning-dmg
+  - fast-atk
+  - time-mastery
+  - aerial
+skills:
+  - id: "661"
+    name: 죄멸의 화살
+    info: "활을 사용해서 사격하고, 소량의 마비 게이지를 누적한다.\\n<color=#23B2E2FF>기본 공격:\\n제1격: 공격력 25%의
+      뇌전 원소 대미지를 가한다.\\n제2격: 공격력 40%의 뇌전 원소 대미지를 가한다.\\n제3격: 공격력 80%의 뇌전 원소 대미지를
+      가한다.\\n제4격: 공격력 60%의 뇌전 원소 대미지를 가한다.\\n제5격: 공격력 180%의 뇌전 원소 대미지를 가한다.\\n강화
+      공격:\\n제1격: 총 공격력 25%*3의 뇌전 원소 대미지를 가한다.\\n제2격: 총 공격력 40%*3의 뇌전 원소 대미지를
+      가한다.\\n제3격: 총 공격력 80%*3의 뇌전 원소 대미지를 가한다.\\n제4격: 총 공격력 60%*3의 뇌전 원소 대미지를
+      가한다.\\n제5격: 중앙의 화살은 공격력 360%의 뇌전 원소 대미지를 가하고, 주변 화살 4개는 공격력 60%*4의 뇌전 원소
+      대미지를 가한다.</color>"
+    icon: Skill_Fischl_FS_001
+    skillType: basic
+    tags:
+      - type: paralyze
+        strength: 1
+        comment: "마비 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6601"
+        name: 심판의 현
+        info: "입장 시 12초 동안 기본 공격이 가하는 모든 대미지가 #1[f1]% 증가한다."
+        brief: 입장 시 12초 동안 기본 공격이 가하는 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "6602"
+        name: <color=#FFC741FF>QTE</color>-죄를 멸하는 번개
+        info: "적이 시공 감속 상태일 때 발동한다, 공중에서 낙하해 공격력 5*180%의 뇌전 원소 대미지를 가하고, 적중한 적에게 추가로
+          #1[f1]%의 뇌전 원소 심화 효과를 부여한다. 지속 시간: #2[f1]초. 3초간 전체 시공 단열을 발동하고, SP를
+          추가로 #3[f1]pt 회복한다. QTE가 발동한 전체 시공 단열과 SP 회복의 재사용 대기시간: 12초"
+        brief: 적이 시공 감속 상태일 때 QTE가 발동한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 15
+        paramBase3: 8
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0.8
+        tags: []
+        toggle: true
+        unlockStar: a
+  - id: "662"
+    name: <color=#FFC741FF>차지</color>-밤을 순찰하는 날개
+    info: "공격 버튼을 길게 누르면 오즈를 소환해 보조 공격을 가하고, 오즈가 전장에 존재 시 강력 사격으로 변경되어
+      발동한다.\\n<color=#23B2E2FF>기본 공격 버튼을 길게 눌러 오즈 [소환물]을 소환한다. 지속 시간: 12초. 오즈는
+      근접 공격으로 적을 공격해 공격력 40%*12의 뇌전 원소 대미지를 가한다. 오즈가 전장에 존재 시, 피슬의 공격이 강화 공격으로
+      변경되어 공격 빈도가 증가한다. 오즈가 전장에 존재할 때 기본 공격을 다시 길게 누르면 피슬이 차지 공격을 발동해 공격력 300%의
+      뇌전 원소 대미지를 가한다.</color>"
+    icon: Skill_Fischl_FS_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6603"
+        name: 배회하는 까마귀
+        info: "오즈의 지속 시간이 #1[f1]초로 연장된다."
+        brief: 오즈의 지속 시간이 연장된다.
+        icon: Skill_Nagative_Skill01
+        maxLv: 8
+        paramBase1: 18
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1.71429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "6604"
+        name: 성스러운 합창
+        info: "오즈가 기본 공격을 발동할 때마다 피슬의 SP를 #1[f1]pt 회복한다."
+        brief: 오즈가 기본 공격을 발동할 때마다 피슬의 SP를 회복한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 1.4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.16
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "663"
+    name: 허상의 발걸음
+    info: "빠르게 적의 공격을 회피한다. 2회 연속 회피할 수 있다.\\n<color=#23B2E2FF>극한 회피 성공 시, 적중한 적에게
+      공격력 50%*5의 뇌전 원소 대미지를 가하고, 3초 동안 시공 단열을 발동한다. 재사용 대기시간: 18초\\n오즈가 전장에 존재할
+      때, 회피 후 짧은 시간 기본 공격 버튼을 길게 누르면 즉시 차지 공격을 발동할 수 있다.</color>"
+    icon: Skill_Fischl_FS_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6607"
+        name: 존귀한 자태
+        info: "극한 회피 스킬 재사용 대기시간이 #1[f1]초 감소한다."
+        brief: 극한 회피 스킬 재사용 대기시간이 감소한다.
+        icon: Skill_Nagative_Survive02
+        maxLv: 10
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.22222
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "6608"
+        name: 그림자를 쫓는 번개
+        info: "극한 회피 스킬 낙뢰의 타격마다 추가로 공격력 #1[f1]%의 뇌전 원소 대미지를 가한다."
+        brief: 극한 회피 스킬의 뇌전 원소 대미지가 추가로 증가한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "664"
+    name: 암야의 환상
+    info: "오즈가 광범위 깃털 사격을 1회 발동한다.\\n<color=#23B2E2FF>오즈를 공중에 소환해 광범위의 깃털 화살을 지속적으로
+      아래로 발사하고, 총 공격력 20%*50의 뇌전 원소 대미지를 가한다. 이후 오즈는 급강하해 광범위 폭발을 1회 일으켜 공격력
+      1000%의 뇌전 원소 대미지를 가한다.\\n필살기 종료 후, 오즈는 전장에 남아 적을 계속 공격한다. 필살기 발동 시 오즈가 전장에
+      존재하면 지속 시간을 갱신한다.\\n소모 SP: 100, 재사용 대기시간: 20초</color>"
+    icon: Skill_Fischl_FS_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6605"
+        name: 파괴의 여세
+        info: "필살기 사용 후, 파티원이 가하는 뇌전 원소 대미지가 #1[f1]% 증가하고, 오즈가 가하는 뇌전 원소 대미지가 #2[f1]%
+          증가한다. 지속 시간: #3[f1]초"
+        brief: 필살기 사용 후, 파티원과 오즈의 뇌전 원소 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.275
+        paramBase2: 0.625
+        paramBase3: 18
+        paramAdd1: 0.03056
+        paramAdd2: 0.06944
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6606"
+        name: 숭고한 꿈
+        info: "필살기 사용 후, 오즈의 기본 공격과 특수 공격으로 회복하는 피슬의 SP가 #1[f1]/#2[f1]까지 증가한다. 지속 시간:
+          #3[f1]초"
+        brief: 필살기 사용 후, 오즈의 기본 공격과 특수 공격으로 회복하는 피슬의 SP가 증가한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 1.75
+        paramBase2: 2.5
+        paramBase3: 12
+        paramAdd1: 0.19444
+        paramAdd2: 0.22222
+        paramAdd3: 0.33333
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "665"
+    name: 극야 조곡
+    info: "리더로 배치 시 파티원이 버프를 받는다.\\n<color=#23B2E2FF>리더 스킬: {{파티원 캐릭터의 원거리 공격 대미지가
+      #1[f1]% 증가하고, 파티원 캐릭터가 가하는 모든 원소 대미지가 #2[f1]% 증가한다.}}</color>"
+    icon: Skill_Fischl_FS_005
+    skillType: leader
+    tags: []
+    paramSubId1: 6609
+    paramSubId2: 6609
+    paramSubId3: 0
+    subSkills:
+      - id: "6609"
+        name: 극야 조곡
+        info: "파티원 캐릭터의 원거리 공격이 가하는 모든 대미지가 #1[f1]% 증가하고, 파티원 캐릭터가 가하는 모든 원소 대미지가
+          #2[f1]% 증가한다."
+        brief: 파티원의 원거리 대미지 증가하고, 모든 원소 대미지가 증가한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 7
+        paramBase1: 0.09
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.01333
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "666"
+    name: 슬피 우는 화살
+    info: "캐릭터는 자동으로 패시브 스킬 버프를 받는다.\\n<color=#23B2E2FF>밸런스형 활 캐릭터로, 사격 기회를 2회 보유하고
+      있고 2회 미만 시 10초마다 1회 회복한다.\\n기본 사격 배율 수정: 100%\\n조준 사격 배율 수정: 100%</color>"
+    icon: Skill_Fischl_FS_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6610"
+        name: 단절의 경계
+        info: "강화 강태에서 기본 공격 사용 시, 받는 모든 대미지가 #1[f1]% 감소하고, 경직 저항력이 증가한다."
+        brief: 강화 상태에서 받는 대미지가 감소하고, 경직 저항력이 증가한다.
+        icon: Skill_Nagative_Survive01
+        maxLv: 10
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01111
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "6611"
+        name: 인과 통찰
+        info: "활 무기 액티브 스킬로 적 약점 적중 시, 이번 공격의 모든 대미지가 #1[f1]% 증가한다."
+        brief: 활 무기 액티브 스킬로 약점 적중 시 대미지가 증가한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 6
+        paramBase1: 0.4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.08
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "6612"
+        name: 마를 엮는 화살
+        info: 활 무기 액티브 스킬로 적을 적중하는 순간, 공격 버튼을 누르면 자신의 QTE를 발동할 수 있다.
+        brief: 활 무기 액티브 스킬로 적 적중 시 자신의 QTE를 발동할 수 있다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 1
+        paramBase1: 15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "667"
+    name: 별을 삼킨 까마귀
+    info: "오즈의 능력을 강화한다.\\n<color=#23B2E2FF>파티원의 분기/차지 공격이 적에게 명중 시, 오즈가 특수 공격을 1회
+      발동한다. 공중에서 적에게 돌격하고 빠르게 비행해 공격력 80%*12의 뇌전 원소 대미지를 가하며, 피슬의 SP를 3pt 회복한다.
+      재사용 대기시간: 4초</color>"
+    icon: Skill_Fischl_FS_007
+    skillType: sp
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6613"
+        name: 창뢰의 깃털
+        info: "오즈의 특수 공격이 가하는 모든 대미지가 #1[f1]% 증가하고, QTE가 부여한 뇌전 원소 피해 심화 효과의 지속 시간을 즉시
+          갱신한다."
+        brief: 오즈의 특수 공격이 QTE의 피해 심화 효과 시간을 갱신한다.
+        icon: Skill_Nagative_Survive01
+        maxLv: 7
+        paramBase1: 0.35
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05833
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6614"
+        name: 운명의 실
+        info: "활 무기 액티브 스킬로 적 적중 시, 오즈의 특수 공격이 즉시 발동하고, 필살기의 모든 대미지가 #1[f1]% 증가한다. 지속
+          시간: #2[f1]초"
+        brief: 무기 스킬로 적 적중 시, 즉시 오즈의 특수 공격이 발동하고, 필살기 대미지가 증가한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 5
+        paramBase1: 0.25
+        paramBase2: 12
+        paramBase3: 0
+        paramAdd1: 0.0625
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "6615"
+        name: 심원의 소리
+        info: "필살기 발동 후, 오즈의 기본 공격과 특수 공격이 피슬의 SP를 추가로 #1[f1]/#2[f1]pt 회복한다. 지속 시간:
+          #3[f1]초"
+        brief: 필살기 발동 후, 오즈의 공격이 피슬의 SP를 추가로 회복한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 3
+        paramBase1: 1
+        paramBase2: 1.5
+        paramBase3: 18
+        paramAdd1: 0.5
+        paramAdd2: 0.75
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

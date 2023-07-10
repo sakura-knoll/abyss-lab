@@ -1,0 +1,391 @@
+id: "203"
+fullName: 발키리·스트라이크
+shortName: 발키리·스트라이크
+desc: <color=white>특징:</color> <color=#FFAF2CFF>생물 속성</color>의 근거리 전투형 캐릭터. 단일
+  적에 대해 강력한 피해를 입힐 수 있고 대미지가 굉장하다.
+firstName: 메이
+lastName: 라이덴
+enFirstName: Mei
+enLastName: Raiden
+attributeType: bio
+isEasterner: true
+weapon: katana
+character: mei
+initialStar: a
+tags:
+  - physical-dmg
+  - burst
+  - fast-atk
+  - time-mastery
+skills:
+  - id: "71"
+    name: 오연참·결
+    info: "일정 범위 5연속 베기\\n<color=#23B2E2FF>1격: 공격력 80%의 물리 대미지\\n2격: 공격력 80%의 물리
+      대미지\\n3격: 공격력 100%의 물리 대미지\\n4격: 공격력 100%의 물리 대미지\\n5격: 주변 범위에 공격력 250%의
+      물리 대미지</color>"
+    icon: Skill_Mei_CK_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "701"
+        name: 급속의 결계
+        info: "기본 공격의 공격 속도 #1[f1]% 증가"
+        brief: 기본 공격의 공격 속도가 증가한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 40
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00513
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "702"
+        name: 혼의 결계
+        info: "기본/분기 공격 중 경직 저항력이 증가하고, 받는 물리 대미지가 #1[f1]% 감소한다."
+        brief: 기본 공격과 분기 공격 시전 시 경직 저항력이 증가하고 받는 물리 대미지가 감소한다
+        icon: Skill_Nagative_Survive02
+        maxLv: 30
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00862
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "712"
+        name: 그림자 술법
+        info: "기본/분기 공격 시 SP 회복량 #1[f1]% 증가"
+        brief: 기본 공격과 분기 공격으로 획득하는 SP가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 50
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00408
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "72"
+    name: <color=#FFC741FF>분기 공격</color> - 허공참
+    info: "연환참격\\n<color=#23B2E2FF>매 연환: 공격력의 210% 물리 대미지\\n마무리 일격: 공격력의 260% 물리
+      대미지</color>"
+    icon: Skill_Mei_DH_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "703"
+        name: 연환의 결계
+        info: "허공참 도중 공격 버튼을 누르면 허공참의 발동 횟수를 증가시킬 수 있다.최대 #1[i]번"
+        brief: 허공참 시전 도중에 공격 버튼을 누르면 허공참의 발동 회수가 증가한다
+        icon: Skill_Nagative_Skill03
+        maxLv: 5
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "704"
+        name: <color=#FFC741FF>교대기</color> - 칼날의 결계
+        info: "교대기: 교대 시 허공참을 발동한다. 공중에 뜬 적 공격 시 크리티컬률 #1[f1]% 증가"
+        brief: 출전 시 허공참을 발동할 수 있고 공중에 띄워진 적을 공격 시 크리티컬률이 증가한다
+        icon: Skill_Nagative_StartUp03
+        maxLv: 20
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01053
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "705"
+        name: <color=#FFC741FF>QTE</color> - 벚꽃의 칼날
+        info: "QTE: 적이 시공 감속 상태일 때 발동하고, 공격력 250%+#1[i]%의 물리 대미지를 입힌다"
+        brief: "QTE: 적이 시공 감속일 때 QTE 출전, 일섬을 발동해 물리 대미지를 가한다."
+        icon: Skill_Nagative_StartUp01
+        maxLv: 60
+        paramBase1: 2.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05085
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "73"
+    name: 질풍의 그림자 칼날
+    info: "적의 공격을 빠르게 대시하여 회피한다.\\n<color=#23B2E2FF>시공 단열: 극한 회피 시 3초 동안 전체 시공 단열을
+      발동한다. 재사용 대기시간: 15초</color>"
+    icon: Skill_Mei_CK_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "706"
+        name: 공의 결계
+        info: "극한 회피 발동 시 자신의 이동 속도가 3+#2[f1]초 동안 #1[f1]% 증가한다. 극한 회피 시 발동되는 전체 시공 단열의
+          지속 시간이 #2[f1]초 증가하며, 지속 시간이 끝날 때 주변의 적을 넉백시키며 콤보 수*#3[i]의 물리 대미지를
+          입힌다.(최대 200콤보)"
+        brief: 시공단열의 유지 시간이 증가하고 이동 속도가 증가한다. 시공단열 종료 시 주변의 적을 넉백시키고 콤보수에 따라 물리 피해를 준다
+        icon: Skill_Nagative_Survive01
+        maxLv: 10
+        paramBase1: 0.3
+        paramBase2: 0.5
+        paramBase3: 23
+        paramAdd1: 0.03333
+        paramAdd2: 0.05556
+        paramAdd3: 3
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "707"
+        name: 부공참
+        info: "극한 회피 후 공격 버튼을 누르면 허공참을 바로 발동할 수 있다. 허공참으로 공중에 뜬 적을 공격 시 크리티컬 대미지가
+          #1[f1]% 증가한다."
+        brief: 극한 회피 후 공격 버튼을 누르면 즉시 허공참을 발동할 수 있다. 허공참으로 공중에 띄워진 적을 공격 시 크리티컬 대미지가 증가한다
+        icon: Skill_Nagative_Skill03
+        maxLv: 75
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0027
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "708"
+        name: 그림자 끝의 칼날
+        info: "시공 단열 재사용 대기시간 #1[f1]초 감소"
+        brief: 시공단열의 재사용 대기시간이 감소한다
+        icon: Skill_Nagative_Survive01
+        maxLv: 30
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.06897
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "74"
+    name: 스사노오
+    info: "발키리 에너지를 폭발 시켜 각성 상태가 된다. \\n<color=#23B2E2FF>폭발: 폭발 상태에 진입해 SP를 지속적으로
+      소모하며, 공격을 강화한다.\\nSP가 100을 초과하면 20 SP 소모로 발동하고, SP를 소진할 때까지 초당 10 SP씩
+      소모한다. 최대 지속 시간: 60초</color>"
+    icon: Skill_Mei_DH_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "709"
+        name: 무도의 분류
+        info: "폭발 기간 동안 에너지를 대기 중인 캐릭터에게 분배해 초당 #1[f2]의 SP를 회복시킨다."
+        brief: 폭발 상태가 지속되는 동안 대기 중인 파티원의 SP가 지속해서 회복한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 35
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04412
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "710"
+        name: 기공의 혼
+        info: "폭발 기간 동안 크리티컬률이 #2[f2]%, 크리티컬 대미지가 #1[f1]% 증가한다."
+        brief: 폭발 상태가 지속되는 동안 크리티컬률과 크리티컬 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 50
+        paramBase1: 0.25
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 0.0102
+        paramAdd2: 0.00102
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "75"
+    name: 벚꽃의 결계
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다\\n<color=#23B2E2FF>벚꽃의 결계: {{전투 중 모든 파티원의 방어력
+      #1[i]% 증가. 생물 속성의 캐릭터의 HP 최대치 #2[i]% 증가.}}</color>"
+    icon: Skill_Mei_CK_005
+    skillType: leader
+    tags: []
+    paramSubId1: 711
+    paramSubId2: 711
+    paramSubId3: 0
+    subSkills:
+      - id: "711"
+        name: 벚꽃의 결계
+        info: "전투 중 모든 파티원의 방어력 #1[i]% 증가. 생물 속성의 캐릭터의 HP 최대치 #2[i]% 증가."
+        brief: 전투 중 모든 파티원의 방어력이 증가하고 생물 속성 캐릭터의 HP 최대치가 증가한다
+        icon: Skill_Nagative_Survive01
+        maxLv: 3
+        paramBase1: 0.3
+        paramBase2: 0.07
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "76"
+    name: 패시브 스킬
+    info: 패시브 스킬은 자동으로 발동한다.\n<color=#23B2E2FF></color>
+    icon: Skill_Mei_CK_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "713"
+        name: 콤보 유지
+        info: "콤보가 끊기는 것을 1회 방지해준다. #1[f1]초마다 한 번씩 발동하며 모든 파티원에게 적용된다."
+        brief: 일정 시간이 지날 때마다 콤보가 끊기는 것을 방지해준다, 모든 파티원에게 유효
+        icon: Skill_Nagative_Damage01
+        maxLv: 30
+        paramBase1: 60
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: -1.03448
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "714"
+        name: 에너지 분출
+        info: "캐릭터가 스테이지에 존재하고 SP가 가득 차면, 추가로 획득하는 SP의 #1[f1]%를 대기 중인 캐릭터에게 배분해준다."
+        brief: 스테이지에 있을 때 넘치는 SP를 대기 중인 캐릭터에게 나눠준다
+        icon: Skill_Nagative_Skill03
+        maxLv: 28
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00741
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "715"
+        name: 절영의 결계
+        info: "엘리트 실드가 파괴된 적에게 모든 대미지 #1[i]% 증가"
+        brief: 엘리트 실드가 파괴되지 않은 적을 공격 시 모든 대미지가 증가한다
+        icon: Skill_Nagative_Survive02
+        maxLv: 10
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02222
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "401"
+    name: 오참뇌명
+    info: "범위 5연참\\n<color=#23B2E2FF>제1격: 공격력 80%의 물리 대미지\\n제2격: 공격력 100%의 물리
+      대미지\\n제3격: 공격력 100%의 물리 대미지\\n제4격: 공격력 120%의 물리 대미지\\n제5격: 공격력 120%+2*75%의
+      물리 대미지를 가하고, 적중한 적에게</color> <color=#FEDF4CFF>마비 게이지를 3pt
+      누적한다.</color><color=#23B2E2FF></color>"
+    icon: Skill_Mei_DH_Artifact01_001
+    skillType: basic
+    tags:
+      - type: paralyze
+        strength: 1
+        comment: "다섯 번째 공격은 마비 축적 가능. 축적 능력: 극약"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "402"
+    name: <color=#FFC741FF>분기 공격</color> - 허공참
+    info: "연속 참살\\n<color=#23B2E2FF>허공참 발동 중 공격 버튼을 눌러 허공참의 발동 횟수를 최대 2회 늘릴 수
+      있다.\\n적을 향해 돌진: 공격력의 50% 물리 대미지\\n연환: 공격력의 6*30% 물리 대미지\\n피니쉬: 공격력의
+      2*80%+100% 물리 대미지\\n폭발 상태 - 적을 향해 돌진: 공격력의 40%+30% 물리 대미지\\n연환: 공격력의
+      4*40%+2*30% 물리 대미지\\n피니쉬: 공격력의 4*70% 물리 대미지</color>"
+    icon: Skill_Mei_DH_Artifact01_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "403"
+    name: 뇌영인
+    info: "빠르게 적의 공격회피하며 연속으로 2회 회피할 수 있다.\\n<color=#23B2E2FF>뇌영인: 극한 회피 시 3초 동안 전체
+      시공단열을 발동하고 전자기 에너지를 1pt 회복한다. 재사용 대기시간: 15초\\n전자기 에너지가 존재할 때 회피 과정에서 공격
+      버튼을 누르면 전자기 에너지를 1pt 소모하고 영혼섬인을 날려 범위 내의 적에게 공격력 120%의 물리 대미지를 주며 폭발 상태가
+      아닐 시 SP를 2pt 회복하고 적을 향해 돌진하여 공격력 80%(폭발 상태: 130%+30%) 물리 대미지를 입히고 허공참을
+      발동한다</color>"
+    icon: Skill_Mei_DH_Artifact01_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "404"
+    name: 타케미카즈치
+    info: "폭발 상태에 진입하고 전자기 에너지를 4pt 회복한다.\\n<color=#23B2E2FF>폭발: 폭발 상태에 진입해 주변의 적에게
+      공격력 3*100%+550%의 물리 대미지를 입힌다.\\n폭발 상태에서의 5연격\\n제1격: 공격력 60%+40%의 물리
+      대미지\\n제2격: 공격력 80%+40%의 물리 대미지\\n제3격: 공격력 80%+40%의 물리 대미지\\n제4격: 공격력
+      100%+40%의 물리 대미지\\n제5격: 공격력 150%+3*80%의 물리 대미지를 주고 적중한 적에게</color>
+      <color=#FEDF4CFF>마비 게이지를 3pt 누적한다.</color><color=#23B2E2FF>\\nSP가 100 이상일
+      때 20 SP를 소모해 발동하고, 10초 동안 매초 8 SP씩 소모한다.</color>"
+    icon: Skill_Mei_DH_Artifact01_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 1
+        comment: "필살기 가동 후의 공격 중 마지막 일격은 강격이다. 축적 능력: 강"
+      - type: paralyze
+        strength: 1
+        comment: "다섯 번째 공격은 마비 축적 가능. 축적 능력: 극약"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "406"
+    name: 패시브 스킬
+    info: 패시브 스킬은 자동으로 발동된다.\n<color=#23B2E2FF>기본 공격과 폭발 상태의 2번째와 3번째 공격이 적에게 명중 시
+      전자기 에너지를 1pt 회복한다. 기본 공격과 폭발 상태에서의 5번째 공격이 적에게 명중 시 전자기 에너지를 2pt
+      회복한다.</color>
+    icon: Skill_Mei_DH_Artifact01_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []

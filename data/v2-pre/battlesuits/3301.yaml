@@ -1,0 +1,387 @@
+id: "3301"
+fullName: 발키리·열정의 사막
+shortName: 발키리·열정의 사막
+desc: <color=white>특징:</color> <color=#AE98FFFF>양자 속성</color>의 캐릭터로, 차크람의 쌍검 모드로
+  춤을 추며 전투한다.
+firstName: 수잔나
+lastName: null
+enFirstName: Susannah
+enLastName: null
+attributeType: qua
+isEasterner: true
+weapon: chakram
+character: susannah
+initialStar: a
+tags:
+  - physical-dmg
+  - bleed
+skills:
+  - id: "851"
+    name: 파이팅, 수잔나!
+    info: "춤을 추며 차크람을 휘둘러 참격을 발동한다.\\n<color=#23B2E3FF>제1격: 공격력 120%의 물리 대미지를 가하고,
+      자신감을 50pt 회복한다.\\n제2격: 공격력 50%+120%의 물리 대미지를 가하고, 자신감을 50pt 회복한다.\\n제3격:
+      공격력 200%의 물리 대미지를 가하고, 자신감을 50pt 회복한다.\\n제4격: 공격력 100%*3의 물리 대미지를 가하고,
+      자신감을 50pt 회복하며, 적중한 적에게 <color=#FEDF4CFF>출혈 게이지를 4pt</color>
+      누적한다.</color>"
+    icon: Skill_Susannah_C1_ED_851
+    skillType: basic
+    tags:
+      - type: bleed
+        strength: 1
+        comment: "출혈 이상 게이지 누적 가능, 누적 능력: 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8501"
+        name: <color=#FFC741FF>QTE</color>-수잔나, 도우러 왔어요!
+        info: "적이 시공 감속 또는 출혈 상태(갱신 포함)일 때 발동해 공격력 #1[f1]%의 물리 대미지를 가하고, 자신감을 100pt
+          회복하며, 적중한 적에게 <color=#FEDF4CFF>출혈 게이지를 4pt</color> 누적한다. 출혈 상태의 적에게
+          추가로 공격력 #2[f1]%의 물리 대미지를 가한다."
+        brief: 적이 시공 감속 또는 출혈 상태(갱신 포함)일 때 발동해 물리 대미지를 가하고, 자신감을 회복하며, 적중한 적에게
+          <color=#FEDF4CFF>출혈 게이지</color>를 누적한다. 출혈 상태의 적에게 추가로 물리 대미지를 가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 7
+        paramBase1: 3.5
+        paramBase2: 2.5
+        paramBase3: 0
+        paramAdd1: 0.58333
+        paramAdd2: 0.41667
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "출혈 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: true
+        unlockStar: a
+      - id: "8502"
+        name: 수잔나, 뭐든지 할게요!
+        info: "기본 공격 제4격이 적에게 적중 시 추가로 자신감을 #1[f0]pt 회복한다."
+        brief: 기본 공격 제4격이 적에게 적중 시 추가로 자신감을 회복한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 8
+        paramBase1: 50
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 7.14286
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8503"
+        name: 수잔나, 지지 않아요!
+        info: "QTE, 분기 공격 또는 필살기가 적에게 적중 시 파티원이 [전의 고조] 상태를 획득하고, 누적할 수 있는 출혈 스택이 추가로
+          4스택 증가한다. 매 스택의 출혈 효과는 0.5초마다 공격력 15%의 물리 대미지를 추가로 가한다. 지속 시간: 15초, 중복
+          발동 시 지속 시간을 갱신한다. 필살기 발동 후 전장의 적에게 <color=#FEDF4CFF>출혈 게이지를
+          #1[f0]pt</color> 누적한다."
+        brief: QTE, 분기 공격 또는 필살기가 적에게 적중 시 파티원이 [전의 고조] 상태를 획득하고, 누적할 수 있는 출혈 스택이 추가로
+          증가한다. 매 스택의 출혈 효과는 물리 대미지를 추가로 가한다. 필살기 발동 후 전장의 적에게
+          <color=#FEDF4CFF>출혈 게이지</color>를 누적한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 8
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.42857
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 2
+            comment: "출혈 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: false
+        unlockStar: a
+  - id: "852"
+    name: <color=#FFC741FF>분기</color>-보석은 어때요?
+    info: 보석을 흩뿌려 출혈 대미지를 가한다.\n<color=#23B2E4FF>발키리·열정의 사막은 공격을 통해 [자신감]을 획득한다(최대
+      600pt). 자신감에 600pt에 도달했을 때 공격 버튼을 길게 누르면 모든 자신감을 소모해 분기 공격을 발동한다:\n전방에 보석을
+      뿌린 후, 발차기로 보석을 파괴해 공격력 240%*2+40%*5의 물리 대미지를 가하고, 적중한 적에게
+      <color=#FEDF4CFF>출혈 게이지를 8pt</color> 누적한다. 분기 공격 기간 받는 모든 대미지가 50%
+      감소한다.</color>
+    icon: Skill_Susannah_C1_ED_852
+    skillType: special
+    tags:
+      - type: bleed
+        strength: 2
+        comment: "출혈 이상 게이지 누적 가능, 누적 능력: 보통"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8504"
+        name: 보석의 힘
+        info: "분기 공격이 출혈 상태의 적에게 가하는 모든 대미지가 #1[f1]% 증가한다."
+        brief: 분기 공격이 출혈 상태의 적에게 가하는 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "8505"
+        name: 휴, 안심이다
+        info: "분기 공격이 적에게 적중 시 자신의 SP를 #1[f1]pt 회복한다."
+        brief: 분기 공격이 적에게 적중 시 SP를 회복한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 7
+        paramBase2: 0
+        paramBase3: 1
+        paramAdd1: 0.88889
+        paramAdd2: 0
+        paramAdd3: -0.11111
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "853"
+    name: 위, 위험했어!
+    info: "빠르게 적의 공격을 회피한다. 2회 연속 회피할 수 있다.\\n<color=#23B2E5FF>극한 회피 스킬: 주변에 공격력
+      300%의 물리 대미지를 가하고 자신감을 200pt 회복한다. 재사용 대기시간: 15초\\n\\n극한 회피 성공 시 자신감을
+      150pt 회복하고 기본 공격 제3격을 연계할 수 있다.</color>"
+    icon: Skill_Susannah_C1_ED_853
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8507"
+        name: 신중하게 행동해야지
+        info: "극한 회피 스킬 발동 시 HP를 #1[f1] 회복한다."
+        brief: 극한 회피 스킬 발동 시 HP를 회복한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 150
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 16.66667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8508"
+        name: 경쾌한 스텝
+        info: 무기 스킬 사용 시 극한 회피 스킬을 발동한다.
+        brief: 무기 스킬 사용 시 극한 회피 스킬을 발동한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+  - id: "854"
+    name: 천야일야환상
+    info: "탬버린으로 화려한 춤을 선보인다.\\n<color=#23B2E6FF>필살기 발동 시 발키리·열정의 사막은 [무용] 상태에 진입해
+      춤을 추며 전장의 모든 적에게 공격력 500%의 물리 대미지를 가하고, 양자 속성의 적에게 양자 붕괴를 1회 가한다.\\n\\n이후
+      리듬 아이콘이 5회 표시된다:\\n퍼펙트 판정: 주변 적에게 공격력 500%의 물리 대미지를 가한다.\\n일반 판정: 주변 적에게
+      공격력 450%의 물리 대미지를 가한다.\\n\\n소모 SP: 125, 재사용 대기시간: 20초</color>"
+    icon: Skill_Susannah_C1_ED_854
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8510"
+        name: 리듬 트레이닝
+        info: 복수의 필살기 버튼을 눌러야 한다(터치식 패널에는 영향 없음).
+        brief: 복수의 필살기 버튼을 눌러야 한다(터치식 패널에는 영향 없음).
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+      - id: "8511"
+        name: 작열하는 모래 폭풍
+        info: "캐릭터 필살기의 물리 대미지가 #1[f1]% 증가한다. 필살기 퍼펙트 판정 시 가하는 모든 대미지가 #2[f1]% 증가한다."
+        brief: 캐릭터 필살기의 물리 대미지가 증가한다. 필살기 퍼펙트 판정 시 가하는 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 7
+        paramBase1: 0.15
+        paramBase2: 0.25
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0.04167
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8512"
+        name: 사막의 오아시스
+        info: "필살기 퍼펙트 판정 시 추가로 SP를 #1[f1]pt, HP를 #2[f1] 회복한다."
+        brief: 필살기 퍼펙트 판정 시 SP와 HP를 회복한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 3
+        paramBase1: 2.5
+        paramBase2: 100
+        paramBase3: 0
+        paramAdd1: 1.25
+        paramAdd2: 50
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "855"
+    name: 불멸의 열정
+    info: "리더로 배치 시 파티원이 버프를 받는다.\\n<color=#23B2E7FF>리더 스킬: {{파티원의 물리 대미지가 #1[f1]%
+      증가하고, 출혈 상태의 적에게 가하는 파티원의 모든 대미지가 #2[f1]% 증가한다.}}</color>"
+    icon: Skill_Susannah_C1_ED_855
+    skillType: leader
+    tags: []
+    paramSubId1: 8513
+    paramSubId2: 8513
+    paramSubId3: 0
+    subSkills:
+      - id: "8513"
+        name: 제 몫을 다할게요!
+        info: "파티원의 물리 대미지가 #1[f1]% 증가하고, 파티원이 출혈 상태의 적에게 가하는 모든 대미지가 #2[f1]% 증가한다."
+        brief: 파티원의 물리 대미지가 증가하고, 파티원이 출혈 상태의 적에게 가하는 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 3
+        paramBase1: 0.2
+        paramBase2: 0.22
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "856"
+    name: 기상천외 야담
+    info: "패시브 스킬은 자동으로 발동한다.\\n<color=#23B2E8FF>발키리·열정의 사막이 가하는 모든 대미지는 출혈 대미지로
+      간주한다(출혈 대미지는 근접 대미지, 원거리 대미지로 간주되지 않으며 크리티컬이 발동하지 않는다).\\n\\n캐릭터가 차크람 무기
+      장비 시, 무기 스킬을 발동하면 차크람은 탬버린으로 변경되며 이후 리듬 아이콘이 표시된다:\\n퍼펙트 판정: 주변 적에게 공격력
+      500%의 물리 대미지를 가한다.\\n일반 판정: 주변 적에게 공격력 450%의 물리 대미지를 가한다.\\n필살기 발동 시 무기
+      스킬의 재사용 대기시간을 갱신한다.\\n\\n필살기 및 무기 스킬 리듬 판정에 의한 공격이 출혈 상태의 적에게 적중 시 추가로 공격력
+      500%의 물리 대미지를 가한다.\\n\\n무기 스킬 재사용 대기시간: 12초</color>"
+    icon: Skill_Susannah_C1_ED_856
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8516"
+        name: 전신전령
+        info: "무기 스킬 사용 시 모든 대미지가 #1[f1]% 증가하고, 전장의 적이 받는 출혈 대미지가 #2[f1]% 증가한다. 지속 시간:
+          15초, 중복 발동 시 지속 시간을 갱신한다."
+        brief: 무기 스킬 사용 시 모든 대미지가 증가하고, 전장의 적이 받는 출혈 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8517"
+        name: 즉흥 댄스
+        info: "무기 스킬 퍼펙트 판정 시 SP를 #1[f1]pt 회복하고, 가하는 물리 대미지가 #2[f1]% 증가한다. 지속 시간: 15초,
+          중복 발동 시 지속 시간을 갱신한다."
+        brief: 무기 스킬 퍼펙트 판정 시 SP를 회복하고, 가하는 물리 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 3
+        paramBase2: 0.25
+        paramBase3: 0
+        paramAdd1: 0.3
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8518"
+        name: 예상 밖의 선물
+        info: "자신이 출혈 대미지를 가할 시 고정 대미지만 받는 실드에 #1[f0]의 대미지를 가한다."
+        brief: 출혈이 대미지를 가하는 동시에 고정 대미지만 받는 실드에 대미지를 가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "857"
+    name: 자, 춤춰볼까요!
+    info: "[침염] 상태를 부가한다.\\n<color=#23B2E8FF>출전 또는 필살기 발동 시 전장의 적에게 15초 동안 [침염] 상태를
+      부가한다. [침염] 상태의 적이 출혈 게이지를 통해 받는 출혈 대미지는 마지막으로 적에게 [침염] 상태를 부여한 캐릭터의 대미지로
+      간주한다.</color>"
+    icon: Skill_Susannah_C1_ED_857
+    skillType: sp
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8519"
+        name: 탬버린의 방울 소리
+        info: "필살기 발동 시 누적하는 출혈 게이지가 #1[f1]% 증가한다. 지속 시간: 15초, 중복 발동 시 지속 시간을 갱신한다."
+        brief: 필살기 발동 시 누적하는 출혈 게이지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 3
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.075
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "8520"
+        name: 화상 주의
+        info: "출전 또는 필살기 발동 시 자신의 출혈 대미지가 #1[f1]% 증가한다. 지속 시간: 15초, 중복 발동 시 지속 시간을
+          갱신한다."
+        brief: 출전 시 자신의 출혈 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 5
+        paramBase1: 0.06
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8521"
+        name: 로맨티스트
+        info: "출혈 대미지의 모든 대미지가 #1[f1]% 증가한다."
+        brief: 출혈 대미지의 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 7
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00833
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

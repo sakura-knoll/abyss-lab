@@ -1,0 +1,308 @@
+id: "403"
+fullName: 전장의 질풍
+shortName: 전장의 질풍
+desc: <color=white>특징:</color> <color=#FFAF2CFF>생물 속성</color>의 근거리 전투형 캐릭터. 차지
+  공격이 가능하며, 높은 경직 수치를 보유하고 있다.
+firstName: 히메코
+lastName: 무라타
+enFirstName: Himeko
+enLastName: Murata
+attributeType: bio
+isEasterner: true
+weapon: 2-handed
+character: himeko
+initialStar: b
+tags:
+  - physical-dmg
+  - heavy-atk
+  - stun
+  - time-mastery
+skills:
+  - id: "151"
+    name: <color=#FFC741FF>차지</color> - 대검
+    info: "기본 공격: 공격 버튼을 누르고 있으면 최대 2단 차지가 가능하고, 1단 공격이 끝나기 전에 공격 버튼을 누르면 추가 공격이
+      가능하다.\\n<color=#23B2E2FF>비 차지 기본 공격: 공격력의 180%+250% 물리 대미지\\n1단 차지: 공격력의
+      400%+630% 물리 대미지\\n2단차지: 공격력의 700%+900% 물리 대미지\\n2단 차지가 끝난 후 기본 공격 버튼에서 손을
+      떼면 공격, 2초 후 자동으로 발동한다.</color>"
+    icon: Skill_Himeko_VV_001
+    skillType: basic
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "1단 차지의 2격, 2단 차지의 1격과 2격은 강격이다. 축적 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1501"
+        name: 열염휘무
+        info: "기본/차지/돌진 공격이 크리티컬 시 추가로 #1[i] 화염 원소 대미지를 입힌다"
+        brief: 기본 공격/차지/돌진 공격이 크리티컬 시 추가로 화염 원소 대미지를 입힌다
+        icon: Skill_Nagative_Damage01
+        maxLv: 60
+        paramBase1: 150
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 7.28814
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1502"
+        name: 강공
+        info: "차지 공격 중 경직 저항력 증가, 정면에서 받는 기절, 빙결, 마비 효과와 75%의 물리 대미지를 막아주고, 공격한 적을 8초 동안
+          허약 상태로 만들어 공격력을 #1[i]% 감소시킨다."
+        brief: 차지 공격 도중 경직 저항력이 증가하고 정면으로부터의 기절, 빙결, 마비 효과와 부분 물리 대미지를 막아내며 공격한 적을 허약
+          상태로 만든다
+        icon: Skill_Nagative_Survive03
+        maxLv: 30
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01034
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "1503"
+        name: 거침없음
+        info: "차지 도중 받는 물리 대미지를 #1[f1]% 감소시킨다."
+        brief: 차지 과정에서 받는 물리 대미지가 감소한다
+        icon: Skill_Nagative_Survive02
+        maxLv: 25
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01042
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "152"
+    name: 질풍 돌진
+    info: "돌진중에 휘두르기를 발동한다.\\n<color=#23B2E2FF>돌진 공격: 돌진 중 공격 버튼을 누르면 넓은 범위에 공격력의
+      450% 물리 대미지를 입힌다.</color>"
+    icon: Skill_Himeko_KZ_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "교대기와 돌진 공격은 강격이다. 축적 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1504"
+        name: <color=#FFC741FF>교대기</color> - 수직베기
+        info: "교대기: 내려찍기.\\n넓은 범위의 적을 다운시키고 공격력의 #1[i]% 물리 대미지를 입힌다."
+        brief: 출전 시 내려찍기로 범위 내의 적을 다운시키고 물리 대미지를 입힌다
+        icon: Skill_Nagative_StartUp02
+        maxLv: 22
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.07143
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "1505"
+        name: <color=#FFC741FF>QTE</color> - 선풍 가르기
+        info: "QTE: 적이 마비 상태일 때 발동\\n목표지점에 낙하하며 제자리에서 선풍 가르기를 시전해 주변 범위의 적에게 공격력
+          5*#1[i]%+#2[i]%의 물리 대미지를 입히고 넉백시킨다"
+        brief: "QTE: 적이 마비 상태일 때 QTE 출전, 목표 지점에 강하 후 제자리 선풍참을 발동해 주변 적에게 물리 대미지를 가하고 적을
+          넉백시킨다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 25
+        paramBase1: 0.6
+        paramBase2: 1.5
+        paramBase3: 0
+        paramAdd1: 0.01671
+        paramAdd2: 0.02083
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+  - id: "153"
+    name: 시공 질주
+    info: "적의 공격을 굴러서 회피한다. 2회 연속 회피 가능\\n<color=#23B2E2FF>질풍: 극한 회피 시 이동 속도가 3초 동안
+      40% 증가한다.\\n시공 단열: 극한 회피 시 3초 동안 전체 시공 단열을 발동해 모든 적의 행동이 느려지게 한다. 재사용 대기시간
+      15초</color>"
+    icon: Skill_Himeko_NX_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1506"
+        name: 급속 차지
+        info: "자신이 발동시킨 시공 단열에서 차지 속도가 #1[i]% 증가한다."
+        brief: 회피 시 시공단열에서 차지 속도가 증가한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 20
+        paramBase1: 0.45
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02895
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "1507"
+        name: 예민함
+        info: "시공 단열 재사용 대기시간 #1[f1]초 감소"
+        brief: 시공단열의 재사용 대기시간이 감소한다
+        icon: Skill_Nagative_Survive01
+        maxLv: 30
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05172
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+  - id: "154"
+    name: 허리케인
+    info: "자신을 중심으로 무기를 휘둘러 적을 후려친다.\\n<color=#23B2E2FF>주위의 적에게 공격력의 7*120% 물리 대미지를
+      입히고, 마지막 일격으로 공격력의 400% 물리 대미지를 입히며 적을 공중으로 띄우고 넉백시킨다.\\n발동 순간 주변의 적을
+      끌어당긴다.\\n발동 시 소모 SP: 50</color>"
+    icon: Skill_Himeko_KZ_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 4
+        comment: "필살기는 강격이다. 다단 축적 가능, 축적 능력: 약"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1508"
+        name: 맹염 폭풍
+        info: "필살기의 회전 기간 매 타격마다 #1[i]의 화염 원소 대미지를 추가로 입힌다"
+        brief: 필살기의 회전 기간 동안 매 타격에 화염 대미지가 추가된다
+        icon: Skill_Nagative_Damage02
+        maxLv: 70
+        paramBase1: 80
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 2.31884
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1509"
+        name: 마지막 일격
+        info: "필살기의 마지막 일격이 가하는 물리 대미지가 공격력 #1[i]%만큼 증가하고, 적에게 <color=#FEDF4CFF>기절 게이지를
+          5pt 누적한다.</color>"
+        brief: 필살기의 마지막 일격이 추가 물리 대미지를 가하고, 적에게 기절 게이지를 누적한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 20
+        paramBase1: 1.2
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.06842
+        paramAdd2: 0.10526
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 1
+            comment: "기절 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: sss
+  - id: "155"
+    name: 내 몸을 방패로
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>내 몸을 방패로: {{모든 파티원이 받는 근거리
+      물리 대미지가 #1[i]% 감소한다.}}</color>"
+    icon: Skill_Himeko_VV_005
+    skillType: leader
+    tags: []
+    paramSubId1: 1510
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1510"
+        name: 내 몸을 방패로
+        info: "모든 파티원이 받는 근거리 물리 대미지가 #1[i]% 감소한다."
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Survive01
+        maxLv: 4
+        paramBase1: 0.18
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "156"
+    name: 패시브 스킬
+    info: 패시브 스킬은 자동으로 발동한다.\n<color=#23B2E2FF></color>
+    icon: Skill_Himeko_VV_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1511"
+        name: 강타
+        info: "기본 공격과 차지 공격이 #1[f1]%의 확률로 적에게 <color=#FEDF4CFF>기절 게이지를 3pt
+          누적한다.</color>"
+        brief: 기본 공격과 차지 공격이 일정 확률로 적에게 기절 게이지를 누적한다.
+        icon: Skill_Nagative_Control02
+        maxLv: 19
+        paramBase1: 0.07
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00444
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 1
+            comment: "기절 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: s
+      - id: "1512"
+        name: 열염 파격
+        info: 공격이 실드를 파괴하는 순간, 적에게 <color=#FEDF4CFF>연소 게이지를 5pt 누적한다.</color>
+        brief: 적의 실드를 파괴하면 적에게 연소 게이지를 누적한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 20
+        paramBase1: 80
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 3.68421
+        paramAdd2: 0.10526
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 1
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: ss
+      - id: "1513"
+        name: 용기
+        info: "자신이 받는 원소 대미지가 #1[f1]% 감소한다."
+        brief: 자신이 받는 원소 대미지가 감소한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 24
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00652
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b

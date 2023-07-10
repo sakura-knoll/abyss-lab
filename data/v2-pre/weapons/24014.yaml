@@ -1,0 +1,318 @@
+id: "24014"
+weapons:
+  - id: "24141"
+    rarity: 5
+    maxLv: 50
+    type: 2-handed
+    name: 영원한 불꽃의 겁멸
+    description: 자신의 화염을 수많은 별들에 새기듯, 대검은 무상의 파괴력을 보여 주었다. 거대한 불꽃이 하늘을 삼키고, 이 검 아래
+      떨어진 망혼은 잿더미조차 남기지 않았다. 이것이 바로... ——종언을 뛰어넘는 검이다
+    icon: Weapon_Claymore_H33_287_5
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 84.21875
+    attackAdd: 4.210938
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 3.296408
+    criticalAdd: 0.206025
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1134"
+        name: 영원한 불꽃
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 25초]</color> 무기를 휘둘러 적을 공격한다. 현재 충전
+          수치가 0/1/2 일 때, 각각 공격력 100%+900%/1600%/2500%의 화염 원소 대미지를 가하고,
+          <color=#FEDF4CFF>연소 게이지를 각각 5/10/18pt 누적한다.</color> 무기 스킬 발동 시 5초 동안
+          매초 현재 HP의 8%를 소모하며(이로 인해 사망하지 않는다), HP가 10% 미만으로 떨어질 경우 무기 액티브 스킬을 사용할
+          수 없다. 초기 충전 점수는 1pt이며 SP를 한 번에 25pt 이상 소모하면 1pt 충전된다.\\n사용 시 충전 수치는
+          2pt이며, 2초 이내에 무기 버튼을 다시 눌러 적에게 공격력 #1[f1]%의 화염 원소 대미지를 가할 수 있다. 이후
+          캐릭터가 가하는 모든 대미지가 80% 감소하고, 매초 SP가 20pt 감소하며, 2단 무기 스킬을 사용할 수 없다. 지속
+          시간: 45초"
+        icon: Skill_Himeko_Weapon_26
+        skillCd: 25
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: ignite
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 충전 0스택 시 약함, 충전 1스택 시 보통, 충전 2스택 시 강함"
+        param1: 16
+        param1Add: 0.034934
+        param2: 0
+        param2Add: 0
+        param3: 0
+        param3Add: 0
+      - id: "2175"
+        name: 홍염
+        info: "캐릭터의 모든 대미지가 #1[f1]% 증가하고 무기 액티브 스킬 사용 후 적에게 #2[f1]%의 화염 원소 대미지 취약 효과를
+          부여한다. 지속 시간 10초. 전투에서 초기 SP가 #3[f1] 증가한다. 해당 효과는 오픈월드에서 발동하지 않는다"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.3
+        param1Add: 0.000218
+        param2: 0.2
+        param2Add: 0.000131
+        param3: 30
+        param3Add: 0
+      - id: "2176"
+        name: 성황
+        info: "무기 스킬 사용 후, 캐릭터가 받는 모든 대미지가 #1[f1]% 감소한다. 15초 동안 초당 주변의 적에게 공격력 #2[f1]%의
+          화염 원소 대미지를 입힌다. 2단 무기 스킬을 사용하면 해당 효과를 취소할 수 있다"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.2
+        param1Add: 0.000437
+        param2: 0.2
+        param2Add: 0.00131
+        param3: 0
+        param3Add: 0
+    rankUpMaterials:
+      - id: "6003"
+        amount: 100
+      - id: "1302"
+        amount: 9
+      - id: "4013"
+        amount: 100
+    powerType: 1
+  - id: "24142"
+    rarity: 5
+    maxLv: 55
+    type: 2-handed
+    name: 영원한 불꽃의 겁멸
+    description: 자신의 화염을 수많은 별들에 새기듯, 대검은 무상의 파괴력을 보여 주었다. 거대한 불꽃이 하늘을 삼키고, 이 검 아래
+      떨어진 망혼은 잿더미조차 남기지 않았다. 이것이 바로... ——종언을 뛰어넘는 검이다
+    icon: Weapon_Claymore_H33_287_5
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 89.48242
+    attackAdd: 4.474121
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 3.502433
+    criticalAdd: 0.218902
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1134"
+        name: 영원한 불꽃
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 25초]</color> 무기를 휘둘러 적을 공격한다. 현재 충전
+          수치가 0/1/2 일 때, 각각 공격력 100%+900%/1600%/2500%의 화염 원소 대미지를 가하고,
+          <color=#FEDF4CFF>연소 게이지를 각각 5/10/18pt 누적한다.</color> 무기 스킬 발동 시 5초 동안
+          매초 현재 HP의 8%를 소모하며(이로 인해 사망하지 않는다), HP가 10% 미만으로 떨어질 경우 무기 액티브 스킬을 사용할
+          수 없다. 초기 충전 점수는 1pt이며 SP를 한 번에 25pt 이상 소모하면 1pt 충전된다.\\n사용 시 충전 수치는
+          2pt이며, 2초 이내에 무기 버튼을 다시 눌러 적에게 공격력 #1[f1]%의 화염 원소 대미지를 가할 수 있다. 이후
+          캐릭터가 가하는 모든 대미지가 80% 감소하고, 매초 SP가 20pt 감소하며, 2단 무기 스킬을 사용할 수 없다. 지속
+          시간: 45초"
+        icon: Skill_Himeko_Weapon_26
+        skillCd: 25
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: ignite
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 충전 0스택 시 약함, 충전 1스택 시 보통, 충전 2스택 시 강함"
+        param1: 17.746725
+        param1Add: 0.034934
+        param2: 0
+        param2Add: 0
+        param3: 0
+        param3Add: 0
+      - id: "2175"
+        name: 홍염
+        info: "캐릭터의 모든 대미지가 #1[f1]% 증가하고 무기 액티브 스킬 사용 후 적에게 #2[f1]%의 화염 원소 대미지 취약 효과를
+          부여한다. 지속 시간 10초. 전투에서 초기 SP가 #3[f1] 증가한다. 해당 효과는 오픈월드에서 발동하지 않는다"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.310917
+        param1Add: 0.000218
+        param2: 0.20655
+        param2Add: 0.000131
+        param3: 30
+        param3Add: 0
+      - id: "2176"
+        name: 성황
+        info: "무기 스킬 사용 후, 캐릭터가 받는 모든 대미지가 #1[f1]% 감소한다. 15초 동안 초당 주변의 적에게 공격력 #2[f1]%의
+          화염 원소 대미지를 입힌다. 2단 무기 스킬을 사용하면 해당 효과를 취소할 수 있다"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.221834
+        param1Add: 0.000437
+        param2: 0.265502
+        param2Add: 0.00131
+        param3: 0
+        param3Add: 0
+    rankUpMaterials:
+      - id: "6003"
+        amount: 100
+      - id: "1302"
+        amount: 14
+      - id: "4013"
+        amount: 150
+    powerType: 1
+  - id: "24143"
+    rarity: 5
+    maxLv: 60
+    type: 2-handed
+    name: 영원한 불꽃의 겁멸
+    description: 자신의 화염을 수많은 별들에 새기듯, 대검은 무상의 파괴력을 보여 주었다. 거대한 불꽃이 하늘을 삼키고, 이 검 아래
+      떨어진 망혼은 잿더미조차 남기지 않았다. 이것이 바로... ——종언을 뛰어넘는 검이다
+    icon: Weapon_Claymore_H33_287_5
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 94.74609
+    attackAdd: 4.737305
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 3.708459
+    criticalAdd: 0.231779
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1134"
+        name: 영원한 불꽃
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 25초]</color> 무기를 휘둘러 적을 공격한다. 현재 충전
+          수치가 0/1/2 일 때, 각각 공격력 100%+900%/1600%/2500%의 화염 원소 대미지를 가하고,
+          <color=#FEDF4CFF>연소 게이지를 각각 5/10/18pt 누적한다.</color> 무기 스킬 발동 시 5초 동안
+          매초 현재 HP의 8%를 소모하며(이로 인해 사망하지 않는다), HP가 10% 미만으로 떨어질 경우 무기 액티브 스킬을 사용할
+          수 없다. 초기 충전 점수는 1pt이며 SP를 한 번에 25pt 이상 소모하면 1pt 충전된다.\\n사용 시 충전 수치는
+          2pt이며, 2초 이내에 무기 버튼을 다시 눌러 적에게 공격력 #1[f1]%의 화염 원소 대미지를 가할 수 있다. 이후
+          캐릭터가 가하는 모든 대미지가 80% 감소하고, 매초 SP가 20pt 감소하며, 2단 무기 스킬을 사용할 수 없다. 지속
+          시간: 45초"
+        icon: Skill_Himeko_Weapon_26
+        skillCd: 25
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: ignite
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 충전 0스택 시 약함, 충전 1스택 시 보통, 충전 2스택 시 강함"
+        param1: 19.668121
+        param1Add: 0.034934
+        param2: 0
+        param2Add: 0
+        param3: 0
+        param3Add: 0
+      - id: "2175"
+        name: 홍염
+        info: "캐릭터의 모든 대미지가 #1[f1]% 증가하고 무기 액티브 스킬 사용 후 적에게 #2[f1]%의 화염 원소 대미지 취약 효과를
+          부여한다. 지속 시간 10초. 전투에서 초기 SP가 #3[f1] 증가한다. 해당 효과는 오픈월드에서 발동하지 않는다"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.322926
+        param1Add: 0.000218
+        param2: 0.213755
+        param2Add: 0.000131
+        param3: 30
+        param3Add: 0
+      - id: "2176"
+        name: 성황
+        info: "무기 스킬 사용 후, 캐릭터가 받는 모든 대미지가 #1[f1]% 감소한다. 15초 동안 초당 주변의 적에게 공격력 #2[f1]%의
+          화염 원소 대미지를 입힌다. 2단 무기 스킬을 사용하면 해당 효과를 취소할 수 있다"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.245852
+        param1Add: 0.000437
+        param2: 0.337555
+        param2Add: 0.00131
+        param3: 0
+        param3Add: 0
+    rankUpMaterials:
+      - id: "6003"
+        amount: 100
+      - id: "1302"
+        amount: 18
+      - id: "4013"
+        amount: 220
+    powerType: 1
+  - id: "24144"
+    rarity: 6
+    maxLv: 65
+    type: 2-handed
+    name: 영원한 불꽃의 겁멸
+    description: 자신의 화염을 수많은 별들에 새기듯, 대검은 무상의 파괴력을 보여 주었다. 거대한 불꽃이 하늘을 삼키고, 이 검 아래
+      떨어진 망혼은 잿더미조차 남기지 않았다. 이것이 바로... ——종언을 뛰어넘는 검이다
+    icon: Weapon_Claymore_H33_287_6
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 100.009766
+    attackAdd: 5.000488
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 3.914484
+    criticalAdd: 0.244655
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1134"
+        name: 영원한 불꽃
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 25초]</color> 무기를 휘둘러 적을 공격한다. 현재 충전
+          수치가 0/1/2 일 때, 각각 공격력 100%+900%/1600%/2500%의 화염 원소 대미지를 가하고,
+          <color=#FEDF4CFF>연소 게이지를 각각 5/10/18pt 누적한다.</color> 무기 스킬 발동 시 5초 동안
+          매초 현재 HP의 8%를 소모하며(이로 인해 사망하지 않는다), HP가 10% 미만으로 떨어질 경우 무기 액티브 스킬을 사용할
+          수 없다. 초기 충전 점수는 1pt이며 SP를 한 번에 25pt 이상 소모하면 1pt 충전된다.\\n사용 시 충전 수치는
+          2pt이며, 2초 이내에 무기 버튼을 다시 눌러 적에게 공격력 #1[f1]%의 화염 원소 대미지를 가할 수 있다. 이후
+          캐릭터가 가하는 모든 대미지가 80% 감소하고, 매초 SP가 20pt 감소하며, 2단 무기 스킬을 사용할 수 없다. 지속
+          시간: 45초"
+        icon: Skill_Himeko_Weapon_26
+        skillCd: 25
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: ignite
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 충전 0스택 시 약함, 충전 1스택 시 보통, 충전 2스택 시 강함"
+        param1: 21.764193
+        param1Add: 0.034934
+        param2: 0
+        param2Add: 0
+        param3: 0
+        param3Add: 0
+      - id: "2175"
+        name: 홍염
+        info: "캐릭터의 모든 대미지가 #1[f1]% 증가하고 무기 액티브 스킬 사용 후 적에게 #2[f1]%의 화염 원소 대미지 취약 효과를
+          부여한다. 지속 시간 10초. 전투에서 초기 SP가 #3[f1] 증가한다. 해당 효과는 오픈월드에서 발동하지 않는다"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.336026
+        param1Add: 0.000218
+        param2: 0.221616
+        param2Add: 0.000131
+        param3: 30
+        param3Add: 0
+      - id: "2176"
+        name: 성황
+        info: "무기 스킬 사용 후, 캐릭터가 받는 모든 대미지가 #1[f1]% 감소한다. 15초 동안 초당 주변의 적에게 공격력 #2[f1]%의
+          화염 원소 대미지를 입힌다. 2단 무기 스킬을 사용하면 해당 효과를 취소할 수 있다"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.272052
+        param1Add: 0.000437
+        param2: 0.416157
+        param2Add: 0.00131
+        param3: 0
+        param3Add: 0
+    rankUpMaterials:
+      - id: "0"
+        amount: 0
+    powerType: 1

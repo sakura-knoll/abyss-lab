@@ -1,0 +1,382 @@
+id: "313"
+fullName: 이치의 율자
+shortName: 이치의 율자
+desc: <color=white>특징:</color> <color=#2CE3FFFF>기계 속성</color>의
+  <color=#2CE3FFFF>영혼 각성</color> 캐릭터, 라이드 모드로 전환할 수 있다.
+firstName: 브로냐
+lastName: 자이칙
+enFirstName: Bronya
+enLastName: Zaychik
+attributeType: mech
+isEasterner: false
+weapon: cannon
+character: bronya
+initialStar: s
+tags:
+  - ice-dmg
+  - freeze
+  - burst
+  - time-mastery
+skills:
+  - id: "461"
+    name: 제로 드라이브
+    info: "4연격\\n<color=#23B2E2FF>제1격: 공격력 100%의 물리 대미지+공격력 80%의 빙결 대미지\\n제2격:공격력
+      100%의 물리 대미지+공격력 100%의 빙결 원소 대미지, 구조 에너지 25pt 회복\\n제3격: 150%+공격력 150%의 물리
+      대미지+공격력 2*100%의 빙결 원소 대미지, 구조 에너지 25pt 회복\\n제4격: 드릴을 만들어내 공격력 8*40%+200%의
+      빙결 원소 대미지를 입히고 9*25pt의 구조 에너지를 회복하며 작은 범위의 적을 끌어당긴다</color>"
+    icon: Skill_Bronya_C7_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4601"
+        name: 구조 분석
+        info: "드릴 공격이 끝난 후의 임팩트는 피격된 적에게 #1[f2]초 동안 해석 상태를 부여한다"
+        brief: 기본 공격의 마지막 일격은 해석 상태를 부여한다
+        icon: Skill_Nagative_Skill01
+        maxLv: 79
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03846
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4602"
+        name: 파워 링크
+        info: "드릴 공격이 적을 명중할 때마다 SP를 #1[f2]pt 회복한다"
+        brief: 드릴 공격 시 자신의 SP를 회복한다
+        icon: Skill_Nagative_Skill01
+        maxLv: 8
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02857
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4612"
+        name: 스톱 어레이
+        info: "드릴 공격 중 정면과 측면은 공격에 면역되고 후방에서 받는 모든 대미지가 #1[f1]% 감소한다"
+        brief: 드릴 공격 중 피해를 막아낸다
+        icon: Skill_Nagative_Survive01
+        maxLv: 8
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02143
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "462"
+    name: <color=#FFC741FF>차지</color> - 무기화 빌드
+    info: "4연격과 회피 시 차지하여 최대 속도로 차지 공격을 발동한다.\\n<color=#23B2E2FF>차지 공격은 120pt의 구조
+      에너지를 소모하여 율자 형태로 진입한다. 이 기간 동안 공격 버튼을 누르면 차지 동작이 끝나기 전까지 바로 차지 공격을 발동할 수
+      있다.\\n무기 구조: 무기 유형에 따라 다른 차지 공격 방식을 사용할 수 있으며 총 공격력 660%의 빙결 원소 대미지를
+      입힌다.</color>"
+    icon: Skill_Bronya_C7_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4603"
+        name: 데이터 질주
+        info: "율자 형태: 적에게 가하는 모든 대미지가 #1[f1]% 증가하고 이능 속성의 적에게 가하는 모든 대미지가 추가로 40% 증가한다"
+        brief: "율자 형태: 대미지가 증가하고 이능 속성의 적을 공격 시 대미지가 추가로 증가한다"
+        icon: Skill_Nagative_Damage01
+        maxLv: 75
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00473
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4604"
+        name: 방화벽
+        info: "율자 형태: 받는 모든 대미지가 #1[f1]% 감소한다"
+        brief: "율자 형태: 받는 모든 대미지가 감소한다"
+        icon: Skill_Nagative_Survive02
+        maxLv: 30
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0069
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4605"
+        name: 스트림 트랜스퍼
+        info: "율자 형태: 라이드 모드가 아닐 때 차지 공격할 때마다 SP를 #1[f1]pt 회복하고 빙결 원소 대미지가 #2[f1]% 증가한다.
+          대미지 증가 최대 중첩 횟수: 3회"
+        brief: "율자 형태: 라이드 모드가 아닐 때 차지 공격할 때마다 SP를 회복하고 대미지가 증가한다"
+        icon: Skill_Nagative_StartUp03
+        maxLv: 25
+        paramBase1: 3
+        paramBase2: 0.07
+        paramBase3: 0
+        paramAdd1: 0.08333
+        paramAdd2: 0.00333
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "463"
+    name: 급속 제동
+    info: "빠르게 적의 공격을 회피하며 연속으로 2회 회피할 수 있다.\\n<color=#23B2E2FF>극한 회피 시 자신의 구조 에너지를
+      120pt 회복하고 1.7초 내에 다음 공격을 발동하면 적을 4초 동안 해석 상태로 만든다.\\n급속 제동: 극한 회피 시 3초 동안
+      시공 단열을 발동한다. 재사용 대기시간: 15초</color>"
+    icon: Skill_Bronya_C7_003
+    skillType: evasion
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "QTE는 강격이다. 축적 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4606"
+        name: 프리즈 트레쉬홀드
+        info: "급속 제동의 재사용 대기시간이 #1[f1]초 감소하고 급속 제동의 시공 단열에 영향받은 적은 6초간 해석 상태에 진입한다"
+        brief: 급속 제동은 모든 적에게 해석 상태를 부여한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 4
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss2
+      - id: "4607"
+        name: <color=#FFC741FF>QTE</color> - 데이터 스톰
+        info: "QTE: 적이 마비, 시공 감속 또는 빙결 상태일 때 발동한다. 공격력 #1[f1]%의 물리 대미지+#1[f1]%+공격력 300%의
+          빙결 원소 대미지를 가하고, 구조 에너지를 120pt 회복하며, 적중한 적에게 해석 상태를 6초 동안 부여한다."
+        brief: "QTE: 구조 에너지를 회복하고 해석 상태를 부여한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 8
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.28571
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "4614"
+        name: 비상 댐퍼
+        info: "급속 제동 발동 시 추가로 HP를 #1[i]pt 회복한다. 급속 제동이 재사용 대기 중이 아닐 때 피격 후 짧은 시간 안에 회피를
+          사용해 급속 제동을 발동할 수 있다"
+        brief: 피격 후 극한 회피 효과를 발동할 수 있다
+        icon: Skill_Nagative_Skill03
+        maxLv: 8
+        paramBase1: 200
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 28.57143
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "464"
+    name: 사이버 엔젤.cfg
+    info: "중장 토끼가 변신하여 폭발 상태에 진입한다.\\n<color=#23B2E2FF>구조 에너지를 480pt 회복하고 적에게 공격력
+      5*450%+800%의 빙결 원소 대미지를 입히고 라이드 모드에 진입하여 율자 형태가 된다. 최대 지속 시간: 17초\\n라이드
+      모드: 이 기간 동안 캐릭터는 전투 불능이 되지 않고 초당 40pt의 구조 에너지를 회복한다. 이동 시 0.6초마다 호버 레이저포를
+      구조하여 적에게 공격력 4*65%의 빙결 원소 대미지를 입힌다.\\n공격 버튼: 구조 에너지 240pt 소모, 바로 차지 공격 발동
+      시 적에게 공격력 2*250%+2*300%의 빙결 원소 대미지를 입히고 4초 동안 해석 상태를 부여한다.\\n회피 버튼: 회피하는
+      동안 적중한 적에게 최대로 공격력 4*10%의 빙결 원소 대미지를 입히고 4초 동안 해석 상태를 부여한다.\\n재사용 대기시간:
+      30초, 발동 시 SP 소모: 125</color>"
+    icon: Skill_Bronya_C7_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 3
+        comment: "필살기 가동 후의 공격은 강격이다. 축적 능력: 강\\n폭발 상태의 차지 공격은 강격이다. 축적 능력: 약"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4608"
+        name: Rebuild.exe
+        info: "라이드 모드: HP가 50% 미만일 때 0.5초마다 #1[f1]pt의 HP를 회복하고 HP가 25% 미만일 때 0.5초마다 추가로
+          #2[f1]pt의 HP를 회복한다"
+        brief: "라이드 모드: HP를 회복한다"
+        icon: Skill_Nagative_Survive02
+        maxLv: 8
+        paramBase1: 20
+        paramBase2: 30
+        paramBase3: 0
+        paramAdd1: 2.85714
+        paramAdd2: 4.28571
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4609"
+        name: 빠른 디크립션
+        info: "라이드 모드: 차지 공격 시 #1[f1]%의 모든 원소 관통을 획득한다"
+        brief: "라이드 모드: 차지 공격 시 원소 관통을 획득한다"
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00345
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4610"
+        name: 언더클럭
+        info: "라이드 모드: 받는 간접 피해량 #1[f1]% 감소"
+        brief: "라이드 모드: 받는 대미지가 감소한다"
+        icon: Skill_Nagative_Damage03
+        maxLv: 8
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02143
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "465"
+    name: 누메론 프로토콜
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>누메론 프로토콜: {{전체 파티원의 모든 원소
+      대미지가 #1[f1]% 증가하고 파티 내 브로냐, 제레, 아린 자매의 모든 대미지가 #2[f1]% 증가한다}}</color>"
+    icon: Skill_Bronya_C7_005
+    skillType: leader
+    tags: []
+    paramSubId1: 4611
+    paramSubId2: 4611
+    paramSubId3: 0
+    subSkills:
+      - id: "4611"
+        name: 누메론 프로토콜
+        info: "전체 파티원의 모든 원소 대미지가 #1[f1]% 증가하고 파티 내 브로냐, 제레, 아린 자매의 모든 대미지가 #2[f1]%
+          증가한다"
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Damage02
+        maxLv: 2
+        paramBase1: 0.27
+        paramBase2: 0.23
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+      - id: "4617"
+        name: 구현 해석
+        info: "라이드 모드가 아닐 때 차지 공격은 원소 관통력을 #1[f1]% 획득한다."
+        brief: 라이드 모드가 아닐 때 차지 공격은 원소 관통력을 획득한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 1
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+      - id: "4618"
+        name: 천리 재구성
+        info: "라이드 모드 상태에서 퇴장 시 캐릭터는 구조 에너지를 #1[i]pt, SP를 #2[f1]pt 회복한다."
+        brief: 라이드 모드 상태에서 퇴장 시 SP를 회복한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 1
+        paramBase1: 240
+        paramBase2: 10
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "466"
+    name: 패시브 스킬
+    info: "패시브 스킬은 자동으로 발동한다\\n<color=#23B2E2FF>구조 에너지: 최대치 480pt\\n적에게 해석 상태를 부여할 때
+      </color> <color=#FEDF4CFF>빙결 게이지를 5pt 누적하고,</color> <color=#23B2E2FF>해당
+      상태의 적에게 가하는 모든 대미지가 40% 증가한다.\\n퇴장 시 율자 모드에서 벗어나고 중장 토끼는 인간 형태로
+      돌아온다.</color>"
+    icon: Skill_Bronya_C7_006
+    skillType: passive
+    tags:
+      - type: freeze
+        strength: 1
+        comment: "빙결 이상 게이지 누적 가능, 누적 능력: 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4613"
+        name: 빌드 리부트
+        info: "스테이지 위의 중장 토끼가 모터사이클에서 인간 형태로 돌아올 때 캐릭터가 스테이지에 있으면 구조 에너지를 #1[i]pt 회복한다"
+        brief: 스테이지 위의 토끼가 인간 형태로 돌아올 때 구조 에너지를 회복한다
+        icon: Skill_Nagative_Skill02
+        maxLv: 20
+        paramBase1: 120
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 6.31579
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "4615"
+        name: 2패스 코딩
+        info: "기본 구조 에너지 #1[i]pt 증가"
+        brief: 구조 에너지 증가
+        icon: Skill_Nagative_Skill02
+        maxLv: 2
+        paramBase1: 240
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 120
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "4616"
+        name: 모드 전환
+        info: "차지 공격으로 가하는 빙결 원소 대미지 #1[f1]% 증가"
+        brief: 차지 공격으로 가하는 대미지 증가
+        icon: Skill_Nagative_Skill02
+        maxLv: 8
+        paramBase1: 0.09
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.09
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

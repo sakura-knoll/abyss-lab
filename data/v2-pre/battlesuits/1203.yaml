@@ -1,0 +1,187 @@
+id: "1203"
+fullName: 메이
+shortName: 메이
+desc: <color=#2CE3FFFF>속도형</color> 근거리 전투 캐릭터. <color=#2CE3FFFF>태도</color>를 무기로
+  사용한다. 공격 속도가 빠르고, 콤보수가 높으며 체공 능력이 뛰어나다
+firstName: 메이
+lastName: 라이덴
+enFirstName: Mei
+enLastName: Raiden
+attributeType: none
+isEasterner: true
+weapon: katana
+character: apho-mei
+initialStar: b
+tags: []
+skills:
+  - id: "52"
+    name: <color=#FFC741FF>분기 공격</color> - 벚꽃 산란
+    info: "공중 회전 베기로 주변의 적들을 공중으로 띄운다.\\n<color=#23B2E2FF>회전 베기: 공격력의 60%*7 물리
+      대미지.</color>"
+    icon: Skill_Mei_CK_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "504"
+        name: <color=#FFC741FF>QTE</color> - 거합참
+        info: "출격 시 순간 베기를 시전한다. QTE: 적을 공중에 띄우거나 실드를 파괴하면 선풍참격을 발동해 공격력 225%+#1[i]%의 물리
+          대미지를 가한다."
+        brief: "QTE: 적이 공중에 띄워졌을 때 QTE 출전, 선풍참을 발동해 주변 적을 공격한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 70
+        paramBase1: 2.75
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01812
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: b
+      - id: "505"
+        name: 이중 선풍검
+        info: "분기 공격 도중 공격 버튼을 누르면 다시 한 번 분기 공격을 발동할 수 있다. 첫 번째 분기 공격의 #1[f1]% 대미지를
+          입힌다."
+        brief: 분기 공격 시전 도중 공격 버튼을 눌러 1회 추가 발동할 수 있다
+        icon: Skill_Nagative_Skill03
+        maxLv: 40
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01282
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "506"
+        name: 허공 선풍검
+        info: 기본 공격 도중 공격 버튼을 누르고 있으면 분기 공격이 발동된다.
+        brief: 기본 공격 도중 공격 버튼을 누르고 있으면 분기 공격이 발동된다.
+        icon: Skill_Nagative_Skill01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+  - id: "54"
+    name: 아마테라스
+    info: "발키리 에너지를 폭발시켜 전방을 향해 벤다.\\n<color=#23B2E2FF>아마테라스: 최대 1150%의 물리 대미지를
+      입힌다.\\n발동 시 소모 SP: 50</color>"
+    icon: Skill_Mei_CK_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "509"
+        name: 혼의 기운
+        info: "아마테라스가 공격마다 공격력 #1[f1]%의 화염 원소 대미지를 추가로 입히며, 최대 17회까지 발동된다"
+        brief: 아마테라스로 추가 화염 원소 대미지를 입힐 수 있다
+        icon: Skill_Nagative_Damage01
+        maxLv: 35
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00235
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "510"
+        name: 혼의 칼날
+        info: "SP 최대치가 15 증가한다. 아마테라스 사용 시 20 SP를 추가로 소모하고 #1[f1]초 동안 발키리 상태에 진입하여 모든
+          공격을 강화한다."
+        brief: SP 최대치가 증가한다. 아마테라스는 추가로 20 SP를 소모하고 발동 후 발키리 상태에 진입하여 모든 공격을 강화한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 20
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.10526
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: ss
+      - id: "511"
+        name: 벚꽃의 혼
+        info: "발키리 상태에서 모든 도검이 강화되고 타격마다 물리 대미지가 공격력 #1[f1]%만큼 증가한다"
+        brief: 발키리 상태에서 공격마다 추가 물리 피해를 입힌다
+        icon: Skill_Nagative_Damage03
+        maxLv: 25
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00417
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "55"
+    name: 충신의 혼
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>충신의 혼: {{콤보 수가 20 이상일 때, 모든
+      파티원의 물리 대미지 #1[i]% 증가}}</color>"
+    icon: Skill_Mei_CK_005
+    skillType: leader
+    tags: []
+    paramSubId1: 512
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "512"
+        name: 충신의 혼
+        info: "콤보 수가 20 이상일 때, 모든 파티원의 물리 대미지 #1[f1]% 증가"
+        brief: 콤보수가 20을 넘으면 모든 파티원의 물리 대미지가 증가한다
+        icon: Skill_Nagative_Survive01
+        maxLv: 4
+        paramBase1: 0.12
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "10002"
+    name: null
+    info: null
+    icon: Skill_Bronya_ZP_006
+    skillType: none
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "10004"
+    name: null
+    info: null
+    icon: Skill_Bronya_ZP_006
+    skillType: none
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "10005"
+    name: null
+    info: null
+    icon: Skill_Bronya_ZP_006
+    skillType: none
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []

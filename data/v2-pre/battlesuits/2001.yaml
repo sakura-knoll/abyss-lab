@@ -1,0 +1,275 @@
+id: "2001"
+fullName: 질뢰쾌우
+shortName: null
+desc: null
+firstName: null
+lastName: null
+enFirstName: null
+enLastName: null
+attributeType: bio
+isEasterner: true
+weapon: katana
+character: keqing
+initialStar: s
+tags: []
+skills:
+  - id: "651"
+    name: 운래 검법
+    info: "검으로 공격한다.\\n<color=#23B2E2FF>제1격: 공격력 100%의 물리 대미지+공격력 100%의 뇌전 원소 대미지를
+      가한다.\\n제2격: 공격력 80%의 물리 대미지+공격력 100%의 뇌전 원소 대미지를 가한다.\\n제3격: 공격력 160%의 물리
+      대미지+공격력 200%의 뇌전 원소 대미지를 가한다.\\n제4격: 공격력 250%의 물리 대미지+공격력 500%의 뇌전 원소 대미지를
+      가한다.\\n제5격 공격력 280%의 물리 대미지+공격력 400%의 뇌전 원소 대미지를 가한다.</color>"
+    icon: Skill_Keqing_DB_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6501"
+        name: 옥을 끊는 검
+        info: "기본 공격의 모든 대미지가 #1[f1]% 증가한다."
+        brief: 기본 공격의 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6502"
+        name: 옥을 취하는 검
+        info: "전장에 표식 존재 시, 기본 공격마다 추가로 KP를 #1[f1]pt 회복한다."
+        brief: 전장에  존재 시, 기본 공격마다 추가로 P를 회복한다.
+        icon: Skill_Nagative_Survive01
+        maxLv: 1
+        paramBase1: 20
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "652"
+    name: <color=#FFC741FF>분기</color>-성신 회귀
+    info: 공격 버튼을 길게 누르면 목표에게 강격을 가한다.\n<color=#23B2E2FF>목표에게 공격력 375%의 뇌전 원소 대미지를
+      가하고, 적중한 목표에게 표식을 부여한다.</color>
+    icon: Skill_Keqing_DB_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6503"
+        name: 성수선형
+        info: "캐릭터가 마비 상태의 목표에게 가하는 뇌전 원소 대미지가 #1[f1]% 증가하고, 분기 공격이 가하는 모든 대미지가 #2[f1]%
+          증가한다."
+        brief: 마비 상태의 목표에게 가하는 뇌전 원소 대미지가 증가하고, 분기 공격이 가하는 모든 대미지 증가한다.
+        icon: Skill_Nagative_Skill01
+        maxLv: 1
+        paramBase1: 0.2
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+      - id: "6504"
+        name: 별의 추종
+        info: "분기 공격이 추가로 KP를 #1[f1]pt 회복한다."
+        brief: 분기 공격이 추가로 KP를 회복한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 1
+        paramBase1: 60
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "653"
+    name: 일해 신영
+    info: "빠르게 공격을 회피한다. 2회 연속 회피할 수 있다.\\n<color=#23B2E2FF>회피 스킬: 3초 동안 전체 시공 단열을
+      발동하고, 현재 목표에게 표식을 부여한다.\\n회피 추격 스킬: 전장에 표식이 존재할 때, 회피 후 공격 버튼을 길게 눌러 추격을
+      발동하면 목표 주변으로 순간 이동해 목표에게 공격력 300%의 뇌전 원소 대미지를 가하고, 표식을 소모한다. 재사용 대기시간:
+      15초</color>"
+    icon: Skill_Keqing_DB_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6507"
+        name: 찰나의 그림자
+        info: "극한 회피 공격으로 가하는 뇌전 원소 대미지가 #1[f1]% 증가한다."
+        brief: 극한 회피 공격으로 가하는 뇌전 원소 대미지가 증가한다.
+        icon: Skill_Nagative_Survive02
+        maxLv: 1
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "6508"
+        name: 찰나의 구름
+        info: "회피 추격 스킬이 캐릭터의 HP를 #1[f1] 회복한다. 재사용 대기시간: 6초"
+        brief: 극한 회피 시 캐릭터의 HP를 회복한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 1
+        paramBase1: 150
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "654"
+    name: 천가 순유
+    info: "전장에서 순간 이동해 공중으로 날아올라 적에게 광범위 대미지를 가한다.\\n<color=#23B2E2FF>필살기 버튼을 누르면
+      발동한다. 전장에서 빠르게 이동해 공중으로 날아올라 적에게 공격력 2000%의 광범위 뇌전 원소 대미지를 가하고, 적이 받는 뇌전
+      원소 대미지를 25% 증가시킨다. 지속 시간: 12초\\nSP 소모: 80, 재사용 대기시간: 18초</color>"
+    icon: Skill_Keqing_DB_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6505"
+        name: 천관군세
+        info: "필살기가 가하는 모든 대미지가 #1[f1]% 증가한다."
+        brief: 필살기가 가하는 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6506"
+        name: 은하급류
+        info: "필살기는 목표에게 특수 표식을 부여하고, 적은 적중당할 때마다 추가로 공격력 #1[f1]%의 뇌전 원소 대미지를 받는다. 지속
+          시간: 5초, 최대 20회 발동한다."
+        brief: 필살기가 목표에게 특수 표식을 부여하고, 적은 적중당할 때마다 추가로 뇌전 원소 대미지를 받는다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 1
+        paramBase1: 8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "655"
+    name: 옥형의 품격
+    info: "리더로 배치 시 파티원이 버프를 받는다.\\n<color=#23B2E2FF>리더 스킬: {{파티원 필살기와 폭발 상태에서의 빙결
+      원소 대미지가 #1[f1]% 증가한다. 파티에 빙결 원소 특성을 보유한 발키리가 1명 있을 때마다 파티원이 가하는 모든 대미지가
+      #2[f1]% 증가한다}}</color>"
+    icon: Skill_Keqing_DB_005
+    skillType: leader
+    tags: []
+    paramSubId1: 6210
+    paramSubId2: 6210
+    paramSubId3: 0
+    subSkills:
+      - id: "6511"
+        name: 질주하는 질뇌
+        info: "QTE가 가하는 뇌전 원소 대미지가 #1[f1]% 증가한다."
+        brief: QTE가 가하는 뇌전 원소 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6512"
+        name: 천둥의 노래
+        info: "QTE가 적에게 표식을 부여하고, 각청이 받는 모든 대미지가 #1[f1]% 감소한다. 또한 경직 저항력이 대폭 증가한다. 지속
+          시간: 10초"
+        brief: QTE가 적에게 표식을 부여하고, 각청이 받는 모든 대미지가 감소한다. 또한 경직 저항력 대폭 증가한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 1
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "656"
+    name: 허참 질뢰
+    info: "후퇴해 검기를 발동하는 방식으로 공격한다.\\n<color=#23B2E2FF>KP: 최대 600pt, 기본 공격이 적중할 때마다
+      50pt를 회복한다.\\nKP가 100pt보다 많을 때, 무기 스킬을 터치해 검기 공격을 발동할 수 있다. 제1격: 공격력
+      250%*4의 뇌전 원소 대미지를 가한다.\\n제2격: 공격력 250%*4의 뇌전 원소 대미지를 가한다.\\n제3격: 공격력
+      250%*4의 뇌전 원소 대미지를 가한다.\\n제4격: 공격력 250%*7의 뇌전 원소 대미지를 가하고, 공격마다 KP를 100pt
+      소모한다. 검기를 발동해 공격하는 동안, 무기 스킬 버튼을 길게 누르면 검기 피니쉬 공격을 발동해 공격력 600%의 뇌전 원소
+      대미지를 가한다.</color>"
+    icon: Skill_Keqing_DB_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6509"
+        name: 천둥의 위엄
+        info: "검기마다 SP를 #1[f1]pt 회복하고, 타격마다 검기 피니쉬가 추가로 공격력 #2[f1]%의 뇌전 대미지를 가한다. 최대
+          24스택 중첩."
+        brief: 검기 공격은 SP를 회복한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 1.5
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6510"
+        name: 찬란한 뇌광
+        info: "전장에 표식 존재 시, 캐릭터의 모든 대미지가 #1[f1]% 증가한다."
+        brief: 전장에 표식 존재 시, 캐릭터의 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 1
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a

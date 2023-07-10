@@ -1,0 +1,357 @@
+id: "602"
+fullName: 영기사·월륜
+shortName: 영기사·월륜
+desc: <color=white>특징:</color> <color=#2CE3FFFF>기계 속성</color>의 근거리 전투형 캐릭터. 월식
+  형태에서 강력한 전투 능력을 발휘할 수 있으며, 대량의 뇌전 대미지를 입힌다.
+firstName: 카
+lastName: 후
+enFirstName: Hua
+enLastName: Fu
+attributeType: mech
+isEasterner: true
+weapon: fists
+character: fuhua
+initialStar: s
+tags:
+  - lightning-dmg
+  - bleed
+  - burst
+  - fast-atk
+  - time-mastery
+skills:
+  - id: "291"
+    name: 황호
+    info: "촌심권법을 사용하여 전투한다.\\n<color=#23B2E2FF>촌심권법 육식:\\n1격: 공격력 90%의 물리 대미지\\n2격:
+      공격력 90%의 물리 대미지\\n3격: 공격력 90%의 물리 대미지\\n4격: 공격력 60%*2의 물리 대미지\\n5격: 공격력
+      80%*2의 물리 대미지\\n6격: 공격력 180%의 물리대미지</color>"
+    icon: Skill_Fuka_NL_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2901"
+        name: 흉
+        info: "촌심권법 6연격의 각 단계마다 공격력 #1[f1]%의 뇌전 원소 대미지를 가하고, 소량의 마비 게이지를 누적한다. 월식 형태에서
+          촌심권법이 단계마다 추가로 공격력 #2[f1]%의 뇌전 원소 대미지를 가한다."
+        brief: 기본 공격에 뇌전 원소 대미지가 추가된다
+        icon: Skill_Nagative_Damage02
+        maxLv: 51
+        paramBase1: 0.2
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.006
+        paramAdd2: 0.006
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 1
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+        toggle: false
+        unlockStar: s
+      - id: "2902"
+        name: 어금니
+        info: "촌경·열파 최후의 일격, 사경·단해의 마지막 두 초식, 월식 형태에 진입하는 사경·잔월이 적에게 적중 후 18초 동안, 3번째
+          공격마다 반경 3m안의 적에게 공격력의 #2[f1]% 뇌전 원소 대미지를 입힌다. 월식 형태가 아닐 때 발동할 때마다
+          #3[f1] SP를 회복한다."
+        brief: 열파와 단해, 그리고 월식 형태에서의 잔월로 어금니를 발동하여 3번째 공격마다 범위 내의 적에게 대미지를 입히고 SP를 회복한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 21
+        paramBase1: 0
+        paramBase2: 1
+        paramBase3: 1
+        paramAdd1: 0
+        paramAdd2: 0.1
+        paramAdd3: 0.1
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2903"
+        name: 분노
+        info: "촌경·순진, 사경·열공이 타깃에게 적중 시, 타깃을 잠시 속박 상태로 만들고 #1[f1]% 확률로 5초 동안 매초 #2[i]의 뇌전
+          원소 대미지를 입힌다."
+        brief: 순진, 열공이 적에게 명중 시 적을 속박 상태로 만들고 짧은 시간 동안 매초 뇌전 원소 대미지를 입힌다
+        icon: Skill_Nagative_Skill02
+        maxLv: 21
+        paramBase1: 0.5
+        paramBase2: 200
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 20
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "292"
+    name: <color=#FFC741FF>분기 공격</color> - 영룡
+    info: "촌심권법의 각 초식이 다른 분기 공격으로 연계된다\\n<color=#23B2E2FF>촌경·열파: 140%+180%의 물리
+      대미지\\n촌경·순진: 200%+220%의 물리 대미지\\n촌경·진풍: 100%의 물리 대미지\\n사경·잔월: 풀차지가 아니거나
+      SP부족으로 월식 형태 진입하지 못할 경우 180%의 물리 대미지를 입힌다.</color>"
+    icon: Skill_Fuka_NL_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2904"
+        name: 바람
+        info: "촌경·진풍, 사경·잔월이 적을 다운시킨다. 다운시킨 적이 벽에 부딪히면 <color=#FEDF4CFF>기절 게이지를 3pt
+          누적하고</color>(재사용 대기시간: 4초), <color=#FEDF4CFF>출혈 게이지를 3pt
+          누적한다.</color>"
+        brief: 진풍, 잔월은 적을 다운시키고, 다운시킨 적이 벽에 부딪치면 기절 게이지와 출혈 게이지를 누적한다.
+        icon: Skill_Nagative_Skill01
+        maxLv: 26
+        paramBase1: 80
+        paramBase2: 2.5
+        paramBase3: 0
+        paramAdd1: 4
+        paramAdd2: 0.14
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 1
+            comment: "기절 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: s
+      - id: "2905"
+        name: <color=#FFC741FF>교대기</color> - 운명
+        info: "교대기를 개방한다. 교대 시 지면을 내리찍어 #1[f1]%의 뇌전 원소 대미지를 입힌다."
+        brief: 교대기를 개방한다, 출전 시 지면을 내리찍어 뇌전 원소 대미지를 입힌다
+        icon: Skill_Nagative_StartUp01
+        maxLv: 31
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2906"
+        name: <color=#FFC741FF>QTE</color> - 멸
+        info: "QTE: 적이 빙결 상태일 때 발동한다. 큰 범위의 적에게 공격력 #1[f1]%의 뇌전 원소 대미지를 가하고, 목표와 주위의 작은
+          범위 내의 적에게 추가로 공격력 #2[f1]%의 뇌전 원소 대미지를 가한다"
+        brief: "QTE: 적이 빙결 상태일 때 QTE 출전, 넓은 범위의 적에게 뇌전 원소 대미지를 가하고, 빙결 상태의 적에게 추가로 작은
+          범위의 대미지를 가한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 51
+        paramBase1: 2
+        paramBase2: 1.6
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0.028
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "293"
+    name: 주작
+    info: "고속 이동으로 공격을 회피하며 연속으로 2회 회피할 수 있다.\\n<color=#23B2E2FF>월식 형태가 아닐 때 극한 회피
+      직후 분기 공격 버튼을 누르면 적의 바로 앞으로 신속하게 다가가서 촌경·열파를 발동한다.\\n월식 형태에서 극한 회피 직후 분기 공격
+      버튼을 누르면 적의 바로 앞으로 신속하게 다가가서 사경·열공을 발동한다.\\n방전: 극한 회피 발동 시 큰 범위의 적에게 공격력
+      250%의 뇌전 원소 대미지를 입힌다. 재사용 대기시간: 15초</color>"
+    icon: Skill_Fuka_NL_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2907"
+        name: 잿더미
+        info: "극한 회피 스킬의 재사용 대기시간 #1[f1]초 감소"
+        brief: 극한 회피 스킬 재사용 대기시간 감소
+        icon: Skill_Nagative_Skill02
+        maxLv: 21
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2908"
+        name: 난
+        info: "극한 회피 후 방전이 가하는 뇌전 원소 대미지가 공격력 #1[f1]%만큼 증가한다. 방전이 적 1기에게 공격을 가할 때마다, 자신의
+          SP를 #2[f1]pt 회복하고, 적에게 <color=#FEDF4CFF>출혈 게이지를 3pt 누적한다.</color>"
+        brief: 방전이 추가 대미지를 가하고, SP를 회복하고 적에게 출혈 게이지를 누적한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 16
+        paramBase1: 0.5
+        paramBase2: 0.5
+        paramBase3: 80
+        paramAdd1: 0.08667
+        paramAdd2: 0.1
+        paramAdd3: 6.66667
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "출혈 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: s
+  - id: "294"
+    name: 광룡
+    info: "SP가 60 이상일 경우 사경·잔월을 발동하여 월식 형태에 진입한다. 월식 형태에서 초당 6 SP를 소모하고, 공격으로 SP를 얻을
+      수 없다 또한 적에게 가하는 뇌전 원소 대미지가 40% 증가한다. 최대 60초 동안 지속되며 월식 형태에서 벗어나면 소모한 SP의
+      30%를 돌려받는다.\\n<color=#23B2E2FF>폭발: 월식 형태에 진입하고 (폭발 형태), 주변의 적에게 사경·잔월을 발동해
+      공격력 480%의 물리 대미지를 입힌다.\\n월식 형태 공격:\\n촌심권법 6식: 도합 공격력 860%의 물리 대미지를
+      입힌다.\\n사경·단해: 공격력 180%+240%의 물리 대미지를 입힌다.\\n사경·열공: 공격력 260%+타격마다 공격력
+      5*50%+340%의 물리 대미지를 입힌다.\\n사경·잔월: 공격력 320%의 물리 대미지를 입힌다</color>"
+    icon: Skill_Fuka_NL_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 3
+        comment: "필살기 가동 후의 지면 타격은 강격이다. 축적 능력: 강"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2909"
+        name: 흐림
+        info: "간접적으로 받는 물리 대미지(출혈 등)가 #1[i]% 감소하며, 월식 형태일 때 받는 모든 대미지가 #2[i]% 감소한다.
+          사경·열공 연타 시 받는 모든 대미지가 추가로 #2[i]% 감소한다. 월식 형태에서 사경·열공을 연타할 때마다 공격력
+          #3[f1]%의 뇌전 원소 대미지를 추가로 입히며 적을 자신의 앞으로 끌어당긴다"
+        brief: 각종 초식으로 자신이 받는 대미지를 감소하고 열공 연타 시의 대미지 증가 및 적을 끌어당길 수 있다
+        icon: Skill_Nagative_Survive02
+        maxLv: 21
+        paramBase1: 0.2
+        paramBase2: 0.1
+        paramBase3: 0.4
+        paramAdd1: 0.01
+        paramAdd2: 0.0075
+        paramAdd3: 0.02
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2910"
+        name: 월
+        info: 월식 형태에 진입한 사경·잔월이 지면 타격 시, 적중한 적을 4초 동안 시공 속박하고 <color=#FEDF4CFF>출혈 게이지를
+          12pt 누적한다.</color>
+        brief: 월식 형태에 진입한 잔월이 적에게 적중 시, 피격된 적은 시공 감속에 진입하며 출혈 게이지를 누적한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 61
+        paramBase1: 80
+        paramBase2: 6
+        paramBase3: 0
+        paramAdd1: 1.66667
+        paramAdd2: 0.1
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 2
+            comment: "출혈 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: false
+        unlockStar: ss
+      - id: "2911"
+        name: 인
+        info: "월식 형태에서 사경·잔월로 지면 타격 시 #1[f1]초 동안 유지되는 반경 6m의 일렉트릭 필드를 만들어낸다. 필드 안에 있는 적은
+          0.5초마다 #2[f1]의 뇌전 원소 대미지를 입는다. 필드 안에 있을 때 자신의 뇌전 원소 대미지가 초당 #3[f1]%씩
+          증가한다, 최대 10회 중첩. 필드 이탈 3초 후 초당 같은 수치로 감소한다. 일렉트릭 필드는 스테이지에 하나만 존재할 수
+          있다. 월식 형태에서 사경·잔월을 한 번 더 사용하면 일렉트릭 필드의 위치를 바꿀 수 있다"
+        brief: 월식 형태에서 잔월을 발동 시 일렉트릭 필드를 생성한다. 필드는 적에게 뇌전 원소 대미지를 입히고 자신의 뇌전 원소 대미지를
+          증가시킨다
+        icon: Skill_Nagative_Damage03
+        maxLv: 21
+        paramBase1: 10
+        paramBase2: 80
+        paramBase3: 0.01
+        paramAdd1: 0.5
+        paramAdd2: 6
+        paramAdd3: 0.002
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "295"
+    name: 사무
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>조락: {{모든 파티원의 원소 대미지 #1[i]%
+      증가, 키아나, 메이, 브로냐 이외의 캐릭터가 출전 시 초기 SP #2[i] 증가.}}</color>"
+    icon: Skill_Fuka_FK_005
+    skillType: leader
+    tags: []
+    paramSubId1: 2912
+    paramSubId2: 2912
+    paramSubId3: 0
+    subSkills:
+      - id: "2912"
+        name: 조락
+        info: "모든 파티원의 원소 대미지가 #1[i]% 증가하고, 파티원(키아나, 메이, 브로냐 제외)의 전투 중 초기 SP가 #2[i]
+          증가한다. 오픈 월드에서는 초기 SP 증가 효과가 10분에 한 번씩 발동한다"
+        brief: 모든 파티원의 원소 대미지가 증가하고 키아나, 메이, 브로냐 이외의 캐릭터를 사용 시 SP가 추가로 증가한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 2
+        paramBase1: 0.26
+        paramBase2: 40
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 10
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "296"
+    name: 패시브 스킬
+    info: 패시브 스킬은 자동으로 발동한다.\n<color=#23B2E2FF></color>
+    icon: Skill_Fuka_FK_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2913"
+        name: 붕심
+        info: "월식 형태에서 매초 #1[f1]%의 확률로 방전을 1회 발동해 3.5m 범위 내의 적에게 <color=#FEDF4CFF>마비
+          게이지를 3pt 누적한다.</color>"
+        brief: 월식 형태에서 매초 일정 확률로 중간 범위의 적에게 마비 게이지를 누적한다.
+        icon: Skill_Nagative_Control02
+        maxLv: 25
+        paramBase1: 0.08
+        paramBase2: 0.8
+        paramBase3: 0
+        paramAdd1: 0.005
+        paramAdd2: 0.05
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 1
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: true
+        unlockStar: sss
+      - id: "2914"
+        name: 무심
+        info: "공격, 이동 속도 감소 혹은 출혈 상태의 적을 공격 시 가하는 모든 대미지가 #1[f1]% 증가한다"
+        brief: 출혈 혹은 이동 속도가 감소된 적을 공격 시 가하는 모든 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 31
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2915"
+        name: 실심
+        info: "월식 형태 발동 후 #1[f1]초 동안 후카의 공격 속도가 #2[f1]% 증가하고, 사경·단해 혹은 사경·열공의 마지막 공격이 명중
+          시, 2.5초 동안 슈퍼아머 상태가 되어 받는 모든 대미지가 #3[f1]% 감소한다"
+        brief: 월식 형태 발동 후 6초 동안 공격 속도가 증가하고 단해, 열공이 적에게 적중 시 슈퍼아머 상태가 되고 받는 모든 대미지를
+          감소시킨다
+        icon: Skill_Nagative_Skill02
+        maxLv: 51
+        paramBase1: 6
+        paramBase2: 0.05
+        paramBase3: 0.3
+        paramAdd1: 0.08
+        paramAdd2: 0.002
+        paramAdd3: 0.006
+        tags: []
+        toggle: false
+        unlockStar: ss

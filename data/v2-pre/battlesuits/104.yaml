@@ -1,0 +1,327 @@
+id: "104"
+fullName: 성녀의 기도
+shortName: 성녀의 기도
+desc: <color=white>특징:</color> <color=#FF66CCFF>이능 속성</color>의 근거리 전투형 캐릭터. 자가
+  치유가 가능하여, 장기전에 특화되어있다.
+firstName: 키아나
+lastName: 카스라나
+enFirstName: Kiana
+enLastName: Kaslana
+attributeType: psy
+isEasterner: false
+weapon: pistols
+character: kiana
+initialStar: a
+tags:
+  - physical-dmg
+  - heal
+  - impair
+  - burst
+  - time-mastery
+skills:
+  - id: "41"
+    name: 유성의 표적
+    info: "4연속 발차기\\n<color=#23B2E2FF>1격: 공격력 100%의 물리 대미지\\n2격: 공격력 100%의 물리
+      대미지\\n3격: 공격력 100%의 물리 대미지\\n4격: 공격력 300%의 범위 물리 대미지</color>"
+    icon: Skill_Kiana_PT_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "401"
+        name: 혜성 코어 수호
+        info: "기본 공격이 #1[f1]% 확률로 적을 허약 상태로 만들어 적의 공격력을 4초 동안 #2[f1]% 감소시킨다."
+        brief: 기본 공격이 일정 확률로 적을 허약 상태로 만들 수 있다
+        icon: Skill_Nagative_Control01
+        maxLv: 40
+        paramBase1: 0.03
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0.00308
+        paramAdd2: 0.00769
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "402"
+        name: 성운 상승
+        info: "기본 공격이 크리티컬 시 #1[f1]%의 확률로 모든 파티원들의 HP를 #2[i] 회복한다."
+        brief: 기본 공격이 크리티컬 시 일정 확률로 모든 파티원의 HP를 회복시킨다
+        icon: Skill_Nagative_Survive02
+        maxLv: 35
+        paramBase1: 0.05
+        paramBase2: 5
+        paramBase3: 0
+        paramAdd1: 0.00735
+        paramAdd2: 1.32353
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "42"
+    name: <color=#FFC741FF>분기 공격</color> - 유성의 화살
+    info: "3연속 발차기 후 회전 킥과 날아 차기\\n<color=#23B2E2FF>회전 차기: 공격력의 150%*3 물리 대미지\\n날아
+      차기: 공격력의 200% 물리 대미지를 입히고 적을 넉백시킨다.</color>"
+    icon: Skill_Kiana_QN_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "403"
+        name: <color=#FFC741FF>QTE</color> - 낙하 충격
+        info: "QTE: 적이 마비 상태일 때 발동\\n발동 시 강력한 회오리킥을 날리며 공격력 240% + #1[i]의 물리 대미지를 입힌다,
+          마지막 일격이 적에게 적중 시 파티원의 HP를 #2[i] 회복한다"
+        brief: "QTE: 마비 상태의 적에게 QTE 사용 시 강력 회오리 킥을 발동해 근거리 적에게 물리 대미지를 가하고 자신의 HP를
+          회복한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 30
+        paramBase1: 555
+        paramBase2: 20
+        paramBase3: 0
+        paramAdd1: 103.72414
+        paramAdd2: 2.77931
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+      - id: "404"
+        name: 낙하 집중 폭격
+        info: "분기 공격의 크리티컬률 #1[f1]% 증가"
+        brief: 분기 공격의 크리티컬률이 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 5
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0625
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "412"
+        name: <color=#FFC741FF>교대기</color> - 초신성의 불꽃
+        info: 출전 시 앞차기를 발동해 공격력 200%+#1[i]%의 물리 대미지를 가한다. 공중에 띄워진 적에게 적중 시, 적을 5초 동안
+          기절시키고 <color=#FEDF4CFF>기절 게이지를 5pt 누적한다.</color>
+        brief: 출전 시 앞차기를 발동해 적에게 물리 대미지를 가하고, 공중에 띄워진 적에게 적중 시 기절 게이지를 누적한다.
+        icon: Skill_Nagative_StartUp01
+        maxLv: 30
+        paramBase1: 1
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.06897
+        paramAdd2: 0.06897
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 1
+            comment: "기절 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: a
+  - id: "43"
+    name: 시공의 사슬
+    info: "적의 공격을 신속하게 굴러서 회피하며 연속으로 2회 회피할 수 있다.\\n<color=#23B2E2FF>시공의 사슬: 극한 회피 시
+      4초 동안 공격한 적을 공중에 띄우고 시공 속박 상태로 만든다. 재사용 대기시간: 8초</color>"
+    icon: Skill_Kiana_QN_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "405"
+        name: 초신성 균열
+        info: "극한 회피 시 모든 파티원의 HP를 #1[f1] 회복한다."
+        brief: 극한 회피 시 파티원의 HP를 회복시킨다
+        icon: Skill_Nagative_Survive02
+        maxLv: 70
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.36232
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "413"
+        name: 시공 냉각
+        info: "시공 속박 지속 시간이 #1[f1]초로 연장되고, 적에게 <color=#FEDF4CFF>출혈 게이지를 3pt
+          누적한다.</color>"
+        brief: 시공 속박 지속 시간이 연장되고, 적에게 출혈 게이지를 누적한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 40
+        paramBase1: 5.2
+        paramBase2: 0.02
+        paramBase3: 0
+        paramAdd1: 0.07179
+        paramAdd2: 0.00128
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "출혈 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: a
+      - id: "414"
+        name: 시공의 반짝임
+        info: "극한 회피 효과 발동 가능 횟수 #1[i]회 추가, 재사용 대기시간 #2[f1]초 감소"
+        brief: 극한 회피의 발동 회수가 1회 증가하고 재사용 대기시간이 감소한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 5
+        paramBase1: 1
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.5
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "44"
+    name: 발키리의 가호
+    info: "신성한 에너지를 폭발 시켜 성광(聖光) 상태에 진입한다.\\n<color=#23B2E2FF>폭발: 폭발 상태에 진입해 SP를
+      지속적으로 소모하며, 공격을 강화하고 전체 시공 단열을 발동한다.\\n성광(聖光): 스킬 습득 후 0.5초마다 모든 파티원의 HP를
+      회복시킨다.\\nSP가 75를 초과했을 때 20 SP 소모로 발동하고, SP를 소진할 때까지 초당 10 SP씩 소모한다. 최대 지속
+      시간: 60초. 필살기 발동 20초 후 초당 SP 소모량 증가</color>"
+    icon: Skill_Kiana_QN_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "폭발 상태의 4격과 분기 마지막 일격은 강격이다. 축적 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "406"
+        name: 발키리의 성수
+        info: "폭발 상태 진입 순간, 모든 파티원의 HP를 #1[i] 회복한다."
+        brief: 폭발 상태 진입 순간 모든 파티원의 HP를 회복시킨다
+        icon: Skill_Nagative_Control03
+        maxLv: 60
+        paramBase1: 80
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 4.0678
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "407"
+        name: 발키리 축복
+        info: "폭발 기간 동안 0.5초마다 모든 파티원의 HP를 #1[f1] 회복한다. 소환물(분신 등)에도 적용된다."
+        brief: 폭발 상태가 지속되는 동안 모든 파티원의 HP를 회복시킨다
+        icon: Skill_Nagative_Survive01
+        maxLv: 73
+        paramBase1: 8.96
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.80889
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "408"
+        name: 발키리의 폭류
+        info: "폭발 기간 중, 모든 파티원의 이동 속도가 #1[i]%, 공격 속도가 #2[i]% 증가한다."
+        brief: 폭발 상태가 지속되는 동안 모든 파티원의 이동 속도와 공격 속도가 증가한다
+        icon: Skill_Nagative_Survive02
+        maxLv: 20
+        paramBase1: 0.1
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.02105
+        paramAdd2: 0.01053
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "45"
+    name: 성운 가호
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>성운 수호: {{모든 파티원의 화염, 빙결, 뇌전
+      원소 대미지가 #1[i]% 증가하고, 받는 화염, 빙결, 뇌전 원소 대미지가 #2[i]% 감소한다}}</color>"
+    icon: Skill_Kiana_PT_005
+    skillType: leader
+    tags: []
+    paramSubId1: 409
+    paramSubId2: 409
+    paramSubId3: 0
+    subSkills:
+      - id: "409"
+        name: 성운 가호
+        info: "모든 파티원의 화염, 뇌전, 빙결 원소 대미지가 #1[i]% 증가하고, 받는 원소 대미지가 #2[i]% 감소한다"
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Survive03
+        maxLv: 3
+        paramBase1: 0.24
+        paramBase2: 0.22
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "46"
+    name: 패시브 스킬
+    info: 패시브 스킬은 자동으로 발동한다.\n<color=#23B2E2FF></color>
+    icon: Skill_Kiana_PT_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "410"
+        name: 초신성의 반짝임
+        info: "파티원이 전투 불능 상태가 되기 직전 자동으로 교대하고 HP를 #1[i] 회복시킨다. 스테이지마다 한 번만 발동한다"
+        brief: 파티원이 전투 불능 상태가 되기 직전에 자동으로 교체하여 파티원의 HP를 회복시킨다
+        icon: Skill_Nagative_Survive02
+        maxLv: 26
+        paramBase1: 30
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 22.8
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "411"
+        name: 천벌
+        info: "대기 중 10초마다 임의의 적에게 천벌을 내려, #1[i]의 뇌전 원소 대미지를 입히고 취약 상태로 만들어 #2[f1]초 동안
+          방어력을 #3[f1]% 감소시킨다"
+        brief: 대기 상태일 때 10초마다 랜덤으로 적에게 뇌전 대미지를 입히고 취약 상태로 만든다
+        icon: Skill_Nagative_Survive01
+        maxLv: 60
+        paramBase1: 88
+        paramBase2: 5
+        paramBase3: 0.5
+        paramAdd1: 17.20339
+        paramAdd2: 0.01695
+        paramAdd3: 0.00508
+        tags: []
+        toggle: true
+        unlockStar: a
+      - id: "415"
+        name: 신성한 빛
+        info: "교대 시 캐릭터에게 걸려있는 대부분의 디버프를 지우고, #1[f1]초 동안 자신의 방어력을 #2[f1]% 증가시킨다."
+        brief: 출전 시 모든 파티원에게 걸려있는 대부분의 디버프를 지우고 자신의 방어력을 증가시킨다
+        icon: Skill_Nagative_Survive03
+        maxLv: 5
+        paramBase1: 2.5
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.375
+        paramAdd2: 0.075
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

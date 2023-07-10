@@ -1,0 +1,348 @@
+id: "402"
+fullName: 퓨전 아머·스칼렛
+shortName: 퓨전 아머·스칼렛
+desc: <color=white>특징:</color> <color=#2CE3FFFF>기계 속성</color>의 근거리 전투형 캐릭터. 퍼팩트
+  콤보 시, 충격파를 발산할 수 있다.
+firstName: 히메코
+lastName: 무라타
+enFirstName: Himeko
+enLastName: Murata
+attributeType: mech
+isEasterner: true
+weapon: 2-handed
+character: himeko
+initialStar: a
+tags:
+  - lightning-dmg
+  - heavy-atk
+  - burst
+  - paralyze
+skills:
+  - id: "141"
+    name: 대검
+    info: "기본 공격: 3연속 공격으로 퍼펙트 콤보 시 경직 저항력이 증가한다.\\n<color=#23B2E2FF>3연속 공격：공격력
+      150%，180%，250%의 물리 대미지\\n퍼펙트 콤보：캐릭터 몸에 생성된 고리가 빛날 때 공격 버튼을 누르면 다음 공격의
+      크리티컬률이 15% 증가한다.\\n퍼펙트 콤보를 2번 연속 발동 시(매 2번의 간격이 2초 이내) 무기를 잠시 동안 충전한다. 이때
+      10초 안에 돌진해 선풍 광인를 날려 공격력 3*200%의 뇌전 원소 대미지를 입힌다</color>"
+    icon: Skill_Himeko_NX_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1401"
+        name: 참격 리듬
+        info: "퍼펙트 콤보 발동 시 다음 공격의 크리티컬률이 추가로 #1[f1]% 증가하고, 추가로 #2[i]%의 뇌전 원소 대미지를
+          입힌다.\\n선풍 광인의 뇌전 원소 대미지가 공격력 #3[i]%만큼 증가한다"
+        brief: 퍼펙트 콤보 시 이번 공격의 크리티컬률이 증가하고 뇌전 원소 대미지가 추가된다. 회전 광검의 대미지 증가
+        icon: Skill_Nagative_Damage01
+        maxLv: 35
+        paramBase1: 0.05
+        paramBase2: 0.7
+        paramBase3: 2.5
+        paramAdd1: 0.00294
+        paramAdd2: 0.01471
+        paramAdd3: 0.07356
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1402"
+        name: 참격 조율
+        info: "퍼펙트 콤보 발동 후 경직 저항력이 증가하고, #2[f1]초 동안 받는 모든 대미지가 #1[i]% 감소한다.\\n선풍 광인의 타격
+          판정마다 자신의 SP를 #3[f1]  회복한다"
+        brief: 퍼펙트 콤보 후 경직 저항력이 한 단계 더 증가하고 받는 모든 대미지가 감소한다. 회전 광검이 적에게 적중 시 자신의 HP를 회복할
+          수 있다
+        icon: Skill_Nagative_Survive02
+        maxLv: 18
+        paramBase1: 0.25
+        paramBase2: 1.2
+        paramBase3: 2
+        paramAdd1: 0.01471
+        paramAdd2: 0.03529
+        paramAdd3: 0.11824
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1403"
+        name: 참격 악센트
+        info: "기본 공격 제3격이 퍼펙트 콤보 발동 시, 경직력이 증가하고, #1[f1]%의 확률로 적에게 <color=#FEDF4CFF>마비
+          게이지를 10pt 누적한다.</color> 재사용 대기시간: 8초"
+        brief: 기본 공격 제3격이 퍼펙트 콤보 발동 시, 경직 저항력이 증가하고, 일정 확률로 적에게 마비 게이지를 누적한다.
+        icon: Skill_Nagative_Control02
+        maxLv: 21
+        paramBase1: 0.5
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0.06005
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 2
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: false
+        unlockStar: sss
+  - id: "142"
+    name: <color=#FFC741FF>차지</color> - 퓨전 임팩트
+    info: "제자리에서 차지한 후 전방으로 돌진해 적을 띄운다.\\n<color=#23B2E2FF>돌진 베기: 공격 버튼을 누르고 있으면 발동.
+      적을 밀어내며 돌진하고, 공격 버튼을 떼는 순간 바로 앞에 있는 적을 띄우고 공격력의 400% 물리 대미지를 입힌다.\\n돌진 공격:
+      돌진 중 공격 버튼을 누르면 내려찍기로 적에게 공격력의 500% 물리 대미지를 입힌다. </color>"
+    icon: Skill_Himeko_NX_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 1
+        comment: "QTE와 돌진 공격은 강격이다. 축적 능력: 중"
+      - type: paralyze
+        strength: 1
+        comment: "QTE로 마비 축적 가능. 축적 능력: 극약"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1404"
+        name: 맹렬한 돌격
+        info: "돌진 과정 중 타격 판정마다 #1[i]의 뇌전 원소 대미지를 추가한다"
+        brief: 돌진 과정에 뇌전 원소 대미지를 가할 수 있다
+        icon: Skill_Nagative_Damage01
+        maxLv: 30
+        paramBase1: 80
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 4.17241
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1405"
+        name: <color=#FFC741FF>교대기</color> - 승룡검
+        info: "교대기: 돌진 베기로 적을 띄우고 공격력의 #1[i]% 물리 대미지를 입힌다."
+        brief: 출전 시 돌진 베기로 적을 띄우고 물리 대미지를 입힌다
+        icon: Skill_Nagative_StartUp02
+        maxLv: 38
+        paramBase1: 2.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05405
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1406"
+        name: <color=#FFC741FF>QTE</color> - 퓨전 승룡검
+        info: "QTE: 적이 시공 감속 상태일 때 발동한다. 적을 공중에 띄워 공격력 #1[i]%의 물리 대미지를 가하고, 빛의 칼날을 발사한다.
+          빛의 칼날은 #2[i]의 뇌전 원소 대미지를 가하고, <color=#FEDF4CFF>마비 게이지를 5pt
+          누적한다.</color>"
+        brief: "QTE: 적이 시공 감속 상태일 때 QTE 출전, 적을 공중에 띄우고 빛의 칼날을 발사해 적에게 마비 게이지를 누적한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 19
+        paramBase1: 4
+        paramBase2: 750
+        paramBase3: 0
+        paramAdd1: 0.11389
+        paramAdd2: 77.77778
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 1
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: true
+        unlockStar: s
+  - id: "143"
+    name: 펄스 추진
+    info: "적의 공격을 굴러서 회피한다. 2회 연속 회피할 수 있다.\\n<color=#23B2E2FF>원자력 추진: 극한 회피 후 3초
+      동안, 이동 속도가 40% 증가하고, 극한 회피 도중 공격 버튼을 누르면 내려찍기를 발동할 수 있다.\\n핵융합 충전: 극한 회피 후
+      5초 동안 전자기 충전 상태가 되어 경직 저항력이 증가한다. 재사용 대기시간: 15초\\n전자기 폭발: 충전 상태에서 적을 공격하면
+      전자기 폭발을 일으켜 타깃 주변의 적에게 공격력 80%의 뇌전 원소 대미지를 가하고</color> <color=#FEDF4CFF>마비
+      게이지를 5pt 누적한다.</color><color=#23B2E2FF></color>"
+    icon: Skill_Himeko_NX_003
+    skillType: evasion
+    tags:
+      - type: paralyze
+        strength: 1
+        comment: "마비 이상 게이지 누적 가능, 누적 능력: 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1407"
+        name: 급속 냉각
+        info: "전자기 충전 재사용 대기시간 #1[f1]초 감소"
+        brief: 전자기 충전 재사용 대기시간 감소
+        icon: Skill_Nagative_Survive01
+        maxLv: 37
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05556
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1408"
+        name: 강화 용해로
+        info: "전자기 충전의 지속 시간을 #1[f1]초 연장하며 전자기 폭발의 뇌전 원소 대미지가 공격력 #2[i]%만큼 증가한다"
+        brief: 전자기 충전 지속 시간을 연장하고 전자기 폭발로 추가 뇌전 원소 대미지를 입힐 수 있다
+        icon: Skill_Nagative_Damage01
+        maxLv: 17
+        paramBase1: 1
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: 0.125
+        paramAdd2: 0.12563
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "144"
+    name: Nexus 기동
+    info: "발키리 상태에 진입하여 모든 공격을 강화한다.\\n<color=#23B2E2FF>폭발: 폭발 상태에 진입해 대부분 공격을 강화하고
+      공격 속도, 경직력이 증가한다.\\nSP가 100 이상일 때 20 SP를 소모해 발동하고, SP를 소진할 때까지 초당 10 SP씩
+      소모한다. 최대 지속 시간: 60초</color>"
+    icon: Skill_Himeko_NX_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "필살기 발동 후의 공격과 폭발 상태의 3번째 연격 및 돌진 베기는 강격이다. 축적 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1409"
+        name: 아토믹 어택
+        info: "폭발 상태에서 매 공격마다 직선으로 관통하는 빛의 칼날이 방출되어 적중된 적에게 공격력의 #1[i]% 뇌전 원소 대미지를 입힌다."
+        brief: 폭발 상태에서의 공격할 때마다 적을 관통하는 빛의 칼날을 방출하여 뇌전 원소 대미지를 입힌다
+        icon: Skill_Nagative_Damage02
+        maxLv: 60
+        paramBase1: 1.8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0239
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1410"
+        name: 핵융합 폭렬
+        info: "폭발 발동 순간 주변 적에게 공격력 #1[f1]%의 뇌전 원소 대미지를 가하고, 적에게 <color=#FEDF4CFF>마비 게이지를
+          5pt 누적한다.</color>"
+        brief: 폭발 발동 순간 주변 적에게 뇌전 대미지를 가하고, 마비 게이지를 누적한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 25
+        paramBase1: 1.6
+        paramBase2: 1.5
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0.0625
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 1
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: s
+      - id: "1411"
+        name: 플라즈마 열상
+        info: 폭발 상태에서 3연격의 빛의 칼날은 적에게 <color=#FEDF4CFF>출혈 게이지를 3pt 누적한다.</color>
+        brief: 폭발 상태에서 3연격의 빛의 칼날은 적에게 출혈 게이지를 누적한다.
+        icon: Skill_Nagative_Skill01
+        maxLv: 15
+        paramBase1: 50
+        paramBase2: 1.6
+        paramBase3: 0
+        paramAdd1: 5
+        paramAdd2: 0.1
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "출혈 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: ss
+  - id: "145"
+    name: 핵융합 무장
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>핵융합 무장: {{모든 파티원의 교대기 사용 시
+      입히는 모든 대미지가 #1[i]% 증가한다.}}</color>"
+    icon: Skill_Himeko_VV_005
+    skillType: leader
+    tags: []
+    paramSubId1: 1412
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1412"
+        name: 핵융합 무장
+        info: "모든 파티원의 교대기 사용 시 입히는 모든 대미지가 #1[i]% 증가한다."
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "146"
+    name: 패시브 스킬
+    info: 패시브 스킬은 자동으로 발동한다.\n<color=#23B2E2FF></color>
+    icon: Skill_Himeko_VV_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1413"
+        name: 핵에너지 방어
+        info: "캐릭터가 받는 대부분의 상태 이상 지속 시간을 #1[i]% 감소한다."
+        brief: 캐릭터가 받는 대부분의 상태 이상 지속 시간이 감소한다
+        icon: Skill_Nagative_Survive01
+        maxLv: 24
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01304
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1414"
+        name: 실드 관통
+        info: "엘리트 실드가 파괴되지 않은 적을 공격 시 공격마다 #1[i]의 뇌전 원소 대미지를 추가로 입힌다"
+        brief: 엘리트 실드가 파괴되지 않은 적을 공격 시 추가 뇌전 원소 대미지를 입힌다
+        icon: Skill_Nagative_Damage01
+        maxLv: 30
+        paramBase1: 180
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 14.55172
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1415"
+        name: 잔인한 추격
+        info: "연소, 출혈 상태의 적을 공격 시 모든 대미지가 #1[f1]% 증가한다."
+        brief: 연소, 출혈 상태의 적을 공격 시 모든 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 25
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00833
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

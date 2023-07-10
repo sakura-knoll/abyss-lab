@@ -1,0 +1,307 @@
+id: "303"
+fullName: 설원 저격수
+shortName: 설원 저격수
+desc: <color=white>특징:</color> <color=#FFAF2CFF>생물 속성</color>의 원거리 전투형 캐릭터. 차지
+  공격에 특화되어있으며, 적들을 긴 시간 빙결 상태로 만들 수 있다.
+firstName: 브로냐
+lastName: 자이칙
+enFirstName: Bronya
+enLastName: Zaychik
+attributeType: bio
+isEasterner: false
+weapon: cannon
+character: bronya
+initialStar: a
+tags:
+  - physical-dmg
+  - freeze
+skills:
+  - id: "101"
+    name: <color=#FFC741FF>차지</color> - 중입자포
+    info: "차지할수록 강력해지는 포격\\n<color=#23B2E2FF>암 스위치: 장비한 무기에 따라 차지 공격이 바뀐다.</color>"
+    icon: Skill_Bronya_ZP_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1001"
+        name: 완전 충전
+        info: "차지 단계가 바뀌는 순간 공격 버튼을 떼면 다음 공격의 크리티컬률이 #1[f1]% 증가한다."
+        brief: 차지 단계가 바뀌는 순간 공격 버튼을 떼면 크리티컬률이 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 25
+        paramBase1: 0.18
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.005
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "1002"
+        name: 충격 반사
+        info: "차지하는 동안 공격을 받으면 강제 회피한다. #1[f1]초마다 1번 발동할 수 있으며, 차지를 중단하지 못한다"
+        brief: 차지하는 동안 적의 공격을 받으면 자동으로 회피한다
+        icon: Skill_Nagative_Survive03
+        maxLv: 30
+        paramBase1: 8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: -0.13793
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1014"
+        name: 파이널 차지
+        info: "3단 차지에 진입하는 순간 공격 버튼에서 손을 떼면, 다음 공격의 크리티컬 대미지가 #1[i]% 증가한다."
+        brief: 3단 차지에 진입하는 순간 발사하면 이번 공격의 크리티컬 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 20
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00526
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "102"
+    name: <color=#FFC741FF>교대기</color> - 눈꽃의 흔적
+    info: "교대기: 교대 즉시 차원 회피를 발동한다.\\n<color=#23B2E2FF>순간 회피: 차원 회피 스킬의 효과를
+      발동</color>"
+    icon: Skill_Bronya_ZP_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1003"
+        name: 긴급 회피
+        info: "공격 받는 순간 교대하면 #2[f1]초 동안 이동 속도가 #1[f1]% 증가한다."
+        brief: 교대 회피 후 이동 속도가 증가한다
+        icon: Skill_Nagative_StartUp01
+        maxLv: 30
+        paramBase1: 0.2
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.00345
+        paramAdd2: 0.17241
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "1004"
+        name: <color=#FFC741FF>QTE</color> - 프로스트 노바
+        info: "QTE: 적이 공중에 띄워졌을 때 발동한다. 넓은 범위의 적에게 공격력 #1[i]%의 물리 대미지를 가하고,
+          <color=#FEDF4CFF>빙결 게이지를 5pt 누적한다.</color>"
+        brief: "QTE: 적이 공중에 띄워졌을 때 QTE 출전, 넓은 범위의 적에게 빙결 게이지를 누적하고 물리 대미지를 가한다."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 30
+        paramBase1: 2.8
+        paramBase2: 1.5
+        paramBase3: 0
+        paramAdd1: 0.08276
+        paramAdd2: 0.03448
+        paramAdd3: 0
+        tags:
+          - type: freeze
+            strength: 1
+            comment: "빙결 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: true
+        unlockStar: a
+  - id: "103"
+    name: 차원 회피
+    info: "잠시 다른 차원으로 들어가 적의 공격을 회피한다.\\n<color=#23B2E2FF>혹한의 중심: 공격한 적에게 공격력 60%의
+      빙결 원소 대미지를 가한다.\\n극한 회피: 공격한 적에게</color> <color=#FEDF4CFF>빙결 게이지를 6pt
+      누적하고,</color> <color=#23B2E2FF>주변 적들의 이동 속도와 공격 속도를 7초 동안 50%
+      감소시킨다.</color>"
+    icon: Skill_Bronya_ZP_003
+    skillType: evasion
+    tags:
+      - type: freeze
+        strength: 2
+        comment: "빙결 이상 게이지 누적 가능, 누적 능력: 보통"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1005"
+        name: 눈의 땅
+        info: "극한 회피 후 적의 이동 속도 저하 효과의 지속 시간이 #1[f1]초로 연장되며 감속률이 #2[i]%가 된다."
+        brief: 극한 회피 스킬의 효과가 강화된다
+        icon: Skill_Nagative_Survive02
+        maxLv: 30
+        paramBase1: 7.5
+        paramBase2: 0.5
+        paramBase3: 0
+        paramAdd1: 0.08621
+        paramAdd2: 0.01034
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1006"
+        name: 입자 재생성
+        info: "극한 회피 효과 재사용 대기시간: #1[f1]초 감소"
+        brief: 회피 효과의 재사용 대기시간이 감소한다
+        icon: Skill_Nagative_Survive03
+        maxLv: 20
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.13158
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1007"
+        name: 냉동 역장
+        info: "극한 회피로 인해 이동 속도가 감소된 적의 공격 속도를 #1[i]% 감소시킨다."
+        brief: 극한 회피는 공격한 적의 주변에 있는 적들의 공격 속도를 감소시킨다
+        icon: Skill_Nagative_Survive01
+        maxLv: 35
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01176
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+  - id: "104"
+    name: снег
+    info: "북극설을 소환해 모든 적을 얼려버린다.\\n<color=#23B2E2FF>극저온의 땅: 모든 적에게</color>
+      <color=#FEDF4CFF>빙결 게이지를 18pt 누적한다.</color><color=#23B2E2FF>\\n얼음 폭발: 빙결
+      상태가 끝나면 적에게 공격력 150%의 빙결 대미지를 가한다.\\n발동 시 소모 SP: 75</color>"
+    icon: Skill_Bronya_JJ_004
+    skillType: ultimate
+    tags:
+      - type: freeze
+        strength: 3
+        comment: "빙결 이상 게이지 누적 가능, 누적 능력: 강함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1008"
+        name: 극지 빙한
+        info: "필살기 발동 후, 자신의 모든 대미지가 #1[f1]% 증가하고, 차지 속도가 #2[f1]% 증가한다. 지속 시간: 12초"
+        brief: 필살기 사용 후 모든 대미지가 증가하고, 차지 속도가 증가한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 25
+        paramBase1: 0.2
+        paramBase2: 0.12
+        paramBase3: 0
+        paramAdd1: 0.00833
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1009"
+        name: 저격 속박
+        info: "혹한의 땅의 영향을 받은 적이 고정 상태에 진입한다. 지속 시간: 12초. 적이 받는 물리 대미지가 #1[f1]% 증가하고,
+          파티원이 고정 상태의 적에게 가하는 물리 대미지가 #2[f1]% 증가한다."
+        brief: 필살기 영향을 받은 적이 받는 대미지가 증가하고, 파티원이 고정 상태의 적에게 가하는 물리 대미지가 증가한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 30
+        paramBase1: 0.15
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.0069
+        paramAdd2: 0.00172
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "105"
+    name: 인갑일체!
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>인갑일체: {{모든 파티원의 극한 회피/완벽 방어
+      스킬의 재사용 대기시간이 #1[f1]초 감소한다.}}</color>"
+    icon: Skill_Bronya_ZP_005
+    skillType: leader
+    tags: []
+    paramSubId1: 1010
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1010"
+        name: 인갑일체!
+        info: "모든 파티원의 극한 회피/퍼펙트 가드 효과 재사용 대기시간이 #1[f1]초 감소한다."
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Skill02
+        maxLv: 3
+        paramBase1: 3.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "106"
+    name: 패시브 스킬
+    info: 패시브 스킬은 자동으로 발동한다.\n<color=#23B2E2FF></color>
+    icon: Skill_Bronya_ZP_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1011"
+        name: 광선 재생성
+        info: "실드에 가하는 대미지 #1[f1]% 증가"
+        brief: 실드에 가하는 대미지가 증가한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 60
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00508
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1012"
+        name: 구속 역장
+        info: "적의 공격을 받으면 #1[f1]%의 확률로 공격자를 정지 상태로 만들어 #3[f1]%의 물리 대미지를 추가로 입힌다, 지속 시간:
+          #2[f1]초"
+        brief: 피격 시 일정 확률로 적이 받는 피해를 증가시킨다
+        icon: Skill_Nagative_Skill02
+        maxLv: 25
+        paramBase1: 0.1
+        paramBase2: 3
+        paramBase3: 0.2
+        paramAdd1: 0.0125
+        paramAdd2: 0.125
+        paramAdd3: 0.00417
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1013"
+        name: 입자 제약
+        info: "5m 이상 떨어진 적에게 크리티컬 대미지가 #1[f1]% 증가한다."
+        brief: 5m 이상 떨어진 적에게 가하는 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 25
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00833
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss

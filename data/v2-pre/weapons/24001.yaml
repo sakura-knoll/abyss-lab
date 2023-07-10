@@ -1,0 +1,314 @@
+id: "24001"
+weapons:
+  - id: "24011"
+    rarity: 5
+    maxLv: 50
+    type: katana
+    name: 어령도 한옥빙천
+    description: 눈보라가 휘감겨 있는 얼음처럼 투명한 혼강 태도. 기록에 따르면 고대 문명 “불을 쫓는 나방” 조직의 어떤 전사가
+      사용하던 무기라고 한다. 하지만 태도는 오랜 시간이 흐르며 유실되었고 사용자의 행방을 기록한 자료도 매우 드물다. 현재 오직 천명성
+      1504연구소의 소장만이 홀로 이 무기의 숨겨진 비밀을 조사하고 있다
+    icon: Weapon_Katana_M34_249_5
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 82.03125
+    attackAdd: 4.101562
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 5.933534
+    criticalAdd: 0.370846
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1106"
+        name: 빙천동운
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 25초]</color> 12초 동안 캐릭터를 따라다니는 결계를
+          생성한다. 결계 유지 기간, 캐릭터가 받는 모든 대미지가 50% 감소하고, 경직 저항력이 증가한다. 결계 내의 적은 받는 빙결
+          원소 대미지가 #1[f1]% 증가하고, 빙결될 때까지 이동 속도와 공격 속도가 점점 감소하며, 마지막 빙결까지 0.5초마다
+          <color=#FEDF4CFF>빙결 게이지를 0.9pt 누적한다.</color> 결계 유지 기간, 최대 1회 무기 스킬 버튼
+          터치로 특수 공격을 사용해 전방의 적에게 공격력 300%+#2[i]%의 빙결 원소 대미지를 가한다(결계 종료 후 재사용
+          대기시간을 계산한다)."
+        icon: Skill_Mei_Weapon_33
+        skillCd: 25
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: freeze
+            comment: "빙결 이상 게이지 누적 가능, 누적 능력: 강함"
+        param1: 0.16
+        param1Add: 0.000393
+        param2: 5
+        param2Add: 0.0131
+        param3: 0
+        param3Add: 0
+      - id: "2133"
+        name: 빙가라
+        info: "캐릭터 빙결 원소 대미지 #1[i]% 증가"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.35
+        param1Add: 0.000437
+        param2: 0
+        param2Add: 0
+        param3: 0
+        param3Add: 0
+      - id: "2134"
+        name: 고한지옥
+        info: "5초마다 1회 충전하여 다음 공격이 적중 시 목표 및 주변의 적에게 공격력 #1[i]%의 빙결 원소 대미지를 입히고 #2[f1]초
+          동안 공격 속도와 이동 속도를 30% 감소시킨다(액티브 스킬 결계의 감속 효과에 걸린 적에게는 효과 없음) 현신화·물망초 사용
+          시 200 KP와 #3[f1] SP를 추가로 회복한다"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.9
+        param1Add: 0.00262
+        param2: 3
+        param2Add: 0.0131
+        param3: 2.5
+        param3Add: 0.00655
+    rankUpMaterials:
+      - id: "6003"
+        amount: 100
+      - id: "1302"
+        amount: 9
+      - id: "4013"
+        amount: 100
+    powerType: 1
+  - id: "24012"
+    rarity: 5
+    maxLv: 55
+    type: katana
+    name: 어령도 한옥빙천
+    description: 눈보라가 휘감겨 있는 얼음처럼 투명한 혼강 태도. 기록에 따르면 고대 문명 “불을 쫓는 나방” 조직의 어떤 전사가
+      사용하던 무기라고 한다. 하지만 태도는 오랜 시간이 흐르며 유실되었고 사용자의 행방을 기록한 자료도 매우 드물다. 현재 오직 천명성
+      1504연구소의 소장만이 홀로 이 무기의 숨겨진 비밀을 조사하고 있다
+    icon: Weapon_Katana_M34_249_5
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 87.1582
+    attackAdd: 4.35791
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 6.30438
+    criticalAdd: 0.394024
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1106"
+        name: 빙천동운
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 25초]</color> 12초 동안 캐릭터를 따라다니는 결계를
+          생성한다. 결계 유지 기간, 캐릭터가 받는 모든 대미지가 50% 감소하고, 경직 저항력이 증가한다. 결계 내의 적은 받는 빙결
+          원소 대미지가 #1[f1]% 증가하고, 빙결될 때까지 이동 속도와 공격 속도가 점점 감소하며, 마지막 빙결까지 0.5초마다
+          <color=#FEDF4CFF>빙결 게이지를 0.9pt 누적한다.</color> 결계 유지 기간, 최대 1회 무기 스킬 버튼
+          터치로 특수 공격을 사용해 전방의 적에게 공격력 300%+#2[i]%의 빙결 원소 대미지를 가한다(결계 종료 후 재사용
+          대기시간을 계산한다)."
+        icon: Skill_Mei_Weapon_33
+        skillCd: 25
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: freeze
+            comment: "빙결 이상 게이지 누적 가능, 누적 능력: 강함"
+        param1: 0.179651
+        param1Add: 0.000393
+        param2: 5.655022
+        param2Add: 0.0131
+        param3: 0
+        param3Add: 0
+      - id: "2133"
+        name: 빙가라
+        info: "캐릭터 빙결 원소 대미지 #1[i]% 증가"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.371834
+        param1Add: 0.000437
+        param2: 0
+        param2Add: 0
+        param3: 0
+        param3Add: 0
+      - id: "2134"
+        name: 고한지옥
+        info: "5초마다 1회 충전하여 다음 공격이 적중 시 목표 및 주변의 적에게 공격력 #1[i]%의 빙결 원소 대미지를 입히고 #2[f1]초
+          동안 공격 속도와 이동 속도를 30% 감소시킨다(액티브 스킬 결계의 감속 효과에 걸린 적에게는 효과 없음) 현신화·물망초 사용
+          시 200 KP와 #3[f1] SP를 추가로 회복한다"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 1.031004
+        param1Add: 0.00262
+        param2: 3.655022
+        param2Add: 0.0131
+        param3: 2.827511
+        param3Add: 0.00655
+    rankUpMaterials:
+      - id: "6003"
+        amount: 100
+      - id: "1302"
+        amount: 14
+      - id: "4013"
+        amount: 150
+    powerType: 1
+  - id: "24013"
+    rarity: 5
+    maxLv: 60
+    type: katana
+    name: 어령도 한옥빙천
+    description: 눈보라가 휘감겨 있는 얼음처럼 투명한 혼강 태도. 기록에 따르면 고대 문명 “불을 쫓는 나방” 조직의 어떤 전사가
+      사용하던 무기라고 한다. 하지만 태도는 오랜 시간이 흐르며 유실되었고 사용자의 행방을 기록한 자료도 매우 드물다. 현재 오직 천명성
+      1504연구소의 소장만이 홀로 이 무기의 숨겨진 비밀을 조사하고 있다
+    icon: Weapon_Katana_M34_249_5
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 92.28516
+    attackAdd: 4.614258
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 6.675226
+    criticalAdd: 0.417202
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1106"
+        name: 빙천동운
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 25초]</color> 12초 동안 캐릭터를 따라다니는 결계를
+          생성한다. 결계 유지 기간, 캐릭터가 받는 모든 대미지가 50% 감소하고, 경직 저항력이 증가한다. 결계 내의 적은 받는 빙결
+          원소 대미지가 #1[f1]% 증가하고, 빙결될 때까지 이동 속도와 공격 속도가 점점 감소하며, 마지막 빙결까지 0.5초마다
+          <color=#FEDF4CFF>빙결 게이지를 0.9pt 누적한다.</color> 결계 유지 기간, 최대 1회 무기 스킬 버튼
+          터치로 특수 공격을 사용해 전방의 적에게 공격력 300%+#2[i]%의 빙결 원소 대미지를 가한다(결계 종료 후 재사용
+          대기시간을 계산한다)."
+        icon: Skill_Mei_Weapon_33
+        skillCd: 25
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: freeze
+            comment: "빙결 이상 게이지 누적 가능, 누적 능력: 강함"
+        param1: 0.201266
+        param1Add: 0.000393
+        param2: 6.375546
+        param2Add: 0.0131
+        param3: 0
+        param3Add: 0
+      - id: "2133"
+        name: 빙가라
+        info: "캐릭터 빙결 원소 대미지 #1[i]% 증가"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.395852
+        param1Add: 0.000437
+        param2: 0
+        param2Add: 0
+        param3: 0
+        param3Add: 0
+      - id: "2134"
+        name: 고한지옥
+        info: "5초마다 1회 충전하여 다음 공격이 적중 시 목표 및 주변의 적에게 공격력 #1[i]%의 빙결 원소 대미지를 입히고 #2[f1]초
+          동안 공격 속도와 이동 속도를 30% 감소시킨다(액티브 스킬 결계의 감속 효과에 걸린 적에게는 효과 없음) 현신화·물망초 사용
+          시 200 KP와 #3[f1] SP를 추가로 회복한다"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 1.175109
+        param1Add: 0.00262
+        param2: 4.375546
+        param2Add: 0.0131
+        param3: 3.187773
+        param3Add: 0.00655
+    rankUpMaterials:
+      - id: "6003"
+        amount: 100
+      - id: "1302"
+        amount: 18
+      - id: "4013"
+        amount: 220
+    powerType: 1
+  - id: "24014"
+    rarity: 6
+    maxLv: 65
+    type: katana
+    name: 어령도 한옥빙천
+    description: 눈보라가 휘감겨 있는 얼음처럼 투명한 혼강 태도. 기록에 따르면 고대 문명 “불을 쫓는 나방” 조직의 어떤 전사가
+      사용하던 무기라고 한다. 하지만 태도는 오랜 시간이 흐르며 유실되었고 사용자의 행방을 기록한 자료도 매우 드물다. 현재 오직 천명성
+      1504연구소의 소장만이 홀로 이 무기의 숨겨진 비밀을 조사하고 있다
+    icon: Weapon_Katana_M34_249_6
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 97.41211
+    attackAdd: 4.870605
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 7.046072
+    criticalAdd: 0.440379
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1106"
+        name: 빙천동운
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 25초]</color> 12초 동안 캐릭터를 따라다니는 결계를
+          생성한다. 결계 유지 기간, 캐릭터가 받는 모든 대미지가 50% 감소하고, 경직 저항력이 증가한다. 결계 내의 적은 받는 빙결
+          원소 대미지가 #1[f1]% 증가하고, 빙결될 때까지 이동 속도와 공격 속도가 점점 감소하며, 마지막 빙결까지 0.5초마다
+          <color=#FEDF4CFF>빙결 게이지를 0.9pt 누적한다.</color> 결계 유지 기간, 최대 1회 무기 스킬 버튼
+          터치로 특수 공격을 사용해 전방의 적에게 공격력 300%+#2[i]%의 빙결 원소 대미지를 가한다(결계 종료 후 재사용
+          대기시간을 계산한다)."
+        icon: Skill_Mei_Weapon_33
+        skillCd: 25
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: freeze
+            comment: "빙결 이상 게이지 누적 가능, 누적 능력: 강함"
+        param1: 0.224847
+        param1Add: 0.000393
+        param2: 7.161572
+        param2Add: 0.0131
+        param3: 0
+        param3Add: 0
+      - id: "2133"
+        name: 빙가라
+        info: "캐릭터 빙결 원소 대미지 #1[i]% 증가"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.422052
+        param1Add: 0.000437
+        param2: 0
+        param2Add: 0
+        param3: 0
+        param3Add: 0
+      - id: "2134"
+        name: 고한지옥
+        info: "5초마다 1회 충전하여 다음 공격이 적중 시 목표 및 주변의 적에게 공격력 #1[i]%의 빙결 원소 대미지를 입히고 #2[f1]초
+          동안 공격 속도와 이동 속도를 30% 감소시킨다(액티브 스킬 결계의 감속 효과에 걸린 적에게는 효과 없음) 현신화·물망초 사용
+          시 200 KP와 #3[f1] SP를 추가로 회복한다"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 1.332314
+        param1Add: 0.00262
+        param2: 5.161572
+        param2Add: 0.0131
+        param3: 3.580786
+        param3Add: 0.00655
+    rankUpMaterials:
+      - id: "0"
+        amount: 0
+    powerType: 1

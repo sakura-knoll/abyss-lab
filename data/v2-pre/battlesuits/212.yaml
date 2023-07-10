@@ -1,0 +1,335 @@
+id: "212"
+fullName: 현신화·물망초
+shortName: 현신화·물망초
+desc: <color=white>특징:</color> <color=#2CE3FFFF>기계 속성</color>의
+  <color=#2CE3FFFF>영혼 각성</color> 근거리 전투형 캐릭터, KP를 모아 강력한 중거리 범위 피해를 가한다.
+firstName: 사쿠라
+lastName: 야에
+enFirstName: Sakura
+enLastName: Yae
+attributeType: mech
+isEasterner: true
+weapon: katana
+character: sakura
+initialStar: s
+tags:
+  - ice-dmg
+  - freeze
+skills:
+  - id: "181"
+    name: 한앵참
+    info: "빠른 속도의 5단 베기, 공격이 적중할 때마다 60 KP를 회복한다.\\n<color=#23B2E2FF>1격: 공격력 50%의 물리
+      대미지\\n2격: 총 80%의 물리 대미지\\n3격: 공격력 120%의 물리 대미지\\n4격: 총 120%의 물리 대미지\\n5격:
+      공격력 250%의 빙결 원소 대미지</color>"
+    icon: Skill_Sakura_YS_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1804"
+        name: 육화 산란
+        info: "기본 공격이 크리티컬 시 #1[f1]의 KP를 회복한다."
+        brief: 기본 공격이 크리티컬 시 KP를 회복한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 40
+        paramBase1: 3.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.3
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "1813"
+        name: 얼음같은 혼
+        info: "기본 공격이 공격력 #1[f1]%의 빙결 원소 대미지를 추가로 입히고 첫 4타 동안 공격 속도가 #2[f1]% 증가하며, 5번째
+          공격 시 캐릭터가 강화되어 8초 동안 가하는 모든 대미지가 #3[f1]% 증가한다"
+        brief: 기본 공격의 타격마다 빙결 원소 대미지를 추가로 입힌다. 첫 4타의 공격 속도가 증가하고 5번째 공격 시 대미지가 일정 시간 동안
+          증가한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 70
+        paramBase1: 0.2
+        paramBase2: 0.1
+        paramBase3: 0.15
+        paramAdd1: 0.00217
+        paramAdd2: 0.0029
+        paramAdd3: 0.00217
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1815"
+        name: <color=#FFC741FF>QTE</color> - 냉기참
+        info: "QTE: 적의 실드가 파괴됐을 때 QTE 출전, 얼음 검기를 발사해 공격력 #1[i]%의 빙결 원소 대미지를 가하고,
+          <color=#FEDF4CFF>빙결 게이지를 6pt 누적한다.</color>"
+        brief: "QTE: 적의 실드가 파괴됐을 때 QTE 출전, 빙결 대미지를 가하고 빙결 게이지를 누적한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 8
+        paramBase1: 3.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.35714
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: freeze
+            strength: 2
+            comment: "빙결 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: true
+        unlockStar: s
+  - id: "182"
+    name: <color=#FFC741FF>분기 공격</color> - 영시검의 섬광
+    info: "빠른 속도로 발도해 참격을 발동한다.\\n<color=#23B2E2FF>KP 200pt를 소모해 연속으로 참격 강화를
+      발동하며,</color> <color=#FEDF4CFF>빙결 에너지를 1.5pt 누적한다.</color>
+      <color=#23B2E2FF>KP: 최대치 1000pt, 캐릭터가 전장에 존재할 시 KP를 서서히 회복한다.\\n참격: 공격력
+      50%의 물리 대미지\\n참격 강화: 공격력 100%의 물리 대미지+공격력 200%의 빙결 원소 대미지\\n돌진: 공격력 100%의
+      물리 대미지</color>"
+    icon: Skill_Sakura_YS_002
+    skillType: special
+    tags:
+      - type: freeze
+        strength: 1
+        comment: "빙결 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1807"
+        name: 얼어붙은 이빨
+        info: "강화 참격의 매 공격마다 빙결 원소 대미지가 공격력 #1[i]%만큼 증가한다"
+        brief: KP가 있을 때 분기 공격의 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 8
+        paramBase1: 0.55
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.35
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1809"
+        name: <color=#FFC741FF>교대기</color> - 앵화요란
+        info: "출격 시 얼음 폭발을 유도하여 주변 적들에게 공격력의 #1[f1]% 빙결 원소 대미지를 입힌다 출격기와 QTE 사용 시 적을
+          명중하면 #2[i] KP를 회복한다"
+        brief: 출전 시 주변의 적에 빙결 원소 대미지를 입히고 교대기와 QTE가 적에게 명중 시 KP를 회복한다
+        icon: Skill_Nagative_StartUp01
+        maxLv: 8
+        paramBase1: 1
+        paramBase2: 100
+        paramBase3: 0
+        paramAdd1: 0.11429
+        paramAdd2: 15
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1810"
+        name: 꽃의 강인함
+        info: "기본/분기 공격 중 경직 저항력이 증가하고, 받는 모든 대미지가 #1[f1]% 감소한다. 강화 참격을 사용할 때마다 SP를
+          #2[f2]pt 회복한다"
+        brief: 기본/분기 공격 도중 받는 모든 대미지 감소, 강화 참격으로 SP 추가 회복
+        icon: Skill_Nagative_Survive03
+        maxLv: 8
+        paramBase1: 0.12
+        paramBase2: 0.8
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0.1
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "183"
+    name: 그림자 스탭
+    info: "빠르게 대시하여 적의 공격을 회피한다.\\n<color=#23B2E2FF>하얀 그림자: 극한 회피 시 얼음 잔상[소환물]을 남긴다.
+      잔상은 1초 뒤 폭발하며 주변의 적에게 공격력의 200% 빙결 원소 대미지를 입힌다. 재사용 대기시간: 15초</color>"
+    icon: Skill_Sakura_YS_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1805"
+        name: 그림자 호흡
+        info: "극한 회피 성공 시 #1[i]의 KP를 회복한다."
+        brief: 극한 회피 시 KP를 회복한다
+        icon: Skill_Nagative_Skill02
+        maxLv: 8
+        paramBase1: 50
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 10
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1806"
+        name: 냉기의 형태
+        info: "잔상 폭발의 영향을 받은 적에게 100%의 확률로 <color=#FEDF4CFF>빙결 게이지를 #1[f1]pt
+          누적한다.</color>"
+        brief: 잔상 폭발의 영향을 받은 적에게 일정 확률로 빙결 게이지를 누적한다.
+        icon: Skill_Nagative_Control01
+        maxLv: 4
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1.66667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: freeze
+            strength: 2
+            comment: "빙결 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: false
+        unlockStar: sss
+      - id: "1808"
+        name: 정신 통일
+        info: "극한 회피 효과 재사용 대기시간: #2[f1]초 감소"
+        brief: 잔상의 재사용 대기시간이 감소한다
+        icon: Skill_Nagative_Survive01
+        maxLv: 14
+        paramBase1: 0
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.2
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "184"
+    name: 한천광무
+    info: "빠른 속도로 발도해 전방의 적을 벤다.\\n<color=#23B2E2FF>열풍: 총 900%의 빙결 원소 대미지를 가하고, 마지막
+      일격으로</color> <color=#FEDF4CFF>빙결 게이지를 18pt
+      누적한다.</color><color=#23B2E2FF>\\n참살: 얼음을 깨부숴 공격력 1200%의 물리 대미지를 가한다.\\n에너지
+      충전: 필살기 사용 시 KP를 즉시 250pt 회복한다. 필살기 종료 후 10초간 0.25초마다 KP를 60pt 회복한다.\\n소모
+      SP: 125</color>"
+    icon: Skill_Sakura_ZF_004
+    skillType: ultimate
+    tags:
+      - type: freeze
+        strength: 3
+        comment: "빙결 이상 게이지 누적 가능, 누적 능력: 강함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1811"
+        name: 무아
+        info: "필살기 사용 후 12초 동안 캐릭터가 입히는 모든 대미지가 #1[f1]% 증가한다"
+        brief: 필살기 사용 후 가하는 모든 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 8
+        paramBase1: 0.12
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02571
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1812"
+        name: 악착
+        info: "필살기로 적을 처치할 때마다 자신의 HP를 #1[i]씩 회복"
+        brief: 필살기로 적을 처치 후 자신의 Hp를 회복한다
+        icon: Skill_Nagative_Survive02
+        maxLv: 8
+        paramBase1: 200
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 50
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1814"
+        name: 벚꽃 소나기
+        info: "필살기 사용 시 추가로 #1[i] KP를 회복"
+        brief: 필살기 사용 시 Kp를 추가로 회복한다
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 200
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 80
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "185"
+    name: 벚꽃의 춤
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>리더 스킬: {{모든 파티원의 HP가 최대치의
+      80%를 넘으면 크리티컬률이 #1[i]% 증가한다. 기계 속성 캐릭터의 모든 원소 대미지 #2[i]% 증가한다}}</color>"
+    icon: Skill_Sakura_YS_005
+    skillType: leader
+    tags: []
+    paramSubId1: 1801
+    paramSubId2: 1801
+    paramSubId3: 0
+    subSkills:
+      - id: "1801"
+        name: 벚꽃의 춤
+        info: "모든 파티원의 HP가 80%를 넘으면 크리티컬률이 #1[i]% 증가한다. 기계 속성 캐릭터의 모든 원소 대미지 #2[i]%
+          증가한다"
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Damage01
+        maxLv: 3
+        paramBase1: 0.17
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "186"
+    name: 패시브 스킬
+    info: 패시브 스킬은 자동으로 발동한다.\n<color=#23B2E2FF></color>
+    icon: Skill_Sakura_YS_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1802"
+        name: 귀무
+        info: "5번째 기본 공격, 극한 회피 공격, 필살기는 적에게 표식을 남긴다. 기절, 마비, 빙결, 시공 감속 상태, 그리고 표식된 적을
+          공격 시 물리 대미지와 원소 대미지가 #1[f1]% 증가한다"
+        brief: 기절, 마비, 빙결, 시공 감속 상태, 그리고 자신의 스킬에 표식된 적을 공격 시 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0069
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1803"
+        name: 인심
+        info: "캐릭터가 대기 중에도 초당 #1[f1]의 KP를 회복한다. 필살기 사용 후 10초 동안 0.25초당 30 KP를 회복한다"
+        brief: 캐릭터가 대기 중에도 서서히 KP를 회복한다. 필살기 사용 후 KP를 빨리 회복한다
+        icon: Skill_Nagative_Skill01
+        maxLv: 6
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss

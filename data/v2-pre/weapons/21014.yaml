@@ -1,0 +1,114 @@
+id: "21014"
+weapons:
+  - id: "28151"
+    rarity: 4
+    maxLv: 40
+    type: katana
+    name: 허무의 칼날 진영
+    description: 미코얀 중앙 설계국에서 설계한 태도로, 칼의 형상이 서로의 꼬리를 물은 두 마리의 뱀처럼 무한을 나타내는 기호를 만들어냈다
+    icon: Weapon_Katana_M13_78_4
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 52.63672
+    attackAdd: 2.631836
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 0
+    criticalAdd: 0
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "136"
+        name: 우로보로스
+        info: "<color=#FEDF4CFF>[SP 소모: 15][재사용 대기시간: 20초]</color> #1[f2]초 동안 자신을 따라
+          이동하는 시공 감속 영역을 만들어낸다. 지속 시간 동안 기본 공격(분기와 차지 공격 포함)의 크리티컬률이 #2[f1]%
+          증가하고 초당 2pt의 SP를 회복한다"
+        icon: Skill_Mei_Weapon_18
+        skillCd: 20
+        skillSpCost: 15
+        skillSpNeed: 15
+        tags:
+          - type: time-mastery
+            comment: 적에게 시공 감속 효과 부여
+        param1: 3
+        param1Add: 0.011236
+        param2: 0.1
+        param2Add: 0.000562
+        param3: 0
+        param3Add: 0
+      - id: "185"
+        name: 에너지 포식
+        info: "한꺼번에 SP를 10 / 40 / 70 소모 시 8초 동안 물리 대미지가 #1[i]%/#2[i]%/#3[i]% 증가한다. 해당
+          효과는 중첩되지 않는다."
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.09
+        param1Add: 0.000112
+        param2: 0.16
+        param2Add: 0.000449
+        param3: 0.25
+        param3Add: 0.000562
+    rankUpMaterials:
+      - id: "1301"
+        amount: 1
+    powerType: 4
+  - id: "28152"
+    rarity: 5
+    maxLv: 50
+    type: katana
+    name: 허무의 칼날 진영
+    description: 미코얀 중앙 설계국에서 설계한 태도로, 칼의 형상이 서로의 꼬리를 물은 두 마리의 뱀처럼 무한을 나타내는 기호를 만들어냈다
+    icon: Weapon_Katana_M13_78_5
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 60.15625
+    attackAdd: 3.007812
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 0
+    criticalAdd: 0
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "136"
+        name: 우로보로스
+        info: "<color=#FEDF4CFF>[SP 소모: 15][재사용 대기시간: 20초]</color> #1[f2]초 동안 자신을 따라
+          이동하는 시공 감속 영역을 만들어낸다. 지속 시간 동안 기본 공격(분기와 차지 공격 포함)의 크리티컬률이 #2[f1]%
+          증가하고 초당 2pt의 SP를 회복한다"
+        icon: Skill_Mei_Weapon_18
+        skillCd: 20
+        skillSpCost: 15
+        skillSpNeed: 15
+        tags:
+          - type: time-mastery
+            comment: 적에게 시공 감속 효과 부여
+        param1: 3.449438
+        param1Add: 0.011236
+        param2: 0.122472
+        param2Add: 0.000562
+        param3: 0
+        param3Add: 0
+      - id: "185"
+        name: 에너지 포식
+        info: "한꺼번에 SP를 10 / 40 / 70 소모 시 8초 동안 물리 대미지가 #1[i]%/#2[i]%/#3[i]% 증가한다. 해당
+          효과는 중첩되지 않는다."
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.094494
+        param1Add: 0.000112
+        param2: 0.177978
+        param2Add: 0.000449
+        param3: 0.272472
+        param3Add: 0.000562
+    rankUpMaterials:
+      - id: "0"
+        amount: 0
+    powerType: 4

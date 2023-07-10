@@ -1,0 +1,392 @@
+id: "506"
+fullName: 삭야관성
+shortName: 삭야관성
+desc: <color=white>특징:</color> <color=#FFAF2CFF>생물 속성</color>의 중거리 전투형 캐릭터, 공격형
+  보조 캐릭터이다
+firstName: 테레사
+lastName: 아포칼립스
+enFirstName: Theresa
+enLastName: Apocalypse
+attributeType: bio
+isEasterner: false
+weapon: cross
+character: theresa
+initialStar: a
+tags:
+  - physical-dmg
+  - time-mastery
+  - stun
+  - gather
+  - heal
+skills:
+  - id: "561"
+    name: 주작
+    info: "우선을 사용해 공격한다. 앞 3단 공격 도중 회피해도 다음 공격을 계속 이어갈 수 있다.\\n<color=#23B2E2FF>1격:
+      공격력 80%의 물리 대미지+80%의 물리 대미지를 입힌다.\\n2격: 공격력 100%의 물리 대미지+100%의 물리 대미지를
+      입힌다.\\n3격: 공격력 4*60%의 물리 대미지를 입힌다.\\n4격: 공격력 120%의 물리 대미지+120%의 물리 대미지를
+      입힌다</color>"
+    icon: Skill_Theresa_C6_ZG_561
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5601"
+        name: 정목안
+        info: "기본 공격이 적에게 명중하면 #1[f2] SP를 추가로 회복한다. 발동 간격: 시간 0.5초"
+        brief: 기본 1, 2번째 공격은 SP를 추가로 회복한다
+        icon: Skill_Nagative_Survive01
+        maxLv: 10
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "5602"
+        name: 진수인
+        info: "기본 공격의 3번째 공격이 적에게 적중하면 추가로 모든 파티원의 HP를 #1[f1], SP를 #2[f1] 회복한다. 재사용
+          대기시간: 6초"
+        brief: 기본 3번째 공격은 모든 파티원의 HP와 SP를 추가로 회복한다
+        icon: Skill_Nagative_Skill01
+        maxLv: 10
+        paramBase1: 48
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 8
+        paramAdd2: 0.22222
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "5603"
+        name: 장월녹
+        info: "콤보수가 각각 10/30/60일 때, 크리티컬률이 각각 #1[f1]%/#2[f1]%/#3[f1]% 증가한다"
+        brief: 콤보수가 각각 10/30/60일 때, 크리티컬률이 각각 증가한다
+        icon: Skill_Nagative_Skill01
+        maxLv: 10
+        paramBase1: 0.11
+        paramBase2: 0.1375
+        paramBase3: 0.165
+        paramAdd1: 0.01
+        paramAdd2: 0.0125
+        paramAdd3: 0.015
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "562"
+    name: <color=#FFC741FF>분기</color>-현무
+    info: 공격 버튼을 길게 누르면 강력한 일격을 시전한다.\n<color=#23B2E2FF>기본 공격 3단 후 공격 버튼을 길게 누르면 분기
+      공격을 발동해 적에게 공격력 400%의 물리 대미지를 입힌다. 스킬 3식 해제 후에는 특정 시간에 버튼을 떼면 완벽 발동을 할 수
+      있다</color>
+    icon: Skill_Theresa_C6_ZG_562
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5604"
+        name: 두목해
+        info: "분기 공격의 물리 대미지가 #1[f1]% 증가한다"
+        brief: 분기 공격이 가하는 물리 대미지가 증가한다
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "5605"
+        name: 벽수유
+        info: "공격 버튼을 누르고 있는 동안 캐릭터가 받는 모든 대미지가 #1[f1]% 감소한다. 스킬 발동 후, 10초 동안 캐릭터가 받는 모든
+          대미지가 #2[f2]% 감소한다"
+        brief: 공격 버튼을 누르고 있는 동안 캐릭터가 받는 모든 대미지가 감소하고, 스킬 발동 후, 10초 동안 캐릭터가 받는 모든 대미지가
+          감소한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.33
+        paramBase2: 0.22
+        paramBase3: 1.1
+        paramAdd1: 0.03
+        paramAdd2: 0.02
+        paramAdd3: 0.1
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "5606"
+        name: <color=#FFC741FF>QTE</color>-위월연
+        info: "QTE: 괘상이 10스택에 도달하고, 현재 적이 목표로 선택되었을 때 삭야관성의 QTE를 발동할 수 있다. 공격력 1200%의 물리
+          대미지를 입히고 모든 파티원의 크리티컬률이 15초간 #1[f1]% 증가한다. 삭야관성의 QTE 기간 현재 조종하고 있는
+          캐릭터를 그대로 조종할 수 있으며, 삭야관성은 QTE가 끝나면 퇴장한다. 만약 삭야관성이 QTE 교대 순간 필살기 발동 조건을
+          충족했다면 우측 상단의 삭야관성 아이콘이 필살기 발동 버튼으로 바뀐다. 반대의 경우 다시 우측 상단의 삭야관성 아이콘을 눌러
+          조정 캐릭터를 삭야관성으로 바꾸면 현재 조종하고 있던 캐릭터가 퇴장한다. 삭야관성 QTE 교대 시, 모든 파티원의 괘상을
+          초기화한다"
+        brief: "QTE: 괘상이 10스택에 도달하면 발동할 수 있고 캐릭터는 후방에서 등장해 공격을 시전한다.  QTE 기간 해당 캐릭터의
+          필살기를 바로 발동할 수 있으며, 모든 파티원의 크리티컬률을 증가시킨다. QTE 교대 시 모든 파티원의 괘상이 초기화된다"
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 0.06
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "563"
+    name: 백호
+    info: "적의 공격을 빠르게 대시하여 회피한다. 연속 2회 발동 가능\\n<color=#23B2E2FF>백호: 극한 회피 시 2초 동안 전체
+      시공 단열을 발동한다. 재사용 대기시간: 15초\\n백호 발동 후 바로 공격 버튼을 누르면 분기 공격을 발동할 수
+      있다</color>"
+    icon: Skill_Theresa_C6_ZG_563
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5607"
+        name: 규목랑
+        info: "백호를 발동하면 SP를 추가로 #1[f1] 회복한다"
+        brief: 백호를 발동하면 SP를 추가로 회복한다
+        icon: Skill_Nagative_Survive02
+        maxLv: 10
+        paramBase1: 1.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "5608"
+        name: 참수원
+        info: "백호의 재사용 대기시간이 #1[f1]초 감소한다"
+        brief: 백호의 재사용 대기시간이 감소한다
+        icon: Skill_Nagative_Skill02
+        maxLv: 8
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.21429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5609"
+        name: 필월오
+        info: "백호 발동 후, 삭야관성이 땅에 착지할 때 지면에 법진을 생성한다. 법진은 3초의 준비 시간을 가지며, 준비가 끝난 후 파티원이
+          법진에 들어가면 전체 시공 단열이 #1[f1]초간 발동한다. 새로 생성된 법진은 이미 존재하던 법진을 덮어씌우며, 삭야관성
+          자신은 법진을 발동할 수 없다"
+        brief: 백호 발동 후 지면에 법진을 생성하고, 3초 후 효과가 발동한다. 파티원이 법진에 들어가면 전체 시공 단열이 발동한다
+        icon: Skill_Nagative_Skill02
+        maxLv: 8
+        paramBase1: 0.06
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.27714
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "564"
+    name: 팔진
+    info: "휘몰아치는 회오리를 생성한다.\\n<color=#23B2E2FF>삭야관성의 전방에 법진을 생성한다. 회오리를 소환해 이동 시켜
+      적들을 회오리의 중심으로 끌어당기고, 회오리에 휘말린 적에게 총 공격력 20*100%의 물리 대미지를 입힌다.\\n발동 소모 SP:
+      125, 재사용 대기시간: 25초</color>"
+    icon: Skill_Theresa_C6_ZG_564
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5610"
+        name: 천복의 진
+        info: "필살기를 발동하면 모든 파티원의 물리 대미지가 18초간 #1[f1]% 증가한다"
+        brief: 필살기 발동 시 모든 파티원의 물리 대미지가 증가한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.07
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5611"
+        name: 지재의 진
+        info: "삭야관성 필살기의 매 공격마다 추가로 공격력 #1[f2]%의 물리 대미지를 부가한다"
+        brief: 필살기는 추가로 물리 대미지를 부가한다
+        icon: Skill_Nagative_Skill03
+        maxLv: 6
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.06
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "5612"
+        name: 풍양의 진
+        info: "필살기 발동 후 15초 동안 모든 파티원이 받는 모든 대미지가 #1[f1]% 감소하고, 경직 저항력이 증가한다"
+        brief: 필살기 발동 후 모든 파티원이 받는 모든 대미지가 감소하고, 경직 저항력이 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 4
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "565"
+    name: 구궁천
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>구궁천: {{파티원이 차지 공격을 사용하면
+      크리티컬률이 #1[f1]% 증가한다, 지속 시간: 10초. 파티원 3명의 속성이 전부 다를 경우 파티원의 모든 대미지가 #2[f1]%
+      증가한다}}</color>"
+    icon: Skill_Theresa_C6_ZG_565
+    skillType: leader
+    tags: []
+    paramSubId1: 5613
+    paramSubId2: 5613
+    paramSubId3: 0
+    subSkills:
+      - id: "5613"
+        name: 구궁천
+        info: "파티원이 차지 공격을 적에게 적중시키면 크리티컬률이 10초간 #1[f1]% 증가한다 (갱신 가능). 파티원 3명의 속성이 다를 경우
+          파티원의 모든 대미지가 #2[f1]% 증가한다"
+        brief: 파티원이 차지 공격을 적에게 적중시키면 크리티컬률이 증가한다. 파티원 3명의 속성이 전부 다를 경우 파티원의 모든 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.11
+        paramBase2: 0.26
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "566"
+    name: 창룡
+    info: 패시브 스킬 효과는 자동으로 적용된다.\n<color=#23B2E2FF>파티원이 적을 공격하면 괘상을 1개 획득하고, 1초의 발동
+      간격이 있다. 괘상은 파티원끼리 공유되며 적의 공격을 받으면 괘상을 1개 잃으며 3초에 1회 발동된다. 삭야관성이 사망하면 파티원의
+      괘상이 전부 사라지고 다시 획득할 수 없다.</color>
+    icon: Skill_Theresa_C6_ZG_566
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5614"
+        name: 각목교
+        info: "파티원이 필살기 발동 시, 모든 파티원이 추가로 괘상 #1[f1] 스택 획득한다"
+        brief: 파티원이 필살기 발동 시, 모든 파티원이 추가로 괘상의 스택을 획득한다
+        icon: Skill_Nagative_Survive02
+        maxLv: 5
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "5615"
+        name: 심월호
+        info: "전투 중 초기 SP가 #1[f1] 증가하며, 오픈 월드에서는 10분에 한 번씩 발동한다"
+        brief: 전투 중 초기 SP가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 23
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 3.00111
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "567"
+    name: 3식
+    info: 분기 공격은 버튼을 누르고 있을 때 캐릭터의 몸이 빛나는데, 그때 공격 버튼을 떼면 완벽 발동이
+      발동한다.\n<color=#23B2E2FF>공격 버튼을 누르고 있는 동안 캐릭터의 몸이 빛날 때 공격 버튼을 떼면 완벽 발동이 발동해
+      추가로 10 SP를 회복하고 공격력 600%의 물리 대미지를 입힌다</color>
+    icon: Skill_Theresa_C6_ZG_567
+    skillType: sp
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5616"
+        name: 기문 둔갑
+        info: "완벽하게 발동한 분기 공격이 적에게 적중하면 자신의 모든 대미지가 40초간 #1[f1]% 증가한다. 2회 중첩할 수 있다"
+        brief: 분기 공격을 완벽 발동하면 캐릭터 자신의 모든 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 7
+        paramBase1: 0.11
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01833
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5617"
+        name: 육임신과
+        info: "분기 공격을 완벽 발동해 적 적중 시, <color=#FEDF4CFF>기절 게이지를 10pt 누적한다.</color> 스킬 발동
+          간격: 8초"
+        brief: 분기 공격 완벽 발동 후, 목표 적에게 기절 게이지를 누적한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 5
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 2
+            comment: "기절 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: false
+        unlockStar: ss
+      - id: "5618"
+        name: 태을신수
+        info: "완벽하게 발동한 분기 공격이 적에게 적중하면 자신은 SP를 추가로 #1[f1] 획득한다"
+        brief: 분기 공격을 완벽 발동하면 SP를 추가 획득한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 9
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 3
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

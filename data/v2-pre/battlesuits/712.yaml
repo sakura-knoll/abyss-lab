@@ -1,0 +1,358 @@
+id: "712"
+fullName: 피안쌍생
+shortName: 피안쌍생
+desc: "<color=white>특징: </color><color=#AE98FFFF>양자 속성</color>의 근접형 발키리로, 인격을
+  바꾸며 다양한 필살기와 QTE로 상황에 맞춰 전투할 수 있다"
+firstName: 제레
+lastName: 발레리
+enFirstName: Seele
+enLastName: Vollerei
+attributeType: qua
+isEasterner: false
+weapon: scythe
+character: seele
+initialStar: s
+tags:
+  - physical-dmg
+  - heavy-atk
+  - time-mastery
+skills:
+  - id: "491"
+    name: 명광=암영
+    info: "이중인격이 연속으로 공격한다<color=#23B2E2FF>표면 인격: \\n1격: 공격력 80%+100%의 물리 대미지를 가하고,
+      명중 시 표면 의식 50pt 회복\\n2격: 공격력 120%의 물리 대미지를 가하고, 명중 시 표면 의식 50pt 회복\\n3격:
+      공격력 100%+2*60%의 물리 대미지를 가하고, 명중 시 표면 의식 50pt 회복\\n4격: 공격력 80%+120%의 물리
+      대미지를 가한다\\n5격: 공격력 3*150%+200%의 물리 대미지를 가하고, 명중 시 표면 의식 50pt 회복\\n내면 인격:
+      \\n1격: 공격력 120%의 물리 대미지를 가하고, 명중 시 내면 의식 50pt 회복\\n2격: 공격력 2*100+2*120%의
+      물리 대미지를 가하고, 명중 시 내면 의식 50pt 회복\\n3격: 공격력 300%의 물리 대미지를 가하고, 명중 시 내면 의식
+      50pt 회복\\n4격: 공격력 3*150%의 물리 대미지를 가하고, 명중 시 내면 의식 50pt 회복\\n내면 인격의 촉수 공격
+      명중 시 적을 1초간 감금한다</color>"
+    icon: Skill_Seele_C2_001
+    skillType: basic
+    tags:
+      - type: heavy-atk
+        strength: 1
+        comment: "내면 인격의 기본 공격 3격, 4격은 강격이다. 축적 능력: 약"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4901"
+        name: 선악
+        info: "인장이 있는 적이 피안쌍생에게 기본 공격(차지 공격 포함)을 받을 때, 받는 물리 대미지가 #1[f1]% 증가한다(해당 효과는
+          독립적인 추가 효과다)"
+        brief: 인장이 있는 적은 받는 피해가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4902"
+        name: 시비
+        info: "내면 인격은 경직 저항력이 증가하고, 받는 모든 피해가 #1[f1]% 감소한다."
+        brief: 내면 인격은 경직 저항력이 증가하고, 받는 피해가 감소한다
+        icon: Skill_Nagative_Skill01
+        maxLv: 21
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4903"
+        name: 허실
+        info: "전투 진입 시 SP가 초당 #1[f1]씩 증가한다. 10초 지속, 오픈 월드에서는 10분에 한 번씩 발동"
+        brief: 전투 진입 시 SP를 회복한다
+        icon: Skill_Nagative_Survive02
+        maxLv: 5
+        paramBase1: 2.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.625
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "492"
+    name: <color=#FFC741FF>차지</color> - 백주=흑야
+    info: "기본 공격, 회피, QTE 사용 중 공격 버튼을 누르면 차지 공격 발동\\n<color=#23B2E2FF>표면 인격: 공격력
+      2*150%의 물리 대미지 표면 의식이 가득할 때, 표면 의식 400pt를 소모해 적에게 순백의 인장을 남기고, 공격한 인장과 공명을
+      일으켜 공격력 400%의 범위 물리 대미지를 준다\\n내면 인격: 공격력 2*50%+300%의 물리 대미지와 함께 적에게 암흑의
+      인장을 남긴다 내면 의식이 가득할 때, 내면 의식 400pt를 소모해 공격한 인장과 공명하여 공격력 500%의 물리 대미지를
+      준다\\n해당 의식이 가득할 때 기본 공격 마지막 일격 후 공격 버튼을 누르면 자동으로 차지 공격이 발동한다</color>"
+    icon: Skill_Seele_C2_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "내면 인격의 QTE 공격은 강격이다. 축적 능력: 중\\n내면 인격의 차지 공격 마지막 일격은 강격이다. 축적 능력:
+          약\\n내면 의식이 가득할 때 발동한 차지 공격은 강격이다. 축적 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4904"
+        name: 원근
+        info: "인장과 공명할 때 SP를 #1[f1] 회복한다. 재발동 대기시간 1초"
+        brief: 인장과 공명할 때 SP를 회복한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 15
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4905"
+        name: 유무
+        info: "인장의 공명으로 대미지를 가할 때, 크리티컬률 #1[f1]% 상승"
+        brief: 인장 공명의 크리티컬률 상승
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4906"
+        name: 존망
+        info: "인장의 공명으로 대미지를 가할 때, 크리티컬 대미지 #1[f1]% 상승"
+        brief: 인장 공명의 크리티컬 대미지 상승
+        icon: Skill_Nagative_Damage01
+        maxLv: 41
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.005
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "493"
+    name: 영원=순간
+    info: "적의 공격을 빠르게 회피하며 연속으로 2회 회피할 수 있다.\\n<color=#23B2E2FF>극한 회피 시, 표면 인격: 표면
+      의식 100pt 회복, 적을 관통할 수 있으며, 회피가 끝나기 전까지 즉시 제4격을 진행할 수 있다. 내면 인격: 내면 의식
+      100pt 회복, 전방으로 회피 시 적을 관통할 수 있으며, 회피가 끝나기 전까지 즉시 제4격을 진행할 수 있다.\\n영원=순간:
+      극한 회피 시: 전장에 3초간 시공 단열 발동, 재사용 대기시간: 15초. 영원=순간 발동 시 표면 인격은 표면 의식을, 내면 인격은
+      내면 의식을 400pt 회복한다</color>"
+    icon: Skill_Seele_C2_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4907"
+        name: 은원
+        info: "영원=순간이 재사용 대기 중이 아닐 때, 표면 인격의 회피와 내면 인격의 전방 회피가 적을 관통하고 영원=순간 스킬을 발동한다. 이
+          효과로 발동된 시공 단열은 2초만 지속된다. 회피 스킬 재사용 대기 시간이 #1[f1]초 감소한다"
+        brief: 회피는 적을 관통하고 영원=순간을 발동할 수 있다
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "4908"
+        name: <color=#FFC741FF>QTE</color> - 애증
+        info: "QTE: 적이 허약 상태이거나 시공 감속 상태일 때 발동한다. 표면 인격: 공격력 #1[f1]%의 물리 대미지를 가하고 표면 의식
+          400pt를 회복하며, 명중한 적에게 순백의 인장을 남긴다. 내면 인격: 공격력 #2[f1]%의 물리 대미지를 가하고 내면
+          의식 400pt를 회복하며, 명중한 적에게 암흑의 인장을 남긴다"
+        brief: "QTE: 적이 허약 또는 시공 감속 상태일 때 QTE 출전, 표면 인격과 내면 인격은 각각 다른 QTE가 발동한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 10
+        paramBase1: 3.5
+        paramBase2: 4.5
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0.5
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "494"
+    name: 탄생=종말
+    info: "인격을 전환한다.\\n<color=#23B2E2FF>양자 속성의 적에게 양자 붕괴를 1회 일으킨다.\\n표면 인격: 짧게 주변 적을
+      모으고 4초간 속박, 공격력 1000%+7*100%의 물리 대미지를 가하고 내면 인격으로 전환 후 내면 의식 400pt를 회복하며,
+      전장의 적에게 암흑 인장을 남기고, 순백의 인장이 있다면 대체한다.\\n내면 인격: 공격력 500%+2500%의 물리 대미지를 입히고
+      표면 인격으로 전환 후 표면 의식 400pt를 회복하며, 전장의 적에게 순백의 인장을 남기고, 암흑의 인장이 있다면
+      대체한다.\\n재사용 대기시간: 25초. SP 소모 제한 해제, 사용 시 모든 SP를 소모한다. 소모한 SP1 당 필살기의 모든
+      대미지가 0.5%씩 최대 75% 증가한다</color>"
+    icon: Skill_Seele_C2_004_B
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 3
+        comment: "표면 인격과 내면 인격의 필살기 마지막 일격은 강격이다. 축적 능력: 강"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4910"
+        name: 조석
+        info: "표면 인격 해방: 내면 인격 전환 후 각성하여 공격 속도가 #1[f1]%, 이동 속도가 35% 상승한다. 기본 공격의 내면 의식
+          회복 2배. 제4격이 적에게 명중 시 모든 내면 의식을 회복한다. 12초 지속"
+        brief: 표면 인격 해방 필살기 사용 후 내면 인격이 되어 일정 시간 강화된다
+        icon: Skill_Nagative_Damage02
+        maxLv: 15
+        paramBase1: 0.07
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00571
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4911"
+        name: 주야
+        info: "내면 인격 해방: 표면 인격 전환 후 각성하여 경직 저항력이 상승하고 물리 대미지가 #1[f1]% 상승하며 받는 물리 피해가 40%
+          감소한다. 기본 공격의 표면 의식 회복 2배. 제3격 적중 후 즉시 제5격을 발동하며, 명중 시 모든 표면 의식을 회복한다.
+          12초 지속"
+        brief: 내면 인격 해방 필살기 사용 후 표면 인격이 되어 일정 시간 강화된다
+        icon: Skill_Nagative_Skill02
+        maxLv: 21
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4912"
+        name: 미완
+        info: "표면 인격: 필살기 발동 후 #1[f1]초 지속되는 전체 시공 단열이 발생한다"
+        brief: 표면 인격 필살기 시전 후 전체 시공 단열이 발생한다
+        icon: Skill_Nagative_Survive03
+        maxLv: 5
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.25
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+  - id: "495"
+    name: 축복=낙인
+    info: "리더 배치 시 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>축복=낙인: {{모든 파티원의 크리티컬률이
+      #1[i]% 증가하고, 캐릭터 3명의 속성이 서로 다를 경우 물리 대미지가 #2[i]% 증가한다.}}</color>"
+    icon: Skill_Seele_C2_005
+    skillType: leader
+    tags: []
+    paramSubId1: 4909
+    paramSubId2: 4909
+    paramSubId3: 0
+    subSkills:
+      - id: "4909"
+        name: 축복=낙인
+        info: "모든 파티원의 크리티컬률이 #1[i]% 증가하고, 파티원의 속성이 모두 다를 경우 물리 대미지가 #2[i]% 증가한다"
+        brief: 전 대원의 크리티컬률이 증가하고, 파티원의 속성이 모두 다를 경우 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 2
+        paramBase1: 0.15
+        paramBase2: 0.23
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+      - id: "4915"
+        name: 성쇠
+        info: 회피 스킬이 2스택 충전 스킬로 변경된다.
+        brief: 회피 스킬이 2스택 충전 스킬로 변경된다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "4916"
+        name: 변화
+        info: "필살기 재사용 대기시간이 #1[f1]% 감소하며, 최대 #2[f1]초로 감소한다."
+        brief: 필살기 재사용 대기 시간이 감소한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 1
+        paramBase1: 0.5
+        paramBase2: 12.5
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "496"
+    name: 패시브 스킬
+    info: "패시브 스킬은 자동으로 발동된다.\\n<color=#23B2E2FF>의식: 총 400pt로, 표면 의식과 내면 의식으로 구성됐으며,
+      한쪽이 상승하면 한쪽이 감소한다.\\n순백의 인장과 암흑의 인장, 20초 지속</color>"
+    icon: Skill_Seele_C2_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4913"
+        name: 표리
+        info: "표면 인격: 적 처치 시 표면 의식 200pt 회복\\n내면 인격: 실드에 가하는 대미지 #1[f1]% 증가"
+        brief: "표면 인격: 적 처치 표면 의식 회복\\n내면 인격: 실드에 가하는 대미지 증가"
+        icon: Skill_Nagative_Skill03
+        maxLv: 31
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4914"
+        name: 시종
+        info: "모든 표면 의식 또는 내면 의식 소모 시 물리 대미지가 #1[f1]% 증가한다. 10초 지속, 갱신 가능"
+        brief: 해당 의식 소진 시 대미지 상승
+        icon: Skill_Nagative_Skill03
+        maxLv: 11
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

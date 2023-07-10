@@ -1,0 +1,310 @@
+id: "301"
+fullName: 발키리·채리엇
+shortName: 발키리·채리엇
+desc: <color=white>특징:</color> <color=#FF66CCFF>이능 속성</color>의 원거리 전투형 캐릭터. 차지
+  공격이 뛰어나며 블랙홀로 적을 끌어당길 수 있다.
+firstName: 브로냐
+lastName: 자이칙
+enFirstName: Bronya
+enLastName: Zaychik
+attributeType: psy
+isEasterner: false
+weapon: cannon
+character: bronya
+initialStar: b
+tags:
+  - physical-dmg
+  - gather
+  - ignite
+  - time-mastery
+skills:
+  - id: "91"
+    name: <color=#FFC741FF>차지</color> - 중입자포
+    info: "차지할수록 강력해지는 포격\\n<color=#23B2E2FF>암 스위치: 장비한 무기에 따라 차지 공격이 바뀐다.</color>"
+    icon: Skill_Bronya_ZP_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "901"
+        name: 원자 방사
+        info: "차지하지 않고 바로 공격 시, 목표와 주변 적에게 <color=#FEDF4CFF>연소 에너지를 #1[f1]pt
+          누적한다.</color>"
+        brief: 차지하지 않고 바로 공격 시, 적에게 연소 에너지를 누적한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 68
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01493
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 1
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+        toggle: false
+        unlockStar: b
+      - id: "902"
+        name: 연쇄 반응
+        info: "기본 공격 혹은 차지 공격이 연소 상태의 적에게 적중 시 모든 대미지가 #1[f1]% 증가한다."
+        brief: 기본 공격과 차지 공격으로 연소 상태의 적을 공격 시 모든 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00517
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "914"
+        name: 충격 반사
+        info: "차지하는 동안 실드를 획득해 공격을 1회 막고, 약한 적을 경직시킨다. 재사용 대기시간: #1[f1]초, #2[f1]%의 대미지를
+          막아낸다."
+        brief: 차지하는 동안 실드를 획득해 공격을 1회 막고, 약한 적을 경직시킨다.
+        icon: Skill_Nagative_Survive03
+        maxLv: 25
+        paramBase1: 9
+        paramBase2: 0.5
+        paramBase3: 0
+        paramAdd1: -0.125
+        paramAdd2: 0.0125
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+  - id: "92"
+    name: <color=#FFC741FF>교대기</color> - 중력 분쇄
+    info: "교대 시 지면 찍기를 발동한다.\\n<color=#23B2E2FF>지면 찍기: 공격력의 150% 물리 대미지</color>"
+    icon: Skill_Bronya_ZP_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "교대기와 QTE는 강격이다. 축적 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "903"
+        name: 공중 강타
+        info: "중력 분쇄로 공중에 띄워진 적에게 가하는 물리 대미지가 공격력 #1[i]%만큼 증가한다"
+        brief: 중력 분쇄로 공중에 띄워진 적을 공격 시 추가 물리 대미지를 입힌다
+        icon: Skill_Nagative_StartUp01
+        maxLv: 30
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.06897
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "904"
+        name: <color=#FFC741FF>QTE</color> - 초중력장
+        info: "QTE: 적이 기절 상태일 때 발동한다, 공격력 100%+#1[f1]의 물리 대미지를 입히고 적을 공중에 띄워 3초 동안 시공 속박
+          상태로 만든다"
+        brief: "QTE: 적이 기절 상태일 때 QTE 출전, 물리 대미지를 가하고, 적을 공중에 띄워 시공 속박한다."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 30
+        paramBase1: 1101
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 105.41379
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: b
+  - id: "93"
+    name: 차원 회피
+    info: "잠시 다른 차원으로 들어가 적의 공격을 회피하며 연속으로 2회 회피할 수 있다.\\n<color=#23B2E2FF>시공 단열: 극한
+      회피 시 5초 동안 전체 시공 단열을 발동해 모든 적의 행동이 느려지게 한다. 재사용 대기시간: 15초</color>"
+    icon: Skill_Bronya_ZP_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "905"
+        name: 시공 속박
+        info: "전체 시공 단열에서 차지 속도가 #1[i]% 증가한다."
+        brief: 전체 시공단열에서 차지 속도가 대폭 증가한다
+        icon: Skill_Nagative_Skill02
+        maxLv: 20
+        paramBase1: 0.45
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02895
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "906"
+        name: 양자 속박
+        info: "전체 시공 단열 지속 중 및 끝나고 1초 동안까지, 발사된 모든 포탄과 미사일의 물리 대미지가 #1[f1]% 증가한다."
+        brief: 전체 시공단열 지속 중 및 끝나고 1초 동안 미사일과 대포의 물리 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 30
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00517
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "913"
+        name: 입자 재생성
+        info: "시공 단열 재사용 대기시간 #1[f1]초 감소"
+        brief: 시공단열의 재사용 대기시간이 감소한다
+        icon: Skill_Nagative_Survive02
+        maxLv: 25
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.3125
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "94"
+    name: 특이점
+    info: "강력한 블랙홀을 소환하여 근처의 적을 끌어당긴다.\\n<color=#23B2E2FF>블랙홀: 사용자는 무적 상태가 된다. 지속 시간
+      10초\\n인력 붕괴: 끌어당긴 적의 경직 저항력을 대폭 감소시키고, 모든 대미지를 50%를 감소시킨다.\\n발동 시 소모 SP:
+      50\\n필살기를 사용한 후 캐릭터를 교대하면 사용자는 스테이지에 남아 블랙홀을 유지한다</color>"
+    icon: Skill_Bronya_ZP_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "907"
+        name: 입자 광선
+        info: "특이점에 끌려온 적에게 매초 <color=#FEDF4CFF>출혈 게이지를 #1[f1]pt 누적한다.</color>"
+        brief: 특이점에 끌려온 적에게 지속적으로 출혈 게이지를 누적한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 69
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01471
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "출혈 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+        toggle: false
+        unlockStar: b
+      - id: "908"
+        name: 입자 융합
+        info: "특이점은 종료 시 폭발해 #1[f1]%의 확률로 적에게 <color=#FEDF4CFF>기절 게이지를 6pt
+          누적한다.</color>"
+        brief: 특이점은 종료 시 폭발해 일정 확률로 적에게 기절 게이지를 누적한다.
+        icon: Skill_Nagative_Control02
+        maxLv: 20
+        paramBase1: 0.5
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.02632
+        paramAdd2: 0.15789
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 2
+            comment: "기절 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: false
+        unlockStar: s
+      - id: "909"
+        name: 중력 왜곡
+        info: "특이점의 영향을 받는 적에게 원거리 물리 대미지가 #1[i]% 증가한다."
+        brief: 특이점에 끌려오는 적이 받는 원거리 물리 대미지가 증가한다
+        icon: Skill_Nagative_Skill03
+        maxLv: 20
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01053
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "95"
+    name: 폭발 반응 장갑
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>폭발 반응 장갑: {{모든 파티원이 받는 원거리
+      물리 대미지가 #1[i]% 감소한다.}}</color>"
+    icon: Skill_Bronya_ZP_005
+    skillType: leader
+    tags: []
+    paramSubId1: 910
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "910"
+        name: 폭발 반응 장갑
+        info: "모든 파티원이 받는 원거리 물리 대미지가 #1[i]% 감소한다."
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Survive02
+        maxLv: 4
+        paramBase1: 0.22
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "96"
+    name: 패시브 스킬
+    info: 패시브 스킬은 자동으로 발동한다.\n<color=#23B2E2FF></color>
+    icon: Skill_Bronya_ZP_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "911"
+        name: 무중력 보호막
+        info: "기절 혹은 마비 상태의 적을 공격 시 입히는 물리 대미지가 #1[f1]% 증가한다."
+        brief: 기절/마비 상태의 적에게 가하는 물리 대미지가 증가한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 20
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03158
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "912"
+        name: 입자 집약
+        info: "캐넌 계열 무기 사용 시 점사와 포탄의 크리티컬 대미지가 #1[f1]% 증가한다"
+        brief: 대포의 기본 공격과 차지 공격의 크리티컬 대미지가 대폭 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 40
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02051
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

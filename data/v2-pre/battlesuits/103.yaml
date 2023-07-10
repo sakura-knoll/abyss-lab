@@ -1,0 +1,297 @@
+id: "103"
+fullName: 백기사·월광
+shortName: 백기사·월광
+desc: <color=white>특징:</color> <color=#FFAF2CFF>생물 속성</color>의 원거리 전투형 캐릭터. 범위
+  공격에 특화되어있다.
+firstName: 키아나
+lastName: 카스라나
+enFirstName: Kiana
+enLastName: Kaslana
+attributeType: bio
+isEasterner: false
+weapon: pistols
+character: kiana
+initialStar: s
+tags:
+  - physical-dmg
+  - time-mastery
+  - fast-atk
+skills:
+  - id: "31"
+    name: 나선의 과녁
+    info: "빠르게 4번 사격한다.\\n<color=#23B2E2FF>1격: 공격력 100%의 물리 대미지\\n2격: 공격력 100%의 물리
+      대미지\\n3격: 공격력 150%의 물리 대미지\\n4격: 공격력 100%의 난사 물리 대미지*2</color>"
+    icon: Skill_Kiana_FX_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "301"
+        name: 운석 섬광
+        info: "난사로 가까운 적을 공격 시 추가로 공격력의 #1[f1]% 물리 대미지를 입히며 소량의 SP를 추가로 회복한다."
+        brief: 난사로 가까운 적을 공격 시 추가 물리 대미지를 입히고 SP를 회복한다
+        icon: Skill_Nagative_Control03
+        maxLv: 30
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01379
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "302"
+        name: 유성 산탄
+        info: "앞의 3단 공격이 난사 공격으로 변하고, 공격력의 #1[f1]% 범위 물리 대미지를 입힌다. 타깃이 멀리 떨어질수록 대미지 감소."
+        brief: 기본 공격의 3번째 공격까지 난사 공격을 할 수 있고 적이 멀리 떨어지면 대미지가 감소한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 0.85
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00517
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "32"
+    name: <color=#FFC741FF>분기 공격</color> - 운석 소용돌이
+    info: "3회 총격 후 회전하며 공격한다.\\n<color=#23B2E2FF>회전 총격: 범위 내 공격력의 8*28%의 물리 대미지를
+      입힌다.</color>"
+    icon: Skill_Kiana_YN_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "303"
+        name: 쌍성의 소용돌이
+        info: "분기 공격 중 공격 버튼을 연타하면 발동 횟수를 늘릴 수 있다. 최대 #1[i]번"
+        brief: 분기 공격 중 공격 버튼을 연타하면 발동 횟수를 늘릴 수 있다
+        icon: Skill_Nagative_Damage02
+        maxLv: 15
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.21429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "304"
+        name: 회전 법칙
+        info: "운석 소용돌이가 주위의 적에게 추가로 공격력의 #1[f1]% 물리 대미지를 입힌다. (한바퀴에 최대 4번)"
+        brief: 분기 공격으로 가까운 적을 공격 시 추가 물리 대미지를 입힌다
+        icon: Skill_Nagative_Damage03
+        maxLv: 28
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00741
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "305"
+        name: <color=#FFC741FF>교대기</color> - 초신성 나선
+        info: "교대 시 강력한 운석 소용돌이를 발동한다. 교대기/QTE로 공중에 띄워진 적 공격 시 모든 대미지가 #1[f1]% 증가한다."
+        brief: 출전 시 강력한 운석 소용돌이를 발동할 수 있고 교대기와 QTE로 공중에 뜬 적을 공격 시 가하는 대미지가 증가한다
+        icon: Skill_Nagative_StartUp01
+        maxLv: 75
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00405
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "33"
+    name: 시공 균열
+    info: "적의 공격을 신속하게 굴러서 회피하며 연속으로 2회 회피할 수 있다.\\n<color=#23B2E2FF>시공 단열: 극한 회피 시
+      3초 동안 전체 시공 단열을 발동한다. 재사용 대기시간: 20초\\n시공 왜곡: 자신이 발동시킨 시공 단열에서 이동 속도가 대폭
+      증가한다.</color>"
+    icon: Skill_Kiana_PT_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "306"
+        name: 시공의 여진
+        info: "극한 회피가 아니어도 시공 단열을 발동 시킬 수 있지만, 지속 시간이 #1[f1]초로 감소한다. 극한 회피로 발동하면 시공 단열의
+          지속 시간이 #1[f1]초 증가한다."
+        brief: 극한 회피가 아니어도 시공단열을 발동할 수 있지만 지속 시간이 짧아진다
+        icon: Skill_Nagative_Control01
+        maxLv: 24
+        paramBase1: 1.2
+        paramBase2: 0.5
+        paramBase3: 0
+        paramAdd1: 0.07826
+        paramAdd2: 0.06522
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "307"
+        name: 시공의 반짝임
+        info: "극한 회피 효과 발동 가능 횟수 #1[i]회 추가, 재사용 대기시간 #2[f1]초 감소"
+        brief: 극한 회피 스킬을 1회 추가 발동할 수 있고 재사용 대기시간이 감소한다
+        icon: Skill_Nagative_Control02
+        maxLv: 5
+        paramBase1: 1
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.45
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "308"
+        name: 성운의 핵심
+        info: "필드 위의 시공 감속 상태의 적 한 명당, 공격 시 물리 대미지가 #1[f1]% 증가한다. (최대 #2[i]번 중첩)"
+        brief: 시공 감속된 적을 공격 시 캐릭터의 물리 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 45
+        paramBase1: 0.02
+        paramBase2: 5
+        paramBase3: 0
+        paramAdd1: 0.00068
+        paramAdd2: 0.11364
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "34"
+    name: 나선의 성운
+    info: "공중에서 발키리 대포를 소환하여 적에게 발사\\n<color=#23B2E2FF>과학적 대포: 공격력의 2500% 물리 대미지를
+      입힌다.\\n발동 시 소모 SP: 100</color>"
+    icon: Skill_Kiana_YN_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "309"
+        name: 발키리의 여파
+        info: "필살기 시전이 끝나면 전체 시공 단열을 #1[f1]초 동안 발동한다."
+        brief: 필살기 시전이 끝나면 전체 시공단열을 발동한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 25
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.125
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "310"
+        name: 발키리의 폭발
+        info: "필살기의 마지막 일격은 남은 SP를 전부 소진하며, 소모된 SP 1당 공격력 #1[f1]%의 물리 대미지가 증가한다"
+        brief: 필살기로 남아있는 모든 SP를 전부 소진하여 추가 물리 대미지를 입힌다
+        icon: Skill_Nagative_Damage03
+        maxLv: 50
+        paramBase1: 0.16
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00204
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "313"
+        name: <color=#FFC741FF>QTE</color> - 광익전개
+        info: "QTE: 적이 띄워졌을 때 발동, 공격력 #1[f1]%*최대 50회의 물리 대미지를 입힌다"
+        brief: "QTE: 적이 공중에 띄워졌을 때 QTE를 발동할 수 있다. 대량의 광탄을 발사해 적을 공격한다."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 60
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00339
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "35"
+    name: 성운의 빛
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>성운의 빛: {{모든 파티원의 크리티컬 대미지
+      #1[i]% 증가. 3명의 캐릭터를 '생물' 속성으로  통일하고 공격하면 모든 대미지 #2[i]% 증가}}</color>"
+    icon: Skill_Kiana_PT_005
+    skillType: leader
+    tags: []
+    paramSubId1: 311
+    paramSubId2: 311
+    paramSubId3: 0
+    subSkills:
+      - id: "311"
+        name: 성운의 빛
+        info: "모든 파티원의 크리티컬 대미지 #1[i]% 증가. 3명의 캐릭터를 '생물' 속성으로 통일하고 공격하면 모든 대미지 #2[i]%
+          증가"
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Control02
+        maxLv: 2
+        paramBase1: 0.35
+        paramBase2: 0.23
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "36"
+    name: 패시브 스킬
+    info: 패시브 스킬은 자동으로 발동한다.\n<color=#23B2E2FF></color>
+    icon: Skill_Kiana_PT_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "312"
+        name: 충격 공진
+        info: "기절/마비 상태인 적을 공격 시 물리/원소 대미지가 #1[f1]% 증가한다."
+        brief: 기절/마비 상태의 적에게 가하는 대미지가 대폭 상승한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 0.8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02414
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "314"
+        name: 빛의 회복
+        info: "콤보수가 각각 20/50/100일 때, 크리티컬 확률이 각각 #1[f2]%/#2[f2]%/#3[f2]% 상승한다"
+        brief: 콤보 수가 높을수록 크리티컬률이 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 25
+        paramBase1: 0.02
+        paramBase2: 0.04
+        paramBase3: 0.06
+        paramAdd1: 0.00125
+        paramAdd2: 0.0025
+        paramAdd3: 0.00375
+        tags: []
+        toggle: false
+        unlockStar: ss

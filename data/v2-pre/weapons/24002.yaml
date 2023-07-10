@@ -1,0 +1,318 @@
+id: "24002"
+weapons:
+  - id: "24021"
+    rarity: 5
+    maxLv: 50
+    type: katana
+    name: 마그네틱 스톰·참 헤비형
+    description: “마그네틱 스톰·참”의 초월 개조 후의 자태. 네겐트로피가 초월 기술을 처음으로 시도한 것이다. 원형은 율자 프로젝트의
+      파생품으로 실험 재료로서는 타당한 선택이다. 그럼에도 불구하고 완성된 무기에 제어 장치를 많이 추가했다
+    icon: Weapon_Katana_M35_250_5
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 86.40625
+    attackAdd: 4.320312
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 3.296408
+    criticalAdd: 0.206025
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1107"
+        name: 중전참
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 15초]</color> 적에게 3단 공격을 가한다. 앞 2단은
+          각각 총 250%의 뇌전 원소 대미지를 가하며, 마지막 3단은 공격력 #1[i]%의 뇌전 원소 대미지를 가한다. 공격 시
+          적에게 <color=#FEDF4CFF>마비 게이지를 6pt 누적하며</color>, #3[f1]초 동안 받는 뇌전 원소
+          대미지를 #2[f1]% 증가시킨다(같은 무기 효과는 하나만 발동할 수 있고 중첩되지 않는다). 뇌전여왕의 귀신갑주가 장비 시,
+          액티브 스킬이 적에게 단혼참 스킬의 감전 효과를 부여하고, 사용 후 공격 버튼을 터치해 분기 공격을 바로 발동할 수 있다."
+        icon: Skill_Mei_Weapon_34
+        skillCd: 15
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 약함"
+        param1: 3.5
+        param1Add: 0.010917
+        param2: 0.1
+        param2Add: 0.000655
+        param3: 12
+        param3Add: 0
+      - id: "2135"
+        name: 전자기 역장
+        info: "캐릭터 뇌전 원소 대미지 #1[i]% 증가, 무기 액티브 스킬 사용 후 6초 동안 캐릭터가 받는 모든 대미지가 50% 감소하고 경직
+          저항력이 증가한다"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.41
+        param1Add: 0.000393
+        param2: 0
+        param2Add: 0
+        param3: 0
+        param3Add: 0
+      - id: "2136"
+        name: 뇌운
+        info: "기본 공격, 분기 공격이 마비 상태의 적에게 적중 시 번개가 나타나 목표 및 주변 적에게 공격력 #1[i]%의 뇌전 원소 대미지를
+          가하고, 마비 상태가 아닌 적에게 <color=#FEDF4CFF>마비 게이지를 3pt 누적한다.</color> 재사용
+          대기시간: #2[f1]초"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+        param1: 1
+        param1Add: 0.00655
+        param2: 13
+        param2Add: -0.0131
+        param3: 1
+        param3Add: 0.004367
+    rankUpMaterials:
+      - id: "6003"
+        amount: 100
+      - id: "1302"
+        amount: 9
+      - id: "4013"
+        amount: 100
+    powerType: 1
+  - id: "24022"
+    rarity: 5
+    maxLv: 55
+    type: katana
+    name: 마그네틱 스톰·참 헤비형
+    description: “마그네틱 스톰·참”의 초월 개조 후의 자태. 네겐트로피가 초월 기술을 처음으로 시도한 것이다. 원형은 율자 프로젝트의
+      파생품으로 실험 재료로서는 타당한 선택이다. 그럼에도 불구하고 완성된 무기에 제어 장치를 많이 추가했다
+    icon: Weapon_Katana_M35_250_5
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 91.80664
+    attackAdd: 4.590332
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 3.502433
+    criticalAdd: 0.218902
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1107"
+        name: 중전참
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 15초]</color> 적에게 3단 공격을 가한다. 앞 2단은
+          각각 총 250%의 뇌전 원소 대미지를 가하며, 마지막 3단은 공격력 #1[i]%의 뇌전 원소 대미지를 가한다. 공격 시
+          적에게 <color=#FEDF4CFF>마비 게이지를 6pt 누적하며</color>, #3[f1]초 동안 받는 뇌전 원소
+          대미지를 #2[f1]% 증가시킨다(같은 무기 효과는 하나만 발동할 수 있고 중첩되지 않는다). 뇌전여왕의 귀신갑주가 장비 시,
+          액티브 스킬이 적에게 단혼참 스킬의 감전 효과를 부여하고, 사용 후 공격 버튼을 터치해 분기 공격을 바로 발동할 수 있다."
+        icon: Skill_Mei_Weapon_34
+        skillCd: 15
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 약함"
+        param1: 4.045852
+        param1Add: 0.010917
+        param2: 0.132751
+        param2Add: 0.000655
+        param3: 12
+        param3Add: 0
+      - id: "2135"
+        name: 전자기 역장
+        info: "캐릭터 뇌전 원소 대미지 #1[i]% 증가, 무기 액티브 스킬 사용 후 6초 동안 캐릭터가 받는 모든 대미지가 50% 감소하고 경직
+          저항력이 증가한다"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.429651
+        param1Add: 0.000393
+        param2: 0
+        param2Add: 0
+        param3: 0
+        param3Add: 0
+      - id: "2136"
+        name: 뇌운
+        info: "기본 공격, 분기 공격이 마비 상태의 적에게 적중 시 번개가 나타나 목표 및 주변 적에게 공격력 #1[i]%의 뇌전 원소 대미지를
+          가하고, 마비 상태가 아닌 적에게 <color=#FEDF4CFF>마비 게이지를 3pt 누적한다.</color> 재사용
+          대기시간: #2[f1]초"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+        param1: 1.327511
+        param1Add: 0.00655
+        param2: 12.344978
+        param2Add: -0.0131
+        param3: 1.218341
+        param3Add: 0.004367
+    rankUpMaterials:
+      - id: "6003"
+        amount: 100
+      - id: "1302"
+        amount: 14
+      - id: "4013"
+        amount: 150
+    powerType: 1
+  - id: "24023"
+    rarity: 5
+    maxLv: 60
+    type: katana
+    name: 마그네틱 스톰·참 헤비형
+    description: “마그네틱 스톰·참”의 초월 개조 후의 자태. 네겐트로피가 초월 기술을 처음으로 시도한 것이다. 원형은 율자 프로젝트의
+      파생품으로 실험 재료로서는 타당한 선택이다. 그럼에도 불구하고 완성된 무기에 제어 장치를 많이 추가했다
+    icon: Weapon_Katana_M35_250_5
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 97.20703
+    attackAdd: 4.860352
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 3.708459
+    criticalAdd: 0.231779
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1107"
+        name: 중전참
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 15초]</color> 적에게 3단 공격을 가한다. 앞 2단은
+          각각 총 250%의 뇌전 원소 대미지를 가하며, 마지막 3단은 공격력 #1[i]%의 뇌전 원소 대미지를 가한다. 공격 시
+          적에게 <color=#FEDF4CFF>마비 게이지를 6pt 누적하며</color>, #3[f1]초 동안 받는 뇌전 원소
+          대미지를 #2[f1]% 증가시킨다(같은 무기 효과는 하나만 발동할 수 있고 중첩되지 않는다). 뇌전여왕의 귀신갑주가 장비 시,
+          액티브 스킬이 적에게 단혼참 스킬의 감전 효과를 부여하고, 사용 후 공격 버튼을 터치해 분기 공격을 바로 발동할 수 있다."
+        icon: Skill_Mei_Weapon_34
+        skillCd: 15
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 약함"
+        param1: 4.646288
+        param1Add: 0.010917
+        param2: 0.168777
+        param2Add: 0.000655
+        param3: 12
+        param3Add: 0
+      - id: "2135"
+        name: 전자기 역장
+        info: "캐릭터 뇌전 원소 대미지 #1[i]% 증가, 무기 액티브 스킬 사용 후 6초 동안 캐릭터가 받는 모든 대미지가 50% 감소하고 경직
+          저항력이 증가한다"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.451266
+        param1Add: 0.000393
+        param2: 0
+        param2Add: 0
+        param3: 0
+        param3Add: 0
+      - id: "2136"
+        name: 뇌운
+        info: "기본 공격, 분기 공격이 마비 상태의 적에게 적중 시 번개가 나타나 목표 및 주변 적에게 공격력 #1[i]%의 뇌전 원소 대미지를
+          가하고, 마비 상태가 아닌 적에게 <color=#FEDF4CFF>마비 게이지를 3pt 누적한다.</color> 재사용
+          대기시간: #2[f1]초"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+        param1: 1.687773
+        param1Add: 0.00655
+        param2: 11.624454
+        param2Add: -0.0131
+        param3: 1.458515
+        param3Add: 0.004367
+    rankUpMaterials:
+      - id: "6003"
+        amount: 100
+      - id: "1302"
+        amount: 18
+      - id: "4013"
+        amount: 220
+    powerType: 1
+  - id: "24024"
+    rarity: 6
+    maxLv: 65
+    type: katana
+    name: 마그네틱 스톰·참 헤비형
+    description: “마그네틱 스톰·참”의 초월 개조 후의 자태. 네겐트로피가 초월 기술을 처음으로 시도한 것이다. 원형은 율자 프로젝트의
+      파생품으로 실험 재료로서는 타당한 선택이다. 그럼에도 불구하고 완성된 무기에 제어 장치를 많이 추가했다
+    icon: Weapon_Katana_M35_250_6
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 102.60742
+    attackAdd: 5.130371
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 3.914484
+    criticalAdd: 0.244655
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1107"
+        name: 중전참
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 15초]</color> 적에게 3단 공격을 가한다. 앞 2단은
+          각각 총 250%의 뇌전 원소 대미지를 가하며, 마지막 3단은 공격력 #1[i]%의 뇌전 원소 대미지를 가한다. 공격 시
+          적에게 <color=#FEDF4CFF>마비 게이지를 6pt 누적하며</color>, #3[f1]초 동안 받는 뇌전 원소
+          대미지를 #2[f1]% 증가시킨다(같은 무기 효과는 하나만 발동할 수 있고 중첩되지 않는다). 뇌전여왕의 귀신갑주가 장비 시,
+          액티브 스킬이 적에게 단혼참 스킬의 감전 효과를 부여하고, 사용 후 공격 버튼을 터치해 분기 공격을 바로 발동할 수 있다."
+        icon: Skill_Mei_Weapon_34
+        skillCd: 15
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 약함"
+        param1: 5.30131
+        param1Add: 0.010917
+        param2: 0.208079
+        param2Add: 0.000655
+        param3: 12
+        param3Add: 0
+      - id: "2135"
+        name: 전자기 역장
+        info: "캐릭터 뇌전 원소 대미지 #1[i]% 증가, 무기 액티브 스킬 사용 후 6초 동안 캐릭터가 받는 모든 대미지가 50% 감소하고 경직
+          저항력이 증가한다"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.474847
+        param1Add: 0.000393
+        param2: 0
+        param2Add: 0
+        param3: 0
+        param3Add: 0
+      - id: "2136"
+        name: 뇌운
+        info: "기본 공격, 분기 공격이 마비 상태의 적에게 적중 시 번개가 나타나 목표 및 주변 적에게 공격력 #1[i]%의 뇌전 원소 대미지를
+          가하고, 마비 상태가 아닌 적에게 <color=#FEDF4CFF>마비 게이지를 3pt 누적한다.</color> 재사용
+          대기시간: #2[f1]초"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+        param1: 2.080786
+        param1Add: 0.00655
+        param2: 10.838428
+        param2Add: -0.0131
+        param3: 1.720524
+        param3Add: 0.004367
+    rankUpMaterials:
+      - id: "0"
+        amount: 0
+    powerType: 1

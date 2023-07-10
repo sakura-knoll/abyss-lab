@@ -1,0 +1,339 @@
+id: "503"
+fullName: 앵화윤무
+shortName: 앵화윤무
+desc: <color=white>특징:</color> <color=#FF66CCFF>이능 속성</color>의 중거리 전투형 캐릭터. 적에게
+  표식과 불타는 낙인을 새겨 높은 화염 피해를 입힌다.
+firstName: 테레사
+lastName: 아포칼립스
+enFirstName: Theresa
+enLastName: Apocalypse
+attributeType: psy
+isEasterner: false
+weapon: cross
+character: theresa
+initialStar: a
+tags:
+  - fire-dmg
+  - ignite
+  - burst
+  - fast-atk
+skills:
+  - id: "211"
+    name: 여우 불꽃 칼날
+    info: "기본 공격: 영체로 된 태도로 중거리 5연격\\n<color=#23B2E2FF>1격: 공격력 40%*3 물리 대미지\\n2격:
+      공격력 40%*3 물리 대미지\\n3격: 공격력 150%의 물리 대미지\\n4격: 두자루의 태도 한 자루당 공격력 40%*3 물리
+      대미지\\n5격: 공격력 180%의 물리 대미지.\\n기본 공격 3번째, 5번째 공격은 적에게 붉은 벚꽃 카운터를 1개씩
+      쌓는다</color>"
+    icon: Skill_Theresa_FY_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2101"
+        name: 혼령 소각
+        info: "기본 공격/필살기 5연격 적중 시, #1[f1]%의 확률로 적에게 <color=#FEDF4CFF>연소 게이지를 5pt
+          누적한다.</color> 재사용 대기시간: 6초"
+        brief: 기본 공격/필살기 5연격이 적에게 적중 시, 일정 확률로 연소 게이지를 누적한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 70
+        paramBase1: 0.05
+        paramBase2: 50
+        paramBase3: 0
+        paramAdd1: 0.00217
+        paramAdd2: 2.17391
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 1
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: a
+      - id: "2102"
+        name: 잔불
+        info: "기본 공격/필살기는 공격력 #2[f1]%의 화염 원소 대미지가 추가되며, 제3격, 제5격 적중 시 적에게 추가로 공격력
+          3*#1[i]%의 화염 원소 대미지를 가한다."
+        brief: 기본 공격/폭발 공격 시 적은 추가로 화염 대미지를 받는다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 0.3
+        paramBase2: 0.14
+        paramBase3: 0
+        paramAdd1: 0.01034
+        paramAdd2: 0.00483
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2103"
+        name: 유구의 낙인
+        info: "자신이 남긴 붉은 벚꽃 표식의 지속 시간이 #1[f1]초로 연장된다. 콤보 수가 30을 넘으면 모든 대미지가 #2[f1]%
+          증가한다."
+        brief: 자신이 남긴 붉은 벚꽃 표식의 유지 시간이 늘어나고 콤보수가 30을 넘으면 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 17
+        paramBase1: 12
+        paramBase2: 0.1
+        paramBase3: 0.1
+        paramAdd1: 0.5
+        paramAdd2: 0.00625
+        paramAdd3: 0.00625
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "212"
+    name: 벚꽃 여우불
+    info: 5연격 시 차지하여 여우불을 폭발시킨다.\n<color=#23B2E2FF>기본 공격 5연격 도중 공격 버튼을 누르고 있으면 차지할 수
+      있다. 단기간 내에 풀차지하여 여우불을 방출해 타깃과 주변 범위의 적에게 공격력의 50%*3 화염 원소 대미지를 입힌다.\n여우불은
+      붉은 벚꽃 표식을 불태워 1초 후 폭발하며 공격력의 300% 화염 원소 대미지를 입히고 적을 공중에 띄운다.</color>
+    icon: Skill_Theresa_FY_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2104"
+        name: <color=#FFC741FF>교대기</color> - 영령의 칼날
+        info: "교대기: 두 자루의 비검을 날려 한 자루당 공격력의 #1[f1]%*3 물리 대미지를 입히고 적을 다운시킨다."
+        brief: 출전 시 두개의 검기를 날려 전방의 적을 다운시킨다
+        icon: Skill_Nagative_StartUp01
+        maxLv: 35
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02941
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2105"
+        name: <color=#FFC741FF>QTE</color> - 삼중 영령의 칼날
+        info: "QTE: 적이 마비 상태일 때 발동\\n목표 지점과 자신 주변에 3개의 검기를 방출하여, 검기의 매 타격마다 공격력의 #1[f1]%
+          물리 대미지를 입히고 붉은 벚꽃 카운터를 1개 쌓는다."
+        brief: "QTE: 적이 마비 상태일 때 QTE 출전, 주위에 3단 검기를 시전해 적을 공격한다. 검기마다 적에게 카운트를 1개씩 쌓는다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 24
+        paramBase1: 2
+        paramBase2: 300
+        paramBase3: 0
+        paramAdd1: 0.05391
+        paramAdd2: 25.65217
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "2106"
+        name: 폭연
+        info: "작앵 표식의 폭발로 인한 화염 원소 대미지가 공격력의 #1[i]%로 증가된다. 붉은 혼 상태가 아닐 때, 여우불이 붉은 벚꽃 표식을
+          태울 때마다 #2[f1] SP를 회복한다."
+        brief: 작앵 표식이 터질 때 가하는 대미지가 증가하고 비폭발 상태일 때는 SP를 회복한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 50
+        paramBase1: 3.5
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 0.05531
+        paramAdd2: 0.06122
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "213"
+    name: 염화검무
+    info: "연속으로 2회까지 빠르게 회전하여 회피한다.\\n<color=#23B2E2FF>극한 회피: 자신 주변에 3개의 검기를 폭발시켜,
+      검기 하나당 공격력 10%의 물리 대미지를 입히고 3초 동안 자신의 이동 속도를 40% 증가시킨다.\\n염화검무: 극한 회피를
+      발동하면 검기마다 붉은 벚꽃 카운터를 1개씩 쌓으며, 짧은 시간 안에 공격 버튼을 누르면 여우불을 발동한다. 재사용 대기시간:
+      15초</color>"
+    icon: Skill_Theresa_FY_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2107"
+        name: 열염 검무
+        info: "극한 회피 시 폭발하는 검기가 강화되어, 매 타격이 가하는 화염 원소 대미지가 공격력 #1[f1]%만큼 증가한다"
+        brief: 염화검무의 대미지를 강화한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 32
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01132
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2108"
+        name: 적염 검무
+        info: "극한 회피의 재사용 대기시간이 #3[f2]초 감소한다. 검기의 각 단계가 적중할 때마다 #1[f1]%의 확률로 적에게
+          <color=#FEDF4CFF>출혈 게이지를 3pt 누적한다.</color>"
+        brief: 극한 회피의 재사용 대기시간이 감소하고, 염화검무가 적에게 적중 시 출혈 게이지를 누적한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 0.1
+        paramBase2: 50
+        paramBase3: 1.6
+        paramAdd1: 0.01214
+        paramAdd2: 14.57143
+        paramAdd3: 0.25714
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "출혈 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: ss
+  - id: "214"
+    name: 붉은 혼의 폭주
+    info: "발키리의 에너지를 폭발시켜 붉은 혼 상태에 진입하며 경직 저항력이 증가한다.\\n<color=#23B2E2FF>폭발: 폭발 상태에
+      진입하고, 발동 시 주변의 넓은 범위에 3단 참격을 가해 매번 공격력 100%의 물리 대미지를 가하고 붉은 벚꽃 카운터를 1개씩
+      쌓으며</color> <color=#FEDF4CFF>연소 게이지를 12pt
+      누적한다.</color><color=#23B2E2FF>\\n붉은 혼 상태: 5연격을 화염 원소 대미지를 가하는 필살 5연격으로 전환해
+      대미지가 증가하고, 붉은 벚꽃 표식을 불태울 수 있다.\\n제3, 제5격의 공격은 적에게 붉은 벚꽃 카운터를 각각 1회
+      누적한다.\\nSP가 80 이상일 때 SP를 20 소모해 발동하고, 그 후 초당 SP를 8 소모하며 SP를 소진할 때까지 초당 8
+      SP씩 소모한다. 최대 지속 시간: 60초</color>"
+    icon: Skill_Theresa_FY_004
+    skillType: ultimate
+    tags:
+      - type: ignite
+        strength: 2
+        comment: "연소 이상 게이지 누적 가능, 누적 능력: 보통"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2109"
+        name: 붉은 벚꽃 각인
+        info: "필살기의 3번째, 5번째 공격이 적에게 추가로 #1[i]개의 붉은 벚꽃 카운터를 쌓고, 공격력의 #2[f1]% 물리 대미지를 추가로
+          입힌다."
+        brief: 폭발 공격의 3번째, 5번째 공격은 적에게 벚꽃 카운터를 1회 쌓고 물리 대미지를 입힌다
+        icon: Skill_Nagative_Damage02
+        maxLv: 18
+        paramBase1: 1
+        paramBase2: 0.8
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.05882
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2110"
+        name: 불꽃의 정령
+        info: "붉은 혼 상태에서 화염 원소 대미지가 #1[f1]% 증가"
+        brief: 붉은 혼 상태에서 화염 원소 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 21
+        paramBase1: 0.25
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.0125
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2111"
+        name: 수호령
+        info: "붉은 혼 상태에서 받은 모든 대미지가 #1[f1]% 감소하고, 받는 대부분의 디버프 효과 지속 시간이 #2[i]% 단축된다. 또한
+          공격 속도가 #3[f1]% 증가한다"
+        brief: 붉은 혼 상태에서 받는 모든 대미지가 감소하고 디버프 효과의 유지 시간이 감소하며 자신의 공격 속도가 증가한다
+        icon: Skill_Nagative_Survive03
+        maxLv: 15
+        paramBase1: 0.3
+        paramBase2: 0.4
+        paramBase3: 0.2
+        paramAdd1: 0.01579
+        paramAdd2: 0.0215
+        paramAdd3: 0.01793
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "215"
+    name: 제례의 춤
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>제례의 춤: {{모든 파티원의 공중에 뜬 적에게
+      입히는 모든 대미지 #1[i]% 증가. 모든 파티원의 속성이 모두 다르면 원소 대미지가 #2[i]% 증가한다.}}</color>"
+    icon: Skill_Theresa_YD_005
+    skillType: leader
+    tags: []
+    paramSubId1: 2112
+    paramSubId2: 2112
+    paramSubId3: 0
+    subSkills:
+      - id: "2112"
+        name: 제례의 춤
+        info: "모든 파티원의 공중에 띄워진 적에게 가하는 모든 대미지가 #1[i]% 증가하고, 파티원의 속성이 모두 다를 경우 원소 대미지가
+          #2[i]% 증가한다"
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.18
+        paramBase2: 0.14
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "216"
+    name: 패시브 스킬
+    info: "패시브 스킬은 자동으로 발동된다.\\n<color=#23B2E2FF>붉은 벚꽃 표식: 적 몸에 누적된 벚꽃 카운터가 3개 이상일 때
+      카운터를 초기화하고 벚꽃 표식을 새긴다. 붉은 벚꽃 표식 유지 시간 10초.</color>"
+    icon: Skill_Theresa_YD_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2113"
+        name: 내 귀에 손대지 마!
+        info: "빙결/마비 상태의 적을 공격하면 공격력 #1[i]%의 화염 대미지를 추가로 입힌다"
+        brief: 빙결/마비/공중에 뜬 적에게 공격 적중 시 화염 대미지가 추가된다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 28
+        paramBase1: 0.4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01481
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2114"
+        name: 한 곡 추실래요?
+        info: "십자가를 전개 후, #2[f2]초 동안 모든 파티원의 원소 대미지가 #1[f1]% 증가한다"
+        brief: 십자가를 전개 후 모든 파티원의 원소 대미지가 잠깐 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 13
+        paramBase1: 0.12
+        paramBase2: 4
+        paramBase3: 0
+        paramAdd1: 0.0095
+        paramAdd2: 0.29167
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "2115"
+        name: 세상에서 제일 귀여워!
+        info: "전투 중 초기 SP #1[f1] 증가\\n오픈 월드에서는 10분에 한 번씩 발동 가능"
+        brief: 전투 중 초기 SP가 증가하고 오픈월드에서는 10분에 한 번씩 발동한다
+        icon: Skill_Nagative_Survive03
+        maxLv: 34
+        paramBase1: 12
+        paramBase2: 0.25
+        paramBase3: 0
+        paramAdd1: 0.54576
+        paramAdd2: 0.00758
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a

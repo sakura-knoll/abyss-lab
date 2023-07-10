@@ -1,0 +1,269 @@
+- id: "0"
+  name: 전체
+  desc: 모든 설명
+  icon: State_SA
+  type: 1
+  displayWeaponIdList: []
+  displayStigmataList: []
+- id: "1001"
+  name: 분기
+  desc: 분기 공격이 일부 무기와 성흔의 보너스를 받는다
+  icon: State_Branch
+  type: 1
+  displayWeaponIdList: []
+  displayStigmataList: []
+- id: "1002"
+  name: 차지
+  desc: 차지 공격이 일부 무기와 성흔의 보너스를 받는다
+  icon: State_Charge
+  type: 1
+  displayWeaponIdList: []
+  displayStigmataList: []
+- id: "1003"
+  name: 물리
+  desc: 스킬이 물리 대미지를 입힌다
+  icon: State_Physical
+  type: 1
+  displayWeaponIdList: []
+  displayStigmataList: []
+- id: "1004"
+  name: 화염 대미지
+  desc: 스킬이 화염 원소 대미지를 입힌다
+  icon: State_Fire
+  type: 1
+  displayWeaponIdList: []
+  displayStigmataList: []
+- id: "1005"
+  name: 빙결 대미지
+  desc: 스킬이 빙결 원소 대미지를 입힌다
+  icon: State_Ice
+  type: 1
+  displayWeaponIdList: []
+  displayStigmataList: []
+- id: "1006"
+  name: 뇌전 대미지
+  desc: 스킬이 뇌전 원소 대미지를 입힌다
+  icon: State_Lightning
+  type: 1
+  displayWeaponIdList: []
+  displayStigmataList: []
+- id: "1007"
+  name: 빙결
+  desc: 빙결 게이지가 가득 찬 적은 빙결되며, 빙결된 적은 5초 동안 움직일 수 없다.
+  icon: State_Frozen
+  type: 2
+  displayWeaponIdList:
+    - "24014"
+    - "21054"
+    - "20541"
+    - "20295"
+    - "20220"
+    - "20186"
+    - "20080"
+    - "20018"
+    - "21384"
+  displayStigmataList: []
+- id: "1008"
+  name: 마비
+  desc: 마비 게이지가 가득 찬 적은 마비되며, 마비된 적은 5초 동안 움직일 수 없다.
+  icon: State_Paralysis
+  type: 2
+  displayWeaponIdList:
+    - "20040"
+    - "20076"
+    - "20141"
+    - "20258"
+    - "20287"
+    - "20459"
+    - "20766"
+    - "24024"
+    - "24034"
+    - "24124"
+    - "21214"
+  displayStigmataList: []
+- id: "1009"
+  name: 기절
+  desc: 기절 게이지가 가득 찬 적은 기절하며, 기절한 적은 5초 동안 움직일 수 없다.
+  icon: State_Stun
+  type: 2
+  displayWeaponIdList:
+    - "20152"
+    - "20345"
+    - "20429"
+    - "20521"
+    - "20537"
+    - "20644"
+    - "25056"
+    - "25096"
+    - "25156"
+    - "20453"
+    - "20170"
+  displayStigmataList: []
+- id: "1010"
+  name: 점화
+  desc: 연소 게이지가 가득 찬 적은 연소 상태가 되며, 출혈 상태의 적은 10초 동안 0.5초마다 공격력 30%의 화염 원소 대미지를 받는다.
+  icon: State_Burn
+  type: 2
+  displayWeaponIdList:
+    - "24074"
+    - "20032"
+    - "20160"
+    - "20216"
+    - "20273"
+    - "20513"
+    - "20291"
+    - "20332"
+    - "20533"
+    - "21104"
+    - "25036"
+    - "25116"
+    - "25136"
+    - "20024"
+    - "20229"
+    - "20341"
+    - "20456"
+    - "20447"
+    - "29004"
+  displayStigmataList: []
+- id: "1011"
+  name: 출혈
+  desc: 출혈 게이지가 가득 찬 적은 출혈 상태가 되며, 출혈 상태의 적은 10초 동안 0.5초마다 공격력 40%의 물리 대미지를 받는다.
+  icon: State_Bleading
+  type: 2
+  displayWeaponIdList:
+    - "20052"
+    - "20237"
+    - "20309"
+    - "20467"
+    - "20494"
+    - "20664"
+    - "20916"
+    - "24064"
+  displayStigmataList: []
+- id: "1012"
+  name: 강타
+  desc: 강격은 실드에 더 많은 대미지를 입힌다
+  icon: State_Smash
+  type: 2
+  displayWeaponIdList:
+    - "21143"
+    - "21173"
+    - "21184"
+    - "21194"
+    - "21224"
+    - "24114"
+  displayStigmataList: []
+- id: "1013"
+  name: 허약
+  desc: 허약 상태의 적은 물리 대미지가 감소한다
+  icon: State_Weak
+  type: 2
+  displayWeaponIdList:
+    - "20269"
+    - "20349"
+    - "20509"
+    - "20553"
+  displayStigmataList: []
+- id: "1014"
+  name: 취약
+  desc: 취약 상태의 적은 받는 피해가 증가한다
+  icon: State_Fragile
+  type: 2
+  displayWeaponIdList:
+    - "20036"
+    - "20058"
+    - "20284"
+    - "20335"
+    - "20545"
+    - "20846"
+    - "21064"
+    - "21244"
+    - "21234"
+    - "24104"
+    - "20116"
+  displayStigmataList: []
+- id: "1015"
+  name: 띄움
+  desc: 스킬은 적을 띄울 수 있다
+  icon: State_Float
+  type: 2
+  displayWeaponIdList: []
+  displayStigmataList: []
+- id: "1016"
+  name: 감속
+  desc: 스킬은 적의 이동 속도를 감소시킨다
+  icon: State_SlowDown
+  type: 2
+  displayWeaponIdList: []
+  displayStigmataList: []
+- id: "1017"
+  name: 시공
+  desc: 스킬은 시공 감속을 일으킨다. 시공 감속의 적은 속도가 감소한다
+  icon: State_WitchTime
+  type: 2
+  displayWeaponIdList:
+    - "20116"
+    - "20173"
+    - "20241"
+    - "20391"
+    - "20704"
+    - "20974"
+    - "21023"
+    - "24104"
+  displayStigmataList: []
+- id: "1018"
+  name: 흡인
+  desc: 스킬은 주변의 적을 끌어당긴다
+  icon: State_SlowDown
+  type: 2
+  displayWeaponIdList: []
+  displayStigmataList: []
+- id: "1019"
+  name: 치료
+  desc: 스킬은 아군에게 HP 회복 효과를 부여한다
+  icon: State_Heal
+  type: 2
+  displayWeaponIdList: []
+  displayStigmataList: []
+- id: "1020"
+  name: 높은 빈도
+  desc: 발키리의 공격 빈도가 비교적 높다
+  icon: State_HighFreq
+  type: 2
+  displayWeaponIdList: []
+  displayStigmataList: []
+- id: "1021"
+  name: 폭발, 버스트
+  desc: 발키리는 버스트 모드가 있다
+  icon: State_Burst
+  type: 2
+  displayWeaponIdList: []
+  displayStigmataList: []
+- id: "1022"
+  name: 실드
+  desc: 발키리는 실드가 있다.
+  icon: State_Shield
+  type: 2
+  displayWeaponIdList: []
+  displayStigmataList: []
+- id: "1023"
+  name: 대공
+  desc: 발키리는 공중의 적을 공격할 수 있다.
+  icon: State_AntiAir
+  type: 2
+  displayWeaponIdList: []
+  displayStigmataList: []
+- id: "1024"
+  name: 원거리
+  desc: 해당 각인에서 추가된 배율은 원거리이다.
+  icon: State_Remote
+  type: 2
+  displayWeaponIdList: []
+  displayStigmataList: []
+- id: "1025"
+  name: 근접
+  desc: 해당 각인에서 추가된 배율은 근거리이다.
+  icon: State_Melee
+  type: 2
+  displayWeaponIdList: []
+  displayStigmataList: []

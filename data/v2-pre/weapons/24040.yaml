@@ -1,0 +1,338 @@
+id: "24040"
+weapons:
+  - id: "24391"
+    rarity: 5
+    maxLv: 50
+    type: katana
+    name: 세팅 폐기
+    description: 설명
+    icon: Weapon_Katana_M46_348_5
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 90.78125
+    attackAdd: 4.539062
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 1.977845
+    criticalAdd: 0.123615
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1195"
+        name: 울부짖는 뇌신
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 15초]</color> 신의 열쇠의 붕괴 에너지를 방출한다.
+          전방에 X자의 검기를 날리고 뇌전으로 여러 갈래의 차원 검기를 폭발시켜 총 공격력 #1[f1]%*2+#2[f1]%*4의 뇌전
+          원소 대미지를 가한다. 제1격은 <color=#FEDF4CFF>마비 게이지를 10pt 누적하고</color>, 캐릭터는 무기
+          스킬 사용 기간 잠시 무적 상태가 되며 SP를 10pt 회복한다. 번개의 율자가 사용 시, 폭발 상태에서 무기 스킬을 발동하면
+          공격력 #3[f1]%+100%*4의 뇌전 원소 대미지를 가한다. 해당 스킬 발동 기간, 캐릭터는 무적 상태가 되며 극한 회피
+          스킬을 발동한다. 해당 무기 스킬 발동 후, 번개의 율자는 즉시 피니쉬를 발동할 수 있고, 필살기의 재사용 대기시간이 추가로
+          11초 증가한다. 두 가지 무기 스킬이 적에게 적중하면 적에게 [나루카미] 상태를 부여한다. 지속 시간: 15초"
+        icon: Skill_Mei_Weapon_46
+        skillCd: 15
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 강함"
+        param1: 2
+        param1Add: 0.0131
+        param2: 1
+        param2Add: 0.004367
+        param3: 6
+        param3Add: 0.017467
+      - id: "2259"
+        name: 멸죄
+        info: "캐릭터가 유리한 속성의 적에게 가하는 모든 대미지가 #1[f1]% 증가한다. 캐릭터가 필살기 발동 시, 무기의 스킬 재사용
+          대기시간이 갱신된다. 재사용 대기시간: 10초. 번개의 율자가 사용 시, 2단 필살기 기간 캐릭터가 정체 영역 효과를 발동해
+          캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지하고, 캐릭터가 출전할 때마다 율자 에너지를 200pt 획득한다. 재사용
+          대기시간: 10초. 폭발 상태에서 무기 스킬을 발동하고 퇴장 전에 피니쉬 발동 시, 용은 소환물로써 전장에 남아 적에게
+          공중 폭격을 발동한다. 용이 전장에 있을 경우 캐릭터는 율자 상태가 된다. 용은 캐릭터의 현재 율자 에너지를 획득한다, 최대
+          600pt. 공중 폭격이 소모하는 SP는 캐릭터의 200%, 대미지 계수는 캐릭터의 70%으로 계산된다. 용은 에너지 소진 및
+          전장에 머무는 시간이 10초를 초과하거나 번개의 율자가 필살기를 다시 발동할 경우 퇴장한다."
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.15
+        param1Add: 0.000437
+        param2: 1
+        param2Add: 0
+        param3: 1.4
+        param3Add: 0
+      - id: "2260"
+        name: 도사린 칼날
+        info: "폭발 상태가 아닐 때 캐릭터의 뇌전 원소 대미지가 #1[f1]% 증가한다. 번개의 율자가 사용 시, 용은 에너지를 소진하거나 최대
+          시간 이상 존재할 경우, 맹렬한 기세로 돌진해 공격력 #2[f1]%의 뇌전 원소 대미지를 가한다. 협동 상태 기간, 번개의
+          율자가 심장 베기를 발동할 때마다 돌진은 추가로 공격력 #3[f1]%의 뇌전 원소 대미지를 가한다. 최대 추가 대미지:
+          2*#3[f1]%"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.45
+        param1Add: 0.000655
+        param2: 2
+        param2Add: 0.008734
+        param3: 0
+        param3Add: 0
+    rankUpMaterials:
+      - id: "6003"
+        amount: 100
+      - id: "921"
+        amount: 30
+      - id: "4013"
+        amount: 100
+    powerType: 1
+  - id: "24392"
+    rarity: 5
+    maxLv: 55
+    type: katana
+    name: 세팅 폐기
+    description: 설명
+    icon: Weapon_Katana_M46_348_5
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 96.45508
+    attackAdd: 4.822754
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 2.10146
+    criticalAdd: 0.131341
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1195"
+        name: 울부짖는 뇌신
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 15초]</color> 신의 열쇠의 붕괴 에너지를 방출한다.
+          전방에 X자의 검기를 날리고 뇌전으로 여러 갈래의 차원 검기를 폭발시켜 총 공격력 #1[f1]%*2+#2[f1]%*4의 뇌전
+          원소 대미지를 가한다. 제1격은 <color=#FEDF4CFF>마비 게이지를 10pt 누적하고</color>, 캐릭터는 무기
+          스킬 사용 기간 잠시 무적 상태가 되며 SP를 10pt 회복한다. 번개의 율자가 사용 시, 폭발 상태에서 무기 스킬을 발동하면
+          공격력 #3[f1]%+100%*4의 뇌전 원소 대미지를 가한다. 해당 스킬 발동 기간, 캐릭터는 무적 상태가 되며 극한 회피
+          스킬을 발동한다. 해당 무기 스킬 발동 후, 번개의 율자는 즉시 피니쉬를 발동할 수 있고, 필살기의 재사용 대기시간이 추가로
+          11초 증가한다. 두 가지 무기 스킬이 적에게 적중하면 적에게 [나루카미] 상태를 부여한다. 지속 시간: 15초"
+        icon: Skill_Mei_Weapon_46
+        skillCd: 15
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 강함"
+        param1: 2.655022
+        param1Add: 0.0131
+        param2: 1.218341
+        param2Add: 0.004367
+        param3: 6.873362
+        param3Add: 0.017467
+      - id: "2259"
+        name: 멸죄
+        info: "캐릭터가 유리한 속성의 적에게 가하는 모든 대미지가 #1[f1]% 증가한다. 캐릭터가 필살기 발동 시, 무기의 스킬 재사용
+          대기시간이 갱신된다. 재사용 대기시간: 10초. 번개의 율자가 사용 시, 2단 필살기 기간 캐릭터가 정체 영역 효과를 발동해
+          캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지하고, 캐릭터가 출전할 때마다 율자 에너지를 200pt 획득한다. 재사용
+          대기시간: 10초. 폭발 상태에서 무기 스킬을 발동하고 퇴장 전에 피니쉬 발동 시, 용은 소환물로써 전장에 남아 적에게
+          공중 폭격을 발동한다. 용이 전장에 있을 경우 캐릭터는 율자 상태가 된다. 용은 캐릭터의 현재 율자 에너지를 획득한다, 최대
+          600pt. 공중 폭격이 소모하는 SP는 캐릭터의 200%, 대미지 계수는 캐릭터의 70%으로 계산된다. 용은 에너지 소진 및
+          전장에 머무는 시간이 10초를 초과하거나 번개의 율자가 필살기를 다시 발동할 경우 퇴장한다."
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.171834
+        param1Add: 0.000437
+        param2: 1
+        param2Add: 0
+        param3: 1.4
+        param3Add: 0
+      - id: "2260"
+        name: 도사린 칼날
+        info: "폭발 상태가 아닐 때 캐릭터의 뇌전 원소 대미지가 #1[f1]% 증가한다. 번개의 율자가 사용 시, 용은 에너지를 소진하거나 최대
+          시간 이상 존재할 경우, 맹렬한 기세로 돌진해 공격력 #2[f1]%의 뇌전 원소 대미지를 가한다. 협동 상태 기간, 번개의
+          율자가 심장 베기를 발동할 때마다 돌진은 추가로 공격력 #3[f1]%의 뇌전 원소 대미지를 가한다. 최대 추가 대미지:
+          2*#3[f1]%"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.482751
+        param1Add: 0.000655
+        param2: 2.436681
+        param2Add: 0.008734
+        param3: 0
+        param3Add: 0
+    rankUpMaterials:
+      - id: "6003"
+        amount: 100
+      - id: "921"
+        amount: 45
+      - id: "4013"
+        amount: 150
+    powerType: 1
+  - id: "24393"
+    rarity: 5
+    maxLv: 60
+    type: katana
+    name: 세팅 폐기
+    description: 설명
+    icon: Weapon_Katana_M46_348_5
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 102.12891
+    attackAdd: 5.106445
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 2.225075
+    criticalAdd: 0.139067
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1195"
+        name: 울부짖는 뇌신
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 15초]</color> 신의 열쇠의 붕괴 에너지를 방출한다.
+          전방에 X자의 검기를 날리고 뇌전으로 여러 갈래의 차원 검기를 폭발시켜 총 공격력 #1[f1]%*2+#2[f1]%*4의 뇌전
+          원소 대미지를 가한다. 제1격은 <color=#FEDF4CFF>마비 게이지를 10pt 누적하고</color>, 캐릭터는 무기
+          스킬 사용 기간 잠시 무적 상태가 되며 SP를 10pt 회복한다. 번개의 율자가 사용 시, 폭발 상태에서 무기 스킬을 발동하면
+          공격력 #3[f1]%+100%*4의 뇌전 원소 대미지를 가한다. 해당 스킬 발동 기간, 캐릭터는 무적 상태가 되며 극한 회피
+          스킬을 발동한다. 해당 무기 스킬 발동 후, 번개의 율자는 즉시 피니쉬를 발동할 수 있고, 필살기의 재사용 대기시간이 추가로
+          11초 증가한다. 두 가지 무기 스킬이 적에게 적중하면 적에게 [나루카미] 상태를 부여한다. 지속 시간: 15초"
+        icon: Skill_Mei_Weapon_46
+        skillCd: 15
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 강함"
+        param1: 3.375546
+        param1Add: 0.0131
+        param2: 1.458515
+        param2Add: 0.004367
+        param3: 7.834061
+        param3Add: 0.017467
+      - id: "2259"
+        name: 멸죄
+        info: "캐릭터가 유리한 속성의 적에게 가하는 모든 대미지가 #1[f1]% 증가한다. 캐릭터가 필살기 발동 시, 무기의 스킬 재사용
+          대기시간이 갱신된다. 재사용 대기시간: 10초. 번개의 율자가 사용 시, 2단 필살기 기간 캐릭터가 정체 영역 효과를 발동해
+          캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지하고, 캐릭터가 출전할 때마다 율자 에너지를 200pt 획득한다. 재사용
+          대기시간: 10초. 폭발 상태에서 무기 스킬을 발동하고 퇴장 전에 피니쉬 발동 시, 용은 소환물로써 전장에 남아 적에게
+          공중 폭격을 발동한다. 용이 전장에 있을 경우 캐릭터는 율자 상태가 된다. 용은 캐릭터의 현재 율자 에너지를 획득한다, 최대
+          600pt. 공중 폭격이 소모하는 SP는 캐릭터의 200%, 대미지 계수는 캐릭터의 70%으로 계산된다. 용은 에너지 소진 및
+          전장에 머무는 시간이 10초를 초과하거나 번개의 율자가 필살기를 다시 발동할 경우 퇴장한다."
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.195852
+        param1Add: 0.000437
+        param2: 1
+        param2Add: 0
+        param3: 1.4
+        param3Add: 0
+      - id: "2260"
+        name: 도사린 칼날
+        info: "폭발 상태가 아닐 때 캐릭터의 뇌전 원소 대미지가 #1[f1]% 증가한다. 번개의 율자가 사용 시, 용은 에너지를 소진하거나 최대
+          시간 이상 존재할 경우, 맹렬한 기세로 돌진해 공격력 #2[f1]%의 뇌전 원소 대미지를 가한다. 협동 상태 기간, 번개의
+          율자가 심장 베기를 발동할 때마다 돌진은 추가로 공격력 #3[f1]%의 뇌전 원소 대미지를 가한다. 최대 추가 대미지:
+          2*#3[f1]%"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.518777
+        param1Add: 0.000655
+        param2: 2.917031
+        param2Add: 0.008734
+        param3: 0
+        param3Add: 0
+    rankUpMaterials:
+      - id: "6003"
+        amount: 100
+      - id: "921"
+        amount: 60
+      - id: "4013"
+        amount: 220
+    powerType: 1
+  - id: "24394"
+    rarity: 6
+    maxLv: 65
+    type: katana
+    name: 세팅 폐기
+    description: 설명
+    icon: Weapon_Katana_M46_348_6
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 107.802734
+    attackAdd: 5.390137
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 2.348691
+    criticalAdd: 0.146793
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1195"
+        name: 울부짖는 뇌신
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 15초]</color> 신의 열쇠의 붕괴 에너지를 방출한다.
+          전방에 X자의 검기를 날리고 뇌전으로 여러 갈래의 차원 검기를 폭발시켜 총 공격력 #1[f1]%*2+#2[f1]%*4의 뇌전
+          원소 대미지를 가한다. 제1격은 <color=#FEDF4CFF>마비 게이지를 10pt 누적하고</color>, 캐릭터는 무기
+          스킬 사용 기간 잠시 무적 상태가 되며 SP를 10pt 회복한다. 번개의 율자가 사용 시, 폭발 상태에서 무기 스킬을 발동하면
+          공격력 #3[f1]%+100%*4의 뇌전 원소 대미지를 가한다. 해당 스킬 발동 기간, 캐릭터는 무적 상태가 되며 극한 회피
+          스킬을 발동한다. 해당 무기 스킬 발동 후, 번개의 율자는 즉시 피니쉬를 발동할 수 있고, 필살기의 재사용 대기시간이 추가로
+          11초 증가한다. 두 가지 무기 스킬이 적에게 적중하면 적에게 [나루카미] 상태를 부여한다. 지속 시간: 15초"
+        icon: Skill_Mei_Weapon_46
+        skillCd: 15
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 강함"
+        param1: 4.161572
+        param1Add: 0.0131
+        param2: 1.720524
+        param2Add: 0.004367
+        param3: 8.882096
+        param3Add: 0.017467
+      - id: "2259"
+        name: 멸죄
+        info: "캐릭터가 유리한 속성의 적에게 가하는 모든 대미지가 #1[f1]% 증가한다. 캐릭터가 필살기 발동 시, 무기의 스킬 재사용
+          대기시간이 갱신된다. 재사용 대기시간: 10초. 번개의 율자가 사용 시, 2단 필살기 기간 캐릭터가 정체 영역 효과를 발동해
+          캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지하고, 캐릭터가 출전할 때마다 율자 에너지를 200pt 획득한다. 재사용
+          대기시간: 10초. 폭발 상태에서 무기 스킬을 발동하고 퇴장 전에 피니쉬 발동 시, 용은 소환물로써 전장에 남아 적에게
+          공중 폭격을 발동한다. 용이 전장에 있을 경우 캐릭터는 율자 상태가 된다. 용은 캐릭터의 현재 율자 에너지를 획득한다, 최대
+          600pt. 공중 폭격이 소모하는 SP는 캐릭터의 200%, 대미지 계수는 캐릭터의 70%으로 계산된다. 용은 에너지 소진 및
+          전장에 머무는 시간이 10초를 초과하거나 번개의 율자가 필살기를 다시 발동할 경우 퇴장한다."
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.222052
+        param1Add: 0.000437
+        param2: 1
+        param2Add: 0
+        param3: 1.4
+        param3Add: 0
+      - id: "2260"
+        name: 도사린 칼날
+        info: "폭발 상태가 아닐 때 캐릭터의 뇌전 원소 대미지가 #1[f1]% 증가한다. 번개의 율자가 사용 시, 용은 에너지를 소진하거나 최대
+          시간 이상 존재할 경우, 맹렬한 기세로 돌진해 공격력 #2[f1]%의 뇌전 원소 대미지를 가한다. 협동 상태 기간, 번개의
+          율자가 심장 베기를 발동할 때마다 돌진은 추가로 공격력 #3[f1]%의 뇌전 원소 대미지를 가한다. 최대 추가 대미지:
+          2*#3[f1]%"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.558079
+        param1Add: 0.000655
+        param2: 3.441048
+        param2Add: 0.008734
+        param3: 0
+        param3Add: 0
+    rankUpMaterials:
+      - id: "0"
+        amount: 0
+    powerType: 1

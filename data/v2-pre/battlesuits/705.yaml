@@ -1,0 +1,393 @@
+id: "705"
+fullName: 로스트 로즈마리
+shortName: 로스트 로즈마리
+desc: <color=white>특징:</color> <color=#AE98FFFF>양자 속성</color>의 근접 캐릭터, 생물의 영혼을
+  조종해 전투할 수 있다, 팀원과 협력해 짧은 시간 내에 강력한 뇌전 원소 대미지를 가할 수 있고 일정한 보조 능력을 가지고 있다
+firstName: 리타
+lastName: 로스바이세
+enFirstName: Rita
+enLastName: Rossweisse
+attributeType: qua
+isEasterner: false
+weapon: scythe
+character: rita
+initialStar: s
+tags:
+  - lightning-dmg
+  - paralyze
+  - time-mastery
+  - gather
+skills:
+  - id: "571"
+    name: 어혼사
+    info: "낫을 사용해 공격하고, 적의 영혼을 흡수해 자신을 강화한다.\\n<color=#23B2E2FF>1격: 공격력 30%의 물리
+      대미지+공격력 40%의 뇌전 원소 대미지를 주고, 적에게 적중 시 3pt의 영혼을 흡수한다.\\n2격: 총 공격력 90%의 물리
+      대미지+공격력 90%의 뇌전 원소 대미지를 주고, 적에게 적중 시 총 9pt의 영혼을 흡수한다.\\n3격: 총 공격력 80%의 물리
+      대미지+공격력 105%의 뇌전 원소 대미지를 주고, 적에게 적중 시 총 8pt의 영혼을 흡수한다.\\n4격: 총 공격력 120%의
+      뇌전 원소 대미지를 주고, 적에게 적중 시 총 28pt의 영혼을 흡수한다.\\n5격: 총 공격력 160%의 물리 대미지+공격력
+      170%의 뇌전 원소 대미지를 주고, 적에게 적중 시 총 12pt의 영혼을 흡수한다.\\n영혼이 100pt에 도달하면, 100pt의
+      영혼을 소모하여 공격 버튼을 길게 눌러 차지 공격을 발동해 공격력 400%의 뇌전 원소 대미지를 가하고, 로스트 로즈마리는 20초간
+      지속되는 [명계의 마녀] 형태에 진입한다. [명계의 마녀] 형태에서 기본 공격 제3격이 변경되어, 늑대의 영혼으로 공격해 공격력
+      350%의 뇌전 원소 대미지를 가하고,</color> <color=#FEDF4CFF>마비 게이지를 3pt 누적한다.</color>
+      <color=#23B2E2FF>적에게 적중 시 10pt의 영혼을 흡수한다.\\n제4격은 뱀의 영혼으로 공격해 총 공격력 420%의
+      뇌전 원소 대미지를 가하고,</color> <color=#FEDF4CFF>마비 게이지를 4pt 누적하며,</color>
+      <color=#23B2E2FF>적에게 적중 시 총 48pt의 영혼을 흡수한다.</color>"
+    icon: Skill_Rita_C5_IA_571
+    skillType: basic
+    tags:
+      - type: paralyze
+        strength: 1
+        comment: "마비 이상 게이지 누적 가능, 누적 능력: 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5701"
+        name: 늑대
+        info: "늑대의 영혼이 적에게 적중하면 [늑대의 인장]을 생성한다. 로스트 로즈마리 근처의 적이 받는 뇌전 원소 대미지가 #1[f1]%
+          증가하고, 허약 상태에 빠져 대미지가 #2[f1]% 감소하며, 경직 능력이 감소한다. 지속 시간: 15초 (명계의 마녀
+          상태에서 3격과 QTE는 늑대의 영혼을 사역할 수 있다)"
+        brief: "늑대의 영혼이 적에게 적중하면 [늑대의 인장]을 생성한다. 로스트 로즈마리 근처의 적이 받는 뇌전 원소 대미지가 증가하고, 허약
+          상태에 빠져 대미지가 감소하며, 경직 능력이 감소한다. 지속 시간: 15초 (명계의 마녀 상태에서 3격과 QTE는 늑대의
+          영혼을 사역할 수 있다)"
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 0.08
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.007
+        paramAdd2: 0.015
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5702"
+        name: 뱀
+        info: "뱀의 영혼이 적에게 적중하면 [뱀의 인장]을 생성한다. 뇌전을 소환하여 로스트 로즈마리 근처의 적을 끊임없이 폭격해 초당
+          #1[f1]% 공격력의 뇌전 원소 대미지를 가한다. 지속 시간: 15초"
+        brief: "뱀의 영혼이 적에게 적중하면 [뱀의 인장]을 생성한다. 뇌전을 소환한 후, 로스트 로즈마리 근처의 적을 끊임없이 폭격해 뇌전 원소
+          대미지를 가한다. 지속 시간: 15초"
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5703"
+        name: 부엉이
+        info: "부엉이의 영혼이 적에게 적중하면 [부엉이의 인장]을 생성한다: 모든 파티원이 가하는 뇌전 원소 대미지가 #1[f1]% 증가하고,
+          초당 #3[f1]pt의 SP를 회복한다. 지속 시간: 15초"
+        brief: "부엉이의 영혼이 적에게 적중하면 [부엉이의 인장]을 생성한다: 모든 파티원이 가하는 뇌전 원소 대미지가 증가하고, SP를 서서히
+          회복한다. 지속 시간: 15초"
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 0.08
+        paramBase2: 0
+        paramBase3: 0.3
+        paramAdd1: 0.007
+        paramAdd2: 0
+        paramAdd3: 0.02
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "572"
+    name: 신을 삼킨 자
+    info: "로스트 로즈마리는 [명계의 마녀] 형태일 때 더 강력한 차지 공격을 사용할 수 있다.\\n<color=#23B2E2FF>영혼이
+      100pt에 도달했을 때 공격 버튼을 길게 누르면 [신을 삼킨 자·포식]을 사용할 수 있고, 영혼이 200pt에 도달했을 때 공격
+      버튼을 길게 누르면 [신을 삼킨 자·폭식]을 사용할 수 있다.\\n[신을 삼킨 자·포식]: 영혼을 소모하고 늑대의 영혼을 부려 로스트
+      로즈마리 주변의 적을 공격해 공격력 600%의 뇌전 원소 대미지를 가한다.\\n[신을 삼킨 자·폭식]: 포식과 동시에 전장에 [악의
+      주문]을 생성해 범위 내의 적이 받는 뇌전 원소 대미지를 18% 증가시킨다. 지속 시간: 20초.\\n[신을 삼킨 자]를 발동할 때
+      짧은 시간 무적 상태에 진입하고, 주변의 적을 끌어당기며 [명계의 마녀] 형태의 지속 시간을 초기화한다</color>"
+    icon: Skill_Rita_C5_IA_572
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5704"
+        name: 물어뜯기
+        info: "차지 공격이 가하는 모든 대미지가 #1[f1]% 증가하고, 적중한 적에게 <color=#FEDF4CFF>마비 게이지를 10pt
+          누적한다.</color>"
+        brief: 차지 공격이 가하는 모든 대미지가 증가하고, 적중한 적에게 마비 게이지를 누적한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 2
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: false
+        unlockStar: s
+      - id: "5705"
+        name: 공식
+        info: "[악의 주문] 생성 시 로스트 로즈마리가 보유하고 있는 [인장]의 수에 따라 효과가 증가하고, [인장]마다 범위 내의 적이 받는
+          뇌전 원소 대미지가 추가로 #1[f1]% 증가한다"
+        brief: "[악의 주문] 생성 시 로스트 로즈마리가 보유하고 있는 [인장]의 수에 따라 효과가 증가한다"
+        icon: Skill_Nagative_Damage02
+        maxLv: 21
+        paramBase1: 0.03
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.001
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5706"
+        name: 악식
+        info: "차지 공격 발동 후, 파티원의 원소 대미지가 #1[f1]% 증가한다. 지속 시간: 20초"
+        brief: 차지 공격 발동 후, 파티원의 원소 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 10
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s1
+  - id: "573"
+    name: 베이예흐 드 뉘
+    info: "빠르게 적의 공격을 회피한다, 2회 연속 회피 가능.\\n<color=#23B2E2FF>회피를 발동하면 주변의 적에게 공격력
+      2*40%의 뇌전 원소 대미지를 가하고, 로스트 로즈마리는 [명계의 마녀] 형태에 진입해 부엉이의 영혼을 사역한다.\\n회피 공격이
+      적에게 적중 시 부엉이의 영혼으로 공격해 공격력 6*50%의 뇌전 원소 대미지를 가하고,</color>
+      <color=#FEDF4CFF>마비 게이지를 6pt 누적하며,</color> <color=#23B2E2FF>총 24pt의 영혼을
+      흡수한다. 부엉이의 영혼은 1회 사용하면 8초의 충전 상태에 진입하는데, 충전 기간에는 발동할 수 없다.\\n극한 회피가 성공하면
+      스킬 [베이예 드 뉘]가 발동한다: 3초의 전체 시공 단열을 발동하고, 부엉이의 영혼을 가득 채우며 부엉이의 영혼을 부려 적을 뇌전
+      폭격한다 (발동 후 부엉이의 영혼은 충전 상태에 진입한다). 재사용 대기시간: 15초\\n극한 회피 발동 또는 [명계의 마녀]
+      형태에서 부엉이의 영혼이 충전 완료 상태일 때 회피 공격을 사용하여 적에게 적중하면 이어서 기본 공격 제4격을 발동할 수
+      있다.</color>"
+    icon: Skill_Rita_C5_IA_574
+    skillType: evasion
+    tags:
+      - type: paralyze
+        strength: 2
+        comment: "마비 이상 게이지 누적 가능, 누적 능력: 보통"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5707"
+        name: 로 플로이드
+        info: "[베이예흐 드 뉘]의 재사용 대기시간이 #1[f1]초 감소한다"
+        brief: "[베이예흐 드 뉘] 스킬의 재사용 대기시간이 감소한다"
+        icon: Skill_Nagative_Skill01
+        maxLv: 11
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5708"
+        name: 아라뉘
+        info: "부엉이의 영혼 충전 시간이 #1[f1]초 감소한다"
+        brief: 부엉이의 영혼 충전 시간이 감소한다
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5709"
+        name: <color=#FFC741FF>QTE</color>-그리끌레
+        info: "QTE: 적이 공중에 띄워졌거나 연소 상태일 때 발동한다. 로스트 로즈마리가 [명계의 마녀] 형태로 출전해 3초 동안 전체 시공
+          단열을 발동하고, 늑대 영혼을 부려 공격력 800%의 뇌전 원소 대미지를 가하며, <color=#FEDF4CFF>마비 게이지를
+          3pt 누적한다.</color> 적 적중 시 추가로 영혼을 #1[f1]pt 회복한다."
+        brief: "QTE: 적이 공중에 띄워지거나 연소 상태일 때 QTE 발동, 로스트 로즈마리가 [명계의 마녀] 형태로 교대해 전체 시공 단열을
+          발동하고, 늑대 영혼을 부려 대량의 뇌전 원소 대미지를 가한다. 적 명중 시 추가로 대량의 영혼을 회복한다."
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 30
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 2.22222
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 1
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: true
+        unlockStar: s
+  - id: "574"
+    name: 파사주 당페
+    info: "짧은 시간 로키의 봉인을 해제하고 강력한 공격을 1회 시전한다.\\n<color=#23B2E2FF>램프에 봉인된 로키를 해방한다.
+      짧은 시전 후 로키는 공격력 1200% 뇌전 원소 대미지의 강력한 광범위 공격을 가하고, 1초간 지속되는 전체 시공단열을 발동하며
+      양자 속성 적에게는 양자 붕괴를 1회 가한다.\\n소모 SP: 100, 재사용 대기시간: 20초</color>"
+    icon: Skill_Rita_C5_IA_573
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5710"
+        name: 라 꾸쉬 뒤 디아블
+        info: "로키가 해방될 때 로스트 로즈마리의 [인장]을 삼킨다. [인장]을 1개 삼킬 때마다 로키는 추가로 공격력 #1[f1]%의 뇌전 원소
+          대미지를 가한다"
+        brief: 로키가 해방될 때 로스트 로즈마리의 [인장]을 삼킨다. [인장]을 1개 삼킬 때마다 로키는 추가로 뇌전 원소 대미지를 가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 31
+        paramBase1: 2.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.08333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5711"
+        name: 드 프로펀디
+        info: "전장에 [악의 주문]이 있을 때 로키를 해방하면, 로키가 가하는 모든 대미지가 #1[f1]% 증가한다"
+        brief: 전장에 [악의 주문]이 있을 때 로키를 해방하면, 로키가 가하는 모든 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "575"
+    name: 스 수와 우 자메
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>리더 스킬: {{파티원 3명의 속성이 모두 다를
+      경우 파티원의 모든 대미지가 #1[f1]% 증가한다. 파티원의 분기, 차지, 필살기가 가하는 뇌전 원소 대미지가 #2[f1]%
+      증가한다}}</color>"
+    icon: Skill_Rita_C5_IA_575
+    skillType: leader
+    tags: []
+    paramSubId1: 5713
+    paramSubId2: 5713
+    paramSubId3: 0
+    subSkills:
+      - id: "5713"
+        name: 스 수와 우 자메
+        info: "파티원 3명의 속성이 모두 다를 경우 파티원의 모든 대미지가 #1[f1]% 증가한다. 파티원의 분기, 차지, 필살기가 가하는 뇌전
+          원소 대미지가 #2[f1]% 증가한다"
+        brief: 3명의 속성이 모두 다를 경우 파티원의 모든 대미지가 증가한다. 파티원의 분기, 차지, 필살기가 가하는 뇌전 원소 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.2
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0.025
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+      - id: "5717"
+        name: 유폐정원
+        info: "[악의 주문] 범위 내 적이 받는 로스트 로즈마리의 모든 대미지가 #1[f1]% 증가한다(해당 효과는 독립적으로 부여된다)."
+        brief: "[악의 주문] 범위 내의 적이 받는 로스트 로즈마리의 모든 대미지가 증가한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 1
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+      - id: "5718"
+        name: 치명적인 상냥함
+        info: "필살기 발동 후 #1[f1]초 동안 초당 SP를 #2[f1]pt, 영혼을 #3[f1]pt 회복한다. 중복 발동 시 지속 시간을
+          갱신한다."
+        brief: 필살기 발동 후 일정 시간 동안 SP와 영혼을 회복한다. 중복 발동 시 지속 시간을 갱신한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 1
+        paramBase1: 10
+        paramBase2: 1.01
+        paramBase3: 45
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss2
+  - id: "576"
+    name: 랑떼르디
+    info: 패시브 스킬은 자동으로 발동된다.\n<color=#23B2E2FF>로스트 로즈마리는 파티 내 다른 캐릭터가 전투하는 과정에서 일부
+      힘을 축적할 수 있다</color>
+    icon: Skill_Rita_C5_IA_576
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5714"
+        name: 롬브로단로
+        info: "파티의 다른 캐릭터가 분기 공격 또는 차지 공격을 발동하면 로스트 로즈마리는 #1[i]pt의 영혼과 #2[i]pt의 SP를
+          회복한다. 재사용 대기시간: 5초"
+        brief: "파티의 다른 캐릭터가 분기 공격 또는 차지 공격을 발동하면 로스트 로즈마리는 영혼과 SP를 회복한다. 재사용 대기시간: 5초"
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 30
+        paramBase2: 6
+        paramBase3: 0
+        paramAdd1: 3.5
+        paramAdd2: 0.6
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5715"
+        name: 뉘 드 셀로판
+        info: "[명계의 마녀] 형태에 진입 시 0.2초마다 영혼을 #1[i]pt 회복한다. 지속 시간: 2초. 전투당 1회만 효과 적용"
+        brief: "[명계의 마녀] 형태에 진입 시 짧은 시간 동안 대량의 영혼을 회복한다. 전투당 1회만 효과 적용"
+        icon: Skill_Nagative_Skill03
+        maxLv: 11
+        paramBase1: 6
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.4
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "5716"
+        name: 스모크 포 더 소울
+        info: "로스트 로즈마리가 [명계의 마녀] 형태일 때 모든 대미지가 #1[f1]% 증가하고, 받는 모든 대미지가 #2[f1]% 감소한다"
+        brief: 로스트 로즈마리가 [명계의 마녀] 형태일 때 모든 대미지가 증가하고, 받는 모든 대미지가 감소한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0.12
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.013
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

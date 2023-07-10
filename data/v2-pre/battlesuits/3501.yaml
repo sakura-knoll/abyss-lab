@@ -1,0 +1,391 @@
+id: "3501"
+fullName: 터미널 에이드 0017
+shortName: 터미널 에이드 0017
+desc: <color=white>특징:</color> <color=#F3DFAEFF>허수 속성</color>의 원거리와 근거리가 결합된
+  캐릭터로, 건틀릿을 사용해 강력한 공격을 발동한다.
+firstName: 프로메테우스
+lastName: null
+enFirstName: Prometheus
+enLastName: null
+attributeType: img
+isEasterner: true
+weapon: fists
+character: prometheus
+initialStar: a
+tags:
+  - physical-dmg
+  - gather
+  - stun
+  - time-mastery
+  - impair
+skills:
+  - id: "881"
+    name: 단언-초한기수
+    info: "건틀릿의 형태를 바꿔 적을 공격한다.\\n<color=#23B2E3FF>제1격: 공격력 150%의 물리 대미지를 가하고, [반응
+      에너지]를 15pt 회복한다.\\n제2격: 공격력 180%의 물리 대미지를 가하고, [반응 에너지]를 15pt 회복한다.\\n제3격:
+      공격력 70%*6의 물리 대미지를 가하고, [반응 에너지]를 30pt 회복한다.\\n제4격: 공격력 180%+40%*3의 물리
+      대미지를 가하고,</color> <color=#FEDF4CFF>기절 게이지를 3pt 누적하며,</color>
+      <color=#23B2E2FF>동시에 [반응 에너지]를 45pt 회복한다.</color>"
+    icon: Skill_Prometheus_C1_TS_881
+    skillType: basic
+    tags:
+      - type: stun
+        strength: 1
+        comment: "기절 이상 게이지 누적 가능, 누적 능력: 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8801"
+        name: <color=#FFC741FF>QTE</color>-선택공리
+        info: "QTE: 적이 시공 감속 또는 아군 캐릭터의 차지 공격/분기 공격에 적중 시 발동한다: 공격력 #1[f1]%의 물리 대미지를
+          가하고, [반응 에너지]를 전부 회복하며, 교대된 캐릭터의 교대 시간이 4초 감소한다."
+        brief: "QTE: 적이 시공 감속 또는 아군 캐릭터의 차지 공격/분기 공격에 적중 시 발동한다: 물리 대미지를 가하고, [반응 에너지]를
+          전부 회복하며, 교대된 캐릭터의 교대 재사용 대기시간이 4초 감소한다."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 1
+        paramBase1: 6
+        paramBase2: 3
+        paramBase3: 3
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+      - id: "8802"
+        name: 불완전성 정리
+        info: "[선택공리] 발동 후, 파티원의 SP를 #2[f1]pt 회복하고, 추가로 자신의 SP를 #3[f1]pt 회복한다. 6초 동안 자신의
+          모든 대미지가 #1[f1]% 증가한다. 재사용 대기시간: 12초"
+        brief: "[선택공리]가 적에게 적중 시 자신과 파티원이 SP를 회복하고, 6초 동안 자신의 모든 대미지가 증가한다."
+        icon: Skill_Nagative_Damage02
+        maxLv: 7
+        paramBase1: 0.33
+        paramBase2: 3.01
+        paramBase3: 3.01
+        paramAdd1: 0.05333
+        paramAdd2: 0.33333
+        paramAdd3: 0.33333
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8816"
+        name: 패러독스
+        info: "기본 공격 [단언-초한기수] 제4격이 적에게 적중 시 2초 동안 [방어 태세]에 진입하고, 매초 추가로 [반응 에너지]를
+          #1[f1]pt 회복한다."
+        brief: 기본 공격 제4격이 적에게 적중 시 2초 동안 [방어 태세]에 진입하고, 매초 추가로 [반응 에너지]를 회복한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 8
+        paramBase1: 40
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 6.42857
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "882"
+    name: <color=#FFC741FF>분기</color>-의사-신경망
+    info: "적이 서 있지 못하도록 바닥을 뒤집는다.\\n<color=#23B2E4FF>[반응 에너지] 최대치: 400pt, 초기치:
+      400pt, 반응 에너지가 가득 찼을 때 모든 [반응 에너지]를 소모한 후 [의사-신경망]을 발동해 적에게 공격력 100%+700%의
+      물리 대미지를 가하고,</color> <color=#FEDF4CFF>기절 게이지를 6pt 누적한다.</color>
+      <color=#23B2E2FF>그 기간, 캐릭터가 받는 모든 대미지가 80% 감소한다.\\n[반응 에너지]를 100pt 소모할 때마다
+      파티원이 [고밀도 중성자 실드]의 실드치를 250pt 획득한다.</color>"
+    icon: Skill_Prometheus_C1_TS_882
+    skillType: special
+    tags:
+      - type: stun
+        strength: 2
+        comment: "기절 이상 게이지 누적 가능, 누적 능력: 보통"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8803"
+        name: 오차 역전파
+        info: "[고밀도 중성자 실드]를 보유한 다른 아군 캐릭터가 적을 공격할 때마다 터미널 에이드 0017의 SP를 #1[f2]pt 회복한다.
+          재사용 대기시간: #2[f1]초, 파티원이 해당 재사용 대기시간을 공유한다."
+        brief: "[고밀도 중성자 실드]를 보유한 다른 아군 캐릭터가 적을 공격할 때마다 터미널 에이드 0017의 SP를 회복한다."
+        icon: Skill_Nagative_Skill03
+        maxLv: 1
+        paramBase1: 3.5
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8815"
+        name: 컨벌루션
+        info: "필살기 [존재-배위 공간]과 분기 공격 [의사-신경망]이 [반응 에너지]를 100pt 소모할 때마다 자신의 실드 파괴력이
+          #1[f1]%, 물리 대미지가 #2[f1]%, 크리티컬률이 #3[f1]% 증가한다(최대 4스택 중첩). 지속 시간: 5초,
+          중복 발동 시 갱신. 한 번에 [반응 에너지]를 400pt 소모하면 적중한 적에게 추가로 취약 효과를 부가하고, 5초 동안
+          방어력을 70% 감소시킨다. [컨벌루션] 재사용 대기시간: 12초, 기본 공격 [단언-초한기수] 제4격 발동 시 해당 재사용
+          대기시간이 삭제된다."
+        brief: "[반응 에너지] 소모 시 자신의 실드 파괴력, 물리 대미지, 크리티컬률이 증가하고, 적에게 취약 효과를 부가한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.6
+        paramBase2: 0.1
+        paramBase3: 0.105
+        paramAdd1: 0.06
+        paramAdd2: 0.009
+        paramAdd3: 0.0105
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "883"
+    name: 운명-재규격화 그룹
+    info: "프로메테우스의 건틀릿이 방패로 변해 적의 정면 공격을 방어한다. 방어 성공 시 적의 공격을 무효화하고, 반격 대미지를
+      가한다.\\n<color=#23B2E5FF>회피 버튼을 길게 누르면 방패를 들어올리고 [방어 상태]에 진입해 전방 적의 공격을
+      무효화한다. [방어 상태] 기간, 매초 [반응 에너지]를 70pt 회복하고, 피격된 순간에 회피 버튼을 떼면 [절대 방어]가 발동해
+      적에게 공격력 100%의 물리 대미지를 가하고,</color> <color=#FEDF4CFF>기절 게이지를 3pt
+      누적한다.</color><color=#23B2E2FF>\\n[절대 방어]와 [극한 회피] 시 [반응 에너지]를 200pt 회복하고,
+      극한 회피 스킬을 발동한다.\\n극한 회피 스킬: [재사용 대기시간 10초] 1초 동안 전체 시공 단열을 발동하고, [절대 방어]를
+      통해 발동 시 추가로 [리버스 필드]를 발동한다.\\n[리버스 필드]에서 건틀릿은 드릴로 변해 적에게 공격력 280%+50%*6의
+      물리 대미지를 가하고, 추가로 [반응 에너지]를 200pt 회복한다.</color>"
+    icon: Skill_Prometheus_C1_TS_883
+    skillType: evasion
+    tags:
+      - type: stun
+        strength: 1
+        comment: "기절 이상 게이지 누적 가능, 누적 능력: 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8804"
+        name: 자신을 잊은 불을 훔친 자
+        info: "[고밀도 중성자 실드]의 실드 최대치가 #1[f1]pt 증가하고, [리버스 필드] 발동 시 [고밀도 중성자 실드]의 실드치를
+          #2[f1]pt 회복한다."
+        brief: "[고밀도 중성자 실드]의 실드 최대치가 증가하고, [리버스 필드] 발동 시 [고밀도 중성자 실드]의 실드치를 회복한다."
+        icon: Skill_Nagative_Survive03
+        maxLv: 1
+        paramBase1: 4000
+        paramBase2: 500
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8805"
+        name: 종말의 수호자
+        info: "전투 중 [방어 상태] 진입 시 매초 [고밀도 중성자 실드]의 실드치를 #1[f1]pt 회복하고, [절대 방어]가 생성한 전체 시공
+          단열이 3초까지 연장된다."
+        brief: 전투 중 [방어 상태] 진입 시 매초 [고밀도 중성자 실드]의 실드치를 회복하고, [절대 방어]가 생성한 전체 시공 단열이
+          연장된다.
+        icon: Skill_Nagative_Survive02
+        maxLv: 5
+        paramBase1: 200
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 50
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "884"
+    name: 존재-배위 공간
+    info: "바닥에서 뚫고 올라온 거대한 건틀릿이 적을 단단히 움켜잡는다.\\n<color=#23B2E6FF>발동 소모 SP: 90, 재사용
+      대기시간: 20초. 프로메테우스가 블랙홀을 생성해 적을 모으고, 지면 아래에서 거대화한 건틀릿을 뻗어 적을 움켜잡아 공격력
+      1200%의 물리 대미지를 가하고,</color> <color=#FEDF4CFF>기절 게이지를 18pt 누적한다.</color>
+      <color=#23B2E2FF>필살기는 현재 있는 [반응 에너지]를 전부 소모한다.</color>"
+    icon: Skill_Prometheus_C1_TS_884
+    skillType: ultimate
+    tags:
+      - type: stun
+        strength: 3
+        comment: "기절 이상 게이지 누적 가능, 누적 능력: 강함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8806"
+        name: 교차하는 현재와 과거
+        info: "필살기 [존재-배위 공간] 발동 시 파티원의 크리티컬 대미지가 #1[f1]% 증가한다. 지속 시간: 22초, 중복 발동 시 갱신"
+        brief: 필살기 [존재-배위 공간] 발동 시 파티원의 크리티컬 대미지가 증가한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 8
+        paramBase1: 0.12
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01857
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8807"
+        name: 대조의 세계
+        info: "필살기 [존재-배위 공간]과 분기 공격 [의사-신경망]이 가하는 크리티컬 대미지가 #1[f1]% 증가한다."
+        brief: 필살기 [존재-배위 공간]과 분기 공격 [의사-신경망]이 가하는 크리티컬 대미지가 증가한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.07143
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "885"
+    name: 불후-절대 이성
+    info: "리더로 배치 시 파티원이 버프를 받는다.\\n<color=#23B2E7FF>리더 스킬: {{파티원의 물리 대미지가 #1[f1]%
+      증가하고, 파티원의 초기 SP가 #2[f1]pt 증가한다. 파티 내 다른 허수 캐릭터가 있을 경우, 파티원의 초기 SP가 추가로
+      #2[f1]pt 증가한다(해당 효과는 오픈월드에서 10분마다 1회 발동한다).}}</color>"
+    icon: Skill_Prometheus_C1_TS_885
+    skillType: leader
+    tags: []
+    paramSubId1: 8808
+    paramSubId2: 8808
+    paramSubId3: 0
+    subSkills:
+      - id: "8808"
+        name: 낭만의 증명
+        info: "파티원의 물리 대미지가 #1[f1]% 증가하고, 초기 SP가 #2[f1]pt 증가한다. 파티 내 다른 허수 캐릭터가 존재할 경우,
+          파티원의 초기 SP가 추가로 #2[f1]pt 증가한다(해당 효과는 오픈월드에서 10분마다 1회 발동한다)."
+        brief: 파티원의 물리 대미지가 증가하고, 초기 SP가 증가한다. 파티 내 다른 허수 캐릭터가 존재할 경우, 파티원의 초기 SP가 추가로
+          증가한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 3
+        paramBase1: 0.2
+        paramBase2: 20
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 2.5
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "886"
+    name: 여정-파동 입자
+    info: "패시브 스킬은 자동으로 발동한다.\\n<color=#23B2E8FF>실드 스킬의 영향을 받지 않은 캐릭터는 [고밀도 중성자 실드]를
+      획득한다. [고밀도 중성자 실드] 초기 실드치: 2000(최대: 3000). 실드 존재 시 캐릭터가 받은 대미지 50%만큼의 대미지를
+      막는다. [고밀도 중성자 실드]의 실드치가 0이 되면 일시적으로 효과가 사라지며, 분기 공격 [의사-신경망], 필살기 [존재-배위
+      공간], 방어 반격 [리버스 필드], [방어 상태]를 통해 회복할 수 있다.</color>"
+    icon: Skill_Prometheus_C1_TS_886
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8809"
+        name: 기억과 성격
+        info: "[고밀도 중성자 실드]를 보유한 캐릭터는 출전 후 15초 동안 실드 파괴력이 #1[f1]% 증가한다."
+        brief: "[고밀도 중성자 실드]를 보유한 캐릭터는 출전 후 15초 동안 실드 파괴력이 증가한다."
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.15
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8810"
+        name: 생명과 창조물
+        info: "[고밀도 중성자 실드]를 보유한 캐릭터의 실드 파괴력이 #1[f1]% 증가하고, 경직 저항력이 소폭 증가하며, 전장의 적이 받는
+          모든 대미지가 #2[f1]% 증가한다."
+        brief: "[고밀도 중성자 실드]를 보유한 캐릭터의 실드 파괴력이 증가하고, 경직 저항력이 소폭 증가하며, 전장의 적이 받는 모든 대미지가
+          증가한다."
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0.12
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.011
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8811"
+        name: 과거와 미래
+        info: "[재생-초대칭성 입자]가 적에게 적중 시 파티원의 근접 물리 대미지가 #1[f1]% 증가한다. 지속 시간: 20초, 중복 발동 시
+          갱신"
+        brief: "[재생-초대칭성 입자]가 적에게 적중 시 파티원의 근접 물리 대미지가 증가한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "887"
+    name: 재생-초대칭성 입자
+    info: 거대한 손바닥이 하늘에서 떨어진다.\n<color=#23B2E8FF>프로메테우스가 분기 공격 [의사-신경망]과 필살기 [존재-배위
+      공간]으로 적을 공격했을 때 해당 공격이 [반응 에너지]를 400pt 소모했을 경우 [재생-초대칭성 입자] 공격을 발동해 공격력
+      800%의 물리 대미지를 가한다(필살기 대미지로 간주). 그 기간, 캐릭터가 받는 모든 대미지가 80% 감소하고, 2초 동안 전체
+      시공 단열을 발동한다. [재생-초대칭성 입자]가 [허무의 씨앗]에 적중했을 때 현재 단계의 [허무의 씨앗] HP가 20% 미만일
+      경우, 현재 단계의 HP가 즉시 소멸한다.</color>
+    icon: Skill_Prometheus_C1_TS_887
+    skillType: sp
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8812"
+        name: 추억
+        info: "[재생-초대칭성 입자]가 허수 적에게 적중 시 SP 팩이 1개 드랍된다. 재사용 대기시간: 20초. 현재 전장의 허수 적이 물리
+          특성의 캐릭터에게 받는 모든 대미지가 #1[f1]% 증가한다. 지속 시간: 20초, 중복 발동 시 갱신"
+        brief: "[재생-초대칭성 입자]가 허수 적에게 적중 시 SP 팩이 1개 드랍된다. 현재 전장의 허수 적이 물리 특성의 캐릭터에게 받는 모든
+          대미지가 증가한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 5
+        paramBase1: 0.13
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.035
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8813"
+        name: 계승
+        info: "[재생-초대칭성 입자]에 적중한 적의 실드가 파괴된 상태거나 실드가 10초 이내에 파괴되면 실드의 회복 시간이 동결된다. 지속
+          시간: #1[f1]초. 해당 적은 실드를 전부 회복하기 전까지 해당 스킬에 실드 회복 시간이 동결되지 않는다."
+        brief: "[재생-초대칭성 입자]에 적중한 적의 실드가 파괴된 상태거나 실드가 10초 이내에 파괴되면 실드의 회복 시간이 동결된다. 해당
+          적은 실드를 전부 회복하기 전까지 해당 스킬에 실드 회복 시간이 동결되지 않는다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 2.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1.25
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "8814"
+        name: 신생
+        info: "[재생-초대칭성 입자]가 가하는 크리티컬 대미지가 #1[f1]% 증가한다."
+        brief: "[재생-초대칭성 입자]가 가하는 크리티컬 대미지가 증가한다."
+        icon: Skill_Nagative_Damage02
+        maxLv: 7
+        paramBase1: 0.6
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

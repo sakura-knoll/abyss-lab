@@ -1,0 +1,320 @@
+id: "304"
+fullName: 차원 경계 돌파
+shortName: 차원 경계 돌파
+desc: <color=white>특징:</color> <color=#2CE3FFFF>기계 속성</color>의 원거리 전투형 캐릭터. 강한
+  능력치 보유, 중장 토끼는 해방될 수 있고 자율 공격이 가능하다.
+firstName: 브로냐
+lastName: 자이칙
+enFirstName: Bronya
+enLastName: Zaychik
+attributeType: mech
+isEasterner: false
+weapon: cannon
+character: bronya
+initialStar: s
+tags:
+  - physical-dmg
+  - burst
+  - paralyze
+  - bleed
+  - time-mastery
+skills:
+  - id: "121"
+    name: <color=#FFC741FF>차지</color> - 중입자포
+    info: "차지 포격, 단수가 높을수록 공격이 강력해진다.\\n<color=#23B2E2FF>차지 변경: 무기에 따라 차지 공격이
+      변동된다.\\n퍼펙트 쿨타임: 레이저 무기가 과열된 후 쿨타임 링이 출현한다. 링이 최소화하는 순간 공격 버튼을 누르면 과열을
+      제거하고, 짧은 시간 동안 공격 속도를 대폭 증가시킬 수 있다.\\n퍼펙트 쿨타임 발동 성공 후 짧은 시간 동안 레이저로 적을 명중할
+      경우 4초간 타깃 및 주변 적들을 시공 감속 상태로 만든다</color>"
+    icon: Skill_Bronya_ZP_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1201"
+        name: 차원 소각
+        info: "기본 공격과 필살기 도중 광선 공격은 공격마다 공격력 #1[i]%의 화염 원소 대미지를 입히고, 3단 차지 레이저 공격의 화염
+          대미지를 두 배로 증가시킨다"
+        brief: 레이저에 화염 원소 대미지가 추가되고, 3단 차지 시 배로 증가한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 79
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00192
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1202"
+        name: 에너지 흡수
+        info: "레이저 계열 무기의 과열 속도 #1[f1]% 감소"
+        brief: 레이저 계열 무기의 과열 속도가 감소한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 20
+        paramBase1: 0.21
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: ss
+  - id: "122"
+    name: <color=#FFC741FF>교대기</color> - 차원흡인
+    info: "교대 시 타깃 주변 작은 범위의 적을 공중에 띄우고 시공 속박 상태로 만든다.\\n<color=#23B2E2FF>차원의 칼날: 4초
+      동안 시공 속박 상태로 만들고 공격력의 100% 물리 대미지를 입힌다.</color>"
+    icon: Skill_Bronya_ZP_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1203"
+        name: 차원 절단
+        info: "시공 감속 상태인 적 적중 시, 자신이 가하는 물리와 원소 대미지가 #2[f1]% 증가한다. 지속 시간: 6초, 중복 발동 시 지속
+          시간을 갱신한다. 적이 차원 인력의 시공 속박 상태일 경우 <color=#FEDF4CFF>출혈 게이지를 3pt
+          누적한다.</color>"
+        brief: 시공 감속 상태인 적에게 가하는 물리 및 원소 대미지가 증가하고, 교대기의 영향을 받은 적에게 출혈 게이지를 누적한다.
+        icon: Skill_Nagative_StartUp01
+        maxLv: 75
+        paramBase1: 9
+        paramBase2: 0.06
+        paramBase3: 0
+        paramAdd1: 3.22973
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "출혈 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: s
+      - id: "1204"
+        name: 차원의 경계
+        info: "차원 흡인의 영향 범위가 #1[f1]배 증가하고, 지속 시간이 #2[f1]초 증가된다."
+        brief: 교대기 공격 범위가 증가하고 적에 대한 지속 시간이 증가한다
+        icon: Skill_Nagative_StartUp02
+        maxLv: 30
+        paramBase1: 0.5
+        paramBase2: 0.5
+        paramBase3: 0
+        paramAdd1: 0.08621
+        paramAdd2: 0.08621
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1205"
+        name: <color=#FFC741FF>QTE</color> - 무한 차원
+        info: "QTE: 적이 마비 상태일 때 발동. 넓은 범위 내의 적에게 공격력 10* #1[f1]%의 화염 원소 대미지를 입히고, 영향을 받은
+          적을 공중에 띄워 시공 속박한다"
+        brief: "QTE: 적이 마비 상태일 때 QTE 출전, 넓은 범위의 적에게 화염 원소 대미지를 가하고, 공중에 띄워 시공 속박한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 25
+        paramBase1: 0.4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0125
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "123"
+    name: 차원 축소 역장
+    info: "방패를 들어 정면의 적의 공격을 방어한다.\\n<color=#23B2E2FF>방어 반격: 공격을 받는 순간 방어키를 떼면 적에게
+      반격한다.\\n완벽방어: 반격 시 근처의 적을 공중에 띄우고 시공속박 상태로 만든다. 지속시간 5초. 동시에</color>
+      <color=#FEDF4CFF>마비 게이지를 5pt 누적하고,</color> <color=#23B2E2FF>캐릭터의 공격 속도가
+      30% 증가한다. 지속 시간 3초, 완벽방어 기본 재사용 대기시간: 15초</color>"
+    icon: Skill_Bronya_BQ_003
+    skillType: evasion
+    tags:
+      - type: paralyze
+        strength: 1
+        comment: "마비 이상 게이지 누적 가능, 누적 능력: 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1206"
+        name: 반사 역장
+        info: "정면에서 오는 공격을 방어할 시 공격한 적에게 캐릭터 공격력 #1[f1]%의 물리 대미지를 입힌다. 0.5초마다 1번씩 발동하며
+          저스트 가드 시 6.0초 동안 크리티컬률이 #2[f1]% 증가한다"
+        brief: 정면에서 오는 공격을 방어 시 공격한 적에게 물리 대미지를 입히고, 극한 방어 크리티컬률이 잠깐 증가한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 30
+        paramBase1: 0.1
+        paramBase2: 0.01
+        paramBase3: 0
+        paramAdd1: 0.01379
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1207"
+        name: 흡수 장갑
+        info: "피격 시 3 SP를 소모하여 중장 토끼 방어를 발동시키고 경직되지 않고 받는 모든 대미지가 #1[i]% 감소한다. SP가 0일 때
+          발동하지 않는다."
+        brief: 피격 시 SP를 소모해 중장 토끼 19C로 방어하여 경직되지 않고 받는 피해가 감소한다
+        icon: Skill_Nagative_Survive02
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01111
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "1214"
+        name: 기갑 동력 에너지
+        info: "방패로 가드 중 이동 속도 #1[i]% 증가"
+        brief: 방패로 가드 중 이동 속도가 대폭 증가한다
+        icon: Skill_Nagative_Survive03
+        maxLv: 20
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05263
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "124"
+    name: 중장 토끼 19C
+    info: "중장 토끼 19C가 곁을 떠나 자율 공격을 한다.\\n<color=#23B2E2FF>메카닉 프렌지: 100 SP를 소모해 발동,
+      폭발 상태에 진입해 10초 동안 중장 토끼 19C[소환물]가 무적 상태가 되고 적을 끌어당긴다.\\n에너지 여파: 자신의 공격이
+      레이저 공격으로 변한다.\\n히트 리셋: 필살기 사용 시 레이저 무기의 히트 게이지를 초기화한다</color>"
+    icon: Skill_Bronya_BX_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 3
+        comment: "필살기 가동 후의 공격은 강격이다. 축적 능력: 강"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1208"
+        name: S2 전지
+        info: "중장 토끼의 자율 행동 지속 시간이 #1[f1]초로 증가된다"
+        brief: 필살기 지속 시간을 연장한다
+        icon: Skill_Nagative_Skill03
+        maxLv: 30
+        paramBase1: 10.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "1209"
+        name: 자폭 기갑
+        info: "중장 토끼의 자율 행동 지속 시간이 끝나면 자폭하며, 주변에 공격력의 #1[i]% 물리 대미지를 입힌다."
+        brief: 필살기 종료 후 중장 토끼는 자폭하여 적에게 범위 물리 대미지를 입힌다
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.10345
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1210"
+        name: 반물질 코어
+        info: "중장 토끼 자율행동 시 본체  레이저 공격의 물리, 원소 대미지가 #3[i]% 상승한다. SP 최대치 110 초과 이후 1 SP가
+          추가될 때마다  #1[f1]%씩 추가로 증가하며, 최대 #2[i]회 증가한다."
+        brief: SP 최대치가 110을 넘으면 필살기 지속 기간 동안 레이저 공격으로 가하는 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 25
+        paramBase1: 0.003
+        paramBase2: 50
+        paramBase3: 0.1
+        paramAdd1: 0.00013
+        paramAdd2: 6.25
+        paramAdd3: 0.00417
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "125"
+    name: 합금 장갑
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>메탈 기어: {{모든 파티원의 공격 시 SP
+      회복량이 #1[i]% 증가한다. 3명의 캐릭터를 '기계' 속성으로  통일하고 공격하면 모든 대미지가 #2[i]%
+      증가한다.}}</color>"
+    icon: Skill_Bronya_ZP_005
+    skillType: leader
+    tags: []
+    paramSubId1: 1211
+    paramSubId2: 1211
+    paramSubId3: 0
+    subSkills:
+      - id: "1211"
+        name: 합금 장갑
+        info: "모든 파티원의 공격 시 SP 회복량이 #1[i]% 증가한다. 3명의 캐릭터를 '기계' 속성으로 통일하고 공격하면 모든 대미지가
+          #2[i]% 증가한다."
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Damage02
+        maxLv: 2
+        paramBase1: 0.27
+        paramBase2: 0.23
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "1212"
+        name: 융합
+        info: "파티에 키아나와 메이가 있을 때, 자신의 크리티컬 대미지가 #1[f1]% 증가한다."
+        brief: 파티 내에 키아나와 메이가 존재할 때 자신의 크리티컬 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 12
+        paramBase1: 0.08
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "126"
+    name: 패시브 스킬
+    info: "패시브 스킬은 자동으로 발동된다.\\n<color=#23B2E2FF>차원 주행: 2초 동안 이동하면 차원 주행 상태가 되어 이동
+      속도가 대폭 증가한다</color>"
+    icon: Skill_Bronya_ZP_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1213"
+        name: 다크매터 반응로
+        info: "캐릭터가 대기 중일 때 #1[f1]초마다 2 SP를 회복한다"
+        brief: 캐릭터가 대기 시 SP를 서서히 회복한다
+        icon: Skill_Nagative_Skill02
+        maxLv: 20
+        paramBase1: 10
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: -0.26316
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss

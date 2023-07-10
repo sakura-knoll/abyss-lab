@@ -1,0 +1,329 @@
+id: "706"
+fullName: 성극요란
+shortName: 성극요란
+desc: <color=white>특징:</color> <color=#2CE3FFFF>기계 속성</color>의 근거리 전투형 캐릭터, 의태
+  성검의 힘을 이용해 전투한다.
+firstName: 리타
+lastName: 로스바이세
+enFirstName: Rita
+enLastName: Rossweisse
+attributeType: mech
+isEasterner: false
+weapon: scythe
+character: rita
+initialStar: s
+tags:
+  - fire-dmg
+  - ignite
+  - time-mastery
+  - gather
+skills:
+  - id: "751"
+    name: 카니스·찬란한 천랑
+    info: "낫으로 전투하며, 성신의 힘으로 적을 불태운다.\\n<color=#23B2E3FF>기본 공격:\\n제1격: 공격력 80%의 화염
+      원소 대미지를 가하고, 별 에너지를 10pt 회복한다.\\n제2격: 공격력 40%+100%의 화염 원소 대미지를 가한고, 별 에너지를
+      5+15pt 회복한다.\\n제3격: 공격력 40%+100%의 화염 원소 대미지를 가한고, 별 에너지를 10+15pt
+      회복한다.\\n제4격: 공격력 3*20%+100%의 화염 원소 대미지를 가하고, 별 에너지를 3*5+20pt 회복한다.\\n[별
+      인도자] 형태:\\n제1격: 공격력 80%의 화염 원소 대미지를 가하고, [성염] 대미지를 1스택 부가한다.\\n제2격: 공격력
+      40%+100%의 화염 원소 대미지를 가하고, [성염] 대미지를 1스택 부가한다.\\n제3격: 공격력 40%+150%의 화염 원소
+      대미지를 가하고, [성염] 대미지를 2스택 부가한다.\\n제4격: 공격력 4*20%+100%의 화염 원소 대미지를
+      가한다.\\n제5격: 공격력 150%+300%의 화염 원소 대미지를 가한다.\\n\\n[별 인도자] 형태에서 기본 공격
+      제1격&제2격&제3격은 [성염] 대미지를 추가로 부가하며, 각각 공격력 30%의 화염 원소 대미지를 가한다.\\n\\n별 인도자
+      형태에서 기본 공격이 적에게 적중 시, [블레이자] 성급을 획득하며, 1급당 차지 공격 [타오르는 성염]의 찌르기 공격에 공격력
+      30%의 화염 원소 대미지를 추가한다. 기본 공격 앞 4격은 공격당 1급이 추가되고, 제5격은 5급이 추가된다(최대 20급). 필살기
+      발동 시, 최대 성급의 [블레이자]를 획득한다.\\n차지 공격 [타오르는 성염]을 발동하거나 별 인도자 형태 해제 시 성급은
+      초기화된다.</color>"
+    icon: Skill_Rita_C6_RW_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7501"
+        name: 카니스α
+        info: "차지 공격 [타오르는 성염]이 공격력 #1[f1]%의 화염 원소 대미지를 추가로 가한다."
+        brief: "[타오르는 성염]이 화염 원소 대미지를 추가로 가한다."
+        icon: Skill_Nagative_Damage01
+        maxLv: 17
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03125
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "7502"
+        name: 카니스ε
+        info: "[별 인도자] 형태에서 기본 공격 제4격이 적에게 적중 시, <color=#FEDF4CFF>연소 게이지를 3pt
+          누적하고,</color> 중복 발동 시 지속 시간을 갱신한다."
+        brief: "[별 인도자] 형태에서 기본 공격 제4격이 적에게 적중 시, 적에게 연소 게이지를 누적한다."
+        icon: Skill_Nagative_Skill01
+        maxLv: 10
+        paramBase1: 4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.44444
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 1
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: s
+      - id: "7503"
+        name: <color=#FFC741FF>QTE</color>-카니스δ
+        info: "QTE: 적이 띄워지거나 연소 상태일 때 3초간 시공 단열을 발동한다. 공격력 5*#1[f1]%의 화염 원소 대미지를 가하고,
+          SP를 #2[f1]% 회복한다."
+        brief: "QTE: 적이 띄워지거나 연소 상태일 때 시공 단열을 발동하고, SP를 회복한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 26
+        paramBase1: 1
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.06
+        paramAdd2: 0.08
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "752"
+    name: <color=#FFC741FF>차지</color>-베레니케·마주보는 뭇별
+    info: "차지 공격은 환연의 회오리를 발동한다.\\n<color=#23B2E4FF>별 에너지가 600pt로 가득 찼을 때 공격 버튼을 길게
+      눌러 발동할 수 있다:\\n차지 공격 [성염 시동]: 성극요란이 [별 인도자] 형태에 진입한 후 [환연의 회오리]를 날려 공격력
+      12*20%+200%의 화염 원소 대미지를 가한다.\\n[별 인도자] 형태에서 전장에 [환연의 회오리]가 존재할 때, 공격 버튼을
+      길게 눌러 발동할 수 있다:\\n차지 공격 [성염 지속]: 낫을 날려 공격력 4*30%의 화염 원소 대미지를 가하고, 이어서 강화
+      낫으로 강화 [환연의 회오리]를 날려 공격력 12*30%의 화염 원소 대미지를 가한다.\\n[별 인도자] 형태에서 전장에 강화
+      [환연의 회오리]가 존재할 때, 공격 버튼을 길게 눌러 발동할 수 있다:\\n차지 공격 [타오르는 성염]: [환연의 회오리]를
+      전방으로 이동시켜 넓은 범위의 적을 끌어당기고, 공격력 4*20%의 화염 원소 대미지를 가한 후, 전방에 피니쉬 일격을 날려 공격력
+      1300%의 화염 원소 대미지를 가한다. 발동 후 [별의 인도자] 형태가 해제되고, 별 에너지가 초기화된다.\\n[성염 시동],
+      [성염 지속], [타오르는 성염]이 적에게 적중 시, 적에게 각각 </color><color=#FEDF4CFF>연소 게이지를 3pt,
+      3pt, 6pt 누적한다.</color><color=#23B2E2FF></color>"
+    icon: Skill_Rita_C6_RW_002
+    skillType: special
+    tags:
+      - type: ignite
+        strength: 1
+        comment: "연소 이상 게이지 누적 가능, 누적 능력: 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7504"
+        name: 베레니케β
+        info: "[별의 인도자] 형태에서 가하는 모든 대미지가 #1[f1]% 증가하고, 경직 저항력이 증가하며, 받는 모든 대미지가 #2[f1]%
+          감소한다."
+        brief: "[별의 인도자] 형태에서 가하는 모든 대미지와 경직 저항력이 증가하며, 받는 모든 대미지가 감소한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.3
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7505"
+        name: 베레니케α
+        info: "차지 공격 [타오르는 성염] 발동 시 SP를 #1[f1]pt 회복한다."
+        brief: 차지 공격 [타오르는 성염] 발동 시 SP를 회복한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 9
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "753"
+    name: 안드로메다·성운의 노래
+    info: "빠르게 공격을 회피하며, 연속 2회 회피할 수 있다.\\n<color=#23B2E5FF>\\n극한 회피 스킬: 3초간 전체 시공
+      단열이 발동한다. [별의 인도자] 형태에서 추가로 [블레이자]를 5급 획득하고, [황성의 진] 범위 내 연소 상태의 적이 존재할
+      경우, HP를 200 회복한다. 재사용 대기시간: 15초\\n극한 회피 성공 후 짧은 시간 이내 공격 버튼 터치: 기본 공격 제3격을
+      연계할 수 있다.</color>"
+    icon: Skill_Rita_C6_RW_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7509"
+        name: 안드로메다α
+        info: "극한 회피 발동 시, 캐릭터의 모든 대미지가 3초간 #1[f1]% 증가하고, 추가로 SP를 #2[f1]pt 회복한다."
+        brief: 극한 회피 발동 시, 캐릭터의 모든 대미지가 증가하고, 추가로 SP를 회복한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 11
+        paramBase1: 0.05
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.3
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss2
+      - id: "7510"
+        name: 안드로메다β
+        info: "캐릭터의 별 에너지가 가득 차지 않았을 때 출전 시, 별 에너지를 #1[f0]pt 획득한다. 재사용 대기시간: 10초"
+        brief: 캐릭터의 별 에너지가 가득 차지 않았을 때 출전 시, 별 에너지를 획득한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 12
+        paramBase1: 100
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 9.09091
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "754"
+    name: 파이시스·빛나는 일월
+    info: "의태 성검의 힘으로 필살기를 발동한다.\\n<color=#23B2E6FF>성극요란이 즉시 별 에너지를 600pt 획득하고, [별의
+      인도자] 형태를 활성화하며, [의태 성검]으로 대형 [환연의 회오리] 공격을 발동해 총 공격력 1500%+11*20%의 화염 원소
+      대미지를 가한다. 그 기간 캐릭터가 정체 영역 효과를 발동해 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지하고,</color>
+      <color=#FEDF4CFF>연소 게이지를 12pt 누적한다.</color> <color=#23B2E2FF>필살기 종료 시
+      성극요란의 전방에 강화 [환연의 회오리]를 생성한다.\\n소모 SP: 100, 재사용 대기시간: 20초</color>"
+    icon: Skill_Rita_C6_RW_004
+    skillType: ultimate
+    tags:
+      - type: ignite
+        strength: 2
+        comment: "연소 이상 게이지 누적 가능, 누적 능력: 보통"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7506"
+        name: 파이시스η
+        info: "[별의 인도자] 형태 진입 시, 2초간 전체 시공 단열을 발동한다."
+        brief: 별의 인도자 형태 진입 시, 전체 시공 단열을 발동한다.
+        icon: Skill_Nagative_Survive02
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+      - id: "7507"
+        name: 파이시스γ
+        info: "[환연의 회오리]에 적중한 적에게 <color=#FEDF4CFF>연소 게이지를 2pt 누적한다.</color> 재사용 대기시간:
+          3초"
+        brief: "[환연의 회오리]에 적중한 적에게 연소 게이지를 누적한다."
+        icon: Skill_Nagative_Survive03
+        maxLv: 11
+        paramBase1: 4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.4
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 1
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: s
+  - id: "755"
+    name: 투반·주극성
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E7FF>리더 스킬: {{파티원의 분기/차지 공격의 모든
+      대미지가 #1[f1]% 증가하며, 파티원 중 기계 속성이 아닌 캐릭터 존재 시, 파티원의 화염 원소 대미지가 #2[f1]%
+      증가한다.}}</color>"
+    icon: Skill_Rita_C6_RW_005
+    skillType: leader
+    tags: []
+    paramSubId1: 7508
+    paramSubId2: 7508
+    paramSubId3: 0
+    subSkills:
+      - id: "7508"
+        name: 투반·주극성
+        info: "파티원의 분기/차지 공격의 모든 대미지가 #1[f1]% 증가한다. 파티원 중 기계 속성이 아닌 캐릭터 존재 시, 파티원의 화염 원소
+          대미지가 #2[f1]% 증가한다."
+        brief: 파티원의 분기/차지 공격의 모든 대미지가 증가한다. 파티원 중 기계 속성이 아닌 캐릭터 존재 시, 파티원의 화염 원소 대미지가
+          증가한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 2
+        paramBase1: 0.31
+        paramBase2: 0.37
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+  - id: "756"
+    name: 에리다누스·흐르는 세월
+    info: 패시브 스킬은 자동으로 발동한다.\n<color=#23B2E8FF>\n일반 형태에서 별 에너지를 매초 80pt 회복한다. 최대
+      600pt\n[별 인도자] 형태에서 별 에너지는 매초 50pt 감소하고, 별 에너지를 모두 소모하거나 퇴장하면 [별의 인도자]
+      형태에서 벗어난다.\n성극요란은 [별의 인도자] 형태에서 차지 공격으로 [환연의 회오리]를 생성하고 작은 범위의 적을 모으며, 전장의
+      적은 [황성의 진]의 영향을 받는다. [별의 인도자] 형태에서 벗어나면, [환연의 회오리]와 [황성의 진] 효과가
+      제거된다.</color>
+    icon: Skill_Rita_C6_RW_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7511"
+        name: 성검의 축복
+        info: "[황성의 진] 범위 내 적이 성극요란에게 받는 화염 원소 대미지가 #1[f1]% 증가한다(해당 효과는 독립적인 추가 효과로
+          간주한다)."
+        brief: "[황성의 진] 범위 내 적이 받는 화염 원소 대미지가 증가한다(해당 효과는 독립적인 추가 효과로 간주한다)."
+        icon: Skill_Nagative_Survive03
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7512"
+        name: 에리다누스α
+        info: "기본 상태의 기본 공격 제4격 내려찍기 공격이 적에게 적중 시, 추가로 별 에너지를 #1[f0]pt 회복한다."
+        brief: 기본 상태의 기본 공격 제4격 내려찍기 공격이 적에게 적중 시, 추가로 별 에너지를 회복한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 2.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7513"
+        name: 에리다누스β
+        info: "화염 원소 대미지가 #1[f1]% 증가하고, 성극요란이 연소 상태의 적에게 가하는 화염 원소 대미지가 추가로 #2[f1]%
+          증가한다."
+        brief: 화염 원소 대미지가 증가하고, 성극요란이 연소 상태의 적에게 가하는 화염 원소 대미지가 추가로 증가한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.4
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

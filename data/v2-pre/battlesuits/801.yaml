@@ -1,0 +1,340 @@
+id: "801"
+fullName: 발키리·영광
+shortName: 발키리·영광
+desc: <color=white>특징:</color> <color=#AE98FFFF>양자 속성</color>의 근거리 전투형 캐릭터로,
+  던지기를 사용해 적을 공격을 끊을 수 있고, 싸울수록 강해지는 강력한 폭발형 캐릭터다
+firstName: 듀란달
+lastName: null
+enFirstName: Durandal
+enLastName: null
+attributeType: qua
+isEasterner: true
+weapon: lance
+character: durandal
+initialStar: a
+tags:
+  - fire-dmg
+  - ignite
+  - time-mastery
+skills:
+  - id: "531"
+    name: 신무심판
+    info: "랜스를 사용하는 5연격\\n <color=#23B2E2FF>1격: 공격력 80%의 물리 대미지\\n2격: 140%의 화염 원소
+      대미지+공격력 120%의 물리 대미지\\n3격: 공격력 160%+80%의 화염 원소 대미지\\n4격: 공격력 4*60%의 화염 원소
+      대미지\\n5격: 공격력 200%의 물리 대미지+공격력 300%의 화염 원소 대미지\\n기본 공격 2,4,5번째 공격이 적에게 명중할
+      때마다 전의를 40pt 회복한다</color>"
+    icon: Skill_Durandal_C1_001
+    skillType: basic
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "QTE는 강격이다. 축적 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5301"
+        name: 투지
+        info: "기본 공격 4번째의 공격이 적에게 명중할 때마다, 모두 추가로 자신의 SP를 #1[f1] 회복한다"
+        brief: 4번째 기본 공격은 추가로 SP를 회복한다
+        icon: Skill_Nagative_Skill01
+        maxLv: 11
+        paramBase1: 0.55
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.055
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5302"
+        name: 황염
+        info: 기본 공격 제5격, 돌진 공격 및 결전의 강타에 적중한 적에게 <color=#FEDF4CFF>연소 게이지를 5pt
+          누적한다.</color>
+        brief: 기본 공격 제5격과 차지 공격은 적에게 연소 게이지를 누적한다.
+        icon: Skill_Nagative_Survive02
+        maxLv: 11
+        paramBase1: 4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.4
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 1
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: a
+      - id: "5303"
+        name: <color=#FFC741FF>QTE</color>-천창 심판
+        info: "QTE: 적이 시공 감속 상태일 때 QTE 출전, 공격력 300%의 물리 대미지+공격력 #1[f1]%의 화염 원소 대미지를 가하고,
+          전의를 240pt 회복한다."
+        brief: "QTE: 적이 시공 감속 상태일 때 QTE 출전한다."
+        icon: Skill_Nagative_Skill02
+        maxLv: 5
+        paramBase1: 4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+  - id: "532"
+    name: <color=#FFC741FF>차지</color>-영광의 행군
+    info: "공격 버튼을 길게 눌러 차지 공격을 발동한다.\\n<color=#23B2E2FF>전의가 240pt보다 높을 때: 공격 버튼을 길게
+      누르면 뛰기 시작해 0.6초 후 돌진 상태 1단계에 진입하고 강직 및 슈퍼아머 효과를 획득하며, 이때 적에게 명중 시 전의를 40pt
+      소모해 공격마다 공격력 50%의 물리 대미지+공격력 80%의 화염 대미지를 입힌다.\\n최소 240pt의 전의를 소모하면 돌진 상태
+      2단계에 돌입하여 명중된 적에게 가하는 대미지가 공격력 100%의 화염 대미지로 증가한다.\\n최소 240pt의 전의 소모 후 공격
+      버튼을 놓으면 돌진 공격을 발동해 공격력 100%의 물리 대미지+공격력 450%의 화염 원소 대미지를 입힌다. 아닌 경우 기본 공격
+      첫 번째 공격이 나간다.\\n필살기 성염 결계 안에서 전의가 240보다 높을 때 공격 버튼을 길게 누르면 전의를 전부 소모해 결전의
+      강타를 발동해 공격력 8*60%+350%의 화염 원소 대미지+공격력 200%의 물리 대미지를 입히며 소모한 전의 1마다 모든 대미지가
+      0.2% 증가한다</color>"
+    icon: Skill_Durandal_C1_002
+    skillType: special
+    tags:
+      - type: ignite
+        strength: 1
+        comment: "연소 이상 게이지 누적 가능, 누적 능력: 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5304"
+        name: 불굴
+        info: "돌진 상태일 때 1초마다 전의를 40 소모한다, 돌진 공격은 추가로 공격력 #1[f1]%의 화염 원소 대미지를 입힌다"
+        brief: 소모한 전의가 많을수록 돌진 공격이 강해진다
+        icon: Skill_Nagative_Damage02
+        maxLv: 17
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0125
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "5305"
+        name: 전의 격앙
+        info: "돌진 공격, 결전의 강타 시간 동안 240pt의 전의를 소모하면 전의 격양 효과를 1스택 획득해 화염 원소 대미지가 #1[f1]%
+          증가하고, 받는 모든 대미지가 5% 감소한다. 지속 시간: 30초, 최대 중첩: 10회"
+        brief: 전의를 소모하면 전의 격앙 효과를 1스택 획득한다(대미지 증가). 최대 10스택
+        icon: Skill_Nagative_StartUp03
+        maxLv: 24
+        paramBase1: 0.03
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0013
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "5306"
+        name: 파군 폭격
+        info: "결전의 강타는 추가로 전의 격앙 효과를 #1[i]스택 획득하고, 전의 격앙 효과의 스택이 가득 차면 결전의 강타 마지막 일격이
+          추가로 공격력 #2[f1]%의 화염 원소 대미지를 입힌다"
+        brief: 결전의 강타는 추가로 전의 격앙 스택을 획득하고, 스택을 모두 쌓으면 결전의 강타의 마지막 일격의 배율이 증가한다
+        icon: Skill_Nagative_Skill02
+        maxLv: 21
+        paramBase1: 1
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.075
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "533"
+    name: 통찰 본능
+    info: "적의 공격을 빠르게 회피하며 연속으로 2회 회피할 수 있다.\\n<color=#23B2E2FF>극한 회피 시, 공격 버튼을 길게
+      누르면 다섯 번째 공격을 발동할 수 있다.\\n통찰 본능: 전의를 120pt 회복하고, 시공 단열을 3초 간 발동한다. 재사용
+      대기시간: 15초</color>"
+    icon: Skill_Durandal_C1_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5307"
+        name: 짓밟기
+        info: "전의 집중 상태에서 기본 공격의 5번째 공격의 모든 대미지가 #1[f1]% 증가한다"
+        brief: 전의 집중 상태에서 5번째 기본 공격의 대미지가 증가한다
+        icon: Skill_Nagative_Survive01
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "5308"
+        name: 준비 완료
+        info: "통찰 본능 발동 후 전의 집중 상태를 3초간 획득한다. 이때 회피 동작 후 공격 버튼을 누르면 5번째 기본 공격을 발동할 수 있고
+          적에게 명중 시, 추가로 자신의 SP를 #1[f1], 전의를 40pt 회복한다"
+        brief: 통찰 본능 발동 후 전의 집중 상태를 3초간 획득한다. 이때 회피 후 공격 버튼을 누르면 5번째 기본 공격을 발동할 수 있고, 추가
+          회복 효과를 획득한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 7
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.25
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "534"
+    name: 타오르는 광휘
+    info: "거대화 랜스를 사용해 강력한 일격을 가한다.\\n<color=#23B2E2FF>목표에게 도약해 짧은 시간 주변의 적을 끌어당기고
+      공격력 2*300%의 화염 대미지를 가하고, 마지막에 거대한 랜스를 던져 공격력 500%의 물리 대미지 + 공격력 1800%의 화염
+      원소 대미지를 가한다. 양자 속성의 적에겐 양자 붕괴를 일으키고, 스테이지 전체를 뒤덮는 성염 결계를 15초간 발동해 기본 공격과
+      반격 던지기로 회복하는 전의가 2배 증가하고 경직 저항력이 증가한다. 재사용 대기시간: 25초\\nSP 소모: 100</color>"
+    icon: Skill_Durandal_C1_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "필살기의 마지막 일격은 강격이다. 축적 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5309"
+        name: 여광
+        info: "성염 결계 내에서 모든 대미지가 #1[f1]% 증가한다"
+        brief: 성염 결계 내에서 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 41
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0075
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5310"
+        name: 충만한 영광
+        info: "필살기를 발동하면 전의를 #1[f1]pt 회복한다"
+        brief: 필살기를 발동하면 전의를 회복한다
+        icon: Skill_Nagative_Skill03
+        maxLv: 5
+        paramBase1: 240
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 60
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "5311"
+        name: 담금질
+        info: "성염 결계 내에서 기본 공격을 사용할 때마다(차지 포함) 적을 3회 적중한 후의 다음 기본 공격(차지 포함)은 추가로 공격력
+          #1[f1]%의 화염 원소 대미지를 입힌다"
+        brief: 성염 결계 내에서 기본 공격을 3회 사용할 때마다 다음 기본 공격이 추가 대미지를 입힌다
+        icon: Skill_Nagative_Damage03
+        maxLv: 27
+        paramBase1: 0.4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01538
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "535"
+    name: 기사 통솔
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.<color=#23B2E2FF>\\n기사 통솔: {{모든 파티원의 화염 원소 대미지가
+      #2[f1]% 증가하고, 던지기의 모든 대미지가 #1[f1]% 증가한다.}}</color>"
+    icon: Skill_Durandal_C1_005
+    skillType: leader
+    tags: []
+    paramSubId1: 5312
+    paramSubId2: 5312
+    paramSubId3: 0
+    subSkills:
+      - id: "5312"
+        name: 기사 통솔
+        info: "모든 파티원의 화염 원소 대미지가 #2[f1]% 증가하고, 던지기의 모든 대미지가 #1[f1]% 증가한다"
+        brief: 모든 파티원의 화염 원소 대미지와 던지기 대미지가 증가
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.15
+        paramBase2: 0.27
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.015
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "536"
+    name: 패시브 스킬
+    info: "패시브 스킬은 자동으로 발동된다.\\n<color=#23B2E2FF>전의: 최대치 600pt, 초기 임계치 200pt</color>"
+    icon: Skill_Durandal_C1_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5313"
+        name: 광휘
+        info: "연소 상태의 적에게 가하는 화염 원소 대미지가 #1[f1]% 증가한다"
+        brief: 연소된 적에게 가하는 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 21
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5314"
+        name: 승리의 훈장
+        info: "적에게 던지기를 1회 사용해 무기 스킬 재사용 대기시간을 발동하거나 적을 붕괴 상태로 1회 만들면 전의를 #1[i]pt 회복한다.
+          반격 던지기를 발동하면 전의를 240pt 회복한다."
+        brief: 던지기 혹은 붕괴를 사용하면 전의를 회복한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 7
+        paramBase1: 240
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 40
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "5315"
+        name: 기세 몰이
+        info: "적에게 던지기를 1회 사용해 무기 스킬이 재사용 대기시간일 경우 시공 단열 효과를 #1[f1]초 발동할 수 있다"
+        brief: 던지기를 사용하면 시공 단열을 발동한다
+        icon: Skill_Nagative_Skill01
+        maxLv: 16
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.06667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss

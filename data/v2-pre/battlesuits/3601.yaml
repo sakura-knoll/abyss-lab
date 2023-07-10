@@ -1,0 +1,377 @@
+id: "3601"
+fullName: 슈가스타
+shortName: 슈가스타
+desc: <color=white>특징:</color> <color=#2CE3FFFF>기계 속성</color>의 원거리 캐릭터, 저격총을 이용해
+  원거리 전투를 펼친다.
+firstName: 키라
+lastName: 시구레
+enFirstName: Kira
+enLastName: Shigure
+attributeType: mech
+isEasterner: true
+weapon: pistols
+character: kira
+initialStar: a
+tags:
+  - ice-dmg
+  - freeze
+  - time-mastery
+  - aerial
+skills:
+  - id: "891"
+    name: 개막, 천상을 비추는 별빛
+    info: "쌍권총으로 민첩하게 공격한다. 첫 4격 회피 후 다음 단계 공격을 연계한다.\\n<color=#23B2E3FF>쌍권총으로 5연속
+      공격한다.\\n제1격: 공격력 80%*2의 빙결 원소 대미지를 가한다. 적 적중 시 [응원력]을 20 회복한다.\\n제2격: 공격력
+      120%의 빙결 원소 대미지를 가한다. 적 적중 시 [응원력]을 20 회복한다.\\n제3격: 공격력 50%*4의 빙결 원소 대미지를
+      가한다. 적 적중 시 [응원력]을 20 회복한다.\\n제4격: 공격력 48%*25의 빙결 원소 대미지를 가한다. 적 적중 시
+      [응원력]을 30 회복한다.\\n제5격: 공격력 500%의 빙결 원소 대미지를 가한다. 적 적중 시 [응원력]을 60
+      회복한다.</color>"
+    icon: Skill_ShigureKira_C1_ID_891
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8901"
+        name: <color=#FFC741FF>QTE</color>-고독한 설랑의 전사
+        info: "QTE: [앙코르]가 10스택에 도달하면 슈가스타의 QTE 스킬을 발동할 수 있다. 캐릭터는 대기 상태에서 출전한 후 1회 사격해
+          공격력 500%의 빙결 원소 대미지를 가한다. QTE 출전 시 파티원의 [앙코르] 스택이 리셋되고, QTE에 적중한 적에게
+          <color=#FEDF4CFF>빙결 게이지를 6pt 누적한다.</color>"
+        brief: "QTE: [앙코르]가 10스택에 도달하면 슈가스타의 QTE 스킬을 발동할 수 있다. 캐릭터는 대기 상태에서 출전한 후 1회
+          사격한다. QTE 출전 시 파티원의 [앙코르] 스택이 리셋되고, QTE에 적중한 적에게 <color=#FEDF4CFF>빙결
+          게이지를 누적한다.</color>"
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: freeze
+            strength: 2
+            comment: "빙결 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: true
+        unlockStar: a
+      - id: "8902"
+        name: 타향을 떠도는 가희
+        info: "초기에 [응원력]을 #1[f1] 보유한다. QTE 발동 시 자신의 [응원력]을 #2[f1] 회복한다."
+        brief: 초기에 [응원력]을 획득한다. QTE 발동 시 추가로 [응원력]을 회복한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 6
+        paramBase1: 150
+        paramBase2: 75
+        paramBase3: 0
+        paramAdd1: 30
+        paramAdd2: 15
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8903"
+        name: 천외도원의 사자
+        info: 대기 상태의 슈가스타가 필살기 발동 조건을 만족하면 출전 시 바로 필살기를 발동한다. 필살기는 모든 [앙코르] 스택을 소모하며 1스택
+          소모할 때마다 마지막 사격이 추가로 적중한 적에게 <color=#FEDF4CFF>빙결 게이지를 1pt 누적한다.</color>
+          파티원은 SP를 0.5pt 회복하고, 공격력 120%의 빙결 원소 대미지를 가한다. 해당 효과는 최대 6회 계산된다.
+        brief: 대기 상태에서 필살기 발동 조건을 만족하면 출전 시 바로 필살기를 발동한다. 필살기는 모든 [앙코르] 스택을 소모하며, 필살기의
+          마지막 사격이 가하는 빙결 게이지가 증가한다. 파티원은 SP를 회복하고, 추가로 빙결 원소 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+  - id: "892"
+    name: <color=#FFC741FF>차지</color>-위치, 이세계 무도회
+    info: "[이분음표]로 1회 정밀 사격한다.\\n<color=#23B2E4FF>[응원력]이 150에 도달했을 때 공격 버튼을 길게 누르면
+      [응원력]을 150 소모해 차지 공격을 발동할 수 있다. 총을 들어 1회 정밀 사격해 공격력 600%의 빙결 원소 대미지를 가하고,
+      추가로 공격력*10의 대미지를 가한다(HP 감소 효과).</color>"
+    icon: Skill_ShigureKira_C1_ID_892
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8904"
+        name: 별에게 구원받은 세상
+        info: "차지가 적에게 적중 시 자신의 모든 대미지가 #1[f1]% 증가하고, 빙결 원소 대미지가 #2[f1]% 증가한다. 지속 시간:
+          8초, 중복 발동 시 지속 시간을 갱신한다."
+        brief: 차지가 적에게 적중 시 자신의 모든 대미지가 증가하고, 빙결 원소 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.01111
+        paramAdd2: 0.01111
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8905"
+        name: 칠해극단의 송가
+        info: "차지 공격이 적에게 추가로 가하는 HP 감소 대미지가 공격력*#1[f1]까지 증가하고, 차지 공격이 적에게 적중 시 자신의 SP를
+          #2[f1]pt 회복한다."
+        brief: 차지 공격이 가하는 HP 감소 대미지가 증가하고, 차지 공격이 적에게 적중 시 자신의 SP를 회복한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 4
+        paramBase1: 20
+        paramBase2: 5.01
+        paramBase3: 0
+        paramAdd1: 40
+        paramAdd2: 3.33333
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "893"
+    name: 스텝, 구시대의 그림자
+    info: "빠르게 적의 공격을 회피한다. 2회 연속 회피할 수 있다.\\n<color=#23B2E5FF>극한 회피 성공 시 극한 회피 스킬을
+      발동해 3초 동안 전체 시공 단열을 발동한다. 재사용 대기시간: 15초</color>"
+    icon: Skill_ShigureKira_C1_ID_893
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8907"
+        name: 허해의 표류자
+        info: "극한 회피 스킬 발동 시 자신의 [응원력]을 #1[f1] 회복한다."
+        brief: 극한 회피 스킬 발동 시 자신의 [응원력]을 회복한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 8
+        paramBase1: 75
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 10.71429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "894"
+    name: 윤무, 빛나는 지금
+    info: "공중으로 도약해 저격 모드에 진입한다.\\n<color=#23B2E6FF>공중으로 도약해 저격 모드에 진입한다. 저격 모드 기간
+      정체 영역 효과를 발동해 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다.\\n[이분음표]로 총 3발 사격해 공격력
+      500%+500%+700%의 빙결 원소 대미지를 가하고, 한 발당</color> <color=#FEDF4CFF>빙결 게이지를 4pt
+      누적한다.</color> <color=#23B2E2FF>\\n발동 소모 SP: 125, 재사용 대기시간: 20초</color>"
+    icon: Skill_ShigureKira_C1_ID_894
+    skillType: ultimate
+    tags:
+      - type: freeze
+        strength: 3
+        comment: "빙결 이상 게이지 누적 가능, 누적 능력: 강함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8910"
+        name: 흔들리지 않는 동경
+        info: "필살기가 적에게 적중 시 파티원의 모든 원소 대미지가 #1[f1]% 증가한다. 지속 시간: 15초, 중복 발동 시 지속 시간을
+          갱신한다."
+        brief: 필살기가 적에게 적중 시 파티원의 모든 원소 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.06
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.014
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8911"
+        name: 험난하고 긴 여정
+        info: "필살기의 마지막 일격 적중 후 15초 이내에 전장의 빙결 원소 대미지 특성의 캐릭터가 적에게 HP 감소 대미지를 가하면 해당 적이
+          받는 빙결 원소 대미지가 #1[f1]% 증가한다. 지속 시간: 5초, 중복 발동 시 지속 시간을 갱신한다."
+        brief: 필살기의 마지막 일격 적중 후 전장의 빙결 원소 대미지 캐릭터가 적에게 HP 감소 대미지를 가하면 해당 적이 받는 빙결 원소
+          대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.04
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8912"
+        name: 장야에 빛나는 별빛
+        info: "필살기 사격이 적에게 적중할 때마다 파티원이 SP를 #1[f1]pt 회복하고, 전장 캐릭터의 필살기 재사용 대기시간이 1초
+          감소한다(멀티/소대 모드에서 적용 불가). 최대 12초 감소"
+        brief: 필살기 사격이 적중할 때마다 파티원이 SP를 회복하고, 전장 캐릭터의 필살기 재사용 대기시간이 최대 12초 감소한다(멀티/소대
+          모드에서 적용 불가).
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 3.01
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.44444
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "895"
+    name: 안무, 끝없는 별바다
+    info: "리더로 배치 시 파티원이 버프를 받는다.\\n<color=#23B2E7FF>리더 스킬: {{파티원의 빙결 원소 대미지가
+      #1[f1]% 증가하고, QTE와 분기/차지의 모든 대미지가 #2[f1]% 증가한다.}}</color>"
+    icon: Skill_ShigureKira_C1_ID_895
+    skillType: leader
+    tags: []
+    paramSubId1: 8913
+    paramSubId2: 8913
+    paramSubId3: 0
+    subSkills:
+      - id: "8913"
+        name: 슈가 일족과의 인연
+        info: "파티원의 빙결 원소 대미지가 #1[f1]% 증가하고, QTE와 분기/차지 공격이 가하는 모든 대미지가 #2[f1]% 증가한다."
+        brief: 파티원의 빙결 원소 대미지가 증가하고, QTE와 분기/차지 공격이 가하는 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 3
+        paramBase1: 0.13
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.035
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "896"
+    name: 턴, 과거의 모습
+    info: "패시브 스킬은 자동으로 발동한다.\\n<color=#23B2E8FF>슈가스타가 파티에 있을 경우 자신은 추가로 최대 HP가 1000
+      증가하고, 파티원은 추가로 최대 HP가 2000 증가한다. 이 효과는 HP 최대치 비율 증가 효과에 영향을 받지 않는다.\\n자신의
+      최대 [응원력]: 300, 기본 공격 시 [응원력]을 회복할 수 있다.\\n파티원의 공격이 적에게 적중 시 슈가스타가 [앙코르]를
+      1스택 획득한다. 발동 간격: 1초\\n파티원 캐릭터가 무기 스킬 사용 시 슈가스타가 추가로 [앙코르]를 3스택 획득한다. 발동
+      간격: 2초\\n파티원 캐릭터가 필살기 발동 시 슈가스타가 추가로 [앙코르]를 5스택 획득한다. 발동 간격: 10초\\n[앙코르]가
+      10스택에 도달하면 슈가스타의 QTE를 발동할 수 있다.</color>"
+    icon: Skill_ShigureKira_C1_ID_896
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8916"
+        name: 설원에 피어난 백화
+        info: "전투 진입 시 초기 SP가 #1[f1]pt 증가한다. 오픈월드에서 10분마다 1회 발동한다.\\n슈가스타가 대기 상태일 때 파티원이
+          대미지를 가하면 슈가스타는 SP를 #2[f1]pt 회복한다. 발동 간격: 3초"
+        brief: 전투 진입 시 초기 SP가 증가한다. 오픈월드에서 10분마다 1회 발동한다.\n슈가스타가 대기 상태일 때 파티원이 대미지를 가하면
+          슈가스타는 SP를 회복한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 12
+        paramBase2: 8.01
+        paramBase3: 0
+        paramAdd1: 1.3
+        paramAdd2: 0.7
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8917"
+        name: 혼돈과 죽음의 춤
+        info: "QTE 또는 필살기가 적에게 적중 시 적이 받는 빙결 원소 대미지가 #1[f1]% 증가한다. 지속 시간: 15초, 중복 발동 시
+          지속 시간을 갱신한다. 추가로 파티원이 SP를 #2[f1]pt 회복한다. 발동 간격: 5초"
+        brief: QTE 또는 필살기가 적에게 적중 시 적이 받는 빙결 원소 대미지가 증가하고, 파티원이 SP를 회복한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.04
+        paramBase2: 1.01
+        paramBase3: 0
+        paramAdd1: 0.008
+        paramAdd2: 0.2
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8918"
+        name: 멀리서 바라보는 고독
+        info: "QTE 또는 필살기가 적에게 적중 시 적에게 매초 공격력 #1[f1]%의 빙결 원소 대미지를 가한다. 지속 시간: 3초. 해당
+          대미지는 무기 스킬 대미지로 간주하며, 중복 발동 시 지속 시간을 갱신한다."
+        brief: QTE 또는 필살기가 적에게 적중 시 적에게 지속 대미지를 가한다. 해당 대미지는 무기 스킬 대미지로 간주한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 6
+        paramBase1: 0.8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.16
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "897"
+    name: 등장, 환호성의 폭풍
+    info: "[슈가 코팅]을 뿌려 지원 효과를 제공한다.\\n<color=#23B2E8FF>QTE 출전 또는 필살기 발동 시 [슈가 코팅]을
+      뿌려 전장 캐릭터의 HP를 500 회복한다. [슈가 코팅] 지속 시간: 15초, 중복 발동 시 지속 시간을 갱신한다. 그 기간
+      파티원의 모든 대미지가 10% 증가한다.</color>"
+    icon: Skill_ShigureKira_C1_ID_897
+    skillType: sp
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8919"
+        name: 열광의 무대
+        info: "[슈가 코팅] 지속 기간 자신의 차지 공격과 필살기의 빙결 원소 대미지가 #1[f1]% 증가한다."
+        brief: "[슈가 코팅] 지속 기간 자신의 차지 공격과 필살기의 빙결 원소 대미지가 증가한다."
+        icon: Skill_Nagative_Damage01
+        maxLv: 7
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8920"
+        name: 관중을 사로잡는 비기
+        info: "[슈가 코팅] 지속 기간 슈가스타의 필살기가 적에게 적중 시 적이 받는 모든 대미지가 #1[f1]% 증가한다. 지속 시간: 15초,
+          중복 발동 시 지속 시간을 갱신한다."
+        brief: "[슈가 코팅] 지속 기간 슈가스타의 필살기가 적에게 적중 시 적이 받는 모든 대미지가 증가한다."
+        icon: Skill_Nagative_Damage01
+        maxLv: 5
+        paramBase1: 0.04
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "8921"
+        name: 앙코르 인사
+        info: "[슈가 코팅] 발동 시 파티원의 무기 스킬이 가하는 모든 대미지가 #1[f1]% 증가하고, 적이 파티원의 무기 스킬에 피격 시
+          추가로 공격력 #2[f1]%의 빙결 원소 대미지를 받는다. 발동 간격: 5초, 지속 시간: 10초, 중복 발동 시 지속 시간을
+          갱신한다."
+        brief: "[슈가 코팅] 발동 시 파티원의 무기 스킬이 가하는 모든 대미지가 증가하고, 적이 파티원의 무기 스킬에 피격 시 추가로 빙결 원소
+          대미지를 받는다."
+        icon: Skill_Nagative_Damage01
+        maxLv: 3
+        paramBase1: 0.15
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: 0.075
+        paramAdd2: 0.5
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

@@ -1,0 +1,330 @@
+id: "24003"
+weapons:
+  - id: "24031"
+    rarity: 5
+    maxLv: 50
+    type: pistols
+    name: 양전자 블래스터
+    description: ‘초전자 핸드건’ 초월 개조 후의 형태. 원래 무기에 양전자 레이저를 발사할 수 있는 가속기를 장착했다. 양전자와 전자가
+      공기 중에 충돌해 만들어내는 인멸현상은 파괴적인 에너지를 방출한다. 초월 기술의 발견은 네겐트로피가 붕괴 대항 무기 영역에서 개척한
+      새로운 길이라고 할 수 있지만, 아인슈타인은 현재 그녀들의 기술에 대한 이해도가 아직 수박 겉핥기에서 머물고 있다고 생각한다
+    icon: Weapon_Pistol_K37_269_5
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 83.890625
+    attackAdd: 4.194531
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 4.614971
+    criticalAdd: 0.288436
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1113"
+        name: 양전자 레이저
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 20초]</color> 목표 적중 시, 단계마다 #1[i]%의
+          물리 대미지를 가하고, 피격된 모든 적에게 <color=#FEDF4CFF>마비 게이지를 9pt 누적한다.</color> 2회
+          충전할 수 있다. 백기사 월광이 사용 시, 무기 액티브 스킬 사용 후 공격 버튼을 터치해 즉시 분기 공격을 발동할 수 있다.
+          양전자 레이저에 적중한 모든 적은 #3[f1]%의 물리 피해 심화 효과를 획득한다. 지속 시간: 8초. 중복 발동 시 지속
+          시간이 연장되며, 효과는 중첩할 수 없다."
+        icon: Skill_Kiana_Weapon_32
+        skillCd: 20
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 보통"
+        param1: 4
+        param1Add: 0.008734
+        param2: 4
+        param2Add: 0.008734
+        param3: 0.14
+        param3Add: 0.000262
+      - id: "2139"
+        name: 전류 전이
+        info: "전투 중 적을 20회 공격할 때마다 몸에서 네 방향으로 전류를 발산해(재사용 대기시간: 1.5초), 6m 이내의 목표에게 650의
+          뇌전 원소 대미지 및 공격력 #1[f1]%의 물리 대미지를 가하고, 마비 상태가 아닌 적에게
+          <color=#FEDF4CFF>마비 게이지를 3pt 누적한다.</color> 전류는 최대 3개의 목표에게 전이된다. 백기사
+          월광이 사용 시, 뇌전 링크에 적중한 적 한 기당 SP를 1pt 회복하고, 만약 적이 마비 상태라면 SP를 추가로 1pt
+          회복한다."
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+        param1: 2
+        param1Add: 0.002183
+        param2: 1
+        param2Add: 0.002183
+        param3: 0
+        param3Add: 0
+      - id: "2140"
+        name: 인멸현상
+        info: "캐릭터의 이동 속도가 #1[i]% 증가하고, 분기 공격 크리티컬 대미지가 #2[i]% 증가한다. 백기사 월광이 사용하면 회피 스킬
+          발동 후 캐릭터의 물리 대미지가 12초 동안 #3[f1]% 증가한다. 재사용 대기시간 30초"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.15
+        param1Add: 0.000218
+        param2: 0.25
+        param2Add: 0.001092
+        param3: 0.1
+        param3Add: 0.000437
+    rankUpMaterials:
+      - id: "6003"
+        amount: 100
+      - id: "1302"
+        amount: 9
+      - id: "4013"
+        amount: 100
+    powerType: 1
+  - id: "24032"
+    rarity: 5
+    maxLv: 55
+    type: pistols
+    name: 양전자 블래스터
+    description: ‘초전자 핸드건’ 초월 개조 후의 형태. 원래 무기에 양전자 레이저를 발사할 수 있는 가속기를 장착했다. 양전자와 전자가
+      공기 중에 충돌해 만들어내는 인멸현상은 파괴적인 에너지를 방출한다. 초월 기술의 발견은 네겐트로피가 붕괴 대항 무기 영역에서 개척한
+      새로운 길이라고 할 수 있지만, 아인슈타인은 현재 그녀들의 기술에 대한 이해도가 아직 수박 겉핥기에서 머물고 있다고 생각한다
+    icon: Weapon_Pistol_K37_269_5
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 89.13379
+    attackAdd: 4.456689
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 4.903407
+    criticalAdd: 0.306463
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1113"
+        name: 양전자 레이저
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 20초]</color> 목표 적중 시, 단계마다 #1[i]%의
+          물리 대미지를 가하고, 피격된 모든 적에게 <color=#FEDF4CFF>마비 게이지를 9pt 누적한다.</color> 2회
+          충전할 수 있다. 백기사 월광이 사용 시, 무기 액티브 스킬 사용 후 공격 버튼을 터치해 즉시 분기 공격을 발동할 수 있다.
+          양전자 레이저에 적중한 모든 적은 #3[f1]%의 물리 피해 심화 효과를 획득한다. 지속 시간: 8초. 중복 발동 시 지속
+          시간이 연장되며, 효과는 중첩할 수 없다."
+        icon: Skill_Kiana_Weapon_32
+        skillCd: 20
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 보통"
+        param1: 4.436681
+        param1Add: 0.008734
+        param2: 4.436681
+        param2Add: 0.008734
+        param3: 0.1531
+        param3Add: 0.000262
+      - id: "2139"
+        name: 전류 전이
+        info: "전투 중 적을 20회 공격할 때마다 몸에서 네 방향으로 전류를 발산해(재사용 대기시간: 1.5초), 6m 이내의 목표에게 650의
+          뇌전 원소 대미지 및 공격력 #1[f1]%의 물리 대미지를 가하고, 마비 상태가 아닌 적에게
+          <color=#FEDF4CFF>마비 게이지를 3pt 누적한다.</color> 전류는 최대 3개의 목표에게 전이된다. 백기사
+          월광이 사용 시, 뇌전 링크에 적중한 적 한 기당 SP를 1pt 회복하고, 만약 적이 마비 상태라면 SP를 추가로 1pt
+          회복한다."
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+        param1: 2.10917
+        param1Add: 0.002183
+        param2: 1.10917
+        param2Add: 0.002183
+        param3: 0
+        param3Add: 0
+      - id: "2140"
+        name: 인멸현상
+        info: "캐릭터의 이동 속도가 #1[i]% 증가하고, 분기 공격 크리티컬 대미지가 #2[i]% 증가한다. 백기사 월광이 사용하면 회피 스킬
+          발동 후 캐릭터의 물리 대미지가 12초 동안 #3[f1]% 증가한다. 재사용 대기시간 30초"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.160917
+        param1Add: 0.000218
+        param2: 0.304585
+        param2Add: 0.001092
+        param3: 0.121834
+        param3Add: 0.000437
+    rankUpMaterials:
+      - id: "6003"
+        amount: 100
+      - id: "1302"
+        amount: 14
+      - id: "4013"
+        amount: 150
+    powerType: 1
+  - id: "24033"
+    rarity: 5
+    maxLv: 60
+    type: pistols
+    name: 양전자 블래스터
+    description: ‘초전자 핸드건’ 초월 개조 후의 형태. 원래 무기에 양전자 레이저를 발사할 수 있는 가속기를 장착했다. 양전자와 전자가
+      공기 중에 충돌해 만들어내는 인멸현상은 파괴적인 에너지를 방출한다. 초월 기술의 발견은 네겐트로피가 붕괴 대항 무기 영역에서 개척한
+      새로운 길이라고 할 수 있지만, 아인슈타인은 현재 그녀들의 기술에 대한 이해도가 아직 수박 겉핥기에서 머물고 있다고 생각한다
+    icon: Weapon_Pistol_K37_269_5
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 94.37695
+    attackAdd: 4.718848
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 5.191842
+    criticalAdd: 0.32449
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1113"
+        name: 양전자 레이저
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 20초]</color> 목표 적중 시, 단계마다 #1[i]%의
+          물리 대미지를 가하고, 피격된 모든 적에게 <color=#FEDF4CFF>마비 게이지를 9pt 누적한다.</color> 2회
+          충전할 수 있다. 백기사 월광이 사용 시, 무기 액티브 스킬 사용 후 공격 버튼을 터치해 즉시 분기 공격을 발동할 수 있다.
+          양전자 레이저에 적중한 모든 적은 #3[f1]%의 물리 피해 심화 효과를 획득한다. 지속 시간: 8초. 중복 발동 시 지속
+          시간이 연장되며, 효과는 중첩할 수 없다."
+        icon: Skill_Kiana_Weapon_32
+        skillCd: 20
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 보통"
+        param1: 4.917031
+        param1Add: 0.008734
+        param2: 4.917031
+        param2Add: 0.008734
+        param3: 0.167511
+        param3Add: 0.000262
+      - id: "2139"
+        name: 전류 전이
+        info: "전투 중 적을 20회 공격할 때마다 몸에서 네 방향으로 전류를 발산해(재사용 대기시간: 1.5초), 6m 이내의 목표에게 650의
+          뇌전 원소 대미지 및 공격력 #1[f1]%의 물리 대미지를 가하고, 마비 상태가 아닌 적에게
+          <color=#FEDF4CFF>마비 게이지를 3pt 누적한다.</color> 전류는 최대 3개의 목표에게 전이된다. 백기사
+          월광이 사용 시, 뇌전 링크에 적중한 적 한 기당 SP를 1pt 회복하고, 만약 적이 마비 상태라면 SP를 추가로 1pt
+          회복한다."
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+        param1: 2.229258
+        param1Add: 0.002183
+        param2: 1.229258
+        param2Add: 0.002183
+        param3: 0
+        param3Add: 0
+      - id: "2140"
+        name: 인멸현상
+        info: "캐릭터의 이동 속도가 #1[i]% 증가하고, 분기 공격 크리티컬 대미지가 #2[i]% 증가한다. 백기사 월광이 사용하면 회피 스킬
+          발동 후 캐릭터의 물리 대미지가 12초 동안 #3[f1]% 증가한다. 재사용 대기시간 30초"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.172926
+        param1Add: 0.000218
+        param2: 0.364629
+        param2Add: 0.001092
+        param3: 0.145852
+        param3Add: 0.000437
+    rankUpMaterials:
+      - id: "6003"
+        amount: 100
+      - id: "1302"
+        amount: 18
+      - id: "4013"
+        amount: 220
+    powerType: 1
+  - id: "24034"
+    rarity: 6
+    maxLv: 65
+    type: pistols
+    name: 양전자 블래스터
+    description: ‘초전자 핸드건’ 초월 개조 후의 형태. 원래 무기에 양전자 레이저를 발사할 수 있는 가속기를 장착했다. 양전자와 전자가
+      공기 중에 충돌해 만들어내는 인멸현상은 파괴적인 에너지를 방출한다. 초월 기술의 발견은 네겐트로피가 붕괴 대항 무기 영역에서 개척한
+      새로운 길이라고 할 수 있지만, 아인슈타인은 현재 그녀들의 기술에 대한 이해도가 아직 수박 겉핥기에서 머물고 있다고 생각한다
+    icon: Weapon_Pistol_K37_269_6
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 99.62012
+    attackAdd: 4.981006
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 5.480278
+    criticalAdd: 0.342517
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1113"
+        name: 양전자 레이저
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 20초]</color> 목표 적중 시, 단계마다 #1[i]%의
+          물리 대미지를 가하고, 피격된 모든 적에게 <color=#FEDF4CFF>마비 게이지를 9pt 누적한다.</color> 2회
+          충전할 수 있다. 백기사 월광이 사용 시, 무기 액티브 스킬 사용 후 공격 버튼을 터치해 즉시 분기 공격을 발동할 수 있다.
+          양전자 레이저에 적중한 모든 적은 #3[f1]%의 물리 피해 심화 효과를 획득한다. 지속 시간: 8초. 중복 발동 시 지속
+          시간이 연장되며, 효과는 중첩할 수 없다."
+        icon: Skill_Kiana_Weapon_32
+        skillCd: 20
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 보통"
+        param1: 5.441048
+        param1Add: 0.008734
+        param2: 5.441048
+        param2Add: 0.008734
+        param3: 0.183231
+        param3Add: 0.000262
+      - id: "2139"
+        name: 전류 전이
+        info: "전투 중 적을 20회 공격할 때마다 몸에서 네 방향으로 전류를 발산해(재사용 대기시간: 1.5초), 6m 이내의 목표에게 650의
+          뇌전 원소 대미지 및 공격력 #1[f1]%의 물리 대미지를 가하고, 마비 상태가 아닌 적에게
+          <color=#FEDF4CFF>마비 게이지를 3pt 누적한다.</color> 전류는 최대 3개의 목표에게 전이된다. 백기사
+          월광이 사용 시, 뇌전 링크에 적중한 적 한 기당 SP를 1pt 회복하고, 만약 적이 마비 상태라면 SP를 추가로 1pt
+          회복한다."
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+        param1: 2.360262
+        param1Add: 0.002183
+        param2: 1.360262
+        param2Add: 0.002183
+        param3: 0
+        param3Add: 0
+      - id: "2140"
+        name: 인멸현상
+        info: "캐릭터의 이동 속도가 #1[i]% 증가하고, 분기 공격 크리티컬 대미지가 #2[i]% 증가한다. 백기사 월광이 사용하면 회피 스킬
+          발동 후 캐릭터의 물리 대미지가 12초 동안 #3[f1]% 증가한다. 재사용 대기시간 30초"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.186026
+        param1Add: 0.000218
+        param2: 0.430131
+        param2Add: 0.001092
+        param3: 0.172052
+        param3Add: 0.000437
+    rankUpMaterials:
+      - id: "0"
+        amount: 0
+    powerType: 1

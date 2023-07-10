@@ -1,0 +1,321 @@
+id: "101"
+fullName: 투예복·백련
+shortName: 투예복·백련
+desc: <color=white>특징:</color> <color=#2CE3FFFF>기계 속성</color>의 근거리 전투형 캐릭터. 공격과
+  방어가 균형 잡혀있다.
+firstName: 키아나
+lastName: 카스라나
+enFirstName: Kiana
+enLastName: Kaslana
+attributeType: mech
+isEasterner: false
+weapon: pistols
+character: kiana
+initialStar: b
+tags:
+  - physical-dmg
+  - stun
+  - burst
+  - time-mastery
+skills:
+  - id: "11"
+    name: 유성의 표적
+    info: "건카타를 사용하는 5연속 공격\\n<color=#23B2E2FF>1격: 공격력 100%의 물리 대미지\\n2격: 공격력 100%의
+      물리 대미지\\n3격: 공격력 100%의 물리 대미지\\n4격: 공격력 150%의 물리 대미지*2\\n5격: 공격력 250%의 물리
+      대미지</color>"
+    icon: Skill_Kiana_PT_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "101"
+        name: 유성의 파편
+        info: "기본 공격 4연격이 가하는 물리 대미지 #1[f1]% 증가"
+        brief: 기본 공격의 물리 대미지 증가
+        icon: Skill_Nagative_Damage01
+        maxLv: 35
+        paramBase1: 6
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 4.02941
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "103"
+        name: 혜성 하트 브레이크
+        info: "기본 공격 4연격이 적 경직 시 #1[f1]%의 확률로 적에게 <color=#FEDF4CFF>기절 게이지를 3pt
+          누적한다.</color> 재사용 대기시간: 7초"
+        brief: 기본 공격이 적 경직 시 일정 확률로 기절 게이지를 누적한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 18
+        paramBase1: 0.2
+        paramBase2: 1.5
+        paramBase3: 0
+        paramAdd1: 0.01176
+        paramAdd2: 0.02941
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 1
+            comment: "기절 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: sss
+      - id: "113"
+        name: 혜성 폭파
+        info: "기본 공격/분기 공격으로 실드를 파괴하는 순간, 적에게 추가로 공격력 #1[f1]%의 물리 대미지를 입힌다."
+        brief: 기본/분기 공격으로 실드에 추가 피해를 줄 수 있다
+        icon: Skill_Nagative_Damage03
+        maxLv: 60
+        paramBase1: 1.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01695
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "12"
+    name: <color=#FFC741FF>분기 공격</color> - 혜성 추락
+    info: "2연속 킥하고 올려 찬 뒤 내려찍기\\n<color=#23B2E2FF>올려 차기: 공격력의 50% 물리 대미지\\n내려찍기:
+      공격력의 275% 물리 대미지</color>"
+    icon: Skill_Kiana_PT_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "102"
+        name: <color=#FFC741FF>교대기</color> - 혜성작렬
+        info: "출전 시 내려찍기를 발동해 공격력 #1[f1]%의 물리 대미지를 가하고, 적 경직 시 <color=#FEDF4CFF>기절 게이지를
+          6pt 누적한다.</color>"
+        brief: 출전 시 내려찍기를 발동해 물리 대미지를 가하고, 적 경직 시 기절 게이지를 누적한다.
+        icon: Skill_Nagative_StartUp02
+        maxLv: 20
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.21053
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 2
+            comment: "기절 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: false
+        unlockStar: b
+      - id: "104"
+        name: <color=#FFC741FF>QTE</color> - 부유 나선
+        info: "QTE: 적이 공중에 띄워질 때 발동한다. 공격력 375%+#1[f1]의 물리 대미지를 가하고, 마지막 일격은 적에게
+          <color=#FEDF4CFF>기절 게이지를 3pt 누적한다.</color>"
+        brief: "QTE: 적이 공중에 띄워졌을 때 QTE 출전해 물리 대미지를 가하고 적에게 기절 게이지를 누적한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 69
+        paramBase1: 900
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 60.29412
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 1
+            comment: "기절 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: true
+        unlockStar: b
+      - id: "105"
+        name: 허황된 중력
+        info: "분기 공격의 두 번째 타격 혹은 혜성 작렬이 엘리트 실드가 파괴 당하지 않은 적에게 추가로 #1[i]의 화염 대미지를 입힌다"
+        brief: 교대기는 엘리트 실드가 파괴되지 않은 적에게 추가 화염 대미지를 입힌다
+        icon: Skill_Nagative_Damage01
+        maxLv: 56
+        paramBase1: 68
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 19.21818
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "13"
+    name: 시공 회피
+    info: "빠르게 굴러 적의 공격을 회피하며 연속으로 2회 회피할 수 있다.\\n<color=#23B2E2FF>시공 단열: 극한 회피 시 3초
+      동안 전체 시공 단열을 발동한다. 재사용 대기시간: 15초\\n극한 회피 후 공격 버튼을 누르면 이어서 혜성 추락을 발동할 수
+      있다.</color>"
+    icon: Skill_Kiana_PT_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "106"
+        name: 시공의 흐름
+        info: "극한 회피로 전체 시공 단열을 발동 시 파티원의 SP를 #1[f1] 회복한다"
+        brief: 회피로 시공단열에 진입하면 전체 파티 구성원의 SP를 회복한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 12
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.27273
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "112"
+        name: 시공의 반짝임
+        info: "시공 단열 재사용 대기시간 #1[f1]초 감소"
+        brief: 시공단열의 재사용 대기시간 감소
+        icon: Skill_Nagative_Damage01
+        maxLv: 30
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.12069
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "14"
+    name: 발키리 폭발
+    info: "발키리 에너지를 폭발 시켜 각성 상태가 된다.\\n<color=#23B2E2FF>폭발: 폭발 상태에 진입해 SP를 지속적으로
+      소모하며, 자신의 공격 속도와 경직 저항력을 증가시킨다.\\nSP가 100 이상일 때 20 SP 소모로 발동하고, SP를 소진할
+      때까지 초당 10 SP씩 소모한다. 최대 지속 시간: 60초</color>"
+    icon: Skill_Kiana_PT_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "[발키리 임팩트]는 강격이다. 축적 능력: 강\\n폭발 상태의 4격은 강격이다. 축적 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "107"
+        name: 발키리 임펄스
+        info: "폭발 순간, 주변 적에게 #2[f1]의 물리 대미지를 가하고 동시에 <color=#FEDF4CFF>기절 게이지를 6pt
+          누적한다.</color>"
+        brief: 폭발 순간, 주변 적에게 기절 게이지를 누적하고 물리 대미지를 가한다.
+        icon: Skill_Nagative_Control01
+        maxLv: 60
+        paramBase1: 3
+        paramBase2: 210
+        paramBase3: 0
+        paramAdd1: 0.0339
+        paramAdd2: 40.67797
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 2
+            comment: "기절 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: false
+        unlockStar: b
+      - id: "108"
+        name: 발키리의 끈기
+        info: "폭발 상태 동안 모든 파티원의 경직 저항이 대폭 증가하고, 방어력이 #1[i]% 증가한다"
+        brief: 폭발 상태가 지속하는 동안 모든 파티원의 경직 저항력과 방어력이 상승한다
+        icon: Skill_Nagative_Skill03
+        maxLv: 20
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03684
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "114"
+        name: 발키리 충전
+        info: "#1[f1]초마다 1회 충전하며, 다음 공격에 SP를 소모해 적에게 <color=#FEDF4CFF>기절 게이지를 6pt
+          누적한다.</color>"
+        brief: 일정 시간마다 적 적중 시 기절 게이지를 누적한다.
+        icon: Skill_Nagative_Control02
+        maxLv: 30
+        paramBase1: 20
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: -0.27586
+        paramAdd2: 0.06897
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 2
+            comment: "기절 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: false
+        unlockStar: b
+  - id: "15"
+    name: 유성의 가호
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>인도자: {{모든 파티원의 전투 중 HP 최대치
+      #1[i]% 증가}}</color>"
+    icon: Skill_Kiana_PT_005
+    skillType: leader
+    tags: []
+    paramSubId1: 109
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "109"
+        name: 인도자
+        info: "모든 파티원의 전투 중 HP 최대치 #1[i]% 증가."
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Survive01
+        maxLv: 4
+        paramBase1: 0.12
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "16"
+    name: 패시브 스킬
+    info: 패시브 스킬은 자동으로 발동한다.\n<color=#23B2E2FF></color>
+    icon: Skill_Kiana_PT_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "110"
+        name: 혜성 폭격
+        info: "HP가 80%보다 높을 때, 크리티컬 대미지가 #1[f1]% 증가한다"
+        brief: HP가 80%보다 높을 때 크리티컬 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 25
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00833
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "111"
+        name: 혜성 아머 브레이크
+        info: "실드에 가하는 대미지 #1[f1]% 증가"
+        brief: 실드에 가하는 대미지 증가
+        icon: Skill_Nagative_Damage01
+        maxLv: 20
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01053
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b

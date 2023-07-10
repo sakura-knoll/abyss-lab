@@ -1,0 +1,254 @@
+id: "10207"
+weapons:
+  - id: "21081"
+    rarity: 4
+    maxLv: 35
+    type: 2-handed
+    name: 겁멸
+    description: 파괴의 열쇠는 원주인의 손에서 본모습을 드러낸 이형의 대검이다. 파괴신의 화신과 같이 세상에 내려와, 항성이 폭발할 때
+      내는 빛이 그 빛과 겨우 견줄 수 있으니, 그것이 바로 ‘겁멸’이란 이름의 유래다. 오직 인간의 한계를 초월한 자만이 이 무한한
+      파멸의 힘을 다룰 수 있으리라
+    icon: Weapon_Claymore_H30_270_4
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 70.20508
+    attackAdd: 3.510254
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 2.678331
+    criticalAdd: 0.167396
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1114"
+        name: 영겁멸신
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 25초]</color> 겁멸을 휘둘러 적을 공격한다. 현재 충전
+          수치가 0/1/2 일 때, 각각 공격력 100%+#1[i]%/#2[i]%/#3[i]%의 화염 원소 대미지를 가하고,
+          <color=#FEDF4CFF>연소 게이지를 5/10/18pt 누적한다.</color> 무기 스킬 발동 시 5초 동안 매초
+          현재 HP의 8%를 소모하며(이로 인해 사망하지 않는다), HP가 10% 미만으로 떨어질 경우 무기 액티브 스킬을 발동할 수
+          없다. 초기 충전 점수는 1pt이며 SP를 한 번에 30pt 이상 소모하면 1pt 충전된다."
+        icon: Skill_Himeko_Weapon_25
+        skillCd: 25
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: ignite
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 충전 0스택 시 약함, 충전 1스택 시 보통, 충전 2스택 시 강함"
+        param1: 5
+        param1Add: 0.023669
+        param2: 8
+        param2Add: 0.047337
+        param3: 13
+        param3Add: 0.071006
+      - id: "2141"
+        name: 홍염
+        info: "모든 대미지가 #1[f1]% 증가하고 무기 액티브 스킬을 사용하면 적이 받는 화염 원소 대미지가 #2[f1]% 증가한다(지속 시간
+          10초). 전투에서 초기 SP가 #3[f1] 증가한다(해당 효과는 오픈월드에서 발동하지 않는다)"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.2
+        param1Add: 0.000592
+        param2: 0.1
+        param2Add: 0.000592
+        param3: 14
+        param3Add: 0.094675
+    rankUpMaterials:
+      - id: "6002"
+        amount: 3
+      - id: "1302"
+        amount: 1
+      - id: "4004"
+        amount: 3
+    powerType: 4
+  - id: "21082"
+    rarity: 4
+    maxLv: 40
+    type: 2-handed
+    name: 겁멸
+    description: 파괴의 열쇠는 원주인의 손에서 본모습을 드러낸 이형의 대검이다. 파괴신의 화신과 같이 세상에 내려와, 항성이 폭발할 때
+      내는 빛이 그 빛과 겨우 견줄 수 있으니, 그것이 바로 ‘겁멸’이란 이름의 유래다. 오직 인간의 한계를 초월한 자만이 이 무한한
+      파멸의 힘을 다룰 수 있으리라
+    icon: Weapon_Claymore_H30_270_4
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 75.60547
+    attackAdd: 3.780273
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 2.884357
+    criticalAdd: 0.180272
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1114"
+        name: 영겁멸신
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 25초]</color> 겁멸을 휘둘러 적을 공격한다. 현재 충전
+          수치가 0/1/2 일 때, 각각 공격력 100%+#1[i]%/#2[i]%/#3[i]%의 화염 원소 대미지를 가하고,
+          <color=#FEDF4CFF>연소 게이지를 5/10/18pt 누적한다.</color> 무기 스킬 발동 시 5초 동안 매초
+          현재 HP의 8%를 소모하며(이로 인해 사망하지 않는다), HP가 10% 미만으로 떨어질 경우 무기 액티브 스킬을 발동할 수
+          없다. 초기 충전 점수는 1pt이며 SP를 한 번에 30pt 이상 소모하면 1pt 충전된다."
+        icon: Skill_Himeko_Weapon_25
+        skillCd: 25
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: ignite
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 충전 0스택 시 약함, 충전 1스택 시 보통, 충전 2스택 시 강함"
+        param1: 5.828402
+        param1Add: 0.023669
+        param2: 9.656805
+        param2Add: 0.047337
+        param3: 15.485207
+        param3Add: 0.071006
+      - id: "2141"
+        name: 홍염
+        info: "모든 대미지가 #1[f1]% 증가하고 무기 액티브 스킬을 사용하면 적이 받는 화염 원소 대미지가 #2[f1]% 증가한다(지속 시간
+          10초). 전투에서 초기 SP가 #3[f1] 증가한다(해당 효과는 오픈월드에서 발동하지 않는다)"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.22071
+        param1Add: 0.000592
+        param2: 0.12071
+        param2Add: 0.000592
+        param3: 17.313608
+        param3Add: 0.094675
+    rankUpMaterials:
+      - id: "6002"
+        amount: 3
+      - id: "1302"
+        amount: 2
+      - id: "4004"
+        amount: 8
+    powerType: 4
+  - id: "21083"
+    rarity: 4
+    maxLv: 45
+    type: 2-handed
+    name: 겁멸
+    description: 파괴의 열쇠는 원주인의 손에서 본모습을 드러낸 이형의 대검이다. 파괴신의 화신과 같이 세상에 내려와, 항성이 폭발할 때
+      내는 빛이 그 빛과 겨우 견줄 수 있으니, 그것이 바로 ‘겁멸’이란 이름의 유래다. 오직 인간의 한계를 초월한 자만이 이 무한한
+      파멸의 힘을 다룰 수 있으리라
+    icon: Weapon_Claymore_H30_270_4
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 81.00586
+    attackAdd: 4.050293
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 3.090382
+    criticalAdd: 0.193149
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1114"
+        name: 영겁멸신
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 25초]</color> 겁멸을 휘둘러 적을 공격한다. 현재 충전
+          수치가 0/1/2 일 때, 각각 공격력 100%+#1[i]%/#2[i]%/#3[i]%의 화염 원소 대미지를 가하고,
+          <color=#FEDF4CFF>연소 게이지를 5/10/18pt 누적한다.</color> 무기 스킬 발동 시 5초 동안 매초
+          현재 HP의 8%를 소모하며(이로 인해 사망하지 않는다), HP가 10% 미만으로 떨어질 경우 무기 액티브 스킬을 발동할 수
+          없다. 초기 충전 점수는 1pt이며 SP를 한 번에 30pt 이상 소모하면 1pt 충전된다."
+        icon: Skill_Himeko_Weapon_25
+        skillCd: 25
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: ignite
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 충전 0스택 시 약함, 충전 1스택 시 보통, 충전 2스택 시 강함"
+        param1: 6.775148
+        param1Add: 0.023669
+        param2: 11.550296
+        param2Add: 0.047337
+        param3: 18.325443
+        param3Add: 0.071006
+      - id: "2141"
+        name: 홍염
+        info: "모든 대미지가 #1[f1]% 증가하고 무기 액티브 스킬을 사용하면 적이 받는 화염 원소 대미지가 #2[f1]% 증가한다(지속 시간
+          10초). 전투에서 초기 SP가 #3[f1] 증가한다(해당 효과는 오픈월드에서 발동하지 않는다)"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.244379
+        param1Add: 0.000592
+        param2: 0.144379
+        param2Add: 0.000592
+        param3: 21.100592
+        param3Add: 0.094675
+    rankUpMaterials:
+      - id: "6002"
+        amount: 3
+      - id: "1302"
+        amount: 3
+      - id: "4004"
+        amount: 12
+    powerType: 4
+  - id: "21084"
+    rarity: 5
+    maxLv: 50
+    type: 2-handed
+    name: 겁멸
+    description: 파괴의 열쇠는 원주인의 손에서 본모습을 드러낸 이형의 대검이다. 파괴신의 화신과 같이 세상에 내려와, 항성이 폭발할 때
+      내는 빛이 그 빛과 겨우 견줄 수 있으니, 그것이 바로 ‘겁멸’이란 이름의 유래다. 오직 인간의 한계를 초월한 자만이 이 무한한
+      파멸의 힘을 다룰 수 있으리라
+    icon: Weapon_Claymore_H30_270_5
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 86.40625
+    attackAdd: 4.320312
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 3.296408
+    criticalAdd: 0.206025
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1114"
+        name: 영겁멸신
+        info: "<color=#FEDF4CFF>[SP 소모: 0][재사용 대기시간: 25초]</color> 겁멸을 휘둘러 적을 공격한다. 현재 충전
+          수치가 0/1/2 일 때, 각각 공격력 100%+#1[i]%/#2[i]%/#3[i]%의 화염 원소 대미지를 가하고,
+          <color=#FEDF4CFF>연소 게이지를 5/10/18pt 누적한다.</color> 무기 스킬 발동 시 5초 동안 매초
+          현재 HP의 8%를 소모하며(이로 인해 사망하지 않는다), HP가 10% 미만으로 떨어질 경우 무기 액티브 스킬을 발동할 수
+          없다. 초기 충전 점수는 1pt이며 SP를 한 번에 30pt 이상 소모하면 1pt 충전된다."
+        icon: Skill_Himeko_Weapon_25
+        skillCd: 25
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: ignite
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 충전 0스택 시 약함, 충전 1스택 시 보통, 충전 2스택 시 강함"
+        param1: 7.840237
+        param1Add: 0.023669
+        param2: 13.680473
+        param2Add: 0.047337
+        param3: 21.52071
+        param3Add: 0.071006
+      - id: "2141"
+        name: 홍염
+        info: "모든 대미지가 #1[f1]% 증가하고 무기 액티브 스킬을 사용하면 적이 받는 화염 원소 대미지가 #2[f1]% 증가한다(지속 시간
+          10초). 전투에서 초기 SP가 #3[f1] 증가한다(해당 효과는 오픈월드에서 발동하지 않는다)"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.271006
+        param1Add: 0.000592
+        param2: 0.171006
+        param2Add: 0.000592
+        param3: 25.360947
+        param3Add: 0.094675
+    rankUpMaterials:
+      - id: "0"
+        amount: 0
+    powerType: 4

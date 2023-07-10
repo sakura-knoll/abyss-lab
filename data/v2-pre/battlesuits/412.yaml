@@ -1,0 +1,352 @@
+id: "412"
+fullName: 진홍의 기사·월식
+shortName: 진홍의 기사·월식
+desc: <color=white>특징:</color> <color=#2CE3FFFF>기계 속성</color>의
+  <color=#2CE3FFFF>영혼 각성</color> 근거리 전투형 캐릭터, 민첩한 작전 능력을 보유하고 있으며, 다단 필살 공격으로
+  적에게 대량의 화염 원소 대미지를 가한다.
+firstName: 히메코
+lastName: 무라타
+enFirstName: Himeko
+enLastName: Murata
+attributeType: mech
+isEasterner: true
+weapon: 2-handed
+character: himeko
+initialStar: s
+tags:
+  - fire-dmg
+  - ignite
+skills:
+  - id: "371"
+    name: 황혼의 염인
+    info: "4연속 공격\\n<color=#23B2E2FF>1격: 3*공격력 30%의 화염 원소 대미지.\\n2격: 공격력 50%의 화염 원소
+      대미지+100%의 물리 대미지\\n3격：2*공격력 100%의 물리 대미지+50%의 화염 원소 대미지\\n4격：공격력 100%의 화염
+      원소 대미지+250%의 물리 대미지\\n진홍의 기사는 이동 개시 후 곧바로 돌진 상태로 들어간다. 돌진 시에 기본 공격을 발동할 경우
+      첫 번째 공격은 돌진 판정을 받아 경직력과 경직 저항력이 상승한다.</color>"
+    icon: Skill_Himeko_SD_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3701"
+        name: 격동의 열류
+        info: "기본 공격의 3단과 4단의 마지막 일격이 적에게 명중 시 추가로 #1[f2] SP를 회복한다."
+        brief: 3번째, 4번째 기본 공격이 적에게 적중 시 SP를 회복한다
+        icon: Skill_Nagative_Skill02
+        maxLv: 8
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.28571
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3702"
+        name: 아지랑이 환영
+        info: 콤보수 50 초과 시, 경직 저항력이 증가하고, 기본 공격 제3격과 제4격에 아지랑이 환영이 나타나 공격력 250%의 화염 원소
+          대미지를 가하고 적에게 <color=#FEDF4CFF>연소 게이지를 3pt 누적한다.</color>
+        brief: 콤보수 50 초과 시, 경직 저항력이 증가하고, 기본 공격 제3격과 제4격은 화염 원소 대미지가 추가되고 연소 게이지를 누적한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 8
+        paramBase1: 1
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.42857
+        paramAdd2: 0.05714
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 1
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: s
+  - id: "372"
+    name: <color=#FFC741FF>차지</color> - 유성의 낙염
+    info: 과부하 상태가 아닐 시, 기본 공격 및 홍련 섬광 도중, 공격 버튼을 꾸욱 눌러 차지 공격을
+      발동한다\n<color=#23B2E2FF>타깃에게 돌진해, 2*(공격력의 50% 물리 대미지+150% 화염 원소 대미지)를 준다,
+      마지막으로 십자베기로 공격력의 300% 물리 대미지+750% 화염 원소 대미지를 준다.\n차지 공격 사용 후, 6초 내에 차지 공격을
+      다시 발동하면, 13.5초 동안 과부하 상태가 된다.</color>
+    icon: Skill_Himeko_SD_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3703"
+        name: 잔염
+        info: 십자베기가 적에게 적중 시, <color=#FEDF4CFF>연소 게이지를 6pt 누적한다.</color>
+        brief: 십자베기가 적에게 적중 시, 연소 게이지를 누적한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.10345
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 2
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: false
+        unlockStar: a
+      - id: "3704"
+        name: 불완전 연소
+        info: "과부하 상태: 화염 원소 대미지 #1[f1]% 증가"
+        brief: "과부하 상태: 화염 원소 대미지 증가"
+        icon: Skill_Nagative_Skill03
+        maxLv: 6
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3705"
+        name: 화톳불
+        info: "과부하 상태: 필살기가 적에게 명중할 때마다, 자신의 SP를 #1[f1] 회복하고. 필살기의 화염 원소 대미지가 #2[f2]%
+          증가한다."
+        brief: "과부하 상태: 필살기로 가하는 화염 원소 대미지가 증가하고 적에게 적중 시 SP를 회복한다"
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 0.5
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 0.3
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "373"
+    name: 홍련 섬광
+    info: "적의 공격을 빠르게 회피하며 연속으로 2회 회피할 수 있다.\\n<color=#23B2E2FF>홍련 섬광: 극한 회피 시, 필살기의
+      재사용 대기시간이 5초 감소한다. 다시 공격 버튼을 누르면 타깃에게 돌진해 공격력 100%의 물리 대미지+450%의 화염 원소
+      대미지+150%의 물리 대미지를 준다. 재사용 대기시간: 15초</color>"
+    icon: Skill_Himeko_SD_003
+    skillType: evasion
+    tags:
+      - type: heavy-atk
+        strength: 1
+        comment: "QTE는 강격이다. 축적 능력: 중"
+      - type: ignite
+        strength: 1
+        comment: "QTE로 연소 축적 가능. 축적 능력: 약"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3706"
+        name: 유염 장갑
+        info: "홍련 섬광의 재사용 대기시간 #1[f1]초 감소"
+        brief: 홍련 섬광 재사용 대기시간 감소
+        icon: Skill_Nagative_Skill01
+        maxLv: 37
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05556
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3707"
+        name: 연소 폭발
+        info: 홍련 섬광이 적에게 적중 시, 적에게 <color=#FEDF4CFF>연소 게이지를 6pt 누적한다.</color>
+        brief: 홍련 섬광이 적에게 적중 시, 연소 게이지를 누적한다.
+        icon: Skill_Nagative_Skill01
+        maxLv: 8
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.42857
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 2
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: false
+        unlockStar: s
+      - id: "3715"
+        name: <color=#FFC741FF>QTE</color> - 솔라 임팩트
+        info: "출전: 기본 공격 제1격. QTE: 적이 시공 감속 상태일 때 발동한다. 공격력 #1[f1]%의 화염 원소 대미지+공격력
+          2*150%의 화염 원소 대미지+공격력 200%의 물리 대미지를 가하고, 주변 적에게 <color=#FEDF4CFF>연소
+          게이지를 6pt 누적한다.</color>"
+        brief: "교대기: 기본 공격 제1격, 적이 시공 감속 상태일 때 QTE 출전, 대량의 화염 원소 대미지와 물리 대미지를 가하고 주변 적에게
+          연소 게이지를 누적한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 6
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 2
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: true
+        unlockStar: s
+  - id: "374"
+    name: 영겁의 불꽃
+    info: "모든 것을 불태우는 대검으로 파멸의 일격을 가한다, 공격이 끝나면 과부하 상태를 해제한다\\n<color=#23B2E2FF>필살기
+      스택은 4회 충전할 수 있으며, 필살기를 발동할 때마다 스택을 1 소모한다. 스택이 0이 아닐 때, 필살기 종료 전에 필살기를
+      사용하면 연속으로 필살기를 시전할 수 있다.\\n1단: 2*(공격력 250%의 화염 원소 대미지+50%의 물리 대미지)+400%의
+      화염 원소 대미지+50%의 물리 대미지\\n2단: 2*(공격력 200%의 화염 원소 대미지+50%의 물리 대미지)+350%의 화염
+      원소 대미지+100%의 물리 대미지+1000%의 화염 원소 대미지를 입힌다.\\n발동 소모 SP: 30, 재사용 대기시간:
+      30초</color>"
+    icon: Skill_Himeko_SD_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "필살기는 강격이다. 축적 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3708"
+        name: 비등
+        info: "SP를 소모해 필살기를 발동할 때마다 화염 원소 대미지가 #1[f1]% 증가한다. 최대 2회 중첩할 수 있으며 필살기가 끝날 때까지
+          지속된다"
+        brief: 필살기 사용 후 일정 시간 동안 화염 원소 대미지가 증가한다, 최대 2회 중첩
+        icon: Skill_Nagative_Damage03
+        maxLv: 4
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "3709"
+        name: 홍염 연옥
+        info: "필살기가 적에게 적중 시, 추가로 총 공격력 #1[f1]%의 화염 원소 대미지를 가하고 <color=#FEDF4CFF>연소 게이지를
+          10pt 누적한다.</color>"
+        brief: 필살기가 적에게 적중 시, 연소 게이지를 누적한다.
+        icon: Skill_Nagative_Skill01
+        maxLv: 8
+        paramBase1: 0.8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 2
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: false
+        unlockStar: s
+      - id: "3714"
+        name: 발화 장전
+        info: "차지 공격 사용 후, 과부하 상태에 진입하지 않았다면 필살기의 재사용 대기시간이 #1[f1]초 감소한다."
+        brief: 차지 공격 사용 후 과부하 상태에 진입하지 않았다면 필살기의 재사용 대기시간이 감소한다
+        icon: Skill_Nagative_Skill02
+        maxLv: 15
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.21429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "375"
+    name: 진홍의 자국
+    info: "리더로 배치 시, 파티원이 버프를 받는다.\\n<color=#23B2E2FF>리더 스킬: {{파티원의 출전 스킬, QTE가 가하는
+      모든 대미지가 #1[i]%, 필살기가 가하는 모든 대미지가 #2[i]% 증가한다. 파티원의 속성이 모두 다를 경우 화염 원소 대미지가
+      #3[f1]% 증가한다}}</color>"
+    icon: Skill_Himeko_SD_005
+    skillType: leader
+    tags: []
+    paramSubId1: 3710
+    paramSubId2: 3710
+    paramSubId3: 3710
+    subSkills:
+      - id: "3710"
+        name: 진홍의 자국
+        info: "파티원의 교대기, QTE의 모든 대미지가 #1[i]%, 필살기의 모든 대미지가 #2[i]% 증가한다. 파티원의 속성이 모두 다를
+          경우 화염 원소 대미지가 #3[f1]% 증가한다."
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.2
+        paramBase2: 0.2
+        paramBase3: 0.3
+        paramAdd1: 0.025
+        paramAdd2: 0.025
+        paramAdd3: 0.015
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "376"
+    name: 패시브 스킬
+    info: "패시브 스킬은 자동으로 발동된다.\\n<color=#23B2E2FF>과부하 상태: 차지 공격 사용 불가, 연속 2번 회피 불가,
+      기본 공격 시 SP 회복 불가, 필살기 사용 후 과부하 상태 해제</color>"
+    icon: Skill_Himeko_SD_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3711"
+        name: 융식
+        info: "연소 상태의 적을 공격 시 화염 원소 대미지가 #1[f1]% 증가한다."
+        brief: 연소 상태의 적에게 가하는 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 25
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3712"
+        name: 연소
+        info: "콤보수가 1 오를 때마다, 화염 원소 대미지 #1[f1]% 증가한다. 최대 #2[f1]%까지 증가할 수 있다."
+        brief: 콤보수가 높을수록 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 0.002
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.002
+        paramAdd2: 0.1
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3713"
+        name: 뙤약볕
+        info: "콤보수가 30/50을 초과하면, 받는 간접 대미지가 #1[f1]%/#2[f1]% 감소한다."
+        brief: 콤보수가 30/50을 넘으면 받는 간접 대미지가 감소한다
+        icon: Skill_Nagative_Survive03
+        maxLv: 8
+        paramBase1: 0.1
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.02857
+        paramAdd2: 0.02857
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

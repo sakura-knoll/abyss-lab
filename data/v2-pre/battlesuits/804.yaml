@@ -1,0 +1,333 @@
+id: "804"
+fullName: 천원기사
+shortName: 천원기사
+desc: <color=white>특징:</color> <color=#F3DFAEFF>허수 속성</color>의 근거리 전투형 캐릭터
+firstName: 듀란달
+lastName: null
+enFirstName: Durandal
+enLastName: null
+attributeType: img
+isEasterner: true
+weapon: lance
+character: durandal
+initialStar: s
+tags:
+  - physical-dmg
+  - time-mastery
+skills:
+  - id: "731"
+    name: 불멸의 카스라나
+    info: "랜스와 방패로 전투한다.\\n<color=#23B2E3FF>제1격: 공격력 150%+200%의 물리 대미지를 가한다.\\n제2격:
+      공격력 220%의 물리 대미지를 가한다.\\n제3격: 공격력 8*80%의 물리 대미지를 가하고, 짧은 시간 주변 적을
+      끌어당긴다.\\n제4격: 공격력 300%의 물리 대미지를 가한다.\\n\\n하이퍼 에너지가 가득 찼을 때, 기본 공격 버튼을 길게
+      누르면 차지 공격 [천원패참]을 발동한다: 3초간 전체 시공 단열을 발동하고, 공격력 300%+300%+200%+1200%의 물리
+      대미지를 가한다.\\n[방패 돌격]: 공격력 150%의 물리 대미지를 가한다.\\n[올려베기]: 공격력 750%의 물리 대미지를
+      가한다.</color>"
+    icon: Skill_Durandal_C4_DK_731_Knight
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7301"
+        name: 모두의 방패
+        info: "위병 형태에서 극한 회피 발동 시 SP를 #1[i]pt 회복한다."
+        brief: 위병 형태에서 극한 회피 발동 시 SP를 회복한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.8
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7302"
+        name: 키메라의 유산
+        info: "[천원패참]의 마지막 일격이 공격력 #1[f1]%의 물리 대미지를 추가로 가한다."
+        brief: "[천원패참]의 마지막 일격이 물리 대미지가 추가된다."
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.4
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7303"
+        name: 최초의 성흔
+        info: "[천원패참]의 크리티컬률이 #1[f1]%, 모든 대미지가 #2[f1]% 증가한다."
+        brief: "[천원패참]의 크리티컬률과 모든 대미지가 증가한다."
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.015
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "732"
+    name: 영광의 샤니아트
+    info: "검은색 슈트를 전투마로 변형시켜 라이드 형태로 전투한다.\\n<color=#23B2E4FF>제1격: 공격력 150%+200%의 물리
+      대미지를 가한다.\\n제2격: 공격력 3*120%의 물리 대미지를 가한다.\\n제3격: 공격력 400%의 물리 대미지를
+      가한다.\\n제4격: 공격력 600%의 물리 대미지를 가한다.\\n\\n[질주 상태]에서 회피 버튼을 누르면 [짓밟기]를 연계하고,
+      공격 버튼을 길게 누르면 [돌진]을 연계하며, [돌진] 상태에서 공격 버튼을 떼면 [정예의 예격]을 발동한다.\\n[짓밟기]: 공격력
+      350%의 물리 대미지를 가하고, 주변의 적을 끌어당기며, 공격 버튼을 길게 눌러 [돌진]과 연계할 수 있다.\\n[돌진]: 총
+      공격력 N*110%의 물리 대미지를 가하며(N: 명중 횟수, 10회 제한), 적에게 적중 시 하이퍼 에너지를 소모한다.\\n[정예의
+      예격]: 공격력 800%의 물리 대미지를 가한다.\\n[짓밟기] [돌진] [정예의 예격] 모두 차지 공격에 속하며, 강직과 슈퍼 아머
+      효과를 보유하고 있다.\\n\\n느린 걸음: 모바일-왼쪽 레버를 살짝 밀기, PC-쉬프트키를 누른 상태로 방향키
+      입력.</color>"
+    icon: Skill_Durandal_C4_DK_732
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7304"
+        name: 발키리의 질주
+        info: "[정예의 예격]이 공격력 #1[f1]%의 물리 대미지를 추가로 가한다."
+        brief: "[정예의 예격]이 물리 대미지를 추가로 가한다."
+        icon: Skill_Nagative_Survive03
+        maxLv: 6
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.4
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7305"
+        name: 발키리의 전승
+        info: "[돌진] [정예의 예격]의 모든 대미지가 #1[f1]%, 크리티컬률이 #2[f1]%, 크리티컬 대미지가 #3[f1]% 증가한다."
+        brief: "[돌진] [정예의 예격]의 모든 대미지, 크리티컬률, 크리티컬 대미지가 증가한다."
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.3
+        paramBase2: 0.5
+        paramBase3: 0.3
+        paramAdd1: 0.03
+        paramAdd2: 0.05
+        paramAdd3: 0.03
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7306"
+        name: 발키리의 영광
+        info: "[돌진] 공격마다 공격력 #1[f1]%의 물리 대미지를 추가로 가한다."
+        brief: "[돌진] 공격마다 물리 대미지를 추가로 가한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "733"
+    name: 이율배반의 대립
+    info: "위병 형태는 방어, 기사 형태는 회피이다.\\n<color=#23B2E5FF>[극한 회피 스킬]: 2초간 전체 시공 단열을
+      발동하고, 하이퍼 에너지를 가득 채운다, 재사용 대기시간: 15초\\n\\n위병 형태: 후방 회피는 [방어], 전방 회피는 [방패
+      돌격]이다.\\n[방어] 기간 피격 및 [방패 돌격]이 적에게 적중 시, [방어 반격]을 발동해 적의 공격을 무효화하고, 공격력
+      120%의 물리 대미지를 가하며, 극한 회피 스킬을 발동할 수 있다. 또한, [방패 돌격]도 극한 회피 스킬을 발동할 수
+      있다.\\n[방어 반격] 발동 후 기본 공격 버튼을 누르면 [올려베기]를 연계할 수 있으며, 극한 회피 스킬을 발동했다면
+      [천원패참]을 연계할 수 있다.\\n\\n기사 형태: 회피로 극한 회피 스킬을 발동할 수 있다.(밟기는 극한 회피 스킬 발동 불가).
+      극한 회피 스킬을 발동했을 때, 방향키를 입력하면 질주 상태를 연계할 수 있으며, 회피 버튼을 1회 눌러 [짓밟기]를, 공격 버튼을
+      길게 눌러 [돌진]을 연계할 수 있다.</color>"
+    icon: Skill_Durandal_C4_DK_733_Knight
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7307"
+        name: <color=#FFC741FF>QTE</color>-대칭 깨짐
+        info: "QTE: 적이 시공 감속 또는 띄워진 상태일 때 발동한다. 기사 형태로 출전해 2초간 전체 시공 단열을 발동하고, 공격력
+          #1[f1]%의 물리 대미지를 가한다."
+        brief: "QTE: 적이 시공 감속 또는 띄워진 상태일 때 발동한다. 기사 형태로 출전해 전체 시공 단열을 발동하고, 물리 대미지를
+          가한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 11
+        paramBase1: 8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "7308"
+        name: 나로서 존재한다
+        info: "전투 중 초기 SP가 #1[i]pt 증가하며, 오픈 월드에서는 10분에 한 번씩 발동한다."
+        brief: 전투 중 초기 SP가 증가한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+      - id: "7309"
+        name: 모순의 나선
+        info: "천원기사의 모든 대미지가 #1[f1]% 증가한다."
+        brief: 천원기사의 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 1
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "734"
+    name: 천원행진곡
+    info: "전투마에 올라탄 후 속도를 극한까지 끌어올려 목표에게 대량의 대미지를 가하는 필살기이다.\\n<color=#23B2E6FF>짧게
+      누르기: 형태를 전환한다. 기사 형태에서 위병 형태로 전환 시 [방패 돌격] 효과를 획득하고, 위병 형태에서 기사 형태로 전환 시
+      [극한 회피 스킬] 직접 발동 효과를 획득한다.\\n\\n길게 누르기:\\n이율배반 성흔의 힘을 하나로 모은 후 모순의 나선 저편에서
+      천지를 뒤바꾸는 일격을 날려 넓은 범위의 적에게 공격력 2000%의 물리 대미지를 가한다. 그 기간, 캐릭터가 정체 영역 효과를
+      발동해 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다.\\n\\n소모 SP: 100, 재사용 대기시간:
+      20초</color>"
+    icon: Skill_Durandal_C4_DK_734
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7310"
+        name: 율자 킬러
+        info: "필살기가 허수 속성 적에게 적중 시, [허무의 껍데기]가 받은 대미지가 #1[f1]%의 비율로 [허무의 씨앗]에 전이된다(HP 감소
+          효과)."
+        brief: 필살기가 허수 속성 적에게 적중 시, [허무의 껍데기]가 받은 대미지가 일정 비율로 [허무의 씨앗]에 전이된다(HP 감소 효과).
+        icon: Skill_Nagative_Damage02
+        maxLv: 4
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.33333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7311"
+        name: 불을 쫓는 메아리
+        info: "필살기가 가하는 모든 대미지가 #1[f1]%, 크리티컬률이 100% 증가한다."
+        brief: 필살기가 가하는 모든 대미지가 증가하고, 크리티컬률이 100% 증가한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 10
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02778
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "735"
+    name: 성휘 기사의 여정
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E7FF>리더 스킬: {{파티원의 물리 대미지가
+      #1[f1]%, 무기 스킬 크리티컬률이 #2[f1]% 증가한다.}}</color>"
+    icon: Skill_Durandal_C4_DK_735
+    skillType: leader
+    tags: []
+    paramSubId1: 7313
+    paramSubId2: 7313
+    paramSubId3: 0
+    subSkills:
+      - id: "7313"
+        name: 성휘 기사의 여정
+        info: "파티원의 물리 대미지가 #1[f1]%, 무기 스킬 크리티컬률이 #2[f1]% 증가한다."
+        brief: 파티원의 물리 대미지와 무기 스킬 크리티컬률이 증가한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.24
+        paramBase2: 0.33
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "736"
+    name: 기사의 아리아
+    info: "패시브 스킬은 자동으로 발동된다.\\n<color=#23B2E8FF>[하이퍼 에너지]\\n최대치: 300, 시간에 따라 점차
+      회복하며, 무기 스킬 사용 시 50 회복한다. 기사 형태에서 천원기사가 이동 시 하이퍼 에너지는 빠르게 회복되고, 가득 차면 [질주
+      상태]에 진입한다.\\n천원기사가 형태 전환 및 전장에서 이탈 시 [하이퍼 에너지]는 리셋된다.</color>"
+    icon: Skill_Durandal_C4_DK_736
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7314"
+        name: 게니우스
+        info: "형태 전환 시, 극한 회피 스킬의 재사용 대기시간을 리셋한다. 매 #1[i]초 1회 발동할 수 있다."
+        brief: 형태 전환 시, 극한 회피 스킬의 재사용 대기시간을 리셋한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 2
+        paramBase1: 12
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: -4
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7315"
+        name: 수미개자
+        info: "무기 스킬의 물리 대미지가 #1[f1]%, 크리티컬 대미지가 #2[f1]% 증가한다."
+        brief: 무기 스킬의 물리 대미지와 크리티컬 대미지가 증가한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 0.01111
+        paramAdd2: 0.01667
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7316"
+        name: 성검의 축복
+        info: "적이 천원기사에게 받는 물리 대미지가 #1[f1]% 증가한다(독립적인 효과)."
+        brief: 적이 천원기사에게 받는 물리 대미지가 증가한다(독립적인 효과).
+        icon: Skill_Nagative_Damage03
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

@@ -1,0 +1,326 @@
+id: "711"
+fullName: 환해의 꿈나비
+shortName: 환해의 꿈나비
+desc: <color=white>특징:</color> <color=#AE98FFFF>양자 속성</color> 근거리 전투형 캐릭터. 암영의
+  힘을 일시적으로 획득해, 암영 게이지를 소모하여 넒은 범위에 공격을 가한다
+firstName: 제레
+lastName: 발레리
+enFirstName: Seele
+enLastName: Vollerei
+attributeType: qua
+isEasterner: false
+weapon: scythe
+character: seele
+initialStar: a
+tags:
+  - physical-dmg
+  - burst
+skills:
+  - id: "441"
+    name: 환영의 낫
+    info: "낫을 휘둘러 적을 5회 공격한다\\n<color=#23B2E2FF>1격: 공격력 100%의 물리 대미지\\n2격: 공격력
+      80%+100%의 물리 대미지\\n3격: 공격력 2*60%+120%의 물리 대미지\\n4격: 공격력 120%+160%의 물리
+      대미지\\n5격: 공격력 2*80%+240%의 물리 대미지\\n기본 5연격이 적에게 명중할 때마다 암영 게이지를 15pt
+      회복한다</color>"
+    icon: Skill_Seele_QT_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4401"
+        name: 고요한 칼날
+        info: "기본 5연격의 암영 회복량 #1[i]pt로 증가"
+        brief: 기본 5연격의 암영 회복량이 증가한다
+        icon: Skill_Nagative_Skill01
+        maxLv: 10
+        paramBase1: 22
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.44667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "4402"
+        name: 암조
+        info: "5연격이 크리티컬 시 자신의 HP를 #1[f1]pt 회복한다, 재사용 대기시간: #2[f1]초"
+        brief: 5연격이 크리티컬 시 HP를 회복한다
+        icon: Skill_Nagative_Survive02
+        maxLv: 35
+        paramBase1: 50
+        paramBase2: 7
+        paramBase3: 0
+        paramAdd1: 3.23529
+        paramAdd2: -0.05882
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "442"
+    name: <color=#FFC741FF>차지</color>-나비의 물결
+    info: 5연격 도중 차지 공격을 발동할 수 있다.\n<color=#23B2E2FF>기본 공격 5연격 도중 공격 버튼을 꾸욱 누르면 암영치를
+      250pt 소모해 적에게 공격력 4*150%의 물리 대미지를 입힌다</color>
+    icon: Skill_Seele_QT_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4403"
+        name: 에너지 흐름
+        info: "차지 공격 시 추가로 자신의 SP를 #1[f1]pt 회복한다"
+        brief: 차지 공격 시 자신의 SP를 회복한다
+        icon: Skill_Nagative_Skill02
+        maxLv: 7
+        paramBase1: 7
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "4404"
+        name: 입자 파동
+        info: "차지 공격은 적을 파동 상태로 만들어, 이동 속도를 40% 감소시키고 환해의 꿈나비에게 받는 모든 대미지를 #1[f1]%
+          증가시킨다(해당 효과는 독립적인 추가 효과다). 지속 시간: 6초"
+        brief: 차지 공격이 파동 상태를 부여해 감속시키고 환해의 꿈나비에게 받는 모든 피해를 증가시킨다
+        icon: Skill_Nagative_Damage02
+        maxLv: 24
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00652
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "4405"
+        name: <color=#FFC741FF>QTE</color>-섭혼
+        info: "QTE: 적이 시공 감속 상태일 때 발동하여 공격력 4*200%의 물리 대미지를 입힌다. 적에게 명중 시 암영치를 #1[i]pt
+          회복하고 추가로 SP를 #2[f1]pt 회복 후 위상 워프 상태에 진입한다"
+        brief: "QTE: 시공 감속 상태일 때 QTE 발동, 암영치와 SP를 회복하고, 위상 전이 상태에 진입한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 16
+        paramBase1: 180
+        paramBase2: 4
+        paramBase3: 0
+        paramAdd1: 4.66733
+        paramAdd2: 0.26667
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+  - id: "443"
+    name: 블링크
+    info: "빠르게 적의 공격을 회피하며 연속으로 2회 회피할 수 있다.\\n<color=#23B2E2FF>극한 회피 시 암영 게이지를 30pt
+      회복한다\\n이계 워프: 극한 회피 후 일반 상태에서 위상 워프 상태에 진입하고 기본 공격의 4번째 공격을 바로 시전할 수 있다.
+      위상 워프는 3초간 지속되고 적에게 받는 모든 대미지가 20% 감소하며 적을 관통하며 이동할 수 있다. 폭발 상태에서는 추가로 자신의
+      암영 게이지를 30pt 회복하고 적을 꿰뚫는 특수한 공격으로 적에게 공격력 2*60%+2*100%+480%의 물리 대미지를 가하고
+      암영 파동 상태를 부여하여 이동 속도를 40% 감소시킨다. 재사용 대기시간: 15초\\n파동 상태는 폭발 상태의 지속 시간이 끝날
+      때까지 암영 파동 상태로 대체된다. 지속 시간 6초</color>"
+    icon: Skill_Seele_QT_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4406"
+        name: 양자의 몸
+        info: "극한 회피 시 암영치를 #1[i]pt까지 회복하고 이계 워프의 재사용 대기시간이 #2[f1]초 감소한다"
+        brief: 극한 회피 시 더 많은 암영치를 회복하고 재사용 대기시간이 감소한다
+        icon: Skill_Nagative_Skill02
+        maxLv: 18
+        paramBase1: 100
+        paramBase2: 6
+        paramBase3: 0
+        paramAdd1: 1.17765
+        paramAdd2: 0.11765
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "4407"
+        name: 터널 효과
+        info: "위상 워프 상태의 지속 시간이 #1[f1]초까지 증가하고 대미지 감소량이 #2[f1]%까지 증가한다"
+        brief: 위상 워프의 지속 시간이 증가하고 피해 감소량이 증가한다
+        icon: Skill_Nagative_Survive01
+        maxLv: 21
+        paramBase1: 3.5
+        paramBase2: 0.25
+        paramBase3: 0
+        paramAdd1: 0.125
+        paramAdd2: 0.0075
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "4408"
+        name: 은밀한 행적
+        info: "위상 워프 상태 시간 동안 자신이 가하는 물리 대미지가 #1[f1]% 증가하고, 공격 시 획득하는 SP가 #2[f1]% 증가한다"
+        brief: 위상 워프 기간 물리 대미지가 증가하고 획득하는 SP가 증가한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 20
+        paramBase1: 0.15
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0.00526
+        paramAdd2: 0.00526
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "444"
+    name: 암영격류
+    info: "일시적으로 암영 형태의 힘을 얻어 폭발 상태에 진입한다\\n<color=#23B2E2FF>다단 관통 공격으로 공격력 6*150%의
+      물리 피해를 입히고 암영 형태의 힘을 얻어 공격력 2*200%+600%의 물리 대미지와 함께 폭발 상태에 진입해, 즉시 암영 게이지
+      250을 회복한다.\\n마지막 일격은 적을 암영 파동 상태에 빠뜨리고, 양자 속성의 적은 양자 붕괴시킨다.\\n폭발 상태에서 5연격
+      대미지는 두 배 증가, 받는 피해는 50% 감소하며, 5연격 중 공격 버튼을 길게 누르면 즉시 회피 횟수를 소모해 특수 관통 공격을
+      펼치고 이계 워프를 발동한다.\\n0.5초마다 암영 게이지가 30 감소하며 모두 소진하거나 최대 18초 지속 후 해제된다.\\n재사용
+      대기시간: 25초, SP 소모: 125</color>"
+    icon: Skill_Seele_QT_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 3
+        comment: "필살기 가동 후의 마지막 일격은 강격이다. 축적 능력: 강"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4409"
+        name: 스칼렛 웨이브
+        info: "폭발 상태에서 적을 처치하면 바로 특수 관통 공격을 펼치고 피격된 적을 암영 파동 상태로 만들어 적이 환해의 꿈나비에게 받는 모든
+          대미지를 #1[f1]% 증가시킨다(해당 효과는 독립적인 추가 효과다)"
+        brief: 폭발 상태에서 적을 처치 시 특수 관통 공격으로 암영 파동 상태로 만들어 환해의 꿈나비에게 받는 피해를 증가시킨다
+        icon: Skill_Nagative_Damage03
+        maxLv: 22
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00952
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "4410"
+        name: 불길한 그림자
+        info: "폭발 상태에서 이계 워프를 발동 시 암영 게이지의 회복량이 #1[i]pt까지 증가한다"
+        brief: 폭발 상태에 이계 워프 시 더 많은 암영치를 회복한다
+        icon: Skill_Nagative_Skill03
+        maxLv: 13
+        paramBase1: 140
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 3.33417
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "4411"
+        name: 유령의 그림자
+        info: "폭발 상태에서 자신의 물리 대미지가 #1[f1]% 증가하고 적을 관통하는 특수한 공격의 마지막 타격의 물리 대미지가 공격력
+          #2[f1]% 만큼 증가한다"
+        brief: 폭발 상태에서의 물리 대미지가 증가하고 특수 관통 공격의 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 27
+        paramBase1: 0.2
+        paramBase2: 0.9
+        paramBase3: 0
+        paramAdd1: 0.00577
+        paramAdd2: 0.03462
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "445"
+    name: 감해의 정령
+    info: "리더로 배치 시 모든 파티원이 버프를 받는다\\n<color=#23B2E2FF>감해의 정령: {{모든 파티원의 폭발 상태에서의
+      크리티컬률 #1[i]% 증가, 파티 내에 브로냐가 있으면 모든 캐릭터의 모든 대미지 #2[i]% 증가}}</color>"
+    icon: Skill_Seele_QT_005
+    skillType: leader
+    tags: []
+    paramSubId1: 4412
+    paramSubId2: 4412
+    paramSubId3: 0
+    subSkills:
+      - id: "4412"
+        name: 감해의 정령
+        info: "모든 파티원의 폭발 상태에서 크리티컬률이 #1[i]% 증가한다, 파티 내에 브로냐가 있으면 모든 캐릭터의 모든 대미지 #2[i]%
+          증가한다"
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.16
+        paramBase2: 0.12
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "446"
+    name: 패시브 스킬
+    info: "패시브 스킬은 자동으로 발동된다\\n<color=#23B2E2FF>암영치: 최대치 500pt</color>"
+    icon: Skill_Seele_QT_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4413"
+        name: 나비의 춤
+        info: "취약 상태의 적을 공격 시 모든 대미지가 #1[f1]% 증가한다"
+        brief: 취약 상태의 적에게 가하는 모든 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4414"
+        name: 환해 소녀
+        info: "콤보수 10/30/50 달성 시 자신의 크리티컬 대미지가 #1[f2]%/#2[f2]%/#3[f2]% 증가한다"
+        brief: 콤보수가 높을수록 크리티컬 대미지가 증가한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0.2
+        paramBase3: 0.3
+        paramAdd1: 0.01111
+        paramAdd2: 0.02222
+        paramAdd3: 0.03333
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "4415"
+        name: 존재 흡수
+        info: "적 처치 시 자신의 암영치를 #1[f1]pt 회복한다"
+        brief: 적 처치 시 암영치를 회복한다
+        icon: Skill_Nagative_Skill01
+        maxLv: 10
+        paramBase1: 100
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 5.55667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a

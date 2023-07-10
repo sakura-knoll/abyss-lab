@@ -1,0 +1,387 @@
+id: "202"
+fullName: 그림자의 춤
+shortName: 그림자의 춤
+desc: <color=white>특징:</color> <color=#2CE3FFFF>기계 속성</color>의 근거리 전투형 캐릭터. 다양한
+  이동기를 보유하고 있으며, 생존에 특화되어있다.
+firstName: 메이
+lastName: 라이덴
+enFirstName: Mei
+enLastName: Raiden
+attributeType: mech
+isEasterner: true
+weapon: katana
+character: mei
+initialStar: a
+tags:
+  - physical-dmg
+  - fast-atk
+skills:
+  - id: "61"
+    name: 오연참·결
+    info: "일정 범위 5연속 베기\\n<color=#23B2E2FF>1격: 공격력 80%의 물리 대미지\\n2격: 공격력 80%의 물리
+      대미지\\n3격: 공격력 100%의 물리 대미지\\n4격: 공격력 100%의 물리 대미지\\n5격: 주변 범위에 공격력 250%의
+      물리 대미지</color>"
+    icon: Skill_Mei_CK_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "601"
+        name: 무한의 결계
+        info: "기본 공격의 검기 범위를 크게 증가시키고, 기본/분기 공격의 타격마다 물리 대미지가 #1[i] 증가한다"
+        brief: 기본 공격의 검기 공격 범위가 눈에 띄게 증가한다, 기본 공격은 적에게 추가 물리 피해를 줄 수 있다
+        icon: Skill_Nagative_Damage01
+        maxLv: 70
+        paramBase1: 11
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1.5942
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "602"
+        name: 염력의 결계
+        info: "기본/분기 공격의 크리티컬 대미지 #1[f1]% 증가"
+        brief: 기본 공격과 분기 공격의 크리티컬 대미지가 증가한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 40
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00769
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "62"
+    name: <color=#FFC741FF>분기 공격</color> - 그림자 베기
+    info: "빠르게 적에게 돌격하여 적을 띄운다.\\n<color=#23B2E2FF>돌격 베기: 공격력의 180% 물리 대미지를 입히고 적을
+      공중에 띄운다.</color>"
+    icon: Skill_Mei_WS_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "603"
+        name: <color=#FFC741FF>교대기</color> - 무영검
+        info: "교대 시 적을 쳐올려서 공격력 180%의 물리 대미지를 입힌다. 공중에 뜬 적에게 추가로 공격력 #1[i]%*2의 물리 대미지를
+          입힌다"
+        brief: 출전 시 올려베기로 적에게 물리 피해를 줄 수 있고 공중에 띄워진 적에게 추가 물리 피해를 줄 수 있다
+        icon: Skill_Nagative_StartUp03
+        maxLv: 60
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02542
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "604"
+        name: 칼날 끝의 혼
+        info: "분기 공격 또는 교대기를 발동한 후 공격 버튼을 누르면 주변의 적에게 가로 베기를 시전하여 공격력의 #1[i]%*4 범위 물리
+          대미지를 입힌다."
+        brief: 그림자 베기 후 가로베기를 발동하여 물리 피해를 준다
+        icon: Skill_Nagative_Skill02
+        maxLv: 25
+        paramBase1: 0.45
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01042
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+      - id: "605"
+        name: <color=#FFC741FF>QTE</color> - 칼날의 그림자
+        info: "QTE: 적이 기절 상태일 때 발동. 공격력 220%+4*#1[i]%의 물리 대미지를 입힌다."
+        brief: "QTE: 적이 기절 상태일 때 QTE가 발동하며, 범위 물리 대미지를 가한다."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 30
+        paramBase1: 0.8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02759
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+  - id: "63"
+    name: 질주하는 바람
+    info: "빠르게 대시하여 적의 공격을 회피한다.\\n<color=#23B2E2FF>분신술: 극한 회피 시 발동, 분신[소환물]이 5초 동안
+      캐릭터 공격력의 25%를 이어받아 함께 싸운다. 재사용 대기시간: 10초. 회피 시 소환되는 분신은 하나만 존재할 수
+      있다</color>"
+    icon: Skill_Mei_WS_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "606"
+        name: 잔영
+        info: "회피로 소환된 분신이 캐릭터 공격력의 #2[i]%를 이어받고 유지 시간이 #1[f1]초가 된다."
+        brief: 회피로 소환된 분신의 공격력이 증가하고 유지 시간이 늘어난다
+        icon: Skill_Nagative_Damage03
+        maxLv: 20
+        paramBase1: 5.1
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0.01579
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "607"
+        name: 예리한 칼날
+        info: "회피 후 공격 버튼을 누르면 그림자 베기를 발동한다. 회피 후 그림자 베기의 크리티컬률이 1.5초 동안 #1[i]% 증가한다.
+          재사용 대기시간 #2[f1]초"
+        brief: 회피 후 공격 버튼을 누르면 그림자 베기를 발동할 수 있고 그림자 베기의 크리티컬률이 잠깐 증가한다
+        icon: Skill_Nagative_Skill01
+        maxLv: 20
+        paramBase1: 0.5
+        paramBase2: 10
+        paramBase3: 0
+        paramAdd1: 0.01053
+        paramAdd2: -0.31579
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "608"
+        name: 그림자 끝의 칼날
+        info: "극한 회피 효과 발동 가능 횟수 #1[i]회 추가, 재사용 대기시간 #2[f1]초 감소"
+        brief: 극한 회피 효과 발동 회수가 증가하고 재사용 대기시간이 감소한다
+        icon: Skill_Nagative_Survive03
+        maxLv: 14
+        paramBase1: 1
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.07692
+        paramAdd2: 0.1
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "64"
+    name: 츠쿠요미
+    info: "궁극 분신을 소환하여 함께 싸운다.\\n<color=#23B2E2FF>궁극 분신[소환물]: 캐릭터 HP를 50%, 공격력과 회심치를
+      100% 이어받은 분신을 소환한다. 분신의 HP가 매초마다 자신의 최대 HP 10%씩 소모되며 물리 대미지를 입지 않는다.\\n발동
+      소모 SP: 75</color>"
+    icon: Skill_Mei_WS_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "609"
+        name: 그림자 검술
+        info: "궁극 분신의 HP가 캐릭터 HP 최대치의 #2[f1]%를 이어받고, 매초마다 소모되는 HP 비율이 최대치의 #1[f1]%로
+          감소한다."
+        brief: 궁극 분신의 HP와 유지 시간이 증가한다
+        icon: Skill_Nagative_Survive01
+        maxLv: 15
+        paramBase1: 0.095
+        paramBase2: 0.55
+        paramBase3: 0
+        paramAdd1: -0.00179
+        paramAdd2: 0.01786
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "610"
+        name: 벚꽃잎 수리검
+        info: "궁극 분신이 사라질 때 폭발해 주변 적에게 공격력 #1[f1]%의 물리 대미지를 가하고 <color=#FEDF4CFF>마비 게이지를
+          6pt 누적한다.</color>"
+        brief: 궁극 분신이 사라질 때 폭발해 주변 적에게 물리 대미지를 가하고 마비 게이지를 누적한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 20
+        paramBase1: 1
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 0.10526
+        paramAdd2: 0.05263
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 2
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: false
+        unlockStar: a
+      - id: "611"
+        name: 다중 환영 분신술
+        info: "궁극 분신의 수가 #1[i]체로 증가하지만, 공격력은 #2[i]%만 이어받는다."
+        brief: 궁극 분신의 수량이 증가하지만 공격력이 감소한다
+        icon: Skill_Nagative_Skill03
+        maxLv: 5
+        paramBase1: 2
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.025
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "65"
+    name: 이매망량
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>이매망량: {{모든 파티원의 HP가 최대치의
+      80%보다 많으면 크리티컬률이 #1[i]% 증가한다.}}</color>"
+    icon: Skill_Mei_CK_005
+    skillType: leader
+    tags: []
+    paramSubId1: 612
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "612"
+        name: 이매망량
+        info: "모든 파티원의 HP 비율이 80%보다 높을 때 크리티컬률이 #1[i]% 증가한다."
+        brief: 모든 캐릭터의 HP가 80%를 넘으면 크리티컬률이 증가한다
+        icon: Skill_Nagative_Survive01
+        maxLv: 3
+        paramBase1: 0.17
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "66"
+    name: 패시브 스킬
+    info: 패시브 스킬은 자동으로 발동한다.\n<color=#23B2E2FF></color>
+    icon: Skill_Mei_CK_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "613"
+        name: 배후 찌르기
+        info: "측후방에서 적을 공격 시 모든 대미지 #1[f1]% 증가"
+        brief: 측후방에서 적을 공격하면 모든 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 60
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00678
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "614"
+        name: 궁극의 에너지
+        info: "SP 최대치 #1[f1] 증가. 츠쿠요미가 추가로 10SP를 소모하여 궁극 분신을 3체 소환한다(다중 환영 분신술 습득 필요)"
+        brief: SP 최대치가 증가하고 츠쿠요미 발동 시 추가로 10 SP를 소모하여 더 많은 분신을 소환할 수 있다
+        icon: Skill_Nagative_Damage02
+        maxLv: 20
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1.05263
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "615"
+        name: 그림자 결계
+        info: "기절, 마비, 시공 감속 상태의 적을 공격 시 물리 대미지와 원소 대미지가 #1[f1]% 증가한다."
+        brief: 기절, 마비, 적에 띄워진 적을 공격 시 물리와 원소 대미지가 증가한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 30
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0069
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "521"
+    name: 신속오연참
+    info: "범위 5연속 베기\\n<color=#23B2E2FF>1식: 공격력 80%의 물리 대미지\\n2식: 공격력 100%의 물리 대미지,
+      무념 20pt 회복\\n3식: 공격력 50%의 물리 대미지, 무념 20pt 회복\\n4식: 공격력 150%의 물리 대미지, 무념
+      30pt 회복\\n5식: 공격력 250%의 범위 물리 대미지, 무념 30pt 회복. 5식 시전 중 중단돼도 분신으로 이어서 완료할 수
+      있다</color>"
+    icon: Skill_Mei_C3_Artifact_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "522"
+    name: <color=#FFC741FF>분기 공격</color>-진영섬
+    info: 분신이 적의 위치에서 나타나 대량의 대미지를 가한다.\n<color=#23B2E2FF>분신이 적의 위치에서 나타나 큰 범위의 적에게
+      대미지를 가한다. 무념이 100pt보다 낮을 때 진영섬을 발동할 수 없으며, 200pt보다 낮을 때는 무념 100pt를 소모하고,
+      2개의 분신을 생성해 공격력 200%+200%%의 물리 대미지를 가한다. 무념이 200pt일 때 100pt를 소모하고 4개의 분신을
+      생성해 공격력 200%+250%의 물리 대미지를 가하며, 진영섬 1식 발동 후 다시 공격 버튼을 누르면 무념 100pt를 더 소모하고
+      진영섬 2식을 발동해 공격력 400%의 물리 대미지를 가한다</color>
+    icon: Skill_Mei_C3_Artifact_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "523"
+    name: 닿지 않는 밤의 벚꽃
+    info: "빠르게 대시해 적의 공격을 회피한다, 회피 후 공격 버튼을 누르면 앞으로 돌진해 공격력 100%의 물리 대미지를
+      가한다.\\n<color=#23B2E2FF>극한 회피는 무념 100pt를 회복한다.\\n반격술: 닿지 않는 밤의 벚꽃으로 적을
+      적중시킨 후 공격 버튼을 길게 누르면 그 즉시 진영섬을 발동하며, 진영섬 1식, 2식 모두 무념을 소모하지 않는다. 재사용 대기시간:
+      10초</color>"
+    icon: Skill_Mei_C3_Artifact_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "524"
+    name: 월야의 춤
+    info: "적을 연속 공격하고 분신을 생성해 싸운다.\\n<color=#23B2E2FF>목표에게 돌진해 공격력
+      100%+100%+150%+450%의 물리 대미지를 가하고, 착지 후 6개의 분신이 나타나 목표를 꿰뚫어 분신마다 공격력 200%의
+      물리 대미지를 가한다. 필살기 발동 후 진영을 3pt 획득하고, 진영섬 1식 발동 시 진영 1pt를 소모해 진영섬 1식, 2식의 모든
+      대미지를 50% 증가시킨다. 진영은 파티원과 공유하며 4.5초의 발동 간격이 있다.\\n소모 SP: 75, 재사용 대기시간:
+      20초</color>"
+    icon: Skill_Mei_C3_Artifact_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 1
+        comment: "낙하 공격은 강격이다. 축적 능력: 약"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "526"
+    name: 패시브 스킬
+    info: "패시브 스킬은 자동으로 발동한다.\\n<color=#23B2E2FF>무념: 초기 0pt, 최대 200pt. 무념은 기본 공격
+      2/3/4/5식, 극한 회피, 회피 공격 및 캐릭터 퇴장 후 회복한다</color>"
+    icon: Skill_Mei_C3_Artifact_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []

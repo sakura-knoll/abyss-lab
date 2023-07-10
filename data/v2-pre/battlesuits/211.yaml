@@ -1,0 +1,304 @@
+id: "211"
+fullName: 역신무녀
+shortName: 역신무녀
+desc: <color=white>특징:</color> <color=#FFAF2CFF>생물 속성</color>의
+  <color=#FFAF2CFF>영혼 각성</color> 근거리 전투형 캐릭터, 적에게 문양을 새기고, 그 문양을 지움으로써 대량의 대미지를
+  가한다.
+firstName: 사쿠라
+lastName: 야에
+enFirstName: Sakura
+enLastName: Yae
+attributeType: bio
+isEasterner: true
+weapon: katana
+character: sakura
+initialStar: a
+tags:
+  - physical-dmg
+  - bleed
+  - burst
+skills:
+  - id: "171"
+    name: 낙앵참
+    info: "빠른 속도의 6단 베기\\n<color=#23B2E2FF>1격: 공격력 50%의 물리 대미지\\n2격: 총 70%의 물리
+      대미지\\n3격: 공격력 100%의 물리 대미지\\n4격: 총 120%의 물리 대미지\\n5격: 공격력 120%의 대미지\\n6격:
+      공격력 150%의 물리 대미지\\n기본 공격 3번째, 5번째 공격은 적에게 붉은 벚꽃 카운터를 1개씩 쌓는다</color>"
+    icon: Skill_Sakura_YS_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1701"
+        name: 광화참렬
+        info: "피격된 적에게 #1[f1]%의 확률로 <color=#FEDF4CFF>출혈 게이지를 2pt 누적한다.</color>"
+        brief: 피격 시 일정 확률로 적에게 출혈 게이지를 누적한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 0.1
+        paramBase2: 3
+        paramBase3: 3
+        paramAdd1: 0.00345
+        paramAdd2: 1
+        paramAdd3: 0.06897
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "출혈 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+        toggle: false
+        unlockStar: a
+      - id: "1702"
+        name: 흩날리는 칼날
+        info: "콤보 수가 20, 50 이상일 때 모든 대미지가 각각 #1[f1]%, #2[f1]% 증가한다"
+        brief: 콤보수가 20, 50을 넘으면 모든 대미지가 증가한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 20
+        paramBase1: 0.1
+        paramBase2: 0.12
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "1703"
+        name: 흩날림
+        info: "자신이 남긴 붉은 벚꽃 표식의 지속 시간이 #1[f1]초로 연장된다. 기본 공격 5연격의 모든 대미지가 #2[f1]% 증가한다."
+        brief: 자신이 남긴 붉은 벚꽃 표식의 지속 시간이 증가하고 기본 공격의 모든 대미지가 증가한다
+        icon: Skill_Nagative_Skill03
+        maxLv: 10
+        paramBase1: 11
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0.01111
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "172"
+    name: <color=#FFC741FF>분기 공격</color> - 찰나의 섬광
+    info: "차지 일섬으로 한 명의 적을 꿰뚫고 지나가 대미지를 입힌다.\\n<color=#23B2E2FF>일섬: 공격력의 100% 물리
+      대미지\\n일섬으로 붉은 벚꽃 표식이 있는 적에게 적중 시 표식을 삭제하고 납도를 발동하여 공격력의 400% 물리 대미지를 입히고
+      적을 띄운다.</color>"
+    icon: Skill_Sakura_YS_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1704"
+        name: <color=#FFC741FF>QTE</color> - 영허삼섬
+        info: "교대기: 순간 베기 발동\\nQTE: 적이 띄워졌을 때 발동. 검기 3개를 방출해 매 검기마다 공격력 50%+#1[i]%의 물리
+          대미지를 입히고 붉은 벚꽃 카운터를 1개씩 쌓는다"
+        brief: "QTE: 적이 공중에 띄워졌을 때 QTE 발동 시, 검기 3개를 시전해 각각 물리 대미지를 가하며 붉은 벚꽃 카운터를 쌓는다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 70
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: b
+      - id: "1705"
+        name: 납도
+        info: 납도의 물리 대미지가 공격력의 400%+#1[i]%로 증가된다.
+        brief: 납도의 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 10
+        paramBase1: 0.6
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.6
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1706"
+        name: 이중섬신
+        info: "필드에 다수의 표식이 있는 적이 존재할 시 최대 #1[i]번의 일섬을 발동할 수 있다. (벚꽃 표식 1개당 한 번만 발동 가능)"
+        brief: 스테이지에 다수의 표식이 있는 적이 존재할 경우 일섬을 추가로 발동할 수 있다
+        icon: Skill_Nagative_Skill03
+        maxLv: 8
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.57143
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "173"
+    name: 습류참
+    info: "빠르게 대시하여 적의 공격을 회피한다.\\n<color=#23B2E2FF>자신 주변에 3개의 검기를 폭발시켜, 검기 하나당 공격력
+      10%의 물리 대미지를 입힌다.\\n습류참: 극한 회피 성공 시 발동하며 검기마다 벚꽃 카운터를 1개씩 쌓는다. 재사용 대기시간:
+      15초</color>"
+    icon: Skill_Sakura_YS_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1707"
+        name: 살의의 상처
+        info: "극한 회피 시 폭발하는 검기가 강화되어, 매 타격마다 공격력 #1[f1]%의 물리 대미지를 추가한다"
+        brief: 극한 회피를 강화해 검기의 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "1708"
+        name: 잔심
+        info: "극한 회피 후 #2[f1]초 동안 자신의 공격 속도가 #1[f1]% 증가한다"
+        brief: 극한 회피 후 자신의 공격 속도가 증가한다
+        icon: Skill_Nagative_Skill03
+        maxLv: 5
+        paramBase1: 0.1
+        paramBase2: 0.8
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0.8
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "174"
+    name: 인페르노
+    info: "발키리 에너지를 폭발 시켜 공격 방식을 변경하고 경직 저항력을 증가한다.\\n<color=#23B2E2FF>폭발: 100 SP를
+      소모해 폭발 상태에 진입한다. 적에게 공격력 50%의 물리 대미지를 입히고, 10초 동안 지속되는 붉은 벚꽃 표식을 새긴다.\\n발동
+      후 공격 버튼을 누르면 일섬을 발동할 수 있고, 일섬 매 타격마다 붉은 벚꽃 카운터를 1개씩 쌓는다</color>"
+    icon: Skill_Sakura_YS_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1709"
+        name: 납도역인
+        info: 필살기 발동 시 주변 적에게 공격력 50%+#1[f1]%의 물리 대미지를 입힌다
+        brief: 필살기를 발동하여 주변의 적에게 물리 대미지를 입힌다
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 1.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1710"
+        name: 피의 떨림
+        info: "필살기의 크리티컬 대미지가 #1[f1]% 증가한다"
+        brief: 필살기 발동 중 크리티컬 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "175"
+    name: 지혜로운 마음
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>반야의 마음: {{콤보 수가 20 이상일 때,
+      모든 파티원의 물리 대미지 #1[i]% 증가}}</color>"
+    icon: Skill_Sakura_YS_005
+    skillType: leader
+    tags: []
+    paramSubId1: 1712
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1712"
+        name: 지혜로운 마음
+        info: "콤보 수가 20 이상일 때, 모든 파티원의 물리 대미지 #1[f1]% 증가"
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Damage01
+        maxLv: 4
+        paramBase1: 0.12
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "176"
+    name: 패시브 스킬
+    info: "패시브 스킬은 자동으로 발동된다.\\n<color=#23B2E2FF>붉은 벚꽃 표식: 적 몸에 누적된 벚꽃 카운터가 3개 이상일 때
+      카운터를 초기화하고 벚꽃 표식을 새긴다. 붉은 벚꽃 표식 유지 시간 10초.</color>"
+    icon: Skill_Sakura_YS_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1711"
+        name: 투구 관통
+        info: "엘리트 실드가 파괴된 적에게 크리티컬률 #1[f1]%, 크리티컬 대미지 #2[f1]% 증가."
+        brief: 엘리트 실드가 파괴된 적을 공격 시 크리티컬률와 크리티컬 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 70
+        paramBase1: 0.2
+        paramBase2: 0.024
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.004
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "1713"
+        name: 벚꽃의 눈
+        info: "기본 공격이 붉은 벚꽃 표식이 없는 적에게 적중 시 공격력의 #1[f1]% 물리 대미지를 추가로 입힌다."
+        brief: 기본 공격으로 붉은 벚꽃 표식이 없는 적을 공격 시 적에게 추가 물리 대미지를 입힌다
+        icon: Skill_Nagative_Damage02
+        maxLv: 4
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "1714"
+        name: 거상도
+        info: "극한 회피 재사용 대기시간 #1[f1]초 감소"
+        brief: 극한 회피의 재사용 대기시간이 감소한다
+        icon: Skill_Nagative_Survive02
+        maxLv: 30
+        paramBase1: 1.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

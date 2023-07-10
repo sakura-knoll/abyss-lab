@@ -1,0 +1,309 @@
+id: "206"
+fullName: 기원의 율자
+shortName: 기원의 율자
+desc: <color=white>특징:</color> <color=#F3DFAEFF>허수 속성</color>의 근거리 캐릭터, 적에게 뇌전
+  원소 대미지를 가한다.
+firstName: 메이
+lastName: 라이덴
+enFirstName: Mei
+enLastName: Raiden
+attributeType: img
+isEasterner: true
+weapon: katana
+character: mei
+initialStar: s
+tags:
+  - lightning-dmg
+  - fast-atk
+skills:
+  - id: "821"
+    name: 스트라이커, 빛을 쫓는 새벽
+    info: "태도를 사용해 연속으로 적을 공격한다.\\n<color=#23B2E3FF>제1격: 공격력 90%의 뇌전 원소 대미지를
+      가한다.\\n제2격: 공격력 70%*2+90%의 뇌전 원소 대미지를 가한다.\\n제3격: 공격력 75%*3의 뇌전 원소 대미지를
+      가한다.\\n제4격: 공격력 30%*10의 뇌전 원소 대미지를 가하고 [심신일체]가 대폭 증가한다. 공격 기간 슈퍼 아머 상태에
+      진입해 받는 대미지가 40% 감소한다. 제4격의 검 회수 동작 시 경직되어도 공격을 완료할 수 있다.\\n회피, 극한 회피 스킬,
+      무기 스킬은 기본 공격의 콤보 단계를 초기화하지 않으며, 기본 공격은 마비 게이지를 소량 누적한다.</color>"
+    icon: Skill_Mei_C6_821
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8201"
+        name: <color=#FFC741FF>QTE</color>-귀로 없는 길의 탐구
+        info: "QTE: 적이 시공 감속, 마비 상태 또는 키아나 캐릭터의 분기 공격 적중 시 발동해 공격력 300%+#1[f1]%의 뇌전 원소
+          대미지를 가하고, [의업주살]을 1회 생성한다. [칼날의 날개]에 [기원요전]이 충전되지 않은 경우, [칼날의 날개]에
+          [기원요전]을 1스택 충전한다. 파티 내 종언의 율자와 진리의 율자가 동시에 존재할 경우, QTE 출전 시 10초 동안 가하는
+          모든 대미지가 50% 증가한다. 중복 발동 시 지속 시간을 갱신한다."
+        brief: "QTE: 적이 시공 감속, 마비 상태 또는 키아나 캐릭터의 분기 공격 적중 시 발동해 뇌전 원소 대미지를 가하고, [의업주살]을
+          1회 생성한다. [칼날의 날개]에 [기원요전]이 충전되지 않은 경우, [칼날의 날개]에 [기원요전]을 1스택 충전한다. 파티
+          내 종언의 율자와 진리의 율자가 동시에 존재할 경우, QTE 출전 시 10초 동안 가하는 모든 대미지가 증가한다. 중복 발동
+          시 지속 시간을 갱신한다."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 13
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.25
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "8202"
+        name: 뱀 그림자 회귀의 미로
+        info: "QTE 또는 기본 공격 제4격 적중 시 적이 기원의 율자에게 받는 뇌전 원소 대미지가 #1[f1]% 증가한다(해당 효과는 독립적으로
+          부여된다). 지속 시간: 8초, 중복 발동 시 지속 시간을 갱신한다."
+        brief: "QTE 또는 기본 공격 제4격 적중 시 적이 기원의 율자에게 받는 뇌전 원소 대미지가 증가한다(해당 효과는 독립적으로 부여된다).
+          지속 시간: 8초, 중복 발동 시 지속 시간을 갱신한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.14
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.006
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "822"
+    name: <color=#FFC741FF>분기</color>-숨결의 그림자, 길을 비추는 단죄
+    info: 뇌전의 힘으로 시간을 끊어내고, 에너지를 모아 적을 소멸한다.\n<color=#23B2E4FF>기본 공격 제4단 후, 또는 기본 공격
+      검 회수 동작 중 공격 버튼 터치 시 분기 공격을 발동해 공격력 120%의 뇌전 원소 대미지를 가한다. [심신일체]가 가득 찼을 때
+      적 공격 시 [심신일체]를 전부 소모해 추가로 [기원역행]을 발동한다. 발동 시 정체 영역 효과가 발동해 캐릭터와 적의 스킬 효과 및
+      스테이지의 카운트가 정지한다.\n[기원역행] 발동 후 공격 버튼을 터치하면 2단 공격을 발동해 총 공격력 30%+10%+240%의
+      뇌전 원소 대미지를 가한다.\n\n[기원역행] 발동 시 [칼날의 날개]에 [기원요전]을 1스택 충전한다. [기원요전]이 3스택에
+      도달했을 때 공격 버튼을 길게 눌러 [화심단멸] 발동 시 총 공격력 200%+200%+700%+70%*5의 뇌전 원소 대미지를
+      가한다.</color>
+    icon: Skill_Mei_C6_822
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8204"
+        name: 녹아내리는 얼음의 약속
+        info: "[화심단멸]이 적에게 적중 시 기원의 율자가 SP를 #1[f1]pt 회복하고, 캐릭터의 모든 대미지가 #2[f1]% 증가한다.
+          또한, 받는 모든 대미지가 #3[f1]% 감소하며, 경직 저항력이 1레벨 증가한다. 지속 시간: 10초, 중복 발동 시 지속
+          시간을 갱신한다."
+        brief: "[화심단멸]이 적에게 적중 시 기원의 율자가 SP를 회복하고, 캐릭터의 모든 대미지가 증가한다. 또한, 받는 모든 대미지가
+          감소하며, 경직 저항력이 1레벨 증가한다. 중복 발동 시 지속 시간을 갱신한다."
+        icon: Skill_Nagative_Skill01
+        maxLv: 10
+        paramBase1: 2
+        paramBase2: 0.2
+        paramBase3: 0.15
+        paramAdd1: 0.33344
+        paramAdd2: 0.01667
+        paramAdd3: 0.01667
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8205"
+        name: 천악 구원의 깃털
+        info: "분기 공격과 필살기 공격의 모든 원소 관통이 #1[f1]% 증가한다."
+        brief: 분기 공격과 필살기 공격의 모든 원소 관통이 증가한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 12
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00909
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8206"
+        name: 흩어지는 영웅의 각인
+        info: "뇌전 원소 대미지가 #1[f1]% 증가하고, 분기 공격과 필살기가 가하는 뇌전 원소 대미지가 추가로 #2[f1]% 증가한다."
+        brief: 뇌전 원소 대미지가 증가하고, 분기 공격과 필살기가 가하는 뇌전 원소 대미지가 추가로 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.25
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0.03333
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "823"
+    name: 반역의 비홍, 이치를 찾는 소망
+    info: "빠르게 적의 공격을 회피한다. 회피 성공 시 강력한 참격을 발동한다.\\n<color=#23B2E5FF>[심신일체]가 가득 찼을
+      때, 회피 후 공격 버튼을 눌러 분기 공격을 발동할 수 있다.\\n극한 회피 스킬 발동 후 공격 버튼을 터치하면 [기원역행·순]을
+      발동한다. [기원역행·순]은 공격력 100%+200%+350%의 뇌전 원소 대미지를 가하고 [칼날의 날개]에 [기원요전] 1스택을
+      충전한다. 극한 회피 재사용 대기시간: 16초, [기원역행·순] 최단 발동 간격: 5초\\n[기원역행·순]은 기본 공격으로 간주하며,
+      해당 기간 정체 영역 효과를 발동한다.</color>"
+    icon: Skill_Mei_C6_823
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8207"
+        name: 떨어지는 천우의 고독
+        info: "극한 회피 스킬의 재사용 대기시간이 #1[f1]초 감소하고, 극한 회피 스킬이 발동한 공격이 추가로 총 공격력 #2[f1]%의 뇌전
+          원소 대미지를 가한다. [화심단멸] 누적 2회 발동 시 [신원의 그림자]를 1스택 획득하고, 다음 극한 회피 스킬은 [신원의
+          그림자]를 소모해 재사용 대기시간이 추가로 #3[f1]초 감소한다. 캐릭터 첫 출전 시 [신원의 그림자]를 1스택 획득한다."
+        brief: 극한 회피 스킬의 재사용 대기시간이 감소하고, 극한 회피 스킬이 발동한 공격이 추가로 뇌전 원소 대미지를 가한다. [화심단멸] 누적
+          2회 발동 시 [신원의 그림자]를 1스택 획득하고, 다음 극한 회피 스킬은 [신원의 그림자]를 소모해 재사용 대기시간이 추가로
+          감소한다. 캐릭터 첫 출전 시 [신원의 그림자]를 1스택 획득한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 1
+        paramBase3: 2.5
+        paramAdd1: 0.15
+        paramAdd2: 0.1
+        paramAdd3: 0.25
+        tags: []
+        toggle: false
+        unlockStar: s2
+  - id: "824"
+    name: 차가운 뇌명, 죄의 연심
+    info: "연속 참격으로 적과 공간을 벤다.\\n<color=#23B2E6FF>필살기를 발동해 공격력 200%의 뇌전 원소 대미지를 가한다.
+      필살기 기간 화면을 슬라이드하거나 공격 버튼, 방향키 터치, 패드 조작으로 연속 참격을 발동할 수 있다. 각 공격은 공격력 85%의
+      뇌전 원소 대미지를 가한다. 참격을 12회 진행하거나 20초 후에 마지막 참격을 발동하면 공격력 500%+30%*5의 뇌전 원소
+      대미지를 가하고, 그 기간 정체 영역 효과를 발동해 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다.\\n발동 소모 SP:
+      75, 재사용 대기시간: 18초\\n\\n파티 내 종언의 율자와 진리의 율자가 동시에 존재할 경우, 필살기가 [폭발 연계]로
+      변경된다.\\n[폭발 연계]: 공격력 450%의 뇌전 원소 대미지를 가하고, 종언의 율자 캐릭터 교대 재사용 대기시간을 리셋하며,
+      종언의 율자 특수 QTE 공격을 발동한다.\\n[폭발 연계] 발동 소모 SP: 50, 재사용 대기시간: 15초(재사용 대기시간 감소
+      효과를 받지 않는다)</color>"
+    icon: Skill_Mei_C6_824
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8210"
+        name: 갈라지는 운명의 조짐
+        info: "필살기가 가하는 뇌전 원소 대미지가 #1[f1]% 증가하고, 마지막 참격이 추가로 공격력 #2[f1]%의 뇌전 원소 대미지를
+          가한다."
+        brief: 필살기가 가하는 뇌전 원소 대미지가 증가하고, 마지막 참격이 추가로 뇌전 원소 대미지를 가한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 13
+        paramBase1: 0.4
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: 0.03333
+        paramAdd2: 0.08333
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "8211"
+        name: 떠나는 죄인의 만가
+        info: "필살기가 허수 속성 적에게 적중 시, [허무의 껍데기]가 받은 대미지가 #1[f1]%의 비율로 [허무의 씨앗]에 전이된다(HP 감소
+          효과)."
+        brief: 필살기가 허수 속성 적에게 적중 시, [허무의 껍데기]가 받은 대미지가 [허무의 씨앗]에 전이된다(HP 감소 효과).
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8212"
+        name: 불태우는 희생의 단멸
+        info: "[폭발 연계]가 전장의 적이 받는 모든 대미지를 #1[f1]% 증가시킨다. 지속 시간: 10초\\n파티 내 종언의 율자와 진리의
+          율자가 동시에 존재할 경우, [화심단멸] 발동 시 파티원의 모든 대미지가 #2[f1]% 증가한다. 지속 시간: 10초, 중복
+          발동 시 지속 시간을 갱신한다."
+        brief: "[폭발 연계]가 전장의 적이 받는 모든 대미지를 증가시킨다. 파티 내 종언의 율자와 진리의 율자가 동시에 존재할 경우,
+          [화심단멸] 발동 시 파티원의 모든 대미지가 증가한다."
+        icon: Skill_Nagative_Skill02
+        maxLv: 16
+        paramBase1: 0.05
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 0.00333
+        paramAdd2: 0.00333
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "825"
+    name: 나로 시작해, 본래를 관통하는 진아
+    info: "리더로 배치 시 파티원의 대미지와 초기 SP가 증가한다.\\n<color=#23B2E7FF>리더 스킬: {{파티원이 가하는 모든
+      원소 대미지가 #1[f1]% 증가하고, 전투 중 파티원의 초기 SP가 #2[f1]pt 증가한다. 파티 내 키아나 캐릭터가 존재할
+      경우, 키아나와 자신의 전투 중 초기 SP가 #3[f1]pt 증가한다. 오픈월드에서 초기 SP 증가 효과는 10분마다 1회
+      발동한다.}}</color>"
+    icon: Skill_Mei_C6_825
+    skillType: leader
+    tags: []
+    paramSubId1: 8213
+    paramSubId2: 8213
+    paramSubId3: 8213
+    subSkills:
+      - id: "8213"
+        name: 영원무결한 사랑의 시종
+        info: "파티원이 가하는 모든 원소 대미지가 #1[f1]% 증가하고, 전투 중 파티원의 초기 SP가 #2[f1]pt 증가한다. 파티 내
+          키아나 캐릭터가 존재할 경우, 키아나와 자신의 전투 중 초기 SP가 #3[f1]pt 증가한다. 오픈월드에서 초기 SP 증가
+          효과는 10분마다 1회 발동한다."
+        brief: 파티원이 가하는 모든 원소 대미지가 증가하고, 전투 중 파티원의 초기 SP가 증가한다. 파티 내 키아나 캐릭터가 존재할 경우,
+          키아나와 자신의 전투 중 초기 SP가 증가한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.24
+        paramBase2: 35
+        paramBase3: 35
+        paramAdd1: 0.03
+        paramAdd2: 5
+        paramAdd3: 5
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "826"
+    name: 귀신갑주의 파멸, 자제의 극치
+    info: 분기 공격 시 적과 자신에게 동시에 대미지를 가한다.\n<color=#23B2E8FF>[기원역행]과 [기원역행·순] 발동 시 추가로
+      [의업주살]을 1회 발동해 짧은 시간 자신과 적에게 공격력 5%의 뇌전 원소 대미지를 가한다. 극한 회피, 무기 스킬 발동 또는
+      캐릭터 교대 시 [의업주살]이 즉시 종료된다.\n기원의 율자가 율자 형태를 유지한다.</color>
+    icon: Skill_Mei_C6_826
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8216"
+        name: 절반 불허의 극의
+        info: "적이 기원의 율자의 정체 영역 효과에 영향을 받을 경우, 피해 심화 효과를 획득해 기원의 율자에게 받는 뇌전 원소 대미지가
+          #1[f1]% 증가한다."
+        brief: 적이 기원의 율자의 정체 영역 효과에 영향을 받을 경우, 피해 심화 효과를 획득해 기원의 율자에게 받는 뇌전 원소 대미지가
+          증가한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.008
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8217"
+        name: 하나된 검체의 증명
+        info: "모든 대미지가 #1[f1]% 증가하고, 전장의 적이 키아나 캐릭터와 기원의 율자에게 받는 모든 대미지가 #2[f2]% 증가한다."
+        brief: 모든 대미지가 증가하고, 전장의 적이 키아나와 기원의 율자에게 받는 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 0.05
+        paramBase2: 0.03
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.0044
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

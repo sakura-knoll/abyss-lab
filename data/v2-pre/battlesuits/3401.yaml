@@ -1,0 +1,379 @@
+id: "3401"
+fullName: 드림위버
+shortName: 드림위버
+desc: <color=white>특징:</color> <color=#2CE3FFFF>기계 속성</color>의 캐릭터로, 이데아의 씨앗을
+  지휘해 전투하며, 필살기 발동 시 꿈 세계를 창조한 후 소환한 정신체를 조종한다.
+firstName: 미스텔
+lastName: 샤니아트
+enFirstName: Misteln
+enLastName: Schariac
+attributeType: mech
+isEasterner: false
+weapon: javelin
+character: hare
+initialStar: s
+tags:
+  - physical-dmg
+  - gather
+  - time-mastery
+skills:
+  - id: "861"
+    name: 허무의 세상
+    info: "깃발 또는 재블린으로 공격한다.\\n<color=#23B2E3FF>본체: 깃발로 4번 공격한다. 그중 제4격은 전장에 이데아의
+      씨앗이 존재할 때에만 발동할 수 있다.\\n제1격: 공격력 180%*2의 물리 대미지를 가한다.\\n제2격: 공격력 240%의 물리
+      대미지를 가한다.\\n제3격: 목표 위치에 블랙홀을 생성해 적을 끌어당기고, 공격력 150%*4의 대미지를 가한다.\\n제4격:
+      전장에 이데아의 씨앗이 존재할 때에만 발동할 수 있다. 이데아의 씨앗을 지휘해 목표를 향해 장창을 투척하고 공격력 150%*4의 물리
+      대미지를 가한다. 발동 기간, 캐릭터는 슈퍼 아머 상태에 진입한다.\\n정신체: 재블린으로 4번 공격한다.\\n제1격: 공격력
+      250%의 물리 대미지를 가한다.\\n제2격: 공격력 120%+320%의 물리 대미지를 가한다.\\n제3격: 공격력 300%의 물리
+      대미지를 가한다.\\n제4격: 공격력 350%+650%의 물리 대미지를 가한다. 그 기간, 단창을 최대 4개 투척해 단창마다 공격력
+      100%의 물리 대미지를 가하고, 재블린을 가득 충전한다. 발동 기간, 캐릭터는 슈퍼 아머 상태에 진입한다.</color>"
+    icon: Skill_FeatheredRabbit_C1_DU_861
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8601"
+        name: <color=#FFC741FF>QTE</color>-민중의 무게
+        info: "QTE: 적이 시공 단열 또는 취약 상태일 때 발동한다. 드림위버가 QTE 출전 시 중력장으로 모든 적을 제압하고, 공격력
+          #1[f1]%의 물리 대미지를 가하며, 이데아의 씨앗을 소환한다. 발동 시 추가로 SP를 #2[f1]pt 회복하고, 적중한
+          적은 가하는 모든 대미지가 #3[f1]% 감소한다. 지속 시간: 10초, 중복 발동 시 지속 시간을 갱신한다."
+        brief: "QTE: 적이 시공 단열 또는 취약 상태일 때 발동한다. 드림위버가 QTE 출전 시 중력장으로 모든 적을 제압하고, 물리 대미지를
+          가하며, 이데아의 씨앗을 소환한다. 발동 시 추가로 SP를 회복하고, 적중한 적은 가하는 모든 대미지가 감소한다."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 4
+        paramBase1: 3
+        paramBase2: 5
+        paramBase3: 0.1
+        paramAdd1: 2.33333
+        paramAdd2: 1.66667
+        paramAdd3: 0.06667
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "8602"
+        name: 불후의 영웅
+        info: "정신체의 기본 공격 제4격이 추가로 공격력 #1[f1]%의 물리 대미지를 가한다. 정신체가 차지 공격 단창 투척을 발동해 재블린
+          충전을 가득 채우면 공격 버튼을 터치해 기본 공격 제4격을 연계할 수 있다."
+        brief: 정신체의 기본 공격 제4격이 추가로 물리 대미지를 가한다. 정신체가 차지 공격 단창 투척을 발동해 재블린 충전을 가득 채우면 공격
+          버튼을 터치해 기본 공격 제4격을 연계할 수 있다.
+        icon: Skill_Nagative_Skill01
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8603"
+        name: 영원한 서사의 시
+        info: "전투 중 초기 SP가 #1[f1] 증가하며, 오픈월드에서는 10분에 1회 발동한다."
+        brief: 전투 중 초기 SP가 증가한다. 오픈월드에서 10분마다 1회 발동한다.
+        icon: Skill_Nagative_StartUp01
+        maxLv: 11
+        paramBase1: 20
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+  - id: "862"
+    name: <color=#FFC741FF>차지</color>-무언의 단멸
+    info: "거대한 바위를 생성하고 창으로 적을 벤다.\\n<color=#23B2E4FF>정신체 조작 기간에만 발동할 수 있다. 공격 버튼을
+      길게 누르면 정신체가 뒤로 물러나 단창을 투척하기 시작한다. 이후 공격 버튼을 터치하면 모든 단창을 순차적으로 투척한다. 창을 투척할
+      때마다 공격력 130%의 물리 대미지를 가하며, 투척 기간 캐릭터는 슈퍼 아머 상태에 진입한다.\\n백상귀결: 재블린 충전이 가득
+      찼을 때 공격 버튼을 길게 눌러 발동하며, 정신체가 암석을 모아 주변 구역의 적을 끌어당기고 속박한다. 이후 장창으로 암석을 파괴해
+      공격력 130%*4+1080%의 물리 대미지를 가하고, 모든 단창을 보충한다.\\n백상귀결의 크리티컬률이 15%
+      증가한다.</color>"
+    icon: Skill_FeatheredRabbit_C1_DU_862
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8604"
+        name: 끝없는 순환
+        info: "전장에 드림위버의 소환물이 존재할 경우, 전장의 적이 받는 모든 대미지가 #1[f1]% 증가한다."
+        brief: 전장에 드림위버의 소환물이 존재할 경우, 전장의 적이 받는 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.01
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.004
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8605"
+        name: 유구의 수호
+        info: "백상귀결이 가하는 물리 대미지가 #1[f1]% 증가한다."
+        brief: 백상귀결이 가하는 물리 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 9
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8606"
+        name: 짜여진 순수한 꿈
+        info: "적이 드림위버에게 받는 물리 대미지가 #1[f1]% 증가한다(해당 효과는 독립적으로 계산된다)."
+        brief: 적이 드림위버에게 받는 물리 대미지가 증가한다(해당 효과는 독립적으로 계산된다).
+        icon: Skill_Nagative_Damage03
+        maxLv: 12
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01364
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "863"
+    name: 공허한 영혼
+    info: "빠르게 적의 공격을 회피한다. 2회 연속 회피할 수 있다.\\n<color=#23B2E5FF>극한 회피 성공 시 극한 회피 스킬을
+      발동하고, 3초 동안 전체 시공 단열을 발동한다. 재사용 대기시간: 15초\\n본체: 극한 회피 스킬 발동 시 추가로 SP를 5pt
+      회복한다.\\n정신체: 회피와 동시에 공격을 발동한다. 전방 회피는 적중한 적에게 공격력 90%의 물리 대미지를 가하고, 후방 회피는
+      적중한 적에게 공격력 30%*3의 물리 대미지를 가한다. 회피는 기본 공격 제2격을 연계할 수 있다.</color>"
+    icon: Skill_FeatheredRabbit_C1_DU_863
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8607"
+        name: 지식 이성의 형태
+        info: "정신체의 극한 회피 스킬이 추가로 SP를 #1[f1]pt 회복한다. 회피 공격이 적에게 적중 시 극한 회피 스킬을 발동할 수
+          있으며, 극한 회피 스킬 발동 후 공격 버튼을 눌러 기본 공격 제4격을 연계할 수 있다. 해당 방식으로 기본 공격 제4격 발동
+          시 드림위버는 [위빙] 상태에 진입한다. [위빙] 상태 지속 시간: 15초, 중복 발동 시 지속 시간을 갱신한다."
+        brief: "정신체의 극한 회피 스킬이 추가로 SP를 회복한다. 회피 공격이 적에게 적중 시 극한 회피 스킬을 발동할 수 있으며, 극한 회피
+          스킬 발동 후 공격 버튼을 눌러 기본 공격 제4격을 연계할 수 있다. 해당 방식으로 기본 공격 제4격 발동 시 드림위버는
+          [위빙] 상태에 진입한다. [위빙] 상태 지속 시간: 15초, 중복 발동 시 지속 시간을 갱신한다."
+        icon: Skill_Nagative_Skill03
+        maxLv: 9
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.875
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: sss
+      - id: "8608"
+        name: 빛나는 용기의 징표
+        info: "드림위버가 적을 처치할 때마다 [복사] 효과를 1스택 획득한다. 드림위버가 적 공격 시 [복사] 효과 스택마다 #1[f1]%의 추가
+          대미지를 가한다(HP 감소 효과). 스택당 지속 시간: 60초, 지속 시간은 독립적으로 계산된다(최대 3스택 중첩)."
+        brief: "드림위버가 적을 처치할 때마다 [복사] 효과를 1스택 획득한다. 드림위버가 적 공격 시 [복사] 효과 스택마다 추가 대미지를
+          가한다(HP 감소 효과). 스택당 지속 시간: 60초, 지속 시간은 독립적으로 계산된다(최대 3스택 중첩)."
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.01
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.004
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8609"
+        name: 공리불멸의 깃발
+        info: "[형상의 비호] 지속 기간 피격되거나 [형상의 비호] 집결 시 공격이 적에게 적중하면 극한 회피 스킬을 발동하고, 드림위버가
+          [위빙] 상태에 진입한다. [위빙] 상태 지속 시간: 15초, 중복 발동 시 지속 시간을 갱신한다. 필살기 꿈 세계 창조 발동
+          시 극한 회피 재사용 대기시간이 초기화된다. [위빙] 상태에서 피니쉬는 추가로 공격력 #1[f1]%의 물리 대미지를 가하며,
+          [위빙] 상태를 해제한다."
+        brief: "[형상의 비호] 지속 기간 피격되거나 [형상의 비호] 집결 시 공격이 적에게 적중하면 극한 회피 스킬을 발동하고, 드림위버가
+          [위빙] 상태에 진입한다. [위빙] 상태 지속 시간: 15초, 중복 발동 시 지속 시간을 갱신한다. 필살기 꿈세계 창조 발동
+          시 극한 회피 재사용 대기시간이 초기화된다. [위빙] 상태에서 피니쉬는 추가로 대미지를 가하며, [위빙] 상태를 해제한다."
+        icon: Skill_Nagative_Skill02
+        maxLv: 1
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "864"
+    name: 흩어지는 꿈
+    info: "꿈 세계를 창조한 후 정신체에 빙의해 전투한다.\\n<color=#23B2E6FF>꿈 세계 창조: 드림위버가 전장을 꿈 세계로
+      감싸고 정신체를 소환해 자신을 대체하며, 공격력 650%의 물리 대미지를 가한다.\\n피니쉬: 정신체 지속 시간: 20초. 꿈 세계
+      창조 5초 후 필살기 버튼을 누르면 필살기 피니쉬를 발동할 수 있으며, 정신체는 장창을 투척해 꿈 세계를 종료하고, 본체로 교대해
+      공격력 1200%의 물리 대미지를 가한다. 피니쉬 발동 기간, 캐릭터는 무적 상태에 진입하고 정체 영역 효과를 발동해 캐릭터와 적의
+      스킬 효과 및 스테이지의 카운트가 정지한다.\\n\\n발동 소모 SP: 50, 재사용 대기시간: 11초(재사용 대기시간 감소 효과를
+      받지 않는다)</color>"
+    icon: Skill_FeatheredRabbit_C1_DU_864
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8610"
+        name: 삶과 죽음의 꿈
+        info: "필살기 꿈 세계 창조는 추가로 SP를 소모해 물리 대미지가 추가 소모 SP*#1[f2]%만큼 증가하고, 크리티컬률이 추가 소모
+          SP*#2[f2]%만큼 증가한다(최대 추가 소모 SP: 50pt). 해당 효과는 피니쉬가 종료될 때까지 지속되며, 캐릭터가
+          사망하거나 퇴장 시 해제된다."
+        brief: "필살기 꿈 세계 창조는 추가로 SP를 소모해 물리 대미지와 크리티컬률이 증가한다(최대 추가 소모 SP: 50pt). 해당 효과는
+          피니쉬가 종료될 때까지 지속되며, 캐릭터가 사망하거나 퇴장 시 해제된다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.004
+        paramBase2: 0.0025
+        paramBase3: 0
+        paramAdd1: 0.0003
+        paramAdd2: 0.00025
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "8611"
+        name: 탄생과 소멸의 꿈
+        info: "피니쉬 크리티컬률이 100% 증가하고, 크리티컬 대미지가 #1[f1]% 증가한다."
+        brief: 피니쉬는 반드시 크리티컬이 발동하며, 크리티컬 대미지가 증가한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 9
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0125
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8612"
+        name: 시작과 끝의 꿈
+        info: "피니쉬가 추가로 공격력 #1[f1]%의 물리 대미지를 가한다."
+        brief: 피니쉬가 추가로 물리 대미지를 가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.25
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "865"
+    name: 저물지 않는 빛
+    info: "리더로 배치 시 파티원이 버프를 받는다.\\n<color=#23B2E7FF>리더 스킬: {{파티원의 크리티컬 대미지가 #1[f1]%
+      증가하고, 파티 내 물리 대미지 특성의 캐릭터가 존재할 때마다 드림위버의 소환물이 가하는 물리 대미지가 #2[f1]%
+      증가한다.}}</color>"
+    icon: Skill_FeatheredRabbit_C1_DU_865
+    skillType: leader
+    tags: []
+    paramSubId1: 8613
+    paramSubId2: 8613
+    paramSubId3: 0
+    subSkills:
+      - id: "8613"
+        name: 이데아 순환의 소리
+        info: "파티원의 크리티컬 대미지가 #1[f1]% 증가한다. 파티에 물리 대미지 특성의 캐릭터가 존재할 때마다 드림위버의 소환물이 가하는
+          물리 대미지가 #2[f1]% 증가한다."
+        brief: 파티원의 크리티컬 대미지가 증가한다. 파티에 물리 대미지 특성의 캐릭터가 존재할 때마다 드림위버의 소환물이 가하는 물리 대미지가
+          증가한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.22
+        paramBase2: 0.08
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "866"
+    name: 진실과 꿈의 경계
+    info: "패시브 스킬은 자동으로 발동한다.\\n<color=#23B2E8FF>드림위버의 본체와 정신체는 서로 다른 무기 스킬을 보유한다.
+      드림위버의 소환물이 가하는 대미지는 드림위버를 기준으로 하며, 소환물 보너스의 영향을 받는다. 또한 [소환물]과 캐릭터에게 적용되는
+      효과는 중첩할 수 없다.\\n\\n본체 드림위버가 무기 스킬 [이념의 군체]를 발동해 이데아의 씨앗을 소환하고 지휘한다. 이데아의
+      씨앗마다 소환물 1개로 간주한다. 이데아의 씨앗이 전장에 존재할 경우, 드림위버는 육합통솔 [자재] 상태를 개방해 자신이 받는 모든
+      대미지가 50% 감소한다. 드림위버가 필살기를 발동하거나 캐릭터를 교대하면 이데아의 씨앗은 퇴장한다.\\n이념의 군체: 적 위치에
+      이데아의 씨앗을 소환한 후 공격해 공격력 100%*4의 물리 대미지를 가한다. 이데아의 씨앗의 기타 공격 발동 시 무기 버튼이
+      빛나며, 터치 시 [이념의 군체]를 다시 발동할 수 있다. 전장에 이데아의 씨앗이 존재할 경우, [이념의 군체]는 공격력
+      200%*4의 물리 대미지를 가한다.\\n형상의 비호: 전장에 이데아의 씨앗 존재 시 무기 버튼을 터치해 발동하며, 드림위버가
+      이데아의 씨앗을 전방에 집결시켜 공격을 방어한다. 집결 시 주변 적에게 공격력 500%의 물리 대미지를 가한다. 1.5초 후 이데아의
+      씨앗이 방어 공격을 발동해 전방으로 돌진하고 공격력 750%의 물리 대미지를 가한다. 이데아의 씨앗이 집결했을 때 적에게 적중하거나
+      방어 기간 적에게 피격될 경우, 일찍 발동한다. 방어 기간, 무기 버튼을 터치해 일찍 발동할 수도 있다. 스킬 재사용 대기시간:
+      6초\\n\\n꿈 세계 상태에서 드림위버는 정신체에 빙의해 전투하며, 정신체는 소환물로 간주한다. 정신체는 단창 4개를 보유하고,
+      단창 투척 시 재블린을 충전한다. 4회 충전 시 캐릭터는 육합통솔 [자재] 상태를 발동한다. [자재] 상태에서 [백상귀결]을 발동할
+      수 있다. 정신체는 무기 스킬 [영원한 악몽]을 보유하며, 한 번에 단창 4개를 투척할 수 있다.\\n영원한 악몽: 무기 스킬을
+      터치해 발동하며, 정신체로 한 번에 단창 4개를 투척해 공격력 180%*4의 물리 대미지를 가한다. 재사용 대기시간:
+      12초</color>"
+    icon: Skill_FeatheredRabbit_C1_DU_866
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8614"
+        name: 개념에서 탄생한 생명
+        info: "[이념의 군체]가 적에게 적중 시 SP를 #1[f1]pt 회복하고, [이념의 군체]가 추가로 공격력 #2[f1]%*4의 물리
+          대미지를 가한다."
+        brief: "[이념의 군체]가 적에게 적중 시 SP를 회복하고, [이념의 군체]가 추가로 물리 대미지를 가한다."
+        icon: Skill_Nagative_Skill01
+        maxLv: 8
+        paramBase1: 1
+        paramBase2: 0.5
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0.24286
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8615"
+        name: 생각을 떠나는 꿈
+        info: "드림위버 소환물의 크리티컬률이 #1[f1]% 증가하고, 본체 소환물의 크리티컬률이 추가로 #2[f1]% 증가한다."
+        brief: 드림위버 소환물의 크리티컬률이 증가하고, 본체 소환물의 크리티컬률이 추가로 증가한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 0.005
+        paramAdd2: 0.019
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8616"
+        name: 꿈이 떠난 몸
+        info: "드림위버가 출전 또는 본체에서 정신체로 변경할 때마다 크리티컬률이 #1[f1]% 증가하고, 물리 대미지가 #2[f1]% 증가한다.
+          지속 시간: #3[f1]초, 중복 발동 시 지속 시간을 갱신한다."
+        brief: 드림위버가 출전 또는 본체에서 정신체로 변경할 때마다 크리티컬률이 증가하고, 물리 대미지가 증가한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 12
+        paramBase1: 0.1
+        paramBase2: 0.01
+        paramBase3: 10
+        paramAdd1: 0.00455
+        paramAdd2: 0.00364
+        paramAdd3: 0.45455
+        tags: []
+        toggle: false
+        unlockStar: s

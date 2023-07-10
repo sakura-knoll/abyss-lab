@@ -1,0 +1,311 @@
+id: "703"
+fullName: 검은 장미
+shortName: 검은 장미
+desc: <color=white>특징:</color> <color=#FF66CCFF>이능 속성</color>의 근거리 전투형 캐릭터. 공격의
+  타수가 많고 범위가 넓어 다수의 적을 상대할 때 아주 강하다.
+firstName: 리타
+lastName: 로스바이세
+enFirstName: Rita
+enLastName: Rossweisse
+attributeType: psy
+isEasterner: false
+weapon: scythe
+character: rita
+initialStar: a
+tags:
+  - physical-dmg
+  - time-mastery
+skills:
+  - id: "361"
+    name: 가시나무
+    info: "낫을 휘둘러 적을 5회 공격한다\\n<color=#23B2E2FF>1격: 공격력 80%의 물리 대미지\\n2격: 공격력
+      50%+4*18%+120%의 물리 대미지\\n3격: 공격력 50%+60%의 물리 대미지\\n4격: 3*40%+5*30%의 물리
+      대미지\\n5격: 공격력 150%+200%의 물리 대미지\\n2번째, 5번째 공격의 마지막 일격은 5초 동안 적에게 각인을 남긴다,
+      최대 2회 중첩 가능하며, 중첩할 때마다 지속 시간이 초기화된다, 자신이 1중/2중 각인 상태의 적에게 가하는 대미지가 10%/20%
+      증가한다</color>"
+    icon: Skill_Rita_NP_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3601"
+        name: 찔레나무
+        info: "자신이 1중/2중 각인 상태인 적에게 가하는 모든 대미지가 추가로 #1[f1]%/#2[f1]% 증가한다."
+        brief: 1, 2단계 각인 상태의 적에게 가하는 모든 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 0.12
+        paramBase2: 0.24
+        paramBase3: 0
+        paramAdd1: 0.00276
+        paramAdd2: 0.00552
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3602"
+        name: 블루 큐리오사
+        info: "기본 공격의 4번째의 공격이 적에게 명중 시, 추가로 자신의 SP를 #1[f1] 회복한다"
+        brief: 4번째 기본 공격이 적에게 적중 시 SP를 회복한다
+        icon: Skill_Nagative_Skill01
+        maxLv: 70
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04348
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "362"
+    name: <color=#FFC741FF>차지</color> - 꽃의 장례식
+    info: "기본 공격 도중 차지하여 영체의 낫으로  적에게 원거리 공격을 한다.\\n<color=#23B2E2FF>움브라가 최대치일 때, 일반
+      공격의 아무 단계에서 공격 버튼을 꾸욱 누르면, 전방에 회전하는 영체의 낫을 던져, 최대 8*100% 물리 대미지를 주고, 동시에
+      모든 움브라와 자신의 최대HP 15%를 소모해(영체의 낫은 HP를 소모하지만 전투불능 상태가 되지 않는다. 로즈마리 발동 가능),
+      6초간 장미 상태에 진입한다. 장미 상태에서 기본 공격 혹은 필살기가 적에게 명중할 때마다 0.5%의 HP를 회복한다, 최대 40번
+      회복한 후 장미 상태를 해제한다\\n교대기: 더욱 강력한 3번째 공격으로 공격력의 120%+180% 물리 대미지를
+      준다</color>"
+    icon: Skill_Rita_NP_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3603"
+        name: 에델바이스
+        info: "영체의 낫을 던진 후 1초 내에 적을 처치하면, 추가로 자신의 HP 최대치의 #1[i]+10%를 회복한다"
+        brief: 영체의 낫을 던진 후 1초 내에 적을 처치하면 대량의 Hp를 회복한다
+        icon: Skill_Nagative_Survive02
+        maxLv: 73
+        paramBase1: 100
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 5.55556
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3604"
+        name: <color=#FFC741FF>QTE</color>-수레국화
+        info: "QTE: 적이 취약 상태일 때 발동, 공격력의 100%+3*#1[f1]% 물리 대미지를 준다, 마지막 3격은 적에게 각인을 2개
+          쌓는다."
+        brief: "QTE: 적이 취약 상태일 때 QTE 출전, 물리 대미지를 가하고 각인을 2스택 부여한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 24
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04348
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+      - id: "3610"
+        name: 자배초
+        info: "장미 상태 기간, 자신이 받는 모든 대미지가 #1[f1]% 감소하고 받는 간접 대미지가 #2[f1]% 감소한다."
+        brief: 장미 상태 기간, 자신이 받는 직접, 간접 대미지가 감소한다
+        icon: Skill_Nagative_Survive03
+        maxLv: 25
+        paramBase1: 0.25
+        paramBase2: 0.25
+        paramBase3: 0
+        paramAdd1: 0.01042
+        paramAdd2: 0.01042
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "363"
+    name: 아이리스
+    info: "적의 공격을 빠르게 회피하며 연속으로 2회 회피할 수 있다.\\n<color=#23B2E2FF>극한 회피 시 자신은 움브라를 50
+      회복하고 3초 동안 이동 속도가 40% 증가한다\\n아이리스 환영: 극한 회피 시 2초 동안 전체 시공 단열을 발동한다. 이때 공격
+      버튼을 누르면 바로 4번째 기본 공격을 발동하고 움브라 회복량이 150으로 증가된다. 재사용 대기시간: 15초</color>"
+    icon: Skill_Rita_NP_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3605"
+        name: 프리지어
+        info: "아이리스 환영의 재사용 대기시간 #1[f1]초 감소, 시공 단열 시간 #2[f1]초 연장"
+        brief: 아이리스 환영 재사용 대기시간 감소, 시공단열 지속 시간 증가
+        icon: Skill_Nagative_Skill03
+        maxLv: 16
+        paramBase1: 1
+        paramBase2: 0.5
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0.06667
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "3606"
+        name: 등심붓꽃
+        info: "아이리스 환영으로 회복하는 움브라가 #1[f1]로 증가"
+        brief: 아이리스 환영으로 회복하는 움브라 증가
+        icon: Skill_Nagative_Skill02
+        maxLv: 18
+        paramBase1: 180
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 7.05882
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "364"
+    name: 단재
+    info: "\\n<color=#23B2E2FF>적에게 7단 잔상 공격을 시전해 총 16*50%의 물리 대미지를 입히고 적중한 적을 잠깐 시공
+      감속 상태로 만든다. 이어서 고속회전하는 낫을 던져 회오리를 일으켜 공격력 10*40%의 물리 대미지를 주고 각인을 2개 부여한다.
+      회오리가 멈추면 낫으로 내려 베어 큰 범위에 공격력 800%의 물리 대미지를 입힌다\\n발동 소모 SP: 100, 재사용 대기시간:
+      20초</color>"
+    icon: Skill_Rita_NP_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 3
+        comment: "필살기의 마지막 일격은 강격이다. 축적 능력: 강"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3607"
+        name: 예리코의 장미
+        info: "필살기의 잔상 공격이 적에게 명중할 때마다 자신의 HP #1[i] 회복"
+        brief: 필살기가 적에게 적중 시 Hp를 회복한다
+        icon: Skill_Nagative_Survive01
+        maxLv: 21
+        paramBase1: 20
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3608"
+        name: 뿔냉이
+        info: "필살기로 출혈 혹은 취약 상태의 적을 공격 시 적에게 가하는 모든 대미지가 #1[f1]% 증가한다."
+        brief: 필살기로 출혈, 취약 상태의 적에게 가하는 모든 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 20
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00789
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "3609"
+        name: 스톡
+        info: "필살기의 회오리 공격의 타격마다 물리 대미지가 #1[f1]% 증가하고, 마지막 일격은 물리 대미지가 #2[f1]% 증가한다"
+        brief: 필살기 회오리와 마지막 일격로 적에게 가하는 물리 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 66
+        paramBase1: 0.3
+        paramBase2: 1.5
+        paramBase3: 0
+        paramAdd1: 0.00308
+        paramAdd2: 0.02308
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "365"
+    name: 밤제비꽃
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다\\n<color=#23B2E2FF>제비꽃: {{모든 파티원의 공격 속도 #1[f1]%
+      증가, 이능 속성 캐릭터의 필살기로 가하는 모든 대미지 #2[f1]% 증가}}</color>"
+    icon: Skill_Rita_NP_005
+    skillType: leader
+    tags: []
+    paramSubId1: 3613
+    paramSubId2: 3613
+    paramSubId3: 0
+    subSkills:
+      - id: "3613"
+        name: 밤제비꽃
+        info: "모든 파티원의 공격 속도 #1[f1]% 증가, 이능 속성 캐릭터의 필살기로 가하는 모든 대미지 #2[f1]% 증가"
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.12
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "366"
+    name: 패시브 스킬
+    info: "패시브 스킬은 자동으로 발동된다.\\n<color=#23B2E2FF>움브라: 전투 중 초기치 800, 최대치 800, 매초 50
+      회복\\n기본 공격의 2번째 마지막 일격, 5번째 마지막 일격, 그리고 필살기의 마지막 일격이 적에게 명중 시 움브라를 각각 80,
+      120, 160 회복한다.</color>"
+    icon: Skill_Rita_NP_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3611"
+        name: 덩굴곽향
+        info: "영체의 낫과 필살기의 마지막 일격이 1단계/2단계 각인 상태의 적에게 가하는 모든 대미지가 추가로 #1[f1]%/#2[f1]%
+          증가한다."
+        brief: 차지 공격과 필살기의 마지막 공격이 1, 2단계 각인 상태의 적에게 가하는 모든 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 27
+        paramBase1: 0.2
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.00577
+        paramAdd2: 0.00769
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3612"
+        name: 반지연
+        info: "콤보수가 40/ 80을 초과하면, 자신이 적에게 가하는 물리 대미지가 #1[f1]%/#2[f1]% 증가한다"
+        brief: 콤보수가 40/80을 넘으면 자신의 물리 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 33
+        paramBase1: 0.1
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.00313
+        paramAdd2: 0.00625
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3614"
+        name: 로즈마리
+        info: "캐릭터가 사망 직전에 자동으로 무적 상태가 되어 3초 동안 0.5초마다 최대 HP의 #1[f1]%를 회복한다, 한 번의 전투에서 한
+          번만 발동"
+        brief: 캐릭터가 사망 시 자동으로 발동한다, 무적 상태가 되며 Hp를 소량 회복한다. 한 번의 전투에서 한 번만 발동한다
+        icon: Skill_Nagative_Survive03
+        maxLv: 10
+        paramBase1: 0.03
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00222
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss

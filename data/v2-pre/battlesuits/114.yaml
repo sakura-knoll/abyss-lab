@@ -1,0 +1,347 @@
+id: "114"
+fullName: 원죄 사냥꾼
+shortName: 원죄 사냥꾼
+desc: "<color=white>특성: </color> <color=#2CE3FFFF>기계 속성</color>의
+  <color=#2CE3FFFF>영혼 각성</color> 원거리 전투형 캐릭터, 적에게 지속적인 대미지를 가한다."
+firstName: 카렌
+lastName: 카스라나
+enFirstName: Kallen
+enLastName: Kaslana
+attributeType: mech
+isEasterner: false
+weapon: pistols
+character: kallen
+initialStar: a
+tags:
+  - physical-dmg
+  - impair
+  - fast-atk
+skills:
+  - id: "351"
+    name: 밤의 노래
+    info: "3단 사격 후 돌진해서 소사 공격을 펼친다.\\n돌진 소사 공격 시 레버로 방향을 조절할 수
+      있다.\\n<color=#23B2E2FF>1격: 공격력 2*40%의 물리 대미지\\n2격: 공격력 2*40%의 물리 대미지\\n3격:
+      공격력 2*50%의 물리 대미지\\n돌진 소사: 공격력 4*50%의 물리 대미지를 입히고 취약 상태가 아닌 적을 10초 동안 취약
+      상태로 만들어 방어력을 50% 감소시킨다.\\n돌진 소사 공격 시 10m 이내의 추적 표식이 있는 모든 적에게 공격력 100%*2
+      물리 대미지를 입히고, 만약 전장의 적이 3명 이하일 경우 공격력 200%*2 물리 대미지를 입힌다</color>"
+    icon: Skill_Kallen_JK_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3501"
+        name: 추적자
+        info: "3번째 기본 공격과 돌진 소사 시 캐릭터는 슈퍼아머 상태가 되어 받는 물리와 원소 대미지가 #1[f1]% 감소한다"
+        brief: 3번째 기본 공격과 돌진 소사 시 캐릭터는 슈퍼 아머 상태가 되고 받는 물리 대미지가 감소한다
+        icon: Skill_Nagative_Skill01
+        maxLv: 10
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05556
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3502"
+        name: 피의 연회
+        info: "돌진 소사를 사용할 때마다 캐릭터의 기본 공격과 필살기의 모든 대미지가 13초 동안 #1[f2]% 증가한다. 최대 6회 중첩, 중복
+          발동 시 지속 시간을 초기화한다. 만일 돌진 소사 또는 필살기 이외의 순간에 공격을 받으면 중첩 효과 2회를 잃게 된다"
+        brief: 돌진 소사 공격을 발동할 때마다 캐릭터의 기본 공격과 필살기 대미지가 증가한다, 최대 6회 중첩. 돌진 소사 혹은 필살기를 사용하지
+          않을 때 피격되면 2단계의 중첩 효과를 잃는다
+        icon: Skill_Nagative_Damage03
+        maxLv: 8
+        paramBase1: 0.03
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00714
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3503"
+        name: <color=#FFC741FF>QTE</color>-오만의 추락
+        info: "QTE: 적이 공중에 띄워지거나 실드가 파괴되었을 때 발동, 주변 적들에게 공격력의 7*#1[i]% 물리 대미지를 입히고,즉시 피의
+          연회 스킬 1단계 버프를 획득한다. QTE 사용 후 3초 내에 공격 버튼을 누르면 즉시 돌진 소사를 시전한다."
+        brief: "QTE: 띄우기 또는 실드 파괴 시 QTE 출전, 주변 적에게 대량의 대미지를 가하고 피의 연회를 1스택 획득하며, 이어서 돌진
+          소사를 발동할 수 있다."
+        icon: Skill_Nagative_StartUp01
+        maxLv: 10
+        paramBase1: 0.45
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.10556
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+  - id: "352"
+    name: <color=#FFC741FF>분기</color>-성결 낙인
+    info: "첫 번째 기본 공격 이후 강력한 사격을 발동한다\\n<color=#23B2E2FF>강력 사격: 직선 범위에 공격력 300%의 물리
+      대미지를 입히고, 명중한 타깃에게 13초간 추적 표식을 남긴다</color>"
+    icon: Skill_Kallen_JK_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3504"
+        name: 노여운 마음
+        info: "캐릭터의 실드에 가하는 대미지가 #1[f1]% 증가한다"
+        brief: 실드에 가하는 대미지 증가
+        icon: Skill_Nagative_Damage01
+        maxLv: 8
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02857
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3505"
+        name: 도철의 향연
+        info: "캐릭터가 성스러운 치유 상태일 때, 기본 공격이 연소 상태가 아닌 적에게 적중하면 #1[f1]%의 확률로
+          <color=#FEDF4CFF>연소 게이지를 3pt 누적한다.</color>"
+        brief: 캐릭터가 성스러운 치유 상태일 때, 공격 시 적에게 연소 게이지를 누적한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 10
+        paramBase1: 0.04
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.00778
+        paramAdd2: 0.02222
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3506"
+        name: 나태의 형상
+        info: "캐릭터 퇴장 시 성스러운 치유 상태에 있을 경우 4초 동안 주변 적의 공격 속도, 이동 속도가 80% 감소하고 허약 상태가 되어
+          캐릭터에게 가하는 모든 대미지가 #1[i]% 감소한다"
+        brief: 캐릭터가 퇴장 시 만약 성스러운 치유 상태라면 주변 적의 공속, 이속이 감소하고 허약 상태로 만든다
+        icon: Skill_Nagative_Survive01
+        maxLv: 40
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01282
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "353"
+    name: 어둠의 질주
+    info: "적의 공격을 빠르게 회피하며 연속으로 2회 회피할 수 있다.\\n<color=#23B2E2FF>그림자: 극한 회피 시, 주변
+      적들에게 공격력 200%의 물리 대미지를 입히고 13초간 추적 표식을 남긴다.\\n성스러운 인장: 극한 회피 시 발동, 성스러운 인장
+      효과를 받아 10초 동안 가하는 모든 물리 대미지가 15% 증가한다. 재사용 대기시간: 15초\\n추격: 극한 회피 후 3초 내에
+      공격 버튼을 누르면 곧바로 돌진 소사를 발동한다</color>"
+    icon: Skill_Kallen_JK_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3507"
+        name: 형영
+        info: "회피 또는 캐릭터 출격 후 #2[f1]초 동안 캐릭터가 받는 물리와 원소 대미지가 #1[f1]% 감소한다. 재사용 대기시간 15초"
+        brief: 회피 혹은 캐릭터가 출전 후 피해 감소 효과를 받는다
+        icon: Skill_Nagative_Survive03
+        maxLv: 30
+        paramBase1: 0.1
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.0069
+        paramAdd2: 0.10345
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3508"
+        name: 허식의 꿈
+        info: "극한 회피로 증가되는 캐릭터의 물리 대미지가 #1[f1]% 증가한다."
+        brief: 극한 회피 시 물리 대미지 증가 효과가 강화된다
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 0.16
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01556
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3509"
+        name: 욕망의 편애
+        info: "극한 회피 스킬의 재사용 대기시간이 #1[f2]초 감소한다. 극한 회피 발동 시, 자신의 HP가 #2[f1] 만큼 회복한다. 만약
+          현재 HP가 HP 최대치의 50% 이하일 경우 #3[f1] HP를 추가로 회복한다. 회복 효과 재사용 대기시간: 5초"
+        brief: 극한 회피 효과 재사용 대기시간 감소. 극한 회피를 발동하면 Hp를 회복하고 Hp가 50% 미만이면 회복량이 증가한다
+        icon: Skill_Nagative_Survive02
+        maxLv: 5
+        paramBase1: 0.5
+        paramBase2: 30
+        paramBase3: 30
+        paramAdd1: 0.375
+        paramAdd2: 10
+        paramAdd3: 10
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "354"
+    name: 매장된 낙원
+    info: "동력 슈트를 소환해 전방의 적을 폭격한다.\\n<color=#23B2E2FF>동력 슈트: 공격 버튼을 길게 누르면 전방의 적을
+      지속적으로 공격한다.\\n발동 소모 SP: 125, 재사용 대기시간: 30초, 필살기 지속 시간: 10초\\n발칸 공격: 적에게
+      공격력 50%의 물리 대미지를 입히고 취약 상태가 아닌 적을 10초 동안 취약 상태로 만들어 방어력을 50% 감소시킨다.\\n미사일
+      공격: 공격력 50%의 물리 대미지를 입힌다.\\n재생: 필살기를 발동하는 동안 캐릭터의 HP가 HP 최대치의 25% 이하일 때 초당
+      200 HP를 회복한다. 이 기간 캐릭터는 사망하지 않으나 교체할 수 없다</color>"
+    icon: Skill_Kallen_JK_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3510"
+        name: 하늘의 계시
+        info: "필살기 발동 시, 15초 지속되는 지원 공격을 소환한다. 13초 동안 추적 표식을 남겨 1초마다 적에게 공격력 #1[i]%의 물리
+          대미지를 입힌다. 캐릭터 퇴장 시 스킬 효과는 종료된다"
+        brief: 필살기 발동 시 짧은 시간 내에 임의의 적에게 추가 대미지를 입히고 추적 표식을 남긴다
+        icon: Skill_Nagative_Skill03
+        maxLv: 6
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "3511"
+        name: 비탄의 식
+        info: "필살기로 추적 표식이 있는 적에게 가하는 모든 대미지가 #1[f1]% 증가한다"
+        brief: 필살기로 추적 표식을 남긴 적에게 가하는 모든 대미지가 증가한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01111
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3512"
+        name: 종언의 검은 태양
+        info: "필살기를 발동하는 15초 동안, 0.5초마다 넓은 범위의 적에게 공격력 #1[f1]%의 화염 원소 대미지를 가한다. 제1격은
+          <color=#FEDF4CFF>연소 게이지를 3pt 누적하고,</color> 다음 공격마다 <color=#FEDF4CFF>연소
+          게이지를 0.3pt 누적한다.</color> 캐릭터 교대 시, 스킬 효과는 즉시 종료된다."
+        brief: 필살기를 발동하는 15초 동안 지속적으로 넒은 범위의 적에게 연소 게이지를 누적한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 4
+        paramBase1: 0.4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.13333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 2
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: false
+        unlockStar: sss
+  - id: "355"
+    name: 암흑의 고동
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>암흑의 고동: {{모든 파티원의 이동 속도
+      #1[i]% 증가. 기계 속성 캐릭터의 공격 속도 추가로 #2[i]% 증가}}</color>"
+    icon: Skill_Kallen_JK_005
+    skillType: leader
+    tags: []
+    paramSubId1: 3513
+    paramSubId2: 3513
+    paramSubId3: 0
+    subSkills:
+      - id: "3513"
+        name: 암흑의 고동
+        info: "모든 파티원의 이동 속도 #1[i]% 증가. 기계 속성의 캐릭터는 공격 속도가 추가로 #2[i]% 증가한다."
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Damage01
+        maxLv: 3
+        paramBase1: 0.15
+        paramBase2: 0.08
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "356"
+    name: 패시브 스킬
+    info: 패시브 스킬은 자동으로 발동된다.\n<color=#23B2E2FF>극한 회피 시, 60초간 성스러운 인장 효과를 얻는다. 지속 시간
+      동안 또 극한 회피를 발동하면 성스러운 인장 효과는 사라지고 대신 10초 동안 성스러운 치유 효과가 발생하여 HP가 최대치의 30%
+      이하일 경우 초당 200 HP를 회복한다</color>
+    icon: Skill_Kallen_JK_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3514"
+        name: 임재
+        info: "성스러운 치유 효과가 발동되는 동안 캐릭터의 방어력이 #1[f1]% 증가한다"
+        brief: 성스러운 치유 효과 지속 기간에 캐릭터의 방어력이 증가한다
+        icon: Skill_Nagative_Skill03
+        maxLv: 10
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02778
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3515"
+        name: 탐욕의 숨결
+        info: "성스러운 치유 효과의 회복량이 #1[f1]% 증가한다"
+        brief: 성스러운 치유 회복 최대치가 증가한다
+        icon: Skill_Nagative_Survive03
+        maxLv: 20
+        paramBase1: 0.31
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "3516"
+        name: 질투의 그림자
+        info: "캐릭터가 연소 또는 출혈 상태의 적에게 가하는 모든 대미지가 #1[f1]% 증가한다"
+        brief: 연소 혹은 출혈 상태의 적에게 가하는 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 35
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00294
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a

@@ -1,0 +1,116 @@
+id: "21001"
+weapons:
+  - id: "28101"
+    rarity: 4
+    maxLv: 40
+    type: pistols
+    name: 초전자 핸드건 진영
+    description: ME사 본사에서 개발한 권총. 9년 전에 획득한 Project-MEI의 실험 데이터를 이용하여 대량의 붕괴 에너지 입자를
+      전자기장 안에 묶는 데 성공했으며, 전자기장을 사용해 탄환의 위력을 대폭 강화시켰다.
+    icon: Weapon_Pistol_K6_11_4
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 61.25
+    attackAdd: 3.0625
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 1.730614
+    criticalAdd: 0.108163
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "81"
+        name: 백만 볼트
+        info: "<color=#FEDF4CFF>[SP 소모: 16][재사용 대기시간: 18초]</color> 목표 주변 넓은 범위의 적에게
+          #1[i]의 뇌전 원소 대미지를 가하고, <color=#FEDF4CFF>마비 게이지를 10pt 누적한다.</color>"
+        icon: Skill_Kiana_Weapon_04
+        skillCd: 18
+        skillSpCost: 16
+        skillSpNeed: 16
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 보통"
+        param1: 250
+        param1Add: 10.674157
+        param2: 1.6
+        param2Add: 0.004494
+        param3: 0
+        param3Add: 0
+      - id: "62"
+        name: 전류 마비
+        info: "적중 시 #1[f1]%의 확률로 목표에게 <color=#FEDF4CFF>마비 게이지를 3pt 누적한다.</color>"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+        param1: 0.01
+        param1Add: 0.000056
+        param2: 1
+        param2Add: 0.005618
+        param3: 0
+        param3Add: 0
+    rankUpMaterials:
+      - id: "1301"
+        amount: 1
+    powerType: 4
+  - id: "28102"
+    rarity: 5
+    maxLv: 50
+    type: pistols
+    name: 초전자 핸드건 진영
+    description: ME사 본사에서 개발한 권총. 9년 전에 획득한 Project-MEI의 실험 데이터를 이용하여 대량의 붕괴 에너지 입자를
+      전자기장 안에 묶는 데 성공했으며, 전자기장을 사용해 탄환의 위력을 대폭 강화시켰다.
+    icon: Weapon_Pistol_K6_11_5
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 70
+    attackAdd: 3.5
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 1.977845
+    criticalAdd: 0.123615
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "81"
+        name: 백만 볼트
+        info: "<color=#FEDF4CFF>[SP 소모: 16][재사용 대기시간: 18초]</color> 목표 주변 넓은 범위의 적에게
+          #1[i]의 뇌전 원소 대미지를 가하고, <color=#FEDF4CFF>마비 게이지를 10pt 누적한다.</color>"
+        icon: Skill_Kiana_Weapon_04
+        skillCd: 18
+        skillSpCost: 16
+        skillSpNeed: 16
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 보통"
+        param1: 676.9663
+        param1Add: 10.674157
+        param2: 1.779775
+        param2Add: 0.004494
+        param3: 0
+        param3Add: 0
+      - id: "62"
+        name: 전류 마비
+        info: "적중 시 #1[f1]%의 확률로 목표에게 <color=#FEDF4CFF>마비 게이지를 3pt 누적한다.</color>"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+        param1: 0.012247
+        param1Add: 0.000056
+        param2: 1.224719
+        param2Add: 0.005618
+        param3: 0
+        param3Add: 0
+    rankUpMaterials:
+      - id: "0"
+        amount: 0
+    powerType: 4

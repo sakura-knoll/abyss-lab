@@ -1,0 +1,372 @@
+id: "422"
+fullName: 체리 폭탄
+shortName: 체리 폭탄
+desc: <color=white>특징:</color> <color=#FF66CCFF>이능 속성</color>의 근거리 전투형 캐릭터. 강력한
+  물리 지속 대미지를 구사한다
+firstName: 로잘리아
+lastName: 아린
+enFirstName: Rozaliya
+enLastName: Olenyeva
+attributeType: psy
+isEasterner: false
+weapon: 2-handed
+character: olenyevas
+initialStar: s
+tags:
+  - physical-dmg
+  - gather
+  - time-mastery
+skills:
+  - id: "431"
+    name: 악랄한 참격
+    info: "대검 4연격\\n<color=#23B2E2FF>1격: 공격력 110%의 물리 대미지\\n2격: 공격력 60%+70%의 물리
+      대미지\\n3격: 공격력 50%+150%의 물리 대미지\\n4격: 공격력 2*40%+200%의 물리 대미지\\n연합 2격: 총 공격력
+      130%+90%의 물리 대미지\\n연합 3격: 공격력 100%+100%의 물리 대미지\\n연합 4격: 총 공격력 140%+100%의
+      물리 대미지\\n연합 5격: 공격력 2*60%+150%의 물리 대미지</color>"
+    icon: Skill_Twins_BS_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4301"
+        name: 묵직한 한방
+        info: "블루베리 특공이 팀에 있으면 자신의 일반 공격이 생물 속성 적에게 가하는 모든 대미지가 #1[i]% 증가한다. 블루베리 특공으로
+          교체 시 블루베리 특공이 전술 강화 상태를 발동해 블루베리 특공의 기본 공격(차지 포함)의 모든 대미지가 #2[i]%
+          증가한다. 지속 시간: 7초"
+        brief: 블루베리 특공이 팀에 있을 때 자신의 기본 공격이 생물 속성 적에게 가하는 대미지 증가, 블루베리 특공으로 교체 시 강화
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0.01667
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "4302"
+        name: <color=#FFC741FF>QTE</color>-로켓 헤딩
+        info: "QTE: 적이 허약 상태 또는 실드 파괴 상태일 때 발동한다. 주변 적에게 공격력 #1[i]%의 물리 대미지를 가하고, 적을
+          끌어당기고 <color=#FEDF4CFF>기절 게이지를 6pt 누적한다.</color> 블루베리 특공이 캐릭터를 교대해 QTE
+          발동 시, 적 모으기 효과가 대폭 강화되고, 추가로 자신의 경직 저항력이 증가하며, 모든 대미지가 #3[i]% 증가한다. 지속
+          시간: 15초(멀티/소대 모드에서 적용 불가)."
+        brief: "QTE: 적이 허약 또는 실드 파괴 상태일 때 QTE 출전, 주변 적에게 물리 대미지를 가하고 기절 게이지를 누적한다."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 10
+        paramBase1: 0.8
+        paramBase2: 0.5
+        paramBase3: 0.02
+        paramAdd1: 0.8
+        paramAdd2: 0.5
+        paramAdd3: 0.02
+        tags:
+          - type: stun
+            strength: 2
+            comment: "기절 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: true
+        unlockStar: s
+      - id: "4313"
+        name: 찰떡궁합
+        info: "기본 연합 공격 3, 4, 5번째마다 블루베리 특공은 SP를 #1[f2]pt 회복한다"
+        brief: 기본 연합 공격은 블루베리 특공의 SP를 회복한다
+        icon: Skill_Nagative_Skill03
+        maxLv: 4
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "432"
+    name: <color=#FFC741FF>차지</color>-울랄라 타이푼
+    info: "빠르게 회전하며 주위의 적을 공격한다.\\n<color=#23B2E2FF>선풍참: 공격 버튼을 길게 눌러 사용하며, 공격력 90%의
+      물리 피해를 입힌다. 버튼에서 손을 떼면 공격을 멈춘다.\\n선풍참을 시전하는 동안 열량이 쌓이며, 과열되면 선풍참을 사용할 수
+      없다. 선풍참 지속 시간이 늘어날수록 캐릭터가 받는 모든 피해가 높아져, 초당 7%씩 최대 7번 중첩되고, 선풍참 종료 후
+      0.1초마다 1단계씩 해제된다.\\n블루베리 특공이 팀에 있으면 선풍참이 서서히 적을 끌어당기며, 이때 공격 버튼을 뗐다가 다시
+      누르면 연합 피니쉬 공격을 발동해 총 공격력 1100%의 물리 피해를 가하지만, 열량이 33% 증가한다\\n</color>"
+    icon: Skill_Twins_BS_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "QTE는 강격이다. 축적 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4303"
+        name: 딴딴한 갑옷
+        info: "선풍참이 이어지는 동안, 자신보다 5m 떨어진 적에게 받는 모든 대미지가 #1[i]% 감소하고, 이 공격들에 대한 경직 저항력이
+          증가한다"
+        brief: 선풍참이 멀리서 오는 공격에 일정한 저항력을 갖는다
+        icon: Skill_Nagative_Survive02
+        maxLv: 5
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.075
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4304"
+        name: 광속회전
+        info: "선풍참의 지속 시간이 길수록 캐릭터가 가하는 물리 대미지가 초당 #1[f1]%씩 최대 7회 중첩되며, 선풍참 종료 후 0.1초마다
+          1단계씩 해제된다. 선풍참과 일반 연계 공격이 명중하면 자신의 SP를 #2[f2] 회복한다. 재사용 대기시간: 1초"
+        brief: 선풍참 지속 시간이 길수록 대미지가 증가하고, 선풍참과 기본 연합 공격이 자신의 SP를 회복한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 12
+        paramBase1: 0.06
+        paramBase2: 0.75
+        paramBase3: 0
+        paramAdd1: 0.00545
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "433"
+    name: 에구구 회피
+    info: "빠르게 적의 공격을 회피하며 연속으로 2회 회피할 수 있다.\\n<color=#23B2E2FF>에너지 실드: 극한 회피 시 3초
+      동안 전체 시공 단열을 발동하고 최대 HP 15%의 모든 대미지를 흡수하는 실드를 생성한다. 실드 지속 시간 6초, 재사용 대기시간:
+      15초</color>"
+    icon: Skill_Twins_BS_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4305"
+        name: 눈부신 속박
+        info: "극한 회피 스킬 발동 시, 주위의 적을 #1[f1]초간 속박한다"
+        brief: 극한 회피 스킬 발동 시, 주위의 적을 속박한다
+        icon: Skill_Nagative_Skill02
+        maxLv: 30
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.06897
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4306"
+        name: 팅팅팅 폭격
+        info: "극한 회피 실드가 있을 때 크리티컬률이 #1[f1]% 증가한다."
+        brief: 극한 회피 실드가 있을 때 자신의 크리티컬률이 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "434"
+    name: 보드카 쵸파☆
+    info: "주위의 적에게 강력한 참격을 시전한다.\\n<color=#23B2E2FF>참격: 공격력 2000%의 물리 대미지를 입힌다.\\n연합
+      참격: 공격력 500%+3000%의 물리 대미지를 입힌다. 블루베리 특공 SP가 35 회복한다.\\n소모 SP: 100, 재사용
+      대기시간: 20초</color>"
+    icon: Skill_Twins_BS_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4307"
+        name: 우당탕 강화
+        info: "필살기 발동 후, 자신의 다음번 선풍참의 모든 대미지가 #1[f1]% 증가한다. 블루베리 특공의 다음번 출전 때 12초 이내 모든
+          대미지가 #2[f1]% 증가한다"
+        brief: 필살기 발동 후 자신과 블루베리 특공의 모든 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4308"
+        name: 스포트라이트 스테이지
+        info: "필살기 사용 후 자신과 블루베리 특공이 받는 모든 피해가 #2[f1]초 동안 #1[i]% 감소한다"
+        brief: 필살기 발동 후 자신과 블루베리 특공이 받는 모든 피해가 감소한다
+        icon: Skill_Nagative_Survive02
+        maxLv: 10
+        paramBase1: 0.15
+        paramBase2: 6
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0.33333
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "435"
+    name: 개막 시간이다!
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>개막 시간이다!: {{모든 파티원의 근접 물리
+      대미지가 #1[f1]% 증가한다}}</color>"
+    icon: Skill_Twins_BS_005
+    skillType: leader
+    tags: []
+    paramSubId1: 4309
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4309"
+        name: 개막 시간이다!
+        info: "모든 파티원의 근접 물리 대미지가 #1[f1]% 증가한다"
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Damage02
+        maxLv: 2
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "436"
+    name: 패시브 스킬
+    info: 패시브 스킬 효과는 자동으로 적용된다.\n<color=#23B2E2FF>파티에 블루베리 특공이 있으면 일부 공격이 연합 공격으로
+      바뀐다. 연합 공격 중의 블루베리 특공은 소환물로 적용되고 연합 공격의 대미지는 체리 폭탄을 기준으로 한다\n블루베리 특공이 있을 때
+      3, 4번째 기본 공격은 열량을 5%/10% 낮추고,  3, 4, 5번째 기본 연합 공격은 열량을 5%/5%/10%
+      낮춘다</color>
+    icon: Skill_Twins_BS_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4310"
+        name: 급소 급습
+        info: "10/30 콤보를 넘으면 발키리의 모든 대미지가 #3[f1]%/#2[f1]% 증가하고, 허약 및 시공 감속 상태의 적에게 가하는
+          모든 대미지가 #1[f1]% 증가한다"
+        brief: 허약 및 시공 감속 상태의 적에 대한 대미지 증가, 30 콤보를 넘으면 대미지 증가
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 0.1
+        paramBase2: 0.2
+        paramBase3: 0.05
+        paramAdd1: 0.04286
+        paramAdd2: 0.04286
+        paramAdd3: 0.02143
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4311"
+        name: 뚠뚠뚠 회복
+        info: "주변에 적이 있을 경우 초당 자신의 HP를 #1[f1]pt 회복한다"
+        brief: 주변에 적이 있을 때 초당 자신의 HP 회복한다
+        icon: Skill_Nagative_Skill02
+        maxLv: 4
+        paramBase1: 8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 2.33333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "4312"
+        name: 긴급 장면 전환
+        info: "블루베리 특공이 파티에 있으면 자신이 전투 불능이 되기 전에 자동으로 블루베리 특공으로 교체하고 HP를 #1[i]pt 회복한다.
+          전투당 1회만 발동"
+        brief: 블루베리 특공이 파티에 있을 때, 자신이 전투 불능이 되기 전에 블루베리 특공으로 교체하고 HP를 회복한다
+        icon: Skill_Nagative_Survive03
+        maxLv: 4
+        paramBase1: 1000
+        paramBase2: 0.5
+        paramBase3: 0
+        paramAdd1: 333.33334
+        paramAdd2: -0.06667
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "581"
+    name: 네온 광상곡
+    info: "대검을 사용하여 적을 공격한다.\\n<color=#23B2E2FF>1격: 공격력 120%의 물리 대미지\\n2격: 공격력
+      70%+70%의 물리 대미지\\n3격: 공격력 40%+120%의 물리 대미지\\n4격: 공격력 180%의 물리 대미지\\n5격:
+      공격력 140%+140%의 물리 대미지\\n6격: 공격력 300%의 물리 대미지\\n앞 3격 도중 회피한 후 공격하면 다음 공격을
+      바로 사용할 수 있고, 4~6격 도중 회피한 후 공격하면 4격을 바로 사용할 수 있다.\\n사용할 때마다 150pt의 블루 에너지를
+      획득한다</color>"
+    icon: Skill_Twins_BS_AF01_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "582"
+    name: <color=#FFC741FF>차지</color>-이중 하모니
+    info: "무기를 충전한 후 적을 공격한다\\n<color=#23B2E2FF>블루 및 레드 에너지가 가득 찼을 때 발동할 수 있으며, 에너지를
+      전부 소모하여 적에게 공격력 400%의 물리 대미지를 가하고 열광 상태에 진입한다: \\n제1격: 총 공격력 240%의 물리
+      대미지\\n제2격: 총 공격력 240%의 물리 대미지\\n제3격: 총 공격력 560%의 물리 대미지\\n열광 상태에서 캐릭터의 경직
+      저항력이 증가하고 차지 공격을 사용할 수 없으며 블루 및 레드 에너지를 획득할 수 없다</color>"
+    icon: Skill_Twins_BS_AF01_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "583"
+    name: 즉흥 스케치
+    info: "고속으로 이동해 공격을 회피한다, 2번 연속 회피할 수 있으며 사용 시 200pt의 레드 에너지를
+      획득한다.\\n<color=#23B2E2FF>에너지 실드: 극한 회피 시 3초 동안 전체 시공 단열에 진입하고 추가로 400pt의
+      레드 에너지를 획득한다. 또한 최대 HP 15%의 모든 대미지를 흡수하는 실드를 6초 동안 생성한다. 재사용 대기시간:
+      15초.\\n열광 상태일 때 시공 단열 발동 시 3초간 열광 에너지를 소모하지 않는다.</color>"
+    icon: Skill_Twins_BS_AF01_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "584"
+    name: 과거의 잔상
+    info: "방어 자세를 취해 공격을 흡수한다\\n<color=#23B2E2FF>SP 소모: 50, 기초 재사용 대기시간: 9초\\n방어 자세를
+      취한다. 지속 시간: 0.7초\\n지속 시간이 끝나거나 공격을 받으면 반격을 발동하여 공격력 400%+400%의 물리 대미지를
+      입힌다.\\n방어 자세를 취하자마자 공격을 받으면 강화 반격을 발동해 공격력 100%+400%+1000%의 물리 대미지를 입히며,
+      1.6초간 지속되는 시공 단열을 발동한다\\n필살기 사용 후 캐릭터는 열광 상태에 진입하고, 광열 상태 종료 시 블루 및 레드
+      에너지는 이전 수치로 회복된다</color>"
+    icon: Skill_Twins_BS_AF01_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "586"
+    name: 이중 흔적
+    info: "패시브 스킬 효과는 자동으로 적용된다\\n<color=#23B2E2FF>에너지: 블루와 레드로 나뉜다(초기 0pt, 최대
+      200pt). 서로 다른 초식을 사용하면 다른 에너지를 얻을 수 있다\\n에너지가 가득 찼을 때 차지 공격을 사용하면 모든 에너지를
+      소모하여 열광 상태에 진입하고, 캐릭터의 일부 초식이 바뀐다\\n열광 상태 진입 시 2400pt의 열광 에너지를 획득하고(최대
+      4800pt), 0.2초마다 75pt 소모하며, 소진 시 종료된다</color>"
+    icon: Skill_Twins_BS_AF01_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []

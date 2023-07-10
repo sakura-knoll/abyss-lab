@@ -1,0 +1,359 @@
+id: "404"
+fullName: 핏빛 장미
+shortName: 핏빛 장미
+desc: <color=white>특징:</color> <color=#FF66CCFF>이능 속성</color>의 근거리 전투형 캐릭터. 다양한
+  화염 기술을 보유하고 있으며, 순간 화력이 강하다.
+firstName: 히메코
+lastName: 무라타
+enFirstName: Himeko
+enLastName: Murata
+attributeType: psy
+isEasterner: true
+weapon: 2-handed
+character: himeko
+initialStar: s
+tags:
+  - fire-dmg
+  - ignite
+  - heavy-atk
+  - burst
+skills:
+  - id: "161"
+    name: <color=#FFC741FF>차지</color> - 선혈의 대검
+    info: "기본 공격: 3연속 직접 공격을 가하고, 차지 후 강력한 연속 공격을 가한다.\\n<color=#23B2E2FF>차지 연속 공격:
+      3연속 공격 후 추가로 공중 내려찍기를 시전하며, 공격도중 경직 저항력이 증가한다.\\n기본 공격: 공격력의
+      150%+180%+220% 물리 대미지를 입힌다.\\n차지: 공격력의 250%+160%+200% 물리 대미지를 입힌다.\\n내려찍기:
+      공격력의 140%+140%+400% 물리 대미지를 입힌다.</color>"
+    icon: Skill_Himeko_NX_001
+    skillType: basic
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "차지 콤보의 마지막 일격은 강격이다. 축적 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1601"
+        name: 플레임 버스트
+        info: "기본 차지 공격의 타격마다 공격력 #1[i]%의 화염 원소 대미지를 추가로 입힌다"
+        brief: 기본 공격/차지 공격의 타격마다 추가 화염 원소 대미지를 입힌다
+        icon: Skill_Nagative_Damage01
+        maxLv: 75
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00676
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1602"
+        name: 피의 메아리
+        info: 차지 공격 중이나 선혈의 자태 공격 기간 피격 시, 공격자에게 <color=#FEDF4CFF>연소 게이지를 5pt
+          누적한다.</color>
+        brief: 차지 공격 중이나 선혈의 자태 공격 기간 피격 시, 공격자에게 연소 게이지를 누적한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 25
+        paramBase1: 120
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 9.58333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 1
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: ss
+      - id: "1616"
+        name: 저력
+        info: "선혈의 자태 종료 시 이번 필살기에서 소모한 HP의 #1[f2]%를 회복한다"
+        brief: 필살기를 끈 후 필살기 지속 기간 동안 소모한 Hp의 일부분을 회복한다
+        icon: Skill_Nagative_Survive03
+        maxLv: 15
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01071
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: ss
+  - id: "162"
+    name: 블러디 스텝
+    info: "회피 도중 가로의 적에게 공격한다.\\n<color=#23B2E2FF>회피 회전 베기: 회피 동작을 하는 동안 공격 버튼을 눌러
+      공격력의 200% 물리 대미지를 입히는 회전 베기를 발동한다. 쿨타임 5초.\\n회전 베기로 적을 명중했을 경우, 자신의 SP가
+      5만큼 추가로 회복한다.\\n회전 베기 후 공격 버튼을 누르면 차지 공격을 발동할 수 있다.\\n돌진 공격: 돌진 중 공격버튼을 눌러
+      넓은 범위에 공격력의 400%의 물리 대미지를 입힌다.</color>"
+    icon: Skill_Himeko_BZ_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "교대기, QTE, 그리고 돌진 공격은 강격이다. 축적 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1603"
+        name: 회전 스텝
+        info: "회피 회전 베기가 #1[f1]%의 확률로 적에게 <color=#FEDF4CFF>연소 게이지를 5pt</color> 누적한다."
+        brief: 회피 회전 베기가 의 확률로 적에게 연소 게이지를 누적한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 20
+        paramBase1: 0.4
+        paramBase2: 48
+        paramBase3: 0
+        paramAdd1: 0.01842
+        paramAdd2: 5.89474
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 1
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: s
+      - id: "1604"
+        name: 내려찍기 스텝
+        info: "교대기: 교대 시 내려찍기를 발동하여 공격력의 #1[i]% + 50% 물리 대미지를 입힌다."
+        brief: 출전 시 내려찍기로 적에게 물리 대미지를 입힌다
+        icon: Skill_Nagative_StartUp02
+        maxLv: 35
+        paramBase1: 2.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04412
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1605"
+        name: <color=#FFC741FF>QTE</color> - 화염의 춤
+        info: "QTE: 적이 기절 상태일 때 강력한 내려찍기를 발동해 공격력 250%+#1[i]%의 물리 대미지를 입히고 폭발하는 불꽃으로
+          #2[i]%의 범위 화염 원소 대미지를 입힌다"
+        brief: "QTE: 적이 기절 상태일 때 QTE 출전, 강력한 내려찍기를 발동해 물리 대미지와 범위 화염 대미지를 가한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 27
+        paramBase1: 2
+        paramBase2: 0.75
+        paramBase3: 0
+        paramAdd1: 0.03885
+        paramAdd2: 0.01538
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "163"
+    name: 피의 악장
+    info: "적의 공격을 측면으로 두번 연속 회피한다.\\n<color=#23B2E2FF>블러디 차지: 극한 회피 후 곧바로 차치 연속 공격을
+      사용할 수 있다.\\n열염분신: 공격한 적을 중심으로 폭발을 일으켜 공격력의 200% 화염 원소 대미지를 입힌다. 재사용 대기시간
+      15초</color>"
+    icon: Skill_Himeko_BZ_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1606"
+        name: 핏빛 세레나데
+        info: 열염분신이 적에게 <color=#FEDF4CFF>연소 게이지를 5pt 누적한다.</color>
+        brief: 열염분신이 적에게 연소 게이지를 누적한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 45
+        paramBase1: 66
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 3.81818
+        paramAdd2: 0.04545
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 1
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: ss
+      - id: "1607"
+        name: 핏빛 협주곡
+        info: "열염분신의 재사용 대기시간 #1[f1]초 감소"
+        brief: 열염분신의 재사용 대기시간 감소
+        icon: Skill_Nagative_Survive01
+        maxLv: 35
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05882
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1608"
+        name: 핏빛 아리아
+        info: "열염분신 발동 시 #2[f1]초 동안 화염의 고리를 생성해서 주변의 적에게 0.3초마다 #1[i]의 화염 원소 대미지를 입힌다."
+        brief: 열염분신 발동 시 화염 고리를 생성하여 주변의 적에게 대미지를 입힌다
+        icon: Skill_Nagative_Damage03
+        maxLv: 30
+        paramBase1: 40
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 3.03448
+        paramAdd2: 0.10345
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "164"
+    name: 선혈의 자태
+    info: "선혈의 자태 발동 중 HP가 시간에 따라 일정 비율로 소모되고, 다시 필살기 버튼을 누르거나 캐릭터를 교대하면 발동을 중지할 수
+      있다.\\n<color=#23B2E2FF>열염: SP 30pt를 소모해 폭발 상태에 진입한다. 공격 버튼을 누르면 차지 공격을 바로
+      발동할 수 있다.\\n제1격: 340%의 물리+310%의 화염. 제2격: 260%의 물리+240%의 화염. 제3격: 300%의
+      물리+250%의 화염. 공중 참격: 2*100%의 물리+2*180%의 화염. 마지막 공격: (380%+50%)
+      물리+(320%+50%) 화염\\n발동 소모 SP: 30, 공격력 200%의 범위 화염 원소 대미지를 가하고</color>
+      <color=#FEDF4CFF>연소 게이지를 6pt 누적한다.</color><color=#23B2E2FF>\\n정화: 받는 모든
+      대미지가 40% 감소하고 기절, 마비, 빙결 상태 이상에 면역된다. 또한 선혈의 자태를 발동할 때마다 실드를 획득해 다음에 받은
+      공격의 대미지를 완전히 막아낸다.</color>"
+    icon: Skill_Himeko_BZ_004
+    skillType: ultimate
+    tags:
+      - type: ignite
+        strength: 2
+        comment: "연소 이상 게이지 누적 가능, 누적 능력: 보통"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1609"
+        name: 선혈 폭발
+        info: "선혈의 자태 발동 중에는 공격 속도가 #1[f1]%, 이동 속도가 #2[f1]% 증가한다."
+        brief: 선혈의 자태에서 이동 속도와 공격 속도가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 18
+        paramBase1: 0.2
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.01765
+        paramAdd2: 0.00882
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1610"
+        name: 선혈 윤무
+        info: "선혈의 자태 발동 중 내려찍기 사용 시 공격 버튼을 누르면 공격 횟수를 최대 #1[i]회까지 증가할 수 있고 매 타격마다 물리
+          대미지와 화염 원소 대미지가 #2[f1]% 증가한다."
+        brief: 선혈의 자태에서 공격 버튼을 누르면 내려찍기 회수가 증가하고 내려찍기의 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 20
+        paramBase1: 1
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.21579
+        paramAdd2: 0.02632
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1611"
+        name: 선혈의 저주
+        info: "선혈의 자태 발동 중 HP가 최대치의 50%보다 낮을 때, 크리티컬률이 #1[i]%, 화염 원소 대미지가 #2[i]% 증가한다."
+        brief: 선혈의 자태에서 HP가 최대치의 50% 미만일 때 크리티컬률과 화염 원소 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 15
+        paramBase1: 0.15
+        paramBase2: 0.16
+        paramBase3: 0
+        paramAdd1: 0.01071
+        paramAdd2: 0.01004
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "165"
+    name: 핏빛 무곡
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>핏빛 무곡: {{모든 파티원의 차지 공격의 모든
+      대미지가 #1% 증가한다. 캐릭터 3명의 속성이 서로 다를 경우 모든 대미지가 #2[i]% 증가한다.}}</color>"
+    icon: Skill_Himeko_VV_005
+    skillType: leader
+    tags: []
+    paramSubId1: 1612
+    paramSubId2: 1612
+    paramSubId3: 0
+    subSkills:
+      - id: "1612"
+        name: 핏빛 무곡
+        info: "모든 파티원은 차지 공격 시, 모든 대미지가 #1[i]% 증가한다. 파티원의 속성이 모두 다를 경우 공격 시 모든 대미지가
+          #2[i]% 증가한다."
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Damage03
+        maxLv: 2
+        paramBase1: 0.15
+        paramBase2: 0.135
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.015
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "166"
+    name: 패시브 스킬
+    info: 패시브 스킬은 자동으로 발동한다.\n<color=#23B2E2FF></color>
+    icon: Skill_Himeko_VV_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1613"
+        name: 불타는 피
+        info: "기본 공격/선혈의 자태 공격이 연소 상태의 적에게 적중 시 #1[i]%의 화염 원소 대미지를 추가로 입힌다"
+        brief: 기본 공격/선혈의 자태에서 연소 상태의 적을 공격 시 추가 화염 원소 대미지를 입힐 수 있다
+        icon: Skill_Nagative_Damage02
+        maxLv: 31
+        paramBase1: 0.9
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1614"
+        name: 수호의 피
+        info: "HP가 최대치의 66%보다 낮을 때, 모든 대미지가 #2[i]% 증가하며, 받는 피해량이 #1[f1]% 감소하고 경직 저항력이
+          증가한다."
+        brief: HP가 최대치의 66% 미만일 때 모든 대미지가 증가하고 받는 물리 대미지 감소 및 경직 저항력이 증가한다
+        icon: Skill_Nagative_Survive02
+        maxLv: 18
+        paramBase1: 0.2
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.00882
+        paramAdd2: 0.01182
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1615"
+        name: 정화의 피
+        info: "HP가 최대치의 50% 미만일 경우, 받는 원소 대미지와 대부분의 디버프 지속 시간이 #1[i]% 감소한다."
+        brief: HP가 최대치의 50% 미만일 때 받는 원소 대미지와 대부분 상태 이상의 지속 시간이 감소한다
+        icon: Skill_Nagative_Survive03
+        maxLv: 20
+        paramBase1: 0.3
+        paramBase2: 0.25
+        paramBase3: 0
+        paramAdd1: 0.01947
+        paramAdd2: 0.01316
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

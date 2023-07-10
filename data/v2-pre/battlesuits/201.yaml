@@ -1,0 +1,303 @@
+id: "201"
+fullName: 펄스 슈트·비홍
+shortName: 펄스 슈트·비홍
+desc: <color=white>특징:</color> <color=#FFAF2CFF>생물 속성</color>의 근거리 전투형 캐릭터. 공격
+  속도가 빠르며, 크리티컬 확률이 높다.
+firstName: 메이
+lastName: 라이덴
+enFirstName: Mei
+enLastName: Raiden
+attributeType: bio
+isEasterner: true
+weapon: katana
+character: mei
+initialStar: b
+tags:
+  - physical-dmg
+  - bleed
+  - burst
+  - time-mastery
+skills:
+  - id: "51"
+    name: 오혼참
+    info: "빠른 속도의 5연속 베기\\n<color=#23B2E2FF>1격: 공격력 100%의 물리 대미지\\n2격: 공격력 120%의 물리
+      대미지\\n3격: 공격력 75%의 물리 대미지\\n4격: 공격력 80%의 물리 대미지\\n5격: 주변 범위에 공격력 250%의 물리
+      대미지</color>"
+    icon: Skill_Mei_CK_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "501"
+        name: 혈앵의 칼날
+        info: "기본 공격이 #1[f1]%의 확률로 적에게 <color=#FEDF4CFF>출혈 게이지를 2pt 누적한다.</color>"
+        brief: 기본 공격이 일정 확률로 적에게 출혈 게이지를 누적한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 0.1
+        paramBase2: 3
+        paramBase3: 3
+        paramAdd1: 0.00345
+        paramAdd2: 1
+        paramAdd3: 0.06897
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "출혈 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+        toggle: false
+        unlockStar: a
+      - id: "502"
+        name: 연속베기
+        info: "콤보 수가 20 이상일 때, 공격 속도 #1[f1]% 증가"
+        brief: 콤보 수가 20을 초과하면 공격 속도가 증가한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 20
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00263
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "503"
+        name: 밤 벚꽃
+        info: "기본 공격의 마지막 일격이 #2[f1]초 동안 분기 공격의 물리 대미지를 #1[i]% 증가시킨다."
+        brief: 기본 공격의 마지막 일격은 분기 공격의 물리 대미지를 잠깐 증가시킨다
+        icon: Skill_Nagative_Damage03
+        maxLv: 28
+        paramBase1: 0.1
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.0037
+        paramAdd2: 0.11111
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "52"
+    name: <color=#FFC741FF>분기 공격</color> - 벚꽃 산란
+    info: "공중 회전 베기로 주변의 적들을 공중으로 띄운다.\\n<color=#23B2E2FF>회전 베기: 공격력의 60%*7 물리
+      대미지.</color>"
+    icon: Skill_Mei_CK_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "504"
+        name: <color=#FFC741FF>QTE</color> - 거합참
+        info: "출격 시 순간 베기를 시전한다. QTE: 적을 공중에 띄우거나 실드를 파괴하면 선풍참격을 발동해 공격력 225%+#1[i]%의 물리
+          대미지를 가한다."
+        brief: "QTE: 적이 공중에 띄워졌을 때 QTE 출전, 선풍참을 발동해 주변 적을 공격한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 70
+        paramBase1: 2.75
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01812
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: b
+      - id: "505"
+        name: 이중 선풍검
+        info: "분기 공격 도중 공격 버튼을 누르면 다시 한 번 분기 공격을 발동할 수 있다. 첫 번째 분기 공격의 #1[f1]% 대미지를
+          입힌다."
+        brief: 분기 공격 시전 도중 공격 버튼을 눌러 1회 추가 발동할 수 있다
+        icon: Skill_Nagative_Skill03
+        maxLv: 40
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01282
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "506"
+        name: 허공 선풍검
+        info: 기본 공격 도중 공격 버튼을 누르고 있으면 분기 공격이 발동된다.
+        brief: 기본 공격 도중 공격 버튼을 누르고 있으면 분기 공격이 발동된다.
+        icon: Skill_Nagative_Skill01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+  - id: "53"
+    name: 질풍의 그림자 칼날
+    info: "적의 공격을 빠르게 대시하여 회피하며 연속으로 2회 회피할 수 있다.\\n<color=#23B2E2FF>시공 단열: 극한 회피 시
+      3초 동안 전체 시공 단열을 발동한다. 재사용 대기시간: 15초</color>"
+    icon: Skill_Mei_CK_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "507"
+        name: 순간 베기
+        info: "회피 후 공격 버튼을 눌러 순간 베기 발동, 회피로 전체 시공 단열을 발동했을 때 순간 베기로 공격력의 #1[f1]% 물리 대미지를
+          추가로 입힌다."
+        brief: 회피 시 공격 버튼을 누르면 순간 베기를 발동할 수 있다, 시공단열을 발동 시전하는 순간 베기는 더 많은 피해를 입힐 수 있다
+        icon: Skill_Nagative_Skill02
+        maxLv: 60
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01695
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "508"
+        name: 그림자의 혼
+        info: "자신이 발동 시킨 전체 시공 단열에서 공격 속도가 #1[f1]% 증가한다."
+        brief: 극한 회피 스킬을 발동 후 공격 속도가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 5
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "514"
+        name: 그림자 끝의 칼날
+        info: "시공 단열 재사용 대기시간 #1[f1]초 감소"
+        brief: 시공단열의 재사용 대기시간이 감소한다
+        icon: Skill_Nagative_Survive01
+        maxLv: 30
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.12069
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "54"
+    name: 아마테라스
+    info: "발키리 에너지를 폭발시켜 전방을 향해 벤다.\\n<color=#23B2E2FF>아마테라스: 최대 1150%의 물리 대미지를
+      입힌다.\\n발동 시 소모 SP: 50</color>"
+    icon: Skill_Mei_CK_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "509"
+        name: 혼의 기운
+        info: "아마테라스가 공격마다 공격력 #1[f1]%의 화염 원소 대미지를 추가로 입히며, 최대 17회까지 발동된다"
+        brief: 아마테라스로 추가 화염 원소 대미지를 입힐 수 있다
+        icon: Skill_Nagative_Damage01
+        maxLv: 35
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00235
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "510"
+        name: 혼의 칼날
+        info: "SP 최대치가 15 증가한다. 아마테라스 사용 시 20 SP를 추가로 소모하고 #1[f1]초 동안 발키리 상태에 진입하여 모든
+          공격을 강화한다."
+        brief: SP 최대치가 증가한다. 아마테라스는 추가로 20 SP를 소모하고 발동 후 발키리 상태에 진입하여 모든 공격을 강화한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 20
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.10526
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: ss
+      - id: "511"
+        name: 벚꽃의 혼
+        info: "발키리 상태에서 모든 도검이 강화되고 타격마다 물리 대미지가 공격력 #1[f1]%만큼 증가한다"
+        brief: 발키리 상태에서 공격마다 추가 물리 피해를 입힌다
+        icon: Skill_Nagative_Damage03
+        maxLv: 25
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00417
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "55"
+    name: 충신의 혼
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>충신의 혼: {{콤보 수가 20 이상일 때, 모든
+      파티원의 물리 대미지 #1[i]% 증가}}</color>"
+    icon: Skill_Mei_CK_005
+    skillType: leader
+    tags: []
+    paramSubId1: 512
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "512"
+        name: 충신의 혼
+        info: "콤보 수가 20 이상일 때, 모든 파티원의 물리 대미지 #1[f1]% 증가"
+        brief: 콤보수가 20을 넘으면 모든 파티원의 물리 대미지가 증가한다
+        icon: Skill_Nagative_Survive01
+        maxLv: 4
+        paramBase1: 0.12
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "56"
+    name: 패시브 스킬
+    info: 패시브 스킬은 자동으로 발동한다.\n<color=#23B2E2FF></color>
+    icon: Skill_Mei_CK_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "513"
+        name: 꿰뚫는 칼날
+        info: "엘리트 실드가 파괴된 적에게 크리티컬률 #1[f1]%, 크리티컬 대미지 #2[f1]% 증가."
+        brief: 엘리트 실드가 파괴된 적을 공격 시 크리티컬률과 크리티컬 대미지가 증가한다
+        icon: Skill_Nagative_Damage01
+        maxLv: 70
+        paramBase1: 0.2
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.00362
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b

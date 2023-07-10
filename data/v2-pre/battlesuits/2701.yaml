@@ -1,0 +1,338 @@
+id: "2701"
+fullName: 계율·죄의 심연
+shortName: 계율·죄의 심연
+desc: <color=white>특징:</color> <color=#FFAF2CFF>생물 속성</color>의 원거리 캐릭터로, 차크람을
+  사용해 법구 모드로 전투하며 적에게 심판을 내린다.
+firstName: 아포니아
+lastName: null
+enFirstName: Aponia
+enLastName: null
+attributeType: bio
+isEasterner: true
+weapon: chakram
+character: aponia
+initialStar: s
+tags:
+  - lightning-dmg
+  - time-mastery
+  - aerial
+skills:
+  - id: "761"
+    name: 애증은 분명한 자유이니
+    info: "차크람을 법구로 사용해 그 안에 담긴 힘으로 적을 공격한다.\\n<color=#23B2E3FF>기본 공격:\\n제1격: 공격력
+      3*65%의 뇌전 원소 대미지를 가한다.\\n제2격: 공격력 6*25%의 뇌전 원소 대미지를 가한다.\\n제3격: 공격력
+      65%+80%의 뇌전 원소 대미지를 가한다.\\n제4격: 공격력 250%의 뇌전 원소 대미지를 가한다.\\n[단죄] 상태에서 공격
+      버튼을 길게 누르면 전장의 적에게 번개를 내려 공격력 100%의 뇌전 원소 대미지를 가한다. 해당 대미지는 분기 공격으로 간주하며,
+      0.35초마다 1회만 발동한다.</color>"
+    icon: Skill_Aponia_C1_TT_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7601"
+        name: 이곳에서 죄업을 속죄하리라
+        info: "[속죄] 카운트 회복 시, 자신의 모든 대미지가 #1[f1]% 증가한다. 지속 시간: #2[f1]초, 중복 발동 시 지속 시간을
+          갱신한다."
+        brief: "[속죄] 카운트 회복 시, 자신의 모든 대미지가 증가한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 10
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7602"
+        name: <color=#FFC741FF>QTE</color>-이 악념을 받아들이리라
+        info: "QTE: 적이 시공 감속 또는 마비 상태일 때 발동한다. 3초 동안 전체 시공 단열을 발동해 적에게 공격력
+          3*100%+4*150%+#1[f1]%의 뇌전 원소 대미지를 가하고 SP를 #2[f1]pt 회복한다."
+        brief: "QTE: 적이 시공 감속 또는 마비 상태일 때 발동한다. 전체 시공 단열을 발동하고 SP를 회복한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 4.5
+        paramBase2: 6
+        paramBase3: 0
+        paramAdd1: 0.45
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "762"
+    name: <color=#FFC741FF>분기</color>-선악은 마음의 증거이니
+    info: "[단죄] 기간, 전장의 파티원이 강화를 획득하고, 공격에 계율·죄의 심연의 대미지가
+      추가된다.\\n<color=#23B2E4FF>[단죄] 상태에서 계율·죄의 심연은 전장의 캐릭터를 축복한다. 그 기간, 파티원 중 뇌전
+      원소 대미지 특성의 캐릭터가 대미지를 가할 경우, 전장의 모든 적에게 추가로 계율·죄의 심연 공격력 135%의 뇌전 원소 대미지를
+      가한다. 0.4초마다 1회만 발동한다.\\n[속죄] 카운트가 가득 찼을 때, 공격 버튼을 길게 누르면 계율·죄의 심연이 [예견자의
+      심판] 상태에 진입해 받는 모든 대미지가 80% 감소하고, 주변의 적에게 지속적으로 뇌폭을 내려 총 공격력 16*125%의 뇌전 원소
+      대미지를 가한다. [속죄] 카운트가 0이 되면, 계율·죄의 심연은 모든 적에게 [제약자의 심판]을 발동해 공격력 1850%의 뇌전
+      원소 대미지를 가하고, [예견자의 심판] 상태가 해제된다.</color>"
+    icon: Skill_Aponia_C1_TT_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7603"
+        name: 가벼이 해하지 말라
+        info: "분기 공격이 가하는 모든 대미지가 #1[f1]% 증가하고, [단죄] 상태에서 분기 공격을 발동할 때마다 [속죄] 카운트를
+          #2[f1]pt 회복한다."
+        brief: 분기 공격이 가하는 모든 대미지가 증가하고, [단죄] 상태에서 분기 공격을 발동할 때마다 [속죄] 카운트를 회복한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.08
+        paramBase2: 8
+        paramBase3: 0
+        paramAdd1: 0.007
+        paramAdd2: 0.2
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7604"
+        name: 허황된 악에 관여하지 말라
+        info: "분기 공격이 가하는 뇌전 원소 대미지가 #1[f1]% 증가하고, [단죄] 상태에서 분기 공격이 적에게 적중할 때마다 캐릭터의 SP를
+          #2[f2]pt 회복한다."
+        brief: 분기 공격이 가하는 뇌전 원소 대미지가 증가하고, [단죄] 상태에서 분기 공격이 적에게 적중할 때마다 캐릭터의 SP를 회복한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.08
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.007
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7615"
+        name: 끝없이 탐하지 말라
+        info: "[제약자의 심판]이 추가로 공격력 #1[f1]%의 뇌전 원소 대미지를 가하고, SP를 #2[f1]pt 회복한다."
+        brief: "[제약자의 심판]이 추가로 뇌전 원소 대미지를 가하고 SP를 회복한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 2
+        paramBase2: 2.5
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 1.25
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+  - id: "763"
+    name: 이 몸은 인과에 순응하리라
+    info: "빠르게 공격을 회피한다. 2회 연속 회피할 수 있다.\\n<color=#23B2E5FF>\\n극한 회피 스킬: 2.5초 동안 전체
+      시공 단열을 발동하고, 모든 적에게 [감화자의 허락]을 발동해 공격력 3*300%의 뇌전 원소 대미지를 가하고, 파티원의 HP를
+      100 회복한다. 재사용 대기시간: 15초</color>"
+    icon: Skill_Aponia_C1_TT_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7605"
+        name: 끊어진 선들을 보아라
+        info: "마비 상태에 빠진 적이 있을 경우, [속죄] 카운트를 #2[f1]pt 회복하고 캐릭터의 극한 회피 스킬을 발동하며(전장에 기타
+          발키리 출전 시에도 적용), 이번 [감화자의 허락]이 가하는 뇌전 원소 대미지가 #1[f1]% 증가한다."
+        brief: 마비 상태에 빠진 적이 있을 경우, [속죄] 카운트를 회복하고, 캐릭터의 극한 회피 스킬을 발동하며, 이번 [감화자의 허락]이
+          가하는 뇌전 원소 대미지가 증가한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.25
+        paramBase2: 20
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 2
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "7606"
+        name: 번뇌를 멸하고 깨달음을 보아라
+        info: "[감화자의 허락]이 가하는 모든 대미지가 #1[f1]% 증가하고, 재사용 대기시간이 #2[f1]초 감소한다."
+        brief: "[감화자의 허락]이 가하는 모든 대미지가 증가하고, 재사용 대기시간이 감소한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.15
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.075
+        paramAdd2: 0.5
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7607"
+        name: 종말의 적막함을 보아라
+        info: "[단죄] 또는 [예견자의 심판] 상태 진입 시 극한 회피 스킬을 발동한다."
+        brief: "[단죄] 또는 [예견자의 심판] 상태 진입 시 극한 회피 스킬을 발동한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "764"
+    name: 이 죄는 영원히 씻을 수 없으니
+    info: "아포니아가 하늘로 올라가 모든 적에게 심판을 내린다.\\n<color=#23B2E6FF>계율·죄의 심연이 고공에서 모든 적에게
+      파멸의 공격을 내려 공격력 14*180%+1280%의 뇌전 원소 대미지를 가한다. 그 기간, 캐릭터가 정체 영역 효과를 발동해
+      캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다.\\n\\n발동 시 소모 SP: 100, 재사용 대기시간:
+      20초</color>"
+    icon: Skill_Aponia_C1_TT_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7608"
+        name: 죄업이 천근 같아 돌이킬 수 없구나
+        info: "[예견자의 심판] 상태 해제 시 필살기가 가하는 모든 대미지가 #1[f1]% 증가한다. 지속 시간: #2[f1]초"
+        brief: "[예견자의 심판] 상태 해제 시 필살기가 가하는 모든 대미지가 증가한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 21
+        paramBase1: 0.175
+        paramBase2: 4
+        paramBase3: 0
+        paramAdd1: 0.00875
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7609"
+        name: 죄업이 깊어 용서받을 수 없구나
+        info: "[단죄] 상태에서 계율·죄의 심연이 전장의 파티원이 발동하는 [선악은 마음의 증거이니]의 뇌전 원소 대미지를 추가로 공격력
+          #1[f1]%만큼 증가시킨다."
+        brief: "[단죄] 상태에서 계율·죄의 심연이 전장의 파티원이 발동하는 [선악은 마음의 증거이니]의 뇌전 원소 대미지를 추가로 증가시킨다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 4
+        paramBase1: 0.08
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "7610"
+        name: 죄업이 파문당해 마땅하구나
+        info: "필살기 발동 후, 아포니아의 기본 공격과 분기 공격이 가하는 모든 대미지가 #1[f1]% 증가하고, 받는 모든 대미지가
+          #2[f1]% 감소한다. 지속 시간: #3[f1]초"
+        brief: 필살기 발동 후, 아포니아의 기본 공격과 분기 공격이 가하는 모든 대미지가 증가하고, 받는 모든 대미지가 감소한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0.15
+        paramBase3: 12
+        paramAdd1: 0.01
+        paramAdd2: 0.015
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "765"
+    name: 계율은 생사를 가르는 운명이니
+    info: "리더로 배치 시 파티원이 버프를 받는다.\\n<color=#23B2E7FF>리더 스킬: {{파티원 원거리 공격의 뇌전 원소 대미지가
+      #1[f1]% 증가하고, 파티원의 모든 대미지가 #2[f1]% 증가한다.}}</color>"
+    icon: Skill_Aponia_C1_TT_005
+    skillType: leader
+    tags: []
+    paramSubId1: 7611
+    paramSubId2: 7611
+    paramSubId3: 0
+    subSkills:
+      - id: "7611"
+        name: 이 계율을 포기하지 말라
+        info: "파티원의 원거리 뇌전 원소 대미지가 #1[f1]% 증가하고, 파티원의 모든 대미지가 #2[f1]% 증가한다."
+        brief: 파티원의 원거리 뇌전 원소 대미지와 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 2
+        paramBase1: 0.32
+        paramBase2: 0.147
+        paramBase3: 0
+        paramAdd1: 0.08
+        paramAdd2: 0.053
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+  - id: "766"
+    name: 이 생은 사념을 금하노라
+    info: "패시브 스킬은 자동으로 발동한다\\n<color=#23B2E8FF>계율·죄의 심연은 전투 중 여러 방법으로 [속죄] 카운트를 회복할
+      수 있다. 카운트 최대치: 200pt\\n캐릭터의 기본 공격 제3격, 제4격이 목표에게 적중 시 [속죄] 카운트를 10/25pt
+      회복한다.\\n캐릭터가 차크람 무기 장비 시 법구로 사용하며, 무기 스킬 [생각을 금하노라]를 획득한다.\\n[속죄] 카운트가 가득
+      차지 않았을 경우, 무기 스킬 발동 시 계율·죄의 심연이 [단죄] 상태에 진입한다.\\n[단죄] 상태에서 [속죄] 카운트를 매초
+      5pt 회복한다, 최대 200pt. [단죄] 상태에서 캐릭터는 무적 상태가 되며, 이동이나 회피할 수 없다. 그 기간, 다른 캐릭터로
+      교대할 수 있으며, 계율·죄의 심연은 충전이 완료될 때까지 전장에 남는다.\\n[속죄] 카운트가 200pt까지 회복되면, 계율·죄의
+      심연은 충전을 완료하고 [단죄] 상태에서 벗어나며, 계율·죄의 심연이 전장대기 상태라면 퇴장하고 자신의 교대 재사용 대기시간을
+      초기화한다.</color>"
+    icon: Skill_Aponia_C1_TT_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7612"
+        name: 나를 따르는 자, 그릇된 길을 걷지 말라
+        info: "[예견자의 심판] 상태 진입 시, 자신이 가하는 모든 대미지가 #1[f1]% 증가한다. 지속 시간: #2[f1]초"
+        brief: "[예견자의 심판] 상태 진입 시, 자신이 가하는 모든 대미지가 증가한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 6
+        paramBase1: 0.12
+        paramBase2: 9
+        paramBase3: 0
+        paramAdd1: 0.036
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7613"
+        name: 나를 따르는 자, 깨달음을 얻어라
+        info: "[제약자의 심판]이 가하는 뇌전 원소 대미지가 #1[f1]% 증가한다. [예견자의 심판] 상태 해제 시, SP를 #2[f1]pt
+          회복한다."
+        brief: "[제약자의 심판]이 가하는 뇌전 원소 대미지가 증가한다. [예견자의 심판] 상태 해제 시, SP를 회복한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 20
+        paramBase1: 0.2
+        paramBase2: 9
+        paramBase3: 0
+        paramAdd1: 0.01316
+        paramAdd2: 0.31579
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "7614"
+        name: 나를 따르는 자, 역경에서 온전하라
+        info: "극한 회피 스킬 발동 시, 적이 계율·죄의 심연에게 받는 뇌전 원소 대미지가 #1[f1]% 증가한다(해당 효과는 독립적으로
+          부여된다). 지속 시간: #2[f1]초, 중복 발동 시 지속 시간을 갱신한다."
+        brief: 극한 회피 스킬 발동 시, 적이 계율·죄의 심연에게 받는 뇌전 원소 대미지가 증가한다(해당 효과는 독립적으로 부여된다). 중복 발동
+          시 지속 시간을 갱신한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 4
+        paramBase1: 0.15
+        paramBase2: 12
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

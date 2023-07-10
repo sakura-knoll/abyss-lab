@@ -1,0 +1,325 @@
+id: "3001"
+fullName: 나선·환상의 상자
+shortName: 나선·환상의 상자
+desc: <color=white>특징:</color> <color=#AE98FFFF>양자 속성</color>의 원거리 캐릭터로, 대포를 사용해
+  공격한다.
+firstName: 빌브이
+lastName: null
+enFirstName: Vill-V
+enLastName: null
+attributeType: qua
+isEasterner: true
+weapon: cannon
+character: vill-v
+initialStar: s
+tags:
+  - fire-dmg
+  - fast-atk
+  - burst
+  - aerial
+  - time-mastery
+skills:
+  - id: "791"
+    name: 대인용 톱니바퀴
+    info: "공격 버튼 또는 필살기 버튼을 누르면 [무장 형태]에 진입한다.\\n<color=#23B2E3FF>무기 버튼을 누르면 [소란 병장]
+      유형을 변경할 수 있다: [회전 기관포·명장] 또는 [대포·경탄]\\n공격 또는 필살기 버튼을 누르면 [소란 병장]을 소환하고,
+      [무장 형태]에 진입할 수 있다.\\n\\n대응하는 [소란 병장] 주변에서 공격 버튼 또는 필살기 버튼을 누르면 해당 유형의 [무장
+      형태]에 진입할 수 있다.</color>"
+    icon: Skill_Vill_V_C1_TK_791
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7901"
+        name: <color=#FFC741FF>QTE</color>-대지를 뒤바꾸는 지레
+        info: "QTE: 적이 시공 감속 또는 연소 상태일 때 발동한다. 1초간 전체 시공 단열을 발동하고, 공격력 #1[f1]%의 화염 원소
+          대미지를 가하며, [회전 기관포·명장]을 소환해 [무장 형태]에 진입한다."
+        brief: 적이 시공 감속 또는 연소 상태일 때 발동한다. 전체 시공 단열을 발동하고, [회전 기관포·명장]을 소환해 [무장 형태]에
+          진입한다.
+        icon: Skill_Nagative_StartUp03
+        maxLv: 11
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "792"
+    name: <color=#FFC741FF>차지</color>-막을 가르는 홀
+    info: "[소란 병장]을 조종해 싸운다.\\n<color=#23B2E4FF>[무장 형태]\\n[회전 기관포·명장]: 공격 버튼을 길게 눌러
+      목표 적을 지속적으로 사격한다. 탄알마다 공격력 30%의 화염 원소 대미지를 가하고, [무장 게이지]를 2pt 회복한다. [최고조]
+      상태 시, 탄알마다 공격력 48%의 화염 원소 대미지를 가한다.\\n[대포·경탄]: 공격 버튼을 길게 눌러 강력 포탄을 발사한다.
+      포탄마다 공격력 450%의 화염 원소 대미지를 가하고, [무장 게이지]를 30pt 회복한다. [최고조] 상태 시, 포탄마다 공격력
+      720%의 화염 원소 대미지를 가한다.\\n필살기 버튼을 누르면 [무장 형태]가 해제된다.\\n[무장 형태]에서 캐릭터가 받는 모든
+      대미지가 60% 감소한다.</color>"
+    icon: Skill_Vill_V_C1_TK_792
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7903"
+        name: 영웅이 돌아오는 저택
+        info: "[무장 형태]에서 가하는 화염 원소 대미지가 #1[f1]% 증가하고, 양자 적에게 가하는 화염 원소 대미지가 추가로 #2[f1]%
+          증가한다."
+        brief: "[무장 형태]에서 가하는 화염 원소 대미지가 증가하고, 양자 적에게 가하는 화염 원소 대미지가 추가로 증가한다."
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.005
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7904"
+        name: 심연이라는 이름의 허들
+        info: "[무장 형태] 진입 시, [무장 게이지]를 #1[f1]pt 즉시 회복한다."
+        brief: "[무장 형태] 진입 시, [무장 게이지]를 즉시 회복한다."
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 2.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7905"
+        name: 먼 하늘로 향하는 방주
+        info: "[무장 형태]에서 차지 공격이 가하는 모든 대미지가 #1[f1]% 증가하고, 추가로 SP를 #2[f1]pt 회복한다. SP 회복
+          재사용 대기시간: 10초"
+        brief: "[무장 형태]에서 차지 공격이 가하는 모든 대미지가 증가하고, 추가로 SP를 회복한다. SP 회복 재사용 대기시간: 10초"
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.07
+        paramBase2: 7
+        paramBase3: 10
+        paramAdd1: 0.008
+        paramAdd2: 0.8
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "793"
+    name: 별들의 운명
+    info: "빠르게 공격을 회피한다. 2회 연속 회피할 수 있다.\\n[무장 형태]에서 실드를 발동해 공격을
+      막는다.\\n<color=#23B2E5FF>극한 회피 스킬: 전체 시공 단열을 3초간 발동하고, [박격포·침묵]을 소환해 8초간 자동
+      공격한다. 포탄마다 공격력 150%의 화염 원소 대미지를 가하고, 2초간 화염 지대를 생성해 범위 내 적에게 매초 공격력 100%의
+      화염 원소 대미지를 가한다.\\n재사용 대기시간: 14초\\n\\n[무장 형태]\\n회피 버튼을 누르면 1.5초간 실드를 발동한다.
+      실드 발동 기간 피격 시 적의 공격을 무효화하고 공격력 100%의 화염 원소 대미지를 가하며, 동시에 극한 회피 스킬을 발동한다.
+      해당 공격이 양자 공격인 경우, 양자 속성의 적에게 양자 붕괴를 1회 가한다.</color>"
+    icon: Skill_Vill_V_C1_TK_793
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7907"
+        name: 에테르 메모리
+        info: "극한 회피 스킬 재사용 대기시간이 #1[f1]초 감소한다. 폭발 상태에서 극한 회피 성공 시, HP를 #2[f1] 회복한다. 재사용
+          대기시간: 2초"
+        brief: "극한 회피 스킬 재사용 대기시간이 감소한다. 폭발 상태에서 극한 회피 성공 시, HP를 회복한다. 재사용 대기시간: 2초"
+        icon: Skill_Nagative_Survive02
+        maxLv: 11
+        paramBase1: 2.5
+        paramBase2: 200
+        paramBase3: 0
+        paramAdd1: 0.25
+        paramAdd2: 20
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7908"
+        name: 존재 기원의 별자리
+        info: "폭발 상태 해제 시, 극한 회피 스킬 재사용 대기시간이 갱신되고, [무장 형태]에서 차지 공격이 가하는 모든 대미지가 #2[f1]%
+          증가한다. 지속 시간: 15초, 중복 발동 시 지속 시간을 갱신한다."
+        brief: "폭발 상태 해제 시, 극한 회피 스킬 재사용 대기시간이 갱신되고, [무장 형태]에서 차지 공격이 가하는 모든 대미지가 증가한다.
+          지속 시간: 15초, 중복 발동 시 지속 시간을 갱신한다."
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 15
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "794"
+    name: 침묵의 피날레
+    info: "[특수 무장·9호]를 조종해 전장을 누빈다.\\n<color=#23B2E6FF>SP가 50pt 이상일 때, 필살기 버튼을 길게
+      누르면 필살기를 발동한다: 나선·환상의 상자가 전장의 모든 [소란 병장]을 회수한 후, 전차 [특수 무장·9호]로 재조립해 폭발
+      상태에 진입하고, 전장의 모든 적에게 공격력 500%의 화염 원소 대미지를 가한다. 양자 속성인 적에게 양자 붕괴를 1회
+      가한다.\\n폭발 상태에서 매초 [전차 게이지]를 28pt 회복한다(최대 200pt).\\n공격 버튼을 길게 누르거나 터치하면
+      공격하며, 공격마다 총 공격력 550%의 화염 원소 대미지를 가한다.\\n[전차 게이지]가 가득 찼을 때 공격 버튼을 길게 누르면
+      [막간 인사]를 발동해 공격력 1000%의 화염 원소 대미지를 가하고, 극한 회피 스킬을 발동한다.\\n회피 버튼을 길게 누르면
+      전차를 조종해 전방의 적에게 매초 공격력 8*100%의 화염 원소 대미지를 가한다.\\n\\n필살기 버튼을 누르면 자폭을 발동한다.
+      전차로 적에게 돌진해 공격력 900%+N*70%의 화염 원소 대미지를 가하고(N: 폭발 상태의 지속 시간, 단위: 초), 폭발 상태가
+      해제된다. 그 기간, 캐릭터가 정체 영역 효과를 발동해 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다.\\n폭발 상태에서
+      매초 SP가 5pt 감소하고, 5초 후 매초 추가로 SP가 10pt 감소한다. 최대 지속 시간: 16초. SP가 소진되거나 지속
+      시간이 끝나면 강제로 자폭을 발동한다.\\n캐릭터 퇴장 시 폭발 상태가 해제된다. 재사용 대기시간: 12초, SP 소모:
+      30</color>"
+    icon: Skill_Vill_V_C1_TK_794
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7906"
+        name: 종막 [전무후무]
+        info: "[막간 인사]가 적에게 적중 시, 나선·환상의 상자가 가하는 화염 원소 대미지가 #1[f1]% 증가한다. 지속 시간: 15초, 중복
+          발동 시 지속 시간을 갱신한다."
+        brief: "[막간 인사]가 적에게 적중 시, 나선·환상의 상자가 가하는 화염 원소 대미지가 증가한다. 지속 시간: 15초, 중복 발동 시
+          지속 시간을 갱신한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 7
+        paramBase1: 0.1
+        paramBase2: 15
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "7909"
+        name: 서막 [거짓을 진실로]
+        info: "폭발 상태에서 가하는 화염 원소 대미지가 #1[f1]% 증가하고, 붕괴 상태의 양자 적에게 가하는 화염 원소 대미지가 #2[f1]%
+          증가한다."
+        brief: 폭발 상태에서 가하는 화염 원소 대미지가 증가하고, 붕괴 상태의 양자 적에게 가하는 화염 원소 대미지가 증가한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0.005
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7910"
+        name: 막간 [무에서 유]
+        info: "[막간 인사]가 가하는 모든 대미지가 #1[f1]% 증가하고, 폭발 상태 진입 5초 후 공격마다 추가로 공격력 #3[f1]%의 화염
+          원소 대미지를 가한다."
+        brief: "[막간 인사]가 가하는 모든 대미지가 증가하고, 폭발 상태 진입 5초 후 공격마다 추가로 화염 원소 대미지를 가한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 1.5
+        paramAdd1: 0.025
+        paramAdd2: 0
+        paramAdd3: 0.15
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "795"
+    name: 나선, 변화무쌍한 속임수
+    info: "리더로 배치 시 파티원이 버프를 받는다.\\n<color=#23B2E7FF>리더 스킬: {{파티원의 모든 대미지가 #1[f1]%
+      증가하고, 화염 원소 대미지가 #2[f1]% 증가한다. 파티원 중 다른 화염 원소 대미지 특성의 발키리가 1명 있을 때마다 화염 원소
+      대미지가 추가로 5% 증가한다.}}</color>"
+    icon: Skill_Vill_V_C1_TK_795
+    skillType: leader
+    tags: []
+    paramSubId1: 7911
+    paramSubId2: 7911
+    paramSubId3: 0
+    subSkills:
+      - id: "7911"
+        name: 나선, 변화무쌍한 속임수
+        info: "파티원의 모든 대미지가 #1[f1]% 증가하고, 화염 원소 대미지가 #2[f1]% 증가한다. 파티원 중 다른 화염 원소 대미지
+          특성의 발키리가 1명 있을 때마다 추가로 화염 원소 대미지가 5% 증가한다."
+        brief: 파티원의 모든 대미지가 증가하고, 화염 원소 대미지가 증가한다. 파티원 중 다른 화염 원소 대미지 특성의 발키리가 1명 있을 때마다
+          추가로 화염 원소 대미지가 증가한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 2
+        paramBase1: 0.16
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0.05
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+  - id: "796"
+    name: 규칙을 뒤엎는 군중
+    info: 패시브 스킬은 자동으로 발동한다.\n<color=#23B2E8FF>[무장 형태] 나선·환상의 상자는 공격을 통해 [무장 게이지]를
+      최대 200pt 획득할 수 있고, 가득 차면 [최고조] 상태에 진입한다. 공격 중단 2초 후 [무장 게이지]가 매초 30pt
+      감소한다.\n\n캐릭터 입장 시 자동으로 [회전 기관포·명장]과 [대포·경탄]을 소환하고, 퇴장 시 [소란 병장]을 파괴해 주변
+      적에게 공격력 150%의 화염 원소 대미지를 가한다.\n\n[무장 형태]는 무기 액티브 스킬을 발동할 수 없다. 무기 버튼을 눌러
+      [회전 기관포·명장]과 [대포·경탄] 간에 전환을 진행하면, [무장 형태]에 진입해 극한 회피 스킬을 발동할 수 있다.\n전환은 최대
+      2회 저장되며, 4초마다 1회 충전된다. [무장 형태] 해제 시 충전 횟수를 리셋한다.</color>
+    icon: Skill_Vill_V_C1_TK_796
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7902"
+        name: 이 이름으로 극악의 웃음을
+        info: "폭발 상태에서 받는 모든 대미지가 #1[f1]% 감소하고, 공격이 가하는 화염 원소 대미지가 #2[f1]% 증가한다. 폭발 상태
+          해제 후 5초 이내 [무장 형태] 진입 시, [무장 게이지]를 #3[f1]pt 즉시 회복한다."
+        brief: 폭발 상태에서 받는 모든 대미지가 감소하고, 공격이 가하는 화염 원소 대미지가 증가한다. 폭발 상태 해제 후 5초 이내 [무장
+          형태] 진입 시, [무장 게이지]를 즉시 회복한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.7
+        paramBase2: 0.1
+        paramBase3: 100
+        paramAdd1: 0
+        paramAdd2: 0.01
+        paramAdd3: 5
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7912"
+        name: 이 이름으로 진미를
+        info: "[최고조] 상태일 때 매초 추가로 SP를 #1[f1]pt, HP를 #2[f1] 회복하고, [무장 형태]에서 차지 공격이 가하는 모든
+          대미지가 #3[f1]% 증가한다."
+        brief: "[최고조] 상태일 때 매초 추가로 SP와 HP를 회복하고, [무장 형태]에서 차지 공격이 가하는 모든 대미지가 증가한다."
+        icon: Skill_Nagative_Skill01
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 15
+        paramBase3: 0.2
+        paramAdd1: 0.1
+        paramAdd2: 1.5
+        paramAdd3: 0.025
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7913"
+        name: 이 이름으로 속박을
+        info: "[무장 형태] 또는 폭발 상태 진입 시, 전장의 모든 적이 나선·환상의 상자에게 받는 화염 원소 대미지가 #1[f1]%
+          증가한다(해당 효과는 독립적인 추가 효과로 간주한다). 지속 시간: 20초, 중복 발동 시 지속 시간을 갱신한다."
+        brief: "[무장 형태] 또는 폭발 상태 진입 시, 전장의 모든 적이 나선·환상의 상자에게 받는 화염 원소 대미지가 증가한다(해당 효과는
+          독립적으로 부여된다). 지속 시간: 20초, 중복 발동 시 지속 시간을 갱신한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.13
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.035
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

@@ -1,0 +1,347 @@
+id: "3201"
+fullName: 시간의 인도자
+shortName: 시간의 인도자
+desc: <color=white>특징:</color> <color=#2CE3FFFF>기계 속성</color>의 원거리, 근거리가 결합된
+  캐릭터로, 차크람을 투척해 전투한다.
+firstName: 아이
+lastName: 히페리온
+enFirstName: AI
+enLastName: Hyperion Λ
+attributeType: mech
+isEasterner: false
+weapon: chakram
+character: ai
+initialStar: a
+tags:
+  - fire-dmg
+  - fast-atk
+  - gather
+  - ignite
+skills:
+  - id: "841"
+    name: 에이머 시스템
+    info: "유연한 몸놀림으로 차크람을 휘둘러 공격한다.\\n<color=#23B2E3FF>제1격: 공격력 80%의 화염 원소 대미지를
+      가한다.\\n제2격: 공격력 90%의 화염 원소 대미지를 가한다.\\n제3격: 차크람을 날려 공격력 60%+10%*(3~7)의 화염
+      원소 대미지를 가한다.\\n제4격: 연속 공격해 공격력 50%+60%+70%의 화염 원소 대미지를 가한다.\\n제5격: 전력을 담아
+      공격해 공격력 120%의 화염 원소 대미지를 가한다.</color>"
+    icon: Skill_AI_C1_JC_841
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8401"
+        name: <color=#FFC741FF>QTE</color>-긴급 개입
+        info: "QTE: 적이 시공 감속 또는 연소 상태일 때 발동한다. 3초 동안 전체 시공 단열을 발동하고 Λ에너지를 300pt 회복한다.
+          차크람을 휘둘러 공격력 120%*8의 화염 원소 대미지를 가하고, 차지 공격을 발동해 연속으로 [에이머-β] 차크람 유닛을
+          투척하며, 모든 Λ에너지를 소모한다. 교대된 캐릭터의 교대 대기시간이 4초 감소한다."
+        brief: "QTE: 적이 시공 감속 또는 연소 상태일 때 발동한다. 캐릭터가 [QTE] 스킬을 사용해 출전 시 전체 시공 단열을 발동하고,
+          차지 공격을 발동해 연속으로 [에이머-β] 차크람 유닛을 투척한다. 교대된 캐릭터의 교대 대기시간이 4초 감소한다."
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+      - id: "8402"
+        name: 독자 제작 재료
+        info: "연소 대미지의 화염 원소 대미지가 #1[f1]% 증가한다."
+        brief: 캐릭터 연소 대미지의 화염 원소 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 8
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8403"
+        name: 시스템 충전
+        info: "중앙의 [에이머-β] 차크람 유닛을 리턴하거나 필살기로 [에이머-γ커터]를 [에이머-Λ영역]으로 강화하면 연소 대미지의 모든
+          대미지가 #1[f1]% 증가한다. 지속 시간: 17초, 중복 발동 시 지속 시간을 갱신한다."
+        brief: 중앙의 [에이머-β] 차크람 유닛을 리턴하거나 필살기로 [에이머-γ커터]를 [에이머-Λ영역]으로 강화하면 연소 대미지의 모든
+          대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "842"
+    name: <color=#FFC741FF>차지</color>-에이머-블레이드
+    info: 연속으로 차크람을 투척해 공격한다.\n<color=#23B2E4FF>Λ에너지가 300에 도달했을 때 공격 버튼을 길게 누르면 모든
+      Λ에너지를 소모하고 차지 공격으로 적에게 다단 공격을 발동해 공격력 80%*6의 화염 원소 대미지를 가한다. 이어서 세 방향을 향해
+      [에이머-β] 차크람 유닛을 투척하고, 경로상의 적에게 공격마다 공격력 40%의 화염 원소 대미지를 가한다. 차크람 유닛은 날아간 후
+      다시 돌아온다.\n차지 공격 발동 후, 일정 시간 내에 무기 스킬 [반격 명령]을 발동할 수 있다. [반격 명령]과 기본 공격은
+      [에이머-β] 차크람 유닛을 적에게 리턴할 수 있으며, 적에게 공격력 25%의 화염 원소 대미지와
+      2*</color><color=#FEDF4CFF>6pt의 연소 게이지를 누적한다.</color> <color=#23B2E2FF>[반격
+      명령] 공격이 적에게 직접 적중 시 공격력 80%*3의 화염 원소 대미지를 가한다.</color>
+    icon: Skill_AI_C1_JC_842
+    skillType: special
+    tags:
+      - type: ignite
+        strength: 2
+        comment: "연소 이상 게이지 누적 가능, 누적 능력: 보통"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8404"
+        name: 비트 드라이브
+        info: "에이머 차크람 유닛을 리턴할 때마다 가하는 화염 원소 대미지가 #1[f1]% 증가한다. 지속 시간: 10초, 최대 3스택 중첩,
+          중복 발동 시 지속 시간을 갱신한다."
+        brief: 에이머-β 차크람 유닛을 리턴할 때마다 가하는 화염 원소 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 1
+        paramAdd1: 0.00556
+        paramAdd2: 0
+        paramAdd3: -0.11111
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "843"
+    name: 경로 계산
+    info: "빠르게 적의 공격을 회피하며, 2회 연속 회피할 수 있다. 회피하는 동시에 공격한다.\\n<color=#23B2E5FF>전방으로
+      회피 시: 적중한 적에게 공격력 65%*2의 화염 원소 대미지를 가한다.\\n후방으로 회피 시: 적중한 적에게 공격력 80%의 화염
+      원소 대미지를 가한다.\\n극한 회피 스킬: 3초 동안 전체 시공 단열을 발동한다. 재사용 대기시간: 15초</color>"
+    icon: Skill_AI_C1_JC_843
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8407"
+        name: 자동 반격 플랜
+        info: 회피 시의 공격도 에이머 차크람 유닛을 리턴할 수 있다.
+        brief: 회피 시의 공격도 에이머 차크람 유닛을 리턴할 수 있다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "844"
+    name: Λ 임팩트
+    info: "에이머 유닛을 연소시키고 연소 영역을 생성한다.\\n<color=#23B2E6FF>지면에 강력한 공격을 발동해 공격력 1200%의
+      화염 원소 대미지를 가하고, 주변에 화염 파동을 일으켜 범위 내 적에게 공격력 800%의 화염 원소 대미지를 가하며,
+      목표에게</color> <color=#FEDF4CFF>연소 게이지를 18pt
+      누적한다.</color><color=#23B2E2FF>\\n전장에 [에이머-γ커터]가 존재할 경우 [에이머-Λ영역]으로 강화된다.
+      지속 시간: 17초. 매초 공격력 25%*3의 화염 원소 대미지를 가하고, 공격마다 목표에게</color>
+      <color=#FEDF4CFF>연소 게이지를 0.2pt 누적하며,</color> <color=#23B2E2FF>지속적으로 적을
+      끌어당긴다. [에이머-Λ영역]은 사라질 때 모든 적에게</color> <color=#FEDF4CFF>연소 게이지를 2pt
+      누적한다.</color><color=#23B2E2FF>\\n소모 SP: 100, 재사용 대기시간: 20초</color>"
+    icon: Skill_AI_C1_JC_844
+    skillType: ultimate
+    tags:
+      - type: ignite
+        strength: 3
+        comment: "연소 이상 게이지 누적 가능, 누적 능력: 강함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8410"
+        name: 임시 제한 조정
+        info: "[에이머-Λ영역] 공격마다 가하는 모든 대미지가 #1[f1]% 증가한다."
+        brief: "[에이머-Λ영역]이 가하는 모든 대미지가 증가한다."
+        icon: Skill_Nagative_Damage01
+        maxLv: 8
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "8411"
+        name: 고성능 모드
+        info: "필살기 발동 후 파티원이 가하는 모든 대미지가 #1[f1]% 증가하고, 근거리와 원거리 공격으로 가하는 모든 대미지가 #2[f1]%
+          증가한다. 지속 시간: 20초, 중복 발동 시 지속 시간을 갱신한다."
+        brief: 필살기 발동 후 파티원이 가하는 모든 대미지가 증가하고, 근거리와 원거리 공격으로 가하는 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 4
+        paramBase1: 0.05
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0.05
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8412"
+        name: 단순 냉각 장치 아님
+        info: "캐릭터가 대기 상태일 때, [에이머-γ커터]와 [에이머-Λ영역]이 공격마다 추가로 공격력 #1[f1]%의 화염 원소 대미지를
+          가한다."
+        brief: 캐릭터가 대기 상태일 때, [에이머-γ커터]와 [에이머-Λ영역]이 공격마다 가하는 화염 원소 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "845"
+    name: 수석 관리자
+    info: "리더로 배치 시 파티원이 버프를 받는다.\\n<color=#23B2E7FF>리더 스킬: {{파티원의 화염 원소 대미지가
+      #1[f1]% 증가하고, 연소 상태의 적에게 가하는 파티원의 모든 원소 대미지가 #2[f1]% 증가한다.}}</color>"
+    icon: Skill_AI_C1_JC_845
+    skillType: leader
+    tags: []
+    paramSubId1: 8413
+    paramSubId2: 8413
+    paramSubId3: 0
+    subSkills:
+      - id: "8413"
+        name: 열정적인 기술 지원
+        info: "파티원의 화염 원소 대미지가 #1[f1]% 증가하고, 파티원이 연소 상태의 적에게 가하는 모든 원소 대미지가 #2[f1]%
+          증가한다."
+        brief: 파티원의 화염 원소 대미지가 증가하고, 파티원이 연소 상태의 적에게 가하는 모든 원소 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 3
+        paramBase1: 0.2
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.025
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "846"
+    name: 에이머-리피터
+    info: "패시브 스킬은 자동으로 발동한다.\\n<color=#23B2E8FF>차크람 무기 장비 시, 무기 스킬을 발동하면 [에이머-α]
+      차크람 유닛을 투척한다. 차크람 유닛은 일정 시간 후 되돌아오며, 적중한 적에게 화염 원소 대미지를 가한다. 차크람이 돌아오는
+      과정에서 아이쨩의 기본 공격이 [에이머-α] 차크람 유닛에 적중하면 적에게 리턴할 수 있으며, 최대 3회 리턴할 수 있다.\\n차크람
+      유닛을 리턴할 때마다 Λ에너지를 100pt 회복한다.\\n차크람 첫 투척 시: 공격마다 공격력 10%의 화염 원소 대미지를
+      가한다.\\n첫 번째 리턴 시: 공격마다 공격력 10%의 화염 원소 대미지를 가한다.\\n두 번째 리턴 시: 공격마다 공격력 10%의
+      화염 원소 대미지를 가한다.\\n세 번째 리턴 시: 공격마다 공격력 10%의 화염 원소 대미지를 가한다.</color>"
+    icon: Skill_AI_C1_JC_846
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8416"
+        name: 기체 예열
+        info: "시간의 인도자가 대기 상태일 때, 파티 내 다른 캐릭터가 연소 상태의 적에게 대미지를 가하면 시간의 인도자가 SP를 1pt
+          회복한다. 발동 재사용 대기시간: 0.2초, 대기 상태에서 해당 방식으로 SP를 최대 #2[f1]pt 회복한다. 캐릭터 교대
+          시 해당 효과를 갱신한다."
+        brief: 시간의 인도자가 대기 상태일 때, 파티 내 다른 캐릭터가 연소 상태의 적에게 대미지를 가하면 시간의 인도자가 SP를 회복한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 14
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 1
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8417"
+        name: 작열 커팅
+        info: "차지 공격으로 세 번째 [에이머-β] 차크람 유닛을 방출하면 5초 동안 캐릭터가 대미지를 가할 때 목표가 받는 화염 원소 대미지가
+          #1[f1]% 증가한다. 지속 시간: 20초, 중복 발동 시 지속 시간을 갱신한다."
+        brief: 차지 공격으로 세 번째 [에이머-β] 차크람 유닛을 방출하면 캐릭터가 대미지를 가할 때 목표가 받는 화염 원소 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 15
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01786
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "847"
+    name: 스마트 커터
+    info: 차지 공격으로 중앙에 투척한 [에이머-β] 차크람 유닛을 리턴하면 [에이머-γ커터]로
+      강화된다.\n<color=#23B2E8FF>[에이머-γ커터]는 적에게 적중 시 제자리에서 12초 동안 지속적으로 공격한다. 매초
+      공격력 15%*3의 화염 원소 대미지를 가하고 지속적으로 적을 끌어당긴다.</color>
+    icon: Skill_AI_C1_JC_847
+    skillType: sp
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8419"
+        name: 지속 공급
+        info: "에이머 차크람 유닛을 리턴할 때마다 HP를 #1[f1], SP를 #2[f1]pt 회복한다."
+        brief: 에이머 차크람 유닛을 리턴할 때마다 HP와 SP를 회복한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 3
+        paramBase1: 100
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: 50
+        paramAdd2: 1.5
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8420"
+        name: 마이크로 발전기
+        info: "중앙의 [에이머-β] 차크람 유닛 리턴 시, 파티원이 SP를 #1[f1]pt 회복한다. 재사용 대기시간: 15초. 중앙의
+          [에이머-β] 차크람 유닛을 리턴하거나 필살기로 [에이머-γ커터]를 [에이머-Λ영역]으로 강화하면 파티원의 화염 원소 대미지가
+          #2[f1]% 증가한다. 지속 시간: 20초, 중복 발동 시 지속 시간을 갱신한다."
+        brief: 중앙의 [에이머-β] 차크람 유닛 리턴 시, 파티원이 SP를 회복하고 화염 원소 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 5
+        paramBase1: 4
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 2
+        paramAdd2: 0.075
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "8421"
+        name: 에너지 최대 출력
+        info: "중앙의 [에이머-β] 차크람 유닛 리턴 시, 캐릭터의 모든 대미지가 #1[f1]% 증가한다. 지속 시간: 20초, 중복 발동 시
+          지속 시간을 갱신한다."
+        brief: 중앙의 [에이머-β] 차크람 유닛 리턴 시, 자신의 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 7
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

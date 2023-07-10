@@ -1,0 +1,386 @@
+id: "901"
+fullName: 내일을 향한 기도
+shortName: 내일을 향한 기도
+desc: <color=white>특징:</color> <color=#FFAF2CFF>생물 속성</color>의 근거리 전투형 캐릭터
+firstName: 아스카
+lastName: null
+enFirstName: Asuka
+enLastName: null
+attributeType: bio
+isEasterner: true
+weapon: lance
+character: asuka
+initialStar: a
+tags:
+  - physical-dmg
+  - time-mastery
+skills:
+  - id: "601"
+    name: 너 바보야?
+    info: "랜스로 적을 공격한다.\\n<color=#23B2E2FF>제1격: 공격력 40%의 물리 대미지+공격력 60%의 물리 대미지를 가하고
+      [영역 에너지]를 20pt 회복한다.\\n제2격: 공격력 50%의 물리 대미지+공격력 50%의 물리 대미지를 가하고 [영역 에너지]를
+      20pt 회복한다.\\n제3격: 공격력 3*60%의 물리 대미지를 가하고 [영역 에너지]를 30pt 회복한다.\\n제4격: 공격력
+      3*70%의 물리 대미지를 가하고 [영역 에너지]를 30pt 회복한다.\\n제5격: 공격력 300%의 물리 대미지를 가하고 [영역
+      에너지]를 30pt 회복한다.</color>"
+    icon: Skill_Asuka_C1_ZT_601
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6001"
+        name: 난 특별해
+        info: "전장에 한 명의 적만 있을 때 가하는 물리 대미지가 #1[f1]% 증가한다."
+        brief: 전장에 한 명의 적만 있을 때 가하는 물리 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6002"
+        name: 혼자서도 충분해
+        info: "3/4/5번째 기본 공격의 경직 저항력이 증가하고, 그 기간 받는 모든 대미지가 #1[f1]% 감소한다."
+        brief: 3/4/5번째 기본 공격의 경직 저항력이 증가하고 받는 대미지가 감소한다.
+        icon: Skill_Nagative_Survive01
+        maxLv: 11
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "6003"
+        name: <color=#FFC741FF>QTE</color>-그러니까 날 지켜봐 줘
+        info: "QTE: 적이 공중에 띄워졌을 때 발동, 3초간 전체 시공 단열을 발동하고 공격력 #1[f1]%의 물리 대미지를 가한다."
+        brief: "QTE: 적이 공중에 띄워졌을 때 QTE가 발동한다."
+        icon: Skill_Nagative_Skill01
+        maxLv: 11
+        paramBase1: 5.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.35
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+  - id: "602"
+    name: <color=#FFC741FF>차지</color>-CHANCE!
+    info: "공격 버튼을 누르고 있는 시간에 따라 강력한 공격을 발동한다.\\n<color=#23B2E2FF>공격 버튼을 길게 눌러 차지 상태에
+      진입 시 받는 모든 대미지가 80% 감소하며, 그 기간 캐릭터는 슈퍼 아머 상태에 돌입하고, 공격 버튼을 누르는 시간에 따라 다른
+      공격을 한다.\\n차지 공격 1단: [영역 에너지] 100pt를 소모하며 전방을 향해 돌진해 목표를 꿰뚫고 공격력 4*100%의 물리
+      대미지를 가한다.\\n차지 공격 2단: [영역 에너지] 200pt를 소모하며 전방의 목표를 공격해 공격력 3*100%+700%의 물리
+      대미지를 가한다.\\n강화 상태가 아닐 경우, 차지 공격 1단은 SP를 5pt, 차지 공격 2단은 15pt를 회복한다.\\n차지 공격
+      후 실드를 획득하며, 받는 다음 공격이 50% 감소한다.</color>"
+    icon: Skill_Asuka_C1_ZT_602
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6004"
+        name: 내게 명령하지 마
+        info: "강화 상태가 아닐 때 차지 공격 2단은 [영역 에너지]를 #1[f1]pt 회복시킨다."
+        brief: 강화 상태가 아닐 때의 차지 공격 2단은 [영역 에너지]를 회복한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 5
+        paramBase1: 30
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6005"
+        name: 알았다니까!
+        info: "차지 공격 2단이 실드가 없는 적에게 가하는 대미지가 #1[f1]% 증가하고, 마지막 공격이 적에게 적중 시, 2초 후 추가로
+          공격력 #2[f1]%의 물리 대미지를 1회 가한다."
+        brief: 차지 공격 2단은 실드가 없는 목표에 가하는 대미지가 증가하고, 적에게 적중 시 추가로 물리 대미지를 가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0.75
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.15
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6006"
+        name: 아직 한 발 남았다
+        info: "차지 공격 1단이 실드에 가하는 대미지가 #1[f1]% 증가하고, 강화 상태에서 차지 공격 시 실드에 가하는 대미지가 #2[f1]%
+          증가한다."
+        brief: 차지 공격 1단이 실드에 가하는 대미지가 증가하고 강화 상태에서 차지 공격 시 실드에 가하는 대미지가 증가한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.5
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "603"
+    name: Eins Zwei Drei
+    info: "빠르게 적의 공격을 회피한다. 연속 2번 회피할 수 있다.\\n<color=#23B2E2FF>극한 회피: 극한 회피 시 3초 간
+      전체 시공 단열을 발동한다. 재사용 대기시간: 15초\\n극한 회피 스킬 발동 후 공격 버튼을 누르면 극한 회피 공격을 발동해 공격력
+      4*120%의 물리 대미지를 가하고, [영역 에너지] 60pt를 회복한다.</color>"
+    icon: Skill_Asuka_C1_ZT_603
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6007"
+        name: 포기한 기원
+        info: "극한 회피 공격으로 가하는 물리 대미지가 #1[f1]% 증가한다."
+        brief: 극한 회피 공격으로 가하는 물리 대미지가 증가한다.
+        icon: Skill_Nagative_Survive02
+        maxLv: 11
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "6008"
+        name: 시간 엮기
+        info: "[Eins Zwei Drei]의 재사용 대기시간이 #1[f1]초 감소한다."
+        brief: "[Eins Zwei Drei]의 재사용 대기시간이 감소한다."
+        icon: Skill_Nagative_Skill02
+        maxLv: 4
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "604"
+    name: 균열의 창
+    info: "강화 상태에 진입하고, 공격 방식이 전환된다.\\n<color=#23B2E2FF>제1격: 공격력 3*70%의 물리 대미지를
+      가한다.\\n제2격: 공격력 3*100%의 물리 대미지를 가한다.\\n제3격: 공격력 400%의 물리 대미지를 가한다.\\n차지
+      공격: 차지 준비 단계를 건너뛰고 곧바로 차지 공격 2단계를 발동해 공격력 3*200%+800%의 물리 대미지를 가한다.\\n피니쉬:
+      강화 상태 기간 필살기를 다시 사용하면 랜스를 공중으로 던지고, 랜스가 땅으로 떨어지면 공격력 1500%+15*50%+500%의 물리
+      대미지를 가하고 강화 상태가 해제된다.\\n재사용 대기시간: 18초. SP 소모: 100, 지속 시간: 12초\\n강화 상태에
+      진입하면 [영역 에너지]를 200pt 획득하고, 강화 상태 동안 매초 [영역 에너지]를 30pt 회복한다.</color>"
+    icon: Skill_Asuka_C1_ZT_604
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6009"
+        name: 영역·가시
+        info: "강화 상태 기간, 캐릭터 출전 시 전장의 모든 적이 받는 물리 대미지가 #1[f1]% 증가한다."
+        brief: 강화 상태 기간, 캐릭터 출전 시 전장의 모든 적이 받는 물리 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6010"
+        name: 영역·축복
+        info: "강화 상태 기간, 캐릭터가 받는 모든 대미지가 #1[f1]% 감소하고, 경직 저항력이 대폭 증가한다."
+        brief: 강화 상태 기간, 캐릭터의 경직 저항력이 증가하고, 받는 모든 대미지가 감소한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 6
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "6011"
+        name: 영역·충격
+        info: "강화 상태 기간, 크리티컬률이 #1[f1]% 증가하고, 차지 공격/[순간, 마음을 합쳐]/필살기 피니쉬 크리티컬 대미지가
+          #2[f1]% 증가한다."
+        brief: 강화 상태 기간, 크리티컬률이 증가하고, 차지 공격/[순간, 마음을 합쳐]/필살기 피니쉬 크리티컬 대미지가 증가한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.005
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "605"
+    name: 초심, 회귀
+    info: "리더로 배치 시, 파티원이 버프를 받는다.\\n<color=#23B2E2FF>초심, 회귀: {{파티원 출전 후 15초 동안 모든
+      대미지가 #1[f1]% 증가하고, 파티원 3명이 모두 생물 속성일 때 자신이 실드에 가하는 대미지가 #2[f1]%
+      증가한다}}</color>"
+    icon: Skill_Asuka_C1_ZT_605
+    skillType: leader
+    tags: []
+    paramSubId1: 6012
+    paramSubId2: 6012
+    paramSubId3: 0
+    subSkills:
+      - id: "6012"
+        name: 초심, 회귀
+        info: "파티원 출전 시 15초 동안 모든 대미지가 #1[f1]% 증가하고, 파티원 3명이 모두 생물 속성일 경우 자신이 실드에 가하는
+          대미지가 #2[f1]% 증가한다."
+        brief: 파티원 출전 시 15초 동안 모든 대미지가 증가하고, 파티원 3명이 모두 생물 속성일 경우 실드에 가하는 대미지가 증가한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 4
+        paramBase1: 0.2
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.1
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "606"
+    name: 오늘은 이만 안녕
+    info: "캐릭터는 자동으로 패시브 스킬 버프를 받는다.\\n<color=#23B2E2FF>[영역 에너지]: 최대치
+      200pt\\n</color>"
+    icon: Skill_Asuka_C1_ZT_606
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6013"
+        name: 희망의 여정에서
+        info: "캐릭터의 초기 [영역 에너지]가 #1[f1]pt 증가한다."
+        brief: 캐릭터의 초기 [영역 에너지]가 증가한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 100
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 50
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "6014"
+        name: 기쁨을 소중히
+        info: "캐릭터가 사망하기 직전, 지속 시간 1.5초의 무적 상태를 획득한다. 이때 HP를 #1[f1]% 회복하고, 6초 동안 매초 HP를
+          #2[f1]% 회복한다. 재사용 대기시간: 120초"
+        brief: 캐릭터가 사망하기 직전, 자동으로 무적 상태가 발동하고, HP를 회복한다.
+        icon: Skill_Nagative_Survive02
+        maxLv: 6
+        paramBase1: 0.15
+        paramBase2: 0.03
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.004
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "6015"
+        name: 다시 만나는 그날까지
+        info: "캐릭터가 적의 실드를 파괴하면 SP를 #1[f1]pt 회복한다. 재사용 대기시간: 10초"
+        brief: 적 실드 파괴 시 SP를 회복한다.
+        icon: Skill_Nagative_Survive02
+        maxLv: 6
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "607"
+    name: 순간, 마음을 합쳐
+    info: 차지 공격 후 공격 버튼을 눌러 특수 공격을 발동한다.\n<color=#23B2E2FF>캐릭터 차지 1단/차지 2단 후, 공격 버튼을
+      눌러 특수 공격을 발동하면 공격력 300%의 물리 대미지를 가하며, 강화 상태에서는 공격력 600%의 물리 대미지를 가하고, [영역
+      에너지를 50pt 회복한다.</color>
+    icon: Skill_Asuka_C1_ZT_607
+    skillType: sp
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6016"
+        name: Try again
+        info: "[순간, 마음을 합쳐] 공격의 모든 대미지가 #1[f1]% 증가하고, SP를 #2[f1]pt 회복한다."
+        brief: "[순간, 마음을 합쳐] 공격의 모든 대미지가 증가하하고, SP를 회복한다."
+        icon: Skill_Nagative_Damage02
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.4
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6017"
+        name: 불협화음
+        info: "강화 상태가 아닐 때 [순간, 마음을 합쳐]가 적에게 적중 시 파티원은 12초 동안 강화를 획득한다(초기화 가능) 아스카가 전장에
+          있을 때 파티원이 적을 공격하면 아스카는 SP를 #1[f1]pt 회복하고 파티원은 공유하는 1초간의 재사용 대기시간에
+          돌입한다."
+        brief: 강화 상태가 아닐 때 [순간, 마음을 합쳐]가 적에게 적중 시 파티원은 강화를 획득하고, 파티원이 적을 공격하면 아스카는 SP를
+          회복한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 6
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "6018"
+        name: Shall we dance?
+        info: "[순간, 마음을 합쳐]가 적에게 적중 시 캐릭터는 HP를 #1[f1]pt 회복한다."
+        brief: "[순간, 마음을 합쳐]가 적에게 적중 시 HP를 회복한다."
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 60
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 30
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

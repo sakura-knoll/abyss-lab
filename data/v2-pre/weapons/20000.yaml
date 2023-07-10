@@ -1,0 +1,270 @@
+id: "20000"
+weapons:
+  - id: "29001"
+    rarity: 4
+    maxLv: 35
+    type: 2-handed
+    name: 헌원검
+    description: 고대 문명이 남긴 궁극의 신기. 붕괴 에너지를 이용하여 뇌전, 화염, 빙결 세 원소의 힘을 자유자재로 조종할 수 있다.
+      그 힘은 이 시대 인류의 인지능력을 훨씬 초월하고 있다. <color=#FF9BFF>이 무기의 진정한 힘은 이미
+      각성하였다.</color>
+    icon: Weapon_Claymore_H16_97_4
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 65
+    attackAdd: 3.25
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 6.5
+    criticalAdd: 0.40625
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1005"
+        name: 원소 폭발
+        info: "<color=#FEDF4CFF>[SP 소모: 9][재사용 대기시간: 12초]</color> 연속 사용 시 뇌전, 화염과 빙결 원소를
+          순서대로 방출한다. 각 공격마다 적에게 공격력의 #1[i]% 물리 대미지+#2[i]% 상응하는 원소 대미지를 가하고, 각각
+          <color=#FEDF4CFF>마비, 연소, 빙결 게이지를 5pt 누적한다.</color>\\n액티브 스킬 사용 후 일정
+          기간(뇌전, 화염, 빙결 속성 각각 4초, 7초, 10초), 캐릭터 주변 일정 범위 내에 있는 적은 1초마다 낙뢰, 운석과
+          우박의 공격을 받아 캐릭터 공격력의 #3[i]% 원소 대미지를 받는다."
+        icon: Skill_Himeko_Weapon_11
+        skillCd: 12
+        skillSpCost: 9
+        skillSpNeed: 9
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+          - type: ignite
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+          - type: freeze
+            comment: "빙결 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+        param1: 1.2
+        param1Add: 0.007101
+        param2: 1.2
+        param2Add: 0.007101
+        param3: 0.5
+        param3Add: 0.002959
+      - id: "2003"
+        name: 헌원의 수호
+        info: "차지 공격의 모든 대미지가 #1[i]% 증가한다. 피격 혹은 극한 회피 후 타깃에게 영체로 된 두개의 헌원검을 발사하여 경로상의
+          적을 관통 후 띄워서 #2[i]% 물리 대미지를 입힌다, 재사용 대기시간 10초."
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.1
+        param1Add: 0.000888
+        param2: 1
+        param2Add: 0.005917
+        param3: 0
+        param3Add: 0
+    rankUpMaterials:
+      - id: "6002"
+        amount: 3
+      - id: "1302"
+        amount: 1
+      - id: "4004"
+        amount: 3
+    powerType: 4
+  - id: "29002"
+    rarity: 4
+    maxLv: 40
+    type: 2-handed
+    name: 헌원검
+    description: 고대 문명이 남긴 궁극의 신기. 붕괴 에너지를 이용하여 뇌전, 화염, 빙결 세 원소의 힘을 자유자재로 조종할 수 있다.
+      그 힘은 이 시대 인류의 인지능력을 훨씬 초월하고 있다. <color=#FF9BFF>이 무기의 진정한 힘은 이미
+      각성하였다.</color>
+    icon: Weapon_Claymore_H16_97_4
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 70
+    attackAdd: 3.5
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 7
+    criticalAdd: 0.4375
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1005"
+        name: 원소 폭발
+        info: "<color=#FEDF4CFF>[SP 소모: 9][재사용 대기시간: 12초]</color> 연속 사용 시 뇌전, 화염과 빙결 원소를
+          순서대로 방출한다. 각 공격마다 적에게 공격력의 #1[i]% 물리 대미지+#2[i]% 상응하는 원소 대미지를 가하고, 각각
+          <color=#FEDF4CFF>마비, 연소, 빙결 게이지를 5pt 누적한다.</color>\\n액티브 스킬 사용 후 일정
+          기간(뇌전, 화염, 빙결 속성 각각 4초, 7초, 10초), 캐릭터 주변 일정 범위 내에 있는 적은 1초마다 낙뢰, 운석과
+          우박의 공격을 받아 캐릭터 공격력의 #3[i]% 원소 대미지를 받는다."
+        icon: Skill_Himeko_Weapon_11
+        skillCd: 12
+        skillSpCost: 9
+        skillSpNeed: 9
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+          - type: ignite
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+          - type: freeze
+            comment: "빙결 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+        param1: 1.448521
+        param1Add: 0.007101
+        param2: 1.448521
+        param2Add: 0.007101
+        param3: 0.60355
+        param3Add: 0.002959
+      - id: "2003"
+        name: 헌원의 수호
+        info: "차지 공격의 모든 대미지가 #1[i]% 증가한다. 피격 혹은 극한 회피 후 타깃에게 영체로 된 두개의 헌원검을 발사하여 경로상의
+          적을 관통 후 띄워서 #2[i]% 물리 대미지를 입힌다, 재사용 대기시간 10초."
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.131065
+        param1Add: 0.000888
+        param2: 1.207101
+        param2Add: 0.005917
+        param3: 0
+        param3Add: 0
+    rankUpMaterials:
+      - id: "6002"
+        amount: 3
+      - id: "1302"
+        amount: 2
+      - id: "4004"
+        amount: 8
+    powerType: 4
+  - id: "29003"
+    rarity: 4
+    maxLv: 45
+    type: 2-handed
+    name: 헌원검
+    description: 고대 문명이 남긴 궁극의 신기. 붕괴 에너지를 이용하여 뇌전, 화염, 빙결 세 원소의 힘을 자유자재로 조종할 수 있다.
+      그 힘은 이 시대 인류의 인지능력을 훨씬 초월하고 있다. <color=#FF9BFF>이 무기의 진정한 힘은 이미
+      각성하였다.</color>
+    icon: Weapon_Claymore_H16_97_4
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 75
+    attackAdd: 3.75
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 7.5
+    criticalAdd: 0.46875
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1005"
+        name: 원소 폭발
+        info: "<color=#FEDF4CFF>[SP 소모: 9][재사용 대기시간: 12초]</color> 연속 사용 시 뇌전, 화염과 빙결 원소를
+          순서대로 방출한다. 각 공격마다 적에게 공격력의 #1[i]% 물리 대미지+#2[i]% 상응하는 원소 대미지를 가하고, 각각
+          <color=#FEDF4CFF>마비, 연소, 빙결 게이지를 5pt 누적한다.</color>\\n액티브 스킬 사용 후 일정
+          기간(뇌전, 화염, 빙결 속성 각각 4초, 7초, 10초), 캐릭터 주변 일정 범위 내에 있는 적은 1초마다 낙뢰, 운석과
+          우박의 공격을 받아 캐릭터 공격력의 #3[i]% 원소 대미지를 받는다."
+        icon: Skill_Himeko_Weapon_11
+        skillCd: 12
+        skillSpCost: 9
+        skillSpNeed: 9
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+          - type: ignite
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+          - type: freeze
+            comment: "빙결 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+        param1: 1.732544
+        param1Add: 0.007101
+        param2: 1.732544
+        param2Add: 0.007101
+        param3: 0.721893
+        param3Add: 0.002959
+      - id: "2003"
+        name: 헌원의 수호
+        info: "차지 공격의 모든 대미지가 #1[i]% 증가한다. 피격 혹은 극한 회피 후 타깃에게 영체로 된 두개의 헌원검을 발사하여 경로상의
+          적을 관통 후 띄워서 #2[i]% 물리 대미지를 입힌다, 재사용 대기시간 10초."
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.166568
+        param1Add: 0.000888
+        param2: 1.443787
+        param2Add: 0.005917
+        param3: 0
+        param3Add: 0
+    rankUpMaterials:
+      - id: "6002"
+        amount: 3
+      - id: "1302"
+        amount: 3
+      - id: "4004"
+        amount: 12
+    powerType: 4
+  - id: "29004"
+    rarity: 5
+    maxLv: 50
+    type: 2-handed
+    name: 헌원검
+    description: 고대 문명이 남긴 궁극의 신기. 붕괴 에너지를 이용하여 뇌전, 화염, 빙결 세 원소의 힘을 자유자재로 조종할 수 있다.
+      그 힘은 이 시대 인류의 인지능력을 훨씬 초월하고 있다. <color=#FF9BFF>이 무기의 진정한 힘은 이미
+      각성하였다.</color>
+    icon: Weapon_Claymore_H16_97_5
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 80
+    attackAdd: 4
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 8
+    criticalAdd: 0.5
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1005"
+        name: 원소 폭발
+        info: "<color=#FEDF4CFF>[SP 소모: 9][재사용 대기시간: 12초]</color> 연속 사용 시 뇌전, 화염과 빙결 원소를
+          순서대로 방출한다. 각 공격마다 적에게 공격력의 #1[i]% 물리 대미지+#2[i]% 상응하는 원소 대미지를 가하고, 각각
+          <color=#FEDF4CFF>마비, 연소, 빙결 게이지를 5pt 누적한다.</color>\\n액티브 스킬 사용 후 일정
+          기간(뇌전, 화염, 빙결 속성 각각 4초, 7초, 10초), 캐릭터 주변 일정 범위 내에 있는 적은 1초마다 낙뢰, 운석과
+          우박의 공격을 받아 캐릭터 공격력의 #3[i]% 원소 대미지를 받는다."
+        icon: Skill_Himeko_Weapon_11
+        skillCd: 12
+        skillSpCost: 9
+        skillSpNeed: 9
+        tags:
+          - type: paralyze
+            comment: "마비 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+          - type: ignite
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+          - type: freeze
+            comment: "빙결 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+        param1: 2.052071
+        param1Add: 0.007101
+        param2: 2.052071
+        param2Add: 0.007101
+        param3: 0.85503
+        param3Add: 0.002959
+      - id: "2003"
+        name: 헌원의 수호
+        info: "차지 공격의 모든 대미지가 #1[i]% 증가한다. 피격 혹은 극한 회피 후 타깃에게 영체로 된 두개의 헌원검을 발사하여 경로상의
+          적을 관통 후 띄워서 #2[i]% 물리 대미지를 입힌다, 재사용 대기시간 10초."
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags: []
+        param1: 0.206509
+        param1Add: 0.000888
+        param2: 1.710059
+        param2Add: 0.005917
+        param3: 0
+        param3Add: 0
+    rankUpMaterials:
+      - id: "0"
+        amount: 0
+    powerType: 4

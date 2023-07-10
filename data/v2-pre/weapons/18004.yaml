@@ -1,0 +1,114 @@
+id: "18004"
+weapons:
+  - id: "26007"
+    rarity: 4
+    maxLv: 35
+    type: 2-handed
+    name: 니드호그 비늘
+    description: 무기 “니드호그의 날개발톱”의 강화형 “신좌” 계열 무기 중 하나로, 붕괴능 입자를 사용한다 총신의 거치를 구동하면
+      초고주파 회전으로 거대 용의 비늘처럼 모든 것을 조각낸다
+    icon: Weapon_Claymore_H5_57_4
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 67.09473
+    attackAdd: 3.354736
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 5.892329
+    criticalAdd: 0.368271
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1078"
+        name: EX-사망의 엄습
+        info: "<color=#FEDF4CFF>[SP 소모: 25][재사용 대기시간: 12초]</color> 전기톱으로 적을 찔러 범위 내 적에게
+          공격력의 24*#1[i]% 물리 대미지를 입히고, 마지막에 무기를 뽑아 주변 적을 넉백시켜 공격력의 #2[i]% 물리 대미지를
+          입힌다; 대미지를 입히는 동안 자신은 무적 상태가 된다."
+        icon: Skill_Himeko_Weapon_03
+        skillCd: 12
+        skillSpCost: 25
+        skillSpNeed: 25
+        tags: []
+        param1: 0.6
+        param1Add: 0.003571
+        param2: 5.5
+        param2Add: 0.035714
+        param3: 0
+        param3Add: 0
+      - id: "206"
+        name: 죽음을 가르다
+        info: "공격 시 #1[f1]%의 확률로 <color=#FEDF4CFF>출혈 게이지를 5pt 누적한다.</color>"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: bleed
+            comment: "출혈 이상 게이지 누적 가능, 누적 능력: 약함"
+        param1: 0.1
+        param1Add: 0.00119
+        param2: 200
+        param2Add: 3.571429
+        param3: 0
+        param3Add: 0
+    rankUpMaterials:
+      - id: "1301"
+        amount: 1
+    powerType: 1
+  - id: "26008"
+    rarity: 5
+    maxLv: 50
+    type: 2-handed
+    name: 니드호그 비늘
+    description: 무기 “니드호그의 날개발톱”의 강화형 “신좌” 계열 무기 중 하나로, 붕괴능 입자를 사용한다 총신의 거치를 구동하면
+      초고주파 회전으로 거대 용의 비늘처럼 모든 것을 조각낸다
+    icon: Weapon_Claymore_H5_57_5
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 82.578125
+    attackAdd: 4.128906
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 7.252097
+    criticalAdd: 0.453256
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "1078"
+        name: EX-사망의 엄습
+        info: "<color=#FEDF4CFF>[SP 소모: 25][재사용 대기시간: 12초]</color> 전기톱으로 적을 찔러 범위 내 적에게
+          공격력의 24*#1[i]% 물리 대미지를 입히고, 마지막에 무기를 뽑아 주변 적을 넉백시켜 공격력의 #2[i]% 물리 대미지를
+          입힌다; 대미지를 입히는 동안 자신은 무적 상태가 된다."
+        icon: Skill_Himeko_Weapon_03
+        skillCd: 12
+        skillSpCost: 25
+        skillSpNeed: 25
+        tags: []
+        param1: 0.725
+        param1Add: 0.003571
+        param2: 6.75
+        param2Add: 0.035714
+        param3: 0
+        param3Add: 0
+      - id: "206"
+        name: 죽음을 가르다
+        info: "공격 시 #1[f1]%의 확률로 <color=#FEDF4CFF>출혈 게이지를 5pt 누적한다.</color>"
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: bleed
+            comment: "출혈 이상 게이지 누적 가능, 누적 능력: 약함"
+        param1: 0.141667
+        param1Add: 0.00119
+        param2: 325
+        param2Add: 3.571429
+        param3: 0
+        param3Add: 0
+    rankUpMaterials:
+      - id: "0"
+        amount: 0
+    powerType: 1

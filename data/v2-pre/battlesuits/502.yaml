@@ -1,0 +1,440 @@
+id: "502"
+fullName: 처형복·반혼초
+shortName: 처형복·반혼초
+desc: <color=white>특징:</color> <color=#2CE3FFFF>기계 속성</color>의 중거리 전투형 캐릭터. 다양한
+  영체 무기의 스킬을 활용하고, 적을 출혈 상태로 만들어 피해를 입힌다.
+firstName: 테레사
+lastName: 아포칼립스
+enFirstName: Theresa
+enLastName: Apocalypse
+attributeType: mech
+isEasterner: false
+weapon: cross
+character: theresa
+initialStar: s
+tags:
+  - physical-dmg
+  - bleed
+  - heavy-atk
+  - burst
+  - fast-atk
+skills:
+  - id: "201"
+    name: 처형의 창
+    info: "기본 공격: 영체로 된 할버드로 중거리 4연격\\n<color=#23B2E2FF>1격: 공격력 30%*3 물리 대미지\\n2격:
+      공격력 30%*3 물리 대미지\\n3격: 공격력 45%*4 물리 대미지\\n4격: 넓은 범위에 공격력 45%*6 물리
+      대미지</color>"
+    icon: Skill_Theresa_YD_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2001"
+        name: 철의 강타
+        info: "기본 공격/필살기 제4격이 크리티컬 시, #1[f2]%의 확률로 적에게 <color=#FEDF4CFF>기절 게이지를 3pt
+          누적한다.</color> 재사용 대기시간: 1초"
+        brief: 기본 공격/필살기 제4격이 크리티컬 시, 일정 확률로 적에게 기절 게이지를 누적한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 34
+        paramBase1: 0.17
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.0303
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 1
+            comment: "기절 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: s
+      - id: "2002"
+        name: 날카로운 강철 치마
+        info: "기본 공격 / 필살기 4연격 도중 경직 저항력이 상승한다. 적에게 피격 시 #1[f1]% 확률로 받는 모든 대미지를 #2[i]
+          감소시키며 자신 주변의 적에게 공격력 #3[f1]%의 물리 대미지를 입히고 다운시킨다"
+        brief: 4연격의 경직 저항력이 증가하고 피격 시 일정 확률로 받는 대미지가 감소하고 주변의 적에게 대미지를 입힌다
+        icon: Skill_Nagative_Damage02
+        maxLv: 16
+        paramBase1: 0.2
+        paramBase2: 150
+        paramBase3: 1.2
+        paramAdd1: 0.01
+        paramAdd2: 13
+        paramAdd3: 0.08667
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "2015"
+        name: 진신 격파
+        info: "기본 공격/폭발 상태 4단 공격/비혈 상태 5단 공격이 현재 실드의 보호를 받고 있지 않은 적에게 가하는 물리 대미지가
+          #1[f1]% 증가한다. 실드 보호를 받고 있는 적에게 가하는 크리티컬 대미지가 #2[f1]% 증가한다"
+        brief: 기본 공격/폭발 상태 4단 공격/비혈 모드 5단 공격이 현재 실드의 보호를 받고 있지 않은 적에게 가하는 물리 대미지 증가. 실드
+          보호를 받고 있는 적에게 가하는 크리티컬 대미지 증가
+        icon: Skill_Nagative_Damage03
+        maxLv: 17
+        paramBase1: 0.25
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.01563
+        paramAdd2: 0.0125
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "202"
+    name: <color=#FFC741FF>차지</color> - 심판의 창
+    info: "기본 공격 4연격 중 풀차지 시 다단 공격한다.\\n<color=#23B2E2FF>제재장창: 기본 공격 4연격 중 공격 버튼을 눌러
+      차지하고, 짧은 시간 안에 풀차지하여 발동한다. 총 9자루의 창을 던겨 타격마다 공격력의 100% 물리 대미지를 입히고 적을 공중에
+      띄운다.</color>"
+    icon: Skill_Theresa_TP_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2003"
+        name: 장창 차지
+        info: "심판의 창의 각 단계가 적중할 때마다 #1[f1]%의 확률로 적에게 <color=#FEDF4CFF>출혈 게이지를 2pt
+          누적한다.</color>"
+        brief: 심판의 창이 일정 확률로 적에게 출혈 게이지를 누적한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 26
+        paramBase1: 0.1
+        paramBase2: 120
+        paramBase3: 0
+        paramAdd1: 0.006
+        paramAdd2: 9.6
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "출혈 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: s
+      - id: "2004"
+        name: <color=#FFC741FF>교대기</color> - 빛의 창
+        info: "교대기: 심판의 창이 9번 솟아올라 타격마다 공격력의 #1[i]% 물리 대미지를 입히고 적을 띄운다."
+        brief: 출전 시 바로 심판의 창이 9번 솟아올라 적에게 물리 대미지를 입힌다
+        icon: Skill_Nagative_StartUp02
+        maxLv: 31
+        paramBase1: 0.75
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01503
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2005"
+        name: <color=#FFC741FF>QTE</color> - 이중 빛의 창
+        info: "QTE: 적이 시공 감속 상태일 때 발동\\n적을 향해 교차되는 2줄의 심판의 창을 6자루 던져 타격마다 공격력의 #1[i]% 물리
+          대미지를 입히고 적을 띄운다."
+        brief: "QTE: 적이 시공 감속 상태일 때 QTE 출전, 6단 심판의 창 두 줄을 날려 물리 대미지를 가한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 18
+        paramBase1: 1.08
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03065
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "203"
+    name: 아이언 메이든
+    info: "연속으로 2회까지 빠르게 회전하여 회피한다.\\n<color=#23B2E2FF>극한 회피 후 3초 동안 이동 속도가 40%
+      증가한다.\\n아이언 메이든: 극한 회피 시 거대 할버드를 떨어뜨려서, 공격한 적 및 주변에 있는 적에게 공격력의 200% 물리
+      대미지를 입히고 다운시킨다. 재사용 대기시간 15초</color>"
+    icon: Skill_Theresa_YD_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2006"
+        name: 아이언 메이든
+        info: "회피 시 자신 주변의 적에게 공격력의 #1[f1]% 물리 대미지를 입힌다."
+        brief: 회피 시 주변의 적에게 물리 대미지를 입힌다
+        icon: Skill_Nagative_Damage01
+        maxLv: 70
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00464
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "2007"
+        name: 블러디 메이든
+        info: 대형 도끼가 적에게 적중 시, 적에게 <color=#FEDF4CFF>출혈 게이지를 3pt 누적한다.</color>
+        brief: 대형 도끼가 적에게 적중 시, 적에게 출혈 게이지를 누적한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 25
+        paramBase1: 300
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 18.75
+        paramAdd2: 0.10417
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "출혈 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: s
+      - id: "2008"
+        name: 급속 냉각
+        info: "극한 회피로 발동되는 스킬 재사용 대기시간 #1[f2]초 감소"
+        brief: 극한 회피 발동 스킬 재사용 대기시간 감소
+        icon: Skill_Nagative_Damage03
+        maxLv: 18
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.11765
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "204"
+    name: 처단 모드
+    info: "처단 모드: 발키리 상태에 진입하여 4연격이 경직력이 더욱 강력한 폭발 공격으로 변한다.\\n<color=#23B2E2FF>폭발:
+      80 SP를 소모해 8초 동안 폭발 상태에 진입한다, 폭발 상태 중에는 이상 상태에 면역된다.\\n1격: 공격력 2*75%의 물리
+      대미지\\n2격: 공격력 2*65%의 물리 대미지\\n3격: 공격력 2*(50%+70%)의 물리 대미지\\n4격: 공격력
+      2*(60%+80%+100%)의 물리 대미지</color>"
+    icon: Skill_Theresa_TP_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 1
+        comment: "폭발 상태의 연격은 강격이다. 다단 축적 가능, 축적 능력: 약"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2009"
+        name: 처단 시작
+        info: "폭발 발동 순간 자신 주변의 적에게 공격력 #1[f1]%의 물리 대미지를 가하고, 적을 공중에 띄운 후
+          <color=#FEDF4CFF>출혈 게이지를 6pt 누적한다.</color>"
+        brief: 폭발 발동 순간 주변의 넓은 범위의 적에게 물리 대미지를 가하고, 적을 공중에 띄운 후 출혈 게이지를 누적한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 34
+        paramBase1: 1.5
+        paramBase2: 275
+        paramBase3: 0
+        paramAdd1: 0.04545
+        paramAdd2: 14.39394
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 2
+            comment: "출혈 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: false
+        unlockStar: s
+      - id: "2010"
+        name: 출혈 쇼크
+        info: "필살기의 각 단계가 적중할 때마다 #1[f1]%의 확률로 적에게 <color=#FEDF4CFF>출혈 게이지를 2pt
+          누적한다.</color>"
+        brief: 폭발 공격 적중 시, 일정 확률로 적에게 출혈 게이지를 누적한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 14
+        paramBase1: 0.12
+        paramBase2: 450
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 40.76923
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "출혈 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: s
+      - id: "2016"
+        name: 중재자
+        info: "폭발 4연격 중 4번째 공격의 크리티컬률이 #1[f1]% 증가한다"
+        brief: 필살기의 4번째 공격이 명중 시 크리티컬률이 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 14
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01923
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "205"
+    name: 처형 Time
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>처형 Time: {{폭발 상태/필살기 물리
+      대미지가 #1[i]% 증가하며, 파티원 중 다른 속성이 하나라도 있으면 공격 시 모든 대미지가 #2[i]%
+      증가한다}}</color>"
+    icon: Skill_Theresa_YD_005
+    skillType: leader
+    tags: []
+    paramSubId1: 2011
+    paramSubId2: 2011
+    paramSubId3: 0
+    subSkills:
+      - id: "2011"
+        name: 처형 Time
+        info: "캐릭터 폭발 상태/필살기의 물리 대미지가 #1[i]% 증가하며, 파티원 중 다른 속성이 하나라도 있으면 공격 시 모든 대미지가
+          #2[i]% 증가한다"
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Damage03
+        maxLv: 2
+        paramBase1: 0.16
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "206"
+    name: 패시브 스킬
+    info: 패시브 스킬은 자동으로 발동한다.\n<color=#23B2E2FF></color>
+    icon: Skill_Theresa_YD_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2012"
+        name: 건드리지 마, 이 변태!
+        info: "십자가를 전개 후, #1[f2]초 동안 모든 파티원이 받는 모든 대미지가 #2[f1]% 감소한다"
+        brief: 십자가를 전개 후 모든 파티원이 받는 모든 대미지가 감소한다
+        icon: Skill_Nagative_Survive03
+        maxLv: 17
+        paramBase1: 4
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0.25063
+        paramAdd2: 0.0125
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "2013"
+        name: 정의의 뒤통수치기
+        info: "출혈 상태의 적 공격 시 해당 타깃과 타깃 주변 적에게 공격력 3*#1[i]%의 물리 대미지를 입힌다. 재사용 대기시간:
+          #2[f2]초"
+        brief: 출혈 상태의 적을 공격 시 작은 범위의 적에게 추가로 3단 물리 대미지를 입힌다
+        icon: Skill_Nagative_Damage03
+        maxLv: 60
+        paramBase1: 1.25
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.01712
+        paramAdd2: -0.02542
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2014"
+        name: 세상에서 제일 귀여워!
+        info: "전투 중 초기 SP #1[f1] 증가\\n오픈 월드에서는 10분에 한 번씩 발동 가능"
+        brief: 전투 중 초기 SP가 증가하고 오픈월드에서는 10분에 한 번씩 발동한다
+        icon: Skill_Nagative_Survive02
+        maxLv: 32
+        paramBase1: 15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.67774
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "471"
+    name: 황혼의 칼날
+    info: "중거리 4연격 황혼의 칼날 던지기로 공격한다.\\n<color=#23B2E2FF>제1격: 공격력 3*40%의 물리 대미지를
+      가한다.\\n제2격: 공격력 3*45%의 물리 대미지를 가한다.\\n제3격: 공격력 6*30%의 물리 대미지를 가한다.\\n제4격:
+      공격력 11*45%의 물리 대미지를 가한다.\\n공격이 적에게 적중 시 비혈치가 7pt 증가한다.\\n기본 상태 제4격이 적에게 적중
+      시 적에게</color> <color=#FEDF4CFF>출혈 게이지를 2pt
+      누적한다.</color><color=#23B2E2FF></color>"
+    icon: Skill_Theresa_C2_Artifact_001
+    skillType: basic
+    tags:
+      - type: bleed
+        strength: 1
+        comment: "출혈 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "472"
+    name: 광야의 피
+    info: "피를 흡수해 비혈 상태에 진입한다.\\n<color=#23B2E2FF>발동: 비혈치가 가득 차면 공격 버튼을 길게 눌러서 발동한다.
+      적에게 돌진해 공격력 4*160%의 물리 대미지를 가하며, 적을 날린다.\\n비혈 상태에서 받는 모든 대미지가 40% 감소하고, 경직
+      저항력이 소폭 증가한다.\\n제1격: 공격력 4*50%의 물리 대미지를 가한다.\\n제2격: 공격력 4*50%의 물리 대미지를
+      가한다.\\n제3격: 공격력 4*(45%+30%)의 물리 대미지를 가한다.\\n제4격: 공격력 180%+적중 횟수(최대
+      12회)*공격력 60%의 물리 대미지를 가한다. 최대 12회 적중.\\n제5격: 공격력 4*70%+150%+3*100%+190%의
+      물리 대미지를 가하고,</color> <color=#FEDF4CFF>출혈 게이지를 3pt
+      누적한다.</color><color=#23B2E2FF>\\n비혈 상태에서 차지 공격을 해제하고, 빠르게 적에게 돌진해 공격력
+      4*120%의 물리 대미지를 가한다.</color>"
+    icon: Skill_Theresa_C2_Artifact_002
+    skillType: special
+    tags:
+      - type: bleed
+        strength: 1
+        comment: "출혈 이상 게이지 누적 가능, 누적 능력: 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "473"
+    name: 그림자의 성도
+    info: "적의 공격을 측면으로 회피한다. 2회 연속 회피할 수 있다.\\n<color=#23B2E2FF>극한 회피 후 칼날 처단이 발동해
+      3초간 이동 속도가 40% 증가한다.\\n칼날 처단: 3초간 시공 단열 발동, 비혈치 100pt 회복. 타깃에게 고속회전하는 황혼의
+      칼날을 던져 일반 상태에선 공격력 19*8%의 물리 대미지를 가하고, 비혈 상태에선 19*16%의 물리 대미지를 가하며 적중 후
+      적에게</color> <color=#FEDF4CFF>출혈 게이지를 3pt 누적한다.</color> <color=#23B2E2FF>칼날
+      처단 재사용 대기시간: 15초</color>"
+    icon: Skill_Theresa_C2_Artifact_003
+    skillType: evasion
+    tags:
+      - type: bleed
+        strength: 1
+        comment: "출혈 이상 게이지 누적 가능, 누적 능력: 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "474"
+    name: 초승달의 판결
+    info: "처형 시작!\\n<color=#23B2E2FF>황혼의 칼날을 조종해 범위 내의 적들을 공중으로 띄우고 공격력 4*80%의 범위 물리
+      대미지를 입힌다. 이어서 황혼의 칼날 4개를 여러개로 분산하여 떨어트리며 공격력 10*120%의 물리 대미지를 입힌다. 마지막에
+      거대한 십자가 1개를 소환해 적을 찍어 눌러 공격력 600%의 물리 대미지를 입힌다.\\n필살기 종료 후 비혈 모드에 바로 진입하여
+      크리티컬률이 15% 증가한다, 지속 시간: 15초\\n재사용 대기시간: 25초, SP 소모: 100</color>"
+    icon: Skill_Theresa_C2_Artifact_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "476"
+    name: 패시브 스킬
+    info: "패시브 스킬은 자동으로 발동된다.\\n<color=#23B2E2FF>비혈치: 초기 0pt, 최대 500pt, 비혈치가 가득 차면
+      공격 버튼을 꾸욱 눌러 비혈 모드에 진입한다.\\n비혈 모드에서는 비혈치의 소모가 점점 빨라지며,  발동 후 6초 동안 0.1초당
+      5pt 감소, 6초 이후부턴 0.1초당 7.5pt 감소, 12초 이후부턴 0.1초당 10pt 감소. 비혈치가 0이 되면 비혈 모드가
+      해제된다</color>"
+    icon: Skill_Theresa_C2_Artifact_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []

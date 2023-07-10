@@ -1,0 +1,369 @@
+id: "803"
+fullName: 데아 앵커
+shortName: 데아 앵커
+desc: <color=white>특징:</color> <color=#FFAF2CFF>생물 속성</color>의 근거리 전투형 캐릭터
+firstName: 듀란달
+lastName: null
+enFirstName: Durandal
+enLastName: null
+attributeType: bio
+isEasterner: true
+weapon: lance
+character: durandal
+initialStar: s
+tags:
+  - fire-dmg
+  - ignite
+  - time-mastery
+  - gather
+skills:
+  - id: "591"
+    name: 오리온자리·현의 열풍
+    info: "격투기와 쌍랜스로 적을 공격해 물리 대미지와 화염 대미지를 가한다.\\n<color=#23B2E2FF>\\n기본 공격:\\n제1격:
+      총 공격력 80%의 물리 대미지 + 공격력 80%의 화염 원소 대미지를 가한다.\\n제2격: 총 공격력 85%의 물리 대미지 +
+      공격력 85%의 화염 원소 대미지를 가한다.\\n제3격: 총 공격력 240%의 화염 원소 대미지를 가한다.\\n제4격: 총 공격력
+      360%의 화염 원소 대미지를 가한다.\\n제5격: 총 공격력 500%의 화염 원소 대미지를 가한다.\\n강화 공격:\\n제3격: 총
+      공격력 340%의 화염 원소 대미지를 가한다\\n제4격: 총 공격력 520%의 화염 원소 대미지를 가한다.\\n제5격: 총 공격력
+      680%의 화염 원소 대미지를 가한다</color>"
+    icon: Skill_Durandal_C3_SW_591
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5901"
+        name: 오리온자리α
+        info: "기본 공격 제5격에 적중한 적에게 <color=#FEDF4CFF>연소 게이지를 #1[f1]pt 누적한다.</color>"
+        brief: 기본 공격 제5격에 적중한 적에게 연소 게이지를 누적하고, 해당 적은 지속적으로 화염 원소 대미지를 받는다.
+        icon: Skill_Nagative_Skill01
+        maxLv: 11
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.3
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 2
+            comment: "연소 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: false
+        unlockStar: s
+      - id: "5902"
+        name: 오리온자리β
+        info: "기본 공격 및 강화 공격의 3, 4, 5번째 공격에 받는 모든 대미지가 #1[f1]% 감소한다"
+        brief: 기본 공격 및 강화 공격의 3, 4, 5번째 공격에 받는 모든 대미지가 감소
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5903"
+        name: <color=#FFC741FF>QTE</color>-오리온자리γ
+        info: "QTE: 적이 공중에 띄워지거나 연소 상태일 때 발동, 3초 동안 전체 시공 단열을 발동, 공격력 #1[f1]%의 화염 원소
+          대미지를 가하고, SP를 #2[f1] 회복하며, 주변 적을 모은다."
+        brief: "QTE: 적이 공중에 띄워지거나 연소 상태 시 발동, 3초 동안 전체 시공 단열을 발동, 대량의 화염 원소 대미지를 가하고,
+          SP를 회복하며, 주변 적을 모은다."
+        icon: Skill_Nagative_StartUp01
+        maxLv: 11
+        paramBase1: 9
+        paramBase2: 6
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0.4
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "592"
+    name: 헤라클레스자리·검의 영광
+    info: 몸 안에 있는 별의 힘을 해방해 [별의 인도자] 형태에 진입한다. 이 기간 데아 앵커의 폭발적인 전투력이 한층 더
+      강화된다.\n<color=#23B2E2FF>\n[별 에너지]가 200pt에 도달했을 때 공격 버튼을 길게 누르면 [별의 인도자
+      주형]을 진행해 데아 앵커는 [별의 인도자] 형태에 진입하고, [별의 인도자] 형태에서 초당 20pt의 [별 에너지]를
+      소모한다.\n데아 앵커는 [별의 인도자 주형]을 1번만 진행하고, 그 후에는 [응집 폭발] 형식으로 [별의 인도자] 형태에
+      진입한다.\n[별의 인도자 주형]과 [응집 폭발]은 모두 차지 공격에 속하며, 공격력 800%의 화염 원소 대미지를 가하고, 2초간
+      지속하는 전체 시공 단열을 발동한다</color>
+    icon: Skill_Durandal_C3_SW_592
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5904"
+        name: 헤라클레스자리β
+        info: "[별의 인도자] 형태에서 가하는 모든 대미지가 #1[f1]% 증가하고, 경직 저항력이 증가하며, 받는 모든 대미지가 #2[f1]%
+          감소한다"
+        brief: "[별의 인도자] 형태에서 가하는 모든 대미지와 경직 저항력이 증가하며, 받는 모든 대미지가 감소한다"
+        icon: Skill_Nagative_Skill02
+        maxLv: 21
+        paramBase1: 0.3
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.005
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5905"
+        name: 헤라클레스자리ζ
+        info: "[별의 인도자] 형태에 진입 시 즉시 #1[i]pt의 SP를 획득한다. 이후 0.2초마다 #2[f1]pt의 SP를 회복한다. 지속
+          시간: 5초"
+        brief: "[별의 인도자] 형태에 진입 시 즉시 SP를 회복한다. 이후 일정 시간 동안 SP를 지속적으로 회복한다"
+        icon: Skill_Nagative_Skill03
+        maxLv: 21
+        paramBase1: 20
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "593"
+    name: 페가수스자리·하늘을 쫓는 날개
+    info: "빠른 이동으로 공격을 회피하고, 이어서 특수 공격을 진행한다. 2회 연속 회피 가능\\n<color=#23B2E2FF>회피 후,
+      [비성권]을 이어서 발동해 공격력 120%의 화염 원소 대미지를 가한다. [비성권]은 이어서 기본 공격 제2격을 발동할 수
+      있다.\\n극한 회피 후 극한 회피 스킬 [하늘을 쫓는 날개]를 발동할 수 있다: 3초간 전체 시공 단열을 발동하고 극한 회피 공격을
+      이어 발동할 수 있으며, 총 공격력 600%의 화염 원소 대미지를 가한다. 극한 회피 공격 후 이어서 기본 공격 제3격을 발동할 수
+      있다. 재사용 대기시간: 15초</color>"
+    icon: Skill_Durandal_C3_SW_593
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5907"
+        name: 페가수스자리ε
+        info: "극한 회피 스킬 [하늘을 쫓는 날개]의 재사용 대기시간이 #1[f1]초 감소된다"
+        brief: 극한 회피 스킬 [하늘을 쫓는 날개]의 재사용 대기시간이 감소된다
+        icon: Skill_Nagative_Skill01
+        maxLv: 11
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.15
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5908"
+        name: 페가수스자리β
+        info: "[하늘을 쫓는 날개] 마지막 일격이 적에게 적중 시 SP를 #1[i]pt 회복한다"
+        brief: "[하늘을 쫓는 날개] 마지막 일격이 적에게 적중 시 SP를 회복한다"
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "594"
+    name: 사수자리·꿰뚫는 별빛
+    info: "데아 앵커는 여러 가지 필살기로 전투를 진행한다. [별의 인도자] 형태에서 필살기는 강화되어 초·필살기를 발동할 수 있다.
+      \\n<color=#23B2E2FF>\\n필살기 발동 조건: 맨손 상태에서 [성염권] 발동, 쌍랜스 상태에서(기본 공격 3, 4,
+      5격) [성연의 창] 발동. 각 필살기는 연속으로 번갈아 발동할 수 있다.\\n일반 형태에서 필살기 발동 시 SP를 15 소모하고,
+      [별 에너지]를 50 회복하며 필살기 기간, 캐릭터는 슈퍼 아머 상태가 된다.\\n[성염권]: 적에게 다단 공격을 가하고 총 공격력
+      1000%의 화염 원소 대미지를 가한다.\\n[성연의 창]: 뛰어오르면서 적을 향해 환창을 던져 범위 내의 적에게 공격력의 800%의
+      화염 원소 대미지를 가하고 주위 적을 2초간 끌어당긴다.\\n[별의 인도자] 형태에서 진화된 필살기를 발동한다. SP를 15 소모하고
+      [별 에너지]는 회복하지 않는다. 필살기 기간 캐릭터는 무적 상태이며 [별 에너지]를 소모하지 않는다.\\n[성염권·극]:
+      [성염권]의 진화 스킬로 총 공격력 1280%의 화염 원소 대미지를 가한다.\\n[성연의 창·극]: [성연의 창]의 진화 스킬로
+      환창을 두 번 던져 공격력 720%의 화염 원소 대미지를 가하고, 적위에 3개의 [환창]을 생성해 범위 내의 적을 공격하며 공격력
+      3*80%의 화염 원소 대미지를 가한다.\\n[별의 인도자] 형태에서 진화 필살기를 연속 2회 발동한 후 다시 필살기 버튼을 누르면
+      초·필살기 [꿰뚫는 별빛]을 발동한다: 별들의 에너지가 데아 앵커를 금빛으로 에워싸고, 양 날개는 천궁으로, 창은 화살이 되어 적을
+      향해 별무리를 꿰뚫는 일격을 가하여 전방 범위 내의 적에게 공격력 700%의 화염 원소 대미지를 가한다. 이때 SP를 1 소모할
+      때마다 공격력 60%의 화염 원소 대미지를 추가로 가한다(최대 소모 SP:35).\\n[꿰뚫는 별빛]을 발동한 후 [별의 인도자]
+      형태에서 벗어나고, [별 에너지]는 전부 리셋된다.\\n필살기는 적에게</color> <color=#FEDF4CFF>연소 에너지를
+      3pt 누적한다.</color><color=#23B2E2FF></color>"
+    icon: Skill_Durandal_C3_SW_594
+    skillType: ultimate
+    tags:
+      - type: ignite
+        strength: 1
+        comment: "연소 이상 게이지 누적 가능, 누적 능력: 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5910"
+        name: 사수자리ε
+        info: "필살기가 연소 상태의 적에게 가하는 화염 원소 대미지가 #1[f1]% 증가하고, 필살기 기간 받는 모든 대미지가 #2[f1]%
+          감소한다"
+        brief: 필살기가 연소 상태의 적에게 주는 원소 대미지가 증가하고, 필살기 기간 받는 모든 대미지가 감소된다
+        icon: Skill_Nagative_Damage02
+        maxLv: 31
+        paramBase1: 0.3
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0.00667
+        paramAdd2: 0.00833
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5911"
+        name: 사수자리ν
+        info: "[성염권·극] 마지막 일격이 추가로 공격력 #1[f1]%의 화염 원소 대미지를 가한다. [성연의 창·극]은 추가로 창을 2개
+          생성하고, 모든 창이 가하는 화염 원소 대미지가 #2[f1]% 증가한다"
+        brief: "[성염권·극] 마지막 일격이 추가로 화염 원소 대미지를 가한다. [성연 창·극]은 추가로 창을 2개 생성하고 모든 창이 가하는
+          화염 원소 대미지가 증가한다"
+        icon: Skill_Nagative_Damage02
+        maxLv: 21
+        paramBase1: 2
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0.06
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "5912"
+        name: 사수자리γ
+        info: "[꿰뚫는 별빛]이 가하는 모든 대미지가 #1[f1]% 증가한다"
+        brief: "[꿰뚫는 별빛]이 가하는 모든 대미지가 증가한다"
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss2
+  - id: "595"
+    name: 은하수에 수놓은 십자성
+    info: "리더로 배치 시 파티원이 버프를 받는다.\\n<color=#23B2E2FF>은하수에 수놓은 십자성: {{파티원 필살기의 모든
+      대미지가 #1[f1]% 증가한다. 파티에 화염 원소 특성을 보유한 발키리 3명이 있을 경우 파티원의 화염 원소 대미지가 #2[f1]%
+      증가한다}}</color>"
+    icon: Skill_Durandal_C3_SW_595
+    skillType: leader
+    tags: []
+    paramSubId1: 5913
+    paramSubId2: 5913
+    paramSubId3: 0
+    subSkills:
+      - id: "5913"
+        name: 은하수에 수놓은 십자성
+        info: "파티원 필살기의 모든 대미지가 #1[f1]% 증가한다. 파티에 화염 원소 특성을 보유한 발키리 3명이 있을 경우 파티원의 화염 원소
+          대미지가 #2[f1]% 증가한다"
+        brief: 파티원 필살기의 모든 대미지가 증가한다. 파티에 화염 원소 특성을 보유한 발키리 3명이 있을 경우 파티원의 화염 원소 대미지가
+          증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 3
+        paramBase1: 0.18
+        paramBase2: 0.21
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.045
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5917"
+        name: 남십자자리α
+        info: "[성염권·극]과 [성연의 창·극]이 가하는 화염 원소 대미지가 #1[f1]% 증가한다."
+        brief: "[성염권·극]과 [성연의 창·극]이 가하는 화염 원소 대미지가 증가한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 5
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "5918"
+        name: 남십자자리γ
+        info: "[꿰뚫는 별빛] 발동 시 캐릭터가 SP를 #1[f1]pt 회복한다. SP 소모 최대치가 #2[f1]pt로 증가한다."
+        brief: "[꿰뚫는 별빛] 발동 시 캐릭터가 SP를 회복하고, SP 소모 최대치가 증가한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 5
+        paramBase1: 6
+        paramBase2: 38
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 1
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "596"
+    name: 아르고자리·돛과 물결
+    info: "패시브 스킬은 자동으로 발동된다.\\n<color=#23B2E2FF>[별 에너지]: 최대치 200pt\\n데아 앵커는 [별의
+      인도자] 형태일 때, 영구적으로 공격이 강화되고, [비성 상태]로 이동한다. [비성 상태]에서 공격 버튼을 누르면 이어서 [비성권]을
+      발동할 수 있다. 전방 회피는 [비성 상태]를 더 빠르게 이어갈 수 있다</color>"
+    icon: Skill_Durandal_C3_SW_596
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5914"
+        name: 돛자리γ
+        info: "캐릭터가 대기 중일 때 1초마다 SP를 #1[f1]pt 회복한다"
+        brief: 캐릭터가 대기 중일 때 SP를 회복한다
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 0.6
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.09
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+      - id: "5915"
+        name: 고물자리ζ
+        info: "필살기 발동 후 3초 동안 가하는 모든 대미지가 #1[f1]% 증가하고, 중복 발동 시 지속 시간이 초기화되며, 2회 중첩할 수
+          있다"
+        brief: 필살기 발동 후 3초 동안 가하는 모든 대미지가 증가하고, 중복 발동 시 지속 시간이 초기화되며, 2회 중첩할 수 있다
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5916"
+        name: 용골자리α
+        info: "데아 앵커가 전장에서 연소 상태의 적을 공격할 때 적에게 가하는 화염 대미지가 #1[f1]% 증가한다 (해당 효과는 독립적인 추가
+          효과로 간주한다)"
+        brief: 데아 앵커가 전장에서 연소 상태의 적을 공격할 때 적에게 가하는 화염 대미지가 증가한다 (해당 효과는 독립적인 추가 효과로
+          간주한다)
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.14
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

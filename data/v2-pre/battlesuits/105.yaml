@@ -1,0 +1,358 @@
+id: "105"
+fullName: 신염의 율자
+shortName: 신염의 율자
+desc: <color=white>특징:</color> <color=#FF66CCFF>이능 속성</color>의 근접 캐릭터
+firstName: 키아나
+lastName: 카스라나
+enFirstName: Kiana
+enLastName: Kaslana
+attributeType: psy
+isEasterner: false
+weapon: pistols
+character: kiana
+initialStar: s
+tags:
+  - fire-dmg
+  - time-mastery
+  - heal
+  - gather
+  - aerial
+skills:
+  - id: "641"
+    name: 굳은 기사의 검습
+    info: "대검으로 적을 공격하고, 소량의 연소 게이지를 누적한다.\\n<color=#23B2E2FF>지상:\\n기본 형태: 총 공격력
+      730%의 화염 원소 대미지를 가한다.\\n율자 형태: 총 공격력 970%의 화염 원소 대미지를 가한다.\\n공중:\\n기본 형태:
+      총 공격력 490%의 화염 원소 대미지를 가한다.\\n율자 형태: 총 공격력 900%의 화염 원소 대미지를 가한다.\\n띄우기 공격:
+      공격력 200%의 화염 원소 대미지를 가한다.\\n내려찍기 공격: 다단으로 공격력 30%+90%*2의 화염 원소 대미지를
+      가한다.</color>"
+    icon: Skill_Kiana_MH_641
+    skillType: basic
+    tags:
+      - type: ignite
+        strength: 1
+        comment: "연소 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6401"
+        name: 이 검의 광채로
+        info: "[불꽃 표식]의 폭발 대미지가 공격력 #1[f1]%의 화염 원소 대미지만큼 증가한다."
+        brief: 표식 폭발 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 1.6
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05556
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "6413"
+        name: 새벽의 별빛을 잡아
+        info: "주변 적이 신염의 율자에게 받는 모든 대미지가 #1[f1]% 증가한다(해당 효과는 독립적인 추가 효과로 간주한다). [불꽃 표식]
+          폭발 시 해당 효과가 추가로 #1[f1]%, 최고 #3[f1]% 증가한다. 지속 시간: 전투 종료까지"
+        brief: 주변 적이 캐릭터에게 받는 대미지가 증가하며, 표식 폭발 후 추가로 증가한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 10
+        paramBase1: 0.015
+        paramBase2: 15
+        paramBase3: 0.12
+        paramAdd1: 0.00111
+        paramAdd2: 0
+        paramAdd3: 0.00889
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6415"
+        name: 뇌명을 일으키겠노라
+        info: "[불꽃 표식]이 폭발한 후, 기본 형태 공중 공격 적중 시, SP를 #1[f1]pt 회복한다. 최대 3회 발동한다."
+        brief: 표식 폭발 후 공중 공격 시 SP를 회복한다.
+        icon: Skill_Nagative_StartUp03
+        maxLv: 10
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.16667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "642"
+    name: 화륜차의 봉화
+    info: "열게이지가 0일 때 사용할 수 있으며, 강력한 공격을 발동한다.\\n<color=#23B2E2FF>열게이지: 초기 0pt, 과열
+      상태가 아닐 경우 매초 21pt 감소하며, 과열 상태일 경우 매초 10pt 감소한다.\\n기본 형태 분기: 열게이지가 45pt
+      증가한다, 현재 HP의 15%를 소모해 공격력 300%의 화염 원소 대미지를 가하고, 2.5초간 전체 시공 단열에 진입하며,
+      11.5초 동안 율자 형태에 진입한다.\\n율자 형태 기간, 캐릭터 기술이 변화하고, 경직 저항력이 증가하며, 매초 현재 HP의
+      1%를 소모한다.\\n율자 형태 분기: 열게이지가 100pt 증가하고, 3.5초간 전체 시공 단열을 발동한다.\\n지상: 총 공격력
+      1200%의 화염 원소 대미지를 가한다.\\n공중:\\n적을 공중에 띄운 후 블랙홀을 생성해 적을 끌어당기고, 공격력 1200%의
+      화염 원소 대미지를 가한다.\\n율자 형태 종료 후, 캐릭터는 과열 상태에 진입하고, 열게이지가 100pt 증가한다.\\n퇴장 시
+      율자 형태가 취소된다.</color>"
+    icon: Skill_Kiana_MH_642
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6402"
+        name: 이 화륜의 마차로
+        info: "현재 HP가 75% 이상일 때, 기본 형태에서 분기 공격이 추가로 HP의 30%를 소모하고, 공격력 #2[f1]%의 화염 원소
+          대미지를 가한다."
+        brief: HP가 높을 때, 기본 형태에서 분기 공격이 추가로 HP를 소모하고, 추가 효과가 발동한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 10
+        paramBase1: 0
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.22222
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "6403"
+        name: 하늘을 건너
+        info: "캐릭터가 기계 속성의 적에게 가하는 모든 대미지가 #2[f1]% 증가한다. 율자 형태에서 분기 공격이 가하는 모든 대미지가
+          #1[f1]% 증가하고, 실드에 가하는 대미지가 50% 증가한다."
+        brief: 캐릭터 공격의 대미지가 증가한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 6
+        paramBase1: 0.15
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6411"
+        name: 진리의 고리를 돌리겠노라
+        info: "현재 HP가 최대치의 60% 이상일 경우, 율자 형태에서 매초 최대 HP의 5%를 추가로 소모한다. 최대치의 60% 미만일 경우,
+          받는 모든 대미지가 #1[f1]% 감소하고, 화염 원소 대미지가 #2[f1]% 증가한다."
+        brief: HP가 높을 때, 율자 모드에서 추가로 HP를 소모한다. HP가 낮을 때, 강화 효과를 획득한다.
+        icon: Skill_Nagative_Survive02
+        maxLv: 6
+        paramBase1: 0.15
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "643"
+    name: 고독한 화조의 깃털
+    info: "빠르게 적의 공격을 회피한다.\\n<color=#23B2E2FF>극한 회피: 4초간 전체 시공 단열을 발동한다. 재사용 대기시간:
+      18초\\n지상: 연속 2회 회피할 수 있다.\\n공중:\\n기본 형태: 1회만 회피할 수 있다.\\n율자 형태: 임의로 회피할 수
+      있으며, 빠르게 공격 버튼을 눌러 바로 기본 공격 제3격을 발동할 수 있다.\\n율자 형태에서 극한 회피 성공 시 주변 넓은 범위의
+      적에게 5스택의 [불꽃 표식]을 부여하고, SP를 2pt 회복한다. 10초마다 1회 발동할 수 있다.</color>"
+    icon: Skill_Kiana_MH_643
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6404"
+        name: 이 불씨로
+        info: 극한 회피가 아니여도 극한 회피 스킬의 효과를 발동할 수 있다.
+        brief: 극한 회피가 아니여도 극한 회피 스킬의 효과를 발동할 수 있다.
+        icon: Skill_Nagative_Survive01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "6405"
+        name: 천년의 도진을 새겨
+        info: "8초 이내 파티 내 2명의 다른 캐릭터의 분기/차지/무기 스킬이 적 적중 시, 파티원 캐릭터가 가하는 화염 원소 대미지가
+          #2[f1]초간 #1[f1]% 증가하며, 신염의 율자 QTE를 발동할 수 있다. 해당 효과는 #3[f1]초마다 1회
+          발동한다."
+        brief: 파티 내 다른 캐릭터가 각각 지정된 공격으로 적 적중 시, QTE를 발동할 수 있다.
+        icon: Skill_Nagative_StartUp01
+        maxLv: 10
+        paramBase1: 0.05
+        paramBase2: 15
+        paramBase3: 15
+        paramAdd1: 0.00556
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "6416"
+        name: <size=14><color=#FFC741FF>QTE</color>-새로 태어난 날개를 깨우겠노라</size>
+        info: "QTE: 적이 연소 상태 또는 공중에 띄워졌을 때 발동해 공격력 #1[i]%의 화염 원소 대미지를 가하고, SP를 #2[f1]pt
+          회복한다."
+        brief: "QTE: 적이 연소 상태 또는 공중에 띄워졌을 때 발동한다."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 6
+        paramBase1: 5
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 1.1
+        paramAdd2: 0.4
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "644"
+    name: 신염왕검의 개선
+    info: "강력한 공격을 발동한다.\\n<color=#23B2E2FF>발동 SP 소모: 75, 재사용 대기시간: 16초\\n적에게 공격력
+      2150%의 화염 원소 대미지를 가한다. 그 기간 캐릭터는 율자 형태에 진입하고 정체 영역 효과를 발동해 캐릭터와 적의 스킬 효과와
+      스테이지 카운트가 정지한다. 발동 시 이미 율자 형태일 경우, 필살기 발동 후 율자 형태가 종료된다.</color>"
+    icon: Skill_Kiana_MH_644
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6406"
+        name: 이 찬란한 신염으로
+        info: "과열 기간, 캐릭터가 대기 상태일 때 매초 SP를 #2[f1]pt 회복한다."
+        brief: 과열 기간, 캐릭터가 대기 상태일 때 SP를 회복한다.
+        icon: Skill_Nagative_Skill01
+        maxLv: 6
+        paramBase1: 0
+        paramBase2: 0.5
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.1
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+      - id: "6407"
+        name: 나 횃불로서
+        info: "필살기 사용 후, HP가 40% 미만일 경우, 최대 HP의 #1[f1]%를 회복하며, 25% 미만일 경우, 추가로 최대 HP의
+          #2[f1]%를 회복한다."
+        brief: HP가 낮을 때 필살기 사용 시 HP를 회복한다.
+        icon: Skill_Nagative_Survive03
+        maxLv: 3
+        paramBase1: 0.06
+        paramBase2: 0.04
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6408"
+        name: 영원한 진홍의 불꽃이 되겠노라
+        info: "필살기의 모든 대미지가 #1[f1]% 증가한다."
+        brief: 필살기의 대미지가 증가한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "645"
+    name: 이름 없는 방랑자의 여정
+    info: "리더로 배치 시 파티원이 버프를 받는다.\\n<color=#23B2E2FF>리더 스킬: {{파티원의 모든 원소 대미지가
+      #1[f1]% 증가하고, 파티에 키아나가 아닌 캐릭터가 1명 있을 때마다 파티원 초기 SP가 #2[f1]pt 증가한다(최대
+      #3[f1]pt 증가. 해당 효과는 오픈월드에서 10분마다 1회 발동한다)}}</color>"
+    icon: Skill_Kiana_MH_645
+    skillType: leader
+    tags: []
+    paramSubId1: 6409
+    paramSubId2: 6409
+    paramSubId3: 6409
+    subSkills:
+      - id: "6409"
+        name: 이름 없는 방랑자의 여정
+        info: "파티원의 모든 원소 대미지가 #1[f1]% 증가한다. 파티 내 키아나가 아닌 캐릭터가 1명 있을 때마다 파티원 초기 SP가
+          #2[f1]pt 증가한다(최대 #3[f1]pt 증가. 해당 효과는 오픈월드에서 10분마다 1회 발동한다)"
+        brief: 파티원의 원소 대미지가 증가한다. 파티 내 키아나가 아닌 캐릭터가 있을 경우, 파티원 초기 SP가 증가한다.
+        icon: Skill_Nagative_Skill01
+        maxLv: 2
+        paramBase1: 0.41
+        paramBase2: 27.5
+        paramBase3: 55
+        paramAdd1: 0.07
+        paramAdd2: 2.5
+        paramAdd3: 5
+        tags: []
+        toggle: false
+        unlockStar: s3
+  - id: "646"
+    name: 화염송가의 서약
+    info: "패시브 스킬은 자동으로 발동된다.\\n<color=#23B2E2FF>신염의 율자의 기본 공격과 분기 공격, 파티원의 차지 공격과
+      분기 공격이 적에게 [불꽃 표식]을 부여한다. 지속 시간: 6초\\n율자 형태에서 부여한 [불꽃 표식]은 0.5초마다 적에게 캐릭터
+      공격력 5%의 화염 원소 대미지를 가한다. 대미지 효과는 10회 중첩할 수 있다.\\n일부 기술은 넓은 범위 내 적의 표식을
+      폭발시켜(표식을 소모하지 않는다) 공격력 120%의 화염 원소 대미지를 가한다:\\n율자 형태 기본 공격의 마지막 일격(해당 방법은
+      2초마다 1회 발동한다), QTE, 기본 형태 지상 기본 공격의 마지막 일격, 분기 공격.\\n과열 상태일 경우, 열게이지가 15pt
+      감소하며, 2초마다 1회 발동한다.</color>"
+    icon: Skill_Kiana_MH_646
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6410"
+        name: 이 송가로
+        info: "캐릭터가 실드를 획득한다. 실드 최대치는 캐릭터 최대 HP의 #1[f1]%이다. 캐릭터는 HP를 더 이상 회복하지 않으며([나
+          횃불로서] 스킬의 회복 제외), 회복량의 #2[f1]%만큼 실드 HP를 회복한다. 실드 존재 시, 캐릭터가 가하는 모든
+          대미지가 #3[f1]% 증가하고, 경직 저항력이 증가하며, 받는 간접 대미지를 실드가 부담한다."
+        brief: 캐릭터가 회복하는 HP가 실드로 전환되며, 실드 존재 시 대미지가 증가한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 3
+        paramBase1: 0.3
+        paramBase2: 0.5
+        paramBase3: 0.05
+        paramAdd1: 0.15
+        paramAdd2: 0.25
+        paramAdd3: 0.025
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "6412"
+        name: 황혼의 기도를 피우겠노라
+        info: "율자 형태 시, 캐릭터의 모든 대미지가 #1[f1]% 증가하고, 모든 원소 관통이 #2[f1]% 증가하며, 받는 모든 대미지가
+          #3[f1]% 감소한다."
+        brief: 율자 형태 시 캐릭터는 강화 효과를 획득한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0.12
+        paramBase3: 0.3
+        paramAdd1: 0.01
+        paramAdd2: 0.006
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6414"
+        name: 반짝이는 뭇별을 지켜
+        info: "퇴장 시, 주변 적을 지상으로 끌어내려 공격력 #1[f1]%의 화염 원소 대미지를 가한다."
+        brief: 퇴장 시 적에게 대미지를 가하고 지상으로 끌어내린다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 1.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.3
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

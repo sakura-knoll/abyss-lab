@@ -1,0 +1,275 @@
+id: "315"
+fullName: 차생의 은익
+shortName: 차생의 은익
+desc: <color=white>특징:</color> <color=#FFAF2CFF>생물 속성</color>의 원거리 캐릭터
+firstName: 브로냐
+lastName: 자이칙
+enFirstName: Bronya
+enLastName: Zaychik
+attributeType: bio
+isEasterner: false
+weapon: cannon
+character: bronya
+initialStar: s
+tags:
+  - ice-dmg
+  - fast-atk
+  - time-mastery
+  - gather
+  - aerial
+skills:
+  - id: "721"
+    name: 다유닛 무기 0019
+    info: "원거리 무기로 공격하고, 소량의 빙결 게이지를 누적한다.\\n<color=#23B2E3FF>지상 제1격: 공격력 2*100%의 빙결
+      원소 대미지를 가한다.\\n지상 제2격: 공격력 100%의 빙결 원소 대미지를 가한다.\\n지상 제3격: 공격력 100%+7*20%의
+      빙결 원소 대미지를 가한다.\\n지상 제4격: 공격력 3*20%의 빙결 원소 대미지를 가한다.\\n지상 제5격: 공격력 100%의
+      빙결 원소 대미지를 가한다.\\n공중 제1격: 공격력 100%의 빙결 원소 대미지를 가한다.\\n공중 제2격: 공격력
+      50%+50%+7*20%의 빙결 원소 대미지를 가한다.\\n공중 제3격: 공격력 9*20%+100%의 빙결 원소 대미지를 가하고,
+      해당 기간에 방향 버튼을 사용해 이동할 수 있다.\\n기본 공격과 분기 공격 기간, 경직 저항력이 증가하고 받는 대미지가 50%
+      감소한다.</color>"
+    icon: Skill_Bronya_JS_001
+    skillType: basic
+    tags:
+      - type: freeze
+        strength: 1
+        comment: "빙결 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7201"
+        name: 개조 토끼
+        info: "모든 대미지가 #1[f1]% 증가하고, 기본 공격이 가하는 빙결 원소 대미지가 #2[f1]% 증가한다."
+        brief: 모든 대미지가 증가하고, 기본 공격의 빙결 원소 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 17
+        paramBase1: 0.2
+        paramBase2: 0.6
+        paramBase3: 0
+        paramAdd1: 0.00625
+        paramAdd2: 0.0125
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "7202"
+        name: <color=#FFC741FF>QTE</color>-최신 기획
+        info: "QTE: 적이 시공 감속 또는 빙결 상태 시 발동한다. SP를 #1[f1]pt 회복하고, 2초 동안 전체 시공 단열을 발동해 공격력
+          6*#2[f1]%의 빙결 원소 대미지를 가한다. QTE 출전 시, 교대된 캐릭터의 교대 시간이 4초 감소한다."
+        brief: "QTE: 빙결 원소 대미지를 가하고 SP를 회복한다. 전체 시공 단열을 발동하고, 교대된 캐릭터의 교대 시간이 4초 감소한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 10
+        paramBase1: 2.5
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: 0.27778
+        paramAdd2: 0.11111
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "722"
+    name: <color=#FFC741FF>분기</color>-구조해석 역장
+    info: 고빈도로 사격한다.\n<color=#23B2E4FF>KP가 절반 이상 충전되면 사용할 수 있으며, 분열 배리어를 전개하고, 무기로
+      대량의 탄을 퍼부어 공격력 12*20%의 빙결 원소 대미지를 가한다, 분열 배리어 통과 시 공격력 24*20%의 빙결 원소 대미지를
+      가한다.\n전장에 분열 배리어 존재 시, 기본 공격의 마지막 일격을 사용할 때마다 1회 충전할 수 있다. 배리어가 파괴되면 충전은
+      리셋된다.\n2회 충전됐을 때 공격 버튼을 누르면 기본 공격 마지막 일격에 이어서 특수 분기 공격을 발동해 공격력 500%의 빙결
+      원소 대미지를 가한다. 특수 분기 공격 후 연속해서 공격 버튼을 누르면 이어서 공중 기본 공격 제2격 또는 지상 기본 공격 제4격을
+      발동한다. 특수 분기 공격이 분열 배리어를 통과하면 공격력 600%+10*20%의 빙결 원소 대미지를 가한다. 특수 분기 사용 시
+      2.5초간 전체 시공 단열을 발동한다.\n특수 분기 기간, 배리어의 지속 시간은 감소하지 않으며, 지속 시간마다 특수 분기를 최대
+      2회 사용할 수 있다.</color>
+    icon: Skill_Bronya_JS_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7203"
+        name: 파란 불꽃의 날개
+        info: "분기 공격으로 가하는 빙결 원소 대미지가 #1[f1]% 증가한다."
+        brief: 분기 공격의 빙결 원소 대미지가 증가한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 26
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7204"
+        name: 플라즈마 압축
+        info: "이능 속성의 적에게 가하는 모든 대미지가 #1[f1]% 증가하고, QTE 출전 후 10초 동안 분기 공격이 가하는 빙결 원소
+          대미지가 #2[f1]% 증가한다."
+        brief: 이능 속성의 적에게 가하는 모든 대미지가 증가하고, QTE 출전 후 짧은 시간 분기 공격이 가하는 빙결 원소 대미지 대미지가
+          증가한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 9
+        paramBase1: 0.06
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.005
+        paramAdd2: 0.0125
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "723"
+    name: 은신 모드
+    info: "빠르게 적의 공격을 회피한다. 2회 연속 회피할 수 있다.\\n<color=#23B2E5FF>회피 시 분열 배리어의 위치를 자신과
+      마지막으로 공격한 적 사이로 조정한다, 재사용 대기시간: 0.5초. 조정 기간, 분열 배리어의 카운트가 정지된다. 회피로 기본 공격이
+      끊어진 경우, 그전 기본 공격을 이어갈 수 있으며, 극한 회피 시 극한 회피 스킬을 발동한다: 탄을 발사해 공격력 10*20%의 빙결
+      원소 대미지를 가하고, 총알이 분열 배리어 통과 시 공격력 20*20%의 빙결 원소 대미지를 가한다. 재사용 대기시간:
+      15초</color>"
+    icon: Skill_Bronya_JS_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7208"
+        name: 협동 제작
+        info: 파티 내 다른 캐릭터가 QTE 사용 시, 차생의 은익 QTE를 발동한다.
+        brief: 파티 내 다른 캐릭터가 QTE 사용 시, 차생의 은익 QTE를 발동한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "724"
+    name: 은익의 포효
+    info: "증폭기를 통과하는 강력한 레이저를 발사해 광범위 공격을 발동한다.\\n<color=#23B2E6FF>짧은 터치: \\n지상:
+      공중으로 이동해 공격력 100%의 빙결 원소 대미지를 가한다. 그 후, 공격 버튼을 누르면 이어서 기본 공격 제2격을
+      발동한다.\\n공중: 지상으로 돌아가 공격력 100%의 빙결 원소 대미지를 가한다. 그 후, 공격 버튼을 누르면 이어서 기본 공격
+      제3격을 발동한다.\\n공중 또는 지상으로 이동 시 분열 배리어의 위치를 자신과 마지막으로 공격한 적 사이로 조정한다.\\n긴 터치:
+      필살기를 발동해 공격력 2500%의 빙결 원소 대미지를 가한다. 필살기 발동 기간, 캐릭터가 정체 영역 효과를 발동해 캐릭터와 적의
+      스킬 효과 및 스테이지의 카운트가 정지한다. 시전 시 전장에 존재하는 배리어를 강제로 파괴하며, 필살기 발동 종료 후 10초간
+      지속되는 분열 배리어를 전개한다.\\n재사용 대기시간: 15초, SP 소모: 75pt</color>"
+    icon: Skill_Bronya_JS_007
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7205"
+        name: 순찰 영역
+        info: "분열 배리어 존재 기간, 전장의 적이 해당 캐릭터에게 받는 빙결 원소 대미지가 #1[f1]% 증가한다(해당 효과는 독립적인 추가
+          효과로 간주한다)."
+        brief: 분열 배리어 존재 기간, 모든 적이 해당 캐릭터에게 받는 빙결 원소 대미지가 증가한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 9
+        paramBase1: 0.06
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0175
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7206"
+        name: 쏟아지는 깃털
+        info: "분열 배리어를 통과하는 탄의 모든 대미지가 #1[f1]% 증가한다."
+        brief: 분열 배리어를 통과하는 탄의 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Survive02
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "725"
+    name: 초규격 대리
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E7FF>리더 스킬: {{모든 파티원의 원거리 빙결 원소
+      대미지가 #1[f1]%, 파티원 캐릭터의 모든 대미지가 #2[f1]% 증가한다}}</color>"
+    icon: Skill_Bronya_JS_005
+    skillType: leader
+    tags: []
+    paramSubId1: 7207
+    paramSubId2: 7207
+    paramSubId3: 0
+    subSkills:
+      - id: "7207"
+        name: 대장 대리
+        info: "파티원의 원거리 빙결 원소 대미지가 #1[f1]%, 모든 대미지가 #2[f1]% 증가한다."
+        brief: 파티원의 원거리 빙결 원소 대미지가 증가하고, 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Survive03
+        maxLv: 2
+        paramBase1: 0.27
+        paramBase2: 0.23
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+  - id: "726"
+    name: 차생 협의
+    info: "패시브 스킬은 자동으로 발동한다.\\n<color=#23B2E8FF>캐릭터는 전장에 분열 배리어를 전개할 수 있다. 최대 1개
+      존재할 수 있으며, 실드의 지속 시간은 현재 KP 충전 칸수에 해당한다. 실드가 존재할 경우 KP는 매초 1칸 감소하며, 실드가
+      존재하지 않을 경우 매초 1칸 충전된다. 최대 10칸까지 충전할 수 있다. 분열 배리어 전개 시 3.5초 동안 전체 시공 단열이
+      발동하며, 배리어가 파괴되면 KP가 리셋된다. 캐릭터의 공격이 분열 배리어를 통과하면 2개로 분열된다.\\n지상 기본 공격이 분열
+      배리어를 통과하면 다음과 같은 강화 효과를 획득한다: \\n제1격: 공격력 4*100%의 빙결 원소 대미지를 가한다.\\n제2격:
+      공격력 2*100%의 빙결 원소 대미지를 가한다.\\n제3격: 공격력 2*100%+7*20%의 빙결 원소 대미지를
+      가한다.\\n제4격: 공격력 6*40%의 빙결 원소 대미지를 가한다.\\n제5격: 공격력 2*220%의 빙결 원소 대미지를 가하고,
+      블랙홀을 생성해 지속적으로 적을 끌어당겨 총 공격력 80%의 빙결 원소 대미지를 가한다.\\n공중 기본 공격이 분열 배리어를 통과하면
+      다음과 같은 강화 효과를 획득한다.\\n제1격: 공격력 2*80%의 빙결 원소 대미지를 가한다.\\n제2격: 공격력
+      4*60%+7*20%의 빙결 원소 대미지를 가한다.\\n제3격: 공격력 18*30%+2*220%의 빙결 원소 대미지를 가하고,
+      블랙홀을 생성해 지속적으로 적을 끌어당겨 총 공격력 80%의 빙결 원소 대미지를 가한다.\\n분열 배리어는 몬스터의 이동을 막을 수
+      있지만, 공격을 막을 수는 없다. 분열 배리어의 지속 시간이 끝나거나 차생의 은익 퇴장 시, 분열 배리어는 파괴되고, 파티원의 QTE
+      공격이 가하는 모든 대미지가 30% 증가한다, 지속 시간: 8초\\n지상 기본 공격 제3격과 공중 기본 공격 제2격이 분열 후
+      생성되는 비조 충격은 동시에 1개만 존재할 수 있으며, 지상과 공중 기본 공격의 마지막 일격이 분열 후 생성되는 블랙홀 역시 동시에
+      1개만 존재할 수 있다.</color>"
+    icon: Skill_Bronya_JS_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7209"
+        name: 보조 유닛
+        info: "분열 배리어 지속 시간이 끝나거나 차생의 은익이 퇴장해 분열 배리어가 파괴되면 #1[f1]초 동안 전체 시공 단열이 발동한다."
+        brief: 분열 배리어 지속 시간이 끝나거나 차생의 은익이 퇴장해 분열 배리어가 파괴되면 전체 시공 단열이 발동한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.15
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: sss
+      - id: "7210"
+        name: 백엔드 개발자
+        info: "KP가 충전이 완료되지 않았거나 충전 중일 때, 차생의 은익이 대기 상태일 경우 SP를 매초 #1[f1]pt를 회복한다."
+        brief: 분열 배리어 재사용 대기 기간, 캐릭터가 대기 상태일 경우 SP를 지속적으로 회복한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 12
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04545
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss

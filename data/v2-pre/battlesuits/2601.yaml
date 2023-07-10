@@ -1,0 +1,376 @@
+id: "2601"
+fullName: 환몽·꿈꾸는 고양이
+shortName: 환몽·꿈꾸는 고양이
+desc: <color=white>특징:</color> <color=#F3DFAEFF>허수 속성</color>의 근거리 전투형 캐릭터. 차크람을
+  사용해 쌍검 모드로 전투하며, 고양이와 함께 협동 공격한다.
+firstName: 파르도 필리스
+lastName: null
+enFirstName: Pardofelis
+enLastName: null
+attributeType: img
+isEasterner: true
+weapon: chakram
+character: pardofelis
+initialStar: a
+tags:
+  - ice-dmg
+  - freeze
+  - time-mastery
+  - gather
+skills:
+  - id: "741"
+    name: 때릴 거야
+    info: "차크람으로 쌍검으로 사용하고, 유연한 몸놀림으로 쌍검을 휘둘러 적을 벤다.\\n<color=#23B2E3FF>제1격: 공격력
+      100%의 빙결 원소 대미지를 가한다.\\n제2격: 공격력 100%의 빙결 원소 대미지를 가한다.\\n제3격: 3연격, 공격력
+      50%+70%*2의 빙결 원소 대미지를 가한다.\\n제4격: 고양이 발을 소환해 공격력 120%의 빙결 원소 대미지를
+      가한다.\\n제5격: 고양이 발톱을 휘둘러 공격력 50%*2+200%의 빙결 원소 대미지를 가한다.</color>"
+    icon: Skill_Pardofelis_C1_CG_741
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7401"
+        name: <color=#FFC741FF>QTE</color>-냥이 등장!
+        info: "QTE: 적이 시공 감속 또는 빙결 상태일 때 발동한다. 공격력 #1[f1]%*8의 빙결 원소 대미지를 가하고, 교대된 캐릭터의
+          교대 시간이 4초 감소한다."
+        brief: "QTE: 적이 시공 감속 또는 빙결 상태일 때 발동한다. 교대된 캐릭터의 교대 시간이 4초 감소한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+      - id: "7402"
+        name: 냥냥 급습!
+        info: "캐릭터가 분기 공격을 2회 발동할 때마다 무기 버튼을 터치해 특수 공격 [급습]을 발동하고, 공격력 #1[f1]%*13의 빙결 원소
+          대미지를 가하며, <color=#FEDF4CFF>빙결 게이지를 12pt 누적한다.</color> 동시에 QTE와 무기 액티브
+          스킬로 간주되어 캐릭터 무기 스킬 효과를 발동하며, 기본 공격 4단을 연계할 수 있다. 캐릭터 교대 시, 카운트를 리셋한다."
+        brief: 캐릭터가 분기 공격을 2회 발동할 때마다 무기 버튼을 터치해 특수 공격 [급습]을 발동하고, 캐릭터 무기 스킬 효과를 발동해 기본
+          공격 4단을 연계할 수 있다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.4
+        paramBase2: 0
+        paramBase3: 1
+        paramAdd1: 0.04
+        paramAdd2: 0
+        paramAdd3: -0.1
+        tags:
+          - type: freeze
+            strength: 2
+            comment: "빙결 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: false
+        unlockStar: a
+  - id: "742"
+    name: <color=#FFC741FF>분기</color>-깡통, 도와줘!
+    info: 고양이 깡통을 지휘해 함께 싸운다.\n<color=#23B2E4FF>깡통의 기분에 따라 다른 분기 공격을 발동한다. 깡통의 현재 기분
+      게이지가 가득 찼을 때 공격 버튼을 길게 누르면, 모든 기분 게이지를 소모해 분기 공격을 발동한다.\n고양이 '화났어' 기분에서는
+      [이중 할퀴기] 스킬을 발동해 공격력 500%의 빙결 대미지를 가한다.\n고양이 '초얌전' 기분에서는 [차가운 깡통] 스킬을 발동해
+      주변 적을 끌어당기고, 공격력 300%의 빙결 대미지를 가한다.</color>
+    icon: Skill_Pardofelis_C1_CG_742
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7404"
+        name: 냥!
+        info: QTE 출전 시, 깡통의 두 가지 기분 게이지를 모두 회복한다.
+        brief: QTE 출전 시, 깡통의 두 가지 기분 게이지를 모두 회복한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "7405"
+        name: 양손 준비
+        info: "[이중 할퀴기] 스킬 또는 필살기 [가라, 깡통!] 발동 시, 캐릭터의 모든 대미지가 #1[f1]% 증가한다. 지속 시간: 15초,
+          갱신 가능. [차가운 깡통] 스킬 또는 필살기 [가라, 깡통!]을 발동 시, 목표가 받는 모든 대미지가 #2[f1]%
+          증가한다. 지속 시간: 15초, 갱신 가능"
+        brief: "[이중 할퀴기] 또는 필살기 [가라, 깡통!]을 발동 시, 캐릭터의 모든 대미지가 증가한다. [차가운 깡통] 또는 필살기 [가라,
+          깡통!] 발동 시, 목표가 받는 모든 대미지가 증가한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 8
+        paramBase1: 0.15
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.02143
+        paramAdd2: 0.02143
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "7406"
+        name: 은근슬쩍
+        info: "[이중 할퀴기] 스킬 발동 시, 파티원의 SP를 #1[f1]pt 회복한다."
+        brief: "[이중 할퀴기] 스킬 발동 시, 파티원의 SP를 회복한다."
+        icon: Skill_Nagative_Damage01
+        maxLv: 6
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.4
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "743"
+    name: 도망 갈래
+    info: "빠르게 적의 공격을 회피한다. 2회 연속 회피할 수 있다.\\n<color=#23B2E5FF>극한 회피 시 3초 동안 전체 시공
+      단열을 발동한다. 재사용 대기시간: 15초</color>"
+    icon: Skill_Pardofelis_C1_CG_743
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7407"
+        name: 사뿐사뿐 걸음
+        info: 극한 회피 발동 시, 깡통의 현재 기분 게이지를 전부 회복한다.
+        brief: 극한 회피 발동 시, 깡통의 현재 기분 게이지를 전부 회복한다.
+        icon: Skill_Nagative_Survive02
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "744"
+    name: 가라, 깡통!
+    info: "거대화한 깡통이 하늘에서 적을 짓누른다.\\n<color=#23B2E6FF>환몽·꿈꾸는 고양이가 하늘로 차크람을 던지고, 차크람을
+      통과해 거대화한 깡통이 적을 짓눌러 '묵직한' 대미지를 가한다.\\n필살기 버튼을 터치해 발동할 수 있다. 공격력 2000%의 빙결
+      대미지를 가하고,</color> <color=#FEDF4CFF>빙결 게이지를 18pt 누적하며,</color>
+      <color=#23B2E2FF>깡통의 두 가지 기분 게이지를 전부 회복한 후 [도망 준비] 상태를 발동한다. 지속 시간:
+      10초\\n[도망 준비] 상태에서 캐릭터의 두 가지 분기 공격이 가하는 빙결 대미지가 50% 증가하고, 무기 스킬을 발동하면 기분
+      전환 시, 현재 기분을 전부 회복한다.\\n캐릭터 교대 후 다시 출전 시, [도망 준비] 상태가 제거된다.\\n\\n소모 SP:
+      125, 재사용 대기시간: 20초</color><color=#23B2E2FF></color>"
+    icon: Skill_Pardofelis_C1_CG_744
+    skillType: ultimate
+    tags:
+      - type: freeze
+        strength: 3
+        comment: "빙결 이상 게이지 누적 가능, 누적 능력: 강함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7410"
+        name: 혼란을 틈타!
+        info: "[도망 준비] 상태에서 캐릭터의 빙결 원소 대미지가 #1[f1]% 증가한다."
+        brief: "[도망 준비] 상태에서 캐릭터의 빙결 원소 대미지가 증가한다."
+        icon: Skill_Nagative_Damage02
+        maxLv: 6
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7411"
+        name: 좋았어, 도망 준비!
+        info: "필살기 발동 시, 파티원 캐릭터가 매초 SP를 #1[f1]pt 회복한다. 지속 시간: 10초"
+        brief: "필살기 발동 시, 파티원 캐릭터가 매초 SP를 회복한다. 지속 시간: 10초"
+        icon: Skill_Nagative_Survive02
+        maxLv: 4
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "7412"
+        name: 가라, 다 깔아뭉개!
+        info: 필살기가 허수 속성 적의 [허무의 씨앗]에 명중했을 때, 현재 [허무의 씨앗] HP가 20% 미만일 경우, 현재 단계의 HP가 즉시
+          소멸한다.
+        brief: 필살기가 허수 속성 적의 [허무의 씨앗]에 명중했을 때, 현재 [허무의 씨앗] HP가 20% 미만일 경우, 현재 단계의 HP가 즉시
+          소멸한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "745"
+    name: 한낱 꿈같은 인생
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E7FF>리더 스킬: {{파티원의 SP 회복 효율이
+      #1[f1]% 증가하고, 빙결 상태의 적에게 가하는 모든 대미지가 #2[f1]% 증가한다.}}</color>"
+    icon: Skill_Pardofelis_C1_CG_745
+    skillType: leader
+    tags: []
+    paramSubId1: 7413
+    paramSubId2: 7413
+    paramSubId3: 0
+    subSkills:
+      - id: "7413"
+        name: 한낱 꿈같은 인생
+        info: "파티원의 SP 회복 효율이 #1[f1]% 증가하고, 빙결 상태의 적에게 가하는 모든 대미지가 #2[f1]% 증가한다."
+        brief: 파티원의 SP 회복 효율이 증가하고, 빙결 상태의 적에게 가하는 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.19
+        paramBase2: 0.29
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "746"
+    name: "[사장]"
+    info: "패시브 스킬은 자동으로 발동된다.\\n<color=#23B2E8FF>환몽·꿈꾸는 고양이는 전투에서 파트너 고양이 깡통의 지원을
+      받는다. 깡통은 전투에서 '화났어'와 '초얌전', 두 가지 기분을 보유하며, 기분에 따라 깡통의 지원 방식이 결정된다. 기분마다 단독
+      기분 게이지가 있다. 최대치: 100pt\\n캐릭터 기본 공격 1~4격이 목표에게 적중 시, 현재 기분 게이지를 20pt 회복하고,
+      기본 공격 제5격이 목표에게 적중 시, 현재 기분 게이지를 100pt 회복한다.\\n캐릭터가 출전할 때마다, 깡통의 기분이
+      '화났어'로 전환된다.\\n캐릭터가 차크람 무기를 장착하면 쌍검으로 사용하며, 무기 스킬 [냥냥 연타]를 획득한다. 무기 스킬을
+      발동하면 전방의 짧은 거리를 돌진 및 적을 연속 공격해 공격력 125%+150%*2의 빙결 원소 대미지를 가하고, 동시에 깡통의
+      기분을 전환한다. 해당 스킬은 충전 스킬이다. 충전 최대치: 2, 재사용 대기시간: 6초</color>"
+    icon: Skill_Pardofelis_C1_CG_746
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7414"
+        name: 허세
+        info: "[도망 준비] 상태 발동 시, 모든 무기 스킬의 충전 수치를 회복한다."
+        brief: "[도망 준비] 상태 발동 시, 모든 무기 스킬의 충전 수치를 회복한다."
+        icon: Skill_Nagative_Survive02
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "7415"
+        name: 빙점 할인
+        info: "파티원 캐릭터가 빙결 상태의 적 공격 시, 모든 대미지가 #1[f1]% 증가한다."
+        brief: 파티원 캐릭터가 빙결 상태의 적 공격 시, 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7416"
+        name: 기초 자금
+        info: "전투 진입 시, 초기 SP가 #1[f1]pt 증가한다. 오픈월드에서 10분마다 1회 발동한다."
+        brief: 전투 진입 시, 초기 SP가 증가한다. 오픈월드에서 10분마다 1회 발동한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 4
+        paramBase1: 20
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 6.66667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "747"
+    name: 약자의 생존 방법
+    info: 퇴장 시 깡통이 전장에 남아 파티의 다른 캐릭터를 지원한다.\n<color=#23B2E8FF>환몽·꿈꾸는 고양이 퇴장 시, 깡통이
+      일정 시간마다 나타나 전장에서 보물을 발굴하고, 목표에게 [냥냥 폭탄]을 투척한다. 9초 동안 총 3회 투척하며, 투척할 때마다
+      900%의 빙결 원소 대미지를 가하고, 캐릭터의 SP를 4pt 회복한다. 세 번째 [냥냥 폭탄]은
+      </color><color=#FEDF4CFF>빙결 게이지를 10pt
+      누적한다.</color><color=#23B2E2FF></color>
+    icon: Skill_Pardofelis_C1_CG_747
+    skillType: sp
+    tags:
+      - type: freeze
+        strength: 2
+        comment: "빙결 이상 게이지 누적 가능, 누적 능력: 보통"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7417"
+        name: 완벽 팀워크
+        info: "[이중 할퀴기] 스킬이 추가로 깡통의 '초얌전' 기분 게이지를 40pt 회복한다.\\n[차가운 깡통] 스킬이 추가로 깡통의
+          '화났어' 기분 게이지를 40pt 회복한다.\\n분기가 가하는 빙결 원소 대미지가 #1[f1]% 증가한다."
+        brief: 칼날 스킬이 추가로 깡통의 '냉정'을 40pt 회복한다.\n빙결탄 스킬이 추가로 깡통의 '분노'를 40pt 회복한다.\n분기가
+          가하는 빙결 원소 대미지가 증가한다.
+        icon: Skill_Nagative_Survive02
+        maxLv: 3
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.075
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7418"
+        name: 사전 답사
+        info: "무기 스킬 충전 최대치가 증가한다. 캐릭터가 [도망 준비] 상태에서 벗어나면 [냥냥 폭탄]이 추가로 공격력 #1[f1]%의 빙결
+          원소 대미지를 가한다."
+        brief: 무기 스킬 충전 최대치가 증가한다. 캐릭터가 [도망 준비] 상태에서 벗어나면, [냥냥 폭탄]이 추가로 대미지를 가한다.
+        icon: Skill_Nagative_Survive01
+        maxLv: 7
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.33333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "7419"
+        name: 친구 사귀기
+        info: "깡통이 참여한 공격(QTE, 분기, 필살기, 퇴장 공격)이 파티원에게 모든 대미지 #1[f1]% 증가 효과를 중첩시킨다. 최대
+          3스택 중첩, 지속 시간: 16초, 갱신 가능"
+        brief: 깡통이 참여한 공격(QTE, 분기, 필살기, 퇴장 공격)이 파티원에게 모든 대미지 증가 효과를 중첩시킨다. 최대 3스택 중첩
+        icon: Skill_Nagative_Damage02
+        maxLv: 5
+        paramBase1: 0.025
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00625
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

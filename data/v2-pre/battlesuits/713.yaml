@@ -1,0 +1,346 @@
+id: "713"
+fullName: 염야성연
+shortName: 염야성연
+desc: <color=white>특징:</color> <color=#AE99FFFF>양자 속성</color>의 근거리 전투형 캐릭터
+firstName: 제레
+lastName: 발레리
+enFirstName: Seele
+enLastName: Vollerei
+attributeType: qua
+isEasterner: false
+weapon: scythe
+character: seele
+initialStar: s
+tags:
+  - ice-dmg
+  - freeze
+  - time-mastery
+  - burst
+skills:
+  - id: "631"
+    name: 괴로움의 잠꼬대
+    info: "낫으로 전투하고, 소량의 빙결 게이지를 누적한다.\\n<color=#23B2E2FF>제1격: 총 공격력 50%의 물리 대미지 +
+      공격력 80%의 빙결 원소 대미지를 가한다.\\n제2격: 총 공격력 70%의 물리 대미지 + 공격력 120%의 빙결 원소 대미지를
+      가한다.\\n제3격: 총 공격력 100%의 물리 대미지 + 공격력 180%의 빙결 원소 대미지를 가한다.\\n제4격: 공격 정지
+      시간에 따라 공격력 35%*(4~8)의 빙결 원소 대미지를 가하고, 짧은 시간 주변 적을 끌어당긴다.\\n제5격: 총 공격력
+      460%의 빙결 원소 대미지를 가한다.</color>"
+    icon: Skill_Seele_C3_SP_631
+    skillType: basic
+    tags:
+      - type: freeze
+        strength: 1
+        comment: "빙결 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6301"
+        name: 찢어진 붉은 도포
+        info: "낫 기본 공격의 제5격 발동 기간 캐릭터는 슈퍼 아머 상태에 돌입하고 받는 대미지가 #1[f1]% 감소한다."
+        brief: 낫 기본 공격의 제5격 발동 기간 캐릭터는 슈퍼 아머 상태에 돌입하고 받는 대미지가 감소한다.
+        icon: Skill_Nagative_Survive01
+        maxLv: 15
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6302"
+        name: 독을 머금은 금과
+        info: "낫 기본 공격의 제4격이 가하는 빙결 원소 대미지가 #1[f1]% 증가하고, 명중 시 추가로 SP를 1pt 회복한다."
+        brief: 낫 기본 공격의 제4격이 가하는 빙결 원소 대미지가 증가하고, 명중 시 추가로 SP를 1pt 회복한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 11
+        paramBase1: 0.4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "6303"
+        name: 씁쓸한 달콤함
+        info: "낫 기본 공격의 제5격이 사슬발톱을 발동해 공격력 #1[f1]%의 빙결 원소 대미지를 가하고, [적흔]을 1개 회복한다."
+        brief: 낫 기본 공격의 제5격이 사슬발톱을 발동해 높은 빙결 원소 대미지를 가하고, [적흔]을 1개 회복한다.
+        icon: Skill_Nagative_Skill03
+        maxLv: 11
+        paramBase1: 1.8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.18
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+  - id: "632"
+    name: 죄와 벌을 가르는 칼날
+    info: 공격 버튼을 길게 누르면 차지 공격이 발동한다.\n<color=#23B2E2FF>기본 상태에서 [적흔]을 모두 소모해 차지 공격을
+      발동하면, 적의 앞으로 이동해 공격력 300%의 빙결 원소 대미지를 가한다.\n\n폭발 상태에서 [적흔]을 소모해 차지 공격을
+      발동하면, [적흔]이 소진될 때까지 연속 발동하고, 차지 공격마다 공격력 2*270%의 빙결 원소 대미지를 가한다. 이때 캐릭터는
+      슈퍼 아머 상태에 돌입하며, 차지 공격마다 다음 차지 공격의 공격 속도가 최대 3회까지 증가한다.\n폭발 상태에서 차지 공격을
+      발동하면, 적의 앞으로 이동해 극한 회피 스킬 [끝나지 않는 밤의 연회]를 발동한다.</color>
+    icon: Skill_Seele_C3_SP_632
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6304"
+        name: 무온의 황태자
+        info: 기본 상태에서 차지 공격 시 [적흔] 소모량에 따라 공격력 N*4*#1[f1]%의 빙결 원소 대미지를 가하고, SP를 N*1.5pt
+          회복한다(N은 [적흔]의 소모량이다). 한 번에 [적흔] 6개 소모 시, 적에게 <color=#FEDF4CFF>빙결 게이지를
+          12pt 누적하며,</color> 적의 이동 속도를 5초간 50% 감소시킨다.
+        brief: 기본 상태에서 차지 공격 시 [적흔] 소모량에 따라 추가로 빙결 원소 대미지를 가하고 SP를 회복한다. 한 번에 [적흔] 6개 소모
+          시, 적에게 빙결 게이지를 누적하고 적의 이동 속도를 감소시킨다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: freeze
+            strength: 2
+            comment: "빙결 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: false
+        unlockStar: s
+      - id: "6305"
+        name: 군집한 어린 양
+        info: "캐릭터가 가하는 모든 대미지가 #1[f1]% 증가하고, 차지 공격이 가하는 모든 대미지가 #2[f1]% 증가한다."
+        brief: 캐릭터가 가하는 모든 대미지와 차지 공격이 가하는 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 0.04
+        paramBase2: 0.12
+        paramBase3: 0
+        paramAdd1: 0.006
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6306"
+        name: 쏟아지는 별빛
+        info: 폭발 상태에서 차지 공격 시 추가로 공격력 2*#1[f1]%의 빙결 원소 대미지를 가한다.
+        brief: 폭발 상태에서 차지 공격 시 추가로 빙결 원소 대미지를 가한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "633"
+    name: 인재무상의 노래
+    info: "빠르게 공격을 회피하고 특수 공격을 발동한다. 2회 연속 회피할 수 있다.\\n<color=#23B2E2FF>극한 회피 시 극한
+      회피 스킬 [끝나지 않는 밤의 연회]를 발동한다.\\n[끝나지 않는 밤의 연회]: 3초간 전체 시공 단열을 발동하고 [적흔]을 1개
+      회복하며, 기본 상태에서 공격을 누르면 기본 공격 제4격을 발동한다. 재사용 대기시간 15초</color>"
+    icon: Skill_Seele_C3_SP_633
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6307"
+        name: 길 잃은 깃털
+        info: "[끝나지 않는 밤의 연회]의 재사용 대기시간이 #1[f1]초 감소한다."
+        brief: "[끝나지 않는 밤의 연회]의 재사용 대기시간이 감소한다."
+        icon: Skill_Nagative_Skill01
+        maxLv: 11
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6308"
+        name: 말을 잃은 인어
+        info: "회피 성공 시 추가로 SP를 #1[i]pt 회복한다."
+        brief: 회피 성공 시 추가로 SP를 회복한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6309"
+        name: <color=#FFC741FF>QTE</color>-심장을 꿰뚫는 붉은 장미
+        info: "QTE: 적에게 시공 단열 또는 띄우기 발동 시 공격력 #1[i]%의 빙결 원소 대미지를 가하고, [적흔]을 1개 회복한다."
+        brief: "QTE: 적에게 시공 단열 또는 띄우기 발동 시 빙결 원소 대미지를 가하고, [적흔]을 1개 회복한다."
+        icon: Skill_Nagative_StartUp01
+        maxLv: 15
+        paramBase1: 8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.21429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "634"
+    name: 저울이 무너지는 순간
+    info: "사슬발톱으로 전투한다.\\n<color=#23B2E2FF>필살기를 누르면 폭발 상태에 진입해 적에게 공격력 700%의 빙결 원소
+      대미지를 가하고, 양자 속성 적에게 양자 붕괴를 가한다.\\n폭발 상태에서 [사슬발톱 '피와 사랑']으로 전투한다.\\n제1격: 총
+      공격력 360%의 빙결 원소 대미지를 가한다.\\n제2격: 총 공격력 440%의 빙결 원소 대미지를 가한다.\\n제3격: 총 공격력
+      660%의 빙결 원소 대미지를 가한다.\\n제4격: 총 공격력 780%의 빙결 원소 대미지를 가한다.\\n\\n폭발 상태에서 다시
+      필살기를 누르면 [악몽이 피어날 때]를 발동해 공격력 900%의 빙결 원소 대미지를 가하고 폭발 상태가 해제된다. 발동 기간 캐릭터가
+      정체 영역 효과를 발동해 캐릭터와 적의 스킬 효과 및 스테이지의 카운트가 정지한다.\\n\\n소모 SP: 75, 재사용 대기시간:
+      12초. [악몽이 피어날 때] 발동 후 재사용 대기시간에 진입한다.\\n\\n폭발 상태는 최대 17초간 지속되며, 캐릭터 퇴장 시
+      폭발 상태가 해제된다.</color>"
+    icon: Skill_Seele_C3_SP_634
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6310"
+        name: 폭렬의 연심
+        info: "폭발 상태 발동 시 [적흔]을 6개 회복한다. 폭발 상태에서 가하는 빙결 원소 대미지가 #1[f1]% 증가하고 받는 모든 대미지가
+          #2[f1]% 감소한다."
+        brief: 폭발 상태 발동 시 [적흔]을 6개 회복한다. 폭발 상태에서 가하는 빙결 원소 대미지가 증가하고 받는 모든 대미지가 대폭 감소한다.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 0.3
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6311"
+        name: 꺼져가는 등불
+        info: "필살기가 가하는 모든 대미지가 #1[f1]% 증가한다. [악몽이 피어날 때] 발동 시 SP를 1pt 소모해 추가로 공격력
+          #2[f1]%의 빙결 원소 대미지를 가한다(최대 소모 SP: 15)"
+        brief: "필살기가 가하는 모든 대미지가 증가한다. [악몽이 피어날 때] 발동 시 SP를 1pt 소모해 추가로 빙결 원소 대미지를
+          가한다(최대 소모 SP: 15)"
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.3
+        paramBase2: 0.8
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.04
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6312"
+        name: 깊이 잠든 가시
+        info: "[저울이 무너지는 순간] 발동 시 명중한 최대 5기의 적을 악몽의 가시로 휘감아 혈연 효과를 끊는다. 한 기의 적이 받은 대미지가
+          #1[f1]%의 비율로 가시에 휘감긴 모든 유닛에게 전이된다(효과: HP 감소)"
+        brief: "[저울이 무너지는 순간] 발동 시 명중한 최대 5기의 적을 악몽의 가시로 휘감아 혈연 효과를 끊는다. 한 기의 적이 받은 대미지가
+          일정 비율로 가시에 휘감긴 모든 유닛에게 전이된다(효과: HP 감소)"
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.06
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.008
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "635"
+    name: 애증이 배회하는 마음
+    info: "리더로 배치 시 파티원이 버프를 받는다.\\n<color=#23B2E2FF>리더 스킬: {{파티원 빙결 원소 대미지가 #1[f1]%
+      증가한다. 파티에 브로냐가 있을 때, 파티원 차지 공격의 모든 대미지가 #2[f1]% 증가한다.}}</color>"
+    icon: Skill_Seele_C3_SP_635
+    skillType: leader
+    tags: []
+    paramSubId1: 6313
+    paramSubId2: 6313
+    paramSubId3: 0
+    subSkills:
+      - id: "6313"
+        name: 애증이 배회하는 마음
+        info: "파티원의 빙결 원소 대미지가 #1[f1]% 증가한다. 파티에 브로냐가 있을 때, 파티원 차지 공격의 모든 대미지가 #2[f1]%
+          증가한다."
+        brief: 파티원의 빙결 원소 대미지가 증가한다. 파티에 브로냐가 있을 때, 파티원 차지 공격의 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Skill01
+        maxLv: 2
+        paramBase1: 0.27
+        paramBase2: 0.32
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+  - id: "636"
+    name: 악몽이 드리운 밤
+    info: 패시브 스킬은 자동으로 발동한다.\n<color=#23B2E2FF>기본 상태의 기본 공격 제1·2·3·4격은 [적흔] 1개를
+      회복하고, 제5격은 적흔 2개를 회복한다.\n폭발 상태의 기본 공격 제1·2격은 [적흔] 1개를 회복하고, 제3·4격은 [적흔]
+      2개를 회복한다.\n[적흔] 6개를 보유한 상태에서 추가 획득 시 1SP로 전환된다.\n\n폭발 상태에서 [악몽의 무대]가 생성되며,
+      폭발 상태가 해제될 때까지 효과가 지속된다.</color>
+    icon: Skill_Seele_C3_SP_636
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6314"
+        name: 사랑을 갈망하는 야수
+        info: "[악몽의 무대] 내의 적이 빙결 원소 대미지에 45회 피격되면, 공격력 #1[f1]%의 빙결 원소 대미지를 받고
+          <color=#FEDF4CFF>빙결 게이지를 5pt 누적한다.</color> 동시에 염야성연은 [적흔]을 1개 회복한다."
+        brief: "[악몽의 무대] 내의 적이 빙결 원소 대미지에 45회 피격되면, 빙결 원소 대미지를 받고 빙결 게이지를 누적한다. 동시에
+          염야성연은 [적흔]을 1개 회복한다."
+        icon: Skill_Nagative_Skill01
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: freeze
+            strength: 1
+            comment: "빙결 이상 게이지 누적 가능, 누적 능력: 약함"
+        toggle: false
+        unlockStar: s
+      - id: "6315"
+        name: 시든 백화
+        info: "[악몽의 무대] 내의 적이 염야성연의 공격을 받으면, 받는 빙결 원소 대미지가 #1[f1]% 증가한다(해당 효과는 독립적으로
+          부여된다)"
+        brief: "[악몽의 무대] 내의 적이 염야성연의 공격을 받으면, 받는 빙결 원소 대미지가 증가한다(해당 효과는 독립적으로 부여된다)"
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.08
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

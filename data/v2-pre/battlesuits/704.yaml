@@ -1,0 +1,395 @@
+id: "704"
+fullName: 창기사·월혼
+shortName: 창기사·월혼
+desc: <color=white>특징:</color> <color=#FFAF2CFF>생물 속성</color>의 근거리 전투형 캐릭터. 은빛의
+  달을 소환하며, 얼음 침식과 얼음 감옥을 이용한 제어 능력이 탁월하다.
+firstName: 리타
+lastName: 로스바이세
+enFirstName: Rita
+enLastName: Rossweisse
+attributeType: bio
+isEasterner: false
+weapon: scythe
+character: rita
+initialStar: s
+tags:
+  - ice-dmg
+  - freeze
+  - burst
+skills:
+  - id: "391"
+    name: 차가운 달
+    info: "낫을 휘둘러 5연격을 펼친다\\n<color=#23B2E2FF>1격: 공격력 80%의 물리 대미지\\n2격: 공격력
+      40%+100%의 물리 대미지\\n3격: 공격력 40%+100%의 물리 대미지\\n4격: 공격력 2*60%+160%의 물리 대미지를
+      주고 작은 범위의 적을 끌어당긴다\\n5격: 공격력 150%+250%의 물리 대미지, 또 은빛의 달[소환물]을 소환하여 공격력
+      150%의 빙결 원소 대미지를 준다\\n5연격 도중 회피를 사용해도 짧은 시간 내에 기본 공격 버튼을 누르면 이어서 공격할 수
+      있다</color>"
+    icon: Skill_Rita_DQ_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3901"
+        name: 얼음의 낫
+        info: "기본 공격 5연타의 각 공격마다 공격력의 #1[f1]% 빙결 원소 대미지를 입힌다"
+        brief: 기본 공격 시 추가 빙결 원소 대미지를 입힌다
+        icon: Skill_Nagative_Damage02
+        maxLv: 70
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00652
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3902"
+        name: 크림슨 아스타르테
+        info: "자신이 1~4단 동안 2단계 얼음 침식 혹은 얼음 감옥 상태에 처하지 않은 적을 공격하면 적이 있는 위치에 은빛의 달을 소환하여
+          공격력 #1[f1]%의 빙결 원소 대미지를 1회 입히고 얼음 침식을 부여한다. 소환 재사용 대기시간: #2[f2]초"
+        brief: 기본 공격으로 적을 명중하면 은빛의 달을 소환해 적을 공격한다. 은빛의 달은 재사용 대기시간이 있다
+        icon: Skill_Nagative_Skill03
+        maxLv: 15
+        paramBase1: 2
+        paramBase2: 12
+        paramBase3: 0
+        paramAdd1: 0.17857
+        paramAdd2: -0.42857
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3912"
+        name: 남아있는 은빛 그림자
+        info: "파티원이 차지 혹은 분기 공격이 적에게 적중 시 적이 있는 위치에 은빛의 달을 소환하여 공격력의 #1[f1]% 범위 빙결 원소
+          대미지를 입히고 얼음 침식을 부여한다. 소환 재사용 대기시간 #2[f2]초, 파티원마다 단독으로 계산한다."
+        brief: 파티원이 차지 혹은 분기 공격이 적에게 적중 시 은빛의 달을 소환하여 공격할 수 있다
+        icon: Skill_Nagative_Skill03
+        maxLv: 33
+        paramBase1: 1
+        paramBase2: 20
+        paramBase3: 0
+        paramAdd1: 0.0625
+        paramAdd2: -0.25
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "392"
+    name: <color=#FFC741FF>차지</color> - 얼음 광선
+    info: "5연격 도중 차지를 발동. 2단계 얼음 침식을 수확해 적에게 대량의 대미지를 가한다.\\n<color=#23B2E2FF>5연격 도중
+      아무 때나 공격 버튼을 길게 누르면 차지 공격을 발동해 범위 내의 적에게 공격력 100%의 빙결 원소 대미지를 가한다. 만약 적이
+      2단계 얼음 침식 상태라면 얼음 침식을 전부 수확해 적을 잠시 얼음 감옥에 가두고 공격력 4*100%의 빙결 원소 대미지를 가한다.
+      얼음 감옥 상태 기간, 적에게</color> <color=#FEDF4CFF>빙결 게이지를 5pt
+      누적한다.</color><color=#23B2E2FF>\\n폭발 상태가 아닐 때 차지 공격이 2단계 얼음 침식을 수확하면 자신의
+      SP를 3pt 회복한다.\\n폭발 상태에서 차지 공격을 발동하면 적을 꿰뚫어 공격력 2*150%의 빙결 원소 대미지를 주고 첫 번째로
+      공격한 적의 위치에 은빛의 달[소환물]을 소환하여 공격력 5*125%의 빙결 원소 대미지를 가한다.\\n교대기: 더욱 강력한 3격을
+      발동하여 적에게 공격력 80%+160%의 물리 대미지를 가한다.</color>"
+    icon: Skill_Rita_DQ_002
+    skillType: special
+    tags:
+      - type: freeze
+        strength: 1
+        comment: "빙결 이상 게이지 누적 가능, 누적 능력: 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3903"
+        name: 은빛의 낫
+        info: "차지 공격으로 2단계 얼음 침식 상태를 지운 후의 다단 히트 빙결 원소 대미지는 타격 당 공격력의 #1[f1]%씩 증가한다"
+        brief: 얼음 침식 디버프를 지운 후의 다단 히트 빙결 원소 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 73
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01528
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3904"
+        name: <color=#FFC741FF>QTE</color> - 갑작스런 추위
+        info: "QTE: 적이 마비 혹은 빙결 상태일 때 QTE를 발동하여 적에게 공격력의 100%+150%+#1[f1]%의 물리 대미지를 입히고
+          은빛의 달은 공격력의 3*50%+#2[f1]% 빙결 원소 대미지를 입히며 1단계의 얼음 침식 디버프를 부여한다."
+        brief: "QTE: 적이 마비 또는 빙결 상태일 때 QTE 출전, 물리와 빙결 대미지를 가한다."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 24
+        paramBase1: 2
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 0.04348
+        paramAdd2: 0.08696
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "3905"
+        name: 서리 갑옷
+        info: "차지 공격으로 2단계 얼음 침식 디버프를 지우면 서리 갑옷을 획득하여 자신이 받는 모든 대미지를 #1[f1]% 감소시킨다, 지속
+          시간 #2[f2]초"
+        brief: 차지로 얼음 침식 디버프를 지우고 서리 갑옷을 획득해 받는 모든 대미지를 감소시킨다
+        icon: Skill_Nagative_Survive03
+        maxLv: 16
+        paramBase1: 0.3
+        paramBase2: 4
+        paramBase3: 0
+        paramAdd1: 0.01333
+        paramAdd2: 0.2
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "393"
+    name: 팬텀 댄스
+    info: "빠르게 적의 공격을 회피하며 연속 2회 회피할 수 있다.\\n<color=#23B2E2FF>극한 회피 후 바로 기본 공격 4격을
+      발동할 수 있다.\\n팬텀 댄스: 극한 회피 시 적의 위치에 은빛의 달[소환물]을 소환하여 범위 내의 적에게 공격력 6*80%의 빙결
+      원소 대미지를 입히고 얼음 침식 상태로 만든다. 재사용 대기시간: 20초</color>"
+    icon: Skill_Rita_DQ_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3906"
+        name: 천경
+        info: "팬텀 댄스 재사용 대기시간 #1[f1]초 감소"
+        brief: 팬텀 댄스 재사용 대기시간 감소
+        icon: Skill_Nagative_Skill03
+        maxLv: 18
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.14706
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s1
+      - id: "3907"
+        name: 잔광
+        info: "팬텀 댄스로 소환한 은빛의 달의 다단 히트 빙결 원소 대미지가 타격마다 #1[f1]%씩 증가한다"
+        brief: 팬텀 댄스로 소환한 은빛의 달의 다단 히트 빙결 원소 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 15
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02143
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3917"
+        name: 빙천
+        info: "차지 공격을 발동할 때마다, 은빛의 달이 가하는 빙결 원소 대미지가 #1[f1]% 증가한다. 지속 시간: 3초"
+        brief: 차지 공격을 발동 후 은빛의 달이 가하는 대미지가 증가한다.
+        icon: Skill_Nagative_Survive03
+        maxLv: 1
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+  - id: "394"
+    name: 농월유광
+    info: "\\n<color=#23B2E2FF>폭발 상태에 진입하면 서리 갑옷을 획득해 경직 저항력이 증가하고 받는 모든 대미지가 60%
+      감소한다. 기본 공격이 가하는 빙결 원소 대미지가 더욱 강력해지고 매 타격의 마지막 일격은 2단계 얼음 침식 상태를 얼음 감옥으로
+      전환한다. 5연격 기간, 도중 은빛의 달 [소환물]은 리타를 도와 적을 공격하며, 2번째와 4번째 공격은 얼음 침식을 부여할 수
+      있다.\\n역월단공: 폭발 상태 동안 필살기 버튼을 누르면 10 SP를 소모해 광범위의 적에게 공격력 400%의 빙결 원소 대미지를
+      가하고, 3초 동안 얼음 감옥에 가두며(보스급 적은 2초 지속),</color> <color=#FEDF4CFF>빙결 게이지를 10pt
+      누적한다.</color> <color=#23B2E2FF>종료 후 2단계 얼음 침식 상태가 된다.\\n재사용 대기시간: 6초. 최소
+      발동 SP: 80, 폭발 상태 진입 후 8초 동안 매초 SP를 7pt 소모하고 8-16초 동안에는 매초 SP를 10pt 소모하며
+      16초 후부터는 매초 SP를 15pt 소모한다. 최대 지속 시간: 24초</color>"
+    icon: Skill_Rita_DQ_004
+    skillType: ultimate
+    tags:
+      - type: freeze
+        strength: 2
+        comment: "빙결 이상 게이지 누적 가능, 누적 능력: 보통"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3909"
+        name: 영원한 얼음의 감옥
+        info: "역월단공의 빙결 원소 대미지가 #1[f1]% 증가하고 얼음 감옥의 지속 시간이 #2[f2]초 증가한다. (우두머리 레벨의 적은
+          #3[f2]초 지속)"
+        brief: 역월단공으로 가하는 빙결 원소 대미지가 증가하고 얼음 감옥의 지속 시간이 늘어난다
+        icon: Skill_Nagative_Control02
+        maxLv: 20
+        paramBase1: 1
+        paramBase2: 0.5
+        paramBase3: 0.3
+        paramAdd1: 0.10526
+        paramAdd2: 0.05263
+        paramAdd3: 0.03684
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "3910"
+        name: 서리혼의 얼음 골수
+        info: 폭발 상태 지속 기간 동안 자신/은빛의 달의 5연격과 차지 공격 (2단계 얼음침식을 지운 후의 다단 히트 대미지 포함)의 빙결 원소
+          대미지가 1[f1]%/#2[f1]% 증가한다
+        brief: 폭발 상태에서 자신과 은빛의 달의 빙결 원소 대미지가 증가한다
+        icon: Skill_Nagative_Damage03
+        maxLv: 25
+        paramBase1: 0.3
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0.0125
+        paramAdd2: 0.01667
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3914"
+        name: 깨어난 월혼
+        info: "필살기를 발동할 때마다 자신의 HP를 #1[f1] 회복한다"
+        brief: 필살기를 발동하여 HP를 회복한다
+        icon: Skill_Nagative_Survive03
+        maxLv: 10
+        paramBase1: 200
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 44.44444
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "395"
+    name: 촉야
+    info: "리더로 배치 시, 모든 파티원이 버프를 받는다.\\n<color=#23B2E2FF>촉야: {{모든 파티원이 차지 혹은 분기 공격 시
+      가하는 모든 대미지가 #1[i]% 증가한다.파티원의 속성이 모두 다를 경우 공격 시 원소 대미지가 #2[i]%
+      증가한다.}}</color>"
+    icon: Skill_Rita_DQ_005
+    skillType: leader
+    tags: []
+    paramSubId1: 3911
+    paramSubId2: 3911
+    paramSubId3: 0
+    subSkills:
+      - id: "3911"
+        name: 촉야
+        info: "모든 파티원이 차지 혹은 분기로 적을 공격 시 가하는 모든 대미지가 #1[i]% 증가한다. 파티원 3명의 속성이 전부 다를 경우
+          공격 시 모든 원소 대미지가 #2[i]% 증가한다"
+        brief: 리더 스킬 효과 상승
+        icon: Skill_Nagative_Skill02
+        maxLv: 2
+        paramBase1: 0.13
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+      - id: "3916"
+        name: 한월식도
+        info: "폭발 상태에서 캐릭터의 공격 속도가 #1[f1]% 증가한다."
+        brief: 폭발 상태에서 캐릭터의 공격 속도가 증가한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 1
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss1
+      - id: "3918"
+        name: 고독한 달그림자
+        info: "[남아있는 은빛 그림자]의 소환 재사용 대기 시간이 #1[f1]초 감소한다."
+        brief: "[남아있는 은빛 그림자]의 발동 간격이 감소한다."
+        icon: Skill_Nagative_Survive03
+        maxLv: 1
+        paramBase1: 6
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss2
+  - id: "396"
+    name: 얼음 침식
+    info: "패시브 스킬 버프는 자동으로 발동한다.\\n<color=#23B2E2FF>얼음 침식: 일부 은빛의 달이 출현할 때의 기술이 적에게
+      적중 시 적을 최고 얼음 침식 2스택 상태로 만든다.\\n얼음 침식 1스택: 10초 동안 경직 저항력이 감소하고, 부여
+      시</color> <color=#FEDF4CFF>빙결 게이지를 2pt 누적한다.</color> <color=#23B2E2FF>얼음
+      침식 2스택: 6초 동안 경직 저항력, 경직력이 감소하고. 추가로 20%의 공격 속도 및 이동 속도 감소 상태를 부여하며, 부여
+      시</color> <color=#FEDF4CFF>빙결 에너지를 2pt 누적한다.</color><color=#23B2E2FF>\\n얼음
+      침식 2스택 상태의 적에게 중복으로 부여 시 지속 시간을 갱신하며, 얼음 감옥 상태의 적에게는 얼음 침식 상태를 부여하지
+      않는다.</color>"
+    icon: Skill_Rita_DQ_006
+    skillType: passive
+    tags:
+      - type: freeze
+        strength: 1
+        comment: "빙결 이상 게이지 누적 가능, 누적 능력: 매우 약함"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3908"
+        name: 차가운 바람
+        info: "자신의 HP가 최대치의 33%를 넘으면 공격 시 가하는 모든 대미지가 #1[f1]% 증가하고, HP가 최대치의 66%를 넘으면
+          추가로 #2[f1]% 증가한다"
+        brief: 자신의 HP 백분율이 높을수록 적에게 가하는 모든 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 5
+        paramBase1: 0.06
+        paramBase2: 0.06
+        paramBase3: 0
+        paramAdd1: 0.0225
+        paramAdd2: 0.0225
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3913"
+        name: 다이아몬드 더스트
+        info: "자신이 얼음 침식 상태의 적에게 가하는 빙결 원소 대미지가 #1[f1]% 증가하고 얼음 감옥 상태의 적에게 가하는 빙결 원소
+          대미지가 #2[f1]% 증가한다"
+        brief: 얼음 침식 혹은 얼음 감옥 상태의 적에게 가하는 빙결 원소 대미지가 증가한다
+        icon: Skill_Nagative_Damage02
+        maxLv: 6
+        paramBase1: 0.2
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0.06
+        paramAdd2: 0.08
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3915"
+        name: 얼음의 죄수
+        info: "얼음 감옥 상태에서 적이 받는 모든 대미지가 #1[f1]% 증가한다(해당 효과는 독립적인 추가 효과다)"
+        brief: 얼음 감옥 상태의 적이 받는 모든 대미지가 증가한다
+        icon: Skill_Nagative_Survive03
+        maxLv: 3
+        paramBase1: 0.08
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.08
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

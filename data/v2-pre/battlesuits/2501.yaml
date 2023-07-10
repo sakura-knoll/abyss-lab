@@ -1,0 +1,331 @@
+id: "2501"
+fullName: 매콤달콤 소녀
+shortName: 매콤달콤 소녀
+desc: <color=white>특징:</color><color=#2CE3FFFF>기계 속성</color>의 근거리 전투형 캐릭터로, 대형
+  기계 건틀릿으로 다단 차지 공격을 발동해 적의 실드를 파괴하고, 강력한 공중 격추 능력이 갖추고 있어 다른 파티원에게 원활한 공격 환경을
+  제공한다.
+firstName: 캐롤
+lastName: 페퍼
+enFirstName: Carole
+enLastName: Pepper
+attributeType: mech
+isEasterner: false
+weapon: fists
+character: apho-carol
+initialStar: a
+tags:
+  - physical-dmg
+  - time-mastery
+  - aerial
+  - gather
+  - stun
+  - heavy-atk
+skills:
+  - id: "711"
+    name: 출격, 미츄 베개!
+    info: "철권으로 공격한다.\\n<color=#23B2E3FF>기본 공격 제3격이 [파갑]을 1스택 획득한다. 최대 3스택 중첩.\\n 지상
+      기본 공격은 3연격으로, 공격력 150%+150%+250%의 물리 대미지를 가한다.\\n띄우기 공격: 공격력 250%+75%*3의
+      물리 대미지를 가한다.\\n내려찍기 공격: 공격력 150%+200%*2의 물리 대미지를 가한다.</color>"
+    icon: Skill_Carol_SP_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7101"
+        name: 재간둥이 공격수
+        info: "매콤달콤 소녀는 [파갑] 1스택마다 차지 공격이 가하는 모든 대미지가 #1[f1]% 증가하고, 자신의 실드 파괴력이 #2[f1]%
+          증가한다."
+        brief: 자신이 보유한 [파갑] 스택에 따라 차지 공격 대미지와 실드 파괴력이 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 6
+        paramBase1: 0.4
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.15
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7102"
+        name: <color=#FFC741FF>QTE</color>-미츄 연속 펀치
+        info: "QTE: 적이 취약 상태일 때 2초간 전체 시공 단열을 발동한다. 적을 연속 공격해(기본 2회, 연속 공격 버튼 연타 시 횟수
+          증가, 최대 5회) 150%*4*연타수+800%의 물리 공격 대미지를 가하고, [파갑]을 3스택 획득한다. 공격할 때마다
+          자신의 실드 파괴력이 #1[f1]% 증가한다. 최대 20회 중첩, 지속 시간: 10초. QTE 출전 시, 이전에 교체된
+          캐릭터의 교대 시간이 #2[f1]초 감소하고, 자신은 추가로 SP를 #3[f1]pt 획득한다."
+        brief: "QTE: 적이 취약 상태일 때 전체 시공 단열을 발동한다. 적에게 다단 대미지를 가하고, 공격 버튼을 연타해 콤보 횟수를 증가시킬
+          수 있다. 공격할 때마다 자신의 실드 파괴력이 증가한다. 20회 중첩, 지속 시간: 10초. QTE 출전 시, 이전에 교대된
+          캐릭터의 교대 시간이 감소하고, 자신은 추가로 SP를 획득한다."
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.05
+        paramBase2: 2
+        paramBase3: 6
+        paramAdd1: 0.00556
+        paramAdd2: 0.22222
+        paramAdd3: 0.44444
+        tags: []
+        toggle: true
+        unlockStar: a
+  - id: "712"
+    name: <color=#FFC741FF>차지</color>-미츄 진심 펀치
+    info: "공격 버튼을 누르는 시간에 따라 강력한 공격을 발동한다.\\n<color=#23B2E4FF>공격 버튼을 길게 눌러 차지 상태에 진입
+      시 받는 모든 대미지가 80% 감소하며, 그 기간 캐릭터는 슈퍼 아머 상태에 돌입하고, 공격 버튼을 누르는 시간에 따라 다른 차지
+      공격을 발동한다.\\n차지 공격 1단: 공격력 300%의 물리 대미지를 가한다.\\n차지 공격 2단: 공격력 450%의 물리 대미지를
+      가한다.\\n차지 공격 3단: 공격력 700%의 물리 대미지를 가한다.\\n공중에서 차지 공격 발동 시 차지 기간 주변 적을 모아 총
+      공격력 20%의 물리 대미지를 가한다.\\n공중 차지 공격 1단: 공격력 225%의 물리 대미지를 가한다.\\n공중 차지 공격 2단:
+      공격력 700%의 물리 대미지를 가한다.</color>"
+    icon: Skill_Carol_SP_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 1
+        comment: "최고 단계 차지는 강격이다. 중첩 능력: 약\\n슈퍼 캐롤 상태 중첩 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7104"
+        name: 딱딱할수록 좋아
+        info: "차지 공격이 실드 보호를 받는 적에게 가하는 물리 대미지가 #1[f1]% 증가하고, 이능 속성 적에게 가하는 모든 대미지가
+          #2[f1]% 증가한다."
+        brief: 차지 공격이 실드 보호를 받는 적에게 가하는 물리 대미지가 증가하고, 이능 속성 적에게 가하는 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.15
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.045
+        paramAdd2: 0.04
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7105"
+        name: 낮잠 시간
+        info: "최고 단계 차지 공격이 적에게 적중 시, 적에게 <color=#FEDF4CFF>기절 게이지를 12pt 누적한다.</color> 해당
+          스킬 발동 간격: #2[f1]초. 최고 단계 차지 공격에 적중한 적의 실드가 10초 이내에 파괴되면 적은 [폭갑] 상태에
+          진입하고 실드 회복 시간이 동결된다. 지속 시간: #3[f1]초"
+        brief: 최고 단계 차지 공격이 적에게 적중 시, 적에게 기절 게이지를 누적한다. 최고 단계 차지 공격에 적중한 적의 실드가 10초 이내에
+          파괴되면 [폭갑] 상태에 진입하고 실드 회복 시간이 동결된다.
+        icon: Skill_Nagative_Control02
+        maxLv: 10
+        paramBase1: 1.8
+        paramBase2: 16
+        paramBase3: 1
+        paramAdd1: 0.13333
+        paramAdd2: -0.44444
+        paramAdd3: 0.44444
+        tags:
+          - type: stun
+            strength: 2
+            comment: "기절 이상 게이지 누적 가능, 누적 능력: 보통"
+        toggle: false
+        unlockStar: s
+  - id: "713"
+    name: 아라하토 기동
+    info: "빠르게 적의 공격을 회피한다.\\n<color=#23B2E5FF>회피 후 [돌진 펀치]를 연계해 공격력 75%*2의 물리 대미지를
+      가한다. [돌진 펀치]는 기본 공격 제3격을 이어서 발동할 수 있다.\\n극한 회피 후 극한 회피 스킬 [극한 돌진 펀치]를 발동할
+      수 있다: 3초 동안 전체 시공 단열을 발동하고 극한 회피 공격을 이어서 발동해 공격력 150%*2의 물리 대미지를
+      가한다.\\n지상에서 연속 2회 회피할 수 있다. 재사용 대기시간: 15초. 체공 1회마다 1회만 회피할 수 있으며, 공중 차지 공격
+      횟수를 리셋할 수 있다.</color>"
+    icon: Skill_Carol_SP_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7110"
+        name: 쇼핑 모드
+        info: "극한 회피 스킬 [극한 돌진 펀치]의 재사용 대기시간이 #1[f1]초 감소한다."
+        brief: 극한 회피 스킬 [극한 돌진 펀치]의 재사용 대기시간이 감소한다.
+        icon: Skill_Nagative_Survive02
+        maxLv: 8
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.21429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7111"
+        name: 디저트 타임
+        info: "[극한 돌진 펀치] 제2격이 적에게 적중 시 [파갑]을 1스택 획득하고, 자신의 HP를 #1[f1] 회복한다."
+        brief: "[극한 돌진 펀치] 제2격이 적 적중 시 [파갑] 1스택을 획득하고, 자신의 HP를 회복한다."
+        icon: Skill_Nagative_Survive03
+        maxLv: 8
+        paramBase1: 120
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 32.85714
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "714"
+    name: 미츄☆폭렬
+    info: "맹공 2회 발동 후 높이 뛰어올라 적에게 범위 대미지를 가한다.\\n<color=#23B2E6FF>필살기 버튼을 길게 눌러 필살기를
+      발동하고, 5초간 전체 시공 단열을 발동한다. 그 기간, 매콤달콤 소녀가 맹공을 2회 발동해 총 공격력 1200%의 물리 대미지를
+      가하고, 높게 뛰어올라 지면을 강타해 넓은 범위의 적에게 공격력 1000%의 물리 대미지를 가하며 범위 내 적을 날려버린다. 해당
+      스킬은 공중에서 발동할 수 있다.\\nSP 소모: 50, 재사용 대기시간: 20초</color>"
+    icon: Skill_Carol_SP_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 1
+        comment: "필살기의 마지막 일격은 강격이다. 중첩 능력: 약\\n슈퍼 캐롤 상태에서 중첩 능력: 중"
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7107"
+        name: 진심 모드
+        info: "필살기의 모든 대미지가 #1[f1]% 증가한다."
+        brief: 필살기의 모든 대미지가 증가한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "7108"
+        name: 분위기 메이커
+        info: "필살기 발동 시, 파티원이 가하는 물리 대미지가 #1[f1]% 증가하고, 모든 대미지가 #2[f1]% 증가한다. 지속 시간:
+          20초. 필살기가 실드가 파괴된 적에게 적중 시, 파티원이 가하는 물리 대미지가 추가로 #3[f1]% 증가한다."
+        brief: "필살기 발동 시, 파티원이 가하는 물리 대미지와 모든 대미지가 증가한다. 지속 시간: 15초. 필살기가 실드가 파괴된 적에게 적중
+          시, 파티원이 가하는 물리 대미지가 추가로 증가한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0.1
+        paramBase3: 0.1
+        paramAdd1: 0.02
+        paramAdd2: 0.01
+        paramAdd3: 0.04
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "715"
+    name: 유망주
+    info: "리더로 배치 시 파티원이 버프를 받는다.\\n<color=#23B2E7FF>리더 스킬: {{자신의 차지 공격이 가하는 모든 대미지가
+      #1[f1]% 증가한다. 파티원 캐릭터의 근접 물리 대미지가 #2[f1]% 증가한다.}}</color>"
+    icon: Skill_Carol_SP_005
+    skillType: leader
+    tags: []
+    paramSubId1: 7113
+    paramSubId2: 7113
+    paramSubId3: 0
+    subSkills:
+      - id: "7113"
+        name: 소대의 별
+        info: "자신의 차지 공격이 가하는 모든 대미지가 #1[f1]% 증가하고, 파티원 캐릭터의 근접 물리 대미지가 #2[f1]% 증가한다."
+        brief: 자신의 차지 공격이 가하는 모든 대미지가 증가하고, 파티원의 근접 물리 대미지가 증가한다.
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 0.12
+        paramBase2: 0.12
+        paramBase3: 0
+        paramAdd1: 0.00667
+        paramAdd2: 0.00333
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "716"
+    name: 슈퍼 캐롤
+    info: "캐릭터가 자동으로 패시브 스킬 버프를 받는다.\\n<color=#23B2E8FF>[파갑] 3스택 보유 시, 다음 차지에 모든 스택을
+      소모해 [슈퍼 캐롤] 상태에 진입한다. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다. 다른 파티원이 출전했을 때,
+      매콤달콤 소녀가 전장에서 [슈퍼 캐롤] 상태라면 출전한 파티원도 동일한 강화 효과를 획득한다.</color>"
+    icon: Skill_Carol_SP_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7114"
+        name: 슈퍼 모드
+        info: "[슈퍼 캐롤] 상태 기간, 받는 모든 대미지가 #1[f1]% 감소하고, 캐릭터 실드 파괴력이 #2[f1]% 증가하며, 캐릭터 자신의
+          실드 파괴력이 추가로 #3[f1]% 증가한다."
+        brief: "[슈퍼 캐롤] 상태 기간, 받는 모든 대미지가 감소하고, 캐릭터 실드 파괴력이 증가하며, 캐릭터 자신의 실드 파괴력이 추가로
+          증가한다."
+        icon: Skill_Nagative_Damage03
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0.1
+        paramBase3: 0.5
+        paramAdd1: 0.04
+        paramAdd2: 0.08
+        paramAdd3: 0.3
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "717"
+    name: 센스쟁이 후배
+    info: 필살기 발동 시 파티원과 교대할 수 있다.\n<color=#23B2E9FF>매콤달콤 소녀가 필살기 발동 후, 캐릭터를 교대할 수
+      있으며, 캐릭터는 공격이 끝날 때까지 전장에 남는다.</color>
+    icon: Skill_Carol_SP_007
+    skillType: sp
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7117"
+        name: 손이 후끈후끈!
+        info: "캐릭터가 차지 상태 진입 시, 자신의 크리티컬 대미지가 매초 #1[f1]% 증가하고, 자신의 크리티컬률이 매초 #2[f1]%
+          증가한다. 최대 2스택 중첩, 지속 시간: 10초, 중복 발동 시 지속 시간이 갱신된다."
+        brief: 캐릭터가 차지 상태 진입 시, 자신의 크리티컬 대미지와 크리티컬률이 지속적으로 증가한다. 2스택 중첩 가능
+        icon: Skill_Nagative_Damage03
+        maxLv: 7
+        paramBase1: 0.4
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.02833
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7118"
+        name: 차지 빵빵
+        info: "최고 단계 차지 공격이 적에게 적중 시, 자신은 추가로 SP를 #1[f1]pt 획득한다."
+        brief: 최고 단계 차지 공격이 적에게 적중 시, 자신은 추가로 SP를 획득한다.
+        icon: Skill_Nagative_Skill01
+        maxLv: 5
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1.25
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "7119"
+        name: 스트레스 해소 시간
+        info: "최고 단계 차지 공격이 적에게 적중 시, 이어지는 10초 동안 자신의 필살기 물리 대미지가 #1[f1]% 증가한다. 중복 발동 시
+          지속 시간이 갱신된다."
+        brief: 최고 단계 차지 공격이 적에게 적중 시, 일정 시간 자신의 필살기 물리 대미지가 증가한다.
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.25
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
