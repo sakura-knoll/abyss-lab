@@ -1,9 +1,9 @@
 import { NextPageContext } from 'next'
-import { Box, Card, Flex, Heading } from 'theme-ui'
+import { Box, Card, Flex, Heading, Link } from 'theme-ui'
 import FormattedText from '../../../components/v2-pre/FormattedText'
 import { formatSubSkillInfo, replaceNewLine } from '../../../lib/v2-pre/data/formatText'
-import { loadStigmaData, loadStigmataCatalog } from '../../../lib/v2-pre/server/loadData'
-import { RootStigma, SkillTagItem } from '../../../lib/v2-pre/data/types'
+import { loadStigmaData, loadStigmataCatalog, loadStigmataSetData } from '../../../lib/v2-pre/server/loadData'
+import { RootStigma, SkillTagItem, StigmataSetCatalogItem } from '../../../lib/v2-pre/data/types'
 import { Fragment } from 'react'
 import TagIcon from '../../../components/v2-pre/TagIcon'
 import { getStigmaTypeLabel } from '../../../lib/v2-pre/data/text'
@@ -11,18 +11,22 @@ import StigmaTypeIcon from '../../../components/v2-pre/StigmaTypeIcon'
 import StigmaIcon from '../../../components/v2-pre/StigmaIcon'
 import StigmaFigureImage from '../../../components/v2-pre/StigmaFigureImage'
 
-interface WeaponShowPageProps {
+interface StigmaShowPageProps {
   rootStigma: RootStigma
+  stigmataSetCatalogItem: StigmataSetCatalogItem | null
 }
 
-const StigmaShowPage = ({ rootStigma }: WeaponShowPageProps) => {
+const StigmaShowPage = ({ rootStigma, stigmataSetCatalogItem }: StigmaShowPageProps) => {
   const stigma = rootStigma.stigmata[rootStigma.stigmata.length - 1]
   return (
     <Box>
       <Heading as="h1">{stigma.name}</Heading>
 
-      <Box>
+      <Box sx={{ display: ['none', 'none', 'block'] }}>
         <StigmaFigureImage stigma={stigma} size={720} />
+      </Box>
+      <Box sx={{ display: ['block', 'block', 'none'] }}>
+        <StigmaFigureImage stigma={stigma} size={480} />
       </Box>
 
       <Box mb={3}>
@@ -44,7 +48,7 @@ const StigmaShowPage = ({ rootStigma }: WeaponShowPageProps) => {
       </Card>
 
       <Heading as="h2">Skills</Heading>
-      <Card>
+      <Card mb={3}>
         {stigma.skills.map(skill => {
           return (
             <Fragment key={skill.id}>
@@ -85,6 +89,35 @@ const StigmaShowPage = ({ rootStigma }: WeaponShowPageProps) => {
           )
         })}
       </Card>
+
+      {stigmataSetCatalogItem != null && (
+        <>
+          <Heading as="h2">Set</Heading>
+          <Flex key={stigmataSetCatalogItem.id}>
+            <Link href={`/v2-pre/stigmata-sets/${stigmataSetCatalogItem.id}`}>
+              <Card p={1}>
+                <Flex sx={{ justifyContent: 'center' }}>
+                  {stigmataSetCatalogItem.stigmataList.map(stigma => {
+                    return <StigmaIcon key={stigma.id} icon={stigma.icon} rarity={stigma.maxRarity} />
+                  })}
+                </Flex>
+                <Box
+                  sx={{
+                    overflow: 'hidden',
+                    textOverflow: 'ellipsis',
+                    whiteSpace: 'nowrap',
+                    px: 1,
+                    textAlign: 'center'
+                  }}
+                >
+                  {stigmataSetCatalogItem.name}
+                </Box>
+                {/* {stigma.id} */}
+              </Card>
+            </Link>
+          </Flex>
+        </>
+      )}
       {/* <pre>{JSON.stringify(weapon, null, 2)}</pre> */}
     </Box>
   )
@@ -94,9 +127,29 @@ export default StigmaShowPage
 
 export async function getStaticProps({ locale, params }: NextPageContext & { params: { stigmaId: string } }) {
   const rootStigma = loadStigmaData(params.stigmaId)
+  const setId = rootStigma.stigmata[0].setId
+
+  let stigmataSetCatalogItem: StigmataSetCatalogItem | null = null
+  if (setId !== '0') {
+    const stigmataSet = loadStigmataSetData(setId)
+    const setStigmataList = stigmataSet.stigmaIdList.map(id => {
+      const targetRootStigma = params.stigmaId === id ? rootStigma : loadStigmaData(id)
+      const maxedStigma = targetRootStigma.stigmata[targetRootStigma.stigmata.length - 1]
+      return {
+        id: targetRootStigma.id,
+        icon: maxedStigma.icon,
+        maxRarity: maxedStigma.maxRarity
+      }
+    })
+    stigmataSetCatalogItem = {
+      id: setId,
+      name: stigmataSet.name,
+      stigmataList: setStigmataList
+    }
+  }
 
   return {
-    props: { rootStigma }
+    props: { rootStigma, stigmataSetCatalogItem }
   }
 }
 

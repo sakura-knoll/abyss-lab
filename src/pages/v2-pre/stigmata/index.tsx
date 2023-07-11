@@ -14,7 +14,7 @@ interface StigmataListPageProps {
 const StigmataListPage = ({ stigmataCatalog }: StigmataListPageProps) => {
   return (
     <Box>
-      <h1>Stigmata</h1>
+      <h1>Stigmata (Single)</h1>
       <Flex sx={{ flexWrap: 'wrap' }}>
         {stigmataCatalog
           .filter(filterStigmata)

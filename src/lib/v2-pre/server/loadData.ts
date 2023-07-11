@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import YAML from 'yaml'
-import { BattlesuitCatalogItem, Stigma, StigmataSet, WeaponCatalogItem } from '../data/types'
+import { BattlesuitCatalogItem, RootStigma, StigmataSet, WeaponCatalogItem } from '../data/types'
 
 export const dataDir = path.join(process.cwd(), 'data/v2-pre')
 
@@ -39,7 +39,7 @@ export function loadStigmataCatalog(): WeaponCatalogItem[] {
   return readYamlFile(stigmataCatalogPath)
 }
 
-export function loadStigmaData(id: string): Stigma {
+export function loadStigmaData(id: string): RootStigma {
   const stigmaDataPath = path.join(stigmataDir, `${id}.yaml`)
   return readYamlFile(stigmaDataPath)
 }
