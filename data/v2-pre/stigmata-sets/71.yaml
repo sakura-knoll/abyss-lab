@@ -1,0 +1,43 @@
+id: "71"
+name: 묘사자 세트
+desc: null
+skills:
+  - id: "4092"
+    name: 자연주의
+    info: "자신의 소환물의 매 공격이(재사용 대기시간 2초) 적에게 명중 후 모든 파티원의 원소 대미지가 #1[i]% 증가한다. 해당 효과는
+      하나만 발동할 수 있다. 4회 중첩 후 6초 동안 자연 상태에 진입한다.(자연 상태에서는 효과가 중첩하지 않는다) 자연 상태에서는
+      원소 대미지가 추가로 #2[i]% 증가하고 자연 상태 종료 시 모든 버프 효과가 사라진다."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: fire-dmg
+        comment: null
+      - type: ice-dmg
+        comment: null
+      - type: lightning-dmg
+        comment: null
+    param1: 0.05
+    param1Add: 0
+    param2: 0.2
+    param2Add: 0
+    param3: 0
+    param3Add: 0
+  - id: "4093"
+    name: 명암 대조법
+    info: "스테이지에 소환물이 새로 생성될 때마다 자신이 받는 모든 대미지가 #1[i]% 감소한다. 재사용 대기시간 10초. 최대 #2[i]회
+      중첩. 피격 후 하나의 중첩 효과를 잃는다."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags: []
+    param1: 0.15
+    param1Add: 0
+    param2: 3
+    param2Add: 0
+    param3: 0
+    param3Add: 0
+stigmaIdList:
+  - "110711"
+  - "110712"
+  - "110713"

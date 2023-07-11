@@ -1,0 +1,37 @@
+id: "25"
+name: 역학 3법칙 세트
+desc: null
+skills:
+  - id: "4001"
+    name: 반사 스펙트럼
+    info: "기본 공격(분기와 차지 포함)이 #1[i]%의 확률로 10초 동안 감속, 취약, 허약 중 1가지를 부여하거나
+      <color=#FEDF4CFF>마비, 빙결, 기절, 연소 게이지를 3pt 누적한다.</color> 재사용 대기시간: #3[f1]초.
+      자신이 가하는 모든 대미지가 10% 증가한다."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags: []
+    param1: 0.1
+    param1Add: 0
+    param2: 6
+    param2Add: 0
+    param3: 2
+    param3Add: 0
+  - id: "4002"
+    name: 치명적인 가속
+    info: "#1[f1]초마다 다음 기본 공격(분기와 차지 공격 포함)의 모든 대미지가 #2[i]% 증가한다, 최대 #3[i]회 중첩. 공격이
+      끝난 후 짧은 시간이 지나면 버프가 사라지고 7초의 재사용 대기시간을 가진다."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags: []
+    param1: 1
+    param1Add: 0
+    param2: 0.2
+    param2Add: 0
+    param3: 5
+    param3Add: 0
+stigmaIdList:
+  - "110251"
+  - "110252"
+  - "110253"

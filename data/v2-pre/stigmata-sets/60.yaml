@@ -1,0 +1,39 @@
+id: "60"
+name: 컬러 마스터 세트
+desc: null
+skills:
+  - id: "4071"
+    name: 색 조합의 달인
+    info: "기본 공격(분기와 차지 공격 포함)으로 1초마다 적에게 자신이 보유한 1종류의 물감을 칠한다(지속 시간 10초), 물감은 3초마다
+      변하고 서로 다른 두 종류의 물감이 혼합되어 특별한 효과를 발동한다. 혼합색 지속 시간 #1[i]초, 지속 시간 동안 다른 물감을
+      칠할 수 없다.\\n빨간색+노란색=주황색, 목표가 받는 물리 대미지 30% 증가\\n빨간색+파란색=보라색, 공격력의 #2[i]% 범위
+      물리 대미지를 입힌다.\\n노란색+파란색=녹색, 자신의 HP의 #3[i]%를 즉시 회복한다."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: physical-dmg
+        comment: null
+    param1: 4
+    param1Add: 0
+    param2: 1.2
+    param2Add: 0
+    param3: 0.04
+    param3Add: 0
+  - id: "3999"
+    name: 물감 단지
+    info: 물감 단지, 도색 전용
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags: []
+    param1: 0
+    param1Add: 0
+    param2: 0
+    param2Add: 0
+    param3: 0
+    param3Add: 0
+stigmaIdList:
+  - "110601"
+  - "110602"
+  - "110603"

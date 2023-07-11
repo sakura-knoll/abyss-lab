@@ -1,0 +1,42 @@
+id: "156"
+name: 아이돌 변신 세트
+desc: null
+skills:
+  - id: "4270"
+    name: 임시 히로인
+    info: "무기 스킬 적중 시, [스포트라이트] 강화를 1스택 획득한다. 1초마다 1회 발동하며, 최대 3스택 획득한다. [스포트라이트]
+      스택마다 자신의 화염 원소 대미지가 #1[f1]% 증가한다. 스택이 가득 차면 파티원이 연소 상태의 적에게 가하는 화염 원소 대미지가
+      #2[f1]% 증가한다. 지속 시간: 20초, 중복 발동 시 지속 시간을 갱신한다(하나만 적용)."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: fire-dmg
+        comment: null
+    param1: 0.08
+    param1Add: 0
+    param2: 0.3
+    param2Add: 0
+    param3: 0
+    param3Add: 0
+  - id: "4271"
+    name: 아이돌 정신
+    info: "무기 스킬이 가하는 화염 원소 대미지가 #1[f1]% 증가한다. 파티원이 연소 상태의 적을 공격할 경우, 목표가 받는 화염 원소
+      대미지가 #2[f1]% 증가한다(하나만 적용). 지속 시간: 5초, 중복 발동 시 지속 시간을 갱신한다. 시간의 인도자가 사용 시,
+      적을 연소시키면 목표가 받는 연소 대미지가 #3[f1]% 증가한다. 지속 시간: 10초"
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: fire-dmg
+        comment: null
+    param1: 0.15
+    param1Add: 0
+    param2: 0.35
+    param2Add: 0
+    param3: 0.2
+    param3Add: 0
+stigmaIdList:
+  - "111157"
+  - "111158"
+  - "111159"

@@ -1,0 +1,40 @@
+id: "74"
+name: 새해 만사형통 세트
+desc: null
+skills:
+  - id: "4098"
+    name: 화염 유성
+    info: "폭죽은 점화 후 폭발해 주변 적에게 <color=#FEDF4CFF>연소 게이지를 3pt 누적한다.</color> 연소 상태인 적을
+      공격하면 화염 원소 대미지가 #3[i]% 증가한다. 해당 효과는 하나만 적용되며 중첩할 수 없다."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: fire-dmg
+        comment: null
+    param1: 100
+    param1Add: 0
+    param2: 5
+    param2Add: 0
+    param3: 0.15
+    param3Add: 0
+  - id: "4099"
+    name: 특대 사이즈의 약
+    info: "폭죽통이 가하는 화염 대미지가 추가로 #1[i]% 증가한다. 폭죽통은 사라질 때 대폭발을 일으켜 주위 넓은 범위의 적에게 공격력
+      #2[i]%의 화염 원소 대미지를 가하고, <color=#FEDF4CFF>기절 게이지를 3pt 누적한다.</color>"
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: fire-dmg
+        comment: null
+    param1: 0.2
+    param1Add: 0
+    param2: 3
+    param2Add: 0
+    param3: 4
+    param3Add: 0
+stigmaIdList:
+  - "110691"
+  - "110692"
+  - "110693"

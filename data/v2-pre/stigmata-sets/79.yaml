@@ -1,0 +1,40 @@
+id: "79"
+name: 흑야 레인저 세트
+desc: null
+skills:
+  - id: "4108"
+    name: 순
+    info: 스테이지에서 10초마다 1회 충전한다. 주변에 적이 있을 경우 임의의 적에게 공격력 100%의 뇌전 원소 대미지를 가하고,
+      <color=#FEDF4CFF>기절 게이지를 3pt 누적한다.</color> 동시에 자신은 순(瞬) 상태에 진입한다. 해당 상태에서의
+      회피는 극한 회피와 같은 효과를 가진다(극한 회피 성공 후 순 상태에서 벗어난다). 스테이지에 처음으로 출전하면 즉시 뇌전 충격을
+      발동한다. 극한 회피 후, 5초 동안 분기/차지 공격의 모든 대미지가 20% 증가한다. 중복 발동 시 지속 시간이 갱신된다.
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags: []
+    param1: 1
+    param1Add: 0
+    param2: 0.2
+    param2Add: 0
+    param3: 5
+    param3Add: 0
+  - id: "4109"
+    name: Z자 베기
+    info: "극한 회피 후, 다음 공격 시 Z자 베기(재사용 대기시간 #1[i]초)를 발동한다. Z자 베기는 작은 범위의 적에게 공격력의
+      #2[i]% 물리 대미지를 입히고 5초 동안 취약 상태로 만들어 적의 방어력을 #3[i]% 감소한다."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: physical-dmg
+        comment: null
+    param1: 10
+    param1Add: 0
+    param2: 3
+    param2Add: 0
+    param3: 0.5
+    param3Add: 0
+stigmaIdList:
+  - "110791"
+  - "110792"
+  - "110793"

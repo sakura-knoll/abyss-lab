@@ -1,0 +1,37 @@
+id: "76"
+name: 악사 세트
+desc: null
+skills:
+  - id: "4102"
+    name: 풍뇌인
+    info: "대기 상태로 전환 시 모든 파티원의 모든 대미지가 #1[i]% 증가하고 캐릭터 자신은 추가로 모든 대미지가 #2[i]% 증가한다,
+      지속 시간 10초. 해당 효과는 하나만 발동할 수 있고 중첩되지 않는다"
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags: []
+    param1: 0.1
+    param1Add: 0
+    param2: 0.05
+    param2Add: 0
+    param3: 0
+    param3Add: 0
+  - id: "4103"
+    name: 자유여행
+    info: "화염 대미지가 #1[i]% 증가하고, 전투 중 자신의 HP 최대치가 #2[i]% 증가한다."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: fire-dmg
+        comment: null
+    param1: 0.3
+    param1Add: 0
+    param2: 0.2
+    param2Add: 0
+    param3: 0
+    param3Add: 0
+stigmaIdList:
+  - "110761"
+  - "110762"
+  - "110763"

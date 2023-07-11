@@ -1,0 +1,38 @@
+id: "73"
+name: 인형사 세트
+desc: null
+skills:
+  - id: "4096"
+    name: 파괴의 인형
+    info: "필살기를 2번 발동한 후 전방에 반경 5m의 인형 결계[소환물]를 펼쳐 결계 내의 적을 속박하고 적이 받는 물리 대미지를
+      #1[i]% 증가시킨다. 결계는 #2[i]초 후에 사라진다. 재사용 대기시간 #3[i]초. 결계 효과는 하나만 발동할 수 있고
+      중첩되지 않는다"
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: physical-dmg
+        comment: null
+    param1: 0.2
+    param1Add: 0
+    param2: 6
+    param2Add: 0
+    param3: 18
+    param3Add: 0
+  - id: "4097"
+    name: 인형 지휘
+    info: "캐릭터가 받는 상태 이상 지속 시간을 #1[i]% 감소하고, 상태 이상의 적에 가하는 모든 대미지가 #2[i]% 증가한다."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags: []
+    param1: 0.3
+    param1Add: 0
+    param2: 0.3
+    param2Add: 0
+    param3: 0
+    param3Add: 0
+stigmaIdList:
+  - "110741"
+  - "110742"
+  - "110743"

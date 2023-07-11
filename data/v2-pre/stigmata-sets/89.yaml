@@ -1,0 +1,37 @@
+id: "89"
+name: 학원제 연극 세트
+desc: null
+skills:
+  - id: "4130"
+    name: 암야
+    info: "적을 처치하면 권속[소환물]이 1개 생성되고 #1[i]초의 재사용 대기시간을 가진다. 권속 1마리당 모든 대미지가 #2[i]%
+      증가하며, 최대 3마리까지 존재할 수 있다. 3개의 권속이 존재할 때 자신은 물리 면역 상태가 되며, 피격 시 면역 상태가 사라지고
+      모든 권속이 사라진다. 권속이 사라진 후 #3[i]초 동안 권속을 소환할 수 없다"
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags: []
+    param1: 5
+    param1Add: 0
+    param2: 0.1
+    param2Add: 0
+    param3: 40
+    param3Add: 0
+  - id: "4131"
+    name: 백주
+    info: "3마리의 권속이 소환되는 즉시 자신의 모든 대미지가 #1[i]% 증가하고 #2[i]초 동안 강화된 상태를 유지한다. 권속이 모두
+      소멸되면 즉시 치유되어 #2[i]초 동안 초당 자신의 HP 최대치의 #3[i]%를 회복한다"
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags: []
+    param1: 0.2
+    param1Add: 0
+    param2: 10
+    param2Add: 0
+    param3: 0.02
+    param3Add: 0
+stigmaIdList:
+  - "110891"
+  - "110892"
+  - "110893"

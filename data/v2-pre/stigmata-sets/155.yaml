@@ -1,0 +1,42 @@
+id: "155"
+name: 술과 노래 세트
+desc: null
+skills:
+  - id: "4268"
+    name: 이슬 꽃의 그림자
+    info: "캐릭터 출전 또는 폭발 상태 진입 시, [이슬의 그림자]를 6스택 획득한다. 무기 액티브 스킬, 차지 공격, 분기 공격이 적에게
+      적중할 때마다 [이슬의 그림자]를 1스택 소모한다. 재사용 대기시간: 1초. 발동 시 캐릭터 자신의 SP를 #2[f1]pt 회복하고,
+      자신이 가하는 빙결 원소 대미지가 #1[f1]% 증가한다. 지속 시간: #3[f1]초, 중복 발동 시 지속 시간을 갱신한다."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: ice-dmg
+        comment: null
+    param1: 0.2
+    param1Add: 0
+    param2: 1
+    param2Add: 0
+    param3: 3
+    param3Add: 0
+  - id: "4269"
+    name: 천하의 노래
+    info: "모든 적이 해당 캐릭터에게 받는 빙결 원소 대미지가 #1[f1]% 증가한다(해당 효과는 독립적으로 부여되며, 하나만 적용된다). 한
+      번에 SP를 100pt 이상 소모하면 해당 효과가 #2[f1]%까지 증가한다. 지속 시간: 15초, 중복 발동 시 지속 시간을
+      갱신한다."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: ice-dmg
+        comment: null
+    param1: 0.05
+    param1Add: 0
+    param2: 0.15
+    param2Add: 0
+    param3: 0
+    param3Add: 0
+stigmaIdList:
+  - "111154"
+  - "111155"
+  - "111156"

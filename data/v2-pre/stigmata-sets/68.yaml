@@ -1,0 +1,42 @@
+id: "68"
+name: 네겐트로피 밴드 세트
+desc: null
+skills:
+  - id: "4086"
+    name: 라이트닝 코드
+    info: "기본 공격(분기와 차지 공격 포함)마다 코드 에너지를 1개 획득한다(재사용 대기시간 1초). 코드 에너지를 4개 획득하면 체인
+      라이트닝을 방출하고 코드 에너지를 초기화한다. 체인 라이트닝은 무작위로 #1[i]기의 적을 공격해 <color=#FEDF4CFF>마비
+      게이지를 3pt 누적한다.</color> 첫 번째 적에게 공격력의 #2[i]% 뇌전 대미지를 가하고 다음 적을 공격할 때마다 뇌전
+      대미지가 #3[i]%씩 감소한다. 체인 라이트닝은 동일한 목표를 여러 번 공격하지 않는다. 체인 라이트닝 재사용 대기시간: 15초"
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: lightning-dmg
+        comment: null
+    param1: 4
+    param1Add: 0
+    param2: 6
+    param2Add: 0
+    param3: 0.2
+    param3Add: 0
+  - id: "4087"
+    name: 어드밴스 코드
+    info: "전투 중 HP 최대치가 #1[i]%, 뇌전 원소 대미지가 #2[i]% 증가한다. 체인 라이트닝으로 가하는 뇌전 원소 대미지가 더는
+      감소하지 않는다."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: lightning-dmg
+        comment: null
+    param1: 0.2
+    param1Add: 0
+    param2: 0.4
+    param2Add: 0
+    param3: 0.2
+    param3Add: 0
+stigmaIdList:
+  - "110681"
+  - "110682"
+  - "110683"

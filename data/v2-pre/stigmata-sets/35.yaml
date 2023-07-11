@@ -1,0 +1,37 @@
+id: "35"
+name: 홍의검사 세트
+desc: null
+skills:
+  - id: "4021"
+    name: 접견
+    info: "적에게 적중 시 받는 물리 대미지가 #1[i]% 감소한다. 받는 간접 물리 대미지(출혈 등) #2[i]% 감소."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags: []
+    param1: 0.25
+    param1Add: 0
+    param2: 0.7
+    param2Add: 0
+    param3: 0
+    param3Add: 0
+  - id: "4022"
+    name: 검의 혼
+    info: "HP가 #1[i]% 미만일 때 즉시 발동한다. #2[i]초 동안 크리티컬률과 크리티컬 대미지가 #3[i]% 증가한다. 발동 중에는
+      전투 불능 상태가 되지 않는다, 재사용 대기시간 60초."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: physical-dmg
+        comment: null
+    param1: 0.05
+    param1Add: 0
+    param2: 6
+    param2Add: 0
+    param3: 0.8
+    param3Add: 0
+stigmaIdList:
+  - "110351"
+  - "110352"
+  - "110353"

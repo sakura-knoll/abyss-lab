@@ -1,0 +1,38 @@
+id: "53"
+name: 관찰자 세트
+desc: null
+skills:
+  - id: "4057"
+    name: 땅 울림
+    info: "적이 근처에 있을 경우, 5초마다 자신을 중심으로 #1[i]m 범위에 지진파를 생성한다. 지진파 3회마다, 2회는 보스가 아닌 적을
+      다운시키고, 3회는 보스가 아닌 적에게 <color=#FEDF4CFF>기절 게이지를 3pt 누적한다.</color>"
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags: []
+    param1: 3
+    param1Add: 0
+    param2: 3
+    param2Add: 0
+    param3: 0
+    param3Add: 0
+  - id: "4058"
+    name: 혼천
+    info: "스테이지의 적의 수량이 #1[i] 이상일 때 모든 파티원의 물리 대미지가 #2[i]%, 크리티컬 대미지가 #3[i]% 증가한다.
+      해당 효과는 하나만 발동할 수 있다."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: physical-dmg
+        comment: null
+    param1: 3
+    param1Add: 0
+    param2: 0.15
+    param2Add: 0
+    param3: 0.25
+    param3Add: 0
+stigmaIdList:
+  - "110531"
+  - "110532"
+  - "110533"

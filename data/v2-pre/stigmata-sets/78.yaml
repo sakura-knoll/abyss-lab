@@ -1,0 +1,38 @@
+id: "78"
+name: 절세미녀 세트
+desc: null
+skills:
+  - id: "4106"
+    name: 몽롱
+    info: "분기/차지 공격마다 1회 충전(재사용 대기시간 1초)한다. 4회 충전 시 #1[i]초 동안 몽롱 상태(재사용 대기시간 #2[i]초,
+      몽롱 상태가 종료 시 모든 충전 에너지가 사라진다)에 진입한다. 0.25초마다 자신 주변 반경 6m내의 적 1기를 랜덤으로 정해
+      #3[i] 물리 대미지를 입힌다. 동일한 적은 0.5초 내에 몽롱 효과의 대미지를 입지 않는다"
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: physical-dmg
+        comment: null
+    param1: 6
+    param1Add: 0
+    param2: 20
+    param2Add: 0
+    param3: 600
+    param3Add: 0
+  - id: "4107"
+    name: 영롱
+    info: "몽롱 효과 종료 시 모든 파티원은 치유되어 #2[i]초 동안 초당 #1[i]의 HP를 회복한다"
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags: []
+    param1: 30
+    param1Add: 0
+    param2: 6
+    param2Add: 0
+    param3: 0
+    param3Add: 0
+stigmaIdList:
+  - "110781"
+  - "110782"
+  - "110783"
