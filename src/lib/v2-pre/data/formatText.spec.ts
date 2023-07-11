@@ -37,6 +37,7 @@ describe('formatSubSkillInfo', () => {
 
     expect(result).toBe('전투 중 초기 SP가 <color=#23B2E3FF>40.0</color> 증가하며, 오픈월드에서는 10분에 1회 발동한다.')
   })
+
   it('prepends 0 if the calculated value below 0', () => {
     const params = {
       info: '파티원이 출혈 상태의 적 공격 시, 출혈 상태 스택마다 크리티컬률이 #1[f1]% 증가하고, 캐릭터 자신의 물리 대미지가 #2[f1]% 증가한다.',
@@ -52,7 +53,26 @@ describe('formatSubSkillInfo', () => {
     const result = formatSubSkillInfo(params)
 
     expect(result).toBe(
-      '필살기 꿈 세계 창조는 추가로 SP를 소모해 물리 대미지가 추가 소모 SP*<color=#23B2E3FF>0.70%</color>만큼 증가하고, 크리티컬률이 추가 소모 SP*<color=#23B2E3FF>0.50%</color>만큼 증가한다(최대 추가 소모 SP: 50pt). 해당 효과는 피니쉬가 종료될 때까지 지속되며, 캐릭터가 사망하거나 퇴장 시 해제된다.'
+      '파티원이 출혈 상태의 적 공격 시, 출혈 상태 스택마다 크리티컬률이 <color=#23B2E3FF>0.7%</color> 증가하고, 캐릭터 자신의 물리 대미지가 <color=#23B2E3FF>0.5%</color> 증가한다.'
+    )
+  })
+
+  it('handle integer format', () => {
+    const params = {
+      info: '모든 대미지 #1[i]% 증가. 브로냐가 사용 시 교대기(QTE 포함)의 모든 대미지가 추가로 #2[i]% 증가한다.',
+      maxLv: 1,
+      paramBase1: 0.1,
+      paramBase2: 0.1,
+      paramBase3: 0,
+      paramAdd1: 0,
+      paramAdd2: 0,
+      paramAdd3: 0
+    }
+
+    const result = formatSubSkillInfo(params)
+
+    expect(result).toBe(
+      '모든 대미지 <color=#23B2E3FF>10%</color> 증가. 브로냐가 사용 시 교대기(QTE 포함)의 모든 대미지가 추가로 <color=#23B2E3FF>10%</color> 증가한다.'
     )
   })
 })

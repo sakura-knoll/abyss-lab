@@ -105,7 +105,7 @@ function calculateParams(params: {
   }
 }
 
-const paramRegex = /#([123])\[f([0-9])\](%)?/
+const paramRegex = /#([123])\[(i|f[0-9])\](%)?/
 function replaceParams(
   text: string,
   params: {
@@ -119,7 +119,7 @@ function replaceParams(
     return text
   }
   const paramNumber = result[1]
-  const precision = parseInt(result[2], 10)
+  const precision = result[2] === 'i' ? 0 : parseInt(result[2].slice(1), 10)
   const asPercentage = result[3]!!
 
   const value = paramNumber === '1' ? params.param1 : paramNumber === '2' ? params.param2 : params.param3
