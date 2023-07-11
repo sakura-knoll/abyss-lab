@@ -227,6 +227,7 @@ export interface Stigma {
   description: string
   shortName: string
   mainId: string
+  setId: string
   skills: EquipmentSkill[]
   rankUpMaterials: {
     id: string
@@ -245,4 +246,18 @@ export interface StigmataCatalogItem {
   icon: string
   type: StigmaType
   maxRarity: 1 | 2 | 3 | 4 | 5
+}
+
+export interface StigmataSet {
+  id: string
+  name: string
+  desc: string
+  skills: EquipmentSkill[]
+  stigmaIdList: string[]
+}
+
+export interface StigmataSetCatalogItem {
+  id: string
+  name: string
+  stigmataList: { id: string; icon: string; maxRarity: number }[]
 }

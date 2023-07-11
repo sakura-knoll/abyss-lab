@@ -1,4 +1,5 @@
-import { RootStigma, StigmaType } from '../../data/types'
+import { EquipmentSkill, RootStigma, StigmataSet, StigmaType } from '../../data/types'
+import { getRawEquipmentSetDataMap } from '../raw/equipmentSetData'
 import { getRawEquipmentSkillDataMap } from '../raw/equipmentSkillData'
 import { getRawStigmataDataMap } from '../raw/stigmataData'
 import { convertEquipmentSkill, getText } from './utils'
@@ -7,8 +8,18 @@ export function compileStigmataData() {
   const rawStigmataDataMap = getRawStigmataDataMap()
   const rawStigmataDataMapEntries = Object.entries(rawStigmataDataMap)
   const rawEquipmentSkillDataMap = getRawEquipmentSkillDataMap()
+  const rawEquipmentSetDataMap = getRawEquipmentSetDataMap()
+  const stigmaSetIdMainIdListMap = new Map<string, string[]>()
 
   const stigmataMainIdStigmataMap = rawStigmataDataMapEntries.reduce((map, [id, rawData]) => {
+    // Bronya calorie has a dummy data
+    if (id === '32274') {
+      return map
+    }
+    // Mei Chrismas does not exist in the game
+    if (rawData.StigmataMainID === 120443) {
+      return map
+    }
     const mainId = rawData.StigmataMainID.toString()
     let rootStigma = map.get(mainId)
     if (rootStigma == null) {
@@ -17,6 +28,14 @@ export function compileStigmataData() {
         stigmata: []
       }
       map.set(mainId, rootStigma)
+
+      const setId = rawData.SetID.toString()
+      let mainIdList = stigmaSetIdMainIdListMap.get(setId)
+      if (mainIdList == null) {
+        mainIdList = []
+        stigmaSetIdMainIdListMap.set(setId, mainIdList)
+      }
+      mainIdList.push(mainId)
     }
     const [, , icon] = rawData.IconPath.split('/')
     const [, , smallIcon] = rawData.SmallIcon.split('/')
@@ -92,13 +111,72 @@ export function compileStigmataData() {
           amount: Num
         }
       }),
+      setId: rawData.SetID.toString(),
       mainId
     })
 
     return map
   }, new Map<string, RootStigma>())
 
-  return [...stigmataMainIdStigmataMap.values()]
+  const stigmataSetList = Object.entries(rawEquipmentSetDataMap).map<StigmataSet>(([id, rawData]) => {
+    const skills: EquipmentSkill[] = []
+
+    if (rawData.Prop1ID !== 0) {
+      const skillId = rawData.Prop1ID.toString()
+      const rawSkill = rawEquipmentSkillDataMap[skillId]
+      skills.push({
+        id: skillId,
+        ...convertEquipmentSkill(rawSkill),
+        param1: rawData.Prop1Param1,
+        param1Add: rawData.Prop1Param1Add,
+        param2: rawData.Prop1Param2,
+        param2Add: rawData.Prop1Param2Add,
+        param3: rawData.Prop1Param3,
+        param3Add: rawData.Prop1Param3Add
+      })
+    }
+    if (rawData.Prop2ID !== 0) {
+      const skillId = rawData.Prop2ID.toString()
+      const rawSkill = rawEquipmentSkillDataMap[skillId]
+      skills.push({
+        id: skillId,
+        ...convertEquipmentSkill(rawSkill),
+        param1: rawData.Prop2Param1,
+        param1Add: rawData.Prop2Param1Add,
+        param2: rawData.Prop2Param2,
+        param2Add: rawData.Prop2Param2Add,
+        param3: rawData.Prop2Param3,
+        param3Add: rawData.Prop2Param3Add
+      })
+    }
+    if (rawData.Prop3ID !== 0) {
+      const skillId = rawData.Prop3ID.toString()
+      const rawSkill = rawEquipmentSkillDataMap[skillId]
+      skills.push({
+        id: skillId,
+        ...convertEquipmentSkill(rawSkill),
+        param1: rawData.Prop3Param1,
+        param1Add: rawData.Prop3Param1Add,
+        param2: rawData.Prop3Param2,
+        param2Add: rawData.Prop3Param2Add,
+        param3: rawData.Prop3Param3,
+        param3Add: rawData.Prop3Param3Add
+      })
+    }
+
+    return {
+      id,
+      name: getText(rawData.SetName),
+      desc: getText(rawData.SetDesc),
+      skills,
+      stigmaIdList: stigmaSetIdMainIdListMap.get(id) || []
+    }
+  })
+
+  return {
+    stigmataSetList,
+    stigmataMainIdStigmataMap
+  }
 }
 
 function convertStigmataType(rawType: number): StigmaType {
