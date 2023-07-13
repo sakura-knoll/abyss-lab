@@ -3,9 +3,8 @@ import { Box, Card, Flex, Heading, Link } from 'theme-ui'
 import FormattedText from '../../../components/v2-pre/FormattedText'
 import { formatSubSkillInfo, replaceNewLine } from '../../../lib/v2-pre/data/formatText'
 import { loadStigmaData, loadStigmataCatalog, loadStigmataSetData } from '../../../lib/v2-pre/server/loadData'
-import { RootStigma, SkillTagItem, StigmataSetCatalogItem } from '../../../lib/v2-pre/data/types'
+import { RootStigma, StigmataSetCatalogItem } from '../../../lib/v2-pre/data/types'
 import { Fragment } from 'react'
-import TagIcon from '../../../components/v2-pre/TagIcon'
 import { getStigmaTypeLabel } from '../../../lib/v2-pre/data/text'
 import StigmaTypeIcon from '../../../components/v2-pre/StigmaTypeIcon'
 import StigmaIcon from '../../../components/v2-pre/StigmaIcon'
@@ -164,12 +163,4 @@ export async function getStaticPaths() {
     }),
     fallback: false
   }
-}
-
-interface SkillTagBoxProps {
-  tag: SkillTagItem
-}
-
-const SkillTagItem = ({ tag }: SkillTagBoxProps) => {
-  return <TagIcon type={tag.type} strength={tag.strength} comment={tag.comment} size="sm" />
 }

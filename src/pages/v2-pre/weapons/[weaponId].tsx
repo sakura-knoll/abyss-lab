@@ -3,9 +3,8 @@ import { Box, Card, Flex, Heading } from 'theme-ui'
 import FormattedText from '../../../components/v2-pre/FormattedText'
 import { formatSubSkillInfo, replaceNewLine } from '../../../lib/v2-pre/data/formatText'
 import { loadWeaponCatalog, loadWeaponData } from '../../../lib/v2-pre/server/loadData'
-import { RootWeaponData, SkillTagItem } from '../../../lib/v2-pre/data/types'
+import { RootWeaponData } from '../../../lib/v2-pre/data/types'
 import { Fragment } from 'react'
-import TagIcon from '../../../components/v2-pre/TagIcon'
 import { getWeaponTypeLabel } from '../../../lib/v2-pre/data/text'
 import WeaponTypeIcon from '../../../components/v2-pre/WeaponTypeIcon'
 import WeaponIcon from '../../../components/v2-pre/WeaponIcon'
@@ -104,12 +103,4 @@ export async function getStaticPaths() {
     }),
     fallback: false
   }
-}
-
-interface SkillTagBoxProps {
-  tag: SkillTagItem
-}
-
-const SkillTagItem = ({ tag }: SkillTagBoxProps) => {
-  return <TagIcon type={tag.type} strength={tag.strength} comment={tag.comment} size="sm" />
 }

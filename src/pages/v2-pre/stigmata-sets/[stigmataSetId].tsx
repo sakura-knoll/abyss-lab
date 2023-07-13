@@ -3,9 +3,8 @@ import { Box, Card, Flex, Heading, Link } from 'theme-ui'
 import FormattedText from '../../../components/v2-pre/FormattedText'
 import { formatSubSkillInfo } from '../../../lib/v2-pre/data/formatText'
 import { loadStigmaData, loadStigmataSetCatalog, loadStigmataSetData } from '../../../lib/v2-pre/server/loadData'
-import { RootStigma, SkillTagItem, StigmataSet } from '../../../lib/v2-pre/data/types'
+import { RootStigma, StigmataSet } from '../../../lib/v2-pre/data/types'
 import { Fragment } from 'react'
-import TagIcon from '../../../components/v2-pre/TagIcon'
 import StigmaIcon from '../../../components/v2-pre/StigmaIcon'
 import StigmaFigureImage from '../../../components/v2-pre/StigmaFigureImage'
 
@@ -176,12 +175,4 @@ export async function getStaticPaths() {
     }),
     fallback: false
   }
-}
-
-interface SkillTagBoxProps {
-  tag: SkillTagItem
-}
-
-const SkillTagItem = ({ tag }: SkillTagBoxProps) => {
-  return <TagIcon type={tag.type} strength={tag.strength} comment={tag.comment} size="sm" />
 }
