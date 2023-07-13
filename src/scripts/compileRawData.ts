@@ -9,7 +9,9 @@ import {
   dataDir,
   erBattlesuitCatalogPath,
   erBattlesuitsDir,
+  erSigilsPath,
   erSignetsDir,
+  erSupportsPath,
   stigmataCatalogPath,
   stigmataDir,
   stigmataSetCatalogPath,
@@ -133,7 +135,7 @@ function writeStigmataData() {
 }
 
 function writeErData() {
-  const { buffSuitBuffListMap, mainAvatarList } = compileGodWarData()
+  const { buffSuitBuffListMap, mainAvatarList, supportAvatarList, sigilList } = compileGodWarData()
 
   const erBattlesuitCatalog = mainAvatarList.map(mainAvatar => {
     return { battlesuit: mainAvatar.battlesuit }
@@ -152,4 +154,7 @@ function writeErData() {
     const erSignetsPath = path.join(erSignetsDir, `${buffSuit}.yaml`)
     fs.writeFileSync(erSignetsPath, YAML.stringify(list))
   }
+
+  fs.writeFileSync(erSupportsPath, YAML.stringify(supportAvatarList))
+  fs.writeFileSync(erSigilsPath, YAML.stringify(sigilList))
 }

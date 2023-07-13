@@ -1,15 +1,18 @@
-import { ErBattlesuit, ErBattlesuitAbility, ErSignet, ErSignetGroup } from '../../data/types'
+import { ErBattlesuit, ErBattlesuitAbility, ErSigil, ErSignet, ErSupportBattlesuit } from '../../data/types'
 import { getRawGodWarAvatarAbilityMap } from '../raw/godWarAvatarAbility'
 import { getRawGodWarBuffMap } from '../raw/godWarBuff'
-import { getRawGodWarBuffSuitMap } from '../raw/godWarBuffSuit'
+import { getRawGodWarExtraItemMap } from '../raw/godWarExxtraItem'
 import { getRawGodWarMainAvatarMap } from '../raw/godWarMainAvatar'
+import { getRawGodWarSupportAvatarMap } from '../raw/godWarSupportAvatar'
 import { getText } from './utils'
 
 export function compileGodWarData() {
   const rawMainAvatarMap = getRawGodWarMainAvatarMap()['1']
   const rawGodWarAvatarAbilityMap = getRawGodWarAvatarAbilityMap()
   const rawGodWarBuffMap = getRawGodWarBuffMap()
-  const rawGodWarBuffSuitMap = getRawGodWarBuffSuitMap()
+  const rawGodWarSupportAvatarMap = getRawGodWarSupportAvatarMap()['1']
+  const rawGodWarExtraItemMap = getRawGodWarExtraItemMap()
+
   const battlesuitIdRawBuffListMap = new Map<string, ErSignet[]>()
   const buffSuitBuffListMap = new Map<string, ErSignet[]>()
 
@@ -76,8 +79,29 @@ export function compileGodWarData() {
     }
   })
 
+  const supportAvatarList = Object.entries(rawGodWarSupportAvatarMap).map<ErSupportBattlesuit>(([id, rawData]) => {
+    return {
+      battlesuit: id,
+      name: getText(rawData.SkillName),
+      desc: getText(rawData.SkillDesc),
+      cd: rawData.CD
+    }
+  })
+
+  const sigilList = Object.entries(rawGodWarExtraItemMap).map<ErSigil>(([id, rawData]) => {
+    return {
+      id,
+      name: getText(rawData.ExtraItemName),
+      desc: getText(rawData.ExtraItemSkill),
+      type: rawData.ExtraItemType,
+      unlockHint: getText(rawData.UnlockExtraItemHint)
+    }
+  })
+
   return {
     buffSuitBuffListMap,
-    mainAvatarList
+    mainAvatarList,
+    supportAvatarList,
+    sigilList
   }
 }

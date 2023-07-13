@@ -5,7 +5,9 @@ import {
   BattlesuitCatalogItem,
   ErBattlesuit,
   ErBattlesuitCatalogItem,
+  ErSigil,
   ErSignet,
+  ErSupportBattlesuit,
   RootStigma,
   StigmataCatalogItem,
   StigmataSet,
@@ -30,7 +32,8 @@ export const stigmataSetCatalogPath = path.join(dataDir, 'stigmata-set-catalog.y
 export const erBattlesuitCatalogPath = path.join(dataDir, 'er-battlesuits-catalog.yaml')
 export const erBattlesuitsDir = path.join(dataDir, 'er-battlesuits')
 export const erSignetsDir = path.join(dataDir, 'er-signets')
-export const erSignetGroupsPath = path.join(dataDir, 'er-signet-groups.yaml')
+export const erSupportsPath = path.join(dataDir, 'er-supports.yaml')
+export const erSigilsPath = path.join(dataDir, 'er-sigils.yaml')
 
 export function loadBattlesuitCatalog(): BattlesuitCatalogItem[] {
   return readYamlFile(battlesuitCatalogPath)
@@ -80,6 +83,14 @@ export function loadErBattlesuit(id: string): ErBattlesuit {
 export function loadErSignets(id: string): ErSignet[] {
   const erSignetsPath = path.join(erSignetsDir, `${id}.yaml`)
   return readYamlFile(erSignetsPath)
+}
+
+export function loadErSupports(): ErSupportBattlesuit[] {
+  return readYamlFile(erSupportsPath)
+}
+
+export function loadErSigils(): ErSigil[] {
+  return readYamlFile(erSigilsPath)
 }
 
 function readYamlFile(pathname: string) {

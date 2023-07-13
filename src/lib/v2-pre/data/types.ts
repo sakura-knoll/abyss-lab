@@ -275,6 +275,14 @@ export interface ErBattlesuit {
   abilities: ErBattlesuitAbility[]
   signets: ErSignet[]
 }
+
+export interface ErSupportBattlesuit {
+  battlesuit: string
+  name: string
+  desc: string
+  cd: number
+}
+
 export interface ErBattlesuitCatalogItem {
   battlesuit: string
 }
@@ -290,4 +298,12 @@ export interface ErSignetGroup {
   id: string
   name: string
   icon: string
+}
+
+export interface ErSigil {
+  id: string
+  name: string
+  desc: string
+  unlockHint: string
+  type: number
 }
