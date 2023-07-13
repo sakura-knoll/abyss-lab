@@ -7,6 +7,9 @@ import {
   battlesuitCatalogPath,
   battlesuitsDir,
   dataDir,
+  erBattlesuitCatalogPath,
+  erBattlesuitsDir,
+  erSignetsDir,
   stigmataCatalogPath,
   stigmataDir,
   stigmataSetCatalogPath,
@@ -23,12 +26,14 @@ import {
 import { compileBattlesuitData } from '../lib/v2-pre/server/compileData/compileBattlesuitData'
 import { compileWeaponData } from '../lib/v2-pre/server/compileData/compileWeaponData'
 import { compileStigmataData } from '../lib/v2-pre/server/compileData/compileStigmataData'
+import { compileGodWarData } from '../lib/v2-pre/server/compileData/compileGodWarData'
 
 runScript(async () => {
   createDirIfNotExist(dataDir)
   writeBattlesuitData()
   writeWeaponData()
   writeStigmataData()
+  writeErData()
 })
 
 function writeBattlesuitData() {
@@ -124,5 +129,27 @@ function writeStigmataData() {
   for (const stigmataSet of stigmataSetList) {
     const stigmaSetDataPath = path.join(stigmataSetsDir, `${stigmataSet.id}.yaml`)
     fs.writeFileSync(stigmaSetDataPath, YAML.stringify(stigmataSet))
+  }
+}
+
+function writeErData() {
+  const { buffSuitBuffListMap, mainAvatarList } = compileGodWarData()
+
+  const erBattlesuitCatalog = mainAvatarList.map(mainAvatar => {
+    return { battlesuit: mainAvatar.battlesuit }
+  })
+
+  fs.writeFileSync(erBattlesuitCatalogPath, YAML.stringify(erBattlesuitCatalog))
+
+  createDirIfNotExist(erBattlesuitsDir)
+  for (const erBattlesuit of mainAvatarList) {
+    const erBattlesuitPath = path.join(erBattlesuitsDir, `${erBattlesuit.battlesuit}.yaml`)
+    fs.writeFileSync(erBattlesuitPath, YAML.stringify(erBattlesuit))
+  }
+
+  createDirIfNotExist(erSignetsDir)
+  for (const [buffSuit, list] of buffSuitBuffListMap) {
+    const erSignetsPath = path.join(erSignetsDir, `${buffSuit}.yaml`)
+    fs.writeFileSync(erSignetsPath, YAML.stringify(list))
   }
 }

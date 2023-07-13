@@ -23,7 +23,6 @@ describe('formatSubSkillInfo', () => {
   it('appends 0, based on precision, if the calculated value does not have decimals', () => {
     const params = {
       info: '전투 중 초기 SP가 #1[f1] 증가하며, 오픈월드에서는 10분에 1회 발동한다.',
-
       maxLv: 11,
       paramBase1: 20,
       paramBase2: 0,

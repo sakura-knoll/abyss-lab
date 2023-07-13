@@ -261,3 +261,33 @@ export interface StigmataSetCatalogItem {
   name: string
   stigmataList: { id: string; icon: string; maxRarity: number }[]
 }
+
+export interface ErSignet {
+  id: string
+  name: string
+  desc: string
+  buffSuit: string
+  quality: number
+}
+
+export interface ErBattlesuit {
+  battlesuit: string
+  abilities: ErBattlesuitAbility[]
+  signets: ErSignet[]
+}
+export interface ErBattlesuitCatalogItem {
+  battlesuit: string
+}
+
+export interface ErBattlesuitAbility {
+  id: string
+  type: number
+  name: string
+  desc: string
+}
+
+export interface ErSignetGroup {
+  id: string
+  name: string
+  icon: string
+}

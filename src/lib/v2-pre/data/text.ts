@@ -223,3 +223,18 @@ export function getTagTypeLabel(type: TagType) {
       return `Unknown Tag Type (${type})`
   }
 }
+
+export function getErSignetTypeLabel(quality: number) {
+  switch (quality) {
+    case 1:
+      return '일반 각인'
+    case 2:
+      return '증폭 각인'
+    case 3:
+      return '코어 각인'
+    case 4:
+      return '전용 각인'
+    default:
+      return `Unknown (${quality})`
+  }
+}
