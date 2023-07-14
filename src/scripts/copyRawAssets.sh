@@ -26,4 +26,5 @@ dump/sprite2-dump-67/assets/asbres/spriteoutput/rogue/godcloseup \
 dump/sprite2-dump-67/assets/asbres/spriteoutput/weaponicons \
 dump/sprite2-dump-67/assets/asbres/spriteoutput/weapontypeicons \
 dump/sprite2-dump-67/assets/asbres/spriteoutput/materialfigures \
+dump/sprite2-dump-67/assets/asbres/spriteoutput/elf_skill_icon \
 assets/raw

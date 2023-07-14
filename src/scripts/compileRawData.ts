@@ -7,6 +7,8 @@ import {
   battlesuitCatalogPath,
   battlesuitsDir,
   dataDir,
+  elfCatalogPath,
+  elfsDir,
   erBattlesuitCatalogPath,
   erBattlesuitsDir,
   erSigilsPath,
@@ -21,6 +23,7 @@ import {
 } from '../lib/v2-pre/server/loadData'
 import {
   BattlesuitCatalogItem,
+  ElfCatalogItem,
   StigmataCatalogItem,
   StigmataSetCatalogItem,
   WeaponCatalogItem
@@ -29,6 +32,7 @@ import { compileBattlesuitData } from '../lib/v2-pre/server/compileData/compileB
 import { compileWeaponData } from '../lib/v2-pre/server/compileData/compileWeaponData'
 import { compileStigmataData } from '../lib/v2-pre/server/compileData/compileStigmataData'
 import { compileGodWarData } from '../lib/v2-pre/server/compileData/compileGodWarData'
+import { compileElfData } from '../lib/v2-pre/server/compileData/compileElfData'
 
 runScript(async () => {
   createDirIfNotExist(dataDir)
@@ -36,6 +40,7 @@ runScript(async () => {
   writeWeaponData()
   writeStigmataData()
   writeErData()
+  writeElfData()
 })
 
 function writeBattlesuitData() {
@@ -157,4 +162,27 @@ function writeErData() {
 
   fs.writeFileSync(erSupportsPath, YAML.stringify(supportAvatarList))
   fs.writeFileSync(erSigilsPath, YAML.stringify(sigilList))
+}
+
+function writeElfData() {
+  const elfs = compileElfData()
+
+  const elfCatalogList = elfs.map<ElfCatalogItem>(elf => {
+    return {
+      id: elf.id,
+      fullName: elf.fullName,
+      cardIcon: elf.cardIcon,
+      icon: elf.icon,
+      chibiIcon: elf.chibiIcon,
+      rarity: elf.rarity
+    }
+  })
+
+  fs.writeFileSync(elfCatalogPath, YAML.stringify(elfCatalogList))
+
+  createDirIfNotExist(elfsDir)
+  for (const elf of elfs) {
+    const elfDataPath = path.join(elfsDir, `${elf.id}.yaml`)
+    fs.writeFileSync(elfDataPath, YAML.stringify(elf))
+  }
 }

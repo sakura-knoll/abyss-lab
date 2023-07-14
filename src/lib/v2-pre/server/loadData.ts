@@ -3,6 +3,8 @@ import path from 'path'
 import YAML from 'yaml'
 import {
   BattlesuitCatalogItem,
+  Elf,
+  ElfCatalogItem,
   ErBattlesuit,
   ErBattlesuitCatalogItem,
   ErSigil,
@@ -34,6 +36,9 @@ export const erBattlesuitsDir = path.join(dataDir, 'er-battlesuits')
 export const erSignetsDir = path.join(dataDir, 'er-signets')
 export const erSupportsPath = path.join(dataDir, 'er-supports.yaml')
 export const erSigilsPath = path.join(dataDir, 'er-sigils.yaml')
+
+export const elfsDir = path.join(dataDir, 'elfs')
+export const elfCatalogPath = path.join(dataDir, 'elf-catalog.yaml')
 
 export function loadBattlesuitCatalog(): BattlesuitCatalogItem[] {
   return readYamlFile(battlesuitCatalogPath)
@@ -91,6 +96,15 @@ export function loadErSupports(): ErSupportBattlesuit[] {
 
 export function loadErSigils(): ErSigil[] {
   return readYamlFile(erSigilsPath)
+}
+
+export function loadElfCatalog(): ElfCatalogItem[] {
+  return readYamlFile(elfCatalogPath)
+}
+
+export function loadElfData(id: string): Elf {
+  const elfDataPath = path.join(elfsDir, `${id}.yaml`)
+  return readYamlFile(elfDataPath)
 }
 
 function readYamlFile(pathname: string) {

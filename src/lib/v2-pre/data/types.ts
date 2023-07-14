@@ -307,3 +307,53 @@ export interface ErSigil {
   unlockHint: string
   type: number
 }
+
+export interface Elf {
+  cardIcon: string
+  id: string
+  fullName: string
+  icon: string
+  chibiIcon: string
+  figureImage: string
+  rarity: number
+  cardId: number
+  fragmentId: number
+  storyDesc: string
+  ultSkillCd: number
+  ultSkillCost: number
+  skillBg: string
+  tags: {
+    type: TagType
+    comment: string
+  }[]
+  captainSkillIds: string[]
+  skills: ElfSkill[]
+}
+
+export interface ElfSkill {
+  id: string
+  elfId: string
+  name: string
+  info: string
+  skillType: string
+  skillTypeId: string
+  icon: string
+  row: number
+  col: number
+  unlockStar: number
+  maxLv: number
+  paramBase1: number
+  paramBase2: number
+  paramBase3: number
+  paramAdd1: number
+  paramAdd2: number
+  paramAdd3: number
+}
+
+export interface ElfCatalogItem {
+  id: string
+  fullName: string
+  cardIcon: string
+  chibiIcon: string
+  rarity: number
+}

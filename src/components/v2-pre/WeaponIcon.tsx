@@ -1,13 +1,11 @@
-import { Box, Flex } from 'theme-ui'
+import { Box } from 'theme-ui'
 import { assetsBucketBaseUrl } from '../../lib/consts'
-import { repeat } from '../../lib/utils'
+import RarityBar from './RarityBar'
 
 interface WeaponIconProps {
   icon: string
   rarity?: number
 }
-
-const starSize = 16
 
 const WeaponIcon = ({ icon: fileName, rarity }: WeaponIconProps) => {
   return (
@@ -22,20 +20,7 @@ const WeaponIcon = ({ icon: fileName, rarity }: WeaponIconProps) => {
           )}`
         }}
       />
-      {rarity != null && (
-        <Flex sx={{ marginTop: -starSize / 2, justifyContent: 'center', width: '100%' }}>
-          {repeat(rarity, index => (
-            <Box
-              key={index}
-              sx={{
-                width: starSize,
-                height: starSize,
-                background: `no-repeat 50% / 100% url(${assetsBucketBaseUrl}/raw-misc/StarBig.png)`
-              }}
-            />
-          ))}
-        </Flex>
-      )}
+      {rarity != null && <RarityBar rarity={rarity} />}
     </Box>
   )
 }
