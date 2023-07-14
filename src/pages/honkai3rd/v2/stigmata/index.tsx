@@ -3,9 +3,9 @@ import { Box, Card } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import { Flex, Link } from 'theme-ui'
 
-import { StigmataCatalogItem } from '../../../lib/v2-pre/data/types'
-import { loadStigmataCatalog } from '../../../lib/v2-pre/server/loadData'
-import StigmaIcon from '../../../components/v2-pre/StigmaIcon'
+import { StigmataCatalogItem } from '../../../../lib/v2-pre/data/types'
+import { loadStigmataCatalog } from '../../../../lib/v2-pre/server/loadData'
+import StigmaIcon from '../../../../components/v2-pre/StigmaIcon'
 
 interface StigmataListPageProps {
   stigmataCatalog: StigmataCatalogItem[]

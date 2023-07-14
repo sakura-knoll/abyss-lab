@@ -2,9 +2,9 @@
 import { Box } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import { Flex, Link } from 'theme-ui'
-import { loadBattlesuitCatalog } from '../../../lib/v2-pre/server/loadData'
-import { BattlesuitCatalogItem } from '../../../lib/v2-pre/data/types'
-import BattlesuitCatalogItemCard from '../../../components/v2-pre/BattlesuitCatalogItemCard'
+import { loadBattlesuitCatalog } from '../../../../lib/v2-pre/server/loadData'
+import { BattlesuitCatalogItem } from '../../../../lib/v2-pre/data/types'
+import BattlesuitCatalogItemCard from '../../../../components/v2-pre/BattlesuitCatalogItemCard'
 
 interface BattlesuitListPageProps {
   battlesuitCatalog: BattlesuitCatalogItem[]

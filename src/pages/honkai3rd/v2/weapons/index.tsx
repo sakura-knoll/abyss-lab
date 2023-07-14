@@ -2,9 +2,9 @@
 import { Box, Card } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import { Flex, Link } from 'theme-ui'
-import { loadWeaponCatalog } from '../../../lib/v2-pre/server/loadData'
-import { WeaponCatalogItem } from '../../../lib/v2-pre/data/types'
-import WeaponIcon from '../../../components/v2-pre/WeaponIcon'
+import { loadWeaponCatalog } from '../../../../lib/v2-pre/server/loadData'
+import { WeaponCatalogItem } from '../../../../lib/v2-pre/data/types'
+import WeaponIcon from '../../../../components/v2-pre/WeaponIcon'
 
 interface WeaponListPageProps {
   weaponCatalog: WeaponCatalogItem[]

@@ -17,7 +17,7 @@ import {
   WeaponCatalogItem
 } from '../data/types'
 
-export const dataDir = path.join(process.cwd(), 'data/v2-pre')
+export const dataDir = path.join(process.cwd(), 'data/v2')
 
 export const battlesuitsDir = path.join(dataDir, 'battlesuits')
 export const battlesuitCatalogPath = path.join(dataDir, 'battlesuit-catalog.yaml')

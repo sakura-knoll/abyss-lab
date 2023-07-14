@@ -1,14 +1,14 @@
 import { NextPageContext } from 'next'
 import { Box, Card, Flex, Heading, Link } from 'theme-ui'
-import FormattedText from '../../../components/v2-pre/FormattedText'
-import { formatSubSkillInfo, replaceNewLine } from '../../../lib/v2-pre/data/formatText'
-import { loadStigmaData, loadStigmataCatalog, loadStigmataSetData } from '../../../lib/v2-pre/server/loadData'
-import { RootStigma, StigmataSetCatalogItem } from '../../../lib/v2-pre/data/types'
+import FormattedText from '../../../../components/v2-pre/FormattedText'
+import { formatSubSkillInfo, replaceNewLine } from '../../../../lib/v2-pre/data/formatText'
+import { loadStigmaData, loadStigmataCatalog, loadStigmataSetData } from '../../../../lib/v2-pre/server/loadData'
+import { RootStigma, StigmataSetCatalogItem } from '../../../../lib/v2-pre/data/types'
 import { Fragment } from 'react'
-import { getStigmaTypeLabel } from '../../../lib/v2-pre/data/text'
-import StigmaTypeIcon from '../../../components/v2-pre/StigmaTypeIcon'
-import StigmaIcon from '../../../components/v2-pre/StigmaIcon'
-import StigmaFigureImage from '../../../components/v2-pre/StigmaFigureImage'
+import { getStigmaTypeLabel } from '../../../../lib/v2-pre/data/text'
+import StigmaTypeIcon from '../../../../components/v2-pre/StigmaTypeIcon'
+import StigmaIcon from '../../../../components/v2-pre/StigmaIcon'
+import StigmaFigureImage from '../../../../components/v2-pre/StigmaFigureImage'
 
 interface StigmaShowPageProps {
   rootStigma: RootStigma

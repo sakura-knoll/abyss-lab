@@ -1,12 +1,12 @@
 import { NextPageContext } from 'next'
 import { Box, Card, Flex, Heading } from 'theme-ui'
-import { loadErSignets } from '../../../../lib/v2-pre/server/loadData'
-import { ErSignet, ErSignetGroup } from '../../../../lib/v2-pre/data/types'
+import { loadErSignets } from '../../../../../lib/v2-pre/server/loadData'
+import { ErSignet, ErSignetGroup } from '../../../../../lib/v2-pre/data/types'
 import { Fragment, useMemo } from 'react'
-import { assetsBucketBaseUrl } from '../../../../lib/consts'
-import { signetGroups } from '../../../../lib/v2-pre/data/er'
-import SquareImage from '../../../../components/v2-pre/SquareImage'
-import { getErSignetTypeLabel } from '../../../../lib/v2-pre/data/text'
+import { assetsBucketBaseUrl } from '../../../../../lib/consts'
+import { signetGroups } from '../../../../../lib/v2-pre/data/er'
+import SquareImage from '../../../../../components/v2-pre/SquareImage'
+import { getErSignetTypeLabel } from '../../../../../lib/v2-pre/data/text'
 
 interface BattlesuitShowPageProps {
   group: ErSignetGroup
