@@ -1,0 +1,272 @@
+id: "113"
+fullName: 성검 듀란달
+icon: Elf_13
+cardIcon: Elf_10013
+chibiIcon: Elf_10013
+figureImage: Elf_10013
+rarity: 4
+cardId: 380113
+fragmentId: 370113
+storyDesc: 설명
+ultSkillCd: 45
+ultSkillCost: 75
+skillBg: TalentBg13
+tags:
+  - type: physical-dmg
+    comment: null
+  - type: gather
+    comment: null
+captainSkillIds:
+  - "140031"
+  - "140032"
+skills:
+  - id: "14001"
+    elfId: "113"
+    name: 미소녀 만세!
+    info: "인형은 두 가지 기본 공격을 사용한다:\\n기본 공격1: 연속 공격을 발동해 총 공격력 2100%의 물리 대미지를 가한다.\\n기본
+      공격2: 돌진 공격을 발동해 총 공격력 2100%의 물리 대미지를 가한다.\\n전투 진입 후 인형이 매초 SP를
+      <color=#ff9900>#1[f2]</color>pt 회복한다."
+    skillType: 기본 공격
+    skillTypeId: "1"
+    icon: Skill_Elf_Attack_113
+    row: 1
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.85
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "14002"
+    elfId: "113"
+    name: 불멸의 칼날!!
+    info: "인형이 지정 목표 위치에 나타나 적을 모으고, 범위 내 적에게 다단 공격을 발동해 공격력 600%*8의 물리 대미지를 가한다. 다단
+      공격 종료 후, 다시 적을 모아 폭발을 일으켜 1800%의 물리 대미지를 가한다. 공격할 때마다 피격된 적은 [해리] 효과가
+      중첩되며, 적은 스택마다 받는 물리 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다. 최대 5스택 중첩,
+      지속 시간: 5초. 필살기 발동 시 대기 상태 캐릭터의 교대 재사용 대기시간이 8초 감소한다."
+    skillType: 필살기
+    skillTypeId: "0"
+    icon: Skill_Elf_Ultra
+    row: 2
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.01
+    paramBase2: 6
+    paramBase3: 18
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "14003"
+    elfId: "113"
+    name: 존재주의 성검
+    info: "캐릭터 교대 시 파티원의 모든 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다. 최대
+      <color=#ff9900>#2[i]</color> 스택 중첩, 지속 시간: <color=#ff9900>#3[f1]</color>초"
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_QTE
+    row: 3
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.02
+    paramBase2: 2
+    paramBase3: 8
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "14004"
+    elfId: "113"
+    name: 시시퍼스 신화
+    info: 인형의 초기 SP가 <color=#ff9900>#1[f1]</color>pt 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Initial_UP
+    row: 4
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 50
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "140011"
+    elfId: "113"
+    name: 얘기하면 안 졸려
+    info: "인형의 기본 공격이 적에게 적중 시, 인형이 추가로 SP를 <color=#ff9900>#1[f1]</color>pt 회복한다.
+      재사용 대기시간: <color=#ff9900>#2[f1]</color>초"
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 1
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 3
+    paramBase2: 6
+    paramBase3: 0
+    paramAdd1: 0.5
+    paramAdd2: -1
+    paramAdd3: 0
+  - id: "140012"
+    elfId: "113"
+    name: 일해도 힘들지 않아
+    info: "인형의 공격이 적에게 적중 시, <color=#ff9900>#1[f1]%</color>의 확률로 공격력
+      <color=#ff9900>#2[f1]%</color>의 물리 대미지를 추가로 가한다. 재사용 대기시간: 6초"
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_113
+    row: 1
+    col: 3
+    unlockStar: 4
+    maxLv: 3
+    paramBase1: 0.2
+    paramBase2: 0.3
+    paramBase3: 0
+    paramAdd1: 0.1
+    paramAdd2: 0.15
+    paramAdd3: 0
+  - id: "140013"
+    elfId: "113"
+    name: 진지하게 더블
+    info: "인형의 기본 공격이 적에게 적중 시, 인형의 모든 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다. 지속
+      시간: 10초. 중복 발동 시 재사용 대기시간이 갱신된다."
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_Up
+    row: 1
+    col: 4
+    unlockStar: 7
+    maxLv: 5
+    paramBase1: 0.05
+    paramBase2: 10
+    paramBase3: 0
+    paramAdd1: 0.0625
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "140021"
+    elfId: "113"
+    name: 가짜 영구 기관
+    info: "[해리]의 지속 시간이 <color=#ff9900>#1[f1]</color>초까지 증가한다."
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Status
+    row: 2
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 7
+    paramBase2: 0.01
+    paramBase3: 0
+    paramAdd1: 0.75
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "140022"
+    elfId: "113"
+    name: 조작 순환
+    info: "필살기 사용 후, 인형의 크리티컬률이 <color=#ff9900>#1[f1]%</color> 증가한다. 지속 시간:
+      <color=#ff9900>#2[f1]</color>초"
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Ultra_Up
+    row: 2
+    col: 3
+    unlockStar: 4
+    maxLv: 3
+    paramBase1: 0.5
+    paramBase2: 6.5
+    paramBase3: 0
+    paramAdd1: 0.2
+    paramAdd2: 6.75
+    paramAdd3: 0
+  - id: "140023"
+    elfId: "113"
+    name: 맥스웰의 도깨비
+    info: 인형 필살기의 모든 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 2
+    col: 4
+    unlockStar: 7
+    maxLv: 3
+    paramBase1: 0.1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.1
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "140031"
+    elfId: "113"
+    name: 존재의 형식
+    info: <color=#23b2e2>[파티 발동]</color> 리더가 물리 대미지 특성의 발키리일 경우, 파티원의 물리 대미지가
+      <color=#ff9900>#1[f1]%</color> 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 3
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 0.01
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.01
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "140032"
+    elfId: "113"
+    name: 형식의 존재
+    info: <color=#23b2e2>[파티 발동]</color> 파티원에 물리 대미지 특성 캐릭터가 있을 경우, [해리] 효과가 스택마다
+      <color=#ff9900>#1[f2]%</color>까지 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Status
+    row: 3
+    col: 3
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.012
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.002
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "140041"
+    elfId: "113"
+    name: 황당한 끝
+    info: 인형이 가하는 물리 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 4
+    col: 2
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.06
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.085
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "140042"
+    elfId: "113"
+    name: 끝의 황당
+    info: 인형의 필살기 재사용 대기시간이 <color=#ff9900>#1[f1]%</color> 감소한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_CD_Down
+    row: 4
+    col: 3
+    unlockStar: 7
+    maxLv: 3
+    paramBase1: 0.15
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.075
+    paramAdd2: 0
+    paramAdd3: 0

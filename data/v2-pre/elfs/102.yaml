@@ -1,0 +1,161 @@
+id: "102"
+fullName: 정위의 날개
+icon: Elf_02
+cardIcon: Elf_10002
+chibiIcon: Elf_10002
+figureImage: Elf_10002
+rarity: 3
+cardId: 380102
+fragmentId: 370102
+storyDesc: 신들의 왕좌 시리즈 '정위의 날개'가 변한 무장 인형으로 새빨간 불꽃을 휘두르며 하늘을 날아오르는 신조, 그
+  자체다\n\n그러나 절대 그녀에게 말을 걸지 말자. 그녀가 입을 열기 시작하면 그전까지 보이던 고고한 이미지는 온데간데없고, 오직 끝없는
+  고전들로 가득한 훈화 말씀이 당신을 고문할 테니\n\n자신의 기원인 무기와 같이 정위의 날개는 화염을 다루는 능력을 지녔다. 그 외에도
+  그녀는 순식간에 인류의 상처를 치유하는 능력도 지녔다. 어쩐지 무장 인형의 잠재력은 끝이 없는 것 같다
+ultSkillCd: 40
+ultSkillCost: 50
+skillBg: TalentBg2
+tags:
+  - type: fire-dmg
+    comment: null
+captainSkillIds: []
+skills:
+  - id: "10201"
+    elfId: "102"
+    name: 비우의 불꽃
+    info: 비우의 불꽃을 조종해 목표 위치에 공격력 400%의 화염 대미지를 입히고, 명중 시 SP를
+      <color=#ff9900>#1[i]</color>pt 회복한다
+    skillType: 기본 공격
+    skillTypeId: "1"
+    icon: Skill_Elf_Attack_102
+    row: 1
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 5
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10202"
+    elfId: "102"
+    name: 성화전승
+    info: 공중에서 정위의 춤을 춰, 0.25초마다 전장의 발키리 HP를 <color=#ff9900>#1[i]</color>만큼 총 5회
+      회복시킨다\n춤사위가 끝나면 한곳으로 모이는 화염 에너지를 폭발시켜 발키리 주위의 적에게 공격력 1400%의 화염 대미지를 가한다
+    skillType: 필살기
+    skillTypeId: "0"
+    icon: Skill_Elf_Ultra
+    row: 2
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 100
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10203"
+    elfId: "102"
+    name: 화염의 정령
+    info: 인형의 화염 원소 대미지가 <color=#ff9900>#1[i]%</color> 증가하고, 발키리에 대한 치료 효과가
+      <color=#ff9900>#2[i]%</color> 증가한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Passive
+    row: 3
+    col: 1
+    unlockStar: 1
+    maxLv: 4
+    paramBase1: 0.11
+    paramBase2: 0.15
+    paramBase3: 0
+    paramAdd1: 0.03
+    paramAdd2: 0.05
+    paramAdd3: 0
+  - id: "102011"
+    elfId: "102"
+    name: 축일천광
+    info: 인형 기본 공격의 모든 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_Up
+    row: 1
+    col: 2
+    unlockStar: 1
+    maxLv: 5
+    paramBase1: 0.12
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0325
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "102031"
+    elfId: "102"
+    name: 입적
+    info: 인형의 필살기를 발동 후 스테이지에 있는 발키리의 HP를 추가로 <color=#ff9900>#1[i]</color> 회복한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Ultra_Heal
+    row: 4
+    col: 1
+    unlockStar: 2
+    maxLv: 6
+    paramBase1: 135
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 27
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "102032"
+    elfId: "102"
+    name: 소생
+    info: 인형이 주는 회복 효과가 <color=#ff9900>#1[f1]%</color> 증가한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Heal
+    row: 4
+    col: 2
+    unlockStar: 2
+    maxLv: 6
+    paramBase1: 0.12
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.024
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "102033"
+    elfId: "102"
+    name: 화문
+    info: 인형이 기본 공격 시 SP를 <color=#ff9900>#1[f1]</color>pt 만큼 추가 회복한다. 재사용 대기시간
+      <color=#ff9900>#2[i]</color>초
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 4
+    col: 3
+    unlockStar: 2
+    maxLv: 6
+    paramBase1: 2.5
+    paramBase2: 6
+    paramBase3: 0
+    paramAdd1: 0.5
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "102034"
+    elfId: "102"
+    name: 염심응신
+    info: 인형의 SP 회복 속도가 <color=#ff9900>#1[f1]%</color> 증가한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 4
+    col: 4
+    unlockStar: 4
+    maxLv: 6
+    paramBase1: 0.06
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.012
+    paramAdd2: 0
+    paramAdd3: 0

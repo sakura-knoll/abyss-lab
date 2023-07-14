@@ -1,0 +1,251 @@
+id: "110"
+fullName: 약수
+icon: Elf_10
+cardIcon: Elf_10010
+chibiIcon: Elf_10010
+figureImage: Elf_10010
+rarity: 4
+cardId: 380110
+fragmentId: 370110
+storyDesc: null
+ultSkillCd: 30
+ultSkillCost: 75
+skillBg: TalentBg10
+tags:
+  - type: ice-dmg
+    comment: null
+  - type: gather
+    comment: null
+captainSkillIds:
+  - "11003"
+  - "110032"
+skills:
+  - id: "11001"
+    elfId: "110"
+    name: 검우
+    info: "인형의 두 가지 기본 공격:\\n기본 공격1: 물폭탄 2개 발사한다. 발사한 물폭탄은 공격력 240%의 빙결 원소 대미지를
+      가한다.\\n기본 공격2: 검을 휘둘러 지속적으로 나아가는 물결을 조종해 적에게 공격력 480%의 빙결 원소 대미지를 가한다."
+    skillType: 기본 공격
+    skillTypeId: "1"
+    icon: Skill_Elf_Attack_106
+    row: 1
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "11002"
+    elfId: "110"
+    name: 각사
+    info: 인형은 목표 위치에 법진을 유도해 지속적으로 넒은 범위의 적을 법진으로 끌어당긴다. 법진은 7초간 유지되며, 공격력
+      800%+5*100%+800%의 빙결 원소 대미지를 가한다. 법진에 들어간 적은 침연 상태가 빠져 받는 빙결 원소 대미지가
+      <color=#ff9900>#1[f1]%</color> 증가하며, 효과는 법진이 사라질 때까지 지속된다.\n법진이 존재하는 동안 법진
+      내 목표에게 가한 빙결 원소 대미지가 500보다 클 때 법진은 1초 동안 흡입력이 강화된다. 해당 효과는 1초의 재발동 대기시간을
+      갖는다.
+    skillType: 필살기
+    skillTypeId: "0"
+    icon: Skill_Elf_Ultra
+    row: 2
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "11003"
+    elfId: "110"
+    name: 무근
+    info: <color=#23b2e2>[파티 발동]</color> 파티원에 1명 또는 1명 이상의 빙결 원소 대미지 특성 캐릭터가 있을 경우,
+      침연 상태로 인해 받는 빙결 원소 대미지가 추가로 <color=#ff9900>#1[f1]%</color> 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_Up
+    row: 3
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.08
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "11004"
+    elfId: "110"
+    name: 단수
+    info: "캐릭터 QTE가 적에게 명중 시, 인형은 앞으로 날아가는 검기를 날려 경로에 있는 적에게 공격력
+      <color=#ff9900>#1[f1]%</color>의 빙결 원소 대미지를 가한다. 재사용 대기시간: 10초."
+    skillType: 연계 공격
+    skillTypeId: "3"
+    icon: Skill_Elf_QTE
+    row: 4
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 8
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "110011"
+    elfId: "110"
+    name: 바람의 도래
+    info: 전투 진입 시 인형은 초당 <color=#ff9900>#1[f1]</color>pt의 SP를 회복한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_Up
+    row: 1
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 1.6
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.15
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "110012"
+    elfId: "110"
+    name: 비의 강림
+    info: 인형 기본 공격의 모든 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_106
+    row: 1
+    col: 3
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.2
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.025
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "110021"
+    elfId: "110"
+    name: 음한로
+    info: 법진 종료 후, 법진에 당한 적의 침연 상태가 추가로 <color=#ff9900>#1[f1]</color>초 지속된다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_QTE
+    row: 2
+    col: 2
+    unlockStar: 2
+    maxLv: 3
+    paramBase1: 4
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 1
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "110022"
+    elfId: "110"
+    name: 청심탁
+    info: 침연 상태가 가하는 빙결 원소 대미지가 추가로 <color=#ff9900>#1[f1]%</color> 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 2
+    col: 3
+    unlockStar: 4
+    maxLv: 4
+    paramBase1: 0.03
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.01
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "110023"
+    elfId: "110"
+    name: 명경지수
+    info: 인형 필살기의 모든 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 2
+    col: 4
+    unlockStar: 7
+    maxLv: 4
+    paramBase1: 0.21
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.03
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "110031"
+    elfId: "110"
+    name: 무상형
+    info: 인형 초기 SP가 <color=#ff9900>#1[f1]</color>pt 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Passive
+    row: 3
+    col: 2
+    unlockStar: 2
+    maxLv: 3
+    paramBase1: 30
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 10
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "110032"
+    elfId: "110"
+    name: 무상재
+    info: <color=#23b2e2>[파티 발동]</color> 파티원에 2명 또는 2명 이상의 빙결 원소 대미지 특성의 캐릭터가 있을 경우,
+      법진 종료 후, 발동한 침연 상태의 지속 시간이 추가로 <color=#ff9900>#1[f1]</color>초 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 3
+    col: 3
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 2
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.25
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "110041"
+    elfId: "110"
+    name: 입해류
+    info: 인형 연계 공격이 가하는 빙결 원소 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Heal
+    row: 4
+    col: 2
+    unlockStar: 2
+    maxLv: 4
+    paramBase1: 0.21
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.03
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "110042"
+    elfId: "110"
+    name: 창해귀
+    info: 인형 연계 공격은 SP를 <color=#ff9900>#1[f1]</color>pt 회복한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_CD_Down
+    row: 4
+    col: 3
+    unlockStar: 4
+    maxLv: 4
+    paramBase1: 6
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 1
+    paramAdd2: 0
+    paramAdd3: 0

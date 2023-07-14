@@ -1,0 +1,287 @@
+id: "111"
+fullName: 시린
+icon: Elf_11
+cardIcon: Elf_10011
+chibiIcon: Elf_10011
+figureImage: Elf_10011
+rarity: 4
+cardId: 380111
+fragmentId: 370111
+storyDesc: 설명
+ultSkillCd: 35
+ultSkillCost: 75
+skillBg: TalentBg11
+tags:
+  - type: fire-dmg
+    comment: null
+  - type: ignite
+    comment: null
+captainSkillIds:
+  - "120032"
+  - "120033"
+skills:
+  - id: "12001"
+    elfId: "111"
+    name: 싹둑☆마법
+    info: "인형은 두 가지 기본 공격을 보유하고 있다:\\n기본 공격 1: 절단 공격, 공격력 300%의 화염 원소 대미지를 2회
+      가한다.\\n기본 공격 2: 가위를 휘두르는 회전 공격으로 주변 적에게 대미지를 4회 가한다. 공격마다 공격력 150%의 화염 원소
+      대미지를 가한다."
+    skillType: 기본 공격
+    skillTypeId: "1"
+    icon: Skill_Elf_Attack_111
+    row: 1
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "12002"
+    elfId: "111"
+    name: 속박☆마법
+    info: "인형이 목표 위치에 마법을 발동해 큐브 필드를 생성하고, 큐브 위치의 적을 속박하며, 연소 게이지를 6pt 누적한다. 2.5초 동안
+      지속된 후 폭발한다. 그 기간, 공격력 3*700%+1800%의 화염 원소 대미지를 가한다. 스킬 발동 시, 필드 내의 적이 받는
+      화염 원소 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다. 지속 시간: 13초. 파티원의 HP를 200
+      회복한다."
+    skillType: 필살기
+    skillTypeId: "0"
+    icon: Skill_Elf_Ultra
+    row: 2
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "12003"
+    elfId: "111"
+    name: 달콤☆마법
+    info: 인형 필살기 발동 후, 파티원이 HP 회복 카운트를 20회 획득한다. 파티 내 HP가 100% 미만인 캐릭터의 공격이 적에게 적중 시
+      카운트를 1회 소모해 HP를 60 회복한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Ultra_Heal
+    row: 3
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "12004"
+    elfId: "111"
+    name: 우정☆마법
+    info: "캐릭터가 무기 스킬 사용 시, 인형이 블랙홀을 소환해 목표 적에게 마법탄을 6발 발사하며, 마법탄은 1개당 공격력 140%의 화염
+      원소 대미지를 가한다. 재사용 대기시간: 15초"
+    skillType: 연계 공격
+    skillTypeId: "3"
+    icon: Skill_Elf_QTE
+    row: 4
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "120011"
+    elfId: "111"
+    name: 가열
+    info: 전투 진입 시 인형은 매초 SP를 <color=#ff9900>#1[f1]</color>pt 회복한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 1
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 1.6
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.1
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "120012"
+    elfId: "111"
+    name: 화염 인장
+    info: "인형의 기본 공격이 적 적중 시, 인형의 모든 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다. 지속
+      시간: 10초"
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_Up
+    row: 1
+    col: 3
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.25
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0625
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "120021"
+    elfId: "111"
+    name: 허공의 염쇄
+    info: 인형 초기 SP가 <color=#ff9900>#1[f1]</color>pt 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Initial_UP
+    row: 2
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 30
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 5
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "120022"
+    elfId: "111"
+    name: 심판의 큐브
+    info: 인형 필살기의 화염 원소 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Status
+    row: 2
+    col: 3
+    unlockStar: 4
+    maxLv: 4
+    paramBase1: 0.3
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.1
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "120023"
+    elfId: "111"
+    name: 축복의 불꽃
+    info: 인형 필살기의 HP 회복 카운트의 총 카운트가 <color=#ff9900>#1[f1]</color>회로 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Heal
+    row: 2
+    col: 4
+    unlockStar: 7
+    maxLv: 3
+    paramBase1: 21
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 2
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "120031"
+    elfId: "111"
+    name: 크림브륄레
+    info: 인형이 HP가 50% 미만인 캐릭터에게 제공하는 HP 회복 효과가 <color=#ff9900>#1[f1]%</color> 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Heal
+    row: 3
+    col: 2
+    unlockStar: 2
+    maxLv: 6
+    paramBase1: 0.1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.02
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "120032"
+    elfId: "111"
+    name: 라바 케이크
+    info: <color=#23b2e2>[파티 발동]</color>파티원에 2명 또는 2명 이상의 화염 원소 대미지 특성 발키리가 있을 경우,
+      적이 받는 인형의 필살기 화염 원소 대미지가 <color=#ff9900>#1[f1]%</color>로 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 3
+    col: 3
+    unlockStar: 4
+    maxLv: 3
+    paramBase1: 0.12
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.015
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "120033"
+    elfId: "111"
+    name: 달콤 곱하기
+    info: <color=#23b2e2>[파티 발동]</color> 리더가 화염 원소 대미지 특성의 발키리일 경우, 파티원의 화염 원소 대미지가
+      <color=#ff9900>#1[f1]%</color> 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 3
+    col: 4
+    unlockStar: 7
+    maxLv: 5
+    paramBase1: 0.05
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0125
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "120041"
+    elfId: "111"
+    name: 시린의 도움
+    info: "연계 공격에 적중한 적이 받는 실드 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다. 지속 시간: 12초"
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_BreakShield
+    row: 4
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 0.05
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0125
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "120042"
+    elfId: "111"
+    name: 시린의 응원
+    info: 연계 공격의 재사용 대기시간이 <color=#ff9900>#1[f1]</color>초로 감소한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_CD_Down
+    row: 4
+    col: 3
+    unlockStar: 2
+    maxLv: 4
+    paramBase1: 12
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: -0.666667
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "120043"
+    elfId: "111"
+    name: 시린의 성의
+    info: 연계 공격이 고정 대미지를 받은 실드나 적에게 가하는 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_BreakShield
+    row: 4
+    col: 4
+    unlockStar: 4
+    maxLv: 2
+    paramBase1: 1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 1
+    paramAdd2: 0
+    paramAdd3: 0

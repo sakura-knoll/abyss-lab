@@ -1,0 +1,273 @@
+id: "106"
+fullName: 복희의 서
+icon: Elf_06
+cardIcon: Elf_10006
+chibiIcon: Elf_10006
+figureImage: Elf_10006
+rarity: 4
+cardId: 380106
+fragmentId: 370106
+storyDesc: null
+ultSkillCd: 35
+ultSkillCost: 75
+skillBg: TalentBg6
+tags:
+  - type: fire-dmg
+    comment: null
+captainSkillIds:
+  - "10603"
+  - "106032"
+  - "106033"
+skills:
+  - id: "10601"
+    elfId: "106"
+    name: 신주의지
+    info: "포탄을 다수 발사해 목표에게 총 공격력 550%의 화염 원소 대미지를 입히고, 명중 시 SP를 3pt 회복한다, 재사용 대기시간:
+      2초"
+    skillType: 기본 공격
+    skillTypeId: "1"
+    icon: Skill_Elf_Attack_106
+    row: 1
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10602"
+    elfId: "106"
+    name: 현화의 진
+    info: 파티 중 화염 원소 대미지 특성을 보유하고 있는 발키리의 QTE를 강제 발동시키고, 법진을 10초간 생성한다. 법진은 적을 봉쇄해
+      법진 밖으로 나가지 못하게 하고, 법진 내의 적에게 공격력 5*1000%의 화염 원소 대미지를 입히며 법진 내의 적이 받는 모든 원소
+      대미지가 <color=#ff9900>#1[f1]%</color> 증가한다
+    skillType: 필살기
+    skillTypeId: "0"
+    icon: Skill_Elf_Ultra
+    row: 2
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10603"
+    elfId: "106"
+    name: 봉화의 숨
+    info: <color=#23b2e2>[파티 효과]</color>리더가 화염 원소 대미지 특성의 발키리일 때, 모든 파티원의 화염 원소 대미지가
+      <color=#ff9900>#1[f1]%</color> 증가하고, 빙결, 뇌전 원소 대미지가 추가로
+      <color=#ff9900>#2[f1]%</color> 증가한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 3
+    col: 1
+    unlockStar: 2
+    maxLv: 1
+    paramBase1: 0.09
+    paramBase2: 0.06
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10604"
+    elfId: "106"
+    name: 사의
+    info: "발키리가 극한 회피를 발동하면 인형이 캐릭터를 강화해 8초 동안 캐릭터의 화염 원소 대미지가
+      <color=#ff9900>#1[f1]%</color> 증가하고 인형의 SP를 15pt 회복한다. 재사용 대기시간: 15초"
+    skillType: 연계 공격
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 4
+    col: 1
+    unlockStar: 2
+    maxLv: 4
+    paramBase1: 0.04
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.013333
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "106011"
+    elfId: "106"
+    name: 지속
+    info: "인형 기본 공격이 적에게 명중하면 SP를 <color=#ff9900>#1[i]</color>pt 만큼 추가 회복한다. 재사용
+      대기시간: 시간 2초"
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 1
+    col: 2
+    unlockStar: 1
+    maxLv: 5
+    paramBase1: 5
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 1.25
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "106012"
+    elfId: "106"
+    name: 연소
+    info: "인형의 기본 공격이 적에게 명중 시 <color=#ff9900>#1[i]%</color>의 확률로
+      <color=#ff9900>#2[f1]%</color>의 화염 원소 대미지를 추가로 입힌다. 재사용 대기시간: 10초"
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Burn
+    row: 1
+    col: 3
+    unlockStar: 1
+    maxLv: 3
+    paramBase1: 0.09
+    paramBase2: 1
+    paramBase3: 0
+    paramAdd1: 0.045
+    paramAdd2: 0.5
+    paramAdd3: 0
+  - id: "106013"
+    elfId: "106"
+    name: 치혼
+    info: "인형의 기본 공격이 연소 상태의 적에게 명중할 때마다 모든 대미지가 <color=#ff9900>#1[f1]%</color>상승한다.
+      지속 시간: 10초"
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_Up
+    row: 1
+    col: 4
+    unlockStar: 1
+    maxLv: 5
+    paramBase1: 0.06
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0225
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "106021"
+    elfId: "106"
+    name: 귀일
+    info: 인형이 필살기를 발동한 후, 5초 동안 모든 파티원 QTE의 모든 대미지가 <color=#ff9900>#1[f1]%</color>
+      증가한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_QTE
+    row: 2
+    col: 2
+    unlockStar: 2
+    maxLv: 3
+    paramBase1: 0.07
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.04
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "106022"
+    elfId: "106"
+    name: 잔해
+    info: "법진이 끝난 후, 여전히 법진 안에 있는 적은 받는 원소 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다.
+      지속 시간: 5초"
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 2
+    col: 3
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.05
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0125
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "106031"
+    elfId: "106"
+    name: 충만
+    info: 인형의 기초 SP가 <color=#ff9900>#1[i]</color> 증가한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Initial_UP
+    row: 3
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 8
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 8
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "106032"
+    elfId: "106"
+    name: 공연
+    info: <color=#23b2e2>[파티 효과]</color>파티에 화염 원소 대미지 특성을 보유한 발키리가 2명 있을 때 인형의 모든 원소
+      대미지가 <color=#ff9900>#1[f1]%</color> 증가한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 3
+    col: 3
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.07
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.02
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "106033"
+    elfId: "106"
+    name: 만물통달
+    info: <color=#23b2e2>[파티 효과]</color>파티에 있는 3명의 발키리 속성이 전부 다를 때, 모든 파티원의 원소 대미지가
+      추가로 <color=#ff9900>#1[f1]%</color> 증가한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Team_UP
+    row: 3
+    col: 4
+    unlockStar: 7
+    maxLv: 6
+    paramBase1: 0.03
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.006
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "106041"
+    elfId: "106"
+    name: 지수
+    info: 사의의 재사용 대기시간이 <color=#ff9900>#1[i]</color>초로 감소한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_CD_Down
+    row: 4
+    col: 2
+    unlockStar: 2
+    maxLv: 3
+    paramBase1: 13
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: -1
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "106042"
+    elfId: "106"
+    name: 홍몽
+    info: 인형이 사의를 발동한 후 발키리가 6초 이내에 다음 차지 혹은 분기 공격을 발동하면 추가로
+      <color=#ff9900>#1[f1]%</color>의 범위 화염 대미지를 입힌다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Team_UP
+    row: 4
+    col: 3
+    unlockStar: 4
+    maxLv: 4
+    paramBase1: 0.6
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.2
+    paramAdd2: 0
+    paramAdd3: 0

@@ -1,0 +1,271 @@
+id: "103"
+fullName: 새벽달의 진혼가
+icon: Elf_03
+cardIcon: Elf_10003
+chibiIcon: Elf_10003
+figureImage: Elf_10003
+rarity: 4
+cardId: 380103
+fragmentId: 370103
+storyDesc: 어둠 속에서 온 사신으로, 죽음을 퍼뜨리는 것이 그의 임무이다.\n톤이 낮고 목소리에 신비감이 가득하며 말하는 속도가
+  느리다.\n감정이 없는 편이지만 종종 블랙 유머를 구사한다
+ultSkillCd: 30
+ultSkillCost: 75
+skillBg: TalentBg3
+tags:
+  - type: ice-dmg
+    comment: null
+  - type: freeze
+    comment: null
+captainSkillIds:
+  - "10309"
+skills:
+  - id: "10301"
+    elfId: "103"
+    name: 그림자 습격
+    info: 낫으로 적을 여러 번 공격해 목표에게 총 공격력 560%의 빙결 원소 대미지를 입히고,  명중 시 SP를
+      <color=#ff9900>#1[i]</color>pt 회복한다
+    skillType: 기본 공격
+    skillTypeId: "1"
+    icon: Skill_Elf_Attack_103
+    row: 1
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 8
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10302"
+    elfId: "103"
+    name: 새벽달의 레퀴엠
+    info: 낫을 던져 목표와 주변의 적에게 공격력 400%*5의 빙결 원소 대미지를 가하고, 사신 결계를 만들어 결계 내의 적을 속박하며 받는
+      빙결 원소 대미지를 5% 증가시킨다. 새벽달의 진혼가는 결계 내의 무작위 적에게 7번 공격(같은 목표 최대 4회 공격)하며, 매번
+      목표와 가까이 있는 적에게 공격력 <color=#ff9900>#1[f1]%</color>의 빙결 원소 대미지를 가한다. 마지막에는
+      결계를 폭발시켜 공격력 1500%의 빙결 원소 대미지를 가하고, 공중에 띄운 후 빙결 게이지를 18pt 누적한다.
+    skillType: 필살기
+    skillTypeId: "0"
+    icon: Skill_Elf_Ultra
+    row: 2
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 8
+    paramBase2: 8
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10303"
+    elfId: "103"
+    name: 어둠의 몸
+    info: 인형의 빙결 원소 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다. 적이 사신 결계에서 빠져나와도 받는 빙결
+      원소 대미지 5% 증가 효과는 <color=#ff9900>#2[i]</color>초 동안 지속된다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Passive
+    row: 3
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.4
+    paramBase2: 10
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10304"
+    elfId: "103"
+    name: 파세
+    info: "인형의 기본 공격이 적에게 명중할 때마다 모든 대미지가 <color=#ff9900>#1[f1]%</color>증가한다. 지속 시간:
+      5초, 3회 중첩 가능"
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_Up
+    row: 1
+    col: 2
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.03
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0075
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10305"
+    elfId: "103"
+    name: 투옥
+    info: "인형의 기본 공격은 10% 확률로 공격력<color=#ff9900>#1[f1]%</color>의 빙결 원소 대미지를 추가로 입힌다.
+      재사용 대기시간: 20초"
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_Freeze
+    row: 1
+    col: 3
+    unlockStar: 7
+    maxLv: 5
+    paramBase1: 0.8
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.175
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10306"
+    elfId: "103"
+    name: 얼음 봉인 단열
+    info: 결계가 적을 띄우면 빙결 시간이 20% 연장된다. 추가로 <color=#ff9900>#2[f1]%</color>의 빙결 원소 대미지를
+      가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Freeze
+    row: 2
+    col: 2
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 4
+    paramBase2: 1.5
+    paramBase3: 0
+    paramAdd1: 0.5
+    paramAdd2: 0.25
+    paramAdd3: 0
+  - id: "10307"
+    elfId: "103"
+    name: 극한 시간
+    info: "인형 필살기 발동 후 모든 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다, 지속 시간: 15초, 중복
+      발동 시 지속 시간 초기화"
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Ultra_Up
+    row: 2
+    col: 3
+    unlockStar: 7
+    maxLv: 5
+    paramBase1: 0.12
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0325
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10308"
+    elfId: "103"
+    name: 무간첩영
+    info: 인형이 같은 목표를 공격하면 공격할 때마다 빙결 원소 대미지가 1% 증가한다, 최대
+      <color=#ff9900>#1[f1]%</color> 증가. 목표를 변경하면 효과는 리셋된다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 3
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 0.06
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0225
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10309"
+    elfId: "103"
+    name: 속박의 결계
+    info: <color=#23b2e2>[파티 효과]</color>파티에 빙결 원소 대미지 특성을 보유한 발키리가 있을 때 결계 봉쇄의 빙결 원소
+      대미지 증가 효과가 <color=#ff9900>#1[f1]%</color>까지 상승한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Freeze_Vulnerability
+    row: 3
+    col: 3
+    unlockStar: 7
+    maxLv: 5
+    paramBase1: 0.06
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.01
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10310"
+    elfId: "103"
+    name: 충전
+    info: 인형의 SP 회복 속도가 <color=#ff9900>#1[f1]%</color> 증가한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 4
+    col: 1
+    unlockStar: 1
+    maxLv: 4
+    paramBase1: 0.06
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.02
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10311"
+    elfId: "103"
+    name: 순영
+    info: 인형의 필살기 재사용 대기시간이 <color=#ff9900>#1[f1]%</color> 감소한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_CD_Down
+    row: 4
+    col: 2
+    unlockStar: 1
+    maxLv: 4
+    paramBase1: 0.15
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.05
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10312"
+    elfId: "103"
+    name: 하늘의 계시
+    info: 인형의 초기 SP가 <color=#ff9900>#1[f1]</color> 증가한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Initial_UP
+    row: 4
+    col: 3
+    unlockStar: 1
+    maxLv: 4
+    paramBase1: 20
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 6.666667
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10313"
+    elfId: "103"
+    name: 적멸
+    info: 인형이 가하는 모든 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 4
+    col: 4
+    unlockStar: 4
+    maxLv: 4
+    paramBase1: 0.05
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.016667
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10314"
+    elfId: "103"
+    name: 서리
+    info: 인형이 가하는 빙결 원소 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 3
+    col: 4
+    unlockStar: 7
+    maxLv: 4
+    paramBase1: 0.06
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.02
+    paramAdd2: 0
+    paramAdd3: 0

@@ -1,0 +1,275 @@
+id: "108"
+fullName: 테슬라 Zero
+icon: Elf_08
+cardIcon: Elf_10008
+chibiIcon: Elf_10008
+figureImage: Elf_10008
+rarity: 4
+cardId: 380108
+fragmentId: 370108
+storyDesc: null
+ultSkillCd: 35
+ultSkillCost: 75
+skillBg: TalentBg8
+tags:
+  - type: physical-dmg
+    comment: null
+captainSkillIds:
+  - "10803"
+  - "108031"
+  - "108032"
+skills:
+  - id: "10801"
+    elfId: "108"
+    name: 전자기 펄스
+    info: 기본 공격이 공격력 <color=#ff9900>#1[f1]%</color>의 물리 대미지를 입힌다
+    skillType: 기본 공격
+    skillTypeId: "1"
+    icon: Skill_Elf_Attack_106
+    row: 1
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 4
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10802"
+    elfId: "108"
+    name: 정격 출력
+    info: 인형은 10초 동안 폭발 상태에 진입하고 공중에서 공격 빈도가 높은 공격을 발동해 단계마다 공격력
+      <color=#ff9900>#1[f1]%</color>의 물리 대미지를 입힌다. 이때 인형의 크리티컬률이 초당
+      <color=#ff9900>#2[f1]%</color> 증가하고 최대 5회 중첩한다. 효과는 폭발 상태의 지속 시간이 끝날 때까지
+      지속되고 게이지가 가득차면 인형 스킬 버튼이 반짝인다
+    skillType: 필살기
+    skillTypeId: "0"
+    icon: Skill_Elf_Ultra
+    row: 2
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 1
+    paramBase2: 0.12
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10803"
+    elfId: "108"
+    name: 동조 연결
+    info: <color=#23b2e2>[파티 효과]</color> 모든 파티원이 가한 물리 대미지가
+      <color=#ff9900>#1[f1]%</color> 증가한다. 파티에 있는 3명의 발키리 속성이 전부 같을 때, 모든 파티원이
+      가하는 물리 대미지가 추가로 <color=#ff9900>#2[f1]%</color> 증가한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Passive
+    row: 3
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.03
+    paramBase2: 0.02
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10804"
+    elfId: "108"
+    name: 강성 충격
+    info: 폭발 상태가 다시 인형의 스킬을 발동하거나 폭발 상태 지속 시간이 끝나면, 인형이 높이 도약해 목표에게 공격력
+      <color=#ff9900>#1[f1]%</color>*2의 물리 대미지를 입힌다. 이후 인형 스킬은 재사용 대기 상태에 진입한다
+    skillType: 필살기
+    skillTypeId: "2"
+    icon: Skill_Elf_QTE
+    row: 4
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 18
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "108011"
+    elfId: "108"
+    name: 충전
+    info: "인형 기본 공격이 적에게 명중 시 SP를 추가로 <color=#ff9900>#1[f1]</color>pt 회복한다. 재사용
+      대기시간: 2초"
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 1
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 3
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.5
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "108012"
+    elfId: "108"
+    name: 섭동
+    info: "인형의 공격이 적에게 명중할 때 <color=#ff9900>#1[f1]%</color>의 확률로
+      <color=#ff9900>#2[f1]%</color>의 물리 대미지를 추가로 가한다. 재사용 대기시간: 10초"
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Burn
+    row: 1
+    col: 3
+    unlockStar: 4
+    maxLv: 3
+    paramBase1: 0.1
+    paramBase2: 0.5
+    paramBase3: 0
+    paramAdd1: 0.05
+    paramAdd2: 0.5
+    paramAdd3: 0
+  - id: "108013"
+    elfId: "108"
+    name: 멜트 다운
+    info: "인형의 공격이 적에게 명중 시, 인형의 모든 대미지가 <color=#ff9900>#1[f1]%</color>증가한다. 지속 시간:
+      10초, 3회 중첩 가능, 1초의 발동 간격이 있다"
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Ultra_Strong
+    row: 1
+    col: 4
+    unlockStar: 7
+    maxLv: 5
+    paramBase1: 0.03
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0075
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "108021"
+    elfId: "108"
+    name: 방사
+    info: 폭발 상태 진입 후 첫 번째 공격이 목표에게 출혈 게이지를 6pt 누적한다. 또한, 목표에게 10초 동안 추가로 총 공격력 600%의
+      물리 대미지를 가하고, 인형이 <color=#ff9900>#1[f1]</color>초 동안 출혈 상태의 적에게 가하는 모든 대미지가
+      <color=#ff9900>#2[f1]%</color> 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_QTE
+    row: 2
+    col: 2
+    unlockStar: 2
+    maxLv: 3
+    paramBase1: 5
+    paramBase2: 0.06
+    paramBase3: 0
+    paramAdd1: 2.5
+    paramAdd2: 0.03
+    paramAdd3: 0
+  - id: "108022"
+    elfId: "108"
+    name: 조절
+    info: 인형의 기초 SP가 <color=#ff9900>#1[i]</color> 증가한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 2
+    col: 3
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 30
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 5
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "108023"
+    elfId: "108"
+    name: 초임계
+    info: 필살기가 가하는 모든 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 2
+    col: 4
+    unlockStar: 4
+    maxLv: 3
+    paramBase1: 0.08
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.06
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "108031"
+    elfId: "108"
+    name: 고주파 공진
+    info: <color=#23b2e2>[파티 발동]</color> 파티에 고빈도 특성의 캐릭터 포함 시, 모든 파티원의 물리 대미지가
+      <color=#ff9900>#1[f1]%</color> 증가하고, 인형 필살기의 마지막 일격이 중첩 능력 강의 강격으로 변한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_BreakShield
+    row: 3
+    col: 2
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.02
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.005
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "108032"
+    elfId: "108"
+    name: 과부하 구동
+    info: <color=#23b2e2>[파티 발동]</color> 파티에 폭발 특성의 캐릭터 포함 시, 모든 파티원의 물리 대미지가
+      <color=#ff9900>#1[f1]%</color> 증가하고, 폭발 상태에서 인형이 공격할 때마다 추가로 공격력
+      <color=#ff9900>#2[f1]%</color>의 물리 대미지를 가한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_Up
+    row: 3
+    col: 3
+    unlockStar: 7
+    maxLv: 5
+    paramBase1: 0.02
+    paramBase2: 0.25
+    paramBase3: 0
+    paramAdd1: 0.005
+    paramAdd2: 0.0625
+    paramAdd3: 0
+  - id: "108041"
+    elfId: "108"
+    name: 축적
+    info: 필살기의 마지막 일격이 크리티컬일 때, 인형이 5초 동안 초당 <color=#ff9900>#1[f1]</color>pt의 SP를
+      회복한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 4
+    col: 2
+    unlockStar: 2
+    maxLv: 3
+    paramBase1: 0.5
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.5
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "108042"
+    elfId: "108"
+    name: 입자빔
+    info: "필살기의 마지막 단계는 피격된 적이 받는 물리 대미지를 <color=#ff9900>#1[f1]%</color> 증가시킨다. 지속
+      시간: 10초"
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 4
+    col: 3
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.03
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0075
+    paramAdd2: 0
+    paramAdd3: 0

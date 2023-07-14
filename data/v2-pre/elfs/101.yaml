@@ -1,0 +1,216 @@
+id: "101"
+fullName: 모조 유다
+icon: Elf_01
+cardIcon: Elf_10001
+chibiIcon: Elf_10001
+figureImage: Elf_10001
+rarity: 3
+cardId: 380101
+fragmentId: 370101
+storyDesc: 모조 유다·피의 포옹이 변하여 만들어진 무장 인형으로, 거대한 도끼를 휘두르며 전장을 폭풍처럼 휩쓴다\n\n무기에 3개
+  붕괴수 코어를 이식하여 각각의 특성을 낸 것처럼, 이 무장 인형도 각기 다른 3개의 성격을 지닌다. 전투에서는 냉혹한 전투 기계와 같지만,
+  평소에는 친절하고 또한 수줍음 많은 모습을 보인다\n\n좋아하는 음료는 토마토 주스로, 자신의 공포스러운 이미지를 유지하기 위해 종종 토마토
+  주스를 피인 것처럼 마시곤 한다
+ultSkillCd: 30
+ultSkillCost: 75
+skillBg: TalentBg1
+tags:
+  - type: physical-dmg
+    comment: null
+captainSkillIds: []
+skills:
+  - id: "10101"
+    elfId: "101"
+    name: 파멸참격
+    info: 도끼를 휘둘러 전방의 적에게 공격력 490%의 물리 대미지를 입히고, 명중 시 SP를
+      <color=#ff9900>#1[i]</color>pt 회복한다
+    skillType: 기본 공격
+    skillTypeId: "1"
+    icon: Skill_Elf_Attack_101
+    row: 1
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 8
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10102"
+    elfId: "101"
+    name: 선혈의 심판
+    info: 목표에게 달려들어 도끼를 휘두르고 주변 적에게 공격력 360%*3의 물리 대미지를 가하며, 도끼를 하늘로 날려버린다. 도끼가 목표를
+      내리찍으면 주변에 공격력 2900%의 물리 대미지를 가한다. 선혈의 심판이 실드에 가하는 대미지가
+      <color=#ff9900>#1[i]%</color> 증가하고, 실드에 <color=#ff9900>#2[i]</color>의 추가
+      대미지를 가한다.
+    skillType: 필살기
+    skillTypeId: "0"
+    icon: Skill_Elf_Ultra
+    row: 2
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 1
+    paramBase2: 3000
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10103"
+    elfId: "101"
+    name: 피의 굶주림
+    info: 인형의 물리 대미지가 <color=#ff9900>#1[i]%</color> 증가하고, 고정 대미지만 받는 실드나 적에게 가하는
+      대미지가 200% 증가한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Passive
+    row: 3
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.5
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "101011"
+    elfId: "101"
+    name: 광휘의 낙인
+    info: "인형이 기본 공격을 할 때 50% 확률로 <color=#ff9900>#1[f1]%</color> 대미지를 추가로 입힌다. 재사용
+      대기시간: 5초"
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_Up
+    row: 1
+    col: 2
+    unlockStar: 4
+    maxLv: 6
+    paramBase1: 1.5
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.3
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "101021"
+    elfId: "101"
+    name: 종말의 심판
+    info: 인형의 필살기가 가하는 모든 대미지가 추가로 <color=#ff9900>#1[f1]%</color> 증가한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Ultra_Strong
+    row: 2
+    col: 2
+    unlockStar: 4
+    maxLv: 3
+    paramBase1: 0.15
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.075
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "101022"
+    elfId: "101"
+    name: 광포한 분노
+    info: "인형이 필살기를 사용하면 기본 공격의 모든 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다. 지속 시간:
+      15초"
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Ultra_Strong
+    row: 2
+    col: 3
+    unlockStar: 7
+    maxLv: 6
+    paramBase1: 0.15
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.03
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "101031"
+    elfId: "101"
+    name: 멸신의 움켜쥠
+    info: "인형의 공격이 적의 실드를 파괴하면 모든 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다. 지속 시간:
+      15초"
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_BreakShield
+    row: 3
+    col: 2
+    unlockStar: 7
+    maxLv: 6
+    paramBase1: 0.1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.02
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "101032"
+    elfId: "101"
+    name: 성광
+    info: 인형의 초기 SP가 <color=#ff9900>#1[f1]</color> 상승한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Initial_UP
+    row: 4
+    col: 1
+    unlockStar: 1
+    maxLv: 4
+    paramBase1: 20
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 6.666667
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "101033"
+    elfId: "101"
+    name: 탐욕
+    info: 인형이 가하는 물리 대미지가 <color=#ff9900>#1[f1]%</color> 상승한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 4
+    col: 2
+    unlockStar: 1
+    maxLv: 4
+    paramBase1: 0.06
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.02
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "101034"
+    elfId: "101"
+    name: 파갑
+    info: 인형이 실드에 가하는 대미지가 <color=#ff9900>#1[f1]%</color> 상승한다
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_BreakShield
+    row: 4
+    col: 3
+    unlockStar: 2
+    maxLv: 4
+    paramBase1: 0.15
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.05
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "101035"
+    elfId: "101"
+    name: 오만
+    info: 인형이 가하는 모든 대미지가 <color=#ff9900>#1[f1]%</color> 상승
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 4
+    col: 4
+    unlockStar: 4
+    maxLv: 4
+    paramBase1: 0.05
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.016667
+    paramAdd2: 0
+    paramAdd3: 0

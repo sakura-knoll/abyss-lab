@@ -1,0 +1,305 @@
+id: "115"
+fullName: 키아나·카스라나
+icon: Elf_15
+cardIcon: Elf_10015
+chibiIcon: Elf_10015
+figureImage: Elf_10015
+rarity: 4
+cardId: 380115
+fragmentId: 370115
+storyDesc: 설명
+ultSkillCd: 45
+ultSkillCost: 75
+skillBg: TalentBg15
+tags:
+  - type: fire-dmg
+    comment: null
+  - type: lightning-dmg
+    comment: null
+  - type: gather
+    comment: null
+captainSkillIds:
+  - "160021"
+  - "16003"
+  - "160041"
+skills:
+  - id: "16001"
+    elfId: "115"
+    name: 키아나, 출격!
+    info: "인형은 두 가지 기본 공격을 사용한다:\\n기본 공격1: 권총으로 탄을 3발 발사해 공격력
+      <color=#ff9900>#1[f1]%</color>*3의 화염 원소 대미지를 가한다.\\n기본 공격2: 야구 배트를 던져 공격력
+      <color=#ff9900>#2[f1]%</color>의 화염 원소 대미지를 가한다.\\n전투 진입 후 인형이 매초 SP를
+      <color=#ff9900>#3[f1]</color>pt 회복한다."
+    skillType: 기본 공격
+    skillTypeId: "1"
+    icon: Skill_Elf_Attack_115
+    row: 1
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 2.5
+    paramBase2: 8.5
+    paramBase3: 1.5
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "16002"
+    elfId: "115"
+    name: 비범한 행운
+    info: "인형이 홈런을 날려 야구공 폭탄으로 공격력 <color=#ff9900>#1[f1]%</color>*2의 화염 대미지를 가하고, 주변
+      적을 끌어당기며, 영역 하나를 생성한다. 7초 후, 야구공이 2차 폭발해 공격력
+      <color=#ff9900>#2[f1]%</color>의 화염 원소 대미지를 가하고, 주변 적을 끌어당긴다. 필살기 발동 시 대기
+      상태 캐릭터의 교대 재사용 대기시간이 8초 감소하고, 전장의 적이 받는 모든 원소 대미지가
+      <color=#ff9900>#3[f1]%</color> 증가한다. 지속 시간: 20초"
+    skillType: 필살기
+    skillTypeId: "0"
+    icon: Skill_Elf_Ultra_115
+    row: 2
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 9
+    paramBase2: 12
+    paramBase3: 0.12
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "16003"
+    elfId: "115"
+    name: 큰 용기
+    info: <color=#23b2e2>[파티 발동]</color> 리더가 화염 원소 대미지 특성의 발키리일 경우, 인형의 화염 원소 대미지가
+      <color=#ff9900>#1[f1]%</color> 증가한다. 리더가 뇌전 원소 대미지 특성의 발키리일 경우, 인형의 뇌전 원소
+      대미지가 <color=#ff9900>#1[f1]%</color> 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Team_UP
+    row: 3
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.3
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "16004"
+    elfId: "115"
+    name: 작은 소원
+    info: "파티 내 캐릭터가 무기 스킬 대미지를 가할 경우, 인형은 동시에 연계 공격으로 적에게 에너지 차지탄을 1발 발사해 공격력
+      <color=#ff9900>#1[f1]%</color>의 화염 원소 대미지를 가하고, 주변 적을 끌어당긴다. 연계 공격 재사용
+      대기시간: 10초"
+    skillType: 연계 공격
+    skillTypeId: "3"
+    icon: Skill_Elf_Talent_Force
+    row: 4
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 9
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "160011"
+    elfId: "115"
+    name: 집이 그리워
+    info: 인형의 기본 공격이 가하는 모든 대미지가 <color=#ff9900>#1[f1]%</color> 증가하고, 초기 SP가
+      <color=#ff9900>#2[f1]</color>pt 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Initial_UP
+    row: 1
+    col: 2
+    unlockStar: 2
+    maxLv: 3
+    paramBase1: 0.1
+    paramBase2: 30
+    paramBase3: 0
+    paramAdd1: 0.1
+    paramAdd2: 10
+    paramAdd3: 0
+  - id: "160012"
+    elfId: "115"
+    name: 피자 토스트가 먹고 싶어
+    info: "필살기 발동 시 적이 받는 화염, 뇌전 원소 대미지가 추가로 <color=#ff9900>#1[f1]%</color> 증가한다. 지속
+      시간: 20초"
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 1
+    col: 3
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.04
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.01
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "160013"
+    elfId: "115"
+    name: 가방이 무거워
+    info: "인형의 기본 공격이 [가연]/[약뢰] 상태의 적에게 적중 시 추가로 SP를 <color=#ff9900>#1[f1]</color>pt
+      회복한다. 재사용 대기시간: 2초"
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_Up
+    row: 1
+    col: 4
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 2
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.75
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "160021"
+    elfId: "115"
+    name: 비오는 날엔 우산이지
+    info: <color=#23b2e2>[파티 발동]</color> 리더가 화염 원소 대미지 특성의 발키리일 경우, 인형이 필살기 구역 내 적에게
+      [가연] 상태를 부가한다. 리더가 뇌전 원소 대미지 특성의 발키리일 경우, 인형의 필살기 대미지가 뇌전 원소로 변경되고, 해당 구역의
+      적에게 [약뢰] 상태를 부가한다. [가연]/[약뢰] 상태의 적이 발키리의 뇌전/화염 원소 대미지를 받을 경우, 필살기 구역이 즉시
+      폭발해 공격력 <color=#ff9900>#1[f1]%</color>의 화염 원소 대미지+공격력
+      <color=#ff9900>#1[f1]%</color>의 뇌전 원소 대미지를 가하고, 동시에 20초 동안 적에게 [가연], [약뢰]
+      상태를 부가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Passive
+    row: 2
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 9
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 1.5
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "160022"
+    elfId: "115"
+    name: 맛있는 음식이 잔뜩
+    info: 인형 필살기 및 필살기의 2차 폭발은 파티 내 캐릭터에게 12초 동안 <color=#ff9900>#1[f1]%</color>의 모든
+      원소 대미지 증가 효과를 부여한다. 중복 발동 시 지속 시간을 누적한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_CD_Down
+    row: 2
+    col: 3
+    unlockStar: 2
+    maxLv: 3
+    paramBase1: 0.05
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.025
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "160023"
+    elfId: "115"
+    name: 동전이 떨어졌어
+    info: 인형이 [가연]/[약뢰] 상태의 적에게 가하는 모든 원소 대미지가 추가로 <color=#ff9900>#1[f1]%</color>
+      증가하고, 인형의 필살기 사전 폭발이 가하는 모든 대미지가 <color=#ff9900>#2[f1]%</color> 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 2
+    col: 4
+    unlockStar: 7
+    maxLv: 5
+    paramBase1: 0.5
+    paramBase2: 0.25
+    paramBase3: 0
+    paramAdd1: 0.0375
+    paramAdd2: 0.05
+    paramAdd3: 0
+  - id: "160031"
+    elfId: "115"
+    name: 난 할수 있어!
+    info: <color=#23b2e2>[파티 발동]</color> 리더가 뇌전 원소 대미지 특성의 발키리일 경우, 인형의 기본 공격과 연계
+      공격이 뇌전 원소 대미지로 변경된다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_CD_Down
+    row: 3
+    col: 2
+    unlockStar: 2
+    maxLv: 1
+    paramBase1: 0
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "160032"
+    elfId: "115"
+    name: 계속 힘내자
+    info: 인형의 필살기 재사용 대기시간이 <color=#ff9900>#1[f1]%</color> 감소한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 3
+    col: 3
+    unlockStar: 4
+    maxLv: 3
+    paramBase1: 0.2
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.05
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "160033"
+    elfId: "115"
+    name: 포기하면 안 돼
+    info: <color=#23b2e2>[파티 발동]</color> 파티 내 두 가지 이상의 다른 원소 속성의 발키리가 있을 경우, 인형과
+      발키리가 가하는 모든 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 3
+    col: 4
+    unlockStar: 7
+    maxLv: 5
+    paramBase1: 0.03
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0125
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "160041"
+    elfId: "115"
+    name: 새로운 친구를 많이 사귀자
+    info: <color=#23b2e2>[파티 발동]</color> 리더가 화염/뇌전 원소 대미지 특성의 발키리일 경우, 연계 공격이 적에게
+      [가연]/[약뢰] 상태를 부가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 4
+    col: 2
+    unlockStar: 2
+    maxLv: 1
+    paramBase1: 1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "160042"
+    elfId: "115"
+    name: 바보 아빠를 꼭 찾겠어
+    info: 발키리가 [가연]/[약뢰] 상태의 적 공격 시 가하는 화염/뇌전 원소 대미지가 <color=#ff9900>#1[f1]%</color>
+      증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 4
+    col: 3
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0125
+    paramAdd2: 0
+    paramAdd3: 0

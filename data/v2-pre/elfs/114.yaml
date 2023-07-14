@@ -1,0 +1,268 @@
+id: "114"
+fullName: 엘프 엘리
+icon: Elf_14
+cardIcon: Elf_10014
+chibiIcon: Elf_10014
+figureImage: Elf_10014
+rarity: 4
+cardId: 380114
+fragmentId: 370114
+storyDesc: 설명
+ultSkillCd: 45
+ultSkillCost: 75
+skillBg: TalentBg14
+tags:
+  - type: ice-dmg
+    comment: null
+  - type: gather
+    comment: null
+captainSkillIds:
+  - "15004"
+skills:
+  - id: "15001"
+    elfId: "114"
+    name: 모두가 좋아하는 엘프
+    info: "인형은 두 가지 기본 공격을 사용한다:\\n기본 공격1: 연속으로 마법탄을 3발 발사해 공격력
+      3*<color=#ff9900>#1[f1]%</color>의 빙결 원소 대미지를 가한다.\\n기본 공격2: 대형 마법탄을 1발 발사해
+      3회 공격하고, 공격력 3*<color=#ff9900>#1[f1]%</color>의 빙결 원소 대미지를 가한다. 전투 진입 후,
+      인형은 매초 SP를 <color=#ff9900>#2[f1]</color>pt 회복한다."
+    skillType: 기본 공격
+    skillTypeId: "1"
+    icon: Skill_Elf_Attack_114
+    row: 1
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 2.5
+    paramBase2: 2.5
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "15002"
+    elfId: "114"
+    name: 엘프 나라의 마법
+    info: "인형이 강화 마법을 발동해 전장의 적이 받는 빙결 원소 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다.
+      지속 시간: <color=#ff9900>#2[f1]</color>초(중복 발동 시 지속 시간을 갱신한다). 이후 변신하여 주변의 적을
+      끌어당기고, 강력한 마법 공격을 가해 공격력 <color=#ff9900>#3[f1]%</color>의 빙결 원소 대미지를 가한다.
+      필살기 스킬 발동 시 대기 상태 캐릭터의 교대 재사용 대기시간이 8초 감소한다."
+    skillType: 필살기
+    skillTypeId: "0"
+    icon: Skill_Elf_Ultra
+    row: 2
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.15
+    paramBase2: 10
+    paramBase3: 30
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "15003"
+    elfId: "114"
+    name: 로맨틱한 동화
+    info: "전장에 빙결된 적이 있을 때, 인형은 연계 공격을 1회 발동해 공격력 <color=#ff9900>#1[f1]%</color>의 빙결
+      원소 대미지를 가한다(지속 시간: <color=#ff9900>#2[f1]</color>초)."
+    skillType: 연계 공격
+    skillTypeId: "3"
+    icon: Skill_Elf_Team_UP
+    row: 3
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 8.5
+    paramBase2: 20
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "15004"
+    elfId: "114"
+    name: 재치 있는 관리자
+    info: <color=#23b2e2>[파티 발동]</color> 파티에 빙결 원소 특성의 캐릭터가 존재할 경우, 파티원의 빙결 원소 대미지가
+      <color=#ff9900>#1[f1]%</color> 증가하고, 인형의 모든 대미지가
+      <color=#ff9900>#2[f1]%</color> 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Force
+    row: 4
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.1
+    paramBase2: 0.15
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "150011"
+    elfId: "114"
+    name: 나 보고 싶었어?
+    info: 파티원 캐릭터가 적에게 가하는 빙결 상태 지속 시간이 <color=#ff9900>#1[f1]%</color> 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Initial_UP
+    row: 1
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 0.05
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0125
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "150012"
+    elfId: "114"
+    name: 나이스 타이밍
+    info: 필살기의 강화 마법은 적이 받는 빙결 원소 대미지가 추가로 <color=#ff9900>#1[f1]%</color> 증가시킨다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 1
+    col: 3
+    unlockStar: 4
+    maxLv: 3
+    paramBase1: 0.05
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.025
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "150021"
+    elfId: "114"
+    name: 복구 마법
+    info: 적이 받는 빙결 원소 대미지 증가 효과가 추가로 <color=#ff9900>#1[f1]</color>초 연장된다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Passive
+    row: 2
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 4
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 1.5
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "150022"
+    elfId: "114"
+    name: 자물쇠 열기 마법
+    info: 필살기 재사용 대기시간이 <color=#ff9900>#1[f1]%</color> 감소한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_CD_Down
+    row: 2
+    col: 3
+    unlockStar: 4
+    maxLv: 3
+    paramBase1: 0.1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.1
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "150023"
+    elfId: "114"
+    name: 문 열기 마법
+    info: 필살기 대미지에 추가로 공격력 <color=#ff9900>#1[f1]%</color>의 빙결 원소 대미지가 부여된다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 2
+    col: 4
+    unlockStar: 7
+    maxLv: 3
+    paramBase1: 8
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 2
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "150031"
+    elfId: "114"
+    name: 나라를 떠나 모험을 시작해
+    info: 연계 공격의 재사용 대기시간이 <color=#ff9900>#1[f1]</color>초 감소한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_CD_Down
+    row: 3
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 1
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "150032"
+    elfId: "114"
+    name: 별들과 함께 앞길을 비추자
+    info: 연계 공격은 인형의 SP를 추가로 <color=#ff9900>#1[f1]</color>pt 회복한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 3
+    col: 3
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.5
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "150033"
+    elfId: "114"
+    name: 찾았다! 모두의 낙원!
+    info: 필살기의 빙결 원소 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 3
+    col: 4
+    unlockStar: 7
+    maxLv: 5
+    paramBase1: 0.2
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0625
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "150041"
+    elfId: "114"
+    name: 숨바꼭질 시간
+    info: 인형의 초기 SP가 <color=#ff9900>#1[f1]</color>pt 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 4
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 30
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 5
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "150042"
+    elfId: "114"
+    name: 들켰네
+    info: 인형의 모든 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 4
+    col: 3
+    unlockStar: 7
+    maxLv: 3
+    paramBase1: 0.15
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.125
+    paramAdd2: 0
+    paramAdd3: 0
