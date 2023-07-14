@@ -1,5 +1,5 @@
 import path from 'path'
-import { createDirIfNotExist } from '../lib/v2-pre/server/fsUtils'
+import { createDirIfNotExist } from '../lib/v2/server/fsUtils'
 import fs from 'fs'
 import YAML from 'yaml'
 import { runScript } from './lib/utils'
@@ -20,19 +20,19 @@ import {
   stigmataSetsDir,
   weaopnCatalogPath,
   weaponsDir
-} from '../lib/v2-pre/server/loadData'
+} from '../lib/v2/server/loadData'
 import {
   BattlesuitCatalogItem,
   ElfCatalogItem,
   StigmataCatalogItem,
   StigmataSetCatalogItem,
   WeaponCatalogItem
-} from '../lib/v2-pre/data/types'
-import { compileBattlesuitData } from '../lib/v2-pre/server/compileData/compileBattlesuitData'
-import { compileWeaponData } from '../lib/v2-pre/server/compileData/compileWeaponData'
-import { compileStigmataData } from '../lib/v2-pre/server/compileData/compileStigmataData'
-import { compileGodWarData } from '../lib/v2-pre/server/compileData/compileGodWarData'
-import { compileElfData } from '../lib/v2-pre/server/compileData/compileElfData'
+} from '../lib/v2/data/types'
+import { compileBattlesuitData } from '../lib/v2/server/compileData/compileBattlesuitData'
+import { compileWeaponData } from '../lib/v2/server/compileData/compileWeaponData'
+import { compileStigmataData } from '../lib/v2/server/compileData/compileStigmataData'
+import { compileGodWarData } from '../lib/v2/server/compileData/compileGodWarData'
+import { compileElfData } from '../lib/v2/server/compileData/compileElfData'
 
 runScript(async () => {
   createDirIfNotExist(dataDir)

@@ -1,6 +1,6 @@
 import { Box } from 'theme-ui'
 import { assetsBucketBaseUrl } from '../../lib/consts'
-import { WeaponType } from '../../lib/v2-pre/data/types'
+import { WeaponType } from '../../lib/v2/data/types'
 
 interface WeaponTypeIconProps {
   type: WeaponType

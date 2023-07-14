@@ -1,27 +1,27 @@
 import { NextPageContext } from 'next'
 import { Box, Card, Flex, Heading } from 'theme-ui'
-import AttributeIcon from '../../../../components/v2-pre/AttributeIcon'
-import AvatarFigureImage from '../../../../components/v2-pre/AvatarFigureImage'
-import AvatarSkillIcon from '../../../../components/v2-pre/AvatarSkillIcon'
-import AvatarSubSkillIcon from '../../../../components/v2-pre/AvatarSubSkillIcon'
-import BattlesuitAvatarIcon from '../../../../components/v2-pre/BattlesuitAvatarIcon'
-import FormattedText from '../../../../components/v2-pre/FormattedText'
-import { formatSkillInfo, formatSubSkillInfo } from '../../../../lib/v2-pre/data/formatText'
-import { loadBattlesuitCatalog, loadBattlesuitData } from '../../../../lib/v2-pre/server/loadData'
-import { Battlesuit, SkillTagItem } from '../../../../lib/v2-pre/data/types'
+import AttributeIcon from '../../../../components/v2/AttributeIcon'
+import AvatarFigureImage from '../../../../components/v2/AvatarFigureImage'
+import AvatarSkillIcon from '../../../../components/v2/AvatarSkillIcon'
+import AvatarSubSkillIcon from '../../../../components/v2/AvatarSubSkillIcon'
+import BattlesuitAvatarIcon from '../../../../components/v2/BattlesuitAvatarIcon'
+import FormattedText from '../../../../components/v2/FormattedText'
+import { formatSkillInfo, formatSubSkillInfo } from '../../../../lib/v2/data/formatText'
+import { loadBattlesuitCatalog, loadBattlesuitData } from '../../../../lib/v2/server/loadData'
+import { Battlesuit, SkillTagItem } from '../../../../lib/v2/data/types'
 import { Fragment } from 'react'
-import TagIcon from '../../../../components/v2-pre/TagIcon'
+import TagIcon from '../../../../components/v2/TagIcon'
 import {
   getAttributeLabel,
   getCharacterTypeLabel,
   getSkillTypeLabel,
   getTagTypeLabel,
   getWeaponTypeLabel
-} from '../../../../lib/v2-pre/data/text'
-import StarIcon from '../../../../components/v2-pre/StarIcon'
-import ChibiIcon from '../../../../components/v2-pre/ChibiIcon'
-import WeaponTypeIcon from '../../../../components/v2-pre/WeaponTypeIcon'
-import { sortBattlesuitSkill } from '../../../../lib/v2-pre/data/utils'
+} from '../../../../lib/v2/data/text'
+import StarIcon from '../../../../components/v2/StarIcon'
+import ChibiIcon from '../../../../components/v2/ChibiIcon'
+import WeaponTypeIcon from '../../../../components/v2/WeaponTypeIcon'
+import { sortBattlesuitSkill } from '../../../../lib/v2/data/utils'
 
 interface BattlesuitShowPageProps {
   battlesuit: Battlesuit

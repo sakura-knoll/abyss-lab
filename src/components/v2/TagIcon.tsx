@@ -1,6 +1,6 @@
 import { Box } from 'theme-ui'
 import { assetsBucketBaseUrl } from '../../lib/consts'
-import { TagType } from '../../lib/v2-pre/data/types'
+import { TagType } from '../../lib/v2/data/types'
 
 interface TagIconProps {
   type: TagType

@@ -1,12 +1,12 @@
 import { NextPageContext } from 'next'
 import { Box, Card, Flex, Heading, Link } from 'theme-ui'
-import FormattedText from '../../../../components/v2-pre/FormattedText'
-import { formatSubSkillInfo } from '../../../../lib/v2-pre/data/formatText'
-import { loadStigmaData, loadStigmataSetCatalog, loadStigmataSetData } from '../../../../lib/v2-pre/server/loadData'
-import { RootStigma, StigmataSet } from '../../../../lib/v2-pre/data/types'
+import FormattedText from '../../../../components/v2/FormattedText'
+import { formatSubSkillInfo } from '../../../../lib/v2/data/formatText'
+import { loadStigmaData, loadStigmataSetCatalog, loadStigmataSetData } from '../../../../lib/v2/server/loadData'
+import { RootStigma, StigmataSet } from '../../../../lib/v2/data/types'
 import { Fragment } from 'react'
-import StigmaIcon from '../../../../components/v2-pre/StigmaIcon'
-import StigmaFigureImage from '../../../../components/v2-pre/StigmaFigureImage'
+import StigmaIcon from '../../../../components/v2/StigmaIcon'
+import StigmaFigureImage from '../../../../components/v2/StigmaFigureImage'
 
 interface StigmataSetShowPage {
   stigmataSet: StigmataSet

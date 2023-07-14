@@ -1,5 +1,5 @@
 import { Text } from 'theme-ui'
-import { FormattedTextToken, tokenize } from '../../lib/v2-pre/formattedText/tokenize'
+import { FormattedTextToken, tokenize } from '../../lib/v2/formattedText/tokenize'
 
 interface FormattedTextProps {
   children: string

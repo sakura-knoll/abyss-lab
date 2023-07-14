@@ -2,10 +2,10 @@
 import { Box, Card } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import { Flex, Link } from 'theme-ui'
-import { ElfCatalogItem } from '../../../../lib/v2-pre/data/types'
-import { loadElfCatalog } from '../../../../lib/v2-pre/server/loadData'
-import RarityBar from '../../../../components/v2-pre/RarityBar'
-import ElfIcon from '../../../../components/v2-pre/ElfIcon'
+import { ElfCatalogItem } from '../../../../lib/v2/data/types'
+import { loadElfCatalog } from '../../../../lib/v2/server/loadData'
+import RarityBar from '../../../../components/v2/RarityBar'
+import ElfIcon from '../../../../components/v2/ElfIcon'
 
 interface ElfListPageProps {
   elfs: ElfCatalogItem[]

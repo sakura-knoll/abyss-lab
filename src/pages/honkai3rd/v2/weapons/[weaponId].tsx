@@ -1,13 +1,13 @@
 import { NextPageContext } from 'next'
 import { Box, Card, Flex, Heading } from 'theme-ui'
-import FormattedText from '../../../../components/v2-pre/FormattedText'
-import { formatSubSkillInfo, replaceNewLine } from '../../../../lib/v2-pre/data/formatText'
-import { loadWeaponCatalog, loadWeaponData } from '../../../../lib/v2-pre/server/loadData'
-import { RootWeaponData } from '../../../../lib/v2-pre/data/types'
+import FormattedText from '../../../../components/v2/FormattedText'
+import { formatSubSkillInfo, replaceNewLine } from '../../../../lib/v2/data/formatText'
+import { loadWeaponCatalog, loadWeaponData } from '../../../../lib/v2/server/loadData'
+import { RootWeaponData } from '../../../../lib/v2/data/types'
 import { Fragment } from 'react'
-import { getWeaponTypeLabel } from '../../../../lib/v2-pre/data/text'
-import WeaponTypeIcon from '../../../../components/v2-pre/WeaponTypeIcon'
-import WeaponIcon from '../../../../components/v2-pre/WeaponIcon'
+import { getWeaponTypeLabel } from '../../../../lib/v2/data/text'
+import WeaponTypeIcon from '../../../../components/v2/WeaponTypeIcon'
+import WeaponIcon from '../../../../components/v2/WeaponIcon'
 
 interface WeaponShowPageProps {
   rootWeapon: RootWeaponData

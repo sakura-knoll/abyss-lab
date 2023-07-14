@@ -1,6 +1,6 @@
 import { Image, ThemeUIStyleObject } from 'theme-ui'
 import { assetsBucketBaseUrl } from '../../lib/consts'
-import { AttributeType } from '../../lib/v2-pre/data/types'
+import { AttributeType } from '../../lib/v2/data/types'
 
 interface AttributeIconProps {
   attributeType: AttributeType

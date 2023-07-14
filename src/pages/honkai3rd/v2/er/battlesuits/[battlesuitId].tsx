@@ -1,12 +1,8 @@
 import { NextPageContext } from 'next'
 import { Box, Card, Flex, Heading, Image } from 'theme-ui'
-import AvatarFigureImage from '../../../../../components/v2-pre/AvatarFigureImage'
-import {
-  loadBattlesuitData,
-  loadErBattlesuit,
-  loadErBattlesuitCatalog
-} from '../../../../../lib/v2-pre/server/loadData'
-import { Battlesuit, ErBattlesuit, ErSignet } from '../../../../../lib/v2-pre/data/types'
+import AvatarFigureImage from '../../../../../components/v2/AvatarFigureImage'
+import { loadBattlesuitData, loadErBattlesuit, loadErBattlesuitCatalog } from '../../../../../lib/v2/server/loadData'
+import { Battlesuit, ErBattlesuit, ErSignet } from '../../../../../lib/v2/data/types'
 import { Fragment, useMemo } from 'react'
 import { assetsBucketBaseUrl } from '../../../../../lib/consts'
 

@@ -1,9 +1,9 @@
 import { NextPageContext } from 'next'
 import { useMemo } from 'react'
 import { Box, Card, Flex, Heading } from 'theme-ui'
-import BattlesuitSmallIcon from '../../../../components/v2-pre/BattlesuitSmallIcon'
-import { BattlesuitCatalogItem, ErSupportBattlesuit } from '../../../../lib/v2-pre/data/types'
-import { loadBattlesuitCatalog, loadErSupports } from '../../../../lib/v2-pre/server/loadData'
+import BattlesuitSmallIcon from '../../../../components/v2/BattlesuitSmallIcon'
+import { BattlesuitCatalogItem, ErSupportBattlesuit } from '../../../../lib/v2/data/types'
+import { loadBattlesuitCatalog, loadErSupports } from '../../../../lib/v2/server/loadData'
 
 interface SupportsPageProps {
   battlesuitCatalog: BattlesuitCatalogItem[]

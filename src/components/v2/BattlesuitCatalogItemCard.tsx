@@ -1,5 +1,5 @@
 import { Box } from 'theme-ui'
-import { BattlesuitCatalogItem } from '../../lib/v2-pre/data/types'
+import { BattlesuitCatalogItem } from '../../lib/v2/data/types'
 import BattlesuitAvatarIcon from './BattlesuitAvatarIcon'
 
 interface BattlesuitCatalogItemCardProps {

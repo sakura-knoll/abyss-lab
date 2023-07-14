@@ -1,6 +1,6 @@
 import { Box, Flex, Image } from 'theme-ui'
 import { assetsBucketBaseUrl } from '../../lib/consts'
-import { AttributeType, BattlesuitCatalogItem } from '../../lib/v2-pre/data/types'
+import { AttributeType, BattlesuitCatalogItem } from '../../lib/v2/data/types'
 
 interface BattlesuitAvatarIconProps {
   battlesuit: BattlesuitCatalogItem

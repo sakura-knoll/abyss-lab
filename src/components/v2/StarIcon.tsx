@@ -1,6 +1,6 @@
 import { Box } from 'theme-ui'
 import { assetsBucketBaseUrl } from '../../lib/consts'
-import { StarRank } from '../../lib/v2-pre/data/types'
+import { StarRank } from '../../lib/v2/data/types'
 
 interface StarIconProps {
   star: StarRank

@@ -6,15 +6,15 @@ import {
   loadErBattlesuitCatalog,
   loadErSigils,
   loadErSupports
-} from '../../../../lib/v2-pre/server/loadData'
-import { BattlesuitCatalogItem, ErBattlesuitCatalogItem } from '../../../../lib/v2-pre/data/types'
+} from '../../../../lib/v2/server/loadData'
+import { BattlesuitCatalogItem, ErBattlesuitCatalogItem } from '../../../../lib/v2/data/types'
 import { useMemo } from 'react'
-import BattlesuitCatalogItemCard from '../../../../components/v2-pre/BattlesuitCatalogItemCard'
+import BattlesuitCatalogItemCard from '../../../../components/v2/BattlesuitCatalogItemCard'
 import { assetsBucketBaseUrl } from '../../../../lib/consts'
-import SquareImage from '../../../../components/v2-pre/SquareImage'
-import { signetGroups } from '../../../../lib/v2-pre/data/er'
-import BattlesuitSmallIcon from '../../../../components/v2-pre/BattlesuitSmallIcon'
-import MaterialIcon from '../../../../components/v2-pre/MaterialIcon'
+import SquareImage from '../../../../components/v2/SquareImage'
+import { signetGroups } from '../../../../lib/v2/data/er'
+import BattlesuitSmallIcon from '../../../../components/v2/BattlesuitSmallIcon'
+import MaterialIcon from '../../../../components/v2/MaterialIcon'
 
 interface ErPageProps {
   erBattlesuitCatalog: ErBattlesuitCatalogItem[]
