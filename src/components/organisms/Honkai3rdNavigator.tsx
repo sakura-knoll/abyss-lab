@@ -5,12 +5,11 @@ import { NavLink, Heading, Text, Box, Flex, IconButton, Switch, Label } from '@t
 import NextLink from 'next/link'
 import { useRouter } from 'next/router'
 import { useColorMode } from 'theme-ui'
-import { assetsBucketBaseUrl } from '../../lib/consts'
 import { useTranslation } from '../../lib/i18n'
-import SquareImageBox from '../atoms/SquareImageBox'
+import NavItem from '../atoms/NavItem'
 
 interface Honkai3rdNavigatorProps {
-  close: () => void
+  close?: () => void
 }
 
 const Honkai3rdNavigator = ({ close }: Honkai3rdNavigatorProps) => {
@@ -24,20 +23,23 @@ const Honkai3rdNavigator = ({ close }: Honkai3rdNavigatorProps) => {
         p: 2
       }}
     >
-      <Flex
-        sx={{
-          position: 'sticky',
-          display: ['block', 'none'],
-          top: 0,
-          height: 50,
-          ml: -2,
-          mt: -2
-        }}
-      >
-        <IconButton sx={{ width: 50, height: 50 }} onClick={close}>
-          <Icon path={mdiClose} size={1} />
-        </IconButton>
-      </Flex>
+      {close != null && (
+        <Flex
+          sx={{
+            position: 'sticky',
+            display: ['block', 'none'],
+            top: 0,
+            height: 50,
+            ml: -2,
+            mt: -2
+          }}
+        >
+          <IconButton sx={{ width: 50, height: 50 }} onClick={close}>
+            <Icon path={mdiClose} size={1} />
+          </IconButton>
+        </Flex>
+      )}
+
       <NextLink href="/" passHref>
         <NavLink mb={2}>Abyss Lab</NavLink>
       </NextLink>
@@ -106,61 +108,3 @@ const Honkai3rdNavigator = ({ close }: Honkai3rdNavigatorProps) => {
 }
 
 export default Honkai3rdNavigator
-
-type NavItemTarget = 'battlesuits' | 'stigmata' | 'weapons' | 'elfs' | 'elysian-realm' | 'media'
-interface NavItemProps {
-  target: NavItemTarget
-}
-
-const NavItem = ({ target }: NavItemProps) => {
-  const { t } = useTranslation()
-  return (
-    <NextLink href={getHref(target)} passHref>
-      <NavLink
-        sx={{
-          fontFamily: 'monospace',
-          display: 'flex',
-          alignItems: 'center',
-          overflow: 'hidden',
-          p: 1
-        }}
-      >
-        <SquareImageBox size={30} mr={1} src={getIconByTarget(target)} />
-        <Text
-          sx={{
-            overflow: 'hidden',
-            textOverflow: 'ellipsis',
-            whiteSpace: 'nowrap'
-          }}
-        >
-          {t(`common.${target}`)}
-        </Text>
-      </NavLink>
-    </NextLink>
-  )
-}
-
-function getIconByTarget(target: string) {
-  switch (target) {
-    case 'versions':
-      return `${assetsBucketBaseUrl}/honkai3rd/nav-icons/versions.webp`
-    case 'media':
-      return `${assetsBucketBaseUrl}/honkai3rd/nav-icons/grand-instructor.webp`
-    default:
-      return `${assetsBucketBaseUrl}/honkai3rd/nav-icons/${target}.png`
-  }
-}
-
-function getHref(target: NavItemTarget) {
-  switch (target) {
-    case 'battlesuits':
-    case 'weapons':
-    case 'elfs':
-      return `/honkai3rd/${target}`
-    case 'stigmata':
-      return '/honkai3rd/stigmata-sets'
-    case 'elysian-realm':
-      return '/honkai3rd/er'
-  }
-  return `/honkai3rd/${target}`
-}
