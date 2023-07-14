@@ -10,7 +10,7 @@ import Honkai3rdLayout from '../../../../components/layouts/Honkai3rdLayout'
 import Head from '../../../../components/atoms/Head'
 import { useTranslation } from 'next-i18next'
 import Breadcrumb from '../../../../components/organisms/Breadcrumb'
-import { getI18NProps } from '../../../../server/i18n'
+import { generateI18NPaths, getI18NProps } from '../../../../server/i18n'
 
 interface BattlesuitShowPageProps {
   battlesuit: Battlesuit
@@ -145,11 +145,13 @@ export async function getStaticPaths() {
   const battlesuitCatalog = loadErBattlesuitCatalog()
 
   return {
-    paths: battlesuitCatalog.map(catalogItem => {
-      return {
-        params: { battlesuitId: catalogItem.battlesuit }
-      }
-    }),
+    paths: generateI18NPaths(
+      battlesuitCatalog.map(catalogItem => {
+        return {
+          params: { battlesuitId: catalogItem.battlesuit }
+        }
+      })
+    ),
     fallback: false
   }
 }

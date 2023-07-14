@@ -23,7 +23,7 @@ import ChibiIcon from '../../../components/v2/ChibiIcon'
 import WeaponTypeIcon from '../../../components/v2/WeaponTypeIcon'
 import { sortBattlesuitSkill } from '../../../lib/v2/data/utils'
 import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
-import { getI18NProps } from '../../../server/i18n'
+import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
 import Head from '../../../components/atoms/Head'
 import { useTranslation } from 'next-i18next'
 
@@ -176,11 +176,13 @@ export async function getStaticPaths() {
   const battlesuitCatalog = loadBattlesuitCatalog()
 
   return {
-    paths: battlesuitCatalog.map(catalogItem => {
-      return {
-        params: { battlesuitId: catalogItem.id }
-      }
-    }),
+    paths: generateI18NPaths(
+      battlesuitCatalog.map(catalogItem => {
+        return {
+          params: { battlesuitId: catalogItem.id }
+        }
+      })
+    ),
     fallback: false
   }
 }

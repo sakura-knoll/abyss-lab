@@ -9,7 +9,7 @@ import { getStigmaTypeLabel } from '../../../lib/v2/data/text'
 import StigmaTypeIcon from '../../../components/v2/StigmaTypeIcon'
 import StigmaIcon from '../../../components/v2/StigmaIcon'
 import StigmaFigureImage from '../../../components/v2/StigmaFigureImage'
-import { getI18NProps } from '../../../server/i18n'
+import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
 import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 import Head from '../../../components/atoms/Head'
 import { useTranslation } from 'next-i18next'
@@ -188,11 +188,13 @@ export async function getStaticPaths() {
   const stigmataCatalog = loadStigmataCatalog()
 
   return {
-    paths: stigmataCatalog.map(catalogItem => {
-      return {
-        params: { stigmaId: catalogItem.id }
-      }
-    }),
+    paths: generateI18NPaths(
+      stigmataCatalog.map(catalogItem => {
+        return {
+          params: { stigmaId: catalogItem.id }
+        }
+      })
+    ),
     fallback: false
   }
 }

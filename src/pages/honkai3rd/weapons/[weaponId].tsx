@@ -11,7 +11,7 @@ import WeaponIcon from '../../../components/v2/WeaponIcon'
 import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 import Head from '../../../components/atoms/Head'
 import { useTranslation } from 'next-i18next'
-import { getI18NProps } from '../../../server/i18n'
+import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 
 interface WeaponShowPageProps {
@@ -123,11 +123,13 @@ export async function getStaticPaths() {
   const weaponCatalog = loadWeaponCatalog()
 
   return {
-    paths: weaponCatalog.map(catalogItem => {
-      return {
-        params: { weaponId: catalogItem.id }
-      }
-    }),
+    paths: generateI18NPaths(
+      weaponCatalog.map(catalogItem => {
+        return {
+          params: { weaponId: catalogItem.id }
+        }
+      })
+    ),
     fallback: false
   }
 }

@@ -13,7 +13,7 @@ import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 import Head from '../../../components/atoms/Head'
 import { useTranslation } from 'next-i18next'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
-import { getI18NProps } from '../../../server/i18n'
+import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
 
 interface ElfShowPageProps {
   elf: Elf
@@ -139,11 +139,13 @@ export async function getStaticPaths() {
   const elfCatalog = loadElfCatalog()
 
   return {
-    paths: elfCatalog.map(catalogItem => {
-      return {
-        params: { elfId: catalogItem.id }
-      }
-    }),
+    paths: generateI18NPaths(
+      elfCatalog.map(catalogItem => {
+        return {
+          params: { elfId: catalogItem.id }
+        }
+      })
+    ),
     fallback: false
   }
 }
