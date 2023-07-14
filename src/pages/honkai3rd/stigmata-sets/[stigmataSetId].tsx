@@ -1,5 +1,5 @@
 import { NextPageContext } from 'next'
-import { Box, Card, Flex, Heading, Link } from 'theme-ui'
+import { Box, Card, Flex, Heading } from 'theme-ui'
 import FormattedText from '../../../components/v2/FormattedText'
 import { formatSubSkillInfo } from '../../../lib/v2/data/formatText'
 import { loadStigmaData, loadStigmataSetCatalog, loadStigmataSetData } from '../../../lib/v2/server/loadData'
@@ -12,6 +12,7 @@ import Head from '../../../components/atoms/Head'
 import { useTranslation } from 'next-i18next'
 import { getI18NProps } from '../../../server/i18n'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
+import PageLink from '../../../components/atoms/PageLink'
 
 interface StigmataSetShowPage {
   stigmataSet: StigmataSet
@@ -30,7 +31,7 @@ const StigmataSetShowPage = ({ stigmataSet, stigmata }: StigmataSetShowPage) => 
         description={`${t('common.honkai-3rd')} ${t('stigmata-show.stigmata-set')} / ${'⭐'.repeat(rarity)} / ${
           stigmataSet.name
         }`}
-        canonicalHref={`/honkai3rd/v2/stigmata-sets/${stigmataSet.id}-set`}
+        canonicalHref={`/honkai3rd/stigmata-sets/${stigmataSet.id}-set`}
       />
 
       <Box p={2}>
@@ -39,12 +40,12 @@ const StigmataSetShowPage = ({ stigmataSet, stigmata }: StigmataSetShowPage) => 
             { href: '/honkai3rd', label: t('common.honkai-3rd') },
             {
               href: {
-                pathname: `/honkai3rd/v2/stigmata-sets`
+                pathname: `/honkai3rd/stigmata-sets`
               },
               label: t('common.stigmata-set')
             },
             {
-              href: `/honkai3rd/v2/stigmata-sets/${stigmataSet.id}-set`,
+              href: `/honkai3rd/stigmata-sets/${stigmataSet.id}`,
               label: stigmataSet.name
             }
           ]}
@@ -68,7 +69,7 @@ const StigmataSetShowPage = ({ stigmataSet, stigmata }: StigmataSetShowPage) => 
                           my: 1
                         }}
                       >
-                        <Link href={`/honkai3rd/v2/stigmata/${rootStigma.id}`}>{stigma.name}</Link>
+                        <PageLink href={`/honkai3rd/stigmata/${rootStigma.id}`}>{stigma.name}</PageLink>
                       </Heading>
                     </Flex>
 

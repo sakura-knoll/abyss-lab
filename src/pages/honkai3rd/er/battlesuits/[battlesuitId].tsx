@@ -50,7 +50,7 @@ const BattlesuitShowPage = ({ battlesuit, erBattlesuit }: BattlesuitShowPageProp
           'common.abyss-lab'
         )}`}
         description={`${t('common.honkai-3rd')} ${t('common.elysian-realm')} ${t('battlesuit-show.battlesuit')}`}
-        canonicalHref={`/honkai3rd/v2/er/battlesuits/${battlesuit.id}`}
+        canonicalHref={`/honkai3rd/er/battlesuits/${battlesuit.id}`}
       />
 
       <Box p={2}>
@@ -58,11 +58,11 @@ const BattlesuitShowPage = ({ battlesuit, erBattlesuit }: BattlesuitShowPageProp
           items={[
             { href: '/honkai3rd', label: t('common.honkai-3rd') },
             {
-              href: '/honkai3rd/v2/er',
+              href: '/honkai3rd/er',
               label: t('common.elysian-realm')
             },
             {
-              href: `/honkai3rd/v2/er/battlesuits/${battlesuit.id}`,
+              href: `/honkai3rd/er/battlesuits/${battlesuit.id}`,
               label: battlesuit.fullName
             }
           ]}

@@ -29,7 +29,7 @@ const BattlesuitListPage = ({ battlesuitCatalog }: BattlesuitListPageProps) => {
           items={[
             { href: '/honkai3rd', label: t('common.honkai-3rd') },
             {
-              href: '/honkai3rd/v2/battlesuits',
+              href: '/honkai3rd/battlesuits',
               label: t('common.battlesuits')
             }
           ]}
@@ -39,7 +39,7 @@ const BattlesuitListPage = ({ battlesuitCatalog }: BattlesuitListPageProps) => {
           {battlesuitCatalog.map(battlesuit => {
             return (
               <Box key={battlesuit.id}>
-                <Link href={`/honkai3rd/v2/battlesuits/${battlesuit.id}`}>
+                <Link href={`/honkai3rd/battlesuits/${battlesuit.id}`}>
                   <BattlesuitCatalogItemCard battlesuit={battlesuit} />
                 </Link>
               </Box>

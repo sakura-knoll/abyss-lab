@@ -33,14 +33,14 @@ const WeaponShowPage = ({ rootWeapon }: WeaponShowPageProps) => {
         description={`${t('common.honkai-3rd')} ${t('weapons-show.weapon')} / ${'⭐'.repeat(
           weapon.rarity
         )} / ${weaponTypeLabel} / ATK : ${atk} / CRT : ${crt}`}
-        canonicalHref={`/honkai3rd/v2/weapons/${weapon.id}`}
+        canonicalHref={`/honkai3rd/weapons/${weapon.id}`}
       />
       <Box p={2}>
         <Breadcrumb
           items={[
             { href: '/honkai3rd', label: t('common.honkai-3rd') },
-            { href: '/honkai3rd/v2/weapons', label: t('common.weapons') },
-            { href: `/honkai3rd/v2/weapons/${weapon.id}`, label: weapon.name }
+            { href: '/honkai3rd/weapons', label: t('common.weapons') },
+            { href: `/honkai3rd/weapons/${weapon.id}`, label: weapon.name }
           ]}
         />
 

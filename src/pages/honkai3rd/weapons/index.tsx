@@ -1,7 +1,7 @@
 /** @jsxImportSource theme-ui */
 import { Box, Card } from '@theme-ui/components'
 import { NextPageContext } from 'next'
-import { Flex, Heading, Link } from 'theme-ui'
+import { Flex, Heading } from 'theme-ui'
 import { loadWeaponCatalog } from '../../../lib/v2/server/loadData'
 import { WeaponCatalogItem } from '../../../lib/v2/data/types'
 import WeaponIcon from '../../../components/v2/WeaponIcon'
@@ -10,6 +10,7 @@ import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 import { useTranslation } from 'next-i18next'
 import { getI18NProps } from '../../../server/i18n'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
+import PageLink from '../../../components/atoms/PageLink'
 
 interface WeaponListPageProps {
   weaponCatalog: WeaponCatalogItem[]
@@ -22,13 +23,13 @@ const WeaponListPage = ({ weaponCatalog }: WeaponListPageProps) => {
       <Head
         title={`${t('common.weapons')} - ${t('common.honkai-3rd')} - ${t('common.abyss-lab')}`}
         description={t('weapons-list.description')}
-        canonicalHref={`/honkai3rd/v2/weapons`}
+        canonicalHref={`/honkai3rd/weapons`}
       />
       <Box p={2}>
         <Breadcrumb
           items={[
             { href: '/honkai3rd', label: t('common.honkai-3rd') },
-            { href: '/honkai3rd/v2/weapons', label: t('common.weapons') }
+            { href: '/honkai3rd/weapons', label: t('common.weapons') }
           ]}
         />
         <Heading as="h1">{t('common.weapons')}</Heading>
@@ -39,7 +40,7 @@ const WeaponListPage = ({ weaponCatalog }: WeaponListPageProps) => {
             .map(weapon => {
               return (
                 <Box key={weapon.id} m={1}>
-                  <Link href={`/honkai3rd/v2/weapons/${weapon.id}`}>
+                  <PageLink href={`/honkai3rd/weapons/${weapon.id}`}>
                     <Card p={1}>
                       <Flex sx={{ justifyContent: 'center' }}>
                         <WeaponIcon icon={weapon.icon} rarity={weapon.maxRarity} />
@@ -58,7 +59,7 @@ const WeaponListPage = ({ weaponCatalog }: WeaponListPageProps) => {
                       </Box>
                       {/* {weapon.id} */}
                     </Card>
-                  </Link>
+                  </PageLink>
                 </Box>
               )
             })}

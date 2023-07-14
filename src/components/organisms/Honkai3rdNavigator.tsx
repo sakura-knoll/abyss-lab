@@ -156,11 +156,11 @@ function getHref(target: NavItemTarget) {
     case 'battlesuits':
     case 'weapons':
     case 'elfs':
-      return `/honkai3rd/v2/${target}`
+      return `/honkai3rd/${target}`
     case 'stigmata':
-      return '/honkai3rd/v2/stigmata-sets'
+      return '/honkai3rd/stigmata-sets'
     case 'elysian-realm':
-      return '/honkai3rd/v2/er'
+      return '/honkai3rd/er'
   }
   return `/honkai3rd/${target}`
 }

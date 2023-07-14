@@ -1,5 +1,5 @@
 import { NextPageContext } from 'next'
-import { Box, Card, Flex, Heading, Link } from 'theme-ui'
+import { Box, Card, Flex, Heading } from 'theme-ui'
 import FormattedText from '../../../components/v2/FormattedText'
 import { formatSubSkillInfo, replaceNewLine } from '../../../lib/v2/data/formatText'
 import { loadStigmaData, loadStigmataCatalog, loadStigmataSetData } from '../../../lib/v2/server/loadData'
@@ -14,6 +14,7 @@ import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 import Head from '../../../components/atoms/Head'
 import { useTranslation } from 'next-i18next'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
+import PageLink from '../../../components/atoms/PageLink'
 
 interface StigmaShowPageProps {
   rootStigma: RootStigma
@@ -44,9 +45,9 @@ const StigmaShowPage = ({ rootStigma, stigmataSetCatalogItem }: StigmaShowPagePr
         <Breadcrumb
           items={[
             { href: '/honkai3rd', label: t('common.honkai-3rd') },
-            { href: '/honkai3rd/v2/stigmata', label: t('common.stigmata') },
+            { href: '/honkai3rd/stigmata', label: t('common.stigmata') },
             {
-              href: `/honkai3rd/v2/stigmata/${stigma.id}`,
+              href: `/honkai3rd/stigmata/${stigma.id}`,
               label: stigma.name
             }
           ]}
@@ -123,7 +124,7 @@ const StigmaShowPage = ({ rootStigma, stigmataSetCatalogItem }: StigmaShowPagePr
           <>
             <Heading as="h2">Set</Heading>
             <Flex key={stigmataSetCatalogItem.id}>
-              <Link href={`/v2-pre/stigmata-sets/${stigmataSetCatalogItem.id}`}>
+              <PageLink href={`/honkai3rd/stigmata-sets/${stigmataSetCatalogItem.id}`}>
                 <Card p={1}>
                   <Flex sx={{ justifyContent: 'center' }}>
                     {stigmataSetCatalogItem.stigmataList.map(stigma => {
@@ -143,7 +144,7 @@ const StigmaShowPage = ({ rootStigma, stigmataSetCatalogItem }: StigmaShowPagePr
                   </Box>
                   {/* {stigma.id} */}
                 </Card>
-              </Link>
+              </PageLink>
             </Flex>
           </>
         )}

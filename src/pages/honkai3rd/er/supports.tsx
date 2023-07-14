@@ -43,11 +43,11 @@ const SupportsPage = ({
           items={[
             { href: '/honkai3rd', label: t('common.honkai-3rd') },
             {
-              href: '/honkai3rd/v2/er',
+              href: '/honkai3rd/er',
               label: t('common.elysian-realm')
             },
             {
-              href: '/honkai3rd/v2/er/supports',
+              href: '/honkai3rd/er/supports',
               label: t('elysian-realm.supports')
             }
           ]}

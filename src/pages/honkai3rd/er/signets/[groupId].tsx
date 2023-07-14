@@ -51,11 +51,11 @@ const BattlesuitShowPage = ({ signets, group }: BattlesuitShowPageProps) => {
           items={[
             { href: '/honkai3rd', label: t('common.honkai-3rd') },
             {
-              href: '/honkai3rd/v2/er',
+              href: '/honkai3rd/er',
               label: t('common.elysian-realm')
             },
             {
-              href: `/honkai3rd/v2/er/signets/${group.id}`,
+              href: `/honkai3rd/er/signets/${group.id}`,
               label: group.name
             }
           ]}

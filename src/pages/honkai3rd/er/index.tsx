@@ -1,5 +1,5 @@
 /** @jsxImportSource theme-ui */
-import { Box, Heading, Flex, Link, Card } from '@theme-ui/components'
+import { Box, Heading, Flex, Card } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import {
   loadBattlesuitCatalog,
@@ -20,6 +20,7 @@ import Head from '../../../components/atoms/Head'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import { useTranslation } from 'next-i18next'
 import { getI18NProps } from '../../../server/i18n'
+import PageLink from '../../../components/atoms/PageLink'
 
 interface ErPageProps {
   erBattlesuitCatalog: ErBattlesuitCatalogItem[]
@@ -51,7 +52,7 @@ const ErPage = ({ erBattlesuitCatalog, battlesuitCatalog, erSupports, erSigils }
           items={[
             { href: '/honkai3rd', label: t('common.honkai-3rd') },
             {
-              href: '/honkai3rd/v2/er',
+              href: '/honkai3rd/er',
               label: t('common.elysian-realm')
             }
           ]}
@@ -62,7 +63,7 @@ const ErPage = ({ erBattlesuitCatalog, battlesuitCatalog, erSupports, erSigils }
         <Flex sx={{ flexWrap: 'wrap', mb: 3 }}>
           {signetGroups.map(signetGroup => {
             return (
-              <Link href={`/honkai3rd/v2/er/signets/${signetGroup.id}`} key={signetGroup.id}>
+              <PageLink href={`/honkai3rd/er/signets/${signetGroup.id}`} key={signetGroup.id}>
                 <Card p={1} m={1}>
                   <Flex sx={{ alignItems: 'center' }}>
                     <SquareImage
@@ -73,7 +74,7 @@ const ErPage = ({ erBattlesuitCatalog, battlesuitCatalog, erSupports, erSigils }
                     <Box p={1}>{signetGroup.name}</Box>
                   </Flex>
                 </Card>
-              </Link>
+              </PageLink>
             )
           })}
         </Flex>
@@ -84,9 +85,9 @@ const ErPage = ({ erBattlesuitCatalog, battlesuitCatalog, erSupports, erSigils }
             const battlesuit = battlesuitCatalogMap.get(erBattlesuit.battlesuit)!
             return (
               <Box key={battlesuit.id}>
-                <Link href={`/honkai3rd/v2/er/battlesuits/${battlesuit.id}`}>
+                <PageLink href={`/honkai3rd/er/battlesuits/${battlesuit.id}`}>
                   <BattlesuitCatalogItemCard battlesuit={battlesuit} />
-                </Link>
+                </PageLink>
               </Box>
             )
           })}
@@ -99,7 +100,7 @@ const ErPage = ({ erBattlesuitCatalog, battlesuitCatalog, erSupports, erSigils }
             const battlesuit = battlesuitCatalogMap.get(support)!
             return (
               <Box key={support}>
-                <Link href={`/honkai3rd/v2/er/supports#${support}`}>
+                <PageLink href={`/honkai3rd/er/supports#${support}`}>
                   <Box sx={{ p: 1, m: 1, width: 110 }}>
                     <BattlesuitSmallIcon battlesuit={battlesuit} ratio={0.8} />
                     <Box
@@ -109,7 +110,7 @@ const ErPage = ({ erBattlesuitCatalog, battlesuitCatalog, erSupports, erSigils }
                     </Box>
                   </Box>
                   {/* <BattlesuitCatalogItemCard battlesuit={battlesuit} /> */}
-                </Link>
+                </PageLink>
               </Box>
             )
           })}
@@ -121,9 +122,9 @@ const ErPage = ({ erBattlesuitCatalog, battlesuitCatalog, erSupports, erSigils }
           {erSigils.map(sigil => {
             return (
               <Card key={sigil.id} p={1} m={1}>
-                <Link href={`/honkai3rd/v2/er/sigils#${sigil.id}`}>
+                <PageLink href={`/honkai3rd/er/sigils#${sigil.id}`}>
                   <MaterialIcon materialId={sigil.id} />
-                </Link>
+                </PageLink>
               </Card>
             )
           })}

@@ -1,8 +1,7 @@
 /** @jsxImportSource theme-ui */
 import { Box, Card, Heading } from '@theme-ui/components'
 import { NextPageContext } from 'next'
-import { Flex, Link } from 'theme-ui'
-
+import { Flex } from 'theme-ui'
 import { StigmataSetCatalogItem } from '../../../lib/v2/data/types'
 import { loadStigmataSetCatalog } from '../../../lib/v2/server/loadData'
 import StigmaIcon from '../../../components/v2/StigmaIcon'
@@ -11,6 +10,7 @@ import Head from '../../../components/atoms/Head'
 import { useTranslation } from 'next-i18next'
 import { getI18NProps } from '../../../server/i18n'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
+import PageLink from '../../../components/atoms/PageLink'
 
 interface StigmataSetListPageProps {
   stigmataSetCatalog: StigmataSetCatalogItem[]
@@ -23,19 +23,19 @@ const StigmataSetListPage = ({ stigmataSetCatalog }: StigmataSetListPageProps) =
       <Head
         title={`${t('common.stigmata')} - ${t('common.honkai-3rd')} - ${t('common.abyss-lab')}`}
         description={t('stigmata-set-list.description')}
-        canonicalHref={`/honkai3rd/v2/stigmata`}
+        canonicalHref={`/honkai3rd/stigmata`}
       />
       <Box p={2}>
         <Breadcrumb
           items={[
             { href: '/honkai3rd', label: t('common.honkai-3rd') },
-            { href: '/honkai3rd/v2/stigmata-sets', label: t('common.stigmata-set') }
+            { href: '/honkai3rd/stigmata-sets', label: t('common.stigmata-set') }
           ]}
         />
         <Heading as="h1">{t('stigmata-set-list.stigmata-set')}</Heading>
 
         <Box mb={3}>
-          <Link href="/honkai3rd/v2/stigmata">{t('stigmata-set-list.show-signle-list')}</Link>
+          <PageLink href="/honkai3rd/stigmata">{t('stigmata-set-list.show-signle-list')}</PageLink>
         </Box>
 
         <Flex sx={{ flexWrap: 'wrap' }}>
@@ -61,7 +61,7 @@ const StigmataSetListPage = ({ stigmataSetCatalog }: StigmataSetListPageProps) =
             .map(stigmataSet => {
               return (
                 <Box key={stigmataSet.id} m={1}>
-                  <Link href={`/honkai3rd/v2/stigmata-sets/${stigmataSet.id}`}>
+                  <PageLink href={`/honkai3rd/stigmata-sets/${stigmataSet.id}`}>
                     <Card p={1}>
                       <Flex sx={{ justifyContent: 'center' }}>
                         {stigmataSet.stigmataList.map(stigma => {
@@ -81,7 +81,7 @@ const StigmataSetListPage = ({ stigmataSetCatalog }: StigmataSetListPageProps) =
                       </Box>
                       {/* {stigma.id} */}
                     </Card>
-                  </Link>
+                  </PageLink>
                 </Box>
               )
             })}

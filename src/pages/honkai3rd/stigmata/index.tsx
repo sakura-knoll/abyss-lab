@@ -1,24 +1,36 @@
 /** @jsxImportSource theme-ui */
 import { Box, Card, Heading } from '@theme-ui/components'
 import { NextPageContext } from 'next'
-import { Flex, Link } from 'theme-ui'
-
+import { Flex } from 'theme-ui'
 import { StigmataCatalogItem } from '../../../lib/v2/data/types'
 import { loadStigmataCatalog } from '../../../lib/v2/server/loadData'
 import StigmaIcon from '../../../components/v2/StigmaIcon'
 import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 import { getI18NProps } from '../../../server/i18n'
+import { useTranslation } from 'next-i18next'
+import Breadcrumb from '../../../components/organisms/Breadcrumb'
+import PageLink from '../../../components/atoms/PageLink'
 
 interface StigmataListPageProps {
   stigmataCatalog: StigmataCatalogItem[]
 }
 
 const StigmataListPage = ({ stigmataCatalog }: StigmataListPageProps) => {
+  const { t } = useTranslation()
   return (
     <Honkai3rdLayout>
-      <Box>
+      <Box p={2}>
+        <Breadcrumb
+          items={[
+            { href: '/honkai3rd', label: t('common.honkai-3rd') },
+            { href: '/honkai3rd/stigmata', label: t('common.stigmata') }
+          ]}
+        />
         <Heading as="h1">Stigmata (Single)</Heading>
 
+        <Box mb={3}>
+          <PageLink href="/honkai3rd/stigmata-sets">{t('stigmata-list.show-set-list')}</PageLink>
+        </Box>
         <Flex sx={{ flexWrap: 'wrap' }}>
           {stigmataCatalog
             .filter(filterStigmata)
@@ -26,7 +38,7 @@ const StigmataListPage = ({ stigmataCatalog }: StigmataListPageProps) => {
             .map(stigma => {
               return (
                 <Box key={stigma.id} m={2}>
-                  <Link href={`/v2-pre/stigmata/${stigma.id}`}>
+                  <PageLink href={`/honkai3rd/stigmata/${stigma.id}`}>
                     <Card p={1}>
                       <Flex sx={{ justifyContent: 'center' }}>
                         <StigmaIcon icon={stigma.icon} rarity={stigma.maxRarity} />
@@ -45,7 +57,7 @@ const StigmataListPage = ({ stigmataCatalog }: StigmataListPageProps) => {
                       </Box>
                       {/* {stigma.id} */}
                     </Card>
-                  </Link>
+                  </PageLink>
                 </Box>
               )
             })}

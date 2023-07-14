@@ -23,7 +23,7 @@ const SigilsPage = ({ erSigils }: SigilsPageProps) => {
           'common.honkai-3rd'
         )} - ${t('common.abyss-lab')}`}
         description={`${t('common.elysian-realm')} ${t('elysian-realm.supports')}`}
-        canonicalHref={`/honkai3rd/v2/er/sigils`}
+        canonicalHref={`/honkai3rd/er/sigils`}
       />
 
       <Box p={2}>
@@ -31,11 +31,11 @@ const SigilsPage = ({ erSigils }: SigilsPageProps) => {
           items={[
             { href: '/honkai3rd', label: t('common.honkai-3rd') },
             {
-              href: '/honkai3rd/v2/er',
+              href: '/honkai3rd/er',
               label: t('common.elysian-realm')
             },
             {
-              href: '/honkai3rd/v2/er/sigils',
+              href: '/honkai3rd/er/sigils',
               label: t('elysian-realm.remembrance-sigil')
             }
           ]}
