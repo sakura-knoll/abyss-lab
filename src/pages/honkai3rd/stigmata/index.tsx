@@ -1,97 +1,54 @@
 /** @jsxImportSource theme-ui */
-import { Box, Heading, Flex } from '@theme-ui/components'
+import { Box, Card, Heading } from '@theme-ui/components'
 import { NextPageContext } from 'next'
-import { useRouter } from 'next/router'
-import { pick } from 'ramda'
-import { useMemo } from 'react'
-import PageLink from '../../../components/atoms/PageLink'
-import StigmataCard from '../../../components/molecules/StigmataCard'
-import StigmataSetCard from '../../../components/molecules/StigmataSetCard'
-import Breadcrumb from '../../../components/organisms/Breadcrumb'
-import { StigmataData, StigmataSet } from '../../../lib/honkai3rd/stigmata'
-import { getI18NProps } from '../../../server/i18n'
-import {
-  listStigmata,
-  listStigmataSet,
-} from '../../../server/data/honkai3rd/stigmata'
-import { useTranslation } from 'next-i18next'
-import Head from '../../../components/atoms/Head'
+import { Flex, Link } from 'theme-ui'
+
+import { StigmataCatalogItem } from '../../../lib/v2/data/types'
+import { loadStigmataCatalog } from '../../../lib/v2/server/loadData'
+import StigmaIcon from '../../../components/v2/StigmaIcon'
 import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
+import { getI18NProps } from '../../../server/i18n'
 
 interface StigmataListPageProps {
-  stigmataDataList: Pick<StigmataData, 'id' | 'name' | 'rarity'>[]
-  stigmataSetList: Pick<StigmataSet, 'id' | 'name' | 'rarity'>[]
+  stigmataCatalog: StigmataCatalogItem[]
 }
 
-const StigmataListPage = ({
-  stigmataDataList,
-  stigmataSetList,
-}: StigmataListPageProps) => {
-  const { t } = useTranslation()
-  const { query } = useRouter()
-
-  const listMode = useMemo(() => {
-    if (query.list == null) {
-      return 'set'
-    }
-    return typeof query.list === 'string' ? query.list : query.list[0]
-  }, [query])
-
+const StigmataListPage = ({ stigmataCatalog }: StigmataListPageProps) => {
   return (
     <Honkai3rdLayout>
-      <Head
-        title={`${t('common.stigmata')} - ${t('common.honkai-3rd')} - ${t(
-          'common.abyss-lab'
-        )}`}
-        description={t('stigmata-list.description')}
-        canonicalHref={`/honkai3rd/stigmata`}
-      />
+      <Box>
+        <Heading as="h1">Stigmata (Single)</Heading>
 
-      <Box p={3}>
-        <Breadcrumb
-          items={[
-            { href: '/honkai3rd', label: t('common.honkai-3rd') },
-            { href: '/honkai3rd/stigmata', label: t('common.stigmata') },
-          ]}
-        />
-
-        <Heading as='h1'>{t('stigmata-list.stigmata')}</Heading>
-
-        <Flex mb={3}>
-          <PageLink
-            href={{
-              query: listMode === 'set' ? { list: 'single' } : { list: 'set' },
-            }}
-            shallow={true}
-            m={1}
-            py={1}
-            px={2}
-            className={listMode === 'set' ? 'active' : ''}
-            sx={{ display: 'flex' }}
-            variant='buttons.primary'
-          >
-            {t('stigmata-list.set-list')}
-          </PageLink>
-        </Flex>
-
-        <Flex
-          sx={{
-            flexWrap: 'wrap',
-            justifyContent: 'space-around',
-          }}
-        >
-          {listMode === 'set'
-            ? stigmataSetList.map((stigmataSet) => {
-                return (
-                  <StigmataSetCard
-                    key={stigmataSet.id}
-                    stigmataSet={stigmataSet}
-                  />
-                )
-              })
-            : stigmataDataList.map((stigmata) => {
-                return <StigmataCard key={stigmata.id} stigmata={stigmata} />
-              })}
+        <Flex sx={{ flexWrap: 'wrap' }}>
+          {stigmataCatalog
+            .filter(filterStigmata)
+            .sort(sortStigmata)
+            .map(stigma => {
+              return (
+                <Box key={stigma.id} m={2}>
+                  <Link href={`/v2-pre/stigmata/${stigma.id}`}>
+                    <Card p={1}>
+                      <Flex sx={{ justifyContent: 'center' }}>
+                        <StigmaIcon icon={stigma.icon} rarity={stigma.maxRarity} />
+                      </Flex>
+                      <Box
+                        sx={{
+                          overflow: 'hidden',
+                          textOverflow: 'ellipsis',
+                          whiteSpace: 'nowrap',
+                          px: 1,
+                          width: 112,
+                          textAlign: 'center'
+                        }}
+                      >
+                        {stigma.name}
+                      </Box>
+                      {/* {stigma.id} */}
+                    </Card>
+                  </Link>
+                </Box>
+              )
+            })}
         </Flex>
       </Box>
     </Honkai3rdLayout>
@@ -101,15 +58,21 @@ const StigmataListPage = ({
 export default StigmataListPage
 
 export async function getStaticProps({ locale }: NextPageContext) {
+  const stigmataCatalog = loadStigmataCatalog()
+
   return {
-    props: {
-      stigmataDataList: listStigmata(locale).map((stigmata) =>
-        pick(['id', 'name', 'rarity'], stigmata)
-      ),
-      stigmataSetList: listStigmataSet(locale).map((stigmataSet) =>
-        pick(['id', 'name', 'rarity'], stigmataSet)
-      ),
-      ...(await getI18NProps(locale)),
-    },
+    props: { stigmataCatalog, ...(await getI18NProps(locale)) }
   }
+}
+
+function filterStigmata(weapon: StigmataCatalogItem) {
+  return true
+}
+
+function sortStigmata(a: StigmataCatalogItem, b: StigmataCatalogItem) {
+  let aId = parseInt(a.id)
+
+  let bId = parseInt(b.id)
+
+  return bId - aId
 }

@@ -1,90 +1,68 @@
 /** @jsxImportSource theme-ui */
-import { Box, Heading, Flex } from '@theme-ui/components'
-import Breadcrumb from '../../../components/organisms/Breadcrumb'
-import { listWeapons } from '../../../server/data/honkai3rd/weapons'
-import { pick } from 'ramda'
-import { useMemo } from 'react'
-import FilterButton from '../../../components/atoms/FilterButton'
-import { useRouter } from 'next/router'
-import { weaponCategories, WeaponData } from '../../../lib/honkai3rd/weapons'
-import WeaponCard from '../../../components/molecules/WeaponCard'
-import { getI18NProps } from '../../../server/i18n'
+import { Box, Card } from '@theme-ui/components'
 import { NextPageContext } from 'next'
-import { useTranslation, translate } from '../../../lib/i18n'
+import { Flex, Heading, Link } from 'theme-ui'
+import { loadWeaponCatalog } from '../../../lib/v2/server/loadData'
+import { WeaponCatalogItem } from '../../../lib/v2/data/types'
+import WeaponIcon from '../../../components/v2/WeaponIcon'
 import Head from '../../../components/atoms/Head'
 import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
-
-type WeaponListItemData = Pick<WeaponData, 'id' | 'name' | 'rarity' | 'category'>
+import { useTranslation } from 'next-i18next'
+import { getI18NProps } from '../../../server/i18n'
+import Breadcrumb from '../../../components/organisms/Breadcrumb'
 
 interface WeaponListPageProps {
-  weaponDataList: WeaponListItemData[]
+  weaponCatalog: WeaponCatalogItem[]
 }
 
-const weaponFilterOptions = [{ value: 'all', label: 'All', krLabel: '전체', icon: undefined }, ...weaponCategories]
-
-const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
-  const { query, locale } = useRouter()
+const WeaponListPage = ({ weaponCatalog }: WeaponListPageProps) => {
   const { t } = useTranslation()
-
-  const categoryFilter = useMemo(() => {
-    if (query.category == null) {
-      return 'all'
-    }
-
-    return typeof query.category === 'string' ? query.category : query.category[0]
-  }, [query])
-
-  const weaponList = useMemo(() => {
-    return weaponDataList.map(weapon => {
-      const hidden = isWeaponHidden(weapon, categoryFilter)
-      return <WeaponCard key={weapon.id} weapon={weapon} hidden={hidden} />
-    })
-  }, [weaponDataList, categoryFilter])
-
   return (
     <Honkai3rdLayout>
-      <Box>
-        <Head
-          title={`${t('common.weapons')} - ${t('common.honkai-3rd')} - ${t('common.abyss-lab')}`}
-          description={t('weapons-list.description')}
-          canonicalHref={`/honkai3rd/weapons`}
+      <Head
+        title={`${t('common.weapons')} - ${t('common.honkai-3rd')} - ${t('common.abyss-lab')}`}
+        description={t('weapons-list.description')}
+        canonicalHref={`/honkai3rd/v2/weapons`}
+      />
+      <Box p={2}>
+        <Breadcrumb
+          items={[
+            { href: '/honkai3rd', label: t('common.honkai-3rd') },
+            { href: '/honkai3rd/v2/weapons', label: t('common.weapons') }
+          ]}
         />
-
-        <Box p={3}>
-          <Breadcrumb
-            items={[
-              { href: '/honkai3rd', label: t('common.honkai-3rd') },
-              { href: '/honkai3rd/weapons', label: t('common.weapons') }
-            ]}
-          />
-
-          <Heading as="h1">{t('weapons-list.weapons')}</Heading>
-          <Box>
-            <Heading as="h3">{t('weapons-list.filter-by-category')}</Heading>
-            <Flex mb={2} sx={{ flexWrap: 'wrap' }}>
-              {weaponFilterOptions.map(({ value, label, krLabel, icon }) => {
-                return (
-                  <FilterButton
-                    key={value}
-                    href={`?category=${value}`}
-                    active={value === categoryFilter}
-                    icon={icon}
-                    label={translate(locale, { 'ko-KR': krLabel }, label)}
-                    m={1}
-                  />
-                )
-              })}
-            </Flex>
-          </Box>
-          <Flex
-            sx={{
-              flexWrap: 'wrap',
-              justifyContent: 'space-around'
-            }}
-          >
-            {weaponList}
-          </Flex>
-        </Box>
+        <Heading as="h1">{t('common.weapons')}</Heading>
+        <Flex sx={{ flexWrap: 'wrap' }}>
+          {weaponCatalog
+            .filter(filterWeapons)
+            .sort(sortWeapons)
+            .map(weapon => {
+              return (
+                <Box key={weapon.id} m={1}>
+                  <Link href={`/honkai3rd/v2/weapons/${weapon.id}`}>
+                    <Card p={1}>
+                      <Flex sx={{ justifyContent: 'center' }}>
+                        <WeaponIcon icon={weapon.icon} rarity={weapon.maxRarity} />
+                      </Flex>
+                      <Box
+                        sx={{
+                          overflow: 'hidden',
+                          textOverflow: 'ellipsis',
+                          whiteSpace: 'nowrap',
+                          px: 1,
+                          width: 112,
+                          textAlign: 'center'
+                        }}
+                      >
+                        {weapon.name}
+                      </Box>
+                      {/* {weapon.id} */}
+                    </Card>
+                  </Link>
+                </Box>
+              )
+            })}
+        </Flex>
       </Box>
     </Honkai3rdLayout>
   )
@@ -93,32 +71,76 @@ const WeaponListPage = ({ weaponDataList }: WeaponListPageProps) => {
 export default WeaponListPage
 
 export async function getStaticProps({ locale }: NextPageContext) {
+  const weaponCatalog = loadWeaponCatalog()
+
   return {
-    props: {
-      weaponDataList: listWeapons(locale).map(weapon => {
-        return pick(['name', 'id', 'rarity', 'category'], weapon)
-      }),
-      ...(await getI18NProps(locale))
-    }
+    props: { weaponCatalog, ...(await getI18NProps(locale)) }
   }
 }
 
-function isWeaponHidden(weapon: WeaponListItemData, filter: string): boolean {
-  switch (filter) {
-    case 'pistol':
-    case 'katana':
-    case 'cannon':
-    case 'greatsword':
-    case 'cross':
-    case 'gauntlet':
-    case 'scythe':
-    case 'lance':
-    case 'bow':
-    case 'chakram':
-    case 'javelin':
-      return weapon.category !== filter
-    default:
-    case 'all':
+function filterWeapons(weapon: WeaponCatalogItem) {
+  // Valid weapons
+  // 24XXX EX Weapons
+  // 21XXX Sprit Weapon
+  // 19XXX Alloy Weapons
+  // 10XXX Regular Weapons
+
+  // Event Weapon?
+  if (weapon.id.startsWith('18') && weapon.id.length === 5) {
+    return false
+  }
+  // Test Data?
+  if (weapon.id.startsWith('1023') && weapon.id.length === 6) {
+    return false
+  }
+  // Unreleased(Number looks good but lacking info)
+  switch (weapon.id) {
+    case '24000': // 2nd relic alpha
+    case '24040': // Removed 7 Thunders
+    case '24034': // PE Temp Lance
+    case '24024': // keqing ex
+    case '20765': // ?
+    case '10243': // No Name
+    case '10219': // ?
+    case '10179': // ?
       return false
   }
+
+  // Divine Keys
+  switch (weapon.id) {
+    case '20000': // Taixuan Sword
+    case '10248': // Abyss Flower
+    case '10267': // Eden's star anti entropy
+    case '10263': // 7 Thunders
+    case '10247': // Abyss
+    case '10235': // Fenghuang pistols
+    case '10234': // Fenghuang fists
+    case '10223': // Eden twin stars
+    case '10212': // Pledge of Sakura
+    case '10211': // Pledge of Judah
+    case '10209': // Might of an utu
+    case '10199': // Cleaver of Shamash
+    case '10163': // Shamash pistols
+      // The below don't have duplicated data
+      // case '10180': // Eden's star
+      // case '10169': // Taxiuan fists
+      // case '10158': // Jizo Mitama
+      return false
+  }
+
+  return true
+}
+
+function sortWeapons(a: WeaponCatalogItem, b: WeaponCatalogItem) {
+  let aId = parseInt(a.id)
+
+  const aTypeOrder = aId > 21000 && aId < 22000 ? 2 : aId > 19000 && aId < 20000 ? 1 : 0
+
+  let bId = parseInt(b.id)
+  const bTypeOrder = bId > 21000 && bId < 22000 ? 2 : bId > 19000 && bId < 20000 ? 1 : 0
+  if (aTypeOrder !== bTypeOrder) {
+    return aTypeOrder - bTypeOrder
+  }
+
+  return bId - aId
 }

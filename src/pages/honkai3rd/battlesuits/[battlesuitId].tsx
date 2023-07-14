@@ -1,213 +1,162 @@
-/** @jsxImportSource theme-ui */
-import { Box, Card, Flex, Heading, Paragraph, Text, Image } from '@theme-ui/components'
 import { NextPageContext } from 'next'
-import React from 'react'
-import BattlesuitFeatureLabel from '../../../components/atoms/BattlesuitFeatureLabel'
-import BattlesuitRankIcon from '../../../components/atoms/BattlesuitRankIcon'
-import PageLink from '../../../components/atoms/PageLink'
-import SecondaryLabel from '../../../components/atoms/SecondaryLabel'
-import TypeLabel from '../../../components/atoms/TypeLabel'
-import ValkyrieLabel from '../../../components/atoms/ValkyrieLabel'
-import Breadcrumb from '../../../components/organisms/Breadcrumb'
+import { Box, Card, Flex, Heading } from 'theme-ui'
+import AttributeIcon from '../../../components/v2/AttributeIcon'
+import AvatarFigureImage from '../../../components/v2/AvatarFigureImage'
+import AvatarSkillIcon from '../../../components/v2/AvatarSkillIcon'
+import AvatarSubSkillIcon from '../../../components/v2/AvatarSubSkillIcon'
+import BattlesuitAvatarIcon from '../../../components/v2/BattlesuitAvatarIcon'
+import FormattedText from '../../../components/v2/FormattedText'
+import { formatSkillInfo, formatSubSkillInfo } from '../../../lib/v2/data/formatText'
+import { loadBattlesuitCatalog, loadBattlesuitData } from '../../../lib/v2/server/loadData'
+import { Battlesuit, SkillTagItem } from '../../../lib/v2/data/types'
+import { Fragment } from 'react'
+import TagIcon from '../../../components/v2/TagIcon'
 import {
-  BattlesuitData,
-  battlesuitFeatures,
-  BattlesuitSkillGroup,
-  battlesuitTypes,
-  valkyries
-} from '../../../lib/honkai3rd/battlesuits'
-import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
-import { getBattlesuitById, listBattlesuits } from '../../../server/data/honkai3rd/battlesuits'
-import { translate, useTranslation } from '../../../lib/i18n'
-import { useRouter } from 'next/router'
-import Head from '../../../components/atoms/Head'
-import { capitalize } from '../../../lib/string'
-import { assetsBucketBaseUrl } from '../../../lib/consts'
+  getAttributeLabel,
+  getCharacterTypeLabel,
+  getSkillTypeLabel,
+  getTagTypeLabel,
+  getWeaponTypeLabel
+} from '../../../lib/v2/data/text'
+import StarIcon from '../../../components/v2/StarIcon'
+import ChibiIcon from '../../../components/v2/ChibiIcon'
+import WeaponTypeIcon from '../../../components/v2/WeaponTypeIcon'
+import { sortBattlesuitSkill } from '../../../lib/v2/data/utils'
 import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
-import { WeaponData } from '../../../lib/honkai3rd/weapons'
-import { getWeaponMapByIds } from '../../../server/data/honkai3rd/weapons'
-import { StigmataData } from '../../../lib/honkai3rd/stigmata'
-import WeaponCard from '../../../components/molecules/WeaponCard'
-import StigmataCard from '../../../components/molecules/StigmataCard'
-import { getStigmataMapByIds } from '../../../server/data/honkai3rd/stigmata'
-
-type WeaponObjectMap = { [key: string]: WeaponData }
-type StigmataObjectMap = { [key: string]: StigmataData }
+import { getI18NProps } from '../../../server/i18n'
+import Head from '../../../components/atoms/Head'
+import { useTranslation } from 'next-i18next'
 
 interface BattlesuitShowPageProps {
-  battlesuit: BattlesuitData
-  weaponMap: WeaponObjectMap
-  stigmataMap: StigmataObjectMap
+  battlesuit: Battlesuit
 }
 
-const BattlesuitShowPage = ({ battlesuit, weaponMap, stigmataMap }: BattlesuitShowPageProps) => {
+const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
   const { t } = useTranslation()
-  const { locale } = useRouter()
-
-  const { label: valkyrieLabel, krLabel } = valkyries.find(aValkyrie => aValkyrie.value === battlesuit.valkyrie) || {
-    label: battlesuit.valkyrie,
-    krLabel: battlesuit.valkyrie
-  }
-
-  const valkyrieName = translate(locale, { 'ko-KR': krLabel }, valkyrieLabel)
-
-  const battlesuitType = battlesuitTypes.find(aType => aType.value === battlesuit.type)
-  const battlesuitTypeLabel = battlesuitType
-    ? translate(locale, { 'ko-KR': battlesuitType.krLabel }, battlesuitType.label)
-    : capitalize(battlesuit.type)
-
   return (
     <Honkai3rdLayout>
       <Head
-        title={`${battlesuit.name} - ${t('common.honkai-3rd')} - ${t('common.abyss-lab')}`}
-        description={`${t('common.honkai-3rd')} ${t(
-          'battlesuit-show.battlesuit'
-        )} / ${valkyrieName} / ${battlesuitTypeLabel} / ${battlesuit.features
-          .map(feature => {
-            const featureData = battlesuitFeatures.find(aFeature => aFeature.value === feature)
-            if (featureData == null) {
-              return feature
-            }
-
-            const { label, krLabel } = featureData
-
-            return translate(locale, { 'ko-KR': krLabel }, label)
+        title={`${battlesuit.fullName} - ${t('common.honkai-3rd')} - ${t('common.abyss-lab')}`}
+        description={`${t('common.honkai-3rd')} ${t('battlesuit-show.battlesuit')} / ${battlesuit.fullName} / ${
+          battlesuit.attributeType
+        } / ${battlesuit.tags
+          .map(tag => {
+            return getTagTypeLabel(tag)
           })
           .join(', ')}`}
         canonicalHref={`/honkai3rd/battlesuits/${battlesuit.id}`}
       />
+      <Box p={2}>
+        <Heading as="h1">{battlesuit.fullName}</Heading>
 
-      <Box p={3}>
-        <Breadcrumb
-          items={[
-            { href: '/honkai3rd', label: t('common.honkai-3rd') },
-            {
-              href: '/honkai3rd/battlesuits',
-              label: t('common.battlesuits')
-            },
-            {
-              href: `/honkai3rd/battlesuits/${battlesuit.id}`,
-              label: battlesuit.name
-            }
-          ]}
-        />
-
-        <Heading as="h1">{battlesuit.name}</Heading>
+        <AvatarFigureImage battlesuitId={battlesuit.id} sx={{ height: 400 }} />
 
         <Box mb={3}>
-          <Box
-            sx={{
-              position: 'relative',
-              overflow: 'hidden',
-              width: '100%',
-              maxWidth: [300, 400]
-            }}
-          >
-            <Image
-              alt={battlesuit.name}
-              src={`${assetsBucketBaseUrl}/honkai3rd/battlesuits/${battlesuit.id}.png`}
-              width={400}
-              height={400}
-            />
-          </Box>
+          <BattlesuitAvatarIcon battlesuit={battlesuit} />
         </Box>
 
-        <Card
-          sx={{
-            overflow: 'hidden'
-          }}
-          mb={3}
-        >
-          <Box p={2} sx={{ borderBottom: 'default' }}>
-            <PageLink
-              href={{
-                pathname: '/honkai3rd/battlesuits',
-                query: { valkyrie: battlesuit.valkyrie }
-              }}
-            >
-              <ValkyrieLabel valkyrie={battlesuit.valkyrie} />
-            </PageLink>
-          </Box>
-          <Box p={2} sx={{ borderBottom: 'default' }}>
-            <PageLink
-              href={{
-                pathname: '/honkai3rd/battlesuits',
-                query: { valkyrie: battlesuit.type }
-              }}
-            >
-              <TypeLabel type={battlesuit.type} />
-            </PageLink>
-          </Box>
-          <Flex p={2} sx={{ flexWrap: 'wrap', rowGap: 1 }}>
-            {battlesuit.features.map(feature => {
+        <Card mb={3}>
+          <Flex sx={{ borderBottom: 'default', p: 1 }}>
+            <Flex sx={{ alignItems: 'center' }}>
+              <Box mr={2}>
+                <StarIcon star={battlesuit.initialStar} />
+              </Box>
+
+              <ChibiIcon id={battlesuit.character} />
+
+              <Box ml={1} mr={2}>
+                {getCharacterTypeLabel(battlesuit.character)}
+              </Box>
+
+              <AttributeIcon attributeType={battlesuit.attributeType} size={30} />
+              <Box ml={1} mr={2}>
+                {getAttributeLabel(battlesuit.attributeType)}
+              </Box>
+
+              <WeaponTypeIcon type={battlesuit.weapon} />
+              <Box ml={1}>{getWeaponTypeLabel(battlesuit.weapon)}</Box>
+            </Flex>
+          </Flex>
+          <Flex sx={{ p: 1 }}>
+            {battlesuit.tags.map(tag => {
               return (
-                <Box mr={2} key={feature}>
-                  <PageLink
-                    href={{
-                      pathname: '/honkai3rd/battlesuits',
-                      query: { feature: feature }
-                    }}
-                  >
-                    <BattlesuitFeatureLabel feature={feature} />
-                  </PageLink>
-                </Box>
+                <Flex key={tag} sx={{ mr: 2, alignItems: 'center' }}>
+                  <TagIcon type={tag} />
+                  <Box ml={1}>{getTagTypeLabel(tag)}</Box>
+                </Flex>
               )
             })}
           </Flex>
         </Card>
 
-        {battlesuit.equipment != null && (
-          <Card
-            sx={{
-              mb: 3,
-              p: 2,
-              overflow: 'hidden'
-            }}
-          >
-            {battlesuit.equipment.map(equipmentItem => {
-              return (
-                <Box key={equipmentItem.type}>
-                  <Heading
-                    as="h3"
-                    sx={{
-                      mb: 1
-                    }}
-                  >
-                    {t(`battlesuit-show.equipmentTypes.${equipmentItem.type}`)}
+        <Heading as="h2">Skills</Heading>
+        {battlesuit.skills.sort(sortBattlesuitSkill).map(skill => {
+          return (
+            <Card key={skill.id} mb={3}>
+              <Box sx={{ borderBottom: 'default', p: 1 }}>
+                <Flex sx={{ alignItems: 'center' }}>
+                  <AvatarSkillIcon icon={skill.icon} />
+                  <Heading as="h3" sx={{ ml: 1, mb: 0 }}>
+                    <FormattedText>{skill.name}</FormattedText>
                   </Heading>
-                  <Flex sx={{ mx: -1 }}>
-                    {equipmentItem.weapon != null && <WeaponCard size="sm" weapon={weaponMap[equipmentItem.weapon]} />}
-                    {equipmentItem.stigmataTop != null && (
-                      <StigmataCard size="sm" stigmata={stigmataMap[equipmentItem.stigmataTop]} />
-                    )}
-                    {equipmentItem.stigmataMid != null && (
-                      <StigmataCard size="sm" stigmata={stigmataMap[equipmentItem.stigmataMid]} />
-                    )}
-                    {equipmentItem.stigmataBot != null && (
-                      <StigmataCard size="sm" stigmata={stigmataMap[equipmentItem.stigmataBot]} />
-                    )}
-                  </Flex>
-                </Box>
-              )
-            })}
-          </Card>
-        )}
+                  {skill.tags.length > 0 && (
+                    <Flex sx={{ ml: 1 }}>
+                      {skill.tags.map((tag, index) => {
+                        return <SkillTagItem key={index} tag={tag} />
+                      })}
+                    </Flex>
+                  )}
+                </Flex>
 
-        <BattlesuitSkillGroupCard heading={t('battlesuit-show.leader')} skillGroup={battlesuit.leader} />
+                <Box>{getSkillTypeLabel(skill.skillType)}</Box>
+              </Box>
+              <Box sx={{ whiteSpace: 'pre-wrap', borderBottom: 'default', p: 1 }}>
+                <FormattedText>{formatSkillInfo(skill)}</FormattedText>
+              </Box>
 
-        <BattlesuitSkillGroupCard heading={t('battlesuit-show.passive')} skillGroup={battlesuit.passive} />
+              {skill.subSkills.map(subSkill => {
+                return (
+                  <Fragment key={subSkill.id}>
+                    <Box sx={{ borderBottom: 'default', p: 1 }}>
+                      <Flex sx={{ alignItems: 'center' }}>
+                        <AvatarSubSkillIcon icon={subSkill.icon} />
+                        <Heading as="h4" sx={{ ml: 1, mb: 0 }}>
+                          <FormattedText>{subSkill.name}</FormattedText>
+                        </Heading>
 
-        <BattlesuitSkillGroupCard heading={t('battlesuit-show.evasion')} skillGroup={battlesuit.evasion} />
+                        {subSkill.unlockStar.localeCompare(battlesuit.initialStar) > 0 && (
+                          <Box ml={2}>
+                            <StarIcon star={subSkill.unlockStar} />
+                          </Box>
+                        )}
 
-        <BattlesuitSkillGroupCard heading={t('battlesuit-show.special-attack')} skillGroup={battlesuit.special} />
+                        {subSkill.tags.length > 0 && (
+                          <Flex sx={{ ml: 2 }}>
+                            {subSkill.tags.map((tag, index) => {
+                              return <SkillTagItem key={index} tag={tag} />
+                            })}
+                          </Flex>
+                        )}
+                      </Flex>
+                    </Box>
 
-        <BattlesuitSkillGroupCard heading={t('battlesuit-show.ultimate')} skillGroup={battlesuit.ultimate} />
-
-        <BattlesuitSkillGroupCard heading={t('battlesuit-show.basic-attack')} skillGroup={battlesuit.basic} />
-
-        {battlesuit.sp != null && (
-          <BattlesuitSkillGroupCard heading={t('battlesuit-show.sp-skill')} skillGroup={battlesuit.sp} />
-        )}
+                    <Box
+                      sx={{
+                        whiteSpace: 'pre-wrap',
+                        borderBottom: 'default',
+                        '&:last-child': { borderBottom: 'none' },
+                        p: 1
+                      }}
+                    >
+                      <FormattedText>{formatSubSkillInfo(subSkill)}</FormattedText>
+                    </Box>
+                  </Fragment>
+                )
+              })}
+            </Card>
+          )
+        })}
+        {/* <pre>{JSON.stringify(battlesuit, null, 2)}</pre> */}
       </Box>
     </Honkai3rdLayout>
   )
@@ -215,103 +164,31 @@ const BattlesuitShowPage = ({ battlesuit, weaponMap, stigmataMap }: BattlesuitSh
 
 export default BattlesuitShowPage
 
-export async function getStaticProps({ params, locale }: NextPageContext & { params: { battlesuitId: string } }) {
-  const battlesuit = getBattlesuitById(params.battlesuitId, locale)!
-  const { weaponIds, stigmataIds } = (battlesuit.equipment || []).reduce<{
-    weaponIds: string[]
-    stigmataIds: string[]
-  }>(
-    (acc, equipmentItem) => {
-      acc.weaponIds.push(equipmentItem.weapon)
-      acc.stigmataIds.push(equipmentItem.stigmataTop, equipmentItem.stigmataMid, equipmentItem.stigmataBot)
-      return acc
-    },
-    { weaponIds: [], stigmataIds: [] }
-  )
-  const weaponMap = getWeaponMapByIds(weaponIds, locale)
-
-  const stigmataMap = getStigmataMapByIds(stigmataIds, locale)
+export async function getStaticProps({ locale, params }: NextPageContext & { params: { battlesuitId: string } }) {
+  const battlesuit = loadBattlesuitData(params.battlesuitId)
 
   return {
-    props: {
-      battlesuit,
-      weaponMap,
-      stigmataMap,
-      ...(await getI18NProps(locale))
-    }
+    props: { battlesuit, ...(await getI18NProps(locale)) }
   }
 }
 
 export async function getStaticPaths() {
+  const battlesuitCatalog = loadBattlesuitCatalog()
+
   return {
-    paths: generateI18NPaths(
-      listBattlesuits().map(battlesuit => {
-        return {
-          params: { battlesuitId: battlesuit.id }
-        }
-      })
-    ),
+    paths: battlesuitCatalog.map(catalogItem => {
+      return {
+        params: { battlesuitId: catalogItem.id }
+      }
+    }),
     fallback: false
   }
 }
 
-interface BattlesuitSkillGroupCardProps {
-  heading: string
-  skillGroup: BattlesuitSkillGroup
+interface SkillTagBoxProps {
+  tag: SkillTagItem
 }
 
-const BattlesuitSkillGroupCard = ({ heading, skillGroup }: BattlesuitSkillGroupCardProps) => {
-  return (
-    <Card mb={3}>
-      <Box
-        sx={{
-          p: 2,
-          borderBottom: 'default'
-        }}
-      >
-        <Heading as="h2" mb={1}>
-          {skillGroup.core.name}
-        </Heading>
-        <SecondaryLabel>{heading}</SecondaryLabel>
-      </Box>
-
-      <Paragraph p={2} sx={{ whiteSpace: 'pre-wrap', borderBottom: 'default' }}>
-        {skillGroup.core.description}
-      </Paragraph>
-
-      {skillGroup.subskills.map(subskill => {
-        return (
-          <React.Fragment key={subskill.name}>
-            <Heading as="h3" p={2} m={0} sx={{ borderBottom: 'default' }}>
-              <Flex sx={{ alignItems: 'center' }}>
-                <Text>{subskill.name}</Text>
-                {subskill.requiredRank != null ? (
-                  /^[0-9]/.test(subskill.requiredRank) ? (
-                    <Box ml={2} sx={{ height: 30, lineHeight: '30px', fontSize: 2 }}>
-                      ⭐{subskill.requiredRank.slice(0, 1)}
-                    </Box>
-                  ) : (
-                    <BattlesuitRankIcon rank={subskill.requiredRank} size={30} ml={2} />
-                  )
-                ) : (
-                  <Box sx={{ height: 30 }} />
-                )}
-              </Flex>
-            </Heading>
-
-            <Paragraph
-              p={2}
-              sx={{
-                whiteSpace: 'pre-wrap',
-                borderBottom: 'default',
-                '&:last-child': { borderBottom: 'none' }
-              }}
-            >
-              {subskill.description}
-            </Paragraph>
-          </React.Fragment>
-        )
-      })}
-    </Card>
-  )
+const SkillTagItem = ({ tag }: SkillTagBoxProps) => {
+  return <TagIcon type={tag.type} strength={tag.strength} comment={tag.comment} size="sm" />
 }

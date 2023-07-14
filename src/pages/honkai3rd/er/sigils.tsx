@@ -1,13 +1,13 @@
 import { NextPageContext } from 'next'
 import { useTranslation } from 'next-i18next'
 import { Box, Card, Flex, Heading } from 'theme-ui'
-import Head from '../../../../components/atoms/Head'
-import Honkai3rdLayout from '../../../../components/layouts/Honkai3rdLayout'
-import Breadcrumb from '../../../../components/organisms/Breadcrumb'
-import MaterialIcon from '../../../../components/v2/MaterialIcon'
-import { ErSigil } from '../../../../lib/v2/data/types'
-import { loadErSigils } from '../../../../lib/v2/server/loadData'
-import { getI18NProps } from '../../../../server/i18n'
+import Head from '../../../components/atoms/Head'
+import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
+import Breadcrumb from '../../../components/organisms/Breadcrumb'
+import MaterialIcon from '../../../components/v2/MaterialIcon'
+import { ErSigil } from '../../../lib/v2/data/types'
+import { loadErSigils } from '../../../lib/v2/server/loadData'
+import { getI18NProps } from '../../../server/i18n'
 
 interface SigilsPageProps {
   erSigils: ErSigil[]

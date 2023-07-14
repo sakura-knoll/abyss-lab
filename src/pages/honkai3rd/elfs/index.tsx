@@ -1,64 +1,61 @@
 /** @jsxImportSource theme-ui */
-import { Box, Heading, Flex } from '@theme-ui/components'
+import { Box, Card } from '@theme-ui/components'
 import { NextPageContext } from 'next'
-import { pick } from 'ramda'
-import ElfCard from '../../../components/molecules/ElfCard'
-import Breadcrumb from '../../../components/organisms/Breadcrumb'
-import { ElfData } from '../../../lib/honkai3rd/elfs'
-import { getI18NProps } from '../../../server/i18n'
-import { listElfs } from '../../../server/data/honkai3rd/elfs'
-import { useTranslation } from '../../../lib/i18n'
-import Head from '../../../components/atoms/Head'
-import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
+import { Flex, Link } from 'theme-ui'
+import { ElfCatalogItem } from '../../../lib/v2/data/types'
+import { loadElfCatalog } from '../../../lib/v2/server/loadData'
+import RarityBar from '../../../components/v2/RarityBar'
+import ElfIcon from '../../../components/v2/ElfIcon'
 
 interface ElfListPageProps {
-  elfs: Pick<ElfData, 'id' | 'name'>[]
+  elfs: ElfCatalogItem[]
 }
 
 const ElfListPage = ({ elfs }: ElfListPageProps) => {
-  const { t } = useTranslation()
-
   return (
-    <Honkai3rdLayout>
-      <Head
-        title={`${t('common.elfs')} - ${t('common.honkai-3rd')} - ${t(
-          'common.abyss-lab'
-        )}`}
-        description={t('elfs-list.description')}
-        canonicalHref={`/honkai3rd/elfs`}
-      />
-      <Box p={3}>
-        <Breadcrumb
-          items={[
-            { href: '/honkai3rd', label: t('common.honkai-3rd') },
-            { href: '/honkai3rd/elfs', label: t('common.elfs') },
-          ]}
-        />
+    <Box>
+      <h1>Elfs</h1>
+      <Flex sx={{ flexWrap: 'wrap' }}>
+        {elfs
+          .sort((a, b) => {
+            const aId = getId(a.id)
+            const bId = getId(b.id)
+            return bId - aId
 
-        <Heading as='h1'>{t('elfs-list.elfs')}</Heading>
-
-        <Flex
-          sx={{
-            flexWrap: 'wrap',
-            justifyContent: 'space-around',
-          }}
-        >
-          {elfs.map((elf) => {
-            return <ElfCard key={elf.id} elf={elf} />
+            function getId(id: string): number {
+              return parseInt(id)
+            }
+          })
+          .map(elf => {
+            return (
+              <Box key={elf.id} m={2}>
+                <Link href={`/v2-pre/elfs/${elf.id}`}>
+                  <Card p={1}>
+                    <Box>
+                      <ElfIcon icon={elf.cardIcon} />
+                      <RarityBar rarity={elf.rarity} />
+                    </Box>
+                    <Box
+                      sx={{ textAlign: 'center', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}
+                    >
+                      {elf.fullName}
+                    </Box>
+                  </Card>
+                </Link>
+              </Box>
+            )
           })}
-        </Flex>
-      </Box>
-    </Honkai3rdLayout>
+      </Flex>
+    </Box>
   )
 }
 
 export default ElfListPage
 
 export async function getStaticProps({ locale }: NextPageContext) {
+  const elfs = loadElfCatalog()
+
   return {
-    props: {
-      elfs: listElfs(locale).map((elf) => pick(['id', 'name', 'krName'], elf)),
-      ...(await getI18NProps(locale)),
-    },
+    props: { elfs }
   }
 }

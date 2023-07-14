@@ -3,14 +3,14 @@ import { Box, Card, Heading } from '@theme-ui/components'
 import { NextPageContext } from 'next'
 import { Flex, Link } from 'theme-ui'
 
-import { StigmataSetCatalogItem } from '../../../../lib/v2/data/types'
-import { loadStigmataSetCatalog } from '../../../../lib/v2/server/loadData'
-import StigmaIcon from '../../../../components/v2/StigmaIcon'
-import Honkai3rdLayout from '../../../../components/layouts/Honkai3rdLayout'
-import Head from '../../../../components/atoms/Head'
+import { StigmataSetCatalogItem } from '../../../lib/v2/data/types'
+import { loadStigmataSetCatalog } from '../../../lib/v2/server/loadData'
+import StigmaIcon from '../../../components/v2/StigmaIcon'
+import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
+import Head from '../../../components/atoms/Head'
 import { useTranslation } from 'next-i18next'
-import { getI18NProps } from '../../../../server/i18n'
-import Breadcrumb from '../../../../components/organisms/Breadcrumb'
+import { getI18NProps } from '../../../server/i18n'
+import Breadcrumb from '../../../components/organisms/Breadcrumb'
 
 interface StigmataSetListPageProps {
   stigmataSetCatalog: StigmataSetCatalogItem[]

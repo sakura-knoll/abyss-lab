@@ -6,20 +6,20 @@ import {
   loadErBattlesuitCatalog,
   loadErSigils,
   loadErSupports
-} from '../../../../lib/v2/server/loadData'
-import { BattlesuitCatalogItem, ErBattlesuitCatalogItem } from '../../../../lib/v2/data/types'
+} from '../../../lib/v2/server/loadData'
+import { BattlesuitCatalogItem, ErBattlesuitCatalogItem } from '../../../lib/v2/data/types'
 import { useMemo } from 'react'
-import BattlesuitCatalogItemCard from '../../../../components/v2/BattlesuitCatalogItemCard'
-import { assetsBucketBaseUrl } from '../../../../lib/consts'
-import SquareImage from '../../../../components/v2/SquareImage'
-import { signetGroups } from '../../../../lib/v2/data/er'
-import BattlesuitSmallIcon from '../../../../components/v2/BattlesuitSmallIcon'
-import MaterialIcon from '../../../../components/v2/MaterialIcon'
-import Honkai3rdLayout from '../../../../components/layouts/Honkai3rdLayout'
-import Head from '../../../../components/atoms/Head'
-import Breadcrumb from '../../../../components/organisms/Breadcrumb'
+import BattlesuitCatalogItemCard from '../../../components/v2/BattlesuitCatalogItemCard'
+import { assetsBucketBaseUrl } from '../../../lib/consts'
+import SquareImage from '../../../components/v2/SquareImage'
+import { signetGroups } from '../../../lib/v2/data/er'
+import BattlesuitSmallIcon from '../../../components/v2/BattlesuitSmallIcon'
+import MaterialIcon from '../../../components/v2/MaterialIcon'
+import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
+import Head from '../../../components/atoms/Head'
+import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import { useTranslation } from 'next-i18next'
-import { getI18NProps } from '../../../../server/i18n'
+import { getI18NProps } from '../../../server/i18n'
 
 interface ErPageProps {
   erBattlesuitCatalog: ErBattlesuitCatalogItem[]
