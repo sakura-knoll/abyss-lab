@@ -68,7 +68,7 @@ export function replaceNewLine(value: string) {
   if (value == null) {
     return ''
   }
-  return value.replace(/\\n/g, '\n')
+  return value.replace(/\\n/g, '\n').trim()
 }
 
 function convertToPercentage(value: number) {

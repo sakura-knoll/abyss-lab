@@ -22,125 +22,143 @@ import StarIcon from '../../../../components/v2/StarIcon'
 import ChibiIcon from '../../../../components/v2/ChibiIcon'
 import WeaponTypeIcon from '../../../../components/v2/WeaponTypeIcon'
 import { sortBattlesuitSkill } from '../../../../lib/v2/data/utils'
+import Honkai3rdLayout from '../../../../components/layouts/Honkai3rdLayout'
+import { getI18NProps } from '../../../../server/i18n'
+import Head from '../../../../components/atoms/Head'
+import { useTranslation } from 'next-i18next'
 
 interface BattlesuitShowPageProps {
   battlesuit: Battlesuit
 }
 
 const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
+  const { t } = useTranslation()
   return (
-    <Box>
-      <Heading as="h1">{battlesuit.fullName}</Heading>
+    <Honkai3rdLayout>
+      <Head
+        title={`${battlesuit.fullName} - ${t('common.honkai-3rd')} - ${t('common.abyss-lab')}`}
+        description={`${t('common.honkai-3rd')} ${t('battlesuit-show.battlesuit')} / ${battlesuit.fullName} / ${
+          battlesuit.attributeType
+        } / ${battlesuit.tags
+          .map(tag => {
+            return getTagTypeLabel(tag)
+          })
+          .join(', ')}`}
+        canonicalHref={`/honkai3rd/battlesuits/${battlesuit.id}`}
+      />
+      <Box p={2}>
+        <Heading as="h1">{battlesuit.fullName}</Heading>
 
-      <AvatarFigureImage battlesuitId={battlesuit.id} sx={{ height: 400 }} />
+        <AvatarFigureImage battlesuitId={battlesuit.id} sx={{ height: 400 }} />
 
-      <Box mb={3}>
-        <BattlesuitAvatarIcon battlesuit={battlesuit} />
-      </Box>
+        <Box mb={3}>
+          <BattlesuitAvatarIcon battlesuit={battlesuit} />
+        </Box>
 
-      <Card mb={3}>
-        <Flex sx={{ borderBottom: 'default', p: 1 }}>
-          <Flex sx={{ alignItems: 'center' }}>
-            <Box mr={2}>
-              <StarIcon star={battlesuit.initialStar} />
-            </Box>
+        <Card mb={3}>
+          <Flex sx={{ borderBottom: 'default', p: 1 }}>
+            <Flex sx={{ alignItems: 'center' }}>
+              <Box mr={2}>
+                <StarIcon star={battlesuit.initialStar} />
+              </Box>
 
-            <ChibiIcon id={battlesuit.character} />
+              <ChibiIcon id={battlesuit.character} />
 
-            <Box ml={1} mr={2}>
-              {getCharacterTypeLabel(battlesuit.character)}
-            </Box>
+              <Box ml={1} mr={2}>
+                {getCharacterTypeLabel(battlesuit.character)}
+              </Box>
 
-            <AttributeIcon attributeType={battlesuit.attributeType} size={30} />
-            <Box ml={1} mr={2}>
-              {getAttributeLabel(battlesuit.attributeType)}
-            </Box>
+              <AttributeIcon attributeType={battlesuit.attributeType} size={30} />
+              <Box ml={1} mr={2}>
+                {getAttributeLabel(battlesuit.attributeType)}
+              </Box>
 
-            <WeaponTypeIcon type={battlesuit.weapon} />
-            <Box ml={1}>{getWeaponTypeLabel(battlesuit.weapon)}</Box>
+              <WeaponTypeIcon type={battlesuit.weapon} />
+              <Box ml={1}>{getWeaponTypeLabel(battlesuit.weapon)}</Box>
+            </Flex>
           </Flex>
-        </Flex>
-        <Flex sx={{ p: 1 }}>
-          {battlesuit.tags.map(tag => {
-            return (
-              <Flex key={tag} sx={{ mr: 2, alignItems: 'center' }}>
-                <TagIcon type={tag} />
-                <Box ml={1}>{getTagTypeLabel(tag)}</Box>
-              </Flex>
-            )
-          })}
-        </Flex>
-      </Card>
-
-      <Heading as="h2">Skills</Heading>
-      {battlesuit.skills.sort(sortBattlesuitSkill).map(skill => {
-        return (
-          <Card key={skill.id} mb={3}>
-            <Box sx={{ borderBottom: 'default', p: 1 }}>
-              <Flex sx={{ alignItems: 'center' }}>
-                <AvatarSkillIcon icon={skill.icon} />
-                <Heading as="h3" sx={{ ml: 1, mb: 0 }}>
-                  <FormattedText>{skill.name}</FormattedText>
-                </Heading>
-                {skill.tags.length > 0 && (
-                  <Flex sx={{ ml: 1 }}>
-                    {skill.tags.map((tag, index) => {
-                      return <SkillTagItem key={index} tag={tag} />
-                    })}
-                  </Flex>
-                )}
-              </Flex>
-
-              <Box>{getSkillTypeLabel(skill.skillType)}</Box>
-            </Box>
-            <Box sx={{ whiteSpace: 'pre-wrap', borderBottom: 'default', p: 1 }}>
-              <FormattedText>{formatSkillInfo(skill)}</FormattedText>
-            </Box>
-
-            {skill.subSkills.map(subSkill => {
+          <Flex sx={{ p: 1 }}>
+            {battlesuit.tags.map(tag => {
               return (
-                <Fragment key={subSkill.id}>
-                  <Box sx={{ borderBottom: 'default', p: 1 }}>
-                    <Flex sx={{ alignItems: 'center' }}>
-                      <AvatarSubSkillIcon icon={subSkill.icon} />
-                      <Heading as="h4" sx={{ ml: 1, mb: 0 }}>
-                        <FormattedText>{subSkill.name}</FormattedText>
-                      </Heading>
-
-                      {subSkill.unlockStar.localeCompare(battlesuit.initialStar) > 0 && (
-                        <Box ml={2}>
-                          <StarIcon star={subSkill.unlockStar} />
-                        </Box>
-                      )}
-
-                      {subSkill.tags.length > 0 && (
-                        <Flex sx={{ ml: 2 }}>
-                          {subSkill.tags.map((tag, index) => {
-                            return <SkillTagItem key={index} tag={tag} />
-                          })}
-                        </Flex>
-                      )}
-                    </Flex>
-                  </Box>
-
-                  <Box
-                    sx={{
-                      whiteSpace: 'pre-wrap',
-                      borderBottom: 'default',
-                      '&:last-child': { borderBottom: 'none' },
-                      p: 1
-                    }}
-                  >
-                    <FormattedText>{formatSubSkillInfo(subSkill)}</FormattedText>
-                  </Box>
-                </Fragment>
+                <Flex key={tag} sx={{ mr: 2, alignItems: 'center' }}>
+                  <TagIcon type={tag} />
+                  <Box ml={1}>{getTagTypeLabel(tag)}</Box>
+                </Flex>
               )
             })}
-          </Card>
-        )
-      })}
-      {/* <pre>{JSON.stringify(battlesuit, null, 2)}</pre> */}
-    </Box>
+          </Flex>
+        </Card>
+
+        <Heading as="h2">Skills</Heading>
+        {battlesuit.skills.sort(sortBattlesuitSkill).map(skill => {
+          return (
+            <Card key={skill.id} mb={3}>
+              <Box sx={{ borderBottom: 'default', p: 1 }}>
+                <Flex sx={{ alignItems: 'center' }}>
+                  <AvatarSkillIcon icon={skill.icon} />
+                  <Heading as="h3" sx={{ ml: 1, mb: 0 }}>
+                    <FormattedText>{skill.name}</FormattedText>
+                  </Heading>
+                  {skill.tags.length > 0 && (
+                    <Flex sx={{ ml: 1 }}>
+                      {skill.tags.map((tag, index) => {
+                        return <SkillTagItem key={index} tag={tag} />
+                      })}
+                    </Flex>
+                  )}
+                </Flex>
+
+                <Box>{getSkillTypeLabel(skill.skillType)}</Box>
+              </Box>
+              <Box sx={{ whiteSpace: 'pre-wrap', borderBottom: 'default', p: 1 }}>
+                <FormattedText>{formatSkillInfo(skill)}</FormattedText>
+              </Box>
+
+              {skill.subSkills.map(subSkill => {
+                return (
+                  <Fragment key={subSkill.id}>
+                    <Box sx={{ borderBottom: 'default', p: 1 }}>
+                      <Flex sx={{ alignItems: 'center' }}>
+                        <AvatarSubSkillIcon icon={subSkill.icon} />
+                        <Heading as="h4" sx={{ ml: 1, mb: 0 }}>
+                          <FormattedText>{subSkill.name}</FormattedText>
+                        </Heading>
+
+                        {subSkill.unlockStar.localeCompare(battlesuit.initialStar) > 0 && (
+                          <Box ml={2}>
+                            <StarIcon star={subSkill.unlockStar} />
+                          </Box>
+                        )}
+
+                        {subSkill.tags.length > 0 && (
+                          <Flex sx={{ ml: 2 }}>
+                            {subSkill.tags.map((tag, index) => {
+                              return <SkillTagItem key={index} tag={tag} />
+                            })}
+                          </Flex>
+                        )}
+                      </Flex>
+                    </Box>
+
+                    <Box
+                      sx={{
+                        whiteSpace: 'pre-wrap',
+                        borderBottom: 'default',
+                        '&:last-child': { borderBottom: 'none' },
+                        p: 1
+                      }}
+                    >
+                      <FormattedText>{formatSubSkillInfo(subSkill)}</FormattedText>
+                    </Box>
+                  </Fragment>
+                )
+              })}
+            </Card>
+          )
+        })}
+        {/* <pre>{JSON.stringify(battlesuit, null, 2)}</pre> */}
+      </Box>
+    </Honkai3rdLayout>
   )
 }
 
@@ -150,7 +168,7 @@ export async function getStaticProps({ locale, params }: NextPageContext & { par
   const battlesuit = loadBattlesuitData(params.battlesuitId)
 
   return {
-    props: { battlesuit }
+    props: { battlesuit, ...(await getI18NProps(locale)) }
   }
 }
 

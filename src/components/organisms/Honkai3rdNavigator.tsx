@@ -1,16 +1,7 @@
 /** @jsxImportSource theme-ui */
 import { mdiClose, mdiMenuSwap } from '@mdi/js'
 import Icon from '@mdi/react'
-import {
-  NavLink,
-  Heading,
-  Text,
-  Box,
-  Flex,
-  IconButton,
-  Switch,
-  Label,
-} from '@theme-ui/components'
+import { NavLink, Heading, Text, Box, Flex, IconButton, Switch, Label } from '@theme-ui/components'
 import NextLink from 'next/link'
 import { useRouter } from 'next/router'
 import { useColorMode } from 'theme-ui'
@@ -30,7 +21,7 @@ const Honkai3rdNavigator = ({ close }: Honkai3rdNavigatorProps) => {
   return (
     <Box
       sx={{
-        p: 2,
+        p: 2
       }}
     >
       <Flex
@@ -40,38 +31,32 @@ const Honkai3rdNavigator = ({ close }: Honkai3rdNavigatorProps) => {
           top: 0,
           height: 50,
           ml: -2,
-          mt: -2,
+          mt: -2
         }}
       >
         <IconButton sx={{ width: 50, height: 50 }} onClick={close}>
           <Icon path={mdiClose} size={1} />
         </IconButton>
       </Flex>
-      <NextLink href='/' passHref>
+      <NextLink href="/" passHref>
         <NavLink mb={2}>Abyss Lab</NavLink>
       </NextLink>
       <Heading mb={3}>
-        <NextLink href='/honkai3rd' passHref>
+        <NextLink href="/honkai3rd" passHref>
           <NavLink>{t('common.honkai-3rd')}</NavLink>
         </NextLink>
       </Heading>
 
       <Box sx={{ mb: 3 }}>
-        <NavItem target='versions' />
-        <NavItem target='battlesuits' />
-        <NavItem target='weapons' />
-        <NavItem target='stigmata' />
-        <NavItem target='elfs' />
-        <NavItem target='elysian-realm' />
-        <NavItem target='media' />
+        <NavItem target="battlesuits" />
+        <NavItem target="weapons" />
+        <NavItem target="stigmata" />
+        <NavItem target="elfs" />
+        <NavItem target="elysian-realm" />
+        <NavItem target="media" />
       </Box>
 
-      <NextLink
-        href={{ pathname, query }}
-        locale={locale === 'en-US' ? 'ko-KR' : 'en-US'}
-        as={asPath}
-        passHref
-      >
+      <NextLink href={{ pathname, query }} locale={locale === 'en-US' ? 'ko-KR' : 'en-US'} as={asPath} passHref>
         <NavLink
           sx={{
             overflow: 'hidden',
@@ -80,11 +65,11 @@ const Honkai3rdNavigator = ({ close }: Honkai3rdNavigatorProps) => {
             display: 'flex',
             alignItems: 'center',
             px: 2,
-            mb: 2,
+            mb: 2
           }}
         >
           <Text>{locale === 'en-US' ? '🇺🇸 English(US)' : '🇰🇷 한국어'}</Text>
-          <Icon path={mdiMenuSwap} size='20px' />
+          <Icon path={mdiMenuSwap} size="20px" />
         </NavLink>
       </NextLink>
       <Box>
@@ -93,23 +78,23 @@ const Honkai3rdNavigator = ({ close }: Honkai3rdNavigatorProps) => {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'left',
-            mb: 2,
+            mb: 2
           }}
         >
           <Box>
             <Switch
               checked={colorMode === 'dark'}
-              onChange={(event) => {
+              onChange={event => {
                 setColorMode(event.target.checked ? 'dark' : 'default')
               }}
               sx={{
                 width: 50,
                 'input ~ &': {
-                  backgroundColor: 'muted',
+                  backgroundColor: 'muted'
                 },
                 'input:checked ~ &': {
-                  backgroundColor: 'primary',
-                },
+                  backgroundColor: 'primary'
+                }
               }}
             />
           </Box>
@@ -122,28 +107,22 @@ const Honkai3rdNavigator = ({ close }: Honkai3rdNavigatorProps) => {
 
 export default Honkai3rdNavigator
 
+type NavItemTarget = 'battlesuits' | 'stigmata' | 'weapons' | 'elfs' | 'elysian-realm' | 'media'
 interface NavItemProps {
-  target:
-    | 'versions'
-    | 'battlesuits'
-    | 'stigmata'
-    | 'weapons'
-    | 'elfs'
-    | 'elysian-realm'
-    | 'media'
+  target: NavItemTarget
 }
 
 const NavItem = ({ target }: NavItemProps) => {
   const { t } = useTranslation()
   return (
-    <NextLink href={`/honkai3rd/${target}`} passHref>
+    <NextLink href={getHref(target)} passHref>
       <NavLink
         sx={{
           fontFamily: 'monospace',
           display: 'flex',
           alignItems: 'center',
           overflow: 'hidden',
-          p: 1,
+          p: 1
         }}
       >
         <SquareImageBox size={30} mr={1} src={getIconByTarget(target)} />
@@ -151,7 +130,7 @@ const NavItem = ({ target }: NavItemProps) => {
           sx={{
             overflow: 'hidden',
             textOverflow: 'ellipsis',
-            whiteSpace: 'nowrap',
+            whiteSpace: 'nowrap'
           }}
         >
           {t(`common.${target}`)}
@@ -170,4 +149,18 @@ function getIconByTarget(target: string) {
     default:
       return `${assetsBucketBaseUrl}/honkai3rd/nav-icons/${target}.png`
   }
+}
+
+function getHref(target: NavItemTarget) {
+  switch (target) {
+    case 'battlesuits':
+    case 'weapons':
+    case 'elfs':
+      return `/honkai3rd/v2/${target}`
+    case 'stigmata':
+      return '/honkai3rd/v2/stigmata-sets'
+    case 'elysian-realm':
+      return '/honkai3rd/v2/er'
+  }
+  return `/honkai3rd/${target}`
 }

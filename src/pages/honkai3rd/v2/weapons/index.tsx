@@ -1,51 +1,70 @@
 /** @jsxImportSource theme-ui */
 import { Box, Card } from '@theme-ui/components'
 import { NextPageContext } from 'next'
-import { Flex, Link } from 'theme-ui'
+import { Flex, Heading, Link } from 'theme-ui'
 import { loadWeaponCatalog } from '../../../../lib/v2/server/loadData'
 import { WeaponCatalogItem } from '../../../../lib/v2/data/types'
 import WeaponIcon from '../../../../components/v2/WeaponIcon'
+import Head from '../../../../components/atoms/Head'
+import Honkai3rdLayout from '../../../../components/layouts/Honkai3rdLayout'
+import { useTranslation } from 'next-i18next'
+import { getI18NProps } from '../../../../server/i18n'
+import Breadcrumb from '../../../../components/organisms/Breadcrumb'
 
 interface WeaponListPageProps {
   weaponCatalog: WeaponCatalogItem[]
 }
 
 const WeaponListPage = ({ weaponCatalog }: WeaponListPageProps) => {
+  const { t } = useTranslation()
   return (
-    <Box>
-      <h1>Weapons</h1>
-      <Flex sx={{ flexWrap: 'wrap' }}>
-        {weaponCatalog
-          .filter(filterWeapons)
-          .sort(sortWeapons)
-          .map(weapon => {
-            return (
-              <Box key={weapon.id} m={2}>
-                <Link href={`/v2-pre/weapons/${weapon.id}`}>
-                  <Card p={1}>
-                    <Flex sx={{ justifyContent: 'center' }}>
-                      <WeaponIcon icon={weapon.icon} rarity={weapon.maxRarity} />
-                    </Flex>
-                    <Box
-                      sx={{
-                        overflow: 'hidden',
-                        textOverflow: 'ellipsis',
-                        whiteSpace: 'nowrap',
-                        px: 1,
-                        width: 112,
-                        textAlign: 'center'
-                      }}
-                    >
-                      {weapon.name}
-                    </Box>
-                    {/* {weapon.id} */}
-                  </Card>
-                </Link>
-              </Box>
-            )
-          })}
-      </Flex>
-    </Box>
+    <Honkai3rdLayout>
+      <Head
+        title={`${t('common.weapons')} - ${t('common.honkai-3rd')} - ${t('common.abyss-lab')}`}
+        description={t('weapons-list.description')}
+        canonicalHref={`/honkai3rd/v2/weapons`}
+      />
+      <Box p={2}>
+        <Breadcrumb
+          items={[
+            { href: '/honkai3rd', label: t('common.honkai-3rd') },
+            { href: '/honkai3rd/v2/weapons', label: t('common.weapons') }
+          ]}
+        />
+        <Heading as="h1">{t('common.weapons')}</Heading>
+        <Flex sx={{ flexWrap: 'wrap' }}>
+          {weaponCatalog
+            .filter(filterWeapons)
+            .sort(sortWeapons)
+            .map(weapon => {
+              return (
+                <Box key={weapon.id} m={1}>
+                  <Link href={`/honkai3rd/v2/weapons/${weapon.id}`}>
+                    <Card p={1}>
+                      <Flex sx={{ justifyContent: 'center' }}>
+                        <WeaponIcon icon={weapon.icon} rarity={weapon.maxRarity} />
+                      </Flex>
+                      <Box
+                        sx={{
+                          overflow: 'hidden',
+                          textOverflow: 'ellipsis',
+                          whiteSpace: 'nowrap',
+                          px: 1,
+                          width: 112,
+                          textAlign: 'center'
+                        }}
+                      >
+                        {weapon.name}
+                      </Box>
+                      {/* {weapon.id} */}
+                    </Card>
+                  </Link>
+                </Box>
+              )
+            })}
+        </Flex>
+      </Box>
+    </Honkai3rdLayout>
   )
 }
 
@@ -55,7 +74,7 @@ export async function getStaticProps({ locale }: NextPageContext) {
   const weaponCatalog = loadWeaponCatalog()
 
   return {
-    props: { weaponCatalog }
+    props: { weaponCatalog, ...(await getI18NProps(locale)) }
   }
 }
 

@@ -1,10 +1,16 @@
 import { NextPageContext } from 'next'
-import { Box, Card, Flex, Heading, Image } from 'theme-ui'
+import { Box, Card, Flex, Heading, Image, Link } from 'theme-ui'
 import AvatarFigureImage from '../../../../../components/v2/AvatarFigureImage'
 import { loadBattlesuitData, loadErBattlesuit, loadErBattlesuitCatalog } from '../../../../../lib/v2/server/loadData'
 import { Battlesuit, ErBattlesuit, ErSignet } from '../../../../../lib/v2/data/types'
 import { Fragment, useMemo } from 'react'
 import { assetsBucketBaseUrl } from '../../../../../lib/consts'
+import BattlesuitCatalogItemCard from '../../../../../components/v2/BattlesuitCatalogItemCard'
+import Honkai3rdLayout from '../../../../../components/layouts/Honkai3rdLayout'
+import Head from '../../../../../components/atoms/Head'
+import { useTranslation } from 'next-i18next'
+import Breadcrumb from '../../../../../components/organisms/Breadcrumb'
+import { getI18NProps } from '../../../../../server/i18n'
 
 interface BattlesuitShowPageProps {
   battlesuit: Battlesuit
@@ -12,6 +18,8 @@ interface BattlesuitShowPageProps {
 }
 
 const BattlesuitShowPage = ({ battlesuit, erBattlesuit }: BattlesuitShowPageProps) => {
+  const { t } = useTranslation()
+
   const signetSets = useMemo(() => {
     const signetSetMap = erBattlesuit.signets
       .slice()
@@ -36,57 +44,89 @@ const BattlesuitShowPage = ({ battlesuit, erBattlesuit }: BattlesuitShowPageProp
   }, [erBattlesuit.signets])
 
   return (
-    <Box>
-      <Heading as="h1">{battlesuit.fullName}</Heading>
+    <Honkai3rdLayout>
+      <Head
+        title={`${battlesuit.fullName} (${t('common.elysian-realm')}) - ${t('common.honkai-3rd')} - ${t(
+          'common.abyss-lab'
+        )}`}
+        description={`${t('common.honkai-3rd')} ${t('common.elysian-realm')} ${t('battlesuit-show.battlesuit')}`}
+        canonicalHref={`/honkai3rd/v2/er/battlesuits/${battlesuit.id}`}
+      />
 
-      <AvatarFigureImage battlesuitId={battlesuit.id} sx={{ height: 400 }} />
+      <Box p={2}>
+        <Breadcrumb
+          items={[
+            { href: '/honkai3rd', label: t('common.honkai-3rd') },
+            {
+              href: '/honkai3rd/v2/er',
+              label: t('common.elysian-realm')
+            },
+            {
+              href: `/honkai3rd/v2/er/battlesuits/${battlesuit.id}`,
+              label: battlesuit.fullName
+            }
+          ]}
+        />
 
-      <Heading as="h2">ER Adjustments</Heading>
+        <Heading as="h1">{battlesuit.fullName}</Heading>
 
-      <Card mb={3}>
-        {erBattlesuit.abilities.map(ability => {
+        <AvatarFigureImage battlesuitId={battlesuit.id} sx={{ height: 400 }} />
+
+        <Box>
+          <Link href={`/battlesuits/${battlesuit.id}`}>
+            <BattlesuitCatalogItemCard battlesuit={battlesuit} />
+          </Link>
+        </Box>
+
+        <Heading as="h2">ER Adjustments</Heading>
+
+        <Card mb={3}>
+          {erBattlesuit.abilities.map(ability => {
+            return (
+              <Fragment key={ability.id}>
+                <Box sx={{ p: 1, borderBottom: 'default' }}>
+                  <Heading as="h3" m={0}>
+                    {ability.name}
+                  </Heading>
+                </Box>
+                <Box sx={{ p: 1, borderBottom: 'default', '&:last-child': { borderBottom: 'none' } }}>
+                  {ability.desc}
+                </Box>
+              </Fragment>
+            )
+          })}
+        </Card>
+
+        <Heading as="h2">Exclusive Signets</Heading>
+
+        {signetSets.map((set, index) => {
           return (
-            <Fragment key={ability.id}>
-              <Box sx={{ p: 1, borderBottom: 'default' }}>
-                <Heading as="h3" m={0}>
-                  {ability.name}
-                </Heading>
-              </Box>
-              <Box sx={{ p: 1, borderBottom: 'default', '&:last-child': { borderBottom: 'none' } }}>{ability.desc}</Box>
-            </Fragment>
+            <Card key={index} mb={2}>
+              {set.map(signet => {
+                return (
+                  <Fragment key={signet.id}>
+                    <Flex sx={{ p: 1, borderBottom: 'default', alignItems: 'center' }}>
+                      <Image
+                        src={`${assetsBucketBaseUrl}/raw/supportbufficon/Elysia.png`}
+                        width={30}
+                        sx={{ flexShrink: 0 }}
+                        alt={'Elysia'}
+                      />
+                      <Heading as="h3" m={0}>
+                        {signet.name}
+                      </Heading>
+                    </Flex>
+                    <Box sx={{ p: 1, borderBottom: 'default', '&:last-child': { borderBottom: 'none' } }}>
+                      {signet.desc}
+                    </Box>
+                  </Fragment>
+                )
+              })}
+            </Card>
           )
         })}
-      </Card>
-
-      <Heading as="h2">Exclusive Signets</Heading>
-
-      {signetSets.map((set, index) => {
-        return (
-          <Card key={index} mb={2}>
-            {set.map(signet => {
-              return (
-                <Fragment key={signet.id}>
-                  <Flex sx={{ p: 1, borderBottom: 'default', alignItems: 'center' }}>
-                    <Image
-                      src={`${assetsBucketBaseUrl}/raw/supportbufficon/Elysia.png`}
-                      width={30}
-                      sx={{ flexShrink: 0 }}
-                      alt={'Elysia'}
-                    />
-                    <Heading as="h3" m={0}>
-                      {signet.name}
-                    </Heading>
-                  </Flex>
-                  <Box sx={{ p: 1, borderBottom: 'default', '&:last-child': { borderBottom: 'none' } }}>
-                    {signet.desc}
-                  </Box>
-                </Fragment>
-              )
-            })}
-          </Card>
-        )
-      })}
-    </Box>
+      </Box>
+    </Honkai3rdLayout>
   )
 }
 
@@ -97,7 +137,7 @@ export async function getStaticProps({ locale, params }: NextPageContext & { par
   const erBattlesuit = loadErBattlesuit(params.battlesuitId)
 
   return {
-    props: { battlesuit, erBattlesuit }
+    props: { battlesuit, erBattlesuit, ...(await getI18NProps(locale)) }
   }
 }
 

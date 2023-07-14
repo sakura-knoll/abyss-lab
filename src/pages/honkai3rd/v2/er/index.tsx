@@ -15,6 +15,11 @@ import SquareImage from '../../../../components/v2/SquareImage'
 import { signetGroups } from '../../../../lib/v2/data/er'
 import BattlesuitSmallIcon from '../../../../components/v2/BattlesuitSmallIcon'
 import MaterialIcon from '../../../../components/v2/MaterialIcon'
+import Honkai3rdLayout from '../../../../components/layouts/Honkai3rdLayout'
+import Head from '../../../../components/atoms/Head'
+import Breadcrumb from '../../../../components/organisms/Breadcrumb'
+import { useTranslation } from 'next-i18next'
+import { getI18NProps } from '../../../../server/i18n'
 
 interface ErPageProps {
   erBattlesuitCatalog: ErBattlesuitCatalogItem[]
@@ -24,6 +29,8 @@ interface ErPageProps {
 }
 
 const ErPage = ({ erBattlesuitCatalog, battlesuitCatalog, erSupports, erSigils }: ErPageProps) => {
+  const { t } = useTranslation()
+
   const battlesuitCatalogMap = useMemo(() => {
     return battlesuitCatalog.reduce((map, item) => {
       map.set(item.id, item)
@@ -32,77 +39,97 @@ const ErPage = ({ erBattlesuitCatalog, battlesuitCatalog, erSupports, erSigils }
   }, [battlesuitCatalog])
 
   return (
-    <Box>
-      <h1>Elysian Realm</h1>
-      <Heading as="h2">Signets</Heading>
-      <Flex sx={{ flexWrap: 'wrap' }}>
-        {signetGroups.map(signetGroup => {
-          return (
-            <Link href={`/v2-pre/er/signets/${signetGroup.id}`} key={signetGroup.id}>
-              <Card p={1} m={1}>
-                <Flex sx={{ alignItems: 'center' }}>
-                  <SquareImage
-                    src={`${assetsBucketBaseUrl}/raw/supportbufficon/${signetGroup.icon}.png`}
-                    originalSize={120}
-                    size={40}
-                  />
-                  <Box p={1}>{signetGroup.name}</Box>
-                </Flex>
-              </Card>
-            </Link>
-          )
-        })}
-      </Flex>
+    <Honkai3rdLayout>
+      <Head
+        title={`${t('common.elysian-realm')} - ${t('common.honkai-3rd')} - ${t('common.abyss-lab')}`}
+        description={t('common.elysian-realm')}
+        canonicalHref={`/honkai3rd/elysian-realm`}
+      />
 
-      <Heading as="h2">Battlesuits</Heading>
-      <Flex sx={{ flexWrap: 'wrap' }}>
-        {erBattlesuitCatalog.map(erBattlesuit => {
-          const battlesuit = battlesuitCatalogMap.get(erBattlesuit.battlesuit)!
-          return (
-            <Box key={battlesuit.id}>
-              <Link href={`/v2-pre/er/battlesuits/${battlesuit.id}`}>
-                <BattlesuitCatalogItemCard battlesuit={battlesuit} />
+      <Box p={2}>
+        <Breadcrumb
+          items={[
+            { href: '/honkai3rd', label: t('common.honkai-3rd') },
+            {
+              href: '/honkai3rd/v2/er',
+              label: t('common.elysian-realm')
+            }
+          ]}
+        />
+        <Heading as="h1">Elysian Realm</Heading>
+
+        <Heading as="h2">Signets</Heading>
+        <Flex sx={{ flexWrap: 'wrap', mb: 3 }}>
+          {signetGroups.map(signetGroup => {
+            return (
+              <Link href={`/honkai3rd/v2/er/signets/${signetGroup.id}`} key={signetGroup.id}>
+                <Card p={1} m={1}>
+                  <Flex sx={{ alignItems: 'center' }}>
+                    <SquareImage
+                      src={`${assetsBucketBaseUrl}/raw/supportbufficon/${signetGroup.icon}.png`}
+                      originalSize={120}
+                      size={40}
+                    />
+                    <Box p={1}>{signetGroup.name}</Box>
+                  </Flex>
+                </Card>
               </Link>
-            </Box>
-          )
-        })}
-      </Flex>
+            )
+          })}
+        </Flex>
 
-      <Heading as="h2">Supports</Heading>
+        <Heading as="h2">Battlesuits</Heading>
+        <Flex sx={{ flexWrap: 'wrap', mb: 3 }}>
+          {erBattlesuitCatalog.map(erBattlesuit => {
+            const battlesuit = battlesuitCatalogMap.get(erBattlesuit.battlesuit)!
+            return (
+              <Box key={battlesuit.id}>
+                <Link href={`/honkai3rd/v2/er/battlesuits/${battlesuit.id}`}>
+                  <BattlesuitCatalogItemCard battlesuit={battlesuit} />
+                </Link>
+              </Box>
+            )
+          })}
+        </Flex>
 
-      <Flex sx={{ flexWrap: 'wrap' }}>
-        {erSupports.map(support => {
-          const battlesuit = battlesuitCatalogMap.get(support)!
-          return (
-            <Box key={support}>
-              <Link href={`/v2-pre/er/supports#${support}`}>
-                <Box sx={{ p: 1, m: 1, width: 110 }}>
-                  <BattlesuitSmallIcon battlesuit={battlesuit} ratio={0.8} />
-                  <Box sx={{ textAlign: 'center', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-                    {battlesuit.fullName}
+        <Heading as="h2">Supports</Heading>
+
+        <Flex sx={{ flexWrap: 'wrap' }}>
+          {erSupports.map(support => {
+            const battlesuit = battlesuitCatalogMap.get(support)!
+            return (
+              <Box key={support}>
+                <Link href={`/honkai3rd/v2/er/supports#${support}`}>
+                  <Box sx={{ p: 1, m: 1, width: 110 }}>
+                    <BattlesuitSmallIcon battlesuit={battlesuit} ratio={0.8} />
+                    <Box
+                      sx={{ textAlign: 'center', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}
+                    >
+                      {battlesuit.fullName}
+                    </Box>
                   </Box>
-                </Box>
-                {/* <BattlesuitCatalogItemCard battlesuit={battlesuit} /> */}
-              </Link>
-            </Box>
-          )
-        })}
-      </Flex>
+                  {/* <BattlesuitCatalogItemCard battlesuit={battlesuit} /> */}
+                </Link>
+              </Box>
+            )
+          })}
+        </Flex>
 
-      <Heading as="h2">Sigils</Heading>
+        <Heading as="h2">Sigils</Heading>
 
-      <Flex sx={{ flexWrap: 'wrap' }}>
-        {erSigils.map(sigil => {
-          return (
-            <Card key={sigil.id} p={1} m={1}>
-              <Link href={`/v2-pre/er/sigils#${sigil.id}`}>
-                <MaterialIcon materialId={sigil.id} />
-              </Link>
-            </Card>
-          )
-        })}
-      </Flex>
-    </Box>
+        <Flex sx={{ flexWrap: 'wrap' }}>
+          {erSigils.map(sigil => {
+            return (
+              <Card key={sigil.id} p={1} m={1}>
+                <Link href={`/honkai3rd/v2/er/sigils#${sigil.id}`}>
+                  <MaterialIcon materialId={sigil.id} />
+                </Link>
+              </Card>
+            )
+          })}
+        </Flex>
+      </Box>
+    </Honkai3rdLayout>
   )
 }
 
@@ -123,6 +150,6 @@ export async function getStaticProps({ locale }: NextPageContext) {
   })
 
   return {
-    props: { erBattlesuitCatalog, battlesuitCatalog, erSupports, erSigils }
+    props: { erBattlesuitCatalog, battlesuitCatalog, erSupports, erSigils, ...(await getI18NProps(locale)) }
   }
 }

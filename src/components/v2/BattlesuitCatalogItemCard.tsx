@@ -11,12 +11,7 @@ const BattlesuitCatalogItemCard = ({ battlesuit, label = false }: BattlesuitCata
   return (
     <Box
       sx={{
-        mb: 2,
-        transform: 'scale(1)',
-        transition: 'transform 200ms ease-in-out',
-        '&:hover': {
-          transform: 'scale(1.05)'
-        }
+        mb: 2
       }}
     >
       <BattlesuitAvatarIcon battlesuit={battlesuit} />

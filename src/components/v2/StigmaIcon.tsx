@@ -11,12 +11,12 @@ const starSize = 16
 
 const StigmaIcon = ({ icon: fileName, rarity }: StigmaIconProps) => {
   return (
-    <Box sx={{ width: 112 }}>
+    <Box sx={{ width: 96 }}>
       <Box
         sx={{
           borderRadius: 4,
-          width: (128 / 8) * 7,
-          height: (112 / 8) * 7,
+          width: (128 / 8) * 6,
+          height: (112 / 8) * 6,
           background: ` no-repeat 100% 100% /100% url(${assetsBucketBaseUrl}/raw/stigmataicons/${fileName}.png), ${getBackgroundByRarity(
             rarity
           )}`
