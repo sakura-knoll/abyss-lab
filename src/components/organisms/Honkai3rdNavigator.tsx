@@ -7,6 +7,7 @@ import { useRouter } from 'next/router'
 import { useColorMode } from 'theme-ui'
 import { useTranslation } from '../../lib/i18n'
 import NavItem from '../atoms/NavItem'
+import Footer from '../v2/Footer'
 
 interface Honkai3rdNavigatorProps {
   close?: () => void
@@ -102,6 +103,7 @@ const Honkai3rdNavigator = ({ close }: Honkai3rdNavigatorProps) => {
           </Box>
           <Label>{colorMode === 'default' ? '☀️' : '🌙'}</Label>
         </Flex>
+        <Footer />
       </Box>
     </Box>
   )

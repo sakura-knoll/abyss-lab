@@ -15,6 +15,7 @@ import { useRouter } from 'next/router'
 import { mdiMenuSwap } from '@mdi/js'
 import { useColorMode } from 'theme-ui'
 import PageLink from '../../components/atoms/PageLink'
+import Footer from '../../components/v2/Footer'
 
 interface VersionIndexPageProps {
   versionDataList: VersionData[]
@@ -98,6 +99,7 @@ const HomePage = ({}: VersionIndexPageProps) => {
             <Label>{colorMode === 'default' ? '☀️' : '🌙'}</Label>
           </Flex>
         </Box>
+        <Footer />
       </Box>
     </Box>
   )
