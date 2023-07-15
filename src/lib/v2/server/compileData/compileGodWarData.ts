@@ -4,14 +4,15 @@ import { getRawGodWarBuffMap } from '../raw/godWarBuff'
 import { getRawGodWarExtraItemMap } from '../raw/godWarExxtraItem'
 import { getRawGodWarMainAvatarMap } from '../raw/godWarMainAvatar'
 import { getRawGodWarSupportAvatarMap } from '../raw/godWarSupportAvatar'
-import { getText } from './utils'
+import { createGetText } from './utils'
 
-export function compileGodWarData() {
+export function compileGodWarData(locale: string) {
   const rawMainAvatarMap = getRawGodWarMainAvatarMap()['1']
   const rawGodWarAvatarAbilityMap = getRawGodWarAvatarAbilityMap()
   const rawGodWarBuffMap = getRawGodWarBuffMap()
   const rawGodWarSupportAvatarMap = getRawGodWarSupportAvatarMap()['1']
   const rawGodWarExtraItemMap = getRawGodWarExtraItemMap()
+  const getText = createGetText(locale)
 
   const battlesuitIdRawBuffListMap = new Map<string, ErSignet[]>()
   const buffSuitBuffListMap = new Map<string, ErSignet[]>()

@@ -165,7 +165,7 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
 export default BattlesuitShowPage
 
 export async function getStaticProps({ locale, params }: NextPageContext & { params: { battlesuitId: string } }) {
-  const battlesuit = loadBattlesuitData(params.battlesuitId)
+  const battlesuit = loadBattlesuitData(params.battlesuitId, locale)
 
   return {
     props: { battlesuit, ...(await getI18NProps(locale)) }

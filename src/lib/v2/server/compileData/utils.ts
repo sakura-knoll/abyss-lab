@@ -2,9 +2,11 @@ import { TagType, WeaponType } from '../../data/types'
 import { RawEquipmentSkillData } from '../raw/equipmentSkillData'
 import { getRawTextMap } from '../raw/textMap'
 
-export function getText(id: string | number) {
-  const rawTextMap = getRawTextMap()
-  return rawTextMap[id]?.Text || null
+export function createGetText(locale?: string) {
+  return function getText(id: string | number) {
+    const rawTextMap = getRawTextMap(locale)
+    return rawTextMap[id]?.Text || null
+  }
 }
 
 export function convertWeaponType(rawValue: number): WeaponType {
@@ -93,7 +95,8 @@ export function convertTagType(rawTagId: number): TagType {
   throw new Error(`Unsupported raw show order(Skill) (${rawTagId})`)
 }
 
-export function convertEquipmentSkill(rawSkill: RawEquipmentSkillData) {
+export function convertEquipmentSkill(rawSkill: RawEquipmentSkillData, locale: string) {
+  const getText = createGetText(locale)
   const iconName = rawSkill.SkillIconPath.split('/').pop()
   return {
     name: getText(rawSkill.SkillName),

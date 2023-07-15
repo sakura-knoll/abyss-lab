@@ -2,7 +2,7 @@ import { compileWeaponData } from './compileWeaponData'
 
 describe('compileWeaponData', () => {
   it('compiles', () => {
-    const list = compileWeaponData()
+    const list = compileWeaponData('en-US')
 
     const targetItem = list.find(weapon => weapon.id === '10277')
 

@@ -11,6 +11,7 @@ import Head from '../../../../components/atoms/Head'
 import { useTranslation } from 'next-i18next'
 import Breadcrumb from '../../../../components/organisms/Breadcrumb'
 import { generateI18NPaths, getI18NProps } from '../../../../server/i18n'
+import FormattedText from '../../../../components/v2/FormattedText'
 
 interface BattlesuitShowPageProps {
   battlesuit: Battlesuit
@@ -90,7 +91,7 @@ const BattlesuitShowPage = ({ battlesuit, erBattlesuit }: BattlesuitShowPageProp
                   </Heading>
                 </Box>
                 <Box sx={{ p: 1, borderBottom: 'default', '&:last-child': { borderBottom: 'none' } }}>
-                  {ability.desc}
+                  <FormattedText>{ability.desc}</FormattedText>
                 </Box>
               </Fragment>
             )
@@ -117,7 +118,7 @@ const BattlesuitShowPage = ({ battlesuit, erBattlesuit }: BattlesuitShowPageProp
                       </Heading>
                     </Flex>
                     <Box sx={{ p: 1, borderBottom: 'default', '&:last-child': { borderBottom: 'none' } }}>
-                      {signet.desc}
+                      <FormattedText>{signet.desc}</FormattedText>
                     </Box>
                   </Fragment>
                 )

@@ -18,7 +18,7 @@ export function tokenize(value: string) {
   let currentValue = value.replace(/{{/g, '').replace(/}}/g, '')
 
   while (currentValue.length > 0) {
-    const openingBracketStartIndex = currentValue.indexOf('<color')
+    const openingBracketStartIndex = currentValue.search(/<(color|size)/)
     if (openingBracketStartIndex < 0) {
       tokens.push({ type: 'text', text: currentValue })
       eat(openingBracketStartIndex)
@@ -48,7 +48,7 @@ export function tokenize(value: string) {
       type: 'element',
       tagName,
       attributes: {
-        color: attr
+        [tagName]: attr
       },
       children
     })

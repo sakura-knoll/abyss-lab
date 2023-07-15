@@ -17,93 +17,129 @@ import {
   WeaponCatalogItem
 } from '../data/types'
 
-export const dataDir = path.join(process.cwd(), 'data/v2')
-
-export const battlesuitsDir = path.join(dataDir, 'battlesuits')
-export const battlesuitCatalogPath = path.join(dataDir, 'battlesuit-catalog.yaml')
-
-export const weaponsDir = path.join(dataDir, 'weapons')
-export const weaopnCatalogPath = path.join(dataDir, 'weapon-catalog.yaml')
-
-export const stigmataDir = path.join(dataDir, 'stigmata')
-export const stigmataCatalogPath = path.join(dataDir, 'stigmata-catalog.yaml')
-
-export const stigmataSetsDir = path.join(dataDir, 'stigmata-sets')
-export const stigmataSetCatalogPath = path.join(dataDir, 'stigmata-set-catalog.yaml')
-
-export const erBattlesuitCatalogPath = path.join(dataDir, 'er-battlesuits-catalog.yaml')
-export const erBattlesuitsDir = path.join(dataDir, 'er-battlesuits')
-export const erSignetsDir = path.join(dataDir, 'er-signets')
-export const erSupportsPath = path.join(dataDir, 'er-supports.yaml')
-export const erSigilsPath = path.join(dataDir, 'er-sigils.yaml')
-
-export const elfsDir = path.join(dataDir, 'elfs')
-export const elfCatalogPath = path.join(dataDir, 'elf-catalog.yaml')
-
-export function loadBattlesuitCatalog(): BattlesuitCatalogItem[] {
-  return readYamlFile(battlesuitCatalogPath)
+// export const dataDir = path.join(process.cwd(), 'data/ko-KR')
+export function getDataDir(locale?: string) {
+  if (locale == null) {
+    return path.join(process.cwd(), 'data', 'en-US')
+  }
+  return path.join(process.cwd(), 'data', locale)
 }
 
-export function loadBattlesuitData(id: string) {
-  const battlesuitDataPath = path.join(battlesuitsDir, `${id}.yaml`)
+export function getBattlesuitsDir(locale?: string) {
+  return path.join(getDataDir(locale), 'battlesuits')
+}
+export function getBattlesuitCatalogPath(locale?: string) {
+  return path.join(getDataDir(locale), 'battlesuit-catalog.yaml')
+}
+
+export function getWeaponsDir(locale?: string) {
+  return path.join(getDataDir(locale), 'weapons')
+}
+export function getWeaopnCatalogPath(locale?: string) {
+  return path.join(getDataDir(locale), 'weapon-catalog.yaml')
+}
+
+export function getStigmataDir(locale?: string) {
+  return path.join(getDataDir(locale), 'stigmata')
+}
+export function getStigmataCatalogPath(locale?: string) {
+  return path.join(getDataDir(locale), 'stigmata-catalog.yaml')
+}
+
+export function getStigmataSetsDir(locale?: string) {
+  return path.join(getDataDir(locale), 'stigmata-sets')
+}
+export function getStigmataSetCatalogPath(locale?: string) {
+  return path.join(getDataDir(locale), 'stigmata-set-catalog.yaml')
+}
+
+export function getErBattlesuitCatalogPath(locale?: string) {
+  return path.join(getDataDir(locale), 'er-battlesuits-catalog.yaml')
+}
+export function getErBattlesuitsDir(locale?: string) {
+  return path.join(getDataDir(locale), 'er-battlesuits')
+}
+export function getErSignetsDir(locale?: string) {
+  return path.join(getDataDir(locale), 'er-signets')
+}
+export function getErSupportsPath(locale?: string) {
+  return path.join(getDataDir(locale), 'er-supports.yaml')
+}
+export function getErSigilsPath(locale?: string) {
+  return path.join(getDataDir(locale), 'er-sigils.yaml')
+}
+
+export function getElfsDir(locale?: string) {
+  return path.join(getDataDir(locale), 'elfs')
+}
+export function getElfCatalogPath(locale?: string) {
+  return path.join(getDataDir(locale), 'elf-catalog.yaml')
+}
+
+export function loadBattlesuitCatalog(locale?: string): BattlesuitCatalogItem[] {
+  return readYamlFile(getBattlesuitCatalogPath(locale))
+}
+
+export function loadBattlesuitData(id: string, locale?: string) {
+  const battlesuitDataPath = path.join(getBattlesuitsDir(locale), `${id}.yaml`)
   return readYamlFile(battlesuitDataPath)
 }
 
-export function loadWeaponCatalog(): WeaponCatalogItem[] {
-  return readYamlFile(weaopnCatalogPath)
+export function loadWeaponCatalog(locale?: string): WeaponCatalogItem[] {
+  return readYamlFile(getWeaopnCatalogPath(locale))
 }
 
-export function loadWeaponData(id: string) {
-  const weaponDataPath = path.join(weaponsDir, `${id}.yaml`)
+export function loadWeaponData(id: string, locale?: string) {
+  const weaponDataPath = path.join(getWeaponsDir(locale), `${id}.yaml`)
   return readYamlFile(weaponDataPath)
 }
 
-export function loadStigmataCatalog(): StigmataCatalogItem[] {
-  return readYamlFile(stigmataCatalogPath)
+export function loadStigmataCatalog(locale?: string): StigmataCatalogItem[] {
+  return readYamlFile(getStigmataCatalogPath(locale))
 }
 
-export function loadStigmaData(id: string): RootStigma {
-  const stigmaDataPath = path.join(stigmataDir, `${id}.yaml`)
+export function loadStigmaData(id: string, locale?: string): RootStigma {
+  const stigmaDataPath = path.join(getStigmataDir(locale), `${id}.yaml`)
   return readYamlFile(stigmaDataPath)
 }
 
-export function loadStigmataSetCatalog(): StigmataSetCatalogItem[] {
-  return readYamlFile(stigmataSetCatalogPath)
+export function loadStigmataSetCatalog(locale?: string): StigmataSetCatalogItem[] {
+  return readYamlFile(getStigmataSetCatalogPath(locale))
 }
 
-export function loadStigmataSetData(id: string): StigmataSet {
-  const stigmataSetPath = path.join(stigmataSetsDir, `${id}.yaml`)
+export function loadStigmataSetData(id: string, locale?: string): StigmataSet {
+  const stigmataSetPath = path.join(getStigmataSetsDir(locale), `${id}.yaml`)
   return readYamlFile(stigmataSetPath)
 }
 
-export function loadErBattlesuitCatalog(): ErBattlesuitCatalogItem[] {
-  return readYamlFile(erBattlesuitCatalogPath)
+export function loadErBattlesuitCatalog(locale?: string): ErBattlesuitCatalogItem[] {
+  return readYamlFile(getErBattlesuitCatalogPath(locale))
 }
 
-export function loadErBattlesuit(id: string): ErBattlesuit {
-  const erBattlesuitPath = path.join(erBattlesuitsDir, `${id}.yaml`)
+export function loadErBattlesuit(id: string, locale?: string): ErBattlesuit {
+  const erBattlesuitPath = path.join(getErBattlesuitsDir(locale), `${id}.yaml`)
   return readYamlFile(erBattlesuitPath)
 }
 
-export function loadErSignets(id: string): ErSignet[] {
-  const erSignetsPath = path.join(erSignetsDir, `${id}.yaml`)
+export function loadErSignets(id: string, locale?: string): ErSignet[] {
+  const erSignetsPath = path.join(getErSignetsDir(locale), `${id}.yaml`)
   return readYamlFile(erSignetsPath)
 }
 
-export function loadErSupports(): ErSupportBattlesuit[] {
-  return readYamlFile(erSupportsPath)
+export function loadErSupports(locale?: string): ErSupportBattlesuit[] {
+  return readYamlFile(getErSupportsPath(locale))
 }
 
-export function loadErSigils(): ErSigil[] {
-  return readYamlFile(erSigilsPath)
+export function loadErSigils(locale?: string): ErSigil[] {
+  return readYamlFile(getErSigilsPath(locale))
 }
 
-export function loadElfCatalog(): ElfCatalogItem[] {
-  return readYamlFile(elfCatalogPath)
+export function loadElfCatalog(locale?: string): ElfCatalogItem[] {
+  return readYamlFile(getElfCatalogPath(locale))
 }
 
-export function loadElfData(id: string): Elf {
-  const elfDataPath = path.join(elfsDir, `${id}.yaml`)
+export function loadElfData(id: string, locale?: string): Elf {
+  const elfDataPath = path.join(getElfsDir(locale), `${id}.yaml`)
   return readYamlFile(elfDataPath)
 }
 

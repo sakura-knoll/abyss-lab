@@ -2,7 +2,7 @@ import { compileGodWarData } from './compileGodWarData'
 
 describe('compileGodWarData', () => {
   it('compiles main battlesuit abilities and signets', () => {
-    const { mainAvatarList } = compileGodWarData()
+    const { mainAvatarList } = compileGodWarData('en-US')
 
     const targetItem = mainAvatarList[11]
     expect(targetItem).toMatchObject({
@@ -26,7 +26,7 @@ describe('compileGodWarData', () => {
   })
 
   it('compiles buff list per suit', () => {
-    const { buffSuitBuffListMap } = compileGodWarData()
+    const { buffSuitBuffListMap } = compileGodWarData('en-US')
 
     const targetItem = buffSuitBuffListMap.get('3')
 

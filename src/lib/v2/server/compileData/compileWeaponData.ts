@@ -1,11 +1,12 @@
 import { RootWeaponData, WeaponData } from '../../data/types'
 import { getRawEquipmentSkillDataMap } from '../raw/equipmentSkillData'
 import { getRawWeaponDataMap } from '../raw/weaponData'
-import { convertEquipmentSkill, convertWeaponType, getText } from './utils'
+import { convertEquipmentSkill, convertWeaponType, createGetText } from './utils'
 
-export function compileWeaponData(): RootWeaponData[] {
+export function compileWeaponData(locale: string): RootWeaponData[] {
   const rawWeaponDataMap = getRawWeaponDataMap()
   const rawEquipmentSkillDataMap = getRawEquipmentSkillDataMap()
+  const getText = createGetText(locale)
 
   const rawWeaponMainIdWeaponDataMap = Object.entries(rawWeaponDataMap).reduce((map, [id, rawData]) => {
     const rawWeaponMainId = rawData.WeaponMainID.toString()
@@ -21,7 +22,7 @@ export function compileWeaponData(): RootWeaponData[] {
       const rawSkill = rawEquipmentSkillDataMap[skillId]
       skills.push({
         id: skillId,
-        ...convertEquipmentSkill(rawSkill),
+        ...convertEquipmentSkill(rawSkill, locale),
         param1: rawData.Prop1Param1,
         param1Add: rawData.Prop1Param1Add,
         param2: rawData.Prop1Param2,
@@ -35,7 +36,7 @@ export function compileWeaponData(): RootWeaponData[] {
       const rawSkill = rawEquipmentSkillDataMap[skillId]
       skills.push({
         id: skillId,
-        ...convertEquipmentSkill(rawSkill),
+        ...convertEquipmentSkill(rawSkill, locale),
         param1: rawData.Prop2Param1,
         param1Add: rawData.Prop2Param1Add,
         param2: rawData.Prop2Param2,
@@ -49,7 +50,7 @@ export function compileWeaponData(): RootWeaponData[] {
       const rawSkill = rawEquipmentSkillDataMap[skillId]
       skills.push({
         id: skillId,
-        ...convertEquipmentSkill(rawSkill),
+        ...convertEquipmentSkill(rawSkill, locale),
         param1: rawData.Prop3Param1,
         param1Add: rawData.Prop3Param1Add,
         param2: rawData.Prop3Param2,

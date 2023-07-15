@@ -16,11 +16,15 @@ const FormattedText = ({ children }: FormattedTextProps) => {
   function renderTokens(tokens: FormattedTextToken[]) {
     return tokens.map((token, index) => {
       if (token.type === 'element') {
-        return (
-          <Text key={index} style={{ color: adjustColor(token.attributes.color) }}>
-            {renderTokens(token.children)}
-          </Text>
-        )
+        if (token.tagName === 'color') {
+          return (
+            <Text key={index} style={{ color: adjustColor(token.attributes.color) }}>
+              {renderTokens(token.children)}
+            </Text>
+          )
+        } else {
+          return <Text key={index}>{renderTokens(token.children)}</Text>
+        }
       }
 
       return token.text

@@ -12,9 +12,10 @@ import { getRawAvatarDataMap } from '../raw/avatarData'
 import { getRawAvatarSkillDataMap } from '../raw/avatarSkillData'
 import { getRawAvatarSubSkillDataMap } from '../raw/avatarSubSkillData'
 import { getRawAvatarTagUnLockDataMap } from '../raw/avatarTagUnLockData'
-import { convertWeaponType as convertWeaponType, convertTagType, getText } from './utils'
+import { convertWeaponType as convertWeaponType, convertTagType, createGetText } from './utils'
 
-export function compileBattlesuitData(): Battlesuit[] {
+export function compileBattlesuitData(locale: string): Battlesuit[] {
+  const getText = createGetText(locale)
   const rawAvatarDataMap = getRawAvatarDataMap()
   const rawSkillDataMap = getRawAvatarSkillDataMap()
   const rawSubSkillDataMap = getRawAvatarSubSkillDataMap()
@@ -63,7 +64,7 @@ export function compileBattlesuitData(): Battlesuit[] {
                 paramAdd1: rawSubSkillData.ParamAdd_1,
                 paramAdd2: rawSubSkillData.ParamAdd_2,
                 paramAdd3: rawSubSkillData.ParamAdd_3,
-                tags: rawSubSkillData.TagList.map(convertRawSkillTag),
+                tags: rawSubSkillData.TagList.map(tag => convertRawSkillTag(tag, locale)),
                 toggle: rawSubSkillData.SkillToggle,
                 unlockStar: convertStar(rawSubSkillData.UnlockStar, rawSubSkillData.UnlockSubStar)
               })
@@ -78,7 +79,7 @@ export function compileBattlesuitData(): Battlesuit[] {
             info: getText(rawSkillData.Info),
             icon: skillIcon || '',
             skillType: convertShowOrderToSkillType(rawSkillData.ShowOrder),
-            tags: rawSkillData.TagList.map(convertRawSkillTag),
+            tags: rawSkillData.TagList.map(tag => convertRawSkillTag(tag, locale)),
             paramSubId1: rawSkillData.ParamSubID_1,
             paramSubId2: rawSkillData.ParamSubID_2,
             paramSubId3: rawSkillData.ParamSubID_3,
@@ -246,7 +247,11 @@ function convertShowOrderToSkillType(rawShowOrder: number): SkillType {
   }
 }
 
-function convertRawSkillTag(rawSkillTag: { Strength: number; TagID: number; TagComment: number }): SkillTagItem {
+function convertRawSkillTag(
+  rawSkillTag: { Strength: number; TagID: number; TagComment: number },
+  locale: string
+): SkillTagItem {
+  const getText = createGetText(locale)
   const comment = getText(rawSkillTag.TagComment)
   return {
     type: convertRawStrengthToType(rawSkillTag.Strength),

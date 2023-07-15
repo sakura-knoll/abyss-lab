@@ -2,14 +2,15 @@ import { EquipmentSkill, RootStigma, StigmataSet, StigmaType } from '../../data/
 import { getRawEquipmentSetDataMap } from '../raw/equipmentSetData'
 import { getRawEquipmentSkillDataMap } from '../raw/equipmentSkillData'
 import { getRawStigmataDataMap } from '../raw/stigmataData'
-import { convertEquipmentSkill, getText } from './utils'
+import { convertEquipmentSkill, createGetText } from './utils'
 
-export function compileStigmataData() {
+export function compileStigmataData(locale: string) {
   const rawStigmataDataMap = getRawStigmataDataMap()
   const rawStigmataDataMapEntries = Object.entries(rawStigmataDataMap)
   const rawEquipmentSkillDataMap = getRawEquipmentSkillDataMap()
   const rawEquipmentSetDataMap = getRawEquipmentSetDataMap()
   const stigmaSetIdMainIdListMap = new Map<string, string[]>()
+  const getText = createGetText(locale)
 
   const stigmataMainIdStigmataMap = rawStigmataDataMapEntries.reduce((map, [id, rawData]) => {
     // Bronya calorie has a dummy data
@@ -46,7 +47,7 @@ export function compileStigmataData() {
       const rawSkill = rawEquipmentSkillDataMap[skillId]
       skills.push({
         id: skillId,
-        ...convertEquipmentSkill(rawSkill),
+        ...convertEquipmentSkill(rawSkill, locale),
         param1: rawData.Prop1Param1,
         param1Add: rawData.Prop1Param1Add,
         param2: rawData.Prop1Param2,
@@ -60,7 +61,7 @@ export function compileStigmataData() {
       const rawSkill = rawEquipmentSkillDataMap[skillId]
       skills.push({
         id: skillId,
-        ...convertEquipmentSkill(rawSkill),
+        ...convertEquipmentSkill(rawSkill, locale),
         param1: rawData.Prop2Param1,
         param1Add: rawData.Prop2Param1Add,
         param2: rawData.Prop2Param2,
@@ -74,7 +75,7 @@ export function compileStigmataData() {
       const rawSkill = rawEquipmentSkillDataMap[skillId]
       skills.push({
         id: skillId,
-        ...convertEquipmentSkill(rawSkill),
+        ...convertEquipmentSkill(rawSkill, locale),
         param1: rawData.Prop3Param1,
         param1Add: rawData.Prop3Param1Add,
         param2: rawData.Prop3Param2,
@@ -126,7 +127,7 @@ export function compileStigmataData() {
       const rawSkill = rawEquipmentSkillDataMap[skillId]
       skills.push({
         id: skillId,
-        ...convertEquipmentSkill(rawSkill),
+        ...convertEquipmentSkill(rawSkill, locale),
         param1: rawData.Prop1Param1,
         param1Add: rawData.Prop1Param1Add,
         param2: rawData.Prop1Param2,
@@ -140,7 +141,7 @@ export function compileStigmataData() {
       const rawSkill = rawEquipmentSkillDataMap[skillId]
       skills.push({
         id: skillId,
-        ...convertEquipmentSkill(rawSkill),
+        ...convertEquipmentSkill(rawSkill, locale),
         param1: rawData.Prop2Param1,
         param1Add: rawData.Prop2Param1Add,
         param2: rawData.Prop2Param2,
@@ -154,7 +155,7 @@ export function compileStigmataData() {
       const rawSkill = rawEquipmentSkillDataMap[skillId]
       skills.push({
         id: skillId,
-        ...convertEquipmentSkill(rawSkill),
+        ...convertEquipmentSkill(rawSkill, locale),
         param1: rawData.Prop3Param1,
         param1Add: rawData.Prop3Param1Add,
         param2: rawData.Prop3Param2,

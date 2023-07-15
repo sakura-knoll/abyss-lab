@@ -2,11 +2,12 @@ import { ListMap } from '../../../utils'
 import { Elf, ElfSkill } from '../../data/types'
 import { getRawElfDataMap } from '../raw/elfData'
 import { getRawElfSkillDataMap } from '../raw/elfSkillData'
-import { convertTagType, getText } from './utils'
+import { convertTagType, createGetText } from './utils'
 
-export function compileElfData() {
+export function compileElfData(locale: string) {
   const rawElfDataMap = getRawElfDataMap()
   const rawElfSkillDataMap = getRawElfSkillDataMap()
+  const getText = createGetText(locale)
 
   const rawElfSkillMap = Object.entries(rawElfSkillDataMap).reduce<ListMap<string, ElfSkill>>(
     (map, [id, rawSkillData]) => {
