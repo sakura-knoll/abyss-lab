@@ -6,12 +6,13 @@ import { Fragment, useMemo } from 'react'
 import { assetsBucketBaseUrl } from '../../../../lib/consts'
 import { signetGroups } from '../../../../lib/v2/data/er'
 import SquareImage from '../../../../components/v2/SquareImage'
-import { getErSignetTypeLabel } from '../../../../lib/v2/data/text'
+import { getErSignetTypeLabel, getSignetGroupLabel } from '../../../../lib/v2/data/text'
 import Honkai3rdLayout from '../../../../components/layouts/Honkai3rdLayout'
 import Head from '../../../../components/atoms/Head'
 import { useTranslation } from 'next-i18next'
 import Breadcrumb from '../../../../components/organisms/Breadcrumb'
 import { generateI18NPaths, getI18NProps } from '../../../../server/i18n'
+import { useLocale } from '../../../../lib/i18n'
 
 interface BattlesuitShowPageProps {
   group: ErSignetGroup
@@ -20,6 +21,7 @@ interface BattlesuitShowPageProps {
 
 const BattlesuitShowPage = ({ signets, group }: BattlesuitShowPageProps) => {
   const { t } = useTranslation()
+  const locale = useLocale()
 
   const signetSets = useMemo(() => {
     const signetSetMap = signets.reduce<Map<string, ErSignet[]>>((map, signet) => {
@@ -56,7 +58,7 @@ const BattlesuitShowPage = ({ signets, group }: BattlesuitShowPageProps) => {
             },
             {
               href: `/honkai3rd/er/signets/${group.id}`,
-              label: group.name
+              label: getSignetGroupLabel(group.id, locale)
             }
           ]}
         />
@@ -77,7 +79,7 @@ const BattlesuitShowPage = ({ signets, group }: BattlesuitShowPageProps) => {
                       <Heading as="h3" my={0} ml={1}>
                         {signet.name}
                       </Heading>
-                      <Box sx={{ ml: 12, color: 'textMuted' }}>{getErSignetTypeLabel(signet.quality)}</Box>
+                      <Box sx={{ ml: 1, color: 'textMuted' }}>{getErSignetTypeLabel(signet.quality, locale)}</Box>
                     </Flex>
                     <Box sx={{ p: 1, borderBottom: 'default', '&:last-child': { borderBottom: 'none' } }}>
                       {signet.desc}
@@ -100,7 +102,7 @@ const BattlesuitShowPage = ({ signets, group }: BattlesuitShowPageProps) => {
 export default BattlesuitShowPage
 
 export async function getStaticProps({ locale, params }: NextPageContext & { params: { groupId: string } }) {
-  const signets = loadErSignets(params.groupId)
+  const signets = loadErSignets(params.groupId, locale)
   const group = signetGroups.find(group => group.id === params.groupId)
 
   return {

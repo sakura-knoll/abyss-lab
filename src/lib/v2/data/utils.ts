@@ -1,10 +1,12 @@
-import { BattlesuitSkill, CharacterType, TagType } from './types'
+import { AttributeType, BattlesuitSkill, CharacterType, TagType } from './types'
 
 export function sortBattlesuitSkill(a: BattlesuitSkill, b: BattlesuitSkill) {
   return reversedSkillTypeOrder.indexOf(b.skillType) - reversedSkillTypeOrder.indexOf(a.skillType)
 }
 
 const reversedSkillTypeOrder = ['leader', 'passive', 'evasion', 'special', 'ultimate', 'basic', 'sp', 'none'].reverse()
+
+export const attributeTypes: AttributeType[] = ['bio', 'psy', 'mech', 'qua', 'img']
 
 export const characterFilterTypes: CharacterType[] = [
   'kiana',
@@ -56,6 +58,6 @@ export const tagFilterTypes: TagType[] = [
   'gather',
   'heal',
   'fast-atk',
-  'aerial',
-  'burst'
+  'burst',
+  'aerial'
 ]

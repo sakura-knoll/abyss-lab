@@ -26,6 +26,7 @@ import Honkai3rdLayout from '../../../components/layouts/Honkai3rdLayout'
 import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
 import Head from '../../../components/atoms/Head'
 import { useTranslation } from 'next-i18next'
+import { useLocale } from '../../../lib/i18n'
 
 interface BattlesuitShowPageProps {
   battlesuit: Battlesuit
@@ -33,6 +34,8 @@ interface BattlesuitShowPageProps {
 
 const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
   const { t } = useTranslation()
+  const locale = useLocale()
+
   return (
     <Honkai3rdLayout>
       <Head
@@ -41,7 +44,7 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
           battlesuit.attributeType
         } / ${battlesuit.tags
           .map(tag => {
-            return getTagTypeLabel(tag)
+            return getTagTypeLabel(tag, locale)
           })
           .join(', ')}`}
         canonicalHref={`/honkai3rd/battlesuits/${battlesuit.id}`}
@@ -65,16 +68,16 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
               <ChibiIcon id={battlesuit.character} />
 
               <Box ml={1} mr={2}>
-                {getCharacterTypeLabel(battlesuit.character)}
+                {getCharacterTypeLabel(battlesuit.character, locale)}
               </Box>
 
               <AttributeIcon attributeType={battlesuit.attributeType} size={30} />
               <Box ml={1} mr={2}>
-                {getAttributeLabel(battlesuit.attributeType)}
+                {getAttributeLabel(battlesuit.attributeType, locale)}
               </Box>
 
               <WeaponTypeIcon type={battlesuit.weapon} />
-              <Box ml={1}>{getWeaponTypeLabel(battlesuit.weapon)}</Box>
+              <Box ml={1}>{getWeaponTypeLabel(battlesuit.weapon, locale)}</Box>
             </Flex>
           </Flex>
           <Flex sx={{ p: 1 }}>
@@ -82,7 +85,7 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
               return (
                 <Flex key={tag} sx={{ mr: 2, alignItems: 'center' }}>
                   <TagIcon type={tag} />
-                  <Box ml={1}>{getTagTypeLabel(tag)}</Box>
+                  <Box ml={1}>{getTagTypeLabel(tag, locale)}</Box>
                 </Flex>
               )
             })}
@@ -108,7 +111,7 @@ const BattlesuitShowPage = ({ battlesuit }: BattlesuitShowPageProps) => {
                   )}
                 </Flex>
 
-                <Box>{getSkillTypeLabel(skill.skillType)}</Box>
+                <Box>{getSkillTypeLabel(skill.skillType, locale)}</Box>
               </Box>
               <Box sx={{ whiteSpace: 'pre-wrap', borderBottom: 'default', p: 1 }}>
                 <FormattedText>{formatSkillInfo(skill)}</FormattedText>

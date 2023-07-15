@@ -187,9 +187,9 @@ const StigmataSetShowPage = ({ stigmataSet, stigmata }: StigmataSetShowPage) => 
 export default StigmataSetShowPage
 
 export async function getStaticProps({ locale, params }: NextPageContext & { params: { stigmataSetId: string } }) {
-  const stigmataSet = loadStigmataSetData(params.stigmataSetId)
+  const stigmataSet = loadStigmataSetData(params.stigmataSetId, locale)
   const stigmata = stigmataSet.stigmaIdList.map(id => {
-    return loadStigmaData(id)
+    return loadStigmaData(id, locale)
   })
 
   return {

@@ -1,7 +1,7 @@
 /** @jsxImportSource theme-ui */
 import { Box, Card, Heading } from '@theme-ui/components'
 import { NextPageContext } from 'next'
-import { Flex, Link } from 'theme-ui'
+import { Flex } from 'theme-ui'
 import { ElfCatalogItem } from '../../../lib/v2/data/types'
 import { loadElfCatalog } from '../../../lib/v2/server/loadData'
 import RarityBar from '../../../components/v2/RarityBar'
@@ -11,6 +11,7 @@ import Head from '../../../components/atoms/Head'
 import { useTranslation } from 'next-i18next'
 import { getI18NProps } from '../../../server/i18n'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
+import PageLink from '../../../components/atoms/PageLink'
 
 interface ElfListPageProps {
   elfs: ElfCatalogItem[]
@@ -34,7 +35,7 @@ const ElfListPage = ({ elfs }: ElfListPageProps) => {
             { href: '/honkai3rd/elfs', label: t('common.elfs') }
           ]}
         />
-        <Heading as="h1">Elfs</Heading>
+        <Heading as="h1">{t('elfs-list.elfs')}</Heading>
         <Flex sx={{ flexWrap: 'wrap' }}>
           {elfs
             .sort((a, b) => {
@@ -49,7 +50,7 @@ const ElfListPage = ({ elfs }: ElfListPageProps) => {
             .map(elf => {
               return (
                 <Box key={elf.id} m={2}>
-                  <Link href={`/honkai3rd/elfs/${elf.id}`}>
+                  <PageLink href={`/honkai3rd/elfs/${elf.id}`}>
                     <Card p={1}>
                       <Box>
                         <ElfIcon icon={elf.cardIcon} />
@@ -61,7 +62,7 @@ const ElfListPage = ({ elfs }: ElfListPageProps) => {
                         {elf.fullName}
                       </Box>
                     </Card>
-                  </Link>
+                  </PageLink>
                 </Box>
               )
             })}
@@ -74,7 +75,7 @@ const ElfListPage = ({ elfs }: ElfListPageProps) => {
 export default ElfListPage
 
 export async function getStaticProps({ locale }: NextPageContext) {
-  const elfs = loadElfCatalog()
+  const elfs = loadElfCatalog(locale)
 
   return {
     props: { elfs, ...(await getI18NProps(locale)) }

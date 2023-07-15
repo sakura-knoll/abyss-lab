@@ -26,7 +26,7 @@ const StigmataListPage = ({ stigmataCatalog }: StigmataListPageProps) => {
             { href: '/honkai3rd/stigmata', label: t('common.stigmata') }
           ]}
         />
-        <Heading as="h1">Stigmata (Single)</Heading>
+        <Heading as="h1">{t('stigmata-list.stigmata-single')}</Heading>
 
         <Box mb={3}>
           <PageLink href="/honkai3rd/stigmata-sets">{t('stigmata-list.show-set-list')}</PageLink>
@@ -70,7 +70,7 @@ const StigmataListPage = ({ stigmataCatalog }: StigmataListPageProps) => {
 export default StigmataListPage
 
 export async function getStaticProps({ locale }: NextPageContext) {
-  const stigmataCatalog = loadStigmataCatalog()
+  const stigmataCatalog = loadStigmataCatalog(locale)
 
   return {
     props: { stigmataCatalog, ...(await getI18NProps(locale)) }

@@ -8,9 +8,10 @@ import SquareImageBox from '../atoms/SquareImageBox'
 type NavItemTarget = 'battlesuits' | 'stigmata' | 'weapons' | 'elfs' | 'elysian-realm' | 'media'
 interface NavItemProps {
   target: NavItemTarget
+  size?: 'md' | 'lg'
 }
 
-const NavItem = ({ target }: NavItemProps) => {
+const NavItem = ({ target, size = 'md' }: NavItemProps) => {
   const { t } = useTranslation()
   return (
     <NextLink href={getHref(target)} passHref>
@@ -23,12 +24,13 @@ const NavItem = ({ target }: NavItemProps) => {
           p: 1
         }}
       >
-        <SquareImageBox size={30} mr={1} src={getIconByTarget(target)} />
+        <SquareImageBox size={size === 'lg' ? 50 : 30} mr={size === 'lg' ? 2 : 1} src={getIconByTarget(target)} />
         <Text
           sx={{
             overflow: 'hidden',
             textOverflow: 'ellipsis',
-            whiteSpace: 'nowrap'
+            whiteSpace: 'nowrap',
+            fontSize: size === 'lg' ? 3 : undefined
           }}
         >
           {t(`common.${target}`)}

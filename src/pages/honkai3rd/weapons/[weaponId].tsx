@@ -13,6 +13,7 @@ import Head from '../../../components/atoms/Head'
 import { useTranslation } from 'next-i18next'
 import { generateI18NPaths, getI18NProps } from '../../../server/i18n'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
+import { useLocale } from '../../../lib/i18n'
 
 interface WeaponShowPageProps {
   rootWeapon: RootWeaponData
@@ -20,9 +21,11 @@ interface WeaponShowPageProps {
 
 const WeaponShowPage = ({ rootWeapon }: WeaponShowPageProps) => {
   const { t } = useTranslation()
+  const locale = useLocale()
+
   const weapon = rootWeapon.weapons[rootWeapon.weapons.length - 1]
 
-  const weaponTypeLabel = getWeaponTypeLabel(weapon.type)
+  const weaponTypeLabel = getWeaponTypeLabel(weapon.type, locale)
   const atk = Math.floor(weapon.attackBase + weapon.attackAdd * (weapon.maxLv - 1))
   const crt = Math.floor(weapon.criticalBase + weapon.criticalAdd * (weapon.maxLv - 1))
 
@@ -54,7 +57,7 @@ const WeaponShowPage = ({ rootWeapon }: WeaponShowPageProps) => {
           <Box sx={{ p: 1, borderBottom: 'default' }}>{replaceNewLine(weapon.description)}</Box>
           <Flex sx={{ alignItems: 'center', p: 1, borderBottom: 'default' }}>
             <WeaponTypeIcon type={weapon.type} />
-            <Box ml={1}>{getWeaponTypeLabel(weapon.type)}</Box>
+            <Box ml={1}>{getWeaponTypeLabel(weapon.type, locale)}</Box>
           </Flex>
           <Box sx={{ p: 1 }}>
             ATK : {atk} / CRT : {crt} (at Max Lv {weapon.maxLv})
@@ -112,7 +115,7 @@ const WeaponShowPage = ({ rootWeapon }: WeaponShowPageProps) => {
 export default WeaponShowPage
 
 export async function getStaticProps({ locale, params }: NextPageContext & { params: { weaponId: string } }) {
-  const rootWeapon = loadWeaponData(params.weaponId)
+  const rootWeapon = loadWeaponData(params.weaponId, locale)
 
   return {
     props: { rootWeapon, ...(await getI18NProps(locale)) }

@@ -1,4 +1,5 @@
 import { useTranslation } from 'next-i18next'
+import { useRouter } from 'next/router'
 
 export function translate(
   targetLocale: string = 'en_US',
@@ -9,3 +10,8 @@ export function translate(
 }
 
 export { useTranslation }
+
+export function useLocale() {
+  const { locale } = useRouter()
+  return locale || 'en-US'
+}

@@ -20,7 +20,6 @@ const BattlesuitCatalogItemCard = ({ battlesuit, label = false }: BattlesuitCata
           textAlign: 'center',
           overflow: 'hidden',
           width: 110,
-          marginLeft: -10,
           textOverflow: 'ellipsis',
           whiteSpace: 'nowrap'
         }}

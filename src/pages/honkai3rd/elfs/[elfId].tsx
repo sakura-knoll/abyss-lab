@@ -128,7 +128,7 @@ const ElfShowPage = ({ elf }: ElfShowPageProps) => {
 export default ElfShowPage
 
 export async function getStaticProps({ locale, params }: NextPageContext & { params: { elfId: string } }) {
-  const elf = loadElfData(params.elfId)
+  const elf = loadElfData(params.elfId, locale)
 
   return {
     props: { elf, ...(await getI18NProps(locale)) }

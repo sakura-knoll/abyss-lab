@@ -22,7 +22,7 @@ const SigilsPage = ({ erSigils }: SigilsPageProps) => {
         title={`${t('elysian-realm.remembrance-sigil')} (${t('common.elysian-realm')}) - ${t(
           'common.honkai-3rd'
         )} - ${t('common.abyss-lab')}`}
-        description={`${t('common.elysian-realm')} ${t('elysian-realm.supports')}`}
+        description={`${t('common.elysian-realm')} ${t('elysian-realm.remembrance-sigil')}`}
         canonicalHref={`/honkai3rd/er/sigils`}
       />
 
@@ -41,7 +41,7 @@ const SigilsPage = ({ erSigils }: SigilsPageProps) => {
           ]}
         />
 
-        <Heading as="h1">ER Sigils</Heading>
+        <Heading as="h1">{t('elysian-realm.remembrance-sigil')}</Heading>
 
         <Card mb={3}>
           {erSigils.map(sigil => {
@@ -76,7 +76,7 @@ const SigilsPage = ({ erSigils }: SigilsPageProps) => {
 export default SigilsPage
 
 export async function getStaticProps({ locale }: NextPageContext) {
-  const erSigils = loadErSigils()
+  const erSigils = loadErSigils(locale)
 
   return {
     props: { erSigils, ...(await getI18NProps(locale)) }

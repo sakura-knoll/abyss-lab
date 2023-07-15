@@ -15,6 +15,7 @@ import Head from '../../../components/atoms/Head'
 import { useTranslation } from 'next-i18next'
 import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import PageLink from '../../../components/atoms/PageLink'
+import { useLocale } from '../../../lib/i18n'
 
 interface StigmaShowPageProps {
   rootStigma: RootStigma
@@ -23,6 +24,7 @@ interface StigmaShowPageProps {
 
 const StigmaShowPage = ({ rootStigma, stigmataSetCatalogItem }: StigmaShowPageProps) => {
   const { t } = useTranslation()
+  const locale = useLocale()
 
   const stigma = rootStigma.stigmata[rootStigma.stigmata.length - 1]
 
@@ -70,7 +72,7 @@ const StigmaShowPage = ({ rootStigma, stigmataSetCatalogItem }: StigmaShowPagePr
           <Box sx={{ p: 1, borderBottom: 'default' }}>{replaceNewLine(stigma.description)}</Box>
           <Flex sx={{ alignItems: 'center', p: 1, borderBottom: 'default' }}>
             <StigmaTypeIcon type={stigma.type} />
-            <Box ml={1}>{getStigmaTypeLabel(stigma.type)}</Box>
+            <Box ml={1}>{getStigmaTypeLabel(stigma.type, locale)}</Box>
           </Flex>
           <Box sx={{ p: 1 }}>
             HP : {hp} / ATK : {atk} / DEF : {def} / CRT : {crt} (at Max Lv {stigma.maxLv})
@@ -148,7 +150,7 @@ const StigmaShowPage = ({ rootStigma, stigmataSetCatalogItem }: StigmaShowPagePr
             </Flex>
           </>
         )}
-        {/* <pre>{JSON.stringify(weapon, null, 2)}</pre> */}
+        {/* <pre>{JSON.stringify(stigma, null, 2)}</pre> */}
       </Box>
     </Honkai3rdLayout>
   )
@@ -157,14 +159,14 @@ const StigmaShowPage = ({ rootStigma, stigmataSetCatalogItem }: StigmaShowPagePr
 export default StigmaShowPage
 
 export async function getStaticProps({ locale, params }: NextPageContext & { params: { stigmaId: string } }) {
-  const rootStigma = loadStigmaData(params.stigmaId)
+  const rootStigma = loadStigmaData(params.stigmaId, locale)
   const setId = rootStigma.stigmata[0].setId
 
   let stigmataSetCatalogItem: StigmataSetCatalogItem | null = null
   if (setId !== '0') {
-    const stigmataSet = loadStigmataSetData(setId)
+    const stigmataSet = loadStigmataSetData(setId, locale)
     const setStigmataList = stigmataSet.stigmaIdList.map(id => {
-      const targetRootStigma = params.stigmaId === id ? rootStigma : loadStigmaData(id)
+      const targetRootStigma = params.stigmaId === id ? rootStigma : loadStigmaData(id, locale)
       const maxedStigma = targetRootStigma.stigmata[targetRootStigma.stigmata.length - 1]
       return {
         id: targetRootStigma.id,

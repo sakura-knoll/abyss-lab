@@ -1,6 +1,24 @@
 import { AttributeType, CharacterType, SkillType, StigmaType, TagType, WeaponType } from './types'
 
-export function getAttributeLabel(type: AttributeType) {
+export function getAttributeLabel(type: AttributeType, locale: string) {
+  if (locale === 'en-US') {
+    switch (type) {
+      case 'bio':
+        return 'Biologic'
+      case 'psy':
+        return 'Psychic'
+      case 'mech':
+        return 'Mecha'
+      case 'qua':
+        return 'Quantum'
+      case 'img':
+        return 'IMG'
+      case 'none':
+        return 'None'
+      default:
+        return `Unknown Attribute Type (${type})`
+    }
+  }
   switch (type) {
     case 'bio':
       return '생물'
@@ -19,7 +37,35 @@ export function getAttributeLabel(type: AttributeType) {
   }
 }
 
-export function getWeaponTypeLabel(type: WeaponType) {
+export function getWeaponTypeLabel(type: WeaponType, locale: string) {
+  if (locale === 'en-US') {
+    switch (type) {
+      case 'pistols':
+        return 'Pistols'
+      case 'katana':
+        return 'Blade'
+      case 'cannon':
+        return 'Heavy'
+      case 'cross':
+        return 'Cross'
+      case '2-handed':
+        return '2-Handed'
+      case 'scythe':
+        return 'Scythe'
+      case 'lance':
+        return 'Lance'
+      case 'fists':
+        return 'Fists'
+      case 'bow':
+        return 'Bow'
+      case 'chakram':
+        return 'Chakram'
+      case 'javelin':
+        return 'Javelin'
+      default:
+        return `Unknown Weapon Type (${type})`
+    }
+  }
   switch (type) {
     case 'pistols':
       return '쌍권총'
@@ -48,7 +94,19 @@ export function getWeaponTypeLabel(type: WeaponType) {
   }
 }
 
-export function getStigmaTypeLabel(type: StigmaType) {
+export function getStigmaTypeLabel(type: StigmaType, locale: string) {
+  if (locale === 'en-US') {
+    switch (type) {
+      case 'top':
+        return 'Top'
+      case 'mid':
+        return 'Mid'
+      case 'bot':
+        return 'Bot'
+      default:
+        return `Unknown Stigma Type (${type})`
+    }
+  }
   switch (type) {
     case 'top':
       return '상단'
@@ -61,7 +119,29 @@ export function getStigmaTypeLabel(type: StigmaType) {
   }
 }
 
-export function getSkillTypeLabel(type: SkillType) {
+export function getSkillTypeLabel(type: SkillType, locale: string) {
+  if (locale === 'en-US') {
+    switch (type) {
+      case 'leader':
+        return 'Leader Skill'
+      case 'passive':
+        return 'Passive'
+      case 'evasion':
+        return 'Evade'
+      case 'special':
+        return 'Special Attack'
+      case 'ultimate':
+        return 'Ultimate'
+      case 'basic':
+        return 'Basic Skill'
+      case 'sp':
+        return 'SP Skill'
+      case 'none':
+        return 'None'
+      default:
+        return `Unknown Skill Type (${type})`
+    }
+  }
   switch (type) {
     case 'leader':
       return '리더 스킬'
@@ -70,7 +150,7 @@ export function getSkillTypeLabel(type: SkillType) {
     case 'evasion':
       return '회피'
     case 'special':
-      return '기본 공격'
+      return '특수 공격'
     case 'ultimate':
       return '필살기'
     case 'basic':
@@ -84,7 +164,7 @@ export function getSkillTypeLabel(type: SkillType) {
   }
 }
 
-export function getCharacterTypeLabel(type: CharacterType, locale: string = 'en-US') {
+export function getCharacterTypeLabel(type: CharacterType, locale: string) {
   if (locale === 'en-US') {
     switch (type) {
       case 'kiana':
@@ -249,8 +329,8 @@ export function getCharacterTypeLabel(type: CharacterType, locale: string = 'en-
   }
 }
 
-export function getTagTypeLabel(type: TagType, locale: string = 'en-US') {
-  if (type) {
+export function getTagTypeLabel(type: TagType, locale: string) {
+  if (locale === 'en-US') {
     switch (type) {
       case 'branch':
         return 'Branch'
@@ -362,7 +442,21 @@ export function getTagTypeLabel(type: TagType, locale: string = 'en-US') {
   }
 }
 
-export function getErSignetTypeLabel(quality: number) {
+export function getErSignetTypeLabel(quality: number, locale: string) {
+  if (locale === 'en-US') {
+    switch (quality) {
+      case 1:
+        return 'Normal Signet'
+      case 2:
+        return 'Enhanced Signet'
+      case 3:
+        return 'Core Signet'
+      case 4:
+        return 'Exclusive Signet'
+      default:
+        return `Unknown (${quality})`
+    }
+  }
   switch (quality) {
     case 1:
       return '일반 각인'
@@ -373,6 +467,75 @@ export function getErSignetTypeLabel(quality: number) {
     case 4:
       return '전용 각인'
     default:
-      return `Unknown (${quality})`
+      return `Unknown Signet Type(${quality})`
+  }
+}
+
+export function getSignetGroupLabel(id: string, locale: string) {
+  if (locale === 'en-US') {
+    switch (id) {
+      case '1':
+        return 'Deliverance'
+      case '2':
+        return 'Gold'
+      case '3':
+        return 'Decimation'
+      case '4':
+        return 'Bodhi'
+      case '5':
+        return 'Setsuna'
+      case '6':
+        return 'Infinity'
+      case '7':
+        return 'Vicissitude'
+      case '8':
+        return '■■'
+      case '9':
+        return '■■'
+      case '10':
+        return 'Discipline'
+      case '11':
+        return 'Helix'
+      case '12':
+        return 'Daybreak'
+      case '13':
+        return 'Stars'
+      case '14':
+        return 'Reverie'
+      default:
+        return `Unknown Signet Group (${id})`
+    }
+  }
+  switch (id) {
+    case '1':
+      return '[구원]의 각인'
+    case '2':
+      return '[황금]의 각인'
+    case '3':
+      return '[오멸]의 각인'
+    case '4':
+      return '[천혜]의 각인'
+    case '5':
+      return '[찰나]의 각인'
+    case '6':
+      return '[무한]의 각인'
+    case '7':
+      return '[부생]의 각인'
+    case '8':
+      return '[■■]의 각인'
+    case '9':
+      return '[■■]의 각인'
+    case '10':
+      return '[계율]의 각인'
+    case '11':
+      return '[나선]의 각인'
+    case '12':
+      return '[욱광]의 각인'
+    case '13':
+      return '[번성]의 각인'
+    case '14':
+      return '[환몽]의 각인'
+    default:
+      return `Unknown Signet Group (${id})`
   }
 }

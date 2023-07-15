@@ -52,7 +52,7 @@ const SupportsPage = ({
             }
           ]}
         />
-        <Heading as="h1">ER Supports</Heading>
+        <Heading as="h1">{t('elysian-realm.supports')}</Heading>
 
         <Card mb={3}>
           {erSupports.map(support => {
@@ -84,8 +84,8 @@ const SupportsPage = ({
 export default SupportsPage
 
 export async function getStaticProps({ locale }: NextPageContext) {
-  const battlesuitCatalog = loadBattlesuitCatalog()
-  const erSupports = loadErSupports()
+  const battlesuitCatalog = loadBattlesuitCatalog(locale)
+  const erSupports = loadErSupports(locale)
 
   return {
     props: { battlesuitCatalog, erSupports, ...(await getI18NProps(locale)) }

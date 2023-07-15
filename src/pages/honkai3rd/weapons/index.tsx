@@ -72,7 +72,7 @@ const WeaponListPage = ({ weaponCatalog }: WeaponListPageProps) => {
 export default WeaponListPage
 
 export async function getStaticProps({ locale }: NextPageContext) {
-  const weaponCatalog = loadWeaponCatalog()
+  const weaponCatalog = loadWeaponCatalog(locale)
 
   return {
     props: { weaponCatalog, ...(await getI18NProps(locale)) }

@@ -21,6 +21,8 @@ import Breadcrumb from '../../../components/organisms/Breadcrumb'
 import { useTranslation } from 'next-i18next'
 import { getI18NProps } from '../../../server/i18n'
 import PageLink from '../../../components/atoms/PageLink'
+import { getSignetGroupLabel } from '../../../lib/v2/data/text'
+import { useLocale } from '../../../lib/i18n'
 
 interface ErPageProps {
   erBattlesuitCatalog: ErBattlesuitCatalogItem[]
@@ -31,6 +33,7 @@ interface ErPageProps {
 
 const ErPage = ({ erBattlesuitCatalog, battlesuitCatalog, erSupports, erSigils }: ErPageProps) => {
   const { t } = useTranslation()
+  const locale = useLocale()
 
   const battlesuitCatalogMap = useMemo(() => {
     return battlesuitCatalog.reduce((map, item) => {
@@ -57,9 +60,9 @@ const ErPage = ({ erBattlesuitCatalog, battlesuitCatalog, erSupports, erSigils }
             }
           ]}
         />
-        <Heading as="h1">Elysian Realm</Heading>
+        <Heading as="h1">{t('elysian-realm.elysian-realm')}</Heading>
 
-        <Heading as="h2">Signets</Heading>
+        <Heading as="h2">{t('elysian-realm.signets')}</Heading>
         <Flex sx={{ flexWrap: 'wrap', mb: 3 }}>
           {signetGroups.map(signetGroup => {
             return (
@@ -71,7 +74,7 @@ const ErPage = ({ erBattlesuitCatalog, battlesuitCatalog, erSupports, erSigils }
                       originalSize={120}
                       size={40}
                     />
-                    <Box p={1}>{signetGroup.name}</Box>
+                    <Box p={1}>{getSignetGroupLabel(signetGroup.id, locale)}</Box>
                   </Flex>
                 </Card>
               </PageLink>
@@ -79,7 +82,7 @@ const ErPage = ({ erBattlesuitCatalog, battlesuitCatalog, erSupports, erSigils }
           })}
         </Flex>
 
-        <Heading as="h2">Battlesuits</Heading>
+        <Heading as="h2">{t('elysian-realm.battlesuits')}</Heading>
         <Flex sx={{ flexWrap: 'wrap', mb: 3 }}>
           {erBattlesuitCatalog.map(erBattlesuit => {
             const battlesuit = battlesuitCatalogMap.get(erBattlesuit.battlesuit)!
@@ -93,7 +96,7 @@ const ErPage = ({ erBattlesuitCatalog, battlesuitCatalog, erSupports, erSigils }
           })}
         </Flex>
 
-        <Heading as="h2">Supports</Heading>
+        <Heading as="h2">{t('elysian-realm.supports')}</Heading>
 
         <Flex sx={{ flexWrap: 'wrap' }}>
           {erSupports.map(support => {
@@ -109,14 +112,13 @@ const ErPage = ({ erBattlesuitCatalog, battlesuitCatalog, erSupports, erSigils }
                       {battlesuit.fullName}
                     </Box>
                   </Box>
-                  {/* <BattlesuitCatalogItemCard battlesuit={battlesuit} /> */}
                 </PageLink>
               </Box>
             )
           })}
         </Flex>
 
-        <Heading as="h2">Sigils</Heading>
+        <Heading as="h2">{t('elysian-realm.remembrance-sigil')}</Heading>
 
         <Flex sx={{ flexWrap: 'wrap' }}>
           {erSigils.map(sigil => {
@@ -137,13 +139,13 @@ const ErPage = ({ erBattlesuitCatalog, battlesuitCatalog, erSupports, erSigils }
 export default ErPage
 
 export async function getStaticProps({ locale }: NextPageContext) {
-  const erBattlesuitCatalog = loadErBattlesuitCatalog()
-  const battlesuitCatalog = loadBattlesuitCatalog()
-  const erSupports = loadErSupports().map(support => {
+  const erBattlesuitCatalog = loadErBattlesuitCatalog(locale)
+  const battlesuitCatalog = loadBattlesuitCatalog(locale)
+  const erSupports = loadErSupports(locale).map(support => {
     return support.battlesuit
   })
 
-  const erSigils = loadErSigils().map(sigil => {
+  const erSigils = loadErSigils(locale).map(sigil => {
     return {
       id: sigil.id,
       name: sigil.name

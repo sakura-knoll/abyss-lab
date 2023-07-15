@@ -94,7 +94,7 @@ const StigmataSetListPage = ({ stigmataSetCatalog }: StigmataSetListPageProps) =
 export default StigmataSetListPage
 
 export async function getStaticProps({ locale }: NextPageContext) {
-  const stigmataSetCatalog = loadStigmataSetCatalog()
+  const stigmataSetCatalog = loadStigmataSetCatalog(locale)
 
   return {
     props: { stigmataSetCatalog, ...(await getI18NProps(locale)) }
