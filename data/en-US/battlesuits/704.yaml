@@ -1,0 +1,430 @@
+id: "704"
+fullName: "Argent Knight: Artemis"
+shortName: "Argent Knight: Artemis"
+desc: "<color=white>Features: </color><color=#FFAF2CFF>BIO-type</color> melee
+  character. Summons Crescent Harvest. Strong crowd control debuffs with
+  Hypothermia and Ice Cell."
+firstName: Rita
+lastName: Rossweisse
+enFirstName: null
+enLastName: null
+attributeType: bio
+isEasterner: false
+weapon: scythe
+character: rita
+initialStar: s
+tags:
+  - ice-dmg
+  - freeze
+  - burst
+skills:
+  - id: "391"
+    name: Cold Moon
+    info: "5-sequence scythe sweeps.\\n<color=#23B2E2FF>1st Sequence: 80% ATK of
+      Physical DMG.\\n2nd Sequence: 40%+100% ATK of Physical DMG.\\n3rd
+      Sequence: 40%+100% ATK of Physical DMG.\\n4th Sequence: 2x60%+160% ATK of
+      Physical DMG; pulls in enemies within a small AOE.\\n5th Sequence:
+      150%+250% ATK of Physical DMG, summons Crescent Harvest (summoned entity)
+      to unleash a hit dealing 150% ATK of Ice DMG.\\nDuring the 5-sequence
+      Basic ATK, tap [ATK] immediately after Evasion to continue the
+      sequence.</color>"
+    icon: Skill_Rita_DQ_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3901"
+        name: Frost Scythe
+        info: "Each strike of the 5-sequence Basic ATK gains #1[f1]% ATK of Ice DMG."
+        brief: Basic ATK deals more Ice DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 70
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00652
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3902"
+        name: Crimson Astarte
+        info: "Hitting enemies not affected by Ice Cell or 2 stacks of Hypothermia with
+          first 4 sequences of Basic ATK summons Crescent Harvest at the enemy's
+          location, striking 1 time to deal #1[f1]% ATK of AOE Ice DMG and
+          inflict Hypothermia. Summon CD: #2[f2]s."
+        brief: Hits of Basic ATKs can summon Crescent Harvest to strike the enemy. This
+          effect has a CD.
+        icon: Skill_Nagative_Skill03
+        maxLv: 15
+        paramBase1: 2
+        paramBase2: 12
+        paramBase3: 0
+        paramAdd1: 0.17857
+        paramAdd2: -0.42857
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3912"
+        name: Crescent Shadow
+        info: "<size=14>When team mates hit enemies with Charged or Combo ATKs, summon
+          Crescent Harvest at the enemy's location, striking 1 time to deal
+          #1[f1]% ATK of AOE Ice DMG and apply Hypothermia. Summon CD: #2[f2]s.
+          CD is counted separately for each team mate.</size>"
+        brief: Summons Crescent Harvest when team mate hits enemies with Charged or
+          Combo ATKs.
+        icon: Skill_Nagative_Skill03
+        maxLv: 33
+        paramBase1: 1
+        paramBase2: 20
+        paramBase3: 0
+        paramAdd1: 0.0625
+        paramAdd2: -0.25
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "392"
+    name: "<color=#FFC741FF>Charge</color>: Frost Beam"
+    info: "Tap and hold [ATK] during Basic ATK to remove 2 stacks of Hypothermia and
+      deal massive DMG.\\n<color=#23B2E2FF>Hold [ATK] during any Basic ATK
+      sequence to unleash Charged ATK, which deals 100% ATK of AoE Ice DMG,
+      removes 2 stacks (if any) of Hypothermia, seals enemies in Ice Cell, and
+      deals 4 x 100% ATK of Ice DMG. Enemies in Ice Cell receive</color>
+      <color=#FEDF4CFF>5 Rime Trauma</color><color=#23B2E2FF>.\\nNormal mode:
+      Each Charged ATK restores 3 SP upon removing 2 stacks of
+      Hypothermia.\\nBurst mode: Charged ATK penetrates enemies to deal 2 x 150%
+      ATK of Ice DMG, and upon hitting the first enemy, summons Crescent Harvest
+      (summoned entity) whose spinning scythe deals 5 x 125% ATK of Ice
+      DMG.\\nSwitch Skill: Enhanced Basic ATK SEQ 3 which deals 80% + 160% ATK
+      of Physical DMG.</color>"
+    icon: Skill_Rita_DQ_002
+    skillType: special
+    tags:
+      - type: freeze
+        strength: 1
+        comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+          rate: weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3903"
+        name: Argent Scythe
+        info: "Charged ATK consumes 2 stacks of Hypothermia to deal multi-stage DMG.
+          Each stage gains #1[f1]% ATK of Ice DMG."
+        brief: Raises the multi-stage Ice DMG after consuming Hypothermia.
+        icon: Skill_Nagative_Damage02
+        maxLv: 73
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01528
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3904"
+        name: "<color=#FFC741FF>QTE</color>: Sudden Frost"
+        info: "QTE: Triggered when paralyzing or freezing the enemy, dealing
+          100%+150%+#1[f1]% ATK of Physical DMG. Crescent Harvest deals
+          3x50%+#2[f1]% ATK of Ice DMG and applies 1 stack of Hypothermia."
+        brief: "QTE: Triggered when an enemy is paralyzed or frozen to deal Physical &
+          Ice DMG."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 24
+        paramBase1: 2
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 0.04348
+        paramAdd2: 0.08696
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "3905"
+        name: Glacial Armor
+        info: "When Charged ATK consumes 2 stacks of Hypothermia, gain Glacial Armor
+          that gives a #1[f1]% Total DMG Reduction buff for #2[f2]s."
+        brief: Gain Glacial Armor for a Total DMG Reduction buff when Charged ATK
+          consumes Hypothermia.
+        icon: Skill_Nagative_Survive03
+        maxLv: 16
+        paramBase1: 0.3
+        paramBase2: 4
+        paramBase3: 0
+        paramAdd1: 0.01333
+        paramAdd2: 0.2
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "393"
+    name: Phantom Dance
+    info: "Quickly evades enemy attack. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Immediately launch the 4th sequence of Basic ATK
+      after Ultimate Evasion.\\nPhantom Dance: Summons Crescent Harvest
+      (summoned entity) on the attacker upon Ultimate Evasion, dealing 6x80% ATK
+      of AOE Ice DMG and inflicting Hypothermia; CD: 20s.</color>"
+    icon: Skill_Rita_DQ_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3906"
+        name: Uranian Mirror
+        info: "Shortens CD of Phantom Dance by #1[f1]s."
+        brief: Shortens CD of Phantom Dance.
+        icon: Skill_Nagative_Skill03
+        maxLv: 18
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.14706
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s1
+      - id: "3907"
+        name: Waning Crescent
+        info: "Crescent Harvest summoned by Phantom Dance gain #1[f1]% ATK of Ice DMG
+          for every ATK sequence."
+        brief: Crescent Harvest summoned by Phantom Dance deals more Ice DMG for every
+          ATK sequence.
+        icon: Skill_Nagative_Damage02
+        maxLv: 15
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02143
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3917"
+        name: Rimy World
+        info: "Each Charged ATK boosts Crescent Harvest's Ice DMG by #1[f1]% for 3s."
+        brief: Charged ATKs boost Crescent Harvest's Ice DMG.
+        icon: Skill_Nagative_Survive03
+        maxLv: 1
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+  - id: "394"
+    name: Rave of Artemis
+    info: "<color=#23B2E2FF>Enters burst mode: Obtain Glacial Armor that increases
+      Ignore Interrupt and grants 60% Total DMG Reduction. Basic ATK deals bonus
+      Ice DMG, and the last hit of each SEQ converts 2 stacks of Hypothermia
+      into Ice Cell. During Basic ATK, Crescent Harvest (summoned entity)
+      assists Rita in attacking, and its SEQ 2 and 4 inflict
+      Hypothermia.\\nLunar Burst: In burst mode, spend 10 SP to cast Ultimate
+      again to end burst mode, deal 400% ATK of Ice DMG in a huge area, inflict
+      Ice Cell lasting 3s (2s for Bosses), inflict</color> <color=#FEDF4CFF>10
+      Rime Trauma</color><color=#23B2E2FF>, and return to 2 stacks of
+      Hypothermia.\\nCD: 6s. Min activation SP: 80. SP consumption: 0-7s: 7
+      SP/s; 8-16s: 10 SP/s; after 16s: 15 SP/s. Max duration: 24s.</color>"
+    icon: Skill_Rita_DQ_004
+    skillType: ultimate
+    tags:
+      - type: freeze
+        strength: 2
+        comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+          rate: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3909"
+        name: Frost Cells
+        info: "Lunar Burst deal another #1[f1]% ATK of Ice DMG. Extends Ice Cell
+          duration by #2[f2]s (duration against elites or bosses is extended by
+          #3[f2]s)."
+        brief: Lunar Burst deals more Ice DMG. Also extends Ice Cell duration.
+        icon: Skill_Nagative_Control02
+        maxLv: 20
+        paramBase1: 1
+        paramBase2: 0.5
+        paramBase3: 0.3
+        paramAdd1: 0.10526
+        paramAdd2: 0.05263
+        paramAdd3: 0.03684
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "3910"
+        name: Winter Harvest
+        info: "Burst: 5-sequence Basic ATK and Charged ATK of character / Crescent
+          Harvest gain #1[f1]% / #2[f1]% Ice DMG (including the multi-stage DMG
+          inflicted by consuming 2 stacks of Hypothermia)."
+        brief: "Burst: Character and Crescent Harvest deals more Ice DMG."
+        icon: Skill_Nagative_Damage03
+        maxLv: 25
+        paramBase1: 0.3
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0.0125
+        paramAdd2: 0.01667
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3914"
+        name: Waxing Moon
+        info: "Performing the Ultimate heals the character for #1[f1] HP."
+        brief: Performing the Ultimate heals HP.
+        icon: Skill_Nagative_Survive03
+        maxLv: 10
+        paramBase1: 200
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 44.44444
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "395"
+    name: Herald of Dawn
+    info: "Leader Bonus:\\n<color=#23B2E2FF>Setting Moon: {{Team gains #1[i]% Total
+      DMG Multiplier to Charged or Combo ATKs. For teams with characters of 3
+      different types, attacks gain #2[i]% Elemental DMG.}}</color>"
+    icon: Skill_Rita_DQ_005
+    skillType: leader
+    tags: []
+    paramSubId1: 3911
+    paramSubId2: 3911
+    paramSubId3: 0
+    subSkills:
+      - id: "3911"
+        name: Herald of Dawn
+        info: "Charged/Combo ATKs of all team members deal #1[i]% more Total DMG. If the
+          team is formed by battlesuits of 3 different types, all team members
+          gain #2[i]% All Elemental DMG."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Skill02
+        maxLv: 2
+        paramBase1: 0.13
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+      - id: "3916"
+        name: Crescent Blade
+        info: "In burst mode, Valkyrie's Attack Speed increases by #1[f1]%."
+        brief: Valkyrie has faster Attack Speed in burst mode.
+        icon: Skill_Nagative_Damage02
+        maxLv: 1
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss1
+      - id: "3918"
+        name: Jade Moon
+        info: "Crescent Shadow's summoning cooldown is reduced to #1[f1]s."
+        brief: Crescent Shadow's summoning cooldown is reduced.
+        icon: Skill_Nagative_Survive03
+        maxLv: 1
+        paramBase1: 6
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss2
+  - id: "396"
+    name: Hypothermia
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E2FF>Hypothermia: When
+      Crescent Harvest is present, certain moves inflict Hypothermia (2 stacks
+      max).\\n1 stack: Reduces enemy Ignore Interrupt for 10s and
+      inflicts</color> <color=#FEDF4CFF>2 Rime Trauma</color><color=#23B2E2FF>;
+      2 stacks: Within 6s, reduces enemy Ignore Interrupt & Interrupt, and slows
+      enemy ATK Speed & Move Speed by 20%. Stacking inflicts</color>
+      <color=#FEDF4CFF>2 Rime Trauma</color><color=#23B2E2FF>.\\nInflicting
+      Hypothermia on enemies with 2 stacks will refresh the duration. This
+      effect does not apply to enemies in Ice Cell.</color>"
+    icon: Skill_Rita_DQ_006
+    skillType: passive
+    tags:
+      - type: freeze
+        strength: 1
+        comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+          rate: very weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3908"
+        name: Robust Frigidity
+        info: "Gains #1[f1]% Total DMG at above 33% and another #2[f1]% at above 66%
+          HP."
+        brief: Attacks gain Total DMG Multiplier when character has more HP.
+        icon: Skill_Nagative_Damage02
+        maxLv: 5
+        paramBase1: 0.06
+        paramBase2: 0.06
+        paramBase3: 0
+        paramAdd1: 0.0225
+        paramAdd2: 0.0225
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3913"
+        name: Diamond Dust
+        info: "Gains #1[f1]% or #2[f1]% Ice DMG against enemies affected by Hypothermia
+          or Ice Cell respectively."
+        brief: Gain an Ice DMG buff against enemies with Hypothermia or trapped in Ice
+          Cell.
+        icon: Skill_Nagative_Damage02
+        maxLv: 6
+        paramBase1: 0.2
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0.06
+        paramAdd2: 0.08
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3915"
+        name: Frost Prison
+        info: "Enemies trapped in Ice Cell take #1[f1]% bonus Total DMG (independent
+          effect)."
+        brief: DMG against enemies in Ice Cell enjoy a Total DMG Multiplier bonus.
+        icon: Skill_Nagative_Survive03
+        maxLv: 3
+        paramBase1: 0.08
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.08
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

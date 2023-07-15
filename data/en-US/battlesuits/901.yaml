@@ -1,0 +1,410 @@
+id: "901"
+fullName: Blazing Hope
+shortName: Blazing Hope
+desc: "<color=white>Features: </color><color=#FFAF2CFF>BIO-type</color> melee
+  battlesuit."
+firstName: Asuka
+lastName: null
+enFirstName: null
+enLastName: null
+attributeType: bio
+isEasterner: true
+weapon: lance
+character: asuka
+initialStar: a
+tags:
+  - physical-dmg
+  - time-mastery
+skills:
+  - id: "601"
+    name: Anta Baka?
+    info: "Lance attacks.\\n<color=#23B2E2FF>1st Sequence: 40% + 60% ATK of Physical
+      DMG and 20 Field Energy regen.\\n2nd Sequence: 50% + 50% ATK of Physical
+      DMG and 20 Field Energy regen.\\n3rd Sequence: 3x60% ATK of Physical DMG
+      and 30 Field Energy regen.\\n4th Sequence: 3x70% ATK of Physical DMG and
+      30 Field Energy regen.\\n5th Sequence: 300% ATK of Physical DMG and 30
+      Field Energy regen.</color>"
+    icon: Skill_Asuka_C1_ZT_601
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6001"
+        name: I'm Special
+        info: "Valkyrie deals #1[f1]% bonus Physical DMG against single enemies."
+        brief: Valkyrie deals bonus Physical DMG against single enemies.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6002"
+        name: I'm More Than Enough
+        info: "During 3rd/4th/5th sequences of Basic ATK, Valkyrie has higher Ignore
+          Interrupt and takes #1[f1]% less Total DMG."
+        brief: During 3rd/4th/5th sequences of Basic ATK, Valkyrie has higher Ignore
+          Interrupt and takes less damage.
+        icon: Skill_Nagative_Survive01
+        maxLv: 11
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "6003"
+        name: "<color=#FFC741FF>QTE</color>: So Look at Me Please"
+        info: "QTE: Triggered when an enemy is knocked airborne to induce 3s of Global
+          Time Fracture and deal #1[f1]% ATK of Physical DMG."
+        brief: "QTE: Triggered when an enemy is knocked airborne."
+        icon: Skill_Nagative_Skill01
+        maxLv: 11
+        paramBase1: 5.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.35
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+  - id: "602"
+    name: <color=#FFC741FF>Charged:</color> Chance!
+    info: "Charge for a duration or longer to perform different
+      attacks.\\n<color=#23B2E2FF>Hold [ATK] to charge, during which Valkyrie
+      takes 80% less Total DMG and has Iron Body. Short charge and long charge
+      result in different attacks.\\nCharged ATK I: Consume 100 Field Energy to
+      charge forward dealing 4x100% ATK of Physical DMG.\\nCharged ATK II:
+      Consume 200 Field Energy to deal 3x100% + 700% ATK of Physical DMG.\\nIn
+      non-enhanced form, Charged ATK I restores 5 SP and Charged ATK II restores
+      15.\\nPerforming a Charged ATK grants a barrier that reduces Total DMG
+      taken from the next hit by 50%.</color>"
+    icon: Skill_Asuka_C1_ZT_602
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6004"
+        name: Don't Order Me
+        info: "In non-enhanced form, Charged ATK II restores #1[f1] Field Energy."
+        brief: In non-enhanced form, Charged ATK II restores Field Energy.
+        icon: Skill_Nagative_Skill02
+        maxLv: 5
+        paramBase1: 30
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6005"
+        name: I Knew It Already
+        info: "Charged ATK II deals #1[f1]% bonus Total DMG to unshielded enemies, and
+          the last hit deals #2[f1]% ATK of bonus Physical DMG after a 2s
+          delay."
+        brief: Charged ATK II deals bonus Total DMG to unshielded enemies, and the last
+          hit further deals bonus damage.
+        icon: Skill_Nagative_Damage01
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0.75
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.15
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6006"
+        name: One More Hit
+        info: "Charged ATK I deals #1[f1]% bonus damage to shields. In enhanced form,
+          Charged ATKs deal #2[f1]% bonus damage to shields."
+        brief: Charged ATK I deals bonus damage to shields. In enhanced form, Charged
+          ATKs deal bonus damage to shields.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.5
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "603"
+    name: Eins Zwei Drei
+    info: "Evade enemy attacks up to twice in row.\\n<color=#23B2E2FF>Ultimate
+      Evasion triggers 3s of Global Time Fracture. CD: 15s.\\nTap [ATK] after
+      Ultimate Evasion to perform Ultimate Evasion ATK dealing 4x120% ATK of
+      Physical DMG and restoring 60 Field Energy.</color>"
+    icon: Skill_Asuka_C1_ZT_603
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6007"
+        name: No More Prayers
+        info: "Ultimate Evasion ATKs deal #1[f1]% bonus Physical DMG."
+        brief: Ultimate Evasion ATKs deal bonus Physical DMG.
+        icon: Skill_Nagative_Survive02
+        maxLv: 11
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "6008"
+        name: Time Weaving
+        info: "Eins Zwei Drei's CD is reduced by #1[f1]s."
+        brief: Eins Zwei Drei's CD is reduced.
+        icon: Skill_Nagative_Skill02
+        maxLv: 4
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "604"
+    name: Thorny Lance Bloom
+    info: "Enter enhanced form and enable different attack
+      moves.\\n<color=#23B2E2FF>1st Sequence: 3x70% ATK of Physical DMG.\\n2nd
+      Sequence: 3x100% ATK of Physical DMG.\\n3rd Sequence: 400% ATK of Physical
+      DMG.\\nCharged ATK: Skip the charging to directly perform Charged ATK II
+      dealing 3x200% + 800% ATK of Physical DMG.\\nFinisher: Tap [ULT] again in
+      enhanced form to hurl the lance up in the air. When it lands, the lance
+      deals 1500% + 15x50% + 500% ATK of Physical DMG and enhanced form
+      ends.\\nCD: 18s. SP cost: 100. Duration: 12s.\\nEntering enhanced form
+      restores 200 Field Energy instantly and 30 Field Energy per second after
+      until it ends.</color>"
+    icon: Skill_Asuka_C1_ZT_604
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6009"
+        name: "Field: Spikes"
+        info: "In enhanced form, enemies take #1[f1]% bonus Physical DMG."
+        brief: In enhanced form, enemies take bonus Physical DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6010"
+        name: "Field: Blessing"
+        info: "In enhanced form, Valkyrie takes #1[f1]% less Total DMG and has higher
+          Ignore Interrupt."
+        brief: In enhanced form, Valkyrie takes less Total DMG and has higher Ignore
+          Interrupt.
+        icon: Skill_Nagative_Skill03
+        maxLv: 6
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "6011"
+        name: "Field: Impact"
+        info: "In enhanced form, Crit Rate increases by #1[f1]% and Crit DMG of Charged
+          ATK / Mind, Matching, Moment / Ultimate finisher increases by
+          #2[f1]%."
+        brief: In enhanced form, Crit Rate increases and Crit DMG of Charged ATK / Mind,
+          Matching, Moment / Ultimate finisher also increases.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.005
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "605"
+    name: "Heart: Pure Again"
+    info: "Leader Bonus:\\n<color=#23B2E2FF>Heart: Pure Again: {{In the first 15s of
+      battle, team deals #1[f1]% bonus Total DMG. Team deals #2[f1]% bonus
+      damage to shields if formed by 3 BIO battlesuits.}}</color>"
+    icon: Skill_Asuka_C1_ZT_605
+    skillType: leader
+    tags: []
+    paramSubId1: 6012
+    paramSubId2: 6012
+    paramSubId3: 0
+    subSkills:
+      - id: "6012"
+        name: "Heart: Pure Again"
+        info: "In the first 15s of battle, team deals #1[f1]% bonus Total DMG. Team
+          deals #2[f1]% bonus damage to shields if formed by 3 BIO battlesuits."
+        brief: In the first 15s of battle, team deals bonus Total DMG. Team deals bonus
+          damage to shields if formed by 3 BIO battlesuits.
+        icon: Skill_Nagative_Damage03
+        maxLv: 4
+        paramBase1: 0.2
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.1
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "606"
+    name: Say Goodbye Today
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E2FF>Field Energy:
+      Maxes at 200.\\n</color>"
+    icon: Skill_Asuka_C1_ZT_606
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6013"
+        name: On the Journey of Hope
+        info: "Valkyrie has #1[f1] initial Field Energy."
+        brief: Valkyrie has more initial Field Energy.
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 100
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 50
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "6014"
+        name: Treasure Up the Joy
+        info: "Valkyrie's imminent death triggers 1.5s of invincibility and #1[f1]% HP
+          regen. In the following 6s, she restores #2[f1]% HP per second. CD:
+          120s."
+        brief: Valkyrie's imminent death triggers invincibility and HP regen.
+        icon: Skill_Nagative_Survive02
+        maxLv: 6
+        paramBase1: 0.15
+        paramBase2: 0.03
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.004
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "6015"
+        name: Till We Meet Again
+        info: "Breaking enemy shield restores #1[f1] SP. CD: 10s."
+        brief: Breaking enemy shield restores SP.
+        icon: Skill_Nagative_Survive02
+        maxLv: 6
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "607"
+    name: Mind, Matching, Moment
+    info: The [ATK] after Charged ATK to perform special
+      attack.\n<color=#23B2E2FF>After Charged ATK I/II, tap [ATK] to perform
+      special attack dealing 300% ATK of Physical DMG, or dealing double the
+      damage and restoring 50 Field Energy in enhanced form.</color>
+    icon: Skill_Asuka_C1_ZT_607
+    skillType: sp
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6016"
+        name: Try Again
+        info: "Mind, Matching, Moment deals #1[f1]% bonus Total DMG and restores #2[f1]
+          SP."
+        brief: Mind, Matching, Moment deals bonus Total DMG and restores SP.
+        icon: Skill_Nagative_Damage02
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.4
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6017"
+        name: Discord
+        info: "In non-enhanced form, Mind, Matching, Moment enhances teammates on hit
+          for 12s. Can be refreshed. Attacks from teammates restore #1[f1] SP
+          for Valkyrie when she's on standby. Team-shared CD: 1s."
+        brief: In non-enhanced form, Mind, Matching, Moment enhances teammates on hit.
+          Attacks from teammates restore SP for Valkyrie when she's on standby.
+        icon: Skill_Nagative_Damage02
+        maxLv: 6
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "6018"
+        name: Shall We Dance？
+        info: "Mind, Matching, Moment restores #1[f1] HP on hit."
+        brief: Mind, Matching, Moment restores HP on hit.
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 60
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 30
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

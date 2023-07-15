@@ -1,0 +1,406 @@
+id: "113"
+fullName: Herrscher of the Void
+shortName: Herrscher of the Void
+desc: "<color=white>Features: </color><color=#FFAF2CFF>BIO-type</color>
+  <color=#FFAF2CFF>Awakened</color> ranged battlesuit. Uses Herrscher Form and
+  generates Space Cores to deal massive DMG."
+firstName: Kiana
+lastName: Kaslana
+enFirstName: null
+enLastName: null
+attributeType: bio
+isEasterner: false
+weapon: pistols
+character: kiana
+initialStar: s
+tags:
+  - physical-dmg
+  - time-mastery
+  - fast-atk
+  - aerial
+skills:
+  - id: "341"
+    name: Subspace Lance
+    info: "Rapid 5-sequence attack.\\n<color=#23B2E2FF>1st Sequence: 60% ATK of
+      Physical DMG.\\n2nd Sequence: 2x40% ATK of Physical DMG.\\n3rd Sequence:
+      Small AOE 150% ATK of Physical DMG, and summons a Space Core (summoned
+      entity) at the enemy's position.\\n4th Sequence: 3x40% ATK of Physical
+      DMG.\\n5th Sequence: Inflicts short Time Prison on the target enemy.
+      Explosion epicenter pulls in enemies in small AOE. Deals 80%+6x40% ATK of
+      Large AOE Physical DMG and summons a Space Core at the enemy's
+      position.\\nSpace Core explodes after being summoned, dealing 100% ATK of
+      Physical DMG (DMG calculations based on Herrscher of the Void's
+      stats).</color>"
+    icon: Skill_Kiana_YL_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3401"
+        name: Contortion Effect
+        info: "During Herrscher Form: Explosion at the Space Core summon position deals
+          #1[f1]% ATK of Physical DMG."
+        brief: "Herrscher Form: Explosion at the Space Core position deals Physical
+          DMG."
+        icon: Skill_Nagative_Control03
+        maxLv: 30
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.06897
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3402"
+        name: Weltraum Richter
+        info: "In Herrscher Form: Gains #1[f1]% Total DMG, and further gains 30% Total
+          DMG against MECH-type enemies."
+        brief: Herrscher Form buffs DMG and gives another DMG buff against MECH-type
+          enemies.
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02857
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3403"
+        name: Dimension Overload
+        info: "During Herrscher Form: Last hit of the Basic ATK sequence will also
+          slowly pull-in enemies within a #1[f1]-meter radius."
+        brief: "Herrscher Form: Last hit of Basic ATK slowly pulls in enemies."
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "342"
+    name: "<color=#FFC741FF>Charge</color>: Time Tremor"
+    info: "With at least 240 Herrscher Charge, tap and hold the [ATK] button during
+      the 5-sequence Basic ATK to unleash Charged ATK (snap her
+      fingers).\\n<color=#23B2E2FF>Herrscher Charge maxes at 480. Each Space
+      Core summoned recovers 60 Herrscher Charge. Charged attack: Temporary Time
+      Prison to the target and deals 600% ATK of Large AOE Physical DMG, and
+      activates Herrscher Form. \\nFull Herrscher Charge: Deal an extra 400% ATK
+      of Extra-large AOE Physical DMG.</color>"
+    icon: Skill_Kiana_YL_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3404"
+        name: Rift Geyser
+        info: "Explosion at the Space Core summon position gains #1[f1]% ATK of Physical
+          DMG."
+        brief: Explosion at the Space Core summon position deals more DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 15
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02143
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3405"
+        name: Distortion
+        info: "Charged ATKs gain #1[f1]% Total DMG Multiplier against unshielded
+          enemies."
+        brief: Charged ATK deals more DMG against unshielded enemies.
+        icon: Skill_Nagative_Damage03
+        maxLv: 28
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01481
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3406"
+        name: Dimension Warp
+        info: "When QTE ends, Valkyrie restores #2[f1] Herrscher Charge and has #1[f1]%
+          bonus ATK Speed for 10s."
+        brief: When QTE ends, gain 1/4 slot of Herrscher Charge and faster Attack Speed.
+        icon: Skill_Nagative_StartUp01
+        maxLv: 8
+        paramBase1: 0.05
+        paramBase2: 60
+        paramBase3: 0
+        paramAdd1: 0.02143
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "343"
+    name: Phase Shuttle
+    info: "Shuttle through the space-time fabric to evade enemy
+      attacks.\\n<color=#23B2E2FF>Ultimate Evasion summons a Space Core and
+      triggers a local Time Slow, stopping enemy action within the AOE for 3s.
+      CD: 20s.\\nAfter evasion, tap the [Attack] button within a short time
+      period to deal the 3rd strike of the 5th Basic ATK sequence.</color>"
+    icon: Skill_Kiana_YL_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3407"
+        name: Void Lock
+        info: "When there are enemies along the path of Phase Shuttle, Ultimate Evasion
+          effects will trigger without Ultimate Evasion conditions. Shortens
+          Phase Shuttle CD by #1[f1]s."
+        brief: When there are enemies along the path of Phase Shuttle, trigger Ultimate
+          Evasion effects even without Ultimate Evasion conditions. Shortens
+          Phase Shuttle CD.
+        icon: Skill_Nagative_Control01
+        maxLv: 8
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.28571
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "3408"
+        name: Suspended Space
+        info: "When local Time Slow ends, trigger Time Fracture for #1[f1]s."
+        brief: When local Time Slow ends, trigger Time Fracture.
+        icon: Skill_Nagative_Control02
+        maxLv: 4
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.33333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "3409"
+        name: Gegenstrom
+        info: "For every enemy affected by Time Slow, the Valkyrie gains #1[f1]%
+          Physical DMG for 10s. Max stacks: #2[i]."
+        brief: Deal more DMG with every Time Slowed enemy.
+        icon: Skill_Nagative_Damage03
+        maxLv: 8
+        paramBase1: 0.05
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 0.00714
+        paramAdd2: 0.15714
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "344"
+    name: Void Unleashed
+    info: "Tears open the space-time fabric to unleash a barrage of raw
+      energy.\\n<color=#23B2E2FF>Deals 9-12 hits in a large AOE in front of the
+      character, each hit dealing 300% ATK of Physical DMG and applies Time Lock
+      to enemies within a large AOE around the character for 3s.\\nSP cost: 125.
+      CD: 25s.</color>"
+    icon: Skill_Kiana_YL_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3410"
+        name: Void Empowerment
+        info: "Casting Ultimate gives #1[i] Herrscher Charge."
+        brief: Casting Ultimate gives Herrscher Charge.
+        icon: Skill_Nagative_Damage01
+        maxLv: 25
+        paramBase1: 180
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 7.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "3411"
+        name: Judgment
+        info: "Void Unleashed hits gain #1[f1]% Crit Rate against enemies above 50% HP
+          and gain #2[f2]% Total DMG against enemies below 50% HP."
+        brief: Ultimate has higher Crit Rate when attacking enemy above 50% HP, and
+          deals more DMG against enemies below 50% HP.
+        icon: Skill_Nagative_Damage03
+        maxLv: 8
+        paramBase1: 0.1
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.02857
+        paramAdd2: 0.05714
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3415"
+        name: "<size=16><color=#FFC741FF>QTE</color>: Angel of Destruction</size>"
+        info: "QTE: Triggers upon shieldbreak or when an enemy is affected by Time Slow.
+          Deals 10x#1[f1]% ATK of Physical DMG."
+        brief: "QTE: Triggered upon shield break or Time Slow to deal Physical DMG."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 60
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01356
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "345"
+    name: Void Throne
+    info: "Leader Bonus: <color=#23B2E2FF>Law of the Void: {{Team gains #1[i]% Crit
+      DMG and #2[i]% Crit Rate.}}</color>"
+    icon: Skill_Kiana_YL_005
+    skillType: leader
+    tags: []
+    paramSubId1: 3412
+    paramSubId2: 3412
+    paramSubId3: 0
+    subSkills:
+      - id: "3412"
+        name: Void Throne
+        info: "Team gains #1[i]% Crit DMG and #2[i]% Crit Rate."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Control02
+        maxLv: 2
+        paramBase1: 0.35
+        paramBase2: 0.125
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.025
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+      - id: "3417"
+        name: Spatial Collapse
+        info: "In Herrscher form, Space Core explosions deal #1[f1]% bonus Physical DMG
+          and #2[f1]% further bonus damage to shields."
+        brief: In Herrscher form, Space Core explosions deal more Physical DMG and even
+          more to shields.
+        icon: Skill_Nagative_Damage02
+        maxLv: 1
+        paramBase1: 0.18
+        paramBase2: 0.24
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss3
+      - id: "3418"
+        name: Boundless Realm
+        info: Upon entry, Herrscher Charge restores to 120.
+        brief: Herrscher Charge restores upon entry.
+        icon: Skill_Nagative_Damage02
+        maxLv: 1
+        paramBase1: 120
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "346"
+    name: Passive
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E2FF>Herrscher Form:
+      Consumes 24 Herrscher Charge every 0.5s. Can move rapidly during attack.
+      Can perform 2 consecutive evasions. Slightly gains Interrupt and Ignore
+      Interrupt. The AOE of Space Core explosion extends.\\nBasic ATK under
+      Herrscher Form becomes a 3-sequence ATK:\\n1st Sequence: 3x50% ATK of
+      Physical DMG.\\n2nd Sequence: 4x50% ATK of Physical DMG.\\n3rd Sequence:
+      Inflicts short Time Prison on the target; explosion epicenter pulls in
+      enemies within a small AOE, dealing 80%+6x50% ATK of large AOE Physical
+      DMG and summoning a Space Core at the enemy's position.</color>"
+    icon: Skill_Kiana_YL_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3413"
+        name: Law of the Void
+        info: "Each repeated attack against one single target (and hits no other
+          enemies) gains 1% Crit Rate (max: #1[i]%). Law of the Void resets if
+          not attacking for 3s or switching target."
+        brief: Attacking the same enemy increases Crit Rate.
+        icon: Skill_Nagative_Damage02
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+      - id: "3414"
+        name: Deviant Energy
+        info: "For every 1 Space Core summoned, character takes #1[f1]% less Indirect
+          DMG for 10s. Max stacks: 3. Each stack resets the duration."
+        brief: "Each Space Core gives the character DMG reduction. Max stacks: 3."
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 0.02
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01857
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3416"
+        name: Honkai Mark
+        info: "Charged ATK marks the enemy for 10s. Attacks by the Herrscher of the Void
+          against marked enemies gain #2[f1]% Total DMG (independent effect)."
+        brief: Charged ATK marks the enemy. Marked enemies take more DMG from the
+          Herrscher of the Void.
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 10
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.05
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

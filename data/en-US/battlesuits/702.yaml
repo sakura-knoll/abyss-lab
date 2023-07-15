@@ -1,0 +1,356 @@
+id: "702"
+fullName: Phantom Iron
+shortName: Phantom Iron
+desc: "<color=white>Features: </color><color=#2CE3FFFF>MECH-type</color> melee
+  battlesuit. Comes with a deployable autonomous weapon platform."
+firstName: Rita
+lastName: Rossweisse
+enFirstName: null
+enLastName: null
+attributeType: mech
+isEasterner: false
+weapon: scythe
+character: rita
+initialStar: a
+tags:
+  - lightning-dmg
+  - paralyze
+skills:
+  - id: "381"
+    name: Iron Storm
+    info: "5-sequence scythe sweeps.\\n<color=#23B2E2FF>1st Sequence: 80% ATK of
+      Physical DMG.\\n2nd Sequence: 40%+100% ATK of Physical DMG.\\n3rd
+      Sequence: 40%+100% ATK of Physical DMG.\\n4th Sequence: 50%+120%+150% ATK
+      of Physical DMG.\\n5th Sequence: 4x40%+200% ATK of Physical DMG.</color>"
+    icon: Skill_Rita_LG_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3801"
+        name: Rave of Carnage
+        info: "Supercharged: Gains Ignore Interrupt; 5-sequence Basic ATK gains #1[f1]%
+          ATK of Lightning DMG and each sequence inflicts minor Paralyze Trauma;
+          takes #2[f1]% less Physical and Elemental DMG."
+        brief: "Supercharged: Gain Ignore Interrupt and Physical and Elemental DMG
+          reduction, while 5-sequence Basic ATK deals more Lightning DMG."
+        icon: Skill_Nagative_Skill02
+        maxLv: 30
+        paramBase1: 0.1
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.01724
+        paramAdd2: 0.0069
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 1
+            comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+              charge rate: very weak."
+        toggle: false
+        unlockStar: sss
+      - id: "3802"
+        name: Spark Discharge
+        info: "Any hit from the 5-sequence Basic ATK has a #1[f1]% chance to deal
+          #2[f1]% more ATK of Lightning DMG."
+        brief: 5-sequence Basic ATK hits may deal bonus Lightning DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 70
+        paramBase1: 0.05
+        paramBase2: 0.25
+        paramBase3: 0
+        paramAdd1: 0.00072
+        paramAdd2: 0.00507
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "382"
+    name: "<color=#FFC741FF>Charge</color>: Lightning Phantom"
+    info: "Hold [ATK] during the 5-sequence Basic ATK to shuttle through the target
+      and enter Supercharged mode.\\n<color=#23B2E2FF>Charged ATK: Shuttles
+      through the target, dealing 4x150% ATK of Lightning DMG, then enters
+      Supercharged state. Supercharged state: 5-sequence Basic ATK deals
+      Lightning DMG instead (same amount).</color>"
+    icon: Skill_Rita_LG_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3803"
+        name: Extrasensory Intuition
+        info: "Supercharged: Every enemy kill lowers Load by #1[i]."
+        brief: "Supercharged: Enemy kills reduce Load."
+        icon: Skill_Nagative_Skill03
+        maxLv: 73
+        paramBase1: 60
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.83333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3804"
+        name: "<color=#FFC741FF>QTE</color>: Mental Torrent"
+        info: "QTE: Triggered when an enemy is Time-Slowed. Deals 60% + 240% ATK of
+          Physical DMG + 2 x #1[f1]% ATK of Lightning DMG in a large area and
+          knocks enemies airborne. Can be connected into Basic ATK SEQ 5.
+          Inflicts <color=#FEDF4CFF>10 Paralyze Trauma</color> (CD: 10s)."
+        brief: "QTE: Triggered by Time Slow to deal Physical & Lightning DMG in a large
+          area, knock enemies airborne, and inflict Paralyze Trauma. Can be
+          connected into Basic ATK SEQ 5."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 24
+        paramBase1: 1.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.07826
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 2
+            comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+              charge rate: medium."
+        toggle: true
+        unlockStar: a
+      - id: "3805"
+        name: Superconductivity
+        info: "Supercharged: Character deals #1[f1]% more Lightning DMG."
+        brief: "Supercharged: Gain Lightning DMG buff."
+        icon: Skill_Nagative_Damage03
+        maxLv: 16
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "383"
+    name: Lightning Reflex
+    info: "Quickly evade enemy attacks. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Ultimate Evasion reduces 30 Load and increases
+      Move Speed by 40% for 3s.\\nLightning Reflex: Ultimate Evasion deals 300%
+      ATK of Lightning DMG to the attacker and its nearby enemies,
+      inflicts</color> <color=#FEDF4CFF>5 Paralyze
+      Trauma</color><color=#23B2E2FF> on them, and reduces 80 Load. Tap [ATK]
+      immediately after to connect into Basic ATK SEQ 4. CD: 15s.</color>"
+    icon: Skill_Rita_LG_003
+    skillType: evasion
+    tags:
+      - type: paralyze
+        strength: 1
+        comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+          charge rate: weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3810"
+        name: EM Cape
+        info: "Lightning Reflex's CD reduces by #1[f1]s."
+        brief: Shortens CD of Lightning Reflex and extends paralysis duration.
+        icon: Skill_Nagative_Survive02
+        maxLv: 25
+        paramBase1: 1
+        paramBase2: 2.5
+        paramBase3: 0
+        paramAdd1: 0.125
+        paramAdd2: 0.04583
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "3811"
+        name: EMP Blast
+        info: "Lightning Reflex AOE attack deals #1[f1]% ATK of Lightning DMG."
+        brief: Lightning Reflex deals more Lightning DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 27
+        paramBase1: 3.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.09615
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3812"
+        name: Reflex Arc Augments
+        info: "Lightning Reflex reduces Load by #1[f1]."
+        brief: Lightning Reflex reduces more Load.
+        icon: Skill_Nagative_Skill02
+        maxLv: 33
+        paramBase1: 100
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1.5625
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "384"
+    name: Stalker Carbon
+    info: "<color=#23B2E2FF>Deploys Stalker Carbon (summoned entity) for 24s (no
+      recast during this time).\\nSpecial moves release a Neurotoxin that
+      inflicts Psycho on teammates and enemies.\\nAffected enemies: Deal +10%
+      Elemental DMG, but have reduced Ignore Interrupt and take 10% more total
+      DMG from hits.\\nAffected teammates: Deal +15% Elemental DMG and gain
+      Ignore Interrupt, but take 15% more total DMG from hits.\\nCD: 18s. Min.
+      SP: 35. Stalker Carbon consumes SP faster over time, lowers SP regen from
+      attacks by 50%, and exits 3s after SP is depleted.</color>"
+    icon: Skill_Rita_LG_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3806"
+        name: "Command: Kill"
+        info: "Attacks of Stalker Carbon deal #1[f1]% more Lightning DMG."
+        brief: Stalker Carbon hits deal more Lightning DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 18
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01765
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3807"
+        name: "Command: Frenzy"
+        info: "Psycho teammates: Elemental DMG bonus is raised to #1[f1]%, but suffer
+          #2[f1]% Total DMG Multiplier from hits taken."
+        brief: Psycho teammates deal and receive more DMG.
+        icon: Skill_Nagative_Skill03
+        maxLv: 15
+        paramBase1: 0.16
+        paramBase2: 0.16
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "3808"
+        name: "Command: Sync"
+        info: "When Stalker Carbon is active, character gains #1[f1]% Total DMG
+          Multiplier."
+        brief: When Stalker Carbon is active, gain a Total DMG Multiplier buff.
+        icon: Skill_Nagative_Damage02
+        maxLv: 20
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01579
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "385"
+    name: Ex Machina
+    info: "Leader Bonus:\\n<color=#23B2E2FF>Ex Machina: {{Team takes #1[f1]% less
+      Elemental DMG. MECH-type characters: Basic ATK gains #2[f1]% Total DMG
+      Multiplier.}}</color>"
+    icon: Skill_Rita_LG_005
+    skillType: leader
+    tags: []
+    paramSubId1: 3809
+    paramSubId2: 3809
+    paramSubId3: 0
+    subSkills:
+      - id: "3809"
+        name: Ex Machina
+        info: "Team takes #1[f1]% less Elemental DMG. Basic ATKs (including Charged ATKs
+          and Combo ATKs) of MECH-type battlesuits deal #2[f1]% more Total DMG."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Skill03
+        maxLv: 2
+        paramBase1: 0.2
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0.06
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "386"
+    name: Super Discharge
+    info: "Character automatically gains passive bonuses.\\n<color=#23B2E2FF>Load:
+      Starts at zero (0). Maxes out at 200. Supercharged: Gain 30% Move Speed
+      but Load increases by 25/s. Max Load (200): Becomes Depleted, with Move
+      Speed becoming 20% slower. Depleted: Load decreases by 15/s until zero
+      (0).</color>"
+    icon: Skill_Rita_LG_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3813"
+        name: Total Sterilization
+        info: "Character attacks against Paralyzed or Ignited enemies gain #1[f1]% Total
+          DMG Multiplier."
+        brief: Attacks gain Total DMG Multiplier against paralyzed or ignited enemies.
+        icon: Skill_Nagative_Damage02
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "3814"
+        name: Pattern Recognition
+        info: "Team gains #1[f1]% Elemental DMG when attacking enemies with active
+          shields."
+        brief: Team gains Elemental DMG against shielded enemies.
+        icon: Skill_Nagative_Survive03
+        maxLv: 10
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01111
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3815"
+        name: Hostile EWS
+        info: "Depleted: Load reduces by another #1[f1] per 0.4s when there are nearby
+          enemies."
+        brief: "Depleted: Nearby enemies accelerate Load reduction."
+        icon: Skill_Nagative_Skill03
+        maxLv: 10
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.55556
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a

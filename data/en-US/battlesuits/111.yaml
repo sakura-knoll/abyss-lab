@@ -1,0 +1,360 @@
+id: "111"
+fullName: Sixth Serenade
+shortName: Sixth Serenade
+desc: "<color=white>Features: </color><color=#FF66CCFF>Awakened</color>
+  <color=#FF66CCFF>PSY-type</color> melee battlesuit with great agility. Applies
+  Raven Mark on the enemies to deal Ice DMG."
+firstName: Kallen
+lastName: Kaslana
+enFirstName: null
+enLastName: null
+attributeType: psy
+isEasterner: false
+weapon: pistols
+character: kallen
+initialStar: s
+tags:
+  - ice-dmg
+  - freeze
+skills:
+  - id: "261"
+    name: Twilight Nocturne
+    info: "Unleashes 4-sequence Gun Kata attack which inflicts minor Rime
+      Trauma.\\n<color=#23B2E2FF>4-sequence Gun Kata attack:\\n1st Sequence: 70%
+      ATK of Physical DMG.\\n2nd Sequence: 70% ATK of Physical DMG.\\n3rd
+      Sequence: (40%+3x30%+30%+80%) ATK of Physical DMG.\\n4th Sequence: 100%
+      ATK of Physical DMG.\\nThe 2nd, 3rd, and 4th Sequences each restores 40
+      Nachtsicht upon hit.</color>"
+    icon: Skill_Kallen_KT_001
+    skillType: basic
+    tags:
+      - type: freeze
+        strength: 1
+        comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+          rate: very weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2601"
+        name: Lamentations
+        info: "After the 4-sequence Basic ATK hits a target with a Raven Mark, character
+          gains Ignore Interrupt and #1[f1]% Total DMG Reduction for #2[f2]s.
+          Triggering this skill again resets the duration."
+        brief: After the 4-sequence Basic ATK hits a target with a Raven Mark, character
+          gains Ignore Interrupt and Total DMG Reduction.
+        icon: Skill_Nagative_Survive03
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.4
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2602"
+        name: Rogue's Kiss
+        info: "Applying Raven Marks on enemies also corrode them for #2[f2]s. Additional
+          stacks of Raven Marks resets the duration of the corrosion. Character
+          gains #1[f1]% Total DMG Multiplier for attacks against corroding
+          enemies."
+        brief: Corrode enemies upon applying Raven Marks. Gains Total DMG Multiplier
+          against corroded enemies.
+        icon: Skill_Nagative_Damage03
+        maxLv: 8
+        paramBase1: 0.19
+        paramBase2: 2.9
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.3
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2603"
+        name: Sound of Peace
+        info: When Combo ATKs hit an enemy, deal additional 3x#1[f1] ATK of Ice DMG.
+        brief: Combo ATKs gain Ice DMG upon hit.
+        icon: Skill_Nagative_Damage02
+        maxLv: 40
+        paramBase1: 0.42
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "262"
+    name: "<color=#FFC741FF>Combo</color>: Gloomy Dawn"
+    info: "Consume Nachtsicht to perform a combo attack.\\n<color=#23B2E2FF>Tap
+      [ATK] right after the 4-sequence basic attack to directly unleash a combo
+      attack (does not consume Nachtsicht), that deals 200% ATK of Physical DMG
+      and inflicts a Raven Mark on the target.\\nWith at least 300 Nachtsicht,
+      tap [ATK] after a Combo ATK or hold [ATK] after the first 3 sequences of
+      Basic ATK to consume 300 to unleash another Combo ATK.\\nInitial
+      Nachtsicht: 100; max: 600.</color>"
+    icon: Skill_Kallen_KT_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2604"
+        name: "<color=#FFC741FF>Switch</color>: Midnight Arrival"
+        info: "Switch entry directly unleashes a more powerful spinning kick, dealing
+          120% + #1[f1] ATK of Physical DMG."
+        brief: Switch skill deals Physical DMG.
+        icon: Skill_Nagative_StartUp01
+        maxLv: 30
+        paramBase1: 0.84
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2605"
+        name: "<color=#FFC741FF>QTE</color>: Black Moon"
+        info: "<size=14>QTE: triggered upon shield break: shuttles 2 times, each dealing
+          2x120% ATK of Physical DMG + #1[f1]% ATK of Ice DMG, and adds 1 Raven
+          Mark to enemies hit. After QTE, tap the [ATK] button to directly
+          perform a Combo ATK without consuming Nachtsicht.</size>"
+        brief: "QTE: Triggered upon shield break to launch shuttle attacks and apply
+          Raven Marks. Can be directly connected into Combo ATK."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 30
+        paramBase1: 1.9
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+      - id: "2606"
+        name: Repentance
+        info: "2 Raven Mark stacks: increase brand consumption DMG to #1[f1]% ATK of Ice
+          DMG. 3 stacks: increase DMG to single target #2[f1]% + AOE #3[f1]% ATK
+          of Ice DMG."
+        brief: Enhance Raven Mark DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 8
+        paramBase1: 2.6
+        paramBase2: 2.5
+        paramBase3: 1.3
+        paramAdd1: 0.2
+        paramAdd2: 0.5
+        paramAdd3: 0.1
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "263"
+    name: Raven Blitz
+    info: "Quickly evades enemy attack. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Ultimate Evasion restores 100 Nachtsicht.\\nRaven
+      Blitz: Triggered upon an Ultimate Evasion, dealing 80% ATK of Ice DMG
+      against nearby enemies and adds 1 stack of Raven Mark; tap [ATK] to
+      perform a Combo ATK (does not consume Nachtsicht); CD: 15s.</color>"
+    icon: Skill_Kallen_KT_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2607"
+        name: Sinner's Eye
+        info: "Shortens Raven Blitz CD by #1[f2]s."
+        brief: Shortens Raven Blitz CD.
+        icon: Skill_Nagative_Survive01
+        maxLv: 5
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2608"
+        name: Elegy
+        info: "Raven Blitz additionally deals #1[f1]% ATK of Ice DMG, and additionally
+          restores #2[i] Nachtsicht for the Valkyrie."
+        brief: Raven Blitz deals additional Ice DMG and recovers more Nachtsicht.
+        icon: Skill_Nagative_Skill02
+        maxLv: 40
+        paramBase1: 0.42
+        paramBase2: 100
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "264"
+    name: Night Carnival
+    info: "Unleash the Raven Cross and assume Raven Form.\\n<color=#23B2E2FF>Deals
+      100% ATK of Ice DMG to enemies in the AOE and adds an empowered 3-stack
+      Raven Mark, which can then be harvested after 4s to deal Single 600% + AOE
+      200% ATK of Ice DMG. Knock enemies airborne after the attack.\\nCharacter
+      performs a multi-hit Shuttle Attack that deals 12x60% ATK of Ice DMG and
+      assumes Raven Form while the Raven Cross immobilizes enemies in a large
+      AOE. Raven Form: character recovers 15 Nachtsicht every 0.1s for a total
+      of 12s.\\nSP cost: 125.</color>"
+    icon: Skill_Kallen_KT_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2609"
+        name: Coronach
+        info: "Each sequence of Shuttle Attack additionally deals #1[f1]% ATK of Ice
+          DMG."
+        brief: Night Carnival shuttle attacks gain Ice DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 8
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2610"
+        name: Knell
+        info: "In Raven Form, Basic ATK additionally deals #1[f1]% ATK of Ice DMG upon
+          hit."
+        brief: In Raven Form, Basic ATKs gain Ice DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 0.32
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2611"
+        name: Overgrowth
+        info: "In Raven Form, the Valkyrie gains #1[f1]% All Elemental DMG."
+        brief: In Raven Form, character gains Elemental DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 8
+        paramBase1: 0.22
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "265"
+    name: Phantom Curtain
+    info: "Leader Bonus: <color=#23B2E2FF>Phantom Curtain: {{Team gains #1[i]%
+      Elemental DMG and takes #2[i]% less Elemental DMG.}}</color>"
+    icon: Skill_Kallen_KT_005
+    skillType: leader
+    tags: []
+    paramSubId1: 2612
+    paramSubId2: 2612
+    paramSubId3: 0
+    subSkills:
+      - id: "2612"
+        name: Phantom Curtain
+        info: "Team gains #1[i]% All Elemental DMG and takes #2[i]% less Elemental DMG."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Skill01
+        maxLv: 3
+        paramBase1: 0.24
+        paramBase2: 0.22
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "266"
+    name: Passive
+    info: "Raven Mark: Special mark that can stack 3 times on
+      enemies.\\n<color=#23B2E2FF>Marks can be stacked within the duration, or
+      harvested from enemies to apply the following effects:\\n1 stack: After
+      5s, deal 100% ATK of Ice DMG.\\n2 stacks: After 5s, deal 200% ATK of Ice
+      DMG and knock enemies airborne.\\n3 stacks: Time-Lock enemies and prevent
+      them from dying for 2s. After 2s, deal 200% ATK of single-target Ice DMG &
+      100% ATK of AoE Ice DMG, knock enemies airborne, and inflict</color>
+      <color=#FEDF4CFF>10 Rime Trauma</color><color=#23B2E2FF>.</color>"
+    icon: Skill_Kallen_KT_006
+    skillType: passive
+    tags:
+      - type: freeze
+        strength: 2
+        comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+          rate: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2613"
+        name: Wither
+        info: "For each kill, gain #1[i] Nachtsicht charges."
+        brief: Recover Nachtsicht upon killing an enemy.
+        icon: Skill_Nagative_Skill02
+        maxLv: 4
+        paramBase1: 150
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 50
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "2614"
+        name: Death by Dawn
+        info: "Gain #1[f1]% Total DMG Multiplier for attacks by self against enemies
+          with no shields."
+        brief: Gain Total DMG Multiplier against enemies with no shields.
+        icon: Skill_Nagative_Damage03
+        maxLv: 8
+        paramBase1: 0.22
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2615"
+        name: Nightwalker
+        info: "Hitting an enemy with a Raven Mark recovers #1[f1] SP. CD: #2[f2]s."
+        brief: Hitting an enemy with a Raven Mark recovers SP.
+        icon: Skill_Nagative_Skill01
+        maxLv: 6
+        paramBase1: 2
+        paramBase2: 8
+        paramBase3: 0
+        paramAdd1: 0.6
+        paramAdd2: -0.8
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss

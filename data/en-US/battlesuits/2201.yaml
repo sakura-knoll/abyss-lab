@@ -1,0 +1,390 @@
+id: "2201"
+fullName: Miss Pink Elf♪
+shortName: Miss Pink Elf♪
+desc: "<color=white>Features: </color><color=#FF66CCFF>PSY-type</color> ranged
+  battlesuit. Archer."
+firstName: Elysia
+lastName: null
+enFirstName: null
+enLastName: null
+attributeType: psy
+isEasterner: true
+weapon: bow
+character: elysia
+initialStar: s
+tags:
+  - physical-dmg
+  - fast-atk
+  - time-mastery
+  - aerial
+skills:
+  - id: "691"
+    name: An Arrow for Flower and Fowl
+    info: "Shoot arrows with a bow.\\n<color=#23B2E2FF>1st Sequence: 100% ATK of
+      Physical DMG.\\n2nd Sequence: 60% + 60% ATK of Physical DMG.\\n3rd
+      Sequence: 150% ATK of Physical DMG.\\n4th Sequence: 200% ATK of Physical
+      DMG.\\nEach hit of Basic ATK applies a Crystalline Seed to the target (up
+      to 4). Crystalline Seeds remain effective throughout the battle.</color>"
+    icon: Skill_Elysia_GS_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6901"
+        name: Blossom's Hues
+        info: "Physical DMG increases by #1[f1]% against MECH enemies. Crystalline Seed
+          explosions deal #2[f1]% bonus Physical DMG."
+        brief: Physical DMG increases against MECH enemies. Crystalline Seed explosions
+          deal more Physical DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0.08
+        paramBase3: 0
+        paramAdd1: 0.01111
+        paramAdd2: 0.00778
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6902"
+        name: Seedling's Vitality
+        info: "Every Crystalline Seed on enemies causes them to take #1[f1]% bonus
+          Physical DMG from Miss Pink Elf♪ (independent effect). Enemies with 4
+          Crystalline Seeds additionally take #2[f1]% bonus Physical DMG from
+          Miss Pink Elf♪ (independent effect)."
+        brief: Crystalline Seeds on enemies cause them to take more Physical DMG from
+          Miss Pink Elf♪.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.015
+        paramBase2: 0.02
+        paramBase3: 0
+        paramAdd1: 0.0015
+        paramAdd2: 0.002
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+      - id: "6903"
+        name: "<color=#FFC741FF>QTE</color>: Crane's Dance"
+        info: "Triggered by Time-Slowed enemies. Perform a devastating strike in midair,
+          dealing #1[f1]% ATK of Physical DMG, and attach 4 Crystalline Seeds to
+          enemies hit."
+        brief: Triggered by Time-Slowed enemies.
+        icon: Skill_Nagative_Skill01
+        maxLv: 8
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.71429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "692"
+    name: "<color=#FFC741FF>Charged ATK</color>: An Oath to Wind and Moon"
+    info: "Hold [ATK] to cast Charged Shot: Cupid's Bolt. Tap [ATK] repeatedly
+      afterwards to repeat Cupid's Bolt.\\n<color=#23B2E2FF>Cupid's Bolt has 2
+      sequences in normal form and 3 sequences when Flawless Dome is
+      active.\\n1st Sequence: 200% ATK of Physical DMG.\\n2nd Sequence: 210% ATK
+      of Physical DMG.\\n3rd Sequence: 500% ATK of Physical DMG.\\nEach cast of
+      Cupid's Bolt costs 100 Infatuation.\\nCupid's Bolt can detonate
+      Crystalline Seeds on the target, dealing 100% ATK of Physical DMG to
+      enemies within a 4-meter range. The detonation will spread to Crystalline
+      Seeds on enemies nearby and does not consume Crystalline Seeds. Detonation
+      CD: 1s.</color>"
+    icon: Skill_Elysia_GS_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6904"
+        name: Moonlight's Elegance
+        info: "While below 50% HP, Miss Pink Elf♪ takes #1[f1]% less Total DMG. During
+          her Charged ATK, she takes #2[f1]% less Total DMG. Charged ATKs in
+          normal form restore #3[f1] SP on hit."
+        brief: Miss Pink Elf♪ takes less Total DMG while she has less than 50% HP and
+          during her Charged ATK. Charged ATKs in normal form restore SP on hit.
+        icon: Skill_Nagative_Skill02
+        maxLv: 5
+        paramBase1: 0.1
+        paramBase2: 0.15
+        paramBase3: 1.5
+        paramAdd1: 0.025
+        paramAdd2: 0.0375
+        paramAdd3: 0.375
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6905"
+        name: Night Dew's Serenity
+        info: "Charged ATKs deal #1[f1]% bonus Crit DMG. When a detonated Crystalline
+          Seed causes another to explode, the second explosion deals #2[f1]%
+          bonus Total DMG."
+        brief: Charged ATKs deal bonus Crit DMG. When a detonated Crystalline Seed
+          causes another to explode, the second explosion deals bonus Total DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.08
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.00778
+        paramAdd2: 0.01111
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "6913"
+        name: Snowflakes' Swirling
+        info: "On hit, Charged ATKs boost Physical DMG by #1[f1]% for 8s. Can be
+          refreshed."
+        brief: Charged ATKs boost Physical DMG On hit.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "693"
+    name: A Blessing from Heaven and Earth
+    info: "Quickly dodge enemy attacks up to twice in a
+      row.\\n<color=#23B2E2FF>Successful Ultimate Evasions can trigger the
+      Ultimate Evasion Skill, inducing 3s of Global Time Fracture and restoring
+      50 Infatuation. CD: 18s.\\nEvading while Basic ATK is in progress does not
+      break the sequence.</color>"
+    icon: Skill_Elysia_GS_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6908"
+        name: Spring's Sweetness
+        info: "Miss Pink Elf♪ has a #1[f1]%  higher Crit Rate. Within 5s of casting
+          evasion or Weapon Skill, Charged Shot's ricochet has a #2[f1]% higher
+          Crit Rate."
+        brief: Miss Pink Elf♪ has a higher Crit Rate. After evasion or Weapon Skill is
+          cast, Charged Shot's ricochet has a higher Crit Rate.
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 0.12
+        paramBase2: 0.06
+        paramBase3: 0
+        paramAdd1: 0.016
+        paramAdd2: 0.008
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6909"
+        name: Maiden's Charm
+        info: "Triggering Ultimate Evasion Skill restores #1[f1] bonus Infatuation."
+        brief: Triggering Ultimate Evasion Skill restores bonus Infatuation.
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6916"
+        name: Candle's Fragrance
+        info: "When Miss Pink Elf♪ takes fatal DMG (and her HP drops to 0), a flawless
+          crystal is created to revive her, restoring #1[f1]% HP. CD: 180s."
+        brief: When Miss Pink Elf♪ takes fatal DMG, a flawless crystal is created to
+          revive her and restore HP.
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05556
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "694"
+    name: The Beginning of You and I
+    info: "Create a Flawless Dome which enhances Miss Pink Elf♪'s
+      abilities.\\n<color=#23B2E2FF>Shoot a magical arrow that creates a
+      Flawless Dome for 12s.\\nWhen Flawless Dome is active, Miss Pink Elf♪ is
+      enhanced:\\nShe deals 15% bonus Physical DMG and has a 10% bonus Crit
+      Rate.\\nInfatuation maxes at 600. When her Ultimate is used, she will
+      recover 600 Infatuation immediately. \\nThe 3rd sequence of Cupid's Bolt
+      is enabled and every sequence can trigger a ricochet. The ricochets of the
+      1st/2nd/3rd sequence deal 200%/200%/200%+200% ATK of Physical DMG
+      respectively (only under Flawless Dome).\\n\\nCasting Ultimate triggers
+      Time-frozen Domain and pauses all skill timers for Miss Pink Elf♪ and
+      enemies as well as the stage timer.\\nActivation Cost: 100 SP. CD:
+      20s.</color>"
+    icon: Skill_Elysia_GS_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6906"
+        name: Earth's Blessing
+        info: "While Flawless Dome is active, Miss Pink Elf♪ restores #1[f1] bonus
+          Infatuation per 0.1s."
+        brief: While Flawless Dome is active, Miss Pink Elf♪ restores bonus Infatuation
+          over time.
+        icon: Skill_Nagative_Damage02
+        maxLv: 1
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6907"
+        name: Elysia's Allure
+        info: "While Flawless Dome is active, ricochets of her Charged ATK deal #1[f1]%
+          bonus Total DMG."
+        brief: While Flawless Dome is active, ricochets of her Charged ATK deal bonus
+          Total DMG.
+        icon: Skill_Nagative_Survive02
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01111
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "6914"
+        name: Eternity's Embrace
+        info: "Casting Weapon Skills or Ultimate boosts Total DMG by #1[f1]% for 15s.
+          Can be refreshed."
+        brief: Casting Weapon Skills or Ultimate boosts Total DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 0.08
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00778
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "695"
+    name: An Ode to Love and Compassion
+    info: "Leader Bonus:\\n<color=#23B2E2FF>{{Team deals #1[f1]% bonus Total Shield
+      DMG. Combo/Charged ATKs from any team member have #2[f1]% bonus Crit
+      Rates.}}</color>"
+    icon: Skill_Elysia_GS_005
+    skillType: leader
+    tags: []
+    paramSubId1: 6910
+    paramSubId2: 6910
+    paramSubId3: 0
+    subSkills:
+      - id: "6910"
+        name: An Ode to Love and Compassion
+        info: "Team deals #1[f1]% bonus Total Shield DMG. Combo/Charged ATKs from any
+          team member have #2[f1]% higher Crit Rates."
+        brief: Team deals bonus Total Shield DMG. Combo/Charged ATKs from any team
+          member have higher Crit Rates.
+        icon: Skill_Nagative_Survive01
+        maxLv: 3
+        paramBase1: 0.2
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0.025
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+  - id: "696"
+    name: A Saga of Origins and Endings
+    info: "Passive bonuses apply automatically. \\n<color=#23B2E2FF>Infatuation
+      maxes at 400 and 30 is restored per second.\\nBalanced archer with up to 2
+      shooting chances (one is restored every 10s if less than 2).\\nWhen
+      Ultimate is not in cooldown and within 5s of casting a Weapon Skill,
+      Ultimate costs 30% less SP and restores 100 Infatuation (200 if Flawless
+      Dome is active). In addition, tapping [ATK] after using Ultimate can cast
+      Cupid's Bolt.\\nCorrected modifier of non-aimed shooting:
+      100%.\\nCorrected modifier of aimed shooting: 100%.</color>"
+    icon: Skill_Elysia_GS_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6911"
+        name: Dawn's Glory
+        info: "Weapon Skills have #1[f1]% higher Crit Rates. Hitting an enemy weakspot
+          boosts the Crit Rate of this attack by #2[f1]%."
+        brief: Weapon Skills have higher Crit Rates. Hitting an enemy weakspot boosts
+          the Crit Rate of this attack.
+        icon: Skill_Nagative_Skill03
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.06
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6912"
+        name: Star's Radiance
+        info: "Miss Pink Elf♪ starts with #1[f1] Infatuation."
+        brief: Miss Pink Elf♪ starts with bonus Infatuation.
+        icon: Skill_Nagative_Damage02
+        maxLv: 1
+        paramBase1: 400
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+      - id: "6915"
+        name: Time's Ballad
+        info: "Miss Pink Elf♪ deals #1[f1]% bonus Total DMG to enemies with Crystalline
+          Seeds. Attacks by teammates against enemies with Crystalline Seeds
+          restore #2[f1] SP for Miss Pink Elf♪. CD: 1s."
+        brief: Miss Pink Elf♪ deals bonus Total DMG to enemies with Crystalline Seeds.
+          Attacks by teammates against enemies with Crystalline Seeds restore SP
+          for Miss Pink Elf♪.
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 0.08
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.00778
+        paramAdd2: 0.03333
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss

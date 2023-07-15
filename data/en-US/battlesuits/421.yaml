@@ -1,0 +1,300 @@
+id: "421"
+fullName: Blueberry Blitz
+shortName: Blueberry Blitz
+desc: "<color=white>Features: </color><color=#2CE3FFFF>MECH-type</color> melee
+  battlesuit with various attack styles. Strong defense and counter skills."
+firstName: Liliya
+lastName: Olenyeva
+enFirstName: null
+enLastName: null
+attributeType: mech
+isEasterner: false
+weapon: 2-handed
+character: olenyevas
+initialStar: a
+tags:
+  - physical-dmg
+  - freeze
+skills:
+  - id: "421"
+    name: Blitz Ataka
+    info: "4-Sequence greatsword swing.\\n<color=#23B2E2FF>1st Sequence: 150% ATK of
+      Physical DMG.\\n2nd Sequence: 150% ATK of Physical DMG.\\n3rd Sequence:
+      150%+3x100% ATK of Physical DMG.\\n4th Sequence: 2x100%+300% ATK of
+      Physical DMG.</color>"
+    icon: Skill_Twins_GP_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4201"
+        name: Flash Freeze
+        info: "Each sequence of Basic ATK additionally deals #1[f1] Ice DMG."
+        brief: Basic ATK also deals Ice DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 50
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 27.77778
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "4202"
+        name: "<size=14><color=#FFC741FF>QTE</color>: Operation Gemina</size>"
+        info: "QTE: Triggered when an enemy is knocked airborne or when a teammate is
+          attacked (does not work in co-op / squad mode), dealing 3x#1[i]%+300%
+          ATK of Physical DMG and resetting Full Mobilization's CD. Heal Molotov
+          Cherry for #2[f1] HP if she is in the team."
+        brief: "QTE: Triggered when an enemy is knocked airborne or a teammate is
+          attacked to deal Physical DMG, heal Molotov Cherry, and reset Full
+          Mobilization's CD."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 10
+        paramBase1: 0.8
+        paramBase2: 100
+        paramBase3: 0
+        paramAdd1: 0.07778
+        paramAdd2: 22.22222
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+  - id: "422"
+    name: "<color=#FFC741FF>Charged ATK</color>: Sturmovik"
+    info: "Perform a charged leap into the air for a Dive ATK.\\n<color=#23B2E2FF>At
+      max Blitz Power (BP), tap and hold the [ATK] button to spend all BP, aim
+      at the attack site, and release the [ATK] button to unleash Diving
+      Ilyusha.\\nDiving Ilyusha: Deals 1000% ATK of Physical DMG and knocks
+      enemies airborne.</color>"
+    icon: Skill_Twins_GP_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4203"
+        name: Hardened Sabot
+        info: "Charged ATK deals #1[f1]% more Physical DMG to shielded enemies."
+        brief: Charged ATK deals more DMG to shielded enemies.
+        icon: Skill_Nagative_Damage03
+        maxLv: 5
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.075
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "4204"
+        name: Tactical Stance
+        info: "After Charged ATK, character enters Tactical Buff that gives #1[f1]%
+          faster Move Speed, #2[f1]% Total DMG Reduction, and Ignore Interrupt
+          for 7s."
+        brief: Performing Charged ATK also buffs the character.
+        icon: Skill_Nagative_Survive03
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0.01111
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "423"
+    name: Emergency Evasion
+    info: "Quickly evades enemy attacks. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Ultimate Evasion: Generates an Iron Curtain that
+      hits enemies in the AOE, dealing 50% ATK of Physical DMG every 0.5s and
+      pulling them in for 3s. Base CD: 15s.</color>"
+    icon: Skill_Twins_GP_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4205"
+        name: Speedy Recovery
+        info: "Shortens CD of Ultimate Evasion by #1[f2]s."
+        brief: Shortens CD of Ultimate Evasion.
+        icon: Skill_Nagative_Skill01
+        maxLv: 30
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.06897
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "4206"
+        name: Zamorozka Freeze
+        info: "Each hit of Iron Curtain additionally deals #1[f1]% ATK of Ice DMG."
+        brief: Iron Curtain deals bonus DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02222
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "424"
+    name: We'll Bury You
+    info: "Adopts DEF Stance to negate incoming
+      attacks.\\n<color=#23B2E2FF>Duration: 1.8s.\\nWhen DEF Stance ends or when
+      attacked while it's active, performs Retaliation to deal 550%+400% ATK of
+      Physical DMG and weaken enemies (reduces their damage by 20%) for 6s.
+      \\nIf attacked upon activating DEF Stance, then performs Retaliation EX to
+      deal 850%+700% ATK of Physical DMG, triggers a 1.6s Time Fracture, and
+      reduces Ultimate CD by 9s.\\nSP cost: 25. CD: 15s.</color>"
+    icon: Skill_Twins_GP_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "Ultimate is Heavy ATK; Trauma charge: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4207"
+        name: Weakness Scan
+        info: "After performing the Ultimate, character deals #1[f1]% more Physical DMG
+          while Molotov Cherry deals #2[f1]% more Physical DMG for 30s.
+          Triggering this again resets the duration."
+        brief: Performing the Ultimate gives a DMG buff to self and Molotov Cherry.
+        icon: Skill_Nagative_Skill03
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.08
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "4208"
+        name: Lethal Strike
+        info: "Ultimate gains #1[f1]% Crit Rate and #2[f1]% Crit DMG."
+        brief: Retaliation EX deals more DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.03333
+        paramAdd2: 0.04444
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4209"
+        name: Composure
+        info: "Retaliation EX also recovers #1[f1] SP."
+        brief: Retaliation EX recovers SP.
+        icon: Skill_Nagative_Skill02
+        maxLv: 4
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 3
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "425"
+    name: Vstavai!
+    info: "Leader Bonus: <color=#23B2E2FF>Vstavai!: {{MECH- and PSY-type battlesuits
+      deal #1[f1]% more DMG to shields.}}</color>"
+    icon: Skill_Twins_GP_005
+    skillType: leader
+    tags: []
+    paramSubId1: 4210
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4210"
+        name: Vstavai!
+        info: "MECH- and PSY-type characters deal #1[f1]% more DMG to shields."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Damage01
+        maxLv: 3
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "426"
+    name: Passive
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E2FF>Blitz Power (BP):
+      Battle starts with 1000 BP (max). BP recovers at 40/s.\\nFirst 3 sequences
+      of Basic ATK restore 35 BP. 4th sequence and Ultimate Evasion restores 70
+      BP.</color>"
+    icon: Skill_Twins_GP_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4211"
+        name: Maneuver Warfare
+        info: "Character gains #1[f1]% Total DMG Multiplier against enemies affected by
+          Weaken or Time Slow."
+        brief: Deal more DMG to enemies affected by Weaken or Time Slow.
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04286
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "4212"
+        name: Full Mobilization
+        info: "After entry, the first Charged ATK or Ultimate inflicts
+          <color=#FEDF4CFF>18 Rime Trauma</color> (CD: 30s). When switched out,
+          the Valkyrie switched in deal #2[f1]% bonus Physical DMG. If Molotov
+          Cherry is switched in, she has higher Ignore Interrupt for 15s as well
+          (CD: 20s)."
+        brief: After entry, the first attack inflicts Rime Trauma. Being switched out
+          boosts the next Valkyrie's Physical DMG.
+        icon: Skill_Nagative_StartUp03
+        maxLv: 4
+        paramBase1: 1
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0.03333
+        paramAdd3: 0
+        tags:
+          - type: freeze
+            strength: 3
+            comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+              rate: strong."
+        toggle: false
+        unlockStar: ss

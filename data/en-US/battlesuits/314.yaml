@@ -1,0 +1,378 @@
+id: "314"
+fullName: Haxxor Bunny
+shortName: Haxxor Bunny
+desc: "<color=white>Features: </color><color=#FF66CCFF>PSY-type</color> ranged
+  battlesuit."
+firstName: Bronya
+lastName: Zaychik
+enFirstName: null
+enLastName: null
+attributeType: psy
+isEasterner: false
+weapon: cannon
+character: bronya
+initialStar: a
+tags:
+  - ice-dmg
+  - time-mastery
+  - fast-atk
+skills:
+  - id: "621"
+    name: Hare Hunters
+    info: "Use submachine guns to shoot. Evasion enables the next
+      sequence.\\n<color=#23B2E2FF>1st Sequence: 25%x4 ATK of Ice DMG.\\n2nd
+      Sequence: 25%x4 ATK of Ice DMG.\\n3rd Sequence: 15%x8 ATK of Ice
+      DMG.\\n4th Sequence: 30%x9 ATK of Ice DMG.</color>"
+    icon: Skill_Bronya_CH_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6201"
+        name: Fireproof Coating
+        info: "During Basic ATK, Bronie takes #1[f1]% less Total DMG and has improved
+          Ignore Interrupt."
+        brief: During Basic ATK, Bronie takes less Total DMG and has improved Ignore
+          Interrupt.
+        icon: Skill_Nagative_Survive01
+        maxLv: 10
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "6202"
+        name: Interlinked Trojans
+        info: "QTE inflicts Hacked status on hit. Hacked enemies take #2[f1]% more Ice
+          DMG, and Valkyries as well as their summoned entities deal #1[f1]%
+          more Ice DMG to Hacked enemies for 15s. Triggering it again resets the
+          duration."
+        brief: QTE inflicts Hacked status on hit.
+        icon: Skill_Nagative_StartUp01
+        maxLv: 10
+        paramBase1: 0.04
+        paramBase2: 0.06
+        paramBase3: 0
+        paramAdd1: 0.00444
+        paramAdd2: 0.00667
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "6203"
+        name: Haxxor Trigger
+        info: "QTE: Triggered at full Haxxor Count and when there's a targetable enemy.
+          Consumes all Haxxor Count to deal 1080% ATK of Ice DMG and summon a
+          drone (summoned entity). Performing Haxxor Bunny's QTE doesn't require
+          her to be switched in. When casting QTE, if her Ultimate is available,
+          her avatar will change into her Ultimate icon, which can be tapped
+          again to cast her Ultimate. If not, tapping her avatar again will
+          switch her in."
+        brief: "QTE: Triggered at full Haxxor Count and performed in the background.
+          Enables Ultimate quick cast. Consumes all Haxxor Count."
+        icon: Skill_Nagative_StartUp01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "622"
+    name: "<color=#FFC741FF>Charged</color>: Tempest Sniper"
+    info: Hold [ATK] to unleash powerful cannon attacks.\n<color=#23B2E2FF>At full
+      KE, hold [ATK] to consume all KE and unleash powerful attacks based on
+      weapon type, dealing 120%x6 ATK of Ice DMG. Charged ATK can also lock the
+      current target for the drones to perform a special ATK.</color>
+    icon: Skill_Bronya_CH_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6204"
+        name: Preload
+        info: "Bronie has #1[f1] bonus initial KE. Casting QTE restores #2[f1] KE."
+        brief: Bronie has more initial KE and casting QTE restores KE.
+        icon: Skill_Nagative_Skill02
+        maxLv: 5
+        paramBase1: 100
+        paramBase2: 50
+        paramBase3: 0
+        paramAdd1: 25
+        paramAdd2: 12.5
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "6205"
+        name: Synchronized Array
+        info: "Charged/Combo ATKs from teammates coordinate drones (if present) to
+          perform a special ATK and restore #1[f1] SP per second for Bronie for
+          10s. Triggering it again resets the duration. CD: 2s."
+        brief: Charged/Combo ATKs from teammates trigger a drone special ATK and restore
+          Haxxor Bunny's SP.
+        icon: Skill_Nagative_Skill02
+        maxLv: 10
+        paramBase1: 0.8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.08889
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "623"
+    name: Parting Gift
+    info: "Step sideways to dodge attacks. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Ultimate Evasion drops a grenade which detonates
+      after a 1s delay, briefly gathers nearby enemies, triggers a 4s Global
+      Time Fracture, and deals 200% ATK of Ice DMG. CD: 15s. Tap [ATK] after
+      Ultimate Evasion to connect into the 3rd sequence of Basic ATK.</color>"
+    icon: Skill_Bronya_CH_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6206"
+        name: Hotfix
+        info: "Ultimate Evasion's CD is reduced by #1[f1]s. Grenade explosions deal 200%
+          ATK of bonus Ice DMG."
+        brief: Ultimate Evasion has a shorter CD. Grenade explosions deal more DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 6
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.4
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "624"
+    name: Star Destroyer
+    info: "Unleash mass bombing upon enemies in front of Haxxor
+      Bunny.\\n<color=#23B2E2FF>Tap [ULT] to channel for a short duration and
+      unleash carpet-bombing upon enemies in front of Haxxor Bunny for 7s
+      dealing 60x30% ATK of Ice DMG.\\nFor 16s after Ultimate activation, drones
+      are enhanced and they can switch to Haxxor Bunny's current target at any
+      time. In addition, they perform a special attack every 3s and trigger
+      Synchronized Array, but this effect cannot be triggered by teammates
+      within the duration.\\nActivation SP cost: 125 SP. CD: 25s.</color>"
+    icon: Skill_Bronya_CH_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6207"
+        name: Logic Coverage
+        info: "Casting Ultimate boosts team's Ice DMG by #1[f1]% and summoned entities'
+          Ice DMG by #2[f1]% for 15s. Triggering it again resets the duration."
+        brief: Casting Ultimate boosts Ice DMG dealt by Valkyries and their summoned
+          entities.
+        icon: Skill_Nagative_Damage03
+        maxLv: 10
+        paramBase1: 0.08
+        paramBase2: 0.5
+        paramBase3: 0
+        paramAdd1: 0.00778
+        paramAdd2: 0.05556
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6208"
+        name: Permission Removed
+        info: "Bombing slows enemy Move Speed by #1[f1]% for 5s. Triggering it again
+          resets the duration."
+        brief: Bombing slows enemy Move Speed.
+        icon: Skill_Nagative_Skill01
+        maxLv: 10
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02222
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "6209"
+        name: Final Encoding
+        info: "Ultimate deals #1[f1]% more Ice DMG. QTE deals #2[f1]% more Ice DMG."
+        brief: Ultimate and QTE deal more Ice DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 6
+        paramBase1: 0.15
+        paramBase2: 0.12
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.026
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "625"
+    name: H-T-T-P-S
+    info: "Leader Bonus: \\n<color=#23B2E2FF>Leader Bonus: {{Team deals #1[f1]% more
+      Ice DMG through Ultimates or in Burst modes. For every Ice DMG dealer on
+      the team, team gains #2[f1]% Total DMG.}}</color>"
+    icon: Skill_Bronya_CH_005
+    skillType: leader
+    tags: []
+    paramSubId1: 6210
+    paramSubId2: 6210
+    paramSubId3: 0
+    subSkills:
+      - id: "6210"
+        name: H-T-T-P-S
+        info: "Team deals #1[f1]% more Ice DMG through Ultimates and in Burst modes. For
+          every Ice DMG dealer on the team, team deals #2[f1]% more Total DMG."
+        brief: Team deals more Ice DMG through Ultimates and in Burst modes. Every Ice
+          DMG dealer on the team boosts Total DMG dealt by the whole team.
+        icon: Skill_Nagative_Skill03
+        maxLv: 3
+        paramBase1: 0.2
+        paramBase2: 0.03
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "626"
+    name: Trackers
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E2FF>Kinetic Energy:
+      Maxes at 200. Every hit of Basic ATK restores 5 KE.\\nHaxxor Count: Maxes
+      at 20.\\n\\nDrones: Bronie summons a drone (summoned entity) to aid in
+      battle. Drones last for 30s and have 2 attack patterns.\\nBasic ATK: Mini
+      gun attacks which deal 50% ATK of Ice DMG every hit. Every bullet fired
+      restores 1 Haxxor Count with a 1s CD. Each drone fires one round every
+      second and every round has 3 bullets.\\nSpecial ATK: Based on Bronie's
+      weapon type. Deals 240% ATK of Ice DMG.\\nDrones prioritize the nearest
+      enemy. Each drone present boosts Total DMG from Valkyries or summoned
+      entities by 2.5%. Up to 2 can be present. Summoning when there are 2
+      drones present extends their duration by 10s. At the end of the duration,
+      drones dive towards the target to self-destruct and deal 100% ATK of Ice
+      DMG.</color>"
+    icon: Skill_Bronya_CH_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6211"
+        name: Limitations off
+        info: "Casting weapon actives enables drones to fire 3 bonus bullets every round
+          for #1[f1]s."
+        brief: Using weapon actives enables more drone attacks.
+        icon: Skill_Nagative_Skill03
+        maxLv: 6
+        paramBase1: 3.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.7
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "6212"
+        name: Data Sharing
+        info: "With Bronie on standby, Basic ATKs of drones restore #1[f2] bonus SP for
+          her whenever building up Haxxor Count. After any teammate casts
+          Ultimate, Basic ATKs of drones build up 3 bonus Haxxor Count for 3s.
+          CD: 10s."
+        brief: Drones restore Bronie's SP through Basic ATK when she is on standby.
+          After any teammate casts Ultimate, drones build up bonus Haxxor Count
+          through Basic ATK.
+        icon: Skill_Nagative_Skill02
+        maxLv: 10
+        paramBase1: 0.6
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.06667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "627"
+    name: Absolute Security Protocol
+    info: Basic ATK summons drones.\n<color=#23B2E2FF>4th sequence of Basic ATK
+      summons a drone (summoned entity).</color>
+    icon: Skill_Bronya_CH_007
+    skillType: sp
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6213"
+        name: Accelerated Compilation
+        info: "Charged ATK deals #1[f1]% more Ice DMG and summons 2 drones. Casting
+          Charged ATK or Ultimate sends team members and their summoned entities
+          into Tracking mode, where they deal #2[f1]% more Elemental DMG for
+          15s. Triggering it again resets the duration."
+        brief: Charged ATK deals more DMG and summons drones. Using Charged ATK or
+          Ultimate triggers Tracking mode.
+        icon: Skill_Nagative_Damage03
+        maxLv: 7
+        paramBase1: 0.2
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 0.04167
+        paramAdd2: 0.00833
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6214"
+        name: Deserialization
+        info: "Drones deal #1[f1]% more Ice DMG. Casting Ultimate summons 2 drones."
+        brief: Drones deal more Ice DMG. Casting Ultimate summons 2 drones.
+        icon: Skill_Nagative_Damage02
+        maxLv: 5
+        paramBase1: 0.12
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0325
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "6215"
+        name: 404_Not_Found
+        info: "When deployed, Bronie restores #1[f1] SP per second for 8s. Can only be
+          triggered once every 10 minutes in Open World."
+        brief: When deployed, Bronie restores SP continuously.
+        icon: Skill_Nagative_Skill02
+        maxLv: 3
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.75
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

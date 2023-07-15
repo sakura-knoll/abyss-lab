@@ -1,0 +1,371 @@
+id: "411"
+fullName: Kriegsmesser
+shortName: Kriegsmesser
+desc: "<color=white>Features: </color><color=#FF66CCFF>PSY-type</color>
+  <color=#FF66CCFF>Awakened</color> melee battlesuit with threshold mode. Deals
+  Ice DMG."
+firstName: Himeko
+lastName: Murata
+enFirstName: null
+enLastName: null
+attributeType: psy
+isEasterner: true
+weapon: 2-handed
+character: himeko
+initialStar: a
+tags:
+  - ice-dmg
+  - freeze
+skills:
+  - id: "331"
+    name: Subzero Cleaver
+    info: "Basic ATK: 4-sequence Zweihänder Melee Fechten.\\n<color=#23B2E2FF>1st
+      Sequence: 200% ATK of Physical DMG.\\n2nd Sequence: 200% ATK of Physical
+      DMG.\\n3rd Sequence: 150%+50% ATK of Physical DMG.\\n4th Sequence: 250%
+      ATK of Physical DMG.\\nDoes not enter charge phase when performing the
+      4-sequence Basic ATK.\\nSprint ATK: When sprinting, tap [ATK] for a large
+      AOE sweep, dealing 450% ATK of Physical DMG.\\nHitting an enemy with the
+      4-sequence Basic ATK or Sprint ATK restores 30 Threshold.</color>"
+    icon: Skill_Himeko_NQ_001
+    skillType: basic
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "3rd hit of Basic ATK & Sprint Attack are Heavy ATKs; Trauma charge:
+          medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3302"
+        name: Cold Edge
+        info: "Threshold Mode grants immunity to Stun, Paralyze, Freeze, and #1[f1]%
+          Total DMG Reduction. The duration of Threshold Sword Ki's ATK Speed
+          slowing effect is extended to #2[f2]s. Threshold Sword Ki from Basic
+          ATK SEQ 3 inflicts <color=#FEDF4CFF>10 Rime Trauma</color> (CD: 8s)."
+        brief: Threshold Mode grants stun, paralysis, and frozen immunity and Total DMG
+          Reduction. Extends Time Slow inflicted by Sword Ki ATKs.
+        icon: Skill_Nagative_Survive03
+        maxLv: 30
+        paramBase1: 0.1
+        paramBase2: 3.5
+        paramBase3: 0
+        paramAdd1: 0.01034
+        paramAdd2: 0.08621
+        paramAdd3: 0
+        tags:
+          - type: freeze
+            strength: 2
+            comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+              rate: medium."
+        toggle: false
+        unlockStar: b
+      - id: "3303"
+        name: Icy Frost
+        info: "Each hit of the 4-sequence Basic ATK and Sprint ATK gains #1[f1]
+          Threshold instead. Each hit of blade wave unleashed in Threshold Mode
+          additionally deals #2[i]% ATK of Ice DMG."
+        brief: Basic ATK and Sprint ATK gain more Threshold. Threshold Blade Wave deals
+          more Ice DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 40
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 2.85714
+        paramAdd2: 0.08571
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3314"
+        name: Subzero Fechten
+        info: "Each hit of the 4-sequence slash additionally deals #1[i]% ATK of Ice
+          DMG."
+        brief: 4-sequence slash deals more Ice DMG.
+        icon: Skill_Nagative_Survive01
+        maxLv: 60
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01186
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "332"
+    name: "<color=#FFC741FF>Charge ATK</color>: Fight for Survival"
+    info: "Tap and hold to charge to unleash an upward slash that deals 200% ATK of
+      Physical DMG at full charge and 100% ATK of Physical DMG
+      otherwise.\\n<color=#23B2E2FF>When Threshold is at least 200, Charged ATK
+      instantly spends 50 Threshold to activate Threshold Mode.\\nThreshold
+      Mode: Consumes 20 Threshold every 0.5s, and ends at 0 Threshold or by
+      ending the 4-sequence Basic ATK.\\nUnder Threshold Mode: Each attack move
+      unleashes 3 Threshold Sword Ki that deals 50% ATK of Ice DMG per hit and
+      slows enemy Attack Speed by 40% for 4s.</color>"
+    icon: Skill_Himeko_NQ_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "Switch Skill and QTE are Heavy ATKs; Trauma charge: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3301"
+        name: Adrenaline
+        info: "Once Threshold Mode has been active for 2s, character deals #1[f1]% more
+          Ice DMG. Effect lasts until 4s after Threshold Mode ends."
+        brief: After Threshold Mode is active for 2s until 4s after it ends, character
+          deals more Ice DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 10
+        paramBase1: 0.23
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3304"
+        name: "<color=#FFC741FF>Switch</color>: Ice Breaker"
+        info: "Switch entry unleashes a downward cleave, knocking down enemies within
+          the AOE and dealing #1[i]%+100% ATK of Physical DMG."
+        brief: Switch entry knocks down and deals DMG to enemies in the AOE.
+        icon: Skill_Nagative_StartUp01
+        maxLv: 22
+        paramBase1: 1.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0619
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "3305"
+        name: "<color=#FFC741FF>QTE</color>: Avalanche"
+        info: "QTE: Triggered when an enemy is ignited to deal 225% ATK of Physical DMG
+          & 200% + #1[i]% ATK of Ice DMG, inflict <color=#FEDF4CFF>10 Rime
+          Trauma</color>, and restore 200 Threshold."
+        brief: "QTE: Triggered when an enemy is ignited to deal Ice DMG, inflict Rime
+          Trauma, and restore Threshold."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 25
+        paramBase1: 1
+        paramBase2: 2.5
+        paramBase3: 0
+        paramAdd1: 0.0625
+        paramAdd2: 0.10417
+        paramAdd3: 0
+        tags:
+          - type: freeze
+            strength: 2
+            comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+              rate: medium."
+        toggle: true
+        unlockStar: a
+  - id: "333"
+    name: Frost Touch
+    info: "Roll to dodge. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Ultimate Evasion deals 4 x 25% ATK of Ice DMG to
+      the attacker and its enemies nearby and restores 50 Threshold.\\nFrost
+      Touch: Ultimate Evasion restores another 100 Threshold. Tap [ATK] right
+      after Ultimate Evasion to unleash a Windmill Cleave that deals 50% + 100%
+      ATK of Ice DMG and inflicts</color> <color=#FEDF4CFF>5 Rime
+      Trauma</color><color=#23B2E2FF>. CD: 15s.</color>"
+    icon: Skill_Himeko_NQ_003
+    skillType: evasion
+    tags:
+      - type: freeze
+        strength: 1
+        comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+          rate: weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3306"
+        name: Ice Dust
+        info: "After triggering Frost Touch by Ultimate Evasion, the AOE downward hew
+          attack gains #1[i]% ATK of Ice DMG."
+        brief: After triggering Frost Touch, downward hew attack deals more DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 8
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.14286
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3307"
+        name: Polar Current
+        info: "Shortens CD of Frost Touch by #1[f1]s. Every hit of Evade Slash deals
+          #2[i]% ATK of Ice DMG instead."
+        brief: Shortens Frost Touch CD. Evade Slash deals more Ice DMG.
+        icon: Skill_Nagative_Survive03
+        maxLv: 8
+        paramBase1: 1.5
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.92857
+        paramAdd2: 0.02857
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "334"
+    name: Frost Cyclone
+    info: "Unleash mighty cleaves with the power of frost to deal massive Ice
+      DMG.\\n<color=#23B2E2FF>Unleash 3 Freezing Ki dealing 3 x 200% ATK of Ice
+      DMG, then dash to the target to spin the blade 3 times dealing 150% ATK of
+      Physical DMG + 50% ATK of Ice DMG per hit, and finally cleave downward to
+      unleash frost energy dealing 300% + 200% ATK of Physical DMG & 150% + 300%
+      ATK of Ice DMG, and inflicting</color> <color=#FEDF4CFF>5 Rime
+      Trauma</color> <color=#23B2E2FF>in a large area.\\nAfter dealing the final
+      hit, the Valkyrie restores 200 Threshold\\nSP cost: 100.</color>"
+    icon: Skill_Himeko_NQ_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 1
+        comment: "Last hit of Ultimate is Heavy ATK; Trauma charge: medium."
+      - type: freeze
+        strength: 2
+        comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+          rate: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3308"
+        name: Frozen Heart
+        info: "Final hit of Ultimate restores #1[f1] Threshold instead."
+        brief: Final hit of Ultimate gives Threshold.
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 250
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 70
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "3309"
+        name: Frostbite
+        info: "Each sequence of Ultimate additionally deals #1[i]% ATK of Ice DMG."
+        brief: Ultimate deals more Ice DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 70
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00725
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3310"
+        name: Snowstorm
+        info: "Ultimate inflicts another <color=#FEDF4CFF>5 Rime Trauma</color> and
+          slows enemy ATK Speed by 40% for #2[f2]s when it ends."
+        brief: Ultimate inflicts bonus Rime Trauma and slows enemy Attack Speed when it
+          ends.
+        icon: Skill_Nagative_Control03
+        maxLv: 4
+        paramBase1: 3.5
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.83333
+        paramAdd2: 1
+        paramAdd3: 0
+        tags:
+          - type: freeze
+            strength: 2
+            comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+              rate: medium."
+        toggle: false
+        unlockStar: sss
+  - id: "335"
+    name: Ward of Boreas
+    info: "Leader Bonus: <color=#23B2E2FF>Ward of Boreas: {{Team takes #1[i]% less
+      Melee Physical DMG; PSY-type character gains #2[i]% Total DMG
+      Multiplier.}}</color>"
+    icon: Skill_Himeko_NQ_005
+    skillType: leader
+    tags: []
+    paramSubId1: 3311
+    paramSubId2: 3311
+    paramSubId3: 0
+    subSkills:
+      - id: "3311"
+        name: Ward of Boreas
+        info: "Team receives #1[i]% less Melee Physical DMG. PSY-type battlesuits gains
+          #2[i]% Total DMG."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Survive01
+        maxLv: 4
+        paramBase1: 0.14
+        paramBase2: 0.08
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "336"
+    name: Passive
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E2FF>Threshold: Starts
+      at 200 (max 600).</color>"
+    icon: Skill_Himeko_NQ_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3312"
+        name: Merciless Pursuit
+        info: "Team attacks against move slow, attack slow, or frozen enemies deal
+          #1[f1]% more Ice DMG."
+        brief: Team deals more Ice DMG against move slow, attack slow, or frozen
+          enemies.
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02857
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3313"
+        name: White Heat
+        info: "When Combo Hit Count exceeds 20, character gains #1[f1]% Total DMG
+          Multiplier."
+        brief: When Combo Hit Count exceeds 20, character gains a Total DMG Multiplier
+          buff.
+        icon: Skill_Nagative_Damage02
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss

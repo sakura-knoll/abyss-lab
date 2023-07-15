@@ -1,0 +1,362 @@
+id: "511"
+fullName: Luna Kindred
+shortName: Luna Kindred
+desc: "<color=white>Features: </color><color=#FFAF2CFF>BIO-type</color>
+  <color=#FFAF2CFF>Awakened</color> melee battlesuit capable of freely changing
+  between attack forms. Causes bleeding to her enemies."
+firstName: Theresa
+lastName: Apocalypse
+enFirstName: null
+enLastName: null
+attributeType: bio
+isEasterner: false
+weapon: cross
+character: theresa
+initialStar: a
+tags:
+  - physical-dmg
+  - heavy-atk
+  - bleed
+  - time-mastery
+skills:
+  - id: "321"
+    name: Tainted Blades
+    info: "Basic ATK: Melee 4-sequence ATK with twin blades.\\n<color=#23B2E2FF>1st
+      Sequence: 2x50% ATK of Physical DMG.\\n2nd Sequence: 2x50% ATK of Physical
+      DMG.\\n3rd Sequence: 2x60%+70% ATK of Physical DMG.\\n4th Sequence:
+      2x50%+2x70% ATK of Physical DMG.</color>"
+    icon: Skill_Theresa_GM_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3201"
+        name: Anemia
+        info: "Basic ATK (and Charged ATK) hits have a #1[f1]% chance to weaken the
+          target and reduce its ATK by 50% for 2s. After the weaken debuff ends,
+          said enemy additionally takes #2[f1]% ATK of Physical DMG. CD between
+          triggers: 2s."
+        brief: Basic ATKs may weaken enemies (Physical DMG vulnerability debuff) for 2s
+          upon hit.
+        icon: Skill_Nagative_Damage01
+        maxLv: 75
+        paramBase1: 0.052
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0.002
+        paramAdd2: 0.00541
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3202"
+        name: Soul Drinker
+        info: "When any hit of Basic ATK sequences deals DMG against a bleeding enemy,
+          the Valkyrie heals #1[f1] HP and gains #2[f2] Sanguine Mark. Effect
+          applies to non-bleeding enemies too at below 50 Sanguine Mark."
+        brief: Basic ATKs heal HP and gives Sanguine Mark upon hit. Effect may trigger
+          against non-bleeding enemies at low Sanguine Mark.
+        icon: Skill_Nagative_Control02
+        maxLv: 8
+        paramBase1: 6
+        paramBase2: 13
+        paramBase3: 0
+        paramAdd1: 3
+        paramAdd2: 1
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3203"
+        name: Sanguine Curse
+        info: "When Combo Hit Count exceeds 30, each hit of the 4-sequence Basic ATK
+          additionally deals #1[f1]% ATK of Physical DMG."
+        brief: When Combo Hit Count exceeds 30, Basic ATK sequence deal bonus Physical
+          DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "322"
+    name: "<color=#FFC741FF>Charge ATK</color>: Axe of the Fallen"
+    info: "Charge during Basic ATK to swing a giant axe.\\n<color=#23B2E2FF>Hold
+      [ATK] after any sequence of Basic ATK to unleash Axe of the
+      Fallen.\\nAfter charging, tap [ATK] to swing the axe again. Other inputs
+      will retract the axe.\\nAt 50 or more Sanguine Mark:\\nAttacks consume 50
+      Sanguine Mark.\\n1st Sequence: 150%+250% ATK of Physical DMG.\\n2nd
+      Sequence: 150%+250% ATK of Physical DMG.\\nAt less than 50 Sanguine Mark:
+      Each sequence deals 100%+200% ATK of Physical DMG.\\nSanguine Mark maxes
+      at 200\\nSanguine Mark regen: 5/s. Performing Charged ATK suspends regen
+      for 1.5s.\\n</color>"
+    icon: Skill_Theresa_GM_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "Charged ATK, Switch Skill & QTE are Heavy ATKs; Trauma charge:
+          medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3204"
+        name: Bleeding Roses
+        info: Charged ATKs that consume Sanguine Mark inflict <color=#FEDF4CFF>#1[f1]
+          Bleed Trauma</color>.
+        brief: Charged ATKs that consume Sanguine Mark inflict Bleed Trauma.
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 2
+        paramBase2: 3.8
+        paramBase3: 0
+        paramAdd1: 0.33333
+        paramAdd2: 0.3
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "Inflicts Bleed Trauma; Trauma charge rate: weak."
+        toggle: false
+        unlockStar: a
+      - id: "3205"
+        name: "<color=#FFC741FF>Switch</color>: Entomb"
+        info: "Deals #1[f1]% ATK of Physical DMG."
+        brief: Switch skill that deals Physical DMG.
+        icon: Skill_Nagative_StartUp02
+        maxLv: 10
+        paramBase1: 1.4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3206"
+        name: "<color=#FFC741FF>QTE</color>: Blood Moon Kiss"
+        info: "QTE: Triggered when an enemy is paralyzed to deal #1[f1]% ATK of Physical
+          DMG and inflicts <color=#FEDF4CFF>5 Bleed Trauma</color>."
+        brief: "QTE: Triggered when an enemy is paralyzed to deal Physical DMG and
+          inflict Bleed Trauma."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 8
+        paramBase1: 3.5
+        paramBase2: 60
+        paramBase3: 3.8
+        paramAdd1: 0.5
+        paramAdd2: 25.71429
+        paramAdd3: 0.38571
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "Inflicts Bleed Trauma; Trauma charge rate: weak."
+        toggle: true
+        unlockStar: s
+  - id: "323"
+    name: Ethereal Nightmare
+    info: "Quick sideways dodge to evade enemy attack. Can be triggered 2 times in a
+      row.\\n<color=#23B2E2FF>After Ultimate Evasion, gain 40% Move Speed for
+      3s.\\nTime Fracture: Triggers Time Fracture upon an Ultimate Evasion,
+      slowing all enemies for 3s. CD: 15s.</color>"
+    icon: Skill_Theresa_GM_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3207"
+        name: Night of Fright
+        info: "Extends the duration of Time Fracture by #1[f2]s."
+        brief: Extends Time Fracture duration.
+        icon: Skill_Nagative_Survive01
+        maxLv: 35
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02941
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3208"
+        name: Mist Form
+        info: "Shortens CD of Ultimate Evasion skill by #1[f2]s."
+        brief: Shortens CD of Ultimate Evasion skill.
+        icon: Skill_Nagative_Survive02
+        maxLv: 20
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.10526
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3209"
+        name: Sacrilege
+        info: "Charged ATK gains #1[f1]% Crit Rate."
+        brief: Charged ATKs gain a Crit Rate buff.
+        icon: Skill_Nagative_Damage02
+        maxLv: 4
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.08333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "324"
+    name: Feast for the Dead
+    info: "Drop the Axe of Fallen from the sky for large AOE
+      damage.\\n<color=#23B2E2FF>Axe Drop: 2x300%+600% ATK of Physical DMG\\nSP
+      cost: 75.</color>"
+    icon: Skill_Theresa_GM_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 3
+        comment: "Last sequence of Ultimate is Heavy ATK; Trauma charge: strong."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3210"
+        name: Tomb for the Living
+        info: "Final sequence of Ultimate deals an additional #2[i]% ATK of Physical
+          DMG. When scoring a hit, triggers a Time Fracture for #1[f1]s."
+        brief: Final sequence of Ultimate deals more Physical DMG and triggers Time
+          Fracture upon hit.
+        icon: Skill_Nagative_Damage02
+        maxLv: 6
+        paramBase1: 2
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: 0.6
+        paramAdd2: 0.4
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "3211"
+        name: Blood Frenzy
+        info: "When Ultimate deals DMG, gain 100 Sanguine Mark. During Ultimate, gain 12
+          Sanguine Mark per second while Charged ATKs gain #2[f1]% Total DMG
+          Multiplier. Duration: #1[f1]s."
+        brief: Ultimate gives plenty of Sanguine Mark upon hit and temporarily buffs
+          Charged ATK DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 10
+        paramBase1: 5.3
+        paramBase2: 0.22
+        paramBase3: 0
+        paramAdd1: 0.3
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "325"
+    name: Mark of Cain
+    info: "Leader Bonus: <color=#23B2E2FF>Mark of Cain: {{Shortens duration of most
+      debuffs by #1[i]% for the team. BIO-type characters gains #2[i]% Physical
+      DMG.}}</color>"
+    icon: Skill_Theresa_YD_005
+    skillType: leader
+    tags: []
+    paramSubId1: 3212
+    paramSubId2: 3212
+    paramSubId3: 0
+    subSkills:
+      - id: "3212"
+        name: Mark of Cain
+        info: "Shortens debuff durations by #1[i]% for the team. BIO-type characters
+          gain #2[i]% Physical DMG."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.3
+        paramBase2: 0.18
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "326"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF>Every Charged ATK
+      boosts Valkyrie's Total DMG by 10%. 10 stacks max. Effect ends when
+      Valkyrie exits.</color>
+    icon: Skill_Theresa_YD_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3213"
+        name: Unclean Thorns
+        info: "After deploying the cross, the Valkyrie gains #1[f1]% ATK Speed for
+          #2[f1]s."
+        brief: Deploying the cross accelerates Attack Speed.
+        icon: Skill_Nagative_Damage02
+        maxLv: 13
+        paramBase1: 0.25
+        paramBase2: 3.6
+        paramBase3: 0
+        paramAdd1: 0.02083
+        paramAdd2: 0.2
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3214"
+        name: Unholy Relic
+        info: "Gain #1[f1] initial SP in battle. This effect triggers once every 10
+          minutes in Open World."
+        brief: Start battle with more SP. This bonus triggers once every 10 minutes in
+          Open World.
+        icon: Skill_Nagative_Survive02
+        maxLv: 32
+        paramBase1: 12
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.58097
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3215"
+        name: Kindred's Pact
+        info: "The Valkyrie deals #1[f1]% more Physical DMG against bleeding enemies and
+          takes #2[f1]% less Total DMG from bleeding enemies' attacks."
+        brief: Attacks deal more DMG against bleeding enemies. Take less DMG from
+          bleeding enemies.
+        icon: Skill_Nagative_Damage03
+        maxLv: 8
+        paramBase1: 0.25
+        paramBase2: 0.11
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

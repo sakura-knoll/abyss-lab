@@ -1,0 +1,40 @@
+id: "86"
+name: Anniversary Ball set
+desc: null
+skills:
+  - id: "4124"
+    name: Flower Dance
+    info: "For every 5s deployed, the host gains 1 Dance Level (3 stacks max). The
+      host deals #1[i]%, #2[i]%, and #3[i]% bonus Total DMG respectively at
+      Dance Level 1, 2, and 3. Dance Level resets when the host is switched
+      out."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags: []
+    param1: 0.15
+    param1Add: 0
+    param2: 0.2
+    param2Add: 0
+    param3: 0.25
+    param3Add: 0
+  - id: "4125"
+    name: Dance of Passion
+    info: "When the Dance Level reaches 3, attacks will cause an explosion, dealing
+      #1[i]% ATK of Physical DMG to surrounding enemies. CD: #2[i]s."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: physical-dmg
+        comment: null
+    param1: 3
+    param1Add: 0
+    param2: 6
+    param2Add: 0
+    param3: 0
+    param3Add: 0
+stigmaIdList:
+  - "110861"
+  - "110862"
+  - "110863"

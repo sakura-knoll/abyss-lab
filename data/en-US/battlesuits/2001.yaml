@@ -1,0 +1,284 @@
+id: "2001"
+fullName: Driving Thunder
+shortName: null
+desc: null
+firstName: null
+lastName: null
+enFirstName: null
+enLastName: null
+attributeType: bio
+isEasterner: true
+weapon: katana
+character: keqing
+initialStar: s
+tags: []
+skills:
+  - id: "651"
+    name: Yunlai Swordsmanship
+    info: "Sword attacks.\\n<color=#23B2E2FF>1st Sequence: 100% ATK of Physical DMG
+      + 100% ATK of Lightning DMG\\n2nd Sequence: 80% ATK of Physical DMG + 100%
+      ATK of Lightning DMG\\n3rd Sequence: 160% ATK of Physical DMG + 200% ATK
+      of Lightning DMG\\n4th Sequence: 250% ATK of Physical DMG + 500% ATK of
+      Lightning DMG\\n5th Sequence: 280% ATK of Physical DMG + 400% ATK of
+      Lightning DMG</color>"
+    icon: Skill_Keqing_DB_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6501"
+        name: Jade Carver
+        info: "Basic ATKs deal #1[f1]% bonus Total DMG."
+        brief: Basic ATKs deal more Total DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6502"
+        name: Jade Bearer
+        info: "With marks present, every sequence of Basic ATK restores #1[f1] bonus
+          KE."
+        brief: With marks present, every sequence of Basic ATK restores bonus KE.
+        icon: Skill_Nagative_Survive01
+        maxLv: 1
+        paramBase1: 20
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "652"
+    name: "<color=#FFC741FF>Combo</color>: Stellar Restoration"
+    info: Hold [ATK] to heavy ATK.\n<color=#23B2E2FF>Strike enemies dealing 375% ATK
+      of Lightning DMG and mark enemies hit.</color>
+    icon: Skill_Keqing_DB_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6503"
+        name: Under the Big Dipper
+        info: "Valkyrie deals #1[f1]% bonus Lightning DMG to paralyzed enemies. Combo
+          ATKs deal #2[f1]% bonus Total DMG."
+        brief: Valkyrie deals bonus Lightning DMG to paralyzed enemies. Combo ATKs deal
+          bonus Total DMG.
+        icon: Skill_Nagative_Skill01
+        maxLv: 1
+        paramBase1: 0.2
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+      - id: "6504"
+        name: Racing Stars
+        info: "Combo ATKs restore #1[f1] bonus KE."
+        brief: Combo ATKs restore bonus KE.
+        icon: Skill_Nagative_Skill02
+        maxLv: 1
+        paramBase1: 60
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "653"
+    name: Swift Shadow
+    info: "Evade enemy attacks up to twice in a row.\\n<color=#23B2E2FF>Evasion
+      Skill: Induce 3s of Global Time Fracture and mark the target.\\nEvasion
+      Follow-Up: With marks present, hold [ATK] after evasion to perform
+      follow-up attacks, blinking to the target, dealing 300% ATK of Lightning
+      ATK, and consuming all marks. CD: 15s.</color>"
+    icon: Skill_Keqing_DB_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6507"
+        name: Fleeting Flare
+        info: "Ultimate Evasion ATKs deal #1[f1]% bonus Lightning DMG."
+        brief: Ultimate Evasion ATKs deal more Lightning DMG.
+        icon: Skill_Nagative_Survive02
+        maxLv: 1
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "6508"
+        name: Cloud Shadow
+        info: "Ultimate Evasion follow-up ATKs restore #1[f1] HP. CD: 6s."
+        brief: Ultimate Evasion follow-up ATKs restore HP.
+        icon: Skill_Nagative_Skill02
+        maxLv: 1
+        paramBase1: 150
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "654"
+    name: Starward Sword
+    info: "Shift across the battlefield and leap into the air to deal DMG in a large
+      area.\\n<color=#23B2E2FF>Tap [ULT] to shift across the battlefield and
+      leap into the air to deal 2000% ATK of Lightning DMG in a large area and
+      make enemies take 25% bonus Lightning DMG for 12s. SP Cost: 80. CD:
+      18s.</color>"
+    icon: Skill_Keqing_DB_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6505"
+        name: Heavenly Pass
+        info: "Ultimate deals #1[f1]% bonus Total DMG."
+        brief: Ultimate deals bonus Total DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6506"
+        name: Celestial Shift
+        info: "Ultimate marks enemies hit and make them take #1[f1]% ATK of bonus
+          Lightning DMG on hit for 5s. 20 instances max."
+        brief: Ultimate marks enemies hit and make them take bonus Lightning DMG on hit.
+        icon: Skill_Nagative_Damage02
+        maxLv: 1
+        paramBase1: 8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "655"
+    name: Aristocratic Dignity
+    info: "Leader Bonus: \\n<color=#23B2E2FF>Leader Bonus: {{Team deals #1[f1]% more
+      Ice DMG through Ultimates or in Burst modes. For every Ice DMG dealer on
+      the team, team gains #2[f1]% Total DMG.}}</color>"
+    icon: Skill_Keqing_DB_005
+    skillType: leader
+    tags: []
+    paramSubId1: 6210
+    paramSubId2: 6210
+    paramSubId3: 0
+    subSkills:
+      - id: "6511"
+        name: Flashing Thunderbolt
+        info: "QTE deals #1[f1]% bonus Lightning DMG."
+        brief: QTE deals more Lightning DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6512"
+        name: Thundering Chant
+        info: "QTE marks enemies hit and grants Keqing #1[f1]% Total DMG Reduction plus
+          high Ignore Interrupt for 10s."
+        brief: QTE marks enemies hit, reduces Total DMG received by Keqing, and boosts
+          her Ignore Interrupt.
+        icon: Skill_Nagative_Skill03
+        maxLv: 1
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "656"
+    name: Pellucid Lightning
+    info: "Step back and unleash blade waves.\\n<color=#23B2E2FF>Kinetic Energy: Max
+      at 600. Each hit of Basic Attack restores 50.\\nAt 100 or more KE, tap the
+      weapon skill button to unleash blade waves. 1st Sequence: 250%x4 ATK of
+      Lightning DMG\\n2nd Sequence: 250%x4 ATK of Lightning DMG\\n3rd Sequence:
+      250%x4 ATK of Lightning DMG\\n4th Sequence: 250%x7 ATK of Lightning DMG.
+      Each sequence costs 100 KE. While unleashing blade waves, hold the weapon
+      skill button to cast Finisher dealing 600% ATK of Lightning DMG.</color>"
+    icon: Skill_Keqing_DB_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6509"
+        name: Thundering Stance
+        info: "Every blade wave restores #1[f1] SP and every sequence makes Finisher
+          deal #2[f1]% ATK of Lightning DMG. 24 stacks max."
+        brief: Blade waves restore SP.
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 1.5
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6510"
+        name: Spring Rumbles
+        info: "With marks present, Valkyrie deals #1[f1]% bonus Total DMG."
+        brief: With marks present, Valkyrie deals more Total DMG.
+        icon: Skill_Nagative_Skill03
+        maxLv: 1
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a

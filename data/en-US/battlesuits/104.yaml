@@ -1,0 +1,350 @@
+id: "104"
+fullName: Divine Prayer
+shortName: Divine Prayer
+desc: "<color=white>Features: </color><color=#FF66CCFF>PSY-type</color> melee
+  battlesuit with self-healing and great survivability."
+firstName: Kiana
+lastName: Kaslana
+enFirstName: null
+enLastName: null
+attributeType: psy
+isEasterner: false
+weapon: pistols
+character: kiana
+initialStar: a
+tags:
+  - physical-dmg
+  - heal
+  - impair
+  - burst
+  - time-mastery
+skills:
+  - id: "41"
+    name: Meteor Kata
+    info: "4-kick attack sequence.\\n<color=#23B2E2FF>1st Sequence: 100% ATK of
+      Physical DMG.\\n2nd Sequence: 100% ATK of Physical DMG.\\n3rd Sequence:
+      100% ATK of Physical DMG.\\n4th Sequence: 300% ATK of AOE Physical
+      DMG.</color>"
+    icon: Skill_Kiana_PT_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "401"
+        name: Comet Ward
+        info: "Basic ATKs have a #1[f1]% chance of weakening enemies, decreasing their
+          ATK by #2[f1]% for 4s."
+        brief: Basic ATKs have a chance of weakening enemy.
+        icon: Skill_Nagative_Control01
+        maxLv: 40
+        paramBase1: 0.03
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0.00308
+        paramAdd2: 0.00769
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "402"
+        name: Nebula Uplink
+        info: "Basic ATKs that score a crit have a #1[f1]% chance to heal the whole team
+          for #2[i] HP."
+        brief: Basic ATKs have heal the whole team upon Crit.
+        icon: Skill_Nagative_Survive02
+        maxLv: 35
+        paramBase1: 0.05
+        paramBase2: 5
+        paramBase3: 0
+        paramAdd1: 0.00735
+        paramAdd2: 1.32353
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "42"
+    name: "<color=#FFC741FF>Combo</color>: Star Arrow"
+    info: "Launches spin kick and charging kick attacks after 3 consecutive
+      kicks.\\n<color=#23B2E2FF>Spin Kick: 150% ATK of Physical DMG
+      x3\\nCharging Kick: 200% ATK of Physical DMG and knocks enemies
+      back.</color>"
+    icon: Skill_Kiana_QN_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "403"
+        name: "<color=#FFC741FF>QTE</color>: Aerolite Impact"
+        info: "QTE: Triggers when an enemy is paralyzed. Unleashes a powerful whirlwind
+          kick, dealing #1[i] Physical DMG + 240% ATK of Physical DMG. If the
+          last hit of the QTE hits any enemy, heals team for #2[i] HP."
+        brief: "QTE: Triggered when an enemy is paralyzed to unleash a powerful
+          whirlwind kick, deal Physical DMG to nearby enemies, and heal self."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 30
+        paramBase1: 555
+        paramBase2: 20
+        paramBase3: 0
+        paramAdd1: 103.72414
+        paramAdd2: 2.77931
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+      - id: "404"
+        name: Implosion
+        info: "Combo ATKs gain #1[f1]% Crit Rate."
+        brief: Combo ATKs gain Crit Rate.
+        icon: Skill_Nagative_Damage03
+        maxLv: 5
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0625
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "412"
+        name: "<color=#FFC741FF>Switch</color>: Star Flame"
+        info: "Switch entry unleashes a forward kick that deals 200% + #1[i]% ATK of
+          Physical DMG, stuns knocked-airborne enemies for 5s, and inflicts
+          <color=#FEDF4CFF>5 Stun Trauma</color>."
+        brief: Switch entry unleashes a forward kick that deals Physical DMG and
+          inflicts Stun Trauma on knocked-airborne enemies.
+        icon: Skill_Nagative_StartUp01
+        maxLv: 30
+        paramBase1: 1
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.06897
+        paramAdd2: 0.06897
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 1
+            comment: "Inflicts Stun Trauma; Trauma charge rate: weak."
+        toggle: false
+        unlockStar: a
+  - id: "43"
+    name: Time Fetter
+    info: "Quickly cartwheels away to evade enemy attacks. Can be performed twice in
+      a row.\\n<color=#23B2E2FF>Time Fetters: Triggers upon Ultimate Evasion.
+      Knocks the attacker airborne and inflicts Time Lock for 4s. CD:
+      8s.</color>"
+    icon: Skill_Kiana_QN_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "405"
+        name: Nova Fissure
+        info: "Ultimate Evasion heals the whole team for #1[f1] HP."
+        brief: Ultimate Evasion heals the whole team.
+        icon: Skill_Nagative_Survive02
+        maxLv: 70
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.36232
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "413"
+        name: Frozen Time
+        info: "Time Fetters lasts #1[f1]s and inflicts <color=#FEDF4CFF>3 Bleed
+          Trauma</color>."
+        brief: Time Fetters lasts longer and inflicts Bleed Trauma.
+        icon: Skill_Nagative_Damage01
+        maxLv: 40
+        paramBase1: 5.2
+        paramBase2: 0.02
+        paramBase3: 0
+        paramAdd1: 0.07179
+        paramAdd2: 0.00128
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "Inflicts Bleed Trauma; Trauma charge rate: weak."
+        toggle: false
+        unlockStar: a
+      - id: "414"
+        name: Time Bender
+        info: "Ultimate Evasion effects can be triggered #1[i] more time(s). CD is
+          decreased by #2[f1]s."
+        brief: Ultimate Evasion can be triggered 1 more time. CD is shortened.
+        icon: Skill_Nagative_Damage03
+        maxLv: 5
+        paramBase1: 1
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.5
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "44"
+    name: Valkyrie Refuge
+    info: "Activates divine energy burst to enter Holy Light
+      mode.\\n<color=#23B2E2FF>Burst: Consumes SP continuously to increase ATK.
+      Time Fracture is active throughout the Burst.\\nHoly Light: Once the
+      sub-skill is activated, heals HP for the entire team every 0.5s.\\nAt over
+      75 SP, consumes 20 SP to activate Ultimate and 10 SP/s afterwards.
+      Duration: 60s or until SP is depleted, during which the SP consumption
+      rate increases after 20s.</color>"
+    icon: Skill_Kiana_QN_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "4th hit of Burst mode combo and last hit of Combo ATK are Heavy ATKs;
+          Trauma charge: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "406"
+        name: Weihwasser
+        info: "Upon Burst, instantly heal the whole team for #1[i] HP."
+        brief: Heals the whole team upon Burst.
+        icon: Skill_Nagative_Control03
+        maxLv: 60
+        paramBase1: 80
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 4.0678
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "407"
+        name: Healing Spring
+        info: "Heals the whole team for #1[f1] HP every 0.5s during Burst. Effective on
+          summoned characters (illusions, etc.)."
+        brief: Continuously heals the whole team during Burst.
+        icon: Skill_Nagative_Survive01
+        maxLv: 73
+        paramBase1: 8.96
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.80889
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "408"
+        name: Song of Alacrity
+        info: "During Burst, the whole team gains #1[i]% Move Speed and #2[i]% Attack
+          Speed."
+        brief: During Burst, team gains Move SPD and Attack SPD.
+        icon: Skill_Nagative_Survive02
+        maxLv: 20
+        paramBase1: 0.1
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.02105
+        paramAdd2: 0.01053
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "45"
+    name: Nebula Ward
+    info: "Leader Bonus:\\n<color=#23B2E2FF>Nebula Ward: {{Team gains #1[i]%
+      Elemental DMG and takes #2[i]% less Elemental DMG.}}</color>"
+    icon: Skill_Kiana_PT_005
+    skillType: leader
+    tags: []
+    paramSubId1: 409
+    paramSubId2: 409
+    paramSubId3: 0
+    subSkills:
+      - id: "409"
+        name: Nebula Ward
+        info: "Team gains #1[i]% Elemental DMG and takes #2[i]% less Elemental DMG."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Survive03
+        maxLv: 3
+        paramBase1: 0.24
+        paramBase2: 0.22
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "46"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF></color>
+    icon: Skill_Kiana_PT_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "410"
+        name: Quasar
+        info: "Enters the battlefield automatically right before a teammate dies and
+          recovers her HP by #1[i]. Can only be triggered once per stage."
+        brief: Enters the battle automatically just before an ally dies and heals her.
+        icon: Skill_Nagative_Survive02
+        maxLv: 26
+        paramBase1: 30
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 22.8
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "411"
+        name: Divine Penalty
+        info: "When on standby, inflict Divine Penalty on a random enemy every 10s,
+          dealing #1[i] Lightning DMG and Impairing the target to lower its DEF
+          by #3[f1]% for #2[f1]s."
+        brief: When not on the field, deals lightning DMG to a random enemy and impairs
+          it every 10s.
+        icon: Skill_Nagative_Survive01
+        maxLv: 60
+        paramBase1: 88
+        paramBase2: 5
+        paramBase3: 0.5
+        paramAdd1: 17.20339
+        paramAdd2: 0.01695
+        paramAdd3: 0.00508
+        tags: []
+        toggle: true
+        unlockStar: a
+      - id: "415"
+        name: Divine Light
+        info: "Switch entry dispels most debuffs from all characters and increases own
+          DEF by #2[f1]% for #1[f1]s."
+        brief: Switch entry removes most debuffs for the team and increases DEF for
+          self.
+        icon: Skill_Nagative_Survive03
+        maxLv: 5
+        paramBase1: 2.5
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.375
+        paramAdd2: 0.075
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

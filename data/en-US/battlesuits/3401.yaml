@@ -1,0 +1,438 @@
+id: "3401"
+fullName: Dreamweaver
+shortName: Dreamweaver
+desc: "<color=white>Features: </color><color=#2CE3FFFF>MECH-type</color>.
+  Commands Seeds of Ideas. Ultimate creates a dream, where she switches to her
+  astral body."
+firstName: Misteln
+lastName: Schariac
+enFirstName: null
+enLastName: null
+attributeType: mech
+isEasterner: false
+weapon: javelin
+character: hare
+initialStar: s
+tags:
+  - physical-dmg
+  - gather
+  - time-mastery
+skills:
+  - id: "861"
+    name: Adaptability of Life
+    info: "Attack with a banner or a javelin.\\n<color=#23B2E3FF>Physical body: Uses
+      the banner to cast spells. Has 4 sequences. The 4th sequence is only
+      available when Seeds of Idea are present.\\nSEQ 1: Deals 180% x 2 ATK of
+      Physical DMG.\\nSEQ 2: Deals 240% ATK of Physical DMG.\\nSEQ 3: Generates
+      a black hole at the target location to pull nearby enemies and deal 150% x
+      4 ATK of Physical DMG.\\nSEQ 4: Available when Seeds of Idea are present.
+      Commands them to throw spears at the target, dealing 150% x 4 ATK of
+      Physical DMG. Gains Iron Body while throwing them.\\nAstral body: Attacks
+      with a javelin. Has 4 sequences.\\nSEQ 1: Deals 250% ATK of Physical
+      DMG.\\nSEQ 2: Deals 120% + 320% ATK of Physical DMG.\\nSEQ 3: Deals 300%
+      ATK of Physical DMG.\\nSEQ 4: Deals 350% + 650% ATK of Physical DMG.
+      Throws up to 4 short spears, each dealing 100% ATK of Physical DMG, and
+      fills up the Javelin Meter. Grants Iron Body when casting.</color>"
+    icon: Skill_FeatheredRabbit_C1_DU_861
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8601"
+        name: "<color=#FFC741FF>QTE</color>: Burden of Incarnations"
+        info: "QTE: Triggered when an enemy is in Time Fracture or impaired. Dreamweaver
+          enters via QTE and creates a gravitational field to suppress all
+          enemies, dealing #1[f1]% ATK of Physical DMG and directly summoning
+          Seed of Idea. On release, QTE restores #2[f1] more SP. Enemies hit by
+          it deal #3[f1]% less Total DMG for 10s. Triggering it again resets the
+          duration."
+        brief: "QTE: Triggered when an enemy is in Time Fracture or impaired.
+          Dreamweaver enters via QTE and creates a gravitational field to
+          suppress all enemies, dealing Physical DMG and directly summoning Seed
+          of Idea. Casting QTE restores bonus SP. Enemies hit by it deal less
+          Total DMG."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 4
+        paramBase1: 3
+        paramBase2: 5
+        paramBase3: 0.1
+        paramAdd1: 2.33333
+        paramAdd2: 1.66667
+        paramAdd3: 0.06667
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "8602"
+        name: Eternal Name of Glory
+        info: "Astral body's Basic ATK SEQ 4 deals an extra #1[f1]% ATK of Physical DMG.
+          After astral body uses Charged ATK to fully recharge Javelin, tap
+          [ATK] to connect into Basic ATK SEQ 4."
+        brief: Astral body's Basic ATK SEQ 4 deals bonus Physical DMG. After astral body
+          uses Charged ATK to fully recharge the javelin, tap [ATK] to connect
+          into Basic ATK SEQ 4.
+        icon: Skill_Nagative_Skill01
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8603"
+        name: Poem of Ever-changing History
+        info: "Gain #1[f1] initial SP in battle. This effect triggers once every 10
+          minutes in Open World."
+        brief: Initial SP increased when in battle. Can only be triggered once every 10
+          minutes in Open World.
+        icon: Skill_Nagative_StartUp01
+        maxLv: 11
+        paramBase1: 20
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+  - id: "862"
+    name: "<color=#FFC741FF>Charged ATK</color>: Anguish of Eradication"
+    info: "Gather giant rocks and sweep with the javelin.\\n<color=#23B2E4FF>Only
+      available while controlling the astral body. Hold [ATK] to make the astral
+      body step back and throw short spears. Tap [ATK] repeatedly to throw all
+      short spears one by one, each dealing 130% ATK of Physical DMG. Gains Iron
+      Body while throwing javelins.\\nKaleidoscope: Hold [ATK] when the Javelin
+      Meter is full to cast. The astral body gathers rocks to pull and trap
+      nearby enemies, then swings the long spear to smash the rocks, dealing
+      130% x 4 + 1080% ATK of Physical DMG and replenishing all short
+      spears.</color>\\nIncreases Crit Rate of Kaleidoscope by 15%."
+    icon: Skill_FeatheredRabbit_C1_DU_862
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8604"
+        name: Unfathomable Cycle
+        info: "Enemies take #1[f1]% more Total DMG when Dreamweaver's summoned entity is
+          on the field."
+        brief: Enemies take more Total DMG when Dreamweaver's summoned entity is on the
+          field.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.01
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.004
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8605"
+        name: Protection of the Everlasting
+        info: "Kaleidoscope deals #1[f1]% more Physical DMG."
+        brief: Kaleidoscope deals more Physical DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 9
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8606"
+        name: Weaving a Pure Dream
+        info: "Enemies take #1[f1]% bonus Physical DMG from Dreamweaver (independent)."
+        brief: Enemies take more Physical DMG from Dreamweaver (independent).
+        icon: Skill_Nagative_Damage03
+        maxLv: 12
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01364
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "863"
+    name: Vestige of Illusions
+    info: "Dodge enemy attacks up to twice in a row.\\n<color=#23B2E5FF>A successful
+      Ultimate Evasion triggers Ultimate Evasion Skill, which causes global Time
+      Fracture for 3s. CD: 15s.\\nPhysical body: Triggering Ultimate Evasion
+      Skill restores 5 more SP.\\nAstral body: Attack and evade simultaneously.
+      Evading forward deals 90% ATK of Physical DMG. Evading backward deals 30%
+      x 3 ATK of Physical DMG. Evasion can be connected into Basic ATK SEQ
+      2.</color>"
+    icon: Skill_FeatheredRabbit_C1_DU_863
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8607"
+        name: Shape of Prudent Wisdom
+        info: "Astral body's Ultimate Evasion Skill restores an additional #1[f1] SP.
+          Hitting enemies with evasion skill also triggers Ultimate Evasion
+          Skill, which can be connected into Basic ATK SEQ 4 by tapping [ATK].
+          Basic ATK SEQ 4 released this way will make Dreamweaver enter Weaving
+          state. Weaving state lasts 15s. Triggering it again resets the
+          duration."
+        brief: Astral body's Ultimate Evasion Skill restores additional SP. Hitting
+          enemies with evasion skill also triggers Ultimate Evasion Skill, which
+          can be connected into Basic ATK SEQ 4 by tapping [ATK]. Basic ATK SEQ
+          4 released this way will make Dreamweaver enter Weaving state. Weaving
+          state lasts 15s. Triggering it again resets the duration.
+        icon: Skill_Nagative_Skill03
+        maxLv: 9
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.875
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: sss
+      - id: "8608"
+        name: Emblem of Emerging Courage
+        info: "Dreamweaver gains 1 stack of Transcription for every enemy she kills.
+          Each stack lets her deal #1[f1]% bonus DMG (manifests as HP loss).
+          Each stack lasts 60s and is timed separately. 3 stacks max."
+        brief: Dreamweaver gains 1 stack of Transcription for every enemy she kills.
+          Each stack lets her deal bonus DMG (manifests as HP loss). Each stack
+          lasts 60s and is timed separately. 3 stacks max.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.01
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.004
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8609"
+        name: Banner of Eternal Justice
+        info: "Being hit while Protective Appearance lasts or landing Protective
+          Appearance's assembling attack triggers Ultimate Evasion Skill, and
+          Dreamweaver enters Weaving state for 15s. Triggering it again resets
+          the duration. Casting Ultimate to create a dream will reset Ultimate
+          Evasion Skill's CD. In Weaving state, Finisher deals an additional
+          #1[f1]% ATK of Physical DMG and cancels Weaving state."
+        brief: Being hit while Protective Appearance lasts or landing Protective
+          Appearance's assembling attack triggers Ultimate Evasion Skill, and
+          Dreamweaver enters Weaving state for 15s. Triggering it again resets
+          the duration. Casting Ultimate to create a dream will reset Ultimate
+          Evasion Skill's CD. In Weaving state, Finisher deals additional
+          Physical DMG and cancels Weaving state.
+        icon: Skill_Nagative_Skill02
+        maxLv: 1
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "864"
+    name: Transience of Dream
+    info: "Create a dream and possess an astral body.\\n<color=#23B2E6FF>Dream
+      creation: Pulls everything on the field into a dream and summons her
+      astral body to fight in her stead, dealing 650% ATK of Physical
+      DMG.\\nFinisher: The astral body lasts 20s. Tap [ULT] 5s after creating a
+      dream to release Finisher. Astral body throws a javelin to end the dream
+      and switches back to the physical body, dealing 1200% ATK of Physical DMG.
+      While casting Finisher, she is invincible and in Time-frozen Domain, which
+      pauses all skill timers and the stage timer.\\n\\nSP cost: 50. CD: 11s
+      (unaffected by CD reduction).</color>"
+    icon: Skill_FeatheredRabbit_C1_DU_864
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8610"
+        name: Perpetual Dream
+        info: "Ultimate's dream creation consumes more SP, up to 50 SP, to increase
+          Physical DMG by extra SP consumed x #1[f2]% and Crit Rate by extra SP
+          consumed x #2[f2]%. This effect lasts until Finisher ends, the user
+          faints, or she exits."
+        brief: Ultimate's dream creation consumes more SP, up to 50 SP, to increase
+          Physical DMG and Crit Rate. This effect lasts until Finisher ends, the
+          user faints, or she exits.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.004
+        paramBase2: 0.0025
+        paramBase3: 0
+        paramAdd1: 0.0003
+        paramAdd2: 0.00025
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "8611"
+        name: Remnant Dreams of Life and Death
+        info: "Finisher gains 100% Crit Rate and #1[f1]% Crit DMG."
+        brief: Finisher is guaranteed to Crit. Its Crit DMG increases.
+        icon: Skill_Nagative_Damage02
+        maxLv: 9
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0125
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8612"
+        name: Ultimate Prophesy
+        info: "Finisher deals an additional #1[f1]% ATK of Physical DMG."
+        brief: Finisher deals additional Physical DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.25
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "865"
+    name: Changing Appearances, Unchanging Light
+    info: "Leader Bonus:\\n<color=#23B2E7FF>Leader Skill: {{Team deals #1[f1]% more
+      Crit DMG. Dreamweaver-summoned entities deal #2[f1]% more Physical DMG for
+      every Physical DMG dealer on the team.}}</color>"
+    icon: Skill_FeatheredRabbit_C1_DU_865
+    skillType: leader
+    tags: []
+    paramSubId1: 8613
+    paramSubId2: 8613
+    paramSubId3: 0
+    subSkills:
+      - id: "8613"
+        name: Voice of Changing Ideas
+        info: "Team deals #1[f1]% more Crit DMG. For every Physical DMG dealer on the
+          team, Dreamweaver-summoned entities deal #2[f1]% more Physical DMG."
+        brief: Team deals more Crit DMG. For every Physical DMG dealer on the team,
+          Dreamweaver-summoned entities deal more Physical DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.22
+        paramBase2: 0.08
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "866"
+    name: Separation of Images
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E8FF>Dreamweaver's
+      physical body and astral body have different weapon skills. Damage dealt
+      by Dreamweaver-summoned entities is decided by Dreamweaver's stats and
+      benefits from summoned entity buffs. Effects that simultaneously affect
+      her and summoned entities cannot stack.\\n\\nPhysical body: Dreamweaver
+      casts Assemblage of Ideas to summon Seeds of Ideas that follow her
+      commands. All Seeds of Ideas count as a single summoned entity. With Seeds
+      of Ideas present, Dreamweaver is in Special state: Cosmic Dominance and
+      takes 50% less Total DMG. Seeds of Ideas leave when Dreamweaver releases
+      Ultimate or is switched out.\\nAssemblage of Ideas: Summons Seeds of Ideas
+      to dive-bomb, dealing 100% x 4 ATK of Physical DMG. When [Weapon] is
+      flashing from using Seed of Idea's other attacks, tap [Weapon] to cast
+      Assemblage of Ideas again. With Seeds of Ideas already present, Assemblage
+      of Ideas deals 200% x 4 ATK of Physical DMG.\\nProtective Appearance: With
+      Seeds of Idea present, tap [Weapon] to release it. Dreamweaver commands
+      Seeds of Ideas to gather in front of her for defense, dealing 500% ATK of
+      Physical DMG to nearby enemies. Seeds of Ideas launch a defensive attack
+      1.5s later, charging forward to deal 750% ATK of Physical DMG. The
+      defensive attack is launched early if Seeds of Ideas hit an enemy while
+      gathering or take an attack while defending, or by tapping [ATK] while
+      defending. CD: 6s.\\n\\nIn Dream World, Dreamweaver possesses an astral
+      body, which counts as a summoned entity. Astral body has 4 short spears,
+      and each charges the Javelin Meter when thrown. Dreamweaver enters Special
+      state when all 4 of them are thrown. In this state, Dreamweaver can cast
+      Kaleidoscope. Astral body has the weapon skill Residual Dream, allowing
+      her to throw 4 short spears at once.\\nResidual Dream: Tap [Weapon] to
+      release. Astral body throws all short spears at once, dealing 180% x 4 ATK
+      of Physical DMG. CD: 12s</color>."
+    icon: Skill_FeatheredRabbit_C1_DU_866
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8614"
+        name: Created from Thoughts
+        info: "Assemblage of Ideas restores #1[f1] SP upon hitting enemies. Assemblage
+          of Ideas deals an extra #2[f1]% x 4 ATK of Physical DMG."
+        brief: Assemblage of Ideas restores SP upon hitting enemies. Assemblage of Ideas
+          deals bonus Physical DMG.
+        icon: Skill_Nagative_Skill01
+        maxLv: 8
+        paramBase1: 1
+        paramBase2: 0.5
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0.24286
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8615"
+        name: Mortal Dreams
+        info: "Dreamweaver-summoned entities gain #1[f1]% Crit Rate. Entities summoned
+          by her physical body gain #2[f1]% more Crit Rate atop of that."
+        brief: Dreamweaver-summoned entities gain bonus Crit Rate. Entities summoned by
+          her physical body gain additional Crit Rate atop of that.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 0.005
+        paramAdd2: 0.019
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8616"
+        name: Remains of a Dream
+        info: "Whenever Dreamweaver enters or switches from physical body to astral
+          body, her Crit Rate increases by #1[f1]% and her Physical DMG
+          increases by #2[f1]% for #3[f1]s. Triggering it again resets the
+          duration."
+        brief: Whenever Dreamweaver enters or switches from physical body to astral
+          body, her Crit Rate and Physical DMG increase.
+        icon: Skill_Nagative_Damage03
+        maxLv: 12
+        paramBase1: 0.1
+        paramBase2: 0.01
+        paramBase3: 10
+        paramAdd1: 0.00455
+        paramAdd2: 0.00364
+        paramAdd3: 0.45455
+        tags: []
+        toggle: false
+        unlockStar: s

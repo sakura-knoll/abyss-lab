@@ -1,0 +1,393 @@
+id: "803"
+fullName: Dea Anchora
+shortName: Dea Anchora
+desc: "<color=white>Features: </color><color=#FFAF2CFF>BIO-type</color> melee
+  battlesuit."
+firstName: Durandal
+lastName: null
+enFirstName: null
+enLastName: null
+attributeType: bio
+isEasterner: true
+weapon: lance
+character: durandal
+initialStar: s
+tags:
+  - fire-dmg
+  - ignite
+  - time-mastery
+  - gather
+skills:
+  - id: "591"
+    name: Orion the Hunter
+    info: "Use melee combat moves and dual lances to deal Physical & Fire
+      DMG.\\n<color=#23B2E2FF>Basic ATK:\\n1st Sequence: 80% ATK of Physical DMG
+      + 80% ATK of Fire DMG.\\n2nd Sequence: 85% ATK of Physical DMG + 85% ATK
+      of Fire DMG.\\n3rd Sequence: 240% ATK of Fire DMG.\\n4th Sequence: 360%
+      ATK of Fire DMG.\\n5th Sequence: 500% ATK of Fire DMG.\\nEnhanced Basic
+      ATK:\\n3rd Sequence: 340% ATK of Fire DMG.\\n4th Sequence: 520% ATK of
+      Fire DMG.\\n5th Sequence: 680% ATK of Fire DMG.</color>"
+    icon: Skill_Durandal_C3_SW_591
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5901"
+        name: α - Shoulder of Orion
+        info: Basic ATK SEQ 5 inflicts <color=#FEDF4CFF>#1[f1] Ignite Trauma</color>.
+        brief: Basic ATK SEQ 5 inflicts Ignite Trauma and affected enemies take Fire DMG
+          over time.
+        icon: Skill_Nagative_Skill01
+        maxLv: 11
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.3
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 2
+            comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+              charge rate: medium."
+        toggle: false
+        unlockStar: s
+      - id: "5902"
+        name: β - Foot of the Hunter
+        info: "During Basic ATK and 3rd/4th/5th sequence of Enhanced Basic ATK, Valkyrie
+          takes #1[f1]% less damage."
+        brief: During Basic ATK and 3rd/4th/5th sequence of Enhanced Basic ATK, Valkyrie
+          takes less damage.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5903"
+        name: "<color=#FFC741FF>QTE</color>: γ - Bellatrix"
+        info: "QTE: Triggered when an enemy is knocked airborne or ignited to induce 3s
+          of Global Time Fracture, deal #1[f1]% ATK of Fire DMG, restore #2[f1]
+          SP, and gather enemies nearby."
+        brief: "QTE: Triggered when an enemy is knocked airborne or ignited to induce 3s
+          of Global Time Fracture, deal high Fire DMG, restore SP, and gather
+          enemies nearby."
+        icon: Skill_Nagative_StartUp01
+        maxLv: 11
+        paramBase1: 9
+        paramBase2: 6
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0.4
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "592"
+    name: Hercules the Warrior
+    info: Unleash the astral power within and enter Astral Harness to deal high
+      burst damage.\n<color=#23B2E2FF>\nWith over 200 Astrum, hold [ATK] to
+      activate Astra Forge and enter Astral Harness, which costs 20 Astrum per
+      second.\nAfter the 1st activation through Astra Forge, Astral Harness will
+      later be activated through Cosmic Nova.\nAstra Forge and Cosmic Nova are
+      both Charged ATKs which deal 800% ATK of Fire DMG and trigger a 2s Global
+      Time Fracture.</color>
+    icon: Skill_Durandal_C3_SW_592
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5904"
+        name: β - Fighting Arm
+        info: "Astral Harness grants #1[f1]% bonus Total DMG, boosts Ignore Interrupt,
+          and reduces Total DMG taken by #2[f1]%."
+        brief: Astral Harness grants bonus Total DMG, boosts Ignore Interrupt, and
+          reduces Total DMG taken.
+        icon: Skill_Nagative_Skill02
+        maxLv: 21
+        paramBase1: 0.3
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.005
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5905"
+        name: ζ - Red Ember
+        info: "Entering Astral Harness restores #1[i] SP instantly and #2[f1] SP per
+          0.2s for 5s."
+        brief: Entering Astral Harness restores SP instantly and more SP over time.
+        icon: Skill_Nagative_Skill03
+        maxLv: 21
+        paramBase1: 20
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "593"
+    name: Pegasus the Fleet
+    info: "Quickly dodge enemy attacks up to twice in a row.\\n<color=#23B2E2FF>Can
+      be connected into Astral Barrage and deal 120% ATK of Fire DMG. Astral
+      Barrage can be further connected into the 2nd sequence of Basic
+      ATK.\\nUltimate Evasions trigger Ultimate Evasion Skill: Flight of
+      Bellephoron, which triggers a 3s Global Time Fracture and can be connected
+      into Ultimate Evasion ATK to deal 600% ATK of Fire DMG. Ultimate Evasion
+      ATK can be further connected into the 3rd sequence of Basic ATK. CD:
+      15s</color>"
+    icon: Skill_Durandal_C3_SW_593
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5907"
+        name: ε - Stallion's Muzzle
+        info: "Shortens Flight of Bellephoron's CD by #1[f1]s."
+        brief: Shortens Flight of Bellephoron's CD.
+        icon: Skill_Nagative_Skill01
+        maxLv: 11
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.15
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5908"
+        name: β - Stallion's Shoulder
+        info: "Last attack of Flight of Bellephoron restores #1[i] SP on hit."
+        brief: Last attack of Flight of Bellephoron restores SP on hit.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "594"
+    name: Sagittarius the Archer
+    info: "Dea Anchora can perform different Ultimates. In Astral Harness, her
+      Ultimate is enhanced, and Seirios Ballista is
+      unlocked.\\n<color=#23B2E2FF>Melee mode: Astral Flares. Lance mode (Basic
+      ATK SEQ 3/4/5): Voidstar Anchor. Can alternate between two Ultimate
+      variations.\\nNormal form: Costs 15 SP, restores 50 Astrum, and grants
+      Iron Body.\\nAstral Flares: Multiple punches dealing 1000% ATK of Fire
+      DMG.\\nVoidstar Anchor: Leap up and hurl spears at enemies, dealing 800%
+      ATK of Fire DMG and gathering enemies for 2s.\\nIn Astral Harness: Costs
+      15 SP and grants invincibility. Astral Harness does not cost Astrum during
+      Ultimate.\\nAstral Flares EX: Deals 1280% ATK of Fire DMG.\\nVoidstar
+      Anchor EX: Hurl spears twice dealing 720% ATK of Fire DMG and create 3
+      Ether Anchors to strike enemies dealing 3 x 80% ATK of Fire DMG.\\nIn
+      Astral Harness, cast Ultimate twice in a row and tap [ULT] again to cast
+      Seirios Ballista: Unleashes a star-shattering shot dealing 700% ATK of
+      Fire DMG. Every SP consumed converts to 60% ATK of bonus Fire DMG. SP cost
+      caps at 35.\\nCasting Seirios Ballista ends Astral Harness and resets
+      Astrum.\\nUltimate inflicts</color> <color=#FEDF4CFF>3 Ignite
+      Trauma</color><color=#23B2E2FF>.</color>"
+    icon: Skill_Durandal_C3_SW_594
+    skillType: ultimate
+    tags:
+      - type: ignite
+        strength: 1
+        comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+          charge rate: weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5910"
+        name: ε - Flaming Bow
+        info: "Ultimate deals #1[f1]% bonus Fire DMG to ignited enemies. During
+          Ultimate, Valkyrie takes #2[f1]% less Total DMG."
+        brief: Ultimate deals bonus Fire DMG to ignited enemies. During Ultimate,
+          Valkyrie takes less Total DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 31
+        paramBase1: 0.3
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0.00667
+        paramAdd2: 0.00833
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5911"
+        name: ν - Eye of the Archer
+        info: "Last hit of Astral Flares EX deals #1[f1]% ATK of bonus Fire DMG.
+          Voidstar Anchor EX creates 2 more Ether Anchors, and all Ether Anchors
+          deal #2[f1]% bonus Fire DMG."
+        brief: Last hit of Astral Flares EX deals bonus Fire DMG. Voidstar Anchor EX
+          creates 2 more Ether Anchors, and all Ether Anchors deal bonus Fire
+          DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 21
+        paramBase1: 2
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0.06
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "5912"
+        name: γ - Charged Arrowhead
+        info: "Seirios Ballista deals #1[f1]% bonus Total DMG."
+        brief: Seirios Ballista deals bonus Total DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss2
+  - id: "595"
+    name: Crux Galactica
+    info: "Leader Bonus: \\n<color=#23B2E2FF>Crux Galactica: {{Team's Ultimate ATKs
+      deal #1[f1]% bonus Total DMG. With 3 Fire DMG Valkyries, team deals
+      #2[f1]% bonus Fire DMG.}}</color>"
+    icon: Skill_Durandal_C3_SW_595
+    skillType: leader
+    tags: []
+    paramSubId1: 5913
+    paramSubId2: 5913
+    paramSubId3: 0
+    subSkills:
+      - id: "5913"
+        name: Crux Galactica
+        info: "Team's Ultimate ATKs deal #1[f1]% bonus Total DMG. With 3 Fire DMG
+          Valkyries, team deals #2[f1]% bonus Fire DMG."
+        brief: Team's Ultimate ATKs deal bonus Total DMG. With 3 Fire DMG Valkyries,
+          team deals bonus Fire DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 3
+        paramBase1: 0.18
+        paramBase2: 0.21
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.045
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5917"
+        name: α - Foot of the Crux
+        info: "Voidstar Anchor and Voidstar Anchor EX deal #1[f1]% bonus Fire DMG."
+        brief: Voidstar Anchor and Voidstar Anchor EX deal bonus Fire DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 5
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "5918"
+        name: γ - Head of the Crux
+        info: "Seirios Ballista restores #1[f1] SP, and SP cost cap is raised to
+          #2[f1]."
+        brief: Seirios Ballista restores SP, and SP cost cap is raised.
+        icon: Skill_Nagative_Damage03
+        maxLv: 5
+        paramBase1: 6
+        paramBase2: 38
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 1
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "596"
+    name: Argo the Navigator
+    info: "Passive bonuses apply automatically.\\n\\n<color=#23B2E2FF>Astrum: Maxes
+      at 200.\\nIn Astral Harness, Dea Anchora's Basic ATKs are permanently
+      enhanced and she moves in DEA Astra state. In DEA Astra, tap [ATK] to
+      connect into Astral Barrage. Forward evasions can be connected with DEA
+      Astra faster.</color>"
+    icon: Skill_Durandal_C3_SW_596
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5914"
+        name: γ - Vela of Speed
+        info: "On standby, Valkyrie restores #1[f1] SP per second."
+        brief: Valkyrie recovers SP on standby.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 0.6
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.09
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+      - id: "5915"
+        name: ζ - Puppis of Power
+        info: "Casting Ultimate boosts Total DMG by #1[f1]% for 3s. 2 stacks max and
+          triggering it again resets the duration."
+        brief: Casting Ultimate boosts Total DMG for 3s. 2 stacks max and triggering it
+          again resets the duration.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5916"
+        name: α - Carina of Flames
+        info: "When attacked by Dea Anchora, ignited enemies take #1[f1]% bonus Fire DMG
+          from her (independent effect)."
+        brief: When attacked by Dea Anchora, ignited enemies take bonus Fire DMG from
+          her (independent effect).
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.14
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

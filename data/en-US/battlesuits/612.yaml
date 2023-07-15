@@ -1,0 +1,391 @@
+id: "612"
+fullName: Herrscher of Sentience
+shortName: Herrscher of Sentience
+desc: "<color=white>Features: </color><color=#FFAF2CFF>BIO-type</color>
+  <color=#FFAF2CFF>Awakened</color> melee battlesuit that can switch between 3
+  weapons and provide great support benefits."
+firstName: Hua
+lastName: Fu
+enFirstName: null
+enLastName: null
+attributeType: bio
+isEasterner: true
+weapon: fists
+character: fuhua
+initialStar: s
+tags:
+  - physical-dmg
+  - impair
+  - time-mastery
+  - gather
+  - burst
+skills:
+  - id: "611"
+    name: Trial of Trinity
+    info: "Use the sword/spear/chain blades to attack.\\n<color=#23B2E2FF>Sword: 4
+      sequences dealing 810% ATK of Physical DMG.\\nSpear: 5 sequences dealing
+      775% ATK of Physical DMG. The 2nd & 5th sequences gather enemies.\\nChain
+      blades: 3 sequences dealing 750% ATK of Physical DMG.\\n\\nTap [ULT] to
+      switch weapon and perform weapon switch attack.\\nSword to spear: Connect
+      into the 2nd sequence of spear Basic ATK.\\nSpear to chain blades: 160%
+      ATK of Physical DMG.\\nChain blades to sword: 160% ATK of Physical
+      DMG.</color>"
+    icon: Skill_Fuka_FL_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6101"
+        name: The Best of Both Worlds
+        info: "Upon entry or exit, Valkyrie deals #1[f1]% bonus Total DMG for 15s."
+        brief: Valkyrie receives a Total DMG boost upon entry or exit.
+        icon: Skill_Nagative_Damage02
+        maxLv: 51
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.004
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6102"
+        name: The World Is Never Enough
+        info: "In non-Herrscher form, attacks restore #1[f1] SP and #2[f1] kinetic
+          energy for all weapons on hit. Can only be triggered once every 5s for
+          every weapon."
+        brief: Attacks restore SP and weapon kinetic energy.
+        icon: Skill_Nagative_Skill02
+        maxLv: 8
+        paramBase1: 1
+        paramBase2: 10
+        paramBase3: 0
+        paramAdd1: 0.14286
+        paramAdd2: 2.85714
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6103"
+        name: "<color=#FFC741FF>QTE</color>: Always Here, Always Ready"
+        info: "QTE: Triggered when an enemy is Time-Slowed while Valkyrie is in
+          non-Herrscher form to launch spear attacks dealing #1[f1]% + #2[f1]%
+          ATK of Physical DMG and restoring 300 spear energy."
+        brief: "QTE: Triggered when an enemy is Time-Slowed."
+        icon: Skill_Nagative_StartUp01
+        maxLv: 8
+        paramBase1: 2
+        paramBase2: 4
+        paramBase3: 0
+        paramAdd1: 0.28571
+        paramAdd2: 0.57143
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "612"
+    name: "<color=#FFC741FF>Combo</color>: Transcendence of Trinity"
+    info: "Hold [ATK] to perform enhanced attacks.\\n<color=#23B2E2FF>Consume full
+      kinetic energy of the current weapon to perform Combo ATK.\\nSword: Gather
+      and Time-Lock enemies to smite them dealing 1390% ATK of Physical
+      DMG.\\nSpear: Hurl the spear to gather and strike enemies before blinking
+      over to follow up dealing 820% ATK of Physical DMG.\\nChain blades: Launch
+      AOE attacks dealing 850% ATK of Physical DMG and inflicting 1.2s of coma
+      on enemies.</color>"
+    icon: Skill_Fuka_FL_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6104"
+        name: Riding the Blade Waves
+        info: "Every weapon switch or QTE grants 5s of Psyched status where the next
+          Combo ATK restores #1[f1] bonus SP and removes the status."
+        brief: Psyched status restores bonus SP.
+        icon: Skill_Nagative_Skill01
+        maxLv: 8
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.42857
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6105"
+        name: Spear Stands for Strength
+        info: "Spear Combo ATKs impair enemies and reduce their DEF by 50% for #1[f1]s."
+        brief: Spear Combo ATKs impair enemies.
+        icon: Skill_Nagative_Skill03
+        maxLv: 8
+        paramBase1: 10
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.71429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6106"
+        name: Mercy Means Meekness
+        info: "In Psyched status, Combo ATKs restore 2 bonus SP and have special
+          effects:\\nSword: The 2nd sequence inflicts 0.5s of coma on enemies
+          hit. Spear: The 1st sequence Time Locks enemies for 1s on hit. Chain
+          blades: Attacks impair enemies and reduce their DEF by 50% for 15s."
+        brief: In Psyched status Combo ATKs are enhanced.
+        icon: Skill_Nagative_Skill02
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "613"
+    name: A Wraith without Trace
+    info: "Quickly dodge enemy attacks. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Ultimate Evasion triggers 2.5s of Global Time
+      Fracture. Base CD: 20s. Minimum CD: 16s.\\n\\nEvasions create an Illusion:
+      Hit Me! lasting 3s which taunts enemies and explodes when hit or expired.
+      The explosion deals 400% ATK of Physical DMG and triggers Ultimate Evasion
+      skill on hit. Only one illusion can exist and they cannot be created while
+      Ultimate Evasion skill is in cooldown.\\n\\nIn non-Herrscher form,
+      Valkyrie begins sword riding after running for a duration and deals 50%
+      ATK of Physical DMG per 0.5s to enemies nearby. Weapon switch ATKs are
+      disabled while sword riding. Tap [ATK] to deal 150% ATK of Physical DMG
+      and end sword riding.</color>"
+    icon: Skill_Fuka_FL_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6107"
+        name: Blown away with a Big Bang
+        info: Illusions can be detonated by Valkyrie attacks.
+        brief: Illusions can be detonated by Valkyrie attacks.
+        icon: Skill_Nagative_Skill01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "6108"
+        name: The Wicked Will never Win
+        info: "Illusion explosions deal #1[f1]% ATK of bonus Physical DMG."
+        brief: Illusion explosions deal more DMG.
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.4
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss3
+      - id: "6109"
+        name: Fluffy and Florescent
+        info: "When illusions explode, they drop a black plume on hit. Pick it up to
+          restore #1[f1] HP and #2[f1] SP for all team members."
+        brief: On hit, illusion explosions drop a black plume that restores HP and SP.
+        icon: Skill_Nagative_Skill03
+        maxLv: 8
+        paramBase1: 50
+        paramBase2: 5
+        paramBase3: 0
+        paramAdd1: 14.28714
+        paramAdd2: 1.43
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "614"
+    name: A Worldful of Woes
+    info: "Enter Herrscher form and use the weapon case to
+      attack.\\n<color=#23B2E2FF>Hold [ULT] to enter Herrscher form, create an
+      illusive space, and launch spiritual attacks on enemies in a large area,
+      dealing 1800% ATK of Physical DMG. This attack has 40% bonus Crit Rate and
+      triggers Time-frozen Domain to temporarily suspend all skill timers (for
+      self and enemies) and the stage timer.\\n\\nIn Herrscher form (burst
+      mode), all enemies are impaired and have 75% less DEF, while Valkyrie has
+      improved Ignore Interrupt and 40% Total DMG Reduction for 15s.\\nTap [ATK]
+      repeatedly to perform a 3-sequence combo dealing 1120% ATK of Physical
+      DMG.\\nHold [ATK] to perform Combo ATK: Slashes dealing Nx105% + (800% + N
+      x 50%) ATK of Physical DMG. Spam or hold [ATK] to increase slashes (max:
+      10). Every slash boosts self Total DMG by 2% until the Combo ATK
+      ends.\\nTap [ULT] to launch special ATK: Illusive Cataclysm, gathering
+      enemies in a large area and dealing 350% ATK of Physical DMG. CD: 8s. The
+      cataclysm lasts until the end of Herrscher form and enemies on it will not
+      be knocked back.\\nSP cost: 125.</color>"
+    icon: Skill_Fuka_FL_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6110"
+        name: A Leaf for Lifeboat
+        info: "In Herrscher form, Valkyrie deals #1[f1]% bonus Crit DMG."
+        brief: In Herrscher form, Valkyrie deals more Crit DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 10
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6111"
+        name: Warden of the World
+        info: "In Herrscher form, attacks from teammates summon a plume attack from HoS
+          on hit, dealing #1[f1]% ATK of Physical DMG. CD: 0.5s. Can be
+          triggered up to 15 times."
+        brief: In Herrscher form, attacks from teammates deal more DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 1.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.075
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6112"
+        name: Votive in Vain
+        info: "Using Ultimate or special ATK triggers a shield. Special ATK additionally
+          inflicts #1[f1]s of coma on hit."
+        brief: Ultimate or special ATK triggers a shield. Special ATK inflicts
+          additional coma.
+        icon: Skill_Nagative_Control02
+        maxLv: 8
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.07143
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "615"
+    name: Alliteration is an Agony
+    info: "Leader Bonus:\\n<color=#23B2E2FF>Leader Skill: {{Team deals #1[f1]% Crit
+      DMG in burst mode. For every BIO battlesuit on the team, team has #2[f1]%
+      bonus Crit Rate.}}</color>"
+    icon: Skill_Fuka_FL_005
+    skillType: leader
+    tags: []
+    paramSubId1: 6113
+    paramSubId2: 6113
+    paramSubId3: 0
+    subSkills:
+      - id: "6113"
+        name: Alliteration is an Agony
+        info: "Team deals #1[f1]% Crit DMG in burst mode. For every BIO battlesuit on
+          the team, team has #2[f1]% bonus Crit Rate."
+        brief: Boosts Crit Rate and burst mode Crit DMG for the team.
+        icon: Skill_Nagative_Damage03
+        maxLv: 2
+        paramBase1: 0.28
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+  - id: "616"
+    name: Ace Arsenal
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E2FF>Every weapon has
+      an independent gauge of kinetic energy that starts at 300 and maxes at
+      300. Recovery:\\nThe weapon in use restores 3 points every 0.1s.\\nWeapons
+      not in use restore 1 point every 0.1s.\\nSword & spear: Every hit of Basic
+      ATK restores 9 points.\\nChain blades: every hit of Basic ATK restores 12
+      points.\\nAll weapons restore 300 points when Herrscher form
+      ends.\\n\\nCertain attacks inflict coma on enemies. Enemies in a coma are
+      immobilized and take 200% ATK of Physical DMG when the coma ends.</color>"
+    icon: Skill_Fuka_FL_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6114"
+        name: Innate Invulnerability
+        info: "Combo ATKs grant Shield: I'm Untouchable to all unshielded team members.
+          Shield HP equals 30% of Valkyrie's max HP. The shield grants 50% DMG
+          Reduction, moderate Ignore Interrupt, and boosts team Crit DMG by
+          #1[f1]%. Triggering it again resets the shield. CD: 12s."
+        brief: Combo ATKs grant a shield that absorbs DMG and boosts team Crit DMG.
+        icon: Skill_Nagative_Survive01
+        maxLv: 8
+        paramBase1: 0.09
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6115"
+        name: Against All Authority
+        info: "When Valkyrie sends an enemy into coma, they take #1[f1]% bonus Physical
+          DMG from her for 15s (independent effect). In addition, when she
+          impairs enemies with her own skills, they take #2[f1]% bonus Physical
+          DMG while the Impair lasts (independent effect; mutually exclusive
+          with Night Squire's skill Authority)."
+        brief: Enemies in coma or impaired take more Physical DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 51
+        paramBase1: 0.1
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.001
+        paramAdd2: 0.001
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6116"
+        name: Stellar Start
+        info: "Valkyrie has #1[f1] bonus initial SP. Can only be triggered once every 10
+          minutes in Open World."
+        brief: Bonus initial SP in battle.
+        icon: Skill_Nagative_Skill03
+        maxLv: 4
+        paramBase1: 20
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 6.66667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

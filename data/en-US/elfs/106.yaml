@@ -1,0 +1,280 @@
+id: "106"
+fullName: Book of Fuxi
+icon: Elf_06
+cardIcon: Elf_10006
+chibiIcon: Elf_10006
+figureImage: Elf_10006
+rarity: 4
+cardId: 380106
+fragmentId: 370106
+storyDesc: null
+ultSkillCd: 35
+ultSkillCost: 75
+skillBg: TalentBg6
+tags:
+  - type: fire-dmg
+    comment: null
+captainSkillIds:
+  - "10603"
+  - "106032"
+  - "106033"
+skills:
+  - id: "10601"
+    elfId: "106"
+    name: Shenzhou Will
+    info: "Fires multiple shells, dealing 550% ATK of Fire DMG against the target
+      and restores 3 SP upon hit; CD: 2s."
+    skillType: Basic
+    skillTypeId: "1"
+    icon: Skill_Elf_Attack_106
+    row: 1
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10602"
+    elfId: "106"
+    name: Flame Circle
+    info: Force activates the QTE of Valkyrie(s) capable of dealing Fire DMG on the
+      team, and summons a magic fire circle (lasts 10s) to seal enemies within,
+      dealing 5x1000% ATK of Fire DMG against them and inflicting a debuff on
+      them to make them take <color=#ff9900>#1[f1]%</color> more All Elemental
+      DMG.
+    skillType: Ultimate
+    skillTypeId: "0"
+    icon: Skill_Elf_Ultra
+    row: 2
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10603"
+    elfId: "106"
+    name: Roar of the Flame
+    info: <color=#23b2e2>[Team-triggered] </color>With a Valkyrie capable of dealing
+      Fire DMG as the team leader, the whole team gains
+      <color=#ff9900>#1[f1]%</color> Fire DMG and <color=#ff9900>#2[f1]%</color>
+      Ice and Lightning DMG.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 3
+    col: 1
+    unlockStar: 2
+    maxLv: 1
+    paramBase1: 0.09
+    paramBase2: 0.06
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10604"
+    elfId: "106"
+    name: Free Will
+    info: "When a Valkyrie performs Ultimate Evasion, the ELF restores 15 SP and
+      provides a buff for the Valkyrie, which boosts her Fire DMG by
+      <color=#ff9900>#1[f1]%</color> for 8s; CD: 15s."
+    skillType: Team
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 4
+    col: 1
+    unlockStar: 2
+    maxLv: 4
+    paramBase1: 0.04
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.013333
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "106011"
+    elfId: "106"
+    name: Persistence
+    info: "ELF's Basic ATK hit additionally restores <color=#ff9900>#1[i]</color> SP
+      for the ELF; CD: 2s."
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 1
+    col: 2
+    unlockStar: 1
+    maxLv: 5
+    paramBase1: 5
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 1.25
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "106012"
+    elfId: "106"
+    name: Scorching
+    info: "ELF's Basic ATK hit has a <color=#ff9900>#1[f1]%</color> chance to deal
+      <color=#ff9900>#2[f1]%</color> more Fire DMG; CD: 10s."
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Burn
+    row: 1
+    col: 3
+    unlockStar: 1
+    maxLv: 3
+    paramBase1: 0.09
+    paramBase2: 1
+    paramBase3: 0
+    paramAdd1: 0.045
+    paramAdd2: 0.5
+    paramAdd3: 0
+  - id: "106013"
+    elfId: "106"
+    name: Fiery Soul
+    info: ELF's Basic ATK hit on a Ignited target boosts ELF's Total DMG by
+      <color=#ff9900>#1[f1]%</color> for 10s.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_Up
+    row: 1
+    col: 4
+    unlockStar: 1
+    maxLv: 5
+    paramBase1: 0.06
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0225
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "106021"
+    elfId: "106"
+    name: Unification
+    info: Within the next 5s after unleashing ELF's Ultimate, the whole team's QTE
+      skills deal <color=#ff9900>#1[f1]%</color> more Total DMG.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_QTE
+    row: 2
+    col: 2
+    unlockStar: 2
+    maxLv: 3
+    paramBase1: 0.07
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.04
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "106022"
+    elfId: "106"
+    name: Ashes
+    info: When the magic circle ends, enemies still within the AOE take
+      <color=#ff9900>#1[f1]%</color> more Elemental DMG for 5s.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 2
+    col: 3
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.05
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0125
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "106031"
+    elfId: "106"
+    name: Abundance
+    info: ELF's initial SP increases by <color=#ff9900>#1[i]</color>.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Initial_UP
+    row: 3
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 8
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 8
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "106032"
+    elfId: "106"
+    name: Joined Flames
+    info: <color=#23b2e2>[Team-triggered]</color> ELF's All Elemental DMG increases
+      by <color=#ff9900>#1[f1]%</color> when there are 2 Valkyries capable of
+      dealing Fire DMG on the team.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 3
+    col: 3
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.07
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.02
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "106033"
+    elfId: "106"
+    name: Nature Harmony
+    info: <color=#23b2e2>[Team-triggered]</color> Team deals
+      <color=#ff9900>#1[f1]%</color> more Elemental DMG when the team is formed
+      by Valkyries with three different Types.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Team_UP
+    row: 3
+    col: 4
+    unlockStar: 7
+    maxLv: 6
+    paramBase1: 0.03
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.006
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "106041"
+    elfId: "106"
+    name: Still Water
+    info: CD of Free Will decreases to <color=#ff9900>#1[i]</color>s.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_CD_Down
+    row: 4
+    col: 2
+    unlockStar: 2
+    maxLv: 3
+    paramBase1: 13
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: -1
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "106042"
+    elfId: "106"
+    name: Hong Meng
+    info: Within the next 6s after triggering Free Will, the Valkyrie's next
+      Charged/Combo ATK additionally deals <color=#ff9900>#1[f1]%</color> ATK of
+      AOE Fire DMG.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Team_UP
+    row: 4
+    col: 3
+    unlockStar: 4
+    maxLv: 4
+    paramBase1: 0.6
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.2
+    paramAdd2: 0
+    paramAdd3: 0

@@ -1,0 +1,387 @@
+id: "105"
+fullName: Herrscher of Flamescion
+shortName: Herrscher of Flamescion
+desc: "<color=white>Features: </color><color=#FF66CCFF>PSY-type</color> melee
+  battlesuit."
+firstName: Kiana
+lastName: Kaslana
+enFirstName: null
+enLastName: null
+attributeType: psy
+isEasterner: false
+weapon: pistols
+character: kiana
+initialStar: s
+tags:
+  - fire-dmg
+  - time-mastery
+  - heal
+  - gather
+  - aerial
+skills:
+  - id: "641"
+    name: Tempered Warrior's Strike
+    info: "Greatsword attacks which inflict minor Ignite
+      Trauma.\\n<color=#23B2E2FF>Ground:\\nBase form: 730% ATK of Fire
+      DMG.\\nHerrscher form: 970% ATK of Fire DMG.\\nAirborne:\\nBase form: 490%
+      ATK of Fire DMG.\\nHerrscher form: 900% ATK of Fire DMG.\\nUpward Slash:
+      200% ATK of Fire DMG.\\nDownward Slam: 30% + 90%x2 ATK of Fire
+      DMG.</color>"
+    icon: Skill_Kiana_MH_641
+    skillType: basic
+    tags:
+      - type: ignite
+        strength: 1
+        comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+          charge rate: very weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6401"
+        name: By Sword Grasped
+        info: "Ember Brand's explosion deals #1[f1]% ATK of Fire DMG."
+        brief: Ember Brand's explosion deals more DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 1.6
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05556
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "6413"
+        name: A Dawning Star
+        info: "Enemies nearby take #1[f1]% bonus Total DMG from Valkyrie (independent
+          effect). The explosion of Ember Brand boosts this effect by #1[f1]%
+          (#3[f1]% max) until the battle ends."
+        brief: Enemies nearby take more DMG from Valkyrie. The explosion of Ember Brand
+          boosts this effect.
+        icon: Skill_Nagative_Skill03
+        maxLv: 10
+        paramBase1: 0.015
+        paramBase2: 15
+        paramBase3: 0.12
+        paramAdd1: 0.00111
+        paramAdd2: 0
+        paramAdd3: 0.00889
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6415"
+        name: To Ignite the Thunder
+        info: "After Ember Brand's explosion, base form aerial attacks restore #1[f1] SP
+          on hit (can be triggered up to 3 times)."
+        brief: After Ember Brand's explosion, aerial attacks restore SP.
+        icon: Skill_Nagative_StartUp03
+        maxLv: 10
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.16667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "642"
+    name: Blazing Chariot's Trail
+    info: "Launch power attacks at 0 Heat.<color=#23B2E2FF>Heat: Starts at 0.
+      Reduces by 21 per second when not in Overheat and by 10 per second when in
+      Overheat.\\nBase form Combo ATK: Increase 45 Heat and consume 15% of
+      current HP to deal 300% ATK of Fire DMG, trigger 2.5s of Global Time
+      Fracture, and enter Herrscher form lasting 11.5s.\\nIn Herrscher form,
+      Valkyrie has different moves, higher Ignore Interrupt, and loses 1% of
+      current HP per second.\\nHerrscher form Combo ATK: Increase 100 Heat and
+      trigger 3.5s of Global Time Fracture.\\nGround: 1200% ATK of Fire
+      DMG.\\nAirborne:\\nKnock enemies airborne and create a black hole
+      gathering enemies and dealing 1200% ATK of Fire DMG.\\nValkyrie enters
+      Overheat when Herrscher form ends and Heat increases by 100.\\nSwitching
+      out ends Herrscher form.</color>"
+    icon: Skill_Kiana_MH_642
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6402"
+        name: By Fire Enthroned
+        info: "At 75% HP or more, Combo ATKs in base form additionally cost 30% of
+          current HP to deal #2[f1]% ATK of bonus Fire DMG."
+        brief: At high HP, Combo ATKs in base form cost more HP to deal bonus DMG.
+        icon: Skill_Nagative_Skill02
+        maxLv: 10
+        paramBase1: 0
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.22222
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "6403"
+        name: Crossing the Heavens
+        info: "Valkyrie deals #2[f1]% bonus Total DMG to MECH enemies. In Herrscher
+          form, Combo ATKs deal #1[f1]% bonus Total DMG and 50% bonus DMG to
+          shields."
+        brief: Valkyrie deals more DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 6
+        paramBase1: 0.15
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6411"
+        name: To Find Truth's Loom
+        info: "At 60% max HP or more, Herrscher form additionally consumes 5% max HP per
+          second. Below 60% max HP, Valkyrie takes #1[f1]% less Total DMG and
+          deals #2[f1]% bonus Fire DMG."
+        brief: At high HP, Herrscher form additionally consumes HP. At low HP, Valkyrie
+          becomes enhanced.
+        icon: Skill_Nagative_Survive02
+        maxLv: 6
+        paramBase1: 0.15
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "643"
+    name: Lone Phoenix's Plume
+    info: "Quickly evade enemy attacks.\\n<color=#23B2E2FF>Ultimate Evasion triggers
+      4s of Global Time Fracture. CD: 18s.\\nGround: Evasion can be performed
+      twice in a row.\\nAirborne:\\nBase form: Evasion can only be performed
+      once.\\nHerrscher form: No limitations on evasions. Tap [ATK] after
+      evasion to connect into Basic ATK Sequence 3.\\nIn Herrscher form,
+      Ultimate Evasion inflicts 5 stacks of Ember Brand on enemies in a large
+      area and restores 2 SP. CD: 10s.</color>"
+    icon: Skill_Kiana_MH_643
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6404"
+        name: By Embers Marked
+        info: All evasions can trigger the Ultimate Evasion effect.
+        brief: All evasions can trigger the Ultimate Evasion effect.
+        icon: Skill_Nagative_Survive01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "6405"
+        name: Through Countless Years
+        info: "When an enemy is hit by Charged/Combo ATKs or weapon skills from two team
+          members in 8s, team deal #1[f1]% bonus Fire DMG for #2[f1]s and
+          trigger Valkyrie's QTE. CD: #3[f1]s."
+        brief: Certain moves from teammates can trigger Valkyrie's QTE.
+        icon: Skill_Nagative_StartUp01
+        maxLv: 10
+        paramBase1: 0.05
+        paramBase2: 15
+        paramBase3: 15
+        paramAdd1: 0.00556
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "6416"
+        name: "<color=#FFC741FF>QTE</color>: To Awaken New Life"
+        info: "QTE: Triggered when an enemy is ignited or knocked airborne to deal
+          #1[i]% ATK of Fire DMG and restore #2[f1] SP."
+        brief: "QTE: Triggered when an enemy is ignited or knocked airborne."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 6
+        paramBase1: 5
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 1.1
+        paramAdd2: 0.4
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "644"
+    name: The Blade Supreme, Rekindled
+    info: "Launch a powerful attack.\\n<color=#23B2E2FF>Activation Heat cost: 75.
+      CD: 16s.\\nDeal 2150% ATK of Fire DMG during which Valkyrie is in
+      Herrscher form and Time-frozen Domain is triggered to pause all skill
+      timers on her, enemies as well as the stage timer. If cast in Herrscher
+      form, Ultimate will end Herrscher form after the cast.</color>"
+    icon: Skill_Kiana_MH_644
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6406"
+        name: By Flame Illuminated
+        info: "During Overheat and on standby, Valkyrie restores #2[f1] SP per second."
+        brief: During Overheat and on standby, Valkyrie restores SP.
+        icon: Skill_Nagative_Skill01
+        maxLv: 6
+        paramBase1: 0
+        paramBase2: 0.5
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.1
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+      - id: "6407"
+        name: My Body, A Beacon
+        info: "After casting Ultimate, Valkyrie restores #1[f1]% max HP if her HP is
+          below 40% and further #2[f1]% max HP if her HP is below 25%."
+        brief: Casting Ultimate at low HP restores HP.
+        icon: Skill_Nagative_Survive03
+        maxLv: 3
+        paramBase1: 0.06
+        paramBase2: 0.04
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6408"
+        name: To Blaze Eternal
+        info: "Ultimate deals #1[f1]% bonus Total DMG."
+        brief: Ultimate deals more DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "645"
+    name: Nameless Knight-Errant's Path
+    info: "Leader Bonus:\\n<color=#23B2E2FF>Leader Skill: {{Team deals #1[f1]% bonus
+      Elemental DMG. Every non-Kiana battlesuit grants #2[f1] bonus initial SP
+      to the team (#3[f1] max; can only be triggered once every 10 minutes in
+      Open World).}}</color>"
+    icon: Skill_Kiana_MH_645
+    skillType: leader
+    tags: []
+    paramSubId1: 6409
+    paramSubId2: 6409
+    paramSubId3: 6409
+    subSkills:
+      - id: "6409"
+        name: <size=14>Nameless Knight-Errant's Path</size>
+        info: "Team deals #1[f1]% bonus Elemental DMG. Every non-Kiana battlesuit grants
+          #2[f1] bonus initial SP to the team (#3[f1] max; can only be triggered
+          once every 10 minutes in Open World)."
+        brief: Team deals more Elemental DMG. Every non-Kiana battlesuit grants bonus
+          initial SP to the team.
+        icon: Skill_Nagative_Skill01
+        maxLv: 2
+        paramBase1: 0.41
+        paramBase2: 27.5
+        paramBase3: 55
+        paramAdd1: 0.07
+        paramAdd2: 2.5
+        paramAdd3: 5
+        tags: []
+        toggle: false
+        unlockStar: s3
+  - id: "646"
+    name: Fiery Hymn's Pledge
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E2FF>Valkyrie's
+      Basic/Combo ATKs and Charged/Combo ATKs from teammates inflict Ember Brand
+      lasting 6s on enemies.\\nEmber Brand inflicted in Herrscher form deals
+      Fire DMG equal to 5% of Valkyrie's ATK per 0.5s 10 stacks max.\\nThe
+      following attacks can detonate Ember Brand on enemies in a large area
+      (without consuming it) to deal 120% ATK of Fire DMG:\\nLast sequence of
+      Herrscher form Basic ATK (CD: 2s), QTE, last sequence of base form ground
+      Basic ATK, and Combo ATK.\\nWhen in Overheat, Heat drops by 15 every
+      2s.</color>"
+    icon: Skill_Kiana_MH_646
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6410"
+        name: By Song Defended
+        info: "Valkyrie obtains a barrier which can absorb DMG equal to #1[f1]% of
+          Valkyrie's max HP. Valkyrie no longer restores HP for herself (except
+          from My Body, A Beacon) but restores HP for the barrier at #2[f1]%
+          efficiency instead. While the barrier lasts, Valkyrie deals #3[f1]%
+          bonus Total DMG, has higher Ignore Interrupt, and transfers indirect
+          DMG taken to the barrier."
+        brief: Valkyrie's restored HP is transferred to the barrier, which boosts her
+          DMG while it lasts.
+        icon: Skill_Nagative_Skill03
+        maxLv: 3
+        paramBase1: 0.3
+        paramBase2: 0.5
+        paramBase3: 0.05
+        paramAdd1: 0.15
+        paramAdd2: 0.25
+        paramAdd3: 0.025
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "6412"
+        name: A Twilight Benediction
+        info: "In Herrscher form, Valkyrie deals #1[f1]% bonus Total DMG, has #2[f1]%
+          Elemental Breach, and takes #3[f1]% less Total DMG."
+        brief: Valkyrie is enhanced in Herrscher form.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0.12
+        paramBase3: 0.3
+        paramAdd1: 0.01
+        paramAdd2: 0.006
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6414"
+        name: The Celestial Brilliance
+        info: "Upon exit, Valkyrie slams enemies nearby on the ground dealing #1[f1]%
+          ATK of Fire DMG."
+        brief: Upon exit, Valkyrie slams enemies nearby on the ground and deals DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 1.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.3
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

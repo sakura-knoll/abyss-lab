@@ -1,0 +1,415 @@
+id: "3101"
+fullName: Jade Knight
+shortName: Jade Knight
+desc: <color=white>Features:</color> <color=#FF66CCFF>PSY-type</color> all-range
+  battlesuit that fights nearby enemies with a sword and faraway enemies with
+  flying swords.
+firstName: Sushang
+lastName: Li
+enFirstName: null
+enLastName: null
+attributeType: psy
+isEasterner: true
+weapon: fists
+character: sushang
+initialStar: s
+tags:
+  - ice-dmg
+  - fast-atk
+  - gather
+skills:
+  - id: "811"
+    name: Cutting Form
+    info: "Perform the forms of Edge of Taixuan.\\n<color=#23B2E3FF>It comprises 4
+      sequences: Opening, Transform, Guard, and Wrath, which can be cast with
+      [ATK] and [ULT]. Opening and Wrath vary based on the button
+      pressed.\\nFirst Form, Opening: Odious Crescent: Tap [ATK] to deal 60% ATK
+      of Ice DMG.\\nFirst Form, Opening: Onslaught: Tap [ULT] to deal 3 x 20%
+      ATK of Ice DMG.\\nSecond Form: Transforming Blade: Deals 2 x 120% ATK of
+      Ice DMG.\\nThird Form: Guarding Blade: Deals 4 x 120% ATK of Ice
+      DMG.\\nFourth Form, Wrath: Roiling: Tap [ATK] during Third Form to deal
+      400% ATK of Ice DMG. During its animation, she gains Iron Body.\\nFourth
+      Form, Wrath: Ripstone: Tap [ULT] during Guard Form to deal 400% ATK of Ice
+      DMG. During its animation, she gains Iron Body.\\nTap [ULT] during Fourth
+      Form, Wrath: Roiling or [ATK] during Fourth Form, Wrath: Ripstone to
+      connect into Third Form: Guarding Blade. During the latter's animation,
+      she gains Iron Body.</color>"
+    icon: Skill_Lisushang_C2_TX_811
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8101"
+        name: Resolve Force with Form
+        info: "During Fourth Form, Wrath: Roiling/Ripstone's animation, gain #1[f1]%
+          Total DMG Reduction. It also restores an extra 40 Blade Sanction on
+          hit."
+        brief: "During Fourth Form, Wrath: Roiling/Ripstone's animation, gain Total DMG
+          Reduction. It also restores an extra 40 Blade Sanction on hit."
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8102"
+        name: "<color=#FFC741FF>QTE</color>: Its Force Formless"
+        info: "QTE: Triggered when a teammate's Combo or Charged ATK damages an enemy or
+          a teammate casts Ultimate. Jade Knight enters by using Wild Swords,
+          with Blade Sanction fully recovered and Sword Array mode activated,
+          dealing 6 x 150% ATK of Ice DMG. Switch CD reduces by 4s. On QTE
+          entry, Wild Swords causes Global Time Fracture for 3s and deals
+          #1[f1]% more Ice DMG."
+        brief: "QTE: Triggered when a teammate's Combo or Charged ATK damages an enemy
+          or a teammate casts Ultimate. Jade Knight enters by using Wild Swords,
+          with Blade Sanction fully recovered and Sword Array mode activated.
+          Switch CD reduces by 4s. On QTE entry, Wild Swords causes Global Time
+          Fracture for 3s and deals more Ice DMG."
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "812"
+    name: "<color=#FFC741FF>Combo ATK</color>: Refining Ascension"
+    info: "Create a sword array and attack enemies with countless after
+      images.\\n<color=#23B2E4FF>At full Blade Sanction, hold [ATK] to cast Wild
+      Swords and activate Sword Array mode. In this mode, Jade Knight stands on
+      a flying sword, has a different moveset, gains Iron Body, gains 50% Total
+      DMG Reduction, but can't use certain weapon skills.\\nWild Swords:
+      Generate dozens of illusory swords that stab into the ground, dealing 6 x
+      50% ATK of Ice DMG. The swords form a circle that pulls enemies to its
+      center during a cast.\\nCloud Cutter: In Sword Array mode, tap [ATK] to
+      generate 6 flying swords, dealing 6 x 20% ATK of Ice DMG.\\nBolt Slash: In
+      Sword Array mode, tap [ULT] to run the sword beneath her feet into
+      enemies, dealing 4 x 30% ATK of Ice DMG. This skill costs 20 Blade
+      Sanction.\\nAiry Shadow: In Sword Array mode, tap [EVA] to blink between
+      sword arrays.\\nHeart Piercer: In Sword Array mode, hold [ATK] to
+      congregate all the swords behind her and then rush them at enemies,
+      dealing 14 x 70% ATK of Ice DMG. Casting this skill causes Global Time
+      Fracture for 3s and ends Sword Array mode. You can switch characters
+      during this skill. Jade Knight will stay on the field until the attack
+      ends.\\nCasting Heart Piercer or switching characters in Sword Array mode
+      exhausts Blade Sanction.\\nDMG from the skills above count as Combo
+      DMG.</color>"
+    icon: Skill_Lisushang_C2_TX_812
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8104"
+        name: Encompass World
+        info: "Bolt Slash costs #1[f1] less Blade Sanction and auto-releases Cloud
+          Cutter once. The latter has a 0.7s CD."
+        brief: Bolt Slash costs less Blade Sanction and auto-releases Cloud Cutter once.
+          The latter has a 0.7s CD.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+      - id: "8105"
+        name: Hone Oneself
+        info: "Casting Wild Swords or Heart Piercer increases the Ice DMG of ranged,
+          Basic, Charged, Combo, and burst mode attacks from all team members by
+          #1[f1]% for 18s. Triggering it again resets the duration."
+        brief: Casting Wild Swords or Heart Piercer increases the Ice DMG of ranged,
+          Basic, Charged, Combo, and burst mode attacks from all team members
+          for 18s. Triggering it again resets the duration.
+        icon: Skill_Nagative_Damage03
+        maxLv: 9
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0125
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss1
+      - id: "8106"
+        name: Attain Taixuan
+        info: "In Sword Array mode, after casting Bolt Slash 3 times, you can tap [ATK]
+          to cast Back Wind Slash once. It deals 6 x #1[f1]% ATK of Ice DMG
+          (counts as Combo DMG), restores 20 SP on hit, and increases the Ice
+          DMG of ranged attacks in non-burst mode for all team members by
+          #2[f1]% for 10s. Triggering it again resets the duration."
+        brief: In Sword Array mode, after casting Bolt Slash 3 times, you can tap [ATK]
+          to cast Back Wind Slash once. It deals Ice DMG (counts as Combo DMG),
+          restores SP on hit, and increases the Ice DMG of ranged attacks in
+          non-burst mode for all team members for 10s. Triggering it again
+          resets the duration.
+        icon: Skill_Nagative_Damage03
+        maxLv: 9
+        paramBase1: 0.2
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0.025
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "813"
+    name: Guiding Mantra
+    info: "Evade enemy attacks. Can be performed twice in a
+      row.\\n<color=#23B2E5FF>Triggering Ultimate Evasion Skill restores 200 HP
+      and, while outside Sword Array mode, 60 Blade Sanction.\\nWhile outside
+      Sword Array mode, you can connect Ultimate Evasion into Fourth Form,
+      Wrath: Roiling/Ripstone by tapping [ATK] or [ULT].\\nThis skill has 2
+      charges and a 10s CD.</color>"
+    icon: Skill_Lisushang_C2_TX_813
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8107"
+        name: Pacify Flow
+        info: When taking a hit in Sword Array mode, if Ultimate Evasion Skill is
+          available, it will be triggered, blocking this attack. If she is
+          standing on a sword or casting Cloud Cutter when this skill is
+          triggered, she will move to another sword.
+        brief: When taking a hit in Sword Array mode, if Ultimate Evasion Skill is
+          available, it will be triggered, blocking this attack and moving her
+          to another sword or casting Cloud Cutter before moving her to another
+          sword.
+        icon: Skill_Nagative_Survive03
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "8108"
+        name: Chase Light
+        info: "Ultimate Evasion Skill shoots flying swords, dealing 4 x #1[f1]% ATK of
+          Ice DMG."
+        brief: Ultimate Evasion Skill shoots flying swords, dealing Ice DMG.
+        icon: Skill_Nagative_Survive02
+        maxLv: 9
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0625
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8109"
+        name: Expand Shadow
+        info: "When initial SP is below #1[f1], it's increased to #1[f1] in battle. Can
+          only be triggered once every 10 minutes in Open World."
+        brief: Initial SP increased when in battle. Can only be triggered once every 10
+          minutes in Open World.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 90
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 3
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "814"
+    name: Crowning Eminence
+    info: "Unleash the ultimate form of Edge of Taixuan.\\n<color=#23B2E6FF>Condense
+      the Ki of Taixuan into a sky-reaching sword, then swing it with the force
+      of splitting the world apart.\\nHold [ULT] to release it, dealing 1800%
+      ATK of Ice DMG, during which character is invincible and Time-frozen
+      Domain is triggered to pause all skill timers and the stage timer.\\n\\nSP
+      cost: 150. CD: 20s.</color>"
+    icon: Skill_Lisushang_C2_TX_814
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8110"
+        name: Ceaseless
+        info: "Casting Blade Eminence grants Elemental Breach to all Ice DMG dealers,
+          which increases the Elemental Breach of their ranged, Basic, Charged,
+          Combo, and burst mode attacks by #1[f1]% for 18s. Triggering it again
+          resets the duration."
+        brief: Casting Blade Eminence grants Elemental Breach to all Ice DMG dealers,
+          which increases the Elemental Breach of their ranged, Basic, Charged,
+          Combo, and burst mode attacks for 18s. Triggering it again resets the
+          duration.
+        icon: Skill_Nagative_Damage03
+        maxLv: 6
+        paramBase1: 0.02
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8111"
+        name: Boundless
+        info: "Blade Eminence deals #1[f1]% more Ice DMG and breaks shields #2[f1]%
+          easier. Casting Blade Eminence makes all team members break shields
+          #3[f1]% easier for 18s. Triggering it again resets the duration."
+        brief: Blade Eminence deals more Ice DMG and breaks shields easier. Casting
+          Blade Eminence makes all team members break shields easier for 18s.
+          Triggering it again resets the duration.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.5
+        paramBase2: 1
+        paramBase3: 0.125
+        paramAdd1: 0.05
+        paramAdd2: 0.1
+        paramAdd3: 0.0125
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "8112"
+        name: Edgeless
+        info: 'Casting Blade Eminence costs extra SP, which is capped at 25. It deals
+          additional "extra SP consumed" x #1[f1]% ATK of Ice DMG, and increases
+          the Ice DMG of ranged, Basic, Charged, Combo, and burst mode attacks
+          for all team members by "extra SP consumed" x #3[f2]% for 18s.
+          Triggering it again resets the duration.'
+        brief: Casting Blade Eminence costs extra SP, which is capped at 25. The skill
+          deals extra Ice DMG, and increases the Ice DMG of ranged, Basic,
+          Charged, Combo, and burst mode attacks for all team members for 18s.
+          Triggering it again resets the duration.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0.005
+        paramAdd1: 0.005
+        paramAdd2: 0
+        paramAdd3: 0.0005
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "815"
+    name: Realm of Taixuan
+    info: "Leader Bonus:\\n<color=#23B2E7FF>{{All team members' Basic, Combo, and
+      Charged ATKs deal #1[f1]% more Total DMG. When every team member is an Ice
+      DMG dealer, they deal #2[f1]% more Ice DMG.}}</color>"
+    icon: Skill_Lisushang_C2_TX_815
+    skillType: leader
+    tags: []
+    paramSubId1: 8113
+    paramSubId2: 8113
+    paramSubId3: 0
+    subSkills:
+      - id: "8113"
+        name: Inner Infinitude
+        info: "Team members' Basic, Combo, and Charged ATKs deal #1[f1]% more Total DMG.
+          When every team member is an Ice DMG dealer, they deal #2[f1]% more
+          Ice DMG."
+        brief: Team members' Basic, Combo, and Charged ATKs deal more Total DMG. When
+          every team member is an Ice DMG dealer, they deal more Ice DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 2
+        paramBase1: 0.12
+        paramBase2: 0.26
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+  - id: "816"
+    name: Arming Sanction
+    info: Passive bonuses apply automatically.\n<color=#23B2E8FF>Jade Knight can
+      gain 200 Blade Sanction at most in combat. With 200 Blade Sanction, using
+      Combo ATK activates Sword Array mode. In Sword Array mode, Blade Sanction
+      decreases over time. When it reaches 0, Sword Array mode ends.\nShe gains
+      20 Blade Sanction whenever a Basic ATK hits.\nIn Sword Array mode, she
+      consumes 1 Blade Sanction every 0.2s.</color>
+    icon: Skill_Lisushang_C2_TX_816
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8114"
+        name: Forge Blades
+        info: "When a team member casts a weapon skill or deals DMG with Combo or
+          Charged ATK, Jade Knight will release Back Wind Slash at the target
+          once; CD: #1[f1]s. This Back Wind Slash will not restore SP."
+        brief: When a team member casts a weapon skill or deals DMG with Combo or
+          Charged ATK, Jade Knight will release Back Wind Slash at the target
+          once. This Back Wind Slash will not restore SP.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 10
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: -0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8115"
+        name: Sound Arms
+        info: "Back Wind Slash also shoots 3 giant swords, dealing DMG twice as many
+          times and restoring additional #1[f1] SP on hit."
+        brief: Back Wind Slash also shoots 3 giant swords, dealing DMG twice as many
+          times and restoring extra SP on hit.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.3
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "8116"
+        name: Subdue Armies
+        info: Heart Piercer's every hit deals an extra 2 DMG to fixed-DMG shields.
+        brief: Heart Piercer's every hit deals an extra 2 DMG to fixed-DMG shields.
+        icon: Skill_Nagative_Damage03
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

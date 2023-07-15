@@ -1,0 +1,359 @@
+id: "3001"
+fullName: Helical Contraption
+shortName: Helical Contraption
+desc: <color=white>Features:</color> <color=#AE98FFFF>QUA-type</color> ranged
+  battlesuit. Uses a cannon in battle.
+firstName: Vill-V
+lastName: null
+enFirstName: null
+enLastName: null
+attributeType: qua
+isEasterner: true
+weapon: cannon
+character: vill-v
+initialStar: s
+tags:
+  - fire-dmg
+  - fast-atk
+  - burst
+  - aerial
+  - time-mastery
+skills:
+  - id: "791"
+    name: A Gear for Every Foe
+    info: "Tap [ATK] or [ULT] to enter Weapon Mode.\\n<color=#23B2E3FF>Tap [Weapon]
+      to switch Loud Armament types: Revolving Gatling: Applause or Heavy
+      Cannon: Exclamation.\\nTap [ATK] or [ULT] to summon Loud Armament and
+      enter Weapon Mode.\\n\\nTap [ATK] or [ULT] near a Loud Armament to enter
+      Weapon Mode of its corresponding type.</color>"
+    icon: Skill_Vill_V_C1_TK_791
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7901"
+        name: "<color=#FFC741FF>QTE</color>: Levered Horizon"
+        info: "QTE: Triggered when an enemy is Time-Slowed or Ignited to induce 1s of
+          Global Time Fracture, dealing #1[f1]% ATK of Fire DMG, summon
+          Revolving Gatling: Applause, and enter Weapon Mode."
+        brief: "Triggered when an enemy is Time-Slowed or Ignited to induce Global Time
+          Fracture, summon Revolving Gatling: Applause, and enter Weapon Mode."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 11
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "792"
+    name: "<color=#FFC741FF>Charged</color>: Cutting Room Floor"
+    info: "Control Loud Armaments in battle.\\n<color=#23B2E4FF>Weapon
+      Mode\\n[Revolving Gatling: Applause]: Hold [ATK] to continuously shoot at
+      the target. Every ammo deals 30% ATK of Fire DMG and recovers 2 Weapon
+      Heat Value. In Climax Approaching state, each ammo deals 48% ATK of Fire
+      DMG.\\nHeavy Cannon: Exclamation: Tap or hold [ATK] to fire a powerful
+      cannonball. Each cannonball deals 450% ATK of Fire DMG and recovers 30
+      Weapon Heat Value. In Climax Approaching state, each cannonball deals 720%
+      ATK of Fire DMG.\\nTap [ULT] to exit Weapon Mode.\\nIn Weapon Mode,
+      character receives 60% less Total DMG.</color>"
+    icon: Skill_Vill_V_C1_TK_792
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7903"
+        name: Mansion Where Heroes Return
+        info: "Deal #1[f1]% more Fire DMG in Weapon Mode. Deal an additional #2[f1]%
+          more Fire DMG to QUA Monsters."
+        brief: Deal increased Fire DMG in Weapon Mode. Deal additional Fire DMG on top
+          of that bonus to QUA Monsters.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.005
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7904"
+        name: Deepest Hurdles
+        info: "Regain #1[f1] Weapon Heat Value immediately upon entering Weapon Mode."
+        brief: Regain Weapon Heat Value immediately upon entering Weapon Mode.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 2.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7905"
+        name: Ark to Empyrea
+        info: "Total DMG dealt by Charged ATKs in Weapon Mode increases by #1[f1]% and
+          recovers additional #2[f1] SP. SP recovery CD: 10s."
+        brief: "Increases Charged ATK's Total DMG in Weapon Mode and restores SP. SP
+          recovery CD: 10s."
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.07
+        paramBase2: 7
+        paramBase3: 10
+        paramAdd1: 0.008
+        paramAdd2: 0.8
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "793"
+    name: Divining the Stars
+    info: "Evade quickly up to 2 times.\\nActivate shield in Weapon Mode to negate
+      attacks.\\n<color=#23B2E5FF>Ultimate Evasion skill: Trigger Global Time
+      Fracture for 3s, summon Mortar Cannon: Silenced to automatically attack
+      continuously for 8s, and form a Burn Zone that lasts for 2s. Each cannon
+      deals 150% ATK of Fire DMG. Enemies in the zone take 100% ATK of Fire DMG
+      per sec.\\nCD: 14s.\\n\\nWeapon Mode\\nTap [EVA] to activate a shield for
+      1.5s. When the shield is attacked, enemy attacks are negated and deals
+      100% ATK of Fire DMG to enemies and triggers Ultimate Evasion skill. If
+      the attack received is a QUA-type attack, it causes QUA Monsters to enter
+      Collapsed state once.</color>"
+    icon: Skill_Vill_V_C1_TK_793
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7907"
+        name: Ether Memories
+        info: "Reduces Ultimate Evasion skill CD by #1[f1]s. Regains #2[f1] HP when
+          Ultimate Evasion is triggered in burst mode. CD: 2s."
+        brief: "Reduces Ultimate Evasion skill CD. Regains HP when Ultimate Evasion is
+          triggered in burst mode. CD: 2s."
+        icon: Skill_Nagative_Survive02
+        maxLv: 11
+        paramBase1: 2.5
+        paramBase2: 200
+        paramBase3: 0
+        paramAdd1: 0.25
+        paramAdd2: 20
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7908"
+        name: Constellations With Origins
+        info: "Reset Ultimate Evasion Skill CD when exiting burst mode and deal #2[f1]%
+          more Total DMG with Charged ATKs in Weapon Mode for 15s. Triggering it
+          again resets the duration."
+        brief: Reset Ultimate Evasion Skill CD when exiting burst mode and deal more
+          Total DMG with Charged ATKs in Weapon Mode for 15s. Triggering it
+          again resets the duration.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 15
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "794"
+    name: Silent Finale
+    info: "Ride Special Weapon: No. 9 into battle!\\n<color=#23B2E6FF>When SP is
+      above 50, hold [ULT] to unleash Ultimate: Helical Contraption withdraws
+      all Loud Armaments on the field to build Special Weapon: No. 9 and enter
+      burst mode, dealing 500% ATK of Fire DMG to all enemies and causing QUA
+      Monsters to enter Collapsed state once.\\nRecover 28 Weapon Heat Value per
+      sec in burst mode (max: 200).\\nTap or hold [ATK] to deal 550% ATK of Fire
+      DMG with each attack.\\nWhen Chariot Heat Value is full, hold [ATK] to
+      automatically unleash Interlude Salute, which deals 1000% ATK of Fire DMG,
+      and trigger Ultimate Evasion skill.\\nHold [EVA] to ride the chariot,
+      dealing 8 x 100% ATK of Fire DMG per sec to enemies ahead.\\n\\nTap [ULT]
+      to self-destruct, driving the chariot into enemies and dealing 900% + N x
+      70% ATK of Fire DMG (N = duration of burst mode in seconds) before exiting
+      burst mode, during which Time-frozen Domain is triggered to pause all
+      skill timers and the stage timer.\\nLose 5 SP per sec in burst mode,
+      losing an additional 10 SP per sec after 5s. Max duration: 16s.
+      Automatically self-destructs when SP runs out or max duration is
+      reached.\\nExits burst mode when character leaves the field. CD: 12s. SP
+      cost: 30.</color>"
+    icon: Skill_Vill_V_C1_TK_794
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7906"
+        name: "Finale: Unprecedented"
+        info: "When Interlude Salute hits enemies, Helical Contraption deals #1[f1]%
+          more Fire DMG for 15s. Triggering it again resets the duration."
+        brief: When Interlude Salute hits, Helical Contraption deals more Fire DMG for
+          15s. Triggering it again refreshes the duration.
+        icon: Skill_Nagative_Damage03
+        maxLv: 7
+        paramBase1: 0.1
+        paramBase2: 15
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "7909"
+        name: "Prelude: Illusory Reality"
+        info: "Increases Fire DMG dealt in burst mode by #1[f1]%. Increases Fire DMG
+          dealt to Collapsed QUA Monsters by #2[f1]%."
+        brief: Increases Fire DMG dealt in burst mode and to Collapsed QUA Monsters.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0.005
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7910"
+        name: "Interlude: Fabrication"
+        info: "Increases Total DMG dealt by Interlude Salute by #1[f1]%. Deal an
+          additional #3[f1]% ATK of Fire DMG per ATK 5s after entering burst
+          mode."
+        brief: Increases Total DMG dealt by Interlude Salute. Every ATK deals additional
+          Fire DMG within 5s of entering burst mode.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 1.5
+        paramAdd1: 0.025
+        paramAdd2: 0
+        paramAdd3: 0.15
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "795"
+    name: The Helix, Farcical
+    info: "Leader Bonus:\\n<color=#23B2E7FF>{{Team members deal #1[f1]% more Total
+      DMG and #2[f1]% more Fire DMG. For every Fire DMG dealer on the team, they
+      deal 5% more Fire DMG atop that.}}</color>"
+    icon: Skill_Vill_V_C1_TK_795
+    skillType: leader
+    tags: []
+    paramSubId1: 7911
+    paramSubId2: 7911
+    paramSubId3: 0
+    subSkills:
+      - id: "7911"
+        name: The Helix, Farcical
+        info: "Team members deal #1[f1]% more Total DMG and #2[f1]% more Fire DMG. For
+          every Fire DMG dealer on the team, they deal 5% more Fire DMG atop
+          that."
+        brief: Team members deal more Total DMG and Fire DMG. For every Fire DMG dealer
+          on the team, they deal more Fire DMG atop that.
+        icon: Skill_Nagative_Damage03
+        maxLv: 2
+        paramBase1: 0.16
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0.05
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+  - id: "796"
+    name: Overturning Assemblage
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E8FF>In Weapon Mode,
+      Helical Contraption can gain up to 200 Weapon Heat Value through
+      attacking. When fully charged, she enters Climax Approaching state. Lose
+      30 Weapon Heat Value per sec after 2s of ceasing
+      attack.\\n\\nAutomatically summons Revolving Gatling: Applause and Heavy
+      Cannon: Exclamation when entering the field. Destroys all Loud Armaments
+      when character exits the field, dealing 150% ATK of Fire DMG to nearby
+      enemies.\\n\\nUnable to unleash weapon skill in Weapon Mode. Tap [Weapon]
+      to switch between Revolving Gatling: Applause and Heavy Cannon:
+      Exclamation, enter Weapon Mode, and trigger Ultimate Evasion
+      skill.\\nStore up to 2 switch attempts. Recharges 1 attempt every 4s.
+      Exiting Weapon Mode will reset the recharging.</color>"
+    icon: Skill_Vill_V_C1_TK_796
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7902"
+        name: Nomine, Contemptuous Sneer
+        info: "Gain #1[f1]% of Total DMG Reduction and deal #2[f1]% more Fire DMG in
+          burst mode. Enter Weapon Mode within 5s of exiting burst mode to
+          immediately regain #3[f1] Weapon Heat Value."
+        brief: Gain Total DMG Reduction and deal increased Fire DMG in burst mode. Enter
+          Weapon Mode within 5s of exiting burst mode to immediately regain
+          Weapon Heat Value.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.7
+        paramBase2: 0.1
+        paramBase3: 100
+        paramAdd1: 0
+        paramAdd2: 0.01
+        paramAdd3: 5
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7912"
+        name: Nomine, Quintessential Collection
+        info: "Restore #1[f1] SP and #2[f1] HP per sec in Climax Approaching state.
+          Charged ATKs deal #3[f1]% more Total DMG in Weapon Mode."
+        brief: Restore SP and HP per sec in Climax Approaching state. Charged ATKs deal
+          increased Total DMG in Weapon Mode.
+        icon: Skill_Nagative_Skill01
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 15
+        paramBase3: 0.2
+        paramAdd1: 0.1
+        paramAdd2: 1.5
+        paramAdd3: 0.025
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7913"
+        name: Nomine, Entangled Cobwebs
+        info: "When entering Weapon Mode or burst mode, Helical Contraption deals
+          #1[f1]% more Fire DMG to all enemies for 20s (cannot stack).
+          Triggering it again resets the duration."
+        brief: Entering Weapon Mode or burst mode makes all enemies receive more Fire
+          DMG from her for 20s (cannot stack). Triggering it again refreshes the
+          duration.
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.13
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.035
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

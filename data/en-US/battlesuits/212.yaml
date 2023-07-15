@@ -1,0 +1,360 @@
+id: "212"
+fullName: Goushinnso Memento
+shortName: Goushinnso Memento
+desc: "<color=white>Features: </color><color=#2CE3FFFF>MECH-type</color>
+  <color=#2CE3FFFF>Awakened</color> melee battlesuit that can store charges to
+  deal mid-range AOE attacks."
+firstName: Sakura
+lastName: Yae
+enFirstName: null
+enLastName: null
+attributeType: mech
+isEasterner: true
+weapon: katana
+character: sakura
+initialStar: s
+tags:
+  - ice-dmg
+  - freeze
+skills:
+  - id: "181"
+    name: Kansakura
+    info: "Swift 5-sequence slash, with each sequence restoring 60 Kinetic Energy
+      (KE) upon hit. Evading during the first 4 sequences does not interrupt the
+      sequence connection.\\n<color=#23B2E2FF>1st Sequence: 50% ATK of Physical
+      DMG.\\n2nd Sequence: 80% ATK of Physical DMG.\\n3rd Sequence: 120% ATK of
+      Physical DMG.\\n4th Sequence: 120% ATK of Physical DMG.\\n5th Sequence:
+      250% ATK of Ice DMG.</color>"
+    icon: Skill_Sakura_YS_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1804"
+        name: Energizing Flurry
+        info: "Basic ATKs recover #1[f1] kinetic energy upon landing a critical strike."
+        brief: Basic ATKs recover kinetic energy upon a Crit.
+        icon: Skill_Nagative_Damage02
+        maxLv: 40
+        paramBase1: 3.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.3
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "1813"
+        name: Ice Spirit
+        info: "Each Basic ATK deals #1[f1]% ATK of bonus Ice DMG. 1st-4th Basic ATK
+          sequences gain #2[f1]% faster Attack Speed, while the 5th sequence
+          gives #3[f1]% Total DMG Multiplier buff for 8s."
+        brief: "Basic ATK deals bonus Ice DMG. 1st-4th sequences: Faster Attack Speed.
+          5th sequence: Temporary DMG buff."
+        icon: Skill_Nagative_Damage01
+        maxLv: 70
+        paramBase1: 0.2
+        paramBase2: 0.1
+        paramBase3: 0.15
+        paramAdd1: 0.00217
+        paramAdd2: 0.0029
+        paramAdd3: 0.00217
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1815"
+        name: "<color=#FFC741FF>QTE</color>: Freezing Art"
+        info: "QTE: Triggered by a shield break to unleash Freezing Ki, dealing #1[i]%
+          ATK of Ice DMG and inflicting <color=#FEDF4CFF>6 Rime Trauma</color>."
+        brief: "QTE: Triggered when an enemy's shield is broken to deal Ice DMG and
+          inflict Rime Trauma."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 8
+        paramBase1: 3.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.35714
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: freeze
+            strength: 2
+            comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+              rate: medium."
+        toggle: true
+        unlockStar: s
+  - id: "182"
+    name: "<color=#FFC741FF>Combo</color>: Instant Draw"
+    info: "High speed battou slash.\\n<color=#23B2E2FF>Consumes 200 KE to unleash
+      Zankeki ULTRA and inflict</color> <color=#FEDF4CFF>1.5 Rime
+      Trauma</color><color=#23B2E2FF>.\\nKE caps at 1000 and slowly regenerates
+      when the Valkyrie is on the field.\\nZankeki: 50% ATK of Physical
+      DMG.\\nZankeki ULTRA: 100% ATK of Physical DMG + 200% ATK of Ice
+      DMG.\\nAssault: 100% ATK of Physical DMG.</color>"
+    icon: Skill_Sakura_YS_002
+    skillType: special
+    tags:
+      - type: freeze
+        strength: 1
+        comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+          rate: very weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1807"
+        name: Frost Fang
+        info: "Each hit of Zankeki ULTRA additionally deals #1[i]% ATK of Ice DMG."
+        brief: Combo ATKs gain DMG when there is kinetic energy.
+        icon: Skill_Nagative_Damage03
+        maxLv: 8
+        paramBase1: 0.55
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.35
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1809"
+        name: "<color=#FFC741FF>Switch</color>: Falling Sakura"
+        info: "Switch entry triggers an ice explosion that deals #1[f1]% ATK of Ice DMG
+          to surrounding enemies. When Switch and QTE skills hit a target, then
+          recover #2[i] kinetic energy."
+        brief: Switch entry deals Ice DMG to nearby enemies. Switch Skill and QTE
+          recover kinetic energy upon hit.
+        icon: Skill_Nagative_StartUp01
+        maxLv: 8
+        paramBase1: 1
+        paramBase2: 100
+        paramBase3: 0
+        paramAdd1: 0.11429
+        paramAdd2: 15
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1810"
+        name: Warrior's Pride
+        info: "Gains Ignore Interrupt and #1[f1]% Total DMG Reduction when unleashing
+          Basic or Combo ATKs. Each Zankeki ULTRA performed gives #2[f2] SP."
+        brief: Gains Total DMG Reduction when unleashing Basic or Combo ATKs. Zankeki
+          ULTRA also restores SP.
+        icon: Skill_Nagative_Survive03
+        maxLv: 8
+        paramBase1: 0.12
+        paramBase2: 0.8
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0.1
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "183"
+    name: Clone Step
+    info: "Quick dash to evade enemy attacks.\\n<color=#23B2E2FF>A White Shadow
+      (summoned entity) emerges upon Ultimate Evasion and explodes after 1s,
+      dealing 200% ATK of Ice DMG to surrounding enemies (damage source: self).
+      CD: 15s.</color>"
+    icon: Skill_Sakura_YS_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1805"
+        name: Shadow Breath
+        info: "Recovers #1[i] kinetic energy instantly when Ultimate Evasion is
+          triggered."
+        brief: Recovers kinetic energy upon Ultimate Evasion.
+        icon: Skill_Nagative_Skill02
+        maxLv: 8
+        paramBase1: 50
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 10
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1806"
+        name: Freezing Image
+        info: Enemies affected by White Shadow's explosion have a 100% chance of
+          receiving <color=#FEDF4CFF>#1[f1] Rime Trauma</color>.
+        brief: Enemies affected by White Shadow's explosion receive Rime Trauma.
+        icon: Skill_Nagative_Control01
+        maxLv: 4
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1.66667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: freeze
+            strength: 2
+            comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+              rate: medium."
+        toggle: false
+        unlockStar: sss
+      - id: "1808"
+        name: Illumination
+        info: "Shortens CD of Ultimate Evasion by #2[f1]s."
+        brief: Shortens CD of White Shadow.
+        icon: Skill_Nagative_Survive01
+        maxLv: 14
+        paramBase1: 0
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.2
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "184"
+    name: Frigid Rave
+    info: "Instant battou slash against enemies in
+      front.\\n<color=#23B2E2FF>Icewind: 900% ATK of Ice DMG in total, with the
+      last hit inflicting</color> <color=#FEDF4CFF>18 Rime
+      Trauma</color><color=#23B2E2FF>.\\nExecute: Shatters the ice to deal 1200%
+      ATK of Physical DMG.\\nEnergy Charge: Gains 250 KE upon unleashing
+      Ultimate, and gains 60 KE per 0.25s for 10s once Ultimate ends.\\nSP Cost:
+      125.</color>"
+    icon: Skill_Sakura_ZF_004
+    skillType: ultimate
+    tags:
+      - type: freeze
+        strength: 3
+        comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+          rate: strong."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1811"
+        name: Transcendence
+        info: "After using Ultimate, gains #1[f1]% Total DMG Multiplier for 12s."
+        brief: After using Ultimate, gains Total DMG Multiplier.
+        icon: Skill_Nagative_Damage03
+        maxLv: 8
+        paramBase1: 0.12
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02571
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1812"
+        name: Bone Eater
+        info: "For every enemy killed by the Ultimate, character heals self for #1[i]
+          HP."
+        brief: Ultimate recovers HP to self upon killing an enemy.
+        icon: Skill_Nagative_Survive02
+        maxLv: 8
+        paramBase1: 200
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 50
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1814"
+        name: Iceborn
+        info: "Recovers an additional #1[i] kinetic energy when using Ultimates."
+        brief: Recovers additional kinetic energy when using Ultimates.
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 200
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 80
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "185"
+    name: Sakura Dance
+    info: "Leader Bonus:\\n<color=#23B2E2FF>Leader Skill: {{Team gains #1[i]% Crit
+      Rate at above 80% HP. MECH-type battlesuits gain #2[i]% All Elemental
+      DMG.}}</color>"
+    icon: Skill_Sakura_YS_005
+    skillType: leader
+    tags: []
+    paramSubId1: 1801
+    paramSubId2: 1801
+    paramSubId3: 0
+    subSkills:
+      - id: "1801"
+        name: Sakura Dance
+        info: "Team gains #1[i]% Crit Rate at above 80% HP. MECH-type battlesuits: Gain
+          #2[i]% All Elemental DMG."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Damage01
+        maxLv: 3
+        paramBase1: 0.17
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "186"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF></color>
+    icon: Skill_Sakura_YS_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1802"
+        name: Onimusha
+        info: "5th Basic ATK sequence, Ultimate Evasion ATK, and Ultimate mark enemies.
+          Attacks against marked / stunned / paralyzed / frozen / time slowed
+          enemies deal #1[f1]% bonus Physical and Elemental DMG."
+        brief: Attacks against marked/ stunned / paralyzed / frozen / time slowed
+          enemies deal bonus damage.
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0069
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1803"
+        name: Mercy
+        info: "Restores #1[f1] KE per second even when off the battlefield. Restores 30
+          KE per 0.25s for 10s after unleashing Ultimate."
+        brief: Slowly restores KE even when off the battlefield. Ultimate gives faster
+          KE gain.
+        icon: Skill_Nagative_Skill01
+        maxLv: 6
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss

@@ -1,0 +1,42 @@
+id: "99"
+name: Blasting Explosive set
+desc: null
+skills:
+  - id: "4152"
+    name: Dynamite
+    info: "When Charged ATKs hit the enemy, generate an explosion centered on host
+      that deals #1[f1]% ATK of Physical DMG to nearby enemies. CD: 1s."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: physical-dmg
+        comment: null
+    param1: 1.8
+    param1Add: 0
+    param2: 0
+    param2Add: 0
+    param3: 0
+    param3Add: 0
+  - id: "4153"
+    name: Igniter
+    info: "After each entry, the first 2 hits taken by the host will suffer #1[f1]%
+      Total DMG Reduction and not interrupt her. Crit DMG of Charged ATKs
+      increases by #2[f1]%. Explosion DMG of Dynamite increases to #3[f1]% ATK
+      of Physical DMG."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: physical-dmg
+        comment: null
+    param1: 0.4
+    param1Add: 0
+    param2: 0.3
+    param2Add: 0
+    param3: 2
+    param3Add: 0
+stigmaIdList:
+  - "110991"
+  - "110992"
+  - "110993"

@@ -1,0 +1,380 @@
+id: "412"
+fullName: "Vermilion Knight: Eclipse"
+shortName: "Vermilion Knight: Eclipse"
+desc: "<color=white>Features: </color><color=#2CE3FFFF>MECH-type</color>
+  <color=#2CE3FFFF>Awakened</color> melee battlesuit. Agile combat moves.
+  Multi-hit ultimate attack that deals massive Fire DMG."
+firstName: Himeko
+lastName: Murata
+enFirstName: null
+enLastName: null
+attributeType: mech
+isEasterner: true
+weapon: 2-handed
+character: himeko
+initialStar: s
+tags:
+  - fire-dmg
+  - ignite
+skills:
+  - id: "371"
+    name: Iron of Twilight
+    info: "4-sequence attack.\\n<color=#23B2E2FF>1st Sequence: 3x30% ATK of Fire
+      DMG. Vermilion Knight will quickly start sprinting once she starts to
+      move. During sprinting, the 1st Sequence of Basic ATK will turn into a
+      Sprint ATK with increased Interrupt and Ignore Interrupt.\\n2nd Sequence:
+      50% ATK of Fire DMG + 100% ATK of Physical DMG.\\n3rd Sequence: 2x100% ATK
+      of Physical DMG + 50% ATK of Fire DMG.\\n4th Sequence: 150% ATK of Fire
+      DMG + 250% ATK of Physical DMG.\\n</color>"
+    icon: Skill_Himeko_SD_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3701"
+        name: Turbo Heatflow
+        info: "The last hits of the 3rd and 4th sequences of Basic ATK recover an
+          additional #1[f2] SP upon hitting the enemy."
+        brief: 3rd and 4th sequences of Basic ATK gives SP.
+        icon: Skill_Nagative_Skill02
+        maxLv: 8
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.28571
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3702"
+        name: Shadow of Muspell
+        info: At over 50 combo hits, Ignore Interrupt increases; Basic ATK SEQ 3 & 4
+          deal 250% ATK of bonus Fire DMG and inflict <color=#FEDF4CFF>3 Ignite
+          Trauma</color>.
+        brief: When Combo Hit Count exceeds 50, Ignore Interrupt increases, and Basic
+          ATK SEQ 3 & 4 deal bonus Fire DMG and inflict Ignite Trauma.
+        icon: Skill_Nagative_Damage01
+        maxLv: 8
+        paramBase1: 1
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.42857
+        paramAdd2: 0.05714
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 1
+            comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+              charge rate: weak."
+        toggle: false
+        unlockStar: s
+  - id: "372"
+    name: "<color=#FFC741FF>Charge</color>: Meteoric Assault"
+    info: "When not in Overdrive status, tap and hold the [ATK] button during
+      4-sequence Basic ATK and Guren Flash to deliver a Charged
+      ATK.\\n<color=#23B2E2FF>Charged ATK: Charges towards the target enemy,
+      dealing 2x(50% ATK of Physical DMG + 150% ATK of Fire DMG). Finally,
+      unleash a Schielhau cross-cut that deals 300% ATK of Physical DMG + 750%
+      ATK of Fire DMG. \\nAfter performing a Charged ATK, use another Charged
+      ATK within 6s to enter Overdrive status for 13.5s.</color>"
+    icon: Skill_Himeko_SD_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3703"
+        name: Undying Embers
+        info: Schielhau inflicts <color=#FEDF4CFF>6 Ignite Trauma</color>.
+        brief: Schielhau inflicts Ignite Trauma.
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.10345
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 2
+            comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+              charge rate: medium."
+        toggle: false
+        unlockStar: a
+      - id: "3704"
+        name: Incomplete Combustion
+        info: "Overdrive State: Gain #1[f1]% Fire DMG."
+        brief: Overdrive State gives a Fire DMG buff.
+        icon: Skill_Nagative_Skill03
+        maxLv: 6
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3705"
+        name: Turbo Fire
+        info: "Overdrive: Each time the Ultimate hits an enemy, character recovers
+          #1[f1] SP, and the Ultimate gains #2[f2]% Fire DMG."
+        brief: "Overdrive State: Ultimate gains a Fire DMG buff and gives SP upon hit."
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 0.5
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 0.3
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "373"
+    name: Guren Flash
+    info: "Quickly evade enemy attacks. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Guren Flash: Triggered upon an Ultimate Evasion;
+      reduces CD of Ultimate by 5s; tap [ATK] again to charge towards the target
+      and deal 100% ATK of Physical DMG + 450% ATK of Fire DMG + 150% ATK of
+      Physical DMG. CD: 15s.</color>"
+    icon: Skill_Himeko_SD_003
+    skillType: evasion
+    tags:
+      - type: heavy-atk
+        strength: 1
+        comment: "QTE is Heavy ATK; Trauma charge: medium."
+      - type: ignite
+        strength: 1
+        comment: "QTE inflicts Ignite Trauma. Trauma charge rate: weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3706"
+        name: Plasmonic Armor
+        info: "Shortens CD of Guren Flash by #1[f1]s."
+        brief: Shortens CD of Guren Flash.
+        icon: Skill_Nagative_Skill01
+        maxLv: 37
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05556
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3707"
+        name: Fuel Ignition
+        info: Guren Flash inflicts <color=#FEDF4CFF>6 Ignite Trauma</color>.
+        brief: Guren Flash inflicts Ignite Trauma.
+        icon: Skill_Nagative_Skill01
+        maxLv: 8
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.42857
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 2
+            comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+              charge rate: medium."
+        toggle: false
+        unlockStar: s
+      - id: "3715"
+        name: "<color=#FFC741FF>QTE</color>: Solar Impact"
+        info: "Switch: Basic ATK SEQ 1. QTE: Triggered when an enemy is Time-Slowed.
+          Deals #1[f1]% ATK of Fire DMG + 2 x 150% ATK of Fire DMG + 200% ATK of
+          Physical DMG, and inflicts <color=#FEDF4CFF>6 Ignite Trauma</color> on
+          enemies nearby."
+        brief: "Switch: Basic ATK SEQ 1. QTE: Triggered when an enemy is Time-Slowed.
+          Deals massive Fire DMG and Physical DMG. Inflicts Ignite Trauma on
+          enemies nearby."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 6
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 2
+            comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+              charge rate: medium."
+        toggle: true
+        unlockStar: s
+  - id: "374"
+    name: Annihilating Flames
+    info: "Unleashes a devastating assault with a flaming greatsword and burns
+      everything within sight. Overdrive status ends once the skill is
+      complete.\\n<color=#23B2E2FF>Ultimate has 4 charges. Each release consumes
+      1 charge. With more than 0 charge, tap [Ultimate] again before the
+      Ultimate finishes to keep performing the skill. Re-activating the skill
+      will unleash a 2-sequence attack.\\n1st Sequence: 2x(250% ATK of Fire DMG
+      + 50% ATK of Physical DMG) + 400% ATK of Fire DMG + 50% ATK of Physical
+      DMG.\\n2nd Sequence: 2x(200% ATK of Fire DMG + 50% ATK of Physical DMG) +
+      350% ATK of Fire DMG + 100% ATK of Physical DMG + 1000% ATK of Fire
+      DMG.\\nSP cost: 30; CD: 20s.</color>"
+    icon: Skill_Himeko_SD_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "Ultimate is Heavy ATK; Trauma charge: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3708"
+        name: Boiling Lava
+        info: "Gains #1[f1]% Fire DMG each time the Valkyrie consumes SP to perform her
+          Ultimate. Max stacks: 2. Duration: Until Ultimate ends."
+        brief: "Gain a temporary Fire DMG buff after using Ultimate. Max stacks: 2."
+        icon: Skill_Nagative_Damage03
+        maxLv: 4
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "3709"
+        name: Red Infernal
+        info: "Ultimate deals #1[f1]% ATK of bonus Fire DMG and inflicts
+          <color=#FEDF4CFF>10 Ignite Trauma</color>."
+        brief: Ultimate inflicts Ignite Trauma.
+        icon: Skill_Nagative_Skill01
+        maxLv: 8
+        paramBase1: 0.8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 2
+            comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+              charge rate: medium."
+        toggle: false
+        unlockStar: s
+      - id: "3714"
+        name: Enraged Load
+        info: "After performing Charged ATK and if not in Overdrive, then shorten the CD
+          of the Ultimate by #1[f1]s."
+        brief: If Charged ATK does not trigger Overdrive, then shorten CD of the
+          Ultimate.
+        icon: Skill_Nagative_Skill02
+        maxLv: 15
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.21429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "375"
+    name: Vermilion Mark
+    info: "Leader Bonus: \\n<color=#23B2E2FF>Leader Skill: {{For the team, switch
+      skills & QTEs deal #1[i]% bonus Total DMG; Ultimate ATKs deal #2[i]% bonus
+      Total DMG. Team deals #3[f1]% bonus Fire DMG if formed by 3 different-type
+      battlesuits.}}</color>"
+    icon: Skill_Himeko_SD_005
+    skillType: leader
+    tags: []
+    paramSubId1: 3710
+    paramSubId2: 3710
+    paramSubId3: 3710
+    subSkills:
+      - id: "3710"
+        name: Vermilion Mark
+        info: "For the team, switch skills & QTEs deal #1[i]% bonus Total DMG; Ultimates
+          deal #2[i]% bonus Total DMG. Team deals #3[f1]% bonus Fire DMG if
+          formed by 3 different-type battlesuits."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.2
+        paramBase2: 0.2
+        paramBase3: 0.3
+        paramAdd1: 0.025
+        paramAdd2: 0.025
+        paramAdd3: 0.015
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "376"
+    name: Passive
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E2FF>Overdrive status:
+      Cannot use Charged ATK, perform 2 consecutive Evasions, or recover SP from
+      Basic ATKs. Unleash Ultimate to end Overdrive status.</color>"
+    icon: Skill_Himeko_SD_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3711"
+        name: Molten Cleaver
+        info: "Attacks against ignited enemies gain #1[f1]% Fire DMG."
+        brief: Deal more DMG against ignited enemies.
+        icon: Skill_Nagative_Damage02
+        maxLv: 25
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3712"
+        name: After Burn
+        info: "Gains #1[f1]% Fire DMG for each combo hit count, up to a max of #2[f1]%."
+        brief: Combo Hit Counts buffs DMG dealt.
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 0.002
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.002
+        paramAdd2: 0.1
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3713"
+        name: Scorching Sun
+        info: "When Combo Hit Count exceeds 30 or 50, indirect DMG received is reduced
+          by #1[f1]% and #2[f1]% respectively."
+        brief: When Combo Hit Count exceeds 30 and 50, take less indirect DMG.
+        icon: Skill_Nagative_Survive03
+        maxLv: 8
+        paramBase1: 0.1
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.02857
+        paramAdd2: 0.02857
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

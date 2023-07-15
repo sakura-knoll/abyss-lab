@@ -1,0 +1,435 @@
+id: "3501"
+fullName: Terminal Aide 0017
+shortName: Terminal Aide 0017
+desc: "<color=white>Features: </color><color=#F3DFAEFF>IMG-type</color>.
+  All-range. Pummels with fists."
+firstName: PROMETHEUS
+lastName: null
+enFirstName: null
+enLastName: null
+attributeType: img
+isEasterner: true
+weapon: fists
+character: prometheus
+initialStar: a
+tags:
+  - physical-dmg
+  - gather
+  - stun
+  - time-mastery
+  - impair
+skills:
+  - id: "881"
+    name: "Assertion: Transfinite Cardinal Number"
+    info: "Attack with shapeshifting fists.\\n<color=#23B2E3FF>SEQ 1: Deals 150% ATK
+      of Physical DMG and restores 15 Enthalpy.\\nSEQ 2: Deals 180% ATK of
+      Physical DMG and restores 15 Enthalpy.\\nSEQ 3: Deals 70% x 6 ATK of
+      Physical DMG and restores 30 Enthalpy.\\nSEQ 4: Deals 180% + 40% x 3 ATK
+      of Physical DMG, inflicts</color> <color=#FEDF4CFF>3 Stun
+      Trauma</color><color=#23B2E2FF>, and restores 45 Enthalpy.</color>"
+    icon: Skill_Prometheus_C1_TS_881
+    skillType: basic
+    tags:
+      - type: stun
+        strength: 1
+        comment: "Inflicts Stun Trauma; Trauma charge rate: weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8801"
+        name: "<color=#FFC741FF>QTE</color>: Axiom of Choice"
+        info: "QTE: Triggered when an enemy is Time-Slowed or hit by a teammate's
+          Charged/Combo ATK. Deals #1[f1]% ATK of Physical DMG, fully restores
+          Enthalpy, and reduces switch CD by 4s."
+        brief: "QTE: Triggered when an enemy is Time-Slowed or hit by a teammate's
+          Charged/Combo ATK to deal Physical DMG, fully restore Enthalpy, and
+          reduce switch CD by 4s."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 1
+        paramBase1: 6
+        paramBase2: 3
+        paramBase3: 3
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+      - id: "8802"
+        name: Incompleteness Theorem
+        info: "On hit, Axiom of Choice restores #2[f1] SP to team and another #3[f1] SP
+          to self, and increases self Total DMG by #1[f1]% for 6s. CD: 12s."
+        brief: On hit, Axiom of Choice restores SP to self and team, and increases self
+          Total DMG for 6s.
+        icon: Skill_Nagative_Damage02
+        maxLv: 7
+        paramBase1: 0.33
+        paramBase2: 3.01
+        paramBase3: 3.01
+        paramAdd1: 0.05333
+        paramAdd2: 0.33333
+        paramAdd3: 0.33333
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8816"
+        name: Set Paradox
+        info: "Within 2s of landing Basic ATK, Assertion: Transfinite Cardinal Number
+          SEQ 4, Defensive Status restores #1[f1] more Enthalpy per second."
+        brief: Within 2s of landing Basic ATK SEQ 4, Defensive Status restores bonus
+          Enthalpy per second.
+        icon: Skill_Nagative_Skill02
+        maxLv: 8
+        paramBase1: 40
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 6.42857
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "882"
+    name: "<color=#FFC741FF>Combo</color>: Simulation: Neural Network"
+    info: "Flip the floor so enemies can't gain a
+      foothold.\\n<color=#23B2E4FF>Enthalpy starts at 400 and caps at 400.
+      Consume full Enthalpy to unleash Simulation: Neural Network, dealing 100%
+      + 700% ATK of Physical DMG and inflicting</color> <color=#FEDF4CFF>6 Stun
+      Trauma</color><color=#23B2E2FF>, during which she takes 80% less Total
+      DMG.\\nEvery 100 Enthalpy consumed adds 250 Dense Neutron Shield to all
+      team members.</color>"
+    icon: Skill_Prometheus_C1_TS_882
+    skillType: special
+    tags:
+      - type: stun
+        strength: 2
+        comment: "Inflicts Stun Trauma; Trauma charge rate: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8803"
+        name: Backpropagation
+        info: "Every attack from teammates with Dense Neutron Shield restores #1[f2] SP
+          to Terminal Aide 0017. CD: #2[f1]s. CD is shared across the team."
+        brief: Every attack from teammates with Dense Neutron Shield restores SP to
+          Terminal Aide 0017.
+        icon: Skill_Nagative_Skill03
+        maxLv: 1
+        paramBase1: 3.5
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8815"
+        name: Convolution
+        info: "For every 100 Enthalpy that Ultimate [Existence: Configuration Manifold]
+          and Combo ATK [Simulation: Neural Network] consumes, it increases her
+          own shield-breaking power by #1[f1]%, Physical DMG by #2[f1]%, and
+          Crit Rate by #3[f1]% for 5s. Can stack up to 4 stacks. Triggering it
+          again resets the duration. If 400 Enthalpy is consumed at once,
+          enemies hit will also be inflicted with Impair, lowering their defence
+          by 70% for 5s. Convolution's CD is 12s. Unleashing Basic ATK
+          [Assertion: Transfinite Cardinal Number] SEQ 4 can remove this CD."
+        brief: Consume Enthalpy to improve shield-breaking power, Physical DMG and Crit
+          Rate, and inflict Impair on enemies.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.6
+        paramBase2: 0.1
+        paramBase3: 0.105
+        paramAdd1: 0.06
+        paramAdd2: 0.009
+        paramAdd3: 0.0105
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "883"
+    name: "Destiny: Renormalization Group"
+    info: "PROMETHEUS's fists become a shield to defend against frontal attacks. A
+      successful block negates the incoming attack and deals counter-attack
+      damage.\\n<color=#23B2E5FF>Hold [EVA] to raise a shield and enter
+      Defensive Status, negating all frontal attacks. In Defensive Status,
+      recover 70 Enthalpy per second. Release [EVA] at the moment of being hit
+      to achieve Absolute Defense, dealing 100% ATK of Physical DMG and
+      inflicting</color> <color=#FEDF4CFF>3 Stun
+      Trauma</color><color=#23B2E2FF>.\\nAbsolute Defense and Ultimate Evasion
+      both restore 200 Enthalpy and trigger Ultimate Evasion Skill.\\nUltimate
+      Evasion Skill: [CD: 10s] Triggers global Time Fracture for 1s. In
+      addition, when triggered by Absolute Defense, Reversal Field is
+      unleashed.\\nReversal Field: Fists turn into a Drill to deal 280% + 50% x
+      6 ATK of Physical DMG and restore 200 more Enthalpy.</color>"
+    icon: Skill_Prometheus_C1_TS_883
+    skillType: evasion
+    tags:
+      - type: stun
+        strength: 1
+        comment: "Inflicts Stun Trauma; Trauma charge rate: weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8804"
+        name: Selfless Prometheus
+        info: "Increases Dense Neutron Shield's maximum value to #1[f1]. Triggering
+          Reversal Field adds #2[f1] Dense Neutron Shield."
+        brief: Increases Dense Neutron Shield's maximum value. Triggering Reversal Field
+          adds Dense Neutron Shield.
+        icon: Skill_Nagative_Survive03
+        maxLv: 1
+        paramBase1: 4000
+        paramBase2: 500
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8805"
+        name: Terminal Guardian
+        info: "In combat, Defensive Status adds #1[f1] Dense Neutron Shield per second,
+          and extends global Time Fracture caused by Absolute Defense to 3s."
+        brief: In combat, Defensive Status adds Dense Neutron Shield per second, and
+          extends global Time Fracture caused by Absolute Defense.
+        icon: Skill_Nagative_Survive02
+        maxLv: 5
+        paramBase1: 200
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 50
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "884"
+    name: "Existence: Configuration Manifold"
+    info: "Gigantic fists break out of the ground and grab the
+      enemy.\\n<color=#23B2E6FF>SP Cost: 90. CD: 20s. PROMETHEUS creates a black
+      hole to pull enemies, then augments her fists and crush them from
+      underneath, dealing 1200% ATK of Physical DMG while inflicting</color>
+      <color=#FEDF4CFF>18 Stun Trauma</color><color=#23B2E2FF>. Ultimate
+      consumes all Enthalpy.</color>"
+    icon: Skill_Prometheus_C1_TS_884
+    skillType: ultimate
+    tags:
+      - type: stun
+        strength: 3
+        comment: "Inflicts Stun Trauma; Trauma charge rate: strong."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8806"
+        name: Intersection of Past and Present
+        info: "Casting Ultimate [Existence: Configuration Manifold] increases the team's
+          Crit DMG by #1[f1]% for 22s. Triggering it again resets the duration."
+        brief: "Casting Ultimate [Existence: Configuration Manifold] increases the
+          team's Crit DMG."
+        icon: Skill_Nagative_Damage03
+        maxLv: 8
+        paramBase1: 0.12
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01857
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8807"
+        name: Antithetical World
+        info: "Increases the Crit DMG dealt by Ultimate [Existence: Configuration
+          Manifold] and Combo ATK [Simulation: Neural Network] by #1[f1]%."
+        brief: "Increases the Crit DMG dealt by Ultimate [Existence: Configuration
+          Manifold] and Combo ATK [Simulation: Neural Network]."
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.07143
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "885"
+    name: Absolute Rationality
+    info: "Leader Bonus:\\n<color=#23B2E7FF>Leader Skill: {{Team deals #1[f1]% more
+      Physical DMG and has #2[f1] more initial SP. Initial SP increases by
+      another #2[f1] if there are other IMG-type characters on the team (can be
+      triggered once every 10 minutes in Open World).}}</color>"
+    icon: Skill_Prometheus_C1_TS_885
+    skillType: leader
+    tags: []
+    paramSubId1: 8808
+    paramSubId2: 8808
+    paramSubId3: 0
+    subSkills:
+      - id: "8808"
+        name: Romantic Proof
+        info: "Increases the team's Physical DMG by #1[f1]% and initial SP by #2[f1].
+          When there are other IMG-type characters in the team, initial SP is
+          increased by another #2[f1] (can be triggered once every 10 minutes in
+          Open World)."
+        brief: Increases the team's Physical DMG and initial SP. When there are other
+          IMG-type characters on the team, initial SP is further increased.
+        icon: Skill_Nagative_Skill03
+        maxLv: 3
+        paramBase1: 0.2
+        paramBase2: 20
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 2.5
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "886"
+    name: "Journey: Wave-Particle Duality"
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E8FF>Unshielded team
+      members gain Dense Neutron Shield. Its value starts at 2000 and caps at
+      3000. While active, it reduces DMG taken by 50%. When its value falls to
+      0, it's temporarily disabled, but can be restored through Combo ATK
+      [Simulation: Neural Network], Ultimate [Existence: Configuration
+      Manifold], Retaliation [Reversal Field], and Defensive Status.</color>"
+    icon: Skill_Prometheus_C1_TS_886
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8809"
+        name: Memories and Personality
+        info: "Characters with Dense Neutron Shield has #1[f1]% more shield-breaking
+          power for the first 15s they enter the field."
+        brief: Characters with Dense Neutron Shield has more shield-breaking power for
+          the first 15s they enter the field.
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.15
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8810"
+        name: Life and Creation
+        info: "Characters with Dense Neutron Shield break shields #1[f1]% easier and
+          have slightly improved Ignore Interrupt. Additionally, all enemies
+          take #2[f1]% more Total DMG."
+        brief: Characters with Dense Neutron Shield break shields easier and have
+          slightly improved Ignore Interrupt. Additionally, all enemies take
+          more Total DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0.12
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.011
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8811"
+        name: Past and Future
+        info: "When enemies are hit by Regen: Superpartner, the team deals #1[f1]% more
+          melee Physical DMG for 20s. Triggering it again resets the duration."
+        brief: "When enemies are hit by Regen: Superpartner, the team deals more melee
+          Physical DMG."
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "887"
+    name: "Regen: Superpartner"
+    info: "Colossal palm flattens enemies from above.\\n<color=#23B2E8FF>When
+      PROMETHEUS' Combo ATK Simulation: Neural Network or Ultimate Existence:
+      Configuration Manifold hits, if this attack has consumed 400 Enthalpy, it
+      will trigger Regen: Superpartner to deal 800% ATK of Physical DMG that is
+      regarded as Ultimate DMG, during which she takes 80% less Total DMG and
+      triggers 2s of global Time Fracture. If Regen: Superpartner hits a Nihilus
+      Seed whose current HP is under 20%, it instantly destroys its current
+      phase.</color>"
+    icon: Skill_Prometheus_C1_TS_887
+    skillType: sp
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8812"
+        name: Recollections
+        info: "When hit by Regen: Superpartner, IMG enemies drop an SP pack. CD: 20s.
+          They also take #1[f1]% more Total DMG from Physical DMG characters for
+          20s. Triggering it again resets the duration."
+        brief: "When hit by Regen: Superpartner, IMG enemies drop an SP pack. They also
+          take more Total DMG from Physical DMG characters."
+        icon: Skill_Nagative_Damage03
+        maxLv: 5
+        paramBase1: 0.13
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.035
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8813"
+        name: Continuation
+        info: "If Regen: Superpartner hits enemies with broken shield, or if their
+          shields are broken within 10s, shield recovery time will be frozen for
+          #1[f1]s. The shield recovery time of these enemies cannot be frozen
+          again thereafter, until the next time they have fully recovered their
+          shields."
+        brief: "If Regen: Superpartner hits enemies with broken shield, or if their
+          shields are broken within 10s, shield recovery time will be frozen.
+          The shield recovery time of these enemies cannot be frozen again
+          thereafter, until the next time they have fully recovered their
+          shields."
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 2.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1.25
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "8814"
+        name: New Life
+        info: "Regen: Superpartner deals #1[f1]% more Crit DMG."
+        brief: "Regen: Superpartner deals more Crit DMG."
+        icon: Skill_Nagative_Damage02
+        maxLv: 7
+        paramBase1: 0.6
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

@@ -1,0 +1,323 @@
+id: "103"
+fullName: Knight Moonbeam
+shortName: Knight Moonbeam
+desc: "<color=white>Features: </color><color=#FFAF2CFF>BIO-type</color> ranged
+  battlesuit that deals impressive DMG against mobs."
+firstName: Kiana
+lastName: Kaslana
+enFirstName: null
+enLastName: null
+attributeType: bio
+isEasterner: false
+weapon: pistols
+character: kiana
+initialStar: s
+tags:
+  - physical-dmg
+  - time-mastery
+  - fast-atk
+skills:
+  - id: "31"
+    name: Gyrodrive Kata
+    info: "Fires 4 shots in rapid succession.\\n<color=#23B2E2FF>1st Shot: 100% ATK
+      of Physical DMG.\\n2nd Shot: 100% ATK of Physical DMG.\\n3rd Shot: 150%
+      ATK of Physical DMG.\\n4th Shot: 100%x2 ATK of scatter shot Physical
+      DMG.</color>"
+    icon: Skill_Kiana_FX_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "301"
+        name: Aerolite Burst
+        info: "Scatter shots deal additional #1[f1]% ATK of Physical DMG to enemies in
+          close range and recover a small amount of SP."
+        brief: Scatter shots deal additional Physical DMG to enemies in close range and
+          recover SP.
+        icon: Skill_Nagative_Control03
+        maxLv: 30
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01379
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "302"
+        name: Comet Flechette
+        info: "Turns the first 3 shots into scatter shots, dealing #1[f1]% ATK of AOE
+          Physical DMG. Damage dealt decreases with increasing distance from
+          target."
+        brief: Turns the first 3 Basic ATK shots into scatter shots. Damage dealt
+          decreases with increasing distance from target.
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 0.85
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00517
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "32"
+    name: "<color=#FFC741FF>Combo</color>: Gunstorm"
+    info: "Unleashes a spinning gun kata after 3 consecutive
+      shots.\\n<color=#23B2E2FF>Spinning Kata: 8x28% ATK of AOE Physical
+      DMG.</color>"
+    icon: Skill_Kiana_YN_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "303"
+        name: Gemini Vortex
+        info: "During Combo ATK, mash the [ATK] button to unleash up to #1[i] more Combo
+          ATKs."
+        brief: During Combo ATKs, tapping the [ATK] button unleashes more Combo ATKs.
+        icon: Skill_Nagative_Damage02
+        maxLv: 15
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.21429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "304"
+        name: Planetary Spin
+        info: "Gunstorm deals additional #1[f1]% ATK of Physical DMG to enemies in close
+          range. Triggers 4 times each round."
+        brief: Combo ATKs deal additional Physical DMG to enemies in close range.
+        icon: Skill_Nagative_Damage03
+        maxLv: 28
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00741
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "305"
+        name: "<color=#FFC741FF>Switch</color>: Nova Cyclone"
+        info: "Switch entry unleashes a powerful Gunstorm flurry. Switch entry and QTE
+          attacks against enemies knocked airborne gain #1[f1]% Total DMG
+          Multiplier."
+        brief: Switch entry unleashes a Gunstorm, Switch Skills and QTE gain DMG against
+          airborne enemies.
+        icon: Skill_Nagative_StartUp01
+        maxLv: 75
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00405
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "33"
+    name: Time Fracture
+    info: "Quickly cartwheels away to evade enemy attacks. Can be performed twice in
+      a row.\\n<color=#23B2E2FF>Time Fracture: Triggers upon a 3s Ultimate
+      Evasion; CD: 20s.\\nTime Distortion: Valkyrie's Move Speed is
+      significantly enhanced during Time Fracture triggered by her own
+      evasion.</color>"
+    icon: Skill_Kiana_PT_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "306"
+        name: Temporal Boom
+        info: "Time Fracture can be triggered by a non-ultimate evasion, but the
+          duration is shortened to #1[f1]s. The duration of Time Fracture
+          triggered by an Ultimate Evasion is extended by #1[f1]s."
+        brief: Time Fracture with a shortened duration can be triggered by a
+          non-ultimate evasion.
+        icon: Skill_Nagative_Control01
+        maxLv: 24
+        paramBase1: 1.2
+        paramBase2: 0.5
+        paramBase3: 0
+        paramAdd1: 0.07826
+        paramAdd2: 0.06522
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "307"
+        name: Time Bender
+        info: "Ultimate Evasion's effects can be triggered for #1[i] more time(s). CD is
+          decreased by #2[f1]s."
+        brief: Ultimate Evasion can be triggered 1 more time. CD is decreased.
+        icon: Skill_Nagative_Control02
+        maxLv: 5
+        paramBase1: 1
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.45
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "308"
+        name: Nebula Core
+        info: "For every enemy affected by Time Slow, character attacks gain #1[f1]%
+          Physical DMG. Max stacks: #2[i]."
+        brief: Enemies affected by Time Slow can increase Physical DMG of the character.
+        icon: Skill_Nagative_Damage03
+        maxLv: 45
+        paramBase1: 0.02
+        paramBase2: 5
+        paramBase3: 0
+        paramAdd1: 0.00068
+        paramAdd2: 0.11364
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "34"
+    name: Gungnir Execution
+    info: "Leaps into the air and summons the Valkyrie heavy cannon to annihilate
+      the enemy.\\n<color=#23B2E2FF>Scientific Cannon: Up to 2500% ATK of
+      Physical DMG.\\nSP Cost: 100</color>"
+    icon: Skill_Kiana_YN_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "309"
+        name: Aftermath
+        info: "Triggers a #1[f1]s Time Fracture at the end of the Ultimate."
+        brief: Triggers Time Fracture at the end of the Ultimate.
+        icon: Skill_Nagative_Damage01
+        maxLv: 25
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.125
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "310"
+        name: Energy Burst
+        info: "Final hit of Ultimate consumes all remaining SP to additionally deal
+          #1[f1]% ATK of Physical DMG times the amount of SP consumed."
+        brief: Ultimate consumes all remaining SP and deals additional Physical DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 50
+        paramBase1: 0.16
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00204
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "313"
+        name: "<color=#FFC741FF>QTE</color>: S.W.O.L."
+        info: "QTE: Triggers when an enemy is knocked airborne, dealing up to 50x#1[f1]%
+          ATK of Physical DMG."
+        brief: "QTE: Triggered when an enemy is knocked airborne to throw multiple Flash
+          Bombs toward enemies."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 60
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00339
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "35"
+    name: Nebula Spectra
+    info: "Leader Bonus: <color=#23B2E2FF>Nebula Spectra: {{Team gains #1[i]% Crit
+      DMG. Teams with 3 BIO-type characters gain #2[i]% to Total DMG
+      Multiplier.}}</color>"
+    icon: Skill_Kiana_PT_005
+    skillType: leader
+    tags: []
+    paramSubId1: 311
+    paramSubId2: 311
+    paramSubId3: 0
+    subSkills:
+      - id: "311"
+        name: Nebula Spectra
+        info: "Team gains #1[i]% Crit DMG. Teams with 3 BIO-type characters gain #2[i]%
+          to Total DMG Multiplier."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Control02
+        maxLv: 2
+        paramBase1: 0.35
+        paramBase2: 0.23
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "36"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF></color>
+    icon: Skill_Kiana_PT_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "312"
+        name: Shock Resonance
+        info: "Attacks against stunned or paralyzed enemies gain #1[f1]% Physical and
+          Elemental DMG."
+        brief: Attacks against stunned / paralyzed enemies gain significant DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 0.8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02414
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "314"
+        name: Drizzle of Light
+        info: "When Combo Hit Count exceeds 20/50/100, gain #1[f2]%/#2[f2]%/#3[f2]% Crit
+          Rate respectively."
+        brief: Higher Crit Rate with higher Combo Hit Count.
+        icon: Skill_Nagative_Damage03
+        maxLv: 25
+        paramBase1: 0.02
+        paramBase2: 0.04
+        paramBase3: 0.06
+        paramAdd1: 0.00125
+        paramAdd2: 0.0025
+        paramAdd3: 0.00375
+        tags: []
+        toggle: false
+        unlockStar: ss

@@ -1,0 +1,318 @@
+id: "112"
+fullName: Klein
+icon: Elf_12
+cardIcon: Elf_10012
+chibiIcon: Elf_10012
+figureImage: Elf_10012
+rarity: 4
+cardId: 380112
+fragmentId: 370112
+storyDesc: Description
+ultSkillCd: 45
+ultSkillCost: 75
+skillBg: TalentBg12
+tags:
+  - type: lightning-dmg
+    comment: null
+  - type: paralyze
+    comment: null
+captainSkillIds:
+  - "13003"
+  - "130032"
+  - "130033"
+skills:
+  - id: "13001"
+    elfId: "112"
+    name: A New Request?
+    info: "ELF has two forms of Basic ATK:\\nBasic ATK 1: Launch syringes to deal
+      5x120% ATK of Lightning DMG.\\nBasic ATK 2: Unleash biochemical lightning
+      to deal 3x200% ATK of Lightning DMG."
+    skillType: Basic
+    skillTypeId: "1"
+    icon: Skill_Elf_QTE
+    row: 1
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "13002"
+    elfId: "112"
+    name: Quick Sleep Helper
+    info: Take out a massive syringe and smash it at enemies to trigger a toxic
+      explosion and deal 1800% ATK of Lightning DMG. The syringe then stays on
+      the field and spread toxin to deal 7x300% ATK of Lightning DMG. Casting
+      Ultimate reduces character switch CD by 8s. The 1st hit makes enemies take
+      <color=#ff9900>#1[f1]%</color> bonus Lightning DMG for 15s. Ultimate
+      inflicts Fatigue on enemies hit for 8s and each stack deals 20% ATK of
+      Lightning DMG per second. Triggering it again resets the duration. 5
+      stacks max.
+    skillType: Ultimate
+    skillTypeId: "0"
+    icon: Skill_Elf_Ultra
+    row: 2
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "13003"
+    elfId: "112"
+    name: Still Got Work to Do
+    info: <color=#23b2e2>[Lineup]</color> ELF deals 25% bonus Lightning DMG when the
+      team leader is a Lightning DMG dealer.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Team_UP
+    row: 3
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "13004"
+    elfId: "112"
+    name: Did I Fall Asleep?
+    info: "Valkyries dealing Combo ATK DMG adds 1 to the count for up to once per
+      second. When the count reaches 3, ELF performs a Joint ATK, clears the
+      count, and launches multiple syringes at the target, dealing 10x80% ATK of
+      Lightning DMG. CD: 20s. The count cannot exceed 2 during CD and starts at
+      2 when the battle begins."
+    skillType: Team
+    skillTypeId: "3"
+    icon: Skill_Elf_Talent_Force
+    row: 4
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "130011"
+    elfId: "112"
+    name: Sure, No Problem
+    info: Each hit of Basic ATK has a <color=#ff9900>#1[f1]%</color> chance to
+      inflict one stack of Fatigue on enemies. The chance is doubled on enemies
+      not yet inflicted.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Spirit
+    row: 1
+    col: 2
+    unlockStar: 2
+    maxLv: 4
+    paramBase1: 0.25
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.083333
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "130012"
+    elfId: "112"
+    name: Just Put It There
+    info: ELF restores <color=#ff9900>#1[f1]</color> SP per second in battle.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Initial_UP
+    row: 1
+    col: 3
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 1.6
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.125
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "130013"
+    elfId: "112"
+    name: I'll Finish It on Time
+    info: ELF's Basic ATKs deal <color=#ff9900>#1[f1]%</color> bonus Lightning DMG
+      to enemies with Fatigue.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Ultra
+    row: 1
+    col: 4
+    unlockStar: 4
+    maxLv: 3
+    paramBase1: 0.15
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.075
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "130021"
+    elfId: "112"
+    name: Puts You to Sleep Instantly
+    info: "The 1st hit inflicts #1[f1] Paralyze Trauma."
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Passive
+    row: 2
+    col: 2
+    unlockStar: 2
+    maxLv: 3
+    paramBase1: 3
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 1.5
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "130022"
+    elfId: "112"
+    name: Never Gonna Wake Up Again
+    info: ELF Ultimate makes enemies take <color=#ff9900>#1[f1]%</color> bonus
+      Lightning DMG instead.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 2
+    col: 3
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.12
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0075
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "130023"
+    elfId: "112"
+    name: Hmm, Very Helpful
+    info: ELF Ultimate deals <color=#ff9900>#1[f1]%</color> bonus Total DMG. Casting
+      Ultimate triggers the QTE of all Lightning DMG dealers on the team.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Status
+    row: 2
+    col: 4
+    unlockStar: 4
+    maxLv: 4
+    paramBase1: 0.2
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.066667
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "130031"
+    elfId: "112"
+    name: Have to Get Myself Together
+    info: ELF's initial SP increases by <color=#ff9900>#1[f1]</color>.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 3
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 30
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 5
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "130032"
+    elfId: "112"
+    name: Can't Fall Asleep
+    info: <color=#23b2e2>[Lineup]</color> Lightning DMG dealers on the team deal
+      <color=#ff9900>#1[f1]%</color> bonus Lightning DMG to paralyzed or
+      fatigued enemies.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 3
+    col: 3
+    unlockStar: 4
+    maxLv: 4
+    paramBase1: 0.03
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.01
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "130033"
+    elfId: "112"
+    name: Can't... Sleep...
+    info: <color=#23b2e2>[Lineup]</color> Every Lightning DMG dealer on the team
+      reduces ELF's Ultimate CD by <color=#ff9900>#1[f1]%</color>.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_CD_Down
+    row: 3
+    col: 4
+    unlockStar: 4
+    maxLv: 4
+    paramBase1: 0.04
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.013333
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "130041"
+    elfId: "112"
+    name: What Time Is It Now?
+    info: Joint ATKs can inflict Fatigue.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Spirit
+    row: 4
+    col: 2
+    unlockStar: 2
+    maxLv: 1
+    paramBase1: 1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "130042"
+    elfId: "112"
+    name: Oh No... I'm Done!
+    info: ELF Joint ATKs boost team Total DMG by <color=#ff9900>#1[f1]%</color> for
+      12s.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 4
+    col: 3
+    unlockStar: 7
+    maxLv: 3
+    paramBase1: 0.02
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.015
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "130043"
+    elfId: "112"
+    name: Another Sleepless Night
+    info: Joint ATK CD is reduced to <color=#ff9900>#1[f1]</color>s.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_CD_Down
+    row: 4
+    col: 4
+    unlockStar: 7
+    maxLv: 3
+    paramBase1: 18
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: -1.5
+    paramAdd2: 0
+    paramAdd3: 0

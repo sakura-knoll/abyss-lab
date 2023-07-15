@@ -1,0 +1,349 @@
+id: "304"
+fullName: Dimension Breaker
+shortName: Dimension Breaker
+desc: "<color=white>Features: </color><color=#2CE3FFFF>MECH-type</color> ranged
+  battlesuit with loads of SP. Can unleash Project Bunny to perform autonomous
+  attacks."
+firstName: Bronya
+lastName: Zaychik
+enFirstName: null
+enLastName: null
+attributeType: mech
+isEasterner: false
+weapon: cannon
+character: bronya
+initialStar: s
+tags:
+  - physical-dmg
+  - burst
+  - paralyze
+  - bleed
+  - time-mastery
+skills:
+  - id: "121"
+    name: "<color=#FFC741FF>Charge</color>: Particle Cannon"
+    info: "Charged Cannon ATK. Deals greater DMG at higher charge
+      sequence.\\n<color=#23B2E2FF>Arm Switch: Changes the way of charging based
+      on the weapon equipped.\\n\\nPerfect Cooling: A CD circle will appear when
+      laser weapons overheat. Tap [ATK] right before the circle shrinks to its
+      smallest size to instantly reset the CD and greatly accelerate ATK Speed
+      for a short duration.\\nWithin a short duration after activating Perfect
+      Cooling, hitting a target with a laser will inflict a 4s Time Slow on the
+      target and nearby enemies.</color>"
+    icon: Skill_Bronya_ZP_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1201"
+        name: Dimension Ignite
+        info: "Each laser beam attack of Basic ATK and Ultimate additionally deals
+          #1[i]% ATK of Fire DMG. Rapid-fire weapon attacks at the 3rd charge
+          sequence deal double bonus Fire DMG."
+        brief: Laser ATKs gain Fire DMG. Gain double bonus Fire DMG at the 3rd charge
+          sequence.
+        icon: Skill_Nagative_Damage01
+        maxLv: 79
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00192
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1202"
+        name: Energy Absorb
+        info: "Reduces overheat time for rapid-fire weapons by #1[f1]%."
+        brief: Reduces overheat time for laser weapons.
+        icon: Skill_Nagative_Damage02
+        maxLv: 20
+        paramBase1: 0.21
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: ss
+  - id: "122"
+    name: "<color=#FFC741FF>Switch</color>: Dimension Pull"
+    info: "Switch skill immediately knocks target and all enemies in a small
+      surrounding area airborne and inflicts Time
+      Lock.\\n<color=#23B2E2FF>Dimension Razor: 100% ATK of Physical DMG and
+      inflicts Time Lock for 4s.</color>"
+    icon: Skill_Bronya_ZP_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1203"
+        name: Spacetime Cutter
+        info: "Hitting a Time-Slowed enemy increases Physical DMG and Elemental DMG by
+          #2[f1]% for 6s (triggering it again resets the duration). Enemies
+          Time-Locked by Dimension Pull receive <color=#FEDF4CFF>3 Bleed
+          Trauma</color>."
+        brief: Hitting a Time-Slowed enemy increases Physical DMG and Elemental DMG.
+          Enemies affected by Switch Skill receive 3 Bleed Trauma.
+        icon: Skill_Nagative_StartUp01
+        maxLv: 75
+        paramBase1: 9
+        paramBase2: 0.06
+        paramBase3: 0
+        paramAdd1: 3.22973
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "Inflicts Bleed Trauma; Trauma charge rate: weak."
+        toggle: false
+        unlockStar: s
+      - id: "1204"
+        name: Dimension Edge
+        info: "Extends the range of Dimension Pull by #1[f1] times and its duration by
+          #2[f1]s."
+        brief: Extends the Switch AOE and duration.
+        icon: Skill_Nagative_StartUp02
+        maxLv: 30
+        paramBase1: 0.5
+        paramBase2: 0.5
+        paramBase3: 0
+        paramAdd1: 0.08621
+        paramAdd2: 0.08621
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1205"
+        name: "<color=#FFC741FF>QTE</color>: Complex Infinity"
+        info: "QTE: Triggers when an enemy is paralyzed, dealing 10x#1[f1]% ATK of Fire
+          DMG against enemies within a large AOE. Knocks affected enemies
+          airborne and inflicts Time Lock on them."
+        brief: "QTE: Triggered when an enemy is paralyzed to deal Fire DMG to enemies in
+          a large area, knock them airborne, and inflict Time Lock."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 25
+        paramBase1: 0.4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0125
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "123"
+    name: Dimension Reduction
+    info: "Raise the shield to defend frontal
+      attacks.\\n<color=#23B2E2FF>Counterstrike: Release the Defense button at
+      the moment of the attack to perform.\\nPerfect Defense: Counterstrike
+      knocks enemies nearby airborne, Time-Locks them for 5s, inflicts</color>
+      <color=#FEDF4CFF>5 Paralyze Trauma</color><color=#23B2E2FF>, and increases
+      the Valkyrie's ATK Speed by 30% for 3s. Perfect Defense base CD:
+      15s.</color>"
+    icon: Skill_Bronya_BQ_003
+    skillType: evasion
+    tags:
+      - type: paralyze
+        strength: 1
+        comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+          charge rate: weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1206"
+        name: Reflexive Guard
+        info: "Frontal defense deals #1[f1]% ATK of Physical DMG against the attacker.
+          Can be triggered once every 0.5s. Gains #2[f1]% Crit Rate for 6.0s
+          during Ultimate Defense."
+        brief: Frontal defense deals Physical DMG to the attacker. Increases Crit Rate
+          for a short period during Ultimate Defense.
+        icon: Skill_Nagative_Damage01
+        maxLv: 30
+        paramBase1: 0.1
+        paramBase2: 0.01
+        paramBase3: 0
+        paramAdd1: 0.01379
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1207"
+        name: Absorptive Armor
+        info: "When attacked, spend 3 SP to trigger Project Bunny Block, preventing
+          interruption and gaining #1[i]% Total DMG Reduction. Effect does not
+          trigger at 0 SP."
+        brief: When attacked, consume SP to trigger Project Bunny Block, preventing
+          interruption and gaining DMG Reduction.
+        icon: Skill_Nagative_Survive02
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01111
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "1214"
+        name: Mech Propulsion
+        info: "Gain #1[i]% Move Speed when defending with a shield."
+        brief: Significantly increases Move Speed when defending with a shield.
+        icon: Skill_Nagative_Survive03
+        maxLv: 20
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05263
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "124"
+    name: Project Bunny
+    info: "Project Bunny activates autonomous attack
+      protocols.\\n<color=#23B2E2FF>Mech Frenzy: Consumes 100 SP to enter a 10s
+      Burst mode, during which Project Bunny (summoned entity) is invincible and
+      draws enemies towards it.\\nSurplus Energy: Turns own attacks into laser
+      attacks.\\nHeat Reset: Heat meters of laser-type weapons will be reset
+      upon burst mode activation.</color>"
+    icon: Skill_Bronya_BX_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 3
+        comment: "Ultimate activation is Heavy ATK; Trauma charge: strong."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1208"
+        name: S2 Cell
+        info: "Extends the duration of Project Bunny's detachment to #1[f1]s."
+        brief: Extends the duration of Ultimate.
+        icon: Skill_Nagative_Skill03
+        maxLv: 30
+        paramBase1: 10.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "1209"
+        name: Self Destruct
+        info: "Project Bunny explodes at the end of the duration, dealing #1[i]% ATK of
+          AOE Physical DMG."
+        brief: Project Bunny explodes when Ultimate ends, dealing AOE Physical DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.10345
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1210"
+        name: Anti-Matter Core
+        info: "When Project Bunny is unleashed, character laser attacks gain #3[i]%
+          Physical and Elemental DMG. For every point of SP above 110, further
+          increase the DMG bonus by #1[f1]%. Max stacks: #2[i]."
+        brief: When SP is above 110, character laser attacks gain DMG during the
+          Ultimate.
+        icon: Skill_Nagative_Damage03
+        maxLv: 25
+        paramBase1: 0.003
+        paramBase2: 50
+        paramBase3: 0.1
+        paramAdd1: 0.00013
+        paramAdd2: 6.25
+        paramAdd3: 0.00417
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "125"
+    name: Metal Gear
+    info: "Leader Bonus: <color=#23B2E2FF>Metal Gear: {{Increases attack SP recovery
+      by #1[i]% for the team. Teams with 3 MECH-type characters gain #2[i]%
+      Total DMG Multiplier.}}</color>"
+    icon: Skill_Bronya_ZP_005
+    skillType: leader
+    tags: []
+    paramSubId1: 1211
+    paramSubId2: 1211
+    paramSubId3: 0
+    subSkills:
+      - id: "1211"
+        name: Metal Gear
+        info: "Accelerates Attack SP Recovery of team by #1[i]%. Teams with 3 MECH-type
+          characters gain #2[i]% Total DMG Multiplier."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Damage02
+        maxLv: 2
+        paramBase1: 0.27
+        paramBase2: 0.23
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "1212"
+        name: Fusion
+        info: "Increases own Crit DMG by #1[f1]% when Kiana and Mei are on the team."
+        brief: Increases own Crit DMG when Kiana and Mei are on the team.
+        icon: Skill_Nagative_Damage03
+        maxLv: 12
+        paramBase1: 0.08
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "126"
+    name: Passive
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E2FF>Planes Walker:
+      Becomes a Planes Walker after moving for 2s and significantly gains Move
+      Speed.</color>"
+    icon: Skill_Bronya_ZP_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1213"
+        name: Dark Matter Furnace
+        info: "When on standby, the Valkyrie restores 2 SP every #1[f1]s."
+        brief: Character slowly recovers SP when not on the field.
+        icon: Skill_Nagative_Skill02
+        maxLv: 20
+        paramBase1: 10
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: -0.26316
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss

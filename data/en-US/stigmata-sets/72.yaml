@@ -1,0 +1,44 @@
+id: "72"
+name: Critic set
+desc: null
+skills:
+  - id: "4112"
+    name: Blue Phoenix
+    info: "Attacks create a Blue Phoenix field that lasts for #1[i]s (cannot stack).
+      CD: 9s. Allies within the field gain #2[i]% Elemental DMG, while enemies
+      within take #3[i]% bonus Elemental DMG."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: fire-dmg
+        comment: null
+      - type: ice-dmg
+        comment: null
+      - type: lightning-dmg
+        comment: null
+    param1: 6
+    param1Add: 0
+    param2: 0.3
+    param2Add: 0
+    param3: 0.1
+    param3Add: 0
+  - id: "4113"
+    name: Cathartic Aura
+    info: "Extends the duration of the Blue Phoenix field by #1[i]s. Allies within
+      the field receive Ice Protection. When damage taken is less than #2[i] x
+      Valkyrie's Level, host will only take damage and not be interrupted."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags: []
+    param1: 3
+    param1Add: 0
+    param2: 10
+    param2Add: 0
+    param3: 0
+    param3Add: 0
+stigmaIdList:
+  - "110721"
+  - "110722"
+  - "110723"

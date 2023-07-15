@@ -1,0 +1,399 @@
+id: "611"
+fullName: Azure Empyrea
+shortName: Azure Empyrea
+desc: <color=white>Features:</color> <color=#FF66CCFF>PSY-type</color>
+  <color=#FF66CCFF>Awakened</color> battlesuit. Capable of unleashing various
+  powerful Elemental combos.
+firstName: Hua
+lastName: Fu
+enFirstName: null
+enLastName: null
+attributeType: psy
+isEasterner: true
+weapon: fists
+character: fuhua
+initialStar: s
+tags:
+  - fire-dmg
+  - ignite
+  - time-mastery
+  - gather
+skills:
+  - id: "511"
+    name: Yin and Yang
+    info: "Tap the [ULT] or [ATK] button to attack enemies and gain Yin or
+      Yang.\\n<color=#23B2E2FF>The first 3 sequences: Each sequence deals 170%
+      ATK of Fire DMG.\\n4th sequence: Deals 200% ATK of Fire DMG.\\nTap
+      [ATK]/[ULT] to unleash Solar Focus or Lunar Essence. The sum of Yin and
+      Yang cannot not exceed 3; once this limit has been reached, Solar Focus or
+      Lunar Essence can no longer be unleashed.</color>"
+    icon: Skill_Fuka_IN_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5101"
+        name: Unbroken Fire
+        info: "ATK Speed increases by #3[f1]%. The last hit of Basic ATK SEQ 4 deals
+          #1[f1]% ATK of bonus Fire DMG and inflicts <color=#FEDF4CFF>6 Ignite
+          Trauma</color>."
+        brief: ATK Speed increases. Basic ATK SEQ 4 deals bonus DMG and inflicts Ignite
+          Trauma.
+        icon: Skill_Nagative_Damage01
+        maxLv: 61
+        paramBase1: 0.9
+        paramBase2: 40
+        paramBase3: 0.05
+        paramAdd1: 0.005
+        paramAdd2: 0.66667
+        paramAdd3: 0.00167
+        tags:
+          - type: ignite
+            strength: 2
+            comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+              charge rate: medium."
+        toggle: false
+        unlockStar: s
+      - id: "5102"
+        name: "<color=#FFC741FF>QTE</color>: Radiant Entry"
+        info: "QTE: Triggers when an enemy is affected by Time Slow. Deals
+          5x#1[f1]%+#2[f1]% ATK of Fire DMG, then unleashes Lunar Essence 3
+          times."
+        brief: "QTE: Triggered when an enemy is affected by Time Slow to deal Fire DMG.
+          Tap [ATK] or [ULT] to unleash follow-up attacks."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 8
+        paramBase1: 0.6
+        paramBase2: 2.5
+        paramBase3: 0
+        paramAdd1: 0.05714
+        paramAdd2: 0.28571
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "5103"
+        name: Hex of Unyielding
+        info: "The first 3 sequences of Basic ATK grant Ignore Interrupt and #1[f1]%
+          Total DMG Reduction; while unleashing the 4th sequence, character
+          gains Iron Body and 80% Total DMG Reduction."
+        brief: While unleashing Basic ATKs, character gains Ignore Interrupt and take
+          less DMG.
+        icon: Skill_Nagative_Survive01
+        maxLv: 8
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02143
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "512"
+    name: "<color=#FFC741FF>Combo</color>: Yin-Yang Tempo"
+    info: "When the sum of Yin and Yang reaches 3, hold [ATK] to unleash various
+      Combo ATKs based on the numbers of Yin and Yang.\\n<color=#23B2E2FF>3
+      Yang: Unleashes Senpo: Emperyan Fir, dealing 900% ATK of Fire DMG and
+      additionally restores 4 SP upon hit.\\n2 Yin + 1 Yang / 1 Yin + 2 Yang:
+      Unleashes Senpo: Snaring Flame, dealing 600% ATK of Fire DMG and pulling
+      in enemies and immobilizing them for 3s; if this combo hits any target,
+      all Valkyries on the battlefield restore 1 SP per second for 15s.\\n3 Yin:
+      Unleashes Senpo: Magma Melt, dealing 600% ATK of Fire DMG and boosting the
+      team's All Elemental DMG against the target hit by this combo by 30% for
+      15s.</color>"
+    icon: Skill_Fuka_IN_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5104"
+        name: Hex of Crucibles
+        info: "Combo ATK hit makes the target take #1[f1]% more Fire DMG for 15s."
+        brief: Combo ATK hit inflicts Elemental DMG vulnerability on the target.
+        icon: Skill_Nagative_Skill03
+        maxLv: 8
+        paramBase1: 0.2
+        paramBase2: 15
+        paramBase3: 0
+        paramAdd1: 0.02143
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5105"
+        name: Hex of Mending
+        info: "Combo ATK hit heals all team members for #2[i] HP; CD: 3s."
+        brief: Combo ATK hit heals all team members.
+        icon: Skill_Nagative_Survive02
+        maxLv: 51
+        paramBase1: 0
+        paramBase2: 30
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.6
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "5114"
+        name: Hex of Drowning
+        info: "Combo ATK hit makes the target take #1[f1]% more Ice DMG for 15s."
+        brief: Combo ATK hit inflicts Elemental DMG vulnerability on the target.
+        icon: Skill_Nagative_Skill01
+        maxLv: 8
+        paramBase1: 0.15
+        paramBase2: 15
+        paramBase3: 0
+        paramAdd1: 0.02143
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "513"
+    name: Taichi of Inertia
+    info: "Quickly dodge enemy attacks. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Within the first 1.2s after performing Ultimate
+      Evasion, Valkyrie gains Ignore Interrupt, 80% Total DMG Reduction, and can
+      directly perform the 4th sequence of Basic ATK (once only).\\nTime
+      Fracture: Ultimate Evasion triggers 3s of Time Fracture; CD:
+      15s.\\n\\nSpirit Shield: Valkyrie gains a barrier that blocks the next
+      incoming attack. Reset upon Ultimate Evasion.</color>"
+    icon: Skill_Fuka_IN_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5106"
+        name: Calculated Gust
+        info: "Shortens CD of Ultimate Evasion by #1[f2]s."
+        brief: Shortens CD of Ultimate Evasion.
+        icon: Skill_Nagative_Control02
+        maxLv: 8
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.28571
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5107"
+        name: Hex of Foresight
+        info: "When Spirit Shield exists, character deals #1[f1]% more Total DMG."
+        brief: Character deals more Total DMG with Spirit Shield on.
+        icon: Skill_Nagative_Survive03
+        maxLv: 4
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss1
+  - id: "514"
+    name: Empyrean Sunder
+    info: "Pulls in enemies and deal damage.\\n<color=#23B2E2FF>Immobilizes all
+      enemies for 11s and deals 1800% ATK of Fire DMG to them. Boosts the team's
+      Elemental DMG against enemies hit by this skill by 30% for 15s, during
+      which the deployed Valkyrie restores 1 SP per second, gains Ignore
+      Interrupt and 35% Total DMG Reduction, while all enemies' Ignore Interrupt
+      is lowered. The above effects do not stack with Combo ATK
+      effects.\\nActivation cost: 125 SP. CD: 5s.</color>"
+    icon: Skill_Fuka_IN_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5108"
+        name: Hex of Breaching
+        info: "When Azure Empyrea's Ultimate ends, all team members gain #1[f1]%
+          Elemental Breach for 15s."
+        brief: Team gains Elemental Breach after Azure Empyrea's Ultimate.
+        icon: Skill_Nagative_Skill03
+        maxLv: 8
+        paramBase1: 0.09
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5109"
+        name: Hex of Brilliance
+        info: "Within 15s after Azure Empyrea's Ultimate ends, all team members
+          additionally deal #1[f1]% ATK of Fire DMG when attack. This effect can
+          only apply once per second against each target."
+        brief: Team additionally deals Fire DMG after Azure Empyrea's Ultimate.
+        icon: Skill_Nagative_Damage03
+        maxLv: 21
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0125
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "5115"
+        name: Hex of Enervation
+        info: "Enemies hit by Azure Empyrea's Ultimate suffer the vulnerability debuffs
+          inflicted by Hex of Crucibles and Hex of Drowning and takes #1[f1]%
+          more Lightning DMG 15s."
+        brief: Ultimate inflicts Elemental DMG vulnerability on the target.
+        icon: Skill_Nagative_Survive01
+        maxLv: 8
+        paramBase1: 0.15
+        paramBase2: 15
+        paramBase3: 0
+        paramAdd1: 0.02143
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "515"
+    name: Hex of Exposure
+    info: "Leader Bonus: <color=#23B2E2FF>Hex of Exposure: {{All team members gain
+      #1[i]% Total DMG for #3[f1]s after entry. If the team consists of members
+      of 3 different types, all team members gain #2[i]% Total DMG.}}</color>"
+    icon: Skill_Fuka_IN_005
+    skillType: leader
+    tags: []
+    paramSubId1: 5112
+    paramSubId2: 5112
+    paramSubId3: 5112
+    subSkills:
+      - id: "5112"
+        name: Hex of Exposure
+        info: "All team members gain #1[i]% Total DMG for #3[f1]s after entry. If the
+          team consists of members of 3 different types, all team members gain
+          #2[i]% Total DMG."
+        brief: Enhances Leader Bonus.
+        icon: Skill_Nagative_Damage01
+        maxLv: 2
+        paramBase1: 0.16
+        paramBase2: 0.23
+        paramBase3: 15
+        paramAdd1: 0.02
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+      - id: "5116"
+        name: Hex of Devastation
+        info: "The first four Combo ATKs restore 1/2/4/8 SP for Azure Empyrea and deal
+          #1[f1]% more Fire DMG. Casting Ultimate resets the counter."
+        brief: The first four Combo ATKs deal bonus damage and restore SP. Casting
+          Ultimate resets the counter.
+        icon: Skill_Nagative_StartUp02
+        maxLv: 2
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.35
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "5117"
+        name: Hex of Gale
+        info: "Azure Empyrea gains #1[f1]% Total DMG for #2[f1]s when her Basic ATK,
+          Combo ATK, weapon active or Ultimate lands. The effect stacks when
+          triggered by different types of attacks; the effect duration resets
+          when triggered by the same type of attack."
+        brief: When different types of attacks hit enemies, the damage buffs stack up.
+        icon: Skill_Nagative_Control03
+        maxLv: 1
+        paramBase1: 0.1
+        paramBase2: 20
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "516"
+    name: Passive Skill
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF></color>
+    icon: Skill_Fuka_IN_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5110"
+        name: Hex of Force
+        info: "For each Combo ATK performed, the Valkyrie gains #1[f1]% Total DMG for
+          40s (max stacks: 5). Triggering this effect again resets the
+          duration."
+        brief: Each Combo ATK unleashed boosts character's Total DMG; effect can stack
+          up to 5 times.
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 0.02
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00286
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5111"
+        name: Hex of Reburn
+        info: "If 2 consecutive Combo ATK moves released are the same Combo ATK, the
+          second one deals #1[f1]% more Fire DMG; if 2 consecutive Combo ATK
+          moves released are 2 different Combo ATK moves, the second one
+          restores #2[f1] SP for the character upon hit."
+        brief: Arrange the order in which Combo ATKs are performed to boost Combo ATK
+          DMG or restore SP for the character.
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 0.15
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.6
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5113"
+        name: Hex of Rebirth
+        info: "Auto-triggers before character dies (can be triggered 1 time per battle):
+          Fully heals the character and makes her invincible for 1s. If
+          triggered later than 30s after the battle starts, character
+          additionally restores #1[f1] SP."
+        brief: Can revive once each battle.
+        icon: Skill_Nagative_Survive01
+        maxLv: 6
+        paramBase1: 15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 3
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s1

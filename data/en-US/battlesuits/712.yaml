@@ -1,0 +1,396 @@
+id: "712"
+fullName: Stygian Nymph
+shortName: Stygian Nymph
+desc: "<color=white>Features: </color><color=#AE98FFFF>QUA-type</color> melee
+  battlesuit. Capable of switching between dual egos with different Ultimates
+  and QTE skills to adapt to a variety of combat situations."
+firstName: Seele
+lastName: Vollerei
+enFirstName: null
+enLastName: null
+attributeType: qua
+isEasterner: false
+weapon: scythe
+character: seele
+initialStar: s
+tags:
+  - physical-dmg
+  - heavy-atk
+  - time-mastery
+skills:
+  - id: "491"
+    name: Light and Dark
+    info: "Saule/Veliona basic ATK.\\n<color=#23B2E2FF>Saule:\\n1st Sequence:
+      80%+100% ATK of Physical DMG; restores 50 Saulian Ego upon hit.\\n2nd
+      Sequence: 120% ATK of Physical DMG; restores 50 Saulian Ego upon
+      hit.\\n3rd Sequence: 100%+2x60% ATK of Physical DMG; restores 50 Saulian
+      Ego upon hit.\\n4th Sequence: 80%+120% ATK of Physical DMG.\\n5th
+      Sequence: 3x150%+200% ATK of Physical DMG; restores 50 Saulian Ego upon
+      hit.\\nVeliona: \\n1st Sequence: 120% ATK of Physical DMG; restores 50
+      Veilian Id upon hit.\\n2nd Sequence: 2x100%+2x120% ATK of Physical DMG;
+      restores 50 Veilian Id upon hit.\\n3rd Sequence: 300% ATK of Physical DMG;
+      restores 50 Veilian Id upon hit.\\n4th Sequence: 3x150% ATK of Physical
+      DMG; restores 50 Veilian Id upon hit.\\nVeliona's tentacle attack
+      immobilizes enemies for 1s upon hit.</color>"
+    icon: Skill_Seele_C2_001
+    skillType: basic
+    tags:
+      - type: heavy-atk
+        strength: 1
+        comment: "Veliona's 3rd and 4th hits of Basic ATK are Heavy ATKs; Trauma charge:
+          weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4901"
+        name: Mark of Judgment
+        info: "Marked enemies take #1[f1]% bonus Physical DMG from character's Basic &
+          Charged ATK (independent effect)."
+        brief: Marked enemies take more DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4902"
+        name: Avenging Erinyes
+        info: "Grants Veliona Interrupt Resist and #1[f1]% Total DMG reduction."
+        brief: Veliona gains Ignore Interrupt and Total DMG reduction.
+        icon: Skill_Nagative_Skill01
+        maxLv: 21
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4903"
+        name: Might of Duality
+        info: "Gain #1[f1] SP per second in battle for 10s. This effect can proc once
+          every 10min in Open World."
+        brief: Gain SP upon entering the battlefield.
+        icon: Skill_Nagative_Survive02
+        maxLv: 5
+        paramBase1: 2.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.625
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "492"
+    name: "<color=#FFC741FF>Charged ATK</color>: Day and Night"
+    info: "Hold [ATK] during Basic ATK, evasion, or QTE to unleash Charged
+      ATK.\\n<color=#23B2E2FF>Saule: 2x150% ATK of Physical DMG. Consume 400
+      Saulian Ego when it maxes to inflict Sunnebrand upon hit and resonate with
+      the mark to deal 400% ATK of Physical AOE DMG.\\nVeliona: 2x50%+300% ATK
+      of Physical DMG and inflict Veilmark upon hit. Consume 400 Veilian Id when
+      it maxes to resonate with all Veilmarks, dealing 500% ATK of Physical
+      DMG.\\nWith full Saulian Ego or Veilian Id, tap [ATK] after the Basic ATK
+      sequence to auto perform Charged ATK.</color>"
+    icon: Skill_Seele_C2_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "Veliona's QTE is Heavy ATK; Trauma charge rate: Medium.\\nLast hit of
+          Veliona's Charged ATK is Heavy ATK; Trauma charge rate: Weak.
+          \\nCharged ATK with full Veilian Id is Heavy ATK; Trauma charge rate:
+          Medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4904"
+        name: Resonance Gain
+        info: "Resonated mark restores #1[f1] SP. CD: 1s."
+        brief: Resonated mark restores SP.
+        icon: Skill_Nagative_Damage03
+        maxLv: 15
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4905"
+        name: Spirit of Moirai
+        info: "Grants #1[f1]% bonus Crit Rate to damage dealt by resonated marks."
+        brief: Resonated mark boosts Crit Rate.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4906"
+        name: Spirit of Keres
+        info: "Grants #1[f1]% bonus Crit DMG to damage dealt by resonated marks."
+        brief: Resonated mark boosts Crit DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 41
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.005
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "493"
+    name: Flash of Eternity
+    info: "Quickly evades attacks. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Saule's Ultimate Evasion restores 100 Saulian Ego,
+      enabling Saule to pass through enemies and directly perform the 4th
+      sequence of her Basic ATK until the Evasion ends; Veliona's Ultimate
+      Evasion restores 100 Veilian Id, enabling Veliona to pass through enemies
+      when evading forward, and directly perform the 4th sequence of her Basic
+      ATK until the Evasion ends.\\nFlash of Eternity: Ultimate Evasion triggers
+      a 3s Global Time Fracture (CD: 15s). Flash of Eternity restores 400
+      Saulian Ego for Saule or 400 Veilian Id for Veliona.</color>"
+    icon: Skill_Seele_C2_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4907"
+        name: Lasting Ties
+        info: "When Flash of Eternity is not in CD, Saule's evasion and Veliona's
+          forward evasion can pass through enemies and proc Flash of Eternity.
+          Time Fracture triggered this way only lasts 2s. Evasion CD shortens by
+          #1[f1]s."
+        brief: Evade to pass through enemies and trigger Flash of Eternity.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "4908"
+        name: "<color=#FFC741FF>QTE</color>: Eros and Eris"
+        info: "QTE: Triggers when an enemy is Time Slowed or Weakened. Saule: Deals
+          #1[f1]% ATK of Physical DMG, restores 400 Saulian Ego and inflicts
+          Sunnebrand upon hit. Veliona: Deals #2[f1]% ATK of Physical DMG,
+          restores 400 Veilian Id and inflicts Veilmark upon hit."
+        brief: "QTE: Triggered when an enemy is weakened or Time-Slowed. Saule and
+          Veliona have different QTE skills."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 10
+        paramBase1: 3.5
+        paramBase2: 4.5
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0.5
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "494"
+    name: Chthonic Fury
+    info: "Saule transforms into Veliona or vice versa.\\n<color=#23B2E2FF>Inflicts
+      Quantum Implosion on QUA enemies.\\nCast by Saule: Briefly gathers and
+      immobilizes nearby enemies for 4s, dealing 1000%+7x100% ATK of Physical
+      DMG; awakens Veliona, restores 400 Veilian Id, and inflicts Veilmark on
+      enemies to replace Sunnebrand.\\nCast by Veliona: Deals 500%+2500% ATK of
+      Physical DMG; awakens Saule, restores 400 Saulian Ego, and inflicts
+      Sunnebrand on enemies to replace Veilmark.\\nCD: 25s. Can be activated at
+      any SP, but will consume all SP upon activation. For every SP consumed,
+      boosts Ultimate's Total DMG by 0.5% (75% max).</color>"
+    icon: Skill_Seele_C2_004_B
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 3
+        comment: "Last hit of Saule or Veliona's Ultimate is Heavy ATKs; Trauma charge:
+          strong.."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4910"
+        name: Claws of Nyx
+        info: "If unleashed by Saule: Awakens Veliona and gains #1[f1]% ATK Speed and
+          35% Move Speed; her Veilian Id's ATK regen doubles, and will fully
+          restore when the 4th sequence of Basic ATK hits a target. Duration:
+          12s."
+        brief: Saule will transform into Veliona upon unleashing Ultimate and gain
+          boosts for a while.
+        icon: Skill_Nagative_Damage02
+        maxLv: 15
+        paramBase1: 0.07
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00571
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4911"
+        name: Scythe of Hemera
+        info: "<size=14>If unleashed by Veliona: Awakens Saule and gains Ignore
+          Interrupt, #1[f1]% Physical DMG boost and 40% Physical DMG reduction;
+          her Saulian Ego's ATK regen doubles, and will fully restore when the
+          5th sequence of Basic ATK hits a target. The 5th sequence can be
+          performed directly after the 3rd sequence during this period.
+          Duration: 12s.</size>"
+        brief: Veliona will transform into Saule and gain boosts for a while upon
+          unleashing Ultimate.
+        icon: Skill_Nagative_Skill02
+        maxLv: 21
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4912"
+        name: Delayed Dusk
+        info: "Saule's Ultimate triggers a/an #1[f1]s Global Time Fracture."
+        brief: Saule's Ultimate triggers Global Time Fracture.
+        icon: Skill_Nagative_Survive03
+        maxLv: 5
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.25
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+  - id: "495"
+    name: Cursed Blessing
+    info: "Leader Bonus:\\n<color=#23B2E2FF>Cursed Blessing: {{Team gains #1[i]%
+      Crit Rate. If the team consists of members of 3 different types, the team
+      deals #2[i]% more Physical DMG.}} </color>"
+    icon: Skill_Seele_C2_005
+    skillType: leader
+    tags: []
+    paramSubId1: 4909
+    paramSubId2: 4909
+    paramSubId3: 0
+    subSkills:
+      - id: "4909"
+        name: Cursed Blessing
+        info: "Team gains #1[i]% Crit Rate. With 3 members of different types, team
+          gains #2[i]% Physical DMG."
+        brief: Team gains Crit Rate. If the team consists of members of 3 different
+          types, the team gains DMG boost.
+        icon: Skill_Nagative_Damage02
+        maxLv: 2
+        paramBase1: 0.15
+        paramBase2: 0.23
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+      - id: "4915"
+        name: Withered Blossom
+        info: Evasion skill has up to 2 charges.
+        brief: Evasion skill has up to 2 charges.
+        icon: Skill_Nagative_Skill03
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "4916"
+        name: Flawed Perfection
+        info: "Ultimate's cooldown is reduced by #1[f1]% (minimum cooldown: #2[f1]s)."
+        brief: Ultimate's cooldown is reduced.
+        icon: Skill_Nagative_Skill03
+        maxLv: 1
+        paramBase1: 0.5
+        paramBase2: 12.5
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "496"
+    name: Passive Skill
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF>Saulian Ego &
+      Veilian Id share a meter of 400 points; One waxes and the other
+      wanes.\nSunnebrand & Veilmark, each lasts for 20s.</color>
+    icon: Skill_Seele_C2_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4913"
+        name: Vulnerable Duality
+        info: "Saule: Each kill recovers 200 Saulian Ego.\\nVeliona: Grants #1[f1]%
+          bonus damage to shields."
+        brief: "Saule: Restores Saulian Ego upon defeating enemies.\\nVeliona: Deals
+          more DMG against shields."
+        icon: Skill_Nagative_Skill03
+        maxLv: 31
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4914"
+        name: Robust Ambiguity
+        info: "After consuming all Saulian Ego or Veilian Id, gains #1[f1]% Physical DMG
+          boost for 10s (can be reset)."
+        brief: Gains DMG boost after consuming all Saulian Ego or Veilian Id.
+        icon: Skill_Nagative_Skill03
+        maxLv: 11
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

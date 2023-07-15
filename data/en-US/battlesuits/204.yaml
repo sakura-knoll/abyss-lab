@@ -1,0 +1,364 @@
+id: "204"
+fullName: Lightning Empress
+shortName: Lightning Empress
+desc: "<color=white>Features: </color><color=#FF66CCFF>PSY-type</color> melee
+  battlesuit primarily using lightning skills. Can paralyze the enemy."
+firstName: Mei
+lastName: Raiden
+enFirstName: null
+enLastName: null
+attributeType: psy
+isEasterner: true
+weapon: katana
+character: mei
+initialStar: s
+tags:
+  - lightning-dmg
+  - paralyze
+skills:
+  - id: "81"
+    name: Gotamashiki
+    info: "Swift penta-slash inflicting minor Paralyze Trauma with a 2% chance of
+      paralyzing the target for 5s and inflicting 10 Paralyze
+      Trauma.\\n<color=#23B2E2FF>1st Sequence: 100% ATK of Physical DMG.\\n2nd
+      Sequence: 120% ATK of Physical DMG.\\n3rd Sequence: 75% ATK of Physical
+      DMG.\\n4th Sequence: 80% ATK of Physical DMG.\\n5th Sequence: 250% ATK of
+      AOE Physical DMG.</color>"
+    icon: Skill_Mei_CK_001
+    skillType: basic
+    tags:
+      - type: paralyze
+        strength: 2
+        comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+          charge rate: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "801"
+        name: Soul Razor
+        info: "<size=14>Basic ATKs have a #1[f1]% chance to render enemies conductive
+          for #3[f1]s, during which they take #2[f1]% bonus Lightning DMG. The
+          1st non-conductive enemy hit by the 5th sequence of Basic ATK will
+          definitely become conductive.</size>"
+        brief: Basic ATKs have a chance to render enemies conductive, which
+          significantly increases Lightning DMG against them.
+        icon: Skill_Nagative_Control01
+        maxLv: 65
+        paramBase1: 0.2
+        paramBase2: 0.4
+        paramBase3: 4
+        paramAdd1: 0.00313
+        paramAdd2: 0.00469
+        paramAdd3: 0.03125
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "802"
+        name: Thunder Edge
+        info: "Every Basic ATK sequence additionally deals #2[f1]% ATK of Lightning
+          DMG."
+        brief: Basic ATK deals Lightning DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 75
+        paramBase1: 0.2
+        paramBase2: 0.25
+        paramBase3: 0
+        paramAdd1: 0.0027
+        paramAdd2: 0.00203
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "814"
+        name: Relentless Slash EX
+        info: "Increases Attack Speed by #1[f1]% when Combo Hit Count exceeds 30."
+        brief: Gains Attack Speed when Combo Hit Count exceeds 30.
+        icon: Skill_Nagative_Damage03
+        maxLv: 28
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0037
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "82"
+    name: Gigavolt Spin
+    info: "Fulminating Zone.\\n<color=#23B2E2FF>Raiden Slash: 80%x4 ATK of Lightning
+      DMG.</color>"
+    icon: Skill_Mei_LD_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "803"
+        name: "<color=#FFC741FF>Switch</color>: Falling Thunder"
+        info: "Switch entry unleashes Falling Thunder, dealing #1[f1]% ATK of Lightning
+          DMG to surrounding enemies."
+        brief: Switch entry unleashes Falling Thunder, dealing Lightning DMG to nearby
+          enemies.
+        icon: Skill_Nagative_StartUp02
+        maxLv: 70
+        paramBase1: 0.8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02464
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "804"
+        name: Doppel Raiden
+        info: "Tap the [ATK] button after Ultimate Evasion to unleash Gigavolt Spin.
+          Gigavolt Spin can be triggered 1 more time to deal #1[f1]%x4 ATK of
+          Lightning DMG."
+        brief: Instantly trigger Gigavolt Spin after Ultimate Evasion. Gigavolt Spin can
+          be triggered 1 more time.
+        icon: Skill_Nagative_Damage01
+        maxLv: 25
+        paramBase1: 0.4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "805"
+        name: It Strikes Twice
+        info: "Gigavolt Spin can be triggered 1 more time (must unlock Doppel Raiden
+          first), dealing #1[f1]%x4 ATK of Lightning DMG."
+        brief: Gigavolt Spin can be triggered 1 more time.
+        icon: Skill_Nagative_Damage03
+        maxLv: 40
+        paramBase1: 0.4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01026
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "83"
+    name: Lightning Speed
+    info: "Quickly dash to evade enemy attacks. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Lightning Dodge: Triggered by Ultimate Evasion and
+      lasts 5s, during which the Valkyrie has much greater Ignore Interrupt and
+      takes 15% less Physical DMG.\\nAsura's Roar: Triggered by Ultimate Evasion
+      and lasts 5s, during which the Valkyrie takes 15% less Physical DMG and
+      80% less Lightning DMG (CD: 10s). Additionally, inflicts</color>
+      <color=#FEDF4CFF>3 Paralyze Trauma</color><color=#23B2E2FF>.</color>"
+    icon: Skill_Mei_LD_003
+    skillType: evasion
+    tags:
+      - type: paralyze
+        strength: 1
+        comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+          charge rate: weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "806"
+        name: Thunderclap
+        info: "Triggers a lightning field upon Ultimate Evasion, dealing #1[f1]% ATK of
+          Lightning DMG to enemies within it every 0.5s for #2[f1]s."
+        brief: Triggers a lightning field upon Ultimate Evasion, dealing continuous AOE
+          DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 30
+        paramBase1: 0.5
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.01207
+        paramAdd2: 0.06897
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "807"
+        name: Blinding Flash
+        info: "Paralyze Trauma triggered by Ultimate Evasion increases by #1[f1]."
+        brief: Ultimate Evasion triggers more Paralyze Trauma.
+        icon: Skill_Nagative_Control02
+        maxLv: 20
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.15789
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "84"
+    name: Dragon May Cry
+    info: "Unleashes the powers of Thor, damaging all enemies within a large
+      area.\\n<color=#23B2E2FF>Thor's Slash: Large AOE attack that deals 900%
+      ATK of Physical DMG and 900% ATK of Lightning DMG.\\nSP Cost: 125</color>"
+    icon: Skill_Mei_LD_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "808"
+        name: "SHIN: Ohka Fall"
+        info: "The last strike of the Ultimate deals #1[i] bonus Lightning DMG per Combo
+          Hit Count (limit: #2[i] hits)."
+        brief: The last strike of the Ultimate deals massive Lightning DMG based on
+          Combo Hit Count.
+        icon: Skill_Nagative_Damage02
+        maxLv: 50
+        paramBase1: 24
+        paramBase2: 40
+        paramBase3: 0
+        paramAdd1: 1.95918
+        paramAdd2: 1.22449
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "809"
+        name: I'm Mei
+        info: "The last hit inflicts <color=#FEDF4CFF>5 Paralyze Trauma</color> on all
+          enemies and increases Lightning DMG by #1[f2]% for 7s."
+        brief: The last hit inflicts Paralyze Trauma to all enemies and greatly
+          increases Lightning DMG temporarily.
+        icon: Skill_Nagative_Control01
+        maxLv: 20
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01053
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 1
+            comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+              charge rate: weak."
+        toggle: false
+        unlockStar: sss
+      - id: "813"
+        name: "<color=#FFC741FF>QTE</color>: Sakura Vortex"
+        info: "QTE: Triggers when an enemy is knocked airborne. Deals 6x#1[f1]% ATK of
+          Physical DMG + 6x#1[f1]% ATK of Lightning DMG against enemies within a
+          large AOE. Restores 10 SP for the Valkyrie."
+        brief: "QTE: Triggered when an enemy is knocked airborne to deal Physical DMG to
+          enemies in a large area."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 30
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00862
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "85"
+    name: Haunted Night
+    info: "Leader Bonus: <color=#23B2E2FF>Haunted Night: {{Battlesuits have #1[i]
+      bonus SP upon entrance. For a team of 3 PSY-type battlesuits, Valkyrie
+      attacks deal #2[i]% bonus Total DMG. In Open World, the starting SP bonus
+      can only be triggered once every 10min, and Valkyrie attacks deal 10%
+      bonus Total DMG instead.}}</color>"
+    icon: Skill_Mei_CK_005
+    skillType: leader
+    tags: []
+    paramSubId1: 810
+    paramSubId2: 810
+    paramSubId3: 0
+    subSkills:
+      - id: "810"
+        name: Haunted Night
+        info: "Team starts with #1[i] more initial SP in combat. A team formed by 3
+          PSY-type battlesuits gains #2[i]% Total DMG. In Open World, initial SP
+          bonus triggers once every 10 minutes, and the team gains 10% Total
+          DMG."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Survive02
+        maxLv: 2
+        paramBase1: 60
+        paramBase2: 0.23
+        paramBase3: 0
+        paramAdd1: 10
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "86"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF></color>
+    icon: Skill_Mei_CK_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "811"
+        name: Dragon's Aura
+        info: "Gains #1[f1]% to Total DMG Multiplier when attacking frozen and slowed
+          enemies."
+        brief: Gains Total DMG Multiplier when attacking frozen or move slowed enemies.
+        icon: Skill_Nagative_Damage02
+        maxLv: 60
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00847
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "812"
+        name: Thunder Cloud
+        info: "When hit, the Valkyrie has a #1[f1]% chance to inflict <color=#FEDF4CFF>3
+          Paralyze Trauma</color> on the attacker and nearby enemies."
+        brief: When hit, the Valkyrie may inflict Paralyze Trauma on the attacker and
+          nearby enemies.
+        icon: Skill_Nagative_Control01
+        maxLv: 15
+        paramBase1: 0.1
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: 0.00714
+        paramAdd2: 0.10714
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 1
+            comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+              charge rate: weak."
+        toggle: false
+        unlockStar: ss
+      - id: "815"
+        name: Sundered Shackles
+        info: "Combo ATK has a #1[f2]% chance to apply conductive debuff of Soul Razor
+          on the enemy."
+        brief: Combo ATKs have a chance to render enemies conductive.
+        icon: Skill_Nagative_Damage03
+        maxLv: 15
+        paramBase1: 0.04
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00286
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss

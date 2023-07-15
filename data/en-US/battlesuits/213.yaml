@@ -1,0 +1,358 @@
+id: "213"
+fullName: Flame Sakitama
+shortName: Flame Sakitama
+desc: "<color=white>Features: </color><color=#FFAF2CFF>BIO-type</color>
+  <color=#FFAF2CFF>Awakened</color> melee battlesuit that can deal massive
+  amounts of Fire DMG using well-timed special attacks."
+firstName: Sakura
+lastName: Yae
+enFirstName: null
+enLastName: null
+attributeType: bio
+isEasterner: true
+weapon: katana
+character: sakura
+initialStar: a
+tags:
+  - fire-dmg
+  - ignite
+  - time-mastery
+skills:
+  - id: "251"
+    name: Ryuka Blade
+    info: "Quick 5-sequence slash. Evading during the first 3 sequences will not
+      break the sequence.\\n<color=#23B2E2FF>SEQ 1 to 3: 100% + 100% + 150% ATK
+      of Physical DMG.\\nSEQ 4: 150% ATK of Physical DMG.\\nSEQ 5: 150% ATK of
+      Physical DMG.</color>\\n<color=#FFAF37FF>To trigger Basic ATK Follow-Up,
+      stop tapping [ATK] after SEQ 4, and tap [ATK] again when a flashing circle
+      appears on the Valkyrie.\\nBasic ATK Follow-Up: Deals 650% ATK of Fire DMG
+      and inflict </color><color=#FEDF4CFF>5 Ignite
+      Trauma</color><color=#23B2E2FF>.\\n</color>"
+    icon: Skill_Sakura_YS_001
+    skillType: basic
+    tags:
+      - type: ignite
+        strength: 1
+        comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+          charge rate: weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2504"
+        name: Imperial Tachi
+        info: "The first 4 sequences of Basic ATK gain #1[f1]% ATK Speed. The Valkyrie
+          gains 80% Total DMG Reduction and Ignore Interrupt while unleashing
+          the 4th sequence."
+        brief: First 4 sequences of Basic ATK gain Attack Speed. During the 4th
+          sequence, gain DMG reduction and Ignore Interrupt.
+        icon: Skill_Nagative_Damage01
+        maxLv: 40
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00513
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2513"
+        name: Transcendent Realms
+        info: "When Combo Hit Count reaches 30/50, each of the first 4 sequences of
+          Basic ATK additionally deals #1[f1]%/#2[f1]% ATK of Fire DMG, and the
+          Valkyrie gains Ignore Interrupt during Basic ATKs."
+        brief: When Combo Hit Counts reach 30 and 50, the first 4 sequences of Basic ATK
+          gain Fire DMG. Character also gains Ignore Interrupt during Basic ATK.
+        icon: Skill_Nagative_Survive02
+        maxLv: 10
+        paramBase1: 0.18
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.01333
+        paramAdd2: 0.02222
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2515"
+        name: Living Sword
+        info: "If basic follow-up attacks score a hit, character gains #1[f1] SP."
+        brief: If basic follow-up attacks score a hit, character recovers SP.
+        icon: Skill_Nagative_Skill03
+        maxLv: 6
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "252"
+    name: "<color=#FFC741FF>Combo</color>: Firewind"
+    info: "Leap up and slash enemies with both blades.\\n<color=#23B2E2FF>Combo
+      Slash: 150% ATK of Physical DMG.</color>\\n<color=#FFAF37FF>To trigger
+      Combo ATK Follow-Up, stop tapping [ATK] after Combo Slash, and tap [ATK]
+      again when a flashing circle appears on the Valkyrie.\\nCombo ATK
+      Follow-Up: Deals 220% ATK of Fire DMG and
+      inflicts</color><color=#FEDF4CFF>5 Ignite
+      Trauma</color><color=#23B2E2FF>.</color>"
+    icon: Skill_Sakura_YS_002
+    skillType: special
+    tags:
+      - type: ignite
+        strength: 1
+        comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+          charge rate: weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2506"
+        name: "<color=#FFC741FF>QTE</color>: Backfire"
+        info: "QTE: Triggers when an enemy is paralyzed. Deals #1[f1]% ATK x hit count
+          (tap [ATK] to increase hit count; max: 12) + 100% of Fire DMG."
+        brief: "QTE: Triggered when an enemy is paralyzed to unleash a flaming slash.
+          Tap [ATK] to slash repeatedly."
+        icon: Skill_Nagative_StartUp01
+        maxLv: 10
+        paramBase1: 0.23
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+      - id: "2507"
+        name: Asura
+        info: "Combo follow-up attacks increase Fire DMG by #1[i]% and Ice and Lightning
+          DMG by 10% for 15s."
+        brief: Enemies take more DMG when hit by Combo follow-up attacks.
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2510"
+        name: Crimson Sunset
+        info: "Switch entry triggers a #1[f1]s Time Fracture. CD: 32s. This effect can
+          only be activated 10s after the stage begins."
+        brief: Switch entry triggers Time Fracture.
+        icon: Skill_Nagative_Skill03
+        maxLv: 8
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.3
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "253"
+    name: Blazing Dance
+    info: "Quickly cartwheels away to evade enemy attacks. Can be performed twice in
+      a row.\\n<color=#23B2E2FF>Time Fracture: Triggers upon an Ultimate
+      Evasion, slowing all enemies for 4s. CD: 15s.</color>"
+    icon: Skill_Sakura_YS_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2505"
+        name: Hazy Moon
+        info: "Upon triggering an Ultimate Evasion, gains Ignore Interrupt and #1[f1]%
+          Total DMG for 4s."
+        brief: Upon triggering Ultimate Evasion, gain ignore Interrupt and take less DMG
+          for a while.
+        icon: Skill_Nagative_Survive03
+        maxLv: 10
+        paramBase1: 0.12
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2508"
+        name: Shokudai Kiri
+        info: "Shortens CD of Time Fracture triggered upon Ultimate Evasion by #1[f1]s."
+        brief: Shortens CD of Time Fracture.
+        icon: Skill_Nagative_Survive01
+        maxLv: 30
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.06897
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "254"
+    name: Yae's Inferno
+    info: "Attacks a random enemy multiple times and inflicts Time Lock to enemies
+      within a large AOE.\\n<color=#23B2E2FF>Guren Lotus: Attacks a random enemy
+      8 times, with each time dealing 200% ATK of Fire DMG.\\nKarmic Flame: 400%
+      ATK of Fire DMG to enemies in a large area and inflicts Time Slow for
+      4.5s.\\nBlazing Tempo: Empowers character with Iron Body and faster attack
+      for 9s. Follow-up attacks can be triggered without having to tap the [ATK]
+      button at the precise time.\\nSP cost: 125.</color>"
+    icon: Skill_Sakura_GW_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2509"
+        name: Phoenix Blade
+        info: "Basic follow-up ATK gains #1[i]% ATK of Fire DMG."
+        brief: Basic follow-up ATK gains DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 4
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "2511"
+        name: Surya's Burn
+        info: "Each hit of the Ultimate combo strike deals an additional #1[i]% ATK of
+          Fire DMG."
+        brief: Greatly enhances Ultimate DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 10
+        paramBase1: 1.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2512"
+        name: Red Cloud
+        info: "For 10s after casting Ultimate, character attacks gain #1[i]% Total DMG
+          Multiplier."
+        brief: After using Ultimate, gains Total DMG Multiplier.
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "255"
+    name: Eternal Cycle
+    info: "Leader Bonus: <color=#23B2E2FF>Eternal Cycle: {{Team gains #1[i]% DEF in
+      battle. BIO-type characters gain #2[i]% Max HP.}}</color>"
+    icon: Skill_Sakura_YS_005
+    skillType: leader
+    tags: []
+    paramSubId1: 2501
+    paramSubId2: 2501
+    paramSubId3: 0
+    subSkills:
+      - id: "2501"
+        name: Eternal Cycle
+        info: "Team gains #1[i]% DEF in battle. BIO-type characters gain #2[i]% Max HP."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Survive01
+        maxLv: 3
+        paramBase1: 0.3
+        paramBase2: 0.07
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "256"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF>After certain moves
+      (4th sequence of Basic ATK or Combo ATKs), tap [ATK] when a flashing
+      circle appears on the Valkyrie to trigger follow-up attacks, dealing
+      massive Fire DMG.</color>
+    icon: Skill_Sakura_YS_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2502"
+        name: Ancient Dream
+        info: "Ignores combo interruption once. Can be triggered once every #1[f1]s.
+          Applies for the whole team."
+        brief: Ignores combo interruption once every 30s.
+        icon: Skill_Nagative_Skill02
+        maxLv: 30
+        paramBase1: 60
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: -1.03448
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2503"
+        name: Artful Blade
+        info: "Basic follow-up attacks increase the Valkyrie's Zanshin by #1[i] upon
+          hitting a target. For every 200 Zanshin owned, gains 17% (stacks up to
+          68%) Total DMG. The Valkyrie loses 30 Zanshin per second on the
+          field."
+        brief: Basic follow-up attacks increase character's Zanshin. Character deals
+          higher DMG with higher Zanshin. Zanshin slowly decreases with time.
+        icon: Skill_Nagative_Damage03
+        maxLv: 28
+        paramBase1: 105
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "2514"
+        name: Aerial Kill
+        info: "Attacks against Time Slowed enemies gain #1[f1]% Physical and Elemental
+          DMG."
+        brief: Gains DMG against Time Slowed enemies.
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 0.12
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a

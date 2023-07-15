@@ -1,0 +1,42 @@
+id: "67"
+name: Frankenstein set
+desc: null
+skills:
+  - id: "4084"
+    name: Bioelectricity
+    info: "When enemies are nearby, release an electro discharge around self every
+      #1[i]s, dealing #2[i]% max HP of Lightning DMG to enemies in the AOE (at
+      15000 or higher max HP, treat HP as 15000) and store an Energy Mark."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: lightning-dmg
+        comment: null
+    param1: 4
+    param1Add: 0
+    param2: 0.4
+    param2Add: 0
+    param3: 0
+    param3Add: 0
+  - id: "4085"
+    name: Frankenstein
+    info: "When gaining 7 Energy Marks, enter Frankenstein Mode upon hitting an
+      enemy with a Basic ATK (including Charged and Combo ATKs). Frankenstein
+      Mode: The host gains #1[i]% Total DMG Multiplier and heals team for #2[i]%
+      HP/s for #3[i]s. Energy mark is reset to zero when Frankenstein Mode
+      ends."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags: []
+    param1: 0.4
+    param1Add: 0
+    param2: 0.02
+    param2Add: 0
+    param3: 10
+    param3Add: 0
+stigmaIdList:
+  - "110671"
+  - "110672"
+  - "110673"

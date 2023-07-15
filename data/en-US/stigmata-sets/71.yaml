@@ -1,0 +1,46 @@
+id: "71"
+name: Tenebrosi set
+desc: null
+skills:
+  - id: "4092"
+    name: Naturalism
+    info: "For each hit dealt by an entity summoned by the host (CD: 2s), team gains
+      #1[i]% Elemental DMG (unique effect). Stacks up to 4 times. At 4 stacks,
+      enter Natural State for 6s (effect no longer stacks at this state).
+      Natural State: Gain another #2[i]% Elemental DMG. All buffs are cleared
+      when Natural State ends."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: fire-dmg
+        comment: null
+      - type: ice-dmg
+        comment: null
+      - type: lightning-dmg
+        comment: null
+    param1: 0.05
+    param1Add: 0
+    param2: 0.2
+    param2Add: 0
+    param3: 0
+    param3Add: 0
+  - id: "4093"
+    name: Chiaroscuro
+    info: "For every friendly summoned entity present, the host gains #1[i]% Total
+      DMG Reduction. CD: 10s. Stacks up to #2[i] times. Each hit taken removes 1
+      stack."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags: []
+    param1: 0.15
+    param1Add: 0
+    param2: 3
+    param2Add: 0
+    param3: 0
+    param3Add: 0
+stigmaIdList:
+  - "110711"
+  - "110712"
+  - "110713"

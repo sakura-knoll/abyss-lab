@@ -1,0 +1,356 @@
+id: "603"
+fullName: Night Squire
+shortName: Night Squire
+desc: "<color=white>Features: </color><color=#FFAF2CFF>BIO-type</color> melee
+  battlesuit with a great variety of combo attacks for dealing Physical DMG."
+firstName: Hua
+lastName: Fu
+enFirstName: null
+enLastName: null
+attributeType: bio
+isEasterner: true
+weapon: fists
+character: fuhua
+initialStar: a
+tags:
+  - physical-dmg
+  - bleed
+  - burst
+  - fast-atk
+  - time-mastery
+skills:
+  - id: "301"
+    name: Iron Strike
+    info: "Fight using the Six Fists.\\n<color=#23B2E2FF>Ri-Ki Darting Kite: 400%
+      ATK of Physical DMG.\\nRi-Ki Phoenix Soar: 370% ATK of Physical
+      DMG.</color>"
+    icon: Skill_Fuka_ND_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3001"
+        name: Chancellor
+        info: "When Ri-Ki Darting Kite and Ri-Ki Phoenix Soar hit an enemy, restores 1
+          Ripple and gains Iron Body and #2[f1]% Physical DMG Reduction for DMG
+          received for #1[f1]s."
+        brief: After a Basic ATK combo, gain Ripple and temporary Iron Body that grants
+          a Total DMG Reduction buff.
+        icon: Skill_Nagative_Skill02
+        maxLv: 31
+        paramBase1: 2
+        paramBase2: 0.16
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0.008
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3002"
+        name: Vanguard
+        info: "When the Valkyrie has any Ripple, final hit of her Combo ATK consumes 1
+          Ripple (will not be consumed again with Magister) to additionally
+          deals #1[f1]% ATK of Physical DMG."
+        brief: Combo ATKs spend Ripple to deal more DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.15
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3003"
+        name: Marshal
+        info: "When the last strike of Combo ATK hit an enemy, gains #1[f1]% Crit Rate
+          for #2[f1]s. Stacks up to 5 times. Triggering this effect again resets
+          the duration."
+        brief: Combo ATKs buffs Crit Rate.
+        icon: Skill_Nagative_Damage02
+        maxLv: 51
+        paramBase1: 0.02
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.0004
+        paramAdd2: 0.04
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "302"
+    name: "<color=#FFC741FF>Combo</color>: Aurora"
+    info: "Different Six Fists moves can be connected to various Combo
+      ATKs.\\n<color=#23B2E2FF>Ri-Ki Raptor Strike: Up to 400% ATK of Physical
+      DMG.\\nRi-Ki Rending Claw: Up to 460% ATK of Physical DMG.\\nRi-Ki Talon
+      Storm: Up to 490% ATK of Physical DMG.\\nRi-Ki Moon Anseri: Up to 520% ATK
+      of Physical DMG.\\nInitial Ripple: 3. Stores up to 5 charges.</color>"
+    icon: Skill_Fuka_ND_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "Switch Skill and QTE are Heavy ATKs; Trauma charge: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3004"
+        name: "<color=#FFC741FF>Switch</color>: Seven Deaths"
+        info: "Deals #1[f1]% ATK of Physical DMG."
+        brief: Switch skill deals DMG to a small AOE.
+        icon: Skill_Nagative_StartUp01
+        maxLv: 16
+        paramBase1: 1.8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.12
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3005"
+        name: "<color=#FFC741FF>QTE</color>: Emperor's Ax"
+        info: "QTE: Triggers when an enemy is knocked airborne. Deals #1[f1]% ATK of
+          Physical DMG and triggers Time Fracture for #2[f1]s upon hit."
+        brief: "QTE: Triggered when an enemy is knocked airborne to deal DMG in a small
+          area and induce Time Fracture on hit."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 36
+        paramBase1: 5.5
+        paramBase2: 1.5
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0.04286
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+      - id: "3006"
+        name: Enigma
+        info: "Recovers 1 Ripple every #1[f1]s when off the field. When exiting with 0
+          Ripple, team gains #2[f1]% Total DMG for #3[f1]s."
+        brief: Slowly recovers Ripple when off the field. When exiting with 0 Ripple,
+          the whole team gains a temporary DMG buff.
+        icon: Skill_Nagative_Survive02
+        maxLv: 21
+        paramBase1: 4.5
+        paramBase2: 0.05
+        paramBase3: 6
+        paramAdd1: -0.1
+        paramAdd2: 0.005
+        paramAdd3: 0.2
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "303"
+    name: Blink
+    info: "Quick shift to evade attacks. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Time Fracture: Triggered upon Ultimate Evasion;
+      slows all enemies for 3s. CD: 15s. Gains 1 Ripple upon Ultimate
+      Evasion.</color>"
+    icon: Skill_Fuka_ND_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3007"
+        name: Vengeance
+        info: "Extends duration of Time Fracture of Ultimate Evasion to #1[f1]s."
+        brief: Extends the duration of Time Fracture of Ultimate Evasion.
+        icon: Skill_Nagative_Control01
+        maxLv: 11
+        paramBase1: 3.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.13
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3008"
+        name: Inquisitor
+        info: "Shortens CD of Ultimate Evasion skill by #1[f1]s. Upon triggering Time
+          Fracture, character gains #2[f1]% Crit Rate."
+        brief: Shortens CD of Ultimate Evasion. Character gains Crit Rate during Time
+          Fracture.
+        icon: Skill_Nagative_Skill03
+        maxLv: 21
+        paramBase1: 2
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0.0075
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "304"
+    name: Thousand Stars
+    info: "Consume 100 SP to enter Burst mode for 8s.\\n<color=#23B2E2FF>Burst mode:
+      Gain 30% Attack Speed, and tapping any [ATK] button directly triggers
+      Combo ATKs to deal tons of DMG.\\nDuring Burst mode: Enemies in a small
+      AOE around character suffer 50% slower Move Speed.\\nBurst mode activation
+      provide max Ripple.</color>"
+    icon: Skill_Fuka_ND_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "Ri-Ki Darting Kite in Burst mode is Heavy ATK; Trauma charge: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3009"
+        name: Red Princess
+        info: In burst mode, inflict <color=#FEDF4CFF>#1[f2] Bleed Trauma</color> on
+          nearby enemies per second.
+        brief: In burst mode, the Valkyrie inflicts Bleed Trauma to enemies nearby.
+        icon: Skill_Nagative_Control02
+        maxLv: 21
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "Inflicts Bleed Trauma; Trauma charge rate: very weak."
+        toggle: false
+        unlockStar: ss
+      - id: "3010"
+        name: Devouring Wolf
+        info: "Under Burst mode, gain a #1[f1]% Attack Speed buff."
+        brief: "Burst: Gain much faster Attack Speed."
+        icon: Skill_Nagative_Survive02
+        maxLv: 21
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3011"
+        name: Authority
+        info: "Under Burst mode, enemies within a small AOE around the Valkyrie take
+          #1[f1]% more Physical DMG (independent effect)."
+        brief: "Burst: Nearby enemies take more Physical DMG."
+        icon: Skill_Nagative_Damage02
+        maxLv: 51
+        paramBase1: 0.15
+        paramBase2: 5
+        paramBase3: 0
+        paramAdd1: 0.005
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "305"
+    name: Night Squire
+    info: "Leader Bonus: <color=#23B2E2FF>Court Astrologer: {{Team gains #1[f1]% max
+      HP. BIO-type characters further gain #2[f1]% Crit DMG.}}</color>"
+    icon: Skill_Fuka_FK_005
+    skillType: leader
+    tags: []
+    paramSubId1: 3012
+    paramSubId2: 3012
+    paramSubId3: 0
+    subSkills:
+      - id: "3012"
+        name: Night Squire
+        info: "Team gains #1[f1]% Max HP in battle. BIO-type battlesuits gain #2[f1]%
+          Crit DMG."
+        brief: Team gains max HP. BIO-type characters gain Crit DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 3
+        paramBase1: 0.14
+        paramBase2: 0.28
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.04
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "306"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF></color>
+    icon: Skill_Fuka_FK_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3013"
+        name: Magister
+        info: "When the Valkyrie has Ripple, last hit of Combo ATK consumes 1 Ripple
+          (will not be consumed again with Vanguard), and the Valkyrie gains
+          #1[f1]% Physical DMG for #2[f1]s. Triggering this effect again resets
+          the duration."
+        brief: Combo ATKs consume Ripple and provide a Physical DMG buff.
+        icon: Skill_Nagative_Damage02
+        maxLv: 21
+        paramBase1: 0.2
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.1
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3014"
+        name: Imperator
+        info: "With available Ripple, attacks against bleeding, ignited, or move slowed
+          enemies gain #1[f1]% Total DMG Multiplier."
+        brief: With Ripple, deals higher Total DMG against bleeding, ignited, or slowed
+          enemies.
+        icon: Skill_Nagative_Control02
+        maxLv: 31
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.005
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3015"
+        name: Catastrophe
+        info: "When the last strike of Ri-Ki Raptor Strike or Ri-Ki Rending Claw hits an
+          enemy, marks the enemy for #1[f1]s. When the last strike of Ri-Ki
+          Talon Storm or Ri-Ki Moon Anseri hits the marked enemy or when the
+          mark expires, clear the mark and additionally deals #2[f1]% ATK of
+          Physical DMG against the marked enemy."
+        brief: Last sequence of Ri-Ki Raptor Strike or Ri-Ki Rending Claw marks enemies
+          upon hit. Last sequence of Ri-Ki Talon Storm or Ri-Ki Moon Anseri
+          consumes the mark to deal more Physical DMG.
+        icon: Skill_Nagative_Survive03
+        maxLv: 31
+        paramBase1: 5.5
+        paramBase2: 1.1
+        paramBase3: 0
+        paramAdd1: 0.15
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

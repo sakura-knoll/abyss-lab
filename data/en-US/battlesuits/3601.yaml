@@ -1,0 +1,416 @@
+id: "3601"
+fullName: Sugary Starburst
+shortName: Sugary Starburst
+desc: "<color=white>Features: </color> <color=#2CE3FFFF>MECH-type</color> ranged
+  sniper."
+firstName: Shigure
+lastName: Kira
+enFirstName: null
+enLastName: null
+attributeType: mech
+isEasterner: true
+weapon: pistols
+character: kira
+initialStar: a
+tags:
+  - ice-dmg
+  - freeze
+  - time-mastery
+  - aerial
+skills:
+  - id: "891"
+    name: Unveiling, Celestial Image
+    info: "Attack nimbly with dual pistols. The first 4 sequences can be connected
+      into the next sequence after evading.\\n<color=#23B2E3FF>5-sequence
+      pistols firing.\\nSEQ 1: Deals 80% x 2 ATK of Ice DMG. Restores 20 Cheer
+      on hit.\\nSEQ 2: Deals 120% ATK of Ice DMG. Restores 20 Cheer on
+      hit.\\nSEQ 3: Deals 50% x 4 ATK of Ice DMG. Restores 20 Cheer on
+      hit.\\nSEQ 4: Deals 48% x 5 ATK of Ice DMG. Restores 30 Cheer on
+      hit.\\nSEQ 5: Deals 500% ATK of Ice DMG. Restores 60 Cheer on
+      hit.</color>"
+    icon: Skill_ShigureKira_C1_ID_891
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8901"
+        name: "<color=#FFC741FF>QTE</color>: Fighter of the Proud Wolf"
+        info: "QTE: When Encore has stacked up to 10 times, Sugary Starburst's QTE is
+          triggered. She enters from the background and shoots once, dealing
+          500% ATK of Ice DMG. Her QTE entry removes all Encore stacks from the
+          team and inflicts <color=#FEDF4CFF>6 Rime Trauma</color> on enemies
+          hit by QTE."
+        brief: "QTE: When Encore has stacked up to 10 times, Sugary Starburst's QTE is
+          triggered. She enters from the background and shoots once. Her QTE
+          entry removes all Encore stacks from the team and inflicts
+          <color=#FEDF4CFF>Rime Trauma</color> on enemies hit by QTE."
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: freeze
+            strength: 2
+            comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+              rate: medium."
+        toggle: true
+        unlockStar: a
+      - id: "8902"
+        name: Diva of a Faraway World
+        info: "Start with #1[f1] Cheer. Releasing QTE restores #2[f1] Cheer."
+        brief: Start with Cheer. Releasing QTE restores bonus Cheer.
+        icon: Skill_Nagative_Damage01
+        maxLv: 6
+        paramBase1: 150
+        paramBase2: 75
+        paramBase3: 0
+        paramAdd1: 30
+        paramAdd2: 15
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8903"
+        name: Envoy of the Paradise
+        info: When Sugary Starburst is on standby and can cast Ultimate, she will cast
+          Ultimate on entry. Ultimate will consume all Encore stacks, and for
+          every stack consumed, its last shot will inflict <color=#FEDF4CFF>1
+          Rime Trauma</color>, restore 0.5 SP to the team, and deal 120% ATK of
+          Ice DMG additionally. Stacks up to 6 times.
+        brief: When Sugary Starburst is on standby and can cast Ultimate, she will cast
+          Ultimate on entry. Ultimate will consume all Encore stacks, so its
+          last shot will inflict more Rime Trauma, restore more SP to the team,
+          and deal more Ice DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+  - id: "892"
+    name: "<color=#FFC741FF>Charged ATK</color>: Shift, Otherworldly Dance"
+    info: Use Half Note to fire a precise shot.\n<color=#23B2E4FF>When Cheer reaches
+      150, hold [ATK] to consume all Cheer to release Charged ATK. She will aim
+      and fire, dealing 600% ATK of Ice DMG and ATK x 10 of DMG (manifests as HP
+      loss).</color>
+    icon: Skill_ShigureKira_C1_ID_892
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8904"
+        name: Traveling with Savior Anchor
+        info: "When Charged ATK hits, Total DMG increases by #1[f1]% and Ice DMG
+          increases by #2[f1]% for 8s. Triggering it again resets the duration."
+        brief: When Charged ATK hits, Total DMG and Ice DMG increase.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.01111
+        paramAdd2: 0.01111
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8905"
+        name: Ode to the Seven Seas Troupe
+        info: "The HP loss DMG inflicted by Charged ATK increases to ATK x #1[f1]. When
+          Charged ATK hits, recover #2[f1] SP."
+        brief: The HP loss DMG inflicted by Charged ATK increases. When Charged ATK
+          hits, recover SP.
+        icon: Skill_Nagative_Damage01
+        maxLv: 4
+        paramBase1: 20
+        paramBase2: 5.01
+        paramBase3: 0
+        paramAdd1: 40
+        paramAdd2: 3.33333
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "893"
+    name: Sidesteps, Stalked by Past
+    info: "Quickly dodge attacks up to 2 times in a row.\\n<color=#23B2E5FF>A
+      successful Ultimate Evasion triggers Ultimate Evasion Skill and causes
+      global Time Fracture for 3s (CD: 15s).</color>"
+    icon: Skill_ShigureKira_C1_ID_893
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8907"
+        name: Drifter of the Quantum Sea
+        info: "When triggering Ultimate Evasion, recover #1[f1] Cheer."
+        brief: When triggering Ultimate Evasion, recover Cheer.
+        icon: Skill_Nagative_Damage01
+        maxLv: 8
+        paramBase1: 75
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 10.71429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "894"
+    name: Roller Dance, Shining Now
+    info: "Leap into the air and enter sniping mode.\\n<color=#23B2E6FF>Leap into
+      the air and enter sniping mode. Sniping mode triggers Time-frozen Domain,
+      which pauses all skill timers and the stage timer.\\nUse Half Note to fire
+      3 times, dealing 500% + 500% + 700% ATK of Ice DMG. Furthermore, each
+      projectile inflicts</color> <color=#FEDF4CFF>4 Rime
+      Trauma</color><color=#23B2E2FF>.\\nSP Cost: 125. CD: 20s.</color>"
+    icon: Skill_ShigureKira_C1_ID_894
+    skillType: ultimate
+    tags:
+      - type: freeze
+        strength: 3
+        comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+          rate: strong."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8910"
+        name: Unwavering Admiration
+        info: "When Ultimate hits, team deals #1[f1]% more Elemental DMG for 15s.
+          Triggering it again resets the duration."
+        brief: When Ultimate hits, team deals more Elemental DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.06
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.014
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8911"
+        name: Road Gloomy and Perilous
+        info: "Within 15s of landing Ultimate's last SEQ, if an Ice DMG dealer on the
+          field inflicts HP loss, the affected enemy will take #1[f1]% more Ice
+          DMG for 5s. Triggering it again resets the duration."
+        brief: After landing Ultimate's last SEQ, if an Ice DMG dealer on the field
+          inflicts HP loss, the affected enemy will take more Ice DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.04
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8912"
+        name: Starlight of Hope
+        info: "When each shot of the Ultimate hits, restores #1[f1] SP to all team
+          members, and reduces the Ultimate CD of all characters on the field by
+          1s (disabled in Co-op and Squad Mode) until it is reduced to 12s."
+        brief: When each shot of the Ultimate hits, restores SP to all team members, and
+          reduces the Ultimate CD of all characters on the field (disabled in
+          Co-op and Squad Mode) until it is reduced to 12s.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 3.01
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.44444
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "895"
+    name: Forward, Ocean of Stars
+    info: "Leader Bonus:\\n<color=#23B2E7FF>Leader Skill: {{Increases team Ice DMG
+      by #1[f1]%. Increases QTE, Combo ATK, and Charged ATK's Total DMG by
+      #2[f1]%.}}</color>"
+    icon: Skill_ShigureKira_C1_ID_895
+    skillType: leader
+    tags: []
+    paramSubId1: 8913
+    paramSubId2: 8913
+    paramSubId3: 0
+    subSkills:
+      - id: "8913"
+        name: Bond with the SUGARS
+        info: "Team deals #1[f1]% more Ice DMG. QTE, Combo ATK, and Charged ATK deal
+          #2[f1]% more Total DMG."
+        brief: Team deals more Ice DMG. QTE, Combo ATK, and Charged ATK deal more Total
+          DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 3
+        paramBase1: 0.13
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.035
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "896"
+    name: Turning, Retrospect
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E8FF>When Sugary
+      Starburst is on the team, her max HP increases by 1000 and team max HP
+      increases by 2000. This increase is unaffected by max HP percentage
+      increase.\\nHer Cheer caps at 300. Her Basic ATK restores Cheer.\\nWhen a
+      teammate on the field hits an enemy, she gains 1 stack of Encore (CD:
+      1s).\\nWhen a teammate on the field uses weapon active, she gains 3 more
+      stacks of Encore (CD: 2s).\\nWhen a teammate on the field uses Ultimate,
+      she gains 5 more stacks of Encore (CD: 10s).\\nWhen Encore has stacked up
+      to 10 times, her QTE is triggered.</color>"
+    icon: Skill_ShigureKira_C1_ID_896
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8916"
+        name: Tundra's White Blooms
+        info: "Start a battle with #1[f1] more SP. Triggered once every 10 minutes in
+          Open World.\\nWhile Sugary Starburst is on standby, teammates restore
+          #2[f1] SP to her upon dealing DMG (CD: 3s)."
+        brief: Start a battle with more SP. Triggered once every 10 minutes in Open
+          World.\nWhile Sugary Starburst is on standby, teammates restore SP to
+          her upon dealing DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 12
+        paramBase2: 8.01
+        paramBase3: 0
+        paramAdd1: 1.3
+        paramAdd2: 0.7
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8917"
+        name: Last Dance Around Death
+        info: "When QTE or Ultimate hits, the enemy takes #1[f1]% more Ice DMG for 15s
+          (retriggering refreshes duration), and team members recover #2[f1] SP
+          (CD: 5s)."
+        brief: When QTE or Ultimate hits, the enemy takes more Ice DMG, and team members
+          recover SP.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.04
+        paramBase2: 1.01
+        paramBase3: 0
+        paramAdd1: 0.008
+        paramAdd2: 0.2
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8918"
+        name: Lonely Figure's Watch
+        info: "QTE or Ultimate deals sustained DMG, which is #1[f1]% ATK of Ice DMG per
+          1s for 3s. This DMG is also regarded as weapon active DMG. Triggering
+          it again resets the duration."
+        brief: QTE or Ultimate deals sustained DMG. This DMG is also regarded as weapon
+          active DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 6
+        paramBase1: 0.8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.16
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "897"
+    name: Staging, All Eyes on Me
+    info: Sprinkles Shiny Sugarcoating to provide an assortment of supporting
+      effects.\n<color=#23B2E8FF>Upon entering via QTE or casting Ultimate, she
+      sprinkles Shiny Sugarcoating and restores 500 HP to characters on the
+      field. Shiny Sugarcoating lasts 15s, during which the team deals 10% more
+      Total DMG (retriggering refreshes duration).</color>
+    icon: Skill_ShigureKira_C1_ID_897
+    skillType: sp
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8919"
+        name: Reporting the Frenetic Scene
+        info: "While Shiny Sugarcoating lasts, Sugary Starburst's Charged ATK and
+          Ultimate deal #1[f1]% more Ice DMG."
+        brief: While Shiny Sugarcoating lasts, Sugary Starburst's Charged ATK and
+          Ultimate deal more Ice DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 7
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8920"
+        name: Secret to Winning All Hearts
+        info: "While Shiny Sugarcoating lasts, Sugary Starburst's Ultimate on hit makes
+          enemies take #1[f1]% more Total DMG for 15s. Triggering it again
+          resets the duration."
+        brief: While Shiny Sugarcoating lasts, Sugary Starburst's Ultimate on hit makes
+          enemies take more Total DMG for some time on hit.
+        icon: Skill_Nagative_Damage01
+        maxLv: 5
+        paramBase1: 0.04
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "8921"
+        name: Gift for the Curtain Call
+        info: "After triggering Shiny Sugarcoating, all team members deal #1[f1]% more
+          Total DMG with weapon active, and enemies take #2[f1]% ATK of Ice DMG
+          additionally from their weapon active. This effect lasts 10s and has a
+          CD of 5s. Triggering it again resets the duration."
+        brief: After triggering Shiny Sugarcoating, all team members deal more Total DMG
+          with weapon active, and enemies take additional Ice DMG from their
+          weapon active.
+        icon: Skill_Nagative_Damage01
+        maxLv: 3
+        paramBase1: 0.15
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: 0.075
+        paramAdd2: 0.5
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

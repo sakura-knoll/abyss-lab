@@ -1,0 +1,359 @@
+id: "804"
+fullName: Palatinus Equinox
+shortName: Palatinus Equinox
+desc: "<color=white>Features: </color><color=#F3DFAEFF>IMG-type</color> melee
+  battlesuit."
+firstName: Durandal
+lastName: null
+enFirstName: null
+enLastName: null
+attributeType: img
+isEasterner: true
+weapon: lance
+character: durandal
+initialStar: s
+tags:
+  - physical-dmg
+  - time-mastery
+skills:
+  - id: "731"
+    name: Immortal Kaslana
+    info: "Fight with the lance and the shield.\\n<color=#23B2E3FF>SEQ 1： 150% +
+      200% ATK of Physical DMG.\\nSEQ 2: 220% ATK of Physical DMG.\\nSEQ 3: 8 x
+      80% ATK of Physical DMG. Enemies are also gathered briefly.\\nSEQ 4: 300%
+      ATK of Physical DMG.\\n\\nAt full ICHOR, hold [ATK] to cast Equinox
+      Severance which triggers 3s of Global Time Fracture and deals 300% + 300%
+      + 200% + 1200% ATK of Physical DMG.\\nShield Ram: 150% ATK of Physical
+      DMG.\\nUp Thrust: 750% ATK of Physical DMG.</color>"
+    icon: Skill_Durandal_C4_DK_731_Knight
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7301"
+        name: Guardian Angel
+        info: "In Guardian Form, Ultimate Evasion Skill restores #1[i] SP."
+        brief: In Guardian Form, Ultimate Evasion Skill restores SP.
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.8
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7302"
+        name: Chimera's Legacy
+        info: "Last sequence of Equinox Severance deals #1[f1]% ATK of bonus Physical
+          DMG."
+        brief: Last sequence of Equinox Severance deals bonus Physical DMG.
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.4
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7303"
+        name: Original Stigma
+        info: "Equinox Severance has #1[f1]% bonus Crit Rate and deals #2[f1]% bonus
+          Total DMG."
+        brief: Equinox Severance has bonus Crit Rate and deals bonus Total DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.015
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "732"
+    name: Glorious Schariac
+    info: "The black armor turns into a war horse for mounted
+      combat.\\n<color=#23B2E4FF>SEQ 1: 150% + 200% ATK of Physical DMG.\\nSEQ
+      2: 3 x 120% ATK of Physical DMG.\\nSEQ 3: 400% ATK of Physical DMG.\\nSEQ
+      4: 600% ATK of Physical DMG.\\n\\nIn Flash State, tap [EVA] to induce
+      Stomp or hold [ATK] to induce Sprint. Release [ATK] in Sprint State to
+      unleash Elite Thrust.\\nStomp: Deals 350% ATK of Physical DMG and gather
+      enemies nearby. Hold [ATK] to induce Sprint.\\nSprint: Deals N x 110% ATK
+      of Physical DMG (N stands for hits and caps at 10). Hitting enemies
+      consumes ICHOR.\\nElite Thrust: 800% ATK of Physical DMG.\\nStomp, Sprint,
+      and Elite Thrust are all considered Charged ATK with Adamance and Iron
+      Body.\\n\\nTo walk slowly: Steer the left joystick if using a phone or a
+      controller. Hold Shift and a direction key if using a keyboard.</color>"
+    icon: Skill_Durandal_C4_DK_732
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7304"
+        name: Valkyrie's Ride
+        info: "Elite Thrust deals #1[f1]% ATK of bonus Physical DMG."
+        brief: Elite Thrust deals bonus Physical DMG.
+        icon: Skill_Nagative_Survive03
+        maxLv: 6
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.4
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7305"
+        name: Valkyrie's Legacy
+        info: "Sprint & Elite Thrust deal #1[f1]% bonus Total DMG, have #2[f1]% bonus
+          Crit Rate, and deal #3[f1]% bonus Crit DMG."
+        brief: Sprint & Elite Thrust deal bonus Total DMG, have bonus Crit Rate, and
+          deal bonus Crit DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.3
+        paramBase2: 0.5
+        paramBase3: 0.3
+        paramAdd1: 0.03
+        paramAdd2: 0.05
+        paramAdd3: 0.03
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7306"
+        name: Valkyrie's Glory
+        info: "Each sequence of Sprint deals #1[f1]% ATK of bonus Physical DMG."
+        brief: Each sequence of Sprint deals bonus Physical DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "733"
+    name: Duality of Antinomy
+    info: "Guardian Form for defense and Knight Form for
+      evasion.\\n<color=#23B2E5FF>Ultimate Evasion Skill: Triggers 2s of Global
+      Time Fracture and fully charges ICHOR. CD: 15s.\\n\\nGuardian Form:
+      Backward evasion triggers Defense and forward evasion triggers Shield
+      Ram.\\nTaking hits during Defense or hitting enemies with Shield Ram
+      triggers Retaliation which negates incoming attack, deals 120% ATK of
+      Physical DMG, and triggers Ultimate Evasion Skill. Shield Ram can also
+      trigger Ultimate Evasion Skill passively.\\nTap [ATK] after Retaliation to
+      perform Up Thrust (or Equinox Severance when Ultimate Evasion Skill is
+      triggered).\\n\\nKnight Form: Active evasion triggers Ultimate Evasion
+      Skill (Leap Stomp cannot). During Ultimate Evasion Skill: Tap a direction
+      key to trigger Flash State; Tap [EVA] to trigger Stomp; Hold [ATK] to
+      trigger Sprint.</color>"
+    icon: Skill_Durandal_C4_DK_733_Knight
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7307"
+        name: "<color=#FFC741FF>QTE</color>: Symmetry Breaking"
+        info: "QTE: Triggered when an enemy is Time-Slowed or knocked airborne to induce
+          Knight Form, cause a 2s Global Time Fracture, and deal #1[f1]% ATK of
+          Physical DMG."
+        brief: "QTE: Triggered when an enemy is Time-Slowed or knocked airborne to
+          induce Knight Form, cause Global Time Fracture, and deal Physical
+          DMG."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 11
+        paramBase1: 8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "7308"
+        name: In Itself & for Itself
+        info: "Initial SP in battle increases by #1[i]. This bonus triggers once every
+          10 minutes in Open World."
+        brief: Bonus initial SP in battle.
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+      - id: "7309"
+        name: Paradox Spiral
+        info: "Palatinus Equinox deals #1[f1]% bonus Total DMG."
+        brief: Palatinus Equinox deals bonus Total DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 1
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "734"
+    name: Equinox March
+    info: "Mount the war horse and reach max speed to deal massive Physical
+      DMG.\\n<color=#23B2E6FF>Tap: Switch between Knight Form and Guardian Form.
+      Knight to Guardian triggers Shield Ram. Guardian to Knight enables active
+      Ultimate Evasion Skill.\\n\\nHold:\\nPerform a mighty blow to deal 2000%
+      ATK of Physical DMG and trigger Time-frozen Domain which suspends all
+      skill timers as well as the stage timer.\\n\\nSP cost: 100. CD:
+      20s.</color>"
+    icon: Skill_Durandal_C4_DK_734
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7310"
+        name: Herrscher Killer
+        info: "If Ultimate hits IMG enemies, #1[f1]% of the DMG a Nihilus Shell takes
+          will be transferred to its Nihilus Seed (reflected by HP loss)."
+        brief: If Ultimate hits IMG enemies, a fixed percentage of the DMG a Nihilus
+          Shell takes will be transferred to its Nihilus Seed (reflected by HP
+          loss).
+        icon: Skill_Nagative_Damage02
+        maxLv: 4
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.33333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7311"
+        name: Echoes of Flame Chasers
+        info: "Ultimate deals #1[f1]% bonus Total DMG and has 100% bonus Crit Rate."
+        brief: Ultimate deals bonus Total DMG and has 100% bonus Crit Rate.
+        icon: Skill_Nagative_Damage03
+        maxLv: 10
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02778
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "735"
+    name: Stellar Crusader
+    info: "Leader Bonus:\\n<color=#23B2E2FF>{{Team deals #1[f1]% bonus Physical DMG.
+      Weapon skills have #2[f1]% bonus Crit Rate.}}</color>"
+    icon: Skill_Durandal_C4_DK_735
+    skillType: leader
+    tags: []
+    paramSubId1: 7313
+    paramSubId2: 7313
+    paramSubId3: 0
+    subSkills:
+      - id: "7313"
+        name: Stellar Crusader
+        info: "Team deals #1[f1]% bonus Physical DMG. Weapon skills have #2[f1]% bonus
+          Crit Rate."
+        brief: Team deals bonus Physical DMG. Weapon skills have bonus Crit Rate.
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.24
+        paramBase2: 0.33
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "736"
+    name: Aria Palatinus
+    info: Passive bonuses apply automatically.\n<color=#23B2E8FF>ICHOR\nMaxes at 300
+      and auto-restores over time. Casting weapon skill restores 50 ICHOR. In
+      Knight Form, Palatinus Equinox restores more ICHOR when moving and enters
+      Flash State when it's fully charged.\nICHOR is reset when Palatinus
+      Equinox switches form or exits.</color>
+    icon: Skill_Durandal_C4_DK_736
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7314"
+        name: Genius
+        info: "Switching form resets Ultimate Evasion Skill CD. Can only be triggered
+          once every #1[i]s."
+        brief: Switching form resets Ultimate Evasion Skill CD.
+        icon: Skill_Nagative_Skill03
+        maxLv: 2
+        paramBase1: 12
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: -4
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7315"
+        name: Sumeru
+        info: "Weapon skills deal #1[f1]% bonus Physical DMG and #2[f1]% bonus Crit
+          DMG."
+        brief: Weapon skills deal bonus Physical DMG and bonus Crit DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 0.01111
+        paramAdd2: 0.01667
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7316"
+        name: Blessing of the Holy Blade
+        info: "Enemies take #1[f1]% bonus Physical DMG from Palatinus Equinox (cannot
+          stack)."
+        brief: Enemies take bonus Physical DMG from Palatinus Equinox (cannot stack).
+        icon: Skill_Nagative_Damage03
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

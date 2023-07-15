@@ -1,0 +1,277 @@
+id: "113"
+fullName: Blade Durandal
+icon: Elf_13
+cardIcon: Elf_10013
+chibiIcon: Elf_10013
+figureImage: Elf_10013
+rarity: 4
+cardId: 380113
+fragmentId: 370113
+storyDesc: Description
+ultSkillCd: 45
+ultSkillCost: 75
+skillBg: TalentBg13
+tags:
+  - type: physical-dmg
+    comment: null
+  - type: gather
+    comment: null
+captainSkillIds:
+  - "140031"
+  - "140032"
+skills:
+  - id: "14001"
+    elfId: "113"
+    name: Viva La Girls!
+    info: "ELF has two forms of Basic ATK:\\nBasic ATK 1: Attack continuously
+      dealing 2100% ATK of Physical DMG.\\nBasic ATK 2: Thrust forward to deal
+      2100% ATK of Physical DMG.\\nRestore <color=#ff9900>#1[f2]</color> SP
+      every second in battle."
+    skillType: Basic
+    skillTypeId: "1"
+    icon: Skill_Elf_Attack_113
+    row: 1
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.85
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "14002"
+    elfId: "113"
+    name: Immortal Blades!!
+    info: Blink to the target location, pull in enemies, and unleash AoE attacks
+      dealing 600% x 8 ATK of Physical DMG. Afterwards, pull in enemies again
+      and deal 1800% ATK of Physical DMG. Enemies hit are inflicted with
+      Dissociated stacks (lasting 5s) and each stack makes them take
+      <color=#ff9900>#1[f1]%</color> bonus Physical DMG. 5 stacks max. Ultimate
+      also reduces switch CD.
+    skillType: Ultimate
+    skillTypeId: "0"
+    icon: Skill_Elf_Ultra
+    row: 2
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.01
+    paramBase2: 6
+    paramBase3: 18
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "14003"
+    elfId: "113"
+    name: Holy Blade of Existentialism
+    info: Switching Valkyrie boosts team Total DMG by <color=#ff9900>#1[f1]%</color>
+      for <color=#ff9900>#3[f1]s</color>. <color=#ff9900>#2[i]</color> stacks
+      max.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_QTE
+    row: 3
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.02
+    paramBase2: 2
+    paramBase3: 8
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "14004"
+    elfId: "113"
+    name: Sisyphus Myth
+    info: ELF's initial SP increases by <color=#ff9900>#1[f1]</color>.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Initial_UP
+    row: 4
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 50
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "140011"
+    elfId: "113"
+    name: I Can Talk about This All Day
+    info: "ELF Basic ATK restores <color=#ff9900>#1[f1]</color> bonus SP. CD:
+      <color=#ff9900>#2[f1]</color>s."
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 1
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 3
+    paramBase2: 6
+    paramBase3: 0
+    paramAdd1: 0.5
+    paramAdd2: -1
+    paramAdd3: 0
+  - id: "140012"
+    elfId: "113"
+    name: Never Tired
+    info: "ELF's attacks have a <color=#ff9900>#1[f1]%</color> chance to deal
+      <color=#ff9900>#2[f1]%</color> ATK of bonus Physical DMG. CD: 6s."
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_113
+    row: 1
+    col: 3
+    unlockStar: 4
+    maxLv: 3
+    paramBase1: 0.2
+    paramBase2: 0.3
+    paramBase3: 0
+    paramAdd1: 0.1
+    paramAdd2: 0.15
+    paramAdd3: 0
+  - id: "140013"
+    elfId: "113"
+    name: Double Seriousness
+    info: ELF's Basic ATK boosts its Total DMG by <color=#ff9900>#1[f1]%</color> on
+      hit for 10s. Triggering it again resets the duration.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_Up
+    row: 1
+    col: 4
+    unlockStar: 7
+    maxLv: 5
+    paramBase1: 0.05
+    paramBase2: 10
+    paramBase3: 0
+    paramAdd1: 0.0625
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "140021"
+    elfId: "113"
+    name: Perpetual Motion Machine, Fake
+    info: Dissociated lasts <color=#ff9900>#1[f1]</color>s.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Status
+    row: 2
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 7
+    paramBase2: 0.01
+    paramBase3: 0
+    paramAdd1: 0.75
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "140022"
+    elfId: "113"
+    name: Cheat Loop
+    info: Ultimate boosts ELF's Crit Rate by <color=#ff9900>#1[f1]%</color> for
+      <color=#ff9900>#2[f1]</color>s.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Ultra_Up
+    row: 2
+    col: 3
+    unlockStar: 4
+    maxLv: 3
+    paramBase1: 0.5
+    paramBase2: 6.5
+    paramBase3: 0
+    paramAdd1: 0.2
+    paramAdd2: 6.75
+    paramAdd3: 0
+  - id: "140023"
+    elfId: "113"
+    name: Maxwell's Demon
+    info: ELF's Ultimate deals <color=#ff9900>#1[f1]%</color> bonus Total DMG.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 2
+    col: 4
+    unlockStar: 7
+    maxLv: 3
+    paramBase1: 0.1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.1
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "140031"
+    elfId: "113"
+    name: Form of Existence
+    info: <color=#23b2e2>[Lineup]</color> When team leader is a Physical DMG dealer,
+      team deals <color=#ff9900>#1[f1]%</color> bonus Physical DMG.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 3
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 0.01
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.01
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "140032"
+    elfId: "113"
+    name: Existence of Form
+    info: <color=#23b2e2>[Lineup]</color> Each stack of Dissociated boosts Physical
+      DMG taken by affected enemies by <color=#ff9900>#1[f2]%</color> when
+      there's at least one Physical DMG dealer on the team.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Status
+    row: 3
+    col: 3
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.012
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.002
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "140041"
+    elfId: "113"
+    name: End of Absurdity
+    info: ELF deals <color=#ff9900>#1[f1]%</color> more Physical DMG.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 4
+    col: 2
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.06
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.085
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "140042"
+    elfId: "113"
+    name: Absurdity of End
+    info: ELF's Ultimate CD shortens by <color=#ff9900>#1[f1]%</color>.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_CD_Down
+    row: 4
+    col: 3
+    unlockStar: 7
+    maxLv: 3
+    paramBase1: 0.15
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.075
+    paramAdd2: 0
+    paramAdd3: 0

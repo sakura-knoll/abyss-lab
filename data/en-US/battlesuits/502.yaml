@@ -1,0 +1,473 @@
+id: "502"
+fullName: Violet Executer
+shortName: Violet Executer
+desc: "<color=white>Features: </color><color=#2CE3FFFF>MECH-type</color>
+  mid-ranged battlesuit that uses a rich selection of ethereal weapon skills.
+  Uses bleed skills to attack the enemy."
+firstName: Theresa
+lastName: Apocalypse
+enFirstName: null
+enLastName: null
+attributeType: mech
+isEasterner: false
+weapon: cross
+character: theresa
+initialStar: s
+tags:
+  - physical-dmg
+  - bleed
+  - heavy-atk
+  - burst
+  - fast-atk
+skills:
+  - id: "201"
+    name: Lance of Longinus
+    info: "Basic ATK: Mid-range 4-sequence attack with ethereal
+      halberds.\\n<color=#23B2E2FF>1st Sequence: 3x30% ATK of Physical
+      DMG.\\n2nd Sequence: 3x30% ATK of Physical DMG.\\n3rd Sequence: 4x45% ATK
+      of Physical DMG.\\n4th Sequence: 6x45% ATK of Physical DMG against enemies
+      within a small AOE.</color>"
+    icon: Skill_Theresa_YD_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2001"
+        name: Steel Tempest
+        info: "When Basic ATK or Ultimate SEQ 4 scores a Crit, it has a #1[f2]% chance
+          to inflict <color=#FEDF4CFF>3 Stun Trauma</color> (CD: 1s)."
+        brief: When Basic ATK or Ultimate SEQ 4 scores a Crit, it may inflict Stun
+          Trauma.
+        icon: Skill_Nagative_Damage01
+        maxLv: 34
+        paramBase1: 0.17
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.0303
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 1
+            comment: "Inflicts Stun Trauma; Trauma charge rate: weak."
+        toggle: false
+        unlockStar: s
+      - id: "2002"
+        name: Spiked Skirt
+        info: "Gains Ignore Interrupt during 4-sequence Basic/Ultimate ATK. When being
+          attacked, there is a #1[f1]% chance to reduce #2[i] Total DMG taken
+          and knock down nearby enemies to deal #3[f1]% ATK of Physical DMG."
+        brief: Increases Ignore Interrupt during 4-sequence Basic ATK or Ultimates. When
+          attacked, has a chance of reducing DMG taken and dealing DMG to nearby
+          enemies.
+        icon: Skill_Nagative_Damage02
+        maxLv: 16
+        paramBase1: 0.2
+        paramBase2: 150
+        paramBase3: 1.2
+        paramAdd1: 0.01
+        paramAdd2: 13
+        paramAdd3: 0.08667
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "2015"
+        name: Flesh Raker
+        info: "Basic ATKs, 4-sequence Burst ATKs and 5-sequence Fervent ATKs gain
+          #1[f1]% Physical DMG against unshielded enemies, and gain #2[f1]% Crit
+          DMG against shielded enemies."
+        brief: Basic ATKs / 4-sequence Burst ATKs / 5-sequence Fervent ATKs deal more
+          Physical DMG vs. unshielded and more Crit DMG vs. shielded.
+        icon: Skill_Nagative_Damage03
+        maxLv: 17
+        paramBase1: 0.25
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.01563
+        paramAdd2: 0.0125
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "202"
+    name: "<color=#FFC741FF>Charge</color>: Impaler"
+    info: "Charge during the 4-sequence attack to launch a multi-hit upward thrust
+      attack.\\n<color=#23B2E2FF>Impaler: Charge by holding the [ATK] button
+      during the 4-sequence Basic ATK. Reaches full charge in a short time, then
+      release the [ATK] button to deal a 9-sequence attack that deals 100% ATK
+      of Physical DMG per hit and knocks enemies airborne.</color>"
+    icon: Skill_Theresa_TP_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2003"
+        name: Vicious Impaler
+        info: "Each hit of Impaler has a #1[f1]% chance to inflict <color=#FEDF4CFF>2
+          Bleed Trauma</color>."
+        brief: Impaler may inflict Bleed Trauma.
+        icon: Skill_Nagative_Damage03
+        maxLv: 26
+        paramBase1: 0.1
+        paramBase2: 120
+        paramBase3: 0
+        paramAdd1: 0.006
+        paramAdd2: 9.6
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "Inflicts Bleed Trauma; Trauma charge rate: weak."
+        toggle: false
+        unlockStar: s
+      - id: "2004"
+        name: "<color=#FFC741FF>Switch</color>: Instant Impalement"
+        info: "Switch: Unleashes a 9-sequence Impaler combo, each hit dealing #1[i]% ATK
+          of Physical DMG and knocking enemies airborne."
+        brief: "Switch: Unleashes a 9-sequence Impaler combo, dealing Physical DMG."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 31
+        paramBase1: 0.75
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01503
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2005"
+        name: "<color=#FFC741FF>QTE</color>: Cross Spears"
+        info: "QTE: Triggered by Time Slow: Unleashes 2 crossed rows of 6-sequence
+          impaling spears, each hit dealing #1[i]% ATK of Physical DMG and
+          knocking enemies airborne."
+        brief: "QTE: Triggered when an enemy is affected by Time Slow to unleash 2
+          crossed rows of 6-sequence impaling spears and deal Physical DMG."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 18
+        paramBase1: 1.08
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03065
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "203"
+    name: Iron Maiden
+    info: "Quick sideways dodge to evade enemy attack. Can be triggered 2 times in a
+      row.\\n<color=#23B2E2FF>After Ultimate Evasion, gain 40% Move Speed for
+      3s.\\nIron Maiden: Drops a giant halberd out of the air upon Ultimate
+      Evasion, dealing 200% ATK of Physical DMG to the attacker and surrounding
+      enemies and knocking them down. CD: 15s.</color>"
+    icon: Skill_Theresa_YD_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2006"
+        name: Iron Maiden
+        info: "Upon evasion, deal #1[f1]% Physical DMG to surrounding enemies."
+        brief: Deal Physical DMG to nearby enemies upon evasion.
+        icon: Skill_Nagative_Damage01
+        maxLv: 70
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00464
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "2007"
+        name: Blood Magdalene
+        info: Giant halberd inflicts <color=#FEDF4CFF>3 Bleed Trauma</color>.
+        brief: Giant halberd inflicts Bleed Trauma.
+        icon: Skill_Nagative_Damage03
+        maxLv: 25
+        paramBase1: 300
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 18.75
+        paramAdd2: 0.10417
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "Inflicts Bleed Trauma; Trauma charge rate: weak."
+        toggle: false
+        unlockStar: s
+      - id: "2008"
+        name: Rapid CD
+        info: "CD of Ultimate Evasion skill is #1[f2]s shorter."
+        brief: Ultimate Evasion skill has shortened CD.
+        icon: Skill_Nagative_Damage03
+        maxLv: 18
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.11765
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "204"
+    name: Execute Mode
+    info: "Execute Mode: Enters Valkyrie state, transforming the 4-sequence Basic
+      ATK into Burst ATKs with greater Interrupt
+      ability.\\n<color=#23B2E2FF>Burst: Consumes 80 SP to enter an 8s burst
+      mode with CC immunity.\\n1st Sequence: 2x75% ATK of Physical DMG.\\n2nd
+      Sequence: 2x65% ATK of Physical DMG.\\n3rd Sequence: 2x(50%+70%) ATK of
+      Physical DMG.\\n4th Sequence: 2x(60%+80%+100%) ATK of Physical
+      DMG.</color>"
+    icon: Skill_Theresa_TP_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 1
+        comment: "Burst mode combo are Heavy ATKs and stack Trauma multiple times;
+          Trauma charge: weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2009"
+        name: Execution Start
+        info: "Burst activation deals #1[f1]% ATK of Lightning DMG to enemies nearby,
+          knocks them airborne, and inflicts <color=#FEDF4CFF>6 Bleed
+          Trauma</color>."
+        brief: Burst activation deals Physical DMG to nearby enemies, knocks them
+          airborne, and inflicts Bleed Trauma.
+        icon: Skill_Nagative_Damage02
+        maxLv: 34
+        paramBase1: 1.5
+        paramBase2: 275
+        paramBase3: 0
+        paramAdd1: 0.04545
+        paramAdd2: 14.39394
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 2
+            comment: "Inflicts Bleed Trauma; Trauma charge rate: medium."
+        toggle: false
+        unlockStar: s
+      - id: "2010"
+        name: Hemorrhagic Shock
+        info: "Each hit of Ultimate has a #1[f1]% chance to inflict <color=#FEDF4CFF>2
+          Bleed Trauma</color>."
+        brief: Ultimate may inflict Bleed Trauma.
+        icon: Skill_Nagative_Damage03
+        maxLv: 14
+        paramBase1: 0.12
+        paramBase2: 450
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 40.76923
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "Inflicts Bleed Trauma; Trauma charge rate: weak."
+        toggle: false
+        unlockStar: s
+      - id: "2016"
+        name: Arbiter
+        info: "The 4th sequence of Burst ATK gains #1[f1]% Crit Rate."
+        brief: 4th hit of the Ultimate gains Crit Rate upon hit.
+        icon: Skill_Nagative_Damage03
+        maxLv: 14
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01923
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "205"
+    name: Execution Time
+    info: "Leader Bonus:\\n<color=#23B2E2FF>Execution Time: {{Burst/Ultimate attacks
+      deal #1[i]% more Physical DMG. Team formed by 3 battlesuits of at least
+      two different types gains #2[i]% Total DMG.}}</color>"
+    icon: Skill_Theresa_YD_005
+    skillType: leader
+    tags: []
+    paramSubId1: 2011
+    paramSubId2: 2011
+    paramSubId3: 0
+    subSkills:
+      - id: "2011"
+        name: Execution Time
+        info: "Team's Burst/Ultimate attacks deal #1[i]% more Physical DMG. Team formed
+          by 3 battlesuits of at least two different types gains #2[i]% Total
+          DMG."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Damage03
+        maxLv: 2
+        paramBase1: 0.16
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "206"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF></color>
+    icon: Skill_Theresa_YD_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2012"
+        name: No Touching
+        info: "When cross is deployed, the entire team gains #2[f1]% Total DMG Reduction
+          for #1[f2]s."
+        brief: When cross is deployed, team gains Total DMG Reduction.
+        icon: Skill_Nagative_Survive03
+        maxLv: 17
+        paramBase1: 4
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0.25063
+        paramAdd2: 0.0125
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "2013"
+        name: Salt for the Wound
+        info: "ATK against a bleeding target additionally deals 3x#1[i]% ATK of AOE
+          Physical DMG. CD: #2[f2]s."
+        brief: When attacking a bleeding target, deal 3-sequence Physical DMG in a small
+          AOE.
+        icon: Skill_Nagative_Damage03
+        maxLv: 60
+        paramBase1: 1.25
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.01712
+        paramAdd2: -0.02542
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2014"
+        name: "World's #1 Cutie"
+        info: "Gain #1[f1] initial SP in battle. This bonus triggers once every 10
+          minutes in Open World."
+        brief: Start battle with more SP. This bonus triggers once every 10 minutes in
+          Open World.
+        icon: Skill_Nagative_Survive02
+        maxLv: 32
+        paramBase1: 15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.67774
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "471"
+    name: Fangs of Dusk
+    info: "Mid-range 4-sequence attack with Fangs of Dusk.\\n<color=#23B2E2FF>SEQ 1:
+      3 x 40% ATK of Physical DMG.\\nSEQ 2: 3 x 45% ATK of Physical DMG.\\nSEQ
+      3: 6 x 30% ATK of Physical DMG.\\nSEQ 4: 11 x 45% ATK of Physical
+      DMG.\\nRestores 7 Fervor on hit.\\nIn normal state, SEQ 4 inflicts</color>
+      <color=#FEDF4CFF>2 Bleed Trauma</color><color=#23B2E2FF>.</color>"
+    icon: Skill_Theresa_C2_Artifact_001
+    skillType: basic
+    tags:
+      - type: bleed
+        strength: 1
+        comment: "Inflicts Bleed Trauma; Trauma charge rate: very weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "472"
+    name: Unfettered Rage
+    info: "At max Fervor, hold [ATK] to leech blood and enter Fervent
+      state.\\n<color=#23B2E2FF>Activation: Hold [ATK] at full Fervor. Dash
+      towards enemies, dealing 4 x 160% ATK of Physical DMG and knocking enemies
+      airborne.\\nFervent state grants minor Ignore Interrupt and 40% Total DMG
+      Reduction.\\nSEQ 1: 4 x 50% ATK of Physical DMG.\\nSEQ 2: 4 x 50% ATK of
+      Physical DMG.\\nSEQ 3: 4 x (45% + 30%) ATK of Physical DMG.\\nSEQ 4: 180%
+      + hits (max: 12) x 60% ATK of Physical DMG.\\nSEQ 5: 4 x 70% + 150% + 3 x
+      100% + 190% ATK of Physical DMG. Inflicts</color> <color=#FEDF4CFF>3 Bleed
+      Trauma</color><color=#23B2E2FF>.\\nFervent unlocks Charged ATK: Dash
+      toward enemies and deal 4 x 120% ATK of Physical DMG.</color>"
+    icon: Skill_Theresa_C2_Artifact_002
+    skillType: special
+    tags:
+      - type: bleed
+        strength: 1
+        comment: "Inflicts Bleed Trauma; Trauma charge rate: weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "473"
+    name: Saint of Edda
+    info: "Quick side-step evasion. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Ultimate Evasion triggers Fang Execution that
+      increases Movement Speed by 40% for 3s.\\nFang Execution: Triggers a 3s
+      Time Fracture, restores 100 Fervor, and launches spinning Fangs of Dusk
+      that deal 19 x 8% ATK of Physical DMG (19 x 16% ATK of Physical DMG in
+      Fervent) and inflict</color> <color=#FEDF4CFF>3 Bleed
+      Trauma</color><color=#23B2E2FF>. Fang Execution CD: 15s.</color>"
+    icon: Skill_Theresa_C2_Artifact_003
+    skillType: evasion
+    tags:
+      - type: bleed
+        strength: 1
+        comment: "Inflicts Bleed Trauma; Trauma charge rate: weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "474"
+    name: Crescent Edict
+    info: "The execution starts now! \\n<color=#23B2E2FF>Fangs of Dusk knock enemies
+      in the AOE airborne, dealing 4x80% ATK of AOE Physical DMG. Then 4 Fangs
+      of Dusk splinter into a shower of microblades that deal 10x120% ATK of
+      Physical DMG. Ends by summoning a giant Cross that smashes enemies and
+      deals 600% ATK of Physical DMG.\\nWhen Ultimate ends, Theresa enters
+      Fervent state and gains 15% Crit Rate for 15s.\\nCD: 25s. SP cost:
+      100</color>"
+    icon: Skill_Theresa_C2_Artifact_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "476"
+    name: Passive
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E2FF>Fervor: Starts at
+      0 and maxes at 500. At max Fervor, tap and hold [ATK] to turn Fervent.
+      \\nFervent state Fervor consumption: 0-6s: 5 per 0.1s | 6-12s: 7.5 per
+      0.1s | 12+s: 10 per 0.1s. Fervent ends once Fervor is depleted.</color>"
+    icon: Skill_Theresa_C2_Artifact_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []

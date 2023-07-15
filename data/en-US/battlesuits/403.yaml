@@ -1,0 +1,330 @@
+id: "403"
+fullName: Battle Storm
+shortName: Battle Storm
+desc: "<color=white>Features: </color><color=#FFAF2CFF>BIO-type</color> melee
+  battlesuit that unleashes powerful, charged cleaves. Powerful interrupting
+  skills."
+firstName: Himeko
+lastName: Murata
+enFirstName: null
+enLastName: null
+attributeType: bio
+isEasterner: true
+weapon: 2-handed
+character: himeko
+initialStar: b
+tags:
+  - physical-dmg
+  - heavy-atk
+  - stun
+  - time-mastery
+skills:
+  - id: "151"
+    name: "<color=#FFC741FF>Charge</color>: Heavy Sword"
+    info: "Basic ATK: Tap and hold the [ATK] button to initiate a 2-sequence charge.
+      Tap the [ATK] button again after the 1st Sequence for a follow-up
+      attack.\\n<color=#23B2E2FF>Basic ATK: 180%+250% ATK of Physical DMG.\\n1st
+      Charge Sequence: 400%+630% ATK of Physical DMG.\\n2nd Charge Sequence:
+      700%+900% ATK of Physical DMG.\\nRelease the [ATK] button after 2nd charge
+      sequence to unleash the hits automatically after 2s.</color>"
+    icon: Skill_Himeko_VV_001
+    skillType: basic
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "2nd hit of 1st Charged sequence and 1st, 2nd hits of 2nd Charged
+          sequence are Heavy ATKs; Trauma charge: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1501"
+        name: Fiery Hew
+        info: "Crit hit of Basic, Charged, and Sprint ATK additionally deals #1[i] Fire
+          DMG."
+        brief: Basic, charged, and sprint attacks deal additional Fire DMG when scoring
+          a Crit.
+        icon: Skill_Nagative_Damage01
+        maxLv: 60
+        paramBase1: 150
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 7.28814
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1502"
+        name: Frontal Assault
+        info: "<size=14>During Charged ATKs, gain Ignore Interrupt. Blocks 75% of
+          incoming Physical DMG and provides immunity against stun, freeze, and
+          paralyze effects from frontal attacks. Weakens the blocked attacker
+          and decreases its ATK by #1[i]% for 8s.</size>"
+        brief: During Charged ATKs, gain Ignore Interrupt and blocks stun, freeze, and
+          paralyze effects from frontal attacks, and weakens the blocked
+          attacker.
+        icon: Skill_Nagative_Survive03
+        maxLv: 30
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01034
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "1503"
+        name: Fearless
+        info: "Reduces Physical DMG taken by #1[f1]% when charging."
+        brief: Reduces Physical DMG taken during charging.
+        icon: Skill_Nagative_Survive02
+        maxLv: 25
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01042
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "152"
+    name: Storm Assault
+    info: "Attacks while dashing using sweeping strikes.\\n<color=#23B2E2FF>Sprint
+      ATK: Tap the [ATK] button while sprinting to attack enemies with sweeping
+      strikes, dealing 450% ATK of Physical DMG to enemies in a large
+      AOE.</color>"
+    icon: Skill_Himeko_KZ_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "Switch Skill & Sprint Attack are Heavy ATKs; Trauma charge: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1504"
+        name: "<color=#FFC741FF>Switch</color>: Splitting Cleave"
+        info: "Switch entry unleashes a downward cleave, knocking down enemies within
+          range and dealing #1[i]% ATK of Physical DMG."
+        brief: Switch entry unleashes a downward cleave, knocking down enemies in an
+          area and dealing Physical DMG.
+        icon: Skill_Nagative_StartUp02
+        maxLv: 22
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.07143
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "1505"
+        name: "<color=#FFC741FF>QTE</color>: Storm Slasher"
+        info: "QTE: Triggers when an enemy is paralyzed. Attacks the target with Storm
+          Slasher, dealing 5x#1[i]% + #2[i]% ATK of Physical DMG against enemies
+          nearby and knocking them back."
+        brief: "QTE: Triggered when an enemy is paralyzed to launch Storm Slasher, deal
+          Physical DMG to enemies nearby, and knock them back."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 25
+        paramBase1: 0.6
+        paramBase2: 1.5
+        paramBase3: 0
+        paramAdd1: 0.01671
+        paramAdd2: 0.02083
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+  - id: "153"
+    name: Time Sprint
+    info: "Evasive roll. Can be triggered 2 times in a
+      row.\\n<color=#23B2E2FF>Zephyr: After Ultimate Evasion, gain 40% Move
+      Speed for 3s.\\nTime Fracture: Triggers Time Fracture upon Ultimate
+      Evasion, slowing all enemies for 3s. CD: 15s.</color>"
+    icon: Skill_Himeko_NX_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1506"
+        name: Swift Charge
+        info: "Increases charging speed by #1[i]% during the Time Fracture triggered by
+          own evasion."
+        brief: Significantly increases charging speed during Time Fracture.
+        icon: Skill_Nagative_Damage01
+        maxLv: 20
+        paramBase1: 0.45
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02895
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "1507"
+        name: Vigilant
+        info: "Shortens CD of Time Fracture by #1[f1]s."
+        brief: Shortens CD of Time Fracture.
+        icon: Skill_Nagative_Survive01
+        maxLv: 30
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05172
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+  - id: "154"
+    name: Tornado Storm
+    info: "Spins weapon to attack surrounding enemies.\\n<color=#23B2E2FF>Deals
+      7x120% ATK of Physical DMG to surrounding enemies. Last hit deals 400% ATK
+      of Physical DMG and knocks enemies airborne.\\nAttracts nearby enemies
+      when activated.\\nSP Cost: 50.</color>"
+    icon: Skill_Himeko_KZ_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 4
+        comment: "Ultimate is Heavy ATK and stacks Trauma multiple times; Trauma charge:
+          weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1508"
+        name: Fire Storm
+        info: "During the Ultimate spinning attack, each hit additionally deals #1[i]
+          Fire DMG."
+        brief: During the Ultimate spinning attack, each hit deals additional Fire DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 70
+        paramBase1: 80
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 2.31884
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1509"
+        name: Final Blow
+        info: "The last hit of Ultimate deals #1[i]% ATK of bonus Physical DMG and
+          inflicts <color=#FEDF4CFF>5 Stun Trauma</color>."
+        brief: The last hit of Ultimate deals bonus Physical DMG and inflicts Stun
+          Trauma.
+        icon: Skill_Nagative_Damage03
+        maxLv: 20
+        paramBase1: 1.2
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.06842
+        paramAdd2: 0.10526
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 1
+            comment: "Inflicts Stun Trauma; Trauma charge rate: weak."
+        toggle: false
+        unlockStar: sss
+  - id: "155"
+    name: Stand By
+    info: "Leader Bonus: <color=#23B2E2FF>Stand By: {{Team takes #1[i]% less Melee
+      Physical DMG.}}</color>"
+    icon: Skill_Himeko_VV_005
+    skillType: leader
+    tags: []
+    paramSubId1: 1510
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1510"
+        name: Stand By
+        info: "Team receives #1[i]% less Melee Physical DMG."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Survive01
+        maxLv: 4
+        paramBase1: 0.18
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "156"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF></color>
+    icon: Skill_Himeko_VV_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1511"
+        name: Crush
+        info: "Basic ATK and Charged ATK have a #1[f1]% chance to inflict
+          <color=#FEDF4CFF>3 Stun Trauma</color>."
+        brief: Basic ATK and Charged ATK may inflict Stun Trauma.
+        icon: Skill_Nagative_Control02
+        maxLv: 19
+        paramBase1: 0.07
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00444
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 1
+            comment: "Inflicts Stun Trauma; Trauma charge rate: weak."
+        toggle: false
+        unlockStar: s
+      - id: "1512"
+        name: Feuerhau
+        info: Breaking an enemy shield inflicts <color=#FEDF4CFF>5 Ignite
+          Trauma</color>.
+        brief: Breaking an enemy shield inflicts Ignite Trauma.
+        icon: Skill_Nagative_Damage02
+        maxLv: 20
+        paramBase1: 80
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 3.68421
+        paramAdd2: 0.10526
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 1
+            comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+              charge rate: weak."
+        toggle: false
+        unlockStar: ss
+      - id: "1513"
+        name: Courage
+        info: "Takes #1[f1]% less Elemental DMG."
+        brief: Takes less Elemental DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 24
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00652
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b

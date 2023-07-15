@@ -1,0 +1,381 @@
+id: "802"
+fullName: "Bright Knight: Excelsis"
+shortName: "Bright Knight: Excelsis"
+desc: "<color=white>Features: </color><color=#2CE3FFFF>Mecha-type</color> melee
+  battlesuit. Can summon automatic phantoms to assist in combat. Has excellent
+  DEF power that can neutralize enemy's attack and counterattack."
+firstName: Durandal
+lastName: null
+enFirstName: null
+enLastName: null
+attributeType: mech
+isEasterner: true
+weapon: lance
+character: durandal
+initialStar: s
+tags:
+  - physical-dmg
+  - heavy-atk
+  - time-mastery
+  - burst
+skills:
+  - id: "541"
+    name: Gladius Milites
+    info: "Lance attacks.\\n<color=#23B2E2FF>1st Sequence: 100% ATK of Physical
+      DMG.\\n2nd Sequence: 120% ATK of Physical DMG.\\n3rd Sequence: 200% ATK of
+      Physical DMG.\\n4th Sequence: 4x100% ATK of Physical DMG x2.\\n5th
+      Sequence: 150%+250% ATK of Physical DMG.</color>"
+    icon: Skill_Durandal_C2_GD_541
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5401"
+        name: Seize the Center
+        info: "When not in burst mode, 4th and 5th sequences grant Ignore Interrupt and
+          #1[f1]% total DMG reduction."
+        brief: When not in burst mode, 4th and 5th sequences grant Ignore Interrupt and
+          total DMG reduction.
+        icon: Skill_Nagative_Survive01
+        maxLv: 11
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5402"
+        name: King's Gambit
+        info: "When not in burst mode, every hit of 4th sequence of Basic ATK recovers
+          #1[f1] bonus SP."
+        brief: When not in burst mode, every hit of 4th sequence recovers bonus SP.
+        icon: Skill_Nagative_Skill01
+        maxLv: 21
+        paramBase1: 0.8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.045
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5403"
+        name: <color=#FFC741FF>QTE</color> - Falkbeer's Counter
+        info: "QTE: Triggered when an enemy is Time-Slowed to deal 5x40% + #1[i]% ATK of
+          Physical DMG and grant 2 stacks of Paragon."
+        brief: Triggered when an enemy is Time-Slowed to deal Physical DMG and grant 2
+          stacks of Paragon. Hold [ATK] after QTE to cast Javelin.
+        icon: Skill_Nagative_Skill02
+        maxLv: 10
+        paramBase1: 4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.44444
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "542"
+    name: Kontos Equites
+    info: Tap or hold [ATK] after certain moves to perform Charged
+      ATKs.\n<color=#23B2E2FF>Hold [ATK] during the 5th sequence of Basic ATK or
+      tap [ATK] after a successful Retaliation to perform Javelin or Javelin EX.
+      Javelin deals 4x100% ATK of Physical DMG. Javelin EX deals 4x260% ATK of
+      Physical DMG and pulls in enemies around the lance's landing point for
+      3s.\nThe 4th sequence of Basic ATK can be performed right after Javelin or
+      Javelin EX.\nIn Burst mode, tap [ATK] upon a successful Retaliation to
+      perform Phantom Blade or Phantom Cleave. Phantom Blade deals 650% ATK of
+      Physical DMG. Phantom Cleave immediately pulls in all nearby enemies and
+      then deals a total of 1550% ATK of Physical DMG.\nJavelin EX and Phantom
+      Cleave are triggered by Focus EX.</color>
+    icon: Skill_Durandal_C2_GD_542
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "Javelin EX and Phantom Blade are Heavy ATKs. Trauma charge rate: weak.
+          Phantom Cleave is Heavy ATK. Trauma charge rate: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5404"
+        name: Knightly Phalanx
+        info: "Javelin and Javelin EX deal #1[f1]% more DMG against shields. Each hit of
+          Javelin / Javelin EX additionally restores #2[f1]/#3[f1] SP
+          respectively."
+        brief: Javelin and Javelin EX deal higher DMG against shields. Each hit of
+          Javelin and Javelin EX additionally restores SP.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0.7
+        paramBase3: 1
+        paramAdd1: 0.01
+        paramAdd2: 0.07
+        paramAdd3: 0.1
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5405"
+        name: Hallowed Oberhau
+        info: "Phantom Cleave deals #1[f1]% ATK of bonus Physical DMG."
+        brief: Phantom Cleave deals bonus Physical DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.7
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.08
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "543"
+    name: Scutum Divinitas
+    info: "Durandal adopts defense posture to block incoming attacks and
+      retaliate.\\n<color=#23B2E2FF>Tap [Evade] (non-directional) for Defense,
+      during which incoming attacks trigger Retaliation, nullifying the attacks
+      and returning 50% ATK of Physical DMG.\\nRetaliation and Ultimate Evasion
+      can both trigger Focus EX.\\nFocus EX triggers brief Time Slow and enables
+      Javelin EX or Phantom Cleave. CD: 10s. Minimum CD: 8s.</color>"
+    icon: Skill_Durandal_C2_GD_543
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5407"
+        name: Giuoco's Serenity
+        info: "Retaliation recovers #1[f1]% of max HP and grants #2[f1]% of bonus
+          Physical DMG plus #3[f1]% total DMG reduction to self for 8s."
+        brief: Retaliation recovers HP and grants bonus Physical DMG plus total DMG
+          reduction to self.
+        icon: Skill_Nagative_Survive02
+        maxLv: 15
+        paramBase1: 0.05
+        paramBase2: 0.25
+        paramBase3: 0.15
+        paramAdd1: 0.00357
+        paramAdd2: 0.01786
+        paramAdd3: 0.01071
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5408"
+        name: Evans Assault
+        info: "Enemies hit by Retaliation are inflicted with Physical Vulnerability and
+          take #1[f1]% bonus Physical DMG for 10s."
+        brief: Enemies hit by Retaliation are inflicted with Physical Vulnerability and
+          take more Physical DMG.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.005
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "544"
+    name: Sceptrum Regalis
+    info: "Enter Burst mode, which unlocks the true potential of Bright Knight:
+      Excelsis.\\n<color=#23B2E2FF>SEQ 1: 150% ATK of Physical DMG.\\nSEQ 2:
+      180% + 200% ATK of Physical DMG.\\nSEQ 3: 280% ATK of Physical DMG.\\nSEQ
+      4: 6 x 70% ATK of Physical DMG.\\nSEQ 5: 450% ATK of Physical DMG.\\nEvade
+      forward to deal 100% ATK of Physical DMG and enter Turbojet state, which
+      enables Turbojet Assault that deals 200% + 250% ATK of Physical DMG.
+      Turbojet Assault can be connected into Basic ATK SEQ 3.\\nWhen Focus EX is
+      off cooldown, hit an enemy upon entering Turbojet (forward evasion) to
+      trigger Retaliation and Focus EX.\\nBurst mode lasts 23s and costs 100 SP
+      to activate, during which Durandal gains Iron Body. CD: 25s.\\nSwitching
+      out will end Burst mode.</color>"
+    icon: Skill_Durandal_C2_GD_544
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 1
+        comment: "The 3rd and 5th ATKs of Basic ATK sequence in Burst mode are Heavy
+          ATKs. Trauma charge rate: weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5410"
+        name: Benoni's Breaker
+        info: "In Burst mode, the Valkyrie deals #1[f1]% more DMG against shields and
+          #2[f1]% more Physical DMG against shieldless enemies."
+        brief: In Burst mode, the Valkyrie deals higher DMG against shields and higher
+          Physical DMG against shieldless enemies.
+        icon: Skill_Nagative_Damage01
+        maxLv: 31
+        paramBase1: 0.1
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.00333
+        paramAdd2: 0.005
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5411"
+        name: Caro–Kann Bulwark
+        info: "The ending of burst mode recovers #1[i] SP."
+        brief: The ending of burst mode recovers SP.
+        icon: Skill_Nagative_Skill03
+        maxLv: 11
+        paramBase1: 7
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.8
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "5412"
+        name: Knight's Tour
+        info: "In Burst mode, Total DMG is boosted by #1[f1]%."
+        brief: In burst mode, total DMG is boosted.
+        icon: Skill_Nagative_Damage02
+        maxLv: 21
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0125
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "545"
+    name: Horns of Jericho
+    info: "Leader Bonus:\\n<color=#23B2E2FF>{{Grants #1[f1]% bonus Physical DMG and
+      #2[f1]% bonus Crit DMG to the team.}}</color>"
+    icon: Skill_Durandal_C2_GD_545
+    skillType: leader
+    tags: []
+    paramSubId1: 5413
+    paramSubId2: 5413
+    paramSubId3: 0
+    subSkills:
+      - id: "5413"
+        name: Horns of Jericho
+        info: "Team deals #1[f1]% bonus Physical DMG and #2[f1]% bonus Crit DMG."
+        brief: Teams deals more Physical DMG and Crit DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.22
+        paramBase2: 0.22
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0.015
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+      - id: "5417"
+        name: When the Flag Flutters
+        info: "Ultimate Evasion restores #1[i] SP and boosts Crit Rate by #2[f1]% for
+          8s."
+        brief: Ultimate Evasion restores SP and boosts Crit Rate
+        icon: Skill_Nagative_Damage03
+        maxLv: 2
+        paramBase1: 4
+        paramBase2: 0.07
+        paramBase3: 0
+        paramAdd1: 2
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+      - id: "5418"
+        name: When the Stars Sparkle
+        info: Every Retaliation grants 1 bonus Paragon stack.
+        brief: Retaliation grants bonus Paragon.
+        icon: Skill_Nagative_Damage03
+        maxLv: 1
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss2
+  - id: "546"
+    name: Passive Skill
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E2FF>Paragon: Durandal
+      stacks Paragon when taking damage, and every stack empowers her. 10 stacks
+      max.</color>"
+    icon: Skill_Durandal_C2_GD_546
+    skillType: passive
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "Throw ATK is Heavy ATK. Trauma charge rate: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5414"
+        name: Castling
+        info: "Every Paragon stack grants Durandal #1[f1]% total DMG reduction."
+        brief: Every Paragon stack grants Durandal total DMG reduction.
+        icon: Skill_Nagative_Survive02
+        maxLv: 11
+        paramBase1: 0.015
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0015
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5415"
+        name: Checkmate
+        info: "At 10 Paragon stacks, self total DMG is boosted by #1[f1]%."
+        brief: At 10 Paragon stacks, self total DMG is boosted.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.08
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.012
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5416"
+        name: Queen's Promotion
+        info: "Every hit taken grants Durandal a Paragon stack which boosts self total
+          DMG by #1[f1]% for 40s (10 stacks max). Retaliation grants 2 bonus
+          stacks."
+        brief: Every hit taken grants Durandal a Paragon stack which boosts self total
+          DMG for 40s (10 stacks max). Retaliation grants 2 bonus stacks.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.02
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.002
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

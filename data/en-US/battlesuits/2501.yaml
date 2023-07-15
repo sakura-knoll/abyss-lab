@@ -1,0 +1,358 @@
+id: "2501"
+fullName: Sweet 'n' Spicy
+shortName: Sweet 'n' Spicy
+desc: "<color=white>Features: </color><color=#2CE3FFFF>MECH-type</color> melee
+  battlesuit fighting with gigantic mechanical gauntlets. Capable of
+  multi-sequence shield breaking Charged ATK and aerial takedown."
+firstName: Carole
+lastName: Pepper
+enFirstName: null
+enLastName: null
+attributeType: mech
+isEasterner: false
+weapon: fists
+character: apho-carol
+initialStar: a
+tags:
+  - physical-dmg
+  - time-mastery
+  - aerial
+  - gather
+  - stun
+  - heavy-atk
+skills:
+  - id: "711"
+    name: Kissy Pillow Strikes
+    info: "Fist attacks.\\n<color=#23B2E3FF>SEQ 3 grants 1 stack of Armor Shredder
+      (3 stacks max).\\n3-hit ground Basic ATK: 150%+150%+250% ATK of Physical
+      DMG.\\nUpward Thrust: 250%+75%x3 ATK of Physical DMG.\\nDownward slam:
+      150%+200%x2 ATK of Physical DMG.</color>"
+    icon: Skill_Carol_SP_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7101"
+        name: Leave the Tough Nuts to Me
+        info: "For every stack of Armor Shredder, Sweet 'n' Spicy's Charged ATK deals
+          #1[f1]% bonus Total DMG and her shield breaking capacity improves by
+          #2[f1]%."
+        brief: Armor Shredder stacks boost Charged ATK DMG and shield breaking capacity.
+        icon: Skill_Nagative_Damage01
+        maxLv: 6
+        paramBase1: 0.4
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.15
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7102"
+        name: "<color=#FFC741FF>QTE</color>: Kissy Pillow Consecutive Punches"
+        info: "QTE: Triggered by impaired enemies to induce 2s of Global Time Fracture,
+          strike enemies (twice by default and can be increased to up to 5 times
+          by spamming [ATK]), deal 150%x4xhits+800% ATK of Physical DMG, and
+          grant 3 Armor Shredder stacks. Every hit boosts shield breaking
+          capacity by #1[f1]% for 10s (20 stacks max). QTE entry reduces the CD
+          of the next switch by #2[f1]s and restores #3[f1] SP."
+        brief: "QTE: Triggered by impaired enemies, triggering Global Time Fracture to
+          strike enemies continuously. Every hit boosts shield breaking capacity
+          for 10s. QTE entry reduces the CD of the next switch and grants bonus
+          SP."
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.05
+        paramBase2: 2
+        paramBase3: 6
+        paramAdd1: 0.00556
+        paramAdd2: 0.22222
+        paramAdd3: 0.44444
+        tags: []
+        toggle: true
+        unlockStar: a
+  - id: "712"
+    name: "<color=#FFC741FF>Charged ATK</color>: Kissy Pillow Serious Punch"
+    info: "Charge for varying durations to perform different
+      attacks.\\n<color=#23B2E4FF>Hold [ATK] to charge, during which Valkyrie
+      takes 80% less Total DMG and has Iron Body. Short charge and long charge
+      result in different attacks.\\nCharged ATK I: 300% ATK of Physical
+      DMG.\\nCharged ATK II: 450% ATK of Physical DMG.\\nCharged ATK III: 700%
+      ATK of Physical DMG.\\nWhen casting Charged ATK in mid-air, enemies nearby
+      are gathered and take 20% ATK of Physical DMG during charging.\\nAerial
+      Charged ATK I: 225% ATK of Physical DMG.\\nAerial Charged ATK II: 700% ATK
+      of Physical DMG.</color>"
+    icon: Skill_Carol_SP_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 1
+        comment: "Full-stage Charged ATK is Heavy ATK. Trauma charge rate:
+          weak.\\nTrauma charge rate in Amazing Carole state: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7104"
+        name: The Harder the Better
+        info: "Charged ATK deals #1[f1]% bonus Physical DMG to shielded enemies and
+          #2[f1]% bonus Total DMG to PSY enemies."
+        brief: Charged ATK deals bonus Physical DMG to shielded enemies and bonus Total
+          DMG to PSY enemies.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.15
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.045
+        paramAdd2: 0.04
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7105"
+        name: Nap Time
+        info: "Charged ATK III inflicts <color=#FEDF4CFF>12 Stun Trauma</color> (CD:
+          #2[f1]s). If enemies hit lose their shields within 10s after, they are
+          rendered Shattered Armor for #3[f1]s, during which their shields
+          cannot recover."
+        brief: Charged ATK III inflicts Stun Trauma. If enemies hit lose their shields
+          within 10s after, they are rendered Shattered Armor, during which
+          their shields cannot recover.
+        icon: Skill_Nagative_Control02
+        maxLv: 10
+        paramBase1: 1.8
+        paramBase2: 16
+        paramBase3: 1
+        paramAdd1: 0.13333
+        paramAdd2: -0.44444
+        paramAdd3: 0.44444
+        tags:
+          - type: stun
+            strength: 2
+            comment: "Inflicts Stun Trauma; Trauma charge rate: medium."
+        toggle: false
+        unlockStar: s
+  - id: "713"
+    name: Arahato Mobility
+    info: "Quickly dodge enemy attacks.\\n<color=#23B2E5FF>Can be connected into
+      Thrust Punch dealing 75%x2 ATK of Physical DMG, and further connected into
+      the Basic ATK SEQ 3.\\nUltimate Evasions trigger Ultimate Evasion Skill:
+      Thrust Punch EX, which triggers 3s of Global Time Fracture and can be
+      connected into Ultimate Evasion ATK to deal 150%x2 ATK of Physical
+      DMG.\\nUp to 2 evasions in a row on the ground. CD: 15s. Only 1 evasion
+      allowed in mid-air but it resets aerial Charged ATK.</color>"
+    icon: Skill_Carol_SP_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7110"
+        name: Stroll Mode
+        info: "Thrust Punch EX's CD is reduced by #1[f1]s."
+        brief: Thrust Punch EX's CD is reduced.
+        icon: Skill_Nagative_Survive02
+        maxLv: 8
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.21429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7111"
+        name: Dessert Time
+        info: "The 2nd hit of Thrust Punch EX grants 1 stack of Armor Shredder and
+          restores #1[f1] HP on hit."
+        brief: The 2nd hit of Thrust Punch EX grants 1 stack of Armor Shredder and
+          restores HP on hit.
+        icon: Skill_Nagative_Survive03
+        maxLv: 8
+        paramBase1: 120
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 32.85714
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "714"
+    name: Kissy Pillow ☆ Burst
+    info: "Bash enemies twice and leap up to deal AoE DMG.\\n<color=#23B2E6FF>Hold
+      down ULT to use Ultimate, triggering a Global Time Fracture for 5 seconds.
+      During that time, bash enemies twice dealing 1200% ATK of Physical DMG and
+      leap up to slam the ground dealing 1000% ATK of Physical DMG in a large
+      area and knocking enemies airborne. Can be cast in mid-air.\\nSP cost: 50.
+      CD: 20s.</color>"
+    icon: Skill_Carol_SP_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 1
+        comment: "Last hit of Ultimate is Heavy ATK. Trauma charge rate: weak.\\nTrauma
+          charge rate in Amazing Carole state: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7107"
+        name: Serious Mode
+        info: "Ultimate deals #1[f1]% bonus Total DMG."
+        brief: Ultimate deals bonus Total DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "7108"
+        name: Mood Maker
+        info: "Ultimate boosts team Physical DMG by #1[f1]% and team Total DMG by
+          #2[f1]% for 20s. If Ultimate hits an enemy whose shield is broken,
+          team deals #3[f1]% bonus Physical DMG."
+        brief: Ultimate boosts team Physical DMG and team Total DMG. If Ultimate hits an
+          enemy whose shield is broken, team deals bonus Physical DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0.1
+        paramBase3: 0.1
+        paramAdd1: 0.02
+        paramAdd2: 0.01
+        paramAdd3: 0.04
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "715"
+    name: Star of Hope
+    info: "Leader Bonus:\\n<color=#23B2E7FF>{{Charged ATKs deal #1[f1]% bonus Total
+      DMG. Team's melee Physical DMG increase by #2[f1]%.}}</color>"
+    icon: Skill_Carol_SP_005
+    skillType: leader
+    tags: []
+    paramSubId1: 7113
+    paramSubId2: 7113
+    paramSubId3: 0
+    subSkills:
+      - id: "7113"
+        name: Star of the Team
+        info: "Charged ATK deals #1[f1]% bonus Total DMG. Team deals #2[f1]% bonus melee
+          Physical DMG."
+        brief: Charged ATK deals bonus Total DMG. Team deals bonus melee Physical DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 0.12
+        paramBase2: 0.12
+        paramBase3: 0
+        paramAdd1: 0.00667
+        paramAdd2: 0.00333
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "716"
+    name: Amazing Carole
+    info: Passive bonuses apply automatically.\n<color=#23B2E8FF>At 3 stacks of
+      Armor Shredder, the next Charged ATK consumes all stacks and induces
+      Amazing Carole state for 15s. Triggering it again resets the duration.
+      When Sweet 'n' Spicy is switched out in Amazing Carole state, the
+      switched-in teammate obtains the same enhancements.</color>
+    icon: Skill_Carol_SP_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7114"
+        name: Amazing Mode
+        info: "In Amazing Carole state, Valkyrie takes #1[f1]% less Total DMG and has
+          #2[f1]% bonus shield breaking capacity. Additionally, Sweet 'n'
+          Spicy's shield breaking capacity increases by #3[f1]%."
+        brief: In Amazing Carole state, Valkyrie takes less Total DMG and has bonus
+          shield breaking capacity. Additionally, Sweet 'n' Spicy's shield
+          breaking capacity further increases.
+        icon: Skill_Nagative_Damage03
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0.1
+        paramBase3: 0.5
+        paramAdd1: 0.04
+        paramAdd2: 0.08
+        paramAdd3: 0.3
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "717"
+    name: Sweet Kohai
+    info: Teammates can be switched in during Ultimate.\n<color=#23B2E9FF>If a
+      teammate is switched in during Sweet 'n' Spicy's Ultimate, she will stay
+      on the field until she finishes her Ultimate.</color>
+    icon: Skill_Carol_SP_007
+    skillType: sp
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7117"
+        name: My Hands Are Burning
+        info: "When charging, Crit DMG and Crit Rate increase by #1[f1]% and #2[f1]% per
+          second for 10s respectively. 2 stacks max. Triggering it again resets
+          the duration."
+        brief: When charging, Crit DMG and Crit Rate increase over time. Stacks twice.
+        icon: Skill_Nagative_Damage03
+        maxLv: 7
+        paramBase1: 0.4
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.02833
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7118"
+        name: Fully Charged
+        info: "Max Charged ATK restores #1[f1] SP on hit."
+        brief: Max Charged ATK restores SP on hit.
+        icon: Skill_Nagative_Skill01
+        maxLv: 5
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1.25
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "7119"
+        name: Venting Time
+        info: "On hit, max Charged ATK boosts Ultimate Physical DMG by #1[f1]% for 10s.
+          Triggering it again resets the duration."
+        brief: Max Charged ATK boosts Ultimate Physical DMG on hit.
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.25
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

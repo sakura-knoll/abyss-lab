@@ -1,0 +1,45 @@
+id: "156"
+name: Idol Transformation Set
+desc: null
+skills:
+  - id: "4270"
+    name: Temporary Female Lead
+    info: "When weapon skill hits, grants 1 stack of Spotlight that increases Fire
+      DMG by #1[f1]%. Can only be triggered once per second and can stack 3
+      times. At max stacks, all team members deal #2[f1]% more Fire DMG to
+      ignited enemies for 20s. Triggering it again resets the duration. Cannot
+      stack."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: fire-dmg
+        comment: null
+    param1: 0.08
+    param1Add: 0
+    param2: 0.3
+    param2Add: 0
+    param3: 0
+    param3Add: 0
+  - id: "4271"
+    name: Idol Spirit
+    info: "Weapon skills deal #1[f1]% more Fire DMG. When any team member attacks an
+      ignited enemy, it takes #2[f1]% more Fire DMG for 5s (cannot stack);
+      Triggering it again refreshes its duration. Chrono Navi equip bonus:
+      Igniting enemies will make them take #3[f1]% more ignite DMG for 10s."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: fire-dmg
+        comment: null
+    param1: 0.15
+    param1Add: 0
+    param2: 0.35
+    param2Add: 0
+    param3: 0.2
+    param3Add: 0
+stigmaIdList:
+  - "111157"
+  - "111158"
+  - "111159"

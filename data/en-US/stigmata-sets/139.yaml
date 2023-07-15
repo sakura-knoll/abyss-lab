@@ -1,0 +1,45 @@
+id: "139"
+name: Pristine Elf set
+desc: null
+skills:
+  - id: "4236"
+    name: Crystal Prayers
+    info: "Total DMG increases by #1[f1]%. On hit, Charged ATKs make every attack in
+      the next 5s deal #2[f1]% ATK of Physical DMG (can only be triggered once
+      every 0.3s on each target). Host takes #3[f1]% less Total DMG from enemies
+      within 5 meters."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: physical-dmg
+        comment: null
+    param1: 0.25
+    param1Add: 0
+    param2: 0.2
+    param2Add: 0
+    param3: 0.2
+    param3Add: 0
+  - id: "4237"
+    name: Blessed Realm
+    info: "Crit DMG from ranged attacks increases by #1[f1]%. Casting Ultimate makes
+      ranged attacks deal #2[f1]% ATK of bonus Physical DMG (can only be
+      triggered once every 0.3s on each target) for #3[f1]s (hitting enemies
+      with Charged ATKs extends the duration by 1s for up to 10s of extension).
+      Charged ATKs restore 200 HP on hit. CD: 5s."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: physical-dmg
+        comment: null
+    param1: 0.3
+    param1Add: 0
+    param2: 0.2
+    param2Add: 0
+    param3: 10
+    param3Add: 0
+stigmaIdList:
+  - "111112"
+  - "111113"
+  - "111114"

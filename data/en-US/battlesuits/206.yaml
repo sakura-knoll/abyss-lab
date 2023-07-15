@@ -1,0 +1,349 @@
+id: "206"
+fullName: Herrscher of Origin
+shortName: Herrscher of Origin
+desc: <color=white>Features:</color> <color=#F3DFAEFF>IMG-type</color> melee
+  fighter able to deal Lightning DMG in various ways.
+firstName: Mei
+lastName: Raiden
+enFirstName: null
+enLastName: null
+attributeType: img
+isEasterner: true
+weapon: katana
+character: mei
+initialStar: s
+tags:
+  - lightning-dmg
+  - fast-atk
+skills:
+  - id: "821"
+    name: Strike of Fulminata
+    info: "Wields a katana to continuously attack enemies.\\n<color=#23B2E3FF>\\nSEQ
+      1: Deals 90% ATK of Lightning DMG.\\n\\nSEQ 2: Deals 70% × 2 + 90% ATK of
+      Lightning DMG.\\n\\nSEQ 3: Deals 75% × 3 ATK of Lightning DMG.\\nSEQ 4:
+      Deals 30% × 10 ATK of Lightning DMG and grants Mind Body Insight, during
+      which character is in Iron Body state and has 40% DMG Reduction. After the
+      sheathing animation of SEQ 4, the attack will be completed even if
+      interrupted.\\nEvasion and weapon skills will not reset Basic ATK combo
+      hits. Basic ATK inflicts minor Paralyze Trauma.</color>"
+    icon: Skill_Mei_C6_821
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8201"
+        name: "<color=#FFC741FF>QTE</color>: Quest without Return"
+        info: "QTE: Triggered when an enemy is Time-Slowed, paralyzed or hit by Kiana's
+          Combo ATK. Deals 300% + #1[f1]% ATK of Lightning DMG and generates Sin
+          of Killing once; if Wing Blades are not loaded with Twisted Origin,
+          load them with 1 stack of Twisted Origin. When Herrscher of Finality
+          and Herrscher of Truth are on the team, deal 50% more Total DMG within
+          10s of QTE entry; triggering it again refreshes its duration."
+        brief: "QTE: Triggered when an enemy is Time-Slowed, paralyzed or hit by Kiana's
+          Combo ATK. Deals Lightning DMG and generates Sin of Killing once; if
+          Wing Blades are not loaded with Twisted Origin, load them with 1 stack
+          of Twisted Origin. When Herrscher of Finality and Herrscher of Truth
+          are on the team, deal more Total DMG within 10s of QTE entry;
+          triggering it again refreshes its duration."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 13
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.25
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "8202"
+        name: Deviation of Serpent's Return
+        info: "An enemy hit by QTE or Basic ATK SEQ 4 takes #1[f1]% more Lightning DMG
+          from Herrscher of Origin for 8s (cannot stack). Triggering it again
+          refreshes its duration."
+        brief: An enemy hit by QTE or Basic ATK SEQ 4 takes more Lightning DMG from
+          Herrscher of Origin for 8s (cannot stack). Triggering it again
+          refreshes its duration.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.14
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.006
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "822"
+    name: "<color=#FFC741FF>Combo</color>: Phantasm of Danzai"
+    info: Harnesses the power of lightning to sunder time and channel energy to
+      destroy enemies.\n<color=#23B2E4FF>\nTap [ATK] after Basic ATK SEQ 4 or
+      Basic ATK sheathing to cast Combo ATK and deal 120% ATK of Lightning DMG.
+      At full Mind Body Insight, hits consume all Mind Body Insight to trigger
+      Regressive Origin and activate Time-frozen Domain, during which all skill
+      timers and the stage timer are paused.\nTap [ATK] after Regressive Origin
+      to perform a 2-sequence attack dealing 30% + 10% + 240% ATK of Lightning
+      DMG.\n\nTriggering Regressive Origin grants 1 stack of Twisted Origin for
+      Wing Blades. At 3 stacks, hold [ATK] to trigger Malice Expunged dealing
+      200% + 200% + 700% + 70% x 5 ATK of Lightning DMG.</color>
+    icon: Skill_Mei_C6_822
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8204"
+        name: Proof of Rime's Thawing
+        info: "On hit, Malice Expunged restores #1[f1] SP to Herrscher of Origin, makes
+          her deal #2[f1]% more Total DMG and take #3[f1]% less Total DMG, and
+          increases her Ignore Interrupt by 1 level for 10s. Triggering it again
+          refreshes its duration."
+        brief: On hit, Malice Expunged restores SP to the character, makes her deal more
+          Total DMG and take less Total DMG, and increases her Ignore Interrupt
+          by 1 level. Triggering it again refreshes its duration.
+        icon: Skill_Nagative_Skill01
+        maxLv: 10
+        paramBase1: 2
+        paramBase2: 0.2
+        paramBase3: 0.15
+        paramAdd1: 0.33344
+        paramAdd2: 0.01667
+        paramAdd3: 0.01667
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8205"
+        name: Raven Pinions of Evil Purging
+        info: "Combo ATK and Ultimate gain #1[f1]% Elemental Breach."
+        brief: Combo ATK and Ultimate gain Elemental Breach.
+        icon: Skill_Nagative_Damage02
+        maxLv: 12
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00909
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8206"
+        name: Inscription of Bygone Heroes
+        info: "Lightning DMG increases by #1[f1]%, and Lightning DMG from Combo ATK and
+          Ultimate increases by #2[f1]% additionally."
+        brief: Lightning DMG increases, and Lightning DMG from Combo ATK and Ultimate
+          increases additionally.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.25
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0.03333
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "823"
+    name: Introspection of Crimson
+    info: "Quickly dodge enemy attacks and perform powerful slashes after successful
+      evasions.\\n<color=#23B2E5FF>At full Mind Body Insight, tap [ATK] after
+      evasion to perform Combo ATK.\\nTap [ATK] after triggering Ultimate
+      Evasion Skill to trigger Regressive Origin: Moment, dealing 100% + 200% +
+      350% ATK of Lightning DMG and granting 1 stack of Twisted Origin. Ultimate
+      Evasion Skill CD: 16s. Regressive Origin: Moment CD: 5s.\\nRegressive
+      Origin: Moment is considered Basic ATK and triggers Time-frozen
+      Domain.</color>"
+    icon: Skill_Mei_C6_823
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8207"
+        name: Solitude of Feathers Lost
+        info: "Ultimate Evasion Skill CD is reduced by #1[f1]s. Attacks triggered by
+          Ultimate Evasion Skill deal an additional #2[f1]% ATK of Lightning DMG
+          in total. After casting Malice Expunged 2 times, gain 1 stack of
+          Origin's Shadow. The next Ultimate Evasion Skill will consume Origin's
+          Shadow to reduce CD by another #3[f1]s. The character gains 1 stack of
+          Origin's Shadow on entry."
+        brief: Ultimate Evasion Skill CD is reduced. Attacks triggered by Ultimate
+          Evasion Skill deal additional Lightning DMG. After casting Malice
+          Expunged 2 times, gain 1 stack of Origin's Shadow. The next Ultimate
+          Evasion Skill will consume Origin's Shadow to reduce CD. The character
+          gains 1 stack of Origin's Shadow on entry.
+        icon: Skill_Nagative_Skill03
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 1
+        paramBase3: 2.5
+        paramAdd1: 0.15
+        paramAdd2: 0.1
+        paramAdd3: 0.25
+        tags: []
+        toggle: false
+        unlockStar: s2
+  - id: "824"
+    name: Thunder of Redemption
+    info: "Perform successive slashes to sunder enemies and even
+      time.\\n<color=#23B2E6FF>Casting Ultimate deals 200% ATK of Lightning DMG,
+      during which you can swipe the screen, tap [ATK], tap directions, or move
+      the joystick to slash repeatedly and deal 85% ATK of Lightning DMG per
+      hit. After 12 slashes or 20 seconds, the final slash is triggered to deal
+      500% + 30% x 5 ATK of Lightning DMG and trigger Time-frozen Domain which
+      pauses all skill timers and the stage timer.\\nSP cost: 75. CD:
+      18s.\\n\\nWith Herrscher of Finality and Herrscher of Truth on the team,
+      Ultimate is replaced by Joint Bursting.\\nJoint Bursting deals 450% ATK of
+      Lightning DMG, removes Herrscher of Finality's switch CD, and triggers
+      Herrscher of Finality's special QTE ATK.\\nJoint Bursting's SP cost: 50.
+      CD: 15 (unaffected by CD reduction).</color>"
+    icon: Skill_Mei_C6_824
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8210"
+        name: Manifestation of Divided Fate
+        info: "Ultimate deals #1[f1]% more Lightning DMG. Final slash deals an
+          additional #2[f1]% Lightning DMG."
+        brief: Ultimate deals more Lightning DMG. Final slash deals additional Lightning
+          DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 13
+        paramBase1: 0.4
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: 0.03333
+        paramAdd2: 0.08333
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "8211"
+        name: Lament of the Fallen's Farewell
+        info: "If Ultimate hits IMG-type enemies, #1[f1]% of the DMG a Nihilus Shell
+          takes will be transferred to its Nihilus Seed (reflected by HP loss)."
+        brief: When Ultimate hits an IMG-type enemy, the DMG its Nihilus Shell takes
+          will be transferred to its Nihilus Seed (manifests as HP loss).
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8212"
+        name: Renouncement of Selfless Sacrifice
+        info: "Joint Bursting makes all enemies take #1[f1]% more Total DMG for
+          10s.\\nWhen Herrscher of Finality and Herrscher of Truth are on the
+          team, casting Malice Expunged makes the team deal #2[f1]% more Total
+          DMG for 10s. Triggering it again refreshes its duration."
+        brief: Joint Bursting makes all enemies take more Total DMG. When Herrscher of
+          Finality and Herrscher of Truth are on the team, casting Malice
+          Expunged makes the team deal more Total DMG.
+        icon: Skill_Nagative_Skill02
+        maxLv: 16
+        paramBase1: 0.05
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 0.00333
+        paramAdd2: 0.00333
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "825"
+    name: Epiphany of Origin
+    info: "Leader Bonus:\\n<color=#23B2E7FF>Leader Skill: {{The team deals #1[f1]%
+      more Elemental DMG and has #2[f1] more initial SP. When Kiana is on the
+      team, Kiana and the character have #3[f1] more initial SP. In Open World,
+      the increase to initial SP is triggered every 10 min.}}</color>"
+    icon: Skill_Mei_C6_825
+    skillType: leader
+    tags: []
+    paramSubId1: 8213
+    paramSubId2: 8213
+    paramSubId3: 8213
+    subSkills:
+      - id: "8213"
+        name: Synopsis of Pristine Love
+        info: "The team deals #1[f1]% more Elemental DMG and has #2[f1] more initial SP.
+          When Kiana is on the team, Kiana and the character have #3[f1] more
+          initial SP. In Open World, the increase to initial SP is triggered
+          every 10 min."
+        brief: The team deals more Elemental DMG and has more initial SP. When Kiana is
+          on the team, Kiana and the character have more initial SP.
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.24
+        paramBase2: 35
+        paramBase3: 35
+        paramAdd1: 0.03
+        paramAdd2: 5
+        paramAdd3: 5
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "826"
+    name: Temperance of Empress
+    info: "Combo ATK deals DMG to both self and
+      enemies.\\n<color=#23B2E8FF>Triggering Regressive Origin or Regressive
+      Origin: Moment also triggers Sin of Killing dealing 5% ATK of Lightning
+      DMG to both self and enemies. Triggering Ultimate Evasion, weapon skill,
+      or switching character ends Sin of Killing instantly.\\nHerrscher of
+      Origin stays in Herrscher Form.</color>"
+    icon: Skill_Mei_C6_826
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8216"
+        name: Essence of Kirikaeshi
+        info: "Enemies affected by Herrscher of Origin's Time-frozen Domain are
+          inflicted with Vulnerability, which makes them take #1[f1]% more
+          Lightning DMG from Herrscher of Origin."
+        brief: Enemies affected by Herrscher of Origin's Time-frozen Domain are
+          inflicted with Vulnerability, which makes them take more Lightning DMG
+          from Herrscher of Origin.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.008
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8217"
+        name: Realization of Blade and Body
+        info: "Total DMG increases by #1[f1]%. All enemies take #2[f2]% more Total DMG
+          from Kiana and Herrscher of Origin."
+        brief: Increases Total DMG. Enemies receive more Total DMG from Kiana and
+          Herrscher of Origin.
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 0.05
+        paramBase2: 0.03
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.0044
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

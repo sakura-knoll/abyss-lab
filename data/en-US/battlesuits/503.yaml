@@ -1,0 +1,371 @@
+id: "503"
+fullName: Sakuno Rondo
+shortName: Sakuno Rondo
+desc: "<color=white>Features: </color><color=#FF66CCFF>PSY-type</color>
+  mid-ranged battlesuit that brands and scorches the enemy to deal massive Fire
+  DMG."
+firstName: Theresa
+lastName: Apocalypse
+enFirstName: null
+enLastName: null
+attributeType: psy
+isEasterner: false
+weapon: cross
+character: theresa
+initialStar: a
+tags:
+  - fire-dmg
+  - ignite
+  - burst
+  - fast-atk
+skills:
+  - id: "211"
+    name: Fox Blade
+    info: "Basic ATK: Mid-range 5-sequence ATK with ethereal
+      katanas.\\n<color=#23B2E2FF>1st Sequence: 3x40% ATK of Physical DMG.\\n2nd
+      Sequence: 3x40% ATK of Physical DMG.\\n3rd Sequence: 150% ATK of Physical
+      DMG.\\n4th Sequence: 2 katanas dealing 3x40% ATK of Physical DMG
+      each.\\n5th sequence: 180% ATK of Physical DMG.\\nThe 3rd and 5th
+      sequences of the Basic ATK inflict 1 Sakura Count on the target.</color>"
+    icon: Skill_Theresa_FY_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2101"
+        name: Ghostfire Burn
+        info: "Basic ATK and Ultimate have a #1[f1]% chance to inflict
+          <color=#FEDF4CFF>5 Ignite Trauma</color> (CD: 6s)."
+        brief: Basic ATK and Ultimate may inflict Ignite Trauma.
+        icon: Skill_Nagative_Damage01
+        maxLv: 70
+        paramBase1: 0.05
+        paramBase2: 50
+        paramBase3: 0
+        paramAdd1: 0.00217
+        paramAdd2: 2.17391
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 1
+            comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+              charge rate: weak."
+        toggle: false
+        unlockStar: a
+      - id: "2102"
+        name: Ember
+        info: "Basic & Ultimate ATKs additionally deal #2[f1]% ATK of Fire DMG. The 3rd
+          and 5th sequences additionally deal 3x#1[i]% ATK of Fire DMG."
+        brief: Basic & Ultimate ATKs deal bonus Fire DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 0.3
+        paramBase2: 0.14
+        paramBase3: 0
+        paramAdd1: 0.01034
+        paramAdd2: 0.00483
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2103"
+        name: Engraved Mark
+        info: "Extends the duration of Sakura Brand applied by self to #1[f1]s. When
+          Combo Hit Count exceeds 30, gain #2[f1]% Total DMG Multiplier."
+        brief: Extends the duration of Sakura Brand applied by self. When Combo Hit
+          Count exceeds 30, gains DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 17
+        paramBase1: 12
+        paramBase2: 0.1
+        paramBase3: 0.1
+        paramAdd1: 0.5
+        paramAdd2: 0.00625
+        paramAdd3: 0.00625
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "212"
+    name: "<color=#FFC741FF>Charged</color>: Scorching Foxfire"
+    info: Charge during the 5-sequence Basic ATK to unleash
+      Foxfire.\n<color=#23B2E2FF>Tap and hold the [ATK] button to charge during
+      a 5-sequence Basic ATK or Ultimate to unleash Foxfire after a short
+      charge, dealing 3x50% ATK of Fire DMG to target and its surrounding
+      enemies. \nFoxfire transforms Sakura Brand into Scorching Sakura Brand
+      that then explodes after 1s, dealing 300% ATK of Fire DMG and knocking
+      enemies airborne.</color>
+    icon: Skill_Theresa_FY_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2104"
+        name: "<color=#FFC741FF>Switch</color>: Twin Slashers"
+        info: "Switch: Launches 2 flying blades, each blade deals 3x#1[f1]% ATK of
+          Physical DMG and knocks down the enemy."
+        brief: "Switch: Launches 2 flying blades and knocks down the enemy ahead."
+        icon: Skill_Nagative_StartUp01
+        maxLv: 35
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02941
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2105"
+        name: "<color=#FFC741FF>Switch Skill</color>: Triplex Slashers"
+        info: "QTE: Triggered when enemy is paralyzed. Enters the battle near the target
+          and unleashes 3-sequence sword ki, each hit dealing #1[f1]% ATK of
+          Physical DMG and adding a Sakura Count."
+        brief: "QTE: Triggered when an enemy is paralyzed to unleash 3-sequence sword
+          ki, each hit adding 1 Sakura Count."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 24
+        paramBase1: 2
+        paramBase2: 300
+        paramBase3: 0
+        paramAdd1: 0.05391
+        paramAdd2: 25.65217
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "2106"
+        name: Detonate Brand
+        info: "Scorching Sakura Brand explosions deal #1[i]% ATK of Fire DMG. When not
+          in Hijoyo Mode mode, recover #2[f1] SP every time Foxfire scorches a
+          Sakura Brand."
+        brief: Scorching Sakura Brand explosion gains DMG. When not in Hijoyo Mode mode,
+          the explosion recovers SP.
+        icon: Skill_Nagative_Damage03
+        maxLv: 50
+        paramBase1: 3.5
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 0.05531
+        paramAdd2: 0.06122
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "213"
+    name: Burning Kenbu
+    info: "Quick sideways dodge to evade enemy attack. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Ultimate Evasion: Unleashes a 3-sequence sword ki
+      with each sequence dealing 10% ATK of Physical DMG against surrounding
+      enemies. The Valkyries gains 40% Move Speed for 3s.\\nBurning Kenbu:
+      Triggers upon Ultimate Evasion. Each sword ki sequence inflicts 1 Sakura
+      Count on the target; tap [ATK] within a short duration to directly unleash
+      Foxfire; CD: 15s.</color>"
+    icon: Skill_Theresa_FY_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2107"
+        name: Blazing Kenbu
+        info: "Enhances the sword aura triggered upon Ultimate Evasion. Each hit
+          additionally deals #1[f1]% ATK of Fire DMG."
+        brief: Enhances Burning Kenbu DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 32
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01132
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2108"
+        name: Florid Kenbu
+        info: "Ultimate Evasion's CD is reduced by #3[f2]s. Each hit of Sword Ki has a
+          #1[f1]% chance to inflict <color=#FEDF4CFF>3 Bleed Trauma</color>."
+        brief: Ultimate Evasion's CD is reduced. Burning Kenbu inflicts Bleed Trauma.
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 0.1
+        paramBase2: 50
+        paramBase3: 1.6
+        paramAdd1: 0.01214
+        paramAdd2: 14.57143
+        paramAdd3: 0.25714
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "Inflicts Bleed Trauma; Trauma charge rate: weak."
+        toggle: false
+        unlockStar: ss
+  - id: "214"
+    name: Hijoyo Frenzy
+    info: "Unleash Valkyrie energy to enter Hijoyo Mode and gain Ignore
+      Interrupt.\\n<color=#23B2E2FF>Burst: Upon activation, unleashes 3 slashes
+      over a large area, each dealing 100% ATK of Physical DMG, adding 1 Sakura
+      Count, and inflicting</color> <color=#FEDF4CFF>12 Ignite
+      Trauma</color><color=#23B2E2FF>.\\nHijoyo Mode: The 5-sequence Basic ATK
+      becomes more powerful, deals Fire DMG, and scorches Sakura Brands.\\nSEQ 3
+      & 5 each adds 1 Sakura Count.\\nAt over 80 SP, costs 20 SP to activate and
+      8 SP/s to maintain until SP is depleted or the skill is manually canceled.
+      Max duration: 60s.</color>"
+    icon: Skill_Theresa_FY_004
+    skillType: ultimate
+    tags:
+      - type: ignite
+        strength: 2
+        comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+          charge rate: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2109"
+        name: Sakura Mark
+        info: "The 3rd and 5th sequences of Burst ATK additionally inflict #1[i] Sakura
+          Count(s) on the target upon hit and deal #2[f1]% ATK of bonus Physical
+          DMG."
+        brief: 3rd and 5th sequences of burst mode attack apply 1 bonus Sakura Count on
+          hit and deal bonus Physical DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 18
+        paramBase1: 1
+        paramBase2: 0.8
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.05882
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2110"
+        name: Fire Sprite
+        info: "In Hijoyo Mode, character deals #1[f1]% more Fire DMG."
+        brief: "Hijoyo Mode: Deals more Fire DMG."
+        icon: Skill_Nagative_Damage03
+        maxLv: 21
+        paramBase1: 0.25
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.0125
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2111"
+        name: Warding Sprite
+        info: "In Hijoyo Mode, gains #1[f1]% Total DMG Reduction, shortens the durations
+          of most debuffs by #2[i]%, and gains #3[f1]% ATK Speed."
+        brief: In Hijoyo Mode mode, gain Total DMG Reduction and Attack Speed, shorten
+          the duration of most debuffs.
+        icon: Skill_Nagative_Survive03
+        maxLv: 15
+        paramBase1: 0.3
+        paramBase2: 0.4
+        paramBase3: 0.2
+        paramAdd1: 0.01579
+        paramAdd2: 0.0215
+        paramAdd3: 0.01793
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "215"
+    name: Ritual Dance
+    info: "Leader Bonus: <color=#23B2E2FF>Ritual Dance: {{For the team, attacks made
+      against enemies knocked airborne gain #1[i]% Total DMG Multiplier. Teams
+      with 3 characters of different types gain #2[i]% Elemental DMG.}}</color>"
+    icon: Skill_Theresa_YD_005
+    skillType: leader
+    tags: []
+    paramSubId1: 2112
+    paramSubId2: 2112
+    paramSubId3: 0
+    subSkills:
+      - id: "2112"
+        name: Ritual Dance
+        info: "Team's attacks against enemies knocked airborne gain #1[i]% Total DMG.
+          Team formed by 3 battlesuits of 3 different types gains #2[i]%
+          Elemental DMG."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.18
+        paramBase2: 0.14
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "216"
+    name: Passive
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E2FF>Sakura Brand:
+      Clears the Sakura Count on enemy once the count has reached 3 and inflicts
+      a Sakura Brand. The Sakura Brand lasts for 10s.</color>"
+    icon: Skill_Theresa_YD_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2113"
+        name: Not the Ears
+        info: "Each hit against frozen/paralyzed enemies additionally deals #1[i]% ATK
+          of Fire DMG."
+        brief: Each hit against frozen/paralyzed/knocked-airborne enemies deals bonus
+          Fire DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 28
+        paramBase1: 0.4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01481
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2114"
+        name: Let's Dance
+        info: "When cross is deployed, team gains #1[f1]% All Elemental DMG for
+          #2[f2]s."
+        brief: When cross is deployed, team gains Elemental DMG for a short period.
+        icon: Skill_Nagative_Damage03
+        maxLv: 13
+        paramBase1: 0.12
+        paramBase2: 4
+        paramBase3: 0
+        paramAdd1: 0.0095
+        paramAdd2: 0.29167
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "2115"
+        name: "World's #1 Cutie"
+        info: "Gain #1[f1] initial SP in battle. This bonus triggers once every 10
+          minutes in Open World."
+        brief: Start battle with more SP. This bonus triggers once every 10 minutes in
+          Open World.
+        icon: Skill_Nagative_Survive03
+        maxLv: 34
+        paramBase1: 12
+        paramBase2: 0.25
+        paramBase3: 0
+        paramAdd1: 0.54576
+        paramAdd2: 0.00758
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a

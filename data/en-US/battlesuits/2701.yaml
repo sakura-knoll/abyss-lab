@@ -1,0 +1,365 @@
+id: "2701"
+fullName: Disciplinary Perdition
+shortName: Disciplinary Perdition
+desc: "<color=white>Features: </color><color=#FFAF2CFF>BIO-type</color> ranged
+  battlesuit. Uses the Chakram as a ring to deliver judgment."
+firstName: Aponia
+lastName: null
+enFirstName: null
+enLastName: null
+attributeType: bio
+isEasterner: true
+weapon: chakram
+character: aponia
+initialStar: s
+tags:
+  - lightning-dmg
+  - time-mastery
+  - aerial
+skills:
+  - id: "761"
+    name: Love and Hate, Discerned
+    info: "Use the chakram as a ring to purge enemies.\\n<color=#23B2E3FF>Basic ATK:
+      \\nSEQ 1: Deals 3 x 65% ATK of Lightning DMG.\\nSEQ 2: Deals 6 x 25% ATK
+      of Lightning DMG.\\nSEQ 3: Deals 65% + 80% ATK of Lightning DMG.\\nSEQ 4:
+      Deals 250% ATK of Lightning DMG.\\nIn Conviction, hold [ATK] to call down
+      lighting dealing 100% ATK of Lightning DMG. It is registered as Combo ATK
+      and has a 0.35s CD.</color>"
+    icon: Skill_Aponia_C1_TT_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7601"
+        name: Cleansed Henceforth
+        info: "Restoring Redemption increases Total DMG by #1[f1]% for #2[f1]s
+          (triggering it again refreshes the duration)."
+        brief: Restoring Redemption increases Total DMG。
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 10
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7602"
+        name: <color=#FFC741FF>QTE:</color> Sinful Henceforth
+        info: "QTE: Triggered when an enemy is Time-Slowed or paralyzed. Causes a 3s
+          Global Time Fracture, deals 3 x 100% + 4 x 150% + #1[f1]% ATK of
+          Lightning DMG to enemies, and restores #2[f1] SP."
+        brief: "QTE: Triggered when an enemy is Time-Slowed or paralyzed. Causes Global
+          Time Fracture, deal Lightning DMG, and restores SP."
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 4.5
+        paramBase2: 6
+        paramBase3: 0
+        paramAdd1: 0.45
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "762"
+    name: "<color=#FFC741FF>Combo</color>: Good and Evil, Absolute"
+    info: "In Conviction, teammates on the field deal Disciplinary Perdition's
+      DMG.\\n<color=#23B2E4FF>In Conviction, she prays for the Valkyries on the
+      field, allowing Lightning DMG dealers to deal 135% Disciplinary
+      Perdition's ATK of bonus Lightning DMG to all enemies (CD: 0.4s).\\nAt
+      full Redemption, hold [ATK] to enter Predictor's Sentence, which reduces
+      incoming Total DMG by 80% and summons Thunderstorms dealing 16 x 125% ATK
+      of Lightning DMG in total to surrounding enemies. When Redemption falls to
+      0, she unleashes Inhibitor's Adjudication that deals 1850% ATK of
+      Lightning DMG to all enemies and cancels Predictor's Sentence.</color>"
+    icon: Skill_Aponia_C1_TT_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7603"
+        name: Insolence is Forbidden
+        info: "Increases Combo ATK's Total DMG by #1[f1]%. In Conviction, every
+          triggered Combo ATK restores #2[f1] Redemption."
+        brief: Increases Combo ATK's Total DMG. In Conviction, every triggered Combo ATK
+          restores Redemption.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.08
+        paramBase2: 8
+        paramBase3: 0
+        paramAdd1: 0.007
+        paramAdd2: 0.2
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7604"
+        name: Imprudence is Forbidden
+        info: "Increases Combo ATK's Lightning DMG by #1[f1]%. In Conviction, every
+          landed Combo ATK restores #2[f2] SP."
+        brief: Increases Combo ATK's Lightning DMG. In Conviction, every landed Combo
+          ATK restores SP.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.08
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.007
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7615"
+        name: Avarice is Forbidden
+        info: "Inhibitor's Adjudication deals #1[f1]% ATK of bonus Lightning DMG and
+          restores #2[f1] SP."
+        brief: Inhibitor's Adjudication deals bonus Lightning DMG and restores SP.
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 2
+        paramBase2: 2.5
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 1.25
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+  - id: "763"
+    name: This Soma, Reincarnated
+    info: "Quickly dodge enemy attacks. Can be performed twice in a
+      row.\\n<color=#23B2E5FF>Ultimate Evasion Skill: Causes a 2.5s Global Time
+      Fracture, unleashes Summoner's Promise that deals 3 x 300% ATK of
+      Lightning DMG to all enemies, and restores 100 HP to the team. CD:
+      15s.</color>"
+    icon: Skill_Aponia_C1_TT_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7605"
+        name: To See Strings Detach
+        info: "If an enemy is paralyzed, restores #2[f1] Redemption and triggers
+          Ultimate Evasion Skill (effective if controlling another Valkyrie).
+          The ensuing Summoner's Promise deals #1[f1]% more Lightning DMG."
+        brief: If an enemy is paralyzed, restores Redemption and triggers Ultimate
+          Evasion Skill. The ensuing Summoner's Promise deals more Lightning
+          DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.25
+        paramBase2: 20
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 2
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "7606"
+        name: To See Suffering Cycle
+        info: "Increases Summoner's Promise's Total DMG by #1[f1]% and reduces its CD by
+          #2[f1]s."
+        brief: Increases Summoner's Promise's Total DMG and reduces its CD.
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.15
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.075
+        paramAdd2: 0.5
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7607"
+        name: To See Ending Decay
+        info: Entering Conviction or Predictor's Sentence triggers Ultimate Evasion
+          Skill.
+        brief: Entering Conviction or Predictor's Sentence triggers Ultimate Evasion
+          Skill.
+        icon: Skill_Nagative_Damage03
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "764"
+    name: This Sin, Inexorable
+    info: "Aponia rises into the sky and delivers punishment to all
+      enemies.\\n<color=#23B2E6FF>Rain down destruction from above, dealing 14 x
+      180% + 1280% ATK of Lightning DMG to all enemies, during which Time-frozen
+      Domain is triggered to pause all skill timers and the stage timer.\\n\\nSP
+      cost: 100. CD: 20s.</color>"
+    icon: Skill_Aponia_C1_TT_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7608"
+        name: Its Sin, Irredeemable
+        info: "Exiting Predictor's Sentence increases Ultimate's Total DMG by #1[f1]%
+          for #2[f1]s."
+        brief: Exiting Predictor's Sentence increases Ultimate's Total DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 21
+        paramBase1: 0.175
+        paramBase2: 4
+        paramBase3: 0
+        paramAdd1: 0.00875
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7609"
+        name: Its Sin, Unforgivable
+        info: "In Conviction, Good and Evil, Absolute triggered by teammates on the
+          field deals #1[f1]% ATK of bonus Lightning DMG."
+        brief: In Conviction, Good and Evil, Absolute triggered by teammates on the
+          field deals bonus Lightning DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 4
+        paramBase1: 0.08
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "7610"
+        name: Its Sin Deserves Excommunication
+        info: "Using Ultimate increases Basic ATK's and Combo ATK's Total DMG by #1[f1]%
+          and reduces incoming Total DMG by #2[f1]% for #3[f1]s."
+        brief: Using Ultimate increases Basic ATK's and Combo ATK's Total DMG and
+          reduces incoming Total DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0.15
+        paramBase3: 12
+        paramAdd1: 0.01
+        paramAdd2: 0.015
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "765"
+    name: Discipline, Undefiable
+    info: "Leader Bonus\\n<color=#23B2E7FF>Leader Skill: {{Increases the team's
+      ranged Lightning DMG by #1[f1]% and the team's Total DMG by
+      #2[f1]%.}}</color>"
+    icon: Skill_Aponia_C1_TT_005
+    skillType: leader
+    tags: []
+    paramSubId1: 7611
+    paramSubId2: 7611
+    paramSubId3: 0
+    subSkills:
+      - id: "7611"
+        name: This Discipline, Indispensable
+        info: "Increases the team's ranged Lightning DMG by #1[f1]% and the team's Total
+          DMG by #2[f1]%."
+        brief: Increases the team's ranged Lightning DMG and the team's Total DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 2
+        paramBase1: 0.32
+        paramBase2: 0.147
+        paramBase3: 0
+        paramAdd1: 0.08
+        paramAdd2: 0.053
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+  - id: "766"
+    name: This Life, Ascetic
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E8FF>Redemption, which
+      caps at 200, can be recovered in many ways.\\nBasic ATK SEQ 3/4 restores
+      10/25 Redemption on hit.\\nBy wielding the chakram as a ring, she has
+      acquired the weapon active This Mind, Untainted.\\nWithout full
+      Redemption, using weapon active sends her into Conviction.\\nIn
+      Conviction, she recovers 5 Redemption (max: 200) per second, becomes
+      invincible but unable to move or evade, and will stay on the field until
+      charging is complete if switched out.\\nOnce Redemption reaches 200, she
+      exits Conviction, and leaves and resets her switch CD if she is still on
+      the field.</color>"
+    icon: Skill_Aponia_C1_TT_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7612"
+        name: I Shall Correct Paths
+        info: "Entering Predictor's Sentence increases Total DMG by #1[f1]% for
+          #2[f1]s."
+        brief: Entering Predictor's Sentence increases Total DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 6
+        paramBase1: 0.12
+        paramBase2: 9
+        paramBase3: 0
+        paramAdd1: 0.036
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7613"
+        name: I Shall Achieve Illumination
+        info: "Increases Inhibitor's Adjudication's Lightning DMG by #1[f1]%. Exiting
+          Predictor's Sentence restores #2[f1] SP."
+        brief: Increases Inhibitor's Adjudication's Lightning DMG. Exiting Predictor's
+          Sentence restores SP.
+        icon: Skill_Nagative_Damage03
+        maxLv: 20
+        paramBase1: 0.2
+        paramBase2: 9
+        paramBase3: 0
+        paramAdd1: 0.01316
+        paramAdd2: 0.31579
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "7614"
+        name: I Shall Avert Ruination
+        info: "Triggering Ultimate Evasion Skill makes enemies receive #1[f1]% bonus
+          Lightning DMG from her for #2[f1]s (cannot stack). Triggering it again
+          refreshes the duration."
+        brief: Triggering Ultimate Evasion Skill makes enemies receive bonus Lightning
+          DMG from her (cannot stack). Triggering it again refreshes the
+          duration.
+        icon: Skill_Nagative_Damage03
+        maxLv: 4
+        paramBase1: 0.15
+        paramBase2: 12
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

@@ -1,0 +1,47 @@
+id: "150"
+name: Depicter Impression set
+desc: null
+skills:
+  - id: "4258"
+    name: Shading Soul
+    info: "Gain 1 stack when dealing Bleed DMG to enemies. Upon gaining 10 stacks,
+      deal #1[f1]% ATK of Physical DMG to targets, clearing all stacks. This DMG
+      counts as Bleed DMG (Can only gain additional stack once every 0.3s, DMG
+      CD: #2[f1]s. Unable to gain stacks during CD). When equipped by Starry
+      Impression with B-piece, unleashing Ultimate inflicts Structure Outline on
+      enemies and enhances team. When Structure Outline ends, Total DMG received
+      by all enemies increases by 36% for 12s. Structure Outline enters a 20s
+      CD. Can only trigger once in every 20s."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: physical-dmg
+        comment: null
+    param1: 5
+    param1Add: 0
+    param2: 5
+    param2Add: 0
+    param3: 0
+    param3Add: 0
+  - id: "4259"
+    name: Opal Bonds
+    info: "Wielder gains #1[f1]% ATK Speed. After using Ultimate, when attacking
+      enemies with broken or no shield, Total DMG dealt is increased by #2[f1]%
+      for every stack of Bleed inflicted on the enemies (maximum of #3[f1]%) for
+      20s. This effect cannot stack and triggering it again resets the
+      duration."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags: []
+    param1: 0.35
+    param1Add: 0
+    param2: 0.02
+    param2Add: 0
+    param3: 0.1
+    param3Add: 0
+stigmaIdList:
+  - "111142"
+  - "111143"
+  - "111144"

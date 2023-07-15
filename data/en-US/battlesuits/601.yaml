@@ -1,0 +1,449 @@
+id: "601"
+fullName: Valkyrie Accipiter
+shortName: Valkyrie Accipiter
+desc: "<color=white>Features: </color><color=#FF66CCFF>PSY-type</color> melee
+  battlesuit using linked combo attacks to devastate the enemy."
+firstName: Hua
+lastName: Fu
+enFirstName: null
+enLastName: null
+attributeType: psy
+isEasterner: true
+weapon: fists
+character: fuhua
+initialStar: a
+tags:
+  - physical-dmg
+  - stun
+  - heal
+  - time-mastery
+skills:
+  - id: "281"
+    name: Whitetiger Dashing
+    info: "Use The Six Fists for battle.\\n<color=#23B2E2FF>The Six Fists:\\n1st
+      Stance: 80% ATK of Physical DMG.\\n2nd Stance: 80% ATK of Physical
+      DMG.\\n3rd Stance: 80% ATK of Physical DMG.\\n4th Stance: 2x100% ATK of
+      Physical DMG.\\n5th Stance: 2x80% ATK of Physical DMG.\\n6th Stance: 150%
+      ATK of Physical DMG.</color>"
+    icon: Skill_Fuka_FK_001
+    skillType: basic
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "Switch Skill and QTE are Heavy ATKs; Trauma charge: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2801"
+        name: Panther Dance
+        info: "Unlock Ki Zenith that deals #1[i]% ATK of Physical DMG in each hit
+          sequence and #2[i]% ATK of Physical DMG in the final ground smash."
+        brief: Unlock Ki Zenith and enhance it.
+        icon: Skill_Nagative_Skill02
+        maxLv: 31
+        paramBase1: 0.3
+        paramBase2: 1.4
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2802"
+        name: Lord of the Wastes
+        info: "When Ki Zenith hits the ground, boosts Total DMG by #1[i]% for 7 s; when
+          Ki Impact hits the ground, team gains #2[i]% Total DMG for 7s."
+        brief: When Ki Zenith hits the ground, gains Total DMG Multiplier. Ki Impact
+          does the same.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "2803"
+        name: Battle Howl
+        info: "When Ki Nova EX hits, the team deals #1[i]% more damage to shields for
+          #2[f1]s."
+        brief: Ki Nova EX significantly boost team DMG against shields for a short
+          period upon hit.
+        icon: Skill_Nagative_Damage02
+        maxLv: 51
+        paramBase1: 1
+        paramBase2: 2.5
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.08
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "282"
+    name: "<color=#FFC741FF>Combo</color>: Azure Dragon"
+    info: "Link the various Six Fists stances into different Combo
+      ATKs.\\n<color=#23B2E2FF>Ki Shattering Fist: 2x100%+150% ATK of Physical
+      DMG \\nKi Zenith: When unlocked, 7x30%+100% ATK of Physical DMG.\\nKi
+      Barrage: 80% ATK of Physical DMG for each hit.\\nKi Nova: Full charge
+      launches a penetrating blast wave dealing 3x80% ATK of Physical
+      DMG.</color>"
+    icon: Skill_Fuka_FK_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2804"
+        name: "<color=#FFC741FF>Switch</color>: Raging Scale"
+        info: "Unlocks Switch Skill. Switch entry unleashes a ground slam that knocks
+          surrounding enemies airborne and deals #1[i]% Physical DMG."
+        brief: Switch entry unleashes a ground slam that knocks nearby enemies airborne
+          and deals Physical DMG.
+        icon: Skill_Nagative_StartUp01
+        maxLv: 16
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2805"
+        name: "<color=#FFC741FF>QTE</color>: Gray Dragon"
+        info: "QTE: Triggers when an enemy's shield is broken, entering the battlefield
+          and slamming the ground to deal #1[i]% Physical DMG, knocking nearby
+          enemies airborne, inflicting Time Slow and impairing them to reduce
+          their DEF by 30% for #2[f1]s."
+        brief: "QTE: Triggered when an enemy's shield is broken to slam the ground
+          dealing Physical DMG, knocking enemies nearby airborne, inflicting
+          Time Slow and impairing enemies."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 36
+        paramBase1: 3
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.12
+        paramAdd2: 0.08571
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+      - id: "2806"
+        name: Dragon's Return
+        info: "For 5s after switch entry, gains Interrupt, Ignore Interrupt, and #1[i]%
+          DMG Reduction for DMG received; when exiting the battlefield, applies
+          the same buff to all team members for #2[f1]s."
+        brief: For a short period after switch entry, gain slight increases to
+          Interrupt, Ignore Interrupt, and DMG Reduction. When exiting, boost
+          team mates by the same amount.
+        icon: Skill_Nagative_Survive02
+        maxLv: 21
+        paramBase1: 0.1
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.005
+        paramAdd2: 0.1
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "283"
+    name: Vermilion Dance
+    info: "Rapid movement to evade attacks. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Within a short period after performing an Ultimate
+      Evasion, tap the Combo ATK button to dash to the enemy and unleash a
+      brutal smash, dealing 300% ATK of Physical DMG.\\nTime Fracture: Triggered
+      upon an Ultimate Evasion and slows all enemies for 3s; CD: 15s.</color>"
+    icon: Skill_Fuka_FK_003
+    skillType: evasion
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "Ki Avalanche and Ki Impact are Heavy ATKs; Trauma charge: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2807"
+        name: Fiery Flock
+        info: "Ultimate Evasion triggers Time Fracture for the game for #1[f2]s."
+        brief: Extends duration of Time Fracture.
+        icon: Skill_Nagative_Control01
+        maxLv: 11
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2808"
+        name: Sunchaser
+        info: "After performing Ultimate Evasion, tap the Combo button to unleash a
+          Heavy ATK, dealing 300% ATK of Physical DMG and impairing the target
+          to reduce its DEF by #1[i]% for #2[f1]s."
+        brief: After Ultimate Evasion, press the Combo button to deal a heavy blow,
+          impairing the enemy.
+        icon: Skill_Nagative_Skill03
+        maxLv: 21
+        paramBase1: 0.1
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.1
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2809"
+        name: Anser Turn
+        info: "Shortens CD of Ultimate Evasion by #1[f2]s."
+        brief: Shortens CD of Time Fracture.
+        icon: Skill_Nagative_Control02
+        maxLv: 21
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "284"
+    name: Amber Dragon
+    info: "Consumes 25 SP to unleash a Burst Combo ATK.\\n<color=#23B2E2FF>Ki
+      Avalanche: 350% ATK of Physical DMG.\\nKi Impact: 400% ATK of Physical
+      DMG.\\nKi Nova EX: 3x150% ATK of Physical DMG.</color>"
+    icon: Skill_Fuka_FK_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2810"
+        name: Fallow Earth
+        info: "After last hit of Ki Avalanche, last hit of Ki Impact, and hits of Ki
+          Nova EX, the Valkyrie takes #1[i]% less Physical DMG for #2[f1]s."
+        brief: Gain Physical DMG Reduction for a short period after Ultimate hits the
+          enemy.
+        icon: Skill_Nagative_Survive02
+        maxLv: 21
+        paramBase1: 0.05
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.005
+        paramAdd2: 0.15
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "2811"
+        name: Celestial Spirit
+        info: "Last hit of Ki Avalanche, last hit of Ki Impact, and hits of Ki Nova EX
+          additionally deal #1[i]% ATK of Physical DMG against impaired or
+          stunned enemies."
+        brief: Ultimate gains Physical DMG against impaired or stunned enemies.
+        icon: Skill_Nagative_Damage02
+        maxLv: 51
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "285"
+    name: Chelonic Unity
+    info: "Leader Bonus: <color=#23B2E2FF>{{When Combo Hit Count exceeds 30, Mei and
+      Kiana in the team gain #1[i]% Crit Rate; when Combo Hit Count is below 30,
+      Bronya in the team gain #2[i]% Crit DMG.}}</color>"
+    icon: Skill_Fuka_FK_005
+    skillType: leader
+    tags: []
+    paramSubId1: 2812
+    paramSubId2: 2812
+    paramSubId3: 0
+    subSkills:
+      - id: "2812"
+        name: Dragon Territory
+        info: "When Combo Hit Count exceeds 30, Mei and Kiana on the team gain #1[i]%
+          Crit Rate; when Combo Hit Count is below 30, Bronya on the team gains
+          #2[i]% Crit DMG."
+        brief: When Combo Hit Count exceeds 30, Kiana and Mei gain Crit Rate. When Combo
+          Hit Count is below 30, Bronya gains Crit DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 3
+        paramBase1: 0.24
+        paramBase2: 0.32
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.04
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "286"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF></color>
+    icon: Skill_Fuka_FK_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2813"
+        name: Resolve
+        info: "When on the field, deals #1[i]% more Physical DMG against enemies within
+          a 3-meter radius. When exiting, teammates gain #2[i]% Ranged Physical
+          DMG for the next 3 attacks."
+        brief: When on the field, gain Physical DMG against enemies in a small area.
+          Upon exit, team mates gain Physical DMG for the next 3 ranged attacks
+          .
+        icon: Skill_Nagative_Damage02
+        maxLv: 21
+        paramBase1: 0.2
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.005
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2814"
+        name: Serenity
+        info: "The last hit of Ki Shattering Fist inflicts <color=#FEDF4CFF>3 Stun
+          Trauma</color>. The last hit of Ki Avalanche inflicts
+          <color=#FEDF4CFF>6 Stun Trauma</color> and deals #2[i]% ATK of bonus
+          Physical DMG."
+        brief: Ki Shattering Fist and Ki Avalanche both inflict Stun Trauma. The latter
+          also deals bonus Physical DMG.
+        icon: Skill_Nagative_Control02
+        maxLv: 31
+        paramBase1: 2
+        paramBase2: 0.5
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0.05
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 2
+            comment: "Inflicts Stun Trauma; Trauma charge rate: medium."
+        toggle: false
+        unlockStar: a
+      - id: "2815"
+        name: Enlightenment
+        info: "Last hit of Ki Zenith heals the Valkyrie for #1[i]HP. The Six Fists heals
+          the Valkyrie for #3[i]HP. Last hit of Ki Impact heals the entire team
+          for #2[i] HP."
+        brief: Ki Zenith recovers HP to self, Basic ATK recovers HP to self, Ki Impact
+          recovers HP to team.
+        icon: Skill_Nagative_Survive03
+        maxLv: 71
+        paramBase1: 10
+        paramBase2: 50
+        paramBase3: 10
+        paramAdd1: 1
+        paramAdd2: 5
+        paramAdd3: 0.71429
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "481"
+    name: Thunder Wyrm
+    info: "Uses The Six Fists for battle.\\n<color=#23B2E2FF>The Six Fists:\\n1st
+      Stance: 80% ATK of Physical DMG.\\n2nd Stance: 80% ATK of Physical
+      DMG.\\n3rd Stance: 80% ATK of Physical DMG.\\n4th Stance: 2x100% ATK of
+      Physical DMG.\\n5th Stance: 2x80% ATK of Physical DMG.\\n6th Stance: 150%
+      ATK of Physical DMG.</color>"
+    icon: Skill_Fuka_FK_Artifact01_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "482"
+    name: "<color=#FFC741FF>Combo ATK</color>: Lightning Panther"
+    info: "Different Six Fists moves can be connected to form various Combo
+      ATKs.\\n<color=#23B2E2FF>Kei: Whipping Sparks: Launches Ki blades, dealing
+      100% ATK of Lightning DMG per hit (additionally deals 100% ATK of
+      Lightning DMG against enemies outside a 4m radius). Within 1s after
+      hitting enemies outside the 4m radius, tap [ATK] or [ULT] to perform Ki:
+      Lightning Pounce, dashing towards the target and dealing 200% ATK of
+      Lightning DMG.\\nKei: Taranic Talons: Deals 180% ATK of Lightning
+      DMG.\\nKei: Six-Sided Shock: Deals 100%+8x80%+200% ATK of Lightning DMG.
+      Use the joystick to set the finishing point.\\nKei: Blasting Palm: After
+      unleashing Kei: Six-Sided Shock, tap [ATK] to perform this Combo, dealing
+      450% ATK of Lightning DMG and knocking back the target. The target
+      additionally takes 200% ATK of Lightning DMG if knocked into a
+      wall.\\nKei: Tunneling Blossom: Tap [ULT] during Kei: Six-Sided Shock,
+      dealing 450% ATK of Lightning DMG. Navigate the charging direction with
+      the joystick.</color>"
+    icon: Skill_Fuka_FK_Artifact01_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "Kei: Blasting Palm, Kei: Tunneling Blossom, Switch Skill and QTE are
+          Heavy ATKs; Trauma charge: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "483"
+    name: Storm Phoenix
+    info: "Move fast to dodge attacks.\\n<color=#23B2E2FF>Within 3s after Ultimate
+      Evasion, hit enemies with Kei: Whipping Sparks to trigger Ki: Lightning
+      Pounce.\\nTime Fracture: Ultimate Evasion triggers Global Time Fracture,
+      slowing all enemies for 3s. CD: 15s.</color>"
+    icon: Skill_Fuka_FK_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "484"
+    name: Raging Tiamat
+    info: "Consume 50 SP to unleash burst attacks during Combo
+      ATK.\\n<color=#23B2E2FF>Increases max SP by 50. Hold [ULT] during Kei:
+      Tunneling Blossom or after triggering Time Fracture with Ultimate Evasion
+      to deal 750%x2 ATK of Lightning DMG and gather enemies.</color>"
+    icon: Skill_Fuka_FK_Artifact01_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "Ultimate is Heavy ATK; Trauma charge: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "486"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF></color>
+    icon: Skill_Fuka_FK_Artifact01_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []

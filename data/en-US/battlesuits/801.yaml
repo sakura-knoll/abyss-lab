@@ -1,0 +1,364 @@
+id: "801"
+fullName: Valkyrie Gloria
+shortName: Valkyrie Gloria
+desc: "<color=white>Features: </color><color=#AE98FFFF>QUA-type</color> melee
+  battlesuit capable of interrupting enemies' moves using Throw ATKs; becomes
+  stronger as the battle progresses; can unleash massive burst DMG."
+firstName: Durandal
+lastName: null
+enFirstName: null
+enLastName: null
+attributeType: qua
+isEasterner: true
+weapon: lance
+character: durandal
+initialStar: a
+tags:
+  - fire-dmg
+  - ignite
+  - time-mastery
+skills:
+  - id: "531"
+    name: Hasta Domina
+    info: "Five-sequence lance attacks.\\n<color=#23B2E2FF>1st Sequence: 80% ATK of
+      Physical DMG.\\n2nd Sequence: 140% ATK of Fire DMG + 120% ATK of Physical
+      DMG.\\n3rd Sequence: 160%+80% ATK of Fire DMG.\\n4th Sequence: 4x60% ATK
+      of Fire DMG.\\n5th Sequence: 200% ATK of Physical DMG + 300% ATK of Fire
+      DMG.\\nThe 2nd, 4th, and 5th sequences restore 40 Resolve every
+      hit.</color>"
+    icon: Skill_Durandal_C1_001
+    skillType: basic
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "QTE is Heavy ATK; Trauma charge rate: Medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5301"
+        name: Fighting Will
+        info: "The 4th sequence of Basic ATK restores #1[f1] bonus SP every hit."
+        brief: 4th sequence of Basic ATK boosts SP regen.
+        icon: Skill_Nagative_Skill01
+        maxLv: 11
+        paramBase1: 0.55
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.055
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5302"
+        name: Flaming Lance
+        info: Basic ATK SEQ 5, Sprint ATK, and Decisive Blow inflict <color=#FEDF4CFF>5
+          Ignite Trauma</color>.
+        brief: Basic ATK SEQ 5 and Charged ATK inflict Ignite Trauma.
+        icon: Skill_Nagative_Survive02
+        maxLv: 11
+        paramBase1: 4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.4
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 1
+            comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+              charge rate: weak."
+        toggle: false
+        unlockStar: a
+      - id: "5303"
+        name: <color=#FFC741FF>QTE</color> - Irae Angelus
+        info: "QTE: Triggered when an enemy is Time-Slowed to deal 300% ATK of Physical
+          DMG + #1[f1]% ATK of Fire DMG and restore 240 Resolve."
+        brief: "QTE: Triggered when an enemy is Time-Slowed."
+        icon: Skill_Nagative_Skill02
+        maxLv: 5
+        paramBase1: 4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+  - id: "532"
+    name: <color=#FFC741FF>Charged ATK</color>- Impetus Gloria
+    info: "Tap & hold [ATK] to unleash Charged ATKs.\\n<color=#23B2E2FF>At least 240
+      Resolve: Hold [ATK] to gain Adamance and Iron Body after 0.6s and enter
+      Sprint Stage 1, where each hit costs 40 Resolve and deal 50% ATK of
+      Physical DMG & 80% ATK of Fire DMG.\\nConsume at least 240 Resolve to
+      enter Sprint Stage 2, where Fire DMG of each hit rises to 100% ATK.
+      \\nConsume at least 240 Resolve: Release [ATK] to launch Sprint ATK
+      dealing 100% ATK of Physical DMG & 450% ATK of Fire DMG, or perform 1st
+      sequence of Basic ATK otherwise.\\nWhile in Aura Ignis with at least 240
+      Resolve, hold [ATK] to consume all Resolve for Decisive Blow dealing
+      8x60%+350% ATK of Fire DMG & 200% ATK of Physical DMG. Every Resolve
+      consumed boosts total DMG by 0.2%.</color>"
+    icon: Skill_Durandal_C1_002
+    skillType: special
+    tags:
+      - type: ignite
+        strength: 1
+        comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+          charge rate: weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5304"
+        name: Unwavering
+        info: "In Sprint Status, for every 40 Resolve consumed, Sprint ATK deals #1[f1]%
+          ATK of bonus Fire DMG"
+        brief: The more Resolve spent, the stronger the Sprint ATK.
+        icon: Skill_Nagative_Damage02
+        maxLv: 17
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0125
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "5305"
+        name: Fiery Will
+        info: "During Sprint ATK or Decisive Blow, every 240 Resolve consumed grants a
+          stack of Fiery Will which boosts Fire DMG by #1[f1]% and reduces total
+          DMG taken by 5% for 30s (10 stacks max)."
+        brief: Spend Resolve to stack up to 10 stacks of Fiery Will for damage boost.
+        icon: Skill_Nagative_StartUp03
+        maxLv: 24
+        paramBase1: 0.03
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0013
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "5306"
+        name: Fueled by War
+        info: "Decisive Blow additionally grants #1[i] stack(s) of Fiery Will; with max
+          stacks of Fiery Will, the final hit of Decisive Blow deals #2[f1]% ATK
+          of bonus Fire DMG."
+        brief: Decisive Blow grants bonus Fiery Will stacks and the last hit deals more
+          damage when Fiery Will fully stacks.
+        icon: Skill_Nagative_Skill02
+        maxLv: 21
+        paramBase1: 1
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.075
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "533"
+    name: Augur Martialis
+    info: "Quickly evade enemy attacks. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Tap [ATK] upon Ultimate Evasion to directly
+      unleash the 5th sequence.\\nAugur Martialis: Restores 120 Resolve and
+      triggers Time Fracture for 3s. CD: 15s.</color>"
+    icon: Skill_Durandal_C1_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5307"
+        name: Battle Stampede
+        info: "In Combat Focus state, the 5th sequence of Basic ATK deals #1[f1]% more
+          Total DMG."
+        brief: In Combat Focus, the 5th sequence of Basic ATK deals more damage.
+        icon: Skill_Nagative_Survive01
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "5308"
+        name: Temperance
+        info: "Augur Martialis grants Combat Focus for 3s, where the Valkyrie can
+          directly unleash the 5th sequence of Basic ATK after evasion by
+          tapping [ATK] and restore #1[f1] SP and 40 Resolve on hit."
+        brief: Augur Martialis grants Combat Focus to enable 5th sequence upon evasion
+          with boosted resource regen.
+        icon: Skill_Nagative_Damage01
+        maxLv: 7
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.25
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "534"
+    name: Eruptio Magnifica
+    info: "Unleash a mighty blow with a massive lance.\\n<color=#23B2E2FF>Leap
+      towards the target and pull in nearby enemies for a short duration,
+      dealing 2 x 300% ATK of Physical DMG + 2 x 300% ATK of Fire DMG, then hurl
+      a massive lance to further deal 500% ATK of Physical DMG + 1800% ATK of
+      Fire DMG and inflict Quantum Implosion on QUA enemies. This generates an
+      Aura Ignis covering the entire field, in which Basic ATKs and Throw
+      Counters recover twice the Resolve and Valkyrie gains higher Ignore
+      Interrupt for 15s. CD: 25s.\\nActivation cost: 100SP.</color>"
+    icon: Skill_Durandal_C1_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "Last hit of Ultimate is Heavy ATK; Trauma charge rate: Medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5309"
+        name: Undying Fire
+        info: "Gains #1[f1]% Total DMG within Aura Ignis."
+        brief: Damage boost within Aura Ignis.
+        icon: Skill_Nagative_Damage03
+        maxLv: 41
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0075
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5310"
+        name: Streamlined Splendor
+        info: "Casting Ultimate recovers #1[f1] Resolve."
+        brief: Ultimate recovers Resolve.
+        icon: Skill_Nagative_Skill03
+        maxLv: 5
+        paramBase1: 240
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 60
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "5311"
+        name: Forging Fire
+        info: "Within Aura Ignis, after hitting any enemy with Basic ATK (including
+          Charged ATK) 3 times, the next Basic ATK (including Charged ATK)
+          additionally deals #1[f1]% ATK of Fire DMG."
+        brief: Within Aura Ignis, every 4th hit of Basic ATK deals bonus damage.
+        icon: Skill_Nagative_Damage03
+        maxLv: 27
+        paramBase1: 0.4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01538
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "535"
+    name: Praefect Equites
+    info: "Leader Bonus:\\n<color=#23B2E2FF>Praefect Equites: {{Boosts Fire DMG by
+      #2[f1]% and total DMG of Throw by #1[f1]% for the team.}}</color>"
+    icon: Skill_Durandal_C1_005
+    skillType: leader
+    tags: []
+    paramSubId1: 5312
+    paramSubId2: 5312
+    paramSubId3: 0
+    subSkills:
+      - id: "5312"
+        name: Praefect Equites
+        info: "Boosts Fire DMG by #2[f1]% and total DMG of Throw by #1[f1]% for the
+          team."
+        brief: Boosts Fire DMG and total DMG of Throw for the team.
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.15
+        paramBase2: 0.27
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.015
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "536"
+    name: Passive Skill
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E2FF>Resolve: Starts
+      at 240 and maxes at 480.</color>"
+    icon: Skill_Durandal_C1_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5313"
+        name: Burning Honor
+        info: "Deals #1[f1]% more Fire DMG against ignited enemies."
+        brief: Ignited enemies take more damage.
+        icon: Skill_Nagative_Damage03
+        maxLv: 21
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5314"
+        name: Medal of Victory
+        info: "Performing a Throw with weapon active entering cooldown or inflicting
+          Collapsed debuff recovers #1[i] Resolve. Triggering Throw Counter
+          recovers 240 Resolve."
+        brief: Performing Throws or inflicting Collapsed status recovers Resolve.
+        icon: Skill_Nagative_Damage01
+        maxLv: 7
+        paramBase1: 240
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 40
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "5315"
+        name: Victorious Pursuit
+        info: "Triggers a/an #1[f1]s Time Fracture when unleashing Throw and activating
+          the CD of weapon skills."
+        brief: Throws can trigger Time Fracture.
+        icon: Skill_Nagative_Skill01
+        maxLv: 16
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.06667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss

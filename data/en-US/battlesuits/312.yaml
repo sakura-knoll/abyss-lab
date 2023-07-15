@@ -1,0 +1,340 @@
+id: "312"
+fullName: Black Nucleus
+shortName: Black Nucleus
+desc: "<color=white>Features: </color><color=#FFAF2CFF>BIO-type</color>
+  <color=#FFAF2CFF>Awakened</color> ranged battlesuit. Uses stealth attacks to
+  terminate her enemies."
+firstName: Bronya
+lastName: Zaychik
+enFirstName: null
+enLastName: null
+attributeType: bio
+isEasterner: false
+weapon: cannon
+character: bronya
+initialStar: s
+tags:
+  - physical-dmg
+  - stun
+skills:
+  - id: "241"
+    name: "<color=#FFC741FF>Charge</color>: Shrapnel Shell"
+    info: "Charged cannon fire. Higher charge sequence deals greater
+      DMG.\\n<color=#23B2E2FF>Arm Switch: Charging mode changes with type of
+      equipped weapon.\\nGuidance MOD: Equipping missile-type weapons transforms
+      attacks to scatter shot shells. Each charge sequence increases the number
+      of shells fired by 30%. Every shell deals a small AOE explosion. The 1st,
+      2nd, and 3rd charge sequences deal 50%, 60%, and 80% ATK of Physical DMG,
+      respectively, and increases Interrupt.</color>"
+    icon: Skill_Bronya_ZP_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2401"
+        name: Precision Charge
+        info: "Releasing the [ATK] button at the moment of entering the next charge
+          sequence increases Crit Rate of this attack by #1[f1]%."
+        brief: Firing upon entering the next charge sequence, increases Crit Rate of
+          this attack.
+        icon: Skill_Nagative_Damage02
+        maxLv: 25
+        paramBase1: 0.18
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.005
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "2402"
+        name: Flash Dodge
+        info: "Force evasion when attacked during charging. Can be triggered once every
+          #1[f1]s. Effect does not interrupt charging."
+        brief: Automatically evade when being attacked during charging.
+        icon: Skill_Nagative_Survive03
+        maxLv: 30
+        paramBase1: 8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: -0.13793
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2403"
+        name: Primed Charge
+        info: "Releasing the [ATK] button upon entering the 3rd charge sequence
+          increases DMG of this attack by #1[f1]%, and gain #2[f1]% Move Speed
+          for the next 3s."
+        brief: Firing upon entering the 3rd charge sequence, increases Total DMG
+          Multiplier of this attack and Move SPD.
+        icon: Skill_Nagative_Damage03
+        maxLv: 4
+        paramBase1: 0.12
+        paramBase2: 0.5
+        paramBase3: 0
+        paramAdd1: 0.0267
+        paramAdd2: 0.1667
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "242"
+    name: "<color=#FFC741FF>Switch</color>: Mecha Smash"
+    info: Switch skill unleashes a slam attack with robot
+      arms.\n<color=#23B2E2FF>Slams enemies with robot arms, dealing 175% ATK of
+      Physical DMG to enemies within the AOE.</color>
+    icon: Skill_Bronya_ZP_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "QTE is Heavy ATK; Trauma charge: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2404"
+        name: Hardened Chassis
+        info: Buffs the Switch Skill to deal 175%+#1[i]% ATK of Physical DMG.
+        brief: Switch Skill gains Physical DMG.
+        icon: Skill_Nagative_StartUp01
+        maxLv: 8
+        paramBase1: 0.5
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.17859
+        paramAdd2: 0.71429
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2405"
+        name: "<color=#FFC741FF>QTE</color>: Field Suppression"
+        info: "QTE: Triggers when an enemy is knocked airborne or affected by Time Slow.
+          Ground slams enemies within a large AOE, dealing 3x#1[i]% ATK of
+          Physical DMG, then gains invisibility for 6s (invisibility is not
+          triggered by normal evasions during QTE)."
+        brief: "QTE: Triggered when an enemy is Time Slowed to knock down enemies, deal
+          Physical DMG, and gain invisibility."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 8
+        paramBase1: 1.75
+        paramBase2: 1.5
+        paramBase3: 0
+        paramAdd1: 0.20734
+        paramAdd2: 0.14286
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "243"
+    name: Dimensional Interruption
+    info: "Dodges sideways to evade enemy attacks and becomes
+      invisible.\\n<color=#23B2E2FF>Dimensional Interruption: Enters 6s
+      invisibility upon Ultimate Evasion. CD: 20s.\\nInvisibility: Cannot be
+      targeted by enemies; ignore all DMG taken when attacked; gain immunity
+      against common debuffs; and greatly increased Move Speed and Attack
+      Speed.\\nInvisibility ends when tapping the [ATK] button, using weapon
+      skills or Ultimates, or switching characters.</color>"
+    icon: Skill_Bronya_ZP_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2406"
+        name: Time Bomb
+        info: "Ultimate Evasion drops 8 bomblets at the enemy's location that explode
+          after a short delay, dealing #1[i]% ATK of Physical DMG."
+        brief: Ultimate Evasion drops bomblets at the enemy's location that explode
+          after a short delay.
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.08571
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2407"
+        name: Particle Reset
+        info: "Shortens CD of Dimensional Interruption by #1[f1]s."
+        brief: Shortens CD of Dimensional Interruption.
+        icon: Skill_Nagative_Survive03
+        maxLv: 20
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.10527
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2408"
+        name: Stealth Assassination
+        info: "When invisible, character attacks gain #1[f1]% Physical DMG. Lasts until
+          #2[f2]s after invisibility ends."
+        brief: When invisible, character attacks gain Physical DMG. Lasts for a period
+          of time after invisibility ends.
+        icon: Skill_Nagative_Damage03
+        maxLv: 8
+        paramBase1: 0.2
+        paramBase2: 1.5
+        paramBase3: 0
+        paramAdd1: 0.02144
+        paramAdd2: 0.18586
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "244"
+    name: Suppression Barrage
+    info: "Unloads the entire arsenal to bombard the designated
+      area.\\n<color=#23B2E2FF>Suppression Barrage: Creates a small immobilizing
+      field surrounding the target and bombards the AOE to deal 20x80% ATK of
+      Physical DMG.\\nSP Cost: 125</color>"
+    icon: Skill_Bronya_HH_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2409"
+        name: Mortar Cannon
+        info: "Each hit of Bombardment deals #1[f1]% ATK of bonus Physical DMG and has a
+          #2[f1]% chance to inflict <color=#FEDF4CFF>5 Ignite Trauma</color>."
+        brief: Bombardment deals bonus Physical DMG and inflicts Ignite Trauma.
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 0.4
+        paramBase2: 0.08
+        paramBase3: 80
+        paramAdd1: 0.08573
+        paramAdd2: 0.00571
+        paramAdd3: 52.85714
+        tags:
+          - type: ignite
+            strength: 1
+            comment: "Trauma charge rate of Ignition effects: Weak."
+        toggle: false
+        unlockStar: s
+      - id: "2410"
+        name: Blinding Munitions
+        info: Enemies hit by Bombardment will receive <color=#FEDF4CFF>#1[f1] Stun
+          Trauma</color> 0.5s after the last hit.
+        brief: After Bombardment ends, enemies hit receive Stun Trauma.
+        icon: Skill_Nagative_Skill03
+        maxLv: 6
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.4
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 1
+            comment: "Inflicts Stun Trauma; Trauma charge rate: weak."
+        toggle: false
+        unlockStar: ss
+  - id: "245"
+    name: Complex Operations
+    info: "Leader Bonus: <color=#23B2E2FF>Complex Operations: {{Shortens CDs of main
+      effects triggered by whole team's Ultimate Evasions and Perfect Defense by
+      #1[f1]s.}}</color>"
+    icon: Skill_Bronya_ZP_005
+    skillType: leader
+    tags: []
+    paramSubId1: 2411
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2411"
+        name: Complex Operations
+        info: "Shortens the CDs of primary effects triggered by Ultimate Evasions and
+          Perfect Defense by #1[f1]s for the team."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Skill02
+        maxLv: 3
+        paramBase1: 3.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "246"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF></color>
+    icon: Skill_Bronya_ZP_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2412"
+        name: Field Breach
+        info: "Gain #1[f1]% Total DMG Multiplier when attacking an enemy from the side
+          or from behind."
+        brief: Gain Total DMG Multiplier when attacking an enemy from the side or from
+          behind.
+        icon: Skill_Nagative_Damage01
+        maxLv: 60
+        paramBase1: 0.19
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00339
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2413"
+        name: Target Locked
+        info: "When attacked or when triggering Ultimate Evasion, #1[f1]% chance to
+          apply Locked Mode onto the attacker, making it take #3[f1]% more
+          Physical DMG for #2[f1]s."
+        brief: When attacked or when triggering Ultimate Evasion, has a chance to lock
+          the attacker, increasing Physical DMG it takes.
+        icon: Skill_Nagative_Skill02
+        maxLv: 25
+        paramBase1: 0.1
+        paramBase2: 3
+        paramBase3: 0.15
+        paramAdd1: 0.0125
+        paramAdd2: 0.06254
+        paramAdd3: 0.00417
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2414"
+        name: Thermal Activation
+        info: "The Valkyrie gains #2[i]% Crit DMG. Each Crit hit additionally deals
+          #1[f1]% ATK of Fire DMG."
+        brief: Character deals more Crit DMG. Crit strikes also deal bonus Fire DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 6
+        paramBase1: 0.18
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.02402
+        paramAdd2: 0.04
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss

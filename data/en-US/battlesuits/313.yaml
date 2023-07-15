@@ -1,0 +1,404 @@
+id: "313"
+fullName: Herrscher of Reason
+shortName: Herrscher of Reason
+desc: <color=white>Features:</color> <color=#2CE3FFFF>MECH-type</color>
+  <color=#2CE3FFFF>Awakened</color> battlesuit. Can switch to USAGI Kinetik
+  biker mode.
+firstName: Bronya
+lastName: Zaychik
+enFirstName: null
+enLastName: null
+attributeType: mech
+isEasterner: false
+weapon: cannon
+character: bronya
+initialStar: s
+tags:
+  - ice-dmg
+  - freeze
+  - burst
+  - time-mastery
+skills:
+  - id: "461"
+    name: Zeroth Drive
+    info: "4-sequence attack.\\n<color=#23B2E2FF>1st sequence: 100% ATK of Physical
+      DMG + 80% ATK of Ice DMG.\\n2nd sequence: 100% ATK of Physical DMG + 100%
+      ATK of Ice DMG. +25 Konstruktyom.\\n3rd sequence: 150%+150% ATK of
+      Physical DMG + 2x100% ATK of Ice DMG. +25 Konstruktyom.\\n4th sequence:
+      Drills deal 8x40%+200% ATK of Ice DMG. +9x25 Konstruktyom. Pulls in nearby
+      enemies.</color>"
+    icon: Skill_Bronya_C7_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4601"
+        name: Cracked Construct
+        info: "Shockwave after the Drill attack inflicts Analyzed state on enemies hit
+          for #1[f2]s."
+        brief: Last hit of Basic ATK inflicts the Analyzed debuff.
+        icon: Skill_Nagative_Skill01
+        maxLv: 79
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03846
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4602"
+        name: Power Link
+        info: "If Drill ATK hits, then gain #1[f2] SP."
+        brief: Drill ATKs give SP.
+        icon: Skill_Nagative_Skill01
+        maxLv: 8
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02857
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4612"
+        name: Stop Array
+        info: "When performing Drill ATK, become immune to front-side and flank ATKs.
+          Back-side ATKs also suffer #1[f1]% Total DMG Reduction."
+        brief: Takes less DMG during Drill ATKs.
+        icon: Skill_Nagative_Survive01
+        maxLv: 8
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02143
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "462"
+    name: "<color=#FFC741FF>Charged</color>: Weaponized Build"
+    info: "Perform Charged ATK at max speed during Basic ATK sequence or
+      evasion.\\n<color=#23B2E2FF>Tap and hold [ATK] button to spend 120
+      Konstruktyom to turn into the DEA Raison Herrscher Form. DEA Raison: Tap
+      [ATK] to unleash Charged ATKs. \\nArmament Build: Charged ATK mode differs
+      according to weapon type equipped, but deals a total of 660% ATK of Ice
+      DMG.</color>"
+    icon: Skill_Bronya_C7_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4603"
+        name: Speed Decypher
+        info: "DEA Raison active: ATKs gain #1[f1]% Total DMG Multiplier, and another
+          40% Total DMG Multiplier to PSY-type enemies."
+        brief: DEA Raison deals more DMG, and gains another DMG buff against PSY
+          enemies.
+        icon: Skill_Nagative_Damage01
+        maxLv: 75
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00473
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4604"
+        name: Firewall
+        info: "DEA Raison active: Gains #1[f1]% Total DMG Reduction."
+        brief: DEA Raison takes less DMG.
+        icon: Skill_Nagative_Survive02
+        maxLv: 30
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0069
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4605"
+        name: Stream Transfer
+        info: "DEA Raison active: When not riding, each Charged ATK performed gives
+          #1[f1] SP and a #2[f1]% Ice DMG buff. Max DMG buff stacks: 3."
+        brief: DEA Raison's Charged ATK gives SP and deals more DMG when not riding.
+        icon: Skill_Nagative_StartUp03
+        maxLv: 25
+        paramBase1: 3
+        paramBase2: 0.07
+        paramBase3: 0
+        paramAdd1: 0.08333
+        paramAdd2: 0.00333
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "463"
+    name: Instant Freeze
+    info: "Quickly evades attacks. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Gains 120 Konstruktyom upon Ultimate Evasion, and
+      the first attack within the next 1.7s after the Evasion inflicts a 4s
+      Analyzed debuff on the target.\\nInstant Freeze: Ultimate Evasion
+      generates a 3s Time Fracture; CD: 15s.</color>"
+    icon: Skill_Bronya_C7_003
+    skillType: evasion
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "QTE is Heavy ATK; Trauma charge: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4606"
+        name: Freeze Threshold
+        info: "Reduces Instant Freeze CD by #1[f1]s. Instant Freeze Time Fracture also
+          inflicts a 6s Analyzed debuff to affected enemies."
+        brief: Instant Freeze also inflicts the Analyzed debuff to affected enemies.
+        icon: Skill_Nagative_Damage01
+        maxLv: 4
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss2
+      - id: "4607"
+        name: "<color=#FFC741FF>QTE</color>: Data Storm"
+        info: "QTE: Triggered when an enemy is paralyzed, Time-Slowed, or frozen to deal
+          #1[f1]% ATK of Physical DMG + #1[f1]%+300% ATK of Ice DMG, recover 120
+          Konstruktyom, and inflict 6s of Analyzed on hit."
+        brief: "QTE: Restores Konstruktyom and applies the Analyzed debuff."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 8
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.28571
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "4614"
+        name: Emergency Damper
+        info: "Triggering Instant Freeze also heals #1[i] HP. If Instant Freeze is not
+          in CD, Instant Freeze can be manually triggered by evading within a
+          short-time after being attacked."
+        brief: Ultimate Evasion can be triggered shortly after taking DMG.
+        icon: Skill_Nagative_Skill03
+        maxLv: 8
+        paramBase1: 200
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 28.57143
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "464"
+    name: Cyberangel.cfg
+    info: "Burst transform of Project Bunny.\\n<color=#23B2E2FF>Gains 480
+      Konstruktyom and deals 5x450% + 800% ATK of Ice DMG, then ride USAGI
+      Kinetik as DEA Raison. Max duration: 17s.\\nUSAGI Kinetik: Gains 40
+      Konstruktyom per second and immunity to death for the duration. While
+      moving, creates a Hover Gun per 0.6s that deals 4x65% ATK of Ice
+      DMG.\\nTap [ATK]: Performs Charged ATK (costs 240 Konstruktyom) to deal
+      2x250% + 2x300% ATK of Ice DMG and inflict a 4s Analyzed debuff.\\nTap
+      [Evade]: Enemies hit by evasion move take up to 4x10% ATK of Ice DMG and
+      receive a 4s Analyzed debuff.\\nCD: 30s. SP cost: 125</color>"
+    icon: Skill_Bronya_C7_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 3
+        comment: "Ultimate activation is Heavy ATK; Trauma charge: strong. \\nCharged
+          ATK in Burst mode is Heavy ATK; Trauma charge: weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4608"
+        name: Rebuild.exe
+        info: "USAGI Kinetik: At below 50% HP, heal #1[f1] HP per 0.5s. At below 25%,
+          heal another #2[f1] HP per 0.5s."
+        brief: Riding USAGI Kinetik also heals HP.
+        icon: Skill_Nagative_Survive02
+        maxLv: 8
+        paramBase1: 20
+        paramBase2: 30
+        paramBase3: 0
+        paramAdd1: 2.85714
+        paramAdd2: 4.28571
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4609"
+        name: Fast Decryption
+        info: "USAGI Kinetik: Charged ATKs gain a #1[f1]% All Elemental Breach buff."
+        brief: "USAGI Kinetik: Charged ATKs gain Elemental Breach."
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00345
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4610"
+        name: Underclock
+        info: "USAGI Kinetik: Takes #1[f1]% less Indirect DMG."
+        brief: "USAGI Kinetik: Takes less Indirect DMG."
+        icon: Skill_Nagative_Damage03
+        maxLv: 8
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02143
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "465"
+    name: Source Protocol
+    info: "Leader Bonus:\\n<color=#23B2E2FF>Source Protocol: {{Team gains #1[f1]% to
+      all Elemental DMG. Any Bronya, Seele, or Olenyevas in team also gains
+      #2[f1]% Total DMG Multiplier.}}</color>"
+    icon: Skill_Bronya_C7_005
+    skillType: leader
+    tags: []
+    paramSubId1: 4611
+    paramSubId2: 4611
+    paramSubId3: 0
+    subSkills:
+      - id: "4611"
+        name: Source Protocol
+        info: "Team gains #1[f1]% to all Elemental DMG. Any Bronya, Seele, or Olenyeva
+          battlesuits in team also gains #2[f1]% Total DMG Multiplier."
+        brief: Buffs the leader skill.
+        icon: Skill_Nagative_Damage02
+        maxLv: 2
+        paramBase1: 0.27
+        paramBase2: 0.23
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+      - id: "4617"
+        name: Substantial Analysis
+        info: "In normal mode, Charged ATK has #1[f1]% Elemental Breach."
+        brief: In normal mode, Charged ATK has Elemental Breach.
+        icon: Skill_Nagative_Damage03
+        maxLv: 1
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+      - id: "4618"
+        name: Reason Reconstructed
+        info: "When exiting in bike mode, Bronya restores #1[i] Konstruktyom and #2[f1]
+          SP."
+        brief: Exiting in bike mode restores Konstruktyom & SP.
+        icon: Skill_Nagative_Skill03
+        maxLv: 1
+        paramBase1: 240
+        paramBase2: 10
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "466"
+    name: Passive
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E2FF>Konstruktyom:
+      Caps at 480.\\nAnalyzed: Analyzed enemies receive</color>
+      <color=#FEDF4CFF>5 Rime Trauma</color><color=#23B2E2FF>. Deal 40% bonus
+      Total DMG to Analyzed or Frozen enemies.\\nExiting ends DEA Raison and
+      reverts USAGI Kinetik to Armored Bunny.</color>"
+    icon: Skill_Bronya_C7_006
+    skillType: passive
+    tags:
+      - type: freeze
+        strength: 1
+        comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+          rate: weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4613"
+        name: Build Reboot
+        info: "When USAGI Kinetik reverts to Armored Bunny, the Valkyrie restores #1[i]
+          Konstruktyom."
+        brief: Gains Konstruktyom when USAGI Kinetik reverts to Armored Bunny.
+        icon: Skill_Nagative_Skill02
+        maxLv: 20
+        paramBase1: 120
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 6.31579
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "4615"
+        name: 2-Pass Coding
+        info: "Start battle with #1[i] more Konstruktyom."
+        brief: Start with more Konstruktyom.
+        icon: Skill_Nagative_Skill02
+        maxLv: 2
+        paramBase1: 240
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 120
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "4616"
+        name: Chilling Build
+        info: "Charged ATKs deal #1[f1]% more Ice DMG."
+        brief: Charged ATKs deal more DMG.
+        icon: Skill_Nagative_Skill02
+        maxLv: 8
+        paramBase1: 0.09
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.09
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

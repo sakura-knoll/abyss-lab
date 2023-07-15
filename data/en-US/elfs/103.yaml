@@ -1,0 +1,277 @@
+id: "103"
+fullName: Selune's Elegy
+icon: Elf_03
+cardIcon: Elf_10003
+chibiIcon: Elf_10003
+figureImage: Elf_10003
+rarity: 4
+cardId: 380103
+fragmentId: 370103
+storyDesc: She styles herself Lady Death, the angel of eternal sleep. \nShe
+  speaks slowly in a deep and mysterious voice. \nThough emotionally detached,
+  she still enjoys making dark jokes.
+ultSkillCd: 30
+ultSkillCost: 75
+skillBg: TalentBg3
+tags:
+  - type: ice-dmg
+    comment: null
+  - type: freeze
+    comment: null
+captainSkillIds:
+  - "10309"
+skills:
+  - id: "10301"
+    elfId: "103"
+    name: Shadow Strike
+    info: Swings her scythe to unleash multiple ATKs, dealing a total of 560% ATK of
+      Ice DMG; restores <color=#ff9900>#1[i]</color> SP upon hit.
+    skillType: Basic
+    skillTypeId: "1"
+    icon: Skill_Elf_Attack_103
+    row: 1
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 8
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10302"
+    elfId: "103"
+    name: Selune's Requiem
+    info: Hurls the scythe to deal 400%x5 ATK of AOE Ice DMG and summons Death's
+      Aura that immobilizes enemies within and makes them take 5% more Ice DMG.
+      Selune's Elegy attacks random targets in the aura 7 times (each target
+      takes no more than 4 hits), with each attack dealing
+      <color=#ff9900>#1[f1]%</color> ATK of Ice DMG to the target and nearby
+      enemies. Afterwards, it deals 1500% ATK of Ice DMG to enemies within the
+      aura, knocks them airborne and inflicts 18 Rime Trauma.
+    skillType: Ultimate
+    skillTypeId: "0"
+    icon: Skill_Elf_Ultra
+    row: 2
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 8
+    paramBase2: 8
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10303"
+    elfId: "103"
+    name: Dark Form
+    info: ELF's Ice DMG increases by <color=#ff9900>#1[f1]%</color>. Enemies will
+      still take 5% more Ice DMG for <color=#ff9900>#2[i]</color>s after
+      escaping from Death's Aura.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Passive
+    row: 3
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.4
+    paramBase2: 10
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10304"
+    elfId: "103"
+    name: Fighting Will
+    info: Each of ELF's Basic ATK hits boosts ELF's Total DMG by
+      <color=#ff9900>#1[f1]%</color> for 5s; stacks up to 3 times.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_Up
+    row: 1
+    col: 2
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.03
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0075
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10305"
+    elfId: "103"
+    name: Imprisonment
+    info: "ELF's Basic ATK has a 10% chance to additionally deal
+      <color=#ff9900>#1[f1]%</color> ATK of Ice DMG; CD: 20s."
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_Freeze
+    row: 1
+    col: 3
+    unlockStar: 7
+    maxLv: 5
+    paramBase1: 0.8
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.175
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10306"
+    elfId: "103"
+    name: Icebound Rift
+    info: After an enemy is knocked airborne, the duration of the Freeze effect
+      extends by 20% and it deals <color=#ff9900>#2[f1]%</color> bonus Ice DMG.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Freeze
+    row: 2
+    col: 2
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 4
+    paramBase2: 1.5
+    paramBase3: 0
+    paramAdd1: 0.5
+    paramAdd2: 0.25
+    paramAdd3: 0
+  - id: "10307"
+    elfId: "103"
+    name: Ultimate Blitz
+    info: After unleashing ELF's Ultimate, ELF gains <color=#ff9900>#1[f1]%</color>
+      Total DMG for 15s (effect duration resets when triggered again).
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Ultra_Up
+    row: 2
+    col: 3
+    unlockStar: 7
+    maxLv: 5
+    paramBase1: 0.12
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0325
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10308"
+    elfId: "103"
+    name: Convergence
+    info: ELF gains 1% Ice DMG for each hit against the same target; effect maxes at
+      <color=#ff9900>#1[f1]%</color> and resets when the target is changed.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 3
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 0.06
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0225
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10309"
+    elfId: "103"
+    name: Field Captivity
+    info: <color=#23b2e2>[Team-triggered]</color> With any Valkyrie(s) capable of
+      dealing Ice DMG on the team, the Ice Vulnerability effect of Death's Aura
+      is enhanced to <color=#ff9900>#1[f1]%</color>.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Freeze_Vulnerability
+    row: 3
+    col: 3
+    unlockStar: 7
+    maxLv: 5
+    paramBase1: 0.06
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.01
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10310"
+    elfId: "103"
+    name: Energy Charge
+    info: ELF's SP recovery rate increases by <color=#ff9900>#1[f1]%</color>.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 4
+    col: 1
+    unlockStar: 1
+    maxLv: 4
+    paramBase1: 0.06
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.02
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10311"
+    elfId: "103"
+    name: Phantom Flash
+    info: ELF's Ultimate CD shortens by <color=#ff9900>#1[f1]%</color>.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_CD_Down
+    row: 4
+    col: 2
+    unlockStar: 1
+    maxLv: 4
+    paramBase1: 0.15
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.05
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10312"
+    elfId: "103"
+    name: Revelation
+    info: ELF's initial SP increases by <color=#ff9900>#1[f1]</color>.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Initial_UP
+    row: 4
+    col: 3
+    unlockStar: 1
+    maxLv: 4
+    paramBase1: 20
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 6.666667
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10313"
+    elfId: "103"
+    name: Extinction
+    info: ELF's Total DMG increases by <color=#ff9900>#1[f1]%</color> .
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 4
+    col: 4
+    unlockStar: 4
+    maxLv: 4
+    paramBase1: 0.05
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.016667
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10314"
+    elfId: "103"
+    name: Frozen
+    info: ELF's Ice DMG increases by <color=#ff9900>#1[f1]%</color>.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 3
+    col: 4
+    unlockStar: 7
+    maxLv: 4
+    paramBase1: 0.06
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.02
+    paramAdd2: 0
+    paramAdd3: 0

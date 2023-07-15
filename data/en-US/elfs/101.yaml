@@ -1,0 +1,221 @@
+id: "101"
+fullName: Blood Embrace
+icon: Elf_01
+cardIcon: Elf_10001
+chibiIcon: Elf_10001
+figureImage: Elf_10001
+rarity: 3
+cardId: 380101
+fragmentId: 370101
+storyDesc: The ELF version of the cross weapon Blood Embrace. She swings a huge
+  ax while waltzing across the field of battle. \n\nThe weapon itself is
+  constructed using the core of 3 Honkai Beasts. This also gave rise to 3
+  personalities in the ELF. She is a cold war machine in combat. Once the
+  fighting is over, she'll revert to a more gentle yet coy behavior. \n\nDespite
+  aspiring to become a bloodthirsty vampire, she actually drinks tomato juice.
+  She is working very hard to make everyone fear her.
+ultSkillCd: 30
+ultSkillCost: 75
+skillBg: TalentBg1
+tags:
+  - type: physical-dmg
+    comment: null
+captainSkillIds: []
+skills:
+  - id: "10101"
+    elfId: "101"
+    name: Ax of Destruction
+    info: Unleashes a mighty forward swing with a giant ax, dealing 490% ATK of
+      Physical DMG, and restores <color=#ff9900>#1[i]</color> SP upon hit.
+    skillType: Basic
+    skillTypeId: "1"
+    icon: Skill_Elf_Attack_101
+    row: 1
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 8
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10102"
+    elfId: "101"
+    name: Bloody Sentence
+    info: Charge at the target while swinging a giant axe, dealing 360% x 3 ATK of
+      Physical DMG to nearby enemies, then toss the axe into the sky. When the
+      axe slams on the ground, deal 2900% ATK of AOE Physical DMG near the
+      target. Bloody Sentence deals <color=#ff9900>#1[i]%</color> more shield
+      DMG and <color=#ff9900>#2[i]</color> more DMG against shields.
+    skillType: Ultimate
+    skillTypeId: "0"
+    icon: Skill_Elf_Ultra
+    row: 2
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 1
+    paramBase2: 3000
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10103"
+    elfId: "101"
+    name: Siphon Life
+    info: ELF's Physical DMG increases by <color=#ff9900>#1[i]%</color>; deals 200%
+      more damage against shields or enemies that only take fixed amounts of
+      damage.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Passive
+    row: 3
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.5
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "101011"
+    elfId: "101"
+    name: Glary Imprint
+    info: "ELF's Basic ATK has a 50% chance of dealing
+      <color=#ff9900>#1[f1]%</color> more DMG; CD: 5s."
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_Up
+    row: 1
+    col: 2
+    unlockStar: 4
+    maxLv: 6
+    paramBase1: 1.5
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.3
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "101021"
+    elfId: "101"
+    name: Final Judgment
+    info: ELF's Ultimate deals <color=#ff9900>#1[f1]%</color> more Total DMG.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Ultra_Strong
+    row: 2
+    col: 2
+    unlockStar: 4
+    maxLv: 3
+    paramBase1: 0.15
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.075
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "101022"
+    elfId: "101"
+    name: Raging Wrath
+    info: After unleashing ELF's Ultimate, ELF's Basic ATK deals
+      <color=#ff9900>#1[f1]%</color> more Total DMG for 15s.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Ultra_Strong
+    row: 2
+    col: 3
+    unlockStar: 7
+    maxLv: 6
+    paramBase1: 0.15
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.03
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "101031"
+    elfId: "101"
+    name: Godsbane Grip
+    info: ELF deals <color=#ff9900>#1[f1]%</color> more Total DMG for 15s after ELF
+      breaks an enemy shield.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_BreakShield
+    row: 3
+    col: 2
+    unlockStar: 7
+    maxLv: 6
+    paramBase1: 0.1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.02
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "101032"
+    elfId: "101"
+    name: Holy Light
+    info: ELF's initial SP increases by <color=#ff9900>#1[f1]</color>.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Initial_UP
+    row: 4
+    col: 1
+    unlockStar: 1
+    maxLv: 4
+    paramBase1: 20
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 6.666667
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "101033"
+    elfId: "101"
+    name: Greed
+    info: ELF deals <color=#ff9900>#1[f1]%</color> more Physical DMG.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 4
+    col: 2
+    unlockStar: 1
+    maxLv: 4
+    paramBase1: 0.06
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.02
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "101034"
+    elfId: "101"
+    name: Armor Breaker
+    info: ELF deals <color=#ff9900>#1[f1]%</color> more DMG against shields.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_BreakShield
+    row: 4
+    col: 3
+    unlockStar: 2
+    maxLv: 4
+    paramBase1: 0.15
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.05
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "101035"
+    elfId: "101"
+    name: Pride
+    info: ELF deals <color=#ff9900>#1[f1]%</color> more Total DMG.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 4
+    col: 4
+    unlockStar: 4
+    maxLv: 4
+    paramBase1: 0.05
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.016667
+    paramAdd2: 0
+    paramAdd3: 0

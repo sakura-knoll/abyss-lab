@@ -1,0 +1,444 @@
+id: "205"
+fullName: Herrscher of Thunder
+shortName: Herrscher of Thunder
+desc: <color=white>Features:</color> <color=#FF66CCFF>PSY-type</color>
+  <color=#FF66CCFF>Awakened</color> melee battlesuit capable of dealing
+  sustained and high Lightning DMG.
+firstName: Mei
+lastName: Raiden
+enFirstName: null
+enLastName: null
+attributeType: psy
+isEasterner: true
+weapon: katana
+character: mei
+initialStar: s
+tags:
+  - lightning-dmg
+  - paralyze
+  - fast-atk
+  - burst
+  - time-mastery
+skills:
+  - id: "551"
+    name: Takemikazuchi's Edge
+    info: "Lightning-imbued katana attacks which inflict minor Paralyze Trauma.
+      Evading after any of the first 3 sequences does not break the
+      combo.\\n<color=#23B2E2FF>1st Sequence: 60% ATK of Physical DMG + 60% ATK
+      of Lightning DMG.\\n2nd Sequence: 80% ATK of Physical DMG + 70% ATK of
+      Lightning DMG.\\n3rd Sequence: 60% ATK of Physical DMG + 80% ATK of
+      Lightning DMG.\\n4th Sequence: 250% ATK of Lightning DMG.\\n5th Sequence:
+      300% ATK of Lightning DMG.\\n5th sequence of Basic ATK, Combo ATK,
+      Ultimate Evasion skill, QTE, and Ultimate inflict Narukami's Mark on
+      enemies for 15s. Marked enemies take 20% bonus Lightning DMG from the
+      Valkyrie (independent effect).\\nNarukami's Mark cannot coexist with Soul
+      Razor's conductive effect from Lightning Empress.</color>"
+    icon: Skill_Mei_AC_001
+    skillType: basic
+    tags:
+      - type: paralyze
+        strength: 1
+        comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+          charge rate: very weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5501"
+        name: Mantle of Prajna
+        info: "During the first 3 sequences of Basic ATK, Valkyrie takes #1[f1]% less
+          Total DMG. During the 5th sequence, she has higher Ignore Interrupt
+          and takes 80% less Total DMG. She has a barrier that can block the
+          next incoming attack. Reset after 3 special Combo ATKs."
+        brief: Basic ATK provides protection.
+        icon: Skill_Nagative_Survive01
+        maxLv: 8
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5502"
+        name: Curse of Mikazuki
+        info: "When the Valkyrie attacks enemies inflicted with Narukami's Mark, the
+          bonus Lightning DMG increases to #1[f1]%."
+        brief: Enemies marked with Narukami's Mark take more damage from the Valkyrie's
+          attacks.
+        icon: Skill_Nagative_Damage03
+        maxLv: 65
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00234
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5503"
+        name: "<color=#FFC741FF>QTE</color>: Oni-Issen"
+        info: Triggered when an enemy is Time-Slowed or knocked-airborne to deal
+          400%+#1[i]% ATK of Lightning DMG and restore 200 Herrscher Charge. Tap
+          [ATK] immediately after to connect into the 4th sequence of Basic
+          ATK.\nIf switching in the Valkyrie to cast Ultimate Finisher with a
+          QTE entry, Finisher deals 600% ATK of bonus Lightning DMG and restore
+          200 Herrscher Charge.
+        brief: "QTE: Triggered when an enemy is Time-Slowed or knocked airborne to deal
+          DMG. Can be connected into 4th sequence of Basic ATK."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 8
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.42857
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "552"
+    name: "<color=#FFC741FF>Combo</color>: Susanoo's Frenzy"
+    info: "Unleash Herrscher power for a mighty blow.\\n<color=#23B2E2FF>Hold [ATK]
+      after Basic ATK to perform.\\nCombo ATK: 200% ATK of Lightning DMG\\nAt
+      full Herrscher Charge, hold [ATK] after Basic or Combo ATK to consume all
+      charge and perform special Combo ATK - Shinzan Strike, dealing 1050% ATK
+      of Lightning DMG and triggering 3s of Narukami's Mark's Falling Thunder
+      effect.</color>"
+    icon: Skill_Mei_AC_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5504"
+        name: Bane of Shutendoji
+        info: "Shinzan Strike deals #1[f1]% bonus Total DMG. In non-burst mode, Combo
+          ATKs restore #2[f1] SP on hit. CD: #3[f1]s."
+        brief: Special Combo ATKs deal more damage and Combo ATKs restore SP.
+        icon: Skill_Nagative_Skill03
+        maxLv: 9
+        paramBase1: 0.3
+        paramBase2: 9
+        paramBase3: 6
+        paramAdd1: 0.025
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5505"
+        name: Flare of Gongen
+        info: "At 75 combo hits or higher, casting Combo ATK resets combo hits to 25,
+          deals #2[f1]% ATK of bonus Lightning DMG, and triggers Narukami's
+          Mark's Falling Thunder effect for 2s. Within 10s after, affected
+          enemies receive <color=#FEDF4CFF>1 Paralyze Trauma (capped at
+          12)</color> for every hit from the Valkyrie."
+        brief: Combo ATKs trigger bonus effects at 75 hit count or higher.
+        icon: Skill_Nagative_Control02
+        maxLv: 8
+        paramBase1: 1.5
+        paramBase2: 0.5
+        paramBase3: 0.05
+        paramAdd1: 0.21429
+        paramAdd2: 0.07143
+        paramAdd3: 0.00714
+        tags:
+          - type: paralyze
+            strength: 2
+            comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+              charge rate: medium."
+        toggle: false
+        unlockStar: s
+      - id: "5506"
+        name: Fang of Momiji
+        info: "After Combo ATKs hit, the Valkyrie restores #1[f2] HP per second for
+          10s."
+        brief: Landing Combo ATKs restores HP.
+        icon: Skill_Nagative_Survive03
+        maxLv: 40
+        paramBase1: 20
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.51282
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+  - id: "553"
+    name: Tsukuyomi's Flash
+    info: "Evade enemy attacks up to twice in row.\\n<color=#23B2E2FF>Evasion deals
+      120% ATK of Lightning DMG.\\nUltimate Evasion inflicts Narukami's Mark, a
+      2s Blitzlock, and</color> <color=#FEDF4CFF>5 Paralyze
+      Trauma</color><color=#23B2E2FF>. Base CD: 15s.\\nTap [ATK] within 1.5s
+      after triggering Ultimate Evasion Skill to charge at and gather enemies
+      for a follow-up, dealing 250% ATK of Lightning DMG and causing a 4s Time
+      Fracture.\\nDuring Ultimate: Triggering Ultimate Evasion Skill causes a 3s
+      Global Time Fracture and makes the next attack deals 300% ATK of bonus
+      Lightning DMG. The start and end of Ultimate both reset Ultimate Evasion
+      Skill's CD.</color>"
+    icon: Skill_Mei_AC_003
+    skillType: evasion
+    tags:
+      - type: paralyze
+        strength: 1
+        comment: "Ultimate Evasion can inflict Paralyze Trauma. Trauma charging rate:
+          weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5507"
+        name: Galvanized Ojuzu
+        info: "Ultimate Evasions restore #1[f1] SP and trigger Narukami's Mark's Falling
+          Thunder effect for 1s."
+        brief: Ultimate Evasions restore SP with bonus effects.
+        icon: Skill_Nagative_Skill02
+        maxLv: 30
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.17276
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5508"
+        name: Trance of Avalok
+        info: "Ultimate Evasion CD is reduced by #1[f2]s."
+        brief: Ultimate Evasion has shorter CD.
+        icon: Skill_Nagative_Survive01
+        maxLv: 20
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.10526
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5509"
+        name: Crane of Ichimonji
+        info: "The Ultimate Evasion follow-up deals #1[f1]% ATK of bonus Lightning DMG."
+        brief: The Ultimate Evasion follow-up deals more damage.
+        icon: Skill_Nagative_Damage02
+        maxLv: 4
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.66667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss2
+  - id: "554"
+    name: Amaterasu's Ride
+    info: "Enter burst mode and unleash full Herrscher power on the dragon's
+      back.\\n<color=#23B2E2FF>Ride the dragon to fight for up to 15s.\\nThe
+      Valkyrie takes damage when the dragon is hit but has 80% Total DMG
+      Reduction, cannot fall, recovers 120 HP/s, and cannot cast weapon
+      actives.\\nEntry: Deals 1600% ATK of Lightning DMG and recovers 600
+      Herrscher Charge.\\nBarrage: Tap [ATK] repeatedly to deal 250% ATK of
+      Lightning DMG per hit. The cyclone deals 25% ATK of Lightning DMG per
+      0.25s to enemies gathered.\\nCombo ATK - Bombard: Hold [ATK] to cast,
+      consuming 50 Herrscher Charge per 0.2s, dealing 160% ATK of Lightning DMG,
+      Blitzlocking enemies for 0.5s, and inflicting</color> <color=#FEDF4CFF>1
+      Paralyze Trauma</color><color=#23B2E2FF>.\\nFinisher: Deals 1400% ATK of
+      Lightning DMG and triggers a 4s Time Fracture. Switch out the Valkyrie
+      (this suspends burst mode and Finisher is performed upon re-entry) or tap
+      [ULT] again to perform.\\nSP Cost: 125. Tap [ULT] 12s after activation to
+      perform Finisher.</color>"
+    icon: Skill_Mei_AC_004
+    skillType: ultimate
+    tags:
+      - type: paralyze
+        strength: 2
+        comment: "Bombard can inflict Paralyze Trauma. Trauma charging rate: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5510"
+        name: Amenohabakiri
+        info: "Barrage deals #1[f1]% ATK of bonus Physical DMG per hit and deals #2[f1]%
+          bonus damage to shields."
+        brief: Ultimate attacks deal bonus Physical DMG and break shields faster.
+        icon: Skill_Nagative_Damage01
+        maxLv: 8
+        paramBase1: 1.5
+        paramBase2: 0.6
+        paramBase3: 0
+        paramAdd1: 0.21429
+        paramAdd2: 0.08571
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5511"
+        name: Futsuno Mitama
+        info: "Ultimate attacks deal #1[f1]% bonus Total DMG."
+        brief: Ultimate deals more damage.
+        icon: Skill_Nagative_Damage02
+        maxLv: 50
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00204
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5512"
+        name: Tsumugari
+        info: "Every hit of Bombard deals #1[f1]% bonus Lightning DMG."
+        brief: Bombard deals more damage.
+        icon: Skill_Nagative_Control03
+        maxLv: 6
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "555"
+    name: Yaoyorozu
+    info: "Leader Bonus:\\n<color=#23B2E2FF>Leader Skill: {{Team deals #1[f1]% bonus
+      Total DMG. PSY-type battlesuits have #2[i] bonus initial SP. In Open
+      World, the initial SP bonus takes effect once every 10 mins.}}</color>"
+    icon: Skill_Mei_AC_005
+    skillType: leader
+    tags: []
+    paramSubId1: 5513
+    paramSubId2: 5513
+    paramSubId3: 0
+    subSkills:
+      - id: "5513"
+        name: Yaoyorozu
+        info: "Team deals #1[f1]% bonus Total DMG. PSY-type battlesuits have #2[i] bonus
+          initial SP. In Open World, the initial SP bonus takes effect once
+          every 10 mins."
+        brief: Enhances Leader Bonus.
+        icon: Skill_Nagative_StartUp01
+        maxLv: 2
+        paramBase1: 0.2
+        paramBase2: 60
+        paramBase3: 0
+        paramAdd1: 0.08
+        paramAdd2: 10
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+      - id: "5517"
+        name: Kamiyonanayo
+        info: "Bombard costs #1[f1] Herrscher Charge per 0.2s."
+        brief: Bombard costs less Herrscher Charge.
+        icon: Skill_Nagative_StartUp02
+        maxLv: 1
+        paramBase1: 30
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+      - id: "5518"
+        name: Takamagahara
+        info: "Casting Ultimate Finisher restores #1[f1] Herrscher Charge, and the next
+          Shinzan Strike restores 35 Herrscher Charge per 0.2s for 2s."
+        brief: Casting Ultimate Finisher restores Herrscher Charge.
+        icon: Skill_Nagative_Control03
+        maxLv: 1
+        paramBase1: 400
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "556"
+    name: Kagutsuchi's Avatar
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E2FF>Herrscher Charge
+      starts at 200 and maxes at 600. When performing special Combo ATK and
+      Ultimate, the Valkyrie is in Herrscher Form.\\nUltimate Evasion skill and
+      Bombard inflict Blitzlock which immobilize and paralyze enemies.\\nWhen
+      hitting an enemy inflicted with Narukami's Mark, Basic ATK, Combo ATK,
+      Evasion ATK, and Ultimate deal 5%/20% ATK of bonus Lightning DMG to all
+      marked enemies and recover 26/50 Herrscher Charge. CD: 0.05s. (No
+      Herrscher Charge regen during Bombard and Finisher.)\\nFalling Thunder:
+      Certain moves can trigger it to deal 30% ATK of Lightning DMG per 0.2s to
+      all enemies marked with Narukami's Mark and restore 10 Herrscher Charge.
+      Triggering it again resets the duration.</color>"
+    icon: Skill_Mei_AC_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5514"
+        name: Brand of Kuji
+        info: "When the Valkyrie attacks enemies inflicted with Narukami's Mark, the
+          bonus Lightning DMG increases to #1[f1]%/#3[f1]% of ATK."
+        brief: The bonus damage dealt to enemies marked with Narukami's Mark increases.
+        icon: Skill_Nagative_Damage03
+        maxLv: 60
+        paramBase1: 0.07
+        paramBase2: 0.5
+        paramBase3: 0.3
+        paramAdd1: 0.00051
+        paramAdd2: 0.00847
+        paramAdd3: 0.00169
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5515"
+        name: Ruin of Arajishi
+        info: "The Valkyrie deals #1[f1]% bonus Lightning DMG. In Herrscher Form,
+          Elemental Breach is boosted by #2[f1]%."
+        brief: Boosts Valkyrie damage and Elemental Breach.
+        icon: Skill_Nagative_Skill03
+        maxLv: 8
+        paramBase1: 0.2
+        paramBase2: 0.11
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5516"
+        name: Gale of Acala
+        info: "When the Valkyrie is deployed, teammates on standby restore #1[f1]% of SP
+          obtained by her. The Valkyrie deals #2[f1]% bonus Total DMG to MECH
+          enemies."
+        brief: Teammates on standby share part of her SP regen. The Valkyrie deals more
+          damage to MECH enemies.
+        icon: Skill_Nagative_Skill01
+        maxLv: 8
+        paramBase1: 0.05
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.00714
+        paramAdd2: 0.02143
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

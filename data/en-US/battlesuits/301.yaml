@@ -1,0 +1,333 @@
+id: "301"
+fullName: Valkyrie Chariot
+shortName: Valkyrie Chariot
+desc: "<color=white>Features: </color><color=#FF66CCFF>PSY-type</color> ranged
+  battlesuit with charged attacks. Generates black holes for crowd clumping."
+firstName: Bronya
+lastName: Zaychik
+enFirstName: null
+enLastName: null
+attributeType: psy
+isEasterner: false
+weapon: cannon
+character: bronya
+initialStar: b
+tags:
+  - physical-dmg
+  - gather
+  - ignite
+  - time-mastery
+skills:
+  - id: "91"
+    name: "<color=#FFC741FF>Charge</color>: Particle Cannon"
+    info: "Charged cannon fire that deals greater DMG with higher charge
+      sequence.\\n<color=#23B2E2FF>Arm Switch: Charging mode changes with type
+      of weapon equipped.</color>"
+    icon: Skill_Bronya_ZP_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "901"
+        name: Atomic Radiation
+        info: Uncharged attacks inflict <color=#FEDF4CFF>#1[f1] Ignite Trauma</color> on
+          the target and nearby enemies.
+        brief: Uncharged attacks inflict Ignite Trauma.
+        icon: Skill_Nagative_Damage01
+        maxLv: 68
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01493
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 1
+            comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+              charge rate: very weak."
+        toggle: false
+        unlockStar: b
+      - id: "902"
+        name: Chain Reaction
+        info: "Basic ATKs and Charged ATKs gain #1[f1]% to Total DMG Multiplier against
+          ignited enemies."
+        brief: Basic and Charged ATKs gain Total DMG Multiplier against ignited enemies.
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00517
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "914"
+        name: Reactive Charge
+        info: "When charging, Valkyrie has a barrier that blocks the next incoming
+          attack and interrupts weak enemies. CD: #1[f1]s. #2[f1]% of incoming
+          damage can be blocked."
+        brief: When charging, Valkyrie has a barrier that blocks the next incoming
+          attack and interrupts weak enemies.
+        icon: Skill_Nagative_Survive03
+        maxLv: 25
+        paramBase1: 9
+        paramBase2: 0.5
+        paramBase3: 0
+        paramAdd1: -0.125
+        paramAdd2: 0.0125
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+  - id: "92"
+    name: "<color=#FFC741FF>Switch</color>: Gravity Shatter"
+    info: "Switch entry immediately unleashes a ground breaking
+      attack.\\n<color=#23B2E2FF>Ground Smasher: 150% ATK of Physical
+      DMG.</color>"
+    icon: Skill_Bronya_ZP_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "Switch Skill and QTE are Heavy ATKs; Trauma charge: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "903"
+        name: Aerial Smasher
+        info: "Gravity Shatter additionally deals #1[i]% ATK of Physical DMG against
+          enemies knocked airborne."
+        brief: Gravity Shatter deals additional Physical DMG to enemies knocked
+          airborne.
+        icon: Skill_Nagative_StartUp01
+        maxLv: 30
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.06897
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "904"
+        name: "<color=#FFC741FF>QTE</color>: Super Gravity"
+        info: "QTE: Triggers when an enemy is stunned, dealing 100% ATK of Physical DMG
+          + #1[f1] Physical DMG. Knocks enemies airborne and casts Time Lock for
+          3s."
+        brief: "QTE: Triggered when an enemy is stunned to deal Physical DMG, knock
+          enemies airborne, and inflict Time Lock."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 30
+        paramBase1: 1101
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 105.41379
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: b
+  - id: "93"
+    name: Dimension Shift
+    info: "Enters temporary Dimension Shift to evade enemy attacks. Can be performed
+      twice in a row.\\n<color=#23B2E2FF>Time Fracture: Triggers upon an
+      Ultimate Evasion and slows all enemies for 5s. CD: 15s.</color>"
+    icon: Skill_Bronya_ZP_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "905"
+        name: Time Lock
+        info: "Accelerates charging speed by #1[i]% during Time Fracture."
+        brief: Greatly accelerates charging speed during Time Fracture.
+        icon: Skill_Nagative_Skill02
+        maxLv: 20
+        paramBase1: 0.45
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02895
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "906"
+        name: Quantum Lock
+        info: "During Time Fracture and 1s afterwards, all cannon shells and missiles
+          hitting the enemy deals #1[f1]% more Physical DMG."
+        brief: Cannonballs and missiles deal more Physical DMG during Time Fracture and
+          1s after it.
+        icon: Skill_Nagative_Damage03
+        maxLv: 30
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00517
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "913"
+        name: Particle Rebuild
+        info: "Shortens CD of Time Fracture by #1[f1]s."
+        brief: Shortens CD of Time Fracture.
+        icon: Skill_Nagative_Survive02
+        maxLv: 25
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.3125
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "94"
+    name: Grav Singularity
+    info: "Summons a powerful black hole that pulls in nearby
+      enemies.\\n<color=#23B2E2FF>Black Hole: Lasts for 10s, during which the
+      summoner is invincible.\\nGravitational Collapse: Affected enemies
+      significantly lose Ignore Interrupt and deal 50% less Total DMG.\\nSP
+      Cost: 50\\nAfter unleashing the Ultimate, character switch is allowed, but
+      Valkyrie Chariot will stay on the battlefield during her
+      Ultimate.</color>"
+    icon: Skill_Bronya_ZP_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "907"
+        name: Particle Beam
+        info: Enemies pulled by Grav Singularity receive <color=#FEDF4CFF>#1[f1] Bleed
+          Trauma</color> every second.
+        brief: Enemies gathered by Grav Singularity receive Bleed Trauma continuously.
+        icon: Skill_Nagative_Damage02
+        maxLv: 69
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01471
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "Inflicts Bleed Trauma; Trauma charge rate: very weak."
+        toggle: false
+        unlockStar: b
+      - id: "908"
+        name: Particle Fusion
+        info: "Grav Singularity ends with an explosion that has a #1[f1]% chance to
+          inflict <color=#FEDF4CFF>6 Stun Trauma</color>."
+        brief: Grav Singularity ends with an explosion that may inflict Stun Trauma.
+        icon: Skill_Nagative_Control02
+        maxLv: 20
+        paramBase1: 0.5
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.02632
+        paramAdd2: 0.15789
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 2
+            comment: "Inflicts Stun Trauma; Trauma charge rate: medium."
+        toggle: false
+        unlockStar: s
+      - id: "909"
+        name: Gravity Wrench
+        info: "Gain #1[i]% Ranged Physical DMG against enemies pulled in by Grav
+          Singularity."
+        brief: Gain Ranged Physical DMG against enemies pulled in by Grav Singularity.
+        icon: Skill_Nagative_Skill03
+        maxLv: 20
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01053
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "95"
+    name: Reactive Armor
+    info: "Leader Bonus: <color=#23B2E2FF>Reactive Armor: {{Team takes #1[i]% less
+      Ranged Physical DMG.}}</color>"
+    icon: Skill_Bronya_ZP_005
+    skillType: leader
+    tags: []
+    paramSubId1: 910
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "910"
+        name: Reactive Armor
+        info: "Team receives #1[i]% less Ranged Physical DMG."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Survive02
+        maxLv: 4
+        paramBase1: 0.22
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "96"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF></color>
+    icon: Skill_Bronya_ZP_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "911"
+        name: Zero-G Barrier
+        info: "Attacks against stunned and paralyzed enemies deal #1[f1]% more Physical
+          DMG."
+        brief: Attacks against stunned and paralyzed enemies deal more Physical DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 20
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03158
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "912"
+        name: Particle Fusion
+        info: "Uncharged and Charged Basic ATKs of cannon-type weapons deal #1[f1]% more
+          Crit DMG."
+        brief: Basic and Charged ATKS of cannon-type weapons gain massive Crit DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 40
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02051
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

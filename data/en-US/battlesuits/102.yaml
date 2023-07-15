@@ -1,0 +1,432 @@
+id: "102"
+fullName: Valkyrie Ranger
+shortName: Valkyrie Ranger
+desc: "<color=white>Features: </color><color=#2CE3FFFF>MECH-type</color> ranged
+  battlesuit that deals DMG from afar."
+firstName: Kiana
+lastName: Kaslana
+enFirstName: null
+enLastName: null
+attributeType: mech
+isEasterner: false
+weapon: pistols
+character: kiana
+initialStar: a
+tags:
+  - physical-dmg
+  - gather
+  - bleed
+skills:
+  - id: "21"
+    name: Gyrodrive Kata
+    info: "Fires 4 shots in rapid succession.\\n<color=#23B2E2FF>1st Shot: 100% ATK
+      of Physical DMG.\\n2nd Shot: 100% ATK of Physical DMG.\\n3rd Shot: 150%
+      ATK of Physical DMG.\\n4th Shot: 250% ATK of Physical DMG.</color>"
+    icon: Skill_Kiana_FX_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "201"
+        name: Concentrate Fire
+        info: "Each repeated attack against the same target gains 2% ATK Speed (max:
+          #1[i]%). Effect resets if not attacking for 2s or switching targets."
+        brief: Repeated attacks against same enemy accelerates Attack Speed.
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00517
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "202"
+        name: Bleeding Shot
+        info: "When Basic ATK scores a Crit, it has a #1[i]% chance to inflict
+          <color=#FEDF4CFF>2 Bleed Trauma</color> (CD: 1s)."
+        brief: When Basic ATK scores a Crit, it may inflict Bleed Trauma.
+        icon: Skill_Nagative_Damage03
+        maxLv: 20
+        paramBase1: 0.5
+        paramBase2: 53
+        paramBase3: 2
+        paramAdd1: 0.01579
+        paramAdd2: 10.63158
+        paramAdd3: 0.10526
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "Inflicts Bleed Trauma; Trauma charge rate: very weak."
+        toggle: false
+        unlockStar: a
+      - id: "216"
+        name: "<color=#FFC741FF>QTE</color>: Meteor Shower"
+        info: "QTE: Triggers when an enemy is frozen, dealing 600% ATK of Physical DMG
+          against a single target. Last hit of the QTE deals #1[f1]% ATK of AOE
+          Physical DMG and impairs the target, reducing their DEF by 60% for
+          6s."
+        brief: "QTE: Triggered when an enemy is frozen to deal high Physical DMG to a
+          single target. The last hit deals DMG in a small area and impairs
+          enemies hit."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 50
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05104
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+  - id: "22"
+    name: "<color=#FFC741FF>Combo</color>: Aerolite Impact"
+    info: "Fires a Power Shot after 3 consecutive shots.\\n<color=#23B2E2FF>Power
+      Shot: 350% ATK of Physical DMG to all targets in a straight line.</color>"
+    icon: Skill_Kiana_FX_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "203"
+        name: Nova Barrage
+        info: "Combo ATK additionally deals #1[i] Physical DMG against the target."
+        brief: Combo ATKs deal more Physical DMG to the primary target.
+        icon: Skill_Nagative_Damage02
+        maxLv: 50
+        paramBase1: 38
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 5.28571
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "204"
+        name: Comet Blast
+        info: "When Combo ATK scores a Crit, it has a #1[f1]% chance to inflict
+          <color=#FEDF4CFF>3 Stun Trauma</color> (CD: 1s)."
+        brief: When Combo ATK scores a Crit, it may inflict Stun Trauma.
+        icon: Skill_Nagative_Damage01
+        maxLv: 35
+        paramBase1: 0.2
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 0.00882
+        paramAdd2: 0.02941
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 1
+            comment: "Inflicts Stun Trauma; Trauma charge rate: weak."
+        toggle: false
+        unlockStar: a
+      - id: "205"
+        name: Falling Comet
+        info: "When performing Combo ATKs, gain Ignore Interrupt and #1[f1]% DEF."
+        brief: Gain Ignore Interrupt and DEF during Combo ATKs.
+        icon: Skill_Nagative_Damage03
+        maxLv: 40
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01026
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "23"
+    name: Singularity
+    info: "Quickly cartwheels away to evade enemy attacks. Can be performed twice in
+      a row.\\n<color=#23B2E2FF>Energy Black Hole: Triggers upon an Ultimate
+      Evasion. Lasts for 2s, during which it pulls in enemies nearby. CD:
+      10s.</color>"
+    icon: Skill_Kiana_FX_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "206"
+        name: Star Sprint
+        info: "After evasion or battle entry, gain #1[f1]% Move Speed for #2[f1]s. CD:
+          6s."
+        brief: Gain Move SPD after evasion or battle entry.
+        icon: Skill_Nagative_Survive01
+        maxLv: 30
+        paramBase1: 0.3
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 0.01379
+        paramAdd2: 0.06897
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "207"
+        name: Time Bender
+        info: "Shortens CD of Ultimate Evasion by #1[f1]s."
+        brief: Shortens CD of Energy Black Hole.
+        icon: Skill_Nagative_Survive03
+        maxLv: 20
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.13158
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "215"
+        name: Nova Collapse
+        info: "Extends the duration of Energy Black Hole to #2[f1]s and expands the
+          pull-in range by #1[f1] meters."
+        brief: Extends the duration and pull-in range of the Energy Black Hole.
+        icon: Skill_Nagative_Survive02
+        maxLv: 5
+        paramBase1: 3.5
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 0.625
+        paramAdd2: 0.75
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "24"
+    name: Gungnir Fire
+    info: "Summons a Valkyrie heavy cannon to blast away at enemies before
+      her.\\n<color=#23B2E2FF>Uncanny Cannon: Up to 1200% ATK of Physical
+      DMG.\\nSP Cost: 50</color>"
+    icon: Skill_Kiana_FX_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "208"
+        name: Valkyrie Impulse
+        info: "During Ultimate, tap [ATK] repeatedly to additionally deal #1[i] Fire DMG
+          for each tap (max: 15 times)."
+        brief: During Ultimate, tap the [ATK] button to deal additional Fire DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 60
+        paramBase1: 60
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 5.27119
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "209"
+        name: Valkyrie Impact
+        info: The last hit of Ultimate inflicts <color=#FEDF4CFF>6 Stun Trauma</color>.
+        brief: The last hit of Ultimate inflicts Stun Trauma.
+        icon: Skill_Nagative_Control01
+        maxLv: 30
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.06897
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 2
+            comment: "Inflicts Stun Trauma; Trauma charge rate: medium."
+        toggle: false
+        unlockStar: a
+      - id: "210"
+        name: Valkyrie Frenzy
+        info: "Ultimate gains #1[f1]% Crit DMG."
+        brief: Ultimate gains Crit DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 20
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00526
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "25"
+    name: Flying Comet
+    info: "Leader Bonus: <color=#23B2E2FF>Speed Boost: {{Team gains #1[i]% Move
+      Speed. MECH-type characters gain #2[i]% Attack Speed.}}</color>"
+    icon: Skill_Kiana_PT_005
+    skillType: leader
+    tags: []
+    paramSubId1: 211
+    paramSubId2: 211
+    paramSubId3: 0
+    subSkills:
+      - id: "211"
+        name: Speed Boost
+        info: "Team gains #1[i]% Move Speed. MECH-type characters gain #2[i]% Attack
+          Speed."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Damage01
+        maxLv: 3
+        paramBase1: 0.15
+        paramBase2: 0.08
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "26"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF></color>
+    icon: Skill_Kiana_PT_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "212"
+        name: Shattering Blow
+        info: "Breaking an enemy shield deals #2[i]% ATK of Physical DMG and inflicts
+          <color=#FEDF4CFF>3 Stun Trauma</color>."
+        brief: Breaking an enemy shield deals Physical DMG and inflicts Stun Trauma.
+        icon: Skill_Nagative_Damage01
+        maxLv: 30
+        paramBase1: 1
+        paramBase2: 0.5
+        paramBase3: 0
+        paramAdd1: 0.10345
+        paramAdd2: 0.01724
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 1
+            comment: "Inflicts Stun Trauma; Trauma charge rate: weak."
+        toggle: false
+        unlockStar: a
+      - id: "213"
+        name: Critical Mastery
+        info: "Gain #1[f1]% Crit DMG. Deal #2[f1]% more Crit DMG against frozen
+          enemies."
+        brief: Minor Crit DMG buff. Major Crit DMG buff against frozen enemies.
+        icon: Skill_Nagative_Damage03
+        maxLv: 20
+        paramBase1: 0.05
+        paramBase2: 0.25
+        paramBase3: 0
+        paramAdd1: 0.00263
+        paramAdd2: 0.01316
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "214"
+        name: Antimatter Rounds
+        info: "Deal #1[f1]% more DMG against shields."
+        brief: Deal more DMG against shields.
+        icon: Skill_Nagative_Damage02
+        maxLv: 35
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00882
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "451"
+    name: Void Kata
+    info: "Gun kata attack.\\n<color=#23B2E2FF>1st sequence: 100% ATK of Physical
+      DMG.\\n2nd sequence: 3x50% ATK of Physical DMG.\\n3rd sequence: 2x80% ATK
+      of Physical DMG.\\n4th sequence: 150% ATK of Physical DMG and inflicts a
+      12s Voidmark on the enemy.\\nIf 4th sequence hits, then create a 3s
+      Enerstrom to pull in enemies. Enerstrom CD: 10s. Enemies hit by 4th
+      sequence or pulled in by Enerstrom are Voidmarked for 12s.\\nPerforming
+      the 4th Basic ATK sequence and Enerstrom: Lose 50 Herrscher
+      Charge.</color>"
+    icon: Skill_Kiana_FX_Artifact01_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "452"
+    name: "<color=#FFC741FF>Combo</color>: Void Flechette"
+    info: "Attack the enemy with a Subspace Lance.\\n<color=#23B2E2FF>Combo ATK
+      keys: Tap and hold [ATK] button.\\n1st sequence: 200% ATK of Physical
+      DMG.\\n2nd sequence: 150%+150% ATK of Physical DMG.\\n3rd sequence: 300%
+      ATK of Physical DMG.\\nEach Combo ATK performed: +100 Herrscher
+      Charge.</color>"
+    icon: Skill_Kiana_FX_Artifact01_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "453"
+    name: Zeitstrom
+    info: "Quickly dodge enemy attacks. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Zeitflux: Deals 300% ATK of Physical DMG against
+      nearby enemies upon Ultimate Evasion and generates a 3s Enerstrom that
+      pulls in enemies and inflicts a 12s Voidmark; CD: 10s. Loses 50 Herrscher
+      Charge when generating Enerstrom.</color>"
+    icon: Skill_Kiana_FX_Artifact01_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "454"
+    name: Void Impact
+    info: "Unleash Herrscher powers to attack nearby
+      enemies.\\n<color=#23B2E2FF>Applies Time Slow to nearby enemies and deals
+      2000% ATK of Physical DMG and inflicts a 12s Voidmark.\\nCasting the
+      Ultimate resets Herrscher Charge.\\nSP cost: 100. Base CD: 30s.</color>"
+    icon: Skill_Kiana_FX_Artifact01_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "456"
+    name: Passive
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E2FF>Herrscher Charge:
+      Starts at 0 and caps at 600. Gain 50 max SP. At full Herrscher Charge,
+      enter Inner Turmoil for 3s, which disables attacks, evasions, and weapon
+      skills, and inflicts</color> <color=#FEDF4CFF>6 Stun
+      Trauma</color><color=#23B2E2FF> (enemy Stun CD: 10s). When Inner Turmoil
+      ends, Herrscher Charge decreases by 50 every 0.75s until it falls to 0.
+      Combo ATK can only be used after Herrscher Charge falls to 0. Inner
+      Turmoil can be canceled by switching Valkyries or using Ultimate.</color>"
+    icon: Skill_Kiana_FX_Artifact01_006
+    skillType: passive
+    tags:
+      - type: stun
+        strength: 2
+        comment: "Inflicts Stun Trauma; Trauma charge rate: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []

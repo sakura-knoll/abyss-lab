@@ -1,0 +1,43 @@
+id: "55"
+name: Vampire Prince set
+desc: null
+skills:
+  - id: "4061"
+    name: Kindred
+    info: "When the host scores a crit hit, summons 1 Kindred (summoned entity) that
+      lasts #1[i]s, and resets the duration of all existing Kindreds. Kindred
+      deals #2[i]% ATK of Physical DMG (DMG calculations are based on the host's
+      stats). Up to 3 Kindreds can exist at the same time, and each boosts the
+      host's Crit DMG by #3[i]%."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: physical-dmg
+        comment: null
+    param1: 10
+    param1Add: 0
+    param2: 0.5
+    param2Add: 0
+    param3: 0.15
+    param3Add: 0
+  - id: "4062"
+    name: Resurrection
+    info: "At below #1[i]% HP, enter a 5s Revival Mode, during which the host cannot
+      attack or move but remains invincible, and recovers #2[i]% HP/s. When
+      Revival Mode ends, knock enemies nearby airborne and inflict
+      <color=#FEDF4CFF>5 Bleed Trauma</color>. CD: 300s."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags: []
+    param1: 0.01
+    param1Add: 0
+    param2: 0.2
+    param2Add: 0
+    param3: 0
+    param3Add: 0
+stigmaIdList:
+  - "110551"
+  - "110552"
+  - "110553"

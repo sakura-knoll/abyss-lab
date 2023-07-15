@@ -1,0 +1,367 @@
+id: "106"
+fullName: Herrscher of Finality
+shortName: Herrscher of Finality
+desc: "<color=white>Features: </color><color=#F3DFAEFF>IMG-type</color> melee
+  battlesuit. Wields a sword and a gun. Can fight freely in mid-air."
+firstName: Kiana
+lastName: Kaslana
+enFirstName: null
+enLastName: null
+attributeType: img
+isEasterner: false
+weapon: pistols
+character: kiana
+initialStar: s
+tags:
+  - fire-dmg
+  - aerial
+  - time-mastery
+  - ignite
+skills:
+  - id: "901"
+    name: Supreme Blade, Reforged
+    info: "Fight with a gun and a sword flexibly.\\n<color=#23B2E3FF>Ground:\\nSEQ
+      1: Deals 50% ATK of Fire DMG.\\nSEQ 2: Deals 40% + 50% x 2 ATK of Fire
+      DMG.\\nSEQ 3: Deals 50% + 60% ATK of Fire DMG.\\nSEQ 4: Deals 35% x 6 ATK
+      of Fire DMG.\\nSEQ 5: Deals 150% + 60% x 8 ATK of Fire
+      DMG.\\nAerial:\\nSEQ 1: Deals 60% ATK of Fire DMG.\\nSEQ 2: Deals 55% x 3
+      + 80% ATK of Fire DMG and downs enemies. If the target hits the ground,
+      deals an additional 10% ATK of Fire DMG and knocks nearby enemies
+      airborne.\\nSEQ 3: Deals 210% ATK of Fire DMG.\\nSEQ 4: Deals 300% + 135%
+      x 3 ATK of Fire DMG.\\nSEQ 5: Deals 150% ATK of Fire DMG.\\nLeap: Tap
+      [ULT] during a non-attack action to leap up twice at most. Leaps count as
+      evasion and can trigger Ultimate Evasion Skill.\\nUpward ATK: Triggered by
+      tapping [ULT] after ground Basic ATK to deal 60% ATK of Fire DMG and can
+      be connected into aerial Basic ATK SEQ 2.\\nDive ATK: Triggered by tapping
+      [ULT] after aerial Basic ATK to deal 10% + 50% ATK of Fire DMG and can be
+      connected into ground Basic ATK SEQ 3.</color>"
+    icon: Skill_Kiana_C7_SK_901
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "9001"
+        name: "<color=#FFC741FF>QTE</color>: Eternal Blossom, Blessed"
+        info: "QTE: Triggered when an enemy is Time-Slowed, ignited, knocked airborne,
+          or hit by Mei's Combo ATK. Induces global Time Fracture for 2s and
+          deals 100% × 2 + #1[f1]% ATK of Fire DMG. Enemies on the ground will
+          be knocked airborne. QTE can be connected into aerial Basic ATK SEQ
+          3."
+        brief: "QTE: Triggered when an enemy is Time-Slowed, ignited, knocked airborne,
+          or hit by Mei's Combo ATK. Induces global Time Fracture and deals Fire
+          DMG. Enemies on the ground will be knocked airborne. QTE can be
+          connected into aerial Basic ATK SEQ 3."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 13
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.33333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "9002"
+        name: Path Guarded by Shamash, Initiated
+        info: "Basic ATK and Combo ATK inflict <color=#FEDF4CFF>#1[f1] Ignite
+          Trauma</color> (CD: #2[f1]s) and deal #3[f1]% more Fire DMG."
+        brief: Basic ATK and Combo ATK inflict Ignite Trauma. Basic ATK and Combo ATK
+          deal more Fire DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 3
+        paramBase1: 2
+        paramBase2: 10
+        paramBase3: 0.2
+        paramAdd1: 1
+        paramAdd2: -2
+        paramAdd3: 0.05
+        tags:
+          - type: ignite
+            strength: 1
+            comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+              charge rate: weak."
+        toggle: false
+        unlockStar: s
+  - id: "902"
+    name: "<color=#FFC741FF>Combo</color>: Searching Drifter, Answered"
+    info: "Consume Descent to perform Combo ATK and switch between Time Flint stance
+      and Moon Blade stance.\\n<color=#23B2E4FF>At max Descent, hold [ATK] to
+      launch Combo ATK and switch between Time Flint stance and Moon Blade
+      stance. Character enters in Time Flint stance.\\nTime Flint stance Combo
+      ATK: Deals 110% × 4 + 400% + 190% × 4 ATK of Fire DMG.\\nMoon Blade stance
+      Combo ATK: Deals 600% + 1000% ATK of Fire DMG.\\nWith Herrscher of Truth
+      and Herrscher of Origin on the team, Time Flint stance Combo ATK deals
+      200% ATK of bonus Fire DMG and 400% ATK of Ice DMG while Moon Blade stance
+      Combo ATK deals 200% ATK of bonus Fire DMG and 400% ATK of Lightning
+      DMG.\\nIn Absolute Time Fracture, character enters Finale stance, where
+      Combo ATK consumes no Descent and deals 220% ATK of Fire DMG.</color>"
+    icon: Skill_Kiana_C7_SK_902
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "9004"
+        name: Equinox Sigil, Bestowed
+        info: "When Combo ATK hits in Time Flint stance, enemies take #1[f1]% more Fire
+          DMG from Herrscher of Finality for 15s. Triggering it again refreshes
+          its duration. When Combo ATK hits in Moon Blade stance, recover #2[f1]
+          SP."
+        brief: When Combo ATK hits in Time Flint stance, enemies take more Fire DMG from
+          Herrscher of Finality. Triggering it again refreshes its duration.
+          When Combo ATK hits in Moon Blade stance, recover SP.
+        icon: Skill_Nagative_Skill03
+        maxLv: 11
+        paramBase1: 0.25
+        paramBase2: 8
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.8001
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "9005"
+        name: Astera Petals, Bestowed
+        info: "Always switches to Time Flint stance upon entry via Herrscher of Truth's
+          Joint Bursting; On hit, Combo ATK makes enemies take #1[f1]% more
+          Total DMG additionally for 15s; Triggering it again refreshes its
+          duration. Always switches to Moon Blade stance upon entry via
+          Herrscher of Origin's Joint Bursting; On hit, Combo ATK restores
+          #2[f1] SP additionally; After entry via Joint Bursting, deal #3[f1]%
+          more Total DMG for 10s; Triggering it again refreshes its duration."
+        brief: Always switches to Time Flint stance upon entry via Herrscher of Truth's
+          Joint Bursting; On hit, Combo ATK makes enemies take more Total DMG;
+          Triggering it again refreshes its duration. Always switches to Moon
+          Blade stance upon entry via Herrscher of Origin's Joint Bursting; On
+          hit, Combo ATK restores SP; After entry via Joint Bursting, deal more
+          Total DMG; Triggering it again refreshes its duration.
+        icon: Skill_Nagative_StartUp03
+        maxLv: 12
+        paramBase1: 0.05
+        paramBase2: 8
+        paramBase3: 0.1
+        paramAdd1: 0.00273
+        paramAdd2: 0.72736
+        paramAdd3: 0.00455
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "9006"
+        name: Celestial Hymn, Bestowed
+        info: "Basic ATK and Combo ATK deal #1[f1]% more Total DMG. The character takes
+          #2[f1]% less Total DMG."
+        brief: Basic ATK and Combo ATK deal more Total DMG. The character takes less
+          Total DMG.
+        icon: Skill_Nagative_Survive02
+        maxLv: 18
+        paramBase1: 0.1
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.00588
+        paramAdd2: 0.00882
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "903"
+    name: Embarking Saintess, Divine
+    info: "Evade enemy attacks. Can be performed twice in a
+      row.\\n<color=#23B2E5FF>\\nThe character can perform aerial evasion up to
+      twice in a row, with the count reset on landing.\\nUltimate Evasion:
+      Triggers a global Time Fracture for 1.5s and gains 1 stack of Descent. CD:
+      20s.\\nAbsolute Time Fracture: Triggered by holding [EVA] at 2 stacks of
+      Time Wave and deal 55% ATK of Fire DMG after getting 5 stacks of Descent.
+      During Absolute Time Fracture, the character is invincible and all skill
+      timers plus the stage timer are paused. Absolute Time Fracture lasts up to
+      30s, during which attacks cost Descent. Casting Ultimate or switching
+      character ends Absolute Time Fracture and clears Descent.\\nAt the end of
+      the duration or when Descent drops to zero, character casts Combo ATK and
+      exits Absolute Time Fracture. CD: 25s. Time Wave cannot be stacked during
+      the cooldown.\\nDuring Absolute Time Fracture, character's attacks deal
+      DMG.\\nGround:\\nSEQ 1: Deals 60% ATK of Fire DMG.\\nSEQ 2: Deals 20% +
+      20% x 2 ATK of Fire DMG.\\nSEQ 3: Deals 30% + 30% ATK of Fire DMG.\\nSEQ
+      4: Deals 10% x 6 ATK of Fire DMG.\\nSEQ 5: Deals 8% + 6.5% x 8 ATK of Fire
+      DMG.\\nAerial:\\nSEQ 1: Deals 60% ATK of Fire DMG.\\nSEQ 2: Deals 15% x 3
+      + 15% ATK of Fire DMG and knocks enemies down. If the target hits the
+      ground, it deals an additional 10% ATK of Fire DMG and knocks nearby
+      enemies airborne.\\nSEQ 3: Deals 60% ATK of Fire DMG.\\nSEQ 4: Deals 15% x
+      4 ATK of Fire DMG.\\nSEQ 5: Deals 60% ATK of Fire DMG.\\nUpward ATK: Deals
+      40% ATK of Fire DMG.\\nDive ATK: Deals 40% ATK of Fire DMG.</color>"
+    icon: Skill_Kiana_C7_SK_903
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "9007"
+        name: Stygian Phantasm, Bestowed
+        info: "Deal #1[f1]% more Fire DMG, and #2[f1]% more Fire DMG additionally during
+          Absolute Time Fracture."
+        brief: Deal more Fire DMG, and even more Fire DMG during Absolute Time Fracture.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.25
+        paramBase2: 0.25
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0.015
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "904"
+    name: Deadly Finality, Surmounted
+    info: "\\n<color=#23B2E6FF>SP Cost: 100. CD: 20s.\\nHerrscher of Finality leaps
+      high in the air and dives down in the cold moonlight to launch fatal
+      attacks and deal 1900% ATK of Fire DMG, during which Time-frozen Domain is
+      triggered to pause all skill timers and the stage timer.\\n\\nWith both
+      Herrscher of Origin and Herrscher of Truth on the team, exiting won't
+      reset Time Wave and Ultimate is replaced by Joint Ultimate.\\nWhen Joint
+      Ultimate is cast, Kiana, Mei, and Bronya strike in unison to deal 2000%
+      ATK of Fire DMG, 650% ATK of Ice DMG, and 650% ATK of Lightning
+      DMG.\\nJoint Ultimate's SP cost: 125. CD: 20s.</color>"
+    icon: Skill_Kiana_C7_SK_904
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "9010"
+        name: Edge of Origin's Return, Gripped
+        info: "If Ultimate hits IMG-type enemies, #1[f1]% of the DMG a Nihilus Shell
+          takes will be transferred to its Nihilus Seed (reflected by HP loss)."
+        brief: When Ultimate hits an IMG-type enemy, the DMG its Nihilus Shell takes
+          will be transferred to its Nihilus Seed (manifests as HP loss).
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "9011"
+        name: Ring of Truth's Circle, Donned
+        info: "When Herrscher of Origin and Herrscher of Truth are on the team, the team
+          deals #1[f1]% more Elemental DMG."
+        brief: When Herrscher of Origin and Herrscher of Truth are on the team, the team
+          deals more Elemental DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 10
+        paramBase1: 0.08
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00778
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "905"
+    name: Lightwing of Comet
+    info: "\\n<color=#23B2E7FF>Leader Skill: {{Team deals #1[f1]% more Elemental
+      DMG. With Mei present, Mei and Herrscher of Finality deal #2[f1]% more
+      Elemental DMG.}}</color>"
+    icon: Skill_Kiana_C7_SK_905
+    skillType: leader
+    tags: []
+    paramSubId1: 9013
+    paramSubId2: 9013
+    paramSubId3: 0
+    subSkills:
+      - id: "9013"
+        name: May Flames Burn Ever Bright
+        info: "Team deals #1[f1]% more Elemental DMG. With Mei present, Mei and
+          Herrscher of Finality deal #2[f1]% more Elemental DMG."
+        brief: The team deals more Elemental DMG. When Mei is on the team, Mei and
+          Herrscher of Finality deal more Elemental DMG additionally.
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.35
+        paramBase2: 0.35
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.05
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "906"
+    name: Imaginary Ascension, Decreed
+    info: "\\n<color=#23B2E8FF>Descent: Herrscher of Finality stays in Herrscher
+      form. Basic ATK, Upward ATK, Dive ATK, and QTE grant Descent stacks on
+      hit. 8 stacks max. Combo ATK or exit resets Descent.\\nTime Wave: In Time
+      Flint stance and Moon Blade stance, Combo ATK grants 1 stack of Time Wave
+      on the first hit (up to 2 stacks). Exiting resets Time Wave.\\nHerrscher
+      of Finality dive-attack enemies nearby when exiting.\\nJoint Bursting:
+      When Herrscher of Finality enters upon Joint Bursting from Herrscher of
+      Origin/Herrscher of Truth, she deals 600% ATK of Fire DMG, stacks 5
+      Descent. Entry upon Herrscher of Truth's Joint Bursting can be connected
+      into ground Basic ATK SEQ 3.</color>"
+    icon: Skill_Kiana_C7_SK_906
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "9016"
+        name: Celestial Memory, Featherized
+        info: "Enemies receive #1[f1]% more Fire DMG from Herrscher of Finality (cannot
+          stack)."
+        brief: Enemies take more Fire DMG from Herrscher of Finality (cannot stack).
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.14
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.006
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "9017"
+        name: Legion of Sentience, Assembled
+        info: "Total DMG increases by #1[f1]%, and all enemies take #2[f2]% more Total
+          DMG from Mei and Herrscher of Finality."
+        brief: Total DMG increases, and all enemies take more Total DMG from Mei and
+          Herrscher of Finality.
+        icon: Skill_Nagative_Skill02
+        maxLv: 7
+        paramBase1: 0.05
+        paramBase2: 0.03
+        paramBase3: 0
+        paramAdd1: 0.00833
+        paramAdd2: 0.00367
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "9018"
+        name: Jaded Crescent, Sharpened
+        info: "Gaining Descent increases Elemental Breach by #1[f2]% for 20s up to 8
+          times. Triggering it again refreshes its duration."
+        brief: Gaining Descent increases Elemental Breach up to 8 times. Triggering it
+          again refreshes its duration.
+        icon: Skill_Nagative_Skill02
+        maxLv: 3
+        paramBase1: 0.0165
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.003
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

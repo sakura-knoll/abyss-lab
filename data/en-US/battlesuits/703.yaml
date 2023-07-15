@@ -1,0 +1,345 @@
+id: "703"
+fullName: Umbral Rose
+shortName: Umbral Rose
+desc: "<color=white>Features: </color><color=#FF66CCFF>PSY-type</color> melee
+  battlesuit. Rapid attacks with good reach. Powerful AOE ATKs."
+firstName: Rita
+lastName: Rossweisse
+enFirstName: null
+enLastName: null
+attributeType: psy
+isEasterner: false
+weapon: scythe
+character: rita
+initialStar: a
+tags:
+  - physical-dmg
+  - time-mastery
+skills:
+  - id: "361"
+    name: Thorns
+    info: "5-sequence scythe sweeps.\\n<color=#23B2E2FF>1st Sequence: 80% ATK of
+      Physical DMG.\\n2nd Sequence: 50%+(4x18%)+120% ATK of Physical DMG.\\n3rd
+      Sequence: 50%+60% ATK of Physical DMG.\\n4th Sequence: (3x40%)+(5x30%) ATK
+      of Physical DMG.\\n5th Sequence: 150%+200% ATK of Physical DMG.\\nThe last
+      hits of the 2nd and 5th Sequences inflict a Laceration status on the
+      targets for 5s. Laceration can stack up to 2 times; gaining more stacks
+      resets the duration. Attacks against an enemy with 1/2 Laceration stack(s)
+      deal 10%/20% more Total DMG.</color>"
+    icon: Skill_Rita_NP_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3601"
+        name: Hardened Prickles
+        info: "Character gains #1[f1]%, #2[f1]% Total DMG Multiplier against enemies
+          with 1 or 2 Laceration stacks."
+        brief: Gain a Total DMG Multiplier buff against enemies with 1 or 2 Laceration
+          stacks.
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 0.12
+        paramBase2: 0.24
+        paramBase3: 0
+        paramAdd1: 0.00276
+        paramAdd2: 0.00552
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3602"
+        name: Queen of Mauve
+        info: "If the Shuttle ATK (the 4th sequence of Basic ATK) hits an enemy, the
+          Valkyrie additionally restores #1[f1] SP."
+        brief: Shuttle ATK (4th sequence of Basic ATK) gives SP upon hit.
+        icon: Skill_Nagative_Skill01
+        maxLv: 70
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04348
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "362"
+    name: "<color=#FFC741FF>Charge</color>: Rosy Funeral"
+    info: "Throw a Spirit Scythe to deal ranged DMG by charging during any sequence
+      of the Basic ATK.\\n<color=#23B2E2FF>At full Umbra, tap and hold the [ATK]
+      button during any attack to throw a spinning Thorny Scythe that deals up
+      to 8x100% ATK of Physical DMG while consuming all Umbra 15% of the
+      character's Max HP (Thorny Scythe HP loss will not lead to death, but will
+      trigger Rosemary). The character then enters a Rosy State for 6s, during
+      each hit of Basic ATK or Ultimate heal her for 0.5% HP. Rosy State ends
+      after the character receives healing from 40 hits.\\nSwitch: Performs an
+      empowered form of the 3rd Sequence that deals 120%+180% ATK of Physical
+      DMG.</color>"
+    icon: Skill_Rita_NP_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3603"
+        name: Edelweiss
+        info: "Enemy kill within 1s after throwing the spinning scythe additionally
+          heals 10% Max HP + #1[i] HP for the Valkyrie."
+        brief: For 1s after throwing Thorny Scythe, gain massive HP healing upon enemy
+          kill.
+        icon: Skill_Nagative_Survive02
+        maxLv: 73
+        paramBase1: 100
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 5.55556
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3604"
+        name: "<color=#FFC741FF>QTE</color>: Mark the Weeds"
+        info: "QTE: Triggered when an enemy is Impaired, dealing 100% + 3x#1[f1]% ATK of
+          Physical DMG. The last 3 strikes of the attack can directly add 2
+          Laceration stacks on the enemy."
+        brief: "QTE: Triggered when an enemy is impaired to deal Physical DMG and apply
+          2 Laceration stacks."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 24
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04348
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+      - id: "3610"
+        name: Hardy Lilac
+        info: "Rosy State: Character gains #1[f1]% Total DMG Reduction and takes #2[f1]%
+          less Indirect DMG."
+        brief: Rosy State grants direct and indirect DMG reduction.
+        icon: Skill_Nagative_Survive03
+        maxLv: 25
+        paramBase1: 0.25
+        paramBase2: 0.25
+        paramBase3: 0
+        paramAdd1: 0.01042
+        paramAdd2: 0.01042
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "363"
+    name: Iris Blink
+    info: "Quickly evades enemy attacks. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Recovers 50 Umbra upon performing an Ultimate
+      Evasion and gains 40% Move Speed for 3s.\\nIris Blink: Ultimate Evasion
+      triggers a Time Fracture that slows all enemies for 2s. Tap [ATK] to
+      immediately perform a Shuttle ATK (the 4th Sequence of Basic ATK) and
+      recover up to 150 Umbra; CD: 15s.</color>"
+    icon: Skill_Rita_NP_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3605"
+        name: Freesian Spurt
+        info: "Shortens the CD of Iris Blink by #1[f1]s, and extends the duration of
+          Time Fracture by #2[f1]s."
+        brief: Shortens CD of Iris Blink and extends Time Fracture duration.
+        icon: Skill_Nagative_Skill03
+        maxLv: 16
+        paramBase1: 1
+        paramBase2: 0.5
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0.06667
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "3606"
+        name: Rush Renewal
+        info: "Iris Blink now regains #1[f1] Umbra."
+        brief: Iris Blink gives more Umbra.
+        icon: Skill_Nagative_Skill02
+        maxLv: 18
+        paramBase1: 180
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 7.05882
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "364"
+    name: Reaper of Weeds
+    info: "<color=#23B2E2FF>Launches a 7-sequence Flash Attack dealing 16x50% ATK of
+      AOE Physical DMG and inflicting a brief Time Slow on hit. Then throws a
+      spinning scythe to create a cyclone dealing 10x40% ATK of Physical DMG and
+      applying 2 Laceration stacks. Once the cyclone ends, swings the scythe
+      over a large area dealing 800% ATK of Physical DMG.\\nSP cost: 100; CD:
+      20s.</color>"
+    icon: Skill_Rita_NP_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 3
+        comment: "Last hit of Ultimate is Heavy ATK; Trauma charge: strong."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3607"
+        name: Rose of Jericho
+        info: "If every blink attack at the beginning of the Ultimate hits an enemy, the
+          character is healed for #1[i] HP."
+        brief: First sequence of the Ultimate heals HP upon hit.
+        icon: Skill_Nagative_Survive01
+        maxLv: 21
+        paramBase1: 20
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3608"
+        name: Vile Mustard
+        info: "Ultimate gains #1[f1]% Total DMG Multiplier against bleeding or impaired
+          enemies."
+        brief: Ultimate gains a Total DMG Multiplier buff against bleeding or impaired
+          enemies.
+        icon: Skill_Nagative_Damage03
+        maxLv: 20
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00789
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "3609"
+        name: Double Swirls
+        info: "Every strike of the Ultimate cyclone gains #1[f1]% ATK of Physical DMG.
+          The last strike additionally deals #2[f1]% ATK of Physical DMG."
+        brief: Corolla Spin and last strike of the Ultimate deal more Physical DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 66
+        paramBase1: 0.3
+        paramBase2: 1.5
+        paramBase3: 0
+        paramAdd1: 0.00308
+        paramAdd2: 0.02308
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "365"
+    name: Rosette Runners
+    info: "Leader Bonus:\\n<color=#23B2E2FF>Rosette Runners: {{Whole Team gains
+      #1[f1]% faster attack speed. PSY-type character: Ultimates gain #2[f1]%
+      Total DMG Multiplier.}}</color>"
+    icon: Skill_Rita_NP_005
+    skillType: leader
+    tags: []
+    paramSubId1: 3613
+    paramSubId2: 3613
+    paramSubId3: 0
+    subSkills:
+      - id: "3613"
+        name: Rosette Runners
+        info: "Whole team gains #1[f1]% faster attack speed. PSY-type character:
+          Ultimates gain #2[f1]% Total DMG Multiplier."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.12
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "366"
+    name: Passive
+    info: "Character automatically gains passive bonuses.\\n<color=#23B2E2FF>Umbra:
+      Start battle with 800 Umbra and recovers 50 Umbra per second up to a max
+      of 800.\\nUmbra recovery: Last strike of the 2nd Basic ATK sequence: 80.
+      Last strike of the 5th Basic ATK sequence: 120. Last strike of the
+      Ultimate: 160.</color>"
+    icon: Skill_Rita_NP_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3611"
+        name: Jagged Splinters
+        info: "Thorny Scythe and last strike of Ultimate gain #1[f1]% or #2[f1]% Total
+          DMG Multiplier against enemies with 1 or 2 Laceration stacks
+          respectively."
+        brief: Charged ATK and last strike of Ultimate gain Total DMG Multiplier buffs
+          against enemies with 1 or 2 Laceration stacks.
+        icon: Skill_Nagative_Damage02
+        maxLv: 27
+        paramBase1: 0.2
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.00577
+        paramAdd2: 0.00769
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3612"
+        name: Relentless Skullcap
+        info: "When Combo Hit Count exceeds 40/80, the Valkyrie gains #1[f1]%/#2[f1]%
+          Physical DMG."
+        brief: When Combo Hit Count exceeds 40 and 80, gain a Physical DMG buff.
+        icon: Skill_Nagative_Damage02
+        maxLv: 33
+        paramBase1: 0.1
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.00313
+        paramAdd2: 0.00625
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3614"
+        name: Rosemary
+        info: "Auto-triggers before character dies, granting invincibility and
+          recovering #1[f1]% HP every 0.5s for 3s. Activates 1 time per battle
+          only."
+        brief: Auto-triggers before character dies, making her invincible and healing
+          some HP. Activates 1 time per battle only.
+        icon: Skill_Nagative_Survive03
+        maxLv: 10
+        paramBase1: 0.03
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00222
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss

@@ -1,0 +1,363 @@
+id: "604"
+fullName: Phoenix
+shortName: Phoenix
+desc: "<color=white>Features: </color><color=#FF66CCFF>PSY-type</color> melee
+  battlesuit. Uses skills and combos to deal extra Fire DMG."
+firstName: Hua
+lastName: Fu
+enFirstName: null
+enLastName: null
+attributeType: psy
+isEasterner: true
+weapon: fists
+character: fuhua
+initialStar: s
+tags:
+  - fire-dmg
+  - weaken
+  - time-mastery
+skills:
+  - id: "311"
+    name: Rectrix
+    info: "Fight enemies using Punch Arts.\\n<color=#23B2E2FF>Sen-Ki Darting Swift:
+      Up to 660% ATK of Physical DMG.\\nSen-Ki Phoenix Soar: Up to 470% ATK of
+      Physical DMG.\\nLast sequence of Basic ATK resets the attack move (any
+      Combo ATK afterwards will gain Prajna).</color>"
+    icon: Skill_Fuka_JW_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3101"
+        name: Cuckoo Cry
+        info: "Last hit of Sen-Ki Darting Swift or Sen-Ki Phoenix Soar additionally
+          deals #1[f1]% ATK of Fire DMG. Last hit of Sen-Ki Simurgh, Sen-Ki
+          Dashing Tern, or Sen-Ki Moon Anseri additionally deals #2[f1]% ATK of
+          Fire DMG. If Prajna exceeds 100/200/300, said bonus Fire DMG will be
+          increased to 150%/200%/250% of the original amount."
+        brief: Basic and Combo ATKS deal bonus Fire DMG that increases with Prajna.
+        icon: Skill_Nagative_Skill03
+        maxLv: 61
+        paramBase1: 0.5
+        paramBase2: 0.25
+        paramBase3: 0
+        paramAdd1: 0.005
+        paramAdd2: 0.0025
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3102"
+        name: Hysteria
+        info: "Combo and Ultimate attacks inflict a Firebrand on enemies. Phoenix
+          additionally deals #1[f1]% ATK of Fire DMG against marked enemies (CD:
+          1.5s; duration: #2[f1]s). If Prajna exceeds 100/200/300, said bonus
+          Fire DMG will be increased to 150%/200%/250% of the original amount."
+        brief: Combo and Burst ATKs applies the Firebrand mark. Firebrand deals more DMG
+          at higher Prajna.
+        icon: Skill_Nagative_StartUp02
+        maxLv: 21
+        paramBase1: 0.9
+        paramBase2: 10
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.5
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3103"
+        name: Peregrine
+        info: "If last strike of Sen-Ki Darting Swift or Sen-Ki Phoenix Soar hits an
+          enemy marked by Firebrand, then drop an SP pack. CD: #1[f1]s."
+        brief: Basic ATKs may drop SP packs when hitting enemies marked by Firebrand.
+        icon: Skill_Nagative_Damage03
+        maxLv: 16
+        paramBase1: 29
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: -0.6
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "312"
+    name: "<color=#FFC741FF>Combo</color>: Flame Gust"
+    info: "Stances can be connected into different Combo
+      ATKs.\\n<color=#23B2E2FF>Sen-Ki Simurgh: Up to 460% ATK of Physical
+      DMG.\\nSen-Ki Dashing Tern: Up to 660% ATK of Physical DMG.\\nSen-Ki Moon
+      Anseri: Up to 660% ATK of Physical DMG.\\nWhen using a different Combo ATK
+      move compared to last time (or when the attack move has been reset), then
+      Sen-Ki Simurgh / Dashing Tern / Moon Anseri will gain 150 / 200 / 150
+      Prajna respectively. \\nCharacter can store up to 400 Prajna, and Prajna
+      will slowly drain. Higher Prajna will improve combat
+      capabilities.</color>"
+    icon: Skill_Fuka_JW_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3104"
+        name: "<color=#FFC741FF>Switch</color>: Red Sparrow"
+        info: "Deals #1[f1]% ATK of Physical DMG."
+        brief: Switch skill that deals Physical DMG.
+        icon: Skill_Nagative_StartUp03
+        maxLv: 26
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.06
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3105"
+        name: "<color=#FFC741FF>QTE</color>: Thrush"
+        info: "QTE: Triggers when an enemy is ignited. Deals #1[f1]% ATK of Fire DMG
+          against enemies within a large AOE, and restores 100 Prajna."
+        brief: "QTE: Triggered when an enemy is ignited to deal Fire DMG in a large area
+          and restore Prajna."
+        icon: Skill_Nagative_Damage01
+        maxLv: 26
+        paramBase1: 4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.16
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "3106"
+        name: Oriole
+        info: "When exiting, if Prajna exceeds 100/300, inflicts a debuff on all enemies
+          to make them take #1[f1]%/#2[f1]% more Elemental DMG for #3[f1]s."
+        brief: Exiting with Prajna makes enemies temporarily more vulnerable to
+          Elemental DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 51
+        paramBase1: 0.06
+        paramBase2: 0.1
+        paramBase3: 8
+        paramAdd1: 0.0012
+        paramAdd2: 0.002
+        paramAdd3: 0.08
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "313"
+    name: Fairy Dance
+    info: "Quickly blinks to evade attacks. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Mass Immobilize: Ultimate Evasion inflicts Time
+      Lock on the target and nearby enemies within a small AOE for 1.5s. CD:
+      15s.\\nUltimate Evasion resets attack move (any Combo ATK afterwards
+      restores Prajna).\\nTap [Ultimate] after Ultimate Evasion to directly
+      perform Sen-Ki Dashing Tern's Shuttle ATK, during which and the following
+      1s, tap [Ultimate] again to unleash another Shuttle ATK (once
+      only).</color>"
+    icon: Skill_Fuka_JW_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3107"
+        name: Nightingale
+        info: "Ultimate Evasion gives #2[i] Prajna. Also extends duration of Ultimate
+          Evasion Time Lock to #1[f1]s."
+        brief: Ultimate Evasion gives Prajna. Also extends Time Lock duration.
+        icon: Skill_Nagative_Control01
+        maxLv: 21
+        paramBase1: 2
+        paramBase2: 100
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3108"
+        name: Morning Wind
+        info: "Shortens CD of Ultimate Evasions by #1[f1]s. Upon Ultimate Evasion, gain
+          #2[f1]% Fire DMG for #3[f1]s."
+        brief: Shortens CD of Ultimate Evasion. Ultimate Evasion also gives temporary
+          DMG buff.
+        icon: Skill_Nagative_Skill03
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 0.1
+        paramBase3: 4
+        paramAdd1: 0.2
+        paramAdd2: 0.02
+        paramAdd3: 0.4
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "314"
+    name: Spirit of Cinder
+    info: "Transform into the Spirit of Cinder to deal large AOE
+      damage.\\n<color=#23B2E2FF>Spirit of Cinder: 1500% ATK of Fire DMG to
+      enemies in a large AOE.\\nSpirit of Cinder reset attack moves (any Combo
+      ATK afterwards will gain Prajna)\\nSP cost: 100</color>"
+    icon: Skill_Fuka_JW_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3109"
+        name: Carmine Down
+        info: "Upon Ultimate activation, gains #1[i]% Total DMG for #3[f1]s, restores
+          200 Prajna, and inflicts Time Lock on enemies hit for #2[f1]s."
+        brief: Casting Ultimate gives Prajna. Gain temporary Total DMG Multiplier buff
+          and Time Locks enemies hit.
+        icon: Skill_Nagative_Survive01
+        maxLv: 21
+        paramBase1: 0.2
+        paramBase2: 3
+        paramBase3: 4
+        paramAdd1: 0.015
+        paramAdd2: 0.15
+        paramAdd3: 0.2
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3110"
+        name: Diving Phoenix
+        info: "Upon Ultimate activation, deals #1[f1]% ATK of Fire DMG against enemies
+          marked by Firebrand within a large AOE."
+        brief: Ultimates deal bonus DMG against enemies marked by Firebrand.
+        icon: Skill_Nagative_Damage02
+        maxLv: 51
+        paramBase1: 3.75
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.075
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3111"
+        name: Fire Raven
+        info: "Upon ending, Ultimate inflicts <color=#FEDF4CFF>6 Ignite Trauma</color>
+          to all enemies. When Prajna reaches 100/200/300, enemies take
+          #1[f2]%/#2[f2]%/#3[f2]% ATK of bonus Fire DMG per 0.5s."
+        brief: Ultimate inflicts Ignite Trauma to all enemies when it ends.
+        icon: Skill_Nagative_Damage01
+        maxLv: 21
+        paramBase1: 0.05
+        paramBase2: 0.07
+        paramBase3: 0.1
+        paramAdd1: 0.0025
+        paramAdd2: 0.004
+        paramAdd3: 0.005
+        tags:
+          - type: ignite
+            strength: 2
+            comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+              charge rate: medium."
+        toggle: false
+        unlockStar: ss
+  - id: "315"
+    name: Flaming Heart
+    info: "Leader Bonus: <color=#23B2E2FF>Flaming Heart: {{Team gains #1[i]% Attack
+      Speed. Teams with 3 PSY-type characters gain #2[i]% Total DMG Multiplier
+      to combo, charged, and ultimate attacks.}}</color>"
+    icon: Skill_Fuka_FK_005
+    skillType: leader
+    tags: []
+    paramSubId1: 3112
+    paramSubId2: 3112
+    paramSubId3: 0
+    subSkills:
+      - id: "3112"
+        name: Flaming Heart
+        info: "Team gains #1[i]% Attack Speed. For a team of 3 PSY-type battlesuits,
+          Combo, Charged, and Ultimate attacks deal #2[i]% bonus total DMG."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Damage01
+        maxLv: 2
+        paramBase1: 0.13
+        paramBase2: 0.32
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.04
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "316"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF></color>
+    icon: Skill_Fuka_FK_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3113"
+        name: Herald of Dawn
+        info: "<size=14>Firebranded enemies suffer more DMG and debuffs: Last hit of
+          Sen-Ki Simurgh or Sen-Ki Moon Anseri inflicts Weaken, lowering ATK by
+          #2[f1]% for 5s; Sen-Ki Dashing Tern shuttle ATK deals another #1[f1]%
+          ATK of AOE Fire DMG at enemy location; last hit of Sen-Ki Moon Anseri
+          deals another #3[f1]% ATK of Fire DMG.</size>"
+        brief: Combo ATKs are more powerful when hitting enemies marked by Firebrand.
+        icon: Skill_Nagative_Damage03
+        maxLv: 26
+        paramBase1: 0.6
+        paramBase2: 0.1
+        paramBase3: 1
+        paramAdd1: 0.024
+        paramAdd2: 0.008
+        paramAdd3: 0.04
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3114"
+        name: Rainbow Pinion
+        info: "When Prajna is over 200, hitting an enemy with the last sequence of Combo
+          ATK boosts the Valkyrie's Elemental DMG by #2[f1]% and teammates'
+          Elemental DMG by #1[f1]% for #3[f1]s."
+        brief: At more than 200 Prajna, Combo ATKs buff team Elemental DMG upon hit.
+        icon: Skill_Nagative_Control02
+        maxLv: 31
+        paramBase1: 0.15
+        paramBase2: 0.2
+        paramBase3: 6
+        paramAdd1: 0.005
+        paramAdd2: 0.01
+        paramAdd3: 0.2
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3115"
+        name: Crucible
+        info: "At over 100 Prajna, the last sequences of Basic ATK and Combo ATK inflict
+          <color=#FEDF4CFF>#1[f1] Stun Trauma</color> (CD: 5s)."
+        brief: At over 100 Prajna, Basic ATK and Combo ATK inflict Stun Trauma.
+        icon: Skill_Nagative_Control02
+        maxLv: 26
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.06
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 1
+            comment: "Inflicts Stun Trauma; Trauma charge rate: weak."
+        toggle: false
+        unlockStar: sss

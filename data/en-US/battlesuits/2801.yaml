@@ -1,0 +1,418 @@
+id: "2801"
+fullName: Golden Diva
+shortName: Golden Diva
+desc: "<color=white>Features: </color><color=#F4DFAEFF>IMG-type</color> ranged
+  battlesuit. Uses dual pistols in battle."
+firstName: Eden
+lastName: null
+enFirstName: null
+enLastName: null
+attributeType: img
+isEasterner: true
+weapon: pistols
+character: eden
+initialStar: a
+tags:
+  - lightning-dmg
+  - time-mastery
+  - paralyze
+skills:
+  - id: "771"
+    name: "Caprice: Starlight"
+    info: "Fire dual pistols.\\n<color=#23B2E3FF>SEQ 1: 90% ATK of Lightning
+      DMG\\nSEQ 2: 100% ATK of Lightning DMG\\nSEQ 3: 120% ATK of Lightning
+      DMG\\nUsing Basic ATK restores 1 note.</color>"
+    icon: Skill_Eden_C1_EL_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7701"
+        name: "1st Movement: Nightfall"
+        info: "On hit, the 3rd attack in the Basic ATK sequence increases Lightning DMG
+          by #1[f1]% for 3s."
+        brief: On hit, the 3rd attack in the Basic ATK sequence increases Lightning DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "7702"
+        name: "<color=#FFC741FF>QTE:</color> 2nd Movement: Enlightenment"
+        info: "QTE: Triggered when an enemy is Time-Slowed or a teammate uses weapon
+          active. Causes Global Time Fracture for 3s, deals #1[f1]% + 2 x 50%
+          ATK of Lightning DMG, restores #2[f1] SP, finishes the 1st bar,
+          activates Performance, and reduces switch CD by 4s."
+        brief: "QTE: Triggered when an enemy is Time-Slowed or a teammate uses weapon
+          active. Causes Global Time Fracture, deals Lightning DMG, restores SP,
+          finishes the 1st bar, enters Performance, and reduces switch CD."
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 7.5
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 0.75
+        paramAdd2: 1.001
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+  - id: "772"
+    name: "<color=#FFC741FF>Combo ATK:</color> Romance: Paradise"
+    info: "When Score meets different conditions, hold [ATK] to cast different Combo
+      ATKs.\\n<color=#23B2E4FF>Chord: Fire rapidly, dealing 5 x 130% ATK of
+      Lightning DMG. Casting it makes the caster enter Performance.\\nVariation:
+      Throw a note bomb, dealing 400% ATK of Lightning DMG. Casting it makes the
+      team enter Fascination.\\nEnsemble: Hurl pistols, which can spin twice.
+      The first spin deals 200% + 6 x 80% ATK of Lightning DMG and consumes 6
+      notes. The second spin deals 6 x 25% ATK of Lightning DMG in total.
+      Casting it makes the caster enter Symphony and Performance and the team
+      enter Fascination. Release [ATK] during the second spin to retrieve the
+      pistols.\\nDuring Chord and Variation, gain Iron Body and 30% Total DMG
+      Reduction. During Ensemble, become immune to incoming DMG.</color>"
+    icon: Skill_Eden_C1_EL_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7703"
+        name: "1st Movement: Lights"
+        info: "Performance lasts 8s (triggering it again refreshes the duration). In
+          this state, damaging enemies make them take #2[f1]% more Lightning DMG
+          for 20s (triggering it again refreshes the duration and it cannot
+          stack)."
+        brief: In this state, damaging enemies make them take more Lightning DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 4
+        paramBase1: 0
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.06667
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "7704"
+        name: "2nd Movement: Downtown"
+        info: "Fascination lasts 20s (triggering it again refreshes the duration). In
+          this state, Total DMG increases by #2[f1]%."
+        brief: In Fascination, Total DMG increases.
+        icon: Skill_Nagative_Damage03
+        maxLv: 4
+        paramBase1: 0
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.1
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "7705"
+        name: "3rd Movement: After-hours"
+        info: "Symphony lasts 8s (triggering it again refreshes the duration). In this
+          state, a note attack dealing #2[f1]% ATK of Lightning DMG (CD: 0.3s)
+          follows every Basic ATK or Combo ATK that has damaged an enemy, and
+          Ensemble inflicts 12 x <color=#FEDF4CFF>#1[f2] Paralyze Trauma</color>
+          in total."
+        brief: In Symphony, a note attack dealing Lightning DMG follows every Basic ATK
+          or Combo ATK that has damaged an enemy, and Ensemble inflicts Paralyze
+          Trauma.
+        icon: Skill_Nagative_Damage03
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.04
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 1
+            comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+              charge rate: weak."
+        toggle: false
+        unlockStar: a
+  - id: "773"
+    name: "Waltz: Dream"
+    info: "Quickly dodge enemy attacks. Can be performed twice in a
+      row.\\n<color=#23B2E5FF>Ultimate Evasion causes a 3s Global Time Fracture
+      (CD: 15s).</color>"
+    icon: Skill_Eden_C1_EL_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7706"
+        name: "1st Movement: Nectar"
+        info: Triggering Ultimate Evasion Skill maxes out the notes in the current bar.
+          Hold [ATK] to use the corresponding Combo ATK.
+        brief: Triggering Ultimate Evasion Skill maxes out the notes in the current bar.
+          Hold [ATK] to use the corresponding Combo ATK.
+        icon: Skill_Nagative_Skill02
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "7717"
+        name: "2nd Movement: Joy"
+        info: "If SP is below #2[f1] when off the field, recover #1[f1] SP/s."
+        brief: If SP is low when off the field, recover SP per second.
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 2.5
+        paramBase2: 50
+        paramBase3: 0
+        paramAdd1: 1.25
+        paramAdd2: 25
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "774"
+    name: "Fantasy: Century"
+    info: "Expand a domain and strengthen herself.\\n<color=#23B2E6FF>Pluck strings
+      to play Century Chapter for 15s, dealing 1800% ATK of AoE Lightning DMG,
+      inflicting</color> <color=#FEDF4CFF>12 Paralyze
+      Trauma</color><color=#23B2E2FF>, and granting Sound of Nature, which makes
+      skill animations negate incoming DMG for 15s. She can move freely while
+      Century Chapter is playing. Upon gaining Sound of Nature, recover all
+      notes and finish all bars. While the buff lasts, auto-recover notes, and
+      tapping [ATK] unleashes Combo ATKs Ensemble (pistols only spin once),
+      Chord, and Variation in order. Score resets when the buff expires.\\nSP
+      cost: 125. CD: 17s.</color>"
+    icon: Skill_Eden_C1_EL_004
+    skillType: ultimate
+    tags:
+      - type: paralyze
+        strength: 2
+        comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+          charge rate: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7707"
+        name: "1st Movement: Countryside"
+        info: "Century Chapter restores #1[f1] SP/s for 8s to all Valkyries on the
+          field."
+        brief: Century Chapter restores SP for 8s to all Valkyries on the field.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.15
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "7708"
+        name: "2nd Movement: Gunsmoke"
+        info: "In Sound of Nature, increases Combo ATK's Lightning DMG by #1[f1]%."
+        brief: In Sound of Nature, increases Combo ATK's Lightning DMG.
+        icon: Skill_Nagative_Skill03
+        maxLv: 4
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "7709"
+        name: "3rd Movement: Epigraph"
+        info: If Ultimate hits a Nihilus Seed whose current phase has less than 20% HP,
+          it insta-kills this phase.
+        brief: If Ultimate hits a Nihilus Seed whose current phase has less than 20% HP,
+          it insta-kills this phase.
+        icon: Skill_Nagative_Damage02
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "775"
+    name: This Moment Shines Like Gold
+    info: "Leader Bonus\\n<color=#23B2E7FF>Leader Skill: {{Increases the team's
+      Lightning DMG by #1[f1]% and the team's Total DMG by #2[f1]%.}}</color>"
+    icon: Skill_Eden_C1_EL_005
+    skillType: leader
+    tags: []
+    paramSubId1: 7710
+    paramSubId2: 7710
+    paramSubId3: 0
+    subSkills:
+      - id: "7710"
+        name: This Moment Shines Like Gold
+        info: "Increases the team's Lightning DMG by #1[f1]% and the team's Total DMG by
+          #2[f1]%."
+        brief: Increases the team's Lightning DMG and the team's Total DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 4
+        paramBase1: 0.1
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.03333
+        paramAdd2: 0.04
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "776"
+    name: "Requiem: Remembrance"
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E8FF>Score: Separated
+      into 2 bars that each holds 3 notes. Using Basic ATK restores 1 note. At 3
+      notes, use Combo ATK to finish the bar. After finishing 2 bars, use Combo
+      ATK to consume all notes. Consuming a note restores 100 HP.</color>"
+    icon: Skill_Eden_C1_EL_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7711"
+        name: "1st Movement: Bygones"
+        info: Upon exit, refreshes the duration of Fascination on all Valkyries on the
+          field.
+        brief: Upon exit, refreshes the duration of Fascination on all Valkyries on the
+          field.
+        icon: Skill_Nagative_Damage03
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7712"
+        name: "2nd Movement: Stars"
+        info: "Start battle with #1[f1] bonus SP. Triggered once every 10 minutes in
+          Open World."
+        brief: Start battle with more SP.
+        icon: Skill_Nagative_Skill01
+        maxLv: 10
+        paramBase1: 20
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 2.22333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "7713"
+        name: "3rd Movement: Epoch"
+        info: "Enemies paralyzed by any team member take #1[f1]% more Total DMG for 10s.
+          Triggering it again refreshes its duration."
+        brief: Enemies paralyzed by the team take more Total DMG.
+        icon: Skill_Nagative_Skill01
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01111
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "777"
+    name: Unique Singing
+    info: Release [ATK] when she flashes during Ensemble to unleash Ensemble
+      Playing.\n<color=#23B2E9FF>It deals 500% ATK of Lightning DMG and inflicts
+      </color><color=#FEDF4CFF>3.5 Paralyze Trauma</color><color=#23B2E2FF>.
+      Ensemble Playing negates incoming DMG for its duration. With Sound of
+      Nature, Ensemble Playing is auto-cast during Ensemble.</color>
+    icon: Skill_Eden_C1_EL_007
+    skillType: sp
+    tags:
+      - type: paralyze
+        strength: 1
+        comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+          charge rate: weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7714"
+        name: Like a Song Above Clouds
+        info: "On hit, Ensemble Playing restores #1[f1] SP and #2[f1] HP."
+        brief: On hit, Ensemble Playing restores SP and HP.
+        icon: Skill_Nagative_Damage03
+        maxLv: 7
+        paramBase1: 1
+        paramBase2: 50
+        paramBase3: 0
+        paramAdd1: 0.25
+        paramAdd2: 8.33333
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7715"
+        name: Like a Current in Lake
+        info: "On hit, Ensemble Playing restores #1[f1] SP to the team (CD: 8s). After
+          using Ultimate and before exiting, the first Ensemble Playing causes a
+          3s Time Fracture."
+        brief: On hit, Ensemble Playing restores SP to the team. After using Ultimate
+          and before exiting, the first Ensemble Playing causes Time Fracture.
+        icon: Skill_Nagative_Damage03
+        maxLv: 5
+        paramBase1: 4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "7716"
+        name: Like a Star at Night
+        info: "Using Ultimate increases Paralyze Trauma from Combo ATK by #1[f1]% for
+          10s and Combo ATK's Total DMG by #2[f1]% for 15s."
+        brief: Using Ultimate increases Paralyze Trauma from Combo ATK and Combo ATK's
+          Total DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.1
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 0.075
+        paramAdd2: 0.1
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

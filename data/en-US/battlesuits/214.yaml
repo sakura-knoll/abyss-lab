@@ -1,0 +1,436 @@
+id: "214"
+fullName: Darkbolt Jonin
+shortName: Darkbolt Jonin
+desc: "<color=white>Features: </color><color=#FFAF2CFF>BIO-type</color> melee
+  battlesuit that can deal massive amounts of Lightning DMG using well-timed
+  special attacks."
+firstName: Sakura
+lastName: Yae
+enFirstName: null
+enLastName: null
+attributeType: bio
+isEasterner: true
+weapon: katana
+character: sakura
+initialStar: a
+tags:
+  - lightning-dmg
+  - paralyze
+  - time-mastery
+skills:
+  - id: "501"
+    name: Garyu Stance
+    info: "Melee moves that incorporate both kenjutsu and
+      taijutsu.\\n<color=#23B2E2FF>1st Sequence: 50% ATK of Physical DMG + 40%
+      ATK of Lightning DMG; restores 30 Zakti energy upon hit.\\n2nd Sequence:
+      70% ATK of Physical DMG + 130% ATK of Lightning DMG; restores 40 Zakti
+      energy upon hit.\\n3rd Sequence: 100% ATK of Physical DMG + 160% ATK of
+      Lightning DMG; restores 60 Zakti energy and an extra 3 SP upon hit.\\n4th
+      Sequence: 130% ATK of Physical DMG + 200% ATK of Lightning DMG; restores
+      70 Zakti energy and an extra 5.5 SP upon hit.</color>"
+    icon: Skill_Sakura_C4_NJ_501
+    skillType: basic
+    tags:
+      - type: paralyze
+        strength: 1
+        comment: "The last hit of Basic ATK's 4th sequence and QTE ATKs charge Paralyze
+          Trauma. Trauma charge rate: weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5001"
+        name: Electrified Razor
+        info: "During Basic ATK SEQ 3 & 4, the Valkyrie has higher Ignore Interrupt and
+          takes #1[f1]% less Total DMG. The last hit of Basic ATK SEQ 4 inflicts
+          <color=#FEDF4CFF>5 Paralyze Trauma</color>."
+        brief: During Basic ATK SEQ 3 & 4, the Valkyrie has higher Ignore Interrupt and
+          takes less Total DMG. The last hit of Basic ATK SEQ 4 inflicts
+          Paralyze Trauma.
+        icon: Skill_Nagative_Control02
+        maxLv: 10
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02222
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 1
+            comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+              charge rate: weak."
+        toggle: false
+        unlockStar: a
+      - id: "5002"
+        name: "<color=#FFC741FF>QTE</color>: Shiden Blast"
+        info: "QTE: Triggered when an enemy is ignited. Deals #1[f1]% ATK of AoE
+          Lightning DMG and inflicts <color=#FEDF4CFF>5 Paralyze
+          Trauma</color>."
+        brief: "QTE: Triggered when an enemy is ignited. Deals AOE Lightning DMG and
+          inflicts Paralyze Trauma."
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 4
+        paramBase2: 0.5
+        paramBase3: 0
+        paramAdd1: 0.33333
+        paramAdd2: 0.05556
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 1
+            comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+              charge rate: weak."
+        toggle: true
+        unlockStar: a
+  - id: "502"
+    name: "<color=#FFC741FF>Combo</color>: Naraka Finisher"
+    info: Tap & hold [ATK] to strike a deadly blow.\n<color=#23B2E2FF>Tap & hold
+      [ATK] to consume 100 Zakti and unleash Naraka Finisher. \nNaraka Finisher
+      can be unleashed in quick succession, dealing 100% ATK of Lightning DMG
+      against enemies within range. \nNaraka Finisher additionally restores 1.4
+      SP upon each hit.</color>
+    icon: Skill_Sakura_C4_NJ_502
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5004"
+        name: Yaksha Rush
+        info: "Each cast of Naraka Finisher boosts Total DMG dealt by Naraka Finisher by
+          #1[f1]% for 2s. 6 stacks max. Each stack's duration is independent of
+          others'."
+        brief: Each cast of Naraka Finisher boosts total DMG dealt by Naraka Finisher in
+          2s. 6 stacks max.
+        icon: Skill_Nagative_Damage02
+        maxLv: 4
+        paramBase1: 0.06
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5005"
+        name: Raksha AMP
+        info: "Naraka Finisher deals #1[f1]% more Lightning DMG against enemies below
+          30% HP."
+        brief: Naraka Finisher deals more damage to low HP enemies.
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 0.08
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00778
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "5006"
+        name: Sura's Retribution
+        info: "Each hit of Naraka Finisher additionally deals #1[f1]% ATK of Lightning
+          DMG."
+        brief: Each hit of Naraka Finisher deals bonus Lightning DMG.
+        icon: Skill_Nagative_Skill02
+        maxLv: 8
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02857
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "503"
+    name: Raijin's Blink
+    info: "Lightning imbued evasion. \\n<color=#23B2E2FF>Ultimate Evasion triggers
+      Raijin's Blink.\\nRaijin's Blink: Creates a Lightning imbued shadow at the
+      starting point; the shadow pulls in enemies and deals 50% ATK of Lightning
+      DMG during its existence, and explodes after 3s to deal 400% ATK of
+      Lightning DMG, triggering a Global Time Fracture that lasts 3s. \\nOnce
+      Raijin's Blink is triggered, Darkbolt Jonin enters Blink status for 5s,
+      during which she stays invisible and can sprint; while sprinting, her
+      Jonin Finisher can be cast by tapping [ATK] to deal 6x50% ATK of AOE
+      Lightning DMG. Jonin Finisher restores 60 Zakti energy and an extra 3 SP
+      upon hit. \\nCD: 15s.</color>"
+    icon: Skill_Sakura_C4_NJ_503
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5007"
+        name: Fusuikami's Bliss
+        info: "Raijin's Blink's CD is reduced by #1[f1]s."
+        brief: Raijin's Blink has reduced CD.
+        icon: Skill_Nagative_Skill01
+        maxLv: 10
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.22222
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "5008"
+        name: Narukami's Curse
+        info: "Raijin's Blink explosion deals #1[f1]% more Lightning DMG. Jonin Finisher
+          deals #2[f1]% more Lightning DMG."
+        brief: Raijin's Blink explosion & Jonin Finisher deal bonus Lightning DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.15
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0.02222
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "5009"
+        name: Wakaikami's Vigor
+        info: "Raijin's Blink restores #1[i] Zakti energy when procced."
+        brief: Raijin's Blink restores Zakti energy when procced.
+        icon: Skill_Nagative_Damage01
+        maxLv: 8
+        paramBase1: 50
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 7.14286
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "504"
+    name: Raksha's Rage
+    info: "Raksha's Rage unleashes Rakshamaru's might to dominate the
+      battlefield.\\n<color=#23B2E2FF>Rakshamaru is summoned to smite enemies in
+      a large area before her, dealing 600% + 80% + 6 x 30% ATK of Lightning
+      DMG.\\nTap [ULT] again within 12s after Rakshamaru's appearance to perform
+      Samsara of Death, dealing 7 x 120% + 7 x 180% ATK of Lightning DMG and
+      inflicting</color> <color=#FEDF4CFF>10 Paralyze Trauma</color>
+      <color=#23B2E2FF>in an area.\\nSamsara of Death increases Ignore Interrupt
+      and grants 40% Total DMG Reduction for 12s.\\nCD: 20s. The first
+      activation costs 100 SP, while the second costs 0 SP.</color>"
+    icon: Skill_Sakura_C4_NJ_504
+    skillType: ultimate
+    tags:
+      - type: paralyze
+        strength: 2
+        comment: "The 2nd sequence of Ultimate charges Paralyze Trauma. Trauma charge
+          rate: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5010"
+        name: Hungering Wraith
+        info: "The 1st sequence of Rakshamaru attack enhances Zakti regen rate to
+          #1[f1]/0.1s for 7s."
+        brief: Zakti regen is boosted after the 1st sequence of Rakshamaru attacks.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 6
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.66667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "5011"
+        name: Tiryag's Impulse
+        info: "Rakshamaru's 1st hit inflicts Conductive on the target, which makes it
+          take #1[f1]% more Lightning DMG for 12s."
+        brief: Rakshamaru's 1st hit renders enemies Conductive.
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02857
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5012"
+        name: Asura's Gift
+        info: "Summoning Rakshamaru recovers #1[i] Zakti."
+        brief: Summoning Rakshamaru recovers Zakti.
+        icon: Skill_Nagative_Skill03
+        maxLv: 6
+        paramBase1: 200
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 40
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "505"
+    name: The Sahā World
+    info: "Leader Bonus: <color=#23B2E2FF>{{Team gains #1[i]% Lightning DMG and
+      #2[i]% total DMG.}}</color>"
+    icon: Skill_Sakura_C4_NJ_505
+    skillType: leader
+    tags: []
+    paramSubId1: 5016
+    paramSubId2: 5016
+    paramSubId3: 0
+    subSkills:
+      - id: "5016"
+        name: The Sahā World
+        info: "Team deals #1[f1]% bonus Lightning DMG and #2[f1]% bonus total DMG."
+        brief: Boosts Lightning & total DMG for the team.
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.16
+        paramBase2: 0.11
+        paramBase3: 0
+        paramAdd1: 0.07
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "506"
+    name: Eight Dukkha
+    info: "Passive bonuses apply automatically. \\n<color=#23B2E2FF>Zakti: Starts at
+      0 and maxes at 500. Passive regen: 10 per second.</color>"
+    icon: Skill_Sakura_C4_NJ_506
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5013"
+        name: Branded for Hate
+        info: "Gains #1[f1]% Total DMG against enemies with Darkbolt Mark."
+        brief: Deals more Total DMG against enemies with Darkbolt Mark.
+        icon: Skill_Nagative_Damage03
+        maxLv: 6
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "5014"
+        name: Undying Love
+        info: "Auto-triggers before the Valkyrie dies, activating an invincible Blink
+          status and restoring #1[f1]% HP every 0.5s for 5s. CD: 60s; CD starts
+          when the Blink status ends."
+        brief: After taking a fatal blow, the character enters an invincible Blink
+          status and continuously recovers HP.
+        icon: Skill_Nagative_Survive03
+        maxLv: 10
+        paramBase1: 0.008
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00078
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "5015"
+        name: Endless Desire
+        info: "Each kill by Naraka Finisher restores #1[f1] Zakti."
+        brief: Naraka Finisher kills recover Zakti
+        icon: Skill_Nagative_Skill01
+        maxLv: 8
+        paramBase1: 80
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 10
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "507"
+    name: Darkbolt Pursuit
+    info: "Tap [ATK] when a light circle appears on the character to strike enemies
+      with lethal kunai. \\n<color=#23B2E2FF>Darkbolt Pursuit: Cast kunai to
+      deal 4x20% ATK of AOE Lightning DMG and inflict Darkbolt Marks (last 30s)
+      upon hit.\\nQTE & the 1st sequence of Rakshamaru attacks can also inflict
+      Darkbolt Marks.\\nInflicting Darkbolt Mark on a marked enemy again resets
+      its duration. \\nImmediately after unleashing Darkbolt Pursuit, tap [ATK]
+      to connect Jonin Finisher, or hold [ATK] to connect Naraka
+      Finisher.</color>"
+    icon: Skill_Sakura_C4_NJ_507
+    skillType: sp
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "5017"
+        name: Biting Ember
+        info: "After unleashing Darkbolt Pursuit, the Valkyrie gains #1[f1]% Total DMG
+          for 30s. Triggering this effect again to reset the duration."
+        brief: Valkyrie's Total DMG is amplified after casting Darkbolt Pursuit.
+        icon: Skill_Nagative_Damage02
+        maxLv: 7
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "5018"
+        name: Lingering Light
+        info: "Naraka Finisher gains expanded range and faster ATK Speed. Each Naraka
+          Finisher summons a lightning bolt that additionally deals #1[f1]% ATK
+          of Lightning DMG."
+        brief: Naraka Finisher gains enhanced range and Attack Speed. Each Naraka
+          Finisher summons a lightning striking enemies and dealing Lightning
+          DMG.
+        icon: Skill_Nagative_Skill02
+        maxLv: 5
+        paramBase1: 1.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.275
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "5019"
+        name: Jonin's Lantern
+        info: "Zakti starts at #1[i] and maxes at 600."
+        brief: Zakti gains a starting boost and maxes at 600.
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 200
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 100
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

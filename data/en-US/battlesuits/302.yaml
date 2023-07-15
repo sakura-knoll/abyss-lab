@@ -1,0 +1,403 @@
+id: "302"
+fullName: Yamabuki Armor
+shortName: Yamabuki Armor
+desc: "<color=white>Features: </color><color=#FF66CCFF>PSY-type</color> ranged
+  battlesuit that can block enemy attacks. Switches to melee attacks in Ultimate
+  mode."
+firstName: Bronya
+lastName: Zaychik
+enFirstName: null
+enLastName: null
+attributeType: psy
+isEasterner: false
+weapon: cannon
+character: bronya
+initialStar: a
+tags:
+  - physical-dmg
+  - impair
+  - burst
+  - time-mastery
+  - heal
+skills:
+  - id: "111"
+    name: "<color=#FFC741FF>Charge</color>: Particle Cannon"
+    info: "Charged cannon fire that deals greater DMG with higher charge
+      sequence.\\n<color=#23B2E2FF>Arm Switch: Charging mode changes with type
+      of weapon equipped.</color>"
+    icon: Skill_Bronya_ZP_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1101"
+        name: Mech Phobia
+        info: "Uncharged attack impairs the target and other enemies nearby, decreasing
+          their DEF by #1[f1]% for #2[f1]s."
+        brief: Basic ATKs impair enemies in an area.
+        icon: Skill_Nagative_Survive02
+        maxLv: 35
+        paramBase1: 0.15
+        paramBase2: 5
+        paramBase3: 0
+        paramAdd1: 0.00441
+        paramAdd2: 0.14706
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "1102"
+        name: Energy Overload
+        info: "Increases charging speed by #1[f1]% but decreases Crit Rate by #2[i]%."
+        brief: After activation, increases charging speed while decreases Crit Rate.
+        icon: Skill_Nagative_Damage03
+        maxLv: 20
+        paramBase1: 0.1
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.02105
+        paramAdd2: 0.02105
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "112"
+    name: "<color=#FFC741FF>Switch</color>: Shield Charge"
+    info: "Switch skill immediately unleashes a Shield
+      Charge.\\n<color=#23B2E2FF>Shield Charge: 150% ATK of Physical DMG and
+      knocks enemy into the air.</color>"
+    icon: Skill_Bronya_ZP_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1103"
+        name: Power Charge
+        info: "Additionally deals #1[i] Physical DMG against enemies hit by Shield
+          Charge."
+        brief: Shield Charge deals additional Physical DMG.
+        icon: Skill_Nagative_StartUp01
+        maxLv: 35
+        paramBase1: 36
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 32.02941
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1104"
+        name: "<color=#FFC741FF>QTE</color>: Honkai Barrier"
+        info: "QTE: Triggered when an enemy is Time-Slowed to perform Super Shield
+          Charge, dealing #1[i]% ATK of Physical DMG and inflicting
+          <color=#FEDF4CFF>6 Stun Trauma</color>."
+        brief: "QTE: Triggered when an enemy is Time-Slowed to perform Super Shield
+          Charge and inflict Stun Trauma."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 30
+        paramBase1: 4
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.06897
+        paramAdd2: 0.06897
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 2
+            comment: "Inflicts Stun Trauma; Trauma charge rate: medium."
+        toggle: true
+        unlockStar: a
+  - id: "113"
+    name: Dimension Field
+    info: "Raises the shield to defend against frontal
+      attacks.\\n<color=#23B2E2FF>Counterstrike: Release the [Defense] button at
+      the moment of the attack to unleash a counterstrike, dealing 100% ATK of
+      Physical DMG.\\nPerfect Defense: Counterstrike triggers a 5s Time
+      Fracture, during which the Valkyrie gains 50% Move Speed and 30% ATK Speed
+      for 3s. Base CD of Perfect Defense: 15s.</color>"
+    icon: Skill_Bronya_BQ_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1105"
+        name: Reflective Shield
+        info: Counterstrike is also effective against ranged attacks. It triggers Shield
+          Charge and inflict <color=#FEDF4CFF>5 Ignite Trauma</color>.
+        brief: Counterstrike is also effective against ranged attacks. It triggers
+          Shield Charge and inflict 5 Ignite Trauma.
+        icon: Skill_Nagative_Skill01
+        maxLv: 30
+        paramBase1: 7
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 5.06897
+        paramAdd2: 0.24138
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 1
+            comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+              charge rate: weak."
+        toggle: false
+        unlockStar: a
+      - id: "1106"
+        name: Reverse Trajectory
+        info: "Reflects the thrown objects back to the ranged attacker upon starting
+          defense, dealing #1[i]% of the original damage."
+        brief: Reflects the thrown objects back to the ranged attacker upon starting
+          defense.
+        icon: Skill_Nagative_Skill02
+        maxLv: 30
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.08621
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1107"
+        name: Field Propulsion
+        info: "Recovers #1[i] SP for the whole team after Counterstrike."
+        brief: Recovers more SP after Counterstrike.
+        icon: Skill_Nagative_Skill03
+        maxLv: 20
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.15789
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "114"
+    name: Overdrive Mode
+    info: "Unlocks the Mecha's energy restrictions to enter Burst mode:
+      Overdrive.\\n<color=#23B2E2FF>Overdrive Cost: At over 40 SP, consumes 10
+      SP to enter Burst mode and 10 SP/s afterwards until SP is depleted during
+      which the Valkyrie gains Iron Body.\\nOverdrive Switch: Tap [Ultimate] to
+      switch off Overdrive.\\nHeat Reset: Heat meters of laser-type weapons will
+      be reset upon Burst activation.</color>"
+    icon: Skill_Bronya_BQ_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "Last hit of Burst mode combo is Heavy ATK; Trauma charge: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1108"
+        name: Mending Link
+        info: "When Overdrive Mode is triggered, heal the whole team by #1[i] HP for
+          each enemy kill."
+        brief: For every enemy killed by the Ultimate, team recovers a small amount of
+          HP.
+        icon: Skill_Nagative_Skill01
+        maxLv: 50
+        paramBase1: 100
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 4.08163
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "1109"
+        name: Terror Drain
+        info: "When Overdrive Mode is triggered, heal the whole team by #1[i] HP for
+          every impaired enemy hit by fist attacks."
+        brief: During Ultimate, team recovers HP when fist attacks hit impaired enemy.
+        icon: Skill_Nagative_Damage02
+        maxLv: 70
+        paramBase1: 36
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1.04348
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1110"
+        name: Terror Freeze
+        info: "Upon triggering Overdrive Mode, apply Time Lock to impaired enemies for
+          #1[f1]s. Affected enemies remain impaired during Time Lock."
+        brief: Upon triggering the Ultimate, apply Time Lock to impaired enemies. The
+          Impair debuff endures throughout the Ultimate.
+        icon: Skill_Nagative_Skill03
+        maxLv: 15
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.35714
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "115"
+    name: Mental Sync
+    info: "Leader Bonus: <color=#23B2E2FF>Mental Sync: {{When Combo Hit Count
+      exceeds 30, team gains #1[i]% Crit Rate. PSY-type characters gain #2[i]%
+      Crit DMG.}}</color>"
+    icon: Skill_Bronya_ZP_005
+    skillType: leader
+    tags: []
+    paramSubId1: 1111
+    paramSubId2: 1111
+    paramSubId3: 0
+    subSkills:
+      - id: "1111"
+        name: Mental Sync
+        info: "When Combo Hit Count exceeds 30, team gains #1[i]% Crit Rate. PSY-type
+          characters gain #2[i]% Crit DMG."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.22
+        paramBase2: 0.23
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "116"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF></color>
+    icon: Skill_Bronya_ZP_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1112"
+        name: Mecha Barrier
+        info: "All team members have a mech shield that absorbs Physical DMG. The shield
+          has #1[i] HP which is fully restored if not attacked for #2[f1]s."
+        brief: Entire team receives a Mecha Shield that absorbs Physical DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 70
+        paramBase1: 62
+        paramBase2: 7
+        paramBase3: 0
+        paramAdd1: 7.18841
+        paramAdd2: -0.01449
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1113"
+        name: Reinforced Barrier
+        info: "Mecha Shield receives DEF equal to #1[i]% of Yamabuki's DEF."
+        brief: Mecha Shield receives a DEF buff.
+        icon: Skill_Nagative_Survive02
+        maxLv: 30
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02414
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1114"
+        name: Reactive Shield
+        info: "Mecha Shield deals #1[i] Lightning DMG to surrounding enemies and knocks
+          them airborne when breached."
+        brief: Mecha Shield deals DMG and knocks nearby enemies airborne when breached.
+        icon: Skill_Nagative_Skill03
+        maxLv: 20
+        paramBase1: 219
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 73.73684
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "411"
+    name: "<color=#FFC741FF>Charge</color>: Particle Cannon"
+    info: "Charged cannon fire that deals greater DMG with higher charge
+      sequence.\\n<color=#23B2E2FF>Arm Switch: Charging mode changes with type
+      of weapon equipped.</color>"
+    icon: Skill_Bronya_BQ_Artifact01_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "412"
+    name: "<color=#FFC741FF>Switch</color>: Gravity Slam"
+    info: "Switch skill immediately unleashes a Shield
+      Charge.\\n<color=#23B2E2FF>Shield Charge: 150% ATK of Physical DMG and
+      knocks enemy into the air.</color>"
+    icon: Skill_Bronya_BQ_Artifact01_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "413"
+    name: Super Gravity
+    info: "Raises the shield to defend against frontal
+      attacks.\\n<color=#23B2E2FF>Counterstrike: Release the [Defense] button at
+      the moment of the attack to unleash a counterstrike.\\nPerfect DEF:
+      Counterstrike triggers Time Fracture, slowing all enemies for 5s and
+      accelerates the character's Move SPD by 50% and Attack SPD by 30% for 3s.
+      Perfect Defense base CD: 15s.\\nGravity Reflex: Raises shield faster and
+      enters mobility mode more quickly.</color>"
+    icon: Skill_Bronya_BQ_Artifact01_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "414"
+    name: Obliterate Mode
+    info: "Lift mech power restrictions to enter Obliterate Mode (burst
+      mode).\\n<color=#23B2E2FF>SP cost: 50. Instantly gather and knock nearby
+      enemies airborne to deal 150%+400% ATK of Physical DMG, reset the mech
+      shield, and enter Obliterate Mode which lasts 15s. In Obliterate Mode,
+      Yamabuki Armor has Iron Body and the mech shield is reset every 3s.\\nCD:
+      25s.\\n1st Sequence: 100% Physical DMG.\\n2nd Sequence: 2x70% Physical
+      DMG.\\n3rd Sequence: Warp gravity to deal 160% ATK of Physical DMG, Time
+      Lock enemies within range, and gather nearby enemies for 2s.</color>"
+    icon: Skill_Bronya_BQ_Artifact01_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "416"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF>Yamabuki Armor will
+      not be interrupted when the mech shield is broken by Physical DMG.</color>
+    icon: Skill_Bronya_BQ_Artifact01_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []

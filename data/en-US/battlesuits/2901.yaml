@@ -1,0 +1,407 @@
+id: "2901"
+fullName: Starry Impression
+shortName: Starry Impression
+desc: "<color=white>Features: </color><color=#FF66CCFF>PSY-type</color> melee
+  battlesuit that uses a cross in battle."
+firstName: Griseo
+lastName: null
+enFirstName: null
+enLastName: null
+attributeType: psy
+isEasterner: true
+weapon: cross
+character: griseo
+initialStar: a
+tags:
+  - physical-dmg
+  - bleed
+  - time-mastery
+skills:
+  - id: "781"
+    name: The Painter and The Knight
+    info: "Fight using a paintbrush and with the help of Mr.
+      Knight.\\n<color=#23B2E3FF>SEQ 1: 80% ATK of Physical DMG\\nSEQ 2: 100%
+      ATK of Physical DMG\\nSEQ 3: 120% ATK of Physical DMG\\nSEQ 4: 80% + 80%
+      ATK of Physical DMG\\nSEQ 5: 180% ATK of Physical DMG</color>"
+    icon: Skill_Griseo_C1_HJ_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7801"
+        name: <color=#FFC741FF>QTE:</color> Windmills
+        info: "QTE: Triggered when an enemy is Time-Slowed or bleeding (refreshing
+          included). Deals #1[f1]% x 7 ATK of Physical DMG, restores #2[f1] SP
+          to the team, grants 3 different colors, and reduces switch CD by 4s."
+        brief: "QTE: Triggered when an enemy is Time-Slowed or bleeding (refreshing
+          included) to deal multi-hit Physical DMG, restore SP, and grant 3
+          different colors."
+        icon: Skill_Nagative_Damage01
+        maxLv: 6
+        paramBase1: 0.7
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.14
+        paramAdd2: 0.6
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+      - id: "7802"
+        name: Grass and Butterflies
+        info: "On landing Basic ATK SEQ 3 & 5, increases Physical DMG by #2[f1]% for
+          #1[f1]s. Triggering it again refreshes the duration."
+        brief: On landing Basic ATK SEQ 3 & 5, increases Physical DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 4
+        paramBase1: 3
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0.05
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "782"
+    name: <color=#FFC741FF>Combo:</color> Knight Blowing Bubbles
+    info: "Attack together with Mr. Knight.\\n<color=#23B2E4FF>Combo ATK is dictated
+      by the number and color of the paints it consumes:\\nIf she does not have
+      the max number of paints or paints of all 3 colors, Mr. Knight will
+      consume all paints to knock enemies airborne and deal 400% ATK of Physical
+      DMG.\\nIf she has the max number of paints that contain all 3 colors, Mr.
+      Knight will consume all paints to smite enemies and deal 650% ATK of
+      Physical DMG.\\nCasting Combo ATK grants a Prismatic Bubble buff for
+      10s.\\nPrismatic Bubble: Negates incoming DMG once. Deals 100% ATK of
+      Physical DMG to nearby enemies on blocking, expiry, or being triggered
+      again.</color>"
+    icon: Skill_Griseo_C1_HJ_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7803"
+        name: Golden Rye Field
+        info: "Restores additional SP after casting Combo ATK according to the colors it
+          consumed. For every 1/2/3 different colors consumed, restore
+          #1[f1]/#2[f1]/#3[f1] SP."
+        brief: Restores additional SP after casting Combo ATK according to the colors it
+          consumed.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 2
+        paramBase2: 4
+        paramBase3: 8
+        paramAdd1: 0.2
+        paramAdd2: 0.4
+        paramAdd3: 0.8
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7804"
+        name: Airy Water Lily
+        info: Can stack Prismatic Bubble 2 times. Within 10s of triggering Prismatic
+          Bubble, increases Ignore Interrupt and reduces incoming Total DMG by
+          30%.
+        brief: Can stack Prismatic Bubble 2 times. Trigger Prismatic Bubble to increase
+          Ignore Interrupt.
+        icon: Skill_Nagative_Control02
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "7805"
+        name: Coal-Black Crow
+        info: Gain 3 different colors on first entry.
+        brief: Gain 3 different colors on first entry.
+        icon: Skill_Nagative_Damage02
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "783"
+    name: The Birth of the Depicter
+    info: "Quickly dodge enemy attacks. Can be performed twice in a
+      row.\\n<color=#23B2E5FF>Ultimate Evasion Skill: Causes Global Time
+      Fracture for 2s (CD: 15s).</color>"
+    icon: Skill_Griseo_C1_HJ_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7806"
+        name: Girl with Gray Feather in Hair
+        info: Ultimate Evasion Skill grants Prismatic Bubble and can be connected into
+          Basic ATK SEQ 3.
+        brief: Ultimate Evasion Skill grants Prismatic Bubble and can be connected into
+          Basic ATK SEQ 3.
+        icon: Skill_Nagative_Damage03
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "784"
+    name: Neverland Genesis
+    info: "Exhibit a painting that materializes and attacks upon
+      auto-completion.\\n<color=#23B2E6FF>Casting Ultimate causes Global Time
+      Fracture for 2s. Teammates on the field can inflict <color=#FEDF4CFF>2
+      Bleed Trauma</color> (CD: 2s). Ultimate lasts 18s, during which the number
+      of paints is capped at 5. When Ultimate has 8s left, deal 500% ATK of
+      Physical DMG in an area.\\nDuring Ultimate, her exit refreshes the
+      duration of Mixing buffs and grants teammates the same Mixing buffs. Can
+      only be triggered once during Ultimate.\\nSP cost: 75. CD: 20s.</color>"
+    icon: Skill_Griseo_C1_HJ_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7807"
+        name: Moonlit Night on the River
+        info: "Ultimate's AoE DMG deals #1[f1]% ATK of Physical DMG to bleeding enemies.
+          Each stack of bleeding increases the multiplier by #2[f1]%, up to a
+          maximum of #3[f1]%. This DMG counts as bleeding DMG."
+        brief: Ultimate's AoE DMG deals Physical DMG to bleeding enemies. Each stack of
+          bleeding increases the multiplier until it reaches the limit. This DMG
+          counts as bleeding DMG.
+        icon: Skill_Nagative_Survive02
+        maxLv: 4
+        paramBase1: 3
+        paramBase2: 1.5
+        paramBase3: 10.5
+        paramAdd1: 0.66667
+        paramAdd2: 0.5
+        paramAdd3: 3.16667
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7808"
+        name: Girl in a Dream
+        info: Team enters Traced state during Ultimate. It enables them to stack
+          bleeding on enemies 4 more times, and each stack makes bleeding deal
+          another 15% ATK of Physical DMG per 0.5s. After casting Ultimate,
+          inflict <color=#FEDF4CFF>#1[f1] Bleed Trauma</color> on all enemies.
+        brief: Team enters Traced state during Ultimate. It enables them to stack
+          bleeding on enemies more times, and each stack makes bleeding deal
+          additional Physical DMG. After casting Ultimate, inflict Bleed Trauma
+          on all enemies.
+        icon: Skill_Nagative_Survive03
+        maxLv: 11
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.4
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "Inflicts Bleed Trauma; Trauma charge rate: weak."
+        toggle: false
+        unlockStar: a
+      - id: "7809"
+        name: Dove Carrying Branch
+        info: "During Ultimate, bleeding inflicted by her deals #1[f1]% bonus Total
+          DMG."
+        brief: During Ultimate, bleeding inflicted by her deals more Total DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 0.35
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00517
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "785"
+    name: "Self-Portrait: Stars"
+    info: "Leader Bonus:\\n<color=#23B2E2FF>Leader Skill: {{Team deals #1[f1]% bonus
+      Physical DMG to bleeding enemies and starts battle with #2[f1] bonus
+      initial SP. In Open World, the initial SP bonus takes effect once every 10
+      mins.}}</color>"
+    icon: Skill_Griseo_C1_HJ_005
+    skillType: leader
+    tags: []
+    paramSubId1: 7810
+    paramSubId2: 7810
+    paramSubId3: 0
+    subSkills:
+      - id: "7810"
+        name: "Self-Portrait: Stars"
+        info: "Team deals #1[f1]% bonus Physical DMG to bleeding enemies and starts
+          battle with #2[f1] bonus initial SP. In Open World, the initial SP
+          bonus takes effect once every 10 mins."
+        brief: Team deals more Physical DMG to bleeding enemies and starts battle with
+          more initial SP.
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.19
+        paramBase2: 45
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 5
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "786"
+    name: Impression, Ciel Étoilé
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E8FF>Gain paints
+      through fighting. They have 3 colors and the default paint is red. Tap
+      [ATK] and hit an enemy to gain a paint of the current color. Tap [ULT] to
+      switch colors and hit an enemy to gain a paint of the new color. Gaining a
+      paint grants a corresponding Mixing buff for 20s (gaining it again
+      refreshes the duration).\\n[Mixing: Red]: Deal 20% bonus Total DMG to
+      shield-broken or unshielded enemies.\\n[Mixing: Yellow]: Take 15% less
+      Total DMG.\\n[Mixing: Blue]: Bleeding inflicted by her deals 35% bonus
+      Physical DMG.\\nStop gaining paints or Mixing buffs at the max number of
+      paints.</color>"
+    icon: Skill_Griseo_C1_HJ_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7811"
+        name: Ms. Fairy is Smiling
+        info: "Combo ATK that consumes multiple same colors deals additional Physical
+          DMG based on her ATK. If this color has the highest count that is over
+          1, each of it deals #1[f1]% bonus Physical DMG. This DMG counts as
+          bleeding DMG."
+        brief: Combo ATK that consumes multiple same colors deals additional Physical
+          DMG based on her ATK. This DMG counts as bleeding DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 10
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.11111
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7812"
+        name: Mr. Knight is Climbing
+        info: "Deal #2[f1]% bonus Total DMG and #1[f1]% bonus bleeding DMG to BIO-type
+          enemies. BIO-type enemies take #3[f1]% bonus Total DMG from the team."
+        brief: Deal bonus Total & bleeding DMG to BIO-type enemies. They also take more
+          Total DMG from the team.
+        icon: Skill_Nagative_Skill01
+        maxLv: 8
+        paramBase1: 0.2
+        paramBase2: 0.2
+        paramBase3: 0.05
+        paramAdd1: 0.02857
+        paramAdd2: 0.02857
+        paramAdd3: 0.00714
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "7813"
+        name: Ms. Moon is Resting
+        info: "Start battle with #1[f1] bonus initial SP. Triggered once every 10 mins
+          in Open World."
+        brief: Start battle with more initial SP. Triggered once every 10 mins in Open
+          World.
+        icon: Skill_Nagative_Damage03
+        maxLv: 20
+        paramBase1: 20
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1.05316
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "787"
+    name: The Starry Moonlit Night
+    info: Mr. Knight's sword causes bleeding.\n<color=#23B2E9FF>All attacks aided by
+      Mr. Knight inflict <color=#FEDF4CFF>Bleed Trauma</color>. All enemies
+      enter Dyed state during Ultimate. The Bleed DMG caused by Bleed Trauma on
+      Dyed enemies comes from the last character to inflict the Dye.</color>
+    icon: Skill_Griseo_C1_HJ_007
+    skillType: sp
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7814"
+        name: Sleeping White Peony
+        info: "Shield-broken or unshielded enemies take #1[f1]% bonus Physical DMG while
+          bleeding."
+        brief: Shield-broken or unshielded enemies take bonus Physical DMG while
+          bleeding.
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.04
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7815"
+        name: Whispering Iris
+        info: "Deals #1[f1] DMG to Fixed DMG-only shields when self-inflicting Bleed."
+        brief: Bleeding also deals DMG to shields that only take fixed DMG.
+        icon: Skill_Nagative_Skill01
+        maxLv: 5
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1.25
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "7816"
+        name: Sunflowers in Bloom
+        info: "When the team hits bleeding enemies, each stack of bleeding increases
+          Crit Rate by #1[f1]% and increases her Physical DMG by #2[f1]%."
+        brief: When the team hits bleeding enemies, each stack of bleeding increases
+          Crit Rate and increases her Physical DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 7
+        paramBase1: 0.01
+        paramBase2: 0.01
+        paramBase3: 0
+        paramAdd1: 0.00333
+        paramAdd2: 0.00333
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

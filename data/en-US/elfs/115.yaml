@@ -1,0 +1,313 @@
+id: "115"
+fullName: Kiana Kaslana
+icon: Elf_15
+cardIcon: Elf_10015
+chibiIcon: Elf_10015
+figureImage: Elf_10015
+rarity: 4
+cardId: 380115
+fragmentId: 370115
+storyDesc: Description
+ultSkillCd: 45
+ultSkillCost: 75
+skillBg: TalentBg15
+tags:
+  - type: fire-dmg
+    comment: null
+  - type: lightning-dmg
+    comment: null
+  - type: gather
+    comment: null
+captainSkillIds:
+  - "160021"
+  - "16003"
+  - "160041"
+skills:
+  - id: "16001"
+    elfId: "115"
+    name: Kiana, Go!
+    info: "ELF has two Basic ATKs:\\nBasic ATK 1: Fires 3 bullets, dealing 3 x
+      <color=#ff9900>#1[f1]%</color> ATK of Fire DMG.\\nBasic ATK 2: Swings the
+      bat, dealing 3 x <color=#ff9900>#2[f1]%</color> ATK of Fire DMG.\\nELF
+      recovers <color=#ff9900>#3[f1]</color> SP per second in combat."
+    skillType: Basic
+    skillTypeId: "1"
+    icon: Skill_Elf_Attack_115
+    row: 1
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 2.5
+    paramBase2: 8.5
+    paramBase3: 1.5
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "16002"
+    elfId: "115"
+    name: Baffling Luck
+    info: ELF hits a home run and the baseball explodes, dealing 2 x
+      <color=#ff9900>#1[f1]%</color> ATK of Fire DMG, pulling nearby enemies and
+      creating an area. The baseball explodes again in 7s, dealing
+      <color=#ff9900>#2[f1]%</color> ATK of Fire DMG and pulling nearby enemies.
+      Ultimate reduces switch CD for the Valkyries on standby by 8s and makes
+      enemies receive <color=#ff9900>#3[f1]%</color> more Elemental DMG for 20s.
+    skillType: Ultimate
+    skillTypeId: "0"
+    icon: Skill_Elf_Ultra_115
+    row: 2
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 9
+    paramBase2: 12
+    paramBase3: 0.12
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "16003"
+    elfId: "115"
+    name: Big Courage
+    info: <color=#23b2e2>[Team-triggered]</color> When the leader is a Fire DMG
+      dealer, ELF deals <color=#ff9900>#1[f1]%</color> more Fire DMG. When the
+      leader is a Lightning DMG dealer, ELF deals <color=#ff9900>#1[f1]%</color>
+      more Lightning DMG.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Team_UP
+    row: 3
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.3
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "16004"
+    elfId: "115"
+    name: Small Wish
+    info: "When a Valkyrie's Weapon Active deals DMG, ELF launches a Joint ATK,
+      firing a charged-shot that deals <color=#ff9900>#1[f1]%</color> ATK of
+      Fire DMG and pulls nearby enemies. Joint ATK CD: 10s."
+    skillType: Team
+    skillTypeId: "3"
+    icon: Skill_Elf_Talent_Force
+    row: 4
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 9
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "160011"
+    elfId: "115"
+    name: A Little Homesick
+    info: ELF's Basic ATK deals <color=#ff9900>#1[f1]%</color> more Total DMG and
+      has <color=#ff9900>#2[f1]</color> more initial SP.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Initial_UP
+    row: 1
+    col: 2
+    unlockStar: 2
+    maxLv: 3
+    paramBase1: 0.1
+    paramBase2: 30
+    paramBase3: 0
+    paramAdd1: 0.1
+    paramAdd2: 10
+    paramAdd3: 0
+  - id: "160012"
+    elfId: "115"
+    name: Wanna Eat Pizza Toast
+    info: Unleashes the Ultimate and makes enemies take
+      <color=#ff9900>#1[f1]%</color> more Fire and Lightning DMG for 20s.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 1
+    col: 3
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.04
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.01
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "160013"
+    elfId: "115"
+    name: Backpack's Getting Heavier
+    info: "When ELF's Basic ATK hits an inflammable or conductive enemy, it restores
+      extra <color=#ff9900>#1[f1]</color> SP. CD: 2s."
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_Up
+    row: 1
+    col: 4
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 2
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.75
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "160021"
+    elfId: "115"
+    name: Found a Big Umbrella
+    info: <color=#23b2e2>[Team-triggered]</color> When the leader is a Fire DMG
+      dealer, ELF's Ultimate inflicts inflammable status over an area. When the
+      leader is a Lightning DMG dealer, ELF's Ultimate deals Lightning DMG
+      instead and inflicts conductive status over an area. If inflammable or
+      conductive enemies take Lightning or Fire DMG respectively, they will
+      detonate the Ultimate area prematurely, dealing
+      <color=#ff9900>#1[f1]%</color> ATK of Fire DMG +
+      <color=#ff9900>#1[f1]%</color> ATK of Lightning DMG and inflicting
+      inflammable & conductive statuses for 20s.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Passive
+    row: 2
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 9
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 1.5
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "160022"
+    elfId: "115"
+    name: More Yummies in My Bag
+    info: ELF's Ultimate and Ultimate's second explosion increase all team members'
+      Elemental DMG by <color=#ff9900>#1[f1]%</color> for 12s. Triggering it
+      again refreshes its duration.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_CD_Down
+    row: 2
+    col: 3
+    unlockStar: 2
+    maxLv: 3
+    paramBase1: 0.05
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.025
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "160023"
+    elfId: "115"
+    name: Gold on the Floor
+    info: ELF deals <color=#ff9900>#1[f1]%</color> more Elemental DMG to inflammable
+      and conductive enemies. ELF's Ultimate's premature detonation deals
+      <color=#ff9900>#2[f1]%</color> more Total DMG.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 2
+    col: 4
+    unlockStar: 7
+    maxLv: 5
+    paramBase1: 0.5
+    paramBase2: 0.25
+    paramBase3: 0
+    paramAdd1: 0.0375
+    paramAdd2: 0.05
+    paramAdd3: 0
+  - id: "160031"
+    elfId: "115"
+    name: Of Course I Can
+    info: <color=#23b2e2>[Team-triggered]</color> When the leader is a Lightning DMG
+      dealer, ELF's Basic ATK and Joint ATK deal Lightning DMG instead.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_CD_Down
+    row: 3
+    col: 2
+    unlockStar: 2
+    maxLv: 1
+    paramBase1: 0
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "160032"
+    elfId: "115"
+    name: I'll Keep it Up
+    info: Shortens ELF's Ultimate CD by <color=#ff9900>#1[f1]%</color>.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 3
+    col: 3
+    unlockStar: 4
+    maxLv: 3
+    paramBase1: 0.2
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.05
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "160033"
+    elfId: "115"
+    name: I Won't Give Up
+    info: <color=#23b2e2>[Team-triggered]</color> When team members are of two or
+      more elements, ELF and Valkyries deal <color=#ff9900>#1[f1]%</color> more
+      Total DMG.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 3
+    col: 4
+    unlockStar: 7
+    maxLv: 5
+    paramBase1: 0.03
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0125
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "160041"
+    elfId: "115"
+    name: Wanna Make Friends
+    info: <color=#23b2e2>[Team-triggered]</color> When the leader is a Fire or
+      Lightning DMG dealer, Joint ATK inflicts inflammable or conductive status.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 4
+    col: 2
+    unlockStar: 2
+    maxLv: 1
+    paramBase1: 1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "160042"
+    elfId: "115"
+    name: Gotta Find Pops
+    info: Valkyries deal <color=#ff9900>#1[f1]%</color> more Fire or Lightning DMG
+      to inflammable or conductive enemies.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 4
+    col: 3
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0125
+    paramAdd2: 0
+    paramAdd3: 0

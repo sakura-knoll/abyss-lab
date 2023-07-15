@@ -1,0 +1,412 @@
+id: "3301"
+fullName: Valkyrie Quicksand
+shortName: Valkyrie Quicksand
+desc: "<color=white>Features: </color><color=#AE98FFFF>QUA-type</color>
+  battlesuit. Splits the chakram into two scimitars and battles while dancing
+  with a tambourine."
+firstName: Susannah
+lastName: null
+enFirstName: null
+enLastName: null
+attributeType: qua
+isEasterner: true
+weapon: chakram
+character: susannah
+initialStar: a
+tags:
+  - physical-dmg
+  - bleed
+skills:
+  - id: "851"
+    name: Go Go Susannah!
+    info: "Dances and slashes with a chakram.\\n<color=#23B2E3FF>SEQ 1: Deals 120%
+      ATK of Physical DMG and restores 50 Confidence.\\nSEQ 2: Deals 50% + 120%
+      ATK of Physical DMG and restores 50 Confidence.\\nSEQ 3: Deals 200% ATK of
+      Physical DMG and restores 50 Confidence.\\nSEQ 4: Deals 3 x 100% ATK of
+      Physical DMG, restores 50 Confidence, and inflicts <color=#FEDF4CFF>4
+      Bleed Trauma</color></color>."
+    icon: Skill_Susannah_C1_ED_851
+    skillType: basic
+    tags:
+      - type: bleed
+        strength: 1
+        comment: "Inflicts Bleed Trauma; Trauma charge rate: weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8501"
+        name: "<color=#FFC741FF>QTE</color>: Susannah, Help Me Out!"
+        info: "Triggered when an enemy is Time-Slowed or bleeding (refreshing included).
+          Deals #1[f1]% ATK of Physical DMG, restores 100 Confidence, and
+          inflicts <color=#FEDF4CFF>4 Bleed Trauma</color>. If Ultimate and
+          weapon active gets judgments and enemies are bleeding, deals another
+          #2[f1]% ATK of Bleed DMG."
+        brief: Triggered when an enemy is Time-Slowed or bleeding (refreshing included).
+          Deals Physical DMG, restores Confidence, and inflicts
+          <color=#FEDF4CFF>Bleed Trauma</color>. Deals additional Physical DMG
+          if enemies are Bleeding.
+        icon: Skill_Nagative_Damage01
+        maxLv: 7
+        paramBase1: 3.5
+        paramBase2: 2.5
+        paramBase3: 0
+        paramAdd1: 0.58333
+        paramAdd2: 0.41667
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "Inflicts Bleed Trauma; Trauma charge rate: weak."
+        toggle: true
+        unlockStar: a
+      - id: "8502"
+        name: Susannah is Capable!
+        info: "When Basic ATK SEQ 4 hits, restores another #1[f0] Confidence."
+        brief: Basic ATK SEQ 4 restores extra Confidence on hit.
+        icon: Skill_Nagative_Damage01
+        maxLv: 8
+        paramBase1: 50
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 7.14286
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8503"
+        name: Susannah Won't Lose!
+        info: Casting QTE, Combo ATK, or Ultimate grants High Morale state to the team,
+          which lets them inflict 4 more Bleeding stacks. Each stack makes
+          bleeding deal a extra 15% ATK of Physical DMG per 0.5s for 15s.
+          Triggering it again refreshes the duration. Ultimate inflicts
+          <color=#FEDF4CFF>#1[f0] Bleed Trauma</color> on all enemies.
+        brief: Casting QTE, Combo ATK, or Ultimate grants High Morale state to the team,
+          which lets them inflict more Bleeding stacks. Each stack makes
+          bleeding deal extra Physical DMG. Ultimate inflicts
+          <color=#FEDF4CFF>Bleed Trauma</color> on all enemies.
+        icon: Skill_Nagative_Damage01
+        maxLv: 8
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.42857
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 2
+            comment: "Inflicts Bleed Trauma; Trauma charge rate: medium."
+        toggle: false
+        unlockStar: a
+  - id: "852"
+    name: "<color=#FFC741FF>Combo ATK</color>: Want Some Gems?"
+    info: Tosses gems to deal Bleed DMG.\n<color=#23B2E4FF>Valkyrie Quicksand gains
+      Confidence through attacking. At the maximum amount of 600 Confidence,
+      hold [ATK] to consume all Confidence and use Combo ATK:\nToss and kick
+      gems to deal 240% x 2 + 40% x 5 ATK of Physical DMG and inflict</color>
+      <color=#FEDF4CFF>8 Bleed Trauma</color> <color=#23B2E4FF>on hit. When
+      performing Combo ATKs, gain 50% Total DMG Reduction.</color>
+    icon: Skill_Susannah_C1_ED_852
+    skillType: special
+    tags:
+      - type: bleed
+        strength: 2
+        comment: "Inflicts Bleed Trauma; Trauma charge rate: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8504"
+        name: Gem Power
+        info: "Combo ATK deals #1[f1]% more Total DMG to bleeding enemies."
+        brief: Combo ATK deals more Total DMG to bleeding enemies.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "8505"
+        name: Whew!
+        info: "Combo ATK restores #1[f1] SP on hit."
+        brief: Combo ATK restores SP on hit.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 7
+        paramBase2: 0
+        paramBase3: 1
+        paramAdd1: 0.88889
+        paramAdd2: 0
+        paramAdd3: -0.11111
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "853"
+    name: C-Close Call!
+    info: "Evade enemy attacks up to twice in a row.\\n<color=#23B2E5FF>Ultimate
+      Evasion Skill: Deal 300% ATK of Physical DMG to surrounding enemies and
+      restores 200 Confidence. CD: 15s.\\n\\nUltimate Evasion restores 150
+      Confidence and can be connected into Basic ATK SEQ 3.</color>"
+    icon: Skill_Susannah_C1_ED_853
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8507"
+        name: Proceed with Caution
+        info: "Triggering Ultimate Evasion Skill restores #1[f1] HP."
+        brief: Triggering Ultimate Evasion Skill restores HP.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 150
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 16.66667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8508"
+        name: Agile Steps
+        info: Cast weapon active to trigger Ultimate Evasion Skill.
+        brief: Cast weapon active to trigger Ultimate Evasion Skill.
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+  - id: "854"
+    name: One Thousand and One Fantasies
+    info: "A dazzling tambourine dance.\\n<color=#23B2E6FF>After casting Ultimate,
+      Valkyrie Quicksand will enter Dancing state and begin dancing, dealing
+      500% ATK of Physical DMG to all enemies and inflicting Collapse on QUA
+      enemies once.\\n\\nThen button prompts will appear 5 times to the
+      beat:\\nPerfect judgment: Deals 500% ATK of Physical DMG to nearby
+      enemies.\\nGood judgment: Deals 450% ATK of Physical DMG to nearby
+      enemies.\\n\\nSP: 125. CD: 20s.</color>"
+    icon: Skill_Susannah_C1_ED_854
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8510"
+        name: Rhythm Exercise
+        info: Diversify Ultimate's button prompts (does not affect the touch screen).
+        brief: Diversify Ultimate's button prompts (does not affect the touch screen).
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+      - id: "8511"
+        name: Sandstorm
+        info: "Ultimate deals #1[f1]% more Physical DMG. If Ultimate gets a Perfect
+          judgment, it deals #2[f1]% more Total DMG."
+        brief: Ultimate deals more Physical DMG. If Ultimate gets a Perfect judgment, it
+          deals more Total DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 7
+        paramBase1: 0.15
+        paramBase2: 0.25
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0.04167
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8512"
+        name: Oasis Spring
+        info: "If Ultimate gets a Perfect judgment, recover another #1[f1] SP and #2[f1]
+          HP."
+        brief: If Ultimate gets a Perfect judgment, recover SP and HP.
+        icon: Skill_Nagative_Damage01
+        maxLv: 3
+        paramBase1: 2.5
+        paramBase2: 100
+        paramBase3: 0
+        paramAdd1: 1.25
+        paramAdd2: 50
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "855"
+    name: Inextinguishable Passion
+    info: "Leader Bonus:\\n<color=#23B2E7FF>{{All team members deal #1[f1]% more
+      Physical DMG. They also deal #2[f1]% more Total DMG to bleeding
+      enemies.}}</color>"
+    icon: Skill_Susannah_C1_ED_855
+    skillType: leader
+    tags: []
+    paramSubId1: 8513
+    paramSubId2: 8513
+    paramSubId3: 0
+    subSkills:
+      - id: "8513"
+        name: Stand on My Own！
+        info: "The team deals #1[f1]% more Physical DMG, and #2[f1]% more Total DMG to
+          bleeding enemies."
+        brief: The team deals more Physical DMG, and more Total DMG to bleeding enemies.
+        icon: Skill_Nagative_Damage01
+        maxLv: 3
+        paramBase1: 0.2
+        paramBase2: 0.22
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "856"
+    name: Mystical Nights
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E8FF>Any DMG dealt by
+      all of Valkyrie Quicksand's ATKs counts as Bleed DMG, which is neither
+      ranged nor melee and cannot Crit.\\n\\nCasting weapon active makes her
+      toss her chakram to form a drum surface, then button prompts
+      appear:\\nPerfect judgment: Deals 500% ATK of Physical DMG.\\nGood
+      judgment: Deals 450% ATK of Physical DMG.\\n\\nIf Ultimate and weapon
+      active gets judgments and enemies are bleeding, deals another 500% ATK of
+      Physical DMG.\\n\\nWeapon Skill CD: 12s.</color>"
+    icon: Skill_Susannah_C1_ED_856
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8516"
+        name: Fully Focused
+        info: "Casting weapon active increases Total DMG by #1[f1]% and Bleed DMG that
+          enemies take by #2[f1]% for 15s. Triggering it again refreshes its
+          duration."
+        brief: Casting weapon active increases Total DMG and Bleed DMG that enemies
+          take.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8517"
+        name: Improvised Dance
+        info: "After weapon active gets a Perfect judgment, recover #1[f1] SP and deal
+          #2[f1]% more Physical DMG for 15s. Triggering it again resets the
+          duration."
+        brief: After weapon active gets a Perfect judgment, recover SP and deal more
+          Physical DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 3
+        paramBase2: 0.25
+        paramBase3: 0
+        paramAdd1: 0.3
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "8518"
+        name: Extra Gift
+        info: "Deals #1[f0] DMG to Fixed DMG-only shields when self-inflicting Bleed."
+        brief: Bleeding also deals DMG to fixed-DMG shields.
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "857"
+    name: Da-Dum! Let's Dance!
+    info: Dye Status\n<color=#23B2E8FF>Entry or casting Ultimate will Dye all
+      enemies for 15s. The Bleed DMG caused by Bleed Trauma that Dyed enemies
+      suffer come from the last inflictor of this state.</color>
+    icon: Skill_Susannah_C1_ED_857
+    skillType: sp
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8519"
+        name: Tambourine Jingle
+        info: "After casting Ultimate, inflict #1[f1]% more Bleed Trauma for 15s.
+          Triggering it again refreshes its duration."
+        brief: After casting Ultimate, inflict more Bleed Trauma.
+        icon: Skill_Nagative_Damage01
+        maxLv: 3
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.075
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "8520"
+        name: Scorching Burn
+        info: "After entry or casting Ultimate, deal #1[f1]% more Bleed DMG for 15s.
+          Triggering it again refreshes the duration."
+        brief: After entry, deal more Bleed DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 5
+        paramBase1: 0.06
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8521"
+        name: Romanticism
+        info: "Bleeding inflicted by her deals #1[f1]% more Total DMG."
+        brief: Bleeding inflicted by her deals more Total DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 7
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00833
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

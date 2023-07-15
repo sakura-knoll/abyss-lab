@@ -1,0 +1,364 @@
+id: "2101"
+fullName: Prinzessin der Verurteilung!
+shortName: Prinzessin der Verurteilung!
+desc: "<color=white>Features: </color><color=#FFAF2CFF>BIO-type</color> ranged
+  Valkyrie that wields a bow and can summon her familiar to aid in battle."
+firstName: Fischl
+lastName: null
+enFirstName: null
+enLastName: null
+attributeType: bio
+isEasterner: true
+weapon: bow
+character: fischl
+initialStar: a
+tags:
+  - lightning-dmg
+  - fast-atk
+  - time-mastery
+  - aerial
+skills:
+  - id: "661"
+    name: Bolts of Downfall
+    info: "Bow attacks which inflict minor Paralyze Trauma.\\n<color=#23B2E2FF>Basic
+      ATK:\\n1st Sequence: 25% ATK of Lightning DMG\\n2nd Sequence: 40% ATK of
+      Lightning DMG\\n3rd Sequence: 80% ATK of Lightning DMG\\n4th Sequence: 60%
+      ATK of Lightning DMG.\\n5th Sequence: 180% ATK of Lightning
+      DMG.\\nEnhanced ATK:\\n1st Sequence: 25%x3 ATK of Lightning DMG\\n2nd
+      Sequence: 40%x3 ATK of Lightning DMG\\n3rd Sequence: 80%x3 ATK of
+      Lightning DMG\\n4th Sequence: 60%x3 ATK of Lightning DMG.\\n5th Sequence:
+      The central arrow deals 360% ATK of Lightning DMG and the 4 other arrows
+      deal 60%x4 ATK of Lightning DMG.</color>"
+    icon: Skill_Fischl_FS_001
+    skillType: basic
+    tags:
+      - type: paralyze
+        strength: 1
+        comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+          charge rate: very weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6601"
+        name: String of Conviction
+        info: "For 12s after entry, Basic ATKs deal #1[f1]% bonus Total DMG."
+        brief: For 12s after entry, Basic ATKs deal more Total DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "6602"
+        name: "<size=14><color=#FFC741FF>QTE</color>: Thundering Execution</size>"
+        info: "Triggered when an enemy is Time-Slowed to deal 5x180% ATK of Lightning
+          DMG, inflict #1[f1]% Lightning Vulnerability on enemies hit for
+          #2[f1]s, induce 3s of Global Time Fracture, and restore #3[f1] bonus
+          SP. Global Time Fracture and bonus SP regen from QTE have a 12s CD."
+        brief: QTE is triggered when an enemy is Time-Slowed.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 15
+        paramBase3: 8
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0.8
+        tags: []
+        toggle: true
+        unlockStar: a
+  - id: "662"
+    name: "<color=#FFC741FF>Charged ATK</color>: Nightrider"
+    info: Hold [ATK] to summon Oz to aid in battle and enhance Fischl's Basic ATK
+      while it's present.\n<color=#23B2E2FF>Hold [ATK] to summon Oz (summoned
+      entity) lasting 12s. Oz is a melee attacker and deals 40%x12 ATK of
+      Lightning DMG. While it's present, Fischl's Basic ATKs become enhanced and
+      her attack speed increases. Hold [ATK] while Oz is present to launch
+      Charged ATK dealing 300% ATK of Lightning DMG.</color>
+    icon: Skill_Fischl_FS_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6603"
+        name: Raven Roam
+        info: "Oz lasts #1[f1]s."
+        brief: Oz lasts longer.
+        icon: Skill_Nagative_Skill01
+        maxLv: 8
+        paramBase1: 18
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1.71429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "6604"
+        name: Sanctifying Choir
+        info: "Every Basic ATK from Oz restores #1[f1] SP for Fischl."
+        brief: Oz's Basic ATKs restore SP for Fischl.
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 1.4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.16
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "663"
+    name: Shadow Step
+    info: "Evade enemy attacks up to twice in a row.\\n<color=#23B2E2FF>Ultimate
+      Evasions deal 50%x5 ATK of Lightning DMG and trigger 3s of Time Fracture.
+      CD: 18s.\\nWhile Oz is present, hold [ATK] right after an evasion to
+      perform Charged ATK.</color>"
+    icon: Skill_Fischl_FS_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6607"
+        name: Noble Manners
+        info: "Shortens CD of Ultimate Evasion by #1[f1]s."
+        brief: Ultimate Evasion CD is reduced.
+        icon: Skill_Nagative_Survive02
+        maxLv: 10
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.22222
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "6608"
+        name: Shadow Chaser
+        info: "Each hit of lightning strike from Ultimate Evasion Skill deals #1[f1]%
+          ATK of bonus Lightning DMG."
+        brief: Ultimate Evasion Skill deals more Lightning DMG.
+        icon: Skill_Nagative_Skill02
+        maxLv: 6
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "664"
+    name: Midnight Phantasmagoria
+    info: "Command Oz to launch a rain of arrows\\n<color=#23B2E2FF>Command Oz to
+      soar up and rain down a shower of arrows, dealing 20%x50 ATK of Lightning
+      DMG before Oz dives down to create a massive explosion dealing 1000% ATK
+      of Lightning DMG.\\nOz will remain on the field after Ultimate to attack
+      enemies. If Oz is already present when casting Ultimate, its duration will
+      be reset.\\nActivation Cost: 100 SP. CD: 20s.</color>"
+    icon: Skill_Fischl_FS_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6605"
+        name: Formation Breaker
+        info: "Casting Ultimate boosts team Lightning DMG by #1[f1]% and Oz's Lightning
+          DMG by #2[f1]% for #3[f1]s."
+        brief: Casting Ultimate boosts team Lightning DMG and Oz's Lightning DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.275
+        paramBase2: 0.625
+        paramBase3: 18
+        paramAdd1: 0.03056
+        paramAdd2: 0.06944
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6606"
+        name: Sublime Dream
+        info: "For #3[f1]s after casting Ultimate, Oz's Basic/Special ATKs restore
+          #1[f1]/#2[f1] SP for Fischl."
+        brief: After casting Ultimate, Oz restores more SP for Fischl.
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 1.75
+        paramBase2: 2.5
+        paramBase3: 12
+        paramAdd1: 0.19444
+        paramAdd2: 0.22222
+        paramAdd3: 0.33333
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "665"
+    name: Evernight Suite
+    info: "Leader Bonus:\\n<color=#23B2E2FF>{{Ranged attackers on the team deal
+      #1[f1]% bonus Total DMG; team deals #2[f1]% bonus Elemental
+      DMG.}}</color>"
+    icon: Skill_Fischl_FS_005
+    skillType: leader
+    tags: []
+    paramSubId1: 6609
+    paramSubId2: 6609
+    paramSubId3: 0
+    subSkills:
+      - id: "6609"
+        name: Evernight Suite
+        info: "Team deals #1[f1]% bonus Total DMG through ranged ATKs and deals #2[f1]%
+          bonus Elemental DMG."
+        brief: Team deals more Total DMG through ranged ATKs and deals more Elemental
+          DMG.
+        icon: Skill_Nagative_Skill02
+        maxLv: 7
+        paramBase1: 0.09
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.01333
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "666"
+    name: Shrieking Shaft
+    info: "Passive bonuses apply automatically. \\n<color=#23B2E2FF>Balanced archer
+      with up to 2 shooting chances (one is restored every 10s if less than
+      2).\\nCorrected modifier of non-aimed shooting: 100%.\\nCorrected modifier
+      of aimed shooting: 100%.</color>"
+    icon: Skill_Fischl_FS_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6610"
+        name: Domain of Isolation
+        info: "When enhanced, Valkyrie has #1[f1]% Total DMG Reduction and higher Ignore
+          Interrupt during Basic ATKs."
+        brief: When enhanced, Valkyrie takes less DMG and has higher Ignore Interrupt.
+        icon: Skill_Nagative_Survive01
+        maxLv: 10
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01111
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "6611"
+        name: Causality Perceived
+        info: "Active skills of bow weapons deal #1[f1]% bonus Total DMG when hitting an
+          enemy weakspot."
+        brief: Active skills of bow weapons deal more Total DMG when hitting an enemy
+          weakspot.
+        icon: Skill_Nagative_Skill03
+        maxLv: 6
+        paramBase1: 0.4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.08
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "6612"
+        name: Entwined Arrowhead
+        info: The moment when the active skill of a bow weapon hits an enemy, tapping
+          [ATK] triggers QTE.
+        brief: Hitting an enemy with the active skill of a bow weapon can trigger self
+          QTE.
+        icon: Skill_Nagative_Skill03
+        maxLv: 1
+        paramBase1: 15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "667"
+    name: Stellar Predator
+    info: "Empowers Oz.\\n<color=#23B2E2FF>On hit, Combo/Charged ATKs from any team
+      member summon Oz for a special ATK. It dives towards enemies, deals 80%x12
+      ATK of Lightning DMG, and restores 3 SP for Fischl. CD: 4s.</color>"
+    icon: Skill_Fischl_FS_007
+    skillType: sp
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6613"
+        name: Blazing Ravenfeather
+        info: "Oz's Special ATKs deal #1[f1]% bonus Total DMG and instantly reset the
+          duration of Lightning Vulnerability inflicted by QTE."
+        brief: Oz's Special ATKs reset the duration of Lightning Vulnerability from QTE.
+        icon: Skill_Nagative_Survive01
+        maxLv: 7
+        paramBase1: 0.35
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05833
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6614"
+        name: Strings of Fate
+        info: "Hitting an enemy with the active skill of a bow weapon triggers Oz's
+          Special ATK and boosts Ultimate's Total DMG by #1[f1]% for #2[f1]s."
+        brief: Hitting an enemy with the active skill of a bow weapon triggers Oz's
+          Special ATK and boosts Ultimate's Total DMG.
+        icon: Skill_Nagative_Skill03
+        maxLv: 5
+        paramBase1: 0.25
+        paramBase2: 12
+        paramBase3: 0
+        paramAdd1: 0.0625
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "6615"
+        name: Melody of Nightfall
+        info: "For #3[f1]s after casting Ultimate, Oz's Basic/Special ATKs restore
+          #1[f1]/#2[f1] SP for Fischl."
+        brief: After casting Ultimate, Oz restores bonus SP for Fischl.
+        icon: Skill_Nagative_Skill03
+        maxLv: 3
+        paramBase1: 1
+        paramBase2: 1.5
+        paramBase3: 18
+        paramAdd1: 0.5
+        paramAdd2: 0.75
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

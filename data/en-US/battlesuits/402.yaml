@@ -1,0 +1,384 @@
+id: "402"
+fullName: Scarlet Fusion
+shortName: Scarlet Fusion
+desc: "<color=white>Features: </color><color=#2CE3FFFF>MECH-type</color> melee
+  battlesuit. Link attacks perfectly to unleash bursts of nuclear blade waves."
+firstName: Himeko
+lastName: Murata
+enFirstName: null
+enLastName: null
+attributeType: mech
+isEasterner: true
+weapon: 2-handed
+character: himeko
+initialStar: a
+tags:
+  - lightning-dmg
+  - heavy-atk
+  - burst
+  - paralyze
+skills:
+  - id: "141"
+    name: Heavy Sword
+    info: "Basic ATK: Tri-Strike. Triggering Perfect Combo boosts Ignore
+      Interrupt.\\n<color=#23B2E2FF>Tri-Strike: Each strike deals 150%, 180%,
+      and 250% ATK of Physical DMG respectively.\\nPerfect Combo: Triggered by
+      tapping [ATK] when a flashing circle appears on the Valkyrie to gain 15%
+      Crit Rate for this attack.\\nWhen 2 consecutive (interval is less than 2s)
+      Perfect Combos are triggered, charges the weapon briefly; within the next
+      10s, the first Sprinting Zornhut unleashed will also launch a Spinning
+      Blade that deals 3x200% ATK of Lightning DMG.</color>"
+    icon: Skill_Himeko_NX_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1401"
+        name: Slash Rhythm
+        info: "The attack that triggers Perfect Combo gains #1[f1]% Crit Rate and
+          additionally deals #2[i]% ATK of Lightning DMG. Lightning DMG of
+          Spinning Blade increases to #3[i]% ATK."
+        brief: When Perfect Combo is triggered, this attack will gain Crit Rate and deal
+          an additional Lightning DMG. Spinning Blade gains DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 35
+        paramBase1: 0.05
+        paramBase2: 0.7
+        paramBase3: 2.5
+        paramAdd1: 0.00294
+        paramAdd2: 0.01471
+        paramAdd3: 0.07356
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1402"
+        name: Slash Tempo
+        info: "Gains Ignore Interrupt and #1[i]% Total DMG Reduction after triggering
+          Perfect Combo for #2[f1]s. Restores #3[f1] SP every time when Spinning
+          Blade hits an enemy."
+        brief: Triggering Perfect Combo further increases Ignore Interrupt and gains
+          Total DMG Reduction. Spinning Blade recovers SP to self upon hitting
+          the enemy.
+        icon: Skill_Nagative_Survive02
+        maxLv: 18
+        paramBase1: 0.25
+        paramBase2: 1.2
+        paramBase3: 2
+        paramAdd1: 0.01471
+        paramAdd2: 0.03529
+        paramAdd3: 0.11824
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1403"
+        name: Slash Accent
+        info: "If Basic ATK SEQ 3 triggers Perfect Combo, it has higher Interrupt and a
+          #1[f1]% chance to inflict <color=#FEDF4CFF>10 Paralyze Trauma</color>.
+          (CD: 8s)."
+        brief: If Basic ATK SEQ 3 triggers Perfect Combo, it has higher Interrupt and a
+          chance to inflict Paralyze Trauma.
+        icon: Skill_Nagative_Control02
+        maxLv: 21
+        paramBase1: 0.5
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0.06005
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 2
+            comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+              charge rate: medium."
+        toggle: false
+        unlockStar: sss
+  - id: "142"
+    name: "<color=#FFC741FF>Charge</color>: Fusion Assault"
+    info: "Charging on the spot initiates a forward dash and upward slash that
+      knocks the enemy airborne.\\n<color=#23B2E2FF>Sprinting Zornhut: Tap and
+      hold the [ATK] button to start, and pushes the enemy forward, then release
+      the [ATK] button to knock the enemy airborne and deal 400% ATK of Physical
+      DMG.\\nSprint ATK: During sprinting, tap the [ATK] button to launch a jump
+      cleave that deals 500% ATK of Physical DMG.</color>"
+    icon: Skill_Himeko_NX_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 1
+        comment: "QTE & Sprint Attack are Heavy ATKs; Trauma charge: medium."
+      - type: paralyze
+        strength: 1
+        comment: "QTE charges Paralyze Trauma. Trauma charge rate: Very weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1404"
+        name: Devastator's Charge
+        info: "Each sprint attack additionally deals #1[i] Lightning DMG."
+        brief: Each sprint attack packs Lightning DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 30
+        paramBase1: 80
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 4.17241
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1405"
+        name: "<color=#FFC741FF>Switch</color>: Shoryu Blade"
+        info: "Switch entry unleashes Onrush Slash, dealing #1[i]% ATK of Physical DMG
+          and knocking enemies airborne."
+        brief: Switch entry unleashes Onrush Slash, dealing Physical DMG and knocking
+          enemies airborne.
+        icon: Skill_Nagative_StartUp02
+        maxLv: 38
+        paramBase1: 2.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05405
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1406"
+        name: "<color=#FFC741FF>QTE</color>: Shoryu Nuclear EX"
+        info: "QTE: Triggered when an enemy is Time-Slowed. Knocks enemies airborne,
+          deals #1[i]% ATK of Physical DMG, and shoots a light blade that deals
+          #2[i] Lightning DMG and inflicts <color=#FEDF4CFF>5 Paralyze
+          Trauma</color>."
+        brief: "QTE: Triggered when an enemy is Time-Slowed. Knocks enemies airborne and
+          shoots a light blade that inflicts Paralyze Trauma."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 19
+        paramBase1: 4
+        paramBase2: 750
+        paramBase3: 0
+        paramAdd1: 0.11389
+        paramAdd2: 77.77778
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 1
+            comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+              charge rate: weak."
+        toggle: true
+        unlockStar: s
+  - id: "143"
+    name: Fusion Roll
+    info: "Evasive roll. Can be performed twice in a row.\\n<color=#23B2E2FF>Nuclear
+      Propulsion: After Ultimate Evasion, Move Speed increases by 40% for 3s.
+      Tap [ATK] at the moment of Ultimate Evasion to immediately launch a jump
+      cleave.\\nNuclear Charge: After Ultimate Evasion, the Valkyrie gains an EM
+      Charge that increases Ignore Interrupt for 5s. CD: 15s.\\nEM Blast: During
+      EM Charge, hitting an enemy generates an EM Blast that deals 80% ATK of
+      Lightning DMG to the target and nearby enemies and inflicts</color>
+      <color=#FEDF4CFF>5 Paralyze Trauma</color> <color=#23B2E2FF>on
+      them.</color>"
+    icon: Skill_Himeko_NX_003
+    skillType: evasion
+    tags:
+      - type: paralyze
+        strength: 1
+        comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+          charge rate: weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1407"
+        name: Rapid CD
+        info: "Shortens CD of EM Charge by #1[f1]s."
+        brief: Shortens CD of EM Charge.
+        icon: Skill_Nagative_Survive01
+        maxLv: 37
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05556
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1408"
+        name: Augmented Reactor
+        info: "Extends the duration of EM Charge by #1[f1]s. EM Blast additionally deals
+          #2[i]% ATK of Lightning DMG."
+        brief: Extends the duration of EM Charge. EM Blast deals additional Lightning
+          DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 17
+        paramBase1: 1
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: 0.125
+        paramAdd2: 0.12563
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "144"
+    name: Nexus Unlock
+    info: "Enters Valkyrie state, enhancing all attacks.\\n<color=#23B2E2FF>Burst:
+      Enhances most attack moves, ATK Speed, and Interrupt ability.\\nAt over
+      100 SP, consumes 20 SP to activate and 10 SP/s afterwards until SP is
+      depleted; max duration: 60s.</color>"
+    icon: Skill_Himeko_NX_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "Ultimate activation, 3rd hit of Burst mode ATK, and Sprinting Zornhut
+          are Heavy ATKs; Trauma charge: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1409"
+        name: Nuclear Impact
+        info: "During Burst, each attack will launch a penetrating Light Blade that
+          travels in a straight path, dealing #1[i]% Lightning DMG to enemies
+          hit."
+        brief: During Burst, each attack will launch a penetrating Light Blade that
+          travels in a straight path, dealing Lightning DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 60
+        paramBase1: 1.8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0239
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1410"
+        name: Fusion Rupture
+        info: "Burst activation deals #1[f1]% ATK of Lightning DMG to enemies nearby and
+          inflicts <color=#FEDF4CFF>5 Paralyze Trauma</color> on them."
+        brief: Burst activation deals Lightning DMG to and inflicts Paralyze Trauma on
+          enemies nearby.
+        icon: Skill_Nagative_Damage03
+        maxLv: 25
+        paramBase1: 1.6
+        paramBase2: 1.5
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0.0625
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 1
+            comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+              charge rate: weak."
+        toggle: false
+        unlockStar: s
+      - id: "1411"
+        name: Plasma Rend
+        info: In burst mode, light blades from Tri-Strike inflict <color=#FEDF4CFF>3
+          Bleed Trauma</color>.
+        brief: In burst mode, light blades from Tri-Strike inflict Bleed Trauma.
+        icon: Skill_Nagative_Skill01
+        maxLv: 15
+        paramBase1: 50
+        paramBase2: 1.6
+        paramBase3: 0
+        paramAdd1: 5
+        paramAdd2: 0.1
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "Inflicts Bleed Trauma; Trauma charge rate: weak."
+        toggle: false
+        unlockStar: ss
+  - id: "145"
+    name: Nuclear Armament
+    info: "Leader Bonus: <color=#23B2E2FF>Nuclear Armament: {{Team gains #1[i]%
+      Total DMG Multiplier to switch skill attacks.}}</color>"
+    icon: Skill_Himeko_VV_005
+    skillType: leader
+    tags: []
+    paramSubId1: 1412
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1412"
+        name: Nuclear Armament
+        info: "Team Switch Skill attacks gain #1[i]% Total DMG Multiplier."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "146"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF></color>
+    icon: Skill_Himeko_VV_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1413"
+        name: Nuclear Protection
+        info: "Shortens the duration of most debuffs by #1[i]%."
+        brief: Shortens the duration of most debuffs.
+        icon: Skill_Nagative_Survive01
+        maxLv: 24
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01304
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1414"
+        name: Barrier Smasher
+        info: "Additionally deals #1[i] Lightning DMG against enemies with unbroken
+          Elite Shields."
+        brief: Deals additional Lightning DMG to enemy with an unbroken Elite Shield.
+        icon: Skill_Nagative_Damage01
+        maxLv: 30
+        paramBase1: 180
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 14.55172
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1415"
+        name: Ruthless Pursuit
+        info: "Attacks against ignited or bleeding enemies gain #1[f1]% Total DMG
+          Multiplier."
+        brief: Attacks against ignited or bleeding enemies gain Total DMG Multiplier.
+        icon: Skill_Nagative_Damage02
+        maxLv: 25
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00833
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

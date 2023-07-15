@@ -1,0 +1,144 @@
+id: "21003"
+weapons:
+  - id: "28105"
+    rarity: 4
+    maxLv: 40
+    type: cannon
+    name: Briareus PRI Spirit
+    description: A Honkai-powered heavy cannon produced by the Mikoyan Design Bureau
+      named after the legendary Nordic giant who defeated the Aesirs. We wonder
+      who are the gods that the World Serpent is aiming to destroy.
+    icon: Weapon_Cannon_B5_47_4
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 62.20703
+    attackAdd: 3.110352
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 0.922994
+    criticalAdd: 0.057687
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "2042"
+        name: Typhon - Cluster Missiles
+        info: "Launch homing missiles at multiple targets. Longer charge time. Slightly
+          decreased DMG when hitting the same target multiple times. SEQ 1: 3
+          missiles. SEQ 2: 7 missiles. SEQ 3: 15 missiles. Missile hits have a
+          #1[i]% chance to inflict <color=#FEDF4CFF>3 Stun/Paralyze/Rime
+          Trauma</color>, and deal an additional #3[i] Fire/Lightning/Ice DMG."
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: stun
+            comment: "Inflicts Stun Trauma; Trauma charge rate: weak."
+          - type: paralyze
+            comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+              charge rate: weak."
+          - type: freeze
+            comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+              rate: weak."
+        param1: 0.03
+        param1Add: 0.000225
+        param2: 0.9
+        param2Add: 0.006742
+        param3: 350
+        param3Add: 3.932584
+      - id: "148"
+        name: Time Trap
+        info: "<color=#FEDF4CFF>[SP: 18][CD: 24s]</color> Rips open a Time Trap in front
+          of the wielder. Enemies within are time slowed and impaired (DEF down
+          by #1[i]%) for #2[f2]s."
+        icon: Skill_Bronya_Weapon_08
+        skillCd: 24
+        skillSpCost: 18
+        skillSpNeed: 18
+        tags:
+          - type: impair
+            comment: Impair enemies.
+          - type: time-mastery
+            comment: Inflicts Time Slow on enemies.
+        param1: 0.15
+        param1Add: 0.001685
+        param2: 3
+        param2Add: 0.011236
+        param3: 0
+        param3Add: 0
+    rankUpMaterials:
+      - id: "1301"
+        amount: 1
+    powerType: 4
+  - id: "28106"
+    rarity: 5
+    maxLv: 50
+    type: cannon
+    name: Briareus PRI Spirit
+    description: A Honkai-powered heavy cannon produced by the Mikoyan Design Bureau
+      named after the legendary Nordic giant who defeated the Aesirs. We wonder
+      who are the gods that the World Serpent is aiming to destroy.
+    icon: Weapon_Cannon_B5_47_5
+    hpBase: 0
+    hpAdd: 0
+    spBase: 0
+    spAdd: 0
+    attackBase: 71.09375
+    attackAdd: 3.554688
+    defenceBase: 0
+    defenceAdd: 0
+    criticalBase: 1.05485
+    criticalAdd: 0.065928
+    resistanceBase: 0
+    resistanceAdd: 0
+    skills:
+      - id: "2042"
+        name: Typhon - Cluster Missiles
+        info: "Launch homing missiles at multiple targets. Longer charge time. Slightly
+          decreased DMG when hitting the same target multiple times. SEQ 1: 3
+          missiles. SEQ 2: 7 missiles. SEQ 3: 15 missiles. Missile hits have a
+          #1[i]% chance to inflict <color=#FEDF4CFF>3 Stun/Paralyze/Rime
+          Trauma</color>, and deal an additional #3[i] Fire/Lightning/Ice DMG."
+        skillCd: 0
+        skillSpCost: 0
+        skillSpNeed: 0
+        tags:
+          - type: stun
+            comment: "Inflicts Stun Trauma; Trauma charge rate: weak."
+          - type: paralyze
+            comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+              charge rate: weak."
+          - type: freeze
+            comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+              rate: weak."
+        param1: 0.038989
+        param1Add: 0.000225
+        param2: 1.169663
+        param2Add: 0.006742
+        param3: 507.30338
+        param3Add: 3.932584
+      - id: "148"
+        name: Time Trap
+        info: "<color=#FEDF4CFF>[SP: 18][CD: 24s]</color> Rips open a Time Trap in front
+          of the wielder. Enemies within are time slowed and impaired (DEF down
+          by #1[i]%) for #2[f2]s."
+        icon: Skill_Bronya_Weapon_08
+        skillCd: 24
+        skillSpCost: 18
+        skillSpNeed: 18
+        tags:
+          - type: impair
+            comment: Impair enemies.
+          - type: time-mastery
+            comment: Inflicts Time Slow on enemies.
+        param1: 0.217416
+        param1Add: 0.001685
+        param2: 3.449438
+        param2Add: 0.011236
+        param3: 0
+        param3Add: 0
+    rankUpMaterials:
+      - id: "0"
+        amount: 0
+    powerType: 4

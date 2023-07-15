@@ -1,0 +1,40 @@
+id: "75"
+name: Painter set
+desc: null
+skills:
+  - id: "4100"
+    name: Nymphéas
+    info: "Host obtains a lightning barrier that boosts her Lightning DMG by #1[i]%
+      while it lasts. Upon enemy hit, the barrier will negate direct Physical
+      DMG from enemies for 0.3s and then enter a #2[i]s CD before regeneration."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: lightning-dmg
+        comment: null
+    param1: 0.3
+    param1Add: 0
+    param2: 15
+    param2Add: 0
+    param3: 0
+    param3Add: 0
+  - id: "4101"
+    name: Soleil Levant
+    info: "After triggering the Move Slow debuff of stigma (B) of this set, enemies
+      within a #1[f1]-meter radius of the target suffer #2[i]% Move Slow for
+      10s. Host also heals for #3[i]% HP."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags: []
+    param1: 3
+    param1Add: 0
+    param2: 0.3
+    param2Add: 0
+    param3: 0.08
+    param3Add: 0
+stigmaIdList:
+  - "110751"
+  - "110752"
+  - "110753"

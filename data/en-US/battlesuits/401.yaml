@@ -1,0 +1,311 @@
+id: "401"
+fullName: Valkyrie Triumph
+shortName: Valkyrie Triumph
+desc: "<color=white>Features: </color><color=#FFAF2CFF>BIO-type</color> melee
+  battlesuit with a diverse selection of crowd control skills. Powerful
+  support."
+firstName: Himeko
+lastName: Murata
+enFirstName: null
+enLastName: null
+attributeType: bio
+isEasterner: true
+weapon: 2-handed
+character: himeko
+initialStar: a
+tags:
+  - physical-dmg
+  - heavy-atk
+  - time-mastery
+  - stun
+  - heal
+skills:
+  - id: "131"
+    name: "<color=#FFC741FF>Charge</color>: Heavy Sword"
+    info: "Basic ATK: 3-sequence Zweihander Fechten. Each sequence can be charged
+      for enhanced power.\\n<color=#23B2E2FF>1st sequence: 150% ATK of Physical
+      DMG.\\n2nd sequence: 180% ATK of Physical DMG.\\n3rd sequence: 250% ATK of
+      Physical DMG.\\n1st Charged Sequence: 200%+300% ATK of Physical DMG.\\n2nd
+      Charged Sequence: 250%+400% ATK of Physical DMG.\\n3rd Charged Sequence:
+      320%+440% ATK of Physical DMG.</color>"
+    icon: Skill_Himeko_NX_001
+    skillType: basic
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "3rd hit of Charged ATK is Heavy ATK; Trauma charge: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1301"
+        name: Critical Cleave
+        info: "Charged ATKs gain #1[f1]% Crit Rate. Deals additional #2[f1]% Physical
+          DMG to unshielded enemies."
+        brief: Charged ATKs gain a Crit Rate buff.
+        icon: Skill_Nagative_Damage02
+        maxLv: 20
+        paramBase1: 0.1
+        paramBase2: 0.16
+        paramBase3: 0
+        paramAdd1: 0.00579
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1302"
+        name: Perseverance
+        info: "During Charged ATKs, gain Ignore Interrupt and take #1[f1]% less Physical
+          DMG."
+        brief: During Charged ATKs, gain Ignore Interrupt and reduce Physical DMG taken.
+        icon: Skill_Nagative_Survive02
+        maxLv: 20
+        paramBase1: 0.45
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "132"
+    name: Valkyrie Charge
+    info: Unleash a Windmill Cleave attack when sprinting.\n<color=#23B2E2FF>Tap the
+      [ATK] button while sprinting to unleash a jumping cleave, dealing 450% ATK
+      of Physical DMG.</color>
+    icon: Skill_Himeko_VV_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "Sprint Attack is Heavy ATK; Trauma charge: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1303"
+        name: Mutilate
+        info: "Switch entry unleashes a horizontal slash, dealing #1[i]% ATK of Physical
+          DMG."
+        brief: Switch entry unleashes a horizontal slash, dealing Physical DMG.
+        icon: Skill_Nagative_StartUp02
+        maxLv: 35
+        paramBase1: 2.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.06765
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1304"
+        name: "<color=#FFC741FF>QTE</color>: Mittelhau - Zorn"
+        info: "QTE: Triggers when an enemy is frozen, unleashing a powerful horizontal
+          slash that deals #1[i]% ATK of Physical DMG."
+        brief: "QTE: Triggered when an enemy is frozen to unleash a powerful horizontal
+          slash to deal Physical DMG."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 57
+        paramBase1: 5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05357
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "133"
+    name: Shock Wave
+    info: "Dodge sideways. Can be performed 2 times in a
+      row.\\n<color=#23B2E2FF>Energy Charge: Ultimate Evasion can be connected
+      into Charged ATK SEQ 1.\\nWave Blast: Releases a shock wave that lasts 2s
+      after Ultimate Evasion at the starting position (CD: 20s). Additionally,
+      inflicts</color> <color=#FEDF4CFF>3 Stun
+      Trauma</color><color=#23B2E2FF>.</color>"
+    icon: Skill_Himeko_BZ_003
+    skillType: evasion
+    tags:
+      - type: stun
+        strength: 1
+        comment: "Inflicts Stun Trauma; Trauma charge rate: weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1305"
+        name: Rapid CD
+        info: "Shortens CD of Wave Blast by #1[f1]s."
+        brief: Shortens CD of Wave Blast.
+        icon: Skill_Nagative_Survive01
+        maxLv: 24
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.13043
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1306"
+        name: Wave Enhance
+        info: "Extends duration of Wave Blast by #1[f1]s."
+        brief: Extends duration of Wave Blast.
+        icon: Skill_Nagative_Control02
+        maxLv: 28
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05556
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1307"
+        name: Wave Defense
+        info: "When triggering Wave Blast, increases Ignore Interrupt and gains #1[f1]%
+          Total DMG Reduction to self for #2[f1]s."
+        brief: When triggering Wave Blast, increases Ignore Interrupt and gains Total
+          DMG Reduction to self.
+        icon: Skill_Nagative_Survive02
+        maxLv: 25
+        paramBase1: 0.25
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.01042
+        paramAdd2: 0.125
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "134"
+    name: Blade Field
+    info: "Creates a sword rain enchant.\\n<color=#23B2E2FF>Time Field: Lasts for
+      8s. Inflicts Time Slow to affected enemies.\\nField Shatter: Explosion
+      deals 800% ATK of Physical DMG.\\nSP Cost: 125</color>"
+    icon: Skill_Himeko_VV_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1308"
+        name: Shattering Field
+        info: "Increases Physical DMG against enemies within the Enchant by #1[f1]%."
+        brief: Increases Physical DMG against enemies within the field.
+        icon: Skill_Nagative_Damage01
+        maxLv: 65
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00469
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1309"
+        name: Healing Field
+        info: "For every enemy inside the Enchant, heal the team by #1[f1] HP every
+          0.5s. Max stacks: #2[i]."
+        brief: Recovers team HP based on the number of enemies within the field.
+        icon: Skill_Nagative_Survive03
+        maxLv: 25
+        paramBase1: 10
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.84167
+        paramAdd2: 0.08375
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1310"
+        name: Imploding Field
+        info: "Field Shatter deals additional #1[i]% ATK of Physical DMG."
+        brief: Field Shatter deals additional Physical DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 21
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.15
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "135"
+    name: Triumph
+    info: "Leader Bonus: <color=#23B2E2FF>Triumph: {{All characters in the team gain
+      #1[i]% Physical DMG at above 80% HP. BIO-type characters gain #2[i]%
+      DEF.}}</color>"
+    icon: Skill_Himeko_VV_005
+    skillType: leader
+    tags: []
+    paramSubId1: 1311
+    paramSubId2: 1311
+    paramSubId3: 0
+    subSkills:
+      - id: "1311"
+        name: Triumph
+        info: "All characters in the team gain #1[i]% Physical DMG at above 80% HP.
+          BIO-type characters gain #2[i]% DEF."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Skill03
+        maxLv: 3
+        paramBase1: 0.2
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.05
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "136"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF></color>
+    icon: Skill_Himeko_VV_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1312"
+        name: Iron Wall
+        info: "Upon exiting, team gains Ignore Interrupt and #1[f1]% DEF for #2[f1]s."
+        brief: Upon exiting, team gains Ignore Interrupt and DEF.
+        icon: Skill_Nagative_Survive01
+        maxLv: 40
+        paramBase1: 0.3
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.01026
+        paramAdd2: 0.02564
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "1313"
+        name: By Victory
+        info: "Increases Crit DMG done to frozen and stunned enemies by #1[f1]%."
+        brief: Increases Crit DMG done to frozen and stunned enemies.
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01034
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a

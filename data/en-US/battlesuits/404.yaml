@@ -1,0 +1,397 @@
+id: "404"
+fullName: Blood Rose
+shortName: Blood Rose
+desc: "<color=white>Features: </color><color=#FF66CCFF>PSY-type</color> melee
+  battlesuit with plenty of fire skills and impressive burst DMG."
+firstName: Himeko
+lastName: Murata
+enFirstName: null
+enLastName: null
+attributeType: psy
+isEasterner: true
+weapon: 2-handed
+character: himeko
+initialStar: s
+tags:
+  - fire-dmg
+  - ignite
+  - heavy-atk
+  - burst
+skills:
+  - id: "161"
+    name: "<color=#FFC741FF>Charge</color>: Blooded Claymore"
+    info: "Basic ATK: Uncharged: 3-sequence Zweihänder Fechten. Charging unleashes
+      an empowered ATK sequence.\\n<color=#23B2E2FF>Charged ATK Sequence: The
+      3-sequence attack is followed by an aerial Windmill Cleave with increased
+      Ignore Interrupt during the attack.\\nBasic ATK: 150%+180%+220% ATK of
+      Physical DMG\\nCharged ATK: 250%+160%+200% ATK of Physical DMG\\nWindmill
+      Cleave: 140%+140%+400% ATK of Physical DMG</color>"
+    icon: Skill_Himeko_NX_001
+    skillType: basic
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "Last hit of Charged Combo is Heavy ATK; Trauma charge: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1601"
+        name: Burning Passion
+        info: "Each hit of Charged Basic ATK additionally deals #1[i]% ATK of Fire DMG."
+        brief: Each hit of charged Basic ATKs deals bonus Fire DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 75
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00676
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1602"
+        name: Blood Symphony
+        info: Getting hit during Charged ATK or Blood Wrath inflicts <color=#FEDF4CFF>5
+          Ignite Trauma</color> on the attacker.
+        brief: Getting hit during Charged ATK or Blood Wrath inflicts Ignite Trauma on
+          the attacker.
+        icon: Skill_Nagative_Damage02
+        maxLv: 25
+        paramBase1: 120
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 9.58333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 1
+            comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+              charge rate: weak."
+        toggle: false
+        unlockStar: ss
+      - id: "1616"
+        name: Undying Rage
+        info: "Upon ending Blood Wrath, recover #1[f2]% HP of the HP cost of this
+          Ultimate."
+        brief: Upon ending Blood Wrath, recover HP based on the HP cost of this
+          Ultimate.
+        icon: Skill_Nagative_Survive03
+        maxLv: 15
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01071
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: ss
+  - id: "162"
+    name: Blood Pirouette
+    info: "During evasion, unleash a horizontal sweep attack at the
+      enemy.\\n<color=#23B2E2FF>Riposte: Tap the [ATK] button while evading to
+      unleash a spinning slash, dealing 200% ATK of Physical DMG. CD: 5s.\\nIf
+      spinning slash hits the enemy, gain 5 SP to self.\\nAfter spinning slash,
+      tap the [ATK] button when the flashing circle appears on the character to
+      directly unleash a charged attack.\\nSprint ATK: Tap the [ATK] button
+      while sprinting to unleash a large AOE horizontal sweep that deals 400%
+      ATK of Physical DMG.</color>"
+    icon: Skill_Himeko_BZ_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "Switch Skill, QTE & Sprint Attack are Heavy ATKs; Trauma charge:
+          medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1603"
+        name: Igniting Axel
+        info: "Riposte has a #1[f1]% chance to inflict <color=#FEDF4CFF>5 Ignite
+          Trauma</color>."
+        brief: Riposte may inflict 5 Ignite Trauma.
+        icon: Skill_Nagative_Damage02
+        maxLv: 20
+        paramBase1: 0.4
+        paramBase2: 48
+        paramBase3: 0
+        paramAdd1: 0.01842
+        paramAdd2: 5.89474
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 1
+            comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+              charge rate: weak."
+        toggle: false
+        unlockStar: s
+      - id: "1604"
+        name: Downward Step
+        info: "Switch entry unleashes a Windmill Cleave, dealing #1[i]%+50% ATK of
+          Physical DMG."
+        brief: Switch entry unleashes a Windmill Cleave, dealing Physical DMG.
+        icon: Skill_Nagative_StartUp02
+        maxLv: 35
+        paramBase1: 2.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04412
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1605"
+        name: "<color=#FFC741FF>QTE</color>: Burning Windmills"
+        info: "QTE: Triggers when an enemy is stunned. Unleashes a powerful Windmill
+          Cleave, dealing 250%+#1[i]% ATK of Physical DMG and generating a flame
+          burst that deals #2[i]% ATK of AOE Fire DMG."
+        brief: "QTE: Triggered when an enemy is stunned to unleash a powerful Windmill
+          Cleave, dealing Physical DMG and AOE Fire DMG."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 27
+        paramBase1: 2
+        paramBase2: 0.75
+        paramBase3: 0
+        paramAdd1: 0.03885
+        paramAdd2: 0.01538
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "163"
+    name: Blood Bravura
+    info: "Sideways dodge to evade enemy attacks. Can be triggered 2 times in a
+      row.\\n<color=#23B2E2FF>Crimson Charge: Unleashes a Charged Combo
+      instantly after Ultimate Evasion.\\nMacropyre: Creates an explosion
+      centered on the attacker, dealing 200% ATK of Fire DMG. CD: 15s</color>"
+    icon: Skill_Himeko_BZ_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1606"
+        name: Blood Serenade
+        info: Macropyre inflicts <color=#FEDF4CFF>5 Ignite Trauma</color>.
+        brief: Macropyre inflicts Ignite Trauma.
+        icon: Skill_Nagative_Damage02
+        maxLv: 45
+        paramBase1: 66
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 3.81818
+        paramAdd2: 0.04545
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 1
+            comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+              charge rate: weak."
+        toggle: false
+        unlockStar: ss
+      - id: "1607"
+        name: Blood Concerto
+        info: "Shortens CD of Macropyre by #1[f1]s."
+        brief: Shortens CD of Macropyre.
+        icon: Skill_Nagative_Survive01
+        maxLv: 35
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05882
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1608"
+        name: Blood Aria
+        info: "Generates a fire ring when Macropyre is triggered, dealing #1[i] Fire DMG
+          every 0.3s. The fire ring lasts for #2[f1]s."
+        brief: Generates a fire ring when Macropyre is triggered, dealing continuous DMG
+          to nearby enemies.
+        icon: Skill_Nagative_Damage03
+        maxLv: 30
+        paramBase1: 40
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 3.03448
+        paramAdd2: 0.10345
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "164"
+    name: Blood Wrath
+    info: "Activate burst mode: Blood Wrath that consumes an increasing percentage
+      of HP per second to maintain. Tap [ULT] again or switch out to end burst
+      mode.\\n<color=#23B2E2FF>Vehement Flame: Consumes 30 SP to enter burst
+      mode. Tap [ATK] to directly unleash Charged ATKs.\\nSEQ 1: 340% ATK of
+      Physical DMG + 310% ATK of Fire DMG. SEQ 2: 260% ATK of Physical DMG +
+      240% ATK of Fire DMG. SEQ 3: 300% ATK of Physical DMG + 250% ATK of Fire
+      DMG. Mid-Air slash: 2 x 100% ATK of Physical DMG + 2 x 180% ATK of Fire
+      DMG. SEQ 5: (380% + 50%) ATK of Physical DMG + (320% + 50%) ATK of Fire
+      DMG.\\nActivation costs 30 SP, dealing 200% ATK of AoE Fire DMG and
+      inflicting</color> <color=#FEDF4CFF>6 Ignite Trauma</color>
+      <color=#23B2E2FF>.\\nBlood Philter: The Valkyrie has 40% Total DMG
+      Reduction and immunity to Stun, Paralyze, and Freeze. Activating Blood
+      Wrath grants a barrier that blocks an incoming attack.</color>"
+    icon: Skill_Himeko_BZ_004
+    skillType: ultimate
+    tags:
+      - type: ignite
+        strength: 2
+        comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+          charge rate: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1609"
+        name: Blood Boost
+        info: "Increases Attack Speed by #1[f1]% and Move Speed by #2[f1]% when Blood
+          Wrath is active."
+        brief: Increases Attack Speed and Move Speed when Blood Wrath is active.
+        icon: Skill_Nagative_Damage02
+        maxLv: 18
+        paramBase1: 0.2
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.01765
+        paramAdd2: 0.00882
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1610"
+        name: Blood Rondeau
+        info: "During Blood Wrath, tap the [ATK] button during Windmill Cleave to
+          increase the number of strikes up to #1[i] times. Each Windmill Cleave
+          strike also deals an increased #2[f1]% ATK of Physical and Fire DMG."
+        brief: During Blood Wrath, tap the [ATK] button during Windmill Cleave to
+          increase the number of strikes and Windmill Cleave DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 20
+        paramBase1: 1
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.21579
+        paramAdd2: 0.02632
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1611"
+        name: Blood Curse
+        info: "When Blood Wrath is active and HP is below 50%, gain #1[i]% Crit Rate and
+          #2[i]% Fire DMG."
+        brief: When Blood Wrath is active and HP is below 50%, gain Crit Rate and Fire
+          DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 15
+        paramBase1: 0.15
+        paramBase2: 0.16
+        paramBase3: 0
+        paramAdd1: 0.01071
+        paramAdd2: 0.01004
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "165"
+    name: Blood Waltz
+    info: "Leader Bonus:\\n<color=#23B2E2FF>Blood Waltz: All team members' Charged
+      ATKs deal #1% more Total DMG. If the team consists of members of 3
+      different types, all team members gain #2[i]% Total DMG.}}</color>"
+    icon: Skill_Himeko_VV_005
+    skillType: leader
+    tags: []
+    paramSubId1: 1612
+    paramSubId2: 1612
+    paramSubId3: 0
+    subSkills:
+      - id: "1612"
+        name: Blood Waltz
+        info: "Charged ATKs of the team gain #1[i]% Total DMG Multiplier. For teams with
+          characters of different types, attacks gain #2[i]% Total DMG
+          Multiplier."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Damage03
+        maxLv: 2
+        paramBase1: 0.15
+        paramBase2: 0.135
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.015
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "166"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF></color>
+    icon: Skill_Himeko_VV_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1613"
+        name: Burning Blood
+        info: "Basic ATK or Blood Wrath ATK against ignited enemies additionally deals
+          #1[i]% ATK of Fire DMG."
+        brief: Attacking ignited enemies with Basic ATK or with Blood Wrath active deals
+          additional Fire DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 31
+        paramBase1: 0.9
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1614"
+        name: Warding Blood
+        info: "When HP is below 66%, gain #2[i]% Total DMG Multiplier, take #1[f1]% less
+          Physical DMG, and increase Ignore Interrupt."
+        brief: When HP is below 66%, gain Total DMG Multiplier, take less Physical DMG,
+          and increase Ignore Interrupt.
+        icon: Skill_Nagative_Survive02
+        maxLv: 18
+        paramBase1: 0.2
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.00882
+        paramAdd2: 0.01182
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "1615"
+        name: Purifying Blood
+        info: "When Valyrie's HP is below 50%, she takes #1[i]% less Elemental DMG and
+          suffers shorter from most debuffs."
+        brief: When HP is below 50%, take less Elemental DMG, and shorten the durations
+          of most debuffs.
+        icon: Skill_Nagative_Survive03
+        maxLv: 20
+        paramBase1: 0.3
+        paramBase2: 0.25
+        paramBase3: 0
+        paramAdd1: 0.01947
+        paramAdd2: 0.01316
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

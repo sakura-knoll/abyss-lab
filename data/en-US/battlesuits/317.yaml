@@ -1,0 +1,474 @@
+id: "317"
+fullName: Herrscher of Truth
+shortName: Herrscher of Truth
+desc: "<color=white>Features: </color><color=#F3DFAEFF>IMG-type</color> ranged
+  battlesuit. Can switch between being an Explosive DPS and an Elemental
+  Support."
+firstName: Bronya
+lastName: Zaychik
+enFirstName: null
+enLastName: null
+attributeType: img
+isEasterner: false
+weapon: cannon
+character: bronya
+initialStar: s
+tags:
+  - ice-dmg
+  - time-mastery
+  - fast-atk
+  - gather
+  - aerial
+skills:
+  - id: "831"
+    name: Silver Wolf's Echoes
+    info: "Use a double-headed spear or a multitude of
+      firearms.\\n<color=#23B2E3FF>Extremum form: A 4-sequence combo.\\nSEQ 1:
+      Deals 100% ATK of Ice DMG.\\nSEQ 2: Deals 3 x 120% ATK of Ice DMG.\\nSEQ
+      3: Deals 180% ATK of Ice DMG. Project Bunny attacks in unison to deal 50%
+      ATK of Ice DMG.\\nSEQ 4: Deals 350% ATK of Ice DMG. Bunny attacks in
+      unison to deal 3 x 50% ATK of Ice DMG. Unlocks a mecha weapon on
+      hit.\\nContinuation form: Press or hold [ATK] to launch a 3-sequence
+      combo.\\nSEQ 1: Deals 2 x 20% ATK of Ice DMG.\\nSEQ 2: Deals 50% ATK of
+      Ice DMG.\\nSEQ 3: Deals 3 x 50% ATK of Ice DMG.\\nIn this form, Basic ATK
+      restores 5 Mech Propulsion and 1.6 SP on hit. After lasers are unlocked,
+      Basic ATK SEQ 2 will fire 2 lasers and Basic ATK SEQ 3 will fire 4 lasers,
+      each laser dealing 15% ATK of Ice DMG.</color>"
+    icon: Skill_Bronya_C12_GB_831
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8301"
+        name: "<color=#FFC741FF>QTE</color>: The Drive to Destruct Stars"
+        info: "QTE: Triggered when an enemy is Time-Slowed, frozen, or a teammate casts
+          Weapon Active. Deals 5 x #1[f1]% ATK of Ice DMG and unlocks a mecha
+          weapon."
+        brief: "QTE: Triggered when an enemy is Time-Slowed, frozen, or a teammate casts
+          Weapon Active. Deals Ice DMG and unlocks a mecha weapon."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "8302"
+        name: Corrupted Barrage
+        info: "Triggers #1[f1]s global Time Fracture when casting Weapon Active in
+          Continuation form."
+        brief: Triggers global Time Fracture when casting Weapon Active in Continuation
+          form.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: sss
+      - id: "8303"
+        name: "Silverwing: Beyond Eras"
+        info: Project Bunny will help attack when on the field.
+        brief: Project Bunny will help attack when on the field.
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "832"
+    name: "<color=#FFC741FF>Combo</color>: Chariot of Nizhny Tagil"
+    info: "Use a powerful attack that corresponds to the Herrscher
+      Form.\\n<color=#23B2E4FF>Extremum form: hold [ATK] after Basic ATK SEQ 4
+      or QTE, or tap [ATK] after Vector Calculus to pull back and deal 4 x 40%
+      ATK of Ice DMG. Project Bunny will attack in unison to deal 3 x 80% ATK of
+      Ice DMG, then pull enemies and deal 2 x 280% ATK of Ice DMG. This attack
+      unlocks a mecha weapon on hit. You can switch characters during Combo ATK
+      and Herrscher of Truth will stay on the field until it
+      ends.\\nContinuation form: Consume 100 Mech Propulsion to fire a rifle
+      that deals 400% ATK of Ice DMG, along with 2 lasers dealing 50% ATK of Ice
+      DMG, induce global Time Fracture for 2s, lock onto 10 enemies at most, and
+      fire 2 missiles and 1 laser at each enemy. Each missile deals 100% ATK of
+      Ice DMG and each laser deals 40% ATK of Ice DMG, totaling 240% ATK of Ice
+      DMG. If fewer than 4 enemies are present, lock onto each enemy 1 more
+      time. Combo ATK ends with a large explosion that deals 600% ATK of Ice
+      DMG.\\nIn Continuation form, casting Combo ATK grants her [Echo of the
+      World], which increases Ice DMG by 30% for 18s. Triggering it again
+      refreshes its duration.\\nIn Continuation form with hover guns unlocked,
+      casting Combo ATK will summon 4 hover guns (summoned entity) that deal 18%
+      ATK of Ice DMG per attack.</color>"
+    icon: Skill_Bronya_C12_GB_832
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8304"
+        name: Forsaken Inscription
+        info: "Switching out Herrscher of Truth will consume [Echo of the World] to make
+          all team members deal #1[f1]% more Fire and Lightning DMG and all
+          enemies receive #2[f1]% more Fire and Lightning DMG for 18s.
+          Triggering it again refreshes its duration."
+        brief: Switching out Herrscher of Truth will consume [Echo of the World] to make
+          all team members deal more Fire and Lightning DMG and all enemies
+          receive more Fire and Lightning DMG. Triggering it again refreshes its
+          duration.
+        icon: Skill_Nagative_Skill03
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8305"
+        name: Icy Crosshair
+        info: In Continuation form, if Combo ATK hits an IMG-type Nihilus Seed whose
+          current phase has below 20% HP, this phase is insta-killed.
+        brief: In Continuation form, if Combo ATK hits an IMG-type Nihilus Seed whose
+          current phase has below 20% HP, this phase is insta-killed.
+        icon: Skill_Nagative_Skill01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8306"
+        name: Blue Invitation
+        info: "In Continuation form, after consuming Mech Propulsion once, each Ultimate
+          sequence will deal additional #1[f1]% ATK of Ice DMG. Stacks up to two
+          times, resets after exiting Continuation form."
+        brief: In Continuation form, after consuming Mech Propulsion once, each Ultimate
+          sequence will deal additional Ice DMG. Stacks up to two times, resets
+          after exiting Continuation form.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "833"
+    name: Snowy Bunny's Exploits
+    info: "Quickly dodge attacks. Can be performed twice in a
+      row.\\n<color=#23B2E5FF>After triggering Ultimate Evasion in Extremum
+      form, tap [ATK] to connect into Basic ATK SEQ 4. After which, hold [ATK]
+      to cast Combo ATK. Extremum form Evasion skill: Tap [ATK] to cast Vector
+      Calculus that deals 500% ATK of Ice DMG, unlocks a mecha weapon on hit,
+      induces global Time Fracture for 3s, and increases Ignore Interrupt for
+      5s. CD: 12s.\\nIn Continuation form with mecha weapon missiles unlocked,
+      tapping [EVA] will also fire 8 missiles that each deal 10% ATK of Ice DMG.
+      Continuation form Evasion skill: Restores 20 Mech Propulsion and fires 8
+      missiles. If mecha weapon missiles are unlocked, fire 28 missiles instead.
+      CD: 18s.</color>"
+    icon: Skill_Bronya_C12_GB_833
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8307"
+        name: Righteous Steel
+        info: "In Continuation form, the missile launch triggered by Ultimate Evasion
+          Skill deals additional #1[f1]% ATK of Ice DMG, and each missile deals
+          #2[f1]% more Total DMG."
+        brief: In Continuation form, the missile launch triggered by Ultimate Evasion
+          Skill deals additional Ice DMG, and each missile deals more Total DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.01
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.014
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8308"
+        name: Astral Singularity
+        info: "In Continuation form, non-Ultimate Evasion can also trigger Ultimate
+          Evasion Skill. Triggering Ultimate Evasion restores #1[f1] HP to all
+          team members."
+        brief: In Continuation form, non-Ultimate Evasion can also trigger Ultimate
+          Evasion Skill. Triggering Ultimate Evasion restores HP to all team
+          members.
+        icon: Skill_Nagative_Survive02
+        maxLv: 11
+        paramBase1: 200
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 20
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8309"
+        name: Legacy of Sacrifice
+        info: "For every Fire DMG dealer on the team, Herrscher of Truth's initial SP
+          increases by #1[f1]. Can stack twice. In Open World, can be triggered
+          every 10 min."
+        brief: For every Fire DMG dealer on the team, Herrscher of Truth's initial SP
+          increases in combat. Can stack twice. In Open World, can be triggered
+          every 10 min.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 10
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "834"
+    name: Narrative of Infinite Truth
+    info: "Uses the primary cannon to bombard enemies.\\n<color=#23B2E6FF>In
+      Extremum form, tap [ULT] to cast Salvo and transform into Continuation
+      form. Deals 800% ATK of Ice DMG to nearby enemies, which restores 20 SP on
+      hit, induces global Time Fracture for 2s (registered as Continuation form
+      Combo ATK). CD: 15s (unaffected by CD reduction). Salvo only happens once
+      as she will enter Continuation form by Return Brake afterward. Deals 350%
+      ATK of Ice DMG to nearby enemies. CD: 15s (unaffected by CD
+      reduction).\\nIn Continuation form, tap [ULT] to cast Ultimate that deals
+      10 x 100% ATK of Ice DMG to all enemies, during which Time-frozen Domain
+      is triggered to pause all skill timers and the stage timer.\\nSP: 125. CD:
+      30s. Entering Continuation form refreshes Ultimate CD.\\nWith Herrscher of
+      Finality and Herrscher of Origin on the same team, Ultimate is replaced
+      with Joint Bursting.\\nJoint Bursting deals 400% ATK of Ice DMG, removes
+      the switch CD of Herrscher of Finality, and triggers Herrscher of
+      Finality's special QTE ATK.\\nJoint Bursting's SP cost: 75. CD: 15s
+      (unaffected by CDR). </color>"
+    icon: Skill_Bronya_C12_GB_834
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8310"
+        name: Call of Fading Echoes
+        info: "In Continuation form, gain #1[f1]% Elemental Breach."
+        brief: In Continuation form, gain Elemental Breach.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.08
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8311"
+        name: The Interpretation of Freedom
+        info: "When Salvo hits, Herrscher of Truth restores #1[f1] bonus SP."
+        brief: When Salvo hits, recover extra SP.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 20
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "8312"
+        name: Devouring Vision
+        info: "After casting Ultimate, all Fire and Lightning DMG dealers on the team
+          gain #1[f1]% Elemental Breach for #2[f1]s."
+        brief: After casting Ultimate, all Fire and Lightning DMG dealers on the team
+          gain Elemental Breach.
+        icon: Skill_Nagative_Skill03
+        maxLv: 11
+        paramBase1: 0.07
+        paramBase2: 16
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "835"
+    name: "Name of the Day: World"
+    info: "Leader Bonus:\\n<color=#23B2E7FF>{{All team members deal #1[f1]% more
+      Elemental DMG: For every non-Bronya battlesuit on the team, enemies
+      receive #2[f1]% more Ice DMG from Herrscher of Truth in Continuation form
+      (independent effect).}}</color>"
+    icon: Skill_Bronya_C12_GB_835
+    skillType: leader
+    tags: []
+    paramSubId1: 8313
+    paramSubId2: 8313
+    paramSubId3: 0
+    subSkills:
+      - id: "8313"
+        name: Concept of Civilization
+        info: "All team members deal #1[f1]% more Elemental DMG. For every non-Bronya
+          battlesuit on the team, enemies receive #2[f1]% more Ice DMG from
+          Herrscher of Truth in Continuation form (independent effect)."
+        brief: All team members deal more Elemental DMG. For every non-Bronya battlesuit
+          on the team, enemies receive more Ice DMG from Herrscher of Truth in
+          Continuation form (independent effect).
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.3
+        paramBase2: 0.06
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8314"
+        name: Cluster of Brilliance
+        info: "When the character triggers Joint Bursting with Devouring Vision
+          unlocked, it will be triggered simultaneously, making all enemies take
+          #1[f1]% more Elemental DMG for 16s."
+        brief: When the character triggers Joint Bursting, all enemies will take more
+          Elemental DMG.
+        icon: Skill_Nagative_Skill02
+        maxLv: 3
+        paramBase1: 0.04
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "836"
+    name: Dimensional Resonance Drive
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E8FF>Herrscher of
+      Truth will battle together with Project Bunny (summoned entity). Project
+      Bunny will fire a machine gun initially, dealing 6 x 18% ATK of Ice
+      DMG.\\nIn Extremum form, Herrscher of Truth can unlock missiles, lasers,
+      and hover guns in order. After unlocking missiles, Project Bunny's attacks
+      will be accompanied by missiles that deal 4 x 15% ATK of Ice DMG. After
+      unlocking lasers, machine gun bullets will be replaced by lasers that deal
+      3 x 40% ATK of Ice DMG. After unlocking hover guns, lasers will be
+      upgraded into power lasers that deal 3 x 45% ATK of Ice
+      DMG.\\nContinuation form lasts 20s, during which Herrscher of Truth has
+      higher Ignore Interrupt and faster Move Speed, and receives 80% less Total
+      DMG. She also gains different buffs according to what weapons are
+      unlocked. She has a Mech Propulsion meter that maxes out at
+      100.\\nExtremum form and Continuation form are both Herrscher
+      forms.\\nEquip a heavy weapon to use this weapon active in Extremum
+      form:\\nTap [Weapon] to deal 850% ATK of Ice DMG to locked-on enemies. CD:
+      14s.\\nEquip a heavy weapon to use this weapon active in Continuation
+      form:\\nHold [Weapon] to fire continuous lasers that each deal 35% ATK of
+      Ice DMG. CD: 16s. After unlocking lasers, holding [Weapon] will fire 2
+      extra lasers that each deal 20% ATK of Ice DMG for each laser fired
+      originally. Upon finishing, an explosion occurs to deal 150% ATK of Ice
+      DMG to nearby enemies. After unlocking Hover Gun, with Hover Gun summoned,
+      Hover Gun will fire lasers alongside Weapon Active. Each laser deals 15%
+      ATK of Ice DMG.\\nWhen Herrscher of Truth exits battle or Continuation
+      form ends, the mecha will ram into enemies and generate a black hole that
+      pulls enemies temporarily and deals 100% ATK of Ice DMG. Project Bunny
+      will reappear next to the Herrscher of Truth and reset mecha weapon
+      unlocks.</color>"
+    icon: Skill_Bronya_C12_GB_836
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8316"
+        name: Proxy Protocol
+        info: "Casting weapon active increases Ice DMG by #1[f1]% for 18s. Triggering it
+          again refreshes its duration. In Extremum form, it restores an extra
+          #2[f1] SP."
+        brief: Casting weapon active increases Ice DMG for a while. Triggering it again
+          refreshes its duration. In Extremum form, it restores extra SP.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.15
+        paramBase2: 4
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0.4
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+      - id: "8317"
+        name: Cyberangel Engine
+        info: "For unlocking a mecha weapon, Herrscher of Truth recovers 4 SP. With
+          1/2/3 mecha weapon(s) unlocked, Continuation form deals
+          #1[f1]%/#2[f1]%/#3[f1]% more Total DMG and exiting in this form
+          restores 4/10/18 SP to all team members."
+        brief: For unlocking a mecha weapon, Herrscher of Truth recovers SP. With 1/2/3
+          mecha weapon(s) unlocked, Continuation form deals increasingly more
+          Total DMG and exiting in this form restores increasingly more SP to
+          all team members.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 0.05
+        paramBase2: 0.1
+        paramBase3: 0.2
+        paramAdd1: 0.005
+        paramAdd2: 0.01
+        paramAdd3: 0.025
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8318"
+        name: Creation of the Unknown
+        info: "When Project Bunny and Project Bunny Mecha are present, Herrscher of
+          Truth recovers 0.5 SP per second, and Valkyries on the field enjoy
+          [Name of the Truth], which increases their Elemental DMG by #1[f1]%
+          and Basic ATK (including Combo and Charged) DMG by an additional
+          #2[f1]%."
+        brief: When Project Bunny and Project Bunny Mecha are present, Herrscher of
+          Truth recovers SP, and Valkyries on the field enjoy [Name of the
+          Truth], which increases their Elemental DMG and Basic ATK (including
+          Combo and Charged) DMG.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 0.05
+        paramBase2: 0.09
+        paramBase3: 0
+        paramAdd1: 0.005
+        paramAdd2: 0.009
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

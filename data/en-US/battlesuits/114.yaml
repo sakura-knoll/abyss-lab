@@ -1,0 +1,389 @@
+id: "114"
+fullName: Sündenjäger
+shortName: Sündenjäger
+desc: <color=white>Features:</color> <color=#2CE3FFFF>MECH-type</color>
+  <color=#2CE3FFFF>Awakened</color> ranged battlesuit. Skilled in dealing
+  continuous DMG to the enemy.
+firstName: Kallen
+lastName: Kaslana
+enFirstName: null
+enLastName: null
+attributeType: mech
+isEasterner: false
+weapon: pistols
+character: kallen
+initialStar: a
+tags:
+  - physical-dmg
+  - impair
+  - fast-atk
+skills:
+  - id: "351"
+    name: Nocturnal Cantata
+    info: "Activates Sturmgeschütz attack after the 3 Basic ATK sequences.\\nThe
+      direction of Sturmgeschütz can be controlled using the
+      joystick.\\n<color=#23B2E2FF>1st Sequence: 2x40% ATK of Physical
+      DMG.\\n2nd Sequence: 2x40% ATK of Physical DMG.\\n3rd Sequence: 2x50% ATK
+      of Physical DMG.\\nSturmgeschütz: Deals 4x50% ATK of Physical DMG and
+      impairs the targets (if not yet impaired), reducing their DEF by 50% for
+      10s.\\nSturmgeschütz deals 100%x2 ATK of Physical DMG against all enemies
+      with a Hunted Brand within a 10m range. If there are no more than 3
+      enemies on the battlefield, Sturmgeschütz will deal 200%x2 ATK of Physical
+      DMG instead.</color>"
+    icon: Skill_Kallen_JK_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3501"
+        name: Sin Stalker
+        info: "During the 3rd sequence of Basic ATK and Sturmgeschütz, the Valkyrie
+          gains Iron Body and takes #1[f1]% less Physical and Elemental DMG."
+        brief: 3rd sequence of Basic ATK and Sturmgeschütz gives Iron Body for Physical
+          DMG reduction.
+        icon: Skill_Nagative_Skill01
+        maxLv: 10
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05556
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3502"
+        name: Sanguine Feast
+        info: "Each time Sturmgeschütz is activated, the Valkyrie's Basic ATKs and
+          Ultimate ATKs gain #1[f2]% Total DMG for 13s. Effect can be stacked up
+          to 6 times. Triggering this effect again resets the duration. The
+          Valkyrie loses 2 stacks of said buff effect when attacked outside the
+          skill duration of Sturmgeschütz or Ultimate."
+        brief: "Each Sturmgeschütz buffs Basic and Ultimate ATK DMG. Max stacks: 6. Lose
+          2 stacks if character is hit outside Sturmgeschütz or Ultimate."
+        icon: Skill_Nagative_Damage03
+        maxLv: 8
+        paramBase1: 0.03
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00714
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3503"
+        name: "<color=#FFC741FF>QTE</color>: Erosive Pride"
+        info: "<size=14>QTE: Triggered when enemy is knocked airborne or shield break.
+          Deals 7x#1[i]% ATK of Physical DMG to nearby enemies and gain 1 stack
+          of Sanguine Feast buff. Tap the [ATK] button within 3s after using QTE
+          to unleash Sturmgeschütz.</size>"
+        brief: "QTE: Triggered when an enemy is knocked airborne or upon shield break to
+          deal Physical DMG to enemies nearby and restore 1 stack of Sanguine
+          Feast. Can be directly connected into Sturmgeschütz."
+        icon: Skill_Nagative_StartUp01
+        maxLv: 10
+        paramBase1: 0.45
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.10556
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+  - id: "352"
+    name: "<color=#FFC741FF>Combo</color>: Purifier's Brand"
+    info: "Unleash a powerful shot after the 1st sequence of Basic
+      ATK:\\n<color=#23B2E2FF>Power Shot: 300% ATK of Physical DMG against
+      targets along a straight line; targets hit will be marked with a Hunted
+      Brand for 13s.</color>"
+    icon: Skill_Kallen_JK_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3504"
+        name: Heart of Rage
+        info: "Deal #1[f1]% more DMG against shields."
+        brief: Deal more DMG against shields.
+        icon: Skill_Nagative_Damage01
+        maxLv: 8
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02857
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "3505"
+        name: Feast of Mammon
+        info: "In Holy Salve, Basic ATK has a #1[f1]% chance to inflict
+          <color=#FEDF4CFF>3 Ignite Trauma</color> on a non-ignited enemy."
+        brief: In Holy Salve, attacks may inflict Ignite Trauma.
+        icon: Skill_Nagative_Skill02
+        maxLv: 10
+        paramBase1: 0.04
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.00778
+        paramAdd2: 0.02222
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3506"
+        name: Ward of Sloth
+        info: "When exiting with Holy Salve active, slows ATK Speed and Move Speed of
+          nearby enemies by 80% and weakens them to make them deal #1[i]% less
+          Total DMG. Effect lasts 4s."
+        brief: When exiting with Holy Salve, inflict Attack Slow, Move Slow, and Weaken
+          on nearby enemies.
+        icon: Skill_Nagative_Survive01
+        maxLv: 40
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01282
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "353"
+    name: Kindred's Feint
+    info: "Quickly evade enemy attacks. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Shadow: Upon performing an Ultimate Evasion, deals
+      200% ATK of Physical DMG against nearby enemies and inflicts a 13s Hunted
+      Brand.\\nHoly Brand: Gained upon an Ultimate Evasion, boosting Physical
+      DMG by 15% for 10s; CD: 15s\\nFollow-up: Tap [ATK] within 3s after an
+      Ultimate Evasion to immediately cast Sturmgeschütz.\\n</color>"
+    icon: Skill_Kallen_JK_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3507"
+        name: Phantom Walk
+        info: "After evasion or switch entry, character takes #1[f1]% less Physical and
+          Elemental DMG for #2[f1]s. CD: 15s."
+        brief: Evasion or switch entry gives DMG Reduction.
+        icon: Skill_Nagative_Survive03
+        maxLv: 30
+        paramBase1: 0.1
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.0069
+        paramAdd2: 0.10345
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3508"
+        name: Lucid Strike
+        info: "After Ultimate Evasion, character's Physical DMG skill effects gain
+          #1[f1]%."
+        brief: Ultimate Evasion gives a Physical DMG buff.
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 0.16
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01556
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3509"
+        name: Reach of Desire
+        info: "Shortens CD of Ultimate Evasion by #1[f2]s. Restores #2[f1] HP upon a
+          successful Ultimate Evasion. If current HP is below 50%, additionally
+          restores #3[f1] HP. Healing effect CD: 5s"
+        brief: Shortens CD of Ultimate Evasion. Ultimate Evasion heals HP, and gives
+          more healing when below 50% HP.
+        icon: Skill_Nagative_Survive02
+        maxLv: 5
+        paramBase1: 0.5
+        paramBase2: 30
+        paramBase3: 30
+        paramAdd1: 0.375
+        paramAdd2: 10
+        paramAdd3: 10
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "354"
+    name: Barrage Macabre
+    info: "Suit up in a powered battlesuit to unleash raw
+      devastation.\\n<color=#23B2E2FF>Powered Battlesuit: Tap and hold the [ATK]
+      button to continuously attack enemies in front of you.\\nSP cost: 125; CD:
+      30s; Ultimate duration: 10s.\\nAutorifle Attack: deals 50% ATK of Physical
+      DMG and impairs enemies (if not yet impaired), reducing their DEF by 50%
+      for 10s.\\nMissile Attack: deals 50% ATK of Physical DMG.\\nRestructure:
+      During Ultimate, if character HP is below 25% Max HP, then heal 200 HP/s.
+      Character cannot be killed throughout the skill duration, but will also be
+      unable to switch for other characters.</color>"
+    icon: Skill_Kallen_JK_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3510"
+        name: Revelation
+        info: "Summons orbital bombardment attacks (lasts 15s) upon Ultimate activation,
+          dealing #1[i]% ATK of Physical DMG per second and inflicting a 13s
+          Hunted Mark. Effect ceases immediately when the Valkyrie leaves the
+          battlefield."
+        brief: For a period after casting the Ultimate, deal extra ATKs that apply a
+          Hunted Brand on a random enemy.
+        icon: Skill_Nagative_Skill03
+        maxLv: 6
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "3511"
+        name: Brand of Despair
+        info: "Ultimate gains #1[f1]% Total DMG Multiplier against enemies marked by the
+          Hunted Brand."
+        brief: Ultimate gains a Total Damage Multiplier buff against enemies marked by
+          the Hunted Brand.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01111
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3512"
+        name: Sun of Ragnarok
+        info: "Within 15s after casting Ultimate, the Valkyrie deals #1[f1]% ATK of Fire
+          DMG every 0.5s in a large area. The 1st hit inflicts
+          <color=#FEDF4CFF>3 Ignite Trauma</color> and subsequent hits each
+          inflicts <color=#FEDF4CFF>0.3 Ignite Trauma</color>. Exiting removes
+          the effect."
+        brief: Within 15s after casting Ultimate, the Valkyrie continuously inflicts
+          Ignite Trauma in a large area.
+        icon: Skill_Nagative_Damage02
+        maxLv: 4
+        paramBase1: 0.4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.13333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 2
+            comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+              charge rate: medium."
+        toggle: false
+        unlockStar: sss
+  - id: "355"
+    name: Kindred's Link
+    info: "Leader Bonus: <color=#23B2E2FF>Kindred's Link: {{Team gains #1[i]% Move
+      SPD. MECH-type characters gain #2[i]% Attack Speed.}}</color>"
+    icon: Skill_Kallen_JK_005
+    skillType: leader
+    tags: []
+    paramSubId1: 3513
+    paramSubId2: 3513
+    paramSubId3: 0
+    subSkills:
+      - id: "3513"
+        name: Kindred's Link
+        info: "Team gains #1[i]% Move Speed. MECH-type characters gain #2[i]% Attack
+          Speed."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Damage01
+        maxLv: 3
+        paramBase1: 0.15
+        paramBase2: 0.08
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "356"
+    name: Passive
+    info: Character automatically gains passive bonuses.\n<color=#23B2E2FF>Upon
+      performing an Ultimate Evasion, character gains a continuous Holy Brand
+      effect for 60s. If another Ultimate Evasion is triggered during that
+      duration, the mark will be cleared and the character will receive a Holy
+      Salve effect for 10s. If the character's HP is below 30% of max HP, then
+      quickly heal 200 HP/s.</color>
+    icon: Skill_Kallen_JK_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "3514"
+        name: Divine Huntress
+        info: "While Holy Salve effects are active, character gains #1[f1]% DEF."
+        brief: During Holy Salve, character gains a DEF buff.
+        icon: Skill_Nagative_Skill03
+        maxLv: 10
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02778
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "3515"
+        name: Breath of Gluttony
+        info: "Holy Salve gain #1[f1]% Max Healing."
+        brief: Raises max healing of Holy Salve.
+        icon: Skill_Nagative_Survive03
+        maxLv: 20
+        paramBase1: 0.31
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "3516"
+        name: Shade of Envy
+        info: "Against ignited or bleeding enemies, gain #1[f1]% to Total DMG
+          Multiplier."
+        brief: Deal more DMG against ignited or bleeding enemies.
+        icon: Skill_Nagative_Damage02
+        maxLv: 35
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00294
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a

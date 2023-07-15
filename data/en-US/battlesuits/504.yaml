@@ -1,0 +1,372 @@
+id: "504"
+fullName: Celestial Hymn
+shortName: Celestial Hymn
+desc: "<color=white>Features: </color><color=#FFAF2CFF>BIO-type</color>
+  mid-ranged battlesuit that is a perfect offensive support."
+firstName: Theresa
+lastName: Apocalypse
+enFirstName: null
+enLastName: null
+attributeType: bio
+isEasterner: false
+weapon: cross
+character: theresa
+initialStar: s
+tags:
+  - physical-dmg
+  - gather
+  - impair
+  - fast-atk
+skills:
+  - id: "221"
+    name: Celestial Gladius
+    info: "Basic ATK: Mid-range 5-sequence attack with ethereal
+      blades.\\n<color=#23B2E2FF>1st Sequence: 3x40% ATK of Physical DMG.\\n2nd
+      Sequence: 3x40% ATK of Physical DMG.\\n3rd Sequence: 4x40% ATK of Physical
+      DMG.\\n4th Sequence: 2 blades dealing 3x40% ATK of Physical DMG
+      each.\\n5th Sequence: 5x45% ATK of Physical DMG.</color>"
+    icon: Skill_Theresa_JX_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2201"
+        name: Bright Guard
+        info: "Basic ATKs gain #1[f1]% Crit Rate."
+        brief: Basic ATKs gain Crit Rate.
+        icon: Skill_Nagative_Damage01
+        maxLv: 75
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00203
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2202"
+        name: Ablution of Light
+        info: "When Combo Hit Count exceeds 45, hits of the 5-sequence Basic ATK have a
+          #1[f2]% chance to recover #2[f2] SP for the whole team. CD: 1s."
+        brief: When Combo Hit Count exceeds 45, Basic ATK may give SP to the whole team
+          upon hit.
+        icon: Skill_Nagative_Skill02
+        maxLv: 25
+        paramBase1: 0.2
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: 0.00834
+        paramAdd2: 0.04171
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "222"
+    name: "<color=#FFC741FF>Charged</color>: Glorious Smite"
+    info: Charge during the 5-sequence attack to unleash a spinning
+      blade.\n<color=#23B2E2FF>Tap the [ATK] button to charge during a
+      5-sequence Basic ATK or Ultimate to unleash spinning blades after a short
+      charge, dealing 4x20% ATK of Physical DMG to target and its surrounding
+      enemies, and also impairing them, decreasing their DEF by 50% for
+      3s.</color>
+    icon: Skill_Theresa_JX_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2203"
+        name: Dawn Strike
+        info: "Switch: Unleashes cross swords, dealing 4x#1[f1]% ATK of Physical DMG."
+        brief: "Switch: Unleashes cross swords, dealing DMG to enemies at mid-range."
+        icon: Skill_Nagative_StartUp01
+        maxLv: 20
+        paramBase1: 0.4
+        paramBase2: 48
+        paramBase3: 0
+        paramAdd1: 0.01842
+        paramAdd2: 5.89474
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2204"
+        name: Benevolent Encounter
+        info: "Extends duration of the Charged ATK impair effect by #1[f2]s."
+        brief: Extends duration of the Charged ATK impair effect.
+        icon: Skill_Nagative_Skill02
+        maxLv: 35
+        paramBase1: 2.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04412
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2205"
+        name: "<color=#FFC741FF>QTE</color>: Torrent of Swords"
+        info: "QTE: Triggered when enemy is affected by Time Slow. Deals 5x#1[f1]% ATK
+          of Physical DMG and impairs enemy, reducing its DEF by 50% for
+          #2[f2]s."
+        brief: "QTE: Triggered when an enemy is Time Slowed to launch a rain of swords
+          and impair enemies."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 27
+        paramBase1: 1.5
+        paramBase2: 4
+        paramBase3: 0
+        paramAdd1: 0.03846
+        paramAdd2: 0.11538
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "223"
+    name: Evangelist
+    info: "Quick sideways dodge to evade enemy attack. Can be triggered 2 times in a
+      row.\\n<color=#23B2E2FF>After Ultimate Evasion, tap the button within a
+      short duration to directly unleash a charged attack\\nBlade Barrier: Equip
+      the whole team with 1 stack of blade barrier, greatly increasing Ignore
+      Interrupt, and causes 30% ATK of Physical DMG every 0.4s for 5s. CD:
+      20s.</color>"
+    icon: Skill_Theresa_JX_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2206"
+        name: Divine Protection
+        info: "When exiting, directly consumes an evasion attempt to grant a Blade
+          Barrier to the whole team. Blade Barrier reduces #1[f1]% Total DMG
+          taken."
+        brief: When exiting, consume an evasion attempt to grant a Blade Barrier to the
+          whole team. Blade Barriers can reduce the DMG taken.
+        icon: Skill_Nagative_Damage02
+        maxLv: 45
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00682
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "2207"
+        name: Divine Wisdom
+        info: "Shortens CD of Blade Barrier by #1[f2]s."
+        brief: Shortens CD of Blade Barrier.
+        icon: Skill_Nagative_Survive01
+        maxLv: 35
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05882
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2208"
+        name: Divine Smite
+        info: "Each hit of the Blade Barrier additionally deals Physical DMG equal to
+          #1[f1]% of the Base ATK of the Valkyrie protected by the Blade
+          Barrier."
+        brief: Blade Barrier deals higher DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 30
+        paramBase1: 0.15
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.00866
+        paramAdd2: 0.10345
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s1
+  - id: "224"
+    name: Celestial Judgment
+    info: "Summons the Ultimate Blade Array, pulling in enemies to eviscerate
+      them.\\n<color=#23B2E2FF>When activated, creates a black hole lasting 3s,
+      pulling enemies towards the center and slashing them with blades for an
+      extended duration to deal 50x40% ATK of Physical DMG.\\nSP Cost:
+      125</color>"
+    icon: Skill_Theresa_JX_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2209"
+        name: Justice Rhythm
+        info: "When the ultimate Black Hole ends, affected enemies are impaired,
+          reducing their DEF by #1[f1]% for #2[f2]s."
+        brief: Impair the enemies when Ultimate ends.
+        icon: Skill_Nagative_Skill02
+        maxLv: 18
+        paramBase1: 0.5
+        paramBase2: 5
+        paramBase3: 0
+        paramAdd1: 0.01471
+        paramAdd2: 0.29418
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2210"
+        name: Crossing Harmony
+        info: "Enhances the Ultimate and QTE. Each hit gains #1[f1]% ATK of Physical
+          DMG. QTE deals #2[i]% more DMG against shields."
+        brief: Ultimate deals more DMG. QTE deals more DMG against shields.
+        icon: Skill_Nagative_Damage03
+        maxLv: 20
+        paramBase1: 0.05
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.01316
+        paramAdd2: 0.01579
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "2211"
+        name: Celestial Verdict
+        info: "Enemies affected by the ultimate Black Hole have their Attack Speed
+          slowed by #1[f1]%, and receive #2[i] Ice DMG every 0.4s."
+        brief: Enemies affected by the Black Hole have their Attack Speed slowed, and
+          receive continuous Ice DMG.
+        icon: Skill_Nagative_Control03
+        maxLv: 15
+        paramBase1: 0.4
+        paramBase2: 400
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 42.92857
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "225"
+    name: Sacred Arias
+    info: "Leader Bonus: <color=#23B2E2FF>Revelation: {{Team gains #1[f1]% Max SP in
+      battle. Teams with 3 BIO-type characters gain #2[f1]% Physical
+      DMG.}}</color>"
+    icon: Skill_Theresa_YD_005
+    skillType: leader
+    tags: []
+    paramSubId1: 2212
+    paramSubId2: 2212
+    paramSubId3: 0
+    subSkills:
+      - id: "2212"
+        name: Revelation
+        info: "Team gains #1[f1]% Max SP in battle. Team formed by 3 BIO-type
+          battlesuits gains #2[f1]% Physical DMG."
+        brief: Gains Max SP in battle. If the team has 3 BIO-type characters, gains DMG.
+        icon: Skill_Nagative_Skill03
+        maxLv: 2
+        paramBase1: 0.16
+        paramBase2: 0.24
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0.04
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+      - id: "2216"
+        name: Blissful Hymn
+        info: "Ultimate & QTE deal #1[f1]% more Total DMG."
+        brief: Ultimate & QTE deal more DMG.
+        icon: Skill_Nagative_Skill03
+        maxLv: 2
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+      - id: "2217"
+        name: Divine Justice
+        info: "QTE deals #1[f1]% more DMG to shields."
+        brief: QTE deals more DMG to shields.
+        icon: Skill_Nagative_Skill03
+        maxLv: 1
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss2
+  - id: "226"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF></color>
+    icon: Skill_Theresa_YD_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2213"
+        name: "World's #1 Cutie"
+        info: "Gain #1[f1] initial SP in battle. This bonus triggers once every 10
+          minutes in Open World."
+        brief: Start battle with more SP. This bonus triggers once every 10 minutes in
+          Open World.
+        icon: Skill_Nagative_Survive02
+        maxLv: 31
+        paramBase1: 15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.70033
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2214"
+        name: Holy Dirge
+        info: "Team gains #1[f1]% Crit DMG against impaired enemies."
+        brief: Team gains Crit DMG against impaired enemies.
+        icon: Skill_Nagative_Damage02
+        maxLv: 18
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00882
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2215"
+        name: Psalms of Life
+        info: "When cross is deployed, team gains #1[f1]% Physical DMG for #2[f2]s."
+        brief: When cross is deployed, team gains DMG for a short period.
+        icon: Skill_Nagative_Damage03
+        maxLv: 20
+        paramBase1: 0.12
+        paramBase2: 4
+        paramBase3: 0
+        paramAdd1: 0.00685
+        paramAdd2: 0.18421
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

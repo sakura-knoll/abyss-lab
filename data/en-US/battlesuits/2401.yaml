@@ -1,0 +1,386 @@
+id: "2401"
+fullName: Midnight Absinthe
+shortName: Midnight Absinthe
+desc: "<color=white>Features: </color><color=#F3DFAEFF>IMG-type</color> ranged
+  battlesuit. Uses a bow and arrow to shoot at enemies. Recovering Feathers
+  grants enhancements."
+firstName: Natasha
+lastName: Cioara
+enFirstName: null
+enLastName: null
+attributeType: img
+isEasterner: false
+weapon: bow
+character: raven
+initialStar: a
+tags:
+  - fire-dmg
+  - time-mastery
+skills:
+  - id: "701"
+    name: Silenced Flechette
+    info: "Use a bow to shoot enemies.\\n<color=#23B2E2FF> SEQ 1: 3 Feather Arrows,
+      each dealing 20% ATK of Fire DMG.\\nSEQ 2: 2 hits, dealing 50% + 70% ATK
+      of Fire DMG.\\nSEQ 3: 3 hits, dealing 40% + 40% + 200% ATK of Fire
+      DMG.\\nSEQ 4: 4 Feather Arrows, each dealing 70% ATK of Fire DMG.\\nSEQ 5:
+      5 Feather Arrows, each dealing 50% ATK of Fire DMG and inflicting minor
+      Ignite Trauma.\\nFeather Arrows shot from the bow will remain on the
+      field. Only 20 Feather Arrows/Feather Blades/Feathers can remain on the
+      field at once.</color>"
+    icon: Skill_Raven_DC_001
+    skillType: basic
+    tags:
+      - type: ignite
+        strength: 1
+        comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+          charge rate: very weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7001"
+        name: Angel Face
+        info: "When Feather Arrows/Feather Blades/Feathers are present, team deals
+          #1[f1]% bonus Fire DMG."
+        brief: When Feather Arrows/Feather Blades/Feathers are present, team deals bonus
+          Fire DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 21
+        paramBase1: 0.12
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0065
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "7002"
+        name: Pink Lady
+        info: "When [Night Roamer] is active, Total DMG taken is reduced by 30%. When
+          there are full stacks of [Night Roamer], Total DMG taken is further
+          reduced by 30%, and Fire DMG dealt is increased by #1[f1]%. 2
+          additional ATKs can be dealt after Basic ATK's 5th sequence."
+        brief: "[Night Roamer] reduces Total DMG taken. When there are 2 stacks, Total
+          DMG taken is further reduced, and Fire DMG dealt is boosted.
+          Additional strikes are added to Basic ATK."
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 0.08
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00778
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7003"
+        name: "<color=#FFC741FF>QTE</color>: Black Tulip"
+        info: "QTE is triggered when Enemies are Time Slowed. Deals #1[f1]% ATK of Fire
+          DMG. QTE leaves 6 Feather Blades on the field."
+        brief: Triggered by Time-Slowed enemies.
+        icon: Skill_Nagative_Skill01
+        maxLv: 11
+        paramBase1: 4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.4
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+  - id: "702"
+    name: "<color=#FFC741FF>Charged</color>: Heartpiercer"
+    info: "Hold [ATK] to release Charged ATK \\n<color=#23B2E2FF>Hold [ATK]:
+      Triggers Charged ATK\\nShoots 6 Feather Blades in all directions, each
+      dealing 20% ATK of Fire DMG. \\nThen deals 250% ATK of Fire DMG to
+      surrounding enemies, and temporarily pulls in enemies in front of her.
+      Also gathers all Feather Arrows/Feather Blades/Feathers on the battlefield
+      and earns a corresponding number of [Night Roamer] Enhancement
+      stacks.\\nTap [ATK] immediately after using Charged ATK to connect to
+      Basic ATK's 5th sequence.</color>"
+    icon: Skill_Raven_DC_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7004"
+        name: Bird of Prey
+        info: "When performing Charged ATK, take #1[f1]% less Total DMG."
+        brief: When performing Charged ATK, take less Total DMG.
+        icon: Skill_Nagative_Survive02
+        maxLv: 21
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "7005"
+        name: Stinger
+        info: "On hit, Charged ATKs boost Total DMG by #1[f1]% for 10s. Can be refreshed
+          repeatedly."
+        brief: Charged ATKs boost Total DMG On hit.
+        icon: Skill_Nagative_Damage01
+        maxLv: 21
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "7006"
+        name: Mockingbird
+        info: "When charge recovery hits enemies, if 15 or more Feather Arrows/Feather
+          Blades/Feathers are recovered, restores #1[f1] SP. CD: 2s."
+        brief: If more than 15 Feather Arrows/Feather Blades/Feathers are recovered,
+          some SP is restored.
+        icon: Skill_Nagative_Skill02
+        maxLv: 16
+        paramBase1: 6
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.4
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "703"
+    name: Enchanting Requiem
+    info: "Evade enemy attacks up to twice in a row. \\n<color=#23B2E2FF>Ultimate
+      Evasion: Trigger Global Time Fracture for 3s. CD: 15s. \\nTap [ATK]
+      immediately after Ultimate Evasion to connect to Basic ATK's 3rd
+      Sequence.</color>"
+    icon: Skill_Raven_DC_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7010"
+        name: London Fog
+        info: "A [Bounty Coin] will drop when an enemy is killed. Picking it up restores
+          #1[f1] HP to the Valkyrie (only effective for Midnight Absinthe)."
+        brief: Killing enemies drops Bounty Coins. Picking them up restores HP.
+        icon: Skill_Nagative_Survive02
+        maxLv: 3
+        paramBase1: 20
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 15
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "7011"
+        name: Mojito
+        info: "CD of Ultimate Evasion skill is #1[f1]s shorter."
+        brief: Ultimate Evasion skill has shortened CD.
+        icon: Skill_Nagative_Survive02
+        maxLv: 16
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.13333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "7012"
+        name: Golden Dream
+        info: "When Ultimate Evasion Skill is triggered, deals #2[f1]% ATK of Fire DMG
+          to surrounding enemies and boosts Move Speed by #1[f1]%. Lasts for
+          3s."
+        brief: When Ultimate Evasion Skill is triggered, deals Fire DMG to surrounding
+          enemies and boosts Move Speed.
+        icon: Skill_Nagative_Survive03
+        maxLv: 16
+        paramBase1: 0.08
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.00467
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "704"
+    name: Nightbird's Call
+    info: "Fire a powerful shot at enemies after unleashing a multi-sequence ATK.
+      \\n<color=#23B2E2FF>Midnight Absinthe hides in the flock of crows, and
+      quickly launches an assault that deals 6 x 150% ATK of Fire DMG to
+      enemies. \\nThen shoots an arrow at the ground that deals 300% ATK of Fire
+      DMG to the target and then explodes dealing 700% ATK of Fire DMG to
+      surrounding enemies. Clears all [Night Roamer] stacks, and simultaneously
+      creates a cloud of smoke over the battlefield that lasts for 18s. \\nWhen
+      enemies in the smoke take DMG from her teammates' ATKs or her own Weapon
+      Skills, an explosion that deals 600% ATK of Fire DMG will be triggered
+      with a 1s delay. This DMG counts as Midnight Absinthe's Ultimate DMG.
+      \\nCD: 4s. \\n\\nActivation cost: 100 SP. CD: 20s.</color>"
+    icon: Skill_Raven_DC_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7007"
+        name: Paradise
+        info: "Enemies affected by the smoke take #1[f1]% more Fire DMG. Lasts for 18s."
+        brief: Enemies affected by the smoke take more Fire DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 21
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0125
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7008"
+        name: Midnight Kiss
+        info: "When enemies in the smoke are hit by Combo/Charged/Ultimate ATKs, a fire
+          is sparked that deals #1[f1]% ATK of Fire DMG per second for 5
+          seconds. Triggering it again resets the duration."
+        brief: When enemies in the smoke are hit by Combo/Charged/Ultimate ATKs, a fire
+          is sparked.
+        icon: Skill_Nagative_Damage02
+        maxLv: 15
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "7016"
+        name: Last Word
+        info: "Ultimate boosts team Fire DMG by #1[f1]% for 18s."
+        brief: Ultimate boosts team Fire DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 21
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "705"
+    name: Midnight Gathering
+    info: "Leader Bonus:\\n<color=#23B2E2FF>{{Boosts team's Ultimate Fire DMG by
+      #1[f1]% as well as increasing the team's Max HP by #2[f1]%. }}</color>"
+    icon: Skill_Raven_DC_005
+    skillType: leader
+    tags: []
+    paramSubId1: 7009
+    paramSubId2: 7009
+    paramSubId3: 0
+    subSkills:
+      - id: "7009"
+        name: Midnight Gathering
+        info: "Team's Ultimate Fire DMG increased by #1[f1]%. Team's Max HP increased by
+          #2[f1]%."
+        brief: Team's Ultimate Fire DMG increased. Team's Max HP increased.
+        icon: Skill_Nagative_Survive01
+        maxLv: 3
+        paramBase1: 0.12
+        paramBase2: 0.12
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0.015
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "706"
+    name: Ominous Wings
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E2FF>Balanced bow
+      wielder who has up to 2 shooting chances. \\nOne is restored every 10s if
+      less than 2 remain. \\nCorrected modifier of normal shooting: 100%
+      \\nCorrected modifier of aimed shooting: 100%\\n\\nWhen she picks up
+      Feather Arrows/Feather Blades/Feathers on the battlefield, gain [Night
+      Roamer] stacks (up to 20). Lasts for 10s. Repeatedly gaining stacks
+      extends and refreshes the duration. \\n10 stack bonus: Deal 10% bonus Fire
+      DMG. \\n15 stack bonus: Deal 15% bonus Fire DMG. \\n20 stack bonus: Deal
+      20% bonus Fire DMG.</color>"
+    icon: Skill_Raven_DC_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7013"
+        name: Red Sunrise
+        info: When Weapon Skill hits the weakspot on IMG-type enemy [Nihilus Seed], its
+          current phase will be insta-killed if it has less than 20% HP.
+        brief: When Weapon Skill hits the weakspot on IMG-type enemy [Nihilus Seed], its
+          current phase will be insta-killed if it has low HP.
+        icon: Skill_Nagative_Skill02
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "7014"
+        name: Sea Breeze
+        info: "When teammates hit enemies with Charged/Combo/Ultimate ATKs while
+          Valkyrie is on standby, team's Fire DMG is increased by #1[f1]%. Lasts
+          for #2[f1]s. Generates 3 Feathers that can be collected. CD: 2s."
+        brief: When teammates hit enemies with Charged/Combo/Ultimate ATKs, team's Fire
+          DMG is boosted and Feathers are left on the field.
+        icon: Skill_Nagative_Skill03
+        maxLv: 21
+        paramBase1: 0.1
+        paramBase2: 5
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "7015"
+        name: Sazerac
+        info: "Total DMG dealt by Ultimate and Weapon Skills boosted by #1[f1]%. Hitting
+          an enemy weakspot with an arrow drops 6 Feathers that can be
+          collected."
+        brief: Ultimate and Weapon Skills deal more DMG. Hitting enemy weakspots with an
+          arrow has additional effects.
+        icon: Skill_Nagative_Damage03
+        maxLv: 16
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

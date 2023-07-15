@@ -1,0 +1,397 @@
+id: "602"
+fullName: Shadow Knight
+shortName: Shadow Knight
+desc: "<color=white>Features: </color><color=#2CE3FFFF>MECH-type</color> melee
+  battlesuit with an Eclipse Mode that offer empowered combat skills to deal
+  massive Lightning DMG."
+firstName: Hua
+lastName: Fu
+enFirstName: null
+enLastName: null
+attributeType: mech
+isEasterner: true
+weapon: fists
+character: fuhua
+initialStar: s
+tags:
+  - lightning-dmg
+  - bleed
+  - burst
+  - fast-atk
+  - time-mastery
+skills:
+  - id: "291"
+    name: Wasteland Panther
+    info: "Use The Six Fists for battle.\\n<color=#23B2E2FF>The Six Fists:\\n1st
+      Stance: 90% ATK of Physical DMG.\\n2nd Stance: 90% ATK of Physical
+      DMG.\\n3rd Stance: 90% ATK of Physical DMG.\\n4th Stance: 2x60% ATK of
+      Physical DMG.\\n5th Stance: 2x80% ATK of Physical DMG.\\n6th Stance: 180%
+      ATK of Physical DMG.</color>"
+    icon: Skill_Fuka_NL_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2901"
+        name: Ferocity
+        info: "Each hit of Six Fists deals #1[f1]% ATK of bonus Lightning DMG and
+          inflicts minor Paralyze Trauma. In Eclipse Mode, each hit of Six Fists
+          further deals #2[f1]% ATK of bonus Lightning DMG."
+        brief: Basic ATK gains Lightning DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 51
+        paramBase1: 0.2
+        paramBase2: 0.2
+        paramBase3: 0
+        paramAdd1: 0.006
+        paramAdd2: 0.006
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 1
+            comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+              charge rate: very weak."
+        toggle: false
+        unlockStar: s
+      - id: "2902"
+        name: New Moon
+        info: "<size=14>After the last hit of Ki Riptide, the last 2 hits of Shi-Ki
+          Charged Palm, or for 18s after Shi-Ki Crescent activates Eclipse Mode,
+          every 3rd attack deals #2[f1]% ATK of Lightning DMG in a 3-meter
+          radius. When not in Eclipse Mode, each AOE Lightning DMG dealt
+          recovers #3[f1] SP.</size>"
+        brief: Ki Riptide, Shi-Ki Charged Palm and Shi-Ki Crescent (Eclipse Mode)
+          activate New Moon, with each 3 hits recovering SP upon hit.
+        icon: Skill_Nagative_Damage03
+        maxLv: 21
+        paramBase1: 0
+        paramBase2: 1
+        paramBase3: 1
+        paramAdd1: 0
+        paramAdd2: 0.1
+        paramAdd3: 0.1
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2903"
+        name: Vehemence
+        info: "When Ki Pulverize or Shi-Ki Onslaught hits, temporarily imprison the
+          target and gain a #1[f1]% chance to make the target take #2[i]
+          Lightning DMG every second for 5s."
+        brief: Ki Pulverize and Shi-Ki Onslaught temporarily immobilize the enemy upon
+          hit, dealing Lightning DMG every second for a short period.
+        icon: Skill_Nagative_Skill02
+        maxLv: 21
+        paramBase1: 0.5
+        paramBase2: 200
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 20
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "292"
+    name: "<color=#FFC741FF>Combo</color>: Shadow Dragon"
+    info: "Link Six Fists stances into Combo ATKs.\\n<color=#23B2E2FF>Ki Riptide:
+      140%+180% ATK of Physical DMG.\\nKi Pulverize: 200%+220% ATK of Physical
+      DMG.\\nKi Seismic Slam: 100% ATK of Physical DMG.\\nShi-Ki Crescent: 180%
+      ATK of Physical DMG if not fully charged or if SP is too low to enter
+      Eclipse Mode.</color>"
+    icon: Skill_Fuka_NL_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2904"
+        name: Gale
+        info: "Ki Seismic Slam and Shi-Ki Crescent knock enemies back. Enemies knocked
+          against a wall receive <color=#FEDF4CFF>3 Stun Trauma</color> (CD: 4s)
+          and <color=#FEDF4CFF>3 Bleed Trauma</color>."
+        brief: Ki Seismic Slam and Shi-Ki Crescent knock enemies back. Enemies knocked
+          against a wall receive Stun Trauma and Bleed Trauma.
+        icon: Skill_Nagative_Skill01
+        maxLv: 26
+        paramBase1: 80
+        paramBase2: 2.5
+        paramBase3: 0
+        paramAdd1: 4
+        paramAdd2: 0.14
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 1
+            comment: "Inflicts Stun Trauma; Trauma charge rate: weak."
+        toggle: false
+        unlockStar: s
+      - id: "2905"
+        name: "<color=#FFC741FF>Switch</color>: Desolation"
+        info: "Unlocks Switch Skill. Unleash a ground smash in switch entry to deal
+          #1[f1]% ATK of Lightning DMG."
+        brief: Switch entry unleashes a ground smash that deals Lightning DMG.
+        icon: Skill_Nagative_StartUp01
+        maxLv: 31
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2906"
+        name: "<color=#FFC741FF>QTE</color>: Annihilation"
+        info: "QTE: Triggers when an enemy is frozen, dealing #1[f1]% ATK of Lightning
+          DMG against enemies within a large AOE; additionally deals #2[f1]% ATK
+          of Lightning DMG against the frozen enemy and other enemies nearby."
+        brief: "QTE: Triggered when an enemy is frozen to deal Lightning DMG to enemies
+          in a large area and bonus AOE DMG to frozen enemies."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 51
+        paramBase1: 2
+        paramBase2: 1.6
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0.028
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "293"
+    name: Dark Sparrow
+    info: "Rapid evasive maneuver. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Not in Eclipse Mode: Within a short duration after
+      Ultimate Evasion, tap the Combo ATK button to dash to the enemy and
+      unleash Ki Riptide.\\nEclipse Mode: Within a short duration after Ultimate
+      Evasion, tap the Combo ATK button to unleash Shi-Ki
+      Onslaught.\\nElectrical Surge: Triggering an Ultimate Evasion deals 250%
+      ATK of Lightning DMG against enemies within a large AOE; CD: 15s.</color>"
+    icon: Skill_Fuka_NL_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2907"
+        name: Cinders
+        info: "Shortens CD of Ultimate Evasion by #1[f1]s."
+        brief: Shortens CD of Ultimate Evasion skill.
+        icon: Skill_Nagative_Skill02
+        maxLv: 21
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2908"
+        name: Chaos
+        info: "After Ultimate Evasion, Electrical Surge deals #1[f1]% ATK of bonus
+          Lightning DMG. For each enemy damaged by the surge, the Valkyrie
+          restores #2[f1] SP and inflicts <color=#FEDF4CFF>3 Bleed
+          Trauma</color>."
+        brief: Electrical Surge deals bonus DMG, restores SP, and inflicts Bleed Trauma.
+        icon: Skill_Nagative_Damage01
+        maxLv: 16
+        paramBase1: 0.5
+        paramBase2: 0.5
+        paramBase3: 80
+        paramAdd1: 0.08667
+        paramAdd2: 0.1
+        paramAdd3: 6.66667
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "Inflicts Bleed Trauma; Trauma charge rate: weak."
+        toggle: false
+        unlockStar: s
+  - id: "294"
+    name: Raging Dragon
+    info: "At over 60 SP, casting Shi-Ki Crescent triggers Lunar Eclipse mode that
+      lasts up to 60s, spending 6 SP/s and -100% attack SP recovery, but deals
+      +40% lightning DMG. When Eclipse ends, recover 30% of initial SP when
+      casting the skill.\\n<color=#23B2E2FF>Burst: Enters Lunar Eclipse (burst
+      mode) and launches Shi-Ki Crescent dealing 480% ATK of physical
+      DMG.\\nLunar Eclipse attacks: \\nSix Fists: total of 860% ATK of physical
+      DMG.\\nShi-Ki Charged Palm: 180% + 240% ATK of physical DMG.\\nShi-Ki
+      Onslaught: 260% + 5x50% per combo hit + 340% ATK of physical DMG.\\nShi-Ki
+      Crescent: 320% ATK of physical DMG.</color>"
+    icon: Skill_Fuka_NL_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 3
+        comment: "Ground slam upon Ultimate activation is Heavy ATK; Trauma charge:
+          strong."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2909"
+        name: Yin
+        info: "Take #1[i]% less indirect Physical DMG (e.g. DMG caused by bleeding). In
+          Eclipse Mode, gains #2[i]% Total DMG Reduction for DMG taken; during
+          the Shi-Ki Onslaught hit barrage, gains another #2[i]% Total DMG
+          Reduction. In Eclipse Mode, each Shi-Ki Onslaught hit additionally
+          deals #3[f1]% ATK of Lightning DMG and slowly pulls enemies closer."
+        brief: Gain DMG reduction during Combo ATKs. Onslaught gains DMG buff and pulls
+          in enemies.
+        icon: Skill_Nagative_Survive02
+        maxLv: 21
+        paramBase1: 0.2
+        paramBase2: 0.1
+        paramBase3: 0.4
+        paramAdd1: 0.01
+        paramAdd2: 0.0075
+        paramAdd3: 0.02
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2910"
+        name: Moon
+        info: In Eclipse, when Shi-Ki Crescent hits the ground, enemies hit are
+          Time-Locked for 4s and receive <color=#FEDF4CFF>12 Bleed
+          Trauma</color>.
+        brief: In Eclipse, Shi-Ki Crescent inflicts Time Slow and Bleed Trauma.
+        icon: Skill_Nagative_Damage02
+        maxLv: 61
+        paramBase1: 80
+        paramBase2: 6
+        paramBase3: 0
+        paramAdd1: 1.66667
+        paramAdd2: 0.1
+        paramAdd3: 0
+        tags:
+          - type: bleed
+            strength: 2
+            comment: "Inflicts Bleed Trauma; Trauma charge rate: medium."
+        toggle: false
+        unlockStar: ss
+      - id: "2911"
+        name: Umbra
+        info: "Eclipse Mode: Shi-Ki Crescent impact generates a 6m-radius Lightning
+          Field that lasts #1[f1]s, within which enemies take #2[f1] Lightning
+          DMG every 0.5s, while the Valkyrie gains #3[f1]% Lightning DMG per
+          second (max stacks: 10), and starts to lose Lightning DMG at the same
+          rate after leaving the AOE for 3s. Only 1 Lightning Field can exist.
+          Cast Shi-Ki Crescent in Eclipse Mode again to change the location of
+          the Lightning Field."
+        brief: "Eclipse Mode: Shi-Ki Crescent generates a Lightning Field that deals
+          Lightning DMG and gives a Lightning DMG buff."
+        icon: Skill_Nagative_Damage03
+        maxLv: 21
+        paramBase1: 10
+        paramBase2: 80
+        paramBase3: 0.01
+        paramAdd1: 0.5
+        paramAdd2: 6
+        paramAdd3: 0.002
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "295"
+    name: Lethal Arts
+    info: "Leader Bonus: <color=#23B2E2FF>Calamity: {{Team gains #1[i]% Elemental
+      DMG. Non-Kiana, Mei, or Bronya characters get an additional #2[i] SP upon
+      switch entry.}}</color>"
+    icon: Skill_Fuka_FK_005
+    skillType: leader
+    tags: []
+    paramSubId1: 2912
+    paramSubId2: 2912
+    paramSubId3: 0
+    subSkills:
+      - id: "2912"
+        name: Calamity
+        info: "Team gains #1[i]% All Elemental DMG. All team members (excluding
+          battlesuits of Kiana, Mei and Bronya) gain #2[i] initial SP in battle.
+          In Open World, the initial SP bonus effect triggers once every 10
+          min."
+        brief: The entire team gains an Elemental DMG buff. Characters who are not
+          Bronya, Mei, or Kiana gain bonus SP.
+        icon: Skill_Nagative_Damage01
+        maxLv: 2
+        paramBase1: 0.26
+        paramBase2: 40
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 10
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "296"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF></color>
+    icon: Skill_Fuka_FK_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2913"
+        name: Anguish
+        info: "In Eclipse, there is a #1[f1]% chance every second to trigger Electrical
+          Surge, inflicting <color=#FEDF4CFF>3 Paralyze Trauma</color> to
+          enemies within 3.5 meters."
+        brief: In Eclipse, enemies in range may be inflicted with Paralyze Trauma every
+          second.
+        icon: Skill_Nagative_Control02
+        maxLv: 25
+        paramBase1: 0.08
+        paramBase2: 0.8
+        paramBase3: 0
+        paramAdd1: 0.005
+        paramAdd2: 0.05
+        paramAdd3: 0
+        tags:
+          - type: paralyze
+            strength: 1
+            comment: "Inflicts Paralyze Trauma on enemy with a Paralyze Trauma gauge; Trauma
+              charge rate: weak."
+        toggle: true
+        unlockStar: sss
+      - id: "2914"
+        name: Empty Heart
+        info: "Deals #1[f1]% more Total DMG against slowed or bleeding enemies."
+        brief: Attacks on move slowed or bleeding enemies gain Total DMG Multiplier.
+        icon: Skill_Nagative_Damage03
+        maxLv: 31
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2915"
+        name: Despair
+        info: "For #1[f1]s before Eclipse Mode, gains #2[f1]% ATK Speed. When last hit
+          of Shi-Ki Onslaught or Shi-Ki Charged Palm strikes the enemy, gains
+          Iron Body and #3[f1]% Total DMG Reduction for DMG received for 2.5s."
+        brief: "Eclipse Mode: Faster Attack Speed for the first 6s. Gain Iron Body
+          (Total DMG Reduction buff) when performing Shi-Ki Charged Plam or
+          Shi-Ki Onslaught."
+        icon: Skill_Nagative_Skill02
+        maxLv: 51
+        paramBase1: 6
+        paramBase2: 0.05
+        paramBase3: 0.3
+        paramAdd1: 0.08
+        paramAdd2: 0.002
+        paramAdd3: 0.006
+        tags: []
+        toggle: false
+        unlockStar: ss

@@ -1,0 +1,197 @@
+id: "9011"
+fullName: "{DLC2_NICKNAME}"
+shortName: "{DLC2_NICKNAME}"
+desc: A <color=#FFAF2CFF>well-balanced</color> melee battlesuit. Equiped with a
+  <color=#2CE3FFFF>Greatsword</color>.
+firstName: null
+lastName: null
+enFirstName: null
+enLastName: null
+attributeType: none
+isEasterner: false
+weapon: pistols
+character: apho-adam
+initialStar: b
+tags: []
+skills:
+  - id: "52"
+    name: "<color=#FFC741FF>Combo</color>: Whirling Petals"
+    info: "Soaring whirlwind slash that knocks surrounding enemies
+      airborne.\\n<color=#23B2E2FF>Whirling Slash: 7x 60% ATK of Physical
+      DMG.</color>"
+    icon: Skill_Mei_CK_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "504"
+        name: "<color=#FFC741FF>QTE</color>: Iaido Whirlwind"
+        info: "Switch entry unleashes an Insta-Slash. QTE: Triggers upon shieldbreak or
+          when an enemy is knocked airborne. Enters the battlefield with a
+          whirlwind attack that deals 225% + #1[i]% ATK of Physical DMG."
+        brief: "QTE: Triggered when an enemy is knocked airborne to unleash Storm
+          Slasher to attack nearby enemies."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 70
+        paramBase1: 2.75
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01812
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: b
+      - id: "505"
+        name: Double Whirlwind
+        info: "Tap the [ATK] button during Combo ATK to unleash 1 more Combo ATK. DMG
+          dealt equals #1[f1]% of the 1st hit of the 1st Combo ATK."
+        brief: Tap the [ATK] button during Combo ATK to unleash 1 more Combo ATK.
+        icon: Skill_Nagative_Skill03
+        maxLv: 40
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01282
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "506"
+        name: Airborne Whirlwind
+        info: Triggers a Combo ATK by tap-and-holding the [ATK] button during any Basic
+          ATK.
+        brief: Triggers a Combo ATK by tap-and-holding the [ATK] button during any Basic
+          ATK.
+        icon: Skill_Nagative_Skill01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+  - id: "54"
+    name: Amaterasu
+    info: "Activates Valkyrie SP burst to unleash a forward
+      slash.\\n<color=#23B2E2FF>Amaterasu: Up to 1150% ATK of Physical DMG.\\nSP
+      Cost: 50</color>"
+    icon: Skill_Mei_CK_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "509"
+        name: Soul Power
+        info: "Each strike of Amaterasu additionally deals #1[f1]% ATK of Fire DMG. Can
+          be triggered up to 17 times."
+        brief: Amaterasu deals additional Fire DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 35
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00235
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "510"
+        name: Spirit Blade
+        info: "Gain 15 Max SP in battle. Amaterasu costs 20 more SP, but activates
+          Valkyrie mode after casting, boosting all attacks for #1[f1]s."
+        brief: Increase Max SP. Amaterasu costs 20 more SP, but activates Valkyrie mode
+          after casting, boosting all attacks.
+        icon: Skill_Nagative_Damage02
+        maxLv: 20
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.10526
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: ss
+      - id: "511"
+        name: Sakura no Haku
+        info: "Valkyrie state deals augmented blade attacks, with each hit dealing an
+          additional #1[f1]% ATK of Physical DMG."
+        brief: Valkyrie mode deals additional Physical DMG in each hit.
+        icon: Skill_Nagative_Damage03
+        maxLv: 25
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00417
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "55"
+    name: Spirit of Loyalty
+    info: "Leader Bonus: <color=#23B2E2FF>Spirit of Loyalty: {{When Combo Hit Count
+      exceeds 20, team gains #1[i]% Physical DMG.}}</color>"
+    icon: Skill_Mei_CK_005
+    skillType: leader
+    tags: []
+    paramSubId1: 512
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "512"
+        name: Spirit of Loyalty
+        info: "Increases the team's Physical DMG by #1[i]% when Combo Hit Count exceeds
+          20."
+        brief: Team gains Physical DMG when Combo Hit Count exceeds 20.
+        icon: Skill_Nagative_Survive01
+        maxLv: 4
+        paramBase1: 0.12
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "10001"
+    name: null
+    info: null
+    icon: Skill_Bronya_ZP_006
+    skillType: none
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "10004"
+    name: null
+    info: null
+    icon: Skill_Bronya_ZP_006
+    skillType: none
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "10005"
+    name: null
+    info: null
+    icon: Skill_Bronya_ZP_006
+    skillType: none
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []

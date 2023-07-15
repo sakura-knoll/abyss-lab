@@ -1,0 +1,368 @@
+id: "311"
+fullName: Wolf's Dawn
+shortName: Wolf's Dawn
+desc: "<color=white>Features: </color><color=#FF66CCFF>PSY-type</color>
+  <color=#FF66CCFF>Awakened</color> ranged battlesuit with fully autonomous
+  Project Bunny that fights alongside the character."
+firstName: Bronya
+lastName: Zaychik
+enFirstName: null
+enLastName: null
+attributeType: psy
+isEasterner: false
+weapon: cannon
+character: bronya
+initialStar: a
+tags:
+  - physical-dmg
+  - stun
+  - weaken
+  - time-mastery
+skills:
+  - id: "231"
+    name: "<color=#FFC741FF>Charge</color>: Particle Cannon"
+    info: "Charged ATK using a cannon. Higher charge sequence deals more
+      DMG.\\n<color=#23B2E2FF>Arm Switch: Changes the way of charging based on
+      the weapon equipped.\\nUncharged attacks order Project Bunny to unleash
+      special attacks on the target.</color>"
+    icon: Skill_Bronya_ZP_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2301"
+        name: Crippling Blast
+        info: "Uncharged attack weakens the target and other enemies nearby, reducing
+          their ATK by #1[f1]% for #2[f1]s."
+        brief: Basic ATKs inflict AOE weaken effects.
+        icon: Skill_Nagative_Survive02
+        maxLv: 35
+        paramBase1: 0.2
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 0.00882
+        paramAdd2: 0.11765
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "2302"
+        name: Precise Targeting
+        info: "Project Bunny deals an additional #1[f1]% Physical DMG to weakened
+          enemies."
+        brief: Project Bunny gains DMG against weakened enemies.
+        icon: Skill_Nagative_Damage03
+        maxLv: 8
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.06429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "232"
+    name: "<color=#FFC741FF>Switch</color>: Burst Assault"
+    info: "Immediately unleashes Shield Charge upon entry.\\n<color=#23B2E2FF>Shield
+      Charge: 250% ATK of Physical DMG.\\nProject Bunny (summoned entity) enters
+      battle. Project Bunny stats: 40% ATK, 100% DEF and 400% HP of the
+      Valkyrie; 50% Elemental DMG resistance; and immunity to most crowd
+      controls. The Valkyrie loses 20% ATK during Project Bunny's
+      presence.</color>"
+    icon: Skill_Bronya_ZP_002
+    skillType: special
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "QTE is Heavy ATK; Trauma charge: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2303"
+        name: Burst Assault
+        info: "Shield Charge additionally deals #1[i]% ATK of Physical DMG. Project
+          Bunny: Gains ATK equal to #2[f1]% of the Valkyrie's ATK."
+        brief: Switch entry launches Shield Charge, Project Bunny gains ATK.
+        icon: Skill_Nagative_StartUp01
+        maxLv: 35
+        paramBase1: 1
+        paramBase2: 0.03
+        paramBase3: 0
+        paramAdd1: 0.02059
+        paramAdd2: 0.005
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2304"
+        name: "<size=14><color=#FFC741FF>QTE</color>: Dilated Momentum</size>"
+        info: "QTE: Triggered when an enemy is Time-Slowed to unleash coordinated
+          strikes. Project Bunny: Burst Assault. Valkyrie: Deals #1[i]% ATK of
+          Physical DMG and inflicts <color=#FEDF4CFF>6 Stun Trauma</color>."
+        brief: "QTE: Triggered when an enemy is Time Slowed to perform a combo move that
+          inflicts Stun Trauma."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 30
+        paramBase1: 4.5
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.10345
+        paramAdd2: 0.06897
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 2
+            comment: "Inflicts Stun Trauma; Trauma charge rate: medium."
+        toggle: true
+        unlockStar: a
+      - id: "2315"
+        name: Remote Control
+        info: "Project Bunny stays in battle for #1[f1]s after the Valkyrie exits."
+        brief: After Wolf's Dawn exits, Project Bunny stays in battle for a period of
+          time.
+        icon: Skill_Nagative_StartUp03
+        maxLv: 10
+        paramBase1: 7.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "233"
+    name: Simulated Flicker
+    info: "Enters temporary Dimension Shift to evade enemy
+      attacks.\\n<color=#23B2E2FF>Simulated Flicker: Summons Project Bunny to
+      attack enemies upon an Ultimate Evasion, dealing 350% Project Bunny's ATK
+      of Physical DMG and triggering Time Fracture for 3s on hit. CD:
+      15s.\\nWhen Project Bunny is paralyzed, Ultimate Evasion will heal it for
+      50% HP.</color>"
+    icon: Skill_Bronya_ZP_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2305"
+        name: Tactical MOD
+        info: "When Simulated Flicker is triggered, Project Bunny recovers #1[f1]% HP
+          and gains #2[f1]% Physical DMG for 10s."
+        brief: When Simulated Flicker is triggered, recovers Project Bunny's HP and
+          increases its Physical DMG.
+        icon: Skill_Nagative_Skill01
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0.02778
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2306"
+        name: Counter Protocols
+        info: "Shortens CD of Simulated Flicker by #1[f2]s."
+        brief: Shortens CD of Simulated Flicker.
+        icon: Skill_Nagative_Skill02
+        maxLv: 10
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.22233
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2307"
+        name: Field Supplies
+        info: "Ultimate Evasions recover #1[f1] SP for the whole team."
+        brief: Ultimate Evasions recover SP for the whole team.
+        icon: Skill_Nagative_Skill03
+        maxLv: 20
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.15789
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "234"
+    name: GROM Slam
+    info: "Activate powerful resonance with Project Bunny to unleash its devastating
+      attacks.\\n<color=#23B2E2FF>Resonance: Project Bunny smashes the ground 3
+      times to damage enemies nearby, inflict</color> <color=#FEDF4CFF>6 Stun
+      Trauma</color> <color=#23B2E2FF>on them, and Time-Locks weakened enemies
+      for 5s.\\n1st hit: 275% Project Bunny's ATK of Physical DMG.\\n2nd hit:
+      425% Project Bunny's ATK of Physical DMG.\\n3rd hit: 575% Project Bunny's
+      ATK of Physical DMG.\\nSP cost: 55.</color>"
+    icon: Skill_Bronya_XT_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "Ultimate is Heavy ATK and stacks Trauma multiple times; Trauma charge:
+          medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2308"
+        name: Gravity Traction
+        info: "Upon slamming the ground, pulls enemies surrounding Project Bunny towards
+          it and deals an additional #1[f1]% ATK of Physical DMG."
+        brief: Upon slamming the ground, pulls enemies surrounding Project Bunny towards
+          it and deals additional Physical DMG.
+        icon: Skill_Nagative_Skill01
+        maxLv: 4
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.33333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "2309"
+        name: Synchronized Frenzy
+        info: "Upon Ultimate activation, Project Bunny recovers #1[f1]% HP. The Valkyrie
+          and Project Bunny both gain #2[f1]% Physical DMG for #3[f1]s."
+        brief: After casting the Ultimate, Project Bunny recovers tons of HP, character
+          and Project Bunny both gain DMG over a period of time.
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 0.25
+        paramBase2: 0.1
+        paramBase3: 5
+        paramAdd1: 0.03889
+        paramAdd2: 0.02222
+        paramAdd3: 0.55556
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2310"
+        name: EM Counter
+        info: "Each ground slam additionally deals #3[i] fixed DMG against enemy
+          shields. During Ultimate, Project Bunny deals #1[f1]% more DMG against
+          shields, and #2[f1]% more Physical DMG against weakened enemies."
+        brief: Each GROM Slam hit deals fixed DMG to enemy shields. During Ultimate,
+          Project Bunny's DMG against shields increases significantly. DMG
+          against weakened enemies increases significantly.
+        icon: Skill_Nagative_Skill03
+        maxLv: 10
+        paramBase1: 0.6
+        paramBase2: 0.5
+        paramBase3: 2000
+        paramAdd1: 0.04444
+        paramAdd2: 0.14444
+        paramAdd3: 666.6667
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "235"
+    name: Harmonic Resonance
+    info: "Leader Bonus: <color=#23B2E2FF>Harmonic Resonance: {{When Combo Hit Count
+      exceeds 30, team gains #1[i]% Crit Rate. PSY-type characters gain #2[i]%
+      Crit DMG.}}</color>"
+    icon: Skill_Bronya_ZP_005
+    skillType: leader
+    tags: []
+    paramSubId1: 2311
+    paramSubId2: 2311
+    paramSubId3: 0
+    subSkills:
+      - id: "2311"
+        name: Harmonic Resonance
+        info: "When Combo Hit Count exceeds 30, team gains #1[i]% Crit Rate. PSY-type
+          characters gain #2[i]% Crit DMG."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.22
+        paramBase2: 0.23
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "236"
+    name: Passive
+    info: "Passive bonuses apply automatically.<color=#23B2E2FF>\\nProject Bunny
+      will be paralyzed once its HP is depleted. Project Bunny restores 5% HP
+      per second. If the Valkyrie goes near Project Bunny to help, it
+      additionally restores 30% HP per second. Project Bunny revives when its HP
+      is fully restored.\\nProject Bunny: Knocks surrounding enemies into the
+      air upon revival. When Wolf's Dawn is nearby, Project Bunny gains 60%
+      Physical DMG for 10s.</color>"
+    icon: Skill_Bronya_ZP_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2312"
+        name: Bio Ward
+        info: "All team members have a particle shield that absorbs Elemental DMG. The
+          shield has #1[i] HP which is fully restored if not attacked for
+          #2[f1]s."
+        brief: All team members have a particle shield that absorbs Elemental DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 70
+        paramBase1: 172
+        paramBase2: 7
+        paramBase3: 0
+        paramAdd1: 12
+        paramAdd2: -0.01449
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2313"
+        name: Quantum Survival
+        info: "With the particle shield on, Valkyrie has a #1[f1]% chance to be
+          debuff-immune. Project Bunny has bonus DEF equal to 100% of Valkyrie's
+          DEF."
+        brief: With the particle shield on, Valkyrie has a chance to be debuff-immune.
+          Project Bunny has bonus DEF.
+        icon: Skill_Nagative_Survive02
+        maxLv: 8
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03571
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "2314"
+        name: Prismatic Refraction
+        info: "With the particle shield on, Valkyrie deals #1[f1]% bonus Elemental DMG.
+          Project Bunny has bonus ATK equal to 5% of Valkyrie's ATK."
+        brief: With the particle shield on, Valkyrie deals more Elemental DMG, and
+          Project Bunny has higher ATK.
+        icon: Skill_Nagative_Skill03
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss

@@ -1,0 +1,41 @@
+id: "80"
+name: Writer set
+desc: null
+skills:
+  - id: "4110"
+    name: Shadow Barrier
+    info: "When entering battle, host obtains a barrier that can absorb Total DMG
+      equal to #1[i]% of her max HP (1800 max). While the barrier lasts, host
+      deals #2[i]% bonus Crit DMG. When broken, the barrier enters a #3[i]s CD
+      before regeneration."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: physical-dmg
+        comment: null
+    param1: 0.15
+    param1Add: 0
+    param2: 0.4
+    param2Add: 0
+    param3: 15
+    param3Add: 0
+  - id: "4111"
+    name: Shadow Blade
+    info: "Melee attacks gain #1[i]% Total DMG Multiplier."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: physical-dmg
+        comment: null
+    param1: 0.2
+    param1Add: 0
+    param2: 0
+    param2Add: 0
+    param3: 0
+    param3Add: 0
+stigmaIdList:
+  - "110801"
+  - "110802"
+  - "110803"

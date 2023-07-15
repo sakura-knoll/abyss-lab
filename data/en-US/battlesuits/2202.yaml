@@ -1,0 +1,459 @@
+id: "2202"
+fullName: "Herrscher of Human: Ego"
+shortName: "Herrscher of Human: Ego"
+desc: <color=white>Features:</color> <color=#FF66CCFF>PSY-type</color> ranged
+  battlesuit. Archer.
+firstName: Elysia
+lastName: null
+enFirstName: null
+enLastName: null
+attributeType: psy
+isEasterner: true
+weapon: bow
+character: elysia
+initialStar: s
+tags:
+  - ice-dmg
+  - freeze
+  - time-mastery
+  - burst
+  - gather
+skills:
+  - id: "801"
+    name: Shattered Transience
+    info: "Attack with a bow or staff.\\n<color=#23B2E3FF>Herrscher of Human form:
+      Use a bow to shoot arrows 4 times.\\nSEQ 1: Deals 100% ATK of Ice
+      DMG.\\nSEQ 2: Deals 2 x 60% ATK of Ice DMG.\\nSEQ 3: Deals 150% ATK of Ice
+      DMG.\\nSEQ 4: Deals 200% ATK of Ice DMG.\\nHerrscher of Origin: Use a
+      staff to cast magic 4 times.\\nSEQ 1: Deals 150% ATK of Ice DMG.\\nSEQ 2:
+      Deals 8 x 40% ATK of Ice DMG.\\nSEQ 3: Deals 4 x 60% ATK of Ice DMG.\\nSEQ
+      4: Deals 200% ATK of Ice DMG, and then 200% ATK of Ice DMG
+      gradually.</color>"
+    icon: Skill_Elysia_MC_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8001"
+        name: Sparkling Hope
+        info: "Deal #2[f1]% more Total DMG to MECH-type enemies. In Herrscher of Human
+          form, Basic ATK (Charged ATK excluded) grants 1 Crystal Ice Mirror
+          stack on hit, up to a maximum of 4 stacks. Crystal Ice Mirror provides
+          Iron Body, and reduces incoming DMG by #1[f1]% at the cost of 1 stack.
+          If no stack is gained within 15s or Herrscher of Origin form is
+          activated, lose all Crystal Ice Mirror stacks. A battlesuit carrying
+          Crystal Ice Mirror passes it onto the battlesuit that replaces her."
+        brief: Deal more Total DMG to MECH-type enemies. In Herrscher of Human form,
+          Basic ATK grants 1 Crystal Ice Mirror stack on hit. Crystal Ice Mirror
+          provides Iron Body, and reduces incoming DMG at the cost of 1 stack.
+          If no stack is gained within 15s or Herrscher of Origin form is
+          activated, lose all Crystal Ice Mirror stacks. A battlesuit carrying
+          Crystal Ice Mirror passes it onto the battlesuit that replaces her.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.015
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8002"
+        name: Unstoppable Yearning
+        info: "Increases Ice DMG by #2[f1]%. In Herrscher of Origin form, increases Ice
+          DMG by another #3[f1]%, and attacks deal additional #1[f1]% ATK of Ice
+          DMG."
+        brief: Increases Ice DMG. In Herrscher of Origin Form, further increases Ice DMG
+          and attacks deal additional Ice DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0.05
+        paramBase3: 0.05
+        paramAdd1: 0.015
+        paramAdd2: 0.01
+        paramAdd3: 0.01
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8003"
+        name: "<color=#FFC741FF>QTE</color>: Golden Splendor"
+        info: "QTE: Triggered when in Herrscher of Human form and an enemy is Frozen or
+          Time-Slowed. Inflicts Pristine Bloomage and deals #1[f1]% ATK of Ice
+          DMG. If Ultimate Evasion Skill is not in CD, it is triggered. Within
+          20s of QTE entry, increases Total DMG by #2[f1]%. Triggering it again
+          refreshes the duration."
+        brief: "QTE: Triggered when in Herrscher of Human Form and an enemy is Frozen or
+          Time-Slowed. Inflicts Pristine Bloomage and deals Ice DMG. Entering
+          with QTE triggers Ultimate Evasion Skill if it is not on CD and
+          increases Total DMG for 20s."
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 5
+        paramBase2: 0.06
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0.009
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "802"
+    name: "<color=#FFC741FF>Charged ATK</color>: Infinite Helix"
+    info: Use a powerful attack that corresponds to the Herrscher
+      Form.\n<color=#23B2E4FF>Herrscher of Human Form:\nHold [ATK] to create a
+      crystal ballista. Once charging is complete, fire a pristine arrow that
+      penetrates every enemy along its trajectory, dealing 330% + 2 x 100% ATK
+      of Ice DMG and inflicting 1 Pristine Seed stack. Hold [ATK] to fire
+      consecutively, during which you can move.\nHerrscher of Origin Form:\nWhen
+      Herrscher Charge is maxed, hold [ATK] to empty Herrscher Charge and summon
+      Spirit of Origin to attack, dealing 700% ATK of Ice DMG. Hitting enemies
+      resets Waltz of the Stars's CD. This also creates a frost zone forward,
+      adding 3 Pristine Seed stacks to all enemies in the zone. Frost zone lasts
+      for 6s.</color>
+    icon: Skill_Elysia_MC_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8004"
+        name: Affectionate Gale
+        info: "In Herrscher of Human form, increases Charged ATK's Total DMG by #1[f1]%.
+          In Herrscher of Origin form, increases Charged ATK's Total DMG by
+          #2[f1]% and self's Total DMG by #3[f1]%."
+        brief: In Herrscher of Human form, increases Charged ATK's Total DMG. In
+          Herrscher of Origin form, increases Charged ATK and self's Total DMG.
+        icon: Skill_Nagative_Control02
+        maxLv: 11
+        paramBase1: 0.12
+        paramBase2: 0.2
+        paramBase3: 0.05
+        paramAdd1: 0.018
+        paramAdd2: 0.03
+        paramAdd3: 0.005
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "8005"
+        name: Gentle Warmth
+        info: "In Herrscher of Human Form, increases Elemental Breach by #3[f1]%. In
+          Herrscher of Origin Form, increases Elemental Breach by #1[f1]% and
+          reduces Total DMG received by #2[f1]%."
+        brief: In Herrscher of Human Form, increases Elemental Breach. In Herrscher of
+          Origin Form, increases Elemental Breach and reduces Total DMG
+          received.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.12
+        paramBase2: 0.25
+        paramBase3: 0.05
+        paramAdd1: 0.006
+        paramAdd2: 0
+        paramAdd3: 0.005
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8006"
+        name: Budding Innocence
+        info: "On hitting an enemy carrying Pristine Seed, increases Total DMG by
+          #3[f1]% and restores #1[f1] SP. SP recovery CD: 1s. When an enemy
+          carrying Pristine Seed is defeated, restores #2[i] HP, and grants 1
+          Crystal Ice Mirror stack in Herrscher of Human form."
+        brief: On hitting an enemy carrying Pristine Seed, increases Total DMG and
+          restores SP. When an enemy carrying Pristine Seed is defeated,
+          restores HP and, in Herrscher of Human form, grants 1 Crystal Ice
+          Mirrow stack.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 25
+        paramBase3: 0.05
+        paramAdd1: 0.08
+        paramAdd2: 2.5
+        paramAdd3: 0.02
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "803"
+    name: Rising Starbeams
+    info: "Quickly dodge enemy attacks up to twice in a
+      row.\\n<color=#23B2E5FF>Ultimate Evasion Skill:\\nIn Herrscher of Human
+      form, causes Global Time Fracture for 3s. Within 10s, the next Charged ATK
+      shoots an enhanced pristine arrow that deals 400% + 2 x 100% ATK of Ice
+      DMG and inflicts 3 Pristine Seed stacks. CD: 18s.\\nIn Herrscher of Origin
+      form, creates a starry vortex to pull enemies for 5s. CD: 18s.</color>"
+    icon: Skill_Elysia_MC_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8007"
+        name: Timeless Evocation
+        info: "When Herrscher of Human: Ego is off switch CD and a teammate consumes at
+          least 100 SP in one go, her QTE is triggered. CD: 15s."
+        brief: When a teammate consumes enough SP, her QTE is triggered.
+        icon: Skill_Nagative_Survive02
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "8008"
+        name: Moonlit Romance
+        info: Non-Ultimate Evasion can also trigger Ultimate Evasion Skill.
+        brief: Non-Ultimate Evasion can also trigger Ultimate Evasion Skill.
+        icon: Skill_Nagative_Survive03
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "8009"
+        name: Thunderless Serenity
+        info: "Reduces Ultimate Evasion Skill CD by #1[f1]s. In Herrscher of Human Form,
+          Charged ATK speed increases by #2[f1]% and triggering Ultimate Evasion
+          Skill grants 2 Crystal Ice Mirror stacks."
+        brief: Reduces Ultimate Evasion Skill CD. In Herrscher of Human Form, Charged
+          ATK speed increases and triggering Ultimate Evasion Skill grants
+          Crystal Ice Mirror.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 2
+        paramBase2: 0.25
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0.025
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "804"
+    name: Radiant Destiny
+    info: "Switch between 2 Herrscher forms.\\n<color=#23B2E6FF>On casting Ultimate,
+      enter Herrscher of Origin form, create Stars of the Past, deal 500% ATK of
+      Ice DMG, and inflict Pristine Bloomage and</color> <color=#FEDF4CFF>6 Rime
+      Trauma</color><color=#23B2E2FF>. During which, all skill timers and the
+      stage timer are paused.\\nIn Herrscher of Origin form, she is also in
+      burst mode and gains Herrscher Charge (Max: 400; Initial: 0). She regains
+      Herrscher Charge over time, regaining 80 per second within the first 5s
+      and 60 per second after 5s. During which, she fights with a staff instead
+      a bow. Tap [Weapon] to cast Waltz of the Stars, which deals a total of
+      500% ATK of Ice DMG on the first cast, and 1400% ATK of Ice DMG afterward.
+      Exiting Herrscher of Origin form clears this effect. Waltz of the Stars
+      CD: 20s (unaffected by CD reduction).\\nWhen on the field in Herrscher of
+      Origin form for over 5s, tap [ULT] again or wait until 17s to cast
+      Finisher, dealing 1100% ATK of Ice DMG, during which Time-frozen Domain is
+      triggered to pause all skill timers and the stage timer. In the meantime,
+      if she is switched out, she will still cast Finisher, only dealing 100%
+      ATK of Ice DMG. Casting Finisher ends Herrscher of Origin form, activates
+      Herrscher of Human form, and cancels Stars of the Past.\\nSP: 125. CD:
+      10s.\\n\\nWhile Stars of the Past is in effect, gain the following
+      buffs:\\nRestore 0.5 SP to every Ice DMG dealer every
+      second.\\nInflict</color> <color=#FEDF4CFF>0.5 Rime Trauma</color>
+      <color=#23B2E2FF>on every enemy every second.\\nIce DMG ELF deals 50% more
+      Ice DMG.\\nIce DMG battlesuit deals an extra 5% DMG (an HP loss
+      effect).\\nEnemy receives an extra 100 x ATK of DMG (HP loss effect) on
+      being frozen. This effect immediately applies to frozen enemies once when
+      Stars of the Past is created.\\nShe cannot be defeated in Herrscher of
+      Origin form.</color>"
+    icon: Skill_Elysia_MC_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8010"
+        name: Original Pristinity
+        info: "Enemies carrying Pristine Seed or are in Pristine Bloomage state receive
+          #1[f1]% more Total DMG from Herrscher of Human: Ego (cannot stack).
+          She records teammates' SP consumption to gain 300 charges at most. In
+          Herrscher of Origin Form, with over 0 charge, her Total DMG increases
+          by #3[f1]%; With over 225 charges, her Total DMG increases by #2[f1]%
+          for every charge over 225 charges. Exiting Herrscher of Origin form
+          clears the charges."
+        brief: "Herrscher of Human: Ego records teammates' SP to recharge. Her Total DMG
+          in Herrscher of Origin form increases based on the amount charged.
+          Exiting Herrscher of Origin form clears the charges. Enemies carrying
+          Pristine Seed or are in Pristine Bloomage state receive more Total DMG
+          from her (cannot stack)."
+        icon: Skill_Nagative_Damage03
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0.002
+        paramBase3: 0.05
+        paramAdd1: 0.02
+        paramAdd2: 0.0004
+        paramAdd3: 0.01
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8011"
+        name: Truly Elysia
+        info: "Entering and exiting Herrscher of Origin Form cause Global Time Fracture
+          for #1[f1]s and #2[f1]s respectively, and refresh Ultimate Evasion
+          Skill CD once."
+        brief: Entering and exiting Herrscher form trigger Global Time Fracture and
+          refresh Ultimate Evasion Skill once.
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 3
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8012"
+        name: Elysium Eternal
+        info: "In Herrscher of Origin Form, Charged ATK deals an extra #2[f1]% ATK of
+          Ice DMG. Every Charged ATK dealt increases Ultimate Finisher's
+          additional ATK by #1[f1]% ATK of Ice DMG, up to 2 times. Exiting
+          Herrscher of Origin Form clears all buff effects."
+        brief: In Herrscher of Origin Form, Charged ATK deals extra Ice DMG and using
+          Charged ATKs can increase Ice DMG from active Ultimate Finisher.
+        icon: Skill_Nagative_Skill01
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 0.5
+        paramBase3: 0
+        paramAdd1: 0.3
+        paramAdd2: 0.15
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "805"
+    name: Wandering Dream
+    info: "Leader Bonus:\\n<color=#23B2E2FF>Leader Skill: {{Increases every Ice DMG
+      battlesuit's initial SP by #1[f1]. In Open World, this effect is triggered
+      once every 10 minutes. Increases the team's Ice DMG by #2[f1]%, and while
+      Stars of the Past is in effect, increases the team's Ice DMG by another
+      #3[f1]%.}}</color>"
+    icon: Skill_Elysia_MC_005
+    skillType: leader
+    tags: []
+    paramSubId1: 8013
+    paramSubId2: 8013
+    paramSubId3: 8013
+    subSkills:
+      - id: "8013"
+        name: Wandering Dream
+        info: "Increases every Ice DMG battlesuit's initial SP by #1[f1]. In Open World,
+          this effect is triggered once every 10 minutes. Increases the team's
+          Ice DMG by #2[f1]%, and while Stars of the Past is in effect,
+          increases the team's Ice DMG by another #3[f1]%."
+        brief: Increases every Ice DMG battlesuit's initial SP. Increases the team's Ice
+          DMG. Further increases team's Ice DMG while Stars of the Past is in
+          effect.
+        icon: Skill_Nagative_Damage03
+        maxLv: 2
+        paramBase1: 55
+        paramBase2: 0.32
+        paramBase3: 0.15
+        paramAdd1: 5
+        paramAdd2: 0.03
+        paramAdd3: 0.05
+        tags: []
+        toggle: false
+        unlockStar: s3
+  - id: "806"
+    name: Enlightened Salvation
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E8FF>A balanced archer
+      that has 2 shoot attempts. If less than 2 shoot attempts remain, recover 1
+      attempt every 10s.\\nBase Shooting Multiplier Correction: 100%\\nAimed
+      Base Shooting Multiplier Correction: 100%\\n\\nHerrscher of Human: Ego has
+      two Herrscher Forms: Herrscher of Human Form and Herrscher of Origin Form.
+      Cast Ultimate to switch between them.\\nHer Charged ATK inflicts Pristine
+      Seed stacks that last 15s and cap at 3. At 3 stacks, enemies enter
+      Pristine Bloomage state for 2.5s. In Herrscher of Origin Form, Pristine
+      Bloomage lasts for 3.5s and immobilizes enemies.\\nHitting enemies in
+      Pristine Bloomage state with weapon skill or special weapon skill triggers
+      Ego Blossom. In Herrscher of Human Form, it deals 200% + 120% ATK of Ice
+      DMG in an area. In Herrscher of Origin Form, it deals 500% ATK of Ice DMG.
+      When Pristine Bloomage is removed, 1 Pristine Seed stack remains.
+      Inflicting Pristine Seed again refreshes its duration.</color>"
+    icon: Skill_Elysia_MC_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8014"
+        name: Finale's Glory
+        info: "Increases Ego Blossom's Total DMG by #1[f1]%. When Ego Blossom is
+          triggered in Herrscher of Human form, it deals an extra #2[f1]% ATK of
+          Ice DMG for each nearby enemy that is in Pristine Bloomage state. It
+          registers 3 such enemies at most and cancels their Pristine Bloomage
+          state."
+        brief: Increases Ego Blossom's Total DMG. When Ego Blossom is triggered in
+          Herrscher of Human form, it deals extra Ice DMG for each nearby enemy
+          that is in Pristine Bloomage state. It registers 3 such enemies at
+          most and cancels their Pristine Bloomage state.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8015"
+        name: Unrestrained Abstinence
+        info: "After using Ultimate Evasion Skill in Herrscher of Human form, increases
+          Ice DMG by #1[f1]% for 5s. CD: 60s. Exiting Herrscher of Origin form
+          refreshes the CD."
+        brief: Ice DMG increases for a short duration after using Ultimate Evasion Skill
+          in Herrscher of Human Form (has CD). Exiting Herrscher of Origin form
+          refreshes the CD.
+        icon: Skill_Nagative_Skill01
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "8016"
+        name: Illusory Haze
+        info: "Enemies carrying Pristine Seed receive #1[f1]% ATK of Ice DMG every
+          second."
+        brief: Enemies carrying Pristine Seed receive Ice DMG every second.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2

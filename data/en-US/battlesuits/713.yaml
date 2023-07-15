@@ -1,0 +1,385 @@
+id: "713"
+fullName: Starchasm Nyx
+shortName: Starchasm Nyx
+desc: "<color=white>Features: </color><color=#AE99FFFF>QUA-type</color> melee
+  battlesuit."
+firstName: Seele
+lastName: Vollerei
+enFirstName: null
+enLastName: null
+attributeType: qua
+isEasterner: false
+weapon: scythe
+character: seele
+initialStar: s
+tags:
+  - ice-dmg
+  - freeze
+  - time-mastery
+  - burst
+skills:
+  - id: "631"
+    name: Anguished Cry
+    info: "Scythe attacks which inflict minor Rime Trauma.\\n<color=#23B2E2FF>1st
+      Sequence: 50% ATK of Physical DMG + 80% ATK of Ice DMG\\n2nd Sequence: 70%
+      ATK of Physical DMG + 120% ATK of Ice DMG\\n3rd Sequence: 100% ATK of
+      Physical DMG + 180% ATK of Ice DMG\\n4th Sequence: 35%x(4~8) ATK of Ice
+      DMG according to the duration of the attack pause\\n5th Sequence: 460% ATK
+      of Ice DMG</color>"
+    icon: Skill_Seele_C3_SP_631
+    skillType: basic
+    tags:
+      - type: freeze
+        strength: 1
+        comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+          rate: very weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6301"
+        name: The Ragged Hood
+        info: "The Valkyrie gains Iron Body and receives #1[f1]% less damage during the
+          5th sequence of Basic ATK."
+        brief: The Valkyrie gains Iron Body and takes less damage during the 5th
+          sequence of Basic ATK.
+        icon: Skill_Nagative_Survive01
+        maxLv: 15
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6302"
+        name: The Poisoned Apple
+        info: "The 4th sequence of Basic ATK deals #1[f1]% more Ice DMG. Each landed hit
+          additionally restores 1 SP."
+        brief: The 4th sequence of Basic ATK deals more Ice DMG. Each landed hit
+          restores 1 bonus SP.
+        icon: Skill_Nagative_Skill03
+        maxLv: 11
+        paramBase1: 0.4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "6303"
+        name: Bitter Sweets
+        info: "The 5th sequence of Basic ATK releases chain claws to additionally deal
+          #1[f1]% ATK of Ice DMG and restores 1 Carmine Gash."
+        brief: The 5th sequence of Basic ATK releases chain claws to deal massive Ice
+          DMG and restores 1 Carmine Gash.
+        icon: Skill_Nagative_Skill03
+        maxLv: 11
+        paramBase1: 1.8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.18
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s2
+  - id: "632"
+    name: Condemning Blade
+    info: Hold [ATK] to perform a Charged ATK.\n<color=#23B2E2FF>In normal form, her
+      Charged ATK consumes all Carmine Gashes, teleports her in front of the
+      target and deals 300% ATK of Ice DMG.\n\nIn Burst form, she can
+      continuously consume Carmine Gashes to unleash Charged ATKs (each deals
+      2x270% ATK of Ice DMG) until she exhausts all of them, during which she
+      has Iron Body. Each Charged ATK accelerates the next Charged ATK; Charged
+      ATK Speed maxes after 3 Charged ATKs.\nDuring Burst form, casting Charged
+      ATKs teleports her in front of enemies and activates her Ultimate Evasion
+      skill Ceaseless Carousal.</color>
+    icon: Skill_Seele_C3_SP_632
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6304"
+        name: The Cold-blooded Prince
+        info: "In normal form, Charged ATK deals N x 4 x #1[f1]% ATK of bonus Ice DMG
+          and restores N x 1.5 SP (N = the number of Carmine Gash consumed).
+          When 6 Carmine Gashes are consumed in one go, enemies receive
+          <color=#FEDF4CFF>12 Rime Trauma</color>, and lose 50% Move Speed for
+          5s."
+        brief: In normal form, Charged ATK deals bonus Ice DMG and restores SP according
+          to the number of Carmine Gashes consumed. When 6 Carmine Gashes are
+          consumed in one go, enemies receive Rime Trauma and are slowed.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: freeze
+            strength: 2
+            comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+              rate: medium."
+        toggle: false
+        unlockStar: s
+      - id: "6305"
+        name: Herd of Kids
+        info: "Starchasm Nyx gains #1[f1]% Total DMG, and her Charged ATKs deal #2[f1]%
+          more Total DMG."
+        brief: Starchasm Nyx gains Total DMG, and her Charged ATKs deal more Total DMG.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 0.04
+        paramBase2: 0.12
+        paramBase3: 0
+        paramAdd1: 0.006
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6306"
+        name: The Star Coins
+        info: During Burst, Charged ATK additionally deals 2x#1[f1]% ATK of Ice DMG.
+        brief: During Burst, Charged ATK deals bonus Ice DMG.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "633"
+    name: Aria of Torment
+    info: "Quickly dodge enemy attacks up to twice in a
+      row.\\n<color=#23B2E2FF>Performing an Ultimate Evasion triggers Ultimate
+      Evasion skill Ceaseless Carousal.\\n[Ceaseless Carousal]: Triggers a 3-sec
+      Global Time Fracture and restores 1 Carmine Gash. In normal form, tap
+      [ATK] to connect into the 4th sequence of Basic ATK. CD: 15s.</color>"
+    icon: Skill_Seele_C3_SP_633
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6307"
+        name: The Lost Fledgling
+        info: "CD of Ceaseless Carousal is shortened by #1[f1]s."
+        brief: Ceaseless Carousal has a shorter CD.
+        icon: Skill_Nagative_Skill01
+        maxLv: 11
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6308"
+        name: The Voiceless Mermaid
+        info: "A successful evasion additionally restores #1[i] SP."
+        brief: A successful evasion restores bonus SP.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6309"
+        name: "<color=#FFC741FF>QTE</color>: Blood-Crimsoned Rose"
+        info: "QTE: Triggered by Time Slow or enemies being knocked into the air. Deals
+          #1[i]% ATK of Ice DMG and generates 1 Carmine Gash."
+        brief: "QTE: Triggered by Time Slow or enemies being knocked into the air. Deals
+          Ice DMG and generates 1 Carmine Gash."
+        icon: Skill_Nagative_StartUp01
+        maxLv: 15
+        paramBase1: 8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.21429
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "634"
+    name: Moment of Collapse
+    info: "Starchasm Nyx attacks with chain claws.\\n<color=#23B2E2FF>Tap [ULT] to
+      activate Burst mode, deal 700% ATK of Ice DMG and inflict one Quantum
+      Implosion on QUA enemies.\\nDuring Burst mode, Starchasm Nyx fights with
+      her chain claws Blood & Love.\\n1st Sequence: 360% ATK of Ice DMG\\n2nd
+      Sequence: 440% ATK of Ice DMG\\n3rd Sequence: 660% ATK of Ice DMG\\n4th
+      Sequence: 780% ATK of Ice DMG\\n\\nDuring Burst mode, tap [ULT] again to
+      unleash Time of Metamorph, dealing 900% ATK of Ice DMG and end Burst,
+      during which Time-frozen Domain is triggered to pause all skill timers
+      (for self and enemies) and the stage timer.\\n\\nActivation cost: 75 SP.
+      CD: 12s. CD starts after Time of Metamorph.\\n\\nBurst lasts for up to 17s
+      and ends when Starchasm Nyx leaves the field.</color>"
+    icon: Skill_Seele_C3_SP_634
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6310"
+        name: Broken Lead Heart
+        info: "Burst activation restores Carmine Gashes to 6. During Burst, Starchasm
+          Nyx gains #1[f1]% Ice DMG and takes #2[f1]% less Total DMG."
+        brief: Burst activation restores Carmine Gashes to 6. During Burst, Starchasm
+          Nyx gains Ice DMG and takes less Total DMG.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 0.3
+        paramBase2: 0.3
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6311"
+        name: Burnt Matches
+        info: "Ultimate deals #1[f1]% more Total DMG. When casting Time of Metamorph,
+          for each SP consumed, the skill additionally deals #2[f1]% ATK of Ice
+          DMG (cap: 15 SP)."
+        brief: "Ultimate deals more Total DMG. Time of Metamorph deals bonus Ice DMG for
+          each SP consumed (cap: 15 SP)."
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.3
+        paramBase2: 0.8
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.04
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "6312"
+        name: Sleeping Thorns
+        info: "Casting Moment of Collapse will inflict Nightmare Thorns on up to 5
+          enemies hit and disable their Soul Link(s). #1[f1]% of the damage
+          taken by each of said enemies will be passed on to the rest (effect:
+          HP loss)."
+        brief: "Casting Moment of Collapse will inflict Nightmare Thorns on up to 5
+          enemies hit and disable their Soul Link(s). Damage taken by each of
+          said enemies will be partially passed on to the rest (effect: HP
+          loss)."
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.06
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.008
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "635"
+    name: A Torn Heart
+    info: "Leader Bonus:\\n<color=#23B2E2FF>Leader Bonus: {{Team deals #1[f1]% more
+      Ice DMG. With Bronya on the team, team's Charged ATKs deal #2[f1]% more
+      Total DMG.}}</color>"
+    icon: Skill_Seele_C3_SP_635
+    skillType: leader
+    tags: []
+    paramSubId1: 6313
+    paramSubId2: 6313
+    paramSubId3: 0
+    subSkills:
+      - id: "6313"
+        name: A Torn Heart
+        info: "Team deals #1[f1]% more Ice DMG. With Bronya on the team, team's Charged
+          ATKs deal #2[f1]% more Total DMG."
+        brief: Team gains Ice DMG. With Bronya on the team, team's Charged ATKs deal
+          more Total DMG.
+        icon: Skill_Nagative_Skill01
+        maxLv: 2
+        paramBase1: 0.27
+        paramBase2: 0.32
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s3
+  - id: "636"
+    name: Hagridden Night
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF>In normal form, the
+      1st, 2nd, 3rd and 4th sequences of Basic ATK each restores 1 Carmine Gash,
+      and the 5th restores 2.\nIn Burst mode, the 1st and 2nd sequences of Basic
+      ATK each restores 1 Carmine Gash, and the 3rd and 4th each restores
+      2.\nCarmine Gashes max out at 6. Each excessive Carmine Gash turns into 1
+      SP.\n\nDuring Burst, Nightmare Stage will take effect throughout.</color>
+    icon: Skill_Seele_C3_SP_636
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "6314"
+        name: The Lonely Beast
+        info: "For every 45 Ice DMG hits enemies take within Nightmare Stage, they take
+          #1[f1]% ATK of Ice DMG and receive <color=#FEDF4CFF>5 Rime
+          Trauma</color>, and Starchasm Nyx recovers 1 Carmine Gash."
+        brief: For every 45 Ice DMG hits enemies take within Nightmare Stage, they take
+          Ice DMG and receive Rime Trauma, and Starchasm Nyx recovers 1 Carmine
+          Gash.
+        icon: Skill_Nagative_Skill01
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.2
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: freeze
+            strength: 1
+            comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+              rate: weak."
+        toggle: false
+        unlockStar: s
+      - id: "6315"
+        name: The Snowy Garden
+        info: "Enemies within Nightmare Stage take #1[f1]% more Ice DMG from Starchasm
+          Nyx's attacks (independent effect)."
+        brief: Enemies within Nightmare Stage take more Ice DMG from Starchasm Nyx's
+          attacks (independent effect).
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.08
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

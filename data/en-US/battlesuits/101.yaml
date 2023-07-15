@@ -1,0 +1,335 @@
+id: "101"
+fullName: White Comet
+shortName: White Comet
+desc: "<color=white>Features: </color><color=#2CE3FFFF>MECH-type</color> melee
+  battlesuit with balanced ATK and DEF."
+firstName: Kiana
+lastName: Kaslana
+enFirstName: null
+enLastName: null
+attributeType: mech
+isEasterner: false
+weapon: pistols
+character: kiana
+initialStar: b
+tags:
+  - physical-dmg
+  - stun
+  - burst
+  - time-mastery
+skills:
+  - id: "11"
+    name: Meteor Kata
+    info: "5-sequence Gun Kata.\\n<color=#23B2E2FF>1st Sequence: 100% ATK of
+      Physical DMG.\\n2nd Sequence: 100% ATK of Physical DMG.\\n3rd Sequence:
+      100% ATK of Physical DMG.\\n4th Sequence: 150%x2 ATK of Physical
+      DMG.\\n5th Sequence: 250% ATK of Physical DMG.</color>"
+    icon: Skill_Kiana_PT_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "101"
+        name: Comet Kata
+        info: "Physical DMG dealt by each sequence of the 4-sequence Basic ATK increases
+          by #1[f1]."
+        brief: Increase Basic ATK Physical DMG
+        icon: Skill_Nagative_Damage01
+        maxLv: 35
+        paramBase1: 6
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 4.02941
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "103"
+        name: Comet Impact
+        info: "When Basic ATK interrupts an enemy, it has a #1[f1]% chance to inflict
+          <color=#FEDF4CFF>3 Stun Trauma</color> (CD: 7s)."
+        brief: When Basic ATK interrupts an enemy, it may inflict Stun Trauma.
+        icon: Skill_Nagative_Damage03
+        maxLv: 18
+        paramBase1: 0.2
+        paramBase2: 1.5
+        paramBase3: 0
+        paramAdd1: 0.01176
+        paramAdd2: 0.02941
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 1
+            comment: "Inflicts Stun Trauma; Trauma charge rate: weak."
+        toggle: false
+        unlockStar: sss
+      - id: "113"
+        name: Comet Break
+        info: "When Basic/Combo ATK breaks an enemy shield, additionally deals #1[f1]%
+          ATK of Physical DMG against the target."
+        brief: When Basic or Combo ATKs break a shield, deal additional Physical DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 60
+        paramBase1: 1.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01695
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "12"
+    name: "<color=#FFC741FF>Combo</color>: Comet Fall"
+    info: "Attacks enemy with a double-kick, punting it into the air and then
+      bringing it down.\\n<color=#23B2E2FF>Punt: 50% ATK of Physical
+      DMG.\\nBring Down: 275% ATK of AOE Physical DMG.</color>"
+    icon: Skill_Kiana_PT_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "102"
+        name: "<color=#FFC741FF>Switch</color>: Neko Stomp"
+        info: "Slams down on entry, dealing #1[f1]% ATK of Physical DMG. Enemies
+          interrupted receive <color=#FEDF4CFF>6 Stun Trauma</color>."
+        brief: Switch skill unleashes a crushing slam to deal Physical DMG. Enemies
+          interrupted receive Stun Trauma.
+        icon: Skill_Nagative_StartUp02
+        maxLv: 20
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.21053
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 2
+            comment: "Inflicts Stun Trauma; Trauma charge rate: medium."
+        toggle: false
+        unlockStar: b
+      - id: "104"
+        name: "<color=#FFC741FF>QTE</color>: Aerial Helix"
+        info: "QTE: Triggered when an enemy is knocked airborne. Deals 375% ATK of +
+          #1[f1] Physical DMG. The last hit inflicts <color=#FEDF4CFF>3 Stun
+          Trauma</color>."
+        brief: "QTE: Triggered when an enemy is knocked airborne to deal Physical DMG
+          and inflict Stun Trauma."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 69
+        paramBase1: 900
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 60.29412
+        paramAdd2: 0
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 1
+            comment: "Inflicts Stun Trauma; Trauma charge rate: weak."
+        toggle: true
+        unlockStar: b
+      - id: "105"
+        name: Gravity Freak
+        info: "The 2nd sequence of Combo ATK and Neko Stomp additionally deal #1[i] Fire
+          DMG against enemies with an unbroken Elite Shield."
+        brief: The downward slam deals an additional Fire DMG to enemy with an unbroken
+          Elite Shield.
+        icon: Skill_Nagative_Damage01
+        maxLv: 56
+        paramBase1: 68
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 19.21818
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "13"
+    name: Neko Cartwheel
+    info: "Quickly cartwheel to evade enemy attacks. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Ultimate Evasion triggers 3s of Global Time
+      Fracture. CD: 15s.\\nTap [ATK] after Ultimate Evasion to connect into
+      Comet Fall.</color>"
+    icon: Skill_Kiana_PT_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "106"
+        name: Temporal Flow
+        info: "Additionally restores #1[f1] SP for the team when Ultimate Evasion
+          triggers Time Fracture."
+        brief: Recovers SP for the whole team when evasion triggers Time Fracture.
+        icon: Skill_Nagative_Damage01
+        maxLv: 12
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.27273
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "112"
+        name: Time Bender
+        info: "Shortens CD of Time Fracture by #1[f1]s."
+        brief: Shortens CD of Time Fracture.
+        icon: Skill_Nagative_Damage01
+        maxLv: 30
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.12069
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "14"
+    name: Neko-Charm!
+    info: "Activates Valkyrie's burst mode and consumes
+      SP.\\n<color=#23B2E2FF>Burst: Consumes SP continuously to gain Attack
+      Speed and Ignore Interrupt.\\nConsumes 20 SP (at over 100 SP) to activate
+      and 10 SP/s afterwards until SP is depleted; max duration: 60s.</color>"
+    icon: Skill_Kiana_PT_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 2
+        comment: "[Valkyrie Impact] is Heavy ATK; Trauma charge: strong. \\n4th hit of
+          Burst mode combo is Heavy ATK; Trauma charge: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "107"
+        name: Valkyrie Impact
+        info: "Burst activation deals #2[f1] Physical DMG to enemies nearby and inflicts
+          <color=#FEDF4CFF>6 Stun Trauma</color> on them."
+        brief: Burst activation deals Physical DMG to and inflicts Stun Trauma on
+          enemies nearby.
+        icon: Skill_Nagative_Control01
+        maxLv: 60
+        paramBase1: 3
+        paramBase2: 210
+        paramBase3: 0
+        paramAdd1: 0.0339
+        paramAdd2: 40.67797
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 2
+            comment: "Inflicts Stun Trauma; Trauma charge rate: medium."
+        toggle: false
+        unlockStar: b
+      - id: "108"
+        name: Valkyrie Barrier
+        info: "The team gains Ignore Interrupt and #1[i]% DEF during Burst."
+        brief: During Burst, team gains Ignore Interrupt and DEF.
+        icon: Skill_Nagative_Skill03
+        maxLv: 20
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.03684
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "114"
+        name: Valkyrie Charge
+        info: "Charges up once every #1[f1]s. The next attack consumes the charge to
+          inflict <color=#FEDF4CFF>6 Stun Trauma</color>."
+        brief: Inflicts Stun Trauma periodically.
+        icon: Skill_Nagative_Control02
+        maxLv: 30
+        paramBase1: 20
+        paramBase2: 1
+        paramBase3: 0
+        paramAdd1: -0.27586
+        paramAdd2: 0.06897
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 2
+            comment: "Inflicts Stun Trauma; Trauma charge rate: medium."
+        toggle: false
+        unlockStar: b
+  - id: "15"
+    name: Comet Bless
+    info: "Leader Bonus: <color=#23B2E2FF>Guider: {{Team gains #1[i]% Max HP in
+      battle.}}</color>"
+    icon: Skill_Kiana_PT_005
+    skillType: leader
+    tags: []
+    paramSubId1: 109
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "109"
+        name: Guider
+        info: "Team gains #1[i]% Max HP in battle."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Survive01
+        maxLv: 4
+        paramBase1: 0.12
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "16"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF></color>
+    icon: Skill_Kiana_PT_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "110"
+        name: Critical Mastery
+        info: "Gains #1[f1]% Crit DMG at above 80% HP."
+        brief: When HP is above 80%, gain Crit DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 25
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00833
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "111"
+        name: Antimatter Rounds
+        info: "Deal #1[f1]% more DMG against shields."
+        brief: Deal more DMG against shields.
+        icon: Skill_Nagative_Damage01
+        maxLv: 20
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01053
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b

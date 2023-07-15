@@ -1,0 +1,400 @@
+id: "2601"
+fullName: Reverist Calico
+shortName: Reverist Calico
+desc: "<color=white>Features: </color><color=#F3DFAEFF>IMG-type</color> melee
+  Valkyrie who fights with a Chakram and has a pet kitten to assist in battle."
+firstName: Pardofelis
+lastName: null
+enFirstName: null
+enLastName: null
+attributeType: img
+isEasterner: true
+weapon: chakram
+character: pardofelis
+initialStar: a
+tags:
+  - ice-dmg
+  - freeze
+  - time-mastery
+  - gather
+skills:
+  - id: "741"
+    name: Gotta Pounce
+    info: "Wield the Chakram as dual blades to slash enemies.\\n<color=#23B2E3FF>SEQ
+      1: 100% ATK of Ice DMG.\\nSEQ 2: 100% ATK of Ice DMG.\\nSEQ 3: Triple
+      strikes dealing 50%+70%x2 ATK of Ice DMG.\\nSEQ 4: Summon cat paws dealing
+      120% ATK of Ice DMG.\\nSEQ 5: Swing cat paws dealing 50%x2+200% ATK of Ice
+      DMG.</color>"
+    icon: Skill_Pardofelis_C1_CG_741
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7401"
+        name: "<color=#FFC741FF>QTE</color>: Here Comes the Kitty"
+        info: "QTE: Triggered when an enemy is Time-Slowed or frozen to deal 8 x #1[f1]%
+          ATK of Ice DMG and reduce switch CD by 4s."
+        brief: "QTE: Triggered when an enemy is Time-Slowed or frozen and reduces switch
+          CD by 4s."
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 1.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+      - id: "7402"
+        name: Kitty's Predation!
+        info: "After using Combo ATK twice, tap [Weapon] to perform Special ATK
+          Predation, dealing #1[f1]% x 13 ATK of Ice DMG and inflicting
+          <color=#FEDF4CFF>12 Rime Trauma</color>. It is registered as both QTE
+          and weapon active. It triggers weapon skill and can be connected into
+          Basic ATK SEQ 4. Exiting resets the count."
+        brief: After two Combo ATK casts, tap [Weapon] to perform Special ATK Predation.
+          It triggers weapon active and can be connected into Basic ATK SEQ 4.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.4
+        paramBase2: 0
+        paramBase3: 1
+        paramAdd1: 0.04
+        paramAdd2: 0
+        paramAdd3: -0.1
+        tags:
+          - type: freeze
+            strength: 2
+            comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+              rate: medium."
+        toggle: false
+        unlockStar: a
+  - id: "742"
+    name: "<color=#FFC741FF>Combo</color>: All Paws on Deck"
+    info: Command Can to assist in battle.\n<color=#23B2E4FF>Two Combo ATK
+      variations based on Can's two Moods. Hold [ATK] with full Mood to consume
+      all of it and perform Combo ATK of the matching Mood.\nConsume full Angry
+      Mood to cast Double Scratch and deal 500% ATK of Ice DMG.\nConsume full
+      Well-behaved Mood to cast Frozen Can, gather enemies, and deal 300% ATK of
+      Ice DMG.</color>
+    icon: Skill_Pardofelis_C1_CG_742
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7404"
+        name: Meow!
+        info: QTE entry fully restores both types of Mood.
+        brief: QTE entry fully restores both types of Mood.
+        icon: Skill_Nagative_Damage01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "7405"
+        name: Plan B
+        info: "Double Scratch and Megaton Furball boost Reverist Calico's Total DMG by
+          #1[f1]% for 15s (can be refreshed). Frozen Can and Megaton Furball
+          make enemies hit take #2[f1]% bonus Total DMG by 15s (can be
+          refreshed)."
+        brief: Double Scratch and Megaton Furball boost Reverist Calico's Total DMG.
+          Frozen Can and Megaton Furball make enemies hit take bonus Total DMG.
+        icon: Skill_Nagative_Damage03
+        maxLv: 8
+        paramBase1: 0.15
+        paramBase2: 0.15
+        paramBase3: 0
+        paramAdd1: 0.02143
+        paramAdd2: 0.02143
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "7406"
+        name: Muddy the Waters
+        info: "Double Scratch restores #1[f1] SP for the team."
+        brief: Double Scratch restores SP for the team.
+        icon: Skill_Nagative_Damage01
+        maxLv: 6
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.4
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "743"
+    name: Gonna Bounce
+    info: "Dash quickly to evade enemy attacks. Can be performed twice in a
+      row.\\n<color=#23B2E5FF> Ultimate Evasion triggers 3s of Global Time
+      Fracture. CD: 15s.</color>"
+    icon: Skill_Pardofelis_C1_CG_743
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7407"
+        name: Cat Walk
+        info: Ultimate Evasions fully restore current Mood.
+        brief: Ultimate Evasions fully restore current Mood.
+        icon: Skill_Nagative_Survive02
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "744"
+    name: Megaton Furball
+    info: "A giant Can falls from the sky and crushes
+      enemies.\\n<color=#23B2E6FF>Reverist Calico hurls the Chakram high up and
+      Can jumps through it, grows into a giant cat, and crashes into enemies,
+      dealing literally tons of DMG.\\nTap [ULT] to deal 2000% ATK of Ice DMG,
+      inflict</color> <color=#FEDF4CFF>18 Rime Trauma</color><color=#23B2E2FF>,
+      fully restore two types of Mood, and activate 10s of Runaway.\\nIn
+      Runaway, two types of Combo ATK deal 50% bonus Ice DMG and switching Mood
+      fully restores the current Mood.\\nExiting ends Runaway.\\n\\nSP cost:
+      125. CD: 20s.</color>"
+    icon: Skill_Pardofelis_C1_CG_744
+    skillType: ultimate
+    tags:
+      - type: freeze
+        strength: 3
+        comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+          rate: strong."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7410"
+        name: Ain't Got All Day!
+        info: "In Runaway, Reverist Calico deals #1[f1]% bonus Ice DMG."
+        brief: In Runaway, Reverist Calico deals bonus Ice DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 6
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7411"
+        name: Ready to Run!
+        info: "Ultimate restores #1[f1] SP per second for the team for 10s."
+        brief: Ultimate restores SP for the team for 10s.
+        icon: Skill_Nagative_Survive02
+        maxLv: 4
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "7412"
+        name: Go Pound'em!
+        info: When hitting a Nihilus Seed, Ultimate instantly depletes its current-phase
+          HP if it's below 20%.
+        brief: When hitting a Nihilus Seed, Ultimate instantly depletes its
+          current-phase HP if it's below 20%.
+        icon: Skill_Nagative_Damage03
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "745"
+    name: Life Is but a Reverie
+    info: "Leader Bonus:\\n<color=#23B2E7FF>{{Team restores SP #1[f1]% faster and
+      deals #2[f1]% bonus Total DMG to frozen enemies.}}</color>"
+    icon: Skill_Pardofelis_C1_CG_745
+    skillType: leader
+    tags: []
+    paramSubId1: 7413
+    paramSubId2: 7413
+    paramSubId3: 0
+    subSkills:
+      - id: "7413"
+        name: Life Is but a Reverie
+        info: "Team restores SP #1[f1]% faster and deal #2[f1]% bonus Total DMG to
+          frozen enemies."
+        brief: Team restores SP faster and deal bonus Total DMG to frozen enemies.
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.19
+        paramBase2: 0.29
+        paramBase3: 0
+        paramAdd1: 0.03
+        paramAdd2: 0.03
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "746"
+    name: Shopowner
+    info: Passive bonuses apply automatically.\n<color=#23B2E8FF>The kitten Can
+      helps Reverist Calico in battle. It shows two different Moods, Angry and
+      Well-behaved, and the Mood type decides Can's attack pattern. Both types
+      of Mood cap at 100.\nBasic ATK SEQ 1 to 4 restore 20 current Mood on hit,
+      and SEQ 5 restores 100.\nEntering the field resets Mood to Angry.\nWhen
+      wielding a Chakram, Reverist Calico uses it as dual blades and obtains
+      weapon skill Paw Barrage, which makes her charge forward and strike
+      enemies repeatedly dealing 125%+150%x2 ATK of Ice DMG and switching Mood.
+      The skill has up to 2 charges and 6s CD.</color>
+    icon: Skill_Pardofelis_C1_CG_746
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7414"
+        name: Bluff
+        info: Runaway restores full weapon active charges.
+        brief: Runaway restores full weapon active charges.
+        icon: Skill_Nagative_Survive02
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "7415"
+        name: Subzero Sales
+        info: "Team deals #1[f1]% bonus Total DMG to frozen enemies."
+        brief: Team deals bonus Total DMG to frozen enemies.
+        icon: Skill_Nagative_Damage02
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7416"
+        name: Start-Up Fund
+        info: "Reverist Calico has #1[f1] bonus initial SP. Can only be triggered once
+          every 10 minutes in Open World."
+        brief: Reverist Calico has bonus initial SP. Can only be triggered once every 10
+          minutes in Open World.
+        icon: Skill_Nagative_Damage03
+        maxLv: 4
+        paramBase1: 20
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 6.66667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "747"
+    name: Survival of the Weak
+    info: After Reverist Calico exits, Can stays on the field to help other
+      Valkyries.\n<color=#23B2E8FF>After Reverist Calico exits, Can appears on
+      the field periodically to dig treasures and then throw Boom-Meow at
+      enemies 3 times within 9s, each time dealing 900% ATK of Ice DMG and
+      restoring 4 SP. The 3rd Boom-Meow inflicts</color> <color=#FEDF4CFF>10
+      Rime Trauma</color>.<color=#23B2E2FF></color>
+    icon: Skill_Pardofelis_C1_CG_747
+    skillType: sp
+    tags:
+      - type: freeze
+        strength: 2
+        comment: "Inflicts Rime Trauma on enemy with a Rime Trauma gauge; Trauma charge
+          rate: medium."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "7417"
+        name: We're a Team
+        info: "Double Scratch additionally restores 40 Well-behaved Mood.\\nFrozen Can
+          additionally restores 40 Angry Mood.\\nCombo ATK deals #1[f1]% bonus
+          Ice DMG."
+        brief: Double Scratch additionally restores Well-behaved Mood by 40
+          points.\nFrozen Can additionally restores Angry Mood by 40
+          points.\nCombo ATK deals bonus Ice DMG.
+        icon: Skill_Nagative_Survive02
+        maxLv: 3
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.075
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "7418"
+        name: Scout Beforehand
+        info: "Weapon actives have one more charge. When Reverist Calico exits in
+          Runaway, Boom-Meow deals #1[f1]% bonus Ice DMG."
+        brief: Weapon actives have one more charge. When Reverist Calico exits in
+          Runaway, Boom-Meow deals bonus Ice DMG.
+        icon: Skill_Nagative_Survive01
+        maxLv: 7
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.33333
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "7419"
+        name: Well-Connected
+        info: "Attacks aided by Can (including QTE, QTE ATK, Ultimate, and Exit ATK)
+          boost team Total DMG by #1[f1]% for 16s. 3 stacks max. Can be
+          refreshed."
+        brief: Attacks aided by Can (including QTE, QTE ATK, Ultimate, and Exit ATK)
+          boost team Total DMG. 3 stacks max
+        icon: Skill_Nagative_Damage02
+        maxLv: 5
+        paramBase1: 0.025
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00625
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss

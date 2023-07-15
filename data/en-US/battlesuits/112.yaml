@@ -1,0 +1,338 @@
+id: "112"
+fullName: Ritual Imayoh
+shortName: Ritual Imayoh
+desc: "<color=white>Features: </color><color=#2CE3FFFF>MECH-type</color>
+  <color=#2CE3FFFF>Awakened</color> melee battlesuit. Store KE charges to
+  unleash powerful rifle blasts."
+firstName: Kallen
+lastName: Kaslana
+enFirstName: null
+enLastName: null
+attributeType: mech
+isEasterner: false
+weapon: pistols
+character: kallen
+initialStar: a
+tags:
+  - physical-dmg
+  - stun
+  - time-mastery
+skills:
+  - id: "271"
+    name: Torrential Nebula
+    info: "6-sequence Gun Kata.\\n<color=#23B2E2FF>Mechanically enhanced 6-sequence
+      Gun Kata:\\n1st Sequence: 2x50% ATK of Physical DMG.\\n2nd Sequence: 3x40%
+      ATK of Physical DMG.\\n3rd Sequence: 3x50%+50% ATK of Physical DMG.\\n4th
+      Sequence: 100%+150% ATK of Physical DMG.\\n5th Sequence: 10x50%+100% ATK
+      of Physical DMG.\\n6th Sequence: 3x100% ATK of Physical DMG.</color>"
+    icon: Skill_Kallen_MC_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2701"
+        name: Deep Gravity
+        info: "The 6-sequence Basic ATK gains #1[f1]% Crit DMG and restores #2[f1]
+          Kinetic Energy for the Valkyrie when scoring a Crit hit."
+        brief: 6-hit Basic ATK sequence gains Crit DMG. Gain Kinetic Energy upon Crit.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.15
+        paramBase2: 10
+        paramBase3: 0
+        paramAdd1: 0.03889
+        paramAdd2: 1.11111
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2703"
+        name: Stygian Aurora
+        info: "When Basic ATK interrupts an enemy, it has a #1[f1]% chance to inflict
+          <color=#FEDF4CFF>3 Stun Trauma</color> (CD: 7s)."
+        brief: When Basic ATK interrupts an enemy, it may inflict Stun Trauma.
+        icon: Skill_Nagative_Control03
+        maxLv: 18
+        paramBase1: 0.2
+        paramBase2: 1.5
+        paramBase3: 0
+        paramAdd1: 0.01176
+        paramAdd2: 0.08824
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 1
+            comment: "Inflicts Stun Trauma; Trauma charge rate: weak."
+        toggle: false
+        unlockStar: sss
+      - id: "2713"
+        name: Impalpable Entity
+        info: "When Basic ATK or Combo ATK breaks a shield, the target and nearby
+          enemies take #1[f1]% ATK of Physical DMG and receive
+          <color=#FEDF4CFF>3 Stun Trauma</color>."
+        brief: Breaking an enemy shield with Basic ATK or Combo ATK deals AoE Physical
+          DMG and inflicts Stun Trauma.
+        icon: Skill_Nagative_Damage03
+        maxLv: 60
+        paramBase1: 1
+        paramBase2: 1.5
+        paramBase3: 0
+        paramAdd1: 0.01358
+        paramAdd2: 0.02542
+        paramAdd3: 0
+        tags:
+          - type: stun
+            strength: 1
+            comment: "Inflicts Stun Trauma; Trauma charge rate: weak."
+        toggle: false
+        unlockStar: a
+  - id: "272"
+    name: "<color=#FFC741FF>Combo</color>: Galactic Collapse"
+    info: "Tap and hold [ATK] after Basic ATK Sequence 1, 5, 6 or evasion to unleash
+      Combo ATK.\\n<color=#23B2E2FF>Kinetic Energy (KE) maxes out at 900 (3
+      stacks of 300 KE each) and slowly regenerates when Valkyrie is deployed.
+      Combo ATK effect is based on the amount of KE stacks filled.\\n0 KE: 2x60%
+      ATK of Physical DMG.\\n1 stack (1-300 KE): 3x170% ATK of Physical DMG.\\n2
+      stacks (301-600 KE): 5x200% ATK of Physical DMG.\\n3 stacks (601-900 KE):
+      2-stack effect plus homing missiles that deal up to 4x250% ATK of Physical
+      DMG.</color>"
+    icon: Skill_Kallen_MC_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2702"
+        name: "<color=#FFC741FF>Switch</color>: Modgud Impact"
+        info: "Switch entry directly unleashes the 3rd hit (upper kick), dealing #1[f1]%
+          ATK of Physical DMG."
+        brief: Switch entry unleashes the upward kick, dealing Physical DMG.
+        icon: Skill_Nagative_StartUp02
+        maxLv: 20
+        paramBase1: 0.8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04211
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "2704"
+        name: "<color=#FFC741FF>QTE</color>: Hela's Geyser"
+        info: "QTE: Triggered when enemy is frozen: directly launch a powerful Cannon
+          ATK, dealing 5x#1[i]% ATK of Physical DMG."
+        brief: "QTE: Triggered when an enemy is frozen to unleashing a powerful Cannon
+          ATK and deal Physical DMG."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 8
+        paramBase1: 0.8
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.11443
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "2705"
+        name: Garm Unbound
+        info: Combo ATK inflicts <color=#FEDF4CFF>2 Ignite Trauma</color> on shielded
+          enemies.
+        brief: Combo ATK inflicts Ignite Trauma on shielded enemies.
+        icon: Skill_Nagative_Damage01
+        maxLv: 8
+        paramBase1: 150
+        paramBase2: 1.01
+        paramBase3: 0
+        paramAdd1: 25.71429
+        paramAdd2: 0.28543
+        paramAdd3: 0
+        tags:
+          - type: ignite
+            strength: 2
+            comment: "Inflicts Ignite Trauma on enemy with an Ignite Trauma gauge; Trauma
+              charge rate: medium."
+        toggle: false
+        unlockStar: s
+  - id: "273"
+    name: Stellar Phantom
+    info: "Quickly evades enemy attack. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Within a short duration after Ultimate Evasion,
+      tap [ATK] to quickly dash to the enemy and unleash a Flying Kick that can
+      be linked to the 4th Sequence of the Basic ATK.\\nTime Fracture: Triggered
+      upon an Ultimate Evasion and slows all enemies for 3s; CD: 15s.</color>"
+    icon: Skill_Kallen_MC_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2706"
+        name: Ghostly Starlight
+        info: "Restores #1[f1] kinetic energy upon Ultimate Evasion."
+        brief: Recovers kinetic energy upon Ultimate Evasion.
+        icon: Skill_Nagative_Skill01
+        maxLv: 10
+        paramBase1: 40
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 4.44778
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "2712"
+        name: Deathly Space
+        info: "Shortens CD of Time Fracture by #1[f1]s."
+        brief: Shortens CD of Time Fracture.
+        icon: Skill_Nagative_Survive01
+        maxLv: 30
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.12069
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "274"
+    name: Death Nova
+    info: "Summon a gun turret for battle \\n<color=#23B2E2FF>Deploys the Eljudnir
+      gun turret [Summoned] that fires 40 penetrating light bullets, dealing 35%
+      Physical DMG for each shot.\\nSP cost: 60.</color>"
+    icon: Skill_Kallen_MC_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2707"
+        name: "Holy Defender I: Sloth"
+        info: "Turret summoning grants #1[f1] Kinetic Energy immediately. When the
+          turret deploys, character deals #2[f1]% ATK of Physical DMG to nearby
+          enemies."
+        brief: Summon the turret to recover Kinetic Energy, dealing Physical DMG to
+          nearby targets.
+        icon: Skill_Nagative_Damage01
+        maxLv: 60
+        paramBase1: 120
+        paramBase2: 2
+        paramBase3: 0
+        paramAdd1: 3.05085
+        paramAdd2: 0.04237
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "2708"
+        name: "Holy Defender II: Idleness"
+        info: "For 6s after summoning the turret, team gains #1[f1]% Move Speed and
+          #2[f1]% Attack Speed."
+        brief: Team gains Attack Speed and Move Speed after summoning the turret.
+        icon: Skill_Nagative_Skill03
+        maxLv: 4
+        paramBase1: 0.15
+        paramBase2: 0.12
+        paramBase3: 0
+        paramAdd1: 0.06667
+        paramAdd2: 0.06
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "2714"
+        name: Meteor Eternia
+        info: "Each time the turret fires a projectile, deal an additional #1[f1]% ATK
+          of Physical DMG."
+        brief: Enhance Turret DMG
+        icon: Skill_Nagative_Damage02
+        maxLv: 6
+        paramBase1: 0.08
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.014
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "275"
+    name: Starlight Blessing
+    info: "Leader Bonus: <color=#23B2E2FF>Star Eater: {{Team gains #1[i]% max HP
+      during combat, and MECH-type characters gain #2[i]% Crit Rate during
+      battle.}}</color>"
+    icon: Skill_Kallen_MC_005
+    skillType: leader
+    tags: []
+    paramSubId1: 2709
+    paramSubId2: 2709
+    paramSubId3: 0
+    subSkills:
+      - id: "2709"
+        name: Star Eater
+        info: "Team gains #1[i]% max HP, and MECH-type character gains #2[i]% Crit Rate
+          during battle."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Survive01
+        maxLv: 4
+        paramBase1: 0.12
+        paramBase2: 0.07
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "276"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF>Valkyrie has 25%
+      bonus Crit Rate. For every 4s after entry, she deals 16% bonus Physical
+      DMG and 8% bonus Total DMG. 5 stacks max. Effect removed after
+      exit.</color>
+    icon: Skill_Kallen_MC_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "2710"
+        name: Scorching Meteor
+        info: "Basic ATK against frozen enemies additionally deals #1[f1]% ATK of Fire
+          DMG."
+        brief: Basic ATKs gain Fire DMG upon hitting a frozen enemy.
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02143
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "2711"
+        name: Eclipse Corona
+        info: "Deal #1[f1]% more DMG against shields."
+        brief: Deal more DMG against shields.
+        icon: Skill_Nagative_Damage01
+        maxLv: 20
+        paramBase1: 0.4
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01054
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b

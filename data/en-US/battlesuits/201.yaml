@@ -1,0 +1,323 @@
+id: "201"
+fullName: Crimson Impulse
+shortName: Crimson Impulse
+desc: "<color=white>Features: </color><color=#FFAF2CFF>BIO-type</color> melee
+  battlesuit with rapid Attack Speed and high Crit."
+firstName: Mei
+lastName: Raiden
+enFirstName: null
+enLastName: null
+attributeType: bio
+isEasterner: true
+weapon: katana
+character: mei
+initialStar: b
+tags:
+  - physical-dmg
+  - bleed
+  - burst
+  - time-mastery
+skills:
+  - id: "51"
+    name: Gotamashiki
+    info: "Swift penta-slash.\\n<color=#23B2E2FF>1st Sequence: 100% ATK of Physical
+      DMG.\\n2nd Sequence: 120% ATK of Physical DMG.\\n3rd Sequence: 75% ATK of
+      Physical DMG.\\n4th Sequence: 80% ATK of Physical DMG.\\n5th Sequence:
+      250% ATK of AOE Physical DMG.</color>"
+    icon: Skill_Mei_CK_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "501"
+        name: Blood Sakura
+        info: "Basic ATK has a #1[f1]% chance to inflict <color=#FEDF4CFF>2 Bleed
+          Trauma</color>."
+        brief: Basic ATK may inflict Bleed Trauma.
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 0.1
+        paramBase2: 3
+        paramBase3: 3
+        paramAdd1: 0.00345
+        paramAdd2: 1
+        paramAdd3: 0.06897
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "Inflicts Bleed Trauma; Trauma charge rate: very weak."
+        toggle: false
+        unlockStar: a
+      - id: "502"
+        name: Relentless Slash
+        info: "Increases Attack Speed by #1[f1]% when Combo Hit Count exceeds 20."
+        brief: Gains Attack Speed when Combo Hit Count exceeds 20.
+        icon: Skill_Nagative_Damage01
+        maxLv: 20
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00263
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "503"
+        name: Night Sakura
+        info: "Final hit of Basic ATK increases Combo ATK DMG by #1[i]% for #2[f1]s."
+        brief: Final hit of Basic ATK increases Combo ATK Physical DMG for a short
+          period of time.
+        icon: Skill_Nagative_Damage03
+        maxLv: 28
+        paramBase1: 0.1
+        paramBase2: 3
+        paramBase3: 0
+        paramAdd1: 0.0037
+        paramAdd2: 0.11111
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "52"
+    name: "<color=#FFC741FF>Combo</color>: Whirling Petals"
+    info: "Soaring whirlwind slash that knocks surrounding enemies
+      airborne.\\n<color=#23B2E2FF>Whirling Slash: 7x 60% ATK of Physical
+      DMG.</color>"
+    icon: Skill_Mei_CK_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "504"
+        name: "<color=#FFC741FF>QTE</color>: Iaido Whirlwind"
+        info: "Switch entry unleashes an Insta-Slash. QTE: Triggers upon shieldbreak or
+          when an enemy is knocked airborne. Enters the battlefield with a
+          whirlwind attack that deals 225% + #1[i]% ATK of Physical DMG."
+        brief: "QTE: Triggered when an enemy is knocked airborne to unleash Storm
+          Slasher to attack nearby enemies."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 70
+        paramBase1: 2.75
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01812
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: b
+      - id: "505"
+        name: Double Whirlwind
+        info: "Tap the [ATK] button during Combo ATK to unleash 1 more Combo ATK. DMG
+          dealt equals #1[f1]% of the 1st hit of the 1st Combo ATK."
+        brief: Tap the [ATK] button during Combo ATK to unleash 1 more Combo ATK.
+        icon: Skill_Nagative_Skill03
+        maxLv: 40
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01282
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "506"
+        name: Airborne Whirlwind
+        info: Triggers a Combo ATK by tap-and-holding the [ATK] button during any Basic
+          ATK.
+        brief: Triggers a Combo ATK by tap-and-holding the [ATK] button during any Basic
+          ATK.
+        icon: Skill_Nagative_Skill01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+  - id: "53"
+    name: Phantom Blade
+    info: "Quick dash to evade enemy attacks. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Time Fracture: Triggers upon an Ultimate Evasion
+      and lasts 3s; CD: 15s.</color>"
+    icon: Skill_Mei_CK_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "507"
+        name: Insta-Slash
+        info: "Triggered by tapping the [ATK] button after evasion. When evasion
+          triggers Time Fracture, Insta-Slash deals additional #1[f1]% ATK of
+          Physical DMG."
+        brief: Triggered by tapping the [ATK] button after evasion. Insta-Slash deals
+          additional Physical DMG when Time Fracture is triggered.
+        icon: Skill_Nagative_Skill02
+        maxLv: 60
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01695
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "508"
+        name: Inner Shade
+        info: "Increases Attack Speed by #1[f1]% during Time Fracture triggered by own
+          evasion."
+        brief: Gains Attack speed when Time Fracture is triggered after Ultimate
+          Evasion.
+        icon: Skill_Nagative_Damage02
+        maxLv: 5
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "514"
+        name: Shadow Razor
+        info: "Shortens CD of Time Fracture by #1[f1]s."
+        brief: Shortens CD of Time Fracture.
+        icon: Skill_Nagative_Survive01
+        maxLv: 30
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.12069
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "54"
+    name: Amaterasu
+    info: "Activates Valkyrie SP burst to unleash a forward
+      slash.\\n<color=#23B2E2FF>Amaterasu: Up to 1150% ATK of Physical DMG.\\nSP
+      Cost: 50</color>"
+    icon: Skill_Mei_CK_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "509"
+        name: Soul Power
+        info: "Each strike of Amaterasu additionally deals #1[f1]% ATK of Fire DMG. Can
+          be triggered up to 17 times."
+        brief: Amaterasu deals additional Fire DMG.
+        icon: Skill_Nagative_Damage01
+        maxLv: 35
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00235
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "510"
+        name: Spirit Blade
+        info: "Gain 15 Max SP in battle. Amaterasu costs 20 more SP, but activates
+          Valkyrie mode after casting, boosting all attacks for #1[f1]s."
+        brief: Increase Max SP. Amaterasu costs 20 more SP, but activates Valkyrie mode
+          after casting, boosting all attacks.
+        icon: Skill_Nagative_Damage02
+        maxLv: 20
+        paramBase1: 3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.10526
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: ss
+      - id: "511"
+        name: Sakura no Haku
+        info: "Valkyrie state deals augmented blade attacks, with each hit dealing an
+          additional #1[f1]% ATK of Physical DMG."
+        brief: Valkyrie mode deals additional Physical DMG in each hit.
+        icon: Skill_Nagative_Damage03
+        maxLv: 25
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00417
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "55"
+    name: Spirit of Loyalty
+    info: "Leader Bonus: <color=#23B2E2FF>Spirit of Loyalty: {{When Combo Hit Count
+      exceeds 20, team gains #1[i]% Physical DMG.}}</color>"
+    icon: Skill_Mei_CK_005
+    skillType: leader
+    tags: []
+    paramSubId1: 512
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "512"
+        name: Spirit of Loyalty
+        info: "Increases the team's Physical DMG by #1[i]% when Combo Hit Count exceeds
+          20."
+        brief: Team gains Physical DMG when Combo Hit Count exceeds 20.
+        icon: Skill_Nagative_Survive01
+        maxLv: 4
+        paramBase1: 0.12
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "56"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF></color>
+    icon: Skill_Mei_CK_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "513"
+        name: Piercing Blade
+        info: "Increases Crit Rate by #1[f1]% and Crit DMG by #2[f1]% against an enemy
+          with breached elite shield."
+        brief: Increases Crit Rate and Crit DMG against an enemy with broken elite
+          shield.
+        icon: Skill_Nagative_Damage01
+        maxLv: 70
+        paramBase1: 0.2
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.00362
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b

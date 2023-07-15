@@ -1,0 +1,349 @@
+id: "711"
+fullName: Swallowtail Phantasm
+shortName: Swallowtail Phantasm
+desc: "<color=white>Features: </color><color=#AE98FFFF>QUA-type</color> melee
+  battlesuit. Uses Veil energy to temporarily become a Shadow Avatar who deals
+  large AOE DMG."
+firstName: Seele
+lastName: Vollerei
+enFirstName: null
+enLastName: null
+attributeType: qua
+isEasterner: false
+weapon: scythe
+character: seele
+initialStar: a
+tags:
+  - physical-dmg
+  - burst
+skills:
+  - id: "441"
+    name: Shear of Phantasos
+    info: "5-sequence sweeping scythe attack.\\n<color=#23B2E2FF>1st Sequence: 100%
+      ATK of Physical DMG.\\n2nd Sequence: 80%+100% ATK of Physical DMG.\\n3rd
+      Sequence: 2x60%+120% ATK of Physical DMG.\\n4th Sequence: 120%+160% ATK of
+      Physical DMG.\\n5th Sequence: 2x80%+240% ATK of Physical DMG.\\nRestores
+      15 Veil when Basic ATK hits any enemy.</color>"
+    icon: Skill_Seele_QT_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4401"
+        name: Serene Reaper
+        info: "Gain #1[i] Veil when hitting with the 5-sequence Basic ATK."
+        brief: Gain Veil when Basic ATKs hit.
+        icon: Skill_Nagative_Skill01
+        maxLv: 10
+        paramBase1: 22
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.44667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "4402"
+        name: Veliona's Succor
+        info: "Heal #1[f1] HP when Basic ATKs score a Crit. CD: #2[f1]s."
+        brief: Heals HP when Basic ATKs score a Crit.
+        icon: Skill_Nagative_Survive02
+        maxLv: 35
+        paramBase1: 50
+        paramBase2: 7
+        paramBase3: 0
+        paramAdd1: 3.23529
+        paramAdd2: -0.05882
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+  - id: "442"
+    name: "<color=#FFC741FF>Charged</color>: Fluttering Ripple"
+    info: Charged ATK can be performed during Basic ATKs.\n<color=#23B2E2FF>Tap and
+      hold [ATK] during the Basic ATK sequence to deal 4x150% ATK of Physical
+      DMG.</color>
+    icon: Skill_Seele_QT_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4403"
+        name: Sublime Current
+        info: "Recover #1[f1] SP when performing Charged ATK."
+        brief: Recover SP with Charged ATK.
+        icon: Skill_Nagative_Skill02
+        maxLv: 7
+        paramBase1: 7
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "4404"
+        name: Particle Vibration
+        info: "Charged ATKs also inflicts Vibration Mode on enemies for 6s to slow their
+          Move Speed by 40% and make them take #1[f1]% bonus Total DMG from
+          Swallowtail Phantasm (independent effect)."
+        brief: Charged ATK debuffs enemies, slowing them and making them take more DMG
+          from the character.
+        icon: Skill_Nagative_Damage02
+        maxLv: 24
+        paramBase1: 0.15
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00652
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "4405"
+        name: "<color=#FFC741FF>QTE</color>: Soul Taker"
+        info: "QTE: Triggers when enemy is affected by Time Slow, dealing 4x200% ATK of
+          Physical DMG. Scoring a hit on enemies recovers #1[i] Veil and #2[f1]
+          SP, and activates Phase Warp State."
+        brief: "QTE: Triggered by Time Slow to restore Veil, SP, and activate Phase Warp
+          State."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 16
+        paramBase1: 180
+        paramBase2: 4
+        paramBase3: 0
+        paramAdd1: 4.66733
+        paramAdd2: 0.26667
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: a
+  - id: "443"
+    name: Blinking Flash
+    info: "Evades enemy attack. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Restores 30 Veil upon Ultimate Evasion.\\nPlane
+      Warp: In non-Burst mode, enters Phase Warp State (lasts 3s) upon Ultimate
+      Evasion and can directly unleash the 4th sequence of Basic ATK, during
+      which the Valkyrie gains 20% Total DMG Reduction and can shuttle through
+      enemies; Burst mode bonus: additionally gains 30 Veil and performs a
+      special shuttle ATK that deals 2x60%+2x100%+480% ATK of Physical DMG and
+      inflicts Veliona's Binding that reduces 40% Move Speed. CD:
+      15s.\\nVeliona's Binding overrides Vibration Mode until Burst mode ends.
+      Max duration: 6s.</color>"
+    icon: Skill_Seele_QT_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4406"
+        name: Quantum Form
+        info: "Ultimate Evasions gain #1[i] Veil. Plane Warp CD shortened by #2[f1]s."
+        brief: Ultimate Evasions recover more Veil and have faster CD.
+        icon: Skill_Nagative_Skill02
+        maxLv: 18
+        paramBase1: 100
+        paramBase2: 6
+        paramBase3: 0
+        paramAdd1: 1.17765
+        paramAdd2: 0.11765
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "4407"
+        name: Tunnelling Effect
+        info: "Extends duration of Phase Warp State to #1[f1]s and raises DMG Reduction
+          to #2[f1]%."
+        brief: Phase Warp lasts longer and gives more DMG reduction.
+        icon: Skill_Nagative_Survive01
+        maxLv: 21
+        paramBase1: 3.5
+        paramBase2: 0.25
+        paramBase3: 0
+        paramAdd1: 0.125
+        paramAdd2: 0.0075
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "4408"
+        name: Traceless Shift
+        info: "During Phase Warp, gains #1[f1]% Physical DMG and #2[f1]% SP recovery
+          rate."
+        brief: During Plane Warp, deal more Physical DMG and get faster ATK SP recovery.
+        icon: Skill_Nagative_Damage01
+        maxLv: 20
+        paramBase1: 0.15
+        paramBase2: 0.4
+        paramBase3: 0
+        paramAdd1: 0.00526
+        paramAdd2: 0.00526
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "444"
+    name: Veliona's Torrent
+    info: "Assumes Shadow Avatar powers to enter Burst
+      mode.\\n<color=#23B2E2FF>Performs a multi-sequence shuttle ATK to deal
+      6x150% ATK of Physical DMG, gains Avatar powers to deal 2x200%+600% ATK of
+      Physical DMG, then enters Burst mode to get 250 Veil.\\nFinal blow
+      inflicts Veliona's Binding and one Quantum Implosion against QUA
+      enemies.\\nBurst: Gain crit multiplier for Basic ATK and 50% Total DMG
+      Reduction. Tap and hold [ATK] to spend an evasion and perform a special
+      shuttle ATK and trigger Plane Warp.\\nCost: 30 Veil per 0.5s. Max
+      duration: 18s.\\nCD: 25s. SP cost: 125</color>"
+    icon: Skill_Seele_QT_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 3
+        comment: "Last hit of Ultimate activation is Heavy ATK; Trauma charge: strong."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4409"
+        name: Scarlet Chain
+        info: "In Burst mode: Enemy kills can be directly connected into special shuttle
+          ATKs that inflict Veliona's Binding. Enemies affected by this debuff
+          takes #1[f1]% bonus Total DMG from Swallowtail Phantasm's attacks
+          (independent effect)."
+        brief: "Burst: Kills can be linked to special Shuttle ATKs. Enemy with Veliona's
+          Binding take more DMG from the character."
+        icon: Skill_Nagative_Damage03
+        maxLv: 22
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00952
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "4410"
+        name: Shade of Folly
+        info: "In Burst mode: Triggering Plane Warp restores #1[i] Veil."
+        brief: "Burst: Triggering Plane Warp gains more Veil."
+        icon: Skill_Nagative_Skill03
+        maxLv: 13
+        paramBase1: 140
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 3.33417
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "4411"
+        name: Oneiric Shade
+        info: "In Burst mode: Gains #1[f1]% Physical DMG; final sequence of the special
+          shuttle ATK additionally deals #2[f1]% ATK of Physical DMG."
+        brief: "Burst: Character deals more Physical DMG; special shuttle ATKs also deal
+          more DMG."
+        icon: Skill_Nagative_Damage03
+        maxLv: 27
+        paramBase1: 0.2
+        paramBase2: 0.9
+        paramBase3: 0
+        paramAdd1: 0.00577
+        paramAdd2: 0.03462
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "445"
+    name: Azure Nymph
+    info: "Leader Bonus: <color=#23B2E2FF>Azure Nymph: {{Team gains #1[i]% Crit Rate
+      in Burst mode. If Bronya is in the team, team also gains #2[i]% Total DMG
+      Multiplier.}}</color>"
+    icon: Skill_Seele_QT_005
+    skillType: leader
+    tags: []
+    paramSubId1: 4412
+    paramSubId2: 4412
+    paramSubId3: 0
+    subSkills:
+      - id: "4412"
+        name: Azure Nymph
+        info: "Team gains #1[i]% Crit Rate in Burst mode. If Bronya is on the team, team
+          also gains #2[i]% Total DMG."
+        brief: Leader Skill is improved.
+        icon: Skill_Nagative_Damage02
+        maxLv: 3
+        paramBase1: 0.16
+        paramBase2: 0.12
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "446"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF>Veil is maxed at
+      500.</color>
+    icon: Skill_Seele_QT_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "4413"
+        name: Fragile Flight
+        info: "ATKs deal #1[f1]% more Total DMG against impaired enemies."
+        brief: Deal more DMG against impaired enemies.
+        icon: Skill_Nagative_Damage03
+        maxLv: 3
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "4414"
+        name: Unending Fantasy
+        info: "When Combo Hit Count exceeds 10/30/50, character gains
+          #1[f2]%/#2[f2]%/#3[f2]% Crit DMG."
+        brief: Gain Crit DMG at higher Combo Hit Count.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 0.1
+        paramBase2: 0.2
+        paramBase3: 0.3
+        paramAdd1: 0.01111
+        paramAdd2: 0.02222
+        paramAdd3: 0.03333
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "4415"
+        name: Soul Devourer
+        info: "Gain #1[f1] Veil for each enemy kill."
+        brief: Gain Veil by killing enemies.
+        icon: Skill_Nagative_Skill01
+        maxLv: 10
+        paramBase1: 100
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 5.55667
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a

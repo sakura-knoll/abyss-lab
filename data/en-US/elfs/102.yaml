@@ -1,0 +1,168 @@
+id: "102"
+fullName: Jingwei's Wings
+icon: Elf_02
+cardIcon: Elf_10002
+chibiIcon: Elf_10002
+figureImage: Elf_10002
+rarity: 3
+cardId: 380102
+fragmentId: 370102
+storyDesc: An ELF version of the Pantheon-series pistols Jingwei's Wings. She is
+  a divine bird that soars in the air and wields crimson fire.\n\nBut try not to
+  let her talk. Once she starts, the ELF will just keep going on and on and on
+  about her years of experience. She's working very hard to become a
+  well-learned sage and master, but she ended up being a noisy nagger. \n\nLike
+  the fiery pistols named Jingwei's Wings itself, the ELF is also a skilled fire
+  wielder. She can also quickly heal injuries on her human companions. The ELFs
+  truly have great potential.
+ultSkillCd: 40
+ultSkillCost: 50
+skillBg: TalentBg2
+tags:
+  - type: fire-dmg
+    comment: null
+captainSkillIds: []
+skills:
+  - id: "10201"
+    elfId: "102"
+    name: Blazing Pinion
+    info: Uses the Blazing Pinion to deal 400% ATK of Fire DMG against the target
+      spot, and restores <color=#ff9900>#1[i]</color> SP upon hit.
+    skillType: Basic
+    skillTypeId: "1"
+    icon: Skill_Elf_Attack_102
+    row: 1
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 5
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10202"
+    elfId: "102"
+    name: Legacy of Starfire
+    info: Perform Jingwei's Dance to heal Valkyries on the field for
+      <color=#ff9900>#1[i]</color> HP per 0.25s for a total of 5 times. Once the
+      Dance ends, the ELF releases her fiery energy to deal 1400% ATK of Fire
+      DMG to enemies near the Valkyrie.
+    skillType: Ultimate
+    skillTypeId: "0"
+    icon: Skill_Elf_Ultra
+    row: 2
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 100
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10203"
+    elfId: "102"
+    name: Fire Fairy
+    info: ELF's Fire DMG increases by <color=#ff9900>#1[i]%</color> and heals
+      <color=#ff9900>#2[i]%</color> more HP for the Valkyrie.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Passive
+    row: 3
+    col: 1
+    unlockStar: 1
+    maxLv: 4
+    paramBase1: 0.11
+    paramBase2: 0.15
+    paramBase3: 0
+    paramAdd1: 0.03
+    paramAdd2: 0.05
+    paramAdd3: 0
+  - id: "102011"
+    elfId: "102"
+    name: Light Pursuer
+    info: ELF's Basic ATK deals <color=#ff9900>#1[f1]%</color> more Total DMG.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_Up
+    row: 1
+    col: 2
+    unlockStar: 1
+    maxLv: 5
+    paramBase1: 0.12
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0325
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "102031"
+    elfId: "102"
+    name: Recuperation
+    info: When ELF casts Ultimate, heals the Valkyrie for
+      <color=#ff9900>#1[i]</color> HP.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Ultra_Heal
+    row: 4
+    col: 1
+    unlockStar: 2
+    maxLv: 6
+    paramBase1: 135
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 27
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "102032"
+    elfId: "102"
+    name: Resuscitation
+    info: ELF healing effects improve by <color=#ff9900>#1[f1]%</color>.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Heal
+    row: 4
+    col: 2
+    unlockStar: 2
+    maxLv: 6
+    paramBase1: 0.12
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.024
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "102033"
+    elfId: "102"
+    name: Fire Signet
+    info: "ELF Basic ATK additionally restores <color=#ff9900>#1[i]</color> SP; CD:
+      <color=#ff9900>#2[i]</color>s."
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 4
+    col: 3
+    unlockStar: 2
+    maxLv: 6
+    paramBase1: 2.5
+    paramBase2: 6
+    paramBase3: 0
+    paramAdd1: 0.5
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "102034"
+    elfId: "102"
+    name: Contemplation
+    info: ELF's SP recovery rate increases by <color=#ff9900>#1[f1]%</color>.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 4
+    col: 4
+    unlockStar: 4
+    maxLv: 6
+    paramBase1: 0.06
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.012
+    paramAdd2: 0
+    paramAdd3: 0

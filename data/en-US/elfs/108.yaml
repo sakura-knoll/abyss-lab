@@ -1,0 +1,279 @@
+id: "108"
+fullName: Tesla ZERO
+icon: Elf_08
+cardIcon: Elf_10008
+chibiIcon: Elf_10008
+figureImage: Elf_10008
+rarity: 4
+cardId: 380108
+fragmentId: 370108
+storyDesc: null
+ultSkillCd: 35
+ultSkillCost: 75
+skillBg: TalentBg8
+tags:
+  - type: physical-dmg
+    comment: null
+captainSkillIds:
+  - "10803"
+  - "108031"
+  - "108032"
+skills:
+  - id: "10801"
+    elfId: "108"
+    name: EM Haymaker
+    info: Basic ATK deals <color=#ff9900>#1[f1]%</color> ATK of Physical DMG.
+    skillType: Basic
+    skillTypeId: "1"
+    icon: Skill_Elf_Attack_106
+    row: 1
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 4
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10802"
+    elfId: "108"
+    name: "Power: ULTRA"
+    info: ELF enters burst mode and launches fast attacks in midair for 10s. Each
+      sequence deals <color=#ff9900>#1[f1]%</color> ATK of Physical DMG. ELF's
+      Crit Rate increases by <color=#ff9900>#2[f1]%</color> every second (5
+      stacks max) until burst mode ends. ELF skill button is lit up at max
+      stacks.
+    skillType: Ultimate
+    skillTypeId: "0"
+    icon: Skill_Elf_Ultra
+    row: 2
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 1
+    paramBase2: 0.12
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10803"
+    elfId: "108"
+    name: Harmonic Link
+    info: <color=#23b2e2>[Team]</color> Team deals <color=#ff9900>#1[f1]%</color>
+      bonus Physical DMG and an additional <color=#ff9900>#2[f1]%</color> bonus
+      Physical DMG if all 3 members are the same type.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Passive
+    row: 3
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.03
+    paramBase2: 0.02
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "10804"
+    elfId: "108"
+    name: Hard Trauma
+    info: When ELF skill is cast again during burst mode or when burst mode ends,
+      ELF leaps up to deal <color=#ff9900>#1[f1]%</color> x2 ATK of Physical DMG
+      and ELF skill enters cooldown.
+    skillType: Ultimate
+    skillTypeId: "2"
+    icon: Skill_Elf_QTE
+    row: 4
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 18
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "108011"
+    elfId: "108"
+    name: Charge
+    info: "ELF's Basic ATKs restore <color=#ff9900>#1[f1]</color> bonus SP on hit
+      for itself. CD: 2s."
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 1
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 3
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.5
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "108012"
+    elfId: "108"
+    name: Disruptive Punch
+    info: "ELF's attacks have a <color=#ff9900>#1[f1]%</color> chance to deal
+      <color=#ff9900>#2[f1]%</color> bonus Physical DMG. CD: 10s."
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Burn
+    row: 1
+    col: 3
+    unlockStar: 4
+    maxLv: 3
+    paramBase1: 0.1
+    paramBase2: 0.5
+    paramBase3: 0
+    paramAdd1: 0.05
+    paramAdd2: 0.5
+    paramAdd3: 0
+  - id: "108013"
+    elfId: "108"
+    name: Smelter Knuckle
+    info: "ELF deals <color=#ff9900>#1[f1]%</color> bonus Total DMG for 10s after
+      landing a hit. 3 stacks max. CD: 1s."
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Ultra_Strong
+    row: 1
+    col: 4
+    unlockStar: 7
+    maxLv: 5
+    paramBase1: 0.03
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0075
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "108021"
+    elfId: "108"
+    name: Super RAD
+    info: The 1st attack in burst mode inflicts 6 Bleed Trauma on enemies.
+      Meanwhile, enemies hit take 600% ATK of Physical DMG in 10s, and ELF deals
+      <color=#ff9900>#2[f1]%</color> bonus Total DMG to bleeding enemies for
+      <color=#ff9900>#1[f1]</color>s.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_QTE
+    row: 2
+    col: 2
+    unlockStar: 2
+    maxLv: 3
+    paramBase1: 5
+    paramBase2: 0.06
+    paramBase3: 0
+    paramAdd1: 2.5
+    paramAdd2: 0.03
+    paramAdd3: 0
+  - id: "108022"
+    elfId: "108"
+    name: Fine Tuning
+    info: ELF's initial SP increases by <color=#ff9900>#1[i]</color>.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 2
+    col: 3
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 30
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 5
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "108023"
+    elfId: "108"
+    name: Super Critical
+    info: ELF's Ultimate deals <color=#ff9900>#1[f1]%</color> bonus Total DMG.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 2
+    col: 4
+    unlockStar: 4
+    maxLv: 3
+    paramBase1: 0.08
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.06
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "108031"
+    elfId: "108"
+    name: Rapid Harmonics
+    info: <color=#23b2e2>[Team]</color> With at least 1 Fast ATK Valkyrie, team
+      deals <color=#ff9900>#1[f1]%</color> bonus Physical DMG and the last hit
+      of ELF's Ultimate becomes Heavy ATK with strong trauma charge.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_BreakShield
+    row: 3
+    col: 2
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.02
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.005
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "108032"
+    elfId: "108"
+    name: Super Overdrive
+    info: <color=#23b2e2>[Team]</color> With at least 1 Burst Valkyrie, team deals
+      <color=#ff9900>#1[f1]%</color> bonus Physical DMG and every hit of ELF's
+      Ultimate deals <color=#ff9900>#2[f1]%</color> ATK of bonus Physical DMG.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Attack_Up
+    row: 3
+    col: 3
+    unlockStar: 7
+    maxLv: 5
+    paramBase1: 0.02
+    paramBase2: 0.25
+    paramBase3: 0
+    paramAdd1: 0.005
+    paramAdd2: 0.0625
+    paramAdd3: 0
+  - id: "108041"
+    elfId: "108"
+    name: Burst Charge
+    info: When the last hit of Ultimate crits, ELF restores
+      <color=#ff9900>#1[f1]</color> SP per second for 5s.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 4
+    col: 2
+    unlockStar: 2
+    maxLv: 3
+    paramBase1: 0.5
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.5
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "108042"
+    elfId: "108"
+    name: Particle Stream
+    info: The last sequence of Ultimate makes enemies take
+      <color=#ff9900>#1[f1]%</color> bonus Physical DMG for 10s.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 4
+    col: 3
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.03
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0075
+    paramAdd2: 0
+    paramAdd3: 0

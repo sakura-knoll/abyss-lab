@@ -1,0 +1,45 @@
+id: "68"
+name: Anti-Entropy Band set
+desc: null
+skills:
+  - id: "4086"
+    name: Lightning Chord
+    info: "Every Basic/Combo/Charged ATK grants 1 stack of Accord Charge (CD: 1s).
+      With 4 stacks of Accord Charge, clear the stacks and unleash Chain
+      Lightning that attacks #1[i] random targets, inflicting <color=#FEDF4CFF>3
+      Paralyze Trauma</color> and dealing #2[i]% ATK of Lightning DMG to the
+      first target, with each leap dealing #3[i]% less total Lightning DMG.
+      Chain Lightning does not hit the same target twice. Chain Lightning CD:
+      15s."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: lightning-dmg
+        comment: null
+    param1: 4
+    param1Add: 0
+    param2: 6
+    param2Add: 0
+    param3: 0.2
+    param3Add: 0
+  - id: "4087"
+    name: Advanced Chord
+    info: "Gain #1[i]% Max HP and #2[i]% Lightning DMG in battle. Lightning DMG
+      dealt by Chain Lightning no longer decays with each leap."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: lightning-dmg
+        comment: null
+    param1: 0.2
+    param1Add: 0
+    param2: 0.4
+    param2Add: 0
+    param3: 0.2
+    param3Add: 0
+stigmaIdList:
+  - "110681"
+  - "110682"
+  - "110683"

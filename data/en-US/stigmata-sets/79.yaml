@@ -1,0 +1,44 @@
+id: "79"
+name: Night Vigilante set
+desc: null
+skills:
+  - id: "4108"
+    name: Blink
+    info: Gain 1 charge for every 10s on the field. With enemies nearby, deal 100%
+      ATK of Lightning DMG to a random nearby enemy, and inflict
+      <color=#FEDF4CFF>3 Stun Trauma</color>, and activate Destreza mode. Any
+      evasion will trigger Ultimate Evasion effects (a successful Ultimate
+      Evasion will end Destreza). First entry unleashes a Lightning Shockwave.
+      After Ultimate Evasion, Combo/Charged ATKs deal 20% bonus Total DMG for 5s
+      (triggering it again refreshes the duration).
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags: []
+    param1: 1
+    param1Add: 0
+    param2: 0.2
+    param2Add: 0
+    param3: 5
+    param3Add: 0
+  - id: "4109"
+    name: Tajo Z
+    info: "After Ultimate Evasion, the next attack unleashes a Z-slash (CD: #1[i]s).
+      The Z-slash deals #2[i]% ATK of Physical DMG to enemies within a small
+      AOE. Also applies impair, lowering enemy DEF by #3[i]% for 5s."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: physical-dmg
+        comment: null
+    param1: 10
+    param1Add: 0
+    param2: 3
+    param2Add: 0
+    param3: 0.5
+    param3Add: 0
+stigmaIdList:
+  - "110791"
+  - "110792"
+  - "110793"

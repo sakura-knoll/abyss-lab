@@ -1,0 +1,42 @@
+id: "59"
+name: Schicksal Overseer set
+desc: null
+skills:
+  - id: "4069"
+    name: Spear of Punishment
+    info: "Each of the host's Basic ATK hits grants 1 Charge stack (CD: 0.8s). After
+      gaining 3 Charge stacks, the next Charged ATK hitting an enemy generates a
+      Punishment Field (summoned entity) with a #1[i]-meter radius that lasts
+      #2[f1]s. Enemies inside the field become conductive and take #3[i]% more
+      Lightning DMG. This effect cannot stack."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags:
+      - type: lightning-dmg
+        comment: null
+    param1: 3
+    param1Add: 0
+    param2: 4
+    param2Add: 0
+    param3: 0.4
+    param3Add: 0
+  - id: "4070"
+    name: Spear of Sky
+    info: "Charges once every #1[i]s. The next charged attack adds a Sky Brand to
+      the target. The Sky Brand explodes after a 0.5s delay, dealing (#2[i]% ATK
+      of Lightning DMG to nearby enemies."
+    skillCd: 0
+    skillSpCost: 0
+    skillSpNeed: 0
+    tags: []
+    param1: 5
+    param1Add: 0
+    param2: 0.8
+    param2Add: 0
+    param3: 0
+    param3Add: 0
+stigmaIdList:
+  - "110591"
+  - "110592"
+  - "110593"

@@ -1,0 +1,329 @@
+id: "211"
+fullName: Gyakushinn Miko
+shortName: Gyakushinn Miko
+desc: "<color=white>Features: </color><color=#FFAF2CFF>BIO-type</color>
+  <color=#FFAF2CFF>Awakened</color> melee battlesuit that brands the enemies and
+  triggering these brands to deal massive DMG."
+firstName: Sakura
+lastName: Yae
+enFirstName: null
+enLastName: null
+attributeType: bio
+isEasterner: true
+weapon: katana
+character: sakura
+initialStar: a
+tags:
+  - physical-dmg
+  - bleed
+  - burst
+skills:
+  - id: "171"
+    name: Sakuraoti
+    info: "Swift 6-sequence slash attack.\\n<color=#23B2E2FF>1st Sequence: 50% ATK
+      of DMG.\\n2nd Sequence: 70% ATK of DMG.\\n3rd Sequence: 100% ATK of
+      DMG.\\n4th Sequence: 120% ATK of DMG.\\n5th Sequence: 120% ATK of
+      DMG.\\n6th Sequence: 150% ATK of DMG.\\nThe 3rd and 5th sequences of the
+      Basic ATK inflicts 1 Sakura Count on the target.</color>"
+    icon: Skill_Sakura_YS_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1701"
+        name: Thorny Blossoms
+        info: "Enemies hit have a #1[f1]% chance to receive <color=#FEDF4CFF>2 Bleed
+          Trauma</color>."
+        brief: Enemies hit may receive Bleed Trauma.
+        icon: Skill_Nagative_Damage02
+        maxLv: 30
+        paramBase1: 0.1
+        paramBase2: 3
+        paramBase3: 3
+        paramAdd1: 0.00345
+        paramAdd2: 1
+        paramAdd3: 0.06897
+        tags:
+          - type: bleed
+            strength: 1
+            comment: "Inflicts Bleed Trauma; Trauma charge rate: very weak."
+        toggle: false
+        unlockStar: a
+      - id: "1702"
+        name: Flourish
+        info: "When Combo Hit Count exceeds 20/50, gains #1[f1]%/#2[f1]% Total DMG."
+        brief: When Combo Hit Count exceeds 20 and 50 respectively, gain Total DMG
+          Multiplier.
+        icon: Skill_Nagative_Damage01
+        maxLv: 20
+        paramBase1: 0.1
+        paramBase2: 0.12
+        paramBase3: 0
+        paramAdd1: 0.01
+        paramAdd2: 0.02
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "1703"
+        name: San-Ge Brand
+        info: "Extends the duration of Sakura Brand applied by self to #1[f1]s.
+          5-sequence Basic ATK gains #2[f1]% Total DMG Multiplier."
+        brief: Extends the duration of Sakura Brand applied by self. 5-sequence Basic
+          ATK gains Total DMG Multiplier.
+        icon: Skill_Nagative_Skill03
+        maxLv: 10
+        paramBase1: 11
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0.01111
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "172"
+    name: "<color=#FFC741FF>Combo</color>: Shunmetsu"
+    info: "Penetrates enemy with a charged One Flash, dealing
+      damage.\\n<color=#23B2E2FF>One Flash: 100% ATK of Physical DMG.\\nOne
+      Flash consumes Sakura Brands from enemies upon hit and unleashes One
+      Slash, dealing 400% ATK of Physical DMG and knocking them
+      airborne.</color>"
+    icon: Skill_Sakura_YS_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1704"
+        name: "<color=#FFC741FF>QTE</color>: Void Triplex"
+        info: "Switch: Swift Kill. QTE: Triggers when an enemy is knocked airborne;
+          unleashes 3 blade waves, with each wave dealing 50%+#1[i]% ATK of
+          Physical DMG and inflicting 1 Sakura Count."
+        brief: "QTE: Triggered when an enemy is knocked airborne to unleash 3 blade
+          waves, each wave dealing Physical DMG and adding 1 Sakura Count."
+        icon: Skill_Nagative_StartUp03
+        maxLv: 70
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.015
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: b
+      - id: "1705"
+        name: One Slash
+        info: Increases One Slash DMG to 400%+#1[i]% ATK of Physical DMG.
+        brief: Increases One Slash DMG
+        icon: Skill_Nagative_Damage03
+        maxLv: 10
+        paramBase1: 0.6
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.6
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1706"
+        name: Chain Flash
+        info: "When there are multiple enemies marked with Sakura Brand, One Flash can
+          be released repeatedly up to #1[i] times (each marked enemy can only
+          be attacked by One Flash once)."
+        brief: Triggers One Flash multiple times when there are multiple enemies marked
+          with a Sakura Brand.
+        icon: Skill_Nagative_Skill03
+        maxLv: 8
+        paramBase1: 1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.57143
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "173"
+    name: Shuryu Slash
+    info: "Quick dash to evade enemy attacks.\\n<color=#23B2E2FF>Ultimate Evasion:
+      Generates a 3-sequence Sword Ki aura, each sequence dealing 10% ATK of
+      Physical DMG against nearby enemies.\\nShuryu Slash: Each Sword Ki
+      sequence inflicts a Sakura Count on the target upon Ultimate Evasion; CD:
+      15s.</color>"
+    icon: Skill_Sakura_YS_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1707"
+        name: Lethal Mark
+        info: "Enhances the sword barrage generated upon an Ultimate Evasion. Each hit
+          gains #1[f1]% ATK of Physical DMG."
+        brief: Enhances the sword barrage generated upon an Ultimate Evasion.
+        icon: Skill_Nagative_Damage03
+        maxLv: 6
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "1708"
+        name: Zanshin
+        info: "Gains #1[f1]% ATK Speed for #2[f1]s upon Ultimate Evasion."
+        brief: Upon Ultimate Evasion, gain Attack Speed.
+        icon: Skill_Nagative_Skill03
+        maxLv: 5
+        paramBase1: 0.1
+        paramBase2: 0.8
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0.8
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "174"
+    name: Crimson Naraka
+    info: Trigger Valkyrie burst to augment attack mode and gain Ignore
+      Interrupt.\n<color=#23B2E2FF>Burst consumes 100 SP, deals 50% ATK of DMG
+      and inflicts a Sakura Brand lasting 10s on the target.\nAfter activation,
+      Basic ATKs turn into One Flash ATKs. Hitting an enemy with One Flash
+      inflicts 1 Sakura Count.</color>
+    icon: Skill_Sakura_YS_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1709"
+        name: Blinding Draw
+        info: Ultimate activation deals 50%+#1[f1]% ATK of Physical DMG against nearby
+          enemies.
+        brief: When unleashing Ultimate, deal Physical DMG to nearby enemies.
+        icon: Skill_Nagative_Damage01
+        maxLv: 10
+        paramBase1: 1.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "1710"
+        name: Ardor
+        info: "Gains #1[f1]% Crit DMG during Ultimate."
+        brief: Increases Crit DMG during Ultimate.
+        icon: Skill_Nagative_Damage02
+        maxLv: 8
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "175"
+    name: Heart of Prajna
+    info: "Leader Bonus: <color=#23B2E2FF>Heart of Prajna: {{When Combo Hit Count
+      exceeds 20, team gains #1[i]% Physical DMG.}}</color>"
+    icon: Skill_Sakura_YS_005
+    skillType: leader
+    tags: []
+    paramSubId1: 1712
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1712"
+        name: Heart of Prajna
+        info: "Increases the team's Physical DMG by #1[i]% when Combo Hit Count exceeds
+          20."
+        brief: Improves Leader Skill.
+        icon: Skill_Nagative_Damage01
+        maxLv: 4
+        paramBase1: 0.12
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "176"
+    name: Passive
+    info: "Passive bonuses apply automatically.\\n<color=#23B2E2FF>Sakura Brand:
+      Clears the Sakura Count on enemy once the count has reached 3 and inflicts
+      a Sakura Brand. The Sakura Brand lasts for 10s.</color>"
+    icon: Skill_Sakura_YS_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "1711"
+        name: Punctured Kabuto
+        info: "Increases Crit Rate by #1[f1]% and Crit DMG by #2[f1]% against an enemy
+          with breached elite shield."
+        brief: Increases Crit Rate and Crit DMG against an enemy with broken elite
+          shield.
+        icon: Skill_Nagative_Damage02
+        maxLv: 70
+        paramBase1: 0.2
+        paramBase2: 0.024
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.004
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: b
+      - id: "1713"
+        name: Sakura no Haku
+        info: "Basic ATKs deal additional #1[f1]% ATK of Physical DMG to enemies without
+          a Sakura Brand."
+        brief: Basic ATKs deal additional Physical DMG to enemies without a Sakura
+          Brand.
+        icon: Skill_Nagative_Damage02
+        maxLv: 4
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "1714"
+        name: Iaido
+        info: "Shortens CD of Ultimate Evasion by #1[f1]s."
+        brief: Shortens CD of Ultimate Evasion.
+        icon: Skill_Nagative_Survive02
+        maxLv: 30
+        paramBase1: 1.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s

@@ -1,0 +1,420 @@
+id: "203"
+fullName: Valkyrie Bladestrike
+shortName: Valkyrie Bladestrike
+desc: "<color=white>Features: </color><color=#FFAF2CFF>BIO-type</color> melee
+  battlesuit that quickly deals impressive DMG to a single-unit."
+firstName: Mei
+lastName: Raiden
+enFirstName: null
+enLastName: null
+attributeType: bio
+isEasterner: true
+weapon: katana
+character: mei
+initialStar: a
+tags:
+  - physical-dmg
+  - burst
+  - fast-atk
+  - time-mastery
+skills:
+  - id: "71"
+    name: Gokiketsu
+    info: "AOE penta-slash.\\n<color=#23B2E2FF>1st Sequence: 80% ATK of Physical
+      DMG.\\n2nd Sequence: 80% ATK of Physical DMG.\\n3rd Sequence: 100% ATK of
+      Physical DMG.\\n4th Sequence: 100% ATK of Physical DMG.\\n5th Sequence:
+      250% ATK of AOE Physical DMG.</color>"
+    icon: Skill_Mei_CK_001
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "701"
+        name: Kinetic Aura
+        info: "Basic ATKs gain #1[f1]% Attack Speed."
+        brief: Basic ATKs gain Attack Speed.
+        icon: Skill_Nagative_Damage01
+        maxLv: 40
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00513
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "702"
+        name: Spirit Aura
+        info: "Gain higher Ignore Interrupt during Basic ATKs or Combo ATKs. Reduces
+          Physical DMG taken by #1[f1]%."
+        brief: Gain higher Ignore Interrupt during Basic or Combo ATKs. Reduces Physical
+          DMG taken.
+        icon: Skill_Nagative_Survive02
+        maxLv: 30
+        paramBase1: 0.05
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00862
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "712"
+        name: Ankage Jutsu
+        info: "Basic and Combo ATKs gain #1[f1]% SP Recovery."
+        brief: Basic and Combo ATKs gain SP Recovery.
+        icon: Skill_Nagative_Damage02
+        maxLv: 50
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00408
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+  - id: "72"
+    name: "<color=#FFC741FF>Combo</color>: Void Edge"
+    info: "Slash flurry attack.\\n<color=#23B2E2FF>Each sequence: 210% ATK of
+      Physical DMG.\\nFatal Slash: 260% ATK of Physical DMG.</color>"
+    icon: Skill_Mei_DH_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "703"
+        name: Relentless Flurry
+        info: "Tap the [ATK] button during Blade Flurry to keep triggering Blade Flurry
+          (limit: #1[i] times)."
+        brief: Tap the [ATK] button during Blade Flurry to keep triggering Blade Flurry.
+        icon: Skill_Nagative_Skill03
+        maxLv: 5
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "704"
+        name: "<color=#FFC741FF>Switch</color>: Impact Flurry"
+        info: "Switch entry unleashes Blade Flurry. Blade Flurry gains #1[f1]% Crit Rate
+          when attacking enemies knocked airborne."
+        brief: Switch entry unleashes Blade Flurry. Blade Flurry gains Crit Rate when
+          attacking airborne enemies.
+        icon: Skill_Nagative_StartUp03
+        maxLv: 20
+        paramBase1: 0.1
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.01053
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "705"
+        name: "<color=#FFC741FF>QTE</color>: Issen"
+        info: "QTE: Triggers when an enemy is affected by Time Slow, dealing 250% +
+          #1[i]% ATK of Physical DMG."
+        brief: "QTE: Triggered when an enemy is affected by Time Slow to unleash One
+          Flash and deal Physical DMG."
+        icon: Skill_Nagative_StartUp01
+        maxLv: 60
+        paramBase1: 2.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.05085
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "73"
+    name: Phantom Blade
+    info: "Quick dash to evade enemy attacks.\\n<color=#23B2E2FF>Time Fracture:
+      Triggers upon an Ultimate Evasion and lasts 3s; CD: 15s.</color>"
+    icon: Skill_Mei_CK_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "706"
+        name: Wind Aura
+        info: "<size=14>Upon Ultimate Evasion, character gains #1[f1]% Attack Speed for
+          3+#2[f1]s. Duration of Time Fracture triggered by Ultimate Evasion is
+          extended by #2[f1]s, at the end of which enemies will be knocked
+          airborne and dealt Combo Hit Count (max 200) x#3[i] of Physical
+          DMG.</size>"
+        brief: Extends the duration of Time Fracture and increases Move Speed. When Time
+          Fracture ends, knocks nearby enemies airborne and deals Physical DMG
+          based on Combo Hit Count.
+        icon: Skill_Nagative_Survive01
+        maxLv: 10
+        paramBase1: 0.3
+        paramBase2: 0.5
+        paramBase3: 23
+        paramAdd1: 0.03333
+        paramAdd2: 0.05556
+        paramAdd3: 3
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "707"
+        name: Aerial Slash
+        info: "Tap the [ATK] button after Ultimate Evasion to unleash Blade Flurry.
+          Blade Flurry gains #1[f1]% Crit DMG when attacking enemies knocked
+          airborne."
+        brief: Tap the [ATK] button after Ultimate Evasion to unleash Blade Flurry.
+          Blade Flurry gains Crit DMG when attacking enemies knocked airborne.
+        icon: Skill_Nagative_Skill03
+        maxLv: 75
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.0027
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "708"
+        name: Shadow Razor
+        info: "Shortens CD of Time Fracture by #1[f1]s."
+        brief: Shortens CD of Time Fracture.
+        icon: Skill_Nagative_Survive01
+        maxLv: 30
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.06897
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "74"
+    name: Susanoo
+    info: "Activates Valkyrie's burst mode and consumes
+      SP.\\n<color=#23B2E2FF>Burst: Consumes SP continuously to enhance all
+      forms of attack.\\nAt over 100 SP, consumes 20 SP to activate and 10 SP/s
+      afterwards until SP is depleted; max duration: 60s.</color>"
+    icon: Skill_Mei_DH_004
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "709"
+        name: Martial Stream
+        info: "Channels energy during Burst. Characters off the field gain #1[f2] SP/s."
+        brief: Recovers SP for teammates not on the field during Burst.
+        icon: Skill_Nagative_Damage01
+        maxLv: 35
+        paramBase1: 0.5
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.04412
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+      - id: "710"
+        name: Ki Spirit
+        info: "Increases Crit Rate by #2[f2]% and Crit DMG by #1[f1]% during Burst."
+        brief: Increases Crit Rate and Crit DMG during Burst.
+        icon: Skill_Nagative_Damage02
+        maxLv: 50
+        paramBase1: 0.25
+        paramBase2: 0.05
+        paramBase3: 0
+        paramAdd1: 0.0102
+        paramAdd2: 0.00102
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "75"
+    name: Sakura Aura
+    info: "Leader Bonus: <color=#23B2E2FF>Sakura Aura: {{Team gains #1[i]% DEF in
+      battle. BIO-type characters gain #2[i]% Max HP.}}</color>"
+    icon: Skill_Mei_CK_005
+    skillType: leader
+    tags: []
+    paramSubId1: 711
+    paramSubId2: 711
+    paramSubId3: 0
+    subSkills:
+      - id: "711"
+        name: Sakura Aura
+        info: "Team gains #1[i]% DEF in battle. BIO-type characters gain #2[i]% Max HP."
+        brief: Team gains DEF in battle. Max HP of BIO-type characters increases in
+          battle.
+        icon: Skill_Nagative_Survive01
+        maxLv: 3
+        paramBase1: 0.3
+        paramBase2: 0.07
+        paramBase3: 0
+        paramAdd1: 0.05
+        paramAdd2: 0.01
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "76"
+    name: Passive
+    info: Passive bonuses apply automatically.\n<color=#23B2E2FF></color>
+    icon: Skill_Mei_CK_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "713"
+        name: Combo Keeper
+        info: "Ignores combo interruption once. Can be triggered once every #1[f1]s.
+          Applies for the whole team."
+        brief: Periodically ignores combo interruption once. Applies for the whole team.
+        icon: Skill_Nagative_Damage01
+        maxLv: 30
+        paramBase1: 60
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: -1.03448
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "714"
+        name: Energy Overflow
+        info: "When deployed character reaches max SP, distributes #1[f1]% SP gain to
+          characters not on the field."
+        brief: When on the field, extra SP will be distributed to characters not on the
+          field.
+        icon: Skill_Nagative_Skill03
+        maxLv: 28
+        paramBase1: 0.3
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.00741
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "715"
+        name: Shadow Aura X
+        info: "Gain #1[i]% Total DMG Multiplier versus enemies with broken Elite
+          Shield."
+        brief: Gain Total DMG Multiplier against enemies with broken Elite Shield.
+        icon: Skill_Nagative_Survive02
+        maxLv: 10
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02222
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: a
+  - id: "401"
+    name: Gozan Raimei
+    info: "AoE penta-slash.\\n<color=#23B2E2FF>SEQ 1: 80% ATK of Physical DMG.\\nSEQ
+      2: 100% ATK of Physical DMG.\\nSEQ 3: 100% ATK of Physical DMG.\\nSEQ 4:
+      120% ATK of Physical DMG.\\nSEQ 5: 120% + 2 x 75% ATK of Physical DMG.
+      Inflicts</color> <color=#FEDF4CFF>3 Paralyze
+      Trauma</color><color=#23B2E2FF>.</color>"
+    icon: Skill_Mei_DH_Artifact01_001
+    skillType: basic
+    tags:
+      - type: paralyze
+        strength: 1
+        comment: "The 5th hit charges Paralyze Trauma. Trauma charge rate: Very weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "402"
+    name: "<color=#FFC741FF>Combo</color>: Void Edge"
+    info: "Slash flurry attack.\\n<color=#23B2E2FF>Tap the [ATK] button during Blade
+      Flurry to keep triggering Blade Flurry (limit: 2 times).\\nCharges toward
+      the enemy: 50% ATK of Physical DMG.\\nFlurry: 6x30% ATK of Physical
+      DMG.\\nFatal Slash: 2x80%+100% ATK of Physical DMG.\\nBurst: Charges
+      toward the enemy and deals 40%+30% ATK of Physical DMG.\\nFlurry:
+      4x40%+2x30% ATK of Physical DMG.\\nFatal Slash: 4x70% ATK of Physical
+      DMG.</color>"
+    icon: Skill_Mei_DH_Artifact01_002
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "403"
+    name: Raikage
+    info: "Quickly evade enemy attacks. Can be performed twice in a
+      row.\\n<color=#23B2E2FF>Raikage: Ultimate Evasions trigger a 3s Time
+      Fracture and restores 1 EM Reserve; CD: 15s.\\nWhen the Valkyrie has any
+      EM Reserve, tap [ATK] during Evasion to consume 1 EM Reserve and throw the
+      Gotamashi Edge toward the enemy, dealing 120% ATK of AOE Physical DMG;
+      restores 2 EM Reserves (in non-Burst mode) and charges toward the enemy,
+      dealing 80% (130%+30% in Burst mode) ATK of Physical DMG and triggering
+      Blade Flurry.</color>"
+    icon: Skill_Mei_DH_Artifact01_003
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "404"
+    name: Takemikazuchi
+    info: "Enter burst mode and recover 4 EM Reserves.\\n<color=#23B2E2FF>Burst:
+      Deals 3 x 100% + 550% ATK of Physical DMG to enemies nearby.\\nBurst Basic
+      ATK:\\nSEQ 1: 60% + 40% ATK of Physical DMG.\\nSEQ 2: 80% + 40% ATK of
+      Physical DMG.\\nSEQ 3: 80% + 40% ATK of Physical DMG.\\nSEQ 4: 100% + 40%
+      ATK of Physical DMG.\\nSEQ 5: 150% + 3 x 80% ATK of Physical DMG.
+      Inflicts</color> <color=#FEDF4CFF>3 Paralyze
+      Trauma</color><color=#23B2E2FF>.\\nAt over 100 SP, costs 20 SP to activate
+      and 8 SP/s to maintain for up to 10s.</color>"
+    icon: Skill_Mei_DH_Artifact01_004
+    skillType: ultimate
+    tags:
+      - type: heavy-atk
+        strength: 1
+        comment: "Last hit of Ultimate activation is Heavy ATK; Trauma charge: strong."
+      - type: paralyze
+        strength: 1
+        comment: "The 5th hit charges Paralyze Trauma. Trauma charge rate: Very weak."
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
+  - id: "406"
+    name: Passive
+    info: Character automatically gains passive bonuses.\n<color=#23B2E2FF>In both
+      Normal and Burst modes, the 2nd, 3rd and 5th sequence of Basic ATK
+      recovers 1, 1 and 2 EM Reserve(s) respectively upon hit. </color>
+    icon: Skill_Mei_DH_Artifact01_006
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills: []
