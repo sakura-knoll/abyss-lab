@@ -103,7 +103,7 @@ export interface Battlesuit {
 
 export type BattlesuitCatalogItem = Pick<
   Battlesuit,
-  'id' | 'fullName' | 'attributeType' | 'weapon' | 'character' | 'initialStar'
+  'id' | 'fullName' | 'attributeType' | 'weapon' | 'character' | 'initialStar' | 'tags'
 >
 
 export interface SkillTagItem {

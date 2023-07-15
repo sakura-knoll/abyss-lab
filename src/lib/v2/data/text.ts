@@ -84,7 +84,89 @@ export function getSkillTypeLabel(type: SkillType) {
   }
 }
 
-export function getCharacterTypeLabel(type: CharacterType) {
+export function getCharacterTypeLabel(type: CharacterType, locale: string = 'en-US') {
+  if (locale === 'en-US') {
+    switch (type) {
+      case 'kiana':
+        return 'Kiana'
+      case 'mei':
+        return 'Mei'
+      case 'bronya':
+        return 'Bronya'
+      case 'himeko':
+        return 'Himeko'
+      case 'theresa':
+        return 'Theresa'
+      case 'fuhua':
+        return 'Fu Hua'
+      case 'rita':
+        return 'Rita'
+      case 'sakura':
+        return 'Sakura'
+      case 'kallen':
+        return 'Kallen'
+      case 'olenyevas':
+        return 'Olenyevas'
+      case 'seele':
+        return 'Seele'
+      case 'durandal':
+        return 'Durandal'
+      case 'fischl':
+        return 'Fischl'
+      case 'elysia':
+        return 'Elysia'
+      case 'mobius':
+        return 'Mobius'
+      case 'raven':
+        return 'Raven'
+      case 'carole':
+        return 'Carole'
+      case 'pardofelis':
+        return 'Pardofelis'
+      case 'aponia':
+        return 'Aponia'
+      case 'eden':
+        return 'Eden'
+      case 'griseo':
+        return 'Griseo'
+      case 'vill-v':
+        return 'Vill V'
+      case 'sushang':
+        return 'Sushang'
+      case 'ai':
+        return 'AI'
+      case 'susannah':
+        return 'Susannah'
+      case 'hare':
+        return 'Hare'
+      case 'prometheus':
+        return 'Prometheus'
+      case 'kira':
+        return 'Kira'
+      case 'asuka':
+        return 'Asuka'
+
+      // Event Only
+      case 'keqing':
+        return 'Keqing'
+
+      // APHO
+
+      case 'apho-mei':
+        return '후서 메이'
+      case 'apho-adam':
+        return '후서 아담'
+      case 'apho-carol':
+        return '후서 캐롤'
+      case 'apho-bronya':
+        return '후서 브로냐'
+      case 'apho-timido':
+        return '후서 티미도'
+
+      default:
+        return `Unknown Character Type (${type})`
+    }
+  }
   switch (type) {
     case 'kiana':
       return '키아나'
@@ -167,7 +249,63 @@ export function getCharacterTypeLabel(type: CharacterType) {
   }
 }
 
-export function getTagTypeLabel(type: TagType) {
+export function getTagTypeLabel(type: TagType, locale: string = 'en-US') {
+  if (type) {
+    switch (type) {
+      case 'branch':
+        return 'Branch'
+      case 'charge':
+        return 'Charge'
+      case 'physical-dmg':
+        return 'Physical DMG'
+      case 'fire-dmg':
+        return 'Fire DMG'
+      case 'ice-dmg':
+        return 'Ice DMG'
+      case 'lightning-dmg':
+        return 'Lightning DMG'
+      case 'freeze':
+        return 'Freeze'
+      case 'paralyze':
+        return 'Paralyze'
+      case 'stun':
+        return 'Stun'
+      case 'ignite':
+        return 'Ignite'
+      case 'bleed':
+        return 'Bleed'
+      case 'heavy-atk':
+        return 'Heavy ATK'
+      case 'weaken':
+        return 'Weaken'
+      case 'impair':
+        return 'Impair'
+      case 'float':
+        return 'Float'
+      case 'slow-down':
+        return 'Slow Down'
+      case 'time-mastery':
+        return 'Time Mastery'
+      case 'gather':
+        return 'Gather'
+      case 'heal':
+        return 'Heal'
+      case 'fast-atk':
+        return 'Fast ATK'
+      case 'aerial':
+        return 'Aerial'
+      case 'burst':
+        return 'Burst'
+      case 'shield':
+        return 'Shield'
+      case 'meele':
+        return 'Meele'
+      case 'ranged':
+        return 'Ranged'
+      default:
+        return `Unknown Tag Type (${type})`
+    }
+  }
   switch (type) {
     case 'branch':
       return '분기'
@@ -210,11 +348,11 @@ export function getTagTypeLabel(type: TagType) {
     case 'fast-atk':
       return '높은 빈도'
     case 'aerial':
-      return '버스트'
-    case 'burst':
-      return '실드'
-    case 'shield':
       return '대공'
+    case 'burst':
+      return '버스트'
+    case 'shield':
+      return '실드'
     case 'meele':
       return '근접'
     case 'ranged':

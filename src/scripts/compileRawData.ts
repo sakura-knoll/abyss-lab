@@ -58,7 +58,8 @@ function writeBattlesuitData(locale: string) {
       attributeType: battlesuit.attributeType,
       weapon: battlesuit.weapon,
       character: battlesuit.character,
-      initialStar: battlesuit.initialStar
+      initialStar: battlesuit.initialStar,
+      tags: battlesuit.tags
     }
   })
 

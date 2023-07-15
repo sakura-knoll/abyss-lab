@@ -1,26 +1,17 @@
 /** @jsxImportSource theme-ui */
 import { useRouter } from 'next/router'
-import { Link, Text } from 'theme-ui'
-import { assetsBucketBaseUrl } from '../../lib/consts'
-import SquareImageBox from './SquareImageBox'
+import { ReactNode } from 'react'
+import { Link } from 'theme-ui'
 
 interface FilterButtonProps {
   active?: boolean
   icon?: string
-  label: string
   href: string
   m?: string | number
-  close?: () => void
+  children: ReactNode
 }
 
-const FilterButton = ({
-  active = false,
-  icon,
-  label,
-  href,
-  m,
-  close,
-}: FilterButtonProps) => {
+const FilterButton = ({ active = false, children, href, m }: FilterButtonProps) => {
   const { push } = useRouter()
   return (
     <Link
@@ -30,24 +21,13 @@ const FilterButton = ({
       px={2}
       className={active ? 'active' : ''}
       sx={{ display: 'flex' }}
-      variant='buttons.primary'
-      onClick={(event) => {
+      variant="buttons.primary"
+      onClick={event => {
         event.preventDefault()
-        if (close != null) {
-          close()
-        }
         push(href, href, { shallow: true })
       }}
     >
-      {icon != null && (
-        <SquareImageBox
-          src={`${assetsBucketBaseUrl}/honkai3rd/${icon}.png`}
-          alt={label}
-          size={30}
-          mr={1}
-        />
-      )}
-      <Text sx={{ lineHeight: '30px' }}>{label}</Text>
+      {children}
     </Link>
   )
 }
