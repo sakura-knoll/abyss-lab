@@ -1,537 +1,562 @@
 <?xml version="1.0" encoding="utf-8"?>
 <data>
-  <story>
-    <scene id="0" background="bg.jpg">
-	    <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
-	    <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
-	    <goto goto="10" change="#000000"/>
-    </scene>
-    <scene id="10" background="railwayStationL3.jpg">
-	    <bgm src="11_29_lab.mp3" status="start"></bgm>
-	    <show chara="biankaDressHesitateClose" position="left"/>
-	    <speak chara="_Bianka">えっと……もう一度確認しましょうか……</speak>
-	    <show chara="biankaDressHesitateClose" position="left"/>
-	    <speak chara="_Bianka">ワカートンネルのL3線路を利用して、P2-「カハマルカ」駅で下車。</speak>
-	    <show chara="biankaDressHesitateClose" position="left"/>
-	    <speak chara="_Bianka">地表の山地鉄道S17番に乗り換え、車内で一晩過ごし、終点キト駅で降りる。移動時間は約12時間。</speak>
-	    <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesConfidentClose" position="right"/>
-	    <speak chara="_ShigureKiraNoName">キトは「アンカー」からもっとも遠い都市の一つで、移動の大半は山道よ——でもまあ、列車で寝るのも一興じゃない？</speak>
-	    <show chara="ShigureKiraSunGlassesLaughClose" position="right"/>
-	    <speak chara="_ShigureKiraNoName">S17番といえば、有名な豪華寝台列車ね。</speak>
-	    <show chara="ShigureKiraSunGlassesLaughClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressShockClose" position="left"/>
-	    <speak chara="_Bianka">豪華寝台、ですか……</speak>
-	    <show chara="biankaDressSighClose" position="left"/>
-	    <speak chara="_Bianka">——って、なんで普通についてきているんですか、時雨綺羅さん？</speak>
-	    <show chara="biankaDressSneerClose" position="left"/>
-	    <speak chara="_Bianka">一緒にキトまで行く、なんて言い出しませんよね？</speak>
-	    <show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
-	    <speak chara="_ShigureKira">そうだけど？</speak>
-	    <show chara="ShigureKiraSunGlassesOffConfidentClose" position="right"/>
-	    <speak chara="_ShigureKira">どうせ次の予定もないし、いいわよね？将校たちは軍務があるようだし私がガイドするわ。</speak>
-	    <show chara="ShigureKiraSunGlassesOffConfidentClose" position="right" opacity="0.8"/>
-	    <show chara="shakesCasualLaughClose" position="left"/>
-	    <speak chara="_Shakespeare">まあ、支障ないだろう。</speak>
-	    <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
-	    <show chara="schroSmileClose" position="right"/>
-	    <speak chara="_Schrodinger">……問題ないと思うのです。</speak>
-	    <show chara="schroSmileClose" position="right" opacity="0.8"/>
-	    <show chara="champoBlanketLaughClose" position="left"/>
-	    <speak chara="_Champollion">反対する理由がないね。</speak>
-	    <show chara="champoBlanketLaughClose" position="left" opacity="0.8"/>
-	    <show chara="cervantesSmileClose" position="right"/>
-	    <speak chara="_Miguel" remark="next">生粋のスペイン人だが、わしは自分の世界の「カハマルカ」と「アタワルパ」の言い伝えしか知らんからのう。</speak>
+	<story>
+		<scene id="0" background="bg.jpg">
+			<bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+			<cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+			<goto goto="10" change="#000000"/>
+		</scene>
+		<scene id="10" background="railwayStationL3.jpg">
+			<bgm src="11_29_lab.mp3" status="start"></bgm>
+			<show chara="biankaDressHesitateClose" position="left"/>
+			<speak chara="_Bianka">음…… 다시 확인해보면……</speak>
+			<show chara="biankaDressHesitateClose" position="left"/>
+			<speak chara="_Bianka" remark="next">먼저 와카 터널의 L3 노선을 타서, P2 - 「카하마르카」에서 내리고,</speak>
+			<remark post="custom-duriduri-ch23-1">
+				<p class="article-text-h">역자 주:</p>
+				<p class="article-text">페루 카하마르카 주의 주도.</p>
+			</remark>
+			<show chara="biankaDressHesitateClose" position="left"/>
+			<speak chara="_Bianka">지표면을 달리는 산악철도 S17편으로 갈아타서, 열차에서 하룻밤을 보내면 키토 역에 도착——다 합쳐 약 12시간 걸리겠네.</speak>
+			<remark post="custom-duriduri-ch23-1">
+				<p class="article-text-h">역자 주:</p>
+				<p class="article-text">에콰도르의 수도.</p>
+			</remark>
+			<show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesConfidentClose" position="right"/>
+			<speak chara="_ShigureKiraNoName">키토는 이 세상에서 「앵커 포인트」에서 가장 멀리 떨어진 도시 중 하나야. 상당한 시간을 산속에서 보내야겠지만——열차에서 쉬는 것도 색다른 풍미를 느낄 수 있지!</speak>
+			<show chara="ShigureKiraSunGlassesLaughClose" position="right"/>
+			<speak chara="_ShigureKiraNoName">게다가, S17편은 이름난 호화열차라고!</speak>
+			<show chara="ShigureKiraSunGlassesLaughClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="left"/>
+			<speak chara="_Bianka">호화열차……요?</speak>
+			<show chara="biankaDressSighClose" position="left"/>
+			<speak chara="_Bianka">——잠깐, 당신, 당신은 왜 또 자연스레 우릴 따라오는 거예요, 키라 씨.</speak>
+			<show chara="biankaDressSneerClose" position="left"/>
+			<speak chara="_Bianka">설마 당신도 저희랑 같이 키토로 가실 생각인가요?</speak>
+			<show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
+			<speak chara="_ShigureKira">맞아.</speak>
+			<show chara="ShigureKiraSunGlassesOffConfidentClose" position="right"/>
+			<speak chara="_ShigureKira">어차피 요 며칠간은 일정도 없고——안될까? 장군들도 다들 원래 임무가 있으니, 내가 대신해서 가이드가 되어줄게.</speak>
+			<show chara="ShigureKiraSunGlassesOffConfidentClose" position="right" opacity="0.8"/>
+			<show chara="shakesCasualLaughClose" position="left"/>
+			<speak chara="_Shakespeare">오, 괜찮은 거 같은데, 그렇지 않아?</speak>
+			<show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+			<show chara="schroSmileClose" position="right"/>
+			<speak chara="_Schrodinger">……문제는 없을 거라는 것이에요.</speak>
+			<show chara="schroSmileClose" position="right" opacity="0.8"/>
+			<show chara="champoBlanketLaughClose" position="left"/>
+			<speak chara="_Champollion">저도 이견은 없는걸요?</speak>
+			<show chara="champoBlanketLaughClose" position="left" opacity="0.8"/>
+			<show chara="cervantesSmileClose" position="right"/>
+			<speak chara="_Miguel" remark="next">비록 이 늙은이는 스페인 본토 출신이지만, 내가 온 원래 세계에서도 「카하마르카」와 「아타우알파」의 전설은 들어본 적 있다네.</speak>
 			<remark post="U2FsdGVkX1+YqWZI3sy8AO4iBMvg">
-				<p class="article-text-h">注釈：</p>
-				<p class="article-text">1532年11月16日、カハマルカの戦い（Batalla de Cajamarca）で、スペイン植民者ピサロが168名の部下（うち歩兵106名、騎兵62名）を率いて、インカ帝国の簒奪者アタワルパの8万の大軍に奇襲をかけ、アタワルパを捕らえ、数千のインカ兵士を殺した。この戦いの後、インカ帝国は征服された。</p>
+				<p class="article-text-h">주역:</p>
+				<p class="article-text">1532년 11월 16일, 카하마르카 전투(Batalla de Cajamarca)가 일어났다. 스페인 정복자 피사로가 168명의 부하를(보병 106명, 기병 62명)을 이끌고 잉카제국 황제 아타우알파의 8만 대군을 습격, 아타우알파를 생포하고, 추격전 중 수천의 잉카 병사를 죽였다. 이렇게 잉카 제국은 스페인에 정복당하고 만다.</p>
 			</remark>
-	    <show chara="cervantesLaughClose" position="right"/>
-	    <speak chara="_Miguel">よかったら、色々話を聞かせてくれ。独立したまま現代国家になった「インカ共和国」に興味があるんじゃ！</speak>
-	    <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressHesitateClose" position="right"/>
-	    <speak chara="_Bianka">うっ……</speak>
-	    <show chara="biankaDressShyClose" position="right"/>
-	    <speak chara="_Bianka">別にいいですけど、なんだか贅沢というか……罪悪感があるというか……</speak>
-	    <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
-	    <show chara="ritaVestSquintClose" position="left"/>
-	    <speak chara="_Rita">ふふ、ビアンカ様はもうすっかり綺羅様のファンなのですね。</speak>
-	    <show chara="ritaVestSquintClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressShoutClose" position="right"/>
-	    <speak chara="_Bianka">ちょっと、変なこと言わないでください！</speak>
-	    <show chara="biankaDressScreamClose" position="right"/>
-	    <speak chara="_Bianka">わ、私はただ、アイドルの時間って貴重なんじゃないかって……！</speak>
-	    <show chara="biankaDressScreamClose" position="right" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesOffSmileClose" position="left"/>
-	    <speak chara="_ShigureKira">ふふ、いいの、いいの。</speak>
-	    <show chara="ShigureKiraSunGlassesOffThinkClose" position="left"/>
-	    <speak chara="_ShigureKira">こんな言い方はおかしいかもしれないけど——</speak>
-	    <show chara="ShigureKiraSunGlassesOffSunshineClose" position="left"/>
-	    <speak chara="_ShigureKira">しばらくの間、あなたたちは私の重要な「ビジネスパートナー」なんだから。</speak>
-	    <speak chara="_ShigureKira">これからよろしくね！</speak>
-	    <show chara="ShigureKiraSunGlassesOffSunshineClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressShockClose" position="right"/>
-	    <speak chara="_Bianka">……</speak>
-	    <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesOffSmileClose" position="left"/>
-	    <speak chara="_ShigureKira">まあ、戦乙女としての二人のことも期待しているわよ？</speak>
-	    <show chara="ShigureKiraSunGlassesOffSmileClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressShyClose" position="right"/>
-	    <speak chara="_Bianka">……！</speak>
-	    <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesOffSunshineClose" position="left"/>
-	    <speak chara="_ShigureKira">——さあ、カハマルカへ出発よ！</speak>
-	    <goto goto="20" clockwise="1"/>
-    </scene>
-    <scene id="20" background="trainBedroom.jpg">
-	    <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
-	    <show chara="biankaDressScreamClose" position="left"/>
-	    <speak chara="_Bianka">うわぁ……こ、これ、まるで主教専用車みたいに豪華じゃないですか！</speak>
-	    <show chara="biankaDressSmileAhClose" position="left"/>
-	    <speak chara="_Bianka">本当にこれに乗っていいんですか？こんな立派なバスルームまで！</speak>
-	    <show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
-	    <speak chara="_ShigureKira">主教？</speak>
-	    <show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
-	    <speak chara="_ShigureKira">ああ、オットー主教のこと？</speak>
-	    <show chara="ShigureKiraSunGlassesOffSmileClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressHesitateClose" position="left"/>
-	    <speak chara="_Bianka">そ、そうです。</speak>
-	    <show chara="biankaDressSneerClose" position="left"/>
-	    <speak chara="_Bianka">あの人、威厳がなくて、いっつもぶらぶらしているから……「主教」には見えませんけど。</speak>
-	    <show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
-	    <speak chara="_ShigureKira">……</speak>
-	    <show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
-	    <speak chara="_ShigureKira">ふふ、どうやら、結構気に入られているみたいね。</speak>
-	    <show chara="ShigureKiraSunGlassesOffSmileClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressNormalClose" position="left"/>
-	    <speak chara="_Bianka">……？</speak>
-	    <show chara="biankaDressNormalClose" position="left" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesOffConfidentClose" position="right"/>
-	    <speak chara="_ShigureKira">テレサは知ってる？テレサ・アポカリプス。</speak>
-	    <show chara="ShigureKiraSunGlassesOffConfidentClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressHesitateClose" position="left"/>
-	    <speak chara="_Bianka">名前は聞いたことあります。主教の「孫娘」でしたっけ？</speak>
-	    <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
-	    <speak chara="_ShigureKira">ええ。テレサの言うオットー主教が、あなたの表現と似ているかな。</speak>
-	    <show chara="ShigureKiraSunGlassesOffTalkingClose" position="right"/>
-	    <speak chara="_ShigureKira">でも私たちの前に立つ時は……気ままな笑みの裏に、何か畏怖を感じさせるものがあった。</speak>
-	    <show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
-	    <speak chara="_ShigureKira">あなたには見れない一面でしょうけど。</speak>
-	    <show chara="ShigureKiraSunGlassesOffSmileClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressSorrowClose" position="left"/>
-	    <speak chara="_Bianka">そうかもしれません……リタにも同じことを言われましたから。主教が私を特別扱いしているって。</speak>
-	    <show chara="biankaDressNormalClose" position="left"/>
-	    <speak chara="_Bianka">——でも、それって大したことじゃないと思うんです。</speak>
-	    <speak chara="_Bianka">あの人の本性がどうであれ、私自身のことは私が知っています。</speak>
-	    <show chara="biankaDressHesitateClose" position="left"/>
-	    <speak chara="_Bianka">もっと強くならなければならない。でなければ、私は何者でもなくなってしまうから。</speak>
-	    <speak chara="_Bianka">少なくとも、「最年少のA級戦乙女」なんかじゃ……</speak>
-	    <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
-	    <speak chara="_ShigureKira">……</speak>
-	    <show chara="ShigureKiraSunGlassesOffThinkClose" position="right"/>
-	    <speak chara="_ShigureKira">……</speak>
-	    <show chara="ShigureKiraSunGlassesOffSunshineClose" position="right"/>
-	    <speak chara="_ShigureKira">あなたって、アイドルに向いてるね。</speak>
-	    <show chara="ShigureKiraSunGlassesOffSunshineClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressShockClose" position="left"/>
-	    <speak chara="_Bianka">はい？</speak>
-	    <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
-	    <speak chara="_ShigureKira">ビジュアルも文句なし、声も申し分ない。性格は受けるタイプじゃないけど、個性的だから問題ない。</speak>
-	    <show chara="ShigureKiraSunGlassesOffSunshineClose" position="right"/>
-	    <speak chara="_ShigureKira">そして、その信念！アイドルは愛を伝える天使、「最強を求める心」でしかその重みは背負えないっ！</speak>
-	    <show chara="ShigureKiraSunGlassesOffTalkingClose" position="right"/>
-	    <speak chara="_ShigureKira">皆が求める存在にならなければならないの。</speak>
-	    <show chara="ShigureKiraSunGlassesOffTalkingClose" position="right"/>
-	    <speak chara="_ShigureKira">だから自身の欠点や未熟さ、欲望、偏った審美眼に立ち向かう必要がある。</speak>
-	    <show chara="ShigureKiraSunGlassesOffConfidentClose" position="right"/>
-	    <speak chara="_ShigureKira">それに、本物の愛を一人一人に届けるため、ダイヤモンドのように傷つかず、永遠に輝き続けなければならない。</speak>
-	    <show chara="ShigureKiraSunGlassesOffConfidentClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressScreamClose" position="left"/>
-	    <speak chara="_Bianka">……そんなのできるわけありません！誰だって傷つくことくらいあります！</speak>
-	    <show chara="biankaDressScreamClose" position="left" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
-	    <speak chara="_ShigureKira">獅子だって怪我をする。けど、傷を舐めるところを軽々と見せはしない。</speak>
-	    <speak chara="_ShigureKira">獅子は、獅子なの。</speak>
-	    <show chara="ShigureKiraSunGlassesOffThinkClose" position="right"/>
-	    <speak chara="_ShigureKira">……</speak>
-	    <show chara="ShigureKiraSunGlassesOffThinkClose" position="right"/>
-	    <speak chara="_ShigureKira">まあ、「博愛の結晶」でズルした私に、そんなこと言う資格なんてないよね。</speak>
-	    <show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
-	    <speak chara="_ShigureKira">ただの知ったかぶり。</speak>
-	    <show chara="ShigureKiraSunGlassesOffSmileClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressShyClose" position="left"/>
-	    <speak chara="_Bianka">でも……手段はどうであれ、あなたはステージ上で最も輝く星になっていました。</speak>
-	    <show chara="biankaDressShyClose" position="left" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
-	    <speak chara="_ShigureKira">……</speak>
-	    <show chara="ShigureKiraSunGlassesOffColdClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressNormalClose" position="left"/>
-	    <speak chara="_Bianka">私は孤児です。記憶も失ったことがあります。だから私は知っているんです、この世界では結果だけがすべてだってことを。</speak>
-	    <show chara="biankaDressAngryClose" position="left"/>
-	    <speak chara="_Bianka">過程が重要じゃないって言ってるわけじゃありません——でも、数字の羅列だって、一番左の「1」がなければいくら「0」を積んでも意味がない。</speak>
-	    <show chara="biankaDressSmileClose" position="left"/>
-	    <speak chara="_Bianka">だから……自分の夢を実現できた人は皆、すごく、すごく、尊敬できるって心から思う。</speak>
-	    <show chara="biankaDressShyClose" position="left"/>
-	    <speak chara="_Bianka">ズルでも、ラッキーでも——「時雨綺羅」は皆に好かれるアイドル。彼らに愛を届けて、生きる力を与えてきたんです。</speak>
-	    <show chara="biankaDressSmileAhClose" position="left"/>
-	    <speak chara="_Bianka">それ自体がすごいことなんじゃないですか？</speak>
-	    <show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesOffShockClose" position="right"/>
-	    <speak chara="_ShigureKira">……！</speak>
-	    <show chara="ShigureKiraSunGlassesOffSunshineClose" position="right"/>
-	    <speak chara="_ShigureKira">ありがとう！</speak>
-	    <show chara="ShigureKiraSunGlassesOffSunshineClose" position="right"/>
-	    <speak chara="_ShigureKira">あなたは……褒めるのが上手ね。まるでセシリア様みたい。</speak>
-	    <show chara="ShigureKiraSunGlassesOffSunshineClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressShockClose" position="left"/>
-	    <speak chara="_Bianka">「セシリア」？あの「ゲーム機の記録保持者」のセシリアですか？</speak>
-	    <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesOffShockClose" position="right"/>
-	    <speak chara="_ShigureKira">……え？</speak>
-	    <show chara="ShigureKiraSunGlassesOffThinkClose" position="right"/>
-	    <speak chara="_ShigureKira">「ゲーム機の記録保持者」？ちょっとあなた、セシリア様のことを何だと思っているの？</speak>
-	    <show chara="ShigureKiraSunGlassesOffThinkClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressShyClose" position="left"/>
-	    <speak chara="_Bianka">あ、いえ、ただそう呼んだ方が本人も喜ぶかなって。</speak>
-	    <show chara="biankaDressSorrowClose" position="left"/>
-	    <speak chara="_Bianka">き、気に障ったのでしたら謝ります。</speak>
-	    <show chara="biankaDressSorrowClose" position="left" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
-	    <speak chara="_ShigureKira">……</speak>
-	    <show chara="ShigureKiraSunGlassesOffColdClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressHateClose" position="left"/>
-	    <speak chara="_Bianka">天命の戦乙女なら皆知っています——セシリア・シャニアテは最強のS級戦乙女の一人で、「第二次崩壊」の作戦で大きく貢献した英雄であることを。</speak>
-	    <show chara="biankaDressAngryClose" position="left"/>
-	    <speak chara="_Bianka">……そんな彼女も、最後の戦いで命を落としました。</speak>
-	    <show chara="biankaDressSorrowClose" position="left"/>
-	    <speak chara="_Bianka">私には亡くなった人を語るつもりも、その資格もありません。でも、「最強」を目指した戦乙女なら、「犠牲者」として皆の記憶に残りたくはないと思うんです。</speak>
-	    <show chara="biankaDressBiteClose" position="left"/>
-	    <speak chara="_Bianka">何故ならその言葉は、その人が本当の「最強」にすごくすごく近づけたのに……</speak>
-	    <show chara="biankaDressAngryClose" position="left"/>
-	    <speak chara="_Bianka">……運命の悪戯で、真の頂に届かなかったって意味ですから。</speak>
-	    <show chara="biankaDressSorrowClose" position="left"/>
-	    <speak chara="_Bianka">それは、とても悲しいことだと思います。</speak>
-	    <show chara="biankaDressSorrowClose" position="left" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesOffThinkClose" position="right"/>
-	    <speak chara="_ShigureKira">あなた……</speak>
-	    <show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
-	    <speak chara="_ShigureKira">まあ、確かにそういう考え方もあるね。</speak>
-	    <show chara="ShigureKiraSunGlassesOffShockClose" position="right"/>
-	    <speak chara="_ShigureKira">でも、「最強」にあなたのすべてを賭ける価値はあるの？あなたはまだ12歳でしょ。</speak>
-	    <show chara="ShigureKiraSunGlassesOffShockClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressNormalClose" position="left"/>
-	    <speak chara="_Bianka">殉職も退役に含めるのなら、戦乙女の退役年齢は30歳にも満たないんです。</speak>
-	    <show chara="biankaDressHesitateClose" position="left"/>
-	    <speak chara="_Bianka">——12歳は、もうその半分近く。</speak>
-	    <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
-	    <speak chara="_ShigureKira">……あなた、戦乙女以外の道は考えたことないの？</speak>
-	    <show chara="ShigureKiraSunGlassesOffShockClose" position="right"/>
-	    <speak chara="_ShigureKira">あなたの人生には戦闘しかないってこと！？</speak>
-	    <show chara="ShigureKiraSunGlassesOffShockClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressSorrowClose" position="left"/>
-	    <speak chara="_Bianka">……綺羅先輩にも戦友がいたと思います。</speak>
-	    <show chara="biankaDressAngryClose" position="left"/>
-	    <speak chara="_Bianka">私が世界のために戦わなくなったら、アーグラ城塞で亡くなった仲間たちのことを思い出しては、眠れない夜を過ごすことになるでしょう。</speak>
-	    <show chara="biankaDressSmileClose" position="left"/>
-	    <speak chara="_Bianka">——必要なら、崩壊を消滅させてから「どう生きるか」を考えます。</speak>
-	    <show chara="biankaDressSmileClose" position="left" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesOffTalkingClose" position="right"/>
-	    <speak chara="_ShigureKira">……</speak>
-	    <show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
-	    <speak chara="_ShigureKira">傍から見れば、辛い人生でしかないわね。</speak>
-	    <show chara="ShigureKiraSunGlassesOffConfidentClose" position="right"/>
-	    <speak chara="_ShigureKira">でも、あなたに似た人を何人か知っている。他人から見たら辛そうに見えるけど、本人にとってはそれが幸せへの唯一の道だってことも。</speak>
-	    <show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
-	    <speak chara="_ShigureKira">明日、議長はきっと喜ぶでしょうね。彼女もあなたのような「少数派」の一員だから。</speak>
-	    <hide position="left"></hide>
-	    <hide position="right"></hide>
-	    <text>私服姿のアイドルは、何やら思い出を振り返っているようだ。</text>
-	    <text>おやすみだけを言い、アイドルは気落ちした様子でビアンカとリタの部屋から出ていった。</text>
-	    <show chara="biankaDressShyClose" position="left"/>
-	    <speak chara="_Bianka">私……何か変なことを言ってしまいましたでしょうか。</speak>
-	    <show chara="biankaDressShyClose" position="left" opacity="0.8"/>
-	    <show chara="ritaVestHesitateClose" position="right"/>
-	    <speak chara="_Rita">いいえ、ビアンカ様。</speak>
-	    <show chara="ritaVestSquintClose" position="right"/>
-	    <speak chara="_Rita">あなたが立派だからこそ、先輩の記憶を呼び起こしたのでしょう。</speak>
-	    <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressSorrowClose" position="left"/>
-	    <speak chara="_Bianka">……やっぱり、セシリアのこと？</speak>
-	    <show chara="biankaDressSorrowClose" position="left" opacity="0.8"/>
-	    <show chara="ritaVestNaughtyClose" position="right"/>
-	    <speak chara="_Rita">口にはしていませんが、ビアンカ様も彼女に憧れを抱いていたのではありませんか？</speak>
-	    <show chara="ritaVestNaughtyClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressScreamClose" position="left"/>
-	    <speak chara="_Bianka">……</speak>
-	    <show chara="biankaDressShyClose" position="left"/>
-	    <speak chara="_Bianka">やめてください、そんな風に言われるとむず痒くなります。</speak>
-	    <show chara="biankaDressShyClose" position="left" opacity="0.8"/>
-	    <show chara="ritaVestSquintClose" position="right"/>
-	    <speak chara="_Rita">ふふ。でしたらお風呂にしましょうか？お背中を流すのもマッサージも、遠慮なさらず仰ってくださいね。</speak>
-	    <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressBiteClose" position="left"/>
-	    <shake position="left" time="250"></shake>
-	    <speak chara="_Bianka">い、り、ま、せ、ん！</speak>
-	    <goto goto="30" clockwise="1"/>
-    </scene>
-    <scene id="30" background="wildVolcano.jpg">
-	    <bgm src="peerGynt.mp3" status="start"></bgm>
-	    <text>——翌朝。</text>
-	    <text remark="next">列車がラタクンガ駅を出発し、西コルディレラと中央コルディレラの山間の谷を走っている。</text>
+			<show chara="cervantesLaughClose" position="right"/>
+			<speak chara="_Miguel">가능한 많은 걸 알고 싶다네! 독자적으로 현대 국가까지 발전한 「잉카 공화국」에 매우 흥미 있다네!</speak>
+			<show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressHesitateClose" position="right"/>
+			<speak chara="_Bianka">윽……</speak>
+			<show chara="biankaDressShyClose" position="right"/>
+			<speak chara="_Bianka">저도 가능하다면 묻고 싶긴 한데…… 너무한 걸 묻는 거 아닌가 싶어요. 뭔가 죄책감 같은 게 느껴져서……</speak>
+			<show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+			<show chara="ritaVestSquintClose" position="left"/>
+			<speak chara="_Rita">후훗, 비앙카 님은 이미 키라 님의 팬이 되셨나 보네요.</speak>
+			<show chara="ritaVestSquintClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressShoutClose" position="right"/>
+			<speak chara="_Bianka">야! 이상한 소리 하지 마!</speak>
+			<show chara="biankaDressScreamClose" position="right"/>
+			<speak chara="_Bianka">나, 난 그저 아이돌 스타의 시간을 이런데 쓰기엔 아깝다고 생각했을 뿐이야!</speak>
+			<show chara="biankaDressScreamClose" position="right" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesOffSmileClose" position="left"/>
+			<speak chara="_ShigureKira">하하, 괜찮아, 괜찮아.</speak>
+			<show chara="ShigureKiraSunGlassesOffThinkClose" position="left"/>
+			<speak chara="_ShigureKira">내가 이런 얘기 하면 뭔가 어색하거나 이상하게 느껴질 수도 있지만——</speak>
+			<show chara="ShigureKiraSunGlassesOffSunshineClose" position="left"/>
+			<speak chara="_ShigureKira">우리의 운명은 이미 정해졌다고, 지금 보이는 건, 너희들은 내게 있어 중요한 「비즈니스 파트너」가 될 게 분명하다는 거야!</speak>
+			<speak chara="_ShigureKira">그러니까 앞으로 잘 부탁해!</speak>
+			<show chara="ShigureKiraSunGlassesOffSunshineClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="right"/>
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesOffSmileClose" position="left"/>
+			<speak chara="_ShigureKira">헤헤, 발키리로서도, 너희 둘을 기대하고 있다고?</speak>
+			<show chara="ShigureKiraSunGlassesOffSmileClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressShyClose" position="right"/>
+			<speak chara="_Bianka">……！</speak>
+			<show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesOffSunshineClose" position="left"/>
+			<speak chara="_ShigureKira">——그럼 가자! 카하마르카로, 야앗!</speak>
+			<goto goto="20" clockwise="1"/>
+		</scene>
+		<scene id="20" background="trainBedroom.jpg">
+			<bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+			<show chara="biankaDressScreamClose" position="left"/>
+			<speak chara="_Bianka">우와…… 이…… 이거 주교의 공무용 열차만큼이나 호화롭네!</speak>
+			<show chara="biankaDressSmileAhClose" position="left"/>
+			<speak chara="_Bianka">진짜 이런 거 타도 되는 거야? 욕실조차도 엄청 화려한데!</speak>
+			<show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
+			<speak chara="_ShigureKira">주교?</speak>
+			<show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
+			<speak chara="_ShigureKira">아, 오토 주교 얘기하는 거야?</speak>
+			<show chara="ShigureKiraSunGlassesOffSmileClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressHesitateClose" position="left"/>
+			<speak chara="_Bianka">아, 맞아요.</speak>
+			<show chara="biankaDressSneerClose" position="left"/>
+			<speak chara="_Bianka">제가 보기에 그 사람한텐 딱히 위엄 같은 거 없어 보이는데, 하루 종일 빈둥거리기만 하고…… 전혀 「주교」처럼 안 보인달까.</speak>
+			<show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
+			<speak chara="_ShigureKira">……</speak>
+			<show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
+			<speak chara="_ShigureKira">하하, 그건 그가 정말 널 신경 써주고 있다는 거야!</speak>
+			<show chara="ShigureKiraSunGlassesOffSmileClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressNormalClose" position="left"/>
+			<speak chara="_Bianka">……?</speak>
+			<show chara="biankaDressNormalClose" position="left" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesOffConfidentClose" position="right"/>
+			<speak chara="_ShigureKira">너 테레사라고 아니? 테레사 아포칼립스.</speak>
+			<show chara="ShigureKiraSunGlassesOffConfidentClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressHesitateClose" position="left"/>
+			<speak chara="_Bianka">어, 들어본 적은 있어요. 주교의 「손녀」였나요?</speak>
+			<show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
+			<speak chara="_ShigureKira">음, 테레사가 말하는 주교랑 네가 말하는 주교가 상당히 비슷한 거 같아서.</speak>
+			<show chara="ShigureKiraSunGlassesOffTalkingClose" position="right"/>
+			<speak chara="_ShigureKira">하지만 주교가 우리들을 대할 땐…… 언제나 그 가벼워 보이는 미소 뒤에 서늘함이 느껴지거든.</speak>
+			<show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
+			<speak chara="_ShigureKira">하하, 너 정말 주교의 다른 면을 못 봤나 보네, 그렇지?</speak>
+			<show chara="ShigureKiraSunGlassesOffSmileClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressSorrowClose" position="left"/>
+			<speak chara="_Bianka">그럴지도요…… 이미 리타도 제게 비슷한 얘기를 했어요. 주교가 저를 대하는 태도와 다른 이들을 대하는 태도가 많이 다르다고요.</speak>
+			<show chara="biankaDressNormalClose" position="left"/>
+			<speak chara="_Bianka">——하지만 그게 딱히 중요한 건 아니라고 생각해요.</speak>
+			<speak chara="_Bianka">그 사람의 본성이 어떻든, 제게 주어진 상황은 언제나 명확하니까요.</speak>
+			<show chara="biankaDressHesitateClose" position="left"/>
+			<speak chara="_Bianka">전 강해져야 해요. 반드시 강해져야만 해요. 그렇지 않으면 저는 아무것도 아닌 게 될 거예요.</speak>
+			<speak chara="_Bianka">겨우 「최연소 A급 발키리」 따위로는……</speak>
+			<show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
+			<speak chara="_ShigureKira">……</speak>
+			<show chara="ShigureKiraSunGlassesOffThinkClose" position="right"/>
+			<speak chara="_ShigureKira">……</speak>
+			<show chara="ShigureKiraSunGlassesOffSunshineClose" position="right"/>
+			<speak chara="_ShigureKira">너 정말 아이돌에 딱인 거 같은데!</speak>
+			<show chara="ShigureKiraSunGlassesOffSunshineClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="left"/>
+			<speak chara="_Bianka">네?</speak>
+			<show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
+			<speak chara="_ShigureKira">생긴 거 문제없음. 목소리도 OK. 성격은 가장 인기 있는 타입이 아니긴 하지만, 그건 그런대로 특색이니까.</speak>
+			<show chara="ShigureKiraSunGlassesOffSunshineClose" position="right"/>
+			<speak chara="_ShigureKira">게다가 그 신념! 사랑을 전하는 천사로서, 「최강을 추구하는 마음」이 있어야 그 임무를 맡을 수 있지!</speak>
+			<show chara="ShigureKiraSunGlassesOffTalkingClose" position="right"/>
+			<speak chara="_ShigureKira">스스로를 모두가 필요로 하는 존재로 만들 수 있어야 하니까——</speak>
+			<show chara="ShigureKiraSunGlassesOffTalkingClose" position="right"/>
+			<speak chara="_ShigureKira">자신의 결점과 미숙함, 이기적인 생각, 자신의 미적 편견과 맞서 싸워나가야 해.</speak>
+			<show chara="ShigureKiraSunGlassesOffConfidentClose" position="right"/>
+			<speak chara="_ShigureKira">게다가, 진정한 사랑을 모두의 마음에 전하기 위해선, 결코 상처입지 않고, 언제나 밝게 빛나는, 다이아몬드 같은 존재가 되어야 하지.</speak>
+			<show chara="ShigureKiraSunGlassesOffConfidentClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressScreamClose" position="left"/>
+			<speak chara="_Bianka">……그런 게 가능해요? 누구나 언젠간 다친다고요!</speak>
+			<show chara="biankaDressScreamClose" position="left" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
+			<speak chara="_ShigureKira">사자도 다쳐, 하지만 남에게 자신의 상처를 쉽게 보여주는 일은 없지.</speak>
+			<speak chara="_ShigureKira">사자는 사자니까.</speak>
+			<show chara="ShigureKiraSunGlassesOffThinkClose" position="right"/>
+			<speak chara="_ShigureKira">……</speak>
+			<show chara="ShigureKiraSunGlassesOffThinkClose" position="right"/>
+			<speak chara="_ShigureKira">아, 결국, 「사랑의 보석」을 이용해 모두를 속인 나는…… 어쩌면 가장 자격 없는 사람일지도 모르겠네.</speak>
+			<show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
+			<speak chara="_ShigureKira">그냥 너희들 앞에서 허세 좀 부려봤어.</speak>
+			<show chara="ShigureKiraSunGlassesOffSmileClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressShyClose" position="left"/>
+			<speak chara="_Bianka">그래도…… 어쨌든 당신은 여전히 무대 위에서 그 무엇보다도 밝게 빛나는 스타잖아요, 안 그래요?</speak>
+			<show chara="biankaDressShyClose" position="left" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
+			<speak chara="_ShigureKira">……</speak>
+			<show chara="ShigureKiraSunGlassesOffColdClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressNormalClose" position="left"/>
+			<speak chara="_Bianka">저는 고아예요. 과거의 기억도 모두 잃어버렸고요. 그리고 오래전부터 이 세상은 오직 결과만 신경 쓴다는 것도 깨달았죠.</speak>
+			<show chara="biankaDressAngryClose" position="left"/>
+			<speak chara="_Bianka">과정이 중요하지 않다는 얘기는 아니에요——하지만 숫자처럼, 맨 왼쪽에 「1」이 있는 게 아니라면, 아무리 「0」이 많아도, 아무런 의미가 없으니까요.</speak>
+			<show chara="biankaDressSmileClose" position="left"/>
+			<speak chara="_Bianka">그런 의미에서…… 자신의 꿈을 실현할 수 있는 사람들은 정말, 정말, 정말 대단하다고 마음 깊숙한 곳부터 느끼고 있어요.</speak>
+			<show chara="biankaDressShyClose" position="left"/>
+			<speak chara="_Bianka">꼼수를 쓰든, 운이 좋든——「시구레 키라」는 이미 많은 사람들로부터 사랑받고, 그들에게 사랑과 활력을 불어넣어 주는 햇살과도 같은 존재인 걸요.</speak>
+			<show chara="biankaDressSmileAhClose" position="left"/>
+			<speak chara="_Bianka">그 자체만으로도 정말 대단한걸요, 그렇지 않나요?</speak>
+			<show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesOffShockClose" position="right"/>
+			<speak chara="_ShigureKira">……！</speak>
+			<show chara="ShigureKiraSunGlassesOffSunshineClose" position="right"/>
+			<speak chara="_ShigureKira">고마워!</speak>
+			<show chara="ShigureKiraSunGlassesOffSunshineClose" position="right"/>
+			<speak chara="_ShigureKira">너…… 격려를 정말 잘하는구나! 마치 세실리아 님 같아!</speak>
+			<show chara="ShigureKiraSunGlassesOffSunshineClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="left"/>
+			<speak chara="_Bianka">「세실리아」? 그 「게임 기록 보유자」 세실리아요?</speak>
+			<show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesOffShockClose" position="right"/>
+			<speak chara="_ShigureKira">……응?</speak>
+			<show chara="ShigureKiraSunGlassesOffThinkClose" position="right"/>
+			<speak chara="_ShigureKira">「게임 기록 보유자」? 잠깐——너, 세실리아 님에 대한 인상이 바로 그거야?</speak>
+			<show chara="ShigureKiraSunGlassesOffThinkClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressShyClose" position="left"/>
+			<speak chara="_Bianka">아…… 아뇨…… 그냥 그렇게 말하면, 그분이 기뻐하지 않을까 싶어서요.</speak>
+			<show chara="biankaDressSorrowClose" position="left"/>
+			<speak chara="_Bianka">혹시나 기분 나쁘게 했다면 사과드릴게요.</speak>
+			<show chara="biankaDressSorrowClose" position="left" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
+			<speak chara="_ShigureKira">……</speak>
+			<show chara="ShigureKiraSunGlassesOffColdClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressHateClose" position="left"/>
+			<speak chara="_Bianka">천명의 발키리라면 모르는 이가 없어요——세실리아·샤니아트는 천명의 그 누구보다도 강한 S급 발키리로, 「제2붕괴」 전투에서 가장 큰 공을 세운 대영웅이라는걸요.</speak>
+			<show chara="biankaDressAngryClose" position="left"/>
+			<speak chara="_Bianka">……하지만 최후의 전투 중에 희생되고 말으셨죠.</speak>
+			<show chara="biankaDressSorrowClose" position="left"/>
+			<speak chara="_Bianka">전 돌아가신 분을 비난할 자격도, 의도도 없어요——하지만 「최강」을 목표로 하는 한 명의 발키리로서, 그 자신이 모두에게 「희생자」로 기억되는 건 원치 않으실 거라 생각했어요.</speak>
+			<show chara="biankaDressBiteClose" position="left"/>
+			<speak chara="_Bianka">왜냐면 그 말의 의미는…… 그분이…… 정말 「최강」의 자리에 가장 근접했음에도……</speak>
+			<show chara="biankaDressAngryClose" position="left"/>
+			<speak chara="_Bianka">……결국엔 운명의 장난으로, 정점에 오르는데 실패했다는 것이니까요.</speak>
+			<show chara="biankaDressSorrowClose" position="left"/>
+			<speak chara="_Bianka">정말 슬픈 일이라고 생각해요.</speak>
+			<show chara="biankaDressSorrowClose" position="left" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesOffThinkClose" position="right"/>
+			<speak chara="_ShigureKira">너……</speak>
+			<show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
+			<speak chara="_ShigureKira">뭐, 그런 인생관도 있을 수 있겠네.</speak>
+			<show chara="ShigureKiraSunGlassesOffShockClose" position="right"/>
+			<speak chara="_ShigureKira">하지만, 「최강」이라는 게 정말 모든 걸 바칠만한 가치가 있는 거야? 너…… 아직 12살이잖아.</speak>
+			<show chara="ShigureKiraSunGlassesOffShockClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressNormalClose" position="left"/>
+			<speak chara="_Bianka">발키리가 희생되는 경우와 퇴역하는 경우를 동시에 계산하면, 평균적인 발키리의 은퇴 시기는 대략 30살 이하가 되겠죠.</speak>
+			<show chara="biankaDressHesitateClose" position="left"/>
+			<speak chara="_Bianka">——12살이면 거의 반인 걸요.</speak>
+			<show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
+			<speak chara="_ShigureKira">……너, 발키리 말고 다른 건 전혀 생각해 본 적 없어?</speak>
+			<show chara="ShigureKiraSunGlassesOffShockClose" position="right"/>
+			<speak chara="_ShigureKira">네 인생엔 정말 전투밖에 없는 거야?!</speak>
+			<show chara="ShigureKiraSunGlassesOffShockClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressSorrowClose" position="left"/>
+			<speak chara="_Bianka">……키라선배도 전우가 있으셨죠..</speak>
+			<show chara="biankaDressAngryClose" position="left"/>
+			<speak chara="_Bianka">만약 제가 이 세계를 위해 싸우지 않는다면... 아그라 요새에서 희생된 동료들을 생각할 때마다 잠을 잘 수 없을거에요.</speak>
+			<show chara="biankaDressSmileClose" position="left"/>
+			<speak chara="_Bianka">——만약 필요하다면, 붕괴를 제거한 다음에 "어떻게 살지"에 대해서 생각해 볼게요.</speak>
+			<show chara="biankaDressSmileClose" position="left" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesOffTalkingClose" position="right"/>
+			<speak chara="_ShigureKira">……</speak>
+			<show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
+			<speak chara="_ShigureKira">너... 옆에서 보면, 고생할게 뻔히보여.</speak>
+			<show chara="ShigureKiraSunGlassesOffConfidentClose" position="right"/>
+			<speak chara="_ShigureKira">하지만 너같은 사람은 몇명 본적 있으니까ㅡ 남들 눈에는 고생이지만, 너희들이 행복해지는 유일한 길이라는걸 이해하고 있어.</speak>
+			<show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
+			<speak chara="_ShigureKira">내일, 의장씨가 기쁘게 맞이할거야. 그 사람도 너 같은 "소수파"의 멤버거든.</speak>
+			<hide position="left"></hide>
+			<hide position="right"></hide>
+			<text>사복의 아이돌이 뭔가 떠올린듯 했다.</text>
+			<text>잘 자라고 말하고는, 조용히 비앙카와 리타의 방을 나갔다.</text>
+			<show chara="biankaDressShyClose" position="left"/>
+			<speak chara="_Bianka">나... 이상한 말을 너무 많이 한거 같아.</speak>
+			<show chara="biankaDressShyClose" position="left" opacity="0.8"/>
+			<show chara="ritaVestHesitateClose" position="right"/>
+			<speak chara="_Rita">아니에요. 비앙카님.</speak>
+			<show chara="ritaVestSquintClose" position="right"/>
+			<speak chara="_Rita">당신의 말이 너무나 고귀했기에, 우리 선배님의 소중한 기억을 일깨운 거랍니다.
+			</speak>
+			<show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressSorrowClose" position="left"/>
+			<speak chara="_Bianka">……...세실리아님의 일이겠지?</speak>
+			<show chara="biankaDressSorrowClose" position="left" opacity="0.8"/>
+			<show chara="ritaVestNaughtyClose" position="right"/>
+			<speak chara="_Rita">인정하지 않으시겠지만, 비앙카님도 존경하고 계시잖아요?</speak>
+			<show chara="ritaVestNaughtyClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressScreamClose" position="left"/>
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaDressShyClose" position="left"/>
+			<speak chara="_Bianka">정말. 네가 갑자기 그렇게 말하니까, 뭔가 불편한 기분이야.</speak>
+			<show chara="biankaDressShyClose" position="left" opacity="0.8"/>
+			<show chara="ritaVestSquintClose" position="right"/>
+			<speak chara="_Rita">후훗. 그럼 샤워할 준비가 되셨나요? 등을 닦거나 마사지가 필요하시면, 주저하지 말아주세요.
+			</speak>
+			<show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressBiteClose" position="left"/>
+			<shake position="left" time="250"></shake>
+			<speak chara="_Bianka">비앙카
+				필ㅡ요ㅡ없ㅡ어!!!</speak>
+			<goto goto="30" clockwise="1"/>
+		</scene>
+		<scene id="30" background="wildVolcano.jpg">
+			<bgm src="peerGynt.mp3" status="start"></bgm>
+			<text>——이튿날 새벽.</text>
+			<text remark="next">열차는 라카쿵가역을 떠나 서방 코딜레라와 중앙 코딜레라 사이에 있는 계곡을 평온하게 지나가고 있다.
+			</text>
 			<remark post="U2FsdGVkX1+H7Ox4ChPbGiArVaZ1">
-				<p class="article-text-h">注釈：</p>
-				<p class="article-text">コルディレラ（Cordillera）はスペイン語で「山系」を意味する。後にアンデス山脈やロッキー山脈を含む、アメリカを貫く「コルディレラ山系」の名称になった。</p>
-				<p class="article-text">エクアドルやコロンビア地域で、コルディレラ山系は三つの平行した山脈がある。それぞれ西コルディレラ（Cordillera Occidental）、中央コルディレラ（Cordillera Real / Cordillera Central）東コルディレラ（Cordillera Oriental）と呼ばれている。</p>
+				<p class="article-text-h">주역:</p>
+				<p class="article-text">코딜레라(Cordillera)는 스페인어의 "산맥"이라는 의미로, 후에 의미가 변해 안데스 산맥과 로키 산맥을 포함한, 미대륙의 "코딜레라 산맥"의 통칭이 됩니다.</p>
+				<p class="article-text">
+					에콰도르와 콜롬비아지역의 산맥은 "서방 코딜레라" (Cordillera Occidental), "중앙 코딜레라" (Cordillera Real/Cordillera Central), "동방 코딜레라" (Cordillera Oriental)로 나눠집니다.</p>
 			</remark>
-	    <text>終点キトまであと一時間程度。赤道地域の温暖気候下の山間風景が、まるで絵画のようであった。</text>
-	    <speak chara="_ShigureKira">古代の王国時代、このような谷でしかちゃんとした文明は育まれなかった——何故なら気候が安定して、水源が豊かな土地じゃないと開拓に苦労するからね。</speak>
-	    <speak chara="_ShigureKira">当時の国王たちは領地を征服した後、体制が整い次第、農耕地や牧場を増やすことに注力した。</speak>
-	    <speak chara="_ShigureKira">水を引き入れ、土地をならし、他の場所で過剰になった人や、難民を新しい村に配置したの。</speak>
-	    <speak chara="_ShigureKira">谷底の平地のみならず、良い土のある山や丘で棚田も作ったわ。</speak>
-	    <speak chara="_ShigureKira">棚田は、まず硬い石で山体に沿って三つの壁を作る。土の重さに耐えられるよう、壁は内側にやや傾けてあるの。そのあと壁の内側に、壁と同じ高さまで土を盛る。</speak>
-	    <speak chara="_ShigureKira">一層目の棚田ができたら、その上にもっと小さな棚田を作って、それを山頂に届くまで続けるのよ。</speak>
-	    <speak chara="_ShigureKira">そして、川もなく、雨も降らない砂漠地帯にまで王国の領土が伸びると、人々は妙な方法で土地を開拓したわ。</speak>
-	    <speak chara="_ShigureKira">村を海沿いに建てて、海面と同じ高度となるよう穴を掘り、作物の水分を確保したのよ。</speak>
-	    <speak chara="_ShigureKira">さらに、こういう土地では栄養が不足しがちだから、種と一緒にイワシの頭を埋めた。</speak>
-	    <speak chara="_ShigureKira">あの辺りはイワシの産地だから、ゴミを有効活用したってわけね。</speak>
-	    <speak chara="_Bianka">えーと……</speak>
-	    <speak chara="_Bianka">綺羅先輩、色々知ってるんですね。</speak>
-	    <speak chara="_ShigureKira">アハハ……数年前に、ちょっとだけガイドをやっていたのよ。</speak>
-	    <speak chara="_Bianka">ガイド？それって普通、現地の人間がするものじゃないですか？</speak>
-	    <speak chara="_ShigureKira">だからこそ、養成所がその仕事を私にさせたのかも。</speak>
-	    <speak chara="_ShigureKira">この地の文化を学んで、一般人の考え方を知るために。</speak>
-	    <speak chara="_Bianka">……アイドルって大変なんですね。綺羅先輩は元の職に戻るつもりはないんですか？</speak>
-	    <speak chara="_ShigureKira">元の職？</speak>
-	    <speak chara="_Bianka">この前……「星語者」の一員って言ってましたよね？</speak>
-	    <speak chara="_ShigureKira">……そうだけど。</speak>
-	    <speak chara="_Bianka">戦場でここの人たちを助けたいとは思わないんですか？この国が好きなんですよね？</speak>
-	    <speak chara="_ShigureKira">そうね、だからもっと助けになれることをしている。</speak>
-	    <speak chara="_Bianka">え？でも……</speak>
-	    <speak chara="_ShigureKira">私が今できる戦い方は、戦乙女時代とは違うの。</speak>
-	    <speak chara="_ShigureKira">あっ、別に崩壊に対抗する力がなくなったわけじゃないのよ。ただ……</speak>
-	    <speak chara="_Bianka">ただ？</speak>
-	    <speak chara="_ShigureKira">ただ、「時雨綺羅」にはまだ明かせない秘密があるってだけ。</speak>
-	    <speak chara="_Bianka">……？</speak>
-	    <speak chara="_ShigureKira">いずれわかるわよ。</speak>
-	    <goto goto="40" clockwise="1"/>
-    </scene>
-    <scene id="40" background="suburbsQuito.jpg">
-	    <bgm src="10_10_kalinka.mp3" status="start"></bgm>
-	    <show chara="ShigureKiraSunGlassesLaughClose" position="left"/>
-	    <speak chara="_ShigureKira">はい、皆さん——共和国首都、赤道の高山の町 キトへようこそ！</speak>
-	    <show chara="ShigureKiraSunGlassesConfidentClose" position="left"/>
-	    <speak chara="_ShigureKira">標高2800メートルくらいだから、高山病に気をつけてね。</speak>
-	    <show chara="ShigureKiraSunGlassesConfidentClose" position="left" opacity="0.8"/>
-	    <show chara="shakesCasualConfidentClose" position="right"/>
-	    <speak chara="_Shakespeare">あの雪山は何て言うんだい？ずいぶんと高いね。</speak>
-	    <show chara="shakesCasualConfidentClose" position="right" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesThinkClose" position="left"/>
-	    <speak chara="_ShigureKira">ああ、コトパクシ山ね。頂上の雪は一年を通して溶けることがないの。現地の人には雨の神の居処だって呼ばれているわね。</speak>
-	    <show chara="ShigureKiraSunGlassesSmileClose" position="left"/>
-	    <speak chara="_ShigureKira">さて、本題に戻りましょう——私たちの目的地は共和国議会よ。途中、居住区を通って、ついでに「赤道記念碑」も見れるわ。</speak>
-	    <show chara="ShigureKiraSunGlassesConfidentClose" position="left"/>
-	    <speak chara="_ShigureKira">約3キロだから、歩いて行っても大丈夫よね？</speak>
-	    <show chara="ShigureKiraSunGlassesConfidentClose" position="left" opacity="0.8"/>
-	    <show chara="champoBlanketLaughClose" position="right"/>
-	    <speak chara="_Champollion">問題ない！</speak>
-	    <show chara="champoBlanketLaughClose" position="right" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesLaughClose" position="left"/>
-	    <speak chara="_ShigureKira">じゃあ、行くわよ。</speak>
-	    <goto goto="50" change="#ffffff"/>
-    </scene>
-    <scene id="50" background="streetEcuador.jpg">
-	    <bgm src="10_10_kalinka.mp3" status="continue"></bgm>
-	    <show chara="biankaDressShyClose" position="left"/>
-	    <speak chara="_Bianka">（ダメだ……気になります……）</speak>
-	    <show chara="biankaDressSighClose" position="left"/>
-	    <speak chara="_Bianka">（「まだ明かせない秘密がある」？）</speak>
-	    <show chara="biankaDressBiteClose" position="left"/>
-	    <speak chara="_Bianka">（あんなことを言っておいて、何事もなかったかのように振る舞うなんて卑怯です！）</speak>
-	    <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
-	    <show chara="ritaVestNormalClose" position="right"/>
-	    <speak chara="_Rita">ビアンカ様、何かお悩みでも？</speak>
-	    <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressHesitateClose" position="left"/>
-	    <speak chara="_Bianka">えっと、いえ……</speak>
-	    <show chara="biankaDressAngryClose" position="left"/>
-	    <speak chara="_Bianka">何というか……</speak>
-	    <show chara="biankaDressShyClose" position="left"/>
-	    <speak chara="_Bianka">この距離でしたら、前の人たちには聞こえませんよね……</speak>
-	    <goto goto="60" clockwise="1"/>
-    </scene>
-    <scene id="60" background="streetEcuador.jpg">
-	    <bgm src="10_10_kalinka.mp3" status="continue"></bgm>
+			<text>종점 키토까지의 거리는 1시간 남짓, 적도지역의 4계절과 고산지대의 풍경이 서서히 펼쳐지는 그림과 같이 승객들의 눈에 들어왔다.</text>
+			<speak chara="_ShigureKira">고대, 그러니까 왕국시기에는, 이런 계곡들만이 상대적으로 성숙한 문명을 보유했다는 거야ㅡ 이런 지형은 기후도 좋고, 관개가 편하며, 개간도 상대적을 쉽게 했거든.</speak>
+			<speak chara="_ShigureKira">이 시기의 왕들은 정복한 곳에 가서, 통치를 설립하고, 거주민들은 안정시킨 뒤, 가장 신경을 쓴 일은 경작지와 목초지를 확장하는 일이었다고 해.</speak>
+			<speak chara="_ShigureKira">그들은 특히 장인들을 불러모아 수도를 짓고, 땅을 갈아, 과잉된 인구나 피난민들을 이 새로운 마을에 배치했어.</speak>
+			<speak chara="_ShigureKira">계곡 아래쪽 평원에만 그런게 아니라, 토지가 고른 언덕이나 비탈에도 계단식 밭을 만들었어.
+			</speak>
+			<speak chara="_ShigureKira">계단식 밭을 만들때는, 우선 튼튼한 석재로 3단 벽을 쌓아, 그 벽들은 살짝 안쪽으로 기울어져 있어 흙의 무게를 견딜수 있어; 그리곤 벽 안쪽에 그 높이만큼 토양을 채우는 거야.
+			</speak>
+			<speak chara="_ShigureKira">일단 하나를 지으면, 그걸 기초로 조금 작은 계단식 밭을 지었지, 산 정상에 오를 때까지.
+			</speak>
+			<speak chara="_ShigureKira">나중에는 왕국의 영토가 1년 내내 비가 오지 않고, 물을 가져올 하류도 없는 연안의 사막까지 확장되었지만; 사람들은 이 볼보지를 열기 위한 신비한 방법을 생각해냈지ㅡ
+			</speak>
+			<speak chara="_ShigureKira">바다와 가까운 지방에 마을을 세우고, 모래층을 파헤친 뒤, 장소에 따라 사람 한명에서 두명 정도 깊이의 구덩이나, 바다와 같은 수준까지 판거야: 이 방법을 사용해서 작물에 충분한 수분을 공급할 수 있었지.</speak>
+			<speak chara="_ShigureKira">그런 땅들은 너무나 척박했기 때문에, 정어리 머리와 씨았을 땅에 같이 심었다고 해.
+			</speak>
+			<speak chara="_ShigureKira">그 일대는 정어리 생산지였기에, 쓰레기를 보물로 바꿀수 있었던 거지.</speak>
+			<speak chara="_Bianka">음……</speak>
+			<speak chara="_Bianka">키라선배는 아는게 많네요.</speak>
+			<speak chara="_ShigureKira">아하하... 몇년 전에는, 잠깐이지만 진짜 가이드를 했었거든.</speak>
+			<speak chara="_Bianka">네? 가이드? 그건 일반적으로 지역 사람들이 하는 직업 아니에요?</speak>
+			<speak chara="_ShigureKira">그것도 대충 맞는데, 아이돌 육성소에서 이런 일을 내게 맡긴거라서.</speak>
+			<speak chara="_ShigureKira">지역문화를 배우고 활용한다? 일반인 생각에 익숙해지기? 아무튼, 그런 목적으로.</speak>
+			<speak chara="_Bianka">……아이돌은 정말 쉬운게 아니네요. 키라선배는 옛날일로 돌아가고 싶다는 생각 해본적 없어요?</speak>
+			<speak chara="_ShigureKira">응?</speak>
+			<speak chara="_Bianka">선배는... 자기가 "스타스피커"의 일원이라 하셨잖아요.</speak>
+			<speak chara="_ShigureKira">……그랬었지</speak>
+			<speak chara="_Bianka">그러니까... 전장에 있는 사람들을 도와주고 싶지 않은거에요? 이 나라를 아주 좋아하시잖아요?
+			</speak>
+			<speak chara="_ShigureKira">맞아, 그래서 난 그들에게 더 많은걸 해주고 싶어.</speak>
+			<speak chara="_Bianka">네? 하지만...</speak>
+			<speak chara="_ShigureKira">내가 지금 사용할 수 있는 전투방식은, 발키리였던 때하고는 완전히 달라.</speak>
+			<speak chara="_ShigureKira">아ㅡ 붕괴에 저항할 수 있는 전투력을 잃었다는건 아니고. 다만...
+			</speak>
+			<speak chara="_Bianka">다만?</speak>
+			<speak chara="_ShigureKira">다만, "시구레키라"는 아직 너희들에게 말해줄 수 없는 작은 비밀이 있다는거지.
+			</speak>
+			<speak chara="_Bianka">……?</speak>
+			<speak chara="_ShigureKira">때가 되면, 자연스럽게 알게 될거야.</speak>
+			<goto goto="40" clockwise="1"/>
+		</scene>
+		<scene id="40" background="suburbsQuito.jpg">
+			<bgm src="10_10_kalinka.mp3" status="start"></bgm>
+			<show chara="ShigureKiraSunGlassesLaughClose" position="left"/>
+			<speak chara="_ShigureKira">
+				자, 여러분ㅡ 잉카공화국의 수도, 적도의 고산도시, 키토에 오신걸 환영합니다!</speak>
+			<show chara="ShigureKiraSunGlassesConfidentClose" position="left"/>
+			<speak chara="_ShigureKira">이곳은 해발2800m 정도니까, 모두 고산병을 조심해야 할 걸?</speak>
+			<show chara="ShigureKiraSunGlassesConfidentClose" position="left" opacity="0.8"/>
+			<show chara="shakesCasualConfidentClose" position="right"/>
+			<speak chara="_Shakespeare">저 설산은 뭐야? 정말 높아 보이는데!?ずいぶんと高いね.</speak>
+			<show chara="shakesCasualConfidentClose" position="right" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesThinkClose" position="left"/>
+			<speak chara="_ShigureKira">아, 저 산의 이름은 "코토팍시", 정상의 눈은 녹지 않고, 전통문화쪽에선 비의 신이 살고 있는곳이라 여겼다고 해.</speak>
+			<show chara="ShigureKiraSunGlassesSmileClose" position="left"/>
+			<speak chara="_ShigureKira">본론을 말하자면ㅡ 우리의 목적지는 공화국 의회, 일반 거주지역 거리를 통과하고, 가는길에 "적도 기념비"도 보고 갈거야.</speak>
+			<show chara="ShigureKiraSunGlassesConfidentClose" position="left"/>
+			<speak chara="_ShigureKira">이 구간의 거리는 약 3km, 우리는 걸어갈거야. 문제 없지??</speak>
+			<show chara="ShigureKiraSunGlassesConfidentClose" position="left" opacity="0.8"/>
+			<show chara="champoBlanketLaughClose" position="right"/>
+			<speak chara="_Champollion">문제 없어요!</speak>
+			<show chara="champoBlanketLaughClose" position="right" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesLaughClose" position="left"/>
+			<speak chara="_ShigureKira">좋아, 그럼 출발!</speak>
+			<goto goto="50" change="#ffffff"/>
+		</scene>
+		<scene id="50" background="streetEcuador.jpg">
+			<bgm src="10_10_kalinka.mp3" status="continue"></bgm>
+			<show chara="biankaDressShyClose" position="left"/>
+			<speak chara="_Bianka">(아냐... 신경 쓰지말자...)</speak>
+			<show chara="biankaDressSighClose" position="left"/>
+			<speak chara="_Bianka">("아직 너희들에게게 말해줄 수 없는 작은 비밀")</speak>
+			<show chara="biankaDressBiteClose" position="left"/>
+			<speak chara="_Bianka">(그런 말을 해놓고 마치 아무일도 없었던 것처럼 있는건, 너무 뻔뻔하잖아!)</speak>
+			<show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+			<show chara="ritaVestNormalClose" position="right"/>
+			<speak chara="_Rita">비앙카님... 걱정이라도 있으신가요?</speak>
 			<show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressSighClose" position="left"/>
-	    <speak chara="_Bianka">……って、もったいぶっていて。</speak>
-	    <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
-	    <show chara="ritaVestHesitateClose" position="right"/>
-	    <speak chara="_Rita">……</speak>
-	    <speak chara="_Rita">…………</speak>
-	    <show chara="ritaVestNormalClose" position="right"/>
-	    <speak chara="_Rita">オットー主教に奇妙な記録を見せて頂いたことがあります。</speak>
-	    <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressShockClose" position="left"/>
-	    <speak chara="_Bianka">綺羅先輩の？</speak>
-	    <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
-	    <show chara="ritaVestHesitateClose" position="right"/>
-	    <speak chara="_Rita">いいえ、彼女の戦友「シュブ・ニグラス」様のです。</speak>
-	    <show chara="ritaVestNormalClose" position="right"/>
-	    <speak chara="_Rita">……もちろん、これは偽名です。ラヴクラフトの著作に登場する邪神の名前ですね。</speak>
-	    <show chara="ritaVestNormalClose" position="right"/>
-	    <speak chara="_Rita">ただ、戦乙女が偽名やコードネームを使うのは珍しいことではありません。あの記録にあった奇妙なこととはそこではないのです。</speak>
-	    <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressHateClose" position="left"/>
-	    <speak chara="_Bianka">じゃあ、一体……</speak>
-	    <show chara="biankaDressHateClose" position="left" opacity="0.8"/>
-	    <show chara="ritaVestNormalClose" position="right"/>
-	    <speak chara="_Rita">アフリカ支部は1990年の初頭と年末に、南アメリカ支部は1992年に、北極支部は2000年に——計4回、「シュブ・ニグラス」の殉職が報告されました。</speak>
-	    <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressShockClose" position="left"/>
-	    <speak chara="_Bianka">え？そのうち1回が本当で、他が誤報であったとしてもさすがに多すぎませんか？</speak>
-	    <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
-	    <show chara="ritaVestHesitateClose" position="right"/>
-	    <speak chara="_Rita">私もそのように質問しました。すると、オットー主教はこう答えました。</speak>
-	    <show chara="ritaVestNormalClose" position="right"/>
-	    <speak chara="_Rita">「戦乙女に旅人が一人や二人いても、おかしくはない。」</speak>
-	    <speak chara="_Rita">「なに、気にすることはない。大局と無関係な情報を切り捨てることを覚えるんだ。」</speak>
-	    <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressHesitateClose" position="left"/>
-	    <speak chara="_Bianka">うん？「旅人」……どういう意味ですか？</speak>
-	    <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
-	    <show chara="ritaVestHesitateClose" position="right"/>
-	    <speak chara="_Rita">わかりません。ですが、時雨綺羅様は確かに「シュブ・ニグラス」様ともっとも長くコンビを組んできた戦乙女です。</speak>
-	    <speak chara="_Rita">もしかしたら、その片方ではなく……お二人ともに何かしら秘密があるのかもしれません……</speak>
-	    <show chara="ritaVestNormalClose" position="right"/>
-	    <speak chara="_Rita">もったいぶっているのではなく——真実が複雑すぎて、ここでは説明しづらい可能性もあります。</speak>
-	    <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressHesitateClose" position="left"/>
-	    <speak chara="_Bianka">でも、「戦い方」の変化って、そう複雑なものなのでしょうか？</speak>
-	    <speak chara="_Bianka">「星語者」になった後、「宇宙人ビリビリ電波」を会得したとか言えば、一言二言で説明できることでしょう？</speak>
-	    <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
-	    <show chara="ritaVestNaughtyClose" position="right"/>
-	    <speak chara="_Rita">ふふ、ビアンカ様は本当にせっかちさんですね。</speak>
-	    <show chara="ritaVestNaughtyClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressAngryClose" position="left"/>
-	    <speak chara="_Bianka">……もう。メイドだからって、主人の欠点をいちいち指摘するのはやめてください。</speak>
-	    <show chara="biankaDressAngryClose" position="left" opacity="0.8"/>
-	    <show chara="ritaVestSquintClose" position="right"/>
-	    <speak chara="_Rita">あらあら、それは申し訳ございませんでした。</speak>
-	    <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressSighClose" position="left"/>
-	    <speak chara="_Bianka">もういいです。そういった態度にはもう慣れましたから。</speak>
-	    <goto goto="70" clockwise="1"/>
-    </scene>
-    <scene id="70" background="monumentEquador.jpg">
-	    <bgm src="10_10_kalinka.mp3" status="continue"></bgm>
-	    <show chara="ShigureKiraSunGlassesLaughClose" position="left"/>
-	    <speak chara="_ShigureKira">はい、注目！ここが共和国首都でもっとも有名なスポット、赤道大記念碑よ！</speak>
-	    <show chara="ShigureKiraSunGlassesConfidentClose" position="left"/>
-	    <speak chara="_ShigureKira">高さ30メートル、一番上は地球の形をしていて、それを下から貫く黄色い線が赤道。四つの台座は「世界の四方」を表し、共和国の古い呼称「タワンティン・スウユ」の意味もあるの。</speak>
-	    <show chara="ShigureKiraSunGlassesSmileClose" position="left"/>
-	    <speak chara="_ShigureKira">ちなみに、この広場は古くから存在しているわ——</speak>
-	    <speak chara="_ShigureKira">——当時の国王が王子の誕生を祝うために、二百人でやっと運べるほどの金の鎖を作り、王宮に仕える全員に鎖を持ってこの広場で踊るように命じたなんて話があるわ。</speak>
-	    <show chara="ShigureKiraSunGlassesSmileClose" position="left" opacity="0.8"/>
-	    <show chara="shakesCasualLaughClose" position="right"/>
-	    <speak chara="_Shakespeare">何であれ、ロンドンの重く暗い「塔」よりは立派だね！</speak>
-	    <show chara="shakesCasualLaughClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressHesitateClose" position="left"/>
-	    <speak chara="_Bianka">……そうですか？普通の記念碑じゃありません？タワー42の方がよっぽどすごいと思いますが？</speak>
-	    <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
-	    <show chara="shakesCasualEmbarrassedClose" position="right"/>
-	    <speak chara="_Shakespeare">タワー42？未来の神秘的な建造物かい？宇宙人と交信するためのものとか？</speak>
-	    <show chara="shakesCasualEmbarrassedClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressSighClose" position="left"/>
-	    <speak chara="_Bianka">……は？</speak>
-	    <show chara="ritaVestSmileClose" position="left"/>
-	    <speak chara="_Rita" remark="next">シェイクスピア様、タワー42は商用の摩天楼で、宇宙人とは関係ありません。</speak>
+			<show chara="biankaDressHesitateClose" position="left"/>
+			<speak chara="_Bianka">아... 아니……</speak>
+			<show chara="biankaDressAngryClose" position="left"/>
+			<speak chara="_Bianka">뭐랄까……</speak>
+			<show chara="biankaDressShyClose" position="left"/>
+			<speak chara="_Bianka">음, 이 거리라면 앞의 사람들이 못듣겠지……</speak>
+			<goto goto="60" clockwise="1"/>
+		</scene>
+		<scene id="60" background="streetEcuador.jpg">
+			<bgm src="10_10_kalinka.mp3" status="continue"></bgm>
+			<show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressSighClose" position="left"/>
+			<speak chara="_Bianka">……딱 중요한 곳에서 말을 끊는거야.</speak>
+			<show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+			<show chara="ritaVestHesitateClose" position="right"/>
+			<speak chara="_Rita">……</speak>
+			<speak chara="_Rita">…………</speak>
+			<show chara="ritaVestNormalClose" position="right"/>
+			<speak chara="_Rita">오토주교가 제게 이상한 기록들을 보여준 기억이 생각나네요.</speak>
+			<show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="left"/>
+			<speak chara="_Bianka">그거... 키라선배의??</speak>
+			<show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+			<show chara="ritaVestHesitateClose" position="right"/>
+			<speak chara="_Rita">아뇨, 그녀의 전우, "슈브·니구라스"님이요.</speak>
+			<show chara="ritaVestNormalClose" position="right"/>
+			<speak chara="_Rita">……물론 이건 가명, 러브크래프트에 나오는 악신의 이름이에요.
+			</speak>
+			<show chara="ritaVestNormalClose" position="right"/>
+			<speak chara="_Rita">하지만, 가명이나 코드명을 쓰는 발키리는 특별히 희귀한것도 아니기에, 이건 기록의 이상한 부분이 아니었어요.</speak>
+			<show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressHateClose" position="left"/>
+			<speak chara="_Bianka">그럼 대체……</speak>
+			<show chara="biankaDressHateClose" position="left" opacity="0.8"/>
+			<show chara="ritaVestNormalClose" position="right"/>
+			<speak chara="_Rita">1990년 연초와 연말 아프리카 지부, 1992년 남미지부, 2000년 북극지부까지 "슈브·니구라스"의 전사가 총 4번 보고되었어요.</speak>
+			<show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="left"/>
+			<speak chara="_Bianka">え?뭐? 만약 앞의 3번이 잘못된거라고 해도, 너무 많은거 아냐??</speak>
+			<show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+			<show chara="ritaVestHesitateClose" position="right"/>
+			<speak chara="_Rita">저도 같은 의문을 꺼냈었어요. 당시 오토주교는 이렇게 답하셨죠</speak>
+			<show chara="ritaVestNormalClose" position="right"/>
+			<speak chara="_Rita">「발키리 내부에 신비한 나그네 한둘이 있는건, 정상이라고 생각한다.」</speak>
+			<speak chara="_Rita">「아무것도 아니다, 이런 정보는 상관없다, 넌 큰그림과 관련없는 정보를 따라가지 않는법을 배워야겠군.」</speak>
+			<show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressHesitateClose" position="left"/>
+			<speak chara="_Bianka">하지만... "나그네"? 주교는 대체 무슨 생각이지??</speak>
+			<show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+			<show chara="ritaVestHesitateClose" position="right"/>
+			<speak chara="_Rita">모르죠. 하지만 시구레키라님은 분명 "슈브·니구라스"님과 가장 오랜시간 함께했던 발키리에요.
+			</speak>
+			<speak chara="_Rita">만약 한 분이 아니라, 이 두분이 함께 모종의 비밀을 가진거라면...</speak>
+			<show chara="ritaVestNormalClose" position="right"/>
+			<speak chara="_Rita">그러면, 고의로 비앙카님의 관심을 끈게 아니라ㅡ 정말로 일의 진상이 복잡해서, 이런 곳에서 설명하기 적합하지 않았을수도요.</speak>
+			<show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressHesitateClose" position="left"/>
+			<speak chara="_Bianka">음... 하지만 "전투방식"이 변해야 얼마나 복잡하게 변한다고??</speak>
+			<speak chara="_Bianka">그냥 "스타스피커"가 되어서 "외계인지지직전파"를 얻었다ㅡ 이런건 한두문장으로 깔끔하게 설명할 수 있는거잖아??</speak>
+			<show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+			<show chara="ritaVestNaughtyClose" position="right"/>
+			<speak chara="_Rita">후후. 비앙카님은 정말 성급하시네요.</speak>
+			<show chara="ritaVestNaughtyClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressAngryClose" position="left"/>
+			<speak chara="_Bianka">...참나. 메이드라면, 매번 주인의 단점을 지적하지 말란 말이야.</speak>
+			<show chara="biankaDressAngryClose" position="left" opacity="0.8"/>
+			<show chara="ritaVestSquintClose" position="right"/>
+			<speak chara="_Rita">어머. 죄송합니다.</speak>
+			<show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressSighClose" position="left"/>
+			<speak chara="_Bianka">그래. 네 그 별난 부분, 난 이젠 아무렇지도 않으니까.</speak>
+			<goto goto="70" clockwise="1"/>
+		</scene>
+		<scene id="70" background="monumentEquador.jpg">
+			<bgm src="10_10_kalinka.mp3" status="continue"></bgm>
+			<show chara="ShigureKiraSunGlassesLaughClose" position="left"/>
+			<speak chara="_ShigureKira">헤이, 모두들, 봐주세요! 이곳은 공화국 수도에서 가장 이름난 관광지ㅡ 적도 대기념비입니다!
+			</speak>
+			<show chara="ShigureKiraSunGlassesConfidentClose" position="left"/>
+			<speak chara="_ShigureKira">기념비 높이는 30m, 꼭대기에는 지구의 조형, 그리고 이걸 지나는 바닥의 노란선은 적도입니다; 그리고 4개의 기둥은 각각 "세계의 사방"을 대표하며, 공화국의 옛 이름 "타완틴 수유"의 의미입니다.</speak>
+			<show chara="ShigureKiraSunGlassesSmileClose" position="left"/>
+			<speak chara="_ShigureKira">한가지 더 알려드리자면, 이 광장은 고대부터 이미 존재했던 곳으로ㅡ</speak>
+			<speak chara="_ShigureKira">ㅡ왕자의 탄생을 축하하기 위해, 특령으로 200명이 옮길 정도의 금사슬을 주조한 뒤, 왕궁의 모든 구성원들에게 이 사슬을 쥐고 광장에서 축하하게 했다고 합니다!</speak>
+			<show chara="ShigureKiraSunGlassesSmileClose" position="left" opacity="0.8"/>
+			<show chara="shakesCasualLaughClose" position="right"/>
+			<speak chara="_Shakespeare">하하, 어쨌든, 여긴 런던의 그 칙칙한 "탑"보다는 활기찬 걸!</speak>
+			<show chara="shakesCasualLaughClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressHesitateClose" position="left"/>
+			<speak chara="_Bianka">……그런가? 이건 평범한 기념비 같은데? 타워 42가 이거보단 대단하지 않아?</speak>
+			<show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+			<show chara="shakesCasualEmbarrassedClose" position="right"/>
+			<speak chara="_Shakespeare">42호 탑? 그 미스터리한 미래의 건물은 뭐야? 외계인이랑 대화할때 쓰나??</speak>
+			<show chara="shakesCasualEmbarrassedClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressSighClose" position="left"/>
+			<speak chara="_Bianka">……어?</speak>
+			<show chara="ritaVestSmileClose" position="left"/>
+			<speak chara="_Rita" remark="next">셰익스피어님, 타워 42는 런던에 있는 상용빌딩이에요, 외계인과는 아무 관계가 없답니다.</speak>
 			<remark post="U2FsdGVkX18K5DpwbS5JGcPJ79Q+">
-				<p class="article-text-h">注釈：</p>
-				<p class="article-text">タワー42（Tower 42）、元は「ナットウエスト・タワー」（National Westminster Tower）と呼ばれていた。1980年に完成し、183メートル（600フィート）の高さを誇り、当時イギリスで最も高い（今はロンドンで13番目に高い）建築物であった。</p>
-				<p class="article-text">タワー42の名称はビルの階数が由来であり、生命や世界、宇宙などとは何の関わりもない。</p>
+				<p class="article-text-h">주역:</p>
+				<p class="article-text">"타워 42" (Tower42)의 원래 이름은 "국민 웨스트민스터 타워" (National Westminster Tower)로, 1980년에 183m(600피트)로 지어져 런던과 영국에서 가장 큰 고층건물이 되었습니다 (현재는 런던에서 13번째로 높음).</p>
+				<p class="article-text">"타워42"의 이름은 건물의 층 수에서 유래되었습니다ㅡ 삶, 세계, 우주같은 문제와는 깊은 관련이 없습니다.</p>
 			</remark>
-	    <show chara="ritaVestSmileClose" position="left" opacity="0.8"/>
-	    <show chara="shakesCasualLaughClose" position="right"/>
-	    <speak chara="_Shakespeare">ハハハハ、そうだったのか。てっきり「42」はマッドサイエンティストと何か関係があるのかと思ったよ。</speak>
-	    <show chara="shakesCasualLaughClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressSighClose" position="left"/>
-	    <speak chara="_Bianka">……まあ、「42」はネゲントロピーにお似合いですけど。</speak>
-	    <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
-	    <show chara="schroSmileClose" position="right"/>
-	    <speak chara="_Schrodinger">……ふふ。</speak>
-	    <show chara="schroSmileClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressShockClose" position="left"/>
-	    <speak chara="_Bianka">え？い、いま、笑いました？シュレーディンガー博士？</speak>
-	    <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
-	    <show chara="schroSmileClose" position="right"/>
-	    <speak chara="_Schrodinger">はいなのです。誰だって思い出くらいはあるものなのです。</speak>
-	    <show chara="schroSmileClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressNormalClose" position="left"/>
-	    <speak chara="_Bianka">……？</speak>
-	    <show chara="biankaDressNormalClose" position="left" opacity="0.8"/>
-	    <show chara="schroCalmClose" position="right"/>
-	    <speak chara="_Schrodinger">気にしないでくださいなのです。あなたたちや、いま現在とは関係のない話なのです。</speak>
-	    <hide position="left"></hide>
-	    <hide position="right"></hide>
-	    <show chara="shakesCasualQuestionClose" position="left"/>
-	    <speak chara="_Shakespeare">そういえば——この都市が特別なのはわかる、けど「アンカー」の制御を自慢にしている共和国が、何故「アンカーからもっとも遠い場所」に首都を築いたんだい？</speak>
-	    <speak chara="_Shakespeare">遷都は考えなかったのかな？歴史上はあっただろ、「クスコ」から。</speak>
-	    <show chara="shakesCasualQuestionClose" position="left" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesThinkClose" position="right"/>
-	    <speak chara="_ShigureKira">そうね、それにはわけがあるの。</speak>
-	    <show chara="ShigureKiraSunGlassesConfidentClose" position="right"/>
-	    <speak chara="_ShigureKira">最初、キトを首都にしたのは支持率を考えてのことだった。ただその後、「アンカー」への攻勢が増すのにつれて、「アンカーからもっとも遠いこと」が首都としての安定性に繋がるよう考えられたのよ。</speak>
-	    <show chara="ShigureKiraSunGlassesSmileClose" position="right"/>
-	    <speak chara="_ShigureKira">——これは大多数の議員の見解よ。</speak>
-	    <show chara="ShigureKiraSunGlassesSmileClose" position="right" opacity="0.8"/>
-	    <show chara="champoBlanketSmileClose" position="left"/>
-	    <speak chara="_Champollion">一理ある。消極的だが、理解はできる。</speak>
-	    <show chara="champoBlanketLaughClose" position="left"/>
-	    <speak chara="_Champollion">皆は遠東の古代史は知っているか？</speak>
-	    <show chara="champoBlanketLaughClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressHesitateClose" position="right"/>
-	    <speak chara="_Bianka">神州のことですか？</speak>
-	    <show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
-	    <show chara="champoBlanketNormalClose" position="left"/>
-	    <speak chara="_Champollion">そう。防衛に長けた長安、バランスの取れた洛陽、交通が便利な開封——どれが首都に相応しいか、当時も論争されていた。</speak>
-	    <show chara="champoBlanketEmbarrassClose" position="left"/>
-	    <speak chara="_Champollion">こういった問題に決まった答えは存在しない。実際の選択は論理ではなく、国民の心理状態に左右されるんだ。</speak>
-	    <show chara="champoBlanketEmbarrassClose" position="left" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesSmileClose" position="right"/>
-	    <speak chara="_ShigureKira">ははっ、シャンポリオン先生は考古学者なのに、政治家みたいなことを言うのね。</speak>
-	    <show chara="ShigureKiraSunGlassesSmileClose" position="right" opacity="0.8"/>
-	    <show chara="champoBlanketLaughClose" position="left"/>
-	    <speak chara="_Champollion">ハハハハ、歴史と政治は切っても切れないからね。</speak>
-	    <show chara="champoBlanketSmileClose" position="left"/>
-	    <speak chara="_Champollion">さあ、そろそろ議長さんに会いに行こう？</speak>
-	    <show chara="shakesCasualConfidentClose" position="left"/>
-	    <speak chara="_Shakespeare">そう遠くはないのだろう？</speak>
-	    <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
-	    <show chara="ShigureKiraSunGlassesConfidentClose" position="right"/>
-	    <speak chara="_ShigureKira">ええ。アポイントは取ってあるから、すぐ取り次いでもらえるはずよ。</speak>
-	    <goto goto="80" clockwise="1"/>
-    </scene>
-    <scene id="80" background="palaceMeetingQuito.jpg">
-	    <bgm src="theme.mp3" status="start"></bgm>
-	    <text>15分後。</text>
-	    <text>共和国議会・イベリア茶室</text>
-	    <speak chara="_ThoreauNoName">皆さん、昨夜は汽車の中で休まれたのだね。</speak>
-	    <speak chara="_ThoreauNoName">では、哲学的な質問から入ろうか。</speak>
-	    <goto goto="90" change="0"/>
-    </scene>
-    <scene id="90" background="CG23-1.jpg">
-	    <bgm src="theme.mp3" status="continue"></bgm>
-	    <speak chara="_Thoreau">我々は鉄道を利用しているのか、それとも鉄道が我々を利用しているのか？</speak>
-	    <speak chara="_Thoreau">あなたたちが宝石を探しているのか、それとも宝石が探させているのか？</speak>
-	    <speak chara="_Thoreau">遠方より訪れし旅人よ、何のために戦うのか？</speak>
-	    <end post="U2FsdGVkX19sb2OZkGsm28ubiLsp"/>
-    </scene>
-  </story>
+			<show chara="ritaVestSmileClose" position="left" opacity="0.8"/>
+			<show chara="shakesCasualLaughClose" position="right"/>
+			<speak chara="_Shakespeare">하하하, 그런거구나. 난 "42"라는게 분명 어디 미친 과학자와 연관이라도 있는줄 알았지.</speak>
+			<show chara="shakesCasualLaughClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressSighClose" position="left"/>
+			<speak chara="_Bianka">……음, "42"와 네겐트로피하고는 잘 어울리긴 하지..</speak>
+			<show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+			<show chara="schroSmileClose" position="right"/>
+			<speak chara="_Schrodinger">……풋.</speak>
+			<show chara="schroSmileClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="left"/>
+			<speak chara="_Bianka">어? 다, 당신... 방금 웃었네요? 슈뢰딩거 박사??</speak>
+			<show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+			<show chara="schroSmileClose" position="right"/>
+			<speak chara="_Schrodinger">네. 모든 사람은 자신만의 귀중한 기억이 있는 법이니까요..</speak>
+			<show chara="schroSmileClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressNormalClose" position="left"/>
+			<speak chara="_Bianka">……?</speak>
+			<show chara="biankaDressNormalClose" position="left" opacity="0.8"/>
+			<show chara="schroCalmClose" position="right"/>
+			<speak chara="_Schrodinger">아, 신경쓸 필요 없습니다. 당신이나, 현재와는 관계 없는 일이니까요..</speak>
+			<hide position="left"></hide>
+			<hide position="right"></hide>
+			<show chara="shakesCasualQuestionClose" position="left"/>
+			<speak chara="_Shakespeare">그래ㅡ 이 도시는 특별하긴 하네, 그런데 왜 공화국의 자랑인 "닻"의 제어와 수도를 "닻에서 가장 먼" 곳에 고정한거야??</speak>
+			<speak chara="_Shakespeare">수도를 옮겨볼 생각은 안 한건가? 역사에서는 그 "쿠스코 고성"에서 한번 옮겼잖아?.</speak>
+			<show chara="shakesCasualQuestionClose" position="left" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesThinkClose" position="right"/>
+			<speak chara="_ShigureKira">아, 그건 다 이유가 있어요..</speak>
+			<show chara="ShigureKiraSunGlassesConfidentClose" position="right"/>
+			<speak chara="_ShigureKira">물론 처음에는 공화국이 지지율만을 고려해 키토를 수도로 바꿨지만; 이후 "닻"의 방어압박이 거세지자, "에테르닻과 가장 먼" 이곳은 수도라서 안전하다는 장점이 하나 생긴겁니다..</speak>
+			<show chara="ShigureKiraSunGlassesSmileClose" position="right"/>
+			<speak chara="_ShigureKira">——최소한 대다수의 의원은 그렇게 생각하고 있지.</speak>
+			<show chara="ShigureKiraSunGlassesSmileClose" position="right" opacity="0.8"/>
+			<show chara="champoBlanketSmileClose" position="left"/>
+			<speak chara="_Champollion">一음, 일리가 있네요. 물론 적극성은 부족하지만, 이해할 수 있는 부분이에요.</speak>
+			<show chara="champoBlanketLaughClose" position="left"/>
+			<speak chara="_Champollion">모두 먼 동쪽의 고대사를 아시나요??</speak>
+			<show chara="champoBlanketLaughClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressHesitateClose" position="right"/>
+			<speak chara="_Bianka">그... 신주??</speak>
+			<show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
+			<show chara="champoBlanketNormalClose" position="left"/>
+			<speak chara="_Champollion">맞아요. 방어를 강조한 장안, 중앙의 낙양, 교통이 편리한 개봉ㅡ 어디가 수도로 적합한가는, 그 시대 사람들의 오랜 논쟁거리였다고 해요..</speak>
+			<show chara="champoBlanketEmbarrassClose" position="left"/>
+			<speak chara="_Champollion">애당초 그런 문제는 명확한 답이 없어요: 현실에서의 선택은 국민들의 심리에 의해 정해지지, 이론가의 탁상공론으로 정해지지 않았거든요..</speak>
+			<show chara="champoBlanketEmbarrassClose" position="left" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesSmileClose" position="right"/>
+			<speak chara="_ShigureKira">하하, 샹폴리옹씨는 고고학자인데, 마치 정치인같은 말을 하네..</speak>
+			<show chara="ShigureKiraSunGlassesSmileClose" position="right" opacity="0.8"/>
+			<show chara="champoBlanketLaughClose" position="left"/>
+			<speak chara="_Champollion">하하하, 사람들은 역사와 정치를 나눌수 없다고 하니까요..</speak>
+			<show chara="champoBlanketSmileClose" position="left"/>
+			<speak chara="_Champollion">갈까요? 이제 그 의장언니를 만날 때 아닌가요??</speak>
+			<show chara="shakesCasualConfidentClose" position="left"/>
+			<speak chara="_Shakespeare">거리가 그렇게 멀지는 않겠지??</speak>
+			<show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+			<show chara="ShigureKiraSunGlassesConfidentClose" position="right"/>
+			<speak chara="_ShigureKira">맞아. 그리고 약속을 잡았으니까, 금방 만날수 있을거야..</speak>
+			<goto goto="80" clockwise="1"/>
+		</scene>
+		<scene id="80" background="palaceMeetingQuito.jpg">
+			<bgm src="theme.mp3" status="start"></bgm>
+			<text>15분 후.</text>
+			<text>공화국의회·이베리아 티 룸</text>
+			<speak chara="_ThoreauNoName">모두들 어젯밤 열차에서 잘 쉬셨을 거에요..</speak>
+			<speak chara="_ThoreauNoName">그리고 이런 철학적 질문으로 시작하는걸 이해해주세요.</speak>
+			<goto goto="90" change="0"/>
+		</scene>
+		<scene id="90" background="CG23-1.jpg">
+			<bgm src="theme.mp3" status="continue"></bgm>
+			<speak chara="_Thoreau">매번, 우리가 철도를 타는걸까요, 아니면 철도가 우릴 태우는 걸까요??</speak>
+			<speak chara="_Thoreau">여러분이 보석을 찾는걸까요, 아니면 보석이 여러분을 부르는 걸까요??</speak>
+			<speak chara="_Thoreau">먼곳의 여행자여, 당신들이 싸우는 이유는 무엇인가요?</speak>
+			<end post="U2FsdGVkX19sb2OZkGsm28ubiLsp"/>
+		</scene>
+	</story>
 </data>
