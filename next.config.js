@@ -5,7 +5,6 @@ module.exports = {
   async redirects() {
     return [
       ...legacyRedirects.map(([source, dest]) => {
-        console.log(source, dest)
         return {
           source: `/honkai3rd/battlesuits/${source}`,
           destination: `/honkai3rd/battlesuits/${dest}`,
