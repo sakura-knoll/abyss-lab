@@ -1,407 +1,425 @@
 <?xml version="1.0" encoding="utf-8"?>
 <data>
-  <story>
-    <scene id="0" background="bg.jpg">
-	    <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
-	    <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
-	    <goto goto="10" change="#000000"/>
-    </scene>
-    <scene id="10" background="11_15_gallery.jpg">
-	    <bgm src="11_16_themeOtto.mp3" status="start"></bgm>
-	    <show chara="memoryLoading" position="center" opacity="0.6"/>
-	    <show chara="ottoSuitsConfident" position="back"/>
-	    <speak chara="_OttoPapa">リタ、ビアンカとの初対面はどうだった？</speak>
-	    <speak chara="_Rita">……独特な方だと思います。</speak>
-	    <show chara="ottoSuitsSad" position="back"/>
-	    <speak chara="_OttoPapa">続けて。</speak>
-	    <speak chara="_Rita">私の直感ですが……年は若いけれど、過去を大事にする方のように思えます。</speak>
-	    <speak chara="_Rita">何といいますか、何かを決めたら、考え方ややり方を貫き通す方かと。</speak>
-	    <speak chara="_Rita">世の中には、口ではそう言っているものの……</speak>
-	    <speak chara="_Rita">……その実、ころころと意見を変える人が大勢います。</speak>
-	    <speak chara="_Rita">そういう意味では、正しく育てれば、ビアンカ様は天命を支える力になれると思います。</speak>
-	    <show chara="ottoSuitsFun" position="back"/>
-	    <speak chara="_OttoPapa">……だがここにいるオットーさんは、戦乙女を良く育てられる人物ではないぞ？</speak>
-	    <speak chara="_Rita">御冗談を。</speak>
-	    <show chara="ottoSuitsSad" position="back"/>
-	    <speak chara="_OttoPapa">いいや、冗談ではないさ。</speak>
-	    <speak chara="_OttoPapa">天命という組織は、中堅の成長に良い環境とは言えない。……全部、僕の一存で決まるからね。</speak>
-	    <show chara="ottoSuitsFun" position="back"/>
-	    <speak chara="_OttoPapa">これはこれでメリットがあるから、変えようとは思わないが。</speak>
-	    <show chara="ottoSuitsConfident" position="back"/>
-	    <speak chara="_OttoPapa">——それでも、将来彼女を守る戦士を作ってやりたい。どうかね？</speak>
-	    <speak chara="_Rita">私のこと……ですか？</speak>
-	    <show chara="ottoSuitsConfident" position="back"/>
-	    <speak chara="_OttoPapa">君が現時点でただひとり、それができる人間だ。……能力の面からも、身分の面からも。</speak>
-	    <show chara="ottoSuitsSad" position="back"/>
-	    <speak chara="_OttoPapa">いずれビアンカは、彼女の先輩たちと同じように、主教という人物が彼女の知っているようなものではないと——むしろ、正反対であると気付くだろう。</speak>
-	    <show chara="ottoSuitsConfident" position="back"/>
-	    <speak chara="_OttoPapa">その時が来たら、彼女が十分に冷静でいられるか……それは君に任せた、リタ・ロスヴァイセ。</speak>
-	    <goto goto="20" clockwise="1"/>
-    </scene>
-    <scene id="20" background="submarineDoctorRoom.jpg">
-	    <bgm src="11_16_themeOtto.mp3" status="continue"></bgm>
-	    <text>はじめは、主教様の意図がよくわからなかった。</text>
-	    <text>何から何まで異なる人物の資料を見せられた。</text>
-	    <text>エレノア、オットーヴェラ、リアーナ、テレサ。</text>
-	    <text>S級戦乙女の称号を拒否して本部を去ったもの。</text>
-	    <text>過激な実験で崩壊獣になり、仲間に殺されたもの。</text>
-	    <text>天命を裏切り、死後に記録を抹消されたもの。</text>
-	    <text>残った一人は……戦乙女ですらない。</text>
-	    <text>天命に身を置く限り……世界を救えるほど成長してしまうと、必ずと言っていいほど組織と何かしら対立をしてしまうようだ。</text>
-	    <text>なら、主教様が真に私に求めているのは、何なのだろう……</text>
-	    <goto goto="30" change="#ffffff"/>
-    </scene>
-    <scene id="30" background="CG26-1.jpg">
-	    <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
-	    <speak chara="_Bianka">うっ……ラグナ先生……</speak>
-	    <speak chara="_Rita">（……寝言？）</speak>
-	    <speak chara="_Bianka">私は……色んなところで……彼女たちとは違います……</speak>
-	    <speak chara="_Bianka">それは別にいいのですけれど……</speak>
-	    <speak chara="_Bianka">私のことを羨む人や、妬む人が、私の真似をし始めています……</speak>
-	    <speak chara="_Bianka">無理をしているのは、私にもわかる……</speak>
-	    <speak chara="_Bianka">辛くて……要領を得なくて……</speak>
-	    <speak chara="_Rita">（……）</speak>
-	    <speak chara="_Bianka">先生……リタも強いです……どうやったらあんな風になれるのでしょう？</speak>
-	    <speak chara="_Rita">（！）</speak>
-	    <speak chara="_Bianka">……</speak>
-	    <speak chara="_Bianka">そうですか、なるほど。</speak>
-	    <speak chara="_Bianka">強者の日常が……弱者のロマン……か。</speak>
-	    <speak chara="_Bianka">喜びも、苦しみも……ロマン……</speak>
-	    <speak chara="_Bianka">……でも、その「ロマン」に届かない人もいるでしょ？どうするのでしょうか？</speak>
-	    <speak chara="_Bianka">……</speak>
-	    <speak chara="_Bianka">そうですね。</speak>
-	    <speak chara="_Bianka">その通りだと思います……ロマンがない人は、戦乙女であり続けることはできない……</speak>
-	    <speak chara="_Bianka">……</speak>
-	    <speak chara="_Bianka">え？</speak>
-	    <speak chara="_Bianka">いつか……彼女たちなりの方法で……私を守る……ですか？</speak>
-	    <speak chara="_Rita">（……）</speak>
-	    <goto goto="40" clockwise="1"/>
-    </scene>
-    <scene id="40" background="submarineCabinBlur.jpg">
-	    <bgm src="12_14_Sonnet_18.mp3" status="continue"></bgm>
-	    <show chara="yukimuraTalkClose" position="left"/>
-	    <speak chara="_Yukimura">リタさん、どう……だろうか？</speak>
-	    <show chara="yukimuraTalkClose" position="left" opacity="0.8"/>
-	    <show chara="ritaVestSmileClose" position="right"/>
-	    <speak chara="_Rita">もう大丈夫です。ぐっすり眠っています。寝言も言っていました。</speak>
-	    <show chara="ritaVestSquintClose" position="right"/>
-	    <speak chara="_Rita">幸村様こそ……ずっと寝ていないのでしょう？「星語者」の体が丈夫とは言っても、元に戻ったばかりですし。</speak>
-	    <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
-	    <show chara="yukimuraColdClose" position="left"/>
-	    <speak chara="_Yukimura">神州の諺には、「滴水の恩を受くる人、必ずや湧泉であい報ゆるべし」というものがある。それどころか、命の恩人だからな。</speak>
-	    <show chara="yukimuraSmileClose" position="left"/>
-	    <speak chara="_Yukimura">それに、リタさんも——休んでいないのだろう？</speak>
-	    <show chara="yukimuraSmileClose" position="left" opacity="0.8"/>
-	    <show chara="ritaVestNaughtyClose" position="right"/>
-	    <speak chara="_Rita">私はビアンカ様の副官です。これも仕事のうちです。</speak>
-	    <show chara="ritaVestSmileClose" position="right"/>
-	    <speak chara="_Rita">幸村様のお気持ちもよくわかりますが……どうかご自愛ください。</speak>
-	    <show chara="ritaVestSquintClose" position="right"/>
-	    <speak chara="_Rita">あと数時間すれば、ビアンカ様も回復されるでしょう。それまで休んでおくのでしたら、睡眠薬もご用意できますが。</speak>
-	    <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
-	    <show chara="yukimuraTalkClose" position="left"/>
-	    <speak chara="_Yukimura">……</speak>
-	    <show chara="yukimuraSmileClose" position="left"/>
-	    <speak chara="_Yukimura">では、お言葉に甘えて。</speak>
-	    <goto goto="50" clockwise="1"/>
-    </scene>
-    <scene id="50" background="cafeAbyssAngel.jpg">
-	    <bgm src="12_29_street.mp3" status="start"></bgm>
-	    <show chara="memoryLoading" position="center" opacity="0.6"/>
-	    <text>ラグナ先輩が言ってた、メイドは無敵だと。</text>
-	    <text>——はじめは冗談か、個人の趣味の話だと思っていた。</text>
-	    <text>でも今なら、その言葉の本当の意味を、少しだけわかった気がする。</text>
-	    <text>メイドになったから無敵なのではなく、万全の状態でなければ、メイドにはなれない、ということなのだろう。</text>
-	    <text>——「母は強し」と同じように。</text>
-	    <text>四時間の睡眠時間をとる、充分な体質でなければこの役は厳しかっただろう。</text>
-	    <text>……何故か、戦乙女のプロファイルの中に挟まれていた一枚の本のページを思い出した。</text>
-	    <text>小説の本から丁寧に切り離されたものだった——</text>
-	    <text remark="next">「とにかくね、僕にはね、広いライ麦の畑やなんかがあってさ、そこで小さな子供たちが、みんなでなんかのゲームをしているとこが目に見えるんだよ。」</text>
-	    <text remark="next">「何千っていう子供たちがいるんだ。そしてあたりには誰もいない――誰もって大人はだよ――僕のほかにはね。」</text>
-	    <text remark="next">「で、僕はあぶない崖のふちに立ってるんだ。僕のやる仕事はね、誰でも崖から転がり落ちそうになったら、その子をつかまえることなんだ――」</text>
-	    <text remark="next">「つまり、子供たちは走ってるときにどこを通ってるかなんて見やしないだろう。そんなときに僕は、どっかから、さっととび出して行って、その子をつかまえてやらなきゃならないんだ。」</text>
-	    <text remark="next">「一日じゅう、それだけをやればいいんだな。」</text>
-	    <text remark="next">「ライ麦畑のつかまえ役、そういったものに僕はなりたいんだよ。」</text>
+	<story>
+		<scene id="0" background="bg.jpg">
+			<bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+			<cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+			<goto goto="10" change="#000000"/>
+		</scene>
+		<scene id="10" background="11_15_gallery.jpg">
+			<bgm src="11_16_themeOtto.mp3" status="start"></bgm>
+			<show chara="memoryLoading" position="center" opacity="0.6"/>
+			<show chara="ottoSuitsConfident" position="back"/>
+			<speak chara="_OttoPapa">리타, 비앙카의 첫인상은 어땠나?</speak>
+			<speak chara="_Rita">……매우 특별한 사람이라고 생각해요.</speak>
+			<show chara="ottoSuitsSad" position="back"/>
+			<speak chara="_OttoPapa">계속해라.</speak>
+			<speak chara="_Rita">직감이긴 하지만…… 나이는 어려도, 의외로 「옛것을 그리워하는」 부류의 사람이에요.</speak>
+			<speak chara="_Rita">제 말은, 그녀는 뭔가를 한 번 인식하고 나면, 행동과 생각을 쉽게 바꾸지 않을 것 같아 보여요.</speak>
+			<speak chara="_Rita">세상 수많은 사람들이 자신은 쉽게 생각을 바꾸는 사람이 아니라고 공언하지만……</speak>
+			<speak chara="_Rita">……그들의 줏대 없는 행동들은 이미 자기 스스로를 배신하고 있죠.</speak>
+			<speak chara="_Rita">이러한 관점에서, 제 생각엔 잘 키우기만 한다면, 비앙카 양은 장래에 천명의 핵심적인 전력이 될 거라 생각해요.</speak>
+			<show chara="ottoSuitsFun" position="back"/>
+			<speak chara="_OttoPapa">……하지만, 여기 이 오토라는 작자가, 발키리를 성장시키는 데 적합한 리더가 아니라면?</speak>
+			<speak chara="_Rita">농담이신가요.</speak>
+			<show chara="ottoSuitsSad" position="back"/>
+			<speak chara="_OttoPapa">아니, 농담이 아니다.</speak>
+			<speak chara="_OttoPapa">천명은 중간 수준의 사람이 성장하기엔 좋은 조직이 아니다…… 결국 내가 뜻한 대로이기도 하지만.</speak>
+			<show chara="ottoSuitsFun" position="back"/>
+			<speak chara="_OttoPapa">물론, 이것도 나름의 장점이 있기에, 근본적인 부분을 바꿀 생각은 없다.</speak>
+			<show chara="ottoSuitsConfident" position="back"/>
+			<speak chara="_OttoPapa">——하지만, 이 세계를 위해, 미래에 그녀를 지켜줄 강력한 전사를 만들고 싶다. 가능하다 생각하나?</speak>
+			<speak chara="_Rita">주교님…… 제게…… 물으시는 건가요?</speak>
+			<show chara="ottoSuitsConfident" position="back"/>
+			<speak chara="_OttoPapa">이 일을 할 수 있는 사람들 중에서——지금 나를 도울 수 있는 건 너밖에 없다고 생각한다.</speak>
+			<show chara="ottoSuitsSad" position="back"/>
+			<speak chara="_OttoPapa">늦든 빠르든, 자신의 선배들처럼, 비앙카 역시도 주교라는 인물은 외견만으로 보이는 사람이 아니라는걸——실은 완전히 정반대인 사람이라는 걸 깨닫게 될 것이다.</speak>
+			<show chara="ottoSuitsConfident" position="back"/>
+			<speak chara="_OttoPapa">그때가 왔을 때, 그녀가 충분히 냉정을 유지할 수 있을지는…… 이는 너에게 맡겨두겠다, 리타·로스바이세.</speak>
+			<goto goto="20" clockwise="1"/>
+		</scene>
+		<scene id="20" background="submarineDoctorRoom.jpg">
+			<bgm src="11_16_themeOtto.mp3" status="continue"></bgm>
+			<text>처음엔, 주교가 무슨 얘기를 하려는 건지 거의 이해하지 못했어요.</text>
+			<text>그는 제게 각각 확연히 다른 인물들에 대한 프로필 자료를 보내줬죠.</text>
+			<text>엘레노어, 오토벨라, 레아나, 테레사.</text>
+			<text>그들 중 일부는 S급 발키리의 칭호마저 거부하며 본부를 떠났고,</text>
+			<text>또 다른 일부는 과격한 실험을 통해 붕괴수로 변해버려, 동료에게 곧바로 죽임당했고,</text>
+			<text>심지어 천명 조직을 배신하여, 「기록말살형」을 당한 자도 있었어요.</text>
+			<text>그리고 나머지 한 명은…… 아예 발키리도 아니었죠.</text>
+			<text>천명 치하에서…… 그 스스로의 힘만으로 세계를 구할 수 있을 만큼 성장하는 자가 있다면, 분명 조직 내에 여러 가지 이유로 갈등을 겪게 되는 것 같아요.</text>
+			<text>그럼 주교 입장에서, 제게 진정으로 바라는 것은……</text>
+			<goto goto="30" change="#ffffff"/>
+		</scene>
+		<scene id="30" background="CG26-1.jpg">
+			<bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+			<speak chara="_Bianka">으…… 라그나 선생님……</speak>
+			<speak chara="_Rita">(……잠꼬대인가요?)</speak>
+			<speak chara="_Bianka">전…… 여러 면에서…… 그녀들이랑 달라요……</speak>
+			<speak chara="_Bianka">전 별로 신경 안 쓰지만……</speak>
+			<speak chara="_Bianka">벌써 절 부러워하거나 질투하는 사람들이 생겨서 절 따라 하기 시작해요……</speak>
+			<speak chara="_Bianka">전 보여요…… 다들 너무 무리하고 있는걸…… </speak>
+			<speak chara="_Bianka">열심히 해도…… 요령이 없으니……</speak>
+			<speak chara="_Rita">(……)</speak>
+			<speak chara="_Bianka">선생님…… 리타도 정말 강해요…… 어떻게 그렇게나 강해질 수 있을까요?</speak>
+			<speak chara="_Rita">(!)</speak>
+			<speak chara="_Bianka">……</speak>
+			<speak chara="_Bianka">그런 가요? 맞네요.</speak>
+			<speak chara="_Bianka">강자의 일상은…… 약자의 낭만…… 인가……?</speak>
+			<speak chara="_Bianka">기쁨이나, 괴로움이나…… 다 낭만……</speak>
+			<speak chara="_Bianka">……하지만 이런 「낭만」을 즐기지 못하는 사람은요? 어떡해요?</speak>
+			<speak chara="_Bianka">……</speak>
+			<speak chara="_Bianka">그렇네요.</speak>
+			<speak chara="_Bianka">맞아요…… 낭만이 없는 사람이 발키리가 될 리가 없죠……</speak>
+			<speak chara="_Bianka">……</speak>
+			<speak chara="_Bianka">네?</speak>
+			<speak chara="_Bianka">언젠가…… 그들이 자기들만의 방식으로…… 절 지킬 것이다……라고요?</speak>
+			<speak chara="_Rita">(……)</speak>
+			<goto goto="40" clockwise="1"/>
+		</scene>
+		<scene id="40" background="submarineCabinBlur.jpg">
+			<bgm src="12_14_Sonnet_18.mp3" status="continue"></bgm>
+			<show chara="yukimuraTalkClose" position="left"/>
+			<speak chara="_Yukimura">리타 씨, 상황이…… 지금은 어떻습니까?</speak>
+			<show chara="yukimuraTalkClose" position="left" opacity="0.8"/>
+			<show chara="ritaVestSmileClose" position="right"/>
+			<speak chara="_Rita">괜찮아요, 얼마나 잘 자고 계시던지, 잠꼬대까지 하시던걸요.</speak>
+			<show chara="ritaVestSquintClose" position="right"/>
+			<speak chara="_Rita">근데 유키무라 님…… 아직 한숨도 못 주무시지 않으셨나요? 아무리 「별을 얘기하는 자」가 강한 신체를 가졌다지만, 회복된 지 얼마 안 되셨으니 주의하셔야 해요.</speak>
+			<show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+			<show chara="yukimuraColdClose" position="left"/>
+			<speak chara="_Yukimura">신주의 옛 속담에 「한 방울의 은혜에도, 샘물로 갚는다」라는 말도 있는데——제 생명의 은인이시기까지 하니까요.</speak>
+			<show chara="yukimuraSmileClose" position="left"/>
+			<speak chara="_Yukimura">게다가, 리타 씨——당신도 전혀 쉬지 않으셨잖습니까?</speak>
+			<show chara="yukimuraSmileClose" position="left" opacity="0.8"/>
+			<show chara="ritaVestNaughtyClose" position="right"/>
+			<speak chara="_Rita">전 비앙카님의 부관이니까요. 이건 제 본분이에요.</speak>
+			<show chara="ritaVestSmileClose" position="right"/>
+			<speak chara="_Rita">유키무라 님의 감사하고픈 마음은 충분히 이해하고 공감하지만 하지만…… 부디 자기 자신에게도 신경을 써주세요.</speak>
+			<show chara="ritaVestSquintClose" position="right"/>
+			<speak chara="_Rita">앞으로 몇 시간 뒤면, 비앙카 님께서도 완전히 회복하실테니, 그 전에 휴식을 취하고 싶으시다면, 수면제를 준비해드릴게요.
+			</speak>
+			<show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+			<show chara="yukimuraTalkClose" position="left"/>
+			<speak chara="_Yukimura">……</speak>
+			<show chara="yukimuraSmileClose" position="left"/>
+			<speak chara="_Yukimura">그럼 「겸양은 순종보다 못하다」는 말대로, 사양 않고 받겠습니다.</speak>
+			<goto goto="50" clockwise="1"/>
+		</scene>
+		<scene id="50" background="cafeAbyssAngel.jpg">
+			<bgm src="12_29_street.mp3" status="start"></bgm>
+			<show chara="memoryLoading" position="center" opacity="0.6"/>
+			<text>라그나 선배는 말했죠, 메이드는 무적이라고.</text>
+			<text>처음엔, 그저 농담이거나, 그저 개인적인 취향이라 생각했는데……</text>
+			<text>이젠 그 말의 진정한 의미가 점점 이해되어가네요.</text>
+			<text>즉, 메이드가 된 사람이 무적이 되는 게 아니라, 만전의 상태가 된 사람만이 메이드가 될 수 있다는걸요.</text>
+			<text>——「어머니는 강하다」라는 말이 있듯요.</text>
+			<text>4시간만 자도 하루 종일 깨어있을 수 있는 체질이 아니었다면, 이런 역할을 맡긴 어려웠겠죠.</text>
+			<text>……왜인진 모르겠지만, 발키리들에 대한 자료에 들어있던 책 페이지 하나가 떠오르네요.</text>
+			<text>어느 소설책에서 잘라낸 것 같았어요. 절단면은 부드럽고 깔끔하게 잘려있었죠——</text>
+			<text remark="next">「어찌 됐든, 나는 이 드넓은 호밀밭에서 조그마한 아이들이 뭔가 놀이를 하고 있는 것을 상상할 뿐이야.」</text>
+			<text remark="next">「수천 명의 아이들이 뛰어놀고 있지만, 근처엔 어느 어른도 없어, 나를 빼고는.」</text>
+			<text remark="next">「그리고 나는 어느 위험한 벼랑 끝에 서있지. 내가 하는 일은, 누군가 그 벼랑으로 뛰어들려 하면 그걸 막는 거야.」</text>
+			<text remark="next">「내 말은, 아이들이 앞도 안 보고 절벽을 향해 뛰어온다면 내가 어디선가 나타나서 그들을 잡아줘야만 한다는 거야.」</text>
+			<text remark="next">그게 내가 하루 종일 하는 일의 전부야. 나는 그저 그 호밀밭의 파수꾼이 되고 싶어」</text>
+			<text remark="next">「물론 미친 얘기라는 거 알아, 하지만 그것이야말로 내가 정말로 하고 싶은 유일한 일이야.」</text>
 			<remark post="U2FsdGVkX1837JTjrcOLdwgLDIYj">
-				<p class="article-text-h">注釈：</p>
-				<p class="article-text"> 『ライ麦畑でつかまえて』（The Catcher in the Rye）、『ライ麦畑の捕手』と訳されたものもある。アメリカの作家J・D・サリンジャーが1951年に発表した長編小説。</p>
-				<p class="article-text">出版当時は、学校や図書館で禁書とされていた。「数世代に渡ってアメリカの青年たちに影響を与えた」と言われている。</p>
-			</remark>	
-	    <text>——そのページの持ち主が、天命を裏切った。</text>
-	    <text>未来で、私は彼女が歩んだものとはまったく違う道を行くのだろう。</text>
-	    <text>……でも、その気持はわからなくもない。</text>
-	    <text>彼女は裏切り者だが、強者でもある。</text>
-	    <text>もし、彼女がこの時まで生きていたら——</text>
-	    <text>ビアンカも、ここまで孤独にはならなかったのだろう。</text>
-	    <text>……いや、あの子にとって、孤独は寂しさではない。</text>
-	    <text>彼女が必要なのは、誰かと比較されて得る強さではなく——</text>
-	    <text>——自分が「強くなっている」という事実だ。</text>
-	    <text>彼女はそういう人間だ。</text>
-	    <text>……</text>
-	    <goto goto="60" clockwise="1"/>
-    </scene>
-    <scene id="60" background="submarineDoctorRoom.jpg">
-	    <bgm src="theme.mp3" status="start"></bgm>
-	    <text>長い夢を見たようだ。</text>
-	    <text>砕けて、混沌としていて、走馬灯のようで……でも細部までは思い出せない。</text>
-	    <text>陽の光が舷窓から差し込んでいる。ここは恐らく医務室で、船員たちも昼休み中なのだろう。</text>
-	    <text>どうやら、あの試みが成功したようだ。だから今、のんびりと引き返しているのだろう。</text>
-	    <text>何かおかしいところがあるとすれば……</text>
-	    <text>それは奇跡のようで——</text>
-	    <text>目が覚めた時、布団がちゃんと体を覆っていた。</text>
-	    <text>……あれ？</text>
-	    <goto goto="70" change="#ffffff"/>
-    </scene>
-    <scene id="70" background="CG26-2.jpg">
-	    <bgm src="theme.mp3" status="continue"></bgm>
-	    <text>ベッドから起き上がった瞬間、その小さな「奇跡」の理由がわかった。</text>
-	    <text>……彼女が、ベッドの端で寝ている。</text>
-	    <text>無防備に、知っているようで、知らない顔で。</text>
-	    <text>……</text>
-	    <text>最初は、正直に言うと頭のおかしい人だと思っていた。</text>
-	    <text>オットーが何を企んでいるのかわからない。重要な任務に、真面目とは程遠い副官をつけてくるなんて。</text>
-	    <text>でも段々と、この人にも矜持があるとわかった。任務よりも、「ビアンカ」という人間を大切にしているようだ。</text>
-	    <text>副官とはそういうものなのかもしれないが……</text>
-	    <text>でも彼女は私を救って、みんなを救った。それが私にだけ知らされていない予備の計画だったとしても。</text>
-	    <text>……</text>
-	    <text>あれ、何でこんなことを考えているんだろう。</text>
-	    <text>彼女にとっては全て仕事なのだろうか？</text>
-	    <text>彼女自身のことや、追い求めているものなんて、知らなくてもいいのに……</text>
-	    <text>でも——</text>
-	    <goto goto="80" change="0"/>
-    </scene>
-    <scene id="80" background="submarineDoctorRoom.jpg">
-	    <bgm src="10_10_kalinka.mp3" status="start"></bgm>
-	    <show chara="ShigureKiraSunGlassesOffColdClose" position="left"/>
-	    <speak chara="_ShigureKira">おじゃまし——</speak>
-	    <show chara="ShigureKiraSunGlassesOffColdClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressSmileClose" position="right"/>
-	    <speak chara="_Bianka">（しーー）</speak>
-	    <show chara="biankaDressShyClose" position="right"/>
-	    <speak chara="_Bianka">（もう少し寝かせてあげてください。）</speak>
-	    <show chara="biankaDressSmileAhClose" position="right"/>
-	    <speak chara="_Bianka">（外に出ましょう。）</speak>
-	    <goto goto="90" change="#ffffff"/>
-    </scene>
-    <scene id="90" background="submarineCabinBlurSunset.jpg">
-	    <bgm src="10_10_kalinka.mp3" status="continue"></bgm>
+				<p class="article-text-h">주역:</p>
+				<p class="article-text"> 『호밀밭의 파수꾼』(the Catcher in the Rye), 미국 작가  J. D. Salinger가 1951년에 발표한 장편 소설이다.</p>
+				<p class="article-text">『호밀밭의 파수꾼』이 처음 출판되었을 때, 많은 학교들과 도서관이 이를 금서로 지정하였다. 반면에, 지금은 미국의 많은 학교들의 권장 도서가 되었다. 어떤 평론가는 「이 책은 여러 세대를 거치며 미국의 청년들에게 크나큰 영향을 주었다」라고도 말한다.</p>
+			</remark>
+			<text remark="next">——이 페이지의 주인은 결국 천명을 배신하고 말았죠.</text>
+			<remark post="duriduri-26-1">
+				<p class="article-text-h">역자주:</p>
+				<p class="article-text">레아나에 대한 얘기이다. 자세한 건 네겐트로피 Beta에 나온다.</p>
+			</remark>
+			<text>미래의 저는 그녀와는 완전히 다른 길을 걷게 되겠지만……</text>
+			<text>……그녀의 심정이 이해 안 가는 건 아니네요.</text>
+			<text>게다가, 비록 그녀는 배신자일지라도, 손에 꼽을 강자이기도 하죠.</text>
+			<text>만약 그녀가 우리와 같은 시대에 살았다면——</text>
+			<text>비앙카도 지금처럼 외롭지는 않았을 거예요.</text>
+			<text>……아니, 그 아이에게 있어, 고독은 결코 쓸쓸한 것이 아니겠네요.</text>
+			<text>그녀에게 필요한 건, 무언가에 비견될 만한 힘이 아니라——</text>
+			<text>——스스로가 「더욱 강해지고 있다」라는 사실이겠죠.</text>
+			<text>그녀는 이렇게나 특별한 사람이에요.</text>
+			<text>……</text>
+			<goto goto="60" clockwise="1"/>
+		</scene>
+		<scene id="60" background="submarineDoctorRoom.jpg">
+			<bgm src="theme.mp3" status="start"></bgm>
+			<text>긴 꿈을 꾼 것 같다.</text>
+			<text>모든 게 조각나있고, 혼란스러웠다, 마치 주마등을 보는 것처럼…… 하지만 자세한 건 기억나지 않는다.</text>
+			<text>햇빛이 현창을 통해 방 안을 비춘다——여긴 의무실인 것 같다. 선원들은 점심시간을 보내고 있는 것 같다.</text>
+			<text>좋아, 내 시도가 성공적이었나 보네. 그러니 다들 배에서 여유롭게 귀환하고 있는 거겠지.</text>
+			<text>뭔가 이상한 점이 있다면……</text>
+			<text>마치 기적처럼——</text>
+			<text>자고 일어났는데도, 이불이 말끔하게 덮어져 있다는 것이랄까.</text>
+			<text>……어라?</text>
+			<goto goto="70" change="#ffffff"/>
+		</scene>
+		<scene id="70" background="CG26-2.jpg">
+			<bgm src="theme.mp3" status="continue"></bgm>
+			<text>병상에서 일어났을 때, 그 작은 「기적」의 이유가 명확해졌다.</text>
+			<text>……그녀는 침대 끝에 기대어 깊은 잠에 빠져있었다.</text>
+			<text>무방비로 있는 모습이, 뭔가 익숙하면서도 낯선 느낌을 준다.</text>
+			<text>……</text>
+			<text>처음엔, 솔직히, 그녀가 그저 괴짜인 줄 알았다.</text>
+			<text>오토 녀석이 무슨 알 수 없는 꿍꿍이로 약을 팔려는 건진 모르겠지만. 이렇게나 중요한 임무인데, 「진지함」과는 한참이나 동떨어진 부관을 붙여주었다.</text>
+			<text>이후엔 그녀에게도 자기 나름의 고집이 있다는 걸 점점 알게 되었다…… 임무 그 자체보다, 「비앙카」라는 「개인」의 존재를 더 중요하게 여기는 듯했다.</text>
+			<text>물론 부관들의 의무라는 게 종종 그렇긴 하지만……</text>
+			<text>그녀는 나를 구하고, 우리 모두를 구했다——설마 그게 나만 모르고 있던 계획이었을지라도.</text>
+			<text>……</text>
+			<text>이상하다. 내가 왜 이런 걸 생각하고 있는 거지?</text>
+			<text>이건 다 그녀의 업무일 뿐인데?</text>
+			<text>그녀의 자아, 그녀의 목표, 사실 이런 건 딱히 내가 알 필요가 없는데……</text>
+			<text>하지만——</text>
+			<goto goto="80" change="0"/>
+		</scene>
+		<scene id="80" background="submarineDoctorRoom.jpg">
+			<bgm src="10_10_kalinka.mp3" status="start"></bgm>
+			<show chara="ShigureKiraSunGlassesOffColdClose" position="left"/>
+			<speak chara="_ShigureKira">미안, 들어갈——</speak>
+			<show chara="ShigureKiraSunGlassesOffColdClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressSmileClose" position="right"/>
+			<speak chara="_Bianka">(쉿——)</speak>
+			<show chara="biankaDressShyClose" position="right"/>
+			<speak chara="_Bianka">(좀 더 자게 두세요.)</speak>
+			<show chara="biankaDressSmileAhClose" position="right"/>
+			<speak chara="_Bianka">(나가서 얘기해요.)</speak>
+			<goto goto="90" change="#ffffff"/>
+		</scene>
+		<scene id="90" background="submarineCabinBlurSunset.jpg">
+			<bgm src="10_10_kalinka.mp3" status="continue"></bgm>
 	    <show chara="ShigureKiraSunGlassesOffSunshineClose" position="left"/>
-	    <speak chara="_ShigureKira">よかった、気がついたのね！</speak>
-	    <speak chara="_ShigureKira">具合が悪いところはない？</speak>
-	    <speak chara="_ShigureKira">私たちのこと、わかるよね？</speak>
-	    <show chara="ShigureKiraSunGlassesOffSunshineClose" position="left" opacity="0.8"/>
+	    <speak chara="_ShigureKira">다행이야, 드디어 깨어났구나!</speak>
+	    <speak chara="_ShigureKira">어디 불편한 곳은 없어?</speak>
+	    <speak chara="_ShigureKira">우리가 누군지는 알아볼 수 있지?</speak>
+	    <show
+				chara="ShigureKiraSunGlassesOffSunshineClose" position="left" opacity="0.8"/>
 	    <show chara="biankaDressSmileClose" position="right"/>
-	    <speak chara="_Bianka">えっと……</speak>
+	    <speak chara="_Bianka">어……</speak>
 	    <show chara="biankaDressSneerClose" position="right"/>
-	    <speak chara="_Bianka">具合は……すこぶる元気？</speak>
-	    <show chara="biankaDressShyClose" position="right"/>
-	    <speak chara="_Bianka">それより、あの武士はどうなりましたか？大丈夫ですか？</speak>
+	    <speak chara="_Bianka">불편하기는커녕, 오히려 전보다 힘이 넘치는데요?</speak>
+	    <show
+				chara="biankaDressShyClose" position="right"/>
+	    <speak chara="_Bianka">근데 그 무사 분은 어때요? 다른 사람들도 별일 없겠죠?</speak>
 	    <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
 	    <show chara="ShigureKiraSunGlassesOffSmileClose" position="left"/>
-	    <speak chara="_ShigureKira">心配いらないわ。今は睡眠薬を飲んで休んでる。</speak>、
-	    <show chara="ShigureKiraSunGlassesOffTalkingClose" position="left"/>
-	    <speak chara="_ShigureKira">あなたのことをずっと心配していたのよ、昨夜はこの部屋の外で夜通し待機していたんだって——あと、あなたのために海水で「水垢離（みずごり）」しようとしてたわ。</speak>
+	    <speak chara="_ShigureKira">괜찮아, 그녀는 지금 수면제를 먹고 선원실에서 자고 있어.</speak>
+		  <show chara="ShigureKiraSunGlassesOffTalkingClose" position="left"/>
+	    <speak chara="_ShigureKira">그 사람이 널 엄청 걱정했어. 어제 밤새도록 여길 지키더라니까——심지어 널 위해서 바닷물로 「미즈고리」(水垢離)까지 하더라고.</speak>
 	    <show chara="ShigureKiraSunGlassesOffTalkingClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressShockClose" position="right"/>
-	    <speak chara="_Bianka">……何ですか、それ？</speak>
+	    <show
+				chara="biankaDressShockClose" position="right"/>
+	    <speak chara="_Bianka">……그게 뭔데요?</speak>
 	    <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
 	    <show chara="ShigureKiraSunGlassesOffThinkClose" position="left"/>
-	    <speak chara="_ShigureKira">古代極東のお祈りの儀式なんだって。服を脱いで、冷水を浴びて、神様にお祈りする。</speak>
-	    <show chara="ShigureKiraSunGlassesOffSmileClose" position="left"/>
-	    <speak chara="_ShigureKira">まあ、星語者は風邪を引かないから、彼女の心配はいらないわよ。</speak>
+	    <speak chara="_ShigureKira">고대 극동에서 행해지던 기도 방식이래. 옷을 벗어두고, 차가운 물을 온몸에 끼얹으며, 기도를 한다나.</speak>
+	    <show
+				chara="ShigureKiraSunGlassesOffSmileClose" position="left"/>
+	    <speak chara="_ShigureKira">어쨌든, 별을 얘기하는 자는 감기 같은 거 안 걸리니까, 너까지 번갈아가며 걱정할 필요는 없어.</speak>
 	    <show chara="ShigureKiraSunGlassesOffSmileClose" position="left" opacity="0.8"/>
 	    <show chara="biankaDressSmileClose" position="right"/>
-	    <speak chara="_Bianka">ふふ。……船長は？</speak>
-	    <show chara="biankaDressSmileClose" position="right" opacity="0.8"/>
+	    <speak chara="_Bianka">풋…… 선장은요?</speak>
+	    <show
+				chara="biankaDressSmileClose" position="right" opacity="0.8"/>
 	    <show chara="ShigureKiraSunGlassesOffColdClose" position="left"/>
-	    <speak chara="_ShigureKira">ブリッジにいるわ。会いに行くの？</speak>
+	    <speak chara="_ShigureKira">함교 밖에 있어. 보러 올라갈 거야?</speak>
 	    <show chara="ShigureKiraSunGlassesOffColdClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressSmileClose" position="right"/>
-	    <speak chara="_Bianka">はい。例の議長の提案なんですけど……この世界のために、やってみたいんです。</speak>
+	    <show
+				chara="biankaDressSmileClose" position="right"/>
+	    <speak chara="_Bianka">네, 저번에 의장이 언급한 방법…… 이 세계를 위해, 시도해 보고 싶어서요.</speak>
 	    <show chara="biankaDressSmileClose" position="right" opacity="0.8"/>
 	    <show chara="ShigureKiraSunGlassesOffShockClose" position="left"/>
-	    <speak chara="_ShigureKira">……もうちょっと考えた方がいいんじゃない？実行者には命の危険があるんでしょう？</speak>
+	    <speak chara="_ShigureKira">……다시 한번 생각해 보는 건 어때? 그걸 실행하는 사람은, 목숨을 걸어야 하는데?</speak>
 	    <show chara="ShigureKiraSunGlassesOffColdClose" position="left"/>
-	    <speak chara="_ShigureKira">ねえ、本当に寝ぼけてないわよね？</speak>
+	    <speak chara="_ShigureKira">너…… 잠이 덜 깬 거 아냐?</speak>
 	    <show chara="ShigureKiraSunGlassesOffColdClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressSighClose" position="right"/>
-	    <speak chara="_Bianka">……もちろんです。</speak>
+	    <show chara="biankaDressSighClose"
+				position="right"/>
+	    <speak
+				chara="_Bianka">……아닌데요.</speak>
 	    <show chara="biankaDressSneerClose" position="right"/>
-	    <speak chara="_Bianka">忘れたんですか？私とリタは「ゲニウス」を持っています。</speak>
+	    <speak chara="_Bianka">잊으셨어요? 저랑 리타는 「게니우스」를 가지고 있다고요.</speak>
 	    <show chara="biankaDressSmileClose" position="right"/>
-	    <speak chara="_Bianka">二つの世界が近づいている間は、いつどこからでも元の世界に戻れるんです。</speak>
-	    <show chara="biankaDressSneerClose" position="right"/>
-	    <speak chara="_Bianka">私たちよりリスクを負うにふさわしい人間が、他にいると思いますか？</speak>
+	    <speak chara="_Bianka">두 세계가 충분히 가까워졌을 때, 저흰 언제든지 원래 세계로 돌아갈 수 있어요.</speak>
+	    <show
+				chara="biankaDressSneerClose" position="right"/>
+	    <speak chara="_Bianka">——그러니 저희보다 이런 위험에 잘 대응할 사람이 누가 있겠어요?</speak>
 	    <show chara="biankaDressSmileAhClose" position="right"/>
-	    <speak chara="_Bianka">それに先の一件からでも、私の崩壊エネルギー耐性が問題ないってわかったでしょう？</speak>
-	    <show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
+	    <speak chara="_Bianka">게다가, 어제오늘 상황을 봤을 때, 제 붕괴능 저항력에도 전혀 문제없다는 것 역시 잘 아시잖아요?</speak>
+	    <show chara="biankaDressSmileAhClose" position="right"
+				opacity="0.8"/>
 	    <show chara="ShigureKiraSunGlassesOffThinkClose" position="left"/>
-	    <speak chara="_ShigureKira">あなた……まさかそれを証明するために……</speak>
+	    <speak chara="_ShigureKira">너…… 설마 그걸 증명하려고……</speak>
 	    <show chara="ShigureKiraSunGlassesOffThinkClose" position="left" opacity="0.8"/>
 	    <show chara="biankaDressHesitateClose" position="right"/>
-	    <speak chara="_Bianka">……？</speak>
+	    <speak
+				chara="_Bianka">……?</speak>
 	    <show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
 	    <show chara="ShigureKiraSunGlassesOffSmileClose" position="left"/>
-	    <speak chara="_ShigureKira">あ、いえ、私の考えすぎだったわ。</speak>
+	    <speak chara="_ShigureKira">아, 아무것도 아냐. 잠깐 딴 생각이 나서.</speak>
 	    <show chara="ShigureKiraSunGlassesOffConfidentClose" position="left"/>
-	    <speak chara="_ShigureKira">（そこまで計算していたら、ビアンカじゃないものね……ふふ。）</speak>
+	    <speak
+				chara="_ShigureKira">(만약 얘가 이렇게까지 복잡한 계산을 하는 사람이었다면, 지금의 비앙카와는 많이 달랐겠지…… 하하.)</speak>
 	    <goto goto="100" clockwise="1"/>
-    </scene>
-    <scene id="100" background="seaWaveSunset.jpg">
-	    <bgm src="peerGynt.mp3" status="start"></bgm>
-	    <show chara="shakesCasualConfidentClose" position="left"/>
-	    <speak chara="_Shakespeare">やあ、来たね。</speak>
-	    <show chara="shakesCasualLaughClose" position="left"/>
-	    <speak chara="_Shakespeare">ハハ、今の登ってくる音を聞いてすぐわかったよ。</speak>
-	    <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressSmileAhClose" position="right"/>
-	    <speak chara="_Bianka">船長は、ここで景色を見ていたんですか？</speak>
-	    <show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
-	    <show chara="shakesCasualNormalClose" position="left"/>
-	    <speak chara="_Shakespeare">そうだけど？</speak>
-	    <show chara="shakesCasualConfidentClose" position="left"/>
-	    <speak chara="_Shakespeare">……あんたは？議長の計画に参加することを言いにきたのかな？</speak>
-	    <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressShyClose" position="right"/>
-	    <speak chara="_Bianka">え？な、何でわかったんです？</speak>
-	    <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
-	    <show chara="shakesCasualLaughClose" position="left"/>
-	    <speak chara="_Shakespeare">まあ、伊達にあんたより二十年も歳食ってないからね。</speak>
-	    <show chara="shakesCasualNormalClose" position="left"/>
-	    <speak chara="_Shakespeare">さっきまでずっと——大図書館にある一冊の本を思い出していたんだ。</speak>
-	    <speak chara="_Shakespeare">出だしはこうだ——</speak>
-	    <show chara="shakesCasualConfidentClose" position="left"/>
-	    <speak chara="_Shakespeare" remark="next">「彼は老いていた。小さな船でメキシコ湾流に漕ぎ出し、独りで漁をしていた。一匹も釣れない日が、既に八四日も続いていた。」</speak>
-	    <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressSmileAhClose" position="right"/>
-	    <speak chara="_Bianka" remark="next">……「打ち砕かれることはあっても、負けることはないんだ」</speak>
+		</scene>
+		<scene id="100" background="seaWaveSunset.jpg">
+			<bgm src="peerGynt.mp3" status="start"></bgm>
+			<show chara="shakesCasualConfidentClose" position="left"/>
+			<speak chara="_Shakespeare">여어, 왔구나.</speak>
+			<show chara="shakesCasualLaughClose" position="left"/>
+			<speak chara="_Shakespeare">하하하하, 방금 사다리 타는 소리가 들려서, 분명 너라고 생각했어.</speak>
+			<show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressSmileAhClose" position="right"/>
+			<speak chara="_Bianka">선장은 여기서 경치라도 보는 거야?</speak>
+			<show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
+			<show chara="shakesCasualNormalClose" position="left"/>
+			<speak chara="_Shakespeare">맞아.</speak>
+			<show chara="shakesCasualConfidentClose" position="left"/>
+			<speak chara="_Shakespeare">……넌? 의장의 계획에 참가할 거라고 말하러 왔으려나?</speak>
+			<show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressShyClose" position="right"/>
+			<speak chara="_Bianka">어라? 너…… 네가 그걸 어떻게 알아?</speak>
+			<show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+			<show chara="shakesCasualLaughClose" position="left"/>
+			<speak chara="_Shakespeare">
+				하하, 내가 그래도 너보단 빵을 20년이나 더 먹었다고.</speak>
+			<show chara="shakesCasualNormalClose" position="left"/>
+			<speak chara="_Shakespeare">아까 네가 오기 바로 전에——대도서관의 책 하나를 생각하고 있었어.</speak>
+			<speak chara="_Shakespeare">서두가 이렇게 시작해——</speak>
+			<show chara="shakesCasualConfidentClose" position="left"/>
+			<speak chara="_Shakespeare" remark="next">「그는 멕시코 만에서 홀로 조각배를 타고 고기잡이를 하는 노인이었다. 84일이나 바다를 나왔지만, 물고기는 한 마리도 잡지 못했다.」</speak>
+			<show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressSmileAhClose" position="right"/>
+			<speak chara="_Bianka" remark="next">……「인간은 부서질 수 있지만, 패배하진 않는다」?</speak>
 			<remark post="U2FsdGVkX1+0S+Ev9NslvrDBBkgH">
-				<p class="article-text-h">注釈：</p>
-				<p class="article-text">『老人と海』（The Old Man and the Sea）、ヘミングウェイ（Ernest Miller Hemingway）生前最後の刊行作品であり、自身が「生涯最高」と評した作品である。</p>
-				<p class="article-text">p.s.</p>
-				<p class="article-text">「象徴主義は学者たちの戯言だ。象徴主義のものなんてないのだ。海は海、老人は老人、子供は子供、魚は魚、サメはサメ。良いサメも悪いサメもない。象徴主義なんて馬鹿げている。」</p>
-				<p class="article-text">「私は本物の老人、本物の男の子、本物の海、本物の魚と本物のサメを書こうとしたんだ。私の書くものが本物に近ければ近いほど、あれらは様々なことを象徴できるだろう。」</p>
-			</remark>	
-	    <show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
-	    <show chara="shakesCasualLaughClose" position="left"/>
-	    <speak chara="_Shakespeare">ハハハ、さすが「未来」から来た人間、よく知っているね。</speak>
-	    <show chara="shakesCasualEmbarrassedClose" position="left"/>
-	    <speak chara="_Shakespeare">でも、本当に「魚を捕る」ことを経験していなければ、その人にとって、この評価もただの自己欺瞞のための口実でしかない。</speak>
-	    <show chara="shakesCasualDislikeClose" position="left"/>
-	    <speak chara="_Shakespeare">若い人間ほど「失敗を恐れぬ」と叫ぶが、若い人間ほど中途半端に投げ出すものだ。</speak>
-	    <show chara="shakesCasualConfidentClose" position="left"/>
-	    <speak chara="_Shakespeare">——だからあんたは特別なんだ。誰もがあんたのように明確な目標を持っていれば、世界はもっと効率的だっただろう。</speak>
-	    <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressShockClose" position="right"/>
-	    <speak chara="_Bianka">……</speak>
-	    <show chara="biankaDressHesitateClose" position="right"/>
-	    <speak chara="_Bianka">でも、「根性なし」もその人の自由、でしょう？</speak>
-	    <show chara="biankaDressShyClose" position="right"/>
-	    <speak chara="_Bianka">どうしたら色んなことに手を出せるのかは知らないですが、それも楽しい生き方の一つです。</speak>
-	    <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
-	    <show chara="shakesCasualMercyClose" position="left"/>
-	    <speak chara="_Shakespeare">「一人の女が海を眺めていると、ビールの空き缶やカマスの死骸が浮かぶ水面に、巨大な尾びれのついた長く白い背骨が揺られているのが見えた。」</speak>
-	    <speak chara="_Shakespeare">「入り江の外側では、東風が大きな波を立てている。」</speak>
-	    <speak chara="_Shakespeare">「『あれは何？』女は給仕に問いかけ、巨大な魚の長い背骨を指差した。それはもはや、潮に流されるのを待つばかりの屑に過ぎなかった。」</speak>
-	    <speak chara="_Shakespeare">「『ティブロンが』給仕はそう言ってから、訛った英語で言い直した。『サメが…』彼は事情を説明しようとしたのだった。」</speak>
-	    <speak chara="_Shakespeare">「『知らなかった。サメの尻尾があんなに立派で、綺麗な形だなんて』」</speak>
-	    <speak chara="_Shakespeare">「『俺もだよ』連れの男が言った。」</speak>
-	    <show chara="shakesCasualEmbarrassedClose" position="left"/>
-	    <speak chara="_Shakespeare">一つのことに集中できない人には魚は見えないんだ。彼らに見えるのは皿の中の肉と、ゴミのような残骸。</speak>
-	    <show chara="shakesCasualDislikeClose" position="left"/>
-	    <speak chara="_Shakespeare">そいつらが生まれた時からこういう運命だったとして、あんたはそれでいいのかい？</speak>
-	    <show chara="shakesCasualDislikeClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressSmileClose" position="right"/>
-	    <speak chara="_Bianka">いいんじゃないです？</speak>
-	    <show chara="biankaDressSighClose" position="right"/>
-	    <speak chara="_Bianka">だって、世界中の人間が皆漁師というわけではないでしょう？</speak>
-	    <show chara="biankaDressSneerClose" position="right"/>
-	    <speak chara="_Bianka">漁師という職業の存在意義は、皆の皿に良い魚肉を載せて、その人たちに残骸や標本や録画を見せて、大きな魚を想像させることじゃありませんか？</speak>
-	    <show chara="biankaDressSneerClose" position="right" opacity="0.8"/>
-	    <show chara="shakesCasualLaughClose" position="left"/>
-	    <speak chara="_Shakespeare">ハハハ、でもそれは本当の「魚」ではない。そいつらは本物を見たことがないんだ。</speak>
-	    <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressSighClose" position="right"/>
-	    <speak chara="_Bianka">……それは仕方がないと思います。人間には限界がありますから。</speak>
-	    <show chara="biankaDressSmileClose" position="right"/>
-	    <speak chara="_Bianka">それに、一つの目標を追い求めている時、他の関係のないものは見逃してしまうものでしょう？</speak>
-	    <show chara="biankaDressHesitateClose" position="right"/>
-	    <speak chara="_Bianka">険しい道の先に美しい風景が待っていると言いますが……</speak>
-	    <show chara="biankaDressShyClose" position="right"/>
-	    <speak chara="_Bianka">誰だって、自分にあった道を行くしかないのでしょうか？</speak>
-	    <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
-	    <show chara="shakesCasualSeriousClose" position="left"/>
-	    <speak chara="_Shakespeare">……</speak>
-	    <show chara="shakesCasualLaughClose" position="left"/>
-	    <speak chara="_Shakespeare">ハハハハ、その通りだ。</speak>
-	    <show chara="shakesCasualConfidentClose" position="left"/>
-	    <speak chara="_Shakespeare">ただ、自分が出来ないことをやろうとする自惚れた人間も度々現れる。</speak>
-	    <show chara="shakesCasualLaughClose" position="left"/>
-	    <speak chara="_Shakespeare">時にはまぐれで成功するが、ほとんどは予想通りの大失敗だ。</speak>
-	    <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressNormalClose" position="right"/>
-	    <speak chara="_Bianka">……それでも、彼らはあの漁師のように、本物の、生きて動く魚を見たのではありませんか？</speak>
-	    <show chara="biankaDressNormalClose" position="right" opacity="0.8"/>
-	    <show chara="shakesCasualLaughClose" position="left"/>
-	    <speak chara="_Shakespeare">ハハハハ、なるほど！</speak>
-	    <show chara="shakesCasualNormalClose" position="left"/>
-	    <speak chara="_Shakespeare">私が自分を卑下していたんだな。確かに、成功か失敗かなんて一概に言えないものだ。</speak>
-	    <show chara="shakesCasualConfidentClose" position="left"/>
-	    <speak chara="_Shakespeare">私も、自分の過去を尊重しなければいけないな。</speak>
-	    <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressShockClose" position="right"/>
-	    <speak chara="_Bianka">……え？船長の過去？世界的な劇作家の？</speak>
-	    <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
-	    <show chara="shakesCasualEmbarrassedClose" position="left"/>
-	    <speak chara="_Shakespeare">……ああ、そっちじゃないよ。</speak>
-	    <show chara="shakesCasualNormalClose" position="left"/>
-	    <speak chara="_Shakespeare">近いうちに、話す機会が来るだろう。</speak>
-	    <show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressHesitateClose" position="right"/>
-	    <speak chara="_Bianka">……？</speak>
-	    <show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
-	    <show chara="shakesCasualConfidentClose" position="left"/>
-	    <speak chara="_Shakespeare">気にするな。今は、とりあえず……</speak>
-	    <show chara="shakesCasualLaughClose" position="left"/>
-	    <speak chara="_Shakespeare">……「老人がライオンの夢を見る」とでも思っておいてくれ。</speak>
-	    <goto goto="110" clockwise="1"/>
-    </scene>
-    <scene id="110" background=".jpg">
-	    <bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
-	    <text>翌朝——エジプト、アレクサンドリア港、衛星管制センター。</text>
-	    <goto goto="120" change="#ffffff"/>
-    </scene>
-    <scene id="120" background="satelliteControlCenter.jpg">
-	    <bgm src="bigTask.mp3" status="start"></bgm>
-	    <show chara="micheDrySmileClose" position="left"/>
-	    <speak chara="_Michel">……よし、準備万端。</speak>
-	    <show chara="micheDrySmileClose" position="left" opacity="0.8"/>
-	    <show chara="shelleyBoredClose" position="right"/>
-	    <speak chara="_Shelley">本当にやるのか？</speak>
-	    <show chara="shelleyBoredClose" position="right" opacity="0.8"/>
-	    <show chara="micheFocusClose" position="left"/>
-	    <speak chara="_Michel">もちろん。「館長」の使命がここで終わるなら、問題ばかりを引き継がせるわけにはいかないでしょ？</speak>
-	    <show chara="micheArrogantClose" position="left"/>
-	    <speak chara="_Michel">……これも私からできるせめてもの償いね。</speak>
-	    <show chara="micheArrogantClose" position="left" opacity="0.8"/>
-	    <show chara="thalesSeriousClose" position="right"/>
-	    <speak chara="_Thales">自分に厳しいのう、館長は。</speak>
-	    <show chara="AliceSilentClose" position="right"/>
-	    <speak chara="_Alice">……</speak>
-	    <show chara="wattRelievedClose" position="right"/>
-	    <speak chara="_Watt">……でも、逆に、僕たちが助けになれることもあるよね？</speak>
-	    <show chara="manfredSmileClose" position="right"/>
-	    <speak chara="_Manfred">そうだ。世界を救う行動らしいしな。</speak>
-	    <show chara="neithComplainClose" position="right"/>
-	    <speak chara="_Neith">手伝わせてもらうっすよ？</speak>
-	    <show chara="neithComplainClose" position="right" opacity="0.8"/>
-	    <show chara="micheArrogantClose" position="left"/>
-	    <speak chara="_Michel">ふふ、もちろん。むしろ、助けてほしいわ。</speak>
-	    <show chara="micheDrySmileClose" position="left"/>
-	    <speak chara="_Michel">ただ、証拠は残さないようにしてちょうだい。表向き、あなたたちは皆私の貴重な「人質」なのだから。</speak>
-	    <show chara="micheArrogantClose" position="left"/>
-	    <speak chara="_Michel">——さて、一世一代の大博打よ！</speak>
-	    <end post="U2FsdGVkX19Jw9hQNH6qmTwkbqDR"/>
-    </scene>
-  </story>
+				<p class="article-text-h">주역:</p>
+				<p class="article-text">『노인과 바다』(The Old Man and the Sea), 헤밍웨이(Ernest Miller Hemingway)의 마지막이자 가장 중요한 작품으로, 그의 말에 따르면 「자신의 인생에 최고의 작품」이라 한다.</p>
+				<p class="article-text">p.s. 이하 두 문단은 작가 본인이 남긴 요약이며, 같은 맥락을 가진다.</p>
+				<p class="article-text">「상징주의는 학자들의 새로운 속임수이다. 상징주의적인 것은 존재하지 않는다. 바다는 바다. 노인은 노인. 아이는 아이. 물고기는 물고기. 상어는 상어지, 어느 것이 더 낫다거나 못한 건 없다. 사람들이 말하는 상징주의란, 모두 이런 식이다.」</p>
+				<p class="article-text">「나는 진짜 노인, 진짜 소년, 진짜 바다, 진짜 물고기와 진짜 상어에 대해 묘사하려 했을 뿐이다. 만약 내가 이들을 충분히 사실적으로 묘사했다면, 이들은 많은 것을 상징하게 될 것이다.」</p>
+			</remark>
+			<show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
+			<show chara="shakesCasualLaughClose" position="left"/>
+			<speak chara="_Shakespeare">하하하하, 「미래」에서 와서 그런지 이런 작품엔 정말 익숙한가 보네.</speak>
+			<show chara="shakesCasualEmbarrassedClose" position="left"/>
+			<speak chara="_Shakespeare">하지만…… 그 「고기잡이」라는 걸 제대로 경험해 보지 못한 사람이라면, 모든 걸 관통하는 그 문장은 그저 자기 기만적인 장식에 불과하겠지.</speak>
+			<show chara="shakesCasualDislikeClose" position="left"/>
+			<speak chara="_Shakespeare">젊은 사람들은 「실패를 두려워하지 말자」라는 구호를 쉽게 외치지만…… 안타깝게도, 오히려 젊은 사람들이 더 쉽게 포기한단 말이지.</speak>
+			<show chara="shakesCasualConfidentClose" position="left"/>
+			<speak chara="_Shakespeare">——그런 의미에서 넌 특별한 경우 중에도 더욱 특별해. 세상의 모든 사람들이, 너처럼 명확한 목표를 가졌다면, 이 세상은 훨씬 효율적으로 돌아갔을 건데.</speak>
+			<show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="right"/>
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaDressHesitateClose" position="right"/>
+			<speak chara="_Bianka">하지만 「끈기가 없는 것」도 그들의 자유야, 그렇지 않아?</speak>
+			<show chara="biankaDressShyClose" position="right"/>
+			<speak chara="_Bianka">왜 다들 그렇게 「딴 생각이 많은」 지는 잘 모르겠지만…… 그것도 나름 즐거움을 찾아가는 방법 중 하나라는 건 이해해.</speak>
+			<show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+			<show chara="shakesCasualMercyClose" position="left"/>
+			<speak chara="_Shakespeare">「어떤 여인이, 빈 맥주 깡통과 죽은 꼬치어 더미 사이로 보이는 바닷물을 내려다보았다. 거기서 그녀에게 굴고 긴 흰 등뼈가 눈에 들어왔다.」</speak>
+			<speak chara="_Shakespeare">「그 끝에는, 거대한 꼬리가 달려있었는데, 강한 동풍이 항구 바깥에서 끊임없이 큰 파도를 일으키며, 그 꼬리도 조수에 따라 흔들리고 있었다.」</speak>
+			<speak chara="_Shakespeare">「『저게 뭐예요?』 그녀는, 어떤 큰 물고기가 남긴 긴 등뼈를 가리키며, 웨이터에게 물었다. 그 등뼈는 이제 파도에 휩쓸려 가기만을 기다리는 쓰레기에 지나지 않았다.</speak>
+			<speak chara="_Shakespeare">「『상어입니다.』라고 웨이터가 말했다. 『아, 상어.』 그는 어떻게 된 일인지 설명하려 했다.」</speak>
+			<speak chara="_Shakespeare">「『와, 상어가 이렇게나 멋지고 우아한 꼬리를 가지고 있는지 전혀 모르고 있었네요.』」</speak>
+			<speak chara="_Shakespeare">「『나도 몰랐는데.』라고 그녀와 동행인 남자가 말했다.」</speak>
+			<show chara="shakesCasualEmbarrassedClose" position="left"/>
+			<speak chara="_Shakespeare">——딴 생각으로 가득했던 이들은 물고기를 보지 못했어. 그들이 볼 수 있던 건, 접시 위의 고기와 쓰레기 같은 잔해가 다였지.</speak>
+			<show chara="shakesCasualDislikeClose" position="left"/>
+			<speak chara="_Shakespeare">넌, 사람들의 운명이 그렇게 정해졌다 해도 괜찮다고 생각해?</speak>
+			<show chara="shakesCasualDislikeClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressSmileClose" position="right"/>
+			<speak chara="_Bianka">문제없어.</speak>
+			<show chara="biankaDressSighClose" position="right"/>
+			<speak chara="_Bianka">이 세상의 모든 사람들이 어부가 될 수는 없잖아?</speak>
+			<show chara="biankaDressSneerClose" position="right"/>
+			<speak chara="_Bianka">어부라는 직업이 존재하는 이유도, 모두가 진귀한 고기를 저녁 식사에 올릴 수 있게 해주기 위해서잖아? 잔해나 표본, 영상 같은 걸 가져와, 그 커다란 물고기가 어떻게 생겼는지 상상하는 걸 도와주는 게 아니라.</speak>
+			<show chara="biankaDressSneerClose" position="right" opacity="0.8"/>
+			<show chara="shakesCasualLaughClose" position="left"/>
+			<speak chara="_Shakespeare">하하하하, 하지만 그게 진짜 「물고기」라 할 수 있을까? 그들은 전혀 본 적 없는걸!</speak>
+			<show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressSighClose" position="right"/>
+			<speak chara="_Bianka">……그럼 어쩔 수 없지. 결국, 모든 사람들은 자신만의 한계가 있으니까.</speak>
+			<show chara="biankaDressSmileClose" position="right"/>
+			<speak chara="_Bianka">게다가, 나 역시도 한 방향만 보고 가는 동안, 분명 다른 분야에 있을 수많은 멋진 것들을 놓치지 않았을까?</speak>
+			<show chara="biankaDressHesitateClose" position="right"/>
+			<speak chara="_Bianka">흔히들 「극한의 경치는 험준한 산봉우리에 있다」라곤 하지만……</speak>
+			<show chara="biankaDressShyClose" position="right"/>
+			<speak chara="_Bianka">……결국 각자 「자신에게 맞는」 길을 선택할 수밖에 없지 않을까?</speak>
+			<show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+			<show chara="shakesCasualSeriousClose" position="left"/>
+			<speak chara="_Shakespeare">……</speak>
+			<show chara="shakesCasualLaughClose" position="left"/>
+			<speak chara="_Shakespeare">하하하하, 네 말이 맞아.</speak>
+			<show chara="shakesCasualConfidentClose" position="left"/>
+			<speak chara="_Shakespeare">다만 자신만은 특별한 줄 알고, 자기 능력을 벗어난 일을 시도하는 사람이 종종 있지.</speak>
+			<show chara="shakesCasualLaughClose" position="left"/>
+			<speak chara="_Shakespeare">가끔은 요행이 따라 성공하지만, 대부분은 실패하고 말지.</speak>
+			<show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressNormalClose" position="right"/>
+			<speak chara="_Bianka">……그래도, 그 어부처럼 시도라도 한다면, 적어도 진짜로 살아있는 그 큰 물고기를 보는 건 가능하진 않을까?</speak>
+			<show chara="biankaDressNormalClose" position="right" opacity="0.8"/>
+			<show chara="shakesCasualLaughClose" position="left"/>
+			<speak chara="_Shakespeare">하하하하! 맞는 말이야!</speak>
+			<show chara="shakesCasualNormalClose" position="left"/>
+			<speak chara="_Shakespeare">내가 자기 비하가 너무 심했나 보네. 아무래도 영웅의 성공과 실패는 쉽게 평가할 수 있는 게 아닌데.</speak>
+			<show chara="shakesCasualConfidentClose" position="left"/>
+			<speak chara="_Shakespeare">나도 스스로의 과거를 좀 더 존중해야겠어.</speak>
+			<show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="right"/>
+			<speak chara="_Bianka">……응? 선장의 과거? 극작가로서는 세계적인 수준 아니었어?</speak>
+			<show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+			<show chara="shakesCasualEmbarrassedClose" position="left"/>
+			<speak chara="_Shakespeare">……아, 그 얘기가 아냐.</speak>
+			<show chara="shakesCasualNormalClose" position="left"/>
+			<speak chara="_Shakespeare">머지않아, 이에 대해 진지한 대화를 할 기회가 있을 거야.</speak>
+			<show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressHesitateClose" position="right"/>
+			<speak chara="_Bianka">……?</speak>
+			<show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
+			<show chara="shakesCasualConfidentClose" position="left"/>
+			<speak chara="_Shakespeare">별거 아냐. 지금 당장은 일단 이렇게……</speak>
+			<show chara="shakesCasualLaughClose" position="left"/>
+			<speak chara="_Shakespeare">……「그 노인은 사자의 꿈을 꾸고 있다.」라고 생각해 둬!</speak>
+			<goto goto="110" clockwise="1"/>
+		</scene>
+		<scene id="110" background=".jpg">
+			<bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
+			<text>다음날 아침. 이집트, 알렉산드리아, 위성 관제 센터——</text>
+			<goto goto="120" change="#ffffff"/>
+		</scene>
+		<scene id="120" background="satelliteControlCenter.jpg">
+			<bgm src="bigTask.mp3" status="start"></bgm>
+			<show chara="micheDrySmileClose" position="left"/>
+			<speak chara="_Michel">……좋아요, 모든 게 준비됐네요.</speak>
+			<show chara="micheDrySmileClose" position="left" opacity="0.8"/>
+			<show chara="shelleyBoredClose" position="right"/>
+			<speak chara="_Shelley">정말 이렇게 하기로 결정한 건가?</speak>
+			<show chara="shelleyBoredClose" position="right" opacity="0.8"/>
+			<show chara="micheFocusClose" position="left"/>
+			<speak chara="_Michel">물론이에요. 「관장」의 사명도 곧 끝날 텐데——이 문제 덩어리를 뜨거운 감자인 채로 당신들에게 넘겨줄 수는 없으니까요, 그렇죠?</speak>
+			<show chara="micheArrogantClose" position="left"/>
+			<speak chara="_Michel">……그리고 이 방법이 까치집을 차지한 비둘기와 같은 짓을 한 제가 당신들에게 보상할 수 있는 유일한 방법이기도 하고요.</speak>
+			<show chara="micheArrogantClose" position="left" opacity="0.8"/>
+			<show chara="thalesSeriousClose" position="right"/>
+			<speak chara="_Thales">스스로에게 너무 모질게 구는군, 관장.</speak>
+			<show chara="AliceSilentClose" position="right"/>
+			<speak chara="_Alice">……</speak>
+			<show chara="wattRelievedClose" position="right"/>
+			<speak chara="_Watt">……하지만, 반대로, 우리가 당신들을 도울 수도 있잖아요, 그렇죠?</speak>
+			<show chara="manfredSmileClose" position="right"/>
+			<speak chara="_Manfred">맞아, 네 말에 따르면 이건 세계를 구하기 위한 작전이라 들었다.</speak>
+			<show chara="neithComplainClose" position="right"/>
+			<speak chara="_Neith">우리 도움을 사양하진 말라고?</speak>
+			<show chara="neithComplainClose" position="right" opacity="0.8"/>
+			<show chara="micheArrogantClose" position="left"/>
+			<speak chara="_Michel">후훗, 물론이죠. 저야말로 여러분의 도움이 절실한걸요.</speak>
+			<show chara="micheDrySmileClose" position="left"/>
+			<speak chara="_Michel">다만——너무 명백한 증거는 남기지 말아 주세요. 명목상 여러분은 제 귀중한 「인질」이니까요.</speak>
+			<show chara="micheArrogantClose" position="left"/>
+			<speak chara="_Michel">——모두들, 그럼 사상 유례없을 정도로 장대한 도박을 시작해 보죠!</speak>
+			<end post="U2FsdGVkX19Jw9hQNH6qmTwkbqDR"/>
+		</scene>
+	</story>
 </data>
