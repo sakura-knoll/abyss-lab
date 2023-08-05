@@ -1,474 +1,474 @@
 <?xml version="1.0" encoding="utf-8"?>
 <data>
-  <story>
-    <scene id="0" background="bg.jpg">
-	    <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
-	    <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
-	    <goto goto="10" change="#000000"/>
-    </scene>
-    <scene id="10" background="chileRiverMountain.jpg">
-	    <bgm src="seaAndSky.mp3" status="start"></bgm>
-	    <text>ビアンカ・アタジナとリタ・ロスヴァイセが量子の海に入って18日目。</text>
-	    <text>恵まれた天気の中、チリ南部の湾岸を波が叩いていた。</text>
-	    <text remark="next">日の出の頃、共和国議長がチロエ島の軍港に到着し、ラパヌイ島で「星語者」真田幸村を助けた「カレドニア号」一行を出迎えた。</text>
+	<story>
+		<scene id="0" background="bg.jpg">
+			<bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+			<cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+			<goto goto="10" change="#000000"/>
+		</scene>
+		<scene id="10" background="chileRiverMountain.jpg">
+			<bgm src="seaAndSky.mp3" status="start"></bgm>
+			<text>비앙카·아타지나와 리타·로스바이세가 양자의 바다로 모험을 떠난 지 18일째.</text>
+			<text>마침 화창한 날인 오늘, 남부 칠레 협만 사이로 파도가 넓게 부딪치는 소리가 들려왔다.</text>
+			<text remark="next">해가 뜰 즘, 공화국 의장은 칠로에의 군항에 도착해, 라파누이 섬에서 「별을 얘기하는 자」인 사나다 유키무라를 구해낸 「칼레도니아호」 일행의 마중을 위한 준비를 하였다.</text>
 			<remark post="U2FsdGVkX18G7vQ4I8K1+0Z6qTT+">
-				<p class="article-text-h">注釈：</p>
-				<p class="article-text">チロエ島（Isla de Chiloé、意味は「かもめの地」）、チリ東南部にある島。南温帯に位置しており、気候や風景が北欧と似ている。</p>
-				<p class="article-text">p.s. チロエ島はジャガイモの主な産地の一つだそうだ。</p>
-			</remark>	
-	    <text>赤髪の船長の潜水艦が入港する前、議長はペットのマーモットを連れて砂浜を散歩していた。</text>
-	    <text>この時、ほとんどの人がまだ知らないだろう——</text>
-	    <text>世界を変える計画が、密かに動き始めていることを。</text>
-	    <goto goto="20" change="#ffffff"/>
-    </scene>
-    <scene id="20" background="palaceMeetingQuito.jpg">
-	    <bgm src="legion.mp3" status="start"></bgm>
-	    <show chara="memoryLoading" position="center" opacity="0.6"/>
-	    <text>4日前、キト市、共和国議長官邸——</text>
-	    <show chara="thorSmileClose" position="back"/>
-	    <speak chara="_Thoreau">……具体な説明をする前に、まず結論から言おう。</speak>
-	    <show chara="thorConfidentClose" position="back"/>
-	    <speak chara="_Thoreau">崩壊の脅威に対応すべく、共和国は以前より積極的に打って出て、根本から世界を救う計画を立てていた。</speak>
-	    <show chara="thorNormalClose" position="back"/>
-	    <speak chara="_Thoreau">とても大胆で、欠点のない計画だ——</speak>
-	    <show chara="thorSighClose" position="back"/>
-	    <speak chara="_Thoreau">——唯一、執行人がいないことを除けば。</speak>
-	    <show chara="thorSmileClose" position="back"/>
-	    <speak chara="_Thoreau">だが今は違う。運命があなた方を共和国と出会わせた。</speak>
-	    <show chara="thorConfidentClose" position="back"/>
-	    <speak chara="_Thoreau">さて、前置きはここまでにしよう。これからあなたになってもらいたいのだ——</speak>
-	    <show chara="thorConfidentClose" position="back"/>
-	    <speak chara="_Thoreau">——「世界を切り裂く者」に。</speak>
-	    <show chara="thorSmileClose" position="back"/>
-	    <speak chara="_Thoreau">シェイクスピア船長には「デュランダル」を用いて崩壊エネルギー障壁を破壊する計画があるようだが……</speak>
-	    <show chara="thorNormalClose" position="back"/>
-	    <speak chara="_Thoreau">やりたいことは本質的に同じだと思う。</speak>
-	    <show chara="thorConfidentClose" position="back"/>
-	    <speak chara="_Thoreau">ただ、破壊の対象を「世界」に拡大しただけだ。</speak>
-	    <speak chara="_Bianka">……世界を破壊する？どういう意味です？</speak>
-	    <show chara="thorNormalClose" position="back"/>
-	    <speak chara="_Thoreau">文字通りの意味さ。</speak>
-	    <goto goto="30" change="0"/>
-    </scene>
-    <scene id="30" background="fractalWorld.jpg">
-	    <bgm src="bigTask.mp3" status="start"></bgm>
-	    <speak chara="_Thoreau">まず、その「聖剣」でこの世界の泡が汚染された部分、つまり「ヨーロッパ大陸」とそれに付随する高次元構造を切り離す。</speak>
-	    <goto goto="40" change="0"/>
-    </scene>
-    <scene id="40" background="fractalBigBang.jpg">
-	    <bgm src="bigTask.mp3" status="continue"></bgm>
-	    <speak chara="_Thoreau">その後、切り落とされたものを木っ端微塵に破壊し、この世界の泡から消滅させる。</speak>
-	    <goto goto="50" change="0"/>
-    </scene>
-    <scene id="50" background="CG27-1.jpg">
-	    <bgm src="bigTask.mp3" status="continue"></bgm>
-	    <speak chara="_Thoreau">世界の泡の構造は知っての通り、本質的には高次元空間にある「多様体」だ。</speak>
-	    <speak chara="_Thoreau">見た目上、ひとつの宇宙のように見えるが、実際は量子の海に漂う——複数の地域を綴じた「地図本」である。</speak>
-	    <speak chara="_Thoreau">この例えで言えば、その崩壊エネルギーの壁も、その後ろにあるヨーロッパ大陸も、地図本に生えたカビだ。</speak>
-	    <speak chara="_Thoreau">共和国はその悪しき寄生虫たちと半世紀以上戦ってきた。</speak>
-	    <speak chara="_Thoreau">我々がこの地に根ざし、持久戦に耐えてこられたというのならば向こうも同じだ。</speak>
-	    <speak chara="_Thoreau">敵は彼らの世界を崩壊の楽園と変貌させて、いずれ世界の泡全体を化け物たちが横行する魔境にしようとしている。</speak>
-	    <speak chara="_Thoreau">故に、我々に勝機があるとすれば、それは相手勢力をその土地まるごと、世界から駆除するしかない。</speak>
-	    <speak chara="_Thoreau">……幸運にも、我々は完全な世界ではなく、世界の泡にいる。</speak>
-	    <speak chara="_Thoreau">この折りたたまれた「地図本」の中から、「悪魔の挿絵」を破り捨てることができる。</speak>
-	    <speak chara="_Thoreau">そして、それを成し遂げられる「ペーパーナイフ」が、その手に握られている、数多の世界を渡ってこの地に降り立った聖剣だ。</speak>
-	    <speak chara="_Thoreau">そう、完全な「デュランダル」は空間そのものを切る武器だ。</speak>
-	    <speak chara="_Thoreau">何年も前にそれは理論上証明され、実践も試みられたが……</speak>
-	    <speak chara="_Thoreau">残念ながら、その実験は失敗した。</speak>
-	    <speak chara="_Thoreau">「聖剣使い」に足りうる強さを持った人間がいなかったのだ。</speak>
-	    <goto goto="60" change="0"/>
-    </scene>
-    <scene id="60" background="palaceMeetingQuito.jpg">
-	    <bgm src="legion.mp3" status="start"></bgm>
-	    <show chara="memoryLoading" position="center" opacity="0.6"/>
-	    <show chara="thorSighClose" position="back"/>
-	    <speak chara="_Thoreau">普通の人間はおろか、星語者でさえ完全な聖剣の最大出力に耐えられない。ローランドであっても——適合しえなかった。</speak>
-	    <show chara="thorConfidentClose" position="back"/>
-	    <speak chara="_Thoreau">だが、戦乙女は崩壊に対抗できる戦士、我々やシェイクスピア船長やシュレーディンガー博士にはない可能性を秘めている。</speak>
-	    <show chara="thorConfidentClose" position="back"/>
-	    <speak chara="_Thoreau">……ビアンカ・アタジナ。あなたこそ我々が探し求めていた欠けたピースだと信じている。</speak>
-	    <show chara="thorNormalClose" position="back"/>
-	    <speak chara="_Thoreau">だから、「デュランダル」の最後の宝石の在り処を教える。</speak>
-	    <speak chara="_Thoreau">私が持っている二つでも、時雨綺羅さんの一つでもない、７つ目の宝石……</speak>
-	    <speak chara="_Thoreau">それは、南太平洋のラパヌイ島にある。</speak>
-	    <show chara="thorConfidentClose" position="back"/>
-	    <speak chara="_Thoreau">その宝石を取り戻したら、我々の計画に参加するか否か関わらず、帰って来た時、私の持つこの二つを渡すと誓おう。</speak>
-	    <show chara="thorSmileClose" position="back"/>
-	    <speak chara="_Thoreau">それぞれの思惑で使われるより、正しい人の手に集まった方が良い。</speak>
-	    <show chara="thorSmileClose" position="back"/>
-	    <speak chara="_Thoreau">それと前も言ったが、計画が成功した暁には、この宝石たちよりもっと価値のある見返りを渡そう。</speak>
-	    <show chara="thorConfidentClose" position="back"/>
-	    <speak chara="_Thoreau">どうだ、戦乙女たち、シェイクスピア船長？</speak>
-	    <goto goto="70" clockwise="1"/>
-    </scene>
-    <scene id="70" background="submarineDoctorRoom.jpg">
-	    <bgm src="theme.mp3" status="start"></bgm>
-	    <show chara="biankaDressSmileClose" position="left"/>
-	    <speak chara="_Bianka">デュラ、どう？一時間くらいしたら、完璧な状態に戻るはずですけど。</speak>
-	    <show chara="biankaDressSmileClose" position="left" opacity="0.8"/>
-	    <show chara="durandalOpen" position="right"/>
-	    <speak chara="_SwordDurandalQ">どうって聞かれても……正直、実感わかないっしょ。</speak>
-	    <show chara="durandalClose" position="right"/>
-	    <speak chara="_SwordDurandalQ">ワタシの機能が、別々の結晶に格納されているからかもしれないけど。</speak>
-	    <show chara="durandalWhite" position="right"/>
-	    <speak chara="_SwordDurandalQ">「空間そのものを切り裂く」とはどういう感覚なのか、想像もつかないっしょ。</speak>
-	    <show chara="durandalOpen" position="right"/>
-	    <speak chara="_SwordDurandalQ">でも、シュレーディンガー博士が黙認しているなら、できるってことだと思うっしょ。</speak>
-	    <show chara="durandalStare" position="right"/>
-	    <speak chara="_SwordDurandalQ">それより、新しい主、いつもはめったに話しかけてくれないのに——</speak>
-	    <show chara="durandalSquint" position="right"/>
-	    <speak chara="_SwordDurandalQ">なに、緊張しているっしょ？</speak>
-	    <show chara="durandalSquint" position="right" opacity="0.8"/>
-	    <show chara="biankaDressShoutClose" position="left"/>
-	    <speak chara="_Bianka">ちょ、バカなことを言わないで！</speak>
-	    <show chara="biankaDressSneerClose" position="left"/>
-	    <speak chara="_Bianka">なんで私が緊張する必要があるんですか！私はA級戦乙女ですよ？いくつもの場数は踏んできたんです！</speak>
-	    <show chara="biankaDressShyClose" position="left"/>
-	    <speak chara="_Bianka">……</speak>
-	    <show chara="biankaDressSighClose" position="left"/>
-	    <speak chara="_Bianka">はぁ、今のは忘れてください。</speak>
-	    <hide position="left"></hide>
-	    <hide position="right"></hide>
-	    <bgm src="05_01_themeEin.mp3" status="start"></bgm>
-	    <speak chara="_SchrodingerNoName">「アルジュナよ、」</speak>
-	    <speak chara="_SchrodingerNoName">「遍く満ちる真実を、不滅と見よ。」</speak>
-	    <speak chara="_SchrodingerNoName">「如何なる物も、彼を危めることは出来ず、如何なる者も、真我を殺めることは出来ない。」</speak>
-	    <speak chara="_SchrodingerNoName">「真我は、不動であり、堅固であり、永遠である。」</speak>
-	    <show chara="biankaDressShockClose" position="left"/>
-	    <speak chara="_Bianka">……え、シュレーディンガー博士？</speak>
-	    <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
-	    <show chara="schroNoSwordTalkClose" position="right"/>
-	    <speak chara="_Schrodinger">「何事に於いても、偉人が行なったことを、一般の人々は、同じように真似るものである。」</speak>
-	    <show chara="schroNoSwordTalkClose" position="right"/>
-	    <speak chara="_Schrodinger">「指導者が範を示せば、彼に、全世界の人が倣う。」</speak>
-	    <show chara="schroNoSwordTalkClose" position="right"/>
-	    <speak chara="_Schrodinger">「もし、私が活動しなければ、誰もが私に倣って、活動しなくなってしまう。」</speak>
-	    <show chara="schroNoSwordTalkClose" position="right"/>
-	    <speak chara="_Schrodinger">「私が活動しなければ、直ちに全世界が消滅する。」</speak>
-	    <show chara="schroNoSwordTalkClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressSighClose" position="left"/>
-	    <speak chara="_Bianka">それは、何かの詩ですか？</speak>
-	    <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
-	    <show chara="schroNoSwordSmileClose" position="right"/>
-	    <speak chara="_Schrodinger" remark="next">『バガヴァッド・ギーター』の一文なのです。昔、ヒンドゥー文化が好きな学友に聞かされたなのです。</speak>
-			<remark post="U2FsdGVkX18q0ylbT3AnO+SGT5Pt">
-				<p class="article-text-h">注釈：</p>
-				<p class="article-text">『バガヴァッド・ギーター』（भगवद् गीता、「神への賛歌」を意味する）、ヒンドゥー教の聖典のひとつ。アルジュナとクリシュナのクルクシェートラの戦いの前の対話を記している。『マハーバーラタ』に全文引用されている。（学術的に『バガヴァッド・ギーター』は紀元前5世紀頃から紀元前3世紀頃までに書かれたもので、『マハーバーラタ』より早いとされている）</p>
-				<p class="article-text">p.s. 『バガヴァッド・ギーター』は唯一「神の代行者」もしくは「預言者」ではなく、「神本人」による言論を記したヒンドゥー教の聖典。ヒンドゥー教やヒンドゥー文化において、至上の地位を持っている（東アジアにおける『論語』のようなもの）。</p>
+				<p class="article-text-h">주역:</p>
+				<p class="article-text">칠로에 섬(Isla de Chiloé, 갈매기의 섬)은 칠레의 동남쪽에 위치한 섬이다. 남온대에 위치하며 기후와 풍경은 북유럽과 비슷하다.</p>
+				<p class="article-text">p.s. 고증에 따르면 칠로에 섬은 감자의 주요 원산지 중 하나라고 한다.</p>
 			</remark>
-	    <show chara="schroNoSwordCalmClose" position="right"/>
-	    <speak chara="_Schrodinger">……今のあなたは、詩にある「大戦前のアルジュナ」に似ているなのです。</speak>
-	    <show chara="schroNoSwordCalmClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressSighClose" position="left"/>
-	    <speak chara="_Bianka">……アルジュナって？</speak>
-	    <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
-	    <show chara="schroNoSwordSmileClose" position="right"/>
-	    <speak chara="_Schrodinger">ヒンドゥー神話の中の王子で、英雄なのです。</speak>
-	    <show chara="schroNoSwordSeriousClose" position="right"/>
-	    <speak chara="_Schrodinger">クルクシェートラの戦いの前に、血縁や友人が敵側についたのを知って、気を落とし戦いをやめようとしたアルジュナを——</speak>
-	    <show chara="schroNoSwordSmileClose" position="right"/>
-	    <speak chara="_Schrodinger">「バガヴァッド」と呼ばれたクリシュナ神が戦いに参加するように説いた言葉が、『バガヴァッド・ギーター』なのです。</speak>
-	    <show chara="schroNoSwordSmileClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressSighClose" position="left"/>
-	    <speak chara="_Bianka">……今から行く戦場に知り合いなんていないんですけど？</speak>
-	    <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
-	    <show chara="schroNoSwordSmileClose" position="right"/>
-	    <speak chara="_Schrodinger">ええ、ここで知り合いに会うことなんてないと思うのです。</speak>
-	    <show chara="schroNoSwordTalkClose" position="right"/>
-	    <speak chara="_Schrodinger">ビアンカさん、あなたが直面しているものはアルジュナと正反対のものなのです。</speak>
-	    <show chara="schroNoSwordSmileClose" position="right"/>
-	    <speak chara="_Schrodinger">だからこそ、似たような気持ちになるのかもしれないなのです。</speak>
-	    <show chara="schroNoSwordSmileClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressHesitateClose" position="left"/>
-	    <speak chara="_Bianka">……意味がよくわからないです。</speak>
-	    <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
-	    <show chara="schroNoSwordTalkClose" position="right"/>
-	    <speak chara="_Schrodinger">あなたとこれから対峙する敵の間には、本質的に何の交わりも衝突もない。</speak>
-	    <show chara="schroNoSwordSeriousClose" position="right"/>
-	    <speak chara="_Schrodinger">それなのに——いえ、だからこそ、あなたの中に迷いや恐怖があるなのです。</speak>
-	    <show chara="schroNoSwordSeriousClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressHesitateClose" position="left"/>
-	    <speak chara="_Bianka">……</speak>
-	    <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
-	    <show chara="schroNoSwordTalkClose" position="right"/>
-	    <speak chara="_Schrodinger">戦乙女はこの世界にとってただの通りすがりの人間で、量子の海を越えてきたのも「この世界を助ける」ためでもない。</speak>
-	    <show chara="schroNoSwordCalmClose" position="right"/>
-	    <speak chara="_Schrodinger">むしろその逆なのです。私の推測では、天命はこの世界から何かを「持ち帰ってほしい」はずなのです。</speak>
-	    <show chara="schroNoSwordCalmClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressAngryClose" position="left"/>
-	    <speak chara="_Bianka">……</speak>
-	    <show chara="biankaDressAngryClose" position="left" opacity="0.8"/>
-	    <show chara="schroNoSwordSmileClose" position="right"/>
-	    <speak chara="_Schrodinger">別に構わないのです、デュラを持ち帰っても。本人が良いのであれば。</speak>
-	    <show chara="schroNoSwordTalkClose" position="right"/>
-	    <speak chara="_Schrodinger">それに、議長の計画が順調に進めば、デュラが「エーテルアンカー」を丸コピーすることも難しくないのです。</speak>
-	    <show chara="schroNoSwordSeriousClose" position="right"/>
-	    <speak chara="_Schrodinger">その点は心配いらないはずなのです。私個人にとっては「オットー・アポカリプス」は不倶戴天の敵なのですが、それであなたたちの任務を邪魔するつもりはないなのです。</speak>
-	    <show chara="schroNoSwordSeriousClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressShockClose" position="left"/>
-	    <speak chara="_Bianka">待ってください、「不倶戴天」？あの、いい加減なオットーがですか？</speak>
-	    <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
-	    <show chara="schroNoSwordCalmClose" position="right"/>
-	    <speak chara="_Schrodinger">ええ、「不倶戴天」、「犬猿の仲」、「抹殺したい対象」。</speak>
-	    <show chara="schroNoSwordTalkClose" position="right"/>
-	    <speak chara="_Schrodinger">まあ、昔のことを教えてもあなたにはメリットなんてないし、私の言いたいこととも無関係なのですが。</speak>
-	    <show chara="schroNoSwordSeriousClose" position="right"/>
-	    <speak chara="_Schrodinger">ビアンカさん、今まであなたは、船長や議長の計画に沿って行動してきたのです。あなた自身がこの件において何の意味を持つか、考えたことがなかったと思うのです。</speak>
-	    <show chara="schroNoSwordTalkClose" position="right"/>
-	    <speak chara="_Schrodinger">責任感の落ち着く場所が見つからない。それがあなたの緊張の源なのです。</speak>
-	    <show chara="schroNoSwordSeriousClose" position="right"/>
-	    <speak chara="_Schrodinger">あなたは自分をよそ者と思っているのです。そんな自分が、異世界の人たちの期待に答えられるかどうか恐れているのです。</speak>
-	    <show chara="schroNoSwordSeriousClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressHateClose" position="left"/>
-	    <speak chara="_Bianka">……</speak>
-	    <show chara="biankaDressHateClose" position="left" opacity="0.8"/>
-	    <show chara="schroNoSwordSmileClose" position="right"/>
-	    <speak chara="_Schrodinger">リタさんに聞いたのです、あなたはすごく意識の高い戦乙女だって。</speak>
-	    <show chara="schroNoSwordSeriousClose" position="right"/>
-	    <speak chara="_Schrodinger">けど、あなたを喜ばせるのはいつだって任務の結果であり、その過程ではないのです。</speak>
-	    <show chara="schroNoSwordTalkClose" position="right"/>
-	    <speak chara="_Schrodinger">……それは辛いと思うし、そんな風に思う必要もないと思うのです。</speak>
-	    <show chara="schroNoSwordTalkClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressHesitateClose" position="left"/>
-	    <speak chara="_Bianka">でも……</speak>
-	    <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
-	    <show chara="schroNoSwordTalkClose" position="right"/>
-	    <speak chara="_Schrodinger">ビアンカさん、結果だけ見れば、この世にはたくさんの無意味なことがあるのです。……少なくとも、何に意味があるのかはっきりしません。</speak>
-	    <show chara="schroNoSwordCalmClose" position="right"/>
-	    <speak chara="_Schrodinger">生きていることの意味は？死ぬことは？自我に意味があるのか？人類や世界、宇宙に意味があるのか？</speak>
-	    <show chara="schroNoSwordCalmClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressSighClose" position="left"/>
-	    <speak chara="_Bianka">……無意味だと言うんですか？</speak>
-	    <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
-	    <show chara="schroNoSwordSmileClose" position="right"/>
-	    <speak chara="_Schrodinger">いいえ、意味はあるのです。けどその意味は、結果論では語れない、それだけなのです。</speak>
-	    <show chara="schroNoSwordSmileClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressShockClose" position="left"/>
-	    <speak chara="_Bianka">……</speak>
-	    <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
-	    <show chara="schroNoSwordTalkClose" position="right"/>
-	    <speak chara="_Schrodinger">例えば、ビアンカ・アタジナ、あなたの存在意義は「君自身」なのです。</speak>
-	    <show chara="schroNoSwordSmileClose" position="right"/>
-	    <speak chara="_Schrodinger">戦乙女の先輩にとっては、追いかけてくる脅威であり、激励でもあるのです。</speak>
-	    <show chara="schroNoSwordCalmClose" position="right"/>
-	    <speak chara="_Schrodinger">あの主教にとっては、珍しいサンプルなのです。</speak>
-	    <show chara="schroNoSwordTalkClose" position="right"/>
-	    <speak chara="_Schrodinger">でも、この世界の泡の人々にとっては、人助けをする超人。</speak>
-	    <show chara="schroNoSwordSmileClose" position="right"/>
-	    <speak chara="_Schrodinger">そして、あなた自身にとっては、「ビアンカ」という名の自分の人生なのです。</speak>
-	    <show chara="schroNoSwordTalkClose" position="right"/>
-	    <speak chara="_Schrodinger">それらは「結果」ではないのです。「無」に始まり、「無」に帰す。</speak>
-	    <show chara="schroNoSwordSmileClose" position="right"/>
-	    <speak chara="_Schrodinger">ビアンカさん、この世界の泡が求める「救い」は結果ではなく、過程であり一楽章なのです。</speak>
-	    <show chara="schroNoSwordSmileClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressShockClose" position="left"/>
-	    <speak chara="_Bianka">……楽章？</speak>
-	    <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
-	    <show chara="schroNoSwordSmileClose" position="right"/>
-	    <speak chara="_Schrodinger">はいなのです。「スーパーヒーロ」という名の精神のトーテム、心の中の神殿なのです。</speak>
-	    <show chara="schroNoSwordTalkClose" position="right"/>
-	    <speak chara="_Schrodinger">ワーグナーや、リヒャルト・シュトラウスの音楽のような。</speak>
-	    <show chara="schroNoSwordSmileClose" position="right"/>
-	    <speak chara="_Schrodinger">それは時雨綺羅さんのアイドルの仕事と類似するところもあるなのです。</speak>
-	    <show chara="schroNoSwordTalkClose" position="right"/>
-	    <speak chara="_Schrodinger">戦乙女、あなたは「世界という舞台」で、自分だけの「パフォーマンス」ができるなのです。</speak>
-	    <show chara="schroNoSwordCalmClose" position="right"/>
-	    <speak chara="_Schrodinger">それはあなたがこの世界の一員かどうかとは、一ミリも関係ない。</speak>
-	    <show chara="schroNoSwordTalkClose" position="right"/>
-	    <speak chara="_Schrodinger">どうです？バガヴァッドの論点から言えば、私たちひとりひとり、「運命」という「監督」に選ばれた「役者」なのです。</speak>
-	    <show chara="schroNoSwordSmileClose" position="right"/>
-	    <speak chara="_Schrodinger">自分なりの方法で精一杯、自分を解き放てばいいのです！</speak>
-	    <show chara="schroNoSwordSmileClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressScreamClose" position="left"/>
-	    <speak chara="_Bianka">……そ、それだけ？</speak>
-	    <show chara="biankaDressScreamClose" position="left" opacity="0.8"/>
-	    <show chara="schroNoSwordSmileClose" position="right"/>
-	    <speak chara="_Schrodinger">それだけなのです。それが「運命の脚本」なのです。</speak>
-	    <show chara="schroNoSwordCalmClose" position="right"/>
-	    <speak chara="_Schrodinger">ここには「天命の戦乙女」なんていないのです。いるのは「心の神殿」の中の「芸術家」、もしくは「世界的舞台」に立つ「アイドル」なのです。</speak>
-	    <show chara="schroNoSwordTalkClose" position="right"/>
-	    <speak chara="_Schrodinger">あなたがあなたでいる限り、あなたは完璧なのです。</speak>
-	    <show chara="schroNoSwordSmileClose" position="right"/>
-	    <speak chara="_Schrodinger">それに、「自分であること」が、もっとも「監督の期待」に答える行為である、こう言えばわかりやすいでしょうか？</speak>
-	    <show chara="schroNoSwordSmileClose" position="right" opacity="0.8"/>
-	    <show chara="biankaDressShockClose" position="left"/>
-	    <speak chara="_Bianka">……！</speak>
-	    <show chara="biankaDressSmileAhClose" position="left"/>
-	    <speak chara="_Bianka">ええ、理解しました。</speak>
-	    <show chara="biankaDressSneerClose" position="left"/>
-	    <speak chara="_Bianka">何事も前へ向いて走り抜けるのが私ですもんね！</speak>
-	    <show chara="biankaDressSmileAhClose" position="left"/>
-	    <speak chara="_Bianka">ありがとうございます、シュレーディンガー博士！何だかすっきりしました！</speak>
-	    <goto goto="80" change="#ffffff"/>
-    </scene>
-    <scene id="80" background="chileRiverMountain.jpg">
-	    <bgm src="peerGynt.mp3" status="start"></bgm>
-	    <text>一時間後——</text>
-	    <show chara="biankaDressSneerClose" position="left"/>
-	    <speak chara="_Bianka">議長、この赤い侍、ちゃんと連れ帰ってきましたよ！</speak>
-	    <show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
-	    <show chara="thorSmileClose" position="right"/>
-	    <speak chara="_Thoreau">ふふ、ありがとう、戦乙女。あなたたちなら丸く収まる方法を見つけると思っていた。</speak>
-	    <hide position="left"></hide>
-	    <hide position="right"></hide>
-	    <show chara="thorConfidentClose" position="left"/>
-	    <speak chara="_Thoreau">……真田、ご苦労様。</speak>
-	    <show chara="thorConfidentClose" position="left" opacity="0.8"/>
-	    <show chara="yukimuraColdClose" position="right"/>
-	    <speak chara="_Yukimura">恐縮です。これも侍の、真田家の宿命です。</speak>
-	    <show chara="yukimuraSmileClose" position="right"/>
-	    <speak chara="_Yukimura">ただ……熱々のそばが食べられるなら、最高ですが。</speak>
-	    <show chara="yukimuraSmileClose" position="right" opacity="0.8"/>
-	    <show chara="thorSmileClose" position="left"/>
-	    <speak chara="_Thoreau">そばは難しいが……バームクーヘンでも良いかな？</speak>
-	    <show chara="thorSmileClose" position="left" opacity="0.8"/>
-	    <show chara="yukimuraTalkClose" position="right"/>
-	    <speak chara="_Yukimura">バームクーヘン？それは絶品なのですか？</speak>
-	    <show chara="yukimuraTalkClose" position="right" opacity="0.8"/>
-	    <show chara="thorConfidentClose" position="left"/>
-	    <speak chara="_Thoreau">あなたのために用意したんだ。口に合わないだろうか？</speak>
-	    <show chara="thorConfidentClose" position="left" opacity="0.8"/>
-	    <show chara="yukimuraSmileClose" position="right"/>
-	    <speak chara="_Yukimura">とんでもない！武士なら据え膳を食べるべし、治部様の教えです。</speak>
-	    <show chara="yukimuraTalkClose" position="right"/>
-	    <speak chara="_Yukimura">ああ、某の過去は知らないんですよね。</speak>
-	    <show chara="yukimuraTalkClose" position="right" opacity="0.8"/>
-	    <show chara="thorNormalClose" position="left"/>
-	    <speak chara="_Thoreau">石田三成のことか？</speak>
-	    <show chara="thorNormalClose" position="left" opacity="0.8"/>
-	    <show chara="yukimuraTalkClose" position="right"/>
-	    <speak chara="_Yukimura">え？</speak>
-	    <show chara="yukimuraTalkClose" position="right" opacity="0.8"/>
-	    <show chara="thorSighClose" position="left"/>
-	    <speak chara="_Thoreau">はあ、自分の名声にもっと自信を持ってほしいものだ、極東の赤き侍よ。</speak>
-	    <show chara="thorNormalClose" position="left"/>
-	    <speak chara="_Thoreau">話を戻すが、ビアンカ……</speak>
-	    <show chara="thorNormalClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressShockClose" position="right"/>
-	    <speak chara="_Bianka">……はい？</speak>
-	    <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
-	    <show chara="thorConfidentClose" position="left"/>
-	    <speak chara="_Thoreau">これが約束した2つの宝石だ、受け取ってくれ。</speak>
-	    <show chara="thorSmileClose" position="left"/>
-	    <speak chara="_Thoreau">君たちの行動を見てきたアイドルのものは……</speak>
-	    <show chara="ShigureKiraSunGlassesOffConfidentClose" position="left"/>
-	    <speak chara="_ShigureKira">もちろん、問題ありません。</speak>
-	    <show chara="ShigureKiraSunGlassesOffTalkingClose" position="left"/>
-	    <speak chara="_ShigureKira">ビアンカ、これが愛と美しさの「アイドルの石」よ。</speak>
-	    <show chara="ShigureKiraSunGlassesOffConfidentClose" position="left"/>
-	    <speak chara="_ShigureKira">これをあなたに貸してあげる。</speak>
-	    <show chara="ShigureKiraSunGlassesOffConfidentClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressSmileAhClose" position="right"/>
-	    <speak chara="_Bianka">……ありがとうございます。</speak>
-	    <show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
-	    <show chara="durandalOutstretchOpen" position="left"/>
-	    <speak chara="_SwordDurandalQ">では、早速だけど、全部頂いていいっしょ？</speak>
-	    <show chara="durandalOutstretchOpen" position="left" opacity="0.8"/>
-	    <show chara="biankaDressSmileClose" position="right"/>
-	    <speak chara="_Bianka">ええ、七つの宝石を今、元の主の手に戻しましょう。</speak>
-	    <show chara="shakesCasualLaughClose" position="right"/>
-	    <speak chara="_Shakespeare">伝説の聖剣！真の姿を見せてくれ！</speak>
-	    <goto goto="90" change="#ffffff"/>
-    </scene>
-    <scene id="90" background="CG1.jpg">
-	    <bgm src="11_22_Tiger.mp3" status="start"></bgm>
-	    <show chara="memoryLoading" position="center" opacity="0.6"/>
-	    <text>赤い勇気の結晶は、勇敢と冒険の決意を象徴する。</text>
-	    <goto goto="100" change="0"/>
-    </scene>
-    <scene id="100" background="CG2-3.jpg">
-	    <bgm src="11_22_Tiger.mp3" status="continue"></bgm>
-	    <show chara="memoryLoading" position="center" opacity="0.6"/>
-	    <text>橙色の直感の結晶は、自信と探検する夢を象徴する。</text>
-	    <goto goto="110" change="0"/>
-    </scene>
-    <scene id="110" background="CG4-3.jpg">
-	    <bgm src="11_22_Tiger.mp3" status="continue"></bgm>
-	    <show chara="memoryLoading" position="center" opacity="0.6"/>
-	    <text>金色の自由の結晶は、博愛と自身を極めることを象徴する。</text>
-	    <goto goto="120" change="0"/>
-    </scene>
-    <scene id="120" background="CG7-2.jpg">
-	    <bgm src="11_22_Tiger.mp3" status="continue"></bgm>
-	    <show chara="memoryLoading" position="center" opacity="0.6"/>
-	    <text>緑色の倫理の結晶は、善良と正義の力を象徴する。</text>
-	    <goto goto="130" change="0"/>
-    </scene>
-    <scene id="130" background="CG16-1-2.jpg">
-	    <bgm src="11_22_Tiger.mp3" status="continue"></bgm>
-	    <show chara="memoryLoading" position="center" opacity="0.6"/>
-	    <text>青色の繁栄の結晶は、活力と生命の強さを象徴する。</text>
-	    <goto goto="140" change="0"/>
-    </scene>
-    <scene id="140" background="CG21-1.jpg">
-	    <bgm src="11_22_Tiger.mp3" status="continue"></bgm>
-	    <show chara="memoryLoading" position="center" opacity="0.6"/>
-	    <text>藍色の理性の結晶は、理性と智慧を象徴する。</text>
-	    <goto goto="150" change="0"/>
-    </scene>
-    <scene id="150" background="CG25-2.jpg">
-	    <bgm src="11_22_Tiger.mp3" status="continue"></bgm>
-	    <show chara="memoryLoading" position="center" opacity="0.6"/>
-	    <text>紫色の支配の結晶は、高貴と万物統一の彼方を象徴する。</text>
-	    <goto goto="160" change="0"/>
-    </scene>
-    <scene id="160" background="CG27-2.jpg">
-	    <bgm src="12_14_Hero.mp3" status="start"></bgm>
-	    <text>「静まれ！宇宙の拠り所よ！」</text>
-	    <text>「我が時空そのもの」</text>
-	    <text>「すべてを破壊する力の源」</text>
-	    <text>「世界を無に帰すことこそ我の責務」</text>
-	    <goto goto="170" change="0"/>
-    </scene>
-    <scene id="170" background="CG27-3.jpg">
-	    <bgm src="12_14_Hero.mp3" status="continue"></bgm>
-	    <speak chara="_Bianka">あなた……こんなすごい武器だったの、デュラ。</speak>
-	    <speak chara="_HolySwordDurandal">強い主を持ったからだよ、ビアンカ・アタジナさん。</speak>
-	    <speak chara="_HolySwordDurandal">あなたの手にあるワタシは、この世界の泡のどこでも滅ぼすことができる。</speak>
-	    <speak chara="_HolySwordDurandal">だけどこれだけ知ってほしい。武器とは、滅びと暴力を司るもの。「聖剣」とて例外ではない。</speak>
-	    <speak chara="_Bianka">……わかってます。</speak>
-	    <speak chara="_Bianka">戦乙女の教育で理解しています。暴力に原罪はあるが、余計な善悪は持ち合わせていない。</speak>
-	    <speak chara="_Bianka">……本当の善悪は、暴力を振るう動機と、その結果にあるんです。</speak>
-	    <goto goto="180" change="0"/>
-    </scene>
-    <scene id="180" background="chileRiverMountain.jpg">
-	    <bgm src="12_21_dannyBoy_p.mp3" status="start"></bgm>
-	    <show chara="champoBlanketSmileClose" position="left"/>
-	    <speak chara="_Champollion">「子曰わく、惟だ仁者のみ能く人を好み、能く人を悪む。」</speak>
-	    <show chara="champoBlanketSmileClose" position="left"/>
-	    <speak chara="_Champollion">「苟に仁に志せば、悪しきこと無し。」</speak>
-	    <show chara="champoBlanketNormalClose" position="left"/>
-	    <speak chara="_Champollion">ヴォルテールが孔子を崇拝したのは、彼に理想的な「人類の立法者」を見たからだろう。</speak>
-	    <show chara="champoBlanketSmileClose" position="left"/>
-	    <speak chara="_Champollion">孔子の「仁」は個人と社会の道徳的な調和であり、人類の本質的な善意と自由を象徴している。</speak>
-	    <show chara="champoBlanketSmileClose" position="left"/>
-	    <speak chara="_Champollion">ビアンカ、今の君がこの「仁義」の力の代表者だ。ヴォルテールならきっと君のことを最高の「戦乙女」と称賛するだろう。</speak>
-	    <show chara="champoBlanketSmileClose" position="left" opacity="0.8"/>
-	    <show chara="biankaDressShyClose" position="right"/>
-	    <speak chara="_Bianka">シャンポリオン博士……そんな、恥ずかしいこと言わないでください。</speak>
-	    <speak chara="_Bianka">私はまだ何もしてないのに。</speak>
-	    <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
-	    <show chara="champoBlanketLaughClose" position="left"/>
-	    <speak chara="_Champollion">これは失礼、気持ちが昂ぶったもので。ついとある時代の誇張表現を使ってしまった。</speak>
-	    <show chara="thorConfidentClose" position="left"/>
-	    <speak chara="_Thoreau">「万物を司る存在を真に信じるものは、すべての存在を食べることができる。」</speak>
-	    <show chara="thorSmileClose" position="left"/>
-	    <speak chara="_Thoreau">太陽も星の一つにすぎない。あなたも、他人の賛美の言葉を過剰に気にすることはない。</speak>
-	    <hide position="left"></hide>
-	    <hide position="right"></hide>
-	    <show chara="thorConfidentClose" position="center"/>
-	    <speak chara="_Thoreau">いま重要なのはひとつ……</speak>
-	    <show chara="thorAngryClose" position="center"/>
-	    <speak chara="_Thoreau">ここ五十数年……いえ、有史以来、我々は初めて戦略的に敵を消滅できる力を手に入れた。</speak>
-	    <show chara="thorNormalClose" position="center"/>
-	    <speak chara="_Thoreau">善は急げ。今ここで「パチャクテク行動」の詳細計画を発表する。</speak>
-	    <show chara="thorConfidentClose" position="center"/>
-	    <speak chara="_Thoreau" remark="next">各位、「世界を震撼させる者」の名において、この世界に変革をもたらそう！</speak>
+			<text>붉은머리 선장의 잠수함이 아직 도착하지 않았기에, 의장은 편한 표정으로 자신의 마멋을 데리고 해변가를 산책하고 있었다.</text>
+			<text>이때, 절대다수의 사람들은 전혀 모르고 있었다——</text>
+			<text>곧 세상을 개변시킬 계획이, 이미 비밀리에 시시각각 진행되고 있었다는 것을.</text>
+			<goto goto="20" change="#ffffff"/>
+		</scene>
+		<scene id="20" background="palaceMeetingQuito.jpg">
+			<bgm src="legion.mp3" status="start"></bgm>
+			<show chara="memoryLoading" position="center" opacity="0.6"/>
+			<text>4일 전, 키토, 공화국 의장 관저——</text>
+			<show chara="thorSmileClose" position="back"/>
+			<speak chara="_Thoreau">……그럼 구체적인 내용을 알려드리기 전에, 결론부터 얘기해 드리도록 하죠.</speak>
+			<show chara="thorConfidentClose" position="back"/>
+			<speak chara="_Thoreau">붕괴의 위협에 맞서, 공화국은 적극적인 공세를 통해, 완전히 세계를 구할 계획을 준비해왔습니다.</speak>
+			<show chara="thorNormalClose" position="back"/>
+			<speak chara="_Thoreau">이는 매우 대담하며, 허점도 거의 없죠——</speak>
+			<show chara="thorSighClose" position="back"/>
+			<speak chara="_Thoreau">——이를 실행할 이가 부족하다는 점을 제외하면요.</speak>
+			<show chara="thorSmileClose" position="back"/>
+			<speak chara="_Thoreau">하지만, 지금은 다릅니다. 운명이 당신으로 하여금 이 공화국에 이르게 하였으니까요.</speak>
+			<show chara="thorConfidentClose" position="back"/>
+			<speak chara="_Thoreau">그럼, 서론은 여기까지입니다. 구체적으로 얘기하자면 다음과 같은 역할을 맡아주셨으면 합니다——</speak>
+			<show chara="thorConfidentClose" position="back"/>
+			<speak chara="_Thoreau">——바로 「세계의 절단자」를요.</speak>
+			<show chara="thorSmileClose" position="back"/>
+			<speak chara="_Thoreau">여러분의 셰익스피어 선장은 「듀란달」로 붕괴능 방벽을 파괴시킬 계획이 있는 듯한데,</speak>
+			<show chara="thorNormalClose" position="back"/>
+			<speak chara="_Thoreau">저희가 원하는 것도 본질적으로는 상동합니다——</speak>
+			<show chara="thorConfidentClose" position="back"/>
+			<speak chara="_Thoreau">——다만 파괴 대상을 「세계」 그 자체까지 넓힐 필요가 있지만요.</speak>
+			<speak chara="_Bianka">……「세계 그 자체를 파괴」? 대체 무슨 얘기를 하시는 거죠?</speak>
+			<show chara="thorNormalClose" position="back"/>
+			<speak chara="_Thoreau">문자 그대로의 의미입니다.</speak>
+			<goto goto="30" change="0"/>
+		</scene>
+		<scene id="30" background="fractalWorld.jpg">
+			<bgm src="bigTask.mp3" status="start"></bgm>
+			<speak chara="_Thoreau">첫 단계로, 여러분의 「성검」을 통해 거품 세계의 오염된 부분을 잘라냅니다——소위 「유럽 대륙」과 그에 상응하는 고차원 구조를요.</speak>
+			<goto goto="40" change="0"/>
+		</scene>
+		<scene id="40" background="fractalBigBang.jpg">
+			<bgm src="bigTask.mp3" status="continue"></bgm>
+			<speak chara="_Thoreau">두 번째 단계로, 잘라낸 잔해를 폭파시켜, 철저하게 이 거품 세계에서 소멸 시킵니다.</speak>
+			<goto goto="50" change="0"/>
+		</scene>
+		<scene id="50" background="CG27-1.jpg">
+			<bgm src="bigTask.mp3" status="continue"></bgm>
+			<speak chara="_Thoreau">여러분들께선 이 거품 세계의 구조는 본질적으로는 고차원 공간에 있는 「다양체」라는 것에 대해 잘 알고 계시리라 봅니다.</speak>
+			<speak chara="_Thoreau">언뜻 보면, 하나의 완전한 우주처럼 보이지만, 실은 양자의 바다를 떠도는 여러 지역들이 하나로 엮인 「지도책」에 불과하죠.</speak>
+			<speak chara="_Thoreau">이 비유에서 붕괴능 방벽과 그 뒤의 유럽 대륙은 그 지도책에서 자라고 있는 곰팡이, 혹은 종양 같은 존재입니다.</speak>
+			<speak chara="_Thoreau">발키리 여러분, 그대들은 이제 막 여기에 도착했지만——우리 공화국은 이미 이런 악성 기생충들과 반세기가 넘도록 싸워왔습니다.</speak>
+			<speak chara="_Thoreau">우리는 이 토지에 뿌리를 내린 덕분에, 지금까지도 이 장기전에서 버텨올 수 있었습니다만, 이건 상대도 마찬가지일 것입니다.</speak>
+			<speak chara="_Thoreau">적은 이미 그들의 세계를 붕괴의 낙원으로 바꿔버렸습니다. 언젠가, 그들은 이 거품 세계 전체를 괴물들로 가득한 마경으로 만들어버릴 테죠.</speak>
+			<speak chara="_Thoreau">그렇기에, 우리가 궁극적으로 승리하기 위해서는——상대의 세력뿐만 아니라, 그들이 살아남을 수 있게 해주는 그 토양까지, 모두 제거해야만 합니다.</speak>
+			<speak chara="_Thoreau">……다행스럽게도, 우리는 온전한 하나의 별로 된 세계가 아닌, 거품 세계에 살고 있죠.</speak>
+			<speak chara="_Thoreau">즉, 이 「지도책」 안에서, 「악마들의 삽화들」이 있는 페이지를 뜯어내버릴 기회가 남아있다는 걸 의미합니다.</speak>
+			<speak chara="_Thoreau">……그리고 이걸 가능하게 해줄 「페이퍼 나이프」는, 바로 여러분의 손에 있는, 여러 세계를 거쳐 이곳까지 이르게 된 그 성검이 될 테죠.</speak>
+			<speak chara="_Thoreau">——네, 비앙카 양, 놀라진 말아주시길, 완전해진 「듀란달」은 공간 그 자체를 자르는 게 가능한 무기입니다.</speak>
+			<speak chara="_Thoreau">수년 전, 누군가가 이를 다른 관점에서 증명해냈고, 이를 시험해 보았습니다만——</speak>
+			<speak chara="_Thoreau">불행히도, 그 실험은 실패하고 말았습니다.</speak>
+			<speak chara="_Thoreau">당시엔, 그 성검을 다룰 만큼 강력한 「사용자」가 없었기 때문이었죠.</speak>
+			<goto goto="60" change="0"/>
+		</scene>
+		<scene id="60" background="palaceMeetingQuito.jpg">
+			<bgm src="legion.mp3" status="start"></bgm>
+			<show chara="memoryLoading" position="center" opacity="0.6"/>
+			<show chara="thorSighClose" position="back"/>
+			<speak chara="_Thoreau">우리는 인정할 수밖에 없었습니다…… 보통 사람은 물론, 별을 얘기하는 자도 완전체가 된 성검의 과부하를 버티는 건 불가능했죠. 롤랑 역시 불가능했습니다——그 가여운 아이는 불완전하니까요.</speak>
+			<show chara="thorConfidentClose" position="back"/>
+			<speak chara="_Thoreau">하지만, 당신들 발키리는 진정으로 붕괴에 대항하는데 특화된 전사이죠. 당신들은 우리들이나, 셰익스피어 선장, 슈뢰딩거 박사와는 완전히 다른 가능성을 가지고 있습니다.</speak>
+			<show chara="thorConfidentClose" position="back"/>
+			<speak chara="_Thoreau">……비앙카·아타지나 양, 저는 당신이 우리가 그토록 찾아 헤매던 특별한 퍼즐 조각이라고 믿고 있습니다.</speak>
+			<show chara="thorNormalClose" position="back"/>
+			<speak chara="_Thoreau">그런 당신에게, 「듀란달」의 마지막 보석이 있는 곳을 알려드리죠——</speak>
+			<speak chara="_Thoreau">제가 가지고 있는 두 개와, 시구레 키라 양이 지닌 하나를 제외한 여러분이 찾고 있는 일곱 번째 보석은——</speak>
+			<speak chara="_Thoreau">남태평양에 멀리 떨어진 라파누이 섬에 있습니다.</speak>
+			<show chara="thorConfidentClose" position="back"/>
+			<speak chara="_Thoreau">보석을 회수하고 나면, 당신들이 우리 계획에 동의하는지와는 상관없이, 제 손에 있는 이 두 개의 보석을 원래의 주인에게 돌려주도록 하죠.</speak>
+			<show chara="thorSmileClose" position="back"/>
+			<speak chara="_Thoreau">결국, 이 보석들은 생각이 다른 여럿이 각각 쓰는 것보다, 올바른 사람 손에 한 데 모이는 것이 더 가치 있다고 생각하니까요.</speak>
+			<show chara="thorSmileClose" position="back"/>
+			<speak chara="_Thoreau">게다가, 전에도 말했듯, 이 계획이 성공한다면, 전 이 보석들보다 훨씬 가치 있는 것을 제공할 수 있을 겁니다.</speak>
+			<show chara="thorConfidentClose" position="back"/>
+			<speak chara="_Thoreau">어때요? 진지하게 생각해 볼 만한가요? 발키리 분들? 셰익스피어 선장?</speak>
+			<goto goto="70" clockwise="1"/>
+		</scene>
+		<scene id="70" background="submarineDoctorRoom.jpg">
+			<bgm src="theme.mp3" status="start"></bgm>
+			<show chara="biankaDressSmileClose" position="left"/>
+			<speak chara="_Bianka">란달, 기분이 어때? 이제 한 시간만 지나면, 원래의 완벽한 모습으로 돌아갈 수 있는데.</speak>
+			<show chara="biankaDressSmileClose" position="left" opacity="0.8"/>
+			<show chara="durandalOpen" position="right"/>
+			<speak chara="_SwordDurandalQ">음…… 어떻냐고요? 실은 여전히 실감이 안되는데.</speak>
+			<show chara="durandalClose" position="right"/>
+			<speak chara="_SwordDurandalQ">어쩌면 내 완전한 기능이 각각의 보석에 나누어져 있어서 그런 것 같기도 하고……</speak>
+			<show chara="durandalWhite" position="right"/>
+			<speak chara="_SwordDurandalQ">「공간 자체를 자른다」라는 게 어떤 느낌일지 상상이 안되네.</speak>
+			<show chara="durandalOpen" position="right"/>
+			<speak chara="_SwordDurandalQ">그래도, 슈뢰딩거 박사가 의장의 말을 부정하질 않은 걸 보니——완전해진 나라면 대략 그런 걸 할 수 있을 거라 생각하지만.</speak>
+			<show chara="durandalStare" position="right"/>
+			<speak chara="_SwordDurandalQ">그나저나, 새 주인——평소엔 넌 나한테 말 거는 일이 없었는데?</speak>
+			<show chara="durandalSquint" position="right"/>
+			<speak chara="_SwordDurandalQ">어때, 실은 당신도 긴장한 거 아니에요?</speak>
+			<show chara="durandalSquint" position="right" opacity="0.8"/>
+			<show chara="biankaDressShoutClose" position="left"/>
+			<speak chara="_Bianka">야! 뭔 헛소리야!</speak>
+			<show chara="biankaDressSneerClose" position="left"/>
+			<speak chara="_Bianka">내가 왜 긴장을 하겠어? 난 A급 발키리라고, 내가 지금까지 얼마나 큰 풍파를 겪어왔는지 알아?</speak>
+			<show chara="biankaDressShyClose" position="left"/>
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaDressSighClose" position="left"/>
+			<speak chara="_Bianka">으, 방금 말은 너무 잘난 척한 것 같네. 그냥 잊어줘.</speak>
+			<hide position="left"></hide>
+			<hide position="right"></hide>
+			<bgm src="05_01_themeEin.mp3" status="start"></bgm>
+			<speak chara="_SchrodingerNoName">「너희는 알아야한다.」</speak>
+			<speak chara="_SchrodingerNoName">「불멸자는 모든 것에 깃들어 있으며,」</speak>
+			<speak chara="_SchrodingerNoName">「이 영원히 살아가는 자는,」</speak>
+			<speak chara="_SchrodingerNoName">「그 무엇으로도 파멸시킬 수 없다.」</speak>
+			<show chara="biankaDressShockClose" position="left"/>
+			<speak chara="_Bianka">——어라, 슈뢰딩거 박사님?</speak>
+			<show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+			<show chara="schroNoSwordTalkClose" position="right"/>
+			<speak chara="_Schrodinger">「그것은 세상의 모든 것을 낳아 길러왔으니,」</speak>
+			<show chara="schroNoSwordTalkClose" position="right"/>
+			<speak chara="_Schrodinger">「이 점을 응당 이해하여야만 한다.」</speak>
+			<show chara="schroNoSwordTalkClose" position="right"/>
+			<speak chara="_Schrodinger">「나는 세상 모든 것의 기원이며,」</speak>
+			<show chara="schroNoSwordTalkClose" position="right"/>
+			<speak chara="_Schrodinger">「세상 모든 것의 파멸이기도 하다.」</speak>
+			<show chara="schroNoSwordTalkClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressSighClose" position="left"/>
+			<speak chara="_Bianka">음…… 시도 외우시나 봐요?</speak>
+			<show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+			<show chara="schroNoSwordSmileClose" position="right"/>
+			<speak chara="_Schrodinger" remark="next">이건 『바가바드・기타』에 나오는 글이라는 것이에요——아주 오래전, 인도 문화에 심취한 친구가 억지로 들려줬다는 것이에요.</speak>
+			<remark post="U2FsdGVkX18q0ylbT3AnO+SGT5Pt">
+				<p class="article-text-h">주역:</p>
+				<p class="article-text">『바가바드・기타』(भगवद् गीता, 「거룩한 자의 노래」라는 의미), 힌두교의 중요한 경전으로, 쿠루 왕국의 왕위쟁탈전이 시작되기 전 아르주나와 크리슈나가 나눈 긴 대화를 다루고 있다——그래서 현재는 『마하바라타』에도 전문이 인용되고 있다(학계는 『마하바라타』가 완성되기 전인, 기원전 5세기에서 3세기 사이에 쓰였다고 보고 있다).</p>
+				<p class="article-text">p.s. 『바가바드・기타』는 유일하게, 「신의 대리인」이나 「예언자」가 아닌, 「신 본인」이 직접 기록한 힌두교 경전이기에, 힌두교와 인도 문화권에서 유일무이한 지위를 가지고 있다(동아시아의 『논어』와 비슷한 위치라 볼 수 있다).</p>
+			</remark>
+			<show chara="schroNoSwordCalmClose" position="right"/>
+			<speak chara="_Schrodinger">……제가 보기에, 지금 당신의 심정은 「큰 싸움을 앞둔 아르주나」와 비슷해 보인다는 것이에요.</speak>
+			<show chara="schroNoSwordCalmClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressSighClose" position="left"/>
+			<speak chara="_Bianka">……아르주나가 누구예요?</speak>
+			<show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+			<show chara="schroNoSwordSmileClose" position="right"/>
+			<speak chara="_Schrodinger">인도 신화에 나오는 왕자라는 것이에요. 대영웅이기도 하다는 것이에요.</speak>
+			<show chara="schroNoSwordSeriousClose" position="right"/>
+			<speak chara="_Schrodinger">그는 쿠루에서 큰 싸움을 시작하기 전, 그의 친척과 친구들이 적의 편에 서있는 걸 보고, 싸울 의지를 잃어버렸다는 것이에요.</speak>
+			<show chara="schroNoSwordSmileClose" position="right"/>
+			<speak chara="_Schrodinger">『바가바드・기타』는, 「바가바드」로도 알려진, 신 크리슈나가 아르주나로 하여금 전투를 주저하지 않도록 독려하는 얘기를 담은 노래라는 것이에요.</speak>
+			<show chara="schroNoSwordSmileClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressSighClose" position="left"/>
+			<speak chara="_Bianka">……근데 전 전장에서 적으로 상대할 만한 친구나 가족이 없는데요?</speak>
+			<show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+			<show chara="schroNoSwordSmileClose" position="right"/>
+			<speak chara="_Schrodinger">네, 여기서 당신이 친구나 가족을 만날 일은 없다는 것이에요.</speak>
+			<show chara="schroNoSwordTalkClose" position="right"/>
+			<speak chara="_Schrodinger">비앙카, 당신의 경우는 아르주나와는 정반대——</speak>
+			<show chara="schroNoSwordSmileClose" position="right"/>
+			<speak chara="_Schrodinger">——오히려 그렇기에 당신과 그의 마음이 비슷하다는 것이에요.</speak>
+			<show chara="schroNoSwordSmileClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressHesitateClose" position="left"/>
+			<speak chara="_Bianka">……무슨 말을 하시는지 잘 모르겠어요.</speak>
+			<show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+			<show chara="schroNoSwordTalkClose" position="right"/>
+			<speak chara="_Schrodinger">제 말은——당신과 앞으로 당신이 만나게 될 적은, 본질적으로는 당신에게 있어 아무런 접점도, 충돌할 일도 없었을 것이에요.</speak>
+			<show chara="schroNoSwordSeriousClose" position="right"/>
+			<speak chara="_Schrodinger">그래서 당신은 반대로 이런 이유로, 싸움을 주저하고 있다는 것이에요. 당신의 마음속에 여전히 망설임, 혼란, 그리고 두려움이 느껴진다는 것이에요.</speak>
+			<show chara="schroNoSwordSeriousClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressHesitateClose" position="left"/>
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+			<show chara="schroNoSwordTalkClose" position="right"/>
+			<speak chara="_Schrodinger">당신과 같은 발키리는 그저 이 세계에 있어선 지나가는 손님이라는 것이에요. 양자의 바다를 넘어온 이유도 「이 세계의 구원」이 아니라는 것이에요.</speak>
+			<show chara="schroNoSwordCalmClose" position="right"/>
+			<speak chara="_Schrodinger">오히려——제가 알고 있는 천명이라면, 그들은 당신이 이 세계의 무언가를 「회수」하는 것만 기대하고 있을 거라는 것이에요.</speak>
+			<show chara="schroNoSwordCalmClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressAngryClose" position="left"/>
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaDressAngryClose" position="left" opacity="0.8"/>
+			<show chara="schroNoSwordSmileClose" position="right"/>
+			<speak chara="_Schrodinger">상관없다는 것이에요, 당신들이 란달을 데리고 돌아가 버려도——본인 스스로가 그걸로 행복하다면.</speak>
+			<show chara="schroNoSwordTalkClose" position="right"/>
+			<speak chara="_Schrodinger">그리고, 의장의 계획이 잘 풀리게 된다면——「에테르 앵커」의 모든 내용을 복사해달라고 하라는 것이에요. 그건 문제없을 거란 것이에요.</speak>
+			<show chara="schroNoSwordSeriousClose" position="right"/>
+			<speak chara="_Schrodinger">그러니, 이 부분은 안심해도 괜찮다는 것이에요——비록 제게 있어 「오토·아포칼립스」는 불구대천의 원수지만, 제가 당신의 임무를 방해할 일은 없다는 것이에요.</speak>
+			<show chara="schroNoSwordSeriousClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="left"/>
+			<speak chara="_Bianka">잠깐만요…… 「불구대천의 원수」? 그…… 오토가 무슨 나쁜 짓이라도 했나요?</speak>
+			<show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+			<show chara="schroNoSwordCalmClose" position="right"/>
+			<speak chara="_Schrodinger">그렇다는 것이에요. 「불구대천의 원수」, 「물과 기름 같은 관계」, 「양립 불가」, 「당장이라도 제거해야 할 존재」.</speak>
+			<show chara="schroNoSwordTalkClose" position="right"/>
+			<speak chara="_Schrodinger">하지만, 이런 상세한 역사를 설명을 해주는 건, 당신에게 아무런 이득도 없다는 것이에요——그리고 제가 말하려는 요점과도 아무런 상관이 없다는 것이에요.</speak>
+			<show chara="schroNoSwordSeriousClose" position="right"/>
+			<speak chara="_Schrodinger">비앙카 양, 여기에 오기까지 당신은 그저 선장과 의장의 계획에 따라 움직였을 뿐——이러한 사건 전체가 당신에게 어떤 의미를 가지는지 진지하게 생각해 볼 기회는 없었다는 것이에요.</speak>
+			<show chara="schroNoSwordTalkClose" position="right"/>
+			<speak chara="_Schrodinger">책임감을 어디에 둬야 할지 모르는 것——이것이 바로 지금 당신이 느끼는 긴장감의 근원이라는 것이에요.</speak>
+			<show chara="schroNoSwordSeriousClose" position="right"/>
+			<speak chara="_Schrodinger">당신은 시종일관 스스로를 외부인이라고 느껴왔다는 것이에요. 당신은 이곳 사람들의 간절한 기대를 저버릴까 두려워하고 있다는 것이에요.</speak>
+			<show chara="schroNoSwordSeriousClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressHateClose" position="left"/>
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaDressHateClose" position="left" opacity="0.8"/>
+			<show chara="schroNoSwordSmileClose" position="right"/>
+			<speak chara="_Schrodinger">리타 양에게 당신의 과거를 물어보았다는 것이에요. 당신은 누구보다도 앞서가고 있는 발키리라는 것이에요——</speak>
+			<show chara="schroNoSwordSeriousClose" position="right"/>
+			<speak chara="_Schrodinger">——하지만 당신이 느끼는 즐거움은 언제나 임무나 사건의 결과에서 얻었지, 과정 그 자체가 아니었단 것이에요.</speak>
+			<show chara="schroNoSwordTalkClose" position="right"/>
+			<speak chara="_Schrodinger">……이런 방식은 힘들 뿐이고, 불필요하다고 생각하는 것이에요.</speak>
+			<show chara="schroNoSwordTalkClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressHesitateClose" position="left"/>
+			<speak chara="_Bianka">그래도——</speak>
+			<show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+			<show chara="schroNoSwordTalkClose" position="right"/>
+			<speak chara="_Schrodinger">비앙카 양, 결과로만 본다면, 이 세상의 수많은 것들이 아무런 의미도 없게 된다는 것이에요. ……혹은, 적어도 그 의미가 희석되고 만다는 것이에요.</speak>
+			<show chara="schroNoSwordCalmClose" position="right"/>
+			<speak chara="_Schrodinger">태어난 것엔 무슨 의미가 있냐는 것이에요? 죽음엔 무슨 의미가 있냐는 것이에요? 자아엔 무슨 의미가 있냐는 것이에요? 인류, 세계, 우주 등을 구분해 봐야 무슨 의미가 있냐는 것이에요?</speak>
+			<show chara="schroNoSwordCalmClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressSighClose" position="left"/>
+			<speak chara="_Bianka">……이런 것들엔 아무런 의미도 없다는 말을 하고 싶으신 건가요.</speak>
+			<show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+			<show chara="schroNoSwordSmileClose" position="right"/>
+			<speak chara="_Schrodinger">아니란 것이에요. 이것들은 다 나름의 의미가 있다는 것이에요. 단지 결과론에는 속하지 않을 뿐이라는 것이에요.</speak>
+			<show chara="schroNoSwordSmileClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="left"/>
+			<speak chara="_Bianka">……</speak>
+			<show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+			<show chara="schroNoSwordTalkClose" position="right"/>
+			<speak chara="_Schrodinger">예를 들어, 당신, 비앙카·아타지나, 당신의 존재 의의는 바로 「당신 그 자체」라는 것이에요.</speak>
+			<show chara="schroNoSwordSmileClose" position="right"/>
+			<speak chara="_Schrodinger">발키리 선배들에게 있어서, 당신은 「두려울 정도로 빠르게 성장하는」 경외감을 주는 존재라는 것이에요.</speak>
+			<show chara="schroNoSwordCalmClose" position="right"/>
+			<speak chara="_Schrodinger">주교에게 있어서, 당신은 희기한 표본이라는 것이에요.</speak>
+			<show chara="schroNoSwordTalkClose" position="right"/>
+			<speak chara="_Schrodinger">이 거품 세계의 사람들에게 있어서, 당신은 의협심이 강한 초월자라는 것이에요.</speak>
+			<show chara="schroNoSwordSmileClose" position="right"/>
+			<speak chara="_Schrodinger">당신 자신에게 있어, 당신 스스로는, 「비앙카」라는 이름으로 처음부터 다시 써가는 인생이라는 것이에요.</speak>
+			<show chara="schroNoSwordTalkClose" position="right"/>
+			<speak chara="_Schrodinger">이것들은 모두 「결과」가 아니라는 것이에요. 「무」에서 시작해, 「무」로 사라지고 만다는 것이에요.</speak>
+			<show chara="schroNoSwordSmileClose" position="right"/>
+			<speak chara="_Schrodinger">비앙카 양, 이 거품 세계가 원하는 「구원」은 결과가 아니라, 하나의 과정이며, 하나의 악장이라는 것이에요.</speak>
+			<show chara="schroNoSwordSmileClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="left"/>
+			<speak chara="_Bianka">……악장?</speak>
+			<show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+			<show chara="schroNoSwordSmileClose" position="right"/>
+			<speak chara="_Schrodinger">그렇다는 것이에요. 일종의 「슈퍼 히어로」와 같은 정신적 지주, 모두의 마음속에 세워진 신전과도 같다는 것이에요.</speak>
+			<show chara="schroNoSwordTalkClose" position="right"/>
+			<speak chara="_Schrodinger">——마치 바그너나 리하르트·슈트라우스의 음악처럼.</speak>
+			<show chara="schroNoSwordSmileClose" position="right"/>
+			<speak chara="_Schrodinger">……다른 관점으로 보면, 시구레 키라 양의 아이돌 일과도 비슷하다는 것이에요.</speak>
+			<show chara="schroNoSwordTalkClose" position="right"/>
+			<speak chara="_Schrodinger">발키리여, 당신은 「세계라는 무대」에서 「세계적인 공연」을 완성시킬 능력을 가졌다는 것이에요——</speak>
+			<show chara="schroNoSwordCalmClose" position="right"/>
+			<speak chara="_Schrodinger">이건, 당신이 이 세계의 구성원인지 아닌지와는, 본질적으로 소립자 하나만큼의 관계도 없다는 것이에요.</speak>
+			<show chara="schroNoSwordTalkClose" position="right"/>
+			<speak chara="_Schrodinger">이해가 되었다는 것이에요? 바가바드・기타의 얘기처럼, 우리는 「운명」이라는 「감독」에게 선택된 「배우」들이란 것이에요——</speak>
+			<show chara="schroNoSwordSmileClose" position="right"/>
+			<speak chara="_Schrodinger">——그러니 무대에서 자신의 기량을 마음껏 발휘하는 것이에요! 우리 모두, 각자 스스로가 가장 잘할 수 있는 방식으로 해내면 된다는 것이에요!</speak>
+			<show chara="schroNoSwordSmileClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressScreamClose" position="left"/>
+			<speak chara="_Bianka">……저, 정말 그렇게나 간단한 거였어요?</speak>
+			<show chara="biankaDressScreamClose" position="left" opacity="0.8"/>
+			<show chara="schroNoSwordSmileClose" position="right"/>
+			<speak chara="_Schrodinger">이렇게 간단하다는 것이에요. 이른바 「운명의 각본」이란 것이에요.</speak>
+			<show chara="schroNoSwordCalmClose" position="right"/>
+			<speak chara="_Schrodinger">이곳으로 「천명의 발키리」가 온 적은 없었다는 것이에요. 그저 「마음속의 신전」 안에 있는 「예술가」나, 「무대 위」의 「아이돌」 같은 사람이 전부였다는 것이에요.</speak>
+			<show chara="schroNoSwordTalkClose" position="right"/>
+			<speak chara="_Schrodinger">기억해달라는 것이에요. 자기 자신으로서 존재하는 한, 당신은 완벽하다는 것이에요.</speak>
+			<show chara="schroNoSwordSmileClose" position="right"/>
+			<speak chara="_Schrodinger">게다가, 「자기 자신으로 존재한다」는 것이야말로 「감독의 기대」에 부합하는 최고의 방법이라는 것이에요——나름 이렇게 풀어봤는데, 이해할만했다는 것이에요?</speak>
+			<show chara="schroNoSwordSmileClose" position="right" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="left"/>
+			<speak chara="_Bianka">……！</speak>
+			<show chara="biankaDressSmileAhClose" position="left"/>
+			<speak chara="_Bianka">네! 말씀하신 거, 잘 이해했어요!</speak>
+			<show chara="biankaDressSneerClose" position="left"/>
+			<speak chara="_Bianka">뭐가 어떻든 매사에 용감하게 앞으로 나아가는 것이야말로, 제 진정한 스타일이 되겠네요!</speak>
+			<show chara="biankaDressSmileAhClose" position="left"/>
+			<speak chara="_Bianka">고마워요, 슈뢰딩거 박사님! 이제 좀 마음속이 명확해진 것 같아요!</speak>
+			<goto goto="80" change="#ffffff"/>
+		</scene>
+		<scene id="80" background="chileRiverMountain.jpg">
+			<bgm src="peerGynt.mp3" status="start"></bgm>
+			<text>1시간 후——</text>
+			<show chara="biankaDressSneerClose" position="left"/>
+			<speak chara="_Bianka">의장님! 빨간색 무사, 머리카락 하나 남김없이——그대로 데려왔어요!</speak>
+			<show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
+			<show chara="thorSmileClose" position="right"/>
+			<speak chara="_Thoreau">후후, 감사합니다, 발키리 양. 역시 당신들이라면 모두에게 있어 최고의 방법을 찾아낼 거라 생각했습니다.</speak>
+			<hide position="left"></hide>
+			<hide position="right"></hide>
+			<show chara="thorConfidentClose" position="left"/>
+			<speak chara="_Thoreau">……사나다, 고생이 많았어요.</speak>
+			<show chara="thorConfidentClose" position="left" opacity="0.8"/>
+			<show chara="yukimuraColdClose" position="right"/>
+			<speak chara="_Yukimura">「고생」은 무사로서, 그리고 사나다 가문으로서의 숙명입니다. 당치도 않은 말씀이십니다.</speak>
+			<show chara="yukimuraSmileClose" position="right"/>
+			<speak chara="_Yukimura">단, 말은 이렇게 하고 있지만…… 따뜻한 메밀 소바를 먹을 수 있다면 더할 나위 없이 좋겠네요.</speak>
+			<show chara="yukimuraSmileClose" position="right" opacity="0.8"/>
+			<show chara="thorSmileClose" position="left"/>
+			<speak chara="_Thoreau">소바는 좀 어려운데…… 바움쿠헨은 어떤가요?</speak>
+			<show chara="thorSmileClose" position="left" opacity="0.8"/>
+			<show chara="yukimuraTalkClose" position="right"/>
+			<speak chara="_Yukimura">네? 바움쿠헨요? 그렇게나 귀한걸요?</speak>
+			<show chara="yukimuraTalkClose" position="right" opacity="0.8"/>
+			<show chara="thorConfidentClose" position="left"/>
+			<speak chara="_Thoreau">물론 당신을 위해 특별히 준비한 거예요. 어때요? 입맛에 맞으려나요?</speak>
+			<show chara="thorConfidentClose" position="left" opacity="0.8"/>
+			<show chara="yukimuraSmileClose" position="right"/>
+			<speak chara="_Yukimura">하하, 문제없습니다. 무사는 죽기 전까지 자신의 식욕을 소홀히 해선 안된다고 하니——오래전 지부(治部)님으로부터의 가르침이죠.</speak>
+			<show chara="yukimuraTalkClose" position="right"/>
+			<speak chara="_Yukimura">아, 아마 제 과거에 대해서는 잘 모르시겠군요……</speak>
+			<show chara="yukimuraTalkClose" position="right" opacity="0.8"/>
+			<show chara="thorNormalClose" position="left"/>
+			<speak chara="_Thoreau">이시다 미츠나리 분을 말씀하시는 건가요?</speak>
+			<show chara="thorNormalClose" position="left" opacity="0.8"/>
+			<show chara="yukimuraTalkClose" position="right"/>
+			<speak chara="_Yukimura">예?</speak>
+			<show chara="yukimuraTalkClose" position="right" opacity="0.8"/>
+			<show chara="thorSighClose" position="left"/>
+			<speak chara="_Thoreau">후우, 자신의 명성에 자신을 좀 가지세요, 극동에서 가장 유명한 붉은 무사님.</speak>
+			<show chara="thorNormalClose" position="left"/>
+			<speak chara="_Thoreau">그럼 다시 본론으로 들어가죠, 비앙카 양——</speak>
+			<show chara="thorNormalClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressShockClose" position="right"/>
+			<speak chara="_Bianka">……네?</speak>
+			<show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+			<show chara="thorConfidentClose" position="left"/>
+			<speak chara="_Thoreau">여기 약속드린 두 개의 보석입니다. 부디 받아주시길.</speak>
+			<show chara="thorSmileClose" position="left"/>
+			<speak chara="_Thoreau">그럼, 그대들의 행동을 지켜본 아이돌 양은——</speak>
+			<show chara="ShigureKiraSunGlassesOffConfidentClose" position="left"/>
+			<speak chara="_ShigureKira">——나도 문제없어.</speak>
+			<show chara="ShigureKiraSunGlassesOffTalkingClose" position="left"/>
+			<speak chara="_ShigureKira">비앙카, 이간 사랑과 완벽한 아름다움을 대표하는 「아이돌의 결정」이야.</speak>
+			<show chara="ShigureKiraSunGlassesOffConfidentClose" position="left"/>
+			<speak chara="_ShigureKira">지금 정식으로 네게 빌려줄게.</speak>
+			<show chara="ShigureKiraSunGlassesOffConfidentClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressSmileAhClose" position="right"/>
+			<speak chara="_Bianka">……고마워요.</speak>
+			<show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
+			<show chara="durandalOutstretchOpen" position="left"/>
+			<speak chara="_SwordDurandalQ">그럼 여러분들——시간이 없어요. 이제 다 모은 거 맞죠?</speak>
+			<show chara="durandalOutstretchOpen" position="left" opacity="0.8"/>
+			<show chara="biankaDressSmileClose" position="right"/>
+			<speak chara="_Bianka">응, 일곱 개의 보석, 지금 전부 원래 주인에게 돌아왔어.</speak>
+			<show chara="shakesCasualLaughClose" position="right"/>
+			<speak chara="_Shakespeare">전설 속의 성검이여! 다시 한번 모두에게 그대의 진정한 모습을 보여 주시게!</speak>
+			<goto goto="90" change="#ffffff"/>
+		</scene>
+		<scene id="90" background="CG1.jpg">
+			<bgm src="11_22_Tiger.mp3" status="start"></bgm>
+			<show chara="memoryLoading" position="center" opacity="0.6"/>
+			<text>용맹함과 모험의 결의를 상징하는, 붉은색의 용기의 결정.</text>
+			<goto goto="100" change="0"/>
+		</scene>
+		<scene id="100" background="CG2-3.jpg">
+			<bgm src="11_22_Tiger.mp3" status="continue"></bgm>
+			<show chara="memoryLoading" position="center" opacity="0.6"/>
+			<text>신념과 탐험의 꿈을 상징하는, 등색의 직감의 결정.</text>
+			<goto goto="110" change="0"/>
+		</scene>
+		<scene id="110" background="CG4-3.jpg">
+			<bgm src="11_22_Tiger.mp3" status="continue"></bgm>
+			<show chara="memoryLoading" position="center" opacity="0.6"/>
+			<text>박애와 자아의 완벽한 아름다움을 상징하는, 황금색의 자유의 결정.</text>
+			<goto goto="120" change="0"/>
+		</scene>
+		<scene id="120" background="CG7-2.jpg">
+			<bgm src="11_22_Tiger.mp3" status="continue"></bgm>
+			<show chara="memoryLoading" position="center" opacity="0.6"/>
+			<text>선량함과 정의의 힘을 상징하는, 초록색의 윤리의 결정.</text>
+			<goto goto="130" change="0"/>
+		</scene>
+		<scene id="130" background="CG16-1-2.jpg">
+			<bgm src="11_22_Tiger.mp3" status="continue"></bgm>
+			<show chara="memoryLoading" position="center" opacity="0.6"/>
+			<text>활력과 생명의 끈기를 상징하는, 파란색의 번영의 결정.</text>
+			<goto goto="140" change="0"/>
+		</scene>
+		<scene id="140" background="CG21-1.jpg">
+			<bgm src="11_22_Tiger.mp3" status="continue"></bgm>
+			<show chara="memoryLoading" position="center" opacity="0.6"/>
+			<text>이성과 통찰의 지혜를 상징하는, 남색의 이성의 결정.</text>
+			<goto goto="150" change="0"/>
+		</scene>
+		<scene id="150" background="CG25-2.jpg">
+			<bgm src="11_22_Tiger.mp3" status="continue"></bgm>
+			<show chara="memoryLoading" position="center" opacity="0.6"/>
+			<text>고귀함과 만물의 통일성을 상징하는, 보라색의 지배의 결정.</text>
+			<goto goto="160" change="0"/>
+		</scene>
+		<scene id="160" background="CG27-2.jpg">
+			<bgm src="12_14_Hero.mp3" status="start"></bgm>
+			<text>「침묵하라! 우주의 귀결이여!」</text>
+			<text>「나는 시공 그 자체,」</text>
+			<text>「모든 것을 파괴하는 힘의 근원.」</text>
+			<text>「나의 책무는, 이 세계의 모든 것을 멸망시키는 것.」</text>
+			<goto goto="170" change="0"/>
+		</scene>
+		<scene id="170" background="CG27-3.jpg">
+			<bgm src="12_14_Hero.mp3" status="continue"></bgm>
+			<speak chara="_Bianka">너…… 원래 이렇게나 강력한 무기였어, 「란달」?</speak>
+			<speak chara="_HolySwordDurandal">그건 바로 제게 강력한 주인이 있기 때문이죠, 비앙카·아타지나 양.</speak>
+			<speak chara="_HolySwordDurandal">당신의 수중이라면, 저는 의심할 여지없이 거품 세계의 어느 곳이라도 파멸시킬 힘을 가지고 있어요.</speak>
+			<speak chara="_HolySwordDurandal">이걸 잘 알아두시길 바라요. 모든 무기의 기능은 파멸과 폭력을 위한 것——이 「성검」도 예외는 아니죠.</speak>
+			<speak chara="_Bianka">……알겠어.</speak>
+			<speak chara="_Bianka">오래전, 발키리 교육에서 배웠어. 폭력은 그 자체로 원죄이지만, 그와는 별개로 선악을 따지지는 않는다고.</speak>
+			<speak chara="_Bianka">……진정으로 선악을 나누는 건, 폭력의 동기와 그로 인한 결과라는걸.</speak>
+			<goto goto="180" change="0"/>
+		</scene>
+		<scene id="180" background="chileRiverMountain.jpg">
+			<bgm src="12_21_dannyBoy_p.mp3" status="start"></bgm>
+			<show chara="champoBlanketSmileClose" position="left"/>
+			<speak chara="_Champollion">공자 왈, 「오직 인자(仁者)만이 능히 사람을 좋아할 수 있고, 능히 사람을 싫어할 수 있다.」</speak>
+			<show chara="champoBlanketSmileClose" position="left"/>
+			<speak chara="_Champollion">「진심으로 인(仁)에 뜻을 둔다면, 악은 있을 수 없다.」</speak>
+			<show chara="champoBlanketNormalClose" position="left"/>
+			<speak chara="_Champollion">볼테르가 공자를 존경한 것도, 공자에게서 이상적인 「인류를 위한 입법자」의 모습이 보였기 때문이었죠.</speak>
+			<show chara="champoBlanketSmileClose" position="left"/>
+			<speak chara="_Champollion">그는, 공자의 「인」은 사람과 사회 사이의 도덕적인 조화를 상징하며, 인류에게 있어 진실된 선의와 자유를 대표하고 있다고, 여겼어요.</speak>
+			<show chara="champoBlanketSmileClose" position="left"/>
+			<speak chara="_Champollion">비앙카…… 지금의 당신은 「인의」의 힘을 대표하고 있어요. 볼테르가 당신을 봤다면, 분명 최고의 「발키리」라 칭찬했겠죠.</speak>
+			<show chara="champoBlanketSmileClose" position="left" opacity="0.8"/>
+			<show chara="biankaDressShyClose" position="right"/>
+			<speak chara="_Bianka">샹폴리옹 박사…… 가, 갑자기 너무 치켜세우진 말아주세요. 너무 쑥스러워요.</speak>
+			<speak chara="_Bianka">저…… 전 아직 한 게 거의 없는걸요.</speak>
+			<show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+			<show chara="champoBlanketLaughClose" position="left"/>
+			<speak chara="_Champollion">하하, 미안해요. 사실 조금 감정이 격해져서, 어쩌다 옛 시절의 허풍이 나와버렸네요.</speak>
+			<show chara="thorConfidentClose" position="left"/>
+			<speak chara="_Thoreau">「만물의 다스리는 자를 진심으로 믿을 수 있다면, 모든 만물을 먹을 수 있을 것이다.」</speak>
+			<show chara="thorSmileClose" position="left"/>
+			<speak chara="_Thoreau">태양도 그저 밝은 별 중 하나에 불과해요. 타인의 말에 너무 크게 신경 쓸 필요는 없어요.</speak>
+			<hide position="left"></hide>
+			<hide position="right"></hide>
+			<show chara="thorConfidentClose" position="center"/>
+			<speak chara="_Thoreau">지금 이 시각, 진정으로 중요한 사실은 단 하나에요.</speak>
+			<show chara="thorAngryClose" position="center"/>
+			<speak chara="_Thoreau">50년 만에——아니, 역사상 처음으로, 우리는 전략적으로 적을 소멸시킬 수 있는 힘을 얻었어요.</speak>
+			<show chara="thorNormalClose" position="center"/>
+			<speak chara="_Thoreau">——그러니, 더는 늦지 않도록, 지금 「파차쿠티 작전」의 구체적인 전술 계획을 발표하도록 하겠습니다.</speak>
+			<show chara="thorConfidentClose" position="center"/>
+			<speak chara="_Thoreau" remark="next">모두들, 「대지를 흔드는 자」의 이름으로, 이 세계의 대수술을 시작합시다!</speak>
 			<remark post="U2FsdGVkX19MJFfogqWmorFMiux7">
-				<p class="article-text-h">注釈：</p>
-				<p class="article-text">パチャクテク（Pachakutiq、「天地を翻すもの」、一般的に「世界を震撼させる者」と訳す）はインカ帝国の偉大なるサパ・インカ（皇帝）。「彼が王位につく前、インカ人は村々に質素な暮らしをしていた。彼が他界した頃、インカ人は拡張し続ける帝国を統治していた。」</p>
-			</remark>	
-	    <end post="U2FsdGVkX1+rrYOcUkuxFXqZbI1s"/>
-    </scene>
-  </story>
+				<p class="article-text-h">주역:</p>
+				<p class="article-text">파차쿠티(Pachakutiq, 직역 「천지를 뒤집은 자」, 통칭 「대지를 흔드는 자」)는 잉카 제국에서 가장 위대한 「사파·잉카」(「황제」에 해당됨)를 뜻한다. 「그가 왕좌에 오르기 전, 잉카는 그저 촌락 집단에 불과했다. 그리고 그가 이 세상을 떠났을 때, 잉카는 이미 확장주의의 대제국이 되어있었다.」</p>
+			</remark>
+			<end post="U2FsdGVkX1+rrYOcUkuxFXqZbI1s"/>
+		</scene>
+	</story>
 </data>
