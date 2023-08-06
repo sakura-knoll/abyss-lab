@@ -1,0 +1,520 @@
+id: "714"
+fullName: Herrscher of Rebirth
+shortName: Herrscher of Rebirth
+desc: "<color=white>Features: </color><color=#FF66CCFF>PSY-type</color> melee
+  battlesuit."
+firstName: Seele
+lastName: Vollerei
+enFirstName: null
+enLastName: null
+attributeType: psy
+isEasterner: false
+weapon: scythe
+character: seele
+initialStar: s
+tags:
+  - physical-dmg
+  - impair
+  - time-mastery
+  - gather
+skills:
+  - id: "871"
+    name: Strides of Cutting Blade
+    info: "Attack with a scythe or enchanted weapon.\\n<color=#23B2E3FF>Tap [ATK] to
+      initiate 4 consecutive attacks.\\nSoul Shaper form\\nSEQ 1: 20% x 3 ATK of
+      Physical DMG. Recovers 15 Herrscher Charge.\\nSEQ 2: 60% ATK of Physical
+      DMG. Recovers 15 Herrscher Charge.\\nSEQ 3: 35% x 3 ATK of Physical DMG.
+      Recovers 50 Herrscher Charge.\\nSEQ 4: 25% x 12 ATK of Physical DMG.
+      Recovers 60 Herrscher Charge.\\nLife Binder form\\nSEQ 1: 160% ATK of
+      Physical DMG. Recovers 10 Herrscher Charge.\\nSEQ 2: 20% x 8 ATK of
+      Physical DMG. Recovers 20 Herrscher Charge.\\nSEQ 3: 100% x 2 ATK of
+      Physical DMG. Recovers 30 Herrscher Charge.\\nSEQ 4: 300% ATK of Physical
+      DMG. Recovers 45 Herrscher Charge.</color>"
+    icon: Skill_Seele_C4_SL_871
+    skillType: basic
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8701"
+        name: Across Death Comes the Path to Life
+        info: "In Soul Shaper form, Joint Combo recovers #2[f1] SP on hit. After each
+          Ultimate cast, on the first hit of Joint Combo with Dewy Twilight in
+          effect, Dewy Twilight's duration will reset to 16s if less than 16s.
+          Triggering the reset restores #1[f1] bonus SP."
+        brief: In Soul Shaper form, Joint Combo recovers SP on hit. After each Ultimate
+          cast, on the first hit of Joint Combo with Dewy Twilight in effect,
+          Dewy Twilight's duration will reset to 16s if less than 16s.
+          Triggering the reset restores bonus SP.
+        icon: Skill_Nagative_Damage01
+        maxLv: 11
+        paramBase1: 10
+        paramBase2: 10
+        paramBase3: 0
+        paramAdd1: 0.5
+        paramAdd2: 1
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8702"
+        name: Overflow That Sunders Ruins
+        info: "In Soul Shaper form, triggering global Time Fracture restores #1[f1]
+          bonus SP. CD: 16s.\\nIn Life Binder form, each Ultimate cast makes it
+          deal #2[f1]% ATK of bonus Physical DMG. #3[f0] stacks max."
+        brief: In Soul Shaper form, triggering global Time Fracture restores bonus
+          SP.\nIn Life Binder form, each Ultimate cast makes it deal bonus
+          Physical DMG. 3 stacks max.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 8
+        paramBase2: 0.4
+        paramBase3: 3
+        paramAdd1: 0.7
+        paramAdd2: 0.04
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: sss
+      - id: "8703"
+        name: Dew Emerging From the Deep
+        info: "QTE: In Soul Shaper form, with Dewy Twilight in effect, triggered when a
+          teammate casts Ultimate and an enemy is knocked airborne or
+          Time-Slowed to fully restores Herrscher Charge and automatically
+          connects into Combo ATK.\\nIn Life Binder form, triggered when an
+          enemy is impaired or Time-Slowed to deal 4x #1[f1]% ATK of Physical
+          DMG. The attack has 50% bonus Crit Rate and triggers 1s of global Time
+          Fracture."
+        brief: "QTE: In Soul Shaper form, with Dewy Twilight in effect, triggered when a
+          teammate casts Ultimate and an enemy is knocked airborne or
+          Time-Slowed to fully restores Herrscher Charge and automatically
+          connects into Combo ATK.\\nIn Life Binder form, triggered when an
+          enemy is impaired or Time-Slowed to deal Physical DMG. The attack has
+          bonus Crit Rate and triggers 1s of global Time Fracture."
+        icon: Skill_Nagative_StartUp02
+        maxLv: 11
+        paramBase1: 1.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.125
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+  - id: "872"
+    name: "<color=#FFC741FF>Combo</color>: Drifting on the Sea"
+    info: "Combo ATK\\n<color=#23B2E4FF>With full Herrscher Charge, hold [ATK] to
+      consume all of it and cast Combo ATK:\\nIn Soul Shaper form, approaches
+      enemies while spinning the scythe to attack, dealing 200% x 2 ATK of
+      Physical DMG\\nIn Life Binder form, generates a planted area in the front
+      to gather and attack enemies in range, dealing 600% ATK of Physical
+      DMG.\\nDuring Combo ATK, tap [ATK] to cast Joint Combo:\\nIn Soul Shaper
+      form, sends spirit deer Diana rushing downward with power, and launches a
+      powerful slash dealing 600% + 1000% ATK of Physical DMG. The attack
+      triggers global Time Fracture for 2s.\\nIn Life Binder form, has flower
+      spirit Flora emerge from the ground to knock enemies in the air, and
+      conjures a giant scythe to slash enemies, dealing 500% + 1000% ATK of
+      Physical DMG.\\n\\nTap [Weapon] to cast weapon active:\\nIn Soul Shaper
+      form, deals 300% ATK of Physical DMG. CD: 18s (CDR cannot apply).\\nIn
+      Life Binder form, hurls the scythe to deal 10% x 6 + 50% + 150% x 2 ATK of
+      Physical DMG and has flower spirit Flora fly above the target to
+      repeatedly attack enemies in range, dealing 100% x 9 ATK of Physical DMG.
+      CD: 18s (CDR cannot apply).\\nDuring weapon active, tap [Weapon] to cast
+      Joint Weapon Skill:\\nIn Soul Shaper form, teleports to the first enemy
+      hit by weapon active, produces a guiding magic circle to gather nearby
+      enemies, and has spirit deer Diana dash around the magic circle for up to
+      4s, dealing 50% x 24 ATK of Physical DMG. When the duration is over or
+      [Weapon] is tapped again after at least 2s, the magic circle will expire
+      and explode immediately, dealing 900% + 200% x 3 ATK of Physical DMG.
+      During the cast, Herrscher of Rebirth can be switched out, and she'll
+      remain on the field to finish the attacks.\\nIn Life Binder form, extends
+      vines centered around flower spirit Flora and attack enemies in a circle
+      for up to 4s, dealing 60% x 46 ATK of Physical DMG and triggering 2s of
+      global Time Fracture. When the duration is over or [Weapon] is tapped
+      again after at least 2s, the circling attacks end immediately, and the
+      character slashes the enemies in the center, dealing 720% ATK of Physical
+      DMG.</color>"
+    icon: Skill_Seele_C4_SL_872
+    skillType: special
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8704"
+        name: Devotion That Puts an End to Flight
+        info: "In Soul Shaper form, when Joint Combo hits or when Joint Weapon Skill is
+          cast, team deals #3[f1]% bonus Total DMG for 16s. Triggering it again
+          resets the duration. The next character's entry resets the duration
+          (once only).\\nIn Life Binder form, when Joint Combo hits, the
+          character restores #1[f1] SP, and Joint Weapon Skill deals #2[f1]%
+          bonus Total DMG for 15s. CD: 12s."
+        brief: In Soul Shaper form, when Joint Combo hits or when Joint Weapon Skill is
+          cast, team deals bonus Total DMG for 16s. Triggering it again resets
+          the duration. The next character's entry resets the duration (once
+          only).\nIn Life Binder form, when Joint Combo hits, the character
+          restores SP, and Joint Weapon Skill deals bonus Total DMG for 15s.
+          This effect has CD.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 15
+        paramBase2: 0.2
+        paramBase3: 0.07
+        paramAdd1: 0
+        paramAdd2: 0.01
+        paramAdd3: 0.01
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8705"
+        name: Resolve That Waves Indecision Goodbye
+        info: "In Life Binder form, for every additional 0.5s of continuous attack
+          during Joint Weapon Skill, the finishing slash deals #1[f1]% ATK of
+          bonus Physical DMG."
+        brief: In Life Binder form, for every additional 0.5s of continuous attack
+          during Joint Weapon Skill, the finishing slash deals bonus Physical
+          DMG.
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 0.2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.02
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: ss
+      - id: "8706"
+        name: Beginning of the End of the Azure Sea
+        info: "In Soul Shaper form, when Joint Combo hits or when Joint Weapon Skill is
+          cast, enemies are impaired and their DEF drops by 50% for 16s.
+          Triggering it again resets the duration. With Dewy Twilight in effect,
+          Withering Fissure's DEF reduction increases to 75% for 16s. Triggering
+          it again resets the duration. The next character's entry resets the
+          duration (once only).\\nIn Life Binder form, if Joint Weapon Skill's
+          finishing slash hits, Combo ATK deals #1[f1]% bonus Physical DMG for
+          8s."
+        brief: In Soul Shaper form, when Joint Combo hits or when Joint Weapon Skill is
+          cast, enemies are impaired and their DEF drops by 50% for 16s.
+          Triggering it again resets the duration. With Dewy Twilight in effect,
+          Withering Fissure's DEF reduction increases to 75% for 16s. Triggering
+          it again resets the duration. The next character's entry resets the
+          duration (once only).\nIn Life Binder form, if Joint Weapon Skill's
+          finishing slash hits, Combo ATK deals bonus Physical DMG for 8s.
+        icon: Skill_Nagative_Skill03
+        maxLv: 11
+        paramBase1: 0.25
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "873"
+    name: Still Pinions Ready to Take Flight
+    info: "Quickly dodge attacks up to 2 times in a row.\\n<color=#23B2E5FF>In Soul
+      Shaper form, Ultimate Evasion restores 20 Herrscher Charge.\\nIn Life
+      Binder, triggering Ultimate Evasion Skill restores 50 Herrscher Charge and
+      can be connected into Basic ATK SEQ 4 by tapping [ATK].\\nUltimate Evasion
+      Skill:\\nTriggers 3s of global Time Fracture and restores 500 HP. CD:
+      15s.</color>"
+    icon: Skill_Seele_C4_SL_873
+    skillType: evasion
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8707"
+        name: Moment of Eternity
+        info: In Soul Shaper form, normal evasions can also trigger Ultimate Evasion
+          Skill.
+        brief: In Soul Shaper form, normal evasions can also trigger Ultimate Evasion
+          Skill.
+        icon: Skill_Nagative_Skill01
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "8708"
+        name: Fleeting Existence
+        info: "Team members deal 1 bonus DMG to fixed-DMG shields against enemies
+          Impaired by the character, and additional 2 DMG against enemies with
+          Withering Fissure. CD: 0.25s."
+        brief: Team members deal 1 bonus DMG to fixed-DMG shields against enemies
+          Impaired by the character, and additional 2 DMG against enemies with
+          Withering Fissure.
+        icon: Skill_Nagative_Damage02
+        maxLv: 1
+        paramBase1: 0
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8709"
+        name: After Death Comes Rebirth
+        info: "In Soul Shaper form, Ultimate Evasion Skill can be connected into Basic
+          ATK SEQ 3 by tapping [ATK], and for the next 6s, each hit of Basic ATK
+          SEQ 3 restores #1[f1] SP for Seele (up to 3 times)."
+        brief: In Soul Shaper form, Ultimate Evasion Skill can be connected into Basic
+          ATK SEQ 3 by tapping [ATK], and for the next 6s, each hit of Basic ATK
+          SEQ 3 restores SP for Seele (up to 3 times).
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 2
+        paramBase2: 0
+        paramBase3: 0
+        paramAdd1: 1
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "874"
+    name: Rebirth at Shadowy Dawn
+    info: "Ultimate Skill\\n<color=#23B2E6FF>Hold [ULT] to cast Ultimate, during
+      which Time-frozen Domain is triggered, and all skill timers and the stage
+      timer are paused.\\nSoul Shaper form: Drags enemies into the enchanted
+      weapon and inflicts Dewy Twilight effect, which reveals Withering Fissure,
+      continuously impairs enemies, and reduces their DEF by 50%. The team deals
+      10% more Physical DMG against enemies with Withering Fissure. During Dewy
+      Twilight, the Herrscher of Rebirth's weapon skill and Combo ATK have a 50%
+      higher Crit rate and deals 100% more Physical DMG. Dewy Twilight effect
+      lasts 30s originally, and is not affected by the character's exit.\\nIf
+      the weapon skill is off CD when casting Ultimate, she casts weapon skill
+      to make it enter CD. Tapping [Weapon] at this moment triggers Joint Weapon
+      Skill and 1s of global Time Fracture.\\nActivation cost: 175 SP. CD:
+      25s.\\nLife Binder form: Launches a fierce attack dealing 100% x 5 + 1200%
+      ATK of Physical DMG and revealing Withering Fissure on hit. The character
+      gains a 40% Crit Rate against enemies with Withering Fissure. Withering
+      Fissure lasts 15s and expires when the character exits.\\nActivation cost:
+      75 SP. CD: 18s.</color>"
+    icon: Skill_Seele_C4_SL_874
+    skillType: ultimate
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8710"
+        name: Everlasting Blossom
+        info: "Herrscher of Rebirth restores #1[f1] SP every time an enemy with
+          Withering Fissure is attacked for up to #2[f0] times. CD: 0.5s.
+          Casting Ultimate resets the count."
+        brief: Herrscher of Rebirth restores SP every time an enemy with Withering
+          Fissure is attacked.
+        icon: Skill_Nagative_Skill02
+        maxLv: 11
+        paramBase1: 1
+        paramBase2: 5
+        paramBase3: 0
+        paramAdd1: 0.15
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8711"
+        name: Morning Ballad That Dispels Sorrow
+        info: "Enemies with Withering Fissure take #2[f1]% bonus Physical DMG from the
+          character (independent). Each Combo ATK on hit increases Physical DMG
+          taken by enemies by #1[f1]% for 16s (independent; refreshable), and
+          enemies with Withering Fissure always suffer from the effect."
+        brief: Enemies with Withering Fissure take bonus Physical DMG from the character
+          (independent). Each Combo ATK on hit increases Physical DMG taken by
+          enemies for 16s (independent; refreshable), and enemies with Withering
+          Fissure always suffer from the effect.
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.15
+        paramBase2: 0.01
+        paramBase3: 0
+        paramAdd1: 0
+        paramAdd2: 0.004
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8712"
+        name: Dawning Light That Strides Across the Dark
+        info: "Butterfly That Delivers Life: With 100% Crit Rate and against enemies
+          with Withering Fissure, each hit deals #1[f1]% bonus Crit DMG. Every
+          1% Crit Rate above 100% grants #2[f1]% Crit DMG for up to 60%. With
+          Crit Rate lower than 100%, every 2% of Crit DMG (up to 50%) is
+          converted to 1% of Crit Rate until Crit Rate reaches 100%."
+        brief: "Butterfly That Delivers Life: With 100% Crit Rate and against enemies
+          with Withering Fissure, each hit deals bonus Crit DMG. Every 1% Crit
+          Rate above 100% grants bonus Crit DMG. With Crit Rate lower than 100%,
+          Crit DMG is converted to Crit Rate until Crit Rate reaches 100%."
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.02
+        paramBase2: 0.02
+        paramBase3: 0
+        paramAdd1: 0.006
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "875"
+    name: After Withering Comes Bloom
+    info: "Leader Bonus:\\n<color=#23B2E7FF>Leader Skill: {{Increases team max HP by
+      #1[f1]%, and increases Physical DMG by #2[f1]%. For every Physical DMG
+      dealer on the team, the character gains 5% bonus max HP and deals 5% bonus
+      Physical DMG.}}</color>"
+    icon: Skill_Seele_C4_SL_875
+    skillType: leader
+    tags: []
+    paramSubId1: 8713
+    paramSubId2: 8713
+    paramSubId3: 0
+    subSkills:
+      - id: "8713"
+        name: Fresh Buds From Flowers Fallen
+        info: "Every team member's max HP increases by #1[f1]%, and they deal #2[f1]%
+          bonus Physical DMG. For every Physical DMG dealer on the team, the
+          character gains 5% bonus max HP and deals 5% bonus Physical DMG."
+        brief: Every team member's max HP increases, and they deal bonus Physical DMG.
+          For every Physical DMG dealer on the team, the character gains bonus
+          max HP and deals bonus Physical DMG.
+        icon: Skill_Nagative_Skill02
+        maxLv: 3
+        paramBase1: 0.05
+        paramBase2: 0.1
+        paramBase3: 0
+        paramAdd1: 0.025
+        paramAdd2: 0.05
+        paramAdd3: 0
+        tags: []
+        toggle: false
+        unlockStar: s
+  - id: "876"
+    name: Separated But United
+    info: "Passive Skill\\n<color=#23B2E8FF>The character stays in Herrscher Form
+      with Herrscher Charge that starts at 0 and caps at 100.\\nAvailable in
+      Soul Shaper and Life Binder forms with different summoned entity as
+      company. Character's max SP limit is 50. Tap [ULT] to switch between
+      them.\\nThe character starts in Soul Shaper form, and form switch clears
+      buffs and summoned entities, resets Weapon Skill CD, and summons
+      correspondent summoned entity.\\nIn battle, summoned entity launches a
+      random form of three base attacks.\\nSoul Shaper form - spirit deer
+      Diana:\\nAttack 1: Roars to deal 2% x 10 ATK of Physical DMG to nearby
+      enemies.\\nAttack 2: Knocks enemies upwards twice with antlers to deal 30%
+      x 2 ATK of Physical DMG.\\nAttack 3: Sweeps with hind legs to deal 70% ATK
+      of Physical DMG.\\nLife Binder form - flower spirit Flora:\\nAttack 1:
+      Attacks with magic to deal 30% x 2 ATK of Physical DMG.\\nAttack 2:
+      Produces spikes from the target's location to deal 60% ATK of Physical
+      DMG.\\nAttack 3: Produces a fruit at the target's location, which bursts
+      to deal 90% ATK of Physical DMG.\\nDMG dealt by summoned entities comes
+      from the character and benefits from buffs for summoned entities. Effects
+      affecting both the character and summoned entities cannot stack. Summoned
+      entities expire upon the character's exit. After the character hits an
+      enemy, summoned entity enters battle mode for 5s, during which it
+      automatically tracks enemies down. Triggering it again refreshes its
+      duration.</color>"
+    icon: Skill_Seele_C4_SL_876
+    skillType: passive
+    tags: []
+    paramSubId1: 0
+    paramSubId2: 0
+    paramSubId3: 0
+    subSkills:
+      - id: "8714"
+        name: Joined Hands in the Abyss
+        info: "When spirit deer Diana or flower spirit Flora is present, the character
+          takes 30% less DMG and deals 35% bonus Total DMG. When she triggers
+          global Time Fracture in Soul Shaper form, teammates restore #1[f1] SP
+          and #2[f1] HP. CD: 16s. Triggering global Time Fracture for the first
+          time restores #3[f1] bonus SP for the character."
+        brief: When spirit deer Diana or flower spirit Flora is present, the character
+          takes less DMG and deals bonus Total DMG. When she triggers global
+          Time Fracture in Soul Shaper form, teammates restore SP and HP.
+          Triggering global Time Fracture for the first time restores bonus SP
+          for the character.
+        icon: Skill_Nagative_Skill01
+        maxLv: 4
+        paramBase1: 15
+        paramBase2: 500
+        paramBase3: 15
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 15
+        tags: []
+        toggle: false
+        unlockStar: s
+      - id: "8715"
+        name: Saha's World, Inseparable
+        info: "The character starts in Soul Shaper form. When starting in Soul Shaper
+          form, her SP cap increases by #2[f1]. Teammates also benefit from
+          Butterfly That Delivers Life when attacking enemies with Withering
+          Fissure, but the convertible Crit Rate caps at #1[f1]% instead.
+          Meanwhile, when the character triggers global Time Fracture, her SP is
+          restored to #3[f1] if lower than #3[f1]. CD: 25s."
+        brief: "The character starts in Soul Shaper form. When starting in Soul Shaper
+          form, her SP cap increases. Teammates also benefit from Butterfly That
+          Delivers Life when attacking enemies with Withering Fissure, but the
+          convertible Crit Rate cap changes. Meanwhile, when the character
+          triggers global Time Fracture, her SP is restored to 100 if lower than
+          100. CD: 25s."
+        icon: Skill_Nagative_Damage03
+        maxLv: 11
+        paramBase1: 0.1
+        paramBase2: 125
+        paramBase3: 100
+        paramAdd1: 0.01
+        paramAdd2: 0
+        paramAdd3: 0
+        tags: []
+        toggle: true
+        unlockStar: s
+      - id: "8716"
+        name: Shared Rebirth
+        info: "When starting in Life Binder form, the character has #1[f1] more max HP.
+          In Life Binder form, she deals bonus Total DMG to MECH-type enemies.
+          Every 10 max HP above 3000 increases Total DMG taken by all enemies by
+          1%, which caps at #3[f1]%. In Life Binder form, every time she kills
+          an enemy with Withering Fissure using non-Ultimate attacks, she enters
+          Abyssal Born state (CD: 16s), which resets Ultimate CD and reduces the
+          cost of the next Ultimate cast to 0. The current Ultimate cast has a
+          8s CD. Abyssal Born is removed upon exit.\\nKilling an enemy with
+          Withering Fissure leaves a Budding Flower on the field, which blooms
+          after 2s to deal 200% ATK of Physical DMG and inflict a 16s-long
+          Withering Fissure on enemies hit."
+        brief: "When starting in Life Binder form, the character has higher max HP. In
+          Life Binder form, she deals bonus Total DMG to MECH-type enemies.
+          Every 10 max HP above 3000 increases Total DMG taken by all enemies by
+          1%, which has a cap. In Life Binder form, every time she kills an
+          enemy with Withering Fissure using non-Ultimate attacks, she enters
+          Abyssal Born state (CD: 16s), which resets Ultimate CD and reduces the
+          cost of the next Ultimate cast to 0. The current Ultimate cast has a
+          8s CD. Abyssal Born is removed upon exit.\\nKilling an enemy with
+          Withering Fissure leaves a Budding Flower on the field, which blooms
+          after 2s to deal 200% ATK of Physical DMG and inflict Withering
+          Fissure on enemies hit."
+        icon: Skill_Nagative_Damage02
+        maxLv: 11
+        paramBase1: 1200
+        paramBase2: 0.01
+        paramBase3: 0.35
+        paramAdd1: 0
+        paramAdd2: 0
+        paramAdd3: 0.01
+        tags: []
+        toggle: false
+        unlockStar: s

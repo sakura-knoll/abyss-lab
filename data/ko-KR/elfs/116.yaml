@@ -1,0 +1,279 @@
+id: "116"
+fullName: 중장 토끼
+icon: Elf_16
+cardIcon: Elf_10016
+chibiIcon: Elf_10016
+figureImage: Elf_10016
+rarity: 4
+cardId: 380116
+fragmentId: 370116
+storyDesc: 무장 인형 본인의 말에 따르면, 그녀는 이성과 힘을 모두 갖춘 기계 생명체이자 이치 스튜디오의 진정한 심장이면서
+  소울이다——물론 브로냐에게는 비밀이다!
+ultSkillCd: 45
+ultSkillCost: 75
+skillBg: TalentBg16
+tags:
+  - type: physical-dmg
+    comment: null
+  - type: gather
+    comment: null
+captainSkillIds:
+  - "17003"
+  - "170032"
+  - "170033"
+skills:
+  - id: "17001"
+    elfId: "116"
+    name: 엘리트 직원
+    info: "인형은 두 가지 기본 공격을 사용한다:\\n기본 공격1: 대포로 에너지탄을 발사해 공격력
+      <color=#ff9900>#1[f1]%</color>의 물리 대미지를 가한다.\\n기본 공격2: 당근 미사일을 4개 발사해 공격력
+      <color=#ff9900>#2[f1]%</color>*4의 물리 대미지를 가한다.\\n전투 진입 후 인형이 매초 SP를
+      <color=#ff9900>#3[f1]</color>pt 회복한다."
+    skillType: 기본 공격
+    skillTypeId: "1"
+    icon: Skill_Elf_Attack_116
+    row: 1
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 12
+    paramBase2: 3
+    paramBase3: 1.6
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "17002"
+    elfId: "116"
+    name: 최강 전력
+    info: 인형이 지정 목표를 조준하고, 넓은 범위의 적을 목표 위치로 끌어당긴다. 1초 후 하늘에서 떨어진 인형이 거대한 당근 폭탄으로 목표를
+      내리찍어 공격력 <color=#ff9900>#1[f1]%</color>의 물리 대미지를 가하고, 동시에 파티원이 받는 다음 공격의
+      대미지를 막아낸다. 대미지를 성공적으로 막아낼 경우 발키리는 <color=#ff9900>#2[f1]초</color> 동안 어떠한
+      대미지를 받지 않는다. 인형이 필살기 발동 시 대기 상태 캐릭터의 교대 재사용 대기시간이 8초 감소한다. 인형의 초기 SP가
+      <color=#ff9900>#3[f1]pt</color> 증가한다.
+    skillType: 필살기
+    skillTypeId: "0"
+    icon: Skill_Elf_Ultra_116
+    row: 2
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 35
+    paramBase2: 0.3
+    paramBase3: 10
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "17003"
+    elfId: "116"
+    name: 만능 조수
+    info: <color=#23b2e2>[파티 발동]</color> 리더가 물리 대미지 특성의 발키리일 경우 인형이 가하는 물리 대미지가
+      <color=#ff9900>#1[f1]%</color> 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Team_UP
+    row: 3
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.3
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "17004"
+    elfId: "116"
+    name: 천재 파트너
+    info: "파티 내 캐릭터가 QTE 대미지를 가하거나 무기 스킬 발동 시 인형은 동시에 연계 공격으로 부유포 8개를 생성해 공격력
+      <color=#ff9900>#1[f1]%*16</color>의 물리 대미지를 가하고, SP를
+      <color=#ff9900>#2[f1]</color>pt 회복한다. 재사용 대기시간: 7초"
+    skillType: 연계 공격
+    skillTypeId: "3"
+    icon: Skill_Elf_Talent_Force
+    row: 4
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 1
+    paramBase2: 8
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "170011"
+    elfId: "116"
+    name: 상시 대기
+    info: 인형의 모든 대미지가 <color=#ff9900>#1[f1]%</color> 증가하고, 초기 SP가
+      <color=#ff9900>#2[f1]</color>pt 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Initial_UP
+    row: 1
+    col: 2
+    unlockStar: 4
+    maxLv: 2
+    paramBase1: 0.2
+    paramBase2: 40
+    paramBase3: 0
+    paramAdd1: 0.2
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "170012"
+    elfId: "116"
+    name: 효율 지상주의
+    info: "[화력 전개] 효과로 인형 필살기의 모든 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다."
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 1
+    col: 3
+    unlockStar: 7
+    maxLv: 3
+    paramBase1: 0.2
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.1
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "170021"
+    elfId: "116"
+    name: 집중 포격
+    info: "인형 필살기 발동 시 전장의 적이 받는 물리 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다. 지속 시간:
+      20초, 중복 발동 시 지속 시간을 갱신한다."
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Passive
+    row: 2
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 0.06
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.015
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "170022"
+    elfId: "116"
+    name: 풀파워
+    info: "[화력 전개] 효과로 인형의 필살기는 반드시 크리티컬이 발동하며, 크리티컬 대미지가
+      <color=#ff9900>#1[f1]%</color> 증가한다."
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_CD_Down
+    row: 2
+    col: 3
+    unlockStar: 4
+    maxLv: 3
+    paramBase1: 0.2
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.05
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "170023"
+    elfId: "116"
+    name: 방어선 돌파
+    info: 인형 필살기가 추가로 공격력 <color=#ff9900>#1[f1]%</color>의 물리 대미지를 가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 2
+    col: 4
+    unlockStar: 7
+    maxLv: 3
+    paramBase1: 15
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 5
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "170031"
+    elfId: "116"
+    name: 일상생활은 나에게 맡겨
+    info: 인형의 필살기 재사용 대기시간이 <color=#ff9900>#1[f1]%</color> 감소한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_CD_Down
+    row: 3
+    col: 2
+    unlockStar: 2
+    maxLv: 3
+    paramBase1: 0.1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.1
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "170032"
+    elfId: "116"
+    name: 모험의 동료는 바로 나
+    info: <color=#23b2e2>[파티 발동]</color> 파티원 중 물리 대미지 특성의 발키리가 1명 있을 때마다 인형의 연계 공격이
+      추가로 공격력 <color=#ff9900>#1[f1]%</color>의 물리 대미지를 가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 3
+    col: 3
+    unlockStar: 2
+    maxLv: 3
+    paramBase1: 0.15
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.075
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "170033"
+    elfId: "116"
+    name: 바다든 달이든 오케이
+    info: <color=#23b2e2>[파티 발동]</color> 파티원 중 물리 대미지 특성의 발키리가 1명 있을 때마다 파티원의 물리
+      대미지가 <color=#ff9900>#1[f1]%</color> 증가한다.
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 3
+    col: 4
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.0075
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.001875
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "170041"
+    elfId: "116"
+    name: 멀티 코어 재구축
+    info: "인형이 연계 공격 발동 시 파티원과 인형에게 [화력 전개] 효과를 부여한다. [화력 전개] 효과를 보유한 캐릭터와 인형이 가하는
+      물리 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다. 지속 시간: 23초, 중복 발동 시 지속 시간을
+      갱신한다."
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 4
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 0.035
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.005
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "170042"
+    elfId: "116"
+    name: 진리의 세컨드 브레인
+    info: "[화력 전개] 효과로 캐릭터와 인형의 모든 대미지가 <color=#ff9900>#1[f1]%</color> 증가한다."
+    skillType: 패시브
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 4
+    col: 3
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.03
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0075
+    paramAdd2: 0
+    paramAdd3: 0

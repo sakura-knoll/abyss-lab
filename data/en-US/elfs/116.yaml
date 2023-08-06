@@ -1,0 +1,291 @@
+id: "116"
+fullName: Project Bunny
+icon: Elf_16
+cardIcon: Elf_10016
+chibiIcon: Elf_10016
+figureImage: Elf_10016
+rarity: 4
+cardId: 380116
+fragmentId: 370116
+storyDesc: According to the ELF, she is a mechanical life equipped with
+  rationality and power, the heart and soul of Studio Reason... Of course, don't
+  tell Bronya this!
+ultSkillCd: 45
+ultSkillCost: 75
+skillBg: TalentBg16
+tags:
+  - type: physical-dmg
+    comment: null
+  - type: gather
+    comment: null
+captainSkillIds:
+  - "17003"
+  - "170032"
+  - "170033"
+skills:
+  - id: "17001"
+    elfId: "116"
+    name: Elite Employee
+    info: "ELF has two Basic ATKs:\\nBasic ATK 1: Fires 1 energy bullet from the
+      cannon it sits on, dealing <color=#ff9900>#1[f1]%</color> ATK of Physical
+      DMG.\\nBasic ATK 2: Launches 4 carrot missiles, dealing 4 x
+      <color=#ff9900>#2[f1]%</color> ATK of Physical DMG.\\nELF recovers
+      <color=#ff9900>#3[f1]</color> SP per second after entering battle."
+    skillType: Basic
+    skillTypeId: "1"
+    icon: Skill_Elf_Attack_116
+    row: 1
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 12
+    paramBase2: 3
+    paramBase3: 1.6
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "17002"
+    elfId: "116"
+    name: Max Combat Power
+    info: ELF targets the chosen enemy and pulls enemies in a large area to the
+      target location. 1s later, ELF descends from the sky and smashes the
+      target with a giant carrot bomb, causing a huge explosion. The attack
+      deals <color=#ff9900>#1[f1]%</color> ATK of Physical DMG and blocks the
+      next hit for team members. A successful block grants the character hit
+      immunity to any DMG for <color=#ff9900>#2[f1]</color>s. Casting ELF's
+      Ultimate reduces the switch CD by 8s. ElF has
+      <color=#ff9900>#3[f1]</color> more initial SP.
+    skillType: Ultimate
+    skillTypeId: "0"
+    icon: Skill_Elf_Ultra_116
+    row: 2
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 35
+    paramBase2: 0.3
+    paramBase3: 10
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "17003"
+    elfId: "116"
+    name: Universal Helper
+    info: <color=#23b2e2>[Lineup]</color> When the team leader is a Physical DMG
+      dealer, ELF deals <color=#ff9900>#1[f1]%</color> bonus Physical DMG.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Team_UP
+    row: 3
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 0.3
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "17004"
+    elfId: "116"
+    name: Genius Partner
+    info: "When any team member deals DMG with QTE or casts weapon active, ELF casts
+      Joint ATK in sync, generating 8 hover guns to deal <color=#ff9900>16 x
+      #1[f1]%</color> ATK of Physical DMG and restore
+      <color=#ff9900>#2[f1]</color> SP. CD: 7s."
+    skillType: Team
+    skillTypeId: "3"
+    icon: Skill_Elf_Talent_Force
+    row: 4
+    col: 1
+    unlockStar: 1
+    maxLv: 1
+    paramBase1: 1
+    paramBase2: 8
+    paramBase3: 0
+    paramAdd1: 0
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "170011"
+    elfId: "116"
+    name: Always on Standby
+    info: ELF deals <color=#ff9900>#1[f1]%</color> bonus Total DMG and has
+      <color=#ff9900>#2[f1]</color> bonus initial SP.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Initial_UP
+    row: 1
+    col: 2
+    unlockStar: 4
+    maxLv: 2
+    paramBase1: 0.2
+    paramBase2: 40
+    paramBase3: 0
+    paramAdd1: 0.2
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "170012"
+    elfId: "116"
+    name: Efficiency First
+    info: All Out increases Total DMG dealt by ELF's Ultimate by
+      <color=#ff9900>#1[f1]%</color>.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 1
+    col: 3
+    unlockStar: 7
+    maxLv: 3
+    paramBase1: 0.2
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.1
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "170021"
+    elfId: "116"
+    name: Concentrated Firepower
+    info: After unleashing ELF's Ultimate, all enemies take
+      <color=#ff9900>#1[f1]%</color> bonus Physical DMG for 20s. Retriggering
+      refreshes duration.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Passive
+    row: 2
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 0.06
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.015
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "170022"
+    elfId: "116"
+    name: Full Capacity
+    info: All Out guarantees ELF's Ultimate to Crit, and increases Crit DMG by
+      <color=#ff9900>#1[f1]%</color>.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_CD_Down
+    row: 2
+    col: 3
+    unlockStar: 4
+    maxLv: 3
+    paramBase1: 0.2
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.05
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "170023"
+    elfId: "116"
+    name: Breaching Defense
+    info: ELF's Ultimate deals <color=#ff9900>#1[f1]%</color> ATK of bonus Physical
+      DMG.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 2
+    col: 4
+    unlockStar: 7
+    maxLv: 3
+    paramBase1: 15
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 5
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "170031"
+    elfId: "116"
+    name: Babysitter at Home
+    info: ELF's Ultimate CD is shortened by <color=#ff9900>#1[f1]%</color>.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_CD_Down
+    row: 3
+    col: 2
+    unlockStar: 2
+    maxLv: 3
+    paramBase1: 0.1
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.1
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "170032"
+    elfId: "116"
+    name: Vanguard in Battle
+    info: <color=#23b2e2>[Lineup]</color> For every Physical DMG dealer on the team,
+      ELF's Joint ATK deals <color=#ff9900>#1[f1]%</color> ATK of bonus Physical
+      DMG.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 3
+    col: 3
+    unlockStar: 2
+    maxLv: 3
+    paramBase1: 0.15
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.075
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "170033"
+    elfId: "116"
+    name: Freer Than a Bird
+    info: <color=#23b2e2>[Lineup]</color> For every Physical DMG dealer on the team,
+      all team members deal <color=#ff9900>#1[f1]%</color> bonus Physical DMG.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 3
+    col: 4
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.0075
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.001875
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "170041"
+    elfId: "116"
+    name: Restructured Multi-core
+    info: When ELF casts Joint ATK, she applies the effect All Out to all team
+      members and herself. Those affected by All Out deal
+      <color=#ff9900>#1[f1]%</color> bonus Physical DMG for 23s. Retriggering
+      refreshes duration.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_SP_Up
+    row: 4
+    col: 2
+    unlockStar: 2
+    maxLv: 5
+    paramBase1: 0.035
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.005
+    paramAdd2: 0
+    paramAdd3: 0
+  - id: "170042"
+    elfId: "116"
+    name: Reason's 2nd Brain
+    info: All Out increases Total DMG dealt by characters and ELF by
+      <color=#ff9900>#1[f1]%</color>.
+    skillType: Passive
+    skillTypeId: "2"
+    icon: Skill_Elf_Talent_Attack
+    row: 4
+    col: 3
+    unlockStar: 4
+    maxLv: 5
+    paramBase1: 0.03
+    paramBase2: 0
+    paramBase3: 0
+    paramAdd1: 0.0075
+    paramAdd2: 0
+    paramAdd3: 0
