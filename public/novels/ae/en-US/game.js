@@ -1,4 +1,4 @@
-var base_url = 'https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy'
+var base_url = 'https://act-webstatic.mihoyo.com/event_bh3_com/avg-anti-entropy'
 base_url = resPath
 var now_galgame_tag = '_2017_anti_entropy_now_galgame'
 var now_scene_tag = '_2017_anti_entropy_now_scene'
