@@ -1,4 +1,4 @@
-var base_url = 'https://webstatic.bh3.com/event_bh3_com/avg-anti-entropy'
+var base_url = 'https://act-webstatic.mihoyo.com/event_bh3_com/avg-anti-entropy'
 base_url = resPath
 var now_galgame_tag = '_2017_anti_entropy_now_galgame'
 var now_scene_tag = '_2017_anti_entropy_now_scene'
@@ -74,9 +74,7 @@ function tryAudio(pauseOrPlay, indexOrInner, countNumber) {
 //------------------------------------------------------
 $(function () {
   loadExistXmlFile('date_url', function () {
-    date_url = xml_files_all_in_this['date_url']
-      .getElementsByTagName('log')[0]
-      .getAttribute('lastDate')
+    date_url = xml_files_all_in_this['date_url'].getElementsByTagName('log')[0].getAttribute('lastDate')
   })
   preLoadUiImages('ui', uiImageList)
   $('#all').on('selectstart', function () {
@@ -120,14 +118,9 @@ $('.galgame-content').click(function () {
   if (listenScene != null && listenAction != null) {
     if (listenLoading != 1) nextAction(listenScene, listenAction) //进行下一步
     else Action(listenScene, listenAction, listenLoading) //调回状态
-  } else if (
-    listenScene == null &&
-    listenAction == null &&
-    listenLoading != null
-  ) {
+  } else if (listenScene == null && listenAction == null && listenLoading != null) {
     if (listenLoading >= 0) {
-      if (autoSpeed == 'typing')
-        dialogAutoplay('stop') //自动播放的打字，优先关闭自动播放
+      if (autoSpeed == 'typing') dialogAutoplay('stop') //自动播放的打字，优先关闭自动播放
       else str_index_in_autotype = listenLoading //打字机状态调整
     } else if (listenLoading == -1) dialogAutoplay('stop') //处理自动播放变化
     else if (listenLoading == -2) $('.dialog-overflow').stop(true, true) //立即结束滚屏动画
@@ -159,9 +152,7 @@ $.fn.autotype_text = function (gotoScene, gotoAction) {
       str_index_in_autotype++
       $pThis.html(str.substring(0, str_index_in_autotype)) //当前显示的文本长度
 
-      if (
-        $('.dialog-overflow')[0].scrollHeight > $('.dialog-overflow').height()
-      ) {
+      if ($('.dialog-overflow')[0].scrollHeight > $('.dialog-overflow').height()) {
         //超出内容一次性显示完毕
         $pThis.html(str)
         str_index_in_autotype = str.length
@@ -281,9 +272,7 @@ function getdialogAutoplaySpeed() {
       if (!checkTextScroll()) overflowTime = textTime
       else
         overflowTime = parseInt(
-          ((baseTime() * $('.dialog-overflow').height()) /
-            parseInt($('.dialog-text').css('line-height'))) *
-            2.5
+          ((baseTime() * $('.dialog-overflow').height()) / parseInt($('.dialog-text').css('line-height'))) * 2.5
         )
     }
     if (textTime <= overflowTime) {
@@ -379,12 +368,9 @@ function cgPage(page, flag) {
           'background-image',
           "url('" + base_url + '/resources/cg/' + getText(cgListSort[i]) + "')"
         )
-        $('#cg-' + (j - page * 4)).click(
-          { str: getText(cgListSort[i]) },
-          function (e) {
-            showCgOrigin(e.data.str)
-          }
-        )
+        $('#cg-' + (j - page * 4)).click({ str: getText(cgListSort[i]) }, function (e) {
+          showCgOrigin(e.data.str)
+        })
         $('#cg-' + (j - page * 4)).show()
       } else if (j >= (page + 1) * 4) {
         break
@@ -409,18 +395,11 @@ function cgPage(page, flag) {
         if (j >= page * 4 && j < (page + 1) * 4) {
           $('#cg-' + (j - page * 4)).css(
             'background-image',
-            "url('" +
-              base_url +
-              '/resources/cg/' +
-              getText(cgListSort[i]) +
-              "')"
+            "url('" + base_url + '/resources/cg/' + getText(cgListSort[i]) + "')"
           )
-          $('#cg-' + (j - page * 4)).click(
-            { str: getText(cgListSort[i]) },
-            function (e) {
-              showCgOrigin(e.data.str)
-            }
-          )
+          $('#cg-' + (j - page * 4)).click({ str: getText(cgListSort[i]) }, function (e) {
+            showCgOrigin(e.data.str)
+          })
           $('#cg-' + (j - page * 4)).show()
         } else if (j >= (page + 1) * 4) {
           break
@@ -495,9 +474,7 @@ function generate_all_characterData(name) {
     newCharacter['id'] = characterList[j].getAttribute('id')
     if (!characterData[newCharacter['id']]) {
       characterData[newCharacter['id']] = newCharacter
-    } else if (
-      characterData[newCharacter['id']]['name'] != newCharacter['name']
-    ) {
+    } else if (characterData[newCharacter['id']]['name'] != newCharacter['name']) {
       console.log(
         'id-' +
           newCharacter['id'] +
@@ -508,9 +485,7 @@ function generate_all_characterData(name) {
           '; in line ' +
           j
       )
-    } else if (
-      characterData[newCharacter['id']]['color'] != newCharacter['color']
-    ) {
+    } else if (characterData[newCharacter['id']]['color'] != newCharacter['color']) {
       console.log(
         'id-' +
           newCharacter['id'] +
@@ -521,9 +496,7 @@ function generate_all_characterData(name) {
           '; in line ' +
           j
       )
-    } else if (
-      characterData[newCharacter['id']]['src'] != newCharacter['src']
-    ) {
+    } else if (characterData[newCharacter['id']]['src'] != newCharacter['src']) {
       console.log(
         'id-' +
           newCharacter['id'] +
@@ -612,7 +585,7 @@ function checkTextScroll() {
     }
     return {
       scrollTop: scrollTop1,
-      textLenth: (baseTime() / 5) * ((scrollTop1 - scrollTop0) / lineHeight),
+      textLenth: (baseTime() / 5) * ((scrollTop1 - scrollTop0) / lineHeight)
     }
   } else if (scrollTop0 + showHeight < scrollHeight0 - lineHeight / 5) {
     return { scrollTop: scrollTop1, textLenth: baseTime() / 20 } //误差累积的情形
@@ -639,8 +612,7 @@ function Action(gotoScene, gotoAction, skipKey, loadKey2) {
         {
           duration: checkTextScroll_answer.textLenth,
           start: function () {
-            if (autoSpeed == 'auto' || autoSpeed == 'typing')
-              dialogAutoplayAutoStop('autotype')
+            if (autoSpeed == 'auto' || autoSpeed == 'typing') dialogAutoplayAutoStop('autotype')
           },
           step: function () {
             if (autoSpeed == 'stop') {
@@ -662,7 +634,7 @@ function Action(gotoScene, gotoAction, skipKey, loadKey2) {
               setListens(gotoScene, lastEventNode)
               //console.log("set: " + lastEventNode);
             }
-          },
+          }
         }
       )
       return
@@ -685,10 +657,7 @@ function Action(gotoScene, gotoAction, skipKey, loadKey2) {
     ClearCharas()
     ClearDialog()
     if (thisScene.getAttribute('background')) {
-      if (
-        thisScene.getAttribute('background') == 'black' ||
-        thisScene.getAttribute('background') == 'white'
-      ) {
+      if (thisScene.getAttribute('background') == 'black' || thisScene.getAttribute('background') == 'white') {
         $('.background').css('background', thisScene.getAttribute('background'))
       } else {
         var size = '100%'
@@ -699,11 +668,7 @@ function Action(gotoScene, gotoAction, skipKey, loadKey2) {
           .removeAttr('background')
           .css(
             'background',
-            "url('" +
-              base_url +
-              '/resources/background/' +
-              thisScene.getAttribute('background') +
-              "') no-repeat"
+            "url('" + base_url + '/resources/background/' + thisScene.getAttribute('background') + "') no-repeat"
           ) //附加属性 white去除 否则会一瞬间跳白
           .css('background-size', size + ' ' + size)
           .css('background-position', 'center')
@@ -748,14 +713,7 @@ function processAction(act, gotoScene, gotoAction, skipKey, loadKey2) {
       }
       if (act.getAttribute('bg') != null) {
         $('.cgBackground')
-          .css(
-            'background',
-            "url('" +
-              base_url +
-              '/resources/background/' +
-              act.getAttribute('bg') +
-              "') no-repeat"
-          )
+          .css('background', "url('" + base_url + '/resources/background/' + act.getAttribute('bg') + "') no-repeat")
           .css('background-size', 'auto 100%')
           .css('background-position', 'center')
           .fadeIn(fadeInTimeCG)
@@ -764,14 +722,7 @@ function processAction(act, gotoScene, gotoAction, skipKey, loadKey2) {
       }
       $('.cg')
         .unbind()
-        .css(
-          'background',
-          "url('" +
-            base_url +
-            '/resources/cg/' +
-            act.getAttribute('src') +
-            "') no-repeat"
-        )
+        .css('background', "url('" + base_url + '/resources/cg/' + act.getAttribute('src') + "') no-repeat")
         .css('background-size', 'auto 100%')
         .css('background-position', 'center')
         .fadeIn(fadeInTimeCG)
@@ -808,22 +759,10 @@ function processAction(act, gotoScene, gotoAction, skipKey, loadKey2) {
 
       $('.screen')
         .css('background-color', color)
-        .css(
-          'animation',
-          'screenblink ' + time + 'ms linear 0s infinite forwards'
-        )
-        .css(
-          '-moz-animation',
-          'screenblink ' + time + 'ms linear 0s infinite forwards'
-        )
-        .css(
-          '-webkit-animation',
-          'screenblink ' + time + 'ms linear 0s infinite forwards'
-        )
-        .css(
-          '-o-animation',
-          'screenblink ' + time + 'ms linear 0s infinite forwards'
-        )
+        .css('animation', 'screenblink ' + time + 'ms linear 0s infinite forwards')
+        .css('-moz-animation', 'screenblink ' + time + 'ms linear 0s infinite forwards')
+        .css('-webkit-animation', 'screenblink ' + time + 'ms linear 0s infinite forwards')
+        .css('-o-animation', 'screenblink ' + time + 'ms linear 0s infinite forwards')
         .show()
 
       setTimeout(function () {
@@ -840,10 +779,7 @@ function processAction(act, gotoScene, gotoAction, skipKey, loadKey2) {
         return
       }
       var time = Number(act.getAttribute('time'))
-      var id =
-        act.getAttribute('position') == 'all'
-          ? 'all'
-          : 'character-' + act.getAttribute('position')
+      var id = act.getAttribute('position') == 'all' ? 'all' : 'character-' + act.getAttribute('position')
       var className = act.getAttribute('type') || 'shake'
       $('#' + id).addClass(className)
       setTimeout(function () {
@@ -873,15 +809,11 @@ function processAction(act, gotoScene, gotoAction, skipKey, loadKey2) {
           thisTextTemp = act.innerHTML
         } else {
           $('.dialog').removeClass('dialog_article')
-          $('.dialog-overflow')
-            .removeClass('dialog-overflow_article')
-            .removeClass('dialog-overflow_article_center')
+          $('.dialog-overflow').removeClass('dialog-overflow_article').removeClass('dialog-overflow_article_center')
         }
       } else {
         $('.dialog').removeClass('dialog_article')
-        $('.dialog-overflow')
-          .removeClass('dialog-overflow_article')
-          .removeClass('dialog-overflow_article_center')
+        $('.dialog-overflow').removeClass('dialog-overflow_article').removeClass('dialog-overflow_article_center')
       }
       if (thisTextTemp == null) thisTextTemp = getText(act)
       tempAttribute = act.getAttribute('remark')
@@ -903,9 +835,7 @@ function processAction(act, gotoScene, gotoAction, skipKey, loadKey2) {
       ClearDialog() //清除临时加载的格式
       post_achievement_in_event(act)
       $('.dialog').removeClass('dialog_article')
-      $('.dialog-overflow')
-        .removeClass('dialog-overflow_article')
-        .removeClass('dialog-overflow_article_center')
+      $('.dialog-overflow').removeClass('dialog-overflow_article').removeClass('dialog-overflow_article_center')
       $('.dialog-chara').show()
       var chara = act.getAttribute('chara')
       var textColour = characterData[chara]['color']
@@ -940,13 +870,13 @@ function processAction(act, gotoScene, gotoAction, skipKey, loadKey2) {
               choices.push({
                 text: getText(choiceList[i]),
                 continueScene: gotoScene,
-                continueAction: gotoAction,
+                continueAction: gotoAction
               }) //选择肢无影响
             } else {
               choices.push({
                 text: getText(choiceList[i]),
                 goto: choiceList[i].getAttribute('goto'),
-                change: choiceList[i].getAttribute('change'),
+                change: choiceList[i].getAttribute('change')
               })
             }
           }
@@ -970,11 +900,7 @@ function processAction(act, gotoScene, gotoAction, skipKey, loadKey2) {
       if (chara) {
         if (characterData[chara]) {
           var url =
-            "url('" +
-            base_url +
-            '/resources/chara/' +
-            characterData[chara]['src'] +
-            "') 50% 50% /auto 100%  no-repeat"
+            "url('" + base_url + '/resources/chara/' + characterData[chara]['src'] + "') 50% 50% /auto 100%  no-repeat"
           var positionLeft = []
           positionLeft['mostleft'] = '-50'
           positionLeft['left'] = '-25'
@@ -1051,10 +977,7 @@ function processAction(act, gotoScene, gotoAction, skipKey, loadKey2) {
         return
       }
       var sound = $('#sound')[0]
-      $('#sound').attr(
-        'src',
-        base_url + '/resources/sound/' + act.getAttribute('src')
-      )
+      $('#sound').attr('src', base_url + '/resources/sound/' + act.getAttribute('src'))
       if (!isNaN(sound.duration)) sound.currentTime = 0
       sound.play()
 
@@ -1065,18 +988,12 @@ function processAction(act, gotoScene, gotoAction, skipKey, loadKey2) {
       lastEventNode = gotoAction
       var bgm = $('#bgm')[0]
       if (act.getAttribute('status') == 'start') {
-        $('#bgm').attr(
-          'src',
-          base_url + '/resources/sound/' + act.getAttribute('src')
-        )
+        $('#bgm').attr('src', base_url + '/resources/sound/' + act.getAttribute('src'))
         if (!isNaN(bgm.duration)) bgm.currentTime = 0
         bgm.play()
       } else if (act.getAttribute('status') == 'continue') {
         if (bgm.paused) {
-          $('#bgm').attr(
-            'src',
-            base_url + '/resources/sound/' + act.getAttribute('src')
-          )
+          $('#bgm').attr('src', base_url + '/resources/sound/' + act.getAttribute('src'))
           if (!isNaN(bgm.duration)) bgm.currentTime = 0
           bgm.play()
         }
@@ -1113,10 +1030,7 @@ function thanksWords() {
   // }
   $('#confirm_1')
     .html(`<div class="submit-center ${tl_css_lang}"></div>`)
-    .css(
-      'background',
-      "url('" + base_url + "/resources/ui/thanks.png') no-repeat"
-    )
+    .css('background', "url('" + base_url + "/resources/ui/thanks.png') no-repeat")
     .css('background-size', 'auto 100%')
     .css('background-position', 'center')
   $('.submit-center').click(function () {
@@ -1129,17 +1043,8 @@ function thanksWords() {
 
 function nextChapterBox() {
   $('#confirm_1')
-    .html(
-      `<div class="submit-center ${tl_css_lang}" onclick="CloseConfirmDialog()"></div>`
-    )
-    .css(
-      'background',
-      "url('" +
-        base_url +
-        '/resources/catalog/' +
-        date_url +
-        "nextChapter.png') no-repeat"
-    )
+    .html(`<div class="submit-center ${tl_css_lang}" onclick="CloseConfirmDialog()"></div>`)
+    .css('background', "url('" + base_url + '/resources/catalog/' + date_url + "nextChapter.png') no-repeat")
     .css('background-size', 'auto 100%')
     .css('background-position', 'center')
   $('#confirm').fadeIn()
@@ -1150,21 +1055,13 @@ function gotoA(sceneKey, change, skipKey) {
   var changeTime = 1000
   if (change != null) {
     changeColour = change
-    if (
-      change.indexOf('none') >= 0 ||
-      change.indexOf('None') >= 0 ||
-      change.indexOf('NONE') >= 0 ||
-      change == '0'
-    ) {
+    if (change.indexOf('none') >= 0 || change.indexOf('None') >= 0 || change.indexOf('NONE') >= 0 || change == '0') {
       changeColour = null
     }
   }
   if (changeColour) dialogAutoplay('stop') //强制终止自动播放
   $('.white').removeClass().addClass('white').hide() //容错
-  $('.background')
-    .css('transition-duration', '0ms')
-    .css('transform', 'scale(1,1)')
-    .css('transform-origin', 'center')
+  $('.background').css('transition-duration', '0ms').css('transform', 'scale(1,1)').css('transform-origin', 'center')
   if (changeColour) {
     setListens() //单击暂时无响应
     $('.white')
@@ -1195,22 +1092,10 @@ function nextAction(nowScene, nowAction, nowKey) {
   }, 1)
 }
 
-function RefreshDialog(
-  dialog_text,
-  gotoScene,
-  gotoAction,
-  typeLoad,
-  textColour
-) {
+function RefreshDialog(dialog_text, gotoScene, gotoAction, typeLoad, textColour) {
   $('.dialog-text').html(dialog_text)
   $('div.article-pic').css('background-image', function (n, v) {
-    return (
-      "url('" +
-      base_url +
-      '/resources/background/' +
-      $('div.article-pic')[n].getAttribute('picsrc') +
-      "')"
-    )
+    return "url('" + base_url + '/resources/background/' + $('div.article-pic')[n].getAttribute('picsrc') + "')"
   })
   if (checkTextScroll() == null) {
     $('.dialog-overflow_article').addClass('dialog-overflow_article_center') //居中
@@ -1242,7 +1127,7 @@ function ShowDialog(mode, content) {
             {
               c1: content[i]['continueScene'],
               c2: content[i]['continueAction'],
-              c3: i,
+              c3: i
             },
             function (e) {
               historyChoiceList[e.data.c2] = e.data.c3 // 记录非转场选择
@@ -1258,14 +1143,11 @@ function ShowDialog(mode, content) {
           choiceHtml = $('<li></li>')
             .text(content[i]['text'])
             .addClass('choice radius shadow')
-            .click(
-              { g: content[i]['goto'], c: content[i]['change'] },
-              function (e) {
-                gotoA(e.data.g, e.data.c)
-                $('.choice_list').hide()
-                $('.choice_list').html('')
-              }
-            )
+            .click({ g: content[i]['goto'], c: content[i]['change'] }, function (e) {
+              gotoA(e.data.g, e.data.c)
+              $('.choice_list').hide()
+              $('.choice_list').html('')
+            })
 
           $('.choice_list ul').append(choiceHtml)
         } else {
@@ -1289,30 +1171,12 @@ function ShowDialog(mode, content) {
 }
 
 function ClearCharas() {
-  $('.character-back')
-    .css('transition-duration', '')
-    .css('transform', '')
-    .html('')
-  $('.character-mostleft')
-    .css('transition-duration', '')
-    .css('transform', '')
-    .html('')
-  $('.character-left')
-    .css('transition-duration', '')
-    .css('transform', '')
-    .html('')
-  $('.character-mostright')
-    .css('transition-duration', '')
-    .css('transform', '')
-    .html('')
-  $('.character-right')
-    .css('transition-duration', '')
-    .css('transform', '')
-    .html('')
-  $('.character-center')
-    .css('transition-duration', '')
-    .css('transform', '')
-    .html('')
+  $('.character-back').css('transition-duration', '').css('transform', '').html('')
+  $('.character-mostleft').css('transition-duration', '').css('transform', '').html('')
+  $('.character-left').css('transition-duration', '').css('transform', '').html('')
+  $('.character-mostright').css('transition-duration', '').css('transform', '').html('')
+  $('.character-right').css('transition-duration', '').css('transform', '').html('')
+  $('.character-center').css('transition-duration', '').css('transform', '').html('')
   $('.dialog-chara-text').html('')
 }
 
@@ -1403,8 +1267,7 @@ function startGame(galgameKey, loadKey) {
   startLoad()
   //catalogListTemp 和 catalogListLength都是全局变量，注意
   var xmlDoc = loadExistXmlFile('catalog_list', function () {
-    catalogListTemp =
-      xml_files_all_in_this['catalog_list'].getElementsByTagName('log')
+    catalogListTemp = xml_files_all_in_this['catalog_list'].getElementsByTagName('log')
     catalogListLength = catalogListTemp.length
     LoadFinish()
     startGame(galgameKey, loadKey)
@@ -1529,10 +1392,7 @@ function preLoadImagesBegin(imageList) {
     var thisScene = sceneList[i] //场景列表在流程上已被读取
     var thisBgFileName = thisScene.getAttribute('background')
     if (thisBgFileName.length) {
-      if (
-        $.inArray(thisBgFileName, bgInSceneList) < 0 &&
-        $.inArray('.', thisBgFileName) > 0
-      ) {
+      if ($.inArray(thisBgFileName, bgInSceneList) < 0 && $.inArray('.', thisBgFileName) > 0) {
         bgInSceneList.push(thisBgFileName)
       }
     }
@@ -1588,14 +1448,8 @@ function preLoadImagesBegin(imageList) {
     else if (imageList[i].getAttribute('type') == 'cg') continue
     else if (imageList[i].getAttribute('type') == 'background') continue
     var $tempImage = $('<img></img>')
-    var tempSrc =
-      base_url +
-      '/resources/' +
-      imageList[i].getAttribute('type') +
-      '/' +
-      imageList[i].getAttribute('src')
-    if (imageList[i].getAttribute('type') == 'www')
-      tempSrc = imageList[i].getAttribute('src')
+    var tempSrc = base_url + '/resources/' + imageList[i].getAttribute('type') + '/' + imageList[i].getAttribute('src')
+    if (imageList[i].getAttribute('type') == 'www') tempSrc = imageList[i].getAttribute('src')
     $tempImage
       .attr('src', tempSrc)
       .addClass('preload-image')
@@ -1727,10 +1581,7 @@ function add_record() {
   $('#confirm_1').html(
     '<div class="cancel" onclick="CloseConfirmDialog()"></div><div class="submit" onclick="add_record_submit()"></div>'
   )
-  $('#confirm_1').css(
-    'background',
-    "url('/novels/ae/en-US/quicksave.png') no-repeat"
-  )
+  $('#confirm_1').css('background', "url('/novels/ae/en-US/quicksave.png') no-repeat")
   $('#confirm_1').css('background-size', 'auto 100%')
   $('#confirm_1').css('background-position', 'center')
   $('#confirm').fadeIn()
@@ -1741,10 +1592,7 @@ function get_record() {
   $('#confirm_1').html(
     '<div class="cancel" onclick="CloseConfirmDialog()"></div><div class="submit" onclick="get_record_submit()"></div>'
   )
-  $('#confirm_1').css(
-    'background',
-    "url('/novels/ae/en-US/quickload.png') no-repeat"
-  )
+  $('#confirm_1').css('background', "url('/novels/ae/en-US/quickload.png') no-repeat")
   $('#confirm_1').css('background-size', 'auto 100%')
   $('#confirm_1').css('background-position', 'center')
   $('#confirm').fadeIn()
@@ -1792,10 +1640,7 @@ function get_record_submit() {
 }
 
 function showCgOrigin(str) {
-  $('.showCgOrigin').css(
-    'background-image',
-    "url('" + base_url + '/resources/cg/' + str + "')"
-  )
+  $('.showCgOrigin').css('background-image', "url('" + base_url + '/resources/cg/' + str + "')")
   $('.showCgOrigin').fadeIn()
 }
 
@@ -1813,16 +1658,7 @@ function browserRedirect() {
   var bIsAndroid = sUserAgent.match(/android/i) == 'android'
   var bIsCE = sUserAgent.match(/windows ce/i) == 'windows ce'
   var bIsWM = sUserAgent.match(/windows mobile/i) == 'windows mobile'
-  if (
-    bIsIpad ||
-    bIsIphoneOs ||
-    bIsMidp ||
-    bIsUc7 ||
-    bIsUc ||
-    bIsAndroid ||
-    bIsCE ||
-    bIsWM
-  ) {
+  if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
     return 'phone'
   } else {
     return 'pc'
@@ -1846,20 +1682,14 @@ function check_size() {
   }
   winHeight = parseInt(winHeight)
   //通过深入Document内部对body进行检测，获取窗口大小
-  if (
-    document.documentElement &&
-    document.documentElement.clientHeight &&
-    document.documentElement.clientWidth
-  ) {
+  if (document.documentElement && document.documentElement.clientHeight && document.documentElement.clientWidth) {
     winHeight = document.documentElement.clientHeight
     winWidth = document.documentElement.clientWidth
   }
   $('html').css(
     'font-size',
     $(window).width() / $(window).height() > 16 / 9
-      ? ($(window).height() / ((9 / 16) * $(window).width())) *
-          (($(window).width() / 736) * 16.1) +
-          'px'
+      ? ($(window).height() / ((9 / 16) * $(window).width())) * (($(window).width() / 736) * 16.1) + 'px'
       : ($(window).width() / 736) * 16.1 + 'px'
   )
   $('.bottom').css('display', 'none')
@@ -1882,13 +1712,7 @@ function check_size() {
 }
 
 // CUSTOM: requests XML from user-configurable xmlPath, if it fails, it'll fall back to main VN repo
-function get_xml_ajax_async(
-  xmlName,
-  callBack,
-  fileType,
-  xmlFileURL,
-  first = true
-) {
+function get_xml_ajax_async(xmlName, callBack, fileType, xmlFileURL, first = true) {
   if (!xmlFileURL) {
     if (fileType) {
       xmlFileURL = xmlPath + xmlName + '.' + fileType
@@ -1906,16 +1730,11 @@ function get_xml_ajax_async(
     },
     error: function (XMLHttpRequest, textStatus, errorThrown) {
       if (first) {
-        get_xml_ajax_async(
-          xmlName,
-          callBack,
-          fileType,
-          xmlFileURL.replace(xmlPath, xmlPathDef)
-        )
+        get_xml_ajax_async(xmlName, callBack, fileType, xmlFileURL.replace(xmlPath, xmlPathDef))
       } else {
         callBack()
       }
-    },
+    }
   })
 }
 var loading_xml_files = new Array()
@@ -1986,8 +1805,7 @@ function catalogPageNew(page, flag) {
     page = catalogPageIndex
   }
   var xmlDoc = loadExistXmlFile('catalog_list', function () {
-    catalogListTemp =
-      xml_files_all_in_this['catalog_list'].getElementsByTagName('log')
+    catalogListTemp = xml_files_all_in_this['catalog_list'].getElementsByTagName('log')
     catalogListLength = catalogListTemp.length
     catalogPageNew(page, flag)
   })
@@ -2014,20 +1832,12 @@ function catalogPageNew(page, flag) {
         flag_background = false
         $('.catalog-wrapper-new').css(
           'background-image',
-          "url('" +
-            base_url +
-            '/resources/background/' +
-            catalogListSort[i].getAttribute('picOne') +
-            ".jpg')"
+          "url('" + base_url + '/resources/background/' + catalogListSort[i].getAttribute('picOne') + ".jpg')"
         )
       }
       $('#catalog-chap-' + (j - page * 2)).css(
         'background-image',
-        "url('" +
-          base_url +
-          '/resources/catalog/t' +
-          getText(catalogListSort[i]) +
-          ".png')"
+        "url('" + base_url + '/resources/catalog/t' + getText(catalogListSort[i]) + ".png')"
       )
       $('#catalog-content-' + (j - page * 2))
         .removeClass('catalog-content-1A')
@@ -2049,9 +1859,7 @@ function catalogPageNew(page, flag) {
         .removeClass('catalog-label_3_off')
         .unbind()
       $('#article-frame-' + (j - page * 2)).html(
-        '<p style="color:#ffffff;text-align:left;">' +
-          catalogListSort[i].getAttribute('quotationOne') +
-          '</p>'
+        '<p style="color:#ffffff;text-align:left;">' + catalogListSort[i].getAttribute('quotationOne') + '</p>'
       )
       if (!catalogListSort[i].getAttribute('partThree')) {
         if (!catalogListSort[i].getAttribute('partTwo')) {
@@ -2062,16 +1870,14 @@ function catalogPageNew(page, flag) {
             .click(
               {
                 str: catalogListSort[i].getAttribute('id'),
-                sce: catalogListSort[i].getAttribute('partOne'),
+                sce: catalogListSort[i].getAttribute('partOne')
               },
               function (ee) {
                 startGame(ee.data.str, { S: ee.data.sce, A: 0 })
               }
             )
         } else {
-          $('#catalog-content-' + (j - page * 2)).addClass(
-            'catalog-content-2Ab'
-          )
+          $('#catalog-content-' + (j - page * 2)).addClass('catalog-content-2Ab')
           $('#catalog-label_1-' + (j - page * 2))
             .addClass('catalog-label_1_on')
             .click(
@@ -2082,21 +1888,15 @@ function catalogPageNew(page, flag) {
                 sc1: catalogListSort[i].getAttribute('partOne'),
                 sc2: catalogListSort[i].getAttribute('partTwo'),
                 sc3: catalogListSort[i].getAttribute('partThree'),
-                pos: j - page * 2,
+                pos: j - page * 2
               },
               function (e) {
                 $('.catalog-wrapper-new').css(
                   'background-image',
-                  "url('" +
-                    base_url +
-                    '/resources/background/' +
-                    e.data.pic +
-                    ".jpg')"
+                  "url('" + base_url + '/resources/background/' + e.data.pic + ".jpg')"
                 )
                 $('#article-frame-' + e.data.pos).html(
-                  '<p style="color:#ffffff;text-align:left;">' +
-                    e.data.quo +
-                    '</p>'
+                  '<p style="color:#ffffff;text-align:left;">' + e.data.quo + '</p>'
                 )
                 $('#catalog-content-' + e.data.pos)
                   .removeClass('catalog-content-2Ba')
@@ -2121,21 +1921,15 @@ function catalogPageNew(page, flag) {
                 sc1: catalogListSort[i].getAttribute('partOne'),
                 sc2: catalogListSort[i].getAttribute('partTwo'),
                 sc3: catalogListSort[i].getAttribute('partThree'),
-                pos: j - page * 2,
+                pos: j - page * 2
               },
               function (e) {
                 $('.catalog-wrapper-new').css(
                   'background-image',
-                  "url('" +
-                    base_url +
-                    '/resources/background/' +
-                    e.data.pic +
-                    ".jpg')"
+                  "url('" + base_url + '/resources/background/' + e.data.pic + ".jpg')"
                 )
                 $('#article-frame-' + e.data.pos).html(
-                  '<p style="color:#ffffff;text-align:left;">' +
-                    e.data.quo +
-                    '</p>'
+                  '<p style="color:#ffffff;text-align:left;">' + e.data.quo + '</p>'
                 )
                 $('#catalog-content-' + e.data.pos)
                   .removeClass('catalog-content-2Ab')
@@ -2155,7 +1949,7 @@ function catalogPageNew(page, flag) {
             .click(
               {
                 str: catalogListSort[i].getAttribute('id'),
-                sce: catalogListSort[i].getAttribute('partOne'),
+                sce: catalogListSort[i].getAttribute('partOne')
               },
               function (ee) {
                 startGame(ee.data.str, { S: ee.data.sce, A: 0 })
@@ -2174,22 +1968,14 @@ function catalogPageNew(page, flag) {
               sc1: catalogListSort[i].getAttribute('partOne'),
               sc2: catalogListSort[i].getAttribute('partTwo'),
               sc3: catalogListSort[i].getAttribute('partThree'),
-              pos: j - page * 2,
+              pos: j - page * 2
             },
             function (e) {
               $('.catalog-wrapper-new').css(
                 'background-image',
-                "url('" +
-                  base_url +
-                  '/resources/background/' +
-                  e.data.pic +
-                  ".jpg')"
+                "url('" + base_url + '/resources/background/' + e.data.pic + ".jpg')"
               )
-              $('#article-frame-' + e.data.pos).html(
-                '<p style="color:#ffffff;text-align:left;">' +
-                  e.data.quo +
-                  '</p>'
-              )
+              $('#article-frame-' + e.data.pos).html('<p style="color:#ffffff;text-align:left;">' + e.data.quo + '</p>')
               $('#catalog-content-' + e.data.pos)
                 .removeClass('catalog-content-3Bac')
                 .removeClass('catalog-content-3Cab')
@@ -2214,22 +2000,14 @@ function catalogPageNew(page, flag) {
               sc1: catalogListSort[i].getAttribute('partOne'),
               sc2: catalogListSort[i].getAttribute('partTwo'),
               sc3: catalogListSort[i].getAttribute('partThree'),
-              pos: j - page * 2,
+              pos: j - page * 2
             },
             function (e) {
               $('.catalog-wrapper-new').css(
                 'background-image',
-                "url('" +
-                  base_url +
-                  '/resources/background/' +
-                  e.data.pic +
-                  ".jpg')"
+                "url('" + base_url + '/resources/background/' + e.data.pic + ".jpg')"
               )
-              $('#article-frame-' + e.data.pos).html(
-                '<p style="color:#ffffff;text-align:left;">' +
-                  e.data.quo +
-                  '</p>'
-              )
+              $('#article-frame-' + e.data.pos).html('<p style="color:#ffffff;text-align:left;">' + e.data.quo + '</p>')
               $('#catalog-content-' + e.data.pos)
                 .removeClass('catalog-content-3Abc')
                 .removeClass('catalog-content-3Cab')
@@ -2254,22 +2032,14 @@ function catalogPageNew(page, flag) {
               sc1: catalogListSort[i].getAttribute('partOne'),
               sc2: catalogListSort[i].getAttribute('partTwo'),
               sc3: catalogListSort[i].getAttribute('partThree'),
-              pos: j - page * 2,
+              pos: j - page * 2
             },
             function (e) {
               $('.catalog-wrapper-new').css(
                 'background-image',
-                "url('" +
-                  base_url +
-                  '/resources/background/' +
-                  e.data.pic +
-                  ".jpg')"
+                "url('" + base_url + '/resources/background/' + e.data.pic + ".jpg')"
               )
-              $('#article-frame-' + e.data.pos).html(
-                '<p style="color:#ffffff;text-align:left;">' +
-                  e.data.quo +
-                  '</p>'
-              )
+              $('#article-frame-' + e.data.pos).html('<p style="color:#ffffff;text-align:left;">' + e.data.quo + '</p>')
               $('#catalog-content-' + e.data.pos)
                 .removeClass('catalog-content-3Abc')
                 .removeClass('catalog-content-3Bac')
@@ -2289,7 +2059,7 @@ function catalogPageNew(page, flag) {
           .click(
             {
               str: catalogListSort[i].getAttribute('id'),
-              sce: catalogListSort[i].getAttribute('partOne'),
+              sce: catalogListSort[i].getAttribute('partOne')
             },
             function (ee) {
               startGame(ee.data.str, { S: ee.data.sce, A: 0 })
@@ -2438,9 +2208,7 @@ function showHistory() {
         historyTextBox.append(pHtml)
       } else if (thisEvent.nodeName == 'speak') {
         pHtml = $('<p></p>')
-        pHtml
-          .html(characterData[thisEvent.getAttribute('chara')]['name'] + ':')
-          .addClass('history-text')
+        pHtml.html(characterData[thisEvent.getAttribute('chara')]['name'] + ':').addClass('history-text')
         historyTextBox.append(pHtml)
         pHtml = $('<p></p>')
         pHtml.html(getText(thisEvent)).addClass('history-text')
@@ -2469,8 +2237,7 @@ function showHistory() {
   }
   historyTextBox.children().addClass('history-text')
 
-  var scrollIndex =
-    $('.history-overflow')[0].scrollHeight - $('.history-overflow').height()
+  var scrollIndex = $('.history-overflow')[0].scrollHeight - $('.history-overflow').height()
   $('.history-overflow').scrollTop(scrollIndex)
 }
 
@@ -2542,13 +2309,7 @@ function showremark() {
     }
   }
   $('div.article-pic').css('background-image', function (n, v) {
-    return (
-      "url('" +
-      base_url +
-      '/resources/background/' +
-      $('div.article-pic')[n].getAttribute('picsrc') +
-      "')"
-    )
+    return "url('" + base_url + '/resources/background/' + $('div.article-pic')[n].getAttribute('picsrc') + "')"
   })
   remarkTextBox.children().addClass('history-text')
   $('.remark-overflow').scrollTop(0)
@@ -2571,18 +2332,12 @@ function wrk_get_size() {
   var winHeight
 
   if (window.innerWidth) winWidth = window.innerWidth
-  else if (document.body && document.body.clientWidth)
-    winWidth = document.body.clientWidth
+  else if (document.body && document.body.clientWidth) winWidth = document.body.clientWidth
   //获取窗口高度
   if (window.innerHeight) winHeight = window.innerHeight
-  else if (document.body && document.body.clientHeight)
-    winHeight = document.body.clientHeight
+  else if (document.body && document.body.clientHeight) winHeight = document.body.clientHeight
   //通过深入Document内部对body进行检测，获取窗口大小
-  if (
-    document.documentElement &&
-    document.documentElement.clientHeight &&
-    document.documentElement.clientWidth
-  ) {
+  if (document.documentElement && document.documentElement.clientHeight && document.documentElement.clientWidth) {
     winHeight = document.documentElement.clientHeight
     winWidth = document.documentElement.clientWidth
   }
@@ -2606,11 +2361,7 @@ wrk_check_size()
 var achievementQueryString = ''
 if (GetQueryString('auth_key')) {
   if (GetQueryString('sign')) {
-    achievementQueryString =
-      '?auth_key=' +
-      GetQueryString('auth_key') +
-      '&sign=' +
-      GetQueryString('sign')
+    achievementQueryString = '?auth_key=' + GetQueryString('auth_key') + '&sign=' + GetQueryString('sign')
   }
 }
 //achievement-------------------------------------------
@@ -2625,7 +2376,7 @@ function post_achievement(str_ach, callbackOne, callbackTwo) {
     data: {
       achievement: str_ach,
       chapter: now_galgame,
-      scene: now_scene,
+      scene: now_scene
     },
     success: function (result) {
       ajax_answer_achievement = result
@@ -2634,7 +2385,7 @@ function post_achievement(str_ach, callbackOne, callbackTwo) {
     error: function (XMLHttpRequest, textStatus, errorThrown) {
       ajax_answer_achievement = null
       if (callbackTwo) callbackTwo()
-    },
+    }
   })
 }
 
@@ -2689,27 +2440,21 @@ function portraitPage(typeReturn) {
   var retcode = achievement_result['retcode']
   var retcode_award = award_result['retcode']
   if (retcode_award > 0) {
-    award_pic_url =
-      "url('" + base_url + "/resources/achievement/haveSentAward.png')"
+    award_pic_url = "url('" + base_url + "/resources/achievement/haveSentAward.png')"
     award_click_flag = false
   } else if (retcode_award < -100) {
     award_pic_url = ''
     award_click_flag = false
   } else {
-    award_pic_url =
-      "url('" + base_url + "/resources/achievement/clickSentAward.png')"
+    award_pic_url = "url('" + base_url + "/resources/achievement/clickSentAward.png')"
     award_click_flag = true
   }
   if (retcode > 0) {
-    var achievement_progress =
-      parseInt(achievement_result['progress'] * 100) + '%'
-    var achievement_progress_rem =
-      achievement_result['progress'] * 28.55 + 'rem'
-    var achievement_progress_text =
-      achievement_result['progress'] * 28.55 + 1.3 + 0.5 + 'rem'
+    var achievement_progress = parseInt(achievement_result['progress'] * 100) + '%'
+    var achievement_progress_rem = achievement_result['progress'] * 28.55 + 'rem'
+    var achievement_progress_text = achievement_result['progress'] * 28.55 + 1.3 + 0.5 + 'rem'
     var achievement_progress_text_r = 1.3 + 0.5 + 'rem'
-    var achievement_progress_icon =
-      achievement_result['progress'] * 28.55 - 1.3 + 'rem'
+    var achievement_progress_icon = achievement_result['progress'] * 28.55 - 1.3 + 'rem'
     achievement_list = achievement_result['achievement']
     achievement_portraits = achievement_result['portrait']
     //preload
@@ -2740,12 +2485,7 @@ function portraitPage(typeReturn) {
     }
     achievementImageList.push('null_h.png')
     for (var j = 0; j < achievement_list.length; j++) {
-      if (
-        $.inArray(
-          achievement_list[j]['image'] + '_h.png',
-          achievementImageList
-        ) < 0
-      ) {
+      if ($.inArray(achievement_list[j]['image'] + '_h.png', achievementImageList) < 0) {
         achievementImageList.push(achievement_list[j]['image'] + '_h.png')
       }
     }
@@ -2761,26 +2501,17 @@ function portraitPage(typeReturn) {
         $('.portrait-wrapper#portrait-frame').html('')
         var pHtml = $('<div></div>')
         pHtml.addClass('portrait-wrapper')
-        pHtml.css(
-          'background-image',
-          "url('" + base_url + "/resources/achievement/sofaBack.png')"
-        )
+        pHtml.css('background-image', "url('" + base_url + "/resources/achievement/sofaBack.png')")
         pHtml.css('z-index', '600')
         $('.portrait-wrapper#portrait-frame').append(pHtml)
         pHtml = $('<div id="sofaFrontLeft"></div>')
         pHtml.addClass('portrait-wrapper')
-        pHtml.css(
-          'background-image',
-          "url('" + base_url + "/resources/achievement/sofaFrontLeft.png')"
-        )
+        pHtml.css('background-image', "url('" + base_url + "/resources/achievement/sofaFrontLeft.png')")
         pHtml.css('z-index', '700')
         $('.portrait-wrapper#portrait-frame').append(pHtml)
         pHtml = $('<div id="sofaFrontRight"></div>')
         pHtml.addClass('portrait-wrapper')
-        pHtml.css(
-          'background-image',
-          "url('" + base_url + "/resources/achievement/sofaFrontRight.png')"
-        )
+        pHtml.css('background-image', "url('" + base_url + "/resources/achievement/sofaFrontRight.png')")
         pHtml.css('z-index', '700')
         $('.portrait-wrapper#portrait-frame').append(pHtml)
 
@@ -2800,11 +2531,7 @@ function portraitPage(typeReturn) {
           pHtml.addClass('portrait-wrapper')
           pHtml.css(
             'background-image',
-            "url('" +
-              base_url +
-              '/resources/achievement/' +
-              achievement_portraits[i]['name'] +
-              ".png')"
+            "url('" + base_url + '/resources/achievement/' + achievement_portraits[i]['name'] + ".png')"
           )
           pHtml.css('z-index', achievement_portraits[i]['index'])
           $('.portrait-wrapper#portrait-frame').append(pHtml)
@@ -2848,14 +2575,11 @@ function exhibitionPage(page) {
     exhibition_index = Number(page)
   }
   var xmlDoc = loadExistXmlFile('exhibition_list', function () {
-    exhibition_list =
-      xml_files_all_in_this['exhibition_list'].getElementsByTagName('log')
+    exhibition_list = xml_files_all_in_this['exhibition_list'].getElementsByTagName('log')
     exhibitionPage(page)
   })
   if (!xmlDoc) return
-  exhibition_last = Number(
-    exhibition_list[exhibition_list.length - 1].getAttribute('id')
-  )
+  exhibition_last = Number(exhibition_list[exhibition_list.length - 1].getAttribute('id'))
   $('.pagenum#pagenum-5').removeClass('pagenum-gray')
   if (exhibition_index == 10010) {
     $('.pagenum#pagenum-5').addClass('pagenum-gray')
@@ -2884,20 +2608,12 @@ function exhibitionPage(page) {
           pHtml_txt.html(achievement_list[j]['text'])
           pHtml_pic.css(
             'background-image',
-            "url('" +
-              base_url +
-              '/resources/achievement/' +
-              achievement_list[j]['image'] +
-              "_h.png')"
+            "url('" + base_url + '/resources/achievement/' + achievement_list[j]['image'] + "_h.png')"
           )
           if (exhibition_list[i].getAttribute('type') != 'end') {
             pHtml_tip.css(
               'background-image',
-              "url('" +
-                base_url +
-                '/resources/achievement/' +
-                exhibition_list[i].getAttribute('type') +
-                "_b.png')"
+              "url('" + base_url + '/resources/achievement/' + exhibition_list[i].getAttribute('type') + "_b.png')"
             )
           }
           break
@@ -2910,26 +2626,15 @@ function exhibitionPage(page) {
       if (j >= achievement_list.length) {
         pHtml_txt.html('？？？？？？？？？？？？？？？？？？？？')
         pHtml_txt.css('color', '#cccccc')
-        pHtml_pic.css(
-          'background-image',
-          "url('" + base_url + "/resources/achievement/null_h.png')"
-        )
+        pHtml_pic.css('background-image', "url('" + base_url + "/resources/achievement/null_h.png')")
         if (exhibition_list[i].getAttribute('type') != 'end') {
           pHtml_tip.css(
             'background-image',
-            "url('" +
-              base_url +
-              '/resources/achievement/' +
-              exhibition_list[i].getAttribute('type') +
-              ".png')"
+            "url('" + base_url + '/resources/achievement/' + exhibition_list[i].getAttribute('type') + ".png')"
           )
         }
       }
-      pHtml_box
-        .append(pHtml_pic)
-        .append(pHtml_tip)
-        .append(pHtml_tit)
-        .append(pHtml_txt)
+      pHtml_box.append(pHtml_pic).append(pHtml_tip).append(pHtml_tit).append(pHtml_txt)
       pHtml_box.addClass('exhibition-member')
       pHtml.append(pHtml_box)
       pHtml.addClass('achievement-list-member')
