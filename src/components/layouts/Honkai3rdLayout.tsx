@@ -40,7 +40,6 @@ const Honkai3rdLayout: React.FC = ({ children }) => {
     <Flex
       sx={{
         height: '100%',
-        overflow: 'hidden',
         flexDirection: 'column'
       }}
     >
