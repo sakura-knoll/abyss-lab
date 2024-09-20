@@ -2,115 +2,123 @@
   <transition mode="eye" in="0" stop="0.5" out="0.5" color="#000000"></transition>
   <bgm id="月下昆仑（慢灵）"></bgm>
   <bg img="沙漠-星空"></bg>
-  <dialog chara="002">「！！」</dialog>
-  <text>砂漠の中で、少女ははっと目を覚ました。</text>
+  <dialog chara="002">「!!」</dialog>
+  <text>사막 속, 소녀는 깜짝 놀라며 눈을 떴다.</text>
   <transition mode="eye" in="1" stop="0.5" out="1" color="#000000"></transition>
   <bg img="沙漠-夜谈1"></bg>
   <motion chara="002" action="show" img="素裳-疲惫无神-持剑-中景" pos="right"></motion>
   <delay t="1"></delay>
   <text>
-    <p>心臓がバクバクと鼓動し、服には冷や汗が滲んでいた。</p>
-    <p>少女は無意識にそばの布袋に手を伸ばし、軒轅剣を握りしめる。こうしていると、少し安心できた。</p>
+    <p>심장이 두근거리고, 식은땀은 옷을 적시고 있었다.</p>
+    <p>소녀는 무의식중에 곁에 있는 천을 더듬어, 헌원검을 쥐고 나서야, 조금 안심할 수 있었다.</p>
   </text>
-  <dialog chara="001">「悪い夢でも見たのかい？」</dialog>
-  <text>そばから聞き覚えのある声がした。</text>
+  <dialog chara="001">「악몽이라도 꿨는가?」</dialog>
+  <text>옆에서 들은 적이 있는 목소리가 들렸다.</text>
   <motion chara="002" action="hide"></motion>
   <transition mode="move" in="0.5" stop="0.5" out="0.5" color="#000000" direction="right" custom="default"></transition>
   <motion chara="001" action="show" pos="left" img="奥托-标准-单酒杯-中景"></motion>
-  <text>彼女は言葉をかけてくれた羅刹人の方に顔を向ける。</text>
-  <text>本当に不思議だ。知り合ったばかりの頃は、彼の神州語はさほど流暢ではなく、おかしな西域訛りがあった。しかし、まだ二日も経っていないというのに、彼は現地の人とほぼ同じくらいに言葉を話せるようになっていた。</text>
+  <text>그녀는 말을 건 나찰인을 향해 고개를 돌렸다.</text>
+  <text>정말 이상했다. 처음 봤을 땐, 그의 신주어는 전혀 유창하지 않았고, 이상한 서역의 억양까지 섞여 있었다. 근데, 겨우 이틀이 되기도 전에, 그는 현지인과 다를 바 없이 얘기하고 있었다.</text>
   <motion chara="002" action="show" img="素裳-嘟嘴-持剑-中景" pos="right"></motion>
-  <dialog chara="002">「……ううん、大丈夫。」</dialog>
-  <text>羅刹人は肩を竦めて視線を逸らすと、グラスを持ち上げて赤い液体を揺らし、唇をつけた。彼がグラスを置くと、赤い液体の揺れもぴたりと止まる。その液体はいつも同じような高さのままで、増えることも減ることもなかった。</text>
-  <text img="沙漠-夜谈2" duration="1">それが一体何なのか、少女はいつも気になっていた。いくつか想像もしてみたが、口には出さなかった。</text>
+  <dialog chara="002">「……아뇨, 괜찮습니다.」</dialog>
+  <text>나찰인은 어깨를 으쓱하더니, 시선을 돌리고는, 잔에 있는 붉은 액체를 흔들다, 음미하였다. 그가 잔을 내려놓자, 붉은 액체는 곧 흔들림을 멈췄다. 그 액체는 계속 같은 양을 유지하며, 늘지도 줄지도 않았다.</text>
+  <text img="沙漠-夜谈2" duration="1">그 액체가 무엇인지, 소녀는 계속해서 신경 쓰였다. 몇 가지 생각을 해보았지만, 물어보진 않았다.</text>
   <bg chara="001" action="hide" img="沙漠-夜谈2" duration="1"></bg>
   <motion chara="001" action="hide"></motion>
   <motion t="1" chara="002" action="hide"></motion>
   <delay t="1"></delay>
-  <text inline="true">李素裳は起き上がる。眠気は一瞬で消えてしまった。彼女は服を整えると、再び羅刹人の横に腰を下ろし、西域の不思議な炎を見つめる。</text>
-  <text img="氛围_通用_蓝色圆球">それは、とても不思議なものだった。</text>
+  <text inline="true">이소상은 완전히 일어났다. 잠결은 금방 사라졌다. 그녀는 옷을 털고 나찰인의 옆에 앉아 서역의 신비한 불꽃을 지그시 쳐다보았다.</text>
+  <text img="氛围_通用_蓝色圆球"> 그건 정말 신기했다.</text>
   <cg img="氛围_通用_蓝色圆球"></cg>
-  <text>見た目はただの青い球だったが、どう転がしても中の炎は動かず、光と熱を放ち続けている。</text>
-  <text chara="002">砂漠の夜は気温がかなり下がるが、二人と二頭の馬はこの球を囲っているだけで、まったく寒さを感じなかった。</text>
-  <dialog chara="002">（彼の奇術は、どれもすごい……）</dialog>
+  <text>외양은 그저 푸른 공이었지만, 아무리 굴려봐도 속의 불꽃은 아무런 움직임 없이, 그저 빛과 열만을 발산하고 있었다.</text>
+  <text chara="002">사막의 밤은 극도로 기온이 낮았지만, 두 사람과 두 필의 말은 이 공을 둘러싸고 있는 것만으로, 전혀 추위를 느끼지 못했다.</text>
+  <dialog chara="002">(이 사람이 부리는 요술은 죄다 대단하네……)</dialog>
   <cg></cg>
-  <text img="沙漠-夜谈1">素裳は思わず、横にいる金髪の男を見た。</text>
+  <text img="沙漠-夜谈1">소상은 무심코 옆에 있는 금발의 남자를 쳐다보았다.</text>
   <bg chara="002" action="show" img="沙漠-夜谈1" pos="right"></bg>
   <motion chara="002" action="show" img="素裳-浅笑-持剑-中景" pos="right"></motion>
-  <dialog chara="002" action="show" img="奥托-汗苦笑-标准-中景" pos="left">「ねえ、羅刹人。」</dialog>
+  <dialog chara="002" action="show" img="奥托-汗苦笑-标准-中景" pos="left">「저기 나찰인씨.」</dialog>
   <motion chara="001" action="show" img="奥托-汗苦笑-标准-中景" pos="left"></motion>
-  <dialog chara="001" action="img_trans" img="奥托-苦笑-标准-中景">「僕にも名前があるんだが。」</dialog>
+  <dialog chara="001" action="img_trans" img="奥托-苦笑-标准-中景">「내게도 이름이 있다만.」</dialog>
   <motion chara="001" action="img_trans" img="奥托-苦笑-标准-中景"></motion>
   <motion chara="002" action="img_trans" img="素裳-大笑-持剑-中景"></motion>
-  <dialog chara="002">「あんたたちの名前って、変テコで覚えるのが大変じゃない。」</dialog>
-  <text chara="001" action="img_trans" img="奥托-微笑释然-标准-中景" inline="true">羅刹人は微笑んだが、答えることはなく、そばの棺に目を向けた。</text>
+  <dialog chara="002">「당신네들 이름은 다 이상해서, 제가 기억하기 어렵습니다.」</dialog>
+  <text chara="001" action="img_trans" img="奥托-微笑释然-标准-中景" inline="true">나찰인은 미소 지었지만, 답은 하지 않았다. 그리곤, 옆에 있는 관으로 시선을 옮겼다.</text>
   <motion chara="001" action="img_trans" img="奥托-微笑释然-标准-中景"></motion>
   <text chara="002" action="img_trans" img="素裳-惊讶2-持剑-中景">
     <p></p>
-    <p>彼はずっと、大きくて重そうな棺を持ち歩いている。彼は時折、棺に向かって何かを呟いていて、そのたびに素裳は不快な思いをしていた。</p>
+    <p>그는 계속해서, 저 크고 무거워보이는 관을 들고다니고 있었다. 그는 종종 관에 뭔갈 속삭이는 듯했는데, 그때마다 소상은 불편함을 느꼈다.</p>
   </text>
   <motion chara="002" action="img_trans" img="素裳-惊讶2-持剑-中景"></motion>
-  <text chara="002" action="img_trans" img="素裳-嘟嘴-持剑-中景">李素裳はしばらく待っていたが、羅刹人は何も言わなかった。</text>
+  <text chara="002" action="img_trans" img="素裳-嘟嘴-持剑-中景">이소상은 잠깐 기다려보았지만, 나찰인은 아무 말도 하지 않았다.</text>
   <motion chara="002" action="img_trans" img="素裳-嘟嘴-持剑-中景"></motion>
-  <dialog chara="002">「ねえ……あんたはどうして仙人を探してるの？」</dialog>
+  <dialog chara="002">「저기…… 선인은 왜 찾으시는 겁니까?」</dialog>
   <dialog chara="001">「……」</dialog>
   <text chara="001" action="img_trans" img="奥托-微笑自信-标准-中景">
-    <p>長い沈黙だった。</p>
-    <p>素裳が次の話題を探そうと考えた時、羅刹人が急に口を開いた。</p>
+    <p>긴 침묵이었다.</p>
+    <p>소상이 머리를 쥐어짜내며 다음 화제를 찾으려던 와중, 갑자기 나찰인이 입을 열었다.</p>
   </text>
   <motion chara="001" action="img_trans" img="奥托-微笑自信-标准-中景"></motion>
-  <dialog chara="001" action="img_trans" img="素裳-悲伤目前-持剑-中景">「僕は仙人に会ったことがあるんだ。」</dialog>
+  <dialog chara="001" action="img_trans" img="素裳-悲伤目前-持剑-中景">「예전 난 선인을 만난 적이 있었다.」</dialog>
   <motion chara="002" action="img_trans" img="素裳-悲伤目前-持剑-中景"></motion>
-  <dialog chara="002">「えっ？」</dialog>
-  <text chara="002" action="img_trans" img="素裳-大笑-抱手-中景">少女は驚いたが、すぐに表情を元に戻す。</text>
+  <dialog chara="002">「네?」</dialog>
+  <text chara="002" action="img_trans" img="素裳-大笑-抱手-中景">소녀는 처음엔 의아해했지만 곧 그를 흘겨보았다.</text>
   <motion chara="002" action="img_trans" img="素裳-大笑-抱手-中景"></motion>
   <dialog chara="002" action="img_trans" img="奥托-苦笑-标准-中景">
-    <p>「あっ、またアタシを騙そうとしているの？この前、アタシに仙人って誰？って聞いたじゃない。</p>
-    <p>まったく、あんたたち羅刹人って本当のことを言わないんだね。」</p>
+    <p>「에이, 또 절 속이시려는 군요? 전엔 뭐, 제게 선인이 누구냐고 물으셨으면서.</p>
+    <p>정말, 당신들 나찰인들은 진실을 말하는 걸 꺼리나 봅니다.」</p>
   </dialog>
   <motion chara="001" action="img_trans" img="奥托-苦笑-标准-中景"></motion>
-  <dialog chara="001">「騙してないよ。でも、話せば長くなるからね。」</dialog>
-  <dialog chara="002">「大丈夫。時間ならあるし、どうせすぐには眠くならないでしょ。」</dialog>
-  <text chara="001" action="img_trans" img="奥托-标准-单空手-中景">羅刹人は足下の砂や小石を見つめながら言った。</text>
+  <dialog chara="001">「속이려는 것이 아니다. 단지 얘기하긴 너무 길다.」</dialog>
+  <dialog chara="002">「괜찮습니다. 시간도 많고, 한동안 잘 생각도 없으니까요.」</dialog>
+  <text chara="001" action="img_trans" img="奥托-标准-单空手-中景">나찰인은 발밑의 자갈을 바라보고 있었다.</text>
   <motion chara="001" action="img_trans" img="奥托-标准-单空手-中景"></motion>
-  <dialog chara="001" action="img_trans" img="素裳-笑-持剑-中景">「本当に聞きたいのかい？」</dialog>
+  <dialog chara="001" action="img_trans" img="素裳-笑-持剑-中景">「정말 들어야겠나?」</dialog>
   <motion chara="002" action="img_trans" img="素裳-笑-持剑-中景"></motion>
-  <dialog chara="002" action="img_trans" img="奥托-苦笑-标准-中景">「うん！だけど、難しく話さないでね。簡単に、できるだけ簡単にして。」</dialog>
+  <dialog chara="002" action="img_trans" img="奥托-苦笑-标准-中景">「네! 다만 너무 어렵게 얘기하진 말아주시지요. 간단하게, 최대한 간단하게.」</dialog>
   <motion chara="001" action="img_trans" img="奥托-苦笑-标准-中景"></motion>
-  <dialog chara="001" action="img_trans" img="素裳-惊讶-持剑-中景">「分かったよ。二十年前……」</dialog>
+  <dialog chara="001" action="img_trans" img="素裳-惊讶-持剑-中景">「알겠다. 20년 전……」</dialog>
   <motion chara="002" action="img_trans" img="素裳-惊讶-持剑-中景"></motion>
-  <dialog chara="002" action="img_trans" img="奥托-单手扶额-中景">「待って、二十年前？あんた、今何歳なの？」</dialog>
+  <dialog chara="002" action="img_trans" img="奥托-单手扶额-中景">「잠깐, 20년 전이요? 지금 대체 몇 살인 겁니까?」</dialog>
   <motion chara="001" action="img_trans" img="奥托-单手扶额-中景"></motion>
-  <dialog chara="001" action="img_trans" img="素裳-悲伤目前-持剑-中景">「……そうやって遮られたら話せないよ。」</dialog>
+  <dialog chara="001" action="img_trans" img="素裳-悲伤目前-持剑-中景">「……네가 그렇게 말을 끊으면, 얘기해 주기 어렵다.」</dialog>
   <motion chara="002" action="img_trans" img="素裳-悲伤目前-持剑-中景"></motion>
-  <dialog chara="002">「あっ、ごめん。続けて。」</dialog>
-  <dialog chara="001">「はぁ……」</dialog>
-  <text chara="001" action="img_trans" img="奥托-标准-单空手-中景">羅刹人はため息をついた。</text>
+  <dialog chara="002">「앗, 미안합니다. 계속해 주시지요.」</dialog>
+  <dialog chara="001">「후우……」</dialog>
+  <text chara="001" action="img_trans" img="奥托-标准-单空手-中景">나찰인은 한숨을 뱉었다.</text>
   <motion chara="001" action="img_trans" img="奥托-标准-单空手-中景"></motion>
-  <dialog chara="001" action="img_trans" img="素裳-惊讶-持剑-中景">「二十年前、ヨーロッパ大陸と神州との間に戦争が起きたんだ。ヨーロッパの遠征軍は天命騎士団という名前で、僕もその中にいた。明帝国はとても強かった。」</dialog>
-  <dialog chara="001">「それまで、天命はそこまで強い相手と戦ったことはなかったが、[em font=Arial]Walküre[/em]と[em font=Arial]Der Schlüssel Gottes[/em]の力によって、天命は優勢で――」</dialog>
+  <dialog chara="001" action="img_trans" img="素裳-惊讶-持剑-中景">「20년 전, 유럽 대륙과 신주 사이에 전쟁이 일어났다. 유럽의 원정군은 천명 기사단이란 이름으로, 나도 거기에 속해 있었다. 상대인 명(明)제국은 정말 강했지.」</dialog>
+  <remark>
+    <p>ㅤ</p>
+    <p>역자 주:</p>
+    <p>ㅤ</p>
+    <p>「Walküre」: 발키리 (독일어)</p>
+    <p>ㅤ</p>
+    <p>「Der Schlüssel Gottes」: 신의 열쇠 (독일어)</p>
+  </remark>
+  <dialog chara="001">「그 전까지, 천명에게 적수가 될 상대는 거의 없었다. [em font=Arial]Walküre[/em]와[em font=Arial]Der Schlüssel Gottes[/em]의 힘이 있어, 천명은 우위를 점하고 있었지――」</dialog>
   <motion chara="002" action="img_trans" img="素裳-惊讶-持剑-中景"></motion>
   <motion chara="001" action="img_trans" img="奥托-汗苦笑-标准-中景"></motion>
-  <dialog chara="002">「ちょっと――待って、ヴァル何たらとデル何たら？」</dialog>
-  <text chara="002" action="img_trans" img="素裳-嘟嘴-持剑-中景">李素裳は不満そうに口を尖らせた。</text>
+  <dialog chara="002">「저기――잠깐, 발퀴 어쩌구랑, 델 저쩌구는 뭡니까?」</dialog>
+  <text chara="002" action="img_trans" img="素裳-嘟嘴-持剑-中景">이소상은 불만스러운 듯 입을 뾰족 내밀었다.</text>
   <motion chara="002" action="img_trans" img="素裳-嘟嘴-持剑-中景"></motion>
-  <dialog chara="002" action="img_trans" img="奥托-汗苦笑-摊手-中景">「あんたたちの名前は変テコって言ったじゃない！イジワルしてるの！？」</dialog>
+  <dialog chara="002" action="img_trans" img="奥托-汗苦笑-摊手-中景">「당신네들 이름은 이상한 게 왜 이리 많습니까! 절 놀리는 겁니까!?」</dialog>
   <motion chara="001" action="img_trans" img="奥托-汗苦笑-摊手-中景"></motion>
-  <dialog chara="001">「……本当にすまないね。言い慣れているものだから。」</dialog>
-  <text chara="002" action="img_trans" img="素裳-专注-持剑-中景">羅刹人は申し訳なさそうに両手を広げる。</text>
+  <dialog chara="001">「……미안하군, 그저 자연스럽게 얘기했을 뿐이다.」</dialog>
+  <text chara="002" action="img_trans" img="素裳-专注-持剑-中景">나찰인은 어쩔 수 없다는 듯 손을 벌렸다.</text>
   <motion chara="002" action="img_trans" img="素裳-专注-持剑-中景"></motion>
   <motion chara="001" action="img_trans" img="奥托-思索-中景"></motion>
-  <dialog chara="001" action="img_trans" img="素裳-大笑潇洒-背手-中景">「神州の言葉で説明しよう。」</dialog>
+  <dialog chara="001" action="img_trans" img="素裳-大笑潇洒-背手-中景">「신주의 말로 설명하지.」</dialog>
   <motion chara="002" action="img_trans" img="素裳-大笑潇洒-背手-中景"></motion>
-  <dialog chara="002">「うんうん、そうして！話を続けて、今度はもう邪魔しないから。」</dialog>
-  <dialog chara="001" action="img_trans" img="素裳-惊讶2-背手-中景">「うーん……」</dialog>
+  <dialog chara="002">「네, 그렇게 해주시죠～ 더 이상 방해하지 않겠습니다.」</dialog>
+  <dialog chara="001" action="img_trans" img="素裳-惊讶2-背手-中景">「음……」</dialog>
   <motion chara="002" action="img_trans" img="素裳-惊讶2-背手-中景"></motion>
-  <dialog chara="002">「えっ？」</dialog>
-  <text chara="001" action="img_trans" img="奥托-思索星-中景">異なる言葉への切り替えが難しかったためだろうか。羅刹人は何度か口を開こうとしたが、言葉にならないようだった。</text>
+  <dialog chara="002">「어라?」</dialog>
+  <text chara="001" action="img_trans" img="奥托-思索星-中景">다른 어휘로 대체하기 어려웠는지, 나찰인은 몇번이나 입을 열어보려 했지만, 계속 말이 멈췄다.</text>
   <motion chara="001" action="img_trans" img="奥托-思索星-中景"></motion>
-  <dialog id="02-10拍手" chara="001">「とにかく……うん。西洋の騎士は、君たちがいうところの、武術家みたいなものだ。」</dialog>
+  <dialog id="02-10拍手" chara="001">「어쨌든…… 음. 서역의 기사는, 너희들이 말하는 협객과 비슷하다.」</dialog>
   <se chara="001" action="img_trans" img="奥托-苦笑-标准-中景" id="02-10拍手"></se>
   <motion chara="001" action="img_trans" img="奥托-苦笑-标准-中景"></motion>
-  <text action="goto" to="03">羅刹人はようやく思考の糸口を掴んだようだ。彼は軽く手を叩き、困った表情も見せていたが、不意に微笑む。</text>
+  <text action="goto" to="03">나찰인은 마침내 방법을 생각해냈는지, 손뼉을 쳤다. 곤란했던 표정도 이내 미소를 보이고 있었다.</text>
   <event action="goto" to="03"></event>
 </scene>
