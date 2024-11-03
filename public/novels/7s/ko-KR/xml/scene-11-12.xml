@@ -5,37 +5,41 @@
   <mono pageend="true">
     <p></p>
     <p></p>
-    <p>果てしなく広がる黄砂が、太陽に照らされている。</p>
+    <p>끝없이 펼쳐진 노란 사막, 타오를듯 내리쬐는 태양.</p>
   </mono>
   <mono>
     <p></p>
     <p></p>
-    <p>目に見えない気の波とともに、汗が噴き出るほどの熱気が押し寄せてくる。</p>
+    <p>보이지 않는 공기의 파도가 덮쳐올 때마다, 찌는 듯한 더위가 느껴졌다.</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>しかし、目の前の男が放つ冷たい殺意に、李素裳は寒気がした。</p>
+    <p>하지만, 눈앞의 남자가 내뿜는 얼어붙을 만큼 차가운 살의는, 이소상을 떨게 만들었다.</p>
   </mono>
   <event action="hide_ui"></event>
   <motion chara="008" action="show" pos="center" duration="1" img="马非马-邪恶-标准-中景"></motion>
   <delay t="1"></delay>
   <event action="show_ui"></event>
-  <text>男は頬ひげを生やしており、年齢は推測できない。彼の頬には痛々しい傷痕が残されている。真っ赤な稲妻のように下顎へと伸び、突然途切れている。……それはまだ、落ち続けようとしているようだった。</text>
-  <text>よくよく見れば、この男の体には数えきれないほどの傷痕があった。</text>
-  <text>それらの古傷がなければ、彼はきっと美男子だったに違いない。血のように赤い傷も、彼を凶悪な顔に変えてしまうどころか、格段に勇ましく見せていた。</text>
+  <text>
+    <p>남자의 고르지 않은 수염은, 그의 나이를 알아보기 어렵게 했다.</p>
+    <p>섬뜩한 검상은 뺨을 가로질러, 마치 붉은 벼락이 내리는 듯, 갑자기 턱에 이르러서 끊어져 있었다.</p>
+    <p>……그것은 지금도 내려치려는 것처럼 보였고, 영원히 끝날 기색이 없는 듯했다.</p>
+  </text>
+  <text>자세히 살펴볼수록, 셀 수 없을 만큼 많은 상처가 보였다.</text>
+  <text>상처가 없었다면, 원래 그는 잘생긴 얼굴을 하였을 것이다. 비록 피처럼 붉은 상처들이 얼굴을 가득 채우고 있었지만, 그 상처들은 그를 흉측하게 만들기는커녕, 오히려 남다른 기개를 더해주고 있었다.</text>
   <transition mode="shutter" in="1" stop="0.5" out="1" color="#000000"></transition>
   <motion chara="008" action="show" pos="400,0" img="马非马-苦笑-标准-远景"></motion>
   <motion chara="001" action="show" pos="-500,0" img="奥托-严肃-标准-远景（棺材）"></motion>
   <motion chara="002" action="show" pos="-200,0" img="素裳-愤怒-持剑-远景" duration="1"></motion>
-  <dialog chara="001">「素裳、気を付けるんだ。」</dialog>
+  <dialog chara="001">「소상, 조심해라.」</dialog>
   <se id="01-39踏在木板的脚步声"></se>
-  <text>羅刹人はゆっくりと馬車から降りると、棺をそっと砂漠の上に置いた。</text>
+  <text>나찰인은 천천히 마차에서 내리며, 조심히 관을 모래밭 위에 눕혔다.</text>
   <motion chara="001" action="img_trans" img="奥托-微笑自信-标准-远景（棺材）" duration="0"></motion>
-  <dialog chara="001">「あの男は君の剣を手に入れようとしている。」</dialog>
+  <dialog chara="001">「그는 네 검을 원한다.」</dialog>
   <motion chara="002" action="img_trans" img="素裳-惊讶-持剑-远景"></motion>
-  <dialog chara="002">「え？アタシの軒轅を？」</dialog>
+  <dialog chara="002">「네? 제 태허검 말입니까?」</dialog>
   <motion chara="002" action="img_trans" img="素裳-标准-持剑-远景"></motion>
-  <text>李素裳は驚いたが、すぐにハッとした。色々と合点がいったのだ。</text>
+  <text>이소상은 크게 놀랐으나, 곧 뭔가를 깨달은 듯, 납득했다.</text>
   <event action="hide_ui" duration="2"></event>
   <motion chara="002" action="move" img="素裳-严肃汗-持剑-近景" pos="right" duration="2"></motion>
   <motion chara="008" action="hide"></motion>
@@ -43,44 +47,44 @@
   <delay t="1.9"></delay>
   <motion chara="002" action="img_trans" img="素裳-标准-持剑-中景"></motion>
   <motion chara="008" action="show" pos="left" img="马非马-瞥目-标准-中景" duration="1"></motion>
-  <text>彼女が見知らぬ男に目をやると、彼は羅刹人を見つめていた。その目は光り輝いているようだった。</text>
+  <text>그녀는 이 기괴한 남자를 살폈다. 그는 나찰인을 뚫어져라 쳐다보고 있었다. 그의 눈에서 빛이 번뜩이는 듯하였다.</text>
   <event action="hide_ui" duration="1"></event>
   <motion chara="008" action="img_trans" img="马非马-微笑-标准-中景"></motion>
   <delay t="1"></delay>
-  <text>突然、男が笑い出す。</text>
+  <text>갑자기, 그 남자가 웃기 시작했다.</text>
   <text>
-    <p>上がる口角と共に赤い古傷が動く様子は、やや不自然だった。しかし、彼は楽しそうに屈託のない笑顔を見せている。</p>
-    <p>男は笑い終えると、表情をやや和らげた。</p>
+    <p>입꼬리가 올라가더니, 붉은 검상이 부자연스럽게 당겨졌다. 그럼에도 그는 유쾌하게 웃으며, 여유로워 보였다.[\s]</p>
+    <p>웃음이 끝나니, 그의 인상은 의외로 부드러워 보였다.</p>
   </text>
   <motion chara="008" action="img_trans" img="马非马-笑-标准-中景"></motion>
-  <dialog chara="008">「娘！お前は霜姉さんの弟子なのか？」</dialog>
+  <dialog chara="008">「거기 소저! 능상의 제자인가?」</dialog>
   <motion chara="002" action="img_trans" img="素裳-愤怒-持剑-中景"></motion>
-  <dialog chara="002">「……教えないよ！」</dialog>
-  <text>李素裳は怒りのあまり、目を大きく見開く。</text>
-  <dialog chara="002">「何がしたいの！お喋りしたいなら挨拶すればよかったじゃない！」</dialog>
+  <dialog chara="002">「……말해드릴 수 없습니다!」</dialog>
+  <text>이소상은 화가 난 듯, 두 눈을 크게 뜨고 있었다.</text>
+  <dialog chara="002">「원하는 게 뭡니까? 그냥 얘기가 하고 싶었다면 인사를 하면 될 건데!」</dialog>
   <motion chara="008" action="img_trans" img="马非马-疯狂-标准-中景"></motion>
-  <dialog chara="008">「フッ、どうやら間違いないようだ。」</dialog>
-  <text>男は怒るどころか笑みを浮かべると、片手を前に伸ばし、羅刹人に向けた。</text>
-  <dialog chara="008">「悪いが、色々と話したいことがある。話し終わったら始めよう――ああ、そこの羅刹鬼を、倒すんだ。」</dialog>
-  <dialog chara="002">「えっ……ええっ……何するつもり！？」</dialog>
-  <text>素裳は慌てて羅刹人の前に立ちはだかった。</text>
-  <dialog chara="002">「彼はあんたと戦ったりしないよ。彼は……あんた、一体何が狙いなの？どうしていきなり襲いかかってきたの！？」</dialog>
+  <dialog chara="008">「흠, 맞나 보군.」</dialog>
+  <text>남자는 화내기는커녕 웃었다. 그리곤 손을 뻗어 나찰인을 가리켰다.</text>
+  <dialog chara="008">「미안하다, 할 얘기가 몇 있다. 얘기가 끝나면 바로 시작하겠다——아, 저 나찰귀와 싸울 것이다.」</dialog>
+  <dialog chara="002">「저…… 저기…… 뭘 한다고요?!」</dialog>
+  <text>소상은 당황하며 나찰인의 앞에 섰다.</text>
+  <dialog chara="002">「그는 당신과 싸우지 않을 겁니다. 그…… 당신이 정말로 원하는 게 뭡니까? 왜 갑자기 싸움을 거는 겁니까?!」</dialog>
   <motion chara="008" action="img_trans" img="马非马-笑-标准-中景"></motion>
   <dialog chara="008">
-    <p>「お前の馬車を壊してしまってすまない。</p>
-    <p>詫びとして、夜血で連れて行ってやろう。」</p>
+    <p>「미안하군, 소저, 내가 마차를 부서뜨렸으니.</p>
+    <p>사죄의 의미로, 내 말 야혈을 타도록 하게.」</p>
   </dialog>
-  <text>男はそう言いながら関節をバキバキと鳴らした。</text>
-  <dialog chara="008">「羅刹鬼の言う通りだ。ああ、俺はお前の軒轅剣が気になっている。だが、無理やり奪ったりはしない……少なくとも、今はな。娘、その剣はお前のものか？」</dialog>
-  <dialog chara="002">「アタシのに決まってるじゃない！」</dialog>
-  <dialog chara="008">「フッ、なら、やはり霜姉さんの弟子だったか。どうりで見覚えがある訳だ。いいだろう、弟子の序列に従うなら、俺のことは師叔とでも呼べばいい。」</dialog>
-  <dialog chara="008">「話は、その男を倒してからにしてくれ。ちょうど俺も、お前の師匠に会いに行くところだったからな。」</dialog>
-  <dialog chara="002">「この人はあんたと戦ったりしないよ。」</dialog>
+  <text>그는 그렇게 말하면서, 딱딱거리는 소리를 내며, 관절을 풀어갔다.</text>
+  <dialog chara="008">「나찰귀가 말한 대로다. 나는 네 태허검에 관심이 있긴 하지만, 강제로 뺏어갈 생각은 없다…… 음, 적어도 지금은 아니다. 소저, 그 검은 그대의 것인가?」</dialog>
+  <dialog chara="002">「당연히 제 것입니다!」</dialog>
+  <dialog chara="008">「흠, 그럼 정말 능상의 제자가 맞나 보군. 괜히 익숙한 느낌이 났던 게 아니었어. 좋다. 항렬을 따지면 넌 나를 사숙이라 부르는 게 맞을 것이다.」</dialog>
+  <dialog chara="008">「내가 저 금발과의 일을 마치고 나면, 편하게 얘기를 나눌 수 있을 것이다. 나도 네 사부에게 볼일이 있다.」</dialog>
+  <dialog chara="002">「그는 당신과 싸우지 않을 것입니다.」</dialog>
   <motion chara="008" action="img_trans" img="马非马-邪恶-标准-中景"></motion>
-  <dialog chara="008">「いや、戦うだろう。戦うしかない。」</dialog>
-  <text>男は興味深そうに羅刹人を見つめた。</text>
-  <dialog chara="008">「何故なら、俺がそう決めたからだ。」</dialog>
-  <dialog chara="002">「あんた――」</dialog>
+  <dialog chara="008">「아, 그는 싸울 것이다. 싸울 수밖에 없다.」</dialog>
+  <text>남자는 흥미로운 듯 나찰인을 쳐다봤다.</text>
+  <dialog chara="008">「내가 그러기로 결정했으니.」</dialog>
+  <dialog chara="002">「당신――」</dialog>
   <motion chara="002" action="hide" duration="0"></motion>
   <motion chara="008" action="hide" duration="0"></motion>
   <event action="hide_ui"></event>
@@ -92,80 +96,88 @@
   <mono pageend="true">
     <p></p>
     <p></p>
-    <p>――突如、異変が起こった。</p>
+    <p>――갑자기 이변이 일어났다.
+      
+      </p>
   </mono>
   <motion chara="008" action="show" pos="center" img="马非马-闭目-标准-远景"></motion>
   <text>
-    <p>激しい殺意が急に空を覆ったかと思うと、すぐさま跡形もなく消えてしまったのだ。[\s]</p>
-    <p>まるで、目の前の人物の形跡が世界から消えてしまったかのようだった。</p>
+    <p>넘쳐나는 살기가 돌연 온 하늘을 다 가릴 듯 하더니, 갑자기 흔적도 없이 사라졌다.[\s]</p>
+    <p> 마치 그의 자취가 이 세상에서 완전히 사라져 버린 것 같았다.</p>
   </text>
   <bg img="PureBlack" duration="2"></bg>
-  <text>李素裳は羅刹人に目を向ける。彼は相変わらず落ち着いているように見えた。</text>
-  <text>そうだ。羅刹人は分かっていないようだったが、李素裳だけは理解していた。これは、敵が剣心の境界に入ったことを意味している。</text>
+  <text>이소상은 나찰인을 쳐다봤다. 그는 여전히 차분하게 있었다.</text>
+  <text>그렇다. 나찰인은 눈치채지 못한듯하였다. 소상은 알고 있다. 이는 적이 검심의 경지에 들어갔다는 것을.</text>
   <motion chara="008" action="hide"></motion>
   <bg img="心湖（1）止水"></bg>
   <mono>
     <p></p>
     <p></p>
-    <p>無意味な感情や価値のない思考を捨て、</p>
+    <p>무의미한 감정을 버리고, 무가치한 사고를 버린다.</p>
   </mono>
   <mono>
     <p></p>
-    <p>欲望、怒り、邪念、憎しみを捨て、明鏡止水のような空虚さを保つ。</p>
+    <p>욕심, 분노, 집념, 원한도 없는, 물결도 티끌 하나도 없는 호수와도 같은, 명경태허(明鏡太虛).</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>それこそが太虚剣心であり、精衛真人が生み出した神業なのだ！</p>
+    <p>이것이야말로 태허검심, 적연지인이 창시한 절세신공이었다!</p>
   </mono>
   <event action="hide_ui"></event>
   <motion chara="008" action="show" pos="center" img="马非马-认真-标准-近景" duration="1"></motion>
   <delay t="1"></delay>
   <event action="show_ui"></event>
-  <text inline="true">眼前の謎の男は、精衛の直弟子に間違いない。太虚七剣で唯一の男の弟子、</text>
+  <text inline="true">눈앞의 괴인이 적연의 진짜 제자라는 건 의심할 여지가 없었다. 태허 칠검 중 유일한 남자.</text>
   <text>
     <p></p>
-    <p>「百里逐駒」こと馬非馬……</p>
+    <p>「백리축구(百里逐駒)」의 마비마.</p>
   </text>
-  <text>素裳は幼い頃、憶剣山荘で何度か彼に会ったことがある。この太虚剣派の副当主は世界を股に掛ける気概を持っており、素裳に深い印象を残した。</text>
-  <text>[em italic]……六大派の当主級の相手を前にして、己は勝てるのだろうか？[/em]</text>
+  <text>소상은 억검산장에서 그와 몇 번 마주친 적이 있었다. 이 태허검파의 부당문은 천하를 깔보는 듯한 기개를 보여, 그녀에게 깊은 인상을 남겼었다.</text>
+  <text>[em italic]……내 실력으로 6대파 당문 수준의 상대를 이기는 게 가능할까?[/em]</text>
   <motion chara="008" action="hide"></motion>
   <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
   <bg img="BGDesert03"></bg>
   <motion chara="008" action="show" pos="400,0" img="马非马-标准-标准-远景" duration="1"></motion>
   <motion chara="001" action="show" pos="-500,0" img="奥托-标准-标准-远景（棺材）" duration="1"></motion>
   <motion chara="002" action="show" pos="-200,0" duration="1" img="素裳-愤怒-持剑-远景"></motion>
-  <dialog chara="002">「羅刹人、あんたは……下がってて。アタシが相手をするから。」</dialog>
-  <text>いつの間にか、少女は相手の気迫に圧倒されていた。その声はか細く、ほとんど聞こえぬほどだった。</text>
+  <dialog chara="002">「나찰인…… 물러서세요. 제가 상대하겠습니다.」</dialog>
+  <text>자기도 모르게, 소녀는 이미 상대의 기개에 집어삼켜져 있었다. 그녀의 목소리는 모깃소리만큼이나 작아, 겨우 들릴 정도였다.</text>
   <motion chara="001" action="hide"></motion>
-  <dialog chara="001">「ああ。」</dialog>
-  <text>羅刹人は頷く。彼は、最初から戦うつもりなどなかったようだ。</text>
+  <dialog chara="001">「알겠다.」</dialog>
+  <text>나찰인은 고개를 끄덕였다. 그도 처음부터 싸울 생각이 없는 듯했다.</text>
   <motion chara="001" action="show" pos="-700,0"></motion>
   <text>
-    <p>数歩ほど後ろに下がった羅刹人は、顔を上げて馬非馬を見つめた。</p>
-    <p>彼は何も言わず、その目は虚ろだった。</p>
+    <p>몇 발 물러선 다음, 나찰인은 고개를 들어 마비마를 쳐다봤다.</p>
+    <p>그는 아무 말도 하지 않았고, 그의 눈동자도 텅 비어있는 듯했다.</p>
   </text>
   <motion chara="008" action="img_trans" img="马非马-闭目-标准-远景"></motion>
-  <dialog chara="008">「……軟弱者。」</dialog>
-  <text>馬非馬はそう吐き捨てると、素裳の方を向いて言った。</text>
-  <dialog chara="008">「そいつを殺さないのか？」</dialog>
-  <dialog chara="008">「霜姉さんから教えられているだろう。太虚一門の人間は、魔に堕ちた者を殺さねばならない。」</dialog>
-  <dialog chara="002">「彼の気は暴走してないよ。」</dialog>
-  <dialog chara="008">「ハッ。そんなのものは時間の問題だ。そいつの腕からして、気の暴走よりもはるかに厄介なことになる。全く、何故その男の肩を持つ？その羅刹鬼は実力を隠している……お前には、想像もつかないほどの実力を。」</dialog>
-  <dialog chara="008">「……まあいい、俺にはお前を指導する資格などないからな。」</dialog>
-  <dialog chara="002">「……」</dialog>
-  <text>李素裳は大男をじっと見つめ、一歩も退こうとはしなかった。</text>
-  <dialog chara="008">「お前がそいつを殺していれば、こんな面倒なことにはならなかったんだが。」</dialog>
-  <text>馬非馬は肩を竦めながら言った。</text>
+  <dialog chara="008">「……겁쟁이 녀석.」</dialog>
+  <text>마비마는 한숨을 쉬고는 소상을 향해 말했다.</text>
+  <dialog chara="008">「그를 죽이지 않을 생각인가?」</dialog>
+  <dialog chara="008">「능상이 분명 네게 가르쳤을 것이다. 태허일맥의 사람이라면 요마에게 자비를 베풀면 안 된다는 것을.」</dialog>
+  <dialog chara="002">「그는 주화입마에 빠지지 않았습니다.」</dialog>
   <dialog chara="008">
-    <p>「いいだろう。そこまでその男を庇うなら……お前が代わりに戦うんだな。</p>
-    <p>まだ準備ができてないだろ？時間をやろう、最高の状態に整えるといい。</p>
-    <p>忘れるな。必ず俺を殺す覚悟で戦え。分かるか？俺は手加減などしない。」</p>
+    <p>「허허, 그건 시간문제일 것이다. 그의 방식은 다른 주화입마자를 훨씬 넘어설 만큼 해롭다.[\s]</p>
+    <p>어허, 왜 그를 도우려 하는가? 그 나찰인은 자신의 기량을 숨기고 있다…… 흠흠, 네 상상을 훨씬 넘어설 만큼.」</p>
   </dialog>
-  <dialog chara="002">「……どうして戦わないといけないの！？」</dialog>
+  <dialog chara="008">「……좋다. 내게 널 가르칠 자격이 있는 게 아니니.」</dialog>
+  <dialog chara="002">「……」</dialog>
+  <text>이소상은 그 거한을 단단히 노려보며, 한 걸음도 물러서지 않았다.</text>
+  <dialog chara="008">「후우, 네가 그냥 그를 죽였다면, 이럴 필요도 없었을 건데.」</dialog>
+  <text>마비마는 어깨를 으쓱였다.</text>
+  <dialog chara="008">
+    <p>「좋다, 네가 그를 지키기로 마음먹었다면…… 네가 먼저 나와라.</p>
+    <p>준비는 되었나? 최선을 다해 준비해라.</p>
+    <p>잊지 마라, 넌 반드시 날 죽일 결심으로 싸워야만 한다. 알겠나? 나도 적당히 하진 않을 것이다.」</p>
+  </dialog>
+  <dialog chara="002">「……대체 왜 싸워야만 하는 겁니까?!」</dialog>
   <dialog chara="008">「……」</dialog>
-  <text>馬非馬は彼女を見つめたまま、微かな笑みを浮かべた。</text>
-  <text>そうだ。話すべきことはすべて話した。これ以上言うべきことなど、何もないだろう？何故なら、馬非馬が「決めた」からだ。彼が「決めた」ことは、必ず成し遂げなければならない。</text>
-  <text>少女は唇を軽く噛みしめ、無理やり怒りを抑え込み、言われた通りにした。</text>
+  <text>마비마는 그녀를 쳐다보곤 미소 지었다.</text>
+  <text>
+    <p>그렇다. 할 말은 다 전했다. 그 이상 무엇이 필요하랴?</p>
+    <p>마비마가 「결정」한 이상, 그의 「결정」대로, 반드시 행해져야 한다.</p>
+  </text>
+  <text>소녀는 가볍게 입술을 깨물으며, 화를 누르고, 그와의 싸움을 준비했다.</text>
   <motion chara="001" action="hide"></motion>
   <motion chara="002" action="hide"></motion>
   <motion chara="008" action="hide"></motion>
@@ -173,42 +185,42 @@
   <bg img="心湖（1）止水"></bg>
   <mono>
     <p></p>
-    <p>目の前の敵は、決して力を抜ける相手ではない……</p>
-    <p>全力を出したとしても、必ず勝てるという保証はない。</p>
+    <p>눈앞의 적은 절대 가볍게 상대해선 안돼……</p>
+    <p>전력을 다 써도, 이길 거란 보장은 없어.</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>何しろ――彼は太虚剣派の六番弟子、師匠と同等の腕を持つ最高の使い手なのだから！</p>
+    <p>결국——그는 태허 제6검, 사부와 동급의 절정 고수야!</p>
   </mono>
   <bg img="心湖（2）无尘" duration="3"></bg>
   <mono chara="-3">
     <p></p>
-    <p>[em color=#FAFAD2]（もう。人生初の決闘から数日も経っていないのに、また戦わないといけないなんて。）[/em]</p>
+    <p>[em color=#FAFAD2](아, 겨우 며칠 전에 처음으로 결투를 했는데, 또 싸우게 되었네.)[/em]</p>
   </mono>
   <mono chara="-3">
     <p></p>
-    <p>しかも相手は武術界最強の七人の中の一人……</p>
+    <p>게다가 상대는 무림 최강의 7인 중 하나……</p>
   </mono>
   <mono pageend="true" chara="-3">
     <p></p>
-    <p>[em color=#FAFAD2]（まさに本に書いてあった通りだね、武術界ってとこは、海のように深い。）[/em]</p>
+    <p>[em color=#FAFAD2](정말 책에서 나온 대로네, 강호에 발을 들이면, 그 깊이는 바다와도 같다.)[/em]</p>
   </mono>
   <bg img="心湖（3）明镜" duration="3"></bg>
   <mono>
     <p></p>
-    <p>李素裳は心の中で意味のない嘆きを呟くと、それを原動力にし、溢れんばかりの闘志に変えていった。</p>
+    <p>이소상은 마음속의 쓸데없는 감탄으로 가득했지만, 곧 그걸 추진력으로 삼아, 투지를 불태웠다.</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>心は穏やかで波風一つなく、透明で、澄んでいた。</p>
+    <p>그녀의 마음속의 호수는 평온하여 물결 하나 없이, 유리처럼 맑았다.</p>
   </mono>
   <mono>
     <p></p>
-    <p>これは馬非馬の「止水」よりも高い境界だった。</p>
+    <p>그것은 마비마의 「지수(止水)」보다 더 높은 경지의 것이었다.</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>剣心・明鏡。</p>
+    <p>검심•명경(明鏡).</p>
   </mono>
   <event action="goto" to="13"></event>
 </scene>
