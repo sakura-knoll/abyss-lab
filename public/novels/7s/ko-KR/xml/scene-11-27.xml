@@ -3,9 +3,7 @@
   <bg img="阶梯"></bg>
   <delay t="3"></delay>
   <bgm id="千年之羽"></bgm>
-  <text>石段は長くないが、曲がりくねっている。「精衛真人」は黙って階段を下りていった。</text>
-  <event action="achievement" aid="96d0ac44fb43c563"></event>
-  <notification>伝記解放：「精衛」</notification>
+  <text>길진 않지만 꺾인 곳이 많은 계단. 「적연진인」은 묵묵히 그 계단을 걸어 내려고 있었다.</text>
   <event action="hide_ui"></event>
   <motion chara="000" action="show" pos="center" img="赤鸢-标准-垂手-中景" duration="3"></motion>
   <delay t="3"></delay>
@@ -17,141 +15,147 @@
   <motion chara="099" action="show" pos="left" img="朝雨-标准-标准-中景" duration="3"></motion>
   <delay t="3"></delay>
   <event action="show_ui"></event>
-  <text>すぐ後ろには、可愛らしい少女の姿があった。彼女は精衛の後を軽やかに追いかけている。時には近く、時には遠く。</text>
+  <text>멀지 않은 곳에, 고운 모습을 한 여자아이 하나가 있었다. 그녀는 적연을 조용히 따라갔다. 때로는 가까이, 때로는 멀리서.</text>
   <dialog chara="099">「……」</dialog>
-  <text>少女も何も言わなかった。彼女の沈黙は、精衛とは別のものだった。少女は存在しない人間であり、彼女の一挙手一投足、一歩一歩の動きはこの世界とまったく関係がなく、その声もまた然りであった。</text>
-  <text>精衛を除いて、彼女の存在は誰に対しても意味を持たなかった。</text>
-  <text>そして、この静まり返った山の中で、精衛だけが少女の小さな囁き声を聞くことができた。</text>
+  <text>소녀 역시 말을 하지 않았지만, 그녀의 침묵은 적연진인의 침묵과는 달랐다. 그 소녀는 존재하지 않았다. 그녀가 하는 모든 행동은, 그녀가 만드는 모든 걸음은 이 세상과 이어지지 않았다. 그녀의 목소리 또한 그랬다.</text>
+  <text>적연 이외의 사람에게, 그녀는 아무런 의미도 없었다.</text>
+  <text>그렇게, 죽은 듯이 고요한 산숲 속, 오직 적연만이 그 소녀가 낮게 중얼거리는 소리를 들을 수 있었다.</text>
   <motion chara="099" action="img_trans" img="朝雨-悲伤-标准-中景"></motion>
-  <dialog chara="099">「師匠、見てください――山荘が燃えています。」</dialog>
+  <dialog chara="099">「사부, 보세요——산장에 불이 났습니다.」</dialog>
   <motion chara="000" action="hide"></motion>
   <motion chara="099" action="hide"></motion>
   <cg img="氛围_第二折_烟雾2"></cg>
-  <text>精衛が振り返ると、一筋の細長い黒煙が山奥から立ち昇り、墨の花が咲くように広がっていた。</text>
+  <text>적연은 고개를 돌려 살폈다. 산숲 깊은 곳에서, 피어오르는 한 송이의 먹꽃처럼, 연기가 퍼져나오고 있었다.</text>
   <motion chara="000" action="img_trans" img="赤鸢-疑惑-垂手-中景"></motion>
-  <dialog chara="000">[em italic]（素衣……）[/em]</dialog>
-  <text>彼女は足先に力を入れる。一瞬で十丈あまりも移動していた。</text>
-  <dialog chara="099">「……手遅れです、師匠。」</dialog>
+  <dialog chara="000">[em italic](소의……)[/em]</dialog>
+  <text>그녀는 발끝에 가볍게 힘을 넣더니, 순식간에 십여 장(丈)이나 나아갔다.</text>
+  <dialog chara="099">「……이미 늦었습니다, 사부.」</dialog>
   <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"></transition>
   <cg></cg>
   <motion chara="099" action="show" pos="right" img="朝雨-阴霾（F）-标准-中景"></motion>
   <motion chara="000" action="show" pos="left" img="赤鸢-认真-出招-中景"></motion>
   <text>
-    <p>少女が小さな声で言う。</p>
-    <p>彼女は目の前に現れ、精衛の行く手を塞いだ。彼女の上空では墨の花が静かに回っている。</p>
+    <p>소녀는 작은 목소리로 말했다.</p>
+    <p>그녀는 갑작스레 적연 앞에 나타나곤, 길을 막았다. 그녀 위로, 조용히 춤을 추는 먹꽃이 보였다.</p>
   </text>
   <motion chara="000" action="img_trans" img="赤鸢-悲伤-垂手-中景"></motion>
   <motion chara="099" action="img_trans" img="朝雨-冷漠（F）-标准-中景"></motion>
-  <text>精衛は足を止め、ぼんやりと見つめているだけだった。</text>
+  <text>적연은 발걸음을 멈추고, 그저 쳐다보기만 했다.</text>
   <motion chara="000" action="img_trans" img="赤鸢-闭目（悲伤）-垂手-中景"></motion>
-  <dialog chara="099">「……素衣は死に、憶剣山荘も主と運命を共にしました。」</dialog>
-  <text>少女が呟いた。</text>
+  <dialog chara="099">「……소의는 이미 죽었습니다. 억검산장과 그 주인도 함께 가버렸습니다.」</dialog>
+  <text>소녀는 중얼거렸다.</text>
   <motion chara="099" action="img_trans" img="朝雨-悲伤-标准-中景"></motion>
-  <dialog chara="099">「師匠、戻っても無駄です。あなたが現れると破滅をもたらします。それを取り去ることはできません。」</dialog>
-  <dialog chara="000">「彼らは死ぬべきではありませんでした。」</dialog>
+  <dialog chara="099">「사부, 돌아가 봐야 아무 의미 없습니다. 당신의 출현은 화를 불러왔고, 이를 무를 방법은 없습니다.」</dialog>
+  <dialog chara="000">「그들은 죽을 필요가 없었습니다.」</dialog>
   <motion chara="099" action="img_trans" img="朝雨-温柔-标准-中景"></motion>
-  <dialog chara="099">「では誰が死ぬべきだったのですか？変わられたのですね、師匠。以前の師匠なら、絶対に人間の生き死になど気にしなかったはずです。」</dialog>
+  <dialog chara="099">「그럼 누가 죽을 필요가 있습니까? 바뀐 건 사부입니다. 이전에는 범인의 생사엔 전혀 신경 쓰지 않으셨잖습니까.」</dialog>
   <motion chara="000" action="img_trans" img="赤鸢-疑惑-垂手-中景"></motion>
-  <dialog chara="000">「……気にしなかった？」</dialog>
+  <dialog chara="000">「……제가 신경 쓰지 않았습니까?」</dialog>
   <motion chara="099" action="img_trans" img="朝雨-闭目-标准-中景"></motion>
   <dialog chara="099">
-    <p>「師匠が気にしたのは生き方だけでした。すなわち『気の暴走』です。</p>
-    <p>ふふ、人間がそれに陥れば、死んだも同然です。」</p>
+    <p>「사부가 신경 썼던 건 단지 하나뿐이었습니다. 바로 『주화입마』.</p>
+    <p>후후, 보통 사람에겐 조금만 노출돼도, 이미 죽은 것과 다름없죠.」</p>
   </dialog>
   <motion chara="000" action="img_trans" img="赤鸢-悲伤-垂手-中景"></motion>
-  <text>少女は肩を竦め、遠くの黒煙を一瞥すると、更に尋ねる。</text>
+  <text>여자아이는 어깨를 들어 올렸다, 멀리 보이는 검은 연기를 한 번 보더니, 물었다.</text>
   <motion chara="099" action="img_trans" img="朝雨-悲伤-标准-中景"></motion>
-  <dialog chara="099">「『墨染香』はどこにあるのですか？」</dialog>
-  <dialog chara="099">「素衣はどうしても、墨染香の行方を言おうとしませんでした。あぁ、彼女が死んで、多くの物の行方が永遠に分からなくなってしまいました――」</dialog>
+  <dialog chara="099">「『묵염향』은 어디에 있을까요?」</dialog>
+  <dialog chara="099">「소의는 그것의 행방을 알려주지 않았습니다. 하아, 사람이 죽으니 수많은 것들이 흔적도 없이 영영 사라져버리는군요——」</dialog>
   <motion chara="099" action="img_trans" img="朝雨-闭目-标准-中景"></motion>
-  <dialog chara="099">「ですが、師匠は諦めたりしませんよね？どれだけの時間を費やそうと、必ず全ての『弟子』を見つけ出し、すべての『軒轅』を取り戻す必要がありますから。」</dialog>
+  <dialog chara="099">「하지만 사부는 그대로 포기하진 않으실 거죠? 시간이 얼마나 걸리든, 모든 『제자』들을 찾고, 모든 『헌원』을 회수해야 하니까요.」</dialog>
   <motion chara="000" action="img_trans" img="赤鸢-疑惑-垂手-中景"></motion>
-  <text>精衛は空を見上げながら、無意識に頷いた。</text>
+  <text>정위는 하늘을 바라보며, 자기도 모르게 고개를 끄덕였다.</text>
   <motion chara="099" action="img_trans" img="朝雨-笑容-标准-中景"></motion>
-  <dialog chara="099">「ふふ、師匠ならできると信じています。」</dialog>
+  <dialog chara="099">「후후, 해내실 거라 믿어요.」</dialog>
   <motion chara="000" action="img_trans" img="赤鸢-认真-垂手-中景"></motion>
-  <text>その言葉に精衛は衝撃を受け、思わず視線を少女の顔に向けた。</text>
+  <text>그 말은 적연의 가슴을 울렸다. 그녀는 참지 못하고 고개를 돌려 소녀의 얼굴을 바라봤다.</text>
   <motion chara="000" action="hide"></motion>
   <transition mode="eye" in="1" stop="0.5" out="1" color="#000000"></transition>
   <bg img="森林（白天）"></bg>
   <motion chara="099" action="show" pos="center" img="朝雨-温柔-标准-中景"></motion>
-  <text>少女は真っ直ぐ精衛を見つめている。</text>
+  <text>소녀는 그녀를 마주 바라보고 있었다.</text>
   <mono>
     <p></p>
-    <p>彼女の視線はとても誠実で、その笑顔には羞恥が滲んでいた。</p>
-    <p>彼女の言葉には熱がこもっており、尊敬と信頼に満ちていた。</p>
+    <p>그녀의 눈빛은 매우 진지했고, 그녀의 웃음은 수줍음이 가득했다.</p>
+    <p>그녀의 말은 매우 열정적이었고, 존경과 믿음으로 가득했다.</p>
     <p></p>
-    <p>彼女は……</p>
+    <p>그녀는……</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>彼女のことはよく知っている気がする。</p>
+    <p>그녀는 몹시 눈에 익었다.</p>
   </mono>
   <mono>
     <p></p>
-    <p>遥か昔、彼女たちと共に過ごしていた……</p>
+    <p>아주아주 오래전, 그들과 밤낮으로 함께할 때가 있었다……</p>
   </mono>
   <mono pageend="true">
     <p></p>
-    <p>彼女たちとはかつて……とても長い時間を共に過ごしていたのだ。</p>
+    <p>그들과 밤낮으로 함께할 때가 있었다…… 아주아주 오랫동안.</p>
   </mono>
-  <text>眉間を寄せ、精衛は瞬きをする。目の前の美しい少女をはっきりと見ようとしたのだ。</text>
+  <text>미간에서부터 떨림이 올라와, 적연은 눈을 깜박였다. 마치 그 아름다운 소녀를 좀 더 선명하게 보려는 듯.</text>
   <transition mode="clock" in="1" stop="0.5" out="1" color="#000000"></transition>
   <motion chara="099" action="img_trans" img="朝雨-标准-标准-近景"></motion>
-  <text>彼女は十七、八歳くらいだろうか。それは不思議なことではない。彼女の世界の中では、時間が固まっているのだから。</text>
-  <text>少女は実在しておらず、精衛の傷ついた脳が作り出した無数の幻影の一つにすぎない。しかし、幻影は現れては消え、明るくなっては薄れ、多くの者が去り、残ったのは彼女だけだった。</text>
-  <text>――かつてその手で、自分を殺した女性。</text>
-  <text>自分を殺した犯人以上に、自分のことを理解している人間がいるだろうか？</text>
+  <text>그녀의 나이는 약 17, 18살, 딱히 이상한 건 없었다. 단지 그녀가 있는 세계의 시간이 얼어붙어 있었을 뿐.</text>
+    <text>
+      <p>소녀는 진짜가 아니다. 그녀는 그저 적연의 망가진 뇌가 만들어낸 무수한 환영 중 하나였다.</p>
+      <p>하지만 환영들이 오고 가고, 나타났다 사라졌다를 반복하다, 대부분은 결국 떠나버렸고, 그 소녀만이 남았다——</p>
+    </text>
+  <text>——자신을 살해한 그 여자만이.</text>
+  <text>자신을 죽였던 사람보다, 자신을 더 잘 아는 사람이 어딨으랴?</text>
   <motion chara="099" action="hide"></motion>
   <transition mode="clock" in="1" stop="0.5" out="1" color="#000000"></transition>
   <bg img="阶梯"></bg>
   <motion chara="000" action="show" pos="left" img="赤鸢-认真-垂手-中景"></motion>
   <motion chara="099" action="show" pos="right" img="朝雨-冷漠（F）-标准-中景"></motion>
-  <dialog chara="000">「教えてください……私はどのような人間なのでしょう？」</dialog>
+  <dialog chara="000">「알려주실 수 있습니까……? 제가 어떤 사람이었는지.」</dialog>
   <dialog chara="099">「…………」</dialog>
   <motion chara="099" action="img_trans" img="朝雨-温柔-标准-中景"></motion>
-  <text>存在しているようで存在していない少女は優しく微笑んだ。</text>
-  <dialog chara="099">「よくご存じのはずですよ。私はただの記憶でしかありません。私が出す答えは、どんな疑問も解くことはできないのです。」</dialog>
+  <text>존재하듯 존재하지 않는듯한 소녀는 부드럽게 미소 지었다.</text>
+  <dialog chara="099">「잘 아실 겁니다. 전 그저 하나의 기억에 불과하다는걸. 제가 답을 드려도, 어떤 의문도 해소할 수 없을 겁니다.」</dialog>
   <motion chara="000" action="img_trans" img="赤鸢-悲伤-垂手-中景"></motion>
-  <dialog chara="099">「それは単に、師匠が自身に問いかけた結果かもしれませんし、受け入れ難い内省なのかもしれません。あるいは、私たちの何気ない会話、手紙かもしれません……」</dialog>
-  <dialog chara="099">「私の答えは師匠の記憶に深く刻み込まれています。ですが、その真偽を判断するのもとても難しいでしょう。」</dialog>
+  <dialog chara="099">「어쩌면 그냥 당신이 스스로 내린 결론일 수도, 혹은 스스로 거부하고 있는 자성일지도요. 어쩌면 예전에 주고받은 대화나, 편지의 일부일 수도요……」</dialog>
+  <dialog chara="099">「제 답은 당신의 기억 속 깊이 새겨져있을 겁니다만, 그게 진실인지 아닌지 결정하는 건 쉬운 일이 아니겠죠.」</dialog>
   <motion chara="099" action="img_trans" img="朝雨-闭目-标准-中景"></motion>
-  <dialog chara="099">「師匠、今の師匠の苦痛はどれも、過去に対する執着でしかないのです――しかし、その過去はもう存在しません。」</dialog>
+  <dialog chara="099">「사부님, 지금 당신이 느끼는 고통은, 모두 과거에 대한 당신의 집착일 뿐입니다——」</dialog>
   <motion chara="000" action="img_trans" img="赤鸢-闭目（悲伤）-垂手-中景"></motion>
   <motion chara="099" action="img_trans" img="朝雨-悲伤-标准-中景"></motion>
-  <dialog chara="099">「忘却とは、過去の重荷をすべて取り除いてくれる贈り物です。そして、世界はとても広い。行きたいところに行き、やりたいことをやっても良いのですよ。師匠は自由なのですから。」</dialog>
-  <text>精衛は何も言わなかった。しかし、この声が自分の心の中から出てきていることは分かっていた。彼女の感情は果てしなく長い歳月に殺されたわけではなかった。ただ生き埋めになっていて、彼女の死後に戻ってきただけなのだ。</text>
+  <dialog chara="099">
+    <p>「하지만, 그 과거는 더이상 존재하지 않죠.</p>
+    <p>잊을 수 있다는 건 축복입니다. 무거운 과거의 짐을 모두 내려놓을 수 있으니까요. 당신은 자유입니다. 넓은 세상에 어디로든 갈 수 있고, 무엇이든 할 수 있습니다.」</p>
+  </dialog>
+  <text>적연은 아무 말도 하지 않았다. 하지만 마음속에서 들려오는 목소리는 익숙했다. 수천 년, 수만 년의 세월은 여전히 그녀의 감정을 죽이지 못했다. 그것들은 그저 묻혀있다, 그녀의 죽음과 함께 다시 돌아왔다.</text>
   <motion chara="000" action="img_trans" img="赤鸢-认真-垂手-中景" duration="1"></motion>
-  <dialog chara="000">「――教えてください。」</dialog>
-  <dialog chara="099">「本当に知りたいのですか？一度知れば……一度決断を下せば、あなたはまた精衛真人となってしまいます。過去の人となり、かつての道を歩み、同じ結末を迎えるでしょう。」</dialog>
+  <dialog chara="000">「――말해주십시오.」</dialog>
+  <dialog chara="099">「정말로 알고 싶으신 겁니까? 한번 알게 되면…… 한번 그러기로 결단했다면, 당신은 다시 적연진인이 되어버릴 겁니다. 과거로 돌아가, 같은 길을 겉고, 같은 운명을 맞이하겠죠.」</dialog>
   <motion chara="000" action="img_trans" img="赤鸢-闭目（标准）-垂手-中景"></motion>
   <dialog chara="000">「……」</dialog>
-  <text>沈黙はとても長く感じられたが、精衛が口を開くと、とても短いようにも感じられた。まるで存在していなかったか、まったく躊躇しなかったかのようだった。</text>
+  <text>길게 느껴졌던 침묵은, 적연이 입을 열자, 다시금 짧게 느껴졌다. 마치 애초에 침묵하지 않았던 듯, 마치 조금도 주저하지 않았던듯 짧았다.</text>
   <motion chara="000" action="img_trans" img="赤鸢-认真-垂手-中景"></motion>
-  <dialog chara="000">「知りたいのです。」</dialog>
-  <dialog chara="099">「……ええ、分かりました。」</dialog>
+  <dialog chara="000">「알고 싶습니다.」</dialog>
+  <dialog chara="099">「……네, 좋습니다.」</dialog>
   <motion chara="099" action="img_trans" img="朝雨-闭目-标准-中景"></motion>
-  <text>少女は目を閉じた。</text>
+  <text>그녀는 눈을 감았다.</text>
   <motion chara="000" action="img_trans" img="赤鸢-疑惑-垂手-中景"></motion>
-  <dialog chara="099">「あなたは精衛真人で、私たち七人の師匠です。私の母親はあなたの手にかかって死にました。私が六歳の時、母の気が暴走したのです。その時以来、私はずっとあなたに付き従っています。」</dialog>
-  <dialog chara="099">「あなたはとても強く、確固とした信念を持っていました。不老不死で、比類なき武術の力を持っていました。この世界であなたに敵う者はいないでしょう。初めてお会いした時、あなたに心服しない人はいないだろうと思いました。」</dialog>
-  <dialog chara="099">「あなたは神のような姿をしていますが、それは、人間にはどうやっても辿り着けない境地なのだと思います。」</dialog>
+  <dialog chara="099">「당신은 적연진인, 저희 일곱의 사부였습니다. 제 어머니는——당신의 손에 죽었죠. 제가 여섯 살이 되던 해, 그녀는 주화입마에 빠졌습니다. 그 후, 전 당신과 함께했습니다.」</dialog>
+  <dialog chara="099">「당신은 매우 강했습니다. 그뿐만이 아니라 확고했죠. 불멸에 절세의 무공을 가져, 이 세상 그 누구와도 비견될 만한 이가 없었습니다. 당신을 처음 만났을 때, 전 생각 했습니다. 과연 누가 당신에게 심복하지 않을 수 있을까? 당신은, 범인들이 이를 수 있는 경지를 초월한, 신선의 자태를 가지고 있었습니다.」</dialog>
   <motion chara="000" action="img_trans" img="赤鸢-标准-垂手-中景"></motion>
-  <dialog chara="099">「あなたと山に戻った時、皆が喜びました。私たち七人は全員が孤児でした。私たちはあなたを心の底から尊敬し、愛していました。しかし、一緒に過ごす時間が長くなるにつれ、私たちは分かってきたのです。」</dialog>
-  <dialog chara="099">「あなたにとって私たちは一時的な相手であり、使い終われば捨てられる駒でしかないということに。」</dialog>
+  <dialog chara="099">「당신과 함께 산에 돌아갔을 땐, 모두가 기뻤습니다. 저희 일곱은 고아였고, 진심으로 당신을 숭배하고, 경애했습니다. 하지만 당신과 함께할수록, 저흰 깨닫게 되었습니다. 당신의 눈에, 저흰 그저 백 년 후면 스쳐갈 손님에 불과하단걸, 그저 버려지는 장기짝에 불과하다는걸.」</dialog>
   <motion chara="000" action="img_trans" img="赤鸢-悲伤-垂手-中景"></motion>
-  <dialog chara="099">「あなたはまさに、最初は惹かれても、一緒にいる時間が長くなるにつれて離れたくなるような人なのです。」</dialog>
-  <text>精衛は黙っていた。夏の雨のような悲しみが、何にも縛られることなく心に降り注いだ。</text>
+  <dialog chara="099">「당신은 정말 그런 사람이었습니다. 처음엔 사람들을 끌어들였지만, 함께하는 시간이 길어질수록, 더 멀어졌죠.」</dialog>
+  <text>적연은 침묵을 지켰다. 슬픔이 여름날의 비처럼, 마음속에 끝없이 쏟아내렸다.</text>
   <motion chara="000" action="img_trans" img="赤鸢-疑惑-垂手-中景"></motion>
-  <text>ついに、彼女は十年以上も抱えていた疑問を口にした。</text>
-  <dialog chara="000">「朝雨、どうして私を殺そうとしたのですか？」</dialog>
+  <text>마지막으로, 그녀는 10년이 넘게 담아뒀던 질문을 던졌다.</text>
+  <dialog chara="000">「조우, 당신들은 왜 절 죽여야만 했습니까?」</dialog>
   <motion chara="003" action="show" img="朝雨-悲伤-标准-中景" pos="right"></motion>
   <motion chara="099" action="hide"></motion>
-  <text>林朝雨という名の少女は両目を見開き、ため息をついた。</text>
-  <dialog chara="003">「師匠、私は三十年も付き従っていたのですよ。三十年も。」</dialog>
+  <text>조우라는 이름의 소녀는 눈을 뜨고 한숨을 쉬었다.</text>
+  <dialog chara="003">「사부, 전 당신과 30년이나 함께 해왔습니다. 30년이나.」</dialog>
   <delay t="1"></delay>
-  <event action="achievement" aid="abf384293a81b6c7"></event>
-  <notification>伝記解放：「幻像」</notification>
+  <event action="achievement" aid="f3df608a1e830b3f"/>
+  <notification>전기 해금: 「적연」</notification>
+  <event action="achievement" aid="e263bb8b7a512d53"/>
+  <notification>전기 해금: 「환상」</notification>
   <delay t="1"></delay>
   <transition mode="fade" in="3" stop="2" out="0" color="#000000"></transition>
 </scene>
