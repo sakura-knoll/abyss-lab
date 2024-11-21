@@ -1,0 +1,322 @@
+<scene id="00" title="楔子" root="true">
+  <transition mode="fade" in="0" stop="0.5" out="3" color="#000000"/>
+  <bg img="PureBlack"/>
+  <delay t="2"/>
+  <mono pageend="true">
+    <p/>
+    <p>这是我有记忆以来的第一个春季。</p>
+  </mono>
+  <event action="hide_ui"/>
+  <bgm id="仙灵岛（水灵笛）"/>
+  <bg img="太虚山" duration="4"/>
+  <delay t="2"/>
+  <event action="show_ui"/>
+  <mono inline="true">
+    <p/>
+    <p>那个春天的事情，我至今仍记得清清楚楚。</p>
+  </mono>
+  <event action="hide_ui"/>
+  <bg img="太虚山1" duration="3"/>
+  <delay t="2.5"/>
+  <event action="show_ui"/>
+  <mono inline="true">
+    <p/>
+    <p/>
+    <p>一场雨落在太虚山上，一连下了十天，</p>
+  </mono>
+  <mono pageend="true">师父一反常态地没有出门，闭不见客。大师姊和二师姊在她的住处进进出出，不知忙些什么。</mono>
+  <mono inline="true">
+    <p/>
+    <p/>
+    <p>那是一场并不大却很绵长的雨，年幼的我一度以为，春雨就是这样一直下个不停，下遍整个春天——但是不出数日，雨就渐渐小了。</p>
+  </mono>
+  <mono pageend="true">
+    <p/>
+    <p/>
+    <p>雨歇之后，师父走出屋门，带大师姊下了山。</p>
+  </mono>
+  <event action="hide_ui"/>
+  <motion chara="011" action="show" pos="400,0" img="马彦卿-标准-幼年-远景" duration="1"/>
+  <motion chara="004" action="show" pos="200,0" img="苏湄-凝视-幼年-远景" duration="1"/>
+  <motion chara="003" action="show" pos="left" img="朝雨-温柔-标准-远景" duration="1"/>
+  <delay t="1"/>
+  <event action="show_ui"/>
+  <dialog chara="000">「朝雨，走了。」</dialog>
+  <text>师父头也不回地掷下这句话。</text>
+  <event action="hide_ui"/>
+  <motion chara="003" action="hide" duration="1.5"/>
+  <delay t="1.5"/>
+  <event action="show_ui"/>
+  <mono inline="true">
+    <p/>
+    <p>大师姊向我们挥挥手，跟着师父步下山阶。两个身影越来越远，越来越小，别了个弯后不见了。</p>
+  </mono>
+  <mono pageend="true">
+    <p/>
+    <p/>
+    <p>我转过身，看着一同来送行的三、四师姊往房里回去，踌躇该不该跟上；身旁的六师兄拉着二师姊的衣角，好似和我一样犹豫。</p>
+  </mono>
+  <event action="hide_ui"/>
+  <motion chara="004" action="hide"/>
+  <motion chara="011" action="hide"/>
+  <delay t="0.5"/>
+  <motion chara="004" action="show" pos="left" img="苏湄-凝视-幼年-中景"/>
+  <motion chara="009" action="show" pos="right" img="秦素衣-标准-幼年-中景"/>
+  <delay t="0.1"/>
+  <event action="show_ui"/>
+  <dialog chara="009">「师父……要去……多久？」</dialog>
+  <motion chara="004" action="img_trans" img="苏湄-环视-幼年-中景"/>
+  <text>我问二师姊。</text>
+  <text>被师父带回山时，我什么也不记得，连话都忘了怎么说。即使现在，我说话还是很慢。</text>
+  <dialog chara="004">「我可不晓得——少则三五天，多则两三月吧。」</dialog>
+  <text>二师姊苏湄回答。</text>
+  <motion chara="004" action="img_trans" img="苏湄-凝视-幼年-中景"/>
+  <mono pageend="true">
+    <p/>
+    <p>师父和大师姊林朝雨不在时，太虚山就由二师姊管理。她才十三岁，就已深得师父信任。太虚座下七个弟子，就只她和大师姊获准与师父一同外出。</p>
+  </mono>
+  <mono pageend="true">
+    <p/>
+    <p>这样的师姊，面无表情地注视着远处的山林。</p>
+    <p/>
+    <p>往她的视线望去，我什么也看不见。[em italic]但或许她是能见到什么的，[/em]我想：说不得她正望着师父与朝雨姊姊的身影，一步步远去。</p>
+  </mono>
+  <motion chara="004" action="img_trans" img="苏湄-标准-幼年-中景"/>
+  <dialog chara="004">「你想下山吗？」</dialog>
+  <text>冷不丁地，二师姊问。</text>
+  <motion chara="004" action="img_trans" img="苏湄-笑-幼年-中景"/>
+  <dialog chara="009">「咦……我……」</dialog>
+  <dialog chara="004">「……讶异什么。咱们六个活蹦乱跳的，总不能成年前一直闷在山里吧？如果你嫌这儿厌了，就跟我说，我带你出去走走。」</dialog>
+  <motion chara="004" action="img_trans" img="苏湄-认真-幼年-中景"/>
+  <dialog chara="009">「可……师父……」</dialog>
+  <text>只有林朝雨和苏湄可以下山，这似是一条默认的规矩。</text>
+  <dialog chara="004">「喔，她应该知道吧。」</dialog>
+  <motion chara="004" action="img_trans" img="苏湄-环视-幼年-中景"/>
+  <dialog chara="004">
+    <p>「不过，师父是不会理会的；孩子们大了，早晚要出去见识见识。但外面的世界可险恶得多呵，盖世武功怎奈何人心歹毒？</p>
+    <p>要么让师妹们溜出去惹祸，要么由我领着看着——想来师父也会选后者罢。」</p>
+  </dialog>
+  <mono inline="true">
+    <p/>
+    <p>听起来，二师姊的说话轻描淡写，胸有成竹。</p>
+  </mono>
+  <mono inline="true">一件有违常理的事情，在她说来竟是那么顺理成章，连我也不由得有些信服。</mono>
+  <mono pageend="true">下山……啊，我来到太虚山已三个月了，这儿的一砖一瓦，一草一木，都不再新鲜，渐渐变得乏善无趣了起来。拜师之前的事情，我全都不记得了，这座太虚山就是我所知的整个世界，在那以外……</mono>
+  <motion chara="004" action="hide"/>
+  <motion chara="009" action="hide"/>
+  <bgm looptimes="0"/>
+  <mono inline="true">
+    <p/>
+    <p/>
+    <p>……在那以外……</p>
+  </mono>
+  <mono inline="true">
+    <p/>
+    <p/>
+    <p>……可险恶得多呵……</p>
+  </mono>
+  <mono pageend="true">
+    <p/>
+    <p/>
+    <p>二师姊随口的一句话流入脑海，忽然，我想起了海边。</p>
+  </mono>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
+  <cg img="CG_回忆篇_秦素衣"/>
+  <mono inline="true">
+    <p/>
+    <p>唰——</p>
+    <p/>
+    <p>呀——哑哑——</p>
+  </mono>
+  <mono pageend="true">
+    <p/>
+    <p/>
+    <p>那时候，师父在做什么呢？</p>
+  </mono>
+  <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
+  <bg img="PureBlack"/>
+  <cg/>
+  <text>我的身体颤抖起来，这奇怪的战栗毫无来由，全然无法抑止。我低下头，抱住自己的臂膀……</text>
+  <dialog chara="099">「喂——」</dialog>
+  <text>（师父不会做没意义的事，所以不要记起来，不要记起来。）</text>
+  <dialog chara="099">「喂！」</dialog>
+  <transition mode="dissolve" in="1" stop="0.5" out="1" color="#FFFFFF"/>
+  <bg img="太虚山1"/>
+  <motion chara="004" action="show" pos="center" img="苏湄-哀伤-幼年-近景"/>
+  <text>二师姊的叫嚷声让我惊醒。苏湄蹲在我面前，紧张地瞪着我。</text>
+  <bgm id="月下昆仑（慢灵）"/>
+  <dialog chara="004">「你还好吗？」</dialog>
+  <dialog chara="009">「没事……」</dialog>
+  <motion chara="004" action="hide"/>
+  <motion chara="004" action="show" pos="left" img="苏湄-凝视-幼年-中景"/>
+  <motion chara="009" action="show" pos="right" img="秦素衣-笑-幼年-中景"/>
+  <text>我摇摇头。苏湄呼了口气，显是放松了下来。</text>
+  <motion chara="004" action="img_trans" img="苏湄-宿命-幼年-中景"/>
+  <dialog chara="004">「对不住，我不该……唉，其实是太早了。你才刚刚入门，连山上也没待习惯呢。」</dialog>
+  <dialog chara="009">「不会，师姊……谢谢。」</dialog>
+  <motion chara="004" action="img_trans" img="苏湄-哀伤-幼年-中景"/>
+  <motion chara="009" action="img_trans" img="秦素衣-标准-幼年-中景"/>
+  <dialog chara="004">「你害怕吗？」</dialog>
+  <text>二师姊问，</text>
+  <dialog chara="004">「你害怕外面的世界吗？」</dialog>
+  <text>不怕。我想说。但，我却点了点头。</text>
+  <motion chara="004" action="img_trans" img="苏湄-凝视-幼年-中景"/>
+  <dialog chara="004">「这样啊。」</dialog>
+  <text>苏湄思忖道，</text>
+  <motion chara="004" action="img_trans" img="苏湄-笑-幼年-中景"/>
+  <dialog chara="004" inline="true">「那，你就跟在师父身边好了。</dialog>
+  <dialog chara="004">我会去跟师父说……如果你想离山，我就请师父带着你。」</dialog>
+  <motion chara="004" action="img_trans" img="苏湄-环视-幼年-中景"/>
+  <dialog chara="009">「不…不想！」</dialog>
+  <text>我连忙摇手。怎能让这种小事叨扰师父？而我极力拒绝的模样，在二师姊看来却是另一番光景。</text>
+  <motion chara="004" action="img_trans" img="苏湄-宿命-幼年-中景"/>
+  <dialog chara="004">「是吗？那也依你。可是素衣，你不能永远留在这座山上……那不是你我的价值。」</dialog>
+  <dialog chara="004">「或早或晚，你会明白这一点：人要是没了价值，就什么也得不到。你与我，我们只有出了这太虚山……」</dialog>
+  <text>她的声音渐渐低了下去。</text>
+  <dialog chara="004">「……只有出了这太虚山。」</dialog>
+  <text inline="true">啾——我听见奇怪的声音，原来是师姊吹了声口哨。</text>
+  <text>
+    <p/>
+    <p>她看着我，像是有什么话要说却阻住，迟疑了一下才开口：</p>
+  </text>
+  <dialog chara="004" inline="true">「……外面的世界很可怖。既残酷又危险，绝非此间这般乐土；</dialog>
+  <dialog chara="004">但它却也很美妙。」</dialog>
+  <motion chara="004" action="img_trans" img="苏湄-认真-幼年-中景"/>
+  <dialog chara="004">「别怕，素衣，只要待在师父身边，所有可怖、残酷和危险都会离你远去。」</dialog>
+  <dialog chara="004">「只要待在师父身边，你就什么都不用怕。」</dialog>
+  <bgm looptimes="0"/>
+  <event action="hide_ui"/>
+  <motion chara="004" action="hide"/>
+  <motion chara="009" action="hide"/>
+  <transition mode="dissolve" in="3" stop="0.5" out="0.5" color="#000000"/>
+  <bg img="PureBlack"/>
+  <delay t="0.5"/>
+  <event action="show_ui"/>
+  <mono pageend="true">
+    <p/>
+    <p/>
+    <p/>
+    <p/>
+    <p>只要待在师父身边……</p>
+  </mono>
+  <event action="hide_ui"/>
+  <bg img="BGPureWhite00" duration="3"/>
+  <delay t="3"/>
+  <transition mode="eye" in="0" stop="0.5" out="3" color="#FFFFFF"/>
+  <bg img="山火2"/>
+  <event action="show_ui"/>
+  <bgm id="国势倾危（燃）"/>
+  <mono inline="true">
+    <p/>
+    <p>此时夜过四更，周围却并不清静。</p>
+  </mono>
+  <mono pageend="true">
+    <p/>
+    <p/>
+    <p>身后，熊熊的大火仍在燃烧，冲天火光令太虚山亮如白昼；远处的山林里响起稀疏的人声，想来因着这场大火，附近村镇里的百姓都赶来了吧？还有那些寻仙之人，他们总在山脚徘徊，这时候，脚程快的人兴许已在附近……</p>
+  </mono>
+  <mono pageend="true">
+    <p/>
+    <p/>
+    <p/>
+    <p/>
+    <p>[em italic]（这就是外面的世界，多么可怕啊。）[/em]</p>
+  </mono>
+  <mono inline="true">
+    <p/>
+    <p>若在往常，喧闹的人群只会令我安心；但此刻，我谁也不想见，谁也害怕见到。我不能让任何人看见我，不能让任何人知道——</p>
+  </mono>
+  <mono inline="true">
+    <p/>
+    <p/>
+    <p>不能让任何人发现我，「染香剑」的发面被火烬薰得焦黑。</p>
+  </mono>
+  <mono inline="true">
+    <p/>
+    <p/>
+    <p>不能让任何人发现我，「秦素衣」的双手满是干涸血迹。</p>
+  </mono>
+  <mono pageend="true">
+    <p/>
+    <p/>
+    <p>不能让任何人发现我，「太虚第七徒」怀抱一具尸体。</p>
+  </mono>
+  <mono pageend="true">
+    <p/>
+    <p/>
+    <p/>
+    <p/>
+    <p>——仙人的尸体。</p>
+  </mono>
+  <text>[em italic]（如果有人看见我，如果二师姊知道了……我会怎样？）[/em]</text>
+  <text>喧喧人声靠近。火光在远处的林中摇曳，有如流萤夜照。</text>
+  <text>——我很害怕。</text>
+  <mono inline="true">
+    <p/>
+    <p>我心乱如麻。</p>
+  </mono>
+  <mono inline="true">师父死去时，我仿佛听见剑心破碎的声音——震惊、悔恨与痛苦将我凝练多年的止水心击碎，但慌乱的我并没意识到……</mono>
+  <mono pageend="true">直到此刻，我才恍惚明白：它是彻彻底底地粉碎了，再也凝不回来。</mono>
+  <transition mode="clock" in="0.3" stop="0.3" out="0.3" color="#000000"/>
+  <delay t="0.3"/>
+  <se id="01-34男沙地重摔"/>
+  <motion chara="-4" action="shake" duration="0.3" range="300" direction="default"/>
+  <mono inline="true">
+    <p/>
+    <p>脚下一个趔趄，我摔倒在地，怀中之人脱离掌握，滚落一旁。</p>
+  </mono>
+  <mono inline="true">
+    <p/>
+    <p/>
+    <p>地面是松软的泥土和散发嫩香的青草，我没有感到痛楚。</p>
+  </mono>
+  <mono pageend="true">
+    <p/>
+    <p/>
+    <p>我伸手抓住师父的遗蜕，手指握住一截冰冷的，已无气息的人肉——那是师父的手腕，噢，天下无敌的真仙赤鸢……</p>
+  </mono>
+  <mono pageend="true">
+    <p/>
+    <p/>
+    <p/>
+    <p/>
+    <p/>
+    <p/>
+    <p>                     师父已死。</p>
+  </mono>
+  <text>……</text>
+  <mono inline="true">
+    <p/>
+    <p/>
+    <p>有什么落在我的头上、肩上，仿佛雨水，其实只是灰烬。</p>
+  </mono>
+  <mono inline="true">我抱起师父，小心地走下山。</mono>
+  <mono inline="true">我心想：师父已经死了，但她是仙人，仙人不死不灭。我这么想，是因为我内心惧怕。我惧怕师姊，惧怕外人，惧怕罪孽，惧怕来生，惧怕未来，惧怕眼下……</mono>
+  <mono pageend="true">我惧怕的事情有那么多，就像飘散在天空的燃灰，就像山林路上晃动的夜光，密密麻麻，从四面八方向我落下。</mono>
+  <mono inline="true">
+    <p/>
+    <p/>
+    <p>但是只要待在师父身边……</p>
+  </mono>
+  <mono inline="true">
+    <p/>
+    <p/>
+    <p>只要待在师父身边……</p>
+  </mono>
+  <text>我抱着师父，继续走着，小心翼翼，小心翼翼，避开所有人。</text>
+  <mono pageend="true">
+    <p/>
+    <p/>
+    <p>只要待在师父身边，我就什么都不用怕。</p>
+  </mono>
+  <transition mode="fade" in="2" stop="0.5" out="0" color="#000000"/>
+  <bgm looptimes="0"/>
+  <transition mode="fade" in="0" stop="0.5" out="1" color="#000000"/>
+  <bg img="Chapter03"/>
+  <delay t="2.5"/>
+  <se id="01-10标题试剑"/>
+  <delay t="3"/>
+  <transition mode="fade" in="2" stop="3" out="1" color="#000000"/>
+  <bg img="PureBlack"/>
+  <event action="goto" to="01"/>
+</scene>

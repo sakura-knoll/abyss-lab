@@ -2885,8 +2885,10 @@ function getArchiveItemIdByAid(aid) {
     case 'c6a6ddc0c3d637d9': // lingshuang
       return '8'
     case '96d0ac44fb43c563': // jingwei
+      return '18'
+    case 'f3df608a1e830b3f': // chiye
       return '1'
-    case 'abf384293a81b6c7': // phantom
+    case 'e263bb8b7a512d53': // phantom
       return '12'
     case '2e4bba1abf781c9f': // li shin
       return '11'
@@ -2902,8 +2904,12 @@ function addArchiveItemId(id) {
   localStorage.setItem(archiveItemsKey, JSON.stringify([...currentItemSet]))
 }
 
-const defaultItemIds = ['18']
+const defaultItemIds = []
 function getArchiveItemIds() {
+  return ['17', '18', ...loadArchiveItemIds()]
+}
+
+function loadArchiveItemIds() {
   try {
     const rawData = localStorage.getItem(archiveItemsKey)
     if (rawData == null) {
