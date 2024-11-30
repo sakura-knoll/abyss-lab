@@ -10,34 +10,6 @@ function compileNovel(locale: string) {
     `../../public/novels/7s/${locale}/xml`
   )
 
-  // function splitScene(chapterNumber: number) {
-  //   const xmlFilePath = path.join(xmlDirPath, `chapter${chapterNumber}.xml`)
-
-  //   const data = fs.readFileSync(xmlFilePath).toString()
-
-  //   const scriptContent = data
-  //     .split('\n')
-  //     .slice(3, -2)
-  //     .map((line) => line.slice(4))
-  //     .join('\n')
-  //   const scenes = scriptContent
-  //     .split('<scene')
-  //     .map((splitted) => '<scene ' + splitted.trim())
-  //     .slice(1)
-  //   for (const scene of scenes) {
-  //     const id = scene.match(/<scene id="([0-9]+)"/)![1]
-
-  //     const sceneXmlPath = path.join(
-  //       xmlDirPath,
-  //       `scene-${chapterNumber}-${id}.xml`
-  //     )
-
-  //     fs.writeFileSync(sceneXmlPath, scene)
-  //   }
-  // }
-
-  // chapters.forEach(splitScene)
-
   const list = fs.readdirSync(xmlDirPath)
 
   function concatScenes(chapterNumber: number) {
@@ -69,4 +41,29 @@ function compileNovel(locale: string) {
   chapters.forEach(concatScenes)
 }
 
+function compileArchives() {
+  const fileNames = fs
+    .readdirSync(path.join(__dirname, '../../public/novels/7s/ko-KR/archives'))
+    .filter((fileName) => fileName.endsWith('.txt'))
+  const archiveMap: { [key: string]: string } = {}
+  for (const fileName of fileNames) {
+    const filePath = path.join(
+      __dirname,
+      '../../public/novels/7s/ko-KR/archives',
+      fileName
+    )
+
+    const description = fs.readFileSync(filePath).toString()
+    const [id] = fileName.split('.')
+    archiveMap[id] = description
+  }
+
+  fs.writeFileSync(
+    path.join(__dirname, '../../public/novels/7s/ko-KR/archives.js'),
+    `const archiveMap = ${JSON.stringify(archiveMap)}`
+  )
+}
+
 locales.forEach(compileNovel)
+
+compileArchives()
