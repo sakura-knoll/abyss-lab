@@ -1,13 +1,12 @@
 import fs from 'fs'
 import path from 'path'
 
-const locales = ['ko-KR', 'en-US']
 const chapters = [4, 6, 7, 11]
 
-function compileNovel(locale: string) {
+export function compileNovel(locale: string) {
   const xmlDirPath = path.join(
     __dirname,
-    `../../public/novels/7s/${locale}/xml`
+    `../../../public/novels/7s/${locale}/xml`
   )
 
   const list = fs.readdirSync(xmlDirPath)
@@ -40,30 +39,3 @@ function compileNovel(locale: string) {
 
   chapters.forEach(concatScenes)
 }
-
-function compileArchives() {
-  const fileNames = fs
-    .readdirSync(path.join(__dirname, '../../public/novels/7s/ko-KR/archives'))
-    .filter((fileName) => fileName.endsWith('.txt'))
-  const archiveMap: { [key: string]: string } = {}
-  for (const fileName of fileNames) {
-    const filePath = path.join(
-      __dirname,
-      '../../public/novels/7s/ko-KR/archives',
-      fileName
-    )
-
-    const description = fs.readFileSync(filePath).toString()
-    const [id] = fileName.split('.')
-    archiveMap[id] = description
-  }
-
-  fs.writeFileSync(
-    path.join(__dirname, '../../public/novels/7s/ko-KR/archives.js'),
-    `const archiveMap = ${JSON.stringify(archiveMap)}`
-  )
-}
-
-locales.forEach(compileNovel)
-
-compileArchives()

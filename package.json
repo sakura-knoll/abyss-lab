@@ -57,7 +57,10 @@
     "tsc": "tsc --watch",
     "node": "ts-node -T -P ./tsconfig-node.json",
     "assets-sync": "sh ./secrets/scripts/sync-public-assets.sh",
-    "compile:novels": "npm run node src/scripts/compile7sChapters.ts",
+    "compile:novels": "npm run compile:novel-7s-chapters-en && npm run compile:novel-7s-chapters-kr && npm run compile:novel-7s-archives-kr",
+    "compile:novel-7s-chapters-en": "npm run node src/scripts/compile7sChaptersEn.ts",
+    "compile:novel-7s-chapters-kr": "npm run node src/scripts/compile7sChaptersKr.ts",
+    "compile:novel-7s-archives-kr": "npm run node src/scripts/compile7sArchivesKr.ts",
     "copy-dump": "sh ./src/scripts/copyRawAssets.sh",
     "compile:raw-data": "npm run node src/scripts/compileRawData.ts",
     "test": "jest"
