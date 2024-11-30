@@ -1,9 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 
-const chapters = [4, 6, 7, 11]
-
-export function compileNovel(locale: string) {
+export function compileNovel(locale: string, chapters: number[]) {
   const xmlDirPath = path.join(
     __dirname,
     `../../../public/novels/7s/${locale}/xml`
