@@ -5,8 +5,8 @@
   <delay t="2"></delay>
   <motion chara="015" action="show" pos="center" img="老鹰-普通-叉腰-远景" duration="2"></motion>
   <text>밤이 깊었지만, 「노응」은 전혀 졸리지 않았다.</text>
-  <text>낡은 역참의 응접실에는 등불이 밝혀져, 이 불빛은 어둠과 함께 바깥의 중정(中庭)을 둘로 나누고 있었다.</text>
-  <text>「노응」은 그 중정에 서 있었다. 그리고, 가장 신뢰하는 8명의 부하들이 옆에 서서, 그의 검무를 지켜보고 있었다.</text>
+  <text>낡은 역참의 응접실에는 등불이 밝혀져, 이 불빛은 어둠과 함께 밖의 마당을 둘로 나누고 있었다.</text>
+  <text>「노응」은 그 마당에 서 있었다. 그리고, 가장 신뢰하는 8명의 부하들이 옆에 서서, 그의 검무를 지켜보고 있었다.</text>
   <motion chara="015" action="hide"></motion>
   <transition mode="move" in="1" stop="0.5" out="1" color="#000000" direction="left" custom="default"></transition>
   <bg img="废弃驿站"></bg>
@@ -24,7 +24,7 @@
   <text inline="true">그는 이 보검이 정말로 마음에 들었기에, 이렇게 여흥을 즐기고 있었다.</text>
   <text>
     <p></p>
-    <p>지금까지 이토록 완벽한 신기(神器)는 본 적도 없었다.</p>
+    <p>지금까지 이토록 완벽한 신기(神器)는 본 적도 없었다.</p>
   </text>
   <motion chara="015" action="hide"></motion>
   <transition mode="move" in="0.5" stop="0.2" out="0.5" color="#000000" direction="left" custom="thick"></transition>
@@ -39,7 +39,7 @@
   <text inline="true">이는 마치 먹을 가득 머금은 붓과도 같았다. 검이 가는 곳에는 암회색 문양이 길게 남아, 한 폭의 서예를 보여주는 듯하였다.</text>
   <text>
     <p></p>
-    <p>검에 새겨진 문양의 아름다움은 다른 무엇보다도 빼어났다.</p>
+    <p>검에 새겨진 문양의 아름다움은 그 무엇보다도 빼어났다.</p>
   </text>
   <se id="01-27大刀横挥"></se>
   <text inline="true">「노응」은 검을 재빠르게 내지르고는, 빠르게 팔의 힘을 거두었다. 검신은 움직이지 않고, 검 끝만이 웅웅거리며 진동했다.</text>
@@ -136,7 +136,7 @@
     <p>처음부터, 그는 나찰인을 오늘 밤 최대의 위험요소로 여기고 있었다.</p>
     <p>그 나찰인의 향방을 파악하지 못하고 있음에, 그는 자신감을 크게 잃고 말았다.</p>
   </text>
-  <text>나찰인이 멀리 도망갔을지도, 아니면 어딘가에 숨어서 기회를 보고 있을 수도 있었다—— 어느 쪽이든, 이 상황은 그의 마음속에 가시처럼 박혀있는 듯하여, 당장이라도 뽑지 않으면 마음이 편해지지 못할 것 같았다.</text>
+  <text>나찰인이 멀리 도망갔을지도, 아니면 어딘가에 숨어서 기회를 보고 있을 수도 있었다——어느 쪽이든, 이 상황은 그의 마음속에 가시처럼 박혀있는 듯하여, 당장이라도 뽑지 않으면 마음이 편해지지 못할 것 같았다.</text>
   <dialog chara="002">「저기요, 찾는 건 그만두시죠, 지금 당신의 상대는 접니다.」</dialog>
   <cg duration="2" img="CG_第一折_鹰李对峙_鹰惊李抱拳_哼"></cg>
   <text>소녀가 내밀고 있던 손을 거두고, 주먹을 쥐었다.</text>
@@ -154,16 +154,15 @@
   <delay t="0.7"></delay>
   <se id="01-40轩辕剑掉落声"></se>
   <bgm id="传奇诞生"></bgm>
-  <text>눈 깜짝할 사이, 팔에선 고통이 느껴지며, 보검이 그의 손에서 떨어졌다.</text>
+  <text>눈 깜짝할 사이, 팔에서 고통이 느껴지며, 보검이 그의 손에서 떨어졌다.</text>
   <dialog chara="015">「너——」</dialog>
   <se id="01-23腿部命中"></se>
   <motion chara="-4" action="shake" duration="0.1" range="50" direction="default"></motion>
-  <text>가슴에 주먹이 또 한 번.
-</text>
+  <text>가슴에 주먹이 또 한 번.</text>
   <text>「노응」은 비틀거리며 몇 보 물러났고, 급히 호흡을 가다듬으려 했지만, 오장이 뒤틀려, 쉽게 진정하긴 어려웠다.</text>
   <bg img="废弃驿站院内" duration="0.5"></bg>
   <motion chara="015" action="show" pos="center" img="老鹰-惊讶-肉搏备战-中景"></motion>
-  <dialog chara="015">「……이 녀석이!」</dialog>
+  <dialog chara="015">「……이 녀석!」</dialog>
   <text>
     <p>주먹엔 내공이 담기지 않아, 충격은 있었지만 내상을 입을 정도는 아니었다.</p>
     <p>하지만 소녀의 경공은, 「노응」에겐 너무나도 생소한 것이었다.</p>

@@ -2862,35 +2862,35 @@ function appendExtraAchievements(existingList) {
 
 function getArchiveItemIdByAid(aid) {
   switch (aid) {
-    case 'fdc3d5e2f6d96f8d': // sushang
+    case 'li-sushang':
       return '2'
-    case 'c6045ef06bed0a3f': // eagle
+    case 'eagle':
       return '13'
     case 'otto':
       return '3'
-    case '0587835ecd47f23d': // otto update #1
+    case 'otto1':
       return '20'
-    case '809d736ce396e092': // sumei
+    case 'su-mei':
       return '5'
-    case 'fcf2a1388f09b18b': // lin zhaoyu
+    case 'lin-zhaoyu':
       return '4'
-    case 'f264952df7ffa72c': // qin suyi
+    case 'qin-suyi':
       return '10'
-    case 'c6df415ec80024b4': //otto update #2
+    case 'otto2':
       return '19'
-    case 'f2980e56d3697a89': // ma feima
+    case 'ma-feima':
       return '9'
-    case '0ecde88422bfcefe': // ma update
+    case 'ma-feima1':
       return '21'
-    case 'c6a6ddc0c3d637d9': // lingshuang
+    case 'ling-shuang':
       return '8'
-    case '96d0ac44fb43c563': // jingwei
+    case 'immortal':
       return '18'
-    case 'f3df608a1e830b3f': // chiye
+    case 'chiyuan':
       return '1'
-    case 'e263bb8b7a512d53': // phantom
+    case 'phantom':
       return '12'
-    case '2e4bba1abf781c9f': // li shin
+    case 'li-shen':
       return '11'
     default:
       return null
