@@ -2876,6 +2876,8 @@ function getArchiveItemIdByAid(aid) {
       return '4'
     case 'qin-suyi':
       return '10'
+    case 'karen':
+      return '17'
     case 'otto2':
       return '19'
     case 'ma-feima':
@@ -2906,7 +2908,7 @@ function addArchiveItemId(id) {
 
 const defaultItemIds = []
 function getArchiveItemIds() {
-  return ['17', '18', ...loadArchiveItemIds()]
+  return ['18', ...loadArchiveItemIds()]
 }
 
 function loadArchiveItemIds() {
